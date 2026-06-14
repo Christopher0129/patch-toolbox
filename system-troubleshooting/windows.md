@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6548**
+**总计条目 / Total entries: 6593**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -90888,5 +90888,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1220051#reply8
+
+---
+
+#### 6549. Windows failed to boot with INACCESSIBLE_BOOT_DEVICE after removing a partition
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, boot, partitioning, bsod | Score: 5 | Views: 103 | Answers: 1 | Created: 2026-06-14
+
+**解决方案 / Solution**:
+TL;DR: winload.efi and NT Kernel (partmgr.sys) has different opinions on the partition numbering when there is a gap (empty slot) between partitions in GPT. winload.efi thinks the system partition is the 5th partition, while NT thinks it is the 4th partition, causing INACCESSIBLE_BOOT_DEVICE. Sorting the partitions using gdisk fixes it. Here is the entire debugging process for information. It is extremely hard to debug it without noting the GPT partition table. I attached kernel debugger (KDNET) from another machine. Connected to Windows 10 19041 x64 target at (...), ptr64 TRUE Kernel Debugger connection established. This means bootmgr and winload.efi have succeeded and passed control flow to NT Kernel. Soon the debugger breaks at the bugcheck. ******************************************************************************* * * * Bugcheck Analysis * * * ******************************************************************************* INACCESSIBLE_BOOT_DEVICE (7b) During the initialization of the I/O system, it is possible that the driver for the boot device failed to initialize the device that the system is attempting to boot from, or it is possible for the file system that is supposed to read that device to either fail its initialization or to simply not recognize the data on the boot device as a file system structure that it recognizes. In the former case, the argument (#1) is the address of a Unicode string data structure that is the ARC name of the device from which the boot was being attempted. In the latter case, the argument (#1) is the address of the device object that could not be mounted. If this is the initial setup of the system, then this error can occur if the system was installed on an unsupported disk or SCSI controller. Note that some controllers are supported only by drivers which are in the Windows Driver Library (WDL) which requires the user to do a custom install. See the Windows Driver Library for more information. This error can also be caused by the installation of a new SCSI adapter or disk controller or repartitioning the disk with the system partition. If this is the case, on x86 systems the boot.ini file must be edited or on ARC systems setup must be run. See the "Advanced Server System Administrator's User Guide" for information on changing boot.ini. If the argument is a pointer to an ARC name string, then the format of the first two (and in this case only) longwords will be: USHORT Length; USHORT MaximumLength; PWSTR Buffer; That is, the first longword will contain something like 00800020 where 20 is the actual length of the Unicode string, and the next longword will contain the address of buffer. This address will be in system space, so the high order bit will be set. If the argument is a pointer to a device object, then the format of the first word will be: USHORT Type; That is, the first word will contain a 0003, where the Type code will ALWAYS be 0003. Note that this makes it immediately obvious whether the argument is a pointer to an ARC name string or a device object, since a Unicode string can never have an odd number of bytes, and a device object will always have a Type code of 3. Arguments: Arg1: ffffc683a4407758, Pointer to the device object or Unicode string of ARC name Arg2: ffffffffc0000034, (reserved) Arg3: 0000000000000000, (reserved) Arg4: 0000000000000001, (reserved) Debugging Details: ------------------ BUGCHECK_CODE: 7b BUGCHECK_P1: ffffc683a4407758 BUGCHECK_P2: ffffffffc0000034 BUGCHECK_P3: 0 BUGCHECK_P4: 1 FAULTING_THREAD: ffffcb88aaaae180 PROCESS_NAME: System STACK_TEXT: ffffc683`a4406f68 fffff804`54117e32 : ffffc683`a44070d0 fffff804`53f7f860 00000000`00000000 00000000`00000000 : nt!DbgBreakPointWithStatus ffffc683`a4406f70 fffff804`54117416 : 00000000`00000003 ffffc683`a44070d0 fffff804`54015f20 00000000`0000007b : nt!KiBugCheckDebugBreak+0x12 ffffc683`a4406fd0 fffff804`53ffdff7 : fffff804`50f0a250 fffff804`54202cce 00000000`00007530 00000000`000000c8 : nt!KeBugCheck2+0x946 ffffc683`a44076e0 fffff804`53fb84dc : 00000000`0000007b ffffc683`a4407758 ffffffff`c0000034 00000000`00000000 : nt!KeBugCheckEx+0x107 ffffc683`a4407720 fffff804`5465e099 : ffff938a`a8e958c0 ffff938a`00000001 ffffffff`800002a0 00000000`00000000 : nt!PnpBootDeviceWait+0x178 ffffc683`a44077c0 fffff804`5463f5d1 : fffff804`00000000 fffff804`54845800 fffff804`54845cd0 fffff804`50f0a250 : nt!IopInitializeBootDrivers+0x511 ffffc683`a4407970 fffff804`54666ea1 : fffff804`5a88cfc0 fffff804`50f0a250 fffff804`543b3b30 fffff804`50f0a200 : nt!IoInitSystemPreDrivers+0xa71 ffffc683`a4407ab0 fffff804`543b3b6b : fffff804`50f0a250 fffff804`54847108 fffff804`543b3b30 fffff804`50f0a250 : nt!IoInitSystem+0x15 ffffc683`a4407ae0 fffff804`53eec195 : ffffcb88`aaaae180 fffff804`543b3b30 fffff804`50f0a250 00000000`c0ff7f00 : nt!Phase1Initialization+0x3b ffffc683`a4407b10 fffff804`54006ef8 : fffff804`512b6180 ffffcb88`aaaae180 fffff804`53eec140 00000000`000080ff : nt!PspSystemThreadStartup+0x55 ffffc683`a4407b60 00000000`00000000 : ffffc683`a4408000 ffffc683`a4401000 00000000`00000000 00000000`00000000 : nt!KiStartSystemThread+0x28 SYMBOL_NAME: nt!PnpBootDeviceWait+178 MODULE_NAME: nt IMAGE_NAME: ntkrnlmp.exe IMAGE_VERSION: 10.0.19041.7181 BUCKET_ID_FUNC_OFFSET: 178 OS_VERSION: 10.0.19041.1 BUILDLAB_STR: vb_release OSPLATFORM_TYPE: x64 OSNAME: Windows 10 (unrelated fields have been omitted) The bugcheck Arg1 points to a UNICODE_STRING \ArcName\multi(0)disk(0)rdisk(0)partition(5) , and Arg2 is STATUS_OBJECT_NAME_NOT_FOUND (0xc0000034). This means NT tries to boot from partition(5) but fails to find it. I listed all the partitions under \ArcName : 1: kd> !object \ArcName Object: ffffb088a606f920 Type: (ffff8009a02bd4e0) Directory ObjectHeader: ffffb088a606f8f0 (new version) HandleCount: 0 PointerCount: 24 Directory Object: ffffb088a6040d90 Name: ArcName Hash Address Type Name ---- ------- ---- ---- 02 ffffb088a97a8d60 SymbolicLink multi(0)disk(0)rdisk(0) 12 ffffb088a97a8e80 SymbolicLink multi(0)disk(0)rdisk(0)partition(1) ffffb088a97a8f10 SymbolicLink multi(0)disk(0)rdisk(0)partition(2) 19 ffffb088a97a8610 SymbolicLink multi(0)disk(0)rdisk(0)partition(3) ffffb088a953efa0 SymbolicLink multi(0)disk(0)rdisk(0)partition(4) (unrelated entries have been omitted) The output is significant. It figured out that storage drivers are running well, and partition(5) just does not exist. Instead, partition(4) should be system partition. Now check which partition winload.efi has passed to NT to boot from, which can be confirmed in KeLoaderBlock->ArcBootDeviceName and HKLM\SYSTEM\CurrentControlSet\Control\SystemBootDevice : 1: kd> dt poi(nt!KeLoaderBlock) nt!_LOADER_PARAMETER_BLOCK ... +0x0b8 ArcBootDeviceName : 0xfffff802`70600980 "multi(0)disk(0)rdisk(0)partition(5)" +0x0c0 ArcHalDeviceName : 0xfffff802`70600880 "multi(0)disk(0)rdisk(0)partition(1)" +0x0c8 NtBootPathName : 0xfffff802`70600940 "\Windows\" +0x0d0 NtHalPathName : 0xfffff802`705a5ba0 "\" +0x0e0 NlsData : 0xfffff802`70723fc0 _NLS_DATA_BLOCK +0x0e8 ArcDiskInformation : 0xfffff802`70600eb0 _ARC_DISK_INFORMATION +0x0f0 Extension : 0xfffff802`705a93b0 _LOADER_PARAMETER_EXTENSION +0x148 OsBootstatPathName : (null) +0x150 ArcOSDataDeviceName : (null) +0x158 ArcWindowsSysPartName : (null) 1: kd> !reg q \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control ... [ValueType] [ValueName] [ValueData] ... REG_SZ SystemBootDevice multi(0)disk(0)rdisk(0)partition(5) REG_SZ FirmwareBootDevice multi(0)disk(0)rdisk(0)partition(1) REG_DWORD LastBootSucceeded 0 REG_DWORD LastBootShutdown 1 REG_DWORD DirtyShutdownCount 3 (unrelated entries have been omitted) It is obvious that winload.efi thinks system partition is partition(5) instead of partition(4) . Given that BCD is correct and all the partitions exist under \ArcName , winload.efi and NT storage subsystem are all working as expected. This discrepancy led me to analyze the architectural differences between how winload.efi and NT read the GPT table. winload.efi (absolute indexing): The GPT is fundamentally an array of 128 slots. winload.efi checks the BCD, finds the target Partition GUID, and locates it in the physical GPT array. In this case it finds it in Slot 5, and then set ArcBootDeviceName as partition(5). NT Kernel (sequential indexing): Once the kernel takes over, partmgr.sys enumerates the disk. Crucially, it skips empty GPT slots and names partitions sequentially. So there must be an "empty slot" before the system partition, and there is it! Number Start (sector) End (sector) Size Code Name 1 2048 2099199 1024.0 MiB EF00 EFI system partition 2 2099200 2131967 16.0 MiB 0C01 Microsoft reserved ... 3 2131968 530618367 252.0 GiB 8304 Linux data partition 5 530618368 950050815 200.0 GiB 0700 Basic data partition Obviously, this "GPT hole" comes from the deleted swap partition. winload.efi sees the system in Slot 5 -> demands partition(5). NT sees Slot 1, 2, 3, skips the empty Slot 4, and counts the system partition in Slot 5 as the 4th valid partition -> names it partition(4). This can be confirmed using diskpart : DISKPART> lis par Partition ### Type Size Offset ------------- ---------------- ------- ------- Partition 1 System 1024 MB 1024 KB Partition 2 Reserved 16 MB 1025 MB Partition 3 Unknown 252 GB 1041 MB Partition 4 Primary 200 GB 253 GB The mismatch results in STATUS_OBJECT_NAME_NOT_FOUND and then the bugcheck INACCESSIBLE_BOOT_DEVICE. The fix is pretty simple: use gdisk on the disk and run s to sort the partition. After that, the empty GPT slot is fixed. Number Start (sector) End (sector) Size Code Name 1 2048 2099199 1024.0 MiB EF00 EFI system partition 2 2099200 2131967 16.0 MiB 0C01 Microsoft reserved ... 3 2131968 530618367 252.0 GiB 8304 Linux data partition 4 530618368 950050815 200.0 GiB 0700 Basic data partition To manually reproduce it, gdisk 's t (transpose two partition table entries) can move the entry to a specific slot. After that, Windows boots successfully. I have never ever seen such a beautiful Windows boot after dozen of hours of headache. In conclusion, this shows how invaluable live kernel debugging is. Without looking at the !object \ArcName tree, it’s virtually impossible to distinguish a "GPT Hole" indexing mismatch from a missing storage driver or something else. Also thanks for Gemini 3.1 Pro helping diagnosing it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938416/windows-failed-to-boot-with-inaccessible-boot-device-after-removing-a-partition
+
+---
+
+#### 6550. Computer shuts off Internet after 10:30pm
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5pczm/computer_shuts_off_internet_after_1030pm/
+
+---
+
+#### 6551. Desktop icons are missing their bottom-left corner (Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5s3nr/desktop_icons_are_missing_their_bottomleft_corner/
+
+---
+
+#### 6552. Bump on my laptop charger. Should I be worried?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5qjx0/bump_on_my_laptop_charger_should_i_be_worried/
+
+---
+
+#### 6553. Third monitor not receiving signal after laptop goes to sleep and is turned back on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5x691/third_monitor_not_receiving_signal_after_laptop/
+
+---
+
+#### 6554. Laptop suddenly went to blue screen and is now black
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5wx20/laptop_suddenly_went_to_blue_screen_and_is_now/
+
+---
+
+#### 6555. Games crashing at random- stable on only when disabling ASUS CPU boost (Turbo mode)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5vlhs/games_crashing_at_random_stable_on_only_when/
+
+---
+
+#### 6556. PC not turning on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5rirz/pc_not_turning_on/
+
+---
+
+#### 6557. Can't Uninstall program
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5uebn/cant_uninstall_program/
+
+---
+
+#### 6558. I AM STILL STUPID AND WINDOWS STILL WONT INSTALL
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5slwr/i_am_still_stupid_and_windows_still_wont_install/
+
+---
+
+#### 6559. Transferring Video8 / Hi8 tapes to DVD using a Sony RDR-HXD870
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5y5me/transferring_video8_hi8_tapes_to_dvd_using_a_sony/
+
+---
+
+#### 6560. Screen randomly freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5y3c3/screen_randomly_freezes/
+
+---
+
+#### 6561. Dvd player keeps registering inputs when I’m not pressing anything
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5y1m7/dvd_player_keeps_registering_inputs_when_im_not/
+
+---
+
+#### 6562. Storage Spaces Headers Cleared & Changed Serial Number
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5xts0/storage_spaces_headers_cleared_changed_serial/
+
+---
+
+#### 6563. Keyboard and mouse randomly disconnecting and reconnecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5xm09/keyboard_and_mouse_randomly_disconnecting_and/
+
+---
+
+#### 6564. Pc stuck in a restart loop because of blue screen of death, how to fix ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5x13c/pc_stuck_in_a_restart_loop_because_of_blue_screen/
+
+---
+
+#### 6565. Everytime I delete a program and reinstall it, it doesn't return to default settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5x0yy/everytime_i_delete_a_program_and_reinstall_it_it/
+
+---
+
+#### 6566. How can I force my game below lowest graphics for amd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5wv5h/how_can_i_force_my_game_below_lowest_graphics_for/
+
+---
+
+#### 6567. I tried putting Path Tracing: the GPU went up to 80 degrees, is that normal?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5wg4j/i_tried_putting_path_tracing_the_gpu_went_up_to/
+
+---
+
+#### 6568. 12 Gig folder Can't fit In A 128 gig flash drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5gnd5/12_gig_folder_cant_fit_in_a_128_gig_flash_drive/
+
+---
+
+#### 6569. unknown sound appearing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5w5vz/unknown_sound_appearing/
+
+---
+
+#### 6570. Task Manager Takes a Long Time to Close
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5w0za/task_manager_takes_a_long_time_to_close/
+
+---
+
+#### 6571. Need Help: MSI Laptop completely dead after Automatic Repair (wrong USB-C charger used)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5q2c5/need_help_msi_laptop_completely_dead_after/
+
+---
+
+#### 6572. HDMI issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u5vou0/hdmi_issue/
+
+---
+
+#### 6573. [V2EX] 路由器 IPV6 问题
+
+**问题描述 / Problem Description**:
+现在有大佬在线吗 光猫下面两台路由器 路由器 A ipv6 正常 路由器 B ipv6 连不通 路由器 B 刷了 Openwrt 固件 之前是可以正常使用的，但是忘记了怎么配置，现在可以给下面的设备分配 2 开头的 ipv6 地址，但是测试是不通的，有没有大佬帮忙解决下，星巴克奉上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220404#reply1
+
+---
+
+#### 6574. [V2EX] 好奇 LLM 厂商是怎么给模型定价的
+
+**问题描述 / Problem Description**:
+比如输出 1M 要多少钱，那他是怎么算生产 1M 的成本的，电力、硬件、维护
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220395#reply2
+
+---
+
+#### 6575. [V2EX] 已婚有娃长期异地工作应该怎么选择？
+
+**问题描述 / Problem Description**:
+基本情况： 1. 年龄 30 ，在一线城市某小厂多年，年收入 30+，小平台，几乎没有继续上升的空间，也不敢轻易换工作 2. 对象在老家十八线城市市区事业单位，感情良好，年收入 10+，工作压力非常大 3. 老家离城市大概高铁 3 小时车程，加上往返车站的时间，回家一趟 5h 左右 4. 有房有车，贷款还剩 20 5. 有个刚满半岁的娃，目前是由对象和她妈在照顾。娃刚出生的时候我基本上是每周五都回家，周日再坐最晚的高铁回工作地，现在是间隔一周回去一次 6. 双方父母都是一般农村家庭，结婚前已经花费不少，无力再托举 7. 长期两地分居，只能周末见面，让我一直感觉对家庭有亏欠。自己以前也是留守儿童
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220389#reply6
+
+---
+
+#### 6576. [V2EX] 怎么 codex++那么容易坏，安装了后导致无法使用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220376#reply0
+
+---
+
+#### 6577. [V2EX] 请问现在这个环境下，钱存哪里收益高？
+
+**问题描述 / Problem Description**:
+家里人 20 年买的京东金融那些 4-5%年化的银行存款都陆续到期了，没法继续买了，现在市面上普遍在 1-2%，请问还有什么收益比较高且安全的理财方案吗？最好不要太复杂，因为家里老人不会太复杂的 大家钱都存哪里呀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220359#reply0
+
+---
+
+#### 6578. [V2EX] 求推荐一家科学上网 1.已自用超过三年 2.月付费小于 20 元 3.支持被订阅转换工具读取订阅进而在这个过程里加配规则 4. 支持在路由器的 Linux 系统中被 clash, singbox 内核中订阅使用 谢谢！
+
+**问题描述 / Problem Description**:
+1.已自用超过三年 2.月付费小于 20 元 3.支持被订阅转换工具读取订阅进而在这个过程里加配规则 4.支持在路由器的 Linux 系统中被 clash, singbox 内核中订阅使用 对流量和速度没有特别要求，我也就用用谷歌看看 X 。 非常感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220358#reply16
+
+---
+
+#### 6579. [V2EX] 带全包的床能买么？
+
+**问题描述 / Problem Description**:
+不会甲醛爆炸，儿童房能用吗？ 还是买木板不带软包的靠谱？ 软包床放几个月能入住么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220357#reply2
+
+---
+
+#### 6580. [V2EX] 公司的无线网是用户名+密码组合的，怎么连智能插座？
+
+**问题描述 / Problem Description**:
+想用下智能插座远程控制公司电脑的开关机，但是公司的 WIFI 是需要输入用户名+密码两项的，常见的智能插座都只能连接只有密码一项的 WIFI ，有没有方法其他可以连这种智能插座的啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220349#reply8
+
+---
+
+#### 6581. [V2EX] 谁知道这种无厘头二创视频怎么做的啊
+
+**问题描述 / Problem Description**:
+我看应该是 ai 做的，但是不会有那么多 token 吧？剪映可能做不出？ 原片倒是好找，新文案，然后原角色的语音，这些怎么能快速剪辑在一起？ 9.99 复制打开抖音，看看 [ hellome 的作品] 谁知道这是怎么做的 https://v.douyin.com/8JQ2SuH7eWI/ :6pm Q@K.WZ srE:/ 08/04
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220346#reply2
+
+---
+
+#### 6582. [V2EX] 关于 AI 输入法，你是否有这样的感觉？
+
+**问题描述 / Problem Description**:
+我之前手机是用微信输入法，语音转文字拉跨，换到豆包输入法了，语音转文字体验很好，很多场景都是直接语音输入了，能很好把我的语音输入转为文字，中英混输入也很好，95%以上成功率完全能还原我表达的意思。 但是有时候，我口语表达不清楚，我就转为文字输入了，文字有时自己也不太知道怎么表达，或者说想着想着卡顿了，这时候就会出现 AI 候选词或者 AI 候选短句，推荐的准确率很高，有时候就是我正要打出来的字，但是我发现很多时候 AI 候选词能更好地表达我的意思，我经常点击了 AI 推荐的这些候选词，这些候选词并不是我本来想说的，但是 AI 候选词更好或者说 AI 候选词给我另一种想法，我经常跟随了 AI 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220345#reply2
+
+---
+
+#### 6583. [V2EX] 这是一个假的 V2EX 站吗
+
+**问题描述 / Problem Description**:
+在这个网站登录了很多次都登陆不上去，一看网址不对，然后紧急改密码，这是假的站吗 https://global.v2ex.co/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220342#reply2
+
+---
+
+#### 6584. [V2EX] 夏天通勤背什么包
+
+**问题描述 / Problem Description**:
+因为工作特殊性，没有固定的工位，所以每次上班都要背上电脑和电源，包里面还要放伞、水杯、卫生纸等乱七八糟的东西。背的双肩包，但是夏天贴着后背，散热是个问题，背心弄得很湿，有时候穿深色衣服汗水干了还有个汗圈。 请问有没有撒热良好的双肩包？或者适合放笔记本电脑的单肩包？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220339#reply10
+
+---
+
+#### 6585. [V2EX] 做了差不多 3 个月的中转站，真的赚不到钱
+
+**问题描述 / Problem Description**:
+我是 3 月份开始做的，之前在 v 站上也发过推广，当时我的定位是： 1 、正价 plus 号池 2 、限定每个账号的并发数 3 、只想服务少数用户，这样大家的体验都很好 到现在 3 个月，中途没有停止过服务，除了那次 OpenAI 把所有账号踢下线，重新登录要绑定手机号导致上午停了半天之外，都没有停止过服务。 目前注册用户数是 600 多个（中间有一段时间是关闭了注册），付费比例 3 分之一。 后面 plus 收紧后，我又正价开的 Pro ，价格依然是 1 人民币等于 1 美金，使用 0.5x 的倍率。 现在我就特别好奇，比如说目前一个 Pro20x ，差不多是 1400 多人民币一个月，5
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220335#reply30
+
+---
+
+#### 6586. [V2EX] 微信自带的语音输入法降智严重， win 上还有别的推荐吗？
+
+**问题描述 / Problem Description**:
+自从微信本身自带语音输入法之后，一直在 Windows 上使用它进行输入，最近一周发现它降智特别严重：吞字、无法识别多音字，辨词能力下降，以及不合时宜的标点符号，跟之前的体验差别蛮大。 目前 wechat 版本是‘4.1.9.62’，但是我感觉跟版本关系不大，应该还是微信调整了识别的算力投入。 在 mac 上有“豆包输入法”还不错，目前体验是 top1 级别，可惜 win 上还没开放。 现在还有推荐的 win 上的输入法且带语音功能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220333#reply3
+
+---
+
+#### 6587. [V2EX] 上一届世界杯，国内抖音之类的平台还是有真 4K 的。这次为什么这么拉垮呢？糊得要死
+
+**问题描述 / Problem Description**:
+国内搞这么多年民用端的宽带提速有什么意义呢？ 现在都开始逐步普及千兆甚至 2500 兆了 单纯提升居民端的带宽降低价格，但商业带宽又贵得要死，最后损害的还是居民消费端的利益。 真他妈当企业是搞慈善的吗？ 连央视这种都是给你搞个 1080P 低码率、低帧率糊弄。 关键现在民企想买高码率、高帧率的资源，广电还规定只允许央视去对接这些大型赛事，统一采购，不让其他企业去买。转来转去，最后恶心的是所有的这些民众。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220311#reply14
+
+---
+
+#### 6588. [V2EX] 售后优势都荡然无存，京东现在真想不到用它的意义
+
+**问题描述 / Problem Description**:
+3 月老妈在京东下单了京东自己的电动晾衣架，最近几天才开始用，遥控器失灵没反应，换了电池也没用。一开始指挥老妈在 app 申请维修，谁知道只能寄回，这产品怎么寄回，什么设计逻辑。准备在备注说明上门维修，谁知道必须关联一个金融账户来处理可能的运费问题，我他妈一个保修内的东西，你还没修呢就开始管我要运费是吧，不说这个东西必须上门维修，就换你可以邮寄，你至少是邮到你那你鉴定之后再找我联系费用的问题吧。（我在其它平台维修东西没见过必须关联一个账户支付可能的运费的问题） 因为关联账户，我妈搞不定，我就直接打官方客服，一开始顺利转人工，说明问题，客服答应会有人对接，我以为解决了就没跟，过两天我妈问我到底处
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220307#reply40
+
+---
+
+#### 6589. [V2EX] netcatty 的 S3 支持阿里云 OSS 吗？
+
+**问题描述 / Problem Description**:
+netcatty 云同步用 S3 ，填了阿里云 OSS 的参数，保存时出错，提示里有 S3 access denied 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220300#reply1
+
+---
+
+#### 6590. [V2EX] MAC 购买建议（求支招)
+
+**问题描述 / Problem Description**:
+办公+开发，二手 M1 Pro 、M4 Air 、M5 Air 怎么选？性价比优先 各位老哥求支个招。近期打算购入 MacBook 主要用来办公和写代码。核心需求如下： 必须能外接两台 4K 显示器 （最好是开盖使用）。 性价比优先 ，想把预算花在刀刃上。 性能需求 ：重度吃算力的任务（训练模型等）都在远端服务器上跑，本地主要是挂着 Cursor/PyCharm 敲代码，以及用终端 SSH 连服务器。 目前在纠结二手的 M1 Pro 32G (14/16 寸) M4/M5 Air 。（新或者旧的都行） 目前看下来都是 6000 左右，希望各位大佬给出自己的意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220287#reply37
+
+---
+
+#### 6591. [V2EX] 像 opencode、codebuddy、qoder 是不是不支持撤销操作？就算有也只是撤销代码的修改，而无法恢复被修改的 json 数据原样
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220282#reply5
+
+---
+
+#### 6592. [V2EX] 显卡租赁有市场吗
+
+**问题描述 / Problem Description**:
+如题，显卡租赁有市场吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220277#reply12
+
+---
+
+#### 6593. How to turn off Automatic sample submission and disable the warning icon?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-defender | Score: 1 | Views: 253 | Answers: 1 | Created: 2026-03-19
+
+**解决方案 / Solution**:
+Windows Security keeps alerting you with the warning symbol "⚠️" as turning the setting off in the UI is treated as a 'reduced protection' state. It will periodically check and readd the warning. You need to enforce the setting through a group policy. Press Win + R and type gpedit.msc Navigate to Computer Configuration Administrative Templates Windows Components Microsoft Defender Antivirus MAPS Right click the 'Send file samples when further analysis is required' setting and select edit . Set it to Enabled and then select Never Send from the drop down. Apply the changes then restart your computer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935999/how-to-turn-off-automatic-sample-submission-and-disable-the-warning-icon
 
 ---

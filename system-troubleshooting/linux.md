@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5249**
+**总计条目 / Total entries: 5776**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -76025,5 +76025,6904 @@ When a terminal opened .bashrc ran scripts that are located in /etc/profile.d an
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/736171/cinnamon-crashes-when-opening-terminal-on-centos-7-vm
+
+---
+
+#### 5250. unexpected result from parameter expansion to remove prefix
+
+**问题描述 / Problem Description**:
+Tags: bash, parameter | Score: 2 | Views: 129 | Answers: 3 | Created: 2026-06-13
+
+**解决方案 / Solution**:
+Using echo "${a#* }" works and removes the shortest prefix string in $a matching * (everything up to the first space). The original expansion does not do what is required because it matches and replaces the longest possible substring, i.e., in this case, from the start of the string to the last space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806391/unexpected-result-from-parameter-expansion-to-remove-prefix
+
+---
+
+#### 5251. Arch Linux AUR Hit By Another Wave Of Now More Sophisticated Malware Attack
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5miwa/arch_linux_aur_hit_by_another_wave_of_now_more/
+
+---
+
+#### 5252. Well, Linux Kernel 7.1 has been released !!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5ul6a/well_linux_kernel_71_has_been_released/
+
+---
+
+#### 5253. Linux 7.1 Released: New NTFS Driver, Intel FRED For Panther Lake, Faster Arc Graphics
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5pd9o/linux_71_released_new_ntfs_driver_intel_fred_for/
+
+---
+
+#### 5254. Epic Games is hiring a Senior Game Security Engineer for their Anti-Cheat team to champion Linux anti-cheat capabilities while working on OS internals, reverse engineering, and protecting multiplayer games.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5qscm/epic_games_is_hiring_a_senior_game_security/
+
+---
+
+#### 5255. AUR to Arch: 'Houston, We've Got a Problem...We're Under Attack Again' - FOSS Force
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5trf9/aur_to_arch_houston_weve_got_a_problemwere_under/
+
+---
+
+#### 5256. Call to action: computers are getting expensive but 10,000,000 otherwise perfect $200 Linux machines are getting bricked. Once-in-a-lifetime opportunity to save them from landfills.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u54h9a/call_to_action_computers_are_getting_expensive/
+
+---
+
+#### 5257. Linux 7.1
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5rly5/linux_71/
+
+---
+
+#### 5258. Add an OpenBSD Flair
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5q3os/add_an_openbsd_flair/
+
+---
+
+#### 5259. Eric Biggers posts a new AVX-512 implementation of xor_gen() for Linux RAID: 43% improvement in performance, up by 2% from the initial implementation
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5qq5o/eric_biggers_posts_a_new_avx512_implementation_of/
+
+---
+
+#### 5260. scx_pandemoniumv5.13.0: A sched_ext, scx process scheduler for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5uf16/scx_pandemoniumv5130_a_sched_ext_scx_process/
+
+---
+
+#### 5261. Wine Staging 11.11 has been released. The number of patches carried atop the upstream codebase is now sitting at 289
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5aw3u/wine_staging_1111_has_been_released_the_number_of/
+
+---
+
+#### 5262. `pkgcli` is being worked on as a new, modern CLI around PackageKit
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5qu48/pkgcli_is_being_worked_on_as_a_new_modern_cli/
+
+---
+
+#### 5263. Booster 0.13 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5rqs1/booster_013_released/
+
+---
+
+#### 5264. Fix for slow network speeds for non intel network adapters (mediatek, qualcomm, insignia etc.)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5y68i/fix_for_slow_network_speeds_for_non_intel_network/
+
+---
+
+#### 5265. ASUS ROG Strix G512LW / Realtek ALC294 Linux speaker fix — Ubuntu/Kubuntu + Fedora
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5ct1z/asus_rog_strix_g512lw_realtek_alc294_linux/
+
+---
+
+#### 5266. Microsoft is "embracing" rust non-GNU coreutils in Windows
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u4ofzl/microsoft_is_embracing_rust_nongnu_coreutils_in/
+
+---
+
+#### 5267. fedora's default fontconfig made my browser fingerprint worse than windows, not better
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5qr4z/fedoras_default_fontconfig_made_my_browser/
+
+---
+
+#### 5268. Why does Linux distro make it so hard to install packages on different storage?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5xhmp/why_does_linux_distro_make_it_so_hard_to_install/
+
+---
+
+#### 5269. detkernel — a custom Linux kernel built for AMD ThinkPads, stripped of everything else
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5s97s/detkernel_a_custom_linux_kernel_built_for_amd/
+
+---
+
+#### 5270. from fedora back to Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5a41p/from_fedora_back_to_ubuntu/
+
+---
+
+#### 5271. [V2EX] 求推荐一家科学上网 1.已自用超过三年 2.月付费小于 20 元 3.支持被订阅转换工具读取订阅进而在这个过程里加配规则 4. 支持在路由器的 Linux 系统中被 clash, singbox 内核中订阅使用 谢谢！
+
+**问题描述 / Problem Description**:
+1.已自用超过三年 2.月付费小于 20 元 3.支持被订阅转换工具读取订阅进而在这个过程里加配规则 4.支持在路由器的 Linux 系统中被 clash, singbox 内核中订阅使用 对流量和速度没有特别要求，我也就用用谷歌看看 X 。 非常感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220358#reply17
+
+---
+
+#### 5272. [V2EX] 自从用上语音输入和 Agent 交流之后，确实感觉有时候语气会特别的差
+
+**问题描述 / Problem Description**:
+我日常在社交中是比较遵循社交礼仪的，和人当面交流，一定维持好声好气，毕竟这是效率最高的交流方式。 现在日常语音输入和 Agent 交流，遇到 Agent 没有实现我想要的效果，或者说理解我的意思、意图跑偏了， 就会大声地呵斥它，厉声指责地和它交流。 卸下了伪装，抒发了情绪。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220402#reply4
+
+---
+
+#### 5273. [V2EX] 关于 https://hk1.panel.net.cn:4412/vhost/index. PHP ?c=session&a=loginForm 忘记密码
+
+**问题描述 / Problem Description**:
+rt ， https://hk1.panel.net.cn:4412/vhost/index.php?c=session&a=loginForm 这个网站我记得之前我创个人博客的时候用过，但是密码忘了，不确定是不是重置了还是啥，有没有大佬救救
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220397#reply2
+
+---
+
+#### 5274. [V2EX] codex 赠送的重置一次，今天用了，感谢上个帖子中的朋友
+
+**问题描述 / Problem Description**:
+codex 赠送的重置一次，今天用了。经验证是把周额度，5 小时额度都重置了。把自己的周额度用完后，最划算。非常感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220380#reply0
+
+---
+
+#### 5275. [V2EX] 抢不到 glm 套餐的可以下个 zcode,免费用 5 天 glm5.2
+
+**问题描述 / Problem Description**:
+估计是为了 glm5.2 发布，匆匆忙忙搞了 3.0 版本出来,看起来是个高仿 codex app ， 这个工具对 glm5.2 做了特殊优化，上下文占用和 token 消耗都很低，每天虽然只有 300 万 token,但是消耗的很慢，可能是不算缓存的 token 吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220377#reply2
+
+---
+
+#### 5276. [V2EX] 分享一个零依赖的 JSON Formatter(CLI + Web)
+
+**问题描述 / Problem Description**:
+https://zjy4fun.github.io/json-open/ 和其他的 json formatter 不同的是： 1. 自动解析序列化字符串 —— 字段值本身是被 stringify 的 JSON(日志/接口里常见的 "{\"a\":1}",甚至多层转义),自动逐层 unwrap 并高亮标记,不用手动 unescape 。 2. URL 分享 —— 数据序列化进链接本身,发出去对方点开即同一视图。无服务器、无上传、不存数据库。 3. 终端管道 —— curl ... | json 直接把接口响应管道进来看,不用复制粘贴到网页。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220369#reply0
+
+---
+
+#### 5277. [V2EX] 郁闷至极，这会儿的 Opus 4.8 降智到了几乎不可用的状态
+
+**问题描述 / Problem Description**:
+回答的文不对题 要不就是一个简单的问题想的遥遥无期(几十分钟)，也回答不上来。 Anthropic 到底在做什么? Fable 下了就下了，Opus 也不让用了……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220366#reply13
+
+---
+
+#### 5278. [V2EX] 放在丰巢的快递不发短信取件码的根源究竟在哪里？
+
+**问题描述 / Problem Description**:
+背后肯定有特殊的逻辑。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220356#reply20
+
+---
+
+#### 5279. [V2EX] 阅读陌生代码仓库时， Claude 和 Codex 谁的讲解更好？
+
+**问题描述 / Problem Description**:
+用 AI 帮助自己快速理解陌生的代码时，谁的讲解更好？各位有什么心得体会没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220348#reply2
+
+---
+
+#### 5280. [V2EX] AI 编程的下一个阶段将会是什么形态呢？程序员的我又将何去何从？
+
+**问题描述 / Problem Description**:
+十年经验的程序员，混过大厂创过业。 也是比较早接纳 AI Coding 那一波程序员，现在是 Claude Max20x 的重度用户。 试着简要梳理了一下 AI Coding 的这几年的主要里程碑。 仅仅代表自己的感受和观察，不试图对这个行业做定义。 v 2.3 代表：Codex 、Claude Code 关键词：编排、开放 支持 Agent 驱动的复杂任务拆解和跟进 开放 Agents 、MCP 、SKills 、Hooks v 2.2 代表：Cursor 、Windsurf 关键词：Agent 、Context 支持更快更智能的 Tab 补全 支持 Agent 驱动的任务分析和代码编辑 支
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220338#reply16
+
+---
+
+#### 5281. [V2EX] 游戏行业最好的 AI 编程大模型
+
+**问题描述 / Problem Description**:
+我自己在游戏行业有超过 15 年的经验，随着这两年大模型的发展，对于 AI 写代码已经的足够自动化了，程序员的角色越来越变成一个给 AI 提需求、验证、agents 编排之类的岗位。 但是游戏引擎中代码只占了很少的部分，更多的资产和流程，所以我想针将现有的类似 CodeX 、Claude Code 等工具针对游戏行业做深入的定制化，让大模型能知道游戏引擎中的什么是材质、什么是蓝图、地形、天空、UI 、骨骼动画、打包、性能优化等等，所以我将自己自己平时用于 AI 编程的工具进行比较大的重构，加入了大量游戏开发的流程。 有兴趣的可以看看： https://github.com/wellingfen
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220330#reply8
+
+---
+
+#### 5282. [V2EX] 分享一个可以白嫖 GLM 模型给 ClaudeCode 用的办法
+
+**问题描述 / Problem Description**:
+原理： 东哥的 JoyCode 现在可以免费不限量用 GLM 5.1 ，可以反向代理给 codex/claudecode 上使用 开源仓库： https://github.com/vibe-coding-labs/JoyCodeProxy 求个 Star
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220326#reply8
+
+---
+
+#### 5283. [V2EX] 找到问题的本质在于找到本质的问题
+
+**问题描述 / Problem Description**:
+前言 最近 VC 玩多了，回来聊聊工程问题 找到问题的本质在于找到本质的问题 这句话乍看之下是打机锋，但却是提高工程质量的一个切实方法。很多时候，真正阻碍质量提升的不是缺少答案，而是问错了问题。 一个线上接口变慢了，我们问：“怎么优化这个接口？” 这不是个好问题，应该继续追问： 1.为什么只有管理用户慢？ 2.为什么只在每天 9 点半到 11 点慢？ 3.为什么数据库没有变慢，但接口耗时增加了？ 4.为什么缓存命中率下降没有触发告警 ... 现象不是问题 工程现场最常见的误判，是把现象当成问题。 比如：页面白屏了。 此时简单的修复可能是单纯地拉长等待时间或者给个兜底值。 但如果我们继续追问：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220324#reply1
+
+---
+
+#### 5284. [V2EX] 想讨论一下对于 AI 付费的看法
+
+**问题描述 / Problem Description**:
+同行的几个前端兄弟，公司让他们用 AI 开发，他们用免费 trea 去做开发，然后说 AI 不好用，我跟他们说 codex cursor claude 这些工具，他们说公司可能不给报销，自己去弄不就付费上班了，压根都懒得去了解，最终因为公司效率被优化掉了 我实际去问过他们的老板，因为我是给他们公司兼职的，老板明确告诉我他们就算一个月用 1000 都是小事，他们都没跟老板沟通过哪些工具好用但是收费的事情，毕竟他们人工成本对老板来说更贵，最终就是耽误了时间，老板损失的更多 我想问问大家，自己去弄一下 AI 工具，就拿我自己来说，我充了中转站的会员，一个月也就二三百，提效好几倍 项目上随便一点功能本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220323#reply53
+
+---
+
+#### 5285. [V2EX] 如果是转行宠物医师有什么坑吗
+
+**问题描述 / Problem Description**:
+目测以后宠物需求大大增加，但是宠物医师还是缺人 如果是通过成人高考考取宠物医学的学历，然后再考执业兽医资格证，是不是有机会转行？ 想听听有相关经验的人的看法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220306#reply24
+
+---
+
+#### 5286. [V2EX] 智谱发布最新旗舰模型 GLM-5.2
+
+**问题描述 / Problem Description**:
+GLM-5.2 相比 5.1 ，官方和已公开信息里最明确的提升方向是： 更强的编程能力、更可用的超长上下文、更稳的长程任务表现，以及更深的推理强度选项 。 附一张对比表格： 维度 GLM-5.1 GLM-5.2 旗舰定位 最新旗舰，长程任务显著提升。 新旗舰，官方称其为迄今最强开源模型。 上下文 200K 。 1M 可用上下文。x+1 长程任务 可持续自主工作长达 8 小时。 延续并强调 long-horizon tasks 继续领先。ifeng+1 编程能力 对齐 Claude Opus 4.6 ，面向 Agentic Coding 优化。 更强 coding 能力，复杂工程任务建议用更高思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220302#reply21
+
+---
+
+#### 5287. [V2EX] 撰写 PRD 文档等交付文档的提示词，设计 ui 界面的提示词哪里找呢？
+
+**问题描述 / Problem Description**:
+想学习一下现成的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220295#reply4
+
+---
+
+#### 5288. [V2EX] 建议过半个月再看看 glm5.2，不要急着上车充钱
+
+**问题描述 / Problem Description**:
+跟风买的人多了会导致我个人体验变差，因为我有个老 lite 备用（狗头）.... 之前 glm5 glm5.1 出来之后，站里都说不错，过两周就开始吐槽降智了... 搜一搜还能搜到之前的帖子 首周性能最强，感觉很多商家的基操了，方便评测刷榜....
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220275#reply15
+
+---
+
+#### 5289. [V2EX] AI 时代，不可能的事情越来越少，我用 rust 重写了 beanstalkd
+
+**问题描述 / Problem Description**:
+之前了解过 bun 由原来的 js 开发，后来用很短的时候 rust 重新写了；我得到两个信息 rust 在基建方面越来越方便和主流，其它你觉得痛苦的现有软件也可以重写下；于是我就有了 beanstalkd 的 rust 重写版本，重写很快，客户端不需要修改任何代码，另外我之前就注意到 beanstalkd 没有官方 cli 命令，于是 rust 版本，让 ai 补齐了；感触是，现在这个 ai 时代，技术真的不重要了，重要的还是人的想法，得有想法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220266#reply4
+
+---
+
+#### 5290. [V2EX] 这 GLM 的 token plan 根本买不到啊
+
+**问题描述 / Problem Description**:
+真是要了老命了.抢了一早上跟爬虫斗智斗勇 最后也没抢到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220264#reply43
+
+---
+
+#### 5291. [V2EX] 你们现在什么状态？是躺平还是继续进取？
+
+**问题描述 / Problem Description**:
+我从来没躺平过，现在是从濒死转换到了进取状态， 你们咋样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220257#reply18
+
+---
+
+#### 5292. Build GIMP source code on Linux Mint 21.3 machine
+
+**问题描述 / Problem Description**:
+Tags: linux, compiling, flatpak, gimp | Score: 0 | Views: 54 | Answers: 1 | Created: 2026-05-19
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806050/build-gimp-source-code-on-linux-mint-21-3-machine
+
+---
+
+#### 5293. Who can help me with a guide to learn Linux and what is the best virtual machine to use Linux with? I am a beginner
+
+**问题描述 / Problem Description**:
+Tags: linux, virtual-machine | Score: 0 | Views: 65 | Answers: 2 | Created: 2026-05-14
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805973/who-can-help-me-with-a-guide-to-learn-linux-and-what-is-the-best-virtual-machine
+
+---
+
+#### 5294. Why doesn't lsmod show any filesystem module being loaded?
+
+**问题描述 / Problem Description**:
+Tags: linux, linux-kernel, kernel, kernel-modules | Score: 0 | Views: 104 | Answers: 1 | Created: 2026-05-14
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805967/why-doesnt-lsmod-show-any-filesystem-module-being-loaded
+
+---
+
+#### 5295. How to rsync without duplicating the full path of each file?
+
+**问题描述 / Problem Description**:
+Tags: linux, rsync, remote | Score: 0 | Views: 87 | Answers: 2 | Created: 2026-05-12
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805943/how-to-rsync-without-duplicating-the-full-path-of-each-file
+
+---
+
+#### 5296. xkb issue with RightAlt key - garbled letters
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard-shortcuts, keyboard, keyboard-layout, xkb | Score: 0 | Views: 50 | Answers: 1 | Created: 2026-05-12
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805936/xkb-issue-with-rightalt-key-garbled-letters
+
+---
+
+#### 5297. Why almost all Linux applications do not account (not programmed) for cgroups limits?
+
+**问题描述 / Problem Description**:
+Tags: linux, cgroups, limit | Score: 0 | Views: 69 | Answers: 1 | Created: 2026-05-11
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805910/why-almost-all-linux-applications-do-not-account-not-programmed-for-cgroups-li
+
+---
+
+#### 5298. Find directory containing strings
+
+**问题描述 / Problem Description**:
+Tags: linux, find | Score: -1 | Views: 81 | Answers: 1 | Created: 2026-05-02
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805756/find-directory-containing-strings
+
+---
+
+#### 5299. #!/bin/sh vs #!/bin/bash for maximum portability
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, sh | Score: 38 | Views: 8068 | Answers: 3 | Created: 2017-07-30
+
+**解决方案 / Solution**:
+There are roughly four levels of portability for shell scripts (as far as the shebang line is concerned): Most portable: use a #!/bin/sh shebang and use only the basic shell syntax specified in the POSIX standard . This should work on pretty much any POSIX/unix/linux system. (Well, except Solaris 10 and earlier which had the real legacy Bourne shell, predating POSIX so non compliant, as /bin/sh .) Second most portable: use a #!/bin/bash (or #!/usr/bin/env bash ) shebang line, and stick to bash v3 features. This'll work on any system that has bash (in the expected location). Third most portable: use a #!/bin/bash (or #!/usr/bin/env bash ) shebang line, and use bash v4 features. This'll fail on any system that has bash v3 (e.g. macOS, which has to use it for licensing reasons). Least portable: use a #!/bin/sh shebang and use bash extensions to the POSIX shell syntax. This will fail on any system that has something other than bash for /bin/sh (such as recent Ubuntu versions). Don't ever do this; it's not just a compatibility issue, it's just plain wrong. Unfortunately, it's an error a lot of people make. My recommendation: use the most conservative of the first three that supplies all of the shell features that you need for the script. For max portability, use option #1, but in my experience some bash features (like arrays) are helpful enough that I'll go with #2. The worst thing you can do is #4, using the wrong shebang. If you're not sure what features are basic POSIX and which are bash extensions, either stick with a bash shebang (i.e. option #2), or test the script thoroughly with a very basic shell (like dash on your Ubuntu LTS servers). The Ubuntu wiki has a good list of bashisms to watch out for . There's some very good info about the history and differences between shells in the Unix & Linux question "What does it mean to be sh compatible?" and the Stackoverflow question "Difference between sh and bash" . Also, be aware that the shell isn't the only thing that differs between different systems; if you're used to linux, you're used to the GNU commands, which have a lot of nonstandard extensions you may not find on other unix systems (e.g. bsd, macOS). Unfortunately, there's no simple rule here, you just have to know the range of variation for the commands you're using. One of the nastiest commands in terms of portability is one of the most basic: echo . Any time you use it with any options (e.g. echo -n or echo -e ), or with any escapes (backslashes) in the string to print, different versions will do different things. Any time you want to print a string without a linefeed after it, or with escapes in the string, use printf instead (and learn how it works -- it's more complicated than echo is). The ps command is also a mess . Another general thing-to-watch-for is recent/GNUish extensions to command option syntax: old (standard) command format is that the command is followed by options (with a single dash, and each option is a single letter), followed by command arguments. Recent (and often non-portable) variants include long options (usually introduced with -- ), allowing options to come after arguments, and using -- to separate options from arguments.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/865874/bin-sh-vs-bin-bash-for-maximum-portability
+
+---
+
+#### 5300. ssh how to allow a very limited user with no home to login with pubkey
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, ssh-keys, public-key | Score: 13 | Views: 5712 | Answers: 2 | Created: 2022-10-09
+
+**解决方案 / Solution**:
+diya has already explained that you could change to AuthorizedKeysCommand for retrieving the public key of a user. However, it's probably easier for you to place the authorized_keys file somewhere else. For example you could set AuthorizedKeysFile /etc/ssh/authorizedkeys/%u and place the file that would have been at ~username/.ssh/authorized_keys at /etc/ssh/authorizedkeys/username instead. And, if you want to change it only for this user (so other users still have their authorized_keys at ~/.ssh/ ), you could use Match User username AuthorizedKeysFile /some/path/username_authorized_keys
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112586/ssh-how-to-allow-a-very-limited-user-with-no-home-to-login-with-pubkey
+
+---
+
+#### 5301. Database accidentally deleted with a bash script
+
+**问题描述 / Problem Description**:
+Tags: filesystems, shell, ubuntu-14.04, data-recovery, disaster-recovery | Score: 9 | Views: 3210 | Answers: 3 | Created: 2019-03-24
+
+**解决方案 / Solution**:
+Easy enough. The // sequence isn't a comment in bash ( # is). The statement OUT_DIR=x // text had no effect* except a cryptic error message. Thus, with the OUT_DIR being an empty string, one of the commands eventually executed was rm -rf /* . Some directories placed directly underneath / weren't removed due to user not having permissions, but it appears that some vital directories were removed. You need to restore from backup. * The peculiar form of bash statement A=b c d e f is roughly similar to: export A=b c d e f unset A A common example: export VISUAL=vi # A standard visual editor to use is `vi` visudo -f dummy_sudoers1 # Starts vi to edit a fake sudo config. Type :q! to exit VISUAL=nano visudo -f dummy_sudoers2 # Starts nano to edit a fake sudo config visudo -f dummy_sudoers3 # Starts vi again (!) And the problematic line of script amounted to this: export OUT_DIR=/data/backup/mongod/tmp // 备份文件临时目录 # shell error as `//` isn't an executable file! unset OUT_DIR
+
+**参考链接 / References**:
+- https://serverfault.com/questions/959707/database-accidentally-deleted-with-a-bash-script
+
+---
+
+#### 5302. How to fix a tmux session messed up by control characters
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, tmux | Score: 9 | Views: 21572 | Answers: 4 | Created: 2018-11-30
+
+**解决方案 / Solution**:
+Ctrl + B then r should do it. This causes tmux to redraw the entire screen from scratch.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/942361/how-to-fix-a-tmux-session-messed-up-by-control-characters
+
+---
+
+#### 5303. SFTP login hangs in .bash_login on server
+
+**问题描述 / Problem Description**:
+Tags: bash, sftp | Score: 8 | Views: 476 | Answers: 1 | Created: 2026-01-06
+
+**解决方案 / Solution**:
+Making long story short, this is 100% normal behavior! SFTP has no TTY, so your read is waiting for input that never comes... Why and how it works? SSH → interactive shell → TTY exists → prompt works SFTP → non-interactive → no stdin → read blocks → login hangs Why only one server? That box actually runs .bash_login for SFTP sessions. The others don’t. How to fix? Prompt in an interactive shells: [[ $- != *i* ]] && return # or [[ -t 0 ]] || return Bottom line is, nothing’s wrong with SFTP, it's your script just assumes a keyboard that isn’t there.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197606/sftp-login-hangs-in-bash-login-on-server
+
+---
+
+#### 5304. error when trying to mv a file with -r in the name of the file
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 8 | Views: 4628 | Answers: 2 | Created: 2022-04-13
+
+**解决方案 / Solution**:
+Most command-line utilities have a provision to separate options from arguments . That prevents a multitude of problems with "special" file names that look like options. The most common separator indication the end of the options is two hyphens -- or - - which is also supported by mv . In other words: mv [OPTIONS] -- SOURCE DEST or since you didn't specify any options: mv -- *.jpg old/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098500/error-when-trying-to-mv-a-file-with-r-in-the-name-of-the-file
+
+---
+
+#### 5305. Ansible task write to local log file
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, ansible, ansible-playbook | Score: 8 | Views: 71849 | Answers: 5 | Created: 2019-03-19
+
+**解决方案 / Solution**:
+You need to use register in the first task and now, you can create a second task to write the output to a local file - name: shell command shell: my_shell_command register: myshell_output - name: copy the output to a local file copy: content: "{{ myshell_output.stdout }}" dest: "/tmp/hello.txt" delegate_to: localhost
+
+**参考链接 / References**:
+- https://serverfault.com/questions/958952/ansible-task-write-to-local-log-file
+
+---
+
+#### 5306. Calculate sum of several sizes of files in Bash
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, grep, awk | Score: 8 | Views: 9014 | Answers: 5 | Created: 2017-12-12
+
+**解决方案 / Solution**:
+According to du(1), there is a -c option whose purpose is to produce the grand total. % du -chs * /etc/passwd 92K ABOUT-NLS 196K NEWS 12K README 48K THANKS 8,0K TODO 4,0K /etc/passwd 360K total
+
+**参考链接 / References**:
+- https://serverfault.com/questions/887721/calculate-sum-of-several-sizes-of-files-in-bash
+
+---
+
+#### 5307. SaltStack | How to assign the shell output from cmd.run to Jinja variable?
+
+**问题描述 / Problem Description**:
+Tags: shell, saltstack, jinja | Score: 8 | Views: 24841 | Answers: 1 | Created: 2017-10-23
+
+**解决方案 / Solution**:
+I think the main problem is that load_avg from cmd is not a number but a string and you have to convert it. Using load_avg|float (or even load_avg|int ) like this works: {% set load_avg = salt['cmd.shell']('uptime | sed "s/.*load average: //" | cut -d " " -f2 | cut -d . -f1') %} {% set threshold = 1 %} check_load_avg: cmd.run: {% if load_avg|float >= threshold %} - name: echo 'Load average is HIGH. load_avg={{ load_avg }}, threshold={{ threshold }}' {% else %} - name: echo 'Load average is normal. load_avg={{ load_avg }}, threshold={{ threshold }}' {% endif %} Output: ---------- ID: check_load_avg Function: cmd.run Name: echo 'Load average is HIGH. load_avg=1, threshold=1' Result: True Comment: Command "echo 'Load average is HIGH. load_avg=1, threshold=1'" run Started: 10:19:42.238409 Duration: 9.731 ms Changes: ---------- pid: 5976 retcode: 0 stderr: stdout: Load average is HIGH. load_avg=1, threshold=1 With threshold=5 : ---------- ID: check_load_avg Function: cmd.run Name: echo 'Load average is normal. load_avg=1, threshold=5' Result: True Comment: Command "echo 'Load average is normal. load_avg=1, threshold=5'" run Started: 10:20:31.846864 Duration: 9.361 ms Changes: ---------- pid: 6184 retcode: 0 stderr: stdout: Load average is normal. load_avg=1, threshold=5 EDIT: You can get the load average using directly the salt module status.loadavg : # salt-call status.loadavg local: ---------- 1-min: 0.12 15-min: 0.31 5-min: 0.25 In jinja: {% set load_avg = salt['status.loadavg']()['1-min'] %}
+
+**参考链接 / References**:
+- https://serverfault.com/questions/879868/saltstack-how-to-assign-the-shell-output-from-cmd-run-to-jinja-variable
+
+---
+
+#### 5308. Shell script attack on Apache server, via an cron of unknown origin
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, security, tomcat | Score: 8 | Views: 4076 | Answers: 3 | Created: 2017-05-29
+
+**解决方案 / Solution**:
+After OP had added logs, it become clearly, that problem is in Remote Code Execution exploit for Struts 2 ( CVE-2017-5638 ). Some additional links: New Struts2 Remote Code Execution exploit caught in the wild . CVE-2017-5638 - Apache Struts2 S2-045 . Solution is to upgrade your Struts to version 2.3.32 or 2.5.10.1.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/855003/shell-script-attack-on-apache-server-via-an-cron-of-unknown-origin
+
+---
+
+#### 5309. Industry standard for EC2 instance (server) shell access
+
+**问题描述 / Problem Description**:
+Tags: ssh, amazon-web-services, shell | Score: 7 | Views: 1617 | Answers: 4 | Created: 2025-08-18
+
+**解决方案 / Solution**:
+What you’re doing is exactly how it’s supposed to be done. SSH + keys = You’re good! Password logins = Not so much… Congrats, you’ve discovered the standard! The rest is just garnish: Lock it down to your own IPs or VPN if you don’t want every botnet poking at it. Bastion host or AWS SSM if you’re running more than a couple boxes and like your sanity. MFA if your compliance folks won’t shut up. But no, there isn’t some magical “professional” secret sauce you’re missing. Keys and no passwords is the pro way. Everything else depends on scale and paranoia level.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190676/industry-standard-for-ec2-instance-server-shell-access
+
+---
+
+#### 5310. Robust way to resolve a DNS address in a script (IPv4 (A) and IPv6 (AAAA))?
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, bash, shell-scripting | Score: 7 | Views: 5062 | Answers: 4 | Created: 2022-09-19
+
+**解决方案 / Solution**:
+I'm unsure if you want to actually query nameservers or rather rely on your system's name resolution: $ getent ahosts one.one.one.one. | awk '{ print $1 }' | sort -u 1.0.0.1 1.1.1.1 2606:4700:4700::1001 2606:4700:4700::1111 $ getent ahosts nonexistent.host | awk '{ print $1 }' | sort -u $ getent ahosts www.what-is-my-ipv4.com | awk '{ print $1 }' | sort -u 185.26.156.187 You can also make it return v4 or v6 addresses with ahostsv4 and ahostsv6 . If you just use hosts , you are subject to your /etc/gai.conf 's settings. Found this on https://unix.stackexchange.com/questions/212897/nslookup-dig-firefox-ignoring-etc-hosts-file-entries : nslookup , dig , and host are tools for querying DNS name servers. If your configuration is not provided by a name server (like the information given in /etc/hosts) those tools will not show them, because they directly ask the name server. If you want to check that the "usual" resolution is working (i.e. the way specified in /etc/nsswitch.conf ) you can use getent : getent hosts www.winaproduct.com
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1111039/robust-way-to-resolve-a-dns-address-in-a-script-ipv4-a-and-ipv6-aaaa
+
+---
+
+#### 5311. Sort df Output by Mount Point
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, filesystems, df | Score: 7 | Views: 3122 | Answers: 3 | Created: 2021-05-28
+
+**解决方案 / Solution**:
+With bash, you can do this: df -h | { read -r line; echo "$line"; sort -k 6,6; } That reads (consumes) and prints the first (header) line, then sort will consume all the rest.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1064987/sort-df-output-by-mount-point
+
+---
+
+#### 5312. How to test RDP credentials in command line without X server installed?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, rdp | Score: 7 | Views: 13958 | Answers: 3 | Created: 2017-10-17
+
+**解决方案 / Solution**:
+Did some tests and research on my side, it can be done with freerdp, with the following command line : xfreerdp --ignore-certificate --authonly -u user -p pass host
+
+**参考链接 / References**:
+- https://serverfault.com/questions/878870/how-to-test-rdp-credentials-in-command-line-without-x-server-installed
+
+---
+
+#### 5313. Change Alpine Linux default shell
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, alpine | Score: 6 | Views: 8340 | Answers: 1 | Created: 2023-03-08
+
+**解决方案 / Solution**:
+How do you login? I just had a similar problem which appeared to have a different origin, but checked by docker exec with root user and then doing su myuser and the shell is bash: 8a0deef473ac:/var/www$ echo $0 bash
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125611/change-alpine-linux-default-shell
+
+---
+
+#### 5314. Is it possible to listen to a TCP port only with a shell, with no additional tools?
+
+**问题描述 / Problem Description**:
+Tags: networking, linux-networking, tcp, shell, shell-scripting | Score: 6 | Views: 2170 | Answers: 1 | Created: 2019-10-02
+
+**解决方案 / Solution**:
+No, a basic Bourne/POSIX shell ( /bin/sh ) cannot be expected to include any built-in facilities for TCP connections. See comparision of command shells in Wikipedia. The bash shell would have TCP and UDP client capabilities with a special handling of certain filenames: for example, using /dev/tcp/<hostname>/<port> in input/output redirection on a command line causes bash connect to the specified host and port and use the connection as input source or output destination. But bash cannot listen on a port: it cannot act as a TCP server. The zsh shell would have both client and server functionality, but only using TCP. On the other hand, zsh is not a simple shell: it's probably the most feature-rich (and so the largest) of the common unix-style shells as far as I know. Finding zsh on a small embedded system would be rather unlikely. While I was writing my answer, you indicated in the comments that you found a " lighthttpd " binary. Is it perhaps this? https://www.lighttpd.net/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/986506/is-it-possible-to-listen-to-a-tcp-port-only-with-a-shell-with-no-additional-too
+
+---
+
+#### 5315. pgrep returns extra processes when piped by other commands
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, pgrep | Score: 5 | Views: 1316 | Answers: 2 | Created: 2023-04-13
+
+**解决方案 / Solution**:
+When you created the pipeline using backticks or $(...) a subshell is created which is an exact copy of the original bash shell you called. At the point you're doing the pgrep what you actually have is this: bash test.sh └─bash test.sh └─ pgrep -f test.sh └─ cat So pgrep is doing what you asked it to. You can simulate this behaviour like this. #!/bin/bash echo mypid $$ $(sleep 60 | sleep 60 | sleep 60) Run the process in the background, using the pid it spat out, inspect it with pstree . $ ./test.bash mypid 335153 ^Z [1]+ Stopped ./test.bash $ bg [1]+ ./test.bash & $ pstree -p 335153 test.bash(335153)───test.bash(335154)─┬─sleep(335155) ├─sleep(335156) └─sleep(335157)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128613/pgrep-returns-extra-processes-when-piped-by-other-commands
+
+---
+
+#### 5316. Echo something before SSH prompt with pam_exec
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, shell, pam | Score: 5 | Views: 1737 | Answers: 1 | Created: 2020-01-07
+
+**解决方案 / Solution**:
+You can execute a command at the end of your SSH login simply by ssh user@host 'whoami' . In your script pass the variable in the command and it can be used by the remote session.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/997963/echo-something-before-ssh-prompt-with-pam-exec
+
+---
+
+#### 5317. How to manually setup network connection from Busybox shell (ash)?
+
+**问题描述 / Problem Description**:
+Tags: linux-networking, shell, ethernet, embedded, busybox | Score: 5 | Views: 27232 | Answers: 1 | Created: 2019-04-21
+
+**解决方案 / Solution**:
+Busybox includes the ip command as part of the package. This allows you to add an ip address to an interface like this. (replace <examples> with your values) ip addr add <10.128.55.2> dev <eth0> It also includes route and link configuration options. Here's the docs: https://linux.die.net/man/8/ip
+
+**参考链接 / References**:
+- https://serverfault.com/questions/963994/how-to-manually-setup-network-connection-from-busybox-shell-ash
+
+---
+
+#### 5318. scp with special username
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, scp | Score: 5 | Views: 13799 | Answers: 1 | Created: 2019-02-21
+
+**解决方案 / Solution**:
+Try something like this: RUSER='SLOS755513-3:SL1255513' HOST=objectstorage.net DIR=/backup scp -o user=$RUSER /home/user/my_log.txt $HOST:$DIR This will make the user part explicit so scp doesn't try to interpret : as host/path separator. -o user=$USER will send the user as an option to the underlying ssh .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/955058/scp-with-special-username
+
+---
+
+#### 5319. rsync: Remember copied files, even if they are deleted at the destination
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, rsync, synchronization | Score: 4 | Views: 1719 | Answers: 2 | Created: 2021-07-08
+
+**解决方案 / Solution**:
+Two different approaches are possible: make a selection of the files that need transferring and feed that list to rsync and only those files will be copied. The find command is particularly useful for that. For example use find -ctime 1 -print0 /path/ | rsync --files-from - But other sources, filename patterns, a database query, input from the application that creates the files etc. etc. are also good candidates to select specific files to copy. rsync can maintain a log with the actions it performed. (Check man rsync and look for the --log-file=FILE and --log-file-format=FMT options). After a successful batch, append the file/path names from that log to the list of previously copied files. Then use that concatenated list as the --exclude-from=FILE in the next rsync run to prevent those files from getting copied again. Note that neither approach is immediately 100% fool proof and you need to carefully consider the implications of edge cases, files that don't get copied, files that copied a second time and what happens when state/history is lost.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1068996/rsync-remember-copied-files-even-if-they-are-deleted-at-the-destination
+
+---
+
+#### 5320. How can change shell for a user via ansible?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, ansible | Score: 4 | Views: 7421 | Answers: 1 | Created: 2020-01-31
+
+**解决方案 / Solution**:
+You will need to make sure that both tasks are run together for every entry of your list. Currently only one username from the first task will be used in the second. Theoretically this would be ideal for a block , but you can't combine a block with a loop. To work around this, you can move the actual tasks in another .yml file that you include: playbook.yml: --- - hosts: servers gather_facts: false become: yes vars: users: - blah: blubb username: nagios - blubb: bleh username: foobar tasks: - name: set shell include_tasks: set_shell.yml loop: "{{ users }}" set_shell.yml --- - name: Check that user exists shell: "grep -q {{ item.username }} /etc/passwd" ignore_errors: yes register: userexist - name: Block user user: name: "{{ item.username }}" shell: /bin/false when: userexist is succeeded This will run both tasks sequentially for each user in your list.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1001235/how-can-change-shell-for-a-user-via-ansible
+
+---
+
+#### 5321. SSH hangs on "exec request accepted on channel 0"
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell, rhel6 | Score: 4 | Views: 7168 | Answers: 1 | Created: 2019-11-19
+
+**解决方案 / Solution**:
+Answering my own question but...I tried something new that seemed to work? I ended up moving the bash startup commands (the setenv and exec ) from .cshrc to .login. I have no idea why this would change things since as far as I know, csh loads both of those things the same way and one right after another. But with that, ssh now works and all my scripts I needed runs. So...if anyone else ever has an issue like this, try this simple step.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/992460/ssh-hangs-on-exec-request-accepted-on-channel-0
+
+---
+
+#### 5322. Ctrl+C no longer working to get a new blank line in bash
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, signals | Score: 4 | Views: 2307 | Answers: 1 | Created: 2018-09-03
+
+**解决方案 / Solution**:
+To fix it you can use the stty command to reset it. $ stty intr \^c To see what intr is currently set you can use: $ stty -a $ stty -a speed 38400 baud; rows 21; columns 161; line = 0; intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = M-^?; eol2 = M-^?; swtch = ; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V; flush = ^O; min = 1; time = 0; -parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts -ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc ixany imaxbel iutf8 opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0 isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke The function of intr is described in the man page as: intr CHAR CHAR will send an interrupt signal https://linux.die.net/man/1/stty
+
+**参考链接 / References**:
+- https://serverfault.com/questions/929252/ctrlc-no-longer-working-to-get-a-new-blank-line-in-bash
+
+---
+
+#### 5323. Linux - Limit user to one application in ssh
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, shell, login | Score: 4 | Views: 1932 | Answers: 1 | Created: 2018-02-25
+
+**解决方案 / Solution**:
+This is also called a captive login. Append to the user's ~/.profile an execution of the program and an exit. exec /usr/local/bin/program exit Clever users know they can supply a command in their ssh client that isn't the shell you expect. Prevent that with ForceCommand in your sshd config: ForceCommand Forces the execution of the command specified by ForceCommand, ignoring any command supplied by the client and ~/.ssh/rc if present. The command is invoked by using the user's login shell with the -c option. This applies to shell, command, or subsystem execution. It is most useful inside a Match block. Match Group programusers ForceCommand /usr/local/bin/program
+
+**参考链接 / References**:
+- https://serverfault.com/questions/898813/linux-limit-user-to-one-application-in-ssh
+
+---
+
+#### 5324. How to identify ancient KornShell version?
+
+**问题描述 / Problem Description**:
+Tags: shell, ibm, aix, unix-shell, ksh | Score: 4 | Views: 5804 | Answers: 2 | Created: 2017-11-21
+
+**解决方案 / Solution**:
+CTRL + ALT + V or ESC , CTRL + V This was discovered on a related question on the Unix & Linux SE: How can I safely get the version of ksh? - Unix & Linux Stack Exchange This revealed that we are running Version M-11/16/88f Maybe it's not that ancient after all!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/884546/how-to-identify-ancient-kornshell-version
+
+---
+
+#### 5325. Azure Cloud Shell history persist across sessions
+
+**问题描述 / Problem Description**:
+Tags: azure, shell, cloud | Score: 4 | Views: 1423 | Answers: 2 | Created: 2017-05-29
+
+**解决方案 / Solution**:
+According to you description, it seems that your shell environment variable does not set correctly. I test on my Azure VM, it works for me. I suggest you could check as the following methods. 1.Check you current shell. You could use echo $SHELL to get your current shell. .bashrc profile is used for bash shell. If you use other shell, such as csh, it does not work. 2.Check .profile file. Please ensure the following commands are existing. # if running bash if [ -n "$BASH_VERSION" ]; then # include .bashrc if it exists if [ -f "$HOME/.bashrc" ]; then . "$HOME/.bashrc" fi fi 3.Check .profile and .bashrc user and group permission. -rw-r--r-- 1 shui shui 3771 Aug 31 2015 .bashrc Update: Cloud Shell does not save history command to .bash_history . If you want to do this. You could add export PROMPT_COMMAND='history -a' to .bashrc . Such as belwo: # append to the history file, don't overwrite it shopt -s histappend export PROMPT_COMMAND='history -a' Then you could source .profile . Now, you could find .bash_histroy and store your latest history command. Notes: It is not recommended to do this, because other people could see you command, this is unsafe behavior.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/852767/azure-cloud-shell-history-persist-across-sessions
+
+---
+
+#### 5326. remote ZSH and moving to beginning of line gives ^A print
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh | Score: 4 | Views: 2392 | Answers: 2 | Created: 2017-04-12
+
+**解决方案 / Solution**:
+Okay found what was the problem. I had 'vim' mode zsh enabled by default for some reason. I had to put the following into ~/.zshrc # Emacs mode bindkey -e https://dougblack.io/words/zsh-vi-mode.html Now everything works as expected.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/844215/remote-zsh-and-moving-to-beginning-of-line-gives-a-print
+
+---
+
+#### 5327. How does sort compare strings?
+
+**问题描述 / Problem Description**:
+Tags: bash, sort | Score: 3 | Views: 408 | Answers: 2 | Created: 2024-07-03
+
+**解决方案 / Solution**:
+Sort by default does a locale aware sort which uses the lexicographical rules for your locale. see strcoll(3) ltrace(3) got me this: strcoll("b.de", "bb.de") = 20 locate-aware comparisons seem to split strings into words and sort on that. as words nver start with '.' sort sees a 0 length words and puts that at the start of the list. however '.' is allowed in word eg: "Jr." "Ph.D" If you require a byte-wise comparison instead export LC_COLLATE=C or LC_COLLATE=POSIX
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161951/how-does-sort-compare-strings
+
+---
+
+#### 5328. Bash script error when trying to create a snapshot
+
+**问题描述 / Problem Description**:
+Tags: bash, freebsd, zfs, snapshot | Score: 3 | Views: 125 | Answers: 1 | Created: 2023-10-17
+
+**解决方案 / Solution**:
+Gerald Schneider pointed out one "invisible" mistake. Some other operatings systems use two bytes, carriage return (CR) and line feed, to indicate the end of a line. POSIX™‑compliant systems like FreeBSD ( mostly is) use, however, only one line feed byte, the CR thus becomes part of the line’s payload. name="17102023_1234"␍␊ Gerald’s hypothesis is that the value of name becomes 17102023_1234␍ (the ␍ byte is invisible), so zfs snapshot data/library@$name calls the command zfs snapshot data/library@17102023_1234␍ Typically this problem originates from copy‑pasting. You can use dos2unix of the converters/unix2dos port or simply annihilate the CR bytes with sed -e's/\r//' -i'' ./my_sript.sh # substitute CR with ε in‑place FYI, the time and date are already part of every snapshot: inspect the creation property. I use a plain counter as snapshot name because from the creation property alone you cannot learn whether there existed any intermediate snapshots.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1146008/bash-script-error-when-trying-to-create-a-snapshot
+
+---
+
+#### 5329. Blocking traffic from specific countries. How to kill existing connection?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, iptables, bash, netstat | Score: 3 | Views: 2208 | Answers: 1 | Created: 2023-09-20
+
+**解决方案 / Solution**:
+Since several years, the Linux kernel has been having an API to forcibly kill existing IP sockets whatever their state. It can be done with the ss command and its filter syntax: -K , --kill Attempts to forcibly close sockets. This option displays sockets that are successfully closed and silently skips sockets that the kernel does not support closing. It supports IPv4 and IPv6 sockets only. You can replace: ### I would like to sever the connection here ### with: ss --kill -n dst = "$d" The filter ( dst = ... ) is needed, because the command will kill whatever socket would be displayed. Without filter that would be more than asked. The local process might get an otherwise rare error on its socket such as ECONNABORTED . The remote node will probably be notified with a TCP RST unless an OUTPUT rule is also (temporarily) added to prevent it. See also this Q/A (where I made an answer): Drop ALL the TCP connections (ESTABLISHED,RELATED) in Ubuntu , where OP attempts to protect from attacks with an ipset (and also has problems with stale connections and stateful firewalling).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144095/blocking-traffic-from-specific-countries-how-to-kill-existing-connection
+
+---
+
+#### 5330. Why doesn't systemd capture output from subprocesses of a user service written in shell script?
+
+**问题描述 / Problem Description**:
+Tags: systemd, shell, stdout, systemd-service | Score: 3 | Views: 1511 | Answers: 2 | Created: 2023-09-12
+
+**解决方案 / Solution**:
+EDIT 2: An observant colleague who has root reports that (a) the subprocess output is in the journal, it's just not associated with the service, and (b) he only sees this behaviour with a user service; if he sets up a system service with the same code, the subprocess output is associated with it! Surely this is a systemd bug? It's a known, long-lived issue; the problem is that the kernel does not provide sufficient means to associate a socket client with a cgroup (unlike, for example, the ability to retrieve the client's PID). So whenever journald receives a message it only knows the sender's PID but has to asynchronously look up its unit name from /proc/<pid>/cgroup . If the process is very short-lived (such as a subshell), it could very well be that it will exit before journald is even woken up – and by the time its message is processed, the information required to associate its output with the service is no longer available. I'm a bit hazy on the details, but from what I remember, recent systemd versions have a partial workaround that only works if the stdout "pipe" to journald (which is really a socketpair) has been set up by a privileged process, whereas your "user" services are set up by another systemd instance that only has the same privileges as yourself.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143567/why-doesnt-systemd-capture-output-from-subprocesses-of-a-user-service-written-i
+
+---
+
+#### 5331. Linux: Run a specific command as another user?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, sh, rhel9 | Score: 3 | Views: 4472 | Answers: 2 | Created: 2023-08-11
+
+**解决方案 / Solution**:
+I want to be able to allow users to run a specific command as another user, is this possible? Yes That is what the sudo command is designed for. Although many novice Linux sysadmins only know and use sudo to run commands / elevate or escalate privileges to root and full administrator rights, and many examples only grant unrestricted and unlimited privileges sudo is explicitly designed to grant restricted privileges and can also be used to run a single and/or only some specific commands under the UID of a different, non-privileged user. See also https://serverfault.com/a/639062
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141362/linux-run-a-specific-command-as-another-user
+
+---
+
+#### 5332. is there a shortcut for /dev/stdout like "-" is for /dev/stdin?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 3 | Views: 296 | Answers: 1 | Created: 2023-05-10
+
+**解决方案 / Solution**:
+The - shortcut that many applications use isn't a special token that's processed by the shell -- it's just a convention implemented in many applications. cat - is a common example of this, but cat had to manually implement that functionality. From the coreutils cat source code : bool reading_stdin = STREQ (infile, "-"); if (reading_stdin) { //... } else { //... For that reason, we're not going to be able to do something like redirection to /dev/stdout with a shortcut like this - redirection and piping is handled at the shell level, while arguments are just passed along to the invoked program. Indeed, cat - reads from stdin, but cat < - reads from a file called - . That said, it's reasonable that you'd expect this; - is often used as a shortcut to redirect output to stdout as well as input from stdin. ffmpeg is a notable example off the top of my head that uses such a shortcut, but I'm sure there's plenty. For bash's builtin history , however, you might be out of luck -- it doesn't seem to implement any such shortcut. Bash's history-printing and history-writing implementations are two separate codepaths, and there doesn't seem to be any way to disable the numbering in the former. If you never want the numbers in your output, you could perform the HISTTIMEFORMAT hack that Gerald Schneider linked to here . If you don't like the hack or just want to remove the numbers sometimes, you could save two keystrokes from the original by instead running history -w /dev/fd/1 (FD 1 is always stdout, I think).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130812/is-there-a-shortcut-for-dev-stdout-like-is-for-dev-stdin
+
+---
+
+#### 5333. How to create .env multiline variable
+
+**问题描述 / Problem Description**:
+Tags: docker, shell, environment-variables | Score: 3 | Views: 16340 | Answers: 1 | Created: 2022-10-12
+
+**解决方案 / Solution**:
+You can do something like this: MY_ENV_VAR=$(cat <<EOF line 1 line 2 line 3 EOF ) Be aware that "EOF" needs to be in its own line, nothing after or before, so you need to close the parenthesis in the next line. You can replace "EOF" by other word, that will be the "closing quote". This way, your source/env file doesn't depend on filesystem contents and is self-contained.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112941/how-to-create-env-multiline-variable
+
+---
+
+#### 5334. How to use wget http status codes in an if else statement to take an action based on the status code
+
+**问题描述 / Problem Description**:
+Tags: bash, http | Score: 3 | Views: 15117 | Answers: 2 | Created: 2022-01-01
+
+**解决方案 / Solution**:
+You are printing the HTTP status code to the standard output but your code compares a return code from wget , not a value printed to standard output. If there is no error then wget returns 0 .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1088710/how-to-use-wget-http-status-codes-in-an-if-else-statement-to-take-an-action-base
+
+---
+
+#### 5335. Not able to access groovy variable inside shell script in JenkinsFile
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, jenkins, helpdesk | Score: 3 | Views: 6415 | Answers: 1 | Created: 2021-09-27
+
+**解决方案 / Solution**:
+Groovy doesn't perform variable substitution inside single-quoted ( ' ) strings. Use double-quoted ( " ) strings instead - this will also require escaping non-Groovy variables: def NAMESPACE = "Dev" def BODY= sh( script:"""body=\$(cat <<-EOF { "name": "${NAMESPACE}", "type": "regularwebapp" } EOF ) (echo \$body)""", returnStdout: true ).trim()
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078823/not-able-to-access-groovy-variable-inside-shell-script-in-jenkinsfile
+
+---
+
+#### 5336. How can I quickly test a path in bash to determine if any segment of it is a symlink?
+
+**问题描述 / Problem Description**:
+Tags: bash, symbolic-link | Score: 3 | Views: 3206 | Answers: 3 | Created: 2021-07-09
+
+**解决方案 / Solution**:
+I would use: if [[ "$my_path" != "$(realpath --canonicalize-existing $my_path)" ]];then echo The path $my_path is relative path or contains symlinks. else echo The path $my_path is absolute. fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1069147/how-can-i-quickly-test-a-path-in-bash-to-determine-if-any-segment-of-it-is-a-sym
+
+---
+
+#### 5337. Rsync over ssh into a Docker mounted volume
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, docker, rsync, shell | Score: 3 | Views: 5926 | Answers: 2 | Created: 2021-01-26
+
+**解决方案 / Solution**:
+Here is IMHO a somewhat more elegant solution: build a docker image based on alpine with ENTRYPOINT set to "rsync" , Dockerfile like this: FROM alpine:latest RUN apk add --no-cache rsync ENTRYPOINT ["rsync"] I called it alpine-rsync. pull that image on remote server Now you can invoke rsync with less escaping, with --rsync-path="docker run -v $DOCKER_VOLUME:/data -i alpine-rsync" like this: rsync -avP --rsync-path="docker run -v $DOCKER_VOLUME:/data -i alpine-rsync" remotehost:/data/ .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1051284/rsync-over-ssh-into-a-docker-mounted-volume
+
+---
+
+#### 5338. Using if else statement inside shell module in ansible playbook
+
+**问题描述 / Problem Description**:
+Tags: ansible, shell, shell-scripting, ansible-playbook, ansible-tower | Score: 3 | Views: 13038 | Answers: 3 | Created: 2020-11-18
+
+**解决方案 / Solution**:
+If you only want to ensure that a service is running you don't need to check it yourself, ansible can handle this for you. - name: ensure apache is started service: name: apache2 state: started Ansible will start it if it is no running, and will do nothing if it already runs. If you need to check this for another reason you can do the check in ansible instead of the shell: - name: check if apache is running shell: ps -eaf register: running_processes changed_when: > ('apache' in running_processes.stdout) or ('httpd' in running_processes.stdout) Afterward you can use this with running_processes.changed (or move the check itself to the next task).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1042998/using-if-else-statement-inside-shell-module-in-ansible-playbook
+
+---
+
+#### 5339. How do I mount the OS (system) disk from the UEFI shell?
+
+**问题描述 / Problem Description**:
+Tags: shell, mount, uefi | Score: 3 | Views: 18677 | Answers: 1 | Created: 2020-01-07
+
+**解决方案 / Solution**:
+A little late, but just came across this question, when having the same issue. This should mount all disks Shell> map -r Shell> fs0: fs0:\>
+
+**参考链接 / References**:
+- https://serverfault.com/questions/997988/how-do-i-mount-the-os-system-disk-from-the-uefi-shell
+
+---
+
+#### 5340. Looking for the Docker way to get just the 1st Repository Tag in "docker inspect"
+
+**问题描述 / Problem Description**:
+Tags: docker, shell | Score: 3 | Views: 397 | Answers: 2 | Created: 2019-11-02
+
+**解决方案 / Solution**:
+You can use the index operation: docker inspect e77e5ce5d4e3 --format='{{index .RepoTags 0}}'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/990336/looking-for-the-docker-way-to-get-just-the-1st-repository-tag-in-docker-inspect
+
+---
+
+#### 5341. CentOS 7 how to get interface name by macaddress?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, bash, shell, awk | Score: 3 | Views: 4094 | Answers: 3 | Created: 2019-09-05
+
+**解决方案 / Solution**:
+You can have consistent network device naming create interface names based on the MAC address. For instance, with this method, an interface with the hardware address 68:05:ca:0e:74:c4 would be named enx6805ca0e74c4 . On RHEL/CentOS 7, you need to change the udev naming rules just a bit. You can do that with these directions: Copy the default file /usr/lib/udev/rules.d/80-net-name-slot.rules to the directory /etc/udev/rules.d , then edit the copy. In the copied file, find these three lines: NAME=="", ENV{ID_NET_NAME_ONBOARD}!="", NAME="$env{ID_NET_NAME_ONBOARD}" NAME=="", ENV{ID_NET_NAME_SLOT}!="", NAME="$env{ID_NET_NAME_SLOT}" NAME=="", ENV{ID_NET_NAME_PATH}!="", NAME="$env{ID_NET_NAME_PATH}" Replace these lines with: NAME=="", ENV{ID_NET_NAME_MAC}!="", NAME="$env{ID_NET_NAME_MAC}" Then reboot. Before the change, the interface looks like: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000 link/ether 52:54:00:21:d1:84 brd ff:ff:ff:ff:ff:ff inet 172.20.203.174/24 brd 172.20.203.255 scope global noprefixroute dynamic enx52540021d184 valid_lft 3588sec preferred_lft 3588sec inet6 2001:db8:b0b9:0:3962::a1be/128 scope global noprefixroute dynamic valid_lft 3591sec preferred_lft 3591sec inet6 fe80::5054:ff:fe21:d184/64 scope link noprefixroute valid_lft forever preferred_lft forever After the change, it is now: 2: enx52540021d184: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000 link/ether 52:54:00:21:d1:84 brd ff:ff:ff:ff:ff:ff inet 172.20.203.174/24 brd 172.20.203.255 scope global noprefixroute dynamic enx52540021d184 valid_lft 3588sec preferred_lft 3588sec inet6 2001:db8:b0b9:0:3962::a1be/128 scope global noprefixroute dynamic valid_lft 3591sec preferred_lft 3591sec inet6 fe80::5054:ff:fe21:d184/64 scope link noprefixroute valid_lft forever preferred_lft forever Remember that with this naming scheme, manual intervention is required to reconfigure networking if you have to replace a NIC.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/981952/centos-7-how-to-get-interface-name-by-macaddress
+
+---
+
+#### 5342. Achieving very fast (300+MB/sec) file transfer on Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, scp, netcat | Score: 3 | Views: 5699 | Answers: 3 | Created: 2018-12-28
+
+**解决方案 / Solution**:
+A few thing to try: use a program that uses sendfile (e.g. apache) tune the Linux network stack and NIC enable a larger MTU enable NIC offloading use a better performing filesystem (xfs or zfs) The ESnet Fasterdata Knowledge Base is a great resource for optimizing moving data across fast networks.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/946857/achieving-very-fast-300mb-sec-file-transfer-on-linux
+
+---
+
+#### 5343. Execute local bash scripts on remote server but needs user input
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell, remote | Score: 3 | Views: 13725 | Answers: 3 | Created: 2018-05-11
+
+**解决方案 / Solution**:
+The method you use for remote script execution generates a conflict between code and data flows. I mean... During the execution of ssh user@server 'bash -s' < $script_dir/script.sh , you allocates the standard input (STDIN) for the code that will execute remotely. But if the executed code needs a data input, it will be fed by the next code line (because the STDIN is conveying lines of code to the remote bash process). If you want to use STDIN to supply input data to a script that runs remotely, you may have to use another stream for the code. OpenSSH seems not to have a native file descriptor forwarding feature yet, that is, STDIN (file descriptor number 0) seems to be the only file descriptor which could be used for data forwarding from the local terminal to the remote session. As a workaround, you could copy the script file in advance, for example: scp $script_dir/script.sh user@server:/home/user/$script_dir/script.sh && \ ssh user@server /home/user/$script_dir/script.sh Or you could use Bash hackings in order not to write local code into the remote filesystem. For example: cat $script_dir/script.sh - | ssh user@server \ bash \<\( head -c `wc -c < $script_dir/script.sh` \) PS: The hacking above is not optimal because: It does not work if SSH requests authentication data such as user password or key passphrase; The local session requires an additional input line after the end of the remote execution.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/911719/execute-local-bash-scripts-on-remote-server-but-needs-user-input
+
+---
+
+#### 5344. bash string replace has 'bad substitution' error
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 1631 | Answers: 1 | Created: 2024-06-30
+
+**解决方案 / Solution**:
+Reproducible: $ cat file.sh d=1234-5678 echo "${d//-/}" $ bash file.sh 12345678 $ sh file.sh file.sh: 2: Bad substitution Resolution: run bash scripts with bash.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161802/bash-string-replace-has-bad-substitution-error
+
+---
+
+#### 5345. Bash script with "openssl req -new -key server.key -out server.csr -config server_openssl.cnf --passin pass:password"
+
+**问题描述 / Problem Description**:
+Tags: bash, openssl | Score: 2 | Views: 417 | Answers: 1 | Created: 2024-06-26
+
+**解决方案 / Solution**:
+There is no sense in adding _default values when prompt = no is used as you are setting the values in the config file. These defaults are only used if the user doesn't enter anything at the prompt. Use something like: [ req_distinguished_name ] countryName = NO stateOrProvinceName = Nordland localityName = Lofoten organizationName = Lumina Ventures commonName = Lumina Ventures Issuing CA 1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161549/bash-script-with-openssl-req-new-key-server-key-out-server-csr-config-serve
+
+---
+
+#### 5346. HEREDOC in Dockerfile produces no output
+
+**问题描述 / Problem Description**:
+Tags: docker, bash, shell, zsh, heredoc | Score: 2 | Views: 1475 | Answers: 1 | Created: 2024-01-30
+
+**解决方案 / Solution**:
+Parsing this command: RUN <<-EOF > /root/.npmrc registry=https://\${NPM_VIRTUAL_REGISTRY_REPO_URL} strict-ssl=false always-auth=true email=\${PUBLISHER_EMAIL} //\${NPM_VIRTUAL_REGISTRY_REPO_URL}:_auth=\${NPM_BASIC_AUTH} EOF I believe the result is a shell running the following commands in a container: > /root/.npmrc registry=https://\${NPM_VIRTUAL_REGISTRY_REPO_URL} strict-ssl=false always-auth=true email=\${PUBLISHER_EMAIL} //${NPM_VIRTUAL_REGISTRY_REPO_URL}:_auth=${NPM_BASIC_AUTH} That's one command to output nothing to a .npmrc file, followed by 5 separate commands to set a variable in the shell, at which point the shell exits and loses all of that variable state. To output to a file, there's a COPY syntax with the HEREDOC support: COPY <<-EOF /root/.npmrc registry=https://\${NPM_VIRTUAL_REGISTRY_REPO_URL} strict-ssl=false always-auth=true email=\${PUBLISHER_EMAIL} //\${NPM_VIRTUAL_REGISTRY_REPO_URL}:_auth=\${NPM_BASIC_AUTH} EOF Or you can run a command inside the container that would itself do the HEREDOC, which may do a better job with variables: RUN <<EORUN cat <<-EOCAT > /root/.npmrc registry=https://\${NPM_VIRTUAL_REGISTRY_REPO_URL} strict-ssl=false always-auth=true email=\${PUBLISHER_EMAIL} //\${NPM_VIRTUAL_REGISTRY_REPO_URL}:_auth=\${NPM_BASIC_AUTH} EOCAT EORUN
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152528/heredoc-in-dockerfile-produces-no-output
+
+---
+
+#### 5347. Best way to filter output by date range
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, awk, csv | Score: 2 | Views: 860 | Answers: 3 | Created: 2023-07-24
+
+**解决方案 / Solution**:
+You could use Miller , a nice CSV aware cli. You could run in example mlr --nidx --repifs filter 'strptime($3,"%m/%d/%y")>strptime("11/13/12","%m/%d/%y")' input.csv to filter all the records of the third field ( $3 ) greater than 11/13/12 , to have test121johnson@example.com active 04/07/14 15:56 04/23/21 04:02 test121brad@example.com active 06/26/14 12:45 03/05/19 20:27 Some notes: --nidx --repifs to set the data format, index-numbered (toolkit style) with field sepator repeated (the space) filter , the verb to apply filters to fields strptime , the function to set the date format.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1138856/best-way-to-filter-output-by-date-range
+
+---
+
+#### 5348. How to save input colors in awk?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, awk | Score: 2 | Views: 675 | Answers: 1 | Created: 2023-07-22
+
+**解决方案 / Solution**:
+some_command may have an option to force color even when it's connected to a terminal, for example with grep it would be --color=always . If it doesn't though you have to trick some_command into thinking it's connected to a terminal. Using script for example: script --return --quiet -c 'echo a b | grep --color a' /dev/null | awk '{print $1}' There would be no color if you ran grep without script : echo a b | grep --color a | awk '{print $1}'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1138608/how-to-save-input-colors-in-awk
+
+---
+
+#### 5349. detect if zone transfer with dig succeed or not via return code
+
+**问题描述 / Problem Description**:
+Tags: shell, dig | Score: 2 | Views: 540 | Answers: 1 | Created: 2023-06-12
+
+**解决方案 / Solution**:
+The exit status ($?) of the dig command does not reflect whether the zone transfer was successful or not. We could check the output file for the error message like that: CHARSET=ASCII dig domain.com AXFR > domain.com.zone if grep -q "communications error: end of file" domain.com.zone; then echo "Something went wrong" else echo "OK" gzip -9 domain.com.zone fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1133211/detect-if-zone-transfer-with-dig-succeed-or-not-via-return-code
+
+---
+
+#### 5350. How to load modules on Synology NAS on boot?
+
+**问题描述 / Problem Description**:
+Tags: bash, synology, kernel-modules | Score: 2 | Views: 2034 | Answers: 1 | Created: 2023-04-01
+
+**解决方案 / Solution**:
+Yes, you can do that, first ssh into your Synology NAS then create a script here /usr/local/etc/rc.d/ like with vi with sudo vi /usr/local/etc/rc.d/load-modules.sh put this inside #!/bin/sh case $1 in start) echo "Loading usbserial.ko and cp210x.ko modules..." insmod /lib/modules/usbserial.ko insmod /lib/modules/cp210x.ko ;; stop) echo "Unloading usbserial.ko and cp210x.ko modules..." rmmod cp210x rmmod usbserial ;; *) echo "Usage: $0 {start|stop}" exit 1 ;; esac exit 0 then give it the execute permission sudo chmod +x /usr/local/etc/rc.d/load-modules.sh You can test if your script work like that sudo /usr/local/etc/rc.d/load-modules.sh start Then restart your Synology NAS, now it is loaded at startup.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127635/how-to-load-modules-on-synology-nas-on-boot
+
+---
+
+#### 5351. Is sudo -u username command the same as doing sudo -i -u username then command?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sudo | Score: 2 | Views: 2569 | Answers: 1 | Created: 2023-03-30
+
+**解决方案 / Solution**:
+sudo -u username command: This command runs the specified command as the specified username. It does not change the current working directory or the environment variables sudo -i -u username: This command opens an interactive login shell as the specified username. It changes the current working directory to the home directory of the specified user and sets up the environment variables as if you were logging in as that user. Basically sudo -u username command is better for running a single command as another user without changing the environment or creating a new shell whereas sudo -i -u username is better for running multiple commands in a new shell with the environment of the specified user.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127564/is-sudo-u-username-command-the-same-as-doing-sudo-i-u-username-then-command
+
+---
+
+#### 5352. how to make a shell execute with suid
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, unix-shell, ksh, suid | Score: 2 | Views: 8720 | Answers: 2 | Created: 2023-01-21
+
+**解决方案 / Solution**:
+What you are doing wrong is running face-first into a security measure designed to keep the system safe. Bash, dash, and other shells detect that they're being run setuid root and immediately drop privileges on launch. This is because setting them suid root is a very common privilege escalation tactic. Fortunately, there's a really easy work around for you. Launch your suid shell as /usr/bin/bash-emergency -p . Relevant quote from the docs: If the shell is started with the effective user (group) id not equal to the real user (group) id, and the -p option is not supplied, no startup files are read, shell functions are not inherited from the environment, the SHELLOPTS, BASHOPTS, CDPATH, and GLOBIGNORE variables, if they appear in the environment, are ignored, and the effective user id is set to the real user id. If the -p option is supplied at invocation, the startup behavior is the same, but the effective user id is not reset.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1120787/how-to-make-a-shell-execute-with-suid
+
+---
+
+#### 5353. Check if IP Belongs to a CIDR
+
+**问题描述 / Problem Description**:
+Tags: bash, ip, ipv4, cidr | Score: 2 | Views: 8240 | Answers: 7 | Created: 2023-01-20
+
+**解决方案 / Solution**:
+Here's my solution, updating the solution from Walter Vehoeven above. #!/bin/bash function is_ip_in_cidr() { local ip=$1 local cidr=$2 #Process the CIDR first local network=$(echo $cidr | cut -d/ -f1) local mask=$(echo $cidr | cut -d/ -f2) #Quad dot notation has 4 fields. Shift and add to give decimal number local network_dec=$(echo $network | awk -F. '{printf("%d\n", (($1 * 256 +$2) * 256 + $3) * 256 + $4) }') #TEST echo "network_dec: $network_dec" #Shift bitmask correct number of places for given mask local mask_dec=$((0xffffffff << (32 - $mask))) #TEST local mask_dec=$((0x0000000f << (32 - $mask))) #TEST printf "mask_dec: %x\n", $mask_dec #But limit bitmask to 32 bits or 8 hexidecimal places. local mask_dec2=$((0xffffffff & $mask_dec)) #TEST printf "mask_dec2: %x\n", $mask_dec2 #Apply mask to network address to get the bits to check local net1=$(( $mask_dec2 & $network_dec )) #TEST printf "net1: %x\n", $net1 #Process the IP address. Again Quad dot notation, shift and add. local ip_dec=$(echo $ip | awk -F. '{printf("%d\n", (($1 * 256 +$2) * 256 + $3) * 256 + $4) }') #TEST echo "IP DEC: $ip_dec" #Apply the same mask to IP address local net2=$(( $mask_dec2 & $ip_dec )) #TEST printf "net2: %x\n", $net2 #Now the two network components can be compared if [[ $net1 == $net2 ]]; then return 0 else return 1 fi } # Test the function with a sample IP address and CIDR ip="192.168.1.5" cidr="192.168.1.0/24" if $(is_ip_in_cidr $ip $cidr); then echo "YES, $ip is IN $cidr" else echo "NO, $ip is NOT in $cidr" fi echo "" ip="192.168.1.5" cidr="192.168.0.0/24" if $(is_ip_in_cidr $ip $cidr); then echo "YES, $ip is IN $cidr" else echo "NO, $ip is NOT in $cidr" fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1120769/check-if-ip-belongs-to-a-cidr
+
+---
+
+#### 5354. Difference between -t and -tt ssh
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, tty | Score: 2 | Views: 5347 | Answers: 1 | Created: 2022-10-24
+
+**解决方案 / Solution**:
+If you do this: ssh -t user@server<<EOT echo test EOT You'll get a message that states: Pseudo-terminal will not be allocated because stdin is not a terminal. In this case, stdin was feeding ssh, not your local shell/tty. Using -tt will tell it to allocate regardless. This is one use-case, I'm sure there are other cases that can be applied to this, but stdin is one of the most obvious. If there is no shell on the system, does ssh create its own? No local tty for ssh is not suggesting that a local shell does not exist. The above example shows using stdin to stream into ssh. What does that mean specifically? It means it will force the tty allocation regardless of the local connection. See above example.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113915/difference-between-t-and-tt-ssh
+
+---
+
+#### 5355. How to match only single . in file name and not two .?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 2 | Views: 708 | Answers: 1 | Created: 2022-10-23
+
+**解决方案 / Solution**:
+Something like this perhaps ^[^.]*\.[^.]*$ Here we match any number of non-dot characters via [^.]* then a single dot, then any number of non-dot characters again. As a dot in regex means match any character we escape it to match a literal dot. The ^ and $ are start and end of string markers so we don't match more than one thing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113787/how-to-match-only-single-in-file-name-and-not-two
+
+---
+
+#### 5356. Curl Command Send Asynchronous Request
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, curl | Score: 2 | Views: 15838 | Answers: 2 | Created: 2021-11-18
+
+**解决方案 / Solution**:
+I also couldn't get xargs -P working when I needed to do something similar, and I ended up using & . From man bash : If a command is terminated by the control operator &, the shell executes the command in the background in a subshell. The shell does not wait for the command to finish, and the return status is 0. These are referred to as asynchronous commands. So something like this, maybe? #!/bin/bash Body='{ "event_id": "12", "metric_name": "API", "value" : "1", "dimensions": { }, "timestamp_ms": 1615552313 }'; function run() { for i in $(seq 1 10); do echo "running task $i" curl --location --request POST '10.33.137.98:8080' --header 'Content-Type: text/plain' --data-raw "$Body" & done wait } time run Explanations: time is used to measure total execution time, see man time wait ensures that all the background jobs finish before continuing, otherwise the time would just measure how long to launch all the requests, not how it took to get a response parallel might also work instead of & To calculate statistics, you could output the time of each request, using a second time call in the for loop, and then process it using your favourite analysis tools.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1083967/curl-command-send-asynchronous-request
+
+---
+
+#### 5357. Ansible Search for parent-directory-names of files
+
+**问题描述 / Problem Description**:
+Tags: bash, ansible | Score: 2 | Views: 2768 | Answers: 1 | Created: 2021-08-06
+
+**解决方案 / Solution**:
+map() in Jinja can extract attributes or apply a filter to a sequence. Use both to transform the find results in one filter chain. --- - name: "basename of find results" hosts: localhost gather_facts: False vars: testfiles: - base/tool1/sub/test.log - base/tool2/abc/values.log - base/tool3/sub/test.log tasks: - name: "Set up test case" block: - tempfile: state: directory register: mktemp - file: path: "{{ ( mktemp.path ~ '/' ~ item ) | dirname }}" state: directory loop: "{{ testfiles }}" - file: path: "{{ mktemp.path ~ '/' ~ item }}" state: touch loop: "{{ testfiles }}" - name: "Filter File Matches" find: paths: "{{ mktemp.path }}" file_type: "file" recurse: "yes" # patterns is already matched against basename # Do not use a wildcard in front, so only "test.log" matches patterns: "test.log" register: files_matched - name: "Debug files_matched full" debug: var: files_matched.files verbosity: 1 - name: "Directories found" debug: msg: "{{ testdirnames }}" vars: # map to extract an attribute # map to apply a filter # (it can do either) # list filter to consume any generator object returned by Jinja testdirnames: "{{ files_matched.files | map(attribute='path') | map('dirname') | list }}" Output: $ ansible-playbook sf1073762.yml PLAY [basename of find results] ************************************************************************************** TASK [tempfile] ****************************************************************************************************** changed: [localhost] TASK [file] ********************************************************************************************************** changed: [localhost] => (item=base/tool1/sub/test.log) changed: [localhost] => (item=base/tool2/abc/values.log) changed: [localhost] => (item=base/tool3/sub/test.log) TASK [file] ********************************************************************************************************** changed: [localhost] => (item=base/tool1/sub/test.log) changed: [localhost] => (item=base/tool2/abc/values.log) changed: [localhost] => (item=base/tool3/sub/test.log) TASK [Filter File Matches] ******************************************************************************************* ok: [localhost] TASK [Debug files_matched full] ************************************************************************************** skipping: [localhost] TASK [Directories found] ***************************************************************************************************** ok: [localhost] => { "msg": [ "/tmp/ansible.Nc0b6i/base/tool1/sub", "/tmp/ansible.Nc0b6i/base/tool3/sub" ] }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1073762/ansible-search-for-parent-directory-names-of-files
+
+---
+
+#### 5358. Auto select solution for zypper
+
+**问题描述 / Problem Description**:
+Tags: bash, rpm, sles, zypper | Score: 2 | Views: 2619 | Answers: 2 | Created: 2021-06-22
+
+**解决方案 / Solution**:
+how about --best-effort , this option helped me in the case of one dependency obsoletes the other one when i was updating both of them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1067445/auto-select-solution-for-zypper
+
+---
+
+#### 5359. How can I create aliases upon connection to a remote machine via ssh?
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, alias | Score: 2 | Views: 1465 | Answers: 2 | Created: 2021-06-11
+
+**解决方案 / Solution**:
+You had the right idea with copying an aliases file. The tricky bit is loading them in the current context. The only way I've found is by running a new instance of bash with the file passed in: bash --rcfile uploaded_aliases_file This should work: function ssh.test { TMP_RC=server_aliases scp rc_file user@0.0.0.0:${TMP_RC} ssh user@0.0.0.0 "bash --rcfile ${TMP_RC} && rm ${TMP_RC}" } Or with a kubernetes pod where you pass the pod name: function kube.bash { TMP_RC=server_aliases kubectl cp server_rc $0:$TMP_RC kubectl exec -it $0 -- bash -c "bash --rcfile ${TMP_RC} && rm ${TMP_RC}" } Note that I'm adding a command to delete the aliases, which you may or may not want, and is a bit flaky as it runs after your bash session, and may not run if the connection is interrupted etc... You could probably make the file delete itself.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1066432/how-can-i-create-aliases-upon-connection-to-a-remote-machine-via-ssh
+
+---
+
+#### 5360. How do I find files and directories not owned by a given user?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 2 | Views: 2157 | Answers: 1 | Created: 2021-04-30
+
+**解决方案 / Solution**:
+To find files owned by other accounts, find . \! -user alfred . The exclamation mark means "not", and it has to be escaped by a backslash or singe quotes to avoid interpretation by the shell. Or, to change ownership of alfred's files, find . -user alfred -exec chown betty '{}' + .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1062141/how-do-i-find-files-and-directories-not-owned-by-a-given-user
+
+---
+
+#### 5361. Linux shell: Pipe stderr and stdout to one file AND to individual files at the same time (using tee?)
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, pipe, stderr, tee | Score: 2 | Views: 963 | Answers: 1 | Created: 2021-01-05
+
+**解决方案 / Solution**:
+First: It's not something I'd recommend you do, prepending logged messages with timestamps and labels such as [INFO] and [ERROR] in a single file or just timestamps in your two files would probably be a better and more reliable idea in the long run. while still allowing you to build the other file you want by using grep or sorting. To your issue: I've never had to do it, but you probable need to use named pipes. Untested bash example: # Log one output type function logger() { unique_file="$1" common_file="$2" # Tee reads from the function's standard input, writes to unique_file, appends to common_file, then outputs what was written tee "$unique_file" | tee -a "$common_file" } # Call your code's main function to start processing main > >(logger info_log_file common_log_file) 2> >(logger error_log_file common_log_file >&2) You might be tempted to use exec >"$info_pipe" 2>"$error_pipe" . Do not, or you will generate a loop that will make your log file fill all available disk space Note that if your bash does not support implicit named pipes (it should, but I've seen environments that didn't), you might want to use them explicitly by calling mkfifo, however, this requires more plumbing : # Log one output type function logger() { unique_file="$1" common_file="$2" # Tee reads from the function's standard input, writes to unique_file, appends to common_file, then outputs what was written tee "$unique_file" | tee -a "$common_file" } # Setup logging function prepare() { tmp_pipe_dir="$(mktemp -d)" error_pipe="$(mkfifo "$tmp_pipe_dir/error")" info_pipe="$(mkfifo "$tmp_pipe_dir/info")" } function cleanup() { rm -rf "$tmp_pipe_dir" } prepare # Start logging, note that logger won't stop on its own. Removing the pipe files should do the trick logger info_log_file common_log_file <"$info_pipe" & logger error_log_file common_log_file <"$error_pipe" >&2 & # Call your code's main function to start processing main >"$info_pipe" 2>"$error_pipe" cleanup
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1048619/linux-shell-pipe-stderr-and-stdout-to-one-file-and-to-individual-files-at-the-s
+
+---
+
+#### 5362. Bash - Math: Returns integer instead of float
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-scripting | Score: 2 | Views: 1129 | Answers: 1 | Created: 2020-03-28
+
+**解决方案 / Solution**:
+try something like this $ echo "21/5" | bc -l 4.20000000000000000000 $ echo "$y * ($num_lines/$w)" |bc -l 37.80000000000000000000 For setting up limit of decimal point use like below, For 2 decimal point $echo "scale=2; $y * ($num_lines/$w)" | bc -l 37.80 For 3 decimal point, just change the scale number. $ echo "scale=3; $y * ($num_lines/$w)" | bc -l 37.800
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1008821/bash-math-returns-integer-instead-of-float
+
+---
+
+#### 5363. How to copy a file from my Windows laptop to an Ubuntu server while using PuTTY?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, shell, scp | Score: 2 | Views: 17125 | Answers: 4 | Created: 2019-12-27
+
+**解决方案 / Solution**:
+You can use PSCP to copy files from Windows to Linux. Download PSCP from putty.org Open cmd in the directory with pscp.exe file Type command pscp source_file user@host:destination_file For example:- pscp C:\Users\Admin\Desktop\myfile.txt admin@192.168.1.1:/home/path_to_the_folder/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/996839/how-to-copy-a-file-from-my-windows-laptop-to-an-ubuntu-server-while-using-putty
+
+---
+
+#### 5364. How to extract the text inside a block in an HCL (HashiCorp Configuration Language) file using Bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 2 | Views: 1556 | Answers: 1 | Created: 2019-10-18
+
+**解决方案 / Solution**:
+This does the job in sed , though it isn't especially pretty: $ cat foo.txt foo = { gdb_name = "XXXXX" sid_name = "XXXXX" createContainerDB = "True" numberOfPDBs = "1" pdb_name = "XXXXX" oracle_database_sid = "XXXXX" } database = { gdb_name = "XXXXX" sid_name = "XXXXX" createContainerDB = "True" numberOfPDBs = "1" pdb_name = "XXXXX" oracle_database_sid = "XXXXX" } bar = { sid_name = "XXXXX" createContainerDB = "True" numberOfPDBs = "1" pdb_name = "XXXXX" } $ sed -e '/^database = {/,/^}/!d;/ *\([^ ][^ ]*\) *= *.*"/!d; s//\1/' foo.txt gdb_name sid_name createContainerDB numberOfPDBs pdb_name oracle_database_sid It deletes lines which are not between database = { and } . Then it checks to see if lines look like attributes. If they don't it deletes the line. If they do, it uses the regular expression (shared with the previous match) to substitute away everything apart from the attribute name. The sed script looks like this when laid out nicely on separate lines: /^database = {/,/^}/!d / *\([^ ][^ ]*\) *= *.*"/!d s//\1/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/988511/how-to-extract-the-text-inside-a-block-in-an-hcl-hashicorp-configuration-langua
+
+---
+
+#### 5365. Limiting shell access for git users, but still allowing push / pull access
+
+**问题描述 / Problem Description**:
+Tags: ssh, permissions, shell, git, github | Score: 2 | Views: 3008 | Answers: 2 | Created: 2019-10-03
+
+**解决方案 / Solution**:
+The easiest solution would be to use git-shell as the user's login-shell. A detailed description on how to set this up can be found here: https://git-scm.com/docs/git-shell or alternatively on the git shell manpage man git shell
+
+**参考链接 / References**:
+- https://serverfault.com/questions/986649/limiting-shell-access-for-git-users-but-still-allowing-push-pull-access
+
+---
+
+#### 5366. sed insert a string into a matched line inside quoutes
+
+**问题描述 / Problem Description**:
+Tags: shell, sed | Score: 2 | Views: 1936 | Answers: 2 | Created: 2019-06-12
+
+**解决方案 / Solution**:
+try sed "/^GRUB_CMDLINE_LINUX_DEFAULT=/ s/\(\"[^\"]*\)$/ mem_sleep_default=deep &/" where \(\"[^\"]*\)$/ tell sed to remember \( ... \) a quoted quote \" followed by any other char [^\"]* followed by end of line $ & will insert remembered pattern
+
+**参考链接 / References**:
+- https://serverfault.com/questions/971061/sed-insert-a-string-into-a-matched-line-inside-quoutes
+
+---
+
+#### 5367. How to de-duplicate 130 million files and sort them by size on a relative limited server?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 2 | Views: 201 | Answers: 1 | Created: 2019-03-22
+
+**解决方案 / Solution**:
+So, one way you can work around the bug you ran into is splitting the size and md5 into multiple subfields. For size, you'll want to pad it out to a fixed number of digits first. So, let's say you'd be creating a filename like: #size / md5 / name 12345 / aabbccddeeffgghh / foo__DIVIDER__bar__DIVIDER__baz.jpg Change it into: # size /md5 /name 00/00/01/23/45/aa/bb/cc/dd/ee/ff/gg/hh/foo__DIVIDER__bar__DIVIDER__baz.jpg ...and you've limited the fanout level at any given point in the tree, and thus avoided the bug in question. To actually generate a tree of filenames in that format might look something like: inDir=/path/to/tree/with/input/files while IFS= read -r -d '' name; do sp=$(stat --format=%010s -- "$name") # sp as short for "size padded" size_dir=${sp:0:2}/${sp:2:2}/${sp:4:2}/${sp:6:2}/${sp:8:2} { read -r md5 _ < <(md5sum "$name") && [[ $md5 ]]; } || continue md5_left=$md5 while [[ $md5_left ]]; do md5_dir+="/${md5_left:0:2}" md5_left=${md5_left:2} done sep=/ final_name="${size_dir}${md5_dir}/${name//$sep/__DIVIDER__}" final_dir="${final_name%/*}" if [[ -d "$final_dir" ]]; then # Hardlink new file to existing ones (deduplication) # Be sure to use an archiver that understands hardlinks (not zip)! existing_files=( "$final_dir"/* ) if [[ -e "${existing_files[0]}" || -L "${existing_files[0]}" ]]; then ln -- "${existing_files[0]}" "$final_name" ln -f -- "$final_name" "$file" # and make our input file a hardlink as well continue fi fi # if we get here, the continue was not invoked mkdir -p -- "${final_name%/*}" ln -- "$name" "$final_name" done < <(find "$inDir" -printf '%P\0') Of course, if you can have files larger than 9,999,999,999 bytes, you'll want to add more padding (maybe using %012s instead of %010s , and changing the calculation of size_dir appropriately).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/959534/how-to-de-duplicate-130-million-files-and-sort-them-by-size-on-a-relative-limite
+
+---
+
+#### 5368. How to create a new user that can login to SSH and execute a set of commands
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, shell | Score: 2 | Views: 241 | Answers: 1 | Created: 2019-01-17
+
+**解决方案 / Solution**:
+Try your luck with ACL . You could have your user's home on /var/sites/jupiter.solar-domain.com . Then set ACL's to also give the right to apache-user and www-data to access those folders. Here's what you need to do: Set your filesystem to use ACLs Create your user jupiter with the home directory /var/sites/jupiter.solar-domain.com Restrict his environment (check this Redhat procedure ) (Restricted shell is something you need, and you can add the commands mysql and php in the PATH ). Beware that in SSH, you need to set the PATH in .bashrc as well. Set your directory to have apache-user with the rights : setfacl -d -m u:apache-user:rw jupiter.solar-domain.com Also set the rights for the group www-data .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/949623/how-to-create-a-new-user-that-can-login-to-ssh-and-execute-a-set-of-commands
+
+---
+
+#### 5369. How to start a jar file using systemd
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-scripting | Score: 2 | Views: 12583 | Answers: 1 | Created: 2018-12-12
+
+**解决方案 / Solution**:
+Using systemd directives in place of shell results in a more consistent environment. This includes not relying on $PATH or the working directory by providing full paths where they are known. Neither & for job control, nor managing SIGHUP is needed. systemd service units are already backgrounded. Assuming the program doesn't fork, in other words the java exec keeps running, that's Type=simple [Unit] Description=something [Service] ExecStart=/usr/bin/java -jar /var/www/test.com/something.jar StandardOutput=file:/var/log/something.out.txt StandardError=file:/var/log/something.err.txt Type=simple WorkingDirectory=/var/www/test.com [Install] WantedBy=multi-user.target
+
+**参考链接 / References**:
+- https://serverfault.com/questions/943998/how-to-start-a-jar-file-using-systemd
+
+---
+
+#### 5370. FTP PAM Setup for VSFTPD
+
+**问题描述 / Problem Description**:
+Tags: shell, pam, vsftpd | Score: 2 | Views: 14593 | Answers: 1 | Created: 2018-09-16
+
+**解决方案 / Solution**:
+After reading a few articles I kinda understad how PAM works. The files in /etc/pam.d are basically list of conditions that are checked when that module/service is being used. So when I set the contents of the file /etc/pam.d/ftp to the following: auth required pam_listfile.so item=user sense=deny file=/etc/ftpusers onerr=succeed auth required pam_succeed_if.so quiet user ingroup ftp auth required pam_succeed_if.so quiet shell = /usr/sbin/nologin I get what I need, i.e. Only UNIX Users that are in ftp Group with nologin as shell can login. Explanation of what each line does: IF USER in /etc/ftpusers file THEN DENY ELSE ALLOW and GOTO next RULE IF USER in GROUP ftp THEN ALLOW and GOTO next RULE ELSE DENY IF USER 's SHELL = /usr/sbin/nologin THEN ALLOW GOTO next RULE ELSE DENY NO NEXT RULE: Allow ACCESS All the rules are basically AND'ed when they are of type REQUIRED . I am linking the guide I followed. I also used Linux Manual Pages for PAM, but not linking them. Feel free to add anything I have missed. This was my first time with PAM, and I think I love this feature. Regards! An Easy Guide to Linux-PAM by DZONE.com
+
+**参考链接 / References**:
+- https://serverfault.com/questions/931127/ftp-pam-setup-for-vsftpd
+
+---
+
+#### 5371. Files uploaded using SFTP does not have the correct rights
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, shell, sftp | Score: 2 | Views: 1371 | Answers: 2 | Created: 2018-03-13
+
+**解决方案 / Solution**:
+By not having a valid shell, the system default umask isn't being applied/used. What you can do is put your users in a group, and force a few things via the /etc/sshd_config file, including a umask - Match Group uploadusers ForceCommand internal-sftp -u 0002 the -u 0002 option sets a umask for the internal-sftp program/subsystem and any files uploaded through it IF the user is a member of the uploadusers group. Personally I also chroot the users so that they can only access their directories - check the ChrootDirectory option as it applies to a Match Group directive in the sshd_config file.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/901376/files-uploaded-using-sftp-does-not-have-the-correct-rights
+
+---
+
+#### 5372. Is there a *NIX shell that has most all tools built-in - not symlinked, no external execs?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 2 | Views: 291 | Answers: 3 | Created: 2018-01-30
+
+**解决方案 / Solution**:
+Busybox can be configured to run its internal implementations of some of its executables ("applets") directly if the following options are set: FEATURE_PREFER_APPLETS=y ("exec prefers applets") FEATURE_SH_STANDALONE=y ("Standalone shell") FEATURE_SH_NOFORK=y ("Run 'nofork' applets directly") These options are all disabled by default, so you will need to build busybox from source to enable them. Note that many applets do not support NOFORK .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/894838/is-there-a-nix-shell-that-has-most-all-tools-built-in-not-symlinked-no-exter
+
+---
+
+#### 5373. Bash script entrypoint (PID=1) kills `tail` sub process ONLY if a fake trap (which does NOTHING) was there
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, docker, shell, process | Score: 2 | Views: 3646 | Answers: 2 | Created: 2017-08-20
+
+**解决方案 / Solution**:
+You haven't provided your Dockerfile and it's not clear how you send the SIGTERM signal to the container. However, here is what I came up with in an attempt to reproduce your problem: My Dockerfile : FROM ubuntu ADD ./entrypoint.sh /opt/entrypoint.sh # Using the exec form here, so that the process is assigned PID 1. ENTRYPOINT ["/opt/entrypoint.sh"] Build container: $ docker build -f Dockerfile -t test_image . Don't forget to rebuild your container each time you change the entrypoint script. Run container with this command: $ docker run --rm -it --name test_trap test_image Now, let's see what is happening on each run. 1) With the trap line in your Bash script: # The main process will receive SIGTERM, trap it and exit. $ docker stop test_trap # The main process will receive SIGTERM, trap it and exit. $ docker kill -s=TERM test_trap # The main process will receive SIGKILL and will be stopped immediately. $ docker kill -s=KILL test_trap 2) Without the trap line: # The main process will receive SIGTERM which will be ignored. # After a grace period (10s by default) it will receive SIGKILL and will be stopped. $ docker stop test_trap # The main process will receive SIGTERM which will be ignored. # Container will continue running. $ docker kill -s=TERM test_trap # The main process will receive SIGKILL and will be stopped immediately. $ docker kill -s=KILL test_trap The reason is the kernel treats a process with PID 1 specially and doesn't kill the process receiving the SIGTERM signal (and also SIGINT ). More information on this issue: Any process can register its own handlers for TERM and use them to perform cleanup before exiting. If a process hasn't registered a custom signal handler, the kernel will normally fall back to the default behavior for a TERM signal: killing the process. For PID 1, though, the kernel won't fall back to any default behavior when forwarding TERM. If your process hasn't registered its own handlers (which most processes don't), TERM will have no effect on the process. Source - https://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html UPDATE I can't comment yet, so I will leave a comment here. This is same PID 1 problem. With both -d and -td the signals handling works as expected: TERM is ignored, as the entrypoint process is assigned PID 1 , whereas KILL terminates the process. If you add the trap line, then the TERM signal will be trapped in both cases. If it's not working for you for any reasons, then you should post your Dockerfile , the exact commands you execute and update your question accordingly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/869543/bash-script-entrypoint-pid-1-kills-tail-sub-process-only-if-a-fake-trap-whi
+
+---
+
+#### 5374. Is there an effective way to test whether a script only uses POSIX features?
+
+**问题描述 / Problem Description**:
+Tags: shell, posix | Score: 2 | Views: 187 | Answers: 2 | Created: 2017-07-31
+
+**解决方案 / Solution**:
+The POSIX mode of BASH , easily run: bash --posix /PathToYourScript to get in it and run your script there. It should give you a pretty clear idea of if your Script is POSIX - compatible or not. From what I read, DASH , which is standard ( sh is a symbolic link to dash ) on Ubuntu / Debian and derivatives is a very strict POSIX shell, which may be worth trying, because it's even stricter than BASH in POSIX mode.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/866056/is-there-an-effective-way-to-test-whether-a-script-only-uses-posix-features
+
+---
+
+#### 5375. Unzip archive with one line of output?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line-interface, shell | Score: 2 | Views: 3882 | Answers: 2 | Created: 2017-07-04
+
+**解决方案 / Solution**:
+You could use pv in line mode: unzip archive.zip | pv -l >/dev/null Gives you an updating progress line looking like this: 203 0:00:00 [3.93k/s] [ <=> ]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/859258/unzip-archive-with-one-line-of-output
+
+---
+
+#### 5376. sed: -e expression unknown option to `s'
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell | Score: 2 | Views: 17592 | Answers: 1 | Created: 2017-06-23
+
+**解决方案 / Solution**:
+Use % instead of / in your sed. sed -e 's%search_string%replace_with%' I guess your problem line has slashes in it and sed will strugle with it. Edit: Since you are using variables for the replace string, your slashes in there matters. My first answer was a bit missleading. Sorry for that. Example: We have a file nada.txt with content 'test: "/a/place/in/universe"' $ cat nada.txt test: "/a/place/in/universe" A variable with a directory for the replacement $ dir="/new/place/in/haven" $ echo $dir /new/place/in/haven Let's try to fail $ sed -e "s/\(test: \).*/\1$dir/" nada.txt sed: -e expression #1, char 19: unknown option to `s' Again but this time with replaced slashes with % ("s///" to "s%%%") $ sed -e "s%\(test: \).*%\1$dir%" nada.txt test: /new/place/in/haven Or $ sed -e 's%\(test: \).*%\1'$dir'%' nada.txt test: /new/place/in/haven See the single quotes, you need four to take out the variable. It looks like this 's% %'$dir'%'Because in a shell context single quotes will not resolve the variable: $ echo 'Such a text and $dir' Such a text and $dir Where as double quotes do the job as expected. $ echo "Such a text and $dir" Such a text and /new/place/in/haven Hope that helps
+
+**参考链接 / References**:
+- https://serverfault.com/questions/857477/sed-e-expression-unknown-option-to-s
+
+---
+
+#### 5377. Expect script with telnet - Non ASCII characters on output
+
+**问题描述 / Problem Description**:
+Tags: bash, expect | Score: 1 | Views: 332 | Answers: 1 | Created: 2025-09-19
+
+**解决方案 / Solution**:
+Found the workaround at Stackoverflow - Bash and Expect: Is there a way to ignore or remove ANSI control sequences from Expect buffer? cat file | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' > file
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1192881/expect-script-with-telnet-non-ascii-characters-on-output
+
+---
+
+#### 5378. Remove commas in double quotes from CSV
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, sed, awk, csv | Score: 1 | Views: 610 | Answers: 5 | Created: 2025-05-23
+
+**解决方案 / Solution**:
+Limitations of awk and sed solutions The following awk and sed solutions can handle your basic use case, but they come with important limitations. Because they rely on simple pattern matching rather than full CSV parsing, they: Assume one line per record (no support for multi-line fields). Do not support escaped quotes ( \" ) inside quoted fields. Fail or break if quoted fields are malformed or nested. To address these issues and ensure robust CSV handling, consider using a dedicated CSV parser, as demonstrated in the third example using Python. Using awk As you are already using awk to extract the fields, you could use awk for this, too. awk -F'"' '{ for (i = 2; i <= NF; i += 2) { gsub(/ *, */," ",$i) # Collapse comma-space patterns to single space } OFS=""; for (i = 1; i <= NF; i++) printf "%s", $i; print "" }' inputfile.csv Explanation: -F'"' splits the line by double quotes, isolating quoted segments in even-numbered fields. for (i = 2; i <= NF; i += 2) iterates over the quoted fields. gsub(/ *, */," ", $i) performs the replacement: / *, */ matches any comma with optional surrounding spaces (e.g., Blue,Green , Blue ,Green , Blue, Green , Blue , Green ). " " replaces the entire match with a single space (e.g., all of the above become Blue Green ). OFS="" ensures no extra output field separators when printing. The second for loop concatenates all fields back together. As this solution is a bit long for a one-liner, you could make it a script clean_csv_commas.awk : #!/usr/bin/awk -f BEGIN { FS="\""; OFS="" } { for (i = 2; i <= NF; i += 2) { gsub(/ *, */," ",$i) # Collapse comma-space patterns to single space } for (i = 1; i <= NF; i++) printf "%s", $i; print "" } Make it executable with chmod +x clean_csv_commas.awk . It can read from input file ./clean_csv_commas.awk inputfile.csv or from a pipe cat inputfile.csv | ./clean_csv_commas.awk . Using sed With sed , achieving results similar to the awk script above is possible, but the code is less readable and can only reliably handle lines with a single quoted field. Due to these limitations, I do not recommend using sed for this task . cat inputfile.csv | \ sed -E ' :a s/("[^"]*), ([^"]*")/\1 \2/g t a :b s/("[^"]*),([^ ]*[^"]*")/\1 \2/g t b ' | sed 's/"//g' Explanation: "[^\"]*" matches a quoted field (naively — no escaped quotes). First pass replaces comma+space ( , ) inside quoted fields with spaces ( ). Second pass replaces remaining commas ( , ) inside quoted fields with spaces ( ). Loops ( :a ... t a ) ensure it handles multiple quoted segments per line. Using Python This Python script uses the built-in csv module, which properly handles quoted fields, escaped quotes, and commas inside quotes according to CSV standards. #!/usr/bin/env python3 import csv import sys def clean_commas_in_fields(row): cleaned = [] for field in row: if ',' in field: field = field.replace(', ', ' ') field = field.replace(',', ' ') cleaned.append(field) return cleaned def main(): reader = csv.reader(sys.stdin) writer = csv.writer( sys.stdout, quoting=csv.QUOTE_NONE, escapechar='\\', delimiter=',', lineterminator='\n' ) for row in reader: cleaned_row = clean_commas_in_fields(row) writer.writerow(cleaned_row) if __name__ == "__main__": main()
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184277/remove-commas-in-double-quotes-from-csv
+
+---
+
+#### 5379. find -print0 doesn't work piped to with xargs -0 when -or conditions are used
+
+**问题描述 / Problem Description**:
+Tags: bash, find, cygwin, xargs | Score: 1 | Views: 110 | Answers: 1 | Created: 2024-11-07
+
+**解决方案 / Solution**:
+Turns out I was not grouping find "or" options in parens. Thus this fixed for me: function grepinpages() { find ./ -type f \( -iname "*.asp" -or -iname "*.html" -or -iname "*.htm" \) -print0 | \ xargs -0 -n200 egrep "${@}" -- } As I specified -print0 it related only to -iname "*.htm" and no default action was assumed for the other alternatives, I guess.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167505/find-print0-doesnt-work-piped-to-with-xargs-0-when-or-conditions-are-used
+
+---
+
+#### 5380. How to get global IPv6 address of the current machine?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, ipv6, shell-scripting | Score: 1 | Views: 1030 | Answers: 2 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+I would start with ip -6 addr ls -deprecated primary dev ens18 scope global | awk '/inet6/{print $2}' where dev ens18 tell ip to query only for ens18 -deprecated (to be put after ls or show ) filter out temporary outgoing IP primary select primary (e.g. first IP given to interface) scope global print only global adress (won't print link level address like fe80:: ) /inet6/ tell awk to filter line with inet6 { print $2} print value Note that ipv6 like fe80:: are local address (thoses are filtered out by scope global flag). a more XXI-th century solution would be ip --json addr ${OTHER_ARGS} | jq -r '.[].addr_info[] | select(.scope == "global") | select(.family == "inet6") | .local' (with ${OTHER_ARGS} from awk's solution above)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167229/how-to-get-global-ipv6-address-of-the-current-machine
+
+---
+
+#### 5381. MSSQL Restore command taking over the terminal for 10 minutes
+
+**问题描述 / Problem Description**:
+Tags: linux, sql-server, bash, kubernetes, database | Score: 1 | Views: 165 | Answers: 1 | Created: 2024-07-15
+
+**解决方案 / Solution**:
+I ran into the same problem, according this answer using msql-tools version 18 solves the problem
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162546/mssql-restore-command-taking-over-the-terminal-for-10-minutes
+
+---
+
+#### 5382. Bash script with openssl req -new -key rootCA.key -out rootCA.csr -config rootCA_openssl.cnf --passin pass:password
+
+**问题描述 / Problem Description**:
+Tags: bash, openssl | Score: 1 | Views: 252 | Answers: 1 | Created: 2024-06-25
+
+**解决方案 / Solution**:
+You need to add prompt = no to your [ req ] section. From the man page: prompt If set to the value no this disables prompting of certificate fields and just takes values from the config file directly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161505/bash-script-with-openssl-req-new-key-rootca-key-out-rootca-csr-config-rootca
+
+---
+
+#### 5383. How to Dynamically Adjust Rate Limits Based on Concurrent Connections in Nginx?
+
+**问题描述 / Problem Description**:
+Tags: linux, nginx, bash, unix, rate-limiting | Score: 1 | Views: 776 | Answers: 1 | Created: 2024-06-17
+
+**解决方案 / Solution**:
+http { lua_shared_dict my_shared_dict 1m; init_by_lua_block { ngx.shared.my_shared_dict:set("rate_limit", 10) } limit_req_zone $binary_remote_addr zone=lowlimit:10m rate=10r/m; limit_req_zone $binary_remote_addr zone=midlimit:10m rate=5r/m; limit_req_zone $binary_remote_addr zone=highlimit:10m rate=2r/m; upstream myservers { server 127.0.0.1:8081; server 127.0.0.1:8082; server 127.0.0.1:8083; server 127.0.0.1:8084; } server { listen 8080; location /nginx_status { stub_status; allow 127.0.0.1; # Only allow local access deny all; } } server { listen 80; location / { access_by_lua_block { local http = require "resty.http" local httpc = http.new() local res, err = httpc:request_uri("http://127.0.0.1:8080/nginx_status", { method = "GET" }) if not res then ngx.log(ngx.ERR, "Failed to request nginx status: ", err) return ngx.exit(500) end local active_connections = tonumber(string.match(res.body, "Active connections: (%d+)")) local zone if active_connections < 20 then zone = "lowlimit" elseif active_connections < 60 then zone = "midlimit" else zone = "highlimit" end ngx.var.limit_zone = zone } set $limit_zone "lowlimit"; limit_req zone=$limit_zone burst=20 nodelay; proxy_pass http://myservers; } } }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161067/how-to-dynamically-adjust-rate-limits-based-on-concurrent-connections-in-nginx
+
+---
+
+#### 5384. Storing top output to a file continuously
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, top | Score: 1 | Views: 3170 | Answers: 2 | Created: 2024-05-09
+
+**解决方案 / Solution**:
+As others suggested, running ‘ps’ may be better, but if you want to continuously write to file and have it rotated, see rotatelogs utility: https://httpd.apache.org/docs/2.2/programs/rotatelogs.html Essentially: top -b -c -w250 |rotatelogs ps.log 3600 Will rotate logs hourly. You can remove old logs using log rotate or any other script/utility you wish (find with ctime/mtime and -remove). There are switches for predictable naming. You could instead run with -bn1 and in your parser ignore “top” in that output.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159168/storing-top-output-to-a-file-continuously
+
+---
+
+#### 5385. Check if package exists in repository that is not on my sources.list?
+
+**问题描述 / Problem Description**:
+Tags: php, debian, bash, apt | Score: 1 | Views: 331 | Answers: 1 | Created: 2024-03-29
+
+**解决方案 / Solution**:
+Got some external help - unless there is a better way, of course # Download the Packages file wget -qO "/tmp/Packages.gz" "https://packages.sury.org/php/dists/$(lsb_release -sc)/main/binary-$(dpkg --print-architecture)/Packages.gz" # Check for the package in /tmp/Packages.gz if zgrep -q 'Package: example-package' /tmp/Packages.gz; then echo "Package example-package is available." else echo "Package example-package is not available." fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157111/check-if-package-exists-in-repository-that-is-not-on-my-sources-list
+
+---
+
+#### 5386. Remove bash permissions for a user
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, permissions, bash | Score: 1 | Views: 563 | Answers: 1 | Created: 2024-02-25
+
+**解决方案 / Solution**:
+The question isn’t clear whether you want to stop the user from running bash shell or just a bash script. For a bash script, it’s simple: files have owner, group, others. Add all authorized users to group bob, change bob.sh permissions to say root user, group bob (chown root:bob bob.sh) and then change mask to 750. Done. Only root and users in bob group can access or run or read the script. Alternatively you can uses extended fs attributes (see lsattr and chattr). If your objective is to stop a user from actually entering the bash shell, though I cannot conceivably think of why you’d want to do this, you can use the above method too on /bin/bash, though be forewarned, you may be inviting troubles. Some daemons use bash to run certain jobs. Note that multiple shells are compatible (bash sh zsh etc) enough to run your script with. User doesn’t need to be in bash to run bash shell scripts. Most of them will run if forced from sh or zsh, hence I am assuming you want to limit someone’s ability to run a script, not a shell.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155262/remove-bash-permissions-for-a-user
+
+---
+
+#### 5387. Executing a list of commands on distinct lines with bash -c?
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables | Score: 1 | Views: 113 | Answers: 1 | Created: 2024-01-17
+
+**解决方案 / Solution**:
+While it is correct, as long as you escape any single quotes in the CMDS with a single backslash, why not put the commands in a function instead? function bob() { command1 command2 command3 } bob You can even pass arguments and read return codes. function bob() { echo $1 echo $2 return 5 } bob param1 param2 echo $? Using functions avoids calling a new instance of bash shell to run the commands.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151720/executing-a-list-of-commands-on-distinct-lines-with-bash-c
+
+---
+
+#### 5388. DHCP starting before network is ready
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, dhcp, isc-dhcp, networkmanager | Score: 1 | Views: 1383 | Answers: 2 | Created: 2024-01-09
+
+**解决方案 / Solution**:
+To order a service start after network is up, set After=network-online.target in the systemd service file. Don't use After=NetworkManager-wait-online.service , because that is an implementation detail. NetworkManager-wait-online.service orders itself Before=network-online.target , so you get that ordering implicitly. For example, do so via systemctl edit isc-dhcp-server.service . Read the manual page , in particular about ipv4.may-fail=no and ipv4.required-timeout about how to tell NetworkManager that the interface is only ready with an IPv4 address. A better, more robust solution may be to convince the DHCP server to dynamically cope with being started when the addresses are not there yet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151187/dhcp-starting-before-network-is-ready
+
+---
+
+#### 5389. crontab -> shellscript -> docker -> redirect output to localfile
+
+**问题描述 / Problem Description**:
+Tags: docker, bash, cron | Score: 1 | Views: 205 | Answers: 1 | Created: 2023-12-22
+
+**解决方案 / Solution**:
+Your cron should look like this: 50 8 * * * /opt/freundx/admin_scripts/local_backup.sh &>> /mnt/E/logs/local_backup.log 2>&1 You do not need to pass the user in the command, it will be executed with the user who created the cron, make sure before that the user who executes the cron has permissions to write to the log file. The 2>&1 should go at the end of the command, this will ensure that all output is saved in the log. The &>> should go between the command and the log path, ensuring that all execution will be forwarded to the log file.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150246/crontab-shellscript-docker-redirect-output-to-localfile
+
+---
+
+#### 5390. not able to send mails from linux ubuntu : 20.04 by using email mailutils (sendmail or mail keyword)
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, scripting, shell-scripting | Score: 1 | Views: 313 | Answers: 1 | Created: 2023-11-28
+
+**解决方案 / Solution**:
+You need to configure the sasl_password parameter: smtp_sasl_auth_enable = yes smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd smtp_sasl_security_options = noanonymous smtp_tls_security_level = may header_size_limit = 409600 Inside the sasl_passwd file, you need to have this information: [outlook.office365.com]:587 username@you.com:SecurePassword Finally, as postfix reads from a generated .db file from that sasl_passwd, you need to issue this command: postmap /etc/postfix/sasl_passwd Restart the service and it should work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148716/not-able-to-send-mails-from-linux-ubuntu-20-04-by-using-email-mailutils-sendm
+
+---
+
+#### 5391. Bash has problems with cmdline nft cmd vs script
+
+**问题描述 / Problem Description**:
+Tags: bash, nftables | Score: 1 | Views: 375 | Answers: 2 | Created: 2023-08-30
+
+**解决方案 / Solution**:
+Removing the single quotes around the curly braces was the answer. I tried this because I figured the shell script (and sudo) were doing a fork/exec, for nft, with no shell interpretation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142696/bash-has-problems-with-cmdline-nft-cmd-vs-script
+
+---
+
+#### 5392. AuthorizedKeysCommand setup prompts for password
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, authentication, gitlab, public-key | Score: 1 | Views: 1135 | Answers: 1 | Created: 2023-08-16
+
+**解决方案 / Solution**:
+You may have missed AuthenticationMethods in /etc/ssh/sshd_config that (as a rule) has a default value of "any" which means to offer the next auth methods until success. Try to specify: AuthenticationMethods publickey for enable only this prefer. You could see default state of sshd-daemon with auth * params by follow command: ~$: sudo sshd -T | grep auth
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141672/authorizedkeyscommand-setup-prompts-for-password
+
+---
+
+#### 5393. why does systemd tag my self-made service "thawing" after running it for a few days?
+
+**问题描述 / Problem Description**:
+Tags: bash, systemd | Score: 1 | Views: 437 | Answers: 1 | Created: 2023-08-09
+
+**解决方案 / Solution**:
+Its not clear what quotelive should do, but it obviously exit often with your exit 5 directive. Thawing means systemd thinks its not a good idea to restart failing service eternally because if it fails always it should be fixed and not waste resources, so after few restarts it is thawed. First problem you have is that you run background job and then you make exit 5 making systemd think it failed however its not. With that you get forever created instances of quotelive . If quotelive program is intended to run forever you should use: # substitute PATH with the desired Abusolute path of the program, binary or script # substitute COMMAND with the shell command to run the program, binary or script # i.e. binary/executable named as XXX, change it to ./XXX # i.e. python3 script named as XXX.py, change it to python3 XXX.py # the script below would run it at background and leave starting/failing time # as well as program output( both normal print and errors) into PATH/out.log cd /root/quotelive cmd='./quotelive' newcmd="$cmd >> out.log" echo -e '\n' `date +'%Y/%m/%d %a, %X'`: STARTING - "$cmd" '\n' >> out.log eval $newcmd && exit 0 echo -e '\n' `date +'%Y/%m/%d %a, %X'`: PROCESS FAILED >> out.log exit 5 # make an error exit for service to restart If it should run and do job and then restarted: use Restart=Always in service file. Although, this wrapper script looks odd, you may consider running quotelive from systemd directly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141084/why-does-systemd-tag-my-self-made-service-thawing-after-running-it-for-a-few-d
+
+---
+
+#### 5394. Calculate seconds minutes and days ago in shell
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, date | Score: 1 | Views: 1764 | Answers: 1 | Created: 2023-07-23
+
+**解决方案 / Solution**:
+The date command cannot calculate durations. It's essentially what I commented before: you have timestamp one: ts1=$( date -d "08/23/2023 14:15:05" "+%s" ) you get a second timestamp, however you want ts2=$( date -d "now - 15 minutes" "+%s" ) calculate the differences in different ways: $ printf '%(%F %T)T minus %(%F %T)T is %d %s\n' "$ts1" "$ts2" "$((ts1-ts2))" seconds 2023-08-23 14:15:05 minus 2023-07-24 19:07:25 is 2574460 seconds $ printf '%(%F %T)T minus %(%F %T)T is %d %s\n' "$ts1" "$ts2" "$(( (ts1-ts2) / 60 ))" minutes 2023-08-23 14:15:05 minus 2023-07-24 19:07:25 is 42907 minutes $ printf '%(%F %T)T minus %(%F %T)T is %d %s\n' "$ts1" "$ts2" "$(( (ts1-ts2) / (60*60) ))" hours 2023-08-23 14:15:05 minus 2023-07-24 19:07:25 is 715 hours $ printf '%(%F %T)T minus %(%F %T)T is %d %s\n' "$ts1" "$ts2" "$(( (ts1-ts2) / (60*60*24) ))" days 2023-08-23 14:15:05 minus 2023-07-24 19:07:25 is 29 days I think our misunderstanding is how to accomplish step 2. If you don't want to do it manually, lots of languages have date modules that can do durations: perl , python
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1138757/calculate-seconds-minutes-and-days-ago-in-shell
+
+---
+
+#### 5395. Any way to see output of pv when run in subshell?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 1 | Views: 395 | Answers: 1 | Created: 2023-07-10
+
+**解决方案 / Solution**:
+Why not use the native dd progress counter ; the status=progress flag? dd if=/dev/sda bs=4M status=progress which should show periodic updates like: 2051014656 bytes (2.1 GB) copied, 15.602310 s, 131 MB
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1136483/any-way-to-see-output-of-pv-when-run-in-subshell
+
+---
+
+#### 5396. How to back up mysql/mariadb database as mysql root when using unix socket for sql access in a bash script?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mysql, backup, bash, mariadb | Score: 1 | Views: 1066 | Answers: 1 | Created: 2023-06-22
+
+**解决方案 / Solution**:
+You seem to be trying to come up with multiple solutions to the same problem. When SO_PEERCRED authentication is in place, passwords are pretty much irrelevant. When MySQL is NOT using SO_PEERCRED then it will use its own internal password store (unless you have explicitly configured it to do soething else). SO_PEERCRED authentication can only be used with connections via a filesystem socket. Where the host is not explicitly specified, or the literal string "localhost" is used, MySQL clients will use the filesystem socket. With SO_PEERCRED, MySQL expects that it has a user configured with the same name as the OS user connecting. Out of the box, the default configuration on MySQL is to only allow the root OS user to connect via SO_PEERCRED. This is implemented by a 'root@localhost' user in the mysql.users table. There are potentially MANY different combinations you can use to achieve your objective. But it is good practice to reserve your root account for tasks which can only be performed by root. And backing up the database is not one of these. So I would recommend creating a new user in MySQL with appropriate permissions . If you create an OS user with the same name, you will be able to use that account to run mysqlbackup locally using the SO_PEERCRED mechanism. Alternatively you can set a password for the MySQL account and if you connect via a network socket rather than a filesystem socket you need to provide the password to connect. While MySQL clients interpret "localhost" as meaning use the filesystem socket, "127.0.0.1" will connect to the network port (typically 3306). It is usually better for security not to leave passwords on your filesystem in clear text, hence the SO_PEERCRED authentication route is safer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1134595/how-to-back-up-mysql-mariadb-database-as-mysql-root-when-using-unix-socket-for-s
+
+---
+
+#### 5397. /etc/cron.d not running job
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, bash, cron | Score: 1 | Views: 1071 | Answers: 1 | Created: 2023-05-03
+
+**解决方案 / Solution**:
+As suggested in the comments by @Prem, the variable $USER was not defined in my script when run from cron.d. I changed my script to have the $USER variable extracted from the whoami command and now it works.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130270/etc-cron-d-not-running-job
+
+---
+
+#### 5398. zsh completion ( compctl ) does not trig for command names containing dashes
+
+**问题描述 / Problem Description**:
+Tags: command-line-interface, shell, zsh | Score: 1 | Views: 196 | Answers: 1 | Created: 2023-04-26
+
+**解决方案 / Solution**:
+Got it confirmed in the zsh-workers@zsh.org mailing-list that this is a bug and got a suggested patch: --- zsh-5.9.orig/Src/Zle/zle_tricky.c +++ zsh-5.9/Src/Zle/zle_tricky.c @@ -1315,6 +1315,8 @@ get_comp_string(void) ins = (tok == REPEAT ? 2 : (tok != STRING && tok != TYPESET)); zsfree(cmdstr); cmdstr = ztrdup(tokstr); + untokenize(cmdstr); + remnulargs(cmdstr); cmdtok = tok; /* * If everything before is a redirection, or anything I've tested it by applying the change as a quilt patch to the Debian zsh_5.9-4 source package rebuilt and installed it ... and it resolved my problem. I will continue to run it now and if it does not seem to break anything else I will make sure it's applied in zsh upstream expecting it to eventually trinkle down to all different distributions. If you have the problem now, and can't wait on it to trinkle down your distribuiton, download the zsh 5.9.4 source and patch it with the above patch and build it locally. If you want it integrated in you distribution packet here's how to do it for Debian (should work for most deb-package based distributions): sudo apt install devscripts libcap-dev libelf-dev libgdbm-dev cm-super-minimal texinfo yodl quilt mkdir /tmp/zsh_5.9 cd /tmp/zsh_5.9 apt source zsh=5.9-4 /bin/echo -e "1317a1318,1319\n> \t untokenize(cmdstr);\n> \t remnulargs(cmdstr);" > compctl-dash.diff cd zsh-5.9 export QUILT_PATCHES=debian/patches export QUILT_REFRESH_ARGS="-p ab --no-timestamps --no-index" quilt push -a quilt new compctl-dash.diff quilt add Src/Zle/zle_tricky.c patch Src/Zle/zle_tricky.c ../compctl-dash.diff quilt refresh quilt pop -a debuild -b -uc -us sudo dpkg -i ../zsh_5.9-4_amd64.deb Hopefully this will be fixed upstream and have reached your distribution before the package is updated next, otherwise you will have to repeat it (or lock the zsh package version) until it is :-)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1129723/zsh-completion-compctl-does-not-trig-for-command-names-containing-dashes
+
+---
+
+#### 5399. Linux, do I need if, else, or statements to accomplish automation of compiling programs from source
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, automation | Score: 1 | Views: 45 | Answers: 1 | Created: 2023-04-19
+
+**解决方案 / Solution**:
+If you know by advance that you have the prerequisite, you can do this. This is how works archlinux PKGBUILD s. You can use CI-CD in your gitlab/github to test that the compilation is successful. If you are unsure, then you need to add some conditions: trap 'echo >&2 "Encountered an error"; exit 1' ERR cd /path/httpd ./configure -arguments here -augment here -blah blah make make install or set -e cd /path/httpd ./configure -arguments here -augment here -blah blah make make install or using boolean logic: cd /path/httpd && ./configure -arguments here -augment here -blah blah && make && make install each command need to be successful to run the next one.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1129038/linux-do-i-need-if-else-or-statements-to-accomplish-automation-of-compiling-p
+
+---
+
+#### 5400. What does lower case "g" mean in top output?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, memory, top, virtual-memory | Score: 1 | Views: 2200 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+I have always used to interprete the "g" in top output to be size in Gigabytes even though the convention is to use uppercase "G" but now I am having second thoughts. It's gigabytes. The procps-ng developers expect the user to choose between upper- and lower-case at compile time. Really. I was monitoring my system memory usage when I found chrome using up to 1132.9g under VIRT column - an imposible amount of memory for the resources I have in my computer. VIRT has no relationship with the resources you have in your computer. (Hence the name "virtual".) It represents virtual memory address space, and each region of virtual address space may be backed by actual RAM, but it may also be backed by something else – such as memory-mapped files , or nothing at all (a "fresh" RAM-backed anonymous mapping is not all reserved upfront; it only begins consuming RAM as it's dirtied). In the case of web browsers, Chrome in particular, massive empty mappings may be used for JavaScript hardening similar to WebKit's GigaCage which Chrome also implements . As long as the mapping stays mostly untouched, it also mostly doesn't occupy any RAM – aside from a few kB or MB for the page table entries. (VSCode counts as a "web browser" here, as its Electron runtime is literally Chrome, and even "ng serve" – i.e. Node.js – uses the same JavaScript "V8" engine as Chrome does.) Finally for the GNOME Shell process, I suspect it's something to do with GPU VRAM access, although I'm not quite sure. tl;dr you are looking at the wrong column. Just because it happens to count megabytes doesn't mean it's system memory usage.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128654/what-does-lower-case-g-mean-in-top-output
+
+---
+
+#### 5401. Windows Feature Update Silent Install
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, shell, windows-update | Score: 1 | Views: 2592 | Answers: 1 | Created: 2023-03-28
+
+**解决方案 / Solution**:
+Look like your command contain syntax error, the corrected version would be: for Powershell: Start-Process -FilePath "C:\Windows\Temp\Windows10Update.exe" -ArgumentList "/quietinstall /skipeula /auto upgrade" and for Command Prompt: C:\Windows\Temp\Windows10Update.exe /quietinstall /skipeula /auto upgrade Also be sure that Windows10Update.exe is in C:\Windows\Temp"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127345/windows-feature-update-silent-install
+
+---
+
+#### 5402. Redirecting stdout and stderr doesn't work with cron
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, cron | Score: 1 | Views: 720 | Answers: 1 | Created: 2023-03-13
+
+**解决方案 / Solution**:
+If you do not want to receive mails from cron set as first line (in cron ) this: MAILTO="" And better create a script with the command and then do the redirect.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126044/redirecting-stdout-and-stderr-doesnt-work-with-cron
+
+---
+
+#### 5403. 'mail' not working in Script same way it is working from command line
+
+**问题描述 / Problem Description**:
+Tags: unix, shell | Score: 1 | Views: 1318 | Answers: 1 | Created: 2023-02-27
+
+**解决方案 / Solution**:
+What OS/Distro are you using? Many distros are commonly using BSD mailx as an alias to the mail command, but then there might be an alternate or when your script runs, it has a different PATH and therefore uses a different program to the one you expect. (As perhaps your OS has some other ideas for what mail for users should do.) Try from your terminal: $ echo $PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin Then the same in your script to see if there's something different about the PATHS BSD mailx will be in somewhere like /usr/bin/mailx It looks like it has different options to whatever mail command you are using, though. (See man mailx / man mail ). Are you trying to get: Subject: Message Subject X-Priority: 1 Or the subject, then an additional header: Subject: Message Subject X-Priority: 1 bash will strip newlines from variables if you try to use them like that to invoke another command. If it's mailx : -a Specify additional header fields on the command line such as "X-Loop: foo@bar" etc. I'd try something like: #!/bin/bash echo "Message Body" | /usr/bin/mailx -a "X-Priority: 1" -s "Message Subject" -r sender@mycom.com -c ccrecipient@mycom.com -- torecipient@mycom.com I don't think there is an (easy) way to get the stock mail/mailx to add attachments, though. It's not a thing it can do. You could use an alternative like mutt or neomutt : options: -- Special argument forces NeoMutt to stop option parsing and treat remaining arguments as addresses even if they start with a dash -a <file> Attach one or more files to a message (must be the last option) Add any addresses after the '--' argument -c <address> Specify a carbon copy (Cc) recipient -s <subject> Specify a subject (must be enclosed in quotes if it has spaces) Sounds like it will do more like what you want anyway. echo "Message Body" | mutt -s "Message Subject" \ -e "my_hdr X-Priority: 1" \ -e "my_hdr From: sender@mycom.com" \ -c ccrecipient@mycom.com \ -a /path/to/logFile.log \ -- torecipient@mycom.com echo "Message Body" | mutt -s "Message Subject" -e "my_hdr X-Priority: 1" -e "my_hdr From: sender@mycom.com" -c ccrecipient@mycom.com -a /path/to/logFile.log -- torecipient@mycom.com
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1123918/mail-not-working-in-script-same-way-it-is-working-from-command-line
+
+---
+
+#### 5404. lighttpd 1.4.46+ serve specific file based on $HTTP["useragent"]
+
+**问题描述 / Problem Description**:
+Tags: shell, lighttpd, perl, useragent | Score: 1 | Views: 294 | Answers: 1 | Created: 2023-02-22
+
+**解决方案 / Solution**:
+You can use lighttpd mod_magnet and a few lines of custom lua code. local r = lighty.r if r.req_attr["physical.path"] == "/path/to/htdocs/file.xml" then local ver = string.match(r.req_header["User-Agent"], "MyApp (%d+)") local path = string.sub(r.req_attr["physical.path"], 1, -4) -- remove '.xml' if ver and ver > 12345 then r.req_attr["physical.path] = path .. "2.xml" else r.req_attr["physical.path] = path .. "1.xml" end r.resp_header["Vary"] = "User-Agent" end return 0 The above is untested and for lighttpd 1.4.60 or later. The current version of lighttpd is lighttpd 1.4.69. If you're running lighttpd 1.4.46, it is likely that your systems are poorly maintained and very out-of-date, but you can find info on the older lighttpd mod_magnet interfaces on the same doc: lighttpd mod_magnet
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1123520/lighttpd-1-4-46-serve-specific-file-based-on-httpuseragent
+
+---
+
+#### 5405. Reloading /etc/ld.so.preload without starting a new shell
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 1 | Views: 5575 | Answers: 2 | Created: 2023-02-06
+
+**解决方案 / Solution**:
+When you add a library to the /etc/ld.so.preload file, it specifies that the dynamic linker should load that library before any other library. This means that when you execute a program, the specified library will be loaded before any other libraries that the program depends on. However, once the preload library has been loaded, it remains in memory until the process that loaded it terminates. This means that if you remove the library from /etc/ld.so.preload, it will not be removed from memory until the process that loaded it terminates. Similarly, if you add a library to /etc/ld.so.preload, it will not take effect until a new process is created. To force the dynamic linker to reload the libraries specified in /etc/ld.so.preload, you can use the command: sudo ldconfig -v -n /etc/ld.so.preload This command will reload the libraries specified in /etc/ld.so.preload and other configuration files in /etc/ld.so.conf.d/. The -v flag is used to print the output of the command to the console, and the -n flag is used to specify the directory containing the configuration files.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122156/reloading-etc-ld-so-preload-without-starting-a-new-shell
+
+---
+
+#### 5406. why "grep -v" or "tail -f" stop my program's output?
+
+**问题描述 / Problem Description**:
+Tags: bash, grep | Score: 1 | Views: 381 | Answers: 1 | Created: 2022-12-20
+
+**解决方案 / Solution**:
+The | only catches the standard output (stdout) stream; these messages are going to the standard error (stderr) stream. Using grep to hide the stderr messages is a XY problem . Solution to the Y problem To grep both at the same time you need to forward stderr stream to stdout with 2>&1 , e.g., eurotrucks2_server 2>&1 | grep -v "Timeout" Solutions to the X problem Discard stderr output with 2>/dev/null , e.g., eurotrucks2_server 2>/dev/null Forward (append) stderr output to a log file with 2>>/path/to/error.log , e.g., eurotrucks2_server 2>>/var/log/eurotrucks2_server_error.log
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118505/why-grep-v-or-tail-f-stop-my-programs-output
+
+---
+
+#### 5407. Dump a Table from MySQL Database directly from sql server using bash
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, bash | Score: 1 | Views: 1709 | Answers: 1 | Created: 2022-12-16
+
+**解决方案 / Solution**:
+Very simple #!/bin/bash mysqldump -uUSERNAME -pPASSWORD DBNAME MYTABLE > DBNAME-MYTABLE.sql For backup purposes you might want to add a date like this: #!/bin/bash cur=`date +"%Y-%m-%d"` mysqldump -uUSERNAME -pPASSWORD DBNAME MYTABLE > DBNAME-MYTABLE-${cur}.sql
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118239/dump-a-table-from-mysql-database-directly-from-sql-server-using-bash
+
+---
+
+#### 5408. bash change directory with spaces and backslash
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-scripting, variables | Score: 1 | Views: 1034 | Answers: 1 | Created: 2022-11-10
+
+**解决方案 / Solution**:
+If you insist on using backslashed directory name in $TEST , you could try: cd "${TEST//\\/}" Explanation from man bash under the "Parameter Expansion" section: ${parameter/pattern/string} Pattern substitution. The pattern is expanded to produce a pattern just as in pathname expansion. Parameter is expanded and the longest match of pattern against its value is replaced with string. If pattern begins with /, all matches of pattern are replaced with string. Normally only the first match is replaced. ... In other words, we are replacing "all matches" ( // ) of backslash \\ (because we need to escape the backslash) with an empty character. But if you could remove the backslashes from the variable name, then what you were trying to do will work: TEST="MY DIRECTORY WITH STRANGE [CHARACTERS]" cd "$TEST" BTW, the previously mentioned cd "${TEST//\\/}" command executes precisely the same string as mentioned here.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115394/bash-change-directory-with-spaces-and-backslash
+
+---
+
+#### 5409. Scripted Password Change Does Not Survive Reboot Unless One Login Occurs - Debian 11
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, scripting, shell-scripting, vagrant | Score: 1 | Views: 65 | Answers: 1 | Created: 2022-11-03
+
+**解决方案 / Solution**:
+I have solved this problem. What is needed is a simulated login after setting the password. Nothing else is needed but the following: #!/bin/bash ## Change Root Password echo "root:$(cat /dev/urandom | tr -dc '[:alnum:]' | fold -w ${1:-8} | head -n 1)" | tee >( chpasswd ) su - root This answer is based on the following: https://unix.stackexchange.com/questions/164890/simulate-initial-login-of-user-without-using-sudo
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114684/scripted-password-change-does-not-survive-reboot-unless-one-login-occurs-debia
+
+---
+
+#### 5410. how to exclude folders by date with find?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, grep, find, awk | Score: 1 | Views: 476 | Answers: 1 | Created: 2022-10-16
+
+**解决方案 / Solution**:
+To filter out the weekends, you could format the name of the folder to a date format %u , which signifies the day of the week (by number). Check out this example: FOLDER_DATE=$(date -d '20221014' +%u) #your folder name would go here if [[ "$FOLDER_DATE" -eq 6 || "$FOLDER_DATE" -eq 7 ]] then echo "Weekend" else echo "Not Weekend" fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113162/how-to-exclude-folders-by-date-with-find
+
+---
+
+#### 5411. how to extract values from files, compare it with a variable and send to out file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, grep, find | Score: 1 | Views: 130 | Answers: 1 | Created: 2022-09-30
+
+**解决方案 / Solution**:
+Try this: $ max="1073741824" $ ( cd myfolder for file in * do if (( `awk <$file '/^total/ {print($2)}'` > $max )) then echo $file fi done ) >output.lst Note the use of grave accents, and that there are no spaces around the "=". And of course there is no error checking here.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1111995/how-to-extract-values-from-files-compare-it-with-a-variable-and-send-to-out-fil
+
+---
+
+#### 5412. How to monitor scripts executed via cron and perform action on elapsed times?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, cron, scripting, shell | Score: 1 | Views: 1743 | Answers: 1 | Created: 2022-08-27
+
+**解决方案 / Solution**:
+I've moved most of my cron jobs into systemd timer units. This makes the process of managing them much easier; I don't need to use ps to look up processes to see what to PID to kill. E.g, instead of: 42 01 * * * mkdir -p '/tmp-data/logs/specific-script/' && timeout 60m bash /script.sh > /tmp-data/logs/specific-script-$(date ...) I would create a service in ~/.config/systemd/user/myservice.service : [Service] RuntimeMaxSec=60m ExecStart=/bin/bash /script.sh And then a timer in ~/.config/systemd/user/myservice.timer : [Timer] OnCalendar=01:42:00 [Install] WantedBy=default.target And then: $ systemctl --user enable myservice.timer Now: I can rely on systemd to collect the logs, which I can see by running journalctl --user -u myservice . There are a variety of additional flags I can pass to journalctl to filter messages by time, content, etc. Rather than using timeout , I'm letting systemd manage the maximum service runtime. If I need to stop a service prematurely, I can simply run systemctl --user stop myservice ; no need to look things up with ps . If I want to stop the service from running periodically, I can systemctl --user stop myservice.timer (to stop the timer until next reboot), or systemctl --user disable --now myservice.timer (to both stop the timer and prevent it from starting again after the next reboot). If I want to run the service on demand, I can systemctl --user start myservice . With respect to monitoring your services, you could probably handle that with an ExecStopPost script in your service unit. These scripts have access to a number of environment variables , including $SERVICE_RESULT . If your service is killed because it exceeded RuntimeMaxSec , $SERVICE_RESULT will be timeout , so you could check this and perform some monitoring action (send an email, play a sound, whatever). [Service] RuntimeMaxSec=60m ExecStart=/bin/bash /script.sh ExecStopPost=/bin/bash /script-to-check-and-notify-me.sh The timeout will also be part of the service log, e.g: $ journalctl --user -u exampleservice Aug 28 07:59:44 madhatter systemd[5559]: Started exampleservice.service. Aug 28 07:59:54 madhatter systemd[5559]: exampleservice.service: Service reached runtime time limit. Sto> Aug 28 07:59:54 madhatter systemd[5559]: exampleservice.service: Failed with result 'timeout'.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1109271/how-to-monitor-scripts-executed-via-cron-and-perform-action-on-elapsed-times
+
+---
+
+#### 5413. How to automate aws cli commands with shell script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-scripting, aws-cli | Score: 1 | Views: 5494 | Answers: 1 | Created: 2022-08-04
+
+**解决方案 / Solution**:
+The default output format for awscli is json. So in you aws ec2 create-security-group command would yield an output something like: { "GroupId": "sg-903004f8" } What you could do is to parse that json with tool like jq . MYSG=$(aws ec2 create-security-group --group-name plamenSG \ --description "Security group for SSH access" \ --vpc-id vpc-026278d069c2b6ffa | jq -r '.GroupId') Hope this helps.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107387/how-to-automate-aws-cli-commands-with-shell-script
+
+---
+
+#### 5414. Is there a faster implementation of uuidgen from bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, uuid | Score: 1 | Views: 1122 | Answers: 1 | Created: 2022-07-25
+
+**解决方案 / Solution**:
+cat /proc/sys/kernel/random/uuid command uses the kernel UUID generator to generate random UUIDs. It still has the invocation delay, but the generation itself is likely faster.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1106494/is-there-a-faster-implementation-of-uuidgen-from-bash
+
+---
+
+#### 5415. Why does docker-compose issue the "wrong" exit code when errors occur?
+
+**问题描述 / Problem Description**:
+Tags: linux, docker, bash, cron, command-line-interface | Score: 1 | Views: 3951 | Answers: 1 | Created: 2022-07-08
+
+**解决方案 / Solution**:
+This looks like a strange one. I think docker-compose should be passing the exit code from the underlying docker cli, so it's either a bug or the problem lies deeper. If I'm not mistaken, the "stack" is docker-compose -> docker -> cgroup freezer I suggest doing a test run of the script using just docker cli (without compose) on individual containers to harvest the exit codes. If the exit codes are correct (=not always 0), then it's likely a bug in docker-compose . Another option is to hunt down the reason why the pause fails :) Does the script behave this way only when run from crontab? Is the docker-compose for something publicly available so I can reproduce it?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105102/why-does-docker-compose-issue-the-wrong-exit-code-when-errors-occur
+
+---
+
+#### 5416. Linux script , Incremental backup in the same server
+
+**问题描述 / Problem Description**:
+Tags: linux, scripting, shell, bin | Score: 1 | Views: 1135 | Answers: 1 | Created: 2022-07-05
+
+**解决方案 / Solution**:
+You can achieve this with a much simpler script using rsync : #!/bin/bash source=/home/ec2-user/source dest=/home/ec2-user/destination changed=0 while [[ $changed -eq 0 ]]; do # The next command just count changes, does not copy anything changed=$(rsync -rin $source/ $dest | grep "^>f" | wc -l) sleep 1 done echo "Copying $changed files" rsync -qrt $source/ $dest I used the sleep 1 to avoid a resource intensive loop, but there is a better way using inotify-tools: inotifywait -e modify,create -r $source && \ rsync -qrt $source/ $dest The inotifywait command will stay blocked until some file is either modified or created (the -e modify,create option) and it is very efficient.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104802/linux-script-incremental-backup-in-the-same-server
+
+---
+
+#### 5417. Bash script to configure IPTABLES
+
+**问题描述 / Problem Description**:
+Tags: iptables, bash, scripting | Score: 1 | Views: 2326 | Answers: 2 | Created: 2022-06-28
+
+**解决方案 / Solution**:
+Your equality test is incorrect if [ $number == "1" ]; then You need single square braces with spaces around them. Double square braces do something a bit different. Also ... Get into the habit of using single quotes wherever you can. Linux applies expansion rules to literals in double quotes. ip=127.0.0.1 echo '$ip' $ip echo "$ip" 127.0.0.1 If you don't want/need this, use single quotes to make this clear. Since you're probably going to add more options, look into the case statement. case $number in '1' : ;; '2' : ;; esac
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104267/bash-script-to-configure-iptables
+
+---
+
+#### 5418. What program is being executed upon time command?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line-interface | Score: 1 | Views: 122 | Answers: 2 | Created: 2022-05-22
+
+**解决方案 / Solution**:
+It's both a binary in /usr/bin/time and a Shell builtin. $ type time time is a shell keyword Shell builtins have precedence over binaries on disk. To use the binary, you have to specify the path, e.g. /usr/bin/time -v ls The Wikipedia Article has some more information on the topic.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101554/what-program-is-being-executed-upon-time-command
+
+---
+
+#### 5419. bash script – MySQL commands and variables
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, bash, shell-scripting, nextcloud | Score: 1 | Views: 2567 | Answers: 1 | Created: 2022-05-22
+
+**解决方案 / Solution**:
+Like this (with here-doc ): mysql<<EOF CREATE USER '$UserName'@'localhost' IDENTIFIED BY '$UserPass'; EOF Learn how to quote properly in shell, it's very important : "Double quote" every literal that contains spaces/metacharacters and every expansion: "$var" , "$(command "$var")" , "${array[@]}" , "a & b" . Use 'single quotes' for code or literal $'s: 'Costs $5 US' , ssh host 'echo "$HOSTNAME"' . See http://mywiki.wooledge.org/Quotes http://mywiki.wooledge.org/Arguments http://wiki.bash-hackers.org/syntax/words
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101522/bash-script-mysql-commands-and-variables
+
+---
+
+#### 5420. Hashicorp Vault How Do I Login Headless From STDIN Using Bash Shell?
+
+**问题描述 / Problem Description**:
+Tags: bash, authentication, headless, devops, vault | Score: 1 | Views: 1772 | Answers: 2 | Created: 2022-03-30
+
+**解决方案 / Solution**:
+You should consider using JWT (JSON Web Token) mutual authentication between Gitlab and Vault. This way there's no need to save any passwords anywhere (including variables), that is you first obtain a temporary Vault token via JWT Auth like this: export VAULT_TOKEN="$(vault write -field=token auth/jwt/login role=builder jwt=$CI_JOB_JWT)" And then you can access necessary secrets like this: export VCENTER_USER="$(vault kv get -field=username /kv/builder/vcenter-auth)" export VCENTER_PASSWORD="$(vault kv get -field=password /kv/builder/vcenter-auth)" And when finished you can revoke this temporary token by: vault token revoke -self
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097433/hashicorp-vault-how-do-i-login-headless-from-stdin-using-bash-shell
+
+---
+
+#### 5421. How to restrict a user to rbash when logging in via SSH
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash | Score: 1 | Views: 2907 | Answers: 1 | Created: 2022-02-10
+
+**解决方案 / Solution**:
+After experimenting with this for a while it seems to me that the root of the problem is that the security of rbash depends on PATH being set, but in most setups PATH is set after SSH specifies its custom commands, whereas it needs to be specified before . As a solution, rather than specifying /bin/rbash (symlink to /bin/bash ) as the login shell, I have created a shell script /usr/local/bin/rbash and used that as the login shell instead. The shell script has the following content: #!/bin/bash -l export PATH=/usr/local/rbin exec /bin/bash -r "$@" I also experimented with the SetEnv directive of sshd and tried to set the PATH there. However, I found this solution less practical because it sets the configuration only for SSH, and also it caused lots of errors while running /etc/profile , because the commands used there could not be found. Also, there seems to be a risk that some other sshd directives would allow the client to override certain environment variables again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093243/how-to-restrict-a-user-to-rbash-when-logging-in-via-ssh
+
+---
+
+#### 5422. SSH'ing into WIN 10
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, windows-10, ssh-keys | Score: 1 | Views: 841 | Answers: 1 | Created: 2022-01-19
+
+**解决方案 / Solution**:
+I presume you installed the Microsoft β-release of native openssh server? Microsoft documentation explains how to deploy ssh keys using Powershell on serverside. Nevertheless, in your still want bash: 2/ The shell provided by Microsoft can be configured adding a property in the registry: New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force Blockquote You can also use a “bash” script to modify your %PATH% and add any flavor of third party bash you may have installed on the server (cygwin, msys, git-bash…). 1/ try again ssh-copy-id :) BUT keep in mind that only ed25519 keys may work. you@unix$ ssh-keygen -t ed25519 may save your day. Maybe not: I am unsure of the openssh implementation of Microsoft and the ACL management will probably prevent you from login in after the ssh key deployment if the ACLs (and their administrator_authorized_keys mechanism) is not correctly fixed. BTW: the microsoft documentation are pretty clear. https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_server_configuration and https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090445/sshing-into-win-10
+
+---
+
+#### 5423. Environment Variable Empty in Bash Script
+
+**问题描述 / Problem Description**:
+Tags: linux, amazon-web-services, bash, amazon-linux-2 | Score: 1 | Views: 2501 | Answers: 1 | Created: 2021-12-20
+
+**解决方案 / Solution**:
+Posting from the StackOverflow post https://stackoverflow.com/questions/70423727/environment-variable-empty-in-bash-script As answered by @chepner sudo does not preserve arbitrary environment variables by default for security reasons. So dropping sudo from the command helped me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1087815/environment-variable-empty-in-bash-script
+
+---
+
+#### 5424. After= option not working in systemd service file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, systemd, systemctl | Score: 1 | Views: 4785 | Answers: 1 | Created: 2021-12-01
+
+**解决方案 / Solution**:
+You misread the documentation. Quote : If unit foo.service contains the setting Before=bar.service and both units are being started , bar.service 's start-up is delayed until foo.service has finished starting up. After= is the inverse of Before= Highlight by me. This only has an effect if both units are being started. If you disable one of them, it has no effect. It's not quite clear what you actually want. Probably better choices are: Requires= Similar to Wants= , but declares a stronger requirement dependency. Dependencies of this type may also be configured by adding a symlink to a .requires/ directory accompanying the unit file. If this unit gets activated, the units listed will be activated as well. If one of the other units fails to activate, and an ordering dependency After= on the failing unit is set, this unit will not be started. Besides, with or without specifying After= , this unit will be stopped if one of the other units is explicitly stopped. PartOf= Configures dependencies similar to Requires= , but limited to stopping and restarting of units. When systemd stops or restarts the units listed here, the action is propagated to this unit. Note that this is a one-way dependency — changes to this unit do not affect the listed units.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1085054/after-option-not-working-in-systemd-service-file
+
+---
+
+#### 5425. Zip all files returned from "grep-ril" command
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, zip | Score: 1 | Views: 752 | Answers: 2 | Created: 2021-11-19
+
+**解决方案 / Solution**:
+Use the zip command line switch -@ to have zip take the list of input files from standard input instead of from the command line. For example, grep -ril "test string" | zip name-of-new-zip-file -@
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1084048/zip-all-files-returned-from-grep-ril-command
+
+---
+
+#### 5426. rsync : write failed - No space left on device (28) despite using --inplace
+
+**问题描述 / Problem Description**:
+Tags: backup, bash, rsync | Score: 1 | Views: 1265 | Answers: 1 | Created: 2021-11-18
+
+**解决方案 / Solution**:
+Now based on your recent comment I can say that most likely it just run our of inodes. When you create ext4 fs by default mkfs allocates inodes based on partition/image size. So the less is the image size, the less is the inode count. You edit this script to allocate more inodes, just find a line where it does mkfs.ext4 and change the number of inode it allocates with -i or -N option. Find this line in image-backup: mkfs.ext4 -q -b 4096 "${LOOP}p2" > /dev/null and change it to: mkfs.ext4 -q -b 4096 -i 4096 "${LOOP}p2" > /dev/null This will make 4x more inodes than the default settings. I don't think something in your server can produce such effect. While sparse files might be the reason too, you can mitigate it with -S rsync option which will handle sparse files correctly. But it conflicts with --inplace option.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1083962/rsync-write-failed-no-space-left-on-device-28-despite-using-inplace
+
+---
+
+#### 5427. Sending email with ssmtp From value issue
+
+**问题描述 / Problem Description**:
+Tags: email, bash, ssmtp | Score: 1 | Views: 603 | Answers: 1 | Created: 2021-11-08
+
+**解决方案 / Solution**:
+Not sure how to change the settings in the config, but the below worked for me. 1). Uncomment ssmtp.conf: FromLineOverride=YES and in the crontab itself, specify 'from' address (not the below will send an email every 5 minutes ;): MAILTO=<my-address@example.com> MAILFROM=<cron-sender@example.com> */5 * * * * echo 'Test email from crontab. Skynet takes over the world!'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1082913/sending-email-with-ssmtp-from-value-issue
+
+---
+
+#### 5428. jcmd works in console but fails in script
+
+**问题描述 / Problem Description**:
+Tags: bash, centos7, java, sudo, debugging | Score: 1 | Views: 622 | Answers: 1 | Created: 2021-09-28
+
+**解决方案 / Solution**:
+Try using & .This will make the script to run in the background. And it will have access. -XX:OnOutOfMemoryError='sh /opt/alfresco/scripts/dumpNrestart.sh &'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078887/jcmd-works-in-console-but-fails-in-script
+
+---
+
+#### 5429. Linux cp specific files from a text list of files to subdirectories from a text list too?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, copy, xargs | Score: 1 | Views: 320 | Answers: 1 | Created: 2021-09-27
+
+**解决方案 / Solution**:
+The way I've done this in the past is using tar as a go-between -- but I'm sure there are other answers that are more elegant than this. Where we have a list of files that meet a specific criteria IE: all files in /usr smaller than 1M $ find /usr -type f -size -1M That we want to copy to the location /mnt/dst . You can use tar as a vector to pack/unpack the data. IE $ find /usr -type f -size -1M | tar --files-from=- -c | tar -xv -C /mnt/dst The first tar takes the --files-from which expects a line by line list of full paths to files and creates a tarball to stdout. The second tar switches to the destination path with -C and unpacks the tarball received from the pipe. This results in the following output (when using -v in the second tar command). usr/lib/grub/i386-pc/fdt.lst usr/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/__init__.py usr/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/__init__.py usr/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py usr/lib/python3.6/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py usr/lib/python3.6/site-packages/pip/operations/__init__.py usr/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py usr/lib/python3.6/site-packages/setuptools/_vendor/__init__.py usr/lib/python3.6/site-packages/slip/__init__.py usr/lib/python3.6/site-packages/slip/_wrappers/__init__.py usr/lib/python3.6/site-packages/asn1crypto/_perf/__init__.py ... ... The resulting destination directory produces the (pruned for readability) tree which should be what you're looking for.. # tree -L 3 /mnt/dst /mnt/dst └── usr ├── lib │ ├── grub │ ├── node_modules │ └── python3.6 ├── lib64 │ └── python3.6 ├── local │ └── share └── share ├── crypto-policies ├── doc ├── groff ├── microcode_ctl ├── mime ├── pki ├── texlive ├── texmf ├── vim └── X11 20 directories, 0 files
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078774/linux-cp-specific-files-from-a-text-list-of-files-to-subdirectories-from-a-text
+
+---
+
+#### 5430. Why does `ps -x | grep foo` include the grep command?
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-scripting, ps | Score: 1 | Views: 3528 | Answers: 2 | Created: 2021-09-24
+
+**解决方案 / Solution**:
+As Bravo points out, a pipe in Linux is not a file, it is dynamic. So ps -x | grep login will actually start both programs at once, so that one can pitch down the pipe and the other can catch. The reason it is not deterministic, why your contrived example doesn't always show four grep instances, is that an instance may not be started until there is something in the pipe for it to do; or the instance in question may not be fully started when ps reads the process list.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078499/why-does-ps-x-grep-foo-include-the-grep-command
+
+---
+
+#### 5431. How to get extra vars java link and download it in ansible and extract it
+
+**问题描述 / Problem Description**:
+Tags: bash, ansible, ansible-playbook | Score: 1 | Views: 665 | Answers: 1 | Created: 2021-09-23
+
+**解决方案 / Solution**:
+Even though you didn't actually provide any information on how your code was failing, there are some obvious issues. Ansible is not shell, and you cannot access Ansible variables using shell syntax. You also have different variable names in your code ( javaurl ) and in your example CLI invocation ( java_url ). I've arbitrarily chosen to use java_url below. There are multiple ways to start fixing the existing task. # Consistently use Jinja - name: Download Java to Latest Version shell: | mkdir /opt/java cd /opt/java wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" {{ java_url }} tar -xzvf {{ (java_url | urlsplit).path | basename }} # Consistently use shell variables - name: Download Java to Latest Version shell: | mkdir /opt/java cd /opt/java wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" $java_url tar -xzvf ${java_url##*/} environment: java_url: "{{ java_url }}" However, instead of fixing your shell script, you should rewrite it using Ansible's builtin features for doing this work. - name: Create /opt/java file: dest: /opt/java state: directory - name: Download the Java JDK get_url: url: "{{ java_url }}" dest: /opt/java headers: Cookie: oraclelicense=accept-securebackup-cookie register: result - name: Extract the Java JDK unarchive: src: "{{ result.dest }}" remote_src: true dest: /opt/java
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078404/how-to-get-extra-vars-java-link-and-download-it-in-ansible-and-extract-it
+
+---
+
+#### 5432. tar -xvf error "Can't restore time" when trying to extract in certain directories on mac osx but works in others
+
+**问题描述 / Problem Description**:
+Tags: bash, tar | Score: 1 | Views: 3232 | Answers: 1 | Created: 2021-08-25
+
+**解决方案 / Solution**:
+I encountered this issue today. I conducted some research and found the following results. If an archive (such as an OpenJDK release) contains a ./ entry, during decompression, tar will restore its timestamps to the writable target directory, but whether its ownership is restored depends on the situation. When tar runs as a non-root user, it behaves as if the --no-same-owner option were specified. If the user has write permission to the target directory, ownership is assigned to that user. When tar runs as root, it behaves as if the --same-owner option were used, attempting to restore the ownership from the archive to the target directory. However, when the target directory is a system directory such as /usr/local/ or /tmp , at least on macOS, tar may yield an error like the one below while attempting to restore its timestamp or ownership, even when running with root privileges, because the system prevents tar from doing so. cd /usr/local/ sudo tar -xvf openjdk-25.0.1_macos-x64_bin.tar.gz Operation permission error with bsdtar: x ./: Can't restore time tar: Error exit delayed from previous errors. x ./: Can't set user=504/group=10670 for . tar: Error exit delayed from previous errors. Operation permission error with gnutar: tar: .: Cannot utime: Operation not permitted tar: .: Cannot change ownership to uid 504, gid 10670: Operation not permitted tar: Exiting with failure status due to previous errors To prevent these errors, ensure that tar has write permission for the target directory (for a root-owned folder, use sudo to run with root privileges). Then, add the option -om to make tar change the ownership of extracted files to the user running tar and skip timestamp modification. sudo tar -omxvf openjdk-25.0.1_macos-x64_bin.tar.gz
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1075640/tar-xvf-error-cant-restore-time-when-trying-to-extract-in-certain-directorie
+
+---
+
+#### 5433. spawn-fcgi doesn't start automatically even though has root permission Centos 7
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, bash, centos7, service | Score: 1 | Views: 278 | Answers: 1 | Created: 2021-08-04
+
+**解决方案 / Solution**:
+Ok I solved this problem by using sleep 5m command in my bash script, because it should start spawn-fcgi service after ip bind not before.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1073481/spawn-fcgi-doesnt-start-automatically-even-though-has-root-permission-centos-7
+
+---
+
+#### 5434. How to delete the grepped iptables
+
+**问题描述 / Problem Description**:
+Tags: linux, iptables, bash, linux-networking, shell-scripting | Score: 1 | Views: 286 | Answers: 1 | Created: 2021-08-04
+
+**解决方案 / Solution**:
+Deleting calico-Iptables: Use calico-policy and add below lines at the end of script: echo "Flush remaining calico iptables" iptables-save | grep -i cali | iptables -F echo "Delete remaining calico iptables" iptables-save | grep -i cali | iptables -X This will delete all calico iptables when you check with iptables -S Note: Run this script only after uninstalling K3S. Deleting calicoctl: Simply run sudo rm $(which calicoctl) command, it will find and delete the calicoctl.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1073476/how-to-delete-the-grepped-iptables
+
+---
+
+#### 5435. CENTOS apache ALL=(root) NOPASSWD: /path/to/shell.sh is not working
+
+**问题描述 / Problem Description**:
+Tags: apache-2.4, bash, shell, sudo, centos8 | Score: 1 | Views: 1388 | Answers: 2 | Created: 2021-07-25
+
+**解决方案 / Solution**:
+The command you call with sudo must match what is in the sudoers file, but in your case they do not match. You tried to run bash /usr/bin/iptables.sh , but sudoers only allows you to run /usr/bin/iptables.sh .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1070602/centos-apache-all-root-nopasswd-path-to-shell-sh-is-not-working
+
+---
+
+#### 5436. lxc send file or copy
+
+**问题描述 / Problem Description**:
+Tags: bash, lxd | Score: 1 | Views: 1499 | Answers: 2 | Created: 2021-07-23
+
+**解决方案 / Solution**:
+Try this: cat 2.sh | lxc-attach -n containerName tee /root/2.sh Note: I tested this with docker containers, as I don't have lxc available at the moment. With docker this works when the -i parameter for an interactive session is specified. I don't see a corresponding parameter for lxc-attach , I don't know if this is necessary or possible.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1070410/lxc-send-file-or-copy
+
+---
+
+#### 5437. Ubuntu 20.04: su command bash-autocomplete stopped working
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, su, bashrc | Score: 1 | Views: 4975 | Answers: 3 | Created: 2021-07-17
+
+**解决方案 / Solution**:
+Finally found the solution. It is not an issue but due to the changes in the implementation of su command on Ubuntu-20.04. Here is the workaround: Edit the following file: sudo vi /usr/share/bash-completion/completions/su Replace line 44: COMPREPLY=( $(compgen -f -- $cur) ) with COMPREPLY=( $(compgen -u -- $cur) ) Source-1: https://stackoverflow.com/a/53417028/8388883 Source-2: https://github.com/scop/bash-completion/issues/253#issuecomment-440591431 The sources are for CentOS, but also working for Ubuntu 20.04.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1069884/ubuntu-20-04-su-command-bash-autocomplete-stopped-working
+
+---
+
+#### 5438. Run script after Debian installation is complete
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, debian, bash, installation | Score: 1 | Views: 6682 | Answers: 1 | Created: 2021-07-14
+
+**解决方案 / Solution**:
+This solution is based on the fact that you use a USB to install the OS, and that you will have in the root of the USB a folder called files where you will have the file preseed.cfg and an executable called run.sh . This command will copy the file run.sh to the root of the user root and there it will execute the script. d-i preseed/late_command string cp /cdrom/files/run.sh /target/root/; chmod +x /target/root/run.sh; in-target /bin/bash /root/run.sh After this you can use rm to delete the file. You can also run the script directly from the USB (without copying it), but after some tests I have verified that it can induce human errors
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1069623/run-script-after-debian-installation-is-complete
+
+---
+
+#### 5439. Fastest way to copy files locally in linux
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 1 | Views: 3966 | Answers: 1 | Created: 2021-07-05
+
+**解决方案 / Solution**:
+No its not due to fragmentation, small files on mechanical disk gets copied very slow. It is better to wait. No magic bullet this time.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1068658/fastest-way-to-copy-files-locally-in-linux
+
+---
+
+#### 5440. bash over Windows SSH is not working
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, bash, windows-subsystem-for-linux | Score: 1 | Views: 1153 | Answers: 1 | Created: 2021-07-03
+
+**解决方案 / Solution**:
+I loved to run bash.exe on windows ssh server but it doesn't work anymore, so I decided to open ssh server on wsl linux, and when I need to use windows program or powershell, I do /mnt/c/Windows/system32/cmd.exe then you can go out to windows rather linux before ssh -> windows -> wsl after ssh -> wsl -> windows it's different, but same
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1068536/bash-over-windows-ssh-is-not-working
+
+---
+
+#### 5441. How to connect from Ubuntu VM on Azure to another without uploading the private key
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, bash, private-key, local | Score: 1 | Views: 116 | Answers: 1 | Created: 2021-06-21
+
+**解决方案 / Solution**:
+What you are trying to do is "creating bastion host". And it can be done by using ssh-agent .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1067286/how-to-connect-from-ubuntu-vm-on-azure-to-another-without-uploading-the-private
+
+---
+
+#### 5442. Anyone know of a script, program, etc... to check folder/file permissions and repair/restore?
+
+**问题描述 / Problem Description**:
+Tags: debian, permissions, bash, scripting, kali-linux | Score: 1 | Views: 1115 | Answers: 1 | Created: 2021-05-31
+
+**解决方案 / Solution**:
+A simple script to fix arbitrary broken permissions on a general purpose system does not exist. You, your users, and the software you use can set whatever permissions you like to meet your requirements. Overly broad permission changes are a loss of that metadata. First, determine how permissions were broken, for example chmod chown setfacl or chcon commands. If ownership is wrong, you'll need to fix that, such as giving a file in a home directory back to its owner. Beware there are subtle things here, like chown will clear setuid flags . For example, /usr/bin/ping might not work, if it loses setuid root. Do you know which other of your programs need setuid? More complex ACLs or selinux labels are not in your solution, but could complicate things if they also are wrong. You can attempt to fix permissions to what they were on package install. On Debian based systems, you might feed dpkg --contents output into a chmod chown script . Downloading .debs for all installed packages for dpkg to query is an exercise for the reader. This does nothing for user data, or software not installed via deb. Identify sensitive information previously protected by file permissions. Including but not limited to ssh and gpg private keys. Consider changing these credentials out of an abundance of caution. Regarding the rest of user data, hard to say. Users generally, but not always, own files in their home directories. Multiple user shared directories could get tricky, as the correct owner and mode might no longer be known. Backups should restore with correct permissions, if they existed. Tedious work to fix correctly. Document by writing automation scripting that fixes permissions on your data directories. Hopefully backups will fix things next time, but might as well have policy on what the permissions should be.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1065180/anyone-know-of-a-script-program-etc-to-check-folder-file-permissions-and-re
+
+---
+
+#### 5443. Howto create custom service in systemd?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, systemd, systemd-service | Score: 1 | Views: 2359 | Answers: 2 | Created: 2021-05-30
+
+**解决方案 / Solution**:
+See this cd /etc/systemd/system Create a file named your-service.service and include the following: [Unit] Description=<description about this service> [Service] User=<user e.g. root> WorkingDirectory=<directory_of_script e.g. /root> ExecStart=<script which needs to be executed> Restart=always [Install] WantedBy=multi-user.target
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1065129/howto-create-custom-service-in-systemd
+
+---
+
+#### 5444. Command works from bash prompt; does not work from within shell script
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting, ipmitool | Score: 1 | Views: 604 | Answers: 1 | Created: 2021-05-26
+
+**解决方案 / Solution**:
+Per https://serverfault.com/users/30957/glenn-jackman I had bad line endings in the CSV file. After fixing those, this started to work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1064784/command-works-from-bash-prompt-does-not-work-from-within-shell-script
+
+---
+
+#### 5445. Bash-Skript (Cronjob): Programm öffnen hat falsche Sprache
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, cron, env | Score: 1 | Views: 48 | Answers: 1 | Created: 2021-05-15
+
+**解决方案 / Solution**:
+TL;DR You need to set LC_ALL or LC_MESSAGES . For example: LC_ALL=en_US.utf8 The list of all supported locales from your machine can be obtained with: locale -a and locale -av for more details. Details From crontab(5) man page ( man -S5 crontab ): An active line in a crontab is either an environment setting or a cron command. An environment setting is of the form: name = value By default, cron sends a mail using the Content-Type: header of text/plain with the charset= parameter set to the charmap/codeset of the locale in which crond(8) is started up, i.e., either the default system locale, if no LC_* environment variables are set, or the locale specified by the LC_* environment variables (see locale(7) ). Different character encodings can be used for mailing cron job outputs by setting the CONTENT_TYPE and CONTENT_TRANSFER_ENCODING variables in a crontab to the correct values of the mail headers of those names. From locale(7) man page ( man -S7 locale ): LC_MESSAGES This category affects the language in which messages are displayed and what an affirmative or negative answer looks like. The GNU C library contains the gettext(3) , ngettext(3) , and rpmatch(3) functions to ease the use of this information. The GNU gettext family of functions also obey the environment variable LANGUAGE (containing a colon-separated list of locales) if the category is set to a valid locale other than C . This category also affects the behavior of catopen(3) . LC_ALL All of the above. To troubleshoot the environment of a process, you can display it with the following command. Replace <PID> with the process id of your cron job that is still running. You will need to test with a cronjob that takes a few minutes at least (e.g. sleep 300 ). ps e -wwp <PID>
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063641/bash-skript-cronjob-programm-%c3%b6ffnen-hat-falsche-sprache
+
+---
+
+#### 5446. How to automate ssh password Windows / Git bash - already with the installed software without needing to install
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, bash, shell-scripting | Score: 1 | Views: 10065 | Answers: 1 | Created: 2021-04-20
+
+**解决方案 / Solution**:
+Does not suit as it requires password but this time for key Remove passphrase on the key or generate a new one. -p Requests changing the passphrase of a private key file instead of creating a new private key. The program will prompt for the file containing the private key, for the old passphrase, and twice for the new passphrase. From man ssh-keygen . Simply press enter when it asks for new passphrase.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1060935/how-to-automate-ssh-password-windows-git-bash-already-with-the-installed-sof
+
+---
+
+#### 5447. 8: Syntax error: word unexpected (expecting ")")
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, sh, syntax | Score: 1 | Views: 8834 | Answers: 2 | Created: 2021-03-30
+
+**解决方案 / Solution**:
+weekday=$(date +%a) day=$(date +%d) month=$(date +%m) if [ \( \( $month -eq 03 \) -o \( $month -eq 10 \) \) -a \( "$weekday" = "Sun" \) -a \( $day -gt 24 \) ] then # DO SOMETHING echo ok else # DO SOMETHING echo ko fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1058769/8-syntax-error-word-unexpected-expecting
+
+---
+
+#### 5448. Display first few characters of first few lines of a text file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, text | Score: 1 | Views: 3588 | Answers: 1 | Created: 2021-03-23
+
+**解决方案 / Solution**:
+cat /etc/passwd| cut -b -6 will give you the first 6 characters of each line of /etc/passwd file You may add a | head -9 to read only the first nine lines.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1057979/display-first-few-characters-of-first-few-lines-of-a-text-file
+
+---
+
+#### 5449. Windows 10 non-server edition Remote Shell
+
+**问题描述 / Problem Description**:
+Tags: windows, shell, remote | Score: 1 | Views: 718 | Answers: 1 | Created: 2021-03-06
+
+**解决方案 / Solution**:
+To get an elevated admin session on the remote computer you don't need to use -RunAsAdministrator , just connect with a user that is an administrator on the remote machine. The remote session is already elevated. The -RunAsAdministrator switch can only be used together with the -ContainerId parameter when connecting to a container not when connecting to a remote session.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1056123/windows-10-non-server-edition-remote-shell
+
+---
+
+#### 5450. How to check PCI type and version of free PCI slot in Linux shell
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, pci-express, pci | Score: 1 | Views: 6309 | Answers: 1 | Created: 2020-12-18
+
+**解决方案 / Solution**:
+You can use dmidecode with slot option something like this: $ sudo dmidecode -t slot |grep -A 4 -B 5 Available Handle 0x0900, DMI type 9, 17 bytes System Slot Information Designation: PCI1 Type: x8 PCI Express 3 x16 Current Usage: Available Length: Long ID: 1 Characteristics: 3.3 V is provided if you want to chech which one are in use is the same thing: $ sudo dmidecode -t slot |grep -A 4 -B 5 "In Use" Handle 0x0901, DMI type 9, 17 bytes System Slot Information Designation: PCI2 Type: x16 PCI Express 3 Current Usage: In Use Length: Long ID: 2 Characteristics: 3.3 V is provided
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1046793/how-to-check-pci-type-and-version-of-free-pci-slot-in-linux-shell
+
+---
+
+#### 5451. How to owerwrite directory with tar?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, tar, archive | Score: 1 | Views: 4691 | Answers: 1 | Created: 2020-10-29
+
+**解决方案 / Solution**:
+The parameter you are looking for is --recursive-unlink --recursive-unlink empty hierarchies prior to extracting directory tar cf - ./test | sudo tar -C /home/ubuntu/f2 --overwrite-dir --recursive-unlink -xf -
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1040495/how-to-owerwrite-directory-with-tar
+
+---
+
+#### 5452. Running clamscan with the file list function
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, terminal, clamav | Score: 1 | Views: 1363 | Answers: 1 | Created: 2020-09-12
+
+**解决方案 / Solution**:
+You copied and pasted a Unicode character that looks like a hyphen, but is not actually. The character you pasted was – , which an en dash. The actual character you should be using is - , which is a plain hyphen as it appears on your keyboard. In this case you should have two of them, i.e. --file-list=... This is an error in whatever tutorial you were reading. Some content management systems change hyphens into Unicode dashes if they aren't properly escaped in that CMS's editor.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1033603/running-clamscan-with-the-file-list-function
+
+---
+
+#### 5453. Crontab - Sending StdErr to email and stdOut to log file
+
+**问题描述 / Problem Description**:
+Tags: linux, cron, scripting, shell | Score: 1 | Views: 2010 | Answers: 1 | Created: 2020-09-03
+
+**解决方案 / Solution**:
+I finally get it to work, and found the issue with || operator, the script was always returning code 0, so now I've added explicitly a return statement at the end of the script, and now work as expected : */1 * * * * (/my/script.sh > /my/file_stdout.log 2>&1) || mail -s "Subject here" my.email@address.com < /my/file_stdout.log
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1032534/crontab-sending-stderr-to-email-and-stdout-to-log-file
+
+---
+
+#### 5454. How to assign array_name dynamically to with_items in Ansible
+
+**问题描述 / Problem Description**:
+Tags: scripting, shell, ansible, ansible-playbook, ansible-tower | Score: 1 | Views: 1711 | Answers: 1 | Created: 2020-07-28
+
+**解决方案 / Solution**:
+Use lookup plugin vars . For example loop: "{{ lookup('vars', server_vaar) }}"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1027060/how-to-assign-array-name-dynamically-to-with-items-in-ansible
+
+---
+
+#### 5455. How to execute echo cmd on remote ssh command
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell | Score: 1 | Views: 550 | Answers: 1 | Created: 2020-07-16
+
+**解决方案 / Solution**:
+Just run cat /etc/resolv.conf . $ cat /etc/resolv.conf # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8) # DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN Your command works. But your invokation of systemctl restart resolvconf overwrites your changes again. You need to configure resolvconf properly instead of writing to /etc/resolv.conf .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1025459/how-to-execute-echo-cmd-on-remote-ssh-command
+
+---
+
+#### 5456. For a Mac OS user, is there a way to configure the shell to refuse any input whatsoever, beyond an SSH connection?
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, ssh-tunnel, mac | Score: 1 | Views: 138 | Answers: 1 | Created: 2020-06-05
+
+**解决方案 / Solution**:
+you can force a command in the authorized_keys of the user. eg. with : command="sleep 3600" ssh-rsa AAAAB....XYZ== john@example.com you could also create a "sonarman-like" script and call it from here instead of the sleep command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1020214/for-a-mac-os-user-is-there-a-way-to-configure-the-shell-to-refuse-any-input-wha
+
+---
+
+#### 5457. script to attach screen and run command but do NOT detach
+
+**问题描述 / Problem Description**:
+Tags: shell, gnu-screen | Score: 1 | Views: 851 | Answers: 1 | Created: 2020-06-01
+
+**解决方案 / Solution**:
+I found a great solution by incorporating an answer to a non-screen question here: https://stackoverflow.com/a/36152028/188963 and here: https://stackoverflow.com/a/18756584/188963 So, you can do: (base) balter@spectre:~$ cat file123 cat: file123: No such file or directory (base) balter@spectre:~$ screen -dmS test bash -c "echo 123 > file123; bash" (base) balter@spectre:~$ cat file123 123 (base) balter@spectre:~$ screen -ls There is a screen on: 13496.test (05/19/22 12:04:13) (Detached) 1 Socket in /home/balter/.screen. or screen -dmS test bash -c "top; bash" When I attach screen -r test top is running. When I q to kill top, I drop into a bash shell.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1019558/script-to-attach-screen-and-run-command-but-do-not-detach
+
+---
+
+#### 5458. moreutils chronic - append full output to logfile?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell | Score: 1 | Views: 214 | Answers: 1 | Created: 2020-05-19
+
+**解决方案 / Solution**:
+If you are not running simultaneous commands to the same log, you can do something simple by just remembering where the current end of the log file is, then dumping it from that point on failure. Here's a test using functions instead of scripts: #!/bin/bash chronicish(){ let len=1+$(stat -c %s log) if ! "$@" >>log 2>&1 then tail -c +"$len" log return 1 fi } cmd()( echo stdout; echo stderr msg >&2; exit $1; ) chronicish cmd 0 chronicish cmd 1 The test command is function cmd which takes a number to use as exit, and which writes some text to stdout. The function chronicish is used to run the command and tail the logfile if it fails. For simplicity, I've combined stdout and stderr into one log, but obviously the same technique can be done for two separate logfiles.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1017748/moreutils-chronic-append-full-output-to-logfile
+
+---
+
+#### 5459. How to quickly check if specific keywords exist in a lot of log files in shell?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, log-files, grep | Score: 1 | Views: 861 | Answers: 1 | Created: 2020-03-14
+
+**解决方案 / Solution**:
+You could try to apply grep on the results of find, for example: find . -type f -print | xargs grep WARNN To know which file matches use option -n of grep
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1006926/how-to-quickly-check-if-specific-keywords-exist-in-a-lot-of-log-files-in-shell
+
+---
+
+#### 5460. Execute command on LINUX via PUTTY from Windows
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, shell, putty, telnet | Score: 1 | Views: 7328 | Answers: 1 | Created: 2020-01-16
+
+**解决方案 / Solution**:
+Putty also provides plink. Usage example: plink -ssh user@host -pw password echo "hi" Also I suggest you to use SSH-KEY instead of password. It makes your work easier and safer. Look at Pageant and Putty Key Generator . More information about keys: https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/999175/execute-command-on-linux-via-putty-from-windows
+
+---
+
+#### 5461. Invoke remote program with socat and wait for it to complete
+
+**问题描述 / Problem Description**:
+Tags: shell, socat | Score: 1 | Views: 2501 | Answers: 1 | Created: 2019-12-16
+
+**解决方案 / Solution**:
+OK, I think I have it: put -t 10 on both client and server, and they'll both wait 10 seconds after EOF from the client before closing both sockets. Protip: use lots of -d to get a view into what socat is doing behind the scenes, and create a simple local test case you can easily reproduce.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/995760/invoke-remote-program-with-socat-and-wait-for-it-to-complete
+
+---
+
+#### 5462. Server A tells server B to execute shell script - simplest way?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 1 | Views: 410 | Answers: 3 | Created: 2019-10-09
+
+**解决方案 / Solution**:
+You didn't specifically mention that the commands are to be invoked from the web-app, so I'll assume that's not the case, as this would make the question more 'solution specific'. The simplest method, assuming you have ssh access. Do this on the terminal of serverA: $ cat > script.sh cat /proc/sys/kernel/hostname ^C $ scp script.sh serverB:~ script.sh 100% 31 9.8KB/s 00:00 $ ssh serverB 'sh ~/script.sh' serverB
+
+**参考链接 / References**:
+- https://serverfault.com/questions/987384/server-a-tells-server-b-to-execute-shell-script-simplest-way
+
+---
+
+#### 5463. How to run a shell script on a server farm periodically
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, automation | Score: 1 | Views: 541 | Answers: 3 | Created: 2019-08-12
+
+**解决方案 / Solution**:
+People are naturally going to suggest things like Ansible, and that's a good idea if you're doing multiple things like this on a regular basis, but suppose you don't need all that right now. Running a script on another machine is actually pretty easy: rsync script.sh user@${servername}:/path/of/script/ ssh user@${servername} /path/of/script/script.sh So is running it on all the machines: for servername in server1 server2 server3; do rsync script.sh user@${servername}:/path/of/script/ ssh user@${servername} /path/of/script/script.sh done You can put a script which does that in cron on a single machine and now you're maintaining one crontab and one copy of the script which is automatically replicated.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/978962/how-to-run-a-shell-script-on-a-server-farm-periodically
+
+---
+
+#### 5464. Shell script prevent switching to other shell or escape from it
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-scripting, zsh, sh | Score: 1 | Views: 508 | Answers: 1 | Created: 2019-08-09
+
+**解决方案 / Solution**:
+If you actually look at this script you will see that, as the last thing it does, it calls: exec zsh -l Just before that, you will see that it checks to see if the RUNZSH variable is set to no . If so, then it will simply exit without going into the shell. So all you need to do is pass the environment variable RUNZSH=no to the command. The comments at the top of the script contain other variables you can set and command line options you can use.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/978564/shell-script-prevent-switching-to-other-shell-or-escape-from-it
+
+---
+
+#### 5465. Cannot Use CURL on /etc/pam.d/sshd
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, shell, pam, curl | Score: 1 | Views: 615 | Answers: 2 | Created: 2019-07-26
+
+**解决方案 / Solution**:
+Care about ENVIRONMENT ! Show differences between environment of regular login sessions and environment for daemon like pam. Change you line in /etc/pam.d/sshd for session instead of auth : auth required pam_exec.so /usr/local/sbin/nssh.sh auth session optional pam_exec.so /usr/local/sbin/nssh.sh session And change your script, try this (and end them with true in order to prevent login reject due to wrong result code): #!/bin/bash printf -v myfile "/tmp/nssh-%(%Y%02m%02d%H%M%S)T-%04X" -1 $$ exec 1>$myfile.log exec 2>$myfile.err echo $0 -- $@ set if [ "$PAM_TYPE" = "open_session" ] ;then myVar=$(/usr/bin/curl http://127.0.0.1:8081) echo $myVar >> /tmp/hai whereis curl >> /tmp/hai fi true This will redirect STDERR and STDOUT in separated scripts, then print in .log command line and arguments, then environment. So you will be able to compare environment for regular session (manual run) and those created from PAMd.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/976881/cannot-use-curl-on-etc-pam-d-sshd
+
+---
+
+#### 5466. How to check: variable of function is it path to a folder or file on a remote server?
+
+**问题描述 / Problem Description**:
+Tags: command-line-interface, rsync, shell, scp, copy | Score: 1 | Views: 140 | Answers: 2 | Created: 2019-04-28
+
+**解决方案 / Solution**:
+You can use stat command on the remote host as shown below to check for the type. You may need to adjust stat arguments depending on your remote OS. This should work fine on any Linux flavor. arg="/home/pi/Torrents/$1" file_or_directory=`ssh pi@192.168.1.5 "stat --format=%F $arg" 2>&1` if [ "$file_or_directory" = "directory" ] ; then echo "$arg: is a directory" elif [ "$file_or_directory" = "regular file" ] ; then echo "$arg: is a file" elif [ "$file_or_directory" = "symbolic link" ] ; then echo "$arg: is a link" else echo "$arg: unknown" fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/964958/how-to-check-variable-of-function-is-it-path-to-a-folder-or-file-on-a-remote-se
+
+---
+
+#### 5467. Ubuntu 18 ignoring Samba AD user's `loginShell` attribute (set to ZSH, but user receives BASH after login)
+
+**问题描述 / Problem Description**:
+Tags: active-directory, ldap, samba, shell | Score: 1 | Views: 815 | Answers: 1 | Created: 2019-04-26
+
+**解决方案 / Solution**:
+Could you please reproduce the steps taken to integrate the Ubuntu clients into the AD? If you are using sssd , you might check that the value sss is set for passwd in your nsswitch.conf like passwd: files sss edit: I see two possible points: change template shell = /bin/bash into template shell = /bin/zsh inside smb.conf to set it globally alter the passwd entry in nsswitch.conf to passwd: compat systemd winbind sss to have sssd resolve the passwd atributes It seems that winbind is unable to map the LDAP attribute to the local nsswitch passwd. Nsswitch, Winbind and sssd are the areas you might want to investigate further.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/964739/ubuntu-18-ignoring-samba-ad-users-loginshell-attribute-set-to-zsh-but-user
+
+---
+
+#### 5468. get a specific line from in linux using grep
+
+**问题描述 / Problem Description**:
+Tags: unix, shell, shell-scripting, grep, awk | Score: 1 | Views: 600 | Answers: 1 | Created: 2019-03-28
+
+**解决方案 / Solution**:
+You need $var1 to reference it, rather than var1 . You need to echo it so that Bash won't try to run it as a program. You should put double-quotes around it as well . For grep, you need a regular expression to match the numbers, lots of patterns might work but I'm using " one or more digits, at the end of the string " , and you need the grep option -o to print only the matching text, instead of the whole line. Run this inside $() to stop the shell trying to run the result as a program, and your code looks like this: var1="Version must be incremented on update. Current version is: 532" var2=$(echo "$var1" | grep '[0-9]\+$' -o) echo "$var2" # 532
+
+**参考链接 / References**:
+- https://serverfault.com/questions/960395/get-a-specific-line-from-in-linux-using-grep
+
+---
+
+#### 5469. Escape all characters that shell or sqlplus need escaped in any password given
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, oracle, sqlplus | Score: 1 | Views: 9408 | Answers: 2 | Created: 2019-02-13
+
+**解决方案 / Solution**:
+So, the Oracle rules are straightforward. However, oracle uses many special characters in its own way. For example, avoid @ because oracle expects a connect string after that character. Here are the rules: if the password is not enclosed in quotes then it can include any letter, any digit, "_", "#" or "$" characters. Only a letter can be used in the first character. If you enclose the password in quotes you can use any character in any position. However, in my experience, avoid these at all times: _, %, @, \,/ because they are likely to confuse Oracle
+
+**参考链接 / References**:
+- https://serverfault.com/questions/953824/escape-all-characters-that-shell-or-sqlplus-need-escaped-in-any-password-given
+
+---
+
+#### 5470. Shell Scripting and Types of Text File Output RE: msinfo32
+
+**问题描述 / Problem Description**:
+Tags: shell, files, shell-scripting | Score: 1 | Views: 1256 | Answers: 2 | Created: 2019-01-24
+
+**解决方案 / Solution**:
+That might be because the resulting mysystem.txt is encoded in UTF-16 . On a Unix system the file utility can be used to show that: $ file mysystem.txt mysystem.txt: Little-endian UTF-16 Unicode text, with very long lines, with CRLF, CR line terminators So, to a plaintext utility like findstr the file mysystem.txt really looks like something like this: $ cat -v mysystem.txt | head -1 | cut -c-80 M-^?M-~S^@y^@s^@t^@e^@m^@ ^@I^@n^@f^@o^@r^@m^@a^@t^@i^@o^@n^@ ^@r^@e^@p^@o^@r^@t Other tools may be able to understand UTF-16: $ head -1 mysystem.txt | cut -c-80 ��System Information report written at: 0 I don't know why msinfo32 decides to write out UTF-16 files, maybe it wants to make sure that really all (system) information is captured for all Windows installations in various parts of the world (where UTF-8 is not enough) and I did not find a switch to force msinfo32 to use a different character set. There may be a Windows command line tool to convert files into different character sets, but I don't know any. So here's a Linux snippet again to do just that: $ iconv -f UTF16LE -t UTF8 mysystem.txt -o mysystem_8.txt And the resulting mysystem_8.txt file can now be fed to findstr : $ findstr /c:"System Name" mysystem_8.txt System Name: WIN11 System Name WIN11 In Windows one could open the file with notepad.exe , save the file again ("Save as") and in the Save file dialog choose another encoding (UTF-8, or ANSI). But I don't know a Windows command line tool that does the same. GnuWin32 does the trick, but one would have to install that first.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/950493/shell-scripting-and-types-of-text-file-output-re-msinfo32
+
+---
+
+#### 5471. Enter at the end of a specific line
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting | Score: 1 | Views: 98 | Answers: 1 | Created: 2019-01-19
+
+**解决方案 / Solution**:
+Using sed you'd need something like the following: sed '/USER CONSOLA/s/$/,!10.249.245.90,/' file.txt First we'll match the pattern we want to append to. Then we use s/$/.. which means add !10.249.245.90, as is to the end of the line. Here is another awk solution: awk '/USER CONSOLA/{x=x; print $0",!10.249.245.90,";next}1' file.txt
+
+**参考链接 / References**:
+- https://serverfault.com/questions/949841/enter-at-the-end-of-a-specific-line
+
+---
+
+#### 5472. Command that returns exit code still returning 0 when using "command 2>&1 | tee -a /var/log/file.log"
+
+**问题描述 / Problem Description**:
+Tags: scripting, shell, pipe | Score: 1 | Views: 3579 | Answers: 1 | Created: 2018-10-18
+
+**解决方案 / Solution**:
+This is because the exit code of a pipe is the exit code of the last stage of a pipe, and tee never fails :) This can be solved different ways depending on your shell. https://unix.stackexchange.com/questions/14270/get-exit-status-of-process-thats-piped-to-another collects many answers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/936081/command-that-returns-exit-code-still-returning-0-when-using-command-21-tee
+
+---
+
+#### 5473. Can GNU screen leave you at shell prompt after command instead of exiting the TTY?
+
+**问题描述 / Problem Description**:
+Tags: shell, gnu-screen | Score: 1 | Views: 189 | Answers: 1 | Created: 2018-09-28
+
+**解决方案 / Solution**:
+A simple solution is to run your command, then the shell, as a shell command, eg: screen -t title bash -c 'top; exec bash -i'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/933154/can-gnu-screen-leave-you-at-shell-prompt-after-command-instead-of-exiting-the-tt
+
+---
+
+#### 5474. If run as a cronjob my shell script doesn't launch a screen
+
+**问题描述 / Problem Description**:
+Tags: cron, shell, gnu-screen | Score: 1 | Views: 1190 | Answers: 3 | Created: 2018-09-12
+
+**解决方案 / Solution**:
+i'm facing the similar issue like you, manually trigger the sh file is totally fine. but in cronjob it doesn't execute the screen process, this is my original code of the sh file #!/bin/bash bash -c "python GetCookie.py" wait export DISPLAY=:0 Respond=`screen -ls` if [[ $Respond != *"UploadImage"* ]]; then screen -dmS myAction bash -c " cd ~/DirectoryName ; /usr/bin/php7.4 index.php bag 1" else echo "NOPEEEE" fi the cronjob log did show that it has trigger the job. but in screen -ls doesn't show any on going process. what i did was change screen -dmS myAction bash -c " cd ~/DirectoryName ; /usr/bin/php7.4 index.php bag 1" to screen -d -m -S myAction bash -c " cd ~/DirectoryName ; /usr/bin/php7.4 index.php bag 1" and my problem solved.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/930557/if-run-as-a-cronjob-my-shell-script-doesnt-launch-a-screen
+
+---
+
+#### 5475. Jenkins - environment variable not setting up from pipeline
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-scripting, jenkins, pipelining | Score: 1 | Views: 13127 | Answers: 1 | Created: 2018-09-10
+
+**解决方案 / Solution**:
+Replace your double quotes with single quotes to prevent $IPADDRESS from being interpreted as a Groovy variable: sh ''' IPADDRESS = \$(docker inspect -f "{{ .NetworkSettings.IPAddress }}" anyconnect) echo $IPADDRESS ip route replace xx.xx.xx.xx. via $IPADDRESS ''' Alternatively, escape the dollar sign: sh """ IPADDRESS = \$(docker inspect -f "{{ .NetworkSettings.IPAddress }}" anyconnect) echo ${'$'}IPADDRESS ip route replace xx.xx.xx.xx. via ${'$'}IPADDRESS """
+
+**参考链接 / References**:
+- https://serverfault.com/questions/930312/jenkins-environment-variable-not-setting-up-from-pipeline
+
+---
+
+#### 5476. Bash script as use shell not working with SSH
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, security, bash, shell | Score: 1 | Views: 831 | Answers: 2 | Created: 2018-08-30
+
+**解决方案 / Solution**:
+Add the script/program you wish to use for a shell to /etc/shells
+
+**参考链接 / References**:
+- https://serverfault.com/questions/928678/bash-script-as-use-shell-not-working-with-ssh
+
+---
+
+#### 5477. Execute actions after specific commands in Apache Guacamole SSH
+
+**问题描述 / Problem Description**:
+Tags: ssh, security, shell | Score: 1 | Views: 804 | Answers: 1 | Created: 2018-08-23
+
+**解决方案 / Solution**:
+I couldn't find any way to achieve my goal, but I did find a little tricky way to do that in my servers. I changed some of my commands like wget to wget2 and wrote my own wget like this: #!/bin/bash wget2 $1 -P /tmp > /dev/null 2>&1 & wget2 $1 A little more explanation: I moved /usr/bin/wget to /usr/bin/wget2 therefore I have the original wget and then I wrote my own wget which while it downloads link to this directory, also downloads a copy into /tmp folder which doesn't show any output to command line. I know that user can realize wget2 is running when he/she executes ps (lists process), but I don't care about that because he knows I'm supervising:) It's just the case of audit.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/927670/execute-actions-after-specific-commands-in-apache-guacamole-ssh
+
+---
+
+#### 5478. Issue to get Cookie: JSESSIONID and auth_cookie
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, curl, cas | Score: 1 | Views: 3386 | Answers: 1 | Created: 2018-08-22
+
+**解决方案 / Solution**:
+The fact that you need to log in first before you can access the API means that a single curl request is probably not sufficient. You probably need a script with multiple curl requests and work flow similar to: Make API request with the existing cookies from the cookiefile Check response code, if OK then the session cookies were not expired yet and you don't need to do more. Yeah! If the response code indicates an authentication error status (your authentication session is empty or has expired); then you need to log in. Post your credentials to the CAS server login form. Check the response code and see if log in was successful and update the cookie file. Or die(); GOTO 1. The standard Chrome developer tools plugin can standard help you to create the basis for such a curl script with the Copy All as cURL option in the network console.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/927482/issue-to-get-cookie-jsessionid-and-auth-cookie
+
+---
+
+#### 5479. Sed or other script, and regexp solution for cutting a filename
+
+**问题描述 / Problem Description**:
+Tags: shell, regex, sed | Score: 1 | Views: 226 | Answers: 3 | Created: 2018-07-18
+
+**解决方案 / Solution**:
+First of all there are too many backslashes. Moreover being greedy your first glob will eat up the whole string until the dot. You may want to clear the picture up by using extended regexps. The second underscore is dependent of the last part (according to your description) it must be parenthesized. You don't need the fourth glob (in your version). Something like this: echo sanyi_123456_m2.txt | sed -r "s/^([a-z]{4,40})_?([0-9]{6})(_(\w{,6}))?\.\w{2,4}$/\1 \2 \4/g" You may also use perl regexps where non-greedy quantification is possible.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/922430/sed-or-other-script-and-regexp-solution-for-cutting-a-filename
+
+---
+
+#### 5480. rsync - on uncleaned shell and connection unexpectedly closed
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, rsync, shell | Score: 1 | Views: 1016 | Answers: 1 | Created: 2018-07-18
+
+**解决方案 / Solution**:
+Is there a reason why you first mention the command "rsh" and later the command is "ssh"? This command is not supposed to produce an empty file, it should start an interactive shell and wait for input. ssh -i key -p 2022 remotehost@user > output It would seem your login shell immediately terminates, this is supported by the message 0 bytes received . Did you place an "exit" somewhere while you removed the output from the shell?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/922405/rsync-on-uncleaned-shell-and-connection-unexpectedly-closed
+
+---
+
+#### 5481. Pipe filenames onto Rubocop
+
+**问题描述 / Problem Description**:
+Tags: shell, ruby | Score: 1 | Views: 324 | Answers: 1 | Created: 2018-07-02
+
+**解决方案 / Solution**:
+I'm answering myself because I discovered how to do it using xargs . $ git diff --name-only | xargs rubocop
+
+**参考链接 / References**:
+- https://serverfault.com/questions/919179/pipe-filenames-onto-rubocop
+
+---
+
+#### 5482. Can auditd logs be modified? (Security, shell monitoring)
+
+**问题描述 / Problem Description**:
+Tags: linux, security, shell, auditd | Score: 1 | Views: 269 | Answers: 1 | Created: 2018-05-10
+
+**解决方案 / Solution**:
+To expand on my earlier comment: Rather than abuse I expect that your log files reached either a maximum size or the events happend more than X time ago and the oldest entries were simply deleted by the system. Most systems are configured with defaults that won't keep logs indefinitely and packagers typically include either a log rotate drop-in script (in /etc/logrotate.d ) or if the service supports such a thing, age and/or size limits for logs in the daemon itself. Auditd is of the second variety. Check your auditd.conf for your current settings and man 5 auditd.conf for all supported options and defaults; such as the settings for max_log_file and num_logs that you found. To answer the title of your question: Can auditd logs be modified? Yes: if you give people administrator level access they usually can modify your whole system. That is why it is best practice to duplicate log events to a secure remote logging server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/911563/can-auditd-logs-be-modified-security-shell-monitoring
+
+---
+
+#### 5483. Use variables in paths in crontab
+
+**问题描述 / Problem Description**:
+Tags: cron, shell | Score: 1 | Views: 1062 | Answers: 3 | Created: 2018-03-23
+
+**解决方案 / Solution**:
+TL;DR: you can't. according to man 5 crontab The value string is not parsed for environmental substitutions or replacement of variables, thus lines like PATH = $HOME/bin:$PATH will not work as you might expect. cron 's parser is not as powerfull as bash 's.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/904237/use-variables-in-paths-in-crontab
+
+---
+
+#### 5484. Executing local bash script remotely, interactively, with arguments
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, shell | Score: 1 | Views: 1949 | Answers: 2 | Created: 2018-02-08
+
+**解决方案 / Solution**:
+I believe to have answered my own question by considering changing the values of of the $@ arguments on the remote to the ones locally passed and it seems to work in my tests. Here is my final solution on just switching out $1 and $2 Local Script #!/bin/bash echo "I wanna read you $1 and $2" read yn if [ "$yn" == "y" ]; then echo "I read you" else echo "I could not read you" fi Command ssh -t $server "set -- "${@:1:2}"; $(<${script})" Result (when sending test1 and test2 as arguments) I wanna read you test1 and test2 y I read you! Hopefully this helps any future visitors
+
+**参考链接 / References**:
+- https://serverfault.com/questions/896417/executing-local-bash-script-remotely-interactively-with-arguments
+
+---
+
+#### 5485. Can different scripts share a lockfile to ensure they don't interfere with each other?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, shell | Score: 1 | Views: 443 | Answers: 2 | Created: 2018-01-19
+
+**解决方案 / Solution**:
+A DIY take on it could be to write a script, that would deal with your lock file, while eventually executing your job. Say you create some /my/job executable, with the following: #!/bin/sh # to be tuned, at your convenience LASTLOG=/tmp/job.log LOCKFILE=/tmp/lockfile.lock RETRY=3 WAIT=10 if test -z "$1"; then echo missing job script >&2 exit 1 elif ! test -x "$1"; then echo can not execute "$1" >&2 exit 1 fi cpt=0 while test $cpt -lt $RETRY do if ! test -s $LOCKFILE; then echo $$ >$LOCKFILE break fi sleep $WAIT done if ! grep ^$$$ $LOCKFILE >/dev/null 2>&1; then echo could not acquire lock >&2 exit 2 fi "$1" >$LASTLOG 2>&1 ret=$? rm -f $LOCKFILE exit $? Then, your crontab would look like: 0 * * * * /my/job /some/script1.sh 2 * * * * /my/job /some/script2.sh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/893150/can-different-scripts-share-a-lockfile-to-ensure-they-dont-interfere-with-each
+
+---
+
+#### 5486. shasum of tar file different on os x / ubuntu although files are identical
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, shell, tar, diff | Score: 1 | Views: 1680 | Answers: 2 | Created: 2018-01-12
+
+**解决方案 / Solution**:
+I just made a test on my Linux Debian and Mac OS and results are exactly the same. Maybe the shasum command is not the reason and it's simply because your ./sha.tar files are not the same. Did you try to compare the 2 sha.tar files using the diff command?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/891923/shasum-of-tar-file-different-on-os-x-ubuntu-although-files-are-identical
+
+---
+
+#### 5487. How to do an automated Restore of Cassandra Backup(Snapshot)?
+
+**问题描述 / Problem Description**:
+Tags: amazon-web-services, bash, shell, cassandra | Score: 1 | Views: 581 | Answers: 1 | Created: 2017-09-14
+
+**解决方案 / Solution**:
+Are you taking EBS snapshots, or some other custom snapshot yourself? If you're not taking EBS snapshots, why not? EBS snapshots are trivial to turn into a working server. This is the easiest, most practical answer to your question. The downside to this is if the volume is being written to when you take a snapshot it might not be consistent. If you can schedule it, and flush / quiescence the application for even a second while the snapshot starts, the server can resume while the snapshot is being made. You'd have to look at how to do that with Cassandra. I don't bother to flush / quiescence my server for snapshots, but I'm not running anything mission critical. I also have application level backups and a RTO / RPO that means I can restore manually from a snapshot if required. Alternately you can script building a VPC, server(s) from a custom AMI which includes your software, and installing your data from your application level backup using CloudFormation, but it's beyond the scope of an answer - you'd need to learn CloudFormation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/873739/how-to-do-an-automated-restore-of-cassandra-backupsnapshot
+
+---
+
+#### 5488. shell : warn about or deny command execution with help of an alias
+
+**问题描述 / Problem Description**:
+Tags: iptables, bash, shell, alias | Score: 1 | Views: 145 | Answers: 1 | Created: 2017-09-02
+
+**解决方案 / Solution**:
+This should not work because of the space in your alias name. You could call a custom function instead, in .bash_aliases : #!/bin/bash function myiptables { if [ $@ == "-F" ] then echo "WARNING: due to the DROP default rule, flushing all rules would lock you out" else command iptables "$@" fi } alias iptables='myiptables' This will print the warning message if iptables argument is -F . Otherwise, it will execute the normal iptables command, including all parameters you may have passed to it ( $@ ). command will run the real iptables command, preveting calling back your own function : # help command ... Runs COMMAND with ARGS suppressing shell function lookup, or display information about the specified COMMANDs. Can be used to invoke commands on disk when a function with the same name exists. ...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/871794/shell-warn-about-or-deny-command-execution-with-help-of-an-alias
+
+---
+
+#### 5489. Bash - Insert variables into string (command not found)
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell | Score: 1 | Views: 3664 | Answers: 1 | Created: 2017-06-22
+
+**解决方案 / Solution**:
+You need to remove the spaces on both sides of equal char = (in the assignment statements) in your bash script. So, the lines: postfixvr = $(postconf -d | grep -m 1 mail_version | cut -d= -f2) mariadbvr = $(mysql -v) osvr = $(cat /etc/redhat-release) javavr = $(java -version) hostname = $(cat /etc/hostname) should be written as: postfixvr=$(postconf -d | grep -m 1 mail_version | cut -d= -f2) mariadbvr=$(mysql -v) osvr=$(cat /etc/redhat-release) javavr=$(java -version) hostname=$(cat /etc/hostname) This applies to all assignments including body = also.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/857228/bash-insert-variables-into-string-command-not-found
+
+---
+
+#### 5490. Execute local alias through ssh on remote server
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell, alias | Score: 1 | Views: 4455 | Answers: 2 | Created: 2017-05-13
+
+**解决方案 / Solution**:
+Shell manual tells us: Aliases are not expanded when the shell is not interactive, unless the expand_aliases shell option is set using shopt ... However it also mentions The rules concerning the definition and use of aliases are somewhat confusing. Bash always reads at least one complete line of input before executing any of the commands on that line. Aliases are expanded when a command is read, not when it is executed. This can be tested locally: (ssh is invoking bash -c remotely): $ bash -c "shopt -s expand_aliases; shopt expand_aliases;alias x=ls; x" expand_aliases on bash: x: command not found It does help to make it multi-line: $ bash -c "shopt -s expand_aliases; alias x='echo y' > x" y And this also works with ssh.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/849947/execute-local-alias-through-ssh-on-remote-server
+
+---
+
+#### 5491. How to escape double quotes and exclamation mark in password?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-scripting, sh | Score: 1 | Views: 2427 | Answers: 1 | Created: 2017-05-13
+
+**解决方案 / Solution**:
+${password//!/\!} will substitute every ! in the password with ! The extra \ signifies that we are looking to replace every ! and not just the first one. The same logic can be used for " Alternatively, you may be able to enclose the complete -d variable in single quotes instead of double quotes and this may negate the need for escaping the double quotes.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/849867/how-to-escape-double-quotes-and-exclamation-mark-in-password
+
+---
+
+#### 5492. Error with Nano editor interface in chroot jail
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, chroot, nano | Score: 0 | Views: 144 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+Problem was with $TERM variable. I set it as "xterm+256color", and when I reset it as "xterm-16color" problem gone and Nano started working properly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198087/error-with-nano-editor-interface-in-chroot-jail
+
+---
+
+#### 5493. How to set environment variable into ssh session without using SendEnv?
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, environment-variables | Score: 0 | Views: 583 | Answers: 2 | Created: 2025-11-11
+
+**解决方案 / Solution**:
+Figured it out. Use env to set the variable and invoke the bash shell. me@my_machine $ ssh adminact@remote_machine -- /bin/env FOO=1 /bin/bash adminact@remote_machine $ echo $FOO 1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195857/how-to-set-environment-variable-into-ssh-session-without-using-sendenv
+
+---
+
+#### 5494. How can I connect a remote database server on SlickStack?
+
+**问题描述 / Problem Description**:
+Tags: mysql, bash, wordpress, database | Score: 0 | Views: 110 | Answers: 1 | Created: 2025-06-04
+
+**解决方案 / Solution**:
+SlickStack plays nicely with remote database servers, and this approach is actually encouraged for certain high-traffic websites or situations where data integrity and compartmentalization is crucial. Because the installer is idempotent, you can change to use a remote database at any point without issue. Find the following section in the /var/www/ss-config file: DB_REMOTE="false" DB_HOST="127.0.0.1" DB_PORT="3306" DB_NAME="production" DB_PREFIX="wp_" DB_USER="@DB_USER" DB_PASSWORD="@DB_PASSWORD_USER" DB_PASSWORD_ROOT="@DB_PASSWORD_ROOT" DB_CHARSET="utf8mb4" DB_COLLATE="" There are multiple options that you need to configure to connect to your remote database. Firstly, ensure that DB_REMOTE="true" is set correctly. Next, change the values for DB_HOST and DB_PORT to match whatever your database server is using, which varies greatly depending on the vendor. Both of these values are critical, because without the correct port number SlickStack will not be able to connect to your remote database host. For example: DB_HOST="example-database-12345789.db.ondigitalocean.com" DB_PORT="25060" Next you can set DB_NAME which again, varies by provider. Some managed database vendors hardcode the database name and you must use that name, while others allow you to customize it. Generally speaking, it's good to keep DB_PREFIX set to wp_ just to make WordPress management more predictable, however if you're an expert and want stronger security you could also customize that value as well. DB_USER and DB_PASSWORD should also be provided by your database vendor. Keep in mind that DB_PASSWORD_ROOT is irrelevant for remote databases, and only applies to localhost MySQL configurations. After you have all the options updated, save and exit from ss-config . At this point, you will likely need to whitelist the IPv4 address of your origin (SlickStack) server in your remote database security settings, as most of the time dedicated database servers default to blocking all remote connections. As far as Ubuntu packages go: When DB_REMOTE is set to false then SlickStack installs the mysql-server package, and when it's set to true it will install the mysql-client package instead. If you already installed SlickStack using default settings, but wish to change to using a remote database server and don't want extra packages installed, you could manually remove the mysql-server package before running the SlickStack installation again to get mysql-client installed only. Disclosure: I'm the lead maintainer of SlickStack
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185280/how-can-i-connect-a-remote-database-server-on-slickstack
+
+---
+
+#### 5495. Make a sound on an Ansible control node during a play
+
+**问题描述 / Problem Description**:
+Tags: ansible, shell | Score: 0 | Views: 364 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+say exists as either a module or a callback plugin community.general.say. Per the description it has a little fun with things: "makes a computer speak! Amuse your friends, annoy your coworkers!" Callback can be enabled without changes to tasks, but only knows basic tasks metadata. It calls out the types of events that happen, "running playbook" and "failure on host". Module can say whatever, but must be called from your tasks and a failure to run returns an error. Maybe this is more useful as an example of what is possible. Look at the code of these and other callback plugins, they are quite straightforward. Run a command, set a chat message or email, whatever. Both of those have existing callback implementations to look at, jabber and mail respectively. Not surprised that escape codes don't survive the serialization of running modules, might be some escaping that happens internally. To do terminal stuff specifically you could write an (action) plugin that imports curses and beeps at the appropriate time. pause module actually does terminal stuff, but its a bit of a unique legacy thing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179320/make-a-sound-on-an-ansible-control-node-during-a-play
+
+---
+
+#### 5496. How to allow Samba to run root preeexec script with selinux enabled
+
+**问题描述 / Problem Description**:
+Tags: bash, samba, selinux | Score: 0 | Views: 240 | Answers: 1 | Created: 2025-02-15
+
+**解决方案 / Solution**:
+After many google search i got alot of result about samba and selinux but nothing about running script as preexec so i started to search for samba selinux and i finally found my answer. Hope this helps someone else. Make sure the script is executable (from the command line and works fine) Put your script in /var/lib/samba/scripts (create the directory if it does not exist, i did) use setsebool -P samba_run_unconfined 1 to tell selinux to allow script in /var/lib/samba/scripts to be ran. I have found the answer here after many hours of headaches: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/managing_confined_services/sect-managing_confined_services-samba-booleans#sect-Managing_Confined_Services-Samba-Booleans
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172815/how-to-allow-samba-to-run-root-preeexec-script-with-selinux-enabled
+
+---
+
+#### 5497. Ubuntu 22.04 - Install MySQL 5.7 - Automate Script
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, bash | Score: 0 | Views: 1041 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+I managed to get it working, but not 100% as I intended with the use of inline .env variables. This is how it ended looking like. # Here is where the .env variables get loaded. # In the .env file, the variable is configured like this (attention to the single quotes): CONFIG_SERVER_MYSQL_ROOT_PASSWORD='exEm!@123' source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/single-server-load-env.sh"; BACKEND_HOST_SERVER_SH_SCRIPT=' # Firewall configuration. \ sudo ufw allow 3306/tcp; \ # Download MySQL APT configuration package. \ sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb; \ # Set non-interactive mode. \ echo "mysql-apt-config mysql-apt-config/select-server select mysql-5.7" | sudo debconf-set-selections; \ echo "mysql-apt-config mysql-apt-config/select-product select Ok" | sudo debconf-set-selections; \ # Install MySQL APT configuration package. \ sudo DEBIAN_FRONTEND=noninteractive dpkg -i mysql-apt-config_0.8.12-1_all.deb; \ # Add MySQL key. \ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C; \ # Add MySQL repository. \ echo "deb http://repo.mysql.com/apt/ubuntu bionic mysql-5.7" | sudo tee /etc/apt/sources.list.d/mysql.list; \ # Update package lists. \ sudo apt-get update; \ # Store password in a variable with proper escaping. \ MYSQL_ROOT_PASSWORD='${CONFIG_SERVER_MYSQL_ROOT_PASSWORD}'; \ # Debug. # echo "MySQL password (debug): $MYSQL_ROOT_PASSWORD"; \ # Set root password non-interactively. \ sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $MYSQL_ROOT_PASSWORD"; \ sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PASSWORD"; \ # Install MySQL 5.7. \ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mysql-community-server=5.7* mysql-client=5.7*; \ # Stop MySQL. \ sudo systemctl stop mysql; \ # Configure mysqld directory. \ sudo mkdir -p /var/run/mysqld; \ sudo chown mysql:mysql /var/run/mysqld; \ sudo chmod 777 /var/run/mysqld; \ # Create a temporary file for MySQL commands. \ cat > /tmp/mysql_setup.sql << EOF FLUSH PRIVILEGES; USE mysql; UPDATE user SET authentication_string=PASSWORD('"'"'$MYSQL_ROOT_PASSWORD'"'"'), plugin="mysql_native_password" WHERE User="root"; FLUSH PRIVILEGES; EOF # Debug - view the content of the SQL file. \ # echo "SQL file contents (debug):"; \ # cat /tmp/mysql_setup.sql; \ # Start MySQL in safe mode. \ sudo mysqld_safe --skip-grant-tables --skip-networking & \ sleep 10; \ # Execute MySQL commands from file. \ mysql --user=root < /tmp/mysql_setup.sql; \ # Clean up. \ rm -f /tmp/mysql_setup.sql; \ # Stop MySQL safe mode. \ sudo pkill mysqld; \ sleep 10; \ # Start MySQL normally. \ sudo systemctl start mysql; \ sleep 5; \ # Create a file to test MySQL connection. \ cat > /tmp/mysql_test.sql << EOF SELECT VERSION(); SELECT CURRENT_USER(); SELECT user,authentication_string,plugin from mysql.user where user="root"; EOF # Test the connection using the password. \ echo "Testing MySQL connection..."; \ mysql --user=root --password="$MYSQL_ROOT_PASSWORD" < /tmp/mysql_test.sql; \ # Clean up test file. \ rm -f /tmp/mysql_test.sql; \ # Update MySQL configuration. \ sudo mkdir -p /etc/mysql/mysql.conf.d; \ sudo tee -a /etc/mysql/mysql.conf.d/mysqld.cnf << EOF # Allow root login with password. [mysqld] skip-grant-tables = 0 EOF # Restart MySQL one final time. \ sudo systemctl restart mysql; \ sleep 5; \ # Final verification. \ echo "Performing final verification..."; \ mysql --user=root --password="$MYSQL_ROOT_PASSWORD" -e "SELECT 1 AS final_verification;"; \ '; # Write the private key to a temporary file echo -e "$CONFIG_SERVER_PUBLIC_KEY" > id_rsa_server_private_key_temp.pem; chmod 600 id_rsa_server_private_key_temp.pem; # Execute the script on the server ssh -v -t -t -i id_rsa_server_private_key_temp.pem \ -o ConnectTimeout=300 \ -o StrictHostKeyChecking=no \ ubuntu@"$CONFIG_SERVER_BACKEND_IP" "$BACKEND_HOST_SERVER_SH_SCRIPT"; # Remove the temporary private key rm id_rsa_server_private_key_temp.pem; echo "Status check: Basic MySQL 5.7 installation completed."; If anyone has a smoother solution for the integration of the inline .env variables, I would prefer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1170270/ubuntu-22-04-install-mysql-5-7-automate-script
+
+---
+
+#### 5498. Bash not using PATH defined in PATH if I use any other number in head -n than 1
+
+**问题描述 / Problem Description**:
+Tags: bash, path, env | Score: 0 | Views: 154 | Answers: 1 | Created: 2024-12-23
+
+**解决方案 / Solution**:
+You're overwriting $PATH in a loop: PATH=$(echo ${line} | awk '{print $3}') You should use a different name for this variable, for example APP_PATH .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169220/bash-not-using-path-defined-in-path-if-i-use-any-other-number-in-head-n-than-1
+
+---
+
+#### 5499. Segmentation fault trying to drop caches
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, memory, proc | Score: 0 | Views: 125 | Answers: 1 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+Do not call drop_caches in an attempt to improve performance. Linux automatically quickly reclaims from these when needed. Throwing them out is itself overhead, then forces more I/O and other work when the data is referenced again. Personally, I would expect quantitative evidence of memory contention before approving performance mitigations like poking at drop_caches. Merely having a lot of cached kernel objects does not prove a performance issue. Memory pressure stall information (/proc/pressure/memory) over time. Profiling some kernel memory reclaim functions to measure their overhead. Ideally measuring application performance to get an idea of user response time, and does this matter. No, drop_caches should not crash when used. I am not enough of a kernel hacker to troubleshoot that general protection fault, not remotely. If you have support plans with kernel expertise, either Canonical or third party, open a support case and ask them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168015/segmentation-fault-trying-to-drop-caches
+
+---
+
+#### 5500. systemd fails to run script that otherwise works fine?
+
+**问题描述 / Problem Description**:
+Tags: bash, systemd | Score: 0 | Views: 773 | Answers: 2 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+As Jaromanda says, you should tell systemd when to start this. You should also specify WHERE the go executable is (but rather than provide the path to the exe a better way is to set the PATH in the environment, e.g. Environment="PATH=/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin" under [Service] ). You should also learn how to check your logs when something goes wrong. And you should not be installing services under the root home dir, NOR running exposed services as root!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168012/systemd-fails-to-run-script-that-otherwise-works-fine
+
+---
+
+#### 5501. what if a host is down
+
+**问题描述 / Problem Description**:
+Tags: bash, hosts | Score: 0 | Views: 287 | Answers: 2 | Created: 2024-11-20
+
+**解决方案 / Solution**:
+will the above code move one to the next host in the server list if it comes across one that's offline? Yes. The issues I see here, are that, by default, it can take a very long time for ssh to fail when it can't connect and you're running everything in series rather than in parallel. Your script has NOT stopped, you're simply not waiting for long enough for this to timeout. Regarding the first issue, this can be fixed with either... ssh -o ConnectTimeout=10 $REMOTE_SERVER "do_something_cool" or timeout 10 ssh $REMOTE_SERVER "do_something_cool" A very crude solution for running stuff in parallel.... while read REMOTE_SERVER ; do ssh $REMOTE_SERVER "do_something_cool" & sleep 1 done < $SERVER_LIST (arguably there is another issue in your script - it doesn't collate/check the exit codes for ssh)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167960/what-if-a-host-is-down
+
+---
+
+#### 5502. Docker, ip6tables and "Tags" for ip6tables
+
+**问题描述 / Problem Description**:
+Tags: iptables, docker, bash | Score: 0 | Views: 120 | Answers: 1 | Created: 2024-11-19
+
+**解决方案 / Solution**:
+Is it possible to somehow ass a "tag" to the allowed rules so that i can match on that and selectively destroy all entries with a specific "tag"? Put all your netfilter rules into your own custom chains. E.g., if you're adding INPUT rules, do something like: # Create "myproject-input" chain iptables -N myproject-input # Add a rule to INPUT chain to jump to "myproject-input" chain iptables -A INPUT -j myproject-input # Add a rule to the "myproject-input" chain iptables -A myproject-input -s 1.2.3.4 -j DROP If you want to destroy all your entries, just flush the chain: iptables -F myproject-input You'll see that tools like Docker something very much like this. Take a look at the output of iptables-save and look at the chains that Docker creates; you'll note that the only rules it adds to the default chains are jump ( -j ) rules that redirect processing to one of the DOCKER* chains.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167932/docker-ip6tables-and-tags-for-ip6tables
+
+---
+
+#### 5503. Secure Shell Remote Connection goes to wrong VM
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, shell | Score: 0 | Views: 96 | Answers: 1 | Created: 2024-10-12
+
+**解决方案 / Solution**:
+When those target machines have multiple interfaces or multiple names (resolv'able names, like DNS or NBNS), this is the expected output. Not because the script is connecting to the wrong machines, but because of the expected output. Be very careful using hostname -i . The man page for linux hostname command is very specific about the difference: -i, --ip-address Display the network address(es) of the host name. Note that this works only if the host name can be resolved. Avoid using this option; use hostname --all-ip-addresses instead. -I, --all-ip-addresses Display all network addresses of the host. This option enumerates all configured addresses on all network interfaces. The loopback interface and IPv6 link-local addresses are omitted. Contrary to option -i, this option does not depend on name resolution. Do not make any assumptions about the order of the output.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166501/secure-shell-remote-connection-goes-to-wrong-vm
+
+---
+
+#### 5504. Delete FTP folders from linux
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ftp, directory | Score: 0 | Views: 330 | Answers: 1 | Created: 2024-10-08
+
+**解决方案 / Solution**:
+There is no possibility to delete a non-empty folder using the standard FTP. My solution is to rename the folder with my script (suffixing with "-old-$DATE") and create a new directory structure. Once a week / a month, I use FileZilla to remove all renamed folders, because this tool has the feature to delete a folder recursively.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166303/delete-ftp-folders-from-linux
+
+---
+
+#### 5505. Remove old files in subfolders and subfolders
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find | Score: 0 | Views: 101 | Answers: 1 | Created: 2024-09-22
+
+**解决方案 / Solution**:
+find has a -o (or) parameter, that allows combining two commands: find /recordings/ -type f -mtime +2 -exec rm -f {} \; -o -type d -empty -exec rmdir {} \; Explanation: find /recordings/ - Search recursively starting from the /recordings/ directory. -type f -mtime +2 -exec rm -f {} \; - Find files older than 2 days and delete them. -o - OR operator to combine different find expressions. -type d -empty -exec rmdir {} \; - Find empty directories and remove them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165555/remove-old-files-in-subfolders-and-subfolders
+
+---
+
+#### 5506. Ansible: how to explain that sometimes $HOME environment variable is set and sometimes not?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, ansible, shell | Score: 0 | Views: 1822 | Answers: 1 | Created: 2024-09-11
+
+**解决方案 / Solution**:
+No, lookups do not use the become system. So expressions like lookup('env') are run as the user running ansible-playbook. Actually, the only thing become can affect is modules, and they are run in another shell. Ideally, a script does not assume where a user's home directory is, so things work on different systems. root home in /root is only the most obvious example. Ansible attempts to do shell expansion on path type module parameters. That tilde syntax: - copy: dest: "~{{ tomcat_user }}" Or, if you collect facts with become, the user related ones are as the become user. This style requires the home directory to either be the ansible user or the become user. Which does work for a lot of use cases. - copy: dest: "{{ ansible_facts.user_dir }}"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165097/ansible-how-to-explain-that-sometimes-home-environment-variable-is-set-and-som
+
+---
+
+#### 5507. Correct syntax rendering variables within command string
+
+**问题描述 / Problem Description**:
+Tags: bash, csv | Score: 0 | Views: 245 | Answers: 2 | Created: 2024-08-09
+
+**解决方案 / Solution**:
+Some things to try: First, add some debugging options to the sheebang declaration: #! bash -vx That will display each line as it executes, with the expanded variables. Second, in more complex scripts, consider adding a "safe mode" flag: SAFE = "" # SAFE = "echo :: " # Make this conditional on your favourite "debug" flag. Then add this before any command you execute. ${SAFE} /usr/bin/incus launch images:debian/12/cloud $name_c1 -p prod-mgt --config=cloud-init.network-config=$(cat $file) That way, you can run and test the script-y bits without invoking all the "dangerous" bits. Finally, if your intention is to loop through the lines in the host-file, I think your loop construct is a bit suspect. Try something like this: while IFS=',' read name_c1 ip_c2 do echo "Name:" $name_c1 echo "file:" v1-$ip_c2.yaml . . . done < host-list
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163677/correct-syntax-rendering-variables-within-command-string
+
+---
+
+#### 5508. sh: script for adding ip adresses to ipset list from file
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 573 | Answers: 1 | Created: 2024-07-27
+
+**解决方案 / Solution**:
+For what it's worth, I would probably rewrite your script to remove all those intermediate files and instead do something like this: #!/bin/bash BATCH_SIZE=1000 OUTPUT_DIR=/var/scripts/IP EXTRACT_SCRIPT=/var/scripts/IP/parser_ip.py mkdir -p "$OUTPUT_DIR" && cd "$OUTPUT_DIR" || exit 1 scp -P 21 root@192.168.0.10:/blocked-IP/dump.xml "$OUTPUT_DIR" /usr/bin/python2.7 "$EXTRACT_SCRIPT" | /usr/bin/sort -u | cat -n | while read -r i addr; do if ((--i % BATCH_SIZE == 0)); then setcount=$((setcount + 1)) echo "create example${setcount} hash:ip family inet" fi echo "add example${setcount:-0} $addr" done | ipset restore -exist Here, we simply produce a sorted list of addresses on stdout and then consume that in a while loop that generates output suitable for ipset restore . The cat -n is there to add line numbers to the input, which saves us from having to calculate that in the shell script. We increment the ipset name every $BATCH_SIZE addresses. I've set BATCH_SIZE to 1000 in this example, but you can make it as big as you want (within any limits imposed by ipset ). I would also probably rewrite parser_ip.py to (a) not require the now obsolete Python 2.7 and (b) to read from stdin and write to stdout . This would allow us to create a single pipeline, like this: ssh root@192.168.0.10 cat /blocked-IP/dump.xml | /usr/bin/python "$EXTRACT_SCRIPT" | /usr/bin/sort -u | cat -n | while read -r i addr; do if ((--i % BATCH_SIZE == 0)); then setcount=$((setcount + 1)) echo "create example${setcount} hash:ip family inet" fi echo "add example${setcount:-0} $addr" done | ipset restore -exist
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163145/sh-script-for-adding-ip-adresses-to-ipset-list-from-file
+
+---
+
+#### 5509. Why "HISTFILE" variable not read by "readonly" command in shell script?
+
+**问题描述 / Problem Description**:
+Tags: bash, redhat, shell-scripting | Score: 0 | Views: 174 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+By default bash will only read certain startup files like profile files when the shell is interactive. Bash in a shell script is by default non-interactive and won’t read profile files. Therefore your tests fail when running in a script. You can force bash in a script to behave like an interactive shell with the #!bin/bash —-login option. https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163032/why-histfile-variable-not-read-by-readonly-command-in-shell-script
+
+---
+
+#### 5510. Script to check if AWS EBS is optimizing after change
+
+**问题描述 / Problem Description**:
+Tags: bash, amazon-ebs, aws-cli | Score: 0 | Views: 135 | Answers: 1 | Created: 2024-07-04
+
+**解决方案 / Solution**:
+I came up with this - but it's a very ugly solution function get_ebs_opt() { local hostname volids destdir hostname="$1" volumes="$2" destdir="$3" local state rstate result for v in $volumes ; do state="$( aws --profile "$PROFILE" ec2 describe-volumes-modifications --region "$REGION" --volume-ids "$v" 2>&1 | tr -d '\n' )" result=$? if [[ "$state" =~ Modification[[:space:]]for[[:space:]]volume.+does[[:space:]]not[[:space:]]exist ]]; then rstate="OK (no change)" elif [ 0 -ne "$result" ]; then rstate="ERROR (aws cli returned $result)\t$state" elif [[ "$state" =~ is[[:space:]]invalid ]] ; then rstate="WARNING (volume not found)" elif [[ "$state" =~ modifying ]] ; then rstate="OPTIMIZING" elif [[ "$state" =~ completed ]] ; then rstate="OK (completed optimization)" else rstate="ERROR(unknown)" fi echo -e "${hostname}\t${volid}\t${rstate}" >>"${destdir}/${hostname}" done }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162020/script-to-check-if-aws-ebs-is-optimizing-after-change
+
+---
+
+#### 5511. CRON bash script certbot renew hangs
+
+**问题描述 / Problem Description**:
+Tags: docker, bash, cron, lets-encrypt, certbot | Score: 0 | Views: 159 | Answers: 1 | Created: 2024-05-31
+
+**解决方案 / Solution**:
+I want to answer with comment, but.. my reputation is not enough to write a comment So manually running script sh renew.sh works fine and sudo crontab -e is not working? If you use sudo crontab -e -> you are running with root user Then if you run just sh renew.sh -> you are running scripts with logined user Can you tell me more about which user you are running scripts? Also, try sh /home/user/website/renew.sh after change user to root ( sudo su ) , then check it is still working with root user
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160214/cron-bash-script-certbot-renew-hangs
+
+---
+
+#### 5512. Bash: build command string with quotes and invoke it directly
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 693 | Answers: 2 | Created: 2024-05-30
+
+**解决方案 / Solution**:
+This does it, but still uses eval: command='echo "foo bar"' eval $command Now, here it is without eval: command=("echo" "foo bar") "${command[@]}"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160211/bash-build-command-string-with-quotes-and-invoke-it-directly
+
+---
+
+#### 5513. using sed to replace a string between quotes '12h' by '3h'
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, sed | Score: 0 | Views: 227 | Answers: 1 | Created: 2024-05-25
+
+**解决方案 / Solution**:
+It’s cause you have single quotes inside single quotes. The shell doesn’t know which is which. Either replace outside quotes with double quotes or escape the inside quotes to let the shell know to take them as literal quotes instead of interpreting them. Solution 1: sed -i "s/length_s = '12h'/length_s = '3h'/g" my_files Solution 2: sed -i 's/length_s = \\'12h\\'/length_s = \\'3h\\'/g' my_files
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159917/using-sed-to-replace-a-string-between-quotes-12h-by-3h
+
+---
+
+#### 5514. Unable to query or rm file from an smb mount, but it appears using ls
+
+**问题描述 / Problem Description**:
+Tags: windows, bash, filesystems, cifs, share | Score: 0 | Views: 211 | Answers: 1 | Created: 2024-04-30
+
+**解决方案 / Solution**:
+Deleting it on the Windows Server directly has the same issue You need to determine the process that has an open handle to the file on the Windows server. You can use Sysinternals Handle.exe to show the process with the handle(s) to the file. https://learn.microsoft.com/en-us/sysinternals/downloads/handle
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1158692/unable-to-query-or-rm-file-from-an-smb-mount-but-it-appears-using-ls
+
+---
+
+#### 5515. Kubernetes (CRI-O) cannot ping to any host
+
+**问题描述 / Problem Description**:
+Tags: bash, kubernetes | Score: 0 | Views: 230 | Answers: 1 | Created: 2024-04-12
+
+**解决方案 / Solution**:
+To troubleshoot and resolve the issue where Kubernetes pods running with CRI-O cannot ping each other or external hosts, follow these steps: Step 1: Verify Network Configuration Check CNI Plugin : Ensure that a Container Network Interface (CNI) plugin (e.g., Calico, Flannel, Weave) is installed and configured correctly in your Kubernetes cluster. Verify the CNI configuration: cat /etc/cni/net.d/<cni-config-file>.conf Check Pod Network : Verify that the pod network is properly configured and that pods are assigned IP addresses: kubectl get pods -o wide Check Node Network : Ensure that the nodes can communicate with each other and that there are no firewall rules blocking traffic. Step 2: Verify Pod-to-Pod Communication Deploy Test Pods : Deploy two test pods to verify pod-to-pod communication: kubectl run pod-1 --image=busybox --restart=Never -- sleep 3600 kubectl run pod-2 --image=busybox --restart=Never -- sleep 3600 Get Pod IPs : Retrieve the IP addresses of the pods: kubectl get pods -o wide Test Connectivity : Use kubectl exec to ping from one pod to another: kubectl exec pod-1 -- ping -c 4 <pod-2-ip> kubectl exec pod-2 -- ping -c 4 <pod-1-ip> Step 3: Verify External Connectivity Ping External Host : Test connectivity to an external host (e.g., 8.8.8.8 ): kubectl exec pod-1 -- ping -c 4 8.8.8.8 Check DNS Resolution : Verify DNS resolution within the pod: kubectl exec pod-1 -- nslookup google.com Step 4: Debugging and Logs Check CRI-O Logs : Inspect the CRI-O logs for any errors: sudo journalctl -u crio Check Kubelet Logs : Inspect the Kubelet logs for network-related issues: sudo journalctl -u kubelet Check CNI Logs : Inspect the CNI plugin logs for errors: sudo cat /var/log/<cni-plugin>.log Step 5: Update Your Script Here’s an updated version of your script with additional debugging steps: #!/bin/bash image="arnedh/dockerbench" # Deploy server and client pods kubectl run kube-server-rtt --image=$image --restart=Never --overrides='{ "spec": { "tolerations": [{ "key": "node-role.kubernetes.io/control-plane", "operator": "Exists", "effect": "NoSchedule" }], "containers": [{ "name": "kube-server-rtt", "image": "'$image'", "command": ["/bin/sh", "-c", "sleep infinity"], "securityContext": { "capabilities": { "add": ["NET_RAW"] } } }] } }' kubectl run kube-client-rtt --image=$image --restart=Never --overrides='{ "spec": { "tolerations": [{ "key": "node-role.kubernetes.io/control-plane", "operator": "Exists", "effect": "NoSchedule" }], "containers": [{ "name": "kube-client-rtt", "image": "'$image'", "command": ["/bin/sh", "-c", "sleep infinity"], "securityContext": { "capabilities": { "add": ["NET_RAW"] } } }] } }' # Wait for pods to be ready kubectl wait --for=condition=ready pod/kube-server-rtt --timeout=600s kubectl wait --for=condition=ready pod/kube-client-rtt --timeout=600s # Get server pod IP serverIP=$(kubectl get pod kube-server-rtt -o=jsonpath='{.status.podIP}') # Perform ping test kubectl exec kube-client-rtt -- ping -c 5 $serverIP > kubeIperf3_RTT.txt echo "Kubernetes RTT benchmark done" # Debugging: Check pod logs and network configuration kubectl logs kube-server-rtt kubectl logs kube-client-rtt kubectl exec kube-client-rtt -- ifconfig kubectl exec kube-client-rtt -- route -n # Clean up kubectl delete pod kube-server-rtt kubectl delete pod kube-client-rtt Step 6: Common Issues and Fixes Firewall Rules : Ensure that firewall rules allow traffic between pods and nodes. CNI Configuration : Reinstall or reconfigure the CNI plugin if necessary. Network Policies : Check for Network Policies that might block traffic between pods. Kubernetes Version : Ensure that your Kubernetes version is compatible with the CNI plugin and CRI-O. Example Output If the issue is resolved, you should see successful ping output: PING 10.85.0.123 (10.85.0.123) 56(84) bytes of data. 64 bytes from 10.85.0.123: icmp_seq=1 ttl=64 time=0.123 ms 64 bytes from 10.85.0.123: icmp_seq=2 ttl=64 time=0.456 ms 64 bytes from 10.85.0.123: icmp_seq=3 ttl=64 time=0.789 ms 64 bytes from 10.85.0.123: icmp_seq=4 ttl=64 time=0.321 ms 64 bytes from 10.85.0.123: icmp_seq=5 ttl=64 time=0.654 ms --- 10.85.0.123 ping statistics --- 5 packets transmitted, 5 received, 0% packet loss, time 4103ms By following these steps, you should be able to resolve the issue and enable ping functionality between Kubernetes pods. Let me know if you need further assistance!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157831/kubernetes-cri-o-cannot-ping-to-any-host
+
+---
+
+#### 5516. cd command not recognized by a systemd service script
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, systemd, shell | Score: 0 | Views: 230 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+It was indeed an absolute path issue so I just hard coded the path to the bin folder I have and it worked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157065/cd-command-not-recognized-by-a-systemd-service-script
+
+---
+
+#### 5517. Replace text with sequence of numbers
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, text, replace | Score: 0 | Views: 320 | Answers: 2 | Created: 2024-03-22
+
+**解决方案 / Solution**:
+You need to tell Perl that the replacement part is not a string but some code to run: perl -pi -w -e 's/RENUMBER/++$count/ge' *.json # ^ "e" is for "evaluate". Also, if you want to start from 1 and not 0, switch to ++$count . You can also increment the variable outside of the substitution. perl -i~ -pwe '++$count; s/RENUMBER/$count/' *.json This behaves differently if there's more than one RENUMBER per line (the previous replaces each with a different number, this one uses the same number for the whole line). I assumed there's never more than one RENUMBER per line and therefore I removed the /g .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156754/replace-text-with-sequence-of-numbers
+
+---
+
+#### 5518. Get filename from wget in Bash script (with --content-disposition)
+
+**问题描述 / Problem Description**:
+Tags: bash, wget | Score: 0 | Views: 2085 | Answers: 2 | Created: 2024-03-11
+
+**解决方案 / Solution**:
+Man wget is telling: -O file --output-document=file The documents will not be written to the appropriate files, but all will be concatenated together and written to file. If - is used as file, documents will be printed to standard output, disabling link conversion. (Use ./- to print to a file literally named -.) Use of -O is not intended to mean simply "use the name file instead of the one in the URL ;" rather, it is analogous to shell redirection: wget -O file http://foo is intended to work like wget -O - http://foo > file; file will be truncated immediately, and all downloaded content will be written there. For this reason, -N (for timestamp-checking) is not supported in combination with -O: since file is always newly created, it will always have a very new timestamp. A warning will be issued if this combination is used. Similarly, using -r or -p with -O may not work as you expect: Wget won't just download the first file to file and then download the rest to their normal names: all downloaded content will be placed in file. This was disabled in version 1.11, but has been reinstated (with a warning) in 1.11.2, as there are some cases where this behavior can actually have some use. Note that a combination with -k is only permitted when downloading a single document, as in that case it will just convert all relative URIs to external ones; -k makes no sense for multiple URIs when they're all being downloaded to a single file Shortly answered wgetOutPut=filename_or_fullpath_and_name wget -t 20 --content-disposition $link -O $wgetOutPut
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156048/get-filename-from-wget-in-bash-script-with-content-disposition
+
+---
+
+#### 5519. getopts does not find missing arguments on multiple options
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 743 | Answers: 1 | Created: 2024-03-11
+
+**解决方案 / Solution**:
+As larsks said, getopts interpretes a second 'option' (in this case -s) as a value of the preceding option. You'll need to care on error handling on your own if values are missing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156034/getopts-does-not-find-missing-arguments-on-multiple-options
+
+---
+
+#### 5520. keyboard combination to search forward in bash history
+
+**问题描述 / Problem Description**:
+Tags: bash, history, keyboard-shortcuts | Score: 0 | Views: 1125 | Answers: 1 | Created: 2024-03-06
+
+**解决方案 / Solution**:
+I found the answer here TLDR;, add stty -ixon to you .bashrc file You can search forward as well. From the bash info manual, " 8.2.5 Searching for Commands in the History ": To search backward in the history for a particular string, type C-r . Typing C-s searches forward through the history. The problem with Ctrl-S however is that sometimes collides with XON/XOFF flow control (in Konsole for instance). The searching is a readline feature however, and you should be able to bind it to some other key. Update: Simpler and better is just to disable XON/XOFF by running stty -ixon
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155785/keyboard-combination-to-search-forward-in-bash-history
+
+---
+
+#### 5521. How to convert text file from BASH to HTML?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, html | Score: 0 | Views: 986 | Answers: 1 | Created: 2024-02-29
+
+**解决方案 / Solution**:
+Put it inside <pre></pre> ? The <Pre> Tag defines preformatted text. Text in a <pre> element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. The text will be displayed exactly as written in the HTML source code.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155434/how-to-convert-text-file-from-bash-to-html
+
+---
+
+#### 5522. Set GitHub Actions Secrets on Docker Container Build/Run Command
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker, shell, github-actions | Score: 0 | Views: 370 | Answers: 1 | Created: 2024-01-27
+
+**解决方案 / Solution**:
+It should work without eval . In this bash: line 1: secret1: command not found we can see that for whatever reason it tries to execute command secret1 . Most likely it is due to the eval messing with it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152413/set-github-actions-secrets-on-docker-container-build-run-command
+
+---
+
+#### 5523. Variable substitution not working in CGI script
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, apache2, cgi | Score: 0 | Views: 104 | Answers: 1 | Created: 2024-01-11
+
+**解决方案 / Solution**:
+Tangentially, bash can parse the query string: declare -A data while IFS='=' read -r -d '&' key value; do data["$key"]=$value done <<<"${QUERY_STRING}&" Then, you can use ${data[name]} in the heredoc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151310/variable-substitution-not-working-in-cgi-script
+
+---
+
+#### 5524. argument to pgrep from cmdline returns 2 PID's and argument from global variable value returns 1 PID
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, unix, shell | Score: 0 | Views: 166 | Answers: 1 | Created: 2024-01-02
+
+**解决方案 / Solution**:
+We already answered this one here: pgrep -f from shell script is returning 2 pid instead of 1 The second PID being returned is the PID of the process running the script. To make this work you have to modify the script so that it detects its own command line, and does not return that PID.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150758/argument-to-pgrep-from-cmdline-returns-2-pids-and-argument-from-global-variable
+
+---
+
+#### 5525. pgrep -f from shell script is returning 2 pid instead of 1
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, unix, shell | Score: 0 | Views: 685 | Answers: 1 | Created: 2023-12-21
+
+**解决方案 / Solution**:
+The two PIDs that the script returns are the PID of the process interpreting the script (which contains ServiceResilience in its command line) and the PID of pgrep (which also contains ServiceResilience in its command line). If run directly in a terminal window, the script is not being run and so there is only one program. pgrep , with that in its command line.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150221/pgrep-f-from-shell-script-is-returning-2-pid-instead-of-1
+
+---
+
+#### 5526. sftp download without keyring prompt - without change of .bashrc
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sftp | Score: 0 | Views: 116 | Answers: 1 | Created: 2023-12-21
+
+**解决方案 / Solution**:
+This is not an answer but space is limited in the comments section and may put you on the right path. This can be avoided by some changes in .bashrc This is worrying. You assert this is possible but you don't provide any details of what the changes are nor why you think this is the case If the behaviour can changed in .bashrc then it should be just as easy to change the behaviour inside your script You didn't tell us what sftp client you are using. This is certainly not the default behaviour of Openssh sftp (you did not say what you are using) but its possible that when you type 'sftp' at the command line something else is happening before handing off to the actual sftp client. You might want to check the output of which sftp and alias sftp . Again, assuming that this is openssh, then the behaviour maybe implemented via the SSH_ASK_PASS shell variable (start a terminal emulator and echo $SSH_ASK_PASS to check). If that is the case then you simply need to set the variable to blank within your shell script. It is also possible that the keyring is activate as a helper program by the ssh_config. If that's the case then the config will be somewhere in /etc/ssh/ssh_config or a file included in that depending on which distribution of Linux you are running (you did not say). This config can be overridden on the sftp command line in your script.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150198/sftp-download-without-keyring-prompt-without-change-of-bashrc
+
+---
+
+#### 5527. change shell to /usr/bin/false in IBM aix os
+
+**问题描述 / Problem Description**:
+Tags: unix, shell, aix | Score: 0 | Views: 789 | Answers: 2 | Created: 2023-12-19
+
+**解决方案 / Solution**:
+Available shells are listed in /etc/shells . You most probably only need to add /usr/bin/false there.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150053/change-shell-to-usr-bin-false-in-ibm-aix-os
+
+---
+
+#### 5528. How can I log when the postfix (for an incoming mail server) enters the stressed condition?
+
+**问题描述 / Problem Description**:
+Tags: postfix, bash, stress-testing | Score: 0 | Views: 146 | Answers: 1 | Created: 2023-11-29
+
+**解决方案 / Solution**:
+I want the postfix logs to indicate when (and if) the MTA enters the stressed mode. That is the default. The trigger for enabling the stress mechanism is reaching the configured limit for a service - and every time that happens, you will find in your logs: warning: service "foo" (bar) has reached its process limit "123": new clients may experience noticeable delays the MTA enters the stressed mode Clarification, because it bit me in the past: this is not an MTA-wide mechanism - it works per-service. You may think of it just the same on systems serving clients via a single service (port 25) - until you open up a separate service on a different IP or port (e.g. authenticated submission). Then one may be operating under stress=yes regime, while another is not.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148791/how-can-i-log-when-the-postfix-for-an-incoming-mail-server-enters-the-stressed
+
+---
+
+#### 5529. Shell script capturing values from output of command
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, regex | Score: 0 | Views: 1902 | Answers: 3 | Created: 2023-11-29
+
+**解决方案 / Solution**:
+You can use grep and awk to capture the packet loss from the output of the ping command. Here's an example: ping_result=$(ping -c4 8.8.8.8) packet_loss=$(echo "$ping_result" | grep -oP '\d+% packet loss') echo "Packet Loss: $packet_loss" In this example, you store the result on a variable called ping_result, for further processing. In the packet_loss line, you use grep with Perl parameters to extract the desired information (% packet loss). Finally, you output the variable in the last line. Hope it helps!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148782/shell-script-capturing-values-from-output-of-command
+
+---
+
+#### 5530. How to check if a process is running or blocked on lock or I/O?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, command-line-interface, perl, blocking | Score: 0 | Views: 2461 | Answers: 1 | Created: 2023-11-10
+
+**解决方案 / Solution**:
+When you execute ps -aux, in the column STAT, you can see the process state codes. Taken from man ps: PROCESS STATE CODES Here are the different values that the s, stat and state output specifiers (header "STAT" or "S") will display to describe the state of a process: D uninterruptible sleep (usually IO) I Idle kernel thread R running or runnable (on run queue) S interruptible sleep (waiting for an event to complete) T stopped by job control signal t stopped by debugger during the tracing W paging (not valid since the 2.6.xx kernel) X dead (should never be seen) Z defunct ("zombie") process, terminated but not reaped by its parent For BSD formats and when the stat keyword is used, additional characters may be displayed: < high-priority (not nice to other users) N low-priority (nice to other users) L has pages locked into memory (for real-time and custom IO) s is a session leader l is multi-threaded (using CLONE_THREAD, like NPTL pthreads do) + is in the foreground process group
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1147591/how-to-check-if-a-process-is-running-or-blocked-on-lock-or-i-o
+
+---
+
+#### 5531. Why executable files (mode x flagged) under a folder cannot run?
+
+**问题描述 / Problem Description**:
+Tags: shell, file-permissions | Score: 0 | Views: 113 | Answers: 1 | Created: 2023-10-30
+
+**解决方案 / Solution**:
+Quote from man mount : user Allow an ordinary user to mount the filesystem. The name of the mounting user is written to mtab so that he can unmount the filesystem again. This option implies the options noexec , nosuid , and nodev (unless overridden by subsequent options, as in the option line user,exec,dev,suid). highlight by me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1146829/why-executable-files-mode-x-flagged-under-a-folder-cannot-run
+
+---
+
+#### 5532. How to start a sudo-privilage program with screen so that I can re-attach to it later?
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, sudo, root | Score: 0 | Views: 646 | Answers: 1 | Created: 2023-10-18
+
+**解决方案 / Solution**:
+screen is terminating because the program is terminating. If you want to see its output you can either log it (use -L ) to examine the complete output afterwards, or, to see last few lines, start a shell with the screen and run your failing application from that shell. The screen won't exit until you exit the shell. With -L screen will append to a logfile if it exists. You can also suggest a different filename than the default screenlog.N (N being the screen number) with -Logfile option. Upd: probably the confusion was caused by running screen inside sudo session like sudo screen . In that case, screen is run as root (or other user if sudo was invoked with -u argument) and you need to run subsequent operations also as that user. For example, to reattach, sudo screen -r .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1146103/how-to-start-a-sudo-privilage-program-with-screen-so-that-i-can-re-attach-to-it
+
+---
+
+#### 5533. get user with crontab root
+
+**问题描述 / Problem Description**:
+Tags: bash, cron, sudo, root | Score: 0 | Views: 209 | Answers: 1 | Created: 2023-10-07
+
+**解决方案 / Solution**:
+Who exactly is the logged on user for cron running as root ? root . The reason the scripts work manually is because there is a sudo in play from a logged on user. There is none in cron , the system launches the job in the specified context, which here is root . And there in fact doesn't have to be a logged in user when cron runs, everyone can be logged out and it will still run, creating the necessary context for each job. Also, unlike Windows, Linux does not limit you to one logged-in user; you can have dozens of users all logged in at the same time (though with consumer grade hardware, they'll all find it pretty sluggish if they do that). The best you can do is to ask the system for the current list of logged-in users.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145389/get-user-with-crontab-root
+
+---
+
+#### 5534. is /etc/sudoers writable or not
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, unix, file-permissions, sudo | Score: 0 | Views: 1372 | Answers: 1 | Created: 2023-09-29
+
+**解决方案 / Solution**:
+Root can ignore permissions. Consider this example: [/tmp/foo]$ echo "bar" > foo [/tmp/foo]$ chmod 000 foo [/tmp/foo]$ ls -l foo ---------- 1 vidarlo users 4 Sep 29 19:19 foo [/tmp/foo]$ cat foo cat: foo: Permission denied [/tmp/foo]$ sudo cat foo bar [/tmp/foo]$ Normal user is denied; root is not denied, even though root does not have read permissions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144762/is-etc-sudoers-writable-or-not
+
+---
+
+#### 5535. copy many files with big sizes over rsync
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, rsync, scp | Score: 0 | Views: 97 | Answers: 1 | Created: 2023-09-28
+
+**解决方案 / Solution**:
+Don't. Just copy the binlogs and load them locally. Better yet replicate to a local instance.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144640/copy-many-files-with-big-sizes-over-rsync
+
+---
+
+#### 5536. How to do fuzzy match with linux alias
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 0 | Views: 123 | Answers: 1 | Created: 2023-09-26
+
+**解决方案 / Solution**:
+Too long for a comment: I usually use "root" to login in my linux, but I want to make shell forbid dangerous commands The best way is to simply not log in as root directly. Set up a regular unprivileged user account and a sudo policy that allows that user elevate their privileges when necessary. Only log in with that regular user account . That is the easiest way to greatly reduce the number of "dangerous" commands that can successfully run and reduces risk and the amount of damage you can do to your system and the data of your other users. Then train your self to only use sudo for the few occasions that you actually need to run something with root privileges. That will help with the best remedy: Think before you type Having said that, the default command aliases: alias cp='cp -i' alias mv='mv -i' alias rm='rm -i' that for example RHEL and possibly other OS's enable for root and the default --preserve-root option that GNU rm sets, those do help to prevent certain (common/notorious) mishaps. More complex and/or generic idiot proofing is difficult: for starters, there is a limit to foreseeable errors (that you can successfully recognise and catch). there is an unlimited potential for costly mistakes and typo's. your "dangerous" might actually be what I want and need to do. Possible approach Zsh has the precmd and preexec hooks (and that functionality appears to be ported to bash in some form here ) which can be used to evaluate each command before execution . You can use that to: do string matching for your "dangerous options" list before running/rejecting the command present a (conditional) confirmation prompt when certain criteria match as seen in the example here: https://reespozzi.medium.com/cancel-a-terminal-command-during-preexec-zsh-function-c5b0d27b99fb#86cb # Sanity Checks preexec () { if [[ ${CLUSTER} =~ "prod" || ${CLUSTER} =~ "production" ]];then if [[ ${1} =~ "delete" || ${1} =~ "edit" || ${1} =~ "uninstall" ]];then read -q "execStatus?----- DETECTED PROD CONTEXT: Definitely execute command? [y/n] ----- " if [[ ${execStatus} == "y" ]];then printf "\nExecuting...\n" else printf "\nCancelled $1... Refreshing shell." exec zsh fi else echo "Successfully parsed for: [delete, edit, uninstall], executing command in prod context..." fi fi } Adjust to your own needs. Note that a problem with too frequent confirmation prompts is that human behaviour will start seeing them as routine, people will stop reading them carefully and simply confirm, defeating their purpose.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144464/how-to-do-fuzzy-match-with-linux-alias
+
+---
+
+#### 5537. Bash script : Print all lines between two pattern in variables with slashes
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, sed, awk | Score: 0 | Views: 729 | Answers: 2 | Created: 2023-09-22
+
+**解决方案 / Solution**:
+Don't parse the output of ls (see https://mywiki.wooledge.org/ParsingLs ) and don't use sed for this as it doesn't understand literal strings and so will fail given multiple possible characters in your file names (see is-it-possible-to-escape-regex-metacharacters-reliably-with-sed ). Use printf instead of ls and awk instead of sed . The following will work robustly for any characters in your file names except newlines, regardless of whether or not your target file names can be substrings of other file names: fileA="/path/to/files/data-file.2" fileB="/path/to/files/data-file.5" printf '%s\n' /path/to/files/*-file.[0-9]* | fileA="$fileA" fileB="$fileB" \ awk ' $0 == ENVIRON["fileA"] { f=1 } f { print f = ( $0 != ENVIRON["fileB"] ) } ' If your file names can contain newlines then you need a version of awk that can support NUL chars as the Record Separator such as GNU awk and then you'd do: fileA="/path/to/files/data-file.2" fileB="/path/to/files/data-file.5" printf '%s\0' /path/to/files/*-file.[0-9]* | fileA="$fileA" fileB="$fileB" \ awk -v RS='\0' -v ORS='\0' ' $0 == ENVIRON["fileA"] { f=1 } f { print f = ( $0 != ENVIRON["fileB"] ) } ' awk supports ranges line /start/,/end/ like sed does but that construct is limiting and so a flag variable like f (for found ) above is usually the better approach, see is-a-start-end-range-expression-ever-useful-in-awk . You should set shopt -s nullglob before doing the above or anything similar to avoid breakage if none of the file names match the globbing pattern you're using with printf .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144264/bash-script-print-all-lines-between-two-pattern-in-variables-with-slashes
+
+---
+
+#### 5538. su command not set BASH_VERSION value and not load profile
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, bashrc | Score: 0 | Views: 235 | Answers: 2 | Created: 2023-09-18
+
+**解决方案 / Solution**:
+As the documentation of su says: For backward compatibility, su defaults to not change the current directory and to only set the environment variables HOME and SHELL (plus USER and LOGNAME if the target user is not root). It is recommended to always use the --login option (instead of its shortcut - ) to avoid side effects caused by mixing environments. When under the --login or -l , su also runs a login shell, which in turn sources the .profile ( .bashrc should be sourced always). To see which files are loaded, insert a simple line towards the beginning of them: echo "$BASH_SOURCE" >&2
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143988/su-command-not-set-bash-version-value-and-not-load-profile
+
+---
+
+#### 5539. Bash parameter substitution (baparmsub?) Isnt working
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 317 | Answers: 2 | Created: 2023-08-31
+
+**解决方案 / Solution**:
+You have to use shopt -s extglob which is usually on for interactive shell, but off in scripts. #!/bin/bash shopt -s extglob step=_SOME_under_SCORES a=${step//_+([a-zA-Z])/_} echo "[$step]=>[$a]" $ ./check.sh [_SOME_under_SCORES]=>[___] See man bash section Pattern Matching : If the extglob shell option is enabled using the shopt builtin, several extended pattern matching operators are recognized […]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142805/bash-parameter-substitution-baparmsub-isnt-working
+
+---
+
+#### 5540. Passing a user input to an ssh command
+
+**问题描述 / Problem Description**:
+Tags: ssh, mysql, unix, shell | Score: 0 | Views: 587 | Answers: 1 | Created: 2023-08-23
+
+**解决方案 / Solution**:
+You have a space between -p and the password variable, but according to the mysqldump man page: If given, there must be no space between --password= or -p and the password following it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142258/passing-a-user-input-to-an-ssh-command
+
+---
+
+#### 5541. Service to monitor Service not triggering
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, systemd, service | Score: 0 | Views: 183 | Answers: 1 | Created: 2023-08-20
+
+**解决方案 / Solution**:
+As its name suggests, OnFailure= is only triggered when the unit fails (exits with a non-zero exit code, killed by a signal, or similar). If you want to run a command whenever the service stops, you don't even need a separate service, just ExecStopPost= is enough.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141967/service-to-monitor-service-not-triggering
+
+---
+
+#### 5542. What is the correct way to check monit status/summary success/failure
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-scripting, monit | Score: 0 | Views: 1369 | Answers: 1 | Created: 2023-08-17
+
+**解决方案 / Solution**:
+You are right. The exit code of Monit is the status of the command entered. You get "1" if the resource is not defined, or any other internal problem only. A suggestion, I use "monit -B summary xxxx" to get the service status and parse the command output. The option "-B" is the batch command line mode and remove the output tables and colours.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141766/what-is-the-correct-way-to-check-monit-status-summary-success-failure
+
+---
+
+#### 5543. Extract Pages from Other PDF Files into a New PDF File
+
+**问题描述 / Problem Description**:
+Tags: bash, pdf | Score: 0 | Views: 192 | Answers: 1 | Created: 2023-08-10
+
+**解决方案 / Solution**:
+The basic answer is to use pdftk like so: pdftk B=<input-file-1.pdf> C=<input-file-2.pdf> ... cat B<pagenum1> C<pagenum2> ... output <outputfile.pdf>; Here is a script that takes an input file with each line having a PDF file (without a space in the name!!) then a page number: <input-file-1.pdf> <pagenum1> <input-file-2.pdf> <pagenum2> ... #!/bin/bash declare -a input_lines; declare -a page_spec; character_set=({A..Z}); handle="A"; increment_character() { for (( i=0; i < "${#character_set[@]}"; ++i )); do if [[ "$1" == "${character_set[$i]}" ]]; then echo "${character_set[$((i+1))]}"; return; fi; done; echo "error"; } increase_handle() { rolled_over=n; for (( l=${#handle}; l>0; --l )); do letter=${handle:$((l-1)):1}; prefix="${handle:0:$((l-1))}"; suffix="${handle:$((l))}"; if [[ "$letter" == "${character_set[-1]}" ]]; then handle="${prefix}A$suffix"; rolled_over=y; else new_letter=$(increment_character "$letter"); handle="$prefix$new_letter$suffix"; rolled_over=n; break; fi; done; if [[ "$rolled_over" == 'y' ]]; then handle=A"$handle"; true; fi; echo "$handle"; } echo "extracting..."; while IFS=' ' read -r file page; do if [[ "$file" = "#"* ]]; then # Comment continue; fi; if [[ -z "$file" ]]; then # Empty line continue; fi; handle="$(increase_handle)"; input_lines+=("$handle=$file"); page_num="$page"; page_spec+=("$handle$page_num"); echo " $file"; echo " page $page_num"; done < "$1" pdftk "${input_lines[@]}" cat "${page_spec[@]}" output "$1".pdf;
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141265/extract-pages-from-other-pdf-files-into-a-new-pdf-file
+
+---
+
+#### 5544. jq: error: X/0 is not defined at <top-level>, line 1:
+
+**问题描述 / Problem Description**:
+Tags: bash, jq | Score: 0 | Views: 10568 | Answers: 2 | Created: 2023-06-29
+
+**解决方案 / Solution**:
+Use the --arg option to initialize a jq variable with a shell variable's value. jq --arg key "$var1" '.[$key]' See Invoking jq and scroll down to --arg
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1135191/jq-error-x-0-is-not-defined-at-top-level-line-1
+
+---
+
+#### 5545. expect usage in bash script or bash command in expect script
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, expect | Score: 0 | Views: 6913 | Answers: 1 | Created: 2023-06-28
+
+**解决方案 / Solution**:
+#!/bin/bash # invdir=/home/john/inventory for file in "$invdir"/"$1" do if [[ -z "$1" ]] || [[ -z "$2" ]] then echo "You must enter a value: prod, dev, dr, or test AND the password of the env you entered" exit 0 else while IFS= read -r host do export host export pw="$2" expect <<'EOF' spawn ssh-copy-id -i $env(HOME)/.ssh/id_rsa.pub $env(host) expect "password:" send "$env(pw)\n" expect eof EOF done < "$file" fi done Some notes: take care to quote your shell variables, especially positional params you need to launch the expect interpreter to run expect code pass shell variables to expect via the environment don't read the lines of a file with for I don't use <<-EOF because it's too easy to use non-tabs for the EOF word. but do use <<'EOF' to protect the expect variables
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1135121/expect-usage-in-bash-script-or-bash-command-in-expect-script
+
+---
+
+#### 5546. How to catch the error output in shell when error code is not enough?
+
+**问题描述 / Problem Description**:
+Tags: bash, postgresql-cluster | Score: 0 | Views: 267 | Answers: 1 | Created: 2023-06-21
+
+**解决方案 / Solution**:
+There is no straight forward bash variable like $? to catch the exact error message, however, it is possible to store the outcome in a text file for analysis. In this case, the script is like this: pg_ctl -D /var/lib/pgsql/data -w promote &> promote_return if [ $? -ne 0 ]; then if [ `grep -c 'is not in standby mode' promote_return` -ne 0 ]; then echo okay: no need to promote twice. exit 0 else echo failure: please check the file promote_return for error message. exit 1 fi else echo succeed exit 0 fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1134427/how-to-catch-the-error-output-in-shell-when-error-code-is-not-enough
+
+---
+
+#### 5547. Setting up Slack Alerts for Monit monitoring MySQL
+
+**问题描述 / Problem Description**:
+Tags: mysql, bash, mariadb, monit, slack | Score: 0 | Views: 209 | Answers: 1 | Created: 2023-06-19
+
+**解决方案 / Solution**:
+#!/bin/bash if ! pgrep mysqld >/dev/null 2>&1; then /path/to/slack.rb fi Replace /path/to/slack.rb with the actual path to your Slack alert script. Next, make it executable using chmod +x /opt/monit/check_mysql.sh: check program check-mysql with path "/opt/monit/check_mysql.sh" if status != 0 then exec /path/to/slack.rb
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1134219/setting-up-slack-alerts-for-monit-monitoring-mysql
+
+---
+
+#### 5548. Shut down a script when it's detached from the terminal without kill
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 234 | Answers: 1 | Created: 2023-06-18
+
+**解决方案 / Solution**:
+This is a common design requirement for daemon processes, where you want them running in the background most of the time but occasionally need to interact with them (e.g. kill them). In theory you could manually do a ps , pgrep etc. and send signals to whatever PID you find, but it's often inconvenient for users to have to do that. The traditional way to do this sort of thing is via a PID file , which is a file that your background process creates at a consistent place in the filesystem so that other processes or scripts can communicate with it. You can put this wherever you want, but they're often located at: /run/<name>.pid for system-level processes. (e.g. lightdm on my machine) /run/user/<UID>/<name>.pid for user-level processes (e.g. rofi on my machine) This can have a side benefit of ensuring you only run one instance of the script at a time if that's desirable. If you want to run more than one, you'll have to figure out a naming or locating scheme to accommodate that. The usual paradigm is to have your daemon script (e.g. myscript ) create this file when it starts and write its own PID to the file, and then have a separate controller script (common naming convention would be myscriptctl ) that will read the file and, in your case, kill the associated process. In most shells, including bash, you can use the special $$ variable to get the current process ID. I've put an example script and controller below: myscript.sh : # Create PID file PIDFILE=/run/user/$UID/myscript.pid echo $$ > $PIDFILE # Do whatever your script should do in the background while true; do echo "Hello world!"; sleep 5; done myscriptctl.sh : # Read PID file PIDFILE=/run/user/$UID/myscript.pid PID=$(cat $PIDFILE) # Interact with that process if [ $1 = "kill" ]; then kill $PID rm $PIDFILE fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1134181/shut-down-a-script-when-its-detached-from-the-terminal-without-kill
+
+---
+
+#### 5549. crontab shell script execution not as expected
+
+**问题描述 / Problem Description**:
+Tags: bash, cron, shell, goaccess | Score: 0 | Views: 179 | Answers: 2 | Created: 2023-06-09
+
+**解决方案 / Solution**:
+The solution was found here which essentially says that goaccess has a specific requirement to add a hyphen in the parameters to process multiple files. However for some reason, it works without this when run on the command line and not when run in cron. I've updated the correct command in the OP to reflect the additional goaccess parameter.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1132974/crontab-shell-script-execution-not-as-expected
+
+---
+
+#### 5550. Unable to List Contents or Create Files in /var/tmp Folder from PHP Executed Bash Script
+
+**问题描述 / Problem Description**:
+Tags: bash, file-permissions, shell-scripting, www-data | Score: 0 | Views: 434 | Answers: 1 | Created: 2023-06-07
+
+**解决方案 / Solution**:
+Put everything back the way it was. At best you have seriously compromised the security of your host. You may have broken functionality. The only way to be able to remove the files via a web-hook safely is via sudo: www-data host=(root) NOPASSWD: /home/example/script.sh DO NOT add this to yoursudoers file, create a new file in /etc/sudoers.d/ and make sure the permissions are 0600, owned by root:root. Check its working correctly with sudo -l -U www-data
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1132805/unable-to-list-contents-or-create-files-in-var-tmp-folder-from-php-executed-bas
+
+---
+
+#### 5551. "PTY allocation request failed on channel 0" with CertificateFile
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, certificate, login | Score: 0 | Views: 4896 | Answers: 1 | Created: 2023-05-28
+
+**解决方案 / Solution**:
+I found that the error was not server-side, but how I generated the certificate. For example trying to generate the signed cert manually it works! I've used the command ssh-keygen -s ca_ssh_key -I "$(date)" -n bob -V +1h test-key-for-vault-rsa.pub to generate a valid signature. Analyzing it via ssh-keygen -Lf testcert.pub , it appears: testcert.pub: Type: ssh-ed25519-cert-v01@openssh.com user certificate Public key: ED25519-CERT SHA256:4VHKC6rJCp7/dI6MkL8vxUPAMEWyWEbJ4J3KgnrgT/Q Signing CA: RSA SHA256:ipiIb0Alzu1W38SiwvMWO6VEcYtBK6KgNHmRJcxcQiE (using rsa-sha2-256) Key ID: "vault-userpass-bob-e151ca0baac90a9eff748e8c90bf2fc543c03045b25846c9e09dca827ae04ff4" Serial: 4538299703429475958 Valid: from 2023-06-02T12:24:09 to 2023-06-02T13:24:39 Principals: bob Critical Options: (none) Extensions: permit-agent-forwarding permit-pty brings up the presence of the "extensions". I was using a tool that generated the certificate without including this section, which is why it didn't work as I expected. I hope it will be useful to others as well.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1132084/pty-allocation-request-failed-on-channel-0-with-certificatefile
+
+---
+
+#### 5552. Loggin bash_history using UTC timestamp when not using UTC as system time
+
+**问题描述 / Problem Description**:
+Tags: bash, logging | Score: 0 | Views: 690 | Answers: 1 | Created: 2023-05-17
+
+**解决方案 / Solution**:
+You do not need to anything at all, because timestamps in the history file are always saved in seconds since the Unix epoch. It is only when you print them that they are converted to whatever timezone you are in. You should be able to see this by comparing the output of date +%s with the number in the history file (save to the file with history -w ). Or use HISTTIMEFORMAT='%s: ' to see this number instead of whatever converted date format you are currently seeing. The number will not change if you change timezone, eg: $ TZ=UTC date +'%s %H:%M'; TZ=CET date +'%s %H:%M' 1684429600 17:06 1684429600 19:06
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131345/loggin-bash-history-using-utc-timestamp-when-not-using-utc-as-system-time
+
+---
+
+#### 5553. Command that run fine... but give me an error when "piped" to grep, inside a docker RUN?
+
+**问题描述 / Problem Description**:
+Tags: docker, bash, shell, composer | Score: 0 | Views: 379 | Answers: 2 | Created: 2023-05-09
+
+**解决方案 / Solution**:
+You can try disabling the usage of ANSI escape codes for output formatting by adding the --no-ansi option to the composer run-script --list command. This can occasionally fix output-related problems in terminal environments that don't support them. RUN set -eux; \ if [ -f composer.json ]; then \ composer dump-autoload --no-dev --classmap-authoritative; \ composer run-script --list; \ if composer run-script --list --no-ansi | grep -q post-install-cmd; then \ echo "Script was found!"; \ fi; \ fi Or Alternatively: docker run -t my_image
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130776/command-that-run-fine-but-give-me-an-error-when-piped-to-grep-inside-a-doc
+
+---
+
+#### 5554. Get the actual value of free memory is sun sparc
+
+**问题描述 / Problem Description**:
+Tags: bash, sun, sparc | Score: 0 | Views: 160 | Answers: 2 | Created: 2023-05-05
+
+**解决方案 / Solution**:
+You can use command like: vmstat 1 3|tail -1 |awk '{print $5}' The idea is to exec vmstat 3 times (the first execution get average values from the start of the system), get last line and extract free memory value.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130468/get-the-actual-value-of-free-memory-is-sun-sparc
+
+---
+
+#### 5555. systemd not able to run some bash scripts
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, systemd, systemctl | Score: 0 | Views: 3128 | Answers: 1 | Created: 2023-05-04
+
+**解决方案 / Solution**:
+First, you should set a one-shot service, because your scripts exits when it's done: [Unit] Description = Runs the mountup.sh script [Service] Type = oneshot User = adminuseraccount ExecStart = /usr/local/bin/mountup.sh RemainAfterExit=true StandardOutput=journal StandardError=journal You can then see the output with journalctl -u mountup.service With the log in the journal, I would also forgo all the redirection of file handles. Plus, your /usr/local/bin/mountlog.txt needs root access to write to. Generally, it's bad practice to write there. But again, I would not use the redirection at all. And, because you chain commands with && , you can think about doing set -e . This way, the script aborts on error. There are caveats to that (mis-contructed if-greps could abort your program for instance), but in your case it looks like a good option. This is not the solution per se, because we don't see the error, but it should help you on your way. Also, I think I would put it all in one script. Put an 'exit trap' in it to do sync; umount /foo/bar afterwards, so you're sure that when it's done, you have at least flushed file system buffers and the drive is unmounted. This makes it safe to unplug. The reason I tend to call sync in these situations as well, is in case the umount fails. About umount failure: if that's your/a problem, you may be keeping the location open, if you cd into it, for instance.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130395/systemd-not-able-to-run-some-bash-scripts
+
+---
+
+#### 5556. Limited shell for debian
+
+**问题描述 / Problem Description**:
+Tags: ssh, debian, shell | Score: 0 | Views: 399 | Answers: 1 | Created: 2023-05-04
+
+**解决方案 / Solution**:
+From wiki. The restricted mode of the Bourne shell sh, and its POSIX workalikes, is used when the interpreter is invoked in one of the following ways: sh -r note that this conflicts with the "read" option in some sh variants rsh note that this may conflict with the remote shell command, which is also called rsh on some systems The restricted mode of Bash is used when Bash is invoked in one of the following ways: rbash bash -r bash --restricted Similarly KornShell's restricted mode is produced by invoking it thus: rksh ksh -r You just need to use one of them, install and link with the session. Also note that restricted shell is not secure.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130322/limited-shell-for-debian
+
+---
+
+#### 5557. How do you compare time date strings not actual dates and times?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 276 | Answers: 1 | Created: 2023-05-01
+
+**解决方案 / Solution**:
+Use gnu date or similar to parse them into integer timestamps. ts=$( date -ud "${i:0:4}-${i:4:2}-${i:6:2} ${i:8:2}:${i:10:2}:${i:12:2}" '+%s' ) Proceed from there checking that the difference is approximately 180 seconds.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1130126/how-do-you-compare-time-date-strings-not-actual-dates-and-times
+
+---
+
+#### 5558. Cleaning up WordPress thumbnails; trying to find all thumbnails and delete them on Ubuntu 22
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, shell | Score: 0 | Views: 247 | Answers: 1 | Created: 2023-04-29
+
+**解决方案 / Solution**:
+What I would do: $ ls -1 apple-touch-icon-magnifier-256x256.png favicon-magnifier-256x256.png seo-magnifier-256x256.png $ find . -regextype egrep \ -not -regex '.*/(favicon|apple-touch-icon|mstile|android-chrome).*' \ -regex '.*[a-z]-[0-9]+x[0-9]+\.(png|jpg|webp)' \ ./seo-magnifier-256x256.png Finally, to delete if you are happy with the result, append -delete to the end of find 's command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1129962/cleaning-up-wordpress-thumbnails-trying-to-find-all-thumbnails-and-delete-them
+
+---
+
+#### 5559. $'\r': command not found error when executing find in a bash script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find | Score: 0 | Views: 755 | Answers: 1 | Created: 2023-04-28
+
+**解决方案 / Solution**:
+You have MSWin line ends in the script source. Use dos2unix or fromdos to fix them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1129920/r-command-not-found-error-when-executing-find-in-a-bash-script
+
+---
+
+#### 5560. Incremental backup of an entire FTP server with Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, backup, bash, ftp | Score: 0 | Views: 430 | Answers: 1 | Created: 2023-04-10
+
+**解决方案 / Solution**:
+Some options: configure and use rclone use lftp mirror you can try mounting the remote server filesystem locally via sshfs , then using rsync to sync the required files (note: it will be less efficient than running rsync via an explicit network target, but the latter requires full SSH access).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128354/incremental-backup-of-an-entire-ftp-server-with-linux
+
+---
+
+#### 5561. Is posible to write script that checks for differences between two patterns in configuration files
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting | Score: 0 | Views: 100 | Answers: 1 | Created: 2023-04-03
+
+**解决方案 / Solution**:
+You've already got a side-by-side diff and it's unclear what you want the script to do. Diffs aren't well equipped to deal with data like this, so the first thing you'll need to do is flatten it in a manner that makes each line descriptive of the structure. Then you can sort it and diff it. flatten() { echo "$*" awk ' /^\]/ { arr = "" } arr != "" && NF { sub(/^[[:space:]]+/, ""); print arr $0 } $2 $3 == "=>[" { arr = $1 $2 } ' "$@" |sort } gvimdiff <(flatten /tmp/a) <(flatten /tmp/b) I've defined a flatten function that uses awk to flatten the data in your files. To remember what file we're on, the function prints the parameters (the file) at the top. Then we run awk . For lines that start with ] , we've closed a structure. Empty the arr variable. If there is a non-empty arr variable and the line isn't blank (the number of fields is not zero), remove the leading white space and print it prefixed with the arr variable's contents. If the second and third fields concatenate to =>[ then we've started an array. Save the array name and the => in the arr variable. We then sort the output. Now we can do a more informative diff. Rather than using temporary files, I'm using a bash technique to pipe the output of two flatten commands directly into diff . I've run gvimdiff because that's my own go-to: You could also run diff -u <(flatten /tmp/a) <(flatten /tmp/b) |grep '^-' to get your removed lines, etc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127805/is-posible-to-write-script-that-checks-for-differences-between-two-patterns-in-c
+
+---
+
+#### 5562. How to compress a directory, using tar, and then delete the directory it compressed?
+
+**问题描述 / Problem Description**:
+Tags: linux, backup, shell, tar, bacula | Score: 0 | Views: 1396 | Answers: 1 | Created: 2023-03-22
+
+**解决方案 / Solution**:
+Testing in my machine, the && worked very well in this case tar -czf bkp-mydir-${date}.tar.gz mydir/ && rm -rf mydir/ You'll also need to use variable interpolation with the $date var. Check here: https://stackoverflow.com/questions/17622106/variable-interpolation-in-the-shell
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126852/how-to-compress-a-directory-using-tar-and-then-delete-the-directory-it-compres
+
+---
+
+#### 5563. MySql: ERROR 1045 (28000): Access denied for user 'root'@'localhost' although password is okay
+
+**问题描述 / Problem Description**:
+Tags: mysql, debian, shell, login, mariadb | Score: 0 | Views: 12090 | Answers: 2 | Created: 2023-03-21
+
+**解决方案 / Solution**:
+When you try to use no password (e.g. no -p ) no password is sent, and it doesn't matter what password hashing scheme is used in MariaDB. What's used on modern system to authenticate users socket authentication . This looks up the uid (and username) of the unix user connecting to the socket, and if it matches the transmitted MariaDB username it allows login. This can be configured using the ... IDENTIFIED VIA unix_socket ... or even (with >11.6) to authenticate a different MariaDB and Unix-user via the ... IDENTIFIED VIA unix_socket 'bob' ... where bob is the OS user name.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126740/mysql-error-1045-28000-access-denied-for-user-rootlocalhost-although-pa
+
+---
+
+#### 5564. Why can't ssh run rbenv in the shell?
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash | Score: 0 | Views: 402 | Answers: 1 | Created: 2023-03-17
+
+**解决方案 / Solution**:
+In short, $PATH is not set. Bash, when started in interactive mode or as login shell, reads a few config files, such as .profile and .bashrc : --noprofile Do not read either the system-wide startup file /etc/profile or any of the personal initialization files ~/.bash_profile, ~/.bash_login, or ~/.profile. By default, bash reads these files when it is invoked as a login shell (see INVOCATION be- low). --norc Do not read and execute the personal initialization file ~/.bashrc if the shell is interactive. This option is on by de- fault if the shell is invoked as sh. From man bash . You start a non-login, non-interactive shell. Either, your script should: source ~/.bashrc Specify $PATH on it's own Use absolute paths
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126478/why-cant-ssh-run-rbenv-in-the-shell
+
+---
+
+#### 5565. openssl functions randomly returns warning: command substitution: ignored null byte in input
+
+**问题描述 / Problem Description**:
+Tags: bash, openssl | Score: 0 | Views: 2189 | Answers: 1 | Created: 2023-03-11
+
+**解决方案 / Solution**:
+Your shell will treat some characters different - and a binary signature could contain arbitrary data. If you meant to work with [a-f0-9] (as your input suggests) add -hex to the dgst call. If you meant to work with binary data, change how you pass the null-containing value around. Piping will work, directly using null-byte-containing strings as command arguments or assigning to shell variables will not. Hint: Use the program shellcheck to generate automatic warnings about this - and all such syntax where your code is likely to trigger unexpected shell parser oddities/features.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125920/openssl-functions-randomly-returns-warning-command-substitution-ignored-null-b
+
+---
+
+#### 5566. Webmin backup via ssh not working with remote rush shell
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, scp, webmin | Score: 0 | Views: 245 | Answers: 1 | Created: 2023-03-07
+
+**解决方案 / Solution**:
+I’ve seen this issue also when I moved to key based authentication. I’ve noticed a virtual in user suggest that this can be solved by running the backup command manually and adding a colon after the username on the scp command however I can locate a perl file to manually edit to get automatic backups working yet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125544/webmin-backup-via-ssh-not-working-with-remote-rush-shell
+
+---
+
+#### 5567. searching for multiple files, but if one file is missing I want to know from the output + find
+
+**问题描述 / Problem Description**:
+Tags: bash, find | Score: 0 | Views: 105 | Answers: 1 | Created: 2023-03-07
+
+**解决方案 / Solution**:
+What I would do: find ./ -type f -name "AWGT*" -o -name "SLIN*" \ -o -name "AABE*" -o -name "AMDM*" -o -name "ARDE*" -o -name "WTHC*" | perl -pe ' BEGIN{ our %h; our $error = 0; } $h{$1}++ if m/(AWGT|SLIN|AABE|AMDM|WTHC)/; END{ for ("AWGT", "SLIN", "AABE", "AMDM", "WTHC") { if ($h{$_} == 0) { $error = 1; warn "cannot find $_\n" } } exit($error) } '
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125497/searching-for-multiple-files-but-if-one-file-is-missing-i-want-to-know-from-the
+
+---
+
+#### 5568. Bash sed command with sed itself as replacement, quotes not outputted
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 491 | Answers: 2 | Created: 2023-02-13
+
+**解决方案 / Solution**:
+This is a shell issue. The shell does "quote removal", so you need to study how quotes behave in the shell. Single quotes can't be nested nor escaped. You have to end the single quoted string to insert a single quote. sed '/exec/i \sed -i '\''s@date.timezone.*@'\''"date.timezone = $TZ"'\''@'\'' $PHP_INI_DIR/conf.d/symfony.ini\n'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122827/bash-sed-command-with-sed-itself-as-replacement-quotes-not-outputted
+
+---
+
+#### 5569. How do I configure users on my ubuntu system without shell and execute only one command?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash | Score: 0 | Views: 345 | Answers: 1 | Created: 2023-02-12
+
+**解决方案 / Solution**:
+you just create your script as you said and place it in the user's home directory path(create the user with adduser command). So for you case I written your script in shell-command.sh file. #!/bin/bash echo -n "Tell me your name: " read resp echo $resp make the script executable. chmod a+x shell-command.sh Open the /etc/passwd file and edit your desired user shell after his/her home directory path as below. testuser:x:1001:1001:test user,,,:/home/testuser:/home/testuser/shell-command.sh Done.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122678/how-do-i-configure-users-on-my-ubuntu-system-without-shell-and-execute-only-one
+
+---
+
+#### 5570. ansible print folder path from register variable
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ansible, ansible-playbook, devops | Score: 0 | Views: 1312 | Answers: 1 | Created: 2023-02-10
+
+**解决方案 / Solution**:
+Q: "Print just the path of a register variable." A: The declaration below gives you what you want my_dirs: "{{ folders_info.results|json_query('[].files[].path') }}" Example Given the tree for testing shell> tree /tmp/test /tmp/test ├── usr │ └── bin │ └── dosepsbin └── var ├── db ├── lib │ └── dkms │ ├── test1 │ │ └── log │ ├── test2 │ │ └── log │ └── test3 │ └── log ├── local └── log 15 directories, 0 files The playbook shell> cat pb.yml - hosts: localhost become: true vars: my_dirs: "{{ folders_info.results|json_query('[].files[].path') }}" tasks: - name: find directories find: paths: "{{ item }}" recurse: true file_type: directory use_regex: true patterns: - '.*log.*' - '.*sbin.*' loop: - /tmp/test/var - /tmp/test/usr register: folders_info - debug: var: my_dirs gives shell> ansible-playbook pb.yml PLAY [localhost] ****************************************************************************************************************************************************************************** TASK [find directories] *********************************************************************************************************************************************************************** ok: [localhost] => (item=/tmp/test/var) ok: [localhost] => (item=/tmp/test/usr) TASK [debug] ********************************************************************************************************************************************************************************** ok: [localhost] => my_dirs: - /tmp/test/var/log - /tmp/test/var/lib/dkms/test1/log - /tmp/test/var/lib/dkms/test2/log - /tmp/test/var/lib/dkms/test3/log - /tmp/test/usr/bin/dosepsbin PLAY RECAP ************************************************************************************************************************************************************************************ localhost: ok=2 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122522/ansible-print-folder-path-from-register-variable
+
+---
+
+#### 5571. Odd behavior of bash array
+
+**问题描述 / Problem Description**:
+Tags: bash, regex, html, text, parsing | Score: 0 | Views: 208 | Answers: 1 | Created: 2023-01-27
+
+**解决方案 / Solution**:
+Took me a while to get back. If you don't declare it as an associative array then it's a numerically-indexed array for which the index part is treated as an arithmetic expression. In an arithmetic expression, commas separate sub-expressions and the return value is the result of the last subexpression. a[0,1]=x is the same as a[1]=x a[0,1]=foo a[1,1]=bar declare -p a # => declare -a a=([1]="bar") For an associative array, the index is a string. What you're missing is declare -A arrayname declare -A aCDATA aCDATA[0,1]=foo aCDATA[1,1]=bar declare -p aCDATA # => declare -A aCDATA=([0,1]="foo" [1,1]="bar" )
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121306/odd-behavior-of-bash-array
+
+---
+
+#### 5572. How can I verify if time is set correctly on server in my bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash, date, clock-synchronization | Score: 0 | Views: 665 | Answers: 1 | Created: 2023-01-12
+
+**解决方案 / Solution**:
+You can use command in Linux: date +%s and in Windows (PowerShell) Get-Date -UFormat %s to get epoch time . Those numbers can be easy compared. P.S. For Windows you may need to strip the number to integer like this: $t3 = (Get-Date -UFormat %s).split(',')[0] echo $t3 N.B. Here comma , is my decimal number delimiter. Depend of your language you may need to change it. This command will give you Epoch time from external source (to compare with your machines) curl -s "http://worldtimeapi.org/api/timezone/Europe/Rome" |jq '.unixtime' Feel free to change your timezone
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1120095/how-can-i-verify-if-time-is-set-correctly-on-server-in-my-bash-script
+
+---
+
+#### 5573. How to use gpg without --keyserver (which is deprecated too, just like apt-key)
+
+**问题描述 / Problem Description**:
+Tags: debian, bash, gpg | Score: 0 | Views: 1689 | Answers: 1 | Created: 2023-01-10
+
+**解决方案 / Solution**:
+Read further, as the sentence on the gpg(1) continues... --keyserver name This option is deprecated - please use the --keyserver in ‘ dirmngr.conf ’ instead. If you are running GnuPG with sudo i.e. as root , you should configure it in /root/.gnupg/dirmngr.conf , otherwise in ~/.gnupg/dirmngr.conf : keyserver hkps://keyserver.ubuntu.com no-use-tor The additional no-use-tor prevents GnuPG from trying to use Tor for the key retrieval, which is its default operation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119887/how-to-use-gpg-without-keyserver-which-is-deprecated-too-just-like-apt-key
+
+---
+
+#### 5574. bash heredoc and code block
+
+**问题描述 / Problem Description**:
+Tags: bash, heredoc | Score: 0 | Views: 838 | Answers: 1 | Created: 2023-01-07
+
+**解决方案 / Solution**:
+I believe that the problem is in the line containing (( . This double bracket has a special meaning in bash. Your script works for me in Linux if I separate the parentheses into separate lines. #!/usr/bin/env bash echo Start ( ( cat <<XEOF Some text (in parenthness too) Another text without them XEOF ) &2>1 )|tee log.txt echo Stop exit 0
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119676/bash-heredoc-and-code-block
+
+---
+
+#### 5575. Bash loop through dates
+
+**问题描述 / Problem Description**:
+Tags: bash, postgresql, shell-scripting | Score: 0 | Views: 913 | Answers: 1 | Created: 2023-01-05
+
+**解决方案 / Solution**:
+don't know if I understood the question right but you could do something like that: #!/bin/bash start=2016-01-01 end=2022-01-01 while ! [[ $start > $end ]]; do DATEBEGIN="$start" start=$(date -d "$DATEBEGIN + 1 Month" +%F) DATEEND=$(date -d "$start - 1 Day" +%F) DATEMONTH=$(date -d "$DATEBEGIN" +%Y-%m) echo "Copy data to /mnt/bigstorage/samples-$DATEMONTH.csv file, please wait..." psql postgresql://XXX:XXX@localhost/XXX << EOF COPY (SELECT * FROM sample WHERE timestamp >= '$DATEBEGIN' AND timestamp <= '$DATEEND') TO '/mnt/bigstorage/backup/samples$DATEMONTH.csv' DELIMITER ',' CSV; EOF done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119524/bash-loop-through-dates
+
+---
+
+#### 5576. Unable to delete file in Centos
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, bash | Score: 0 | Views: 516 | Answers: 2 | Created: 2022-12-29
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119068/unable-to-delete-file-in-centos
+
+---
+
+#### 5577. Way to know the current shell in a given terminal
+
+**问题描述 / Problem Description**:
+Tags: unix, shell | Score: 0 | Views: 317 | Answers: 1 | Created: 2022-12-27
+
+**解决方案 / Solution**:
+You can use environment variables to get the current shell and the shell for the user that is logged in! echo $0 - Displays the shell that is currently in use. echo $SHELL - Displays the shell for the user currently logged in. NOTE: You can use the printenv command to look at all the env variables
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118897/way-to-know-the-current-shell-in-a-given-terminal
+
+---
+
+#### 5578. i want to restrict all commands for user except ssh command
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, bash | Score: 0 | Views: 1622 | Answers: 1 | Created: 2022-12-25
+
+**解决方案 / Solution**:
+There are a few different approaches you can take to achieve this. Here are a few options: Use the bash shell's built-in restricted mode: You can start a user's shell in restricted mode by running bash -r or rbash. This will prevent the user from executing most commands, including changing directories, setting environment variables, and running commands with /bin/sh. However, the user will still be able to run commands that are built into the bash shell, such as cd, echo, and exit. Use the bash shell's alias command: You can use the alias command to define custom commands that the user is allowed to run. For example, you could create an alias for ssh like this: alias ssh='/usr/bin/ssh' This will allow the user to run the ssh command, but they will not be able to run any other commands. Use the bash shell's command built-in: The command built-in allows you to run a command as if it were being run from the command line, rather than being run as a function or built-in. You can use this to allow the user to run specific commands, while still preventing them from running other commands. For example: command ssh This will allow the user to run the ssh command, but they will not be able to run any other commands. Use the bash shell's enable built-in: The enable built-in allows you to enable or disable specific shell built-ins or commands. You can use this to allow the user to run specific commands, while still preventing them from running other commands. For example: enable -n ssh This will disable the ssh command, so the user will not be able to run it. Use the bash shell's export command: You can use the export command to set environment variables that the user is not allowed to change. For example: export PATH=/usr/bin:/usr/sbin This will set the user's PATH environment variable to only include the /usr/bin and /usr/sbin directories, so they will only be able to run commands that are located in those directories. Use a custom shell: You can create a custom shell that only allows the user to run specific commands. For example, you could create a shell script called ssh-only that looks like this: #!/bin/bash # Check if the first argument is "ssh" if [ "$1" == "ssh" ]; then # If it is, run the ssh command /usr/bin/ssh "$@" else # If it's not, print an error message echo "Command not allowed" fi Then, set the user's shell to /path/to/ssh-only using the chsh command. This will allow the user to run the ssh command, but they will not be able to run any other commands.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118800/i-want-to-restrict-all-commands-for-user-except-ssh-command
+
+---
+
+#### 5579. Fswatch observing folder for new files error from the example doc
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting | Score: 0 | Views: 171 | Answers: 1 | Created: 2022-12-13
+
+**解决方案 / Solution**:
+do must be preceded by a line break or a ; . I suggest to remove \ after event .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117965/fswatch-observing-folder-for-new-files-error-from-the-example-doc
+
+---
+
+#### 5580. is my crontab syntax invalid?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, cron | Score: 0 | Views: 207 | Answers: 1 | Created: 2022-12-08
+
+**解决方案 / Solution**:
+if you work with 2 bash session, you must not only save the file with nano, but close it, only then is the crontab added. when executing the build.sh I must first cd into that directory otherwise error: $ ./code/rehlds/build.sh --compiler=gcc --jobs=4 CMake Error: The source directory "/home/cs2" does not appear to contain CMakeLists.txt. Specify --help for usage, or press the help button on the CMake GUI. make: *** No targets specified and no makefile found. Stop. I found that out by manually executing this command correct command: 10 4 * * * cd ./code/rehlds && rm -rf ./build && ./build.sh --compiler=gcc --jobs=4 > /dev/null 2>&1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117565/is-my-crontab-syntax-invalid
+
+---
+
+#### 5581. How to make timeout(1) behave in cron like it behaves in interactive shell
+
+**问题描述 / Problem Description**:
+Tags: cron, shell, process, coreutils | Score: 0 | Views: 553 | Answers: 2 | Created: 2022-11-25
+
+**解决方案 / Solution**:
+Due to the double quotes, $? is being expanded before the bash command is invoked. It is being replaced by the exit status of the previous command (which was the first exit $? ) A quick demo bash -c 'exit 42' bash -c "timeout 1 sleep 2; echo $?" # => 42 The solution is to use single quotes so that the current interactive bash process does not expand the variable bash -c 'timeout 1 sleep 2; echo $?' # => 124
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1116597/how-to-make-timeout1-behave-in-cron-like-it-behaves-in-interactive-shell
+
+---
+
+#### 5582. Bash script buildscript error. Line 20: syntax error near unexpected token 'fi'
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 2692 | Answers: 1 | Created: 2022-11-18
+
+**解决方案 / Solution**:
+in the middle replace this : fi else echo "deployment failed" by : else echo "deployment failed" fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1116036/bash-script-buildscript-error-line-20-syntax-error-near-unexpected-token-fi
+
+---
+
+#### 5583. Setup Apache Docker container to keep running after executing php shell CMD
+
+**问题描述 / Problem Description**:
+Tags: apache-2.4, docker, shell, shell-scripting, docker-compose | Score: 0 | Views: 3562 | Answers: 1 | Created: 2022-11-17
+
+**解决方案 / Solution**:
+Ok got a working solution now. First of all, the reason for: [core:warn] [pid 10] AH00111: Config variable ${APACHE_RUN_DIR} is not defined was that I used the wrong command tool to run apache in the foreground. using apache2ctl instead of apache2 did the job (in apache2 , apache's environment variables seemed to be unavailable). Next, the final contents of my start.sh are: #!/bin/sh wait-for-it.sh db:3306 --strict --timeout=30 -- php init.php && apache2ctl -D FOREGROUND Now there's an additional thing I've added, as you see. docker-compose starts containers simultaneously (see this , section "No connections until MariaDB init completes"). When you thus start the container of the present application on a machine which did not have the mariadb image pulled yet, it is very likely that you will try to execute init.php , by which you attempt to connect to your db , without your db container actually being fully initialized. This again results in the beloved SQLSTATE[HY000] [2002] Connection refused error. Docker itself mentions the wait-for-it solution as a workaround, which is why I've used it. All it does in the code shown above is: check during max 30 seconds if the address db:3306 is available. if it becomes available within that time, execute everything after -- . if it does not become available within that time, interrupt the execution (which is when your container initialization would fail). For a stricter approach to this, you could also code within your init.php to re-attempt to connect to your DB for max x times after waiting for an interval of 5s if the connection fails; and that would do the job too. Everything's fully working now!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115913/setup-apache-docker-container-to-keep-running-after-executing-php-shell-cmd
+
+---
+
+#### 5584. How to Make the IP Address Appear as Part of Bash Prompt?
+
+**问题描述 / Problem Description**:
+Tags: bash, hostname, bashrc, prompt | Score: 0 | Views: 1335 | Answers: 1 | Created: 2022-11-10
+
+**解决方案 / Solution**:
+Letting your prompt actually derive that IP-address is, as far as I know, rather more difficult. Bash does not provide a ready-made variable to use for that according to the list with special characters here . I think the easiest is to simply hardcode the IP-address you want to see in your prompt definition: export PS1='\u@52.120.94.72:\w\$' where \u , \$ and \w are some of those special characters that get expanded by your bash shell according to the definitions from here : \u The username of the current user. \w The value of the PWD shell variable ( $PWD ), with $HOME abbreviated with a tilde ~ (uses the $PROMPT_DIRTRIM variable). \$ If the effective uid is 0, # , otherwise $ . With the additional escapes in the example you quoted: export PS1='\[\033[0;32m\]\u@52.120.94.72:\[\033[36m\]\w\[\033[0m\]\$' you get a prompt formatted with ANSI escape sequences/codes that instruct the terminal program you're using to apply specific formatting and colouring. See https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences for a detailed overview. You could of course rely on external helper to derive your IP, such as query the instance meta data URI : MY_IP=$(curl http://169.254.169.254/latest/meta-data/public-ipv4) export PS1='\u@$MY_IP:\w\$'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115307/how-to-make-the-ip-address-appear-as-part-of-bash-prompt
+
+---
+
+#### 5585. Using Crontab to run a shell script with SSH
+
+**问题描述 / Problem Description**:
+Tags: ssh, amazon-ec2, cron, shell | Score: 0 | Views: 956 | Answers: 1 | Created: 2022-10-31
+
+**解决方案 / Solution**:
+auth=`find /tmp -user $LOGNAME -type s -name "*agent*" -print >/dev/null` SSH_AUTH_SOCK=$auth export SSH_AUTH_SOCK It looks like you're relying on a forwarded ssh-agent connection for the private key / passphrase. That appears to be what creates the dependancy on you keeping an interactive login session open or establishing one before the batch job runs. How to avoid that dependancy? Typically one sets up a dedicated ssh key-pair without a passphrase to be used by batch jobs. You instruct the batch job to use that particular private key with an ssh -i /path/to/id_rsa.batch ... Like always you copy the public key and add it to the remote ˜/.ssh/authorized_keys but for security you make use of the often ignored options field to add restrictions to what is allowed by connections authenticating with that particular key pair. Add the for example the restrictions: no-port-forwarding no-X11-forwarding , no-agent-forwarding , no-pty , from=IP-address and/or others. See authorized_keys file format description in https://www.freebsd.org/cgi/man.cgi?sshd(8) for their meaning cat ~/.ssh/authorized_keys from=10.9.8.7 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCB... comments start here no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE... other comment
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114424/using-crontab-to-run-a-shell-script-with-ssh
+
+---
+
+#### 5586. Shell script - Syntax error: end of file unexpected on Debian 11
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 0 | Views: 702 | Answers: 1 | Created: 2022-10-27
+
+**解决方案 / Solution**:
+I'm guessing some changes were made between dash 0.5.7-4 (Debian 8.11) and dash 0.5.11-git+20200708... (Debian 11) that have affected how end tokens and terminating a sub-shell. Debian symlinks /bin/sh to /bin/dash since before Jessie (Debian 8) I think. Try adding a LF after the '!' to move the closing ')' to the next line. I got this from shellcheck.net Line 20: !) ^-- SC1119 (error): Add a linefeed between end token and terminating ')'.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114169/shell-script-syntax-error-end-of-file-unexpected-on-debian-11
+
+---
+
+#### 5587. What does 799 mean in chown command for Docker volume access?
+
+**问题描述 / Problem Description**:
+Tags: docker, bash, chown | Score: 0 | Views: 901 | Answers: 2 | Created: 2022-09-27
+
+**解决方案 / Solution**:
+The number has no special meaning. It's just a number the author of the image thingsboard/tb-postgres picked to use as uid inside the container. $ docker run --rm -it thingsboard/tb-postgres id uid=799(thingsboard) gid=799(thingsboard) groups=799(thingsboard) You do the chown so the user inside the container can write to it. not really relevant, but to end the discussion in the comment: This is the second layer of the original docker image: RUN /bin/sh -c apt-get update && apt-get upgrade --yes && apt-get autoremove && apt-get install -y --no-install-recommends procps && apt-get clean && rm -rf /var/lib/apt/lists/* && addgroup --system thingsboard --gid=799 && adduser --quiet --system --uid=799 --ingroup thingsboard --quiet --disabled-login --disabled-password --no-create-home -gecos "Thingsboard application" thingsboard Highlight by me. The uid/gid are inherited from a base image.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1111674/what-does-799-mean-in-chown-command-for-docker-volume-access
+
+---
+
+#### 5588. Script Need to send mail if condition dont match
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, expect | Score: 0 | Views: 129 | Answers: 1 | Created: 2022-09-23
+
+**解决方案 / Solution**:
+If you only want to perform an action for the EST Service then you can grep for that specifically. tail -f fileout | stdbuf -oL grep "not running" | grep "EST Service" | xargs -l -i mailx -s {} -r "from@xyz.com" "to@xyz.com"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1111417/script-need-to-send-mail-if-condition-dont-match
+
+---
+
+#### 5589. Filter tcpdump by hostname using wildcard/regex with verbose output
+
+**问题描述 / Problem Description**:
+Tags: bash, linux-networking, tcpdump | Score: 0 | Views: 7682 | Answers: 1 | Created: 2022-08-19
+
+**解决方案 / Solution**:
+So, in the end, I've found out that whether you use -v or -vvv, (correct me if I am wrong) there will be always just one additional line, and so you can do this: tcpdump -v -i bond0 -c 200 -Z root udp port 514 | grep server-*.com -A 1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108569/filter-tcpdump-by-hostname-using-wildcard-regex-with-verbose-output
+
+---
+
+#### 5590. Why Does Bash Report the Increment Error as an Error?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 75 | Answers: 1 | Created: 2022-08-08
+
+**解决方案 / Solution**:
+After some continued searching, this is the answer. https://unix.stackexchange.com/questions/146773/why-bash-increment-n-0n-return-error This is beyond confusing, I'm very surprised this makes sense.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107708/why-does-bash-report-the-increment-error-as-an-error
+
+---
+
+#### 5591. Get outputs from jq specific line
+
+**问题描述 / Problem Description**:
+Tags: shell, aws-cli, jq | Score: 0 | Views: 1557 | Answers: 2 | Created: 2022-08-05
+
+**解决方案 / Solution**:
+.subnet is not an array, so the [] is not necessary. jq -r '.subnet.subnetid' This works for me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107470/get-outputs-from-jq-specific-line
+
+---
+
+#### 5592. Bash - How to continue executing script after 'exec' or 'source' finishes running another script?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 2063 | Answers: 1 | Created: 2022-08-01
+
+**解决方案 / Solution**:
+You need to replace this line: exec PVEDiscordDark.sh install with this ./PVEDiscordDark.sh install You do not need exec , just run the script
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107139/bash-how-to-continue-executing-script-after-exec-or-source-finishes-runnin
+
+---
+
+#### 5593. How to check if an rpm is completely installed on centos?
+
+**问题描述 / Problem Description**:
+Tags: centos, bash, rpm | Score: 0 | Views: 307 | Answers: 1 | Created: 2022-08-01
+
+**解决方案 / Solution**:
+AFAIK In the RPM world the %post script is considered to execute after the package has been installed. At the point the contents of the package have been copied to their location on disk and RPM database has been updated and dependent tools such as yum and dnf consider the package "installed". That is why by convention the %post script can't fail (or should never result in an exit code other than 0 ) See the packaging guidelines Non-zero exit codes from scriptlets can break installs/upgrades/erases such that no further actions will be taken for that package in a transaction (see Ordering), which may for example prevent an old version of a package from being erased on upgrades, leaving behind duplicate rpmdb entries and possibly stale, unowned files on the filesystem. One solution for when you want to know if the package is installed correctly, is to add a %verifyscript section that can confirm if the %post script did the right thing(s) and run rpm --verify [package]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107098/how-to-check-if-an-rpm-is-completely-installed-on-centos
+
+---
+
+#### 5594. Default method to suppress "Connection to xxx closed." when use ssh -t?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash | Score: 0 | Views: 583 | Answers: 1 | Created: 2022-07-27
+
+**解决方案 / Solution**:
+The message is sent to stderr. ssh -t 10.192.244.104 -- pwd 2>/dev/null
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1106722/default-method-to-suppress-connection-to-xxx-closed-when-use-ssh-t
+
+---
+
+#### 5595. Interupt signal when running interactive tty
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 180 | Answers: 1 | Created: 2022-07-19
+
+**解决方案 / Solution**:
+If you want to catch when the user hits Ctrl-C then you need to use the SIGINT signal. trap exit SIGINT This will execute the exit command (which, hopefully, you've defined somewhere else in your script) when the user hits Ctrl-C. Also, avoid using exit as your command name as it's easy to catch a conflict with the built-in exit command to define the exit status of your script. ➜ ~ cat test.sh #!/bin/bash function script_exit() { let ctrlc_count++ echo if [[ $ctrlc_count == 1 ]]; then echo "Once more and I quit." else echo "That's it. I quit." exit 1 fi } trap script_exit SIGINT read -p "your text: " opsi echo $opsi ➜ ~ bash test.sh your text: ^C Once more and I quit. ^C That's it. I quit.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105983/interupt-signal-when-running-interactive-tty
+
+---
+
+#### 5596. Changing default values for LDAP loginShell and homeDirectory
+
+**问题描述 / Problem Description**:
+Tags: linux, ldap, nfs, openldap, shell | Score: 0 | Views: 688 | Answers: 1 | Created: 2022-07-16
+
+**解决方案 / Solution**:
+If you use sssd to manage users, then you can update the /etc/sssd/sssd.conf file to overwrite the defaults. For example to enforce /bin/false to all users except root: [sssd] domains = LDAP services = nss config_file_version = 2 [nss] filter_users = ['root'] filter_groups = ['root'] override_homedir = /tmp override_shell = /bin/false
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105747/changing-default-values-for-ldap-loginshell-and-homedirectory
+
+---
+
+#### 5597. Virsh command hangs when script runs in the background
+
+**问题描述 / Problem Description**:
+Tags: bash, kvm-virtualization, libvirt, virsh, rocky-linux | Score: 0 | Views: 1816 | Answers: 3 | Created: 2022-07-15
+
+**解决方案 / Solution**:
+I guess that this happens because of pkttyagent. This example shows, how the process is hanging in the background: # virsh list & [1] 2121077 # [1]+ Stopped virsh list # ps f 2039251 pts/11 S 0:00 \_ -bash 2121077 pts/11 Tl 0:00 \_ virsh list 2121079 pts/11 Tl 0:00 | \_ /usr/bin/pkttyagent --process 2121077 --notify-fd 4 --fallback 2121760 pts/11 R+ 0:00 \_ ps f If the process is put into the foreground again, it finishes: # fg virsh list Id Name State -------------------------- 2 docker running 3 test running # I found the following unresolved issue: https://bugzilla.redhat.com/show_bug.cgi?id=1726714 , which describes that this happens because of the signal SIGTTOU. A description if this signal can be found here: https://www.gnu.org/software/libc/manual/html_node/Job-Control-Signals.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105733/virsh-command-hangs-when-script-runs-in-the-background
+
+---
+
+#### 5598. How to wait for supervisorctl to finish reloading?
+
+**问题描述 / Problem Description**:
+Tags: bash, supervisord | Score: 0 | Views: 464 | Answers: 1 | Created: 2022-07-07
+
+**解决方案 / Solution**:
+Usually the quick and dirty solution to these situations is to use an until loop to check for something that myprocess does to confirm that everything is ready. Let's assume myprocess opens a socket on port 80 after all the pre-flight checks are successful, then using netcat to try connecting to port 80 should do the trick: supervisorctl reload myprocess until nc -z somehost 80 &> /dev/null do sleep 1 done some other commands
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105027/how-to-wait-for-supervisorctl-to-finish-reloading
+
+---
+
+#### 5599. htpasswd sets incorrect password when the password has special characters
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, password, htpasswd | Score: 0 | Views: 1630 | Answers: 1 | Created: 2022-06-15
+
+**解决方案 / Solution**:
+Posting in hope of helping someone. It turns out the problem was not with the script. The csv file was not clean. The csv was generated from Excel in a Windows environment. The file had dos line endings - \r I added the line below before the line that calls htpasswd password="${password/$'\r'/}" Here's the working code: CSV=intranet_users.csv OLDIFS=$IFS IFS=',' [ ! -f $CSV ] && { echo "$CSV file not found"; exit 99; } while read name dept username password do if [ "${username}" != '#N/A' ] && [ "${username}" != 0 ]; then password="${password/$'\r'/}" echo "Resetting password for $username to: $password" htpasswd -b /path/to/passwdFile $username ${password} fi done < $CSV IFS=$OLDIFS
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103358/htpasswd-sets-incorrect-password-when-the-password-has-special-characters
+
+---
+
+#### 5600. checking httpd syntax from within a shell script
+
+**问题描述 / Problem Description**:
+Tags: httpd, shell | Score: 0 | Views: 271 | Answers: 1 | Created: 2022-06-03
+
+**解决方案 / Solution**:
+If I recall correctly (I don't have a machine with Apache installed in front of me right now), the output text from that command is going to stderr , not stdout . You need to redirect the output in order to capture it, like this: r=$(httpd -t 2>&1) The above will collect both stdout and stderr output. If you want only stderr without stdout , you need to do something like this: r=$(httpd -t 2>&1 > /dev/null) However, you don't actually need the text output in order to do what you want. If all you need to know is whether there is an error or not, you should just check the return code. If the configuration is error free it will return 0, if there is an error it will return some other number. From the man page for httpd : Run syntax tests for configuration files only. The program immediately exits after these syntax parsing tests with either a return code of 0 (Syntax OK) or return code not equal to 0 (Syntax Error).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102428/checking-httpd-syntax-from-within-a-shell-script
+
+---
+
+#### 5601. Which process/script/application if squeezing my files every 5 minutes?
+
+**问题描述 / Problem Description**:
+Tags: bash, cron, centos6, synchronization | Score: 0 | Views: 56 | Answers: 1 | Created: 2022-05-30
+
+**解决方案 / Solution**:
+Typically cron logs which jobs get executed so check the cron log files, usually found in /var/log Then there are usually three classes of cron jobs: personal cron specifications ; made by/for a specific user with crontab -e ; those usually get stored in /var/spool/cron system cron jobs, which get started from /etc/crontab . In addition to the batches specified there that crontab usually also runs the /etc/cron.[daily|hourly|weekly|monthly] scripts. most current cron implementations support the /etc/cron.d/ drop-in directory to create batches. Those batches can have custom schedule and support the user column also found in /etc/crontab to specify a specific user ID that will be used to execute the batch. When you can't find a cron job: Slowly becoming slightly more common: systemd timers. Check with systemctl list-timers --all There are quite a few other job schedulers as well, wikipedia has a whole bunch: https://en.wikipedia.org/wiki/List_of_job_scheduler_software Consider that the job is not running on the system where that folder lives, maybe the job is triggered remotely. Check for logins to identify the user.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102078/which-process-script-application-if-squeezing-my-files-every-5-minutes
+
+---
+
+#### 5602. cronjob does not stop postgres
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, postgresql | Score: 0 | Views: 488 | Answers: 1 | Created: 2022-05-29
+
+**解决方案 / Solution**:
+I changed the script to use service postgresql stop and I was able to to get more STDOUT + /usr/sbin/service postgresql stop /usr/sbin/service: 169: /usr/sbin/service: systemctl: not found /usr/sbin/service: 182: /usr/sbin/service: sed: not found /usr/sbin/service: 187: exec: systemctl: not found For example, to fix, /usr/sbin/service: 169: /usr/sbin/service: systemctl: not found I opened /usr/sbin/service with vim on line 169 169 if ! systemctl --quiet is-active multi-user.target and inserted the whole path 169 if ! /bin/systemctl --quiet is-active multi-user.target I did it for the others too, now the cron works.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102001/cronjob-does-not-stop-postgres
+
+---
+
+#### 5603. Pipe into command stored in bash variable
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, pipe, variables | Score: 0 | Views: 2020 | Answers: 1 | Created: 2022-05-27
+
+**解决方案 / Solution**:
+use an alias. alias g='grep "something"' echo "something and another thing" | g
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101892/pipe-into-command-stored-in-bash-variable
+
+---
+
+#### 5604. df output does not change after deletion of a 41G file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, df | Score: 0 | Views: 976 | Answers: 5 | Created: 2022-05-26
+
+**解决方案 / Solution**:
+The deleted file is probably kept open by some process. You can use lsof | grep WS19.qcow2 to discover the affected process; killing it will release the consumed space. Be aware that the most likely candidate is a running virtual machine. After killing it, all its data will be gone forever (as you already deleted its backing file).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101843/df-output-does-not-change-after-deletion-of-a-41g-file
+
+---
+
+#### 5605. Not able to use for loop using bash in Jenkins pipeline
+
+**问题描述 / Problem Description**:
+Tags: bash, jenkins | Score: 0 | Views: 8469 | Answers: 1 | Created: 2022-05-20
+
+**解决方案 / Solution**:
+The first i doesn't have any special characters, so doesn't need to be escaped at all. The correct way to escape a literal $ is \$ . You have an extraneous bracket after $i . Try: sh "for i in ${jsonObj.ns}; do kubectl create namespace \$i; done"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101405/not-able-to-use-for-loop-using-bash-in-jenkins-pipeline
+
+---
+
+#### 5606. "ping" fails when running from google- cloud on specific IP
+
+**问题描述 / Problem Description**:
+Tags: networking, bash, google-cloud-platform, ip, ping | Score: 0 | Views: 253 | Answers: 1 | Created: 2022-05-18
+
+**解决方案 / Solution**:
+Checked from my computer and i got the same error, there is no ping result. Also i cant reach the Server on another common Port. Can you reach the site with curl from your computer ? curl www.fastlane.co.il Try to check the Server for any firewall rules or IP Filters, when the connection works on your computer some policies blocking other connections.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101196/ping-fails-when-running-from-google-cloud-on-specific-ip
+
+---
+
+#### 5607. Selecting cli menu options from my bash script
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 773 | Answers: 1 | Created: 2022-05-18
+
+**解决方案 / Solution**:
+You could just pipe a text with the answers to the command: printf "bot\nn\nJava" | ./questions.sh Or use expect like so: #!/usr/bin/expect -f set timeout -1 spawn ../4/questions.sh expect "Your name: " send -- "expect\n" expect "Are you human?\r y/n: " send -- "n\r" expect "What is your favorite programming language?\r Your answer: " send -- "Java\r" expect eof more info here https://www.baeldung.com/linux/bash-interactive-prompts
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101192/selecting-cli-menu-options-from-my-bash-script
+
+---
+
+#### 5608. how to extract a certain field from standard output with cut?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, pipe | Score: 0 | Views: 1345 | Answers: 2 | Created: 2022-05-17
+
+**解决方案 / Solution**:
+Are you sure this out is tab delimited? That would be quite unusual in a linux environment - whitespace delimiting is far more common. Use one of the " awk " family of tools instead: $ podman image ls | gawk '/youtube-dl/{print $3;}' 2d4e37c4d609
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101137/how-to-extract-a-certain-field-from-standard-output-with-cut
+
+---
+
+#### 5609. docker run script at start, commit changes and remove script mounted
+
+**问题描述 / Problem Description**:
+Tags: linux, docker, bash, mount | Score: 0 | Views: 1132 | Answers: 1 | Created: 2022-04-29
+
+**解决方案 / Solution**:
+You could try with the --rm flag. By default a container’s file system persists even after the container exits. This makes debugging a lot easier (since you can inspect the final state) and you retain all your data by default. But if you are running short-term foreground processes, these container file systems can really pile up. If instead you’d like Docker to automatically clean up the container and remove the file system when the container exits, you can add the --rm flag Docker run reference
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1099786/docker-run-script-at-start-commit-changes-and-remove-script-mounted
+
+---
+
+#### 5610. trying to generate ssh keys of the vm but getting the error option requires an argument -- P
+
+**问题描述 / Problem Description**:
+Tags: ssh, virtual-machines, shell | Score: 0 | Views: 784 | Answers: 1 | Created: 2022-04-25
+
+**解决方案 / Solution**:
+May be use single quote instead of double. Or Vise Versa for the Password field. 'chmod 700 /home/adminuser/.ssh && ssh-keygen -t rsa -f /home/adminuser/.ssh/id_rsa -P "" ' or "chmod 700 /home/adminuser/.ssh && ssh-keygen -t rsa -f /home/adminuser/.ssh/id_rsa -P '' "
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1099404/trying-to-generate-ssh-keys-of-the-vm-but-getting-the-error-option-requires-an-a
+
+---
+
+#### 5611. How to get the email I entered on Proxmox VE setup in the shell?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, proxmox | Score: 0 | Views: 1708 | Answers: 2 | Created: 2022-04-12
+
+**解决方案 / Solution**:
+I think you can find your installation email address here : cat /etc/pve/user.cfg To get the email address : EMAIL=`cat /etc/pve/user.cfg | awk '{split($0,a,":"); print a[7]}'` echo $EMAIL # test@test.com Tested on PVE6 and PVE7, but note I've only one user (root). In the GUI, you can find it under Datacenter / Permissions / Users, double-click on your user, and voila !
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098432/how-to-get-the-email-i-entered-on-proxmox-ve-setup-in-the-shell
+
+---
+
+#### 5612. Variables on set-hostname and mv command in shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, hostname, shell-scripting, mv | Score: 0 | Views: 601 | Answers: 1 | Created: 2022-04-08
+
+**解决方案 / Solution**:
+Shell variables are NOT expanded in single-quoted ' text. Use double quotes " for strings with shell variables.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098111/variables-on-set-hostname-and-mv-command-in-shell-script
+
+---
+
+#### 5613. Why this java processes are not ending once cronjob has executed in the AIX server?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, cron, java, aix | Score: 0 | Views: 339 | Answers: 1 | Created: 2022-04-05
+
+**解决方案 / Solution**:
+I first made a comment but I think writing a proper answer will be more meaningful. The first thing I would check is logs: is there anything meaningful in run.log ? (and perhaps you could append to that file instead of overwriting it every time the job runs) Then check the user/group under which the process is running - is it different when it runs from cron than when you run it yourself? A very useful technique for figuring out where a Java/JVM app is stuck is making a thread dump - there are several ways do it: my favorite tool is jcmd - you can simply do jcmd <pid> Thread.print > thread.$(date "+%F_%H-%M-%S").dump another quick way is to send SIGQUIT signal: kill -3 <pid> in this case, the thread dump will be printed to the stdout of the process Having a thread dump, you can examine the application threads and see where they are stuck. You can also try strace to capture system calls made by the app - that can tell you what it's doing too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097895/why-this-java-processes-are-not-ending-once-cronjob-has-executed-in-the-aix-serv
+
+---
+
+#### 5614. Continue statement doesn't work as it should - bash
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, scripting, expect | Score: 0 | Views: 736 | Answers: 1 | Created: 2022-03-30
+
+**解决方案 / Solution**:
+As suggested in a comment, i did drop the continue and instead of multiple elif i just did some more if statements : for machine in cat ${liste} | grep -v \# do echo "." ping -c1 ${machine} 2>&1 >/dev/null if [ $? -eq 0 ] then echo ${machine} >> ${pingok} ssh -o BatchMode=yes ${machine} uname -a &> $verifssh 2>&1 echo $? > ${exitcode} if grep -q "255" "$exitcode" then cut -c 15-74 $verifssh > $verifssh2 if grep "ication failed." "$verifssh2" then expect ${scriptexpectknownhosts} ${machine} 2>&1 >/dev/null fi ssh -o BatchMode=yes ${machine} uname -a &> $verifssh 2>&1 cut -c 15-74 $verifssh > $verifssh2 if grep "Permission denied (publickey,password,keyboard-interactive)." "$verifssh2" then expect ${scriptexpectknownhosts} ${machine} 2>&1 >/dev/null echo "${machine} -> Probleme de cle ssh (demande un mdp)" >> "${sshnok}" fi ssh -o BatchMode=yes ${machine} uname -a &> $verifssh 2>&1 echo $? > ${exitcode} if grep -q "0" "$exitcode" then echo "${machine}" >> ${sshok} fi elif grep -q "0" "$exitcode" then echo "${machine}" >> ${sshok} elif grep -q "1" "$exitcode" then echo "wtf 1" fi else echo "${machine}" >> "${pingnok}" fi done Thank you very much for all the answers !
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097377/continue-statement-doesnt-work-as-it-should-bash
+
+---
+
+#### 5615. Send signal to process and wait x seconds for it to disappear
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 0 | Views: 351 | Answers: 1 | Created: 2022-03-23
+
+**解决方案 / Solution**:
+Arghh I was hoping for an option on the kill command or something that would do this trick for me. The best solution I've found so far is: kill -$SIGNAL_NAME $PID; timeout ${WAIT_TIME}s tail -f /dev/null --pid $PID which works fine assuming that the tail command supports the --pid option. However, this is a prime example of one of (many) Linux command constructs that requires a significant amount of time and investigation to understand what it really does. In 1 months time I will have forgotten why the above works. :-( The killall --wait command seems to be pretty close to a build-in solution to the problem except that it doesn't accept PID as an argument.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1096837/send-signal-to-process-and-wait-x-seconds-for-it-to-disappear
+
+---
+
+#### 5616. Is it possible to connect to a user session and see its output in Linux?
+
+**问题描述 / Problem Description**:
+Tags: centos, bash, command-line-interface, centos9 | Score: 0 | Views: 853 | Answers: 2 | Created: 2022-03-21
+
+**解决方案 / Solution**:
+Applications that run 24/7 are generally considered services in my opinion. Usually services on Linux get started by a process supervisor, typically at boot time, such as by the common default systemd or one of the alternatives listed here: https://en.wikipedia.org/wiki/Process_supervision That supervisor can can then perform service/application restarts when needed and capture and log standard/error output so it won't be lost. As a sysadmin you can then interact with either the logs or the process supervisor to check the status of your service. Personally I prefer that services don't rely on the supervisor for all their logging, in other words that they do not only log to stdout and stderr . Services should only generate (copious amounts of) standard output (write to the console) when started with a (debug) switch and/or when throwing critical errors and dying. During normal operations services should have the option to maintain their own log file(s) to record requests, statistics, errors, statistics and other relevant events. But that may be overkill for your application.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1096650/is-it-possible-to-connect-to-a-user-session-and-see-its-output-in-linux
+
+---
+
+#### 5617. Possible attack on my vserver - outgoing tcp/ip connection
+
+**问题描述 / Problem Description**:
+Tags: bash, centos7, systemctl | Score: 0 | Views: 120 | Answers: 1 | Created: 2022-03-17
+
+**解决方案 / Solution**:
+Depending on your existing firewall setup, it may differ. But commonly you should already have iptables firewall installed. (Note: if you have firewalld , it can't block an IP address, see here for disable it and switch to iptables) The first thing you need to know is that you can't block a request to a domain, but you can block using IP instead. To find the IP, use nslookup . Say nslookup blackcat.ro . You will get list of IPs, you need to block them all. You may see either IPv4 and IPv6 addresses, use one of commands below to block. iptables -A OUTPUT -p tcp -d <IPv4> -j DROP ip6tables -A OUTPUT -p tcp -d <IPv6> -j DROP When done, save your current config so it's not lost. /sbin/service iptables save /sbin/service ip6tables save
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1096370/possible-attack-on-my-vserver-outgoing-tcp-ip-connection
+
+---
+
+#### 5618. export new env params without outputting to terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, export | Score: 0 | Views: 702 | Answers: 1 | Created: 2022-03-08
+
+**解决方案 / Solution**:
+[Expanded from comments:] The ddt command was sending its output to standard error (stderr) rather than standard output (stdout), and $( ) only captures stdout. There are basically two ways to fix this: The better option is to fix ddt so it sends the variable values to stdout rather than stderr. If that's not possible, you can add 2>&1 after the ddt command, to redirect its stderr to stdout (and allow $( ) to capture it). But this runs the risk that if ddt prints any actual errors, it'll go ahead and try to export those messages, with unpredictable (and probably undesirable) results. See the question "Output not captured in bash variable" on Stackoverflow .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1095672/export-new-env-params-without-outputting-to-terminal
+
+---
+
+#### 5619. Run commands that run in a shell as a script
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, shell-scripting, escaping | Score: 0 | Views: 1206 | Answers: 1 | Created: 2022-02-25
+
+**解决方案 / Solution**:
+I would lay dollars to doughnuts that you edited this file on or from a Windows machine. Linux uses \x0a (ASCII code 10) to separate lines within a file (or script). Windows uses the combination of \x0d ("Carriage_Return", ASCII code 13) and \x0a ("Line Feed", ASCII 10) to do the same job. Give a Windows-edited file to a Linux machine and it sees every single line as having an extraneous \x0d on the end. Get yourself a decent Windows editor ( NotePad++ is free and very highly recommended) or learn how to use vi . Sure, it has its own learning curve, but some of its capabilities might surprise you!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1094756/run-commands-that-run-in-a-shell-as-a-script
+
+---
+
+#### 5620. Using awk with column number in a bash script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-scripting, awk | Score: 0 | Views: 563 | Answers: 1 | Created: 2022-02-20
+
+**解决方案 / Solution**:
+It is not necessary, but it is the rule of thumb to explicitly declare variables you want to pass from your env to awk awk -v myvar="dport=$1" '($3 == "tcp") && ($6 != "TIME_WAIT") && ($10 == myvar)' /proc/net/nf_conntrack
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1094235/using-awk-with-column-number-in-a-bash-script
+
+---
+
+#### 5621. How monitor open files and kill its PID by shell script?
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-scripting | Score: 0 | Views: 269 | Answers: 1 | Created: 2022-02-11
+
+**解决方案 / Solution**:
+For those who want to how my situation went. #!/bin/bash count=$(lsof | awk '/uwsgi/ {print $1,$2}' | uniq -c | sort -r | head -1 | awk '{print $1}') PROCESS_ID=$(lsof | awk '/uwsgi/ {print $1,$2}' | uniq -c | sort -r | head -1 | awk '{print $2}') expectLimit=1000 echo "open socket:$count" echo "pid:$PROCESS_ID" if [[ ${count} -gt ${expectLimit} ]] then echo "Found uwsgi exceeds limit :${expectLimit}" kill -9 $PROCESS_ID else echo "" #nothing to do. fi This one works for me. Thanks.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093391/how-monitor-open-files-and-kill-its-pid-by-shell-script
+
+---
+
+#### 5622. iptables list line numbers script iptables-save -bash: number-rules: command not found
+
+**问题描述 / Problem Description**:
+Tags: linux, iptables, firewall, bash | Score: 0 | Views: 731 | Answers: 1 | Created: 2022-02-04
+
+**解决方案 / Solution**:
+You need to make sure number-rules is executable and then need to use ./ to execute it from the current working directory, as that's not in your path - so iptables -S | ./number-rules
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1092687/iptables-list-line-numbers-script-iptables-save-bash-number-rules-command-not
+
+---
+
+#### 5623. Automating GDB memory dumps
+
+**问题描述 / Problem Description**:
+Tags: memory, shell, shell-scripting, dump, gdb | Score: 0 | Views: 525 | Answers: 1 | Created: 2022-01-13
+
+**解决方案 / Solution**:
+Create a file in /usr/local/bin and make it executable afterwards: #!/bin/sh if [ $# -eq 3 ]; then tf=$(tempfile) echo -e "dump memory dump_file ${2} ${3}" > $tf gdb -p $1 -x $tf else echo "Pass me a PID MEM_START MEM_END" fi If you name it memory-dump-gdb or mdg for short then you make it executable like so: chmod 750 /usr/local/bin/mdg Then you can run " mdg 1234 0x00621000 0x00622000 "
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089908/automating-gdb-memory-dumps
+
+---
+
+#### 5624. how to use BASH to convert the path to the home folder in the variable bash, in quotation marks into a working one
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, terraform | Score: 0 | Views: 838 | Answers: 1 | Created: 2022-01-12
+
+**解决方案 / Solution**:
+Use ${HOME} instead of ~ , it is more portable. See this answer for details.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089809/how-to-use-bash-to-convert-the-path-to-the-home-folder-in-the-variable-bash-in
+
+---
+
+#### 5625. How to convert BASH script to DASH or other solutions?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting | Score: 0 | Views: 887 | Answers: 1 | Created: 2022-01-06
+
+**解决方案 / Solution**:
+There are two different function syntaxes in bash/ksh/zsh. You're using the ksh style: function name { … } . The other form is just name() { … } and is the form introduced late in the original Bourne shell. It really is pointless to do: if cmd; then true else false fi Apart from turning all non-zero return statuses to 1, this is just the same as just running cmd . And with the function reduced to just one line, you really don't need a function. I'd also be tempted to use cmp -s instead of diff or to simply do the copy unconditionally. And don't use ls to test for the existence of a file. Either the test command or the [ is intended for that purpose: [ -e /etc/rsyslog.d/xdr.conf ] . That does exist in external form if you have sudo .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089232/how-to-convert-bash-script-to-dash-or-other-solutions
+
+---
+
+#### 5626. Running mysqldump via SSH on separate mysql server
+
+**问题描述 / Problem Description**:
+Tags: mysql, ssh, bash, ssh-tunnel | Score: 0 | Views: 1105 | Answers: 2 | Created: 2021-12-04
+
+**解决方案 / Solution**:
+The -L parameter for SSH has three values. From your example: 3312 is the local port SSH listens to on the computer where you execute SSH localhost is the destination host that remote SSH daemon opens the tunnel to 3306 is the destination port that repote SSH daemon opens the tunnel to In order to get mysqldump connect to DB server's port 3306 via localhost port 3312, the SSH command needs to be: ssh -f -L 3312:<dbserver ip>:3306 user@web-server -i ~/.ssh/key-file -c cipher -N
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1085361/running-mysqldump-via-ssh-on-separate-mysql-server
+
+---
+
+#### 5627. Remote deployment of a script on linux
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, openldap, deployment, remote | Score: 0 | Views: 230 | Answers: 1 | Created: 2021-12-01
+
+**解决方案 / Solution**:
+can I somehow run 1 bash script on multiple computers simultaneously Yes Would it be possible? Yes. I would likely use ansible for this job but there are other configration management tools that you could use.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1085041/remote-deployment-of-a-script-on-linux
+
+---
+
+#### 5628. How to use a screen with bash script?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, cron | Score: 0 | Views: 352 | Answers: 1 | Created: 2021-11-29
+
+**解决方案 / Solution**:
+There is something wrong about how you ran the script from the crontab . As per your issue description it looks the crontab try to use the bash command as the script. For example: To schedule the backup script to run every night at 2am, open the root user's crontab : $ sudo crontab -e then enter the following: 0 2 * * * /etc/scripts/backup.sh For example, if you have a script that needs to create a file from the dmesg command once a day at 1pm, your entry looks like the following: 0 13 * * * /usr/bin/dmesg > ~/dmesg.txt Try to removing the bash from the line in crontab
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1084851/how-to-use-a-screen-with-bash-script
+
+---
+
+#### 5629. Removing old files from home directories
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find, md5 | Score: 0 | Views: 161 | Answers: 1 | Created: 2021-11-24
+
+**解决方案 / Solution**:
+You can remove files from the home directories with the following command : find /home/*/ -mtime +15 -type f -delete And easily put it in a cron to do it automatically.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1084464/removing-old-files-from-home-directories
+
+---
+
+#### 5630. Ansible playbook rebooting the server , wait till reboot complete
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, ansible, shell-scripting, ansible-playbook | Score: 0 | Views: 1896 | Answers: 1 | Created: 2021-11-18
+
+**解决方案 / Solution**:
+You should use wait_for_connection instead. tasks: - name: Execute the script shell: bash testscript.sh args: chdir: /home/ubuntu - name: wait wait_for_connection: delay: 10 I'd advise to do this in a task, not a handler. The handler is only executed after all tasks have been finished, so if you have tasks following the task that executes the reboot they will be tried before the playbook even starts to wait. Alternatively, use the reboot module , which does this automatically.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1083911/ansible-playbook-rebooting-the-server-wait-till-reboot-complete
+
+---
+
+#### 5631. Locate and Move files to a destination
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 59 | Answers: 1 | Created: 2021-11-17
+
+**解决方案 / Solution**:
+I prefer to create the folder before the loop if it's the same (optimisations are everywhere :D ) So, I have the following (tested on Ubuntu 18.04) : mkdir -p <destination_folder> for i in $(find <source_folder> -name '<pattern>') do mv $i <destination_folder> done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1083838/locate-and-move-files-to-a-destination
+
+---
+
+#### 5632. rsync over multiplexed SSH connection and multiple jumphosts
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, rsync | Score: 0 | Views: 2131 | Answers: 1 | Created: 2021-11-16
+
+**解决方案 / Solution**:
+There were some issues with dynamically linked libraries. # apt update && apt upgrade on remote machine solved the issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1083667/rsync-over-multiplexed-ssh-connection-and-multiple-jumphosts
+
+---
+
+#### 5633. script on changing directory ownership via bash
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 63 | Answers: 1 | Created: 2021-10-29
+
+**解决方案 / Solution**:
+The syntax of find is a bit tricky, especially with -exec . Try: find /mnt/mailfolder/ -maxdepth 1 -type d -mtime +150 -printf "%P\n" -exec chown -R oracle:oinstall "{}" \;
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1082077/script-on-changing-directory-ownership-via-bash
+
+---
+
+#### 5634. finding docker images with tag and name
+
+**问题描述 / Problem Description**:
+Tags: linux, unix, shell, shell-scripting | Score: 0 | Views: 518 | Answers: 1 | Created: 2021-10-26
+
+**解决方案 / Solution**:
+As documentation say , you can simply use the <image>:<tag> syntax. For exemple : docker save -o fedora-latest.tar fedora:latest You can compress it with gzip with the gollowing in order to get a .tar.gz image : docker save myimage:latest | gzip > myimage_latest.tar.gz
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081775/finding-docker-images-with-tag-and-name
+
+---
+
+#### 5635. systemd script do not set correct file permissions at boot time
+
+**问题描述 / Problem Description**:
+Tags: bash, systemd, file-permissions | Score: 0 | Views: 1030 | Answers: 1 | Created: 2021-10-25
+
+**解决方案 / Solution**:
+The command sudo systemctl start setpermissions.service starts the service immediately in the current session. To enable a service at boot, you need to run the following command: sudo systemctl enable setpermissions.service You can also enable and start the service in one command: sudo systemctl enable --now setpermissions.service
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081592/systemd-script-do-not-set-correct-file-permissions-at-boot-time
+
+---
+
+#### 5636. In Linux/bash how can I prevent asynchronous commands?
+
+**问题描述 / Problem Description**:
+Tags: bash, process, background, fork | Score: 0 | Views: 388 | Answers: 1 | Created: 2021-10-14
+
+**解决方案 / Solution**:
+One possible way is to create a copy of these scripts and remove the constructions with make some command to run in background. Be warned you may do not want to remove all & automatically because you may mess commands like: command && command The other possible way is to ask for permission to edit the scripts (instead of copy them)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1080515/in-linux-bash-how-can-i-prevent-asynchronous-commands
+
+---
+
+#### 5637. Add curl command to function for bash profile
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 691 | Answers: 1 | Created: 2021-10-14
+
+**解决方案 / Solution**:
+Edit the file ".bashrc" of your user : /root/.bashrc for root user /home/user/.bashrc for user You have examples of alias in it :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1080514/add-curl-command-to-function-for-bash-profile
+
+---
+
+#### 5638. Postfix After-Queue Content Filter full example
+
+**问题描述 / Problem Description**:
+Tags: linux, postfix, bash, smtp, shell | Score: 0 | Views: 1287 | Answers: 1 | Created: 2021-10-06
+
+**解决方案 / Solution**:
+I use my own filter. I used Perl script instead of shell. #!/usr/bin/perl use 5.010; use strict; use warnings; my $str = do { local $/; <STDIN> }; my $recipient = $ARGV[0]; my $filename = '/etc/postfix/myfilters/data.txt'; open(my $fh, '>', $filename) or die "Could not open file '$filename' $!"; print $fh $str; close $fh; ========================= Use exec to sendmail exec(" SENDMAIL $toemail > $bodyfile "); If your filter doesn't match do nothing it gets quarantined.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1079723/postfix-after-queue-content-filter-full-example
+
+---
+
+#### 5639. Programatically get full path to binary in powershell (which, where, Get-Command)
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, bash, scripting, path | Score: 0 | Views: 5586 | Answers: 1 | Created: 2021-09-25
+
+**解决方案 / Solution**:
+For the example command provided by the OP question: PS C:\Users\user> Get-Command gpg.exe CommandType Name Version Source ----------- ---- ------- ------ Application gpg.exe 2.2.28.... C:\Program Files (x86)\Gpg4win\..\GnuP... PS C:\Users\user> You can extract the "Source" field with the following syntax PS C:\Users\user> $(Get-Command gpg.exe).Source C:\Program Files (x86)\Gpg4win\..\GnuPG\bin\gpg.exe Then you can also store it to a variable and execute it with an ampersand (&) preceding the variable PS C:\Users\user> $path=$(Get-Command gpg.exe).Source PS C:\Users\user> echo $path C:\Program Files (x86)\Gpg4win\..\GnuPG\bin\gpg.exe PS C:\Users\user> & $path gpg: WARNING: no command supplied. Trying to guess what you mean ... gpg: Go ahead and type your message ...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078662/programatically-get-full-path-to-binary-in-powershell-which-where-get-command
+
+---
+
+#### 5640. Why is this bash script triggering so many false positives for monitoring memory usage?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, centos7 | Score: 0 | Views: 121 | Answers: 1 | Created: 2021-09-22
+
+**解决方案 / Solution**:
+3 problems: You are calling free twice: once for triggering the warning, once for sending the report. The numbers will have changed in between. Store the output (in a variable), and retrieve the same data twice. "Used" memory should approach the total amount of memory, and "free" should approach zero, always. If you have unused memory, that means you have wasted resources that should, while not allocated, at least serve as caches. I recommend you change the memused line that currently compares the second against the third column ( $3/$2 ) to instead compare the first against the last column. Your method of message delivery seems to lose formatting. Might want to check your delivery method (slack.sh) to render your input in monospace, or replace tab&spaces with appropriate spacers. This is how the table should look like: total used free shared buff/cache available Mem: 2048 345 1580 27 122 1674 Swap: 2048 0 2048 The five numbers start with the "total" memory, and if anything, the last number is the one you should care about.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1078356/why-is-this-bash-script-triggering-so-many-false-positives-for-monitoring-memory
+
+---
+
+#### 5641. Default solutions for very limited remote linux shells
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 0 | Views: 183 | Answers: 2 | Created: 2021-09-18
+
+**解决方案 / Solution**:
+There is a neat trick in authorized_keys file, you can use command option to define command to be run on login, identified by a key, so if your N commands are static - they you can define them on the server and voila. It will not restrict the network, only launching the command. It will look something like that in authorized_keys file: command = "date" ssh-rsa AAAA You can find more information about this tutorial To prevent the user from network access - you can use SELinux or other similar software, also you could write a eBPF hook to allow exactly what you want.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1077942/default-solutions-for-very-limited-remote-linux-shells
+
+---
+
+#### 5642. command that cannot work in background (asterisk)
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, asterisk, background-process | Score: 0 | Views: 317 | Answers: 1 | Created: 2021-09-16
+
+**解决方案 / Solution**:
+The problem here is likely sudo. Try becoming root first (ie. "su - root" and then run the command. When I run it as root, it works without issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1077821/command-that-cannot-work-in-background-asterisk
+
+---
+
+#### 5643. How to search for a file when 'find' is not an option
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find | Score: 0 | Views: 117 | Answers: 1 | Created: 2021-09-16
+
+**解决方案 / Solution**:
+ls -R | grep filename is a little cleaner, but without find , options are limited.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1077806/how-to-search-for-a-file-when-find-is-not-an-option
+
+---
+
+#### 5644. cURL POST bash script adds single quotes to variables with spaces
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, curl, shell-scripting | Score: 0 | Views: 7208 | Answers: 3 | Created: 2021-09-16
+
+**解决方案 / Solution**:
+You're using unquoted variables in bash and look surprised that word splitting happens. This is what's supposed to happen. You also have non-standard quotes in your question that I'll assume are because of automatic formatting. But note that " is not the same as ” and ' is not the same as ʼ . curl -X POST -H 'Content-type: application/json' --data '{"text":"’$slacksitename': '$ip' '$record_name' DDNS updated.”}’ $slackuri In your command line, you're quoting {"text":" and appending the unquoted content of $slacksitename to it, which means word splitting will take place on it. The end result will be 3 separate arguments: {"text":"123 , Main , St . The third argument will be concatenated with : which will itself be concatenated with the content of the unquoted $ip so we're any spaces present in that variable, the same would happen. This is essentially bash 101, quote your variables unless you know what you're doing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1077726/curl-post-bash-script-adds-single-quotes-to-variables-with-spaces
+
+---
+
+#### 5645. How to know in my network which computers have the local administrator account active
+
+**问题描述 / Problem Description**:
+Tags: powershell, shell, command | Score: 0 | Views: 688 | Answers: 1 | Created: 2021-09-15
+
+**解决方案 / Solution**:
+I see a few problems here. On non domain joined computers there must be an administratror account active even if it's not the Account named Administrator. On non domain joined computers you'd need an account to run your query In general you can only run a query when the computer is online, so you'd need to schedule your queries to run regularly and even then you couldn't be garantueed to get them all because you can't garantuee the PCs will be online in the timeframe you run your query. That being said On a Windows 10 PC you can run the following to get the account named Administrator and wether it's enabled: Get-LocalUser -Name Administrator | Select-Object Name, Enabled You could use this command in a script like the following one to get the status of a computer. [pscustomobject]@{ Computername = $env:Computername AdminEnabled = Get-LocalUser -Name "Administrator" | Select-Object -ExpandProperty Enabled } | Export-CSV -Path "\\a\share\where\you\can\put\this\$($env:Computername).csv" You could then run the above command as a startup script in the domain (Be aware that the shared folded would need to be writable for the "Domain Computers" group) On PCs outside of the domain you're a bit out of luck. If you have an account which can log on remotely on a number of systems you could use something like this: $APSCredentialWhichHasTheRightsToDoThis = Get-Credential Invoke-Command -Computername "RemotePC" -ScriptBlock {Get-LocalUser -Name "Administrator"} -Credential $APSCredentialWhichHasTheRightsToDoThis to get the status of the remote computer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1077684/how-to-know-in-my-network-which-computers-have-the-local-administrator-account-a
+
+---
+
+#### 5646. I Have a problems with qoutes in my bash script
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, aliases | Score: 0 | Views: 507 | Answers: 1 | Created: 2021-08-21
+
+**解决方案 / Solution**:
+It looks to me like the basic problem is that quotes don't nest the way you're using them in the ssh command. That is, in this command: sshpass -p (pass) ssh -t (user)@$1 " sudo sqlite3 config.sqlite "SELECT * FROM settings" |grep "SALE_POINT" | awk '{sub(/SALE_POINT/,"\033[1mPunkt Sprzedaży:\033[0m")}1' && exit " The " in "SELECT * FROM... is actually a close quote (matching the open quote on the previous line), so rather than SELECT * FROM settings being inside two layers of quotes it's actually completely unquoted (and as a result, the * will expand to a list of files in the local directory, causing who-knows-what chaos). As djdomi said in a comment, you can see what the arguments to ssh look like after the shell has parsed them (and therefore what'll be sent to the remote system to be executed) by replacing the ssh command with echo . When I run this: echo " sudo sqlite3 config.sqlite "SELECT * FROM settings" |grep "SALE_POINT" | awk '{sub(/SALE_POINT/,"\033[1mPunkt Sprzedaży:\033[0m")}1' && exit " it prints: sudo sqlite3 config.sqlite SELECT file1.txt file2.jpg FROM settings |grep SALE_POINT | awk '{sub(/SALE_POINT/,033[1mPunkt Sprzedaży:033[0m)}1' && exit The most direct solution is to escape the inner double-quotes, so the local shell will pass them through to the shell on the remote system: sshpass -p (pass) ssh -t (user)@$1 " sudo sqlite3 config.sqlite \"SELECT * FROM settings\" |grep \"SALE_POINT\" | awk '{sub(/SALE_POINT/,\"\033[1mPunkt Sprzedaży:\033[0m\")}1' && exit " Note tht you must escape all of them, even the ones inside the single-quoted awk command, because those single-quotes don't mean anything to the local shell. ... but I'd recommend simplifying this a bit. I don't see any reason that grep and awk need to be run on the remote system rather than the local system (and the exit command isn't doing anything useful, since it's going to exit anyway). So you could move the grep and awk commands outside the ssh command: sshpass -p (pass) ssh -t (user)@$1 "sudo sqlite3 config.sqlite \"SELECT * FROM settings\"" | grep "SALE_POINT" | awk '{sub(/SALE_POINT/,"\033[1mPunkt Sprzedaży:\033[0m")}1' And I always hate to see grep used before awk , when awk is perfectly capable of doing everything itself: sshpass -p (pass) ssh -t (user)@$1 "sudo sqlite3 config.sqlite \"SELECT * FROM settings\"" | awk '/SALE_POINT/ {sub(/SALE_POINT/,"\033[1mPunkt Sprzedaży:\033[0m"); print}' I'd also recommend double-quoting all variable references (e.g. ping "$1" -c 5 instead of just ping $1 -c 5 ), and replacing this: ping $1 -c 5 if [ $? -eq 0 ]; then with just: if ping "$1" -c 5; then And finally I'd recommend printf instead of echo -e -- it's way more predictable. printf is a bit more complex to use -- the first argument is a format string that tells it how to print any remaining arguments, and it doesn't automatically add a newline at the end (so add one explicitly with \n ) -- but it's less likely to break because of some change in the shell's version of echo (as happened to me a while back...). So use e.g. printf "\e[31;43m%s\e[0m \e[101m%s1\e[0m\n" "Sprawdzanie Ustawień" "IP $1" Oh, and I always recommend running your scripts through shellcheck.net -- it'll point out many common mistakes and bad practices.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1075251/i-have-a-problems-with-qoutes-in-my-bash-script
+
+---
+
+#### 5647. VPN tunnel IP is 172.16.4.2, how can I reverse shell to my local machine, from a box on an attached subnet?
+
+**问题描述 / Problem Description**:
+Tags: security, vpn, bash, subnet | Score: 0 | Views: 1262 | Answers: 1 | Created: 2021-08-13
+
+**解决方案 / Solution**:
+A tunnel has two ends not just 172.16.4.2. If that's your IP on that net interface/link and you want to connect to it from the other side, then you can just connect to it as long as this interface is routed to on the other end and is not blocked by some firewalls etc. Of course, you need an SSH listening on this interface. Answers to questions in the comment below: The arrow shows a p2p connection with two ends. The first one is local. It looks like a loop to itself, but may still work despite this misconfiguration (or lack of configuration), as it's a p2p and the destination IP is not so important. (See What is the “destination address” for a TAP/TUN device? on SO.) An interface is not a connection. Interfaces can be connected and then there's a connection. A tunnel is somewhat abstract. It suggests going through something (like another pair of interfaces). So the base (VPN) connection carries the second. Ethernet connection is not an interface. You can have an ethernet interface and connect two ethernet interfaces. To squeeze your mind a little more, a VPN can also emulate a switch not a router. See Should I use tap or tun for openvpn? .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1074504/vpn-tunnel-ip-is-172-16-4-2-how-can-i-reverse-shell-to-my-local-machine-from-a
+
+---
+
+#### 5648. CGroup not mounted on Fedora 34
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, fedora, selinux, cgroup | Score: 0 | Views: 1448 | Answers: 1 | Created: 2021-08-09
+
+**解决方案 / Solution**:
+Answering my own question. After banging my head for 4 days I have found a solution. The actual issue is Fedora specifically and other Linux systems generally have moved from CGroup v1 to v2 by default as a unified subsystem. So was in my case, I was trying to set up CGroup V1 controllers whereas my Fedora 34 OS was running CGroup V2, which was causing my CGConfig service to crash upon restart. The solution was to move to CGroup V1 and to do this run the following command Add systemd.unified_cgroup_hierarchy=0 to the default GRUB config with sed. sudo sed -i '/^GRUB_CMDLINE_LINUX/ s/"$/ systemd.unified_cgroup_hierarchy=0"/' /etc/default/grub Now rebuild your GRUB config. If you’re using BIOS boot then it’s this. sudo grub2-mkconfig -o /boot/grub2/grub.cfg If you’re running EFI, then it’s this. sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg Now reboot and make sure Docker can start! The original solution was posted on this blog. https://blog.christophersmart.com/2019/12/15/enabling-docker-in-fedora-31-by-reverting-to-cgroups-v1/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1073957/cgroup-not-mounted-on-fedora-34
+
+---
+
+#### 5649. How log commands executed by user
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, logging, audit | Score: 0 | Views: 2211 | Answers: 2 | Created: 2021-08-08
+
+**解决方案 / Solution**:
+You can log all the activity from the users with the psacct package . The psacct package contains several utilities for monitoring process activities, including ac , lastcomm , accton and sa . The ac command displays statistics about how long users have been logged on. The lastcomm command displays information about previous executed commands. The accton command turns process accounting on or off. The sa command summarizes information about previously executed commands. Installation on RHEL/Fedora/CentOS # yum install psacct Installation on Ubuntu/Debian $ sudo apt-get install acct OR # apt-get install acct In RHEL type the following commands to create /va/account/pacct file and start the service # chkconfig psacct on # /etc/init.d/psacct start In Suse type the following commands to create /va/account/pacct file and start the service # chkconfig acct on # /etc/init.d/acct start Display commands executed by USER $ lastcomm [USER]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1073882/how-log-commands-executed-by-user
+
+---
+
+#### 5650. Restart services on multiple remote servers securely
+
+**问题描述 / Problem Description**:
+Tags: ssh, security, bash, scripting, expect | Score: 0 | Views: 845 | Answers: 1 | Created: 2021-07-28
+
+**解决方案 / Solution**:
+As Glenn suggested in the comments, the right way to do this was to use stty : # grab the password stty -echo send_user -- "Password for $user@$host: " expect_user -re "(.*)\n" send_user "\n" stty echo set pass $expect_out(1,string) #... later send -- "$pass\r"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1070880/restart-services-on-multiple-remote-servers-securely
+
+---
+
+#### 5651. How to get the permission of `/run/user/1000/gvfs` when system is newly installed?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, debian, permissions, bash | Score: 0 | Views: 7252 | Answers: 1 | Created: 2021-07-23
+
+**解决方案 / Solution**:
+It is not recommended to make changes to the gvfs daemon to allow the root user to access the '/run/user/1000/gvfs' directory, as it can cause security and data integrity issues. However, if you still want to do it for testing purposes on an old computer you do not care whether computer and operating system stop working, then for the sake of breaking it Here YOU GO: First need to configure th gvfs daemon configuration to allow user access: 1.Edit the gvfsd.conf file located in the /etc/gvfs/ directory. This file contains the configuration settings for the gvfs daemon. Locate the line that starts with "#user" and remove the "#" character. This will enable the user configuration settings. Add a new line with the user "root" to the file, this way: #user to--> user root Save the changes and restart the gvfs daemon. On most systems, this can be done by running the following command: sudo systemctl restart gvfs-daemon You should now be able to access the '/run/user/1000/gvfs' directory as the root user. However, as mentioned before this is NOT RECOMMENDED, there is a reason why access is only for the gvfs. It's not a good practice, especially in a.. anywhere and mostly .. NEVER EVER.. It's always better to leave this as it is. as they say: "Hack the planet!" If this work put a comment here with you other computer/laptop you did not F*ck up -chears-
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1070473/how-to-get-the-permission-of-run-user-1000-gvfs-when-system-is-newly-installe
+
+---
+
+#### 5652. Active Directory + NFS: Why is domain user's uidNumber, gidNumber not shown by `id` command in Windows?
+
+**问题描述 / Problem Description**:
+Tags: active-directory, bash, nfs, windows-command-prompt, identity-management | Score: 0 | Views: 2677 | Answers: 1 | Created: 2021-07-22
+
+**解决方案 / Solution**:
+Well, that was easy - since my users' uidNumber and gidNumber were set already, all I had to do was enable AD identity mapping on the client. I opened an admin command prompt, started powershell (ver 7), and ran cmdlet: PS C:\Windows\System32> Set-NfsMappingStore -EnableADLookup $True -ADDomainName "example.com" To confirm, I retrieved the settings: PS C:\Windows\System32> Get-NfsMappingStore UNMServer : UNMLookupEnabled : False ADDomain : example.com ADLookupEnabled : True LdapServer : LdapNamingContext : LdapLookupEnabled : False PasswdFileLookupEnabled : False Now, the moment of truth - mounting the user's NFS share (this was user-level cmd shell in ConEmu): happyuser@WINSLAVE C:\Users\happyuser $ mount \\solarisbeast\mnt\hallofzmirrors\trough\happyuser\all-pascal-projects n: Looks good so far, no identity settings necessary (not that they'd be possible with NFS v3 anyway, but still...) Left some tracks... happyuser@WINSLAVE N:\ $ echo 'this is from winslave' > 'test-from-winslave.txt' Then, checked identity of file creator on server: admin@solarisbeast:/mnt/hallofzmirrors/trough/happyuser/all-pascal-projects% ls -la total 88 drwxr-xr-x 6 happyuser DomainUsers 8 Jul 22 22:19 . drwxr-x--- 35 happyuser DomainUsers 56 Jul 21 11:37 .. drwxr-xr-x 2 happyuser DomainUsers 3 Jul 21 11:37 .$EXTEND -rw-r--r-- 1 happyuser DomainUsers 25 Jul 21 13:04 test-from-bloatedwharfrat.txt -rwxr-xr-x 1 happyuser DomainUsers 25 Jul 22 22:02 test-from-winslave.txt Looks pretty good on the identity front. Let's hope it's stable! Mounting NFS exports from a Unix server in Windows Update: I mentioned it quickly, but for anyone who missed it, the NFS mount should be performed as user who owns share in a non-elevated cmd. This may seem unintuitive to people more familiar with NFS mounts on Posix systems, where only root (i.e. sudo) has permission to invoke mount command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1070276/active-directory-nfs-why-is-domain-users-uidnumber-gidnumber-not-shown-by
+
+---
+
+#### 5653. Bash: improper function/usage of command basename
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-scripting | Score: 0 | Views: 576 | Answers: 1 | Created: 2021-06-28
+
+**解决方案 / Solution**:
+That's because the shell sees the `basename {}` or $(basename {}) before it handles the arguments to find and processes them. Write a script that does what you want and run it with -exec instead. find ... -exec myscript {} \; where myscript is something like #! /bin/sh mv "$1" /dst/dir/$(basename "$1").log You can invoke the shell for each file found, so the following is also possible: find ... -exec bash -c 'mv "$1" "$(basename "$1").log"' -- {} \; But test such a solution properly to be sure quoting and escaping works correctly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1068044/bash-improper-function-usage-of-command-basename
+
+---
+
+#### 5654. grep -P negative lookahead does not work
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 3328 | Answers: 1 | Created: 2021-06-02
+
+**解决方案 / Solution**:
+Bash is expanding the arguments before passing them to grep. Either escape the ! or use single quotes. grep -oP '[A-Za-z0-9]{6}-[A-Za-z0-9]{6}-[A-Za-z0-9]{2} =>.*@(?!gmail.com)' /var/log/exim/main.log-prueba or: grep -oP "[A-Za-z0-9]{6}-[A-Za-z0-9]{6}-[A-Za-z0-9]{2} =>.*@(?\!gmail.com)" /var/log/exim/main.log-prueba
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1065388/grep-p-negative-lookahead-does-not-work
+
+---
+
+#### 5655. Howto start and detach screen with user environment on startup?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-scripting, gnu-screen | Score: 0 | Views: 1019 | Answers: 2 | Created: 2021-05-31
+
+**解决方案 / Solution**:
+I think your problem here is the session-handling of bash. Bash - like any other shell interpreter - detects if it is started in the backgroud, or if it is attached to a terminal ( Interactive / Non-interactive mode ). Background is found here . My guess is, that your problems are solved by providing the -l switch to the first bash command: screen -dmS scr bash --login -c 'ytop; exec bash' The --login switch makes bash read all startup files, like /etc/profile , ~/.bash_profile , ~/.bash_login , and ~/.profile - which should contain the environmental variables you are missing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1065197/howto-start-and-detach-screen-with-user-environment-on-startup
+
+---
+
+#### 5656. Download with Wget only if new version
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, scripting, shell, shell-scripting, wget | Score: 0 | Views: 1842 | Answers: 2 | Created: 2021-05-26
+
+**解决方案 / Solution**:
+Save the "Last-Modified" header contents from the last test.zip you downloaded, and add a "If-Modified-Since" header to your next wget request using the date string you received. The server will answer with a 304 if there's no test.zip more recent. As an alternative, you could leave test.zip in the current directory, then using wget with the timestamping option (-N), will only download test.zip if the server has a newer version. Check the output of wget, if it contains "304 Not Modified" and "Omitting download", you know you may skip the version control.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1064732/download-with-wget-only-if-new-version
+
+---
+
+#### 5657. Bash - Run 'chage' Command Against Each User Account
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, user-management, user-accounts | Score: 0 | Views: 3039 | Answers: 1 | Created: 2021-05-18
+
+**解决方案 / Solution**:
+The literal answer to your question: #!/bin/bash users=$(awk -F: '{ print $1}' /etc/passwd) for value in $users do echo $value chage -l $value echo "....." echo "" done should generate output in the form of userA Last Password Change: 1/2/34 Password Expires: 1/2/34 Password Inactive: 1/2/34 ..... userB Last Password Change: 1/2/34 Password Expires: 1/2/34 Password Inactive: 1/2/34 ..... Note that the source of the information chage displays is encoded in the fields of the /etc/shadow file (expressed as the number of days since Jan 1, 1970) . Parsing that file directly might be significantly more efficient than using chage and/or other tools that convert those fields to human readable output and parsing that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063989/bash-run-chage-command-against-each-user-account
+
+---
+
+#### 5658. exec 2>&1 – execlude some command from being logged to file
+
+**问题描述 / Problem Description**:
+Tags: bash, logging, scripting, redirection, command | Score: 0 | Views: 993 | Answers: 1 | Created: 2021-05-17
+
+**解决方案 / Solution**:
+I think i figured it out, my solution is: Revert the exec command: exec 1>&2 2>&- Do the command Restore the old exec: exec 2>&1 If there are a better solution, you can tell me :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063865/exec-21-execlude-some-command-from-being-logged-to-file
+
+---
+
+#### 5659. When I run `sudo passwd` I set my password and the script exits okay. Running `sudo chsh -s /bin/bash` immediately after fails
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, passwd, sh | Score: 0 | Views: 336 | Answers: 1 | Created: 2021-05-15
+
+**解决方案 / Solution**:
+I am a dumb $ sudo passwd alexander You can now choose the new password or passphrase. A valid password should be a mix of upper and lower case letters, digits, and other characters. You can use a 12 character long password with characters from at least 3 of these 4 classes, or an 8 character long password containing characters from all the classes. An upper case letter that begins the password and a digit that ends it do not count towards the number of character classes used. A passphrase should be of at least 3 words, 16 to 40 characters long, and contain enough different characters. Alternatively, if no one else can see your terminal now, you can pick this as your password: "claw5Met8sword". Enter new password: Re-type new password: passwd: password updated successfully Followed by $ chsh -s /bin/bash
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063672/when-i-run-sudo-passwd-i-set-my-password-and-the-script-exits-okay-running-s
+
+---
+
+#### 5660. Bash-script: run another script on bottom as an other user
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, cron, scripting, root | Score: 0 | Views: 186 | Answers: 2 | Created: 2021-05-15
+
+**解决方案 / Solution**:
+I found an easy way: /sbin/runuser -l USER -c 'COMMAND' Works :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063618/bash-script-run-another-script-on-bottom-as-an-other-user
+
+---
+
+#### 5661. Simple bash syntax failing passwd
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting | Score: 0 | Views: 66 | Answers: 1 | Created: 2021-05-09
+
+**解决方案 / Solution**:
+passwd doesn't support reading password from stdin in this fashion. Furthermore, it prompts for old password (if ran as user) and twice for new password. This can of course be scripted using expect .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1063024/simple-bash-syntax-failing-passwd
+
+---
+
+#### 5662. Get total %cpu,%mem for a process including all threads or sub processes?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, command-line-interface | Score: 0 | Views: 985 | Answers: 1 | Created: 2021-05-04
+
+**解决方案 / Solution**:
+On Linux, you can isolate a command to a cgroup and get its total resource use, even if it execs other processes. For one-off commands on systemd systems, create a transient unit: systemd-run --unit=run rsync-script.sh where "run" is some descriptive name and "rsync-script.sh" is a script doing the thing. See resources by cgroup in systemd-cgtop . Actually getting numbers requires enabling resource accounting by default, see man systemd.resource-control Threads are the simple case that doesn't require fancy accounting to get. Processes report the CPU and private memory total of all their threads. Have a look at multiple threaded task groups with pidstat -t
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1062548/get-total-cpu-mem-for-a-process-including-all-threads-or-sub-processes
+
+---
+
+#### 5663. bash commands to print file name and contents
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 3056 | Answers: 2 | Created: 2021-04-19
+
+**解决方案 / Solution**:
+bash data structures are not sophisticated enough to create an array of tuples. You can create an array of strings, or an associative array. I'm assuming there are no newlines in the pathnames of the OWNERS files. # an array of OWNERS filenames mapfile -t owner_files < <(find java -name OWNERS) # an associative array mapping the filename to the contents declare -A owner_file_contents for file in "${owner_files[@]}"; do owner_file_contents["$file"]=$(<"file") done # inspect the associative array declare -p owner_file_contents Bash is very sensitive to filenames with spaces in the name, so you need to quote all the variables. Some notes: mapfile -t ary < <(some command) -- runs some command in a subshell and read the output into an array, one line per element. This cannot be done with some command | mapfile -t ary because bash runs pipeline commands in separate subshells, which means the array would be created in a subshell, therefore the array will disappear when the subshell exits. refs: mapfile command , 3.5.6 Process Substitution $(<file) is a builtin way to do $(cat file) without having to invoke an external command. Documented in 3.5.4 Command Substitution
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1060822/bash-commands-to-print-file-name-and-contents
+
+---
+
+#### 5664. Unable to open PHP script files, even though I own them and have permissions
+
+**问题描述 / Problem Description**:
+Tags: bash, selinux, rhel8, compliance | Score: 0 | Views: 621 | Answers: 1 | Created: 2021-04-18
+
+**解决方案 / Solution**:
+I finally found my answer. As part of a security audit on our web-host servers, the auditor recommended to the administrator that we follow STIG and NIST compliance standards on the servers. We didn't strictly need to follow these standards, but they are highly respected best practices for hardening machines, so it seemed like a worthy goal. During testing of the standards, no issues were discovered, and the standards were deployed on the servers. As it turns out fapolicyd is installed as part of these standards, and one of its default policies is to block user access to program files. This didn't impact the web application, but only user editing of those files. Disabling fapolicyd service allowed the user to edit files. As needed, policies can be added to allow this access all the time. For more info: http://people.redhat.com/sgrubb/fapolicyd/index.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1060719/unable-to-open-php-script-files-even-though-i-own-them-and-have-permissions
+
+---
+
+#### 5665. how to create a script shell command
+
+**问题描述 / Problem Description**:
+Tags: bash, monitoring, sudo, awstats, cpan | Score: 0 | Views: 107 | Answers: 1 | Created: 2021-04-16
+
+**解决方案 / Solution**:
+From CPAN documentation you can install a module with this generic syntax: cpan module_name [ module_name ... ] In your case: cpan Geo::IP
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1060610/how-to-create-a-script-shell-command
+
+---
+
+#### 5666. On CentOS 8 in profile.d do I need to add my script related to environment variables to both an .sh and .csh file?
+
+**问题描述 / Problem Description**:
+Tags: centos, bash, shell-scripting, environment-variables | Score: 0 | Views: 556 | Answers: 1 | Created: 2021-04-14
+
+**解决方案 / Solution**:
+It depends on the shell that is being used. .sh is for Bash . If that is the shell, then those files will be sourced and their contents will be added to users' environments. .csh is for C Shell which is an improved version of tsch . If C Shell is being used, then those files will instead be sourced and the contents added to users' environments. You can add what you have to an existing file depending on what shell you are using but the best way is to create a new file with the respective extension and add what you have. Make sure that it is readable by all users.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1060417/on-centos-8-in-profile-d-do-i-need-to-add-my-script-related-to-environment-varia
+
+---
+
+#### 5667. Piping nc to sed and evaluate datetime for each row
+
+**问题描述 / Problem Description**:
+Tags: bash, sed, pipe, text, nc | Score: 0 | Views: 1110 | Answers: 2 | Created: 2021-04-04
+
+**解决方案 / Solution**:
+I want to append current timestamp to each row of text coming (at the beginning or the end of the row, doesnt matter). This sounds very like what syslog does. You might be able to replace nc with something like pysyslog and have it capture the text on the socket and append the date.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1059355/piping-nc-to-sed-and-evaluate-datetime-for-each-row
+
+---
+
+#### 5668. Diff says file does not exists – why?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-scripting | Score: 0 | Views: 944 | Answers: 1 | Created: 2021-01-08
+
+**解决方案 / Solution**:
+Use rsync with --remove-source-files . rsync --remove-source-files "${SSH_USER}@${SSH_HOST}:$FOLDERPATH_REMOTE.tar.gz" \ "$FOLDERPATH_LOCAL.tar.gz" In response to your other questions, you need to use ${VAR} when putting the variable name in the middle of a word-- - and . are fine separators, but _ is not. echo $var.txt # same as ${var}.txt echo $var-2020.txt # same as ${var}-2020.txt echo $var_2020.txt # same as ${var_2020}.txt You should also use [ "$?" -eq 0 ] to avoid the [[ not found error- you haven't mentioned your OS, but you appear not to have bash as /bin/sh. None of this is necessary if you use rsync of course.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1049100/diff-says-file-does-not-exists-why
+
+---
+
+#### 5669. Variables (locally defined) not defined when running bash script from cron on MacOS
+
+**问题描述 / Problem Description**:
+Tags: bash, mac-osx, cron, shell | Score: 0 | Views: 88 | Answers: 1 | Created: 2021-01-08
+
+**解决方案 / Solution**:
+Thanks a lot to bitinerant and Mark Wagner for their help. After I added the error output it turned out it was a mix between missing paths and lack of permissions to access directories and read list of databases from MySQL. Thanks a lot
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1049094/variables-locally-defined-not-defined-when-running-bash-script-from-cron-on-ma
+
+---
+
+#### 5670. ping script - host down vs host not on network
+
+**问题描述 / Problem Description**:
+Tags: shell, ping | Score: 0 | Views: 423 | Answers: 1 | Created: 2020-12-07
+
+**解决方案 / Solution**:
+I modified my script as follows and this works. #!/bin/ksh # Take a list of hostnames and ping them; write any failures set -x for x in `cat hosts` do ping -c 1 $x > /dev/null 2> /dev/null pingerr=$? if [ $pingerr -eq 1 ]; then echo $x is on network but down >> badhosts fi if [ $pingerr -eq 2 ]; then echo $x is not on the network >> badhosts fi done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1045352/ping-script-host-down-vs-host-not-on-network
+
+---
+
+#### 5671. How can I lock down an SSH and/or telnet user to only run a custom shell and no other commands or programs?
+
+**问题描述 / Problem Description**:
+Tags: ssh, shell, telnet, web-services | Score: 0 | Views: 523 | Answers: 1 | Created: 2020-11-24
+
+**解决方案 / Solution**:
+It seems to me that if you use chsh to set the user's shell to your program, then add say Match User name ForceCommand . to sshd_config, you should be done. When the user logs in, whatever command they ask to run, they'll be forced to run program -c . .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1043751/how-can-i-lock-down-an-ssh-and-or-telnet-user-to-only-run-a-custom-shell-and-no
+
+---
+
+#### 5672. looking for an alternative to echo to write data to a file so it can be invoked via sudo
+
+**问题描述 / Problem Description**:
+Tags: shell, command | Score: 0 | Views: 1151 | Answers: 1 | Created: 2020-10-22
+
+**解决方案 / Solution**:
+sudo ex +'put =\"some string\"' -cwq foo.txt i.e. removing the $ which is actually a regular expression that matches the end of the buffer which is what causes the blank line to be inserted.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1039778/looking-for-an-alternative-to-echo-to-write-data-to-a-file-so-it-can-be-invoked
+
+---
+
+#### 5673. php shell_exec returns different results compared to terminal
+
+**问题描述 / Problem Description**:
+Tags: php, apache2, shell | Score: 0 | Views: 441 | Answers: 1 | Created: 2020-10-10
+
+**解决方案 / Solution**:
+I've got it! It was a default setting in php-fpm.service file: # Sets up a new /dev namespace for the executed processes and only adds API pseudo devices # such as /dev/null, /dev/zero or /dev/random (as well as the pseudo TTY subsystem) to it, # but no physical devices such as /dev/sda. PrivateDevices=true So I set it to false and suddenly I have full access to directory items. Took a whole day to find it out...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1037176/php-shell-exec-returns-different-results-compared-to-terminal
+
+---
+
+#### 5674. Script executes perfectly in command line but failing in cron
+
+**问题描述 / Problem Description**:
+Tags: cron, scripting, shell, terminal, secure | Score: 0 | Views: 493 | Answers: 1 | Created: 2020-09-15
+
+**解决方案 / Solution**:
+It looks like you did not provide a full path for $filename and the script is executed by cron with a different working directory than where you tested it. Can you reformat the script for better readability?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1033989/script-executes-perfectly-in-command-line-but-failing-in-cron
+
+---
+
+#### 5675. left outer join 2 shell output on a common key column using bash
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, awk, coreutils | Score: 0 | Views: 269 | Answers: 1 | Created: 2020-09-07
+
+**解决方案 / Solution**:
+The below produces your desired output, but without headers: awk 'NR==FNR{a[$8]=$0}FILENAME==ARGV[1]{b[$6]=$2} FILENAME==ARGV[2]{print $0,a[$6]}' <(oc get pod -lname=elasticsearch -o wide) <(curl -ks https://elasticsearch.apps.ocp.domain.com/_cat/allocation?v) | awk 'NR>1' | awk '!($14=$15="")' The part, wich is a little bit unclean is how this removes the duplicate ip address columns with 'awk '!($14=$15="")'' You might be better off with a little multiline script instead of a one liner to make this process cleaner.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1032988/left-outer-join-2-shell-output-on-a-common-key-column-using-bash
+
+---
+
+#### 5676. saving sql dump error in a file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-scripting | Score: 0 | Views: 849 | Answers: 2 | Created: 2020-08-20
+
+**解决方案 / Solution**:
+You were redirecting errors from gzip , not from mysqldupmp . Put redirection before pipe, like this: mysqldump --opt --routines --single-transaction -p$PASS -u $USER -h $HOST \ --databases $db 2>>/var/log/failedJobs/mysqlCronJob.log \ | gzip -9 > $LOCAL_DIR$db.$DAY.sql.gz
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1030870/saving-sql-dump-error-in-a-file
+
+---
+
+#### 5677. /etc/profile[278]: ulimit: 1048576: limit exceeded [Operation not permitted]
+
+**问题描述 / Problem Description**:
+Tags: linux, redhat, shell, ulimit | Score: 0 | Views: 2618 | Answers: 1 | Created: 2020-08-12
+
+**解决方案 / Solution**:
+You gave the answer in your question: you have a ulimit statement inside your /etc/profile which requires root permissions. Since this file is parsed at every login, every non-root user will see that error. Move these settings to a startup script or to /etc/sysctl.conf , if you want these settings to be active system-wide, and you're good...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1029838/etc-profile278-ulimit-1048576-limit-exceeded-operation-not-permitted
+
+---
+
+#### 5678. Linux does STDOUT | STDIN piping write data to disk?
+
+**问题描述 / Problem Description**:
+Tags: shell, zfsonlinux, pipe, stdout, stdin | Score: 0 | Views: 916 | Answers: 1 | Created: 2020-07-28
+
+**解决方案 / Solution**:
+Pipes (or the temporary file system and named FIFO pipes) do seem to write to disk not directly , as commented by Glenn Jackman above, here and here , respectively. But writing of sensitive data might occur indirectly with memory swapping (or hibernation) , possibly even more unexpectedly than with the user knowing to check for undeleted unencrypted files - unless encrypted or disabled .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1027066/linux-does-stdout-stdin-piping-write-data-to-disk
+
+---
+
+#### 5679. Assign multiple home directories to same user during useradd
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 0 | Views: 2112 | Answers: 1 | Created: 2020-07-22
+
+**解决方案 / Solution**:
+Add the user to an appropriate group. Modify file permissions or ACLs such that this group has access to only the files in question. Move the files to a directory with nothing else irrelevant in it. Not strictly necessary with suitable file permissions, which already provide access control. Set their home to (one) parent directory that contains everything they need. Set ftpd to chroot them into home.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1026239/assign-multiple-home-directories-to-same-user-during-useradd
+
+---
+
+#### 5680. Change linux shell
+
+**问题描述 / Problem Description**:
+Tags: linux, centos7, shell, terminal-server, terminal | Score: 0 | Views: 481 | Answers: 2 | Created: 2020-07-05
+
+**解决方案 / Solution**:
+It sounds like your user is missing the skeleton files, the default .bashrc , .bash_profile etc. which are normally copied into a user's home directory from /etc/skel when a user is created. You can copy these files yourself if they are missing or corrupted.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1024093/change-linux-shell
+
+---
+
+#### 5681. How to stop a running shell script if it executes some dangerous operations?
+
+**问题描述 / Problem Description**:
+Tags: scripting, shell | Score: 0 | Views: 199 | Answers: 1 | Created: 2020-07-01
+
+**解决方案 / Solution**:
+You shouldn't run untrusted third-party scripts in the first place. Filtering shell calls might be achieved when they lead to forking other binaries using AppArmor, SELinux, GrSec or other security policing tools. However pure bash can do way too much without forking for it to be enough. Don't run the script or read it before you run it. If you don't trust the third-party provider but must run it, you're left with reading it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1023547/how-to-stop-a-running-shell-script-if-it-executes-some-dangerous-operations
+
+---
+
+#### 5682. Grep messages like trash - No such file or directory
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, grep | Score: 0 | Views: 1389 | Answers: 2 | Created: 2020-06-21
+
+**解决方案 / Solution**:
+No need to pipe 'find' in 'xargs' like this. What I would do ( -r : recursive ): grep -rl "Mini Shell" . The errors are due to the fact that you have some files with spaces in file names If you want to process each files, even with special characters in file names, I recommend (using NULL byte as file separator): grep -Zrl "Mini Shell" . | xargs -I% -0 mv % /path/to/trash
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1022370/grep-messages-like-trash-no-such-file-or-directory
+
+---
+
+#### 5683. Why is technically possible for init to be a shell script?
+
+**问题描述 / Problem Description**:
+Tags: shell, init | Score: 0 | Views: 1064 | Answers: 1 | Created: 2020-06-06
+
+**解决方案 / Solution**:
+A shell based rootfs switch is typically via exec switch_root because exec does not fork . Preserves the assumption of PID 1 is init. This being Linux, of course that's far from the only way to do things. Each init system, indeed each distro, has their own packaging of initramfs. For example, systemd in initramfs.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1020287/why-is-technically-possible-for-init-to-be-a-shell-script
+
+---
+
+#### 5684. How do I issue a command only if an app is found?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, shell | Score: 0 | Views: 69 | Answers: 1 | Created: 2020-05-30
+
+**解决方案 / Solution**:
+Simply remove the exclamation mark, which means "not". So now instead of checking if the command is "not" there, we are checking if it does exist. if [ -x "$(command -v ufw)" ]; then ufw allow 80/tcp ufw allow 443/tcp fi Another option, if you want to catch it first and exit if your conditions aren't met. if ! [ -x "$(command -v ufw)" ]; then echo "Your error message here" exit # Stop execution fi # below code only runs if command exists ufw allow 80/tcp ufw allow 443/tcp
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1019296/how-do-i-issue-a-command-only-if-an-app-is-found
+
+---
+
+#### 5685. How to separate variables using awk and append it to Text file using ansible
+
+**问题描述 / Problem Description**:
+Tags: shell, ansible, perl, ansible-playbook, awk | Score: 0 | Views: 1831 | Answers: 1 | Created: 2020-05-21
+
+**解决方案 / Solution**:
+- name: slash delimited template template: src: revoke.jinja # dest is the output file dest: /tmp/revoke vars: # "variable" is the input delimited var # Split it into a list of users revokes: "{{ variable.split('/') }}" templates/revoke.jinja file contains {% for user in revokes %} REVOKE {{ user.split('_') | join(' ') }} {% endfor %}
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1018129/how-to-separate-variables-using-awk-and-append-it-to-text-file-using-ansible
+
+---
+
+#### 5686. Capture client browser console using Shell and save it to a file
+
+**问题描述 / Problem Description**:
+Tags: scripting, shell, console, javascript | Score: 0 | Views: 101 | Answers: 1 | Created: 2020-05-13
+
+**解决方案 / Solution**:
+You cannot prohibit the local Browser from visualizing its Console contents. You could use console.save to save the contents locally. If you want to somehow send those contents to Your box, you could do this possibly with additional AJAX call.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1016944/capture-client-browser-console-using-shell-and-save-it-to-a-file
+
+---
+
+#### 5687. Wich Shebang should you use in a shell sript?
+
+**问题描述 / Problem Description**:
+Tags: shell, snmp, shell-scripting, zabbix | Score: 0 | Views: 101 | Answers: 1 | Created: 2020-04-30
+
+**解决方案 / Solution**:
+#!/bin/sh uses whatever login shell the user currently has set. Most default to bash but this is not guaranteed #!/bin/bash is used for (predictably) bash scripts files with .sh suffix are somewhat deprecated and largely unnecessary - just name the script what you want without it If you're using bash, use #!/bin/bash unless you foresee yourself (or other users) needing to run the script using a different shell (like csh)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1015002/wich-shebang-should-you-use-in-a-shell-sript
+
+---
+
+#### 5688. How to grep lines only with matched words in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, grep, awk | Score: 0 | Views: 119 | Answers: 1 | Created: 2020-04-19
+
+**解决方案 / Solution**:
+You use an end-of-line anchor: ps aux | grep 'postgres$' Additionally, grepping processes is best done with pgrep .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1013067/how-to-grep-lines-only-with-matched-words-in-linux
+
+---
+
+#### 5689. Using multiple users in crontab script, silently fails when changing users
+
+**问题描述 / Problem Description**:
+Tags: centos, bash, cron, shell, aws-cli | Score: 0 | Views: 427 | Answers: 1 | Created: 2020-04-07
+
+**解决方案 / Solution**:
+OK got this working it took a few changes su -l username -c command This allowed for the user change in cron The next thing was working with single-quote and dubble-quotes to have the command "compiled" correctly, I only found one reference to this so I may have the terminology incorrect. su -l aws-cli-user -c '/usr/local/bin/aws s3 mv "$line.pgp" s3://mybucket"$line.pgp" --sse >> /bucket_logfile.log' The single quote has the user "compile" the command, and it doesn't know what the $line variable is so the command can not find a file reference. su -l aws-cli-user -c "/usr/local/bin/aws s3 mv '$line.pgp' s3://mybucket'$line.pgp' --sse >> /bucket_logfile.log" Now with double quotes the Root user compiles the work, including the $line variable, then passes the completed command to the other user to run. Because of this using $(whoami) would always show root even if the other user is performing the command with their permissions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1011288/using-multiple-users-in-crontab-script-silently-fails-when-changing-users
+
+---
+
+#### 5690. uptime | awk -F: '{print $NF}' - What happens here?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, shell, awk | Score: 0 | Views: 6092 | Answers: 2 | Created: 2020-03-21
+
+**解决方案 / Solution**:
+The option -F ( --field-separator fs ) -F: makes : the input field separator . We could take the output of an example uptime and split it into fields separated by : : 09:03:24 up 32 days, 1:32, 3 users, load average: 0.04, 0.09, 0.08 -- -- ----------------- --------------------------- ----------------- 1 2 3 4 5 It's easy to say that the fields 1-4 are pretty pointless by themselves, but the 5th field gives us just the load averages . But this doesn't work all the time, as an hour earlier it would have been the 4th field: 08:03:24 up 32 days, 32 min, 3 users, load average: 0.00, 0.00, 0.00 -- -- --------------------------------------------- ----------------- 1 2 3 4 Here, the $NF comes to help, as it will always give the number of fields: in the first case it would have been equal to $5 , but in the second case $4 . Putting it all together, | awk -F: '{print $NF}' always gives everything after the last : .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1007834/uptime-awk-f-print-nf-what-happens-here
+
+---
+
+#### 5691. Occasional permission denied when getting logs using gcloud through Jenkins running as GKE
+
+**问题描述 / Problem Description**:
+Tags: shell, kubernetes, jenkins, google-kubernetes-engine, gcloud | Score: 0 | Views: 329 | Answers: 1 | Created: 2020-03-12
+
+**解决方案 / Solution**:
+So the problem here seems to be that the answer is "yes" to my question Maybe my assumption is wrong? It seems that the project worked most of the times because it was mostly run on an agent after it ran another project (pipeline in this case) that was doing the authentication. The fix was to also do the authentication stuff in my project and since a week it always worked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1006710/occasional-permission-denied-when-getting-logs-using-gcloud-through-jenkins-runn
+
+---
+
+#### 5692. cronjob every 4 weeks, not executing
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, cron, shell | Score: 0 | Views: 2602 | Answers: 2 | Created: 2020-03-07
+
+**解决方案 / Solution**:
+"Wrong" shell used in cron Your test seems command to use syntax which may be "misinterpreted" by some shells other than bash . Cron by default uses /bin/sh shell. Possible fixes to choose from: a) wrap test argument in single quotes and force "right" shell 0 13 * * 6 /bin/bash -c 'test $((10#$(date +%W)%4)) -eq 0' && … b) move your test command to separate executable file with explicitly selected shell in shebang: #!/bin/bash exec test "$((10#$(date +%W)%4))" -eq 1 c) change shell used by cron . In crontab add line SHELL=/bin/bash In your case specific case option "a" seems to be the best but similar problems may be best served by other options.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1005985/cronjob-every-4-weeks-not-executing
+
+---
+
+#### 5693. LDAP Linux import user shell config files
+
+**问题描述 / Problem Description**:
+Tags: ldap, shell, users | Score: 0 | Views: 319 | Answers: 1 | Created: 2020-03-05
+
+**解决方案 / Solution**:
+After some research I succesfuly build a kind of workflow for our user to have their own configuration: Creating a bash script that retrieve user configuration from our gitlab When we create a new server we add into /etc/skell a line in shell files (.bashrc or .zshrc for example) for executing the script when they login. This step is done automaticly by our Ansible server. When they login for the first time, skell files are copied and then shell files are loaded (and then our script is executed) #!/bin/bash git clone "https://username:password@gitlab_url/ldap-user-config/$USER.git" > /dev/null 2>&1 if [ -d ${HOME}/${USER} ] then shopt -s dotglob mv ${HOME}/${USER}/* ${HOME}/ shopt -u dotglob rm -rf "$HOME/.git" "$HOME/$USER" else printf "Something goes wrong during cloning your config, contact an admin\n" fi
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1005671/ldap-linux-import-user-shell-config-files
+
+---
+
+#### 5694. Extract string from column with grep
+
+**问题描述 / Problem Description**:
+Tags: shell, grep, awk | Score: 0 | Views: 1009 | Answers: 2 | Created: 2020-02-27
+
+**解决方案 / Solution**:
+In awk you can do it on this way (assuming the place of CN is always the same: awk -F\/ '$5~"test"|| $5~"risk" {gsub("CN=","",$5);print $5}' To add the number of the line where you find a CN records you can use code like this: awk -F\/ '$5~"test"|| $5~"risk" {gsub("CN=","",$5);print NR") "$5 }'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1004813/extract-string-from-column-with-grep
+
+---
+
+#### 5695. Echo command, need substitution
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, scripting, shell | Score: 0 | Views: 429 | Answers: 2 | Created: 2020-02-20
+
+**解决方案 / Solution**:
+have 2 variable in echo Actually, you don't. Variables are wrapped in curly braces: NAME=Fred echo ${NAME}" What you have are command invocations . Everything inside the "$(" and ")" delimiters is executed as a separate command and the output of that command "returned" as the result of the invocation: echo "$( pwd )" I think your intention is to create file path based on the current date and then feed that file path into the du command. So, step by step: Your file path is: /backup/db/db_$(date +%F).sql There can't be any spaces in this generated value (%F returns YYYY-MM-DD), so we don't have to worry about quoting the file path. "Inserting" this into the du call: du -hs /backup/db/db_$(date +%F).sql lastly, invoking this within the "top-level" echo command: echo "DB-Size $(du -hs /backup/db/db_$(date +%F).sql)" >> /backup/backup.log Note the placement of the braces - "$(" starts an invocation, ")" ends it. You're invoking two commands, so you need two closing ')'s. Also note that there are fewer quotes - one to start the string value and another to end it. Because they're double quotes, the shell will expand all the bits inside it, including variables and command invocations - if they were single quotes, it wouldn't do so, treating the whole thing as a string literal.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1003867/echo-command-need-substitution
+
+---
+
+#### 5696. Copy binary file from other system with builtin shell commands only
+
+**问题描述 / Problem Description**:
+Tags: bash, unix, shell, remote-access, disaster-recovery | Score: 0 | Views: 1329 | Answers: 2 | Created: 2020-01-22
+
+**解决方案 / Solution**:
+You could try the built in /dev/tcp TCP bus in Bash: http://fibrevillage.com/scripting/603-dev-tcp-examples-and-trouble-shooting You should be able to formulate a HTTP request using that, so that you can pull the file in via HTTP.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/999977/copy-binary-file-from-other-system-with-builtin-shell-commands-only
+
+---
+
+#### 5697. Shell starts in edit only mode. No prompt shows up, no commands can be executed
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 0 | Views: 117 | Answers: 1 | Created: 2020-01-19
+
+**解决方案 / Solution**:
+Your prompt might have gotten wiped out. Try this command: setenv PROMPT '%m%# ' If that shows you a new prompt, consider customizing it and placing that command in your .tcshrc file. Here's a reference http://www.nparikh.org/unix/prompt.php
+
+**参考链接 / References**:
+- https://serverfault.com/questions/999549/shell-starts-in-edit-only-mode-no-prompt-shows-up-no-commands-can-be-executed
+
+---
+
+#### 5698. Log shell stdin & stdout
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, logging, shell | Score: 0 | Views: 550 | Answers: 1 | Created: 2019-10-10
+
+**解决方案 / Solution**:
+try rootsh package in Linux. just setup a server, as your ssh-server and ask your users to authenticate to this server fist, in order to connect other devices.you may use access-list or any other filtering mechanism to limit your systems or devices to get logged in, only from your ssh server. this package, logs all the commands entered by the user, and all the results returned to the screen, in text.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/987475/log-shell-stdin-stdout
+
+---
+
+#### 5699. Cannot find my database when trying to import with mysql
+
+**问题描述 / Problem Description**:
+Tags: mysql, shell, database-administration | Score: 0 | Views: 346 | Answers: 1 | Created: 2019-10-01
+
+**解决方案 / Solution**:
+Most probably you have a reference to a database 'rb' in the sql file rurdevdrpl.sql . It could either be that rb has been defined as the default database with USE rb; or as an option to a sql statement like e.g. INSERT INTO TABLE rb.test (a, b, c) VALUES (1, 2, 4); So check your file for occurences of these two. To replace them you could use sed , but it's difficult to provide a working command without knowing the format used in the sql files, e.g. if backticks are used for object references etc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/986439/cannot-find-my-database-when-trying-to-import-with-mysql
+
+---
+
+#### 5700. Glob match recursive delete directories except a certain directory
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, rm | Score: 0 | Views: 272 | Answers: 1 | Created: 2019-09-30
+
+**解决方案 / Solution**:
+find ./ -maxdepth 1 \ -type d \ -name 'app-deployment-*' \ ! -name 'app-deployment-245a578' \ -exec echo rm -rf {} + Explanations: -maxdepth 1 mean without recursion; -type d mean search only for directories; -name 'app-deployment-*' is a pattern of directories you are searching for; ! -name 'app-deployment-245a578' is a pattern of directories you are excluding from result list Repeat it multiple times if you want to exlude multiple directories; exec echo rm -rf -- execute a command echo rm -rf ; {} + -- add search results as a parameters to the command above. Directory names will be added like that: echo rm -rf dir1 dir2 dir3 . About the last point. If you want to call the command with each param separately (I mean echo rm -rf dir1; echo rm -rf dir2; ), you should write {} \; (note the backslash) instead of {} + . About the command. I write echo rm -rf instead of rm -rf due to all the danger of using rm -rf with any kind of pattern matching. Be careful and check everything before removing echo from the command. Futher reading about danger of rm + patterns: Creative uses of rm UPD: worth noting that {} + should be at the end of command, i.e. you can't use -exec rm {} + -rf
+
+**参考链接 / References**:
+- https://serverfault.com/questions/986133/glob-match-recursive-delete-directories-except-a-certain-directory
+
+---
+
+#### 5701. Parse Date from Text String in a 3 column format
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, grep, sed | Score: 0 | Views: 863 | Answers: 2 | Created: 2019-08-27
+
+**解决方案 / Solution**:
+You can use sed and a regular expression to cut out the date of that. Assuming your data is stored in the file input . sed -e 's/^\s\+\S\+\s\+\(.*\S\)\s\+\S\+$/\1/g' input Tue Aug 27 10:59:43 2019 Tue Aug 27 11:16:41 2019 Tue Aug 27 11:25:28 2019 Tue Aug 27 13:37:29 2019 The first part s/^\s\+\S\+\s\+ matches lines that begin with one or more whitespace character(s), followed by one or more non-whitespace character(s), followed again by one or more whitespace character(s). E.g.: ' Full ' ' Incremental ' Let's look at the last part now \s\+\S\+$ . This will match one or more non-whitespace character(s) at the end of the line, preceded by one or more whitespace character(s). E.g.: ' 1' The middle part \(.*\S\) is a matching group which can be referenced by \1 and is called backreference. This one matches any character starting after the first match up to one non-whitespace character before the last match. As already mentioned, \1 is the backreference to the middle part and is printed out.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/980919/parse-date-from-text-string-in-a-3-column-format
+
+---
+
+#### 5702. Error running commands using shell although successfully run line by line manually
+
+**问题描述 / Problem Description**:
+Tags: redhat, centos7, shell, virtualbox, terminal | Score: 0 | Views: 117 | Answers: 1 | Created: 2019-08-13
+
+**解决方案 / Solution**:
+Why you use "python -m venv" instead "pyvenv3 -m venv" since you was installed python 3.6. CMIIW. I read from here : https://developers.redhat.com/blog/2018/08/13/install-python3-rhel/ https://realpython.com/installing-python/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/979089/error-running-commands-using-shell-although-successfully-run-line-by-line-manual
+
+---
+
+#### 5703. Bash command to execute a foreground set of background commands
+
+**问题描述 / Problem Description**:
+Tags: bash, unix, shell, shell-scripting, sh | Score: 0 | Views: 1161 | Answers: 1 | Created: 2019-07-18
+
+**解决方案 / Solution**:
+Try this: #!/usr/bin/env bash echo "Executing $1 in bg" eval $1 & echo "Executing $2 in bg" eval $2 & wait Explanation: $1 and $2 refer to the first and second argument in the command line. eval executes these commands with & running them in background. Finally, wait waits for these commands to terminate or they can be terminated with CTRL-C. Try this script with ./script "ping google.com > /dev/null" "ping 127.0.0.1 > /dev/null"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/975799/bash-command-to-execute-a-foreground-set-of-background-commands
+
+---
+
+#### 5704. Use shell if defined in LDAP, otherwise default
+
+**问题描述 / Problem Description**:
+Tags: linux, ldap, shell, sssd | Score: 0 | Views: 495 | Answers: 1 | Created: 2019-07-16
+
+**解决方案 / Solution**:
+That is exact purpose of the default_shell directive in the sssd.conf configuration file default_shell /bin/bash The default shell to use if the provider does not return one ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ during lookup. This option supersedes any other shell option
+
+**参考链接 / References**:
+- https://serverfault.com/questions/975444/use-shell-if-defined-in-ldap-otherwise-default
+
+---
+
+#### 5705. Uploading files using tar
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, tar | Score: 0 | Views: 553 | Answers: 1 | Created: 2019-07-01
+
+**解决方案 / Solution**:
+You can exchange SSH keys between the machine where this code runs and the machine you intend to connect to. From the machine where you run the code run (if you haven't previously created a ssh key): ssh-keygen -t rsa To create a new ssh key. Then, run: ssh-copy-id user@remote_machine_ip And provide the user's password once. This will add the public key of the ssh user from which you intend to run the script from to the authorized_keys of the remote machine user. Then, the next time you connect, you will not have to supply a password. Feel free to check this article , which explains this process.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/973527/uploading-files-using-tar
+
+---
+
+#### 5706. How to install sqlcmd on windows core
+
+**问题描述 / Problem Description**:
+Tags: windows, shell | Score: 0 | Views: 1715 | Answers: 1 | Created: 2019-06-29
+
+**解决方案 / Solution**:
+The prompt returns because the powershell remote session can't show you the setup UI. However, you can connect to Windows Server Core using RDP and start the installation from the command line you'll get after logging in. On the other hand, I recommend you to install sqlcmd on your computer/management workstation and use it remotely: sqlcmd -S ComputerA\instanceB More details about sqlcmd: Connect to the Database Engine
+
+**参考链接 / References**:
+- https://serverfault.com/questions/973414/how-to-install-sqlcmd-on-windows-core
+
+---
+
+#### 5707. Pass variable in remote SSH-command in Jenkins-job
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell, jenkins, environment-variables | Score: 0 | Views: 10878 | Answers: 1 | Created: 2019-05-24
+
+**解决方案 / Solution**:
+Resolved. Via this: ssh jenkins@srv1 "mkdir D:\myfolder\\$test" So, we have to add \ before our variable
+
+**参考链接 / References**:
+- https://serverfault.com/questions/968732/pass-variable-in-remote-ssh-command-in-jenkins-job
+
+---
+
+#### 5708. Unable to run docker-compose from ssh's shell
+
+**问题描述 / Problem Description**:
+Tags: ssh, bash, shell | Score: 0 | Views: 2201 | Answers: 1 | Created: 2019-04-27
+
+**解决方案 / Solution**:
+Use which docker-compose or whereis docker-compose to find out what is its absolute path. Make sure this path is added to your PATH env. You can also just change your docker-compose into fullpath commands: /usr/local/bin/docker-compose stop web (...)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/964859/unable-to-run-docker-compose-from-sshs-shell
+
+---
+
+#### 5709. Loading new paths from each line on a text file with eval dont update $PATH variable on bash
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, path | Score: 0 | Views: 144 | Answers: 1 | Created: 2019-03-21
+
+**解决方案 / Solution**:
+I deleted the virtual machine and did the same again and it works, probably was something on evironment
+
+**参考链接 / References**:
+- https://serverfault.com/questions/959266/loading-new-paths-from-each-line-on-a-text-file-with-eval-dont-update-path-vari
+
+---
+
+#### 5710. Self extract ZIP that can run a command
+
+**问题描述 / Problem Description**:
+Tags: shell, package-management | Score: 0 | Views: 124 | Answers: 1 | Created: 2019-03-13
+
+**解决方案 / Solution**:
+Any self extracting archive will do, of the type typically used to install software. For example, makeself.sh is notable for its portablity. It runs on several UNIXes and has a startup script feature.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/958135/self-extract-zip-that-can-run-a-command
+
+---
+
+#### 5711. Bash command stdout
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, stdout | Score: 0 | Views: 237 | Answers: 1 | Created: 2019-03-07
+
+**解决方案 / Solution**:
+It's happening because the output of /usr/local/sbin/keepalived -v is going to stderr instead of stdout. You can redirect the output to stdout before extracting the data you want by doing keepalived -v 2>&1 | head -n 1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/957275/bash-command-stdout
+
+---
+
+#### 5712. Count down date time shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, scripting, shell, date | Score: 0 | Views: 310 | Answers: 1 | Created: 2019-02-07
+
+**解决方案 / Solution**:
+I am assuming you want to calculate the number of days until the closest day which will happen to be September 30 on Monday, be it any year. this script works for me (you can change the "Monday" in the condition to another day of week, same with other days/months. The script defines which year it is right now and counts from there. It uses the one-liner from the link to the stack-overflow thread under your question YEAR=$(date +%Y) DAY=$(date -d "30 SEP $YEAR" +%A) until [[ $DAY == "Monday" ]] do YEAR=$(($YEAR+1)) DAY=$(date -d "30 SEP $YEAR" +%A) done echo $(expr '(' $(date -d $YEAR/9/30 +%s) - $(date +%s) + 86399 ')' / 86400) " days until deadline"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/952846/count-down-date-time-shell-script
+
+---
+
+#### 5713. PFSense enable private access via shell
+
+**问题描述 / Problem Description**:
+Tags: shell, pfsense | Score: 0 | Views: 1436 | Answers: 1 | Created: 2019-01-21
+
+**解决方案 / Solution**:
+Nevermind, I managed to do pfctl -d to disable the firewall and then it let me in and I edited the rule as required. Now all I need is to re-enable the firewall...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/950093/pfsense-enable-private-access-via-shell
+
+---
+
+#### 5714. How to find file and combine `find ... -exec` and echo empty string to it?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 0 | Views: 3816 | Answers: 2 | Created: 2018-10-11
+
+**解决方案 / Solution**:
+Easier in this case to avoid the quoting hassles to get the redirection to work: Use truncate -s 0 as command to empty the file. If it is not present, this is strange, as it should be in coreutils in common distributions and installed by default. Try to install this package if it is indeed missing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/935045/how-to-find-file-and-combine-find-exec-and-echo-empty-string-to-it
+
+---
+
+#### 5715. Bash function doesn't work for remote ssh command execution although interactive shell function fine
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, shell | Score: 0 | Views: 2256 | Answers: 2 | Created: 2018-10-05
+
+**解决方案 / Solution**:
+I can't speak to paramiko specifically, but ssh typically detects when a session is non-interactive and behaves differently; such as not loading certain files. You might have to tell it to setup like an interactive or "login" session or maybe force allocation of a tty. Or maybe just load the file yourself before calling the function. connection.sendCommand("source .bashrc && dmidecode -t 1") Sourcing the file feels wrong and might have undesired side-effects depending on what else in it, but doing so might at least confirm that the issue is that the file is not getting loaded if it makes the alias work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/934213/bash-function-doesnt-work-for-remote-ssh-command-execution-although-interactive
+
+---
+
+#### 5716. Allowing SSH To use ssh-agent in bash script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, ssh-keys, shell-scripting, ssh-agent | Score: 0 | Views: 4112 | Answers: 3 | Created: 2018-09-14
+
+**解决方案 / Solution**:
+Starting an ssh-agent from outside the script is what I would also recommend, that way your script runs without needing a passphrase. But if you want to start an agent for your script, the way to do it is eval $(ssh-agent) After that, you can add keys to the agent and use the agent for login.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/930978/allowing-ssh-to-use-ssh-agent-in-bash-script
+
+---
+
+#### 5717. Bash SFTP Script - Too many login attempts looks like a DOS attack
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, sftp | Score: 0 | Views: 462 | Answers: 1 | Created: 2018-08-22
+
+**解决方案 / Solution**:
+This seems to be really complicated. Is there a benefit of using sftp instead of scp? You should be able to all files in one connection with scp -p "${filearray[@]}" $FTPUSER@$FTPSERVER:$FILEPATH The filearray is the array of files you want to transfer from your script. It expands to the names of the files you want to transfer. It expands to scp -p "${filearray[1]}" "${filearray[2]}" ... "${filearray[n]}" $FTPUSER@$FTPSERVER:$FILEPATH
+
+**参考链接 / References**:
+- https://serverfault.com/questions/927577/bash-sftp-script-too-many-login-attempts-looks-like-a-dos-attack
+
+---
+
+#### 5718. Reroute IP to different IP, but there is a catch
+
+**问题描述 / Problem Description**:
+Tags: routing, linux-networking, shell, busybox, dropbear | Score: 0 | Views: 181 | Answers: 1 | Created: 2018-08-17
+
+**解决方案 / Solution**:
+What about using a network address translation on a router? Translate the old IP address 'A' to the new IP address 'B'. Or start using DNS instead of IP addresses so you can more easily update everything when an IP address changes.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/926821/reroute-ip-to-different-ip-but-there-is-a-catch
+
+---
+
+#### 5719. Defining array in shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-scripting | Score: 0 | Views: 342 | Answers: 1 | Created: 2018-08-07
+
+**解决方案 / Solution**:
+bash-4.2$ cassandra_hosts="cassandra1.dev-internal.local cassandra2.dev-internal.local cassandra3.dev-internal.local" bash-4.2$ for i in $cassandra_hosts; do echo "host: $i"; done host: cassandra1.dev-internal.local host: cassandra2.dev-internal.local host: cassandra3.dev-internal.local
+
+**参考链接 / References**:
+- https://serverfault.com/questions/925299/defining-array-in-shell-script
+
+---
+
+#### 5720. Grep returns nothing
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, shell-scripting, grep | Score: 0 | Views: 1233 | Answers: 1 | Created: 2018-07-30
+
+**解决方案 / Solution**:
+As your file log is twice as big as log2, but should be an exact copy, it is likely that is it encoded in UCS-2. Did the file originate on Windows? Try file log log2 Edit: The output of file in the comment confirms this. Use this for transparent grep recode ucs2..utf8 < log | grep ... Or this to convert the file recode ucs2..utf8 log grep ... log
+
+**参考链接 / References**:
+- https://serverfault.com/questions/924133/grep-returns-nothing
+
+---
+
+#### 5721. ansible-playbook doesn't work inside a bash script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, ansible, ansible-playbook | Score: 0 | Views: 3179 | Answers: 1 | Created: 2018-05-29
+
+**解决方案 / Solution**:
+When you run ansible-playbook while logged in, then ansible can use the connection to your ssh key agent to enable using ssh keys to login without entering a password or passphrase. You don't specify how you are running the script containing the command, but more often than not the point of putting it in a script is so that it can be called easily from cron . However the runtime environment from cron has no connection to an ssh key agent, and hence the login to the remote host fails. One workaround for this is to use an authorization key without a passphrase, but you have to realize the security implications! Anyone that gets their fingers on that private key can login anywhere the public key is installed. One way to mitigate this is to use a forced command with the public key, but that's a different topic.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/914189/ansible-playbook-doesnt-work-inside-a-bash-script
+
+---
+
+#### 5722. Bash script: save last line output from terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting | Score: 0 | Views: 6594 | Answers: 2 | Created: 2018-05-18
+
+**解决方案 / Solution**:
+You can save the output of your last command to a temporary file, using tee. TMPPFILE=$( mktemp ); echo "First command" | tee ${TMPFILE}; echo "Second command" | tee ${TMPFILE}; echo "Third command" | tee ${TMPFILE} Then: cat ${TMPFILE} ## Should produces the line below Third command
+
+**参考链接 / References**:
+- https://serverfault.com/questions/912842/bash-script-save-last-line-output-from-terminal
+
+---
+
+#### 5723. Why is this shell command always returning 1?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, ping | Score: 0 | Views: 698 | Answers: 1 | Created: 2018-05-04
+
+**解决方案 / Solution**:
+Looks like the order should be adjusted to: ping "$myHost" -c2 -W2 > /dev/null 2>&1; echo $? 0 Answered here . Essentially, the first part > /dev/null sends stdOut to /dev/null, then you re-route stdErr to stdOut.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/910804/why-is-this-shell-command-always-returning-1
+
+---
+
+#### 5724. How to make a shell script return 0 even after getting killed
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, kill | Score: 0 | Views: 664 | Answers: 2 | Created: 2018-03-23
+
+**解决方案 / Solution**:
+Depends on the signal. Bash allows you to trap with the trap command, but if your script is being killed with SIGKILL (9), it is uninterruptible and untrappable.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/904228/how-to-make-a-shell-script-return-0-even-after-getting-killed
+
+---
+
+#### 5725. Running tcsh scripts on startup in bash env
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell | Score: 0 | Views: 4615 | Answers: 1 | Created: 2018-03-22
+
+**解决方案 / Solution**:
+You can either: use tcsh -c $script to run the scripts with tcsh set the shebang (first line) in the script to #!/bin/tcsh and set it executable; you can then just start it with $script as the command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/904000/running-tcsh-scripts-on-startup-in-bash-env
+
+---
+
+#### 5726. Exclude certain disk in dd command script for disk erasure
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, aix, ksh | Score: 0 | Views: 192 | Answers: 2 | Created: 2018-03-21
+
+**解决方案 / Solution**:
+The simplest way would be: for disk in $(lspv | awk '{print $1}') ; do case "$disk" in hdisk0|hdisk1|hdisk3) continue ;; *) dd if=/dev/zero of=/dev/${disk} bs=1024 count=$(bootinfo -s ${disk}) echo $disk wiped ;; esac done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/903875/exclude-certain-disk-in-dd-command-script-for-disk-erasure
+
+---
+
+#### 5727. How can I run select commands on multiple servers from a shell script?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-scripting | Score: 0 | Views: 4646 | Answers: 4 | Created: 2018-03-09
+
+**解决方案 / Solution**:
+capistrano , mssh , and clusterssh are all tools that claim to issue commands to multiple servers at once. It's a complex enough task, as you found, that it's probably better not to reinvent the wheel.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/900919/how-can-i-run-select-commands-on-multiple-servers-from-a-shell-script
+
+---
+
+#### 5728. How to get the sub string part from a directory with shell command
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-scripting | Score: 0 | Views: 96 | Answers: 2 | Created: 2018-02-20
+
+**解决方案 / Solution**:
+I suppose there's many approaches, you could try (replacing pwd with something suitable for your use case): echo /$(basename $(dirname $(pwd)))/$(basename $(pwd)) or pwd | awk -F/ '{print "/" $(NF-1) "/" $(NF)}' And probably countless other ways . . .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/897950/how-to-get-the-sub-string-part-from-a-directory-with-shell-command
+
+---
+
+#### 5729. How to use SFTP BatchMode inside EXPECT[Shell Script]
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, shell-scripting, expect | Score: 0 | Views: 1998 | Answers: 1 | Created: 2018-01-31
+
+**解决方案 / Solution**:
+Once you have told expect to send the password, it has nothing to do so it stops and kills the sftp. Add a wait for end-of-file from the spawned command: expect eof You can get more debug from expect by starting it with expect -d .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/895009/how-to-use-sftp-batchmode-inside-expectshell-script
+
+---
+
+#### 5730. Bash script shows error for "pwd", simple script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, scripting, command-line-interface, shell | Score: 0 | Views: 1636 | Answers: 1 | Created: 2018-01-22
+
+**解决方案 / Solution**:
+The file probably has DOS/Windows-style line endings. See " Are shell scripts sensitive to encoding and line endings? " on stackoverflow. BTW, you should almost never use chmod 777 (do you really want all users to be able to edit the script?), and run scripts with ./build.sh rather than explicitly using sh. – Gordon Davisson Jan 22 at 17:45
+
+**参考链接 / References**:
+- https://serverfault.com/questions/893441/bash-script-shows-error-for-pwd-simple-script
+
+---
+
+#### 5731. Can I separate shell script ifs into multiple files?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell | Score: 0 | Views: 321 | Answers: 1 | Created: 2017-12-22
+
+**解决方案 / Solution**:
+Answering my own question, actually you can do that. What I did was iterate through the files in the .d folder and executed them with: . $filename Note that there's a space between the dot and the file. Hope this helps someone
+
+**参考链接 / References**:
+- https://serverfault.com/questions/889349/can-i-separate-shell-script-ifs-into-multiple-files
+
+---
+
+#### 5732. My shell script run perfectly by putty command but when I put it in crontab it doesnot work
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: 0 | Views: 1066 | Answers: 1 | Created: 2017-12-20
+
+**解决方案 / Solution**:
+Cron's default path is implementation-dependent, so check your man page. You can define your own PATH variable in your crontab file. PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin */1 * * * * sh /var/www/html/backup_inventory_sourcecode.sh */1 * * * * sh /var/www/html/backup_bash.sh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/889027/my-shell-script-run-perfectly-by-putty-command-but-when-i-put-it-in-crontab-it-d
+
+---
+
+#### 5733. What are the security risks of using /bin/sh?
+
+**问题描述 / Problem Description**:
+Tags: ssh, security, shell | Score: 0 | Views: 1511 | Answers: 2 | Created: 2017-12-18
+
+**解决方案 / Solution**:
+When security issues are reported, they get fixed. This is the case for /bin/sh as it is for /bin/[b]ash or any other UNIX or Linux program that is maintained. On Debian, by default, /bin/sh is linked symbolically to /bin/dash , you can change that with galternatives . It is impossible to reply precisely without knowing specifically what your friend meant. Next time you see him, ask your friend for a CVE number, if he cannot give you one, he made it up. The easiest way to see what /bin/sh is linked to is: ls -l /bin/sh , again, what it is linked to does not matter, I am not aware of a current security issue in a shell, and without CVE, there is none. Actually, there is this one: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16522 However, it is NOT a vulnerability in /bin/sh , whatever that is linked to, it is a problem with routers from the company MitraStar, which execute specific commands as root and unfortunately allow authenticated users (users who have a username/password on the router) to enter a command such as /bin/sh , the command is executed as root which allows anybody with a valid username/password for the router full control of the router. EDIT - From the comments: The following is a shell script in /tmp that just outputs $0 , I have created a symbolic link in my home directory named hhh that points to /tmp/test.sh $ echo '#!/bin/sh echo $0' > /tmp/test.sh $ chmod +x /tmp/test.sh $ ln -s /tmp/test.sh hhh $ ls -l hhh lrwxrwxrwx 1 jdoe Users 12 Dec 18 07:21 hhh -> /tmp/test.sh $ ./hhh ./hhh $ $(pwd)/hhh /home/jdoe/hhh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/888604/what-are-the-security-risks-of-using-bin-sh
+
+---
+
+#### 5734. Unable to start a script at startup ubuntu
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, shell, startup-scripts | Score: 0 | Views: 8218 | Answers: 3 | Created: 2017-11-22
+
+**解决方案 / Solution**:
+Scripts in /etc/init.d are not executed at startup by default. This is just the location where startup scripts are (or, by now, were) located. After placing your script there you need to create symlinks in /etc/rc[1-6].d . You can do that manually, or by running: update-rc.d <scriptname> enable Note: In Ubuntu 16.04 the old init scripts are deprecated. You should create a systemd service definition for your script.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/884607/unable-to-start-a-script-at-startup-ubuntu
+
+---
+
+#### 5735. getting multiple issues while creating a scrip to update hostnames in /etc/hosts file?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting, unix-shell | Score: 0 | Views: 265 | Answers: 1 | Created: 2017-10-17
+
+**解决方案 / Solution**:
+I have not tried reading CSV in shell, so this is going to be an incomplete reply. I usually use Perl or AWK to do such things. The first problem is that shell is using blank to delimit the fields in the line, so you have to break up the fields on "," (comma) instead. So IFS="," while read hostname_login.... however, if it is "real" CSV, then it might look like this "hostname_login",username,"userpass" ie with variability as to whether it has quotes. If this is not the case, you are home free. I am not familiar with the [bash -c] syntax in your ssh, so I can not comment on it. I would tend to use single quotes (') instead. I think you can skip the step of mv-ing the /tmp/hostname_list to the home directory. You can just do ssh -eS $user_name:$user_password@$hostname_login [echo rishee | sudo -S cp -p /etc/hosts /etc/hosts.bkp && cat /tmp/hostname_list >> /etc/hosts && rm -f /tmp/hostname_list"] I will update my answer once I have determined if that [ ] thing is a real thing. I have only ever used it in pattern matching context, and as an alias for test in conditionals. (ie for filename in hostname[0-9]; do ... or if [ -n "$var" ]; then... ) There will also be challenges with ssh+sudo where ssh fails to allocate a pty and sudo takes a fit over that. I would have to hunt around, but I feel like we addressed that by an adjustment to /etc/sudo.config or something, which is less than optimal. As written, also, you only do the sudo for that initial mv /tmp/hostname ./hostname. Personally, since your file content is static, I would simplify the whole escape sequence stuff with by pre-writing what you want to run at the other end, and copying that: cat > hostname_list_script.sh #/bin/bash if ! cp -p /etc/hosts /etc/hosts.bkp; then echo "Failed to backup /etc/hosts" exit 1 fi cat <<EOM >> /etc/hosts ^D cat hostname_list >> hostname_list_script.sh EOM ^D The file you are copying now has a little bit of text at the top, the contents you are hoping to append, and then some text at the bottom, ie [...] fi cat <<EOM >> /etc/hosts 10.90.70.5 hostname1 10.90.70.4 hostname2 10.90.70.6 hostname3 EOM Then your main script can read #/bin/bash IFS="," while read hostname_login user_name user_password do scp -p ./hostname_list_script.sh $user_name:$user_password@$hostname_login:/tmp echo sudo_password | ssh -t -eS $user_name:$user_password@$hostname_login '/usr/bin/sudo -S -s bash /tmp/hostname_list_script.sh' done < hostname_logins.csv Actually, I see another problem. I think you need to change up the password passed to sudo based on the login: echo $user_password | ssh .... I think it is doubtful that sudo will take a static password on all the machines when the login password is different for each. CAVEAT EMPTOR: I have not tested the above for the mentioned problem of pty availability, and whether you don't need to quote the bash script argument to sudo. In my head this works, but you might need to fiddle with the quoting to get it right. I did not need to update my /etc/hosts file so I did not test it. Also as Spiderice mentioned, it might be easier to install BIND (DNS Nameserver) on one of your machines, and just do a script that adds that machine's IP address to /etc/resolv.conf instead of appending to /etc/hosts. When I first started reading your question, I wondered if we were also going to have to get involved in removing hosts and de-duplicating your /etc/hosts entry. I wonder if this might be the next question a few months from now when some of the hosts you are adding today disappear or get renamed. My suggestion in working out how to make such a thing work would be build up in pieces. So first debug the while loop: #!/bin/bash while read hostname_login user_name user_password do echo "$hostname_login / $user_name / $user_password" done < hostname_logins.csv then grab the top 4 lines from hostname_logins.csv file and evolve the contents of your while loop, first add on doing the file copy inside your while loop. Next from the command line work on the ssh execution line going to one host. Once you have that one all worked out, you would then paste your evolved line inside the while loop in the script. Test out again on your 4 host test set, and once you are sure you have that all worked out, then feed it your full list of hosts.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/878941/getting-multiple-issues-while-creating-a-scrip-to-update-hostnames-in-etc-hosts
+
+---
+
+#### 5736. How to create and close SOCKS5 tunnel after n seconds?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, bash, shell | Score: 0 | Views: 196 | Answers: 1 | Created: 2017-09-29
+
+**解决方案 / Solution**:
+You should try without -N . Maybe you meant -n , but that is implied by -f .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/876058/how-to-create-and-close-socks5-tunnel-after-n-seconds
+
+---
+
+#### 5737. Exit code for ldap testing using nc or ncat
+
+**问题描述 / Problem Description**:
+Tags: ldap, shell, shell-scripting, nc | Score: 0 | Views: 3717 | Answers: 2 | Created: 2017-09-28
+
+**解决方案 / Solution**:
+Try using the -z flag. If it has it. -z Specifies that nc should just scan for listening daemons, without sending any data to them. It is an error to use this option in conjunction with the -l option. So try this ncat -z -w 5 <IP> 636
+
+**参考链接 / References**:
+- https://serverfault.com/questions/876014/exit-code-for-ldap-testing-using-nc-or-ncat
+
+---
+
+#### 5738. Create copy of file in the same location
+
+**问题描述 / Problem Description**:
+Tags: shell, cp | Score: 0 | Views: 445 | Answers: 2 | Created: 2017-09-28
+
+**解决方案 / Solution**:
+cp /very/long/file/path{,.bak} vim !$ or cpvi() { name=$1 cp "${name}" "${name}.bak" $EDITOR "${name}.bak" } cpvi /very/long/file/path
+
+**参考链接 / References**:
+- https://serverfault.com/questions/875921/create-copy-of-file-in-the-same-location
+
+---
+
+#### 5739. apache2 redirect http to https in vagrant box
+
+**问题描述 / Problem Description**:
+Tags: apache-2.2, apache-2.4, shell, vagrant | Score: 0 | Views: 1240 | Answers: 1 | Created: 2017-09-06
+
+**解决方案 / Solution**:
+Try this instead: RewriteEngine on RewriteCond %{REQUEST_SCHEME} ^http$ RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R] If not, log into your vagrant box and see if those lines are there in your config. Then have apache rewrite you to http://example.com/% {REQUEST_SCHEME} to see what it thinks you're coming in on.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/872390/apache2-redirect-http-to-https-in-vagrant-box
+
+---
+
+#### 5740. CentOS - bash version not changing after upgrade
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 0 | Views: 265 | Answers: 1 | Created: 2017-08-17
+
+**解决方案 / Solution**:
+Multiple issues: CentOS 5 is out of support and there will be no security fixes for this anymore. Shellshock is only one of the security issues that likely affect this product at this point in time. You are running a very old version of CentOS 5. The last released one is CentOS 5.11. At the very least, you should upgrade to this version, which also includes the fix for Shellshock.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/869120/centos-bash-version-not-changing-after-upgrade
+
+---
+
+#### 5741. nano/vi open write protected file as a unauthorized user- Can I escalate to save?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, command-line-interface, shell, vi | Score: 0 | Views: 331 | Answers: 1 | Created: 2017-06-12
+
+**解决方案 / Solution**:
+I don't know about nano, but I do know that you can write a file you don't have permission to access in vim. Try running this command: :w !sudo tee % This will save the file even if you don't have permission to it. Nathan Long has a great explanation of how this works here , but I'll give a short explanation too. :w doesn't mean save , it means write . So in this case, :w !foo means write into the external command foo . In this case, the external command is sudo tee % , where % is the name of the current file. Tee will write to a given file and STDOUT simultaneously, and since we run it with sudo, it has the necessary permissions to write the file.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/855368/nano-vi-open-write-protected-file-as-a-unauthorized-user-can-i-escalate-to-save
+
+---
+
+#### 5742. Trying to do grep and sed from a file and push the output into a variable
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, grep, sed | Score: 0 | Views: 1539 | Answers: 1 | Created: 2017-05-24
+
+**解决方案 / Solution**:
+I have tested, and both the below work in bash shell: x=`grep "^/dev/disk/by-id/scsi-*" /tmp/disks.txt | sed {'s/=.*//'}` x=$(grep "^/dev/disk/by-id/scsi-*" /tmp/disks.txt | sed {'s/=.*//'}) Notice first line is backticks, not single quotes. The >> character in your question sends output to files, not variables. To answer second part, yes, using output from above, a for loop works: for line in $x do echo $line done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/851919/trying-to-do-grep-and-sed-from-a-file-and-push-the-output-into-a-variable
+
+---
+
+#### 5743. Is unsecure to have a common or easy username for a SSH server?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, shell | Score: 0 | Views: 189 | Answers: 1 | Created: 2017-05-16
+
+**解决方案 / Solution**:
+From the security perspective - I think there's no big difference between them. But as @Aaron said in the comments above, it can depend on that brute force attempts statistic. From just my point of view - why not to make it a bit longer? At least if someone doesn't know server username, It will be harder for him to brute force it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/850433/is-unsecure-to-have-a-common-or-easy-username-for-a-ssh-server
+
+---
+
+#### 5744. How to ssh from shell script and execute for loop using global parameters?
+
+**问题描述 / Problem Description**:
+Tags: ssh, scripting, shell | Score: 0 | Views: 3271 | Answers: 1 | Created: 2017-04-25
+
+**解决方案 / Solution**:
+You don't have to use bash arrays for this, just use a space-separated list of servers: The $Server variable will be loccaly interpreted by your shell, and the script passed to 10.1.1.10 will be sent with " for i in 11 12 13 ;... " in its content. Servers="11 12 13" ssh -t admin@10.1.1.10 << EOF sudo tar -zcf somefolders.tar.gz ~/somefolders for i in $Servers ;do sudo scp somefolders.tar.gz admin@10.1.1.\$i:~ done EOF
+
+**参考链接 / References**:
+- https://serverfault.com/questions/846553/how-to-ssh-from-shell-script-and-execute-for-loop-using-global-parameters
+
+---
+
+#### 5745. Logging the output of a long command to a file in Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: logging, shell, ubuntu-16.04 | Score: 0 | Views: 3711 | Answers: 1 | Created: 2017-04-19
+
+**解决方案 / Solution**:
+Without a sample of the output you are receiving I can only make speculations, but your command contains -f (--file) which is where your dump output is going: /home/me/dump_file . -f file Send output to the specified file. This parameter can be omitted for file based output formats, in which case the standard output is used. It must be given for the directory output format however, where it specifies the target directory instead of a file. In this case the directory is created by pg_dump and must not exist before. Any other output would be from stderr beause you have supplied --verbose and so you should redirect this output using 2> logfile1 . --verbose Specifies verbose mode. This will cause pg_dump to output detailed object comments and start/stop times to the dump file, and progress messages to standard error. Example: sudo -u wap PGPASSWORD="postgres" \ pg_dump -h localhost -U postgres \ -d n26n -n public -Fc -f /tmp/dump_file --verbose 2> logfile1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/845224/logging-the-output-of-a-long-command-to-a-file-in-ubuntu
+
+---
+
+#### 5746. MySQL query is NOT executed from bash, but works from MySQL client
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, bash, shell, query | Score: 0 | Views: 2275 | Answers: 1 | Created: 2017-03-30
+
+**解决方案 / Solution**:
+I'm not 100% sure about the collate utf8_hungarian_ci part but I was able to get it to create the database without errors by omitting backslash and ticks, changing the create database line to: CREATE DATABASE $mysql_local_database /*!40100 COLLATE utf8_hungarian_ci */ ; use $mysql_local_database ; GRANT SELECT, EXECUTE, SHOW VIEW, ALTER, ALTER ROUTINE, CREATE, CREATE ROUTINE, CREATE TEMPORARY TABLES, CREATE VIEW, DELETE, DROP, INDEX, INSERT, REFERENCES, UPDATE, LOCK TABLES ON $mysql_local_database.* TO 'myuser'@'%'; FLUSH PRIVILEGES; and also added -se here: mysql -u ${mysql_local_user} -p${mysql_local_pass} -h localhost -se "${query}"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/841634/mysql-query-is-not-executed-from-bash-but-works-from-mysql-client
+
+---
+
+#### 5747. How to check if a domain is registered using whois shell command
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, whois | Score: -1 | Views: 944 | Answers: 4 | Created: 2024-12-08
+
+**解决方案 / Solution**:
+To start with, WHOIS is not an authoritative source of information about whether the domain is registered or not. When you register a domain at most registrars, you even get an explicit information that there may be a delay before your domain appears in the WHOIS database. The authoritative source is the shared registry for a given TLD (which for .com TLD is operated by Verisign). But the data in that registry is available only for accredited domain registrars and is accessed using Extensible Provisioning Protocol (EPP) , which is a successor to Registry-Registrar Protocol (RRP) that was used for this purpose initially. The only way for a regular user to (indirectly) access registry data is through any of the accredited registrars. When you enter the domain name into a search form on a registrar's website, you are indirectly accessing that data over EPP. So if registrars say that the domain in question ( gnso.com ) is registered, it means that it exists in the registry. It is unrelated to domain data being available in WHOIS or not. The fact that the service whois.joker.com mentioned in the other answer displays this domain as registered suggests that this service is also a gateway to access the registry data over EPP. It is not a regular WHOIS service and shouldn't be considered as such. The only thing we know for sure is that there's a discrepancy between WHOIS data (which shows that the domain gnso.com does not exist) and the registry data, which shows it's registered. Only Verisign can reliably answer the question why for that particular domain there is this discrepancy. It would help if we knew which registrar registered that domain. Maybe there's just some bug in Verisign system that doesn't put domains registered by that particular registrar into WHOIS database. I don't think that anybody from outside Verisign can answer for sure why this is happening. Update: I just found out that the page https://whois.domaintools.com/gnso.com says that this domain was previously active, but has expired. Maybe that's an explanation - the domain may be now in the "grace period" waiting for the previous domain owner to have a last chance to renew it. That's why it has been removed from WHOIS but is still marked as unavailable in the registry. If the renewal doesn't occur and the grace period expires, the domain may become available again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168633/how-to-check-if-a-domain-is-registered-using-whois-shell-command
+
+---
+
+#### 5748. Extract Pages from Various PDF Files into New PDF File
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting, pdf | Score: -1 | Views: 101 | Answers: 1 | Created: 2023-08-09
+
+**解决方案 / Solution**:
+With poppler utils pdfseparate and pdfunite : #! /usr/bin/env bash input_filename_1="a.pdf" input_filename_2="b.pdf" input_filename_3="c.pdf" output_filename="of.pdf" pdfseparate -f 2 -l 2 "$input_filename_1" if_1_%03d.pdf 2>/dev/null pdfseparate -f 5 -l 5 "$input_filename_1" if_1_%03d.pdf 2>/dev/null pdfseparate -f 3 -l 4 "$input_filename_2" if_2_%03d.pdf 2>/dev/null pdfseparate -f 7 -l 9 "$input_filename_3" if_3_%03d.pdf 2>/dev/null ls -l if_*_*.pdf pdfunite if_1_*.pdf if_2_*.pdf if_3_*.pdf "$output_filename" 2>/dev/null ls -l "$output_filename" rm -f if_*_*.pdf
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1141160/extract-pages-from-various-pdf-files-into-new-pdf-file
+
+---
+
+#### 5749. Copy/Move Entire Line To End Of The Line Above
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-scripting, grep, sed, awk | Score: -1 | Views: 278 | Answers: 1 | Created: 2023-05-23
+
+**解决方案 / Solution**:
+Some awk program can do the work line this: awk '{if(NR%2==0) {print var,$0} else {var=$0}}' input_file >output_file It use awk internal variable NR which is the number of current line. Here is example: # cat qs /path/to/a/very/long/path 0 0 0 0 0 0 /path/to/a/very/long/path 1 2 0 0 0 0 # awk '{if(NR%2==0) {print var,$0} else {var=$0}}' qs /path/to/a/very/long/path 0 0 0 0 0 0 /path/to/a/very/long/path 1 2 0 0 0 0
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131749/copy-move-entire-line-to-end-of-the-line-above
+
+---
+
+#### 5750. why shell discard my string of variable
+
+**问题描述 / Problem Description**:
+Tags: shell, redis | Score: -1 | Views: 67 | Answers: 1 | Created: 2023-03-17
+
+**解决方案 / Solution**:
+redis-cli outputs everything with Windows/DOS line endings (i.e. the line ending is \r\n instead of \n ). Because of this, the second line would actually try to output the following file: /opt/redis/7.0.5/cluster/redis-6380.conf\r which does not exist. Additionally, when printing the error message, the carriage return character at the end pushes the cursor to the beginning of the line, and printing the rest of the error message continues from the beginning. So cat: /opt/redis/7.0.5/cluster/redis-6380.conf\r: No such file or directory becomes : No such file or directoryer/redis-6380.conf You need to remove the \r character from the output like this: cat $(redis-cli -h IP_ADDRESS -p 6380 -a admin info 2>/dev/null|grep config_file|cut -d: -f2|tr -d $'\r') As a side note, when an error message begins with a colon, there is always a lurking carriage return character somewhere.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126432/why-shell-discard-my-string-of-variable
+
+---
+
+#### 5751. SSH Error : bash: ./installer: cannot execute binary file: Exec format error
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, arm | Score: -1 | Views: 437 | Answers: 1 | Created: 2022-10-16
+
+**解决方案 / Solution**:
+That installer is compiled for an X86 CPU. You can't use it on an ARM CPU.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113185/ssh-error-bash-installer-cannot-execute-binary-file-exec-format-error
+
+---
+
+#### 5752. Connect to multiple databases with user/pass file(s) and import data
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, bash, import | Score: -1 | Views: 245 | Answers: 3 | Created: 2022-09-12
+
+**解决方案 / Solution**:
+You don't need a for loop for that. If you dump ALL of the databases and restore them all on another host, all you need is the mysqldump command. This is VERRY WELL documented from MySQL (Oracle). Check for mysqldump ''--all-databases'' in the mysqldump documentation https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html As for the users and access, it should also be documented. I think you can dump and restore mysql schema for that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110507/connect-to-multiple-databases-with-user-pass-files-and-import-data
+
+---
+
+#### 5753. fetch between brackets on json with grep
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, command, json | Score: -1 | Views: 1756 | Answers: 1 | Created: 2022-06-29
+
+**解决方案 / Solution**:
+after trying different cases of jq i came cross the right jq command for fetching the right data here is the command : jq '.results[] | {sku}' if you want to fetch more than field : jq '.results[] | {title,sku}'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104356/fetch-between-brackets-on-json-with-grep
+
+---
+
+#### 5754. filtering result text with linux command
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, command | Score: -1 | Views: 116 | Answers: 1 | Created: 2022-06-27
+
+**解决方案 / Solution**:
+This looks like a JSON to me, and an easiest way to deal with JSON from command line is using jq command. You can install jq on any Linux distro. If your file is just a JSON array, you can extract the title values as easy as jq '.[].title' myfile.txt and if you don't need quotes around title just pipe it to tr like this: jq '.[].title' myfile.txt | tr -d '"'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104262/filtering-result-text-with-linux-command
+
+---
+
+#### 5755. How to execute remote commands on linux and update return value?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, shell-scripting, gitlab | Score: -1 | Views: 724 | Answers: 1 | Created: 2022-05-26
+
+**解决方案 / Solution**:
+To get the exit code of your command, please add echo $? to your command. If value of echo $? is greater than 0, this means command was not successful. In Linux, $? holds the exit code of the preceding command. This is best way to understand if the command succeeded and hence used in all the system level scripts designed for OS working. Let's say your command is 'ifconfig'. To get proper status , please run the below command: if ifconfig; then echo "Command successful" else echo "Command exited with non-zero status code, failed" fi I hope this works for you.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101877/how-to-execute-remote-commands-on-linux-and-update-return-value
+
+---
+
+#### 5756. a script that terminates all processes owned by the current user,
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: -1 | Views: 80 | Answers: 1 | Created: 2022-05-17
+
+**解决方案 / Solution**:
+killall -u ${USER} should do the trick. See the command documentation and check if your environment is populating USER variable with current user.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101139/a-script-that-terminates-all-processes-owned-by-the-current-user
+
+---
+
+#### 5757. How common are single quotes (apostrophes) in Windows usernames? What about in Ireland?
+
+**问题描述 / Problem Description**:
+Tags: windows, bash | Score: -1 | Views: 393 | Answers: 1 | Created: 2022-04-22
+
+**解决方案 / Solution**:
+How common are single quotes (apostrophes) in Windows usernames? That is a bit irrelevant. (Nor is it something that can be answered.) You found that it is not only an allowed character in a Windows user name, but that people actually do assign usernames with that character. So, if you can, please fix your broken code. And then take into account that from AD and for modern Windows versions/applications/libraries there are surprisingly few restrictions with regards to for example the sAMAccountName attribute: https://social.technet.microsoft.com/wiki/contents/articles/11216.active-directory-requirements-for-creating-objects.aspx#Objects_with_sAMAccountName_Attribute As a counter point: Regardless of what is technically allowed and possible in Windows/AD usually organisations have implemented a much stricter naming policy for accounts. Such policies restrict usernames to provide as much (backward) compatibility as possible, because in heterogenous environments yours is not the only application that breaks on usernames that don't meet "old" conventions. In practice that means one indeed sees mostly relatively short POSIX compliant usernames with only characters from the portable character set a-Z , 0-9 and sometimes a hyphen - , underscore _ or dot . somewhere in the middle. In turn such a naming convention provides little incentive to fix/modernise those applications.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1099188/how-common-are-single-quotes-apostrophes-in-windows-usernames-what-about-in-i
+
+---
+
+#### 5758. WP-CLI doesnt run from cronjob
+
+**问题描述 / Problem Description**:
+Tags: bash, cron, wordpress | Score: -1 | Views: 239 | Answers: 1 | Created: 2022-01-15
+
+**解决方案 / Solution**:
+user9517 provided the answer: Does this answer your question? Why is my crontab not working, and how can I troubleshoot it? –
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090126/wp-cli-doesnt-run-from-cronjob
+
+---
+
+#### 5759. Trying to execute this shell script but getting this error
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-scripting | Score: -1 | Views: 189 | Answers: 2 | Created: 2019-03-03
+
+**解决方案 / Solution**:
+Your script has DOS line endings. Convert them to Linux line endings either in your editor or with tools like dos2unix, recode etc. DOS/Windows usually ends lines with CR+LF, while Linux only uses LF. The shell doesn’t know what to make out of the additional CR character and displays it as ^M .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/956506/trying-to-execute-this-shell-script-but-getting-this-error
+
+---
+
+#### 5760. How to pass variable into bash script and use seperate variables with awk?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-scripting, awk | Score: -1 | Views: 797 | Answers: 1 | Created: 2018-04-26
+
+**解决方案 / Solution**:
+Your script works as expected for me. You should really execute using bash script.sh 3 /blah as that ensures you're actually using bash; you may find you're actually using dash or similar, though what you have written is correct sh. $ ./script.sh 3 /opt/comca Purging all logs older than 2018-04-24 awk -v d="2018-04-24" '($1 " " $2) > d' /opt/comca $ cat script.sh date_pattern=$(date -d "-$1 day" '+%Y-%m-%d') catalina_file="$2" echo "Purging all logs older than $date_pattern" #grep -v "$pattern" $2 > catalina.out.temp; mv catalina.out.temp $2 echo "awk -v d=\"$date_pattern\" '(\$1 \" \" \$2) > d' $catalina_file" Have you thought about something simpler? sed -ne "/^$date_pattern/,\$p" "$catalina_file" will output lines from the first occurrence of $date_pattern to the end. You may find debugging easier if that helps.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/909603/how-to-pass-variable-into-bash-script-and-use-seperate-variables-with-awk
+
+---
+
+#### 5761. No such file or directory linux shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, docker, shell | Score: -1 | Views: 4713 | Answers: 1 | Created: 2018-03-11
+
+**解决方案 / Solution**:
+This is probably a line-ending issue. If you open run.sh in vim, and run set fileformat=unix and the + appears (to show you that the file is now modified) it means that the file had DOS line endings, which Bash cannot interpret correctly. Save and quit and the script should work. It future, if something obviously weird is going on, please use a command like od -ctx1 run.sh to look at what is really in the file.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/901061/no-such-file-or-directory-linux-shell-script
+
+---
+
+#### 5762. Checking if a programm is running on linux
+
+**问题描述 / Problem Description**:
+Tags: scripting, shell, nrpe | Score: -1 | Views: 230 | Answers: 1 | Created: 2018-03-06
+
+**解决方案 / Solution**:
+First of all, in order for your script to work as intended, change your "if statement" to: if [ $? -eq 0 ] In addition, it is possible that xinetd is managing your nrpe (it is common) and in that case you won't see a nrpe process running but a xinetd one instead. So I'd say that a better check would be to see if the port is opened or not, I suggest you change the ps -ef... command to (assuming nrpe is configured in the default way and opens tcp port 5666): netstat -plunt | grep -w 5666 The exit status will act as you expect, "0" if the port is opened and "not 0" if the port is closed. Also, you can make your whole script a oneliner: netstat -plunt | grep -qw 5666 && echo "NRPE is running" || echo "NRPE is not running" Example: [root@centolel tmp]# netstat -plunt | grep -qw 5666 && echo "NRPE is running" || echo "NRPE is not running" NRPE is running [root@centolel tmp]# service xinetd stop Stopping xinetd: [ OK ] [root@centolel tmp]# netstat -plunt | grep -qw 5666 && echo "NRPE is running" || echo "NRPE is not running" NRPE is not running
+
+**参考链接 / References**:
+- https://serverfault.com/questions/900212/checking-if-a-programm-is-running-on-linux
+
+---
+
+#### 5763. Did someone just run intentionally db.dropDatabase() on my mongo shell? Can you access mongo remotely and bypass ssh password?
+
+**问题描述 / Problem Description**:
+Tags: ssh, database, shell, mongodb | Score: -1 | Views: 1385 | Answers: 1 | Created: 2017-04-19
+
+**解决方案 / Solution**:
+The log is pretty clear - your DB server is open to the internet - not a good idea ! When it says "connection accepted from 185.129.62.63", that means that a client program (perhaps the mongo shell, perhaps a different application) running on 185.129.62.63 (or tunneling through there) made a connection to your DB server, and it was accepted; the further log entries show your intruder deleting your data. It's unclear whether you have had authentication enabled on your MongoDB server or not; probably not, given what has happened. In any case, you need to learn your lesson; apply the steps in the MongoDB Security Checklist urgently, then restore your data from your backup (you do have a backup, don't you?), and don't make the same mistakes again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/845210/did-someone-just-run-intentionally-db-dropdatabase-on-my-mongo-shell-can-you
+
+---
+
+#### 5764. How to monitor user reports through shell scripting
+
+**问题描述 / Problem Description**:
+Tags: linux, unix, shell | Score: -1 | Views: 467 | Answers: 2 | Created: 2017-04-11
+
+**解决方案 / Solution**:
+All user session start/stop logs will be logged to /var/log/secure or /var/log/auth.log , depending on which distro you're using. You can easily parse that file to identify sign in/out times for each user. Regarding reporting on commands run, Linux systems don't log this unless you specifically configure some sort of command auditing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/843882/how-to-monitor-user-reports-through-shell-scripting
+
+---
+
+#### 5765. How do I paste a list of files to a command?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, mac | Score: -2 | Views: 308 | Answers: 2 | Created: 2020-07-28
+
+**解决方案 / Solution**:
+git has a command for deleting untracked files. git clean --exclude=<pattern> --dry-run # Remove --dry-run to delete for real git clean --interactive # Or, interactive mode is a prompt version Or, a more general solution is to pipe delimited strings into xargs , to batch run some command ( rm ) on the input. Although, this requires that stdin only contains the list of files. For git, this implies using plumbing commands designed to be parsed. In practice, git clean is easier to use for this specific use case.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1027117/how-do-i-paste-a-list-of-files-to-a-command
+
+---
+
+#### 5766. How to use asterisk in a shell program
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, asterisk | Score: -2 | Views: 2754 | Answers: 1 | Created: 2019-08-06
+
+**解决方案 / Solution**:
+You can run an asterisk command by adding the -x option. From the man page: -x command Connect to a running Asterisk process and execute a command on a command line, passing any output through to standard out and then terminating when the command execution completes. Implies -r when -R is not explicitly supplied. So you can do something like: asterisk -rx "pjsip show endpoints"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/978106/how-to-use-asterisk-in-a-shell-program
+
+---
+
+#### 5767. Centos - terminal creates directories/files with no owner/group?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, shell, terminal, cpanel | Score: -2 | Views: 295 | Answers: 1 | Created: 2019-08-01
+
+**解决方案 / Solution**:
+Assuming you are creating the folder mydir as user root , files and folders are created with owner and group of root . You could either Change the owner and group afterwards by chown gcore:gcore mydir Or if the folder contains files you want to use chown as follows to recursively change owner/group. chown -R gcore:gcore mydir Change to the user gcore and create things then sudo -u gcore -i or su - gcore Use sudo on every command sudo -u gcore mkdir mydir
+
+**参考链接 / References**:
+- https://serverfault.com/questions/977618/centos-terminal-creates-directories-files-with-no-owner-group
+
+---
+
+#### 5768. converting bat to shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, shell | Score: -2 | Views: 356 | Answers: 1 | Created: 2019-05-13
+
+**解决方案 / Solution**:
+If set xmls=!xmls! ... is concatenation operator, then for loop would translate as for i in ../../../../res/devices/*.xml do xmls="$xmls $i" done xmls="$xmls ../../../../res/RuntimeCreatedParams.xml"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/966990/converting-bat-to-shell-script
+
+---
+
+#### 5769. How to output one number few times with spaces in one line via bash
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, shell, shell-scripting | Score: -2 | Views: 61 | Answers: 1 | Created: 2019-04-11
+
+**解决方案 / Solution**:
+for ((i=1;i<=a;i++)); do export c=$c" ${b}"; done; echo $c 10 10 10 10 10
+
+**参考链接 / References**:
+- https://serverfault.com/questions/962671/how-to-output-one-number-few-times-with-spaces-in-one-line-via-bash
+
+---
+
+#### 5770. Freebsd 11 custom installer memstick with packages
+
+**问题描述 / Problem Description**:
+Tags: installation, freebsd, shell, automated-install | Score: -2 | Views: 217 | Answers: 1 | Created: 2019-04-03
+
+**解决方案 / Solution**:
+Quick and dirty way. After booting from memstick, drop into console, optinally mount -o rw to remount with read/write permissions, use gpart resize and then growfs to extend filesystem size. Now pkg fetch all packages you need. This will give you a memstick with required packages on board. After installing a fresh system using it, drop into console, chroot into installed system and use pkg add to install them from memstick.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/961235/freebsd-11-custom-installer-memstick-with-packages
+
+---
+
+#### 5771. sed search and add some sting
+
+**问题描述 / Problem Description**:
+Tags: shell, sed | Score: -2 | Views: 59 | Answers: 1 | Created: 2018-06-27
+
+**解决方案 / Solution**:
+sed '/^=.*=$/ s/=\+/& - /' file The first bit is "for each line that starts and ends with =". The second bit is "replace the first sequence of = with: itself space dash space".
+
+**参考链接 / References**:
+- https://serverfault.com/questions/918523/sed-search-and-add-some-sting
+
+---
+
+#### 5772. Shell script to enumerate the (already existing) LDAP group called "VPN Users"
+
+**问题描述 / Problem Description**:
+Tags: ldap, shell, openldap, shell-scripting | Score: -2 | Views: 1376 | Answers: 2 | Created: 2018-05-02
+
+**解决方案 / Solution**:
+The expression to use in your query would be something like this: (&(objectClass=user)(memberOf="VPN Users")) attrs=sAMAccountName Finally: ldapsearch -y pass.txt -h [IP here] -b "ou=x,dc=x,dc=x,dc=x" -D "cn=user,ou=test,ou=x,ou=x,dc=x,dc=x,dc=xx" ` -W "(&(objectClass=user)(memberOf="VPN Users")) attrs=sAMAccountName -y /dev/fd/0
+
+**参考链接 / References**:
+- https://serverfault.com/questions/910408/shell-script-to-enumerate-the-already-existing-ldap-group-called-vpn-users
+
+---
+
+#### 5773. I want to make a sell script to input text into a command in debian
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: -3 | Views: 129 | Answers: 1 | Created: 2023-11-04
+
+**解决方案 / Solution**:
+#!/bin/bash read -p "Enter name " name echo "Hi, $name" read -sp "Enter password " pass echo echo "$name has provided the password $pass" echo change htpasswd -b -c /etc/squid/squid_passwd $name $pass Service squid restart Something like this. The trick is put the password in a variable(basic programming) and then use that variable
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1147202/i-want-to-make-a-sell-script-to-input-text-into-a-command-in-debian
+
+---
+
+#### 5774. Nested directories file restore
+
+**问题描述 / Problem Description**:
+Tags: linux, powershell, bash, shell, shell-scripting | Score: -3 | Views: 90 | Answers: 1 | Created: 2022-01-18
+
+**解决方案 / Solution**:
+find . -type d -iname "*$" -exec bash -c ' loc="$1" ; file="${loc##*\/}" ; \ mv "$loc/"*"/${file%$}" "${loc%$file}${file%$}"' foo "{}" \; Above find command is working for me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090340/nested-directories-file-restore
+
+---
+
+#### 5775. bash ftp change directory on remote server
+
+**问题描述 / Problem Description**:
+Tags: ftp, shell | Score: -3 | Views: 1770 | Answers: 1 | Created: 2018-11-07
+
+**解决方案 / Solution**:
+Just reading the ftp man page I see two ways: cd /path/to/dir put "$stamp"_some.log Or: put "$stamp"_some.log /path/to/dir/"$stamp"_some.log Further, you can just skip the copy command and directly use: put some.log /path/to/dir/"$stamp"_some.log
+
+**参考链接 / References**:
+- https://serverfault.com/questions/939024/bash-ftp-change-directory-on-remote-server
+
+---
+
+#### 5776. Shortcut for: | less [ENTER]
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, shortcut, keyboard-shortcuts | Score: -4 | Views: 238 | Answers: 2 | Created: 2022-04-08
+
+**解决方案 / Solution**:
+With xdotool : sudo apt-get install xdotool Go to : Keyboard settings Create a shortcut with : bash -c ' sleep 0.3; xdotool getactivewindow type " | less" ; xdotool key Return ' Bind a key combinaison, for example : Ctrl + Shift + / Keyboard settings (sorry in french) To use caps lock key Try this : Bind your CAPSLOCK to SuperL : setxkbmap -option caps:super , or an other useless key for you (be careful with keys conflicts). Map your command to your new key
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098151/shortcut-for-less-enter
 
 ---

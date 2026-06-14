@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4899**
+**总计条目 / Total entries: 5036**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -67897,5 +67897,1786 @@ This can be simplified quite a bit using MacOS' open command. I did have the sam
 
 **参考链接 / References**:
 - https://superuser.com/questions/1860586/launch-new-terminal-window-via-hotkey-macos
+
+---
+
+#### 4900. I’ve been curious… How many of you are still on Sequoia even though you can update to Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5l4h7/ive_been_curious_how_many_of_you_are_still_on/
+
+---
+
+#### 4901. I updated my 2019 MacBook Air and I can’t use iMovie anymore. I’m devastated
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5wgvi/i_updated_my_2019_macbook_air_and_i_cant_use/
+
+---
+
+#### 4902. TIL you can change the background image on Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5eg42/til_you_can_change_the_background_image_on_safari/
+
+---
+
+#### 4903. MacOS 27 DB1 experience
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5p2q2/macos_27_db1_experience/
+
+---
+
+#### 4904. Dock Position
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5w5qp/dock_position/
+
+---
+
+#### 4905. Its easier than ever for devs to publish Safari extensions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5m3ov/its_easier_than_ever_for_devs_to_publish_safari/
+
+---
+
+#### 4906. Got myself a macbook air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5sxgl/got_myself_a_macbook_air/
+
+---
+
+#### 4907. Best OS for 2019 iMac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5sejo/best_os_for_2019_imac/
+
+---
+
+#### 4908. Has anyone else seen this error on their Macs + Dropbox?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5y3al/has_anyone_else_seen_this_error_on_their_macs/
+
+---
+
+#### 4909. Siri taking covert screen shots
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5xy7g/siri_taking_covert_screen_shots/
+
+---
+
+#### 4910. Can I change the default behavior on MacOS that, when you minimize a window of an application, the next window becomes active?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5sf8o/can_i_change_the_default_behavior_on_macos_that/
+
+---
+
+#### 4911. How to delete the Tahoe update installer
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5qvxz/how_to_delete_the_tahoe_update_installer/
+
+---
+
+#### 4912. Problema en mi Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5qdc6/problema_en_mi_mac/
+
+---
+
+#### 4913. Mac Studio (M2 Max), only displays “Grand Canyon” screensaver/desktop theme
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5pqia/mac_studio_m2_max_only_displays_grand_canyon/
+
+---
+
+#### 4914. I'm looking for ideas for small macOS apps or widgets
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5om1j/im_looking_for_ideas_for_small_macos_apps_or/
+
+---
+
+#### 4915. So... How much storage do I have remaining, really?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5f83j/so_how_much_storage_do_i_have_remaining_really/
+
+---
+
+#### 4916. M3 MacBook Air + External Monitor = Screen freeze hell after sleep. Tried everything. Anyone fixed this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u5iqq0/m3_macbook_air_external_monitor_screen_freeze/
+
+---
+
+#### 4917. [V2EX] macos 更了 27 导致微信打不开的用这个办法
+
+**问题描述 / Problem Description**:
+在应用程序文件夹里把微信删掉 然后打开终端输入指令 brew install --cask wechat 用这个方法安装的微信是可以在 27 正常运行的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220292#reply6
+
+---
+
+#### 4918. [V2EX] 有升级 macos27 的 V 友吗，感觉发热严重啊，我的是 M2pro 芯片
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220248#reply33
+
+---
+
+#### 4919. [V2EX] 写了个 macOS 小工具：给每个常用 app 绑个全局快捷键，不用再 Cmd+Tab 数位置
+
+**问题描述 / Problem Description**:
+Cmd+Tab 的顺序是按最近使用排的，每次都不一样。想切到某个固定的 app ，还得用眼睛在那一排图标里找、数位置——高频切换时这个动作其实很烦。 我想要的其实很简单：按一个固定的键 = 永远跳到那个 app ，纯肌肉记忆，不用看屏幕。但 macOS 原生没法给某个具体应用绑全局快捷键。 于是写了个 HotkeyLauncher： 给任意 app 绑全局快捷键，比如 Option+Cmd+C 永远打开 Chrome ，不管它现在在第几个 全局生效（基于 Carbon 注册），任何界面下都能触发 菜单栏常驻，支持开机自启 快捷键能导出成 JSON ，换机器直接导入 还处理了一个坑：app 在运
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220245#reply2
+
+---
+
+#### 4920. [V2EX] macOS27JiBA 没法正常使用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220218#reply4
+
+---
+
+#### 4921. [V2EX] macOS27 自动填充短信验证码爽啊
+
+**问题描述 / Problem Description**:
+和手机上的一样了，app 和网页的都可以了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219457#reply10
+
+---
+
+#### 4922. [V2EX] macOS27 的屏幕共享变得指哪打哪了，流畅得根本不像话，推荐各位试试
+
+**问题描述 / Problem Description**:
+我经常在家里用 MacBook 连接 Mac mini 使用屏幕共享，可以确定的是路由器和网络设置从来都没有变过，就只是今天更新了 macOS27 ，真的很惊喜，Apple 到底还做了什么底层优化
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219190#reply25
+
+---
+
+#### 4923. [V2EX] mac 更新失败
+
+**问题描述 / Problem Description**:
+之前在 v 站找了个教程屏蔽了更新，今天想尝试升级 macos27 下载完成后提示， 未能准备软件更新。请重试。 下载所选更新时发生错误。请检查你的互联网连接并重试。 忘记之前是屏蔽什么，有无重置方式。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219033#reply11
+
+---
+
+#### 4924. [V2EX] ios27 磁盘占有太大
+
+**问题描述 / Problem Description**:
+升级 ios27 磁盘占用比之前多了 20g 系统数据大小在 17g ios 大小在 25g 你们的是多少？这样只能是重置还是降级 26 ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220383#reply4
+
+---
+
+#### 4925. [V2EX] 介于国行 iPhone 和外版差距越来越大，想换国内安卓了，求推荐品牌系列
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220372#reply22
+
+---
+
+#### 4926. [V2EX] 招个美区 apple one 车友，五缺一，年付，稳定车
+
+**问题描述 / Problem Description**:
+需要的朋友留下微信，iCloud 只能用六分之一的 2t 存储，先到先得哦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220334#reply2
+
+---
+
+#### 4927. [V2EX] 壁纸颜色失真的 bug 在 ios27 上修复了吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220272#reply0
+
+---
+
+#### 4928. [V2EX] 有一个 Apple ID，注册了 beta.apple，为什么只能收到 iOS 26 beta，没有 27 beta
+
+**问题描述 / Problem Description**:
+需要先更新 26beta 才能收到 27beta 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220255#reply11
+
+---
+
+#### 4929. [V2EX] 有人的 27 系统索引完成吗？
+
+**问题描述 / Problem Description**:
+我已经升级已经差不多五天时间了，不论是 iPhone 还是 iPad 都还在索引，macOS 没有提示但我猜测也还在索引😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220253#reply27
+
+---
+
+#### 4930. [V2EX] 3500 买了一个 macbook pro m1 16➕256，请问怎么验货比较好？
+
+**问题描述 / Problem Description**:
+感觉这个价格还是比较划算的，整台机只有底部有一道划痕，其他地方都正常，然后电池健康 100%，走的闲鱼严选 新手第一次买苹果，请问大家怎么验货好呢？还有平时大概开 50-80 个网页，加上 idea 写 java ，不知道这台设备的性能够不够，以及 3500 的性价比如何，谢谢大家！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220180#reply23
+
+---
+
+#### 4931. [V2EX] 17E 能否双待国内 eSIM 卡和境外实体卡？
+
+**问题描述 / Problem Description**:
+RT ，17E 既然是一个实体 sim 卡槽和一个 eSIM 卡槽吗，那么如果我把中国移动的实体卡转为 eSIM 写入 17E,然后插入 Paygo 紫卡的实体卡，这样能实现双卡双待吗？不会像 Air 那样写入国内 eSIM 卡之后就有电子围栏，然后就不让插境外卡用了吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220037#reply5
+
+---
+
+#### 4932. [V2EX] 今天把 MacOS27 和 iPadOS27 都重置了一下，结果微信上不去了。
+
+**问题描述 / Problem Description**:
+macos 里官网下载的扫码登录不了，appstore 的打开直接崩掉。 iPados 里是二维码出不来 不知道咋整了 还好手机闲麻烦没重置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220030#reply7
+
+---
+
+#### 4933. [V2EX] Apple 开发者个人 team 被误封怎么办
+
+**问题描述 / Problem Description**:
+如题，我自己的 Apple id 下有一个我自己的中国的 team ，还有个海外公司的 team 最近在给海外公司做 macos 的开发，然后今天早上用公司的 team 公证完一个 app 过后收到了邮件说 We have discovered a potentially suspicious software signed with your Apple Developer Program Developer ID certificate 然后我的个人 team 就被禁用了，现在自己的 appstore connect 也用不了，已经有的 app 后端也直接 APNs 报错了 但是公证过的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219734#reply4
+
+---
+
+#### 4934. [V2EX] 港版 17， iOS27，开启新版 AI 流程
+
+**问题描述 / Problem Description**:
+一直挂梯子 + 美区商店 + 通用->语言地区里只设置英文为首选语言（不用改地区）+ Siri 里面的语言设置为英语美国（目前只支持这个语言） 然后等待下载完 AI 后，重启手机，重启手机，这个是重点，然后 Siri app + 灵动岛下拉 Siri 都能正常使用，可以中文对话操作 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219618#reply25
+
+---
+
+#### 4935. [V2EX] [自制小工具分享] AI 老照片修复站上线，送点小礼物给大家 🎁
+
+**问题描述 / Problem Description**:
+折腾了好一阵子，我的 AI 老照片修复网站终于正式上线了：AI Photo Restoration ↗ ( https://aiphotorestoration.online ) 主要是给「家里的老照片」用的那种场景： 结婚照、全家福、老一辈的黑白照片、泛黄、刮花、起斑、发灰发糊的合影，都可以丢进去试试。 下面是同一张老照片的三个阶段效果： 修复前原图： AI 修复后： 修复 + 上色后： 网站特点简单说下： 支持上传 JPG / PNG / WEBP ，单张最高 50MB 专注老照片修复：去划痕、去污渍、提升清晰度、补细节 可以预览效果，再决定要不要花积分下载高清图 不用安装软件，浏览器里直
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220379#reply0
+
+---
+
+#### 4936. [V2EX] 分享个 ChatGPT、Claude、Gemini 在哪买最划算的工具
+
+**问题描述 / Problem Description**:
+https://wheretoai.org/ 上了个能查 gpt ，claude 便宜价的站 有需要大佬可以用下[旺柴]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220374#reply1
+
+---
+
+#### 4937. [V2EX] chatgpt 的网页太好用了，比 codex 强
+
+**问题描述 / Problem Description**:
+一个 15 分钟的录音文件发给他转文字，直接当场拉模型写代码部署了一个语音识别环境，转出来的全对，花了 25 分钟。 把几个核心组件（非密）的代码打包给他审查+修复，效果比我用 codex 还好。 word 、excel 现在都是跟他沟通清楚，然后模板给他，帮我填好内容，格式一点都没问题，需要绘制总体设计图、流程图的，也用 draw.io 的文件格式当场生成并转图片插入 word 中，相当强。 我只能说 20 刀血赚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220367#reply4
+
+---
+
+#### 4938. [V2EX] 做了个 homeassistant 云服务 saas 系统
+
+**问题描述 / Problem Description**:
+如题，目前提供二级域名和消息通知等，后续会继续增加新功能。 有人来试试吗？或者讨论一下有人愿意付费吗 网址是 hacloud.asia
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220318#reply9
+
+---
+
+#### 4939. [V2EX] 发现了一个影视资源站导航与监控平台
+
+**问题描述 / Problem Description**:
+发现了一个影视资源站导航与监控平台，专门监控资源站 www.ziyuanzu.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220313#reply2
+
+---
+
+#### 4940. [V2EX] 腾讯云 618 活动踩坑，提醒买广州轻量活动的朋友不要踩坑
+
+**问题描述 / Problem Description**:
+1.首先活动的页面是这样的 我想一般人单看这个图片应该是不会想到广州的有什么例外的。除非比较细心和小心的同学会点开规则一条条看。（反面教材就是我，粗心大意。。。） 2.踩坑。我直接下单，选了广州的 2 核 4G ，结果一看，既不能免费升配，也不能折扣续费。这个时候，我终于想起看活动规则，一看不要紧，我差点气晕。 3.补充活动规则。 参与免费升配活动的条件：只有中国境内地域的支持免费升配（因库存短缺，暂不覆盖广州地域）。。。 轻量应用服务器-境内：单个用户新购 1 次，优惠续费 1 次，可参与活动配置：省略 ing ；可参与的地域：北京、上海、成都； 4.火气上来了，这图片里面把广州和其他区域并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220286#reply9
+
+---
+
+#### 4941. [V2EX] 市面上的各类招聘软件涉嫌故意让雇主找不到合适的简历
+
+**问题描述 / Problem Description**:
+市面上的各类招聘软件涉嫌故意让雇主找不到合适的简历，让求职者找不到合适的工作，给你推送的也都是 僵尸公司 我是今天刷到一个抖音看到别人这样分析 雇主 HR 自己给自己做了个简历，怎么筛选都找不到自己的这份简历 然后她最后是通过群和社区很快找到匹配度很高的几十份简历 其实就是利用自身的垄断地位，让市场上的这些人付费，从而提高自己公司的营收 这类败类公司，我已经卸载了他的 app ，从此再也不用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220174#reply4
+
+---
+
+#### 4942. [V2EX] 用 Codex 把 Mac 和手机性能都救回来了，效果立竿见影
+
+**问题描述 / Problem Description**:
+最近用 Codex 折腾了一下电脑和手机的性能，效果立竿见影，记录一下。 电脑（ M1 Pro / macOS 26 ） 升级到 macOS 26 之后，WindowServer 占用一直偏高，电脑动不动就发热。为这事纠结了挺久要不要重装、甚至降级系统，结果一直没动手。 这次直接把需求丢给 Codex：关掉了一堆动态效果（透明度、动画这些），还顺手做了后台占用的优化——具体细节我也没细看，反正系统占用一下子就降下来了。对我来说这就够了，不用再为这事焦虑，享受懒人模式挺爽的。 手机（小米） 小米自带一堆卸载不掉的应用，还有像「智慧助理」这种我根本用不上的功能。本着极简主义想清掉，但又懒得去翻那些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220170#reply3
+
+---
+
+#### 4943. [V2EX] 亮亮丽君夫妇揭开了国产资本的野蛮丑恶形态
+
+**问题描述 / Problem Description**:
+https://v.douyin.com/mH5dXB59rrGI/ 他们为自己的房子退房抗争了多年。 账号也被反复封了好几次。 当然他们也利用自己的粉丝群体去尽可能的去带货赚钱。 但是本质上来说，他们还是揭开了中国房地产的真相。 最大的受益方其实还是地主和银行。 他们不承担任何损失，却获得最大的收益。 所以我说某些组织贪婪无比。 希望年轻人能认清这样一个现状。 很多时候他们提倡的事情 我们要琢磨一下，思考一下。不要上当 他们没有任何信用可言。我记得小时候，农村的墙上都贴着，计划生育好，政府来养老。这类的标题，即便如此，当时老百姓都是不相信的，基本上家家户户都会想生男孩，那说明当时的老百姓就认
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220125#reply10
+
+---
+
+#### 4944. [V2EX] 发现 chatGPT 开始耍我了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220088#reply7
+
+---
+
+#### 4945. [V2EX] 腾讯官方客服加我一直跟我说要买产品和续费跟她说，帮我申请优惠，每次一看根本跟官方差不了多少。
+
+**问题描述 / Problem Description**:
+是真的腾讯官方客服。又没优惠加我干啥啊。挺浪费时间了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220012#reply7
+
+---
+
+#### 4946. How to make python 3.11 my default python3 with brew
+
+**问题描述 / Problem Description**:
+Tags: homebrew, python | Score: 48 | Views: 123445 | Answers: 3 | Created: 2022-11-09
+
+**解决方案 / Solution**:
+Note: This applies to any versioned Python installation with Homebrew After installing Python 3.11, you are given the location of the bin folder with Python 3.11: ==> Caveats Python has been installed as /usr/local/bin/python3.11 Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to `python3.11`, `python3.11-config`, `pip3.11` etc., respectively, have been installed into /usr/local/opt/python@3.11/libexec/bin You can add this folder to be first in your PATH and python or python3 will pick up Python 3.11 (since those are in the folder): So: add the following line to ~/.zshrc : export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH" brew --prefix ensures that the correct path is used, regardless of where your brew install resides.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/450303/how-to-make-python-3-11-my-default-python3-with-brew
+
+---
+
+#### 4947. On a m1 Mac, difference between homebrew on /usr/local and /opt/homebrew
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, filesystem, apple-silicon | Score: 7 | Views: 3766 | Answers: 1 | Created: 2022-09-22
+
+**解决方案 / Solution**:
+From https://docs.brew.sh/FAQ#why-should-i-install-homebrew-in-the-default-location Homebrew’s pre-built binary packages (known as bottles) of many formulae can only be used if you install in the default installation prefix, otherwise they have to be built from source. Building from source takes a long time, is prone to failure, and is not supported. Also The prefix /opt/homebrew was chosen to allow installations in /opt/homebrew for Apple Silicon and /usr/local for Rosetta 2 to coexist and use bottles.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448042/on-a-m1-mac-difference-between-homebrew-on-usr-local-and-opt-homebrew
+
+---
+
+#### 4948. Is it possible to format a disk as ext4 on big sur using some brew package?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, formatting, ext4 | Score: 4 | Views: 12072 | Answers: 2 | Created: 2022-10-24
+
+**解决方案 / Solution**:
+In macOS, all your internal and external drives are just /dev/diskX files where the X is the disk number. diskutil list To created a filesystem on an external disk, you will need to partition it. With free space on the disk, you can do so with this command: gpt add -t 0FC63DAF-8483-4772-8E79-3D69D8477DE4 diskX Once partitioned, you format the partition. brew install e2fsprogs `brew --prefix e2fsprogs`/sbin/mkfs.ext4 /dev/diskXs1 mke2fs 1.46.5 (30-Dec-2021) Creating filesystem with 97632 1k blocks and 24384 inodes ... Writing superblocks and filesystem accounting information: done Then mount with the macFuse ext4 command. It is also interesting they can still support fuse, as Apple discontinued kernel extensions in Big Sur. This makes all fuse filesystem look like network shares.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/449459/is-it-possible-to-format-a-disk-as-ext4-on-big-sur-using-some-brew-package
+
+---
+
+#### 4949. How can I use my YubiKey certificate as SSH private/public keys on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, ssh, smart-card | Score: 4 | Views: 3192 | Answers: 1 | Created: 2022-10-07
+
+**解决方案 / Solution**:
+For doing this you need the Yubikey libykcs11 library what allows you to use it as ssh private key and if you want load it into ssh-agent. prerequistites: Homebrew, xcode install xcode as prerequisite for Homebrew xcode-select --install activate Homebrew https://brew.sh /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" extend the profile according to the output from Homebrew installation; the following is valid on ARM based MacOS; on Intel Macs the Homebrew base dir is /usr/local echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)" install the Yubikey PIV library https://github.com/Yubico/yubico-piv-tool/issues/118 brew install yubico-piv-tool Now place the required lib in /usr/local/lib to make it useable for openssh. It is required to copy the lib. For security reason just a symlink won't work for MacOS.(remember to search for the lib in /usr/local on a Intel based Macos) sudo mkdir -p /usr/local/lib sudo cp /opt/homebrew/lib/libykcs11.dylib /usr/local/lib/libykcs11_NOTALINK.dylib using your key with openssh To use your smart-card private key you need to reference the library above to openssh commands. just connect with ssh command: ssh -I /usr/local/lib/libykcs11_NOTALINK.dylib user@hostname extracting the public key from the smart-card to be able to use it in .ssh/authorized_keys files or apps like git ssh-keygen -D /usr/local/lib/libykcs11_NOTALINK.dylib -e loading the smart-card private key into ssh-agent ssh-add -s /usr/local/lib/libykcs11_NOTALINK.dylib removing the smart-card private key from ssh-agent ssh-add -d /usr/local/lib/libykcs11_NOTALINK.dylib
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448697/how-can-i-use-my-yubikey-certificate-as-ssh-private-public-keys-on-macos
+
+---
+
+#### 4950. How to launch docker container from CLI in MacOS (eg `docker run ...`)?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, homebrew, zsh, docker | Score: 4 | Views: 11149 | Answers: 2 | Created: 2022-08-07
+
+**解决方案 / Solution**:
+As far as I know, Docker cannot be installed on a headless machine running MacOS. I finally gave-up and had someone plug a damn monitor into the Mac Mini in the datacenter. When they did, they saw a window that said "Docker" is an app downloaded from the internet. Are you sure you want to open it? Homebrew Cask downloaded this file on 3 May 2022 from www.docker.com . Aplle checked it for malicious software and none was detected. It's super annoying that no output was given by Apple on the CLI to indicate this, but whatever. I figured, for future reference, I'd bypass this using the CLI. You can do so as follows: xattr -r -d com.apple.quarantine /Applications/Docker.app I ran sudo open /Applications/Docker.app again. This time it exited 1 with an error message LSOpenURLsWithRole() failed with error -600 for the file /Applications/Docker.app. This is where I gave-up on the CLI. In the GUI was a window that said: Docker desktop needs privileged access. Docker Desktop needs privileged access to install its networking components and links to the Docker apps. You will be asked for your password. I just clicked "OK" and typed my password into the GUI. After I did that, the docker binary was available user@host ~ % ls /usr/local/bin/docker /usr/local/bin/docker user@host ~ % user@host ~ % export DOCKER_CONTENT_TRUST=1 user@host ~ % docker run --rm -it --entrypoint /bin/bash debian:stable-slim docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?. See 'docker run --help'. user@host ~ % The above error was resolved by ticking "I accept the terms" and clicking Accept in a silly ToS that also appears to be only available to the GUI :facepalm: After that, I re-opened Docker again open -a Docker Again, it exited immediately and no bloody output was printed on the terminal. But in the GUI a window opened that said Docker was starting. After half a minute or so, I could finally start a damn container user@host ~ % docker run --rm -it --entrypoint /bin/bash debian:stable-slim Unable to find image 'debian:stable-slim' locally docker.io/library/debian@sha256:3d412a8a2e0f087738e6185c5cddab08827880a23e5bd9dc8b2494d89e4b33fd: Pulling from library/debian 2bc8f4ca4fd1: Pull complete Digest: sha256:3d412a8a2e0f087738e6185c5cddab08827880a23e5bd9dc8b2494d89e4b33fd Status: Downloaded newer image for debian@sha256:3d412a8a2e0f087738e6185c5cddab08827880a23e5bd9dc8b2494d89e4b33fd Tagging debian@sha256:3d412a8a2e0f087738e6185c5cddab08827880a23e5bd9dc8b2494d89e4b33fd as debian:stable-slim root@4d255f94ce06:/# Update I discovered that there's a documentation page with the commands to install docker from the CLI xattr -r -d com.apple.quarantine /Applications/Docker.app /Applications/Docker.app/Contents/MacOS/install --accept-license --user=`whoami` sudo /Applications/Docker.app/Contents/MacOS/Docker --unattended --install-privileged-components open -a /Applications/Docker.app But I haven't tested this.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/444913/how-to-launch-docker-container-from-cli-in-macos-eg-docker-run
+
+---
+
+#### 4951. Cannot uninstall Python from homebrew
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, homebrew, python | Score: 2 | Views: 21222 | Answers: 3 | Created: 2022-11-07
+
+**解决方案 / Solution**:
+As the package is called python3, try: brew uninstall python3
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/450186/cannot-uninstall-python-from-homebrew
+
+---
+
+#### 4952. Slow Loading of Localhosts - Is this DNS Resolvers?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, dns, apache | Score: 2 | Views: 1732 | Answers: 1 | Created: 2022-10-12
+
+**解决方案 / Solution**:
+Found the answer in this superuser question: DNS resolution delay for entries in /etc/hosts The issue is due to Bonjour and .local domains. The solution is to add ::1 shorty.local (etc for other hostnames) to /etc/hosts
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448908/slow-loading-of-localhosts-is-this-dns-resolvers
+
+---
+
+#### 4953. iTerm2 custom font location
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, font, iterm | Score: 2 | Views: 3022 | Answers: 1 | Created: 2022-10-04
+
+**解决方案 / Solution**:
+I had a similar issue when trying to install Powerline fonts ( https://github.com/powerline/fonts ). Try moving your font files to /Library/Fonts .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448580/iterm2-custom-font-location
+
+---
+
+#### 4954. SSL errors everytime I fetch or push from/to Github
+
+**问题描述 / Problem Description**:
+Tags: terminal, network, homebrew, ssl | Score: 2 | Views: 1441 | Answers: 1 | Created: 2022-09-28
+
+**解决方案 / Solution**:
+Do you use Kaspersky Antivirus? Try disabling it. It's known to cause that issue (see Random failing of SSL (SSL_ERROR_SYSCALL) in macOS Mojave , for example).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448348/ssl-errors-everytime-i-fetch-or-push-from-to-github
+
+---
+
+#### 4955. Fully functional package manager for MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, software-update | Score: 2 | Views: 3808 | Answers: 3 | Created: 2022-09-23
+
+**解决方案 / Solution**:
+apt upgrade on Linux only updates apps installed through apt . Therefore on macOS you need to run a command to update software installed through each source you obtained the software. You could obtain all your software through Homebrew, which includes Google Chrome. Then brew upgrade would upgrade Chrome too.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/448075/fully-functional-package-manager-for-macos
+
+---
+
+#### 4956. Difference between /usr/bin/strings and gstrings from binutils?
+
+**问题描述 / Problem Description**:
+Tags: bash, homebrew | Score: 2 | Views: 624 | Answers: 1 | Created: 2022-07-21
+
+**解决方案 / Solution**:
+Various versions of strings have existed. Most of them simply look for a certain number (four or more) of printable ASCII characters, and decide, without context, that it's found a human-readable "string." This appears to be the case with the supplied strings command. GNU gstrings appears to be much smarter. I don't have gstrings installed, but it seems to be using a heuristic that is a bit smarter than merely looking for printable ASCII characters. (Some 40 years ago, in a C programming class I took, one of our assignments was to write a better version of strings . It wasn't very difficult!) To better understand the discrepancy, I suggest you use a different utility, hexdump . hexdump -C /bin/ls will show you the hexadecimal codes in a table for every byte in the file, with ASCII interpretations of them an the end of each row: 00000000 cf fa ed fe 07 00 00 01 03 00 00 00 02 00 00 00 |................| 00000010 13 00 00 00 10 07 00 00 85 00 20 00 00 00 00 00 |.......... .....| 00000020 19 00 00 00 48 00 00 00 5f 5f 50 41 47 45 5a 45 |....H...__PAGEZE| 00000030 52 4f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |RO..............| 00000040 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 |................| 00000050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000060 00 00 00 00 00 00 00 00 19 00 00 00 28 02 00 00 |............(...| 00000070 5f 5f 54 45 58 54 00 00 00 00 00 00 00 00 00 00 |__TEXT..........| 00000080 00 00 00 00 01 00 00 00 00 50 00 00 00 00 00 00 |.........P......| 00000090 00 00 00 00 00 00 00 00 00 50 00 00 00 00 00 00 |.........P......| As you can see, the same "real" human-readable strings shown on the right are also in the gstrings output. So, the simple answer is, GNU strings does a better job than the default BSD strings .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/444095/difference-between-usr-bin-strings-and-gstrings-from-binutils
+
+---
+
+#### 4957. How to make sure "brew" only installs what I want without breaking other things?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 2 | Views: 3103 | Answers: 1 | Created: 2022-06-23
+
+**解决方案 / Solution**:
+Is there a brew option to do so? For pinning a formula to a specific version, there is brew pin : pin installed_formula […] Pin the specified formula , preventing them from being upgraded when issuing the brew upgrade formula command. See also unpin . Note that the documentation only specifically talks about brew upgrade , but one would assume that the automatic upgrading as part of brew install is covered as well. In the past, there was a brew switch command to toggle between two versions of the same package to assist in managing dependencies. You can get that back now with brew tap mistydemeo/cmd
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442865/how-to-make-sure-brew-only-installs-what-i-want-without-breaking-other-things
+
+---
+
+#### 4958. How to uninstall something from /usr/local/bin if it is installed in /opt/homebrew/bin
+
+**问题描述 / Problem Description**:
+Tags: terminal, applications, homebrew, monterey | Score: 2 | Views: 8766 | Answers: 1 | Created: 2022-06-18
+
+**解决方案 / Solution**:
+Assuming that the file you want to delete in /usr/local/bin/ is the actual file: cd /usr/local/bin/ sudo rm dockutil Edit - This will work on symbolic links as well.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442653/how-to-uninstall-something-from-usr-local-bin-if-it-is-installed-in-opt-homebr
+
+---
+
+#### 4959. Safari keeps opening itself in macOS 26
+
+**问题描述 / Problem Description**:
+Tags: macos, safari | Score: 1 | Views: 530 | Answers: 1 | Created: 2025-10-11
+
+**解决方案 / Solution**:
+I had this issue, but on Sequoia (macOS 15) instead of Tahoe (macOS 26). I started noticing it around the time I updated Safari to version 26 though. It turns out that I was using the Add to Dock Safari feature for Google Calendar, so that I could have a separate "app" for my calendar. Even though I don't use Safari, this feature uses Safari for the "app." The fix was to disable the Safari extensions in the "app." It had different settings than Safari itself. Before that I tried disabling website notifications, extensions, etc. in Safari, but it kept launching at least a few times a week (sometimes multiple times a day). I narrowed it down to the Google Calendar "app" by quitting it. After noticing that Safari stopped launching without that running, I opened it again and disabled the extensions. That was about two weeks ago and Safari hasn't been launching on its own since.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481823/safari-keeps-opening-itself-in-macos-26
+
+---
+
+#### 4960. Unable to upgrade Cmake from 3.29.0 with Homebrew
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, xcode, homebrew | Score: 1 | Views: 1318 | Answers: 1 | Created: 2024-05-10
+
+**解决方案 / Solution**:
+Homebrew only supports a few versions of macOS, right now this means macOS 12 or higher. Either keep using the current version of cmake , switch to MacPorts or compile a newer version yourself.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472537/unable-to-upgrade-cmake-from-3-29-0-with-homebrew
+
+---
+
+#### 4961. How to Show Stage Manager Windows via Keyboard Shortcut
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, sonoma, stage-manager | Score: 1 | Views: 695 | Answers: 1 | Created: 2024-05-09
+
+**解决方案 / Solution**:
+I downloaded BetterTouchTool and made this configuration, it solved this task. Now, when I press Shift Cmd 1 it opens Stage Manager.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472516/how-to-show-stage-manager-windows-via-keyboard-shortcut
+
+---
+
+#### 4962. Newly installed python 3.12 is overshadowed
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, python | Score: 1 | Views: 438 | Answers: 2 | Created: 2024-05-03
+
+**解决方案 / Solution**:
+You can't delete Apple's /usr/bin/python3 . Either make sure that your homebrew version comes first in $PATH; or make sure you specify the full path you want; or use a virtual environment.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472380/newly-installed-python-3-12-is-overshadowed
+
+---
+
+#### 4963. How to force brew to install from local formula (without internet access)
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew | Score: 1 | Views: 3970 | Answers: 1 | Created: 2024-03-26
+
+**解决方案 / Solution**:
+Try adding the following environment variables export HOMEBREW_VERBOSE=1 export HOMEBREW_DEBUG=1 export HOMEBREW_NO_AUTO_UPDATE=1 export HOMEBREW_NO_INSTALL_FROM_API=1 In this case, the path to the formula file was wrong, but the output without the debug flag was worthless. Here's the error when I include the --debug flag: user@host ~ % brew reinstall --verbose --debug ./wget-1.24.5.rb /usr/local/Homebrew/Library/Homebrew/brew.rb (Cask::CaskLoader::NullLoader): loading ./wget-1.24.5.rb Warning: No available formula with the name "./wget-1.24.5.rb". I fixed the issue by changing the ./ to the actual path where the wget-1.24.5.rb file lives. And I was able to fix the attempts to download the formula.jws.json file with curl with the HOMEBREW_NO_INSTALL_FROM_API environment variable. Finally, I realized that if you download the bottle, you don't even need the formula. You can link to it directly brew reinstall --verbose --debug path/to/wget-1.24.5.ventura.bottle.tar.gz
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471340/how-to-force-brew-to-install-from-local-formula-without-internet-access
+
+---
+
+#### 4964. How do I disable any kind of function from the f-keys?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, keyboard, high-sierra, settings | Score: 1 | Views: 251 | Answers: 1 | Created: 2024-03-02
+
+**解决方案 / Solution**:
+First of all thank you all for your help. @Allan's comment was helpful and Based on his answer I researched on the web about key remapping etc. when I found (as you can see in the image attached) that the f9 key was assigned to a shortcut intercepted by the finder. By un-checking the option related to f9 I solved the issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470751/how-do-i-disable-any-kind-of-function-from-the-f-keys
+
+---
+
+#### 4965. Does this `last` output from macOS terminal describe a remote access login to my computer?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, security, malware | Score: 1 | Views: 1012 | Answers: 2 | Created: 2024-02-24
+
+**解决方案 / Solution**:
+I'm assuming you are logged in to the shell. I'm also assuming your prompt looks as it should. I'm also assuming that other commands don't give a similar result. That almost certainly isn't the output of last . You may have a script in your path or an alias in your .zshrc file. It could even be something in your prompt. Try which last which should tell you if either of first two are true. The correct output from it should be /usr/bin/last . You could even try the complete path yourself :- /usr/bin/last Now what do you get? I would also not try and be smart with command line options, I would run the command with none.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/469542/does-this-last-output-from-macos-terminal-describe-a-remote-access-login-to-my
+
+---
+
+#### 4966. Shell with mac key bindings
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard, command-line | Score: 1 | Views: 244 | Answers: 2 | Created: 2024-02-16
+
+**解决方案 / Solution**:
+The closest thing to what you are asking for is a UI REPL editor like Jupyter Notebooks. When in the command line your cursor is limited in its movement and many shells can compute using bash, c, or other loaded computer languages. In order to move around as you want the closest tool is Jupyter notebook, which edits like a text editor and compiles each cell as you enter it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/469324/shell-with-mac-key-bindings
+
+---
+
+#### 4967. My terminal applications start bash, but no init files are getting sourced
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, bash, iterm | Score: 1 | Views: 147 | Answers: 2 | Created: 2024-01-28
+
+**解决方案 / Solution**:
+With your configuration, only .bash_profile should be sourced. .profile is not sourced, if .bash_profile exists. .bashrc is not sourced, if the shell is a login shell. I suggest that you put your configuration settings which should be processesd for both login and non-login shells, into a separate file (say: .bash_common), and source this file from .bash_profile and .bashrc.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468776/my-terminal-applications-start-bash-but-no-init-files-are-getting-sourced
+
+---
+
+#### 4968. iterm2 to honor /etc/paths with bash
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, iterm, path, macos | Score: 1 | Views: 705 | Answers: 1 | Created: 2024-01-22
+
+**解决方案 / Solution**:
+You need to configure iTerm to launch your shell as a login shell. If you don't start your shell as a login shell—the "Command" option merely starts the program you specify—then your shell won't read configuration relating to a login shell. This includes the path components you're talking about, as well as other login-shell-specific startup. You can either use your default shell (which is what the "chsh -s" comment is talking about if you try to use Bash): Or you can use a custom shell, which will invoke it as a login shell:
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468603/iterm2-to-honor-etc-paths-with-bash
+
+---
+
+#### 4969. Python subprocess.run fails with CalledProcessError on Mac but works on Windows
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, python, error | Score: 1 | Views: 1057 | Answers: 2 | Created: 2024-01-19
+
+**解决方案 / Solution**:
+You are building different commands on Windows and on macOS. The macOS equivalent of the PowerShell command is subprocess.run(["bash", "-c", "ls \"File Name.txt\""]) This would require additional quotes around paths/files to protect any whitespace from the shell. But when you use open , no shell is involved and it tries to execute "path/to/myapp.app" which doesn't exist ( path/to/myapp.app does). So either use the bash approach on macOS (and quote the paths), or use open without quoting the paths. PS: Most likely you don't need either, you can also just run subprocess.run(["path/to/myapp.app", "--args", "--input", f'{input}'])
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468485/python-subprocess-run-fails-with-calledprocesserror-on-mac-but-works-on-windows
+
+---
+
+#### 4970. Can't cd in my Google Drive from MacOS with terminal or iTerm2
+
+**问题描述 / Problem Description**:
+Tags: terminal, iterm, google-apps | Score: 1 | Views: 686 | Answers: 1 | Created: 2024-01-12
+
+**解决方案 / Solution**:
+There are several symbolic links involved here: ~/Google Drive points to ~/Library/Application Support/Google/DriveFS/[long ID]/my-drive .../my-drive is itself symlink pointing to ~/Library/CloudStorage/GoogleDrive-EMAIL-ADRESS/My Drive .../My Drive is yet another symlink pointing to ~/My Drive (which contains the actual data) The easy way to resolve this is to remove the Google Drive link and create a new one pointing directly to ~/My Drive : rm ~/Google?Drive ln -s ~/My\ Drive ~/Google\ Drive
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468293/cant-cd-in-my-google-drive-from-macos-with-terminal-or-iterm2
+
+---
+
+#### 4971. Can't get shell script to talk to AppleTalk script in Automator
+
+**问题描述 / Problem Description**:
+Tags: terminal, applescript, bash, automator, script | Score: 1 | Views: 98 | Answers: 1 | Created: 2024-01-02
+
+**解决方案 / Solution**:
+It appears that the Apple-supplied "Run AppleScript" Automator module is not Unicode-friendly. :-( My database includes foreign words, with things like accents, umlauts, etc. (é, ü, etc.) And I'm rather fond of m-dashes ("—"). When I "fixed" the bug in the database that was returning NULL for many records, I changed† the double-dash construct " -- Author Name" to " — Author Name" with an m-dash. That's when the entire thing stopped working! On a hunch, I changed† that back to double-dash, and many , but not all things started working with the supplied AppleScript above. With a bit more testing and research, I discovered that adding the following command-line-parameter to the mysql invocation totally solved the problem: --default-character-set=UTF8 . My database used UTF8MB3, the standard for multi-byte character sets, and somehow that wasn't getting through Automator and into AppleScript. So at this point, I'm avoiding pointing fingers, except that it would have been nice if Apple had given some clue as to why it did not like its input, rather than insisting it simply did not exist. Also, all other tools (BBEdit, Terminal, (bash, wc, sort, etc.), TextEdit, etc.) that I used to examine the output of mysql behaved properly with output that "Run AppleScript" refused to even look at. I'd like to acknowledge the help of @nohillside, who got me thinking it might have something to do with the contents of what was getting passed from the bash script to the AppleScript. †The field causing the problem was a "generated" field. I did not make global changes to the database, rather, I changed the calculation of the generated field.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467930/cant-get-shell-script-to-talk-to-appletalk-script-in-automator
+
+---
+
+#### 4972. Is there a terminal or a setting for a terminal that obeys the usual text editor key combinations like option-backspace?
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard, command-line, shortcut | Score: 1 | Views: 667 | Answers: 1 | Created: 2023-12-19
+
+**解决方案 / Solution**:
+I'm honestly astonished that I'm having to answer my own question here. Is no Mac user in the world ever bothered by this??? Anyway here goes. Some of the comments of the question claim that it's "not the responsibility of the terminal", but technically speaking they're wrong. It can be the responsibility of the terminal, and that's my point. It can also be the responsibility of the shell, for example PSReadLine for Powershell, but unfortunately Powershell doesn't seem to recognise the "command" key on a Mac. So here's a solution, using iTerm2 . Note that in this case, the terminal is responsible for the solution . Use iTerm2 . iTerm2 doesn't do this by default, but it has options to assign key chords (combos). Go to settings -> profiles -> <select profile for example "default"> -> keys -> key mappings (or settings -> keys -> key bindings if you want to set it globally, not recommended), and you'll see a list of default key bindings. You can add your own with the "+" sign at the bottom-left. Press that button, press your key combo, and in the "action" drop-down menu, select "send hex code", which is under the section "send keystrokes" (you'll need to scroll down a bit). The delete-word, delete-line, move-to-beginning-of-line, and many more actions are encoded in hex codes. Now, I don't know the full list, but luckily I found exactly what I need: 0x17 for deleting a word. 0x15 for deleting a line. 0x01 for moving to the beginning of line. 0x05 for moving to the end of line. So for me, I've set command-backspace to 0x15 , option-backspace to 0x17 , command-left remapped to 0x01 (command-left already has a default action that I overwrote), and command-right remapped to 0x05 . In addition, I want to make option-left and option-right skip words just like in a text editor. For this, we need to use escape sequences and not hex codes, which are also under the section "send keystrokes". Skip word left is escape-b, and skip word right is escape-f. This makes iTerm2 behave mostly like a text editor, like it should always have been from the outset in my opinion. Furthermore in my case, I've also set the escape key to 0x05 0x15 (delete line regardless of where the cursor is), to match the behaviour of Powershell in Windows Terminal, but I don't entirely recommend this for everyone because I think, but I'm not sure , that escape key is used for escape sequences or something in terminals (but I never use them so whatever). EDIT This guy actually describes exactly what I found out by trial and error. I wish he saw my question here first.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467572/is-there-a-terminal-or-a-setting-for-a-terminal-that-obeys-the-usual-text-editor
+
+---
+
+#### 4973. I have uninstalled the 383 MB "gcc" and "brew doctor" does not complain. Homebrew no longer needs "gcc" in 2023? Is that correct?
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, sonoma | Score: 1 | Views: 159 | Answers: 1 | Created: 2023-12-17
+
+**解决方案 / Solution**:
+Homebrew relies on the Xcode Command Line Tools (which include clang as a compiler), not on its own gcc package. So unless you have other needs for gcc , it can be safely uninstalled.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467504/i-have-uninstalled-the-383-mb-gcc-and-brew-doctor-does-not-complain-homebre
+
+---
+
+#### 4974. ctrl + w not deleting until the beginning of line in bash shell
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, sonoma | Score: 1 | Views: 139 | Answers: 2 | Created: 2023-12-08
+
+**解决方案 / Solution**:
+Does this answer your question? Bash Ctrl-A Returns to Start of Line but Doesn't Display Properly If your PS1 has unprintable characters in it, such as color codes, you need to explicitly escape them or bash will think they consume space on the line.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467177/ctrl-w-not-deleting-until-the-beginning-of-line-in-bash-shell
+
+---
+
+#### 4975. Terminal - Incorrect cyrillic characters display on vi/vim
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, encoding, vi | Score: 1 | Views: 248 | Answers: 1 | Created: 2023-12-07
+
+**解决方案 / Solution**:
+Solved it. Problem was because locale wasn't set ❯ locale LANG="" LC_COLLATE="C" LC_CTYPE="C" LC_MESSAGES="C" LC_MONETARY="C" LC_NUMERIC="C" LC_TIME="C" LC_ALL= And it wasn't set because encoding wasn't properly set in vim to utf-8 :set expandtab? latin-1 It in its turn was because I had unticked Terminal option "Set local environment variables on startup", had some bug with it before. So the solution is to turn it on back or add to ~/.bash_rc or ~/.zshrc configs export LANG="en_US.UTF-8" export LC_ALL="en_US.UTF-8" or export LANG="ru_RU.UTF-8" export LC_ALL="ru_RU.UTF-8" I've chosen the latter and now it works.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/467156/terminal-incorrect-cyrillic-characters-display-on-vi-vim
+
+---
+
+#### 4976. zsh - Sort files expansion in MacOS Terminal like in Finder: numerically and case-insensitively
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, zsh, sort | Score: 1 | Views: 452 | Answers: 2 | Created: 2023-11-14
+
+**解决方案 / Solution**:
+You can use case-insensitive ( -f ) version sorting ( -V ) with sort : cd <your directory> while IFS= read -r -d $'\0' filename; do # <your command(s) accepting each filename here> printf "%q\n" "$filename" done < <(find . -type f -print0 | sort -z -f -V) Or more efficiently if your command(s) can slurp all filenames: cd <your directory> filenames=() while IFS= read -r -d $'\0' filename; do filenames+=( "$filename" ) done < <(find . -type f -print0 | sort -z -f -V) # <your command(s) accepting all filenames (more efficient if possible)> printf "%q\n" "${filenames[@]}" These are safe, portable ways to execute commands for a list of filenames. Both output: ./bar.jpg ./bar-2.jpg ./bar-10.jpg ./foo.jpg ./foo-1.jpg ./foo-2.jpg ./foo-10.jpg ./STA.jpg ./STA-3.jpg ./STA-20.jpg
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/466436/zsh-sort-files-expansion-in-macos-terminal-like-in-finder-numerically-and-cas
+
+---
+
+#### 4977. Why do I get "operation not permitted" when I try to `ls` the content of Desktop on Mac OS?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, permission, iterm | Score: 1 | Views: 1419 | Answers: 1 | Created: 2023-11-06
+
+**解决方案 / Solution**:
+It turns out that applications have an additional set of permissions over the user folders. I had to allow iTerm2 access to the Desktop folder: System Settings => Privacy & Security => Files and Folders => iTerm => Desktop Folder => Enable
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/466135/why-do-i-get-operation-not-permitted-when-i-try-to-ls-the-content-of-desktop
+
+---
+
+#### 4978. User files ownership anomalies on MacOS 14.0
+
+**问题描述 / Problem Description**:
+Tags: terminal, permission, filesystem | Score: 1 | Views: 371 | Answers: 1 | Created: 2023-11-04
+
+**解决方案 / Solution**:
+By default, macOS ignores ownership of files on volumes that are hosted on external storage devices (unless they're in use as a Time Machine backup destination.) To enable ownership, select the volume icon in the Finder and open the Info window. Click the padlock icon in the lower right corner and authenticate as an administrator. Then uncheck the box in the lower left corner labeled Ignore ownership on this volume . This setting doesn't change anything on the volume. It creates an entry in a database local to that Mac. If the storage device is connected to another Mac, the corresponding setting on that Mac will be applied. You should only take this step if you trust the contents of the volume. Otherwise you could be enabling a security exploit, if there is an executable on the volume with the SUID bit set.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/466078/user-files-ownership-anomalies-on-macos-14-0
+
+---
+
+#### 4979. How to securely manage SSH passphrases via keychain?
+
+**问题描述 / Problem Description**:
+Tags: terminal, password, keychain, ssh | Score: 1 | Views: 1006 | Answers: 1 | Created: 2023-10-28
+
+**解决方案 / Solution**:
+I am not aware that this setup is widely recommended. It is not the default setup provided by Apple, so it is something you must explicitly configure yourself. And yes, if your system is set up so that you can log in from your computer without supplying a passphrase, then others who have access to your computer can do the same. Note that any program cannot just get the passphrase from the Keychain. The Keychain must be opened first. This means that you must be logged on to the computer - i.e. you must know your user account password (or what you use to authenticate with your account). You cannot just login as a guest and then extract your keys from the keychain, nor can programs running in a different context just access your keychain. In order to get a more secure setup, it is advisable to configure your system so that you need to authenticate each time - for example biometrically. I.e. if you set it up so that you need to use Touch-ID every time something needs to grab the information from Keychain - that's a good idea. An easy way to get a setup like this is to use third-party software such as 1Password. You can find their guide for such a setup at 1Password SSH agent . An even better idea is not to store passphrases for keys in the Secure Enclave. Instead generate the keys themselves in the Secure Enclave, so that it can perform cryptographic operations on your behalf without ever revealing the private key. An easy way to set up this is to use the free and open-source software Secretive . A convenient way to get keys generated on a secure element, that is not tied to that specific computer, is to use a YubiKey or an equivalent product.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465834/how-to-securely-manage-ssh-passphrases-via-keychain
+
+---
+
+#### 4980. Ventura 13.6 how to change default browser for sudo to firefox?
+
+**问题描述 / Problem Description**:
+Tags: terminal, safari, firefox | Score: 1 | Views: 123 | Answers: 1 | Created: 2023-10-27
+
+**解决方案 / Solution**:
+When you run the open with sudo you are running as root . This means that Safari is launched by default. To circumvent this, as the -a option to open thusly: sudo open -a /Applications/Firefox.app https://google.com
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465802/ventura-13-6-how-to-change-default-browser-for-sudo-to-firefox
+
+---
+
+#### 4981. How to run python script from remote?
+
+**问题描述 / Problem Description**:
+Tags: terminal, ssh, python | Score: 1 | Views: 318 | Answers: 1 | Created: 2023-10-26
+
+**解决方案 / Solution**:
+If you want to be able to access from outside your network, you need to do a port forward or something similar. If you want to run a command from another external location, you can run a command similar to the following: ssh username@your_server_ip 'your_command_here' I'd start by verifying remote ssh access, then fine tune your command. Good luck.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465755/how-to-run-python-script-from-remote
+
+---
+
+#### 4982. Installing Homebrew on Snow Leopard (10.6.8)? (-Curl is outdated.)
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, snow-leopard, error, ruby | Score: 1 | Views: 492 | Answers: 1 | Created: 2023-10-23
+
+**解决方案 / Solution**:
+Toss homebrew, and get macports . Snow Leopard is still supported, and you can get an up-to-date version of curl that should cure your problems. There's a page dedicated to installing macports , which includes this passage: Using the latest available version that will run on your OS is highly recommended, except for Snow Leopard where the last free version, 3.2.6, is recommended I've never used it (macports) on Snow Leopard, but I've used it for years on systems of late 2011 vintage. It's solid. EDIT: Here's an answer from 2021 that includes additional details.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465652/installing-homebrew-on-snow-leopard-10-6-8-curl-is-outdated
+
+---
+
+#### 4983. How to add Google Chrome to path?
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, google-chrome, path, symlink | Score: 1 | Views: 979 | Answers: 2 | Created: 2023-10-20
+
+**解决方案 / Solution**:
+The precise error message reveals that it tries to open additional files relative to the binary you launched. macbook:~ tripleee$ ln -s /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ~/bin/google-chrome macbook:~ tripleee$ google-chrome dlopen /Users/tripleee/bin/../Frameworks/Google Chrome Framework.framework/Versions/120.0.6099.71/Google Chrome Framework: dlopen(/Users/tripleee/bin/../Frameworks/Google Chrome Framework.framework/Versions/120.0.6099.71/Google Chrome Framework, 0x0105): tried: '/Users/tripleee/bin/../Frameworks/Google Chrome Framework.framework/Versions/120.0.6099.71/Google Chrome Framework' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/tripleee/bin/../Frameworks/Google Chrome Framework.framework/Versions/120.0.6099.71/Google Chrome Framework' (no such file), '/Users/tripleee/bin/../Frameworks/Google Chrome Framework.framework/Versions/120.0.6099.71/Google Chrome Framework' (no such file).Abort trap: 6 The simple and obvious workaround is to make a wrapper script which calls the real binary at its original location instead, without the --headless option. #!/bin/sh exec "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" "$@" Save as /usr/local/bin/google-chrome (or wherever you want it), chmod a+x , and go. Prefer /bin/sh over /bin/bash as it is significantly smaller, and use exec to avoid having the shell hang around waiting for Chrome when it's not going to do anything more after Chrome exits.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465555/how-to-add-google-chrome-to-path
+
+---
+
+#### 4984. Can't view extended attributes of a directory in MacOs Sonoma with xattr, even though they are flagged in the directory listing
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, extended-attributes | Score: 1 | Views: 481 | Answers: 1 | Created: 2023-10-19
+
+**解决方案 / Solution**:
+Extended Attributes are represented by @ , not + . The plus sign indicates ACLs, which you'll see with ls -le : 0: group:everyone deny delete You can see extended attributes with ls -l@ . According to the man page for ls , the -g flag has no effect.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465525/cant-view-extended-attributes-of-a-directory-in-macos-sonoma-with-xattr-even-t
+
+---
+
+#### 4985. All files in directory filename character removal script bug
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, mac, finder, command-line | Score: 1 | Views: 164 | Answers: 1 | Created: 2023-10-19
+
+**解决方案 / Solution**:
+$file holds the absolute path, not the filename of your files. In your example, $file would be /Users/bob/Downloads/videos/my (awesome) kickass! video.mp4 . Since / is not part of the 'legal' character set, it will be removed by sed leading to the move command: mv "/Users/bob/Downloads/videos/my (awesome) kickass! video.mp4" "UsersbobDownloadsvideosmy awesome kickass video.mp4" When you are running the command in the terminal, your current directory is probably the user directory, meaning that the file at the absoulte path gets moved into the current directory and renamed to the name you see. Possible fixes simple workaround: add '/' to the set of 'legal' characters, so that sed wont replace it other, maybe cleaner, option: change the regex in sed to only remove the given characters at the end of the path. That should be possible by using groups and having the first regex group match the directory path and the last group the filename without unwanted characters (which is the last bunch of characters without '/') yet another option: before your loop, cd into the directory with the files and then iterate over *.mp4 instead of the absolute path. This should give filenames in $file making the rest of the script work as expected.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/465521/all-files-in-directory-filename-character-removal-script-bug
+
+---
+
+#### 4986. Is it possible to have a "New Terminal Here" option in finder, similar to the "New Terminal at Folder" when you right click on a folder?
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder | Score: 1 | Views: 416 | Answers: 1 | Created: 2023-10-02
+
+**解决方案 / Solution**:
+If you have not done so already, instruct the Finder application to show the path bar. The current folder is shown on this path bar. You can right click on the current folder and select to open a new Terminal at folder. See image below.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464883/is-it-possible-to-have-a-new-terminal-here-option-in-finder-similar-to-the-n
+
+---
+
+#### 4987. Directories owned by user 501 after migrating between MacBooks and changing users
+
+**问题描述 / Problem Description**:
+Tags: homebrew, permission, user-account | Score: 1 | Views: 585 | Answers: 1 | Created: 2023-09-18
+
+**解决方案 / Solution**:
+Presumably, when you did the migration, the migrated account was created with the user ID number 501, and the migrated files were assigned to that user. When you deleted the account, the files got orphaned -- on the volume, they're listed as being owned by uid #501, but that no longer corresponds to any existing account, so ls just displays the raw uid number. You can transfer ownership of any files inside a directory that're still assigned to the orphaned uid to your new account with: sudo find -x /opt -uid 501 -exec chown yournewusername {} + (After replacing yournewusername with your actual new username, that is.) Note that this doesn't just change ownership of the top-level folder, it also changes any files anywhere inside it that're still owned by 501 (as long as the're on the same volume -- I recommend -x to avoid it accidentally going wild). This is preferred over just using chown -R since that'll change ownership of everything , including files that should be owned by root, etc. Also, you can replace /opt with any other directory you want to scan for orphaned files. As for /etc/passwd: macOS doesn't use that except for very early in the boot process; after that it uses the "directory services" database, which is completely separate. You can look up users with the id command (or if you want to spend some time reading man pages, dscacheutil or dscl ). BTW, you can use ls -ln to see the numeric user IDs (and group IDs) listed for all files, including for accounts that exist. If you'd run it on that same directory (before making any changes), it'd have looked like this: ❯ ls -ln total 0 drwxr-xr-x 9 0 0 288 3 Nov 2016 X11 drwxr-xr-x 33 502 80 1056 17 Sep 18:20 homebrew drwxr-xr-x 3 501 20 96 22 Jan 2017 homebrew-cask Where uid #502 is your new user account uid #0 is root, and 0, 20, and 80 are the group IDs of wheel, staff, and admin respectively.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464369/directories-owned-by-user-501-after-migrating-between-macbooks-and-changing-user
+
+---
+
+#### 4988. MacOs list package install via curl
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, homebrew, macports | Score: 1 | Views: 774 | Answers: 2 | Created: 2023-09-13
+
+**解决方案 / Solution**:
+No. You're not "installing via curl". You're using curl to download an installer, which you then run. In your two examples, you're downloading a shell script that you're then piping into bash .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464213/macos-list-package-install-via-curl
+
+---
+
+#### 4989. Is there a way to turn on and off Color Filter on MacOS Ventura from the CLI
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, display | Score: 1 | Views: 979 | Answers: 1 | Created: 2023-09-13
+
+**解决方案 / Solution**:
+The Shortcuts.app has an action to turn the Color Filter on or off; or to toggle it. You can trigger shortcuts from the Terminal using the shortcuts command. You would need to make sure that the filter was already configured to use Greyscale.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464212/is-there-a-way-to-turn-on-and-off-color-filter-on-macos-ventura-from-the-cli
+
+---
+
+#### 4990. Trying to read xattr values on multiple files
+
+**问题描述 / Problem Description**:
+Tags: terminal, zsh, extended-attributes | Score: 1 | Views: 1158 | Answers: 1 | Created: 2023-09-11
+
+**解决方案 / Solution**:
+The man page format confused me and when Gairfowl explained that -l gives the values, I tested it with no options but (oops) the file I tested it on had no attributes. So actually, I do need a loop, but it’s for ATTR in $(xattr "$FILE"); do xattr -pl $ATTR "$FILE" done
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464157/trying-to-read-xattr-values-on-multiple-files
+
+---
+
+#### 4991. brew install pianobar failed
+
+**问题描述 / Problem Description**:
+Tags: macos, install, homebrew | Score: 1 | Views: 285 | Answers: 1 | Created: 2023-09-10
+
+**解决方案 / Solution**:
+Homebrew in general and the pianobar formula don‘t support Mojave. I ended up installing it with Macports instead.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464092/brew-install-pianobar-failed
+
+---
+
+#### 4992. How do I put my public ssh key back to the correct folder on the terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder, ssh | Score: 1 | Views: 917 | Answers: 1 | Created: 2023-09-09
+
+**解决方案 / Solution**:
+The key files should be in the .ssh folder under your home directory. You can use the cp command in Terminal to copy the files there. cp key_file key_file.pub ~/.ssh/ Replace key_file with the actual name of your file.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464085/how-do-i-put-my-public-ssh-key-back-to-the-correct-folder-on-the-terminal
+
+---
+
+#### 4993. screen utility (terminal app) installed on my mac and I don't know where it came from. How to uninstall it?
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, macos | Score: 1 | Views: 1603 | Answers: 1 | Created: 2023-09-01
+
+**解决方案 / Solution**:
+When I type which screen into the terminal (I'm running Mac 10.14.6), I get /usr/bin/screen which strongly suggests this is standard with the Mac. I also see screen installed in the same place on machines running 10.6.8 and 10.5.8. Looking on Google, it seems this utility is pretty standard with Linux and BSD. Maybe run the same command on your system, just to verify that the application lives in /usr/bin . On Big Sur, the part of the file system where screen normally lives is read only. So unless you have turned that protection off, nothing could be installed there and you would be unable to remove it. My advice would be to just ignore it, unless you found it installed somewhere else in the file system.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463808/screen-utility-terminal-app-installed-on-my-mac-and-i-dont-know-where-it-came
+
+---
+
+#### 4994. iTerm2, nano and mouse
+
+**问题描述 / Problem Description**:
+Tags: terminal, mouse, iterm | Score: 1 | Views: 706 | Answers: 1 | Created: 2023-09-01
+
+**解决方案 / Solution**:
+Found the reason: There is a mouse-related section in the preferences: It is in the Terminal tab and says enable mouse reporting . This was unchecked in my default profile. After enabling it, everything works fine.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463803/iterm2-nano-and-mouse
+
+---
+
+#### 4995. Is there a way to see changes that have been made to my Apple OS (Monterey)?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, monterey | Score: 1 | Views: 128 | Answers: 1 | Created: 2023-08-25
+
+**解决方案 / Solution**:
+You may be aware that it is now a lot more difficult -- if not impossible -- to modify the OS installation itself, as it is now on a Signed Secure, read-only Volume . Modifying the OS volume can lead to it refusing to boot. The OS and "everything you install or change" are now completely separate, which eliminates the need to reinstall the OS for most reasons, and makes it easy to restore your user content, if necessary. Changing the version of python will not have "modified the OS": you just installed an additional python. Installing stuff with homebrew will also not have modified the OS: you just added homebrew stuff. Files in /etc are not part of the system volume, as they are largely configuration files and changeable content. None of that needs SIP disabled. Unless you made major modifications to the OS itself after you installed the last update of Monterey (e.g. booted into Recovery, mounting the System as writable, and modified files in /System or /bin , rather than just installing additional stuff or changing files in /etc ), then you should just be able to update the OS, and you will still have your additional components. If you want 'a list of everything you've installed or modified': then there isn't one, short of the complete file listing of the Data volume.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463585/is-there-a-way-to-see-changes-that-have-been-made-to-my-apple-os-monterey
+
+---
+
+#### 4996. How to hide system username also from title of terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 1 | Views: 379 | Answers: 1 | Created: 2023-08-15
+
+**解决方案 / Solution**:
+There are two additional places where it could be set: If PROMPT_COMMAND is set in your shell, unset it Check your Terminal settings
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463217/how-to-hide-system-username-also-from-title-of-terminal
+
+---
+
+#### 4997. Mac Terminal and applications version installed
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, zsh | Score: 1 | Views: 2174 | Answers: 1 | Created: 2023-08-06
+
+**解决方案 / Solution**:
+Application.app is just a folder and it doesn't respond to any parameters in Terminal. If you want to get the app version you have to check it in its Info.plist file. You can do it in Terminal using: defaults read /path/to/Application.app/Contents/Info.plist CFBundleShortVersionString So for Books.app it'll be defaults read /System/Applications/Books.app/Contents/Info.plist CFBundleShortVersionString which gives me 6.0
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462875/mac-terminal-and-applications-version-installed
+
+---
+
+#### 4998. Mac how to delete broken symlink in Mac trash
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, symlink | Score: 1 | Views: 484 | Answers: 1 | Created: 2023-08-01
+
+**解决方案 / Solution**:
+The directions in Can't remove file from trash work fine except that on my M1 Mac, booting into recovery mode is done by turning off the Mac, then holding the power key down until a couple of icons show up. Click the one that is not your hard disk icon, login, and choose terminal from the menu options. Follow the directions from there.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462686/mac-how-to-delete-broken-symlink-in-mac-trash
+
+---
+
+#### 4999. defaults delete is not working
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, zsh, defaults | Score: 1 | Views: 2341 | Answers: 2 | Created: 2023-07-24
+
+**解决方案 / Solution**:
+I can't currently test this on anything with a sealed system volume, however, even prior to that there are a couple of things missing/wrong. Firstly, you need sudo to change that parameter. Secondly, I don't think it's wise to delete it as it's an 'always there' parameter, just set it the way you'd prefer it. Thirdly, your 'command' is wrong. No quotes "" & no spurious ^ symbol. You set it with a boolean. To disable, you need sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticCheckEnabled -bool false & to enable, set the boolean the other way sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true Confirmed this works on Mojave, as noted I can't test on anything newer right now. The key, as it should appear in the file, is simply <key>AutomaticCheckEnabled</key> <true/>
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462434/defaults-delete-is-not-working
+
+---
+
+#### 5000. Why isn't sudo authentication in one terminal propagated to another terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, security, sudo | Score: 1 | Views: 252 | Answers: 1 | Created: 2023-07-24
+
+**解决方案 / Solution**:
+The default behavior described by the OP occurs with OS X El Capitan and previous versions of OS X. This is where a single record in the time stamp file is used for all login sessions. (This behavior contradicts what is posted in man sudoers for OS X El Capitan.) The current default behavior, where there is a separate record in the time stamp file for each terminal, began with macOS Sierra and continues through macOS Ventura. After some testing with previous versions of OS X/macOS, I can confirm Allan's comment is correct. The relevant part of this comment is repeated below. Try adding this line (using visudo ) to the /etc/sudoers file: Defaults !tty_tickets . Note that starting with macOS High Sierra, Defaults !tty_tickets has been superseded by Defaults timestamp_type = "global" . In other words, both make the same change. You can see the change by entering sudo sudo -V | grep 'timestamp record' .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462430/why-isnt-sudo-authentication-in-one-terminal-propagated-to-another-terminal
+
+---
+
+#### 5001. Catalina's ´top´does not show vsize
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 1 | Views: 80 | Answers: 1 | Created: 2023-07-15
+
+**解决方案 / Solution**:
+For MacOS to show those values, you must include the -r parameter. Add it to the command line you are using: Eg: top -r -stats pid,command,kprvt,vsize,rprvt
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/462115/catalinas-%c2%b4top%c2%b4does-not-show-vsize
+
+---
+
+#### 5002. Escaped newlines make the code work wrong. Why?
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, zsh | Score: 1 | Views: 195 | Answers: 2 | Created: 2023-07-06
+
+**解决方案 / Solution**:
+The quoted example uses a backslash to escape a new line in the middle of what would normally be on one line. Without the backslash, there would be two commands, bazel run … and --bar=another… . The second command is not a command, but just a continuation of the previous line, therefore the new line needs escaping with a backslash so that it runs 'as' one line. The suggestion to use a backslash is instead of having a long command on one line, which would then require scrolling horizontally: bazel run :target -- --flag --foo=longlonglonglonglongvalue --bar=anotherlonglonglonglonglonglonglonglonglonglongvalue In your code, the new lines have meaning. Removing all the new lines creates an invalid command: for (( counter=10; counter>0; counter-- )) do echo -n "$counter " done printf "\n" This is invalid, which is why the version with the backslashes doesn't work in your case — you want the new lines as they have meaning in your code.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461824/escaped-newlines-make-the-code-work-wrong-why
+
+---
+
+#### 5003. Has anyone been able to recover deleted files from an emptied trash (on Mac)?
+
+**问题描述 / Problem Description**:
+Tags: terminal, hard-drive, recovery, data-recovery, trash | Score: 1 | Views: 2680 | Answers: 1 | Created: 2023-06-23
+
+**解决方案 / Solution**:
+Has anyone been able to recover deleted files from an emptied trash (on Mac)? Yes. There's not much detail in the question like your particular Mac model, the location of the original files; if they were on the "main" drive on the Mac or an external drive or even on an SD card (as you've referred to). So, the most accurate answer to your question is "yes, people were able to recover deleted files from an emptied trash." However... Those days are done. I believe it's safe to assume you're not using a Mac with a spinning hard drive as those ended (with exception of the iMac) around 2015. You've likely got an SSD. The problem that you're running into is that an SSD doesn't delete files like regular media. One a file is deleted, the controller (of the drive) sends a command to mark the sectors on the drive as unused and any subsequent read attempts are to return garbage. I've written about this very topic earlier: How to "securely" erase my MacBook's SSD I was able to recover old deleted data from external hard drives and SD cards Old Hard Drives and SD cards are not SSDs You were able to recover data because of the way the files are stored and deleted. First, SD cards are not SSDs. They may be solid state, but they utilize the SPI protocol to communicate with the host. CF cards (even though you didn't mention them) are PATA or IDE drives. Regular hard drives may use the SATA interface, but didn't implement TRIM (that was for SSDs). Basically, all of these storage devices kept files stored like an index that pointed to where the data was stored. To delete the file, you just remove the index leaving the data intact. y That no longer happens with an SSD. With an SSD, the data is "sanitized" instantaneously removed by marking it "new and unused" and if a read attempt is made, it returns garbage. This is why you experienced this... I tried a few recovery softwares none I found efficient and some are even buggy... I also tried photorec but it was only able to recover useless cache files. TL;DR Any commands on the terminal to achieve deleted data recovery? Unfortunately, no. You can recover data from old drives and from SD cards that don't interface with the system's drive controller. Once data is deleted from your SSD drive, it's as good as gone; it's for security and this is by design. There's no Terminal command that's going to make recovery more likely. If there were, the software packages you tried would have utilized those commands themselves.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/461355/has-anyone-been-able-to-recover-deleted-files-from-an-emptied-trash-on-mac
+
+---
+
+#### 5004. Get Homebrew to re-create executable symlinks for an installed package (ghostscript)?
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, symlink | Score: 1 | Views: 2163 | Answers: 1 | Created: 2023-05-17
+
+**解决方案 / Solution**:
+Homebrew doesn't overwrite existing files when linking (you should actually get a warning/error in that cases), but you can force it to link anyway: brew link --overwrite ghostscript
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459965/get-homebrew-to-re-create-executable-symlinks-for-an-installed-package-ghostscr
+
+---
+
+#### 5005. My M1 macbook thinks its build is x86 Intel, how can I fix this to show arm64?
+
+**问题描述 / Problem Description**:
+Tags: terminal, mac, homebrew, apple-silicon | Score: 1 | Views: 2879 | Answers: 1 | Created: 2023-04-15
+
+**解决方案 / Solution**:
+It seems that you have Homebrew installed in /opt/homebrew (where it should be, for ARM) but your PATH still points to /usr/local/bin and picks up the x86 versions. To fix: in your shell profile, change PATH to have /opt/homebrew/bin near the beginning, and restart Terminal cd /tmp; curl -O https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh bash ./uninstall -p /usr/local to remove the Intel version
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458590/my-m1-macbook-thinks-its-build-is-x86-intel-how-can-i-fix-this-to-show-arm64
+
+---
+
+#### 5006. homebrew stopped working after MacOS update
+
+**问题描述 / Problem Description**:
+Tags: homebrew, ruby | Score: 1 | Views: 1464 | Answers: 1 | Created: 2023-04-11
+
+**解决方案 / Solution**:
+Not sure if it helps, but my experience with Homebrew Ruby-version problems after macOS updates is that this has usually solved them: cd $(brew --repo) git pull origin master I.e. in the Homebrew base directory, completely reload Homebrew.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458410/homebrew-stopped-working-after-macos-update
+
+---
+
+#### 5007. I did rm -rf /Library/Java, how to fix it?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, java, ventura, intel | Score: 1 | Views: 672 | Answers: 1 | Created: 2023-04-08
+
+**解决方案 / Solution**:
+I just kinda run out of patience and reinstalled the OS. Java is working fine now. Just for record there are only two folders inside /Library/Java folder at the beginning and both are empty (even no hidden files): /Library/Java/Extensions /Library/Java/JavaVirtualMachines
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/458288/i-did-rm-rf-library-java-how-to-fix-it
+
+---
+
+#### 5008. How to stop brew downloading the formula each time when using services command
+
+**问题描述 / Problem Description**:
+Tags: mac, command-line, homebrew | Score: 1 | Views: 2319 | Answers: 1 | Created: 2023-03-19
+
+**解决方案 / Solution**:
+Try export HOMEBREW_NO_INSTALL_FROM_API=1 in your shell rc file. Also make sure the brew repos are on your disk: brew tap homebrew/core brew tap homebrew/cask
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/457385/how-to-stop-brew-downloading-the-formula-each-time-when-using-services-command
+
+---
+
+#### 5009. Homebrew opens everytime I open the terminal
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, homebrew | Score: 1 | Views: 724 | Answers: 1 | Created: 2023-03-12
+
+**解决方案 / Solution**:
+I had the same error mentioned in the question, and I managed to solve it by removing the line of code that was in the .zprofile file. eval "$(/opt/homebrew/bin/brew)"
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/457044/homebrew-opens-everytime-i-open-the-terminal
+
+---
+
+#### 5010. Unable to fully uninstall Vim from Monterey
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, vi | Score: 1 | Views: 1508 | Answers: 2 | Created: 2023-02-16
+
+**解决方案 / Solution**:
+/usr/bin/vim is the Apple supplied version. For instance on my Ventura system: % /usr/bin/vim --version VIM - Vi IMproved 9.0 (2022 Jun 28, compiled Dec 16 2022 23:29:16) macOS version - arm64 Included patches: 1-981 Compiled by root@apple.com . etc, etc... reports Compiled by root@apple.com . It would be worthwhile verifying who built your remaining version. Note this cannot be uninstalled as it's part of the secure system volume.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/455012/unable-to-fully-uninstall-vim-from-monterey
+
+---
+
+#### 5011. SSH Keys Broken
+
+**问题描述 / Problem Description**:
+Tags: homebrew, ssh | Score: 1 | Views: 314 | Answers: 1 | Created: 2023-01-19
+
+**解决方案 / Solution**:
+Based on the logs you shared, you may want to check why this is present: debug2: we did not send a packet, disable method It seems this error log isn't very specific from client side logging, to have more information, you might want to enable server side logging, also check some potential root cause Enable server side logging I found this answer from TripeHound where he explains how to run a local sshd server, which allows you to see both client and server side logs: Start a new SSH Server instance on a new port in debug mode with: /usr/sbin/sshd -d -p 2222 then connect to it from the client with: ssh -p 2222 user@host You can then check authentication failures using (more info here ): grep 'sshd' /var/log/auth.log Troubleshooting options Hopefully server side logs will help, in any case here are some possible root causes for that error that were shared on this post Post 1 Login shell for the account is set incorrectly in /etc/passwd Make sure shell used to login has been changed by somebody else, if you use a shared user to connect for example, maybe check with your friend as he can access the server Post 2 Bad permissions on the home directory, ssh keys, config folder chmod g-w /home/user chmod 700 /home/user/.ssh chmod 600 /home/user/.ssh/authorized_keys Post 3 A malformed authorized_keys file on the destination host Hope this helps, don't hesitate to provide more information if it doesn't (like server-side logs)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453618/ssh-keys-broken
+
+---
+
+#### 5012. brew upgrade <package> is doing a full upgrade instead of just one package
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 1 | Views: 950 | Answers: 1 | Created: 2023-01-11
+
+**解决方案 / Solution**:
+deno has the following dependencies: llvm ninja python@3.11 rust If you upgrade deno , it will upgrade all dependent packages as well. If you need your Python to be a specific version, install that version (i.e. python@3.9 ) and set up your PATH with the instructions provided post-install of the other Python version. Additionally, as has been noted in the comments, Brew does not provide bottles for macOS Mojave. In the case of rust , a list can be seen here which shows that Big Sur is the oldest OS with bottled rust : https://formulae.brew.sh/formula/rust
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/453173/brew-upgrade-package-is-doing-a-full-upgrade-instead-of-just-one-package
+
+---
+
+#### 5013. Gedit on Mac doesn't open
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 1 | Views: 1212 | Answers: 1 | Created: 2022-12-06
+
+**解决方案 / Solution**:
+The homebrew version of gedit requires XQuartz to run, it will just hang otherwise. The most recent version of XQuartz can be downloaded from the project website .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451562/gedit-on-mac-doesnt-open
+
+---
+
+#### 5014. Unable to install application on fresh Monterey 12.6.2 install (python missing)
+
+**问题描述 / Problem Description**:
+Tags: macos, install, homebrew, monterey, python | Score: 1 | Views: 408 | Answers: 1 | Created: 2022-12-04
+
+**解决方案 / Solution**:
+As you point out, python2 was removed from macOS. References to /usr/bin/python will fail. More importantly, even if you could point the script at your installation of python3, a script written for python2 might not run on python3, due to differences in syntax. Realistically, you need to go back to the developer and get an updated version of the application or its installer. If that's not possible, then you'll need to modify the script. At least, change /usr/bin/python to /usr/bin/env python3 , and then correct any issues caused by differences between the two versions (e.g. print statements with no brackets). Alternatively, you could install python2, and then just change the first line to /usr/bin/env python or python2 .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451443/unable-to-install-application-on-fresh-monterey-12-6-2-install-python-missing
+
+---
+
+#### 5015. Apache (Homebrew) on macOS Monterey not reachable from network
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew, apache, bonjour | Score: 1 | Views: 288 | Answers: 1 | Created: 2022-11-30
+
+**解决方案 / Solution**:
+Same core issue here. However, since other services like sshd and vnc do work, I decided to restart the os. Apache works again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/451274/apache-homebrew-on-macos-monterey-not-reachable-from-network
+
+---
+
+#### 5016. How to run texstudio after doing brew install?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, monterey | Score: 1 | Views: 949 | Answers: 1 | Created: 2022-10-25
+
+**解决方案 / Solution**:
+texstudio is a Homebrew Cask and the correct command line to install it is: brew cask --install texstudio (Since there is no Homebrew formula named texstudio, Homebrew smartly deduced and installed the cask for you) TeXstudio is a GUI app and it will get installed in the /Applications directory. You can launch it as you will launch any GUI app (via Spotlight, Launchpad, Applications directory etc.). The first time you launch TeXstudio, you may encounter this message: To work around the warning and launch the app, navigate to the /Applications directory, locate the app bundle, Control + click on the icon and select Open command. You will now see the following dialogue box. Click on the Open button to continue launching the app. TeXstudio app will now launch normally. The above steps won't be required to be performed in the future and you will be able to launch the app normally this point on. P.S. : If you are looking for a command line to launch the app, you can use the following: open -a texstudio
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/449526/how-to-run-texstudio-after-doing-brew-install
+
+---
+
+#### 5017. Error: jpeg-turbo: undefined method `on_intel' for
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 1 | Views: 414 | Answers: 1 | Created: 2022-10-21
+
+**解决方案 / Solution**:
+Please try to update macOS ( Apple icon > System Preferences > Software Update > Update )
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/449375/error-jpeg-turbo-undefined-method-on-intel-for
+
+---
+
+#### 5018. Is safe install MacPorts and keep Homebrew together? It for macOS El Capitan
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, upgrade, software, macports | Score: 1 | Views: 1225 | Answers: 1 | Created: 2022-10-17
+
+**解决方案 / Solution**:
+MacPorts supports El Capitan (in fact, back to Yosemite). Homebrew does not. Homebrew supports the same versions of macOS that Apple does.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/449147/is-safe-install-macports-and-keep-homebrew-together-it-for-macos-el-capitan
+
+---
+
+#### 5019. rsync 3.x on M1 Mac
+
+**问题描述 / Problem Description**:
+Tags: mac, homebrew, rsync | Score: 1 | Views: 3227 | Answers: 1 | Created: 2022-09-17
+
+**解决方案 / Solution**:
+Homebrew sets up softlinks in its bin folder specifically to deal with different installed package versions. eg: ~ ls -l $(which rsync) lrwxr-xr-x 1 andyg admin 31 25 Aug 11:49 /opt/homebrew/bin/rsync -> ../Cellar/rsync/3.2.5/bin/rsync Adding just the /opt/homebrew/bin to the $PATH means you miss out on the man and info pages too. brew shellenv provides the correct path additions. eg. ~ brew shellenv export HOMEBREW_PREFIX="/opt/homebrew"; export HOMEBREW_CELLAR="/opt/homebrew/Cellar"; export HOMEBREW_REPOSITORY="/opt/homebrew"; export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}"; export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:"; export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}"; You don't use this directly, but a command calling it is added to your shell startup files. So just the correct incantation of the brew shellenv command is needed to setup the relevant env vars. This is what's suggested at the end of the brew install script.... (From a very prominent question in the Related column (64 votes) https://apple.stackexchange.com/a/430904/221742 ) For an M1 Mac (and assuming zsh): ~ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile ~ eval "$(/opt/homebrew/bin/brew shellenv)" Then (in my experience) close your Terminal, maybe even logoff / on, even though the second command should setup the $PATH immediately for the current session. This addition has only been required since brew was available for native Apple Silicon, installing to /opt/homebrew . Beforehand the bin was found in the default $PATH. Now it has to be added especially. By default the Intel installation still goes into /usr/local , with binaries into /usr/local/bin , already in $PATH by default. Be aware there are security risks associated with this method for Intel.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/446804/rsync-3-x-on-m1-mac
+
+---
+
+#### 5020. What's the best way to reinstall curl on MacOS?
+
+**问题描述 / Problem Description**:
+Tags: security, homebrew | Score: 1 | Views: 6867 | Answers: 1 | Created: 2022-08-09
+
+**解决方案 / Solution**:
+curl is installed as part of macOS, and is found at /usr/bin/curl . Since Catalina, this location is on a read-only system volume, so cannot be modified. If you have installed another curl using homebrew, and it's this version that you suspect is modified, then you might want to do a 'clean' reinstall of homebrew, as if you hadn't already got it. "Little Snitch: providing you with data to worry about since 2003."
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/444993/whats-the-best-way-to-reinstall-curl-on-macos
+
+---
+
+#### 5021. Why am I getting "go: undefined method `on_intel' for #<Resource:xxxxx>" when attempting to install direnv by Homebrew?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 1 | Views: 1963 | Answers: 3 | Created: 2022-08-06
+
+**解决方案 / Solution**:
+go to your homebrew git repo and fetch the newest version then try again which brew # For me /opt/homebrew/bin/brew # So use this command git -C /opt/homebrew/Library/Taps/homebrew/homebrew-cask fetch Try install go again~
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/444857/why-am-i-getting-go-undefined-method-on-intel-for-resourcexxxxx-when-at
+
+---
+
+#### 5022. Multiple versions of the same Python installed
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, python, symlink | Score: 1 | Views: 3915 | Answers: 2 | Created: 2022-07-27
+
+**解决方案 / Solution**:
+For me, and maybe in general, /usr/local/opt/python@3.9 is a symlink pointing to ../Cellar/python@3.9/3.9.13_1 , and both correspond to Homebrew's Python 3: no duplicate executable. In contrast, /usr/bin/python3 is provided by Apple. On my machine, it's version 3.8.9 of Python, in contrast to Homebrew's version 3.9.13.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/444416/multiple-versions-of-the-same-python-installed
+
+---
+
+#### 5023. How to fix "undefined symbols" for compiling mplayer
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source, mplayer | Score: 1 | Views: 254 | Answers: 1 | Created: 2022-06-23
+
+**解决方案 / Solution**:
+For some reasons unknown to me a first reinstall of x264 did not work. But when (after some other attempts to install what is missing) I did again brew reinstall x264 something was compiled. But then I did run the following three commands in exactly this order: ./configure make clean make And to my total surprise it did compile finally mplayer . And it works (and fixes a bug only I seem to have).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442864/how-to-fix-undefined-symbols-for-compiling-mplayer
+
+---
+
+#### 5024. Can I generate a standalone binary package from a HomeBrew, MacPorts, Fink source?
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, macports | Score: 1 | Views: 636 | Answers: 1 | Created: 2022-06-20
+
+**解决方案 / Solution**:
+Sure, there are tons of tools for packaging files on macOS and you could choose the one that matches your specific pain points. The best writing I’ve seen on this from a “how to package” standpoint is https://books.apple.com/us/book/packaging-for-apple-administrators/id1173928620 Unless you have a large fleet of machines to manage, MDM and tools for orchestrating the scoping / staging / installation and patching may be overkill. Here is one lead on an open source option. https://www.munki.org/munki/ There are benefits to not installing ports or brew on all machines like starting to handle software supply chain issues and being able to control when and what you install and uninstall.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442726/can-i-generate-a-standalone-binary-package-from-a-homebrew-macports-fink-sourc
+
+---
+
+#### 5025. macOS cursor UI freezes after Fast User Switching
+
+**问题描述 / Problem Description**:
+Tags: macos, mouse, cursor, fast-user-switching | Score: 0 | Views: 16 | Answers: 1 | Created: 2026-06-13
+
+**解决方案 / Solution**:
+Despite not being an engineer, the tools to diagnose this are both free and well documented. https://developer.apple.com/tutorials/instruments/identifying-a-hang For sure try to gather some data and check in activity monitor if you can identify processes that are consuming resources when you see performance suffer, but this problem can be diagnosed and pinpointed with Instruments. Making sure nothing is hanging is the first order, then you’ll need to possibly look at the graphics stack . [iOS link, but the architecture, nomenclature, tools are the same on macOS.] With that information, you might not be able to fix it, but you will have an appreciation for why & when it happens and possibly change what you’re asking of the system to avoid it. Or you can run a sysdiagnose right before you trigger the problem, perform the fast user switch a minute after the diagnosis completes and trigger another sysdiagnose when the machine is lagging. If this is repeatable and you have the diagnostics from three separate days were the same action causes the same misbehavior that’s logged, Apple support might get that to their engineers to see if there is something they want to address…
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486588/macos-cursor-ui-freezes-after-fast-user-switching
+
+---
+
+#### 5026. Where are the custom Apple Loops of GarageBand stored?
+
+**问题描述 / Problem Description**:
+Tags: macos, garageband | Score: 0 | Views: 39 | Answers: 1 | Created: 2026-06-04
+
+**解决方案 / Solution**:
+User loops have been stored in : ~/Library/Audio/Apple Loops/ ~/Library/Application Support/Garageband/ However, it's possible that Apple changed this with the recent "Studio" apps rebranding. Logic 12 and MainStage 4 now store most user content (including downloaded sample instruments) under ~/Music . (This is a guess, but it could be that the loops aren't in separate files anymore, but in some sort of bundle, like photos.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486542/where-are-the-custom-apple-loops-of-garageband-stored
+
+---
+
+#### 5027. OS slow after changing monitor
+
+**问题描述 / Problem Description**:
+Tags: macos, display, mac-mini | Score: 0 | Views: 49 | Answers: 1 | Created: 2026-05-26
+
+**解决方案 / Solution**:
+Your display isn't suitable for use with Macs. macOS is optimized for displays with a pixel density of 218 PPI, which works out to 5K resolution at 27" or 6K resolution at 32". You have 4K resolution at either 27" or 32", whichever it really is, and that's too low. The discrepancy between the actual size of the screen and what the display reports isn't a good sign either. Usually users complain of either blurry text or UI elements that are too large, rather than slowness, but I don't see any other explanation for the problem. I guess it's possible that you might get better results with a different cable, but you're never going to have a good experience with that display. If possible, you should return it. For a recommended display setup for your model, see: Mac External Display Support by Chip — M1, M2, M3, M4, M5 (retinadesk.com).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486493/os-slow-after-changing-monitor
+
+---
+
+#### 5028. Copy/Paste tab or comma-separated columns to Numbers in separated cells
+
+**问题描述 / Problem Description**:
+Tags: macos, numbers, copy-paste | Score: 0 | Views: 59 | Answers: 1 | Created: 2026-05-22
+
+**解决方案 / Solution**:
+In Numbers 15.2.1 the following procedure can be used: Paste in the text from the terminal. It needs a minimum of two lines to be recognised as a list After doing so, Numbers detects a list has been pasted and a prompt appears top-right 'Table data was imported and can be adjusted' Click on this message and a dialog appears where the import settings can be changed Select the Delimited tab, and there you can select whatever delimiter you have used in your data The relevant page in the Apple manual will work for inserted files and pasted text. https://support.apple.com/en-gb/guide/numbers/tan9f3c54bdc/15.2/mac/26.5
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486474/copy-paste-tab-or-comma-separated-columns-to-numbers-in-separated-cells
+
+---
+
+#### 5029. Question on Activation Lock and Device Password
+
+**问题描述 / Problem Description**:
+Tags: macos, password, encryption | Score: 0 | Views: 53 | Answers: 1 | Created: 2026-05-22
+
+**解决方案 / Solution**:
+If you gave your Apple Account credentials to the purchaser, he has complete control of the account, assuming that the Mac you sold was registered as a trusted device for the purpose of two-factor authentication . If the device is not trusted for TFA, you should still change the password. If you gave him the login password for your former user account on the device, assuming that it's different from your Apple Account password (as it should be), then you gave him no useful information at all, and he won't be able to unlock the Mac. Just don't use that password ever again, for anything. To release the activation lock remotely, see: Activation Lock for Mac . For the steps you should have taken before delivery, see: What to do before you sell, give away, trade in, or recycle your Mac . Links to support.apple.com .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486470/question-on-activation-lock-and-device-password
+
+---
+
+#### 5030. Can Apple Loops created in the Mac version of Garageband be opened on the iOS version?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, garageband | Score: 0 | Views: 36 | Answers: 1 | Created: 2026-05-19
+
+**解决方案 / Solution**:
+I'm no expert on Garageband but I just tried with the iPhone app: Open the Loop editor Tap on the "+" at the left to add a Loop Select the Files tab
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486452/can-apple-loops-created-in-the-mac-version-of-garageband-be-opened-on-the-ios-ve
+
+---
+
+#### 5031. Headless Mac mini disconnects SSH / remote sessions after macOS 26.4 update — Dark Wake Thermal Emergency triggered by mediaanalysisd in Power Nap
+
+**问题描述 / Problem Description**:
+Tags: macos, sleep-wake, mac-mini, pmset, power-nap | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-05-18
+
+**解决方案 / Solution**:
+After tracing this through pmset -g log , log show , and SMC thermal events, here's the full mechanism and a layered fix. Sharing because I couldn't find a complete writeup elsewhere. Root cause: DarkWake has a conservative fan policy + an SMC-firmware-level kill switch macOS has two "awake" states with very different thermal behavior: FullWake DarkWake (Power Nap) Display On (or sleeps independently) Forced off Fan curve Standard — ramps freely with temp Conservative — designed to stay quiet overnight Thermal envelope Wide — sustained load OK, throttles CPU if needed Narrow — at thermal level 4, SMC firmware forces sleep Intended workload Active user sessions Brief background tasks (mail fetch, TM increment) When DarkWake workload exceeds the envelope, the SMC firmware (not user-space powerd ) emits the kill signal: DarkWake → mediaanalysisd / TM / etc. runs → temp climbs to level 4 → SMC Thermal pressure requested Sleep during power nap → forced sleep (bypasses every user-space PreventUserIdleSystemSleep assertion) This is a firmware-level rule. caffeinate -i , app-held sleep assertions — none of them stop it. FullWake doesn't have this kill switch. Same workload → fans ramp to ~5000 RPM → temp stabilizes at level 2–3 → sustained without issue. Why it started after 26.4 specifically Every major macOS update (and some point releases) resets mediaanalysisd 's analysis state and may bundle new ML models that need full re-inference across the Photos library: Video decoding (AVD hardware decoder) Neural Engine inference (face / scene / object detection) Metal GPU shaders Heavy disk I/O across Photos library Empirically on my system: Metric Pre-update Post-update mediaanalysisd log events/day ~600 ~3,800 mediaanalysisd: task progress events/day ~0–50 3,000+ Thermal emergencies/day 0 40+ The post-update workload is large enough that a typical Power Nap DarkWake window cannot complete the queued task before crossing thermal level 4. Why remote-control tools disconnect together (the second-order effect) coreaudiod holding PreventUserIdleSystemSleep keeps DarkWake alive. Thermal level 4 → forced sleep. The forced sleep is hard: TCPKeepAlive=active doesn't help here — the connection's keep-alive state is in the NIC offload table, but only Apple-blessed services (APNs, mDNS, etc.) register sockets there. User-space sockets from SSH, Tailscale, custom remote-agent tooling are NOT in the offload list, so the forced sleep drops them. After sleep, those connections are dead. Reconnect happens only when something else wakes the Mac — typically an incidental APNs push from an unrelated service (iMessage, iCloud, Find My), which DOES wake the host because its socket IS in the offload list. That's why every remote tool dies simultaneously and reconnects at the same moment minutes later. Diagnostic commands # 1. Count thermal-emergency sleeps over the last 7 days log show --predicate 'eventMessage CONTAINS "Thermal Emergency" \ OR eventMessage CONTAINS "Thermal pressure requested Sleep"' \ --last 7d --info 2>/dev/null | grep -c "^2026-" # 2. Confirm mediaanalysisd is the busy process log show --predicate 'process == "mediaanalysisd" \ AND eventMessage CONTAINS "task progress"' \ --last 24h 2>/dev/null | grep -c "^2026-" # Baseline: 0–50. Active backlog: 3000+. # 3. Who is holding sleep open right now? pmset -g assertions | grep -E "PreventUserIdleSystemSleep|coreaudiod" # 4. Trace thermal level escalation log show --predicate 'subsystem == "com.apple.thermalmonitor" \ OR eventMessage CONTAINS "thermalLevel"' \ --last 1h --info 2>/dev/null | grep -v "<private>" Fix — three levels Level 1: Disable Power Nap (minimal disruption) sudo pmset -c powernap 0 Stops mediaanalysisd , Time Machine, iCloud sync from running during DarkWake. The work isn't lost — mediaanalysisd will catch up during FullWake when the fan curve can sustain the load. Trade-off: those tasks won't run while the Mac is otherwise asleep. For a Mac you actively use during the day, the catch-up window is sufficient. Level 2: Never sleep on AC (recommended for headless / remote-controlled Mac mini) sudo pmset -c sleep 0 powernap 0 displaysleep 10 No sleep → no DarkWake → no thermal kill switch. Display still sleeps (saves the 10–30 W from the monitor). Mac mini idle FullWake ≈ 5 W; the delta vs sleep is small. This is the cleanest fix if you rely on always-on remote access. It also incidentally fixes a separate problem: most remote-control tools cannot wake a sleeping Mac via incoming traffic, because their sockets aren't registered for the NIC keepalive offload. With sleep 0 , no wake required — your message arrives, Mac is awake, processed instantly. Level 3: launchctl disable system/com.apple.mediaanalysisd (do not do this) Breaks Visual Look Up, Live Text, Photos search, face recognition, and Apple Intelligence features. Apple respawns the service anyway. Skip. Long-term: monitor when the backlog clears, then revert If you don't want sleep 0 permanently, set up a daily check via launchd that counts mediaanalysisd task progress events. When count is < 200/day for 3 consecutive days, the backlog is done and you can revert. ~/scripts/check-mediaanalysis-backlog.sh : #!/bin/bash set -uo pipefail LOG_DIR="$HOME/logs" STATE_FILE="$LOG_DIR/backlog-clear-streak" WATCH_LOG="$LOG_DIR/backlog-watch.log" PROGRESS_THRESHOLD=200 REQUIRED_STREAK_DAYS=3 mkdir -p "$LOG_DIR" log() { printf '[%s] %s\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')" "$*" >> "$WATCH_LOG"; } progress=$(/usr/bin/log show \ --predicate 'process == "mediaanalysisd" AND eventMessage CONTAINS "task progress"' \ --last 24h 2>/dev/null | grep -cE '^2026-' || true) log "progress_24h=${progress} (threshold: < ${PROGRESS_THRESHOLD})" if [[ "$progress" -lt "$PROGRESS_THRESHOLD" ]]; then streak=$(cat "$STATE_FILE" 2>/dev/null || echo 0) streak=$((streak + 1)) echo "$streak" > "$STATE_FILE" log "BACKLOG CLEAR — streak ${streak}/${REQUIRED_STREAK_DAYS}" if (( streak >= REQUIRED_STREAK_DAYS )); then log "REVERT TRIGGER" /usr/bin/osascript -e 'display notification "mediaanalysisd backlog cleared — revert pmset" with title "Mac mini" sound name "Glass"' echo 0 > "$STATE_FILE" fi else echo 0 > "$STATE_FILE" fi ~/Library/LaunchAgents/com.YOU.check-mediaanalysis-backlog.plist : <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> <plist version="1.0"> <dict> <key>Label</key><string>com.YOU.check-mediaanalysis-backlog</string> <key>ProgramArguments</key> <array> <string>/bin/bash</string> <string>/Users/YOU/scripts/check-mediaanalysis-backlog.sh</string> </array> <key>StartCalendarInterval</key> <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>0</integer></dict> </dict> </plist> Load: launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/com.YOU.check-mediaanalysis-backlog.plist When the notification fires, revert (use your pre-override values from pmset -g custom snapshot): sudo pmset -c sleep 1 powernap 1 Why "reset SMC" and other generic advice falls short Reset SMC — doesn't help because the workload causing overheat is software, not firmware Wait it out — true but takes 1–4 weeks for large Photos libraries killall mediaanalysisd — Apple respawns; you'll be fighting it indefinitely Disable Power Nap alone — addresses mediaanalysisd, but doesn't address the same thermal trap when a remote user sends a heavy command (which also lands in DarkWake without HID input) Level 2 ( sleep 0 ) addresses both the OS-induced backlog AND user-induced remote workload, which is why it's the right fix for headless / remote-controlled Mac minis.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486444/headless-mac-mini-disconnects-ssh-remote-sessions-after-macos-26-4-update-da
+
+---
+
+#### 5032. How to enable iCloud Keychain to use passkeys on MacOS 26.5
+
+**问题描述 / Problem Description**:
+Tags: macos, icloud, keychain, tahoe, passkey | Score: 0 | Views: 71 | Answers: 1 | Created: 2026-05-18
+
+**解决方案 / Solution**:
+The OP reports success after creating a new Apple Account and signing in to it. The problem with the old account is unknown. If anyone has had a similar experience and can shed light on the matter, please comment.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486442/how-to-enable-icloud-keychain-to-use-passkeys-on-macos-26-5
+
+---
+
+#### 5033. Is there any way to “Erase Junk Mail…” in iOS the same way one might with the context menu for Mail in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, mail.app, contextual-menu | Score: 0 | Views: 117 | Answers: 1 | Created: 2026-05-17
+
+**解决方案 / Solution**:
+The closest thing to that in iOS is to open the Junk mailbox, then tap Select > Select All and then the Trash icon in the lower right corner. You have to repeat this process for each mail account. I thought there might be a way to do it with a Shortcut, but I don't see how.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486434/is-there-any-way-to-erase-junk-mail-in-ios-the-same-way-one-might-with-the-co
+
+---
+
+#### 5034. Why is my Apple TV app not working on my Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, tv.app | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-05-16
+
+**解决方案 / Solution**:
+Step 1 Quit the TV app if it's running. Copy this line to the Clipboard: ~/Library/Preferences/com.apple.TV.plist In the Finder, select Go > Go to Folder... from the menu bar, then paste into the text box that opens. A Finder window should open with a file named com.apple.TV.plist selected. Move that file to the Desktop, leaving the window open. Launch the TV app and test. You may have to recreate some of its settings. If the app is working now, you can delete the file you moved to the Desktop. Otherwise, quit the app again and put the file back where it was, overwriting the new one that will have been created in its place. Step 2 Do as above with each of these items: ~/Library/Caches/com.apple.AppleMediaServices/com.apple.AppleMediaServicesKit/com.apple.TV ~/Library/Caches/com.apple.TV ~/Library/Group Containers/group.tvappservices.container ~/Library/HTTPStorages/com.apple.TV These are folders. Please move the whole folder, not just its contents.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486429/why-is-my-apple-tv-app-not-working-on-my-mac
+
+---
+
+#### 5035. Why is my MacBook Pro self-discharging all the time (since update to macOS 10.15.8)?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, hardware, charging, firmware | Score: 0 | Views: 76 | Answers: 1 | Created: 2026-05-15
+
+**解决方案 / Solution**:
+This answer won't satisfy you, but it's the best I can come up with after thinking about the question. What you want to know is the self-discharge rate and/or parasitic drain on the battery during shutdown, not counting the small current draw from the system clock. I don't know of any prepackaged automated way to collect that data. You could write a simple shell script that calls ioreg or system_profiler and runs at startup from a LaunchDaemon. But all you really need to do is make a note of the "State of Charge (%)" under "Power" in System Information, just before shutting down for the night, and again just after starting up, along with the times. As a scientist I'm sure you can find a good way to extract useful information from that data. It won't necessarily be accurate, because you don't know how accurately the hardware is measuring the charge state. First, though, for context, you should read this: What does Elevated Self-discharge Do? (batteryuniversity.com). Self-discharge has an asymptotic time dependency, but a parasitic drain does not. The author cites an "estimated self-discharge" for Li-ion batteries of "5% in 24h, then 1–2% per month (plus 3% for safety circuit)." So if the battery is losing 5% the first night while the machine is shut down and unplugged, does that continue if you let it drain longer? What is the longest you would leave it in that state? Is there an asymptote, and what is it? If there is an external current leak, there will be no asymptote, and the drain will continue until the battery is discharged completely. How long does that take?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486426/why-is-my-macbook-pro-self-discharging-all-the-time-since-update-to-macos-10-15
+
+---
+
+#### 5036. How to convert HEIC to JPG while retaining EXIF data?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, automator, file-conversion | Score: 0 | Views: 140 | Answers: 3 | Created: 2026-05-12
+
+**解决方案 / Solution**:
+I have not used this in awhile, but its what someone did for me a long time ago when I had the same issue: The original date and time of the pictures taken were getting replaced by date of import to Mac (if I remember correctly). I select my images in Finder that I want to change and drag and drop them on the Automator App icon for this script which is on my desktop. for f in "$@"; do touch -t $(date -j -f "%Y%m%d%H%M" -v-6H $(mdls $f | grep kMDItemContentCreationDate | head -n1 | awk '{gsub("[^[:digit:]]+"," ");print $1$2$3$4$5}') +%Y%m%d%H%M) $f done
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486409/how-to-convert-heic-to-jpg-while-retaining-exif-data
 
 ---
