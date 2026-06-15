@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T22:25:14.314315+00:00",
+  "generated_at": "2026-06-15T22:23:25.045080+00:00",
   "files": [
     {
       "path": "network-security/index.md",
@@ -8,7 +8,7 @@
     },
     {
       "path": "network-security/linux.md",
-      "size_bytes": 1266238,
+      "size_bytes": 1275247,
       "first_line": "# Linux 网络安全漏洞 | Linux Network Security"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "path": "system-vulnerabilities/linux.md",
-      "size_bytes": 1500026,
+      "size_bytes": 1512226,
       "first_line": "# Linux 系统漏洞知识库 | Linux System Vulnerabilities"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "path": "system-vulnerabilities/windows.md",
-      "size_bytes": 488436,
+      "size_bytes": 497742,
       "first_line": "# Windows 系统漏洞知识库 | Windows System Vulnerabilities"
     },
     {
@@ -48,23 +48,23 @@
     },
     {
       "path": "system-troubleshooting/linux.md",
-      "size_bytes": 4349621,
+      "size_bytes": 4385339,
       "first_line": "# Linux 系统故障知识库 | Linux Troubleshooting"
     },
     {
       "path": "system-troubleshooting/macos.md",
-      "size_bytes": 2841182,
+      "size_bytes": 3063755,
       "first_line": "# Macos 系统故障知识库 | Macos Troubleshooting"
     },
     {
       "path": "system-troubleshooting/windows.md",
-      "size_bytes": 3599712,
+      "size_bytes": 3621654,
       "first_line": "# Windows 系统故障知识库 | Windows Troubleshooting"
     }
   ],
   "entry_counts": {
-    "network-security": 3903,
-    "system-vulnerabilities": 3647,
-    "system-troubleshooting": 17405
+    "network-security": 3924,
+    "system-vulnerabilities": 3681,
+    "system-troubleshooting": 17742
   }
 }

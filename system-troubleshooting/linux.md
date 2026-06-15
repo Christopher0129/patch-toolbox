@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5776**
+**总计条目 / Total entries: 5841**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -82924,5 +82924,856 @@ With xdotool : sudo apt-get install xdotool Go to : Keyboard settings Create a s
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1098151/shortcut-for-less-enter
+
+---
+
+#### 5777. Unexpected result from parameter expansion to remove prefix
+
+**问题描述 / Problem Description**:
+Tags: bash, parameter | Score: 3 | Views: 261 | Answers: 3 | Created: 2026-06-13
+
+**解决方案 / Solution**:
+Using echo "${a#* }" works and removes the shortest prefix string in $a matching * (everything up to the first space). The original expansion does not do what is required because it matches and replaces the longest possible substring, i.e., in this case, from the start of the string to the last space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806391/unexpected-result-from-parameter-expansion-to-remove-prefix
+
+---
+
+#### 5778. I wrote 5000 lines of assembly because I was angry.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6gy45/i_wrote_5000_lines_of_assembly_because_i_was_angry/
+
+---
+
+#### 5779. Russian spam and profanities are now plaguing the AUR, only a few days after 1,500+ packages were affected
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6mibv/russian_spam_and_profanities_are_now_plaguing_the/
+
+---
+
+#### 5780. Linux 7.2 is implementing the Rust zerocopy library to allow eliminating some additional "unsafe" Rust code elements within the kernel
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6npqm/linux_72_is_implementing_the_rust_zerocopy/
+
+---
+
+#### 5781. Firefox 152 is now available, with JPEG-XL support being compiled by default & new settings UI. There are also a number of other developer additions
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6ml14/firefox_152_is_now_available_with_jpegxl_support/
+
+---
+
+#### 5782. Episteme: Open Source, Document and E-book Reader (Android and Linux(new))
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6e145/episteme_open_source_document_and_ebook_reader/
+
+---
+
+#### 5783. 3D Rubik's Cube in the Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6dk1t/3d_rubiks_cube_in_the_terminal/
+
+---
+
+#### 5784. For Linux 7.2, the minimum version requirement for LLVM/Clang has been raised to 17 & Distributed Thin LTO support has been added
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u670s3/for_linux_72_the_minimum_version_requirement_for/
+
+---
+
+#### 5785. Curl summer of bliss
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6e0oa/curl_summer_of_bliss/
+
+---
+
+#### 5786. Notes from the PipeWire Hackfest 2026: Part 1
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u681w7/notes_from_the_pipewire_hackfest_2026_part_1/
+
+---
+
+#### 5787. Announcement: New release of the JDBC/Swing-based database tool has been published
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6rxr6/announcement_new_release_of_the_jdbcswingbased/
+
+---
+
+#### 5788. Video: Join the LibreOffice community – Build up your skills and learn new things
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u69ser/video_join_the_libreoffice_community_build_up/
+
+---
+
+#### 5789. Initial reverse engineering notes on a generic HryFine BLE smartwatch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6hn2f/initial_reverse_engineering_notes_on_a_generic/
+
+---
+
+#### 5790. Recordings of the GNUstep online meeting of 2026-06-13 are online
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u5zvin/recordings_of_the_gnustep_online_meeting_of/
+
+---
+
+#### 5791. Weekly 'I made a useful thing' Thread - June 12, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u3oyab/weekly_i_made_a_useful_thing_thread_june_12_2026/
+
+---
+
+#### 5792. Guess I'm the only IT person here today
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6m9m5/guess_im_the_only_it_person_here_today/
+
+---
+
+#### 5793. Am I Just Burnt Out?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6j1qy/am_i_just_burnt_out/
+
+---
+
+#### 5794. MS forgot to renew their cert for https://connectivity.office.com/
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u63hb0/ms_forgot_to_renew_their_cert_for/
+
+---
+
+#### 5795. Anyone read about Microsoft Scout yet?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6i9oq/anyone_read_about_microsoft_scout_yet/
+
+---
+
+#### 5796. Entra Admin Center Issues?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6tkro/entra_admin_center_issues/
+
+---
+
+#### 5797. Ansible in a large-scale Windows enterprise environment?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6twzt/ansible_in_a_largescale_windows_enterprise/
+
+---
+
+#### 5798. Secure Boot CA 2023 Update deadline approaching - what exactly happens to offline/non-SB clients?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u69v44/secure_boot_ca_2023_update_deadline_approaching/
+
+---
+
+#### 5799. What's the best way of learning a system with minimal documentation?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6fxgg/whats_the_best_way_of_learning_a_system_with/
+
+---
+
+#### 5800. Cohesity vs Rubrik
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6pwn5/cohesity_vs_rubrik/
+
+---
+
+#### 5801. Shadow vibe coder in my department
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u5jtub/shadow_vibe_coder_in_my_department/
+
+---
+
+#### 5802. Google workspace and o365 hybrid free/busy not working
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6tj6m/google_workspace_and_o365_hybrid_freebusy_not/
+
+---
+
+#### 5803. Best FREE monitoring tool and a traffic monitoring tool?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6k5l5/best_free_monitoring_tool_and_a_traffic/
+
+---
+
+#### 5804. SaaS vendors with shadow IT business model
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6aox2/saas_vendors_with_shadow_it_business_model/
+
+---
+
+#### 5805. LAPS - and fallback
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6j5ac/laps_and_fallback/
+
+---
+
+#### 5806. How do you respectfully handle a client who frequently cuts you off?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u64vyj/how_do_you_respectfully_handle_a_client_who/
+
+---
+
+#### 5807. Excel Printing Bug. New or Re-introduced old bug?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6lbld/excel_printing_bug_new_or_reintroduced_old_bug/
+
+---
+
+#### 5808. Anyone seeing post-login black screen (cursor only) after KB5094126 / Win11 25H2 build 26200.8655? Intermittent, fleet-wide, SessionEnv flipped to Manual
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6qej5/anyone_seeing_postlogin_black_screen_cursor_only/
+
+---
+
+#### 5809. Permissions on Windows Temp folder
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6g811/permissions_on_windows_temp_folder/
+
+---
+
+#### 5810. Microsoft Defender for Endpoint flags code package vulnerabilities on users laptops and I'm unsure how to patch
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u69y0c/microsoft_defender_for_endpoint_flags_code/
+
+---
+
+#### 5811. DLP/M365 license level and sensitivity labels for Employees vs Subcontractors
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6isfn/dlpm365_license_level_and_sensitivity_labels_for/
+
+---
+
+#### 5812. Issues with printing files with commas from Excel online
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6kkfs/issues_with_printing_files_with_commas_from_excel/
+
+---
+
+#### 5813. Best External SSD for Moving some VMs
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6ngp0/best_external_ssd_for_moving_some_vms/
+
+---
+
+#### 5814. Question about self hosted mail server for bulk email newsletter
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u6sjd0/question_about_self_hosted_mail_server_for_bulk/
+
+---
+
+#### 5815. [V2EX] 未来大模型硬件成本下降 5-10 倍，我们的未来会是什么样的？
+
+**问题描述 / Problem Description**:
+说实话最近工作没有太多需求，空下一些时间深夜做一些无所谓的 瞎想 。 众所周知的是，2023 年 gpt3 刚出来的时候大家可不像今天这么感觉大模型能完美替代几乎所有程序员工作。而 2023 年到现在也不过 3 年。那么，如果再把时间维度拉长到 3-5 年，我们的未来会是什么形态？ 已知前提 ： 模型的提升本质上实际上是信息密度提升，存在边际效应，但是从 2026 回看过去三年，已经提升很多，未来仍有一定提升空间。 nvdia 的硬件是存在高溢价的，仅从成熟制程集成电路技术的角度来说计算成本没有现在这么贵。 与大模型聊天后做出的推断性判断 ： 已知过去三年间低端模型（个人用户的消费级硬件有潜在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220689#reply15
+
+---
+
+#### 5816. [V2EX] 如何评价 TCL 这个岗位
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220691#reply0
+
+---
+
+#### 5817. [V2EX] 送会员 | 播面--文图音视讲透八股文
+
+**问题描述 / Problem Description**:
+AI 时代做这个产品总有种莫名逆流而上的感觉，哈哈哈哈哈 anyway ，希望能帮到一些正在面试的人或者面试官 在意见反馈中发送 bomianfm 即可领取会员～，祝大家面试顺利呀～ 欢迎提建议和拍砖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220690#reply0
+
+---
+
+#### 5818. [V2EX] YOU.COM 这家怎么样？和 openroute 比较呢？
+
+**问题描述 / Problem Description**:
+大家有使用 you.com 的大模型的吗？看着有好多模型 和 openroute 相比如何呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220670#reply1
+
+---
+
+#### 5819. [V2EX] 裁，都裁，大的要来了对吗
+
+**问题描述 / Problem Description**:
+寒气释放到现在，近几年网络总是零星传出各种裁员 近期又传出各大厂将要裁员幅度均达 30%+ 有种币圈大跌的熟悉感： 先是扶老太太下楼梯，最后咣当一脚送老奶奶下天台 夜深娃睡，分享个人经历 挺唏嘘的，2018 年开始搞 web3 经历过多次因资金链断裂、牛熊转换导致裁员 可以说本人比很多人提前感受到寒气，面试体验更是拉满 有的质疑 web3 背景会问：你为什么会选择我们公司？ 也有质疑频繁裁员会问：为什么裁你不裁别人？ 现在他们应该找到答案了吧 从各种野鸡所一路坚持干到了宇宙第一交易所，结果还是逃不开裁员的命运 犭槽的赵不群果真是伪君子，疫情那会他号召员工自愿出国 员工大会追问下他承诺：不会裁掉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220661#reply1
+
+---
+
+#### 5820. [V2EX] Chrome 的 Network 中如何展示出接口请求的发起时间？
+
+**问题描述 / Problem Description**:
+我想问下 Chrome Network 里怎么能展示出来接口请求的发起时间？我想要的是发起时间， 年月日 时分秒 或者时间戳这样的，不是接口的耗时时间。最好是能在 Network 面板里直接展示出来， 有没有什么简单的方式？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220637#reply2
+
+---
+
+#### 5821. [V2EX] sing-box 性能确实强，但是配置是真的难，各种不兼容
+
+**问题描述 / Problem Description**:
+各个版本感觉是断层式变化，改的太激进了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220635#reply17
+
+---
+
+#### 5822. [V2EX] 阿里开源的 ocr(open code review)AI 代码审查重点变了
+
+**问题描述 / Problem Description**:
+卷了一段时间的覆盖率，尝试用 LLM 对单个 PR 做完整的覆盖，结果越来越烧 token 。合规要求不能接 coderabbit 。现在在用 ocr： github.com/alibaba/open-code-review 这个工具用 go 写主要是做处理并发，核心是在 Prompt 模板（ MAIN_TASK / PLAN_TASK / RE_LOCATION_TASK / REVIEW_FILTER_TASK ），针对不同语言的 规则文档 ，和 review 用的 agent 工具集定义。 放到 CI 里，跑了一个项目历史累积的 1400 个 PR ，连续跑了十多个小时，只改了 1 ～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220633#reply0
+
+---
+
+#### 5823. [V2EX] 大家用 AI 官网直接订阅的比例高吗？
+
+**问题描述 / Problem Description**:
+想问下现在 AI 如火如荼的，还有坚持不用 ai ，纯手写代码的吗？ 我能想到的就是某些涉密企业，非涉密行业我周围基本全部都用 ai 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220631#reply7
+
+---
+
+#### 5824. [V2EX] 现在 Token 这么贵，这轮 AI 带来的科技行情是不是还得持续几年，是不是可以 all in 科技了
+
+**问题描述 / Problem Description**:
+AI 这轮变革才刚开始，一个 AI 助手动不动上千一个月的订阅费，就像当初的移动流量 **10 元 70M**，到现在 **10 元 10G**。 算力最终也会变成基础设施，接近“白菜价”。 本质是在定价这条 AI 超级周期——三星、SK 海力士这些厂商先涨为敬。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220629#reply2
+
+---
+
+#### 5825. [V2EX] 智谱刚出的 Zcode+glm5.2 有用的嘛？
+
+**问题描述 / Problem Description**:
+薅那个 100w token 跑两下就推荐套餐了，关键套餐你拿货来卖呀。有遇到怎么解决的嘛？没看到有设置并发的配置，这个是 opencode 二开的工具吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220623#reply1
+
+---
+
+#### 5826. [V2EX] 工控狗对 AI 的迷茫
+
+**问题描述 / Problem Description**:
+曾经毕业我也想做一个程序员，很向往。奈何大学一般，学习也一般，没人要，就从事了本专业电气自动化。 刚毕业去车间接线，后来画电气图，调试程序，出差，开始独立设计 plc ，hmi ，那时候做电气就给人感觉一种比较 low 的感觉，社区群里也都是自我嘲讽。当然现在也是这样。 工作到大概三年前的时候，感觉电气行业学到头了， 于是开始研究.net 上位机。先学了 C#的语法，然后找一些开源的上位机框架学习学习，还有一些付费课程网上下载下来看看。想着试试看以后也变成程序员了。结果没有项目经验的学习效率极低，慢慢也就放弃了。 结果 AI 来了，从 2024 年开始通过 AI chat 学习.net fra
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220614#reply8
+
+---
+
+#### 5827. [V2EX] 大家的“公益短信”能够按照关键词屏蔽么？
+
+**问题描述 / Problem Description**:
+我的菊花好像不行，不管怎么设置，都能收到“向某某学习”的那些公益短信。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220608#reply31
+
+---
+
+#### 5828. [V2EX] 花云-flowercloud 是跑路了吗, 线路极其不稳定,持续很久了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220583#reply32
+
+---
+
+#### 5829. [V2EX] GPT-5.5 真能让人用得舒心吗？怎么在我这跟弱智一样
+
+**问题描述 / Problem Description**:
+纯吐槽贴。太长不看： 听不懂人话 。 本贴接续 https://www.v2ex.com/t/1218023 ，因为上个帖子里有人说「不用 Codex ，模型性能当然差！你的抱怨都是无效的」，所以我最近换用了 Codex ，继续吐槽几个例子。 以下例子均使用： 官网 GPT Pro 账号（让美国朋友帮忙注册的）+ 最新版 Codex + 开 xhigh （有思考过程） 。已用几个账号质量检测站检测过「是否是满血模型」，均为 100% 通过 。 要求它「合并代码，先运行编译测试再 commit 」。我刚说完这句，还在 Skill 里特意强调了一遍。结果它改完代码 什么都不跑、什么都不查，转头直接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220572#reply75
+
+---
+
+#### 5830. [V2EX] 肉身已在门外，奈何支付卡住， Codex Pro 你们是怎么付款成功的？
+
+**问题描述 / Problem Description**:
+最近想入个 Codex Pro 20max ，结果在支付这一步直接卡死。 目前的战况： PayPal ➡️ 失败 国内/香港信用卡 ➡️ 失败 尝试换到日本、德国节点支付 ➡️ 依旧失败 看了网上的一些攻略，基本都在推荐用礼品卡，想问下现在这是不是唯一解了？ 如果只能用礼品卡的话，走哪家买比较稳，不容易触发风控？ 或者还有没有其他野路子能支付成功的？ 求老司机带路，实在是被这支付系统整得没脾气了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220570#reply51
+
+---
+
+#### 5831. [V2EX] 记录一次遇到神人公司的奇葩经历
+
+**问题描述 / Problem Description**:
+嘉兴九州文化 一面通过了直接谈薪，一开始说好十二薪，后面又改成十五薪砍 base 但是书面十二薪阴阳合同。想了想有业务前景就催 offer,过几天再问又说没有 hc 了。期间 hrbp 电话语调阴阳怪气，反复强调这是公司的规定，自己没有权利改动。 开不起预算就直接说不合适得了，吃在碗里看在锅里，避雷
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220565#reply3
+
+---
+
+#### 5832. [V2EX] 我发现一个问题
+
+**问题描述 / Problem Description**:
+Opus 曾经作为宇宙最强模型，之前除了贵没有缺点。 但是我在看一些人体验分享 Fable 5 模型的时候，会说用 Fable 5 去检查之前用 opus4.8 生成的有顽固 bug 的代码，很快解决了。以此来说明 Fable 5 很强。 但是不是说明 opus 之前也不是那么完美？有没有过吹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220554#reply5
+
+---
+
+#### 5833. [V2EX] 离职的风吹到了我身上，毕业啦
+
+**问题描述 / Problem Description**:
+睡完午觉，刚接到人事的电话。 到会议室人事说：公司决定每端只留一个做维护，产品不再做更新了。 这一刻我知道我在这边的职业生涯是到头了。 其实从今年三月份，就已经有了预感。 零零散散的需求跟迭代，大部分的客户群里也很安静。 所以意外，也不意外。 base 苏州，做了十来年的后端，不知道下一步何去何从。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220553#reply54
+
+---
+
+#### 5834. [V2EX] 这几天 codex 的用量是不是有点问题啊
+
+**问题描述 / Problem Description**:
+我是 plus 订阅。一个 java 后端问题，他写完代码直接从 99%消耗到 79%，这个问题可能涉及到多个 java 类。但是另一个是前端 vue 组件，我确定就一个文件，就让他改一个方法，从 99%到 84%，这尼玛我哪还敢用啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220551#reply26
+
+---
+
+#### 5835. [V2EX] Cursor Plus 不能用 Claude 的模型了吗？
+
+**问题描述 / Problem Description**:
+我的显示地区不支持。 这个是我支付的原因，还是 ip 的原因？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220531#reply2
+
+---
+
+#### 5836. Linux nft firewall: overlapping set elements
+
+**问题描述 / Problem Description**:
+Tags: linux, nftables | Score: 1 | Views: 43 | Answers: 1 | Created: 2026-06-12
+
+**解决方案 / Solution**:
+I cannot say whether it intended, but it works as designed. Set elements are inserted sequentially; for each element nftables checks whether this element already exists (for interval sets it includes checking for overlapping ranges). So yes, the result of inserting elements into a interval set depends on the order of insertion. It is unrelated to the internal representation. When inserting new element nftables basically performs lookup using the underlying methods. There are linear table, hash table and special tree-like structure for interval sets. Lookup is of course more efficient than simple linear search. nftables supports auto-merge set property which will coalesce multiple overlapping/adjacent ranges into one: tw:~ # cat /tmp/nft table ip filter { set iponly { type ipv4_addr flags interval auto-merge elements = { 10.1.1.100, 10.1.1.0/24, 10.1.1.4/30, } } } tw:~ # nft -f /tmp/nft tw:~ # nft list ruleset table ip filter { set iponly { type ipv4_addr flags interval auto-merge elements = { 10.1.1.0/24 } } } tw:~ # nft destroy element ip filter iponly \{ 10.1.1.200/32 \} tw:~ # nft list ruleset table ip filter { set iponly { type ipv4_addr flags interval auto-merge elements = { 10.1.1.0-10.1.1.199, 10.1.1.201-10.1.1.255 } } } tw:~ # The catch is that auto-merge is implicitly disabled for concatenated types, it is only supported for sets with elements of basic types as above.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199203/linux-nft-firewall-overlapping-set-elements
+
+---
+
+#### 5837. How to add a custom message on the kernel console/virtual terminal on startup or shutting down
+
+**问题描述 / Problem Description**:
+Tags: fedora | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-06-15
+
+**解决方案 / Solution**:
+I am doing this for fun and educational purposes only since i am new to linux. Hi! Welcome here! You picked among the worst possible part of your system to start learning something: What you want to do is rather involved, and would require you to replace the software that either shows the Fedora Logo or the system text log on startup and shutdown ( plymouthd from the plymouth project is that component ) with your own modified version of that software. For technical reasons, this software needs to start super early in the boot process, long before you can use many of the facilities that make a modern Linux system behave like a modern Linux system. So, you'd really be learning a lot, but comparatively little that is extremely helpful for day-to-day Linux usage or development for Linux, or even on the Linux kernel itself. Such a modification would require you to write C code to replace the text console you see when you press Esc with something else, deal with a lot of low-level Linux interfaces in that C code, as you'd be interfacing with the Linux kernel's graphical driver interface directly, unlike any other graphical software, which can rely on Wayland or X11 to offer a more useful interface. Then, after you've done that and building your own silverblue boot image ("initrd") with your version of it, and boot it, know how to tell silverblue not to overwrite your own version of it with the official fedora version on updates (and: silverblue's whole point is that you don't fiddle in the base image!). You won't get far on this if you don't know yet how to run an operating system in a virtual machine on Linux first, because it will take a lot of time to develop things if you always need to restart a computer to test your changes. So, my honest advice here: I know this seemed like a nice first thing, but you happened to just hit a technologically very involved problem. Thousands of other interesting graphical things that can be done with less hurdles before you can even get started! Pick a different project. Showing something while your system is not currently shutting down is much, much easier.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806410/how-to-add-a-custom-message-on-the-kernel-console-virtual-terminal-on-startup-or
+
+---
+
+#### 5838. Enabling GNOME Keyring Popup Window
+
+**问题描述 / Problem Description**:
+Tags: debian, gnome-keyring | Score: 0 | Views: 54 | Answers: 1 | Created: 2026-05-20
+
+**解决方案 / Solution**:
+I finally remembered. It was the Unlock private key prompt. I was asked to set a passphrase some time ago and I did so. I've checked in Passwords and Keys ( Seahorse ), and the passphrase somehow disappeared from the SSH keys. So, I set it for each key and the window appears again.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806073/enabling-gnome-keyring-popup-window
+
+---
+
+#### 5839. Why are these GTK+ config files doing nothing on my system?
+
+**问题描述 / Problem Description**:
+Tags: debian, fonts, gtk3 | Score: 0 | Views: 45 | Answers: 1 | Created: 2026-05-19
+
+**解决方案 / Solution**:
+The font settings in ~/.config/gtk-3.0/settings.ini are not used by GTK3 on a modern system. The preferred way to change fonts is gnome-tweaks > Fonts > Interface Text. The font change instantly affects a running GIMP 3.2.2-1. From the command line, you can update the font settings in ~/.config/dconf/user via: dconf write /org/gnome/desktop/interface/font-name "'Arial 22'" The ~/.config/gtk-3.0/settings.ini is only still written by KDE systemsettings . You cannot use a YAML-like colon, and must use the INI-like equals sign. KDE generates, only for other apps to ignore, this: [Settings] ; ... gtk-font-name=Arial, 22 ; ... Neither KDE nor gnome-tweaks puts any font-related options in gtk.css . An old GTK version might have used settings.ini .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806057/why-are-these-gtk-config-files-doing-nothing-on-my-system
+
+---
+
+#### 5840. Linux real time kernel 6.8.2 freezing on Ubuntu 26 on Dell Workstation
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, real-time | Score: 0 | Views: 70 | Answers: 1 | Created: 2026-05-12
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805940/linux-real-time-kernel-6-8-2-freezing-on-ubuntu-26-on-dell-workstation
+
+---
+
+#### 5841. Firefox scroll wheel control
+
+**问题描述 / Problem Description**:
+Tags: debian, firefox, mouse, scrolling | Score: 0 | Views: 155 | Answers: 1 | Created: 2026-05-09
+
+**解决方案 / Solution**:
+Actually it is possible (And recomendable AFAICT) to control the scroll effect directly in Firefox. First open "about:config" in a new tab (Understand and accept --if you do agree-- the default warning). There should be several entries starting with mousewheel. . If mousewheel.system_scroll_override.enabled is active (which it is by default on modern versions of Firefox) the mousewheel.system_scroll_override.vertical.factor will control the vertical speed of using the wheel. Adjust as desired. The effect is immediate when the entry is modified and accepted. You can try and test the effect on any open web page in some other browser tab. Note: There are several ways to affect the scroll speed at the system level. But Firefox does it´s own translation anyway (If activated). I believe (Haven´t tried yet) this will be available on Firefox in any other OS (Arch, Mint, even Windows). Other mousewheel controls that affect the increasing of speed factor as more signals from the wheel are generated. Similar as a mouse acceleration works are: The mousewheel.acceleration.factor Is a Firefox configuration setting (accessible via about:config) that defines the rate at which scroll speed increases during mouse wheel scrolling. It works in conjunction with The mousewheel.acceleration.start, Which determines how many consecutive wheel movements are required before acceleration kicks in. Function: It acts as a multiplier; increasing the value results in more rapid acceleration as you scroll faster.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805898/firefox-scroll-wheel-control
 
 ---

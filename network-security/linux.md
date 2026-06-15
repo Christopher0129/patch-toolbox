@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1897**
+**总计条目 / Total entries: 1918**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -30489,5 +30489,257 @@ It was discovered that .NET did not properly handle link resolution before file 
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2487891
+
+---
+
+#### 1898. CVE-2026-44188 - ansible-lightspeed: Ansible Lightspeed: Session hijacking and unauthorized data…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Ansible Lightspeed: Session hijacking and unauthorized data access due to insufficient session expiration. Bugzilla: 2466764
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466764
+
+---
+
+#### 1899. CVE-2026-12216 - Duktape: svaarala duktape duk_api_bytecode.c memory corruption
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Duktape: svaarala duktape duk_api_bytecode.c memory corruption. Bugzilla: 2488812
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488812
+
+---
+
+#### 1900. CVE-2026-45833 - chromadb: ChromaDB: Arbitrary Code Execution via Code Injection
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromadb: ChromaDB: Arbitrary Code Execution via Code Injection. Bugzilla: 2488430
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488430
+
+---
+
+#### 1901. CVE-2026-45832 - chromadb: ChromaDB: Authorization bypass in V1 collection-level endpoints
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromadb: ChromaDB: Authorization bypass in V1 collection-level endpoints. Bugzilla: 2488411
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488411
+
+---
+
+#### 1902. CVE-2026-45831 - ChromaDB: ChromaDB: Unauthorized cross-tenant actions due to improper…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ChromaDB: ChromaDB: Unauthorized cross-tenant actions due to improper authorization checks. Bugzilla: 2488417
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488417
+
+---
+
+#### 1903. CVE-2026-50560 - netty-codec-http2: Netty: Denial of Service due to HTTP/2 max header size handling
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-http2: Netty: Denial of Service due to HTTP/2 max header size handling. Bugzilla: 2488407
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488407
+
+---
+
+#### 1904. CVE-2026-50020 - netty-codec-http: Netty: Data manipulation via request-boundary confusion in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-http: Netty: Data manipulation via request-boundary confusion in HttpObjectDecoder. Bugzilla: 2488421
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488421
+
+---
+
+#### 1905. CVE-2026-50011 - netty-codec-redis: Netty: Denial of Service via malicious Redis array header
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-redis: Netty: Denial of Service via malicious Redis array header. Bugzilla: 2488413
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488413
+
+---
+
+#### 1906. CVE-2026-50010 - netty-handler: Netty: Improper trust manager handling leads to hostname…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-handler: Netty: Improper trust manager handling leads to hostname verification bypass. Bugzilla: 2488429
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488429
+
+---
+
+#### 1907. CVE-2026-45830 - chromadb: ChromaDB: Unauthorized data manipulation due to improper authorization…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromadb: ChromaDB: Unauthorized data manipulation due to improper authorization validation. Bugzilla: 2488408
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488408
+
+---
+
+#### 1908. CVE-2026-48006 - netty-codec-redis: Netty's Lack of Lifecycle Cleanup Leads to Pooled ByteBuf Leak…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-redis: Netty's Lack of Lifecycle Cleanup Leads to Pooled ByteBuf Leak in RedisArrayAggregator. Bugzilla: 2488433
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488433
+
+---
+
+#### 1909. CVE-2026-47691 - io.netty/netty-resolver-dns: Netty has Insufficient Bailiwick Validation for NS…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] io.netty/netty-resolver-dns: Netty has Insufficient Bailiwick Validation for NS Records. Bugzilla: 2488439
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488439
+
+---
+
+#### 1910. CVE-2026-47244 - netty-codec-http2: Netty: Denial of Service via uncontrolled HTTP/2 concurrent…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netty-codec-http2: Netty: Denial of Service via uncontrolled HTTP/2 concurrent streams. Bugzilla: 2488399
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488399
+
+---
+
+#### 1911. CVE-2026-46340 - netty-transport-sctp: Netty-transport-sctp: Denial of Service due to unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-transport-sctp: Netty-transport-sctp: Denial of Service due to unbounded memory growth from SctpMessage fragments. Bugzilla: 2488388
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488388
+
+---
+
+#### 1912. CVE-2026-45674 - netty-resolver-dns: Netty: Information disclosure and data manipulation due to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netty-resolver-dns: Netty: Information disclosure and data manipulation due to improper CNAME record validation. Bugzilla: 2488400
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488400
+
+---
+
+#### 1913. CVE-2026-45536 - netty-transport-native-epoll: netty-transport-native-kqueue: Netty: Denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netty-transport-native-epoll: netty-transport-native-kqueue: Netty: Denial of Service due to file descriptor leak in SCM_RIGHTS message handling. Bugzilla: 2488394
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488394
+
+---
+
+#### 1914. [Ubuntu] USN-8431-1: Ruby vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Ruby's Net::IMAP library did not properly verify that Transport Layer Security (TLS) encryption was started after issuing a STARTTLS command. A remote attacker could possibly use this issue to perform a machine-in-the-middle attack and silently bypass TLS encryption. (CVE-2026-42246) It was also discovered that Ruby's Net::IMAP library did not validate string arguments passe
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8431-1
+
+---
+
+#### 1915. [Ubuntu] USN-8428-1: tmux vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tmux incorrectly handled image cleanup, leading to a use-after-free vulnerability. A local attacker could possibly use this issue to cause tmux to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8428-1
+
+---
+
+#### 1916. [Ubuntu] USN-8398-3: nginx vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8398-1 fixed a vulnerability in nginx. The update caused a regression and was temporarily reverted in USN-8398-2. This update introduces a complete fix for CVE-2026-49975. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain cookie headers in the HTTP/2 implementation. A remote attacker could possibly use this issue to cause ng
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8398-3
+
+---
+
+#### 1917. [Ubuntu] USN-8405-2: CUPS regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8405-1 fixed vulnerabilities in CUPS. The update introduced a regression that cause CUPS to crash when parsing certain large printer PPD files. This update fixes the problem. Original advisory details: Ariel Silver discovered that CUPS incorrectly handled username comparisons during authorization checks. A local attacker could possibly use this issue to gain unauthorized access to restricted o
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8405-2
+
+---
+
+#### 1918. [Ubuntu] USN-8427-1: Mesa vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Mesa did not properly validate memory allocation sizes in WebGPU under certain circumstances. An attacker could use this issue to cause Mesa to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8427-1
 
 ---

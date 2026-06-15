@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6593**
+**总计条目 / Total entries: 6641**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -91473,5 +91473,629 @@ Windows Security keeps alerting you with the warning symbol "⚠️" as turning 
 
 **参考链接 / References**:
 - https://superuser.com/questions/1935999/how-to-turn-off-automatic-sample-submission-and-disable-the-warning-icon
+
+---
+
+#### 6594. Can I remove the Copilot 'chat/summarize' menu from the email window in Microsoft Outlook for Microsoft 365?
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-outlook, microsoft-outlook-365, microsoft-copilot | Score: 0 | Views: 7 | Answers: 1 | Created: 2026-06-15
+
+**解决方案 / Solution**:
+You should be able to remove the button entirely within the Microsoft 365 Admin Center. The specific option you are looking for is Pin Microsoft 365 Copilot Chat and the value you want to select is Do not pin copilot chat in MS 365 Apps According to my research the only way to disable the button entirely is access to this option within the Microsoft 365 Admin Center. Source: How do I get rid of or disable Copilot in all Microsoft 365 programs?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938442/can-i-remove-the-copilot-chat-summarize-menu-from-the-email-window-in-microsof
+
+---
+
+#### 6595. My SSD flash drive (8TB) stops working after 50GBs of download.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u647uf/my_ssd_flash_drive_8tb_stops_working_after_50gbs/
+
+---
+
+#### 6596. My whole computer crashes and I don't know how to fix it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6pg89/my_whole_computer_crashes_and_i_dont_know_how_to/
+
+---
+
+#### 6597. PC powers on but no display (beep OK, fans running, sudden issue)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6sd97/pc_powers_on_but_no_display_beep_ok_fans_running/
+
+---
+
+#### 6598. Whole PC freezes only when playing a specific game.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6q1ck/whole_pc_freezes_only_when_playing_a_specific_game/
+
+---
+
+#### 6599. Hey, total noob, just got my first hard drive for my first home server! Looking for advice.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6uwii/hey_total_noob_just_got_my_first_hard_drive_for/
+
+---
+
+#### 6600. HP Envy 16t - h1000 BIOS Update Kills Performance
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6utge/hp_envy_16t_h1000_bios_update_kills_performance/
+
+---
+
+#### 6601. HP Pavilion laptop stuck in “preparing automatic repair”
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6utfz/hp_pavilion_laptop_stuck_in_preparing_automatic/
+
+---
+
+#### 6602. Help with problem of changing motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6uol8/help_with_problem_of_changing_motherboard/
+
+---
+
+#### 6603. Load\Unload Seagate drive at 450k in 6 months. That doesn’t seem normal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6oarx/loadunload_seagate_drive_at_450k_in_6_months_that/
+
+---
+
+#### 6604. How do I make sure a fake Apple TV Siri remote that only works over IR is not spying on me?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6u59k/how_do_i_make_sure_a_fake_apple_tv_siri_remote/
+
+---
+
+#### 6605. Two laptops fried and I have no idea how
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6u196/two_laptops_fried_and_i_have_no_idea_how/
+
+---
+
+#### 6606. Windows 11 Secure boot violation HELP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6u0uz/windows_11_secure_boot_violation_help/
+
+---
+
+#### 6607. Laptop display broken, how do i make it so the laptop's display appears on my monitor?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6tyfe/laptop_display_broken_how_do_i_make_it_so_the/
+
+---
+
+#### 6608. Mouse Dragging (Or Clicking Idrk) Minimizes All Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6tbx6/mouse_dragging_or_clicking_idrk_minimizes_all/
+
+---
+
+#### 6609. Google Drive File from Etsy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6t0r7/google_drive_file_from_etsy/
+
+---
+
+#### 6610. Crash loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6svhc/crash_loop/
+
+---
+
+#### 6611. MicroSD shows on Linux, but not windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6stix/microsd_shows_on_linux_but_not_windows/
+
+---
+
+#### 6612. Laptop shows incorrect location
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6shfe/laptop_shows_incorrect_location/
+
+---
+
+#### 6613. you are not connected to the network. XBOX APP pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6s7ju/you_are_not_connected_to_the_network_xbox_app_pc/
+
+---
+
+#### 6614. The PC must support TPM 2.0.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6rvrr/the_pc_must_support_tpm_20/
+
+---
+
+#### 6615. is there any way to move files onto storage without it just duplicating the files
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6rvfr/is_there_any_way_to_move_files_onto_storage/
+
+---
+
+#### 6616. Gpu suddenly slowing down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6l1te/gpu_suddenly_slowing_down/
+
+---
+
+#### 6617. PSU popped and released smoke while PC was OFF - what are the chances other components are damaged?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6rbzi/psu_popped_and_released_smoke_while_pc_was_off/
+
+---
+
+#### 6618. External SSD showing "No Media" in Disk management.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u6qycr/external_ssd_showing_no_media_in_disk_management/
+
+---
+
+#### 6619. Minimalistic Windows 10 Setup
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u4d097/minimalistic_windows_10_setup/
+
+---
+
+#### 6620. If you use Windows 10 Mobile still, or Windows Phone 8.x, here's how to fix the OTC updater tool. This method is verified to work by me.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u353mp/if_you_use_windows_10_mobile_still_or_windows/
+
+---
+
+#### 6621. Classic calculator on Windows 10!
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u280u2/classic_calculator_on_windows_10/
+
+---
+
+#### 6622. [V2EX] 未来大模型硬件成本下降 5-10 倍，我们的未来会是什么样的？
+
+**问题描述 / Problem Description**:
+说实话最近工作没有太多需求，空下一些时间深夜做一些无所谓的 瞎想 。 众所周知的是，2023 年 gpt3 刚出来的时候大家可不像今天这么感觉大模型能完美替代几乎所有程序员工作。而 2023 年到现在也不过 3 年。那么，如果再把时间维度拉长到 3-5 年，我们的未来会是什么形态？ 已知前提 ： 模型的提升本质上实际上是信息密度提升，存在边际效应，但是从 2026 回看过去三年，已经提升很多，未来仍有一定提升空间。 nvdia 的硬件是存在高溢价的，仅从成熟制程集成电路技术的角度来说计算成本没有现在这么贵。 与大模型聊天后做出的推断性判断 ： 已知过去三年间低端模型（个人用户的消费级硬件有潜在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220689#reply14
+
+---
+
+#### 6623. [V2EX] 关于 opencode 和 claude code 的能力对比如何？
+
+**问题描述 / Problem Description**:
+最近有个问题，一直想要请教一下大家， 以目前 opencode 和 claude code 的能力对比，opencode 可以达到 claude code 的百分之多少的水平呢，有哪位大神这两个工具使用的比较多，可以做个分享吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220676#reply2
+
+---
+
+#### 6624. [V2EX] V 友们分析下
+
+**问题描述 / Problem Description**:
+前段时间入职了新公司，整体呆下来的情况与面试感觉不同； 加班很严重 晚十都会有，而非一开始说的朝九晚六； 岗位职责不是很清，一人多岗，在新公司我多做了上家公司两个岗位的活； 新员工流失率很高，跟我同时间入职的没两天就走了，我隔壁估计入职没多久，前几天也走了； 现在留下的都是呆了好多年的老员工； 不知道这是不是正常现象； 而我还款压力，不大会再有裸辞的操作； 目前也是走一步看一步，不过我一进来我就一直有一个感觉，这段时间项目忙过去了，我估计也会被砍； 今天是今年右眼皮跳的很准的一次；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220673#reply0
+
+---
+
+#### 6625. [V2EX] 国内面向个人按量计费的大模型 api 就 deepseek？
+
+**问题描述 / Problem Description**:
+看 gml ，好像只有订阅？ 本人不是每天都要编程，所以想找按量计费的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220669#reply8
+
+---
+
+#### 6626. [V2EX] 大疆 pocket4 Pro 发布了，和影石 luna ultra 哪个强
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220664#reply3
+
+---
+
+#### 6627. [V2EX] 凡人修仙传 之于男性，是否相当于韩剧之与女性？
+
+**问题描述 / Problem Description**:
+理智上知道它是人造的爽剧，但看着就是爽。 就和各种短视频一样。 当然也不一定限定男性。就是看凡人修仙传，瞬间就能理解女生喜欢韩剧的感觉了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220663#reply1
+
+---
+
+#### 6628. [V2EX] AMD R5-5500U 和 Intel 12-1215U 选哪个? (跑 Ubuntu 24.04)
+
+**问题描述 / Problem Description**:
+都是零刻的迷你主机, 需要在这个里面选一个的话, 建议选哪个? Intel 是大小核, 担心调度不是很好呀, 虽然最新的 ubuntu 24.04 稳 ai 说差不多 但是还是想通通各位大佬的分析建议, 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220659#reply10
+
+---
+
+#### 6629. [V2EX] 奶昔的流量忽然一夜之间被清空，是什么情况？
+
+**问题描述 / Problem Description**:
+订阅链接应该不会暴露，不知道是怎么回事
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220657#reply0
+
+---
+
+#### 6630. [V2EX] 我的移动硬盘莫名被清空了
+
+**问题描述 / Problem Description**:
+事发 17:00 左右，当时用 vscode 里面的 copilot 安装一个 skill：dev-workflow ，装完没事，但是过了几分钟突然看到代码文件不断被删除，等我反应过来，立马关掉电脑，再打开电脑就剩下一些文件夹在里面了，而代码和其他文件全删了！！ 硬盘是三星 T9 ，重新开机之后没有继续使用硬盘，问了 ai ，可以尝试使用 R-studio 创建镜像然后进行恢复数据 目前元原电脑已关闭，准备换台电脑来操作 真的我已经心态爆炸，完全不知道什么引起的！这个 skill 看起来也没问题，而且装好之后，我就没有下发任何指令了，ai 没有其他操作，不知道是硬盘问题、电脑中毒、还是 ski
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220652#reply0
+
+---
+
+#### 6631. [V2EX] 有计算机天赋的人是什么样的工作状态？
+
+**问题描述 / Problem Description**:
+大家工作中见过什么样的人，非常有计算机天赋？可以是算法的，工程的等等。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220646#reply9
+
+---
+
+#### 6632. [V2EX] 成都有没有租赁集装箱或者地下室可以租赁的？
+
+**问题描述 / Problem Description**:
+RT ，存放点个人物品，家里堆不下了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220643#reply0
+
+---
+
+#### 6633. [V2EX] 超好用短视频无水印解析小程序
+
+**问题描述 / Problem Description**:
+全网短视频无水印解析工具 ✅ 一键解析 | 高清原画质 | 全程无水印 | 微信免安装 支持平台一览： 抖音、快手、皮皮搞笑、好看视频 小红书、微视、梨视频、AcFun 西瓜视频、知乎、皮皮虾、全民小视频 逗拍、虎牙、全民 K 歌、微博 绿洲、六间房、新片场 操作简单，复制链接即可解析，收藏常备，轻松下载全网视频～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220638#reply0
+
+---
+
+#### 6634. [V2EX] 求助，买一个 2000~3000 的二手还是买一个 8000 左右的新电脑
+
+**问题描述 / Problem Description**:
+节后出差，公司现在配的是台式机，需要用自己的笔记本，目前用的是 15 年底，买的 hp 的 i5-6200 ，12+256 的版本， 迫于经济压力和工作需要，是花 2000 左右买一个二手的 10 代笔记本 16+500, 还是买一个 ultra3 系本。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220628#reply11
+
+---
+
+#### 6635. [V2EX] 你最喜欢的歌词是哪一句
+
+**问题描述 / Problem Description**:
+我先来：一整个宇宙~ 换一颗红豆~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220625#reply9
+
+---
+
+#### 6636. [V2EX] vscode 里的 claudecode 插件是否有任务完成提示方式(比如声音)?
+
+**问题描述 / Problem Description**:
+需求: 设置好任务和目标之后就开 bypass 权限让他自己折腾了,做完提示一下再去 review 这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220619#reply0
+
+---
+
+#### 6637. [V2EX] 给 60 岁老人买手机，求推荐！要求：手机内存要大，要求电池要大，快充，屏幕要大，最好是 5G，必须 Android。
+
+**问题描述 / Problem Description**:
+老人手机用了很久，打算换新的。因为老人喜欢看广告赚金币，一个月大概能赚一两百，乐此不彼。反正比去听课领鸡蛋强，所以就随她了。 打算更换一个手机，具体要求是： 1 能下载乱七八糟的软件，不要被风控拦截，尤其是 XX 全家桶，只要不卡就行，安装听都没有听说过的垃圾软件是刚需。 2 要求是电池要大，基本一年多就能用坏一块儿电池，所以换电池比较方便，电池容量要大，能支持快充。 3 最好是 5G ，上一个手机是华为的 Nova 不知道几，是 5G 手机，后来就被阉割了，看了下，目前的是华为已经是 Nova16 了，但是鸿蒙系统没用过，不知道能不能安装各种各样的垃圾软件？ 4 发热量尽可能小一点。 5 预
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220618#reply13
+
+---
+
+#### 6638. [V2EX] 微信输入法是疯了么？
+
+**问题描述 / Problem Description**:
+Mac 端，无法关闭语音输入，取消勾选快捷键和将快捷键设为空都不行。 这玩意强制开启？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220612#reply1
+
+---
+
+#### 6639. [V2EX] 没吃完的药怎么处理？
+
+**问题描述 / Problem Description**:
+前段时间抑郁，春节前去三甲医院开了很多地文拉法辛，结果春节太忙了，慢慢就断药了。现在还剩四五盒（每盒原价 100 左右），该怎么处理呢？丢掉又挺可惜的，但是后面应该也用不到了，如何处理比较好呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220602#reply6
+
+---
+
+#### 6640. [V2EX] claude 怎么降级订阅？ IOS 订阅的
+
+**问题描述 / Problem Description**:
+为了 fable-5 买的 max 现在不让用了想用回 pro ，怎么改呢，ios 订阅降级只能在一个月后才降级，这个月还是 max ，4.8 用不了这么多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220598#reply6
+
+---
+
+#### 6641. [V2EX] v2ex 能发布图片？怎么没有找到上传图片的入口
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220591#reply6
 
 ---
