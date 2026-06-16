@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1918**
+**总计条目 / Total entries: 2045**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -30741,5 +30741,1976 @@ It was discovered that Mesa did not properly validate memory allocation sizes in
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8427-1
+
+---
+
+#### 1919. CVE-2026-12087 - perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read. Bugzilla: 2489066
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489066
+
+---
+
+#### 1920. CVE-2026-47825 - spring-cloud-gateway: Spring Cloud Gateway Server: Security bypass due to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] spring-cloud-gateway: Spring Cloud Gateway Server: Security bypass due to untrusted header forwarding. Bugzilla: 2489050
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489050
+
+---
+
+#### 1921. CVE-2026-8356 - libreoffice: LibreOffice: Denial of Service via a specially crafted PPT file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libreoffice: LibreOffice: Denial of Service via a specially crafted PPT file. Bugzilla: 2488961
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488961
+
+---
+
+#### 1922. CVE-2026-6047 - libreoffice: LibreOffice: Denial of service via heap buffer overflow in OOXML…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libreoffice: LibreOffice: Denial of service via heap buffer overflow in OOXML document processing. Bugzilla: 2488960
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488960
+
+---
+
+#### 1923. CVE-2026-52718 - gstreamer1-plugins-bad-free: GStreamer: Denial of service via AV1 tile_list_obu…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad-free: GStreamer: Denial of service via AV1 tile_list_obu parser byte/bit confusion. Bugzilla: 2486328
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486328
+
+---
+
+#### 1924. CVE-2026-52719 - gstreamer1-plugins-bad-free: GStreamer: Out-of-bounds read via JPEG segment length…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad-free: GStreamer: Out-of-bounds read via JPEG segment length validation in VA decoder. Bugzilla: 2486353
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486353
+
+---
+
+#### 1925. CVE-2026-52720 - gstreamer1-plugins-bad-free: GStreamer: Heap buffer overflow via crafted VNC…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad-free: GStreamer: Heap buffer overflow via crafted VNC server rectangle in librfb. Bugzilla: 2486731
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486731
+
+---
+
+#### 1926. CVE-2026-52721 - gstreamer1-plugins-bad-free: GStreamer: Multiple out-of-bounds reads in pcapparse…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad-free: GStreamer: Multiple out-of-bounds reads in pcapparse IPv4/TCP header parsing. Bugzilla: 2486732
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486732
+
+---
+
+#### 1927. CVE-2026-52722 - gstreamer1-plugins-bad-free: GStreamer: Signed integer overflow in VMnc decoder…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad-free: GStreamer: Signed integer overflow in VMnc decoder cursor payload handling. Bugzilla: 2486733
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486733
+
+---
+
+#### 1928. CVE-2026-47190 - github.com/metal3-io/ip-address-manager: Cluster API Provider Metal3 IPAM:…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/metal3-io/ip-address-manager: Cluster API Provider Metal3 IPAM: Information disclosure via excessive permissions on Secrets. Bugzilla: 2488412
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488412
+
+---
+
+#### 1929. [Ubuntu] USN-8437-1: rabbitmq-c vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that rabbitmq-c exposed credentials in command-line arguments under certain circumstances. A local attacker could possibly use this issue to obtain sensitive information. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2023-35789) It was discovered that rabbitmq-c incorrectly handled AMQP frame lengths under certain circumstances, which could lead to an out-o
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8437-1
+
+---
+
+#### 1930. [Ubuntu] USN-8433-1: OpenStack Keystone vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenStack Keystone allowed restricted application credentials to create EC2 credentials. An authenticated attacker with only a reader role could possibly use this issue to bypass the role restrictions imposed on the application credential. (CVE-2026-33551) It was discovered that the OpenStack Keystone LDAP identity backend did not correctly convert the user enabled attribute
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8433-1
+
+---
+
+#### 1931. [Ubuntu] USN-8432-1: FreeRDP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FreeRDP incorrectly handled memory under certain circumstances, which could lead to an out-of-bounds heap write. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-45700) In addition, this update fixes a regression introduced in USN-8105-1. The update introduces a complete fix for CVE-2026-22858, CVE-2026-23732 and CVE
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8432-1
+
+---
+
+#### 1932. [Ubuntu] USN-8349-3: rsync regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8349-1 fixed vulnerabilities in rsync. Unfortunately that update introduced multiple regressions in rsync functionality. This update fixes the problem. We apologize for the inconvenience. Original advisory details: Calum Hutton discovered that rsync contained a heap-based out-of-bounds read when handling file transfers. A remote attacker with read access to an rsync server could possibly use t
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8349-3
+
+---
+
+#### 1933. [Ubuntu] USN-8430-1: ADSys vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ADSys did not properly handle certain HTTP/2 frames. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-27141) It was discovered that ADSys did not properly handle certain HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-33814)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8430-1
+
+---
+
+#### 1934. CVE-2007-2500
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+server/parser/sprite_definition.cpp in GNU Gnash (aka GNU Flash Player) 0.7.2 allows remote attackers to execute arbitrary code via a large number of SHOWFRAME elements within a DEFINESPRITE element, which triggers memory corruption and enables the attacker to call free with an arbitrary address, probably resultant from a buffer overflow.
+
+**参考链接 / References**:
+- http://osvdb.org/37273
+- http://savannah.gnu.org/bugs/?19774
+- http://secunia.com/advisories/25787
+- http://www.novell.com/linux/security/advisories/2007_13_sr.html
+- http://www.securityfocus.com/bid/23765
+
+---
+
+#### 1935. CVE-2007-2609
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Multiple PHP remote file inclusion vulnerabilities in gnuedu 1.3b2 allow remote attackers to execute arbitrary PHP code via a URL in the (a) ETCDIR parameter to (1) libs/lom.php; (2) lom_update.php, (3) check-lom.php, and (4) weigh_keywords.php in scripts/; the (b) LIBSDIR parameter to (5) logout.php, (6) help.php, (7) index.php, (8) login.php; and the ETCDIR parameter to (9) web/lom.php.
+
+**参考链接 / References**:
+- http://osvdb.org/38248
+- http://osvdb.org/38249
+- http://osvdb.org/38250
+- http://osvdb.org/38251
+- http://osvdb.org/38252
+
+---
+
+#### 1936. CVE-2007-2879
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in mods.php in GTP GNUTurk Portal System 3G allows remote attackers to inject arbitrary web script or HTML via the month parameter.
+
+**参考链接 / References**:
+- http://osvdb.org/38139
+- http://securityreason.com/securityalert/2737
+- http://www.securityfocus.com/archive/1/469584/100/0/threaded
+- http://www.securityfocus.com/bid/24152
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/34514
+
+---
+
+#### 1937. CVE-2007-2452
+
+**严重程度 / Severity**: N/A | CVSS: 6.0
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the visit_old_format function in locate/locate.c in locate in GNU findutils before 4.2.31 might allow context-dependent attackers to execute arbitrary code via a long pathname in a locate database that has the old format, a different vulnerability than CVE-2001-1036.
+
+**参考链接 / References**:
+- http://itrc.hp.com/service/cki/docDisplay.do?docId=emr_na-c02286083
+- http://osvdb.org/36827
+- http://secunia.com/advisories/25477
+- http://secunia.com/advisories/40551
+- http://securityreason.com/securityalert/2760
+
+---
+
+#### 1938. CVE-2007-3048
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+GNU screen 4.0.3 allows local users to unlock the screen via a CTRL-C sequence at the password prompt.  NOTE: multiple third parties report inability to reproduce this issue
+
+**参考链接 / References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063706.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063710.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063721.html
+- http://lists.grok.org.uk/pipermail/full-disclosure/2007-June/063728.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/34693
+
+---
+
+#### 1939. CVE-2007-3564
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+libcurl 7.14.0 through 7.16.3, when built with GnuTLS support, does not check SSL/TLS certificate expiration or activation dates, which allows remote attackers to bypass certain access restrictions.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/26104
+- http://secunia.com/advisories/26108
+- http://secunia.com/advisories/26128
+- http://secunia.com/advisories/26231
+- http://www.curl.haxx.se/docs/adv_20070710.html
+
+---
+
+#### 1940. CVE-2007-4131
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in the contains_dot_dot function in src/names.c in GNU tar allows user-assisted remote attackers to overwrite arbitrary files via certain //.. (slash slash dot dot) sequences in directory symlinks in a TAR archive.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=251921
+- http://docs.info.apple.com/article.html?artnum=307179
+- http://lists.apple.com/archives/security-announce/2007/Dec/msg00002.html
+- http://secunia.com/advisories/26573
+- http://secunia.com/advisories/26590
+
+---
+
+#### 1941. CVE-2007-4476
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Buffer overflow in the safer_name_suffix function in GNU tar has unspecified attack vectors and impact, resulting in a "crashing stack."
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=196978
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10691
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705
+- http://secunia.com/advisories/26674
+- http://secunia.com/advisories/26987
+
+---
+
+#### 1942. CVE-2007-6130
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+gnump3d 2.9final does not apply password protection to its plugins, which might allow remote attackers to bypass intended access restrictions.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/27848
+- http://secunia.com/advisories/27965
+- http://www.gnu.org/software/gnump3d/ChangeLog
+- http://www.novell.com/linux/security/advisories/2007_25_sr.html
+- http://www.securityfocus.com/bid/26618
+
+---
+
+#### 1943. CVE-2007-6613
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in the print_iso9660_recurse function in iso-info (src/iso-info.c) in GNU Compact Disc Input and Control Library (libcdio) 0.79 and earlier allows context-dependent attackers to cause a denial of service (core dump) and possibly execute arbitrary code via a disk or image that contains a long joilet file name.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=203777
+- http://lists.gnu.org/archive/html/libcdio-devel/2007-12/msg00009.html
+- http://lists.opensuse.org/opensuse-security-announce/2008-03/msg00001.html
+- http://secunia.com/advisories/28308
+- http://secunia.com/advisories/28569
+
+---
+
+#### 1944. CVE-2008-0668
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+The excel_read_HLINK function in plugins/excel/ms-excel-read.c in Gnome Office Gnumeric before 1.8.1 allows user-assisted remote attackers to execute arbitrary code via a crafted XLS file containing XLS HLINK opcodes, possibly because of an integer signedness error that leads to an integer overflow.  NOTE: some of these details are obtained from third party information.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=208356
+- http://bugzilla.gnome.org/show_bug.cgi?id=505330
+- http://lists.opensuse.org/opensuse-security-announce/2008-08/msg00001.html
+- http://secunia.com/advisories/28725/
+- http://secunia.com/advisories/28799
+
+---
+
+#### 1945. CVE-2008-1530
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+GnuPG (gpg) 1.4.8 and 2.0.8 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via crafted duplicate keys that are imported from key servers, which triggers "memory corruption around deduplication of user IDs."
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnupg-announce/2008q1/000272.html
+- http://secunia.com/advisories/29568
+- http://www.ocert.org/advisories/ocert-2008-1.html
+- http://www.securityfocus.com/bid/28487
+- http://www.vupen.com/english/advisories/2008/1056/references
+
+---
+
+#### 1946. CVE-2008-1685
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+gcc 4.2.0 through 4.3.0 in GNU Compiler Collection, when casts are not used, considers the sum of a pointer and an int to be greater than or equal to the pointer, which might lead to removal of length testing code that was intended as a protection mechanism against integer overflow and buffer overflow attacks, and provide no diagnostic message about this removal. NOTE: the vendor has determined that this compiler behavior is correct according to section 6.5.6 of the C99 standard (aka ISO/IEC 9899:1999)
+
+**参考链接 / References**:
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=26763
+- http://www.kb.cert.org/vuls/id/162289
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/41686
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=26763
+- http://www.kb.cert.org/vuls/id/162289
+
+---
+
+#### 1947. CVE-2008-1687
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The (1) maketemp and (2) mkstemp builtin functions in GNU m4 before 1.4.11 do not quote their output when a file is created, which might allow context-dependent attackers to trigger a macro expansion, leading to unspecified use of an incorrect filename.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/29671
+- http://secunia.com/advisories/29729
+- http://slackware.com/security/viewer.php?l=slackware-security&y=2008&m=slackware-security.510612
+- http://www.openwall.com/lists/oss-security/2008/04/07/1
+- http://www.openwall.com/lists/oss-security/2008/04/07/12
+
+---
+
+#### 1948. CVE-2008-1688
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in GNU m4 before 1.4.11 might allow context-dependent attackers to execute arbitrary code, related to improper handling of filenames specified with the -F option.  NOTE: it is not clear when this issue crosses privilege boundaries.
+
+**参考链接 / References**:
+- http://osvdb.org/44272
+- http://secunia.com/advisories/29671
+- http://secunia.com/advisories/29729
+- http://slackware.com/security/viewer.php?l=slackware-security&y=2008&m=slackware-security.510612
+- http://www.openwall.com/lists/oss-security/2008/04/07/1
+
+---
+
+#### 1949. CVE-2008-2353
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in admin.php in GNU/Gallery 1.1.1.0 and earlier allows remote attackers to include and execute arbitrary local files via a .. (dot dot) in the show parameter.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/30301
+- http://www.securityfocus.com/bid/29270
+- http://www.vupen.com/english/advisories/2008/1560/references
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/42501
+- https://www.exploit-db.com/exploits/5647
+
+---
+
+#### 1950. CVE-2008-1948
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+The _gnutls_server_name_recv_params function in lib/ext_server_name.c in libgnutls in gnutls-serv in GnuTLS before 2.2.4 does not properly calculate the number of Server Names in a TLS 1.0 Client Hello message during extension handling, which allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a zero value for the length of Server Names, which leads to a buffer overflow in session resumption data in the pack_security_parameters function, aka GNUTLS-SA-2008-1-1.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=bc8102405fda11ea00ca3b42acc4f4bce9d6e97b
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00051.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00055.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00060.html
+- http://lists.opensuse.org/opensuse-security-announce/2008-09/msg00003.html
+
+---
+
+#### 1951. CVE-2008-1949
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+The _gnutls_recv_client_kx_message function in lib/gnutls_kx.c in libgnutls in gnutls-serv in GnuTLS before 2.2.4 continues to process Client Hello messages within a TLS message after one has already been processed, which allows remote attackers to cause a denial of service (NULL dereference and crash) via a TLS message containing multiple Client Hello messages, aka GNUTLS-SA-2008-1-2.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=bc8102405fda11ea00ca3b42acc4f4bce9d6e97b
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00051.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00055.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00060.html
+- http://lists.opensuse.org/opensuse-security-announce/2008-09/msg00003.html
+
+---
+
+#### 1952. CVE-2008-1950
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Integer signedness error in the _gnutls_ciphertext2compressed function in lib/gnutls_cipher.c in libgnutls in GnuTLS before 2.2.4 allows remote attackers to cause a denial of service (buffer over-read and crash) via a certain integer value in the Random field in an encrypted Client Hello message within a TLS record with an invalid Record Length, which leads to an invalid cipher padding length, aka GNUTLS-SA-2008-1-3.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=bc8102405fda11ea00ca3b42acc4f4bce9d6e97b
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00051.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00055.html
+- http://lists.gnu.org/archive/html/gnutls-devel/2008-05/msg00060.html
+- http://lists.opensuse.org/opensuse-security-announce/2008-09/msg00003.html
+
+---
+
+#### 1953. CVE-2008-1946
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+The default configuration of su in /etc/pam.d/su in GNU coreutils 5.2.1 allows local users to gain the privileges of a (1) locked or (2) expired account by entering the account name on the command line, related to improper use of the pam_succeed_if.so module.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2008-0780.html
+- http://secunia.com/advisories/31225
+- http://securitytracker.com/id?1020552
+- http://www.securityfocus.com/bid/30363
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/43993
+
+---
+
+#### 1954. CVE-2008-2377
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in the _gnutls_handshake_hash_buffers_clear function in lib/gnutls_handshake.c in libgnutls in GnuTLS 2.3.5 through 2.4.0 allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via TLS transmission of data that is improperly used when the peer calls gnutls_handshake within a normal session, leading to attempted access to a deallocated libgcrypt handle.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/2947
+- http://secunia.com/advisories/31505
+- http://www.gnu.org/software/gnutls/security.html
+- http://www.nabble.com/Details-on-the-gnutls_handshake-local-crash-problem--GNUTLS-SA-2008-2--td18205022.html
+- http://www.securityfocus.com/bid/30713
+
+---
+
+#### 1955. CVE-2008-3916
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the strip_escapes function in signal.c in GNU ed before 1.0 allows context-dependent or user-assisted attackers to execute arbitrary code via a long filename.  NOTE: since ed itself does not typically run with special privileges, this issue only crosses privilege boundaries when ed is invoked as a third-party component.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/bug-ed/2008-08/msg00000.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-01/msg00006.html
+- http://lists.vmware.com/pipermail/security-announce/2010/000082.html
+- http://secunia.com/advisories/32349
+- http://secunia.com/advisories/32460
+
+---
+
+#### 1956. CVE-2008-4100
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+
+**漏洞描述 / Description**:
+GNU adns 1.4 and earlier uses a fixed source port and sequential transaction IDs for DNS requests, which makes it easier for remote attackers to spoof DNS responses, a different vulnerability than CVE-2008-1447.  NOTE: the vendor reports that this is intended behavior and is compatible with the product's intended role in a trusted environment.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=492698
+- http://www.openwall.com/lists/oss-security/2008/09/11/1
+- http://www.openwall.com/lists/oss-security/2008/09/16/4
+- https://www.exploit-db.com/exploits/6197
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=492698
+
+---
+
+#### 1957. CVE-2008-4551
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+strongSwan 4.2.6 and earlier allows remote attackers to cause a denial of service (daemon crash) via an IKE_SA_INIT message with a large number of NULL values in a Key Exchange payload, which triggers a NULL pointer dereference for the return value of the mpz_export function in the GNU Multiprecision Library (GMP).
+
+**参考链接 / References**:
+- http://download.strongswan.org/CHANGES4.txt
+- http://labs.mudynamics.com/advisories/MU-200809-01.txt
+- http://secunia.com/advisories/31963
+- http://www.securityfocus.com/bid/31291
+- http://www.securitytracker.com/id?1020903
+
+---
+
+#### 1958. CVE-2008-3863
+
+**严重程度 / Severity**: N/A | CVSS: 7.6
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in the read_special_escape function in src/psgen.c in GNU Enscript 1.6.1 and 1.6.4 beta, when the -e (aka special escapes processing) option is enabled, allows user-assisted remote attackers to execute arbitrary code via a crafted ASCII file, related to the setfilename command.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2009/May/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2008-11/msg00000.html
+- http://rhn.redhat.com/errata/RHSA-2008-1021.html
+- http://secunia.com/advisories/32137
+- http://secunia.com/advisories/32521
+
+---
+
+#### 1959. CVE-2008-4989
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+
+**漏洞描述 / Description**:
+The _gnutls_x509_verify_certificate function in lib/x509/verify.c in libgnutls in GnuTLS before 2.6.1 trusts certificate chains in which the last certificate is an arbitrary trusted, self-signed certificate, which allows man-in-the-middle attackers to insert a spoofed certificate for any Distinguished Name (DN).
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3215
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3217
+- http://lists.opensuse.org/opensuse-security-announce/2008-12/msg00002.html
+- http://lists.opensuse.org/opensuse-security-announce/2009-04/msg00010.html
+- http://secunia.com/advisories/32619
+
+---
+
+#### 1960. CVE-2008-5659
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The gnu.java.security.util.PRNG class in GNU Classpath 0.97.2 and earlier uses a predictable seed based on the system time, which makes it easier for context-dependent attackers to conduct brute force attacks against cryptographic routines that use this class for randomness, as demonstrated against DSA private keys.
+
+**参考链接 / References**:
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=38417
+- http://www.openwall.com/lists/oss-security/2008/12/06/2
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/47574
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=38417
+- http://www.openwall.com/lists/oss-security/2008/12/06/2
+
+---
+
+#### 1961. CVE-2008-5078
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in the (1) recognize_eps_file function (src/psgen.c) and (2) tilde_subst function (src/util.c) in GNU enscript 1.6.1, and possibly earlier, might allow remote attackers to execute arbitrary code via an epsf escape sequence with a long filename.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2009-03/msg00000.html
+- http://secunia.com/advisories/33181
+- http://support.avaya.com/elmodocs2/security/ASA-2008-504.htm
+- http://www.redhat.com/support/errata/RHSA-2008-1021.html
+- http://www.securitytracker.com/id?1021401
+
+---
+
+#### 1962. CVE-2008-5747
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+F-Prot 4.6.8 for GNU/Linux allows remote attackers to bypass anti-virus protection via a crafted ELF program with a "corrupted" header that still allows the program to be executed.  NOTE: due to an error in the initial disclosure, F-secure was incorrectly stated as the vendor.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/34700
+- http://security.gentoo.org/glsa/glsa-200904-14.xml
+- http://securityreason.com/securityalert/4822
+- http://www.ivizsecurity.com/security-advisory-iviz-sr-08016.html
+- http://www.securityfocus.com/archive/1/499083
+
+---
+
+#### 1963. CVE-2009-0290
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in common.php in SIR GNUBoard 4.31.03 allows remote attackers to include and execute arbitrary local files via a .. (dot dot) in the g4_path parameter.  NOTE: in some environments, this can be leveraged for remote code execution via a data: URI or a UNC share pathname.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/33564
+- http://www.securityfocus.com/bid/33304
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/48015
+- https://www.exploit-db.com/exploits/7792
+- http://secunia.com/advisories/33564
+
+---
+
+#### 1964. CVE-2009-0318
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in the GObject Python interpreter wrapper in Gnumeric allows local users to execute arbitrary code via a Trojan horse Python file in the current working directory, related to a vulnerability in the PySys_SetArgv function (CVE-2008-5983).
+
+**参考链接 / References**:
+- http://bugzilla.gnome.org/show_bug.cgi?id=569648
+- http://secunia.com/advisories/33707
+- http://secunia.com/advisories/33823
+- http://security.gentoo.org/glsa/glsa-200904-03.xml
+- http://www.mandriva.com/security/advisories?name=MDVSA-2009:043
+
+---
+
+#### 1965. CVE-2009-0757
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in GNU MPFR 2.4.0 allow context-dependent attackers to cause a denial of service (crash) via the (1) mpfr_snprintf and (2) mpfr_vsnprintf functions.
+
+**参考链接 / References**:
+- http://mpfr.loria.fr/mpfr-2.4.1/
+- http://secunia.com/advisories/34204
+- http://secunia.com/advisories/35028
+- http://www.openwall.com/lists/oss-security/2009/03/02/4
+- http://www.securityfocus.com/bid/33945
+
+---
+
+#### 1966. CVE-2009-1214
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+GNU screen 4.0.3 creates the /tmp/screen-exchange temporary file with world-readable permissions, which might allow local users to obtain sensitive session information.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=521123
+- http://savannah.gnu.org/bugs/?25296
+- http://www.openwall.com/lists/oss-security/2009/03/25/7
+- http://www.securityfocus.com/bid/34521
+- https://bugs.launchpad.net/ubuntu/+source/screen/+bug/315993
+
+---
+
+#### 1967. CVE-2009-1215
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+
+**漏洞描述 / Description**:
+Race condition in GNU screen 4.0.3 allows local users to create or overwrite arbitrary files via a symlink attack on the /tmp/screen-exchange temporary file.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=521123
+- http://savannah.gnu.org/bugs/?25296
+- http://www.openwall.com/lists/oss-security/2009/03/25/7
+- http://www.securityfocus.com/bid/34521
+- https://bugs.launchpad.net/ubuntu/+source/screen/+bug/315993
+
+---
+
+#### 1968. CVE-2009-1415
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+lib/pk-libgcrypt.c in libgnutls in GnuTLS before 2.6.6 does not properly handle invalid DSA signatures, which allows remote attackers to cause a denial of service (application crash) and possibly have unspecified other impact via a malformed DSA key that triggers a (1) free of an uninitialized pointer or (2) double free.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3515
+- http://permalink.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3502
+- http://secunia.com/advisories/34842
+- http://secunia.com/advisories/35211
+- http://security.gentoo.org/glsa/glsa-200905-04.xml
+
+---
+
+#### 1969. CVE-2009-1416
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+lib/gnutls_pk.c in libgnutls in GnuTLS 2.5.0 through 2.6.5 generates RSA keys stored in DSA structures, instead of the intended DSA keys, which might allow remote attackers to spoof signatures on certificates or have unspecified other impact by leveraging an invalid DSA key.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3516
+- http://lists.gnu.org/archive/html/help-gnutls/2009-04/msg00018.html
+- http://secunia.com/advisories/34842
+- http://secunia.com/advisories/35211
+- http://security.gentoo.org/glsa/glsa-200905-04.xml
+
+---
+
+#### 1970. CVE-2009-1417
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+gnutls-cli in GnuTLS before 2.6.6 does not verify the activation and expiration times of X.509 certificates, which allows remote attackers to successfully present a certificate that is (1) not yet valid or (2) no longer valid, related to lack of time checks in the _gnutls_x509_verify_certificate function in lib/x509/verify.c in libgnutls_x509, as used by (a) Exim, (b) OpenLDAP, and (c) libsoup.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/3517
+- http://secunia.com/advisories/34842
+- http://secunia.com/advisories/35211
+- http://security.gentoo.org/glsa/glsa-200905-04.xml
+- http://www.mandriva.com/security/advisories?name=MDVSA-2009:116
+
+---
+
+#### 1971. CVE-2009-1390
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Mutt 1.5.19, when linked against (1) OpenSSL (mutt_ssl.c) or (2) GnuTLS (mutt_ssl_gnutls.c), allows connections when only one TLS certificate in the chain is accepted instead of verifying the entire chain, which allows remote attackers to spoof trusted servers via a man-in-the-middle attack.
+
+**参考链接 / References**:
+- http://dev.mutt.org/hg/mutt/rev/64bf199c8d8a
+- http://dev.mutt.org/hg/mutt/rev/8f11dd00c770
+- http://www.openwall.com/lists/oss-security/2009/06/10/2
+- http://www.securityfocus.com/bid/35288
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/51068
+
+---
+
+#### 1972. CVE-2009-2409
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+The Network Security Services (NSS) library before 3.12.3, as used in Firefox; GnuTLS before 2.6.4 and 2.7.4; OpenSSL 0.9.8 through 0.9.8k; and other products support MD2 with X.509 certificates, which might allow remote attackers to spoof certificates by using MD2 design flaws to generate a hash collision in less than brute-force time.  NOTE: the scope of this issue is currently limited because the amount of computation required is still large.
+
+**参考链接 / References**:
+- http://java.sun.com/j2se/1.5.0/ReleaseNotes.html
+- http://java.sun.com/javase/6/webnotes/6u17.html
+- http://lists.apple.com/archives/security-announce/2009/Nov/msg00000.html
+- http://secunia.com/advisories/36139
+- http://secunia.com/advisories/36157
+
+---
+
+#### 1973. CVE-2009-2730
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+libgnutls in GnuTLS before 2.8.2 does not properly handle a '\0' character in a domain name in the subject's (1) Common Name (CN) or (2) Subject Alternative Name (SAN) field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.network.gnutls.general/1733
+- http://lists.opensuse.org/opensuse-security-announce/2009-09/msg00001.html
+- http://secunia.com/advisories/36266
+- http://secunia.com/advisories/36496
+- http://www.openwall.com/lists/oss-security/2009/08/14/6
+
+---
+
+#### 1974. CVE-2009-2474
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+neon before 0.28.6, when OpenSSL or GnuTLS is used, does not properly handle a '\0' character in a domain name in the subject's Common Name (CN) field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2010//Nov/msg00000.html
+- http://lists.manyfish.co.uk/pipermail/neon/2009-August/001044.html
+- http://lists.manyfish.co.uk/pipermail/neon/2009-August/001046.html
+- http://secunia.com/advisories/36371
+- http://secunia.com/advisories/36799
+
+---
+
+#### 1975. CVE-2009-3490
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+GNU Wget before 1.12 does not properly handle a '\0' character in a domain name in the Common Name field of an X.509 certificate, which allows man-in-the-middle remote attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408.
+
+**参考链接 / References**:
+- http://addictivecode.org/pipermail/wget-notify/2009-August/001808.html
+- http://hg.addictivecode.org/wget/mainline/rev/1eab157d3be7
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705
+- http://marc.info/?l=oss-security&m=125198917018936&w=2
+- http://marc.info/?l=oss-security&m=125369675820512&w=2
+
+---
+
+#### 1976. CVE-2009-3555
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a "plaintext injection" attack, aka the "Project Mogul" issue.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2013-11/0120.html
+- http://blog.g-sec.lu/2009/11/tls-sslv3-renegotiation-vulnerability.html
+- http://blogs.iss.net/archive/sslmitmiscsrf.html
+- http://blogs.sun.com/security/entry/vulnerability_in_tls_protocol_during
+- http://clicky.me/tlsvuln
+
+---
+
+#### 1977. CVE-2009-3736
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+ltdl.c in libltdl in GNU Libtool 1.5.x, and 2.2.6 before 2.2.6b, as used in Ham Radio Control Libraries, Q, and possibly other products, attempts to open a .la file in the current working directory, which allows local users to gain privileges via a Trojan horse file.
+
+**参考链接 / References**:
+- ftp://ftp.gnu.org/gnu/libtool/libtool-2.2.6a-2.2.6b.diff.gz
+- http://git.savannah.gnu.org/cgit/libtool.git/commit/?h=branch-1-5&id=29b48580df75f0c5baa2962548a4c101ec7ed7ec
+- http://hamlib.svn.sourceforge.net/viewvc/hamlib/trunk/libltdl/Makefile.am?revision=2841&view=markup
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-February/035133.html
+
+---
+
+#### 1978. CVE-2009-4128
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+GNU GRand Unified Bootloader (GRUB) 2 1.97 only compares the submitted portion of a password with the actual password, which makes it easier for physically proximate attackers to conduct brute force attacks and bypass authentication by submitting a password whose length is 1.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=555195
+- http://www.openwall.com/lists/oss-security/2024/01/15/3
+- http://www.securityfocus.com/bid/36968
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/54210
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=555195
+
+---
+
+#### 1979. CVE-2009-4135
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+The distcheck rule in dist-check.mk in GNU coreutils 5.2.1 through 8.1 allows local users to gain privileges via a symlink attack on a file in a directory tree under /tmp.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=ae034822c535fa5
+- http://marc.info/?l=oss-security&m=126030454503441&w=2
+- http://secunia.com/advisories/37645
+- http://secunia.com/advisories/37860
+- http://secunia.com/advisories/62226
+
+---
+
+#### 1980. CVE-2009-4029
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+The (1) dist or (2) distcheck rules in GNU Automake 1.11.1, 1.10.3, and release branches branch-1-4 through branch-1-9, when producing a distribution tarball for a package that uses Automake, assign insecure permissions (777) to directories in the build tree, which introduces a race condition that allows local users to modify the contents of package files, introduce Trojan horse programs, or conduct other attacks before the build is complete.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/automake-patches/2009-11/msg00017.html
+- http://lists.gnu.org/archive/html/automake/2009-12/msg00010.html
+- http://lists.gnu.org/archive/html/automake/2009-12/msg00011.html
+- http://lists.gnu.org/archive/html/automake/2009-12/msg00012.html
+- http://lists.gnu.org/archive/html/automake/2009-12/msg00013.html
+
+---
+
+#### 1981. CVE-2010-0015
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+nis/nss_nis/nis-pwd.c in the GNU C Library (aka glibc or libc6) 2.7 and Embedded GLIBC (EGLIBC) 2.10.2 adds information from the passwd.adjunct.byname map to entries in the passwd map, which allows remote attackers to obtain the encrypted passwords of NIS accounts by calling the getpwnam function.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=560333
+- http://marc.info/?l=oss-security&m=126320356003425&w=2
+- http://marc.info/?l=oss-security&m=126320570505651&w=2
+- http://sourceware.org/bugzilla/show_bug.cgi?id=11134
+- http://svn.debian.org/viewsvn/pkg-glibc/glibc-package/trunk/debian/patches/any/submitted-nis-shadow.diff?revision=4062&view=markup
+
+---
+
+#### 1982. CVE-2010-0624
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the rmt_read__ function in lib/rtapelib.c in the rmt client functionality in GNU tar before 1.23 and GNU cpio before 2.11 allows remote rmt servers to cause a denial of service (memory corruption) or possibly execute arbitrary code by sending more data than was requested, related to archive filenames that contain a : (colon) character.
+
+**参考链接 / References**:
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10691
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-March/036668.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-March/037395.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-March/037401.html
+
+---
+
+#### 1983. CVE-2009-4720
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+SQL injection vulnerability in cgi-bin/gnudip.cgi in GnuDIP 2.1.1 allows remote attackers to execute arbitrary SQL commands via the username parameter.  NOTE: some of these details are obtained from third party information.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=539452
+- http://osvdb.org/56675
+- http://secunia.com/advisories/36115
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=539452
+- http://osvdb.org/56675
+
+---
+
+#### 1984. CVE-2010-0731
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+The gnutls_x509_crt_get_serial function in the GnuTLS library before 1.2.1, when running on big-endian, 64-bit platforms, calls the asn1_read_value with a pointer to the wrong data type and the wrong length value, which allows remote attackers to bypass the certificate revocation list (CRL) check and cause a stack-based buffer overflow via a crafted X.509 certificate, related to extraction of a serial number.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2010-08/msg00001.html
+- http://secunia.com/advisories/39127
+- http://thread.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/4230
+- http://www.mandriva.com/security/advisories?name=MDVSA-2010:089
+- http://www.redhat.com/support/errata/RHSA-2010-0167.html
+
+---
+
+#### 1985. CVE-2010-1160
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+
+**漏洞描述 / Description**:
+GNU nano before 2.2.4 does not verify whether a file has been changed before it is overwritten in a file-save operation, which allows local user-assisted attackers to overwrite arbitrary files via a symlink attack on an attacker-owned file that is being edited by the victim.
+
+**参考链接 / References**:
+- http://drosenbe.blogspot.com/2010/03/nano-as-root.html
+- http://lists.gnu.org/archive/html/nano-devel/2010-04/msg00000.html
+- http://secunia.com/advisories/39444
+- http://svn.savannah.gnu.org/viewvc/trunk/nano/ChangeLog?revision=4503&root=nano&view=markup
+- http://www.openwall.com/lists/oss-security/2010/04/14/4
+
+---
+
+#### 1986. CVE-2010-1161
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+
+**漏洞描述 / Description**:
+Race condition in GNU nano before 2.2.4, when run by root to edit a file that is not owned by root, allows local user-assisted attackers to change the ownership of arbitrary files via vectors related to the creation of backup files.
+
+**参考链接 / References**:
+- http://drosenbe.blogspot.com/2010/03/nano-as-root.html
+- http://lists.gnu.org/archive/html/nano-devel/2010-04/msg00000.html
+- http://secunia.com/advisories/39444
+- http://svn.savannah.gnu.org/viewvc/trunk/nano/ChangeLog?revision=4503&root=nano&view=markup
+- http://www.openwall.com/lists/oss-security/2010/04/14/4
+
+---
+
+#### 1987. CVE-2010-1457
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+Tools/gdomap.c in gdomap in GNUstep Base before 1.20.0 allows local users to read arbitrary files via a (1) -c or (2) -a option, which prints file contents in an error message.
+
+**参考链接 / References**:
+- http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.20.0.tar.gz
+- http://savannah.gnu.org/bugs/?29755
+- http://secunia.com/advisories/39746
+- http://thread.gmane.org/gmane.comp.lib.gnustep.bugs/12336
+- http://www.openwall.com/lists/oss-security/2010/05/07/6
+
+---
+
+#### 1988. CVE-2010-1620
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+Integer overflow in the load_iface function in Tools/gdomap.c in gdomap in GNUstep Base before 1.20.0 might allow context-dependent attackers to execute arbitrary code via a (1) file or (2) socket that provides configuration data with many entries, leading to a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.20.0.tar.gz
+- http://marc.info/?l=oss-security&m=127324274005709&w=2
+- http://marc.info/?l=oss-security&m=127325778527537&w=2
+- http://savannah.gnu.org/bugs/?29755
+- http://secunia.com/advisories/39746
+
+---
+
+#### 1989. CVE-2006-7239
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The _gnutls_x509_oid2mac_algorithm function in lib/gnutls_algorithms.c in GnuTLS before 1.4.2 allows remote attackers to cause a denial of service (crash) via a crafted X.509 certificate that uses a hash algorithm that is not supported by GnuTLS, which triggers a NULL pointer dereference.
+
+**参考链接 / References**:
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-August/001190.html
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-August/001192.html
+- http://www.gnu.org/software/gnutls/security.html
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-August/001190.html
+- http://lists.gnupg.org/pipermail/gnutls-dev/2006-August/001192.html
+
+---
+
+#### 1990. CVE-2009-4880
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Multiple integer overflows in the strfmon implementation in the GNU C Library (aka glibc or libc6) 2.10.1 and earlier allow context-dependent attackers to cause a denial of service (memory consumption or application crash) via a crafted format string, as demonstrated by a crafted first argument to the money_format function in PHP, a related issue to CVE-2008-1391.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/39900
+- http://security.gentoo.org/glsa/glsa-201011-01.xml
+- http://securityreason.com/achievement_securityalert/67
+- http://sources.redhat.com/bugzilla/show_bug.cgi?id=10600
+- http://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=199eb0de8d673fb23aa127721054b4f1803d61f3
+
+---
+
+#### 1991. CVE-2009-4881
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Integer overflow in the __vstrfmon_l function in stdlib/strfmon_l.c in the strfmon implementation in the GNU C Library (aka glibc or libc6) before 2.10.1 allows context-dependent attackers to cause a denial of service (application crash) via a crafted format string, as demonstrated by the %99999999999999999999n string, a related issue to CVE-2008-1391.
+
+**参考链接 / References**:
+- http://security.gentoo.org/glsa/glsa-201011-01.xml
+- http://sources.redhat.com/bugzilla/show_bug.cgi?id=10600
+- http://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=153aa31b93be22e01b236375fb02a9f9b9a0195f
+- http://www.debian.org/security/2010/dsa-2058
+- http://www.mandriva.com/security/advisories?name=MDVSA-2010:111
+
+---
+
+#### 1992. CVE-2010-0296
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The encode_name macro in misc/mntent_r.c in the GNU C Library (aka glibc or libc6) 2.11.1 and earlier, as used by ncpmount and mount.cifs, does not properly handle newline characters in mountpoint names, which allows local users to cause a denial of service (mtab corruption), or possibly modify mount options and gain privileges, via a crafted mount request.
+
+**参考链接 / References**:
+- http://frugalware.org/security/662
+- http://packetstormsecurity.com/files/153278/WAGO-852-Industrial-Managed-Switch-Series-Code-Execution-Hardcoded-Credentials.html
+- http://seclists.org/fulldisclosure/2019/Jun/18
+- http://secunia.com/advisories/39900
+- http://secunia.com/advisories/43830
+
+---
+
+#### 1993. CVE-2010-0830
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+Integer signedness error in the elf_get_dynamic_info function in elf/dynamic-link.h in ld.so in the GNU C Library (aka glibc or libc6) 2.0.1 through 2.11.1, when the --verify option is used, allows user-assisted remote attackers to execute arbitrary code via a crafted ELF program with a negative value for a certain d_tag structure member in the ELF header.
+
+**参考链接 / References**:
+- http://drosenbe.blogspot.com/2010/05/integer-overflow-in-ldso-cve-2010-0830.html
+- http://frugalware.org/security/662
+- http://secunia.com/advisories/39900
+- http://security.gentoo.org/glsa/glsa-201011-01.xml
+- http://securitytracker.com/id?1024044
+
+---
+
+#### 1994. CVE-2010-2252
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+GNU Wget 1.12 and earlier uses a server-provided filename instead of the original URL to determine the destination filename of a download, which allows remote servers to create or overwrite arbitrary files via a 3xx redirect to a URL with a .wgetrc filename followed by a 3xx redirect to a URL with a crafted filename, and possibly execute arbitrary code as a consequence of writing to a dotfile in a home directory.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00023.html
+- http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00031.html
+- http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00032.html
+- http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00033.html
+- http://lists.gnu.org/archive/html/bug-wget/2010-05/msg00034.html
+
+---
+
+#### 1995. CVE-2010-2056
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+GNU gv before 3.7.0 allows local users to overwrite arbitrary files via a symlink attack on a temporary file.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/043913.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-July/043948.html
+- http://savannah.gnu.org/forum/forum.php?forum_id=6368
+- http://secunia.com/advisories/40475
+- http://secunia.com/advisories/40532
+
+---
+
+#### 1996. CVE-2010-2898
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Google Chrome before 5.0.375.125 does not properly mitigate an unspecified flaw in the GNU C Library, which has unknown impact and attack vectors.
+
+**参考链接 / References**:
+- http://code.google.com/p/chromium/issues/detail?id=48733
+- http://googlechromereleases.blogspot.com/2010/07/stable-channel-update_26.html
+- http://secunia.com/advisories/40743
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12104
+- http://code.google.com/p/chromium/issues/detail?id=48733
+
+---
+
+#### 1997. CVE-2010-2547
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+
+**漏洞描述 / Description**:
+Use-after-free vulnerability in kbx/keybox-blob.c in GPGSM in GnuPG 2.x through 2.0.16 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a certificate with a large number of Subject Alternate Names, which is not properly handled in a realloc operation when importing the certificate or verifying its signature.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-August/044935.html
+- http://lists.gnupg.org/pipermail/gnupg-announce/2010q3/000302.html
+- http://lists.opensuse.org/opensuse-security-announce/2010-11/msg00001.html
+- http://secunia.com/advisories/38877
+- http://secunia.com/advisories/40718
+
+---
+
+#### 1998. CVE-2010-3089
+
+**严重程度 / Severity**: N/A | CVSS: 3.5
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in GNU Mailman before 2.1.14rc1 allow remote authenticated users to inject arbitrary web script or HTML via vectors involving (1) the list information field or (2) the list description field.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2011/Mar/msg00006.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-December/052297.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-December/052312.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-05/msg00005.html
+- http://lists.opensuse.org/opensuse-updates/2011-05/msg00000.html
+
+---
+
+#### 1999. CVE-2010-3192
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Certain run-time memory protection mechanisms in the GNU C Library (aka glibc or libc6) print argv[0] and backtrace information, which might allow context-dependent attackers to obtain sensitive information from process memory by executing an incorrect program, as demonstrated by a setuid program that contains a stack-based buffer overflow error, related to the __fortify_fail function in debug/fortify_fail.c, and the __stack_chk_fail (aka stack protection) and __chk_fail (aka FORTIFY_SOURCE) implementations.
+
+**参考链接 / References**:
+- http://seclists.org/fulldisclosure/2010/Apr/399
+- http://www.openwall.com/lists/oss-security/2010/08/25/8
+- http://www.openwall.com/lists/oss-security/2010/08/31/6
+- http://www.openwall.com/lists/oss-security/2010/08/31/7
+- http://www.openwall.com/lists/oss-security/2010/09/02/2
+
+---
+
+#### 2000. CVE-2010-3999
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+gnc-test-env in GnuCash 2.3.15 and earlier places a zero-length directory name in the LD_LIBRARY_PATH, which allows local users to gain privileges via a Trojan horse shared library in the current working directory.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-November/050269.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-October/050164.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2010-October/050177.html
+- http://secunia.com/advisories/42048
+- http://secunia.com/advisories/42054
+
+---
+
+#### 2001. CVE-2010-3847
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
+
+**参考链接 / References**:
+- http://seclists.org/fulldisclosure/2010/Oct/257
+- http://seclists.org/fulldisclosure/2010/Oct/292
+- http://seclists.org/fulldisclosure/2010/Oct/294
+- http://secunia.com/advisories/42787
+- http://security.gentoo.org/glsa/glsa-201011-01.xml
+
+---
+
+#### 2002. CVE-2010-3856
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+ld.so in the GNU C Library (aka glibc or libc6) before 2.11.3, and 2.12.x before 2.12.2, does not properly restrict use of the LD_AUDIT environment variable to reference dynamic shared objects (DSOs) as audit objects, which allows local users to gain privileges by leveraging an unsafe DSO located in a trusted library directory, as demonstrated by libpcprofile.so.
+
+**参考链接 / References**:
+- http://packetstormsecurity.com/files/153278/WAGO-852-Industrial-Managed-Switch-Series-Code-Execution-Hardcoded-Credentials.html
+- http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+- http://seclists.org/fulldisclosure/2010/Oct/344
+- http://seclists.org/fulldisclosure/2019/Jun/18
+- http://seclists.org/fulldisclosure/2023/Jul/31
+
+---
+
+#### 2003. CVE-2010-3444
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Buffer overflow in the log2vis_utf8 function in pyfribidi.c in GNU FriBidi 0.19.1, 0.19.2, and possibly other versions, as used in PyFriBidi 0.10.1, allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted Arabic UTF-8 string that causes original 2-byte UTF-8 sequences to be transformed into 3-byte sequences.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-January/052935.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-January/052936.html
+- http://secunia.com/advisories/42868
+- http://sourceforge.net/tracker/?func=detail&aid=2676136&group_id=158366&atid=807545
+- http://www.securityfocus.com/bid/43592
+
+---
+
+#### 2004. CVE-2010-4051
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The regcomp implementation in the GNU C Library (aka glibc or libc6) through 2.11.3, and 2.12.x through 2.12.2, allows context-dependent attackers to cause a denial of service (application crash) via a regular expression containing adjacent bounded repetitions that bypass the intended RE_DUP_MAX limitation, as demonstrated by a {10,}{10,}{10,}{10,}{10,} sequence in the proftpd.gnu.c exploit for ProFTPD, related to a "RE_DUP_MAX overflow."
+
+**参考链接 / References**:
+- http://cxib.net/stuff/proftpd.gnu.c
+- http://seclists.org/fulldisclosure/2011/Jan/78
+- http://secunia.com/advisories/42547
+- http://securityreason.com/achievement_securityalert/93
+- http://securityreason.com/securityalert/8003
+
+---
+
+#### 2005. CVE-2010-4052
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Stack consumption vulnerability in the regcomp implementation in the GNU C Library (aka glibc or libc6) through 2.11.3, and 2.12.x through 2.12.2, allows context-dependent attackers to cause a denial of service (resource exhaustion) via a regular expression containing adjacent repetition operators, as demonstrated by a {10,}{10,}{10,}{10,} sequence in the proftpd.gnu.c exploit for ProFTPD.
+
+**参考链接 / References**:
+- http://cxib.net/stuff/proftpd.gnu.c
+- http://seclists.org/fulldisclosure/2011/Jan/78
+- http://secunia.com/advisories/42547
+- http://securityreason.com/achievement_securityalert/93
+- http://securityreason.com/securityalert/8003
+
+---
+
+#### 2006. CVE-2011-0707
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Cgi/confirm.py in GNU Mailman 2.1.14 and earlier allow remote attackers to inject arbitrary web script or HTML via the (1) full name or (2) username field in a confirmation message.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/Security-announce/2011//Oct/msg00003.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/056363.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/056387.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/056399.html
+- http://lists.opensuse.org/opensuse-security-announce/2011-05/msg00005.html
+
+---
+
+#### 2007. CVE-2010-4756
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.
+
+**参考链接 / References**:
+- http://cxib.net/stuff/glob-0day.c
+- http://securityreason.com/achievement_securityalert/89
+- http://securityreason.com/exploitalert/9223
+- https://bugzilla.redhat.com/show_bug.cgi?id=681681
+- https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756
+
+---
+
+#### 2008. CVE-2010-4651
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in util.c in GNU patch 2.6.1 and earlier allows user-assisted remote attackers to create or overwrite arbitrary files via a filename that is specified with a .. (dot dot) or full pathname, a related issue to CVE-2010-1679.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/cgit/patch.git/commit/?id=685a78b6052f4df6eac6d625a545cfb54a6ac0e1
+- http://lists.apple.com/archives/security-announce/2011//Jun/msg00000.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/055241.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2011-March/055246.html
+- http://lists.gnu.org/archive/html/bug-patch/2010-12/msg00000.html
+
+---
+
+#### 2009. CVE-2011-1428
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+Wee Enhanced Environment for Chat (aka WeeChat) 0.3.4 and earlier does not properly verify that the server hostname matches the domain name of the subject of an X.509 certificate, which allows man-in-the-middle attackers to spoof an SSL chat server via an arbitrary certificate, related to incorrect use of the GnuTLS API.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/fulldisclosure/2011-02/0671.html
+- http://git.savannah.gnu.org/gitweb/?p=weechat.git%3Ba=commit%3Bh=c265cad1c95b84abfd4e8d861f25926ef13b5d91
+- http://savannah.nongnu.org/patch/index.php?7459
+- http://secunia.com/advisories/43543
+- http://www.securityfocus.com/bid/46612
+
+---
+
+#### 2010. CVE-2009-5064
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+ldd in the GNU C Library (aka glibc or libc6) 2.13 and earlier allows local users to gain privileges via a Trojan horse executable file linked with a modified loader that omits certain LD_TRACE_LOADED_OBJECTS checks.  NOTE: the GNU C Library vendor states "This is just nonsense. There are a gazillion other ways to introduce code if people are downloading arbitrary binaries and install them in appropriate directories or set LD_LIBRARY_PATH etc.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2011/03/07/10
+- http://openwall.com/lists/oss-security/2011/03/07/13
+- http://openwall.com/lists/oss-security/2011/03/07/7
+- http://openwall.com/lists/oss-security/2011/03/08/1
+- http://openwall.com/lists/oss-security/2011/03/08/10
+
+---
+
+#### 2011. CVE-2011-0536
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+Multiple untrusted search path vulnerabilities in elf/dl-object.c in certain modified versions of the GNU C Library (aka glibc or libc6), including glibc-2.5-49.el5_5.6 and glibc-2.12-1.7.el6_0.3 in Red Hat Enterprise Linux, allow local users to gain privileges via a crafted dynamic shared object (DSO) in a subdirectory of the current working directory during execution of a (1) setuid or (2) setgid program that has $ORIGIN in (a) RPATH or (b) RUNPATH within the program itself or a referenced library. NOTE: this issue exists because of an incorrect fix for CVE-2010-3847.
+
+**参考链接 / References**:
+- http://lists.debian.org/debian-security-announce/2011/msg00005.html
+- http://openwall.com/lists/oss-security/2011/02/01/3
+- http://openwall.com/lists/oss-security/2011/02/03/2
+- http://secunia.com/advisories/43830
+- http://secunia.com/advisories/43989
+
+---
+
+#### 2012. CVE-2011-1071
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+
+**漏洞描述 / Description**:
+The GNU C Library (aka glibc or libc6) before 2.12.2 and Embedded GLIBC (EGLIBC) allow context-dependent attackers to execute arbitrary code or cause a denial of service (memory consumption) via a long UTF8 string that is used in an fnmatch call, aka a "stack extension attack," a related issue to CVE-2010-2898, CVE-2010-1917, and CVE-2007-4782, as originally reported for use of this library by Google Chrome.
+
+**参考链接 / References**:
+- http://bugs.debian.org/615120
+- http://code.google.com/p/chromium/issues/detail?id=48733
+- http://openwall.com/lists/oss-security/2011/02/26/3
+- http://openwall.com/lists/oss-security/2011/02/28/11
+- http://openwall.com/lists/oss-security/2011/02/28/15
+
+---
+
+#### 2013. CVE-2011-1658
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+
+**漏洞描述 / Description**:
+ld.so in the GNU C Library (aka glibc or libc6) 2.13 and earlier expands the $ORIGIN dynamic string token when RPATH is composed entirely of this token, which might allow local users to gain privileges by creating a hard link in an arbitrary directory to a (1) setuid or (2) setgid program with this RPATH value, and then executing the program with a crafted value for the LD_PRELOAD environment variable, a different vulnerability than CVE-2010-3847 and CVE-2011-0536.  NOTE: it is not expected that any standard operating-system distribution would ship an applicable setuid or setgid program.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/46397
+- http://sourceware.org/bugzilla/show_bug.cgi?id=12393
+- http://www.securityfocus.com/archive/1/520102/100/0/threaded
+- http://www.vmware.com/security/advisories/VMSA-2011-0012.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=667974
+
+---
+
+#### 2014. CVE-2011-1659
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Integer overflow in posix/fnmatch.c in the GNU C Library (aka glibc or libc6) 2.13 and earlier allows context-dependent attackers to cause a denial of service (application crash) via a long UTF8 string that is used in an fnmatch call with a crafted pattern argument, a different vulnerability than CVE-2011-1071.
+
+**参考链接 / References**:
+- http://code.google.com/p/chromium/issues/detail?id=48733
+- http://scarybeastsecurity.blogspot.com/2011/02/i-got-accidental-code-execution-via.html
+- http://secunia.com/advisories/44353
+- http://secunia.com/advisories/46397
+- http://sourceware.org/bugzilla/show_bug.cgi?id=12583
+
+---
+
+#### 2015. CVE-2011-1089
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+The addmntent function in the GNU C Library (aka glibc or libc6) 2.13 and earlier does not report an error status for failed attempts to write to the /etc/mtab file, which makes it easier for local users to trigger corruption of this file, as demonstrated by writes from a process with a small RLIMIT_FSIZE value, a different vulnerability than CVE-2010-0296.
+
+**参考链接 / References**:
+- http://openwall.com/lists/oss-security/2011/03/04/10
+- http://openwall.com/lists/oss-security/2011/03/04/11
+- http://openwall.com/lists/oss-security/2011/03/04/12
+- http://openwall.com/lists/oss-security/2011/03/04/9
+- http://openwall.com/lists/oss-security/2011/03/05/3
+
+---
+
+#### 2016. CVE-2011-1095
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+
+**漏洞描述 / Description**:
+locale/programs/locale.c in locale in the GNU C Library (aka glibc or libc6) before 2.13 does not quote its output, which might allow local users to gain privileges via a crafted localization environment variable, in conjunction with a program that executes a script that uses the eval function.
+
+**参考链接 / References**:
+- http://bugs.gentoo.org/show_bug.cgi?id=330923
+- http://openwall.com/lists/oss-security/2011/03/08/21
+- http://openwall.com/lists/oss-security/2011/03/08/22
+- http://openwall.com/lists/oss-security/2011/03/08/8
+- http://secunia.com/advisories/43830
+
+---
+
+#### 2017. CVE-2009-5044
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+contrib/pdfmark/pdfroff.sh in GNU troff (aka groff) before 1.21 allows local users to overwrite arbitrary files via a symlink attack on a pdf#####.tmp temporary file.
+
+**参考链接 / References**:
+- ftp://ftp.gnu.org/gnu/groff/groff-1.20.1-1.21.diff.gz
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=538330
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff.diff?r1=1.1%3Br2=1.2%3Bf=h
+- http://lists.apple.com/archives/security-announce/2015/Aug/msg00001.html
+
+---
+
+#### 2018. CVE-2009-5078
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+
+**漏洞描述 / Description**:
+contrib/pdfmark/pdfroff.sh in GNU troff (aka groff) before 1.21 launches the Ghostscript program without the -dSAFER option, which allows remote attackers to create, overwrite, rename, or delete arbitrary files via a crafted document.
+
+**参考链接 / References**:
+- ftp://ftp.gnu.org/gnu/groff/groff-1.20.1-1.21.diff.gz
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=538338
+- http://lists.apple.com/archives/security-announce/2015/Aug/msg00001.html
+- http://openwall.com/lists/oss-security/2009/08/09/1
+- http://openwall.com/lists/oss-security/2009/08/10/2
+
+---
+
+#### 2019. CVE-2009-5079
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+The (1) gendef.sh, (2) doc/fixinfo.sh, and (3) contrib/gdiffmk/tests/runtests.in scripts in GNU troff (aka groff) 1.21 and earlier allow local users to overwrite arbitrary files via a symlink attack on a gro#####.tmp or /tmp/##### temporary file.
+
+**参考链接 / References**:
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff.diff?r1=1.1%3Br2=1.2%3Bf=h
+- http://openwall.com/lists/oss-security/2009/08/14/4
+- http://openwall.com/lists/oss-security/2009/08/14/5
+- http://www.mandriva.com/security/advisories?name=MDVSA-2013:085
+
+---
+
+#### 2020. CVE-2009-5080
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+The (1) contrib/eqn2graph/eqn2graph.sh, (2) contrib/grap2graph/grap2graph.sh, and (3) contrib/pic2graph/pic2graph.sh scripts in GNU troff (aka groff) 1.21 and earlier do not properly handle certain failed attempts to create temporary directories, which might allow local users to overwrite arbitrary files via a symlink attack on a file in a temporary directory, a different vulnerability than CVE-2004-1296.
+
+**参考链接 / References**:
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff.diff?r1=1.1%3Br2=1.2%3Bf=h
+- http://openwall.com/lists/oss-security/2009/08/14/4
+- http://openwall.com/lists/oss-security/2009/08/14/5
+- http://www.mandriva.com/security/advisories?name=MDVSA-2013:085
+
+---
+
+#### 2021. CVE-2009-5081
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+The (1) config.guess, (2) contrib/groffer/perl/groffer.pl, and (3) contrib/groffer/perl/roff2.pl scripts in GNU troff (aka groff) 1.21 and earlier use an insufficient number of X characters in the template argument to the tempfile function, which makes it easier for local users to overwrite arbitrary files via a symlink attack on a temporary file, a different vulnerability than CVE-2004-0969.
+
+**参考链接 / References**:
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff.diff?r1=1.1%3Br2=1.2%3Bf=h
+- http://openwall.com/lists/oss-security/2009/08/14/4
+- http://openwall.com/lists/oss-security/2009/08/14/5
+- http://www.mandriva.com/security/advisories?name=MDVSA-2013:086
+
+---
+
+#### 2022. CVE-2009-5082
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+
+**漏洞描述 / Description**:
+The (1) configure and (2) config.guess scripts in GNU troff (aka groff) 1.20.1 on Openwall GNU/*/Linux (aka Owl) improperly create temporary files upon a failure of the mktemp function, which makes it easier for local users to overwrite arbitrary files via a symlink attack on a temporary file.
+
+**参考链接 / References**:
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff.diff?r1=1.1%3Br2=1.2%3Bf=h
+- http://openwall.com/lists/oss-security/2009/08/14/4
+- http://openwall.com/lists/oss-security/2009/08/14/5
+- http://cvsweb.openwall.com/cgi/cvsweb.cgi/Owl/packages/groff/groff-1.20.1-owl-tmp.diff
+
+---
+
+#### 2023. CVE-2011-4066
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+SQL injection vulnerability in bbs/tb.php in Gnuboard 4.33.02 and earlier allows remote attackers to execute arbitrary SQL commands via the PATH_INFO.
+
+**参考链接 / References**:
+- http://www.exploit-db.com/exploits/17992
+- http://www.securityfocus.com/bid/50173
+- http://www.securitytracker.com/id?1026197
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/70686
+- http://www.exploit-db.com/exploits/17992
+
+---
+
+#### 2024. CVE-2011-4128
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Buffer overflow in the gnutls_session_get_data function in lib/gnutls_session.c in GnuTLS 2.12.x before 2.12.14 and 3.x before 3.0.7, when used on a client that performs nonstandard session resumption, allows remote TLS servers to cause a denial of service (application crash) via a large SessionTicket.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5596
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=190cef6eed37d0e73a73c1e205eb31d45ab60a3c
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=e82ef4545e9e98cbcb032f55d7c750b81e3a0450
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-April/077071.html
+- http://openwall.com/lists/oss-security/2011/11/09/2
+
+---
+
+#### 2025. CVE-2011-4862
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2011-12/0172.html
+- http://git.savannah.gnu.org/cgit/inetutils.git/commit/?id=665f1e73cdd9b38e2d2e11b8db9958a315935592
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-January/071627.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-January/071640.html
+- http://lists.freebsd.org/pipermail/freebsd-security/2011-December/006117.html
+
+---
+
+#### 2026. CVE-2012-0390
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+The DTLS implementation in GnuTLS 3.0.10 and earlier executes certain error-handling code only if there is a specific relationship between a padding length and the ciphertext size, which makes it easier for remote attackers to recover partial plaintext via a timing side-channel attack, a related issue to CVE-2011-4108.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00001.html
+- http://secunia.com/advisories/57260
+- http://www.isg.rhul.ac.uk/~kp/dtls.pdf
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00001.html
+- http://secunia.com/advisories/57260
+
+---
+
+#### 2027. CVE-2012-0035
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+
+**漏洞描述 / Description**:
+Untrusted search path vulnerability in EDE in CEDET before 1.0.1, as used in GNU Emacs before 23.4 and other products, allows local users to gain privileges via a crafted Lisp expression in a Project.ede file in the directory, or a parent directory, of an opened file.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-January/072285.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-January/072288.html
+- http://lists.gnu.org/archive/html/emacs-devel/2012-01/msg00387.html
+- http://openwall.com/lists/oss-security/2012/01/10/2
+- http://openwall.com/lists/oss-security/2012/01/10/4
+
+---
+
+#### 2028. CVE-2012-1663
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+
+**漏洞描述 / Description**:
+Double free vulnerability in libgnutls in GnuTLS before 3.0.14 allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted certificate list.
+
+**参考链接 / References**:
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5866
+- http://www.exploit-db.com/exploits/24865
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/74099
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5866
+- http://www.exploit-db.com/exploits/24865
+
+---
+
+#### 2029. CVE-2012-1569
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The asn1_get_length_der function in decoding.c in GNU Libtasn1 before 2.12, as used in GnuTLS before 3.0.16 and other products, does not properly handle certain large length values, which allows remote attackers to cause a denial of service (heap memory corruption and application crash) or possibly have unspecified other impact via a crafted ASN.1 structure.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2012-03/0099.html
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5932
+- http://article.gmane.org/gmane.comp.gnu.libtasn1.general/53
+- http://article.gmane.org/gmane.comp.gnu.libtasn1.general/54
+- http://blog.mudynamics.com/2012/03/20/gnutls-and-libtasn1-vulns/
+
+---
+
+#### 2030. CVE-2012-1573
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+gnutls_cipher.c in libgnutls in GnuTLS before 2.12.17 and 3.x before 3.0.15 does not properly handle data encrypted with a block cipher, which allows remote attackers to cause a denial of service (heap memory corruption and application crash) via a crafted record, as demonstrated by a crafted GenericBlockCipher structure.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2012-03/0099.html
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5910
+- http://article.gmane.org/gmane.comp.encryption.gpg.gnutls.devel/5912
+- http://blog.mudynamics.com/2012/03/20/gnutls-and-libtasn1-vulns/
+- http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commit%3Bh=422214868061370aeeb0ac9cd0f021a5c350a57d
+
+---
+
+#### 2031. CVE-2012-0954
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+APT 0.7.x before 0.7.25 and 0.8.x before 0.8.16, when using the apt-key net-update to import keyrings, relies on GnuPG argument order and does not check GPG subkeys, which might allow remote attackers to install altered packages via a man-in-the-middle (MITM) attack.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2012-3587.
+
+**参考链接 / References**:
+- http://seclists.org/fulldisclosure/2012/Jun/267
+- http://seclists.org/fulldisclosure/2012/Jun/271
+- http://seclists.org/fulldisclosure/2012/Jun/289
+- http://www.securityfocus.com/bid/54046
+- http://www.ubuntu.com/usn/USN-1475-1
+
+---
+
+#### 2032. CVE-2012-3587
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+
+**漏洞描述 / Description**:
+APT 0.7.x before 0.7.25 and 0.8.x before 0.8.16, when using the apt-key net-update to import keyrings, relies on GnuPG argument order and does not check GPG subkeys, which might allow remote attackers to install Trojan horse packages via a man-in-the-middle (MITM) attack.
+
+**参考链接 / References**:
+- http://seclists.org/fulldisclosure/2012/Jun/267
+- http://www.ubuntu.com/usn/USN-1475-1
+- http://www.ubuntu.com/usn/USN-1477-1
+- https://bugs.launchpad.net/ubuntu/+source/apt/+bug/1013128
+- http://seclists.org/fulldisclosure/2012/Jun/267
+
+---
+
+#### 2033. CVE-2012-3386
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+The "make distcheck" rule in GNU Automake before 1.11.6 and 1.12.x before 1.12.2 grants world-writable permissions to the extraction directory, which introduces a race condition that allows local users to execute arbitrary code via unspecified vectors.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/cgit/automake.git/commit/?id=784b3e6ccc7c72a1c95c340cbbe8897d6b689d76
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-October/089187.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-September/087538.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-September/087665.html
+- http://lists.opensuse.org/opensuse-updates/2012-11/msg00038.html
+
+---
+
+#### 2034. CVE-2012-3480
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Multiple integer overflows in the (1) strtod, (2) strtof, (3) strtold, (4) strtod_l, and other unspecified "related functions" in stdlib in GNU C Library (aka glibc or libc6) 2.16 allow local users to cause a denial of service (application crash) and possibly execute arbitrary code via a long string, which triggers a stack-based buffer overflow.
+
+**参考链接 / References**:
+- http://lists.fedoraproject.org/pipermail/package-announce/2012-August/085190.html
+- http://osvdb.org/84710
+- http://rhn.redhat.com/errata/RHSA-2012-1207.html
+- http://rhn.redhat.com/errata/RHSA-2012-1208.html
+- http://rhn.redhat.com/errata/RHSA-2012-1262.html
+
+---
+
+#### 2035. CVE-2012-1175
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+
+**漏洞描述 / Description**:
+Integer overflow in the GnashImage::size method in libbase/GnashImage.h in GNU Gnash 0.8.10 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted SWF file, which triggers a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/cgit/gnash.git/commit/?id=bb4dc77eecb6ed1b967e3ecbce3dac6c5e6f1527
+- http://secunia.com/advisories/47183
+- http://secunia.com/advisories/48466
+- http://www.debian.org/security/2012/dsa-2435
+- http://www.openwall.com/lists/oss-security/2012/03/14/5
+
+---
+
+#### 2036. CVE-2012-3410
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in lib/sh/eaccess.c in GNU Bash before 4.2 patch 33 might allow local users to bypass intended restricted shell access via a long filename in /dev/fd, which is not properly handled when expanding the /dev/fd prefix.
+
+**参考链接 / References**:
+- ftp://ftp.gnu.org/pub/gnu/bash/bash-4.2-patches/bash42-033
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=681278
+- http://secunia.com/advisories/51086
+- http://security.gentoo.org/glsa/glsa-201210-05.xml
+- http://www.mandriva.com/security/advisories?name=MDVSA-2012:128
+
+---
+
+#### 2037. CVE-2012-3534
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+GNU Gatekeeper before 3.1 does not limit the number of connections to the status port, which allows remote attackers to cause a denial of service (connection and thread consumption) via a large number of connections.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-updates/2016-07/msg00070.html
+- http://secunia.com/advisories/50343
+- http://www.gnugk.org/gnugk-3.1.html
+- http://www.openwall.com/lists/oss-security/2012/08/25/3
+- http://www.openwall.com/lists/oss-security/2012/08/25/4
+
+---
+
+#### 2038. CVE-2012-3509
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Multiple integer overflows in the (1) _objalloc_alloc function in objalloc.c and (2) objalloc_alloc macro in include/objalloc.h in GNU libiberty, as used by binutils 2.22, allow remote attackers to cause a denial of service (crash) via vectors related to the "addition of CHUNK_HEADER_SIZE to the length," which triggers a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://gcc.gnu.org/bugzilla/show_bug.cgi?id=54411
+- http://gcc.gnu.org/ml/gcc-patches/2012-08/msg01986.html
+- http://security-tracker.debian.org/tracker/CVE-2012-3509
+- http://www.mandriva.com/security/advisories?name=MDVSA-2015:029
+- http://www.openwall.com/lists/oss-security/2012/08/29/3
+
+---
+
+#### 2039. CVE-2012-4873
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the file_download function in GNUBoard before 4.34.21 allows remote attackers to inject arbitrary web script or HTML via the filename parameter.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/48458
+- http://sir.co.kr/bbs/board.php?bo_table=g4_pds&wr_id=7156
+- http://www.exploit-db.com/exploits/18627
+- http://www.securityfocus.com/bid/52622
+- http://secunia.com/advisories/48458
+
+---
+
+#### 2040. CVE-2012-5821
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+
+**漏洞描述 / Description**:
+Lynx does not verify that the server's certificate is signed by a trusted certification authority, which allows man-in-the-middle attackers to spoof SSL servers via a crafted certificate, related to improper use of a certain GnuTLS function.
+
+**参考链接 / References**:
+- http://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf
+- http://www.mandriva.com/security/advisories?name=MDVSA-2013:101
+- http://www.ubuntu.com/usn/USN-1642-1
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/79930
+- https://wiki.mageia.org/en/Support/Advisories/MGASA-2012-0351
+
+---
+
+#### 2041. CVE-2012-4884
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+Argument injection vulnerability in Request Tracker (RT) 3.8.x before 3.8.15 and 4.0.x before 4.0.8 allows remote attackers to create arbitrary files via unspecified vectors related to the GnuPG client.
+
+**参考链接 / References**:
+- http://lists.bestpractical.com/pipermail/rt-announce/2012-October/000212.html
+- http://www.debian.org/security/2012/dsa-2567
+- http://lists.bestpractical.com/pipermail/rt-announce/2012-October/000212.html
+- http://www.debian.org/security/2012/dsa-2567
+
+---
+
+#### 2042. CVE-2012-5667
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+
+**漏洞描述 / Description**:
+Multiple integer overflows in GNU Grep before 2.11 might allow context-dependent attackers to execute arbitrary code via vectors involving a long input line that triggers a heap-based buffer overflow.
+
+**参考链接 / References**:
+- http://git.savannah.gnu.org/cgit/grep.git/commit/?id=8fcf61523644df42e1905c81bed26838e0b04f91
+- http://git.savannah.gnu.org/cgit/grep.git/commit/?id=cbbc1a45b9f843c811905c97c90a5d31f8e6c189
+- http://git.sv.gnu.org/gitweb/?p=grep.git%3Ba=shortlog%3Bh=v2.11
+- http://lists.gnu.org/archive/html/bug-grep/2012-12/msg00004.html
+- http://openwall.com/lists/oss-security/2012/12/22/6
+
+---
+
+#### 2043. CVE-2012-6085
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+
+**漏洞描述 / Description**:
+The read_block function in g10/import.c in GnuPG 1.4.x before 1.4.13 and 2.0.x through 2.0.19, when importing a key, allows remote attackers to corrupt the public keyring database or cause a denial of service (application crash) via a crafted length field of an OpenPGP packet.
+
+**参考链接 / References**:
+- http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git%3Ba=commitdiff%3Bh=f0b33b6fb8e0586e9584a7a409dcc31263776a67
+- http://lists.fedoraproject.org/pipermail/package-announce/2013-January/095513.html
+- http://lists.fedoraproject.org/pipermail/package-announce/2013-January/095516.html
+- http://rhn.redhat.com/errata/RHSA-2013-1459.html
+- http://www.mandriva.com/security/advisories?name=MDVSA-2013:001
+
+---
+
+#### 2044. CVE-2013-1619
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+
+**漏洞描述 / Description**:
+The TLS implementation in GnuTLS before 2.12.23, 3.0.x before 3.0.28, and 3.1.x before 3.1.7 does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, which allows remote attackers to conduct distinguishing attacks and plaintext-recovery attacks via statistical analysis of timing data for crafted packets, a related issue to CVE-2013-0169.
+
+**参考链接 / References**:
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00001.html
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00003.html
+- http://lists.opensuse.org/opensuse-security-announce/2014-03/msg00009.html
+- http://lists.opensuse.org/opensuse-updates/2013-05/msg00023.html
+- http://nmav.gnutls.org/2013/02/time-is-money-for-cbc-ciphersuites.html
+
+---
+
+#### 2045. CVE-2011-4355
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+GNU Project Debugger (GDB) before 7.5, when .debug_gdb_scripts is defined, automatically loads certain files from the current working directory, which allows local users to gain privileges via crafted files such as Python scripts.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0522.html
+- http://sourceware.org/cgi-bin/cvsweb.cgi/~checkout~/src/gdb/NEWS?content-type=text/x-cvsweb-markup&cvsroot=src
+- http://sourceware.org/ml/gdb-patches/2011-04/msg00559.html
+- http://sourceware.org/ml/gdb-patches/2011-05/msg00202.html
+- http://www.securitytracker.com/id/1028191
 
 ---

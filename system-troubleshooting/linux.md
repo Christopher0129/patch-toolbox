@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5841**
+**总计条目 / Total entries: 5878**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -83775,5 +83775,486 @@ Actually it is possible (And recomendable AFAICT) to control the scroll effect d
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/805898/firefox-scroll-wheel-control
+
+---
+
+#### 5842. Plasma 6.7
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u78abz/plasma_67/
+
+---
+
+#### 5843. Trying to quit doomscrolling? Commodore just announced a new Sailfish OS flip phone built specifically to minimize social media distractions.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u7pbhl/trying_to_quit_doomscrolling_commodore_just/
+
+---
+
+#### 5844. I've made Polish keyboard layout for physically Danish keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u7l8wz/ive_made_polish_keyboard_layout_for_physically/
+
+---
+
+#### 5845. Wine/Wayland: support for fractional scaling protocol merged
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u7c1bw/winewayland_support_for_fractional_scaling/
+
+---
+
+#### 5846. MT7902 hybrid bluetooth/wifi hardware thing finally has drivers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u7hpey/mt7902_hybrid_bluetoothwifi_hardware_thing/
+
+---
+
+#### 5847. Linux 7.2 Optimization Shows +5% IOPS For EXT4 & XFS After Moving Around Two Lines Of Code
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6zsx7/linux_72_optimization_shows_5_iops_for_ext4_xfs/
+
+---
+
+#### 5848. Modern Arch Linux and Windows 7 Duel Boot in the same exact NTFS partition
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u731wl/modern_arch_linux_and_windows_7_duel_boot_in_the/
+
+---
+
+#### 5849. Plasma 6.7 is out. Look forward to easier menu customization, better control over your mics, and the much anticipated feature of having separate virtual desktops on different monitors
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u79e2x/plasma_67_is_out_look_forward_to_easier_menu/
+
+---
+
+#### 5850. Reading /proc/filesystems Is Surprisingly Done Very Often & Now As Much As 444% Faster
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6zumo/reading_procfilesystems_is_surprisingly_done_very/
+
+---
+
+#### 5851. LibreOffice releases, features, QA and accessibility – TDF Annual Report 2025
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u77oh8/libreoffice_releases_features_qa_and/
+
+---
+
+#### 5852. GNOME’s Video Player (Showtime) is looking for a maintainer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u79ann/gnomes_video_player_showtime_is_looking_for_a/
+
+---
+
+#### 5853. Plasma 6.7
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u78crz/plasma_67/
+
+---
+
+#### 5854. Distro Fighter: Find your Linux distro & desktop [Game]
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u6xdh4/distro_fighter_find_your_linux_distro_desktop_game/
+
+---
+
+#### 5855. New Booster is out: smoother encrypted boot, native SSH unlock, Plymouth support, better FIDO2/TPM2, and more
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u72hja/new_booster_is_out_smoother_encrypted_boot_native/
+
+---
+
+#### 5856. [V2EX] Linux 服务器有何安全监控软件？
+
+**问题描述 / Problem Description**:
+如题，现在 Linux 端的 rootkit 和后门程序层出不穷。大厂的 VPS 一般都附带安全检测仪表盘，本人的阿里云 VPS 就被植入过 rootkit ，一植入就被阿里云安全仪表盘扫出来告警了。 但是个人的 Linux 设备（比如自组 Home Server ）不像大厂 VPS 那样自带安全仪表盘，这就很尴尬了，各位 V2er 能否给本人推荐一些 Linux 端的安全监控软件或者杀毒软件？提前谢谢大家了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220897#reply9
+
+---
+
+#### 5857. [V2EX] 腾讯会议 Linux 版使用 nvidia 独显无法驱动视频功能
+
+**问题描述 / Problem Description**:
+腾讯会议 linux 版本若想正常使用摄像头渲染画面，以及正常渲染视频（别人分享桌面等场景），好像只能使用 intel 核显。 当我切换到独显直连，视频窗口就完全黑屏了。但是 intel 核显和 nvidia 独显混合输出时，我感觉我的 gnome 桌面始终不够流畅，因为要接第二块屏幕，内屏只能交给 intel ，外接屏又被 nvidia 接管，最终渲染起来就卡卡的…… 好难受，大家有解决的思路吗？ debian13 + gnome48 + wayland 环境，腾讯会议 linux 版，版本 V3.26.10.401
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220807#reply7
+
+---
+
+#### 5858. [V2EX] niri 环境用触控板怎么能更好的选择文字
+
+**问题描述 / Problem Description**:
+现在用了妙控板，双击后移动选择文字，但是手指不能松开，选择大面积文字太困难了 试过按下 Shift 再移动，不能选择文字 有没有其他好的办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220733#reply3
+
+---
+
+#### 5859. [V2EX] [海外]整了一个切换网页端 b 站 cdn 的插件(只有网页端可以! 客户端不行)
+
+**问题描述 / Problem Description**:
+最近 b 站速度明显下降了,在和室友讨论了一下之后得出结论应该是 b 站分发的 cdn 节点比较阴间,然后在 ai 大人的帮助下搞了个插件来自由选择 cdn, 效果十分明显,从原本的 200kbps 到 6-7mbps 左右, 就是预加载视频时候慢点(大概要个三四秒钟来确认用哪个 cdn),如果人在海外的兄弟姐妹看 b 站的话有需要可以试试看这个插件 QAQ 思路: 之前改过 nondanee 大佬的 NetEaseMusicWorldPlus 从 manifest v2 到 v3,所以稍微了解了一下脚本怎么劫持并且注入 163 来改 cdn 和 x-real-ip 的. 然后我之前做过一个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220943#reply0
+
+---
+
+#### 5860. [V2EX] 400 只鸭子与田埂上的歌
+
+**问题描述 / Problem Description**:
+辍学以后，我的人生是从四百只鸭子开始的。 那一年，我十四岁。 爷爷养了一大群鸭子，四百多只。灰白色的羽毛连成一片，远远看去，像是谁把一朵云扔到了田野里。 于是我成了放鸭人。 每天早上天刚亮，爷爷挑着鸭食，我扛着竹竿，一起往河边走。 鸭子，看起来傻乎乎的，其实最不好管。尤其是刚放下水的时候。栅栏门一开，四百多只鸭子瞬间炸开，像一盆水泼出去。东边几十只往稻田里钻，西边一群扑腾着往河汊子游，还有几只愣头愣脑的，站在原地发呆。 我拿着竹竿在后面追，跑得满头大汗，嗓子喊哑了。鸭子却根本不理我。 那时候我经常觉得委屈——为什么连鸭子都不听我的？ 爷爷却从来不急。他慢悠悠走过去，竹竿往水面一点，嘴里发出几声
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220939#reply2
+
+---
+
+#### 5861. [V2EX] DeepSeek 还是比较耐用的
+
+**问题描述 / Problem Description**:
+有位 V 友发帖说， DeepSeek 充值 100 元，用了半年没用完 。我也来现身说法一下：自己用的比较多的是 DeepSeek ，除了 DeepSeek ，这两天也试验了智谱和阿里百炼。 先说结论：坚定不移使用 DeepSeek 。当然我现在事宜 ChatGPT 为主，因为纯用 ChatGPT 根本不够用，经常两天就用光一周的额度，所以开始 ChatGPT + Claude （接入 DeepSeek ），双 AI 协同工作。 Deepseek 确实便宜顶用，我充了 20 元用了很久也没用完，最近开始用得多了，用量上来，又充了 50 元。 智谱本来是冲着 lite 套餐去得，结果压根抢不到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220929#reply0
+
+---
+
+#### 5862. [V2EX] 老 Java 转行路线请有经验的人指点一下
+
+**问题描述 / Problem Description**:
+1 、MES 开发 2 、WMS/WCS 仓储系统开发 3 、SCADA/工业物联网平台 4 、QMS/LIMS 质量/实验室管理系统开发 5 、C#上位机 java 实在太卷了。想请教一下各位这些行业目前还行吗，有没有什么坑，如果从 java 转过去有没有机会
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220926#reply2
+
+---
+
+#### 5863. [V2EX] Fable 5 即将回归？！
+
+**问题描述 / Problem Description**:
+Fable 5 的访问权限将在未来 48 小时内恢复。 真假自辩 不辨的话，48 小时也就知道了😄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220919#reply15
+
+---
+
+#### 5864. [V2EX] 还是选择开通了 Z.ai 的年度 MAX 套餐
+
+**问题描述 / Problem Description**:
+因为我的 DeepSeek 半个月就干了将近 400 块，还是跟 Z.ai lite & chatgpt plus 一起用的 消耗太猛了，想换国内的 浏览了一些贴子，Kimi Mimo MiniMax 风评都很差 那就只有 GLM 的了，但是看了很多帖子都没人能抢到。。 只能在 Z.ai 开通，算算账国外版也贵不了多少。。干脆就直接开 Z.ai max 套餐 以后就猛猛炫 GLM 了！其他的都不开会员不充钱了！ 🚀 You’ve been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220903#reply31
+
+---
+
+#### 5865. [V2EX] PM 做对这 5 件事，从被研发吐槽到被认可
+
+**问题描述 / Problem Description**:
+PM 做对这 5 件事，从被研发吐槽到被认可 曾经历过一次印象深刻的产研项目复盘，会议接近尾声时研发负责人突然说到：其实我们对产品经理要求不高，就是把需求讲清楚，别让我们猜。这句话没有指责，却藏着深深的无奈。 产品经理和研发之间似乎存在着天然对抗：需求变更频繁、信息不透明、沟通成本高昂等等。打破这种恶性循环，往往不靠过人的天赋，而需要一些基础且重要的品质，归纳成关键词就是“靠谱”二字。本文从研发视角，聊聊五项能让研发团队愿意合作且认可的靠谱产品经理特质，并附上实用模板。 做好需求质量的基本盘 很多产品经理容易陷入一个误区，以为产出 PRD 就是完成工作。实际上文档只是载体，真正重要的是背后的思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220900#reply0
+
+---
+
+#### 5866. [V2EX] vibe coding 占领编程领域后是浇灭了“你”的技术研究热情还是激发鼓励了“你”的探索热情呢
+
+**问题描述 / Problem Description**:
+各位属于哪种呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220896#reply6
+
+---
+
+#### 5867. [V2EX] 做了个小模型训练平台
+
+**问题描述 / Problem Description**:
+https://github.com/LingyiChen-AI/ModelForge 核心功能： 支持 bert 文本分类， 句对，序列标注，embedding 模型的训练微调 支持上报 badcase 和模型 api 部署 接入权限体系，管控用户权限 接入大模型评测流程 更多功能看 GitHub
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220893#reply0
+
+---
+
+#### 5868. [V2EX] 普通人 2026 年最顶尖的配置
+
+**问题描述 / Problem Description**:
+1 、🪜 + 满血 AI 订阅 Claude+gpt 其实花不了啥钱 40 刀，300 块当一顿饭 2 、iPhone + 美区 Apple ID 3 、护照 + 港澳通行证 + 香港银行卡 4 、美股 + BTC 5 、健身 + 英语 6 、疯狂浏览 x.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220879#reply51
+
+---
+
+#### 5869. [V2EX] 如何从机场的客户端提取出服务器信息使用 openclash 进行上网
+
+**问题描述 / Problem Description**:
+现在很多机场都变成了私有客户端 我的 openwrt 没法安装他们的客户端 以前都是链接订阅的 现在他们不提供订阅链接了 各位大神 这个怎么破啊 我用的飞鸟云
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220874#reply2
+
+---
+
+#### 5870. [V2EX] 写了个代理薅 MiMo Code 免费模型的羊毛
+
+**问题描述 / Problem Description**:
+功能很简单，让 ai 下载下来运行就可以。 TuTouPower/mimo-code-proxy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220873#reply2
+
+---
+
+#### 5871. [V2EX] [分享] Kiwi v1.0.0 发布：基于 Operaton 的开源 BPMN 工作流平台（ Java 25 + Angular 21）
+
+**问题描述 / Problem Description**:
+大家好，分享一下我们刚在 GitHub 发布的 Kiwi v1.0.0 。 Kiwi 是一个基于 Operaton （ Camunda 7 社区延续）的 BPMN 工作流编排与管理平台：可视化流程设计、可插拔流程组件、管理后台，以及内置 AI 助手。 这是从 Camunda 7.24 迁到 Operaton 2.1 之后的第一个稳定版本，仓库里保留了 camunda 标签方便对比和回滚。 能做什么 BPMN 可视化设计 ：Angular + BPMN.js ，属性面板和后端组件元数据联动 流程引擎 ：流程定义/实例、External Task 、异步作业与可配置重试 可插拔组件 ：Shell
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220865#reply0
+
+---
+
+#### 5872. [V2EX] 算法工程师/算法研究员 wx 交流群
+
+**问题描述 / Problem Description**:
+讨论算法技术的地方越来越少了，希望能够聚集更多在职算法，或者相关领域研究的学生。人数超过 200 人，进群加我 wx 号（ wl12127759 ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220857#reply2
+
+---
+
+#### 5873. [V2EX] 和 Agent 说英文的话，更有古法编程的味道
+
+**问题描述 / Problem Description**:
+之前一直是用中文命令 claude code 干活，最近试了换成英文，手感上非常像以前古法编程，有没有懂的 体感上会让人更加的理性，冷静，逻辑清晰
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220853#reply11
+
+---
+
+#### 5874. [V2EX] 现在 AI 编程聪明得令人后背发凉。
+
+**问题描述 / Problem Description**:
+小孩子喜欢看抖音，想限制下。准备做个做题，劳动等等的积分 APP 。平时工作 golang 处理数据，AI 用的不多。以前只学了点 flutter ，大概要花了一个月才做出个像样的成品。安装最新的 Android studio ，自带 gemini ，就试了下。基本没怎么写代码，一路 keep ，大概一天时间就能 build 出初版，后面陆陆续续加点功能也就一两天时间。如此发展下去，以后程序员要和普通文员坐一桌了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220839#reply27
+
+---
+
+#### 5875. [V2EX] 公司想搞本地化算力部署 deepseek coder v2 给技术用，听到 AMD 锐龙 AI Halo 也不算贵，可行么
+
+**问题描述 / Problem Description**:
+AMD 锐龙 AI Halo 2.7w rmb ，现在每月花在 token 上的钱其实感觉是蛮多的，有这样的一个方向性的想法，不知道会有什么坑，或者问题，有人懂么，专业点的看法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220819#reply34
+
+---
+
+#### 5876. [V2EX] deepseek v4 pro 很明显变笨了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220812#reply9
+
+---
+
+#### 5877. [V2EX] 3 年画了 50+ 张 drawio,我的判断:文字过誉了
+
+**问题描述 / Problem Description**:
+3 年画了 50+ 张 drawio,我的判断:文字过誉了 承接上一篇—— 前 5 篇都在讲"做事的方法论 + 踩坑实战"。 这一篇换个角度,讲一个 工具问题 : 业务系统设计 / 复盘 / 演讲 / 教学,我都用 drawio 。 不是 PowerPoint 。不是 Markdown 。不是脑图。 是 drawio( diagrams.net )。 这选择本身没什么——但坚持 3 年累计画了 50+ 张 之后, 我的判断变得越来越固执: ▌ 在工程类问题上, ▌ 二维图的信息密度比文字高一倍。 ▌ 文字被过誉了。 我画过什么 3 年里 4 类题材都有积累: 题材 张数 例子 业务架构 28
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220804#reply8
+
+---
+
+#### 5878. [V2EX] 不同年限的前端失业人员评论区报道
+
+**问题描述 / Problem Description**:
+1 个月约面公司不超 5 家。基本都是已读不回，猎头更是只招聘 92 起步，一线大厂起步的求职者，死路一条
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220803#reply27
 
 ---

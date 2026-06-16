@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1108**
+**总计条目 / Total entries: 1109**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -17254,5 +17254,17 @@ CRLF injection vulnerability in Adobe Flash Player plugin 9.0.16 and earlier for
 - http://lists.suse.com/archive/suse-security-announce/2006-Dec/0006.html
 - http://secunia.com/advisories/22467
 - http://secunia.com/advisories/23324
+
+---
+
+#### 1109. [Apple] Beats Firmware Update 1B211
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Apple security update. Refer to support article for details.
+
+**参考链接 / References**:
+- https://support.apple.com/en-us/127557
 
 ---

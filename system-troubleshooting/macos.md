@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5260**
+**总计条目 / Total entries: 5365**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -72602,5 +72602,1400 @@ Not directly an answer, but when I use VPN (I use ExpressVPN), all local stuff o
 
 **参考链接 / References**:
 - https://superuser.com/questions/1896965/cant-connect-to-from-windows-on-local-network-when-windows-vpn-active
+
+---
+
+#### 5261. Hands down, the Golden Gate feature that I'm most excited for is "Insert divider line" in Notes.app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7e4xa/hands_down_the_golden_gate_feature_that_im_most/
+
+---
+
+#### 5262. Trash Trash Trash Trash
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7nbt3/trash_trash_trash_trash/
+
+---
+
+#### 5263. Window management is from hell
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7beza/window_management_is_from_hell/
+
+---
+
+#### 5264. Trying to clear out system data on my mother's macbook and found a 147.98 GB plain text file - can I delete this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7hqry/trying_to_clear_out_system_data_on_my_mothers/
+
+---
+
+#### 5265. At this point Supercharge will replace all the utility apps I use lol
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u76zh2/at_this_point_supercharge_will_replace_all_the/
+
+---
+
+#### 5266. Workspaces/Mission Control
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7r1lt/workspacesmission_control/
+
+---
+
+#### 5267. Linux power user contemplating switching to Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7q9ar/linux_power_user_contemplating_switching_to_mac/
+
+---
+
+#### 5268. Why can I (all of a sudden) only choose 1080p and 60hz on my external monitor.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7hpnf/why_can_i_all_of_a_sudden_only_choose_1080p_and/
+
+---
+
+#### 5269. What is this (accessibility?) feature??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7q3bq/what_is_this_accessibility_feature/
+
+---
+
+#### 5270. Help requested - Slack not appearing in Application Notifications
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7ij0d/help_requested_slack_not_appearing_in_application/
+
+---
+
+#### 5271. preview app to redact/blacken content in pdfs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7or2k/preview_app_to_redactblacken_content_in_pdfs/
+
+---
+
+#### 5272. Vertical strip on the left side of the screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7gr5n/vertical_strip_on_the_left_side_of_the_screen/
+
+---
+
+#### 5273. How to disable absolute volume in macos?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7l5rj/how_to_disable_absolute_volume_in_macos/
+
+---
+
+#### 5274. Anyone notice that their additional safari profiles don't close as expected?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7jbv8/anyone_notice_that_their_additional_safari/
+
+---
+
+#### 5275. Wrong name associated with iCal invitee - every damn time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7i8dj/wrong_name_associated_with_ical_invitee_every/
+
+---
+
+#### 5276. I need your help picking mac os for MBP 2019
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7h1vh/i_need_your_help_picking_mac_os_for_mbp_2019/
+
+---
+
+#### 5277. Screen-sharing resolution dips hard via HDMI. Any tips?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7ce2j/screensharing_resolution_dips_hard_via_hdmi_any/
+
+---
+
+#### 5278. MX Master 3S on MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7c8ds/mx_master_3s_on_macos/
+
+---
+
+#### 5279. the 40 app integrations number on these mac ai agents is the wrong thing to look at
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7o7qs/the_40_app_integrations_number_on_these_mac_ai/
+
+---
+
+#### 5280. How often do you replace your MacBook?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u77oa8/how_often_do_you_replace_your_macbook/
+
+---
+
+#### 5281. libusrestore error 21 (macbook air)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7ggbe/libusrestore_error_21_macbook_air/
+
+---
+
+#### 5282. [V2EX] 有升级 macos27 的 V 友吗，感觉发热严重啊，我的是 M2pro 芯片
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220248#reply39
+
+---
+
+#### 5283. [V2EX] 写了个 macOS 小工具：给每个常用 app 绑个全局快捷键，不用再 Cmd+Tab 数位置
+
+**问题描述 / Problem Description**:
+Cmd+Tab 的顺序是按最近使用排的，每次都不一样。想切到某个固定的 app ，还得用眼睛在那一排图标里找、数位置——高频切换时这个动作其实很烦。 我想要的其实很简单：按一个固定的键 = 永远跳到那个 app ，纯肌肉记忆，不用看屏幕。但 macOS 原生没法给某个具体应用绑全局快捷键。 于是写了个 HotkeyLauncher： 给任意 app 绑全局快捷键，比如 Option+Cmd+C 永远打开 Chrome ，不管它现在在第几个 全局生效（基于 Carbon 注册），任何界面下都能触发 菜单栏常驻，支持开机自启 快捷键能导出成 JSON ，换机器直接导入 还处理了一个坑：app 在运
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220245#reply5
+
+---
+
+#### 5284. [V2EX] 翻出一台 macbook pro mid2012， 想装上 montery
+
+**问题描述 / Problem Description**:
+目前是 catalina ，官方支持也只能到 catalina ， 还能抢救一下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220215#reply9
+
+---
+
+#### 5285. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply60
+
+---
+
+#### 5286. [V2EX] 因为 Cheers 闪退 自己做了一个 Apple TV 版哔哩哔哩
+
+**问题描述 / Problem Description**:
+因为 TV OS27 上 Cheers 播放视频闪退 所有萌生了自己做一个的想法 做了两个版本 用 Codex 一下午就实现了 反复调优了一天时间 同时还做了一个 Apple TV 版的抖音、 一个 iPad 上的抖音版哔哩哔哩 一个在 Apple TV 上面自动随机刷新项内容的软件 一下午时间是四个软件同时 VibeCoding 刚好错开回复和沟通节奏 之前做的 Somio 迁移到了 TV 但是突然发现电视很适合播放这类内容 随机调用播放 iCloud 相册里的内容 做了几项筛选按钮 分别是收藏/演唱会/横屏/竖屏 当在 85 寸电视上播放自己录制的 4K 杜比视界演出视频时 好像一切都值得
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220800#reply14
+
+---
+
+#### 5287. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply30
+
+---
+
+#### 5288. [V2EX] 菲律宾区 App Store 礼品卡有购买渠道吗？
+
+**问题描述 / Problem Description**:
+目前用美区 ChatGPT 20X ，想转成菲区，能省几百。 但不知道菲区礼品卡从哪里购买比较安全？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220720#reply29
+
+---
+
+#### 5289. [V2EX] 多账号混排的 X（Twitter）和微博第三方客户端
+
+**问题描述 / Problem Description**:
+发现了一个多账号混排的 X 和微博第三方客户端 挺好用 免费 https://apps.apple.com/us/app/flare-social-network-client/id6476077738?l=zh-Hans-CN
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220645#reply2
+
+---
+
+#### 5290. [V2EX] Siri waitlist 下不来了。。
+
+**问题描述 / Problem Description**:
+还有谁和我一样第一天挂上 waitlist ，到现在还没出来的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220622#reply6
+
+---
+
+#### 5291. [V2EX] 买 iwatch s11 还是等 iwatchs12 呢 ？
+
+**问题描述 / Problem Description**:
+截止 20206-06-15 是买 iwatch s11 还是等 iwatchs12 呢，有建议吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220592#reply33
+
+---
+
+#### 5292. [V2EX] ios27 新 siri 问一些联网问题就报 problem，本地化问题没问题，是节点不对？
+
+**问题描述 / Problem Description**:
+ios27 新 siri 问一些联网问题就报 problem ，本地化问题没问题，是节点不对？ 问世界杯开始了吗？就说 have problem ，问现在几点以及在哪里，就可以回话上来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220507#reply8
+
+---
+
+#### 5293. [V2EX] replayd 进程总是自动出现，影响截图功能
+
+**问题描述 / Problem Description**:
+replayd 进程总是自动出现，必须把他关掉截图功能（不管是 longshot 或者其他截图软件都是这样）才能正常使用，是什么原因呢，怎么解决？ 安装有 alt tab 和 bartender ，截图用的 longshot 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220462#reply1
+
+---
+
+#### 5294. [V2EX] 想把我的国航 air 卖了换港行 promax 有必要吗 尘埃未定
+
+**问题描述 / Problem Description**:
+轰轰烈烈的 ai 地理围栏猜测尘埃未定 有的说是苹果服务器原因 有的说是鉴于苹果之前的一个发言，外行确是来华也只能用审核过后的地区模型 即便落定没有围栏，有没有必要 air 为了 ai 换成 promax
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220458#reply21
+
+---
+
+#### 5295. [V2EX] Mac 出了新机器，老机器是不是就开始卡了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220447#reply16
+
+---
+
+#### 5296. [V2EX] 介于国行 iPhone 和外版差距越来越大，想换国内安卓了，求推荐品牌系列
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220372#reply75
+
+---
+
+#### 5297. [V2EX] 有人的 27 系统索引完成吗？
+
+**问题描述 / Problem Description**:
+我已经升级已经差不多五天时间了，不论是 iPhone 还是 iPad 都还在索引，macOS 没有提示但我猜测也还在索引😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220253#reply39
+
+---
+
+#### 5298. [V2EX] iPhone 17 / iPhone Air 怎么选？
+
+**问题描述 / Problem Description**:
+主力机是小米 17Pro ，最近有点想研究一下 IOS 的 App 开发，顺便买个果子手机自己用一下。 看了一下京东价格分别是 4999 和 5070 。 大佬们推荐哪个呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220083#reply63
+
+---
+
+#### 5299. [V2EX] 看到有 V 友做了拼豆站，手痒也 Vibe Coding 了一个拼豆图纸生成器
+
+**问题描述 / Problem Description**:
+今天在 V 站看到有朋友分享了拼豆项目，看着挺有意思，于是作为一个普通开发者，我也手痒尝试了一下。刚好最近在沉迷 Vibe Coding ，于是借这个机会撸了一个工具站：PindouAI 。 项目链接： https://pindouai.app 为什么做这个？ 拼豆图纸往往需要找现成的，或者用复杂的软件手动打点。我想做一个“所见即所得”的工具，把照片直接转成带色号的施工图。目前只完成了最核心的功能，算是给自己的一个小练习。 目前已经完成的： 核心生成算法：上传图片 -> 自动像素化 -> 映射主流拼豆品牌色板 (Perler, Hama 等)。 参数调节：支持调节亮度和对比度，支持“过滤白底”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220906#reply2
+
+---
+
+#### 5300. [V2EX] iOS 27 查看索引进度小 tips
+
+**问题描述 / Problem Description**:
+在升级了 iOS 27 全新系统之后，进入设置， 顶部就会一直出现「 Indexing in Progress 」提醒 我之前以为是 BUG 一直去不掉 。发现其实可以 通过 Mac 端的调试信息窗口就能看到这个索引进度。 首先你需要一台 Mac 电脑，并且将 iPhone 用数据线连接到 Mac 上，再在 Mac 端打开「控制台」功能，然后 在旁边的设备一栏中选择自己的 iPhone ，点击页面中间的开始流式传输右上角的搜索栏中输入「 spotlight indexing progress 」等待一会就能看见索引进度百分比啦！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220834#reply4
+
+---
+
+#### 5301. [V2EX] 没想到第一次吃到中国医疗红利居然是没有医保的时候
+
+**问题描述 / Problem Description**:
+今天来医院拔牙，挂完号面诊的时候和医生说自己失业很久医保也断缴了很久 我只能用医保卡余额自费，走不了统筹报销 牙片我有今年洗牙的时候拍的，不要再拍了 如果拔牙很贵的话就不拔了 医生也没见过这情况啊，但是看我太惨还是怎么的就给我说大概两百块钱 我之前也查了下私立和小红书上别人的分享，总之几百到上千根据智齿服务程度都有，我这个属于比较简单的 所以两百在我可接受范围 医生大概 15 分钟就给我拔好了 然后问我家里有没有止痛药和消炎药 我回答有的，就什么药都没给我开 缴费的时候只收了我一个治疗费，麻醉药物的费用都没有收(也许是算在内) 然后我查阅医院的治疗费用目录，正常简单的智齿拔除费用是 400 所
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220832#reply23
+
+---
+
+#### 5302. [V2EX] 我发现了一门新气功/玄学/炼金术，快来看
+
+**问题描述 / Problem Description**:
+我发现了一门新气功/玄学/炼金术，快来看： https://cn.energyfilament.org/ 你们快去看看, 求求了, 真的牛逼. 他把整个理论做成一个知识库, 网站里有给大模型的评估指令。 你可以下载整个 json 文件. 把文件交个大模型, 复制评估指令. 让大模型评估这个理论与主流理论, 让大模型打分, 你还可以与大模型讨论问题。 而且我真的在 ChatGPT 复现了， 太牛了, 我佩服的六体投地 。 午休时间我要跟 ChatGPT 聊这个神理论。 就当一个娱乐项目。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220755#reply4
+
+---
+
+#### 5303. [V2EX] kimi 猜球送 token，来点球王推荐球队
+
+**问题描述 / Problem Description**:
+我选阿根廷
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220748#reply1
+
+---
+
+#### 5304. [V2EX] Vodafone UK 的羊毛活动
+
+**问题描述 / Problem Description**:
+薅到一个，但是这种蓝牙 esim 白卡写入不了，有要的没，帮我收个验证码，我关一下自动续费啊，就一个先到先得
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220737#reply1
+
+---
+
+#### 5305. [V2EX] 原来这个睡眠评分是能到 100 分的
+
+**问题描述 / Problem Description**:
+之前的四、五年里，最高应该是 98 分，最近六个月平均应该是 90 分左右，第一次看到 100 这个分数
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220723#reply35
+
+---
+
+#### 5306. [V2EX] 独立开发有感
+
+**问题描述 / Problem Description**:
+最近做独立开发有个挺大的感触。 以前总觉得国外很多优秀产品之所以成功，是因为技术强、架构好、基础设施完善，所以自己也花了很多时间研究这些东西。 但最近越来越觉得，顺序可能是反过来的。 先发现需求，创造价值，获得认可，然后才有持续迭代和完善基础设施的机会。 不要总想着把技术细节、架构设计和未来扩展性都做到 100% 完美再上线，很多时候过早投入过多精力，只会进入边际收益越来越低的状态。先把产品做出来、验证需求，在真实反馈中迭代，往往比闭门造车更重要。 技术当然重要，但用户最终买单的还是价值本身。 算是最近的一点认知变化。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220682#reply5
+
+---
+
+#### 5307. [V2EX] 隔壁站的油猴飞升小助手
+
+**问题描述 / Problem Description**:
+祝各位佬们快速飞升： https://github.com/curtinp118/linuxdo-auto-browse 我自己更多是把它当成一个“自动翻页阅读器”：开着它，让它慢慢逛，看到感兴趣的再自己接管 请大家合理使用，不要高频请求、刷量、刷赞或者影响社区体验。 如果遇到页面结构变化导致脚本失效，也欢迎提 Issue 或 PR 。 社区，还是要慢慢逛才有意思。还好 V 站木有等级区分哈哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220679#reply4
+
+---
+
+#### 5308. [V2EX] 推荐两个开放注册的网盘影视资源聚合站点
+
+**问题描述 / Problem Description**:
+都是才开不久的小站,两个都支持积分制，每天签到积分可以解锁资源或兑换 VIP 资格 颠影 我要 4K
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220624#reply8
+
+---
+
+#### 5309. [V2EX] 和多号也是牛的，我副号都用了快 10 年了，最近收到短信说要实名认证
+
+**问题描述 / Problem Description**:
+12583 发来的，我都用了快 10 年了，也绑了一些非主要的平台，我以为拍个身份证或人脸识别就完事了。 结果还要自己录像并说验证码。 真恶心人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220610#reply5
+
+---
+
+#### 5310. [V2EX] 🔔 英国沃达丰 eSIM 0 元购 Bug 快捷直达通道！
+
+**问题描述 / Problem Description**:
+🔔 英国沃达丰 eSIM 0 元购 Bug 快捷直达通道！ 💡 最新进展： 原本复杂的步骤已简化，现在有直接触发 £0 结算的快捷链接，立即使用！ 🛠️ 核心操作步骤： 1️⃣ 直达购物车：直接点击专属 Bug 链接进入购物车： 👉 https://www.vodafone.co.uk/basket?planSkuId=114557 2️⃣ 确认价格：进入后确认 Pay As You Go Plus Plan 价格已显示为 Monthly: £0, 30-day plan 。 3️⃣ 选择卡型：在“About your SIM”部分，务必勾选 eSIM （手机需支持 eSIM 功能），秒发邮箱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220609#reply69
+
+---
+
+#### 5311. [V2EX] 发现了一个 影视资源站 监控和收集平台
+
+**问题描述 / Problem Description**:
+这个应该是最齐全影视资源站监控和收集平台 www.ziyuanzu.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220559#reply2
+
+---
+
+#### 5312. [V2EX] 羊毛： ZCode ,新人免费试用 glm-5.2 有点耐蹬
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220527#reply3
+
+---
+
+#### 5313. AirDrop’d files from iOS 26 to macOS 15 greyed out and 0 Bytes in size but it took 45 seconds so where did they go? Some temporary folder?
+
+**问题描述 / Problem Description**:
+Tags: macos, ipad, finder, airdrop | Score: 0 | Views: 19 | Answers: 1 | Created: 2026-06-16
+
+**解决方案 / Solution**:
+Please open a Terminal window and enter this command: open $TMPDIR/com.apple.sharingd/TemporaryItems A folder named "TemporaryItems" should open. If there are any temporary AirDrop files, they'll be in there. Otherwise I'm afraid you are out of luck.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486607/airdrop-d-files-from-ios-26-to-macos-15-greyed-out-and-0-bytes-in-size-but-it-to
+
+---
+
+#### 5314. Using an iMac monitor as an external monitor
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display, imac | Score: 0 | Views: 36 | Answers: 1 | Created: 2026-06-15
+
+**解决方案 / Solution**:
+It's not clear whether you have actually implemented this solution, or are just researching it. I'll interpret your post as asking whether it would work. You need to check that Ethernet, and the Luna device, have enough bandwidth to handle the resolution, refresh rate, and color depth that you expect to use. I think you'll find that you're limited there relative to what you would get from a Thunderbolt display connection. Latency is also an issue. I doubt that you'd want to try gaming with that setup. Maybe not video editing either. See: Video Bandwidth Calculator (trychen.com).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486599/using-an-imac-monitor-as-an-external-monitor
+
+---
+
+#### 5315. Why am I getting a hard crash when initiating a Time Machine backup on a MacBook Air (M5) that was just updated to Version 26.5 (25F71)?
+
+**问题描述 / Problem Description**:
+Tags: macos, time-machine, crash | Score: 0 | Views: 96 | Answers: 1 | Created: 2026-05-12
+
+**解决方案 / Solution**:
+The issue has seemed to clear up on its own by waiting and allowing an automatic Time Machine backup to happen. Was the manual trigger an issue? I don’t know. I triggered a manual Time Machine backup after the automatic Time Machine backup and things went as expected; no crash or anything.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486407/why-am-i-getting-a-hard-crash-when-initiating-a-time-machine-backup-on-a-macbook
+
+---
+
+#### 5316. Karabiner elements: ctrl + any_key not working
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, keybindings, karabiner | Score: 0 | Views: 43 | Answers: 1 | Created: 2026-05-11
+
+**解决方案 / Solution**:
+I think the issue may have been due to storing the karabiner config folder in chezmoi and automatically applying it to ~/.config/karabiner . I removed the folder from chezmoi (moving ~/.local/share/chezmoi/dot_config/karabiner ), pasting it into ~/.config manually, making changes, then putting it back in chezmoi. Maybe updating to macOS 26.5 (which came out today) helped as well?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486405/karabiner-elements-ctrl-any-key-not-working
+
+---
+
+#### 5317. New Terminal tab at current folder
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash, zsh | Score: 0 | Views: 74 | Answers: 1 | Created: 2026-03-11
+
+**解决方案 / Solution**:
+The simplest solution is to change the Terminal settings: Settings / General / Shell opens with / Command ... /bin/bash as explained by Apple at Use zsh as the default shell on your Mac / How to use a different shell without changing the default .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486031/new-terminal-tab-at-current-folder
+
+---
+
+#### 5318. Option + Up Arrow in Terminal inserts [A instead of recalling the previous argument
+
+**问题描述 / Problem Description**:
+Tags: terminal, keyboard | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+A brutal solution consists in re-binding the keys you get : bind \[A history-token-search-backward bind \[B history-token-search-forward You can add this in ~/.config/fish/config.fish
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486011/option-up-arrow-in-terminal-inserts-a-instead-of-recalling-the-previous-argum
+
+---
+
+#### 5319. Safari address bar shows login credentials in v26.2 - can they be hidden?
+
+**问题描述 / Problem Description**:
+Tags: macos, safari, url | Score: 0 | Views: 80 | Answers: 1 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+As of Safari 26.5 there is no need to use this method to store credentials. The Passwords App now supports this properly.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485715/safari-address-bar-shows-login-credentials-in-v26-2-can-they-be-hidden
+
+---
+
+#### 5320. TLS 1.3 support in Apple Mail on macOS 26?
+
+**问题描述 / Problem Description**:
+Tags: macos, email, encryption, ssl | Score: 0 | Views: 168 | Answers: 1 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+Apple Mail does not as of the time of this writing support TLS v1.3 for IMAP. If you sniff what Apple Mail negotiates in TLS it's seems that TLS v1.3 is not an option. Note that OSX generally does support TLS v1.3, this is an application specific limitations. TLS v1.3 enumerates it's ciphers in the 0x13xx range eg TLS_AES_256_GCM_SHA384 is 0x1302. Mail does not mention any ciphers in the 0x13xx range and so it prevents negotiating a TLS v1.3 connection. See RFC 8446 for details: https://datatracker.ietf.org/doc/html/rfc8446#appendix-B.4
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/485618/tls-1-3-support-in-apple-mail-on-macos-26
+
+---
+
+#### 5321. How can I force Terminal to have a persistent history per window open?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 0 | Views: 949 | Answers: 2 | Created: 2025-05-10
+
+**解决方案 / Solution**:
+I wrote the necessary missing code in .zhrc function restore_lost_zsh_sessions() { for file in ~/.zsh_sessions/*.historynew(N); do [[ -s "$file" ]] || continue local base="${file%.historynew}" local final="$base.history" [[ -f "$final" ]] || cp "$file" "$final" while IFS= read -r histline; do grep -Fqx "$histline" ~/.zsh_history || echo "$histline" >> ~/.zsh_history done < "$file" done } restore_lost_zsh_sessions You will also need to add your .zsh_history content to the ~/.zsh_sessions/UUID.history file where UUID is your main window. get UUID by running echo $HISTFILE in the main window
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479921/how-can-i-force-terminal-to-have-a-persistent-history-per-window-open
+
+---
+
+#### 5322. MDM without Apple Business Manager on a Macbook
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, apple-silicon, mobile-device-management, apple-business | Score: 0 | Views: 351 | Answers: 1 | Created: 2025-04-28
+
+**解决方案 / Solution**:
+It’s simpler than you describe: Set up your MDM. Create an enrollment profile from the MDM. Enroll your Mac using any admin account. 1 1 You can mail the enrollment profile, download it from the MDM, host it on any web server, host it from the MDM, really doesn’t matter how the small file gets to your Mac. MDM is not activation lock or firmware password. You can layer those on or not as you please. Some MDM allow you to automate both of these and audit for compliance when the device checks in and does an inventory.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479743/mdm-without-apple-business-manager-on-a-macbook
+
+---
+
+#### 5323. Macbook pro early 2011 no audio EFI Windows 11
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, windows, audio | Score: 0 | Views: 2356 | Answers: 1 | Created: 2025-04-20
+
+**解决方案 / Solution**:
+I found the solution to my MacBook Pro early 2011 (8,1 model), no audio problem, taking bits and pieces from different places... Be warned that you will lose all the information on your hard drive! Probably I need to explain my situation a little deeper: This is a very old, unsupported MacBook Pro; thus, I am not interested in keeping an old macOS version. Instead, I want to use the computer as a Windows-11-only machine (erase the entire hard drive and install Windows 11 as in a PC). What I understand is that the BootCamp way uses MBR and by doing that, somehow the hardware is presented correctly to the drivers. MBR installation is no longer possible in Windows 11. EFI is the only option. Installing Windows 11 is very straight forward, you just create a Bootable-Windows11-USB-installer (I used Rufus to avoid the Windows 11 hardware restrictions), connect the USB and start the computer pressing the "option" key, chose the "EFI boot" option (the yellow USB drive) and then do your regular Windows11 installation. Only to realise that audio doesn't work and that there are some "hardware conflicts" in Device Manager that no driver can ever fix. In my search for solutions, I arrived at the page mentioned in my question ( MacBook Pro (Late 2011) sound issues in Windows 10 (no Bootcamp) ) And here is what I did: STEP 1 The first thing you need to get is the dsdt.aml file: Extracting it from your MacBook before deleting macOS following Dual-Booting Mac OSX and Windows on MacBookPro steps 1 to 3 On a Windows machine, follow steps 4 to 7 Note: the Windows Binary Tools (WBT) link in step 4 no longer works, but you can find the latest file iasl-win-2025-04-04.zip from ACPI Component Architecture Downloads (Previous Versions 2023) STEP 2 Install Windows 11 as described above. Have the dsdt.aml file in your Windows 11 Mac. STEP 3 "Configure" Clover for our Windows 11 Mac system Download Clover (current version is Clover-5161-X64.iso.7z) Extract the folder Clover-5161-X64.iso.7z\Clover-5161-X64.iso\EFI to C:\ Create the following folder C:\EFI\CLOVER\ACPI\WINDOWS and copy the dsdt.aml file there (like this C:\EFI\CLOVER\ACPI\WINDOWS\DSDT.aml ) Now is a good time to edit the Clover config file to avoid having to wait at startup in Clover, especially if we are not booting more OSes. Open the file C:\EFI\CLOVER\config.plist in a text editor and look for <key>Timeout<key> right below it. Change the 5 to a 0 (for a 0-second timeout) STEP 4 We need to move that Clover EFI folder to your Windows 11 Mac EFI partition Open a terminal as Administrator and type: diskpart list disk If you only have one disk, most likely Disk 0 is your Windows disk, you have to select it select disk 0 We need to find the EFI partition within the disk list vol to select the EFI partition, look for the FAT32 one, in my case is Vol 2 select vol 2 assign letter = V exit Letter V is the EFI partition, now we can copy the EFI folder from C to V xcopy c:\EFI V:\EFI /s /e /h Now we need to change the path to the boot manager to point to Clover instead of the Windows default. C:\Windows\System32>bcdedit From this: Windows Boot Manager ---------------------------------- Identifier {bootmgr} device partition=\Device\HarddiskVolume1 path \EFI\Microsoft\Boot\bootmgfw.efi description Windows Boot Manager locale en-US inherit {globalsettings} default {current} resumeobject {32b106f6-2720-11f0-a685-c4c9ce6a4f1e} displayorder {current} toolsdisplayorder {memdiag} timeout 30 To this: Windows Boot Manager ---------------------------------- Identifier {bootmgr} device partition=\Device\HarddiskVolume1 path \EFI\CLOVER\CLOVERX64.efi description Windows Boot Manager locale en-US inherit {globalsettings} default {current} resumeobject {32b106f6-2720-11f0-a685-c4c9ce6a4f1e} displayorder {current} toolsdisplayorder {memdiag} timeout 30 By running this command: bcdedit /set {bootmgr} path \EFI\CLOVER\CLOVERX64.efi STEP 5 Install BootCamp drivers Download the latest BootCamp package for the 8,1 MacBook Pro. Open the BootCampESD.pkg file with 7zip, double click on Payload~ double click on ./Library/Application Support/BootCamp/WindowsSupport.dmg and extract those three items ( $WinPEDriver$ , BootCamp and AutoUnattend.xml ) to a folder. Open the BootCamp folder and run Setup.exe . Follow the instructions to install and all the drivers will be installed as normal. DO NOT REBOOT We need to replace C:\Windows\System32\MacHALDriver.sys file that BootCamp just installed with a different file that works in Windows 11 (If you don't replace it, you will get a blue screen at every start): Download the latest BootCamp package for MacBook Pro 11,1 Using 7zip, Extract the file BootCampESD.pkg\Payload~\.\Library\Application Support\BootCamp\WindowsSupport.dmg\BootCamp\Drivers\Apple\BootCamp.msi\MacHALDriver.sys Change the name of the file C:\Windows\System32\MacHALDriver.sys to C:\Windows\System32\Original-MacHALDriver.sys or somthing (we need to replace it but Windows won't let you delete it or overwrite it, but it will let you rename it) Reboot your computer and copy the MacHALDriver.sys extracted priviously to C:\Windows\System32\ . You now can delete the C:\Windows\System32\Original-MacHALDriver.sys Reboot again and now you shoud have your keyboard special keys fuction working as well as the trackpad configuration in the BootCamp control panel IF YOU REBOOTED BY ACCIDENT After the third blue screen reboot, you will get the option to boot in safe mode; do that and replace the C:\Windows\System32\MacHALDriver.sys file with the one extracted with 7zip You can find all the BootCamp releases on Github Gist | PrintBootCampESDInfo.swift I hope this helps someone; it took me a while to figure this out. It would be nice to keep some of these MacBooks out of the dumpster I can confirm it also works with the 9,1 model, you will have to create a DSDT.aml file for it too, following the same instructions. Later Intel MacBook models don't have this problem; you can do a regular Windows 11 install and it will work (once all drivers are in place), I guess Apple fixed the EFI or something.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479629/macbook-pro-early-2011-no-audio-efi-windows-11
+
+---
+
+#### 5324. Adobe Flash CS6 Installation Failed
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, install, error, adobe, adobe-flash | Score: 0 | Views: 260 | Answers: 2 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+The file you downloaded is almost certainly Windows malware. Although you got away with it this time, you are 100% certain to be infected with functioning Mac malware if you habitually download proprietary software from sketchy websites like that one, and no "anti-virus" will save you.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479481/adobe-flash-cs6-installation-failed
+
+---
+
+#### 5325. prevent the creation of /Users/me/Applications/asr in MacBook
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, finder, json | Score: 0 | Views: 164 | Answers: 3 | Created: 2025-04-05
+
+**解决方案 / Solution**:
+You would first have to get an idea of when the files are being created from the creation date. Shortly before you expect the next one, start a shell with this command: sudo fs_usage -ew -f pathname | grep asr2025 Whenever a process accesses a file with "asr2025" in the pathname, a line of output will be emitted. The process name will be at the end of that line. The command runs until you stop it. See the man page for details. Note that you may get some irrelevant output from Spotlight indexing. The process name on those lines will be mdworker . Spotlight is definitely not creating the file in question.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479402/prevent-the-creation-of-users-me-applications-asr-in-macbook
+
+---
+
+#### 5326. Why an I unable to dual boot a MacBook Air M3?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, apple-silicon, dual-boot | Score: 0 | Views: 416 | Answers: 1 | Created: 2025-03-26
+
+**解决方案 / Solution**:
+You installed an operating system for the Intel architecture on the drive. You're trying to boot an Apple Silicon Mac from that drive. Not going to happen. If you want to run Linux on that computer, do it in a virtual machine, or if you absolutely must dual boot, look into something called "Asahi Linux." It's built for Apple Silicon. Just be aware that there are many posts on this site from people who have wrecked their macOS installation and lost data in Linux dual-boot disasters.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479241/why-an-i-unable-to-dual-boot-a-macbook-air-m3
+
+---
+
+#### 5327. Macbook M1 2020 -Apple Care country and purchase country relation (M1 Air 2020)
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, warranty, applecare, japanese | Score: 0 | Views: 166 | Answers: 2 | Created: 2025-03-19
+
+**解决方案 / Solution**:
+This sounds like you bought a MacBook that was on some shelf for four years. That's absolutely not good for the battery. Worst case you have to buy a new battery if nobody can be found to pay for it; the rest of the computer should be fine. If you are still in reach of a the store, go immediately go to the store and let them fix the problem - most likely they will have to give you an equivalent or better Mac.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/479123/macbook-m1-2020-apple-care-country-and-purchase-country-relation-m1-air-2020
+
+---
+
+#### 5328. Why did all my old MacBooks simultaneously lost capability to charge battery? Or are the power supplies dead?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, charging, power, magsafe | Score: 0 | Views: 89 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+It’s unlikely this is causal on a bad charger but you never know without doing the repairs or collecting more data. Old batteries are just going to have to fail more often than when they were new. The common failure mode is Apple chargers just stop working without hurting the device they power. I would be on the lookout for an unusually hot charger (heat indicating damage or failure imminent) and maybe invest in one brand new “from Apple if possible” charger if you can’t afford full repairs of each of these batteries and/or boards inside the computers. It’s likely you’ll need to fix this era battery more and more often depending on how new the cells are that make up your “replacement batteries”. Getting top quality Apple parts is challenging once a model goes vintage since Apple isn’t making new parts for stock.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478965/why-did-all-my-old-macbooks-simultaneously-lost-capability-to-charge-battery-or
+
+---
+
+#### 5329. How to switch SSDs in Macbook Pro Retina 13'' Late 2012 and Macbook Pro 15'' Mid 2009?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hard-drive, ssd, sata | Score: 0 | Views: 183 | Answers: 1 | Created: 2025-03-03
+
+**解决方案 / Solution**:
+The 2009 MBP has a standard SATA connection. The 2012 MBP uses an Apple proprietary 7+17 pin connector, with storage on a small 'stick' module. There is no room for a standard 2.5" SATA drive shape in the 2012 Mac. Apparently there are adaptors to convert a standard 'stick' mSATA module to cApple's 7+17 pin socket, (despite it only being used for a couple of years, before they changed the connector again!) Everything you need to know about Apple's SSDs is in this very useful summary. https://beetstech.com/blog/apple-proprietary-ssd-ultimate-guide-to-specs-and-upgrades Would I recommend it? TBH, 2.5" SATA SSDs are very cheap these days, so I would just get a new one for the 2009 Mac.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478891/how-to-switch-ssds-in-macbook-pro-retina-13-late-2012-and-macbook-pro-15-mid
+
+---
+
+#### 5330. Browse files using Finder but open text files using command-line Vim
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder, applescript | Score: 0 | Views: 174 | Answers: 2 | Created: 2025-02-23
+
+**解决方案 / Solution**:
+Using Terminal instead of iTerm would be difficult, iTerm has a much richer AppleScript dictionary than Terminal. Fixing your "bug". It's not really a bug, the AppleScript code assumes an open window in iTerm and gets annoyed when there isn't one there. The easiest fix for this is to go to Settings→Startup and make sure "Always open at least one terminal window at startup" is ticked, and go to "Closing" and tick "Quit when all windows are closed" and neither "Confirm closing multiple sessions" and "Confirm "Quit iTerm2"" are selected. Now when you close the last window iTerm will quit and the "tell application "iTerm" will open iTerm then open a terminal window. The other fix (as suggested in a comment) would be to put the: tell process "iTerm2" set frontmost to true end tell into a try block and handle the error by opening a window and trying again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478764/browse-files-using-finder-but-open-text-files-using-command-line-vim
+
+---
+
+#### 5331. Slow 2015 macbook pro after update to Sonoma
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, software-update, upgrade, monterey, sonoma | Score: 0 | Views: 270 | Answers: 1 | Created: 2025-02-06
+
+**解决方案 / Solution**:
+Your problem could have been caused by any number of things: If your system drive is too full, then that will certainly cause slowness. Deleting caches won't help you, as they will just fill up again. Old, incompatible software -- particularly those with background processes that run at launch -- could also be a factor. However, one of the reasons that Apple excludes a particular model from the supported list on a new OS is that the "user experience" is not up to Apple's standards. In other words, the model isn't able to sustain the performance levels that Apple expects. It may be possible to run Sonoma on your Mac if you're doing web browsing, email and Office apps; but development work is another matter. If you are an app developer, then you can't really use a 10-year-old computer. You don't say which model, but the 13" 2015 had only 2 cores.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478459/slow-2015-macbook-pro-after-update-to-sonoma
+
+---
+
+#### 5332. How can I make an external Apple USB keyboard (via USB to C adapter) be recognised and work with my new MacBook Pro (Sequoia 15.2)?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, usb, driver | Score: 0 | Views: 1191 | Answers: 1 | Created: 2025-02-04
+
+**解决方案 / Solution**:
+Thanks to everyone who has given their time to help me out. I've now tried different adapters and found that the inexpensive iJiGui from Amazon works whichever way-up it is inserted. So here is a full recap of my findings: Others have suggested elsewhere that it appears to be necessary to enter Settings - Privacy & Security. Scroll down to Security - Allow accessories to connect and select Always. [I did that first. I'm now not sure if it has helped since I've not yet tried restoring it to default.] Neither of the two types of Syntech USB C to USB OTG (including Cable) Adapters that I was trying (before posting) worked - whichever way-up they were inserted. I had already in my possession a pack of 3 adapters (unfortunately origin unknown). All of them worked BUT only when inserted one way up! I've since bought and tried the two pack iJiGui adapter from Amazon and they both work - whichever way-up they are inserted. Conclusion: There are some simpler adapters (presumably having no active components within them) that will work with the older legacy keyboard. The Syntech adapters (that do have active components within them) are designed to work with later USB 3.1 [I think] standards and speeds. AND There may be also something in-between! SO this connector compatibility issue appears to have become a minefield for the unwary when connecting old to new. As they say: "Your mileage may vary." You may need to study the whole USB connector topic in detail depending on your need. Hope that helps everyone. Thanks again to the respondents.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478407/how-can-i-make-an-external-apple-usb-keyboard-via-usb-to-c-adapter-be-recognis
+
+---
+
+#### 5333. How to make sublime_text command return from terminal after the app is opened
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, zsh, sublimetext | Score: 0 | Views: 64 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+open /Users/yaohuazhuo/Desktop/Self\ Installed\ Applications/Sublime\ Text.app See man open I don't know what sublime will do with a -w, but open uses -W (upper case) to NOT return to the shell prompt until the app exits. (The man page has more detail on that.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478337/how-to-make-sublime-text-command-return-from-terminal-after-the-app-is-opened
+
+---
+
+#### 5334. Make full bootable backup of MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, mac, backup | Score: 0 | Views: 267 | Answers: 1 | Created: 2025-01-29
+
+**解决方案 / Solution**:
+Disk Utility can create disk images, but isn't designed to create bootable clones of running macOS. The venerable and still excellent Carbon Copy Cloner includes a command-line utility which will work. Carbon Copy Cloner includes a command line utility that allows you to start, stop, and monitor the progress of specific CCC backup tasks. The utility is located inside of the CCC application bundle. To get basic usage instructions, invoke the utility without arguments in the Terminal application ...
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478306/make-full-bootable-backup-of-macos
+
+---
+
+#### 5335. Does connecting PlayStation 2 with MacBook Pro M1 using HDMI work?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hdmi, hardware-recommendation | Score: 0 | Views: 288 | Answers: 2 | Created: 2025-01-05
+
+**解决方案 / Solution**:
+Sure, get an USB-C based HDMI capture device . Start with an inexpensive one like this or pay another $100 or $200 if your needs for faster capture rate, really need brand name device or other features benefit from a higher performing device. Apple hardware only outputs HDMI without a specialized adapter to capture the signal and digitize it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477810/does-connecting-playstation-2-with-macbook-pro-m1-using-hdmi-work
+
+---
+
+#### 5336. Macbook Pro 2011 slow
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, power-management | Score: 0 | Views: 182 | Answers: 1 | Created: 2024-12-28
+
+**解决方案 / Solution**:
+According to the OP, his problem was caused by either or both of two third-party system modifications (which may have been outdated): "Macs Fan Control" and "WD Drive Utilities." Apparently at least one of these didn't interact well with the replacement battery.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477676/macbook-pro-2011-slow
+
+---
+
+#### 5337. Why am I having an issue with restoring cursor position when using Basta on macOS terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash | Score: 0 | Views: 215 | Answers: 1 | Created: 2024-12-14
+
+**解决方案 / Solution**:
+Workaround found, via this answer to a StackOverflow question. When I put the line set enable-bracketed-paste 0 into the ~/.inputrc configuration file and start a new Bash session with Basta, I don't see the issue any more. (While that's great, I still feel that Bash should not be spewing junk to the terminal when it receives a signal that is trapped to a command.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477385/why-am-i-having-an-issue-with-restoring-cursor-position-when-using-basta-on-maco
+
+---
+
+#### 5338. Host files not working when editing it via Nano but works when using SelfControl?
+
+**问题描述 / Problem Description**:
+Tags: terminal, dns, hosts | Score: 0 | Views: 127 | Answers: 1 | Created: 2024-12-07
+
+**解决方案 / Solution**:
+That app installs a privileged background task that may be preempting the hosts file. I suggest that you uninstall it completely according to the developer's instructions (not by just dragging something to the Trash). As a test, you can disable it without uninstalling by running this command in a shell: sudo launchctl disable system/org.eyebeam.selfcontrold If you wish, you can re-enable it this way: sudo launchctl enable system/org.eyebeam.selfcontrold
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477262/host-files-not-working-when-editing-it-via-nano-but-works-when-using-selfcontrol
+
+---
+
+#### 5339. How to find a particular line in command output?
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 0 | Views: 63 | Answers: 1 | Created: 2024-12-03
+
+**解决方案 / Solution**:
+For reasons known only to Apple, codesign(1) prints its output to standard error, not standard output as anyone would expect. So you have to redirect: codesign -dv --verbose=4 /Applications/Cisco/Cisco\ Secure\ Client\ -\ Socket\ Filter.app/ 2>&1 | grep TeamIdentifier
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477187/how-to-find-a-particular-line-in-command-output
+
+---
+
+#### 5340. Is any browser supported for OSX 10.6.8?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, safari, google-chrome, snow-leopard | Score: 0 | Views: 1269 | Answers: 1 | Created: 2024-11-23
+
+**解决方案 / Solution**:
+A quick Google for "browsers for Snow Leopard" brings up lots of pages, including InterWebSnow. https://github.com/wicknix/InterWebSnow/releases/tag/60.9.9 Though development does seem to have stopped. There's also a lengthy blog on the subject: https://blog.greggant.com/posts/2024/07/03/running-10.6-snow-leopard-in-2024.html .. which includes a number of browser alternatives; but ultimately concludes that you shouldn't use Snow Leopard for daily work. A 2007 MacBook should run Lion, at least, which will give you more options. As for Linux: most reports suggest that Linux is often faster on old Macs than macOS. I presume you've switched the old hard drive for an SSD? But as you imply: this is a 17-year-old Mac, and unless there's a particular function that you need, you really need to get a new computer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476954/is-any-browser-supported-for-osx-10-6-8
+
+---
+
+#### 5341. Plugging in a USB keyboard changed my builtin keyboard's keys
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard | Score: 0 | Views: 100 | Answers: 1 | Created: 2024-11-13
+
+**解决方案 / Solution**:
+I had to run sudo /bin/rm /Library/Preferences/com.apple.keyboardtype.plist open /System/Library/CoreServices/KeyboardSetupAssistant.app/Contents/MacOS/KeyboardSetupAssistant from Terminal.app, then when it says Press the key directly to the right of Left Shift I pressed the §± key at the top-left of the keyboard instead. This feels hacky and unreliable, and I worry this will never work again, because no matter how many times I rerun those terminal commands, or disconnect and reconnect different keyboards, KeyboardSetupAssistant.app has never opened again...
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476730/plugging-in-a-usb-keyboard-changed-my-builtin-keyboards-keys
+
+---
+
+#### 5342. Getting number of performance cores and efficiency cores of MacBook Pro in Terminal
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, command-line, performance, cpu | Score: 0 | Views: 295 | Answers: 1 | Created: 2024-11-09
+
+**解决方案 / Solution**:
+The following command shows the number of performance cores and efficiency cores and the CPU type: sysctl -a|egrep 'brand_string|(perflevel.*(physicalcpu:|name))' On my MacBook Pro M1 this gives the following output: hw.perflevel0.physicalcpu: 8 hw.perflevel0.name: Performance hw.perflevel1.physicalcpu: 2 hw.perflevel1.name: Efficiency machdep.cpu.brand_string: Apple M1 Pro You can also enter this shorter command to get the caches sizes as well: sysctl -a|grep perfl On my MacBook Pro M1 this produces: hw.perflevel0.physicalcpu: 8 hw.perflevel0.physicalcpu_max: 8 hw.perflevel0.logicalcpu: 8 hw.perflevel0.logicalcpu_max: 8 hw.perflevel0.l1icachesize: 196608 hw.perflevel0.l1dcachesize: 131072 hw.perflevel0.l2cachesize: 12582912 hw.perflevel0.cpusperl2: 4 hw.perflevel0.name: Performance hw.perflevel1.physicalcpu: 2 hw.perflevel1.physicalcpu_max: 2 hw.perflevel1.logicalcpu: 2 hw.perflevel1.logicalcpu_max: 2 hw.perflevel1.l1icachesize: 131072 hw.perflevel1.l1dcachesize: 65536 hw.perflevel1.l2cachesize: 4194304 hw.perflevel1.cpusperl2: 2 hw.perflevel1.name: Efficiency hw.nperflevels: 2
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476652/getting-number-of-performance-cores-and-efficiency-cores-of-macbook-pro-in-termi
+
+---
+
+#### 5343. Image stretched when connecting MacBook to ultra-wide monitor
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display, hdmi, displayport | Score: 0 | Views: 1477 | Answers: 1 | Created: 2024-11-04
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476521/image-stretched-when-connecting-macbook-to-ultra-wide-monitor
+
+---
+
+#### 5344. Can't set time zone on M1 & 64 bit mac using command system setup
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, timezone | Score: 0 | Views: 348 | Answers: 1 | Created: 2024-10-28
+
+**解决方案 / Solution**:
+I just tested this in macOS 15.0.1. I get the same error message (a bug), but the command actually does work and exits with status 0 (success). Your output shows the same thing. To suppress the spurious error message, append 2>&- to the command.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/476349/cant-set-time-zone-on-m1-64-bit-mac-using-command-system-setup
+
+---
+
+#### 5345. zsh curly bracket command expansion with homebrew command
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, zsh | Score: 0 | Views: 112 | Answers: 1 | Created: 2024-10-03
+
+**解决方案 / Solution**:
+Brace expansion rewrites the command with the arguments separated by spaces. It doesn’t insert any operators or duplicate the whole command. You seem to be thinking of it as if it analyzed the command to figure out what you intended.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475823/zsh-curly-bracket-command-expansion-with-homebrew-command
+
+---
+
+#### 5346. Macbook 12in Early 2005 does not Recognize hard Drive
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hard-drive, startup | Score: 0 | Views: 64 | Answers: 1 | Created: 2024-09-29
+
+**解决方案 / Solution**:
+The internal HD is dead. Seeing that the Mac is almost 20 years old, this is most certainly the problem. Spinning disks have a finite lifetime. You don’t mention if you have been using this Mac since 2005, or if it has been unused for some length of time.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475710/macbook-12in-early-2005-does-not-recognize-hard-drive
+
+---
+
+#### 5347. Logic behind equal charging time although one computer's charger consumes 200 W and the other 75 W
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, battery, charging | Score: 0 | Views: 70 | Answers: 1 | Created: 2024-09-25
+
+**解决方案 / Solution**:
+HP could just produce one generic charger that is used across many models. I know, from the models of laptops I have from Apple (MacBook Pro, MacBook Air, iPads etc), that there are chargers of various capacities - the lower capacity chargers will charge the bigger demand laptops over time but if they are in use that may not happen, while the more powerful chargers do not overcharge things. Case in point: usb C MacBook Pro charger used to directly charge my Apple Watch. Batteries of different capacities may well have different charge rates so it is not what the charger can deliver but what the battery can use.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475603/logic-behind-equal-charging-time-although-one-computers-charger-consumes-200-w
+
+---
+
+#### 5348. How can I diagnose a stuck key on a MacBook Air?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, keyboard, mac | Score: 0 | Views: 266 | Answers: 1 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+It’s unlikely this is a purely mechanical problem but is there a chance you have debris under the key cap? I would expect other keys to be crunchy and visible signs of foreign materials, but sometimes a bit of fluff can get caught on the cleanest of keyboards. It’s much more likely this is due to a failure in the switch circuitry. I would open the case and inspect for signs of liquid damage and then get a quote from a repair shop. That way you understand prices if you try to repair it yourself and end up damaging the mechanism physically and not solving it or forcing a proper replacement.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475287/how-can-i-diagnose-a-stuck-key-on-a-macbook-air
+
+---
+
+#### 5349. Can USB SuperDrive work with newer Macbook Pro/Air series?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware-recommendation, optical-drive | Score: 0 | Views: 508 | Answers: 1 | Created: 2024-09-08
+
+**解决方案 / Solution**:
+Will it work with the newer Macbook Pro/Air series with M1/M2/Intel processors? Yes. I am currently using it with my M1 Mac Studio, and I previously used it with a 2018 Intel Mac mini.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475186/can-usb-superdrive-work-with-newer-macbook-pro-air-series
+
+---
+
+#### 5350. How does Sonoma work on a 2018 Macbook Pro?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, monterey, sonoma | Score: 0 | Views: 416 | Answers: 2 | Created: 2024-08-17
+
+**解决方案 / Solution**:
+It's inevitable that the newest OSes will take advantage of improvements in the latest hardware, and therefore older models will have to work harder. However, it's also true that if the "user experience" wasn't good enough on a particular Mac, Apple would exclude that Mac from the list of supported devices. Any supported Mac with an SSD and plenty of cores will work fine.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474748/how-does-sonoma-work-on-a-2018-macbook-pro
+
+---
+
+#### 5351. Macbook M2 2022 Keyboard Not Functioning Well
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard | Score: 0 | Views: 105 | Answers: 1 | Created: 2024-08-13
+
+**解决方案 / Solution**:
+Keyboard problems that affect a group of keys in the same region, particularly in a vertical line, suggest a hardware fault. You should take the Mac to an Apple Store or other Apple authorised repair shop.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474647/macbook-m2-2022-keyboard-not-functioning-well
+
+---
+
+#### 5352. How to upgrade a MacBook Pro (11,4) to macOS Monterey?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, monterey | Score: 0 | Views: 82 | Answers: 1 | Created: 2024-08-13
+
+**解决方案 / Solution**:
+As per this thread on Apple’s official support site: https://discussions.apple.com/thread/253449314?sortBy=rank How to reset computer password. Intel Computer Restart computer and immediately hold Command + R keys. Top Tool Bar >> Utilities >> Terminal. Type resetpassword as one word and no spaces. Press Return key. Follow the prompts and remember the new password. Apple Silicon Computer Choose Apple menu >> Shut Down. Press and hold the power button on your Mac until you see “Loading startup options.” Click “Options,” then click “Continue.” Top Tool Bar >> Utilities >> Terminal Type resetpassword as one word and no spaces. Press Return key. Follow the prompts and remember the new password.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/474637/how-to-upgrade-a-macbook-pro-11-4-to-macos-monterey
+
+---
+
+#### 5353. How can I clear the whole window in Terminal with one keyboard shortcut?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, shortcut | Score: 0 | Views: 331 | Answers: 1 | Created: 2024-06-11
+
+**解决方案 / Solution**:
+If you just want to achieve this in your shell(bash/zsh), there are two ways to do this. (This guide uses bash as example) you can try binding the escape sequence that clears your screen and scroll back \e[2J\e[3J to your bash key binding, so it first sends this escape sequence, then execute unix-line-discard . For how to bind one key to two actions see here . You can, in Terminal settings, set cmd+k to send a key sequence that calls clear-display and unix-line-discard by inputing \e\C-l\C-u . (Untested yet, may contain errors)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473313/how-can-i-clear-the-whole-window-in-terminal-with-one-keyboard-shortcut
+
+---
+
+#### 5354. Controlling the new man page pop-up
+
+**问题描述 / Problem Description**:
+Tags: terminal, macos | Score: 0 | Views: 134 | Answers: 2 | Created: 2024-05-16
+
+**解决方案 / Solution**:
+If you have a Touchbar Macbook Pro, there is a Man Page Touchbar button above the 2 and 3 buttons, so perhaps you are hitting that by mistake.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472692/controlling-the-new-man-page-pop-up
+
+---
+
+#### 5355. If a hacker succeeds in using my Apple ID to log his device into my iCloud account, can he spy on my devices well enough to hack into my web accounts?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, terminal, icloud, security | Score: 0 | Views: 939 | Answers: 3 | Created: 2024-05-05
+
+**解决方案 / Solution**:
+If a hacker succeeds in logging his device into my Apple account... This boils down to what are your risks with a compromised Apple account. It doesn't matter if they use their device or even your device for that matter. Once the account is compromised, they can take full ownership of any and everything stored on that account. See Can thieves with a stolen Macbook (non-M1) and corresponding AppleID iCloud password retrieve keychain and chrome passwords from the Mac? for a more in-depth look. The bottom line is your risk profile is only as large or small as you make it. Can the Terminal app on one device execute commands affecting another device? This is like asking if a hammer or screwdriver from one toolbox affect the tools in another - it's irrelevant as exploits can be done via email, webpage, message app, etc. Commands can be executed in a non-interactive shell never having brought up Terminal; this is the wrong factor to focus on. Instead, you should be focused on securing your data and having multiple layers of security such that if one is compromised, you don't immediately give up the keys to the kingdom. In particular, I wonder how Continuity features could be exploited. Continuity features are based in several underlying technologies like WiFi, BLE (Bluetooth Low Energy) and iCloud identity services. If these technologies are compromised, it means devices near or in your possession have been compromised. Apple has an excellent write up on their platfom security; I highly suggest a thorough review. Apple Platform Security
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472445/if-a-hacker-succeeds-in-using-my-apple-id-to-log-his-device-into-my-icloud-accou
+
+---
+
+#### 5356. ARM Mac Recovery Mode - Show available HD space in Terminal
+
+**问题描述 / Problem Description**:
+Tags: terminal, recovery | Score: 0 | Views: 123 | Answers: 1 | Created: 2024-04-04
+
+**解决方案 / Solution**:
+According to auditors which helped us with this process (along with Apple documentation) disk0 represents the internal physical disk [ssd] in the MacBook. diskUtil eraseDisk APFS "Macintosh HD" /dev/disk0 is enogh proof to the auditors that the internal drive was erased of any company data. Once the command is run while booting into recovery mode > terminal, Disk Utility shows all previous volumes/data has been erased.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471612/arm-mac-recovery-mode-show-available-hd-space-in-terminal
+
+---
+
+#### 5357. Can somebody explain why two users are logged in?
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line | Score: 0 | Views: 606 | Answers: 1 | Created: 2024-03-05
+
+**解决方案 / Solution**:
+The user with console in the second column is your user account logged into your physical Mac with the keyboard and mouse/trackpad. The user with ttys[nnn] is you logged in with a terminal application. If there was an IP address after the date column, it would indicate a remote connection. Try this - start another terminal window and then type the who command again, it should now show three users, one console and two ttys. MacOS is at its heart a time sharing multiuser operating system, a side effect of this is that each terminal window (remote or local) counts as its own login of your user account. These aren't separate instances, as you can create folders in the terminal that will be visible in the Finder and vice versa.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470816/can-somebody-explain-why-two-users-are-logged-in
+
+---
+
+#### 5358. Simple, free GUI application for running shell scripts
+
+**问题描述 / Problem Description**:
+Tags: terminal, macos | Score: 0 | Views: 1303 | Answers: 4 | Created: 2024-02-21
+
+**解决方案 / Solution**:
+You can run Shell Scripts directly from the free version of BBEdit. https://www.barebones.com/products/bbedit/comparison.html
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/469462/simple-free-gui-application-for-running-shell-scripts
+
+---
+
+#### 5359. Can I tell if a hard drive is usable or fake?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, hard-drive, command-line, usb | Score: 0 | Views: 471 | Answers: 1 | Created: 2024-02-14
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/469253/can-i-tell-if-a-hard-drive-is-usable-or-fake
+
+---
+
+#### 5360. Can't open multiple Finder windows from terminal
+
+**问题描述 / Problem Description**:
+Tags: terminal, finder, bash, iterm | Score: 0 | Views: 131 | Answers: 1 | Created: 2024-02-01
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468883/cant-open-multiple-finder-windows-from-terminal
+
+---
+
+#### 5361. xattr: bad interpreter: No such file or directory
+
+**问题描述 / Problem Description**:
+Tags: terminal, python, utilities, darwin | Score: 0 | Views: 584 | Answers: 1 | Created: 2024-01-18
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468463/xattr-bad-interpreter-no-such-file-or-directory
+
+---
+
+#### 5362. Suddenly can't boot
+
+**问题描述 / Problem Description**:
+Tags: terminal, macos, partition, data-recovery, internet-recovery | Score: 0 | Views: 265 | Answers: 1 | Created: 2024-01-04
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/468033/suddenly-cant-boot
+
+---
+
+#### 5363. As of 2025, are there any new methods available to enable a recovery lock on M series MacBooks without the use of MDM?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, recovery, apple-silicon | Score: -1 | Views: 434 | Answers: 2 | Created: 2025-02-14
+
+**解决方案 / Solution**:
+Since we're playing SE's favorite game, "Guess What The OP Is Talking About," I'll take this: How to Set Recovery Lock for macOS Devices (support.addigy.com) If I got it right, the answer to your question is, "No, but it's unnecessary." It's unnecessary because to do anything in Recovery mode on Apple Silicon, you have enter the password of an administrator on the system you want to recover, regardless of whether FileVault is active.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478636/as-of-2025-are-there-any-new-methods-available-to-enable-a-recovery-lock-on-m-s
+
+---
+
+#### 5364. MBP running too hot and fan being loud
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, temperature | Score: -1 | Views: 182 | Answers: 1 | Created: 2025-01-28
+
+**解决方案 / Solution**:
+65 to 75°C is not particularly hot for Intel CPUs. They can go up over 100°C easily. Some parts of the aluminium casing can get too hot for comfort; though not hot enough for injury. If you think this behaviour has changed, and software does not seem to be causing excessive CPU usage, then it may well be a hardware issue. (I'd recommend another Chromium browser such as Brave, Vivaldi or Opera.)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/478288/mbp-running-too-hot-and-fan-being-loud
+
+---
+
+#### 5365. Do the tinted icon/folder colors on macOS Tahoe change when changing wallpapers?
+
+**问题描述 / Problem Description**:
+Tags: macos, wallpaper | Score: -2 | Views: 46 | Answers: 1 | Created: 2026-06-11
+
+**解决方案 / Solution**:
+I tried here and, no, they don’t change based on the wallpaper. They are instead determined by the accent color chosen in the Appearance settings.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486577/do-the-tinted-icon-folder-colors-on-macos-tahoe-change-when-changing-wallpapers
 
 ---

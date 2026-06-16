@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:23:25.045080+00:00",
+  "generated_at": "2026-06-16T22:22:15.393972+00:00",
   "files": [
     {
       "path": "network-security/index.md",
@@ -8,12 +8,12 @@
     },
     {
       "path": "network-security/linux.md",
-      "size_bytes": 1275247,
+      "size_bytes": 1366091,
       "first_line": "# Linux 网络安全漏洞 | Linux Network Security"
     },
     {
       "path": "network-security/macos.md",
-      "size_bytes": 693964,
+      "size_bytes": 694221,
       "first_line": "# Macos 网络安全漏洞 | Macos Network Security"
     },
     {
@@ -28,17 +28,17 @@
     },
     {
       "path": "system-vulnerabilities/linux.md",
-      "size_bytes": 1512226,
+      "size_bytes": 1565480,
       "first_line": "# Linux 系统漏洞知识库 | Linux System Vulnerabilities"
     },
     {
       "path": "system-vulnerabilities/macos.md",
-      "size_bytes": 741623,
+      "size_bytes": 742103,
       "first_line": "# Macos 系统漏洞知识库 | Macos System Vulnerabilities"
     },
     {
       "path": "system-vulnerabilities/windows.md",
-      "size_bytes": 497742,
+      "size_bytes": 511767,
       "first_line": "# Windows 系统漏洞知识库 | Windows System Vulnerabilities"
     },
     {
@@ -48,23 +48,23 @@
     },
     {
       "path": "system-troubleshooting/linux.md",
-      "size_bytes": 4385339,
+      "size_bytes": 4405381,
       "first_line": "# Linux 系统故障知识库 | Linux Troubleshooting"
     },
     {
       "path": "system-troubleshooting/macos.md",
-      "size_bytes": 3063755,
+      "size_bytes": 3139449,
       "first_line": "# Macos 系统故障知识库 | Macos Troubleshooting"
     },
     {
       "path": "system-troubleshooting/windows.md",
-      "size_bytes": 3621654,
+      "size_bytes": 3650292,
       "first_line": "# Windows 系统故障知识库 | Windows Troubleshooting"
     }
   ],
   "entry_counts": {
-    "network-security": 3924,
-    "system-vulnerabilities": 3681,
-    "system-troubleshooting": 17742
+    "network-security": 4052,
+    "system-vulnerabilities": 3764,
+    "system-troubleshooting": 17951
   }
 }

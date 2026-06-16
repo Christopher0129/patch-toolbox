@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6641**
+**总计条目 / Total entries: 6708**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -92097,5 +92097,876 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1220591#reply6
+
+---
+
+#### 6642. Browser asking me to select certificate. Is it a virus/scam?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7h672/browser_asking_me_to_select_certificate_is_it_a/
+
+---
+
+#### 6643. RE: Edge, Firefox, Chrome, etc suddenly displaying certificate request popup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7opnn/re_edge_firefox_chrome_etc_suddenly_displaying/
+
+---
+
+#### 6644. Google Chrome browser constantly asking for certificates
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7nk4q/google_chrome_browser_constantly_asking_for/
+
+---
+
+#### 6645. [Help] How to export a massive WhatsApp chat (6 years, GBs of media) without Root? Need at least the first 2 years.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u71my1/help_how_to_export_a_massive_whatsapp_chat_6/
+
+---
+
+#### 6646. Can I get hacked by opening an image in discord?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7ke4b/can_i_get_hacked_by_opening_an_image_in_discord/
+
+---
+
+#### 6647. Got a google chrome certificate thing. Whats the status?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7p95o/got_a_google_chrome_certificate_thing_whats_the/
+
+---
+
+#### 6648. Activate Windows Watermark Showed up After 7-8 Months
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7k13k/activate_windows_watermark_showed_up_after_78/
+
+---
+
+#### 6649. Can't safely remove hard drive.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7iamb/cant_safely_remove_hard_drive/
+
+---
+
+#### 6650. What type of KVM is needed to support these?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7rmws/what_type_of_kvm_is_needed_to_support_these/
+
+---
+
+#### 6651. "The directory name is invalid" upon imputing any sd card into my sd card slot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7qvz4/the_directory_name_is_invalid_upon_imputing_any/
+
+---
+
+#### 6652. Suddenly my Mac asking for a certificate on every opened page
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7qqwk/suddenly_my_mac_asking_for_a_certificate_on_every/
+
+---
+
+#### 6653. How do you delete multiple e-mails you received before a certain date?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7qf2x/how_do_you_delete_multiple_emails_you_received/
+
+---
+
+#### 6654. Amd adrenaline update crash.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7qdni/amd_adrenaline_update_crash/
+
+---
+
+#### 6655. Laptop not turning on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7q6n0/laptop_not_turning_on/
+
+---
+
+#### 6656. Outlook browser is not working with folders
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pxdn/outlook_browser_is_not_working_with_folders/
+
+---
+
+#### 6657. Simple Copy & Paste Problem. Can't figure out how to copy a file and paste it into multiple locations at once. Using Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7px94/simple_copy_paste_problem_cant_figure_out_how_to/
+
+---
+
+#### 6658. Do I need to get a new Laptop charger?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pwmd/do_i_need_to_get_a_new_laptop_charger/
+
+---
+
+#### 6659. Transferer l'audio d'un pc a un autre
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pqcf/transferer_laudio_dun_pc_a_un_autre/
+
+---
+
+#### 6660. Multi monitor display stops working overnight
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pq4x/multi_monitor_display_stops_working_overnight/
+
+---
+
+#### 6661. I need wifi to enter my pc but i don't have one
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pjz2/i_need_wifi_to_enter_my_pc_but_i_dont_have_one/
+
+---
+
+#### 6662. Help identifying ominous metal block inside butchered mouse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pixr/help_identifying_ominous_metal_block_inside/
+
+---
+
+#### 6663. Dropped a screw on a acer laptop and now it doesn't boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pidf/dropped_a_screw_on_a_acer_laptop_and_now_it/
+
+---
+
+#### 6664. Problem with connection to the internet on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7j4pk/problem_with_connection_to_the_internet_on/
+
+---
+
+#### 6665. Microsoft Store cannot function, along with the Xbox app not functioning aswell.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u7pfei/microsoft_store_cannot_function_along_with_the/
+
+---
+
+#### 6666. NVIDIA's RTX Spark launch is huge, but Qualcomm and Microsoft built the Windows ARM foundation
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u7oinr/nvidias_rtx_spark_launch_is_huge_but_qualcomm_and/
+
+---
+
+#### 6667. Introducing the next Surface Pro and Surface Laptop, powered by Snapdragon X2 processors
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u7dtdd/introducing_the_next_surface_pro_and_surface/
+
+---
+
+#### 6668. Tasket++ - Lightweight no‑code automation tool for Windows (free & open source)
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u7d9sw/tasket_lightweight_nocode_automation_tool_for/
+
+---
+
+#### 6669. Microsoft’s new Outlook takes 10 seconds to do what Outlook Classic does instantly on Windows
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u6ml05/microsofts_new_outlook_takes_10_seconds_to_do/
+
+---
+
+#### 6670. Xbox Mode rest of world release date?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u6sjue/xbox_mode_rest_of_world_release_date/
+
+---
+
+#### 6671. Microsoft could soon make Windows 11 updates far less annoying
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u6dtun/microsoft_could_soon_make_windows_11_updates_far/
+
+---
+
+#### 6672. Make File Explorer follow the currently viewed image
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u6g0f9/make_file_explorer_follow_the_currently_viewed/
+
+---
+
+#### 6673. Microsoft released the Windows 11 Secure Boot update for all PCs, how to verify yours
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u66b2a/microsoft_released_the_windows_11_secure_boot/
+
+---
+
+#### 6674. Is it safe to upgrade to 26H1 on an amd64 cpu?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u69imc/is_it_safe_to_upgrade_to_26h1_on_an_amd64_cpu/
+
+---
+
+#### 6675. Microsoft Teams will auto-detect when you’re at the office via Wi-Fi, roll out confirmed, but you can opt-out
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u661tu/microsoft_teams_will_autodetect_when_youre_at_the/
+
+---
+
+#### 6676. Tip of the Week: Middle clicking a folder in File Explorer's nav pane will open it in a new tab
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u5tn5n/tip_of_the_week_middle_clicking_a_folder_in_file/
+
+---
+
+#### 6677. How far should Windows go to protect local credentials?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u6c1oe/how_far_should_windows_go_to_protect_local/
+
+---
+
+#### 6678. Is there a way to fix file explorer when using text scaling at 125% on 1440p?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u5ed5w/is_there_a_way_to_fix_file_explorer_when_using/
+
+---
+
+#### 6679. WhatsApp is the worst app on your Windows 11 PC right now, eating 1.2GB of RAM doing nothing
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u4h54q/whatsapp_is_the_worst_app_on_your_windows_11_pc/
+
+---
+
+#### 6680. Ditch Outlook Classic? Microsoft confirms major New Outlook update with 5 features, all-accounts view, mail merge, .PST, and more
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u4sqv3/ditch_outlook_classic_microsoft_confirms_major/
+
+---
+
+#### 6681. Looking for Windows 11 Sticker for Windows Key
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u58twh/looking_for_windows_11_sticker_for_windows_key/
+
+---
+
+#### 6682. I Remade the Windows and Microsoft logo
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u61yxy/i_remade_the_windows_and_microsoft_logo/
+
+---
+
+#### 6683. Is it safe to delete previous windows installations?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u4dqz2/is_it_safe_to_delete_previous_windows/
+
+---
+
+#### 6684. Do you know about symlinks? The "better" type of file shortcut...
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u4efw9/do_you_know_about_symlinks_the_better_type_of/
+
+---
+
+#### 6685. Is there a way to change this Icon (and name) to a Speaker instead of Headphones?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u4e6il/is_there_a_way_to_change_this_icon_and_name_to_a/
+
+---
+
+#### 6686. Multiple app updates now rolling out to Insiders in the Experimental Channel
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u436mi/multiple_app_updates_now_rolling_out_to_insiders/
+
+---
+
+#### 6687. Announcing Release Preview Build 26100.8728/26200.8728 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u41da5/announcing_release_preview_build/
+
+---
+
+#### 6688. Windows 11 alignments make no sense
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1u56kl5/windows_11_alignments_make_no_sense/
+
+---
+
+#### 6689. [V2EX] AUR 被投毒了，有受到影响的吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220936#reply0
+
+---
+
+#### 6690. [V2EX] 大龄读博，科研、工作、生活路在何方？
+
+**问题描述 / Problem Description**:
+先做个自我介绍吧： 我是 97 年的，男，心理学专业，小时候在豫东农村长大，小学一年级跟爸爸去了深圳，一直在那念书，学习能力一般，高中读文科，2016 年考到了兰州的一个很普通的本科。对科研有兴趣，但是考研考了好几次都考不上，最终是 2023 年考到了中科院某研究所读研，然后硕转博到现在。 家庭情况也挺一般的，甚至可以说比较差。读书、青少年时期一家人是在深圳租房住，妈妈没工作，照顾我和我姐，爸爸在五金厂打工。现在是姐姐结婚了，爸爸还在五金厂打工，每月 5000 左右，妈妈在家种田（一亩半的地，其实根本挣不到钱），或者起早贪黑的去果园帮人干活，家里没什么积蓄。基本情况就是这样。 按理说我家这情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220935#reply7
+
+---
+
+#### 6691. [V2EX] 梯子开蜂窝数据连接不上，但是开 wifi 就可以连上，这是什么原因
+
+**问题描述 / Problem Description**:
+如图，开数据全部超时，开 wifi 全部可以连上，用的是 TAG ，难道是我流量用的太多了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220924#reply0
+
+---
+
+#### 6692. [V2EX] 过段时间会不会有很多人出 mac mini？
+
+**问题描述 / Problem Description**:
+小龙虾的风好像已经吹过了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220913#reply1
+
+---
+
+#### 6693. [V2EX] Intel 的 npu 有啥实际作用吗？
+
+**问题描述 / Problem Description**:
+公司新给换的电脑是最新的 Intel 处理器，看任务管理多了个 npu ，但好像从来没干过活，所以有啥实际作用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220911#reply10
+
+---
+
+#### 6694. [V2EX] microsoft store 发布 msix 应用,属性 总是未完成
+
+**问题描述 / Problem Description**:
+参考了官方 https://learn.microsoft.com/zh-cn/windows/apps/publish/publish-your-app/msix/create-app-submission 文档,属性页只需要必填类别,选了之后总是未完成,服了 请问有大佬遇到过吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220910#reply3
+
+---
+
+#### 6695. [V2EX] iphone18 又是新 2nm 工艺还敢不敢抢首发
+
+**问题描述 / Problem Description**:
+上次首发 3nm 的 15pm 成小丑了，首批 A17pro 都是火龙果当初发热都上热搜了，苹果表面上说自己发布软件更新修复了发热，但实际上偷偷修改了 A17pro 的后续生产工艺。这批 2nm 会不会又踩雷🤡🤡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220905#reply0
+
+---
+
+#### 6696. [V2EX] 街上跑的无人快递车和特斯拉无人驾驶有什么区别
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220902#reply8
+
+---
+
+#### 6697. [V2EX] Tauri v2 Android build 后图片无法显示，但 dev 模式正常（PC 正常）
+
+**问题描述 / Problem Description**:
+在使用 Tauri2 遇到了一个兼容适配的问题，pc 端和安卓 dev 调试时图片可以正常显示， build 安卓端会出现图片不展示的问题 但是 build PC 端没有类似的问题，只有 build 安卓会有。 dev 安卓 OK dev PC OK build PC OK build 安卓 ❌ 图片不显示
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220882#reply1
+
+---
+
+#### 6698. [V2EX] 我听到了中国历史上最变态、残忍的案件，俗称_“广州雨夜屠夫”
+
+**问题描述 / Problem Description**:
+https://zhuanlan.zhihu.com/p/653842610 两年，奸杀 18 人、剥皮、割乳房。太变态了。。。 市公安局、省公安、都没能破获，最后调用国家公安部力量。 最后破获居然是因为一个女性成功逃脱后报警才最终锁定目标。 很难想象在中国居然有这么恶劣的罪案。这在世界上都能排得上榜了。 另外关于这期内容的播客讲的也特别精彩。 https://www.xiaoyuzhoufm.com/episode/6a2ff27c43a22a69558439e7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220877#reply17
+
+---
+
+#### 6699. [V2EX] 有必要在这个年龄段打这么多疫苗吗
+
+**问题描述 / Problem Description**:
+真的有必要打这么多疫苗吗, 我家娃打疫苗有些落后(社区觉得跟不得了一样), 自费的一些打了第一针,周末去打疫苗社区说国家规定的免费不打完、不给打自费的,打了乙脑已经发烧第三天了..... 唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220856#reply44
+
+---
+
+#### 6700. [V2EX] Codex 成品号各平台直接断货？求推荐
+
+**问题描述 / Problem Description**:
+是需求爆发还是统一挂掉，我收藏的几个卖成品号渠道都断货？有知情的么？ 也来骗一个还可以买的渠道，谢谢大佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220848#reply0
+
+---
+
+#### 6701. [V2EX] 如何使用 eSIM 卡接收短信验证码并绑定 ChatGPT 账号
+
+**问题描述 / Problem Description**:
+下载 giffgaff App 注册 giffgaff 账号 在 giffgaff App 中购买 eSIM 卡 如果你的手机不支持 eSIM ，eSIM 卡则无法购买 不要在网页购买，网页购买的 eSIM 是带套餐的，每月都要扣费 使用 eSIM 号码 注册 WhatsApp 账号 登录 Codex 需要绑定手机号，验证的时候选择使用 WhatsApp 收短信验证码，秒到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220838#reply1
+
+---
+
+#### 6702. [V2EX] 没人觉得 chrome 的世界杯动图很烦？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220835#reply3
+
+---
+
+#### 6703. [V2EX] 咨询下大家， ios 有无这种功能的应用
+
+**问题描述 / Problem Description**:
+就是可以通过自然语言搜索相册内的照片，比如我搜索天空、儿童、美食、自行车等关键词，会列出含有此类元素的照片。 随着手机使用时间越来越长，有时候要找一张图片特别费劲，有这类的 app 就好了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220833#reply12
+
+---
+
+#### 6704. [V2EX] 一个关于看电子书问题
+
+**问题描述 / Problem Description**:
+日常用 Apple Books 看书，但是有的电子书里图片是白色底的，黑夜模式下，白色底的图片太刺眼了 大家有什么好的解决方法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220831#reply3
+
+---
+
+#### 6705. [V2EX] 日本有没有什么卡推荐，可以付款 gpt 的？
+
+**问题描述 / Problem Description**:
+暑假想去日本，线下有什么好用的卡吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220818#reply2
+
+---
+
+#### 6706. [V2EX] 长途通勤的路上，你们都干点啥
+
+**问题描述 / Problem Description**:
+背景 迫于之前经济压力比较大，搬到了离公司 42 公里的公租房，一住就是 5 年，每天通勤单程 1 小时 45 分钟，每天要在地体上消耗掉 1 小时 15 分钟的时间 之前基本上都是靠手机上看剧和电影度过漫长的时间，2 年前开始玩手游，一发不可收拾，每天上车第一件事就是打开游戏打副本，打造装备，玩游戏这两年明显感觉视力下降了很多，经常长时间盯着屏幕有时候会出现视觉模糊的现象，去大医院看过说不是老花，是近视了，但是只有一只眼近视，还测眼压说不像青光眼，目前还是没带眼镜的状态。 今天终于把玩了 2 年的手游卸载了，想想这 2 年玩游戏浪费了很多时间，我一个 40 多岁的老登天天和一帮不上学不上班的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220815#reply36
+
+---
+
+#### 6707. [V2EX] agent 用 grep 还是 idea 内置的 mcp
+
+**问题描述 / Problem Description**:
+如题 哪个好用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220814#reply1
+
+---
+
+#### 6708. [V2EX] 我发现最省钱的通勤组合就是油车+大电池电摩
+
+**问题描述 / Problem Description**:
+本人当前的组合： 1. 油车一部（ 13 年宝马 328 ） 2. 120A 电摩一辆（续航 150 公里） 市内 20 公里以内，都是骑车解决。油车一个月才动一回。 好处就是平时用电摩通勤效率更高，节假日或者紧急情况开油车。 另外我的油车已经 13 年了，从来没有担心过衰减。（如果电车，应该不舍得放这么久吧） 综合花费，每个月 700 公里，充电 10 块钱搞定。每年油车油费两三千吧。我老婆喜欢 su7 ，一直想让我卖了油车换，但是我思来想去，还是维持当前组合了。就算换了小米 su7 ，该堵车，还是堵车。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220806#reply55
 
 ---
