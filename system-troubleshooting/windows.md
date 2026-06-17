@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6708**
+**总计条目 / Total entries: 6778**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -92968,5 +92968,915 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1220806#reply55
+
+---
+
+#### 6709. Almost fell for the captcha scam. I just never pressed enter. I think this means the code is still on my clipboard. How can I clear it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8k1lt/almost_fell_for_the_captcha_scam_i_just_never/
+
+---
+
+#### 6710. My good PC SUDDENLY dropped in FPS EXTREMELY and using it feels like 20 FPS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8dmgi/my_good_pc_suddenly_dropped_in_fps_extremely_and/
+
+---
+
+#### 6711. Please Help!!! My Samsung turned off and won't turn back on again
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8iqp1/please_help_my_samsung_turned_off_and_wont_turn/
+
+---
+
+#### 6712. Computer suddenly turning off and immediately booting back up after around an hour of gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u825el/computer_suddenly_turning_off_and_immediately/
+
+---
+
+#### 6713. Booting Epic Games Launcher Uninstalled Nvidia Drivers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8iv8q/booting_epic_games_launcher_uninstalled_nvidia/
+
+---
+
+#### 6714. internet issues and google unusual traffic from network
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8i9p5/internet_issues_and_google_unusual_traffic_from/
+
+---
+
+#### 6715. PC freezing after disc drive reaches 100% usage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8nv9x/pc_freezing_after_disc_drive_reaches_100_usage/
+
+---
+
+#### 6716. Google.com on chrome browser asked me for some kind of certificate.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8bdxb/googlecom_on_chrome_browser_asked_me_for_some/
+
+---
+
+#### 6717. Bought the exact same Mac model but this one runs so much worse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8nmd2/bought_the_exact_same_mac_model_but_this_one_runs/
+
+---
+
+#### 6718. My Windows 11 broke and now won't boot.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8n87n/my_windows_11_broke_and_now_wont_boot/
+
+---
+
+#### 6719. Why does my pcs wifi stop working at 21:15 every night
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8n7h9/why_does_my_pcs_wifi_stop_working_at_2115_every/
+
+---
+
+#### 6720. Waveform 13 Won't Start Recording My Microphone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8mp3o/waveform_13_wont_start_recording_my_microphone/
+
+---
+
+#### 6721. My bosto tablet refuses to dual screen??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8mmcc/my_bosto_tablet_refuses_to_dual_screen/
+
+---
+
+#### 6722. Blue screen of death
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8ge1d/blue_screen_of_death/
+
+---
+
+#### 6723. pics from iphone to laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8m8p8/pics_from_iphone_to_laptop/
+
+---
+
+#### 6724. Can anyone help me?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8m4hb/can_anyone_help_me/
+
+---
+
+#### 6725. My up key doesn't work with any other directional keys.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8m0w3/my_up_key_doesnt_work_with_any_other_directional/
+
+---
+
+#### 6726. Case-Sensitive Format for Both MacOS and Windows (for external SSD)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8lzc7/casesensitive_format_for_both_macos_and_windows/
+
+---
+
+#### 6727. Speaker would muffle if I play while charging, the battery died, recharged it, now the speaker stay muffled.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8lyfn/speaker_would_muffle_if_i_play_while_charging_the/
+
+---
+
+#### 6728. Samsung T7 2TB – Very high Power Cycles – Normal or Concern?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8ltpz/samsung_t7_2tb_very_high_power_cycles_normal_or/
+
+---
+
+#### 6729. Burnt Blu-Ray disc showing up as blank
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8lsa7/burnt_bluray_disc_showing_up_as_blank/
+
+---
+
+#### 6730. Ctrl+C etc don't work, Fn doesn't work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8lq7i/ctrlc_etc_dont_work_fn_doesnt_work/
+
+---
+
+#### 6731. Pc crashing Livekernelevent 141 & explorer crashing while trying to play cs2
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8lbaj/pc_crashing_livekernelevent_141_explorer_crashing/
+
+---
+
+#### 6732. LENOVO YOGA INTEL EVO i7 keeps crashing while trying to use Vector software -Affinity and/or Vectorworks.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u8l7ui/lenovo_yoga_intel_evo_i7_keeps_crashing_while/
+
+---
+
+#### 6733. Apple's 2028 iPhones to Use 1.4nm A22 Pro Chips
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8cx8o/apples_2028_iphones_to_use_14nm_a22_pro_chips/
+
+---
+
+#### 6734. 'The retail SSD market has almost disappeared,' says Silicon Motion exec — PC OEMs are buying third-party drives as direct NAND supply dries up
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u86boh/the_retail_ssd_market_has_almost_disappeared_says/
+
+---
+
+#### 6735. Chip supply chains shift: TSMC's capacity crunch reportedly pushes Google, Tesla, BYD toward Samsung
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8gc0o/chip_supply_chains_shift_tsmcs_capacity_crunch/
+
+---
+
+#### 6736. Non-x86 servers now nearly half the market, IDC says
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8bthc/nonx86_servers_now_nearly_half_the_market_idc_says/
+
+---
+
+#### 6737. First official details of AMD's next-gen 'Mustang Peak' Threadripper CPUs come into view — chips feature DDR5, PCIe 6.0, and a new socket
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8a8ss/first_official_details_of_amds_nextgen_mustang/
+
+---
+
+#### 6738. Google is in talks with Samsung to build next-gen 'Icefish' TPU on 1.4nm and 2nm process split
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8dzz8/google_is_in_talks_with_samsung_to_build_nextgen/
+
+---
+
+#### 6739. Carbon Nanotube Thermal Pad as a 10-Year Thermal Paste Alternative | Carbice Engineering Discussion
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8a7fp/carbon_nanotube_thermal_pad_as_a_10year_thermal/
+
+---
+
+#### 6740. Intel 14A Yields Hit Impressive Milestone Before Trial Production
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7rssg/intel_14a_yields_hit_impressive_milestone_before/
+
+---
+
+#### 6741. [Tom's Hardware] Intel’s performance-enhanced 18A-P process enters risk production - drop-in 18A upgrade promises 9% performance improvement at iso-power, cuts thermal resistance by 40%
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7r9hg/toms_hardware_intels_performanceenhanced_18ap/
+
+---
+
+#### 6742. Innospace, Norma test quantum processor in space with private Korea launch vehicle
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u8e8kt/innospace_norma_test_quantum_processor_in_space/
+
+---
+
+#### 6743. ghost writes, extreme hardware endurance torture test on a 2010-era SanDisk P4 64GB SSD monitoring their S.M.A.R.T. health metrics and Total Bytes Written (TBW) to find their absolute failure points.
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u86mwa/ghost_writes_extreme_hardware_endurance_torture/
+
+---
+
+#### 6744. Steam Machine Geekbench score just appeared
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7ex0o/steam_machine_geekbench_score_just_appeared/
+
+---
+
+#### 6745. Has there been any useful usecase for NPUs in consumer hardware?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7kcsz/has_there_been_any_useful_usecase_for_npus_in/
+
+---
+
+#### 6746. Introducing the next Surface Pro and Surface Laptop, powered by Snapdragon X2 processors
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7dsaa/introducing_the_next_surface_pro_and_surface/
+
+---
+
+#### 6747. [ArsTechnica] Users cry foul after AMD stripped memory crypto [TSME] from its consumer CPUs
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u72s18/arstechnica_users_cry_foul_after_amd_stripped/
+
+---
+
+#### 6748. Samsung Slashes Product Testing From 15 Days to Two, Pushes AI Autonomous Factories
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7g18w/samsung_slashes_product_testing_from_15_days_to/
+
+---
+
+#### 6749. [Techpowerup] Noctua NL-LC1-36 AIO Review
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u78ebe/techpowerup_noctua_nllc136_aio_review/
+
+---
+
+#### 6750. MIND BLOWING - Noctua NL-LC1 AIO Review [Hardware Canucks]
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u79thy/mind_blowing_noctua_nllc1_aio_review_hardware/
+
+---
+
+#### 6751. Noctua NL-LC1 AIO Review: Premium Liquid Cooler Delivers Top Cooling Performance
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7ec6s/noctua_nllc1_aio_review_premium_liquid_cooler/
+
+---
+
+#### 6752. Intel Planning Processors with NVIDIA iGPUs in 2028
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u6ndzt/intel_planning_processors_with_nvidia_igpus_in/
+
+---
+
+#### 6753. Qualcomm in talks to buy Tenstorrent, The Information reports
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u6zxhu/qualcomm_in_talks_to_buy_tenstorrent_the/
+
+---
+
+#### 6754. Samsung wins 1st Neuralink chip order as Musk broadens supply chain
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u7fsxm/samsung_wins_1st_neuralink_chip_order_as_musk/
+
+---
+
+#### 6755. Building an Arc B780: Can We Beat the RTX 5070 and RX 9070?
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u6pvhj/building_an_arc_b780_can_we_beat_the_rtx_5070_and/
+
+---
+
+#### 6756. AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1u6p515/amd_acquires_mext_to_advance_memory_optimization/
+
+---
+
+#### 6757. [V2EX] AI 可以精简 windows 镜像（国产的不行）
+
+**问题描述 / Problem Description**:
+1 准备好原版的 iso 系统镜像 可以从 uupdump 下载 2 打开 claude code 切换成自动模式，和它说用 dism 精简系统自带的杀毒，默认开启 ssh ,集成微软常用运行库，开启 wsl,打包成 iso
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221100#reply3
+
+---
+
+#### 6758. [V2EX] 2026 年了，还有人使用精简 windows 镜像吗？
+
+**问题描述 / Problem Description**:
+从 xp 时代的深度版镜像，到后来 win7 和 win10 的各路大神，再到现在流行的 playbook 方案。从早期的硬件性能妥协，到后来纯粹追求干净的使用体验，无论这种“第 3 方修改版”怎样饱受争议，我觉得精简镜像这个需求都无法被否认 在 windows7 和 windows10 时代，我一直使用一个叫 Lopatkin 的饿罗斯开发者的精简镜像，可惜后来停更没能延续到 windows11 ，在 win11 尝试过各种诸如 atlas revios 的方案，都不甚满意，主力方案变成了从 uupdump 打包一个镜像自己精简，再单独暂停 update （停用 update 不会影响驱动自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220989#reply102
+
+---
+
+#### 6759. [V2EX] 一个痛点需求： AI 多端同步
+
+**问题描述 / Problem Description**:
+平时购买的 claude/gpt/gemini 都是电脑网页端的。（现在基本不做编码工作） 有很多有意思的对话记录，一个人在外面散步的时候脑袋里也会想，但是不在电脑边就不能继续和 AI 对话。 AI 对话的话，问题比较复杂有时候思维链也比较长，思考十分钟也不是没可能，又不可能在电脑前坐着，经常是去锻炼锻炼身体什么的。 急需一个工具可以实现豆包的功能，但是对接的 AI 是 claude/gpt 等领先模型，还能查看历史记录
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221215#reply2
+
+---
+
+#### 6760. [V2EX] clawcloud 要停止服务了，还有什么替代没
+
+**问题描述 / Problem Description**:
+用他们的日本主机用了几年，总体还可以，主要是便宜，还有这种便宜又基本稳定的亚洲线路吗，求推荐！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221213#reply0
+
+---
+
+#### 6761. [V2EX] 开源项目出问题了 作者要不要背锅？
+
+**问题描述 / Problem Description**:
+哪吒监控面板最近爆了几个大洞 导致好多人服务器惨中招 想知道各位坛友的看法 开源项目出问题了 作者要不要背锅？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221212#reply1
+
+---
+
+#### 6762. [V2EX] 很好奇，现在大家用 AI 开发的产品怎么推广，作为程序员出身的真的不会搞营销。
+
+**问题描述 / Problem Description**:
+很好奇，现在大家用 AI 开发的产品怎么推广，作为程序员出身的真的不会搞营销。去评论区留言发帖动不动就被封号，今天还收到了 Bluesky 的封号邮件，我就不明白了，外国社媒这么严格吗？我自己的号发自己的东西它说是垃圾信息。。。然后给封号。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221209#reply0
+
+---
+
+#### 6763. [V2EX] 智谱的 Team Plan 划算吗
+
+**问题描述 / Problem Description**:
+实在抢不到个人的 plan ，买 api ，那个 api 的价格也挺贵的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221198#reply2
+
+---
+
+#### 6764. [V2EX] M365 环境下日程管理
+
+**问题描述 / Problem Description**:
+召开活动的时候会有密集的人员（ 20 人左右）、会议安排，原本是维护在 excel 里面，横轴对应不同的人，纵轴是时间序列，半小时一个单元格，一小时的会议就合并单元格。更新的时候找到人的列，找到时间的行更新上去（包括会议内容、会议室） 但是这个 excel 有几个麻烦的地方： 1. 会议如果冲突了，不容易直观地看出来。 2. 会议室如果不够坐，超过人数限制，不会实时反馈 3. 不同会场之间，开车要多久希望能够反映出来 4. 添加日程的动作希望由 AI 来帮助做。 公司里对这类文档设计到员工信息或安排的内容有很严格的安全策略，不让用 Copilot Studio （ M365 的 agent 开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221194#reply4
+
+---
+
+#### 6765. [V2EX] 请教一下有什么 VLA 相关的学习路线/学习资料
+
+**问题描述 / Problem Description**:
+现在是零基础，预计学习时间 1 个多月吧... 目标是能深入了解，然后遇到真实项目能在 AI 的帮助下做得像模像样？ 恳请各位大佬指导喵
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221188#reply0
+
+---
+
+#### 6766. [V2EX] 好奇大家的芝麻信用分是多少？ 820 分算什么 level 的？
+
+**问题描述 / Problem Description**:
+我曾经停在 750 分好多年（ 5 年以上），身边的朋友分数在都到了七百九、八百、八百多，当时我也想增加嘛，所以那时候还经常玩蚂蚁森林，养小鸡什么的，甚至傻到添加了一些资产，绑定社保之类的进去，当然都没啥用。 后来看开了，也没怎么管过了，直到去年我开始在支付宝上买了一些基金，大概几万块钱。然后分数就就开始不停的涨，现在涨到 820 分。淘宝偶尔也会用买点东西，什么蚂蚁森林之类的，偶尔点一点，大概是看到提示，半个月点一次的频率，别的也没啥了。 合着这玩意主要跟放里面的钱有关系嘛，还是芝麻分已经变水了？另外 820 分算什么 level 的？ 纯粹是无聊问题，大家随便扯扯淡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221175#reply11
+
+---
+
+#### 6767. [V2EX] 咱们站允许推广中转站吗？有人知道规则是什么吗？ 在哪个板块发
+
+**问题描述 / Problem Description**:
+大佬，帮忙解惑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221174#reply2
+
+---
+
+#### 6768. [V2EX] 求解这个是什么字体？
+
+**问题描述 / Problem Description**:
+逛 b 站的时候偶然间看到一个啊三写代码，vscode 中的这个字体感觉挺好看的，用了 ai 识别感觉都不太对。 兄弟姐们有知道这个是什么字体吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221170#reply4
+
+---
+
+#### 6769. [V2EX] 运营商送的路由器，有哪些型号是可以刷 op 固件的
+
+**问题描述 / Problem Description**:
+xr30 （闪存大） cr880x 系列（如果不合分区，刷完只有 16.2MB 可用） rax3000m （暂时没刷） 还有什么别的型号吗？我目前手里接触的型号不多，想统计一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221164#reply2
+
+---
+
+#### 6770. [V2EX] Bitget Wallet 同一套助记词，安卓能恢复出原钱包， iOS 恢复出来却是空钱包
+
+**问题描述 / Problem Description**:
+环境 钱包：Bitget Wallet 链：TRON （ TRC20 ，USDT ） 这个钱包最早是在 iOS 版 Bitget 上生成的，一直正常使用、正常收发。 问题经过 昨天这个 TRON-USDT 钱包突然无法转账，App 提示类似"钱包地址已转移"。 想把钱包迁到别处，于是用助记词恢复——结果在 iOS 上恢复出来的是另一个地址、且是空钱包。 不死心，拿同一套助记词在安卓手机上恢复，居然恢复到了原来那个有资产的地址，完全正常。 在 iOS 上反复试：从苹果 App 导出助记词，再导入苹果 App ，恢复出来还是那个空钱包（不是原钱包）。 助记词和私钥全都是从 App 里直接导出的，不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221159#reply2
+
+---
+
+#### 6771. [V2EX] 目前大家稳定使用 gpt plus 的方案是啥？
+
+**问题描述 / Problem Description**:
+朋友想用，但是怕封号。向我求助 我也没经验，所以想参考一下 v 友的做法。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221155#reply5
+
+---
+
+#### 6772. [V2EX] 有人用 cloudflare 翻墙的吗？
+
+**问题描述 / Problem Description**:
+用这个库 https://github.com/cmliu/edgetunnel 就可以实现免费翻墙，而且网速还很快，我有个同事就是用 cf 翻墙，能有几 m 的速度，不知道是不是上面的方式。 我有点担心是 cf 不让用作代理，会不会被封号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221152#reply15
+
+---
+
+#### 6773. [V2EX] 有方法稳定反代 Claude 吗
+
+**问题描述 / Problem Description**:
+目前公司成立了一个小委员会，专门负责 AI 建设，其中就包括给公司内部提供统一 AI 平台，所有建设费用和订阅费用都是公司承担 目前已经用 NewAPI 接入了 DeepSeek v4 系列、Xiaomi MiMo 系列、Kimi K2.6 、Grok 系列和 OpenAI ChatGPT 系列 OpenAI 和 Grok 是用的 CPA 把订阅转 API ，然后走了海外 ECS+GA 加速回国 目前想看看有没有啥路子可以稳定的把 Claude Code 的订阅给反代出来，让大家也爽爽，反正都是公司出钱 我自己目前是美国家宽 VPS 自建了代理，用了三个月还挺稳定的，但是不敢拿自己账号试，各位
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221150#reply6
+
+---
+
+#### 6774. [V2EX] 问题：是否存在一种新的、现代人的 ai 应激
+
+**问题描述 / Problem Description**:
+问题：是否存在一种新的、现代人的 ai 应激 我承认我平时用 ai 很多，非常深度，甚至说我从 2023 年开始， 就很少和人类有大段落的对话和沟通了，在思维和逻辑上，我确实是被 ai 有所同化的。 因为我一直看 ai 的各种内容的输出，所以，我学习了很多 ai 的文字的逻辑和写法。 坦诚地说，很多人都难以避免在和 ai 的长期对话中被同化，哪怕只是一点点。 下午的时候，我一边吃外卖，一边敲了一篇文章， 这篇文章里有宏大的叙事，但的确，是我个人的想法的展现， 比如从我很多年前开发文字的 Bot 不被人欢迎，就像是在守着一座灯塔，这类描述。 还有我说 chatgpt 很伟大这些地方。 可以批评我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221148#reply29
+
+---
+
+#### 6775. [V2EX] 大家土耳其的订阅都涨价了吗？为什么有的还没变
+
+**问题描述 / Problem Description**:
+看到有些还是 500 ，是因为自动订阅都按这个价格不变吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221146#reply2
+
+---
+
+#### 6776. [V2EX] cursor 是不是挂了啊，总是提示失败 。
+
+**问题描述 / Problem Description**:
+cursor 是不是挂了啊，总是提示失败 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221144#reply1
+
+---
+
+#### 6777. [V2EX] 同一 百度云存储 URL， Python 请求成功、浏览器访问成功，唯独 Node.js fetch 失败
+
+**问题描述 / Problem Description**:
+背景：百度新出的 paddle ocr vl 1.6 ，根据其 api 文档（ python 写的），在测试时会返回一个结果链接，请求该链接获取其中的 json 结果 该链接 python requests 可以访问，本地 curl 可以访问，浏览器可以直接访问，但是在 nextjs 项目里面前后端通过 fetch 均无法访问 链接示例： https://paddleocr-store-1.bj.bcebos.com/v1/job/b2e41a29bdef834cf1786aa41d950cdf232126f264bb994fbf98bb1eae787492/json/cc48ad7a5e6e
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221126#reply9
+
+---
+
+#### 6778. [V2EX] 3 岁小朋友不吃鸡蛋，早餐总是吃面包，包子的豆沙馅，肉包也不吃，蛋白质不足。现在个子发育有点慢，有什么早餐推荐吗？刚山姆下单了一个日式牛肉煎饺，看看吃不吃。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221109#reply25
 
 ---

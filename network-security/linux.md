@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2045**
+**总计条目 / Total entries: 2061**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -32712,5 +32712,197 @@ GNU Project Debugger (GDB) before 7.5, when .debug_gdb_scripts is defined, autom
 - http://sourceware.org/ml/gdb-patches/2011-04/msg00559.html
 - http://sourceware.org/ml/gdb-patches/2011-05/msg00202.html
 - http://www.securitytracker.com/id/1028191
+
+---
+
+#### 2046. CVE-2026-48782 - pydantic-ai: Pydantic AI: Information Disclosure via Cloud-Metadata Blocklist…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pydantic-ai: Pydantic AI: Information Disclosure via Cloud-Metadata Blocklist Bypass. Bugzilla: 2489704
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489704
+
+---
+
+#### 2047. CVE-2026-48775 - langgraph: langgraph-checkpoint: LangGraph: Arbitrary code execution via insecure…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] langgraph: langgraph-checkpoint: LangGraph: Arbitrary code execution via insecure deserialization of modified checkpoint bytes. Bugzilla: 2489358
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489358
+
+---
+
+#### 2048. CVE-2026-10649 - pacemaker: Pacemaker: Denial of Service via integer overflow in remote message…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] pacemaker: Pacemaker: Denial of Service via integer overflow in remote message decompression. Bugzilla: 2462817
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462817
+
+---
+
+#### 2049. CVE-2026-46655 - virtio-win: viosock.sys: integer overflow in VIOSockSelect leads to heap-based…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] virtio-win: viosock.sys: integer overflow in VIOSockSelect leads to heap-based buffer overflow. Bugzilla: 2489170
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489170
+
+---
+
+#### 2050. CVE-2026-12398 - galaxy_ng: shell injection in legacy role import via unsanitized git ref names
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] galaxy_ng: shell injection in legacy role import via unsanitized git ref names. Bugzilla: 2489180
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489180
+
+---
+
+#### 2051. CVE-2026-6045 - libreoffice: LibreOffice: Heap buffer overflow via crafted EMF+ graphics import
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libreoffice: LibreOffice: Heap buffer overflow via crafted EMF+ graphics import. Bugzilla: 2488957
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488957
+
+---
+
+#### 2052. CVE-2026-6039 - libreoffice: LibreOffice: Denial of Service via specially crafted DXF polyline…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libreoffice: LibreOffice: Denial of Service via specially crafted DXF polyline import. Bugzilla: 2488958
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488958
+
+---
+
+#### 2053. CVE-2026-54411 - linux-pam: From CVEorg collector
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] linux-pam: From CVEorg collector. Bugzilla: 2488766
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488766
+
+---
+
+#### 2054. CVE-2026-54421 - openstack ironic: OpenStack Ironic: Information disclosure via PATCH request on…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openstack ironic: OpenStack Ironic: Information disclosure via PATCH request on volume properties. Bugzilla: 2488721
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488721
+
+---
+
+#### 2055. [Ubuntu] USN-8442-1: kitty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that kitty incorrectly handled certain image data. An attacker able to write to the terminal's input could possibly use this issue to cause kitty to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-33633) It was discovered that kitty incorrectly handled certain graphics commands. An attacker able to write escape sequences to a kitty terminal
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8442-1
+
+---
+
+#### 2056. [Ubuntu] USN-8390-2: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8390-2
+
+---
+
+#### 2057. [Ubuntu] USN-8441-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8441-1
+
+---
+
+#### 2058. [Ubuntu] USN-8361-3: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystem: - Packet sockets; (CVE-2026-31504)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8361-3
+
+---
+
+#### 2059. [Ubuntu] USN-8440-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Josh Eads, Kristoffer Janke, Eduardo Vela Nava, Tavis Ormandy, and Matteo Rizzo discovered that some AMD Zen processors did not properly verify the signature of CPU microcode. This flaw is known as EntrySign. A privileged attacker could possibly use this issue to cause load malicious CPU microcode causing loss of integrity and confidentiality. (CVE-2024-36347) It was discovered that the Linux kern
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8440-1
+
+---
+
+#### 2060. [Ubuntu] USN-8438-1: OpenImageIO vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenImageIO incorrectly performed bounds checking when processing SGI files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-43903) It was discovered that OpenImageIO incorrectly handled run-length encoding when processing Softimage PIC files. An attacker could possibly use this issue to cause a denial of service or
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8438-1
+
+---
+
+#### 2061. [Ubuntu] USN-8439-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission checks in certain situations. A local attacker could possibly use this to gain elevated privileges. (CVE-2023-2640) Shir Tamari and Sagi Tzadik discovered that the OverlayFS implementation in the Ubuntu Linux kernel did not properly perform permission
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8439-1
 
 ---

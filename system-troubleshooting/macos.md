@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5365**
+**总计条目 / Total entries: 5422**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -73997,5 +73997,746 @@ I tried here and, no, they don’t change based on the wallpaper. They are inste
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486577/do-the-tinted-icon-folder-colors-on-macos-tahoe-change-when-changing-wallpapers
+
+---
+
+#### 5366. Apple has started replacing macOS names with version numbers in several ways
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7yqok/apple_has_started_replacing_macos_names_with/
+
+---
+
+#### 5367. I made a new Mac boot-up animation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8ekrn/i_made_a_new_mac_bootup_animation/
+
+---
+
+#### 5368. Finally figured out how to keep a Python script running 24/7 on my Mac (non-developer here)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8f77j/finally_figured_out_how_to_keep_a_python_script/
+
+---
+
+#### 5369. I found the funny UI bug in macos 26.5.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u80c29/i_found_the_funny_ui_bug_in_macos_2651/
+
+---
+
+#### 5370. 14 years & MacOS still hasn’t fixed display scaling!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8o7xu/14_years_macos_still_hasnt_fixed_display_scaling/
+
+---
+
+#### 5371. Uh, guys, is this normal?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8bkd0/uh_guys_is_this_normal/
+
+---
+
+#### 5372. Downgraded to Sequoia and Couldn't Be Happier
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8ivrf/downgraded_to_sequoia_and_couldnt_be_happier/
+
+---
+
+#### 5373. Looking For Pointers For Wifi Issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8nahi/looking_for_pointers_for_wifi_issues/
+
+---
+
+#### 5374. anyone got faster drive?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8mbor/anyone_got_faster_drive/
+
+---
+
+#### 5375. Case-Sensitive Format for Both MacOS and Windows (for external SSD)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8lumz/casesensitive_format_for_both_macos_and_windows/
+
+---
+
+#### 5376. I hate these Ads for AppleCare in the Settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u7sjra/i_hate_these_ads_for_applecare_in_the_settings/
+
+---
+
+#### 5377. Every Frame Perfect
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8h8r5/every_frame_perfect/
+
+---
+
+#### 5378. Live Activities not showing on my neo
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8gphm/live_activities_not_showing_on_my_neo/
+
+---
+
+#### 5379. Spotlight does not work.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8f584/spotlight_does_not_work/
+
+---
+
+#### 5380. Iphone Mirroring not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8ewgh/iphone_mirroring_not_working/
+
+---
+
+#### 5381. macOS listening... keeps opening when I hold Fn, what is triggering this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8dq6v/macos_listening_keeps_opening_when_i_hold_fn_what/
+
+---
+
+#### 5382. Thinking of trying a Mac mini M4
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8dpxf/thinking_of_trying_a_mac_mini_m4/
+
+---
+
+#### 5383. 🫤🫤
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8dikg/_/
+
+---
+
+#### 5384. Media Keys (Play/Pause, Volume) stop working when Mac mini display turns off.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8byp1/media_keys_playpause_volume_stop_working_when_mac/
+
+---
+
+#### 5385. When ssh to my mac (macOS 26) and run Node.js script to connect database server in local network, EHOSTUNREACH thrown as error
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8bciw/when_ssh_to_my_mac_macos_26_and_run_nodejs_script/
+
+---
+
+#### 5386. not having the level of customization i would like
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8l0vw/not_having_the_level_of_customization_i_would_like/
+
+---
+
+#### 5387. [V2EX] Yo App Switcher（附送兑换码）
+
+**问题描述 / Problem Description**:
+Yo App Switcher (macOS App) 刚通过审核，发布了。 Yo App Switcher 是一款应用切换器，应用 Vim 风格。按压快捷键，Opt+a (可自定义），应用切换窗口显示，再按提示键，就可以切换至相应的程序。 我是一个 Vim/Nvim 重度使用者，一直希望有类似的应用，总算自己编出来了。详情在 Github 。 https://github.com/lylehust/Yo-App-Switcher/blob/main/README_zh.md 可以在应用商店下载。 https://apps.apple.com/us/app/yoappswitcher/id67
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221214#reply1
+
+---
+
+#### 5388. [V2EX] L 站某推广帖的安装脚本疑似窃取浏览器和 SSH 数据，我举报并贴证据后回复被删
+
+**问题描述 / Problem Description**:
+提醒大家避坑。L 站这篇帖子里的软件安装脚本疑似存在信息窃取行为： https://linux.do/t/topic/2420133/14 我中午 12:30 左右已经在原帖举报，并回复了本机取证发现：该安装过程会收集并疑似上传浏览器、SSH 等敏感信息。但我的取证回复随后被删除，帖子却依然存活，所以单独发到这里提醒一下。 为避免误点，下面域名做了 defang： quill-67[.]com verse-18[.]com 159.223.216.143:80 安装脚本行为 安装命令是典型的： curl -s <远程脚本> | zsh 第一阶段脚本会解码 gzip + base64 paylo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221136#reply2
+
+---
+
+#### 5389. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply74
+
+---
+
+#### 5390. [V2EX] 终结 macOS 终端代理配置噩梦！全自动同步代理到 Shell、Git、NPM、Yarn 和 Docker
+
+**问题描述 / Problem Description**:
+🔗 项目开源地址 👉 GitHub - lcl-101/Proxy-Sync-Daemon 😫 痛点：你是否也经常遇到这些情况？ 终端网络割裂 ：在 macOS 上开启了 Clash 、Surge 或 Shadowrocket 后，浏览器冲浪十分顺畅，但在终端里 git clone 、 npm install 、 docker pull 依旧卡死超时。 繁琐的手动配置 ：每次开代理都要在终端手动输入一堆 export http_proxy=... ；关了代理要是忘记取消配置，终端又会报 Connection Refused 无法联网。 三方工具代理污染 ：为了下载依赖配了 NPM 或 Git
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221028#reply18
+
+---
+
+#### 5391. [V2EX] MAC 系统设置进来 APPLE 账户头像一直被更改，是什么原因？
+
+**问题描述 / Problem Description**:
+MAC 系统设置进来 APPLE 账户头像一直被更改， file:///Users/kaede/Library/Metadata/CoreSpotlight/PasteboardHistory/2026-06-13_10-38-59.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220114#reply7
+
+---
+
+#### 5392. [V2EX] macos27 有办法关闭 sip 了吗？
+
+**问题描述 / Problem Description**:
+macos27 有办法关闭 sip 了吗？ 想开启新 siri ，有教程必须要关闭 sip ，但现在 macos27 无法关闭 sip 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219971#reply4
+
+---
+
+#### 5393. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply63
+
+---
+
+#### 5394. [V2EX] ios27 如何保留数据降级 26
+
+**问题描述 / Problem Description**:
+这苹果的 bug 真是多 最基本通话上网都不进行测试的 手机卡开启 wifi calling 未设置 911 地址 系统弹出 e911 设置页面 点击输入框 页面闪退 让 ai 分析日志 是什么鸡毛 ai 预测输入 闪退
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221186#reply10
+
+---
+
+#### 5395. [V2EX] 现在已经没办法修改苹果地图的位置了吗？
+
+**问题描述 / Problem Description**:
+设备：ipadmini7 港版（ wifi 版 系统：最新 OS26.5 路由器：小米（已经修改 country code 到香港/韩国 网络：美国家宽 ip （全局尝试了也不行 以前按照 iRingo 很容易的，现在想看个 Apple News 都不行了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221086#reply10
+
+---
+
+#### 5396. [V2EX] ios27 wificalling 设置 911 地址闪退
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221076#reply1
+
+---
+
+#### 5397. [V2EX] 因为 Cheers 闪退 自己做了一个 Apple TV 版哔哩哔哩
+
+**问题描述 / Problem Description**:
+因为 TV OS27 上 Cheers 播放视频闪退 所有萌生了自己做一个的想法 做了两个版本 用 Codex 一下午就实现了 反复调优了一天时间 同时还做了一个 Apple TV 版的抖音、 一个 iPad 上的抖音版哔哩哔哩 一个在 Apple TV 上面自动随机刷新项内容的软件 一下午时间是四个软件同时 VibeCoding 刚好错开回复和沟通节奏 之前做的 Somio 迁移到了 TV 但是突然发现电视很适合播放这类内容 随机调用播放 iCloud 相册里的内容 做了几项筛选按钮 分别是收藏/演唱会/横屏/竖屏 当在 85 寸电视上播放自己录制的 4K 杜比视界演出视频时 好像一切都值得
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220800#reply19
+
+---
+
+#### 5398. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply43
+
+---
+
+#### 5399. [V2EX] 菲律宾区 App Store 礼品卡有购买渠道吗？
+
+**问题描述 / Problem Description**:
+目前用美区 ChatGPT 20X ，想转成菲区，能省几百。 但不知道菲区礼品卡从哪里购买比较安全？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220720#reply34
+
+---
+
+#### 5400. [V2EX] Siri waitlist 下不来了。。
+
+**问题描述 / Problem Description**:
+还有谁和我一样第一天挂上 waitlist ，到现在还没出来的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220622#reply7
+
+---
+
+#### 5401. [V2EX] Mac 出了新机器，老机器是不是就开始卡了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220447#reply18
+
+---
+
+#### 5402. [V2EX] 介于国行 iPhone 和外版差距越来越大，想换国内安卓了，求推荐品牌系列
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220372#reply76
+
+---
+
+#### 5403. [V2EX] 有人的 27 系统索引完成吗？
+
+**问题描述 / Problem Description**:
+我已经升级已经差不多五天时间了，不论是 iPhone 还是 iPad 都还在索引，macOS 没有提示但我猜测也还在索引😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220253#reply41
+
+---
+
+#### 5404. [V2EX] 开源项目出问题了 作者要不要背锅？
+
+**问题描述 / Problem Description**:
+哪吒监控面板最近爆了几个大洞 导致好多人服务器惨中招 想知道各位坛友的看法 开源项目出问题了 作者要不要背锅？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221212#reply2
+
+---
+
+#### 5405. [V2EX] 宵夜， mimo 约 2000 亿 token， 10 天到期
+
+**问题描述 / Problem Description**:
+key1：tp-sl30cofno6ji7ch2d4luaqqjt0dkuw7he8u3kk8f65ig9jj7 key2：tp-s9vxxyuz0smgwxj7bqx6sar8yf5wmu55bs9b9uf6ndzk3w5v ============================= Base URL 兼容 OpenAI 接口协议： https://token-plan-sgp.xiaomimimo.com/v1 ipad 党方便测试蹬入口： https://vb.do/dashboard?autosubmit=true#prompt=hello&providerId=mi&provider
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221179#reply3
+
+---
+
+#### 5406. [V2EX] [Update] 昨天发完帖后，我把拼豆生成器做上头了：画廊、在线编辑、用户系统全搞定
+
+**问题描述 / Problem Description**:
+昨天发了那个拼豆贴： https://v2ex.com/t/1220906 本来只是想做个简单的工具练练手，根据 V 友们的反馈，越改越上头，直接把原本的 MVP 计划提前了一周完成。把预计几天的改动，今天全堆在 pindouai.app 上了，感觉现在的雏形才算真正能拿出来用。 主要功能： 在线画廊 (Gallery)：现在大家生成的优秀作品会汇聚在这里，作为一个素材库，方便参考拼豆配色的效果。 在线编辑器 (Editor)：这是最“上头”的部分，支持生成后的二次编辑。 用户系统 (User Center)：把后端 D1 数据库搞定了，现在支持邮箱验证码登录。之前生成的图纸刷新就没了，现在终
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221167#reply0
+
+---
+
+#### 5407. [V2EX] 出大事了！ [安全公告] 哪吒面板存在多个高危漏洞
+
+**问题描述 / Problem Description**:
+110.42.44.59:8008 [安全公告] 哪吒面板存在多个高危漏洞 一、漏洞概况 哪吒面板（ Nezha Dashboard ）被披露存在多个高危漏洞，其中最严重的 CVE-2026-53519 （未授权路径穿越） CVSS 评分 9.1 ，影响 v2.0.13 以下所有版本。攻击者无需登录即可读取配置文件，获取 JWT 密钥并完全控制面板。 CVE-2026-53519 无需认证即可利用，风险极高。监测显示该漏洞已出现在野利用，请相关用户务必尽快完成修复。 此外还存在： CVE-2026-46716：普通用户权限提升 → 远程命令执行 CVE-2026-46717：SSRF 内网探测
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221163#reply1
+
+---
+
+#### 5408. [V2EX] 香港小部分运营商即日起（2026 年 6 月 17 日），无法在中国内地激活其手机卡
+
+**问题描述 / Problem Description**:
+上一个这样变化的，还是中国澳门手机卡，从 2025 年 11 月 21 日起，澳门的手机卡都无法在中国内地激活，都需要入境澳门（需上传入境记录）之后才能激活。（中国电信澳门 CTMO 是中国电信全资子公司，CTM 也是国资背景，控股公司是中信） 这一次部分运营商特指：中国移动香港，其有 CMHK 和 CMLink 两个品牌渠道，今天开始都无法直接在中国内地激活其手机卡，必须在香港激活好了才能在内地使用，比如很多人用过的“鸭聊佳”这个系列的手机卡，就不能带到内地激活了，还有一些其他小运营商的 CMLink 线路产品 而如今，国内三大运营商还幸存的：中国电信香港（ CTEXCEL HK ）、中国联
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221141#reply1
+
+---
+
+#### 5409. [V2EX] 阿里巴巴的钉钉越来越恶心
+
+**问题描述 / Problem Description**:
+上下班打卡也给你来个摇一摇，害的差点迟到，也难怪钉钉的团队在阿里巴巴不受待见。用钉钉的公司 99%都不是好公司
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221119#reply11
+
+---
+
+#### 5410. [V2EX] 下午茶， mimo 礼包，注意是新加坡节点，蹬
+
+**问题描述 / Problem Description**:
+380 亿 + 110 亿 tp-sm7p0gxi30e4nzeay7vr4906y6ecz5xmorae5iutqc1qh8nj 380 亿 + 110 亿 tp-sbpvegr1qqoocotta3nc2t3ama48gg5sh3ozrvb7o17vxyex 820+240 亿 tp-s77yw470zsum59o6hzox28212hb2hi1d69vp1o460ge5gljz 820+240 亿 tp-s7r4diyon9ojplj6p38frj2hl5mksfntqkpycww2d3wonpgn Base URL 兼容 OpenAI 接口协议： https://token-plan-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221108#reply6
+
+---
+
+#### 5411. [V2EX] 吐槽联通云智手机，无预警强制整机重置，客服拒不提供操作日志、甩锅用户
+
+**问题描述 / Problem Description**:
+从 2026 年 1 月开始使用联通云智手机，平稳正常使用了整整半年。今天 6 月 17 日早上 8 点还正常登录使用，9 点再打开直接被系统强制整机重置。 云手机里存放了大量游戏账号、各类个人存档资料、重要信息，重置后全部清空，彻底找不回来，损失很大。 第一时间致电联通客服反馈问题，客服后台排查完直接一口咬定是我本人操作重置，全部责任归于用户。我要求客服出示对应的设备操作日志佐证，联通方面直接拒绝提供，拿不出任何证据证明是我主动操作。 之前就遇到过联通无通知强制下线移动 WiFi ，现在又能不经用户许可随意重置云手机数据，完全不保障用户数据安全，事后还推诿扯皮，体验极差，不推荐大家使用联通云
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221079#reply2
+
+---
+
+#### 5412. [V2EX] mimo key，剩 730 亿，蹬
+
+**问题描述 / Problem Description**:
+API Key:tp-czd7f840wit1kfqorm36cukya3m0fthuc4jy9v1necfqxrdg Base URL 兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic ipad 党方便测试蹬入口： https://vb.do/dashboard?autosubmit=true#prompt=hello&providerId=mi&providerName=MI&providerPro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221069#reply19
+
+---
+
+#### 5413. [V2EX] kimi code plan 在 claude code 中 Explore agent 使用的模型会降智吗
+
+**问题描述 / Problem Description**:
+如题，按照官方文档配置的，没有修改各 agent 的模型配置，经常在 Explore 中遇到死循环，main agent 倒是没遇到，难道是因为 Explore 用的模型不一样，大家有没有类似情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221065#reply0
+
+---
+
+#### 5414. [V2EX] 分享个 2 站邀请链接
+
+**问题描述 / Problem Description**:
+现在应该有不少人都在 2 站了吧，金币池多好玩，还没注册的来注册看看，徽章的收集，潘多拉的盲盒，来给枯燥的工作增加点乐趣，主要颜值真的不错啊 https://2libra.com/auth/signup/CVLZVnj6mx ps:我才不是为了引路者徽章
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221058#reply0
+
+---
+
+#### 5415. [V2EX] 一个不同的热榜新闻，汇总展示，而不是单个站点展示
+
+**问题描述 / Problem Description**:
+热榜 新闻荟萃 https://rebang.org/ 一个不同的热榜新闻，汇总展示，而不是单个站点展示
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221050#reply0
+
+---
+
+#### 5416. [V2EX] 今天在登录微力同步的时候出现错误，他是不是记录了我的明文密码
+
+**问题描述 / Problem Description**:
+''' The stream or file "/var/www/html/storage/logs/laravel-2026-06-17.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: The stream or file "/var/www/html/storage/logs/laravel-2026-06-17.log" could not be opened in append
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220991#reply3
+
+---
+
+#### 5417. [V2EX] 微信 appstore 充值  92 折又来了 App Store 充值立减券大放送（双重福利）
+
+**问题描述 / Problem Description**:
+​App Store 充值立减券 满 1000 元减 80 元（券后实付 920 元，约 92 折） 适用档位​ 仅限 1000 元档充值可用，其他金额无券可抵 领取方式​ 关注「苹果充值服务号」/「腾讯充值」任意官方号 → 自动领取 → 回到页面使用 放量规则​ 每天 10:00​ 开抢，每天限量约 26,000 张，先到先得 https://pagedoo.pay.qq.com/shop/ct1779867716_INATNOXB/mobile/index.html?r=0.9203755084556884 没有 aff
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220987#reply18
+
+---
+
+#### 5418. [V2EX] 小红书的世界杯咋这么
+
+**问题描述 / Problem Description**:
+日本荷兰那一场，回放不论什么画质荷兰队服都跟色块一样，号码看不清，人物周围似乎有一圈圣光 直播的时候看网页版，把我 mba 干的卡的要命
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220949#reply13
+
+---
+
+#### 5419. [V2EX] 看到有 V 友做了拼豆站，手痒也 Vibe Coding 了一个拼豆图纸生成器
+
+**问题描述 / Problem Description**:
+今天在 V 站看到有朋友分享了拼豆项目，看着挺有意思，于是作为一个普通开发者，我也手痒尝试了一下。刚好最近在沉迷 Vibe Coding ，于是借这个机会撸了一个工具站：PindouAI 。 项目链接： https://pindouai.app 为什么做这个？ 拼豆图纸往往需要找现成的，或者用复杂的软件手动打点。我想做一个“所见即所得”的工具，把照片直接转成带色号的施工图。目前只完成了最核心的功能，算是给自己的一个小练习。 目前已经完成的： 核心生成算法：上传图片 -> 自动像素化 -> 映射主流拼豆品牌色板 (Perler, Hama 等)。 参数调节：支持调节亮度和对比度，支持“过滤白底”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220906#reply4
+
+---
+
+#### 5420. [V2EX] iOS 27 查看索引进度小 tips
+
+**问题描述 / Problem Description**:
+在升级了 iOS 27 全新系统之后，进入设置， 顶部就会一直出现「 Indexing in Progress 」提醒 我之前以为是 BUG 一直去不掉 。发现其实可以 通过 Mac 端的调试信息窗口就能看到这个索引进度。 首先你需要一台 Mac 电脑，并且将 iPhone 用数据线连接到 Mac 上，再在 Mac 端打开「控制台」功能，然后 在旁边的设备一栏中选择自己的 iPhone ，点击页面中间的开始流式传输右上角的搜索栏中输入「 spotlight indexing progress 」等待一会就能看见索引进度百分比啦！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220834#reply6
+
+---
+
+#### 5421. [V2EX] 没想到第一次吃到中国医疗红利居然是没有医保的时候
+
+**问题描述 / Problem Description**:
+今天来医院拔牙，挂完号面诊的时候和医生说自己失业很久医保也断缴了很久 我只能用医保卡余额自费，走不了统筹报销 牙片我有今年洗牙的时候拍的，不要再拍了 如果拔牙很贵的话就不拔了 医生也没见过这情况啊，但是看我太惨还是怎么的就给我说大概两百块钱 我之前也查了下私立和小红书上别人的分享，总之几百到上千根据智齿服务程度都有，我这个属于比较简单的 所以两百在我可接受范围 医生大概 15 分钟就给我拔好了 然后问我家里有没有止痛药和消炎药 我回答有的，就什么药都没给我开 缴费的时候只收了我一个治疗费，麻醉药物的费用都没有收(也许是算在内) 然后我查阅医院的治疗费用目录，正常简单的智齿拔除费用是 400 所
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220832#reply32
+
+---
+
+#### 5422. Strange notifications asking me to update Script Editor to version 0.72.4
+
+**问题描述 / Problem Description**:
+Tags: macos, applescript, notifications | Score: 0 | Views: 92 | Answers: 1 | Created: 2026-06-15
+
+**解决方案 / Solution**:
+I have the same problem and likely found the cause. The Netbird VPN client wanted to update itself to version 0.72.4. The problem is that the notification does not mention anything about Netbird. Please test if that's the case for you, too.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486601/strange-notifications-asking-me-to-update-script-editor-to-version-0-72-4
 
 ---

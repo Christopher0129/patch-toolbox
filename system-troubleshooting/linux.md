@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5878**
+**总计条目 / Total entries: 5913**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -84256,5 +84256,460 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1220803#reply27
+
+---
+
+#### 5879. AUR Registrations Blocked Amid Ongoing Malware Mess
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8bb4t/aur_registrations_blocked_amid_ongoing_malware/
+
+---
+
+#### 5880. How DreamWorks Uses Linux & Open Source to Create Their Blockbuster Movies (an Interview with Randy Packer of DreamWorks)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8aczb/how_dreamworks_uses_linux_open_source_to_create/
+
+---
+
+#### 5881. Epic Games announced Lore: a VCS for game developers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8fsjs/epic_games_announced_lore_a_vcs_for_game/
+
+---
+
+#### 5882. Introducing Myna: Speech to Text for Ubuntu Desktop - Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8b96y/introducing_myna_speech_to_text_for_ubuntu/
+
+---
+
+#### 5883. New NTFS Linux Driver Being Improved For Windows Native Symbolic Links
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8auiy/new_ntfs_linux_driver_being_improved_for_windows/
+
+---
+
+#### 5884. The Linux Desktop Guide by Chris Titus
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u85rcp/the_linux_desktop_guide_by_chris_titus/
+
+---
+
+#### 5885. Linux on Older and Obsolete iOS and Android devices
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8ifqn/linux_on_older_and_obsolete_ios_and_android/
+
+---
+
+#### 5886. The state of Fedora in 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u89e3u/the_state_of_fedora_in_2026/
+
+---
+
+#### 5887. World’s First CGRA to Execute Linux Without a Host
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u861kb/worlds_first_cgra_to_execute_linux_without_a_host/
+
+---
+
+#### 5888. What do I do now?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8nw53/what_do_i_do_now/
+
+---
+
+#### 5889. USB-booted Linux and USB noise: bimodal TCP loopback latency
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u89kzi/usbbooted_linux_and_usb_noise_bimodal_tcp/
+
+---
+
+#### 5890. Not here to shill, just to understand: Why is EndeavourOS being trashed so much?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8e9it/not_here_to_shill_just_to_understand_why_is/
+
+---
+
+#### 5891. [V2EX] fctix5 的 Pinyin 输入法怎么没有自动调整词频
+
+**问题描述 / Problem Description**:
+设置界面有启用云拼音，但是就是没有动态调整词频的选项 arch linux niri 环境 sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-sogoupinyin 都安装了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221129#reply0
+
+---
+
+#### 5892. [V2EX] Linux 服务器有何安全监控软件？
+
+**问题描述 / Problem Description**:
+如题，现在 Linux 端的 rootkit 和后门程序层出不穷。大厂的 VPS 一般都附带安全检测仪表盘，本人的阿里云 VPS 就被植入过 rootkit ，一植入就被阿里云安全仪表盘扫出来告警了。 但是个人的 Linux 设备（比如自组 Home Server ）不像大厂 VPS 那样自带安全仪表盘，这就很尴尬了，各位 V2er 能否给本人推荐一些 Linux 端的安全监控软件或者杀毒软件？提前谢谢大家了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220897#reply11
+
+---
+
+#### 5893. [V2EX] 腾讯会议 Linux 版使用 nvidia 独显无法驱动视频功能
+
+**问题描述 / Problem Description**:
+腾讯会议 linux 版本若想正常使用摄像头渲染画面，以及正常渲染视频（别人分享桌面等场景），好像只能使用 intel 核显。 当我切换到独显直连，视频窗口就完全黑屏了。但是 intel 核显和 nvidia 独显混合输出时，我感觉我的 gnome 桌面始终不够流畅，因为要接第二块屏幕，内屏只能交给 intel ，外接屏又被 nvidia 接管，最终渲染起来就卡卡的…… 好难受，大家有解决的思路吗？ debian13 + gnome48 + wayland 环境，腾讯会议 linux 版，版本 V3.26.10.401
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220807#reply9
+
+---
+
+#### 5894. [V2EX] claude code 实践心得：飘才是最大的敌人
+
+**问题描述 / Problem Description**:
+现在基本都是 100% cc 写代码了。也用过 superpowers 之类的牛逼哄哄的 skill 。现在基本每几天就能看到一个自动做 multi-agent 项目的框架，skill ，产品，都疲劳了。个个描述的都很科幻，启动一堆机器人帮你干活，你就一边歇着去。具体使用起来的感受一言难尽。发现都是等几个小时，然后写出来是一个 UI 看起来确实是我刚刚开始说的东西，但是内部是一坨 而且这些 multi-agent 框架现在都在比谁更智能，使用者可以完全不用动。但是程序员是不喜欢这种感觉的，程序员是喜欢透明的。因为我们知道天上不会掉馅饼。低代码框架这么多年也没推开，就是因为那玩意做个简单的不怎么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221211#reply12
+
+---
+
+#### 5895. [V2EX] 需要找人做邮件群发系统搭建与发送，有偿
+
+**问题描述 / Problem Description**:
+需要日发 5 万，整体进箱率保证 80%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221205#reply0
+
+---
+
+#### 5896. [V2EX] ZCode 接入第三方 API 非常好用
+
+**问题描述 / Problem Description**:
+我接入的小米 Mimo ，感觉真的能干活了，棒！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221199#reply4
+
+---
+
+#### 5897. [V2EX] codex 还重置不重置了，我翘首以盼望眼欲穿呢搁这
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221192#reply4
+
+---
+
+#### 5898. [V2EX] 智谱： GLM-5.2 无限接近 Fable5, 持续领先全球商业大模型
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221181#reply19
+
+---
+
+#### 5899. [V2EX] 请教一个诡异的 git 问题
+
+**问题描述 / Problem Description**:
+事情的背景是，本人在开发中本地 feature 分支，git commit 了一个改动，commitid = 11111 然后执行 git merge origin master 到本地，生成了一个 MR commitid = 22222 此时：有 20+个文件修改合并到了 feature 分支 再执行了一波 git push origin feature 推送到远端。 此时，觉得好像修改整体有点问题，于是脑抽地执行了 git revert -m 1 22222 （ merge commit ） 手动调整了一个 A 文件，再次 git commit （ commitid = 33333 ） 然
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221173#reply0
+
+---
+
+#### 5900. [V2EX] 为啥 deepseekv4pro 思考过程是英文, glm5.2 思考过程是中文, 工具是 copilot
+
+**问题描述 / Problem Description**:
+settings 和 instruction 都指定输出中文, 它们在答案以及阶段性回复都是中文, 但是 deepseek 的思考过程是英文, 这是为啥?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221169#reply2
+
+---
+
+#### 5901. [V2EX] 用了 AI 之后你们还会看《计算机程序设计艺术》之类的书籍学习新知识吗
+
+**问题描述 / Problem Description**:
+买了全套的，现在想在某鱼卖掉不知道还有没有人愿意买，反正我是一点新东西也不想学了，感觉看这书就是在浪费时间。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221162#reply16
+
+---
+
+#### 5902. [V2EX] 求推荐便宜的 gpt-image-2 中转站
+
+**问题描述 / Problem Description**:
+求大家推荐一下便宜的、自用的中转站，最近期末了，做课程汇报 PPT 用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221137#reply0
+
+---
+
+#### 5903. [V2EX] 中转站渗水检测工具
+
+**问题描述 / Problem Description**:
+https://panshi.io/zh/relay-check/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221123#reply24
+
+---
+
+#### 5904. [V2EX] openclaw 使用模型
+
+**问题描述 / Problem Description**:
+有哪些量大管饱的 coding plan 推荐吗？如果是免费的就更好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221114#reply3
+
+---
+
+#### 5905. [V2EX] 求 gemini-3.1-flash-image-preview 相对便宜的香蕉 2 的 api 站
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221112#reply1
+
+---
+
+#### 5906. [V2EX] 感觉这个 codex 完全没有 opencode 好用啊
+
+**问题描述 / Problem Description**:
+客户端加载慢 AI 执行速度慢 安装了点东西动不动就要重启
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221104#reply2
+
+---
+
+#### 5907. [V2EX] 几乎天天都能看到中转贴，有人知道中转站到底有多赚钱？
+
+**问题描述 / Problem Description**:
+经常看到中转帖子 还有人说自己不赚钱，做公益？ 我就很好奇做中转得有多赚钱让大伙趋之若鹜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221097#reply16
+
+---
+
+#### 5908. [V2EX] 世界就是一个巨大的草台班子~
+
+**问题描述 / Problem Description**:
+PS 部分地区，非全国全网 UPDATE 证书对 域名对 还是报不安全 不知道哪里不对
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221094#reply2
+
+---
+
+#### 5909. [V2EX] AI 羊毛， 6 月 30 日止，速度
+
+**问题描述 / Problem Description**:
+刷到 WisGate 在做 Discord 早期加入福利 可以薅 AI 额度，有需要的速度，需要加入 DisCOrd https://discord.gg/RPAPAFDkY
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221083#reply1
+
+---
+
+#### 5910. [V2EX] 求推荐安卓开发机，备机
+
+**问题描述 / Problem Description**:
+要求容易 root ，不卡顿。 主要考虑用来测试安卓 app ，包括机器人之类的应用。还有就是写 esim 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221071#reply13
+
+---
+
+#### 5911. [V2EX] 上海- 2026 亚马逊云科技峰会 - 下周二周三
+
+**问题描述 / Problem Description**:
+今年 亚马逊云科技中国峰会 2026 要来了，主题会围绕 Agentic AI 、生成式 AI 、云原生、企业上云和行业实践展开。 如果你最近在关注： 1.AI 应用落地 2.云原生架构 3.Serverless / 大模型应用 4.企业数字化 可以考虑去现场看看，扫码预约参会
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221055#reply0
+
+---
+
+#### 5912. [V2EX] 系统治理过程：一个面向线上系统的多维治理模型
+
+**问题描述 / Problem Description**:
+一张图讲清楚：一个线上业务系统，应该从哪几个维度被"治理"，以及这些维度之间如何相互闭环。 一、为什么需要"系统治理" 随着业务规模扩张，一个线上系统会同时承受三类压力： 运行压力 ——流量、稳定性、性能、故障定位 演进压力 ——需求迭代速度、扩展性、债务积累 协同压力 ——开发、运维、数据、产品多角色协作 只盯着代码写得好不好、机器够不够，都只能解决其中一面。 真正的系统治理，是把"可见、可控、可演进"作为统一目标，从五个相互嵌套的层面同时下手 ： 层面 治理目标 关键问题 应用层 边界清晰、依赖单向 谁调谁？谁负责什么？ 存储层 冷热分离、读写分流 数据放在哪里、怎么访问？ 监控层 全链路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221054#reply0
+
+---
+
+#### 5913. [V2EX] 企业内部搭满足 10 个人开发用的开源模型，得投多少钱？
+
+**问题描述 / Problem Description**:
+跑个 glm 5.2 50 万能够不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221049#reply34
 
 ---
