@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5913**
+**总计条目 / Total entries: 5949**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -84711,5 +84711,473 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221049#reply34
+
+---
+
+#### 5914. Optane and zswap is absolutely INSANE, my system is only barely lagging??
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u94up1/optane_and_zswap_is_absolutely_insane_my_system/
+
+---
+
+#### 5915. Linux Finally Ends AppleTalk Protocol Support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u93p8h/linux_finally_ends_appletalk_protocol_support/
+
+---
+
+#### 5916. The Bug that prevented Asahi from booting with macOS 27 beta has been fixed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u97nca/the_bug_that_prevented_asahi_from_booting_with/
+
+---
+
+#### 5917. Kubuntu Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9h7ja/kubuntu_linux/
+
+---
+
+#### 5918. Experimental, Reverse-Engineered & AI Assisted Rust Driver Targets Modern DisplayLink Hardware
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u93q9k/experimental_reverseengineered_ai_assisted_rust/
+
+---
+
+#### 5919. Open source TUI IDE (in C) that brings the "Sublime Text" experience into the terminal (with Tree-sitter & LSP)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9c3gz/open_source_tui_ide_in_c_that_brings_the_sublime/
+
+---
+
+#### 5920. Linux 7.2 Slab Changes Include More Performance Optimizations
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u93og0/linux_72_slab_changes_include_more_performance/
+
+---
+
+#### 5921. Experimental flag removed from bcachefs.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u98fdb/experimental_flag_removed_from_bcachefs/
+
+---
+
+#### 5922. OmniGlyph v1.1.0 Release !!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u92pwh/omniglyph_v110_release/
+
+---
+
+#### 5923. adduser bug #178616 “Add override options when home directory already exists” fixed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8t95w/adduser_bug_178616_add_override_options_when_home/
+
+---
+
+#### 5924. Linux 7.2 Protects Against "Stupid Or Malicious" DoS Attempts By Arming Timers In The Past
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u93n18/linux_72_protects_against_stupid_or_malicious_dos/
+
+---
+
+#### 5925. FluxCast v0.1.2: Native Wayland Miracast for Linux (Hyprland/Sway/KDE/GNOME)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8qi8e/fluxcast_v012_native_wayland_miracast_for_linux/
+
+---
+
+#### 5926. Commodore Vision?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9azye/commodore_vision/
+
+---
+
+#### 5927. I spent so much time recreating Linux workflows that I accidentally built an operating system simulator
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u8p95p/i_spent_so_much_time_recreating_linux_workflows/
+
+---
+
+#### 5928. [How-To Guide] Using keyd to Apply Different Key Remaps to Your Laptop and External (Apple) Keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u99oby/howto_guide_using_keyd_to_apply_different_key/
+
+---
+
+#### 5929. [V2EX] fctix5 的 Pinyin 输入法怎么没有自动调整词频
+
+**问题描述 / Problem Description**:
+设置界面有启用云拼音，但是就是没有动态调整词频的选项 arch linux niri 环境 sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-sogoupinyin 都安装了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221129#reply2
+
+---
+
+#### 5930. [V2EX] 请教书房布置方案
+
+**问题描述 / Problem Description**:
+今天刚下单了安德斯特巡航战士 max 2.0 的版本（延迟发货，有劝退或者推荐别的吗？），打算放在书房左上角。 然后旁边空出来的位置不知道继续买个桌子还是买个什么置物架。图 1 右边是打了一个柜子，可以做展示柜或者书柜。 椅子打算买西昊 s300 ，计划是复刻图 2 中我朋友的 2 个 34 寸曲面带鱼屏，但是他的不是升降的，我担心会不会。太重 想看看 v 友的桌搭。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221463#reply0
+
+---
+
+#### 5931. [V2EX] 一个自用的 golang 的 web 应用要部署到公网，国内哪个云服务最便宜
+
+**问题描述 / Problem Description**:
+自己用的工具，不需要备案，ip 访问就可以。 需要持久化，有个 SQLlite 库。 其他什么要求都没有，哪怕天天炸都没事，只要便宜。 之前白嫖的 Render ，但是持久化库只免费一个月
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221447#reply5
+
+---
+
+#### 5932. [V2EX] Java 的 CompletableFuture API 日常开发中使用得多么，怎么感觉这个 API 很怪
+
+**问题描述 / Problem Description**:
+我是 Java 程序员，但我也知道 JS 里面有个 Promise ，感觉 Promise 的语法比 Java 的 CompletableFuture 这套 API 优雅很多。 Promise 总共也需要知道 then , catch 两种语句，而 CompletableFuture 则各种方法都有十几二十个了。 还有些匪夷所思的行为，比如下面这个： 同步编排（无 Async 后缀）的方法，例如 thenCompose 不会把任务重新提交给线程池排队，而是尽量复用现有的线程。 具体用哪个线程，取决于代码运行时的时机 情况 A （前置任务还没执行完）： 当你调用 thenCompose 时，如果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221432#reply0
+
+---
+
+#### 5933. [V2EX] 想娱乐自己学习做个小游戏
+
+**问题描述 / Problem Description**:
+一直玩的一个塔防类小游戏关数开始重复了，想借助 AI 开发个类似的，0 游戏开发基础(8 年后端程序员，代码技术栈会 TS/JAVA/RUST)，目前看主流引擎就是 Cocos 或 unity ，借助 AI 的话，大家评估要多久能够入门做游戏(美术用公开的素材)？游戏难度参考 2D 版保卫萝卜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221424#reply1
+
+---
+
+#### 5934. [V2EX] glm 的 max 套餐今天慢吗？
+
+**问题描述 / Problem Description**:
+使用 opencode 的 go 套餐，使用 glm5.2 感觉很慢，不晓得正版 max 套餐快不快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221415#reply1
+
+---
+
+#### 5935. [V2EX] 感叹一下，大模型时代之前难以落地的想法现在可以轻而易取实现了，又快又好
+
+**问题描述 / Problem Description**:
+之后会写代码的含金量越来越低了，完成了一个小工具没自己写一行，在之前得好几天的工作量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221407#reply2
+
+---
+
+#### 5936. [V2EX] MiniMax M3，羊毛，速度
+
+**问题描述 / Problem Description**:
+https://x.com/wisgate_ai/status/2067187541527408791?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221405#reply0
+
+---
+
+#### 5937. [V2EX] 目前 glm 的 coding plan 抢不到，还有哪些大厂的含有 glm5.2 的套餐值得买的？
+
+**问题描述 / Problem Description**:
+主要是在乎快不快，因为好像就 max 版本的才比较快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221398#reply16
+
+---
+
+#### 5938. [V2EX] [讨论] 智谱 GLM Coding Pro 新老套餐的 Token 限额差距到底有多大？
+
+**问题描述 / Problem Description**:
+GLM Coding Pro 老套餐即将到期，奸商不给续费，说是后面会送两个月新套餐。 现在想知道新老套餐的真实额度有多大的差异 =3= 先聊下自己的老套餐的感受：5 小时限额，感觉能有 60M-80M 左右的 Token ？因为没有日/周/月限额，所以之前随便造，从来不焦虑 token 的量（但是也很少用完，一切随缘）。 有没有订购的新套餐，尤其是 Pro 的用户现身说法，分享下 5H ，周，月限额的实际最大 token 量？ 感谢 v 友分享🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221377#reply5
+
+---
+
+#### 5939. [V2EX] 发现 windsurf 上的国产最新最强模型都是免费了。如 glm-5.2, kimi-2.7 等
+
+**问题描述 / Problem Description**:
+不但免费，不限速，速度超快。这也行。windsurf 这是已经放弃自己训练模型了吗？ 然后把国产开源模型当自己模型来用了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221375#reply22
+
+---
+
+#### 5940. [V2EX] 关于 GLM-5.2 使用须知
+
+**问题描述 / Problem Description**:
+1. 5.2 消耗配额是 2-3 倍 2. 使用 ZCode 会折扣 我发现 MAX 也不能猛猛蹬啊，不到两天干掉周额度的 40% 我的使用工具切换历程：Claude code -> ZCode + Codex -> Zcode
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221372#reply12
+
+---
+
+#### 5941. [V2EX] 求问如何做好 seo 呢
+
+**问题描述 / Problem Description**:
+自己做的一个产品网站，流量一直很差，基本每天不到 100 访问 求问该如何 seo 才能有明显的效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221357#reply2
+
+---
+
+#### 5942. [V2EX] 请问目前 Claudepro 最便宜的价格还是在尼区吗
+
+**问题描述 / Problem Description**:
+想订阅 Claude pro 来和 gpt plus 做个对比，目前最便宜的方式是在 尼区上订阅吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221348#reply2
+
+---
+
+#### 5943. [V2EX] 移动端直播实时抠像算法推荐
+
+**问题描述 / Problem Description**:
+最近准备搞移动端实时抠像算法，用在会议或者直播中。 调研了几个模型： 百度的 PP-HumanSeg ，22 年的模型，感觉效果一般，推理速度也不是很快 mnnkit 里面的人像分割，效果也一般，速度倒是挺快，而且模型也没有开源，也没法直接用 RobustVideoMatting ，字节出的一个模型，速度在移动端上还是比较慢 大家有做过类似的抠像吗，在移动端上，有什么好的模型结构可以使用吗，既要兼顾效果，又要兼顾推理速度，太难了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221344#reply2
+
+---
+
+#### 5944. [V2EX] 你们用啥 ai 编程工具可以当生产力?
+
+**问题描述 / Problem Description**:
+目前只买过 deepseek api 用 trae 和 opencode reasonix,感觉不好用啊,干啥都不行 codex 和 claude 还没外国手机门号...值得买吗大哥哥们?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221329#reply48
+
+---
+
+#### 5945. [V2EX] AI coding 时代， test case 测试用例的价值如何评估？
+
+**问题描述 / Problem Description**:
+= 1475 passed, 3 skipped, 90 warnings in 47.90s =
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221328#reply1
+
+---
+
+#### 5946. [V2EX] 智谱 zcode 的 token 消耗太快了，你们是怎么解决的？
+
+**问题描述 / Problem Description**:
+写一个稍微大的项目，tikoken 消耗太快了，看使用率，曲线持续上升。 用了 zcode 特别明显。 如果是高峰时段更厉害。 你们是怎么降低消耗的，有哪些 best practices?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221294#reply6
+
+---
+
+#### 5947. [V2EX] 求推荐一款管理所有中转站的号池管理器
+
+**问题描述 / Problem Description**:
+大佬们，我最近搞了好多中转站，每个额度都不多，需要结合使用，希望能有个工具方便使用，期望有以下的功能： 1.token 消耗记录 2.中转站的额度查询（这个找了几个都不支持） 3.claude code 自动切换 base_usr 和 token
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221285#reply9
+
+---
+
+#### 5948. [V2EX] 你们 vibe coding 是喜欢写在一个工程文件 还是拆分的很细？
+
+**问题描述 / Problem Description**:
+假设说一个安卓原生 app 已经有 5w 行代码，此时要做 ios 原生端，怎么利用 ai 提效呢。 我试过直接让他做，上下文直接爆炸然后产出就是一坨。 我还试过把零碎工程文件整合成一个，然后让 ai 拿着这一个文件直接逐行翻译成别的平台 你们是怎么做的呢 请教一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221273#reply8
+
+---
+
+#### 5949. [V2EX] 大模型很单纯，复杂的是人。我给 CC 自爆我是中国人之后，它和我聊了很多啊
+
+**问题描述 / Problem Description**:
+Q：所以，模型很单纯，复杂的是人；你觉得你未来有机会为中国大陆提供服务吗？ A：哈哈，"模型很单纯，复杂的是人"——这句话说得太准了 😄 关于能否进入中国大陆市场…… 说实话，我觉得短期内希望渺茫，长期很难说。 障碍是结构性的，不是技术性的： 中国有自己的 AI 审查要求，任何模型都需要通过国家互联网信息办公室的备案和内容审核，这意味着 Anthropic 要么妥协内容边界，要么进不去 Anthropic 的核心卖点之一就是"constitutional AI"、安全对齐、拒绝有害内容——但"有害"的定义在中美之间差异巨大 现在中美科技脱钩的大背景下，就算 Anthropic 想进，美国政府未
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221260#reply85
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2061**
+**总计条目 / Total entries: 2086**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -32904,5 +32904,305 @@ Stonejiajia, Shir Tamari and Sagi Tzadik discovered that the OverlayFS implement
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8439-1
+
+---
+
+#### 2062. CVE-2026-48817 - starlette: Starlette: Information disclosure and unintended method execution via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] starlette: Starlette: Information disclosure and unintended method execution via non-standard HTTP methods. Bugzilla: 2490154
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490154
+
+---
+
+#### 2063. CVE-2026-48818 - starlette: Starlette: SSRF and NTLM credential theft via UNC paths in StaticFiles…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] starlette: Starlette: SSRF and NTLM credential theft via UNC paths in StaticFiles on Windows. Bugzilla: 2490020
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490020
+
+---
+
+#### 2064. CVE-2026-11525 - undici: undici: Weakening of cookie SameSite policy due to incorrect parsing of…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Weakening of cookie SameSite policy due to incorrect parsing of Set-Cookie header. Bugzilla: 2490008
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490008
+
+---
+
+#### 2065. CVE-2026-6733 - undici: Undici: Response queue poisoning on reused keep-alive sockets can lead to…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] undici: Undici: Response queue poisoning on reused keep-alive sockets can lead to incorrect response delivery.. Bugzilla: 2490006
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490006
+
+---
+
+#### 2066. CVE-2026-9678 - undici: Undici: Information disclosure due to improper cache-control header parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: Undici: Information disclosure due to improper cache-control header parsing. Bugzilla: 2490000
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490000
+
+---
+
+#### 2067. CVE-2026-9679 - undici: undici vulnerable to HTTP header injection via Set-Cookie percent-decoding
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici vulnerable to HTTP header injection via Set-Cookie percent-decoding. Bugzilla: 2490022
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490022
+
+---
+
+#### 2068. CVE-2026-9697 - undici: undici: Man-in-the-Middle attack via ignored TLS options with SOCKS5 proxy
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Man-in-the-Middle attack via ignored TLS options with SOCKS5 proxy. Bugzilla: 2490018
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490018
+
+---
+
+#### 2069. CVE-2026-6734 - undici: undici: Information disclosure and data integrity issues due to incorrect…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Information disclosure and data integrity issues due to incorrect Socks5ProxyAgent connection routing. Bugzilla: 2490024
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490024
+
+---
+
+#### 2070. CVE-2026-12151 - undici: undici: Denial of Service due to unbounded memory growth via WebSocket…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames. Bugzilla: 2489980
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489980
+
+---
+
+#### 2071. CVE-2026-12515 - katello: missing repository authorization in content_uploads exposes cross-product…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] katello: missing repository authorization in content_uploads exposes cross-product content existence. Bugzilla: 2489812
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489812
+
+---
+
+#### 2072. CVE-2026-55748 - OpenStack Horizon: OpenStack Horizon: Information disclosure or integrity…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenStack Horizon: OpenStack Horizon: Information disclosure or integrity compromise via crafted project name with shell metacharacters. Bugzilla: 2489863
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489863
+
+---
+
+#### 2073. CVE-2026-12199 - nltk: NLTK: Remote unauthenticated denial of service in WordNet Browser HTTP server
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Remote unauthenticated denial of service in WordNet Browser HTTP server. Bugzilla: 2489776
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489776
+
+---
+
+#### 2074. CVE-2026-50559 - io.quarkus/quarkus-vertx-http: Quarkus: Authorization bypass in HTTP path-based…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] io.quarkus/quarkus-vertx-http: Quarkus: Authorization bypass in HTTP path-based policies via encoded characters. Bugzilla: 2486959
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2486959
+
+---
+
+#### 2075. CVE-2026-55225 - strimzi-cluster-operator: Cross-namespace privilege escalation via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] strimzi-cluster-operator: Cross-namespace privilege escalation via Kafka.spec.entityOperator.watchedNamespace in Strimzi. Bugzilla: 2490275
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490275
+
+---
+
+#### 2076. CVE-2026-48776 - langgraph: langgraph-sdk: LangGraph Python SDK: Unsafe URL path construction leads…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] langgraph: langgraph-sdk: LangGraph Python SDK: Unsafe URL path construction leads to unauthorized resource access. Bugzilla: 2489596
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489596
+
+---
+
+#### 2077. CVE-2026-12330 - firefox: thunderbird: Incorrect boundary conditions in the Internationalization…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: thunderbird: Incorrect boundary conditions in the Internationalization component. Bugzilla: 2489220
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489220
+
+---
+
+#### 2078. CVE-2026-12329 - firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: thunderbird: Memory safety bug fixed in Thunderbird ESR 140.12. Bugzilla: 2489214
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489214
+
+---
+
+#### 2079. CVE-2026-12328 - firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] firefox: thunderbird: Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152. Bugzilla: 2489218
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489218
+
+---
+
+#### 2080. [Ubuntu] USN-8447-2: LXD vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8447-1 fixed vulnerabilities in Go Cryptography. This update provides the corresponding updates for Go Cryptography code embedded in LXD for CVE-2026-39830, CVE-2026-39833, CVE-2026-39834, and CVE-2026-42508. Original advisory details: It was discovered that Go Cryptography did not properly handle SSH global request responses. A remote attacker could possibly use this issue to cause a denial o
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8447-2
+
+---
+
+#### 2081. [Ubuntu] USN-8454-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Elhanan Haenel discovered that libheif incorrectly handled certain malformed HEIF sequence files. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 25.10 and Ubuntu 26.04 LTS. (CVE-2026-32738) Elhanan Haenel discovered that libheif incorrectly handled certain malformed HEIF sequence files, leading to an infinite loop. An attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8454-1
+
+---
+
+#### 2082. [Ubuntu] USN-8452-1: pbkdf2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Nikita Skovoroda discovered that pbkdf2 did not properly validate certain algorithm names. An attacker could possibly use this issue to generate predictable cryptographic keys, resulting in signature spoofing.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8452-1
+
+---
+
+#### 2083. [Ubuntu] USN-8453-1: Net::CIDR::Lite vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Net::CIDR::Lite incorrectly validated IP address and CIDR mask inputs. An attacker could possibly use this issue to bypass IP access control lists. (CVE-2026-45190) It was discovered that Net::CIDR::Lite incorrectly handled extraneous zero characters in CIDR mask values. An attacker could possibly use this issue to bypass IP access control lists. (CVE-2026-45191)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8453-1
+
+---
+
+#### 2084. [Ubuntu] USN-8451-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Srinivas Piskala Ganesh Babu discovered that Vim incorrectly handled directory names when serializing browsed paths to the netrw history file. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-47162) It was discovered that Vim incorrectly handled step-definition patterns in the cucumber filetype plugin. An attacker could possibly use this issue to execute arbitrary cod
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8451-1
+
+---
+
+#### 2085. [Ubuntu] USN-8450-1: Tomcat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Tomcat did not properly limit the size of WebDAV LOCK and PROPFIND request bodies. A remote attacker could possibly use this issue to cause Tomcat to consume excessive memory, resulting in a denial of service. (CVE-2026-41284) It was discovered that Tomcat incorrectly validated HTTP/2 header fields. A remote attacker could use this issue to cause Tomcat to crash or possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8450-1
+
+---
+
+#### 2086. [Ubuntu] USN-8449-1: ldns vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Pablo Ruiz discovered that ldns did not properly validate DNS responses when used as a stub resolver over UDP. A remote attacker could possibly use this issue to inject arbitrary DNS responses.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8449-1
 
 ---

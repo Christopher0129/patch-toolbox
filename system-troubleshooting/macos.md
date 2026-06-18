@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5422**
+**总计条目 / Total entries: 5702**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -74738,5 +74738,3669 @@ I have the same problem and likely found the cause. The Netbird VPN client wante
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486601/strange-notifications-asking-me-to-update-script-editor-to-version-0-72-4
+
+---
+
+#### 5423. Apple is on track to patch more vulnerabilities in 2026 than any previous year. Is this good news or bad news?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9gl4l/apple_is_on_track_to_patch_more_vulnerabilities/
+
+---
+
+#### 5424. what the fuck?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u95jik/what_the_fuck/
+
+---
+
+#### 5425. macOS 27 Icon Pack (1024x1024 PNG)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9f8x9/macos_27_icon_pack_1024x1024_png/
+
+---
+
+#### 5426. Seasonal check-in with my old MBP. Seeing that nice clean UI hurts more than ever now I'm on Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9339b/seasonal_checkin_with_my_old_mbp_seeing_that_nice/
+
+---
+
+#### 5427. will my external ssd be safe after infostealer?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9bxuc/will_my_external_ssd_be_safe_after_infostealer/
+
+---
+
+#### 5428. Multiple Window of the Same App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u95zox/multiple_window_of_the_same_app/
+
+---
+
+#### 5429. Which macOS do you recommend for my early 2011 MacBook Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9eo3i/which_macos_do_you_recommend_for_my_early_2011/
+
+---
+
+#### 5430. Every reboot, macOS creates a “Photo - archive” folder on my Desktop (Sequoia 15.6)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u952zv/every_reboot_macos_creates_a_photo_archive_folder/
+
+---
+
+#### 5431. Was this a stupid decision (that cleared 40gb of storage)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9je02/was_this_a_stupid_decision_that_cleared_40gb_of/
+
+---
+
+#### 5432. Talanoa Mail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9iwte/talanoa_mail/
+
+---
+
+#### 5433. Really weird System Preferences bug in Sequoia 15.7.7 (Mac Mini M4)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9i2ib/really_weird_system_preferences_bug_in_sequoia/
+
+---
+
+#### 5434. My Macbook Neo won’t turn on
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9btwl/my_macbook_neo_wont_turn_on/
+
+---
+
+#### 5435. M5 Max + 4K external: changing refresh rate affects my Minecraft FPS more than changing resolution, why?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9a2eg/m5_max_4k_external_changing_refresh_rate_affects/
+
+---
+
+#### 5436. Certain apps keep closing randomly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9fatv/certain_apps_keep_closing_randomly/
+
+---
+
+#### 5437. NVME issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9ezsg/nvme_issues/
+
+---
+
+#### 5438. Is it safe to turn off automatic updates and allow them occur manually?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9e754/is_it_safe_to_turn_off_automatic_updates_and/
+
+---
+
+#### 5439. Can anyone who can help internet recovery mode keep failing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9cwib/can_anyone_who_can_help_internet_recovery_mode/
+
+---
+
+#### 5440. Mac air m4 sudden crash reasons?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9crsw/mac_air_m4_sudden_crash_reasons/
+
+---
+
+#### 5441. Outlook rejects password even though it's correct
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9c68a/outlook_rejects_password_even_though_its_correct/
+
+---
+
+#### 5442. MacBook Air M1 2020 deleted most desktop files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9blz5/macbook_air_m1_2020_deleted_most_desktop_files/
+
+---
+
+#### 5443. Flashing screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u8xc0h/flashing_screen/
+
+---
+
+#### 5444. External Displays
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u95k8w/external_displays/
+
+---
+
+#### 5445. [V2EX] 写了一个本地运行的 macOS 语音输入工具： Juno
+
+**问题描述 / Problem Description**:
+大家好，我最近在做 Juno ，一个 macOS 上本地运行的语音输入工具，想请 V 友帮忙试试。 它解决的是一个很具体的问题：我每天要在 Slack 、邮件、浏览器、Cursor 、Notes 里输入很多文字，但系统听写和很多语音工具用起来总是不太顺手。 常见问题是： - 没有实时转写，说完一大段才发现识别错了 - 项目名、人名、模型名、代码相关词汇很容易被听错 - 语音输入不能理解当前 app 、选中文本、屏幕上的词 - 涉及隐私的内容不想发到云端 - 想在 Mac 上任何输入框里直接使用，而不是打开一个单独的转写页面 Juno 的交互比较简单：按一次快捷键开始说话，再按一次停止，文字会直
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221459#reply4
+
+---
+
+#### 5446. [V2EX] Yo App Switcher（附送兑换码）
+
+**问题描述 / Problem Description**:
+Yo App Switcher (macOS App) 刚通过审核，发布了。 Yo App Switcher 是一款应用切换器，应用 Vim 风格。按压快捷键，Opt+a (可自定义），应用切换窗口显示，再按提示键，就可以切换至相应的程序。 我是一个 Vim/Nvim 重度使用者，一直希望有类似的应用，总算自己编出来了。详情在 Github 。 https://github.com/lylehust/Yo-App-Switcher/blob/main/README_zh.md 可以在应用商店下载。 https://apps.apple.com/us/app/yoappswitcher/id67
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221214#reply14
+
+---
+
+#### 5447. [V2EX] L 站某推广帖的安装脚本疑似窃取浏览器和 SSH 数据，我举报并贴证据后回复被删
+
+**问题描述 / Problem Description**:
+提醒大家避坑。L 站这篇帖子里的软件安装脚本疑似存在信息窃取行为： https://linux.do/t/topic/2420133/14 我中午 12:30 左右已经在原帖举报，并回复了本机取证发现：该安装过程会收集并疑似上传浏览器、SSH 等敏感信息。但我的取证回复随后被删除，帖子却依然存活，所以单独发到这里提醒一下。 为避免误点，下面域名做了 defang： quill-67[.]com verse-18[.]com 159.223.216.143:80 安装脚本行为 安装命令是典型的： curl -s <远程脚本> | zsh 第一阶段脚本会解码 gzip + base64 paylo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221136#reply7
+
+---
+
+#### 5448. [V2EX] 我的 macOS 最近经常弹出音量变化的那个浮窗，但我确认自己没有按到音量键。
+
+**问题描述 / Problem Description**:
+没留意什么时候出现的，最近的改变有： 从 26.3 升级到了 26.5 升级了微信，然后发现它绑定了 ctrl+E ，于是 安装了 Karabiner Elements 出现的频率不固定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221068#reply1
+
+---
+
+#### 5449. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply104
+
+---
+
+#### 5450. [V2EX] 终结 macOS 终端代理配置噩梦！全自动同步代理到 Shell、Git、NPM、Yarn 和 Docker
+
+**问题描述 / Problem Description**:
+🔗 项目开源地址 👉 GitHub - lcl-101/Proxy-Sync-Daemon 😫 痛点：你是否也经常遇到这些情况？ 终端网络割裂 ：在 macOS 上开启了 Clash 、Surge 或 Shadowrocket 后，浏览器冲浪十分顺畅，但在终端里 git clone 、 npm install 、 docker pull 依旧卡死超时。 繁琐的手动配置 ：每次开代理都要在终端手动输入一堆 export http_proxy=... ；关了代理要是忘记取消配置，终端又会报 Connection Refused 无法联网。 三方工具代理污染 ：为了下载依赖配了 NPM 或 Git
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221028#reply24
+
+---
+
+#### 5451. [V2EX] 新人使用 macOS，问几个问题
+
+**问题描述 / Problem Description**:
+1. 在 `通用` 里面修改了 `主机名`（原：`xxx 的 MacBook Pro`），修改完成后，终端里面的主机名就显示 `localhost` 了，为啥不是我修改后的主机名？ 2. 有些软件在 Dash 里长按，图标开始抖动，有些图标右上角有 `x`，点击可以直接卸载，有些没有，这些没有的怎么卸载？直接拖到垃圾篓就可以了？会有残留配置文件吗？ 3. Type-c 通过转接头 hdmi 接华为智慧屏，智慧屏会一直闪，同事电脑用我的转接头没问题，我用这个转接头接自己的显示器也没有问题，这是为啥？ 4. 我现在的系统是 Sonoma ，更新到最新版以后，后续还能装回这个系统吗？ 5. 系统删除
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221026#reply14
+
+---
+
+#### 5452. [V2EX] macOS 27 已知问题汇总
+
+**问题描述 / Problem Description**:
+如题，macOS27 不支持 Intel 心了，用家里的 mac mini m1 的更新了感受了一下，发现 BUG 如下，其他感觉很好，尤其是新款的动效以及对刘海屏的优化等。macOS 27 Golden Gate 目前仍属于 beta 版本，主力机慎更！ 1 、Xcode 编译时候，找到真机设备，有可能是我 iOS 没更新的缘故 2 、新的 Liquid Glass 外接显示器，外接 4K 显示器 UI 上有时候会出现窗口边缘毛边闪烁 3 、破解软件都失效了，比如我用的 Paralles desktop 啥的，新版 macOS 可能调整了系统安全策略、签名验证、运行环境或底层接口的原因 其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1219247#reply64
+
+---
+
+#### 5453. [V2EX] 2026 年苹果的低电量提醒依旧一坨
+
+**问题描述 / Problem Description**:
+苹果的低电量提醒在打游戏时提出直接卡个几秒钟，最失败的设计之一 这低电量提醒不能只用声音提醒？不知道苹果的设计师怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221456#reply0
+
+---
+
+#### 5454. [V2EX] ios27beta 锁屏界面键盘无法正常显示 bug，求助
+
+**问题描述 / Problem Description**:
+我最近修改了锁屏密码，需要用密码多登录几次。 今儿下午午休起来后拿起手机显示需要用密码解锁，但是键盘一直出来闪一下就消失，到现在还没能解锁手机，有人遇到相同情况了吗，这咋整啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221413#reply0
+
+---
+
+#### 5455. [V2EX] Mac 外壳磕了，国内外两次 AC 送修经历，但未修机
+
+**问题描述 / Problem Description**:
+放一张 AI 做的图，方便大家快速了解本文大概内容 一年前，自己的美版 16 寸 MacBook 因为自己不不小心，被充电头的插脚顶出了凹痕，刚好买了 AppleCare ，于是就预约了准备去送修 维修价格预估是这样的，到店接待我们的人说，显示器的更换 100 美金，机身的更换 200 美金，这和官网说的机身外壳损坏 99 美金不同（当时我没有去看过官网的维修价格，就忘了问为什么价格不同了），接待我的黑人小哥不建议我维修，想着 AC 还有一年，等快到期了再换 26 年 8 月 AC 到期了，前段时间就又预约了看看 国内的 AC 预约需要身份证后四位数（不清楚是否校验），到店签到的时候也要你的真
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221399#reply6
+
+---
+
+#### 5456. [V2EX] [送码] 成功把 iCloud 空间省出了 190GB
+
+**问题描述 / Problem Description**:
+前期提要： vibe coding 了一个解决 iCloud 空间不足的 app - Slimm 最近终于把成品上架 app store 了，地址在这里 Slimm - 释放云空间 核心原理就是只保留前 5s 的低质量视频，原始媒体存在本机或者别的大容量设备上，现在 Slimm 不仅支持本机，还支持了 Web DAV 和外接存储。而且还可以在 Mac 上安装，我已经把自己的 700+个视频全部移到了 Macbook 上面，iCloud 空间立减 190GB ，200GB 的空间终于不再捉襟见肘了。 而且事实证明，以前存储的确实有很多视频是我完全不会再看一遍的了，如果不是这次清理存储空间的机会，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221332#reply47
+
+---
+
+#### 5457. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply24
+
+---
+
+#### 5458. [V2EX] 🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？
+
+**问题描述 / Problem Description**:
+各位 v 站的朋友好，经过 1 年时间我来向各位汇报专为开发团队打造 Mac 优美截图 app 1Capture 的进展。 市场上截图的工具很多，但是我们这款 app 会有很多不一样的地方。Cleanshot 可能很美，但是其操作流程可能不一定适合国人的操作习惯。1Capture 的目标就是：不一味堆砌功能，做到跟 Cleanshot 一样精美，但是更符合国内开发、产品、设计师的操作习惯。 值此 618 之际，我们也是为大家提供价格优惠。1Capture 一次性买断，永久免费升级，走过路过，不要错过哦。送码在最后。 App Store：( https://apps.apple.com/app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221276#reply136
+
+---
+
+#### 5459. [V2EX] ios27 如何保留数据降级 26
+
+**问题描述 / Problem Description**:
+这苹果的 bug 真是多 最基本通话上网都不进行测试的 手机卡开启 wifi calling 未设置 911 地址 系统弹出 e911 设置页面 点击输入框 页面闪退 让 ai 分析日志 是什么鸡毛 ai 预测输入 闪退
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221186#reply24
+
+---
+
+#### 5460. [V2EX] 现在已经没办法修改苹果地图的位置了吗？
+
+**问题描述 / Problem Description**:
+设备：ipadmini7 港版（ wifi 版 系统：最新 OS26.5 路由器：小米（已经修改 country code 到香港/韩国 网络：美国家宽 ip （全局尝试了也不行 以前按照 iRingo 很容易的，现在想看个 Apple News 都不行了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221086#reply19
+
+---
+
+#### 5461. [V2EX] ios27 wificalling 设置 911 地址闪退
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221076#reply3
+
+---
+
+#### 5462. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply50
+
+---
+
+#### 5463. [V2EX] Siri waitlist 下不来了。。
+
+**问题描述 / Problem Description**:
+还有谁和我一样第一天挂上 waitlist ，到现在还没出来的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220622#reply12
+
+---
+
+#### 5464. [V2EX] ios27 新 siri 问一些联网问题就报 problem，本地化问题没问题，是节点不对？
+
+**问题描述 / Problem Description**:
+ios27 新 siri 问一些联网问题就报 problem ，本地化问题没问题，是节点不对？ 问世界杯开始了吗？就说 have problem ，问现在几点以及在哪里，就可以回话上来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220507#reply9
+
+---
+
+#### 5465. [V2EX] 想把我的国航 air 卖了换港行 promax 有必要吗 尘埃未定
+
+**问题描述 / Problem Description**:
+轰轰烈烈的 ai 地理围栏猜测尘埃未定 有的说是苹果服务器原因 有的说是鉴于苹果之前的一个发言，外行确是来华也只能用审核过后的地区模型 即便落定没有围栏，有没有必要 air 为了 ai 换成 promax
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220458#reply22
+
+---
+
+#### 5466. [V2EX] Mac 出了新机器，老机器是不是就开始卡了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220447#reply22
+
+---
+
+#### 5467. [V2EX] 开源项目免费领 token
+
+**问题描述 / Problem Description**:
+https://evomap.ai/zh/api-grant?invite=DPFQU4DQ EvoMap 的「开源贡献者 API Grant Program 」：用 GitHub 身份验证（用户名 + 公开仓库 + 角色） github 项目 star 数大于 1 就能参加这活动，大于 1000 ，能拿约等于 100 美金的 credits 可直接免费白嫖 Claude / OpenAI / Gemini 大家可以试下，使用我的邀请码还可以多获得 200 积分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221445#reply1
+
+---
+
+#### 5468. [V2EX] 第一次见到 Vibe Coding 大赛，没想到还有分数榜单
+
+**问题描述 / Problem Description**:
+牛客的 AI Coding 比赛，给你一个在线编辑器，一个 AI 对话框，让你去 vibe 代码通过测试用例。 其中可以不断问 AI ，但总共有 10 次提交测试得分数的机会。 最后评分还不只是看测试用例通过率，还会对问答过程进行评价， 感觉属于比较前沿的筛选机制了，以后大厂程序员面试会不会也这样进行初筛选 XD 感兴趣的可以看看： https://www.nowcoder.com/problem/tracker/ai/activity/aicoding-contest-s1?invite=bsnn0q6e51cf&page=signup 第一次没找到问题，一直 62 分，第二次突然发现问题了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221406#reply2
+
+---
+
+#### 5469. [V2EX] 我也 vibe 了一个联机版的「抢滩登陆战」小游戏
+
+**问题描述 / Problem Description**:
+五一回老家闲着没事 vibe 了一个小游戏，各种备案审核断断续续一个多月终于上架了，大家帮忙看看提点意见🙏🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221404#reply1
+
+---
+
+#### 5470. [V2EX] 闲鱼被二道贩子骗子，证据充足都没用
+
+**问题描述 / Problem Description**:
+给我气的 三星平板说是原装能用手机卡接短信 但是拿到手只能 4g 网 后来花了几十个小时折腾 卖家还骗我说可以收短信 说要用三星的 app 结果最后发现是 att 美国运营商版😡 投诉后说证据不足🤬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221387#reply3
+
+---
+
+#### 5471. [V2EX] mimo key 端午自助餐，先到先蹬，今天的()班就上到这
+
+**问题描述 / Problem Description**:
+key1：tp-srjstwj805mpjtdg6uhewldn0uwy6q9pklmf705yfz1d93j3 key2：tp-s7nxfikdyunk5smdbc0etgmmwn25opc0bh5l8ijyoml0a2l9 key3：tp-sm7p0gxi30e4nzeay7vr4906y6ecz5xmorae5iutqc1qh8nj key4：tp-s77yw470zsum59o6hzox28212hb2hi1d69vp1o460ge5gljz key5：tp-s9vxxyuz0smgwxj7bqx6sar8yf5wmu55bs9b9uf6ndzk3w5v key6：tp-sbpvegr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221384#reply1
+
+---
+
+#### 5472. [V2EX] 新疆旅游信号
+
+**问题描述 / Problem Description**:
+兄弟们！！！！！ 我近期要去新疆旅游，过程中可能会经过一些没有信号的地方，有没有什么解决方案可以解决没有信号的问题啊。家里有个小孩，需要时不时看监控、沟通等，所以是很重要的事情，网上找了半天没找到，只能来求助各位 V 站的大佬了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221380#reply9
+
+---
+
+#### 5473. [V2EX] 去隔壁的 2 站耍一耍
+
+**问题描述 / Problem Description**:
+https://2libra.com/auth/signup/2SpgPPB8aWuf 没来的友友们来呀，潘多拉盲盒每天都有惊喜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221366#reply3
+
+---
+
+#### 5474. [V2EX] AI 内容创作与自动获客系统招募渠道商
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221349#reply3
+
+---
+
+#### 5475. [V2EX] Linux .do 通过 GitHub 账户注册之后过几日无法登录
+
+**问题描述 / Problem Description**:
+今日搜索信息，发现 linux.do 网站有相关帖子，点击页面后顺手使用谷歌邮箱登录，结果在登录页显示“抱歉，本论坛仅接受邀请注册。”。 之前有 V 友在此宣传，我记得当时就注册了，访问 “ https://invite.linuxdo.org ” 确实显示 “邮箱已在 LINUX DO 注册。” 可是无法通过账户 + 密码登录，重置密码后，邮箱也收不到重置密码的邮件。 这个论坛在搞什么啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221334#reply0
+
+---
+
+#### 5476. [V2EX] outlook 添加谷歌账号后，下方反复提示登录的问题
+
+**问题描述 / Problem Description**:
+搜索引擎貌似没有收录类似问题，排查一番后解决了 如果点登录（ Microsoft Authenticator App ）会提示： 身份验证期间出现错误，请稍后再试 ，闪退 outlook 回主页面 fix： 微软身份验证（ Microsoft Authenticator App ）帮助里面写了一定要安装 Chrome 手机浏览器才能完成验证 验证的时候权限全部勾选上 outlook 在“设置/账户”选择对应谷歌账号，重置账户。重新启动 outlook 后一切正常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221305#reply0
+
+---
+
+#### 5477. [V2EX] 我们做了一个 Twitter Skill，没想到昨天在 Twitter 上爆了
+
+**问题描述 / Problem Description**:
+各位 V 站的朋友好，我们最近做了一个 Twitter Skill ，昨天发到 Twitter 上，小小火了一下，拿到了 100k+ 曝光，所以也想来 V2EX 跟大家聊聊这个东西。 我们一开始做它，并不是想做一个“自动发推工具”。真正的原因是，我们发现 AI Agent 想接入 Twitter/X ，其实比想象中麻烦很多。 如果直接接 Twitter 官方 API ，开发者要自己处理 OAuth 、token 过期、refresh token 、callback URL 、权限范围这些东西。单独看每一步都不算特别难，但放到真实产品里，就会变成一堆很烦的边角问题。 比如用户今天授权了，Agen
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221301#reply3
+
+---
+
+#### 5478. [V2EX] 年轻女性沦落为资本收割男性的帮凶
+
+**问题描述 / Problem Description**:
+比如直播打赏，女的秀自己的身体，搔首弄姿的 还有女的知道自己有魅惑力，就使劲发挥自己的优势，获取流量最终达到自己捞钱的目的 深入思考这个事情，如果男性没有对女性的欲望，那么她们的这种行为，就是极其无聊的 但是他们知道男性看了会不舒服，会有欲望，反而肆无忌惮的显露自己，利用男性的这个缺点从而获利 我认为她们这样的人极不道德，平台也不道德 本质上来说是资本利用女性，把女性物化后，让男性消费。 而女性大多情况下都是沦落为资本的帮凶从而收割男性。 类似的场景还有许多，比如 买房/娶妻/婚戒/黄金/丈母娘， 包括情色违法，本质上就是垄断男性的欲望需求，让男性没有通道可以轻易获取，促使男性花费更大的代价和
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221283#reply19
+
+---
+
+#### 5479. [V2EX] 试用了几个语音输入法
+
+**问题描述 / Problem Description**:
+我的使用场景： 之前键盘打字写提示词控制 agent 写代码，希望能逐渐转为语音控制写代码，加快速度，提升效率。 希望能支持任意软件的编辑窗口，随时都能语音输入，支持中英文混合输入，润色功能并不太需要。 已购麦克风：大疆 mic mini 2 ，挂衣服上，这样可以人距离电脑较远距离，站起来或躺椅子上，不用接触鼠标键盘，即可输入。 测试结果 1 、Windows 自带的语音输入 win+h 唤醒 优点: 识别率可以接受，中英文也可以，流式输入，实时性好。功能极其简洁，窗口悬浮，方便操作。 缺点：鼠标或键盘操作后会停止监听，需要再次唤醒。 2 、微信输入法语音输入 优点：识别率很高，中英文识别也很
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221281#reply8
+
+---
+
+#### 5480. [V2EX] [记录]一加 12 从 crDroid 刷回官方 ColorOS
+
+**问题描述 / Problem Description**:
+背景： 我是国行一加 12 ，本来已经更新到了 ColorOS 16 最新版，之前五一放假心血来潮，解锁刷到了 crDroid 系统。 正如酷安基佬所说，“刷完类原生的下一步，就是回到 ColorOS 并上锁”🤣 果然，现在玩腻了，前天又想给刷回 ColorOS 16 ，于是在大侠阿木的网站上下载了最新的 ColorOS 16 的全量 OTA 包（ zip 格式的那种），解析 payload.bin 得到一堆 img 镜像文件后，在 ChatGPT 的帮助下，手动一个个给刷回去。 但是无论怎么刷，当时发现移动网络识别不到、相机 App 闪退，然后 ChatGPT 竟然指导我一个个打补丁！我好多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221249#reply9
+
+---
+
+#### 5481. [V2EX] vibe 了一个微信小游戏，半个月才 200 多用户
+
+**问题描述 / Problem Description**:
+个人开发确实挺难的。 真正写代码其实只花了一周时间。我把需求整理好，生成文档后直接让 Codex 跑，利用下班后的时间，一周左右就完成了开发。 但后面的流程远比开发耗时：微信审核、平台审核、开发者认证、工信部备案，前前后后折腾了一个多月。 上线当天在几个车友群里分享了一下，算是有一点小水花，UV 最高到了 120 。可惜之后基本没有自然新增用户。 后来又录了一些游戏视频发到 B 站、小红书、抖音等平台，播放量大多连 100 都很难突破。即便有 100+ 播放，最终能转化出 5 个打开小游戏的用户就已经算不错了。 最近连更新视频的动力都有点不足了。原本想着先做到 500 UV ，再尝试投一点流量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221245#reply41
+
+---
+
+#### 5482. [V2EX] Kimi 2.7 code，免费额度
+
+**问题描述 / Problem Description**:
+https://x.com/wisgate_ai/status/2067177998189817868?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221221#reply2
+
+---
+
+#### 5483. [V2EX] [Update] 昨天发完帖后，我把拼豆生成器做上头了：画廊、在线编辑、用户系统全搞定
+
+**问题描述 / Problem Description**:
+昨天发了那个拼豆贴： https://v2ex.com/t/1220906 本来只是想做个简单的工具练练手，根据 V 友们的反馈，越改越上头，直接把原本的 MVP 计划提前了一周完成。把预计几天的改动，今天全堆在 pindouai.app 上了，感觉现在的雏形才算真正能拿出来用。 主要功能： 在线画廊 (Gallery)：现在大家生成的优秀作品会汇聚在这里，作为一个素材库，方便参考拼豆配色的效果。 在线编辑器 (Editor)：这是最“上头”的部分，支持生成后的二次编辑。 用户系统 (User Center)：把后端 D1 数据库搞定了，现在支持邮箱验证码登录。之前生成的图纸刷新就没了，现在终
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221167#reply2
+
+---
+
+#### 5484. [V2EX] 出大事了！ [安全公告] 哪吒面板存在多个高危漏洞
+
+**问题描述 / Problem Description**:
+110.42.44.59:8008 [安全公告] 哪吒面板存在多个高危漏洞 一、漏洞概况 哪吒面板（ Nezha Dashboard ）被披露存在多个高危漏洞，其中最严重的 CVE-2026-53519 （未授权路径穿越） CVSS 评分 9.1 ，影响 v2.0.13 以下所有版本。攻击者无需登录即可读取配置文件，获取 JWT 密钥并完全控制面板。 CVE-2026-53519 无需认证即可利用，风险极高。监测显示该漏洞已出现在野利用，请相关用户务必尽快完成修复。 此外还存在： CVE-2026-46716：普通用户权限提升 → 远程命令执行 CVE-2026-46717：SSRF 内网探测
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221163#reply2
+
+---
+
+#### 5485. [V2EX] 香港小部分运营商即日起（2026 年 6 月 17 日），无法在中国内地激活其手机卡
+
+**问题描述 / Problem Description**:
+上一个这样变化的，还是中国澳门手机卡，从 2025 年 11 月 21 日起，澳门的手机卡都无法在中国内地激活，都需要入境澳门（需上传入境记录）之后才能激活。（中国电信澳门 CTMO 是中国电信全资子公司，CTM 也是国资背景，控股公司是中信） 这一次部分运营商特指：中国移动香港，其有 CMHK 和 CMLink 两个品牌渠道，今天开始都无法直接在中国内地激活其手机卡，必须在香港激活好了才能在内地使用，比如很多人用过的“鸭聊佳”这个系列的手机卡，就不能带到内地激活了，还有一些其他小运营商的 CMLink 线路产品 而如今，国内三大运营商还幸存的：中国电信香港（ CTEXCEL HK ）、中国联
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221141#reply3
+
+---
+
+#### 5486. [V2EX] 阿里巴巴的钉钉越来越恶心
+
+**问题描述 / Problem Description**:
+上下班打卡也给你来个摇一摇，害的差点迟到，也难怪钉钉的团队在阿里巴巴不受待见。用钉钉的公司 99%都不是好公司
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221119#reply18
+
+---
+
+#### 5487. Where is the new bash_profile located in Big Sur OS?
+
+**问题描述 / Problem Description**:
+Tags: terminal, bash | Score: -3 | Views: 863 | Answers: 2 | Created: 2024-12-19
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/477519/where-is-the-new-bash-profile-located-in-big-sur-os
+
+---
+
+#### 5488. How can I remove outdated installed versions of Homebrew packages?
+
+**问题描述 / Problem Description**:
+Tags: macos, package-management, homebrew | Score: 239 | Views: 103253 | Answers: 3 | Created: 2015-09-20
+
+**解决方案 / Solution**:
+The cleanup ( brew cleanup ) command will remove outdated installed package versions. To affect a particular package/formula, you may supply a formula name like so: brew cleanup $FORMULA . To simulate cleanup, i.e. see what would be removed, you may use the -n option: brew cleanup -n .
+
+**参考链接 / References**:
+- https://superuser.com/questions/975701/how-can-i-remove-outdated-installed-versions-of-homebrew-packages
+
+---
+
+#### 5489. brew upgrade broke Vim on OS X (dyld: Library not loaded)
+
+**问题描述 / Problem Description**:
+Tags: macos, vim, ruby, homebrew, libraries | Score: 99 | Views: 66682 | Answers: 11 | Created: 2016-07-03
+
+**解决方案 / Solution**:
+Solution Try to reinstall ruby and vim , e.g. brew reinstall ruby vim Troubleshooting Here are other suggestions if above won't help: Find any references to DYLD_LIBRARY_PATH , DYLD_FALLBACK_LIBRARY_PATH or DYLD_FRAMEWORK_PATH environmental variables and remove them from the startup shell scripts (e.g. ~/.bashrc , ~/.bash_profile , etc.).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1096438/brew-upgrade-broke-vim-on-os-x-dyld-library-not-loaded
+
+---
+
+#### 5490. How do I tell Homebrew to stop running brew update every time I want to install something?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 79 | Views: 43813 | Answers: 6 | Created: 2017-05-14
+
+**解决方案 / Solution**:
+Just prefix your install command with HOMEBREW_NO_AUTO_UPDATE=1 , like this: HOMEBREW_NO_AUTO_UPDATE=1 brew install somepackage Source: brew manpage
+
+**参考链接 / References**:
+- https://superuser.com/questions/1209053/how-do-i-tell-homebrew-to-stop-running-brew-update-every-time-i-want-to-install
+
+---
+
+#### 5491. homebrew show all pinned formulas
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 44 | Views: 12348 | Answers: 1 | Created: 2015-05-08
+
+**解决方案 / Solution**:
+brew list --pinned should do the trick. I'm using brew version 0.9.5. The solution is listed in the manual pages as follows: ls, list [--unbrewed] [--versions [--multiple]] [--pinned] [formulae] Without any arguments, list all installed formulae. If formulae are given, list the installed files for formulae. Combined with --verbose, recursively list the contents of all subdirectories in each for- mula's keg. If --unbrewed is passed, list all files in the Homebrew prefix not installed by Homebrew. If --versions is passed, show the version number for installed formulae, or only the specified formulae if formulae are given. With --multiple, only show formulae with multiple versions installed. If --pinned is passed, show the versions of pinned formulae, or only the specified (pinned) formulae if formulae are given. See also pin, unpin.
+
+**参考链接 / References**:
+- https://superuser.com/questions/912207/homebrew-show-all-pinned-formulas
+
+---
+
+#### 5492. remove package installed by brew
+
+**问题描述 / Problem Description**:
+Tags: homebrew, scala | Score: 39 | Views: 123419 | Answers: 1 | Created: 2016-07-14
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1100711/remove-package-installed-by-brew
+
+---
+
+#### 5493. How do I reinstall all packages installed with Homebrew?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 37 | Views: 30878 | Answers: 6 | Created: 2016-10-22
+
+**解决方案 / Solution**:
+It's as simple as that: $ brew list | xargs brew reinstall You don't need to uninstall anything, because doing so you may lose your settings and configs.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1137780/how-do-i-reinstall-all-packages-installed-with-homebrew
+
+---
+
+#### 5494. How to install libssl-dev ,libffi-dev on Mac os?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 37 | Views: 133675 | Answers: 4 | Created: 2016-06-15
+
+**解决方案 / Solution**:
+Those particular packages do not exist under those names on both MacPorts and Homebrew - hence the errors you are receiving. In order to install these particular packages on OS X, you will want to use openssl . The following command should help you out: brew install openssl If you already have openssl installed, try running the following in order to repair it - some users over on Stack Overflow reported this as a fix when trying to get Django working. brew unlink openssl && brew link openssl --force
+
+**参考链接 / References**:
+- https://superuser.com/questions/1089390/how-to-install-libssl-dev-libffi-dev-on-mac-os
+
+---
+
+#### 5495. brew install mysql@5.7 can't connect to local MySQL server through socket
+
+**问题描述 / Problem Description**:
+Tags: macos, mysql, homebrew, macos-highsierra | Score: 23 | Views: 35578 | Answers: 1 | Created: 2018-06-22
+
+**解决方案 / Solution**:
+You probably have some directories left from another mysql installation, that were not removed. I solved this by doing the following: First uninstall mysql brew uninstall mysql@5.7 Delete the folders/files that were not removed rm -rf /usr/local/var/mysql rm /usr/local/etc/my.cnf Reinstall mysql and link it brew install mysql@5.7 brew link --force mysql@5.7 Enable and start the service brew services start mysql@5.7
+
+**参考链接 / References**:
+- https://superuser.com/questions/1333504/brew-install-mysql5-7-cant-connect-to-local-mysql-server-through-socket
+
+---
+
+#### 5496. Cannot start mysql: InnoDB: Upgrade after a crash is not supported
+
+**问题描述 / Problem Description**:
+Tags: mysql, homebrew, innodb | Score: 21 | Views: 33354 | Answers: 3 | Created: 2018-06-20
+
+**解决方案 / Solution**:
+I had the exact same errors in my log. Just to build off Nipponese' answer. Remove all versions of MySQL (I had 5.7.21, 5.7.22, and 8.0.11) : brew uninstall --force mysql Confirm Removal and Repair : brew services list and then brew doctor Rename original MySQL : mv /usr/local/var/mysql /usr/local/var/old.mysql Install latest MySQL (currently 8.0.11) : brew install mysql MySQL Secure Install : /usr/local/bin/mysql_secure_installation I initially received this error: Error: Access denied for user 'dbadmin'@'localhost' (using password: YES) I'm using a user level config. So I renamed .my.cnf and ran the secure install again. mv /Users/[your username]/.my.cnf /Users/[your username]/old.my.cnf /usr/local/bin/mysql_secure_installation On the install prompts I input the following options Y, 0, Y, N, N, Y, Y . Upgrade MySQL Workbench After that I still couldn't connect with MySQL Workbench (GA 6.3.10) although it did appear to be starting MySQL finally. I was getting the following error prompt. "Authentication plugin 'caching_sha2_password' cannot be loaded: dlopen(/usr/local/mysql/lib/plugin/caching_sha2_password.so, 2): image not found" To resolve this I downloaded MySQL Workbench 8.0.11 rc (the Development Release version). I used the GUI to add the users I had before adhering to the new password rules. I updated and renamed ~/.my.cnf with the more secure password. Then restored my DBs. At this point I was able to connect with workbench using root and the new password I setup during the secure install. Clean Up (remove renamed directory and it's contents) : rm -r /usr/local/var/old.mysql
+
+**参考链接 / References**:
+- https://superuser.com/questions/1332974/cannot-start-mysql-innodb-upgrade-after-a-crash-is-not-supported
+
+---
+
+#### 5497. MacBook sound balance changes on its own
+
+**问题描述 / Problem Description**:
+Tags: macos, audio, macbook | Score: 20 | Views: 19682 | Answers: 7 | Created: 2020-01-12
+
+**解决方案 / Solution**:
+I don't know what causes this, but I found and use https://www.tunabellysoftware.com/balance_lock/ which is free software to reset the balance when it goes off.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1516621/macbook-sound-balance-changes-on-its-own
+
+---
+
+#### 5498. Brew installed, linked, but not found
+
+**问题描述 / Problem Description**:
+Tags: macos, symbolic-link, homebrew | Score: 19 | Views: 28334 | Answers: 4 | Created: 2015-06-08
+
+**解决方案 / Solution**:
+I saw the same when installing brew 0.86. While most binaries get linked to /usr/local/bin, brew get's linked to /usr/local/sbin. This is absolutely right but you need to extend your path in order to avoid typing the whole path. export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH" will fix it once and you will need to adjust your .bash_profile to fix it permanently
+
+**参考链接 / References**:
+- https://superuser.com/questions/925240/brew-installed-linked-but-not-found
+
+---
+
+#### 5499. Stop scrolling to the bottom automatically in PuTTY
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, putty, tail | Score: 16 | Views: 4263 | Answers: 3 | Created: 2024-02-14
+
+**解决方案 / Solution**:
+On PuTTY Configuration window, go to Window page. And uncheck "Reset scrollback on display activity" . https://the.earth.li/~sgtatham/putty/latest/htmldoc/Chapter4.html#config-scrollback
+
+**参考链接 / References**:
+- https://superuser.com/questions/1830204/stop-scrolling-to-the-bottom-automatically-in-putty
+
+---
+
+#### 5500. How do I use xdg-open from xdg-utils on Mac OSX?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, installation, homebrew | Score: 16 | Views: 29390 | Answers: 1 | Created: 2015-05-07
+
+**解决方案 / Solution**:
+xdg-open is pretty neatly tied into the freedeskop environments, and OSX' counterpart would be the open command. If, for whatever reason, you still like to try out xdg-open on OSX, here is how you get it installed manually: brew install libxslt xmlto # and potentially other packages like the GNU autotools/install suite export XML_CATALOG_FILES="/usr/local/etc/xml/catalog" git clone git://anongit.freedesktop.org/git/xdg/xdg-utils.git/ cd xdg-utils ./configure --prefix=/usr/local make make install This will install the respective tools into /usr/local/bin, where the rest of the brew commands reside. Now, unless you install XQuartz, the usage of the xdg-utils is very limited. So: brew install --cask xquartz And then you need to configure your X11 applications to be xdg agnostic. Not sure how to make OSX commands xdg agnostic. Probably by fiddling around with the xdg-mime .
+
+**参考链接 / References**:
+- https://superuser.com/questions/911735/how-do-i-use-xdg-open-from-xdg-utils-on-mac-osx
+
+---
+
+#### 5501. Change install location and prefix of homebrew packages
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 15 | Views: 35188 | Answers: 1 | Created: 2015-10-14
+
+**解决方案 / Solution**:
+It is possible to install homebrew into your home directory. I followed (more or less) the steps posted here and it succeeded. The exact commands I used: cd $HOME mkdir bin cd bin git clone https://github.com/Homebrew/homebrew.git Then changed the assignment of the PATH variable in my bash profile. export PATH=${HOME}/bin/homebrew/bin:${PATH} However, this is specifically discouraged by Homebrew developers on their installation documentation . I can confirm that several packages worked (seqtk, pear) while others failed (wget, homebrew/science/blast, jags). I am also unable to change the ownership of my /usr/local directory, so I'm back to compiling those packages manually. No, not to my knowledge. See this question .
+
+**参考链接 / References**:
+- https://superuser.com/questions/986338/change-install-location-and-prefix-of-homebrew-packages
+
+---
+
+#### 5502. pip not working on hombrew python 2.7 install
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, python, homebrew, pip | Score: 15 | Views: 45679 | Answers: 4 | Created: 2015-05-17
+
+**解决方案 / Solution**:
+Generally, homebrew will install a formula into /usr/local/Cellar/formula and then place a link at /usr/local/bin/formula . To make use of your installed formulae, make sure /usr/local/bin is in your $PATH . Show your $PATH by typing echo $PATH If /usr/local/bin is not in your $PATH , put this line at the end of your ~/.profile file. export PATH="/usr/local/bin:$PATH" Now, check what pythons are found on your OSX by typing: which -a python There should be one python found at /usr/bin/ (the Apple python) and one at /usr/local/bin/ which is the Homebrew python. which python will show you, which python is found first in your $PATH and will be executed when you invoke python . If you want to know, where the executable is, show it by typing ls -l $(which python) This could look like this: lrwxr-xr-x 1 root wheel 68 7 Mai 13:22 python -> /usr/local/bin/python This will work for pip as well. If you show the results of this steps, we can probably help you much easier. -- UPDATE -- You have /usr/local/bin/python linked to /usr/local/Cellar/python/2.7.9/bin/python . -> brew install python worked. show, if pip is installed by typing brew list python | grep pip You should see /usr/local/Cellar/python/2.7.9/bin/pip If not, check, if there are links, which are not done with brew install . Told you something like this: "Error: The `brew link` step did not complete successfully The formula built, but is not symlinked into /usr/local" To force the link and overwrite all conflicting files: brew link --overwrite python To list all files that would be deleted: brew link --overwrite --dry-run python ** NO standard Apple /usr/bin/python ** link from /usr/local/Cellar/python/2.7.9/bin/python to /usr/bin/python ln -s /usr/local/Cellar/python/2.7.9/bin/python /usr/bin/python This is necessary for all python scripts beginning with #!/usr/bin/python . Especialy easy_install will fail, if link is not there. Now, you are able to run easy_install pip Hope, you're making progress
+
+**参考链接 / References**:
+- https://superuser.com/questions/915810/pip-not-working-on-hombrew-python-2-7-install
+
+---
+
+#### 5503. Homebrew gives SSL error (SSL_ERROR_SYSCALL) on home network
+
+**问题描述 / Problem Description**:
+Tags: networking, home-networking, ssl, homebrew | Score: 12 | Views: 39658 | Answers: 4 | Created: 2017-11-01
+
+**解决方案 / Solution**:
+Since you're using LibreSSL , try re-installing curl with OpenSSL instead of Secure Transport . The latest brew , it depends on OpenSSL by default , so you've to reinstall it: brew reinstall curl For older Brew, there was an option --with-openssl which was removed , e.g. brew reinstall curl --with-openssl Here are few other suggestions: Run brew options curl to display install options specific to formula . Compile from the source. Check curl.rb formula for more details. Make sure you're not using http_proxy / https_proxy . Use -v to curl for more verbose output. Try using BSD curl at /usr/bin/curl , run which -a curl to list them all. Make sure you haven't accidentally blocked curl in your firewall (such as Little Snitch ). Alternatively use wget .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1264498/homebrew-gives-ssl-error-ssl-error-syscall-on-home-network
+
+---
+
+#### 5504. Homebrew doesn't install new apps in El Capitan
+
+**问题描述 / Problem Description**:
+Tags: macos, xcode, homebrew | Score: 11 | Views: 25358 | Answers: 3 | Created: 2015-07-15
+
+**解决方案 / Solution**:
+Check out El Capitan & Homebrew : If /usr/local exists already: sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local If /usr/local does not exist: Reboot into Recovery mode (Hold Cmd+R on boot) & access the Terminal. In that terminal run: csrutil disable Reboot back into OS X Open your Terminal application and execute: sudo mkdir /usr/local && sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local Reboot back into Recovery Mode & access the Terminal again. In that terminal execute: csrutil enable Reboot back into OS X & you'll be able to write to /usr/local & install Homebrew.
+
+**参考链接 / References**:
+- https://superuser.com/questions/940874/homebrew-doesnt-install-new-apps-in-el-capitan
+
+---
+
+#### 5505. Trouble with readline library on mac
+
+**问题描述 / Problem Description**:
+Tags: mac, homebrew, gnuplot, readline | Score: 9 | Views: 19626 | Answers: 4 | Created: 2019-01-29
+
+**解决方案 / Solution**:
+I have had exactly the same problem in my macOS computer trying to run gnuplot. In order to solve it, I tried several suggestions I found in the internet, and none of them works for me. For example updating/upgrading brew, removing, installing and reinstalling readline, upgrading bash, and many other things. So, I recently solved the situation. In the next lines I tried to describe the process I have done. cd to the location where the libreadline.7.dylib must be, in this case /usr/local/opt/readline/lib/ When I listed, I only found libreadline.8.0.dylib and the soft link libreadline.8.dylib . I made a new soft link pointing to the libreadline.8.0.dylib library in order to create the soft link that gnuplot looks for, in this case the 7 numbered library libreadline.7.dylib : $ sudo ln -s libreadline.8.0.dylib libreadline.7.dylib That's all. Maybe you'll need to reboot the terminal or command line application.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1399622/trouble-with-readline-library-on-mac
+
+---
+
+#### 5506. Is Homebrew ready for High Sierra?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 9 | Views: 4279 | Answers: 1 | Created: 2017-09-30
+
+**解决方案 / Solution**:
+I successfully installed a new package in Homebrew after upgrading to High Sierra, and the package is working. I had to upgrade Xcode first.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1255075/is-homebrew-ready-for-high-sierra
+
+---
+
+#### 5507. After npm install -g, command still not found?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, ffmpeg, homebrew, node.js | Score: 9 | Views: 23113 | Answers: 1 | Created: 2016-05-28
+
+**解决方案 / Solution**:
+Is there anything displayed if you run npm get prefix ? (For example's sake, I'll say "/usr/local" is returned after running the command) If anything is returned after running the above command, check what your PATH environment variable is set as by running echo $PATH (Again for example's sake, I'll say "/usr/bin:/bin:/usr/sbin:/sbin" is returned after running this command) If the prefix returned from npm get prefix is not shown in your PATH – which is true for the example above since "/usr/local/" is not in PATH – you will then have to set your PATH variable. To set your PATH: If your shell is Bash, run: export PATH="[prefix]/bin:$PATH" >> ~/.bash_profile where [prefix] is the returned value of npm get prefix So, using "/usr/local" again as the example, replace "[prefix]" with "/usr/local" as shown below export PATH="/usr/local/bin:$PATH" >> ~/.bash_profile then do source ~/.bash_profile (You said you are pretty new to command-line stuff, so if this does not make much sense, leave a comment and I will try to provide further clarification)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1081769/after-npm-install-g-command-still-not-found
+
+---
+
+#### 5508. Windows terminal on windows 11 gives error not finding nerd font
+
+**问题描述 / Problem Description**:
+Tags: terminal, windows-11, fonts | Score: 8 | Views: 12024 | Answers: 1 | Created: 2023-11-21
+
+**解决方案 / Solution**:
+After search I was able to find different way to install font. I initially installed the font by copying the fonts over to fonts directory ( Control Panel\All Control Panel Items\Fonts ). It shows installed in the system. But if you search on windows 11 Settings app go to personalisation and then select fonts you find that windows 11 is not able to find the font there. So you just need to drag and drop the fonts here and it fixed my problem. I think this is windows 11 possibly windows 10 issue due to how MS is making everything work from settings instead of control panel.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1817579/windows-terminal-on-windows-11-gives-error-not-finding-nerd-font
+
+---
+
+#### 5509. OSX: gpg command error, dyld: Library not loaded:
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, gnupg, homebrew, rvm | Score: 8 | Views: 2383 | Answers: 1 | Created: 2018-02-17
+
+**解决方案 / Solution**:
+It looks like somehow you are missing gettext from brew. Since you mentioned you are migrating, it seems that perhaps you only partially migrated things that were in /usr/local . There may be other libraries/binaries/etc that are missing. Try starting with brew install gettext and see where that gets you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1295909/osx-gpg-command-error-dyld-library-not-loaded
+
+---
+
+#### 5510. chown: /usr/local: Operation not permitted
+
+**问题描述 / Problem Description**:
+Tags: macos, unix, homebrew, macos-sierra, chown | Score: 8 | Views: 33203 | Answers: 4 | Created: 2017-11-02
+
+**解决方案 / Solution**:
+4 Answers
+4
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1264673/chown-usr-local-operation-not-permitted
+
+---
+
+#### 5511. Is boot history stored on motherboard?
+
+**问题描述 / Problem Description**:
+Tags: boot, motherboard, macbook | Score: 7 | Views: 2026 | Answers: 1 | Created: 2020-02-10
+
+**解决方案 / Solution**:
+No. The only chip that stores static information is the BIOS chip and it does not store boot history
+
+**参考链接 / References**:
+- https://superuser.com/questions/1524092/is-boot-history-stored-on-motherboard
+
+---
+
+#### 5512. OS X 10.11 (El Capitan) Making Zsh Very Slow
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, homebrew, iterm2, oh-my-zsh | Score: 7 | Views: 4208 | Answers: 5 | Created: 2015-10-04
+
+**解决方案 / Solution**:
+You have to install or update Command Line Tool of XCode. Start XCode. Go to XCode/Preferences. Click the "Downloads" tab. Click "Components". Click "Install" on the command line tools line.
+
+**参考链接 / References**:
+- https://superuser.com/questions/981883/os-x-10-11-el-capitan-making-zsh-very-slow
+
+---
+
+#### 5513. Google Chrome windows don't restore to their last Space on macOS Sequoia
+
+**问题描述 / Problem Description**:
+Tags: macos, google-chrome, osx-spaces | Score: 6 | Views: 1295 | Answers: 1 | Created: 2024-10-22
+
+**解决方案 / Solution**:
+This Chromium bug reports looks at least related: #369865047 Restore Google Chrome windows to their respective virtual desktops (macOS)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1859547/google-chrome-windows-dont-restore-to-their-last-space-on-macos-sequoia
+
+---
+
+#### 5514. Ubuntu on Macbook Pro doesn't suspend properly
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, mac, laptop, macbook | Score: 6 | Views: 10338 | Answers: 1 | Created: 2019-10-23
+
+**解决方案 / Solution**:
+Okay so there isn't a proper fix for this yet and there's an open bug here . I followed the workaround mentioned here and while it's not perfect, it does the job for now. cat /proc/acpi/wakeup Check to see that XHC1 and LID0 are enabled. If they are, disabling them will fix the problem. After disabling them, the only way to wake up your computer from suspend is by using the power button. To do this type to following command (vim can be any cli editor) sudo vim /etc/systemd/system/suspend-fix.service Then add the following text and save: [Unit] Description=Fix for the suspend issue [Service] Type=oneshot ExecStart=/bin/sh -c "echo XHC1 > /proc/acpi/wakeup && echo LID0 > /proc/acpi/wakeup" [Install] WantedBy=multi-user.target And then run the following: systemctl enable suspend-fix.service systemctl start suspend-fix.service Disabling only XHC1 is not recommended if you have this bug, since it may result in glitchy behavior.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1495343/ubuntu-on-macbook-pro-doesnt-suspend-properly
+
+---
+
+#### 5515. Homebrew “linkapps” command not found. What can replace it so I can use MacVim as default editor for some file types?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, macvim | Score: 6 | Views: 11532 | Answers: 2 | Created: 2018-08-05
+
+**解决方案 / Solution**:
+It seems like brew linkapps has been depreciated since around January 2017 according to this pull request’s comment thread . And the version of Homebrew you are using is up to date as off August 2018. So that explains that! As for why it’s depreciated, as explained in that commit’s comment thread: Unfortunately brew linkapps cannot behave nicely with e.g. Spotlight using either aliases or symlinks and Homebrew formulae do not build "proper" .app bundles that can be relocated. Instead, please consider using brew cask and migrate formulae using .apps to casks. I am unsure if there is a generic solution in place to replace linkapps functionality—which basically created symlinks between the Homebrew “Cellar” and the /Applications/ directory—but this is most likely now handled on an app by app and case by case basis. If you can provide more detail as to why you are looking to use brew linkapps —like what apps you are trying to use that might need it—then perhaps someone here can provide you with some more assistance.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1346236/homebrew-linkapps-command-not-found-what-can-replace-it-so-i-can-use-macvim-a
+
+---
+
+#### 5516. Error installing Homebrew on macOS Sierra: The user "me" cannot be found
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, macos-sierra | Score: 6 | Views: 1878 | Answers: 1 | Created: 2016-10-30
+
+**解决方案 / Solution**:
+I had this same issue, the problem was that I override the variable $USER inside my bash_profile, because of my customization in iTerm2. Just enter inside your bash_profile: nano ~/.bash_profile Or use your preffered terminal editor. Search for $USER variable and delete the line. Close and open a new terminal window.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1140418/error-installing-homebrew-on-macos-sierra-the-user-me-cannot-be-found
+
+---
+
+#### 5517. How to reposition window in SSH session? I am logging into a Linux machine from a Mac machine
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, mac, terminal | Score: 5 | Views: 111 | Answers: 1 | Created: 2024-01-31
+
+**解决方案 / Solution**:
+From your remote machine, you could try starting the X application with a -geometry parameter, e.g. xeyes -geometry 1000x500-20-20 Although it's pretty straightforward, you can consult some X windows documentation for details on what this parameter is. (And, wow, this took me way back, man!) For moving the window with the mouse, you can left-click on the X application window's title bar (if any) to drag the window around the screen. Or you can right-click in the window's interior. If you're trying to do the latter with your Mac's touchpad, it will help if you enable three button mouse emulation in XQuartz preferences. Then, you just press Alt ( Option ) for right-clicking.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1828272/how-to-reposition-window-in-ssh-session-i-am-logging-into-a-linux-machine-from
+
+---
+
+#### 5518. Dynamically change terminal window size on Win11
+
+**问题描述 / Problem Description**:
+Tags: terminal, batch-file | Score: 5 | Views: 8922 | Answers: 3 | Created: 2023-04-11
+
+**解决方案 / Solution**:
+To be able to change the dimensions, you'll need to run the script using conhost. For windows 11 users who find cmd.exe opens in Windows terminal [the new default], the process to revert Conhost to default is: Press the windows key Type in cmd.exe in the search bar Select run as Admin Right click on the title bar Select Defaults In the Terminal Tab, select the dropbox and change the default terminal application to Windows Console host
+
+**参考链接 / References**:
+- https://superuser.com/questions/1778402/dynamically-change-terminal-window-size-on-win11
+
+---
+
+#### 5519. How to uninstall php70 or suppress homebrew error messages
+
+**问题描述 / Problem Description**:
+Tags: macos, php, homebrew | Score: 5 | Views: 1183 | Answers: 2 | Created: 2018-05-12
+
+**解决方案 / Solution**:
+I'm using ZSH and I had the same problem. Every time I open a new terminal I had: Error: No available formula with the name "homebrew/php/php70" Please tap it and then try again: brew tap homebrew/php In my ~/.zshrc I had this line: export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH" I removed that, since it is no more used and I have no more that warning message.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1321995/how-to-uninstall-php70-or-suppress-homebrew-error-messages
+
+---
+
+#### 5520. Cannot run brew installed version of “laszip” on macOS
+
+**问题描述 / Problem Description**:
+Tags: homebrew, macos-highsierra | Score: 5 | Views: 1252 | Answers: 1 | Created: 2017-12-25
+
+**解决方案 / Solution**:
+According to this post on the LAStools Google Group , all that is installed when you install laszip via brew install laszip are the LAS libraries. To actually get a binary that uses LAS in place you need to install tools that then talk to those libraries like liblas like this: brew install liblas To be honest, I am not 100% familiar with this tool so you might know better than me what would need to be done with the command. But brew install laszip is not enough to do much it seems.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1280005/cannot-run-brew-installed-version-of-laszip-on-macos
+
+---
+
+#### 5521. How can I compose a message as plain text instead of HTML in Outlook on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, microsoft-outlook | Score: 4 | Views: 2701 | Answers: 2 | Created: 2024-08-17
+
+**解决方案 / Solution**:
+Facing the same issues. Since ‘Office Home & Business 2024’, you cannot switch to the ‘Legacy Outlook for Mac’ anymore. I am forced to use the ‘New Outlook for Mac’. With that, as of today (version 16.92), sending E-mails in text/plain is not available . This was asked / answered several times on Microsoft Answers. I know, Microsoft Answers is not a good resource because there, issues get not merged but even locked over time. Furthermore, some staff members use artificial intelligence to answer questions instead of asking them internally to double-check their answer. Anyway, I think, there is a duplicate on Apple.StackExchange … I think, we should continue there, when the situation changes or if somebody else finds a workaround.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852598/how-can-i-compose-a-message-as-plain-text-instead-of-html-in-outlook-on-macos
+
+---
+
+#### 5522. is there a command line in ChromeOS which is equivilent to the terminal in linux
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, terminal, chromebook, google-chrome-os | Score: 4 | Views: 26181 | Answers: 2 | Created: 2023-09-21
+
+**解决方案 / Solution**:
+You need to enable Developer Mode in order to save changes. Modern ChromeOS devices can be put into developer mode by pressing specific keys while ChromeOS is booting. From here you can log in as the root user chronos . Then start the command prompt through VT-2 by pressing: Ctrl + Alt + → , or through crosh ( Ctrl + Alt + T , then run the shell command). The developer mode shell is basically just bash, complete with sudo commands. Read through the linked document for how to make the filesystem writable (to save changes), how to leave developer mode, usage examples, etc.: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md
+
+**参考链接 / References**:
+- https://superuser.com/questions/1809413/is-there-a-command-line-in-chromeos-which-is-equivilent-to-the-terminal-in-linux
+
+---
+
+#### 5523. How to navigate to a folder using folder path in Mac?
+
+**问题描述 / Problem Description**:
+Tags: macbook | Score: 4 | Views: 230 | Answers: 1 | Created: 2020-03-27
+
+**解决方案 / Solution**:
+Finder has a menu item found under Go ("Go to Folder…") where you can type a full path. The command+shift+G keyboard shortcut makes it handy to summon. This short cut works in the file open and save dialog as well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1536234/how-to-navigate-to-a-folder-using-folder-path-in-mac
+
+---
+
+#### 5524. Partition not shown in Disk Utility
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook, boot-camp, partition-recovery, disk-utility | Score: 4 | Views: 15308 | Answers: 3 | Created: 2020-01-13
+
+**解决方案 / Solution**:
+I'd recommend giving Paragon Hard Disk Manager a try. You can download a fully-functional trial version. I've used it on multiple occasions to resize and delete the BOOTCAMP partition and reallocate space without any issues on my 2015 MBA.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1516887/partition-not-shown-in-disk-utility
+
+---
+
+#### 5525. How do I prevent a "'boneyard' not found" error when I 'brew update'?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 4 | Views: 1728 | Answers: 2 | Created: 2019-02-16
+
+**解决方案 / Solution**:
+You can "untap" to remove that deprecated source: brew untap homebrew/boneyard But I don't know whether there is any alternative source to homebrew/boneyard .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1406551/how-do-i-prevent-a-boneyard-not-found-error-when-i-brew-update
+
+---
+
+#### 5526. Uninstall git language on macos
+
+**问题描述 / Problem Description**:
+Tags: macos, git, homebrew | Score: 4 | Views: 744 | Answers: 1 | Created: 2018-09-24
+
+**解决方案 / Solution**:
+You may add export LC_ALL=en_US.UTF-8 to your .bashrc or .zshrc file, or add LC_ALL=en_US.UTF-8 or just LC_ALL=C before your command. You may also sabotage the git language support files - if git does not find files for your language it will default to English.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1360962/uninstall-git-language-on-macos
+
+---
+
+#### 5527. Removing all but original system-default python on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, python, homebrew, pip | Score: 4 | Views: 6576 | Answers: 1 | Created: 2018-04-12
+
+**解决方案 / Solution**:
+I was having a similar issue when installing pacages with PIP and seems that the cause of the problem is this https://github.com/pypa/pip/issues/5196 I could solve the issue following what is proposed here https://stackoverflow.com/questions/27630114/matplotlib-issue-on-os-x-importerror-cannot-import-name-thread sudo pip uninstall python-dateutil sudo pip install python-dateutil==2.2 from @oriol-nieto answer python was using an old version of six, which I removed by typing: rm -rf /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/six.*
+
+**参考链接 / References**:
+- https://superuser.com/questions/1313487/removing-all-but-original-system-default-python-on-macos
+
+---
+
+#### 5528. Debugging wine on OS X?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, wine | Score: 4 | Views: 1907 | Answers: 1 | Created: 2016-09-24
+
+**解决方案 / Solution**:
+May be You can compile UnixODBC x32 from source http://docwiki.embarcadero.com/RADStudio/Rio/en/UnixODBC_(FireDAC) export CFLAGS=-m32 wget ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.4.tar.gz tar -zxvf unixODBC-2.3.4.tar.gz cd unixODBC-2.3.4 ./configure --enable-gui=no --enable-drivers=no --enable-stats=no --enable-iconv --with-iconv-char-enc=UTF8 --with-iconv-ucode-enc=UTF16LE make sudo make install cd ..
+
+**参考链接 / References**:
+- https://superuser.com/questions/1127919/debugging-wine-on-os-x
+
+---
+
+#### 5529. Install a deleted homebrew formulae
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, clang | Score: 4 | Views: 4289 | Answers: 1 | Created: 2016-08-06
+
+**解决方案 / Solution**:
+Okay, so after looking at how packages leave homebrew 's repo . To acquire a "removed" install, one only needs to either: brew install homebrew/boneyard/<formula> OR brew tap homebrew/boneyard brew install <formula> So, in the case of clang-omp , it would be with: brew install homebrew/boneyard/clang-omp
+
+**参考链接 / References**:
+- https://superuser.com/questions/1110414/install-a-deleted-homebrew-formulae
+
+---
+
+#### 5530. Download 32bit OpenSSL using HomeBrew on 64bit Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, 64-bit, 32-bit, openssl, homebrew | Score: 4 | Views: 832 | Answers: 1 | Created: 2016-03-14
+
+**解决方案 / Solution**:
+Install openssl like this in command line: brew install openssl --universal You may need to uninstall first using: brew uninstall openssl
+
+**参考链接 / References**:
+- https://superuser.com/questions/1052616/download-32bit-openssl-using-homebrew-on-64bit-mac
+
+---
+
+#### 5531. How to I build/compile the latest FFmpeg snapshot for OS X?
+
+**问题描述 / Problem Description**:
+Tags: macos, ffmpeg, homebrew | Score: 4 | Views: 1382 | Answers: 2 | Created: 2015-11-22
+
+**解决方案 / Solution**:
+To use Homebrew to install the latest ffmpeg snapshot from github, try your command with the --HEAD flag, like so: brew install --HEAD ffmpeg --with-fdk-aac --with-ffplay --with-freetype \ --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265
+
+**参考链接 / References**:
+- https://superuser.com/questions/1004003/how-to-i-build-compile-the-latest-ffmpeg-snapshot-for-os-x
+
+---
+
+#### 5532. Compiling pinfo on OS X
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, compile, autoconf, info | Score: 4 | Views: 953 | Answers: 1 | Created: 2015-10-23
+
+**解决方案 / Solution**:
+I guess people may be aware but pinfo is now available from brew : brew install pinfo If you're curious about obtaining autopoint on MacOS/X - it's available from the gettext brew formula - the catch is that it is keg-only which means it's not sym-linked to /usr/local by default as it can conflict with MacOS's internal version, however MacOS doesn't provide autopoint so one obtain it as follows - install gettext : brew install gettext then sym-link autopoint to /usr/local/bin: ln -s `brew ls gettext | grep bin/autopoint` /usr/local/bin
+
+**参考链接 / References**:
+- https://superuser.com/questions/990602/compiling-pinfo-on-os-x
+
+---
+
+#### 5533. May I use application's auto-update function when having them installed via Homebrew Cask?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 4 | Views: 1955 | Answers: 2 | Created: 2015-07-19
+
+**解决方案 / Solution**:
+Homebrew is great. I wouldn't recommend using the auto-update of the application, as it could get messy if the application maker wasn't considering an alternate install path like where brew likes to put applications. BUT: the application may have an update ready before homebrew catches up to it... so if you need that new feature or version right now, well.. You're not left with much of a choice. Lastly, brew update will only update the homebrew package list and versions. It takes a brew upgrade (after an update) to actually install the new versions of your software.
+
+**参考链接 / References**:
+- https://superuser.com/questions/942634/may-i-use-applications-auto-update-function-when-having-them-installed-via-home
+
+---
+
+#### 5534. How can I open a new Safari window with bash?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, script, applescript | Score: 3 | Views: 1120 | Answers: 2 | Created: 2024-09-25
+
+**解决方案 / Solution**:
+If you simply use the open command, Safari will open your URL in a new tab or new window, depending on the end user's preferences. You can test different experiences in Safari by opening Settings > Tabs and playing with the options for opening pages in tabs instead of windows. AppleScript and osascript are your only options to control whether Safari opens URLs in new tabs or new windows, and Apple still very much supports them. (I wouldn't put much stock in someone's speculation that AppleScript is going away without solid supporting evidence, which can only come from Apple.) This isn't something you can do with bash alone. This will open a new tab in the front window of Safari with your URL or open a new Safari window if one doesn't exist: #!/bin/zsh /usr/bin/osascript -e 'tell application "Safari" to get front document' if [[ "$?" -eq 0 ]]; then # open URL in new tab of a Safari window if one exists /usr/bin/osascript -e 'tell application "Safari" to make new tab with properties {URL: "https://www.apple.com"} at front window' else # open URL in new Safari window /usr/bin/osascript -e 'tell application "Safari" to make new document with properties {URL: "https://www.apple.com"}' fi You can use the second osascript command by itself to always open your URL in a new Safari window. You don't want to use open -n because that literally opens a new Safari application rather than using the one that's currently running. When you do this, you'll notice two instances of Safari running in your dock or app switcher.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856865/how-can-i-open-a-new-safari-window-with-bash
+
+---
+
+#### 5535. Where is windows terminal setting location (json file) in windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, terminal | Score: 3 | Views: 9378 | Answers: 1 | Created: 2023-11-21
+
+**解决方案 / Solution**:
+See Microsoft's Windows Terminal documentation at Settings JSON file : The path for your Windows Terminal settings.json file may be found in one of the following directories: Terminal (stable / general release): %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json Terminal (preview release): %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json Terminal (unpackaged: Scoop, Chocolately, etc): %LOCALAPPDATA%\Microsoft\Windows Terminal\settings.json You have found the location for the third one, which is for "unpackaged: Scoop, Chocolately, etc".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1817570/where-is-windows-terminal-setting-location-json-file-in-windows-10
+
+---
+
+#### 5536. Ubuntu bash terminal under wsl unexpectedly switches to "jump over the words" input mode
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, terminal, console | Score: 3 | Views: 830 | Answers: 1 | Created: 2023-11-02
+
+**解决方案 / Solution**:
+One of your programs outputs a terminal control code to enable the "Application Keys" mode , which switches many special keys to alternate sequences. For example, it makes the number-pad keys output their own special sequences instead of plain symbols (allowing e.g. Num 2 to be distinguished from regular 2 – used to be important for ancient DEC text editors such as EDT ). Then the program forgets to disable that mode again. (For example, you might have been using a full-screen text editor over SSH, then the SSH connection was closed without giving the editor a chance to clean up. I've also had similar issues with Wine on Linux, even when it was running locally.) One symptom of this mode is that cursor keys begin using the ESC O prefix instead of the regular CSI. And while that's not meant to be "backward one word" in this mode, it just happens to collide with another dialect of the key sequences where it does mean that – I suspect Rxvt, which doesn't report modifiers the same way Xterm-style terminals do, but instead uses e.g. ESC O d for Ctrl-left. (Though Rxvt uses lowercase abcd while the keys send uppercase, so I'm really not 100% sure if this is a conflict with Rxvt specifically; it could be something else along those lines.) The other problem is that Bash's key mappings apparently are static; instead of looking at $TERM and loading the keys from the terminfo database it has a static "best effort" mix of mappings for multiple terminals. And because Bash does not expect to be running in the 'Application Keys' mode, its mappings assume " ESC O D is Ctrl -Left in Normal mode" so it moves backwards one word. Search for DECCKM in Xterm control Sequences for more details; the document has both the relevant control sequences and even a table of which keys are remapped to what input sequences. Terminfo knows how to control this mode, so you can exit it using tput rmkx which is the inverse of tput smkx . 1 However, usually that's not the only mode that stays unexpectedly enabled, so instead of the above 'tput' or 'printf' I would recommend running reset to hopefully clear out all unwanted terminal state. (For example, if the problem is indeed caused by a full-screen text editor, then you'll also be in the "Alternate Screen" mode which disables scrollback – tput rmcup to get out, tput smcup to enter it again – and you'll probably have mouse reporting enabled, etc.) 1 (Use infocmp to see the sequences being used. If you prefer doing it manually without terminfo, the mode is controlled through the DECSET sequence CSI ? Pm h / CSI ? Pm l with Pm=1 for DECCKM, so you can use printf '\e[?1l' to disable the mode or \e[?1h to enable.) accessed via Windows Terminal 1.18.2822.0 1.18.3181.0 ("New Windows Terminal", not old cmd.exe nor newer PowerShell.exe). cmd.exe is not a terminal, it's a pure shell much like Bash. The "old style" console window is a system component called Conhost (and is the same between cmd.exe and PowerShell). It's probably relevant here that cmd.exe doesn't use Conhost like a terminal – in fact, Conhost dnd't have any 'terminal'-like capabilities at all until Windows 8.1 – instead it uses the older "Windows Console" model which uses out-of-band control APIs instead of ESC sequences, so there is no opportunity for stray ESC sequences to do much. (In addition to that, line-editing within cmd.exe is also handled entirely by Conhost, not by Cmd; although in PowerShell it shifts towards a more Unix-like architecture.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1815057/ubuntu-bash-terminal-under-wsl-unexpectedly-switches-to-jump-over-the-words-in
+
+---
+
+#### 5537. Prevent terminal scrollback from being saved to disk?
+
+**问题描述 / Problem Description**:
+Tags: security, terminal, history | Score: 3 | Views: 268 | Answers: 1 | Created: 2023-10-31
+
+**解决方案 / Solution**:
+First, you have to make sure that you either don't have a swap, or it's encrypted. A fragment of a process's memory can be swapped out at any time and then it's on the disk. Second, you need to know that it's pretty much impossible to wipe out all remains of the handled data from RAM, it goes through many steps of copying, it might be there in malloc() 'ed area of the terminal or even of the ssh client, or released back to the OS without wiping. Or in the memory of the display server (X11/Wayland), the video card's memory, etc. If an attacker somehow gains access to your RAM (your running computer) then it's hopeless to protect your data. Therefore, by making sure that your terminal doesn't write the scrollback to disk, you're only protected against the situation when your computer is shut down and then it's stolen. And then still only if your swap is encrypted. Also I assume that your main disk isn't encrypted because then it wouldn't be an issue. I don't know what other terminals do, but I know what VTE (used by GNOME Terminal, GNOME Console, Tilix, Terminator, Xfce4-Terminal, Guake, RoxTerm and many others) does. It writes the scrollback to disk (not yet when it's onscreen, only after it scrolls out [see correction below]), but encrypts that data and explicitly wipes out the encryption key from memory as soon as that terminal tab or window is closed (it might remain in the memory if it crashes for some reason (which it pretty rarely does) or if it's killed). Let me also mention that I don't think any terminal writes out to disk the contents that are onscreen [see correction below]. Those bits can change extremely quickly, writing them to disk would be bad for performance and bad for disk lifetime, and couldn't serve any purpose (I mean: Would it then be cleared from memory, and read back from disk whenever needed? Terribly expensive. Or would it also be kept in memory? Then why write it out already?) Even if a terminal writes out its scrollback, it almost certainly only does that for data that scrolls out of the normal viewport of the terminal. If you close your terminal with the QR code (as you say you're planning to), rather than reusing it for new commands, letting the QR code scroll up to the scrollback buffer, then almost certainly no terminal writes it to the disk (unless you set up some sort of logging or debugging in the terminal). Quite a few terminal emulators support either one-off options (e.g. specify in the command line not to have a scrollback buffer), or multiple profiles (define one profile with no scrollback buffer, start up a new terminal with that profile for the QR code). This provides an additional protection: if you accidentally follow the QR code by executing a command that produces long output, your QR code still doesn't end up in the scrollback buffer. You might also encapsulate the tool that prints the QR code in a wrapper script, to reduce the chance of mistakenly scrolling it up to the scrollback buffer. The wrapper code could for example wait for you to press Enter, then move the cursor home and overwrite the screen with spaces or such. But beware: the clear operation is implemented in some terminals by erasing the onscreen contents in-place, while in some others (e.g. VTE) by scrolling them out to the scrollback buffer! Another thing you can do is to switch to the alternate screen ( tput smcup ; back to the normal screen: tput rmcup ). The alternate screen doesn't have a scrollback buffer, whatever you scroll out there should be lost for good (but do double check your terminal's behavior). Note that leaving the alternate screen doesn't clear it, its contents are back if you switch back to it, so you should clear it before switching away. You can further combine this with a terminal emulator profile that starts this script as its custom command, or a command that starts up a terminal emulator with specific settings to run this script only. This way you can be overly protective that the QR code won't be scrolled out, but even if it is, there's no scrollback buffer configured. But, again, unfortunately none of these protect you from the QR code presumably lingering around in RAM at many places in many different formats for a long time. I can't think of a protection against that. Correction: VTE writes the contents of the "regular area" to disk when you resize the window horizontally. As usually, it encrypts the data before writing. Why does it do that, you may ask. On resize it rewraps (reflows) the lines, which is an extremely complicated code. The "regular area" is in one format (in memory), while the scrollback is in another format (on disk). Rewrapping both would have required to implement the same essential rewrapping logic for two very different kinds of data structures, making sure that it operates identically on the two, and without problems around the point where the two are stitched together. Instead, the already existing code which converts from one format to the other is used to convert the "regular area" to the scrollback's format (thereby also stored on disk), then rewrapping is performed on that single data structure, finally the last screenful of that is converted back to the in-memory format. This code only kicks in if the terminal's width changes (no need for rewrapping if only the height changes), and only for the normal screen (the contents of the alternate screen aren't rewrapped).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1814885/prevent-terminal-scrollback-from-being-saved-to-disk
+
+---
+
+#### 5538. Windows Bash Terminal takes over 10 seconds to load
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, git | Score: 3 | Views: 3208 | Answers: 2 | Created: 2023-10-07
+
+**解决方案 / Solution**:
+I've had issues with Git Bash being extremely slow when connected to a VPN. Another common fix is completely removing .bash_profile in your Home directory. Another fix is ensuring your HOME Environment Variable is set to your user folder C:\Users\YourUser . Here's a very thorough superuser link explaining how to do that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1811610/windows-bash-terminal-takes-over-10-seconds-to-load
+
+---
+
+#### 5539. Ctrl-C not working on macOS/Zsh
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 3 | Views: 3814 | Answers: 4 | Created: 2023-05-10
+
+**解决方案 / Solution**:
+It seems doing trap "echo hello" INT and then remove the trap handler using trap INT put the signal mask back into the correct form. Ctrl-C now works again.... (weird how that happed I am still wondering..)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1783488/ctrl-c-not-working-on-macos-zsh
+
+---
+
+#### 5540. How to allow using keybinding in integrated terminal in Visual Studio Code?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, terminal, visual-studio-code, visual-studio-code-terminal | Score: 3 | Views: 3452 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+You can use: "when": "editorTextFocus || terminalFocus" which will work when the editor or terminal is focused. You can find all available contexts including terminalFocus here . And all available operators like || here .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1778982/how-to-allow-using-keybinding-in-integrated-terminal-in-visual-studio-code
+
+---
+
+#### 5541. Ghost touch on android device only when connected
+
+**问题描述 / Problem Description**:
+Tags: android, macbook, ios, touchscreen | Score: 3 | Views: 618 | Answers: 1 | Created: 2019-03-28
+
+**解决方案 / Solution**:
+Dropping to answer space just for sake of completeness... I had similar happen when I was plugged into a half-rectified power supply . In my case that was a combination of an in-car 12v inverter to 240v, then the regular 240-5v mains charger. The only 'fix' was to just not do that. [I could have maybe found a fully-rectified inverter, but it wasn't worth the effort for the use-case.] idk exactly what causes it, but I could always repro it reliably, any time a capacitive-touch device was plugged into that inverter. The only thing further I could suggest to test would be the earthing/grounding on your mains supply & laptop PSU.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1418688/ghost-touch-on-android-device-only-when-connected
+
+---
+
+#### 5542. How to run apache-flink 1.6.2 in localhost?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 3 | Views: 1627 | Answers: 1 | Created: 2018-11-16
+
+**解决方案 / Solution**:
+Homebrew installs packages in the Cellar. /usr/local/Cellar/ If you missed the output when installing the package, you can find the path to an package post-installation with brew info . Running brew info apache-flink will return a path such as the following, which will depend on the version of Flink you have installed. /usr/local/Cellar/apache-flink/1.6.2/ The full path to the start-local.sh will therefore be: /usr/local/Cellar/apache-flink/1.6.2/libexec/bin/start-local.sh
+
+**参考链接 / References**:
+- https://superuser.com/questions/1376075/how-to-run-apache-flink-1-6-2-in-localhost
+
+---
+
+#### 5543. vim fails to load dynamic library
+
+**问题描述 / Problem Description**:
+Tags: vim, homebrew | Score: 3 | Views: 2327 | Answers: 2 | Created: 2018-07-18
+
+**解决方案 / Solution**:
+Been struggling with this for a few days. Dunno who did what terrible, but: You can switch (and furthermore pin ) versions of brew packages: $ brew info perl # lists all the perl version installed $ brew switch perl 5.26.2 $ brew pin perl # don't let `brew update` change this Then, I got an error about python being broken/unavailable... $ brew info python $ brew switch python 3.6.5 # 3.7.0 appears to break things $ brew pin python Now, vim may work at whatever version it's at (eg 8.1.0150 ), but if it doesn't, you can try different versions until one works I guess...: $ brew info vim $ brew switch vim 8.1.0001 $ brew pin vim
+
+**参考链接 / References**:
+- https://superuser.com/questions/1341319/vim-fails-to-load-dynamic-library
+
+---
+
+#### 5544. How should I install homebrew into /usr/local subdirectory manually?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, installation, shell, homebrew | Score: 3 | Views: 30610 | Answers: 1 | Created: 2018-07-02
+
+**解决方案 / Solution**:
+NOTE: This answer assumes that the macOS user is setup as an administrator. Please see IMPORTANT note: IMPORTANT: do not use sudo unless absolutely necessary as described below. The end result should be a Homebrew installation that does not need the use of sudo ever again. Recommended method as of June 2021: Use sudo to make a subdirectory such as opt that Homebrew can be installed under, and use your own login password if needed: sudo mkdir /usr/local/opt and sudo sudo only once more to take ownership of the subdirectory under the staff group, for example: sudo chown brodybits:staff /usr/local/opt At this point sudo should no longer be needed for installing or using Homebrew. ls -al /usr/local should now show the new subdirectory, for example: total 0 drwxr-xr-x 5 root wheel 160 May 13 17:13 . drwxr-xr-x@ 11 root wheel 352 Jan 1 2020 .. -rw-r--r-- 1 root wheel 0 Oct 16 2018 .com.apple.installer.keep drwxr-xr-x 4 root wheel 128 May 13 17:13 bak drwxr-xr-x 2 brodybits staff 64 May 13 17:03 opt Now use Git to clone Homebrew/brew from GitHub into the new subdirectory, for example: cd /usr/local/opt git clone https://github.com/Homebrew/brew ls -al /usr/local/opt # recommended Optional: It is possible to rename the newly installed brew subdirectory, if so desired. It is also optional to move the new brew subdirectory up to the /usr/local level ( sudo may be needed just once more for this). Update the desired profile file ( $HOME/.zprofile or $HOME/.zshenv in case of zsh, for example) to add the new Homebrew bin subdirectory to the PATH environment variable. Here is an example: export PATH=/usr/local/opt/brew/bin:$PATH (See also this answer .) Restart the shell, start a new shell, or source the profile file. It is recommended to check that which brew shows it in the right place, /usr/local/opt/brew/bin/brew . At this point, brew --version should show some information (with no homebrew-core installed at this point), for example: Homebrew 3.1.7-36-g7c68b17 Homebrew/homebrew-core N/A Then run brew update to include homebrew-core and run brew doctor to verify proper installation. It will likely output some warning messages about the non-standard Homebrew prefix but this should be an issue for most packages. brew --version after brew doctor should show homebrew-core included, for example: Homebrew 3.1.7-36-g7c68b17 Homebrew/homebrew-core (git revision 61cc59c956; last commit 2021-05-13) Try installing a simple formula such as autoconf : brew install autoconf autoconf --version should now show that it is installed. See further below for some optional followup steps. Outdated solution from 2018 no longer tested or updated : First make a temporary directory within /usr/local using sudo (enter password if requested): sudo mkdir /usr/local/brewtmp1 Check the results of ls -l /usr/local : total 0 drwxr-xr-x 2 root wheel 64 Jul 2 16:16 brewtmp1 Fix the user and group ownership of the temporary directory: sudo chown $USER:admin brewtmp1 Check the results of ls -l /usr/local again: total 0 drwxr-xr-x 2 brodybits admin 64 Jul 2 16:16 brewtmp1 Then within the temporary directory download and extract the contents of master branch of Homebrew/brew on GitHub without using sudo : cd /usr/local/brewtmp1 curl -L https://github.com/Homebrew/brew/tarball/master | tar xz Check the results of ls -l within /usr/local/brewtmp1 : total 0 drwxr-xr-x 16 brodybits admin 512 Jul 2 14:46 Homebrew-brew-cbc3184 Check the results of ls -l Homebrew-brew-* : total 48 -rw-r--r-- 1 brodybits admin 98 Jul 2 14:46 CHANGELOG.md -rw-r--r-- 1 brodybits admin 3161 Jul 2 14:46 CODE_OF_CONDUCT.md -rw-r--r-- 1 brodybits admin 720 Jul 2 14:46 CONTRIBUTING.md -rw-r--r-- 1 brodybits admin 1334 Jul 2 14:46 LICENSE.txt drwxr-xr-x 7 brodybits admin 224 Jul 2 14:46 Library -rw-r--r-- 1 brodybits admin 7374 Jul 2 14:46 README.md drwxr-xr-x 3 brodybits admin 96 Jul 2 14:46 bin drwxr-xr-x 5 brodybits admin 160 Jul 2 14:46 completions drwxr-xr-x 48 brodybits admin 1536 Jul 2 14:46 docs drwxr-xr-x 5 brodybits admin 160 Jul 2 14:46 manpages This should show the contents of Homebrew with correct user and group. Rename Homebrew-brew-??????? to homebrew (without using sudo ) (it should be OK to use another name, with adaptations to other steps below): mv Homebrew-brew-??????? homebrew and double-check the results of ls -l : total 0 drwxr-xr-x 16 brodybits admin 512 Jul 2 14:46 homebrew Move the new homebrew directory to the right place using sudo : sudo mv /usr/local/brewtmp1/homebrew /usr/local Double-check the results of ls -l /usr/local : total 0 drwxr-xr-x 2 brodybits admin 64 Jul 2 16:20 brewtmp1 drwxr-xr-x 16 brodybits admin 512 Jul 2 14:46 homebrew Add the following line to profile file ( .profile or .bash_profile as appropriate) (as directed by this answer to another question ): export PATH=/usr/local/homebrew/bin:$PATH Restart shell, start new shell, or source the profile file. Check that which brew shows /usr/local/homebrew/bin/brew . Check that brew --version works (though with no homebrew-core installed) for example: Homebrew >=1.4.0 (shallow or no git repository) Homebrew/homebrew-core N/A It is recommended to do brew doctor at this point, which will include homebrew-core and verify proper installation. It may output a warning about non-standard Homebrew prefix but this should be an issue for most packages. Then brew --version should show homebrew-core included: Homebrew >=1.4.0 (shallow or no git repository) Homebrew/homebrew-core (git revision 2f937; last commit 2018-07-02) Try installing a simple formula such as autoconf : brew install autoconf autoconf --version should now show that it is installed. ls -l /usr/local/homebrew should now look like this: total 48 -rw-r--r-- 1 brodybits admin 98 Jul 2 16:43 CHANGELOG.md -rw-r--r-- 1 brodybits admin 3161 Jul 2 16:43 CODE_OF_CONDUCT.md -rw-r--r-- 1 brodybits admin 720 Jul 2 16:43 CONTRIBUTING.md drwxr-xr-x 3 brodybits admin 96 Jul 2 16:43 Cellar -rw-r--r-- 1 brodybits admin 1334 Jul 2 16:43 LICENSE.txt drwxr-xr-x 8 brodybits admin 256 Jul 2 16:43 Library -rw-r--r-- 1 brodybits admin 7374 Jul 2 16:43 README.md drwxr-xr-x 10 brodybits admin 320 Jul 2 16:43 bin drwxr-xr-x 5 brodybits admin 160 Jul 2 16:43 completions drwxr-xr-x 48 brodybits admin 1536 Jul 2 16:43 docs drwxr-xr-x 3 brodybits admin 96 Jul 2 16:43 etc drwxr-xr-x 5 brodybits admin 160 Jul 2 16:43 manpages drwxr-xr-x 4 brodybits admin 128 Jul 2 16:43 opt drwxr-xr-x 8 brodybits admin 256 Jul 2 16:43 share drwxr-xr-x 3 brodybits admin 96 Jul 2 16:42 var It is now recommended to add some possibly missing directories and fix some directory permissions to match the results of the Homebrew install script (I wish brew doctor would check and offer to take care of this part): cd /usr/local/homebrew mkdir -p include Caskroom Cellar lib opt share var chmod g+w include Caskroom Cellar lib opt share var And finally cleanup /usr/local/brewtmp1 (using sudo ): sudo rm -rf /usr/local/brewtmp1 Optional followup steps: To disable analytics (thanks to this article , must be done after installing a package): brew analytics off You can Homebrew/homebrew-cask-versions to get access to alternate versions such as daily and beta versions, as they have documented: brew tap homebrew/cask-versions Additional reading and other resources from 2018: this answer to another question How to install Homebrew by OSX Daily (using standard script) 9 of the best Homebrew packages for mac by OSX Daily
+
+**参考链接 / References**:
+- https://superuser.com/questions/1336025/how-should-i-install-homebrew-into-usr-local-subdirectory-manually
+
+---
+
+#### 5545. How to configure curl to use use a ciphers parameter by default without specifying it?
+
+**问题描述 / Problem Description**:
+Tags: networking, ssl, curl, homebrew | Score: 3 | Views: 42687 | Answers: 2 | Created: 2018-03-01
+
+**解决方案 / Solution**:
+From the curl manual, simply add: --ciphers ECDHE-RSA-AES128-GCM-SHA256 To ~/.curlrc .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1299557/how-to-configure-curl-to-use-use-a-ciphers-parameter-by-default-without-specifyi
+
+---
+
+#### 5546. brew: bash completions broken on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, autocomplete, homebrew | Score: 3 | Views: 2248 | Answers: 2 | Created: 2017-08-05
+
+**解决方案 / Solution**:
+The solution is that I should call bash completion from 1.3.2 before bash-completion@2 . Following is how my .bashrc looks, and this solves the problem: if [ -f /usr/local/Cellar/bash-completion/1.3_2/etc/bash_completion ]; then BASH_COMPLETION=/usr/local/Cellar/bash-completion/1.3_2/etc/bash_completion . /usr/local/Cellar/bash-completion/1.3_2/etc/bash_completion fi if [ -f /usr/local/share/bash-completion/bash_completion ]; then . /usr/local/share/bash-completion/bash_completion fi
+
+**参考链接 / References**:
+- https://superuser.com/questions/1237901/brew-bash-completions-broken-on-macos
+
+---
+
+#### 5547. Why aren't pip-installed executables available from the command line?
+
+**问题描述 / Problem Description**:
+Tags: python, homebrew, pip | Score: 3 | Views: 17025 | Answers: 1 | Created: 2017-04-28
+
+**解决方案 / Solution**:
+There is no virtualenv-tools executable in the virtualenv-tools package, that's why you cannot execute it. It contains a script called virtualenv , which you should be able to execute. Read the documentation on how to use it first: Virtualenv has one basic command: $ virtualenv ENV Anyway, in general, when you install a package using pip and it contains an executable script, it's put into the directory which should be in the PATH environment variable to be able to execute it from anywhere. This directory depends on the system used: Linux: /usr/bin Mac: /usr/local/bin (when Homebrew Python is used) Windows: <python_directory>/Scripts So first, make sure the directory is in PATH (this is mainly an issue on Windows; Linux and Mac have it by default). Second, check if the script is in the directory and is executable. Also, many packages are just libraries without any executable, so you should always read the package documentation first to find out how to use it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1204232/why-arent-pip-installed-executables-available-from-the-command-line
+
+---
+
+#### 5548. nano language set to French when using version from homebrew
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, language, homebrew, nano | Score: 3 | Views: 3699 | Answers: 2 | Created: 2016-11-07
+
+**解决方案 / Solution**:
+As suggested by @EricAya in his comment above, I was able to solve the issue by setting LANG=en_US.UTF-8 in my shell startup script: export LANG=en_US.UTF-8 That solved the issue. For more details, check this GitHub issue .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1143227/nano-language-set-to-french-when-using-version-from-homebrew
+
+---
+
+#### 5549. Why brew never asks for a password?
+
+**问题描述 / Problem Description**:
+Tags: macos, sudo, homebrew | Score: 3 | Views: 954 | Answers: 1 | Created: 2016-09-16
+
+**解决方案 / Solution**:
+Homebrew not only does not require sudo , but warns against using it. Homebrew stores the files in the "user space" (under /usr/local branch) and does not touch the system directories. Executable files are kept in /usr/local/bin , configuration files in /usr/local/etc , packages in /usr/local/Cellar . Neither of these directories require administrative permissions to write files (by default an owner and members of the group admin have full permissions to these directories). On Ubuntu you are asked for administrative permissions, because packages installed by APT store their files and configuration in system directories (like /etc , /usr/bin ) which by default do not allow being modified by a regular user. On the other hand, if you run a program it might require administrative permissions to perform certain actions (like registering as a service). This requirement is separate from the rights to read/write files (belonging to the package) and in these cases both Ubuntu and Mac OS X require sudo .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1124938/why-brew-never-asks-for-a-password
+
+---
+
+#### 5550. List and install older unison version through OS X brew
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, homebrew, osx-el-capitan | Score: 3 | Views: 3514 | Answers: 2 | Created: 2015-10-17
+
+**解决方案 / Solution**:
+Here's how I got my local install via Homebrew to Unison 2.40: brew uninstall unison brew install homebrew/versions/unison240
+
+**参考链接 / References**:
+- https://superuser.com/questions/987836/list-and-install-older-unison-version-through-os-x-brew
+
+---
+
+#### 5551. MS Powerpoint PDF export causes issues with transparency and fonts (MacOS/Office365)
+
+**问题描述 / Problem Description**:
+Tags: macos, pdf, microsoft-powerpoint | Score: 2 | Views: 2745 | Answers: 4 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+I noticed the same change in the past couple of weeks and wondered if there was some sort of glitch in the most recent updates. I'm not even going to pretend that I know much about this. I asked my husband and he said to try print to PDF, also, but I don't even see that option...so I went to Google and found your question. Someone suggested saving to an older format first but that didn't work for me either. As I was getting ready to export it again, I noticed a toggle button just below the file format box. The options are "best fof electronic distribution" or "best for printing". It is defaulting to electronic distribution. When I selected "best for printing" and then exported, all was well with my PPT to PDFs again. Sometimes the simplest solutions are right in front of us. Hope that is what's happening for you too!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1858370/ms-powerpoint-pdf-export-causes-issues-with-transparency-and-fonts-macos-office
+
+---
+
+#### 5552. Why am I getting too many authentication failures yet didn't asked for password with SSH on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, ssh, passwords, authentication | Score: 2 | Views: 897 | Answers: 1 | Created: 2024-09-23
+
+**解决方案 / Solution**:
+I figured it out: I have multiple SSH keys setup which aren't linked to specific domains or IPs. Therefore, all of them were being tested and all of them failed (which is how it is supposed to work). Once all the keys failed, the next authentication method is username and password. However, I would never reach that part because the server I was trying to connect to had a limitation in the number of allowed login attempts. So, it wasn't that I was missing the settings but rather that I haven't restricted my keys to specific hosts.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856585/why-am-i-getting-too-many-authentication-failures-yet-didnt-asked-for-password
+
+---
+
+#### 5553. How to resize APFS container on new SSD (data transfered by cloning)?
+
+**问题描述 / Problem Description**:
+Tags: macos, gpt, time-machine, apfs, macos-sonoma | Score: 2 | Views: 808 | Answers: 1 | Created: 2024-09-08
+
+**解决方案 / Solution**:
+The method described here worked. First Aid in Disk Utility GUI does not detect any anomaly. However, you can fix issues from the terminal with sudo diskutil repairdisk disk4 . You can then run diskutil apfs resizeContainer disk4s2 0 to resize the partition into the full space of the drive. Command to repair new SSD ➜ ~ sudo diskutil repairdisk disk4 Password: Repairing the partition map might erase disk4s1, proceed? (y/N) y Started partition map repair on disk4 Checking prerequisites Checking the partition list Adjusting partition map to fit whole disk as required Checking for an EFI system partition Checking the EFI system partition's size Checking the EFI system partition's file system Checking the EFI system partition's folder content Checking all HFS data partition loader spaces Checking booter partitions Reviewing boot support loaders Checking Core Storage Physical Volume partitions The partition map appears to be OK Finished partition map repair on disk4 Command to resize APFS partition (Actually recognizes 2,000,189,177,856 bytes ≈ 2TB) ➜ ~ diskutil apfs resizeContainer disk4s2 0 Started APFS operation Aligning grow delta to 1,000,194,048,000 bytes and targeting a new container size of 2,000,189,177,856 bytes Determined the maximum size for the APFS Container to be 2,000,188,149,760 bytes Resizing APFS Container designated by APFS Container Reference disk5 The specific APFS Physical Store being resized is disk4s2 Verifying storage system Performing fsck_apfs -n -x /dev/disk4s2 Checking the container superblock Checking the checkpoint with transaction ID 13537 Checking the space manager Checking the space manager free queue trees Checking the object map Checking volume /dev/rdisk5s2 Checking the APFS volume superblock The volume TimeMachine was formatted by diskmanagementd (2142.140.9) and last modified by apfs_kext (2236.141.1) Checking the object map Checking the snapshot metadata tree Checking the snapshot metadata Checking snapshot 1 of 1 (com.apple.TimeMachine.2024-02-22-151317.backup, transaction ID 12340) Checking the fsroot tree Checking the extent ref tree Verifying volume object map space The volume /dev/rdisk5s2 with UUID 20030003-E683-424F-9C17-173CBF4A58EC appears to be OK Verifying allocated space The container /dev/disk4s2 appears to be OK Storage system check exit code is 0 Growing APFS Physical Store disk4s2 from 999,995,129,856 to 2,000,189,177,856 bytes Modifying partition map Growing APFS data structures Finished APFS operation GPT Table After Resizing (Unindexed Space from Sector 3907029128 is only 7 blocks now) ➜ ~ sudo gpt show /dev/disk4 start size index contents 0 1 PMBR 1 1 Pri GPT header 2 32 Pri GPT table 34 6 40 409600 1 GPT part - C12A7328-F81F-11D2-BA4B-00A0C93EC93B 409640 3906619488 2 GPT part - 7C3457EF-0000-11AA-AA11-00306543ECAC 3907029128 7 3907029135 32 Sec GPT table 3907029167 1 Sec GPT header
+
+**参考链接 / References**:
+- https://superuser.com/questions/1854953/how-to-resize-apfs-container-on-new-ssd-data-transfered-by-cloning
+
+---
+
+#### 5554. How to quit mosh? How to type: Ctrl-^ (caret)
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, special-characters, key-binding, mosh | Score: 2 | Views: 639 | Answers: 3 | Created: 2024-08-19
+
+**解决方案 / Solution**:
+After much experimentation, I figured out that the solution is to: Simultaneously hold down and then release: Ctrl + 6 Followed by . The trick is that one must not hold down Shift . Just pressing the 6 key is enough. I don't know why mosh doesn't just say that. If the above doesn't work, try these similar questions: How to quit Mosh inside Tmux inside Mosh How to type Ctrl-^?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852821/how-to-quit-mosh-how-to-type-ctrl-caret
+
+---
+
+#### 5555. What is the full alphabetical order used on Linux and similar OSes?
+
+**问题描述 / Problem Description**:
+Tags: linux, macos, filesystems, sorting | Score: 2 | Views: 360 | Answers: 2 | Created: 2024-08-10
+
+**解决方案 / Solution**:
+The order depends on the setting of the environment variables determined by locale . $ LC_COLLATE=C ls Aardvark Baboon Cat apples bananas coconuts $ LC_COLLATE="en_US.UTF-8" ls Aardvark apples Baboon bananas Cat coconuts Taking that a little further $ LC_COLLATE=C ls '!' "'" 0 6 '<' B H N T Z a g m s y £ '"' '(' 1 7 '=' C I O U '[' b h n t z '#' ')' 2 8 '>' D J P V '\' c i o u '{' '$' '*' 3 9 '?' E K Q W ] d j p v '|' % + 4 : @ F L R X '^' e k q w '}' '&' , 5 ';' A G M S Y _ f l r x '~' $ LC_COLLATE="en_US.UTF-8" ls '!' '(' ';' '[' '|' 1 7 B E H K N Q T W Z '"' ')' '<' '\' '}' 2 8 c f i l o r u x '#' '*' '=' ] '~' 3 9 C F I L O R U X % + '>' '^' '$' 4 a d g j m p s v y '&' , '?' _ £ 5 A D G J M P S V Y "'" : @ '{' 0 6 b e h k n q t w z Footnote: These are single character filenames. The quote marks are added by ls for filenames containing characters that are also shell meta characters with special meanings.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1851904/what-is-the-full-alphabetical-order-used-on-linux-and-similar-oses
+
+---
+
+#### 5556. Is there a macOS equivalent to Linux/Unix `/etc/login.defs?`
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 2 | Views: 286 | Answers: 1 | Created: 2024-07-14
+
+**解决方案 / Solution**:
+macOS does not use etc/login.defs . At first sight /etc/passwd and /etc/group are related as is suggested by macOS Equivalent to /etc/login.defs for Safer Range Group ID Numbers . But this is not correct - on macOS they only contain lists of users and groups used in a bare bones macOS and, according to the file headers, are only used when running in single user mode. In spite of the article linked above talking about setting GIDMax and GIDMin as a way of setting a safe range for groups, the suggested commands do not work and, I believe, those parameters are not used in macOS. (I am open to being corrected on this). The group and user database can be inspected and modified in these ways. dscl is the macOS command to read and modify users and groups in the local accounts database. It is described in its man page. I recommend not using this, except for reading data, without expert guidance. Regarding groups commands like dscl . -list /Groups and dscl . -read /Groups/xxx safely provide information. The Directory Utility /System/Library/CoreServices/Applications/Directory Utility.app is a GUI app which can be used to explore (and potentially change) the local accounts directory /Local/Default . Note that its help only addresses using the utility for LDAP and Active Directory. For just listing and reading from the local accounts database, the open source command line app osquery provides a SQL like interface to many system parameters. For the local accounts database Terminal commands like: osqueryi "select gid, groupname from groups order by gid;" can be useful. There are numerous questions in superuser and Ask Different referring to dscl usage.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1849027/is-there-a-macos-equivalent-to-linux-unix-etc-login-defs
+
+---
+
+#### 5557. The proper way to limit framerate when recording screen on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, ffmpeg, video, video-conversion | Score: 2 | Views: 192 | Answers: 1 | Created: 2024-07-04
+
+**解决方案 / Solution**:
+From the log, it is apparent that initially not enough frames are received for ffmpeg to detect input framerate. That's ok, you can just use pass through input frames without any adjustment. ffmpeg -f avfoundation -i 1 -fps_mode passthrough output.mp4
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848100/the-proper-way-to-limit-framerate-when-recording-screen-on-macos
+
+---
+
+#### 5558. Keep command line visible while scrolling
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, terminal | Score: 2 | Views: 407 | Answers: 1 | Created: 2024-03-26
+
+**解决方案 / Solution**:
+You need both: 1) a special PS1= shell prompt and 2) a fancy terminal emulator. Currently, I think the only terminal emulator that supports this on Linux is Visual Studio Code – enable terminal.integrated.stickyScroll.enabled in its settings. (It automatically injects the necessary prompt strings when you open a terminal window, so no manual .bashrc changes are needed.) The underlying mechanism (the OSC 133 markers) actually comes from Final Term, but it's an abandoned project, and I'm not sure if it supported sticky scroll or if it only used the markers for a different purpose.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1836679/keep-command-line-visible-while-scrolling
+
+---
+
+#### 5559. Can't use terminal, I keep getting "zsh: command not found: npm" even after an OS re-install
+
+**问题描述 / Problem Description**:
+Tags: command-line, terminal, zsh, npm, macos-sonoma | Score: 2 | Views: 28355 | Answers: 1 | Created: 2024-03-25
+
+**解决方案 / Solution**:
+First of all, install homebrew on you mac using the following command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" Now, you can use homebrew to install nodejs on your mac. brew install node You can now use npm to install gulp or any other modules as npm and nodejs are part of the node package.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1836579/cant-use-terminal-i-keep-getting-zsh-command-not-found-npm-even-after-an-o
+
+---
+
+#### 5560. What is the text in the frame header of Terminal on startup?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, zsh | Score: 2 | Views: 171 | Answers: 1 | Created: 2024-01-07
+
+**解决方案 / Solution**:
+As someone said in the comments , they are the programs being run by your startup scripts. You can also control what the terminal title is using: # Set terminal window and tab/icon title # # usage: title short_tab_title [long_window_title] # # See: http://www.faqs.org/docs/Linux-mini/Xterm-Title.html#ss3.1 # Fully supports screen, iterm, and probably most modern xterm and rxvt # (In screen, only short_tab_title is used) # Limited support for Apple Terminal (Terminal can't set window and tab separately) function title { # forked from OMZ, see https://superuser.com/a/344397/856545 for setting tab and window separately emulate -L zsh setopt prompt_subst { [[ "$EMACS" == *term* ]] && return # if $2 is unset use $1 as default # if it is set and empty, leave it as is : ${2=$1} case "$TERM" in cygwin|xterm*|putty*|rxvt*|ansi) print -Pn "\e]2;$2:q\a" # set window name print -Pn "\e]1;$1:q\a" # set tab name ;; screen*) print -Pn "\ek$1:q\e\\" # set screen hardstatus ;; *) if [[ "$TERM_PROGRAM" == "iTerm.app" ]]; then print -Pn "\e]2;$2:q\a" # set window name print -Pn "\e]1;$1:q\a" # set tab name else # Try to use terminfo to set the title # If the feature is available set title if [[ -n "$terminfo[fsl]" ]] && [[ -n "$terminfo[tsl]" ]]; then echoti tsl print -Pn "$1" echoti fsl fi fi ;; esac } >/dev/tty }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1824678/what-is-the-text-in-the-frame-header-of-terminal-on-startup
+
+---
+
+#### 5561. What is the command line shortcut to uncomment a previously commented line?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, keyboard-shortcuts, terminal | Score: 2 | Views: 999 | Answers: 2 | Created: 2023-12-26
+
+**解决方案 / Solution**:
+The question is tagged bash . This answer is specifically for Bash. Tested in GNU Bash 5.2.15. Define the following shell function: function _toggle_comment { case "$READLINE_LINE" in \#* ) ((READLINE_POINT--)) READLINE_LINE="${READLINE_LINE###}" ;; * ) READLINE_LINE="#$READLINE_LINE" ((READLINE_POINT++)) ;; esac } and bind it to Alt + # : bind -x '"\e#":_toggle_comment' (If in your keyboard layout # is in fact Shift + 3 then the binding will re-define Alt + Shift + 3 you mentioned.) READLINE_LINE and READLINE_POINT are exactly for this kind of tricks. Upon Alt + # , depending on whether a leading # is there or not in the command line, the function removes it or adds it, and moves the insertion point accordingly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1823143/what-is-the-command-line-shortcut-to-uncomment-a-previously-commented-line
+
+---
+
+#### 5562. Windows Termin new tab and command
+
+**问题描述 / Problem Description**:
+Tags: command-line, terminal, batch, cmd.exe, windows-terminal | Score: 2 | Views: 1574 | Answers: 1 | Created: 2023-11-03
+
+**解决方案 / Solution**:
+The current CMD window steals the && start /b start_proxy.bat instead of passing it to the new tab. You can fix by escaping the ampersand characters with ^ : wt -w 0 nt -d . cmd /k cd "D:\Minecraft\Waterfall Network\Waterfall Network - 01 - Proxy" ^&^& start /b start_proxy.bat You might prefer using the -d|--startingDirectory parameter for WT, but it's personal preference: wt -w 0 nt -d "D:\Minecraft\Waterfall Network\Waterfall Network - 01 - Proxy" cmd /k start_proxy.bat
+
+**参考链接 / References**:
+- https://superuser.com/questions/1815218/windows-termin-new-tab-and-command
+
+---
+
+#### 5563. Change argument to -y, --yes, --assume-yes
+
+**问题描述 / Problem Description**:
+Tags: command-line, mac, terminal, zsh, shortcuts | Score: 2 | Views: 248 | Answers: 1 | Created: 2023-10-08
+
+**解决方案 / Solution**:
+This worked with the command : echo y | kill-apps adobe
+
+**参考链接 / References**:
+- https://superuser.com/questions/1811771/change-argument-to-y-yes-assume-yes
+
+---
+
+#### 5564. Macbook: Audio cuts out every couple of minutes
+
+**问题描述 / Problem Description**:
+Tags: mac, usb, audio, macbook | Score: 2 | Views: 5203 | Answers: 3 | Created: 2021-01-13
+
+**解决方案 / Solution**:
+Guys I finally solved it. What. A. Nightmare. It's been 2 stressful months. I hope this helps someone else. So, I used the Mac's Console (never knew it existed) and captured the error as it was happening: coreaudiod HALS_IOa1Engine EndWriting got an error from the kernel trap 0xE00002D7 . A quick search showed a lot of articles, everybody with a problem similar to mine. The general answer was to put a hub between the interface and the Mac, but I already did it because I had to, until... Someone said " I've heard removing other USB devices helps. I removed my printer and the problem was gone ". Well then. I surely had a USB printer connected on the back of my secondary monitor , which shares USB ports with the Macbook. I disconnected it. The problem was gone. Oh my god. Now I understand why I've been having this problem for months at random: it only occurs when the printer is connected. Surely enough there's something going on with the USB bus, I don't know what, but it seems that when I plug in the printer the sound glitches for a second and then the issue persists. Once I disconnect it, the issue goes away. The strange thing is that if I connect the printer to the same hub as the interface (the dongle), the issue doesn't occur. I'm not 100% sure, but it seems that the Macbook doesn't like having the interface in one port and the printer connected to the monitor. Obviously a fix would be highly appreciated (now I have to be careful when I connect anything via USB to the Macbook) but at least the issue is gone.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1617109/macbook-audio-cuts-out-every-couple-of-minutes
+
+---
+
+#### 5565. Can we still use Fn for dragging a window on new MacBooks?
+
+**问题描述 / Problem Description**:
+Tags: mac, operating-systems, macbook, shortcuts, fn-key | Score: 2 | Views: 257 | Answers: 1 | Created: 2020-11-16
+
+**解决方案 / Solution**:
+I looked into this and found it is actually a functionality of an app I had installed a long time ago. For those interested, the app is called BetterSnapTool . Thanks for the answers, and sorry for the mix up :).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1602644/can-we-still-use-fn-for-dragging-a-window-on-new-macbooks
+
+---
+
+#### 5566. How can I run my macbook with the lid open (for ventilation), but with the screen off, as if the lid is closed?
+
+**问题描述 / Problem Description**:
+Tags: display, multiple-monitors, macbook | Score: 2 | Views: 2703 | Answers: 1 | Created: 2020-04-02
+
+**解决方案 / Solution**:
+Lid-closed operation is a fully supported feature of MacBooks running macOS. Their thermal management system won't let them overheat. The black plastic "clutch barrel" (the center section of the screen hinge) is shaped so it doesn't block the vents even if fully closed. If you suspect you're hitting thermal throttling of your CPU or GPU, or if your fans are running higher than you'd like, then make sure you're not thermally insulating the bottom of your MacBook (don't use a case that fits too tightly, don't set it down on fabric). If you still want it to run in lid-closed mode with the lid open, put a magnet on the "lid closed" hall-effect sensor (it's usually to the left of the bottom row of the keyboard, if I recall correctly).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1538254/how-can-i-run-my-macbook-with-the-lid-open-for-ventilation-but-with-the-scree
+
+---
+
+#### 5567. Does a low power charger help Macbook's battery?
+
+**问题描述 / Problem Description**:
+Tags: macos, battery, macbook, macbook-pro, battery-life | Score: 2 | Views: 3675 | Answers: 4 | Created: 2019-11-23
+
+**解决方案 / Solution**:
+If you have a weaker charger charging the device and the device is draining power more than the output of the charger, it could cause damage to the battery or break the battery because of heat. Some devices may draw power directly from the battery if the charger does not produce enough power. This causes a lot of heat generation. In addition, the charger could break because it is trying to meet the power demand from the laptop. A good rule of thumb is to avoid using the device when you are charging it. It is highly recommended to always use a charger that is designed for the laptop or battery. (In this case, a standard issued authentic Apple macbook charger) Essentially, it is important to try to avoid excess heat generation because it could cause irreparable damages to the battery, device and charger. If you are concerned about what battery percentage you should leave you laptop at, I would suggest trying to keep the battery percentage always above 30-50%. Another user on the mac forums suggested that it is good to leave the battery at 75% once a month to keep the battery exercised. This method helps the battery to maintain overall storage power capacity. Here are a few other things to keep in mind: Try to avoid using the device when you are charging it because the battery or charger could get hot. Heat is known to degrade the life of a battery and has been studied extensively. A study in science direct says Lithium Ion Batteries should stay within −20 °C ~ 60 °C (-4°F ~ 140°F). If the a Lithium Ion Battery is exposed to temperatures outside of those ranges, the life and quality of that battery will degrade. When charging a device, the device may be drawing power from the battery while charging the device. This will cause the battery to heat up. Depending on the device, the device may be drawing power directly from the charger. This will cause the charger to heat up a lot. Most modern macbooks have some sort of built in functionality that will drain and recharge the lithium ion battery when at 100%. So, there is no need to worry about damaging the battery. Apple does provide some official guidelines that Apple users should follow: Avoid hot ambient temperatures. An ideal range would be from 16°C to 22°C (62°F to 72°F). Hot temperatures are known to permanently damage battery capacity. Cold temperatures causes a temporary decrease in battery life. The built-in software will limit charging above 80% when the recommended battery temperatures are exceeded. Remove cases when charging. Leaving it in a case causes more heat generation. For long term storage, do not fully charge or fully discharge your device's battery. 50% is an ideal percentage. If you fully discharge the device for long term storage, the battery could be rendered unchargeable. If you fully charge the device for long term storage, the battery may end up having shorter battery life. For long term storage, make sure the device is powered down and leave it in a moisture-free environment that's less than 32°C (90°F). For Long term storage, if you plan to store more than 6 months, charge it to 50% every six months. I hope this information help!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1504578/does-a-low-power-charger-help-macbooks-battery
+
+---
+
+#### 5568. Catalina bricked my MacBook Pro
+
+**问题描述 / Problem Description**:
+Tags: macos, hard-drive, macbook, macos-catalina | Score: 2 | Views: 2105 | Answers: 1 | Created: 2019-10-18
+
+**解决方案 / Solution**:
+You're not the only one to have encountered this problem. It seems that everyone is having a problem with one of the disks labeled APFS VOLUME VM giving the error you're receiving. The following is not an ideal solution if you're needing to recover data or anything. If you don't care about data recovery, just blow it all away and start over again. Start the MacBook in recovery mode by holding Command+R at reboot. Once booted into recovery mode, go to the terminal (top menu bar, under utilities) and list your drives with the command diskutil apfs list and you should see an output like below. Look for your volume APFS Volume VM and noted the identifier for that APFS Volume. Delete the VM volume by using the command diskutil apfs eraseVolume IDENTIFIER . So for this example output the command would be diskutil apfs eraseVolume disk1s4 Once deleted it should create a new volume again, verify this by running diskutil apfs list Reboot and try the install again
+
+**参考链接 / References**:
+- https://superuser.com/questions/1493755/catalina-bricked-my-macbook-pro
+
+---
+
+#### 5569. View localhost from Iphone using MacBook Pro
+
+**问题描述 / Problem Description**:
+Tags: macbook, iphone, localhost | Score: 2 | Views: 3133 | Answers: 1 | Created: 2019-10-09
+
+**解决方案 / Solution**:
+For anybody suffering this problem, I've found a solution using the hint from this link here. The solution was to bind the host to port 0.0.0.0. In the Angular 2+ way, that would mean serving the app with the --host 0.0.0.0 --disableHostCheck flags. Good luck!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1490460/view-localhost-from-iphone-using-macbook-pro
+
+---
+
+#### 5570. SATA to USB Hard Drive Not Being Detected
+
+**问题描述 / Problem Description**:
+Tags: windows, data-recovery, sata, macbook | Score: 2 | Views: 42457 | Answers: 1 | Created: 2019-10-06
+
+**解决方案 / Solution**:
+You're using the wrong adapter for a 3.5" HDD Basic USB-to-SATA adapters that obtain all of their power from a USB port and not from a separate power supply are only designed to power 2.5" HDD, not 3.5" HDD models. This screenshot confirms that your adapter, as well as another popular budget model, both officially only support 2.5" HDD drives: This is what you should be using for a 3.5" HDD: It's certainly possible that the hard drive suffered a catastrophic failure but you won't know for sure until you first attempt to access it using an adapter that's capable of spinning up such a heavy mechanical drive. I have tried various model adapters and have found this to be by far the most reliable one.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1489692/sata-to-usb-hard-drive-not-being-detected
+
+---
+
+#### 5571. Why did my MacBook Pro burn 15% of battery while sleeping?
+
+**问题描述 / Problem Description**:
+Tags: macos, laptop, battery, sleep, macbook | Score: 2 | Views: 1732 | Answers: 1 | Created: 2019-05-23
+
+**解决方案 / Solution**:
+Check in Settings / Energy Saver that Power Nap is not enabled on battery. I disable it even when plugged in. Also check this answer related to Address Book Sync: https://apple.stackexchange.com/a/237552/334268 The long story It seems your mac woke once at 00:30 from light sleep for almost a minute, then at 07:59 from standby when you opened the lid. It also seems it would have woken at 09:00 again if you hadn't opened it before that happened: 2019-05-23 00:30:31 -0700 Notification Next immediate inactivity window start:'2019-05-23 00:30:00 -0700' end:'2019-05-23 09:00:00 -0700' By default macs are configured to stay in light sleep for 3 or 4 hours. During this time they can perform background tasks like syncing things. The interesting section of your log starts at Assertion status system-wide: . It seems you had a cloud photo sync that took less than a minute if my interpretation is correct: 00:00:48 BackgroundTask named: "com.apple.cloudphotosd.darkwake.sync" , corresponding to this entry: 2019-05-23 00:30:31 -0700 Assertions PID 2111(cloudphotosd) Released BackgroundTask "com.apple.cloudphotosd.darkwake.sync" 02:43:56 id:0x0xb00008301 [System: PrevIdle DeclUser IntPrevDisp kDisp] And an address book sync: 00:00:32 BackgroundTask named: "com.apple.AddressBook.ScheduledSync . This last one is marked as PreventUserIdleSystemSleep so it might be the culprit. Or maybe both syncs account for 15%. The report of 70% just before 55% is probably a glitch before the system actually polled the battery for the current value. I saw this happen even in the user interface when opening the lid. Before logging in the battery would show the last logged value, after logging in it would show the real one.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1440378/why-did-my-macbook-pro-burn-15-of-battery-while-sleeping
+
+---
+
+#### 5572. Upgrading macOS SSD to a larger size SSD and fully utilizing space on the new SSD when restoring from a backup
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, ssd, backup, macbook | Score: 2 | Views: 98 | Answers: 1 | Created: 2019-02-21
+
+**解决方案 / Solution**:
+Answering my own question, yes, it's possible. I now have a single 500GB partition after restoring it from a 60GB Time Machine backup. Before restoring it though, I did a secure SSD erase, then made a single 500GB APFS partition. So the whole cloning thing was redundant.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1408324/upgrading-macos-ssd-to-a-larger-size-ssd-and-fully-utilizing-space-on-the-new-ss
+
+---
+
+#### 5573. What is the shortcut keys to scroll to the top or bottom of a PDF in Preview on macOS on a MacBook?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, pdf, macbook, preview, macos-mojave | Score: 2 | Views: 3177 | Answers: 1 | Created: 2019-02-09
+
+**解决方案 / Solution**:
+On a MacBook keyboard, fn - ← is equivalent to the extended keyboard "home" key, which in macOS means "beginning of document" (this confuses some people who come from Windows, where "Home" means "beginning of line). fn - → is equivalent to the extended keyboard "End" key, which in macOS means "end of document" (not the Windows meaning of "end of line"). This works in almost every app, including Preview. For sake of completeness, fn ↑ is Page Up & fn ↓ is Page Down
+
+**参考链接 / References**:
+- https://superuser.com/questions/1403731/what-is-the-shortcut-keys-to-scroll-to-the-top-or-bottom-of-a-pdf-in-preview-on
+
+---
+
+#### 5574. RVM can't find installed new Ruby version (previously installed using Homebrew)
+
+**问题描述 / Problem Description**:
+Tags: command-line, ruby, homebrew, version-control, rvm | Score: 2 | Views: 5573 | Answers: 2 | Created: 2019-02-01
+
+**解决方案 / Solution**:
+First of all, nothing you say or do is going to sound stupid. We've all been beginners at some point. The reason why your Mac didn't automatically recognize the Ruby version installed by Homebrew is because by default, the computer only looks for executable programs in certain directories. The list of directories, and the order in which the computer looks them up is called the PATH . If you type echo $PATH in Terminal, you will see the list of directories, separated by a colon. By default, on a brand new macOS installation, I believe the list looks like this: /usr/bin:/bin:/usr/sbin:/sbin During the Homebrew installation, a new directory /usr/local/bin gets created and added to the beginning of the PATH . However, when you install Ruby with Homebrew, Ruby is installed in /usr/local/opt/ruby/bin , which doesn't get added to the PATH automatically. I know this because it's mentioned by Homebrew at the end of the Ruby installation. Admittedly, the message might not mean much to a beginner: If you need to have ruby first in your PATH run: echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile Since the Homebrew version of Ruby wasn't in your PATH , when you typed gem install [some gem] , the computer looked for the program called gem in /usr/local/bin first and didn't find it, then it looked for it in /usr/bin and found it because that's where the system gem (the version of gem that comes with macOS) is installed. If you want to know which version of a particular program is in use in the current Terminal session, you can use the which command. For example: which ruby which gem This will tell you the location of the program where the computer first found it. Another command you can use to see if you're using the right Ruby version is: ruby -v If you had run this command: echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile and then opened a new Terminal window or tab (or ran source ~/.bash_profile ) for the changes to take effect, the Homebrew Ruby directory would have been first in your PATH , which means your computer would have looked for gem there first, and it would have used the Homebrew version of Ruby. To explain the command above, it takes everything between the single quotes and adds it ( >> ) to a file called .bash_profile in your user's root directory ( ~/ ). Every time you open a new Terminal window or tab, .bash_profile is read, and anything defined there is used. Similarly, the reason why RVM couldn't recognize that Ruby 2.6.1 had been installed by Homebrew is because RVM and Homebrew install Ruby in two separate places that don't know about each other. When you first installed RVM, it installed version 2.6.0. I'm not sure why it didn't install 2.6.1, but I do recall in the past when I used RVM that it wouldn't always install the latest version. I personally prefer chruby and ruby-install to manage Ruby versions. The nice thing about tools like RVM, chruby, and rbenv is that they allow you to install multiple versions of Ruby on the same computer, and you can switch from one to the other easily. Homebrew, on the other hand, can only manage one version of Ruby at a time.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1400963/rvm-cant-find-installed-new-ruby-version-previously-installed-using-homebrew
+
+---
+
+#### 5575. Having trouble installing ruby gem for iStats
+
+**问题描述 / Problem Description**:
+Tags: ruby, homebrew, xcode, rubygems | Score: 2 | Views: 2555 | Answers: 1 | Created: 2019-01-17
+
+**解决方案 / Solution**:
+I have done it! I am not sure exactly what I did right, but I used these two commands: export LDFLAGS="-L/usr/local/opt/ruby/lib" export CPPFLAGS="-I/usr/local/opt/ruby/include" Then I tried: sudo gem install iStats and sudo gem install iStats -n /usr/local/bin Now I have successfully installed iStats 1.6.1. Strangely though, I used those two export commands earlier on and they did not do the trick. So something must have changed in the meantime, I don't know what it is.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1395401/having-trouble-installing-ruby-gem-for-istats
+
+---
+
+#### 5576. "python" points to Python 2.7 under macOS Homebrew
+
+**问题描述 / Problem Description**:
+Tags: macos, python, homebrew, django | Score: 2 | Views: 2553 | Answers: 1 | Created: 2018-12-31
+
+**解决方案 / Solution**:
+Please read the info printed by brew info python . It also links to the Homebrew website on Python , where it says: The executables are organized as follows so that Python 2 and Python 3 can both be installed without conflict: python3 points to Homebrew’s Python 3.x (if installed) python2 points to Homebrew’s Python 2.7.x (if installed) python points to Homebrew’s Python 2.7.x (if installed) otherwise the macOS system Python. Check out brew info python if you wish to add Homebrew’s 3.x python to your PATH. pip3 points to Homebrew’s Python 3.x’s pip (if installed) pip and pip2 point to Homebrew’s Python 2.7.x’s pip (if installed) Apparently you have installed both Python 2 and 3 through Hombrew. If you wish for python to point to Python 3 (instead of 2.7), you have to put /usr/local/opt/python/libexec/bin in your PATH before other entries.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1389295/python-points-to-python-2-7-under-macos-homebrew
+
+---
+
+#### 5577. Are here any problems with MacPorts and Homebrew installed together?
+
+**问题描述 / Problem Description**:
+Tags: mac, uninstall, homebrew, macports | Score: 2 | Views: 1692 | Answers: 1 | Created: 2018-09-28
+
+**解决方案 / Solution**:
+I would following the instructions to uninstall macports and then do the same for brew . Once you're certain both are removed, you can choose to properly install homebrew.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1362230/are-here-any-problems-with-macports-and-homebrew-installed-together
+
+---
+
+#### 5578. Why is homebrew telling me I need to have OS X 10.10 or newer, when I'm running 10.11.6?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, osx-el-capitan | Score: 2 | Views: 543 | Answers: 1 | Created: 2018-09-07
+
+**解决方案 / Solution**:
+This is due to a current bug in Homebrew, and a fix has been merged Per issue #4809 : Hi, PR #4656 appears to break brew cask install on 10.11. I get an error on 10.11, but not on 10.12. As a workaround, re-running with the --no-quarantine flag is successful. I'm not sure why this swift feature isn't available, my OS is up to date. (snip) /usr/local/Homebrew/Library/Homebrew/cask/lib/hbc/utils/quarantine.swift:29:30: error: 'quarantinePropertiesKey' is only available on OS X 10.10 or newer forKey: URLResourceKey.quarantinePropertiesKey (etc) (snip and etc mine) This is the same issue you are facing. There is a PR ( #4796 ) that addresses this, which has been merged into master as of a day ago (2018-09-06): The Gatekeeper API I've written relies on an up-to-date CLT (or Xcode) install, and xattr's -r flag for native recursion. There are cases where Swift is too old or is set to a deployment target earlier than MacOS 10.10, and thus cannot use the URLResourceKey.quarantinePropertiesKey constant. And in the current Mojave beta, xattr does not have Apple's -r extension for doing native filesystem traversal. This pull request inserts an additional check in the Swift script, the Quarantine.available? function and brew cask doctor, and changes propagate to use xargs for recursion. The latest release of brew at time of writing is 1.7.3 , released on September 3rd. Note : I just ran a brew update and it tells me I am running 1.7.3 running at commit 5d894 , which was committed today (2018-09-07) and is the latest version of homebrew-core at time of writing. Semi-workaround If you haven't already downloaded a file, you could try with no-quarantine , ie $ brew cask install --no-quarantine android-platform-tools however since you already have those files they should already be quarantined, unfortunately.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1356150/why-is-homebrew-telling-me-i-need-to-have-os-x-10-10-or-newer-when-im-running
+
+---
+
+#### 5579. Install mongodb 2.6 with homebrew
+
+**问题描述 / Problem Description**:
+Tags: installation, homebrew, version, mongodb | Score: 2 | Views: 3640 | Answers: 1 | Created: 2018-01-21
+
+**解决方案 / Solution**:
+MongoDB 2.6 was released in March, 2014 and reached end of life in October, 2016 . It is no longer available via Homebrew or supported by MongoDB, but if you really require this release series you can download the 2.6.12 OS X tarball from the MongoDB archives. End of life server releases will not receive any maintenance or security updates, and will also end up removed from driver and tool compatibility testing. I would strongly recommend installing a later supported version of MongoDB (ideally 3.4 or newer so you won't have to do a major version upgrade for a while). There have been a large number of improvements and fixes in successive releases , including a new default storage engine (WiredTiger), new aggregation & security features, document validation, and rewritten command line tools. FYI, you can check available versions in Homebrew with brew search mongodb@ : $ brew search mongodb@ ==> Searching local taps... mongodb@3.0 mongodb@3.2 mongodb@3.4 mongodb@3.6
+
+**参考链接 / References**:
+- https://superuser.com/questions/1287586/install-mongodb-2-6-with-homebrew
+
+---
+
+#### 5580. virt-manager on Mac OS X can't connect to remote libvirtd
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, libvirt | Score: 2 | Views: 2387 | Answers: 1 | Created: 2016-06-03
+
+**解决方案 / Solution**:
+FWIW, I eventually found a workaround posted on github by Billygoat32: Interesting... trying to add the host through the UI I get the above error. Using this command adds it and works for future connection: virt-manager -c 'qemu+ssh://user@libvirthost/system?socket=/var/run/libvirt/libvirt-sock'
+
+**参考链接 / References**:
+- https://superuser.com/questions/1084201/virt-manager-on-mac-os-x-cant-connect-to-remote-libvirtd
+
+---
+
+#### 5581. Fixing homebrew path
+
+**问题描述 / Problem Description**:
+Tags: macos, python, homebrew | Score: 2 | Views: 17698 | Answers: 1 | Created: 2016-03-11
+
+**解决方案 / Solution**:
+It might be unrelated to the problem with Python, but at this moment, you should do exactly what the message says, i.e. type the following command: echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile After that reopen terminal session or run . ~/.bash_profile command. It just says that some of the programs you installed with homebrew are placed in /usr/local/sbin directory, but your shell "does not know" about them. For a reference you can check which programs (formulae) are there by listing the contents: ls /usr/local/sbin As for checking Python, type: ls -l `which python` It will give you the path to the current executable. You want it the output to look this way: lrwxrwxr-x 1 root admin 34 Dec 14 21:12 /usr/local/bin/python@ -> ../Cellar/python/2.7.11/bin/python
+
+**参考链接 / References**:
+- https://superuser.com/questions/1051552/fixing-homebrew-path
+
+---
+
+#### 5582. "Could not create unix socket lock file" with MySQL 5.7.10 on OS X 10.11.2
+
+**问题描述 / Problem Description**:
+Tags: macos, mysql, homebrew, sockets, osx-el-capitan | Score: 2 | Views: 4090 | Answers: 1 | Created: 2015-12-13
+
+**解决方案 / Solution**:
+I think this is a bug in mysql 5.7. In my case, I am building a docker container. I went ahead and changed the version of mysql I installed to 5.6 through apt-get and it fixed the issue immediately. apt-get install software-properties-common python-software-properties add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe' apt-get update apt-get install mysql-client-5.6 mysql-server-5.6 Hope this helps.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1012913/could-not-create-unix-socket-lock-file-with-mysql-5-7-10-on-os-x-10-11-2
+
+---
+
+#### 5583. MacVim.app doesnt open any edit windows
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, macvim | Score: 2 | Views: 831 | Answers: 1 | Created: 2015-11-06
+
+**解决方案 / Solution**:
+If your .bash_profile has any shell command that spawns a new shell, it probably is the culprit. Try run: defaults write org.vim.MacVim MMLoginShell -bool NO If it works, you can look at the technical details here .
+
+**参考链接 / References**:
+- https://superuser.com/questions/996887/macvim-app-doesnt-open-any-edit-windows
+
+---
+
+#### 5584. Homebrew brew exports
+
+**问题描述 / Problem Description**:
+Tags: sync, export, homebrew, import | Score: 2 | Views: 1333 | Answers: 1 | Created: 2015-09-07
+
+**解决方案 / Solution**:
+Brew-file is providing a full support for syncing brew install across machines.
+
+**参考链接 / References**:
+- https://superuser.com/questions/969296/homebrew-brew-exports
+
+---
+
+#### 5585. Video DownloadHelper has now suggested I install Homebrew. Should I?
+
+**问题描述 / Problem Description**:
+Tags: macos, firefox, browser-addons, homebrew, xcode | Score: 2 | Views: 1250 | Answers: 2 | Created: 2015-08-30
+
+**解决方案 / Solution**:
+Is it a big package? Homebrew is not big, and the bottle for libav is 8.3M according to: wget --spider https://homebrew.bintray.com/bottles/libav-11.4.mountain_lion.bottle.tar.gz You do need sudo rights to install homebrew in the default location, but thereafter you don’t need sudo to install packages. And you can choose to put homebrew in your home directory and don't need sudo for that. You only need the command line tools not the full Xcode. See this answer to read more about getting them. On another note, it is weird—and I’d even say suspicious—that a browser extension is asking you to install libraries for it. I’d personally not trust them because of that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/964943/video-downloadhelper-has-now-suggested-i-install-homebrew-should-i
+
+---
+
+#### 5586. zlib is missing which break Haxe and pip on Mac OS X 10.11 (El Capitan)
+
+**问题描述 / Problem Description**:
+Tags: macos, python, homebrew, pip, osx-el-capitan | Score: 2 | Views: 4521 | Answers: 1 | Created: 2015-08-27
+
+**解决方案 / Solution**:
+Haxe requires neko to be configured correctly to run tools like haxelib. You can install neko via Homebrew with the following steps. First you need zlib and sqlite because neko requires both. brew install zlib sqlite3 You will now need to force Homebrew to link these since they are keg-only libraries and neko needs the include files in /usr/local/include. brew link zlib --force brew link sqlite3 --force Finally, install neko through Homebrew. Make sure you also set NEKOPATH to the homebrew directory created. brew install neko --HEAD
+
+**参考链接 / References**:
+- https://superuser.com/questions/963356/zlib-is-missing-which-break-haxe-and-pip-on-mac-os-x-10-11-el-capitan
+
+---
+
+#### 5587. Homebrew update error that local changes would be overwritten
+
+**问题描述 / Problem Description**:
+Tags: macos, git, homebrew | Score: 2 | Views: 1488 | Answers: 3 | Created: 2015-06-05
+
+**解决方案 / Solution**:
+Try this: cd $(brew --repository) git reset --hard FETCH_HEAD Source: Common Issues with Homebrew .
+
+**参考链接 / References**:
+- https://superuser.com/questions/924048/homebrew-update-error-that-local-changes-would-be-overwritten
+
+---
+
+#### 5588. PowerPoint shows "Error exporting file as PDF: The online service is not available in your region." (Germany, Mac)
+
+**问题描述 / Problem Description**:
+Tags: macos, pdf, microsoft-powerpoint | Score: 1 | Views: 12816 | Answers: 4 | Created: 2024-10-17
+
+**解决方案 / Solution**:
+I’m experiencing the same issue, but I'm based in the UK. This might be linked to macOS Sequoia. When exporting to PDF in PowerPoint, there are two options: “Best for electronic distribution” and “Best for printing.” The latter uses macOS’s built-in PDF renderer (the same as Print > Save as PDF). This still works. The “Best for electronic distribution” option uploads the file to Microsoft’s servers for processing, which then returns a PDF. While “Best for printing” can be used as a workaround, it doesn’t retain hyperlinks, and the resulting file size is quite large. I suspect this issue is related to macOS Sequoia. PowerPoint might be unable to correctly access the required online service or get the correct region, potentially causing the error? This started for me right after upgrading to Sequoia. So far there is nothing on this online, but I've reported the issue to Microsoft. If you can access PowerPoint Web, try opening your document and Save as PDF from there. This works for me.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1859085/powerpoint-shows-error-exporting-file-as-pdf-the-online-service-is-not-availab
+
+---
+
+#### 5589. How to restore minimized Window on Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 1 | Views: 289 | Answers: 1 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+Try holding the Option key and hover over where the green Full Screen button is approximately, until you get the resizing options menu . There are some more options you could try out from this How-To Geek article .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1858941/how-to-restore-minimized-window-on-mac
+
+---
+
+#### 5590. How to sort the output of lists in AppleScript into an array of properties of each item?
+
+**问题描述 / Problem Description**:
+Tags: macos, formatting, window-manager, applescript | Score: 1 | Views: 105 | Answers: 1 | Created: 2024-10-12
+
+**解决方案 / Solution**:
+Finder windows don't have a size parameter. instead they have a bounds which inherently includes position and size (albeit with a little math involved. Not sure how that feeds into your workflow, but that may be the difference between why your script works in one app and not another. That said: First, you can simplify your existing script via: tell application "Finder" set w to {name, bounds, position} of every window end tell Secondly, to extract the components individually you can build the list iteratively: set w to {} tell application "Finder" repeat with each_window in (get every window) tell each_window copy {name, bounds, position} to end of w end tell end repeat end tell
+
+**参考链接 / References**:
+- https://superuser.com/questions/1858522/how-to-sort-the-output-of-lists-in-applescript-into-an-array-of-properties-of-ea
+
+---
+
+#### 5591. How can I copy all files from C: on Windows to a drive attached to a Mac?
+
+**问题描述 / Problem Description**:
+Tags: windows, macos, filesystems, finder, copy | Score: 1 | Views: 191 | Answers: 1 | Created: 2024-09-25
+
+**解决方案 / Solution**:
+It might be easier to remove the hard drive/storage and use a USB to SATA adapter to piug the storage device directly into your MAC. If it is an SSD the USB port should have enough power by itself. If it is a hard drive then you need one with an external power supply.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856900/how-can-i-copy-all-files-from-c-on-windows-to-a-drive-attached-to-a-mac
+
+---
+
+#### 5592. How to get macOS to install Sonoma 14.5?
+
+**问题描述 / Problem Description**:
+Tags: macos, updates, macos-sonoma | Score: 1 | Views: 858 | Answers: 1 | Created: 2024-09-13
+
+**解决方案 / Solution**:
+You can use the the free Mist app to download a specific version of macOS installer for in-place system update. Currently, the supported versions are from the oldest OS X Lion 10.7.5 to the latest macOS Sequoia 15.0. Here is the screenshot:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1855695/how-to-get-macos-to-install-sonoma-14-5
+
+---
+
+#### 5593. auto-complete with `pass` on mac
+
+**问题描述 / Problem Description**:
+Tags: macos, zsh, autocomplete, password-management | Score: 1 | Views: 899 | Answers: 1 | Created: 2024-09-04
+
+**解决方案 / Solution**:
+I finally managed to make it work. However, I am not sure whether all steps are really necessary. I think the only thing one really has to do is install zsh-completions by brew install zsh-completions and follow the instructions that are prompted after the installation is finished. However, maybe it is important to also install zsh from brew what Spiff suggested in the comments to the question. Since I did this before I cannot say whether it was a necessary step. Unfortunately, this is not as elementary as I hoped, because I need an additional program instead of tell zsh that the auto-completion file for pass is located at /opt/homebrew/share/zsh/site-functions/_pass , but maybe there is a fundamental misunderstanding.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1854546/auto-complete-with-pass-on-mac
+
+---
+
+#### 5594. Unable to send Curly Parentheses when using Microsoft Remote Desktop on mac
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, keyboard-shortcuts, remote-desktop | Score: 1 | Views: 196 | Answers: 2 | Created: 2024-08-13
+
+**解决方案 / Solution**:
+The solution is to go into the top menu bar while connected in a RDP session, click connections and set keyboard mode to unicode
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852196/unable-to-send-curly-parentheses-when-using-microsoft-remote-desktop-on-mac
+
+---
+
+#### 5595. Suddenly I am getting the following Excel message on a couple of different files: "Sorry, we couldn't find"
+
+**问题描述 / Problem Description**:
+Tags: microsoft-excel, macos, filenames | Score: 1 | Views: 1034 | Answers: 2 | Created: 2024-07-31
+
+**解决方案 / Solution**:
+Changed / to -, now it seems to work. Is that the real solution or is there something else I should be aware of? If the error isn't appearing any more, then yes, that's the best solution. As an aside, it's generally best to avoid using forward slashes ( / ) in the names of files. The way macOS and other UNIXes handle file locations (aka paths) is by using the slash character to separate directories (folders) from their contents. Technically, these slash characters in names can be escaped as a literal / in a file/directory name, but this often creates strange issues as you've seen. Using those slashes appears to have tricked Excel into trying to find a file named 24.xlsx inside the CRC Club Owned Boats 07 folder, assuming the file was literally named CRC Club Owned Boats 07/24.xlsx . Dashes are safe characters, and I always use dashes when a filename needs to contain a date.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850863/suddenly-i-am-getting-the-following-excel-message-on-a-couple-of-different-files
+
+---
+
+#### 5596. How to have 5 different always-on-top notes, one on each screen?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, laptop, desktop, apple | Score: 1 | Views: 940 | Answers: 1 | Created: 2024-07-05
+
+**解决方案 / Solution**:
+To achieve this functionality on macOS, you have a few options, including using dedicated note-taking applications, floating widgets, or combination of tools. Here's a step-by-step guide using some of the best available tools: Option 1: Using Stickies and a Third-Party Tool Stickies is a built-in application on macOS that allows you to create floating notes. To ensure these notes stay on top, you can use a third-party tool like Afloat Step-by-Step Instructions: Open Stickies: Open the Stickies app from the Applications folder or by searching for it in Spotlight. Create and Position Notes: Create five different Stickies notes and position each one in a separate space. You can move to different spaces using the Mission Control feature (usually triggered by swiping up with three or four fingers on the trackpad or pressing the Mission Control key). Install Afloat: Download and install Afloat. Note that Afloat is an older tool and might require some additional steps to work on the latest macOS versions, like using mySIMBL . Alternatively, you can use Hammerspoon with a specific configuration to achieve a similar result. Configure Notes to Stay on Top: For Afloat, once installed, open the Stickies note, then go to the menu bar and select Window > Keep Afloat . For Hammerspoon, use the following script to keep Stickies on top: hs.hotkey.bind({"cmd", "alt", "ctrl"}, "T", function() local win = hs.window.focusedWindow() if win then win:setTopLeft(hs.mouse.getAbsolutePosition()) win:setFrame(win:frame(), 0) win:setFrame(win:frame(), 1) end end) Option 2: Using Notion and Magnet (or another window management tool) Notion is a powerful note-taking app that supports basic formatting and can be used with a window management tool like Magnet . Step-by-Step Instructions: Install Notion: Download and install Notion from the Notion website . Create Notes in Notion: Create five separate pages or notes in Notion for your different spaces. Install Magnet: Download and install Magnet from the Mac App Store or another window management tool that allows you to keep windows in specific positions. Position Notes: Open each Notion note in a separate window and use Magnet to position each note in a specific space. Use Magnet's features to keep the windows on top if available. Option 3: Using Floating Widgets GeekTool allows you to create customizable widgets on your desktop. Step-by-Step Instructions: Install GeekTool: Download and install GeekTool from the GeekTool website . Create Widgets: Use GeekTool to create five different text widgets on your desktop. You can customize the appearance and position of these widgets. Position Widgets in Spaces: Position each widget in a separate space using Mission Control. Conclusion Each of these options has its strengths, so you can choose the one that best fits your workflow. If you need basic formatting and a robust note-taking experience, Notion with a window manager like Magnet might be the best choice. If you prefer a lightweight and straightforward solution, Stickies with Afloat or Hammerspoon is a good option. For highly customizable desktop widgets, GeekTool is ideal.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848116/how-to-have-5-different-always-on-top-notes-one-on-each-screen
+
+---
+
+#### 5597. how to pipe output from a command in its own shell?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, zsh | Score: 1 | Views: 1251 | Answers: 2 | Created: 2024-06-10
+
+**解决方案 / Solution**:
+The following is from man say . If the input is a TTY, text is spoken line by line.... Otherwise, text is spoken all at once. Below is what you are using. ollama run llama3:latest | tee >(say) You have the say command reading input from a pipe which is not a TTY and therefore the text is spoken all at once. Try what is below instead. ollama run llama3:latest | tee >(while read -r; do say "$REPLY"; done) Here the read command gets each line of text from a pipe. Each read line is placed in the variable REPLY . The say command then gets each line of text to speak from the command line. This repeats until end-of-file is encountered on the pipe. Evidentially, escape sequences are imbedded in the output. To determine what and where, I entered the following commands. ollama run llama3:latest | tee out.txt Below in the output as seen at the Terminal window after entering my test input at the >>> prompt. >>> hello Hello! It's nice to meet you. Is there something I can help you with, or would you like to chat? >>> /bye Below is a hex/ASCII dump of out.txt % hexdump -Cv out.txt 00000000 1b 5b 3f 32 30 30 34 68 3e 3e 3e 20 1b 5b 33 38 |.[?2004h>>> .[38| 00000010 3b 35 3b 32 34 35 6d 53 65 6e 64 20 61 20 6d 65 |;5;245mSend a me| 00000020 73 73 61 67 65 20 28 2f 3f 20 66 6f 72 20 68 65 |ssage (/? for he| 00000030 6c 70 29 1b 5b 32 38 44 1b 5b 30 6d 1b 5b 4b 68 |lp).[28D.[0m.[Kh| 00000040 65 6c 6c 6f 0a 48 65 6c 6c 6f 21 20 49 74 27 73 |ello.Hello! It's| 00000050 20 6e 69 63 65 20 74 6f 20 6d 65 65 74 20 79 6f | nice to meet yo| 00000060 75 2e 20 49 73 20 74 68 65 72 65 20 73 6f 6d 65 |u. Is there some| 00000070 74 68 69 6e 67 20 49 20 63 61 6e 20 68 65 6c 70 |thing I can help| 00000080 20 79 6f 75 20 77 69 74 68 2c 20 6f 72 20 77 6f | you with, or wo| 00000090 75 6c 64 20 79 6f 75 20 6c 69 6b 65 20 74 6f 20 |uld you like to | 000000a0 63 68 61 74 3f 0a 0a 3e 3e 3e 20 1b 5b 33 38 3b |chat?..>>> .[38;| 000000b0 35 3b 32 34 35 6d 53 65 6e 64 20 61 20 6d 65 73 |5;245mSend a mes| 000000c0 73 61 67 65 20 28 2f 3f 20 66 6f 72 20 68 65 6c |sage (/? for hel| 000000d0 70 29 1b 5b 32 38 44 1b 5b 30 6d 1b 5b 4b 2f 62 |p).[28D.[0m.[K/b| 000000e0 79 65 0a 1b 5b 3f 32 30 30 34 6c |ye..[?2004l| 000000eb This output shows the following: There is the escape sequence $'\33[?2004h' at the beginning of the file. This can be removed by setting REPLY="${REPLY#$'\33'*h}" . The prompt >>> is followed by the $'\33[38;5;245mSend a message (/? for help)\33[28D\33[0m\33[K escape sequences and text. This can be removed by setting REPLY="${REPLY#>>>*K}" . There is the escape sequence $'\33[?2004l' at the end of the file. This can be removed by setting REPLY="${REPLY#$'\33'*l}" . However, since this escape sequence is not followed by a newline ( $'\n' ), the read command would return a nonzero value when encountering this sequence. Below is a test showing the escape sequences and undesired text can be removed. while read -r; do REPLY="${REPLY#$'\33'*h}"; echo -n "${REPLY#>>>*K}" | hexdump -Cv; done < out.txt Which produces the following output. 00000000 68 65 6c 6c 6f |hello| 00000005 00000000 48 65 6c 6c 6f 21 20 49 74 27 73 20 6e 69 63 65 |Hello! It's nice| 00000010 20 74 6f 20 6d 65 65 74 20 79 6f 75 2e 20 49 73 | to meet you. Is| 00000020 20 74 68 65 72 65 20 73 6f 6d 65 74 68 69 6e 67 | there something| 00000030 20 49 20 63 61 6e 20 68 65 6c 70 20 79 6f 75 20 | I can help you | 00000040 77 69 74 68 2c 20 6f 72 20 77 6f 75 6c 64 20 79 |with, or would y| 00000050 6f 75 20 6c 69 6b 65 20 74 6f 20 63 68 61 74 3f |ou like to chat?| 00000060 00000000 2f 62 79 65 |/bye| 00000004 The above shows the escape sequences and undesired text have been removed. The same can be applied when the say command is used, as shown below. ollama run llama3:latest | tee >(while read -r; do REPLY="${REPLY#$'\33'*h}"; say "${REPLY#>>>*K}"; done) Below is a simplification which pass the same strings to the say command. However, there may be cases where this is an oversimplification. ollama run llama3:latest | tee >(while read -r; do say "${REPLY#[$'\33'>]*K}"; done) This answer was tested using zsh and macOS Monterey.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1845394/how-to-pipe-output-from-a-command-in-its-own-shell
+
+---
+
+#### 5598. TO close Tmux along with terminal (if terminal is closed)
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, tmux | Score: 1 | Views: 665 | Answers: 1 | Created: 2024-04-07
+
+**解决方案 / Solution**:
+From man 1 tmux : destroy-unattached [off | on | keep-last | keep-group] If on , destroy the session after the last client has detached. If off (the default), leave the session orphaned. […] tmux set-option destroy-unattached on will set the option to on for the current session. If you want tmux always to behave like this, set the global option in your .tmux.conf : set-option -g destroy-unattached on and restart your tmux server.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1838186/to-close-tmux-along-with-terminal-if-terminal-is-closed
+
+---
+
+#### 5599. How to enable split horizontal/vertical shortcut on WezTerm?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, terminal, wezterm, panes | Score: 1 | Views: 5087 | Answers: 3 | Created: 2024-03-31
+
+**解决方案 / Solution**:
+Did you tried? ctrl-shift-option-% ctrl-shift-option-" Source: https://github.com/wez/wezterm/discussions/5248#discussioncomment-8975849
+
+**参考链接 / References**:
+- https://superuser.com/questions/1837394/how-to-enable-split-horizontal-vertical-shortcut-on-wezterm
+
+---
+
+#### 5600. Windows 11 Browser videos are not visible behind transparent CMD window
+
+**问题描述 / Problem Description**:
+Tags: windows, terminal, windows-11, intel-graphics | Score: 1 | Views: 423 | Answers: 1 | Created: 2024-03-26
+
+**解决方案 / Solution**:
+I recreated your problem and did as suggested in the comments already. In edge, you can browse to edge://flags and set "Calculate window occlusion on Windows" to Disabled . After doing that, chrome rendered Youtube (and other video content) fine with a fullscreen Terminal overlay.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1836663/windows-11-browser-videos-are-not-visible-behind-transparent-cmd-window
+
+---
+
+#### 5601. Clearing the terminal without deleting anything
+
+**问题描述 / Problem Description**:
+Tags: terminal | Score: 1 | Views: 1258 | Answers: 1 | Created: 2024-03-18
+
+**解决方案 / Solution**:
+You can use clear -x to preserve the scrollback buffer, or CTRL+L keypress. You could e.g. alias something like cls to 'clear -x' so you have two commands available, to either clear the buffer or not. Both these work in Kitty 0.76.1.13, when I use it to SSH into Bash (or Fish 3.0.2) on a Debian remote computer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1835601/clearing-the-terminal-without-deleting-anything
+
+---
+
+#### 5602. git is unable to properly determine the terminal width (git-bash, windows)
+
+**问题描述 / Problem Description**:
+Tags: windows, bash, terminal, git, git-bash | Score: 1 | Views: 499 | Answers: 1 | Created: 2024-02-19
+
+**解决方案 / Solution**:
+I found interesting information in the post LINES and COLUMNS environmental variables lost in a script which might explain the problem: Often, on modern systems, the $COLUMNS and $LINES variables are not environment variables. The shell sets these values dynamically after each command and we usually cannot access them from non-interactive scripts. Some programs respect these values if we export them, but this behavior isn't standardized or universally supported. Bash sets these variables in the scope of the process (not the environment) when we enable the checkwinsize option using: shopt -s checkwinsize Many systems enable this option for us in a default or system-wide startup file ( /etc/bashrc or similar), so we need to remember that these variables may not always be available. On some systems, such as Cygwin, this option is not enabled for us, so Bash doesn't set $COLUMNS and $LINES unless we execute the line above or add it to our ~/.bashrc . Your case is probably one where the columns are not set for some reason, and you may workaround the problem as described above. In the case that this still doesn't work for whatever reason, the final workaround will be: alias git='COLUMNS=$(tput cols) git'
+
+**参考链接 / References**:
+- https://superuser.com/questions/1830938/git-is-unable-to-properly-determine-the-terminal-width-git-bash-windows
+
+---
+
+#### 5603. numpad enter remapped in new macOS updates for alacritty
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, keyboard, terminal, alacritty | Score: 1 | Views: 377 | Answers: 1 | Created: 2024-02-06
+
+**解决方案 / Solution**:
+To Fix alacritty Check what is going on when you type on your keyboard. more info alacritty --print-events [3.734266542s] [INFO ] [alacritty] winit event: WindowEvent { window_id: WindowId(WindowId(4905463248)), event: KeyboardInput { device_id: DeviceId(DeviceId), event: KeyEvent { physical_key: Code(Enter), logical_key: Named(Enter), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("\r"), key_without_modifiers: Named(Enter) } }, is_synthetic: false } } .... [5.825335959s] [INFO ] [alacritty] winit event: WindowEvent { window_id: WindowId(WindowId(4905463248)), event: KeyboardInput { device_id: DeviceId(DeviceId), event: KeyEvent { physical_key: Code(NumpadEnter), logical_key: Named(Enter), text: Some("\r"), location: Numpad, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("\u{3}"), key_without_modifiers: Named(Enter) } }, is_synthetic: false } } Trying to isolate this problem took a lot longer than I expected. Edit the alacritty config. nvim ~/.config/alacritty/alacritty.toml Add [[keyboard.bindings]] key = "NumpadEnter" chars = "\r" This fixes the problem for the one application with which I am having problems, Alacritty. Test Numpad enter. ❯ whoami aaron
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829056/numpad-enter-remapped-in-new-macos-updates-for-alacritty
+
+---
+
+#### 5604. Is there a way to set password entry via curses interface in terminal?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, terminal, linux-terminal | Score: 1 | Views: 182 | Answers: 1 | Created: 2024-01-29
+
+**解决方案 / Solution**:
+Yes and no, but mostly no, because this is not actually sudo. When the polkitd daemon is verifying admin credentials, it invokes the password prompt through a back channel – the GUI is not shown by systemctl directly, but is part of your desktop environment that registers with polkitd to wait for any future password prompts. While this prompt could be an ncurses thing (and systemctl in fact has a built-in terminal-based prompter and always runs it in such situations), there generally can only be only one per whole session. As long as your desktop environment has already registered its graphical prompter, the fallback terminal-based prompter that systemctl temporarily runs will never get used. (PolicyKit is not like sudo or UAC – systemctl doesn't become more privileged or anything like that; it just invokes the requested action and the service decides "hold on, this action requires admin auth". The advantage is, well, that the program doesn't need to sudo itself, which used to be troublesome with GUI apps.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1827993/is-there-a-way-to-set-password-entry-via-curses-interface-in-terminal
+
+---
+
+#### 5605. GNU 'Screen' clears some or all of the output history displayed in the terminal when attach to the screen
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, terminal, gnu-screen | Score: 1 | Views: 366 | Answers: 1 | Created: 2023-12-30
+
+**解决方案 / Solution**:
+That's not going to work with screen . Screen is indeed a whole terminal running inside your regular terminal, interpreting control sequences and outputting new ones; it's designed this way so that it could fully restore the environment you're working in – not just when your connection is interrupted and you're reattaching from the exact same terminal, but also when one is attaching from somewhere else entirely, where one would want Screen to bring the scrollback – or when one uses Ctrl-A to switch between multiple 'windows' in the same Screen session, each of which has its own scrollback. This is in part because terminal apps have no reliable way to update your terminal scrollback history (and also in Screen's early days they were physical terminals that didn't have such a thing at all), so the only decent option for Screen is to disable that (using the "altscreen" output mode) and to handle scrolling all on its own. (The other reason is that Screen allows you to split the screen into multiple vertical or horizontal panes, each having its own scrollback history, and that's just entirely incompatible with relying on the parent terminal's scrolling.) tmux also works the same way but is in many regards a better alternative to Screen. (Except for its default Ctrl-B choice of hotkey, which I always change back to Ctrl-A.) I'd suggest trying it first; chances are you'll quickly get used to working in this environment. (Many people use screen/tmux through the byobu wrapper. zellij is another extra-fancy terminal multiplexer.) You could try dtach , which does not do full terminal emulation – it only attaches and detaches the output, just like you want – but the consequences are that it doesn't support switching between multiple windows like screen/tmux do, or properly restoring state of full-screen apps. abduco might be a more modern alternative to dtach. (It's meant to be used together with dvtm which is also a full-screen multiplexer, so I'm not sure how well it handles non-altscreen apps – never tried it myself.) Finally, I would recommend a completely different approach which is to set up a WireGuard VPN tunnel to one of your servers that has a stable connection (commercial WireGuard-based VPN services should also do the job), then use regular SSH through that. Most kinds of VPN tunnels will already prevent the connection from dying when your IP address changes (or being killed by the router when its NAT states are reset), but WireGuard in particular is quite good at handling lossy and unreliable connections as well as client IP changes. On top of that, it works well in a multipoint configuration where you'd connect to each server directly, as well as a central gateway configuration. Tailscale and Innernet are two WireGuard-based VPN tools if you don't feel like setting up the tunnel from scratch. Some other VPN products such as ZeroTier also have similar useful properties (OpenVPN less so, although it can be made to work if you twiddle with the auto-reconnect settings).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1823652/gnu-screen-clears-some-or-all-of-the-output-history-displayed-in-the-terminal
+
+---
+
+#### 5606. How to call ifcconvert from the terminal
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, python, pip | Score: 1 | Views: 248 | Answers: 1 | Created: 2023-12-12
+
+**解决方案 / Solution**:
+Download the zip from here . Then extract the binary file from the zip and place it is a directory, say .local/bin . Assure the directory is in PATH . In order to do that open .bashrc file from the home directory. Add the line to end of the file: export PATH="$HOME/.local/bin:$PATH" Now open terminal and restart bash: bash -- Now type IfcConvert --help to check it is working.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1820310/how-to-call-ifcconvert-from-the-terminal
+
+---
+
+#### 5607. What's the difference between git-bash.exe and bash.exe and how they interact with Windows Terminal?
+
+**问题描述 / Problem Description**:
+Tags: windows, bash, terminal, windows-terminal, git-bash | Score: 1 | Views: 3735 | Answers: 1 | Created: 2023-12-07
+
+**解决方案 / Solution**:
+Of course they are different. git-bash.exe git-bash.exe is a terminal executable based on mintty. I won't explain what terminal (and shell) is as the internet is full of materials about it (e.g. see this question: What is the difference between shell, console, and terminal? ), I'll just shortly mention that this executable is basically aimed at providing a GUI window with options to the user. Hence a new window always opens when you launch it. bash.exe bash.exe is a shell executable. Its main goal is to process/interpret the commands provided by the user. It can be hooked into any terminal that supports it, including Windows Terminal . Functional differences Will you lose anything if you go for bash.exe ? Well, you'll definitely not be able to use terminal preferences of Git Bash, if you set up any in its Options.. menu: You will also lose any GUI capabilities that the terminal provides and that Windows Terminal doesn't. But since Windows Terminal is a more modern terminal, I doubt there'll by anything relevant for most users. Other than that, you won't lose any functionality.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1819677/whats-the-difference-between-git-bash-exe-and-bash-exe-and-how-they-interact-wi
+
+---
+
+#### 5608. I can't get my terminal to open folders or files with spaces in the title in macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, files-folders | Score: 1 | Views: 332 | Answers: 1 | Created: 2023-11-16
+
+**解决方案 / Solution**:
+Thank you Gantendo I needed to add a / at the end of the file folder for example cd C\ Projects/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816841/i-cant-get-my-terminal-to-open-folders-or-files-with-spaces-in-the-title-in-mac
+
+---
+
+#### 5609. Symbolic Link not working in sub-directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, symbolic-link, ln | Score: 1 | Views: 1477 | Answers: 1 | Created: 2023-11-07
+
+**解决方案 / Solution**:
+Symlink targets are stored as raw paths (hence 'symbolic' link). By default, when you use ln -s the target path is stored literally – it's not made relative, it's stored just as you specified it. Relative paths must therefore be specified as if they were relative to the link's location, not relative to your current location: ln -s ../foo.txt bar/foo.txt Because the link is in bar/ , the link will lead to bar/../foo.txt . Creating relative links will be much easier if you first cd to where the link will be (as then the link's location and your current location will be the same). On recent Linux, the ln command has an additional -r option to simplify this and create relative links the way you expect them to work: ln -r -s foo.txt bar/foo.txt (Notice that after you do this, the link's target will automatically become ../foo.txt again.) On Linux you can try using the namei command to get a visual representation of how a certain path (including symlinks) is followed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1815606/symbolic-link-not-working-in-sub-directory
+
+---
+
+#### 5610. Ser2net returns double lines in terminal. What to do?
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, console, telnet | Score: 1 | Views: 825 | Answers: 1 | Created: 2023-10-25
+
+**解决方案 / Solution**:
+I hade the same issue, and the following accepter configuration resolved it: accepter: telnet(rfc2217),tcp,8001
+
+**参考链接 / References**:
+- https://superuser.com/questions/1814105/ser2net-returns-double-lines-in-terminal-what-to-do
+
+---
+
+#### 5611. Bash script header for virtual machine
+
+**问题描述 / Problem Description**:
+Tags: bash, security, terminal | Score: 1 | Views: 494 | Answers: 1 | Created: 2023-09-19
+
+**解决方案 / Solution**:
+Whether it works or not depends entirely on the initial interpreter. It's hacky, yes, but anything else would necessarily be a very OS-specific solution. If Bash doesn't mind the script ending with garbage, this is fine. Such methods used to be common in Tcl scripts, which would sometimes start like a bash script that executes tclsh (instead of directly calling tclsh, for various reasons). (Similar techniques are also part of the language in Perl and PHP, where the entire script is parsed but you can explicitly tell the compiler to stop at __DATA__ – although in this case, the original interpreter is Perl or PHP, it merely reads a data payload from the script.) What would make it less hacky is to directly use "$0" instead of trying to split it up and recombine. You don't need to go out of your way to resolve symlinks, usually. A somewhat preferred mechanism for Linux specifically would be to register your format via 'binfmt_misc'. Make sure the executables begin with a distinct "magic number" of your choice (that is, a static prefix that unambiguously identifies your format; generally at least 4 bytes is a good idea) – teach your VM runtime to recognize and skip it if necessary, like it currently skips the #!/bin/bash – then you can configure Linux to accept such files as executables and to automatically run them under the correct interpreter. For example, WASM executable files start with the bytes \0asm\1\0\0\0 , so if you write this :wasm1:M::\x00\x61\x73\x6d\x01\x00\x00\x00::/usr/bin/wasmer_ wrapper : to /proc/sys/fs/binfmt_misc/register (or place it in /etc/binfmt.d/wasm.conf ), now you can directly execute WASM programs: $ ls -l main.wasm -rwxr-xr-x 1 users 1.2K Feb 8 2023 main.wasm* $ file main.wasm main.wasm: WebAssembly (wasm) binary module version 0x1 (MVP) $ head -c 16 main.wasm | hd 00000000 00 61 73 6d 01 00 00 00 01 17 04 60 01 7f 00 60 |.asm.......`...`| $ ./main.wasm Hello, world!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1809058/bash-script-header-for-virtual-machine
+
+---
+
+#### 5612. PuTTY vs OpenSSH on Windows for ssh connections
+
+**问题描述 / Problem Description**:
+Tags: windows, ssh, terminal, putty, openssh | Score: 1 | Views: 2457 | Answers: 1 | Created: 2023-09-14
+
+**解决方案 / Solution**:
+From security point of view, I am not aware of any relevant differences. But there are some differences in the features they offer. If I speak of "SSH" in the following, I mean the Windows build in SSH client. SSH supports the jump option ( -J user@host:port ) PuTTY does have a jump feature with plink, but it's not exactly the same and more complex to configure PuTTY supports passwords on command line, which is useful for scripting, though potentially dangerous PuTTY has a GUI to store connections with their configurations (like proxy, port tunneling, accepted Ciphers, aso.) you can customize PuTTY in many ways, concerning behavior and looks SSH customization options are (as far as I know) very limited in some configuration files All in all PuTTY offers much more features - the question is if you need these. I personally use PuTTY , because it's integrated in WinSCP and SSH , because I sometimes need the jump option (when I need a port forwarding on a server, while going via another server) and because I'm more familiar with its usage from using Linux systems. Hope this helped.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1808368/putty-vs-openssh-on-windows-for-ssh-connections
+
+---
+
+#### 5613. How to execute three terminal scripts in three new tabs from Applescript?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, terminal, script, applescript | Score: 1 | Views: 738 | Answers: 1 | Created: 2023-09-06
+
+**解决方案 / Solution**:
+You can just send the key command to open a new tab, then direct your script to this new tab. You don't need to activate each time, once it's at the front. Here I've substituted echo hello so it's safe to test. tell application "Terminal" activate tell application "System Events" to keystroke "t" using {command down} do script "echo hello" in selected tab of the front window tell application "System Events" to keystroke "t" using {command down} do script "echo hello" in selected tab of the front window tell application "System Events" to keystroke "t" using {command down} do script "echo hello" in selected tab of the front window end tell You could run a loop, but it doesn't seem worth it when each new script is different [& we don't actually know what it might do]. This contains no error checking. You might need to add delays or a presence-check to make sure it runs smoothly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1807344/how-to-execute-three-terminal-scripts-in-three-new-tabs-from-applescript
+
+---
+
+#### 5614. Tmux tile layout arranges 8 panes into 3x3 instead of 4x2
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, tmux, tiles | Score: 1 | Views: 2435 | Answers: 1 | Created: 2023-08-12
+
+**解决方案 / Solution**:
+General approach The select-layout tmux command allows you to specify a layout in the format used by window_layout or window_visible_layout tmux variable. This leads to the following solution: One-time preparation In a new tmux window manually create the layout you want. In a shell inside one of the panes in the tmux window query tmux for window_layout and save the response to a file: tmux display-message -p '#{window_layout}' >my_layout Usage Any time you want to use the layout, pass the content of the file to select-layout : tmux select-layout "$(cat my_layout)" Notes: select-layout allows you to select a target pane (with -t target-pane ), so you can use the command to select a layout for another window or even from the outside of tmux. Instead of a file you can use a shell variable, but since it's virtually impossible to change variables or the environment of an already running shell from the outside of the shell, and managing the environment in tmux is somewhat complicated , it's relatively easy to find yourself in a situation when you need the variable in a shell where it's not set. Files seem a better approach; e.g. you can create a directory ~/.tmux_layouts/ and store your custom layouts there. A layout created for N panes can be selected for a window containing up to N panes. A layout is saved from a window of certain dimensions. Selecting the layout for a window of different dimensions will make tmux recalculate it to the new dimensions. The result may or may not be exactly what you want, but at least the general arrangement of panes should match and you should be able to achieve the desired exact result by resizing the panes (e.g. by dragging their borders with your mouse). Layouts that look identical, may or may not be logically identical. E.g. the panes in this layout +-----+-----+ | | | | | | +-----+-----+ | | | | | | +-----+-----+ can be resized either to +----+------+ | | | +----++-----+ | | | | | | | | | +-----+-----+ or to +-------+---+ | | | | | | +-------+ | | +---+ | | | +-------+---+ In other words either the vertical or the horizontal border is a single entity that reaches from edge to edge, while the perpendicular border is in fact two borders that can be moved independently. Which exact layout you have, it depends on if you did the vertical or the horizontal split first while creating the layout. For more complicated layouts there are more possibilities. The differences manifest themselves not only when panes are resized. Visually identical but logically different layouts may give different results if selected for a window with fewer panes than in the layouts. In general you may want to carefully design your desired layout (I mean the order of splits), so it behaves as you expect when you resize panes (drag borders) or select it for a window with fewer panes. Specific example The following command arranges 8 panes to what I think the OP meant. When selected for a window with fewer panes, it may or may not match the expectation though. tmux select-layout '0ab5,208x60,0,0[208x15,0,0{104x15,0,0,12,103x15,105,0,29},208x14,0,16{104x14,0,16,28,103x14,105,16,30},208x14,0,31{104x14,0,31,22,103x14,105,31,31},208x14,0,46{104x14,0,46,27,103x14,105,46,32}]' While the general approach (above) advises saving to and reading from a file, this example specifies the layout directly. I created the "layout code" in tmux 3.3a.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803835/tmux-tile-layout-arranges-8-panes-into-3x3-instead-of-4x2
+
+---
+
+#### 5615. Run Java JAR file in background
+
+**问题描述 / Problem Description**:
+Tags: terminal, java, windows-terminal, high-dpi, jdownloader | Score: 1 | Views: 1273 | Answers: 1 | Created: 2023-08-12
+
+**解决方案 / Solution**:
+I think that the .jar extension is linked in the registry to one JRE version, while another JRE version is in the PATH from which executes jar.exe . It seems like the version in the PATH doesn't handle well the screen DPI. You may check the version used in the PATH by running Control Panel > System > Advanced system settings > Environment Variables... for both user and System. You may check the .jar using regedit at the registry key HKEY_CLASSES_ROOT\.jar and presumably HKEY_CLASSES_ROOT\jarfile\shell\open\command .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803804/run-java-jar-file-in-background
+
+---
+
+#### 5616. Can I modify the exit key for the less command in ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, less | Score: 1 | Views: 145 | Answers: 1 | Created: 2023-08-11
+
+**解决方案 / Solution**:
+I made it by writing this to file: #command \177 quit and then doing lesskey <file>
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803609/can-i-modify-the-exit-key-for-the-less-command-in-ubuntu
+
+---
+
+#### 5617. How do I end screen -x?
+
+**问题描述 / Problem Description**:
+Tags: terminal, gnu-screen | Score: 1 | Views: 211 | Answers: 1 | Created: 2023-08-08
+
+**解决方案 / Solution**:
+If you run screen -x (note the space), CTRL + C or CTRL + D is not safe and will be passed to a process inside screen , be it rsync of anything else. In particular, rsync will be stopped by the break signal. To detach a running screen without interruption of the process inside you need to type CTRL + A D , i.e. hold CTRL , while holding it it press A and release, and then press D and release, and then release CTRL . You will see the message like [detached from 46865.pts-5.uc-s4m75657] , where the last part is the socket name. You can reattach it by running screen -r <socket> or screen -x <socket> afterwards, where <socket> is the socket name from previous. If you have only one free socket, you can just run screen -r or screen -x . You can list all the current sockets with screen -list .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803098/how-do-i-end-screen-x
+
+---
+
+#### 5618. How to configure the user's terminal history in Synology DSM?
+
+**问题描述 / Problem Description**:
+Tags: terminal, history, synology, command-history, synology-diskstation | Score: 1 | Views: 1444 | Answers: 2 | Created: 2023-07-27
+
+**解决方案 / Solution**:
+$ nano ~/.profile export HISTSIZE=1000000 export HISTFILESIZE=1000000 export HISTTIMEFORMAT="%y-%m-%d %H:%M:%S " $ source ~/.profile
+
+**参考链接 / References**:
+- https://superuser.com/questions/1800444/how-to-configure-the-users-terminal-history-in-synology-dsm
+
+---
+
+#### 5619. ANSI codes in /etc/issue file
+
+**问题描述 / Problem Description**:
+Tags: ssh, terminal, ansi | Score: 1 | Views: 856 | Answers: 1 | Created: 2023-07-11
+
+**解决方案 / Solution**:
+How can I fix that? You don't. Most SSH clients (certainly OpenSSH) deliberately prevent ANSI codes from being output in the pre-login banner, so that an untrusted server could not potentially send harmful codes to the client – there's nothing you can do to change that from server side (that's kind of the point ). Suggestions: Keep two copies of the banner, a fancy one in /etc/issue for console/serial logins and a plain monochrome banner in something like /etc/ssh/issue.net for SSH (the path is configurable). Stop using the SSH banner for graphics in general. (Honestly, a large pre-connection banner gets annoying if one needs to SSH to a server frequently.) Move fancy logos to the post-login /etc/motd instead.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795423/ansi-codes-in-etc-issue-file
+
+---
+
+#### 5620. How do you output the ACTUAL filesystem type on a Linux terminal, based on the mountpoint?
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, filesystems, mount | Score: 1 | Views: 1152 | Answers: 2 | Created: 2023-06-30
+
+**解决方案 / Solution**:
+The reliable way is to use findmnt to get the device then list the FSTYPE with lsblk lsblk -lpno fstype "$(findmnt -no SOURCE /boot)" lsblk -lpno fstype "$(findmnt -no SOURCE /)" lsblk -lpno fstype "/dev/disk/by-partuuid/$(findmnt -no PARTUUID /boot)" lsblk -lpno fstype "/dev/disk/by-partuuid/$(findmnt -no PARTUUID /)" lsblk -lpno fstype "/dev/disk/by-uuid/$(findmnt -no UUID /boot)" lsblk -lpno fstype "/dev/disk/by-uuid/$(findmnt -no UUID /)" No need to grep at all
+
+**参考链接 / References**:
+- https://superuser.com/questions/1792780/how-do-you-output-the-actual-filesystem-type-on-a-linux-terminal-based-on-the-m
+
+---
+
+#### 5621. What does ".//" represent while checking path?
+
+**问题描述 / Problem Description**:
+Tags: mac, terminal | Score: 1 | Views: 53 | Answers: 1 | Created: 2023-06-29
+
+**解决方案 / Solution**:
+Multiple slashes are ignored and merged into a single one, according to Unix specification(s) : Multiple successive characters are considered to be the same as one , except for the case of exactly two leading characters The leading // exception is optional and varies between implementation. Normally, it won't do anything special in popularly used systems, including macOS from question: If a pathname begins with two successive characters, the first component following the leading characters may be interpreted in an implementation-defined manner, although more than two leading characters shall be treated as a single character. Source
+
+**参考链接 / References**:
+- https://superuser.com/questions/1792411/what-does-represent-while-checking-path
+
+---
+
+#### 5622. Bash terminals launched from windows UI have an invalid `!::=::\` variable set
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, environment-variables, msys2 | Score: 1 | Views: 98 | Answers: 1 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+This has been reported in the Docker post docker stack deploy Fails When Run From cmd.exe on Windows with CLI v23+ #4078 . The explanation is that when you run a command from the graphical interface, it is implicitly invokes cmd.exe , which means that it also inherits the environment of CMD. A user furnished a link to the article What are these strange =C: environment variables? where is found the explanation: cmd.exe basically keeps special environment variables with blank names to support old MS-DOS functionality. These are the environment variables that Docker stumbles over. In this spirit, another user has recommended changing the error message from "unexpected environment ..." to "unexpected environment variable ...".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785348/bash-terminals-launched-from-windows-ui-have-an-invalid-variable-set
+
+---
+
+#### 5623. How to show the terminal associated with a window in the status line
+
+**问题描述 / Problem Description**:
+Tags: terminal, tmux | Score: 1 | Views: 2573 | Answers: 2 | Created: 2023-04-21
+
+**解决方案 / Solution**:
+Tmux is a terminal multiplexer. Your tmux server provides ttys to processes running "inside" tmux, in panes (note: a tmux window not split into panes is just one big tmux pane). Tmux clients use ttys usually provided by terminal emulators or virtual terminals. The processes use their respective ttys, the tmux server manages data flow and ultimately you see windows, panes and a status line displayed by your tmux client in its tty. The tmux server itself is not attached to any tty though. The server is responsible for refreshing the status line. Your tmux server was invoking the tty command you specified and got not a tty each time. It seems you want to know ttys of panes, not the tty the tmux client uses. Try the following tmux command: set-option -g window-status-format "#{pane_tty}:#W#F" Notes: There is also window-status-current-format . You probably want to modify it as well. Each entry in the window list in the status line is associated with a tmux window. Tmux windows are not directly associated to ttys. A window is a set of panes plus their layout. Any tmux window can be split into two or more panes. #{pane_tty} in our format will show you the tty of the most recently used pane in the respective window. Your whole idea will work really well only if each of your tmux windows is one big pane.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1780065/how-to-show-the-terminal-associated-with-a-window-in-the-status-line
+
+---
+
+#### 5624. Open terminal to locally forwarded port
+
+**问题描述 / Problem Description**:
+Tags: ssh, terminal, port-forwarding, ubuntu-20.04 | Score: 1 | Views: 1255 | Answers: 1 | Created: 2023-04-16
+
+**解决方案 / Solution**:
+Your command shown in the question is not intended for just opening a shell at the remote system . This is used to tunnel application access through the encrypted tunnel like a webbrowser access to remote an intranet server or for you SQL client to access the SQL server. These applications will reach the remote server by accessing localhost:local_port instead of the unreachable remote address. If you just want to open a terminal shell on the remote system then your command can be simpler: ssh -i ~/.ssh/id_rsa remote_username@ssh_server_hostname enter the password (of the key id_rsa ) ... and you have your shell. As you do not know the password of the remote_user, you are required to use the key-authentication as you have the key. The option -i ~/.ssh/id_rsa provides the key. To reduce complexity for the daily handling you can configure this host access in the file: ~/.ssh/config # Your Project Server: Host REMOTE_SERVER Port REMOTE_PORT User REMOTE_USERNAME IdentityFile ~/.ssh/id_rsa AddKeysToAgent yes Annotations to the config file : The key line is Host ... . All entries following this line are assigned to the server defined there, until the next host -line defines the next server (or the file ends). Global settings have to be written before the first host -line The line AddKeysToAgent yes allows the ssh-agent to store the password of the key, so the next time you have not to enter the password again. After configuring the ~/.ssh/config , your command to open a remote shell gets shorter: ssh REMOTE_SERVER Is this the answer you've expected? Anything missing?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1779215/open-terminal-to-locally-forwarded-port
+
+---
+
+#### 5625. is there a way to convert automatically images files to odt format in linux terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, conversion, odt | Score: 1 | Views: 664 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+You can do it in 2 steps. First, convert all images to .pdf format using ImageMagick : magick *.{png,jpg} output.pdf Then there are a bunch of options to convert to .odt , e.g.: use pdf2odt : pdf2odt output.pdf output.odt (EDIT: apparently this can convert images directly to .odt too, but not sure if it supports multiple) use AbiWord : abiword --to=odt output.pdf
+
+**参考链接 / References**:
+- https://superuser.com/questions/1779010/is-there-a-way-to-convert-automatically-images-files-to-odt-format-in-linux-term
+
+---
+
+#### 5626. Windows Terminal Not Picking up PATH variable
+
+**问题描述 / Problem Description**:
+Tags: command-line, powershell, terminal, windows-11, windows-terminal | Score: 1 | Views: 3202 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+So after a couple of hours, the issue turned out to be the PATHEXT system variable. It should be .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC . However, its seems like an application messed it up and changed it to %PATHEXT;.RB% , probably something related to ruby.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1778926/windows-terminal-not-picking-up-path-variable
+
+---
+
+#### 5627. Keyboard Shortcut for Navigation Pane - Microsoft Word for Mac version 16.44
+
+**问题描述 / Problem Description**:
+Tags: mac, microsoft-word, keyboard-shortcuts, macbook | Score: 1 | Views: 2390 | Answers: 1 | Created: 2021-01-05
+
+**解决方案 / Solution**:
+It is not currently assigned, you can assign a custom keystroke of your own. From the Menu Bar Tools Tab selection choose Customize Keyboard... and then for the NavPane choose View as the category and NavPane for the command, and set your custom keystrokes. For this example I set it to Option+Control+Shift+N
+
+**参考链接 / References**:
+- https://superuser.com/questions/1615328/keyboard-shortcut-for-navigation-pane-microsoft-word-for-mac-version-16-44
+
+---
+
+#### 5628. Can I use Lenovo Type-C charger (20V) with Macbook Pro 2019 (20.3V)?
+
+**问题描述 / Problem Description**:
+Tags: laptop, battery, macbook, charging, usb-3.1-type-c | Score: 1 | Views: 14448 | Answers: 1 | Created: 2020-09-28
+
+**解决方案 / Solution**:
+It should be fine. Worst case scenario is it won't work. I'm pretty convinced both chargers are USB-PD compliant because 20V, 15V, 9V and 5V are voltages USB-PD spec defines. The device will negotiate charging voltage with the adapter. Voltage variations on Apple's charger are within 5%, that's perfectly fine. Higher current ratings (20V/3.25A vs 20V/3.0A) are okay. Lower ratings (5V/2A vs 5V/3A) aren't a problem, but the device would be charging slower at that voltage (but it's going to switch to 20V anyway, so it doesn't matter).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1589126/can-i-use-lenovo-type-c-charger-20v-with-macbook-pro-2019-20-3v
+
+---
+
+#### 5629. How to check Mac's uptime since last reset?
+
+**问题描述 / Problem Description**:
+Tags: mac, macbook, macbook-pro | Score: 1 | Views: 2285 | Answers: 1 | Created: 2020-09-28
+
+**解决方案 / Solution**:
+In Terminal, you can get Time since last boot with uptime History of reboots with last reboot History of shutdowns with last shutdown
+
+**参考链接 / References**:
+- https://superuser.com/questions/1589099/how-to-check-macs-uptime-since-last-reset
+
+---
+
+#### 5630. Bootcamp trackpad: Left tap while dragging with other finger
+
+**问题描述 / Problem Description**:
+Tags: windows-10, macbook, touchpad, boot-camp | Score: 1 | Views: 417 | Answers: 1 | Created: 2020-09-05
+
+**解决方案 / Solution**:
+This worked for me on a 2012 MBP with Windows 10 installed. Install bootcamp 6.0. Download and open bootcamp 5.1.5640 installer. Run the trackpad driver installer (bootcamp->drivers->apple->applemultitouchtrackpadinstller64.exe). Open devmgmt.msc -> human interface devices -> apple multi-touch. Update driver -> browse my computer -> let me pick from a list. Switch driver from "multi-touch" to "multitouch". I had to repeat the procedure after an update to Win 10 20H2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1583267/bootcamp-trackpad-left-tap-while-dragging-with-other-finger
+
+---
+
+#### 5631. Must refresh multiple times to load a webpage
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, proxy, firewall, macbook | Score: 1 | Views: 8337 | Answers: 2 | Created: 2020-07-30
+
+**解决方案 / Solution**:
+It sounds like a networking issue, maybe bad ethernet cable/ends or interference with wifi or failing wifi chip. I would recommend running a network test between two devices on your network and look for dropped packets. You said you are using Chrome... does it do the same with another browser?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1573069/must-refresh-multiple-times-to-load-a-webpage
+
+---
+
+#### 5632. Can I make my Mac sleep on a schedule automatically?
+
+**问题描述 / Problem Description**:
+Tags: macos, sleep, macbook, automation, macbook-pro | Score: 1 | Views: 590 | Answers: 1 | Created: 2020-07-09
+
+**解决方案 / Solution**:
+I'd like a setup that sleeps the computer at 7pm daily Option 1: You can include the following command in a scheduled script: pmset sleepnow To try this yourself, launch Terminal and use one of the following commands. Remember there is no warning, sleep is immediate. pmset sleepnow Hit return and the Mac is instantly put to sleep. That is one of the most simple uses of pmset, which is a full featured power management utility. Option 2: Use AppleScript since AppleScript can be scheduled easily: The syntax for the AppleScript sleep method is as follows: osascript -e 'tell application "Finder" to sleep' osascript is a command line tool that runs OSA scripts, the -e flag executes the script in quotes rather than looking for a file, and the text in quotations is basic AppleScript. Source: Sleep a Mac from the Command Line
+
+**参考链接 / References**:
+- https://superuser.com/questions/1567350/can-i-make-my-mac-sleep-on-a-schedule-automatically
+
+---
+
+#### 5633. Navigate tabs in MacOS Preview
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook, tabs, preview.app | Score: 1 | Views: 171 | Answers: 2 | Created: 2020-05-07
+
+**解决方案 / Solution**:
+It's not [yet] fully system-wide behaviour to have Cmd ⌘ [num] for direct selection. Most Apps, including Preview, still use a simple step left/right structure [Safari follows this as well as direct selection] Ctrl ⌃ Tab ⇥ or Ctrl ⌃ Shift ⇧ Tab ⇥
+
+**参考链接 / References**:
+- https://superuser.com/questions/1549574/navigate-tabs-in-macos-preview
+
+---
+
+#### 5634. Use laptop as second monitor
+
+**问题描述 / Problem Description**:
+Tags: windows-10, laptop, macbook, manjaro | Score: 1 | Views: 84 | Answers: 1 | Created: 2020-04-30
+
+**解决方案 / Solution**:
+Try using Synergy . It is not free ($29), but it is a one-time lifetime purchase, and it it totally worth it. It works on every major operating system, and allows seamless connection between multiple devices.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1547324/use-laptop-as-second-monitor
+
+---
+
+#### 5635. What do I set "Folder:" to in Windows 10 Map Network Drive to access my Macbook Pro's hard disk?
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, macbook | Score: 1 | Views: 80 | Answers: 1 | Created: 2020-04-14
+
+**解决方案 / Solution**:
+I got it working perfectly by following How to share Mac OS X Yosemite files with Windows 10
+
+**参考链接 / References**:
+- https://superuser.com/questions/1541888/what-do-i-set-folder-to-in-windows-10-map-network-drive-to-access-my-macbook
+
+---
+
+#### 5636. Is this normal? CPU temperature at under 60C but fans running extremely high?
+
+**问题描述 / Problem Description**:
+Tags: cpu, macbook, fan, macbook-pro, temperature | Score: 1 | Views: 3071 | Answers: 2 | Created: 2020-02-03
+
+**解决方案 / Solution**:
+Try to clean your fans. If fans gets dusty they might run faster because they cant cool down the CPU on a normal RPM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1522348/is-this-normal-cpu-temperature-at-under-60c-but-fans-running-extremely-high
+
+---
+
+#### 5637. Why do mac and synology report different file sizes?
+
+**问题描述 / Problem Description**:
+Tags: filesystems, macbook, finder, synology-diskstation | Score: 1 | Views: 1317 | Answers: 1 | Created: 2020-01-23
+
+**解决方案 / Solution**:
+macOS is using 10-based (decimal) prefixes, while Synology is using 2-based (binary) prefixes. In 10-based units, 1 GB (gigabyte) = 1000×1000×1000 B. In 2-based units, 1 GB ( gibibyte ) = 1024×1024×1024 B (1024 = 2 10 ). 2.69 GB ≈ 2.51 GiB: click . File sizes are usually expressed in binary units. Decimal units are only used by storage manufacturers, because 8 GB HDD is more impressive than 7.45 GiB. Synology's fault is that they're not indicating units correctly (GiB is the correct unit for binary prefixes). Apple's fault is that they're not using conventional binary units for file sizes.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1519532/why-do-mac-and-synology-report-different-file-sizes
+
+---
+
+#### 5638. Google Wi-Fi Issues
+
+**问题描述 / Problem Description**:
+Tags: wireless-networking, macbook, chromebook | Score: 1 | Views: 64 | Answers: 1 | Created: 2019-12-14
+
+**解决方案 / Solution**:
+The usual issue when using multiple access points is that more than one is set up to give out IP addresses (i.e. running DHCP) leading to conflicts. Only one should be the main router. The other two need to be configured to be signal repeaters only. Where to do this should be covered in the routers' documentation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1509978/google-wi-fi-issues
+
+---
+
+#### 5639. How to upgrade Ubuntu from 19.04 to 19.10
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, macbook | Score: 1 | Views: 113 | Answers: 1 | Created: 2019-11-20
+
+**解决方案 / Solution**:
+I've googled your question and found this : Upgrading from Ubuntu 19.04 To upgrade on a desktop system: Open the Software & Updates application. Select the 3rd Tab called Updates . Set the Notify me of a new Ubuntu version dropdown menu to For any new version . Press Alt + F2 and type in update-manager -c -d into the command box. Update Manager should open up and tell you: New distribution release '19.10' is available. If not you can also use /usr/lib/ubuntu-release-upgrader/check-new-release-gtk Click Upgrade and follow the on-screen instructions. (formatting edited for SuperUser)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1503647/how-to-upgrade-ubuntu-from-19-04-to-19-10
+
+---
+
+#### 5640. MacBook keyboard and trackpad on Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, drivers, keyboard, macbook, touchpad | Score: 1 | Views: 9781 | Answers: 1 | Created: 2019-11-20
+
+**解决方案 / Solution**:
+Looks like you're using Ubuntu 18.04 LTS which uses kernel 4.15 You should be able to just run this as root in the terminal and be good to go sudo su root echo -e "\n# applespi\napplespi\nspi_pxa2xx_platform\nintel_lpss_pci" >> /etc/initramfs-tools/modules apt install dkms git clone https://github.com/roadrunner2/macbook12-spi-driver.git /usr/src/applespi-0.1 dkms install -m applespi -v 0.1 Don't forget to reboot If you are willing to use Ubuntu 19.10, it has MacBook trackpad and keyboard support built in. It includes Linux kernel version 5.3. Everything would work after a fresh install or upgrade. You could also try updating the kernel, a quick Google search can help you do that. It isn't a great solution, but it would probably be fine.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1503552/macbook-keyboard-and-trackpad-on-ubuntu
+
+---
+
+#### 5641. MacOS, Sleep Wake Failure
+
+**问题描述 / Problem Description**:
+Tags: macbook, macos-highsierra | Score: 1 | Views: 125 | Answers: 1 | Created: 2019-11-05
+
+**解决方案 / Solution**:
+After upgrade to Mojave I didn't see this problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1499285/macos-sleep-wake-failure
+
+---
+
+#### 5642. Is there any way to colorized MacBook pro terminal?
+
+**问题描述 / Problem Description**:
+Tags: terminal, macbook, colors, macbook-pro, color-profiles | Score: 1 | Views: 71 | Answers: 1 | Created: 2019-10-24
+
+**解决方案 / Solution**:
+Yes. Add export CLICOLOR=1 to the appropriate shell startup script, such as ~/.bashrc .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1495565/is-there-any-way-to-colorized-macbook-pro-terminal
+
+---
+
+#### 5643. Using iCloud Local Drive for Installation
+
+**问题描述 / Problem Description**:
+Tags: installation, macbook, storage, icloud, external-drive | Score: 1 | Views: 75 | Answers: 1 | Created: 2019-10-21
+
+**解决方案 / Solution**:
+Basically, if you are using iCloud to save space on your local drive, then as the drive gets too full, least-used data & apps are pushed to the cloud to free up space on your local drive. You don't get to choose specifically which data is moved this way. Any time you need that data, it has to be pulled back from the cloud before you can use it. This means it is not a viable option to create more space from 'thin air'. iCloud's predominant use-case is as a constant sync between devices, rather than as actual independent storage. Best is if you just don't keep your drive so full that it's constantly starved for space. We live in [or hopefully towards the end of] an era where SSD storage was expensive, so millions of people own laptops with fixed, non-swappable SSDs that are really far too small. iCloud's space management is an attempt to mitigate that, but really nothing can substitute for actual space on your drive. If you look at Disk Utility with your boot volume selected, the figure in the table for "Available:" shows a figure for purgeable data. This is the data that can be shuffled aside if space is needed - but it won't do it all at once if an app suddenly requests it. The figure under the thermometer scale above, marked "Free" is the amount of space you have available for a sudden request. The figure in About this Mac/Storage, also fails to take account of purgeable data, so only the "Free" figure in Disk Utility is reliable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1494292/using-icloud-local-drive-for-installation
+
+---
+
+#### 5644. Does Apple still monitor or track after having a customer support screen sharing service with ara.apple.com?
+
+**问题描述 / Problem Description**:
+Tags: macos, security, macbook, screen-sharing | Score: 1 | Views: 1461 | Answers: 1 | Created: 2019-10-17
+
+**解决方案 / Solution**:
+You can't tell when installing an app if it's adding some extra script or not (as far as I know). What you can do is check what files that app is accessing (reading/writing). Check this answer: https://apple.stackexchange.com/questions/14409/how-to-monitor-file-access-for-an-os-x-application Also, you can monitor the network traffic and see where that app is connecting to. Check if you can find something on Network Utility. Personally I suggest Wireshark . With Wireshark you can log the host/ip the app is connecting too, and then after you are done and deleted the app as well, you can monitor if there's still a connection to that host/ip. However, using wireshark is a bit challenging if you don't have networking knowledge. I'm not sure how that app works exactly, but am assuming it connects to a specific port, and that port should close the moment you don't have the app. But if you're really paranoid, you can try the above.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1493263/does-apple-still-monitor-or-track-after-having-a-customer-support-screen-sharing
+
+---
+
+#### 5645. May have messed up my Mac Hard drive...afraid to reboot
+
+**问题描述 / Problem Description**:
+Tags: macbook, disk-utility | Score: 1 | Views: 143 | Answers: 1 | Created: 2019-09-09
+
+**解决方案 / Solution**:
+I think it may just be the View in Disk Utility that's changed. Launch Disk Utility… then from View menu, toggle between 'Show Only Volumes' & 'Show All Devices'. For some reason, it always seems to say Bootable: No. I've no idea why.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1480609/may-have-messed-up-my-mac-hard-drive-afraid-to-reboot
+
+---
+
+#### 5646. Mojave 10.14.6 (18G87) freezes in safe mode (Kernel Panic)
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook, kernel | Score: 1 | Views: 796 | Answers: 1 | Created: 2019-08-24
+
+**解决方案 / Solution**:
+The mainboard has been replaced and the problem was fixed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1474908/mojave-10-14-6-18g87-freezes-in-safe-mode-kernel-panic
+
+---
+
+#### 5647. 45GB Photoshop psb file will not open in Photoshop on new 2019 MacBook Pro running Mojave
+
+**问题描述 / Problem Description**:
+Tags: macbook, adobe-photoshop, macos-mojave | Score: 1 | Views: 459 | Answers: 1 | Created: 2019-08-16
+
+**解决方案 / Solution**:
+This might have something to do with the need to allocate more contiguous scratch disk space. I had ~150gb SSD space as my primary scratch disk. When I used my external 8TB drive as my sole scratch disk holder, it took 20 minutes, but it eventually opened.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1472139/45gb-photoshop-psb-file-will-not-open-in-photoshop-on-new-2019-macbook-pro-runni
+
+---
+
+#### 5648. AH00558: httpd: Could not reliably determine the server's fully qualified
+
+**问题描述 / Problem Description**:
+Tags: apache-http-server, macbook | Score: 1 | Views: 11783 | Answers: 1 | Created: 2019-07-16
+
+**解决方案 / Solution**:
+I am now unclear which config file I should change and how I can go about locating it. Your apachectl -t -D DUMP_INCLUDES command seems to clearly list /private/etc/apache2/httpd.conf as the primary configuration file for Apache in this instance. Try adding e.g. ServerName localhost to that file.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1460461/ah00558-httpd-could-not-reliably-determine-the-servers-fully-qualified
+
+---
+
+#### 5649. How to turn off the pop up selecting menu when holding a key in MacBook
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, macbook | Score: 1 | Views: 162 | Answers: 1 | Created: 2019-07-16
+
+**解决方案 / Solution**:
+After some searching and trying, I found that the only way to turn off the pop up menu is to run the following command in terminal: defaults write -g ApplePressAndHoldEnabled -bool false And remember to restart MacBook to active this change.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1460452/how-to-turn-off-the-pop-up-selecting-menu-when-holding-a-key-in-macbook
+
+---
+
+#### 5650. Why does NTFS for Mac and “About this Mac” show two different free space values?
+
+**问题描述 / Problem Description**:
+Tags: macbook, storage | Score: 1 | Views: 182 | Answers: 1 | Created: 2019-06-28
+
+**解决方案 / Solution**:
+You need to check what Disk Utility says to get an accurate figure. Different apps deal with the Purgeable space differently. NTFS for Mac includes the Purgeable value & About this Mac excludes it. Disk Utility tells you both... If you're trying to re-partition, for instance to add Boot Camp, then it's the value in Disk Utility that is the important one - in this case the 410.91GB.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1453877/why-does-ntfs-for-mac-and-about-this-mac-show-two-different-free-space-values
+
+---
+
+#### 5651. External usb keyboard working on macOS (latest) login screen but not after logged in
+
+**问题描述 / Problem Description**:
+Tags: macbook, kvm-switch, usb-keyboard | Score: 1 | Views: 1109 | Answers: 1 | Created: 2019-06-23
+
+**解决方案 / Solution**:
+Matias, Inc. was able to figure this one out: Plug the mouse into the built-in usb hub on the Matias keyboard, and then plug the keyboard into the mouse port on the kvm.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1451863/external-usb-keyboard-working-on-macos-latest-login-screen-but-not-after-logge
+
+---
+
+#### 5652. Windows Automatic Repair Doesn't Recognise Macbook Keyboard
+
+**问题描述 / Problem Description**:
+Tags: windows-10, keyboard, macbook, boot-camp | Score: 1 | Views: 230 | Answers: 1 | Created: 2019-05-15
+
+**解决方案 / Solution**:
+I don't know how BootCamp affects things, but I'd suggest making a boot repair disk and running standard Windows repair methods. These are some of things I did when I was a PC repair tech, rather than a Mac repair tech. I don't remember the full list, since it was really long and it's been several years since I've worked as a tech. https://www.howtogeek.com/131907/how-to-create-and-use-a-recovery-drive-or-system-repair-disc-in-windows-8/ https://www.groovypost.com/howto/fix-windows-10-wont-boot-startup-repair-bootrec/ https://www.stellarinfo.com/blog/how-to-fix-disk-errors-in-windows-10/ Boot to Win Recovery Disk/USB Run the automated Startup Repair Rebuild the MBR (Master Boot Record) Run CHKDSK There's a couple other things the links suggest, but I haven't done them myself. You may need to run these steps 2-3 time for it to fully work. There's plenty of other resources to look up repairs online. Even when I was a tech, I'd spend hours to research new fixes so I didn't have to spend days reinstalling everything. I've seen more complete repair walk throughs on SE/SO, as well as Google, so just keep searching. If it still doesn't fix things, you can reinstall Windows. You'll want to back up your data first, though, if you haven't already done so. You can also reinstall Windows without removing the partition, but sometimes that doesn't work and you'll probably still have to reinstall all your software. Good luck!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1437209/windows-automatic-repair-doesnt-recognise-macbook-keyboard
+
+---
+
+#### 5653. iMovie Crashing for a particular Project
+
+**问题描述 / Problem Description**:
+Tags: crash, macbook, imovie | Score: 1 | Views: 445 | Answers: 1 | Created: 2019-04-13
+
+**解决方案 / Solution**:
+Ouch. Access violation. That's a big bad bug in the iMovie code, nothing of your doing. To be reported to Apple, if there is any way. Other people might know if there are workarounds, but I don't.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1425118/imovie-crashing-for-a-particular-project
+
+---
+
+#### 5654. Restoring .bash_profile in macOS 10.13
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, macbook | Score: 1 | Views: 1736 | Answers: 1 | Created: 2019-04-06
+
+**解决方案 / Solution**:
+Now that you have posted the contents of your PATH settings from .bash_profile I see the issue. This is your original PATH settings line: PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin/flake8" export $PATH' That makes no sense. That line should begin with export PATH= and that extraneous, export $PATH' makes less sense; that export and $PATH with the dollar sign make little sense and that stray single quote doesn’t help; that makes utterly no sense. Cleaning up what you have should look like this: export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin/flake8" Save that in your .bash_profile , close the Terminal and open a new Terminal session and you should be good to go.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1422069/restoring-bash-profile-in-macos-10-13
+
+---
+
+#### 5655. Mac OSX Homebrew r-app cask no longer exists
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 1 | Views: 602 | Answers: 2 | Created: 2019-03-27
+
+**解决方案 / Solution**:
+I figured out all the cask does is install the latest R .pkg file, so doing that manually achieves the same result. Side note: There was a recent R update to 3.5.3 which might be the reason why the cask is removed for the time being.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1417987/mac-osx-homebrew-r-app-cask-no-longer-exists
+
+---
+
+#### 5656. Prevent headphones from waking up my MacBook
+
+**问题描述 / Problem Description**:
+Tags: macos, bluetooth, macbook | Score: 1 | Views: 1628 | Answers: 2 | Created: 2019-03-05
+
+**解决方案 / Solution**:
+On your MacBook, go to System Preferences → Bluetooth → Advanced , and uncheck "Allow Bluetooth devices to wake this computer".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1411369/prevent-headphones-from-waking-up-my-macbook
+
+---
+
+#### 5657. calc command line tool always becomes interactive
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, homebrew | Score: 1 | Views: 88 | Answers: 2 | Created: 2019-02-27
+
+**解决方案 / Solution**:
+Option 1: On zsh, calc is a function. You may try that instead of /usr/local/bin/calc $ which calc calc () { awk "BEGIN{ print $* }" } Option 2: Try running command with absolute path. /usr/local/bin/calc 5+4 or \calc 5+4 . If \calc worked for you then most probably you have set an alias for calc .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1409786/calc-command-line-tool-always-becomes-interactive
+
+---
+
+#### 5658. OSX Change default program to brew installed binary
+
+**问题描述 / Problem Description**:
+Tags: macos, pdf, homebrew, evince | Score: 1 | Views: 331 | Answers: 1 | Created: 2018-04-14
+
+**解决方案 / Solution**:
+Have you tried using fink? http://pdb.finkproject.org/pdb/package.php/evince It is similar to homebrew, it has lots of GNU packages, however I am not near a MacOS system right now and I cannot tell you if it will create an actual app icon for you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1314027/osx-change-default-program-to-brew-installed-binary
+
+---
+
+#### 5659. How can I get lintr to install on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, r | Score: 1 | Views: 457 | Answers: 1 | Created: 2018-01-31
+
+**解决方案 / Solution**:
+I faced one warning and an error installing this library. First of all I had installed on my system a more recent version of gcc (7.3.0), so I did a symlink to the version installed: ls -la /usr/local/opt/gcc/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/ I found only version 7.3.0 installed so I did: ln -s /usr/local/opt/gcc/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0 /usr/local/opt/gcc/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.2.0 Then I had to fix also ld: file not found: /usr/lib/system/libsystem_darwin.dylib for architecture x86_64 . For this I executed: sudo xcode-select -s /Library/Developer/CommandLineTools Then running again the installation, it should work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1290643/how-can-i-get-lintr-to-install-on-macos
+
+---
+
+#### 5660. Running “brew install moreutils --without-parallels” fails
+
+**问题描述 / Problem Description**:
+Tags: homebrew, macos-highsierra | Score: 1 | Views: 840 | Answers: 2 | Created: 2018-01-28
+
+**解决方案 / Solution**:
+This can be closed as it seems the issue was fixed overnight. $ brew install parallel ==> Downloading https://homebrew.bintray.com/bottles/parallel-20180122.high_sierra.bottle.tar.gz Already downloaded: /Users/deant/Library/Caches/Homebrew/parallel-20180122.high_sierra.bottle.tar.gz ==> Pouring parallel-20180122.high_sierra.bottle.tar.gz 🍺 /usr/local/Cellar/parallel/20180122: 65 files, 3.2MB $ brew install moreutils --without-parallel ==> Cloning https://git.joeyh.name/git/moreutils.git Updating /Users/deant/Library/Caches/Homebrew/moreutils--git ==> Checking out tag 0.62 ==> Downloading https://cpan.metacpan.org/authors/id/N/NE/NEILB/Time-Duration-1.20.tar.gz Already downloaded: /Users/deant/Library/Caches/Homebrew/moreutils--Time::Duration-1.20.tar.gz ==> perl Makefile.PL INSTALL_BASE=/usr/local/Cellar/moreutils/0.62/libexec --skipdeps ==> make install ==> Downloading https://cpan.metacpan.org/authors/id/T/TO/TODDR/IPC-Run-0.94.tar.gz Already downloaded: /Users/deant/Library/Caches/Homebrew/moreutils--IPC::Run-0.94.tar.gz ==> perl Makefile.PL INSTALL_BASE=/usr/local/Cellar/moreutils/0.62/libexec ==> make install ==> make all ==> make check ==> make install PREFIX=/usr/local/Cellar/moreutils/0.62 🍺 /usr/local/Cellar/moreutils/0.62: 65 files, 558.2KB, built in 38 seconds
+
+**参考链接 / References**:
+- https://superuser.com/questions/1289636/running-brew-install-moreutils-without-parallels-fails
+
+---
+
+#### 5661. cmake - required package missing. Which package?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, cmake | Score: 1 | Views: 1880 | Answers: 2 | Created: 2017-01-03
+
+**解决方案 / Solution**:
+Well, the package naming convention is different between brew and Unix package manager. In brew, pkg-config => the same name libvte-2.90-dev => vte or vte3 glib-2.0 => glib Unfortunately, libgranite-dev , libindicator3-dev , and libkeybinder-3.0-dev currently don't have its equivalent in brew. (I think your CMakeFile will work once glib has installed.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1162933/cmake-required-package-missing-which-package
+
+---
+
+#### 5662. Missing libarchive during Ardour manual building on macOS, after installation with brew
+
+**问题描述 / Problem Description**:
+Tags: macos, installation, homebrew, build, macos-sierra | Score: 1 | Views: 1572 | Answers: 1 | Created: 2016-12-14
+
+**解决方案 / Solution**:
+Homebrew installs libarchive as a keg, so you'll need to set the PKG_CONFIG_PATH. Try export PKG_CONFIG_PATH=/usr/local/Cellar/libarchive/3.2.2/lib/pkgconfig/ before running the ./waf configure
+
+**参考链接 / References**:
+- https://superuser.com/questions/1156407/missing-libarchive-during-ardour-manual-building-on-macos-after-installation-wi
+
+---
+
+#### 5663. brew linkapps will not link emacs to the applications folder in El Capitan
+
+**问题描述 / Problem Description**:
+Tags: homebrew, osx-el-capitan | Score: 1 | Views: 4790 | Answers: 1 | Created: 2016-08-04
+
+**解决方案 / Solution**:
+Homebrew Homebrew has Emacs 24.5. Its a: A Cocoa-specific Emacs.app can be built using the --with-cocoa switch To install and link, please run these command in your shell: 1. brew update 2. brew install emacs --with-cocoa 3. brew linkapps emacs To start Emacs from the launchpad or from Spotlight : 1. sudo rm /usr/bin/emacs (removes the older version) 2. sudo rm -rf /usr/share/emacs Or just create an alias in your shell: alias emacs="/usr/local/Cellar/emacs/24.x/Emacs.app/Contents/MacOS/Emacs -nw" To make it permanent, if using bash, add that line to ~/.bash_profile . You could also follow these commands, to install with a Package Manager: 1. brew install --with-cocoa emacs 2. brew install --with-cocoa --srgb emacs (to get some colours) 3. ln -s /usr/local/Cellar/emacs/24.5/Emacs.app /Applications (for linking) After installation, using the emacs command in the terminal or shell will run the -nw version of Emacs. Hope this works for you. Thank you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1109614/brew-linkapps-will-not-link-emacs-to-the-applications-folder-in-el-capitan
+
+---
+
+#### 5664. How Does Homebrew Add Things to My Environment?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, homebrew | Score: 1 | Views: 273 | Answers: 1 | Created: 2016-05-29
+
+**解决方案 / Solution**:
+I know there must be better ways, but I had been unproductive too long. I decided to "rename to uninstall", check everything carefully, then install Homebrew as if it was fresh. I could not rename /usr/local , but I was able to rename everything inside it. Several restarts later, RVM is installed and RubyMine is working! My /usr/local looks like this. ... drwxr-xr-x 24 mark admin 816 May 29 16:06 bin/ drwxr-xr-x 92 mark admin 3128 May 19 18:21 bin_old/ drwxr-xr-x 4 mark admin 136 May 29 16:06 etc/ drwxr-xr-x 4 mark admin 136 May 10 15:52 etc_old/ ...
+
+**参考链接 / References**:
+- https://superuser.com/questions/1082060/how-does-homebrew-add-things-to-my-environment
+
+---
+
+#### 5665. Unbound DNS: Troubleshooting/Resolving Unbound Configuration Problems?
+
+**问题描述 / Problem Description**:
+Tags: macos, dns, homebrew, setup, unbound | Score: 1 | Views: 3988 | Answers: 1 | Created: 2016-05-24
+
+**解决方案 / Solution**:
+Well, it turns out that, as a friend of mine told me over IRC, I never checked to make sure that Unbound could reach /dev/random — and maybe /dev/log , as well —, the former of which the software's documentation for its configuration file states as a requirement under the sub-heading describing Unbound's chroot option and the latter of which might be necessary for logging, from within its chroot jail. As such, I'm going to have to try sharing /dev (or at least its contained log and random files) into /usr/local/etc/unbound via NFS (OS X doesn't directly support bind mounts .)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1080492/unbound-dns-troubleshooting-resolving-unbound-configuration-problems
+
+---
+
+#### 5666. MongoDB homebrew launchctl not working (OS X El Capitan)
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, osx-el-capitan, mongodb, launchctl | Score: 1 | Views: 2618 | Answers: 2 | Created: 2016-04-12
+
+**解决方案 / Solution**:
+I had a similar issue and this helped me: #!/usr/bin/env sh # checks to see if running launchctl list | grep mongo launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist launchctl remove homebrew.mxcl.mongodb pkill -f mongod rm -f ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist brew uninstall mongodb # double check existence ls -al /usr/local/bin/mong* ls -al ~/Library/LaunchAgents rm -R /usr/local/var/mongodb Also see my answer here: https://stackoverflow.com/questions/41913838/installed-docker-and-ran-a-container-with-mongodb-now-brews-mongodb-isnt-work/41943399#41943399
+
+**参考链接 / References**:
+- https://superuser.com/questions/1064697/mongodb-homebrew-launchctl-not-working-os-x-el-capitan
+
+---
+
+#### 5667. brew services httpd22 and postgresql shown as started, but can not be connected to
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, apache-http-server, homebrew, osx-el-capitan | Score: 1 | Views: 1093 | Answers: 1 | Created: 2016-03-13
+
+**解决方案 / Solution**:
+In my case the postmaster.pid file of a crashed process still appears in place: FATAL: could not open log file "/var/log/postgresql/pg_log/postgresql-2016-11-06_011112.log": No such file or directory Was difficult to see this because the logs where turned off. PostgreSQL was running, indeed, but crashing: ... com.apple.xpc.launchd[1] (homebrew.mxcl.postgresql[98074]): Service exited with abnormal code: 1 SOLUTION: just exec this in the shell rm /usr/local/var/postgres/postmaster.pid
+
+**参考链接 / References**:
+- https://superuser.com/questions/1052154/brew-services-httpd22-and-postgresql-shown-as-started-but-can-not-be-connected
+
+---
+
+#### 5668. I am getting "ln: /usr/local/bin/<Cask>: Permission denied" when trying to install some casks
+
+**问题描述 / Problem Description**:
+Tags: macos, permissions, sudo, homebrew, non-admin | Score: 1 | Views: 5624 | Answers: 1 | Created: 2016-03-09
+
+**解决方案 / Solution**:
+You'll have to run the command itself as the super user: sudo brew install FORMULA you can temporarily grant yourself super user priveleges by entering: su USERNAME then you can just simply enter: brew install FORMULA Either way, you'll have to enter your password, but with the second method, you'll only have to enter it once, as you will remain a super user for the remainder of the terminal session.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1050860/i-am-getting-ln-usr-local-bin-cask-permission-denied-when-trying-to-insta
+
+---
+
+#### 5669. What does the --force option do in homebrew?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 1 | Views: 1582 | Answers: 1 | Created: 2016-02-05
+
+**解决方案 / Solution**:
+It ignores all errors during execution of the removal and all scripts around it (pre and post removal), and just continues to remove all files in the package. This is mostly useful if the package wasn't installed properly or if there's a problem with the machine it was installed on, for example if specific directories were removed already so the removal script couldn't do so.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1035927/what-does-the-force-option-do-in-homebrew
+
+---
+
+#### 5670. Why does brew cask uninstall not remove a previously installed cask?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, uninstall, homebrew | Score: 1 | Views: 4656 | Answers: 1 | Created: 2016-01-31
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1033735/why-does-brew-cask-uninstall-not-remove-a-previously-installed-cask
+
+---
+
+#### 5671. Got warning message when running brew list
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 1 | Views: 488 | Answers: 1 | Created: 2015-11-05
+
+**解决方案 / Solution**:
+OS X ships with an older version of ruby. Use homebrew to install a newer version of ruby and see if that fixes the issue $ brew install ruby You'll also want to make sure that /usr/local/bin/ruby is in your $PATH before any other ruby version. Honestly, I can't remember if the install does this automatically but it's good to check.
+
+**参考链接 / References**:
+- https://superuser.com/questions/996213/got-warning-message-when-running-brew-list
+
+---
+
+#### 5672. How to convert a mov to a gif without loosing quality
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, ffmpeg, homebrew | Score: 1 | Views: 2052 | Answers: 1 | Created: 2015-10-28
+
+**解决方案 / Solution**:
+I use the app GIF Brewery. It can create a nice looking GIF of movies and screencasts. First, you'll want to crop the recording to just what you need to reduce the file size. Click the Crop button. Use the handles to isolate only the part you care about. Then press Return on your keyboard: Next you'll want to fiddle with the export settings to ensure good quality with a low file size. Click on the GIF Properties button. Use the following settings: Frame count: 24 Frame delay: 100 ms Reduce the number of colors in GIF: [On], Adaptive Palette, 192 Colors Improve GIF quality with dithering: [On], Sierra Lite Finally, click the Create GIF button and select a location to save the file. You'll have a GIF that looks almost as good as an MP4.
+
+**参考链接 / References**:
+- https://superuser.com/questions/992880/how-to-convert-a-mov-to-a-gif-without-loosing-quality
+
+---
+
+#### 5673. Homebrew php opcache issue
+
+**问题描述 / Problem Description**:
+Tags: php, homebrew | Score: 1 | Views: 2997 | Answers: 1 | Created: 2015-09-27
+
+**解决方案 / Solution**:
+Try running this command: brew reinstall php56-opcache --build-from-source See: PHP 56 and opcache at GitHub .
+
+**参考链接 / References**:
+- https://superuser.com/questions/978768/homebrew-php-opcache-issue
+
+---
+
+#### 5674. How do I ensure that Homebrew uninstalls old versions when upgrading?
+
+**问题描述 / Problem Description**:
+Tags: macos, package-management, homebrew | Score: 1 | Views: 452 | Answers: 1 | Created: 2015-09-20
+
+**解决方案 / Solution**:
+brew cleanup is your friend for this. Check out the answer I gave in a related question here . brew install in and of itself doesn't appear to have options for this. This might be a useful feature so I requested it from the publisher.
+
+**参考链接 / References**:
+- https://superuser.com/questions/975697/how-do-i-ensure-that-homebrew-uninstalls-old-versions-when-upgrading
+
+---
+
+#### 5675. Bash not working any more?
+
+**问题描述 / Problem Description**:
+Tags: bash, git, homebrew, hub | Score: 1 | Views: 1362 | Answers: 1 | Created: 2015-09-02
+
+**解决方案 / Solution**:
+Terminal attempts to load /bin/bash (or whatever the default shell for the user is). Since you moved that, it doesn’t know what to do unless you tell it where to look instead. There are several ways to override the default login shell in OS X, that don’t require a current working shell. For a specific user: System Preferences → Users & Groups → right click user → Advanced Options… → Login shell For the current user: Terminal → Preferences… → General → Shells open with: → Command (complete path) For a specific Terminal profile: Terminal → Preferences… → Profiles → ‹profile› → Shell → Run Command Also untick the “Run inside shell” box. When you have a working shell, you can rename the binaries back to their originals and then use homebrew and use the same process to set /usr/local/bin/bash as the login shell. There is no need to replace binaries in /bin as the shell uses binaries from multiple directories using the PATH environment variable, including /usr/local/bin , which is the homebrew default install directory.
+
+**参考链接 / References**:
+- https://superuser.com/questions/966516/bash-not-working-any-more
+
+---
+
+#### 5676. Opening up the terminal on a Mac always starts a PHP process
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, terminal, php, homebrew | Score: 1 | Views: 468 | Answers: 1 | Created: 2015-08-20
+
+**解决方案 / Solution**:
+The default shell that Terminal starts is found by running the command: dscl . -read /Users/username UserShell Making the obvious change. The current Mac OS X default shell is /bin/bash . This runs various startup files including ~/.bash_profile . Search these for PHP code and remove that line. PHP can be started manually in a terminal but its main use is in a web server as an Apache (or other web server) plugin.
+
+**参考链接 / References**:
+- https://superuser.com/questions/960315/opening-up-the-terminal-on-a-mac-always-starts-a-php-process
+
+---
+
+#### 5677. Can't install Homebrew: Can't find the certificate
+
+**问题描述 / Problem Description**:
+Tags: ssh, installation, git, ssl, homebrew | Score: 1 | Views: 2416 | Answers: 2 | Created: 2015-08-14
+
+**解决方案 / Solution**:
+you can use ssh instead, as always on github. clone it into any location. git clone git@github.com:Homebrew/homebrew then adapt PATH. insert into .bashrc export PATH=/path/to/homebrew-dir/bin:$PATH then, do a brew update and brew doctor .
+
+**参考链接 / References**:
+- https://superuser.com/questions/956991/cant-install-homebrew-cant-find-the-certificate
+
+---
+
+#### 5678. How to install itunes on osx with homebrew?
+
+**问题描述 / Problem Description**:
+Tags: macos, itunes, homebrew | Score: 1 | Views: 2454 | Answers: 2 | Created: 2015-08-13
+
+**解决方案 / Solution**:
+You can’t. The only way to install programs like iTunes is with Homebrew Cask ; but it doesn’t provide iTunes because it’s already pre-installed on OS X and “ Apple pushes iTunes updates automatically as part of system updates, so there’s no reason why anyone should be using homebrew-cask to install this ” (the quote comes from a Homebrew-Cask maintainer).
+
+**参考链接 / References**:
+- https://superuser.com/questions/956728/how-to-install-itunes-on-osx-with-homebrew
+
+---
+
+#### 5679. Convert jpeg quality to 80% using automator
+
+**问题描述 / Problem Description**:
+Tags: services, homebrew, imagemagick, jpeg, automator | Score: 1 | Views: 1202 | Answers: 1 | Created: 2015-06-19
+
+**解决方案 / Solution**:
+In the imagemagick package there is a program called mogrify that will overwrite the original image file, and another, convert , that will write to a different image file. In Linux there is another command, find , that will search (and find) all the files in a path that will fullfill the search criteria and that can exec ute some command with the filename found. Warning: I strongly suggest to do a backup before starting to use a script that will modify the original files , just to prevent any unpleasant inconvenience that you cannot fix after... Moreover I suggest you to test the command on a sample (only on some files and not on all). I understand you want to replace all your images with a lower quality version. Merging the above two command you can do something similar to find Path/to/MyFolder -name '*.jpg' -exec mogrify -quality 80 {} \; Use man mogrify and man find to have some hints more.
+
+**参考链接 / References**:
+- https://superuser.com/questions/929930/convert-jpeg-quality-to-80-using-automator
+
+---
+
+#### 5680. How to fix error: Could not symlink lib/gcc/4.9?
+
+**问题描述 / Problem Description**:
+Tags: macos, osx-yosemite, homebrew, gcc | Score: 1 | Views: 5080 | Answers: 1 | Created: 2015-05-10
+
+**解决方案 / Solution**:
+The error: /usr/local/lib/gcc is not writable. means that your /usr/local/lib folder is not writable for brew . Therefore you should fix the wrong permissions first by: sudo chown -R $USER /usr/local/lib /usr/local/include /usr/local/bin /usr/local/Cellar Then if this still doesn't work, run: brew doctor to check your system for potential other problems which you may have. Similar issue: Brew doctor says: “Warning: /usr/local/include isn't writable.” at SO
+
+**参考链接 / References**:
+- https://superuser.com/questions/913069/how-to-fix-error-could-not-symlink-lib-gcc-4-9
+
+---
+
+#### 5681. Use specific version of package per directory with Homebrew on Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, osx-yosemite, homebrew | Score: 1 | Views: 1533 | Answers: 1 | Created: 2015-05-06
+
+**解决方案 / Solution**:
+To directly answer your question: take a look at ondir . I have not personally used it, but it appears to fit your use case. ondir is a small program to automate tasks specific to certain directories. It works by executing scripts in directories when you enter and leave them. To ruminate for a moment, though... Swapping out package versions on enter/exit of dirs via the shell is, well, risky for a variety of reasons. (For starters, think about two terminal sessions, each in their own dir.) What you're asking for (per-dir homebrew config) is effectively a virtual machine or container, since it goes beyond "virtualizing" a language (ex: Ruby via rbenv , Python via virtualenv `) and instead is for all system packages. You should consider setting up a Vagrant box for your projects to properly isolate them from your Mac and manage your dependencies better. Anyway, back to your problem at hand... PhantomJS is a standalone tool that happens to be helpfully available as a statically linked binary . We can use this to our advantage. Instead of swapping PhantomJS versions via brew switch , just download each statically linked version, stick the binary in ~/bin , name it appropriately (e.g. phantomjs-1.9.8 ), and adjust your scripts to call the desired version. If you can't adjust the scripts, you'll need to devise another scheme (project-specific symlinks, etc.) Or, as suggested in your query on GitHub , you could also adjust your PATH , either via ondir or a wrapping script around whatever drives phantomjs . (Yes, for the second time in one night I pointed someone to a tool I have not personally used.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/911302/use-specific-version-of-package-per-directory-with-homebrew-on-mac
+
+---
+
+#### 5682. Why does Google Lens get stuck at "Uploading…" in Safari 15.6.1 on macOS 10.15.7?
+
+**问题描述 / Problem Description**:
+Tags: macos, safari | Score: 0 | Views: 91 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+Install and use Firefox. I am using macOS 10.15.7 on a 2013 iMac. My version of Firefox is 137.0.2 (64-bit). I also have a 2011 iMac running macOS 10.13.6. On this Mac, I am using Firefox 115.22.0esr. This an Extended Support Release (ESR). Google images works with both versions of Firefox. At some point in the future, the current version of Firefox will not be available for macOS 10.13 and you will end up with an ESR. Since the current ESR for macOS 10.13 does work, I would assume Firefox with will continue to work with Google Images at least for the next few years. BTW, my current Safari 15.6.1 no longer works on my macOS 10.15.7. However, I do also have macOS 10.15.7 installed in virtual machine. Here, Google images does work using Safari 15.6.1 in the virtual machine. So, I would assume if you are having problems uploading, then you may need to reinstall macOS.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893288/why-does-google-lens-get-stuck-at-uploading-in-safari-15-6-1-on-macos-10-15-7
+
+---
+
+#### 5683. Prevent commands with leading space from showing up in .zsh_history and .zsh_sessions on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, terminal, zsh | Score: 0 | Views: 436 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+try this: function zshaddhistory { case $1 in [[:space:]]*) return 1; esac return 0 } note that the command line with the leading space lingers in internal shell history (only) until the next command is executed. if one wanted the line with leading space be available in internal shell history but not written to the $HISTFILE, one could try to use fc -p /dev/null (see zshaddhistory in zshmisc(1) man page).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893185/prevent-commands-with-leading-space-from-showing-up-in-zsh-history-and-zsh-ses
+
+---
+
+#### 5684. How to dynamically set the PHP version used by my terminal by extracting it from composer.json using Windows CMD file?
+
+**问题描述 / Problem Description**:
+Tags: windows, terminal, cmd.exe, php, composer | Score: 0 | Views: 125 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+Don't parse JSON with cmd.exe if you already have a whole JSON parser installed on your system: C:\PHP\php-8.4\php -r "echo trim(json_decode(file_get_contents('composer.json'), true)['require']['php'], '^');" This can be integrated into a batch script using "usebackq" to make quoting easier (or alternatively by putting the code in a dedicated C:\PHP\getversion.php that you invoke; no quoting required): for /f "usebackq" %%a in (`C:\PHP\php...`) do set version=%%a If that doesn't work, output to a temporary file and read it: :: Cmd's %RANDOM% is only barely random but it'll do set out=%TEMP%\output%RANDOM%.txt C:\PHP\php-8.4\php -r "exactly as above" > %out% for /f %%a in (%out%) do set version=%%a del %out% Another JSON parser is jq , which is available as winget install jqlang.jq , though quoting can get messy: jq -r ".require.php | ltrimstr(""^"")" composer.json
+
+**参考链接 / References**:
+- https://superuser.com/questions/1891470/how-to-dynamically-set-the-php-version-used-by-my-terminal-by-extracting-it-from
+
+---
+
+#### 5685. How do I encrypt archives securely on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, encryption, compression | Score: 0 | Views: 270 | Answers: 1 | Created: 2025-04-08
+
+**解决方案 / Solution**:
+Tarballs are native to both platforms, and GPG is a common way to secure them. You can probably install the latter from Homebrew if it's not already present. To create a symmetrically encrypted archive, on-the-fly, this would encrypt it: tar -cJf - file1 dir1 dir2/subdir | \ gpg --symmetric --no-symkey-cache --cipher-algo aes256 --output your.tar.xz.gpg Test it by listing contents of the tarball: gpg --decrypt --no-symkey-cache your.tar.xz.gpg | tar -tJf - To actually extract the contents, change the t option of tar to x . You can first decrypt the archive with gpg 's --output option, if that's easier. You don't have to use xz compression ( -J ), pick any method you want. Consult the man pages of both tar and gpg to adjust the commands to suit your purpose. There's a command called gpgtar but is quite limited compared to regular tar , so I recommend the latter. It supports asymmetric keys, but then you need to set the recipient during encryption, or export your keys somewhere safe to ensure you can decrypt them in the future. If it's only for yourself, symmetric may be safer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1890724/how-do-i-encrypt-archives-securely-on-macos
+
+---
+
+#### 5686. UTM Running Windows 11 on M1 Mac - Boot Error Message (BdsDxe: failed to load Boot0001 "UEFI QEMU...)
+
+**问题描述 / Problem Description**:
+Tags: macos, virtual-machine, windows-11 | Score: 0 | Views: 745 | Answers: 1 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+There's nothing wrong with your system. It means that your virtual CD is empty, hence it failed to boot from it. The remaining messages aren't errors. I would like to disable those though as showing anything but errors is completely pointless imho unless you need them for debug purposes. The problem is I can't see any way to disable them unfortunately.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889351/utm-running-windows-11-on-m1-mac-boot-error-message-bdsdxe-failed-to-load-bo
+
+---
+
+#### 5687. Looking to get a list of two levels of subfolders through Terminal on a Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, mp3 | Score: 0 | Views: 191 | Answers: 1 | Created: 2025-03-30
+
+**解决方案 / Solution**:
+Here are three ways (and I am sure there are many others) to do what you want. A simple command to list all 2nd level folders below the current folder is find . -type d -depth 2 . For more detail of find us man find . You could also continue using ls combined with grep . To list all the folder tree use ls -R | grep -i "./" . The output is a bit ugly, but does the job. More elegant output is produced by tree -d -L 2 , but tree is not part of macOS and needs to be installed using Homebrew . Homebrew is, perhaps, something to be explored later.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889164/looking-to-get-a-list-of-two-levels-of-subfolders-through-terminal-on-a-mac
+
+---
+
+#### 5688. How can I connect to the "USB LAN" bridge interface of my MacBook Pro from a Linux device?
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, macos, usb, bridge | Score: 0 | Views: 497 | Answers: 2 | Created: 2025-03-23
+
+**解决方案 / Solution**:
+This shouldn't be an issue in concept, but as far as I'm aware, there's no IP over USB standard (at least one that Apple would use). I'm struggling to find more details about this interface & the software running behind it. There are plenty of Ethernet -over-USB standards (ECM, EEM, NCM, RNDIS) which could be used to transport IP. The issue, however, is that USB is very asymmetric; one side needs to act as the "device" which most USB host controllers aren't capable of – you specifically need a "dual-role" controller as far as I know (previously called "USB OTG"), which e.g. a Raspberry Pi would have but a typical laptop would not. I don't think this has changed much with Type-C ports if they're not Thunderbolt ones, i.e. your ports might be able to switch power delivery roles but not data roles. https://www.kernel.org/doc/Documentation/devicetree/bindings/usb/usb-drd.yaml https://www.synopsys.com/blogs/chip-design/usb-dual-role-advantages.html https://electronics.stackexchange.com/questions/554203/which-usb-spec-actually-defines-support-for-dual-role-device-type-c-or-usb-3-1 I couldn't find anything about a MacBook supporting DRD on its USB ports either, so I am not sure what the "USB LAN" bridge is for. Maybe it's just for aggregating regular USB-Ethernet dongles. (Before Ethernet over Thunderbolt XDomain, Apple's previous standard was IP over FireWire, which unlike USB natively supported host-to-host connections.) As far as software goes, though, Linux has the g_ether kernel module for emulating an Ethernet device through the 'USB gadget' subsystem; see e.g. this documentation . This is the only thing resembling a standard that I can find as far as network sharing over USB goes usbip is not network sharing over USB – it's USB sharing over network. That is, USB-over-IP.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1888097/how-can-i-connect-to-the-usb-lan-bridge-interface-of-my-macbook-pro-from-a-lin
+
+---
+
+#### 5689. Python error using certifi under homebrew - Mac
+
+**问题描述 / Problem Description**:
+Tags: python, homebrew | Score: 0 | Views: 295 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+Try brew reinstall ca-certificates ? I solved this problem by it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885321/python-error-using-certifi-under-homebrew-mac
+
+---
+
+#### 5690. Mac M1 VirtualBox Linux Alpine UEFI Grub (Bootloader) not loading - bootx64.efi Command Error Status: Unsupported
+
+**问题描述 / Problem Description**:
+Tags: macos, virtualbox, grub, uefi | Score: 0 | Views: 498 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+As pointed out by @ChanganAuto, Mac M1+ is on ARM and after looking into the VirtualBox (Host + Guest OS compatibility) documentation , the following is supported: VMs with an Arm64 platform architecture might run • CentOS Stream 8 • CentOS Linux 7 • Debian 12 • Debian 11 • Ubuntu 24.04 LTS (Noble Numbat) • Ubuntu 22.04 LTS (Jammy Jellyfish) • Ubuntu 20.04 LTS (Focal Fossa) • Ubuntu 18.04 LTS (Bionic Beaver) • SUSE Linux Enterprise Server 15 • SUSE Linux Enterprise Server 12 So ended up using Debian Linux
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885251/mac-m1-virtualbox-linux-alpine-uefi-grub-bootloader-not-loading-bootx64-efi
+
+---
+
+#### 5691. display the output of xterm command on terminal screen using cron
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, cron | Score: 0 | Views: 527 | Answers: 1 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+does, in the modified command, DISPLAY=:0 really means "display screen of the current active window" or something else? No; it cannot mean that, because the program doesn't have a "current active window" at that point in time. Each program makes an independent connection to the display (that is not something 'inherited'), so it cannot create any windows until after it has connected to the display – and DISPLAY is what tells the program how to connect; it's what makes some display "the current display". So instead, DISPLAY=:0 means the specific display server with the address of :0 . The first X server (Xorg or Xwayland) that starts on the system will generally be :0 , the next one will be :1 , then :2 , and so on. There is no 100% guarantee 1 that your desktop will be running on display :0 – it may well be that :0 is the login screen and :1 is your desktop, and so on. (That is to say, it's definitely not something that your ~/.bashrc should be overwriting with a fixed value.) The syntax :x.y refers to a specific screen (as in physical display) if multiple displays are attached to the same Xorg. This is both redundant (as :x.0 means the same as :x anyway) and completely obsolete as the inflexible functionality was replaced by the more versatile Xrandr probably in the 2000s if I remember correctly. So when you see :0.0 just assume :0 . why do I have to specify it at the beginning of my command? The reason is that there is no global setting of "current display", neither system-wide, nor even per-user. A display – referring to an X server such as Xorg or Xwayland – is dynamically started when you log in (and there could be any number of such displays, e.g. five users could have graphical sessions at the same time, or the same user could have two sessions in theory). Not only that, but X11 started its life as a network display system – one would have been able to specify a remote display as DISPLAY=mylaptop:1 – making the DISPLAY parameter completely session-specific. For example, you connected from workstation A to server B via something like SSH or Rlogin, and ran apps on the server that would display their windows on your workstation (and the same server would also run apps for tens of other users that would display on their workstations instead). So when you log in to a graphical session, the initial processes of each session are started with DISPLAY already set in their environment, and that's how they determine their "current" display. For example, the login manager starts an Xorg instance :1 and then starts GNOME or KDE with DISPLAY=:1 provided. But cron jobs, like system services in general, exist "outside" of any user session, so they have nowhere to inherit DISPLAY from. (Indeed they might even start when the user has no display – e.g. at the login screen, the display belongs to a system account – or when there are no displays running at all.) One way to make it work reliably is to have your ~/.xprofile (or some other script which runs on login) save the "current" values to a file every time you log in... declare -p DISPLAY XAUTHORITY WAYLAND_DISPLAY > ~/.xenv ...and have the cron job load them: . ~/.xenv && xterm Though all of this has somewhat changed in late 2010s with the adoption of systemd, which has a "user-level services" feature (see systemctl --user ) – which was originally a "background" feature very much like cron, but which… ended up running more and more parts of the actual desktop session over time. This meant that the user-level services now have to know the correct value of DISPLAY; your login manager provides it to systemd. So if your Linux distribution supports this, there's an easier way to have cron jobs run on the "current" display, by asking the service manager to run it: systemd-run --user -G /bin/xterm The overall situation is not too different from Windows – all versions as of XP – where multiple sessions can exist at the same time; possibly even for the same user. For example, if you log in as user A but then switch to user B, you now have sessions 0 and 1 on the same system and either of them (or even none of them!) could be attached to the physical display at any given time. Many third-party services used to assume that session 0 was always the "current" session, and Microsoft had to root out such assumptions by force in the XP→Vista transition.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1884382/display-the-output-of-xterm-command-on-terminal-screen-using-cron
+
+---
+
+#### 5692. Why can't I delete a directory from the trash on macOS Sequoia?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, permissions, filesystems | Score: 0 | Views: 472 | Answers: 1 | Created: 2025-02-28
+
+**解决方案 / Solution**:
+The issue arises because the files were originally stored on OneDrive, and OneDrive was synced to a folder on my Mac. I dragged the files to the trash to delete them in the Finder, but they had not been downloaded as files, rather they were just placeholders for OneDrive. OneDrive does not appear as a disk drive or network drive on Mac, rather it appears as an ordinary folder, so MacOS just moved the placeholders to .trash . These placeholders were (somehow) marked as not downloaded and consequently nothing, including root , or in recovery mode, would allow deletion. I resolved the problem by moving the files back to the OneDrive folder on my Mac, letting the sync happen, then deleting them on OneDrive on web and emptying the trash on the web. This has permanently removed the files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1883715/why-cant-i-delete-a-directory-from-the-trash-on-macos-sequoia
+
+---
+
+#### 5693. Access denied trying to download pdf with curl
+
+**问题描述 / Problem Description**:
+Tags: macos, pdf, curl, file-download | Score: 0 | Views: 133 | Answers: 1 | Created: 2025-02-21
+
+**解决方案 / Solution**:
+This site uses https://wp-pdf.com/secure/ to prevent access to the actual PDF. So, while the URL to the PDF is visible in the source code, the access is managed by the plugin on server side.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1881920/access-denied-trying-to-download-pdf-with-curl
+
+---
+
+#### 5694. Ubuntu 20LTS: Define "bash -l" as the default login for all users
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, ubuntu-20.04, konsole | Score: 0 | Views: 147 | Answers: 1 | Created: 2025-01-22
+
+**解决方案 / Solution**:
+In contrast to RHEL, the Ubuntu terminal/konsole does not automatially load the scripts under "/etc/profile.d". By adding this to the "/etc/bash.bashrc" it basically enables the interactive-non-login-shell (when opening a terminal/konsole) to load the *.sh files under "/etc/profile.d" if ! shopt -q login_shell; then if [ -d /etc/profile.d ]; then for i in /etc/profile.d/*.sh; do if [ -r $i ]; then . $i fi done fi fi With this setting all scripts are loaded and it "behaves" like a login shell for all users.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1871588/ubuntu-20lts-define-bash-l-as-the-default-login-for-all-users
+
+---
+
+#### 5695. How do I merge free space from partition into another partition in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, ssd, storage, nvme | Score: 0 | Views: 215 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+From what I understand, you have 130GB of free space that's not being used because it's not inside the APFS container. And, you wish to merge this space to APFS container. The only problem I see is that the space is not contiguous: | disk0s1: APFS Container (Macintosh HD) | 121.2 GB | | disk0s2: EFI | 524.3 MB | | disk0s3: Linux | 4.3 GB | | free space | 130.0 GB | I think APFS containers can only be resized if the free space is directly adjacent (after) the container. This means, you will need to remove the linux and EFI partition and then resize the container to fill up the space.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870809/how-do-i-merge-free-space-from-partition-into-another-partition-in-macos
+
+---
+
+#### 5696. How to convert BluRay PGS captions (in a MKV) to normal subtitles/captions that can be used with MP4 players in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, video, video-conversion, blu-ray, handbrake | Score: 0 | Views: 695 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+This seems a little too close to your other question , but if HandBrake is only giving you burned in options for bring the PGS captions over, you'll need to use Subler. Here are my notes on using it for my purposes, I have not tried to edit it exactly for your use case, but hopefully this gives you an idea of how to do it. Open the MKV in Subler, unselect everything except the subtitle track, save as a temp MP4. When it’s done saving, don’t close the window. Click on the subtitle track, and then choose File -> Export to save the SRT file. In HandBrake, convert normally, but in HB’s Subtitles tab, click the tracks drop-down and choose “Add external SRT” to load the SRT created in Subler.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870784/how-to-convert-bluray-pgs-captions-in-a-mkv-to-normal-subtitles-captions-that
+
+---
+
+#### 5697. Do any of the recent serial terminal solutions (VersaTerm, FabGL Serial Terminal) support UTF-8?
+
+**问题描述 / Problem Description**:
+Tags: terminal, utf-8 | Score: 0 | Views: 111 | Answers: 1 | Created: 2024-12-22
+
+**解决方案 / Solution**:
+After asking the respective developers, it turned out that neither of the two supports UTF-8 out of the box: VersaTerm does not support muitibyte characters sets at all (and is apparently no longer maintained), but for FabGL, at lease someone is about to add UTF-8 support.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1867079/do-any-of-the-recent-serial-terminal-solutions-versaterm-fabgl-serial-terminal
+
+---
+
+#### 5698. Has anyone been able to successfully get a virtual machine (Windows 2000 (W2K) guest OS) running on a MacBook Pro M2?
+
+**问题描述 / Problem Description**:
+Tags: virtualbox, virtual-machine, macbook, vmware-fusion | Score: 0 | Views: 645 | Answers: 1 | Created: 2024-12-10
+
+**解决方案 / Solution**:
+You are not going to be able to run a Intel hardware based Operation System (like W2K) on a M2 Mac just using virtualization. The M2 CPU just doesn't understand Intel software. What you need is a combination of virtualization and an emulation layer that translates between Intel and M2. Fortunately an Mx-CPU based Mac already has that included in macOS, but there is (standard at least) no easy to use GUI available in macOS. Fortunately the Open Source community has stepped up to the plate: What you need is UTM
+
+**参考链接 / References**:
+- https://superuser.com/questions/1864468/has-anyone-been-able-to-successfully-get-a-virtual-machine-windows-2000-w2k-g
+
+---
+
+#### 5699. Issues with permissions on macOS and resetting these permissions
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 0 | Views: 2191 | Answers: 1 | Created: 2024-12-06
+
+**解决方案 / Solution**:
+UPDATE : I forgot you said you're on Ventura and since I can't remember if my previous answer works for Ventura, I'm updating with a simpler, safer solution. Run diskutil resetUserPermissions / $(id -u) on the command line. It'll take a little bit to run through everything, but if successful, you'll be running like it's brand new. That's all, let me know if it works. I've never had a case where I couldn't fix the permissions and ACLs. It's a total headache at times, but there's nothing that can't be resolved. On a side note, I'd recommend not tweaking Apple's security settings either on the command line or in Recovery Mode. There are reasons and times to do so, but you have to use with caution. If you disabled protections to set custom permissions and made issues worse, the script above should resolve this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863864/issues-with-permissions-on-macos-and-resetting-these-permissions
+
+---
+
+#### 5700. Does Windows Terminal not have alternate screen?
+
+**问题描述 / Problem Description**:
+Tags: ssh, terminal, windows-terminal, neovim | Score: 0 | Views: 406 | Answers: 1 | Created: 2024-12-01
+
+**解决方案 / Solution**:
+Windows Terminal has had alternate screen ( \e[?1049h ) support starting with version v1.14 . To test it, run echo "$([char]0x1B)[?1049h" in PowerShell or printf '\e[?1049h' in Bash. Doing the same with 1049l will switch back to regular mode. It's not a good idea set TERM from .bashrc without first checking that the new value is suitable for the terminal. While many terminals are cross-compatible to an extent (most of them implementing the same DEC & xterm extensions), the specific TERM values for one terminal may be too different from another – such as putty-256color for PuTTY being just a little bit too different from what Windows Terminal implements. (Windows Terminal has its own terminfo DB entry: TERM=ms-terminal ; however it's likely that the entry will be a little outdated, as terminfo doesn't move nearly as fast as WT development.) Unfortunately, there is no good way to check from .bashrc whether putty-256color is suitable or not. Instead, if you're using PuTTY you should set the default TERM value it sends to server and save as "Default Session". But at least, if you want to use "xterm-256color", don't blindly do TERM=xterm-256color – at least put it within an if [ $TERM = ... ] . For example: if [[ $TERM == @(xterm|screen|tmux) ]]; then TERM="$TERM-256color" fi
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863323/does-windows-terminal-not-have-alternate-screen
+
+---
+
+#### 5701. How to run two separate instances of WhatsApp desktop app on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, whatsapp | Score: 0 | Views: 7206 | Answers: 2 | Created: 2024-11-26
+
+**解决方案 / Solution**:
+Use WhatsApp Desktop and WhatsApp Web: Install the WhatsApp Desktop app from the Mac App Store for one account. Use WhatsApp Web for the second account. Separate User Accounts on macOS: Create a separate user account on your Mac and install WhatsApp Desktop on both accounts. You can switch between user accounts to access different WhatsApp accounts.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862822/how-to-run-two-separate-instances-of-whatsapp-desktop-app-on-macos
+
+---
+
+#### 5702. How do I make Putty adjust the terminal & re-wrap lines when I resize the window?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, terminal, putty | Score: 0 | Views: 577 | Answers: 1 | Created: 2024-11-17
+
+**解决方案 / Solution**:
+Is there a way to make Putty behave like ssh ssh doesn't resize anything, it's just a tunnel forwarding the characters from one computer to another. Resizing is done (or not) by the terminal emulator such as Window Terminal. So what you actually want to ask: Is there a way to make PuTTY behave like Windows Terminal or Windows console? I'm afraid PuTTY itself cannot do it. Its changelog , dating back for 25 years (when I doubt any terminal out there offered this feature) doesn't mention the word "re-wrap" or "re-flow", spelled with or without a hyphen, nor does any presence of the word "resize" refer to this feature. As a workaround, you can run screen or tmux , they rewrap the lines for you on the server side and send over to PuTTY the reformatted output.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862048/how-do-i-make-putty-adjust-the-terminal-re-wrap-lines-when-i-resize-the-window
 
 ---

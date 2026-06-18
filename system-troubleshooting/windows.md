@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6778**
+**总计条目 / Total entries: 6848**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -93878,5 +93878,915 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221109#reply25
+
+---
+
+#### 6779. WSL 2: "Access is denied" error appearing all of a sudden after months of use. Nothing changed (?)
+
+**问题描述 / Problem Description**:
+Tags: windows-10, partitioning, permissions, ntfs, wsl2 | Score: 2 | Views: 58 | Answers: 1 | Created: 2026-06-14
+
+**解决方案 / Solution**:
+this is the original OP. I was able to solve the issue after receiving some help on a different forum. I'll briefly explain what worked for me, in case some other person finds themselves with a similar issue in the future: Likely cause of issue: Folder containing the .vhdx was accidentally set to "compress contents to save disk space", and the .vhdx file itself was compressed without my knowledge. This may have been toggled on accident after using that same drive for other purposes (here it was used as backup storage of some different program). How the issue was solved Copy .vhdx to a different location. Double check that the new folder doesn't have "compress contents to save disk space" toggled. You may check this via Left click > Properties > Advanced . Boot up a Powershell instance with Administrator rights. Run compact /U <path_to_vhdx> to uncompress the file. A copy of the .vhdx was necessary because compact would refuse to work on the original file and location. Check that the copied .vhdx is now uncompressed and NOT read-only. This may be verified by running attrib <path_to_vhdx> and compact /Q <path_to_vhdx> . If the copy is marked as read-only for some reason (has an R in attrib 's output), run attrib -R <path_to_vhdx> . Import the copied .vhdx as a new distro: wsl --import --vhd <new_distro_name> <path_to_host_new_distro> <path_to_copied_vhdx> .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938421/wsl-2-access-is-denied-error-appearing-all-of-a-sudden-after-months-of-use-n
+
+---
+
+#### 6780. Pc Randomly Restarting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9h6dh/pc_randomly_restarting/
+
+---
+
+#### 6781. I was thinking of making a PC solely for emulation with Batocera on it, will taking RAM away from my gaming PC compromise its performance?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9e8wm/i_was_thinking_of_making_a_pc_solely_for/
+
+---
+
+#### 6782. My headphone quality will randomly change
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9hdli/my_headphone_quality_will_randomly_change/
+
+---
+
+#### 6783. Computer suddenly started losing battery very quickly, how do I fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9e6b5/computer_suddenly_started_losing_battery_very/
+
+---
+
+#### 6784. Wifi slows down until there is effectively no more connection whenever I don't move my wireless mouse for some time
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9jvcb/wifi_slows_down_until_there_is_effectively_no/
+
+---
+
+#### 6785. Started repair loop after running verifier (oops) tried to boot in safe mode now WinRe is unavailable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9juc4/started_repair_loop_after_running_verifier_oops/
+
+---
+
+#### 6786. Random loss of display
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9ds0g/random_loss_of_display/
+
+---
+
+#### 6787. pc brightness setting disappeared and drawing tablet screen dim and flickering
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9jl1i/pc_brightness_setting_disappeared_and_drawing/
+
+---
+
+#### 6788. My D Disk is not responding.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9jfph/my_d_disk_is_not_responding/
+
+---
+
+#### 6789. Blue Yeti shows as “USB Advanced Audio Device” and I can’t hear myself through headphone monitoring anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9jd6x/blue_yeti_shows_as_usb_advanced_audio_device_and/
+
+---
+
+#### 6790. My monitor, keyboard and mouse all turn off but my pc tower usually stays on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9ja7g/my_monitor_keyboard_and_mouse_all_turn_off_but_my/
+
+---
+
+#### 6791. Gigabyte Motherboard - Can no longer restart, sleep, hibernate PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9j67u/gigabyte_motherboard_can_no_longer_restart_sleep/
+
+---
+
+#### 6792. fan goes to 1.4 million RPM then 0
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9j46q/fan_goes_to_14_million_rpm_then_0/
+
+---
+
+#### 6793. PC is not detecting Sata SSD after installing Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9j3yz/pc_is_not_detecting_sata_ssd_after_installing/
+
+---
+
+#### 6794. Random temp spike for milliseconds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9j1bf/random_temp_spike_for_milliseconds/
+
+---
+
+#### 6795. Basic issue: How do I delete shortcut icons from desktop despite being my main files?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9isjf/basic_issue_how_do_i_delete_shortcut_icons_from/
+
+---
+
+#### 6796. my keyboard isn`t working properly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9ioc3/my_keyboard_isnt_working_properly/
+
+---
+
+#### 6797. How do I delete/disable system reserved storage on my non-boot drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9iedt/how_do_i_deletedisable_system_reserved_storage_on/
+
+---
+
+#### 6798. [HELP] GPU Crashing under load (LiveKernelEvent 114, Black Screen) + PSU Cable Question
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9ianv/help_gpu_crashing_under_load_livekernelevent_114/
+
+---
+
+#### 6799. Something blocking traffic?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9ia22/something_blocking_traffic/
+
+---
+
+#### 6800. Windows 11 laptop storage problem.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9i6y3/windows_11_laptop_storage_problem/
+
+---
+
+#### 6801. Mirrored, flickering ghost cursor on 2nd monitor (Gigabyte G24F-2) when Chromium apps are maximized — AMD Driver 26.6.1 / RX 7600
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9hyjx/mirrored_flickering_ghost_cursor_on_2nd_monitor/
+
+---
+
+#### 6802. I’m hardstuck with my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9hx2r/im_hardstuck_with_my_pc/
+
+---
+
+#### 6803. I have an error code so odd it isnt even on the support page
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9htgi/i_have_an_error_code_so_odd_it_isnt_even_on_the/
+
+---
+
+#### 6804. Thickheaded Thursday - June 18, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u923sf/thickheaded_thursday_june_18_2026/
+
+---
+
+#### 6805. Aaaand it's done! - I pushed the button 2 months ago and I finally retired yesterday.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u92p8z/aaaand_its_done_i_pushed_the_button_2_months_ago/
+
+---
+
+#### 6806. Today is my last day as a Sysadmin, switching careers after nearly 30 years
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u94xuf/today_is_my_last_day_as_a_sysadmin_switching/
+
+---
+
+#### 6807. IT Techs of Reddit: What was it like fixing Windows XP machines in schools and businesses during the 2010s?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9ch8q/it_techs_of_reddit_what_was_it_like_fixing/
+
+---
+
+#### 6808. Mass brute force attack on Microsoft Azure CLI?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9gnj2/mass_brute_force_attack_on_microsoft_azure_cli/
+
+---
+
+#### 6809. M365 Onedrive sharing got way too complicated
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9emmr/m365_onedrive_sharing_got_way_too_complicated/
+
+---
+
+#### 6810. Just got a new gig as the sole IT guy
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9al1r/just_got_a_new_gig_as_the_sole_it_guy/
+
+---
+
+#### 6811. Is Knowbe4 being sold?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u975ig/is_knowbe4_being_sold/
+
+---
+
+#### 6812. Whats with dell rebranding their laptops?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u8vd1u/whats_with_dell_rebranding_their_laptops/
+
+---
+
+#### 6813. Adobe Update broke the ability to digitally sign documents
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u94y1u/adobe_update_broke_the_ability_to_digitally_sign/
+
+---
+
+#### 6814. Google DNS problems
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9e57s/google_dns_problems/
+
+---
+
+#### 6815. Looking to hire a System Admin - but my boss insists that 70k - 80k is a normal pay range
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u8jtp2/looking_to_hire_a_system_admin_but_my_boss/
+
+---
+
+#### 6816. Anyone else seeing scan-to-email issues with Gmail SMTP today?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9ezgz/anyone_else_seeing_scantoemail_issues_with_gmail/
+
+---
+
+#### 6817. Microsoft Edge Extended Stable Channel
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9ik3i/microsoft_edge_extended_stable_channel/
+
+---
+
+#### 6818. Am I wrong for feeling like my title and responsibilities don’t match?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9786g/am_i_wrong_for_feeling_like_my_title_and/
+
+---
+
+#### 6819. Adobe Outages
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u98b4a/adobe_outages/
+
+---
+
+#### 6820. How to transition into Endpoint Engineer or System Admin in Toronto
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9erke/how_to_transition_into_endpoint_engineer_or/
+
+---
+
+#### 6821. Will Vendors Please Stop Reusing Acronyms?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u8ceup/will_vendors_please_stop_reusing_acronyms/
+
+---
+
+#### 6822. M365 Moving from Basic Authentication - Is PowerShell really the only way to do SMTP OAUTH?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u98329/m365_moving_from_basic_authentication_is/
+
+---
+
+#### 6823. Ticketing System Help
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9d4e4/ticketing_system_help/
+
+---
+
+#### 6824. Hyper-V client checkpoint .avhdx files filled hard drive and crashed client
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9605d/hyperv_client_checkpoint_avhdx_files_filled_hard/
+
+---
+
+#### 6825. Pay raises...how much do you need to leave?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u99c20/pay_raiseshow_much_do_you_need_to_leave/
+
+---
+
+#### 6826. What does NIS2 mean by "significant incident" and "state-of-the-art"? im still confused
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u923h2/what_does_nis2_mean_by_significant_incident_and/
+
+---
+
+#### 6827. Genuinely sad when users are let go?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u8gpzg/genuinely_sad_when_users_are_let_go/
+
+---
+
+#### 6828. [V2EX] 2026 年了，还有人使用精简 windows 镜像吗？
+
+**问题描述 / Problem Description**:
+从 xp 时代的深度版镜像，到后来 win7 和 win10 的各路大神，再到现在流行的 playbook 方案。从早期的硬件性能妥协，到后来纯粹追求干净的使用体验，无论这种“第 3 方修改版”怎样饱受争议，我觉得精简镜像这个需求都无法被否认 在 windows7 和 windows10 时代，我一直使用一个叫 Lopatkin 的饿罗斯开发者的精简镜像，可惜后来停更没能延续到 windows11 ，在 win11 尝试过各种诸如 atlas revios 的方案，都不甚满意，主力方案变成了从 uupdump 打包一个镜像自己精简，再单独暂停 update （停用 update 不会影响驱动自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220989#reply123
+
+---
+
+#### 6829. [V2EX] 程序化思维的盲区，如何做好应用的运营和推广呢？
+
+**问题描述 / Problem Description**:
+想到一个点子，然后 vibe coding 出来真的很容易啊，这几周我做了 3 个独立站点部署到了 CloudFlare ，打算做成出海类的应用集，可是我发现到国外的社区去推广运营是真难啊，应用发出去几天了，使用者都寥寥无几，更别提付费了，好尴尬啊😅。 我反思了一下，首先是因为我英语一般般的差，蹲国外社区费劲，其次是国外社区之前没有做前期的积累，从零开始有急于求成的心态，更容易动摇信心； 目前我还只在 V2EX 上发了发链接，真心求教：一是国内还有哪些站点适合做应用推广，二是出海这块适合我这种贸然进入的人吗？有没有可能先做好国内的运营和宣发更有必要呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221466#reply0
+
+---
+
+#### 6830. [V2EX] 我是不是在几乎全员 AI 编程的信息茧房里
+
+**问题描述 / Problem Description**:
+线上已经是了 从我个人 upwork 上 来看, 相关岗位投递对 AI 编程的明确要求具备提及, 能有 1/4 或者更低. 然后大概有 1/3 的岗位描述一看就是已经经历过 AI 编程初始轮了. 从我关注的 社交平台 , 不论国内外, 都是在讨论 AI 编程或者外行 Vibe Coding. V2 就更不用说了. 但是这些不能排除是我的偏向性浏览大数据给我推的. 线下好像又不是 但是最近遇到两个客户, 第一个我教他用 Codex 后, 他惊为天人. 另一个, 我说我现在几乎不手写代码了, 他说我竟然已经在全面 AI 编程了. 问问大家 我自由职业两年多了, 线下接触人的机会不多, 你们身边什么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221461#reply7
+
+---
+
+#### 6831. [V2EX] 公司打算正价订阅 GPT Pro 20x 一号 5 人使用，请问用什么方法转发比较合适？
+
+**问题描述 / Problem Description**:
+主要是公司内部 5 人开发使用，都在同一个区域，我目前的设想是本地运行 sub2api 通过局域网来分发，不知道这样是否可以行吗？会封号吗？ 充值渠道：Google Play 方式
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221455#reply1
+
+---
+
+#### 6832. [V2EX] 打算通过保险经纪人买医疗保险+意外险,大家有什么建议吗
+
+**问题描述 / Problem Description**:
+目前打算给自己和家里人配置一份百万医疗险+意外险 没有得过大病,只有脂肪肝和结节等小问题 打算将体检报告和以往门诊发给保险经纪人来购买保险并且看重未来的理赔服务 想问下应该如何找保险经纪人&&有什么需要注意的细节吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221453#reply2
+
+---
+
+#### 6833. [V2EX] 过节了，这会还有和我一样在值班的老哥吗
+
+**问题描述 / Problem Description**:
+牛马命啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221425#reply1
+
+---
+
+#### 6834. [V2EX] Epic Fab 开发者上架，大陆护照，有港卡（地址证明中国大陆）德卡（bunp 地址证明德国）itin（NRA 无美卡）选择 China 会发生类似 unity 的惨案吗？出金选择哪张卡，会因为公户转私户被杀全家吗？
+
+**问题描述 / Problem Description**:
+需要考虑到 Fab 是 business 账户，直接绑定个人卡打到个人账户会被杀全家吗？选哪张卡合适？ 大家的 Fab 选择的哪个地区卖资产的？ 选 China 走 W-8BEN 缴纳 10%版税加上抽成，未来会被 unity 一样卖掉吗？ 或者搞张美卡这类？求个 DP ！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221421#reply0
+
+---
+
+#### 6835. [V2EX] 小男生有必要在 25 岁左右找到个对象结婚吗？
+
+**问题描述 / Problem Description**:
+小男生有必要在 25 岁左右找到个对象结婚吗？ 大家怎么看？？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221417#reply3
+
+---
+
+#### 6836. [V2EX] 刚刚启动 Codex，就用了 1%的额度 正常吗？
+
+**问题描述 / Problem Description**:
+啥都没有做 就打开了 Codex 是不是有什么地方需要设置？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221402#reply6
+
+---
+
+#### 6837. [V2EX] 有没有懂哥知道这个播客博主的声音是 AI 还是录制的原声？
+
+**问题描述 / Problem Description**:
+我自己觉得他的声音挺像真人的，但是一些视频下面别人都说是 AI ，但是又没说是哪个名称的 AI 尬住了，希望有懂哥可以解答一下，非常感谢。 https://www.douyin.com/jingxuan/search/zach
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221396#reply4
+
+---
+
+#### 6838. [V2EX] Windows 正确使用 Agent 的姿势
+
+**问题描述 / Problem Description**:
+AI 天生更擅长 Unix 命令，所以同样模型同样智能体在 Windows 上低人一等。尝试用 WSL 使用 codex 和 claude 效果还不错，但是现在的 codex app 只有 win 和 mac 的，设置中智能体运行切换到 WSL 中仍然很不方便，配置和技能也都在 Windows 中，配置还出现乱读取等等。各位大佬是如何优雅在 Windows 上开发的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221393#reply12
+
+---
+
+#### 6839. [V2EX] 道家修炼派别分享
+
+**问题描述 / Problem Description**:
+https://www.vastitude.org/?p=2020 看到一篇文章，看起来对很多流派和修炼法门都有总结， 同时我也好奇有没有同修的朋友在修炼的， 修炼到底应该采取什么方法， 有没有有成效的呢？ 类比声乐学习， 很多 UP 都能唱很厚实的高音， 但是我跟着学习很多年，也发不出厚实的 A4 ， 我在想，没有成效，是否是天赋的问题，身体就这条件了， 没有任何方法再进步。 或者，是没有找到正确的方法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221359#reply1
+
+---
+
+#### 6840. [V2EX] 有 2 台 8 卡的 4090 的机器， 384G 一台，怎么让他干活干到死
+
+**问题描述 / Problem Description**:
+| NVIDIA-SMI 595.80 Driver Version: 595.80 CUDA Version: 13.2 | +-----------------------------------------+------------------------+----------------------+ | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC | | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. | | | | MIG
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221353#reply0
+
+---
+
+#### 6841. [V2EX] 我该如何抉择？选择长沙还是武汉？
+
+**问题描述 / Problem Description**:
+目前人还在长沙上班，但是老家又是湖北，回武汉就得降薪，想回武汉找个 2w+的工作，想不到连个面试都没有，但是在长沙没啥朋友，离家现在都要中转到武汉才能回去了。麻烦一批。 现在最大的矛盾是不想工作，但是这行情+大龄还有稍微高点的薪资，辞了又舍不得，真不知道怎么抉择，待着又会想家了。哎。。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221340#reply1
+
+---
+
+#### 6842. [V2EX] 实时数字人智能客服/数字人直播，有什么解决方案吗？
+
+**问题描述 / Problem Description**:
+如题，想做个 虚拟数字人。能根据用户对话/输入文字，搜索到知识库里的信息后，通过数字人回答出来。有点类似数字人直播了，不知道有没有成熟的解决方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221333#reply2
+
+---
+
+#### 6843. [V2EX] 8G 左右的个人家庭图片，是放在 Cloudflare R2 好，还是 github 好？
+
+**问题描述 / Problem Description**:
+以后每年可能都需要增加一点点，最主要的原因是想免费并永久保存
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221310#reply47
+
+---
+
+#### 6844. [V2EX] 这张图片是 AI 生成、还是真实的吗？
+
+**问题描述 / Problem Description**:
+自媒体中经常出现的马斯克蹲工厂的照片： 问 AI 意见分歧很大： Gemini 、豆包认为是 AI 生成的，不是真实照片； ChatGPT 、元宝、千问 都认为这是真实的照片。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221304#reply12
+
+---
+
+#### 6845. [V2EX] 后端程序分层的问题
+
+**问题描述 / Problem Description**:
+更新数据库的同时 紧跟着更新缓存, 这个缓存不是 redis 缓存, 而是一个 local 的 hashmap 譬如, 数据库的结构体是 ConfigModel 这个 map 是[id]ConfigModel 的类型. 这两步操作是否可以放到一起, 到 repo 层来处理 譬如 ConfigRepo.UpdateConfig(configModel){ ConfigModel.updateDB(configModel) localCache.update(configModel) } 还是说两个操作要分开, 在 service 中分别调用?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221293#reply6
+
+---
+
+#### 6846. [V2EX] agent 开发在企业里开发什么
+
+**问题描述 / Problem Description**:
+现在都在转 agent 开发，想问一下企业里 agent 开发到底在开发什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221290#reply0
+
+---
+
+#### 6847. [V2EX] 又是一年端午节，公司发啥节日礼了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221286#reply74
+
+---
+
+#### 6848. [V2EX] GV 也要 KYC 了？
+
+**问题描述 / Problem Description**:
+早上起来打开 google voice 号没了 上面大大的提示 需要验证您的身份 看来是彻底要完了。 接下来是问题： 1 、时至今日，大家用 gv 到底还能用来干什么？ 很多网站注册都用不了虚拟号 2 、如果不用虚拟卡，有什么好的海外卡值得低成本长期拥有？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221277#reply7
 
 ---
