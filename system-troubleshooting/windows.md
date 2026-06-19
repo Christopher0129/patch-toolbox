@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6848**
+**总计条目 / Total entries: 6889**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -94788,5 +94788,538 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221277#reply7
+
+---
+
+#### 6849. Why is it that two different USB webcams are detected but only show a black screen in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, webcam | Score: 0 | Views: 43 | Answers: 1 | Created: 2026-06-17
+
+**解决方案 / Solution**:
+This problem is most commonly caused by corrupted or incompatible Windows drivers. The first thing you should try out now is troubleshooting the camera. To do that open your start menu and type troubleshoot and click on troubleshoot settings. From the menu that opens choose Camera and run the troubleshooter. If the issue persists seeing as you have aready reinstalled the camera app, the best course of action will be to reinstall the drivers. To do that open device manager and click on the "Camera" to open a drop down menu, choose your camera and right clock on it and then select uninstall drivers. You may then restart the computer to let Windows automatically reinstall the driver. If the issue still persists you may manually download the driver from the Logitech website https://support.logi.com/hc/en-au/articles/360024849133-Download-HD-Pro-Webcam-C920 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938486/why-is-it-that-two-different-usb-webcams-are-detected-but-only-show-a-black-scre
+
+---
+
+#### 6850. PC Turns Off Randomly, No Errors/Warning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uabc5t/pc_turns_off_randomly_no_errorswarning/
+
+---
+
+#### 6851. Persistent NVMe SSD disconnects under load - stornvme Event 11, drive disappears completely
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ua9kum/persistent_nvme_ssd_disconnects_under_load/
+
+---
+
+#### 6852. new Router & old-ish printer won't connect
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ua7x9o/new_router_oldish_printer_wont_connect/
+
+---
+
+#### 6853. HDR doesn't appear in Read Dead Redemption 2 settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaclc6/hdr_doesnt_appear_in_read_dead_redemption_2/
+
+---
+
+#### 6854. Is it true that my pager company cant know or see the number that paged me?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1u9uzev/is_it_true_that_my_pager_company_cant_know_or_see/
+
+---
+
+#### 6855. Ethernet option missing from control panel network settings.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uabesp/ethernet_option_missing_from_control_panel/
+
+---
+
+#### 6856. I spilled milk on my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ua7mh3/i_spilled_milk_on_my_laptop/
+
+---
+
+#### 6857. Stadby mode on new monitor??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaawm1/stadby_mode_on_new_monitor/
+
+---
+
+#### 6858. 4 Year old Ipad storage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ua9yi7/4_year_old_ipad_storage/
+
+---
+
+#### 6859. USB Devices disconnecting at random
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaf4s3/usb_devices_disconnecting_at_random/
+
+---
+
+#### 6860. Windows 11 Does Not Recognize Headset Microphones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaf3vn/windows_11_does_not_recognize_headset_microphones/
+
+---
+
+#### 6861. My internet is connected fine, but nothing works
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaeye9/my_internet_is_connected_fine_but_nothing_works/
+
+---
+
+#### 6862. laptop keys don’t work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaewj8/laptop_keys_dont_work/
+
+---
+
+#### 6863. Wi-Fi won't connect well to living room. Customer support fixed something but idk what.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaes7o/wifi_wont_connect_well_to_living_room_customer/
+
+---
+
+#### 6864. Why are there horizontal lines on my monitor?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaerns/why_are_there_horizontal_lines_on_my_monitor/
+
+---
+
+#### 6865. PC will not turn on at home, but will at brothers house?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaer7w/pc_will_not_turn_on_at_home_but_will_at_brothers/
+
+---
+
+#### 6866. Downloading from a cd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uaec5o/downloading_from_a_cd/
+
+---
+
+#### 6867. 5070ti or pc (idk) crashing on idle state
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uae101/5070ti_or_pc_idk_crashing_on_idle_state/
+
+---
+
+#### 6868. Mouse cursor has stopped appearing.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uadzov/mouse_cursor_has_stopped_appearing/
+
+---
+
+#### 6869. Is it possible to share an HDD between r-pi and desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uadu8u/is_it_possible_to_share_an_hdd_between_rpi_and/
+
+---
+
+#### 6870. Unable to download affinity
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uadiu0/unable_to_download_affinity/
+
+---
+
+#### 6871. MSI Vector GP77 13V Temp sensor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uadgsl/msi_vector_gp77_13v_temp_sensor/
+
+---
+
+#### 6872. Microphone not being detected in input devices.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uad11r/microphone_not_being_detected_in_input_devices/
+
+---
+
+#### 6873. Lenovo laptop workstation turned into personal laptop freezes after OS loads
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uacxc1/lenovo_laptop_workstation_turned_into_personal/
+
+---
+
+#### 6874. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply17
+
+---
+
+#### 6875. [V2EX] 2026 年了，还有人使用精简 windows 镜像吗？
+
+**问题描述 / Problem Description**:
+从 xp 时代的深度版镜像，到后来 win7 和 win10 的各路大神，再到现在流行的 playbook 方案。从早期的硬件性能妥协，到后来纯粹追求干净的使用体验，无论这种“第 3 方修改版”怎样饱受争议，我觉得精简镜像这个需求都无法被否认 在 windows7 和 windows10 时代，我一直使用一个叫 Lopatkin 的饿罗斯开发者的精简镜像，可惜后来停更没能延续到 windows11 ，在 win11 尝试过各种诸如 atlas revios 的方案，都不甚满意，主力方案变成了从 uupdump 打包一个镜像自己精简，再单独暂停 update （停用 update 不会影响驱动自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220989#reply125
+
+---
+
+#### 6876. [V2EX] 凡人 177 集修改版如何评价？
+
+**问题描述 / Problem Description**:
+刚刚重看了修改后的 177 集，个人感觉剧情通顺了不少，观感大涨。 凡人之前李华元风波那时，我还没有入坑。这次算是第一次见识网友对凡人的严厉程度。也能看出制作组诚意真的很足。 给我感觉这次 177 风波再次验证了凡人含金量。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221586#reply3
+
+---
+
+#### 6877. [V2EX] 请问目前大家都选择哪个品牌和型号的红外温测枪呢？谢谢！
+
+**问题描述 / Problem Description**:
+温测枪是多用途的，就是医用级 + 工业级 + 多点激活点的？是选择接触式的，还是非接触式的？这里边有什么踩坑的注意事项吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221576#reply0
+
+---
+
+#### 6878. [V2EX] iPhone Air 国行要怎么使用？
+
+**问题描述 / Problem Description**:
+esim 只支持国内的运营商，这个限制能解除，变成真的支持吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221574#reply1
+
+---
+
+#### 6879. [V2EX] 好难受, 现在是不是 GLM 最适合我了
+
+**问题描述 / Problem Description**:
+一开始是 copilot, 然后 6 月份 copilot 按照 credit 付费, 感觉支付不起. 发现 codex 还不错, 然后昨天被二次验证劝退了. claude code 原生的我连尝试都没敢尝试. 太麻烦. 那就剩 cursor 了, 要么就是 GLM? 或者 deepseek. cursor 20/月 那个抗造不? codex 20 美金反正是够我用.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221559#reply15
+
+---
+
+#### 6880. [V2EX] 各位是否遇到过 agent 和 LLM 不遵守 skill 规范的情况，如何处理？
+
+**问题描述 / Problem Description**:
+使用的 deepseek 和 claude code ，每次打开 terminal 都会手工执行一下 skill ，大意是：除非我显示要求 git commit 或者 git push ，否则请你不要擅自进行 git commit 或者 git push 。但是执行一段时间任务后，context 占用比率也处于低位，依然会大概率会遇到不遵守 skill 的情况，是我用法不对吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221544#reply14
+
+---
+
+#### 6881. [V2EX] codex windows 手机连接电脑，卡在报 [无法启动远程控制，请重试] ，求救，不想在公司加班
+
+**问题描述 / Problem Description**:
+妈耶，充钱才能发图片。 - 无法启动远程控制，请重试 - - ------------------------------------.jpg/jpeg/png/wwdd
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221542#reply2
+
+---
+
+#### 6882. [V2EX] 目前海外 esim 手机号在国内，哪个最好？
+
+**问题描述 / Problem Description**:
+发现港版 iPhone 支持 esim 卡，海外手机号，月费低的，哪个最好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221525#reply30
+
+---
+
+#### 6883. [V2EX] 如何申请开通 PayPal 跨境收付款服务
+
+**问题描述 / Problem Description**:
+看到要求是说 需要提供可用的店铺链接以申请开通 PayPal 跨境收付款服务 但是提供个人网站的话 申请不通过，有没有成功开通的朋友指点一下？ 没有 amazon 店铺，弄个 facebook 的 page 可以吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221489#reply1
+
+---
+
+#### 6884. [V2EX] codex 使用 chrome 插件控制浏览器的有些站点触发拦截, 有办法绕过吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221477#reply0
+
+---
+
+#### 6885. [V2EX] 程序化思维的盲区，如何做好应用的运营和推广呢？
+
+**问题描述 / Problem Description**:
+想到一个点子，然后 vibe coding 出来真的很容易啊，这几周我做了 3 个独立站点部署到了 CloudFlare ，打算做成出海类的应用集，可是我发现到国外的社区去推广运营是真难啊，应用发出去几天了，使用者都寥寥无几，更别提付费了，好尴尬啊😅。 我反思了一下，首先是因为我英语一般般的差，蹲国外社区费劲，其次是国外社区之前没有做前期的积累，从零开始有急于求成的心态，更容易动摇信心； 目前我还只在 V2EX 上发了发链接，真心求教：一是国内还有哪些站点适合做应用推广，二是出海这块适合我这种贸然进入的人吗？有没有可能先做好国内的运营和宣发更有必要呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221466#reply4
+
+---
+
+#### 6886. [V2EX] 公司打算正价订阅 GPT Pro 20x 一号 5 人使用，请问用什么方法转发比较合适？
+
+**问题描述 / Problem Description**:
+主要是公司内部 5 人开发使用，都在同一个区域，我目前的设想是本地运行 sub2api 通过局域网来分发，不知道这样是否可以行吗？会封号吗？ 充值渠道：Google Play 方式
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221455#reply13
+
+---
+
+#### 6887. [V2EX] 打算通过保险经纪人买医疗保险+意外险,大家有什么建议吗
+
+**问题描述 / Problem Description**:
+目前打算给自己和家里人配置一份百万医疗险+意外险 没有得过大病,只有脂肪肝和结节等小问题 打算将体检报告和以往门诊发给保险经纪人来购买保险并且看重未来的理赔服务 想问下应该如何找保险经纪人&&有什么需要注意的细节吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221453#reply3
+
+---
+
+#### 6888. [V2EX] 刚刚启动 Codex，就用了 1%的额度 正常吗？
+
+**问题描述 / Problem Description**:
+啥都没有做 就打开了 Codex 是不是有什么地方需要设置？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221402#reply7
+
+---
+
+#### 6889. [V2EX] Windows 正确使用 Agent 的姿势
+
+**问题描述 / Problem Description**:
+AI 天生更擅长 Unix 命令，所以同样模型同样智能体在 Windows 上低人一等。尝试用 WSL 使用 codex 和 claude 效果还不错，但是现在的 codex app 只有 win 和 mac 的，设置中智能体运行切换到 WSL 中仍然很不方便，配置和技能也都在 Windows 中，配置还出现乱读取等等。各位大佬是如何优雅在 Windows 上开发的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221393#reply14
 
 ---

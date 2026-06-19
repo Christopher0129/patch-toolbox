@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1951**
+**总计条目 / Total entries: 1960**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -36911,5 +36911,149 @@ Apply patch from vendor. Monitor https://github.com/blacklanternsecurity/bbot/co
 
 **参考链接 / References**:
 - https://github.com/blacklanternsecurity/bbot/commit/4fb38fd6e
+
+---
+
+#### 1952. CVE-2026-12049 - pgAdmin 4: pgAdmin 4: Open redirect vulnerability in multi-factor authentication…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgAdmin 4: pgAdmin 4: Open redirect vulnerability in multi-factor authentication can lead to phishing. Bugzilla: 2490620
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490620
+
+---
+
+#### 1953. CVE-2026-12047 - pgadmin4: pgAdmin 4: HTML injection via unsanitized SDK exception messages in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: HTML injection via unsanitized SDK exception messages in cloud deployment module. Bugzilla: 2490626
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490626
+
+---
+
+#### 1954. CVE-2026-12046 - pgadmin4: pgAdmin 4: Remote Code Execution due to missing authentication on…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: Remote Code Execution due to missing authentication on critical functions. Bugzilla: 2490618
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490618
+
+---
+
+#### 1955. CVE-2026-12045 - pgadmin4: pgAdmin 4: Remote code execution via prompt injection in AI Assistant
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: Remote code execution via prompt injection in AI Assistant. Bugzilla: 2490625
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490625
+
+---
+
+#### 1956. CVE-2026-12050 - pgadmin4: pgAdmin 4: Arbitrary SQL execution via SQL injection in restore point…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: Arbitrary SQL execution via SQL injection in restore point endpoint. Bugzilla: 2490619
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490619
+
+---
+
+#### 1957. CVE-2026-44942 - libzypp: libzypp: Denial of Service via path traversal in .repo file handling
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libzypp: libzypp: Denial of Service via path traversal in .repo file handling. Bugzilla: 2490281
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490281
+
+---
+
+#### 1958. CVE-2026-48990 - joserfc: joserfc: Resource exhaustion via oversized JSON Web Signature (JWS)…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] joserfc: joserfc: Resource exhaustion via oversized JSON Web Signature (JWS) payloads. Bugzilla: 2490168
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490168
+
+---
+
+#### 1959. CVE-2026-9675 - undici: undici WebSocket client vulnerable to denial of service via cumulative…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici WebSocket client vulnerable to denial of service via cumulative fragment bypass. Bugzilla: 2489979
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489979
+
+---
+
+#### 1960. CVE-2026-42530 - nginx: ngx_http_v3_module: use-after-free issue leads to denial of service
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nginx: ngx_http_v3_module: use-after-free issue leads to denial of service. Bugzilla: 2489872
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489872
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5702**
+**总计条目 / Total entries: 5775**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -78402,5 +78402,954 @@ Is there a way to make Putty behave like ssh ssh doesn't resize anything, it's j
 
 **参考链接 / References**:
 - https://superuser.com/questions/1862048/how-do-i-make-putty-adjust-the-terminal-re-wrap-lines-when-i-resize-the-window
+
+---
+
+#### 5703. God i love mavericks…
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua1wr8/god_i_love_mavericks/
+
+---
+
+#### 5704. Mac apps are way too comfortable leaving junk everywhere.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua1pp0/mac_apps_are_way_too_comfortable_leaving_junk/
+
+---
+
+#### 5705. Apple server glitch? My 2015 MacBook Air is trying to pull an update for macOS Tahoe 26.5.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua0d8q/apple_server_glitch_my_2015_macbook_air_is_trying/
+
+---
+
+#### 5706. Why is my Firefox evil?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaehr0/why_is_my_firefox_evil/
+
+---
+
+#### 5707. Photos won't sync automatically when using VPN
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaavei/photos_wont_sync_automatically_when_using_vpn/
+
+---
+
+#### 5708. What is this message form Quicktime. Everytime I try to open a video file thsi comes up and I can't cancel it. I have to force quit the app.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaalo2/what_is_this_message_form_quicktime_everytime_i/
+
+---
+
+#### 5709. Advanced Data Protection and App filesystem Access
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uae95u/advanced_data_protection_and_app_filesystem_access/
+
+---
+
+#### 5710. Temporarily pausing applications?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uadrlz/temporarily_pausing_applications/
+
+---
+
+#### 5711. A Windows refugee needing some help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1u9wqfc/a_windows_refugee_needing_some_help/
+
+---
+
+#### 5712. How can I make a wallpaper work with MacOS without cutting the edges on the bottom or on the sides?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uad6uh/how_can_i_make_a_wallpaper_work_with_macos/
+
+---
+
+#### 5713. Google Drive for desktop 126 / File Provider causing open-save dialog stalls on Ventura 13.7.8?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uacuho/google_drive_for_desktop_126_file_provider/
+
+---
+
+#### 5714. Help needed with startup fault please
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uacsho/help_needed_with_startup_fault_please/
+
+---
+
+#### 5715. Phone call audio incredibly loud through Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaccq8/phone_call_audio_incredibly_loud_through_mac/
+
+---
+
+#### 5716. Sequoia 15.7.7 VLC flickering issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uabshc/sequoia_1577_vlc_flickering_issues/
+
+---
+
+#### 5717. Fixed - Scorched Earth Approach - "There was a temporary problem completing your request."
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uabrvv/fixed_scorched_earth_approach_there_was_a/
+
+---
+
+#### 5718. Is there a way to change text or font size of this window?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua132y/is_there_a_way_to_change_text_or_font_size_of/
+
+---
+
+#### 5719. List View missing "Name" column in macOS Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua2vue/list_view_missing_name_column_in_macos_tahoe/
+
+---
+
+#### 5720. Hey everyone, i just wanna ask is there any way to bring old pages, numbers, keynote back..
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua82e3/hey_everyone_i_just_wanna_ask_is_there_any_way_to/
+
+---
+
+#### 5721. Unable to send RCS or SMS from Mac. Can recieve.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua1zj0/unable_to_send_rcs_or_sms_from_mac_can_recieve/
+
+---
+
+#### 5722. Constant freezes/pauses every minute on Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua1fzz/constant_freezespauses_every_minute_on_tahoe/
+
+---
+
+#### 5723. I guess I don't understand BetterDisplay - Settings help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ua17rc/i_guess_i_dont_understand_betterdisplay_settings/
+
+---
+
+#### 5724. [V2EX] Mac 网络问题求助, 关闭 FQ 软件后 无网络
+
+**问题描述 / Problem Description**:
+问题描述 : 关闭 某些翻墙软件(小火箭,加速猫等)后,如果 电脑屏幕熄屏 或者休眠太久, 重新打开后 网络失效问题(国内网页打不开, 重新使用 VPN 也不行, 重启也不行) 尝试方案: 重启 VPN, 系统重启, 刷新 DNS 需要反复多次尝试 才有效; 检索 v2,苹果用户反馈区内无 有效办法 可否有 针对性的解决方案, 具体的原理?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221590#reply0
+
+---
+
+#### 5725. [V2EX] macOS 27 里的 iCloud 设置为什么没有“使用家庭存储空间”选项？
+
+**问题描述 / Problem Description**:
+把一个美区 Apple ID 账号加到我的 iCloud 家庭共享里，美区账号只在 Mac mini 上登录，使用的是 macOS 27 系统，iCloud 设置里的存储空间一直只有账号本身的 5GB 存储，一直无法使用家庭共享订阅的 2T 空间，等了好几天都没有同步过来，今天无奈拿美区账号登录一台旧的 iPhone XR 手机，系统是 iOS18.7.3 ，iCloud 设置有一项“使用家庭存储空间”，这才解决共享家庭 iCloud 订阅空间，苹果是认为所有 Apple ID 都会使用 iPhone 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221536#reply1
+
+---
+
+#### 5726. [V2EX] 大家现在都是用什么方法绕过新 macOS 的地区检测的😭
+
+**问题描述 / Problem Description**:
+Siri AI 终于推送给我的 Mac 了，但是现在问啥都是出错，只能订一些简单的闹钟……隐约记得之前只需要全局代理就可以用很多地区限制的功能了；但现在查了一下好像要关 SIP ，还会导致 iPhone 镜像失效（而且是 2025 的方法了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221498#reply1
+
+---
+
+#### 5727. [V2EX] 写了一个本地运行的 macOS 语音输入工具： Juno
+
+**问题描述 / Problem Description**:
+大家好，我最近在做 Juno ，一个 macOS 上本地运行的语音输入工具，想请 V 友帮忙试试。 它解决的是一个很具体的问题：我每天要在 Slack 、邮件、浏览器、Cursor 、Notes 里输入很多文字，但系统听写和很多语音工具用起来总是不太顺手。 常见问题是： - 没有实时转写，说完一大段才发现识别错了 - 项目名、人名、模型名、代码相关词汇很容易被听错 - 语音输入不能理解当前 app 、选中文本、屏幕上的词 - 涉及隐私的内容不想发到云端 - 想在 Mac 上任何输入框里直接使用，而不是打开一个单独的转写页面 Juno 的交互比较简单：按一次快捷键开始说话，再按一次停止，文字会直
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221459#reply7
+
+---
+
+#### 5728. [V2EX] Yo App Switcher（附送兑换码）
+
+**问题描述 / Problem Description**:
+Yo App Switcher (macOS App) 刚通过审核，发布了。 Yo App Switcher 是一款应用切换器，应用 Vim 风格。按压快捷键，Opt+a (可自定义），应用切换窗口显示，再按提示键，就可以切换至相应的程序。 我是一个 Vim/Nvim 重度使用者，一直希望有类似的应用，总算自己编出来了。详情在 Github 。 https://github.com/lylehust/Yo-App-Switcher/blob/main/README_zh.md 可以在应用商店下载。 https://apps.apple.com/us/app/yoappswitcher/id67
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221214#reply15
+
+---
+
+#### 5729. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply108
+
+---
+
+#### 5730. [V2EX] 终结 macOS 终端代理配置噩梦！全自动同步代理到 Shell、Git、NPM、Yarn 和 Docker
+
+**问题描述 / Problem Description**:
+🔗 项目开源地址 👉 GitHub - lcl-101/Proxy-Sync-Daemon 😫 痛点：你是否也经常遇到这些情况？ 终端网络割裂 ：在 macOS 上开启了 Clash 、Surge 或 Shadowrocket 后，浏览器冲浪十分顺畅，但在终端里 git clone 、 npm install 、 docker pull 依旧卡死超时。 繁琐的手动配置 ：每次开代理都要在终端手动输入一堆 export http_proxy=... ；关了代理要是忘记取消配置，终端又会报 Connection Refused 无法联网。 三方工具代理污染 ：为了下载依赖配了 NPM 或 Git
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221028#reply25
+
+---
+
+#### 5731. [V2EX] 新人使用 macOS，问几个问题
+
+**问题描述 / Problem Description**:
+1. 在 `通用` 里面修改了 `主机名`（原：`xxx 的 MacBook Pro`），修改完成后，终端里面的主机名就显示 `localhost` 了，为啥不是我修改后的主机名？ 2. 有些软件在 Dash 里长按，图标开始抖动，有些图标右上角有 `x`，点击可以直接卸载，有些没有，这些没有的怎么卸载？直接拖到垃圾篓就可以了？会有残留配置文件吗？ 3. Type-c 通过转接头 hdmi 接华为智慧屏，智慧屏会一直闪，同事电脑用我的转接头没问题，我用这个转接头接自己的显示器也没有问题，这是为啥？ 4. 我现在的系统是 Sonoma ，更新到最新版以后，后续还能装回这个系统吗？ 5. 系统删除
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221026#reply16
+
+---
+
+#### 5732. [V2EX] 2026 年苹果的低电量提醒依旧一坨
+
+**问题描述 / Problem Description**:
+苹果的低电量提醒在打游戏时提出直接卡个几秒钟，最失败的设计之一 这低电量提醒不能只用声音提醒？不知道苹果的设计师怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221456#reply2
+
+---
+
+#### 5733. [V2EX] [送码] 成功把 iCloud 空间省出了 190GB
+
+**问题描述 / Problem Description**:
+前期提要： vibe coding 了一个解决 iCloud 空间不足的 app - Slimm 最近终于把成品上架 app store 了，地址在这里 Slimm - 释放云空间 核心原理就是只保留前 5s 的低质量视频，原始媒体存在本机或者别的大容量设备上，现在 Slimm 不仅支持本机，还支持了 Web DAV 和外接存储。而且还可以在 Mac 上安装，我已经把自己的 700+个视频全部移到了 Macbook 上面，iCloud 空间立减 190GB ，200GB 的空间终于不再捉襟见肘了。 而且事实证明，以前存储的确实有很多视频是我完全不会再看一遍的了，如果不是这次清理存储空间的机会，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221332#reply58
+
+---
+
+#### 5734. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply27
+
+---
+
+#### 5735. [V2EX] 🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？
+
+**问题描述 / Problem Description**:
+各位 v 站的朋友好，经过 1 年时间我来向各位汇报专为开发团队打造 Mac 优美截图 app 1Capture 的进展。 市场上截图的工具很多，但是我们这款 app 会有很多不一样的地方。Cleanshot 可能很美，但是其操作流程可能不一定适合国人的操作习惯。1Capture 的目标就是：不一味堆砌功能，做到跟 Cleanshot 一样精美，但是更符合国内开发、产品、设计师的操作习惯。 值此 618 之际，我们也是为大家提供价格优惠。1Capture 一次性买断，永久免费升级，走过路过，不要错过哦。送码在最后。 App Store：( https://apps.apple.com/app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221276#reply162
+
+---
+
+#### 5736. [V2EX] 现在已经没办法修改苹果地图的位置了吗？
+
+**问题描述 / Problem Description**:
+设备：ipadmini7 港版（ wifi 版 系统：最新 OS26.5 路由器：小米（已经修改 country code 到香港/韩国 网络：美国家宽 ip （全局尝试了也不行 以前按照 iRingo 很容易的，现在想看个 Apple News 都不行了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221086#reply23
+
+---
+
+#### 5737. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply53
+
+---
+
+#### 5738. [V2EX] 菲律宾区 App Store 礼品卡有购买渠道吗？
+
+**问题描述 / Problem Description**:
+目前用美区 ChatGPT 20X ，想转成菲区，能省几百。 但不知道菲区礼品卡从哪里购买比较安全？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220720#reply36
+
+---
+
+#### 5739. [V2EX] Siri waitlist 下不来了。。
+
+**问题描述 / Problem Description**:
+还有谁和我一样第一天挂上 waitlist ，到现在还没出来的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220622#reply13
+
+---
+
+#### 5740. [V2EX] 近期网站接入 Stripe 的一些分享
+
+**问题描述 / Problem Description**:
+最近新上了一个 Claude 代购站，用的原来中转站的二级域名，为了少改代码，就重新搞了一个 Stripe 子账号用在新站收款。具体的操作方式就是在原来的 Stripe 账号上创建了一个新的组织，在新的组织下创建了一个新的账号，这样的好处就是可以复用之前账号的身份认证信息，不共用一个账号的话 webhook 的代码就不用增加多余的判断逻辑。 由于 Claude 那边是礼品卡的形式，于是产生了思维定势在新站页面充斥着大量的礼品卡字眼。网站部署完成后便在 Stripe 后台请求开通微信和支付宝的权限，由于是被误解成礼品卡网站，很快就收到了拒绝开通微信支付的邮件，支付宝那边比较宽松，没多久就开通了权
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221571#reply0
+
+---
+
+#### 5741. [V2EX] Dario Amodei 受访说在 Baidu 没有遭受职场 PUA
+
+**问题描述 / Problem Description**:
+Anthropic 封杀中国访问这么猛，网友一直猜 Dario 在百度工作期间到底经历了啥😱 Bloomberg 主持人问了这个八卦的问题： Did what you saw Baidu shape your views on China? Dario: Not really, no. I worked there for a year. I probably learned more about speech recognition and all of that... Dario 澄清：没有职场霸凌，做了些语音识别相关的工作，提了下不太注重隐私之类的。。。 https://www.yout
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221551#reply9
+
+---
+
+#### 5742. [V2EX] 海量 Token 限时放送！注册即享 15 天免费体验 15 天内使用完，再赠 1 次 15 天体验
+
+**问题描述 / Problem Description**:
+海量 Token 限时放送！注册即享 15 天免费体验，新老用户皆可参与。 15 天内使用完，再赠 1 次 15 天体验！每邀请 1 位好友注册，您将额外获得 15 天免费体验，累计最高 90 天！ https://platform.stepfun.com?invite_code=YZXELONI 对于 我这个 小白 来说 还是 可以的 快来注册体验吧 主要是白嫖 哈哈 https://imgur.com/a/Sze2ZQV
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221511#reply11
+
+---
+
+#### 5743. [V2EX] 爷爷在鸭棚守了一辈子，他说：钱又不会喊你爷爷
+
+**问题描述 / Problem Description**:
+鸭棚其实分成两部分。靠农田的一边，是人住的。六根木梁撑起一个小草棚，棚顶和四周都铺着稻草，风大的时候，能听见草叶互相摩擦的沙沙声。棚子不大，刚好够住人。 后面摆着一张木床。床板下面垫着稻草，上面是棉花被褥。棉花是自己种的，也是自己弹的，弹好以后装进粗布缝成的被套里。最上面铺着一层洗得发白的粗布床单。 床头挂着蚊帐，蚊帐里面永远放着一把蒲扇。夏天的时候，没有风，爷爷就靠那把蒲扇熬过一个又一个炎热的夜晚。 前半间是灶。灶是爷爷自己用泥巴砌的土灶，灶口是圆的，比铁锅略小一圈。灶台侧面还专门留了一个开口，爷爷说那是气孔，烧火的时候进气用的，火才能烧得旺。 灶上架着一口铁锅，锅底被烟火熏得发黑，怎么刷都
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221486#reply7
+
+---
+
+#### 5744. [V2EX] 开源项目免费领 token
+
+**问题描述 / Problem Description**:
+https://evomap.ai/zh/api-grant?invite=DPFQU4DQ EvoMap 的「开源贡献者 API Grant Program 」：用 GitHub 身份验证（用户名 + 公开仓库 + 角色） github 项目 star 数大于 1 就能参加这活动，大于 1000 ，能拿约等于 100 美金的 credits 可直接免费白嫖 Claude / OpenAI / Gemini 大家可以试下，使用我的邀请码还可以多获得 200 积分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221445#reply2
+
+---
+
+#### 5745. [V2EX] 新疆旅游信号
+
+**问题描述 / Problem Description**:
+兄弟们！！！！！ 我近期要去新疆旅游，过程中可能会经过一些没有信号的地方，有没有什么解决方案可以解决没有信号的问题啊。家里有个小孩，需要时不时看监控、沟通等，所以是很重要的事情，网上找了半天没找到，只能来求助各位 V 站的大佬了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221380#reply11
+
+---
+
+#### 5746. [V2EX] 我们做了一个 Twitter Skill，没想到昨天在 Twitter 上爆了
+
+**问题描述 / Problem Description**:
+各位 V 站的朋友好，我们最近做了一个 Twitter Skill ，昨天发到 Twitter 上，小小火了一下，拿到了 100k+ 曝光，所以也想来 V2EX 跟大家聊聊这个东西。 我们一开始做它，并不是想做一个“自动发推工具”。真正的原因是，我们发现 AI Agent 想接入 Twitter/X ，其实比想象中麻烦很多。 如果直接接 Twitter 官方 API ，开发者要自己处理 OAuth 、token 过期、refresh token 、callback URL 、权限范围这些东西。单独看每一步都不算特别难，但放到真实产品里，就会变成一堆很烦的边角问题。 比如用户今天授权了，Agen
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221301#reply4
+
+---
+
+#### 5747. [V2EX] 试用了几个语音输入法
+
+**问题描述 / Problem Description**:
+我的使用场景： 之前键盘打字写提示词控制 agent 写代码，希望能逐渐转为语音控制写代码，加快速度，提升效率。 希望能支持任意软件的编辑窗口，随时都能语音输入，支持中英文混合输入，润色功能并不太需要。 已购麦克风：大疆 mic mini 2 ，挂衣服上，这样可以人距离电脑较远距离，站起来或躺椅子上，不用接触鼠标键盘，即可输入。 测试结果 1 、Windows 自带的语音输入 win+h 唤醒 优点: 识别率可以接受，中英文也可以，流式输入，实时性好。功能极其简洁，窗口悬浮，方便操作。 缺点：鼠标或键盘操作后会停止监听，需要再次唤醒。 2 、微信输入法语音输入 优点：识别率很高，中英文识别也很
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221281#reply14
+
+---
+
+#### 5748. [V2EX] vibe 了一个微信小游戏，半个月才 200 多用户
+
+**问题描述 / Problem Description**:
+个人开发确实挺难的。 真正写代码其实只花了一周时间。我把需求整理好，生成文档后直接让 Codex 跑，利用下班后的时间，一周左右就完成了开发。 但后面的流程远比开发耗时：微信审核、平台审核、开发者认证、工信部备案，前前后后折腾了一个多月。 上线当天在几个车友群里分享了一下，算是有一点小水花，UV 最高到了 120 。可惜之后基本没有自然新增用户。 后来又录了一些游戏视频发到 B 站、小红书、抖音等平台，播放量大多连 100 都很难突破。即便有 100+ 播放，最终能转化出 5 个打开小游戏的用户就已经算不错了。 最近连更新视频的动力都有点不足了。原本想着先做到 500 UV ，再尝试投一点流量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221245#reply43
+
+---
+
+#### 5749. Problems with Reminders after replacing MacBook
+
+**问题描述 / Problem Description**:
+Tags: macos, calendar, reminders, tahoe | Score: 0 | Views: 25 | Answers: 1 | Created: 2026-06-18
+
+**解决方案 / Solution**:
+I had the exact same problem. I upgraded my M4 MacMini's SSD yesterday and restored from a TimeMachine Backup. Now Reminders is empty and unable to create new reminders. I can still create them in calender and they sync to my iPhone but the reminders app in Tahoe is broken now. I found this solution on Reddit that helped me: just removing the whole ~/Library/Group Containers/group.com.apple.reminders made the application start again
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486618/problems-with-reminders-after-replacing-macbook
+
+---
+
+#### 5750. when I have a DVD in my player, the DVD's eject button does not respond
+
+**问题描述 / Problem Description**:
+Tags: macos, optical-drive, dvd | Score: 0 | Views: 70 | Answers: 1 | Created: 2025-10-05
+
+**解决方案 / Solution**:
+I believe this is expected behavior. macOS wants you to eject optical discs (and other removable drives) from the Mac itself. You can put an eject button in the menu bar, but there is one in the Finder sidebar next to the disc, and Cmd + Shift + E will also eject selected media.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481750/when-i-have-a-dvd-in-my-player-the-dvds-eject-button-does-not-respond
+
+---
+
+#### 5751. Why is Homebrew installed in /opt/homebrew on Apple Silicon Macs?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, apple-silicon | Score: 44 | Views: 27780 | Answers: 2 | Created: 2022-02-27
+
+**解决方案 / Solution**:
+I would highly recommend checking out the original Homebrew discussion here . I'll summarise a few points from it below. The default prefix before Apple Silicon ( /usr/local ) was chosen for a few reasons: It's already in PATH. This means that tools installed with homebrew can be accessed without any need to change anything. Quite a few build systems already look in /usr/local , so libraries installed with homebrew can be used by non-homebrew tools. The Apple Silicon transition came with a change in the default Homebrew prefix. Some of the reasons for this included: /usr/local is also used by other tools, not just Homebrew. This can lead to potential conflicts. Installations in /opt/homebrew for Apple Silicon and /usr/local for Rosetta 2 can coexist. Homebrew tools might not always want to be used by default. A different prefix would make this easier. There was also an interesting article a while back about some of the potential security risks with /usr/local that you might find interesting. Other macOS package managers were already using different prefixes (MacPorts with /opt/local and Fink with /opt/sw ). MacPorts listed some reasons why they don't use /usr/local here , and Fink has here . Just to note, although not recommended , Homebrew can technically be installed anywhere. However, pre-built bottles/binaries are only available on the default prefix.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/437618/why-is-homebrew-installed-in-opt-homebrew-on-apple-silicon-macs
+
+---
+
+#### 5752. Homebrew: How to ignore cask formula on `brew upgrade`? (since `pin` has no `--cask` option)
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, open-source | Score: 26 | Views: 14176 | Answers: 6 | Created: 2022-01-26
+
+**解决方案 / Solution**:
+Workaround You can use buo/homebrew-cask-ugrade , which is a third-party tool with extra cask upgrade features, including pin . brew tap buo/cask-upgrade # Install `brew-cask-upgrade` brew cu pin <CASK_NAME> # Pin the cask you want Reason for workaround It looks like the Homebrew maintainer will not allow pinning of casks, because many casks auto-update, which Homebrew technically can't prevent from happening. From a comment on homebrew/homebrew-cask: Allow pinning casks #49127 : A huge chunk of casks auto-update and we can’t stop that. So pin would at best be inconsistent and not work in a lot of cases.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435901/homebrew-how-to-ignore-cask-formula-on-brew-upgrade-since-pin-has-no-c
+
+---
+
+#### 5753. is it possible to override the legacy app when install using brew
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 25 | Views: 12758 | Answers: 3 | Created: 2022-01-23
+
+**解决方案 / Solution**:
+using this command fix it: ➜ ~ brew install --cask dbeaver-community --force ==> Downloading https://dbeaver.io/files/21.3.2/dbeaver-ce-21.3.2-macos-aarch64.dmg Already downloaded: /Users/xiaoqiangjiang/Library/Caches/Homebrew/downloads/c4fed662e860fd6ca0099f59da082b651e219af2b3369c1f85363dbc7469d1f2--dbeaver-ce-21.3.2-macos-aarch64.dmg ==> Installing Cask dbeaver-community Warning: It seems there is already an App at '/Applications/DBeaver.app'; overwriting. ==> Removing App '/Applications/DBeaver.app' ==> Moving App 'DBeaver.app' to '/Applications/DBeaver.app' 🍺 dbeaver-community was successfully installed!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435745/is-it-possible-to-override-the-legacy-app-when-install-using-brew
+
+---
+
+#### 5754. what's the difference between Homebrew's sevenzip and p7zip formulae?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 9 | Views: 11467 | Answers: 1 | Created: 2022-04-06
+
+**解决方案 / Solution**:
+https://formulae.brew.sh/formula/p7zip refers to https://github.com/jinfeihan57/p7zip . From the "About" box there: A new p7zip fork with additional codecs and improvements (forked from https://sourceforge.net/projects/p7zip/ ) The sourceforge repository claims to be "a quick port of 7z.exe and 7za.exe (command line version of 7zip, see www.7-zip.org ) for Unix." And 7-zip.org is where (according to the formula) sevenzip comes from. So p7zip seems to be a fork of sevenzip with "additional codecs and improvements".
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439438/whats-the-difference-between-homebrews-sevenzip-and-p7zip-formulae
+
+---
+
+#### 5755. Homebrew Apache errors after upgrading to Monterey, how to solve error 256
+
+**问题描述 / Problem Description**:
+Tags: homebrew, apache | Score: 6 | Views: 23080 | Answers: 2 | Created: 2022-01-22
+
+**解决方案 / Solution**:
+I wanna share my way of possibly fixing this issue. After hitting tail -f /usr/local/var/log/httpd/error_log , my result was: [Thu Jan 27 16:32:18.327057 2022] [core:error] [pid 28368] (2)No such file or directory: AH00099: could not create /usr/local/var/run/httpd/httpd.pid.KMq3C9 [Thu Jan 27 16:32:18.327529 2022] [core:error] [pid 28368] AH00100: httpd: could not log pid to file /usr/local/var/run/httpd/httpd.pid [Thu Jan 27 16:36:12.775769 2022] [core:error] [pid 122] (2)No such file or directory: AH00099: could not create /usr/local/var/run/httpd/httpd.pid.sFmHyH So it looks like I don’t have that file created. So I created it using mkdir /usr/local/var/run mkdir /usr/local/var/run/httpd Then I hit apachectl start reulting in (13)Permission denied: AH00072: make_sock: could not bind to address 127.0.0.1:80 no listening sockets available, shutting down AH00015: Unable to open logs So I changed Listen 8080 row in /usr/local/etc/httpd/httpd.conf to Listen 127.0.0.1:8080 After hitting apachectl stop/start I got error saying (13)Permission denied: AH00091: httpd: could not open error log file /usr/local/var/log/httpd/error_log. AH00015: Unable to open logs So I removed two files ( error_log and access_log ) inside /usr/local/var/log/httpd/ Then for some reason I used sudo /usr/local/bin/httpd -k start to start httpd. If that returns that process is already running , simply kill that process and start httpd again. my /usr/local/var/log/httpd/error_log now doesn’t show any error and localhost is working fine on localhost:8080 as changed before. And yes brew services list still shows error at httpd.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435687/homebrew-apache-errors-after-upgrading-to-monterey-how-to-solve-error-256
+
+---
+
+#### 5756. Cannot pin homebrew formula mactex
+
+**问题描述 / Problem Description**:
+Tags: mac, homebrew | Score: 5 | Views: 518 | Answers: 2 | Created: 2022-06-05
+
+**解决方案 / Solution**:
+MacTeX is installed as a Homebrew cask, casks can't be pinned though (see https://github.com/Homebrew/homebrew-cask/issues/49127#issuecomment-401501245 and https://github.com/Homebrew/homebrew-cask/issues/90242 ) A huge chunk of casks auto-update and we can’t stop that. So pin would at best be inconsistent and not work in a lot of cases. There is a user-written extension called homebrew-cask-upgrade which seems to address this issue, but I have no experience with it and it may bring along other issues. For your specific scenario, I would just install MacTeX directly from TUG and avoid any auto-updating triggered by Homebrew. Or, if you don't need the GUI applications bundled with MacTeX, use brew install texlive which just installs the non-GUI binaries and can be pinned.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442002/cannot-pin-homebrew-formula-mactex
+
+---
+
+#### 5757. Getting the full list of all dependencies and sub-dependencies in Homebrew *before* installation
+
+**问题描述 / Problem Description**:
+Tags: homebrew, open-source | Score: 5 | Views: 4452 | Answers: 1 | Created: 2022-04-11
+
+**解决方案 / Solution**:
+According to man brew brew deps --include-build ffmpeg will show the full dependency tree, including build dependencies.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439634/getting-the-full-list-of-all-dependencies-and-sub-dependencies-in-homebrew-befo
+
+---
+
+#### 5758. '/usr/local/var/run/libvirt/libvirt-sock': No such file or directory
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew | Score: 4 | Views: 1249 | Answers: 1 | Created: 2022-05-19
+
+**解决方案 / Solution**:
+You can try to use qemu://session?socket=/opt/homebrew/var/run/libvirt/libvirt-sock . p.s. in your ~/.bash_profile or ~/.bashrc, you can put export LIBVIRT_DEFAULT_URI="qemu://session?socket=$(brew --prefix)/var/run/libvirt/libvirt-sock"
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/441272/usr-local-var-run-libvirt-libvirt-sock-no-such-file-or-directory
+
+---
+
+#### 5759. Are folders under /usr/local/Caskroom needed after installation? (I'm wanting to delete them)
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 4 | Views: 2138 | Answers: 2 | Created: 2022-04-13
+
+**解决方案 / Solution**:
+The content of Caskroom is the installation, so removing a directory basically removes the installed cask. $ ll /opt/homebrew/bin/chromedriver lrwxr-xr-x 1 verence wheel 62 Apr 1 16:49 /opt/homebrew/bin/chromedriver@ -> /opt/homebrew/Caskroom/chromedriver/100.0.4896.60/chromedriver PS: "Normal" formulae are installed into $(brew --prefix)/Cellar , Casks into $(brew --prefix)/Caskroom . In both cases, symlinks from bin etc. ensure that files show up in the right places.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439765/are-folders-under-usr-local-caskroom-needed-after-installation-im-wanting-to
+
+---
+
+#### 5760. brew install GnuPG. doesn't work, am I missing something?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 4 | Views: 5323 | Answers: 1 | Created: 2022-01-29
+
+**解决方案 / Solution**:
+gnupg on homebrew is also known as: gnupg@2.4, gpg, gpg2 , which means just running brew install gnupg is good. If the error persists, you could try brew info gnupg to check if brew can view the formula brew doctor to check for any issues with brew Reinstall homebrew
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/436091/brew-install-gnupg-doesnt-work-am-i-missing-something
+
+---
+
+#### 5761. Why is htop and Activity Monitor showing different even when running htop as sudo?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, terminal, homebrew, memory, activity-monitor | Score: 4 | Views: 2532 | Answers: 1 | Created: 2022-01-23
+
+**解决方案 / Solution**:
+The two programs are simply displaying different things. One says "Mem" as an explanation and the other says "Memory Used" - they're not the same thing. If you take values for "App Memory" and "Wired Memory" from Activity Monitor and add them up, you get the same value as the "Mem" value in htop .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435723/why-is-htop-and-activity-monitor-showing-different-even-when-running-htop-as-sud
+
+---
+
+#### 5762. How can I compile sqlite3 from source on macOS?
+
+**问题描述 / Problem Description**:
+Tags: homebrew, apple-silicon, sqlite | Score: 3 | Views: 2296 | Answers: 2 | Created: 2022-05-18
+
+**解决方案 / Solution**:
+You'll need to download the non-amalgated source code version of SQLite. It's available here: https://www.sqlite.org/download.html At the end you'll see "Alternative Source Code Formats", and you'll need the complete source codes. Next you'll want to decompress the source codes and then edit the Makefile to include your SQLITE_ENABLE_UPDATE_DELETE_LIMIT option. Afterwards you can compile sqlite3.c with this command: make sqlite3.c Note that if you haven't got compilers installed, you'll want to install the Xcode Command Line Tools first. After the command above has been run, you'll have an amalgated source code version of sqlite. This again needs to be compiled into the actual binary, you expect. You can do that with a command like this: gcc shell.c sqlite3.c -lpthread -ldl -lm -o sqlite3 You can find more detailed instructions on sqlite's web site here: https://www.sqlite.org/howtocompile.html
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/441249/how-can-i-compile-sqlite3-from-source-on-macos
+
+---
+
+#### 5763. brew --head update behaviour
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 3 | Views: 330 | Answers: 1 | Created: 2022-04-10
+
+**解决方案 / Solution**:
+Note what How are packages installed with --HEAD kept up-to-date? #2665 mentions: brew upgrade will not upgrade these formulas automatically. To do so: brew upgrade --fetch-HEAD [formula...]
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439595/brew-head-update-behaviour
+
+---
+
+#### 5764. Can qrencode be made portable so it will run on macOS recovery?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, command-line, homebrew, recovery | Score: 3 | Views: 380 | Answers: 1 | Created: 2022-04-08
+
+**解决方案 / Solution**:
+Follow the link of @bmike, I did: 1.Install qrencode on a normal mac desktop by : brew install qrencode now you can use qrencode on this mac well 2.Find where the qrencode is : find / -name "qrencode" get the path is : /usr/local/Cellar/qrencode/4.1.1/bin/qrencode open /usr/local/Cellar/qrencode/4.1.1 you can see the directory: bin , lib 3.Insert a usb storage named: AAA , mkdir a dir /Volumes/AAA/qr and copy the bin and lib to it 4.Now put the usb to the second mac osx Desktop where qrencode is not installed by brew before,(second mac maybe not necessary ,but it's good to repect the errors and confirm you solved the errors, virtual mac is a good choice) cd /Volumes/AAA/qr run the qrencode by : bin/qrencode you will see the error as the question. 5.Now you can the error such as: dyld: Library not loaded: /usr/local/Cellar/qrencode/4.1.1/lib/libqrencode.4.dylib we can change path of qrencode to find dylib: install_name_tool -change /usr/local/Cellar/qrencode/4.1.1/lib/libqrencode.4.dylib "@executable_path/../lib/libqrencode.4.dylib" bin/qrencode maybe this mac shell will required xcode-commandline to installed for run install_name_tool ,if you did not install that, you can installed it as the shell required after that,you can run qrencode again: bin/qrencode it will error again for another dylib,so you chage it again: install_name_tool -change /usr/local/opt/libpng/lib/libpng16.16.dylib "@executable_path/../lib/libpng16.16.dylib" bin/qrencode because when we copy qrenocde dir , we forget copy /usr/local/opt/libpng/lib/libpng16.16.dylib to /Volumes/AAA/qr/lib, so we have to insert usb to first mac,and run : cp /usr/local/opt/libpng/lib/libpng16.16.dylib /Volumes/AAA/qr/lib/ now put the usb back to the second mac,run qrencode again it will run well and print the usage of qrencode , all is done: cd /Volumes/AAA/qr bin/qrencode I waste some time to know what @executable_path is , if qrencode is in bin dir and *.dylib is in lib dir, such as I did, @executable_path/../lib is good, but if qrencode path is /Volumes/AAA/qr/qrencode and *.dylib is in /Volumes/AAA/qr/lib/, @executable_path/../lib should be edit to @executable_path/lib , I test two situations and understand that. 6.Finally , you can run qrencode on any mac desktop or recovery mod with no errors: /Volumes/AAA/qr/bin/qrencode
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439533/can-qrencode-be-made-portable-so-it-will-run-on-macos-recovery
+
+---
+
+#### 5765. How to search for a homebrew package by URL with `brew` command?
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 3 | Views: 1368 | Answers: 2 | Created: 2022-03-28
+
+**解决方案 / Solution**:
+This may not be the ideal solution. However, after following these steps, you will be able to search for brew formulaes by URL. Paste the following AppleScript code into a new Script Editor.app document. (I named my version "Brew_Master_List_Formulaes_Cataloger.scpt") This AppleScript code will create 2 text files on your Desktop. ("Brew_Formulaes_List.txt" and "Brew_Formulaes_Info.txt") property brewFormulae : POSIX path of (path to desktop) & "Brew_Formulaes_List.txt" property brewFormulaesInfo : POSIX path of (path to desktop) & "Brew_Formulaes_Info.txt" do shell script "/usr/local/bin/brew formulae > " & quoted form of brewFormulae try do shell script "rm -f " & quoted form of brewFormulaesInfo end try set brewItemInfo to reverse of rest of reverse of paragraphs of (read brewFormulae) repeat with i in brewItemInfo do shell script "/usr/local/bin/brew info " & quoted form of i & ¬ " |sed '1,3!d' >> " & quoted form of brewFormulaesInfo do shell script "echo ' '" & " >> " & quoted form of brewFormulaesInfo end repeat NOTE: The "Brew_Formulaes_Info.txt" file could take up to 3 hours to be completed. Once your "Brew_Formulaes_Info.txt" has been created, you can now search by URL, using the "Brew_Formulaes_Info.txt" as the source. In Terminal.app , change your pwd (present working directory) to your Desktop with this command cd ~/Desktop (because this is where your "Brew_Formulaes_Info.txt" is located) Now, for instance, the URL you want to search for contains "advancemame.it/scan-readme.html" (you will get better results by omitting the http:// or https:// or www.), your search commands in Terminal would be... grep -ERIhi -B2 'advancemame.it/scan-readme.html' Brew_Formulaes_Info.txt The result should look something like this... Using your example URL... grep -ERIhi -B2 'https://sqlitebrowser.org/' Brew_Formulaes_Info.txt produced no results but... grep -ERIhi -B2 'sqlite.org' Brew_Formulaes_Info.txt returned
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439068/how-to-search-for-a-homebrew-package-by-url-with-brew-command
+
+---
+
+#### 5766. Homebrew Command error: zsh: command not found:$
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew | Score: 3 | Views: 26446 | Answers: 3 | Created: 2022-03-23
+
+**解决方案 / Solution**:
+I faced this issue in M1 chip. So After installing run this: eval $(/opt/homebrew/bin/brew shellenv)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/438825/homebrew-command-error-zsh-command-not-found
+
+---
+
+#### 5767. Deleted /usr/local/Frameworks and others while uninstalling Homebrew
+
+**问题描述 / Problem Description**:
+Tags: homebrew | Score: 3 | Views: 4702 | Answers: 2 | Created: 2022-03-02
+
+**解决方案 / Solution**:
+First note that Apple does not put anything under /usr/local so that removing things will not break the OS. This also means that you or other admins of the machine have made decisions to put stuff in it. Homebrew (on Intel and PPC) installs into various directories under /usr/local The problem is that other installs go into /usr/local as well as per Unix norms. Thus I think you have other things installed by actions other than Homebrew into /usr/local and this confuses Homebrew which assumes that everything under /usr/local is under its control. Thus you get the failure of brew doctor. However the /usr/local/bin directory might well just be executables installed by Homebrew So you have to decide what you installed and why. This can be complex. In this case I would delete all under /usr/local and then reinstall what you need. This might just be reinstall Homebrew. (I would note other package managers don't use /usr/local and so can coexist with manual Unix installs for things not available in that package manager)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/437753/deleted-usr-local-frameworks-and-others-while-uninstalling-homebrew
+
+---
+
+#### 5768. How can I point gcc and g++ to the gnu compiler collection?
+
+**问题描述 / Problem Description**:
+Tags: xcode, homebrew, development, gcc | Score: 3 | Views: 2281 | Answers: 2 | Created: 2022-01-26
+
+**解决方案 / Solution**:
+You don't mess around with getting gcc on your PATH. You don't point g++ to the compiler you want. You alter your build system - usually a Makefile, CMake, autoconf or Xcode to build using the C compiler you want. (This also allows different projects to use different compilers)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435946/how-can-i-point-gcc-and-g-to-the-gnu-compiler-collection
+
+---
+
+#### 5769. M1 MacBook doesn't see Intel Mac in Target Disk Mode
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, imac, thunderbolt, target-disk-mode | Score: 2 | Views: 8004 | Answers: 3 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+You cannot use Target Disk Mode (TDM) between Mac computers of differing architectures. TDM was a mode that allowed you to boot your Mac into this mode so the internal drives of the target machine would appear as external drives to the boot Mac. You can hold the T key while booting (from a powered off state) or select the startup disk from System Preferences. With Silicon based Mac, you’re not booting into that special mode but rather, you’re creating a network share of the entire disk. This is why it can be done over Thunderbolt or USB-C whereas the original TDM required Firewire or Thunderbolt. See Transfer files between a Mac with Apple silicon and another Mac for full instructions and details. But, to put this succinctly, you’re just creating a peer-to-peer network between two computers and sharing the whole disk rather than some files/folders. (IMO) Apple should state this clearly, rather than obfuscate it by burying the links two pages deep.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471379/m1-macbook-doesnt-see-intel-mac-in-target-disk-mode
+
+---
+
+#### 5770. is it possible to auto start command in mac when command exit
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 2 | Views: 61 | Answers: 1 | Created: 2023-05-08
+
+**解决方案 / Solution**:
+No need for an out-of-band monitoring solution; put the command in a loop to run infinitely. In zsh or bash, while true; do npm run watch; sleep 1; done If npm run watch exits, it will sleep 1s, then run the command again.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/459643/is-it-possible-to-auto-start-command-in-mac-when-command-exit
+
+---
+
+#### 5771. After upgrading/reinstalling some app using Homebrew, how to automatically set its notification settings?
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, permission, notifications, settings | Score: 2 | Views: 469 | Answers: 1 | Created: 2022-06-08
+
+**解决方案 / Solution**:
+Just install the non-homebrew distribution of Evernote or, at least, don't use brew to update it. The latter isn't even supposed to happen, which is why you are un/re-installing it to update. The cask system in brew isn't really that useful and it is not intended to be used for updates. See Why aren’t some apps included during brew upgrade? in the brew manual.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/442178/after-upgrading-reinstalling-some-app-using-homebrew-how-to-automatically-set-i
+
+---
+
+#### 5772. Recommended way to install Java with brew (just to run Java apps without a development environment)
+
+**问题描述 / Problem Description**:
+Tags: terminal, command-line, homebrew, java, monterey | Score: 2 | Views: 9474 | Answers: 1 | Created: 2022-05-30
+
+**解决方案 / Solution**:
+It looks like adoptopenjdk14 , the Java package you use, isn't available anymore: brew info adoptopenjdk14 Error: No available formula with the name "adoptopenjdk14". ==> Searching for a previously deleted formula (in the last month)... Error: No previously deleted formula found. If I search for adoptopenjdk instead, brew says that it has been superseeded with temurin : brew info adoptopenjdk (...) ==> Caveats Temurin is the official successor to this software: brew install --cask temurin adoptopenjdk has been officially discontinued upstream. It may stop working correctly (or at all) in recent versions of macOS. So temurin is definitely a good choice for a Java package. I'd recommend that you proceed as follows: install ripme and see if it works with adoptopenjdk14 , if it doesn't, install temurin .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/441735/recommended-way-to-install-java-with-brew-just-to-run-java-apps-without-a-devel
+
+---
+
+#### 5773. Homebrew to install Homebank
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, install, homebrew | Score: 2 | Views: 748 | Answers: 2 | Created: 2022-04-12
+
+**解决方案 / Solution**:
+Homebank seems to be a Unix-style binary and gets installed into $(brew --prefix)/bin . You can run it directly from Terminal with homebank .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/439708/homebrew-to-install-homebank
+
+---
+
+#### 5774. Brew Install PuTTY appears to install but putty command not found
+
+**问题描述 / Problem Description**:
+Tags: terminal, homebrew, ssh | Score: 2 | Views: 8836 | Answers: 1 | Created: 2022-03-08
+
+**解决方案 / Solution**:
+What are you trying to accomplish using putty on macos? You're better off using iTerm2, Hyper, Alacritty, Kitty, Tabby (All GUI based terminal alternatives.) If you're trying to establish a serial connection to something; it's a bit more complicated since we're gonna have to switch out some permissions in order to get screen running (if that's the case, there's a GUI alternative called Serial [but it'll also require changes in regards to system permissions for running tftp or whatever it is you're trying to do ... if you could be more specific it'd be easier to help out. ]) also, if you really wanna stick to putty. I guess there's probably a putty GUI; -- try this: brew tap homebrew/cask brew search putty if you find anything; brew install --cask putty Permission or checksum (sha verification issues) can be handled by issuing export HOMEBREW_CASK_OPTS=" " source ~/.{shell}rc or simple HOMEBREW_CASK_OPTS=" " reload the shell and try again
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/438033/brew-install-putty-appears-to-install-but-putty-command-not-found
+
+---
+
+#### 5775. homebrew installed librdkafka to /opt/homebrew/Cellar/ instead of /usr/local/Cellar/
+
+**问题描述 / Problem Description**:
+Tags: install, homebrew, path | Score: 2 | Views: 2758 | Answers: 1 | Created: 2022-01-26
+
+**解决方案 / Solution**:
+Homebrew uses different destination folders for different architectures (see https://docs.brew.sh/Installation for details). In short, /usr/local is for Intel, /opt/homebrew for Apple Silicon (yes, it is ARM). As for your makefile - you will likely have to adjust the following environment variables to the proper location. See here for some details, but you likely can use this (you may need to adjust the version depending on what is installed, v1.8.2 is current today, 1/26/22: C_INCLUDE_PATH=/opt/homebrew/Cellar/librdkafka/1.8.2/include LIBRARY_PATH=/opt/homebrew/Cellar/librdkafka/1.8.2/lib
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/435900/homebrew-installed-librdkafka-to-opt-homebrew-cellar-instead-of-usr-local-cel
 
 ---

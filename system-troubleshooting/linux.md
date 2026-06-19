@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5949**
+**总计条目 / Total entries: 6027**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -85179,5 +85179,1019 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221260#reply85
+
+---
+
+#### 5950. The ssl connection fails with error 48: Unknown CA. How can I fix it?
+
+**问题描述 / Problem Description**:
+Tags: debian, ssl, certificates, live-build | Score: 1 | Views: 106 | Answers: 1 | Created: 2026-05-03
+
+**解决方案 / Solution**:
+As pointed out in the comments, the problem is: Fetching repositories via HTTPS requires ca-certificates to be installed, which in turn requires working repositories ;-) Workaround: Just use plain HTTP instead. This should be fine as long as all packages are signed correctly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805776/the-ssl-connection-fails-with-error-48-unknown-ca-how-can-i-fix-it
+
+---
+
+#### 5951. Found physical Red Flag Linux 3.0 CD (lost media)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ua8xv7/found_physical_red_flag_linux_30_cd_lost_media/
+
+---
+
+#### 5952. systemd 261 Released With New systemd-sysinstall OS Installer, IMDSD & Storagectl
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uadg1o/systemd_261_released_with_new_systemdsysinstall/
+
+---
+
+#### 5953. AMD ISP4 Driver Merged To Linux 7.2 Kernel
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ua8nws/amd_isp4_driver_merged_to_linux_72_kernel/
+
+---
+
+#### 5954. XDG Intents Updates
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uaampt/xdg_intents_updates/
+
+---
+
+#### 5955. Tauon v10 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9to1k/tauon_v10_released/
+
+---
+
+#### 5956. CoreFreq v2.1.2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ua12t3/corefreq_v212/
+
+---
+
+#### 5957. Pretty LWN (unofficial)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ua8nuc/pretty_lwn_unofficial/
+
+---
+
+#### 5958. Environment variables public utility
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uaf2ku/environment_variables_public_utility/
+
+---
+
+#### 5959. Claude AI Assists In Fixing Years Old AMD Radeon Linux Display Bug Affecting Numerous Laptops
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9llgb/claude_ai_assists_in_fixing_years_old_amd_radeon/
+
+---
+
+#### 5960. Ubuntu Flavors Now Mandated To Participate In Beta Releases For Official Status
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9lm9q/ubuntu_flavors_now_mandated_to_participate_in/
+
+---
+
+#### 5961. Rust PNG crate gets even faster, used by GNOME and Chromium
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9lolt/rust_png_crate_gets_even_faster_used_by_gnome_and/
+
+---
+
+#### 5962. AF_ALG Deprecation Approved For Linux 7.2, Useless & Insecure Crypto Driver Code Removed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9lmti/af_alg_deprecation_approved_for_linux_72_useless/
+
+---
+
+#### 5963. AMD introduces an AI-powered Bash coding agent
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1u9zxyc/amd_introduces_an_aipowered_bash_coding_agent/
+
+---
+
+#### 5964. [V2EX] 中转站相关问题
+
+**问题描述 / Problem Description**:
+各位佬友好，我给公司 coding 了一个生图的聚合站，接入的是 kie 中转站，主要用到 gpt 和香蕉模型和 genini3.5 模型。最近大批量使用后发现，kie 经常出图失败或出图很慢，一批 8 张可能得 5 到 10 分钟才出。 现在我想自建个中转站，接入几个不同的中转服务商，然后生图的时候智能判断走哪个供应商，目标就是 速度加快 全天可用 我该选择什么技术路线 开源方案里有没有现成的解决办法 有没有稳定快速的图片类中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221578#reply3
+
+---
+
+#### 5965. [V2EX] 前端界面比想象中复杂好多
+
+**问题描述 / Problem Description**:
+刚接触 Vibe Coding 时就感觉前端比后端复杂好多，后端只需要不停按照需求优化性能就好了，有客观的测试数据，如果优化效果不符合预期就检查架构是否有改进的空间。总而言之就是流程可控。 前端界面一开始完全不会，找类似软件学习，然后和 Codex 描述需求，各种细节瑕疵，花费很大精力改得差不多，身心俱疲，然后下一次改动又重复一遍这个流程。 痛定思痛，反思流程问题，于是整理出前端文档，找 ChatGPT 网页端生成组件和布局的示意图，包含各种状态。再让 Codex 根据示意图和文档绘制界面，再修改文档修复 bug ，改完以后找 ChatGPT 重新生成最新版本的示意图。 这个过程真的很漫长，因
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221555#reply22
+
+---
+
+#### 5966. [V2EX] codex 和 cc 那个更好用些？
+
+**问题描述 / Problem Description**:
+在 x 上刷到关于 codex 的使用姿势和讨论。 chatgpt 5.5 pro 的规划能力更强，用 5.5 pro 规划，之后 codex 实现？ codex + gpt5.5 更好用些？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221550#reply10
+
+---
+
+#### 5967. [V2EX] copilot pro 年付退订不会退款了吗
+
+**问题描述 / Problem Description**:
+才用了 3 月，还有 9 月。不应该退九个月吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221543#reply7
+
+---
+
+#### 5968. [V2EX] 佬们你们的小米 MIMO 820 亿 token plan 用掉多少了？
+
+**问题描述 / Problem Description**:
+我这吭哧吭哧重度用了 10 天，才刚把补偿的部分用掉一半。 同时两三个项目在进行，感觉比以前更累了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221472#reply34
+
+---
+
+#### 5969. [V2EX] 请教书房布置方案
+
+**问题描述 / Problem Description**:
+今天刚下单了安德斯特巡航战士 max 2.0 的版本（延迟发货，有劝退或者推荐别的吗？），打算放在书房左上角。 然后旁边空出来的位置不知道继续买个桌子还是买个什么置物架。图 1 右边是打了一个柜子，可以做展示柜或者书柜。 椅子打算买西昊 s300 ，计划是复刻图 2 中我朋友的 2 个 34 寸曲面带鱼屏，但是他的不是升降的，我担心会不会。太重 想看看 v 友的桌搭。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221463#reply2
+
+---
+
+#### 5970. [V2EX] 一个自用的 golang 的 web 应用要部署到公网，国内哪个云服务最便宜
+
+**问题描述 / Problem Description**:
+自己用的工具，不需要备案，ip 访问就可以。 需要持久化，有个 SQLlite 库。 其他什么要求都没有，哪怕天天炸都没事，只要便宜。 之前白嫖的 Render ，但是持久化库只免费一个月
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221447#reply26
+
+---
+
+#### 5971. [V2EX] Java 的 CompletableFuture API 日常开发中使用得多么，怎么感觉这个 API 很怪
+
+**问题描述 / Problem Description**:
+我是 Java 程序员，但我也知道 JS 里面有个 Promise ，感觉 Promise 的语法比 Java 的 CompletableFuture 这套 API 优雅很多。 Promise 总共也需要知道 then , catch 两种语句，而 CompletableFuture 则各种方法都有十几二十个了。 还有些匪夷所思的行为，比如下面这个： 同步编排（无 Async 后缀）的方法，例如 thenCompose 不会把任务重新提交给线程池排队，而是尽量复用现有的线程。 具体用哪个线程，取决于代码运行时的时机 情况 A （前置任务还没执行完）： 当你调用 thenCompose 时，如果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221432#reply3
+
+---
+
+#### 5972. [V2EX] 想娱乐自己学习做个小游戏
+
+**问题描述 / Problem Description**:
+一直玩的一个塔防类小游戏关数开始重复了，想借助 AI 开发个类似的，0 游戏开发基础(8 年后端程序员，代码技术栈会 TS/JAVA/RUST)，目前看主流引擎就是 Cocos 或 unity ，借助 AI 的话，大家评估要多久能够入门做游戏(美术用公开的素材)？游戏难度参考 2D 版保卫萝卜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221424#reply2
+
+---
+
+#### 5973. [V2EX] 感叹一下，大模型时代之前难以落地的想法现在可以轻而易取实现了，又快又好
+
+**问题描述 / Problem Description**:
+之后会写代码的含金量越来越低了，完成了一个小工具没自己写一行，在之前得好几天的工作量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221407#reply3
+
+---
+
+#### 5974. [V2EX] 目前 glm 的 coding plan 抢不到，还有哪些大厂的含有 glm5.2 的套餐值得买的？
+
+**问题描述 / Problem Description**:
+主要是在乎快不快，因为好像就 max 版本的才比较快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221398#reply21
+
+---
+
+#### 5975. [V2EX] [讨论] 智谱 GLM Coding Pro 新老套餐的 Token 限额差距到底有多大？
+
+**问题描述 / Problem Description**:
+GLM Coding Pro 老套餐即将到期，奸商不给续费，说是后面会送两个月新套餐。 现在想知道新老套餐的真实额度有多大的差异 =3= 先聊下自己的老套餐的感受：5 小时限额，感觉能有 60M-80M 左右的 Token ？因为没有日/周/月限额，所以之前随便造，从来不焦虑 token 的量（但是也很少用完，一切随缘）。 有没有订购的新套餐，尤其是 Pro 的用户现身说法，分享下 5H ，周，月限额的实际最大 token 量？ 感谢 v 友分享🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221377#reply7
+
+---
+
+#### 5976. [V2EX] 发现 windsurf 上的国产最新最强模型都是免费了。如 glm-5.2, kimi-2.7 等
+
+**问题描述 / Problem Description**:
+不但免费，不限速，速度超快。这也行。windsurf 这是已经放弃自己训练模型了吗？ 然后把国产开源模型当自己模型来用了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221375#reply24
+
+---
+
+#### 5977. [V2EX] 你们用啥 ai 编程工具可以当生产力?
+
+**问题描述 / Problem Description**:
+目前只买过 deepseek api 用 trae 和 opencode reasonix,感觉不好用啊,干啥都不行 codex 和 claude 还没外国手机门号...值得买吗大哥哥们?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221329#reply68
+
+---
+
+#### 5978. nftables server and home users
+
+**问题描述 / Problem Description**:
+Tags: debian, nftables | Score: 0 | Views: 51 | Answers: 1 | Created: 2026-05-06
+
+**解决方案 / Solution**:
+I assume you have multiple interfaces on this linux box? And are you behind a dynamic IP from a consumer ISP? This is pretty standard firewall behavior; the home users are on the NAT/Masquerade side of the firewall, and the web server can be port forwarded to your server and port 80/443 allowed in through firewall (but please don't do any crazy hosting from your house LOL) And key is that your linux box has to have ipv4 forwarding enabled: sysctl -w net.ipv4.ip_forward=1 This can also be simply done on iptables -Juan
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805827/nftables-server-and-home-users
+
+---
+
+#### 5979. How is bash autocompletion for Inkscape tied to dbus and how can I stop it?
+
+**问题描述 / Problem Description**:
+Tags: bash, autocomplete, d-bus, inkscape | Score: 14 | Views: 667 | Answers: 1 | Created: 2025-09-29
+
+**解决方案 / Solution**:
+debugging bashcompletion it seems to came from: /usr/share/bash-completion/completions/inkscape where it calls inkscape --list-input-types and it throws the error. I think it's a distro package issue. best fix possible: export NO_AT_BRIDGE=1 source: https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/1744
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800067/how-is-bash-autocompletion-for-inkscape-tied-to-dbus-and-how-can-i-stop-it
+
+---
+
+#### 5980. Why arithmetic syntax error in bash causes exit from the function?
+
+**问题描述 / Problem Description**:
+Tags: bash, variable-substitution, arithmetic | Score: 12 | Views: 1210 | Answers: 2 | Created: 2025-09-29
+
+**解决方案 / Solution**:
+POSIX requires that expansion errors exit non-interactive shells (and produce an error message). A syntax error upon arithmetic expansion is an expansion error When in POSIX mode like when POSIXLY_CORRECT is in the environment or when called with -o posix or as sh , bash does exit. When not in POSIX mode, it works like interactive invocations would: returns to the prompt¹, or where a prompt would be issued if the code in the script was entered interactively, so here after the function invocation. Same happens for instance in: $ bash -c 'echo "${a$}"; echo not reached' bash: line 1: ${a$}: bad substitution Except for the bash quirky behaviour when not in POSIX mode, all POSIX-like shells behave the same and exit upon arithmetic syntax error. 1 - is not a valid arithmetic expression, a - b is as per POSIX as long as a and b contain literal decimal, octal or hexadecimal representations of integer numbers, with behaviour unspecified if not. As an extension, in Korn-like shells (ksh, zsh, bash), those variables may also contain any valid arithmetic expressions (including an empty one that is interpreted as 0) which are then evaluated recursively. You'll still get a fatal syntax error if those expressions are invalid or cause endless recursion: $ a=1 b=1+ bash -c 'c=$(( a + b )); echo not reached' bash: line 1: 1+: syntax error: operand expected (error token is "+") $ a=b b=a bash -c 'c=$(( a + b )); echo not reached' bash: line 1: b: expression recursion level exceeded (error token is "b") In that particular instance of b being empty, in Korn-like shells, c=$(( a - b )) Would avoid the error and treat b as if it contained 0 (or any other arithmetic expression that yields 0). POSIXly, you could do: c=$(( (${a:-0}) - (${b:-0}) )) Where we explicitly substitute 0 upon empty variables (also note the (...) around each in case they may be arithmetic expressions²). In the general case, to be able to handle the error, you could have the expansion done as part of an eval command: if ! command eval 'c=$(( a - b ))'; then echo Do something when invalid fi ( command is needed in bash when in POSIX mode; without it, eval being a special builtin exits the shell upon error as POSIX requires for sh ; POSIX command ³ removes that special property ). That trick doesn't work in mksh or yash though which still exit upon syntax error in arithmetic expansion. In zsh, mksh or bash, you can use: (( c = a - b )) In place of c=$(( a - b )) where syntax errors are not fatal. Note that it also returns a non-zero exit status if the expression yields 0 (making it difficult to detect the error condition) and would not change the value of $c upon syntax error. Another approach could be to try the expansion first in a subshell: expression='d += a - b' if ( : "$(( $expression ))" ) 2> /dev/null; then c=$(( $expression )) else echo Do something when invalid fi In zsh, you can handle the exception in an always block : { c=$(( a - b )) } always { there_was_an_error=$TRY_BLOCK_ERROR TRY_BLOCK_ERROR=0 # reset error condition } if (( there_was_an_error )); then echo do something upon syntax error fi For an arithmetic expansion where syntax errors don't raise exception but expand to some default value such as NaN / 0 / -1 / ERROR , since 5.3, bash supports mksh's function substitutions (also zsh since 5.10), where you could do: math() { local IFS=' ' command eval 'REPLY=$(( $* ))' || REPLY=NaN } c=${| math a - b ;} (without the command for zsh). Note that bash arithmetic don't support floating points, so NaN there would be interpreted as the $NaN variable instead of the Not a Number special floating point value if used in another arithmetic expression. In zsh, you could also use a M ath function with s tring argument: nonfatal() { eval ': $(( $1 ))' || (( NaN )) } functions -Ms nonfatal c=$(( nonfatal(a - b) )) In any case, using unsanitised data in arithmetic expressions is a very unwise thing to do. See Security Implications of using unsanitized data in Shell Arithmetic evaluation for details. ¹ Unless that code is in a subshell in which case it only exits the subshell. ¹ ² Though if those expressions reference other variables, you'd want to make sure those variables contain integer constants or you'd fall out of POSIX scope. ³ as opposed to zsh 's command which predates POSIX' and is about running external commands (like yash's command -e ) so wouldn't work for eval and anyway would not be needed in zsh.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800059/why-arithmetic-syntax-error-in-bash-causes-exit-from-the-function
+
+---
+
+#### 5981. Is there any difference between [[ -n $1 ]] and [[ $1 ]] in bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 11 | Views: 1089 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+There's no difference. In man bash , both the possibilities are shown as identical under CONDITIONAL EXPRESSIONS : string -n string True if the length of string is non-zero. At the prompt of the bash shell, you can also run help [[ to get the specific documentation for its [[...]] construct which lists the operators that it supports on top of or differently from the ones listed under help test . In this instance, standard test / [ and Korn-style [[...]] work similarly, but [[ ... ]] allows you to leave expansions unquoted as no split+glob happens within. You'd need test -n "$1" / [ -n "$1" ] or test "$1" / [ "$1" ] with test / [ . Inside [[...]] , you may however need to quote literal operands to avoid them being taken as operators, which points at one anecdotal difference between [[ -n string ]] and [[ string ]] : [[ -n -d ]] for instance returns true as -d is the non-empty string, but [[ -d ]] causes an error as -d in that position is taken as the -d operator . You'd need [[ "-d" ]] to test whether -d is the non-empty string without using -n . YMMV with other strings such as < which when not quoted causes an error with or without -n . In contrast, test -f and test -n -f both return true as test relies on the number of arguments to decide which are operators and which are operands. In the one argument case, that argument is always treated as an operand for the implicit "is a non-null string" whether it also happens to be a test operator or not.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801201/is-there-any-difference-between-n-1-and-1-in-bash
+
+---
+
+#### 5982. Grep with output of not the complete line
+
+**问题描述 / Problem Description**:
+Tags: bash, grep | Score: 10 | Views: 717 | Answers: 5 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+Using GNU grep: $ grep -oP '\w*blue\w*(\s*\w+)?' input.txt blue house blue mouse This shows the complete word containing the match and the following word (if any). Note that with \w , underscores are considered to be "word" characters...so, for example, "light_blue" would be considered one word, while "light-blue" would not. If you want the regex to treat any non-space character as part of the word, use \S instead of \w . e.g. $ grep -oP '\S*blue\S*(\s*\S+)?' input.txt blue house blue mouse light_blue mouse light-blue mouse blue-grey mouse
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800307/grep-with-output-of-not-the-complete-line
+
+---
+
+#### 5983. Check if multiple files exist on a remote server
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, ssh, files, scripting | Score: 10 | Views: 1332 | Answers: 7 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+Use connection multiplexing: ssh -S foo.sock -fNM thehost ssh -S foo.sock thehost test1 ssh -S foo.sock thehost test2 ssh -S foo.sock thehost test3 ssh -S foo.sock -O exit thehost This will use multiple command channels over the same SSH connection. See also ControlPath and ControlPersist in the ssh_config manual. You can also extend this to scp/sftp; those don't have the same -S but they still accept the multiplex socket path via -o ControlPath= instead. ssh -S foo.sock -fNM thehost if ! ssh -S foo.sock thehost "[ -f /path/to/foo ]"; then scp -o ControlPath=foo.sock ./foo thehost:/path/to/foo fi if ! ssh -S foo.sock thehost "test -f /path/to/bar"; then scp -o ControlPath=foo.sock ./bar thehost:/path/to/bar fi ssh -S foo.sock -O exit thehost (Also possible with rsync but slightly more complex. At that point you might find it easier to define the ControlPath ~/.ssh/%r@%h:%p via ~/.ssh/config instead.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798571/check-if-multiple-files-exist-on-a-remote-server
+
+---
+
+#### 5984. Cannot delete bash associative array element
+
+**问题描述 / Problem Description**:
+Tags: bash, bash-array, associative-array | Score: 7 | Views: 541 | Answers: 1 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+ufs["one"] is globbed first. If nullglob isn’t set, and no file matches in the current directory, it is left as-is, and unset clears it as expected. However with nullglob set, if no file matches, it is cleared: $ set -x $ unset ufs["one"] + unset unset called with no arguments doesn’t complain, so the change isn’t obvious, unless failglob is set. If you prevent globbing, everything works in all situations: $ unset 'ufs["one"]' $ printf '> %s\n' "${!ufs[@]}" > two > three or, more robustly: $ unset 'ufs[one]' (this works even if assoc_expand_once is enabled).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800310/cannot-delete-bash-associative-array-element
+
+---
+
+#### 5985. Mysterious prompt for sudo password while opening new shell
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 7 | Views: 1267 | Answers: 1 | Created: 2025-09-10
+
+**解决方案 / Solution**:
+Enabling the xtrace debug mode (with the -o xtrace or -x option), I could find the cause of the issue. Here, as login and tmux both start the shell in login mode (with - prepended to its argv[0] as confirmed by printf '%s\n' "$0" outputting -bash ), we have to run a xtracing bash instance in login mode as well to reproduce the issue, that is run: bash -lx or, like login / tmux do, start it with - prepended to its argv[0] with: (exec -a -bash bash -o xtrace) Or start tmux with env SHELLOPTS=xtrace tmux for all the bash instances run in that session to have xtrace enabled. Passing PS4='+ [$BASH_SOURCE:$LINENO] ' in the environment also helps pinpoint the culprit as it causes the traces to include the file and line number where each run command was from. $ PS4='+ [$BASH_SOURCE:$LINENO] ' bash -lx ++ [/etc/profile:4] id -u + [/etc/profile:4] '[' 1000 -eq 0 ']' [...] + [/etc/profile:16] . /etc/bash.bashrc ++ [/etc/bash.bashrc:7] '[' -z '\s-\v\$ ' ']' [...] + [/etc/profile:27] '[' -d /etc/profile.d ']' ++ [/etc/profile:28] run-parts --list --regex '^[a-zA-Z0-9_][a-zA-Z0-9._-]*\.sh$' /etc/profile.d [...] ++ [/etc/profile.d/80-somefile.sh:14] sudo ... [...] In my case, there was a shell script in /etc/profile.d/ , itself sourced from /etc/profile which contained a sudo command, and got executed during the shell startup.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799596/mysterious-prompt-for-sudo-password-while-opening-new-shell
+
+---
+
+#### 5986. Why doesn't the pwd nullary built-in error when provided an argument, whereas the nullary/unary exit built-in does error?
+
+**问题描述 / Problem Description**:
+Tags: bash, exit, shell-builtin, pwd | Score: 5 | Views: 606 | Answers: 2 | Created: 2025-11-06
+
+**解决方案 / Solution**:
+It's almost certainly just how they have been designed. It makes sense: pwd takes no arguments (only options, things that start with - ). So it cannot get confused if it gets too many, you can't make the mistake of passing it my argument instead of "my argument" . Since it cannot use any arguments, it doesn't bother looking at them and just ignores them with no error. The exit command, on the other hand, does take arguments so the developers need to write the code to handle arguments, so they might as well do it properly and error out when they don't look OK. I would expect that all builtins that take no arguments would behave the same way. For example: $ false one two three $ $ true one two three $ Unless a tool takes arguments, it would be a waste of time and disk space to code it so that it does anything at all with its arguments. That includes informing you that you gave an argument that is ignored. Note that pwd does complain if you give it a bad option: $ pwd -a bash: pwd: -a: invalid option pwd: usage: pwd [-LP] Indeed, looking at the source code , I see: while ((opt = internal_getopt (list, "LP")) != -1) { switch (opt) { case 'P': verbatim_pwd = pflag = 1; break; case 'L': verbatim_pwd = 0; break; CASE_HELPOPT; default: builtin_usage (); return (EX_USAGE); } } And the internal_getopt function, which is beyond my C-fu to really understand, at least looks like it is set up to only look at things beginning with - as options and treat anything else as not options. Or, at least, that's certainly what this looks like it's doing: #define ISOPT(s) (((*(s) == '-') || (plus && *(s) == '+')) && (s)[1]) #define NOTOPT(s) (((*(s) != '-') && (!plus || *(s) != '+')) || (s)[1] == '\0')
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801097/why-doesnt-the-pwd-nullary-built-in-error-when-provided-an-argument-whereas-th
+
+---
+
+#### 5987. locking scripts using flock - can same file descriptor be used concurrently?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, concurrency, flock | Score: 5 | Views: 719 | Answers: 1 | Created: 2025-10-27
+
+**解决方案 / Solution**:
+What if we have two separate scripts (who can run concurrently) that want to use the same locking mechanism. They use different $LOCK file, but same FD 9 is used. Will there be collision between those two scripts' executions/locking? File descriptors are private, not global – they only have meaning within the single process that creates them (or inherits them from parent, such as 'flock' inheriting the file descriptor '9' from the 'bash' script interpreter process). There is no automatic relationship between file descriptors having the same number, even if they both independently open the same file – aside from locks, of course, which are still shared through the file and not through the fd number. Indeed practically every one of your processes is using the same file descriptor numbers 0/1/2/3 concurrently, but they all represent different "file descriptions" which are usually attached to different objects. When your script does echo "already running" >&2 to write the message to stderr, that goes specifically to where its own stderr file descriptor points, while just opening a new terminal window will give you processes with 2 being a completely different file descriptor. All that aside, I'd still rather avoid hardcoding file descriptor numbers in principle. It's nicer (and closer to how other languages work) to use exec {fd}>>"$LOCK" and flock -xn $fd , letting the shell to just take whatever file descriptor it got from the OS. what's happening here? Does the shell itself find a free FD and assign $fd var its value? The program (shell or otherwise) actually doesn't get to choose. The OS always gives you the first free FD (usually that's 3 and upwards). When {fd}> is used the shell just directly assigns $fd whichever value it gets from the OS. (If you look at lsfd -Q 'FD >= 0' or at lsof or at ls -l /proc/<pid>/fd you'll usually see 3 being the first actual file or socket that the program has open. When bash is running a script, it manually moves the fd representing the script file somewhere to 255 or so.) Whenever the program wants a specific FD (e.g. when doing 9>> in shell), it has to first take whatever FD it gets, then it needs to call dup2() to "copy" that FD to the desired number, then close() the no-longer-needed original. Most programs don't have such a specific need, so they just take the OS result and store it in a variable, e.g. int myfile = open("/etc/passwd", O_RDONLY) . (This C example would be equivalent to exec {myfile}</etc/passwd in Bash.) Wouldn't another instance of same script cause another FD to be assigned, effectively breaking the locking? Another instance of the same script would run in its own process, therefore would have its own memory and its own variables. Even if both are running the same script file, they are still separate processes, so what one instance assigns to its fd variable has no effect on the fd variable of other scripts or instances. So you would have two independent processes, each opening the file separately and getting a new file descriptor (and a new "file description"). Chances are that both will receive the same file descriptor number (usually 3 or so), but again, that file descriptor only has meaning within the same process. Additionally (though unrelated), in Bash, the variable only holds the number; resetting it doesn't actually close the file descriptor. (If you wanted to close the file descriptor without waiting for the script to exit, you would have to do that explicitly using e.g. exec {fd}>&- or exec 9>&- .) given separate instances of same script (i.e. still different processes) will possibly end up using different FDs? They will always end up using different FDs. The numbers merely represent kernel-side objects (tracked separately for each process), so even if the FD number is the same, the actual FD it represents will be different. But this is fine for locking; file locks, by design, are visible across all file descriptors associated with the same file. (As that is their main purpose – a process doesn't really need file locks to protect against itself; it can use faster in-process methods for that. The whole point of file-level locking is for it to be visible across processes.) So when the 2nd script instance opens the lock file and attempts to flock() it, it will see that there already is a lock held by some other file descriptor associated with that file.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800794/locking-scripts-using-flock-can-same-file-descriptor-be-used-concurrently
+
+---
+
+#### 5988. Differences between bash and fish read command
+
+**问题描述 / Problem Description**:
+Tags: bash, read, fish | Score: 5 | Views: 410 | Answers: 1 | Created: 2025-08-16
+
+**解决方案 / Solution**:
+With three variables to read to, I get: ~> printf 'foo bar doo\n' | begin read a b c; printf '<%s> <%s> <%s>\n' $a $b $c; end <foo> <bar> < doo> That is, it collapses the spaces between the first two tokens, but not the ones before the last token. I wonder if that's a bug related to how the last variable gets the whole remainder of the line if there are more tokens in the input than variable names to assign them to. ~> printf 'foo bar x y z \n' | begin read a b c; printf '<%s> <%s> <%s>\n' $a $b $c; end <foo> <bar> < x y z > Here, you could perhaps work around that by adding a dummy variable to read : ~> printf 'foo bar\n' | begin read a b z ; printf '<%s> <%s>\n' $a $b; end <foo> <bar> Or perhaps write a bug report? It looks like this is a known issue, and based on the discussions in the github issue tracker, it seems this is related to (rather sensibly) wanting while read line to read complete lines without dropping leading whitespace, but also that they don't exactly know what they'd like IFS-based splitting to do: ‘read’ includes blanks in variable when it shouldn't #6406 git add does not autocomplete files with changes #6650 Fish's treatment of IFS seems to also have another incompatibility with the POSIX behaviour, namely that it collapses the delimiters even if IFS contains non-space characters, e.g.: ~> set IFS : ~> printf 'foo::bar\n' | begin read a b c; printf '<%s> <%s> <%s>\n' $a $b $c; end <foo> <bar> <> A POSIX shell would interpret that as an empty word between the two colons, leaving $b empty and assigning bar to $c . Not that it seems to say anywhere in the docs that IFS-based splitting is supposed to be POSIX-compatible, or how exactly it should work anyway. The description of the IFS variable just says it's "the internal field separator that is used for word splitting with the read builtin" without specifying what that means. That is, I don't see it mentioned anywhere that it should and would collapse consecutive spaces in any position.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798902/differences-between-bash-and-fish-read-command
+
+---
+
+#### 5989. Get Character Code for Character in File Name
+
+**问题描述 / Problem Description**:
+Tags: bash, filenames, ascii | Score: 4 | Views: 362 | Answers: 3 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+If you have a recent enough coreutils, you can use ls with the C locale: % export LC_ALL=C.UTF-8 % ls -b foo bar % export LC_ALL=C % ls -b foo\343\200\200bar % ls --quoting-style=c "foo\343\200\200bar" The above example was from an Arch Linux system ( ls (GNU coreutils) 9.7 ). Similarly on a macOS Tahoe 26.0.1 (25A362): % /bin/ls -B foo bar % export LC_ALL=C % /bin/ls -B foo\343\200\200bar Again on the Arch Linux system, using %q of various printf s to get shell-friendly representations: % zsh -c 'printf "%q\n" foo*' foo$'\302'$'\240'bar % bash -c 'printf "%q\n" foo*' $'foo\302\240bar' % /bin/printf "%q\n" foo* 'foo'$'\302\240''bar'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800546/get-character-code-for-character-in-file-name
+
+---
+
+#### 5990. Why does bash need file descriptor duplicating?
+
+**问题描述 / Problem Description**:
+Tags: bash, io-redirection, file-descriptors | Score: 4 | Views: 965 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+What does the above operation have to do with 'duplicate input file descriptor'? read actually reads from file descriptor 0 (the stdin). The <&4 isn't part of read syntax at all – it does not tell read to read from fd#4; rather, it duplicates fd#4 to fd#0 so that read will have the file available at fd#0 i.e. stdin. (0 is the default target for < , so <&4 is short for 0<&4 , if that makes it any clearer.) It is 'duplication' because the result is that both fd#0 and fd#4 now refer to the same thing. The descriptor #4 merely remains unused but doesn't disappear anywhere. Why does bash need to do that to read the file content using the file descriptor 4? Most programs expect their input to be provided through file descriptor #0, which is considered the " standard input" or stdin. Bash's read has the same expectation. The redirection <&4 or 0<&4 copies fd #4 to fd #0 for the duration of the read command. Although in Bash, ksh and zsh read actually does have the option to read directly from another fd, using -u : read -u 4 content You can do that if you're specifically targeting one of the feature-rich shells and not /bin/sh in general. (Your script currently requests #!/bin/bash so -u will always be available.) This is not standard and other shells might not necessarily have it in their own versions of read , so using the < redirection is a more "compatible" method if you're aiming towards general POSIX shell compatibility. Also, I would be very grateful if anyone could recommend any good online resource that could explain the concept of fd well, as I really can't grasp it by just reading the GNU docs. File descriptors are not a Bash concept; they're a far more general concept that all programs (and most programming languages) have on Linux or on Unix-like systems in general. So instead, try C docs or Python docs, e.g. what C open() returns, how a program reads from stdin or writes to stdout, and how dup() and dup2() work ( x<&y effectively does a dup2(y, x) to clone the FD).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800250/why-does-bash-need-file-descriptor-duplicating
+
+---
+
+#### 5991. Deferred variable expansion including in a subshell
+
+**问题描述 / Problem Description**:
+Tags: bash, variable-substitution, subshell | Score: 4 | Views: 409 | Answers: 2 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+man bash If any parameter assignments, as described above in PARAMETERS, appear before a simple command, the variable assignments are part of that command's environment for as long as it executes. These assignment statements affect only the environment seen by that command. If these assignments precede a call to a shell function, the variables are local to the function and exported to that function's children. Your problem is: You need the variable in the context of the shell which parses the command line, not in the environment of the command. Two options: subshell ( E="echo hello"; $E one $($E two) ) shell function function f() { $E one $($E two); } E="echo hello" f
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799429/deferred-variable-expansion-including-in-a-subshell
+
+---
+
+#### 5992. How to check if a path exists from a string with case insensitive?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 4 | Views: 1043 | Answers: 4 | Created: 2025-08-16
+
+**解决方案 / Solution**:
+You want to perform a glob expansion case insensitively and in a nullglob fashion and count the number of resulting matches (which may be 0 or 1 or thousands with all combinations of lower/upper case letters). With zsh instead of bash (the shopt in your code is specific to the bash shell): set -o extendedglob file=/Home/ORHAN/bLoG/MAI1 matching=( (#i)$file(N) ) print -rl "$#matching file${matching[2]+s} matching $file case insensitively${matching[1]+:}" ' - '$^matching (do not use $path as the name of the variable as that's the special array variable tied to the $PATH variable). Where (#i) (an extendedglob operator) enables case insensitivity for what follows in that one glob instead of globally (which in zsh you can do with set -o nocaseglob or set +o caseglob ¹). (N) enables nullglob for that one glob. $#matching is the number of elements in the $matching array to which we assigned the glob expansion. To check that there's at least one match: set -o extendedglob if ()(($#)) (#i)$file(NY1); then print "There's at least one match" fi This time, we pass the glob expansion to an anonymous function whose body is (($#)) which returns true if $# (the number of arguments) is not zero. We also add the Y1 qualifier to stop looking after the first match as an optimisation. If you had to use bash, it's possible using its own nocaseglob but a lot lot more cumbersome there. bash has no equivalent of zsh's (#i) or ksh93's ~(i:...) to toggle case insensitivity in its globs, there's only the nocaseglob option which has to be enabled globally (and since it's among the set of options set with shopt and not set -o , it can't even be changed locally to a function with bash4+'s local - ). There's also no equivalent to zsh's (N) or ksh93's ~(N) and you need to enable nullglob globally. Also nocaseglob only triggers for path components that have a glob operators ( * , ? , [...] , \ with bash 5.0 and more with extglob enabled). Here for instance, we'd need for instance to transform $file to a $fileglob such as: shopt -s nullglob nocaseglob shopt -u failglob # takes precedence over nullglob 🤦 file=/Home/ORHAN/bLoG/MAI1 fileglob='/[H]ome/[O]RHAN/[b]LoG/[M]AI1' IFS= # we need $fileglob unquoted below to trigger globbing # but don't want splitting which needs to be disabled matching=( $fileglob ) printf '%s\n' "${#matching[@]} file${matching[1]+s} matching $file case insensitively${matching[0]+:}" "${matching[@]/#/ - }" Getting from $file to $fileglob computationally and reliably in bash is very tricky as bash's search and replace capabilities are very limited compared to that of zsh or ksh93. Also consider that: you can't use the [X] trick for any character. In particular, not for ^ or ! . you'd need to escape the glob character that may be present in $file ( ? , * , [ and ( / ) in case extglob is enabled). Here, to get from $file to $fileglob automatically, you may be better of enabling extglob and have: fileglob='/@(Home)/@(ORHAN)/@(bLoG)/@(MAI1)' after having escaped the glob operators, which again is a pain to do with bash's limited search and replace capability. Maybe something like: open=0 fileglob= for (( i = 0; i < ${#file}; i++ )); do case ${file:i:1} in (/) (( open )) && fileglob+=')' open=0 ;; (*) (( open )) || fileglob+='@(' open=1 ;;& (['*()[]?\\']) fileglob+='\' esac fileglob+=${file:i:1} done (( open )) && fileglob+=')' With bash 5.2 or newer whose globs now no longer ever yield . and .. , you also need to unset the globskipdots option for that to work with files such as ./file or ../file . So, putting it all together: #! /bin/bash - shopt -s nullglob nocaseglob extglob shopt -u failglob shopt -u globskipdots 2> /dev/null IFS= for file do open=0 fileglob= for (( i = 0; i < ${#file}; i++ )); do case ${file:i:1} in (/) (( open )) && fileglob+=')' open=0 ;; (*) (( open )) || fileglob+='@(' open=1 ;;& (['*()[]?\\']) fileglob+='\' esac fileglob+=${file:i:1} done (( open )) && fileglob+=')' matching=( $fileglob ) printf '%s\n' "${#matching[@]} file${matching[1]+s} matching $file case insensitively${match[0]+:}" "${matching[@]/#/ - }" done Which gives: $ ./find-case-insensitively /Etc/FSTab /hOme/me/file /etc/foo правда 1 file matching /Etc/FSTab case insensitively: - /etc/fstab 4 files matching /hOme/me/file case insensitively: - /home/ME/fILe - /home/ME/file - /home/me/FILE - /home/me/File 0 file matching /etc/foo case insensitively 3 files matching правда case insensitively: - ПРАВДА - Правда - правда The zsh equivalent (here using the arguments to an anonymous function instead of a $matching array) would be: #! /bin/zsh - set -o extendedglob for file; () { print -rl "$# file${2+s} matching $file case insensitively${1+:}" ' - '$^@ } (#i)$file(N) With ksh93: #! /bin/ksh93 - for file do set -- "${file%%[!/]*}"~(Ni)"${file#+(/)}" printf '%s\n' "$# file${2+s} matching $file case insensitively${1+:}" "${@/#/ - }" done (for some reason (a bug?), I find that the ~(i) to turn case insensitive matching on has to be placed before the first non- / character for it to work, hence the clunky "${file%%[!/]*}"~(Ni)"${file#+(/)}" ). POSIXly, it should also be possible by replacing a with [aA] for instance which you could do with something like: #! /bin/sh - eval "set --$( awk -v q=\' -- ' function shquote(s) { gsub(q, "&\\\\&&", s) return q s q } BEGIN { for (i = 1; i < ARGC; i++) { file = ARGV[i] new = "" for (j = 1; j <= length(file); j++) { c = substr(file, j, 1) if (c == "\\" ) c = "[\\\\]" else if (c ~ /[][*?]/) c = "[" c "]" else { l = tolower(c); u = toupper(c) if (c != l) c = "[" c l "]" else if (c != u) c = "[" c u "]" } new = new c } printf " %s %s", shquote(file), shquote(new) } }' "$@")" IFS= process() { file=$1 set -- $2 if [ "$#" -gt 1 ] || { [ "${#1}" -eq "${#file}" ] && { [ -e "$1" ] || [ -L "$1" ] } } then for f do set -- "$@" " - $f" shift done printf '%s\n' "$# file${2+s} matching $file case insensitively:" "$@" else printf '%s\n' "0 file matching $file case insensitively" fi } while [ "$#" -gt 0 ]; do process "$1" "$2" shift 2 done awk generates a set -- 'file1' 'transformed-file1' 'file2' 'transformed...' for eval to evaluate. The transformed-files are obtained by replacing \ with [\\\\] , ? , [ , ] , * with [&] , [[] , []] , [*] and letters x / X with [xX] [Xx] . So for instance, /Home/ORHAN/bLoG/MAI1 would be transformed to /[Hh][oO][mM][eE]/[Oo][Rr][Hh][Aa][Nn]/[bB][Ll][oO][Gg]/[Mm][Aa][Ii]1 . As POSIX sh has not equivalent to nullglob , to check whether a glob produced any result, we check that there are at least 2 or that the one match has the same length as the non-transformed file and exists (even possibly as a symlink to an inaccessible file). Note that some awk implementations such as mawk or sh implementations such as many of those based on pdksh or ash don't support multi-byte characters, so in UTF-8 locales would only work correctly with ASCII-only file names. Comparing to the brute-force find / -ipath /Home/ORHAN/bLoG/MAI1 approach, those glob-based approaches are efficient in that they only list the contents of the directories that need to be listed. While that find approach would list every directory on the filesystem, the glob approach would only: list the contents of / to find entries that match Home case insensitively list the contents of the directories or symlinks to directories found in 1 to find ORHAN ones list the contents of the directories or symlinks to directories found in 2 to find bLoG ones the contents of list the directories or symlinks to directories found in 3 to find entries matching MAI1 . So in practice, it will likely only need to list the contents of 4 directories. As hinted above, one difference compared to find (or locate ) is that it will follow symlinks in that traversal as if the -L option had been given to find . Working around that can't be done with one no-case glob alone, even in zsh, you'd need to implement the globbing algorithm by hand and restrict to directory files (excluding symlinks) at each step. For instance, using a recursive function and using the / glob qualifier to restrict to directory files in zsh: #! /bin/zsh - set -o extendedglob findci() { if (( $# == 1 )); then reply=() if [[ $1 == */* ]]; then findci $1:h . reply=( ${^reply%/}/(#i)$1:t(N) ) else reply=( (#i)$1(N) ) fi else if [[ $1 = (/##|.|..) ]]; then reply=( $1 ) else findci $1:h . reply=( ${^reply%/}/(#i)$1:t(N/) ) fi fi } for file do findci "$file" print -rl "$#reply file${reply[2]+s} matching $file case insensitively${reply[1]+:}" ' - '$^reply done ¹ zsh like most other shells and unlike bash has only one set of options, all set/unset with set -o / +o à la ksh or setopt / unsetopt or options[optname]=on / off .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798894/how-to-check-if-a-path-exists-from-a-string-with-case-insensitive
+
+---
+
+#### 5993. How to wait for background commands that were executed within a subshell?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, background-process, parallelism, subshell | Score: 4 | Views: 675 | Answers: 4 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+This is (at least to me) unexpected, but I assume this is "by design" that once I use subshells, I cannot use wait in the main script anymore. Yes - for likely the same reason as why you're using subshells in the first place. The subshell knows the job PID, but it cannot communicate that to its parent shell (just like it can't communicate variable changes to the parent). And on top of that, those job processes are no longer immediate children of the parent shell (due to there being an intermediate subshell process), so the parent shell won't receive SIGCHLD for them when they exit and is not allowed to waitpid() for their PIDs either. (When the subshell exits, its loose child processes are instead reparented to init aka pid1. In theory Bash could request to become the default parent but that's very Linux-specific.) So as already mentioned by others, you have to background the whole subshell , using & outside of the subshell (in the context of the parent) instead of backgrounding individual commands inside of the subshell. (someFn "FOO") & Though the & already implies a separate process – i.e. someFn & is already a subshell – so I'm not sure if this is any different. since $! will print the last executed command's PID, not necessarily my command What other commands are there except yours? $! is not system-wide; it is invented by your shell and therefore only knows about commands spawned directly by that shell. There is no global state that all processes somehow share like that. And since you wrote the entire script yourself, everything directly run by the script is "your commands". Something else cannot inject its own commands into your shell script process, nor externally change the script's variables. am I waiting on my original command, or did some other process took my pid? When call wait, I seemingly have no way of knowing The PID is not freed until something has waited for it; wait is literally the operation that retrieves the result of an exited process. Alternative idea: Have each subshell flock() a file. Implement waiting by attempting to lock the same file; if the lock succeeds then the subshell must have exited. I don't know how reliable this might be (not sure how to solve the race condition). locks=$(mktemp -d /tmp/lockXXXXXX) touch $locks/1 ( exec {fd}>$locks/1 && flock -x $fd && do_some_stuff & ) & sleep 0.1 # this is the ugly part of this whole idea flock -x $locks/1 /bin/true
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798660/how-to-wait-for-background-commands-that-were-executed-within-a-subshell
+
+---
+
+#### 5994. Why SIGTSTP (^Z/Ctrl-Z/suspend) doesn't work when process blocked redirecting write into a FIFO/pipe not open for reading yet? And what to do then?
+
+**问题描述 / Problem Description**:
+Tags: bash, signals, fifo | Score: 4 | Views: 293 | Answers: 1 | Created: 2025-08-05
+
+**解决方案 / Solution**:
+echo is a builtin command in virtually all shells including bash. In: cmd > fifo It's the opening of the fifo by the shell to perform the redirection that blocks. If cmd is an external command, the shell forks itself first and does the opening in the child process. If builtin or a function or compound command, it does it in the current shell process. Suspending that process would mean suspending the shell rendering it unusable so shells don't let you do that. In other word, you can't send to the background something that doesn't run in a separate process (there are some exceptions with zsh, see below). If you run: /bin/echo 'Go!' > p You'll find that you'll be able to suspend that process and see in ps that it's not running echo yet, it's still a bash child process still trying to open the fifo. Same with: (echo 'Go!') > p Or: (echo 'Go!' > p) Where we explicitly ask for a subshell (in which we run the builtin echo ). The zsh shell supports suspending functions and compound commands in general. Upon a Ctrl + z while running the function, it forks itself, with the child process running (initially stopped) the rest of the function, but that only happens when code in the function is waiting for a child process, so even there, that wouldn't help, that open() of the fifo would still be immune to SIGTSTP if done in the main shell process, the visible different compared to bash would be for instance in: { (echo 'Go!' > p); echo done; } Where upon processing Ctrl + z , in bash , you see the done straight away and only the (...) subshell is put in background while in zsh, it's the whole {...} command group that's put in background (now in a child process) and you'd only see done after you resume it and (...) eventually terminates. Note that if you do: echo 'Go!' 1<> p Where stdout is opened in read+write mode, open() doesn't block and the pipe is instantiated straight away if not already. echo would return straight away unless the pipe is full (on Linux, 64KiB (by default) have already been written to it and not read). That open(O_RDWR) will unblock both the open(O_RDONLY) or open(O_WRONLY) that other processes may be doing. Note that, when echo returns, if there's no other process with a fd opened on the pipe, it will be destroyed, so what echo wrote will be lost, and the next open() on the fifo will instantiate a new, separate pipe. You can keep a fd opened on the pipe to keep it live while avoiding blocking by doing: exec 3<> p echo 'Go!' > p # the pipe will remain live until at least: exec 3>&- # to close that fd to it That open(O_RDWR) will unblock both the open(O_RDONLY) or open(O_WRONLY) that other processes may be doing.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798531/why-sigtstp-z-ctrl-z-suspend-doesnt-work-when-process-blocked-redirecting-wr
+
+---
+
+#### 5995. How can I use sed to chain append lines from a text file, add it as a suffix to the text on the same lines numbers on another file, and so on?
+
+**问题描述 / Problem Description**:
+Tags: bash, sed, terminal, escape-characters | Score: 3 | Views: 474 | Answers: 6 | Created: 2025-11-21
+
+**解决方案 / Solution**:
+how can I use this kind of strategy: while IFS= read -r line; do echo "$line" Don't. That's not how shells are meant to be used . For most text processing, I'd use perl which has made sed/awk obsolete since the late 80s. $ perl -lne 'print qq{<outline type="rss" title="$1" text="$1" version="RSS" xmlUrl="$_" htmlUrl="$&/"/>} if m{^https://(?:[^/]*\.)?([^./]+)\.[^/]*}' < links.txt <outline type="rss" title="site" text="site" version="RSS" xmlUrl="https://site.com/category/feed/" htmlUrl="https://site.com/"/> <outline type="rss" title="site2" text="site2" version="RSS" xmlUrl="https://site2.org/feed/" htmlUrl="https://site2.org/"/> <outline type="rss" title="site3" text="site3" version="RSS" xmlUrl="https://site3.net/science/astronomy/feed/" htmlUrl="https://site3.net/"/> <outline type="rss" title="site4" text="site4" version="RSS" xmlUrl="https://feed.site4.info/market/feed/news.xml" htmlUrl="https://feed.site4.info/"/> Where: -ln is the sed -n mode where the e xpression passed to -e is evaluated for each line of input (with the current line (stripped of its delimiter with -l like in sed ) in the $_ variable ). qq{...} is another form of "..." which like "..." allows $var expansions within (like in shells) but makes it easier to embed " s within the quoted string (see also q{...} for '...' for hard quotes). m{...} similarly is like /.../ (like in awk ) except it makes it easier to embed / s within. That's to m atch $_ against a regexp (it's short for $_ =~ m{...} like awk 's /.../ is short for $0 ~ /.../ ). Here the regexp matches https:// at the beginning ( ^ ) optionally ( ? ) followed by a sequence of non- / character and a . (which we ignore) followed by any number of characters other than . and / (which is captured into $1 thanks to the (...) ), followed by a literal . and any number of characters other than / (the .net / .com ... tld parts). In what we print if the regexp m atches, $_ is the whole line as said above, $& is what is matched by the whole regexp, $1 by the first capture group. If you add the -MEnglish option, you can replace $_ with $ARG and $& with $MATCH , or you can make it even more explicit by naming the capture groups: perl -lne ' print qq{<outline type="rss" title="$+{title}" text="$+{title}" version="RSS" xmlUrl="$+{feed}" htmlUrl="$+{site}/"/>} if m{^(?<feed>(?<site>https://(?:[^/]*\.)?(?<title>[^./]+)\.[^/]*).*)}' < links.txt Where %+ is the associative array that maps capture group names to what they matched, each element accessed with $+{key} . You can learn about the special v ariables with perldoc -v '$&' or perldoc -v '%+' , etc. f unctions (like print ) or operators (like -m ) with perldoc -f print / perldoc -f m how to invoke perl with perldoc perlrun (for those -l , -n , -e options). the syntax with perldoc perlsyn ( perldoc -f if will point you to that). M odules (such as English ) with perldoc with the name of the module as argument ( perldoc English ). Beware however that some systems don't come with the perl documentation installed by default. You may need a apt install perl-doc or equivalent or read the documentation online (see links above). Your second example would be trivial: perl -lpe '$_ = qq{ --slave /usr/bin/$_ $_ /usr/bin/$_-\${version}}' < input -lp is the sed without -n mode, so same as with -n except that $_ is -p rinted after the -e xpression has been evaluated.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801502/how-can-i-use-sed-to-chain-append-lines-from-a-text-file-add-it-as-a-suffix-to
+
+---
+
+#### 5996. How do I ensure a bash script argument is a specific value?
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, regular-expression, arguments | Score: 3 | Views: 1063 | Answers: 3 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+The main problem with your script is a boolean logic error. In your elif clause you are testing for ("not cli OR not gui") when you should be testing for ("not cli AND not gui") . With OR, the test succeeds if the variable doesn't match either "cli" or "gui", so half of the results will be incorrect. With AND, it succeeds only when it doesn't match both. This is shown in the truth table below. "NOT cli & "NOT gui" are the conditions being tested, while the AND and OR columns show the results of AND-ing and OR-ing the first two columns. NOT cli NOT gui AND OR false false false false false true false true true false false true true true true true For example: if [ -z "$interfaceType" ]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be specified. (cli/gui)" && exit 1 elif [[ ! $interfaceType =~ ^[Cc][Ll][Ii]$ && ! $interfaceType =~ ^[Gg][Uu][Ii]$ ]]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be 'cli' or 'gui'" && exit 2 fi However, that can be improved because regular expressions support alternations with the | pipe character, so you only need to make one regex test. e.g. if [ -z "$interfaceType" ]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be specified. (cli/gui)" && exit 1 elif [[ ! $interfaceType =~ ^([Cc][Ll][Ii]|[Gg][Uu][Ii])$ ]]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be 'cli' or 'gui'" && exit 2 fi And can be further improved by setting nocasematch which enables case-insensitive matching for == , != and =~ operators, as well as in case statements, pattern substitution (e.g. ${parameter/pattern/string} ), and programmable completion. From man bash : nocasematch If set, bash matches patterns in a case-insensitive fashion when performing matching while executing case or [[ conditional commands, when performing pattern substitution word expansions, or when filtering possible completions as part of programmable completion. Note that setting nocasematch persists until the end of the current script (or shell if you enter it on the command line). You may want to unset it after the regex test if you want case-sensitive matches for other tests. shopt -s nocasematch if [ -z "$interfaceType" ]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be specified. (cli/gui)" && exit 1 elif [[ ! $interfaceType =~ ^(cli|gui)$ ]]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be 'cli' or 'gui'" && exit 2 fi Finally, if you're going to check whether the variable matches neither cli or gui , then you don't also need to check if it's empty - because the empty string doesn't match either of those anyway. So, just the following would do: shopt -s nocasematch if [[ ! $interfaceType =~ ^(cli|gui)$ ]]; then echo -e "[${c_RED}ERROR${c_RESET}] the interface type must be 'cli' or 'gui'" && exit 2 fi One last thing, you're using essentially the same echo -e statement twice. If that's something you're likely to use a lot in your script, you should turn it into a function. This will make your script more consistent, and easier to read. Also easier to make changes, e.g. if you want to change the colour for all error messages, or add a timestamp, or whatever. For example (using tput rather than hard-coding ANSI/vt-100 colour codes, and using printf rather than echo -e , see Why is printf better than echo? - in short, echo -e is non-portable and unreliable): #!/bin/bash shopt -s nocasematch c_RESET=$(tput sgr0) # turn off all attributes c_RED=$(tput bold setaf 1) # bold red error_exit () { # first arg is the exit code ec=$1 shift # Remaining args ($*) are printed with a red ERROR message. printf "[${c_RED}ERROR${c_RESET}] %s\n" "$*" exit $ec } interfaceType="$1" if [ -z "$interfaceType" ]; then error_exit 1 "The interface type must be specified. (cli/gui)" elif [[ ! $interfaceType =~ ^(cli|gui)$ ]]; then error_exit 2 "The interface type must be 'cli' or 'gui'" fi echo $interfaceType
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801389/how-do-i-ensure-a-bash-script-argument-is-a-specific-value
+
+---
+
+#### 5997. How can I make Arch Linux show the names of packages in the bash command not found error?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line, arch-linux, pacman, command-not-found | Score: 3 | Views: 527 | Answers: 1 | Created: 2025-09-07
+
+**解决方案 / Solution**:
+The pkgfile package providers helpers that come close, and only for the repos: % emacs emacs may be found in the following packages: extra/emacs 30.1-5 /usr/bin/emacs extra/emacs-nox 30.1-5 /usr/bin/emacs extra/emacs-wayland 30.1-5 /usr/bin/emacs To use it, install the pkgfile package, update the pkgfile database with sudo pkgfile -u and add this to your bashrc : source /usr/share/doc/pkgfile/command-not-found.bash A similar helper file is also provided for zsh.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799548/how-can-i-make-arch-linux-show-the-names-of-packages-in-the-bash-command-not-fou
+
+---
+
+#### 5998. Is it possible to silence the initial call in xtrace, when BASH_XTRACEFD is set?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, scripting | Score: 3 | Views: 185 | Answers: 4 | Created: 2025-09-05
+
+**解决方案 / Solution**:
+It apparently can be done, but you will need to know the file descriptor, or to plan ahead. Knowing the file descriptor: exec 5>xtrace.log BASH_XTRACEFD=5 set -x : before ( : test1 ; ) 5>/dev/null { : test2 ; } 5>/dev/null : test3 5>/dev/null : after For me, this shows only "before", "test3", and "after" in the log. planning ahead: exec {BASH_XTRACEFD}>xtrace.log exec {null}>/dev/null echo BASH_XTRACEFD=$BASH_XTRACEFD null=$null set -x : before BASH_XTRACEFD=$null : test1 : after For me, this shows only "before" and "after" in the log.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799499/is-it-possible-to-silence-the-initial-call-in-xtrace-when-bash-xtracefd-is-set
+
+---
+
+#### 5999. How to pretty print one column of piped input?
+
+**问题描述 / Problem Description**:
+Tags: bash, rhel, text-formatting, json, jq | Score: 3 | Views: 164 | Answers: 4 | Created: 2025-08-26
+
+**解决方案 / Solution**:
+Using the following to emulate OP's jq output in my environment: $ cat jq.out full 20250712-224418F 57448997604 full 20250712-231256F 57391883702 full 20250713-000402F 57448997604 full 20250713-013005F 57447727844 incr 20250713-013005F_20250714-000002I 4960846146 incr 20250817-101503F_20250822-000002I 8954487106 incr 20250817-101503F_20250823-000002I 9482330434 full 20250824-014502F 53490962042 incr 20250824-014502F_20250825-000002I 5594054978 incr 20250824-014502F_20250826-000002I 6828647855 Using printf to replace column and add thousands separators: cat jq.out | while read -r type label size do printf "%-6s %-35s %'15.0f\n" $type $label $size done If needing to type this regularly, and assuming using the same output format each time, we can wrap the guts in a function: my_column() { while read -r type label size do printf "%-6s %-35s %'15.0f\n" $type $label $size done } And then the main call becomes: cat jq.out | my_column Both of these generate: full 20250712-224418F 57,448,997,604 full 20250712-231256F 57,391,883,702 full 20250713-000402F 57,448,997,604 full 20250713-013005F 57,447,727,844 incr 20250713-013005F_20250714-000002I 4,960,846,146 incr 20250817-101503F_20250822-000002I 8,954,487,106 incr 20250817-101503F_20250823-000002I 9,482,330,434 full 20250824-014502F 53,490,962,042 incr 20250824-014502F_20250825-000002I 5,594,054,978 incr 20250824-014502F_20250826-000002I 6,828,647,855 NOTES: if this does not print the thousands separator then you likely need to play with your locale settings (eg, LC_ALL= printf ... or LC_ALL=en_US.TUF-8 printf ... ) adjust the column widths by modifying the -6s , -35s and 15.0f formats the use of the ( bash ) printf builtin should mean this while/read loop is relatively fast and for smallish sets of data should be on par with the cost of spawning an additional subshell for a column call; for larger datasets the looping/formatting construct could be replaced with a comparable awk ( perl , python , etc) call for better performance OP's code would then become: pgbackrest info --output=json | | jq -r '.[] | .backup[] | "\(.type) \(.label) \(.info.delta)"' \ | while read -r type label size; do printf "%-6s %-35s %'15.0f\n" $type $label $size; done ######## # or pgbackrest info --output=json | | jq -r '.[] | .backup[] | "\(.type) \(.label) \(.info.delta)"' \ | my_column In this case since custom formatting is only required for the one column we could fallback to OP's original numfmt idea while eliminating a) the while/read loop, b) the subshell for calling numfmt and c) the additional subshell invoked due to the parens; a couple ideas: $ cat jq.out | numfmt --field 3 --grouping | column -t -R 3 $ cat jq.out | numfmt --field 3 --format "%'15.0f" | column -t -R 3 NOTE: depends on locale Wrapped in a function: $ my_column() { numfmt --field 3 --grouping | column -t -R 3; } $ cat jq.out | my_column These also generate: full 20250712-224418F 57,448,997,604 full 20250712-231256F 57,391,883,702 full 20250713-000402F 57,448,997,604 full 20250713-013005F 57,447,727,844 incr 20250713-013005F_20250714-000002I 4,960,846,146 incr 20250817-101503F_20250822-000002I 8,954,487,106 incr 20250817-101503F_20250823-000002I 9,482,330,434 full 20250824-014502F 53,490,962,042 incr 20250824-014502F_20250825-000002I 5,594,054,978 incr 20250824-014502F_20250826-000002I 6,828,647,855
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799201/how-to-pretty-print-one-column-of-piped-input
+
+---
+
+#### 6000. Understanding file descriptors and pipes resulting from `cat <(<command>)`
+
+**问题描述 / Problem Description**:
+Tags: bash, pipe, fifo, process-substitution | Score: 3 | Views: 512 | Answers: 1 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+So, a process substitution like outer <(inner) makes the output of inner available as a named file that outer can then open. That could be done through named pipes (FIFOs), similarly to something like this (but done by the shell behind the scenes in a better way): mkfifo tmpfifo # with a random name inner > tmpfifo & outer tmpfifo rm -f tmpfifo Another way is for the shell to connect inner to an anonymous pipe (as used in a regular pipeline like left | right ), letting outer inherit a file descriptor (fd) to that pipe, and have the process substitution expand to a filename that actually refers to that already-opened fd outer already has. This requires a system that allows reopening/duplicating open fds through some name. Usually that's /dev/fd/NN (which is linked to /proc/self/fd on Linux). If you try something like echo <(true) in Bash, you get the output /dev/fd/63 , showing that Bash used this method and chose to use fd 63 for this. (Other shells might choose other numbers for that fd.) So, in cat <(...) , cat inherits stdin, stdout, stderr (fds 0-2) as normal, but also the pipe from the process substitution at fd 63 and gets passed the filename /dev/fd/63 as a command line argument. It then opens the filename it got, creating a new fd for what it had at fd 63. This new fd gets the number 3, since that's the first available one. The result is that it has copies of the pipe at fds 3 and 63. The second handle doesn't matter, they're both closed when cat exits. (Using an anonymous pipe instead of a named one is better here, since then everything gets cleaned up automatically when the processes exit, and unrelated processes can't also open the same pipe even by accident.) Now, the command within the process substitution ( inner ) is a shell command, so the shell launches a copy of itself to run it. That shell gets its stdout connected to the write end of the pipe, and then runs whatever there is to run, i.e. your sleep command. With just a single command inside the process substitution, the shell could just replace itself with sleep , and then you wouldn't see the intermediate bash process. That's what I get with Bash 5.2 on Ubuntu: $ cat <(sleep 60) & $ ps --forest PID TTY TIME CMD 1562963 pts/0 00:00:00 bash 1562972 pts/0 00:00:00 \_ cat 1562973 pts/0 00:00:00 | \_ sleep 1562975 pts/0 00:00:00 \_ ps If the command inside is more complex, then the shell needs to keep hanging around until sleep exits, e.g. to run the next command: $ cat <(sleep 60; true) & $ ps --forest PID TTY TIME CMD 1562963 pts/0 00:00:00 bash 1562983 pts/0 00:00:00 \_ cat 1562984 pts/0 00:00:00 | \_ bash 1562985 pts/0 00:00:00 | \_ sleep 1562986 pts/0 00:00:00 \_ ps That inner shell needs to keep a copy of the stdout file descriptor to be able to pass it to any subsequent commands.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798926/understanding-file-descriptors-and-pipes-resulting-from-cat-command
+
+---
+
+#### 6001. How to list only the last name.partXXX.rar file?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, filenames | Score: 3 | Views: 1076 | Answers: 7 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+With zsh : $ files=( *.part<->.rar(Nn) ) $ typeset -A last $ for f ($files) last[$f:r:r]=$f $ print -roC1 -- $last 1yBWVnZCx8CoPrGIG.part23.rar DaHs0QJnJbt.part4.rar n5oTzoLvG.part6.rar okgbuh8VUxSguDNra9uMTtDlXhiLWQmY.part2.rar RSmWMPb0vWr8LIEFtR7o.part5.rar T7yvBIqHK82qDCNTtz9iuvp2NhQ.part11.rar tBJDjsyJtFpY0d3aQ.part6.rar W1Pn8SHf7pbMSf1u99C4f.part2.rar XYcUpv7b1ZpcczFT5y7Uc9mQTvAf88kl.part2.rar Explanations: # Put a listing of all files that match the "glob" pattern # ANYTHING.partANYNUMBER.rar # into the variable called "files" # without erroring out if nothing matches (N), # and sorting things numerically (n) files=( *.part<->.rar(Nn) ) # make an associative array (-A) called "last" # (in Python, this would be called a dict, # in C++ a std::map<std::string,std::string>) typeset -A last # loop over all entries in "files", and for each strip the last file name suffix # (as separated by a "."), twice; i.e., remove the .rar, and remove the .partANYNUMBER. # Store the file name in last[twiceshortened] for f ($files) last[$f:r:r]=$f # Note that this overwrites the entry for 1yBWVnZCx8CoPrGIG until the highest- # numbered part is reached. # Print the full list: print -roC1 -- $last # -r : no fancy escaping (we don't need that and it makes things strange) # -o : print sorted, in ascending order # -C1 : print as 1 column # -- : the stuff to be printed follows after this # $last : print the content (not the keys!) of the "last" associative array # You get: 1yBWVnZCx8CoPrGIG.part23.rar DaHs0QJnJbt.part4.rar n5oTzoLvG.part6.rar okgbuh8VUxSguDNra9uMTtDlXhiLWQmY.part2.rar RSmWMPb0vWr8LIEFtR7o.part5.rar T7yvBIqHK82qDCNTtz9iuvp2NhQ.part11.rar tBJDjsyJtFpY0d3aQ.part6.rar W1Pn8SHf7pbMSf1u99C4f.part2.rar XYcUpv7b1ZpcczFT5y7Uc9mQTvAf88kl.part2.rar
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798920/how-to-list-only-the-last-name-partxxx-rar-file
+
+---
+
+#### 6002. regex to find text plus trailing 10+ spaces; sum of two matches' lengths is part of matching condition
+
+**问题描述 / Problem Description**:
+Tags: bash, regular-expression, logs, perl | Score: 3 | Views: 300 | Answers: 6 | Created: 2025-08-12
+
+**解决方案 / Solution**:
+Assumptions: lines that have been merged are separated by at least 10 spaces the 2nd half of a merged line (ie, the second line) does not contain 10+ spaces the total length of a merged line is at least 80 characters (objective is to keep from splitting a single (non-merged) line that contains 10+ spaces; could be problematic for a) a non-merged line with 10+ spaces and longer than 80 characters or b) a merged line with a lot of Chinese (?) characters such that total merged line length < 80 characters - see the end of this answer for info on a custom awk library of functions for dealing with variable display width characters) Approach: use the rev binary to reverse all lines (characterwise) search for first occurrence of 10+ spaces if total length of the input line >= 80 then we have a merged line and we'll split it based on the location of the (first match of) 10+ spaces use the rev binary to reverse all lines back to their original characterwise ordering One GNU awk solution: rev filename | awk -v width=80 ' match($0,/[ ]{10,}/) { if (length() >= width) { # if 10+ spaces and length >= 80 # then this is a merged line so print substr($0,RSTART+RLENGTH) # print 1st line print substr($0,1,RSTART-1) # print 2nd line next # go to next line of input } } 1 # else print nonmerged lines ' | rev Taking for a test drive ... filename == OP's first data set: $ tput cols 80 $ type wc # OK wc is hashed (/usr/bin/wc) $ # This one is fine. OK $ echo "Cédric,Žemaičių Naumiesčio" Cédric, Žemaičių Naumiesčio $ filename == OP's second data set: $ tput cols 80 $ type wc # OK wc is hashed (/usr/bin/wc) $ # This one is fine. OK $ cat files_to_rectify_1754293729_2025-08-04T014849-0600.list # '.' is '/cygdrive/c/David/FHTW-2025-All_-_move_2024_get_new/'\ $ find ./the_dir_with_thirteen_files/ -type f | wc -l 13 $ find . -type f -iname "*no_file_with_this*" | grep -oP "[\x00-\x20\x7F-\xFF]" | sed 's#\(.\)#'"'"'\1'"'"', #g; s#, $##g;' | wc -l 0 $ a_short_string="abc" # OK $ a_quite_long_string="abcdefghijklmnopqrstuvwxyzNowIKnowMyABCsNextTimeWon'tYouSingWithMe; This song ruined 'zed' for us Americans : (" # OK $ echo "${a_quite_long_string}" abcdefghijklmnopqrstuvwxyzNowIKnowMyABCsNextTimeWontYouSingWithMe; This song ruined 'zed' for us Americans : ( $ whoami # OK bballdave025 $ echo "你好。我不知道。" 你好。我不知道。 $ echo I want to put in more=15 spaces. # OK I want to put in more=15 spaces. $ echo "Cédric,Žemaičių Naumiesčio" Cédric,Žemaičių Naumiesčio $ Addendum A web search on determining display/column widths of characters brought up a unix.stackexchange.com Q&A with this answer being of particular interest. That answer references a custom awk library that provides awk functions for processing variable (display) width characters. Replacing the length() call (above) with wcscolumns($0) should provide a bit more stability to the above awk script as far as dealing with variable (display) width characters.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798737/regex-to-find-text-plus-trailing-10-spaces-sum-of-two-matches-lengths-is-part
+
+---
+
+#### 6003. Shell bracket list wildcard doesn't work with variable
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 61 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+as you've probably guessed, because the brace expansion ( {…,…} -> … … ) happens before the parameter expansion ( $LIST -> string stored within ). From Bash manual, "3.2 Shell Expansions" : The order of expansions is: brace expansion; tilde expansion, parameter and variable expansion, arithmetic expansion, and command substitution (done in a left-to-right fashion); word splitting; filename expansion; and quote removal. So, brace expansion happens first (by the way, that's different for zsh, where the order is history, alias, (process|parameter|command|arithmetic|brace), filename expansion, globbing). In your example, I'd just go and temporarily set the string split character to , (I'd do that in a subshell to avoid contaminating the rest of my script): IFS=, ls $LIST # no brace expansion here! But that won't help if you wanted to do something that needs brace expansion, such as LIST=a,b,c,d; ls $LIST/foo (you'd be getting ls a b c d/foo , which is not the same as ls a/foo b/foo c/foo d/foo ). A simple way out there is xargs or parallel . LIST=000/487,000/488,000/489,000/490,000/491,000/492 echo $LIST | parallel -m -j1 -d ',' ls {}/foo (the -m means "put as many arguments on one command line as possible within operating system limits for command lines", the -j1 means "only spawn 1 process, not one per processor core) In zsh, you can get the brace-expansion behaviour with paramater expansions natively, using the (in my humble opininion) not trivial to remember form of ${(flags in parentheses)OPERATORvariablename} , in this case LIST=000/487,000/488,000/489,000/490,000/491,000/492 ls ${(s:,:)^LIST}/foo where the flags are sCHARdelimiterCHAR , "split at the string enclosed by CHAR ", and the expansion operator is ^SPEC , which says "use the result of this expansion as a list in a brace expansion". (yes, it took a while to figure that out. I bet the zsh project would love clarifying documentation for man zshexpn .)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801319/shell-bracket-list-wildcard-doesnt-work-with-variable
+
+---
+
+#### 6004. Bash: function in a script with flags
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, function, options | Score: 2 | Views: 133 | Answers: 1 | Created: 2025-11-08
+
+**解决方案 / Solution**:
+The problem is the colon which links Hello to --foo instead of treating it as a non-option argument: getopt -o '' --long foo: -n 'testing' -- --foo "Hello" --foo 'Hello' -- getopt -o '' --long foo -n 'testing' -- --foo "Hello" --foo -- 'Hello'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801169/bash-function-in-a-script-with-flags
+
+---
+
+#### 6005. x2 sudo commands cannot be executed in terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, sudo, gpio | Score: 2 | Views: 289 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+As I inferred from OP's follow-up to my comment that my guess is probably right, I'm posting this as an answer. The problem here is that in sudo gpioset $(gpiofind PIN_36)=0 , only gpioset is executed as root . The shell evaluates the substitution by executing gpiofind PIN_36 before executing the surrounding command, so that is executed as whoever started the shell, which is also why it works in a shell started by root . The fix is just to add sudo in front of the "inner" command, so the command becomes sudo gpioset $(sudo gpiofind PIN_36)=0 .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800445/x2-sudo-commands-cannot-be-executed-in-terminal
+
+---
+
+#### 6006. cal or ncal - wrap more months?
+
+**问题描述 / Problem Description**:
+Tags: bash, cal | Score: 2 | Views: 281 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+Not with BSD cal/ncal alone where the maximum number of columns is hardcoded to 2 with -jb , 3 with -j or -b , or 4 (without -j nor -b ). You could try GNU cal though which can print a whole year in a given number of blocks with -b . For instance gcal -b 2 : would print a whole fiscal year starting with the current month on 2 blocks of 6 months each. Piped to head -n 15 , you'd get only the first block: $ gcal -b2 : | head -n15 2025/2026 October November December January February March Su 5 12 19 26 2 9 16 23 30 7 14 21 28 4 11 18 25 1 8 15 22 1 8 15 22 29 Mo 6 13 20 27 3 10 17 24 1 8 15 22 29 5 12 19 26 2 9 16 23 2 9 16 23 30 Tu 7 14 21 28 4 11 18 25 2 9 16 23 30 6 13 20 27 3 10 17 24 3 10 17 24 31 We < 1> 8 15 22 29 5 12 19 26 3 10 17 24 31 7 14 21 28 4 11 18 25 4 11 18 25 Th 2 9 16 23 30 6 13 20 27 4 11 18 25 1 8 15 22 29 5 12 19 26 5 12 19 26 Fr 3 10 17 24 31 7 14 21 28 5 12 19 26 2 9 16 23 30 6 13 20 27 6 13 20 27 Sa 4 11 18 25 1 8 15 22 29 6 13 20 27 3 10 17 24 31 7 14 21 28 7 14 21 28 Or with a different layout with -i : $ gcal -i -b2 : | head -n13 2025/2026 October November December January February March Su Mo Tu We Th Fr Sa Su Mo Tu We Th Fr Sa Su Mo Tu We Th Fr Sa Su Mo Tu We Th Fr Sa Su Mo Tu We Th Fr Sa Su Mo Tu We Th Fr Sa < 1> 2 3 4 1 1 2 3 4 5 6 1 2 3 1 2 3 4 5 6 7 1 2 3 4 5 6 7 5 6 7 8 9 10 11 2 3 4 5 6 7 8 7 8 9 10 11 12 13 4 5 6 7 8 9 10 8 9 10 11 12 13 14 8 9 10 11 12 13 14 12 13 14 15 16 17 18 9 10 11 12 13 14 15 14 15 16 17 18 19 20 11 12 13 14 15 16 17 15 16 17 18 19 20 21 15 16 17 18 19 20 21 19 20 21 22 23 24 25 16 17 18 19 20 21 22 21 22 23 24 25 26 27 18 19 20 21 22 23 24 22 23 24 25 26 27 28 22 23 24 25 26 27 28 26 27 28 29 30 31 23 24 25 26 27 28 29 28 29 30 31 25 26 27 28 29 30 31 29 30 31 30 With BSD ncal, you could always post process the output to concatenate the two rows of months: $ ncal -A4 | awk 'NR<10 {s[NR]=$0; next}; {print s[NR-9] substr($0, 5)}' October 2025 November 2025 December 2025 January 2026 February 2026 Mo 6 13 20 27 3 10 17 24 1 8 15 22 29 5 12 19 26 2 9 16 23 Tu 7 14 21 28 4 11 18 25 2 9 16 23 30 6 13 20 27 3 10 17 24 We 1 8 15 22 29 5 12 19 26 3 10 17 24 31 7 14 21 28 4 11 18 25 Th 2 9 16 23 30 6 13 20 27 4 11 18 25 1 8 15 22 29 5 12 19 26 Fr 3 10 17 24 31 7 14 21 28 5 12 19 26 2 9 16 23 30 6 13 20 27 Sa 4 11 18 25 1 8 15 22 29 6 13 20 27 3 10 17 24 31 7 14 21 28 Su 5 12 19 26 2 9 16 23 30 7 14 21 28 4 11 18 25 1 8 15 22
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800104/cal-or-ncal-wrap-more-months
+
+---
+
+#### 6007. Make `set -o vi` vim cursor reflect editing mode when in `read`
+
+**问题描述 / Problem Description**:
+Tags: bash, vi, read, readline, set | Score: 2 | Views: 106 | Answers: 1 | Created: 2025-09-27
+
+**解决方案 / Solution**:
+With read -e -p "prompt: " , the editing mode is reflected. Without -p it is not (also not with -p '' ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800032/make-set-o-vi-vim-cursor-reflect-editing-mode-when-in-read
+
+---
+
+#### 6008. How to add a prefix to all functions defined in a sourced shell script
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 445 | Answers: 2 | Created: 2025-09-22
+
+**解决方案 / Solution**:
+You could do something like: source <( env -i bash -o noglob -c ' source path/to/my.sh && for f in $(compgen -A function); do printf my- typeset -f -- "$f" done' ) Which starts a new bash instance (so without any function defined as long as there's no $BASH_ENV or exported function in the environment which we make sure of with env -i ), loops over the functions that are defined after sourcing the file and outputs their definition with my- prefixed to the name. The result is fed via a pipe to source using process substitution. A zsh equivalent could be something like: source <( zsh -fc ' source path/to/my.sh && (( $#functions )) && printf "my-%q() {\n%s\n}\n" "${(@kv)functions}"' ) ( $functions is the special associative array that maps function names to their definition, ${(kv)functions} expands to both k eys and v alues of that associative array, @ and double quotes are to preserve empty elements (a function name can be any string including the empty string in zsh)).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799892/how-to-add-a-prefix-to-all-functions-defined-in-a-sourced-shell-script
+
+---
+
+#### 6009. append iterator value to variable in for loop
+
+**问题描述 / Problem Description**:
+Tags: bash, for | Score: 2 | Views: 702 | Answers: 3 | Created: 2025-09-16
+
+**解决方案 / Solution**:
+Syntax error. You need: for hap in 1 2 ; do or, more generally for hap in $(seq 1 2); do
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799725/append-iterator-value-to-variable-in-for-loop
+
+---
+
+#### 6010. Bash exception handling with a stack trace and cleanup code - how to implement?
+
+**问题描述 / Problem Description**:
+Tags: bash, c, error-handling | Score: 2 | Views: 282 | Answers: 1 | Created: 2025-09-09
+
+**解决方案 / Solution**:
+First, for an excellent introduction to why error handling in Bash is not straightforward at all, I recommend reading this article by Dirk Avery. Secondly, his final solution can be improved upon by adding a stack trace. Here is what I use and some example code to demonstrate how it works: #!/bin/bash set -Eeuo pipefail trap 'catch' ERR catch() { local exit_code=$? local cmd="$BASH_COMMAND" local i # Check if exit was due to error if [ "$exit_code" != "0" ]; then echo "" echo "[-] ERROR $exit_code during command: $cmd" echo "Call stack:" for ((i=1; i<${#FUNCNAME[@]}; i++)); do local func="${FUNCNAME[$i]}" local src="${BASH_SOURCE[$i]}" local line="${BASH_LINENO[$((i - 1))]}" # Added to track nested function calls from functions # Extract the actual line of code (skip if file inaccessible) if [[ -r "$src" ]]; then local code_line code_line=$(sed -n "${line}s/^[[:space:]]*/ /p" "$src") echo " at $src:$line in function $func:" echo "$code_line" else echo " at $src:$line in function $func (source not readable)" fi done echo "Tip: You can put any exception handling code here" fi } test_function() { cat nonexistent_file } test_function Here is what the output looks like: user@machine:~$ bash test.sh cat: nonexistent_file: No such file or directory [-] ERROR 1 during command: cat nonexistent_file Call stack: at test.sh:38 in function test_function: cat nonexistent_file at test.sh:41 in function main: test_function Tip: You can put any exception handling code here Note: The set -E flag is important because it allows the ERR trap to be inherited by functions.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799584/bash-exception-handling-with-a-stack-trace-and-cleanup-code-how-to-implement
+
+---
+
+#### 6011. Check if a given function name exists in a sourced shell script file
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, ksh | Score: 2 | Views: 480 | Answers: 2 | Created: 2025-08-26
+
+**解决方案 / Solution**:
+Even a bit simpler and without a subshell: foo(){ echo "foo" } if typeset -f foo >/dev/null 2>&1; then echo "function foo exists" fi In bash , typeset and declare are exactly the same. The only difference is that typeset is considered obsolete. ... typeset is portable to some other shells, for example, ksh93 . If you are aiming for cross-shell portability, use typeset (and make sure that the way you are calling it is portable). If you don't care about such portability, use declare . What is the difference between declare and typeset? Difference between typeset and declare : The former is more portable(e.g. ksh), while the latter is more preferable when portability is not a concern. Differences between declare, typeset and local variable in Bash
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799184/check-if-a-given-function-name-exists-in-a-sourced-shell-script-file
+
+---
+
+#### 6012. bc inconsistent trailing zero result as part of a bash script variable
+
+**问题描述 / Problem Description**:
+Tags: bash, bc, floating-point | Score: 2 | Views: 286 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+As mentioned in a comment, the actual value of $S is 1.5\n1 , presumably because monitor.conf contains two lines that match /monitor =/ . So what you're actually executing is: bc 30*1.5 1/1 The first line outputs 45.0 because you don't have /1 to convert it from floating point to integer, and the second line outputs 1 . So you're setting heightScaled to two lines: 45.0\n1 . You need to figure out how to filter the result to just the line you really want when setting S . You could exit after the first match. S=$(awk '/monitor =/ {print $6; exit}' ~/.config/hypr/config/monitor.conf)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799029/bc-inconsistent-trailing-zero-result-as-part-of-a-bash-script-variable
+
+---
+
+#### 6013. How to test whether a secondary inet address exists on an eth interface?
+
+**问题描述 / Problem Description**:
+Tags: bash, networking, rhel | Score: 2 | Views: 465 | Answers: 2 | Created: 2025-07-29
+
+**解决方案 / Solution**:
+Whether the address is primary or secondary is mostly irrelevant to Linux (depending on order the same address might be primary now, secondary the next time), and also doesn't seem to be relevant to your goal. If you want to check for a specific address, then look for that specific address. ip -4 addr ls to 10.143.170.80 Use -j to get machine-readable JSON output which you can process using jq. ip -j -4 a ls to ... | jq -e '.[].addr_info[].local'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798346/how-to-test-whether-a-secondary-inet-address-exists-on-an-eth-interface
+
+---
+
+#### 6014. Debian: bash-completion does not work with "sudo bash" and "su"
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, autocomplete | Score: 2 | Views: 873 | Answers: 1 | Created: 2025-07-19
+
+**解决方案 / Solution**:
+From https://askubuntu.com/a/156668 : Check your /root/.bashrc file for these lines if [ -f /etc/bash_completion ]; then . /etc/bash_completion fi If they do not exist add them to the end of the file using your favorite text editor. Please note, that the autocompletion will start working just after logging out and back again! You can easily add that line to /root/.bashrc with: sudo tee -a /root/.bashrc <<< "if [ -f /etc/bash_completion ]; then . /etc/bash_completion fi" Alternatively, if you want to have the same .bashrc for your user and the root user, you can copy (or even symlink, which will cause /root/.bashrc to always reflect the contents of your user's .bashrc ) your .bashrc to the root's .bashrc with: sudo cp "$HOME"/.bashrc /root/.bashrc or to symlink: sudo ln -sf "$HOME"/.bashrc /root/.bashrc When symlinking, beware of root-privilege escalations as noted by @ChrisDavies. Make sure you run these commands NOT as root or else $HOME will be /root . The if statement will call /etc/bash_completion to enable bash completions, but it is probably not present in your .bashrc in the /root directory, which is the root's home. /root/.bashrc is invoked when becoming the root user with su or sudo bash . Your own user's home directory /home/{your_username}/.bashrc should already have that if statement, which is why it automatically works when you install bash-completion . Explanation for successful bash completions with su - When doing sudo bash to become root, completion does not work. It neither works when running su to become root (but does when running su - ). The reason su - still uses bash completions is because that starts a login shell unlike su or sudo bash , which will also execute /etc/profile , and in turn run /etc/bash.bashrc , which has a part to enable bash completions. That means sudo bash --login , which starts a login shell, will also call /etc/profile , allowing bash completions.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798090/debian-bash-completion-does-not-work-with-sudo-bash-and-su
+
+---
+
+#### 6015. White spacing is causing variable to not contain all text in result
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 63 | Answers: 1 | Created: 2025-11-17
+
+**解决方案 / Solution**:
+The first parentheses pair, i.e. the ( immediately before the $(sudo...) and its matching ) at the end, are causing $result to be populated as an array. To confirm this, try typing declare -p result I expect you'll see $result as an array with either 3 elements ("Test", "is", "successful") or 2 elements ("Not", "OK"), i.e.: declare -a result=([0]="Test" [1]="is" [2]="successful") or declare -a result=([0]="Not" [1]="OK") In that case, the solution is easy - just remove the first pair of parentheses. e.g. result=$(sudo docker exec -ti $appid timeout 3 \ /bin/bash -c "echo > /dev/tcp/fake.url.com/80 >& /dev/null" && echo "Test is successful" || echo "Not OK") Worth noting: when you refer to an array variable without an index (e.g. just $result instead of ${result[n]} or ${result[@]} etc), bash returns just the first (zeroth) element of the array, i.e. ${result[0]} . That's why it seems that $result only contains the first word of the captured output. BTW, for a possibly clearer example of what is happening here, consider the different results from these two commands: $ result=$(echo Test is successful) $ declare -p result declare -- result="Test is successful" and $ result=($(echo Test is successful)) $ declare -p result declare -a result=([0]="Test" [1]="is" [2]="successful") In the first example, $result is being created as a scalar variable containing a single string value. In the second, it's being created as an array variable containing three whitespace-separated string values.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801386/white-spacing-is-causing-variable-to-not-contain-all-text-in-result
+
+---
+
+#### 6016. Bash: only the first long option is being processed
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, options | Score: 1 | Views: 118 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+shift 2 will remove the first 2 positional parameters so skip both --first and --second . You'd use shift 2 when processing an option that takes an argument (after having stored the value in $2 ). Here, for an option that doesn't take arguments, use shift , short for shift 1 . Instead of using the bash shell and the getopt command (here assumed to be the one from util-linux or compatible), you could also use a shell with builtin support for long option parsing such as zsh or ksh93: #! /bin/zsh - usage() { print -ru2 "Usage: $ZSH_SCRIPT [--first] [--second]" exit 1 } zparseopts -D -F -A opt -- -first -second || usage print "first=$+opt[--first] second=$+opt[--second]" print -r Remaining args: "$@" if (( $+opt[--second] )) print -- --second was given #! /bin/ksh93 - first=false second=false while getopts ' [-?myscript 1.0] [-author?Grass] [+NAME?myscript - maybe do something first then second] [+DESCRIPTION?Example description] [=1:first?Do the first thing.] [=2:second?Do the second thing.] [ <extra-arg>... ]' opt; do case $opt in (1) first=true;; (2) second=true;; (*) exec -- "$0" '-?';; esac done shift "$(( OPTIND - 1 ))" print "first=$first second=$second" print -r Remaining args: "$@" if "$second"; then print -- --second was given; fi With that one, you even get usage and man page for (almost) free: $ ./myscript --help Usage: ./myscript [ options ] [ <extra-arg>... ] Help: ./myscript [ --help | --man ] 2>&1 OPTIONS --first Do the first thing. --second Do the second thing. $ ./myscript --man NAME myscript - maybe do something first then second SYNOPSIS myscript [ options ] [ <extra-arg>... ] DESCRIPTION Example description OPTIONS --first Do the first thing. --second Do the second thing. IMPLEMENTATION version myscript 1.0 author Grass Beware all three (util-linux getopt , zsh's zparseopts and ksh93's getopts ) parse options slightly differently between each other. Note that [ $? != 0 ] (which should have better been written [ "$?" -ne 0 ] ) is a command that negates the exit status of the previous command. To inverse the status, the ! keyword is more idiomatic: if ! parsed_options=$( getopt -o '' --long first,second -n 'testing' -- "$@" ) then echo>&2 Terminating... exit 1 fi eval "set -- $parsed_options" Or here use the even more idiomatic parsed_options=$(...) || usage (with usage defined as a function that prints the usage on stderr and exits with failure and that can be reused any time wrong usage is detected).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801190/bash-only-the-first-long-option-is-being-processed
+
+---
+
+#### 6017. Use numbered file descriptors with SSH
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, io-redirection | Score: 1 | Views: 229 | Answers: 2 | Created: 2025-10-05
+
+**解决方案 / Solution**:
+ssh user@somehost.com -t "sudo tee /tmp/test <&3; cat /tmp/test" 3<<< "test" There's a network connection between you and the remote host. How is the shell on somehost.com, which executes the string "sudo tee /tmp/test <&3; cat /tmp/test" supposed to have access to file descriptors on your local machine? It can't! They are a local operating system concept, not transportable through a SSH stream. The only thing that is: bytes. So, Is there some other way to make this work? No. You'll have to find a different way to do this. If you want to use a file descriptor handle in bash on the remote host, you need to create it on the remote host, not locally. But quite frankly, strong feeling of a X/Y problem here: You have a solution, but it's fairly strange and inelegant; you sadly don't actually tell us about the problem, to which a group of experts might come up with a much simpler solution. For example: The commands you write would be really simple to put in a script, copy over the script (e.g. using scp using the exact same (identical, even) SSH connection), and then run it on the remote host. I however doubt that the commands you write are actually the one you care about (or else, you're already doing something rather complicated for a simple problem).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800219/use-numbered-file-descriptors-with-ssh
+
+---
+
+#### 6018. How to have bash logging ("set -x") only log the main command line (not split into pipelines)?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 175 | Answers: 2 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+With zsh instead of bash, you could use its DEBUG trap which happens to work at and-or-list level (pipelines connected with && / || ): $ cat that-file main_xtrace_on() TRAPDEBUG() { (( $#funcstack > 1 )) || [[ $ZSH_DEBUG_CMD = main_xtrace_off ]] || print -ru2 + $ZSH_DEBUG_CMD } main_xtrace_off() unset -f TRAPDEBUG ( mytest() { echo "testing a string" | grep "a" | sed 's/i/y/g'; } main_xtrace_on mytest | grep test a=$( mytest | cut -c-4 ) main_xtrace_off echo not traced ) $ zsh ./that-file + mytest | grep test testyng a stryng + a=$( mytest | cut -c-4 ) + mytest | cut -c-4 not traced Here, we're checking the depth of the function stack to avoid tracing pipelines in functions. To also avoid tracing pipelines in subshells (such as the one started by $(...) ), you could also check the pid like with: zmodload zsh/system main_xtrace_on() { main_xtrace_pid=$sysparams[pid] TRAPDEBUG() { (( $#funcstack > 1 || sysparams[pid] != main_xtrace_pid )) || [[ $ZSH_DEBUG_CMD = main_xtrace_off ]] || print -ru2 + $ZSH_DEBUG_CMD } } If you had to use bash, you could try something like: shopt -s expand_aliases alias '+{={ code=$(cat) code=${code#"${code%%[^[:space:]]*}"} printf>&"${BASH_XTRACEFD:-2}" "%s\n" "+ $code" eval -- "$code" } << "}+"' mytest() { echo "testing a string" | grep "a" | sed 's/i/y/g'; } +{ mytest | grep test }+ +{ a=$( mytest | cut -c-4 ) }+ echo not traced Where you'd wrap every pipeline (or more generally every piece of shell code) that you want to trace in between the +{ alias and the +} here-document delimiter. That gives: $ bash ./that-file + mytest | grep test testyng a stryng + a=$( mytest | cut -c-4 ) not traced Note that the closing }+ has to be the only thing on the line (implying also being at the start of the line).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799779/how-to-have-bash-logging-set-x-only-log-the-main-command-line-not-split-in
+
+---
+
+#### 6019. What's the difference in manipulating the array between echo and printf in Bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, array, echo, printf | Score: 1 | Views: 125 | Answers: 1 | Created: 2025-09-04
+
+**解决方案 / Solution**:
+it's not that "printf can't handle the += operator", it's that you're using printf wrong, because bash doesn't expand arrays like you assume it does. printf "in while(printf): array=${array[@]}\n" is NOT expanded by bash as: printf "in while(printf): a _b c d\n"` It is expanded as: printf "in while(printf): a _b\n" "c" "d" The first element of the array is expanded inside the double-quoted string. The remainder are expanded as additional arguments outside of the string . Since you don't have any %s format strings ("conversion specifiers") for the args "c" and "d" , they're not printed. To do what you want, try something like this: printf "in while(printf): array=" printf "%s " "${array[@]}" printf "\n" But note that there will be a trailing space in the output after the last element of the array. To avoid, that, and a better solution all-round is to use a proper join function to join the elements of the array into a single string. Unfortunately, bash doesn't have one built-in, but it's not too difficult to write one. e.g. function join_by { [ -z "$1" ] && return local d="$1"; shift; # delimiter AKA separator [ -z "$1" ] && return printf "$1"; shift; # first arg after delimiter printf "%s" "${@/#/$d}"; # remaining args, if any } j=$(join_by " " "${array[@]}") printf "in while(printf): $j\n" "cannot get results of += out of while loop". That's because the while loop is being run in a pipeline, which means that it's being run in a separate child shell. Child processes CAN NOT affect the environment of their parent process. This means that any changes you make to the array only happen within the child process, i.e. they're ephemeral and disappear when the child exits. You can avoid this by using Process Substition instead of a pipe to feed data into the while read loop. That way, the while read is being run in the main shell, not in a child shell. For example: #!/bin/bash function join_by { [ -z "$1" ] && return local d="$1"; shift; # delimiter AKA separator [ -z "$1" ] && return printf "$1"; shift; # first arg after delimiter printf "%s" "${@/#/$d}"; # remaining args, if any } declare -a array=("a b") while IFS= read -r line; do array+=($line) echo "in while(echo): array=${array[@]}" j=$(join_by " " "${array[@]}") printf "in while(printf): array=$j\n" echo; echo done < <(printf "%s\n" c d) echo "out of while(echo): array=${array[@]}" j=$(join_by " " "${array[@]}") printf "out of while(printf): array=$j\n" Example output: in while(echo): array=a b c in while(printf): array=a b c in while(echo): array=a b c d in while(printf): array=a b c d out of while(echo): array=a b c d out of while(printf): array=a b c d Rather than a while read loop, you're probably better off just using readarray . For example: array=("a b") typeset -p array readarray -t tmp_array < <(printf "%s\n" c d) typeset -p tmp_array array+=("${tmp_array[@]}") typeset -p array Output: declare -a array=([0]="a b") declare -a tmp_array=([0]="c" [1]="d") declare -a array=([0]="a b" [1]="c" [2]="d")
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799440/whats-the-difference-in-manipulating-the-array-between-echo-and-printf-in-bash
+
+---
+
+#### 6020. get process id of a process running in remote machine
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 1 | Views: 489 | Answers: 2 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+There are a number of problems with your script: You're unnecessarily using $(( )) . More importantly, return is NOT how you return a value from a bash function. return is for returning an error or exit code to the caller. To return an actual value, just print it to stdout (and have the caller capture the output with command substitution, as your script is attempting to do). BTW, even if return was the correct way to return a value, using $(( $ret )) still wouldn't work because $res will more than likely contain multiple PIDs separated by whitespace (see below), which is not a valid arithmetic expression. You're using ps | grep | awk . I don't know why this is so common or why it persists or gets re-invented so often, but people have been using this horrible construct for decades. To start with, awk can do regexp pattern matching, so you do not need to use grep if you're using awk . ps -a | awk "/$process_name/ { print \$1 }" will work. Actually, with ssh, you're better off using double-quotes around the entire command and single-quotes inside the command: ssh ... "ps -a | awk '/$process_name/ {print \$1}'" (but this can get very complicated with multiple nested quotes) Secondly, even ps | awk is obsolete if all you want is to get a PID (it's still useful for extracting other process details). pgrep has existed since at least Solaris 7, back in 1992. I don't know when it was first introduced to Linux, but it was available as a separate utility for several years before the procps package started including it in 2001. Anyway, all that's needed nowadays is pgrep "$process_name" . Or pgrep -f "$process_name" to search the full command line rather than just the process name. BTW, you weren't even taking any steps to prevent the grep (or awk) process from matching itself. Which it will do, because the process name you're searching for is part of the grep (or awk) command line. The traditional even more horrible way to do this is to add | grep -v grep to the ps | grep | awk pipeline. Ugliness leads to more ugliness. A better way is to write the regexp so that it won't match itself - e.g. by putting square brackets [ and ] around one of the characters in your search string. That's easier with a fixed string (e.g. [s]shd will match sshd but not the regex itself) than with a variable, but it's still not hard with a variable. e.g. process_name="${1/#?/[&]}" instead of just process_name="$1" . Or just use pgrep . Anyway, that's another reason why pgrep is preferable, it is written to never match itself. You need to backslash-escape the double-quotes inside the double-quoted ssh command, otherwise the $process_name variable is effectively unquoted. Or use single-quotes as mentioned above. BTW, you do not need to wrap variable names in curly braces, just $process_name is enough, unless you're doing parameter expansion or the variable is an array, or if you need to separate a variable from other text in a string (e.g. ${foo}_bar is variable $foo followed by _bar , while $foo_bar is variable $foo_bar ). Also, since you're not trying to execute a pipeline on the remote host, just a single command with a single arg, you don't need to double-quote the command, so the command is simplified to just: ssh -o StrictHostKeyChecking=no -l root 192.168.1.50 \ pgrep "'$process_name'" It is entirely possible, even likely, that there will be more than one sshd-session process running. You either need to narrow down the results to just one (e.g. by using a more specific search string), or write your script so that it works with multiple results (i.e. use an array). Adding all those things together, try something like this (it returns an array of remote PIDs matching sshd-session): #!/bin/bash get_process_id() { local res local process_name="$1" # run ssh and store any PIDs in array $res readarray -t res < <( ssh -o StrictHostKeyChecking=no -l root 192.168.1.50 \ pgrep "'$process_name'" ) # Return the array separated by newlines. # # In most cases (especially with filenames!), using NUL as the # separator is better & safer but in this case, we're just # returning a bunch of integers. printf "%s\n" "${res[@]}" } proc_name="sshd-session" readarray -t abc < <(get_process_id "$proc_name") typeset -p abc # show entire $abc array echo "first process-id: ${abc[0]}" # only first element of $abc Finally, always check your shell script syntax with shellcheck . This is available as an online server ( https://shellcheck.net/ ) and is also packaged as a command-line tool for most linux distros. shellcheck not only checks for syntax errors, it highlights many common mistakes. Just for fun (and to encourage you to look for a better language - anything that isn't a shell), here's a basic perl implementation of your script: #!/usr/bin/perl use strict; use Net::OpenSSH; use Getopt::Long qw(:config gnu_getopt); # Set defaults in %opts "hash" (AKA "associative array") my %opts = ( 'user' => 'root', 'hostname' => 'localhost', 'process-name' => 'sshd-session' ); # Options: -u <user> -h <host> -p <process name> -a -f # # -u,--user , -h,--host, and -p,--process-name set the # user, host, and process name to use respectively. # The Default values are used otherwise. # # -a,--list-full enables pgrep's --list-full option # -f,--full enables pgrep's --full option GetOptions(\%opts, qw( user|u:s hostname|h:s process-name|p:s list-full|a full|f ) ) or die ("Error in command line arguments\n"); my @pgrep_args; # array to hold arguments to pass on to pgrep if ($opts{'list-full'}) { push @pgrep_args, '-a' }; if ($opts{'full'}) { push @pgrep_args, '-f' }; my @p = get_process_ids($opts{'user'}, $opts{'hostname'}, $opts{'process-name'}, @pgrep_args); if ($opts{'list-full'}) { # print newline+tab separated process details printf "'%s' processes on %s:\n\t%s\n", $opts{'process-name'}, $opts{'hostname'}, join("\n\t", @p); } else { # print comma-separated PIDs printf "'%s' Process IDs on %s: %s\n", $opts{'process-name'}, $opts{'hostname'}, join(", ", @p); }; sub get_process_ids { my ($user, $host, $pname, @pgargs) = @_; my $ssh = Net::OpenSSH->new( user => $user, host => $host, batch_mode => 1, default_ssh_opts => [ '-o' => 'StrictHostKeyChecking=no' ] ); my @res = $ssh->capture('pgrep', @pgargs, $pname); chomp(@res); # strip newlines from @res array return @res; }; Unlike your bash function, the get_process_ids subroutine itself doesn't have anything hard-coded - it takes username, hostname, and process name, as well as a list of args to use with pgrep as arguments (in that order). As you can see, whitespace isn't the issue it is with shell scripts, variables don't need to be double-quoted when you use them, and there are multiple ways of quoting strings and arrays. qw() , for example, is for quoting words and returning them as a list or array - see perldoc -f qw for details. Also worth checking out: the man pages for perldata , perldsc , perllol , and perlref will tell you more than you wanted to know about perl data types, data structures, lists of lists (i.e. arrays or hashes where each element is another array or hash), and references. And there's a also short tutorial about references with man perlreftut . The script uses the Getopt::Long module to process option arguments. It is configured to work like GNU getopts. It supports both short and long options as well as bundling of short options and abbreviated long options (i.e. any long option can be abbreviated to the shortest unique string - e.g. --list works the same as --list-full , as does --l ). Getopt::Long is part of the perl standard library and is included with perl. The script also uses the Net::OpenSSH module, which is a wrapper around the openssh commands. This is not included as standard with perl so it needs to be installed. It is available as a package for some distros (e.g. on Debian you can install it with sudo apt-get install libnet-openssh-perl ), otherwise you can install it with the cpan tool which IS included with perl. CPAN, btw, is one of perl's best features - it's an enormous library of perl modules to do just about anything you can think of. Whatever you want to do, whatever kind of data format you want to process, there's probably a module already written to do it. Feel free to use the script as a base to experiment with. Anyway, save the script as, e.g., get-remote-pids.pl , and make it executable with chmod +x get-remote-pids.pl . Sample output: $ ./get-remote-pids.pl 'sshd-session' Process IDs on localhost: 2270741, 2270747 $ ./get-remote-pid.pl -a -u cas 'sshd-session' processes on localhost: 2714058 sshd-session: cas [priv] 2714065 sshd-session: cas@notty
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799423/get-process-id-of-a-process-running-in-remote-machine
+
+---
+
+#### 6021. How to pass an argument by reference to a function in KornShell (PDKSH 5.2.14)
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, ksh | Score: 1 | Views: 217 | Answers: 2 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+Name references were added first to ksh93 in the initial release in late 1993. They are essential there because ksh93 implements static variable scoping¹ (and to this day, it's still the only shell that does unless you want to consider zsh's private variables), as a function cannot access the local variables of its caller otherwise. AFAIK, the first shell to copy the feature was mksh in 2009 (first in the R39b release). It is cruder there in that it doesn't attempt to make sure the nameref points to the variable of the caller, so you still need to namespace your local variables (including the nameref variable itself) to make sure the nameref doesn't end up referencing them (or itself recursively). mksh, the shell of MirBSD and Android is based on the sh/ksh of OpenBSD, itself based on pdksh from the late 80s, itself based on the Forsyth shell (a clone of the Bourne shell) and intended as a public domain clone of ksh88¹. mksh has gradually been adding more and more features from ksh93 so contrary to pdksh it may no longer be seen as a ksh88 clone. Like ksh88, it does dynamic scoping like most shells, and I don't believe there's any plan to switch to static scoping. bash (also with dynamic scoping) copied namerefs, with the same limitations as in mksh in 4.3 (2014). zsh (also with dynamic scoping except for its private variables) added it first in 2023 along with a new zsh/ksh93 module with more features from ksh93, though as of writing it's still work in progress and there hasn't been a full release yet. It tries to be a bit more faithful to the ksh93 implementation, and avoids the variable clashing issues seen in mksh/bash in most cases. To demonstrate the issues: $ ksh93 -c 'function f { typeset -n a=$1; typeset b=2; a=3; }; b=1; f b; echo "$b"' 3 $ mksh -c 'function f { typeset -n a=$1; typeset b=2; a=3; }; b=1; f b; echo "$b"' 1 $ bash -c 'function f { typeset -n a=$1; typeset b=2; a=3; }; b=1; f b; echo "$b"' 1 $ zsh -c 'function f { typeset -n a=$1; typeset b=2; a=3; }; b=1; f b; echo "$b"' 3 $ ksh93 -c 'function f { typeset -n a=$1; a=2; }; a=1; f a; echo "$a"' 2 $ mksh -c 'function f { typeset -n a=$1; a=2; }; a=1; f a; echo "$a"' E: f: typeset: a: expression recurses on parameter 2 $ bash -c 'function f { typeset -n a=$1; a=2; }; a=1; f a; echo "$a"' environment: line 1: typeset: warning: a: circular name reference environment: line 1: warning: a: circular name reference environment: line 1: warning: a: circular name reference 2 $ zsh -c 'function f { typeset -n a=$1; a=2; }; a=1; f a; echo "$a"' 2 local itself is from the Almquist shell and the ksh equivalent (which predates the Almquist shell) is typeset (which as noted above, in ksh93 only introduces a local (static) scope in functions declared with the function fname { ...; } syntax; without the typeset , variables refer to the global scope, not the scope of the caller). In any case, pdksh, at the time it was still maintained, like ksh88 never had support for name references. But like in bash/zsh/mksh/ash..., it's not as needed as it is in ksh93 as those shells do dynamic scoping, so functions can readily access variables of their caller as long as they don't shadow them with their own local variables. In mksh or bash, namerefs can be seen as syntactic sugar to avoid having to use eval . For instance, instead of: function myfun { typeset -n __var="$1" typeset __local_var=whatever __var=$(cmd that computes new value)$__local_var } myfun myvar (note the __ prefix to reduce the risk of clash in mksh/bash). You can do: function myfun { typeset __var="$1" typeset __local_var=whatever eval "$__var="'$(cmd that computes new value)$__local_var' } myfun myvar Note the need to put the $(... inside single quotes so it's passed literally to eval ³. Failing to do so is a sure way to introduce command injection vulnerabilities. namerefs help you with that as they make it easier to make sure only the referenced variable name is subject to evaluation (there's still a potential for ACE vulnerability if you don't sanitise the variable name though). Using a temporary variable and limiting yourself to eval "$__var"'=$__tmp' to reduce the chance of mistake is good practice as in: function myfun { typeset __var="$1" __var_value typeset __local_var=whatever eval "__var_value=\${$__var}" printf '%s\n' "$__var initially contained $__var_value" __var_value=$(cmd that computes new value)$__local_var printf '%s\n' "new value to be $__var_value" eval "$__var"'=$__var_value' } myfun myvar ¹ when using ksh-style functions (defined with function fname { ...; } ), there's no scoping at all in Bourne-style functions (defined with fname() command ). ² which was closed source and expensive; and still is closed source contrary to ksh93 whose source was released circa 2000, though nowadays you can find code of some of its versions on archive.org and elsewhere. ³ and the double quotes around $__var to prevent split+glob as usual.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799210/how-to-pass-an-argument-by-reference-to-a-function-in-kornshell-pdksh-5-2-14
+
+---
+
+#### 6022. How can I temporarily bypass an alias of a keyword in Bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, alias | Score: 1 | Views: 221 | Answers: 2 | Created: 2025-08-26
+
+**解决方案 / Solution**:
+It seems to me to be a rather bad idea to make an alias that hides a keyword. Functions in shell components and scripts that the user of your script might want to load after running your code will "randomly" (from the user's perspective) break! So, honestly, from a programmer's perspective, the answer to your question is: You really simply shouldn't be aliasing keywords like if ; the solution is not to temporarily disable aliases globally (which is another thing with side effects, though less likely as severe), but to pick any other possible word. Sometimes, even if we don't like the specific shape an aspect of an environment takes (here: the meaning of a keyword), it's not appropriate to bend it, as it has side effects. The cure here is worse than the disease could be. Aliases are doubly bad in this context: they are expanded by default in interactive shells, but not in noninteractive ones. Imagine the pain you're causing by allowing the user to do one thing manually on their shell, but it stops working as soon as they put it in a script, or vice versa!
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799191/how-can-i-temporarily-bypass-an-alias-of-a-keyword-in-bash
+
+---
+
+#### 6023. List all the directories residing in a directory path using KornShell
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, ksh | Score: 1 | Views: 104 | Answers: 1 | Created: 2025-08-26
+
+**解决方案 / Solution**:
+Yes, while <(...) comes from ksh in the mid 80s, you couldn't use it in targets of redirections until some relatively recent versions of ksh93 (IIRC ksh93u+ from 2012). And pdksh (a p ublic d omain clone from the time ksh was not FLOSS) and its derivatives such as mksh don't support it. In ksh (but not pdksh derivatives), you wouldn't need it anyway, you could do: set -A array i=0 cmd | while IFS= read -r line; do array[i++]=$line done For instance to store the lines of the output of cmd into an array as in ksh (or zsh, or bash if non-interactive and the lastpipe option is enabled), the right-most component of a pipeline doesn't run in a subshell, so you don't need that trick with process substitution to work around it. In any case, that's wrong for find or anything that returns file names or paths as newline is as valid a character in a file name as any so can't be handled line-wise. Here you could do: unset -v list n=0 for file in "${CONFIGS_DIR%/}/".* "${CONFIGS_DIR%/}/"*; do base=${file##*/} [[ $base = @(.|..) || ! -d $file || -L $file ]] || list[n++]=$base done The $base = @(.|..) to exclude . and .. is not needed in pdksh (or the Forsyth shell on which it is based) as those are never included in glob expansions, but would be in older versions of AT&T ksh or bash. In yet older versions of bash @(.|..) would not be recognised unless the extglob option was enabled. You can replace it with $base = . || $base = .. if you need to cover for very old versions of bash . -d is to check the files are of type directory but that also includes symlinks to directories, which we exclude with the -L check. ${CONFIGS_DIR%/} is to remove a trailing / before adding /* to cover for the case where $CONFIGS_DIR is / where $CONFIGS_DIR/* would become //* and //paths are special on some systems including some versions of QNX . In ksh88 / pdksh, which doesn't distinguish between array and scalar variables ( $var is short for ${var[0]} there), unset -v var is equivalent to set -A var and has the merit of being compatible with bash (which for some reason didn't copy set -A (copied zsh's array=(...) instead) or read -A (has read -a instead) even though it copied most of the rest of the awkward ksh array design).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799176/list-all-the-directories-residing-in-a-directory-path-using-kornshell
+
+---
+
+#### 6024. Can I execute multiple case blocks if the pattern matches?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, syntax, case | Score: 1 | Views: 435 | Answers: 2 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+Yes, when using bash's ;;& ( added in 2008, alongside ksh's &; ), equivalent to zsh's ;| ( added in 2007 ; ksh's ;& added in 1997 ) for subsequent patterns to still be tested even if the current one matched, you generally want to add it after all patterns, which ensures all patterns are tested. Then: # bash case $var in (A) action1;;& (B) action2;;& esac # zsh case $var in (A) action1;| (B) action2;| esac (strictly speaking, like for ;; in a standard case statement, the last one before esac is not necessary; a newline or ; is enough). Becomes the same as ksh-style: # ksh / bash / zsh / yash if [[ $var = A ]]; then action1 fi if [[ $var = B ]]; then action2 fi In zsh, you could also do: for pattern action ( A 'action1' B 'action2' ) if [[ $var = $~pattern ]] eval -- $action The more patterns you have, the more pattern matchings must be performed. Even with ;; , patterns are matched in turn one after the other; the difference is that it stops after the first match, but for a given value of $var , you can end up doing as many matches as with ;;& / &| like when none matches or only the last on matches. If it's only about fixed strings, you can make it more efficient by doing hash table lookups. Taking your example, still in zsh: typeset -A actions IFS=, for values action ( 1 'action 1' 2 'action 2' 1,3 'action 3' 4 'action 4' 1,5 'action 5' 1,2,3,4,5 'action 6' ) for value ($=values) actions[$value]+=$action$'\n' # then it's just a matter of: for var ($lots_of_values) eval -- $actions[$var] Which for each $var , does one hash table lookup instead of 6 pattern matches. It's essentially constructing the same kind of case construct as in Ed's answer except it uses a more efficient hash lookup. Another (micro-)optimisation could be to avoid the evaluation of the actions during the for var loop by constructing functions for each value of that associative array whose code will be evaluated once ahead of time instead of at each iteration of the $lots_of_values : typeset -A actions IFS=, n=0 not_found() print -ru2 No action registered for $var for values action ( 1 'action 1' 2 'action 2' 1,3 'action 3' 4 'action 4' 1,5 'action 5' 1,2,3,4,5 'action 6' ) for value ($=values) functions[${actions[$value]=f$((++n))}]+=$'\n'$action for var ($lots_of_values) ${actions[$var]-not_found} "$@" Here using the special $functions special associative that maps function names to their body. We'll have two hash lookups per iteration, one for the lookup of the $actions which results in a function name ( f1 to f5 ) and then a lookup of the function based on that name which is an internal hash lookup by the shell, then the pre-compiled code of the action is run.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798863/can-i-execute-multiple-case-blocks-if-the-pattern-matches
+
+---
+
+#### 6025. Shell script with getopt for short and long options -handling option with and without argument
+
+**问题描述 / Problem Description**:
+Tags: bash, options | Score: 1 | Views: 674 | Answers: 1 | Created: 2025-08-02
+
+**解决方案 / Solution**:
+For a short option with optional arguments, you can't distinguish between it passed without argument and it being passed an empty argument. The user must append the value to option and when empty, that's -g , same as -g without argument. For long options, the user is able to specify the option without argument ( --gamma ) differently from the option being passed an empty argument ( --gamma= ), but in all those cases (short or long options) the getopt implementation that comes util-linux at least treat all those the same: in its output, the value comes as the next argument, and when not given any argument or when given an empty argument, that next argument is the empty string. You can see it in action with: $ getopt -o g:: -- -g -g '' -- $ getopt -o '' --long gamma:: -- --gamma= --gamma '' -- $ getopt -o '' --long gamma:: -- --gamma --gamma '' -- So, in your loop, you'd handle an option with optional argument the same was as one with required argument, and test for it not being given an argument by comparing $2 to the empty string (like with [ -z "$2" ] ; see also the var=${2:-default} which can come handy here), bearing in mind that it can't be distinguished from the option being passed an empty argument. #! /bin/sh - println() { [ "$#" -eq 0 ] || printf '%s\n' "$@" } die() { println>&2 "$@" exit 1 } options=$( getopt -o ag::b: --long alpha,gamma::,beta: --name "$0" -- "$@" ) || die "Error: Invalid options provided." println "user option: $options" eval "set -- $options" # Initialize variables ALPHA_FLAG=false unset -v BETA_VALUE GAMMA_VALUE while true; do println "arg info: $1" case "$1" in (-a | --alpha) ALPHA_FLAG=true shift ;; (-b | --beta) BETA_VALUE="$2" shift 2 ;; (-g | --gamma) GAMMA_VALUE="${2:-default_gamma}" shift 2 ;; (--) shift break ;; (*) die "Option not supported" ;; esac done IFS=' ' # for "$*" expansion println "Alpha flag: $ALPHA_FLAG" \ "Beta value: '${BETA_VALUE-<not specified>}'" \ "Gamma value: '${GAMMA_VALUE-<not specified>}'" \ "Remaining arguments: $*" zsh's zparseopts also doesn't let you distinguish between an optional option being not passed an argument and one not passed an argument. Its manual says as much: An optional argument is put into the same array element as the option name (note that this makes empty strings as arguments indistinguishable). My getopts_long (implemented as a POSIX shell function) does. Example: $ sh -c ' . ./getopts_long.sh OPTLIND= while getopts_long g:: opt gamma optional_argument "" "$@"; do printf "%s\n" "$opt: ${OPTLARG-no-arg}" done' sh -gyes -g --gamma=yes --gamma= --gamma g: yes g: no-arg gamma: yes gamma: gamma: no-arg Where: -g is interpreted as -g with no argument; it's not possible to pass an empty argument to it. --gamma= as --gamma with an empty argument --gramma as --gamma without argument. Or you could use ksh93 (the shell bash has been trying to emulate for decades) whose getopts builtin (with very terse documentation¹, though you'll find some introduction in Learning the Korn shell by Arnold Robbins, Bill Rosenblatt) supports long options and options with optional arguments where no-value vs empty-value can be distinguished (and much more): $ ksh -c 'getopts "[-][g:gamma]:?" opt --gamma=; echo "$opt: ${OPTARG-no-arg}"' g: $ ksh -c 'getopts "[-][g:gamma]:?" opt --gamma; echo "$opt: ${OPTARG-no-arg}"' g: no-arg $ ksh -c 'getopts "[-][g:gamma]:?" opt -g; echo "$opt: ${OPTARG-no-arg}"' g: no-arg The script could then look like: #! /bin/ksh93 - println() { [ "$#" -eq 0 ] || printf '%s\n' "$@" } die() { println>&2 "$@" exit 1 } # Initialize variables ALPHA_FLAG=false unset -v BETA_VALUE GAMMA_VALUE while getopts ' [-?myscript 1.0] [-author?Tim] [+NAME?myscript --- do something with alpha/beta/gamma values] [+DESCRIPTION?Example description] [a:alpha?Enable alpha (default disabled).] [b:beta?Specify the betaness.]:[beta-value] [g:gamma?Specify the gammaness.]:?[gamma-value] [ <extra-arg>... ]' opt; do case $opt in (a) ALPHA_FLAG=true;; (b) BETA_VALUE=$OPTARG;; (g) GAMMA_VALUE="${OPTARG-default_gamma}";; (*) die;; esac done shift "$(( OPTIND - 1 ))" IFS=' ' # for "$*" expansion println "Alpha flag: $ALPHA_FLAG" \ "Beta value: '${BETA_VALUE-<not specified>}'" \ "Gamma value: '${GAMMA_VALUE-<not specified>}'" \ "Remaining arguments: $*" And would also handle --help / --author / --man / --version ... ksh93 's getopts 's handling of short options with optional arguments differs from that of GNU getopt_long() (or util-linux getopt ), in that the option argument needs not be juxtaposed to the options as long as it doesn't start with - . For instance, with util-linux, -g foo would be interpreted as -g without argument, and foo as an extra non-option argument while with ksh93's getopts , foo would be interpreted as the argument to -g . That means it's possible to pass an empty gamma with both --gamma= and -g '' , but also means the script user needs to be aware that they need the -- in myscript -g -- extra-arg to use the default-gamma and the extra-arg not to be taken as the argument to -g . In any case a gamma value starting with - has to be passed -g-value- , not -g -value- . ¹ See output of getopts --man with ksh93.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798460/shell-script-with-getopt-for-short-and-long-options-handling-option-with-and-wi
+
+---
+
+#### 6026. try to split csv with multiple headers
+
+**问题描述 / Problem Description**:
+Tags: bash, csv | Score: 1 | Views: 189 | Answers: 4 | Created: 2025-07-22
+
+**解决方案 / Solution**:
+If you're happy to split the file into parts you could use csplit . The command line here splits the file data.csv into as many parts as possible, each part starting either with a line matching the RE ^#INV or the text preceding the first match. (See man csplit for more details.) csplit data.csv -ks '/^#INV/' '{*}' For your described data set you'll get three files: xx00 is the initial header xx01 contains the first set of readings xx02 contains the second set of readings You can skip the CSV subsection headers if you need to, by first piping the data through grep -v '^#Time' or some such similar tool before passing it to csplit
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798156/try-to-split-csv-with-multiple-headers
+
+---
+
+#### 6027. On my Ubuntu-based distro (Linux Lite), how to auto delete all network connections, disable Wi-Fi and networking as part of booting process?
+
+**问题描述 / Problem Description**:
+Tags: bash, cron, networkmanager, services, nmcli | Score: 1 | Views: 595 | Answers: 1 | Created: 2025-07-21
+
+**解决方案 / Solution**:
+The script in its content seems rather ill-conceived, as it deletes connections, which is not helpful. Its job is disabling something reliably, still it's exiting if any of the individual steps fail; that's not the behaviour you'd want. Installing a startup script using cron is another bad idea. So, all in all, a complete change of approach is necessary. (and reduce the usage ChatGPT, it's not helping you come up with good solutions as it seems, which definitely isn't your fault!) Instead, I'd start with this: NetworkManager doesn't bring up connections it is not allowed to bring up. Thus, just go to the setting of your wifi and/or ethernet connection and uncheck "automatically connect to this connection" (or however it's called in the graphical connection editor of Linux Lite, which I'm not familiar with). It might really just be all you need – you at the very least would need manually click on the wifi to connect. If you really want to require more manual interaction: simply don't safe the wifi password (and set it to something long and awkward to type). Again, I don't know Linux Lite and the desktop environment it uses and the network connection manager which that brings, so I can only advise on how to do that with nmcli , namely nmcli connection modify {name of connection} 802-11-wireless-security.psk-flags not-saved to disable saving of passwords for that connection. It's a one time thing, and from there on, the password will not be saved. (however, when you delete the connection, which your script does, that setting not to save the password, is lost. So, don't delete the connection.) Now, regarding making your life easier when controlling your screen time: Use "friendly" software like a pomodoro timer or similar tools, and try sticking to it. I used workrave in the past ( sudo apt install workrave-gnome , or workrave-cinnamon or -mate , or -xfce , depending on your desktop environment). You can, using iptables (and thus probably also using nftables ) implement a firewall rule that blocks only your user. You could simply add that firewall rule in a startup script for your user session! (if you're not logged in to your computer, you're not using it, so no need to disable internet access any earlier). How you do such a session startup task: depends on your desktop environment, which I don't know. Advantage is that you can still do updates (say, sudo apt update; sudo apt upgrade ) as root. sudo iptables -A OUTPUT -p all -m owner --uid-owner yourusernamehere -j DROP You can make sudo work here without the need to enter a password by adding the complete command line to your /etc/sudoers. Or, you configure this to be run as a systemd startup service, with a dependency that network.target needs to be finished before. (cron is bad to start things at startup, because it doesn't know what things need to be started in which order; also, super awkward to use.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798125/on-my-ubuntu-based-distro-linux-lite-how-to-auto-delete-all-network-connectio
 
 ---
