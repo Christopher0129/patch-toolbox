@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2095**
+**总计条目 / Total entries: 2103**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -33312,5 +33312,101 @@ Pablo Ruiz discovered that ldns did not properly validate DNS responses when use
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2489872
+
+---
+
+#### 2096. CVE-2026-12726 - awx: automation-controller: awx: GitHub webhook second-order SSRF via unvalidated…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] awx: automation-controller: awx: GitHub webhook second-order SSRF via unvalidated statuses_url exfiltrates PAT credential. Bugzilla: 2490796
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490796
+
+---
+
+#### 2097. CVE-2026-56208 - libaom: libaom: heap buffer overflow in AV1 encoder first-pass stats buffer via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libaom: libaom: heap buffer overflow in AV1 encoder first-pass stats buffer via LAP mode. Bugzilla: 2490799
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490799
+
+---
+
+#### 2098. CVE-2026-56209 - libaom: libaom: arbitrary address write via SVC layer context OOB and cyclic…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libaom: libaom: arbitrary address write via SVC layer context OOB and cyclic refresh map pointer hijack. Bugzilla: 2490800
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490800
+
+---
+
+#### 2099. CVE-2026-56210 - libaom: libaom: heap-buffer-overflow read via missing bounds check in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libaom: libaom: heap-buffer-overflow read via missing bounds check in ctrl_set_layer_id. Bugzilla: 2490801
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490801
+
+---
+
+#### 2100. CVE-2026-56211 - libaom: libaom: remote code execution via SVC layer context handling with…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libaom: libaom: remote code execution via SVC layer context handling with attacker-controlled frames. Bugzilla: 2490802
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490802
+
+---
+
+#### 2101. CVE-2026-45696 - OpenEXR: OpenEXR: Denial of Service and potential information disclosure via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenEXR: OpenEXR: Denial of Service and potential information disclosure via crafted EXR file. Bugzilla: 2490597
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490597
+
+---
+
+#### 2102. CVE-2026-44663 - OpenEXR: OpenEXR: Denial of Service via crafted HTJ2K-compressed EXR file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenEXR: OpenEXR: Denial of Service via crafted HTJ2K-compressed EXR file. Bugzilla: 2490585
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490585
+
+---
+
+#### 2103. CVE-2026-43915 - coturn: Coturn: Cross-Site Scripting (XSS) via crafted username in TURN allocation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] coturn: Coturn: Cross-Site Scripting (XSS) via crafted username in TURN allocation. Bugzilla: 2490558
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490558
 
 ---

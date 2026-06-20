@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6027**
+**总计条目 / Total entries: 6171**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -86193,5 +86193,1961 @@ The script in its content seems rather ill-conceived, as it deletes connections,
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/798125/on-my-ubuntu-based-distro-linux-lite-how-to-auto-delete-all-network-connectio
+
+---
+
+#### 6028. Running a 2002 lost media Chinese Red Flag Linux 3.0 distro on Apple TV 1st Gen. hardware
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub4mma/running_a_2002_lost_media_chinese_red_flag_linux/
+
+---
+
+#### 6029. Pulse, my very first C only project
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub6n3d/pulse_my_very_first_c_only_project/
+
+---
+
+#### 6030. exFAT File-System Enjoys Better Performance On Linux 7.2 With IOmap Conversion
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub8yb2/exfat_filesystem_enjoys_better_performance_on/
+
+---
+
+#### 6031. GIMP v0.54 From 1996 With Motif Toolkit Now Flatpak'ed For Modern Linux Desktops
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub8xae/gimp_v054_from_1996_with_motif_toolkit_now/
+
+---
+
+#### 6032. Linux Finally Eliminates The strncpy API After Six Years Of Work, 360+ Patches
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub8wkz/linux_finally_eliminates_the_strncpy_api_after/
+
+---
+
+#### 6033. [Release] Nuvio Desktop v1.1.1 - Experimental Linux Support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uakv7w/release_nuvio_desktop_v111_experimental_linux/
+
+---
+
+#### 6034. I made kitty config to replace tmux's tab functionality with kitty's native tabs with same keybindings as Firefox
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uasjzw/i_made_kitty_config_to_replace_tmuxs_tab/
+
+---
+
+#### 6035. NasberryPi — Simple NAS management for Raspberry Pi
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uafshc/nasberrypi_simple_nas_management_for_raspberry_pi/
+
+---
+
+#### 6036. Few of the notable Kernel improvements will be landing/visible in next release i.e., 7.2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uaqnu3/few_of_the_notable_kernel_improvements_will_be/
+
+---
+
+#### 6037. [V2EX] 介绍一下 flatpark
+
+**问题描述 / Problem Description**:
+最近 flathub 禁止提交软件时使用 ai 辅助, 我想上 ibkr 被 maintainer 喷了, 索性自己 vibe 了一个: https://flatpark.org/ 使用和 flathub 没啥区别, runtime 也是直接拿 flathub 的. 只是上架应用更简单, 更新 runtime 会更快. 欢迎大家来丰富资源/提想法.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221637#reply2
+
+---
+
+#### 6038. [V2EX] 中转站 LLM 模型质量检测工具，更新到 v0.8
+
+**问题描述 / Problem Description**:
+https://panshi.io/zh/relay-check/ 欢迎试用+提意见建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221691#reply0
+
+---
+
+#### 6039. [V2EX] codex 频繁写 ssd 对 ssd 寿命有影响
+
+**问题描述 / Problem Description**:
+issue https://github.com/openai/codex/issues/17320 https://github.com/openai/codex/issues/28224 临时方案 sqlite3 ~/.codex/logs_2.sqlite "CREATE TRIGGER IF NOT EXISTS block_log_inserts BEFORE INSERT ON logs BEGIN SELECT RAISE(IGNORE); END;"
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221675#reply4
+
+---
+
+#### 6040. [V2EX] 把 Rust 概念翻译成 JS 心智模型，做了个面向前端的交互式教程
+
+**问题描述 / Problem Description**:
+自己是写前端的，学 Rust 时被所有权/借用/生命周期反复劝退，就边学边做了个网站，把这些概念用 JS/TS 的对照来讲，难懂的部分（所有权、借用、迭代器）都配了交互动画，代码块还能直接在页面里改了跑（接的官方 Playground ）。 前几天发了一个类似的课程 <赶在被封前，用 Claude Fable 做了个免费的 AI 入门课程> 反响还不错 在 AI 时代，除了利用 AI Coding 之外，学习任何技能都是一件很方便的事，也非常期待之后会有更多类似可视化交互式的课程开源出来，毕竟一个人的能力有限，学海无涯... https://github.com/buynao/rust-for
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221672#reply9
+
+---
+
+#### 6041. [V2EX] 求助一下， claude 里的 claudevm 占用了那么大空间，如何挂载进去？
+
+**问题描述 / Problem Description**:
+出于好奇，为什么只有 claude 自己可以访问，而我不可以？ 有没有佬懂系统的，这个系统如何挂载，如何使用？ 这个什么系统，给咱拆解一下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221669#reply0
+
+---
+
+#### 6042. [V2EX] 针对同一问题， Claude 和 Gemini 的实践对比。
+
+**问题描述 / Problem Description**:
+模型： Claude Opus 4.6 （ Tinking ） Gemini 3.1 Pro （ High ） 工具： Google Antigravity 提的问题大概就是： 让他们给我查询 OpenJDK 在 alpine:3.24.0 debian:13.5.0 rocky:10.2.0 上的最新版本号。 Gemini 3.1 Pro 花了 6 分钟，还在抓耳挠腮，像极了考试中不会做题，疯狂打草稿的我。 Claude 花了 1 分钟，输出一个漂亮的表格。先别管对不对，总之就是快。 Claude 明白了！我现在严格按照您的要求：**从 Dockerfile 的 `FROM` 基础镜像出发，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221666#reply12
+
+---
+
+#### 6043. [V2EX] cc 比 codex 好用
+
+**问题描述 / Problem Description**:
+之前误封号赠送了一个首月优惠，但是只能银行卡和 pp 付款，不能用 play ，干脆就去开了 cc ，月费差不多，但是感觉 cc 更好用啊，不光是模型，还有工具本身，codex 远程时候真的很慢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221662#reply8
+
+---
+
+#### 6044. [V2EX] 分享一些在 AI 解析中常见的问题，以及工具区别
+
+**问题描述 / Problem Description**:
+上周我分享了一个自己做的小项目，已经在 Github 上拿下 1000star 了（到这周是 1500+了），后面有人问我，觉得我做的东西跟 MinerU 好像啊，是不是在重复造轮子？ https://www.v2ex.com/t/1219941?p=1#reply2 所以今天分享一下在 AI 时代做解析可能会遇到的一些问题，以及工具之间的区别。 首先叠个甲啊，MinerU 确实是一个很优秀的文档解析工具，它能把 PDF 里的文字、标题、表格、图片等内容提取出来，并转换成 Markdown 。 但问题在于：解析成 Markdown ，并不等于文档已经能被 Agent 理解。 你拿到一份 Mar
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221659#reply2
+
+---
+
+#### 6045. [V2EX] Vibe Coding 了两年，分享一下我对于 Vibe 的感想。
+
+**问题描述 / Problem Description**:
+以下为个人观点，基本上全是暴论，不喜勿喷，给孩子留点面子吧😭 我是从 2024 年读高二的时候了解到 Vibe Coding 的（当时大家还没有叫它 Vibe Coding ），当时 DeepSeek 刚出 R1 ，除了 OpenAI 的 GPT-o1 之外，大家还没来得及用上思维链，也没有那么强的性能，参数量最大的模型的话好像是 R1 的 671B 。 当时 Token 还没有现在那么便宜，而我又是穷鬼高中生，听说这玩意儿可以辅助编程，便心心念念日思夜想，看着 GPT-o1 馋到流口水，根本买不起订阅。 所幸，我一位玩得好的远房表哥在 AWS 悉尼工作，平时喜欢折腾新奇技术，跟他聊天的时候了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221657#reply36
+
+---
+
+#### 6046. [V2EX] 最近 gemini 网页版本老是断线
+
+**问题描述 / Problem Description**:
+最近 gemini 网页版本老是断线，之前没遇到过这类问题，现在使用着突然就断线了，需要刷新整个网页才可以继续正式使用，你们有遇到过这类问题嘛。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221654#reply2
+
+---
+
+#### 6047. [V2EX] 让 ChatGPT review Claude 写的代码，它挑了 35 条，没一条是错的
+
+**问题描述 / Problem Description**:
+当 AI 几乎挑不出错，真正的难题不再是找 bug ，而是知道什么时候该停 全文： https://dev.com.cn/posts/chatgpt-review-claude-35-mimr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221653#reply6
+
+---
+
+#### 6048. [V2EX] 我明明选的是 GLM-4.7，他告诉我他是 Claude。
+
+**问题描述 / Problem Description**:
+who are you. I am Claude, an AI assistant developed by Anthropic. I'm designed to be helpful, harmless, and honest. I can help you with a wide range of tasks, such as answering questions, writing, coding, and creative projects. 你是什么大模型？ 我是 Claude ，是由 Anthropic 开发的大型语言模型。 我已经分不清谁是谁了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221642#reply38
+
+---
+
+#### 6049. [V2EX] 作为程序员，大家每天使用 ai token 的数量大概是多少，是 token 使用越多，就越善于用 ai 工具吗
+
+**问题描述 / Problem Description**:
+统计了一下自己最近 7 天的，曾经用的很多 第一次觉得神奇，第二次觉得方便，第三次就开始犹豫，再往后基本又回去用 ai 聊天然后修改的方式了。 或者说除了在工作中用 ai 写代码，之后就提不起兴趣了；好像赚钱，又不知道做什么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221626#reply10
+
+---
+
+#### 6050. [V2EX] 把你的 ChatGPT 变成 Codex
+
+**问题描述 / Problem Description**:
+GitHub 仓库： https://github.com/xyTom/coding-tools-mcp 文档： https://coding-1afcb9be.mintlify.app/zh 通过在 https://chatgpt.com/ 添加 MCP 连接器（让 ChatGPT 连接外部工具）。 coding-tools-mcp 就是一个运行在你本地的 MCP 服务器，通过隧道接口给 http://chatgpt.com/ 。一旦连上，ChatGPT 网页端里的模型（比如 GPT-5.5 Pro / xHigh / High ）可以直接读取、运行你本地项目的代码 那么你的 ChatGPT
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221617#reply7
+
+---
+
+#### 6051. [V2EX] 每日一个小项目之步进电机 FOC
+
+**问题描述 / Problem Description**:
+昨晚突发奇想，想用 GLM-5.2 把手里积压已久、还能抢救一下的陈年老项目都往前推一推。结果翻到了这个 FOC 项目。 这个项目之前已经被我永久归档了，原因很简单：ESP32-C3 的外设能力实在太弱，根本撑不起我预设的指标。 我的目标是做 10kHz 电流环，也就是说每一轮控制计算必须在 100μs 内完成。但按照当时基于 ESP-IDF 标准 API 的实现，一次 SPI 编码器读取要 30μs ，一次相电流读取要 50μs （步进电机是两相，所以要读两次 ADC ），控制计算本身还要 80μs 。光这些加起来就已经远超预算，完全没法实现。于是这个项目就被我彻底搁置了。 这次我让 GLM
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221616#reply1
+
+---
+
+#### 6052. [V2EX] 问一个直击灵魂的问题，你用 AI 做了哪些有意义的工具？
+
+**问题描述 / Problem Description**:
+这是一个我问自己的问题，也是我逛帖子发现的一个问题。 大家都在用 AI 写代码，写公司的项目。 更多的人是用 AI 写重复的轮子，比如对话、画图、写作等。 所以这就产生一个核心的问题，个人到底能用 AI 做什么？如何开发有意义的产品，如何为少数人的需求开发产品？ 以前总是抱怨，一个人没有产品文档，没有 UI 设计，不会写后端代码，不会写前端代码，而现在 AI 可以帮我们做到了，我们又抱怨大家都可以做，技术平权了，我们能做的，大公司能做，你做的这些又有什么意义呢？ 所以，又陷入了悲观！同时也是磨灭了自己创造的动力～ 我的意思是陷入这种思维的原因有如下两点： 1 、缺少想法 2 、缺少行动 谁赞成
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221614#reply112
+
+---
+
+#### 6053. [V2EX] 一个全栈独立开发者的自白： FlyEnv 让我找回了对开发的热情
+
+**问题描述 / Problem Description**:
+作为独立开发者，最怕的不是写代码，而是配环境。接手一个 Laravel 旧项目要 PHP 7.4 ，新项目用 Node 20 ，Docker Desktop 一启动风扇狂转、内存飙到 4GB ，光等容器就够泡杯咖啡了。 直到遇见 FlyEnv ，它用原生二进制文件替代了臃肿的容器——同样跑 Nginx+MySQL+Redis ，内存仅需 200-400MB ，秒级启动，风扇都不带转的。最香的是项目级版本隔离：cd 进项目目录，PHP 和 Node 版本自动切换，彻底告别 nvm use 和 brew link 地狱。内置 DNS 和一键 SSL 更是让本地 HTTPS 有了生产级的踏实感。 当
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221602#reply4
+
+---
+
+#### 6054. [V2EX] 中转站相关问题
+
+**问题描述 / Problem Description**:
+各位佬友好，我给公司 coding 了一个生图的聚合站，接入的是 kie 中转站，主要用到 gpt 和香蕉模型和 genini3.5 模型。最近大批量使用后发现，kie 经常出图失败或出图很慢，一批 8 张可能得 5 到 10 分钟才出。 现在我想自建个中转站，接入几个不同的中转服务商，然后生图的时候智能判断走哪个供应商，目标就是 速度加快 全天可用 我该选择什么技术路线 开源方案里有没有现成的解决办法 有没有稳定快速的图片类中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221578#reply6
+
+---
+
+#### 6055. [V2EX] 前端界面比想象中复杂好多
+
+**问题描述 / Problem Description**:
+刚接触 Vibe Coding 时就感觉前端比后端复杂好多，后端只需要不停按照需求优化性能就好了，有客观的测试数据，如果优化效果不符合预期就检查架构是否有改进的空间。总而言之就是流程可控。 前端界面一开始完全不会，找类似软件学习，然后和 Codex 描述需求，各种细节瑕疵，花费很大精力改得差不多，身心俱疲，然后下一次改动又重复一遍这个流程。 痛定思痛，反思流程问题，于是整理出前端文档，找 ChatGPT 网页端生成组件和布局的示意图，包含各种状态。再让 Codex 根据示意图和文档绘制界面，再修改文档修复 bug ，改完以后找 ChatGPT 重新生成最新版本的示意图。 这个过程真的很漫长，因
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221555#reply25
+
+---
+
+#### 6056. [V2EX] codex 和 cc 那个更好用些？
+
+**问题描述 / Problem Description**:
+在 x 上刷到关于 codex 的使用姿势和讨论。 chatgpt 5.5 pro 的规划能力更强，用 5.5 pro 规划，之后 codex 实现？ codex + gpt5.5 更好用些？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221550#reply17
+
+---
+
+#### 6057. [V2EX] copilot pro 年付退订不会退款了吗
+
+**问题描述 / Problem Description**:
+才用了 3 月，还有 9 月。不应该退九个月吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221543#reply8
+
+---
+
+#### 6058. On Ubuntu 26.04 Desktop how to lock Firefox version?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, firefox, readonly | Score: 0 | Views: 97 | Answers: 1 | Created: 2026-05-01
+
+**解决方案 / Solution**:
+On Ubuntu 26.04, Firefox is typically installed via Snap rather than APT, so apt-mark hold firefox won’t reliably stop updates anymore. If you want to lock the version, the correct approach is to use Snap’s hold feature instead: sudo snap refresh --hold firefox That will prevent Firefox from updating until you explicitly unhold it ( sudo snap refresh --unhold firefox ). You can also hold for a specific time using something like --hold=30d .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805741/on-ubuntu-26-04-desktop-how-to-lock-firefox-version
+
+---
+
+#### 6059. Cleaning-up previous kernel RPMs after reboot
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, awk, rpm | Score: 0 | Views: 154 | Answers: 2 | Created: 2025-10-23
+
+**解决方案 / Solution**:
+Not 100% accurate but simple enough: rpm -qa | awk -F- -v r="$(uname -r)" '$1 == "kernel" && !index($0, r)'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800706/cleaning-up-previous-kernel-rpms-after-reboot
+
+---
+
+#### 6060. rsync with --include-from breaks hardlinks (evec with -H)
+
+**问题描述 / Problem Description**:
+Tags: linux, rsync, hard-link | Score: 0 | Views: 96 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+OK, the problem was simple. --includes-from= is waiting for regexp from files to import. My file didn't have regexp but file names, sometimes with spaces or other special character, making them ignored by --includes-from . The very simple solution is to use --files-from= and droping the others include and exlude .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800638/rsync-with-include-from-breaks-hardlinks-evec-with-h
+
+---
+
+#### 6061. Can I combine raid1 and dup BTRFS profiles?
+
+**问题描述 / Problem Description**:
+Tags: linux, btrfs, raid | Score: 0 | Views: 91 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+I am not aware of a way to do that directly (i.e. with btrfs means only) but you could use LVM to split the devices in two parts, 95:5. Then add all four devices to the filesystem, set data to RAID1 and metadata to RAID1C4 . Warning There seems not to be a way to prevent btrfs from putting data on the small devices. And if they are full then the filesystem is "full". So you would have to check regularly for this problem ( btrfs device usage ) and run btrfs balance if necessary. But even if you just write 3% of the capacity at once you may run into severe problems. An alternative might be to have the small devices offline most of the time; then is it obviously impossible to put data on them. From time to time (while no data is being written) add them to the filesystem and run btrfs balance to update the metadata on the small devices.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800550/can-i-combine-raid1-and-dup-btrfs-profiles
+
+---
+
+#### 6062. this monitor resolution not supported
+
+**问题描述 / Problem Description**:
+Tags: linux, monitors, resolution | Score: 0 | Views: 90 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+I assume this happens in all Linux's ? I mean, it's been two decades since I connected a screen via VGA (and 1920×1200 is definitely pretty much above what you want to transport in analog), but recognizing a new screen when told to detect it definitely worked relatively flawlessly back when VGA was still something I used with my Linux systems day-to-day and still works (I just tried with a USB VGA adapter that I use for other purposes, an 1280-wide old screen that still has a VGA input that I'm never using, and an old 1024-wide projector); I did have to xrandr --auto in between, because the electrical interface on VGA has no good provision to signal "you really need to ask the screen EEPROM for its data again". (I forget how the equivalent wlroots/wayland tool is called; it exists.) So, maybe you just need to run xrandr --auto or use your control center's screen dialogue to detect your new screen?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800491/this-monitor-resolution-not-supported
+
+---
+
+#### 6063. Trying to install blueman but asks to remove pipewire
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, pulseaudio, bluetooth, blueman | Score: 0 | Views: 202 | Answers: 1 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+If you tell apt to ignore recommended packages, it should stop trying to install pulseaudio-module-bluetooth and allow PipeWire to remain installed: sudo apt install --no-install-recommends blueman I don’t know whether that will fix your Bluetooth problems but it should allow blueman to be installed. In Ubuntu 24.04, blueman can work with PipeWire; install libspa-0.2-bluetooth for that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800273/trying-to-install-blueman-but-asks-to-remove-pipewire
+
+---
+
+#### 6064. How to trigger an action when a kernel driver produces an error
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd-journald, amdgpu | Score: 0 | Views: 131 | Answers: 2 | Created: 2025-10-04
+
+**解决方案 / Solution**:
+With rsyslogd you can match the error message and run a program. Create a file such as /etc/rsyslog.d/99-myamdgpu.conf with the contents: module(load="omprog") if $msg contains 'the error message' then action(type="omprog" binary="/bin/myprog") and restart rsyslogd . The executable program or script /bin/myprog will be run when there is a message match. It will be provided with matching messages on stdin. If the program exits, it will be restarted again the next time a message matches. To debug you can add a filename to collect output from the program whilst testing, for example action(type="omprog" binary="/bin/myprog" output="/tmp/mylog") See omprog .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800201/how-to-trigger-an-action-when-a-kernel-driver-produces-an-error
+
+---
+
+#### 6065. CONFIG_NAMESPACES, CONFIG_USER_NS, and user.max_*_namespaces
+
+**问题描述 / Problem Description**:
+Tags: linux, namespace | Score: 0 | Views: 193 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+If a kernel is built with CONFIG_NAMESPACES disabled, then no namespace support is available with that kernel, at all. That can’t then be changed at runtime. The same applies to CONFIG_USER_NS : if a kernel is built with that disabled, then no user namespace support is available with that kernel, and that can’t be changed at run time. A kernel with namespace support provides user.max_*_namespaces controls to limit namespace support at runtime. This doesn’t imply that namespaces are still usable if these controls are set to 0; if they are set to 0, then no one can create namespaces, which effectively means namespaces are not usable.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800126/config-namespaces-config-user-ns-and-user-max-namespaces
+
+---
+
+#### 6066. How to wrap source command in tcsh
+
+**问题描述 / Problem Description**:
+Tags: linux, alias, source, tcsh | Score: 0 | Views: 171 | Answers: 1 | Created: 2025-09-20
+
+**解决方案 / Solution**:
+% \source /dev/null source: Command not found. % "source" /dev/null source: Command not found. But: % source"" /dev/null % sourc\e /dev/null % Seem to be fine for some reason, so you can do: alias source 'echo Sourcing: \!* && sourc\e \!*' Beware of the limitations. First, that echo writes to stdout, so that output will end up in the middle of the output of the rest of the script. Ideally, you'd want to send that to stderr but (t)csh has no support for that. Also, tcsh's echo expands escape sequences. So here, you should probably do: alias source 'sh -c '\''"$0">&2 "%s\n" "Sourcing: $*"'\'' printf \!*; sourc\e \!*' Resorting to sh to be able to send to stderr and to printf to print the arguments verbatim. Then, that's an alias, just something replaced by something else before reinterpretation, not a function. (t)csh has no functions, so if you do something like: source file > output That becomes: echo Sourcing: file > output && sourc\e file > output Yes, > output , despite not being arguments to the command are included in the !* expansion which happens at lexical level. So here output is opened (and truncated) twice. That also explains why you must not put that !* inside double quotes. With: source file | cmd cmd | source file That becomes: echo Sourcing: file && sourc\e file | cmd cmd | echo Sourcing: file && sourc\e file In the second line, the output of cmd is fed to echo , not to source . In Bourne-like or rc-like shells, you could have used { ... } to group the two commands (or begin ... end in fish ), but there's no equivalent in (t)csh. (t)csh has some control statements such as foreach loops, but their parsing is very messy. For instance, you'd think you could do: foreach dummy (dummy) cmd1 cmd2 end To group 2 commands without starting a subshell, but that doesn't really work in practice. cmd1 || foreach dummy (dummy) cmd2 cmd3 end For instance would still run cmd2 and cmd3 if cmd1 succeeded, and would complain about the end because the foreach has been skipped earlier. Piping those statements also don't work. You'd also have a hard time making an alias for that, with things working in a version of tcsh but not another. As @cas says , there are many reasons why (t)csh should not be used especially for scripting, its ill-designed syntax and broken parser one of them. What about in Bourne-like shells Incidentally, wrapping . (the Bourne shell equivalent of csh 's source ; though some Bourne-like shells also support source as an alias or as a slightly different version of . ) is also tricky. First, not many shells support defining a function with . as its name. zsh , bash , mksh do, but generally others don't. POSIX-compliant shells don't allow redefining special builtins as functions, and . happens to be a POSIX special builtin. In the case of bash (the GNU implementation of sh ), it only allows you to redefine . if not in POSIX mode that is if it's not invoked as sh , without the -o posix option, without POSIXLY_CORRECT or SHELLOPTS=posix in the environment. Using a function wrapper also implies a separate variable scope and positional parameters, so even in zsh or bash not in POSIX mode (the only two that let you define a . function), if you do: # zsh . source() { print -ru2 Sourcing: ${(q+)@} builtin $0 "$@" } # bash trace() { local IFS=' ' printf>&2 'Sourcing: %s\n' "$*" } .() { trace "${@@Q}" builtin . "$@" } source() { trace "${@@Q}" builtin source "$@" } . ./file or: source ./file And the sourced file has: typeset -i n=3 That will make the i variable local to the . / source function, so no longer available after it returns. Same happens if the sourced file does set foo bar to modify the positional parameters. Another approach in Korn-like shells is to use the DEBUG trap which triggers before (after in ksh88) any command (pipeline in zsh; and not in subshells or functions in ksh93 or bash (unless extdebug is set)) and inside which in ksh93, bash or zsh, the about-to-be-executed command/pipeline is available in respectively ${.sh.command} , $BASH_COMMAND and $ZSH_DEBUG_CMD . Then in zsh, you could do: TRAPDEBUG() { local words=( "${(Q@)${(z)ZSH_DEBUG_CMD}}" ) if [[ $words[1] = (.|source) ]] print -ru2 Running: $ZSH_DEBUG_CMD } Which would trace all and-or lists (pipelines connected with || or && ) whose first word is source or . , even if quoted (the z flag above is to do zsh syntax tokenisation of the code in $ZSH_DEBUG_CMD , Q to do quote removal). As zsh moves redirections after commands in ZSH_DEBUG_CMD , that would also work in: $ </dev/null 'source' file | cat && echo OK Running: 'source' file < /dev/null | cat && echo OK If would not work for things like cmd | source file or cmd || source file (where the first word is cmd ) or $(echo source) file or ${var+source} file or var=value source file ... rc-like shells In rc or derivatives such as es or akanga , the command to source file is also . like in Bourne-like shells, and they let you redefine it as a function, so you can do: fn . {echo>[1=2] Sourcing: $*; builtin . $*} With the same caveat as in Bourne-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns. fish fish has both . and source and lets you redefine it as a function which can share the scope of its caller with -S / --no-scope-shadowing : function . --no-scope-shadowing echo>&2 Sourcing: $argv builtin . $argv end function source --no-scope-shadowing echo>&2 Sourcing: $argv builtin source $argv end With the same caveat as in Bourne-like or rc-like shells that if sourced files modify the positional parameters, those changes will be lost after the function returns.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799827/how-to-wrap-source-command-in-tcsh
+
+---
+
+#### 6067. Is there a list of every scancode that Linux uses?
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, unicode | Score: 0 | Views: 400 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+If you’re only looking for evdev codes, those are all defined in include/uapi/linux/input-event-codes.h in the kernel source code. If you have the appropriate packages installed, the codes known on your system are thus available in /usr/include/linux/input-event-codes.h : grep '#define KEY_' /usr/include/linux/input-event-codes.h
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799766/is-there-a-list-of-every-scancode-that-linux-uses
+
+---
+
+#### 6068. Union mount for Linux where lower directory's contents are protected
+
+**问题描述 / Problem Description**:
+Tags: linux, union-mount | Score: 0 | Views: 101 | Answers: 1 | Created: 2025-09-14
+
+**解决方案 / Solution**:
+macOS goes to considerable effort to merge system, shared, and personal Applications into one view. On Linux, it is possible to layer certain file systems, but there is no obvious mechanism to give the lower layer priority. overlayfs features in general assume the upper layer will be written, often the lower layer is not writable. Writing to the lower layer bypassing the overlay is not an option: "If the underlying filesystem is changed, the behavior of the overlay is undefined, though it will not result in a crash or deadlock." Linux has other similar layered file systems, always reinventing the wheel, but I will not take the time to cite them here. Regarding the use case of write-protected, even immutable software distros, review what Fedora Atomic Desktop is doing. System software is a full image, with a / without write permissions. Recent work makes the root with composefs where the kernel always denies writes. Also enabling strong integrity checks like fs-verity and Secure Boot. Additional personal software can be installed via Flatpak packages and containers. This is not the single merged directory you asked for, /var is where the writes really happen. Rather, software is accessed via desktop environment shortcuts or scripts to use containers. It has stronger protection than merely file system write permissions, with fs-verity on a read of a corrupted program will fail.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799697/union-mount-for-linux-where-lower-directorys-contents-are-protected
+
+---
+
+#### 6069. how to do ctags without binary files?
+
+**问题描述 / Problem Description**:
+Tags: linux, ctags | Score: 0 | Views: 135 | Answers: 1 | Created: 2025-09-09
+
+**解决方案 / Solution**:
+Produce a NUL-separated list of filenames: sudo find / -type f -print0 | \ Look at the first few bytes of each file, to see what "type" it is: xargs -0 -r sudo file | \ 3a. Eliminate "binary" files (adjust the regexp); grep -E -i -v ':.*\(binary|ELF\)' | \ OR 3b. Select the "source" files (adjust the regexp) grep -E -i ':.*\(source|C|include\)' | \ Separate the filenames (before the : ) from file 's description (after the : ): cut "-d:" -f1 | \ Feed the list of filenames to ctags : xargs -r ctags Code: sudo find / -type f -print0 | \ xargs -0 -r sudo file | \ grep -E -i ':.*\(source|C|include\)' | \ cut "-d:" -f1 | \ xargs -r ctags
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799579/how-to-do-ctags-without-binary-files
+
+---
+
+#### 6070. Linux: prevent filesystem remount
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, mount | Score: 0 | Views: 136 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+I am not aware of a general approach. And, of course, the question is: Whom are you defending against, a certain process or just anyone on a system even unconfined root? In the case of ro you can make the underlying block device read-only: blockdev --setro /dev/ram0 Of course, this just moves the question to: How do I prevent the block device from being set rw again...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799563/linux-prevent-filesystem-remount
+
+---
+
+#### 6071. Recommendations on configuring docker on Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker | Score: 0 | Views: 153 | Answers: 1 | Created: 2025-09-01
+
+**解决方案 / Solution**:
+The package documentation ( /usr/share/doc/docker.io/README.Debian on your system) explains how to proceed: As noted in the upstream documentation ( https://docs.docker.io ), Docker will allow non-root users in the "docker" group to access "docker.sock" and thus communicate with the daemon. To add yourself to the "docker" group, use something like: adduser YOURUSER docker As also noted in the upstream documentation, the "docker" group (and any other means of accessing the Docker API) is root-equivalent. If you don't trust a user with root on your box, you shouldn't trust them with Docker either.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799370/recommendations-on-configuring-docker-on-ubuntu-22-04
+
+---
+
+#### 6072. SSH connection over from LAN to WireGuard VPN Peer drops after ~1 minute despite keepalive settings
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, openssh, wireguard | Score: 0 | Views: 844 | Answers: 1 | Created: 2025-08-31
+
+**解决方案 / Solution**:
+After digging deeper into the issue, I realized the problem wasn’t with SSH itself or with WireGuard’s MTU/keepalive settings, but with how my network routing was set up. Setup Laptop (192.168.100.111) -> Gateway/Firewall (192.168.100.1) -> Server hosting WireGuard (192.168.100.115) -> WireGuard Peer (10.0.0.8) Root Cause The problem was caused by asymmetric routing . Packets went through the firewall initially, which created a state entry and sent back an ICMP redirect. Replies from the WireGuard peer bypassed the firewall, so the firewall never saw the full handshake. When its state expired, packets fell back through the firewall and were dropped. This caused the SSH session to disconnect. See explanation of asymmetric routing for more details. Solution Added a direct route from my Laptop to the WireGuard Hosting Server into so traffic always goes through the WireGuard server and not the firewall from the router: sudo ip route add 10.0.0.0/24 via 192.168.100.115
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799327/ssh-connection-over-from-lan-to-wireguard-vpn-peer-drops-after-1-minute-despite
+
+---
+
+#### 6073. Assign second IP to logical network interface with pattern matching
+
+**问题描述 / Problem Description**:
+Tags: linux, ip-address | Score: 0 | Views: 109 | Answers: 1 | Created: 2025-08-23
+
+**解决方案 / Solution**:
+This is described in the Debian wiki here: https://wiki.debian.org/NetworkConfiguration#Multiple_IP_addresses_on_one_Interface You can have multiple blocks starting: iface eth inet6 static This lets you add multiple IP addresses. Just add another block with the “second” IP address: iface eth inet6 static address 2001:db8::baba/128 gateway fe80::1 iface eth inet6 static address 3fff::c0c0/64
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799371/assign-second-ip-to-logical-network-interface-with-pattern-matching
+
+---
+
+#### 6074. iptables NAT rules not forwarding DPDK TAP traffic to external interface
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, vmware | Score: 0 | Views: 121 | Answers: 1 | Created: 2025-08-20
+
+**解决方案 / Solution**:
+Solved by my self. The linux kernel will check dest mac to see whether belongs to iteself and packet's check sum is incorret. Fix the two points it works as expect.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799026/iptables-nat-rules-not-forwarding-dpdk-tap-traffic-to-external-interface
+
+---
+
+#### 6075. Epsonscan 2 not working with a regular user (non-admin or not in the sudoers list) on Ubuntu 20.04LTS
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, scanner | Score: 0 | Views: 383 | Answers: 2 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798593/epsonscan-2-not-working-with-a-regular-user-non-admin-or-not-in-the-sudoers-lis
+
+---
+
+#### 6076. Cannot recreate an Ubuntu ISO that is bootable
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, grub, iso, bootable, mkisofs | Score: 0 | Views: 300 | Answers: 1 | Created: 2025-08-01
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798421/cannot-recreate-an-ubuntu-iso-that-is-bootable
+
+---
+
+#### 6077. While apt-get install package=version won't downgrade due to dependencies, would the install of lower version than the current candidate always work?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, software-installation | Score: 0 | Views: 164 | Answers: 1 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798412/while-apt-get-install-package-version-wont-downgrade-due-to-dependencies-would
+
+---
+
+#### 6078. How do I share an Ubuntu Ext4 partition in a VMWare VM, with another VM?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, solaris, nfs, vmware-workstation | Score: 0 | Views: 98 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798056/how-do-i-share-an-ubuntu-ext4-partition-in-a-vmware-vm-with-another-vm
+
+---
+
+#### 6079. proot + busybox / Ubuntu - can't chdir("/home/user/Downloads/Proot/./.") in the guest rootfs
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, chroot, busybox | Score: 0 | Views: 262 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798035/proot-busybox-ubuntu-cant-chdir-home-user-downloads-proot-in-the
+
+---
+
+#### 6080. Wait for file to be able to be opened with systemd
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, modem-manager | Score: 0 | Views: 204 | Answers: 2 | Created: 2025-06-23
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797333/wait-for-file-to-be-able-to-be-opened-with-systemd
+
+---
+
+#### 6081. SSH X11 Forwarding - GUI Crashes with X Error of failed request: BadIDChoice
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, x11, aws, putty | Score: 0 | Views: 246 | Answers: 1 | Created: 2025-06-13
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797004/ssh-x11-forwarding-gui-crashes-with-x-error-of-failed-request-badidchoice
+
+---
+
+#### 6082. Gnome Software is not opening anymore and Icons are not Loading after trying to install Cisco Packet Tracer on Ubuntu 20.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gnome | Score: 0 | Views: 179 | Answers: 1 | Created: 2025-06-11
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796945/gnome-software-is-not-opening-anymore-and-icons-are-not-loading-after-trying-to
+
+---
+
+#### 6083. Rename any number of archives within a directory under a condition
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line, rename | Score: 0 | Views: 67 | Answers: 1 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796556/rename-any-number-of-archives-within-a-directory-under-a-condition
+
+---
+
+#### 6084. Best practice on choosing Linux Distro for small Docker setup that might scale
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, ubuntu, docker, distribution-choice | Score: 0 | Views: 5591 | Answers: 3 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+3 Answers
+3
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796442/best-practice-on-choosing-linux-distro-for-small-docker-setup-that-might-scale
+
+---
+
+#### 6085. How to connect to primary process of a running docker container
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker, container, images | Score: 0 | Views: 148 | Answers: 1 | Created: 2025-05-29
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796409/how-to-connect-to-primary-process-of-a-running-docker-container
+
+---
+
+#### 6086. Automating the Pause and Resume of a program at regular intervals
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, scripting | Score: 0 | Views: 141 | Answers: 1 | Created: 2025-05-20
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795083/automating-the-pause-and-resume-of-a-program-at-regular-intervals
+
+---
+
+#### 6087. Why does do-release-upgrade complain about /boot/efi?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot, grub, luks, initramfs | Score: 0 | Views: 606 | Answers: 1 | Created: 2025-05-17
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795006/why-does-do-release-upgrade-complain-about-boot-efi
+
+---
+
+#### 6088. Encrypt two drives with one password
+
+**问题描述 / Problem Description**:
+Tags: linux, lvm, encryption, luks | Score: -1 | Views: 109 | Answers: 1 | Created: 2026-01-01
+
+**解决方案 / Solution**:
+For every encrypted block device for which you do not want to enter a passphrase you have to add a key (exclusively or in addition to a passphrase): man cryptsetup-luksAddKey You put the key files on a filesystem on the encrypted block device for which you enter the password. For the other ones you create entries in /etc/crypttab ( man 5 crypttab ). For "equal" encrypted block devices I suggest to use the same LUKS header (but change the UUID): man cryptsetup-luksHeaderBackup , man cryptsetup-luksHeaderRestore , man cryptsetup-luksUUID . That could come in handy if the LUKS header is damaged on one of the block devices (of course, you should have a backup outside the system anyway).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803429/encrypt-two-drives-with-one-password
+
+---
+
+#### 6089. Is RAM + SWAP > 4GB possible on arm32?
+
+**问题描述 / Problem Description**:
+Tags: linux, swap, arm, virtual-memory | Score: -1 | Views: 104 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+Yes, it is possible — the address space limitation applies to the kernel and to individual processes, but each process has its own address space. It is therefore possible to swap out more than the address space. Here’s the output from free on a stressed-out armhf system I have handy: total used free shared buff/cache available Mem: 2058368 2000020 42836 32 15512 22396 Swap: 3905532 2486720 1418812 The total used memory and swap is greater than 4GiB, out of 6GiB approximately. See How does the kernel address swapped memory pages on swap partition or swap file? for details on how the kernel tracks swapped-out memory.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801453/is-ram-swap-4gb-possible-on-arm32
+
+---
+
+#### 6090. PostgreSQL: When would be mandatory use the "manually configure the Apt repository" approach?
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, postgresql | Score: -1 | Views: 168 | Answers: 1 | Created: 2025-10-08
+
+**解决方案 / Solution**:
+Both those scripts install the same apt repo for apt.postgresql.org provided by PGDG. Subtle differences exist. Do it yourself downloads the signing key from postgresql.org, while apt.postgresql.org.sh embeds it in Debian packages. In the unlikely event postgresql.org were compromised with a malicious key and packages signed with it, that would not be on the Debian mirrors, and apt would correctly complain. apt.postgresql.org.sh has more robust detection and validation of major versions. apt.postgresql.org.sh can purge the Debian packages and install PGDG ones. You may prefer not to do this, and maintain a complete package list somewhere else in your documentation and automation. Given the robustness and reproducibility of using the actual script, my preference would be to always use apt.postgresql.org.sh
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800325/postgresql-when-would-be-mandatory-use-the-manually-configure-the-apt-reposito
+
+---
+
+#### 6091. Insert a character after every 2 character but discard first 2 characters
+
+**问题描述 / Problem Description**:
+Tags: linux, awk, sed | Score: -1 | Views: 862 | Answers: 7 | Created: 2025-08-28
+
+**解决方案 / Solution**:
+This might be what you're trying to do but without showing us the expected output it's just a guess: $ echo 0x100070b7e4323096 | sed 's/..//; s/../&:/g' 10:00:70:b7:e4:32:30:96: or maybe: $ echo 0x100070b7e4323096 | sed 's/../:&/g; s/....//' 10:00:70:b7:e4:32:30:96 You can use a very similar syntax in awk, e.g.: $ echo 0x100070b7e4323096 | awk '{sub(/../,""); gsub(/../,"&:")} 1' 10:00:70:b7:e4:32:30:96: or: $ echo 0x100070b7e4323096 | awk '{gsub(/../,":&"); sub(/..../,"")} 1' 10:00:70:b7:e4:32:30:96 The 1 is a true condition which causes awk to execute its default action of printing the current record. You could always replace 1 with {print} if you prefer.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799255/insert-a-character-after-every-2-character-but-discard-first-2-characters
+
+---
+
+#### 6092. Troj/PHPShel-CE and PHP/Agent-BJNA trojan
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apache-httpd, php, thread, wordpress | Score: -1 | Views: 164 | Answers: 2 | Created: 2025-06-01
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796504/troj-phpshel-ce-and-php-agent-bjna-trojan
+
+---
+
+#### 6093. Ubuntu 25.10 - access denied to /tmp even in 777 mode without protected mode
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, java | Score: -2 | Views: 90 | Answers: 1 | Created: 2026-03-28
+
+**解决方案 / Solution**:
+The error: Exception in thread "main" java.nio.file.AccessDeniedException: /tmp/tmppqkak67g/connection12539062633467823222.info Doesn't tell us much but suggests an action related to the /tmp/tmppqkak67g/connection12539062633467823222.info file was denied because of access restrictions. "Access denied" usually refers to the EACCES error code returned by a great number of system calls. The java documentation doesn't give any specific. To see what system call may return that error code and under what condition, in the zsh shell, you can run something like: { for f (/usr/share/man/man2/*) m=$(man -l $f) && [[ $m = *('char *path'|'int fd')* ]] && <<<$m pcre2grep --label=$f:r:r:t -HM '^\h*EACCES.*\n(.*\S.*\n)*' } | pager Which gives something like: access: EACCES The requested access would be denied to the file, or search per‐ mission is denied for one of the directories in the path prefix of path. (See also path_resolution(7).) bpf: EACCES For BPF_PROG_LOAD, even though all program instructions are valid, the program has been rejected because it was deemed un‐ safe. This may be because it may have accessed a disallowed mem‐ ory region or an uninitialized stack/register or because the function constraints don't match the actual types or because there was a misaligned memory access. In this case, it is recom‐ mended to call bpf() again with log_level = 1 and examine log_buf for the specific reason provided by the verifier. chdir: EACCES Search permission is denied for one of the components of path. (See also path_resolution(7).) chdir: EACCES Search permission was denied on the directory open on fd. chmod: EACCES Search permission is denied on a component of the path prefix. [...] open: EACCES The requested access to the file is not allowed, or search per‐ mission is denied for one of the directories in the path prefix of path, or the file did not exist yet and write access to the parent directory is not allowed. (See also path_resolution(7).) open: EACCES Where O_CREAT is specified, the protected_fifos or protected_reg‐ ular sysctl is enabled, the file already exists and is a FIFO or regular file, the owner of the file is neither the current user nor the owner of the containing directory, and the containing di‐ rectory is both world- or group-writable and sticky. For de‐ tails, see the descriptions of /proc/sys/fs/protected_fifos and /proc/sys/fs/protected_regular in proc_sys_fs(5). [...] unlink: EACCES Write access to the directory containing path is not allowed for the process's effective UID, or one of the directories in path did not allow search permission. (See also path_resolution(7).) [...] For most of those system calls that operate on a file path, you can get a EACCES error at least when you don't have the required permissions on the components of that path. For your /tmp/tmppqkak67g/connection12539062633467823222.info file for instance, that path has 4 components identifying 4 files, some of which could be symlinks whose look-up would involve resolving more files. But in the simplest case, those 4 files to which you need to have the correct permissions are: / : the directory file at the root of the root file system. /tmp : a directory which in your case is the root directory of a separate FS or subset thereof. /tmp/tmppqkak67g : presumably another directory /tmp/tmppqkak67g/connection12539062633467823222.info a file of unknown type about which the error is about. If the failing system call is unlink() for instance, you'll get a file permission-related EACCES if you don't have search access ( x in ls -l output) to 1, 2, or 3, or don't have write ( w ) access to 3 or the t bit is set on 3 and you own neither 3 nor 4. Searching for repo:apache/spark /connection.*\.info/ at github leads to this code which is about creating a unique temporary file in the $_PYSPARK_DRIVER_CONN_INFO_PATH directory. Typically, if that's a regular file, that's done with the open() or openat() (or creat() which is just open() with some default O_CREAT|O_WRONLY|O_TRUNC flags). Unique would suggest the file doesn't exist beforehand. The file is not created in /tmp but in some subdirectory of /tmp . So to get EACCES that would mean you don't have search access to / or /tmp which obviously can't be the case, or don't have search access or write access to /tmp/tmppqkak67g which is the most likely here. The fs.regular_protected sysctl would only be relevant if /tmp/tmppqkak67g had 1777-type permissions like /tmp does and /tmp/tmppqkak67g/connection12539062633467823222.info existed already which is very unlikely to be the case here. If /tmp/tmppqkak67g was created by you, the only way for that file creation to fail, would be if you had deliberately removed yourself search or write access to that directory like with chmod u-w /tmp/tmppqkak67g . That could also happen if the directory was created in an environment with a bogus umask that includes bits 0100 (remove search/execute permission to the user) or 0200 (remove write permission to the user). For instance with mktemp -d : $ (umask 300; d=$(mktemp -d); :>$d/file; ls -ld -- "$d") zsh: permission denied: /tmp/tmp.gROBXWk9CN/file dr-------- 2 chazelas chazelas 40 Mar 29 12:55 /tmp/tmp.gROBXWk9CN/ More likely here, the /tmp/tmppqkak67g was created using different credentials from the ones of the process that's running into that error. And in any case, the permissions of /tmp itself have little relevance, the only permission needed on /tmp to be able to create a file inside /tmp/tmppqkak67g is search permission, so bit 0001 ( x to others ; o=x in chmod parlance) of that 1777 permission /tmp should have.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805192/ubuntu-25-10-access-denied-to-tmp-even-in-777-mode-without-protected-mode
+
+---
+
+#### 6094. Understanding File Permission Differences in UNIX/Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, chmod | Score: -4 | Views: 89 | Answers: 1 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+The second last digit specifies the permissions granted to processes which have the file's group id as their primary group id, or in their supplementary groups ( credentials(7) ). 5 = r-x 7 = rwx More details in File Attributes .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801582/understanding-file-permission-differences-in-unix-linux
+
+---
+
+#### 6095. Why is arch linux bash better than Ubuntu bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu, arch-linux, autocomplete | Score: -4 | Views: 329 | Answers: 2 | Created: 2025-08-02
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798462/why-is-arch-linux-bash-better-than-ubuntu-bash
+
+---
+
+#### 6096. Why does cd '' succeed in bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, cd-command | Score: 14 | Views: 2796 | Answers: 1 | Created: 2025-04-24
+
+**解决方案 / Solution**:
+The most recent POSIX specification for the cd utility (Issue 8, from 2024) has this in the OPERANDS section: [...] If directory is an empty string, cd shall write a diagnostic message to standard error and exit with non-zero status. [...] However, at the time of writing (2025), this is a fairly recent addition, and the previous issue of the standard said that it was "unspecified" what an empty operand would cause the utility to do, leaving it up to the implementors of the standard to provide a useful consistent behaviour. All shells I use daily ( bash , zsh , OpenBSD ksh , ash ) treat cd '' as cd . (or the first reachable directory in $CDPATH if set), while the (very much non-POSIX) rc (and derivatives) and fish shell generate an error for cd '' . The cd of csh and tcsh reports an error unless $cdpath in set in which case like on those shells mentioned above for $CDPATH , it chdir() s to the first reachable directory in that array. If these shells aspire to be POSIX compliant (some do, others don't, but tend to align the general behaviour of built-in standard utilities to the common standard), I'm sure they will be updated over time to conform to the new specification. In fact, the most recent development version of bash does this: bash-5.3$ mydir= bash-5.3$ cd "$mydir" bash: cd: null directory bash-5.3$ echo "$?" 1 bash-5.3$ echo "$BASH_VERSION" 5.3.0(1)-rc1 In the meantime, if this is important to your own script, you should test the value of the shell variable used as the operand to cd . A minimal thing to do could be to use something like cd "${mydir:?Empty or unset variable}" in your script: $ mydir= $ cd "${mydir:?Empty or unset variable}" bash: mydir: Empty or unset variable $ echo "$?" 1 ... or do a separate sanity check on the variable before its use.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794116/why-does-cd-succeed-in-bash
+
+---
+
+#### 6097. bash: echo "hello" | > file.txt results in an empty file
+
+**问题描述 / Problem Description**:
+Tags: bash, pipe, io-redirection | Score: 10 | Views: 2316 | Answers: 3 | Created: 2025-05-14
+
+**解决方案 / Solution**:
+Redirection does not require a command. You can just do this: > hello.txt This creates an empty file (in this case; as Kusalananda pointed out in the comment in the general case it is possible that a non-empty file with the same name already exists; that file's content would be deleted, the file size truncated to 0; in bash this can be prevented with set -C / set -o noclobber ) and no error. In your case the intended file content is piped but on the other side there is no command reading from the pipe (just like echo hello | ls ). So effectively the left part of the pipeline is ignored (as it does nothing beyond writing to the pipeline).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794885/bash-echo-hello-file-txt-results-in-an-empty-file
+
+---
+
+#### 6098. Elegant File String Search in Bash
+
+**问题描述 / Problem Description**:
+Tags: bash, search | Score: 8 | Views: 2141 | Answers: 4 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+It depends on what output you want. If you don't need the exact output you're printing above (i.e. filename on one line, followed by each match in that file), you can just use grep 's -H option (assuming GNU grep or compatible). For example: find "$search_dir" -type f -exec grep -H -n -- "$search_str" {} + This will print lines like the following, one for each match in each file: filename:line-number:matching line If you need the exact output, you can exec a shell to run your script. For example: export search_str find "$search_dir" -type f -exec sh -c ' for file do matches=$(grep -n -- "$search_str" "$file" | sed "s/:/: /1") if [ -n "$matches" ]; then printf "%s\n" "$file" "$matches" "" fi done' sh {} + Note that that sed processing assumes file paths don't contain colon or newline characters. If this is something you need to do a lot or use as a generic tool, then you might find it convenient to save the shell script to a file in your $PATH (e.g. make ~/bin/ and add it to $PATH for your personal scripts) and make it executable with chmod +x . Then you can simplify the find command to something like: find "$search_dir" -type f -exec myscript.sh "$search_string" {} + with myscript.sh looking something like: #!/bin/sh search_str="$1" ; shift for file do matches=$(grep -n -- "$search_str" "$file" | sed 's/:/: /1') if [ -n "$matches" ]; then printf '%s\n' "$file" "$matches" '' fi done Personally, I'd just use grep -H -n . The output is easy to understand and, more importantly, easy to post-process with other tools ( sed , awk , perl , etc) as long as file paths are guaranteed not to contain colons or newlines.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796817/elegant-file-string-search-in-bash
+
+---
+
+#### 6099. How to properly protect .bash_history against truncation?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-history | Score: 8 | Views: 1389 | Answers: 3 | Created: 2025-03-14
+
+**解决方案 / Solution**:
+If you’re using a file system that supports the “append-only” attribute, you can set that: sudo chattr +a .bash_history (This is a privileged operation.) Then enable histappend — that causes the shell to update .bash_history only by appending to it, and this includes opening the file in append-only mode: shopt -s histappend Any shell that doesn’t have this option set will not be able to update the history file.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792448/how-to-properly-protect-bash-history-against-truncation
+
+---
+
+#### 6100. Text processing - "merging" partial duplicates with count
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, text-processing, awk | Score: 7 | Views: 426 | Answers: 6 | Created: 2026-05-06
+
+**解决方案 / Solution**:
+Using only POSIX AWK: #!/usr/bin/awk -f { if (!count[$2]++) { names[++j] = $2 ids[$2] = $1 } else { ids[$2] = ids[$2] " " $1 } } END { for (i = 1; i <= j; i++) { k = names[i] if (count[k] > 1) { printf "%s%s %d %s", s, k, count[k], ids[k] s = " " } } if (s == " ") print "" } This processes each line, checking whether it’s seen the name before and adding it to an array of names otherwise; count is used to count the occurrences of a name, and ids stores the corresponding identifiers, separated by space. Once the input has been processed, it loops over the names, and for any name seen more than once, outputs the name, the number of occurrences, and the collected identifiers. If the output order doesn’t matter, the names array can be dropped — the final loop would then iterate over count ’s keys. If you really need a null-terminated string, replace if (s == " ") print "" with printf "\0" (removing the if ensures that the output is always null-terminated, even if there is none).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805830/text-processing-merging-partial-duplicates-with-count
+
+---
+
+#### 6101. Array Indirection Confusion - ("${!'"$1"'[@]}")
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 7 | Views: 896 | Answers: 3 | Created: 2025-05-28
+
+**解决方案 / Solution**:
+Bash doesn't have general recursive expansion of parameters, so while ${!foo} does something, ${!$bar} is just an error. So ${!$1...} wouldn't work either. In this case, what's happening a two-step process: Note the use of single '...' and double "..." quotes. This is actually three strings concatenated together: xkeys=("${! in single quotes (no expansion taking place), followed by $1 in double quotes (in which $1 will be expanded), then [@]}") again in single quotes (no expansion taking place). If $1 is say, "foo", the final string becomes xkeys=("${!foo[@]}") . Then, this string is passed as an argument to local . And local , like declare and other similar builtins, additionally does expansion on the values in an array assignment. So "${!foo[@]}" gets expanded here, and the resulting items are added as array entries in xkeys .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796355/array-indirection-confusion-1
+
+---
+
+#### 6102. Is it possible to define a bash heredoc with a multi-word delimiter that expands variables?
+
+**问题描述 / Problem Description**:
+Tags: bash, here-document | Score: 7 | Views: 977 | Answers: 2 | Created: 2025-04-02
+
+**解决方案 / Solution**:
+When the delimiter or any part of it is quoted (by any quoting operator including '...' , "..." , \ , $'...' , $"..." ), then no expansion is done in the here document. The delimiter is a single token in the syntax of the shell, so any character such as space, tab (and other single-byte characters classified as blank in the locale), ; , < , | can only be used in delimiters if quoted as they otherwise delimit tokens in the syntax of the language, which means there will be no expansion in the here document, or as part of a shell "token" that includes spaces such as $(foo bar) , $[foo bar] , $(( foo bar )) , ${--foo bar} , etc. Or you could use other multibyte blank characters, such as UTF-8 encoded U+00A0 NO-BREAK SPACE or U+2003 EM SPACE bash-5.2$ cat << $(foo bar) > $(( 1 + 1 )) > $(foo bar) 2 Interestingly, the space seems not to be considered as quoted in: bash-5.2$ cat << $(' ') > $(( 1 + 1 )) > $( ) 2 Using a multi-byte blank: bash-5.2$ cat << FOO BAR > $(uname) > FOO BAR Linux The in between FOO and BAR above is a U+2003 character, not U+0020 ASCII space, encoded in UTF-8 as bytes 0xe2 0x80 0x83. Beware that if that script is run in a locale where any of those three bytes is the encoding of a character that is classified as blank , that will fail as then bash will treat it as a separator like space or tab (one of the reasons why it's often recommended to quote non-ASCII characters in bash). In practice though, the only non-ASCII character that I know some systems (like some BSDs) to consider as blank and that has a single-byte encoding is U+00A0, and I could only find the NeXT character set where that character is encoded as 0x80 (at least according to the GNU libc ), but I've never come across a locale using that charmap. (you might also argue that using non-ASCII whitespace in a script is a sure way to confuse readers and maintainers of the script)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793230/is-it-possible-to-define-a-bash-heredoc-with-a-multi-word-delimiter-that-expands
+
+---
+
+#### 6103. bash & zsh friendly process substitution
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, zsh | Score: 6 | Views: 352 | Answers: 1 | Created: 2025-06-19
+
+**解决方案 / Solution**:
+It hangs in zsh, only in interactive invocations, and only if you have an application such as fzf that interacts with the tty inside the process substitution. zsh like bash runs process substitutions in background but for some reason, in the case of bash, apparently not when the target of a redirection (I don't know if it's bug or feature). Compare: bash-5.1$ cat <(ps -o pid,pgid,tpgid,state,args --forest) PID PGID TPGID S COMMAND 60274 60274 60480 S /bin/zsh 60476 60476 60480 S \_ bash --norc 60479 60476 60480 S \_ bash --norc 60481 60476 60480 R | \_ ps -o pid,pgid,tpgid,state,args --forest 60480 60480 60480 S \_ cat /dev/fd/63 bash-5.1$ cat < <(ps -o pid,pgid,tpgid,state,args --forest) PID PGID TPGID S COMMAND 60274 60274 60559 S /bin/zsh 60476 60476 60559 S \_ bash --norc 60559 60559 60559 S \_ cat 60560 60559 60559 S \_ bash --norc 60561 60559 60559 R \_ ps -o pid,pgid,tpgid,state,args --forest Which explains why fzf doesn't get suspended in bash when it tries to read from the terminal device or change its settings. You'll find that: cat <(seq 10 | fzf) Hangs in both bash and zsh (and in ksh, where process substitution comes from, fzf returns an error that it can't read /dev/tty), while: cat < <(seq 10 | fzf) Only hangs in zsh. In zsh, you could work around it by disabling job control in the function you run that code in like with: set -o localoptions +o monitor In zsh, your code would like better be written: commits=( ${${(0)"( git log --color=always --pretty=oneline --abbrev-commit --reverse | fzf --tac +s -m -e --ansi --reverse --exit-0 --print0 )"}%% *} ) Avoiding process substitution altogether. Or as that's commit ids we're dealing with anyway here: commits=( $( git log --color=always --pretty=oneline --abbrev-commit --reverse | fzf --tac +s -m -e --ansi --reverse --exit-0 | cut -d ' ' -f1 ) ) Which would work in any POSIX-like shell with zsh-style array assignment syntax support (zsh, ksh93, bash, mksh, yash...) assuming an unmodified IFS. BTW, -d $'\0' is misleading in bash as bash doesn't support passing NULs inside command arguments. In effect, it's the same as -d '' and bash's read understands it as reading until a NUL (more or less as an accident of implementation), zsh also supports that and read -d '' is now specified by POSIX 2024 to read until a NUL, so read -d '' should work in all POSIX 2024 compliant shells. To be able to read arbitrary records, in bash (and POSIX if not guaranteed to be in a locale with a self-synchronising character encoding) you need IFS= LC_ALL=C read -rd '' record though.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797196/bash-zsh-friendly-process-substitution
+
+---
+
+#### 6104. Using curly braces to process colon-separated variables
+
+**问题描述 / Problem Description**:
+Tags: bash, variable-substitution | Score: 6 | Views: 1167 | Answers: 4 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+The ksh-style (and now specified by POSIX for sh) ${var#pattern} and ${var%pattern} (and greedy variants with ## and %% ) only remove text from the beginning and end respectively of the contents of the variable. To get 200 out of 100:200:300:400 with those operators, you'd need to apply both ${VAR#*:} to remove 100: from the beginning and then ${VAR%%:*} to remove :300:400 from the end. That would be with ${${VAR#*:}%%:*} , but while that would work in zsh, that doesn't work in bash or ksh which don't allow chaining parameter expansion operators. In zsh , you'd rather use $VAR[(ws[:])2] to get the 2 nd : s eparated w ord of $var ¹, or use ${${(s[:])VAR}[2]} to first split the variable into an array and then get the second element. In ksh93, you can do ${VAR/*:@(*):*:*/\1} , but while bash (like zsh²) has copied ksh93's ${param/pattern/replacement} operator, it hasn't copied the capture and reference part. In bash (which is still widely used despite all its limitations as it's the GNU shell so pre-installed on virtually all GNU/Linux systems as well as a few non-GNU systems), you can do it in two steps: tmp=${VAR#*:}; printf '%s\n' "${tmp%%:*}" bash's only builtin splitting operator (unless you want to consider bash 4.4+'s readarray -d which is more for reading records from some input stream into an array; and the kind of splitting it does by separating out arguments in its syntax) which is the Bourne-style (extended by Korn) IFS-splitting which is performed upon unquoted expansions (you used it by mistake in echo ${VAR%%:*} where you forgot the quotes), and by read . read works on one line, so can only be used for variable that don't contain newline characters. Using split+glob (glob being the other side effect of leaving an expansion unquoted) is cumbersome as we need to disable the glob part, and change a global $IFS parameter. In bash 4.4+, you can do it like: nth() { local - # local - is to make the changes to option settings local to # the function like in the Almquist shell. The idea is that it # makes the $- special parameter local to the function. That's # equivalent to the set -o localoptions of zsh. In bash, that # only works for the set of option managed by set, not the ones # managed by shopt. local string="$1" n="$2" IFS="${3- }" set -o noglob # disable the glob part set -- $string'' # apply split+glob with glob disabled printf '%s\n' "${!n}" # dereference the parameter whose name is stored in $n } nth "$VAR" 2 : Without the '' , 100::300: would be split into "100", "", "300" only, so for instance $# would expand to 3 even though the variable has 4 : -separated field. Beware though that it means an empty variable is split into 1 empty element instead of none. For read (or readarray ), a similar work around would be to add an extra delimiter at the end of the input. Since bash variables (contrary to zsh's) can't contain NUL characters anyway, with read and arbitrary variable values, you could do: words=() IFS=: LC_ALL=C read -rd '' -a words < <(printf '%s:\0' "$VAR") && printf '%s\n' "${word[2 - 1]}" ( - 1 because read starts filling up the array at index 0, not 1; LC_ALL=C works around some bugs for text not encoded in the user's encoding in bash versions 5.0 to 5.2) With readarray (bash 4.4): records=() readarray -O1 -td : records < <(printf %s: "$VAR") && printf '%s\n' "${records[2]}" Again, : added at the end to prevent a trailing empty element being discarded (but again meaning an empty input results in one empty element). ¹ Though note that it splits ::a:b::c::: into a , b and c only like IFS-splitting did in the Bourne shell (but not in modern Bourne-like shells except when space, tab or newline are used as separators). ² zsh supports it but with a different syntax and that needs the extendedglob option to be enabled: ${VAR/(#b)*:(*):*:*/$match[1]}
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794192/using-curly-braces-to-process-colon-separated-variables
+
+---
+
+#### 6105. What does VAR=() mean in a script?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 5 | Views: 887 | Answers: 2 | Created: 2025-06-28
+
+**解决方案 / Solution**:
+In Bash (and zsh), this creates an empty array . Several lines below, you can see how the variable is populated with some elements: dump_all_cmds=("-ex" "set use-coredump-filter off") And also, how the array is extended: dump_all_cmds+=("-ex" "set dump-excluded-mappings on") Near the end of the script, the array is actually used: "$binary_path/gdb" </dev/null \ --nx --batch --readnever -iex 'set debuginfod enabled off' \ -ex "set pagination off" -ex "set height 0" -ex "set width 0" \ "${dump_all_cmds[@]}" \ -ex "attach $pid" -ex "gcore $prefix.$pid" -ex detach -ex quit See the last but one line?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797478/what-does-var-mean-in-a-script
+
+---
+
+#### 6106. Why can't I merge folders by renaming one of them?
+
+**问题描述 / Problem Description**:
+Tags: bash, rename, mv | Score: 5 | Views: 1774 | Answers: 6 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+The mv utility (though it also applies to cp and ln ) has two different functions and which is selected depends mostly on external factors, though there are ways to force one or the other with implementation-specific options or some tricks. It can be either: move to or in other words rename move into mv A B moves (or at least tries to), A into B if B can be determined to exist already and be of type directory after symlink resolution, and otherwise moves ( renames ) it to B , possibly deleting B if it existed already. With the GNU implementation of mv , you can force the move into behaviour by making it mv -t B A which is short for mv --target-directory=B A , which will move A into B as long as B refers to a directory and fail otherwise. Or portably, you can do: mv A B/ Here not relying on a behaviour of mv but how pathnames are resolved by the system, where appending that / will try to resolve the path as a directory and fail with a "not a directory" error if it's not possible because B is a file of another type ( "No such file or directory" , "Permission denied" are examples of other possible errors depending on what B actually is, but in any case it won't move A to B ). And you can force the move to behaviour with (still with GNU mv ): mv -T A B Which is short for mv --no-target-directory A B . Which will not move A into B even if B happens to exist and be determined to be of type directory . Then, if B exists and is not a directory, including if it's a symlink, even to a directory, mv -T A B will rename A to B and the original B will be lost. And if B is a directory, it will only succeed if A is also a directory (not a symlink, even to a directory) and B is empty. In your case of mv -- "foldername...__" "foldername..." it's not about what characters the file names contain, it's whether foldername... refers to an already existing directory. And if you want to rename foldername...__ to foldername... , and if you're on a GNU system, you can do: mv -T foldername...__ foldername... Bearing in mind it won't work if the original foldername... is non-empty. If it's non-empty, you'd need to empty it by removing (or moving elsewhere) all its contents recursively first and then do the mv (and if you remove B as well then you won't need the -T any longer) which your can do with the rm utility and its recursive mode enabled with -r : rm -rf foldername... && mv foldername...__ foldername... If, as you later clarified, instead of renaming the source directory to the target, you actually want to move the files and directories within the source into the target, then that's not something that can be done with one mv invocation, it's more complex and subject to interpretation. There are things to consider such as: when to replace a directory in the target with one in the source with a rename (like when they contain only files with the same name) when to replace symlinks with actual files/directories, or files/directories with symlinks what to do with absolute or relative symlinks whose target changes when renamed. Because for a non-directory file¹ a rename(src, dst) is more or less equivalent to a link(src, dst) && unlink(src) , among standard utilities, with the simplest cases that don't involve symlinks, you can use pax (the standard replacement for tar and cpio ) which in its copy ( -rw ) mode can use hard links instead of actual copies with -l for files of type other than directory . (cd foldername...__ && pax -rwlpe . ../foldername.../) && rm -rf foldername...___ Would replace the non-directory files in the target with hard links to the source ones (and create missing directory files) and then remove the source directory recursively. For the files of type directory that source and destination already had in common, the ones on the destination and their metadata including permission and ownership will be left untouched. That mode of operation was inspired by something similar implemented in the traditional cpio utility (though cpio is no longer standard and like for tar its interface varies greatly from system to system). tar , cpio and rsync are some commonly found utilities that can be used to merge the contents of 2 directories though among them only cpio and pax can do it with hard links to make it more like a rename. The GNU implementation of cp also has a -l / --link option to do hard links (for non-directory files) which you can combine with its recursive mode (including with its -a which copies as much metadata as possible in addition to being recursive) to achieve something similar (and even better as it will more closely replicate the directories from the source into the target) as with the standard pax command from above: cp -afl foldername...__/. foldername.../ && rm -rf foldername... The -f option of cp is to delete the original in the destination beforehand, replace with one of the various --backup options if you want to keep the original. Moving every individual non-directory files from the source to the target directory in the same subdirectories there assuming they exist can be done by calling mv -T repeatedly for each file. If using zsh instead of bash, that can be done with the help of its zmv batch renamer implemented as an autoloadable function: autoload -Uz zmv zmv '(foldername...)__/(**/)(*)(#q^/)' '$1/$2$3' That will fail (before doing any renaming) if some files at the destination already exist (which you can ignore with the -f option but beware of the move into behaviour if target files are of type directory) of if some subdirectories don't exist in the target. Replacing mv with a function that creates the target directory as needed can help in that case: mkmv() { mkdir -p -- $2:h && mv -T -- "$@"; } zmv -f -P mkmv '(foldername...)__/(**/)(*)(#qD^/)' '$1/$2$3' Or: mkmv() { mkdir -p -- $2:h && mv --backup=numbered -T -- "$@" } zmv -f -P mkmv '(foldername...)*?/(**/)(*)(#qD^/)' '$1/$2$3' To do that for all foldername...<anything> like in your attempt, similar to what could be achieved with link()+unlink() instead of rename() with GNU cp 's: cp -al --backup=numbered foldername...?*/. foldername.../ && rm -rf foldername...?* ¹ It would be the same for directory files, however most systems forbid the hardlinking of directories (except by root in some) to avoid the mess that that would typically generate.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793896/why-cant-i-merge-folders-by-renaming-one-of-them
+
+---
+
+#### 6107. The shell not redirecting output of tar to file
+
+**问题描述 / Problem Description**:
+Tags: bash, io-redirection, tar | Score: 5 | Views: 792 | Answers: 2 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+You most likely have one or several space characters at the end of the last line that is supposed have a backslash character at the end. A line that is continued on the next line by a backslash must not have anything after the backslash, not even a space. Since you have space after the backslash, the space is quoted, so you are, in effect, saying some-command &> ' ' The next line after that tries to run the non-existing logfile as a command. This is what generates the “No such file or directory” error message. My take on your script, with my personal preferences baked into it, and also taking into account what Paul_Pedant says in the comments about quoting and line breaks. #!/bin/bash # Move to the MongoDB directory. Terminate if it fails. cd /opt/mongodb || exit log_dir=backups/logs mkdir -p "$log_dir" || exit printf -v now '%(%Y%m%d-%H%M)T' -1 # Dump file and dump log file. dump_file=$now.dump dump_log=$log_dir/$dump_file.log # Archive file and archive log file. archive_file=$now.tgz archive_log=$log_dir/$archive_file.log # Dump the MongoDB database to a file. docker exec -i mongodb \ sh -c 'mongodump --archive' >"$dump_file" 2>"$dump_log" err=$? # Archive the dump and the files with full path. tar -v -cz -f "$archive_file" \ "$PWD/$dump_file" "$PWD"/files 2>"$archive_log" if (( err || $? )); then echo 'There were errors in dumping or archiving' printf 'See "%s" and "%s"\n' "$dump_log" "$archive_log" fi >&2
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793078/the-shell-not-redirecting-output-of-tar-to-file
+
+---
+
+#### 6108. Why can a list within a group be terminated with a space instead of a semicolon/newline as defined in the manual?
+
+**问题描述 / Problem Description**:
+Tags: bash, syntax | Score: 5 | Views: 176 | Answers: 1 | Created: 2025-03-14
+
+**解决方案 / Solution**:
+I'm pretty sure this is because of how reserved words are recognized by the lexer. I'm sure someone will shoot me down if I'm completely in the woods. Section 2.4 Reserved Words in the POSIX text says: Reserved words are words that have special meaning to the shell; [...]. The following words shall be recognized as reserved words: [...] This recognition shall only occur when none of the characters is quoted and when the word is used as: The first word of a command The first word following one of the reserved words other than case , for , or in [two more cases not relevant here] So, in something like echo } fi neither } nor fi are recognized as the reserved words (they're not the first word, nor follow another reserved word). If they were recognized as such, it'd be a syntax error, since there's no brace group or if-statement in sight. In something like echo foo && fi the fi is recognized as a reserved word, and the shell croaks on a syntax error. (While echo foo && "fi" is syntactically valid, though you likely a command called fi .) Now, as far as the shell grammar is concerned, a brace group doesn't require a semicolon (or newline) at the end. The grammar defines a brace group as brace_group : Lbrace compound_list Rbrace and if you follow the definitions from compound_list down to compound_command , you'll get back to nested brace groups, with no mention of separators between the right-hand braces. brace_group : Lbrace compound_command Rbrace brace_group : Lbrace brace_group Rbrace brace_group : Lbrace Lbrace compound_list Rbrace Rbrace So, based on that, { { echo foo } } would be two nested brace groups, if only the two } were recognized as reserved words. But because of the rule mentioned above, they're not. Instead, the tokens recognized are Lbrace Lbrace WORD WORD WORD WORD Those WORD tokens form a simple command, which is a compound list, and the whole still needs two Rbrace tokens to close the brace groups. On the other hand, in { { echo foo; } } , the right-hand braces are recognized as Rbrace tokens (the first is (could be) the first word of a command, the second follows another reserved word). So we have Lbrace Lbrace WORD WORD ';' Rbrace Rbrace Those WORD tokens and the semicolon form a compound list, so this time, the whole is two nested brace groups. Note that the grammar definition for a subshell block has an identical structure to that of a brace group: brace_group : Lbrace compound_list Rbrace subshell : '(' compound_list ')' The only material difference that the ) operator is always recognized as such, so ( ( echo foo ) ) is two nested subshells. (All this isn't even the worst part of the shell language, not even close.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792472/why-can-a-list-within-a-group-be-terminated-with-a-space-instead-of-a-semicolon
+
+---
+
+#### 6109. Why does this bash for loop syntax work?
+
+**问题描述 / Problem Description**:
+Tags: bash, history | Score: 5 | Views: 182 | Answers: 1 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+The parser grammar FOR ARITH_FOR_EXPRS '{' compound_list '}' ... has been in the shell since about 2001 . Release bash-2.04 introduced several arithmetic operators and the arithmetic for loop (from ksh93). The specific form of the arithmetic for loop that you mention was introduced in bash-2.05 . Its introduction was never explicitly mentioned in the shell's changelog. Chet, the current Bash maintainer, says this about it : The group command as loop body syntax only exists for compatibility with historical versions of the Bourne shell (where it is likewise undocumented). Its use is not encouraged, and POSIX doesn't specify it, so it's not portable.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792066/why-does-this-bash-for-loop-syntax-work
+
+---
+
+#### 6110. parameter expansion inconsistency among alleged POSIX-compliant shells
+
+**问题描述 / Problem Description**:
+Tags: shell, posix | Score: 4 | Views: 186 | Answers: 1 | Created: 2026-05-29
+
+**解决方案 / Solution**:
+The part you quoted applies to parsing of the shell input. Shell does not re-parse the results of expansion, so this definition is not applicable here - there is not literal \ in the shell input. $ foo='\$' $ echo "\$" $ $ echo $foo \$ $ In the first case \ is the part of input, in the second it is part of parameter expansion. The word after % is expanded to produce a pattern. In the second example the nested parameter expansion is inside double quotes, so the \ retains its literal meaning: When double-quotes are used to quote a parameter expansion, command substitution, or arithmetic expansion, the literal value of all characters within the result of the expansion shall be preserved. In the first example nothing is quoted, the expansion of $part2 produces the pattern abc\de and \ is special inside the pattern according to the 2.14.1 Patterns Matching a Single Character In a pattern, or part of one, where a shell-quoting <backslash> can be used, a <backslash> character shall escape the following character as described in 2.2.1 Escape Character (Backslash), regardless of whether or not the <backslash> is inside a bracket expression. (The sequence " \\ " represents one literal <backslash> .) So the pattern abc\de is equivalent to the pattern abcde which matches the string abcde , but not the string abc\de In the third example the $part2 is unquoted, so \ retains its special meaning even though the whole substitution is inside the double quotes due to For the four varieties of parameter expansion that provide for substring processing (see 2.6.2 Parameter Expansion), within the string of characters from an enclosed "${" to the matching '}', the double-quotes within which the expansion occurs shall have no effect on the handling of any special characters. See 2.2.3 Double-Quotes . Consider simplified example: $ foo=abc:def $ bar=\* $ echo ${foo%:$bar} abc $ echo ${foo%:"$bar"} abc:def $ echo "${foo%:$bar}" abc $
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806231/parameter-expansion-inconsistency-among-alleged-posix-compliant-shells
+
+---
+
+#### 6111. history -cw does not overwrite ~/.bash_history file
+
+**问题描述 / Problem Description**:
+Tags: bash, arch-linux, command-history | Score: 4 | Views: 350 | Answers: 2 | Created: 2025-07-06
+
+**解决方案 / Solution**:
+First issue The bash man page lists the two flags -c and -w separately: history -c ... history -anrw [filename] The command history --help is more specific: $ history --help history: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...] You cannot use the flags -c and -w together. Second issue The command history -c clears the history in your current shell but it doesn't clear the history file. If you close this shell the history will be appended to the history file. If you want to clear the history file, you could delete it with the command rm $HISTFILE .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797704/history-cw-does-not-overwrite-bash-history-file
+
+---
+
+#### 6112. Bash script: performance comparison of file reading methods
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, scripting | Score: 4 | Views: 975 | Answers: 2 | Created: 2025-05-14
+
+**解决方案 / Solution**:
+In almost every case, you should not read a file line-by-line using a shell loop at least not as your first instinct. Often when someone uses a line-by-line loop in shell, what they actually need is a text processing tool like awk , sed , cut , jq , or perl . That being said, if you really do need to read a file line-by-line in a shell script, the correct and safe way is: while IFS= read -r line; do # process "$line" done < "$file" Why this is preferred: Preserves whitespace: setting IFS= prevents word splitting. Reads lines properly: using read -r ensures backslashes are not interpreted. Handles all lines safely: even empty lines or lines with leading/trailing spaces. issues with for loop word splitting However, The for loop doesn't iterate over lines, it iterates over words — splitting on all whitespace (spaces, tabs, newlines). This means: $ cat test.txt foo bar baz $ for line in $(cat test.txt); do echo "line is $line"; done line is foo line is bar line is baz Backslashes and quoting can get mangled Any backslashes in the file may be misinterpreted by some versions of bash. It spawns a subshell Not always an issue, but it's unnecessary overhead. More importantly, if you capture output from within the loop, you'll often get bitten by scoping issues. It fails on empty lines Empty lines are lost entirely in the word splitting. mapfile (or readarray) is great for reading the whole file into an array at once, but it only works in Bash, not POSIX sh.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794878/bash-script-performance-comparison-of-file-reading-methods
+
+---
+
+#### 6113. How can I remove special non-characters that are not part of national alphabets like faces from filenames, keeping any national alphabets intact?
+
+**问题描述 / Problem Description**:
+Tags: bash, sed, filenames, special-characters | Score: 4 | Views: 883 | Answers: 1 | Created: 2025-05-07
+
+**解决方案 / Solution**:
+Assuming you want to remove emoticons and other miscellaneous pictograph characters (those classified as "Miscellaneous Symbols and Pictographs" or "Emoticons" in Unicode) along with associated combining marks if any, with the rename from the File::Rename perl module, you could do: find . -depth -print0 | PERL_UNICODE=S rename -n -0 -d ' s/[\p{MiscPictographs}\p{Emoticons}]\pM*//g' (remove the -n (dry-run) if happy). That would remove 🌀🌁🌂🌃🌄🌅🌆🌇🌈🌉🌊🌋🌌🌍🌎🌏🌐🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜🌝🌞🌟🌠🌡🌢🌣🌤🌥🌦🌧🌨🌩🌪🌫🌬🌭🌮🌯🌰🌱🌲🌳🌴🌵🌶🌷🌸🌹🌺🌻🌼🌽🌾🌿🍀🍁🍂🍃🍄🍅🍆🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓🍔🍕🍖🍗🍘🍙🍚🍛🍜🍝🍞🍟🍠🍡🍢🍣🍤🍥🍦🍧🍨🍩🍪🍫🍬🍭🍮🍯🍰🍱🍲🍳🍴🍵🍶🍷🍸🍹🍺🍻🍼🍽🍾🍿🎀🎁🎂🎃🎄🎅🎆🎇🎈🎉🎊🎋🎌🎍🎎🎏🎐🎑🎒🎓🎔🎕🎖🎗🎘🎙🎚🎛🎜🎝🎞🎟🎠🎡🎢🎣🎤🎥🎦🎧🎨🎩🎪🎫🎬🎭🎮🎯🎰🎱🎲🎳🎴🎵🎶🎷🎸🎹🎺🎻🎼🎽🎾🎿🏀🏁🏂🏃🏄🏅🏆🏇🏈🏉🏊🏋🏌🏍🏎🏏🏐🏑🏒🏓🏔🏕🏖🏗🏘🏙🏚🏛🏜🏝🏞🏟🏠🏡🏢🏣🏤🏥🏦🏧🏨🏩🏪🏫🏬🏭🏮🏯🏰🏱🏲🏳🏴🏵🏶🏷🏸🏹🏺🏻🏼🏽🏾🏿🐀🐁🐂🐃🐄🐅🐆🐇🐈🐉🐊🐋🐌🐍🐎🐏🐐🐑🐒🐓🐔🐕🐖🐗🐘🐙🐚🐛🐜🐝🐞🐟🐠🐡🐢🐣🐤🐥🐦🐧🐨🐩🐪🐫🐬🐭🐮🐯🐰🐱🐲🐳🐴🐵🐶🐷🐸🐹🐺🐻🐼🐽🐾🐿👀👁👂👃👄👅👆👇👈👉👊👋👌👍👎👏👐👑👒👓👔👕👖👗👘👙👚👛👜👝👞👟👠👡👢👣👤👥👦👧👨👩👪👫👬👭👮👯👰👱👲👳👴👵👶👷👸👹👺👻👼👽👾👿💀💁💂💃💄💅💆💇💈💉💊💋💌💍💎💏💐💑💒💓💔💕💖💗💘💙💚💛💜💝💞💟💠💡💢💣💤💥💦💧💨💩💪💫💬💭💮💯💰💱💲💳💴💵💶💷💸💹💺💻💼💽💾💿📀📁📂📃📄📅📆📇📈📉📊📋📌📍📎📏📐📑📒📓📔📕📖📗📘📙📚📛📜📝📞📟📠📡📢📣📤📥📦📧📨📩📪📫📬📭📮📯📰📱📲📳📴📵📶📷📸📹📺📻📼📽📾📿🔀🔁🔂🔃🔄🔅🔆🔇🔈🔉🔊🔋🔌🔍🔎🔏🔐🔑🔒🔓🔔🔕🔖🔗🔘🔙🔚🔛🔜🔝🔞🔟🔠🔡🔢🔣🔤🔥🔦🔧🔨🔩🔪🔫🔬🔭🔮🔯🔰🔱🔲🔳🔴🔵🔶🔷🔸🔹🔺🔻🔼🔽🔾🔿🕀🕁🕂🕃🕄🕅🕆🕇🕈🕉🕊🕋🕌🕍🕎🕏🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚🕛🕜🕝🕞🕟🕠🕡🕢🕣🕤🕥🕦🕧🕨🕩🕪🕫🕬🕭🕮🕯🕰🕱🕲🕳🕴🕵🕶🕷🕸🕹🕺🕻🕼🕽🕾🕿🖀🖁🖂🖃🖄🖅🖆🖇🖈🖉🖊🖋🖌🖍🖎🖏🖐🖑🖒🖓🖔🖕🖖🖗🖘🖙🖚🖛🖜🖝🖞🖟🖠🖡🖢🖣🖤🖥🖦🖧🖨🖩🖪🖫🖬🖭🖮🖯🖰🖱🖲🖳🖴🖵🖶🖷🖸🖹🖺🖻🖼🖽🖾🖿🗀🗁🗂🗃🗄🗅🗆🗇🗈🗉🗊🗋🗌🗍🗎🗏🗐🗑🗒🗓🗔🗕🗖🗗🗘🗙🗚🗛🗜🗝🗞🗟🗠🗡🗢🗣🗤🗥🗦🗧🗨🗩🗪🗫🗬🗭🗮🗯🗰🗱🗲🗳🗴🗵🗶🗷🗸🗹🗺🗻🗼🗽🗾🗿😀😁😂😃😄😅😆😇😈😉😊😋😌😍😎😏😐😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰😱😲😳😴😵😶😷😸😹😺😻😼😽😾😿🙀🙁🙂🙃🙄🙅🙆🙇🙈🙉🙊🙋🙌🙍🙎🙏 and their various variants (such as skin colour or Emoji rendition with variation selectors as in 🕰vs🕰️).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794595/how-can-i-remove-special-non-characters-that-are-not-part-of-national-alphabets
+
+---
+
+#### 6114. Extend multiple globbing patterns with same additional pattern at the same time
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 4 | Views: 605 | Answers: 4 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+Your attempt fails because xargs receives only a single line so it only attempts one replacement. The man page for xargs -I: -I replace-str Replace occurrences of replace-str in the initial-arguments with names read from standard input. Also, unquoted blanks do not terminate input items; instead the separator is the newline character. Implies -x and -L 1. You could use tr to split them into newlines by whitespace (as long as there is no intentional whitespace in any of your patterns): myglob="*.log *.json" expanded_glob=$("$myglob" | tr ' ' '\n' | xargs -I % echo "%.[0-9].gz") Or if possible it might be better to store them in an array: myglob=('*.log' '*.json') expanded_glob=("${myglob[@]/%/'.[0-9].gz'}")
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793518/extend-multiple-globbing-patterns-with-same-additional-pattern-at-the-same-time
+
+---
+
+#### 6115. Why does tab autocomplete sometimes not work?
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, autocomplete, gnome-terminal | Score: 4 | Views: 1566 | Answers: 1 | Created: 2025-04-04
+
+**解决方案 / Solution**:
+If a package maintainer has included completions then the default TAB completion may have been overridden. This is the case for sqlite3 whose definitions are in: /usr/share/bash-completion/completions/sqlite3 There we see that _filedir "$dbexts" is called. _filedir is defined in: /usr/share/bash-completions/bash_completion Viewing its definition (on 24.04) I see that it checks if COMP_FILEDIR_FALLBACK is set. A websearch for that leads me to: https://github.com/scop/bash-completion/blob/main/doc/configuration.md#bash_completion_filedir_fallback BASH_COMPLETION_FILEDIR_FALLBACK If set and not null, completions that look for filenames based on their "extensions" will fall back to suggesting all files if there are none matching the sought ones. Available since version 2.12. Deprecated alias: COMP_FILEDIR_FALLBACK Setting the relevant variable should make completions work closer to the way you want. (If some files match the prefix, it will still fail to find the others that don't). Alternatively, another method mentioned in the documentation is to use a different key instead of TAB, which bypasses the filtering: https://github.com/scop/bash-completion/blob/main/README.md#faq Q. The bash completion code inhibits some commands from completing on files with extensions that are legitimate in my environment. Do I have to disable completion for that command in order to complete on the files that I need to? A. No. If needed just once in a while, use M-/ to (in the words of the bash man page) attempt file name completion on the text to the left of the cursor. This will circumvent any file type restrictions put in place by the bash completion code. If needed more regularly, see the next question:
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793298/why-does-tab-autocomplete-sometimes-not-work
+
+---
+
+#### 6116. Linux SMB Client Failed to Connect to SMB Server Forcing AES-256?
+
+**问题描述 / Problem Description**:
+Tags: fedora, encryption, smb, smbclient | Score: 4 | Views: 1903 | Answers: 3 | Created: 2024-01-15
+
+**解决方案 / Solution**:
+I believe I know the cause and solution here. There seems to potentially be a bug in the CIFS client as of the time I am writing this, wherein if you do not require AES-256-GCM on the client side, then the client fails to connect to the server even though the server may only have AES-256-GCM enabled. Troubleshooting steps: On the client side, after running modprobe cifs if you then run cat /sys/module/cifs/parameters/enable_gcm_256 , you can see that it is set to Y but if you run cat /sys/module/cifs/parameters/require_gcm_256 , you can see that it is set to N. If you then run (again on the client side) echo 1 > /sys/module/cifs/parameters/require_gcm_256 and echo "options cifs require_gcm_256=1" > /etc/modprobe.d/cifs.conf you should then be able to mount the SMB share properly with your global setting server smb3 encryption algorithms = -AES-128-GCM -AES-128-CCM Assuming that this works, it confirms my suspicions that this is a bug in the CIFS client. I came across this issue while digging into the exact same error mounting an Azure Files share which had only AES-256-GCM enabled while using the Azure Files CSI driver for Kubernetes, and Microsoft's documentation states this is necessary in the case that AES-128-GCM is disallowed on the server side, so I suspect that since this is affecting even users who are not using Azure Files, this is a bug in the CIFS client itself. Edit: After talking with CIFS developers on the linux-cifs mailing list, this is a two-part issue. Azure Files: With a file share configured for AES-256-GCM only, the share still responds with AES-128-GCM in the ciphers, but then rejects the connection. I've opened a case with Azure on this and they are investigating. It's potentially possible, given the year this question was opened, that this is also the case on the TrueNAS device that OP is using. On the client side, the CIFS client has a cipher order that prefers AES-128-GCM by default. In other words, if a server presents AES-128-GCM as an option, the client will by default try to negotiate AES-128-GCM even if AES-256-GCM is offered. This was done originally to maintain better performance in low powered environments (embedded systems like Raspberry Pi and whatnot) where AES-256-GCM would have, at the time, been responsible for performance impacts. Requiring GCM 256 as I mentioned above should resolve this issue until a future change on clients will amend the cipher order to prefer AES-256-GCM, and a future change on servers will ensure AES-128-GCM is not presented when it has been disabled.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/766995/linux-smb-client-failed-to-connect-to-smb-server-forcing-aes-256
+
+---
+
+#### 6117. How can 'rename' be used to rename file in a specific directory?
+
+**问题描述 / Problem Description**:
+Tags: bash, rename | Score: 3 | Views: 361 | Answers: 2 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+Switch from s/.../.../ to s|...|...| to avoid escaping / : rename --verbose 's|'"$actual"'([^/]*)$|'"$expected"'$1|' "$dir"/*.jar [^/]*$ : Make sure that there is no / after the name until the end of the file name. $1 : Back-reference to match of (...) to keep part after file name (in your example -0.1.0.jar ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797861/how-can-rename-be-used-to-rename-file-in-a-specific-directory
+
+---
+
+#### 6118. Get all log lines from last minute with busybox
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, logs, date | Score: 3 | Views: 313 | Answers: 2 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+If logread -t adds a [123456789.123] additional epoch second timestamp after the ctime() one as its code suggests, you should be able to do it with just busybox awk : logread -t | awk ' BEGIN {lastminute = srand(srand()) - 60} match($0, /\[[0-9.]+\]/) && substr($0, RSTART+1, RLENGTH-2) > lastminute { print substr($0, 1, RSTART-2) substr($0, RSTART+RLENGTH) }' srand(seed) seeds the PRNG and returns the previous seed. When not passed a seed, it uses the current epoch seconds, so srand(srand()) returns the current epoch seconds. Then we look for [digits-and-dots] , remove it and print if digits-and-dots extracted from it are after lastminute .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796573/get-all-log-lines-from-last-minute-with-busybox
+
+---
+
+#### 6119. Multiple selection with fzf and vim having new lines in path/file names
+
+**问题描述 / Problem Description**:
+Tags: bash, vim, fzf | Score: 3 | Views: 474 | Answers: 1 | Created: 2025-05-07
+
+**解决方案 / Solution**:
+--read0 only makes sense if fzf is reading a NUL-delimited stream. Here it seems you want to write such a stream, to be read with readarray -td '' ( readarray being a better name for mapfile ). If you're going to use $(__fzfcmd) unquoted, you need to set $IFS to the value that will be used to split it correctly. You may also need to disable globbing in case that output includes wildcard characters: local IFS - set -o noglob With local IFS , IFS would be initialised unset in which case split+glob would split on space, tab and newline like with the default value of $IFS assuming that's what you want to split the output of __fzfcmd on. Same goes with "${opts[*]}" which joins elements of the array with the first character of $IFS . local - makes the $- parameter (which holds the list of enabled options) local¹. In: "--height" ${FZF_TMUX_HEIGHT:-80%} You're asking the shell to split+glob $FZF_TMUX_HEIGHT which makes little sense. In: "--header='Key: [CTRL-F] Select, preview and edit file(s) in [${PWD}]'." The expansion of the $PWD shell variable is embedded in the array element, and ultimately $FZF_DEFAULT_OPTS , so if $PWD contains a ' , that will break the quoting as processed by fzf to parse $FZF_DEFAULT_OPTS . Worse, that would make it an arbitrary command injection vulnerability as that could introduce more options for fzf , some of which can run commands. You'd need to quote the contents of $PWD in a way understood by fzf . If you were using zsh , you could use "--header='Key: [CTRL-F] Select, preview and edit file(s) in ['${(qq)PWD}]'." where ${(qq)PWD} quotes $PWD using single quotes in a way understood by fzf , but bash 's quoting operators ${var@Q} or printf %q sometimes use the $'...' form of quote from ksh93 not understood by fzf , so in bash , you'd need something like: escaped_PWD=${PWD//\'/\'\\\'\'} Which replaces ' s with '\'' and use as: opts=(... "--header='Key: [CTRL-F] Select, preview and edit file(s) in [$escaped_PWD].'" ...) ((${#file})) is better written as [ -n "$file" ] ; that would also work in this case (not the general case) for arrays as in bash like in ksh, $file is short for ${file[0]} . For arrays, using (( ${#files[@]} )) is better in the general case as that tests whether the array has at least 1 element regardless of whether that's the one with index 0 and whether the element of index 0, if set is the empty string or any other string. ${file%?} removes a trailing character from $file . I suppose you used that because you're using read -d '' (expecting a NUL delimiter) on something that is line-based (missing --print0 to fzf ) so $file ends up containing a trailing newline character. You don't need that if you use --print0 on output and read -d '' or readarray -td '' on input. IFS= LC_ALL=C is not necessary for mapfile / readarray which contrary to read doesn't try to interpret its input as text and doesn't do IFS-splitting. That explicit exec {edit_file}<... to open a fd on the reading end of a pipe fed by fzf running in background is unnecessary here. You're also closing it too late, leaking that fd to vim . Also here, you don't need an array which is just confusing things as $FZF_DEFAULT_OPTS is just one string with potentially quoted words within separated with whitespace (including newline), so you might as well do: local escaped_PWD escaped_height IFS - local -a files set -o noglob escaped_PWD=${PWD//\'/\'\\\'\'} escaped_height=${FZF_TMUX_HEIGHT:-80%} escaped_height=${escaped_height//\'/\'\\\'\'} readarray -td '' files < <( FZF_DEFAULT_OPTS=" --multi --print0 --reverse --header-first --scheme='path' --preview-window='right:80%:wrap' --height='$escaped_height' --walker='file,dir,follow,hidden' --preview='bat --color=always --wrap never {}' --header='Key: [CTRL-F] Select, preview and edit file(s) in [$escaped_PWD].' --bind='ctrl-z:ignore,ctrl-a:toggle-all,ctrl-s:toggle-preview,ctrl-d:preview-down,ctrl-u:preview-up' " $(__fzfcmd) ) (( ${#files[@]} )) && vim -- "${files[@]}" Or better still, do away with that FZF_DEFAULT_OPTS altogether and pass the options to fzf directly without having to worry of them being encoded properly for the parsing that fzf does of that variable: local -a files readarray -td '' files < <( unset -v IFS set -o noglob $(__fzfcmd) \ --multi \ --print0 \ --reverse \ --header-first \ --scheme=path \ --preview-window=right:80%:wrap \ --height="${FZF_TMUX_HEIGHT:-80%}" \ --walker=file,dir,follow,hidden \ --preview='bat --color=always --wrap never {}' \ --header="Key: [CTRL-F] Select, preview and edit file(s) in [$PWD]." \ --bind=ctrl-z:ignore,ctrl-a:toggle-all,ctrl-s:toggle-preview,ctrl-d:preview-down,ctrl-u:preview-up ) (( ${#files[@]} )) && vim -- "${files[@]}" Also moving IFS unsetting and set -o noglob to the subshell in the process substitution so we don't need to worry about declaring those local ². ¹ though does not unset it. It's a feature relatively recently added to bash inspired from the Almquist shell (where local also comes from in the late 80s). In ash, all options map to $- letters and local doesn't unset variables nor change their value or attributes in any way. In bash, local initialises unset and does not map all its set options to $- letters, so local - is only like ash's in spirit. ² Beware though that bash has a misfeature whereby unset -v IFS may not unset IFS but reveal one from a parent scope under circumstances. That would only be a concern if that function was called from within a function that has made $IFS local .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794626/multiple-selection-with-fzf-and-vim-having-new-lines-in-path-file-names
+
+---
+
+#### 6120. Why can't I have a single quote in a bash associative array index when testing with `test -v`
+
+**问题描述 / Problem Description**:
+Tags: bash, test, associative-array | Score: 3 | Views: 114 | Answers: 1 | Created: 2025-04-24
+
+**解决方案 / Solution**:
+The way the expansion happens is not how you would expect. test -v X[$index] Does not expand to: test -v X["a'b"] But instead it expands like this: test -v 'X[a'\''b]' bash splits and escapes the array syntax in a way that prevents test -v from seeing a valid array element. test -v expects a fully valid variable name or array element as a single argument. As Kusalananda suggested you could use test -v 'X[$index]' however I think a much more correct way would be to use the extended test syntax instead: if [[ -v X["$index"] ]]; then
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794136/why-cant-i-have-a-single-quote-in-a-bash-associative-array-index-when-testing-w
+
+---
+
+#### 6121. how to pass environment variables to singularity exec
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables, bioinformatics, singularity | Score: 3 | Views: 1261 | Answers: 1 | Created: 2025-04-13
+
+**解决方案 / Solution**:
+The point of Singularity is that it runs software inside a container. The container is isolated from its host so that it works the same everywhere. The behavior of the container does not depend on things like the software installed on the host, the files available on the host or the environment variables on the host. You pass --bind HOST_PATH : CONTAINER_PATH to singularity exec to make a specific directory of the host accessible inside the container. Somewhat similarly, use --env NAME = VALUE to make an environment variable accessible inside the container. It's done a bit differently because the value doesn't have to be the same as the host. To give an environment variable the same value as the host, when invoking singularity from a shell script, use --env FOO="$FOO" . Note the double quotes around the value, otherwise it won't work if the value contains spaces or other special characters . The documentation of Singularity's command line is a bit scarce. Singularity wraps around Docker and you can sometimes find more information in its documentation, for example singularity exec --env is similar to docker run --env and the Docker documentation has more information. But beware that Singularity is not a straight wrapper, so not all Docker options exist or behave in the same way.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793686/how-to-pass-environment-variables-to-singularity-exec
+
+---
+
+#### 6122. bash shebang on macOS
+
+**问题描述 / Problem Description**:
+Tags: bash, macos, shebang | Score: 3 | Views: 3273 | Answers: 2 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+#!/usr/bin/env bash is the best practice, env is the best practice for all shebangs. MacOS or not there is no guarantee that your target system will have the same version of bash installed as the system you write the script on. If you want true portability you need to use #!/bin/sh and even then you need to know what true POSIX commands and methods are available because on many systems /bin/sh is just a symlink to bash in --posix mode and will still allow non posix things like arrays. Also you have no control over any external commands awk , sed , grep , etc that are used and will differ from system to system.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792242/bash-shebang-on-macos
+
+---
+
+#### 6123. What explains this very odd behavior of GNU grep interacting with buffering and pipes and how to stop it?
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, pipe, buffer | Score: 3 | Views: 254 | Answers: 2 | Created: 2025-03-09
+
+**解决方案 / Solution**:
+I actually wrote this question and then someone else helped me towards the answer but I felt I should make the topic anyway and answer it simply to spread the knowledge since I feel many might be caught by this. The simple answer is that pipes in the shell in fact to do not exit when the last command in the pipeline exits, but when all of them do. If even one of them contains an infinite loop, the entire pipeline will continue to run forever. The grep portion in fact does end when it finds the first line it can match upon and return. The reason for the entire pipeline ending after two seconds is that the writing part then encounters a pipe that has hung up when it tries to write again and receives SIGPIPE and then exits on this attempted write, but it doesn't know that the other end has hung up until it starts to write. Perhaps in an ideal world, it would receive the SIGPIPE the moment the other end has hung up, though the other end can re-open again I suppose, but it only knows the other end has hung up once it actually attempts to write. It asks for forgiveness, not for permission, which is why it only ends then. In the case of writing two lines at once, it writes them first in one buffered go, then the grep process hangs up after doing its job. The way to solve this issue in the particular script is to manually check the exit status of grep with an anonymous named pipe: # we create a pipe and then unlink it and set it file descriptor 3 to create an anonymous pipe # create anonymous fifo on file descriptor 3 by creating it # then opening a file descriptor to it and removing it again # we use a directory to make sure this be atomic fifodir=$(mktemp -d) mkfifo -- "$fifodir/fifo" exec 3<>"$fifodir/fifo" rm -r -- "$fifodir" # now perform the pipe manually udevadm monitor <args> >&3 & udevadmpid=$! # and wait only on the grep process egrep -m1 <pattern> <&3 & wait $! # we even kill this for cleanliness, though it's not needed kill $udevadmpid
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792190/what-explains-this-very-odd-behavior-of-gnu-grep-interacting-with-buffering-and
+
+---
+
+#### 6124. print_one_line_and_wait_long_time | head -n1: early exit of pipe/process substitution
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, pipe | Score: 3 | Views: 168 | Answers: 2 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+If you don't mind the slow program still running to completion or SIGPIPE, try this: { some_command & } | head -1 Backgrounding some_command takes it out of the waited-for pipeline, so the script doesn't wait for it. But the head still waits for the first line output by some_command . You might want to add redirection of stdin... { some_command </dev/null & } | head -1 I agree with @Vercingatorix that this is an interesting problem.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791984/print-one-line-and-wait-long-time-head-n1-early-exit-of-pipe-process-substit
+
+---
+
+#### 6125. Repair Fedora GRUB after grub2-mkconfig gone wrong
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub2, dual-boot, grub-mkconfig | Score: 3 | Views: 2525 | Answers: 1 | Created: 2024-01-15
+
+**解决方案 / Solution**:
+After a lot of trials and errors, I managed to find a solution for my problem. I am leaving it here, in case anyone stumbles upon this problem. My system turned out to use BRTFS subvolumes and the steps to mount the necessary partitions are different for this type of filesystem. This is why I could not follow the steps in this guide . My particular situation had an EFI partition in /dev/nvme0n1p6 and the root and boot (I know, very odd) partition in /dev/nvme0n1p7 . In the latter, there is a root subfolder that has the classic linux folders ( bin , home , opt , etc.). Go to the section Using the GRUB2 boot prompt for the solution that worked for me. For the sake of completeness, the next part explains how to execute the command grub2-mkconfig in a chrooted system that uses BRTFS subvolumes properly. Chroot into a system with BRTFS subvolumes By following this lifesaver post and trying out many combinations of mounting procedures out of desperation, I managed to chroot into my system correctly: sudo mkdir /mnt/sysimage sudo mount -o subvol=root /dev/nvme0n1p7 /mnt/sysimage sudo mount -o bind /dev /mnt/sysimage/dev sudo mount -o bind /proc /mnt/sysimage/proc sudo mount -o bind /sys /mnt/sysimage/sys sudo mount -o bind /sys/firmware/efi/efivars /mnt/sysimage/sys/firmware/efi/efivars sudo mount /dev/nvme0n1p6 /mnt/sysimage/boot/efi sudo chroot /mnt/sysimage Note: In case you end up without network connection inside the chrooted system, you can follow the steps detailed in the same guide . After this, I could perform the following commands inside my chrooted system: dnf reinstall shim-* grub2-efi-* grub2-common grub2-mkconfig -o /boot/grub2/grub.cfg sync && exit To umount everything, just do: sudo umount /mnt/sysimage/sys sudo umount /mnt/sysimage/proc sudo umount /mnt/sysimage/dev sudo umount /mnt/sysimage/boot/efi sudo umount /mnt/sysimage/sys/firmware/efi/efivars sudo umount /mnt/sysimage Doing that, I no longer got the error /usr/sbin/grub2-probe: error: cannot find a device for / (is /dev mounted?) , after running grub2-mkconfig -o /boot/grub2/grub.cfg , which was the original purpose of my question. Nevertheless, executing that command did not bring my Fedora back to the grub, even after trying these commands that I found on this gist : # Check BIOS boot details [ Note: this command won't work if you are inside chroot. ] efibootmgr -v # In case you need to create new entry in BIOS efibootmgr -c -d /dev/nvme0n1p1 -p 1 -L Fedora -l '\EFI\fedora\grubx64.efi' # or, shimx64.efi Using the GRUB2 boot prompt The real solution ended up being on this post on Fedora's main documentation, Using the GRUB2 boot prompt . I booted my PC, pressed Esc , got into the BIOS Menu and selected Fedora. Of course, there was not going to be anything there, so it got me to the classic black grub> screen. There, I executed the following commands: # Show all partitions grub> ls (hd0) (hd1) (hd0,gpt1) ... # Try out every one of them until you find your EFI partition and your root partition. Mine was (hd2,gpt6) and (hd2,gpt7), respectively. grub> ls (hd2,gpt6)/ # Had an EFI folder grub> ls (hd2,gpt7)/ # Inside was the root folder and inside that, my beloved Fedora # You set root to your EFI partition, mine being (hd2,gpt6) grub> set root=(hd2,gpt6) # And the following commands starting with the root partition, mine being (hd2,gpt7) grub> linux (hd2,gpt7)/root/boot/vmlinuz-6.6.9-200.fc39.x86_64 root=/dev/nvme0n1p7 ro rootflags=subvol=root grub> initrd (hd2,gpt7)/root/boot/initramfs-6.6.9-200.fc39.x86_64.img # This command will finish the session and will boot up the chosen kernel and RAM filesystem grub> boot Note: You need to find the exact path where the kernel you want to boot up ( vmlinuz-... ) and the RAM filesystem ( initramfs-...-.img ) are. For this, you can just do ls <your root partition>/root/ and begin navigating folder by folder. For me, ls (hd2,gpt7)/root/boot/ showed me all the kernels and RAM filesystems I had. I chose the latest one, with the suffix 6.6.9-200.fc39.x86_64 . Also, notice the part root=/dev/nvme0n1p7 ro rootflags=subvol=root in the linux command. This is crucial for a BRTFS system; without it the system won't boot up correctly. Naturally, root= has to be set to your own root partition, while the rest should remain the same. Inside your system By now, you should have booted up your old lost system. Inside, I opened up a terminal and executed the following commands to recover my grub , so that I didn't have to do the above process everytime I wanted to log into Fedora. # Back up your current GRUB configuration as a precaution: sudo cp /boot/efi/EFI/fedora/grub.cfg /boot/efi/EFI/fedora/grub.cfg.bak # Regenerate the GRUB configuration file with: sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg # Reinstall GRUB to ensure it's properly installed on the EFI partition: sudo grub2-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Fedora I then rebooted my PC and, for some odd reason, I did not find Fedora listed on my BIOS Boot Menu (which had not happened until now, it always showed it, except that it only led to the grub> screen). I logged into my Windows, rebooted again, went into the BIOS Boot Menu, and now Fedora was there. I selected it and my PC booted directly into it, without going to the grub menu, which is indeed odd, but it definitely suits me as-is so far. I can now log into my Fedora, without problems. As always, be careful executing any of these commands and double-check for your particular system and configuration.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/766929/repair-fedora-grub-after-grub2-mkconfig-gone-wrong
+
+---
+
+#### 6126. Sending emails from the Linux terminal while preserving the fact of sending
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, terminal, email | Score: 2 | Views: 183 | Answers: 1 | Created: 2025-07-10
+
+**解决方案 / Solution**:
+Try to configure mutt to use that external mail server. It's doable for gmail, so should be doable with other mail servers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797822/sending-emails-from-the-linux-terminal-while-preserving-the-fact-of-sending
+
+---
+
+#### 6127. `type` command ignores `LANG` after upgrading to `bash` 5.3 on iTerm2/macOS
+
+**问题描述 / Problem Description**:
+Tags: bash, macos, locale, iterm2 | Score: 2 | Views: 312 | Answers: 1 | Created: 2025-07-08
+
+**解决方案 / Solution**:
+My terminal emulator iTerm2 was the culprit. Similar issue: https://gitlab.com/gnachman/iterm2/-/issues/11576 Its configuration has Set locale environment variables automatically property and it is enabled by default. When enabled, it seems the region configuration of macOS is read and the corresponding LANG is injected (in my case ja_JP.UTF-8 ). I don't know how this works under the hood because the output of locale and export seems to be never affected by the configuration, but anyway, disabling it solved the problem.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797740/type-command-ignores-lang-after-upgrading-to-bash-5-3-on-iterm2-macos
+
+---
+
+#### 6128. Redirect `rtf` output to file
+
+**问题描述 / Problem Description**:
+Tags: bash, text-processing, grep, pdf | Score: 2 | Views: 149 | Answers: 1 | Created: 2025-06-17
+
+**解决方案 / Solution**:
+For saving colors to a file , try adding --color always : pdfgrep --color always "$author" *.pdf > output.txt Then you can cat the file and it'll still be bold and red where you need it. If for some reason you have a version of pdfgrep that doesn’t have these options (or you came here because you’re using a different program), you can instead put script -q /dev/null in front of the command to make a “fake” terminal: script -q /dev/null pdfgrep "$author" *.pdf > output.txt For converting to RTF , ansifilter is working pretty well for me: pdfgrep --color always "$author" *.pdf | ansifilter --rtf > output.rtf Basically, how this works is that pdfgrep writes some non-printing ANSI color codes . Red text starts with \e[0;31m and you can reset colors and formatting with \e[0m , so writing with red text looks like: echo $'here is \e[0;31mred text\e[0m' # the $ makes it interpret `\e` sequences But pdfgrep knows whether it's in a terminal that supports printing colors, so by default it will only insert these characters when they will do anything. You can override it with --color always .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797133/redirect-rtf-output-to-file
+
+---
+
+#### 6129. printf as a bash builtin vs an executable (behavior differences)
+
+**问题描述 / Problem Description**:
+Tags: bash, printf, coreutils, shell-builtin | Score: 2 | Views: 1301 | Answers: 4 | Created: 2025-06-15
+
+**解决方案 / Solution**:
+The page you link is outdated. /usr/bin/printf is generally provided by coreutils , and in coreutils v8.25 support was added for %q to printf : printf now supports the '%q' format to print arguments in a form that is reusable by most shells, with non-printable characters escaped with the POSIX proposed $'...' syntax. coreutils v8.25 was released 2016-01-20, so at this point most desktop/server Linux systems would have support.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797065/printf-as-a-bash-builtin-vs-an-executable-behavior-differences
+
+---
+
+#### 6130. Is there a Bash variable containing the name of the previously executed function?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, environment-variables, function | Score: 2 | Views: 272 | Answers: 4 | Created: 2025-05-04
+
+**解决方案 / Solution**:
+This seems like it would do what you want and doesn't require you to write/modify/call the functions in any specific way for it to work: $ cat tst.sh #!/usr/bin/env bash set -o functrace trap 'previous_function="$FUNCNAME"' RETURN function_x() { false } if ! function_x ; then echo "$previous_function has failed" else echo "call another function here" fi $ ./tst.sh function_x has failed Note that it's printing the name of the last function that ended, not the last function that started, which I assume is what you want: $ cat tst.sh #!/usr/bin/env bash set -o functrace trap 'previous_function="$FUNCNAME"' RETURN function_y() { false } function_x() { function_y } if ! function_x ; then echo "$previous_function has failed" else echo "call another function here" fi $ ./tst.sh function_x has failed See https://www.gnu.org/software/bash/manual/bash.html for more information on set -o functrace (or set -T ) and RETURN . To similarly get the exit status of the previous function ran, see How can I set a trap to print the name and exit status of each function as it's executed .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794496/is-there-a-bash-variable-containing-the-name-of-the-previously-executed-function
+
+---
+
+#### 6131. Using mapfile on the output of another command
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 256 | Answers: 1 | Created: 2025-04-28
+
+**解决方案 / Solution**:
+OK, thanks to @steeldriver, I saw the error in my ways. The mapfile must not be in a subshell, so this can be rewritten as: mapfile -t edited < <(sed s:Line:LINE: data) and edited gets the expected contents.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794277/using-mapfile-on-the-output-of-another-command
+
+---
+
+#### 6132. How does `*\ *` work in bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, wildcards, quoting, special-characters | Score: 2 | Views: 189 | Answers: 2 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+There are two parts to the globbing pattern *\ * . An asterisk matches zero or more characters A backslash escapes the following character so that it's not treated specially in any way by the shell. (It's the same as quoting it.) You could also write *\ * as *' '* or even *" "* , and in any case the space is treated just like any printable character rather than the token separator it otherwise is in the syntax of the shell. Note also, in response to a confusion in your question, that * can match a space just as happily as any other character (or set of characters). The pattern *\ * matches anything, then a space, then anything , so it guarantees there must be at least one space in file names that match. Finally, file names having spaces in them are not a problem provided your code is well written. For example, this will process any file name regardless * of the characters it contains: for f in *; do printf '>> %s <<\n' "$f"; done # ‡ * If you're in a Unicode locale you may hit problems with some byte sequences that do not correspond to valid Unicode characters. You can get around that by setting LC_CTYPE=C or LC_CTYPE=C.UTF8 ‡ It's easier to printf '>> %s<<\n' * but that wouldn't illustrate the point I wanted to make
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794030/how-does-work-in-bash
+
+---
+
+#### 6133. Using Here-Document as password Input for ssh
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, here-document | Score: 2 | Views: 332 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+You're right that a simple here-document won't work for SSH password input because SSH reads passwords directly from the terminal /dev/tty , not from stdin . Why heredoc does not work for sftp password? Can I use a heredoc to enter a password in bash? You can use expect , a tool designed for automation to achieve this in a fun project. Expect Script SSH Example Tutorial Expect script for remote SSH login and executing commands If you don't want to write an expect script, you can use sshpass in a one-liner. sshpass -ffilename ssh user@host # prefer this SSHPASS=$(secret-tool lookup mypasswd) sshpass -e ssh user@host # or this sshpass -pPa5sw0rd ssh user@host # avoid this How to specify password in ssh command sshpass – Login to ssh server with a password using a shell script How to automate SSH login with password? Both sshpass and expect are external tools and not part of Bash itself. The original point was more about syntax. But as you mentioned, you're aware of the security risks. The best method is always to work with SSH keys, whether for fun or production. GitHub error - Key is invalid. You must supply a key in OpenSSH public key format
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794017/using-here-document-as-password-input-for-ssh
+
+---
+
+#### 6134. Merging values from 2 YAML files in bash
+
+**问题描述 / Problem Description**:
+Tags: bash, syntax, yaml | Score: 2 | Views: 1110 | Answers: 2 | Created: 2025-04-16
+
+**解决方案 / Solution**:
+Mike Farah's yq is a YAML processor with a similar expression syntax as jq , a well known JSON processor. Its expressions are filters (not that this fact matters too much in this specific instance). In the expression . *= load("file") ... the initial dot in this expression stands for "the current document at this point", which in the given command will be whatever document yq reads from its input, i.e., the file ${{ parameters.HELM_CHART_PATH }}/values/global-values.yaml . The operator *= merges the document to the right into the document on the left, i.e., the input document with whatever the expression load("file") produces. The load() function will, in the expression in your question, load a document from ${{ parameters.HELM_CHART_PATH }}/values/DEV/${{ parameters.COMPONENT }}.yaml . This whole operation is a specific instance of the following command, which may be found under the section Merge two files together in the yq manual: yq '. *= load("file2.yml")' file1.yml For more examples of various merging operations, see the parent section Multiply (Merge) . With Andrey Kislyuk's yq , which is a wrapper around the jq processor (and which therefore shares its expression syntax exactly), a similar command would look like yq -y '. *= input' file1 file2 ... where, again, the dot stands for "the current document at this point", and where input reads the next object from input, which, if the two files contains a single top-level document, would be precisely like . *= load("file2") with Mike Farah's yq . The -y option is used to produce YAML output, or we would get a JSON document back.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793841/merging-values-from-2-yaml-files-in-bash
+
+---
+
+#### 6135. Dump bash stack trace on error with function parameters
+
+**问题描述 / Problem Description**:
+Tags: bash, stack | Score: 2 | Views: 285 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+Bash has the BASH_ARGC and BASH_ARGV arrays for that. BASH_ARGC tells how many arguments each function in the call stack has, and BASH_ARGV contains the arguments of all functions in order. Both require that shopt -s extdebug is enabled. It's just that the arguments in BASH_ARGV are in reverse order, with the rightmost argument of the innermost function at index 0, as if they were pushed onto a stack, left to right, with the top of stack at index 0. Cute, but awkward to use since the shell language doesn't provide syntax for dealing with a stack like that, and you'd likely want the leftmost argument first for printing anyway. (I.e. an array slice "${BASH_ARGV[@]:n:m}" would give the args in reverse order.) E.g. this: shopt -s extdebug bar() { printf "%d " "${BASH_ARGC[@]}"; echo printf "%s " "${BASH_ARGV[@]}"; echo } foo() { bar a b c } foo 1 2 will print 3 2 c b a 2 1 You'll need some index gymnastics to print a useful output, something to this direction: trace() { local i j pos=0 n for (( i=0; i < ${#FUNCNAME[@]}; i++ )); do printf "%s: " "${FUNCNAME[i]}" n=${BASH_ARGC[i]} pos=$((pos + n)) for (( j=1 ; j <= n; j++ )); do printf "%q " "${BASH_ARGV[pos - j]}" done echo done } If bar above calls trace instead of printing, that should output a trace like this: trace: bar: a b c foo: 1 2 main:
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793553/dump-bash-stack-trace-on-error-with-function-parameters
+
+---
+
+#### 6136. Bash script: ffmpeg problems with yt-dlp
+
+**问题描述 / Problem Description**:
+Tags: bash, macos, ffmpeg, yt-dlp | Score: 2 | Views: 775 | Answers: 2 | Created: 2025-03-31
+
+**解决方案 / Solution**:
+That error is reported by the check_keyboard_interaction() function in the code , so it looks like it's trying to read from its stdin and trying to interpret things there as further instructions. Here ffmpeg 's stdin is going to be the pipe from jq which ffmpeg should not read from. You'll want to disable stdin interaction with the -nostdin option. Or instead of doing yt-dlp -j --flat-playlist "$playlist_url" | jq -r '.id' twice and feeding the output the second time to the while loop, you could do something like: readarray -t list < <( yt-dlp -j --flat-playlist "$playlist_url" | jq -r .id ) (with the caveat that the exit status of yt-dlp and jq are lost) And then get the count with "${#list[@]}" and loop over them with for video_id in "${list[@]" instead of a while read loop in which case the stdin of ffmpeg will be left unmodified allowing the users to interact with it if they invoke that script from a terminal. Some other notes about your code: progress messages and other user-intended messages are better sent to stderr, while stdout should be left for the output that your script generates. Not critical here as your script doesn't generate output (it writes its output directly to files by itself). You could use a helper function such as info() { printf>&2 '%s\n' "$@"; } which would also help with: echo can't be used for arbitrary data, use printf instead . You're saying echo Downloaded... or echo Converted... but you're not checking the exit status of the previous commands to check if it was actually downloaded or converted . You should add some || return to the yt-dl / ffmpeg commands. there are missing quotes around some of the parameter expansions. read -r line is not the command to read a line. See Understanding "IFS= read -r line" . Likely not an issue here though as you're not modifying $IFS and the things that are read are unlikely to contain characters from the default value of $IFS .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793165/bash-script-ffmpeg-problems-with-yt-dlp
+
+---
+
+#### 6137. How can I take a sub-array in bash of the first N elements of a string array with elements containing spaces?
+
+**问题描述 / Problem Description**:
+Tags: bash, string, whitespace, bash-array | Score: 2 | Views: 696 | Answers: 1 | Created: 2025-03-24
+
+**解决方案 / Solution**:
+You are assigning the array slice to a non-array variable, so you are getting a string. If you instead assign to an array, and quote it to protect from split+glob, it will work as you expect: $ arr=("eins" "zwei" "eins plus zwei" "vier" "fünf") $ ar2=( "${arr[@]:0:3}" ) $ echo "${ar2[@]}" eins zwei eins plus zwei $ echo ${#ar2[@]} 3 You can even watch this happen in real time with set -x : $ set -x $ ar2=${arr[@]:0:3} + ar2='eins zwei eins plus zwei' As you can see, the expansion of ${arr[@]:0:3} is simply a string and it is being assigned to the variable passed as a single quoted string. If you want this to be split into an array, you need to process it accordingly: $ ar2=( "${arr[@]:0:3}" ) + ar2=(${arr[@]:0:3})
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792910/how-can-i-take-a-sub-array-in-bash-of-the-first-n-elements-of-a-string-array-wit
+
+---
+
+#### 6138. Redirect multiple Bash code files to SSH with Escaping (same SSH session)
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, io-redirection, openssh | Score: 2 | Views: 248 | Answers: 1 | Created: 2025-03-09
+
+**解决方案 / Solution**:
+You'd use -s when you want bash to take its code from stdin even when passed arguments as in: <script bash -s arg1-for-the-script arg2-for-the-script As otherwise, in <script bash arg1-for-the-script arg2-for-the-script , bash would try to run the arg1-for-the-script script instead (with script on stdin). In <script bash -s , the -s is superfluous as bash takes the code from stdin when not given any arguments anyway. Now, as to whether some escaping should be done, yes, but it's probably not the escaping you had in mind, and it's down to the bogus -tt option you're passing to ssh (more on that at Why is this binary file transferred over "ssh -t" being changed? ), and that -tt causes problems on the output side as well. With -tt , sshd on the remote host creates a pseudo terminal for a remote command that expects to do input/output with an interactive user, and ssh 's stdin/stdout/stderr is expected to be input/fed to a terminal device in raw mode. For instance, if a 0x3 byte ( ^C ) is sent to ssh, that will cause a SIGINT to be sent to the remote command, characters read from the script will be interpreted as if key-pressed by the line editor of the remote pseudo-terminal line discipline, with ^? treated as backspace, ^U as erasing the line, etc. So there are characters that need to be escaped indeed, but they are normally only control characters, and you wouldn't escape them with \ or quoting but with the lnext character (usually ^V ). Moreover, as bash's input is a tty device file, bash (with or without -s ) will enter its interactive mode where for instance it issues prompts for the user, reads ~/.bashrc and replaces the limited tty device driver line editor with its own line editor ( readline ), which handles even more control sequences (note that switch will happen after the tty driver has already processed most if not all of the input in its own line editor), so unless you disable that interactive mode (like with cat | bash or bash -c 'source /dev/stdin' instead of bash ), you'd have to do two escapings, one for the tty driver line editor, one for bash's readline. But that's not what you want to do here, and eventual control characters in those scripts are the least of your concerns when I/O ends up being to a tty device file. Here, you want to remove that -tt which does not make sense. If sudo requires a terminal, fix the (broken) sudo configuration that causes that (see Why do I need a tty to run sudo if I can sudo without a password? ). cat functions1 functions2 chroot_script.sh | ssh "$ssh_command_target" bash Unless you have bogus script files whose last line is not properly delimited, you should not need to insert an extra newline between those files. Also remember that in bash, parameter expansions must almost always be quoted. If $ssh_command_target is meant to be one argument for ssh , it should be "$ssh_command_target" and if it's an array of arguments (defined for instance as ssh_command_target=( -p 222 "root@$host" ) ) "${ssh_command_target[@]}" . If you can't fix sudo 's configuration, use another method to create a pseudo terminal for it such as the ones using expect or script described at my answer to Why do I need a tty to run sudo if I can sudo without a password? . Example: $ echo $'ps -o tty -p "$$"; echo \3 | hexdump -C' | ssh localhost 'SHELL=/bin/sh script -qec " bash <&3 >&4 2>&5 3<&- 4>&- 5>&- " /dev/null 3<&0 </dev/null 4>&1 5>&2' TT pts/3 00000000 03 0a |..| 00000002 The ps output shows that the bash process has a controlling tty, so a sudo configured with Defaults requiretty would be happy, and the 0x3 byte has been passed undisturbed to bash . In your case, you'd run: cat functions1 functions2 chroot_script.sh | ssh "$ssh_command_target" 'SHELL=/bin/sh script -qec " exec bash <&3 >&4 2>&5 3<&- 4>&- 5>&- " /dev/null 3<&0 </dev/null 4>&1 5>&2' (but again with all that trouble only needed to work around that counterproductive sudo settings).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792152/redirect-multiple-bash-code-files-to-ssh-with-escaping-same-ssh-session
+
+---
+
+#### 6139. Prevent gnome keyring password being reset after update
+
+**问题描述 / Problem Description**:
+Tags: fedora, gnome, opensuse, gnome-keyring, seahorse | Score: 2 | Views: 1107 | Answers: 1 | Created: 2024-02-29
+
+**解决方案 / Solution**:
+I have found a workaround by following these steps: Open Seahorse (Passwords & Keys) GUI app Create a new keyring with a different name such as mykeyring and set it as the default Delete the existing Login keyring. Gnome Keyring re-creates the Login keyring after an update and sets its password to the default value but the new default keyring mykeyring is not altered. The existing credentials (if any) stored in Login keyring would be lost on deleting it, I tried manually copying them over from ~/.local/share/keyrings/login.keyring to the new keyring file as I couldn't find a transfer/export option in Seahorse GUI but it did not work.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771331/prevent-gnome-keyring-password-being-reset-after-update
+
+---
+
+#### 6140. DaVinci Resolve Symbol Lookup Error on Fedora 39 within VanillaOS Orchid's Apx Container
+
+**问题描述 / Problem Description**:
+Tags: fedora, libraries, container | Score: 2 | Views: 2082 | Answers: 1 | Created: 2024-02-14
+
+**解决方案 / Solution**:
+I ran into the same error on Fedora 39. This GitHub guide fixed it for me. DaVinci Resolve 39 ships with some outdated libraries that seem to conflict with installed system libraries, and copying the ones mentioned in the guide to a disabled-libraries subfolder did the trick.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/769303/davinci-resolve-symbol-lookup-error-on-fedora-39-within-vanillaos-orchids-apx-c
+
+---
+
+#### 6141. USB-C Power Delivery charging not working on Linux
+
+**问题描述 / Problem Description**:
+Tags: fedora, usb, power-management | Score: 2 | Views: 2713 | Answers: 1 | Created: 2024-01-15
+
+**解决方案 / Solution**:
+Have exactly the same issue (asus laptop, ryzen), in my case I fixed it by echo ing "source" and then "sink" to /sys/class/typec/port0/power_role (depends on port you plugged), and voila it starts to charge. Maybe you'll need to echo multiple times. But idk why this issue persists.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/766953/usb-c-power-delivery-charging-not-working-on-linux
+
+---
+
+#### 6142. bash - remove \n, but only for uneven lines
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 95 | Answers: 1 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+To merge two lines you can use the following AWK script: awk 'NR % 2 != 0 { printf "%s ", $0; next } 1' Add that to the end of your pipeline, before the head command, and you’ll get the desired output. This works by printing odd-numbered lines with a space at the end and no newline, and all other lines as usual with a newline; thus odd-numbered lines are concatenated with the following line. Note that AWK can do anything that grep and sed can, so you can reduce the number of commands involved; for example curl -s https://www.lpi.org/our-certifications/exam-101-102-objectives/ | awk '/id="10[0-9].[0-9]/ { n=7 } n-- >= 0 && /#eaeaea|^<h4>/ {print $3}' | awk '{ gsub("id=\"", ""); gsub("\"><span$", ""); gsub("_", " ") } NR % 2 != 0 { printf "%s ", $0; next } 1' | head (This is why I would go for an AWK-based answer to your “merging lines” problem; see Text processing - join every two lines with commas for other approaches. Bear in mind that parsing HTML with a non-HTML-oriented parser is error-prone.) It is possible to simplify the extraction by only looking for lines containing <h4> or <b>Weight</b> : curl -s https://www.lpi.org/our-certifications/exam-101-102-objectives/ | awk '/<h4>/ { gsub("<[^>]*>", ""); printf "%s", $0 } /<b>Weight<\/b>/ { weight = 1 } weight && /#eaeaea/ { weight = 0; gsub("<[^>]*>", ""); print }'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797871/bash-remove-n-but-only-for-uneven-lines
+
+---
+
+#### 6143. How to restore set options when a sourced script returns and have errexit-like behaviour?
+
+**问题描述 / Problem Description**:
+Tags: bash, trap | Score: 1 | Views: 167 | Answers: 2 | Created: 2025-07-03
+
+**解决方案 / Solution**:
+IMO your desire to source the file that makes changes to the variables is in conflict with the desire to reset those variables back to their original (default) values. You'll have a much cleaner reset back to original values and less complex code if you adopt a parent/child approach. (already suggested in a comment) When a parent script process exports variables, a child script inherits the exported variables. So the approach I suggest is to have two scripts, one that will source a file with the default values for these variables and invoke a child script. The child script will customize its copy of the variables (either through explicit code in the script, or by sourcing a different file than the parent script used) and then invoke the commands that make use of the customized variables. Afterward the child script exits. When the child script exits, the parent continues to have the original (default) values in the variables. The parent script can invoke the child again, perhaps with command-line arguments that tell the child script to source another file to customize the variables, and invoke the commands that make use of the customized variables. Then the child script exits again. With this approach, your script doesn't have to have a routine that carefully wipes the modified variables and re-loads the original values. It happens automatically by virtue of the child script exiting and the parent invoking the child script again.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797637/how-to-restore-set-options-when-a-sourced-script-returns-and-have-errexit-like-b
+
+---
+
+#### 6144. Script fails when run, but succeeds when commands are run manually
+
+**问题描述 / Problem Description**:
+Tags: bash, systemd | Score: 1 | Views: 190 | Answers: 2 | Created: 2025-06-16
+
+**解决方案 / Solution**:
+The text and the return code tell you the same thing: your script gets terminated by a SIGTERM. In general exit codes > 128 indicate that the script was terminated by a signal. TERM is signal 15 which results in 128 + 15 = exit code 143. In Bash a kill -l prints a nice list of all signals and there number. So I would guess either your C++ code is run in a SSH session or your C++ program or script have "ssh" in their name. ( pkill kills anything containing the search pattern; not only processes whose full name is "ssh") As David G. mentioned in the comment pkill -x or pkill --exact can be used so it must match the entire name. Also since pkill and pgrep are related to each other the second (preferable as pgrep -l to also show process names) can be used to "dry-run" the kill and see what is matched.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797081/script-fails-when-run-but-succeeds-when-commands-are-run-manually
+
+---
+
+#### 6145. Safely Handling Filenames with Newlines Using find and while read
+
+**问题描述 / Problem Description**:
+Tags: bash, filenames | Score: 1 | Views: 218 | Answers: 2 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+To deal with arbitrary file paths, you need: With GNU find (4.9 or newer): printf '%s\0' "$search_dir" | find -files0-from - -type f -print0 | while LC_ALL=C IFS= read -rd '' file; do something with "$file" done With BSD find : find -f "$search_dir" -- -type f -print0 | while LC_ALL=C IFS= read -rd '' file; do something with "$file" done With find and sh / read compliant to POSIX 2024+ (though that prefixes $file with ./ for some values of $search_dir ) case $search_dir in ([./]* | "") find "$search_dir" -type f -print0;; (*) find "./$search_dir" -type f -print0;; esac | LC_ALL=C IFS= read -rd '' file; do something with "$file" done With any POSIX find , sh (same note as above and beware that may run more than one sh invocation): case $search_dir in ([./]* | "") dir=$search_dir;; (*) dir=./$search_dir;; esac find "$dir" -type f -exec sh -c ' for file do something with "$file" done' sh {} + find "$search_dir" wouldn't work with values of $search_dir that start with - or are find predicates such as ( or ! . Standardly, the only work around is to prefix those with ./ (which we do here for anything that doesn't start with . or / ), but with GNU find , that can be worked around by passing the file list (here just $search_dir ) NUL-delimited on its stdin using -files0-from - and with BSD find by passing each file path to a separate -f option. You need -print0 (or -exec printf '%s\0' {} + to be compliant to POSIX 2018 or earlier) for the output to be post-processable (as newline is as valid a character as any in a file path). read -d '' for read to read NUL-delimited records instead of lines (supported by bash, zsh, NetBSD sh and recent versions of ksh93u+m at least and will be supported by more now that it's mandated by POSIX). -r to disable the backslash processing (where backslash escapes $IFS characters, itself and the record d elimiters). IFS= to disable the splitting of those records into words (and with the default value of $IFS avoiding trailing tab, newline and spaces to be removed from the file paths). The only time you may want to skip setting IFS for read is when you do actually want the record to be split into words on what happens to be the current value of $IFS , but then you generally also pass more than one variable to read or use read -A array ( read -a array in bash), or with bash (and bash only) if not passing a variable in which case bash (like ksh and other Korn-like shells do) read defaults to the REPLY variable and (unlike ksh and other Korn-like shells) doesn't do the $IFS -splitting. LC_ALL=C needed to work around bugs in some versions of bash , and more generally avoid file paths to be decoded as text which may fail. Those are assuming you need a shell to do something with those files. To just run one external command with the path as argument, you don't need a shell, just pass -exec cmd -- {} ';' to find . If switching to zsh is an option, then you can just do: for file (**/*(ND.)) something with $file Where the . glob qualifier is the equivalent of find 's -type f . Though note that it obtains and stores the full list in memory before starting to loop over it. You do get a sorted list though and it makes it easier to skip hidden files (by just removing the D glob qualifier).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796814/safely-handling-filenames-with-newlines-using-find-and-while-read
+
+---
+
+#### 6146. url argument with quotes in yt-dlp
+
+**问题描述 / Problem Description**:
+Tags: bash, yt-dlp | Score: 1 | Views: 217 | Answers: 1 | Created: 2025-06-01
+
+**解决方案 / Solution**:
+I'm not sure what you're actually asking for. Do you want to know why you need the quotes? The answer is here: v=2733cRPudvI & list= The ampersand. It has a special meaning in bash, background the command . ? is a globbing operator that matches any single character and should also be quoted. For instance after: mkdir -p https://www.youtube.com/watch{1..9}v=2733cRPudvI And set -o xtrace , you'd see: bash-5.2$ set -o xtrace bash-5.2$ youtube_download youtube_download https://www.youtube.com/watch?v=2733cRPudvI&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w [1] 6484 + list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w bash-5.2$ + youtube_download youtube_download https://www.youtube.com/watch1v=2733cRPudvI https://www.youtube.com/watch2v=2733cRPudvI https://www.youtube.com/watch3v=2733cRPudvI https://www.youtube.com/watch4v=2733cRPudvI https://www.youtube.com/watch5v=2733cRPudvI https://www.youtube.com/watch6v=2733cRPudvI https://www.youtube.com/watch7v=2733cRPudvI https://www.youtube.com/watch8v=2733cRPudvI https://www.youtube.com/watch9v=2733cRPudvI Where you see youtube_download called in background with 9 URLs in argument that the list=... variable assignment run in foreground. BTW, you also forgot the double quotes around $* and $url in your function which would also cause problem with those glob operators and also if the arguments or $url contained characters of $IFS .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796500/url-argument-with-quotes-in-yt-dlp
+
+---
+
+#### 6147. coproc redirect to stdout
+
+**问题描述 / Problem Description**:
+Tags: bash, file-descriptors, coprocesses | Score: 1 | Views: 233 | Answers: 1 | Created: 2025-05-27
+
+**解决方案 / Solution**:
+From info bash coprocess : Other than those created to execute command and process substitutions, the file descriptors are not available in subshells. cmd & or (cmd) ... introduce a subshell where fds to co-processes are closed as can be seen in the code . Here, you could do: { cat & } <&"${monitor[0]}" (or { cat & } <&"$monitor" as $var in bash like in ksh is short for ${var[0]} ) where the fd is duplicated to fd 0 before the subshell is created (or use another shell with co-process support).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796343/coproc-redirect-to-stdout
+
+---
+
+#### 6148. Bash profile seems not to be loaded when -c option is present
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, alias | Score: 1 | Views: 198 | Answers: 1 | Created: 2025-05-26
+
+**解决方案 / Solution**:
+bash -c is to run inline scripts , where bash runs non-interactively like for regular scripts. bash doesn't read user or system startup files when non-interactive (other than $BASH_ENV unless in POSIX/ sh mode) unless its argv[0] starts with - or passed the -l / --login option in which case it interprets the login session initialisation files such as ~/.bash_profile (or ~/.profile when in POSIX mode). But, bash also has that particularity that when non-interactive, it doesn't expand aliases unless it's in POSIX mode or the expand_aliases option (from its second set of options) is enabled. So, here, for ~/.bash_profile to be read and for aliases to be expanded you need: -l / --login or a argv[0] starting with - (but not being -sh or -/bin/sh ...) or BASH_ENV=~/.bash_profile . bash not being in POSIX mode, so $POSIXLY_CORRECT not set, no posix in $SHELLOPTS , not invoked as sh or with -o posix or --posix ... the expand_aliases option to be explicitly enabled like with shopt -s expand_aliases inside your ~/.bash_profile or ~/.bashrc if sourced from within ~/.bash_profile , or with -O expand_aliases passed to bash or with expand_aliases included in $BASHOPTS . env -u POSIXLY_CORRECT -u SHELLOPTS bash -O expand_aliases -lc alias_test Should do it (the env -u POSIXLY_CORRECT -u SHELLOPTS part probably not needed). But if you only want ~/.bashrc to be interpreted, you could do: BASH_ENV=~/.bashrc bash -O expand_aliases -c alias_test (you may also need env -u POSIXLY_CORRECT -u SHELLOPTS as $BASH_ENV is not sourced when in POSIX mode which $POSIXLY_CORRECT and $SHELLOPTS could enable). Though beware that that $BASH_ENV will be inherited by all commands run from that bash recursively. And if some of those are bash scripts, that will cause ~/.bashrc to be interpreted before the scripts themselves.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796285/bash-profile-seems-not-to-be-loaded-when-c-option-is-present
+
+---
+
+#### 6149. How to get out of login loop?
+
+**问题描述 / Problem Description**:
+Tags: bash, login, tty, startx | Score: 1 | Views: 368 | Answers: 1 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+exec startxat the end of my .bash_profile Don't do that, full stop. I don't know how you thought this was anything close to a good idea, and as you see now, it's not. If you have ssh set up so that you can log in from a different machine, then you can use that to remove that line from your .bash_profile (if in doubt, copy the file off your PC using scp , modify, copy it back using scp ). I guess you haven't, that's why you're asking! The quickest solution is probably to boot off a live USB medium prepared on a different machine (like the one you're using to type your question here! Welcome!), mount the volume on which your ~/.bash_profile lies, remove the line, and reboot. For the future: Instead of logging in on a console, and then typing startx every time, just use a graphical login manager with an i3 session. That makes way more sense.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796277/how-to-get-out-of-login-loop
+
+---
+
+#### 6150. How can I set a trap to print the name and exit status of each function as it's executed
+
+**问题描述 / Problem Description**:
+Tags: bash, trap | Score: 1 | Views: 237 | Answers: 1 | Created: 2025-05-04
+
+**解决方案 / Solution**:
+The following combination of RETURN and DEBUG traps set the DEBUG trap each time a RETURN trap fires and then disable it again as soon as that DEBUG trap has been handled. In that way we can capture the function name when the RETURN trap fires then print it with its exit status when the DEBUG trap fires practically immediately afterwards, then stop any subsequent undesirable DEBUG information from being displayed: $ cat tst.sh #!/usr/bin/env bash set -o functrace trap 'trap "handle_trap \"$FUNCNAME\"" DEBUG' RETURN handle_trap() { printf '%s: function name=%s, exit status=%s\n' "$FUNCNAME" "$1" "$?" trap - DEBUG } foo() { return 3 } if foo; then echo "Success"; else echo "Failure"; fi $ ./tst.sh handle_trap: function name=foo, exit status=3 Failure In the following code I just added some hierarchical function calls and functions with both success and failure exit statuses for more comprehensive testing: $ cat tst.sh #!/usr/bin/env bash set -o functrace trap 'trap "handle_trap \"$FUNCNAME\"" DEBUG' RETURN handle_trap() { printf '%s: function name=%s, exit status=%s\n' "$FUNCNAME" "$1" "$?" trap - DEBUG } this() { return 17 } foo() { this } bar() { foo return 0 } if foo; then echo "foo() Success"; else echo "foo() Failure"; fi if bar; then echo "bar() Success"; else echo "bar() Failure"; fi $ ./tst.sh handle_trap: function name=this, exit status=17 handle_trap: function name=foo, exit status=17 foo() Failure handle_trap: function name=this, exit status=17 handle_trap: function name=foo, exit status=17 handle_trap: function name=bar, exit status=0 bar() Success
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794517/how-can-i-set-a-trap-to-print-the-name-and-exit-status-of-each-function-as-its
+
+---
+
+#### 6151. Multiline command substitution - syntax errors with mysterious `+1`
+
+**问题描述 / Problem Description**:
+Tags: bash, prompt, escape-characters, command-substitution | Score: 1 | Views: 231 | Answers: 1 | Created: 2025-04-30
+
+**解决方案 / Solution**:
+You mentioned this command running on each prompt: export _myhistcmd=$(( $(fc -l -1 | cut -f1) +1 )) Now, for whatever reason, line breaks inside a command substitution cause the output of fc to split to separate lines, while line breaks outside a command substitution are removed. That is, the command here (with a backslashed continuation line and no command substitution) prints on one line: $ echo 'blah foo bar' \ > | grep -F 'blah' $ fc -l -1 4123 echo 'blah foo bar' | grep -F 'blah' While the similar case with a command substitution prints on two lines: $ foo=$(echo 'blah foo bar' \ > | grep -F 'blah') $ fc -l -1 4131 foo=$(echo 'blah foo bar' \ | grep -F 'blah') The cut -f1 takes the first tab-separated field from each line, and that should be the tab after the line number. But the second line doesn't have a line number, and no tabs, so all of it is included and the arithmetic expression ends up as: 4131 | grep -F 'blah') +1 And that's shown in the error message, newline and all. The newline is fine, but that quoted string isn't valid arithmetic expression syntax, and that's what the error is about. The second variant has 4133 and grep back to back, and while they're valid values as such, the syntax would require an operator between them, so the error message is different. You can decide if that's a bug in how fc outputs the command, or in how the prompt command script uses fc .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794387/multiline-command-substitution-syntax-errors-with-mysterious-1
+
+---
+
+#### 6152. How to check if env exist in bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables | Score: 1 | Views: 12083 | Answers: 2 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+-n checks if a variable is not null. In bash 4.2 or later you have the -v operator which checks if a variable is set even if it doesn't have a value, so that might be a scenario you want to cover. Bash uses the extended test [[ so the "bash" test would be: [[ -n "$VAR" ]] However this variable could just be a local variable, if you want to check if it's exported you would need something like: if env | grep -q '^VAR='; then
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793720/how-to-check-if-env-exist-in-bash
+
+---
+
+#### 6153. bash: take exclusive control of the console/tty
+
+**问题描述 / Problem Description**:
+Tags: bash, ncurses, dialog | Score: 1 | Views: 152 | Answers: 2 | Created: 2025-04-11
+
+**解决方案 / Solution**:
+I don't know any way to dump any kernel console output from the script but maybe you can try to stop kernel flooding your console To do this, uncomment this line in /etc/sysctl.conf #kernel.printk = 3 4 1 3 and apply: reboot is recommended but you can try: sudo sysctl -p /etc/sysctl.conf
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793608/bash-take-exclusive-control-of-the-console-tty
+
+---
+
+#### 6154. Using bash history expansion, can you replace the first argument of the last time a command ran, when it's not the most recent command?
+
+**问题描述 / Problem Description**:
+Tags: bash, history-expansion | Score: 1 | Views: 116 | Answers: 2 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+If you’re sure you originally ran the command with only one file (and not cat file1 file2 | less ): cat even/longer/path/to/file3.txt !cat:2* or !cat:0 even/longer/path/to/file3.txt !cat:2* As you understand (you said it in your question), !cat: n refers to the n th word in the most recent command that begins with the string “ cat ”. And, as described in bash(1) and the Bash Reference Manual , : n * abbreviates : n -$ , and so refers to the n th word through the last word.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793214/using-bash-history-expansion-can-you-replace-the-first-argument-of-the-last-tim
+
+---
+
+#### 6155. Why are some terminal control characters shadowed by readline
+
+**问题描述 / Problem Description**:
+Tags: bash, terminal, readline | Score: 1 | Views: 149 | Answers: 2 | Created: 2025-04-01
+
+**解决方案 / Solution**:
+bash's line editor (readline) by default doesn't disable terminal flow control (like stty -ixon would), so those (triggered by ^S and ^Q characters by default on input) still apply. Same goes for isig that controls the signal sending characters such as ^C , ^Z and ^\ at least though the shell has handlers for the corresponding signals (SIGINT, SIGTSTP and SIGQUIT). In zsh, you can can do: set +o flowcontrol For zle (zsh's line editor) to disable tty flow control, so you can bind ^S ( history-incremental-search-forward by default in emacs mode like in emacs ) and ^Q ( push-line by default in emacs mode). In bash, there's no equivalent option, but if you disable ixon outside of readline like with: stty -ixon readline will leave it disabled whilst it's operating, so that's how you can disable flow control in bash's line editor (though that means that also affects other applications for which flow control will also be disabled). Then, like for zsh, you can bind ^S ( forward-search-history by default in emacs mode) and ^Q ( quoted-insert by default in emacs mode like in emacs ). reprint , which I can find described on BSDs or AIX (with iextend ) is: REPRINT Special character on input and is recognized if the ICANON flag is set. Causes the current input edit line to be retyped. And readline does disable ICANON obviously as that's about the terminal driver internal line editor whose readline job is to replace.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793208/why-are-some-terminal-control-characters-shadowed-by-readline
+
+---
+
+#### 6156. Why can't I run an interactive command in awk in a pipeline?
+
+**问题描述 / Problem Description**:
+Tags: bash, awk, ed | Score: 1 | Views: 156 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+In the first case you have left stdin (and stdout) alone, so ed reads from the terminal and gets input you type on the terminal. In the second case you have redirected the stdin of awk and thus also ed to stdout from the echo command/process, so ed gets as input the line 'hello' which is not a valid ed command, followed by an EOF which with the buffer empty causes it to exit (like a q command), just as if you gave the interactive shell command ed then immediately typed control-D or equivalent. You can run ed interactively by redirecting back to the terminal: system("ed </dev/tty") . But this accomplishes nothing that you don't get just running ed directly from the shell, so why bother?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792733/why-cant-i-run-an-interactive-command-in-awk-in-a-pipeline
+
+---
+
+#### 6157. In bash, how to resolve what is actually going to be executed?
+
+**问题描述 / Problem Description**:
+Tags: bash, symlink, path, readlink | Score: 1 | Views: 252 | Answers: 3 | Created: 2025-03-12
+
+**解决方案 / Solution**:
+Assuming that there is no solution out of the box, I expanded Jukka Matilainen answer to include the resolution of aliases, recursion, and print the steps. clevertype () { input="$1" force_file= _clevertype() { if [[ -n $force_file || "$(type -t "$1")" == "file" ]]; then if [[ $(type -p "$1") != "$1" ]]; then echo "Resolving from PATH: $1 -> $(type -P "$1")" _clevertype $(type -P "$1") elif [[ -L "$1" ]]; then echo "Resolving links: $1 -> $(readlink -e "$(type -p "$1")")" _clevertype $(type -P "$(readlink -e "$(type -P "$1")")") else echo "$input is $1" fi elif [[ "$(type -t "$1")" == "alias" ]]; then echo "Resolving alias: $1 -> ${BASH_ALIASES[$1]}" re="[[:space:]]+" force_file=1 if [[ "${BASH_ALIASES[$1]}" =~ $re ]]; then array=(${BASH_ALIASES[$1]}) _clevertype ${array[0]} echo "$input is ${BASH_ALIASES[$1]}" else _clevertype ${BASH_ALIASES[$1]} fi else type "$1" fi } _clevertype "$1" } This gives the following output: $ clevertype /usr/bin/python3.13 /usr/bin/python3.13 is /usr/bin/python3.13 $ clevertype python3.13 Resolving from PATH: python3.13 -> /usr/bin/python3.13 python3.13 is /usr/bin/python3.13 $ clevertype python Resolving from PATH: python -> /usr/bin/python Resolving links: /usr/bin/python -> /usr/bin/python3.13 python is /usr/bin/python3.13 $ clevertype /usr/bin/python3 Resolving links: /usr/bin/python3 -> /usr/bin/python3.13 /usr/bin/python3 is /usr/bin/python3.13 $ clevertype mypython Resolving alias: mypython -> python Resolving from PATH: python -> /usr/bin/python Resolving links: /usr/bin/python -> /usr/bin/python3.13 mypython is /usr/bin/python3.13 $ clevertype alias1 Resolving alias: alias1 -> alias2 Resolving alias: alias2 -> alias3 Resolving alias: alias3 -> /usr/bin/python Resolving links: /usr/bin/python -> /usr/bin/python3.13 alias1 is /usr/bin/python3.13 $ clevertype myfunction myfunction is a function myfunction () { echo hello } $ clevertype type type is a shell builtin $ clevertype mytype Resolving alias: mytype -> type type is a shell builtin $ clevertype ls Resolving alias: ls -> ls --color=auto Resolving from PATH: ls -> /usr/bin/ls ls is /usr/bin/ls ls is ls --color=auto There might be pathological cases where it does not work, since it tries to mimic complex behaviors from bash and the the operating system. For instance, "ls" is often an alias to "ls [options]", like can be seen in the last example. It might not work if the command has spaces.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792354/in-bash-how-to-resolve-what-is-actually-going-to-be-executed
+
+---
+
+#### 6158. recursive call to gnu parallel
+
+**问题描述 / Problem Description**:
+Tags: bash, recursive, gnu-parallel | Score: 1 | Views: 141 | Answers: 2 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+The problem is that different parallel instances do not "enqueue" anything between each other. Each individual instance has a queue, but two instances have two separate queues – for example, running it twice on a 8-core system would result in 16 jobs at once, not 8. So you have X CPU cores, so parallel runs X instances of the script (of the 'replicate' function). Then each instance runs parallel again to create X more instances of the script, resulting in X +X² instances of the script. Then each of those runs parallel again, resulting in X+X² +X³ instances of the script. This very quickly grows from 8 to 72 to 584 to 4680 to 37448 processes trying to perform I/O concurrently – until you run out of subdirectories or RAM or patience.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792078/recursive-call-to-gnu-parallel
+
+---
+
+#### 6159. How to get a file quicker in TAB:menu-complete binding?
+
+**问题描述 / Problem Description**:
+Tags: bash, autocomplete, readline | Score: 1 | Views: 326 | Answers: 2 | Created: 2025-03-06
+
+**解决方案 / Solution**:
+With Tab bound to the Readline function menu-complete , you can get the last match by pressing Esc followed by -1 (or just - ) and then Tab . The initial Esc followed by -1 will display a line saying (arg: -1) , this indicates that you will be providing -1 as the argument to the next Readline function that you invoke. The menu-complete function will use this to jump to the corresponding match. From the readline(3) manual: menu-complete Similar to complete , but replaces the word to be completed with a single match from the list of possible completions. Repeated execution of menu-complete steps through the list of possible completions, inserting each match in turn. At the end of the list of completions, the bell is rung (subject to the setting of bell-style ) and the original text is restored. An argument of n moves n positions forward in the list of matches; a negative argument may be used to move backward through the list. This command is intended to be bound to TAB , but is unbound by default. As far as I'm aware, the order of the completion cannot be changed. Filenames are completed in the order the shell expands filename patterns (globs).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792039/how-to-get-a-file-quicker-in-tabmenu-complete-binding
+
+---
+
+#### 6160. Multi level submenu, return to previous level and main menu as options
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, menu | Score: 1 | Views: 432 | Answers: 2 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+Initial thoughts were towards maintaining some sort of call stack for the menu/functions, with return codes (or more likely variable settings) determining how the 'parent' menu/function is to function upon return from the child menu/function call. And I'd probably look at something along this lines if there's a need to maintain some sort of recursive data sets (eg, appending to data when going 'down', stripping off data when going 'up') but there's nothing in OP's question indicating this level of data manipulation so ... A simplistic approach would be to have each menu choice/action designate the 'next' command (eg, break , <function_name> ) to be called, with a simple while true loop at the top level executing the 'next' command. Implementing OP's sample menus with some verbose bash code, with undefined actions/menus implemented as simple echo calls: ########## menu_main() { printf "\n#### current function: ${FUNCNAME}\n" local menu choice menu=" 1 - Option 1 2 - Option 2 3 - Quit (exit command) " unset next while true do echo "${menu}" read -p "Pick Number> " choice case $choice in 1) next=menu_1 ;; 2) echo "choice #${choice}, do something" ;; 3) next=break ;; *) echo "Invalid choice, please try again";; esac [[ -n "${next}" ]] && break done } ########## menu_1() { printf "\n#### current function: ${FUNCNAME}\n" local menu choice menu=" 1 - Sub-Option 1 2 - Sub-Option 2 3 - back to main menu " unset next while true do echo "${menu}" read -p "Pick Number> " choice case $choice in 1) next=menu_1_1 ;; 2) echo "choice #${choice}, do something" ;; 3) next=menu_main ;; *) echo "Invalid choice, please try again";; esac [[ -n "${next}" ]] && break done } ########## menu_1_1() { printf "\n#### current function: ${FUNCNAME}\n" local menu choice menu=" 1 - Sub-Sub-Option 1 2 - Sub-Sub-Option 2 3 - back Sub-option menu 4 - back to main menu " unset next while true do echo "${menu}" read -p "Pick Number> " choice case $choice in 1) echo "choice #${choice}, do something" ;; 2) echo "choice #${choice}, do something" ;; 3) next=menu_1 ;; 4) next=menu_main ;; *) echo "Invalid choice, please try again";; esac [[ -n "${next}" ]] && break done } NOTES: this code merely demonstrates the overall concept several variations could be made including the use of select , the use of a single 'generic' menu function that uses input args to access a specific menu's items/actions (stored in arrays), etc unlike OP's sample code that shows a nested function call, this approach makes NO nested function calls; OP is responsible for insuring each function, upon returning, instructs the parent while true loop as to the 'next' operation Taking for a test drive: next=menu_main while true do echo "#### next: ${next}" ${next} done The output from exercising all menu options: #### next: menu_main #### current function: menu_main 1 - Option 1 2 - Option 2 3 - Quit (exit command) Pick Number> 1 #### next: menu_1 #### current function: menu_1 1 - Sub-Option 1 2 - Sub-Option 2 3 - back to main menu Pick Number> 1 #### next: menu_1_1 #### current function: menu_1_1 1 - Sub-Sub-Option 1 2 - Sub-Sub-Option 2 3 - back Sub-option menu 4 - back to main menu Pick Number> 1 choice #1, do something 1 - Sub-Sub-Option 1 2 - Sub-Sub-Option 2 3 - back Sub-option menu 4 - back to main menu Pick Number> 2 choice #2, do something 1 - Sub-Sub-Option 1 2 - Sub-Sub-Option 2 3 - back Sub-option menu 4 - back to main menu Pick Number> 3 #### next: menu_1 #### current function: menu_1 1 - Sub-Option 1 2 - Sub-Option 2 3 - back to main menu Pick Number> 1 #### next: menu_1_1 #### current function: menu_1_1 1 - Sub-Sub-Option 1 2 - Sub-Sub-Option 2 3 - back Sub-option menu 4 - back to main menu Pick Number> 4 #### next: menu_main #### current function: menu_main 1 - Option 1 2 - Option 2 3 - Quit (exit command) Pick Number> 1 #### next: menu_1 #### current function: menu_1 1 - Sub-Option 1 2 - Sub-Option 2 3 - back to main menu Pick Number> 2 choice #2, do something 1 - Sub-Option 1 2 - Sub-Option 2 3 - back to main menu Pick Number> 3 #### next: menu_main #### current function: menu_main 1 - Option 1 2 - Option 2 3 - Quit (exit command) Pick Number> 2 choice #2, do something 1 - Option 1 2 - Option 2 3 - Quit (exit command) Pick Number> 3 #### next: break $ # return back to the console's command prompt
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792003/multi-level-submenu-return-to-previous-level-and-main-menu-as-options
+
+---
+
+#### 6161. How can I make my shell prompt show the working directory relative to an arbitrary directory?
+
+**问题描述 / Problem Description**:
+Tags: bash, prompt | Score: 1 | Views: 207 | Answers: 2 | Created: 2025-03-04
+
+**解决方案 / Solution**:
+From the bash manual: PROMPT_DIRTRIM If set to a number greater than zero, the value is used as the number of trailing directory components to retain when expanding the \w and \W prompt string escapes (see PROMPTING below). Characters removed are replaced with an ellipsis. If your prompt string ( PS1 ) uses \w or \W , you might want to use PROMPT_DIRTRIM=2 . myself@myhost:~$ echo $PS1 ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ myself@myhost:~$ mkdir -p a/b/c/d/e myself@myhost:~$ cd a/b/c/d/e/ myself@myhost:~/a/b/c/d/e$ myself@myhost:~/a/b/c/d/e$ PROMPT_DIRTRIM=2 myself@myhost:~/.../d/e$
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791946/how-can-i-make-my-shell-prompt-show-the-working-directory-relative-to-an-arbitra
+
+---
+
+#### 6162. Termux proot-distro install fedora error
+
+**问题描述 / Problem Description**:
+Tags: fedora, system-installation, termux | Score: 1 | Views: 851 | Answers: 1 | Created: 2024-03-02
+
+**解决方案 / Solution**:
+As the error says, there is no URL included in proot-distro for the arm architecture. arm is 32 bit, and there's no 32 bit Fedora any more. There is however one for aarch64, i.e., for the modern 64 bit ARM processors. So if this is a problem on a modern ARM platform where you could choose between a 32 bit OS and a 64 bit OS (like on modern Raspberry Pi), then go back and choose again. There is, however, a 32 bit arm version of debian, as noted in proot-distro 's recipe , which is why the debian setup works.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771455/termux-proot-distro-install-fedora-error
+
+---
+
+#### 6163. Renew kerberos ticket, krenew not available
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, kerberos | Score: 1 | Views: 778 | Answers: 1 | Created: 2024-02-29
+
+**解决方案 / Solution**:
+krenew is part of Russ Allbery's Kerberos tool kstart . This is available at https://www.eyrie.org/~eagle/software/kstart/ I don't know if any distro includes this package, but you can compile it yourself from the provided sources.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771347/renew-kerberos-ticket-krenew-not-available
+
+---
+
+#### 6164. Is it possible to programmatically identify the number of physical USB ports on a Lenovo ThinkCentre?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, usb, lsusb | Score: 1 | Views: 225 | Answers: 2 | Created: 2024-02-20
+
+**解决方案 / Solution**:
+You can't; the operating system only sees how many ports a hub IC has, not how many are connected to external USB ports.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/769753/is-it-possible-to-programmatically-identify-the-number-of-physical-usb-ports-on
+
+---
+
+#### 6165. Finding the cause of system freezes - Fedora 39
+
+**问题描述 / Problem Description**:
+Tags: fedora, freeze | Score: 1 | Views: 1115 | Answers: 1 | Created: 2024-02-10
+
+**解决方案 / Solution**:
+A while back on my Fedora machine I had exactly the same problem that you described. I would be using my computer then it would randomly freeze but usually the mouse would continue to move. Initially I thought there was a problem with my Asus GeForce 8800 GT graphics card. However I removed the graphics card and I still had a these random freezes. Nothing in the logs because I had to reboot. I had a copy of memtest86 so I decided to run a test on the memory and as soon as I started running Memtest86 I got a lot of errors. So I was thinking that either one of my memory banks was badly seated or had developed an error. I checked the seating of the memory sticks and everything was ok. However I noticed there as a lot of dust in one particular area of the memory stick nearest the the processor fan. I removed all the memory sticks and carefully vacuum cleaned the memory modules as well as the memory sticks and reseated the memory sticks back in the modules. From then on I've not had any random freezes. Perhaps your problem is the same and running Memtest86 is very simple. Download the right version if you boot from bios as opposed to uefi. Let us know how it goes.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/768996/finding-the-cause-of-system-freezes-fedora-39
+
+---
+
+#### 6166. sudoers NOPASSWD tag doesn't seem to work
+
+**问题描述 / Problem Description**:
+Tags: fedora, sudo | Score: 1 | Views: 2480 | Answers: 1 | Created: 2024-02-07
+
+**解决方案 / Solution**:
+Please run sudo -l and see if you have other allowed sudo command lines defined for your user. This will display all applicable sudoers configuration lines, both from the main configuration and from any included /etc/sudoers.d/* files, if you have any. Ordering is important: the last line that can match your command will be honored. If that line is a general (ALL : ALL) ALL line without the NOPASSWD: tag, you will be asked for a password. In that case, move your NOPASSWD: -tagged lines to a later position in the sudoers file. If the last line of the sudoers file is @includedir /etc/sudoers.d , consider moving your sudo configuration lines into a separate file in /etc/sudoers.d/ . Note that any filenames in that directory that either end in ~ or contain a . character will be ignored . Alternatively, to allow it without sudo , you would need to write a polkit rule file, e.g. /etc/polkit-1/rules.d/01-local-sleep-suspend.rules : // -*- mode: js2 -*- polkit.addRule(function(action, subject) { if (action.id == "org.freedesktop.systemd1.manage-units" && (action.lookup("unit") == "sleep.target" || action.lookup("unit") == "suspend.target") && subject.user == "cas") { return polkit.Result.YES; } });
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/768737/sudoers-nopasswd-tag-doesnt-seem-to-work
+
+---
+
+#### 6167. some libraries files in /lib have 0 size "empty"
+
+**问题描述 / Problem Description**:
+Tags: fedora, libraries, ldconfig | Score: 1 | Views: 250 | Answers: 1 | Created: 2024-02-03
+
+**解决方案 / Solution**:
+Maybe the disk became 100% full when those libraries were being installed/updated? If you made a large update, then dnf clean packages , then reinstalling those library packages one by one might be a way to fix it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/768383/some-libraries-files-in-lib-have-0-size-empty
+
+---
+
+#### 6168. Various Linux booting messages
+
+**问题描述 / Problem Description**:
+Tags: fedora, boot, grub2 | Score: 1 | Views: 516 | Answers: 2 | Created: 2024-01-29
+
+**解决方案 / Solution**:
+There are multiple elements in the boot process, each of them quite customizable: GRUB, its themes, backgrounds and custom menu texts (in Debian an related distributions, you'll see a number of packages named grub-theme-* ) a boot splash screen, these days often implemented with the plymouth package, with its own themes (see sudo plymouth-set-default-theme -l for a list of available boot themes) Each distribution generally tries to make themselves distinctive, so they apply their own customizations to these. And they can, at their option, vary their customizations on each major release. Often these distribution-specific graphics are coordinated to make the transitions from GRUB to the boot splash and/or from the boot splash to the login screen as seamless as possible. Sometimes the implementation quality of these boot themes may vary between distributions. I've seen some distributions that didn't copy any custom fonts or backgrounds to /boot if it exists as a separate filesystem, but attempted to read it directly from the root filesystem. If you chose to install with a root filesystem type or disk encryption type that was not directly supported by GRUB, it would cause these customizations to fail and GRUB to revert back to a more utilitarian, text-based look. In other times, the choice of GPU driver may affect the type of boot display. In particular, installing the proprietary NVidia driver may have (/used to have?) the side effect of disabling the graphical boot splash, because the plymouth package does (/did?) not support the kind of advanced graphics framebuffer layouts the proprietary driver tends to use (optimized for GPU hardware acceleration rather than for easy boot display programming). But in the end, these graphic elements and customizations are optional . If you make a minimal installation, some or all of them might be excluded, and the system would fall back to a display of default startup output: usually text-based GRUB menu, and a list of services started, with their start-up status in red/yellow/green as appropriate. Usually the graphical boot splashes will allow you the option to see the service start-up confirmations by pressing Esc . But if you care more about easy troubleshooting than pretty graphics, you can make the start-up messages the default start-up view, with e.g. sudo plymouth-set-default-theme details or sudo plymouth-set-default-theme text . By either deleting the default kernel boot parameter quiet or adding the parameter verbose (depending on distribution), you can also get the kernel hardware probe messages for even more verbose boot diagnostics, if necessary. There's one special boot splash type that might be worth mentioning. If the firmware displays a system/motherboard vendor's logo at boot, it can also make that logo available to the operating system, using an ACPI table known as BGRT (Boot Graphic Resource Table, I think). The boot splash can then incorporate it into the boot splash screen, or create a smooth transition between it and the OS login screen, if desired. If your system supports it, you should be able to see the /sys/firmware/acpi/bgrt/ directory, and so a selection of sudo plymouth-set-default-theme bgrt might be available.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/767990/various-linux-booting-messages
+
+---
+
+#### 6169. MPI program doesn't start right away (Fedora)
+
+**问题描述 / Problem Description**:
+Tags: fedora, mpi | Score: 1 | Views: 285 | Answers: 1 | Created: 2024-01-12
+
+**解决方案 / Solution**:
+I just solved a similar issue, where my whole mpiexec -n 4 ./my_program ran for over 90 seconds before actually doing anything at all. The program itself runs ~0.15 seconds without MPI. The solution was to disable all network connections. (WiFi, VPNs, ...) This took down the run time of mpiexec to less than 1 second. I'm connected to eduroam WiFi with hundreds of devices and I have public IP address. This might be due to some issue with networking stuff timing out in the background. Somebody already fought similar issue in the Cygwin mailing list https://sourceware.org/legacy-ml/cygwin/2016-12/msg00192.html . I'm facing the same thing on Linux machine, running Kernel 6.6.26, OpenMPI 5.0.2 and g++ 12.3.0, so this issue is probably not related only to Windows machines and Cygwin. Setting -H localhost or -H 127.0.0.1 did not help and the effect was the same as running mpiexec without these parameters as in the first paragraph.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/766746/mpi-program-doesnt-start-right-away-fedora
+
+---
+
+#### 6170. Wireguard cant read wg0.conf on share
+
+**问题描述 / Problem Description**:
+Tags: fedora, selinux, libvirt, wireguard | Score: 1 | Views: 608 | Answers: 1 | Created: 2023-12-11
+
+**解决方案 / Solution**:
+The issue was caused by an SELINUX permissions issue as pointed out by @Marcus Müller . I have described the solution in another question, however, in short, you need to use audit2allow to work out the permissions and then apply them using semanage . See this question for a fuller answer SELINUX policy not applying
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/763561/wireguard-cant-read-wg0-conf-on-share
+
+---
+
+#### 6171. How to install Git on a CentOS 7 host as a non-root user?
+
+**问题描述 / Problem Description**:
+Tags: centos, rpm, non-root-user | Score: 1 | Views: 1452 | Answers: 2 | Created: 2023-01-17
+
+**解决方案 / Solution**:
+As for the foreground problem: You can't install an RPM package without root privileges, even if you have downloaded the RPM file. Even so, if you want to manually install two RPM packages, where one of them will provide a not yet fulfilled dependency of the other, you have to state both as arguments to rpm so that this is correctly handled. So, you will need to install the software "from source". In a comment, you stated that you did, but received an error about missing HTTPS support. The likely reason is that the development headers of libcurl so that the Git plugin git-remote-http plugin can be built. See this issue on GitHub that deals with the problem. However, this implies having to install libcurl-devel - which again would require root privileges. Further reading (which unfortunately confirms that you have to go the manual way): https://stackoverflow.com/q/36651091 https://superuser.com/q/209808
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/732085/how-to-install-git-on-a-centos-7-host-as-a-non-root-user
 
 ---

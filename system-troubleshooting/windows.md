@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6889**
+**总计条目 / Total entries: 6952**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -95321,5 +95321,824 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221393#reply14
+
+---
+
+#### 6890. I got a blue screen of death, and now when I turn it on, I have a black screen with a cursor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub4yn3/i_got_a_blue_screen_of_death_and_now_when_i_turn/
+
+---
+
+#### 6891. "The connection to the server timed out" notification on android phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7pky/the_connection_to_the_server_timed_out/
+
+---
+
+#### 6892. Lag spikes with excellent internet speed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub4k36/lag_spikes_with_excellent_internet_speed/
+
+---
+
+#### 6893. Fake captcha tried to get me to run this code - what does it do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uamexd/fake_captcha_tried_to_get_me_to_run_this_code/
+
+---
+
+#### 6894. PC CRASHING ISSUE – FULL TIMELINE, SPECS, TESTING AND CURRENT STATUS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub47kt/pc_crashing_issue_full_timeline_specs_testing_and/
+
+---
+
+#### 6895. Windows 11 Black Screen issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub0z7h/windows_11_black_screen_issue/
+
+---
+
+#### 6896. Whatsapp app icon keeps showing up on my taskbar and when i click it it opens whatsapp web in microsoft edge
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub0s3d/whatsapp_app_icon_keeps_showing_up_on_my_taskbar/
+
+---
+
+#### 6897. I think NTE broke my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub8sm3/i_think_nte_broke_my_pc/
+
+---
+
+#### 6898. Logitech gaming mouse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub8ose/logitech_gaming_mouse/
+
+---
+
+#### 6899. DWM hogging 800000k+ VRAM and nothing has worked to fix it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub8m9x/dwm_hogging_800000k_vram_and_nothing_has_worked/
+
+---
+
+#### 6900. "opulo_515..." folders in my Appdata Local folder. Safe to delete?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub8m1g/opulo_515_folders_in_my_appdata_local_folder_safe/
+
+---
+
+#### 6901. keycaps suddenly not responding
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub8ckb/keycaps_suddenly_not_responding/
+
+---
+
+#### 6902. Intel Core Ultra 9 285HX Temperatures
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub83kn/intel_core_ultra_9_285hx_temperatures/
+
+---
+
+#### 6903. Dell laptop died
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub80i4/dell_laptop_died/
+
+---
+
+#### 6904. Some websites and apps have stopped connecting to the internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub2hru/some_websites_and_apps_have_stopped_connecting_to/
+
+---
+
+#### 6905. Windwos Bluetooth Driver Crash Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7tmo/windwos_bluetooth_driver_crash_issue/
+
+---
+
+#### 6906. LG TV flickering and striping
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7paa/lg_tv_flickering_and_striping/
+
+---
+
+#### 6907. Lenovo legion 5 15ahp10 bought a 990 PRO with heatsink.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7omm/lenovo_legion_5_15ahp10_bought_a_990_pro_with/
+
+---
+
+#### 6908. Weird artifacting when I refresh on one specific website. Muting audio stops it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7l13/weird_artifacting_when_i_refresh_on_one_specific/
+
+---
+
+#### 6909. PC won't boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7h8e/pc_wont_boot/
+
+---
+
+#### 6910. free Chrome Speed Dial extension that replaces the new tab page with quick access to your favorite websites.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7cxi/free_chrome_speed_dial_extension_that_replaces/
+
+---
+
+#### 6911. Soundbar disconnect issue.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7bdc/soundbar_disconnect_issue/
+
+---
+
+#### 6912. DisplayPort sudden Hz brick
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7a58/displayport_sudden_hz_brick/
+
+---
+
+#### 6913. RX 9070 XT repeated black/grey screen crashes, GPU disabled Code 22, LiveKernelEvent 117/141, AMD_WATCHDOG – system was stable for months
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ub7487/rx_9070_xt_repeated_blackgrey_screen_crashes_gpu/
+
+---
+
+#### 6914. Weekly 'I made a useful thing' Thread - June 19, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9vufb/weekly_i_made_a_useful_thing_thread_june_19_2026/
+
+---
+
+#### 6915. What are some quality of life improvements that you’ve made that improved your network / systems tremendously?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uawvc9/what_are_some_quality_of_life_improvements_that/
+
+---
+
+#### 6916. Azure local
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uascr2/azure_local/
+
+---
+
+#### 6917. What's the Best Standing Desk for Home Office that You'll Recommend?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ub1yxu/whats_the_best_standing_desk_for_home_office_that/
+
+---
+
+#### 6918. How do you handle cost limitations?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uat5j8/how_do_you_handle_cost_limitations/
+
+---
+
+#### 6919. Microsoft licensing for a non-profit.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uamw63/microsoft_licensing_for_a_nonprofit/
+
+---
+
+#### 6920. Fortibleed - over 70k Fortinet firewalls compromised
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9winj/fortibleed_over_70k_fortinet_firewalls_compromised/
+
+---
+
+#### 6921. CISA warns Fortinet shops over FortiBleed: 74k+ devices with leaked creds, rotate everything now
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ua3v93/cisa_warns_fortinet_shops_over_fortibleed_74k/
+
+---
+
+#### 6922. Pros and cons of switching from corporate IT to a MSP?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ua3hmx/pros_and_cons_of_switching_from_corporate_it_to_a/
+
+---
+
+#### 6923. Move from AS400 to Devops?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uat5ex/move_from_as400_to_devops/
+
+---
+
+#### 6924. Thanks for all the fish, Namecheap.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ua8njn/thanks_for_all_the_fish_namecheap/
+
+---
+
+#### 6925. Unifi AP makes me crazy
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ub6fk0/unifi_ap_makes_me_crazy/
+
+---
+
+#### 6926. Real world opinions and reviews on VMWare alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ua38r2/real_world_opinions_and_reviews_on_vmware/
+
+---
+
+#### 6927. ScreenConnect performance vs Splashtop/TeamViewer?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uarhpz/screenconnect_performance_vs_splashtopteamviewer/
+
+---
+
+#### 6928. IKEv2 AOVPN on Delta
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ualwu5/ikev2_aovpn_on_delta/
+
+---
+
+#### 6929. Am I Getting Fucked Friday, June 19th 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ua5vpg/am_i_getting_fucked_friday_june_19th_2026/
+
+---
+
+#### 6930. How are domain credentials stored on printer when configuring LDAP?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9zemi/how_are_domain_credentials_stored_on_printer_when/
+
+---
+
+#### 6931. When you're the smartest person in the room...
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ub5g5l/when_youre_the_smartest_person_in_the_room/
+
+---
+
+#### 6932. My APC Easy UPS BVX1600LI-GR keeps making beeping/clicking noises continuously and won't stop, even though there is power. Does anyone know what's wrong with it?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uax9t1/my_apc_easy_ups_bvx1600ligr_keeps_making/
+
+---
+
+#### 6933. Does sendgrid support s mime?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uaapux/does_sendgrid_support_s_mime/
+
+---
+
+#### 6934. Microsoft certificate service renewal
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uadlft/microsoft_certificate_service_renewal/
+
+---
+
+#### 6935. Rails for PowerEdge R760xd2
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uabqkr/rails_for_poweredge_r760xd2/
+
+---
+
+#### 6936. Powering off our last on-prem Exchange in hybrid — is shutdown enough, or do I need the full management-tools decommission steps?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1u9ttew/powering_off_our_last_onprem_exchange_in_hybrid/
+
+---
+
+#### 6937. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply50
+
+---
+
+#### 6938. [V2EX] 2026 年了，还有人使用精简 windows 镜像吗？
+
+**问题描述 / Problem Description**:
+从 xp 时代的深度版镜像，到后来 win7 和 win10 的各路大神，再到现在流行的 playbook 方案。从早期的硬件性能妥协，到后来纯粹追求干净的使用体验，无论这种“第 3 方修改版”怎样饱受争议，我觉得精简镜像这个需求都无法被否认 在 windows7 和 windows10 时代，我一直使用一个叫 Lopatkin 的饿罗斯开发者的精简镜像，可惜后来停更没能延续到 windows11 ，在 win11 尝试过各种诸如 atlas revios 的方案，都不甚满意，主力方案变成了从 uupdump 打包一个镜像自己精简，再单独暂停 update （停用 update 不会影响驱动自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220989#reply127
+
+---
+
+#### 6939. [V2EX] 问下天翼云盘 30T 10T 之类的大容量空间安全吗？
+
+**问题描述 / Problem Description**:
+安全稳定吗准备搞个备份数据用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221682#reply1
+
+---
+
+#### 6940. [V2EX] 有没有好用的、好看的、开源的电子邮件客户端
+
+**问题描述 / Problem Description**:
+如题，好多邮箱账号收件发件得去不同的网页里使用，很麻烦 用了一段时间了 macOS Mail 客户端，感觉好难用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221679#reply2
+
+---
+
+#### 6941. [V2EX] 询问一个奇异的网络问题，希望有高人解答
+
+**问题描述 / Problem Description**:
+背景： 在上海租了个房子，自带移动 300M 的宽带，使用光猫的无线信号直接上网。 本人在三个游戏中遇到过此问题，分别是 Minecraft ，街霸 6 ，幸福工厂。 具体情况表现为，在特定状况下，我的上传会直接被切断，虽然下载不会断，但网络也已经不可用了。 特定情况如下： 对于连接 Minecraft 服务器的情况，起初发现当客户端全屏或将窗口最大化时，本地的上传立刻被切断，片刻后客户端主动断开连接。后来进一步发现如果限制帧率，则可以调大窗口；或者关闭光影，也可以调高帧率或放大窗口；再或者加入一个对客户端负担小的服务器，比如纯净的原版服务器，也可以避免切断上传。总之表面上看，似乎将客户端的「
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221673#reply4
+
+---
+
+#### 6942. [V2EX] 想整一台 esim 安卓机。
+
+**问题描述 / Problem Description**:
+想过买 pixel 但是没有靠谱渠道， 求推荐 希望还能再用五年的， 预算 2000-4000 左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221664#reply8
+
+---
+
+#### 6943. [V2EX] 右手大拇指有几个肿包，这种能自己好吗？
+
+**问题描述 / Problem Description**:
+大概 3 天前突然发现手上有几个肿包，不知道是什么原因导致的，有可能是被蚊子咬的，但之前也没遇到被蚊子咬会这么严重的，3 天了还没有明显好转的迹象，今天好像还加重了一点，手指稍微一弯就会疼，不碰也会阵痛，搞的我心情特别糟糕，但是又不知道是该去医院看看还是等它自然消退。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221655#reply6
+
+---
+
+#### 6944. [V2EX] 航班因乘客违规使用充电宝迫降，此人是不是这辈子就差不多了？
+
+**问题描述 / Problem Description**:
+英国航班 BA271 飞行中一名乘客用充电宝给手机充电。突然充电宝爆炸起火，机上乘客以为遇到恐袭。最终充电宝火灾烧毁了一个座椅后被乘务组扑灭，飞机就近紧急降落。 这个飞行中使用充电宝充电的乘客要承担多少责任？会不会要陪天文数字的钱（飞机修复，航班费用，其他旅客延误赔偿等）？有没有可能设计刑事责任？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221647#reply33
+
+---
+
+#### 6945. [V2EX] Android 电视盒子有什么值得推荐安装的 apk？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221639#reply10
+
+---
+
+#### 6946. [V2EX] 问一下大家，为什么 Outlook 邮箱那么不受待见？
+
+**问题描述 / Problem Description**:
+刚刚看到，自己的站被一帮 Outlook 邮箱在自动注册，看起来都是机器人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221638#reply19
+
+---
+
+#### 6947. [V2EX] 如何重置密码？
+
+**问题描述 / Problem Description**:
+你好，我一直使用 Google Login ，但是很多 App 不支持 Google 登陆，但是我没设置过密码，所以没法更改密码，有什么方法可以重置密码？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221624#reply1
+
+---
+
+#### 6948. [V2EX] 有人在用 Cloudflare AI Gateway 吗，它的 Unified Billing 是一直不支持 gpt-image-2 吗? 充值完才发现不能用...
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221597#reply5
+
+---
+
+#### 6949. [V2EX] 好难受, 现在是不是 GLM 最适合我了
+
+**问题描述 / Problem Description**:
+一开始是 copilot, 然后 6 月份 copilot 按照 credit 付费, 感觉支付不起. 发现 codex 还不错, 然后昨天被二次验证劝退了. claude code 原生的我连尝试都没敢尝试. 太麻烦. 那就剩 cursor 了, 要么就是 GLM? 或者 deepseek. cursor 20/月 那个抗造不? codex 20 美金反正是够我用.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221559#reply20
+
+---
+
+#### 6950. [V2EX] codex windows 手机连接电脑，卡在报 [无法启动远程控制，请重试] ，求救，不想在公司加班
+
+**问题描述 / Problem Description**:
+妈耶，充钱才能发图片。 - 无法启动远程控制，请重试 - - ------------------------------------.jpg/jpeg/png/wwdd
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221542#reply5
+
+---
+
+#### 6951. [V2EX] 目前海外 esim 手机号在国内，哪个最好？
+
+**问题描述 / Problem Description**:
+发现港版 iPhone 支持 esim 卡，海外手机号，月费低的，哪个最好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221525#reply42
+
+---
+
+#### 6952. Why are videos very slow to open with VLC 3.0.23 in Windows 11 (Home)?
+
+**问题描述 / Problem Description**:
+Tags: windows, performance, vlc-media-player, speed | Score: 7 | Views: 3394 | Answers: 2 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+Try downgrading to an earlier version of VLC. I downgraded back to 3.0.22 (just download the exe file and run it). And now the problem is gone (videos once again almost always start within 1s). Notes Of course, this is far from an ideal solution, but it worked for me without too much work. See also this full list of all versions of VLC. Others have reported the same problem: e.g. at this Videolan forum discussion , this Reddit VLC forum discussion . Other suggested fixes (that I didn't try) At the Videolan forum discussion, one developer Steve Lhomme suggests this fix: take just libqt_plugin.dll from 3.0.21 and put it in the 3.0.23 folder (I didn't try the above fix. And, OP there tried it and it didn't work.) Another fix suggested by Steve Lhomme was this: do you have a plugins.dat file in C:\Program Files\VideoLAN\VLC\plugins (default path for a 64-bit version) ? It is (re)generated by the installer. If you just drop the .zip content in one place you won't have to this file. But you can generate it by calling vlc-cache-gen.exe "C:\Program Files\VideoLAN\VLC\plugins" with admin rights. In non protected folders you can just drag & drop the plugins folder on vlc-cache-gen.exe. (I didn't try the above fix. But, OP there tried it and it worked for him.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936009/why-are-videos-very-slow-to-open-with-vlc-3-0-23-in-windows-11-home
 
 ---

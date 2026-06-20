@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5775**
+**总计条目 / Total entries: 5819**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -79351,5 +79351,577 @@ Homebrew uses different destination folders for different architectures (see htt
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/435900/homebrew-installed-librdkafka-to-opt-homebrew-cellar-instead-of-usr-local-cel
+
+---
+
+#### 5776. I turned the MacBook notch into a private teleprompter
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub1xjb/i_turned_the_macbook_notch_into_a_private/
+
+---
+
+#### 5777. Valentine music player is out!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub01xs/valentine_music_player_is_out/
+
+---
+
+#### 5778. How to remove glue remains from a bad decision?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaxqt7/how_to_remove_glue_remains_from_a_bad_decision/
+
+---
+
+#### 5779. SyntGlassTimer – A modern digital clock for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub7axt/syntglasstimer_a_modern_digital_clock_for_macos/
+
+---
+
+#### 5780. [Open Source] Glyph - A Powerful Completely Local Markdown App for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uatjju/open_source_glyph_a_powerful_completely_local/
+
+---
+
+#### 5781. Vorssaint, a free open-source macOS toolkit that combines Volume Mixer, Dock Preview, Alt Tab, App Cleaner, Keep Awake and more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaw6n6/vorssaint_a_free_opensource_macos_toolkit_that/
+
+---
+
+#### 5782. Got tired of web converters, so I made LOCAL media converter for macOS.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uapzkh/got_tired_of_web_converters_so_i_made_local_media/
+
+---
+
+#### 5783. I built Noject, a native macOS app that prevents accidental ejects of always-plugged drives
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaneki/i_built_noject_a_native_macos_app_that_prevents/
+
+---
+
+#### 5784. TabLinker: A native App Store tab organizer & session manager to eliminate tab clutter, free up RAM, and streamline your research
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub7jge/tablinker_a_native_app_store_tab_organizer/
+
+---
+
+#### 5785. Migration assistant not loading
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub75cb/migration_assistant_not_loading/
+
+---
+
+#### 5786. Quarantine for CSV files in the New Numbers?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uayhvh/quarantine_for_csv_files_in_the_new_numbers/
+
+---
+
+#### 5787. How to move iPhone photo files to external folders?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub6zb3/how_to_move_iphone_photo_files_to_external_folders/
+
+---
+
+#### 5788. Coding an app is 10/10 fun. Trying to figure out how to market it makes me want to walk into the ocean.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uavtku/coding_an_app_is_1010_fun_trying_to_figure_out/
+
+---
+
+#### 5789. Desktop organization.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uapuep/desktop_organization/
+
+---
+
+#### 5790. Quickshare working very well with my Mac as it now Supports airdrop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uaoo88/quickshare_working_very_well_with_my_mac_as_it/
+
+---
+
+#### 5791. External SSD Bricked
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub8ctx/external_ssd_bricked/
+
+---
+
+#### 5792. Natural Scrolling and Universal Control between MacBook and iPad
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub7vhy/natural_scrolling_and_universal_control_between/
+
+---
+
+#### 5793. A beer mug in your menu bar that tells you when Homebrew needs a refill
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub73lx/a_beer_mug_in_your_menu_bar_that_tells_you_when/
+
+---
+
+#### 5794. RAID 0 Storage Recommendations
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub05xb/raid_0_storage_recommendations/
+
+---
+
+#### 5795. iCloud photos refuse to sync to macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub1zuw/icloud_photos_refuse_to_sync_to_macbook/
+
+---
+
+#### 5796. [V2EX] Mac 网络问题求助, 关闭 FQ 软件后 无网络
+
+**问题描述 / Problem Description**:
+问题描述 : 关闭 某些翻墙软件(小火箭,加速猫等)后,如果 电脑屏幕熄屏 或者休眠太久, 重新打开后 网络失效问题(国内网页打不开, 重新使用 VPN 也不行, 重启也不行) 尝试方案: 重启 VPN, 系统重启, 刷新 DNS 需要反复多次尝试 才有效; 检索 v2,苹果用户反馈区内无 有效办法 可否有 针对性的解决方案, 具体的原理?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221590#reply7
+
+---
+
+#### 5797. [V2EX] macOS 27 里的 iCloud 设置为什么没有“使用家庭存储空间”选项？
+
+**问题描述 / Problem Description**:
+把一个美区 Apple ID 账号加到我的 iCloud 家庭共享里，美区账号只在 Mac mini 上登录，使用的是 macOS 27 系统，iCloud 设置里的存储空间一直只有账号本身的 5GB 存储，一直无法使用家庭共享订阅的 2T 空间，等了好几天都没有同步过来，今天无奈拿美区账号登录一台旧的 iPhone XR 手机，系统是 iOS18.7.3 ，iCloud 设置有一项“使用家庭存储空间”，这才解决共享家庭 iCloud 订阅空间，苹果是认为所有 Apple ID 都会使用 iPhone 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221536#reply2
+
+---
+
+#### 5798. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply112
+
+---
+
+#### 5799. [V2EX] 翻出一台 macbook pro mid2012， 想装上 montery
+
+**问题描述 / Problem Description**:
+目前是 catalina ，官方支持也只能到 catalina ， 还能抢救一下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220215#reply10
+
+---
+
+#### 5800. [V2EX] 登录美区账号，国区 app 不让更新了
+
+**问题描述 / Problem Description**:
+之前是可以的，现在不行了，即使商店账号切换到国区也不行。 直接显示 APP 不可用。26.5.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221686#reply6
+
+---
+
+#### 5801. [V2EX] iPhone17 凌晨异常使用蜂窝数据欠费 500 多
+
+**问题描述 / Problem Description**:
+早晨五点被密集几十条短信吵醒，一看吓一跳，短信显示流量超出 540 元。（ 8 元保号套餐，600 元流量超出强制断网） 查了一下记录，从一点开始到 5 点结束一直在疯狂跑流量，手机一直在充电没在使用 看了设置里的记录显示 shadowrocket 使用了 25G 很多异常点: 1.家里全屋 wifi7 覆盖，为啥会突然走流量 2.手机没有后台上传下载的任务，我经常重置网络设置，大部分 app 都是默认没有网络权限的，手机里没有网盘之类的 app ，即使有，再设置里流量统计也会有体现 3.小火箭一直是规则模式链接，不知道为啥会在凌晨异常暴力传输数据，3 小时 25G 流量 ，小火箭默认不打开日
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221604#reply35
+
+---
+
+#### 5802. [V2EX] 2026 年苹果的低电量提醒依旧一坨
+
+**问题描述 / Problem Description**:
+苹果的低电量提醒在打游戏时提出直接卡个几秒钟，最失败的设计之一 这低电量提醒不能只用声音提醒？不知道苹果的设计师怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221456#reply4
+
+---
+
+#### 5803. [V2EX] Mac 外壳磕了，国内外两次 AC 送修经历，但未修机
+
+**问题描述 / Problem Description**:
+放一张 AI 做的图，方便大家快速了解本文大概内容 一年前，自己的美版 16 寸 MacBook 因为自己不不小心，被充电头的插脚顶出了凹痕，刚好买了 AppleCare ，于是就预约了准备去送修 维修价格预估是这样的，到店接待我们的人说，显示器的更换 100 美金，机身的更换 200 美金，这和官网说的机身外壳损坏 99 美金不同（当时我没有去看过官网的维修价格，就忘了问为什么价格不同了），接待我的黑人小哥不建议我维修，想着 AC 还有一年，等快到期了再换 26 年 8 月 AC 到期了，前段时间就又预约了看看 国内的 AC 预约需要身份证后四位数（不清楚是否校验），到店签到的时候也要你的真
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221399#reply8
+
+---
+
+#### 5804. [V2EX] [送码] 成功把 iCloud 空间省出了 190GB
+
+**问题描述 / Problem Description**:
+前期提要： vibe coding 了一个解决 iCloud 空间不足的 app - Slimm 最近终于把成品上架 app store 了，地址在这里 Slimm - 释放云空间 核心原理就是只保留前 5s 的低质量视频，原始媒体存在本机或者别的大容量设备上，现在 Slimm 不仅支持本机，还支持了 Web DAV 和外接存储。而且还可以在 Mac 上安装，我已经把自己的 700+个视频全部移到了 Macbook 上面，iCloud 空间立减 190GB ，200GB 的空间终于不再捉襟见肘了。 而且事实证明，以前存储的确实有很多视频是我完全不会再看一遍的了，如果不是这次清理存储空间的机会，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221332#reply60
+
+---
+
+#### 5805. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply29
+
+---
+
+#### 5806. [V2EX] 🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？
+
+**问题描述 / Problem Description**:
+各位 v 站的朋友好，经过 1 年时间我来向各位汇报专为开发团队打造 Mac 优美截图 app 1Capture 的进展。 市场上截图的工具很多，但是我们这款 app 会有很多不一样的地方。Cleanshot 可能很美，但是其操作流程可能不一定适合国人的操作习惯。1Capture 的目标就是：不一味堆砌功能，做到跟 Cleanshot 一样精美，但是更符合国内开发、产品、设计师的操作习惯。 值此 618 之际，我们也是为大家提供价格优惠。1Capture 一次性买断，永久免费升级，走过路过，不要错过哦。送码在最后。 App Store：( https://apps.apple.com/app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221276#reply166
+
+---
+
+#### 5807. [V2EX] 现在已经没办法修改苹果地图的位置了吗？
+
+**问题描述 / Problem Description**:
+设备：ipadmini7 港版（ wifi 版 系统：最新 OS26.5 路由器：小米（已经修改 country code 到香港/韩国 网络：美国家宽 ip （全局尝试了也不行 以前按照 iRingo 很容易的，现在想看个 Apple News 都不行了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221086#reply24
+
+---
+
+#### 5808. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply55
+
+---
+
+#### 5809. [V2EX] 航班因乘客违规使用充电宝迫降，此人是不是这辈子就差不多了？
+
+**问题描述 / Problem Description**:
+英国航班 BA271 飞行中一名乘客用充电宝给手机充电。突然充电宝爆炸起火，机上乘客以为遇到恐袭。最终充电宝火灾烧毁了一个座椅后被乘务组扑灭，飞机就近紧急降落。 这个飞行中使用充电宝充电的乘客要承担多少责任？会不会要陪天文数字的钱（飞机修复，航班费用，其他旅客延误赔偿等）？有没有可能设计刑事责任？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221647#reply34
+
+---
+
+#### 5810. [V2EX] 米家空调的型号也太多了，我似乎分不清国补完 1500 左右，哪个 1.5P 比较合适了
+
+**问题描述 / Problem Description**:
+35GW-PG15/N1A1 35GW-PG15/A1A1 ....我看到了好多这种字样，有懂哥出来支支招吗？ 我心理预期价位大概在 1500 （国补完）左右，旧品回收以后预期可以提到 1800 左右 家里还有旧机，看了下几个平台的回收价格，基本上都在 300+ 需求： 卧室使用，面积大概 20 左右，哪个型号和价格会比较合适呢。 现在家里这个老空调实在是消费不起了，5 级能效，我开都不敢开啊！！！！ 先感谢各位了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221694#reply3
+
+---
+
+#### 5811. [V2EX] 备份功能，对比了商业软件与开源软件
+
+**问题描述 / Problem Description**:
+我把自己的软硬件与网络情况，以及备份需求，问了一堆 AI ，AI 们统一推荐了业界第一的商业软件 Veeam 与开源软件 UrBackup 。 Veeam 的设计思路，符合人类的思维逻辑，安装部署与测试总体上很顺利，期间遇到两个小问题，都被 AI 一次性解决。 UrBackup ，后台的选项文字就充满歧义，安装过程中遇到各种问题。最后虽然把服务搭建起来，但备份失败。最重要的是，备份失败的 Server 、Client 、Web 后台，都没有记录日志。询问了 AI ，AI 说社区同样反馈了这些问题。 我觉得，开源软件，功能可以少一点，bug 可以多一些，但连日志都没记录，这也太摆烂了。 而商业软
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221693#reply0
+
+---
+
+#### 5812. [V2EX] 大家见过哪些把 GitHub 功能玩到极致的“不务正业”项目？
+
+**问题描述 / Problem Description**:
+刷 GitHub Trending 的时候，发现大家除了传代码、脚手架、存文档，还衍生出了各种奇奇怪怪的玩法。比如有人用 Git 提交记录来画画，有人用 Issue 来当博客评论区。 我自己前阵子也整了个新活：我把普通的架构教程和文字回忆录做了一次融合。用写小说的方式，在 GitHub 连载我自己真实的成长故事（一个小学毕业被 300 块赶出学校的少年，如何从放鸭抓鳝鱼，一路底层重构到写代码、做架构）。 原本只是打算自己写着玩，结果前阵子连载的时候，有位 V 站老哥看完直接看上头了，顺手用 AI 和编曲工具给这本小说整了一首专属的 BGM 。 现在搞得我每次高频 Commit ，都得听着这首歌
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221685#reply0
+
+---
+
+#### 5813. [V2EX] 安装一个插件，让你拥有 CodeX "2x"的额度
+
+**问题描述 / Problem Description**:
+插件： https://github.com/DietrichGebert/ponytail 案例： https://github.com/DietrichGebert/ponytail/tree/main/examples
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221676#reply1
+
+---
+
+#### 5814. [V2EX] DNSHE——做免费域名的，免费域名直接送 10 年
+
+**问题描述 / Problem Description**:
+先说最狠的：. bbroot . com 新注册域名，默认直接给 10 年有效期。 你没看错，免费域名，10 年。 以前是 1 年到期续一次，现在是注册下来直接到 2036 年。老用户也没被忘掉——符合条件的存量域名自动补足到 10 年。 原来到期时间 2026 年的，直接拉到 2037 年。 我第一反应是：这得多少钱啊？兄弟你确定不会倒闭吧？ 但转念一想，人家的商业模式不是靠域名收费，是靠赞助和生态。免费域名锁住用户，然后靠企业赞助、VIP 、增值服务回血。这一手其实很聪明。 再说几个跟钱有关的硬变化： 注册门槛降低：免费域名最低前缀从 3 字符降到 2 字符。短域名爱好者狂喜，2 字母的香
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221612#reply1
+
+---
+
+#### 5815. [V2EX] 最近创建了一个佛法心理咨询网站：问佛 FotuoAI.com
+
+**问题描述 / Problem Description**:
+将闲置的一个域名 FotuoAI.com 做成了网站，问佛 FotuoAI.com 基于佛法的心理咨询，似乎有点意思。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221611#reply0
+
+---
+
+#### 5816. [V2EX] 诺贝尔得主离开 DeepMind 加入 Anthropic
+
+**问题描述 / Problem Description**:
+和 Demis 一起因为 AlphaFold 获得 2024 诺贝尔化学奖的 John Jumper 离开 DeepMind 加入 Anthropic. 官僚主义的风吹到了原来的 DeepMind ，大语言模型做不好，搞科研的也跑了。 https://x.com/JohnJumperSci/status/2068001285173834106?s=20 https://x.com/haider1/status/2068020991456858173?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221599#reply8
+
+---
+
+#### 5817. [V2EX] 每日一乐-拼写错误被自己蠢哭 lanuchlist.com
+
+**问题描述 / Problem Description**:
+仔细检查了多次，粘贴到 cloudflare 购买域名，发现竟然都可以购买 原来是 launchlist 已经被注册 [目前托管 30w 美元] cloudflare 自动给我改成了 lanuchlist .com 当晚准备 写代码 的时候，提示我拼写错误； 来回对比几次才发现 小丑是我！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221591#reply3
+
+---
+
+#### 5818. [V2EX] Dario Amodei 受访说在 Baidu 没有遭受职场 PUA
+
+**问题描述 / Problem Description**:
+Anthropic 封杀中国访问这么猛，网友一直猜 Dario 在百度工作期间到底经历了啥😱 Bloomberg 主持人问了这个八卦的问题： Did what you saw Baidu shape your views on China? Dario: Not really, no. I worked there for a year. I probably learned more about speech recognition and all of that... Dario 澄清：没有职场霸凌，做了些语音识别相关的工作，提了下不太注重隐私之类的。。。 https://www.yout
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221551#reply11
+
+---
+
+#### 5819. [V2EX] 海量 Token 限时放送！注册即享 15 天免费体验 15 天内使用完，再赠 1 次 15 天体验
+
+**问题描述 / Problem Description**:
+海量 Token 限时放送！注册即享 15 天免费体验，新老用户皆可参与。 15 天内使用完，再赠 1 次 15 天体验！每邀请 1 位好友注册，您将额外获得 15 天免费体验，累计最高 90 天！ https://platform.stepfun.com?invite_code=YZXELONI 对于 我这个 小白 来说 还是 可以的 快来注册体验吧 主要是白嫖 哈哈 https://imgur.com/a/Sze2ZQV
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221511#reply14
 
 ---
