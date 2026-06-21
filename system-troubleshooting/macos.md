@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5819**
+**总计条目 / Total entries: 5877**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -79923,5 +79923,765 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221511#reply14
+
+---
+
+#### 5820. Icons from 2000s were masterpieces in Mac OS X
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubl34j/icons_from_2000s_were_masterpieces_in_mac_os_x/
+
+---
+
+#### 5821. what browser do you use/recommend on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubuug4/what_browser_do_you_userecommend_on_macos/
+
+---
+
+#### 5822. GOTTA BE PRETENDING IT'S 2019
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubjfw6/gotta_be_pretending_its_2019/
+
+---
+
+#### 5823. Need help getting the install disc for Macbook7,1 (mid 2010 unibody)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubp61h/need_help_getting_the_install_disc_for_macbook71/
+
+---
+
+#### 5824. M1 pro how to go from Monterrey to sequoia please?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc2tvk/m1_pro_how_to_go_from_monterrey_to_sequoia_please/
+
+---
+
+#### 5825. What to do?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubrk2h/what_to_do/
+
+---
+
+#### 5826. Wish they could add built-in Depth Effect to MacOS in future updates
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc2fjg/wish_they_could_add_builtin_depth_effect_to_macos/
+
+---
+
+#### 5827. Why are there random strings of letters and numbers as sections of my Finder on MacBook Air Early 2015 Intel i5? I use macOS Monterey 12.7.6.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc11gk/why_are_there_random_strings_of_letters_and/
+
+---
+
+#### 5828. I have an intel core 7 mac mini and it came preinstalled with mountian lion how do i get mountain lion to work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubzupq/i_have_an_intel_core_7_mac_mini_and_it_came/
+
+---
+
+#### 5829. All macOS 26 icons
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub9dfh/all_macos_26_icons/
+
+---
+
+#### 5830. MacBook Color Profile Changed on Its Own, a cool looking purple and blue color
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubxgso/macbook_color_profile_changed_on_its_own_a_cool/
+
+---
+
+#### 5831. I need help with audio
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubv7wu/i_need_help_with_audio/
+
+---
+
+#### 5832. iMessage field disappeared for a group chat? Try this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubv5sz/imessage_field_disappeared_for_a_group_chat_try/
+
+---
+
+#### 5833. Freetube sur un Mac un peu vieux
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ububfm/freetube_sur_un_mac_un_peu_vieux/
+
+---
+
+#### 5834. Get notified on iPhone/Watch when Claude finishes - how?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubn71g/get_notified_on_iphonewatch_when_claude_finishes/
+
+---
+
+#### 5835. Notchkin - notes that live in your MacBook's notch
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ub9sek/notchkin_notes_that_live_in_your_macbooks_notch/
+
+---
+
+#### 5836. How to turn off automatically focusing on an opened app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubmfe9/how_to_turn_off_automatically_focusing_on_an/
+
+---
+
+#### 5837. Ideal ram and CPU count to run a linux VM on Mac os?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubq2ny/ideal_ram_and_cpu_count_to_run_a_linux_vm_on_mac/
+
+---
+
+#### 5838. macbook doesn't restart after erasing Macintosh HD
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubvdrh/macbook_doesnt_restart_after_erasing_macintosh_hd/
+
+---
+
+#### 5839. Is the El Capitan App Store down?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ubp4i1/is_the_el_capitan_app_store_down/
+
+---
+
+#### 5840. [V2EX] 我的 macOS 最近经常弹出音量变化的那个浮窗，但我确认自己没有按到音量键。
+
+**问题描述 / Problem Description**:
+没留意什么时候出现的，最近的改变有： 从 26.3 升级到了 26.5 升级了微信，然后发现它绑定了 ctrl+E ，于是 安装了 Karabiner Elements 出现的频率不固定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221068#reply2
+
+---
+
+#### 5841. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply114
+
+---
+
+#### 5842. [V2EX] 为什么都是调用苹果自带的 OCR， bob 和 cleanshot x 的识别错误的地方会不同？
+
+**问题描述 / Problem Description**:
+这个是 cleanshot x 识别的，“后备箱”被识别成“后备稍”，“手提箱”少了“箱”这个字。 “你竟然敢撞向神御座！”雨里传来奥丁低沉的声音。 “我是个司机，开车开得太多难免手滑。”男人淡淡地说，“我知道你们要的是什么，可以，交给你们没问题。” 他摸了摸楚子航的头，“去把后备箱的箱子拿出来，黑色的，上面有个银色的标记。” 后备稍 里果然有一只黑色的 手提 ，特制皮面粗糙而坚韧，上面是一块银色的铭牌，刻着一株茂盛生长的世界树。 这个是 bob 识别的，“后备箱的稍子”应该是“后备箱的箱子”，“后备籍”应该为“后备箱”。 “你竟然敢撞向神的御座！”雨里传来奥丁低沉的声音。 “我是个司机，开车
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221714#reply3
+
+---
+
+#### 5843. [V2EX] 登录美区账号，国区 app 不让更新了
+
+**问题描述 / Problem Description**:
+之前是可以的，现在不行了，即使商店账号切换到国区也不行。 直接显示 APP 不可用。26.5.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221686#reply18
+
+---
+
+#### 5844. [V2EX] iPhone17 凌晨异常使用蜂窝数据欠费 500 多
+
+**问题描述 / Problem Description**:
+早晨五点被密集几十条短信吵醒，一看吓一跳，短信显示流量超出 540 元。（ 8 元保号套餐，600 元流量超出强制断网） 查了一下记录，从一点开始到 5 点结束一直在疯狂跑流量，手机一直在充电没在使用 看了设置里的记录显示 shadowrocket 使用了 25G 很多异常点: 1.家里全屋 wifi7 覆盖，为啥会突然走流量 2.手机没有后台上传下载的任务，我经常重置网络设置，大部分 app 都是默认没有网络权限的，手机里没有网盘之类的 app ，即使有，再设置里流量统计也会有体现 3.小火箭一直是规则模式链接，不知道为啥会在凌晨异常暴力传输数据，3 小时 25G 流量 ，小火箭默认不打开日
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221604#reply46
+
+---
+
+#### 5845. [V2EX] 2026 年苹果的低电量提醒依旧一坨
+
+**问题描述 / Problem Description**:
+苹果的低电量提醒在打游戏时提出直接卡个几秒钟，最失败的设计之一 这低电量提醒不能只用声音提醒？不知道苹果的设计师怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221456#reply5
+
+---
+
+#### 5846. [V2EX] Mac 外壳磕了，国内外两次 AC 送修经历，但未修机
+
+**问题描述 / Problem Description**:
+放一张 AI 做的图，方便大家快速了解本文大概内容 一年前，自己的美版 16 寸 MacBook 因为自己不不小心，被充电头的插脚顶出了凹痕，刚好买了 AppleCare ，于是就预约了准备去送修 维修价格预估是这样的，到店接待我们的人说，显示器的更换 100 美金，机身的更换 200 美金，这和官网说的机身外壳损坏 99 美金不同（当时我没有去看过官网的维修价格，就忘了问为什么价格不同了），接待我的黑人小哥不建议我维修，想着 AC 还有一年，等快到期了再换 26 年 8 月 AC 到期了，前段时间就又预约了看看 国内的 AC 预约需要身份证后四位数（不清楚是否校验），到店签到的时候也要你的真
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221399#reply10
+
+---
+
+#### 5847. [V2EX] [送码] 成功把 iCloud 空间省出了 190GB
+
+**问题描述 / Problem Description**:
+前期提要： vibe coding 了一个解决 iCloud 空间不足的 app - Slimm 最近终于把成品上架 app store 了，地址在这里 Slimm - 释放云空间 核心原理就是只保留前 5s 的低质量视频，原始媒体存在本机或者别的大容量设备上，现在 Slimm 不仅支持本机，还支持了 Web DAV 和外接存储。而且还可以在 Mac 上安装，我已经把自己的 700+个视频全部移到了 Macbook 上面，iCloud 空间立减 190GB ，200GB 的空间终于不再捉襟见肘了。 而且事实证明，以前存储的确实有很多视频是我完全不会再看一遍的了，如果不是这次清理存储空间的机会，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221332#reply61
+
+---
+
+#### 5848. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply30
+
+---
+
+#### 5849. [V2EX] 现在已经没办法修改苹果地图的位置了吗？
+
+**问题描述 / Problem Description**:
+设备：ipadmini7 港版（ wifi 版 系统：最新 OS26.5 路由器：小米（已经修改 country code 到香港/韩国 网络：美国家宽 ip （全局尝试了也不行 以前按照 iRingo 很容易的，现在想看个 Apple News 都不行了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221086#reply25
+
+---
+
+#### 5850. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply57
+
+---
+
+#### 5851. [V2EX] ios27 新 siri 问一些联网问题就报 problem，本地化问题没问题，是节点不对？
+
+**问题描述 / Problem Description**:
+ios27 新 siri 问一些联网问题就报 problem ，本地化问题没问题，是节点不对？ 问世界杯开始了吗？就说 have problem ，问现在几点以及在哪里，就可以回话上来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220507#reply10
+
+---
+
+#### 5852. [V2EX] 「已删除」做了个问答小站
+
+**问题描述 / Problem Description**:
+https://jiaoyuan.app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221810#reply1
+
+---
+
+#### 5853. [V2EX] 分享一个国内直连的 AI 模型 API 平台 - AI 太空站
+
+**问题描述 / Problem Description**:
+最近发现了一个很不错的国内 AI 模型 API 平台 —— AI 太空站，分享一下使用体验。 核心亮点： 国内直连，无需科学上网 接入 13 个顶级 AI 模型：GPT-5.5 、Claude Opus 4.8 、Gemini 3.5 等 超低价格：¥1.5 起 / 百万 token 微信支付即充即用，按量计费 OpenAI 兼容 API ，支持所有主流客户端 DeepSeek 免费使用 个人感受： 之前一直用各种中转站，要么不稳定要么价格贵。这个平台响应速度很快，API 兼容性也不错，换了个 base_url 就能直接用。价格确实便宜，适合个人开发者和做 AI 应用的朋友。 有需要的可以试试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221805#reply0
+
+---
+
+#### 5854. [V2EX] [开源推荐] 3 款不容错过的开源信息图表（Infographic）生成大模型
+
+**问题描述 / Problem Description**:
+1. SenseNova-U1-8B-MoT-Infographic —— Apache 2.0 完全开源 团队： 商汤科技（ SenseTime ） | 8B MoT 架构 | 权重与代码完全开源 定位： 从零开始专为信息图表（ Infographic ）任务打造 亮点： 无论是小字清晰度、布局结构还是图表数据，全部经过了强化学习（ RL ）的专门增强 配置： 消费级显卡即可运行（最低 16GB 显存） 项目地址： GitHub - OpenSenseNova/SenseNova-U1 最新动态：刚在 6 月 12 日发布了 U1-8B-MoT-Interleaved 版本，现已支持多页内容
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221774#reply0
+
+---
+
+#### 5855. [V2EX] codex 看来真的很伤硬盘，我用了一个月 codex，写入量 5tb
+
+**问题描述 / Problem Description**:
+设备是 MacBook Pro ，5 月 27 号看了下硬盘的写入量，是 27.7tb ，今天又看了下硬盘的写入量，是 32.5tb ，最近这一个月我在电脑上装了 codex 的客户端，基本上每天都会使用它。不用的时候就放在后台，没有完全退出。 GPT 给出的建议是：25 天写入 4.8TB ，确实说明最近写入明显偏多。如果长期按这个速度跑，一年大约 70TB 。这个强度对 SSD 不是灾难，但已经不是“轻度办公”级别，更像开发环境、索引、缓存、日志、模型工具频繁读写带来的量。 Codex 桌面端确实可能让写入量明显上升，建议你每周记录一次。如果以后从每周几百 GB 突然变成每周 2TB 、3
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221747#reply15
+
+---
+
+#### 5856. [V2EX] 突然发现拼多多居然没有做网贷
+
+**问题描述 / Problem Description**:
+突然发现拼多多居然没有做网贷。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221710#reply48
+
+---
+
+#### 5857. [V2EX] 米家空调的型号也太多了，我似乎分不清国补完 1500 左右，哪个 1.5P 比较合适了
+
+**问题描述 / Problem Description**:
+35GW-PG15/N1A1 35GW-PG15/A1A1 ....我看到了好多这种字样，有懂哥出来支支招吗？ 我心理预期价位大概在 1500 （国补完）左右，旧品回收以后预期可以提到 1800 左右 家里还有旧机，看了下几个平台的回收价格，基本上都在 300+ 需求： 卧室使用，面积大概 20 左右，哪个型号和价格会比较合适呢。 现在家里这个老空调实在是消费不起了，5 级能效，我开都不敢开啊！！！！ 先感谢各位了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221694#reply21
+
+---
+
+#### 5858. [V2EX] 备份功能，对比了商业软件与开源软件
+
+**问题描述 / Problem Description**:
+我把自己的软硬件与网络情况，以及备份需求，问了一堆 AI ，AI 们统一推荐了业界第一的商业软件 Veeam 与开源软件 UrBackup 。 Veeam 的设计思路，符合人类的思维逻辑，安装部署与测试总体上很顺利，期间遇到两个小问题，都被 AI 一次性解决。 UrBackup ，后台的选项文字就充满歧义，安装过程中遇到各种问题。最后虽然把服务搭建起来，但备份失败。最重要的是，备份失败的 Server 、Client 、Web 后台，都没有记录日志。询问了 AI ，AI 说社区同样反馈了这些问题。 我觉得，开源软件，功能可以少一点，bug 可以多一些，但连日志都没记录，这也太摆烂了。 而商业软
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221693#reply1
+
+---
+
+#### 5859. [V2EX] 大家见过哪些把 GitHub 功能玩到极致的“不务正业”项目？
+
+**问题描述 / Problem Description**:
+刷 GitHub Trending 的时候，发现大家除了传代码、脚手架、存文档，还衍生出了各种奇奇怪怪的玩法。比如有人用 Git 提交记录来画画，有人用 Issue 来当博客评论区。 我自己前阵子也整了个新活：我把普通的架构教程和文字回忆录做了一次融合。用写小说的方式，在 GitHub 连载我自己真实的成长故事（一个小学毕业被 300 块赶出学校的少年，如何从放鸭抓鳝鱼，一路底层重构到写代码、做架构）。 原本只是打算自己写着玩，结果前阵子连载的时候，有位 V 站老哥看完直接看上头了，顺手用 AI 和编曲工具给这本小说整了一首专属的 BGM 。 现在搞得我每次高频 Commit ，都得听着这首歌
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221685#reply1
+
+---
+
+#### 5860. [V2EX] DNSHE——做免费域名的，免费域名直接送 10 年
+
+**问题描述 / Problem Description**:
+先说最狠的：. bbroot . com 新注册域名，默认直接给 10 年有效期。 你没看错，免费域名，10 年。 以前是 1 年到期续一次，现在是注册下来直接到 2036 年。老用户也没被忘掉——符合条件的存量域名自动补足到 10 年。 原来到期时间 2026 年的，直接拉到 2037 年。 我第一反应是：这得多少钱啊？兄弟你确定不会倒闭吧？ 但转念一想，人家的商业模式不是靠域名收费，是靠赞助和生态。免费域名锁住用户，然后靠企业赞助、VIP 、增值服务回血。这一手其实很聪明。 再说几个跟钱有关的硬变化： 注册门槛降低：免费域名最低前缀从 3 字符降到 2 字符。短域名爱好者狂喜，2 字母的香
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221612#reply2
+
+---
+
+#### 5861. Why $BASH is equal to /bin/zsh in bash
+
+**问题描述 / Problem Description**:
+Tags: macos, bash | Score: 0 | Views: 234 | Answers: 2 | Created: 2025-09-28
+
+**解决方案 / Solution**:
+I compiled bash from source and debugged. In variables.c , function get_bash_name , there is following code : name = savestring (current_user.shell); which sets BASH to the value of $SHELL.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481678/why-bash-is-equal-to-bin-zsh-in-bash
+
+---
+
+#### 5862. Finder won't open new folder in new window
+
+**问题描述 / Problem Description**:
+Tags: macos, finder | Score: 0 | Views: 166 | Answers: 1 | Created: 2025-09-27
+
+**解决方案 / Solution**:
+I finally found the obvious, and stupid, reason : You need to Hide the tool bar from the Finder Menu Presentation options. You then get the compact mode and folders by default open in a new window For whatever reason this mode was deactivated after the motherboard update
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481672/finder-wont-open-new-folder-in-new-window
+
+---
+
+#### 5863. How do I stop imagent from trying to open on OS X?
+
+**问题描述 / Problem Description**:
+Tags: macos, launchd | Score: 0 | Views: 137 | Answers: 1 | Created: 2025-09-27
+
+**解决方案 / Solution**:
+open terminal and run this: launchctl unload -w /System/Library/LaunchAgents/com.apple.imagent.plist it unloads the launchagent and keeps the process from running automatically
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481665/how-do-i-stop-imagent-from-trying-to-open-on-os-x
+
+---
+
+#### 5864. Cannot install ffmpeg on macOS Monterey
+
+**问题描述 / Problem Description**:
+Tags: macos, homebrew, monterey | Score: 0 | Views: 599 | Answers: 1 | Created: 2025-09-27
+
+**解决方案 / Solution**:
+I'm not sure what your question is, as the error messages you quote clearly show why the build failed. I can load the page at static.crates.io in Safari with Tahoe, so something is wrong or incompatible in the SSL setup of your Homebrew installation. Maybe Monterey lacks a root certificate that more recent macOS versions have, and the server requires. There are statically-linked, pre-built binaries for ffmpeg at osxexperts.net , as well as instructions for building it without relying on a package manager. I use one of those binaries, and it seems to work fine. If you try to run one of these binaries right after downloading it, Gatekeeper will block it and alert you that it may be malware. It isn't. The block is triggered because the binary has a generic "ad hoc" code signature, rather than the signature of a registered developer. To remove the block, you have to clear the quarantine attribute: xattr -c /path/to/ffmpeg Replace /path/to/ with the actual path to the download.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481658/cannot-install-ffmpeg-on-macos-monterey
+
+---
+
+#### 5865. Spotlight crashes whenever a search is conducted (other aspects works, such as opening an app from the new tahoe spotlight function)
+
+**问题描述 / Problem Description**:
+Tags: spotlight, crash, macos | Score: 0 | Views: 253 | Answers: 1 | Created: 2025-09-19
+
+**解决方案 / Solution**:
+It turns out that the OP had added a configuration file at /Library/Preferences/FeatureFlags/Domain/SpotlightUI.plist This file, which doesn't exist by default, was causing the Spotlight app to crash in all user accounts.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481581/spotlight-crashes-whenever-a-search-is-conducted-other-aspects-works-such-as-o
+
+---
+
+#### 5866. Why is my macOS M1 (2021) display showing the home screen on top of the dock?
+
+**问题描述 / Problem Description**:
+Tags: macos, display | Score: 0 | Views: 121 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+This is very weird. Spent the afternoon trying various fixes (new user, Safe Mode, display settings) no joy. Was just about to call Apple Support when it resolved itself. Now that's pretty good service! Now idea what happened or caused the issue in the first place, and no idea how it got 'fixed.'
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481575/why-is-my-macos-m1-2021-display-showing-the-home-screen-on-top-of-the-dock
+
+---
+
+#### 5867. How to edit my locale to order period before any other punctuation?
+
+**问题描述 / Problem Description**:
+Tags: macos, internationalization | Score: 0 | Views: 52 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+There is a built-in tool localedef(1) for compiling locale files from source code. The source code definition comes from an old version of FreeBSD, but I don't know which one. You could try modifying one of the files in this GitHub repository . The resulting locale file would have to be installed under /usr/local/share/locale because the boot volume is read-only.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481573/how-to-edit-my-locale-to-order-period-before-any-other-punctuation
+
+---
+
+#### 5868. Can you have a clear menu bar in macOS Sequoia without any apps?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, menu-bar | Score: 0 | Views: 1295 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+By default, the menubar will be transparent, at least, if not 'clear', on MacOS versions back to Big Sur at least. It will only look solid if you have turned on "Reduce Transparency" in System Settings > Accessibility > Display, (which helpfully removes the hideousness of transparency). I don't think you can entirely remove the background before Tahoe. Apple are touting it as a new feature, after all. Third-party apps on github will have their code available for anyone to look at; so even if you can't assess what the code does, the chances are that someone else can. There are also plenty of safeguards in the OS to prevent one app interfering with another's information.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481565/can-you-have-a-clear-menu-bar-in-macos-sequoia-without-any-apps
+
+---
+
+#### 5869. UPS Battery Backup for Mac Mini suggestions
+
+**问题描述 / Problem Description**:
+Tags: macos, backup, battery, ups | Score: 0 | Views: 238 | Answers: 1 | Created: 2025-09-15
+
+**解决方案 / Solution**:
+You can set up a desktop Mac (apple.com) to shut down automatically on UPS power under various conditions, if the UPS is compatible and has USB connectivity. I believe that APC, Tripp-Lite, and Cyberpower all have compatible models, but you would have to confirm. The vendor software is only needed if you want to send a shutdown signal over the network.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481518/ups-battery-backup-for-mac-mini-suggestions
+
+---
+
+#### 5870. Sort photos quickly for upload with standard or free tool(s)
+
+**问题描述 / Problem Description**:
+Tags: macos, photos | Score: 0 | Views: 95 | Answers: 2 | Created: 2025-09-13
+
+**解决方案 / Solution**:
+If you want a native macOS solution, you could import all your photos into the built-in Photos app, sort the ones you want to send to Google into an album, and then export that album. I doubt there is any easier way to do it.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481497/sort-photos-quickly-for-upload-with-standard-or-free-tools
+
+---
+
+#### 5871. How do I confirm the system has recognised changes in /etc/hosts?
+
+**问题描述 / Problem Description**:
+Tags: macos, hosts | Score: 0 | Views: 494 | Answers: 2 | Created: 2025-09-06
+
+**解决方案 / Solution**:
+The system confirms my changes immediately. Check the host file has tab or white space for correct parsing . Query the directory service % cat -vet /etc/hosts | grep production 127.0.0.1 my.production.web.service$ % sudo dscacheutil -flushcache % dscacheutil -q host -a name my.production.web.service name: my.production.web.service ip_address: 127.0.0.1 % sw_vers ProductName: macOS ProductVersion: 15.6.1 BuildVersion: 24G90 Command line curl and Safari respect the new value when requesting http://my.production.web.service To confirm a real check, add a line for www.apple.com also for 127.0.0.1 Immediately after saving the hosts file, lookups and attempts to access http://www.apple.com were redirected locally without taking any action whatsoever. My advice is to not get sidetracked by mDNS tools like dns-sd since they differ from traditional DNS / static hosts files or NIS / LDAP implementations for name resolution. Since I'm not able to reproduce your problem, if you can’t get a host lookup immediately, perhaps dscacheutil -flushcache is worth trying. Much of that tool isn’t needed if you don’t set up LDAP directory services, but I find it useful to check hosts file changes still on macOS 15. Also, a restart is a great tool to ensure you have a reproducible issue and not simply that your system has become unstable.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481428/how-do-i-confirm-the-system-has-recognised-changes-in-etc-hosts
+
+---
+
+#### 5872. How can I set birth time to nanosecond accuracy?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, time, extended-attributes | Score: 0 | Views: 82 | Answers: 1 | Created: 2025-09-06
+
+**解决方案 / Solution**:
+I'm astonished that SetFile is still part of Xcode. From man SetFile : Tools supporting Carbon development, including /usr/bin/SetFile, were deprecated with Xcode 6. /usr/bin/SetFile is a tool to set the file attributes on files in an HFS+ directory. This, and the fact that the man page itself hasn't been updated since 2009, are a clear indicator that SetFile is not actively maintained any longer and does not support new capabilities introduced with APFS. Right now there doesn't seem to exist a user-level utility to change the birth date of a file/directory. If you are familiar with programming in C, How to set the creation date of a file in C under Mac OS X? and How do I change the creation time of a file to a newer date in Mac OS X? might offer some clues.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481426/how-can-i-set-birth-time-to-nanosecond-accuracy
+
+---
+
+#### 5873. Can I adjust my system so that a Python model doesn't get killed by the OS for excessive resource usage?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, unix | Score: 0 | Views: 120 | Answers: 1 | Created: 2025-09-05
+
+**解决方案 / Solution**:
+The OS kills processes if they access illegal/unavaible memory locations. This for instance happens if a process allocates more memory than is available, but doesn‘t check for errors and just tried to use the memory anyway. You can prevent this from happening by checking the return of any memory allocation and terminate the process gracefully as part of your own code. You are out of luck though if it happens in third party code. PS: The error message you get is lacking details, so there could also be a different cause. Key point is though that macOS considers the process to be in a state where it can’t properly run any longer and terminates it. At thst point you can‘t stop termination any longer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481417/can-i-adjust-my-system-so-that-a-python-model-doesnt-get-killed-by-the-os-for-e
+
+---
+
+#### 5874. How do you show / hide the Dock with keyboard shortcuts?
+
+**问题描述 / Problem Description**:
+Tags: macos, dock | Score: 0 | Views: 384 | Answers: 1 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+That is the standard shortcut. Check that you have it enabled in keyboard shortcuts, and that that combination is not assigned to another shortcut. I do, in macOS 15.6.1, and it works.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481402/how-do-you-show-hide-the-dock-with-keyboard-shortcuts
+
+---
+
+#### 5875. Can the Apple ID passkey be exported via CXP?
+
+**问题描述 / Problem Description**:
+Tags: macos, ios, passkey | Score: -1 | Views: 268 | Answers: 1 | Created: 2025-09-24
+
+**解决方案 / Solution**:
+There is no Apple Account passkey in the Passwords app, which is why you can't find it. On a device, you sign in to an Apple Account with a traditional name and password. There is, as the OP points out, an option to sign in to an Apple Account on the Web with a passkey. If that’s really what is happening, then the key is treated specially and not directly exposed in Passwords, which is the only user interface to the Data Protection keychain. So it can’t be exported.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481634/can-the-apple-id-passkey-be-exported-via-cxp
+
+---
+
+#### 5876. How to make sure refurbished MacBook doesn't have malware on it?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hardware | Score: -2 | Views: 393 | Answers: 2 | Created: 2024-09-22
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/475533/how-to-make-sure-refurbished-macbook-doesnt-have-malware-on-it
+
+---
+
+#### 5877. Help with usage of bioutil (what settings can I read/write, password issue)?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: -3 | Views: 287 | Answers: 1 | Created: 2025-09-23
+
+**解决方案 / Solution**:
+Although it's not clear from the man page, in my tests (with macOS 26), bioutil can only be used to read and set system-wide TouchID timeouts: sudo bioutil -ws --btimeout <seconds> sudo bioutil -ws --mtimeout <seconds> sudo bioutil -ws --ptimeout <seconds> The first form sets the timeout after which all users must re-authenticate with their password, where <seconds> is an integer from 1 to 172800. The second form sets the "match timeout." I'm not sure what that means, and the man page doesn't explain. I also don't know what the limit is, but the default is 14400. The third form sets the "passcode input timeout." I think this is the time after which users must re-authenticate for TouchID if they have not entered their password for any reason. Again, I don't know what the limit is. The default is 561600. The complete per-user configuration is printed in response to bioutil -r and for the system-wide configuration, bioutil -rs Root privileges are not required for the last command.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/481620/help-with-usage-of-bioutil-what-settings-can-i-read-write-password-issue
 
 ---

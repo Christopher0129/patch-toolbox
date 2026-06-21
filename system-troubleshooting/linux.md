@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6171**
+**总计条目 / Total entries: 6255**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -88149,5 +88149,1097 @@ As for the foreground problem: You can't install an RPM package without root pri
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/732085/how-to-install-git-on-a-centos-7-host-as-a-non-root-user
+
+---
+
+#### 6172. LibreOffice - how to turn off "Automatic accessibility check"?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, configuration, libreoffice, settings | Score: 1 | Views: 18 | Answers: 1 | Created: 2026-06-21
+
+**解决方案 / Solution**:
+Shortly after posting my question, I found a solution on Ask LibreOffice site. There is apparently a bug in LibreOffice that makes the setting stay on once you have displayed the accessibility check side panel. But there is a tricky method to turn it off. It worked for me: Display the accessibility check side panel. Don't close it, but switch to another side panel using icons in the sidebar. If "Authomatic accessibility check" is still on, turn it off. Now close the side panel and exit the program. After restarting, the "Automatic accessibility check" check mark should be no more on.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806481/libreoffice-how-to-turn-off-automatic-accessibility-check
+
+---
+
+#### 6173. How to determine how many username spaces are being used
+
+**问题描述 / Problem Description**:
+Tags: linux, linux-kernel, kernel, namespace, privileges | Score: 0 | Views: 16 | Answers: 1 | Created: 2026-06-21
+
+**解决方案 / Solution**:
+Those are not "usernames" but "user namespaces", as in a type of namespace which has its own users – they have nothing to do with usernames (which aren't managed by the kernel at all). From the toplevel namespace, run lsns -t user : # lsns -t user NS TYPE NPROCS PID USER COMMAND 4026531837 user 471 1 root /usr/lib/systemd/systemd --system 4026532362 user 1 60660 rdist ├─python3 /usr/local/rupdate/upserver -t /etc/private/upserver.keyt 4026532779 user 1 4528 pcscd ├─/usr/bin/pcscd --foreground --auto-exit 4026532915 user 1 1277203 _iperf3 └─/usr/bin/iperf3 --server 4026532381 user 7 1353 vu-stunnel-0 /usr/lib/systemd/systemd The list will include all namespaces, whether their creator was privileged or unprivileged. Keep in mind that the namespace will often have been created by the parent of the indicated process (e.g. by systemd when starting a "PrivateUsers=yes" service, not by the service's process itself). What's shown in the list is the topmost process that still remains. A low-level way is to check /proc/PID/ns/user for every PID. Calling readlink on the magic symlink will show the namespace ID. # ls -ogl /proc/*/ns/user lrwxrwxrwx 1 0 May 29 17:56 /proc/1/ns/user -> user:[4026531837] lrwxrwxrwx 1 0 May 29 17:56 /proc/100/ns/user -> user:[4026531837] lrwxrwxrwx 1 0 May 29 17:56 /proc/1000/ns/user -> user:[4026531837] (Another low-level method is the newly added listns() syscall which lsns doesn't yet use.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806477/how-to-determine-how-many-username-spaces-are-being-used
+
+---
+
+#### 6174. AI slop and low-effort contributions
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ubtskc/ai_slop_and_loweffort_contributions/
+
+---
+
+#### 6175. Qualcomm Posts Linux Patches For HP EliteBook X G2q X2 Elite Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uc16pb/qualcomm_posts_linux_patches_for_hp_elitebook_x/
+
+---
+
+#### 6176. I reverse-engineered NZXT CAM's LCD streaming protocol to get my Kraken Elite screen working on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ube46c/i_reverseengineered_nzxt_cams_lcd_streaming/
+
+---
+
+#### 6177. I just installed LFS 4.1!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ublqw0/i_just_installed_lfs_41/
+
+---
+
+#### 6178. This Week in Plasma: 6.7 is Here!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub8zym/this_week_in_plasma_67_is_here/
+
+---
+
+#### 6179. epoll vs io_uring in Linux async I/O
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ub9ys9/epoll_vs_io_uring_in_linux_async_io/
+
+---
+
+#### 6180. Make-Gamma-ICC: Simple python script to make simple ICC profiles that change gamma values and nothing else for Wayland, replicating the xrandr --gamma R:G:B command
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ubw0b6/makegammaicc_simple_python_script_to_make_simple/
+
+---
+
+#### 6181. BoogieBox - now supporting Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ubxw7o/boogiebox_now_supporting_linux/
+
+---
+
+#### 6182. NextBSD (not NetBSD)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ubsw08/nextbsd_not_netbsd/
+
+---
+
+#### 6183. AURWatch: static rules + an LLM that flag risky AUR PKGBUILDs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ubasc9/aurwatch_static_rules_an_llm_that_flag_risky_aur/
+
+---
+
+#### 6184. [V2EX] 升级后，发现 USB 相关的设备无法启用，可以查下有没有 usbguard 服务
+
+**问题描述 / Problem Description**:
+最近系统升级后，一开始看到的是所有跟 USB 相关的设备，包括蓝牙，指纹识别，usb camera 都不正常了，看 bios 都没有问题，我一度以为是 bios 升级导致的。问了 gpt 才发现是 usbguard 这个服务捣鬼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221700#reply0
+
+---
+
+#### 6185. [V2EX] 介绍一下 flatpark
+
+**问题描述 / Problem Description**:
+最近 flathub 禁止提交软件时使用 ai 辅助, 我想上 ibkr 被 maintainer 喷了, 索性自己 vibe 了一个: https://flatpark.org/ 使用和 flathub 没啥区别, runtime 也是直接拿 flathub 的. 只是上架应用更简单, 更新 runtime 会更快. 欢迎大家来丰富资源/提想法.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221637#reply4
+
+---
+
+#### 6186. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply2
+
+---
+
+#### 6187. [V2EX] Agentic Coding 两年，分享一下对圈内的看法（第二部分，有干货）
+
+**问题描述 / Problem Description**:
+幻影忍者前情提要 （ Linux DO 版）： Vibe Coding 了两年，分享一下自己对于这个圈子的感想。 （ V2EX 版）： Vibe Coding 了两年，分享一下自己对于这个圈子的感想。 嗨嗨嗨伙计们我又来继续分享了，不好意思这个饭吃得有点慢（迫真） 现在刚好在火车站等火车，闲着也是闲着，那就开写！ 以下为个人观点，基本上全是暴论，不喜勿喷，给孩子留点面子吧😭 首先来解答一下很多伙计们问我的问题： Vibe Coding 真的适合所有人吗？ 我看不见得。 毋庸置疑，Vibe Coding 拉低了创造产品的门槛。但是请不要盲目跟风。 记住一个原则：当你的工作流能跑通并且效率能符合你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221802#reply2
+
+---
+
+#### 6188. [V2EX] AI 算力大模型优逆讨论
+
+**问题描述 / Problem Description**:
+欢迎各路佬友发表一下各大模型的，各种应用场景用哪种模型比较合适
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221797#reply5
+
+---
+
+#### 6189. [V2EX] 过去我觉得 codex 最大的两个问题是封闭且不够懂我的工作流
+
+**问题描述 / Problem Description**:
+虽然我觉得 codex 很好用，但我还是会想着自己开发一个 AI 工作台。 因为我觉得 codex 只支持自家的模型，订阅贵，封闭。就算我不开发一定会有源源不断的 AI 工作台诞生，就像 opencode/hermes/workbuddy/marvis/lobehub 等等。现在 AI 编程这么方便，随便 vibecoding 几天就出来了。 没过多久 codex 宣布将会支持自定义 api 接入，虽然过去会使用中转站接入 codex 性价比很高，但是存在安全问题，前两天公司的 github PAT(个人 token) 就泄露了，大概率可能就是 codex+中转站导致的。 昨天晚上我忽有个灵感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221779#reply3
+
+---
+
+#### 6190. [V2EX] 有没有办法给 code agent 提供知识库？
+
+**问题描述 / Problem Description**:
+问题描述 据我所知，现在的编程 agent 很大程度上受限于上下文长度，各个工具对此的策略都是压缩上下文。 claude code 和 hermes 有个记忆系统但是我不太了解。 我在使用 agent 的途中，发现他总是犯同样的错，现在的解决途径是把问题写在 AGENTS.md 里面。 随着项目开发，在 AGENTS.md 里面做补充越来越像是打补丁，而且有些问题并不常见，但是每次都犯错误真的很难受。 可能有以下问题： 模型注意力不集中，虽然 AGENTS.md 里面写了，但是他不遵守。按这一点来说，就算搞了个什么知识库的体系，依旧是没有作用。 上下文问题，模型不知道什么时候去找知识库，由于上
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221777#reply4
+
+---
+
+#### 6191. [V2EX] 我要给 GLM5.2 道歉
+
+**问题描述 / Problem Description**:
+前几天我发了一个帖子，说 GLM5.2 被过誉，实际不太行。 https://v2ex.com/t/1221519 后来我注意到评级的是 GLM5.2 max ，我之前在 claude cli 用的是 GLM5.2 high 而官方也有描述如下： For coding tasks, we recommend using max effort to enable deeper reasoning and more stable performance on complex tasks. 我这两天又深度体验了一下常开 max effort/ultra code 模式，我觉得体感很好，感觉智能和准确
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221760#reply23
+
+---
+
+#### 6192. [V2EX] 想问问有什么比较好的 AI 工作流真正的能提高工作效率
+
+**问题描述 / Problem Description**:
+补充一下，这里说的"工作"不局限于程序员，生活场景也算。 我自己目前在用的最基础的组合是钉钉 DWS ，配 Claw 写日报，直接就能搞定。 其实类似这种每天都要重复做的低级决策，AI 都可以帮着覆盖掉——比如写工作日报、整理当天要了解的前沿信息、列当天要采购的东西、提醒冰箱里哪些食材快过期了、算一下今天该吃多少热量、今天运动了没、练到哪一步了。 当然 AI 给的结果不一定全对，但我倾向激进一点：让 AI 先把这类决策接管了，说不定反而是种不错的体验。大家有没有类似的工具推荐？ 比如有人拿手机开 OpenClaw 拍当天的食谱，让 AI 估一下这顿大概多少热量。 主要还是琐碎的事情容易忘记而且
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221753#reply1
+
+---
+
+#### 6193. [V2EX] Claude App 并不那么好用
+
+**问题描述 / Problem Description**:
+这里特指 Claude Mac 桌面版，个人使用体验不如 Codex, 甚至不如 Zcode. Codex 和 Zcode 完成任务后都会用增量 diff view 总结出这轮对话改了啥，一目了然，Claude 就用个大白话说改了什么； Claude 跳转到编辑器(VSCode)很麻烦，Codex 和 Zcode 甚至能跳到指定行； Claude 权限设计也不太好用 Claude 有些文件居然 @ 不出来(看起来像 bug)，前几个版本 @ 记得好像不支持忽略大小写，匹配文件名也有点问题；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221746#reply5
+
+---
+
+#### 6194. [V2EX] 分享自己使用 ai coding 的方式
+
+**问题描述 / Problem Description**:
+我一般都是提供所有权限给 ai 的，所以需要一个隔离环境给 ai ，一开始用的是 docker ，但是在 docker 里面启动 docker 需要特权模式还是太危险了，转而使用虚拟机 Vmware 。 把 github 的 ssh key 部署在虚拟机里面也很危险，我的做法是 在 host 上使用 ssh 克隆项目，通过挂在目录到 guest 中，然后 guest 使用 https 克隆项目， 后续 ai 开发完成会通过 git 把提交转给挂载进来的目录中，然后回到 host 中进行 git push 然后回到 guest 进行 git pull,因为 commit hash 是一样的，在执
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221733#reply11
+
+---
+
+#### 6195. [V2EX] 发现了一个有趣的现象。
+
+**问题描述 / Problem Description**:
+以前没有 ai 的时候，你写文章，写开源项目，评论区会出现这样一种声音： 你个卷狗，搞这些有什么意义，你再强也逃不过 35 岁危机。 现在 ai 盛行的时代，你做同样的事情，这批人就换了一个口吻来抨击： 你这个是用 ai 做的吧，你搞这些毫无意义，现在 ai 这么牛逼，大家有需求直接用 ai 就写出来了，还需要用你的啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221727#reply13
+
+---
+
+#### 6196. [V2EX] 问一个私密但又迫切的问题，进入 ai 时代后，大家用 ai 做的项目都实实在在挣到钱了吗
+
+**问题描述 / Problem Description**:
+问一个私密但又迫切的问题，进入 ai 时代后，大家用 ai 做的项目都实实在在挣到钱了吗？如果可以的话，把自己做了什么项目，挣了多少拿出来晒一晒吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221724#reply42
+
+---
+
+#### 6197. [V2EX] [开源] 带领 AI 团队开发了一个极轻量的 GT AI Gateway：支持协议转换、请求查看，还能大幅降低 Claude Code 等调用成本
+
+**问题描述 / Problem Description**:
+大家好，最近带领 AI 团队，开发了一个轻量级大模型网关项目： GT AI Gateway 我们在平时开发和使用大模型 API 时，经常会碰到下面这些痛点： 费用黑洞 ：把 API Key 填进各种工具（比如最近很火的 Claude Code ）里跑，额度跑飞了都不知道，缓存命中率极低，成本居高不下。 协议壁垒 ：手里的工具支持 Anthropic 协议，但上游 api 只有 openai 格式。 黑盒调试 ：Prompt 发出去之后，很难知道底层到底拼接了什么历史消息和工具调用，出了 Bug 只能靠盲猜。 共享风控 ：想把自己的 Key 分给朋友或小号用，但又怕他们不小心额度超标，或者直接泄
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221722#reply16
+
+---
+
+#### 6198. [V2EX] codex 频繁写 ssd 对 ssd 寿命有影响
+
+**问题描述 / Problem Description**:
+issue https://github.com/openai/codex/issues/17320 https://github.com/openai/codex/issues/28224 临时方案 sqlite3 ~/.codex/logs_2.sqlite "CREATE TRIGGER IF NOT EXISTS block_log_inserts BEFORE INSERT ON logs BEGIN SELECT RAISE(IGNORE); END;"
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221675#reply10
+
+---
+
+#### 6199. [V2EX] 把 Rust 概念翻译成 JS 心智模型，做了个面向前端的交互式教程
+
+**问题描述 / Problem Description**:
+自己是写前端的，学 Rust 时被所有权/借用/生命周期反复劝退，就边学边做了个网站，把这些概念用 JS/TS 的对照来讲，难懂的部分（所有权、借用、迭代器）都配了交互动画，代码块还能直接在页面里改了跑（接的官方 Playground ）。 前几天发了一个类似的课程 <赶在被封前，用 Claude Fable 做了个免费的 AI 入门课程> 反响还不错 在 AI 时代，除了利用 AI Coding 之外，学习任何技能都是一件很方便的事，也非常期待之后会有更多类似可视化交互式的课程开源出来，毕竟一个人的能力有限，学海无涯... https://github.com/buynao/rust-for
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221672#reply15
+
+---
+
+#### 6200. [V2EX] 针对同一问题， Claude 和 Gemini 的实践对比。
+
+**问题描述 / Problem Description**:
+模型： Claude Opus 4.6 （ Tinking ） Gemini 3.1 Pro （ High ） 工具： Google Antigravity 提的问题大概就是： 让他们给我查询 OpenJDK 在 alpine:3.24.0 debian:13.5.0 rocky:10.2.0 上的最新版本号。 Gemini 3.1 Pro 花了 6 分钟，还在抓耳挠腮，像极了考试中不会做题，疯狂打草稿的我。 Claude 花了 1 分钟，输出一个漂亮的表格。先别管对不对，总之就是快。 Claude 明白了！我现在严格按照您的要求：**从 Dockerfile 的 `FROM` 基础镜像出发，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221666#reply17
+
+---
+
+#### 6201. [V2EX] cc 比 codex 好用
+
+**问题描述 / Problem Description**:
+之前误封号赠送了一个首月优惠，但是只能银行卡和 pp 付款，不能用 play ，干脆就去开了 cc ，月费差不多，但是感觉 cc 更好用啊，不光是模型，还有工具本身，codex 远程时候真的很慢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221662#reply13
+
+---
+
+#### 6202. [V2EX] Vibe Coding 了两年，分享一下我对于 Vibe 的感想。
+
+**问题描述 / Problem Description**:
+以下为个人观点，基本上全是暴论，不喜勿喷，给孩子留点面子吧😭 我是从 2024 年读高二的时候了解到 Vibe Coding 的（当时大家还没有叫它 Vibe Coding ），当时 DeepSeek 刚出 R1 ，除了 OpenAI 的 GPT-o1 之外，大家还没来得及用上思维链，也没有那么强的性能，参数量最大的模型的话好像是 R1 的 671B 。 当时 Token 还没有现在那么便宜，而我又是穷鬼高中生，听说这玩意儿可以辅助编程，便心心念念日思夜想，看着 GPT-o1 馋到流口水，根本买不起订阅。 所幸，我一位玩得好的远房表哥在 AWS 悉尼工作，平时喜欢折腾新奇技术，跟他聊天的时候了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221657#reply75
+
+---
+
+#### 6203. [V2EX] 最近 gemini 网页版本老是断线
+
+**问题描述 / Problem Description**:
+最近 gemini 网页版本老是断线，之前没遇到过这类问题，现在使用着突然就断线了，需要刷新整个网页才可以继续正式使用，你们有遇到过这类问题嘛。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221654#reply5
+
+---
+
+#### 6204. [V2EX] 让 ChatGPT review Claude 写的代码，它挑了 35 条，没一条是错的
+
+**问题描述 / Problem Description**:
+当 AI 几乎挑不出错，真正的难题不再是找 bug ，而是知道什么时候该停 全文： https://dev.com.cn/posts/chatgpt-review-claude-35-mimr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221653#reply7
+
+---
+
+#### 6205. The NEW `du` command (in `/lib/cargo/bin/coreutils`) outputs wrong sizes in Ubuntu 25.10
+
+**问题描述 / Problem Description**:
+Tags: command-line, coreutils, 25.10 | Score: 15 | Views: 8562 | Answers: 2 | Created: 2025-11-07
+
+**解决方案 / Solution**:
+From the uutils repo : uutils coreutils aims to be a drop-in replacement for the GNU utils. Differences with GNU are treated as bugs. While that may be too broad a statement, I would consider your example to be a bug as the starting position based on this. Also, the fact that the subdirectory is counted twice in the total just doesn't seem to be logical, and I would consider a bug (or at least poor result) even if this was a "new tool" (rather than a drop-in replacement).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1559396/the-new-du-command-in-lib-cargo-bin-coreutils-outputs-wrong-sizes-in-ubun
+
+---
+
+#### 6206. Where is git-prompt.sh located in Ubuntu 24.04?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, 24.04, git | Score: 13 | Views: 5604 | Answers: 1 | Created: 2024-07-22
+
+**解决方案 / Solution**:
+It's located at /usr/lib/git-core/git-sh-prompt : $ dpkg -L git | grep prompt /etc/bash_completion.d/git-prompt /usr/lib/git-core/git-sh-prompt and is sourced automatically as part of the bash completions mechanism: $ cat /etc/bash_completion.d/git-prompt # In git versions < 1.7.12, this shell library was part of the # git completion script. # # Some users rely on the __git_ps1 function becoming available # when bash-completion is loaded. Continue to load this library # at bash-completion startup for now, to ease the transition to a # world order where the prompt function is requested separately. # if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then . /usr/lib/git-core/git-sh-prompt fi
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1521308/where-is-git-prompt-sh-located-in-ubuntu-24-04
+
+---
+
+#### 6207. Why does adding and deleting a character with nano to an executable in /bin yield a segfault?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, segmentation-fault | Score: 12 | Views: 2757 | Answers: 3 | Created: 2024-11-19
+
+**解决方案 / Solution**:
+Editing a binary file with an editor meant for text may or may not work - in practice it usually won't. The editor might make various changes like fixing line endings (e.g., if a sequence of bytes in the file contained \r\n , the editor might "fix" that to \n , or fix occurrences of just \n to \r\n ), adding a trailing newline if file didn't end with one, etc. There's a high likelihood that the ls binary did get corrupted by some of such changes. You can compare the output of od -c or hexdump on the original and modified files to see what changed, exactly. And consider using a hex editor in future ( Please recommend a hex editor for shell ) for editing non-text files.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1533352/why-does-adding-and-deleting-a-character-with-nano-to-an-executable-in-bin-yiel
+
+---
+
+#### 6208. List of possibilities from `apt install` is sorted randomly on Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Tags: apt, bash, 26.04 | Score: 6 | Views: 521 | Answers: 1 | Created: 2026-06-03
+
+**解决方案 / Solution**:
+Who is actually responsible for sorting the suggestions - apt or bash? Bash's programmable completion mechanism generates the list using a script provided by apt, located at /usr/share/bash-completion/completions/apt . On Ubuntu 24.04 (apt 2.8.3) this file ends with complete -F _apt apt which applies bash's default completion sorting, whereas 26.04 (apt 3.2.0) it has complete -o nosort -F _apt apt The change seems to be part of the commit completion: history with the commit message complete command history-(list|info|undo|redo|rollback). complete the history-id for all but commands but history-list. set complet -o nosort to get the history-ids in a reverse order. which looks like it is intended to support completion for the new apt history-list command and its relatives, but prevents sorting of apt's completion results more generally as an unintended consequence. If you wish to revert the change, I'd recommend not editing the /usr/share/bash-completion/completions/apt file directly, but instead copying the file to /etc/bash_completion.d/apt and modifying that 1 . Bear in mind that doing so may break the sorting of the (new) history-list and related commands. 1. see for example Standard place for user defined bash_completion.d scripts? . Non-privileged users may apparently also use $XDG_DATA_HOME/bash-completion , or ~/.local/share/bash-completion if $XDG_DATA_HOME is not set - according to the bash-completion FAQ .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1567447/list-of-possibilities-from-apt-install-is-sorted-randomly-on-ubuntu-26-04
+
+---
+
+#### 6209. Why is plocate/locate very slow on WSL2 (minutes per query)?
+
+**问题描述 / Problem Description**:
+Tags: command-line, windows-subsystem-for-linux, locate | Score: 5 | Views: 290 | Answers: 1 | Created: 2026-05-30
+
+**解决方案 / Solution**:
+updatedb had indexed the Windows drives mounted under /mnt . plocate runs an access() permission check on each matched directory, and access() on a 9p/DrvFS path ( /mnt/c/... ) is roughly 250× slower than on native ext4 — about 370 µs vs 1.4 µs on my machine. strace -c made it obvious: access was ~97% of the query's wall time, while reads were a couple of percent. The fix is to stop indexing the Windows mounts. Edit /etc/updatedb.conf , add /mnt to PRUNEPATHS and the Windows filesystem types to PRUNEFS : PRUNEPATHS="/mnt <your existing paths>" PRUNEFS="9p drvfs virtiofs <your existing fs list>" Then rebuild: sudo updatedb Queries drop back to milliseconds, and the database shrinks a lot (mine went from 128 MB to 27 MB).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1567329/why-is-plocate-locate-very-slow-on-wsl2-minutes-per-query
+
+---
+
+#### 6210. How to set a variable from a multiline file in GitHub
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash | Score: 5 | Views: 388 | Answers: 2 | Created: 2026-05-27
+
+**解决方案 / Solution**:
+The gh variable set docs show this example: # Read variable value from a file $ gh variable set MYVARIABLE < myfile.txt So I'd imagine in your case you could just do: < config.yaml gh variable set TEST --org .... # or equivalently gh variable set TEST --org .... < config.yaml The code uses io.ReadAll , so it should read the complete input (except for trimming trailing newlines, which command substitution will also do).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1567212/how-to-set-a-variable-from-a-multiline-file-in-github
+
+---
+
+#### 6211. Insert prefix to each line of a file if line is not blank, otherwise do something else
+
+**问题描述 / Problem Description**:
+Tags: command-line, 22.04, text-processing, sed | Score: 5 | Views: 673 | Answers: 5 | Created: 2025-11-15
+
+**解决方案 / Solution**:
+You can perform conditional branching using the t command, as described in the GNU sed manual Commands for sed gurus : t label Branch to label only if there has been a successful substitution since the last input line was read or conditional branch was taken. The label may be omitted, in which case the next cycle is started. So use regex addressing to apply the first substitution to only those lines that start with a non-blank character; if that substitution succeeds, branch out; otherwise apply the second substitution: sed '/^[^[:blank:]]/s/^/'"$prefix_01"'/;t;s/^/'"$prefix_02"'/' "$f1" or sed -e '/^[^[:blank:]]/s/^/'"$prefix_01"'/' -et -e 's/^/'"$prefix_02"'/' "$f1" You don't need -E because all the expressions are all BRE (basic regular expressions) rather than ERE (extended regular expressions). The POSIX class [:blank:] here corresponds to any horizontal whitespace character (i.e. space and tab). If you want to replace the blank lines (rather than prefix them with $prefix_02 ) then either change the second substitution pattern from /^/ to /.*/ or - more idiomatically - use the c (change) command: sed '/^[^[:blank:]]/s/^/'"$prefix_01"'/;t;c\'"$prefix_02" "$f1"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1559722/insert-prefix-to-each-line-of-a-file-if-line-is-not-blank-otherwise-do-somethin
+
+---
+
+#### 6212. How do I change default terminal emulator?
+
+**问题描述 / Problem Description**:
+Tags: command-line, gnome, gnome-terminal, default | Score: 5 | Views: 2660 | Answers: 4 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+I don't know whether you had already solved your problem, but as a solution for the future, here the required steps ... Check the name of your corresponding 'Snap' .desktop shortcut: ls -la /var/lib/snapd/desktop/applications/ We will see, that in case of 'Ghostty' this is ghostty_ghostty.desktop 2. Create or edit our xdg-terminals.list file, to define 'Ghostty' as our preferred terminal client: nano ~/.config/xdg-terminals.list <- This is our user's one, but it is up on us, if we want the system level alternate of it. Put ghostty_ghostty.desktop (in case of 'Snap' apps, we should use their desktop entries) into it as the first line, as in case of multiple choices, the priority will be counted from the top/first entry. Save it, close the editor. 3. First time test it from terminal with: xdg-terminal-exec ghostty_ghostty.desktop If it works, it should work from any other application, which uses the 'xdg' way to open it, like Nautilus, or GNOME default keyboard shortcut, etc. As of 2026-03-30, there is no way to open the new terminal as a new tab in an already available 'Ghostty' window, but there are lot of requests for it.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1557467/how-do-i-change-default-terminal-emulator
+
+---
+
+#### 6213. weird previous-command behavior in byobu with elapsed time in prompt
+
+**问题描述 / Problem Description**:
+Tags: bash, byobu | Score: 5 | Views: 640 | Answers: 3 | Created: 2024-12-07
+
+**解决方案 / Solution**:
+This is somehow related to byobu's special PS0 and PS1 prompts . If I run byobu-disable-prompt , I get my regular bash prompt back, and things work as expected. So this seems to be a bug with that prompt's $PS1 , which for me is: [0.011s] me@machine:~$ echo $PS1 \[\e[38;5;202m\]$(byobu_prompt_status)\[\e[00m\]$(byobu_prompt_runtime) \[\e[38;5;245m\]\u\[\e[00m\]@\[\e[38;5;172m\]\h\[\e[00m\]:\[\e[38;5;5m\]\w\[\e[00m\]$(byobu_prompt_symbol) Something with the escape sequences is broken. I don't know what; if I go any further down a rabbit hole here, though, I'll end up in the earth's molten core of iron... Just disabling the prompt with byobu-disable-prompt is good enough for me.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1534893/weird-previous-command-behavior-in-byobu-with-elapsed-time-in-prompt
+
+---
+
+#### 6214. Script does not work when run from Startup Programs
+
+**问题描述 / Problem Description**:
+Tags: bash, scripts, 24.04, ubuntu-mate, startup-applications | Score: 5 | Views: 895 | Answers: 2 | Created: 2024-09-18
+
+**解决方案 / Solution**:
+A bell rang somewhere and I now recall this issue with MATE terminal. The issue is that the first mate-terminal process run on the system acts more or less like a "server" to which all MATE terminal instances connect. One instance is spawned immediately and more may be spawned later. Because of this, the first mate-terminal process that is run on the system keeps running as its own stand-alone process as long as there are MATE terminal instances connected to it; if this first process happens to be run in a script, it blocks the execution of further commands in the script. This isn't true for MATE terminal instances spawned when a "server" is running already, as those will connect to the running server and return control to the shell immediately. Since MATE terminal is the default terminal on Ubuntu MATE, your script worked because you either ran your tests in a MATE terminal instance or there was a MATE terminal instance running on the system already at the time you ran your tests. But your script won't work if you try and close down every MATE terminal instance running on the system and run the script, say, in xterm. The solution in this case is to background the mate-terminal process in the shell, in order to prevent it from blocking the execution of further commands in case it happens to become the "server" (which is pretty much every time since the process is run basically as soon as MATE is fully started up; I tested this script on a fresh Ubuntu MATE 24.04 VM and it works for me , unlike your version lacking the & which just spawns the MATE terminal instance without minimizing it): #!/usr/bin/env bash mate-terminal & sleep 5 xdotool search --class terminal key --window %@ "alt+F9"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1527207/script-does-not-work-when-run-from-startup-programs
+
+---
+
+#### 6215. "systemctl daemon-reload" needs to be run after every update command. How do I automate this?
+
+**问题描述 / Problem Description**:
+Tags: command-line, apt, bash, updates | Score: 5 | Views: 16576 | Answers: 2 | Created: 2024-07-30
+
+**解决方案 / Solution**:
+OUTPUT=$(sudo apt update 2>&1) if echo "$OUTPUT" | grep -q "changed on disk"; then echo "Detected service file changes. Running systemctl daemon-reload..." sudo systemctl daemon-reload else echo "No service file changes detected." fi
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1522081/systemctl-daemon-reload-needs-to-be-run-after-every-update-command-how-do-i-a
+
+---
+
+#### 6216. failed resetting zsh config
+
+**问题描述 / Problem Description**:
+Tags: command-line, themes | Score: 4 | Views: 138 | Answers: 1 | Created: 2026-06-17
+
+**解决方案 / Solution**:
+The screenshot you've posted appears to be the default .zshrc file from the oh-my-zsh project. If you installed oh-my-zsh using the provided install.sh script, then it should have cloned the repository locally - by default, into a hidden directory ~/.oh-my-zsh . You should find a copy of the default .zshrc file at ~/.oh-my-zsh/templates/zshrc.zsh-template which you can copy cp -i ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc If you opted not to save the cloned repo or have subsequently deleted it, then the simplest way to get a fresh copy of the file is probably to follow the first three steps of the oh-my-zsh Manual installation instructions, namely: Clone The Repository git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh Optionally, Backup Your Existing ~/.zshrc File cp ~/.zshrc ~/.zshrc.orig Create A New Zsh Configuration File You can create a new zsh config file by copying the template that we have included for you. cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc OTOH if all you need is a basic working .zshrc file, you can copy the Ubuntu package default one from /etc/zsh/newuser.zshrc.recommended which is included in the zsh-common package when you install zsh from the repository.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1567787/failed-resetting-zsh-config
+
+---
+
+#### 6217. KDE installed alongside Ubuntu-Mate, script will open by double click, not the expected behaviour
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 4 | Views: 333 | Answers: 1 | Created: 2026-05-10
+
+**解决方案 / Solution**:
+Your comment insisted on using /bin/sh , which Ubunut symlinks to /bin/dash not /bin/bash . /bin/dash does not support [[ . Your two examples don't need [[ anyway, and [ is enough: #!/bin/sh if [ ! -t 0 ] && [ -x /usr/bin/konsole ]; then /usr/bin/konsole -e "bash -c \"$0 $*; read -s -p 'Press enter to continue...'\"" exit fi echo Body of script Save this as e.g. ~/script.sh and run chmod +x script.sh . Double-clicked script.sh in Dolphin and selecting to execute it will successfully launch a Konsole window now. Body of script Press enter to continue... The #!/bin/sh line isn't necessary. But be aware that your $0 $* might undergo unintended expansion when given weird filenames or arguments.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1566623/kde-installed-alongside-ubuntu-mate-script-will-open-by-double-click-not-the-e
+
+---
+
+#### 6218. How to extract links using grep (or any other tool)
+
+**问题描述 / Problem Description**:
+Tags: command-line, text-processing, html | Score: 4 | Views: 725 | Answers: 2 | Created: 2025-10-07
+
+**解决方案 / Solution**:
+Since you haven't given us an example, we can't be specific, but if it is enough for you to find all links pointing to a pdf file, and if your files all ahve the format href="link.pdf" , that is if your pdf file names are quoted and come after a href= and the file names themselves cannot contain quotes, then it should be enough to just run: grep -oP 'href="\K[^"]+\.pdf' *html The -o flag tells grep to only print the matching portion of the line, and the -P enables Perl Compatible Regular Expressions (PCREs). We search for a href=" , and the use \K to tell grep to "forget" it, to not include it as part of the match. Then, we look for one or more non- " characters ( [^=]+ ) followed by a . (we need to escape it as \. because . means "any character") and then pdf . Note that I haven't tested this since I wasn't given an example to test on, but it should work.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1557053/how-to-extract-links-using-grep-or-any-other-tool
+
+---
+
+#### 6219. locale problem in 25.10
+
+**问题描述 / Problem Description**:
+Tags: command-line, locale, localization, coreutils, 25.10 | Score: 3 | Views: 184 | Answers: 1 | Created: 2025-11-07
+
+**解决方案 / Solution**:
+The uutils implementation of date doesn't use the strftime(3) format specified by locale date_fmt . Here is the output of that command in your locale: $ LC_TIME=en_GB.UTF-8 locale date_fmt %a %e %b %H:%M:%S %Z %Y The %a and %e are replaced with the abbreviated day of the week and the numeric day of the week, with leading zeros replaced with spaces, respectively. This is also apparent in locales that use a 12-hour clock, for example en_US.UTF-8 . Here is an example below: # GNU $ date -d '2025-11-12 13:00' Wed Nov 12 01:00:00 PM PST 2025 # uutils $ uu_date -d '2025-11-12 13:00' Wed Nov 12 13:00:00 2025
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1559394/locale-problem-in-25-10
+
+---
+
+#### 6220. bash ignores dotfiles
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 3 | Views: 497 | Answers: 1 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+You have somehow set the setuid (and setgid) bits on the bash executable: bash itself: -rwsr-sr-x 1 root root 1446024 Mar 31 2024 /bin/bash An executable program with setuid would normally run with the effective user id of its owner (in this case root) - since in the case of a shell in particular that would provide an obvious privilege escalation exploit, bash takes special steps to thwart it. From man bash : If the shell is started with the effective user (group) id not equal to the real user (group) id, and the -p option is not supplied, no startup files are read, shell functions are not inherited from the environment, the SHELLOPTS, BASHOPTS, CDPATH, and GLOBIGNORE variables, if they ap‐ pear in the environment, are ignored, and the effective user id is set to the real user id. If the -p option is supplied at invocation, the startup behavior is the same, but the effective user id is not reset. Note in particular "no startup files are read" . To correct the issue, restore the bash executable's proper file mode: sudo chmod -s /usr/bin/bash or more explicitly sudo chmod 0755 /usr/bin/bash
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1555759/bash-ignores-dotfiles
+
+---
+
+#### 6221. Why this bash script doesn't run on startup?
+
+**问题描述 / Problem Description**:
+Tags: bash, startup, startup-applications | Score: 3 | Views: 1363 | Answers: 2 | Created: 2024-10-29
+
+**解决方案 / Solution**:
+This question is different from How do I start applications automatically on login? . I'm not asking how do I start applications automatically on login. I'm asking why a different command has to be used in Command line of Add Startup program than the command I type in the terminal in ~ folder. When you create a "Startup application", what happens under the hood is: A .desktop file is created under ~/.config/autostart , containing an Exec line that contains the "command" you specified; On session's startup, the desktop file is parsed and evaluated according to Freedesktop's specifications . Quoting the relevant section from the page (emphasys mine): The Exec key must contain a command line. A command line consists of an executable program optionally followed by one or more arguments. The executable program can either be specified with its full path or with the name of the executable only. If no full path is provided the executable is looked up in the $PATH used by the desktop environment . The name or path of the executable program may not contain the equal sign ("="). Arguments are separated by a space. So the reason why ./test.sh fails simply is: it doesn't comply with any of the Freedesktop's specifications, as it's neither a full path nor a name of an executable. Also note that there are more rules that a "command" needs to abide to (you can find them in the page I linked), but going through these checks usually works: If you need to run something not in PATH , you need to put in the full path, otherwise you can put in just the bare name of the executable; You can't use shell-isms (variables, aliases, functions, redirections, pipes and the like). Variables can be injected into the executable's environment using env ( env foo=bar executable ). If you need something more, you can mostly use sh -c / bash -c ( sh -c '<input command1 | command2' ), or create a wrapper script around your actual script.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1531440/why-this-bash-script-doesnt-run-on-startup
+
+---
+
+#### 6222. Docker compose is not picking up variable that I defined in my shell
+
+**问题描述 / Problem Description**:
+Tags: bash, sudo, docker, environment-variables | Score: 3 | Views: 3175 | Answers: 1 | Created: 2024-10-27
+
+**解决方案 / Solution**:
+As much as the comments seem to have resolved the issue, I would caution against using implicitly defined environment variables for such things. The docker compose command can take a --env-file parameter. I would suggest you rely on that more than modifying sudoers or using the --preserve-env argument of the sudo command. The --env-file parameter allows you to be explicit about the variables that your compose command relies on. Using this method, makes your compose file more robust and portable. docker.env GITLAB_HOME=/srv/gitlab Then your command would be: sudo docker compose --env-file ./docker.env up -d Why does sudo hide environment variables? To address your main concern, the reason why docker compose seems to ignore your environment variables is because of the policies which control the behaviour of the sudo command. Without going into too much detail, the main policy which controls how sudo handles environment variables is called the sudoers policy. This is also the default policy. Within the sudoers policy, is a flag called env_reset , which controls whether or not environment variables are preserved. This flag is enabled by default. The result of this combination of default flag and policy is that commands which are executed with sudo do not inherit all the environment variables which were present when sudo was invoked. Quoting from the docs : By default, the env_reset flag is enabled. This causes commands to be executed with a new, minimal environment. On AIX (and Linux systems without PAM), the environment is initialized with the contents of the /etc/environment file. The HOME, MAIL, SHELL, LOGNAME and USER environment variables are initialized based on the target user and the SUDO_* variables are set based on the invoking user. Additional variables, such as DISPLAY, PATH and TERM, are preserved from the invoking user's environment if permitted by the env_check or env_keep options.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1531325/docker-compose-is-not-picking-up-variable-that-i-defined-in-my-shell
+
+---
+
+#### 6223. How do I use "batcat" to colorize the output of the "--help" and "-h" options of commands?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, zsh, manpage | Score: 3 | Views: 959 | Answers: 1 | Created: 2024-08-12
+
+**解决方案 / Solution**:
+Not what you're asking for. But at least for commands supported by batcat -l help you could make use of some "syntactic sugar" instead of typing the whole thing in every time: ch() { "${1}" --help | batcat -l help; } In ~/.bashrc / ~/.zshrc . Use only with Bash builtins or GNU programs (as those seem to be supported by batcat -l help : printf , find ... - contrarily to what I stated in the comments, it won't work for Zsh builtins). Usage: ch <command> ch find
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1523126/how-do-i-use-batcat-to-colorize-the-output-of-the-help-and-h-options-of
+
+---
+
+#### 6224. How can I run a command using only the P or E or LPE cores on my Intel laptop?
+
+**问题描述 / Problem Description**:
+Tags: bash, intel-cpu | Score: 2 | Views: 79 | Answers: 1 | Created: 2026-05-04
+
+**解决方案 / Solution**:
+There are a few steps to this. I have written a script below and I'll explain the steps to get there. First, you can find out which CPUs are P, E, or LPE cores by reading the following files. If the file isn't there then there are none of that type of core. /sys/devices/cpu_core/cpus will give a range of all the P core CPUs (two per physical core with multithreading) /sys/devices/cpu_atom/cpus will give a range of all the E cores. /sys/devices/cpu_lowpower/cpus will give a range of all the LPE cores Now, to set a program to run on only specific cpus we use taskset . Conveniently the ranges we get from reading the files above are perfect for feeding directly to taskset -c . So we can run on just the E cores using this command: taskset -c $(cat /sys/devices/cpu_atom/cpus) command_to_run arguments And just the P cores using this command: taskset -c $(cat /sys/devices/cpu_core/cpus) command_to_run arguments And just LPE cores with this command: taskset -c $(cat /sys/devices/cpu_lowpower/cpus) command_to_run arguments Which brings us to the script below. It directs a command to the correct cores based on what is selected in the first argument, then passes the rest of the command to taskset. If there are none of the selected core type it exits and does nothing. #!/bin/bash # Function to display usage usage() { echo "Usage: $0 [-p | -e | -l] <command> [args...]" echo " -p : Run on P-Cores (Performance)" echo " -e : Run on E-Cores (Efficiency)" echo " -l : Run on LPE-Cores (Low Power Efficiency)" exit 1 } # Ensure at least two arguments are provided if [[ $# -lt 2 ]]; then usage fi MODE=$1 shift # Remove the flag from the argument list, leaving only the command COMMAND=("$@") # Map flags to sysfs directories case "$MODE" in -p) SYS_PATH="/sys/devices/cpu_core/cpus" ;; -e) SYS_PATH="/sys/devices/cpu_atom/cpus" ;; -l) SYS_PATH="/sys/devices/cpu_lowpower/cpus" ;; *) usage ;; esac # Check if the core type exists on this hardware if [[ ! -f "$SYS_PATH" ]]; then echo "Error: Requested core type ($MODE) not found on this system." exit 1 fi # Read the CPU range CPU_LIST=$(cat "$SYS_PATH") # Execute the command using taskset # "$@" ensures that spaces in arguments are preserved correctly exec taskset -c "$CPU_LIST" "${COMMAND[@]}"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1566412/how-can-i-run-a-command-using-only-the-p-or-e-or-lpe-cores-on-my-intel-laptop
+
+---
+
+#### 6225. making an exact copy of a folder and ALL its contents
+
+**问题描述 / Problem Description**:
+Tags: command-line, directory, copy | Score: 2 | Views: 327 | Answers: 2 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+If you want to copy all files in a directory, just use the directory name without a specifier afterwards: cp -r /path/to/orig /path/to/copy (Could have additional arguments like -v or -a as well.) If /path/to/copy doesn't exist, it will be created and all the files from /path/to/orig will be in path/to/copy . If the latter does exist, they will be in /path/to/copy/orig . You could also get the same result with mkdir -p /path/to/copy cp -r /path/to/orig/* /path/to/copy cp -r /path/to/orig/.[^.]* /path/to/copy or, alternatively, mkdir -p /path/to/copy cp -r /path/to/orig/. /path/to/copy If you want to copy the hidden files in a directory by default, you can set shopt -s dotglob in the shell (for permanence: add this line to ~/.bashrc ) for copying everything by default. In this case, # shopt dotglob is set: `shopt dotglob` results in "dotglob on" mkdir -p /path/to/copy cp -r /path/to/orig/* /path/to/copy is sufficient to copy everything. With cp -rT /path/to/orig /path/to/copy you can make sure that no new dir is created if /path/to/copy does exist. This copies also all hidden files. -T stands for --no-target-directory .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1557149/making-an-exact-copy-of-a-folder-and-all-its-contents
+
+---
+
+#### 6226. How to check if package is available for current OS release?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, package-management | Score: 2 | Views: 168 | Answers: 1 | Created: 2024-11-02
+
+**解决方案 / Solution**:
+Not sure if that is what you're asking about, but there are two ways to trick it: If you're looking for a full list of available packages, then probably the easiest way to do it without coding is to have a look at Ubuntu's website, e.g. here (the link depends on the version you're interested in): https://launchpad.net/ubuntu/noble/+localpackagediffs?field.package_type=all The example link above is for "Nombat" (Ubuntu 24.04). If you know the exact package name, go here (again, the URL is version-specific, here for Nombat/24.04): https://launchpad.net/ubuntu/noble and type the full name or part of it in the search box. That will give you the list from point 1 but be shortened to the libraries fulfilling your request. Then click the library, and you will instantly get the list of versions available.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1531829/how-to-check-if-package-is-available-for-current-os-release
+
+---
+
+#### 6227. .profile being sourced multiple times
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash | Score: 2 | Views: 224 | Answers: 1 | Created: 2024-10-08
+
+**解决方案 / Solution**:
+I have just realized the issue is that each time I log out from a Desktop Environment and log in again, .profile is sourced. To avoid modifying $PATH unnecessarily, I found the following script works. # Function to add a directory to PATH if it's not already there add_to_path() { local dir="$1" if [ -d "$dir" ]; then case ":${PATH}:" in *:"$dir":*) ;; *) export PATH="$dir:$PATH" ;; esac fi } add_to_path "$HOME/bin" add_to_path "$HOME/.local/bin" add_to_path "$HOME/texlive/2024/bin/x86_64-linux" add_to_path "$HOME/.elan/bin" The function add_to_path checks if the path to add is already in $PATH and avoid adding it again.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1529311/profile-being-sourced-multiple-times
+
+---
+
+#### 6228. How to customize Argos GNOME shell extension
+
+**问题描述 / Problem Description**:
+Tags: command-line, gnome, bash, gnome-tweaks | Score: 2 | Views: 372 | Answers: 2 | Created: 2024-10-06
+
+**解决方案 / Solution**:
+First question The Argos extension does not allow the filename to be hidden. Instead, you can follow these steps to hide the filename: Edit the file button.js which is located in ~/.local/share/gnome-shell/extensions/argos@pew.worldwidemann.com Comment these which will be present at the bottom of the file: /* * if (dropdownLines.length > 0) * this.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem()); * * let menuItem = new PopupMenu.PopupMenuItem(this._file.get_basename(), { * style_class: "argos-menu-item-edit" * }); * menuItem.connect("activate", Lang.bind(this, function() { * Gio.AppInfo.launch_default_for_uri("file://" + this._file.get_path(), null); * })); * this.menu.addMenuItem(menuItem); */ After saving the file, restart the GNOME using Alt + F2 , entering "r" and press enter or logging out your current session. Second question You gave the color attribute in the wrong format for your second issue. Upon referring to README.md file on their repository, you might need to edit your script file as follows: #!/usr/bin/env bash # start bold echo -n "\033[1m"; DATETIME=$(TZ='America/New_York' date +"%a %b %-d %H:%M %Z") echo " <span color='red'><tt>$DATETIME (New York)</tt></span>"; # end bold echo -n "\033[0m"; DATETIME=$(TZ='America/Costa_Rica' date +%H:%M\ %Z) ; echo "$DATETIME (CR)"; DATETIME=$(TZ='America/Chicago' date +%H:%M\ %Z) ; echo "$DATETIME (Texas)"; DATETIME=$(TZ='UTC' date +%H:%M\ %Z) ; echo "$DATETIME"; This will give you an output like this:
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1529173/how-to-customize-argos-gnome-shell-extension
+
+---
+
+#### 6229. Ubuntu 24.04 I changed /bin/sh link to point to bash instead of dash now some things do not work
+
+**问题描述 / Problem Description**:
+Tags: bash, python, mysql, php | Score: 2 | Views: 2751 | Answers: 1 | Created: 2024-09-18
+
+**解决方案 / Solution**:
+The default /bin/sh of Ubuntu is dash , not bash . Dash is a simple POSIX shell, which is faster but has fewer features than bash which has various extensions to the POSIX standard . When making a system call from a programming language using exec or system or the various equivalents in the various scripting languages, that is run using /bin/sh . However, python $venv/bin/activate scripts need to be run with bash or zsh: This is also mentioned in the activate script: $ python -m venv foo $ head -n2 foo/bin/activate # This file must be used with "source bin/activate" *from bash* # You cannot run it directly Which means that my initial advice to you in the comments, to use the portable, standard . instead of the bashsism source , was wrong. You don't want portability here, so using source is better since you must use bash or zsh. So, since the /bin/sh is actually dash , you can't just run this command with exec() , as that will try to source the activate script in dash which will fail. What you therefore need to do, is to explicitly call it with bash . So change your code to: ## I don't really know PHP, do you really need the parentheses here? $cmd=("/bin/bash -c '. /home/jerry/torch/.venv/bin/activate && python /home/jerry/torch/trans-rec.py \"$filespec\" \"$transdir\"'"); $x=array(); exec($cmd, $x); $jx=json_encode($x); logit("Command='$cmd'\n\tResult: $jx"); unset($x); Note how I also quoted the $filespec and $transdir variables when passing them to the shell. NEVER pass unquoted variables to shells .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1527266/ubuntu-24-04-i-changed-bin-sh-link-to-point-to-bash-instead-of-dash-now-some-th
+
+---
+
+#### 6230. Bash 5 - ghost function: removed but still available in Bash cache - exploit? bug?
+
+**问题描述 / Problem Description**:
+Tags: bash, bashrc | Score: 2 | Views: 90 | Answers: 1 | Created: 2024-09-16
+
+**解决方案 / Solution**:
+Neither a bug nor a feature nor an exploit but simply a logical result of how things work. Sourcing .bashrc isn't anything special or magic. It doesn't re-create your shell setup or reset your session. It is no different to sourcing any other file, .bashrc is just the default name for the shell initialization file but even that can be changed by using bash --rcfile whatever or by setting BASH_ENV for non-interactive shells. So when you source .bashrc , that doesn't remove anything, it simply adds to what you already have. It's like reading a book: after you ahve read one book, reading another book doesn't remove what you have learned in the first one, it simply adds to it. The only real difference is that in the case of bash, anything in the new sourced file that contradicts something in the old will overwrite the old. If, therefore, instead of deleting foo() you added a different foo() function, then this new one would overwrite the old one. This isn't any form of caching, by the way. You just have a running process and tell it to import new stuff. The new stuff gets imported, anything that has the same name in the new stuff will be reset to the new values, anything not mentioned in the new stuff won't be touched.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1526978/bash-5-ghost-function-removed-but-still-available-in-bash-cache-exploit-bu
+
+---
+
+#### 6231. Keyboard shortcuts for running last command with changes?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, bash-history | Score: 2 | Views: 565 | Answers: 2 | Created: 2024-09-13
+
+**解决方案 / Solution**:
+In bash, you can use quick substitution with ^...^... : ^string1^string2^ Quick Substitution. Repeat the last command, replacing string1 with string2 . Equivalent to !!:s^string1^string2^ . The trailing ^ can be omitted. Example: bash-5.2$ echo foo bar foo foo bar foo bash-5.2$ ^foo^baz echo baz bar foo baz bar foo So: sudo apt depends package ^dep^rdep ^rdepends^purge ^purge^install
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1526653/keyboard-shortcuts-for-running-last-command-with-changes
+
+---
+
+#### 6232. How to recover missing files for emacs in /usr/bin?
+
+**问题描述 / Problem Description**:
+Tags: apt, bash, package-management, emacs | Score: 2 | Views: 169 | Answers: 1 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+As @steeldriver mentioned, emacs is a metapackage. If you are running X11, try sudo apt install emacs-gtk If you are running Wayland, try sudo apt install emacs-pgtk If you aren't sure if you are using X11 or Wayland, you can find out by typing echo $XDG_SESSION_TYPE
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1526600/how-to-recover-missing-files-for-emacs-in-usr-bin
+
+---
+
+#### 6233. How to set default foreground color in Bash shell?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, themes, colors | Score: 2 | Views: 1009 | Answers: 1 | Created: 2024-07-21
+
+**解决方案 / Solution**:
+See https://invisible-island.net/xterm/ctlseqs/ctlseqs.pdf (page 34): Ps = 1 0 ® Change VT100 text foreground color to Pt. Ps = 1 1 ® Change VT100 text background color to Pt. You already used 11 ( \e]11; ) to change the background, now use 10 ( \e]10; ) to change the foreground, e.g.: printf '\e]10;#ff0000\a' will set the foreground to red, while: printf '\e]11;#ff0000\a\e]10;#0000ff\a' will set the background to red and foreground to blue. As @ubfan1 mentioned in a comment, if you prefer you can use color names instead of #rrggbb color codes in the printf, e.g. printf '\e]11;red\a\e]10;blue\a'
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1521229/how-to-set-default-foreground-color-in-bash-shell
+
+---
+
+#### 6234. How can I condense my bash script to look for 42 extensions in a directory
+
+**问题描述 / Problem Description**:
+Tags: bash, sound, automation, audacity | Score: 2 | Views: 854 | Answers: 4 | Created: 2024-07-14
+
+**解决方案 / Solution**:
+I couldn't figure out what you're trying to do with your loop and media variables or the cd * but, otherwise, this seems to be what you're trying to do: #!/usr/bin/env bash shopt -s nullglob media=0 loop=0 cd '/home/whatever/' || exit 1 sfxs=( aa aac aax ... 8svx ) for sfx in "${sfxs[@]}"; do files=( *."$sfx" ) numFiles="${#files[@]}" if (( numFiles != 0 )); then media=$(( numFiles + media )) printf '%d %s files found in %s\n' "$numFiles" "$sfx" "$PWD" printf '\n' printf '%s\n' "${files[@]}" printf '\n' fi done nohup pcmanfm >/dev/null 2>&1 & Obviously replace ... with the rest of the suffixes you're interested in BUT you maybe would prefer a script that just uses whatever suffixes exist in your directory rather than hard-coding a list in your script, e.g. using GNU sed and GNU sort for -z : #!/usr/bin/env bash shopt -s nullglob media=0 loop=0 cd '/home/whatever/' || exit 1 sfxs=( $(printf '%s\0' *.* | sed -z 's/.*\.//' | sort -zu | tr '\0' '\n') ) for sfx in "${sfxs[@]}"; do files=( *."$sfx" ) numFiles="${#files[@]}" media=$(( numFiles + media )) printf '%d %s files found in %s\n' "$numFiles" "$sfx" "$PWD" printf '\n' printf '%s\n' "${files[@]}" printf '\n' done nohup pcmanfm >/dev/null 2>&1 & Both of the above are untested.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1520516/how-can-i-condense-my-bash-script-to-look-for-42-extensions-in-a-directory
+
+---
+
+#### 6235. Restoring OS packages
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, package-management, dpkg | Score: 1 | Views: 72 | Answers: 1 | Created: 2026-05-24
+
+**解决方案 / Solution**:
+I have this in my notes. IF you get this error: dpkg: warning: package not in database sudo apt-get install dselect sudo dselect -> Update -> Install You may also want to remove old kernels in list. Some apps get replaced with others so it may not install everything. I typically review list and houseclean first.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1567119/restoring-os-packages
+
+---
+
+#### 6236. After Update from 24.04 to 26.04: how can I configure my terminal to open in the same directory as other open terminals
+
+**问题描述 / Problem Description**:
+Tags: command-line, updates, lts, 26.04 | Score: 1 | Views: 605 | Answers: 3 | Created: 2026-04-25
+
+**解决方案 / Solution**:
+$PROMPT_COMMAND should contain __vte_prompt_command from /etc/profile.d/vte-2.91.sh for things to work. You have magicmonty/bash-git-prompt installed poorly, which caused a conflict. To reset your Bash: cd ~ mkdir backup mv -t backup .bashrc .profile .bash_profile cp -t . /etc/skel/.bashrc /etc/skel/.profile reboot
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1566040/after-update-from-24-04-to-26-04-how-can-i-configure-my-terminal-to-open-in-the
+
+---
+
+#### 6237. Need to configure static IP in Ubuntu 22.04 LTS on hp server
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 1 | Views: 4219 | Answers: 1 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+First, set the name of your network interface using: ip a Let's assume it's enp0s3 Next, create a new, clean, persistent configuration file, respecting the indentation with spaces, and replacing the /24 mask (for 255.255.255.0) with your network name, enp0s3, and the IP addresses of your environment. sudo nano /etc/netplan/01-netcfg.yaml =================================================== network: version: 2 renderer: networkd ethernets: enp0s3: dhcp4: no addresses: - 192.168.1.100/24 gateway4: 192.168.1.1 nameservers: addresses: - 1.1.1.1 ================================================== It's advisable to disable Cloud-init to prevent overwriting the configuration. sudo nano /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg Add this line: network: {config: disabled} Then apply the configuration: sudo netplan apply Restart and verify the configuration and connectivity. ip addr show enp0s3 ping -c 3 8.8.8.8
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1558981/need-to-configure-static-ip-in-ubuntu-22-04-lts-on-hp-server
+
+---
+
+#### 6238. How to run only specific commands as root through SSH?
+
+**问题描述 / Problem Description**:
+Tags: command-line, server, permissions, ssh | Score: 1 | Views: 177 | Answers: 1 | Created: 2025-09-25
+
+**解决方案 / Solution**:
+If you're goal is just to be able to execute some commands as root, you might set a SUID bit . This will allow any user to execute the program file as the owner. You shall not change PermitRootLogin , or any SSH configuration option. Note: This is unsafe , only set SUID when you know what you do. Do not set SUID bit when it's not necessary, or on files that could lead to privilege escalation (e.g bash, ssh), unless you are in a controlled environment and that it's genuinely expected. In your case : # Assuming ls is already owned by root, otherwise ; # sudo chown root:root /usr/bin/ls sudo chmod u+s /usr/bin/ls Now, ls will be executed as root .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1556548/how-to-run-only-specific-commands-as-root-through-ssh
+
+---
+
+#### 6239. How do I make a command line app launcher that is shown for open apps instead of the terminal's launcher in the dock?
+
+**问题描述 / Problem Description**:
+Tags: command-line, gnome, launcher, wayland, 25.04 | Score: 1 | Views: 365 | Answers: 1 | Created: 2025-09-21
+
+**解决方案 / Solution**:
+To get the same behaviour as provided by gnome-terminal under 24.04 you can use the kitty terminal emulator under 25.04. You can continue to use gnome-terminal as the default terminal emulator and just replace gnome-terminal with kitty in the desktop files. I haven't tried any other emulators but others may work.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1556394/how-do-i-make-a-command-line-app-launcher-that-is-shown-for-open-apps-instead-of
+
+---
+
+#### 6240. how to configure ubuntun 24.05 desktop as a switch with multiple ethernet ports and dhcp on all ports?
+
+**问题描述 / Problem Description**:
+Tags: networking, command-line, internet, ethernet, dhcp | Score: 1 | Views: 193 | Answers: 1 | Created: 2025-09-17
+
+**解决方案 / Solution**:
+You are wanting to make the 4 port network card into a switch, another way to describe a switch, is a bridge. You can make any port the upstream port, it does not matter what port. This is because you are creating a bridge, in simple terms you are joining all the physical ports and creating a single logical port, and it logical ports that are allocated ip address and do port forwarding etc, in the 7 layer osi model, layer2 and above is handled by logical ports. The config you will need is (you will need to adjust the enp5 to the correct name for your system): You can create a bridge in Linux easily using netplan, update your create a file in /etc/netplan eg 00-bridge.yaml, with the below content. network: bridges: br0: interfaces: - enp5s0 - enp5s1 - enp5s2 - enp5s3 dhcp4: true You now have a 4 port switch using your linux device. *note netplan is the default for Ubuntu to setup network connections. However you configure a bridge in any of the many network managing programs offered for the linux environment. *answer was updated to include more information based on the feedback from Stephen
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1556197/how-to-configure-ubuntun-24-05-desktop-as-a-switch-with-multiple-ethernet-ports
+
+---
+
+#### 6241. How can I list files with a specific sample rate or bit depth?
+
+**问题描述 / Problem Description**:
+Tags: bash, music | Score: 1 | Views: 322 | Answers: 1 | Created: 2024-12-18
+
+**解决方案 / Solution**:
+There is some error in your script: You are using grep wrongly, there is no loop on .flac file, mediainfo is not stored, and the pipes are used wrongly. With mediainfo you could do something like that: #!/usr/bin/env bash MUSIC_DIR="/media/Media/Music" find "$MUSIC_DIR" -type f -iname "*.flac" | while read -r flacfile; do bit_depth=$(mediainfo --Output="Audio;%BitDepth%" "$flacfile") sample_rate=$(mediainfo --Output="Audio;%SamplingRate_String%" "$flacfile") if [ "$bit_depth" != "16" ] || [ "$sample_rate" != "44.1 kHz" ]; then echo "File: $flacfile" echo "Bit depth: $bit_depth" echo "Sampling rate: $sample_rate" echo fi done
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1535884/how-can-i-list-files-with-a-specific-sample-rate-or-bit-depth
+
+---
+
+#### 6242. set env variables from a cron job
+
+**问题描述 / Problem Description**:
+Tags: bash, scripts, cron, environment-variables | Score: 1 | Views: 322 | Answers: 1 | Created: 2024-12-12
+
+**解决方案 / Solution**:
+Variables set and exported in a script are only available to child processes started in that script and are not available to subsequent processes like PM2 . To make ENV_TYPE persistent you can set the variable in a global profile file /etc/environment . You can edit this file with sudo and add a line like this to the end of it: ENV_TYPE=dev Please, note that the you have put spaces around = in your sample script; spaces are not allowed around = and any other literal spaces to the right of it should be quoted. As a better way, you can pass the environment variable explicitly when starting PM2 (the command below is just an example): ENV_TYPE=dev /path/to/pm2 any parameters
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1535350/set-env-variables-from-a-cron-job
+
+---
+
+#### 6243. execute some commands after boot
+
+**问题描述 / Problem Description**:
+Tags: boot, command-line, bash, automation | Score: 1 | Views: 156 | Answers: 1 | Created: 2024-12-11
+
+**解决方案 / Solution**:
+vi ~/$USER/script.sh Replace script,sh to something more descriptive. press i paste this: #!/bin/bash export ENV_TYPE = 'dev' pm2 restart 0 --update-env pm2 restart 1 --update-env press and type <ESC>:wq! and then chmod 750 ~/$USER/script.sh and you have a script. Move it to a directory in echo $PATH if you need direct access to it. The next step is to add it to /etc/crontab with @reboot as time or (the better but a bit more difficult method) to create a systemd service so you can add it somewhere in the boot chain and have a start/stop/restart feature,
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1535240/execute-some-commands-after-boot
+
+---
+
+#### 6244. Google Drive's virtual disk sometimes has weird permissions that make it inaccessible
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, permissions, mount, windows-subsystem-for-linux | Score: 1 | Views: 302 | Answers: 1 | Created: 2024-12-05
+
+**解决方案 / Solution**:
+Use mkdir -p instead of just mkdir . It avoids creating a directory if it already exists. Also, instead of checking the output of mkdir command, it's easier to just add a set -e at the top which will make the script fail if any of the commands in the script fail. #!/usr/bin/env bash set -e ... sudo mkdir -p "$mount_path" sudo mount -t drvfs "${DRIVE_LETTER^^}:" "$mount_path" -o "uid=$(id -u $USER),gid=$(id -g $USER),metadata"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1534760/google-drives-virtual-disk-sometimes-has-weird-permissions-that-make-it-inacces
+
+---
+
+#### 6245. Why does bash not report the line error where one leaves off the " at the end
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 235 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Because that line doesn't contain an error, as it's perfectly legal to include a newline character in a quoted string. As a matter of fact any character (but an unescaped " , which marks the start / end of a quoted string) could be included in a quoted string if somehow "put" after a " character; a newline character just happens to be easily typed in (just like, e.g., any "ordinary" alphabetical character), and - notably - is not even the most exotic thing that you could include in a quoted string 1 . I suggest you break out of the mindset where a string can contain just letters, numbers and punctuation, as it's not like that at all, and being aware of this helps a lot in using the command line / scripting. Anyways, more to the point, here's a breakdown of what happens and why you're being notified of an error only on line #4: Bash parses line #2 up until the " character; it starts intrepreting what follows after as a string, and when it stumbles upon the (as discussed above, legal) newline character, it happily swallows it and starts parsing line #3 as a continuation of the string that so far includes what followed the " character, which includes the newline; Bash parses line #3 up until the first " character; the first string is now correctly and completely parsed. It then parses the remainder of the line as a (legal) unquoted string until the next " character is found, when the cycle repeats: it stumbles upon the (again, as discussed above, legal) newline character, it happily swallows it and starts parsing line #4 as a continuation of the string that so far includes just the newline; Again, Bash parses line #4 up until the first " character; the second string is now correctly and completely parsed. It then parses the remainder of the line as a (legal) unquoted string until the next " character is found, when the cycle breaks; it stumbles upon the (again, as discussed above, legal) newline character, it happily swallows it and... there's nothing left to parse / EOF (End-Of-File) has been reached. Since EOF has been reached, the last parsed " most definetly has no matching closing quote - hence the error unexpected EOF while looking for matching `"' is thrown In fact, e.g., any other non-printable character (ASCII range 0-31 - and not just those) could also be included in a string if it was pasted after a `"` character. They're really no different from newlines - they're all non-printable characters - it just so happens that newlines can be simply typed in. Another exception to non-printable characters is the tab character, which, much like the newline character, also can be simply typed in.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1531532/why-does-bash-not-report-the-line-error-where-one-leaves-off-the-at-the-end
+
+---
+
+#### 6246. printf (builtin) prints `-nan` for floating point numbers in Ubuntu 24.10
+
+**问题描述 / Problem Description**:
+Tags: bash, 24.10 | Score: 1 | Views: 243 | Answers: 1 | Created: 2024-10-29
+
+**解决方案 / Solution**:
+This bug was fixed in version 5.2.32-1ubuntu1.1 of bash for Ubuntu 24.10 released around 2025-01-23.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1531490/printf-builtin-prints-nan-for-floating-point-numbers-in-ubuntu-24-10
+
+---
+
+#### 6247. How to recover a .bashrc file deleted in WSL from explorer.exe?
+
+**问题描述 / Problem Description**:
+Tags: bash, data-recovery, windows-subsystem-for-linux, bashrc | Score: 1 | Views: 516 | Answers: 1 | Created: 2024-10-22
+
+**解决方案 / Solution**:
+If it's only your .bashrc file. You might be able to recover it this way : cp /etc/skel/.bashrc ~/ Otherwise, you might try using forensic tools. On Windows - Although I'm pretty sure you should do it from WSL -, you can try Recuva . I've used it a few times, it works quite well. On Linux, you may try ext4magic (see ubuntu manpage) . Possibly something like this : ext4magic /dev/<device> -r -f /home/<yourname>/.bashrc -d /home/<yourname>/.bashrc.old As indicated here , you might also try something like this : grep -a -C 300 -F 'known fixed string in your bashrc' /dev/<device> > ~/recover You may change -C by the amount of line you think there was above and below to the specified string. There's also extundelete (see this answer) but I don't think it'd be useful doing that on WSL. Because you'd need to unmount the device.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1530845/how-to-recover-a-bashrc-file-deleted-in-wsl-from-explorer-exe
+
+---
+
+#### 6248. Have to source file after terminal is open for function to work
+
+**问题描述 / Problem Description**:
+Tags: bash, gnome-terminal, bashrc, sox | Score: 1 | Views: 97 | Answers: 1 | Created: 2024-10-11
+
+**解决方案 / Solution**:
+As both @kos and @steeldriver mentioned, this works well on bash , however I am embarrassed to say that I was using zsh the whole time. However, if anyone is interested in making that work, here is the following: alias ls='ls -C --color=always' if [[ -o interactive ]]; then log_and_play() { while IFS= read -r line; do FREQ=$(echo "$line" | od -An -N2 -i | awk '{print ($1 % 1000) + 200}') sox -n -b 8 -c 1 -r 8000 -d synth 0.01 aw $FREQ tremolo 1000 2> /dev/null done } preexec() { exec > >(tee >(log_and_play)) 2>&1 } precmd() { true } fi
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1529679/have-to-source-file-after-terminal-is-open-for-function-to-work
+
+---
+
+#### 6249. Timing of backups from .bash_logout
+
+**问题描述 / Problem Description**:
+Tags: bash, logout | Score: 1 | Views: 112 | Answers: 1 | Created: 2024-09-29
+
+**解决方案 / Solution**:
+The ~/.bash_logout script is sourced when you exit a login shell . If you are running a graphical system, then depending on your login manager, you might be starting a new login shell when you log in, in which case, you will run the commands in ~/.bash_logout when you log out. If you have long running commands there, that will cause everything to wait until they have finished. I tested this by simply adding sleep 30 to my ~/.bash_logout , then starting a login shell with bash -l and exiting it with exit . The shell waited 30 seconds before closing. So yes, you could add your backup options there, just test it first to be sure that your system does actually look at ~/.bash_logout when logging out. Assuming it does, then the system should start the backup process when you log out and then wait for your backup to finish before fully logging our or shutting down.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1528420/timing-of-backups-from-bash-logout
+
+---
+
+#### 6250. process output buffered and not shown immediately and it is shown when killed by me
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, pipe, csh, tee | Score: 1 | Views: 110 | Answers: 1 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+I found [this][1] . So the correct way is : #!/bin/bash dat=$(date +%Y%m%d%H%M) unbuffer run_sim xmsclst gemm dcs s xec -post_min -d |& tee logx.$dat This unbuffer command makes the following program's output not buffered. so you can see the output as soon as it is generated. I found this works. But I couldn't apply this without killing the on-going process. Killing only the pipe process didn't make the buffered output come out. [1]: https://stackoverflow.com/questions/11337041/force-line-buffering-of-stdout-in-a-pipeline
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1527896/process-output-buffered-and-not-shown-immediately-and-it-is-shown-when-killed-by
+
+---
+
+#### 6251. How to write down a bash script to **Completely Uninstall OpenPanel** from My Ubuntu Server?
+
+**问题描述 / Problem Description**:
+Tags: command-line, server, bash, scripts | Score: 1 | Views: 433 | Answers: 1 | Created: 2024-09-04
+
+**解决方案 / Solution**:
+To address this, I created an uninstall script that effectively removes OpenPanel and its components from my Ubuntu server. Here’s the script I used: #!/bin/bash echo "Uninstalling OpenPanel..." sudo -i cd /root && docker compose down docker rmi -f mysql/mysql-server openpanel/openpanel nginx:alpine certbot/certbot:latest ubuntu/bind9:latest openpanel/nginx openpanel/apache rm ~/docker-compose.yml rm ~/initialize.sql echo "Removing cron job..." if [ -f /etc/cron.d/openpanel ]; then rm /etc/cron.d/openpanel else echo "No cron job found for OpenPanel." fi echo "Removing OpenPanel directory..." rm -r /usr/local/panel echo "Stopping and disabling admin service..." systemctl stop admin systemctl disable admin rm /etc/systemd/system/admin.service rm -r /usr/local/admin echo "Removing OpenCLI..." rm /usr/local/bin/opencli sed -i '/# opencli aliases/,+3d' ~/.bashrc hash -d opencli || echo "No opencli command found." echo "Removing OpenPanel configuration..." rm -r /etc/openpanel echo "Uninstallation complete." After running this script, I was able to completely remove OpenPanel from my system. If anyone else is facing similar issues, I hope this script helps you uninstall OpenPanel effectively. Troubleshooting Tips If you encounter any errors or if certain commands fail, try running the script with sudo privileges and making the script executable with chmod +x uninstall.sh . Ensure that you are running the script from the correct directory or provide the full path to the docker-compose.yml file. If you still face issues with Docker, try restarting the Docker service or checking its logs for more information. https://medium.com/@tilak559/complete-guide-to-installing-and-uninstalling-docker-on-ubuntu-c7cace26ede7 Update from OpenPanel Community Administrator: techguru0, I appreciate the time you took into creating this and that you decided to share it, thank you! I would also just add removing all logs: rm -rf /var/log/openpanel and the install log from /root . And a few leftover services: # Floating IP service floatingip stop systemctl disable floatingip rm -rf /etc/systemd/system/floatingip.service # Logrotate rm -rf /etc/logrotate.d/openpanel rm -rf /etc/logrotate.d/syslog systemctl daemon-reload Also, UFW/CSF is added by OpenPanel and these: packages=("docker.io" "default-mysql-client" "python3-pip" "pip" "gunicorn" "jc" "sqlite3" "geoip-bin" "xfsprogs") By following these steps, you can ensure a cleaner uninstallation process and avoid potential issues with leftover configurations. Thanks to Stefan for sharing this valuable information!
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1525501/how-to-write-down-a-bash-script-to-completely-uninstall-openpanel-from-my-ub
+
+---
+
+#### 6252. How to sync / update a folder and down-scale / down-sample files on-the-fly?
+
+**问题描述 / Problem Description**:
+Tags: bash, sync, ffmpeg, rsync, imagemagick | Score: 1 | Views: 147 | Answers: 2 | Created: 2024-08-28
+
+**解决方案 / Solution**:
+A novel solution might be to create a FUSE filesystem that transparently applies conversions whenever you access a file. If this is too slow, you could always rsync it to another directory when there are changes. There are many fuse filesystems that implement some limited ascpect of this, but they are mostly written in programming languages like go, python, C. However, there is the cmdfs fuse filesystem, that can run a (shell or other) command when you try to read a file, and does not need you to write code. The first example mentioned in the man page even provides one of your requirements: Given a source tree, that includes, say, jpg images, we can generate a view filesystem which contains the same files resized to email size. The github sources were last updated in 2018, so it might not be compatible with your current installation. It also is probably not distributed as a package so you may have to compile it.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1524732/how-to-sync-update-a-folder-and-down-scale-down-sample-files-on-the-fly
+
+---
+
+#### 6253. Why can't a variable be used in brace expansion to repeat a string using printf?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash | Score: 1 | Views: 161 | Answers: 1 | Created: 2024-08-23
+
+**解决方案 / Solution**:
+Variables can't be used in bash's brace expansion, However You can assign a variable for printf to use in a script like this: shutchin@ubuntu20:~$ nlines=5 shutchin@ubuntu20:~$ for (( c=0; c<nlines; c++)) ; do printf 'helloworld\n' ; done helloworld helloworld helloworld helloworld helloworld shutchin@ubuntu20:~$
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1524204/why-cant-a-variable-be-used-in-brace-expansion-to-repeat-a-string-using-printf
+
+---
+
+#### 6254. Too many levels of symbolic links for many standard executables
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, symbolic-link | Score: 1 | Views: 889 | Answers: 1 | Created: 2024-07-30
+
+**解决方案 / Solution**:
+It turns out to be something wrong with my PATH variable. Thought the circular symlink is somewhere in my file system but it's actually from my PATH variable, that is beyond all reported places in OP -- A circular symlink path exists in my PATH.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1522088/too-many-levels-of-symbolic-links-for-many-standard-executables
+
+---
+
+#### 6255. Bash: programmatically output text to cursor?
+
+**问题描述 / Problem Description**:
+Tags: bash, xclip | Score: 1 | Views: 583 | Answers: 1 | Created: 2024-07-13
+
+**解决方案 / Solution**:
+To programatically output text at the cursor, one can use keyboard simulation tools. These tools send keystrokes to an application. xdotool type "$(xclip -o)" may indeed appear to be a way to make it work. However: It will only work on Xorg, not on Wayland, the default of modern Ubuntu systems. It will prove to be unreliable when the text to type becomes somewhat longer: there is a chance that keystrokes get lost. To address issue one, you can use ydotool or dotool . These tools work on both Xorg and Wayland. To manipulate the clipboard on Wayland, wl-clipboard is available. To address issue two, consider pasting the clipboard text rather than typing it. To do that, simulate the shortcut key Ctrl + V or Shift + Insert . Not only will that reliably paste all text, it will also be a lot faster. In your script, the text is already in the clipboard. So pasting rather than typing the contents out is obvious: you can simply replace xdotool type "$(xclip -o) with xdotool key ctrl+v . Using dotool , the command will be: echo key ctrl+v | dotoolc With ydotool, it becomes ydotool key 29:1 47:1 47:0 29:0
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1520426/bash-programmatically-output-text-to-cursor
 
 ---

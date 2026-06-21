@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6952**
+**总计条目 / Total entries: 7010**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -96140,5 +96140,759 @@ Try downgrading to an earlier version of VLC. I downgraded back to 3.0.22 (just 
 
 **参考链接 / References**:
 - https://superuser.com/questions/1936009/why-are-videos-very-slow-to-open-with-vlc-3-0-23-in-windows-11-home
+
+---
+
+#### 6953. PC slowly slows down and then freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubxz35/pc_slowly_slows_down_and_then_freezes/
+
+---
+
+#### 6954. Very specific internet issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubwyyx/very_specific_internet_issue/
+
+---
+
+#### 6955. Is it possible to transfer data from one PC to another by moving the internal hard drive?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc05ro/is_it_possible_to_transfer_data_from_one_pc_to/
+
+---
+
+#### 6956. Crystaldisk gives 'Caution' warning on my HDD and another service gave 18%, how much time does my HDD have left and do I still have time before it dies?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubzs6a/crystaldisk_gives_caution_warning_on_my_hdd_and/
+
+---
+
+#### 6957. Weird PC noise, not coming the fan I think
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubzgez/weird_pc_noise_not_coming_the_fan_i_think/
+
+---
+
+#### 6958. I blocked a number on iPhone, that I’m still getting texts from, help!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uboql8/i_blocked_a_number_on_iphone_that_im_still/
+
+---
+
+#### 6959. Running Sunnautica 2 on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc2lwc/running_sunnautica_2_on_windows_11/
+
+---
+
+#### 6960. Why cant I successfully transfer games and files from my internal storage to a microSD card?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc2kxp/why_cant_i_successfully_transfer_games_and_files/
+
+---
+
+#### 6961. Should I change my iPhone 13 pro battery or get a new phone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubr7ts/should_i_change_my_iphone_13_pro_battery_or_get_a/
+
+---
+
+#### 6962. Question About Asus Routers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc290b/question_about_asus_routers/
+
+---
+
+#### 6963. Why is my macbook safari using Baidu?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc27gr/why_is_my_macbook_safari_using_baidu/
+
+---
+
+#### 6964. Hooking up an old monitor to a new PC. Any concerns about hdmi compatibility?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc20y2/hooking_up_an_old_monitor_to_a_new_pc_any/
+
+---
+
+#### 6965. Bruh did I fry my EDID chip?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc1vxv/bruh_did_i_fry_my_edid_chip/
+
+---
+
+#### 6966. small lag - no sound - again lag - sound return
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc1ovf/small_lag_no_sound_again_lag_sound_return/
+
+---
+
+#### 6967. Any hope of saving my sd card?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc1j1w/any_hope_of_saving_my_sd_card/
+
+---
+
+#### 6968. **[DIAGNOSING] ASUS TUF FX505DU - GTX 1660 Ti showing geometric artifacts (triangles/trapezoids) in all 3D games - hardware failure confirmed?**
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc15qh/diagnosing_asus_tuf_fx505du_gtx_1660_ti_showing/
+
+---
+
+#### 6969. HUGE problems Dell G7 7790
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0yjq/huge_problems_dell_g7_7790/
+
+---
+
+#### 6970. Gaming computer help! Won't reach POST stage.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0wyj/gaming_computer_help_wont_reach_post_stage/
+
+---
+
+#### 6971. Internet randomly cutting out. General failure.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0v7p/internet_randomly_cutting_out_general_failure/
+
+---
+
+#### 6972. Windows glitching to full screen after undocking?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0ri1/windows_glitching_to_full_screen_after_undocking/
+
+---
+
+#### 6973. Window search menu is pixelated
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ubv2ic/window_search_menu_is_pixelated/
+
+---
+
+#### 6974. PC suddenly won't connect to monitor or peripherals.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0mo2/pc_suddenly_wont_connect_to_monitor_or_peripherals/
+
+---
+
+#### 6975. Alienware pc won’t appear on screen after suddenly unplugged mid game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0k51/alienware_pc_wont_appear_on_screen_after_suddenly/
+
+---
+
+#### 6976. Laptop not detecting microphone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uc0jxl/laptop_not_detecting_microphone/
+
+---
+
+#### 6977. Just started my own consulting business
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubyvzh/just_started_my_own_consulting_business/
+
+---
+
+#### 6978. Blocks of old logs showing up in current log files
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubvxj0/blocks_of_old_logs_showing_up_in_current_log_files/
+
+---
+
+#### 6979. PowerShell webapps?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubrh9e/powershell_webapps/
+
+---
+
+#### 6980. HP Fleet BSOD after new Windows Updates any ideas?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubm58l/hp_fleet_bsod_after_new_windows_updates_any_ideas/
+
+---
+
+#### 6981. Tenable Product Suite
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ublbad/tenable_product_suite/
+
+---
+
+#### 6982. Dell T620 iDRAC Advice
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubyj52/dell_t620_idrac_advice/
+
+---
+
+#### 6983. Free Firefox extension to juggle multiple M365/Outlook accounts
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uc1dm4/free_firefox_extension_to_juggle_multiple/
+
+---
+
+#### 6984. uk botnet activity on the increase
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubo2tn/uk_botnet_activity_on_the_increase/
+
+---
+
+#### 6985. SCIF work and not going crazy
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubi85k/scif_work_and_not_going_crazy/
+
+---
+
+#### 6986. Supply chain attacks on admin machines
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubcvqe/supply_chain_attacks_on_admin_machines/
+
+---
+
+#### 6987. 500 GBs data inaccessible on MS 365 for nonprofits
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ub4ioa/500_gbs_data_inaccessible_on_ms_365_for_nonprofits/
+
+---
+
+#### 6988. Displays and asset management
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubz42e/displays_and_asset_management/
+
+---
+
+#### 6989. Medical Student pivoting to Cloud Support/Engineering: Looking for the best GCP roadmap (No-CS degree)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubk5h0/medical_student_pivoting_to_cloud/
+
+---
+
+#### 6990. Inherited a server from a guy who left 3 years ago, changed one setting, broke prod for 4 hours
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ubz9fa/inherited_a_server_from_a_guy_who_left_3_years/
+
+---
+
+#### 6991. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply52
+
+---
+
+#### 6992. [V2EX] 2026 年了, 为啥国产监控 NVR 或者摄像头还要 IE 浏览器才能观看?
+
+**问题描述 / Problem Description**:
+不思进取也就算了, 没有 mac 客户端也就算了, 浏览器查看还有这种提示: 暂不支持此浏览器，请使用 IE 浏览器 暂不支持此浏览器，请使用 IE 或版本 52.0 之前的 32 位火狐浏览器 为啥这么拉垮啊, 浏览器直接观看难度这么大??? 有懂行的说说吗? 我有 tp 的摄像头和 nvr 以及 hk 的 nvr.... 都是让我用 IE.....
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221827#reply8
+
+---
+
+#### 6993. [V2EX] 咸鱼买了一个 pixel 炸弹机，卖家描述是熄屏手机就自动重启，各位有解决思路吗
+
+**问题描述 / Problem Description**:
+手机是 pixel fold ，买之前以为小问题，应该刷个机就好了，没想到刷机后还是有问题。按 gpt 的指引 adb 读取到日志如下。google 好像没搜到 PMUCAL 相关关键词的 bug ，gpt 说 PMUCAL 是三星的电源框架的异常，我对硬件不懂，也没法确认是否正确。 cat last_kmsg.txt [ 598.276585][ T2256] PMUCAL: pmucal_local_disable: error on handling disable sequence. (pd: blkpwr_hsi0) [ 598.276918][ T2256] debug-snaps
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221803#reply7
+
+---
+
+#### 6994. [V2EX] 大数据时代，炫下你们保护隐私的方法
+
+**问题描述 / Problem Description**:
+我记得之前有个大数据时代隐私保护帖子回复火热，有个兄弟说他取快递都花钱雇人取，自己在快递点附近等着，能不能雇我啊 :) ，5 块我也觉得不少。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221798#reply13
+
+---
+
+#### 6995. [V2EX] ChatGPT Plus 升级到 Pro 是补差价 还是 ？ Google Play 渠道订阅
+
+**问题描述 / Problem Description**:
+前几天订阅的 Plus 刚刚额度用完了 准备升级到 Pro 咨询下老铁们 从 Plus 升级到 Pro 是补差价，还是升级到 Pro 再退 Plus 的费用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221793#reply4
+
+---
+
+#### 6996. [V2EX] 想验证一个 99 元办公自动化小单： Excel/PPT/脚本类需求有人需要吗？
+
+**问题描述 / Problem Description**:
+最近在做一个小验证：很多重复办公问题其实不值得做成完整产品，但如果能在 1-2 小时内解决，可能有人愿意为省时间付 99-199 元。 我准备测试的范围： 1. Excel/CSV 数据清洗、去重、分类汇总、图表和简单看板。 2. PPT/Word 结构整理、排版优化、汇报材料快速处理。 3. 网页样式、JS 脚本、小 bug 定位。 4. 批量文件处理、重复办公流程自动化。 我已经准备了一个 Excel 数据清洗 + 汇总看板样例，实际接单时可以替换成客户自己的表格/CSV ，并按需求补透视、图表或脚本。 今天想做一次市场验证：如果你刚好有这类小问题，可以私信我截图或样例数据，我先判断能不能
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221792#reply3
+
+---
+
+#### 6997. [V2EX] 香港银行开户,恒生,渣打,汇丰好开吗.
+
+**问题描述 / Problem Description**:
+打算去开下..有经验的吗.有啥门槛.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221776#reply11
+
+---
+
+#### 6998. [V2EX] OpenAI/Anthropic 下个月开启身份验证，国内用户怎么办？
+
+**问题描述 / Problem Description**:
+OpenAI/Anthropic 下个月开启身份验证，国内用户怎么办？ 使用中转的是不是没什么影响？ 有没有自建中转的完整教程分享？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221775#reply8
+
+---
+
+#### 6999. [V2EX] 餐饮店油烟气非常大要怎么处理好
+
+**问题描述 / Problem Description**:
+我家住在二楼，楼下有个餐饮店，一到中午晚上饭点，油烟气就非常大，客厅卧室都能闻到，关死窗户都没用，打了好几次 12345 和城管执法，依然开的好好的没有任何整改，最近我老婆怀孕了，一闻这个气味就想吐，现在饭点在家里根本呆不了，这种情况要怎么处理好，我想去网上买点那种巨臭的液体，洒到店里去，这种有没有什么风险，民事纠纷赔钱不怕，就是要他的店开不下去，关门倒闭，让他去起诉好了，就怕会被抓进去，这种巨臭的液体二楼会不会也能闻到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221770#reply27
+
+---
+
+#### 7000. [V2EX] 7w 公里了，特斯拉换胎！特斯拉换胎，求推荐！
+
+**问题描述 / Problem Description**:
+今天到 4s 店保养，被告知论题已经磨损严重，到安全线了，近期需要更换。 我的是 Model Y ,20 寸轮毂，原装米其林轮胎。 官方店给出的方案： 1 、原装米其林轮胎，1 个 2000 多，四条 8000+....（太贵了）。 2 、固特异 F1 轮胎，4 条 6000+ （淘宝京东 900 一条，太坑了...） 去某书某站上做了下攻略，眼花缭乱... 米其林、固特异、倍耐力、马牌、朝阳、普利司通、还有一些国产品牌。 想求 v 友换过胎的推荐一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221761#reply9
+
+---
+
+#### 7001. [V2EX] 油管上有哪些账号可以真实反映老外的生活？
+
+**问题描述 / Problem Description**:
+最近看了一些油管的博主，分析了国内经济为什么这么差，为了构建自己完整的世界观，想看看老外们的生活是如何美好的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221758#reply30
+
+---
+
+#### 7002. [V2EX] 2026 年 6 月 20 号周六去香港开卡券商开户记录分享
+
+**问题描述 / Problem Description**:
+昨天从深圳去香港开卡 + 券商开户，简单记录一下。 我没预约中银香港，直接去了元朗。 先去元朗分行，柜台说没线上预约不给开，然后去了旁边的 元朗教育路分行，这家可以现场取号排队。 排队的时候连了银行 Wi-Fi ，不用密码。等号期间顺手线上开了几个银行： ZA Bank 蚂蚁银行/象象银行 恒生银行 线上开户大概需要： 身份证 港澳通行证 NFC 手机读取港澳通行证 入境小票 12367 出入境记录 PDF 地址证明 地址证明我用的是招行 APP 里开的账户证明，提前下载 PDF ，然后打印了纸质彩印版带过去。中银和后面券商都看了这个，建议提前打印好，别只准备电子版。 等线上这些弄完，刚好到我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221757#reply18
+
+---
+
+#### 7003. [V2EX] 周末好无聊啊！有点为退休后无事可做发愁了
+
+**问题描述 / Problem Description**:
+大家周末都做点啥呀？孩子老婆带着，我在家里玩电脑，玩电脑也玩的无聊了，也不知道做点啥。将来计划再过几年退休，可是退休后做啥呢？感觉更加无聊了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221719#reply37
+
+---
+
+#### 7004. [V2EX] 你们都怎么收藏、管理生图提示词，哪个工具好用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221718#reply9
+
+---
+
+#### 7005. [V2EX] 这几天 CODEX 的额度用得非常快，一个新的关于软件安装调试的问题，问了两次， 5 小时 20%就没了。
+
+**问题描述 / Problem Description**:
+根本没法用了，你们是不是这样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221717#reply9
+
+---
+
+#### 7006. [V2EX] 二手 Mac 回收价格表？ Mac 求推荐
+
+**问题描述 / Problem Description**:
+需求：办公+开发 各位老哥求支个招。近期打算购入 MacBook 主要用来办公和写代码。核心需求如下： 平常会接一台 4K 的显示器使用。（保不齐后面有接两台 4k 显示器的需求） 重度吃算力的任务（训练模型等）都在远端服务器上跑，本地主要是挂着 Cursor/PyCharm 敲代码，以及用终端 SSH 连服务器。 会多开 pycharm 和浏览器网页 真的会开很多浏览器网页查资料 平常看直播、写代码 有外出办公需求，所以也许屏幕大点会有好处？ 现在的选择： 5000 块 m1pro 16+1T(满血版） 电池 84 循环 240+，不过好像是 13 英寸的（内存比较小可惜，但这个价格是否合适
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221704#reply1
+
+---
+
+#### 7007. [V2EX] 问下天翼云盘 30T 10T 之类的大容量空间安全吗？
+
+**问题描述 / Problem Description**:
+安全稳定吗准备搞个备份数据用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221682#reply4
+
+---
+
+#### 7008. [V2EX] 有没有好用的、好看的、开源的电子邮件客户端
+
+**问题描述 / Problem Description**:
+如题，好多邮箱账号收件发件得去不同的网页里使用，很麻烦 用了一段时间了 macOS Mail 客户端，感觉好难用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221679#reply8
+
+---
+
+#### 7009. [V2EX] 想整一台 esim 安卓机。
+
+**问题描述 / Problem Description**:
+想过买 pixel 但是没有靠谱渠道， 求推荐 希望还能再用五年的， 预算 2000-4000 左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221664#reply13
+
+---
+
+#### 7010. [V2EX] 航班因乘客违规使用充电宝迫降，此人是不是这辈子就差不多了？
+
+**问题描述 / Problem Description**:
+英国航班 BA271 飞行中一名乘客用充电宝给手机充电。突然充电宝爆炸起火，机上乘客以为遇到恐袭。最终充电宝火灾烧毁了一个座椅后被乘务组扑灭，飞机就近紧急降落。 这个飞行中使用充电宝充电的乘客要承担多少责任？会不会要陪天文数字的钱（飞机修复，航班费用，其他旅客延误赔偿等）？有没有可能设计刑事责任？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221647#reply41
 
 ---
