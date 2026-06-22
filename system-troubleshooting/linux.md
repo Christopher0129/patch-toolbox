@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6255**
+**总计条目 / Total entries: 6290**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -89241,5 +89241,460 @@ To programatically output text at the cursor, one can use keyboard simulation to
 
 **参考链接 / References**:
 - https://askubuntu.com/questions/1520426/bash-programmatically-output-text-to-cursor
+
+---
+
+#### 6256. How to determine how many user namespaces are being used
+
+**问题描述 / Problem Description**:
+Tags: linux, linux-kernel, kernel, namespace, privileges | Score: 0 | Views: 44 | Answers: 1 | Created: 2026-06-21
+
+**解决方案 / Solution**:
+Those are not "usernames" but "user namespaces", as in a type of namespace which has its own users – they have nothing to do with usernames (which aren't managed by the kernel at all). From the toplevel namespace, run lsns -t user : # lsns -t user NS TYPE NPROCS PID USER COMMAND 4026531837 user 471 1 root /usr/lib/systemd/systemd --system 4026532362 user 1 60660 rdist ├─python3 /usr/local/rupdate/upserver -t /etc/private/upserver.keyt 4026532779 user 1 4528 pcscd ├─/usr/bin/pcscd --foreground --auto-exit 4026532915 user 1 1277203 _iperf3 └─/usr/bin/iperf3 --server 4026532381 user 7 1353 vu-stunnel-0 /usr/lib/systemd/systemd The list will include all namespaces, whether their creator was privileged or unprivileged. Keep in mind that the namespace will often have been created by the parent of the indicated process (e.g. by systemd when starting a "PrivateUsers=yes" service, not by the service's process itself). What's shown in the list is the topmost process that still remains. (This means, for example, that the above example is showing privileged namespaces – all of them were created by a root-owned process – despite what the USER column says about the process holding them now .) A low-level way is to check /proc/PID/ns/user for every PID. Calling readlink on the magic symlink will show the namespace ID. # ls -ogl /proc/*/ns/user lrwxrwxrwx 1 0 May 29 17:56 /proc/1/ns/user -> user:[4026531837] lrwxrwxrwx 1 0 May 29 17:56 /proc/100/ns/user -> user:[4026531837] lrwxrwxrwx 1 0 May 29 17:56 /proc/1000/ns/user -> user:[4026531837] (Another low-level method is the newly added listns() syscall which lsns doesn't yet use.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806477/how-to-determine-how-many-user-namespaces-are-being-used
+
+---
+
+#### 6257. Valve - “starting with the SteamOS 3.8 release, you can put together your own Steam Machine using whatever PC parts you want.”
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucw0rs/valve_starting_with_the_steamos_38_release_you/
+
+---
+
+#### 6258. Squidbleed - Heartbleed's ancient cousin, hiding in Squid since 1997
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uchomu/squidbleed_heartbleeds_ancient_cousin_hiding_in/
+
+---
+
+#### 6259. Benchmarks of Bcachefs 1.38.6, the first release since Kent Overstreet dropped the "experimental" flag
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucsxyr/benchmarks_of_bcachefs_1386_the_first_release/
+
+---
+
+#### 6260. Security vulnerabilities endanger connections via libssh2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucjru0/security_vulnerabilities_endanger_connections_via/
+
+---
+
+#### 6261. Xfwl4's First Preview Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucltoq/xfwl4s_first_preview_release/
+
+---
+
+#### 6262. Linux Finally Lands Battery/Charger Driver For 14 Year Old Microsoft Surface RT Tablet
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucn0wc/linux_finally_lands_batterycharger_driver_for_14/
+
+---
+
+#### 6263. Linux 7.2 continues to work on sched_ext's sub-scheduler support, with more infrastructure implemented
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucszjq/linux_72_continues_to_work_on_sched_exts/
+
+---
+
+#### 6264. Coming back to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucxz7v/coming_back_to_linux/
+
+---
+
+#### 6265. Got a vision of what KDE should focus on for the next two years? Submit a proposal for KDE's upcoming goals
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucu7s0/got_a_vision_of_what_kde_should_focus_on_for_the/
+
+---
+
+#### 6266. [App][Update] Whisp 1.3.4 released with Text Expansion and Donations now being live
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucpalu/appupdate_whisp_134_released_with_text_expansion/
+
+---
+
+#### 6267. DSTX – Game controller manager for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucm4he/dstx_game_controller_manager_for_linux/
+
+---
+
+#### 6268. Tired of your current clipboard managers? try yanklog!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ucj6lz/tired_of_your_current_clipboard_managers_try/
+
+---
+
+#### 6269. [V2EX] debian+gnome 开机后可以不显示用户列表 只需要输入密码 像 mac 那样么？有什么插件实现么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222124#reply0
+
+---
+
+#### 6270. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply3
+
+---
+
+#### 6271. [V2EX] 财富自由后在哪里定居比较好
+
+**问题描述 / Problem Description**:
+有和我朋友一样没有小孩，资产在千万左右的么，你们选择在哪里定居？ 这个级别的财产还够不上北上广深，甚至杭州都够不上，但大部分城市应该都够用了。 财富自由 = 不需要考虑工作；没有小孩 = 不需要考虑教育； 有情况类似的么，你们选择了定居哪里？还是继续在一线拼搏 PS：年龄 35 岁
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222107#reply21
+
+---
+
+#### 6272. [V2EX] GLM 5.2, Design Arena(by The Intelligence Company) 榜单居然冲到第一了
+
+**问题描述 / Problem Description**:
+https://www.designarena.ai/leaderboard/code
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222088#reply2
+
+---
+
+#### 6273. [V2EX] 小米股价没眼看； Codex-MIMO-Shim 还是叫 Codex-Shim 吧。
+
+**问题描述 / Problem Description**:
+一个让 codex-cli 能够支持 OpenAI-SDK 的本地兼容层。 新特性： Key 自动轮换机制（半小时一次，太短 Cache 丢失） 客户端发送能力增强（自动重试 429 ） 内置 mimo-free 模型 全新 UI 界面版本 实时调温度 API keys for custom providers and the MiMo Free fingerprint are stored in the OS keyring and are not written to disk. Provider-to-listener bindings are managed from the Dash
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222071#reply2
+
+---
+
+#### 6274. [V2EX] claude code 这几天为啥总是 Waiting for API response
+
+**问题描述 / Problem Description**:
+从前几天开始，claude code 每次对话都会在干活干一半的时候 Waiting for API response 这是什么情况？频率已经是每次对话必现的了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222065#reply6
+
+---
+
+#### 6275. [V2EX] qwen 也用上 DeepSeek 的缓存技术了。我这居然有 90%了，套餐是 coding plan 的 qwen3.7 plus
+
+**问题描述 / Problem Description**:
+coding plan 的成本降下来后会不会向公众开放?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222061#reply7
+
+---
+
+#### 6276. [V2EX] [找工作] 重生之 我在 v 站找工作
+
+**问题描述 / Problem Description**:
+在深，今天 hr 聊，明天就走人。n + 1 很麻利。 😂 深圳前端(AI 全干) 有人招么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222043#reply4
+
+---
+
+#### 6277. [V2EX] 有没有用飞书的 v 友？
+
+**问题描述 / Problem Description**:
+https://github.com/mskatoni/v2ex-max-helper 搞了个 做空 v2ex V2EX 每日自动刷铜币脚本，新收到飞书推送的 PR ，有需要飞书推送的 v 友吗？ 下一个版本支持 docker ，目前在测试 render 的 Free 计划月配额是否满足，以及修复一些重启后的 BUG
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222039#reply0
+
+---
+
+#### 6278. [V2EX] LLM 厂商降配降智是否符合什么什么商业之类的法律？
+
+**问题描述 / Problem Description**:
+不是很懂这类法律法规，但是国内外各种厂商动不动就降智降量这个是合法的吗？ 还是说，人家在法律条文上，承诺的就是最低配最低智的服务。 然后，偶尔营销用到的高智商高额度的模型反而是厂商的“恩赐”？ Coding Plan 赚不赚亏不亏另说，就单说这种服务质量和服务数量全由厂商说了算的商品形式合理合法吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222027#reply3
+
+---
+
+#### 6279. [V2EX] kimi code 和 open code 应该选哪个？
+
+**问题描述 / Problem Description**:
+最近 codex 已经被蹬没了，项目不能停，准备把 deepseek v4 接到 open code 继续用 但是看到最近 kimi code 的呼声很高，不知道应该用哪个 各位大佬都是怎么选择
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222022#reply16
+
+---
+
+#### 6280. [V2EX] 给一张照片，然后直接用自己的动作和表情来生成这个角色的视频，这个怎么实现的？
+
+**问题描述 / Problem Description**:
+只给一张图片，然后还是自己的动作表情，但是角色是图片的角色，这种的真人视频是怎么实现的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222021#reply9
+
+---
+
+#### 6281. [V2EX] codex 史诗级大降智，如图 IQ 测试
+
+**问题描述 / Problem Description**:
+真的是恐怖如斯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222015#reply8
+
+---
+
+#### 6282. [V2EX] 这个月用 deepseek-4-pro 到 22 号,已经消费 100rmb 了,有没有合适的 coding plan 可以降低成本?
+
+**问题描述 / Problem Description**:
+devops 工作,通过 claude code 使用.试过其他国产模型:Qwen3.7-max 感觉复杂问题处理能力强于 deepseek-v4-pro 一些但是贵太多了,glm5.2 也很强但是抢不到.海外的太贵了不考虑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222010#reply33
+
+---
+
+#### 6283. [V2EX] 不同的语气描述相同的指令是否影响 AI 的生成结果，神奇
+
+**问题描述 / Problem Description**:
+事情是这样的，端午期间我用 Codex （ gpt 5.5 ） vibe 一个小工具，遇到一个 bug 尝试让 AI 修复了四五次都无法正确修复，然后有群友让我试试 pua 一下，我就用甜甜的语气和 GPT 对话，并且踩一脚 Claude ，骗它说是 Claude 修复了好几次没修好，结果一轮就把 bug 修复了。 然后好奇的问了下 Chrome 上面的 gemini ，它是这样回复的，倒反天罡，把我雷的外焦里嫩： 之前还听说 Github 上有一套 Skill 就是专门用来 pua Agents 的 🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222009#reply8
+
+---
+
+#### 6284. [V2EX] 在闲鱼上，帮人卸载垃圾软件也能成为一个产业...
+
+**问题描述 / Problem Description**:
+无意中发现了闲鱼有帮忙卸载软件的服务，比如你不小心安装了某某软件，但是卸载这个软件需要管理密码，但是你没有密码，别人可以帮你卸载这个软件，收取一定的费用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222007#reply1
+
+---
+
+#### 6285. [V2EX] codex 降智降麻了，版本末期恐怖如斯
+
+**问题描述 / Problem Description**:
+有种带实习的无力感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222002#reply10
+
+---
+
+#### 6286. [V2EX] wps 笔记大家有用过的没？
+
+**问题描述 / Problem Description**:
+最近发现了这款笔记软件，采用标签层级构建笔记系统，Ai 方面的体验还不错，智能标签，ai 整理笔记，不过目前刚出来，功能还比较少。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222000#reply9
+
+---
+
+#### 6287. [V2EX] 为什么微信的「搜索」功能不能搜索小程序，必须用单独的「搜索小程序」入口才能搜
+
+**问题描述 / Problem Description**:
+每次要找一个小程序，习惯性点右上角的🔍。 输完之后发现这个界面能搜：账号、视频、文章、评论、百科、划线、商品、小店、直播、表情、互动、音乐、新闻、贴图、读书、朋友、朋友圈、图片、问一问、小游戏、微信指数、AI 搜索…… 就是他妈的不能搜小程序。 要搜小程序，必须下拉，在「最近」里面找到「搜索小程序」入口。 这个到底是哪个设计师的天才之作？？ 我愿与「语音通话放在视频通话按钮里」「群聊默认不保存」并称为微信三大最反人类的交互逻辑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221988#reply3
+
+---
+
+#### 6288. [V2EX] Claude 的身份验证 -这个太夸张了吧
+
+**问题描述 / Problem Description**:
+您需要准备什么 开始前，请准备好以下物品： 有效的政府颁发的带照片的身份证件：实体文件，在手边 带摄像头的手机或电脑：您可能需要用手机拍摄实时自拍照，或使用网络摄像头 几分钟时间：验证通常需要不到五分钟 接受的身份证件类型 我们接受来自大多数国家的原始、实体政府颁发的带照片的身份证件。常见例子包括： 护照 驾驶执照或州/省身份证 国家身份证 您的身份证件必须由政府颁发、清晰易读、完好无损，并包含您的照片。 我们不接受： 复印件、截图、扫描件或照片的照片 数字或移动身份证件（如移动驾驶执照） 非政府身份证件：学生证、员工证、图书卡、银行卡 临时纸质身份证件 ---原文地址 这。。和我去银行开账户
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221984#reply21
+
+---
+
+#### 6289. [V2EX] 烧了 10 亿 token，做了套让 agent 直接拼出后台管理系统的 skill
+
+**问题描述 / Problem Description**:
+TL;DR :烧了大概 10 亿 Opus 4.8 的 token ，做了一套 shadcn/ui 式的 skill —— 36 个抄即用的后台 UI 形状(CRUD 表格、详情/主从页、看板、日历、表单向导、图表、计费、RBAC 、i18n……)。给 coding agent 装上，它就能直接拼出一个能跑的管理后台，省 token ，而且每个控件都是仓库里检验过的真代码，不是现编的。 其实半年多前我发过一篇帖子，介绍过一个类似的项目(也就是这个项目的前身)。当时关注平平，现在回头看，做得也确实远远不够好:高不成低不就，GitHub 上一抓一大把比我完成度更高的同类项目，以至于连我自己都没真正
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221972#reply15
+
+---
+
+#### 6290. [V2EX] 公司 ai 大跃进，有啥 ai 项目的好想法吗？
+
+**问题描述 / Problem Description**:
+最近公司很热衷 ai 提效，大家想点子搞基础设施，做项目演示然后评估可行性。 看同事一个个做的演示，包括但不限于：ai 看板管理、长时间任务运行 agent 编排、skill 分享平台。但我心里清楚，表面吹得牛逼，最后可能无法落地或者根本没人用。 但还是架不住考核，楼主也得给点东西交差。大家有没有啥好想法？听起来要牛逼哄哄的那种。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221943#reply21
 
 ---

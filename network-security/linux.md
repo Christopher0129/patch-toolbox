@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2103**
+**总计条目 / Total entries: 2106**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -33408,5 +33408,41 @@ Pablo Ruiz discovered that ldns did not properly validate DNS responses when use
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2490558
+
+---
+
+#### 2104. CVE-2026-12565
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.3
+
+**漏洞描述 / Description**:
+The unarchive internal module's archive extraction commands perform no code-level validation on extracted file paths, relying entirely on the behavior of external tools (e.g. GNU tar) which varies by platform. While CVE-2025-10284 addressed git-specific RCE vectors, the underlying archive extraction path traversal was never fixed. On systems with GNU tar < 1.34 (Ubuntu 20.04, Debian Buster, CentOS 7, many Docker base images), a malicious archive can write files outside the intended extraction directory.
+
+**参考链接 / References**:
+- https://github.com/blacklanternsecurity/bbot/commit/4fb38fd6e
+
+---
+
+#### 2105. CVE-2026-12805 - dcmtk: OFFIS DCMTK: Heap-based buffer overflow in XML parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dcmtk: OFFIS DCMTK: Heap-based buffer overflow in XML parsing. Bugzilla: 2491215
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491215
+
+---
+
+#### 2106. CVE-2026-12804 - lemonldap-ng: Lemonldap-NG: Open Redirect via URL manipulation in SAML Common…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] lemonldap-ng: Lemonldap-NG: Open Redirect via URL manipulation in SAML Common Domain Cookie Endpoint. Bugzilla: 2491214
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491214
 
 ---

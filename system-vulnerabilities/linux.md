@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1969**
+**总计条目 / Total entries: 1971**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -37286,5 +37286,37 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2490558
+
+---
+
+#### 1970. CVE-2026-12805 - dcmtk: OFFIS DCMTK: Heap-based buffer overflow in XML parsing
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dcmtk: OFFIS DCMTK: Heap-based buffer overflow in XML parsing. Bugzilla: 2491215
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491215
+
+---
+
+#### 1971. CVE-2026-12804 - lemonldap-ng: Lemonldap-NG: Open Redirect via URL manipulation in SAML Common…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] lemonldap-ng: Lemonldap-NG: Open Redirect via URL manipulation in SAML Common Domain Cookie Endpoint. Bugzilla: 2491214
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491214
 
 ---

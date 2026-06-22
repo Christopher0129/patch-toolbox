@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5877**
+**总计条目 / Total entries: 5928**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -80683,5 +80683,668 @@ Although it's not clear from the man page, in my tests (with macOS 26), bioutil 
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/481620/help-with-usage-of-bioutil-what-settings-can-i-read-write-password-issue
+
+---
+
+#### 5878. macOS Tahoe’s minimum RAM requirement is lower than I expected: 1.1GB
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc7bef/macos_tahoes_minimum_ram_requirement_is_lower/
+
+---
+
+#### 5879. iMac 5K late 2014 Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uctu8b/imac_5k_late_2014_sequoia/
+
+---
+
+#### 5880. How many of you Stage Manager? I think it's one of the best feature Apple shipped in MacOS 13. Ever since its release I've rarely ever turned it off.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc47u5/how_many_of_you_stage_manager_i_think_its_one_of/
+
+---
+
+#### 5881. Sleep option grayed out
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucx0r6/sleep_option_grayed_out/
+
+---
+
+#### 5882. I just realized I’ve been replacing Launchpad with this built-in Dock trick for years!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc3s34/i_just_realized_ive_been_replacing_launchpad_with/
+
+---
+
+#### 5883. Getting used to keyboard shortcuts when switching between OSes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucyc9b/getting_used_to_keyboard_shortcuts_when_switching/
+
+---
+
+#### 5884. How do I get options for spotlight search?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucou3q/how_do_i_get_options_for_spotlight_search/
+
+---
+
+#### 5885. is there any way to log in to this old logged out macbook air?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucx2wb/is_there_any_way_to_log_in_to_this_old_logged_out/
+
+---
+
+#### 5886. Apple Notes Mac app keeps jumping around and fighting upward scroll - makes it unusable - is there a fix?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucuae9/apple_notes_mac_app_keeps_jumping_around_and/
+
+---
+
+#### 5887. What's one thing you wish macOS did better?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc30n7/whats_one_thing_you_wish_macos_did_better/
+
+---
+
+#### 5888. 2020 intel MacBook Pro Tahoe update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uctrqe/2020_intel_macbook_pro_tahoe_update/
+
+---
+
+#### 5889. Apple Intelligence storage increased from 8GB to 12GB even though it's completely disabled?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucmyx5/apple_intelligence_storage_increased_from_8gb_to/
+
+---
+
+#### 5890. MacOS Tahoe on 2020 intel mba
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucr1x5/macos_tahoe_on_2020_intel_mba/
+
+---
+
+#### 5891. Removing space taken by Apple Intelligence
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucanps/removing_space_taken_by_apple_intelligence/
+
+---
+
+#### 5892. PSA: Just because a Mac file seems to copy without error, doesn't mean it did
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucplfd/psa_just_because_a_mac_file_seems_to_copy_without/
+
+---
+
+#### 5893. Photos to windoews
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucp8lh/photos_to_windoews/
+
+---
+
+#### 5894. M2 Mac Studio – Tahoe 26.5.1 Update Stuck Forever
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uc9owt/m2_mac_studio_tahoe_2651_update_stuck_forever/
+
+---
+
+#### 5895. TM won't mount, not in disk util or /vol/
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uclobs/tm_wont_mount_not_in_disk_util_or_vol/
+
+---
+
+#### 5896. How to run a Windows program that requires an Intel chip
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucr2m1/how_to_run_a_windows_program_that_requires_an/
+
+---
+
+#### 5897. Is this my FileVault recovery key (from my iPhones password app) or something else? It doesn’t work with my MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uchusn/is_this_my_filevault_recovery_key_from_my_iphones/
+
+---
+
+#### 5898. Mac died in the middle of recording, and now Voice Memos is not responding
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ucfyej/mac_died_in_the_middle_of_recording_and_now_voice/
+
+---
+
+#### 5899. [V2EX] SynoSync (时刻同步) MacOS 平台上线， Mac 端首月完全免费！无内购， iOS 端四折优惠进行中
+
+**问题描述 / Problem Description**:
+SynoSync 在移动端的稳定性已经经历了部分用户的验证了，现在我也终于有余力腾出手来做 MacOS 端的兼容，首先我要坦白：MacOS 端使用的是 Catalyst 兼容运行，因为这样的方案下移植工作量是最小的，毕竟 SynoSync 第一优先的仍旧是移动端的功能稳定，现在通过 Catalyst 让 MacOS 平台的用户也用上了 SynoSync 的绝大多数功能。 时刻同步（ SynoSync ）是一款兼容 DSM 、WebDAV 、SMB 协议的文件同步工具，刚开始是为了方便我在 iPhone 上后台同步我 NAS 上的 Obsidian 文档库（ 20000+ 文件，10GB ），现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221915#reply4
+
+---
+
+#### 5900. [V2EX] 终于解决罗技无线鼠标掉帧卡顿
+
+**问题描述 / Problem Description**:
+之前使用的是：Mac + 扩展坞（绿联或小米）+ 罗技 G502X USB 接收器。 当时鼠标经常出现掉帧、卡顿等情况，使用体验非常不理想，以至于我一直使用有线 G502X 。 最近一周，我将 G502X 的 USB 接收器插到显示器上后，问题彻底消失，流畅度和有线基本一样丝滑。 --- 另外，此前我还遇到过小米扩展坞有线网口频繁自动断开的情况。更换为绿联扩展坞后，网络连接也恢复正常，暂未再出现断线问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221899#reply12
+
+---
+
+#### 5901. [V2EX] 大家现在都是用什么方法绕过新 macOS 的地区检测的😭
+
+**问题描述 / Problem Description**:
+Siri AI 终于推送给我的 Mac 了，但是现在问啥都是出错，只能订一些简单的闹钟……隐约记得之前只需要全局代理就可以用很多地区限制的功能了；但现在查了一下好像要关 SIP ，还会导致 iPhone 镜像失效（而且是 2025 的方法了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221498#reply4
+
+---
+
+#### 5902. [V2EX] 我的 macOS 最近经常弹出音量变化的那个浮窗，但我确认自己没有按到音量键。
+
+**问题描述 / Problem Description**:
+没留意什么时候出现的，最近的改变有： 从 26.3 升级到了 26.5 升级了微信，然后发现它绑定了 ctrl+E ，于是 安装了 Karabiner Elements 出现的频率不固定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221068#reply3
+
+---
+
+#### 5903. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply116
+
+---
+
+#### 5904. [V2EX] 终结 macOS 终端代理配置噩梦！全自动同步代理到 Shell、Git、NPM、Yarn 和 Docker
+
+**问题描述 / Problem Description**:
+🔗 项目开源地址 👉 GitHub - lcl-101/Proxy-Sync-Daemon 😫 痛点：你是否也经常遇到这些情况？ 终端网络割裂 ：在 macOS 上开启了 Clash 、Surge 或 Shadowrocket 后，浏览器冲浪十分顺畅，但在终端里 git clone 、 npm install 、 docker pull 依旧卡死超时。 繁琐的手动配置 ：每次开代理都要在终端手动输入一堆 export http_proxy=... ；关了代理要是忘记取消配置，终端又会报 Connection Refused 无法联网。 三方工具代理污染 ：为了下载依赖配了 NPM 或 Git
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221028#reply27
+
+---
+
+#### 5905. [V2EX] 新人使用 macOS，问几个问题
+
+**问题描述 / Problem Description**:
+1. 在 `通用` 里面修改了 `主机名`（原：`xxx 的 MacBook Pro`），修改完成后，终端里面的主机名就显示 `localhost` 了，为啥不是我修改后的主机名？ 2. 有些软件在 Dash 里长按，图标开始抖动，有些图标右上角有 `x`，点击可以直接卸载，有些没有，这些没有的怎么卸载？直接拖到垃圾篓就可以了？会有残留配置文件吗？ 3. Type-c 通过转接头 hdmi 接华为智慧屏，智慧屏会一直闪，同事电脑用我的转接头没问题，我用这个转接头接自己的显示器也没有问题，这是为啥？ 4. 我现在的系统是 Sonoma ，更新到最新版以后，后续还能装回这个系统吗？ 5. 系统删除
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221026#reply17
+
+---
+
+#### 5906. [V2EX] APNs 遇到区域性异常
+
+**问题描述 / Problem Description**:
+各位用 iOS 设备的网友，有没有遇到过 Telegram 、X 软件不推送消息的问题？ 坐标上海，iOS26 ，国行 17 ，福建移动 sim ，Wi-Fi 为上海联通 CPE 蜂窝上游。 在五月初，看到频道有发送过此类问题，个人在五月倒是没遇到过此类问题，但最近一周左右也遇到了同样问题。 本人使用 Qx 软件，将此域名和 ip 设置为分流，走海外节点后，在 Wi-Fi 条件下可以勉强收到推送，并伴有延迟等问题。在蜂窝网络环境下，即便设置了分流规则，依旧无法收到推送。 经过尝试，发现第三方 Telegram 软件"swiftgram"没有受到影响。 在查阅互联网上的相关信息后，可见两种口径。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222123#reply2
+
+---
+
+#### 5907. [V2EX] 正在开发一款像 iOS 系统自带的多功能聚合翻译软件
+
+**问题描述 / Problem Description**:
+我有时候会用到翻译软件，但是一直苦于 iOS 上没有一个比较“完美”的翻译软件。 我认为的“完美”指的是 1.完全原生，适配液态玻璃 2.小而美，实用，无冗余的功能，app 应该只做一件事“翻译”，而不是啥都干，啥都干不好 3.翻译准确，支持多平台翻译，方便对比 最开始用的是 iOS 自带的“翻译”app ，缺点很明显，翻译不准确，体验堪称灾难，唯一的优点是真的很干净，非常原生。 后面试过一款 app 叫 para 翻译（不是广告，只是说明用过而已），优点支持多平台翻译，翻译源挺全的，自带翻译源不用自己填 key 啥的，缺点不是原生液态玻璃，布局交互有点糟糕，有时候会卡住翻译不出来（顺便一提，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222050#reply6
+
+---
+
+#### 5908. [V2EX] ios27 短信的问题
+
+**问题描述 / Problem Description**:
+已经关闭了短信过滤功能，但是很多短信在信息 app 里还是看不到，在信息 app 里搜索能搜出来相关内容，但是点进去详情就是一片空白，有遇到过这个问题的吗？如何解决？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221968#reply10
+
+---
+
+#### 5909. [V2EX] Typora 团队新 Terminal 作品 otty，这颜值你打几分？
+
+**问题描述 / Problem Description**:
+偶然刷到 Typora 团队的新动作，他们在做一款 Terminal 工具 Otty 。 极简审美，UI 质感高级。这颜值确实让人有换掉现用终端的冲动。目前 macOS 版已上线，Windows 和 Linux 版本还在开发中。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221917#reply25
+
+---
+
+#### 5910. [V2EX] 登录美区账号，国区 app 不让更新了
+
+**问题描述 / Problem Description**:
+之前是可以的，现在不行了，即使商店账号切换到国区也不行。 直接显示 APP 不可用。26.5.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221686#reply23
+
+---
+
+#### 5911. [V2EX] iPhone17 凌晨异常使用蜂窝数据欠费 500 多
+
+**问题描述 / Problem Description**:
+早晨五点被密集几十条短信吵醒，一看吓一跳，短信显示流量超出 540 元。（ 8 元保号套餐，600 元流量超出强制断网） 查了一下记录，从一点开始到 5 点结束一直在疯狂跑流量，手机一直在充电没在使用 看了设置里的记录显示 shadowrocket 使用了 25G 很多异常点: 1.家里全屋 wifi7 覆盖，为啥会突然走流量 2.手机没有后台上传下载的任务，我经常重置网络设置，大部分 app 都是默认没有网络权限的，手机里没有网盘之类的 app ，即使有，再设置里流量统计也会有体现 3.小火箭一直是规则模式链接，不知道为啥会在凌晨异常暴力传输数据，3 小时 25G 流量 ，小火箭默认不打开日
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221604#reply54
+
+---
+
+#### 5912. [V2EX] Mac 外壳磕了，国内外两次 AC 送修经历，但未修机
+
+**问题描述 / Problem Description**:
+放一张 AI 做的图，方便大家快速了解本文大概内容 一年前，自己的美版 16 寸 MacBook 因为自己不不小心，被充电头的插脚顶出了凹痕，刚好买了 AppleCare ，于是就预约了准备去送修 维修价格预估是这样的，到店接待我们的人说，显示器的更换 100 美金，机身的更换 200 美金，这和官网说的机身外壳损坏 99 美金不同（当时我没有去看过官网的维修价格，就忘了问为什么价格不同了），接待我的黑人小哥不建议我维修，想着 AC 还有一年，等快到期了再换 26 年 8 月 AC 到期了，前段时间就又预约了看看 国内的 AC 预约需要身份证后四位数（不清楚是否校验），到店签到的时候也要你的真
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221399#reply13
+
+---
+
+#### 5913. [V2EX] [送码] 成功把 iCloud 空间省出了 190GB
+
+**问题描述 / Problem Description**:
+前期提要： vibe coding 了一个解决 iCloud 空间不足的 app - Slimm 最近终于把成品上架 app store 了，地址在这里 Slimm - 释放云空间 核心原理就是只保留前 5s 的低质量视频，原始媒体存在本机或者别的大容量设备上，现在 Slimm 不仅支持本机，还支持了 Web DAV 和外接存储。而且还可以在 Mac 上安装，我已经把自己的 700+个视频全部移到了 Macbook 上面，iCloud 空间立减 190GB ，200GB 的空间终于不再捉襟见肘了。 而且事实证明，以前存储的确实有很多视频是我完全不会再看一遍的了，如果不是这次清理存储空间的机会，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221332#reply62
+
+---
+
+#### 5914. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply31
+
+---
+
+#### 5915. [V2EX] 🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？
+
+**问题描述 / Problem Description**:
+各位 v 站的朋友好，经过 1 年时间我来向各位汇报专为开发团队打造 Mac 优美截图 app 1Capture 的进展。 市场上截图的工具很多，但是我们这款 app 会有很多不一样的地方。Cleanshot 可能很美，但是其操作流程可能不一定适合国人的操作习惯。1Capture 的目标就是：不一味堆砌功能，做到跟 Cleanshot 一样精美，但是更符合国内开发、产品、设计师的操作习惯。 值此 618 之际，我们也是为大家提供价格优惠。1Capture 一次性买断，永久免费升级，走过路过，不要错过哦。送码在最后。 App Store：( https://apps.apple.com/app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221276#reply171
+
+---
+
+#### 5916. [V2EX] iOS27 查看 index 进度 | 连接 Mac 在 console 中查看
+
+**问题描述 / Problem Description**:
+1. iPhone 连接 Mac 2. Mac 打开 Console ，Action 打开显示 debug 信息 3. 选择查看的设备，iPhone 打开设置页面 4. 在搜索框搜索[spotlight indexing progress]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220739#reply62
+
+---
+
+#### 5917. [V2EX] 小米 MiMo Pro 月度套餐快到期了，额度还剩不少，想用的可以体验一下
+
+**问题描述 / Problem Description**:
+地址： https://token-plan-sgp.xiaomimimo.com/v1 key：tp-s2eyj0waapaqh0tz5qi6g55c2htes7j5gh1w7m5fer49eg17
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222084#reply4
+
+---
+
+#### 5918. [V2EX] 两款新的跨平台桌面应用开发框架： ElectroBun & Deno Desktop
+
+**问题描述 / Problem Description**:
+长期用 Electron 开发桌面应该都有痛点：打包体积动辄上百 MB 、启动慢、完整更新包巨大； Tauri 又需要上手 Rust 门槛偏高。最近出现两款基于现代 JS/TS Runtime 的轻量桌面框架 ——ElectroBun 、Deno Desktop ，二者都复用系统 WebView 实现轻量化。 APP 体积 ElectroBun ~14 MB Deno Desktop ~40 MB / ~150 MB (如果打包 CEF) 两者均支持 bsdiff ，补丁尺寸可以做到很小。 平台支持上 都支持 macOS / Windows / Linux 暂不支持 iOS / Android
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222080#reply2
+
+---
+
+#### 5919. [V2EX] 做 AI 图片/视频生成站时，发现最影响体验的不是模型，而是价格、失败和等待
+
+**问题描述 / Problem Description**:
+最近在做一个 AI 图片/视频生成相关的小站，过程中也试了不少同类工具。 我发现这类产品有几个挺影响体验的问题： 1. 价格不透明 很多工具写的是“积分制”或者“credits”，但用户很难在生成前判断一次到底要花多少钱。 尤其是现在模型很多：图片模型、视频模型、不同清晰度、不同秒数、不同参考图数量，成本差异很大。如果不提前说清楚，用户很容易有一种“先点了再说，点完才知道贵”的感觉。 2. 任务失败不退额度 这是我自己用同类产品时最不舒服的点。 AI 生成任务失败其实很常见，可能是模型接口失败、队列超时、内容审核、上游服务异常。但如果用户没有拿到结果，额度却已经被扣掉，会非常伤信任。 所以我现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222073#reply0
+
+---
+
+#### 5920. [V2EX] [分享] 海鲜市场有 1password 个人版 4 年五十多，家庭版 6 年 300 左右
+
+**问题描述 / Problem Description**:
+我买了个 4 年的，不知道后期会不会掉订阅。 应该都是学生权益，看情况上车
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222008#reply1
+
+---
+
+#### 5921. [V2EX] Vibe 了一个小红书、抖音 AI 获客系统，欢迎进群交流
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221971#reply0
+
+---
+
+#### 5922. [V2EX] DeepSeek V4 Flash 限时免费无限畅用
+
+**问题描述 / Problem Description**:
+• OpenModel 的 DeepSeek V4 Flash 限时免费，支持 API 调用，活动期间输入和输出 token 均不计费（每用户限 10 RPM / 100K TPM ），注册账户还送 1$额度，一个邮箱就可以，不嫖白不嫖 🌐活动地址：直达链接 ( https://www.openmodel.ai/event )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221938#reply1
+
+---
+
+#### 5923. [V2EX] 美团 Tabbit 浏览器可以免费用 GPT 5.5、Claude Opus 4.8、Gemini 3.5flash
+
+**问题描述 / Problem Description**:
+最新旗舰版全接入，完全免费不用单独开订阅！ 注意是：国际版！！！ 国内版只有国内模型，御三家不接入， 这东西的逻辑很简单，美团想做 AI 入口，先砸钱把模型阵容堆满，把用户量拉起来，现阶段一分钱不花就能同时用几家最贵的模型。 不想在各家之间来回切，又不想开一堆订阅的可以试下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221926#reply6
+
+---
+
+#### 5924. [V2EX] [搜集贴] 建一个长期的「日常痛点与开发点子」贴子，聊聊你在日常生活工作学习中遇到的各种痛点
+
+**问题描述 / Problem Description**:
+想在这个帖子里搜集一下，大家在工作、生活、学习或者小众爱好中，有没有遇到过那种让你忍不住吐槽：“要是有一个工具能帮我把这破事自动化就好了”的瞬间？ 为了方便大家发散思维，可以参考下面这几个方向（当然不仅限于此）： 💻 工作与开发流： 哪个环节充满了无意义的重复劳动？有没有哪个每天必用的工业级软件/内部系统，它的某项设计特别反人类？ ☕ 日常生活与管理： 信息过载的时代，在记账、个人知识库管理、甚至是买东西比价、整理琐碎杂事时，现有的 App 哪里让你觉得要么太臃肿，要么不够用？ 📚 学习与硬核爱好： 比如在钻研某个复杂领域（查阅海量外文资料、管理庞大的素材库）时，有没有觉得现有的检索、分类或阅
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221924#reply1
+
+---
+
+#### 5925. [V2EX] 发现智驾已经和人一样会造成交通拥堵了
+
+**问题描述 / Problem Description**:
+江浙沪地区肉眼可见地感觉到高架/高速上亮小蓝灯数量变多（尾灯或后视镜亮起蓝色灯代表车主打开智能驾驶/辅助驾驶功能） 在限速 120 码的高速经常遇到有亮蓝灯的车在最左侧车道跟在大货车左后方，大概是 90-100 码左右。特意观察了一会儿，这些车子就一直跟着大货车匀速行驶，不变道也不加速减速，有的甚至长时间和大货车并排行驶。在两车道或者三车道就导致经常有车流跑不起来，然后手动驾驶的车主就会找机会冒险从左边夹缝处超车。 不清楚这些智驾的逻辑是为了安全起见不超车还是车主标定了时速导致的，只能说现阶段的“智驾”也会出现和某些人类司机一样的问题。 为了安全和通行效率，希望智驾厂商能尽早发现并且优化这种场
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221891#reply31
+
+---
+
+#### 5926. [V2EX] 突然发现拼多多居然没有做网贷
+
+**问题描述 / Problem Description**:
+突然发现拼多多居然没有做网贷。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221710#reply55
+
+---
+
+#### 5927. [V2EX] 米家空调的型号也太多了，我似乎分不清国补完 1500 左右，哪个 1.5P 比较合适了
+
+**问题描述 / Problem Description**:
+35GW-PG15/N1A1 35GW-PG15/A1A1 ....我看到了好多这种字样，有懂哥出来支支招吗？ 我心理预期价位大概在 1500 （国补完）左右，旧品回收以后预期可以提到 1800 左右 家里还有旧机，看了下几个平台的回收价格，基本上都在 300+ 需求： 卧室使用，面积大概 20 左右，哪个型号和价格会比较合适呢。 现在家里这个老空调实在是消费不起了，5 级能效，我开都不敢开啊！！！！ 先感谢各位了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221694#reply22
+
+---
+
+#### 5928. [V2EX] DNSHE——做免费域名的，免费域名直接送 10 年
+
+**问题描述 / Problem Description**:
+先说最狠的：. bbroot . com 新注册域名，默认直接给 10 年有效期。 你没看错，免费域名，10 年。 以前是 1 年到期续一次，现在是注册下来直接到 2036 年。老用户也没被忘掉——符合条件的存量域名自动补足到 10 年。 原来到期时间 2026 年的，直接拉到 2037 年。 我第一反应是：这得多少钱啊？兄弟你确定不会倒闭吧？ 但转念一想，人家的商业模式不是靠域名收费，是靠赞助和生态。免费域名锁住用户，然后靠企业赞助、VIP 、增值服务回血。这一手其实很聪明。 再说几个跟钱有关的硬变化： 注册门槛降低：免费域名最低前缀从 3 字符降到 2 字符。短域名爱好者狂喜，2 字母的香
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221612#reply3
 
 ---

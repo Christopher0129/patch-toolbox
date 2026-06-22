@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7010**
+**总计条目 / Total entries: 7061**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -96894,5 +96894,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221647#reply41
+
+---
+
+#### 7011. When current Secure Boot certificates expire (June 2026), can new OS be installed on a dual boot Windows 10/Ubuntu PC?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, operating-systems, certificate, secure-boot | Score: 5 | Views: 616 | Answers: 1 | Created: 2026-06-21
+
+**解决方案 / Solution**:
+It seems that the issue with these certificates (CAs) isn't so much that they expire, but more that Microsoft will stop using them for signing and will switch to newer ones – which older computers don't recognize. On a Windows 10/Ubuntu PC, can a newer version of Ubuntu be installed The entire mechanism of Secure Boot is that when your firmware is in Secure Boot mode, it will only accept a signature made by a certificate it recognizes. So, if the newer version of Ubuntu is signed (indirectly) only by Microsoft's new 2023 CA, but your firmware doesn't have that CA as "trusted" in db , then it will not accept that version of Ubuntu. That's literally the Secure Boot feature in a nutshell. If the newer version of Ubuntu is signed by both the old and new CAs, then the firmware will accept it as long as it recognizes one of the signatures. If the newer version of Ubuntu is signed by only the old 2011 CA, then it will still be recognized. The way Secure Boot works in Ubuntu is that only a single, very generic component – Shim – is actually signed by Microsoft, and Ubuntu are free to re-use the same "old signature" version of Shim for later Ubuntu releases. (At least until they're forced to upgrade Shim due to bug fixes on something, and then the new Microsoft signing practices will apply.) I don't know which option Ubuntu will choose; and I don't know whether Microsoft will actually stop signing Windows and/or Shim with the old keys or whether they'll dual-sign. and would that affect booting Windows 10? Not in any unusual way. Installing Ubuntu won't automatically upgrade Secure Boot certificates (as far as I know). At most it'll do the usual bootloader rearrangement, adding itself at the top of the UEFI "boot order" list. Ubuntu will probably automatically include Windows in its own boot menu, although if you are using BitLocker, then you'll want to bypass that and directly choose Windows from the UEFI boot menu (as BitLocker prefers to not have any third-party signatures in the boot process) – but that's not a new problem at all, and largely unrelated to the certificate change. BitLocker's PCR7 binding has always been strict that way. On Ubuntu-only machines, can updated to a new version? Various manufacturers have published the same update through fwupd . I think Ubuntu deploys fwupd by default, so take a look at sudo fwupdmgr get-updates . As far as I know, the update for the db list (which is the "who can sign an OS" list) is completely generic – signed by Microsoft's KEK CA, not by a manufacturer-specific one – so it should be possible to apply manually even for systems which don't receive it via fwupd. Updating the KEK list though (which is the "who can issue updates" list) does require the specific manufacturer's signature (using the Platform Key that matches your firmware), but it's generally less important. As long as you apply the db update, the missing KEK update won't prevent any OS from booting. Finally, you can always set Secure Boot to custom mode and manually manage your own db and KEK , completely bypassing the signature checks. Are there ways to have a new OS, installed with Secure Boot off, to be accepted as a Secure Boot OS? If you're able to turn off Secure Boot entirely, then you're almost always able to customize Secure Boot certificates by switching it to "custom" mode (sometimes as a specific option, and sometimes implicitly by deleting the Platform Key PK ) which then allows you to update the KEK and db lists in any way you like. Or, depending on firmware, it might offer to install db entries directly from the settings screen. For example, you can manually install the latest Microsoft UEFI CA to db in order to make Secure Boot recognize a new Windows or Ubuntu version, without having to rely on a proper KEK-signed update from Microsoft or the manufacturer. Linux users often use this method to do entirely custom, in-house Secure Boot signing (especially on distributions which don't do distro-level signing). See e.g. sbsign on Arch Linux Wiki.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938583/when-current-secure-boot-certificates-expire-june-2026-can-new-os-be-installe
+
+---
+
+#### 7012. Computer issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucw3bz/computer_issues/
+
+---
+
+#### 7013. Brand new PC randomly freezes completely in games (no BSOD, auto restart) — service couldn’t reproduce it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucuj4j/brand_new_pc_randomly_freezes_completely_in_games/
+
+---
+
+#### 7014. Windows Defender Suddenly flagging my external drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucx1jf/windows_defender_suddenly_flagging_my_external/
+
+---
+
+#### 7015. Is it normal for 6 years old motherboard to develop USB and/or SATA issues?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucpdlk/is_it_normal_for_6_years_old_motherboard_to/
+
+---
+
+#### 7016. How to effeciently clear storage on my laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucsp4n/how_to_effeciently_clear_storage_on_my_laptop/
+
+---
+
+#### 7017. Code 43 on AMD Radeon RX 7600
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucsdrg/code_43_on_amd_radeon_rx_7600/
+
+---
+
+#### 7018. Green moving dots on my screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucxdhv/green_moving_dots_on_my_screen/
+
+---
+
+#### 7019. Spark inside my tower
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucxare/spark_inside_my_tower/
+
+---
+
+#### 7020. reddit post form ui - did it change or is it bugged?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucwnxn/reddit_post_form_ui_did_it_change_or_is_it_bugged/
+
+---
+
+#### 7021. Opening specifically Steam causes BSOD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucrlxk/opening_specifically_steam_causes_bsod/
+
+---
+
+#### 7022. Headphones randomly stopped outputting sound from PC, I've tried every fix and nothing has helped.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucqfim/headphones_randomly_stopped_outputting_sound_from/
+
+---
+
+#### 7023. Local Vs Cloud Reinstall
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uckoif/local_vs_cloud_reinstall/
+
+---
+
+#### 7024. why did HP smart install on my pc without me doing anything?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucyjd9/why_did_hp_smart_install_on_my_pc_without_me/
+
+---
+
+#### 7025. Cache Hierarchy Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucyb9k/cache_hierarchy_error/
+
+---
+
+#### 7026. Moving from windows 11 to TrueNAS for my DIY NAS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucyb8d/moving_from_windows_11_to_truenas_for_my_diy_nas/
+
+---
+
+#### 7027. Windows 11 with aux to Sony dav-fr1 and signa s2 delay
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucxznd/windows_11_with_aux_to_sony_davfr1_and_signa_s2/
+
+---
+
+#### 7028. got a new ssd, audio output drivers missing?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucxh32/got_a_new_ssd_audio_output_drivers_missing/
+
+---
+
+#### 7029. Wwan slot thinkpad t16 gen 1
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucxerd/wwan_slot_thinkpad_t16_gen_1/
+
+---
+
+#### 7030. Discord Randomly goes to 5000ms after I messed with network settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucwre5/discord_randomly_goes_to_5000ms_after_i_messed/
+
+---
+
+#### 7031. Having Trouble With My PC having major stutters and lag spikes!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucwqdz/having_trouble_with_my_pc_having_major_stutters/
+
+---
+
+#### 7032. Emerson TV ld190em2 Won’t Turn On — DVD trapped
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucwn4y/emerson_tv_ld190em2_wont_turn_on_dvd_trapped/
+
+---
+
+#### 7033. Arzopa monitor just stopped working....
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucwkyw/arzopa_monitor_just_stopped_working/
+
+---
+
+#### 7034. Tiny camera won't let me access internal memory
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucmjwq/tiny_camera_wont_let_me_access_internal_memory/
+
+---
+
+#### 7035. Sound device not working and showing up even after being plugged off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ucq4nq/sound_device_not_working_and_showing_up_even/
+
+---
+
+#### 7036. Is windows 10 still ok to use?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1uc51fz/is_windows_10_still_ok_to_use/
+
+---
+
+#### 7037. Is there free way to get windows security updates in windows 10 home?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u74wcd/is_there_free_way_to_get_windows_security_updates/
+
+---
+
+#### 7038. Hi, I'm newbie here and could you give me some tips for Windows 10 Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u6tptu/hi_im_newbie_here_and_could_you_give_me_some_tips/
+
+---
+
+#### 7039. [V2EX] win11 笔记本开启虚拟化安全和内存完整性两项功能么？
+
+**问题描述 / Problem Description**:
+微软在 Win11 中默认开启了基于虚拟化的安全功能（ VBS ，Virtualization-based Security ）和内存完整性（ Core Isolation ）。只要这些安全功能是开启的，Win11 底层就已经加载了 Hyper-V 的 Hypervisor ，win11 就成了已经成为了 Root Partition 。 底层加载 Hyper-V 的 Hypervisor 后会不会显著降低笔记本续航？会不会显著降低 win11 运行效率？各位是否主动关闭 Hyper—V 的 Hypervisor ，即便放弃虚拟化安全和内存完整性两项功能？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221952#reply1
+
+---
+
+#### 7040. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply63
+
+---
+
+#### 7041. [V2EX] Microsoft.Coreutils 看起来很普通啊，为毛大家都在吹
+
+**问题描述 / Problem Description**:
+翻了一下就寥寥 20 个指令。还不如来个 toolbox 集成这些： bash, awk, grep, sed, xargs, bc, tar, bzip2, less, du, chmod, chown, head, tail ， 。。 这个项目感觉像是在打秋风，但是每个人都说好，有点不理解。大家的痛点痛在何处？ 就因为它是微软做的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218647#reply6
+
+---
+
+#### 7042. [V2EX] 家里老人 90 大寿，送点什么好？
+
+**问题描述 / Problem Description**:
+家里老人 90 岁了，送点什么礼品好呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222106#reply2
+
+---
+
+#### 7043. [V2EX] 宿主机从睡眠状态唤醒后， virtualbox 虚拟机的网络状态就会异常
+
+**问题描述 / Problem Description**:
+就是会连不上网，需要现在 vbox manager 端断开网络，然后再重连才行。有人跟我是一样的情况吗？怎么解决呢。。。 谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222092#reply0
+
+---
+
+#### 7044. [V2EX] 今天 picsum 怎么啦，是不是挂了：
+
+**问题描述 / Problem Description**:
+断链
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222083#reply0
+
+---
+
+#### 7045. [V2EX] PC QQ 经典版用一段时间后发图极慢，有相同问题的吗？
+
+**问题描述 / Problem Description**:
+如题，这里的经典版指的是官网上的『怀旧版』，应该是 9.7.23.240423 这个版本，因为新版不好用，一直停在这个版本。系统则是 Windows 10 22H2 。 症状表现为，QQ 启动后短时间内发图到群聊秒发成功，一段时间后再发图片，显示发出，但手机 QQ 看不到，右键点击图片无『回复』按钮，撤回也失败。等几分钟之后，图片突然就发出去了，但发图时间点却不是几分钟前提交的时刻，而是当下。整个过程中，手机 QQ （ 9.2.27.31300 ）发图都是正常的，秒发秒收。家里宽带上行带宽也是正常的，双栈也正常，且整个卡住过程中，任务管理器没有看到 QQ 有明显的上传流量。 这可能和 QQ 经
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222077#reply2
+
+---
+
+#### 7046. [V2EX] 去年薅的一年 jetbrains 全家桶要过期了，还有啥好薅的羊毛续上吗
+
+**问题描述 / Problem Description**:
+rt,没有的话，今年连淘宝上教育优惠都没有欲望买了。jb 家是不是不卖给某个 ai 大厂，也快到头了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222062#reply3
+
+---
+
+#### 7047. [V2EX] 求推荐一些便宜的 ai 生图接口平台
+
+**问题描述 / Problem Description**:
+gpt 小香蕉等。感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222052#reply0
+
+---
+
+#### 7048. [V2EX] 长沙有 2 甲以上的医院院内能做 CTDNA 么？
+
+**问题描述 / Problem Description**:
+家人癌了，主治医生让做 CTDNA ，有商业保险，如果能在医院内做应该能报销，要求公立 2 甲以上。如果不能的话太贵了，据说 2.5w 一次，况且网上说价值不是那么大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222051#reply0
+
+---
+
+#### 7049. [V2EX] 随着 ai 的快速普及和发展，未来的人们会越来越聪明吗？
+
+**问题描述 / Problem Description**:
+50 年后的人们看现在会不会觉得是原始社会。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222047#reply10
+
+---
+
+#### 7050. [V2EX] 23 岁工作两年，越来越迷茫，不知道未来该往哪走
+
+**问题描述 / Problem Description**:
+简单介绍一下自己的情况。 25 年毕业于某一本院校计算机专业，24 年 6 月开始实习，25 年 7 月转正，同年 9 月跳槽来到现在这家公司，目前在上海做后端开发。 说实话，最近这一年越来越迷茫。 工作上没什么太大的压力，公司比较稳定，平时也有不少空闲时间。但正因为如此，反而经常会想：未来几年到底该往哪里走？ 今年 2 月开始尝试利用业余时间做产品。前前后后做了 4 个项目，上线了 2 个，最后基本都没什么反馈。现在回头看，很多想法都是自己脑补出来的伪需求，做之前觉得市场很大，做出来之后发现根本没人需要。 这段经历给我最大的感受是：创业和做产品远比我以前想象得难，也让我对市场和用户多了一些敬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222045#reply1
+
+---
+
+#### 7051. [V2EX] 有没有网易的大佬
+
+**问题描述 / Problem Description**:
+有没有网易的大佬，事情是这样的，我一个朋友是网易的，然后上周三说有事让我去帮他喂猫，我喂完后就失联了，微信不回电话一直关机，去他家里也一直没人，我也没有他家人电话，想找个网易大佬看他是否上班，然后是否可以通过登记的紧急联系人联系到他 有的话请加我的 v：eHl4LXJlZGVtcHRpb24=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222030#reply12
+
+---
+
+#### 7052. [V2EX] 4× V100 32GB SXM2 NVLink 的“128GB 显存池化”靠谱吗？
+
+**问题描述 / Problem Description**:
+最近看到一个二手/定制 AI 服务器方案： * 4× Tesla V100 SXM2 32GB * NVLink 互联 * 卖家宣传为 128GB 显存池化，类似一张 128GB 大显存卡 * 用于本地大模型、RAG 、企业私有 AI 助手 * 定制水冷，1650W 电源 想请教几个重点问题： 1. 这种 NVLink 方案在实际 LLM 推理中，真的能像一张 128GB 显存卡一样用吗？ 还是仍然需要 vLLM / llama.cpp / accelerate / tensor parallel 等框架切分？ 2. V100 现在跑 Qwen / DeepSeek / Kimi / GLM
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222028#reply3
+
+---
+
+#### 7053. [V2EX] 全栈开发在线接单
+
+**问题描述 / Problem Description**:
+全栈开发在线接单 专注解决前后端各类开发问题，承接多端定制开发与 BUG 修复，支持远程一对一技术服务，先做满意再付款，诚信合作。 前端精通 Vue2/Vue3 、React 、React Native 、Uniapp 、Taro 等主流框架，可定制 PC 网页、小程序、APP 及 Electron 桌面端；熟练运用 Nuxt.js 、Next.js 进行服务端渲染开发，掌握 WebGL 技术实现交互特效。 服务端擅长 Java 、Nest.js 、Node.js 、Golang 技术栈，可承接后端架构搭建、接口开发与管理系统开发。 合作流程规范，可协助梳理需求、出具专属技术方案，高效响应各类
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222026#reply0
+
+---
+
+#### 7054. [V2EX] Deepseek 被风控了，怎么搞大佬们？
+
+**问题描述 / Problem Description**:
+下午搞了一个分析书的 skill ，刚一运行，就提（下图），请教大佬们这种情况怎么解决？（我已经尝试重新生成的新的 API ，问题依旧）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222019#reply0
+
+---
+
+#### 7055. [V2EX] 大家给爸妈买什么医疗保险嘛
+
+**问题描述 / Problem Description**:
+最近家里老人住院, 虽然之前买了泰康医疗保险, 每年大概 2k, 但是免赔额要 1w, 还要扣完医保后的, 感觉很坑, 因为正常扣完医保+1w, 很难用到保险. 有没有好一点的推荐.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221992#reply3
+
+---
+
+#### 7056. [V2EX] PLC 实现流水灯的功能（付费）
+
+**问题描述 / Problem Description**:
+本人之前非码农，也非自动化或电气专业，不得已跨行到这个做工业自动化软件的公司，现在需要完成一个小任务，在我们公司的工业自动化平台上实现这个功能： 六个灯，从左往右，依次亮，亮 2 秒，灭之后，第 2 个灯亮。 灯亮的长度需要可以自定义； 需要设置启动、停止按钮 算是 PLC 的范畴吧，但不需要编码，平台的 PLC 编程组件是拖拉元件的方式，有点像 delphi ，我没有相关知识储备，只是近期学习了这个平台的使用以及自动化相关基础概念，但发现做这个任务完全没有头绪，把平台相关资料丢给 ai （豆包、deepseek ），ai 也是回答的让我云里雾里，操作对不上号，有没人帮忙搞搞，我可以付费咨询，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221987#reply5
+
+---
+
+#### 7057. [V2EX] 关于项目管理系统的选择,有什么推荐的吗？
+
+**问题描述 / Problem Description**:
+团队人数在 100 以内，需要开源可内网部署、支持中文。 目前看了 plane 、tuleap 、禅道。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221975#reply5
+
+---
+
+#### 7058. [V2EX] 有没有大佬收集各种行业场景的 AI 应用？
+
+**问题描述 / Problem Description**:
+各种行业并且有细分场景，比如：医疗→影像分析、预诊分诊，已经上线并销售的产品或解决方案。 我们发现自己做太难了、而且成本高，想整合一些优秀的产品做成解决方案进行销售。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221974#reply0
+
+---
+
+#### 7059. [V2EX] [非灌输焦虑] 问一下大家如果不从事互联网(技术/产品/设计/...)工作会做什么，我发现我好像啥都不会了
+
+**问题描述 / Problem Description**:
+这好像是大部分互联网从业者未来几年就要考虑的问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221970#reply8
+
+---
+
+#### 7060. [V2EX] 请教一下 现在用 visa 卡 google pay 开通 chatgpt plus 的话费用多少，就是 20 刀吗，还是需要附加手续费税费 ？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221969#reply2
+
+---
+
+#### 7061. [V2EX] 各位大佬，有没有用 mac a2259 的(最后一代 intel)，升级了 macos26？或者升级了 macos15? 体验如何？
+
+**问题描述 / Problem Description**:
+消费降级，a2259 再用 2 年了，现在还在 macos13.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221963#reply2
 
 ---
