@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6290**
+**总计条目 / Total entries: 6323**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -89696,5 +89696,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221943#reply21
+
+---
+
+#### 6291. If anyone wants to print with the Epson L355 via usb or wifi, configure the printer with the L310 driver
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udm5zi/if_anyone_wants_to_print_with_the_epson_l355_via/
+
+---
+
+#### 6292. USB4STREAM Merged For Linux 7.2 To Quickly Send Data Between USB4 Connected Systems
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udeeef/usb4stream_merged_for_linux_72_to_quickly_send/
+
+---
+
+#### 6293. RSS Guard (fast, lightweight, and customizable feed reader) 5.20
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udlzzi/rss_guard_fast_lightweight_and_customizable_feed/
+
+---
+
+#### 6294. New Hygon Model 8 "Suzhou" x86 CPU Support Appears In The GCC Compiler
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udg7ew/new_hygon_model_8_suzhou_x86_cpu_support_appears/
+
+---
+
+#### 6295. Linux 8250/16550 UART Serial Driver Seeing Some Modernization Work In 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udej6t/linux_825016550_uart_serial_driver_seeing_some/
+
+---
+
+#### 6296. Plasma 6.7.1 complete changelog
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uddydz/plasma_671_complete_changelog/
+
+---
+
+#### 6297. LibreOffice Conference and External Events – TDF Annual Report 2025
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udb08e/libreoffice_conference_and_external_events_tdf/
+
+---
+
+#### 6298. Network shares: still talking about them in 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ud1qe1/network_shares_still_talking_about_them_in_2026/
+
+---
+
+#### 6299. A new life for NetBase
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udk4q7/a_new_life_for_netbase/
+
+---
+
+#### 6300. Why Apache OpenOffice on Linux needs Desktop Integration installed separately for menu shortcuts
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udftt8/why_apache_openoffice_on_linux_needs_desktop/
+
+---
+
+#### 6301. [V2EX] debian+gnome 开机后可以不显示用户列表 只需要输入密码 像 mac 那样么？有什么插件实现么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222124#reply2
+
+---
+
+#### 6302. [V2EX] 腾讯会议 Linux 版使用 nvidia 独显无法驱动视频功能
+
+**问题描述 / Problem Description**:
+腾讯会议 linux 版本若想正常使用摄像头渲染画面，以及正常渲染视频（别人分享桌面等场景），好像只能使用 intel 核显。 当我切换到独显直连，视频窗口就完全黑屏了。但是 intel 核显和 nvidia 独显混合输出时，我感觉我的 gnome 桌面始终不够流畅，因为要接第二块屏幕，内屏只能交给 intel ，外接屏又被 nvidia 接管，最终渲染起来就卡卡的…… 好难受，大家有解决的思路吗？ debian13 + gnome48 + wayland 环境，腾讯会议 linux 版，版本 V3.26.10.401
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1220807#reply10
+
+---
+
+#### 6303. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply4
+
+---
+
+#### 6304. [V2EX] 关于对中国经济的预测
+
+**问题描述 / Problem Description**:
+关于对中国经济的预测 核心的出发点： 这个命题很大、很复杂，没有人能给出答案。 但是，合适的分析、预测方法，可以让我们逼近答案，起码可以了解各种可能性。 复杂预测问题，简单的定性分析优于简单的定量分析。 以下是我的分析框架，供大家参考。 一、方法论。 1 、因果律：根据事物的规律进行预测，而非简单的根据数据做线性外推。 2 、辩证法：从主要矛盾、次要矛盾来预测，动态的考虑问题，而非静态的。 3 、比较研究：同日本、韩国等的经济发展模式类似的国家做比较研究。 二、人（偏悲观） 经济发展首先要考虑人的因素，包括人的数量、质量等等。当然 ai 会如何影响人这一因素，还有待观察，暂不纳入分析。 反面考
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222391#reply5
+
+---
+
+#### 6305. [V2EX] Claude 又挂了， 1400 一个月就这？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222364#reply11
+
+---
+
+#### 6306. [V2EX] [踩坑提醒] 还在用 Next.js 15.0.3 + React 19 的朋友，建议检查下依赖
+
+**问题描述 / Problem Description**:
+最近在盘点手头前端项目的依赖，顺手做了一波安全审计，惊出一身冷汗。发出来给各位尝鲜 Next 15 的老哥提个醒。 省流（ TL;DR ）： 如果你项目 package.json 里的依赖刚好卡在以下版本组合： next : "15.0.3" react : "19.0.0" react-dom : "19.0.0" 建议立刻、马上安排升级。 隐患背景 前阵子开新坑，为了吃 React 19 的红利，项目初期直接把依赖锁在了上面的版本。 但实际上这个特定版本的组合存在非常严重的安全漏洞。在特定的服务端渲染（ SSR ）或 Server Actions 场景下，恶意攻击者可以通过构造 paylo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222357#reply0
+
+---
+
+#### 6307. [V2EX] 押注 DeepSeek，再次出发做 Agent
+
+**问题描述 / Problem Description**:
+前言 过去一年我做了不少 Agent： Blade Code （类 Claude Code 的 CLI ）、 Blade Agent SDK （抽取出来的通用能力集）。它们都跑在 Claude 、GPT 这类海外模型上。 但有件事一直在我脑子里：DeepSeek 这么便宜、这么能打，我自己却没有一个顺手的、围绕它打磨的终端编码工具。 于是有了 Orca —— 一个用 Rust 写的、 DeepSeek 原生 的终端 Coding Agent 。 GitHub 地址： https://github.com/echoVic/blade-deepseek npm install -g @blade-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222331#reply4
+
+---
+
+#### 6308. [V2EX] 为了省点 Claude Code 钱，研究到了凌晨 3 点
+
+**问题描述 / Problem Description**:
+昨天晚上，我突然觉得 Claude Code 有点贵。 当然，不是昨天才觉得。 是每次看到额度快见底的时候，都会有一种熟悉的味道。 就像穷的时候看着钱包里最后的碎银几两。 总觉得还能再撑两天。 于是我开始思考一个问题。 有没有什么办法，可以让 Claude Code Token 消耗的慢一些？ 作为一个从小穷过的人，我有个不太好的习惯。 就是当钱要花出去的时候，第一反应不是扫码， 而是看看能不能，晚一点再支付。 这时候，窗外的一抹夕阳，照射在我脸上，多么高光的时刻。 顶着不下班的幌子，启动了我那不太优秀，但爱钻研学习的大脑。 第一个想法： 用 Claude code ，主要用的还是 Opus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222317#reply21
+
+---
+
+#### 6309. [V2EX] 做过后端的人来说说重构迁移数据库难度大吗
+
+**问题描述 / Problem Description**:
+业务耦合性高，基本就是一坨屎，而且还是国内不入流的技术栈 c#, 现在要想重构，先从数据库迁移开始，之前没干过迁移这种事情， 这事情难度大吗，现在基本就让 AI 搞，也不知道最终会不会搞好。 人和库有一个能跑就行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222278#reply93
+
+---
+
+#### 6310. [V2EX] 焦虑，有了 AI 却不知道做点什么
+
+**问题描述 / Problem Description**:
+用 AI 把手头没时间搞的的遗留项目搞定了，但是终究不是能产生实际收益的“玩具” 做了个 APP ，发现上架流程繁琐，涉及社交内容还需要至少 100W 的认缴金 工具类自己目前也没发现什么痛点 真不知道干嘛了，CODEX 、Claude 都订阅了，周限额也没用完过 感觉确实是守着金锄头 憋得慌，不知道有没有同感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222276#reply12
+
+---
+
+#### 6311. [V2EX] 100 刀的 claude code 和 codex 如何选择？
+
+**问题描述 / Problem Description**:
+一直用的是 codex plus 套餐，最近想再开一个 100 刀的套餐，不知道选 codex 还是 claude 。双持过得给点建议。 1 、我的项目之前都是 codex 做的，如果再开一个 100 刀的号，可以在 codex 中共享会话上下文，是不是更有优势？ 2 、codex 和 claude 能力差距是否明显？ 3 、之前没用过 claude code ，我知道有 cli 和桌面版的应用，你们平时说的 claude code 是命令行还是桌面版？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222256#reply41
+
+---
+
+#### 6312. [V2EX] 问一个 Agent 达到 limit 后的操作问题
+
+**问题描述 / Problem Description**:
+比如临睡前达到 limit 后，是 1 ）开着终端，等到明天早上继续 2 ）关掉终端，明天/resume 3 ）关掉终端，明天不 resume 继续 服务器端的缓存过了 8 小时还存在吗？ 另外，如果达到 limit ，把网络断了一段时间，服务器端检测不到 client 还活着，会主动把缓存清掉吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222251#reply6
+
+---
+
+#### 6313. [V2EX] Cursor 审计发现： AI 编程基准测试成绩大部分是"作弊"来的， Opus 4.8 有 63% 的解法是抄的
+
+**问题描述 / Problem Description**:
+https://cursor.com/blog/reward-hacking-coding-benchmarks Cursor 团队最近对自己的 AI 编程模型做了审计，结果发现—— 基准测试的高分很大程度上是"作弊"来的 。 具体数据： 在 SWE-bench Pro 上，Opus 4.8 Max 的 63% 成功解决方案，是直接从公开来源（ GitHub issues 、commit messages 等）检索修正，而不是 AI 自己推导出来的 当他们把 git 历史隔离、限制网络访问后，Opus 4.8 Max 得分从 87.1% 暴跌到 73.0% Composer 2.5 更惨，从
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222216#reply28
+
+---
+
+#### 6314. [V2EX] 开发者周报 260623
+
+**问题描述 / Problem Description**:
+2026.06.13–06.23 开发者周报核心要点 🤖 AI 行业重大变动 Anthropic Fable 5 、Mythos 5 受美国出口管制全面下线，业务需回退至旧版模型；国内 Moonshot K2.7 Code 、智谱 GLM-5.2 两款开源代码模型发布，支持本地部署。 ⚠️ 线上项目紧急待办 Node.js 全版本推送安全补丁，共修复 12 个 CVE 漏洞，含 2 个高危，建议立即升级； Chrome 6 月 30 日永久移除 MV2 扩展支持，广告拦截类插件将失效，扩展项目务必完成 MV3 迁移； Gemini 两款图像预览模型 6 月 25 日关停，相关业务需切换新版图像
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222214#reply4
+
+---
+
+#### 6315. [V2EX] 顺丰查历史订单要这么久，，，
+
+**问题描述 / Problem Description**:
+昨天想寄点东西，想着看下之前（去年）寄的订单多少钱，结果发现三个月订单 只能在历史订单查询，这也还好 逆天操作历史订单 每天只允许查三次 而且一次查询要几个小时候发邮件，这是代码屎山上雕花的结果吗？还是说有啥原因不得不这么做呢？历史订单页 [img] https://i.imgur.com/1YWYbLG.jpeg [/img] 查询记录 [img] https://i.imgur.com/Z0sbdG4.jpeg [/img] 结果 [img] https://i.imgur.com/AnbFSuB.jpeg [/img]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222190#reply18
+
+---
+
+#### 6316. [V2EX] 互联网大厂裁员
+
+**问题描述 / Problem Description**:
+最近这波貌似裁了很多，有没有 v 友分享下自己知道的情况呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222187#reply28
+
+---
+
+#### 6317. [V2EX] 除了 chartgpt、claude code，还有其他好用的 AI 推荐吗？
+
+**问题描述 / Problem Description**:
+主要是为了软件开发，有好的 AI 的帮忙推荐下，感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222147#reply16
+
+---
+
+#### 6318. [V2EX] 借助 claude code 的帮助写了个 运维 自动化巡检工具
+
+**问题描述 / Problem Description**:
+基于 SSH 登陆，实现对网络设备、各 Linux 发行版的自动化巡检，并可定制 word 版的巡检报告。也可基于 AI 来对巡检结果进行评判。有需要的试试看 https://github.com/neowong/inspection-rust
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222129#reply14
+
+---
+
+#### 6319. [V2EX] 有没有什么 claude desktop app 多账号管理和切换工具
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222125#reply9
+
+---
+
+#### 6320. [V2EX] GLM 5.2, Design Arena(by The Intelligence Company) 榜单居然冲到第一了
+
+**问题描述 / Problem Description**:
+https://www.designarena.ai/leaderboard/code
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222088#reply9
+
+---
+
+#### 6321. [V2EX] 小米股价没眼看； Codex-MIMO-Shim 还是叫 Codex-Shim 吧。
+
+**问题描述 / Problem Description**:
+一个让 codex-cli 能够支持 OpenAI-SDK 的本地兼容层。 新特性： Key 自动轮换机制（半小时一次，太短 Cache 丢失） 客户端发送能力增强（自动重试 429 ） 内置 mimo-free 模型 全新 UI 界面版本 实时调温度 API keys for custom providers and the MiMo Free fingerprint are stored in the OS keyring and are not written to disk. Provider-to-listener bindings are managed from the Dash
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222071#reply3
+
+---
+
+#### 6322. [V2EX] claude code 这几天为啥总是 Waiting for API response
+
+**问题描述 / Problem Description**:
+从前几天开始，claude code 每次对话都会在干活干一半的时候 Waiting for API response 这是什么情况？频率已经是每次对话必现的了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222065#reply7
+
+---
+
+#### 6323. [V2EX] qwen 也用上 DeepSeek 的缓存技术了。我这居然有 90%了，套餐是 coding plan 的 qwen3.7 plus
+
+**问题描述 / Problem Description**:
+coding plan 的成本降下来后会不会向公众开放?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222061#reply18
 
 ---

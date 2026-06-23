@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1053**
+**总计条目 / Total entries: 1081**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -17712,5 +17712,562 @@ Update to the latest Apple software version via System Settings > Software Updat
 
 **参考链接 / References**:
 - https://support.apple.com/en-us/127557
+
+---
+
+#### 1054. CVE-2005-2713
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to create arbitrary world-writable files as root by specifying an alternate file in the password database option.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
+- http://www.osvdb.org/23646
+
+---
+
+#### 1055. CVE-2005-2714
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+passwd in Directory Services in Mac OS X 10.3.x before 10.3.9 and 10.4.x before 10.4.5 allows local users to overwrite arbitrary files via a symlink attack on the .pwtmp.[PID] temporary file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=400
+- http://www.osvdb.org/23647
+
+---
+
+#### 1056. CVE-2005-3706
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in LibSystem in Mac OS X 10.4 through 10.4.5 allows context-dependent attackers to execute arbitrary code by causing an application that uses LibSystem to request a large amount of memory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23644
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1057. CVE-2005-3712
+
+**严重程度 / Severity**: N/A | CVSS: 6.5
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in rsync in Mac OS X 10.4 through 10.4.5 allows remote authenticated users to execute arbitrary code via long extended attributes.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23648
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1058. CVE-2005-3782
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Mac OS X 10.4.3 up to 10.4.6, when loginwindow uses the "Name and password" setting, and the "Show the Restart, Sleep, and Shut Down buttons" option is disabled, allows users with physical access to bypass login and reboot the system by entering ">restart", ">power", or ">shutdown" sequences after the username.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.osvdb.org/20776.
+
+**参考链接 / References**:
+- http://www.osvdb.org/20776
+- http://www.osvdb.org/20776
+
+---
+
+#### 1059. CVE-2006-0383
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+IPSec when used with VPN networks in Mac OS X 10.4 through 10.4.5 allows remote attackers to cause a denial of service (application crash) via unspecified vectors involving the "incorrect handling of error conditions".
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23643
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1060. CVE-2006-0384
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+automount in Mac OS X 10.4.5 and earlier allows remote file servers to cause a denial of service (unresponsiveness) or execute arbitrary code via unspecified vectors that cause automount to "mount file systems with reserved names".
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015709
+- http://www.osvdb.org/23640
+
+---
+
+#### 1061. CVE-2006-0386
+
+**严重程度 / Severity**: N/A | CVSS: 1.7
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+FileVault in Mac OS X 10.4.5 and earlier does not properly mount user directories when creating a FileVault image, which allows local users to access protected files when FileVault is enabled.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23642
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1062. CVE-2006-0388
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Safari in Mac OS X 10.3 before 10.3.9 and 10.4 before 10.4.5 allows remote attackers to redirect users to local files and execute arbitrary JavaScript via unspecified vectors involving HTTP redirection to local resources.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015713
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1063. CVE-2006-0389
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in Syndication (Safari RSS) in Mac OS X 10.4 through 10.4.5 allows remote attackers to execute arbitrary JavaScript via unspecified vectors involving RSS feeds.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23649
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1064. CVE-2006-0391
+
+**严重程度 / Severity**: N/A | CVSS: 1.7
+**受影响产品 / Affected Products**: apple:mac_os_x
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in the BOM framework in Mac OS X 10.x before 10.3.9 and 10.4 before 10.4.5 allows user-assisted attackers to overwrite or create arbitrary files via an archive that is handled by BOMArchiveHelper.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://www.idefense.com/intelligence/vulnerabilities/display.php?id=399
+- http://www.osvdb.org/23641
+
+---
+
+#### 1065. CVE-2006-0387
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Stack-based buffer overflow in Safari in Mac OS X 10.4.5 and earlier, and 10.3.9 and earlier, allows remote attackers to execute arbitrary code via unspecified vectors involving a web page with crafted JavaScript, a different vulnerability than CVE-2005-4504.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/security-announce/2006/Mar/msg00000.html
+- http://secunia.com/advisories/19064
+- http://securitytracker.com/id?1015713
+- http://www.kb.cert.org/vuls/id/176732
+
+---
+
+#### 1066. CVE-2006-1166
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+**受影响产品 / Affected Products**: monotone:monotone
+
+**漏洞描述 / Description**:
+Monotone 0.25 and earlier, when a user creates a file in a directory called "mt", and when checking out that file on a case-insensitive file system such as Windows or Mac OS X, places the file into the "MT" bookkeeping directory, which could allow context-dependent attackers to execute arbitrary Lua programs as the user running monotone.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.gnu.org/archive/html/monotone-devel/2006-03/msg00062.html.
+
+**参考链接 / References**:
+- http://lists.gnu.org/archive/html/monotone-devel/2006-03/msg00062.html
+- http://secunia.com/advisories/19260
+- http://www.securityfocus.com/bid/17139
+- http://www.vupen.com/english/advisories/2006/0990
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/25294
+
+---
+
+#### 1067. CVE-2006-1220
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Integer overflow in the mach_msg_send function in the kernel for Mac OS X might allow local users to execute arbitrary code via unknown attack vectors related to a large message header size, which leads to a heap-based buffer overflow.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.felinemenace.org/~nemo/.
+
+**参考链接 / References**:
+- http://www.felinemenace.org/~nemo/
+- http://www.osvdb.org/28453
+- http://www.securityfocus.com/bid/17056
+- http://www.felinemenace.org/~nemo/
+- http://www.osvdb.org/28453
+
+---
+
+#### 1068. CVE-2006-0401
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Mac OS X before 10.4.6, when running on an Intel-based computer, allows attackers with physical access to bypass the firmware password and log on in Single User Mode via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303567.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303567
+- http://secunia.com/advisories/19462
+- http://securitytracker.com/id?1015859
+- http://www.osvdb.org/24399
+- http://www.securityfocus.com/bid/17364
+
+---
+
+#### 1069. CVE-2006-1981
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in Java InputMethods on Mac OS X 10.4.5 may cause InputMethods to send input events for secure fields to the wrong text field, which might reveal the password to others who can view the screen.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303658.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303658
+- http://www.vupen.com/english/advisories/2006/1398
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/26167
+- http://docs.info.apple.com/article.html?artnum=303658
+- http://www.vupen.com/english/advisories/2006/1398
+
+---
+
+#### 1070. CVE-2006-1982
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in the LZWDecodeVector function in Mac OS X before 10.4.6, as used in applications that use ImageIO or AppKit, allows remote attackers to execute arbitrary code via crafted TIFF images.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303411.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303411
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://www.osvdb.org/31837
+
+---
+
+#### 1071. CVE-2006-1983
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Multiple heap-based buffer overflows in Mac OS X 10.4.6 and earlier allow remote attackers to cause a denial of service and possibly execute arbitrary code via the (1) PredictorVSetField function for TIFF or (2) CFAllocatorAllocate function for GIF, as used in applications that use ImageIO or AppKit.  NOTE: the BMP vector has been re-assigned to CVE-2006-2238 because it affects a separate product family.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://securitytracker.com/id?1016067
+- http://www.osvdb.org/24821
+
+---
+
+#### 1072. CVE-2006-1984
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the _cg_TIFFSetField function in Mac OS X 10.4.6 and earlier, as used in applications that use ImageIO or AppKit, allows remote attackers to cause a denial of service (application crash) via a crafted TIFF image that triggers a null dereference.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://www.security-protocols.com/modules.php?name=News&file=article&sid=3233
+- http://www.security-protocols.com/sp-x29-advisory.php
+
+---
+
+#### 1073. CVE-2006-1985
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+**受影响产品 / Affected Products**: apple:safari, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Heap-based buffer overflow in BOM BOMArchiveHelper 10.4 (6.3) Build 312, as used in Mac OS X 10.4.6 and earlier, allows user-assisted attackers to execute arbitrary code via a crafted archive (such as ZIP) that contains long path names, which triggers an error in the BOMStackPop function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00003.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00003.html
+- http://secunia.com/advisories/19686
+- http://secunia.com/advisories/20077
+- http://securitytracker.com/id?1016082
+- http://www.osvdb.org/24819
+
+---
+
+#### 1074. CVE-2006-1466
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:xcode
+
+**漏洞描述 / Description**:
+Xcode Tools before 2.3 for Mac OS X 10.4, when running the WebObjects plugin, allows remote attackers to access or modify WebObjects projects through a network service.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/May/msg00004.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/May/msg00004.html
+- http://secunia.com/advisories/20267
+- http://securitytracker.com/id?1016143
+- http://www.osvdb.org/25889
+- http://www.securityfocus.com/bid/18091
+
+---
+
+#### 1075. CVE-2006-2702
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: wordpress:wordpress
+
+**漏洞描述 / Description**:
+vars.php in WordPress 2.0.2, possibly when running on Mac OS X, allows remote attackers to spoof their IP address via a PC_REMOTE_ADDR HTTP header, which vars.php uses to redefine $_SERVER['REMOTE_ADDR'].
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://retrogod.altervista.org/wordpress_202_xpl.html.
+
+**参考链接 / References**:
+- http://retrogod.altervista.org/wordpress_202_xpl.html
+- http://secunia.com/advisories/20271
+- http://secunia.com/advisories/20608
+- http://www.gentoo.org/security/en/glsa/glsa-200606-08.xml
+- http://www.osvdb.org/25935
+
+---
+
+#### 1076. CVE-2006-3452
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: adobe:acrobat_reader, adobe:acrobat
+
+**漏洞描述 / Description**:
+Adobe Reader and Acrobat 6.0.4 and earlier, on Mac OSX, has insecure file and directory permissions, which allows local users to gain privileges by overwriting program files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/21016.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/21016
+- http://securitytracker.com/id?1016473
+- http://www.adobe.com/support/security/bulletins/apsb06-08.html
+- http://www.osvdb.org/27157
+- http://www.securityfocus.com/bid/18945
+
+---
+
+#### 1077. CVE-2006-3669
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: mercury_messenger:mercury_messenger
+
+**漏洞描述 / Description**:
+Mercury Messenger, possibly 1.7.1.1 and other versions, when running on a multi-user Mac OS X platform, stores chat logs with world-readable permissions within the /Users directory, which allows local users to read the chat logs from other users.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.securityfocus.com/archive/1/440243/100/0/threaded.
+
+**参考链接 / References**:
+- http://www.securityfocus.com/archive/1/440243/100/0/threaded
+- http://www.securityfocus.com/bid/19005
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/27767
+- http://www.securityfocus.com/archive/1/440243/100/0/threaded
+- http://www.securityfocus.com/bid/19005
+
+---
+
+#### 1078. CVE-2006-0395
+
+**严重程度 / Severity**: N/A | CVSS: 5.1
+**受影响产品 / Affected Products**: apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+The Download Validation in Mail in Mac OS X 10.4 does not properly recognize attachment file types to warn a user of an unsafe type, which allows user-assisted remote attackers to execute arbitrary code via crafted file types.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=303382.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=303382
+- http://lists.apple.com/archives/client-management/2006/Mar/msg00030.html
+- http://secunia.com/advisories/19064
+- http://www.osvdb.org/23645
+- http://www.securityfocus.com/bid/16907
+
+---
+
+#### 1079. CVE-2006-3506
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: apple:xsan, apple:mac_os_x, apple:mac_os_x_server
+
+**漏洞描述 / Description**:
+Buffer overflow in the Xsan Filesystem driver on Mac OS X 10.4.7 and OS X Server 10.4.7 allows local users with Xsan write access, to execute arbitrary code via unspecified vectors related to "processing a path name."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=304188.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=304188
+- http://secunia.com/advisories/21551
+- http://securitytracker.com/id?1016711
+- http://www.kb.cert.org/vuls/id/737204
+- http://www.osvdb.org/27994
+
+---
+
+#### 1080. CVE-2006-4392
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: apple:mac_os_x, next:openstep
+
+**漏洞描述 / Description**:
+The Mach kernel, as used in operating systems including (1) Mac OS X 10.4 through 10.4.7 and (2) OpenStep before 4.2, allows local users to gain privileges via a parent process that forces an exception in a setuid child and uses Mach exception ports to modify the child's thread context and task address space in a way that causes the child to call a parent-controlled function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html.
+
+**参考链接 / References**:
+- http://lists.apple.com/archives/security-announce/2006/Sep/msg00002.html
+- http://secunia.com/advisories/22187
+- http://securityreason.com/securityalert/1663
+- http://securitytracker.com/id?1016954
+- http://www.kb.cert.org/vuls/id/838404
+
+---
+
+#### 1081. CVE-2006-5330
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: adobe:flash_player
+
+**漏洞描述 / Description**:
+CRLF injection vulnerability in Adobe Flash Player plugin 9.0.16 and earlier for Windows, 7.0.63 and earlier for Linux, 7.x before 7.0 r67 for Solaris, and before 9.0.28.0 for Mac OS X, allows remote attackers to modify HTTP headers of client requests and conduct HTTP Request Splitting attacks via CRLF sequences in arguments to the ActionScript functions (1) XML.addRequestHeader and (2) XML.contentType.  NOTE: the flexibility of the attack varies depending on the type of web browser being used.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://docs.info.apple.com/article.html?artnum=305214.
+
+**参考链接 / References**:
+- http://docs.info.apple.com/article.html?artnum=305214
+- http://lists.apple.com/archives/security-announce/2007/Mar/msg00002.html
+- http://lists.suse.com/archive/suse-security-announce/2006-Dec/0006.html
+- http://secunia.com/advisories/22467
+- http://secunia.com/advisories/23324
 
 ---

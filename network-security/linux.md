@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2106**
+**总计条目 / Total entries: 2125**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -33444,5 +33444,322 @@ The unarchive internal module's archive extraction commands perform no code-leve
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2491214
+
+---
+
+#### 2107. CVE-2026-55655 - openssh: Local MITM of X11 forwarding via abstract UNIX socket pre-binding in Red…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Local MITM of X11 forwarding via abstract UNIX socket pre-binding in Red Hat Enterprise Linux OpenSSH client versions. Bugzilla: 2462250
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462250
+
+---
+
+#### 2108. CVE-2026-55654 - openssh: Heap out-of-bounds read in Red Hat Enterprise Linux versions of OpenSSH…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Heap out-of-bounds read in Red Hat Enterprise Linux versions of OpenSSH GSSAPI indicator cleanup due to missing NULL sentinel termination. Bugzilla: 2462493
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462493
+
+---
+
+#### 2109. CVE-2026-55653 - openssh: Double free in Red Hat Enterprise Linux versions of OpenSSH DH-GEX client…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Double free in Red Hat Enterprise Linux versions of OpenSSH DH-GEX client path during FIPS known-group validation leads to client-side denial of service. Bugzilla: 2462351
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462351
+
+---
+
+#### 2110. CVE-2026-10601 - grafana: tempo: loki: Tempo and Loki Datasource Plugins: Information disclosure…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] grafana: tempo: loki: Tempo and Loki Datasource Plugins: Information disclosure and unauthorized actions via path traversal. Bugzilla: 2491359
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491359
+
+---
+
+#### 2111. CVE-2026-56412 - libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections. Bugzilla: 2491203
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491203
+
+---
+
+#### 2112. CVE-2026-56411 - expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution. Bugzilla: 2491202
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491202
+
+---
+
+#### 2113. CVE-2026-56410 - libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution.. Bugzilla: 2491181
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491181
+
+---
+
+#### 2114. CVE-2026-56405 - libexpat: libexpat: Information disclosure and arbitrary code execution via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Information disclosure and arbitrary code execution via integer overflow. Bugzilla: 2491188
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491188
+
+---
+
+#### 2115. CVE-2026-56403 - libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts. Bugzilla: 2491186
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491186
+
+---
+
+#### 2116. CVE-2026-56378 - Magick.NET: ImageMagick: Denial of Service and Information Disclosure via crafted…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Magick.NET: ImageMagick: Denial of Service and Information Disclosure via crafted PCD file. Bugzilla: 2491158
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491158
+
+---
+
+#### 2117. CVE-2026-12799 - litellm: BerriAI litellm: Information Disclosure via improper authorization in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Information Disclosure via improper authorization in ui_view_users function. Bugzilla: 2491141
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491141
+
+---
+
+#### 2118. CVE-2026-12798 - litellm: BerriAI litellm: Server-Side Request Forgery via spec_path argument…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Server-Side Request Forgery via spec_path argument manipulation. Bugzilla: 2491144
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491144
+
+---
+
+#### 2119. CVE-2026-12797 - litellm: BerriAI litellm: Incorrect authorization via prompt manipulation
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Incorrect authorization via prompt manipulation. Bugzilla: 2491142
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491142
+
+---
+
+#### 2120. CVE-2026-12796 - litellm: litellm: Session expiration vulnerability in SSO Authentication Flow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: litellm: Session expiration vulnerability in SSO Authentication Flow. Bugzilla: 2491143
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491143
+
+---
+
+#### 2121. CVE-2026-12774 - litellm: BerriAI litellm: Server-Side Request Forgery in MCP Server Connection…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Server-Side Request Forgery in MCP Server Connection Testing. Bugzilla: 2491113
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491113
+
+---
+
+#### 2122. CVE-2026-52911 - kernel: ksmbd: scope conn->binding slowpath to bound sessions only
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: scope conn->binding slowpath to bound sessions only. Bugzilla: 2491128
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491128
+
+---
+
+#### 2123. CVE-2026-52910 - kernel: bpf: Free reuseport cBPF prog after RCU grace period
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Free reuseport cBPF prog after RCU grace period. Bugzilla: 2490779
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490779
+
+---
+
+#### 2124. CVE-2026-52910
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+bpf: Free reuseport cBPF prog after RCU grace period.
+
+Eulgyu Kim reported the splat below with a repro. [0]
+
+The repro sets up a UDP reuseport group with a cBPF prog and
+replaces it with a new one while another thread is sending
+a UDP packet to the group.
+
+The reuseport prog is freed by sk_reuseport_prog_free().
+bpf_prog_put() is called for "e"BPF prog to destruct through
+multiple stages while cBPF prog is freed immediately by
+bpf_release_orig_filter() and bpf_prog_free().
+
+If a reuseport prog is detached from the setsockopt() path
+(reuseport_attach_prog() or reuseport_detach_prog()),
+sk_reuseport_prog_free() is called without waiting for RCU
+readers to complete, resulting in various bugs.
+
+Let's defer freeing the reuseport cBPF prog after one RCU
+grace period.
+
+Note "e"BPF prog is safe as is unless the fast path starts
+to touch fields destroyed in bpf_prog_put_deferred() and
+__bpf_prog_put_noref().
+
+[0]:
+BUG: KASAN: vmalloc-out-of-bounds in reuseport_select_sock+0xedc/0x1220 net/core/sock_reuseport.c:596
+Read of size 4 at addr ffffc9000051e004 by task slowme/10208
+CPU: 6 UID: 1000 PID: 10208 Comm: slowme Not tainted 7.0.0-geb7ac95ff75e #32 PREEMPT(full)
+Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <IRQ>
+ dump_stack_lvl+0xe8/0x150 lib/dump_stack.c:120
+ print_address_description mm/kasan/report.c:378 [inline]
+ print_report+0xca/0x240 mm/kasan/report.c:482
+ kasan_report+0x118/0x150 mm/kasan/report.c:595
+ reuseport_select_sock+0xedc/0x1220 net/core/sock_reuseport.c:596
+ udp4_lib_lookup2+0x3bc/0x950 net/ipv4/udp.c:495
+ __udp4_lib_lookup+0x768/0xe20 net/ipv4/udp.c:723
+ __udp4_lib_lookup_skb+0x297/0x390 net/ipv4/udp.c:752
+ __udp4_lib_rcv+0x1312/0x2620 net/ipv4/udp.c:2752
+ ip_protocol_deliver_rcu+0x282/0x440 net/ipv4/ip_input.c:207
+ ip_local_deliver_finish+0x3bb/0x6f0 net/ipv4/ip_input.c:241
+ NF_HOOK+0x30c/0x3a0 include/linux/netfilter.h:318
+ NF_HOOK+0x30c/0x3a0 include/linux/netfilter.h:318
+ __netif_receive_skb_one_core net/core/dev.c:6181 [inline]
+ __netif_receive_skb net/core/dev.c:6294 [inline]
+ process_backlog+0xaa4/0x1960 net/core/dev.c:6645
+ __napi_poll+0xae/0x340 net/core/dev.c:7709
+ napi_poll net/core/dev.c:7772 [inline]
+ net_rx_action+0x5d7/0xf50 net/core/dev.c:7929
+ handle_softirqs+0x22b/0x870 kernel/softirq.c:622
+ do_softirq+0x76/0xd0 kernel/softirq.c:523
+ </IRQ>
+ <TASK>
+ __local_bh_enable_ip+0xf8/0x130 kernel/softirq.c:450
+ local_bh_enable include/linux/bottom_half.h:33 [inline]
+ rcu_read_unlock_bh include/linux/rcupdate.h:924 [inline]
+ __dev_queue_xmit+0x1dd7/0x3710 net/core/dev.c:4890
+ neigh_output include/net/neighbour.h:556 [inline]
+ ip_finish_output2+0xca9/0x1070 net/ipv4/ip_output.c:237
+ NF_HOOK_COND include/linux/netfilter.h:307 [inline]
+ ip_output+0x29f/0x450 net/ipv4/ip_output.c:438
+ ip_send_skb+0x45/0xc0 net/ipv4/ip_output.c:1508
+ udp_send_skb+0xb04/0x1510 net/ipv4/udp.c:1195
+ udp_sendmsg+0x1a71/0x2350 net/ipv4/udp.c:1485
+ sock_sendmsg_nosec net/socket.c:727 [inline]
+ __sock_sendmsg net/socket.c:742 [inline]
+ __sys_sendto+0x554/0x680 net/socket.c:2206
+ __do_sys_sendto net/socket.c:2213 [inline]
+ __se_sys_sendto net/socket.c:2209 [inline]
+ __x64_sys_sendto+0xde/0x100 net/socket.c:2209
+ do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+ do_syscall_64+0x160/0xf80 arch/x86/entry/syscall_64.c:94
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x415a2d
+Code: b3 66 2e 0f 1f 84 00 00 00 00 00 66 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007f6bc31e41e8 EFLAGS: 00000212 ORIG_RAX: 000000000000002c
+RAX: ffffffffffffffda RBX: 00007f6bc31e4cdc RCX: 0000000000415a2d
+RDX: 0000000000000001 RSI: 00007f6bc31e421f RDI: 0000000000000003
+RBP: 00007f6bc31e4240 R08: 00007f6bc31e4220 R09: 0000000000000010
+R10: 0000000000000000 R11: 
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/08264d5bba0bdd3a79bc2984fee09286aba0c4eb
+- https://git.kernel.org/stable/c/18fc650ccd7fe3376eca89203668cfb8268f60df
+- https://git.kernel.org/stable/c/298db6167f81e9c470a57cf652e4e47757b4293e
+- https://git.kernel.org/stable/c/87dfb977bdb6eaa47e9993a34e18f44970f88b1f
+- https://git.kernel.org/stable/c/90e47dc5c572d1c73971ac51c7428803f42b78eb
+
+---
+
+#### 2125. CVE-2026-12249
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+
+**漏洞描述 / Description**:
+An issue was discovered in Canonical ADSys upstream versions through v0.16.2. During Active Directory Certificate Services (AD CS) certificate auto-enrollment via the vendored Samba client script (internal/policies/certificate/python/vendor_samba/gp/gp_cert_auto_enroll_ext.py), ADSys utilizes a plaintext HTTP connection (http://) instead of a secure HTTPS connection (https://) to request the CA certificate from the Active Directory Certificate Services server (GetCACert). An unauthenticated network attacker positioned between the managed Ubuntu host and the configured AD CS CA hostname can conduct a Man-in-the-Middle (MITM) attack. By intercepting the plaintext HTTP request, the attacker can supply an arbitrary, attacker-controlled Root CA certificate. Because the system automatically accepts this certificate and registers it into the local system trust store via update-ca-certificates, this results in system-wide trust store poisoning. Consequently, TLS clients utilizing the operating system trust store on the affected machine will accept rogue certificates for arbitrary domains, enabling persistent decryption and interception of subsequent TLS connections. This issue is resolved in version v0.16.3.
+
+**参考链接 / References**:
+- https://github.com/ubuntu/adsys/commit/8b1939f96d3827b4426eb06c1ced5bf317b0a99d
+- https://ubuntu.com/security/CVE-2026-12249
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1971**
+**总计条目 / Total entries: 1989**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -37318,5 +37318,293 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2491214
+
+---
+
+#### 1972. CVE-2026-12249
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+
+**漏洞描述 / Description**:
+An issue was discovered in Canonical ADSys upstream versions through v0.16.2. During Active Directory Certificate Services (AD CS) certificate auto-enrollment via the vendored Samba client script (internal/policies/certificate/python/vendor_samba/gp/gp_cert_auto_enroll_ext.py), ADSys utilizes a plaintext HTTP connection (http://) instead of a secure HTTPS connection (https://) to request the CA certificate from the Active Directory Certificate Services server (GetCACert). An unauthenticated network attacker positioned between the managed Ubuntu host and the configured AD CS CA hostname can conduct a Man-in-the-Middle (MITM) attack. By intercepting the plaintext HTTP request, the attacker can supply an arbitrary, attacker-controlled Root CA certificate. Because the system automatically accepts this certificate and registers it into the local system trust store via update-ca-certificates, this results in system-wide trust store poisoning. Consequently, TLS clients utilizing the operating system trust store on the affected machine will accept rogue certificates for arbitrary domains, enabling persistent decryption and interception of subsequent TLS connections. This issue is resolved in version v0.16.3.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/ubuntu/adsys/commit/8b1939f96d3827b4426eb06c1ced5bf317b0a99d.
+
+**参考链接 / References**:
+- https://github.com/ubuntu/adsys/commit/8b1939f96d3827b4426eb06c1ced5bf317b0a99d
+- https://ubuntu.com/security/CVE-2026-12249
+
+---
+
+#### 1973. CVE-2026-55655 - openssh: Local MITM of X11 forwarding via abstract UNIX socket pre-binding in Red…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Local MITM of X11 forwarding via abstract UNIX socket pre-binding in Red Hat Enterprise Linux OpenSSH client versions. Bugzilla: 2462250
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462250
+
+---
+
+#### 1974. CVE-2026-55654 - openssh: Heap out-of-bounds read in Red Hat Enterprise Linux versions of OpenSSH…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Heap out-of-bounds read in Red Hat Enterprise Linux versions of OpenSSH GSSAPI indicator cleanup due to missing NULL sentinel termination. Bugzilla: 2462493
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462493
+
+---
+
+#### 1975. CVE-2026-55653 - openssh: Double free in Red Hat Enterprise Linux versions of OpenSSH DH-GEX client…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: Double free in Red Hat Enterprise Linux versions of OpenSSH DH-GEX client path during FIPS known-group validation leads to client-side denial of service. Bugzilla: 2462351
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462351
+
+---
+
+#### 1976. CVE-2026-10601 - grafana: tempo: loki: Tempo and Loki Datasource Plugins: Information disclosure…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] grafana: tempo: loki: Tempo and Loki Datasource Plugins: Information disclosure and unauthorized actions via path traversal. Bugzilla: 2491359
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491359
+
+---
+
+#### 1977. CVE-2026-56412 - libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections. Bugzilla: 2491203
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491203
+
+---
+
+#### 1978. CVE-2026-56411 - expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution. Bugzilla: 2491202
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491202
+
+---
+
+#### 1979. CVE-2026-56410 - libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution.. Bugzilla: 2491181
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491181
+
+---
+
+#### 1980. CVE-2026-56405 - libexpat: libexpat: Information disclosure and arbitrary code execution via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Information disclosure and arbitrary code execution via integer overflow. Bugzilla: 2491188
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491188
+
+---
+
+#### 1981. CVE-2026-56403 - libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts. Bugzilla: 2491186
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491186
+
+---
+
+#### 1982. CVE-2026-56378 - Magick.NET: ImageMagick: Denial of Service and Information Disclosure via crafted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Magick.NET: ImageMagick: Denial of Service and Information Disclosure via crafted PCD file. Bugzilla: 2491158
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491158
+
+---
+
+#### 1983. CVE-2026-12799 - litellm: BerriAI litellm: Information Disclosure via improper authorization in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Information Disclosure via improper authorization in ui_view_users function. Bugzilla: 2491141
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491141
+
+---
+
+#### 1984. CVE-2026-12798 - litellm: BerriAI litellm: Server-Side Request Forgery via spec_path argument…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Server-Side Request Forgery via spec_path argument manipulation. Bugzilla: 2491144
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491144
+
+---
+
+#### 1985. CVE-2026-12797 - litellm: BerriAI litellm: Incorrect authorization via prompt manipulation
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Incorrect authorization via prompt manipulation. Bugzilla: 2491142
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491142
+
+---
+
+#### 1986. CVE-2026-12796 - litellm: litellm: Session expiration vulnerability in SSO Authentication Flow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: litellm: Session expiration vulnerability in SSO Authentication Flow. Bugzilla: 2491143
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491143
+
+---
+
+#### 1987. CVE-2026-12774 - litellm: BerriAI litellm: Server-Side Request Forgery in MCP Server Connection…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: BerriAI litellm: Server-Side Request Forgery in MCP Server Connection Testing. Bugzilla: 2491113
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491113
+
+---
+
+#### 1988. CVE-2026-52911 - kernel: ksmbd: scope conn->binding slowpath to bound sessions only
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: scope conn->binding slowpath to bound sessions only. Bugzilla: 2491128
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491128
+
+---
+
+#### 1989. CVE-2026-52910 - kernel: bpf: Free reuseport cBPF prog after RCU grace period
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Free reuseport cBPF prog after RCU grace period. Bugzilla: 2490779
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490779
 
 ---

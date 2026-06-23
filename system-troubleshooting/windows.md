@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7061**
+**总计条目 / Total entries: 7131**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -97557,5 +97557,915 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221963#reply2
+
+---
+
+#### 7062. Is it possible to have different background pictures on different monitors in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: multiple-monitors, windows-11, background | Score: 2 | Views: 207 | Answers: 2 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+You can do this without extra software in Windows 11, as long as you have a separate image for each monitor (may need to edit your two-monitor image and crop it into equal halves for example): Right-click the desktop and click Personalize > Background Set "Personalize your background" to Picture Click Browse photos, and select the first image you want to use. Repeat for each image until they are all listed in the Recent images bar Now right-click the first image from the recent images list > select which monitor to display it on Repeat for each monitor:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938615/is-it-possible-to-have-different-background-pictures-on-different-monitors-in-wi
+
+---
+
+#### 7063. SaveFile Dialog box painfully lags when filtering by .pdf
+
+**问题描述 / Problem Description**:
+Tags: windows-11, pdf, windows-11-24h2 | Score: 1 | Views: 73 | Answers: 1 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+As you state, most likely, the issue is caused by the time it takes Windows 11 to access and to parse the PDF documents, which is now needed, since the Windows 11 Explorer Preview pane can display thumbnails of each PDF file. Parsing takes time, and if there is a wait to access a resource in a PDF file, such as an embedded linked document, this delay is exacerbated. Try the following to see if any help. Open Windows Explorer, select View > Show , and disable Preview pane. As above, select Always show icons, never thumbnails . If a third-party PDF tool, such as Acrobat Reader, is installed, in its preferences or settings dialog, see if there is a setting to enable PDF thumbnail previews in Windows Explorer and disable it. Also, try changing a few PDF files and putting them in another folder to test if their format causes the issue. Of course, in a corporate environment, you might not be able to implement these changes, but at least you'd have data to show IT staff. If the PDF files contain embedded links to resources in other locations, such as another server or over the internet, make copies of the documents without the link (i.e., the resource included in the file or removed). Try encrypting copies of the documents, which should prevent preview.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938623/savefile-dialog-box-painfully-lags-when-filtering-by-pdf
+
+---
+
+#### 7064. Bandwidth issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udr18o/bandwidth_issue/
+
+---
+
+#### 7065. PC abruptly powers off and requires disconnecting power to restart. Only occurs when playing games. I suspect it's a PSU failure but would like to confirm before replacing. Is there a way to confirm the issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udlfts/pc_abruptly_powers_off_and_requires_disconnecting/
+
+---
+
+#### 7066. Tried to kill a fly and now my screen looks so messed up (photo in comments)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udsk9c/tried_to_kill_a_fly_and_now_my_screen_looks_so/
+
+---
+
+#### 7067. Switching from WinToUSB to downloading Windows from a CD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udm8kl/switching_from_wintousb_to_downloading_windows/
+
+---
+
+#### 7068. Flashed and saved my bricked laptop motherboard with random BIOS bin I found online - now paranoid I flashed a rootkit to my BIOS chip.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udor5x/flashed_and_saved_my_bricked_laptop_motherboard/
+
+---
+
+#### 7069. I need help,windows 11 is lagging horribly after some "optimizations"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udq1ca/i_need_helpwindows_11_is_lagging_horribly_after/
+
+---
+
+#### 7070. Help with data recovery
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udhq5r/help_with_data_recovery/
+
+---
+
+#### 7071. [Help] Black Screen (No Video Signal) + Fans Ramp up to 100% - 14700K / 4070 Ti Super TUF Build
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udm0qw/help_black_screen_no_video_signal_fans_ramp_up_to/
+
+---
+
+#### 7072. apk help?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udpnv6/apk_help/
+
+---
+
+#### 7073. Windows installation doesn't recognise NVMe drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udlr00/windows_installation_doesnt_recognise_nvme_drive/
+
+---
+
+#### 7074. Hp 2311x colour on screen issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udv0nf/hp_2311x_colour_on_screen_issue/
+
+---
+
+#### 7075. The other option in my internal storage is reached to 20 gb i dont know how to delete that.... Help out 🥲
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduzli/the_other_option_in_my_internal_storage_is/
+
+---
+
+#### 7076. Optimal CPU temp and watt usage due to shut down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduxhj/optimal_cpu_temp_and_watt_usage_due_to_shut_down/
+
+---
+
+#### 7077. Need help with PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduwpb/need_help_with_pc/
+
+---
+
+#### 7078. Keys on my keyboard won't repsond
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduwfm/keys_on_my_keyboard_wont_repsond/
+
+---
+
+#### 7079. secure boot policy help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduulk/secure_boot_policy_help/
+
+---
+
+#### 7080. Left ear (with the mic on it) is not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduky4/left_ear_with_the_mic_on_it_is_not_working/
+
+---
+
+#### 7081. M1 Pro MacBook Pro starts tweakin
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udukfm/m1_pro_macbook_pro_starts_tweakin/
+
+---
+
+#### 7082. MiniTool Partition Wizard keeps formatting my drive with broken name
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduhdg/minitool_partition_wizard_keeps_formatting_my/
+
+---
+
+#### 7083. Website not appearing in Google search results despite being indexed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udufrm/website_not_appearing_in_google_search_results/
+
+---
+
+#### 7084. Sylvania tv power issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udob3y/sylvania_tv_power_issue/
+
+---
+
+#### 7085. Laptop Charging issues on HP Notebook
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uduap5/laptop_charging_issues_on_hp_notebook/
+
+---
+
+#### 7086. I use Onedrive for my thesis; saving as pdf breaks the pages
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udu6vq/i_use_onedrive_for_my_thesis_saving_as_pdf_breaks/
+
+---
+
+#### 7087. How to secure your network in a VPN environment?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1udu6b0/how_to_secure_your_network_in_a_vpn_environment/
+
+---
+
+#### 7088. Becoming a sysadmin is not worth it anymore
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udifj6/becoming_a_sysadmin_is_not_worth_it_anymore/
+
+---
+
+#### 7089. FortiBleed update - now ~430k FortiGates hit and 110 million credentials harvested
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udoilq/fortibleed_update_now_430k_fortigates_hit_and_110/
+
+---
+
+#### 7090. Vent post - Got rejected from a senior DevOps position because I apparently failed their leet screening
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udt1gr/vent_post_got_rejected_from_a_senior_devops/
+
+---
+
+#### 7091. When temporary workarounds become business critical
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udqzsg/when_temporary_workarounds_become_business/
+
+---
+
+#### 7092. As much hate Microsoft gets, what do they get right?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udgmul/as_much_hate_microsoft_gets_what_do_they_get_right/
+
+---
+
+#### 7093. M365's WebView2 Problem Is Now Sitting in the Product Group Backlog
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udm4ch/m365s_webview2_problem_is_now_sitting_in_the/
+
+---
+
+#### 7094. Wasabi bucket? Price goes up $1/tb July 1st.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udsdx9/wasabi_bucket_price_goes_up_1tb_july_1st/
+
+---
+
+#### 7095. Print queues...why aren't jobs sandboxed?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udh45r/print_queueswhy_arent_jobs_sandboxed/
+
+---
+
+#### 7096. Ticket routing at large companies
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udnem4/ticket_routing_at_large_companies/
+
+---
+
+#### 7097. I don't even know what to do anymore
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ud8r8r/i_dont_even_know_what_to_do_anymore/
+
+---
+
+#### 7098. Affordable onboarding/offboarding automation tools for a small IT team
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udfuqi/affordable_onboardingoffboarding_automation_tools/
+
+---
+
+#### 7099. Any advice for a brand new support dude starting soon?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udqwdo/any_advice_for_a_brand_new_support_dude_starting/
+
+---
+
+#### 7100. Acquisition?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udmd15/acquisition/
+
+---
+
+#### 7101. Is most of IT just… waiting around?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ucvjat/is_most_of_it_just_waiting_around/
+
+---
+
+#### 7102. M365 Outage? Getting 503s...
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udmlbc/m365_outage_getting_503s/
+
+---
+
+#### 7103. Upgrading 5 DCs running Server 2016 best practice for a first time
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udc0mw/upgrading_5_dcs_running_server_2016_best_practice/
+
+---
+
+#### 7104. SPOG is just a marketing ploy for companies to gain market share
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udnk8p/spog_is_just_a_marketing_ploy_for_companies_to/
+
+---
+
+#### 7105. SSL/TLS Certificate Expiration Challenges
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udmt71/ssltls_certificate_expiration_challenges/
+
+---
+
+#### 7106. EvilToken Compromised account
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udl6s1/eviltoken_compromised_account/
+
+---
+
+#### 7107. Cloudflare's outage and the ethics of fudging status page timestamps
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1ucmhpy/cloudflares_outage_and_the_ethics_of_fudging/
+
+---
+
+#### 7108. SSL Certificate Help Required - net::ERR_CERT_AUTHORITY_INVALID
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udg0sr/ssl_certificate_help_required_neterr_cert/
+
+---
+
+#### 7109. Leadership Role Type Question
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udo1ab/leadership_role_type_question/
+
+---
+
+#### 7110. Migrating away from GoDaddy Hosted Exchange. Options?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1udl1z1/migrating_away_from_godaddy_hosted_exchange/
+
+---
+
+#### 7111. [V2EX] Windows11 里面的防火墙规则，如何有效清理?
+
+**问题描述 / Problem Description**:
+测试过很多绿色免的工具，已经很久不用的了，在防火墙的高级规则里面还是存在的，规则多了，好像也没啥事，但始终是留下的屎，要清理吧。。。，逐条手动?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222141#reply9
+
+---
+
+#### 7112. [V2EX] 好多传统工具在淡出视线，以后的软件可能仅仅是一个 json。
+
+**问题描述 / Problem Description**:
+感慨以前玩 selfhost ，有什么新玩意，第一时间去看看。 现在没那个热情了。主要是几乎所有软件，其实压根不是按照你的想法的，而是你去适应软件的用法。 传统软件要么擦边个 ai ，要么深度整合，要么推翻重来，ai 时代的新软件没那个历史负担，直接就是 AI‑native 可能只是一个 json 结构化的 flow ，你导入 hermes ，按照你自己的想法重构。 也许只是个 youtube 下载工具，你整合到发布平台，就是个自动搬运工 bot 了。 以前做这些，得自己写中间件，或自动化脚本。现在完全不用了。 操作系统也没啥用处，我打开最多的，除了浏览器还是浏览器。本地完全不写任何代码，甚至
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222393#reply0
+
+---
+
+#### 7113. [V2EX] 关于对中国经济的预测
+
+**问题描述 / Problem Description**:
+关于对中国经济的预测 核心的出发点： 这个命题很大、很复杂，没有人能给出答案。 但是，合适的分析、预测方法，可以让我们逼近答案，起码可以了解各种可能性。 复杂预测问题，简单的定性分析优于简单的定量分析。 以下是我的分析框架，供大家参考。 一、方法论。 1 、因果律：根据事物的规律进行预测，而非简单的根据数据做线性外推。 2 、辩证法：从主要矛盾、次要矛盾来预测，动态的考虑问题，而非静态的。 3 、比较研究：同日本、韩国等的经济发展模式类似的国家做比较研究。 二、人（偏悲观） 经济发展首先要考虑人的因素，包括人的数量、质量等等。当然 ai 会如何影响人这一因素，还有待观察，暂不纳入分析。 反面考
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222391#reply4
+
+---
+
+#### 7114. [V2EX] 你认为 AI 是泡沫吗？
+
+**问题描述 / Problem Description**:
+看到 GLM 5.2 这么强，有点担心美国那几个科技巨头投了那么多钱，弄出来的东西好像也就那样？ 今天美股大跌，你认为未来 2000 年互联网泡沫会在 AI 身上必现吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222386#reply7
+
+---
+
+#### 7115. [V2EX] 付费寻求关闭道德约束的 ai
+
+**问题描述 / Problem Description**:
+付费寻求关闭道德约束的 ai 1:我方可本地部署 deepseek 但不知如何破解限制模型 2:市场是否有不限任何内容输出的 ai 以上都可付费请教， 联系我 飞机： @ lei2015
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222383#reply7
+
+---
+
+#### 7116. [V2EX] 经常用订阅链接来科学上网的，但各种协议之间如何在各个终端快速转换啊？
+
+**问题描述 / Problem Description**:
+比如我在 windows 用 clash verge ，采用的是 yaml 协议，但我安卓用的是 singbox ，共用一套订阅肯定省钱啊，但是不同协议之间的转换有点麻烦？大家有没有好的办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222359#reply0
+
+---
+
+#### 7117. [V2EX] 现在可以使用到 glm 5.2 / gpt 5.5 级别智能模型的 Coding Plan 中，性价比最高的是哪家的呀？
+
+**问题描述 / Problem Description**:
+今天 40 分钟蹬完了两个号的 5 小时限额，真用不起了 QAQ
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222352#reply0
+
+---
+
+#### 7118. [V2EX] 朋友准备 FIRE 了，想抄一下各位 v 友的作业
+
+**问题描述 / Problem Description**:
+我有一个朋友，注意，这个朋友不是我。 他已经考虑 FIRE 一段时间了，目前他考虑的资产配置是投资到国内/国外的宽基指数(标普 500/VT 等)，还有债券，预期的权益、债券/现金占比大概为 7:3 。 想了解一下各位已 FIRE 的 v 友都是怎么配置资产的，还有都买了哪些产品？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222351#reply0
+
+---
+
+#### 7119. [V2EX] 请教下 AI 开发的高保真视觉还原问题
+
+**问题描述 / Problem Description**:
+最近在开发自己的小程序，主力使用 Codex，现在遇到一个问题：使用 product design 可以给出高保真效果图，但不带图层，无法切图，导致在代码实现阶段，需要花费非常多的 token 来做视觉还原校验，而且是盲目校验。我认为现阶段理想的过程是： 1、通过 product design 给出高保真 2、通过设计的 AI 能力，还原高保真并拆出图层； 3、给出切图和标注； 4、代码还原 现在有 skill 能实现这个能力吗？还是要把这几步拆开，用不同的工具实现？大家面对这个问题是怎么解决的？谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222348#reply0
+
+---
+
+#### 7120. [V2EX] 关于 claude 支付方式问题
+
+**问题描述 / Problem Description**:
+支付 Claude 套餐，如果朋友肉身在英国，有合规支付方式。什么方法可以按照美金的套餐结算（ 20 美金），按欧洲套餐结算太贵，要 18 磅。AI 给的答案是直接填写美国免税州地址。但是难道不需要挂一个美国节点梯子吗？因为登陆的英国家庭宽带自动识别为英国 ip ，就变成英国套餐了吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222347#reply1
+
+---
+
+#### 7121. [V2EX] 现在 i.imgur.com 是不是有问题
+
+**问题描述 / Problem Description**:
+今天看站内的贴子好像都显示不出图片了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222343#reply3
+
+---
+
+#### 7122. [V2EX] 现在就业行情这么差吗？
+
+**问题描述 / Problem Description**:
+最近在找外包，hr 提供的简历里有些看起来挺不错的，全日制本科+听过名的厂，还有一个 985 本科的。现在招外包难道能捡到漏？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222334#reply1
+
+---
+
+#### 7123. [V2EX] 已经在城市里定居的还要不要回老家买一个地基盖房子？
+
+**问题描述 / Problem Description**:
+1.想有一个大房子带院子，或者大平层，在市里估计是买不起啊，而且产权有限，村里的宅基地将来可能是稀缺资源，老了还能有个落叶归根，回农村老家建一个是不是最优解。 2.考虑到等岁数大了医疗条件是要优先考虑的，农村没有便利的条件，现在村里的老人多年轻人少，大都去县城买房子了，以后村子里空了，两个烟火气也没了。 有没有类似想法和经验的 v 友
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222312#reply25
+
+---
+
+#### 7124. [V2EX] Claude Code，好心人帮我买个 pro 会员,我咸鱼转账？
+
+**问题描述 / Problem Description**:
+Who can purchase gifts? Gift subscriptions are available for most Pro and Max plan users to purchase. Free users and members of Team and Enterprise organizations can't purchase gift subscriptions at this time. 之前国外的同事帮忙买的，后来更新了政策，需要送礼的人本身是会员才可以 哎，难顶 有没有大佬帮忙整个一个月的 pro 会员，可以走咸鱼。感谢感谢 搬砖要写文档，也就 cc 强点，co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222306#reply3
+
+---
+
+#### 7125. [V2EX] Claude Code，好心人帮我买个 pro 会员,我咸鱼转账？
+
+**问题描述 / Problem Description**:
+Who can purchase gifts? Gift subscriptions are available for most Pro and Max plan users to purchase. Free users and members of Team and Enterprise organizations can't purchase gift subscriptions at this time. 之前国外的同事帮忙买的，后来更新了政策，需要送礼的人本身是会员才可以 哎，难顶 有没有大佬帮忙整个一个月的 pro 会员，可以走咸鱼。感谢感谢 搬砖要写文档，也就 cc 强点，co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222305#reply1
+
+---
+
+#### 7126. [V2EX] 摇一摇/强制跳转的商业逻辑到底是什么
+
+**问题描述 / Problem Description**:
+开屏广告能理解，有曝光价值 不管你喜不喜欢，只要你不瞎，它就已经达到了广告的目的。 但是这个“强制”跳转，是真看不懂它的商业价值到底是什么，有业内人士解惑么？ 对于用户 应该没人会真的"使用"这个功能吧？应该 99.99%的人被迫跳过去都立马就关了吧？ 对于品牌方 一定有一部分怨恨会转嫁到品牌方吧？这不是给品牌抹黑吗 强制跳转提升的这部分虚假“跳转率”，是要有人付费的吧，品牌方它不可能不知道吧！ 它确实能提高“跳转率”数据，难道仅仅只是为了一份好看的数据，广告主获得了虚假繁荣？ 难不成这部分虚假的“跳转率”真能提升了转化率、付费率？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222304#reply22
+
+---
+
+#### 7127. [V2EX] 装修相关：入户防盗门内开改外开，有什么风险，值不值得折腾？
+
+**问题描述 / Problem Description**:
+第一次买房、装修，我是边户，买房时开发商宣传图上入户门是外开的，但实际交房时是内开，中间户是外开。 当时业主们也集体维权过，要求统一改成外开门，但后续不了了之了。 现在我想改成外开，毕竟占用室内面积，外开的话，玄关处我可以放个换鞋凳或者鞋架， 看了楼上同户型的邻居，也有自己改成外开的，也找了改门的问：能改，并且不用换门，但比较麻烦，费用大概 500 左右，还需要自己找人把门口的墙面漆补一下。 纠结的点是： 1 、现在装修好了，改门的说改起来比较麻烦，但也能改，需要自己找人粉刷下室外； 2 、邻居把房卖了，新邻居还没来也没联系方式，担心人家后期再让改回内开，折腾； 说到底还是因为套内面积不大，想
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222298#reply37
+
+---
+
+#### 7128. [V2EX] 国内有什么稳定的靠谱的 token 中转站吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222291#reply3
+
+---
+
+#### 7129. [V2EX] 为啥阿里不能优化下 Qwen AI 网页版吐代码的体验
+
+**问题描述 / Problem Description**:
+像 Open AI 的 GPT 网页版，修改代码能够直接以附件形式给出，点击下载就很方便 ，而阿里跟 gemini 都是非得网页直接吐，而且也很容易崩溃……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222288#reply0
+
+---
+
+#### 7130. [V2EX] 买的 Pocket 4 会出现关机一段时间后系统日期时间偏移的现象，这种会是硬件层面的问题吗？
+
+**问题描述 / Problem Description**:
+具体表现为关机一段时间后就会出现十几分钟的滞后，系统时间和时间码都会出现滞后 导致最终拍摄的日期时间都会出现滞后 每次都需要重连 DJI Mimo 来恢复正常系统时间，但很快就又偏移了 已升级到了最新的固件 联系技术支持让寄回查看，嫌麻烦，所以想先来问一下，这种情况会是硬件方面的问题，必须返厂吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222283#reply3
+
+---
+
+#### 7131. [V2EX] Gmail 更换用户名的问题。导致论坛账户登录问题。
+
+**问题描述 / Problem Description**:
+原账户以前使用的 google 登录。 使用 gmail 更换了账户名。 论坛退出登录 重新使用 google 登录 出现了一个新账户不是原来的账户。 原账户以前使用的 google 登录。现在我使用 原 gmail 找回密码完成了登录。 现在想绑定 google 新账户名 提示邮件不能使用。。猜测账户以前被上次的 google 登录注册了。 现在如何使用新 google 账户名 来 google 登录以前的账户？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222262#reply4
 
 ---

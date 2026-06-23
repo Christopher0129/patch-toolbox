@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5928**
+**总计条目 / Total entries: 5986**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -81346,5 +81346,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221612#reply3
+
+---
+
+#### 5929. What's the smallest Mac utility that has had the biggest impact on your workflow?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udh7kz/whats_the_smallest_mac_utility_that_has_had_the/
+
+---
+
+#### 5930. Cat walked on laptop now screen slightly translucent
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udqe1y/cat_walked_on_laptop_now_screen_slightly/
+
+---
+
+#### 5931. the original macOS widgets (2005)!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ud0og1/the_original_macos_widgets_2005/
+
+---
+
+#### 5932. I want to know how in the world Apple Intelligence thought this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ud80jh/i_want_to_know_how_in_the_world_apple/
+
+---
+
+#### 5933. Preview app is adding contrast and ruining images.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udq79v/preview_app_is_adding_contrast_and_ruining_images/
+
+---
+
+#### 5934. I'm building a small Mac app for non-technical users , would love brutal feedback on the idea
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udsuj5/im_building_a_small_mac_app_for_nontechnical/
+
+---
+
+#### 5935. Multi-OS users, what's one non-macOS UI/UX feature that you miss?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udk28y/multios_users_whats_one_nonmacos_uiux_feature/
+
+---
+
+#### 5936. How to encrypt a private folder on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udps2p/how_to_encrypt_a_private_folder_on_macos/
+
+---
+
+#### 5937. Live Activities are not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udrrq7/live_activities_are_not_working/
+
+---
+
+#### 5938. Sharing personal experience with Sequoia VS. Tahoe VS. Golden Gate DB1 on an 8GB Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ud1t94/sharing_personal_experience_with_sequoia_vs_tahoe/
+
+---
+
+#### 5939. Macbook Pro M1 Not Charging when turned on
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udp2zu/macbook_pro_m1_not_charging_when_turned_on/
+
+---
+
+#### 5940. Downloaded apps do not open (Sequoia 15.7.7)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udn78x/downloaded_apps_do_not_open_sequoia_1577/
+
+---
+
+#### 5941. Input lag with both built-in and external devices; anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udlweo/input_lag_with_both_builtin_and_external_devices/
+
+---
+
+#### 5942. How can I remove deleted Items from spotlight settings?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udej2w/how_can_i_remove_deleted_items_from_spotlight/
+
+---
+
+#### 5943. Is this normal?...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ud8nhh/is_this_normal/
+
+---
+
+#### 5944. Minor Pet Peeve...Saving photos to Apple Photos. Workaround?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udhkq9/minor_pet_peevesaving_photos_to_apple_photos/
+
+---
+
+#### 5945. Will OS Update affect operation of mutual OS Volume?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udhglh/will_os_update_affect_operation_of_mutual_os/
+
+---
+
+#### 5946. Need MacOS Tahoe friendly wallpapers.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udgy6h/need_macos_tahoe_friendly_wallpapers/
+
+---
+
+#### 5947. Open CSV with MS Office without going to settings every time.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ud9lvu/open_csv_with_ms_office_without_going_to_settings/
+
+---
+
+#### 5948. Can anyone please help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udda59/can_anyone_please_help/
+
+---
+
+#### 5949. MOS safe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1udp5ys/mos_safe/
+
+---
+
+#### 5950. [V2EX] macbook 刚买两个月，磁盘写了 2TB（总容量 1TB），正常吗？
+
+**问题描述 / Problem Description**:
+我的 macbook 硬盘总容量 1TB ，买了两个月就写了 2TB ，这种写入正常吗？ 我为了减少磁盘写入，将 hibernatemode 调成了 0 （睡眠时内存实时供电，不向硬盘写入内存内容）；使用的时候还要不定期盯着任务管理器，避免内存压力达到写 swap 的门槛（内存 24GB ，程序开多了还是会变黄）； 这东西硬盘能写到多少 TBW ？毕竟焊死的换不了。我是不是有些多虑了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222379#reply2
+
+---
+
+#### 5951. [V2EX] 微信占了 100G，有啥办法清理一下呢
+
+**问题描述 / Problem Description**:
+https://imgur.com/a/yY7aAIl 如图所示，电脑用了 4 、5 年了，现在存储越来越少了，有啥办法能腾点地方呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222296#reply23
+
+---
+
+#### 5952. [V2EX] Command + tab 的那个长条选择栏在多显示器的时候怎么指定出现位置呢
+
+**问题描述 / Problem Description**:
+现在就是只会出现在笔记本屏幕，我把外接显示器设置成主显示器也不行，问了 AI 说是 macos 自己的问题。 有没有办法设置成显示在当前活跃窗口对应的显示器。或者有没有替代的软件（最好不要啥权限的，公司电脑）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222231#reply1
+
+---
+
+#### 5953. [V2EX] SynoSync (时刻同步) MacOS 平台上线， Mac 端首月完全免费！无内购， iOS 端四折优惠进行中
+
+**问题描述 / Problem Description**:
+SynoSync 在移动端的稳定性已经经历了部分用户的验证了，现在我也终于有余力腾出手来做 MacOS 端的兼容，首先我要坦白：MacOS 端使用的是 Catalyst 兼容运行，因为这样的方案下移植工作量是最小的，毕竟 SynoSync 第一优先的仍旧是移动端的功能稳定，现在通过 Catalyst 让 MacOS 平台的用户也用上了 SynoSync 的绝大多数功能。 时刻同步（ SynoSync ）是一款兼容 DSM 、WebDAV 、SMB 协议的文件同步工具，刚开始是为了方便我在 iPhone 上后台同步我 NAS 上的 Obsidian 文档库（ 20000+ 文件，10GB ），现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221915#reply9
+
+---
+
+#### 5954. [V2EX] 终于解决罗技无线鼠标掉帧卡顿
+
+**问题描述 / Problem Description**:
+之前使用的是：Mac + 扩展坞（绿联或小米）+ 罗技 G502X USB 接收器。 当时鼠标经常出现掉帧、卡顿等情况，使用体验非常不理想，以至于我一直使用有线 G502X 。 最近一周，我将 G502X 的 USB 接收器插到显示器上后，问题彻底消失，流畅度和有线基本一样丝滑。 --- 另外，此前我还遇到过小米扩展坞有线网口频繁自动断开的情况。更换为绿联扩展坞后，网络连接也恢复正常，暂未再出现断线问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221899#reply13
+
+---
+
+#### 5955. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply117
+
+---
+
+#### 5956. [V2EX] 升级 iOS 和 macos27 的能帮忙试试 surge 可用不
+
+**问题描述 / Problem Description**:
+订阅 8 月份就到期了，那个时候还没发布新版本，不太想续订阅了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222246#reply5
+
+---
+
+#### 5957. [V2EX] 我被 iOS27 的原生中文输入法折磨疯了
+
+**问题描述 / Problem Description**:
+我一直是一个坚定的 iOS 原生输入法使用者，但是直到苹果在 iOS27 更新了中文输入法的联想逻辑。现在它会更加激进地去推测我输入的拼音后面会接上什么词语。这本身是没啥问题的，但是有问题的是他会把这个拼接出来的猜测语放在待选词的第一个。这样会导致我非常频繁地误输入一些我根本没有键入的词语。 比如说：我如果很频繁地键入”垃圾游戏“这个词语，那 iOS27 会学习我的输入习惯，并且在我输入"laji"的时候就把"垃圾游戏"放在第一个候选词。但是这样的话可能哪天我让别让帮我倒一下垃圾的时候他就会自己把“游戏”给补全然后变成了“帮我倒一下垃圾游戏”，就很变态 希望苹果早点修一下吧，有联想是好的但是你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222207#reply18
+
+---
+
+#### 5958. [V2EX] 摸鱼自由咯~ 升级到 macOS 27 dev 2 和 iOS 27 dev 2 之后, iPhone 镜像终于能用啦
+
+**问题描述 / Problem Description**:
+撒花✿✿ヽ(°▽°)ノ✿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222191#reply15
+
+---
+
+#### 5959. [V2EX] 第一次用 mac 就有问题，准备送修了
+
+**问题描述 / Problem Description**:
+上个月才买的 M5 mac air ，放家里一直远程用，端午回家要处理文档，发现屏幕上有一条竖的色块，大概 5 厘米宽，白色背景很明显，其他背景颜色几乎看不出来，以为是什么软件导致的，就重启了，结果还是有。 然后就尝试外接显示器，镜像，结果外接显示器正常，mac 的屏幕还是有。 已经联系 apple 支持，准备送天才吧了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222177#reply2
+
+---
+
+#### 5960. [V2EX] iphone16 升级到 IOS27 beta2 后, 自定义的快捷指令不能自动运行了, 各位大神有没有碰到, 应该怎么处理
+
+**问题描述 / Problem Description**:
+iphone16 升级到 IOS27 beta2 后, 自定义的快捷指令不能自动运行了, 各位大神有没有碰到, 应该怎么处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222139#reply15
+
+---
+
+#### 5961. [V2EX] 升级到 iOS 27 Beta2， index 终于没了
+
+**问题描述 / Problem Description**:
+坏消息是快捷指令不太对劲，我有两个快捷指令不能正确触发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222130#reply9
+
+---
+
+#### 5962. [V2EX] macOS27 beta 2 系统自带输入法无法输入后引号了
+
+**问题描述 / Problem Description**:
+不论输入多少次都是前引号，就像这样，而经过测试只有 macOS 的输入法才会这样，iPadOS 使用妙控键盘也能正常输入后引号😂 ““““
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222128#reply2
+
+---
+
+#### 5963. [V2EX] APNs 遇到区域性异常
+
+**问题描述 / Problem Description**:
+各位用 iOS 设备的网友，有没有遇到过 Telegram 、X 软件不推送消息的问题？ 坐标上海，iOS26 ，国行 17 ，福建移动 sim ，Wi-Fi 为上海联通 CPE 蜂窝上游。 在五月初，看到频道有发送过此类问题，个人在五月倒是没遇到过此类问题，但最近一周左右也遇到了同样问题。 本人使用 Qx 软件，将此域名和 ip 设置为分流，走海外节点后，在 Wi-Fi 条件下可以勉强收到推送，并伴有延迟等问题。在蜂窝网络环境下，即便设置了分流规则，依旧无法收到推送。 经过尝试，发现第三方 Telegram 软件"swiftgram"没有受到影响。 在查阅互联网上的相关信息后，可见两种口径。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222123#reply9
+
+---
+
+#### 5964. [V2EX] 正在开发一款像 iOS 系统自带的多功能聚合翻译软件
+
+**问题描述 / Problem Description**:
+我有时候会用到翻译软件，但是一直苦于 iOS 上没有一个比较“完美”的翻译软件。 我认为的“完美”指的是 1.完全原生，适配液态玻璃 2.小而美，实用，无冗余的功能，app 应该只做一件事“翻译”，而不是啥都干，啥都干不好 3.翻译准确，支持多平台翻译，方便对比 最开始用的是 iOS 自带的“翻译”app ，缺点很明显，翻译不准确，体验堪称灾难，唯一的优点是真的很干净，非常原生。 后面试过一款 app 叫 para 翻译（不是广告，只是说明用过而已），优点支持多平台翻译，翻译源挺全的，自带翻译源不用自己填 key 啥的，缺点不是原生液态玻璃，布局交互有点糟糕，有时候会卡住翻译不出来（顺便一提，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222050#reply20
+
+---
+
+#### 5965. [V2EX] ios27 短信的问题
+
+**问题描述 / Problem Description**:
+已经关闭了短信过滤功能，但是很多短信在信息 app 里还是看不到，在信息 app 里搜索能搜出来相关内容，但是点进去详情就是一片空白，有遇到过这个问题的吗？如何解决？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221968#reply13
+
+---
+
+#### 5966. [V2EX] Typora 团队新 Terminal 作品 otty，这颜值你打几分？
+
+**问题描述 / Problem Description**:
+偶然刷到 Typora 团队的新动作，他们在做一款 Terminal 工具 Otty 。 极简审美，UI 质感高级。这颜值确实让人有换掉现用终端的冲动。目前 macOS 版已上线，Windows 和 Linux 版本还在开发中。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221917#reply29
+
+---
+
+#### 5967. [V2EX] 登录美区账号，国区 app 不让更新了
+
+**问题描述 / Problem Description**:
+之前是可以的，现在不行了，即使商店账号切换到国区也不行。 直接显示 APP 不可用。26.5.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221686#reply25
+
+---
+
+#### 5968. [V2EX] iPhone17 凌晨异常使用蜂窝数据欠费 500 多
+
+**问题描述 / Problem Description**:
+早晨五点被密集几十条短信吵醒，一看吓一跳，短信显示流量超出 540 元。（ 8 元保号套餐，600 元流量超出强制断网） 查了一下记录，从一点开始到 5 点结束一直在疯狂跑流量，手机一直在充电没在使用 看了设置里的记录显示 shadowrocket 使用了 25G 很多异常点: 1.家里全屋 wifi7 覆盖，为啥会突然走流量 2.手机没有后台上传下载的任务，我经常重置网络设置，大部分 app 都是默认没有网络权限的，手机里没有网盘之类的 app ，即使有，再设置里流量统计也会有体现 3.小火箭一直是规则模式链接，不知道为啥会在凌晨异常暴力传输数据，3 小时 25G 流量 ，小火箭默认不打开日
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221604#reply57
+
+---
+
+#### 5969. [V2EX] Mac 外壳磕了，国内外两次 AC 送修经历，但未修机
+
+**问题描述 / Problem Description**:
+放一张 AI 做的图，方便大家快速了解本文大概内容 一年前，自己的美版 16 寸 MacBook 因为自己不不小心，被充电头的插脚顶出了凹痕，刚好买了 AppleCare ，于是就预约了准备去送修 维修价格预估是这样的，到店接待我们的人说，显示器的更换 100 美金，机身的更换 200 美金，这和官网说的机身外壳损坏 99 美金不同（当时我没有去看过官网的维修价格，就忘了问为什么价格不同了），接待我的黑人小哥不建议我维修，想着 AC 还有一年，等快到期了再换 26 年 8 月 AC 到期了，前段时间就又预约了看看 国内的 AC 预约需要身份证后四位数（不清楚是否校验），到店签到的时候也要你的真
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221399#reply14
+
+---
+
+#### 5970. [V2EX] 买了二手 airpods pro3 后的体验小结
+
+**问题描述 / Problem Description**:
+[购买理由] 一直没买 airpods 的理由是，只有白色一直在大脑左右互搏该不该买。 由于降噪豆 3 有电流声了，可算有《正当理由》换掉他了。 受不了一手的复杂加价规则，不如去闲鱼大刀阔斧砍几刀爽快，最后 1100 拿下。 [体验小结] 多设备切换非常方便，ipad/iphone/mac 任意设备配对上了，其他设备自动快速切换。 降噪比以前的降噪豆 3 好不少，能够隔绝绝大多数噪音。以前在工位感觉挺安静的，现在拔掉 airpods 后发现轻微的各种噪音还挺多。 中午遛弯测试了下，听歌开着的时候，世界的声音都和我隔绝了，缺点是风噪还是挺明显的，主动降噪也挡不住。 电量感觉也比我老耳机耐用多了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221323#reply33
+
+---
+
+#### 5971. [V2EX] 🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？
+
+**问题描述 / Problem Description**:
+各位 v 站的朋友好，经过 1 年时间我来向各位汇报专为开发团队打造 Mac 优美截图 app 1Capture 的进展。 市场上截图的工具很多，但是我们这款 app 会有很多不一样的地方。Cleanshot 可能很美，但是其操作流程可能不一定适合国人的操作习惯。1Capture 的目标就是：不一味堆砌功能，做到跟 Cleanshot 一样精美，但是更符合国内开发、产品、设计师的操作习惯。 值此 618 之际，我们也是为大家提供价格优惠。1Capture 一次性买断，永久免费升级，走过路过，不要错过哦。送码在最后。 App Store：( https://apps.apple.com/app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221276#reply172
+
+---
+
+#### 5972. [V2EX] 凑热闹进了某站，因为一个言论还是溜了，遭不住遭不住
+
+**问题描述 / Problem Description**:
+找半天没找到注销账号的地方，Google 了下说是给管理员留言，不会整那个玩意，发个帖子赶紧让他们注销我账号溜了。 主动屏蔽 再加一重
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222355#reply2
+
+---
+
+#### 5973. [V2EX] 评价下最近几期张小珺的访谈人，有和我感觉一样的么
+
+**问题描述 / Problem Description**:
+最近的 SpaceX 这一期，采访的前高管洪力德，这人讲话完全听不进去，不知道在讲些什么，那种 ABC 的口音让人感觉很难受，几乎不能听到有价值信息。 对何小鹏的采访一般，这种大企业的老板，讲话风格不太喜欢，从做汽车到做人形机器人，能听到非常的自负，如果我领导是这样的我会非常难受。 戴雨森的访谈是最近几期最喜欢的，真让我感觉牛逼，非常喜欢他的观点以及表达。 Deepmind 姚这期也比较喜欢，因为分享自己的故事和观点很有趣。 罗福莉这一期还行，她虽然在表达上可以再提高，但仔细听下来还是有东西的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222309#reply1
+
+---
+
+#### 5974. [V2EX] 做了个用自然语言创建和修改 Dify 应用的小工具： chat2dify
+
+**问题描述 / Problem Description**:
+最近一直在折腾 Dify ，感觉它本身能力很强，但新手要真正搭出一个 workflow ，还是需要理解不少概念：节点、DSL 、草稿、运行、发布等等。 所以我做了一个小项目：chat2dify 。 简单说就是：你用自然语言描述需求，它帮你生成可确认的操作，然后创建/修改 Dify 应用。现在已经支持创建 workflow 、修改草稿、测试运行、发布，也可以作为 sidecar 挂到 Dify Console 里，用抽屉面板打开。 比如可以直接说： “创建一个电脑城售后服务工作流，用户描述电脑问题后，生成专业售后回复。” 或者在已有 workflow 里说： “把回复改得更专业一点，先安抚用户，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222293#reply0
+
+---
+
+#### 5975. [V2EX] GLM5.2 下午高峰期，虽然三倍计费，但是实际上很耐用！
+
+**问题描述 / Problem Description**:
+是不是感觉很意外，反直觉 因为实在太慢了，导致很耐用.......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222277#reply7
+
+---
+
+#### 5976. [V2EX] Google 已全面放开更改邮箱，可以改自己的本名邮箱了
+
+**问题描述 / Problem Description**:
+http://myaccount.google.com/google-account-email 终于不用再用自己的名字当邮箱了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222263#reply6
+
+---
+
+#### 5977. [V2EX] zshrc：一个开源极简 macOS App，只做一件事，打开查看、编辑 ~/.zshrc，保存自动 source
+
+**问题描述 / Problem Description**:
+zshrc zshrc 一个极简 macOS App ，打开就能查看、编辑 ~/.zshrc ，保存自动执行 source ~/.zshrc 。 安装 1 、推荐使用安装脚本： curl -fsSL https://raw.githubusercontent.com/iHongRen/zshrc/main/install.sh | sh 默认会安装到 /Applications/zshrc.app 。 2 、手动安装： 从 GitHub Releases 下载最新的 zshrc.dmg 后安装。终端执行命令，去除未签名应用的隔离属性： xattr -dr com.apple.quarantin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222236#reply15
+
+---
+
+#### 5978. [V2EX] deepseek-v4-pro 使用最省钱方式： Reasonix 1.x + Opencode 第二篇 [免费白嫖]
+
+**问题描述 / Problem Description**:
+在第一篇指南中 [ https://www.v2ex.com/t/1217711?p=1#reply19 ]，我们介绍了 Opencode go 的接入。 订阅 opencode go 套餐 首先就是花 $5 美元订阅 opencode go 套餐，支持支付宝支付。 opencode 官网： https://opencode.ai ，国内网络可以直接访问。 购买完成后就是注册一个 API Key 了。 免费白嫖 opencode 的比较大方，提供了好几个免费模型供我们使用。那么我们是否在 reasonix 中接入它的免费模型呢？答案是肯定的，核心就是修改下 url 为: https://ope
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222227#reply4
+
+---
+
+#### 5979. [V2EX] [3 更] 解决真实照片转拼豆的痛点，我给生成器接了多模态大模型
+
+**问题描述 / Problem Description**:
+我又来了（这已经是第三更了，Vibe Coding 真的太容易上头了🤣）。 前两贴链接防迷路： 看到有 V 友做了拼豆站，手痒也 Vibe Coding 了一个拼豆图纸生成器 Update 昨天发完帖后，我把拼豆生成器做上头了：画廊、在线编辑、用户系统全搞定 在这两天的测试和大家热心的反馈中，我发现了一个非常致命的痛点：真实照片直接转像素拼豆，简直是灾难！ 复杂的背景、阴影、渐变色经过像素化后，全变成了密密麻麻的噪点。真要做成实物的话，你可能需要买 50 种不同色号的豆子，而且拼出来人物连五官都糊在一起了，根本没法看。 为了解决这个“没法落地”的问题，这版我做了一个重量级更新： 接入阿里百炼大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222226#reply0
+
+---
+
+#### 5980. [V2EX] 疑问：最近是不是封号太严重 claude 2 个张号都被封了。
+
+**问题描述 / Problem Description**:
+最近有点无语，两个 Claude 账号接连被封了，也没做什么违规操作，就是正常使用。看论坛里也有不少人遇到类似情况。大家有遇到同样的问题吗？感觉最近封号力度有点大啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222218#reply0
+
+---
+
+#### 5981. [V2EX] “把客户当聪明人， GEO 只能带来流量而不能带来成交” -- 和律师朋友的聊后感
+
+**问题描述 / Problem Description**:
+前段时间有个律师老哥想做口播视频，于是他在豆包上搜索相关工具的时候搜索到了我之前做的录屏工具。体验之后觉得很契合他的需求，于是根据我产品上的联系方式加上了我。他很好奇我的 GEO 是怎么做的，为什么豆包能一下子就推荐我的产品？在他大方地给了咨询费之后，我也和他畅聊了一会儿，并约定第二天我去他律所找他，继续聊一下 GEO ，看看怎么帮助他们获客营销。（感慨一下律师的知识付费意识真的很强 Orz ） 去找他之前，我简单分析了他们目前的现状和 GEO 改进方案。并且找了几个通过洗稿获得良好 GEO 效果的别的律师例子。我原本是想把我找到的例子作为 GEO 优秀效果的正面例子的，虽然我也知道这种洗稿做
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222188#reply3
+
+---
+
+#### 5982. [V2EX] 慎重改邮箱，账号登不回去了！
+
+**问题描述 / Problem Description**:
+参考 https://www.v2ex.com/t/1222135 我在更换邮箱帐号后，重登 v2 就会变成新邮箱的帐号了，此账号丢失。现在手机还有登录信息，退掉了就永久失去帐号权限了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222170#reply41
+
+---
+
+#### 5983. [V2EX] 谷歌支持修改邮箱前缀
+
+**问题描述 / Problem Description**:
+以前是支持美区，现在也支持其他区了 http://myaccount.google.com/google-account-email
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222135#reply72
+
+---
+
+#### 5984. [V2EX] 小米 MiMo Pro 月度套餐快到期了，额度还剩不少，想用的可以体验一下
+
+**问题描述 / Problem Description**:
+地址： https://token-plan-sgp.xiaomimimo.com/v1 key：tp-s2eyj0waapaqh0tz5qi6g55c2htes7j5gh1w7m5fer49eg17
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222084#reply7
+
+---
+
+#### 5985. [V2EX] Vibe 了一个小红书、抖音 AI 获客系统，欢迎进群交流
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221971#reply1
+
+---
+
+#### 5986. [V2EX] DeepSeek V4 Flash 限时免费无限畅用
+
+**问题描述 / Problem Description**:
+• OpenModel 的 DeepSeek V4 Flash 限时免费，支持 API 调用，活动期间输入和输出 token 均不计费（每用户限 10 RPM / 100K TPM ），注册账户还送 1$额度，一个邮箱就可以，不嫖白不嫖 🌐活动地址：直达链接 ( https://www.openmodel.ai/event )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221938#reply2
 
 ---
