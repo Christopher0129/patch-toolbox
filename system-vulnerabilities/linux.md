@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1989**
+**总计条目 / Total entries: 2007**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -37606,5 +37606,293 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2490779
+
+---
+
+#### 1990. CVE-2026-54762 - github.com/traefik/traefik: Traefik: Authentication bypass due to invalid…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/traefik/traefik: Traefik: Authentication bypass due to invalid authentication secret. Bugzilla: 2491922
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491922
+
+---
+
+#### 1991. CVE-2026-53622 - github.com/traefik/traefik: Traefik: mTLS enforcement bypass due to HTTP/3 TLS…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/traefik/traefik: Traefik: mTLS enforcement bypass due to HTTP/3 TLS configuration flaw. Bugzilla: 2491924
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491924
+
+---
+
+#### 1992. CVE-2026-48491 - Traefik: Traefik: Unauthorized access due to mutual TLS bypass
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Traefik: Traefik: Unauthorized access due to mutual TLS bypass. Bugzilla: 2491923
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491923
+
+---
+
+#### 1993. CVE-2026-0864 - python: cpython: Python configparser: Configuration injection via crafted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] python: cpython: Python configparser: Configuration injection via crafted multi-line input. Bugzilla: 2491892
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491892
+
+---
+
+#### 1994. CVE-2026-56117 - dhcpcd: dhcpcd: Local heap use-after-free vulnerability leads to denial of service.
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Local heap use-after-free vulnerability leads to denial of service.. Bugzilla: 2491845
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491845
+
+---
+
+#### 1995. CVE-2026-56116 - dhcpcd: dhcpcd: Denial of Service via IPv6 Router Advertisement memory leak
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via IPv6 Router Advertisement memory leak. Bugzilla: 2491824
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491824
+
+---
+
+#### 1996. CVE-2026-56115 - dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 ADVERTISE message
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 ADVERTISE message. Bugzilla: 2491822
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491822
+
+---
+
+#### 1997. CVE-2026-56114 - dhcpcd: dhcpcd: Denial of Service due to stack out-of-bounds write via crafted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service due to stack out-of-bounds write via crafted DHCPv6 message. Bugzilla: 2491842
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491842
+
+---
+
+#### 1998. CVE-2026-56113 - dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 RENEW reply
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 RENEW reply. Bugzilla: 2491841
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491841
+
+---
+
+#### 1999. CVE-2026-12112 - foreman-mcp-server: MCP Server: Active Session Hijacking via Insecure Session…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] foreman-mcp-server: MCP Server: Active Session Hijacking via Insecure Session State Reuse. Bugzilla: 2488031
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488031
+
+---
+
+#### 2000. CVE-2026-11807 - eda-server: websocket missing authorization allows credential theft via…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] eda-server: websocket missing authorization allows credential theft via activation_id spoofing. Bugzilla: 2487036
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487036
+
+---
+
+#### 2001. CVE-2026-9073 - foreman-mcp-server: MCP Server: Insecure Sensitive HTTP Header Sanitization
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] foreman-mcp-server: MCP Server: Insecure Sensitive HTTP Header Sanitization. Bugzilla: 2480151
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480151
+
+---
+
+#### 2002. CVE-2026-56379 - ImageMagick: ImageMagick: Arbitrary code execution via SVG decoder command…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Arbitrary code execution via SVG decoder command injection. Bugzilla: 2491700
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491700
+
+---
+
+#### 2003. CVE-2026-10609 - openshift/cluster-logging-operator: Cluster Logging Operator creates and forwards…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openshift/cluster-logging-operator: Cluster Logging Operator creates and forwards ServiceAccount tokens without verifying CLF creator authorization. Bugzilla: 2483943
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483943
+
+---
+
+#### 2004. CVE-2026-12891 - gstreamer1-plugins-bad: gstreamer1-plugins-bad: global buffer overflow (OOB read)…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad: gstreamer1-plugins-bad: global buffer overflow (OOB read) in H.266/VVC VUI parameter parser. Bugzilla: 2491318
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491318
+
+---
+
+#### 2005. CVE-2025-61028 - virtuoso-opensource: Virtuoso-opensource: Denial of Service via crafted SQL…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: Virtuoso-opensource: Denial of Service via crafted SQL statements. Bugzilla: 2491830
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491830
+
+---
+
+#### 2006. CVE-2025-61022 - virtuoso-opensource: openlink virtuoso-opensource: Denial of Service via crafted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: openlink virtuoso-opensource: Denial of Service via crafted SQL statements. Bugzilla: 2491843
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491843
+
+---
+
+#### 2007. CVE-2025-61024 - virtuoso-opensource: virtuoso-opensource: Denial of Service via crafted SQL…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: virtuoso-opensource: Denial of Service via crafted SQL statements in sqlo_try_in_loop. Bugzilla: 2491869
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491869
 
 ---

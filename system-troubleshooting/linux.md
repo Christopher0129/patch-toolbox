@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6323**
+**总计条目 / Total entries: 6353**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -90125,5 +90125,395 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1222061#reply18
+
+---
+
+#### 6324. "Disgusting" Linux sched_ext source code restructured following complaint by Linus Torvalds
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udyn9d/disgusting_linux_sched_ext_source_code/
+
+---
+
+#### 6325. Xaver's highlights from Display Next Hackfest 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ueobes/xavers_highlights_from_display_next_hackfest_2026/
+
+---
+
+#### 6326. webrtcforthestreamer.com - site/video I made on how WHIP makes streaming more connected, easier to self-host and private
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uegnz2/webrtcforthestreamercom_sitevideo_i_made_on_how/
+
+---
+
+#### 6327. Realistic-Linux-Game
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ue7mtb/realisticlinuxgame/
+
+---
+
+#### 6328. How to export bash regular and associative arrays to JSON with JC
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uekuh2/how_to_export_bash_regular_and_associative_arrays/
+
+---
+
+#### 6329. I made hstui, a TUI for controlling hyprsunset
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uesmfr/i_made_hstui_a_tui_for_controlling_hyprsunset/
+
+---
+
+#### 6330. Demystifying StartupWMClass :: Terminal Thoughts
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udycay/demystifying_startupwmclass_terminal_thoughts/
+
+---
+
+#### 6331. Workaround for Openrazer Mouses
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1udz7pa/workaround_for_openrazer_mouses/
+
+---
+
+#### 6332. [V2EX] fctix5 的 Pinyin 输入法怎么没有自动调整词频
+
+**问题描述 / Problem Description**:
+设置界面有启用云拼音，但是就是没有动态调整词频的选项 arch linux niri 环境 sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-sogoupinyin 都安装了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221129#reply3
+
+---
+
+#### 6333. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply5
+
+---
+
+#### 6334. [V2EX] 买了部港版 iPhone17e，结果不会自己搜信号
+
+**问题描述 / Problem Description**:
+上周入的 结果发现它从车库或电梯等无信号区域重新回到地面有信号的区域时 不会重新自己搜索信号，而需要我手动切飞行模式才行 这种情况出现的可能性接近 95%，另一台港币 17pro max 就不会 用的联通的卡。 尝试过还原网络设置等操作，依然如此。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222657#reply0
+
+---
+
+#### 6335. [V2EX] 有没有人用 openclaw 连 chatgpt pro 会员莫名达到限额？
+
+**问题描述 / Problem Description**:
+我一直用 openclaw 连 chatgpt 的 pro 会员。一个月 $20 。说是没限制。但是我遇到两次奇怪的事情： 大概在 5/17 左右。我的 pay as you go 的金额用完了。但是我是 oauth 连的 chatgpt 会员，不可能动到 credit 前天 6/22 的时候说我打到 limitation ，2 天之后重置。但是 limitation 写在哪里？我是个 pro 会员，我甚至没有地方看我的 usage 。而且 2 天之后也不是周六周天这种 weekly usage 的重置节点。也不是单会话那种几个小时一次的重置。 我跟 claude 研究了很久。它也穷尽了能想到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222650#reply3
+
+---
+
+#### 6336. [V2EX] 非程序员 vibecoding 血泪提醒大家一件事儿， git commit
+
+**问题描述 / Problem Description**:
+项目文件夹 11w 个文件，想让 codex 整理一下。结果出现了一些 py 的 import 问题，之前没有听 ai 的建议对仓库进行 git 相关操作。弄一半儿发现挪文件夹前需要审计一下，让它撤销自己的操作，结果它直接把很多东西删除，然后从 git 里找。这个怪自己，但是论坛里有非程序员认真乱搞自己的想法的朋友，一定要 git 啊！ codex：不是“仅仅重新排序”。我必须如实说： 我做了项目级重排，把一批 backend/services/*.py 的真实实现移到分类子目录，然后在原路径留下 wrapper 。后来按你要求回滚时，我删除了这些分类子目录。结果是： git 已跟踪的旧文件：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222641#reply12
+
+---
+
+#### 6337. [V2EX] 求使用 AI 从 0 到 1 开发一个完整 web 前后端项目的成功经验
+
+**问题描述 / Problem Description**:
+我的不太成功的路径是： 与 claude 讨论项目内容和逻辑，生成项目项目文档 prd.md 让 cc 根据 prd.md 生成开发计划文档 plan.md 和前端设计方案 frotend.md 让 gpt 或 cc 按照 plan.md 实施,同时 claude design 根据 frontend.md 生成静态前端代码 让 gpt 或 cc 把前端代码融入到项目中，完成 我起初认为流程和逻辑上应该是正确的，但是跑出来效果与预期差很远。 步骤 1 时产出的文档看起来挺专业，代码片段、定义解释、逻辑等一千多行， plan.md 内容也不少，一顿操作下来只能说搭了个架子。 最难受的是修改，项目
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222628#reply14
+
+---
+
+#### 6338. [V2EX] 一款可以自定义主题的 markdown 转 PDF cli 工具
+
+**问题描述 / Problem Description**:
+由于一直没找到好用的 markdown 转 cli 工具给 Agent 用（很多都不兼容 Obsidian 方言，导出的样式也不是很美观，让 Agent 写脚本转换则更不可控），于是自己搓了一个 cli 出来，大部分时间都在磨合主题样式，支持 Katex 公式，mermaid 语法以及 Obsidan 的方言 地址在： https://github.com/ABClize/mdtopdf 顺便请教一下各位大佬是否有其他好用的方案呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222622#reply4
+
+---
+
+#### 6339. [V2EX] 3 个小时消耗 50%，不要用阿里云的 token plan 写代码
+
+**问题描述 / Problem Description**:
+阿里云也有 Coding Plan 的套餐，但是这个套餐里面的模型都是过期的模型，最新的根本就不让用。 所以我花了 198 买了 token plan ，实际买的是一个 token 总包。用完就结束了，快的话半天。 3 个小时就耗了 50%，这个 token plan 最好是不要用到 Claude Code 或者 Codex 工具里面去。 这个就是给程序使用 api key 进行调用的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222597#reply10
+
+---
+
+#### 6340. [V2EX] [分享创造] mqttkit：给 MQTT 写应用，像写 Elysia / Hono 那样
+
+**问题描述 / Problem Description**:
+给 MQTT 写应用，为什么不能像写 Elysia / Hono 一样？ mqttkit：在 Aedes / EMQX 之上加一层应用框架——有序中间件、类型化 topic 路由、MQTT 5 RPC 、自动生成 AsyncAPI 文档。 起因：MQTT 的应用层一直是一片散沙 只要在 Node 里写过认真一点的 MQTT 后端，下面这段代码你大概率写过： client.on('message', (topic, payload) => { if (topic.startsWith('devices/') && topic.endsWith('/events')) { const uid =
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222592#reply0
+
+---
+
+#### 6341. [V2EX] 还有在用 antigravity cli 的吗
+
+**问题描述 / Problem Description**:
+说是原生支持 multi agent 会更强吗？ 我现在只用的 gemini 的模型，除了感觉快，其他没啥感觉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222567#reply10
+
+---
+
+#### 6342. [V2EX] Corterm - 一个让 Shell 在服务器上一直活着的远程终端
+
+**问题描述 / Problem Description**:
+今年 5 月开始做 Corterm 。53 天，493 次提交。其中 317 次的 commit message 末尾写着同一行字：Co-Authored-By: Claude GLM 5.1 。 也就是说，这个项目 64%的代码提交是 AI 和我一起写的。但不是"AI 替我写代码"——是我写了 8 个自定义 Skill ，一套编译报错自动修复流水线，和一个写满了 ArkTS 奇葩限制的 CLAUDE.md 。 那四条铁律 CLAUDE.md 开头是四句话： 禁止 fallback：不要静默降级、空值兜底、try-catch 吞错误。异常直接抛出 最精简逻辑：逻辑上不可能为空就不要写空值检查
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222555#reply4
+
+---
+
+#### 6343. [V2EX] 和 Claude Code 死磕 3B token 的家庭记账 APP，聊聊 vibe coding 和 spec coding 在长项目上到底差在哪
+
+**问题描述 / Problem Description**:
+一、背景：为什么拿这么个项目来试 家里的钱散得很碎——银行、支付宝、券商、几套房、房贷，一直想要个东西能把全家资产拉成一张全局图，顺便算算真实收益。市面上的 App 要么得把全家底裤交出去，要么是逐笔流水账，都不对路。想自己写很久 ，一直没动手。 正好赶上 Claude Code 这波模型（ Opus 4.8 ）能力起来了。我就想，与其拿它写个 demo 玩具，不如拿个 真要长期迭代的大项目 来试——一个人、业余时间，看能不能扛到能上线自己家用。顺便也想搞清楚一件事 大家都在吹的 vibe coding ，放到一个要改几十上百次、半年起步的长项目上，到底扛不扛得住。 先把结论放这：vibe c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222549#reply21
+
+---
+
+#### 6344. [V2EX] 分享一个自己做的 Chrome 扩展：用快捷键切换最近访问的标签页
+
+**问题描述 / Problem Description**:
+大家好，最近把之前做的一个 Chrome 扩展做了一次比较大的重构和更新，现在叫 TabTrail 。 它解决的是一个很具体的问题：当浏览器标签页越来越多时，用鼠标在顶部拥挤的 tab 栏里找页面，会很容易打断当前的工作状态。尤其是写代码、查资料、看文档时，经常只是想回到「刚才打开 过的某个页面」，但眼睛和鼠标已经被迫开始“找标签”。 TabTrail 的思路比较简单： 按下快捷键后，弹出一个最近使用标签页列表。列表按照最近访问顺序排序，也就是 MRU 。支持用方向键选择，Enter 切换，Escape 关闭。 目前推荐快捷键： - macOS：Command + E - Windows /
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222516#reply9
+
+---
+
+#### 6345. [V2EX] 有使用过 Kimi code 的同学讲一下到底怎么样，打算充值
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222505#reply17
+
+---
+
+#### 6346. [V2EX] 有没有突破天际的 token 中转站
+
+**问题描述 / Problem Description**:
+（非广告贴，也请打广告的绕道） 最近我做的项目需要访问 uncensored NSFW 模型，图文都要；目前用 OpenRouter 上的那几个，文字还行，图片都不得劲，想自己部署又没资源(jīn)。 我看现在大部分的中转站都是便宜大厂 token 二道贩子，有没有那种逆天中转站专门提供外面买不到的模型的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222485#reply2
+
+---
+
+#### 6347. [V2EX] 找到免费好用的 vibe coding 了
+
+**问题描述 / Problem Description**:
+最近在尝试使用 opencode 内置免费模型，辅助日常开发小需求非常 Nice 。响应速度也挺快的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222467#reply37
+
+---
+
+#### 6348. [V2EX] 大模型对新人程序员成长的影响
+
+**问题描述 / Problem Description**:
+因为带领一个小研发团队，自己需要培养每年来的新员工，一般我会拿项目里面的代码，提几个为什么这么设计的问题，比如：为什么这里使用有缓冲的 channel ，为什么这里加锁等等问题。要回答理解这些问题，需要新人看懂整个模块的代码，才能理解，但是现在有了模型，直接问 claude code ，就能得到答案。接着让他们去写一些真实项目的代码，还是犯错，就感觉还是没有理解我之前提的问题。 一方面校招面试，感觉他们面试展现出来的水平越来越强，至少比我当年强。 另一方面，入职后，新员工在真实项目里面的水平很一般，对真实项目的理解能力、掌控力和生产环境问题排查能力很一般。 当然了，人越来越依赖大模型这个肯定是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222460#reply37
+
+---
+
+#### 6349. [V2EX] 现在 token 是不是和房租一样了 收入越高 花费越多，还是花费越多 收入越多
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222424#reply19
+
+---
+
+#### 6350. [V2EX] 现在 AI 克隆语音然后变声 最好的解决方案是什么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222420#reply2
+
+---
+
+#### 6351. [V2EX] 押注 DeepSeek，再次出发做 Agent
+
+**问题描述 / Problem Description**:
+前言 过去一年我做了不少 Agent： Blade Code （类 Claude Code 的 CLI ）、 Blade Agent SDK （抽取出来的通用能力集）。它们都跑在 Claude 、GPT 这类海外模型上。 但有件事一直在我脑子里：DeepSeek 这么便宜、这么能打，我自己却没有一个顺手的、围绕它打磨的终端编码工具。 于是有了 Orca —— 一个用 Rust 写的、 DeepSeek 原生 的终端 Coding Agent 。 GitHub 地址： https://github.com/echoVic/blade-deepseek npm install -g @blade-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222331#reply24
+
+---
+
+#### 6352. [V2EX] 为了省点 Claude Code 钱，研究到了凌晨 3 点
+
+**问题描述 / Problem Description**:
+昨天晚上，我突然觉得 Claude Code 有点贵。 当然，不是昨天才觉得。 是每次看到额度快见底的时候，都会有一种熟悉的味道。 就像穷的时候看着钱包里最后的碎银几两。 总觉得还能再撑两天。 于是我开始思考一个问题。 有没有什么办法，可以让 Claude Code Token 消耗的慢一些？ 作为一个从小穷过的人，我有个不太好的习惯。 就是当钱要花出去的时候，第一反应不是扫码， 而是看看能不能，晚一点再支付。 这时候，窗外的一抹夕阳，照射在我脸上，多么高光的时刻。 顶着不下班的幌子，启动了我那不太优秀，但爱钻研学习的大脑。 第一个想法： 用 Claude code ，主要用的还是 Opus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222317#reply23
+
+---
+
+#### 6353. [V2EX] 做过后端的人来说说重构迁移数据库难度大吗
+
+**问题描述 / Problem Description**:
+业务耦合性高，基本就是一坨屎，而且还是国内不入流的技术栈 c#, 现在要想重构，先从数据库迁移开始，之前没干过迁移这种事情， 这事情难度大吗，现在基本就让 AI 搞，也不知道最终会不会搞好。 人和库有一个能跑就行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222278#reply166
 
 ---

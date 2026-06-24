@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2125**
+**总计条目 / Total entries: 2143**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -33761,5 +33761,221 @@ An issue was discovered in Canonical ADSys upstream versions through v0.16.2. Du
 **参考链接 / References**:
 - https://github.com/ubuntu/adsys/commit/8b1939f96d3827b4426eb06c1ced5bf317b0a99d
 - https://ubuntu.com/security/CVE-2026-12249
+
+---
+
+#### 2126. CVE-2026-54762 - github.com/traefik/traefik: Traefik: Authentication bypass due to invalid…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/traefik/traefik: Traefik: Authentication bypass due to invalid authentication secret. Bugzilla: 2491922
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491922
+
+---
+
+#### 2127. CVE-2026-53622 - github.com/traefik/traefik: Traefik: mTLS enforcement bypass due to HTTP/3 TLS…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/traefik/traefik: Traefik: mTLS enforcement bypass due to HTTP/3 TLS configuration flaw. Bugzilla: 2491924
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491924
+
+---
+
+#### 2128. CVE-2026-48491 - Traefik: Traefik: Unauthorized access due to mutual TLS bypass
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Traefik: Traefik: Unauthorized access due to mutual TLS bypass. Bugzilla: 2491923
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491923
+
+---
+
+#### 2129. CVE-2026-0864 - python: cpython: Python configparser: Configuration injection via crafted…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] python: cpython: Python configparser: Configuration injection via crafted multi-line input. Bugzilla: 2491892
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491892
+
+---
+
+#### 2130. CVE-2026-56117 - dhcpcd: dhcpcd: Local heap use-after-free vulnerability leads to denial of service.
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Local heap use-after-free vulnerability leads to denial of service.. Bugzilla: 2491845
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491845
+
+---
+
+#### 2131. CVE-2026-56116 - dhcpcd: dhcpcd: Denial of Service via IPv6 Router Advertisement memory leak
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via IPv6 Router Advertisement memory leak. Bugzilla: 2491824
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491824
+
+---
+
+#### 2132. CVE-2026-56115 - dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 ADVERTISE message
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 ADVERTISE message. Bugzilla: 2491822
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491822
+
+---
+
+#### 2133. CVE-2026-56114 - dhcpcd: dhcpcd: Denial of Service due to stack out-of-bounds write via crafted…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service due to stack out-of-bounds write via crafted DHCPv6 message. Bugzilla: 2491842
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491842
+
+---
+
+#### 2134. CVE-2026-56113 - dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 RENEW reply
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dhcpcd: dhcpcd: Denial of Service via crafted DHCPv6 RENEW reply. Bugzilla: 2491841
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491841
+
+---
+
+#### 2135. CVE-2026-12112 - foreman-mcp-server: MCP Server: Active Session Hijacking via Insecure Session…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] foreman-mcp-server: MCP Server: Active Session Hijacking via Insecure Session State Reuse. Bugzilla: 2488031
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2488031
+
+---
+
+#### 2136. CVE-2026-11807 - eda-server: websocket missing authorization allows credential theft via…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] eda-server: websocket missing authorization allows credential theft via activation_id spoofing. Bugzilla: 2487036
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487036
+
+---
+
+#### 2137. CVE-2026-9073 - foreman-mcp-server: MCP Server: Insecure Sensitive HTTP Header Sanitization
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] foreman-mcp-server: MCP Server: Insecure Sensitive HTTP Header Sanitization. Bugzilla: 2480151
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480151
+
+---
+
+#### 2138. CVE-2026-56379 - ImageMagick: ImageMagick: Arbitrary code execution via SVG decoder command…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Arbitrary code execution via SVG decoder command injection. Bugzilla: 2491700
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491700
+
+---
+
+#### 2139. CVE-2026-10609 - openshift/cluster-logging-operator: Cluster Logging Operator creates and forwards…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openshift/cluster-logging-operator: Cluster Logging Operator creates and forwards ServiceAccount tokens without verifying CLF creator authorization. Bugzilla: 2483943
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483943
+
+---
+
+#### 2140. CVE-2026-12891 - gstreamer1-plugins-bad: gstreamer1-plugins-bad: global buffer overflow (OOB read)…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-bad: gstreamer1-plugins-bad: global buffer overflow (OOB read) in H.266/VVC VUI parameter parser. Bugzilla: 2491318
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491318
+
+---
+
+#### 2141. CVE-2025-61028 - virtuoso-opensource: Virtuoso-opensource: Denial of Service via crafted SQL…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: Virtuoso-opensource: Denial of Service via crafted SQL statements. Bugzilla: 2491830
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491830
+
+---
+
+#### 2142. CVE-2025-61022 - virtuoso-opensource: openlink virtuoso-opensource: Denial of Service via crafted…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: openlink virtuoso-opensource: Denial of Service via crafted SQL statements. Bugzilla: 2491843
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491843
+
+---
+
+#### 2143. CVE-2025-61024 - virtuoso-opensource: virtuoso-opensource: Denial of Service via crafted SQL…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] virtuoso-opensource: virtuoso-opensource: Denial of Service via crafted SQL statements in sqlo_try_in_loop. Bugzilla: 2491869
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491869
 
 ---

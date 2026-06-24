@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 5986**
+**总计条目 / Total entries: 6056**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -82100,5 +82100,921 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1221938#reply2
+
+---
+
+#### 5987. Adobe installing 12 background processes on my mac just to let me merge a pdf is insane
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uegvdk/adobe_installing_12_background_processes_on_my/
+
+---
+
+#### 5988. Time for a new network share icon
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ue6a2s/time_for_a_new_network_share_icon/
+
+---
+
+#### 5989. Any LibreOffice users here?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uep61h/any_libreoffice_users_here/
+
+---
+
+#### 5990. Apple what is this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uecnss/apple_what_is_this/
+
+---
+
+#### 5991. Xprotect showing as an application, disk access off, is it the real one?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uestrb/xprotect_showing_as_an_application_disk_access/
+
+---
+
+#### 5992. Everyone says Finder needs a better Finder. What features are you actually missing?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueaqog/everyone_says_finder_needs_a_better_finder_what/
+
+---
+
+#### 5993. Are indie developers who aren't on the Mac App Store safe to use?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uemy7s/are_indie_developers_who_arent_on_the_mac_app/
+
+---
+
+#### 5994. Has anyone found where the system mouse cursors are stored in modern macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueshwo/has_anyone_found_where_the_system_mouse_cursors/
+
+---
+
+#### 5995. Guys anyone know what happened to my screen ? Sort of like glitch ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uej6xw/guys_anyone_know_what_happened_to_my_screen_sort/
+
+---
+
+#### 5996. dude this pisses me off so much, I deleted all the microslop apps but these things are left
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uesv6r/dude_this_pisses_me_off_so_much_i_deleted_all_the/
+
+---
+
+#### 5997. PS5 or other Bluetooth controllers on Macs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueg5kg/ps5_or_other_bluetooth_controllers_on_macs/
+
+---
+
+#### 5998. MacBook Air M1 (8GB) became extremely slow after upgrading to macOS Tahoe 26.5.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueg1jb/macbook_air_m1_8gb_became_extremely_slow_after/
+
+---
+
+#### 5999. Looking for the Finder/NSTableView multi-selection algorithm
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ues88s/looking_for_the_findernstableview_multiselection/
+
+---
+
+#### 6000. Microphone issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ues5az/microphone_issues/
+
+---
+
+#### 6001. Transmission fork with Snow Leopard support
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uerp39/transmission_fork_with_snow_leopard_support/
+
+---
+
+#### 6002. Could an unusual "last active" Google account session on my Mac have an explanation other than something sinister?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uer047/could_an_unusual_last_active_google_account/
+
+---
+
+#### 6003. Can't auto-play CD with VLC on MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueqo8k/cant_autoplay_cd_with_vlc_on_macos/
+
+---
+
+#### 6004. Flagging a GMail account's emails in Apple Mail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueqnlq/flagging_a_gmail_accounts_emails_in_apple_mail/
+
+---
+
+#### 6005. From apple Refurbished Macbook pro m5 14 inch for 1470$ or new macbook air m5 15 inch for 1270$
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueqdtw/from_apple_refurbished_macbook_pro_m5_14_inch_for/
+
+---
+
+#### 6006. Windows app on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueq41c/windows_app_on_macos/
+
+---
+
+#### 6007. Macbook Air M3
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueo8q4/macbook_air_m3/
+
+---
+
+#### 6008. Uninstalled game still taking space
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uenyw4/uninstalled_game_still_taking_space/
+
+---
+
+#### 6009. [V2EX] 27 Beta2 appstoreagent 进程 占用很高的 CPU 咋办
+
+**问题描述 / Problem Description**:
+appstore 都没有打开，appstoreagent 进程占用很高的 CPU ，强制退出了过一会儿还会出来，重启之后出来的时间慢一点 有通过 hosts 屏蔽 sylvan.apple.com ，不知道是不是因为这个，但是试了下解除屏蔽还是会疯狂下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222655#reply0
+
+---
+
+#### 6010. [V2EX] macOS 更新到 27 之后， Lightroom 无法打开了，且最新版都无法安装（默认安装 Intel 版本），哭死
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222409#reply6
+
+---
+
+#### 6011. [V2EX] 为什么最近 macOS 下很多图标都是方方正正的？
+
+**问题描述 / Problem Description**:
+怎么回事？感觉很丑啊，为什么没人发现？也没见人提？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222404#reply14
+
+---
+
+#### 6012. [V2EX] 27beta2 好像不能进行 hdmi 输出...丐版 m1pro mbp
+
+**问题描述 / Problem Description**:
+插显示器没反应了...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222397#reply3
+
+---
+
+#### 6013. [V2EX] macbook 刚买两个月，磁盘写了 2TB（总容量 1TB），正常吗？
+
+**问题描述 / Problem Description**:
+我的 macbook 硬盘总容量 1TB ，买了两个月就写了 2TB ，这种写入正常吗？ 我为了减少磁盘写入，将 hibernatemode 调成了 0 （睡眠时内存实时供电，不向硬盘写入内存内容）；使用的时候还要不定期盯着任务管理器，避免内存压力达到写 swap 的门槛（内存 24GB ，程序开多了还是会变黄）； 这东西硬盘能写到多少 TBW ？毕竟焊死的换不了。我是不是有些多虑了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222379#reply7
+
+---
+
+#### 6014. [V2EX] 微信占了 100G，有啥办法清理一下呢
+
+**问题描述 / Problem Description**:
+https://imgur.com/a/yY7aAIl 如图所示，电脑用了 4 、5 年了，现在存储越来越少了，有啥办法能腾点地方呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222296#reply28
+
+---
+
+#### 6015. [V2EX] SynoSync (时刻同步) MacOS 平台上线， Mac 端首月完全免费！无内购， iOS 端四折优惠进行中
+
+**问题描述 / Problem Description**:
+SynoSync 在移动端的稳定性已经经历了部分用户的验证了，现在我也终于有余力腾出手来做 MacOS 端的兼容，首先我要坦白：MacOS 端使用的是 Catalyst 兼容运行，因为这样的方案下移植工作量是最小的，毕竟 SynoSync 第一优先的仍旧是移动端的功能稳定，现在通过 Catalyst 让 MacOS 平台的用户也用上了 SynoSync 的绝大多数功能。 时刻同步（ SynoSync ）是一款兼容 DSM 、WebDAV 、SMB 协议的文件同步工具，刚开始是为了方便我在 iPhone 上后台同步我 NAS 上的 Obsidian 文档库（ 20000+ 文件，10GB ），现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221915#reply11
+
+---
+
+#### 6016. [V2EX] Mac OS 类 Everything 文件搜索 APP 免费送兑换码
+
+**问题描述 / Problem Description**:
+App 介绍参考： https://www.v2ex.com/t/1208046#reply9 兑换码： XTEHXKJLHLEJJM3W7M, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTEHXKJLHLEJJM3W7M XTFRYLFH8KKMLNRHLX, https://apps.apple.com/redeem?ctx=offercodes&id=6762029307&code=XTFRYLFH8KKMLNRHLX 788ELFJK77W6HHJ8X7, https://apps.apple.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221063#reply118
+
+---
+
+#### 6017. [V2EX] 终结 macOS 终端代理配置噩梦！全自动同步代理到 Shell、Git、NPM、Yarn 和 Docker
+
+**问题描述 / Problem Description**:
+🔗 项目开源地址 👉 GitHub - lcl-101/Proxy-Sync-Daemon 😫 痛点：你是否也经常遇到这些情况？ 终端网络割裂 ：在 macOS 上开启了 Clash 、Surge 或 Shadowrocket 后，浏览器冲浪十分顺畅，但在终端里 git clone 、 npm install 、 docker pull 依旧卡死超时。 繁琐的手动配置 ：每次开代理都要在终端手动输入一堆 export http_proxy=... ；关了代理要是忘记取消配置，终端又会报 Connection Refused 无法联网。 三方工具代理污染 ：为了下载依赖配了 NPM 或 Git
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221028#reply28
+
+---
+
+#### 6018. [V2EX] iPhone 屏幕防油渍防指纹涂层
+
+**问题描述 / Problem Description**:
+这涂层也就刚买的时候有效果，一俩月后似乎就慢慢磨损实效了，但一开始真的是非常好使，啥都不粘 有办法回到刚买时那样效果不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222645#reply3
+
+---
+
+#### 6019. [V2EX] 似乎 apple.com 买礼品卡加了 ip 检测
+
+**问题描述 / Problem Description**:
+切到美国 ip 后才能进入到输入支付信息的页面，不然必定跳到 404
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222613#reply3
+
+---
+
+#### 6020. [V2EX] macos27 的 siri ai 怎么可以不报 problem 啊？
+
+**问题描述 / Problem Description**:
+国行的用脚本，已经可以开了 siri ai 了。 昨天晚上联网用一会，今天早上重启完不行了，一直报 problem 。 试过各种办法都不行，正常来说 mac 这玩意定位关闭的话，走全局代理不就可以了吗？ ios 设备是移动端会判断 sim 卡啊定位啊这些，mac 的定位我都关闭了啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222526#reply13
+
+---
+
+#### 6021. [V2EX] apple notes 已经支持一次性全部导出了
+
+**问题描述 / Problem Description**:
+在顶部 All iCloud 中全选笔记，然后再从 File 中选择导出为 Markdown 或者 PDF 导出内容没有笔记的层级结构，只有全部 md 文件和一个附件目录，但这个好像已经足够用作备份了 我记得以前是可以按照单个笔记文件夹导出，这个全部导出不知道是什么时候才开始更新的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222514#reply5
+
+---
+
+#### 6022. [V2EX] 升级 iOS 和 macos27 的能帮忙试试 surge 可用不
+
+**问题描述 / Problem Description**:
+订阅 8 月份就到期了，那个时候还没发布新版本，不太想续订阅了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222246#reply7
+
+---
+
+#### 6023. [V2EX] 我被 iOS27 的原生中文输入法折磨疯了
+
+**问题描述 / Problem Description**:
+我一直是一个坚定的 iOS 原生输入法使用者，但是直到苹果在 iOS27 更新了中文输入法的联想逻辑。现在它会更加激进地去推测我输入的拼音后面会接上什么词语。这本身是没啥问题的，但是有问题的是他会把这个拼接出来的猜测语放在待选词的第一个。这样会导致我非常频繁地误输入一些我根本没有键入的词语。 比如说：我如果很频繁地键入”垃圾游戏“这个词语，那 iOS27 会学习我的输入习惯，并且在我输入"laji"的时候就把"垃圾游戏"放在第一个候选词。但是这样的话可能哪天我让别让帮我倒一下垃圾的时候他就会自己把“游戏”给补全然后变成了“帮我倒一下垃圾游戏”，就很变态 希望苹果早点修一下吧，有联想是好的但是你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222207#reply41
+
+---
+
+#### 6024. [V2EX] 摸鱼自由咯~ 升级到 macOS 27 dev 2 和 iOS 27 dev 2 之后, iPhone 镜像终于能用啦
+
+**问题描述 / Problem Description**:
+撒花✿✿ヽ(°▽°)ノ✿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222191#reply17
+
+---
+
+#### 6025. [V2EX] 升级到 iOS 27 Beta2， index 终于没了
+
+**问题描述 / Problem Description**:
+坏消息是快捷指令不太对劲，我有两个快捷指令不能正确触发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222130#reply10
+
+---
+
+#### 6026. [V2EX] macOS27 beta 2 系统自带输入法无法输入后引号了
+
+**问题描述 / Problem Description**:
+不论输入多少次都是前引号，就像这样，而经过测试只有 macOS 的输入法才会这样，iPadOS 使用妙控键盘也能正常输入后引号😂 ““““
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222128#reply4
+
+---
+
+#### 6027. [V2EX] ios27 短信的问题
+
+**问题描述 / Problem Description**:
+已经关闭了短信过滤功能，但是很多短信在信息 app 里还是看不到，在信息 app 里搜索能搜出来相关内容，但是点进去详情就是一片空白，有遇到过这个问题的吗？如何解决？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221968#reply15
+
+---
+
+#### 6028. [V2EX] Typora 团队新 Terminal 作品 otty，这颜值你打几分？
+
+**问题描述 / Problem Description**:
+偶然刷到 Typora 团队的新动作，他们在做一款 Terminal 工具 Otty 。 极简审美，UI 质感高级。这颜值确实让人有换掉现用终端的冲动。目前 macOS 版已上线，Windows 和 Linux 版本还在开发中。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221917#reply31
+
+---
+
+#### 6029. [V2EX] 登录美区账号，国区 app 不让更新了
+
+**问题描述 / Problem Description**:
+之前是可以的，现在不行了，即使商店账号切换到国区也不行。 直接显示 APP 不可用。26.5.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221686#reply26
+
+---
+
+#### 6030. [V2EX] 排查到了 TikTok 的一种无网络问题，想看看有没有人遇到过
+
+**问题描述 / Problem Description**:
+最近排查了一个 TikTok 国际版「无网络」的问题，使用 Codex 进行了一轮复杂排查，最终定位到是香港代理问题，分享一下过程 环境 设备：Pixel 7 Pro ，KernelSU ROOT SIM：giffgaff 代理：路由器上的 OpenClash ，出口节点 香港 TikTok 版本：45.7.3 （ Google Play ） 排查过程概述 起初怀疑过 DNS 、TLS 证书、代理规则、SIM 卡 MCC/MNC ， 甚至尝试过 DeviceSpoofLab 、清空应用数据、重装 TikTok——全都不行 清空数据后重启 TikTok ，问题立即复现， 说明不是残留状态，而是每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222656#reply0
+
+---
+
+#### 6031. [V2EX] 发现 Windows Server 一个比 Linux Server 稳定的地方
+
+**问题描述 / Problem Description**:
+Debian 12 ，OpenZFS 当 OpenZFS 正在长时间复制时，整台服务器的 CPU 负载吃满，此时 SSH 响应极慢，有些 SSH 连接甚至接断开了。 但 Windows Server 的 Storage ，就算开启压缩 + 去重，遇到满负载任务时，远程桌面很流畅，从来没遇卡顿甚至断开的情况。 AI 说，这是因为 Windows 主动给远程桌面与 GUI 操作的相关进程的优先级做了提升，提升的不只是桌面 GUI 进程与远程桌面服务进程，还包括网络、渲染等相关进程。在 Debian 12 里，如果只提升 SSH 进程的优先级是没用的，因为内核态的网络处理进程并没有得到优先级的提升。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222654#reply0
+
+---
+
+#### 6032. [V2EX] 做了个网页截图 & PDF API,一个请求把任意网页转成图片或 PDF
+
+**问题描述 / Problem Description**:
+最近做了个小东西:给一个网址,返回整页截图(PNG/JPEG)或 PDF,一个 GET 请求搞定。 底层是真实 Chromium,所以 JS 、现代 CSS 、网页字体都能正常渲染。支持整页截图、自定义视口尺寸、JS 重的页面可以加延迟。 用途:链接预览、网站缩略图、网页存档、HTML 转 PDF 报告等。 有免费额度可以直接试,付费档从 $8/月起。 地址: https://rapidapi.com/xufei547/api/screenshot-pdf-api2 落地页:https://fingogin-shot.fly.dev 欢迎试用拍砖,也想听听大家会拿它做什么 / 还缺什么功能(
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222631#reply1
+
+---
+
+#### 6033. [V2EX] 在 AI 上搜索了信息，会接到相关的推销电话？
+
+**问题描述 / Problem Description**:
+你们有没有这样的经历？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222614#reply3
+
+---
+
+#### 6034. [V2EX] 美团国际版 Tabbit 可以使用 Claude-Opus-4.8、Gemini-3.5-Flash、GPT-5.5 等大模型
+
+**问题描述 / Problem Description**:
+美团国际版 Tabbit 可以使用 Claude-Opus-4.8 、Gemini-3.5-Flash 、GPT-5.5 等大模型 注册登陆账号+设置默认浏览器即可 国际版地址： https://www.tabbit.ai/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222579#reply6
+
+---
+
+#### 6035. [V2EX] 发现在汽水音乐上听到的一些很好听的 AI 音乐，下载后想上传到网易云音乐网盘，却一直失败
+
+**问题描述 / Problem Description**:
+有些 AI 音乐听着确实还不错啊，就是汽水有的 AI 音乐也不让免费听了啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222562#reply1
+
+---
+
+#### 6036. [V2EX] 腾讯做了个基于 agent 的邮箱，好像还挺好玩
+
+**问题描述 / Problem Description**:
+地址： agent.qq.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222529#reply4
+
+---
+
+#### 6037. [V2EX] 千字雄文：中国男人的情感与性
+
+**问题描述 / Problem Description**:
+原文链接👉 中国男人的情感与性 作为一个比较（爱装）害羞的人，曾经不太愿意谈论这个话题。 然而作为一个爱好写作的人哪有什么不能谈的，必须要对自己诚实也要对读者诚实。尤其是作为一个思维活跃又跟熟人喜欢开黄腔的 I 人，我觉得没有人比我更适合谈这个话题。 写一些我观察到的现象，也有一些是自己的感悟，随便说说，比较松散，不成体系。 为什么要单独把中国男人拿出来，单独谈一谈他们的“情感与性”呢，首先是因为我们的国情和文化比较特殊，我们的国家对性文化的开放程度，不如一些欧美国家。在性教育方面，我感觉也才处于初级阶段。 其次东亚文明，尤其是我们中华文化中，对于情感的表达，似乎就是更加委婉，中国男人似乎天生
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222519#reply1
+
+---
+
+#### 6038. [V2EX] 分享一个好玩的东西， AI 现编 vibeOS。所有应用都是实时生成的
+
+**问题描述 / Problem Description**:
+[我做了一台没装任何软件的电脑：你点开什么，AI 就当场给你编什么 [ B 站 AI 创造公开赛] ] https://www.bilibili.com/video/BV1tMEy6nEYW/ 一台不预装任何软件的网页电脑。 你每点开一个应用,AI 都会当场把它写出来(实时录制,无加速): · Dock 应用点开即生成,永不缓存,每次长得都不一样 · Spotlight 搜任何东西,没有的应用现编给你 · 浏览器是现编的,里面"访问"的网页也是现编的 🖥 在线玩(免费,电脑手机都行): os.fzhiyu.dev 📦 GitHub 开源: github.com/Fzhiyu1/improv-o
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222518#reply1
+
+---
+
+#### 6039. [V2EX] 不愧是你啊遥遥领先
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222503#reply1
+
+---
+
+#### 6040. [V2EX] 自己做的一个免费免登录的 PDF Image 文字识别 OCR 工具
+
+**问题描述 / Problem Description**:
+最近做了个小工具：Unlimited OCR https://unlimitedocr.org/zh/ 主要就是用来处理那种扫描 PDF 、截图、图片里的文字：看得见，但搜不到，也复制不了。 不用登录，打开就能传 PDF 或图片，识别完可以直接复制，也可以下载 TXT 。 目前还是 v1 ，先把最基础的 OCR 流程做好。 如果你平时也经常遇到扫描件不能搜索、截图文字懒得手打，欢迎试试看，顺手提点建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222500#reply1
+
+---
+
+#### 6041. [V2EX] 分享一下近几年个人创业的一些经历
+
+**问题描述 / Problem Description**:
+本人 32 岁，无女友，单身，坐标山西某城市，以前在北京做程序员，后来失业回家乡创业，这期间做过不少项目，做过女鞋品牌 MAITELAINI ，做过独立游戏，做过社交媒体 LOOKBOOK-MY ，无一例外都没有成功。 做了这么多东西，没获得什么称赞，最后混成了发啥都没看的地步，混成了人人无视乃至人人喊打的地步，所以说起来感觉我这个人真的很可笑。 所以说创业太难，总之我累了。 以后不知道什么时候就消失了，谁知道呢，一个不配存在于这个世界上的人罢了 就说这么多吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222496#reply5
+
+---
+
+#### 6042. [V2EX] B 站公布笑声识别相关专利，可基于笑声相似度触发内容交互
+
+**问题描述 / Problem Description**:
+近日，B 站关联公司上海哔哩哔哩科技有限公司申请的 “基于笑声识别的内容交互方法及装置、设备、存储介质和程序产品” 专利公布 CN122157698A 。摘要显示，本公开提供了基于笑声识别的内容交互方法及装置、设备、存储介质和程序产品。该方法包括：对从电子设备的环境中采集的音频数据进行笑声识别；响应于识别到所述音频数据中存在笑声，提取识别到的第一笑声对应的第一笑声特征；将所述第一笑声特征与所述电子设备的循环缓存区中存储的第二笑声特征进行匹配，以得到所述第一笑声特征与所述第二笑声特征的相似度，其中，所述第二笑声特征是过去经过的预设时长内提取的至少一个第二笑声对应的笑声特征；基于所述第一笑声特征与
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222482#reply3
+
+---
+
+#### 6043. [V2EX] 大模型中转站风险提示——警惕“小作坊”式服务
+
+**问题描述 / Problem Description**:
+随着 AI 应用需求爆发，各类“大模型中转站”（也称 AI 中转站、API 中转站）大量涌现。这类服务将海内外大模型的 API 接口整合到一个平台，方便用户一站式调用。然而，当前市场 鱼龙混杂 ，大量无资质、无备案的“小作坊”式中转站野蛮生长， 国家安全部已于 2026 年 6 月 8 日正式发布专项风险提示 。以下风险，请广大用户务必警惕。 一、数据“裸奔”——隐私泄露与倒卖 小作坊中转站的最大卖点是低价，但最大的代价是用户的隐私数据。 这类平台大多 运营资质缺失、安全防护薄弱 ，用户提交的数据完全没有安全保障。具体表现为： 数据明文传输 ：据行业调研， 67%的中转站未部署 SSL 加密
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222468#reply1
+
+---
+
+#### 6044. [V2EX] 注册使用 WorkBuddy 有几率领取稀有 SSR 宠物
+
+**问题描述 / Problem Description**:
+https://www.codebuddy.cn/profile/share/buddy?buddy_id=1334031 加入 WorkBuddy ，开启你的成长之旅 完成任务、收集 Buddy 、解锁稀有款！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222437#reply0
+
+---
+
+#### 6045. [V2EX] 凑热闹进了某站，因为一个言论还是溜了，遭不住遭不住
+
+**问题描述 / Problem Description**:
+找半天没找到注销账号的地方，Google 了下说是给管理员留言，不会整那个玩意，发个帖子赶紧让他们注销我账号溜了。 主动屏蔽 再加一重
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222355#reply9
+
+---
+
+#### 6046. [V2EX] GLM5.2 下午高峰期，虽然三倍计费，但是实际上很耐用！
+
+**问题描述 / Problem Description**:
+是不是感觉很意外，反直觉 因为实在太慢了，导致很耐用.......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222277#reply8
+
+---
+
+#### 6047. [V2EX] Google 已全面放开更改邮箱，可以改自己的本名邮箱了
+
+**问题描述 / Problem Description**:
+http://myaccount.google.com/google-account-email 终于不用再用自己的名字当邮箱了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222263#reply8
+
+---
+
+#### 6048. Display another local user's GUI in a window on macOS 26 (Tahoe)
+
+**问题描述 / Problem Description**:
+Tags: macos, remote-desktop, screen-sharing, tahoe | Score: 0 | Views: 53 | Answers: 1 | Created: 2026-06-16
+
+**解决方案 / Solution**:
+I would split this into two separate points. First, ssh -Y and XQuartz probably are not the issue here. They are mainly for X11 apps. Finder, Safari, System Settings, and other normal macOS apps are Aqua apps, so they will not appear through X forwarding. Second, Fast User Switching is Apple's usual way to keep another local user logged in, but it does not give you that user's full desktop in its own window while you keep using your own account. For what you are describing - a separate macOS user desktop running inside your current desktop - I would use a VM. Screen Sharing or VNC might help from another machine, but I would not rely on localhost Screen Sharing as a clean or supported way to view a second local user's full GUI session from the active account.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486604/display-another-local-users-gui-in-a-window-on-macos-26-tahoe
+
+---
+
+#### 6049. What is "ReverseDirectorystore.Shadow 3" that I found on the desktop of my MacBook Air (2017) running maOS Monterey?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, apple-account | Score: 0 | Views: 192 | Answers: 1 | Created: 2024-06-16
+
+**解决方案 / Solution**:
+reverseDirectoryStore.shadow is not a program. It is a data file that is part of the Spotlight index, which allows you to search for your files using Spotlight and Finder. It is a normal part of any macOS installation.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473446/what-is-reversedirectorystore-shadow-3-that-i-found-on-the-desktop-of-my-macbo
+
+---
+
+#### 6050. Was there ever a MacBook Pro 2020 with intel Processor and without Touch Bar?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, touch-bar, intel | Score: 0 | Views: 471 | Answers: 1 | Created: 2024-06-06
+
+**解决方案 / Solution**:
+According to everymac.com , all 2020 Intel MacBook Pro models have a Touch Bar. This is true even for the 2019 Intel MacBook Pro models introduced in 2020.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/473204/was-there-ever-a-macbook-pro-2020-with-intel-processor-and-without-touch-bar
+
+---
+
+#### 6051. USB Devices Frequently Disconnect/Reconnect After macOS Sonoma 14.5 Update
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, usb, software-update, sonoma | Score: 0 | Views: 341 | Answers: 1 | Created: 2024-05-21
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472833/usb-devices-frequently-disconnect-reconnect-after-macos-sonoma-14-5-update
+
+---
+
+#### 6052. How can I use the terminal to put put files in a directory into folders, grouping them based on name?
+
+**问题描述 / Problem Description**:
+Tags: terminal, pdf | Score: 0 | Views: 209 | Answers: 1 | Created: 2023-09-29
+
+**解决方案 / Solution**:
+Your sed command is just removing the part of the filename beginning with . . So it's setting FOLDER to the filename without .pdf . The regexp should match everything starting from space, not . . for FILE in *; do FOLDER=$(echo "$FILE" | sed 's/ .*$//') mkdir -p "$FOLDER" mv "$FILE" "$FOLDER" done
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464809/how-can-i-use-the-terminal-to-put-put-files-in-a-directory-into-folders-groupin
+
+---
+
+#### 6053. How to use tree without listing contents of .app file in Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal | Score: 0 | Views: 323 | Answers: 1 | Created: 2023-09-23
+
+**解决方案 / Solution**:
+tree has -P and -I to show/hide files based on wild-card patterns but I didn't have any luck so far using them to hide the content of specific directories. You can remove the content of NAME.app directories with grep though: tree -f | grep -v '\.app/' -f is required in this case to allow filtering on the whole path. If you don't want to see the whole path, you can also remove it again with sed : tree -f | grep -v '\.app/' | sed 's| \./.*/||' The resulting output is similar to the one you get without -f , but without the content of the .app directories.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464571/how-to-use-tree-without-listing-contents-of-app-file-in-mac
+
+---
+
+#### 6054. No $PATH file in my home folder on my Ventura 13.5.2?
+
+**问题描述 / Problem Description**:
+Tags: terminal, environment-variables | Score: 0 | Views: 419 | Answers: 1 | Created: 2023-09-21
+
+**解决方案 / Solution**:
+After some investigating I stumbled upon the folder /etc/paths.d/ with one file containing part of my $PATH variable. I created another file in this folder, put my paths in it, and now everything works. Not sure if that's the intended way to do it though.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464494/no-path-file-in-my-home-folder-on-my-ventura-13-5-2
+
+---
+
+#### 6055. Unexpected results using info from `mdls` to search via `mdfind`
+
+**问题描述 / Problem Description**:
+Tags: terminal, spotlight | Score: 0 | Views: 131 | Answers: 1 | Created: 2023-09-13
+
+**解决方案 / Solution**:
+I can confirm the behaviour you are seeing with a test on my Mac. But that is only when I, like you, enter the time without the time zone. The file creation date/time is 2023-08-14 21:14:13 +0000 (as in your mdls output). The Spotlight index is storing date/time as in time zone +00. So you need to specify that time zone in your mdfind . Try this: mdfind 'kMDItemFSCreationDate > $time.iso(2023-08-14 21:14:00 +0000) && kMDItemFSCreationDate < $time.iso(2023-08-14 21:14:20 +0000)' The equivalent works for my test file.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464237/unexpected-results-using-info-from-mdls-to-search-via-mdfind
+
+---
+
+#### 6056. `tput setaf` inconsistency + fail (Ventura, Sonoma)
+
+**问题描述 / Problem Description**:
+Tags: terminal, iterm, command-line | Score: 0 | Views: 116 | Answers: 1 | Created: 2023-09-06
+
+**解决方案 / Solution**:
+In the end I had to build upwards from scratch. I won't try to explain this code; GP4 will do a better job! There was a ${DIM} that was somehow getting RESET on the old system but not the new system. I don't get it. All I can say is: now it works! function rgb { let "sum = 16 + 36*$1 + 6*$2 + $3" echo -n "\[\e[38;5;${sum}m\]" } BOLD=$(tput bold) DIM=$(tput dim) RESET_RAW='\e[0m' RESET='\[\e[0m\]' BRIGHT=$(rgb 4 4 4) BLUE=$(rgb 1 1 5) YELLOW=$(rgb 4 4 1) git_branch() { git rev-parse --abbrev-ref HEAD 2>/dev/null } PS1="\n" PS1+="$(rgb 2 2 2)\u" PS1+="$(rgb 1 1 1)@" PS1+="$(rgb 2 3 2)\h " # `sudo scutil --set HostName foo` to set hostname (\h)` PS1+="${BLUE}\w " PS1+="${YELLOW}\$(git_branch)" PS1+="\n" PS1+="$(rgb 3 3 3)> " PS1+="${BRIGHT}${BOLD}" PS2="${BOLD}> ${RESET}" trap 'echo -ne "${RESET_RAW}" > $(tty)' DEBUG
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/464002/tput-setaf-inconsistency-fail-ventura-sonoma
 
 ---
