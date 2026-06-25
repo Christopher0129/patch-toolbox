@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6353**
+**总计条目 / Total entries: 6460**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -90515,5 +90515,1402 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1222278#reply166
+
+---
+
+#### 6354. Linux 7.2 Drops Ancient PROFIBUS Driver: Ported From SCO Unix In 1998, Unused For Years
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufjv65/linux_72_drops_ancient_profibus_driver_ported/
+
+---
+
+#### 6355. Drawy 1.0.2 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufei8c/drawy_102_released/
+
+---
+
+#### 6356. One Line x86 Change To GCC Compiler Nets +12% Benchmark Win For Modern Intel/AMD CPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uew93k/one_line_x86_change_to_gcc_compiler_nets_12/
+
+---
+
+#### 6357. Linux driver W
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uffb7k/linux_driver_w/
+
+---
+
+#### 6358. Kraid: A new Rust-based compiler for Panfrost (Mali GPU)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufj5yi/kraid_a_new_rustbased_compiler_for_panfrost_mali/
+
+---
+
+#### 6359. Untrusted data in Linux — How Rust is going to save us (Greg Kroah-Hartman at RustWeek)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uewig3/untrusted_data_in_linux_how_rust_is_going_to_save/
+
+---
+
+#### 6360. Easy Clip Studio on Linux!!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufh76l/easy_clip_studio_on_linux/
+
+---
+
+#### 6361. sched: Extend cache-aware scheduling into topology-aware scheduling
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uf7t4h/sched_extend_cacheaware_scheduling_into/
+
+---
+
+#### 6362. The fastest storage validator for Linux (Open-Source)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uffw26/the_fastest_storage_validator_for_linux_opensource/
+
+---
+
+#### 6363. "So Many AI-Fueled Fixes" Means No New ARM64 KVM Features For Linux 7.2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uew7xd/so_many_aifueled_fixes_means_no_new_arm64_kvm/
+
+---
+
+#### 6364. Lenevo Vantage for linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uf4r4d/lenevo_vantage_for_linux/
+
+---
+
+#### 6365. Bcachefs 1.38.6 Benchmarks by Phoronix
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufg5oc/bcachefs_1386_benchmarks_by_phoronix/
+
+---
+
+#### 6366. New AMD Linux Patches Expose Gamma 2.4 + Gamma 2.6 Curves
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uew6m4/new_amd_linux_patches_expose_gamma_24_gamma_26/
+
+---
+
+#### 6367. F2FS Integrates FSERROR Reporting, Reduces Memory Footprint In Linux 7.2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uew5o2/f2fs_integrates_fserror_reporting_reduces_memory/
+
+---
+
+#### 6368. MGLRU Improvements in Linux 7.2 dramatically improve MongoDB throughput
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uew3jo/mglru_improvements_in_linux_72_dramatically/
+
+---
+
+#### 6369. Show r/linux: FocusKill - A local, lightweight scheduled app blocker daemon
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ueiksi/show_rlinux_focuskill_a_local_lightweight/
+
+---
+
+#### 6370. [V2EX] debian+gnome 开机后可以不显示用户列表 只需要输入密码 像 mac 那样么？有什么插件实现么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222124#reply3
+
+---
+
+#### 6371. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply6
+
+---
+
+#### 6372. [V2EX] 程序员适合培养哪些爱好？
+
+**问题描述 / Problem Description**:
+打游戏不算
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222922#reply18
+
+---
+
+#### 6373. [V2EX] MCP 还是别塞太多 Tool
+
+**问题描述 / Problem Description**:
+最近写 MCP ，想着把软件的功能尽量都暴露给 AI ，因此拆分比较细，一下子整了两百多个 Tool ，发现有的模型容易遗漏 Tool 。一开始以为是描述写得不够详细，后来才知道 Tool 列表是整体一次性丢给 AI 的，内容越多识别反而更容易出问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222918#reply0
+
+---
+
+#### 6374. [V2EX] 今天重开了 Cursor Pro（新人半价 $10），竟然发现 GLM 5.2 可以免费蹬
+
+**问题描述 / Problem Description**:
+前几天开了 OpenCode GO ，新人首月 $5 。 但是无奈，GLM 5.2 消耗套餐巨快无比，瞬间额度耗光（毕竟在 GO 套餐里，GLM 5.2 定价是最贵的）。 推上看到有人说 Cursor 上了 GLM 5.2 。终究按耐不住，还是上了。 Google 上搜索了一个别人的邀请链接，使用新号，首月半价开了 Pro 套餐，支付宝付款，实际扣款 ¥68.48 。 但默认并不直接显示 GLM 5.2 模型。 需要你在 设置面板 —> Models -> View All Models -> 拉到底部 GLM 5.2 High 实际测试，速度很快。 但更爽的是： GLM 5.2 免费，免费，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222905#reply8
+
+---
+
+#### 6375. [V2EX] 腾讯 Agent Mail 内测体验 + 优化版 Skill 分享
+
+**问题描述 / Problem Description**:
+先说结论 QQ 邮箱团队最近搞了个 Agently Mail ，专给 AI Agent 用的独立邮箱，跟个人邮箱完全隔离。目前内测中，微信扫码就能申请，每人可以拿 2 个邮箱地址，前缀可以自定义 。试了几天，确实解决了 Agent 收发邮件的老大难问题，但官网版 Skill 在发 HTML 邮件时有坑，顺手撸了个优化版，也一并分享出来。 官网： https://agent.qq.com/ GitHub： https://github.com/Tencent/AgentlyMail （ Apache-2.0 开源） Agently Mail 是什么？ 简单说就是： 给你的 AI Agent 一个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222895#reply1
+
+---
+
+#### 6376. [V2EX] 土区 apple 充值的 gpt plus，想换成别的区升级 pro 有办法吗
+
+**问题描述 / Problem Description**:
+土区 pro 有点贵，想换成美区的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222885#reply4
+
+---
+
+#### 6377. [V2EX] K8s 发布失败后，大家第一眼先看哪？
+
+**问题描述 / Problem Description**:
+最近在看 K8s 的发布链路，发现一个挺现实的问题：发布失败以后，每个人下手的位置不太一样。 有人先翻 CI ，看是不是镜像没打出来；有人先看 Helm / Argo CD ，确认资源有没有真正下到集群；也有人直接 kubectl describe pod ，先扫 Events 、Pod 状态、Deployment ；还有人第一反应是去看业务日志。 我有点纠结的是：第一步到底该先确认发布动作有没有真正执行成功，还是直接进集群看 Pod 为什么没起来。 大家平时遇到这种发布失败，一般第一步看哪里？ 有固定顺序吗，还是看报错现象临时判断？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222873#reply15
+
+---
+
+#### 6378. [V2EX] 为啥我的 gpt plus 突然变成 pro 20x 了
+
+**问题描述 / Problem Description**:
+有人和我一样吗，还发邮件和我说我有两个重复订阅，一个 apple store 的一个 google play 的，play 我压根没订阅过呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222866#reply3
+
+---
+
+#### 6379. [V2EX] 发票置换，想要餐饮发票
+
+**问题描述 / Problem Description**:
+公司报销，需要用到餐饮发票，每个月可能都需要一两千的样子。我这边可以提供加油的发票置换，有没有老哥刚好需要油票的，可以置换一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222853#reply5
+
+---
+
+#### 6380. [V2EX] 我现在用 AI 干活太快 领导有些震惊 怎么办 你们是怎么装的
+
+**问题描述 / Problem Description**:
+领导昨天提的需求我今天就做完了，本来打算留到明天再交付，结果他突然过来跟进进度，我和后端没兜住话，说基本已经做完。领导听完特别意外，我现在心里挺慌的，感觉要被领导站起来蹬了，你们是怎么装的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222834#reply25
+
+---
+
+#### 6381. [V2EX] 突发奇想，快速写了一个 a2a 的实际使用例子
+
+**问题描述 / Problem Description**:
+今天有一个同事问：“俩个不同 Cursor IDE 中 Agent 的对话怎么互相交流通信”。然后我觉得，这不就是 A2A 的概念吗？我大概和他描述了一下 A2A 协议，让他可以调研调研这个，看看是否可以，然后我自己也上网搜索了一些，借助于现在 AI 的强大，我很快用 Claude Code 完成了一个初版的 demo ，大概流程如下： 在一台可以相互都可以访问到的机器启动一个 hub server ，用于消息的收集和转发，然后其他客户端可以启动 client ，启动后根据 a2a 协议，可以正常发送消息、创建任务、提交任务，查询下 pending 的任务等等，我想的是给 Claude Cod
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222808#reply0
+
+---
+
+#### 6382. [V2EX] opencode go 套餐首次 5 美元可以无限续吗
+
+**问题描述 / Problem Description**:
+opencode go 套餐 开了首次 5 美元，发现使用 mimo-v2.5 压根使劲蹬都蹬不完 用了 GLM-5.1 就问了几个问题就用了月量的 5%，简直就是离谱 要是可以一直 5 美元，我感觉这个真的性价比超高的。 基本编程用可以手拿把掐的，模型也多 我司就我一个人用这个🐶
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222806#reply12
+
+---
+
+#### 6383. [V2EX] 当 AI 写完代码你们人肉校验的强度如何？
+
+**问题描述 / Problem Description**:
+我最开始用 AI 写代码时每一行都仔细检查，现在 AI 写完代码如果还那样效率就太低了，但也不能完全放手，我现在在 AI 撸完代码后总体扫一眼，不再揪细节，只是判断代码没有失控即可，Rust 、Nodejs 、Java 三个项目。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222801#reply2
+
+---
+
+#### 6384. [V2EX] 终于找到了一个能实时读微信的 cli 了
+
+**问题描述 / Problem Description**:
+一直在找有没有能够读电脑上微信数据库的，因为平时业务比较多，想让 Agent 打通读取微信的这环。但是大部分都不能读实时数据，那就没啥用了，而且很多项目都没维护，根本用不了。 之前用过 opencli 的，可惜最近被制裁了。 现在又让我找到了一个，试了下挺好用的。能查实时数据能监听，今天就用 Codex 结合它统计群里我们给客户交付的账号信息，不用自己一点点扒聊天记录了 正在打算做一个万能的基于微信 + Agent 的业务系统，比如自动统计一些行业数据之类的，生成大盘，追踪线索。 https://github.com/pandorafuture/wx-cli
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222778#reply2
+
+---
+
+#### 6385. [V2EX] 分享一下 mimo 的额度
+
+**问题描述 / Problem Description**:
+https://token-plan-cn.xiaomimimo.com/v1 https://token-plan-cn.xiaomimimo.com/anthropic tp-cyo3gri7wei02lvw0emvumj4gmeycm71a9jra1v9oqa0v6em
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222773#reply6
+
+---
+
+#### 6386. [V2EX] AI 写出来的代码时不时进行重构还值得吗
+
+**问题描述 / Problem Description**:
+我觉得让 AI 写出来的代码，时不时的进行重构有些失去价值，因为原本那段代码我也不会自己维护
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222766#reply8
+
+---
+
+#### 6387. [V2EX] 深度 Vibe Coding 2 个月 用了三百多亿 Token 一些统计数据和碎碎念
+
+**问题描述 / Problem Description**:
+一个月前发了贴（ Codex 使用量分析）： https://v2ex.com/t/1213114 目前这个 Infra 项目也 public release 了， https://wdl.dev/ 项目在一开始是 CC 为主的，当时还是 Opus 4.6 ，后来 GPT 5.5 来了，就主要由 Codex 主程了，最大的一个 session （也就是我所谓的 Main Coder ），目前累积的 input 已经有 10B （一百亿）了。 Codex 2026-04-13 to 2026-06-24 统计如下： 指标 数值 Total tokens 17,997,228,583 Input
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222760#reply8
+
+---
+
+#### 6388. [V2EX] cursor 输出的内容消失是咋回事
+
+**问题描述 / Problem Description**:
+如图，输出完成后切了下对话再回来就变成这个样子了，还挺容易触发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222746#reply2
+
+---
+
+#### 6389. [V2EX] 大家都是怎么深度使用 Codex 的？我现在让它自己沉淀项目经验，但感觉还不够体系化
+
+**问题描述 / Problem Description**:
+最近一直在用 Codex 辅助开发项目。 我目前的用法大概是：指定一个项目目录，然后让它直接看代码、改代码、实现功能、修 bug 。除此之外，我也尝试让 Codex 在项目里自己沉淀一些经验，比如项目结构说明、开发规范、业务流程、常见问题、接口约定之类的内容。 简单说，就是希望它不要每次都像一个新来的开发，而是能逐渐积累这个项目的上下文。 这种方式确实有用，但我现在感觉还不够体系化，主要有几个困惑： 项目经验到底应该沉淀在哪里？ README 、 AGENTS.md 、docs 、rules ，还是单独建一个 AI 知识库？ 哪些内容适合让 Codex 自己总结，哪些内容必须人工整理？ ski
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222745#reply17
+
+---
+
+#### 6390. [V2EX] LinkedIn 创始人里德·霍夫曼炮轰： SpaceX 不是一家人工智能公司， xAI 是彻底的灾难
+
+**问题描述 / Problem Description**:
+https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake LinkedIn 联合创始人、同时是 Anthropic 和 OpenAI 的投资人 Reid Hoffman ，最近在播客里对马斯克的 AI 帝国开了一轮猛炮。 关于 xAI： 彻底的灾难。理由是 xAI 的 11 位联合创始人 全部离职 了，Grok 模型在基准测试上落后于 Anthropic 和 OpenAI 。做火箭的公司去买一个编程工具，这个逻辑确实需要解释 关于 SpaceX： 不是一家人工智能公司。Space
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222737#reply10
+
+---
+
+#### 6391. [V2EX] 记录又一次被入侵的挖矿程序
+
+**问题描述 / Problem Description**:
+之前我提到过，电脑被挖矿程序入侵过，今天又发现了一次。 很早之前是因为这台电脑的 redis 是免密的，最后给 redis 增加了密码解决这问题。 现在还在找原因。等我找到之后给大家贴个结果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222706#reply10
+
+---
+
+#### 6392. Why can’t I delete a suspicious PHP file even with root?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, centos, php, centos-7 | Score: 35 | Views: 4855 | Answers: 2 | Created: 2025-07-16
+
+**解决方案 / Solution**:
+Your server is compromised; wipe and reinstall I cannot stress this enough. Right now, someone else basically owns your server, and has access to everything on it. Immediately disconnect it from the Internet, back up all data (personal files, website content, databases, configs, etc.) known to be clean, wipe (don't factory reset), then reinstall from clean media. <?php @eval($_POST['shell']);?> Yeah, that's pretty much a textbook web shell. Someone uploaded that to easily execute arbitrary commands on your server. Moreover, the attacker put the web shell in a file with an innocent-sounding name ( error.php ) in an attempt to hide it (I'm just glad you weren't fooled), and the parent directory was immutable. Only root can make things immutable, so the attacker had root. Please understand that just removing this file does not fix the problem. For one, the security hole the attacker used in the first place could still be there. And furthermore, after the attacker had access to your system and obtained root permissions, you cannot trust what you see on your server anymore. Anything on your system could have been tampered with (even commonly-used commands like rm , ls , sudo , echo , and cd , and even the shell and kernel). Finally, stay away from CWP . I'm not too familiar with it, but a brief search made me very concerned with its (lack of) security. For example, in their installation instructions , for CentOS 8 they make you run wget http://centos-webpanel.com/cwp-el8-latest followed by sh cwp-el8-latest . Yeah, an official guide telling you to download stuff over plain HTTP and run it as root, in 2025. Calling that a permanently disqualifying fuck-up would be a compliment. I also found this page with CWP vulnerabilities . Basically, these guys have found 23 different vulnerabilities in 2019 alone. The first four: CVE-2019-13359 – Root privilege escalation CVE-2019-13360 – User panel bypass login #1 CVE-2019-13605 – User panel bypass login #2 CVE-2019-13383 – User enumeration via HTTP response message when combined, allow basically any visitor to get root on systems with CWP. Yikes. UPDATE May 2026: Now those are from 2019, but it does not bode well. In the past seven years, people have discovered 51 additional vulnerabilities in CWP ( [1] , [2] ), with almost all of them having a severity of "high" or "critical". In fact, there have been at least three of these discovered in the past year alone ( CVE-2025-48703 , CVE-2025-67888 , CVE-2025-70951 ), and all of these allowed arbitrary code execution. And the cherry on top? The official installation guide also states: No Uninstaller Provided: Please be aware that CWP does not include an uninstaller. To remove the software after installation, a complete reinstallation of the server's operating system is required. What this is, is a direct admission that CWP is very invasive and very messy, to the point of being almost indistinguishable from malware. All told, CWP looks like a security nightmare. Stay away.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910971/why-can-t-i-delete-a-suspicious-php-file-even-with-root
+
+---
+
+#### 6393. Is it worth to defragment XFS on SSD (many files)?
+
+**问题描述 / Problem Description**:
+Tags: ssd, email, centos, xfs | Score: 13 | Views: 5891 | Answers: 4 | Created: 2022-12-19
+
+**解决方案 / Solution**:
+How does defragmenting help? When storing data on an HDD with a spinning disk, defragmentation reduces the mechanical seek time penalty significantly. Highly-fragmented filesystems on those devices can become extremely slow. Solid state devices do not have any seek penalty. However, modern high-speed SSDs are often IOPS limited, meaning that the rate at which commands can be sent over the bus is the bottleneck, not the ability of the device to access the actual data and service those requests. Defragmenting a filesystem increases the number contiguous logical sectors in a given file. This can improve performance, even for an SSD, because reading a small portion of a file can be done with a single I/O request. If that same portion was fragmented, it might take multiple requests. This could easily saturate the bus when using an extremely-fast SSD with a heavily-fragmented filesystem. However, there are better ways to improve performance. Use TRIM instead If you want to improve performance on an SSD, you have to help the SSD know which blocks can be erased by using TRIM . A TRIM command allows the filesystem to tell the SSD which sectors are empty and can be handed over to the garbage collector, even if they still have (unallocated) data on them. This greatly improves the device's ability to manage storage. On Linux, you can execute the command fstrim /var/mail (or wherever your partition is) to give the SSD a list of unallocated sectors that can be discarded. See fstrim(8) for more details on command usage. TRIM greatly improves the ability of the SSD to counter write amplification and allows for better wear leveling. This will not speed up reads from the device, but it will speed up writes. If your drive has very little free space, there will be less benefit (after all, you wouldn't have many free sectors). Solid state drives have their own form of defragmentation Because the FTL (flash translation layer, a part of the flash controller) of an SSD is responsible for mapping logical sectors to physical sectors, there's no serious need to defragment a filesystem in most situations. The time it takes to defragment and the wear is generally not worth it. SSDs will automatically attempt to optimize the storage of files. This optimization is subject to the limitations of NAND flash. To understand the limitations, we have to describe some terminology: Cells are the smallest physical unit which stores data in a flash device. In SLC devices, each cell stores a single bit. MLC devices, each cell stores two (by holding four different voltage levels). TLC devices store three (by holding 8), and QLC, four (by holding 16). Multiple cells, plus some extra to hold error-correcting codes that help recover from failures of individual cells, make up a page . Pages are a collection of cells that can be read from or written to at once. A page is how NAND flash devices implement physical sectors, and most pages are between 512 bytes and 4 KiB in size. Pages can only be written to if they have been erased (all bits initialized to 1). If a page has data on it, it cannot be overwritten without first being erased. This is due to the fact that a single bit can only be changed from a 1 to a 0. The other way around can only be done by erasing an entire page. However, it's not possible to erase individual pages. To erase a page, you must erase the entire block . Blocks are a collection of pages and are measured in tens or hundreds of kilobytes. 128 individual 4 KiB pages may make up a single 512 KiB block. The only action that can be taken on an individual block is erasure. This will erase all pages that it contains. Any data in any of those pages that needs to be preserved must be moved to another block that has some erased pages already. This is done by the flash controller transparently. If you have very few free blocks, the controller may need to move some data around in order to write anything, which slows down writes continuously. This poses a problem: In order to most effectively optimize writes, the SSD needs to know which sectors the filesystem no longer needs. However, block storage devices don't even have a concept of filesystems. They can't distinguish between a sector that is no longer allocated to any file but still contains leftover data and a sector that is still part of a file and must be preserved. Because making SSDs aware of filesystems would be a Sisyphean task, it's better to simply tell the SSD which sectors the filesystem no longer needs. Modern SSDs support this via TRIM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758592/is-it-worth-to-defragment-xfs-on-ssd-many-files
+
+---
+
+#### 6394. Prevent NetworkManager.service from logging on all TTYs of the console
+
+**问题描述 / Problem Description**:
+Tags: centos, centos-7, console, tty, error-logging | Score: 4 | Views: 264 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+Those are not NetworkManager logs. They're kernel logs (as in, dmesg ), merely indirect result of some action that NetworkManager does. (In this case the kernel's IPv6 stack always prints this sort of junk every time an interface is brought up while it still has no physical carrier – and of course NetworkManager's job is literally to bring interfaces up.) The kernel always logs to where the console= boot parameter specifies. By default, that's /dev/tty0 which means "the currently active (foreground) terminal". Either boot with a different console= parameter, e.g. /dev/tty1, or use dmesg --console-level to temporarily restrict console output to only specific level as minimum, for example, warning . The same corresponds to the loglevel= boot parameter (though I think that requires the numeric level).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930376/prevent-networkmanager-service-from-logging-on-all-ttys-of-the-console
+
+---
+
+#### 6395. Am I able to hide the GNOME title bar for applications?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, fedora, gnome | Score: 3 | Views: 19885 | Answers: 1 | Created: 2023-01-25
+
+**解决方案 / Solution**:
+Plainly, applications can be run full screen, sans title bar, as do some video and image apps, so it is possible if the app implements it. See the Unite GNOME shell extension which, among other things, Removes titlebars on maximized windows. Hides window controls on maximized windows with headerbars. Download from GitHub . Please let us know if this works for you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1764903/am-i-able-to-hide-the-gnome-title-bar-for-applications
+
+---
+
+#### 6396. How to check all URLs from requests still being processed by Apache on CentOS?
+
+**问题描述 / Problem Description**:
+Tags: apache-http-server, centos, httpd | Score: 2 | Views: 235 | Answers: 1 | Created: 2025-03-17
+
+**解决方案 / Solution**:
+To monitor currently active HTTP requests including their URLs in Apache on CentOS, the most direct solution is to use Apache's mod_status module. This module can show you active connections, statuses and the full request including the query string.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1886833/how-to-check-all-urls-from-requests-still-being-processed-by-apache-on-centos
+
+---
+
+#### 6397. Installing keytool without JDK
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, java, docker, centos-7 | Score: 2 | Views: 11254 | Answers: 1 | Created: 2023-08-06
+
+**解决方案 / Solution**:
+You may use an alternative to keytool. For example : KeyStore Explorer .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1802826/installing-keytool-without-jdk
+
+---
+
+#### 6398. How can I prevent a file owner from using chmod to elevate permissions on a file?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-http-server, centos, file-permissions | Score: 2 | Views: 6758 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+The only way to prevent a file from being modified by the owner is to prevent that user from being logged in as the file's owner. This means creating an admin account and a user account, so that user is a single user, and any file that might be created is created by the admin entity. Using Octal Notation Syntax with chmod Each digit is independent of the other two. -400: The first digit 4 means (r) read-only for the owner of the file. The second and third digits do not give any permissions to other users/groups. -600: The first digit 6 means (rw) the owner of the file has full read and write access, the second and third digits do not give any permissions to other users/groups more info... https://www.linode.com/docs/guides/modify-file-permissions-with-chmod/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795686/how-can-i-prevent-a-file-owner-from-using-chmod-to-elevate-permissions-on-a-file
+
+---
+
+#### 6399. How can I enable streaming (flush/ob_flush) in CentOS 8 stream with PHP-FPM?
+
+**问题描述 / Problem Description**:
+Tags: centos, php, fastcgi, fpm | Score: 2 | Views: 306 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+This is not an answer to the question, but a (temporary) work-around: disable PHP-FPM and switch back to mod_php . In CentOS 8, this is fairly simple, in /etc/httpd/conf.modules.d/00-mpm.conf , uncomment this line: LoadModule mpm_prefork_module modules/mod_mpm_prefork.so and comment out the line for mpm_event . Then add this to httpd.conf : <IfModule prefork.c> StartServers 5 MinSpareServers 5 MaxSpareServers 10 MaxRequestWorkers 150 MaxConnectionsPerChild 0 </IfModule> Source: https://www.linode.com/docs/guides/how-to-install-apache-web-server-centos-8/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1795648/how-can-i-enable-streaming-flush-ob-flush-in-centos-8-stream-with-php-fpm
+
+---
+
+#### 6400. What happened to my X fonts? The newer OS has a "weaker" font weight for "Monospace 10"
+
+**问题描述 / Problem Description**:
+Tags: centos, fonts, xorg, fontconfig, font-faces | Score: 2 | Views: 472 | Answers: 1 | Created: 2023-06-23
+
+**解决方案 / Solution**:
+Ah, ha! It is a different font. You can resolve font names using fc-match Monospace . On el7: ]$ fc-match Monospace DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book" On OL9: # fc-match Monospace NimbusMonoPS-Regular.otf: "Nimbus Mono PS" "Regular" So I used fc-list to figure out where it was packaged: # fc-list |grep DejaVuSansMono.ttf: /usr/share/fonts/dejavu/DejaVuSansMono.ttf: DejaVu Sans Mono:style=Book # rpm -qf /usr/share/fonts/dejavu/DejaVuSansMono.ttf dejavu-sans-mono-fonts-2.33-6.el7.noarch and ultimately installed dejavu-sans-mono-fonts on OL9 and not my fonts look great!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1790771/what-happened-to-my-x-fonts-the-newer-os-has-a-weaker-font-weight-for-monosp
+
+---
+
+#### 6401. CentOS | Bash process is using a lot of ram in idle state (more than 3GB)
+
+**问题描述 / Problem Description**:
+Tags: bash, memory, centos, process | Score: 2 | Views: 240 | Answers: 2 | Created: 2023-01-19
+
+**解决方案 / Solution**:
+I'm not sure if this constitutes an answer, but if not, hopefully its at least a partial answer - and besides its to big to be a comment - Use ps aux | awk '{print $6/1024 " MB\t " $2 "\t" $11}' | sort -n | grep "bash" To additionally show the PID of the bash process. Then use pstree -show-pids Which should show a process tree including the PID's,and may help you to find what, if any children are consuming the memory related to the PID of the bash process thats a problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763686/centos-bash-process-is-using-a-lot-of-ram-in-idle-state-more-than-3gb
+
+---
+
+#### 6402. Cannot browse the internet in VMWare Player guest CentOS
+
+**问题描述 / Problem Description**:
+Tags: networking, dns, browser, centos, vmware | Score: 1 | Views: 352 | Answers: 2 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+I have the same problem on a win11 with NAT on vmware fusion on my enterprise network. In my case, the enterprise firewall blocks the "dns over https" (DoH). When you are using the nat, the DNS serveur in the vm is vmware and vmware forwards the dns requests using DoH. I don't have figure out how to disable this behavior In the VM, you can manually set the enterprise DNS to bypass the VMWare DNS.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885236/cannot-browse-the-internet-in-vmware-player-guest-centos
+
+---
+
+#### 6403. How to route a subdomain to an IP
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, centos, routing, forwarding | Score: 1 | Views: 104 | Answers: 1 | Created: 2024-12-15
+
+**解决方案 / Solution**:
+I have an python app that needs IP to connect to the API Sorry to say this, but your python app needs to be fixed. DNS was invented many decades ago, and DNS support is literally built-in to most HTTP clients – so make your python app use DNS. Requiring a fixed IP address for an API server is not reasonable in 2024, both from an administrative perspective (the API server's owner is free to move servers around and reassign their IP addresses), and from a security perspective – how does your app handle TLS? does it just disable the certificate validation? Is there any way I can route a CentOS or Ubuntu server to the subdomain say xyz.app.com so my python app connects to the API. HAProxy should be capable of this, although I don't have a configuration example. If it didn't work for you, then Apache httpd (or Nginx) would also allow this – in Apache you should define ProxyPass for the default VirtualHost (and very similar proxy_pass in Nginx). <VirtualHost *:80> SSLProxyEngine On ProxyPass https://xyz.app.com </VirtualHost> (I don't think you can use ProxyPass from within .htaccess, but it's a small step from editing .htaccess to editing the same kind of configuration in /etc/apache2.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1865335/how-to-route-a-subdomain-to-an-ip
+
+---
+
+#### 6404. Cannot connect to server which provides certificate signed using SHA1 and RSA (linux, openssl 3)
+
+**问题描述 / Problem Description**:
+Tags: centos, openssl, tls | Score: 1 | Views: 1331 | Answers: 1 | Created: 2024-08-15
+
+**解决方案 / Solution**:
+So the solution turned out to be distribution-specific . I use CentOS 9 . Admin said he used this command: update-crypto-policies --set DEFAULT:SHA1 . It seems it modified openssl config like this: /etc/crypto-policies/back-ends/opensslcnf.config: # add signature algorithms SignatureAlgorithms = ...:ECDSA+SHA1:RSA+SHA1 Groups = ... # add this lines [openssl_init] alg_section = evp_properties [evp_properties] rh-allow-sha1-signatures = yes Note that in this case config changes that described in question is not needed. If you not using CentOS / Red Hat, that maybe this answer help: https://stackoverflow.com/a/75766335/3602201 or issue it refers to: https://github.com/openssl/openssl/issues/20526#issuecomment-1472248209 . In short, openssl should be compiled with option enable-weak-ssl-ciphers which is not set by default. I didn't validate if it works as the first solution is more suitable for me.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852402/cannot-connect-to-server-which-provides-certificate-signed-using-sha1-and-rsa-l
+
+---
+
+#### 6405. How to resolve the password prompting issue when setting up lftp connection with sftp and ssh-key in centos?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ftp, sftp, lftp | Score: 1 | Views: 1268 | Answers: 1 | Created: 2024-06-28
+
+**解决方案 / Solution**:
+The below link help me fix the issue https://unix.stackexchange.com/a/454738/622738 The easiest way to do this is: lftp -u username, sftp://hostname. The , character after username does the trick.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847438/how-to-resolve-the-password-prompting-issue-when-setting-up-lftp-connection-with
+
+---
+
+#### 6406. Cannot access Outline VPN on CentOS
+
+**问题描述 / Problem Description**:
+Tags: linux, vpn, centos, iptables, outline | Score: 1 | Views: 1354 | Answers: 1 | Created: 2023-08-18
+
+**解决方案 / Solution**:
+That's right, installing Outline on a CentOS is a little bit more difficult comparing to Ubuntu. 1. Check if the ports are used by other service: lsof -i -P | grep 21256 lsof -i -P | grep 30453 If so, run the Outline script once again — it will generate new pair of ports. 2. Check if the ports are not allowed by the firewall: iptables-save | grep 21256 iptables-save | grep 30453 We expect an empty output. 3. Add the following lines to the services file: nano /etc/services outline 21256/tcp outline 30453/tcp 4. Add the ports to the firewall and reload the firewall to apply new rules: firewall-cmd --zone=public --add-port=21256/tcp --permanent firewall-cmd --zone=public --add-port=30453/tcp --permanent firewall-cmd --reload Don't forget to copy a new JSON string from an output of the shell script. Copy and paste it to Outline Manager and try to connect again, it should work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1804825/cannot-access-outline-vpn-on-centos
+
+---
+
+#### 6407. fail2ban on xcp-ng (xen server on an centos) keeps dying
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, xen, systemctl, fail2ban | Score: 1 | Views: 196 | Answers: 1 | Created: 2023-05-05
+
+**解决方案 / Solution**:
+I found an original service definition in the repo and replaced the paths to match mine like this: [Unit] Description=Fail2Ban Service Documentation=man:fail2ban(1) After=network.target iptables.service firewalld.service ip6tables.service ipset.service nftables.service PartOf=iptables.service firewalld.service ip6tables.service ipset.service nftables.service [Service] Type=simple Environment="PYTHONNOUSERSITE=1" ExecStartPre=/bin/mkdir -p /run/fail2ban ExecStart=/usr/bin/fail2ban-server -xf start ExecStop=/usr/bin/fail2ban-client stop ExecReload=/usr/bin/fail2ban-client reload PIDFile=/run/fail2ban/fail2ban.pid Restart=on-failure RestartPreventExitStatus=0 255 [Install] WantedBy=multi-user.target
+
+**参考链接 / References**:
+- https://superuser.com/questions/1782617/fail2ban-on-xcp-ng-xen-server-on-an-centos-keeps-dying
+
+---
+
+#### 6408. Why I get refused when connect my remote host with domain name using ssh?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, dns, centos, domain | Score: 1 | Views: 640 | Answers: 1 | Created: 2023-04-23
+
+**解决方案 / Solution**:
+Seems to be working as expected. Both resolve to the same IP dig davidzhu.xyz +short 144.202.12.32 dig www.davidzhu.xyz +short 144.202.12.32 ssh works as well ~ ❯ ssh root@davidzhu.xyz The authenticity of host 'davidzhu.xyz (144.202.12.32)' can't be established. ED25519 key fingerprint is SHA256:NpOMboPt3497x7ISpCbqOf/oCu4FNMqtzcKQPELZvUw. This key is not known by any other names Are you sure you want to continue connecting (yes/no/[fingerprint])? yes Warning: Permanently added 'davidzhu.xyz' (ED25519) to the list of known hosts. root@davidzhu.xyz's password: ~ took 10s ❯ ssh root@www.davidzhu.xyz The authenticity of host 'www.davidzhu.xyz (144.202.12.32)' can't be established. ED25519 key fingerprint is SHA256:NpOMboPt3497x7ISpCbqOf/oCu4FNMqtzcKQPELZvUw. This host key is known by the following other names/addresses: ~/.ssh/known_hosts:64: davidzhu.xyz Are you sure you want to continue connecting (yes/no/[fingerprint])? yes Warning: Permanently added 'www.davidzhu.xyz' (ED25519) to the list of known hosts. root@www.davidzhu.xyz's password: My best guess is caching, was pointing to an old/stale IP
+
+**参考链接 / References**:
+- https://superuser.com/questions/1780477/why-i-get-refused-when-connect-my-remote-host-with-domain-name-using-ssh
+
+---
+
+#### 6409. Why does my VPS get lots of ssh logging attempt from unknown hosts
+
+**问题描述 / Problem Description**:
+Tags: ssh, centos, vps | Score: 1 | Views: 417 | Answers: 2 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+You're being attacked by hackers or (more likely) bots. Ensure that your password is long and complicated, so cannot be broken by brute force.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1778957/why-does-my-vps-get-lots-of-ssh-logging-attempt-from-unknown-hosts
+
+---
+
+#### 6410. Stop script in init.d is not called
+
+**问题描述 / Problem Description**:
+Tags: centos, init-script | Score: 1 | Views: 560 | Answers: 1 | Created: 2023-04-05
+
+**解决方案 / Solution**:
+First, with SysV init in mind, a K script in rc0.d makes little sense. At shutdown, you do not exit runlevel 0 (which is the "poweroff" runlevel); you enter runlevel 0, thus starting services that are in rc0.d , not stopping them. The only services that would be killed would be those in your previous runlevel, usually 2 or 5 (you could use the runlevel command to check the runlevel), i.e. shutdown means rc5.d/K* followed by rc0.d/S* . But your version of CentOS does not use the SysV init system; it uses systemd, which doesn't process /etc/rc*.d links in the same way as SysV init at all. Instead it performs a best-effort conversion of SysV init scripts to systemd units, generating a kill-agents.service unit from /etc/init.d, with the rc*.d links only being used as dependency hints . (The primary source of dependencies, however, is the LSB headers inside your init.d script – systemd does not pay attention to the link order.) The automatic SysV conversion does not look at K* links at, only S* , as shutdown is automatic – systemd has service status tracking built in, and will only "stop" those services that are currently started . For the same reason, it also does not look at any links in the "shutdown" runlevels rc0.d or rc6.d , making your link doubly ignored. You should write a native systemd unit for your task. (Preferably, the "agents" themselves should be a systemd service, which could then be stopped at the correct point.) See Fedora documentation on doing that. If it's impossible to manage the "agents" as regular services and if you really need a "simple command" script that needs to do something on shutdown, the service definition would start off as: [Service] Type=oneshot RemainAfterExit=yes ExecStart=/bin/true ExecStop=/usr/local/bin/mytask.sh That is, it would "start" on boot (doing nothing) and remain in the 'started' state until shutdown; at that point, systemd will automatically stop it and trigger the ExecStop action. (The rest, including [Install] , is the same as normal "start on boot" services, starting as part of multi-user.target or similar.) It is also possible to create a simpler-looking "shutdown" service without RemainOnExit=, which hooks into shutdown.target instead of multi-user.target, but if done that way it'll be difficult to order it against the various services that are stopping on shutdown. Also will this be triggered first before instance termination or will it be triggered after /etc/systemd services termination. All systemd services are stopped as early as their dependencies allow, in parallel if possible. (For example, if a service is ordered Before=foo.service , then it will be started before foo.service, and will be stopped after foo.service has finished stopping.) When two services have no ordering or dependencies against each other, they may be started and stopped in parallel. So if you have a "one-shot" service with ExecStop, as in the above example, and if you want it to perform the "stop" action before service XYZ has been stopped, you'll need to define the opposite start dependency, i.e. After=XYZ.service . (That is, pretend for a moment that the action is performed on startup.) For SysV scripts, systemd reads dependencies from init.d script LSB headers but does not pay any attention to the S or K link order.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1777463/stop-script-in-init-d-is-not-called
+
+---
+
+#### 6411. Waiting until a string appears in a log file
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, command-line, centos, grep | Score: 1 | Views: 1645 | Answers: 1 | Created: 2023-02-28
+
+**解决方案 / Solution**:
+Is it possible the "database start" is perhaps written as "Database start"? The default grep may not ignore a change of case, requiring grep -i for doing that. The following might be safer syntax : grep -q "database start" <(tail -f logfile) Reference : How to wait till a particular line appears in a file .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1771205/waiting-until-a-string-appears-in-a-log-file
+
+---
+
+#### 6412. Sign virtual box modules (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) Centos 8
+
+**问题描述 / Problem Description**:
+Tags: linux, virtualbox, virtual-machine, centos, centos-8 | Score: 1 | Views: 3784 | Answers: 2 | Created: 2023-01-19
+
+**解决方案 / Solution**:
+After some research, I found the solution. Solution 1 : disable secure boot. Solution 2 : 1- Install mokutil package sudo dnf update sudo dnf install mokutil 2- Create RSA key under new folder. sudo -i mkdir /root/signed-modules cd /root/signed-modules openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VirtualBox/" chmod 600 MOK.priv 3- This command will ask you to add a password, you need this password after the next reboot. sudo mokutil --import MOK.der 4- Reboot your system and a blue screen appear, select Enroll MOK --> Continue --> put the previous password and your system will start. 5- Put the previous cmmands in a script to run it later (after system update) cd /root/signed-modules vi sign-virtual-box Add the following cmd to this script : #!/bin/bash for modfile in $(dirname $(modinfo -n vboxdrv))/*.ko; do echo "Signing $modfile" /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 \ /root/signed-modules/MOK.priv \ /root/signed-modules/MOK.der "$modfile" done Use the below to find signfile if the above fails & edit script accordingly. find /usr/src -name sign-file 5- Add exec permission and run the script chmod 700 sign-virtual-box ./sign-virtual-box 6- Launch VirtualBOx modprobe vboxdrv For more info see this link (for ubuntu users) https://stegard.net/2016/10/virtualbox-secure-boot-ubuntu-fail/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763729/sign-virtual-box-modules-vboxdrv-vboxnetflt-vboxnetadp-vboxpci-centos-8
+
+---
+
+#### 6413. REDHAT machine + rsyslogd eating up 10+ GB
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, redhat-enterprise-linux, syslog, systemctl | Score: 1 | Views: 867 | Answers: 1 | Created: 2023-01-05
+
+**解决方案 / Solution**:
+To limit the memory usage of the rsyslog service, add memory limits to the file /lib/systemd/system/rsyslog.services under the [Service] section. Example of allocating two gigabytes : [Service] MemoryAccounting=yes MemoryCurrent=2G MemoryLimit=2G You may locate the unit file on any systemd distro with the command: systemctl cat rsyslog.service Reference : rsyslogd eating up 20+ GB (!) of RAM - what evidence to gather?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1761261/redhat-machine-rsyslogd-eating-up-10-gb
+
+---
+
+#### 6414. Linux, centos, resetting password
+
+**问题描述 / Problem Description**:
+Tags: linux, unix, centos, passwords | Score: 1 | Views: 96 | Answers: 1 | Created: 2022-12-27
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1759678/linux-centos-resetting-password
+
+---
+
+#### 6415. How to use wifi on CentOS 9?
+
+**问题描述 / Problem Description**:
+Tags: wireless-networking, centos, wifi-configuration | Score: 1 | Views: 3533 | Answers: 2 | Created: 2022-11-27
+
+**解决方案 / Solution**:
+Install NetworkManager-wifi. Restart NetworkManager service See this topic: https://unix.stackexchange.com/questions/408012/how-can-i-find-out-what-plugin-is-missing-in-nmcli
+
+**参考链接 / References**:
+- https://superuser.com/questions/1754939/how-to-use-wifi-on-centos-9
+
+---
+
+#### 6416. Show Shell Function in Ubuntu Terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, alias, functions | Score: 10 | Views: 1394 | Answers: 2 | Created: 2024-03-17
+
+**解决方案 / Solution**:
+You can do both ( and maybe more ) at once with type -a like so: $ type -a tailnet tailnet is aliased to `journalctl -f -u NetworkManager' tailnet is a function tailnet () { journalctl -f -u NetworkManager }
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1507803/show-shell-function-in-ubuntu-terminal
+
+---
+
+#### 6417. Shortcut Ctrl+Alt+T for opening terminal doesn't work anymore since i upgraded to ubuntu 25.04
+
+**问题描述 / Problem Description**:
+Tags: command-line, shortcuts, 25.04 | Score: 8 | Views: 2457 | Answers: 4 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+It seems that the Ubuntu upgrade forgot to install the needed package. I fixed it with this one: sudo apt install xdg-terminal-exec Installing ptyxis works because it depends on xdg-terminal-exec which then gets installed along and this fixes the actual problem.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1548043/shortcut-ctrlaltt-for-opening-terminal-doesnt-work-anymore-since-i-upgraded-t
+
+---
+
+#### 6418. Should I use the "time" keyword, the "/usr/bin/time" command or the "times" builtin to time the execution of commands in bash?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, scripts | Score: 7 | Views: 1992 | Answers: 1 | Created: 2024-05-29
+
+**解决方案 / Solution**:
+times (built-in) times - as per help times : Prints the accumulated user and system times for the shell and all of its child processes. Emphasis on "accumulated" and on "for the shell and all of its child processes". It doesn't take any argument, and it doesn't measure the time of execution of another command: It prints the current user and system time spent by the shell and its children for their own execution. For example, if I wanted to printf an empty string a million times, the time it would take a shell to run all those commands would be significant (focus on the first field of the commented lines): > times; for x in {1..1000000}; do printf ''; done; times # running printf a million times in the current shell 0m0,021s 0m0,000s # shell's user time is about 0 0m0,009s 0m0,003s 0m2,232s 0m0,087s # shell's user time increased by about 2 seconds 0m0,009s 0m0,003s > times; (for x in {1..1000000}; do printf ''; done); times # running printf a million times in a subshell 0m2,239s 0m0,090s 0m0,009s 0m0,009s # shell's children user time is about 0 0m2,239s 0m0,096s 0m2,308s 0m0,153s # shell's children user time increased by about 2 seconds Which gives it a completely different purpose from time (reserved word) and /usr/bin/time (executable). Most of the time (pun not intended), in scripts, you'll use time and /usr/bin/time . time (reserved word) / /usr/bin/time (executable) As @terdon crucially notes, a time "utility" that's implemented in such a way that "can be accessed via the exec family of functions" must be present on a system to be POSIX-compliant 1 ; this, alone, justifies the presence of /usr/bin/time in addition to time . The most significant differences between the reserved word and the executable are: The first is a shell facility. Which means you'll always be able to use it in Bash (and I guess in most shells), while you won't necessarily be able to use the second on a non-POSIX-compliant system; conversely, if you're running a shell that doesn't have the first, depending on the system and its POSIX compliance, you may still be able to use the second. Realistically speaking, I've personally never used a distro that didn't have either Bash or /usr/bin/time . Also note that, in general, built-in often run faster than external executables. The first may be applied to built-ins, functions, lists and subshells; the second may not. time printf '' function foo() {}; time foo time { foo; bar; } time (foo) So in practice, on Ubuntu at least, as far as a single command is concerned, the difference between the two mainly boils down to the format in which the output is printed. Using the reserved word you have little output customization available (basically you can print using the default format and a POSIX-compliant format), while using the executable you have way more options available (see man time ). > time sleep 5; printf '\n'; /usr/bin/time sleep 5 real 0m5,002s user 0m0,001s sys 0m0,000s 0.00user 0.00system 0:05.00elapsed 0%CPU (0avgtext+0avgdata 2176maxresident)k 0inputs+0outputs (0major+95minor)pagefaults 0swaps From the link: Any of the standard utilities may be implemented as regular built-in utilities within the command language interpreter. This is usually done to increase the performance of frequently used utilities or to achieve functionality that would be more difficult in a separate environment. [...] However, all of the standard utilities, including the regular built-ins in the table, but not the special built-ins described in Special Built-In Utilities, shall be implemented in a manner so that they can be accessed via the exec family of functions as defined in the System Interfaces volume of POSIX.1-2008 and can be invoked directly by those standard utilities that require it (env, find, nice, nohup, time, xargs).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515767/should-i-use-the-time-keyword-the-usr-bin-time-command-or-the-times-buil
+
+---
+
+#### 6419. Is there a way to use tee with the whole script from INSIDE the script?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripts, tee | Score: 7 | Views: 2344 | Answers: 2 | Created: 2024-04-18
+
+**解决方案 / Solution**:
+You can put this line at the top of your script: exec &> >(tee -a "update.out") For example: #!/usr/bin/env bash exec &> >(tee -a "update.out") echo "this is going through tee"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1510881/is-there-a-way-to-use-tee-with-the-whole-script-from-inside-the-script
+
+---
+
+#### 6420. How can I fetch CPU information using WMI provider or equivalent on Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: command-line, hardware, cpu | Score: 6 | Views: 1079 | Answers: 3 | Created: 2025-05-06
+
+**解决方案 / Solution**:
+Linux doesn’t expose hardware data through one monolithic API the way Windows does with WMI. Instead, information is surfaced in plain‑text virtual files ( /proc and /sys ), and many small utilities read those files and present the data in friendly form. But there are standards‑based management stacks you can install, like OMI , OpenPegasus or OpenLMI if you really want a WMI‑style CIM/WBEM layer These stacks expose almost the same CIM schema (classes like CIM_Processor, CIM_StatisticalInformation, etc.), so porting a WMI‑based script that already speaks CIM is largely a matter of pointing it at the local CIMOM socket and adjusting namespace names. If you just need the data, the native tools might be simpler: lscpu # static details cat /proc/cpuinfo # full raw processor data cpupower frequency-info # Needs linux-tools-$(uname -r) mpstat -P ALL 1 # Live Usage per Core I'm sure there are other I didn't mention...
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1547191/how-can-i-fetch-cpu-information-using-wmi-provider-or-equivalent-on-ubuntu
+
+---
+
+#### 6421. Can I get the location of bash before executing a script?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripts | Score: 6 | Views: 1380 | Answers: 3 | Created: 2024-05-29
+
+**解决方案 / Solution**:
+You can use /usr/bin/env for this: #! /usr/bin/env bash This will run the script using the bash executable found first in the list of directories in your $PATH . This is often used for Python scripts, which typically have a shebang line of: #! /usr/bin/env python3
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515733/can-i-get-the-location-of-bash-before-executing-a-script
+
+---
+
+#### 6422. `command echo --help` invokes bash internal echo function
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, echo | Score: 6 | Views: 406 | Answers: 1 | Created: 2024-05-03
+
+**解决方案 / Solution**:
+It does work as announced: it suppresses shell function lookup , not built-in lookup. The effect with time is misleading: time is a reserved word , not a built-in, and only at the start of a pipeline. In command time , the pipeline is started by command , so the only time it could have executed was the external one. To see the difference, define a function: echo () { date; } And compare echo with command echo . (You can remove the function with unset -f echo .) To see what something is, use type : $ foo () { true; } $ type if time [[ [ echo foo if is a shell keyword time is a shell keyword [[ is a shell keyword [ is a shell builtin echo is a shell builtin foo is a function foo () { true }
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1512651/command-echo-help-invokes-bash-internal-echo-function
+
+---
+
+#### 6423. Regular expression to match a concatenation of fixed strings, and alternative expressions
+
+**问题描述 / Problem Description**:
+Tags: bash, regex, filename | Score: 6 | Views: 513 | Answers: 1 | Created: 2024-03-13
+
+**解决方案 / Solution**:
+In this context, shells uses glob patterns , not regular expressions 1 . In bash, you could use a ksh-style extended glob (enabled by default in an interactive bash shell - in a script, you will need to set with shopt -s extglob ): ls test@([13][0-8]|2[23]) or ls test@(1[0-8]|2[23]|3[0-8]) In zsh, you could use numeric ranges instead (although it supports ksh-style extended globs as well): ls test(<10-18>|<22-23>|<30-38>) Alternatively, you could use brace expansion (in both bash and zsh) - but note this doesn't actually perform matching so you will get errors unless all the named files are actually present: ls test{{1,3}{0..8},22,23} Coincidentally , ([13][0-8]|2[23]) and (1[0-8]|2[23]|3[0-8]) are also valid extended regular expressions, so you could use them in a find expression for example: find . -maxdepth 1 -regextype posix-extended -regex '.*/test([13][0-8]|2[23])'
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1507395/regular-expression-to-match-a-concatenation-of-fixed-strings-and-alternative-ex
+
+---
+
+#### 6424. Fake ext4 file creation dates for a large number of files by setting the system time
+
+**问题描述 / Problem Description**:
+Tags: bash, ext4, time, exif, exiftool | Score: 5 | Views: 1751 | Answers: 2 | Created: 2024-06-01
+
+**解决方案 / Solution**:
+First of all, pCloud does support the modification date of the file. These are some files that I uploaded today to my pCloud account. I tested with the "pCloud drive" software (ver. 1.14.5) for Linux and also from the Web Interface using Firefox ( https://my.pcloud.com/ ). The Linux touch -t works perfectly even on already uploaded files: However, it seems that dates before the epoch are not supported. Now the real part of your question: How can I set the birth date of a file in an Ubuntu system to the time I want? I never recommend changing system time for any purpose at all! You can use the debugfs tool from the e2fsprogs package to change a specific file's creation (=birth) date and time. Since this tool can be dangerous and would need to un-mount the file system containing your files, I would recommend creating a test filesystem: $ cd /tmp $ truncate --size 100m test100m $ mkfs.ext4 test100m mke2fs 1.47.0 (5-Feb-2023) [...] Writing superblocks and filesystem accounting information: done $ mkdir /tmp/tmount $ sudo mount /tmp/test100m /tmp/tmount $ cd /tmp/tmount $ sudo mkdir testdir $ sudo chown myuser:myuser testdir $ cd testdir $ touch testfile $ stat testfile File: testfile Size: 0 Blocks: 0 IO Block: 4096 regular empty file Device: 7,21 Inode: 13 Links: 1 Access: (0664/-rw-rw-r--) Uid: ( 1000/ myuser) Gid: ( 1000/ myuser) Access: 2024-06-02 16:09:44.095324795 +0300 Modify: 2024-06-02 16:09:44.095324795 +0300 Change: 2024-06-02 16:09:44.095324795 +0300 Birth: 2024-06-02 16:09:44.095324795 +0300 $ touch -t 193811100905 testfile $ stat testfile File: testfile Size: 0 Blocks: 0 IO Block: 4096 regular empty file Device: 7,21 Inode: 13 Links: 1 Access: (0664/-rw-rw-r--) Uid: ( 1000/ myuser) Gid: ( 1000/ myuser) Access: 1938-11-10 09:05:00.000000000 +0200 Modify: 1938-11-10 09:05:00.000000000 +0200 Change: 2024-06-02 16:12:28.703865067 +0300 Birth: 2024-06-02 16:09:44.095324795 +0300 Note that only the access and modification times have changed! Now remount the file system with debugfs : $ sudo umount /tmp/tmount $ sudo debugfs -w /tmp/test100m debugfs 1.47.0 (5-Feb-2023) debugfs: cd testdir debugfs: stat testfile Inode: 13 Type: regular Mode: 0664 Flags: 0x80000 Generation: 3688309895 Version: 0x00000000:00000005 User: 1000 Group: 1000 Project: 0 Size: 0 File ACL: 0 Links: 1 Blockcount: 0 Fragment: Address: 0 Number: 0 Size: 0 ctime: 0x665c6fbc:a7d083ac -- Sun Jun 2 16:12:28 2024 atime: 0xc56c0d1c:00000000 -- Thu Nov 10 09:05:00 1938 mtime: 0xc56c0d1c:00000000 -- Thu Nov 10 09:05:00 1938 crtime: 0x665c6f18:16ba29ec -- Sun Jun 2 16:09:44 2024 Size of extra inode fields: 32 Inode checksum: 0x2b0c4f97 EXTENTS: (END) debugfs: set_inode_field <13> crtime 192310292030 debugfs: quit $ sudo mount /tmp/test100m /tmp/tmount $ cd /tmp/tmount/testdir $ stat testfile File: testfile Size: 0 Blocks: 0 IO Block: 4096 regular empty file Device: 7,21 Inode: 13 Links: 1 Access: (0664/-rw-rw-r--) Uid: ( 1000/ myuser) Gid: ( 1000/ myuser) Access: 1938-11-10 09:05:00.000000000 +0200 Modify: 1938-11-10 09:05:00.000000000 +0200 Change: 2024-06-02 16:12:28.703865067 +0300 Birth: 1923-10-30 22:30:00.004807757 +0200 The set_inode_field command of debugfs can change the birth date and time which is stored in the inode of the file. The inode number ( <13> in the above example) was obtained from the first line of the stat command above. The date specified here in debugfs is in UTC.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1516195/fake-ext4-file-creation-dates-for-a-large-number-of-files-by-setting-the-system
+
+---
+
+#### 6425. "unknown option: --bash" when opening the terminal
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash | Score: 5 | Views: 9325 | Answers: 2 | Created: 2024-05-29
+
+**解决方案 / Solution**:
+As @Artur said in his answer , the issue is the --bash parameter in eval "$(fzf --bash)" . More specifically, if you look at fzf's GitHub page , you will see the following note: --bash , --zsh , and --fish options are only available in fzf 0.48.0 or later. If you have an older version of fzf, or want finer control, you can source individual script files in the /shell directory. The location of the files may vary depending on the package manager you use. Please refer to the package documentation for more information. (e.g. apt show fzf ) So you are most likely using an fzf version that does not support this option (run fzf --version and see; you should get a version < 0.48). This can happen if you have installed fzf using apt , which for Ubuntu 24.04 is 0.44, or if you have an old git installation of fzf, for which you haven't pulled the latest changes. In any case, to install the latest version of fzf, which allows for shell integration using the --bash option, follow these steps: Remove the version installed using apt : sudo apt remove fzf Remove the ~/.fzf directory if it exists and install fzf using git : rm -rf ~/.fzf git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install Run fzf --version . You should now see: $ fzf --version 0.52.1 (6432f00) Restore your ~/.bashrc file, since eval "$(fzf --bash)" should now work. That's it! fzf should now work properly with the keybindings enabled! In the future, if you want to update fzf, you can use the following command: cd ~/.fzf && git pull && ./install
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515760/unknown-option-bash-when-opening-the-terminal
+
+---
+
+#### 6426. Terminal command to copy all existing terminal output to a file
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 4 | Views: 1191 | Answers: 3 | Created: 2025-07-07
+
+**解决方案 / Solution**:
+Desktop file starts the program script You can make a desktop file, that starts the program script in a terminal window automatically, as easy as starting a standard terminal window. I made a separate one, but you can also modify the existing desktop file for gnome-terminal . I will show a simple example here. This works for one single gnome-terminal window. You may want to modify the desktop file in order to create unique names of the saved dialogues, if you want to run several terminal windows at the same time, and save the output for all of them. Desktop file You can use any unique name of the desktop file, and a unique name to show in the GUI. I used the name scripter.desktop , and 'MyTerm' to show, [Desktop Entry] Version=1.0 Categories=Application; Type=Application Name=MyTerm Comment=terminal emulator that saves dialogue to typescript Exec=gnome-terminal -- bash -c 'script;bash' #Exec=gnome-terminal #Icon=org.gnome.Terminal Icon=gnome-term.svg Terminal=false StartupNotify=false How to use it I moved the desktop file into the directory /usr/share/applications , sudo cp scripter.desktop /usr/share/applications/ and then logged out and logged in again for the 'MyTerm' to be seen when selecting activity, A terminal window will show up, and you can run your commands there. When done, you run the command exit , and after that the dialogue is available in the file typescript . You can rename it if you want to save it from overwriting. As you can see, the content of typescript looks the same as the original dialogue, when shown by cat . If you want to browse it with less you should use the option -r , less -r typescript otherwise the output [as shown by less ] will be messed up.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1552492/terminal-command-to-copy-all-existing-terminal-output-to-a-file
+
+---
+
+#### 6427. How to use setfacl for adding the same permission
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, permissions, acl | Score: 4 | Views: 1048 | Answers: 1 | Created: 2024-06-01
+
+**解决方案 / Solution**:
+Just a pointer as I consider this a bit clumsy ... But, you'll get the point. In a shell loop: for i in /test/*; do p="$(getfacl "$i" | awk -F'::' '/user::/{printf $2}')" setfacl --test -m u:1234:"$p" "$i" done That was a dry-run ... When satisfied with the output, remove --test and re-run it again to actually modify ACLs.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1516127/how-to-use-setfacl-for-adding-the-same-permission
+
+---
+
+#### 6428. Understanding the meaning of the + and - signs after completion of a task run in background
+
+**问题描述 / Problem Description**:
+Tags: bash, background-process | Score: 4 | Views: 482 | Answers: 1 | Created: 2024-05-28
+
+**解决方案 / Solution**:
+From man bash : The symbols %% and %+ refer to the shell's notion of the current job, which is the last job stopped while it was in the foreground or started in the background. The previous job may be referenced using %- . If there is only a single job, %+ and %- can both be used to refer to that job. In output pertaining to jobs (e.g., the output of the jobs command), the current job is always flagged with a + , and the previous job with a - .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515620/understanding-the-meaning-of-the-and-signs-after-completion-of-a-task-run-in
+
+---
+
+#### 6429. How do I auto-start tmux, setting the status bar to a system-unique color?
+
+**问题描述 / Problem Description**:
+Tags: bash, tmux | Score: 4 | Views: 1311 | Answers: 1 | Created: 2024-04-22
+
+**解决方案 / Solution**:
+Put this in your user's ~/.bashrc : if [ -z "$TMUX" ]; then tmux_default_session_name=Default tmux_bg_color=# tmux_fg_color=#000000 tmux_bg_color_brightness=0 for c in $(cut -c27- /etc/machine-id | fold -w2); do tmux_bg_color="${tmux_bg_color}${c}" tmux_bg_color_brightness=$((tmux_bg_color_brightness + 16#${c})) done tmux_bg_color_brightness=$((tmux_bg_color_brightness / 3)) [ "$tmux_bg_color_brightness" -lt 128 ] && tmux_fg_color=#ffffff tmux new-session -d -s "$tmux_default_session_name" tmux set-option -t "$tmux_default_session_name" status-style "bg=${tmux_bg_color}" tmux set-option -at "$tmux_default_session_name" status-style "fg=${tmux_fg_color}" tmux set-option -at "$tmux_default_session_name" terminal-features ',*:RGB' tmux attach -t "$tmux_default_session_name" exit "$?" fi For the automatic start part, all we need to do is to check if we're already in a tmux session and, if not, to start a tmux session. I chose to name the session "Default". Exiting with a $? value will make the shell return automatically once the tmux session is not attached to it anymore, by any means (stopped / detached), propagating the status code generated by the tmux command to the caller. This is normally desirable, as you normally don't want to close the shell twice each time you're done with it, but the exit line can simply be omitted (or changed) in case it's not. if [ -z "$TMUX" ]; then tmux_default_session_name=Default [ ... ] tmux new-session -d -s "$tmux_default_session_name" [ ... ] tmux attach -t "$tmux_default_session_name" exit "$?" fi Then we need to automatically generate a system-unique 1 color for the status bar; leveraging /etc/machine-id , we can generate one that will persist even across hardware changes. After having done this, we need to calculate the "brightness" of the system-unique 1 color, so that we can set an appropriately bright / dark color for the text of the status bar (for the sake of simplicity any color below a "brightness" of 128 will have the corresponding text color set to white and any color equal or above a "brightness" of 128 will have the corresponding text color set to black 2 - see below for a more granular solution ). This can be done by: Extracting the last 6 hex digits from /etc/machine-id Iterating over each 2-digits pair, concatenating each pair to a variable which will hold an #rrggbb string defining the color and converting each pair to a decimal number, adding it to an accumulator which will hold the sum of the "brightnesses" of the R / G / B components of the color Dividing the "brightnesses sum accumulator" by 3 to calculate the average "brightness" of the R / G / B components Setting the text color appropriately tmux_bg_color=# tmux_fg_color=#000000 tmux_bg_color_brightness=0 for c in $(cut -c27- /etc/machine-id | fold -w2); do tmux_bg_color="${tmux_bg_color}${c}" tmux_bg_color_brightness=$((tmux_bg_color_brightness + 16#${c})) done tmux_bg_color_brightness=$((tmux_bg_color_brightness / 3)) [ "$tmux_bg_color_brightness" -lt 128 ] && tmux_fg_color=#ffffff Finally, to set the status bar color and text color: tmux set-option -t "$tmux_default_session_name" status-style "bg=${tmux_bg_color}" tmux set-option -at "$tmux_default_session_name" status-style "fg=${tmux_fg_color}" tmux set-option -at "$tmux_default_session_name" terminal-features ',*:RGB' 1 - The selected color is based on the system, however it does not uniquely identify it; the uniqueness is limited by the number of displayable colors in a #rrggbb format (accepted by tmux ), which de-facto limits the possible colors pool to ~16 millions; the seed for the color is extracted from the last 6 hex digits of /etc/machine-id , which is instead a unique identifier for the system; still this method produces a more than "unique enough" color considering the final objective (and I'd challenge you to tell apart 2 colors next to each other even in a "small" ~16 million colors pool... which is already probably too big, kinda defeating the purpose in relatively rare instances). 2 - To apply an appropriate proportionally bright / dark text color, one could subset the possible "brightness" of the status bar color in ranges; here I've subsetted it into 8 ranges; this snippet is meant to replace the [ "$tmux_bg_color_brightness" -lt 128 ] && tmux_fg_color=#ffffff line (if using this, one might as well then also remove the tmux_fg_color=#000000 line): if [[ $tmux_bg_color_brightness -ge 0 && $tmux_bg_color_brightness -lt 32 ]]; then tmux_fg_color="#ffffff" elif [[ $tmux_bg_color_brightness -ge 32 && $tmux_bg_color_brightness -lt 64 ]]; then tmux_fg_color="#cccccc" elif [[ $tmux_bg_color_brightness -ge 64 && $tmux_bg_color_brightness -lt 96 ]]; then tmux_fg_color="#aaaaaa" elif [[ $tmux_bg_color_brightness -ge 96 && $tmux_bg_color_brightness -lt 128 ]]; then tmux_fg_color="#888888" elif [[ $tmux_bg_color_brightness -ge 128 && $tmux_bg_color_brightness -lt 160 ]]; then tmux_fg_color="#666666" elif [[ $tmux_bg_color_brightness -ge 160 && $tmux_bg_color_brightness -lt 192 ]]; then tmux_fg_color="#444444" elif [[ $tmux_bg_color_brightness -ge 192 && $tmux_bg_color_brightness -lt 224 ]]; then tmux_fg_color="#222222" elif [[ $tmux_bg_color_brightness -ge 224 && $tmux_bg_color_brightness -le 255 ]]; then tmux_fg_color="#000000"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1511159/how-do-i-auto-start-tmux-setting-the-status-bar-to-a-system-unique-color
+
+---
+
+#### 6430. How to solve the response of my terminal that works very slow and badly?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, 22.04, ubuntu-gnome, sh | Score: 4 | Views: 7273 | Answers: 1 | Created: 2024-04-02
+
+**解决方案 / Solution**:
+Solution for the issue: Useful tip from: Perhaps something in this recent Q&A will be helpful: input delay on Terminal Ubuntu 22.04.4 – steeldriver Tipp: But after this fix - The system is in a bad shape. What I mean is apt-get install could not install or remove any programs anymore, because of the changed packages! # Ubuntu package assistent says call these command. # But do not it otherwise, it will removing gdm gnome-desktop etc. # Than the desktop enviroment is gone - unbeliveable I saw that - I sayed NO! sudo apt-get --fix-broken install # To come back into normal state follow below "Undo the script with these commands:" # This is a save way to come back into a working system with apt-get! The issue is the mutter package: ii libmutter-10-0:amd64 42.9-0ubuntu7 amd64 ii mutter-common 42.9-0ubuntu7 all Terminal works normal as aspected after replaceing it with these: hi libmutter-10-0:amd64 42.0-3ubuntu2 amd64 ii mutter-common 42.0-3ubuntu2 all Undo the script with these commands: sudo apt-mark unhold $(apt-mark showhold) sudo apt-get install --reinstall mutter-common libmutter-10-0 The script from the comment with little changes here: # I modified the script a little bit, # because there was some changed need, # otherwise Ubuntu 22.04.4 would cry like a baby because wrong version. # # Important after running the script - A restart of the OS is needed! # # Skript begins - I run it in a bash-Shell arch=$(dpkg --print-architecture) # one of amd64 arm64 armhf ppc64el riscv64 s390x ubuntuVersion=$(grep -i "distrib_release" /etc/lsb-release | cut -sd '=' -f2) version="" package="" if [[ "${ubuntuVersion}" = "23.10" ]]; then # Ubuntu 23.10 version="45.0-3ubuntu3" package="13-0" fi if [[ "${ubuntuVersion}" = "23.04" ]]; then # Ubuntu 23.04 if [[ "${arch}" = "amd64" ]]; then version="44.3-0ubuntu1.1" # only amd64 else version="44.0-2ubuntu4" # other archs fi package="12-0" fi if [[ "${ubuntuVersion}" = "22.04" ]]; then # Ubuntu 22.04 version="42.0-3ubuntu2" package="10-0" fi if [[ -z "${package}" || -z "${version}" ]]; then echo "Error - Package or Version not set" exit 1 fi if [[ -n "$( dpkg -l | grep 'mutter' | grep ''${version}'' )" ]]; then # Found older version and replace it with the new one echo libmutter-${package} install | sudo dpkg --set-selections echo libmutter-common install | sudo dpkg --set-selections # Reinstall the newer packages of the mutter package if [ "${package}" != "10-0" ]; then echo libmutter-common-bin install | sudo dpkg --set-selections sudo apt-get install --reinstall mutter-common libmutter-10-0 libmutter-common-bin else sudo apt-get install --reinstall mutter-common libmutter-10-0 fi else # Replace the newer version with the older ones wget http://se.archive.ubuntu.com/ubuntu/pool/main/m/mutter/libmutter-${package}_${version}_$arch.deb wget http://se.archive.ubuntu.com/ubuntu/pool/main/m/mutter/mutter-common_${version}_all.deb if [ "${package}" != "10-0" ]; then wget http://se.archive.ubuntu.com/ubuntu/pool/main/m/mutter/mutter-common-bin_${version}_$arch.deb fi sudo dpkg -i *mutter*.deb echo libmutter-${package} hold | sudo dpkg --set-selections echo libmutter-common hold | sudo dpkg --set-selections if [ "${package}" != "10-0" ]; then echo libmutter-common-bin hold | sudo dpkg --set-selections fi fi # Skript ends
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1509332/how-to-solve-the-response-of-my-terminal-that-works-very-slow-and-badly
+
+---
+
+#### 6431. Make Specific folder to Read only and can not delete files
+
+**问题描述 / Problem Description**:
+Tags: command-line, permissions, read-only | Score: 3 | Views: 258 | Answers: 1 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+Let's suppose the application runs as appuser , the admin is root and user is the user, and you have an /opt/app application folder. In this case: Set the owner of /opt/app to appuser:appuser Set the folder permissions recursively to r-xr-xr-x ( 555 ), thus users can't crate or delete files in the folder (except root of course). Set the file permissions recursively to rw-r--r-- ( 644 ), so appuser can modify them, but others can't. This is a simple solution, a bit more nuanced one would be putting the actual users of the application into the appuser group, then the previous permissions can be 550 and 640 respectively. Also, there is a missing part of the puzzle, you should set umask for the application, so new files will have the same permissions as the preexisting ones.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1544655/make-specific-folder-to-read-only-and-can-not-delete-files
+
+---
+
+#### 6432. How can I distinguish different python processes in top? Or how can I see which python processes eat all my CPU?
+
+**问题描述 / Problem Description**:
+Tags: command-line, 24.04, monitoring, top | Score: 3 | Views: 1439 | Answers: 2 | Created: 2025-03-26
+
+**解决方案 / Solution**:
+You can use the c command to toggle between showing the process name and command line. From the manpage : COMMAND -- Command Name or Command Line Display the command line used to start a task or the name of the associated program. You toggle between command line and name with `c', which is both a command-line option and an interactive command. Once you use c to get a desired view, you can have top save this configuration by pressing W . As mentioned above, you can start in the opposite of the saved configuration with top -c (or top --cmdline-toggle ).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1544532/how-can-i-distinguish-different-python-processes-in-top-or-how-can-i-see-which
+
+---
+
+#### 6433. Wildcards and depth of search
+
+**问题描述 / Problem Description**:
+Tags: command-line, wildcards | Score: 3 | Views: 395 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+That is normal behavior. ls does not recurse and it will not evaluate the glob pattern. The shell is doing that! If you run ls on a directory, it will show the directory's content by default. Use -d to show the directory names only, not their content. So, ls [[:lower:]]* does not recurse. The shell will match and expand the directories starting with a lower case character and ls will show their content. You can use ls */cpu* to find cpu* in all subdirectories, but that is also not ls that is recursing but your shell expanding the first * to all subdirectories. As an alternative you can use the globstar shell option to get recursion: shopt -s globstar # find all files starting with cpu recursively. ls **/cpu* # turn off globstar shopt -u globstar still, ls does not recurse, but the shell will. To get recursion outside the shell, use the find command: find . -type f -name "cpu*"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1544157/wildcards-and-depth-of-search
+
+---
+
+#### 6434. Is there a way to know if a file was copied?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, scripts, input, cp | Score: 3 | Views: 1474 | Answers: 1 | Created: 2024-04-21
+
+**解决方案 / Solution**:
+By comparing files' contents If a file is successfully newly copied to a different filename, the the contents of both files should be identical ... and given that those script files are unlikely to instantly or immediately change contents after the copy process, then ... You can use cmp right after the copying process to compare the source ( original ) file to the destination ( copied ) file with something like this: #!/bin/bash cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" if cmp -s "$source_file" "/etc/init.d/custom_script_$file_name"; then # Both files are identical # Do things based on that here: else # The files are different exit 1 fi or in a simpler one-liner like: cmp -s orig_file dest_file && echo "files are identical" and: cmp -s orig_file dest_file || echo "files are different" By cp 's exit status cp -i ( on newer versions ) i.e. $ cp --version cp (GNU coreutils) 9.4 Copyright (C) 2023 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>. This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Written by Torbjörn Granlund, David MacKenzie, and Jim Meyering. ( and newer ) should return a non success error code of 1 on inputting no by the user ( and also on other errors like No such file or directory so keep this in mind ) ... Therefore, you could listen for that in your script with e.g. trap and define a function to act upon it like this: #!/bin/bash check_status () { local status=$? (( status == 1 )) && exit $status } trap check_status ERR # Your "cp -i ..." command below # Unset the signal trap so the rest of the script gets excluded from that trap trap - ERR ... and that should terminate ( exit ) your script if the user input no for cp -i confirmation. Notice while the above could be a first choice for total control/reporting on multiple files cp -i operations as it can be extended so that, for example, you know which ones were accepted by the user an which ones were ignored like for example: $ cat copy.sh #!/bin/bash check_status () { local status=$? (( status == 1 )) && notcopied+=( "$f" ) } trap check_status ERR for f in file*; do cp -iv "$f" dir/ done if (( ${#notcopied[@]} > 0 )); then printf '%s\n' "The user answered NO to these files:" printf '%s\n' "${notcopied[@]}" exit 0 fi $ $ ls file* file file1 file.log $ ls dir/ file file1 file.log $ $ ./copy.sh cp: overwrite 'dir/file'? n cp: overwrite 'dir/file1'? n cp: overwrite 'dir/file.log'? y 'file.log' -> 'dir/file.log' The user answered NO to these files: file file1 However , it might be an overkill for single files copying operations as you can directly evaluate the exit status right after the cp -i command like for example: #!/bin/bash cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" || exit 1 ... to exit with status 1 on any exit status for cp -i other than 0 . or for example: #!/bin/bash cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" (( $? == 1 )) && exit 1 ... to exit with status 1 on error and only if the exit status was 1 for cp -i . or: #!/bin/bash cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" if (( $? == 0 )); then # The user answered "yes" and the copy was successful # Do stuff here: else # The user probably answered "No" and/or the copy failed # exit here: exit 0 fi ... to do things on cp -i success and exit otherwise. Other simpler straightforward ways to just exit the script on any error are: #!/bin/bash . . . # Start exit on error trap exit ERR # Your command(s) cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" # End exit on error trap - ERR . . . or similarly with set -e like: #!/bin/bash . . . # Start exit on error set -e # Your command(s) cp -iv "$source_file" "/etc/init.d/custom_script_$file_name" # End exit on error set +e . . . ... and of course, you can combine both methods i.e. checking/handling errors/exit status and comparing files' contents.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1511150/is-there-a-way-to-know-if-a-file-was-copied
+
+---
+
+#### 6435. Using my custom font on kitty Kubuntu
+
+**问题描述 / Problem Description**:
+Tags: command-line, kubuntu, fonts, 25.04 | Score: 2 | Views: 679 | Answers: 1 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+You can configure kitty font in ~/.config/kitty/kitty.conf . Open it in the editor of your choosing and look for the line that has font_family in the beginning. Change it to be whatever your font is. In your case, the edited line will be: font_family Comic Code You might also want to set bold/italic/bold italic fonts to auto: bold_font auto italic_font auto bold_italic_font auto More configurations can be found on the kitty.conf docs: https://sw.kovidgoyal.net/kitty/conf/#fonts Edit If you can't find the kitty.conf file, run nano ~/.conf/kitty/kitty.conf This will open the nano editor. Add the lines for the font and press CTRL + X to exit. Press Y to save the file and, finally, press ENTER .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1554447/using-my-custom-font-on-kitty-kubuntu
+
+---
+
+#### 6436. How to use gsettings to configure the blur-my-shell GNOME extension?
+
+**问题描述 / Problem Description**:
+Tags: command-line, gnome, gnome-shell-extension | Score: 2 | Views: 982 | Answers: 1 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+I forgot to do one more step, which is to compile the schemas using this command: $ glib-compile-schemas $HOME/.local/share/glib-2.0/schemas/ Only then will dconf-Editor be able to read the schemas.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1554116/how-to-use-gsettings-to-configure-the-blur-my-shell-gnome-extension
+
+---
+
+#### 6437. Change name server temporarily for current session/environment
+
+**问题描述 / Problem Description**:
+Tags: command-line, ssh, dns | Score: 2 | Views: 204 | Answers: 1 | Created: 2025-06-11
+
+**解决方案 / Solution**:
+Add a function or an alias to your ~/.bashrc and then source the file: source ~/.bashrc Function ssh-fred() { ssh $(dig +short fred @192.168.1.1); } Alias alias ssh-fred='ssh $(dig +short fred @192.168.1.1)'
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1550493/change-name-server-temporarily-for-current-session-environment
+
+---
+
+#### 6438. How to print multiline file content starting from start_pattern and ending at end_pattern?
+
+**问题描述 / Problem Description**:
+Tags: command-line, text-processing | Score: 2 | Views: 301 | Answers: 4 | Created: 2025-05-29
+
+**解决方案 / Solution**:
+To omit all lines before the first pattern and after the second pattern: awk '/^03[/]22 08:53:07/, /^03[/]22 08:53:38/' myFile To omit the pattern lines also, you need two selections: awk ' FNR == 1, /^03[/]22 08:53:07/ { next; } /^03[/]22 08:53:38/ { exit; } { print; } ' myFile Note the slashes in the dates need to be escaped (I prefer a character class to a backslash). There is no need to read the remainder of the file, hence the exit .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1549597/how-to-print-multiline-file-content-starting-from-start-pattern-and-ending-at-en
+
+---
+
+#### 6439. How to retrieve Docker log-opts configurations?
+
+**问题描述 / Problem Description**:
+Tags: command-line, docker | Score: 2 | Views: 79 | Answers: 1 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+Found a way to check the current log-opts configuration with: systemctl reload docker | systemctl status docker | grep "Reloaded configuration" | tail -n 1 | sed 's/.*"Reloaded configuration: \(.*\)/"\1/' | jq 'fromjson | .["log-opts"]' result: { "max-file": "10", "max-size": "10m" }
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1547590/how-to-retrieve-docker-log-opts-configurations
+
+---
+
+#### 6440. AWS CLI uses wrong server-side-encryption-customer-key?
+
+**问题描述 / Problem Description**:
+Tags: command-line, encryption, aws | Score: 2 | Views: 268 | Answers: 2 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+The expectation with the --sse-c-key option of aws s3 cp is that: The key provided should not be base64 encoded. However, the string Qnk+*********************bc= (redaction aside) definitely looks base64-encoded. You have to provide the unencoded key. Now the unencoded content may have characters unsuitable for command line use (such as the ASCII NULL), so to be safe, save the content to a file, and then use that file instead: echo "Qnk+*********************bc=" | base64 -d > some-file aws s3 cp --sse-c-key fileb://some-file ... Note the use of fileb:// here, which tells aws CLI that it is dealing with binary data and not simple text.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1546261/aws-cli-uses-wrong-server-side-encryption-customer-key
+
+---
+
+#### 6441. How to move a single-character column using sed without a consistent pattern?
+
+**问题描述 / Problem Description**:
+Tags: command-line, text-processing, sed | Score: 2 | Views: 381 | Answers: 3 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+With GNU sed , an extended regular expression ( -E ) and three Back-references : sed -E 's/^(.{12})([[:alnum:]])([[:alnum:]]{3})/\1\3\2/' old_file > new_file Output to new_file : HETATM 1 H232 16P 0 71.538 74.185 86.902 1.00 0.00 H HETATM 2 C23 16P 0 72.185 74.068 86.028 1.00 0.00 C HETATM 3 H231 16P 0 73.000 73.392 86.319 1.00 0.00 H See: The Stack Overflow Regular Expressions FAQ
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1545381/how-to-move-a-single-character-column-using-sed-without-a-consistent-pattern
+
+---
+
+#### 6442. How can I print the result of a comparison that uses "=~"?
+
+**问题描述 / Problem Description**:
+Tags: bash, echo, wmctrl | Score: 2 | Views: 564 | Answers: 2 | Created: 2024-06-12
+
+**解决方案 / Solution**:
+You need to use [[]] for the =~ operator. However, it cannot be used as a parameter to echo , but in an if statement like this: windows=$(wmctrl -l) if [[ "$windows" =~ "Enter password" ]] ; then echo 'Yes, a window is present!' else echo 'No such window was found!' fi If you really want to get a 0 or a 1 depending on the result of [[]] operator, you can use the following shorthand: [[ "$windows" =~ "Enter password" ]] ; echo $? Here, 0 would mean a match (=success), 1 no match (=failure). For more details about the =~ operator see this .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1517393/how-can-i-print-the-result-of-a-comparison-that-uses
+
+---
+
+#### 6443. How to mount host directory and modify its contents inside the Docker layer
+
+**问题描述 / Problem Description**:
+Tags: bash, mount, docker | Score: 2 | Views: 253 | Answers: 1 | Created: 2024-05-29
+
+**解决方案 / Solution**:
+You could implement a solution by manually adding an overlayfs (which Docker also uses internally to manage volumes), so that changes to the filesystem are written to a separate directory, and can be undone at any time. So set up the following: (create the directories - you can change the location of these as you see fit) /path/to/host/large_size_folder (already exists) is the lower layer directory in the overlayfs , containing the original data (will not be modified) /tmp/large_size_folder_changes is the upper layer directory where modifications will be stored /tmp/overlayfs is the working directory for overlayfs (internal directory needed for overlayfs to work) /mnt/large_size_folder_merged is the merged directory where we can access the combined content, and this is what you want to map into the Docker container The command to mount the overlayfs is then: sudo mount -t overlay overlay -olowerdir=/path/to/host/large_size_folder,upperdir=/tmp/large_size_folder_changes,workdir=/tmp/overlayfs /mnt/large_size_folder_merged And then to create your Docker container, instead use: docker run \ -v /mnt/large_size_folder_merged:/var/large_size_folder \ my_docker \ /bin/bash -c "rm -rf /var/large_size_folder/file1 && echo "hello" > /var/large_size_folder/file2" Now any changes you make to /var/large_size_folder inside the container will be reflected in /mnt/large_size_folder_merged on the host. The changes only can be seen inside /tmp/large_size_folder_changes , while the original /path/to/host/large_size_folder remain unchanged. Also see here for: How do I use OverlayFS?
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515748/how-to-mount-host-directory-and-modify-its-contents-inside-the-docker-layer
+
+---
+
+#### 6444. Adding error handling to simple backup script
+
+**问题描述 / Problem Description**:
+Tags: bash, rsync, error-handling | Score: 2 | Views: 300 | Answers: 1 | Created: 2024-05-25
+
+**解决方案 / Solution**:
+Is there some kind of global success/failure flag one could query? No, but you can use trap to trigger the execution of a command / a function as soon as a command returns a non-zero status. The way I'd go about this would be: I'd remove set -e and trap all errors (since we're at it reporting the command that errored out and the command's exit status), exiting the script with the same exit status of the command that errored out (or with a custom exit status, depending on the context in which the script is run): #!/usr/bin/env bash function handle_error() { ret=$? printf "Error while running '%s'; command exited with exit status '%d'\n" "${BASH_COMMAND}" "${ret}" exit $ret } trap handle_error ERR echo 'This will be executed' (exit 255) echo 'This will not be executed' % ./script1.sh This will be executed Error while running '( exit 255 )'; command exited with exit status '255' # the script exits with exit status 255 Applying this to your script: #!/bin/bash function handle_error() { ret=$? curl "http://192.168.178.30:8080/message?token=XXXXXXXX" -F "title=Error while running '${BASH_COMMAND}'" -F "message=Command exited with exit status '${ret}'" exit $ret } trap handle_error ERR echo "Mounting network share" sudo mkdir -p /var/backup sudo mount -t nfs 192.168.178.33:/volume1/backup_data /var/backup echo "Creating backups" rsync -av /volume1/ /var/backup --delete echo "Unounting network share" sudo umount /var/backup
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1515273/adding-error-handling-to-simple-backup-script
+
+---
+
+#### 6445. Remove /dev mount point without unmount in Host
+
+**问题描述 / Problem Description**:
+Tags: bash, mount, chroot, unmount | Score: 2 | Views: 305 | Answers: 1 | Created: 2024-05-02
+
+**解决方案 / Solution**:
+Both methods of mounting ( -t sysfs and -o bind ) will result in the files visible inside of the chroot environment to be the exact same files visible outside of the chroot environment, hence both mount points will be subject to (potentially) destructive user actions. The outcome of attempting to rm -rf those filesystems will vary, as some "files" (quoted as obviously even though they're technically files they're also technically not files) inside will be deletable / effectable by the user (user as in "regular user" or "root user"), while others won't (they'll be protected by extended attributes and - I'm pretty sure - some will be undeletable altoghether because of some sort of kernel protection); But suffice to say - speaking just about deletable files - that, e.g., at one point in time, deleting the wrong stuff in /sys/firmware/efi/efivars would downright brick your motherboard. I'm not clear on whether this has been partially / mostly / completely fixed by manufacturers, but you get my point. In short yes, you can affect your system as well as potentially damage it by attempting to remove /dev or /sys from inside the chroot environment.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1512509/remove-dev-mount-point-without-unmount-in-host
+
+---
+
+#### 6446. Why is recovery mode not read-only?
+
+**问题描述 / Problem Description**:
+Tags: boot, 20.04, bash, data-recovery, ext4 | Score: 2 | Views: 519 | Answers: 1 | Created: 2024-04-28
+
+**解决方案 / Solution**:
+Why is recovery mode not read-only? Recovery mode means: root. No limit on permissions or passwords asked. One approach I may take is to use extundelete, if this is not installed on my system currently, can I install it while the root fs is in read only mode ? No. The number 1 rule: do not write to the disk. You start up a live session (the one you use to install Ubuntu) and install extundelete from there (so it is installed in memory not on disk) and from there you try to find the file to restore it. In case you need to restore a lot of files or a complete partition it is better to get a larger USB stick and then diskdump ( dd ) the whole partition onto the USB and then restore it on the USB. -any- write can be fatal in restoring that section it wrote onto the disk. Restoring 1 layer is possible. Restoring from a write after another write... unlikely
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1512033/why-is-recovery-mode-not-read-only
+
+---
+
+#### 6447. How to replace a file path with whitespace using sed?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, scripts, sed | Score: 2 | Views: 1161 | Answers: 2 | Created: 2024-04-04
+
+**解决方案 / Solution**:
+Your expression 's|'$otherOne'|'$fileWithPath'|g' yields the unquoted string s|auth-user-pass mullvad_userpass.txt|~/Downloads/files_config_linux/auth-user-pass files_userpass.txt|g which is then parsed into several words on the space characters. The first of these, s|auth-user-pass is then passed to sed which rightly complains about the missing second | separator. To pass the whole s command to sed as a single argument, you need to quote it. The easiest way to do that is to enclose the whole expression in double quotes: "s|$otherOne|$fileWithPath|g" The shell performs variable substitution within double quotes, so this will yield the quoted string "s|auth-user-pass mullvad_userpass.txt|~/Downloads/files_config_linux/auth-user-pass files_userpass.txt|g" which will then be passed as a single argument to sed as intended. It is good practice to enclose the filename argument $a in double quotes, too, to protect against space characters in the filename, although in your case it isn't strictly necessary since your pattern files_[a-z][a-z]_all\.conf won't match any filenames containing spaces.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1509498/how-to-replace-a-file-path-with-whitespace-using-sed
+
+---
+
+#### 6448. What are zsh equivalent to bash's shopt -s globstar and shopt -s dotglob?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, zsh | Score: 2 | Views: 2169 | Answers: 1 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+Recursive globbing is the default in zsh, it doesn't need to be enabled. The ** glob is simply syntactic sugar here: A pathname component of the form ‘ (foo/)# ’ matches a path consisting of zero or more directories matching the pattern foo . As a shorthand, ‘ **/ ’ is equivalent to ‘ (*/)# ’; note that this therefore matches files in the current directory as well as subdirectories. The equivalent of dotglob is GLOB_DOTS : GLOB_DOTS Do not require a leading ‘ . ’ in a filename to be matched explicitly. It can be enabled for an individual glob using the D flag: % mkdir foo; touch foo/{bar,.bar}; echo foo/*(D) foo/.bar foo/bar
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1507558/what-are-zsh-equivalent-to-bashs-shopt-s-globstar-and-shopt-s-dotglob
+
+---
+
+#### 6449. Changing Linux file names to NTFS-compatible file names
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, ntfs, batch-rename, filename | Score: 2 | Views: 1035 | Answers: 2 | Created: 2024-03-13
+
+**解决方案 / Solution**:
+With Perl's rename : rename -n 'y/\\: /__\-/ if -f' * ... where -n is for a dry-run (to actually rename files, remove it or change it to -v for verbosity), y will translate each character in the search list \\: (that is an escaped backslash \ , a colon : and a space ) into the corresponding character in the replacement list __\- (that is an underscore _ , another underscore _ and an escaped hyphen - ) and if -f will work only on files excluding directories from the rename process. Notice that you can expand both lists as long as every character in the search list has its corresponding character in the replacement list in the right order and as long as you escape any character that needs escaping in a RegEx context and not in a shell context as the quotes will protect those characters from the shell. Notice as well that this will not work on hidden files that start with a dot . unless you explicitly set Bash's dotglob option.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1507422/changing-linux-file-names-to-ntfs-compatible-file-names
+
+---
+
+#### 6450. Linux copy command with multiple options
+
+**问题描述 / Problem Description**:
+Tags: bash, copy, timestamp | Score: 2 | Views: 4371 | Answers: 2 | Created: 2024-03-13
+
+**解决方案 / Solution**:
+The correct answer is cp -p source dest , as you already knew. So the correct question might be: Why aren't you seeing the times preserved? What you might not know is that there are, on a modern linux system, four distinct times, and only two can be preserved. The times are: A - Access time. This is automatically changed every time you read the file, though mount options can reduce this (typically to reduce wear on a flash drive). (This typically means the file should not be considered a candidate for moving to long term storage, but this is a feature Unix and Linux never implemented.) M - Modify time. This is nominally the last time the data was changed. This typically means the file needs to be backed up again. This is the time normally shown by ls -l . C - Create or Change time. This is the last time the inode was changed, which includes creating the file, extending it, and changing permissions or ownership. This was originally called the "Create" time, but since it changes easily, it is now known as the "Change" time. B - Birth time. This is when you actually made this file. This is relatively new, and may not exist on all filesystems. Now copying, through any method anyone has described, can only preserve Access and Modify times, and cp -p does so. You can examine all four times, possibly with nanosecond precision, using the stat command. The other problem is that some filesystems might not honor some attempts to preserve times. As an obvious case, a FAT filesystem only has one time. Network file servers might also not honor certain types of change requests (and you did use the term "server"). One other point: If you are using cp -pu , then I would not expect the file to take on an older modification time. That's what the -u does. (i.e. it prevent the copy if the destination is newer.)
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1507384/linux-copy-command-with-multiple-options
+
+---
+
+#### 6451. Special characters 158 and 159 stopping my functions in terminal
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, special-characters | Score: 2 | Views: 212 | Answers: 1 | Created: 2024-03-04
+
+**解决方案 / Solution**:
+0x9e (PM) and 0x9f (APC) are C1 controls codes - an 8-bit extension of the ASCII C0 controls . As noted in Control Bytes, Characters, and Sequences , in an ANSI VTxxx compatible terminal they (and a few others) introduce a string mode , that needs to be terminated by a corresponding 0x9c (ST) string termination code: Some controls (such as OSC ) introduce a string mode, which is ended on a ST (string terminator). . . . If an application does not send the string terminator, that is also an error from the standpoint of a user. So likely your terminal is consuming the remaining bytes from your program, awaiting the expected ST.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1506487/special-characters-158-and-159-stopping-my-functions-in-terminal
+
+---
+
+#### 6452. Cannot use any Ansible playbook anymore. Error about "Data could not be sent to remote host"
+
+**问题描述 / Problem Description**:
+Tags: networking, command-line, server, ssh, ansible | Score: 1 | Views: 339 | Answers: 1 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+As per this answer , the fix was to set the following in ansible.cfg : [ssh_connection] pipelining = False
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1553873/cannot-use-any-ansible-playbook-anymore-error-about-data-could-not-be-sent-to
+
+---
+
+#### 6453. Burning Blu-Ray Disk - growisofs stopped at 'WRITE@LBA=9a42a0h'
+
+**问题描述 / Problem Description**:
+Tags: command-line, burning, blu-ray | Score: 1 | Views: 308 | Answers: 2 | Created: 2025-07-11
+
+**解决方案 / Solution**:
+The problem was the drive. Nothing was wrong with K3b or growisofs . I refunded my drive and bought a different one (not slim) instead. From what I could gather around the internet the recommendation is to not buy a slim drive at all. They seem to be notoriously flaky and bad for writing discs.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1552756/burning-blu-ray-disk-growisofs-stopped-at-writelba-9a42a0h
+
+---
+
+#### 6454. Ubuntu 24.04 rightalt+shift in console or virtual terminal shifts the keyboard how to change that?
+
+**问题描述 / Problem Description**:
+Tags: command-line, keyboard, 24.04, keyboard-layout, virtual-console | Score: 1 | Views: 244 | Answers: 2 | Created: 2025-07-05
+
+**解决方案 / Solution**:
+Note: I don't have Ubuntu 24.04, but I tested on my Ubuntu 25.04. On a console session type: $ sudo loadkeys fr After that, your keyboard layout should change to the standard AZERTY french keyboard. While using this keyboard layout, you should use the standard AltGr + 6 key combination to enter the | (pipe) character . ( Note: AltGr is the Right - Alt key.) To make permanent changes on your system please try: $ sudo dpkg-reconfigure keyboard-configuration If you still want to force AltGr + Shift + L to emit the | character, you can write a custom "keymap file". See man keymaps for more information.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1552379/ubuntu-24-04-rightaltshift-in-console-or-virtual-terminal-shifts-the-keyboard-h
+
+---
+
+#### 6455. How to autostart a screen and .sh file
+
+**问题描述 / Problem Description**:
+Tags: command-line, server, minecraft, autostart | Score: 1 | Views: 401 | Answers: 1 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+I can think of a few recommendations and possible reasons for the "unable to find server.jar" error. I cannot try it myself right now as I'm not near my personal computer. You do not need to use sudo in your systemd unit config. Instead, you configure your systemd unit to run using a specific user with User= . Since you're using screen, and stopping the server gracefully needs the stop command in the Minecraft console, you can configure the ExecStop to do just that by sending a stuff command to screen with "stop\n" as a string. screen -X stuff "stop\n" I'm not sure if it's a typo in the question here, but you're missing a space between the user and the command you're running after sudo . The error you're getting might be related to the start.sh script. You do not need RemainAfterExit=yes . This tells systemd to consider the service as running even if it exits, which I suppose is not the case for you. Did you run systemctl daemon-reload after making changes to the unit file? Is /usr/local/games/minecraft_server/Dino an external mount? If that's the case, the configuration needs to be updated to ensure it runs after the mount is ready. Here's the resulting unit config: [Unit] Description=Minecraft Server Dino Pack [Service] Type=simple User=minecraft WorkingDirectory=/usr/local/games/minecraft_server/Dino ExecStart=/usr/bin/screen -dmS Dinoserver /usr/local/games/minecraft_server/Dino/start.sh ExecStop=/usr/bin/screen -S Dinoserver -X stuff "stop\n" [Install] WantedBy=multi-user.target Make sure you reload after making changes with: systemctl daemon-reload
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1551794/how-to-autostart-a-screen-and-sh-file
+
+---
+
+#### 6456. What does \1 do in sed?
+
+**问题描述 / Problem Description**:
+Tags: command-line, sed | Score: 1 | Views: 290 | Answers: 1 | Created: 2025-04-30
+
+**解决方案 / Solution**:
+In s/pattern/replacement/ , replacement replaces everything matched by pattern . Inside replacement , \1 refers to the first (in this case - only) capture group between parentheses in pattern . So in echo abcdefgh|sed -E "s/(d.)/\1/" , (d.) matches and captures d and one more character, e ; then \1 replaces the matched de with the replacement de . In echo abcdefgh|sed -E "s/(d.).*/\1/" , (d.) matches and captures de as before, then .* matches the remainder of the string, fgh . So defgh is replaced by de , resulting in abcde . In echo abcdefgh|sed -E "s/.*(d.)/\1/" , .*(d.) matches abcde , again capturing de so \1 replaces abcde with de leaving defgh . See also 3.3 The s Command in the GNU sed manual .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1546861/what-does-1-do-in-sed
+
+---
+
+#### 6457. capture non-zero exti code from a command and store in a variable
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 1 | Views: 184 | Answers: 1 | Created: 2025-04-28
+
+**解决方案 / Solution**:
+To make sure GitHub Actions runner does not fail on a non-zero exit code, modify the last part to use true to ensure the script exits successfully regardless of the command's exit code: timeout 1s top return_code=$? if [ $return_code -eq 124 ]; then echo "Success: Command timed out as expected." else echo "Unexpected exit code: $return_code" exit 1 fi exit 0 # Ensure exit is successful Then, if the command results in an exit code of 124 , the script will exit with a status of 0 , preventing any errors from being reported by GitHub Actions.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1546676/capture-non-zero-exti-code-from-a-command-and-store-in-a-variable
+
+---
+
+#### 6458. What comes with Ubuntu Admin Portal?
+
+**问题描述 / Problem Description**:
+Tags: command-line, remote-access, administration, client | Score: 1 | Views: 126 | Answers: 1 | Created: 2025-04-24
+
+**解决方案 / Solution**:
+Ubuntu Pro can be used with an admin portal, and Landscape is the main tool Canonical provides for this purpose. If you register your Ubuntu Pro machines with Landscape, you get a unified dashboard for managing all of them. Landscape is a systems management tool that can be used as a web based service or through an API. Landscape Server is available through Canonical either as a managed solution or Software-as-a-Service model, or it can be self-hosted. Landscape Client is installed on Ubuntu to enroll with Landscape Server. Landscape automates security patching, auditing, access management and compliance tasks across your Ubuntu estate. Use it in well-connected or airgapped environments: at sea, in space and everywhere in between. Landscape is available with an Ubuntu Pro subscription. source
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1546451/what-comes-with-ubuntu-admin-portal
+
+---
+
+#### 6459. How to list directories sorted by modification date?
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 1 | Views: 2237 | Answers: 3 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+Your command doesn't make much sense: ls -t grep -v / means "run ls with the options -t and -v on the files or directories named grep and / ". Running it results in an error message ls: cannot access 'grep': No such file or directory and then the output of ls / . I also don't understand what the tr is supposed to do there. In any case, if all you want is to list directories and not list any files, or any hidden directories, you can just do: ls -td */ The -t sorts by modification date, the -d tells ls not to recurse into the directory, and the glob */ only matches directories. Hidden ones are skipped by default, you need to explicitly tell ls to show them with -a or -A , so nothing more is needed. Unlike attempting to parse the output of ls using grep or similar tools, this approach can work with arbitrary file names. For example, I have a sub-directory called a bad'$'\n''name , where $'\n' is an actual newline character, a line break: $ tree . ├── a bad\012name ├── dir1 │ └── dir2 └── rootdir1 └── rootdir2 6 directories, 0 files if I now try to use grep to parse out non-directories, I get the wrong output: $ ls -tF | grep "/$" name/ dir1/ rootdir1/ However, it works as expected with */ : $ ls -dt */ 'a bad'$'\n''name/' dir1/ rootdir1/ Note, however,. that in the case where you have a symlink pointing to a directory, this would also list that symlink: $ ls -lF total 4 drwxr-sr-x 2 terdon terdon 4096 Apr 9 19:34 dir1/ lrwxrwxrwx 1 terdon terdon 4 Apr 9 19:34 symlink_to_dir -> dir1/ Now, if I ls -d */ : $ ls -d */ dir1/ symlink_to_dir/ Whether or not this is desired will depend on your use case, but it isn't unreasonable to say this is expected since the symlink is indeed pointing to a directory and behaves like one in many contexts. Still, ls -tF | grep '/$' which had been suggested in another answer before I pointed out its limitations, would actually list only the "real" directory in this case (but would fail on directory names containing newlines): $ ls -tF | grep '/$' dir1/ Finally, getting the output separated by commas is a little tricky. Sure, if all of your directories are simple strings, with no whitespace, you could do something like: ls -dt */ | tr '\n' ',' | sed 's/,$/\n/' But that will also fail on weird dir names, those with newline characters. If that is an issue, and you have a modern version of GNU ls , you can do: ls --zero -dt */ | perl -pe 's/\0/, /g; s/, $/\n/' Finally, you can avoid ls altogether and do: for dir in */; do printf '%s, ' "$dir"; done | sed 's/, $/\n/'
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1545419/how-to-list-directories-sorted-by-modification-date
+
+---
+
+#### 6460. How to add .jar file to autostart?
+
+**问题描述 / Problem Description**:
+Tags: command-line, java, autostart, sh | Score: 1 | Views: 132 | Answers: 1 | Created: 2025-03-21
+
+**解决方案 / Solution**:
+Test to have the script run when the user logs into their graphical session by adding it to the .profile or .bashrc file in their home page: Do this by opening a terminal and running: nano ~/.profile And adding to the end of the file: /home/user/script.sh & The & character specifies that it runs in the background to avoid blocking the session. Edited If that doesn't work, try adding it to ~/.bashrc: nano ~/.bashrc And finally, add: /home/user/script.sh & Save and try opening a new terminal.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1544203/how-to-add-jar-file-to-autostart
 
 ---

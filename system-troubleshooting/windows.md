@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7202**
+**总计条目 / Total entries: 7255**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -99390,5 +99390,694 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1222520#reply6
+
+---
+
+#### 7203. Why is the `..` entry missing in `dir` output for directories directly under a drive root?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line | Score: 5 | Views: 641 | Answers: 1 | Created: 2026-06-24
+
+**解决方案 / Solution**:
+.. is missing from the list because it has the Hidden and System attributes set. Or more specifically, the drive root has the Hidden and System attributes set – and a first-level directory's .. entry represents the drive root, therefore also has the same attributes, and therefore is not displayed by dir unless you use dir /a . PS> gi C:\Games\.. | fl Name : C:\ CreationTime : 2024-04-01 10:21:16 LastWriteTime : 2026-06-20 20:35:12 LastAccessTime : 2026-06-24 16:26:28 Mode : d--hs LinkType : Target :
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938642/why-is-the-entry-missing-in-dir-output-for-directories-directly-under-a-d
+
+---
+
+#### 7204. How to sort only a sub-set of files in a directory in Windows Batch?
+
+**问题描述 / Problem Description**:
+Tags: windows, batch, sorting, directory-listing | Score: 1 | Views: 101 | Answers: 1 | Created: 2026-06-24
+
+**解决方案 / Solution**:
+Move to PowerShell ; comes with Windows since Vista. It looks intimidating at first, but it really isn't. Anyway, you can integrate a line of PowerShell directly into your script that should do the job. Unlike Batch, you will probably be able to follow what happens just by looking at the PowerShell code. Note that I've added setlocal to the script. This avoids setting environment variables that persist in the shell when the script finishes. I've also set a variable containing the target path. @echo off setlocal set Pattern=%~1 set Start=%2 set End=%3 set FileList=C:\Temp\FileList.txt REM This line will create the file list based on the range specified: powershell.exe -Command "Get-ChildItem -File -Path '%Pattern%' | Sort-Object -Property Name | Select-Object -Skip (%Start% - 1) -First (%End% - %Start% + 1) | Sort-Object -Property Date | Select-Object -ExpandProperty FullName | Set-Content -Path '%FileList%'" type "%FileList%" REM i_view32.exe /filelist="%FileList%" del "%FileList%" Get-ChildItem is the PowerShell version of dir . -File will tell it to not return directories. The file items will then be passed to Sort-Item , which will sort them by their Name property (which contains the file name only, no path). The sorted objects will be passed further on to Select-Object , which will only return the objects inside the specified range. The selected range will again be passed to Sort-Object , which will this time sort by their Date property. This range will now be passed again through Select-Object , which will now with the ExpandProperty parameter return only the string values of the file objects' FullName property, which contains the file name including the path. These strings will finally be passed to Set-Content , which will write them to the target file.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938651/how-to-sort-only-a-sub-set-of-files-in-a-directory-in-windows-batch
+
+---
+
+#### 7205. As the sole user of a PC, which most simplifies backing up my data: when programs are installed "for all users" or "for just me"?
+
+**问题描述 / Problem Description**:
+Tags: installation, backup, windows-11 | Score: 0 | Views: 25 | Answers: 1 | Created: 2026-06-25
+
+**解决方案 / Solution**:
+The vast majority of modern apps store your data in your profile folder. The difference between "For All Users" and "Just For Me" is only in where the executables are stored: For All Users installs the program files to Program Files, whereas "Just For Me" stores the program files inside the hidden AppData folders inside your profile. To save your data, you don't need to save the program's executable files, only your user data, and that will be in the same place regardless where you tell the application to install. Regarding your other asides about missing data, that is either misconfigured applications, or applications that fail to store user data where it is supposed to be stored. So, to specifically answer your question and to summarize: Either works fine. The biggest issue could be that is AOMEI is also backing up the entirety of AppData, your backups could be larger, but that would not actually be of much (or any) benefit.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938674/as-the-sole-user-of-a-pc-which-most-simplifies-backing-up-my-data-when-program
+
+---
+
+#### 7206. How to shut down laptop for ~3 month storage without the battery being dead every time?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufjfeb/how_to_shut_down_laptop_for_3_month_storage/
+
+---
+
+#### 7207. windows 11 installation not detecting drivers on flash drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uff80u/windows_11_installation_not_detecting_drivers_on/
+
+---
+
+#### 7208. My phone gets 400mbps download speed, but my computer in the same room varies from barely cracking double digits to easily over 100
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnenz/my_phone_gets_400mbps_download_speed_but_my/
+
+---
+
+#### 7209. Why do game downloads take so long.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflql7/why_do_game_downloads_take_so_long/
+
+---
+
+#### 7210. 800 spam emails in about 2-3 hours, gmail account, mail delivery subsy and postmaster
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflghr/800_spam_emails_in_about_23_hours_gmail_account/
+
+---
+
+#### 7211. My iphone 13 pro max suddenly died
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufh7rz/my_iphone_13_pro_max_suddenly_died/
+
+---
+
+#### 7212. Help! Suddenly Muddy Bluetooth Calls, Android + Wireless Headphones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufk52z/help_suddenly_muddy_bluetooth_calls_android/
+
+---
+
+#### 7213. PC randomly freezes - SSD and RAM already tested, what else to check?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uf6vma/pc_randomly_freezes_ssd_and_ram_already_tested/
+
+---
+
+#### 7214. Network compromised? Constant captchas only on PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufo2lt/network_compromised_constant_captchas_only_on_pc/
+
+---
+
+#### 7215. Anyone know what this means / how to deal with it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnywe/anyone_know_what_this_means_how_to_deal_with_it/
+
+---
+
+#### 7216. Why can’t my monitor recognize my headphones but the pc can?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnwys/why_cant_my_monitor_recognize_my_headphones_but/
+
+---
+
+#### 7217. Red light on CPU, yellow light on DRAM I’ve already tried all the common fixes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnwbq/red_light_on_cpu_yellow_light_on_dram_ive_already/
+
+---
+
+#### 7218. IdeaPad S145 Won’t Factory Reset
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnu96/ideapad_s145_wont_factory_reset/
+
+---
+
+#### 7219. MSI Raider A18 HX sudden slow down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnl7v/msi_raider_a18_hx_sudden_slow_down/
+
+---
+
+#### 7220. Can I use my laptop plugged in if the battery needs replacement?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufnl6z/can_i_use_my_laptop_plugged_in_if_the_battery/
+
+---
+
+#### 7221. I can´t remove my oem12.inf printer driver.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufngo6/i_cant_remove_my_oem12inf_printer_driver/
+
+---
+
+#### 7222. I need to transfer my necessary files from my crashed broken phone to my pc.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufn7k1/i_need_to_transfer_my_necessary_files_from_my/
+
+---
+
+#### 7223. Frozen PC and I Can't Move the Mouse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufmrqf/frozen_pc_and_i_cant_move_the_mouse/
+
+---
+
+#### 7224. Please Select Boot Device
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ufmfl5/please_select_boot_device/
+
+---
+
+#### 7225. Swelling battery or loose glue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflrs2/swelling_battery_or_loose_glue/
+
+---
+
+#### 7226. Wifi disconnecting automatically
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflpjq/wifi_disconnecting_automatically/
+
+---
+
+#### 7227. Deltarune no sound ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflgga/deltarune_no_sound_ubuntu/
+
+---
+
+#### 7228. Instagram reels and YouTube videos lag but TikTok is fine??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflfw7/instagram_reels_and_youtube_videos_lag_but_tiktok/
+
+---
+
+#### 7229. Touchscreen Keyboard Not Working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uflcs4/touchscreen_keyboard_not_working/
+
+---
+
+#### 7230. Microsoft quietly extends Windows 10's extra security updates program for free: Users can now stay on Windows 10 until October 2027 securely
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1uff7qp/microsoft_quietly_extends_windows_10s_extra/
+
+---
+
+#### 7231. This is how to get working Contacts and Calendar in Windows 10 mobile
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1ueiov6/this_is_how_to_get_working_contacts_and_calendar/
+
+---
+
+#### 7232. Secret Windows Tool lookalike Control Panel icon
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u738j5/secret_windows_tool_lookalike_control_panel_icon/
+
+---
+
+#### 7233. Secret Windows Tool lookalike Control Panel icon
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u72z31/secret_windows_tool_lookalike_control_panel_icon/
+
+---
+
+#### 7234. Everyone, is this look good? ( i installed snoop and fastfetch btw )
+
+**问题描述 / Problem Description**:
+Reddit r/Windows10 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows10/comments/1u6he0g/everyone_is_this_look_good_i_installed_snoop_and/
+
+---
+
+#### 7235. [V2EX] windows11 专业版，微软商店下载的 chatgpt 桌面版，打开速度很慢。点击之后大概 1 分钟才真正打开,才弹出窗口。这是什么问题，如何解决？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222609#reply2
+
+---
+
+#### 7236. [V2EX] codex 续费是充礼品卡，然后等待自动续费就可以吗
+
+**问题描述 / Problem Description**:
+之前是礼品卡买的，续费是不是再充礼品卡等待自动扣费就可以？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222932#reply0
+
+---
+
+#### 7237. [V2EX] next.itellyou.cn 抽风了？ 有人能打开吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222919#reply1
+
+---
+
+#### 7238. [V2EX] 求推荐一些廉价带除尘仓手机膜
+
+**问题描述 / Problem Description**:
+预算：15CNY/张 以内，品控稳定可多网购平台复购，带无尘仓，带防尘网。 无需：抗反射 AR ，防窥，防蓝光。即高清，钢化膜即可 被坑历程： iPhone17 刚出的时候买的奥瑞科，约合 4.5CNY/张，公差极大，好在疏油层不错。 闪魔低端款，无除尘仓版的那个，约合 6.5 CNY/张。公差极大，无防尘网。视频教程也很牛逼，直接按上去就全贴合了，我用邪修法贴都对不齐并且还有气泡。 在淘宝刷到了李鬼“闪级魔”，眼瞎出库了才发现。叠券约合 4CNY/张，复购约 6CNY/张。无疏油层。公差不错。 目前看到了极修匠的抖音推广，10CNY/张，感觉不错，有人试过吗？或者推一下合适的品牌钢化膜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222902#reply1
+
+---
+
+#### 7239. [V2EX] 遇到一个疑难杂症求高手
+
+**问题描述 / Problem Description**:
+为什么 我电脑的浏览器 访问任何网页都没问题 唯独访问一个页面就会浏览器崩溃 很奇怪啊 其他电脑去访问这个特定网页都正常 你说电脑有问题吧 访问任何网页都没问题 换了好几个浏览器 访问某个特定网页必崩溃 有高手给分析下吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222889#reply8
+
+---
+
+#### 7240. [V2EX] 雷鸟电视自动更新了系统出现外接设备不显示
+
+**问题描述 / Problem Description**:
+询问 ai:彻底断电复位 HDMI 芯片 拔掉 3 根 hdmi 线 只留一根 ,才恢复 原因:我电视外接了 4 跟 hdmi 线 外接设备... 我昨晚把电视系统更新了,多了个电视 CEC 联动（根治自动跳源、互相屏蔽） 多根 hdmi 线互相伤害... 关闭了 CEC 联动 也不行,之前一直外接四根 hdmi 线 多接设备都没异常... 手残去更新了电视的系统...现在我只能每次去手动拔插 hdmi 线...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222863#reply1
+
+---
+
+#### 7241. [V2EX] 22 元重仓买入的上海电力，一直下跌，该怎么办》
+
+**问题描述 / Problem Description**:
+现在已经跌到 16 元了，感觉这辈子都完蛋了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222851#reply24
+
+---
+
+#### 7242. [V2EX] 大家怎么提升产品设计品味？
+
+**问题描述 / Problem Description**:
+比如页面怎么排更顺畅、流程怎么走不别扭、功能做到什么程度刚好、业务规则怎么设计才不拧巴，这些其实都会影响产品的“质感”。 想问问大家，这种产品设计上的品味和感觉一般怎么提升？平时会刻意拆解产品吗？有没有什么值得反复研究的产品、资料或者方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222848#reply1
+
+---
+
+#### 7243. [V2EX] 如何看待“四年后的专业”？如果现在让你选，你会报什么？
+
+**问题描述 / Problem Description**:
+我当年报志愿的时候，土木工程特别火。那时候大家都觉得土木好，工作好找，也有前途。 我当时也想报土木，但是分数不够，选不了。 最后才选了计算机。 说实话，那时候计算机就是网管，网吧修电脑 结果没想到，等我毕业的时候，互联网起来了，计算机反而成了最吃香的专业。 但现在再看，又反过来了。 四年前，计算机还是最热门的专业，很多人都往里挤。可今年这一批毕业生出来，被 AI 取代了。 现在热门，不代表四年后还热门。 现在冷门，也不代表四年后没机会。 如果现在让你现在选专业，你会怎么选？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222843#reply21
+
+---
+
+#### 7244. [V2EX] 陈年网贷逾期，催收查到了老板电话狂轰滥炸，分享一下用 AI 提取号段举报的过程，顺便求助
+
+**问题描述 / Problem Description**:
+说来惭愧，多年前欠了一些网贷，后来因为经济原因还不上了就一直没管。这笔账大概过了四五年，债权估计都转移 N 手了。中间我换了手机号，原本已经消停了很久。 但是最近几个月，催收大神们不知道通过什么灰产渠道（可能是社保或报税记录？），精准获取了我现任公司女老板（也是法人）的手机号，开始不厌其烦地密集短信+电话轰炸。 老板一开始只是问问我情况，后来直接被搞崩溃了。上周找我谈话，直接咆哮式三连问：“你到底欠了多少？为什么不处理？还要闹多久？” 其实我本身就想提离职了，倒不是想当甩手掌柜逃避这事，而是因为在这家公司呆了五年一直没涨薪，公司目前也没啥业务，基本是空壳状态了。但祸是我惹的，我觉得不能一走了之
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222840#reply13
+
+---
+
+#### 7245. [V2EX] 集思广益，第二个求助帖，高考志愿填报~
+
+**问题描述 / Problem Description**:
+集思广益，第二个求助帖，高考志愿填报~ 各位 v 站集美/集帅们，看过来，能给个专业或者院校填报建议吗? 老家的小朋友今年高考结束了，湖北省，文科，首选历史，次选政治/生物，今年高考排名 13000 （ 550 多分），求助志愿填报建议； 本人已经毕业多年，给出的建议很宽泛： 1 、不易被人工智能替代的专业，无法被流程化编排的或者行业内部封闭的不会开源知识对的行业 2 、考公务员岗位多的专业 3 、自己真正感兴趣的，有自己爱好的，从小到大做出过成绩的方向 求各路大神的建议，谢谢！一人一句小金句，每个评论的意见都会认真看和回复的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222825#reply2
+
+---
+
+#### 7246. [V2EX] 准备去当大专老师了
+
+**问题描述 / Problem Description**:
+准备去当大专老师了，教计算机，有编制。 有没有同行或者了解的给下一些建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222821#reply21
+
+---
+
+#### 7247. [V2EX] 北漂程序员，寻找周边城市退路
+
+**问题描述 / Problem Description**:
+自从 vibe coding 之后危机感越来越重，整个人都很疲惫~ 北漂，没户口，排积分和单位名额，但是有点渺茫，孩子现在一岁多，不知道孩子需要的时候可以排得到不，还担忧没有到孩子用到呢，自己先被优了。 不买房，手里好歹还有钱，买了房除了房贷，还有无尽的压力。 想知道有没有小伙伴这两年被优化后在周边城市发展的，推荐哪些城市？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222818#reply5
+
+---
+
+#### 7248. [V2EX] 图片生成式 AI 哪家强？
+
+**问题描述 / Problem Description**:
+家里宝宝马上 100 天了，自己买了一些装饰品和小道具想要给宝宝拍一些照片做个纪念，对自己的拍照技术不太有信心，希望能够用 AI 来润色下照片，请问下各位佬们，对于这种需求，是否有比较好的 AI 推荐下，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222814#reply2
+
+---
+
+#### 7249. [V2EX] 坐标山东的考生，分数已经出来了，推荐学校专业
+
+**问题描述 / Problem Description**:
+男孩子，我的外甥。 2026 高考分数 380 ，分数很不咋地，但是也想让他走个安安稳稳的就业路，大神们推荐一下学校和专业。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222803#reply14
+
+---
+
+#### 7250. [V2EX] tampermonkey 油猴在弱网环境频繁拉起网页进行谷歌验证如何解决
+
+**问题描述 / Problem Description**:
+如题，有时候梯子掉了也会拉起几个网页请求谷歌验证，非常烦这个东西
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222795#reply0
+
+---
+
+#### 7251. [V2EX] 大佬们现在都是用哪些生成视频的？
+
+**问题描述 / Problem Description**:
+最近要用来做视频，想要控制在 10 秒 1 元以内。有合适的网站、模型、平台推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222787#reply6
+
+---
+
+#### 7252. [V2EX] 红利低波跌成狗了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222782#reply0
+
+---
+
+#### 7253. [V2EX] ty or pyrefly?
+
+**问题描述 / Problem Description**:
+大家现在项目开发默认选择哪个检查器
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222777#reply2
+
+---
+
+#### 7254. [V2EX] codex 五小小时 token 统计漏洞
+
+**问题描述 / Problem Description**:
+https://github.com/openai/codex/issues/30002 目前只能等修复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222772#reply0
+
+---
+
+#### 7255. [V2EX] AI 出来后，你的主动学习时间增加了还是减少了？
+
+**问题描述 / Problem Description**:
+最近被一个问题困扰了很久。 用上 AI 工具之后，发现很多以前要"学会"才能做的事，现在直接问就行了。 查 API 文档不用自己慢慢啃了，写个 SQL 不用记语法了，甚至读英文技术文章都可以让 AI 边翻译边总结。效率确实高了，但总感觉哪里不对劲。 上周我统计了一下自己的时间——刷 AI 工具的时间明显增加了，但坐下来系统学一件事的时间，好像变少了。 所以想问问 V 友们： AI 工具普及之后，你们还在主动学习吗？ 每周大概花多少小时在「学新东西」上（不是用 AI 完成工作，是真的在学）？ 你觉得现在学习的方式有没有变？（比如以前看书/课程，现在直接跟 AI 对话） 有没有觉得「学了又忘，反正
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222757#reply12
 
 ---

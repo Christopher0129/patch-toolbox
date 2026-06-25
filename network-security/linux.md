@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2143**
+**总计条目 / Total entries: 2172**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -33977,5 +33977,438 @@ An issue was discovered in Canonical ADSys upstream versions through v0.16.2. Du
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2491869
+
+---
+
+#### 2144. CVE-2026-2050 - gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file parsing. Bugzilla: 2492593
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492593
+
+---
+
+#### 2145. CVE-2026-23879 - py7zr: py7zr: Arbitrary file write via crafted symbolic links during archive…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] py7zr: py7zr: Arbitrary file write via crafted symbolic links during archive extraction. Bugzilla: 2492507
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492507
+
+---
+
+#### 2146. CVE-2026-54297 - faraday: Faraday: Denial of Service via crafted nested query strings
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] faraday: Faraday: Denial of Service via crafted nested query strings. Bugzilla: 2492252
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492252
+
+---
+
+#### 2147. CVE-2026-56121 - feast: Feast: Remote Code Execution via Unsafe Deserialization in gRPC Registry…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] feast: Feast: Remote Code Execution via Unsafe Deserialization in gRPC Registry Server. Bugzilla: 2492229
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492229
+
+---
+
+#### 2148. CVE-2026-57285 - Jenkins GitHub Branch Source Plugin: Jenkins GitHub Branch Source Plugin:…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Jenkins GitHub Branch Source Plugin: Jenkins GitHub Branch Source Plugin: Information disclosure via missing permission check. Bugzilla: 2492172
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492172
+
+---
+
+#### 2149. CVE-2026-57283 - jenkins-pipeline-groovy: Jenkins Pipeline: Groovy Plugin: Cross-site request…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jenkins-pipeline-groovy: Jenkins Pipeline: Groovy Plugin: Cross-site request forgery allows unauthorized configuration changes.. Bugzilla: 2492179
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492179
+
+---
+
+#### 2150. CVE-2026-57281 - jenkins-script-security-plugin: Jenkins Script Security Plugin: Arbitrary code…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] jenkins-script-security-plugin: Jenkins Script Security Plugin: Arbitrary code execution outside sandbox. Bugzilla: 2492200
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492200
+
+---
+
+#### 2151. CVE-2026-52932 - kernel: xfrm: ipcomp: Free destination pages on acomp errors
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: ipcomp: Free destination pages on acomp errors. Bugzilla: 2492087
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492087
+
+---
+
+#### 2152. CVE-2026-52938 - kernel: bpf: Fix NULL pointer dereference in bpf_sk_storage_clone and diag paths
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Fix NULL pointer dereference in bpf_sk_storage_clone and diag paths. Bugzilla: 2492088
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492088
+
+---
+
+#### 2153. CVE-2026-52919 - kernel: batman-adv: fix tp_meter counter underflow during shutdown
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: fix tp_meter counter underflow during shutdown. Bugzilla: 2492089
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492089
+
+---
+
+#### 2154. CVE-2026-52942 - kernel: netfilter: nf_log: validate MAC header was set before dumping it
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nf_log: validate MAC header was set before dumping it. Bugzilla: 2492091
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492091
+
+---
+
+#### 2155. CVE-2026-52918 - kernel: Bluetooth: serialize accept_q access
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: serialize accept_q access. Bugzilla: 2492092
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492092
+
+---
+
+#### 2156. CVE-2026-52925 - kernel: vrf: Fix a potential NPD when removing a port from a VRF
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vrf: Fix a potential NPD when removing a port from a VRF. Bugzilla: 2492093
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492093
+
+---
+
+#### 2157. CVE-2026-52923 - kernel: ipc: limit next_id allocation to the valid ID range
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipc: limit next_id allocation to the valid ID range. Bugzilla: 2492094
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492094
+
+---
+
+#### 2158. CVE-2026-52924 - kernel: sctp: purge outqueue on stale COOKIE-ECHO handling
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sctp: purge outqueue on stale COOKIE-ECHO handling. Bugzilla: 2492095
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492095
+
+---
+
+#### 2159. CVE-2026-52928 - kernel: af_unix: Reject SIOCATMARK on non-stream sockets
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: af_unix: Reject SIOCATMARK on non-stream sockets. Bugzilla: 2492096
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492096
+
+---
+
+#### 2160. CVE-2026-52933 - kernel: io_uring/poll: fix signed comparison in io_poll_get_ownership()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: io_uring/poll: fix signed comparison in io_poll_get_ownership(). Bugzilla: 2492097
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492097
+
+---
+
+#### 2161. CVE-2026-52935 - kernel: xfrm: espintcp: do not reuse an in-progress partial send
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: espintcp: do not reuse an in-progress partial send. Bugzilla: 2492098
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492098
+
+---
+
+#### 2162. CVE-2026-52941 - kernel: net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint. Bugzilla: 2492099
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492099
+
+---
+
+#### 2163. CVE-2026-52914 - kernel: batman-adv: fix fragment reassembly length accounting
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: fix fragment reassembly length accounting. Bugzilla: 2492100
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492100
+
+---
+
+#### 2164. [Ubuntu] USN-8477-1: tar vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tar incorrectly handled certain crafted archive files. An attacker could possibly use this to inject hidden files with attacker-controlled content, bypassing pre-extraction inspection mechanisms.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8477-1
+
+---
+
+#### 2165. [Ubuntu] USN-8475-1: AMD Microcode vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos, and Flavien Solt discovered that some AMD processors may allow an attacker to infer data from previous stores, potentially resulting in the leakage of privileged information. A local attacker could possibly use this to expose sensitive information. (CVE-2024-36350, CVE-2024-36357) It was discovered that some AMD Zen 5 proc
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8475-1
+
+---
+
+#### 2166. [Ubuntu] USN-8476-1: xrdp vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that xrdp incorrectly handled bounds checking when processing user domain information during the connection sequence. An unauthenticated remote attacker could use this issue to cause xrdp to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2025-68670) It was discovered that xrdp did not correctly enforce the maximum number of login attempts config
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8476-1
+
+---
+
+#### 2167. [Ubuntu] USN-8472-1: containerd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that containerd incorrectly handled HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause containerd to enter an infinite loop, resulting in a denial of service. (CVE-2026-33814) Jakub Ciolek and Kyle Elliott discovered that containerd incorrectly handled group parsing when creating containers from images. An attacker could possibly use this issue to ca
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8472-1
+
+---
+
+#### 2168. [Ubuntu] USN-8474-1: NSD vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that NSD incorrectly handled APL resource records with an address length larger than permitted for the address family. A remote attacker could use this to cause a stack-based buffer overflow when the zone is written to disk, potentially executing arbitrary code with the privileges of the NSD server. (CVE-2026-12246) It was discovered that NSD incorrectly handled SVCB resource rec
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8474-1
+
+---
+
+#### 2169. [Ubuntu] USN-8470-1: cpp-httplib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cpp-httplib incorrectly percent-decoded HTTP request header values. A remote attacker could use this to inject crafted header content possibly leading to response splitting, log injection or proxy smuggling.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8470-1
+
+---
+
+#### 2170. [Ubuntu] USN-8468-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images when using the wavelet-denoise operator. An attacker could possibly use this issue to trigger a heap buffer over-read, resulting in information disclosure. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-27798) It was discovered that ImageMagick incorrectly handled c
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8468-1
+
+---
+
+#### 2171. [Ubuntu] USN-8469-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Jiasheng Jiang discovered that FFmpeg incorrectly handled memory in certain error-handling paths of its TensorFlow DNN backend. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS. (CVE-2025-12343) Quang Luong discovered that FFmpeg incorrectly handled certain subsample data. An attacker could possibly use this issue to cause a denial o
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8469-1
+
+---
+
+#### 2172. CVE-2026-53108
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc/64s: Fix unmap race with PMD migration entries
+
+The following race is possible with migration swap entries or
+device-private THP entries. e.g. when move_pages is called on a PMD THP
+page, then there maybe an intermediate state, where PMD entry acts as
+a migration swap entry (pmd_present() is true). Then if an munmap
+happens at the same time, then this VM_BUG_ON() can happen in
+pmdp_huge_get_and_clear_full().
+
+This patch fixes that.
+
+Thread A: move_pages() syscall
+  add_folio_for_migration()
+    mmap_read_lock(mm)
+    folio_isolate_lru(folio)
+    mmap_read_unlock(mm)
+
+  do_move_pages_to_node()
+    migrate_pages()
+      try_to_migrate_one()
+        spin_lock(ptl)
+        set_pmd_migration_entry()
+          pmdp_invalidate()     # PMD: _PAGE_INVALID | _PAGE_PTE | pfn
+          set_pmd_at()          # PMD: migration swap entry (pmd_present=0)
+        spin_unlock(ptl)
+        [page copy phase]       # <--- RACE WINDOW -->
+
+Thread B: munmap()
+  mmap_write_downgrade(mm)
+  unmap_vmas() -> zap_pmd_range()
+    zap_huge_pmd()
+      __pmd_trans_huge_lock()
+        pmd_is_huge():          # !pmd_present && !pmd_none -> TRUE (swap entry)
+        pmd_lock() -> 		# spin_lock(ptl), waits for Thread A to release ptl
+      pmdp_huge_get_and_clear_full()
+        VM_BUG_ON(!pmd_present(*pmdp))  # HITS!
+
+[  287.738700][ T1867] ------------[ cut here ]------------
+[  287.743843][ T1867] kernel BUG at arch/powerpc/mm/book3s64/pgtable.c:187!
+cpu 0x0: Vector: 700 (Program Check) at [c00000044037f4f0]
+    pc: c000000000094ca4: pmdp_huge_get_and_clear_full+0x6c/0x23c
+    lr: c000000000645dec: zap_huge_pmd+0xb0/0x868
+    sp: c00000044037f790
+   msr: 800000000282b033
+  current = 0xc0000004032c1a00
+  paca    = 0xc000000004fe0000   irqmask: 0x03   irq_happened: 0x09
+    pid   = 1867, comm = a.out
+kernel BUG at :187!
+Linux version 6.19.0-12136-g14360d4f917c-dirty (powerpc64le-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #27 SMP PREEMPT Sun Feb 22 10:38:56 IST 2026
+enter ? for help
+[link register   ] c000000000645dec zap_huge_pmd+0xb0/0x868
+[c00000044037f790] c00000044037f7d0 (unreliable)
+[c00000044037f7d0] c000000000645dcc zap_huge_pmd+0x90/0x868
+[c00000044037f840] c0000000005724cc unmap_page_range+0x176c/0x1f40
+[c00000044037fa00] c000000000572ea0 unmap_vmas+0xb0/0x1d8
+[c00000044037fa90] c0000000005af254 unmap_region+0xb4/0x128
+[c00000044037fb50] c0000000005af400 vms_complete_munmap_vmas+0x138/0x310
+[c00000044037fbe0] c0000000005b0f1c do_vmi_align_munmap+0x1ec/0x238
+[c00000044037fd30] c0000000005b3688 __vm_munmap+0x170/0x1f8
+[c00000044037fdf0] c000000000587f74 sys_munmap+0x2c/0x40
+[c00000044037fe10] c000000000032668 system_call_exception+0x128/0x350
+[c00000044037fe50] c00000000000d05c system_call_vectored_common+0x15c/0x2ec
+---- Exception: 3000 (System Call Vectored) at 0000000010064a2c
+SP (7fff9b1ee9c0) is in userspace
+0:mon> zh
+
+commit a30b48bf1b24 ("mm/migrate_device: implement THP migration of zone device pages"),
+enabled migration for device-private PMD entries. Hence this is one
+other path where this warning could get trigger from.
+
+ ------------[ cut here ]------------
+ WARNING: arch/powerpc/mm/book3s64/hash_pgtable.c:199 at hash__pmd_hugepage_update+0x48/0x284, CPU#3: hmm-tests/1905
+ Modules linked in: test_hmm
+ CPU: 3 UID: 0 PID: 1905 Comm: hmm-tests Tainted: G    B   W    L   N  7.0.0-rc1-01438-g7e2f0ee7581c #21 PREEMPT
+ Tainted: [B]=BAD_PAGE, [W]=WARN, [L]=SOFTLOCKUP, [N]=TEST
+ Hardware name: IBM pSeries (emulated by qemu) POWER10 (architected) 0x801200 0xf000006 of:SLOF,git-ee03ae pSeries
+ NIP [c000000000096b70] hash__pmd_hugepage_update+0x48/0x284
+ LR [c000000000096e7c] hash__pmdp_huge_get_and_clear+0xd0/0xd4
+ Call Trace:
+ [c000000604707670] [c000000004e102b8] 0xc000000004e102b8 (unreliable)
+ [c000000604707700] [c00000000064ec3c] set_pmd_migration_entry+0x414/0x498
+ [c000000604707760] [c00000000063e5a4] migrate_vma_col
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/829367e55012c053738ebe7db20c4a90d6609ece
+- https://git.kernel.org/stable/c/bbcbf045d6c778e82b47a35fc8728387708e9a3d
 
 ---

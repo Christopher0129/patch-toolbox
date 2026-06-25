@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2007**
+**总计条目 / Total entries: 2036**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -37894,5 +37894,540 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2491869
+
+---
+
+#### 2008. CVE-2026-2050 - gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Arbitrary code execution via heap-based buffer overflow in HDR file parsing. Bugzilla: 2492593
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492593
+
+---
+
+#### 2009. CVE-2026-23879 - py7zr: py7zr: Arbitrary file write via crafted symbolic links during archive…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] py7zr: py7zr: Arbitrary file write via crafted symbolic links during archive extraction. Bugzilla: 2492507
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492507
+
+---
+
+#### 2010. CVE-2026-54297 - faraday: Faraday: Denial of Service via crafted nested query strings
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] faraday: Faraday: Denial of Service via crafted nested query strings. Bugzilla: 2492252
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492252
+
+---
+
+#### 2011. CVE-2026-56121 - feast: Feast: Remote Code Execution via Unsafe Deserialization in gRPC Registry…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] feast: Feast: Remote Code Execution via Unsafe Deserialization in gRPC Registry Server. Bugzilla: 2492229
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492229
+
+---
+
+#### 2012. CVE-2026-57285 - Jenkins GitHub Branch Source Plugin: Jenkins GitHub Branch Source Plugin:…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Jenkins GitHub Branch Source Plugin: Jenkins GitHub Branch Source Plugin: Information disclosure via missing permission check. Bugzilla: 2492172
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492172
+
+---
+
+#### 2013. CVE-2026-57283 - jenkins-pipeline-groovy: Jenkins Pipeline: Groovy Plugin: Cross-site request…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jenkins-pipeline-groovy: Jenkins Pipeline: Groovy Plugin: Cross-site request forgery allows unauthorized configuration changes.. Bugzilla: 2492179
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492179
+
+---
+
+#### 2014. CVE-2026-57281 - jenkins-script-security-plugin: Jenkins Script Security Plugin: Arbitrary code…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jenkins-script-security-plugin: Jenkins Script Security Plugin: Arbitrary code execution outside sandbox. Bugzilla: 2492200
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492200
+
+---
+
+#### 2015. CVE-2026-52932 - kernel: xfrm: ipcomp: Free destination pages on acomp errors
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: ipcomp: Free destination pages on acomp errors. Bugzilla: 2492087
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492087
+
+---
+
+#### 2016. CVE-2026-52938 - kernel: bpf: Fix NULL pointer dereference in bpf_sk_storage_clone and diag paths
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Fix NULL pointer dereference in bpf_sk_storage_clone and diag paths. Bugzilla: 2492088
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492088
+
+---
+
+#### 2017. CVE-2026-52919 - kernel: batman-adv: fix tp_meter counter underflow during shutdown
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: fix tp_meter counter underflow during shutdown. Bugzilla: 2492089
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492089
+
+---
+
+#### 2018. CVE-2026-52942 - kernel: netfilter: nf_log: validate MAC header was set before dumping it
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nf_log: validate MAC header was set before dumping it. Bugzilla: 2492091
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492091
+
+---
+
+#### 2019. CVE-2026-52918 - kernel: Bluetooth: serialize accept_q access
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: serialize accept_q access. Bugzilla: 2492092
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492092
+
+---
+
+#### 2020. CVE-2026-52925 - kernel: vrf: Fix a potential NPD when removing a port from a VRF
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vrf: Fix a potential NPD when removing a port from a VRF. Bugzilla: 2492093
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492093
+
+---
+
+#### 2021. CVE-2026-52923 - kernel: ipc: limit next_id allocation to the valid ID range
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipc: limit next_id allocation to the valid ID range. Bugzilla: 2492094
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492094
+
+---
+
+#### 2022. CVE-2026-52924 - kernel: sctp: purge outqueue on stale COOKIE-ECHO handling
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: sctp: purge outqueue on stale COOKIE-ECHO handling. Bugzilla: 2492095
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492095
+
+---
+
+#### 2023. CVE-2026-52928 - kernel: af_unix: Reject SIOCATMARK on non-stream sockets
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: af_unix: Reject SIOCATMARK on non-stream sockets. Bugzilla: 2492096
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492096
+
+---
+
+#### 2024. CVE-2026-52933 - kernel: io_uring/poll: fix signed comparison in io_poll_get_ownership()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: io_uring/poll: fix signed comparison in io_poll_get_ownership(). Bugzilla: 2492097
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492097
+
+---
+
+#### 2025. CVE-2026-52935 - kernel: xfrm: espintcp: do not reuse an in-progress partial send
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: espintcp: do not reuse an in-progress partial send. Bugzilla: 2492098
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492098
+
+---
+
+#### 2026. CVE-2026-52941 - kernel: net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint. Bugzilla: 2492099
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492099
+
+---
+
+#### 2027. CVE-2026-52914 - kernel: batman-adv: fix fragment reassembly length accounting
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: fix fragment reassembly length accounting. Bugzilla: 2492100
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492100
+
+---
+
+#### 2028. [Ubuntu] USN-8477-1: tar vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that tar incorrectly handled certain crafted archive files. An attacker could possibly use this to inject hidden files with attacker-controlled content, bypassing pre-extraction inspection mechanisms.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8477-1
+
+---
+
+#### 2029. [Ubuntu] USN-8475-1: AMD Microcode vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos, and Flavien Solt discovered that some AMD processors may allow an attacker to infer data from previous stores, potentially resulting in the leakage of privileged information. A local attacker could possibly use this to expose sensitive information. (CVE-2024-36350, CVE-2024-36357) It was discovered that some AMD Zen 5 proc
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8475-1
+
+---
+
+#### 2030. [Ubuntu] USN-8476-1: xrdp vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that xrdp incorrectly handled bounds checking when processing user domain information during the connection sequence. An unauthenticated remote attacker could use this issue to cause xrdp to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2025-68670) It was discovered that xrdp did not correctly enforce the maximum number of login attempts config
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8476-1
+
+---
+
+#### 2031. [Ubuntu] USN-8472-1: containerd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that containerd incorrectly handled HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause containerd to enter an infinite loop, resulting in a denial of service. (CVE-2026-33814) Jakub Ciolek and Kyle Elliott discovered that containerd incorrectly handled group parsing when creating containers from images. An attacker could possibly use this issue to ca
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8472-1
+
+---
+
+#### 2032. [Ubuntu] USN-8474-1: NSD vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that NSD incorrectly handled APL resource records with an address length larger than permitted for the address family. A remote attacker could use this to cause a stack-based buffer overflow when the zone is written to disk, potentially executing arbitrary code with the privileges of the NSD server. (CVE-2026-12246) It was discovered that NSD incorrectly handled SVCB resource rec
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8474-1
+
+---
+
+#### 2033. [Ubuntu] USN-8470-1: cpp-httplib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that cpp-httplib incorrectly percent-decoded HTTP request header values. A remote attacker could use this to inject crafted header content possibly leading to response splitting, log injection or proxy smuggling.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8470-1
+
+---
+
+#### 2034. [Ubuntu] USN-8468-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images when using the wavelet-denoise operator. An attacker could possibly use this issue to trigger a heap buffer over-read, resulting in information disclosure. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-27798) It was discovered that ImageMagick incorrectly handled c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8468-1
+
+---
+
+#### 2035. [Ubuntu] USN-8469-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Jiasheng Jiang discovered that FFmpeg incorrectly handled memory in certain error-handling paths of its TensorFlow DNN backend. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS. (CVE-2025-12343) Quang Luong discovered that FFmpeg incorrectly handled certain subsample data. An attacker could possibly use this issue to cause a denial o
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8469-1
+
+---
+
+#### 2036. CVE-2026-52961
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ceph: fix BUG_ON in __ceph_build_xattrs_blob() due to stale blob size
+
+The generic/642 test-case can reproduce the kernel crash:
+
+[40243.605254] ------------[ cut here ]------------
+[40243.605956] kernel BUG at fs/ceph/xattr.c:918!
+[40243.607142] Oops: invalid opcode: 0000 [#1] SMP PTI
+[40243.608067] CPU: 7 UID: 0 PID: 498762 Comm: kworker/7:1 Not tainted 7.0.0-rc7+ #3 PREEMPT(full)
+[40243.609700] Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[40243.611820] Workqueue: ceph-msgr ceph_con_workfn
+[40243.612715] RIP: 0010:__ceph_build_xattrs_blob+0x1b8/0x1e0
+[40243.613731] Code: 0f 84 82 fe ff ff e9 cf 8e 56 ff 48 8d 65 e8 31 c0 5b 41 5c 41 5d 5d 31 d2 31 c9 31 f6 31 ff 45 31 c0 45 31 c9 c3 cc cc cc cc <0f> 0b 4c 8b 62 08 41 8b 85 24 07 00 00 49 83 c4 04 41 89 44 24 fc
+[40243.616888] RSP: 0018:ffffcc80c4d4b688 EFLAGS: 00010287
+[40243.617773] RAX: 0000000000010026 RBX: 0000000000000001 RCX: 0000000000000000
+[40243.618928] RDX: ffff8a773798dee0 RSI: 0000000000000000 RDI: 0000000000000000
+[40243.620158] RBP: ffffcc80c4d4b6a0 R08: 0000000000000000 R09: 0000000000000000
+[40243.621573] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8a75f3b58000
+[40243.622907] R13: ffff8a75f3b58000 R14: 0000000000000080 R15: 000000000000bffd
+[40243.624054] FS:  0000000000000000(0000) GS:ffff8a787d1b4000(0000) knlGS:0000000000000000
+[40243.625331] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[40243.626269] CR2: 000072f390b623c0 CR3: 000000011c02a003 CR4: 0000000000372ef0
+[40243.627408] Call Trace:
+[40243.627839]  <TASK>
+[40243.628188]  __prep_cap+0x3fd/0x4a0
+[40243.628789]  ? do_raw_spin_unlock+0x4e/0xe0
+[40243.629474]  ceph_check_caps+0x46a/0xc80
+[40243.630094]  ? __lock_acquire+0x4a2/0x2650
+[40243.630773]  ? find_held_lock+0x31/0x90
+[40243.631347]  ? handle_cap_grant+0x79f/0x1060
+[40243.632068]  ? lock_release+0xd9/0x300
+[40243.632696]  ? __mutex_unlock_slowpath+0x3e/0x340
+[40243.633429]  ? lock_release+0xd9/0x300
+[40243.634052]  handle_cap_grant+0xcf6/0x1060
+[40243.634745]  ceph_handle_caps+0x122b/0x2110
+[40243.635415]  mds_dispatch+0x5bd/0x2160
+[40243.636034]  ? ceph_con_process_message+0x65/0x190
+[40243.636828]  ? lock_release+0xd9/0x300
+[40243.637431]  ceph_con_process_message+0x7a/0x190
+[40243.638184]  ? kfree+0x311/0x4f0
+[40243.638749]  ? kfree+0x311/0x4f0
+[40243.639268]  process_message+0x16/0x1a0
+[40243.639915]  ? sg_free_table+0x39/0x90
+[40243.640572]  ceph_con_v2_try_read+0xf58/0x2120
+[40243.641255]  ? lock_acquire+0xc8/0x300
+[40243.641863]  ceph_con_workfn+0x151/0x820
+[40243.642493]  process_one_work+0x22f/0x630
+[40243.643093]  ? process_one_work+0x254/0x630
+[40243.643770]  worker_thread+0x1e2/0x400
+[40243.644332]  ? __pfx_worker_thread+0x10/0x10
+[40243.645020]  kthread+0x109/0x140
+[40243.645560]  ? __pfx_kthread+0x10/0x10
+[40243.646125]  ret_from_fork+0x3f8/0x480
+[40243.646752]  ? __pfx_kthread+0x10/0x10
+[40243.647316]  ? __pfx_kthread+0x10/0x10
+[40243.647919]  ret_from_fork_asm+0x1a/0x30
+[40243.648556]  </TASK>
+[40243.648902] Modules linked in: overlay hctr2 libpolyval chacha libchacha adiantum libnh libpoly1305 essiv intel_rapl_msr intel_rapl_common intel_uncore_frequency_common skx_edac_common nfit kvm_intel kvm irqbypass joydev ghash_clmulni_intel aesni_intel rapl input_leds mac_hid psmouse vga16fb serio_raw vgastate floppy i2c_piix4 pata_acpi bochs qemu_fw_cfg i2c_smbus sch_fq_codel rbd dm_crypt msr parport_pc ppdev lp parport efi_pstore
+[40243.654766] ---[ end trace 0000000000000000 ]---
+
+Commit d93231a6bc8a ("ceph: prevent a client from exceeding the MDS
+maximum xattr size") moved the required_blob_size computation to before
+the __build_xattrs() call, introducing a race.
+
+__build_xattrs() releases and reacquires i_ceph_lock during execution.
+In that window, handle_cap_grant() may update i_xattrs.blob with a
+newer MDS-provided blob and bump i_xattrs.version.  When
+__bui
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0c22d9511cbde746622f8e4c11aaa63fe76d45f9.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0c22d9511cbde746622f8e4c11aaa63fe76d45f9
+- https://git.kernel.org/stable/c/368d21ae9081c93497b1c8163bed3eddcb2443ff
+- https://git.kernel.org/stable/c/7eb72425c4e3234926502eb262f9d6193ccd572c
+- https://git.kernel.org/stable/c/d5bd8b4e39cfa8b087448adcd48088065cd629d5
 
 ---

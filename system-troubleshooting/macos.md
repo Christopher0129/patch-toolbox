@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6056**
+**总计条目 / Total entries: 6108**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -83016,5 +83016,681 @@ In the end I had to build upwards from scratch. I won't try to explain this code
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/464002/tput-setaf-inconsistency-fail-ventura-sonoma
+
+---
+
+#### 6057. Red Star OS, the North Korean Linux distribution designed to resemble Mac OS X, running on a Mid-2010 MacBook Pro.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufjd01/red_star_os_the_north_korean_linux_distribution/
+
+---
+
+#### 6058. TIL you can print CD Covers from Apple Music
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufnac2/til_you_can_print_cd_covers_from_apple_music/
+
+---
+
+#### 6059. Best MS Paint Alternative on mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uf4fod/best_ms_paint_alternative_on_mac/
+
+---
+
+#### 6060. Weather App - Location not showing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uflhiq/weather_app_location_not_showing/
+
+---
+
+#### 6061. How can I change my system application icons without iconchamp?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufiomt/how_can_i_change_my_system_application_icons/
+
+---
+
+#### 6062. Old MacBook restore OS message
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufhtbn/old_macbook_restore_os_message/
+
+---
+
+#### 6063. Keep title bar visible full-screen in Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufnr5h/keep_title_bar_visible_fullscreen_in_tahoe/
+
+---
+
+#### 6064. Bash 3.2 alternative to read -i for prefilled user input on macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufl1v4/bash_32_alternative_to_read_i_for_prefilled_user/
+
+---
+
+#### 6065. I don’t know how to change it back lol
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uf8l49/i_dont_know_how_to_change_it_back_lol/
+
+---
+
+#### 6066. This Screen Time Glitch had me rolling
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uf1vhb/this_screen_time_glitch_had_me_rolling/
+
+---
+
+#### 6067. 1/4th of my brand new Mac Air is glitchy, static and not rendering well.(HELP)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufho5v/14th_of_my_brand_new_mac_air_is_glitchy_static/
+
+---
+
+#### 6068. Mac/Android Messages
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufh75a/macandroid_messages/
+
+---
+
+#### 6069. Can't control output volume on new exact same model of MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufh587/cant_control_output_volume_on_new_exact_same/
+
+---
+
+#### 6070. How to get rid of extra space in Apple Intelligence on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufflip/how_to_get_rid_of_extra_space_in_apple/
+
+---
+
+#### 6071. Can I upgrade to Sonoma on Ventura? (OCLP)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufffrx/can_i_upgrade_to_sonoma_on_ventura_oclp/
+
+---
+
+#### 6072. the mac ai agent that stuck for me was the one that could work a site with no api
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufkl3j/the_mac_ai_agent_that_stuck_for_me_was_the_one/
+
+---
+
+#### 6073. What does this mean?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uf8byd/what_does_this_mean/
+
+---
+
+#### 6074. Restore original creation dates in Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uf9m8x/restore_original_creation_dates_in_finder/
+
+---
+
+#### 6075. "The Server gave an error during download: 403 Forbidden"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ueyslw/the_server_gave_an_error_during_download_403/
+
+---
+
+#### 6076. [V2EX] vibe 了一个让 macOS 支持 NTFS 文件系统读写的插件
+
+**问题描述 / Problem Description**:
+使用 FSKit 简单包装 ntfs-3g ，无任何花哨功能，自动挂载、弹出都像原生一样[FSKit 的能力] 软件地址： xntfs 因为 ntfs-3g 是 GPL2 协议，后续会开源： 促销代码： 67JNNELMX3AL WMKH7PHAWA3N R9KRJ9EJRR4F 3EXWPLNRH7RH JEH9EL3HHXMP KKT4739WRTNW KKRNAJFTJ7WW 73L66AXW7PXT R96TW4K49TH9 4TLJ7PPW9WFY 使用后要回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222784#reply21
+
+---
+
+#### 6077. [V2EX] macos 如何不重启清理掉已使用的 swap
+
+**问题描述 / Problem Description**:
+rt, 不是 sudo purge ，purge 只能清除已缓存文件，不重启机器还有没有办法释放掉交换文件，从而释放被占用的磁盘空间？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222783#reply1
+
+---
+
+#### 6078. [V2EX] macOS 状态栏 按 cmd 可以移动图标顺序
+
+**问题描述 / Problem Description**:
+macOS26 之前一直使用 ICE 可以随意控制状态栏的图标数量和顺序。 升级到 26 之后可以在设置里面设置哪些可以显示/关闭，但是顺序好像随机的。 一开始图标少也就没有在意，现在加了一个状态栏歌词显示，他插在了最里面看着好不舒服。 偶然发现按着 cmd 可以移动图标，搜了一下确实是。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222780#reply3
+
+---
+
+#### 6079. [V2EX] 让你的安卓手机在 Mac 上像苹果手机一样使用镜像。
+
+**问题描述 / Problem Description**:
+介绍下第一个开源 APP ，如果你是安卓手机使用的 Mac 电脑这个开源 APP 会解决你的生态痛点 从 2025 年底抛弃了我的使用 8 年的 iPhone 投入了安卓的怀抱，但是苹果生态早已把我绑定 看到 iPhone 可以跟 Mac 接力， 镜像 看的我非常羡慕 所以有了这一个安卓镜像，在 Mac 上操作你的安卓手机，以及剪切板同步（接力），让安卓用户也能和 Mac 深度融合 欢迎 star ，提 issue https://github.com/matyle/droidMirroring-mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222725#reply13
+
+---
+
+#### 6080. [V2EX] macOS 上有什么比较好用的清理软件
+
+**问题描述 / Problem Description**:
+如题 就是 CleanMyMac 太贵了，AppCleaner 又只能卸载软件，不能清理其它的残余 想知道各位大佬都是用什么方法去清 Mac 上面的垃圾的 o.O 还有一些系统维护，比如清理设置>启动项里面残余的应用 O.o 烦劳各位推荐了 o(≧v≦)o
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222690#reply37
+
+---
+
+#### 6081. [V2EX] 27 Beta2 appstoreagent 进程 占用很高的 CPU 咋办
+
+**问题描述 / Problem Description**:
+appstore 都没有打开，appstoreagent 进程占用很高的 CPU ，强制退出了过一会儿还会出来，重启之后出来的时间慢一点 有通过 hosts 屏蔽 sylvan.apple.com ，不知道是不是因为这个，但是试了下解除屏蔽还是会疯狂下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222655#reply9
+
+---
+
+#### 6082. [V2EX] macbook 刚买两个月，磁盘写了 2TB（总容量 1TB），正常吗？
+
+**问题描述 / Problem Description**:
+我的 macbook 硬盘总容量 1TB ，买了两个月就写了 2TB ，这种写入正常吗？ 我为了减少磁盘写入，将 hibernatemode 调成了 0 （睡眠时内存实时供电，不向硬盘写入内存内容）；使用的时候还要不定期盯着任务管理器，避免内存压力达到写 swap 的门槛（内存 24GB ，程序开多了还是会变黄）； 这东西硬盘能写到多少 TBW ？毕竟焊死的换不了。我是不是有些多虑了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222379#reply9
+
+---
+
+#### 6083. [V2EX] iOS 中的“团结”这个是啥？是中毒了么？
+
+**问题描述 / Problem Description**:
+在 APP 列表中看不到，在做“自动化”时，选择 APP 时就能看到了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222916#reply2
+
+---
+
+#### 6084. [V2EX]  Apple 平板和电脑涨价
+
+**问题描述 / Problem Description**:
+iPad：3799 元起 iPad Air：5999 元起 iPad Pro：10799 元起 iPad mini：4799 元起 MacBook Neo：5499 元起 MacBook Air：9999 元起 MacBook Pro：15999 元起 iMac：12499 元起 Mac mini：5999 元起 Mac Studio：19999 元起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222904#reply32
+
+---
+
+#### 6085. [V2EX] macbook m3 pro 和 m1 max 如何选择
+
+**问题描述 / Problem Description**:
+想入个二手 mac ， m3pro 36g 512 （ 12+18 ） 和 m1max 64g 1T （ 10+24 ）,二手市场价格差不多，该如何选择？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222900#reply2
+
+---
+
+#### 6086. [V2EX] 请问下 neo 和 air m5 的购买建议
+
+**问题描述 / Problem Description**:
+主要用来炒股，目前只有 windows 台式机，想买一个干净的电脑来装小龙虾之类的 ai agent 来抓数据、分析热点 我理解这些都是用 api token ，内存只用在浏览器的内存和 agent 本身 8g 能否满足？需不需要 16G 以及 m5 芯片的 ai 算力？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222870#reply7
+
+---
+
+#### 6087. [V2EX] iPhone 屏幕防油渍防指纹涂层
+
+**问题描述 / Problem Description**:
+这涂层也就刚买的时候有效果，一俩月后似乎就慢慢磨损实效了，但一开始真的是非常好使，啥都不粘 有办法回到刚买时那样效果不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222645#reply9
+
+---
+
+#### 6088. [V2EX] 似乎 apple.com 买礼品卡加了 ip 检测
+
+**问题描述 / Problem Description**:
+切到美国 ip 后才能进入到输入支付信息的页面，不然必定跳到 404
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222613#reply10
+
+---
+
+#### 6089. [V2EX] macos27 的 siri ai 怎么可以不报 problem 啊？
+
+**问题描述 / Problem Description**:
+国行的用脚本，已经可以开了 siri ai 了。 昨天晚上联网用一会，今天早上重启完不行了，一直报 problem 。 试过各种办法都不行，正常来说 mac 这玩意定位关闭的话，走全局代理不就可以了吗？ ios 设备是移动端会判断 sim 卡啊定位啊这些，mac 的定位我都关闭了啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222526#reply15
+
+---
+
+#### 6090. [V2EX] apple notes 已经支持一次性全部导出了
+
+**问题描述 / Problem Description**:
+在顶部 All iCloud 中全选笔记，然后再从 File 中选择导出为 Markdown 或者 PDF 导出内容没有笔记的层级结构，只有全部 md 文件和一个附件目录，但这个好像已经足够用作备份了 我记得以前是可以按照单个笔记文件夹导出，这个全部导出不知道是什么时候才开始更新的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222514#reply6
+
+---
+
+#### 6091. [V2EX] 我被 iOS27 的原生中文输入法折磨疯了
+
+**问题描述 / Problem Description**:
+我一直是一个坚定的 iOS 原生输入法使用者，但是直到苹果在 iOS27 更新了中文输入法的联想逻辑。现在它会更加激进地去推测我输入的拼音后面会接上什么词语。这本身是没啥问题的，但是有问题的是他会把这个拼接出来的猜测语放在待选词的第一个。这样会导致我非常频繁地误输入一些我根本没有键入的词语。 比如说：我如果很频繁地键入”垃圾游戏“这个词语，那 iOS27 会学习我的输入习惯，并且在我输入"laji"的时候就把"垃圾游戏"放在第一个候选词。但是这样的话可能哪天我让别让帮我倒一下垃圾的时候他就会自己把“游戏”给补全然后变成了“帮我倒一下垃圾游戏”，就很变态 希望苹果早点修一下吧，有联想是好的但是你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222207#reply42
+
+---
+
+#### 6092. [V2EX] iphone16 升级到 IOS27 beta2 后, 自定义的快捷指令不能自动运行了, 各位大神有没有碰到, 应该怎么处理
+
+**问题描述 / Problem Description**:
+iphone16 升级到 IOS27 beta2 后, 自定义的快捷指令不能自动运行了, 各位大神有没有碰到, 应该怎么处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222139#reply16
+
+---
+
+#### 6093. [V2EX] 百度千帆 Coding Plan 上线 4 个月就停止续费了，有人买了吗？
+
+**问题描述 / Problem Description**:
+RT ，百度千帆今天发公告，Coding Plan 所有套餐即日起停止续费。已购用户能用到当前周期结束，自动续费 30 天后失效，到期后就不能再续了。 这服务 2026 年 2 月才上线，这才四个月就砍了，有点难绷。 有人在用吗？体验怎么样？是不是又被百度“起大早赶晚集”了？ 感觉大厂这些 Coding Plan 一个个都在改按 token 计费，订阅制是不是快玩不下去了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222929#reply0
+
+---
+
+#### 6094. [V2EX] 微软 edge 又是什么情况？
+
+**问题描述 / Problem Description**:
+虽然只是几十天没关机，日志文件也不至于这么大吧？你是把我浏览信息全记录下来了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222927#reply0
+
+---
+
+#### 6095. [V2EX] 从 Composer 2.5 想到微软再次崛起的可能性
+
+**问题描述 / Problem Description**:
+最近我使用了 Cursor 的 Composer 2.5 ，第一感觉是：速度很快，写代码也出乎意料地不错。尤其在最近 GPT 疯狂降智，有时我甚至觉得它比 GPT 更好用。更让人惊讶的是，Composer 2.5 并不是一个从零训练的大模型，而是基于 Kimi K2.5 ，再经过 Cursor 自己的 continued pretraining 、强化学习，以及面向真实 coding agent 场景的后训练改造而来。 这件事很有意思。 过去很多人把 Cursor 这类 AI IDE 看成“套壳”App：底层调用别人的大模型，外面包一层编辑器体验，再通过 prompt 、上下文管理和工具调用做
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222890#reply11
+
+---
+
+#### 6096. [V2EX] 分享个自己撸的截图 API:网址进,PNG / PDF 出,真 Chromium 渲染
+
+**问题描述 / Problem Description**:
+最近有个需求,要把网页批量转成截图和 PDF 。试了几个现成的 API 觉得有点贵,就自己撸了一个,顺手做成了对外的 API 。 功能很简单: 给一个网址,返回整页截图(PNG / JPEG) 或者直接把网页渲染成 PDF 支持整页截图、自定义视口尺寸、JS 重的页面加渲染延迟 底层是真实 Chromium(Playwright),所以现代 CSS 、网页字体、JS 动态渲染出来的内容都能正常截到,不是只抓静态 HTML 那种。 一个 GET 请求的事: GET /screenshot?url= https://example.com &format=pdf 挂在 RapidAPI 上,有免费
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222882#reply1
+
+---
+
+#### 6097. [V2EX] [分享一个好玩的东西] 描述直接出图，出视频，全免费
+
+**问题描述 / Problem Description**:
+![kQv5RkB9V1Q1WOnVyHJlW1birnUlDEk6.webp]( https://cdn.nodeimage.com/i/kQv5RkB9V1Q1WOnVyHJlW1birnUlDEk6.webp ) ![3k5kjtyXkgxNtINKeFxoR0wnVNrahjJu.webp]( https://cdn.nodeimage.com/i/3k5kjtyXkgxNtINKeFxoR0wnVNrahjJu.webp ) 这个挺好玩的，直接生成图和视频，不确定还能免费多久，整来玩玩。 **下图内容给各位大佬的见面礼** 😄 ![UKDyB3qUYj6d5N0WP5VxkxYiEg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222865#reply0
+
+---
+
+#### 6098. [V2EX] [开源自推] My AI Gateway | 适合个人的 AI 聚合网关 重点是熔断重路由
+
+**问题描述 / Problem Description**:
+My AI Gateway （ MAG ） 适合个人的 AI 聚合网关，开发该项目重点是将多个渠道“ 模型聚合 ”、“ 故障转移 ”与“ 熔断 ”，一个入口模型可以指定多个模型，支持配置熔断范围（模型/apiKey 级别）,熔断冷却后自动可用，一个渠道可以支持多个 apiKey 。 熔断类型 ： 模型：当模型不可用时，只熔断该 apikey 的该模型； apiKey 级别: 当模型不可用时，熔断整个 apiKey ； 效果： 需要的话可以部署看看 部署 ： git clone git@github.com:My-Search/my-ai-gateway.git cd my-ai-gateway
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222849#reply0
+
+---
+
+#### 6099. [V2EX] 发现一个开源路由工具，注册各家免费 API 就能零成本撸到 10 亿+ Token
+
+**问题描述 / Problem Description**:
+原理很简单：它把各家厂商的免费 API 额度整合到一起，通过一个本地路由自动分配请求，相当于白嫖一个聚合 API 。 https://github.com/tashfeenahmed/freellmapi 操作极简： 克隆仓库 去各家（ OpenAI 、Google 、Anthropic 等）申请免费 API key 填入配置文件 把你的应用指向本地端点 30 秒就能跑起来，它自动做负载均衡和故障切换，不需要你手写回退逻辑。 据说加起来能白嫖到 10 亿+ 免费 Token 。 当然有几点要注意： 免费额度各家有限制，不是真的无限 适合个人开发和测试用，生产环境还是建议付费 延迟可能比直连高一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222796#reply0
+
+---
+
+#### 6100. [V2EX] 火山引擎你们家费用分析页面炸了
+
+**问题描述 / Problem Description**:
+https://i.stardots.io/brad/StarDots-2026062514470977859.png 点费用分析，直接看接口数据了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222779#reply0
+
+---
+
+#### 6101. [V2EX] 中兴巡天 BE5100 路由器软件更新版本了
+
+**问题描述 / Problem Description**:
+更新了好几条挺有用的功能，在家的时候忘记复制出来了，其中一条我觉得比较好的是：只连 5G 频段开关。 这可以解决双频合一场景下的一些问题。 前贴回顾： /t/1212652 我后面又开回双频合一，是因为我发现我家，某几台移动设备（手机等），连 5G 在某些区域信号很弱或没有，连 2.4G 又慢、附近干扰又多，所以开双频让他自由切换。 我电脑开机默认连 2.4G ，设置了 5G 优先没用，后面我更新了网卡驱动解决了。如果当时路由器有这个功能，我就不用折腾了。 不过有也好，也许我后面还有其他设备会遇到这种场景。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222698#reply1
+
+---
+
+#### 6102. [V2EX] 排查到了 TikTok 的一种无网络问题，想看看有没有人遇到过
+
+**问题描述 / Problem Description**:
+最近排查了一个 TikTok 国际版「无网络」的问题，使用 Codex 进行了一轮复杂排查，最终定位到是香港代理问题，分享一下过程 环境 设备：Pixel 7 Pro ，KernelSU ROOT SIM：giffgaff 代理：路由器上的 OpenClash ，出口节点 香港 TikTok 版本：45.7.3 （ Google Play ） 排查过程概述 起初怀疑过 DNS 、TLS 证书、代理规则、SIM 卡 MCC/MNC ， 甚至尝试过 DeviceSpoofLab 、清空应用数据、重装 TikTok——全都不行 清空数据后重启 TikTok ，问题立即复现， 说明不是残留状态，而是每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222656#reply3
+
+---
+
+#### 6103. [V2EX] 发现 Windows Server 一个比 Linux Server 稳定的地方
+
+**问题描述 / Problem Description**:
+Debian 12 ，OpenZFS 当 OpenZFS 正在长时间复制时，整台服务器的 CPU 负载吃满，此时 SSH 响应极慢，有些 SSH 连接甚至接断开了。 但 Windows Server 的 Storage ，就算开启压缩 + 去重，遇到满负载任务时，远程桌面很流畅，从来没遇卡顿甚至断开的情况。 AI 说，这是因为 Windows 主动给远程桌面与 GUI 操作的相关进程的优先级做了提升，提升的不只是桌面 GUI 进程与远程桌面服务进程，还包括网络、渲染等相关进程。在 Debian 12 里，如果只提升 SSH 进程的优先级是没用的，因为内核态的网络处理进程并没有得到优先级的提升。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222654#reply3
+
+---
+
+#### 6104. [V2EX] 做了个网页截图 & PDF API,一个请求把任意网页转成图片或 PDF
+
+**问题描述 / Problem Description**:
+最近做了个小东西:给一个网址,返回整页截图(PNG/JPEG)或 PDF,一个 GET 请求搞定。 底层是真实 Chromium,所以 JS 、现代 CSS 、网页字体都能正常渲染。支持整页截图、自定义视口尺寸、JS 重的页面可以加延迟。 用途:链接预览、网站缩略图、网页存档、HTML 转 PDF 报告等。 有免费额度可以直接试,付费档从 $8/月起。 地址: https://rapidapi.com/xufei547/api/screenshot-pdf-api2 落地页:https://fingogin-shot.fly.dev 欢迎试用拍砖,也想听听大家会拿它做什么 / 还缺什么功能(
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222631#reply4
+
+---
+
+#### 6105. [V2EX] 在 AI 上搜索了信息，会接到相关的推销电话？
+
+**问题描述 / Problem Description**:
+你们有没有这样的经历？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222614#reply12
+
+---
+
+#### 6106. [V2EX] 发现在汽水音乐上听到的一些很好听的 AI 音乐，下载后想上传到网易云音乐网盘，却一直失败
+
+**问题描述 / Problem Description**:
+有些 AI 音乐听着确实还不错啊，就是汽水有的 AI 音乐也不让免费听了啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222562#reply2
+
+---
+
+#### 6107. [V2EX] 腾讯做了个基于 agent 的邮箱，好像还挺好玩
+
+**问题描述 / Problem Description**:
+地址： agent.qq.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222529#reply5
+
+---
+
+#### 6108. [V2EX] 千字雄文：中国男人的情感与性
+
+**问题描述 / Problem Description**:
+原文链接👉 中国男人的情感与性 作为一个比较（爱装）害羞的人，曾经不太愿意谈论这个话题。 然而作为一个爱好写作的人哪有什么不能谈的，必须要对自己诚实也要对读者诚实。尤其是作为一个思维活跃又跟熟人喜欢开黄腔的 I 人，我觉得没有人比我更适合谈这个话题。 写一些我观察到的现象，也有一些是自己的感悟，随便说说，比较松散，不成体系。 为什么要单独把中国男人拿出来，单独谈一谈他们的“情感与性”呢，首先是因为我们的国情和文化比较特殊，我们的国家对性文化的开放程度，不如一些欧美国家。在性教育方面，我感觉也才处于初级阶段。 其次东亚文明，尤其是我们中华文化中，对于情感的表达，似乎就是更加委婉，中国男人似乎天生
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222519#reply4
 
 ---
