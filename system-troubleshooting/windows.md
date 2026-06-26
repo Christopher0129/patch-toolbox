@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7255**
+**总计条目 / Total entries: 7324**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -100079,5 +100079,902 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1222757#reply12
+
+---
+
+#### 7256. Is 720p noticeably poor quality now?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ug458k/is_720p_noticeably_poor_quality_now/
+
+---
+
+#### 7257. Need to convert multi-disk (but single file) iso to mp4
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugimzx/need_to_convert_multidisk_but_single_file_iso_to/
+
+---
+
+#### 7258. SSD suddenly completely bricked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugcrgc/ssd_suddenly_completely_bricked/
+
+---
+
+#### 7259. Outlook calendar
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugie9t/outlook_calendar/
+
+---
+
+#### 7260. PC randomly freezes for 3 seconds every 20 min
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ughfn3/pc_randomly_freezes_for_3_seconds_every_20_min/
+
+---
+
+#### 7261. Asus Prime Z370 A-II Forced BIOS OC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugkhrh/asus_prime_z370_aii_forced_bios_oc/
+
+---
+
+#### 7262. No view
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugkgh0/no_view/
+
+---
+
+#### 7263. Youtube videos not running properly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugkapm/youtube_videos_not_running_properly/
+
+---
+
+#### 7264. Revival of an abandoned laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugjkhf/revival_of_an_abandoned_laptop/
+
+---
+
+#### 7265. Weird notifications started to show
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugjjfk/weird_notifications_started_to_show/
+
+---
+
+#### 7266. Solved, sharing: Microsoft Print to PDF broken, error 0x800f0922 when enabling
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugje2z/solved_sharing_microsoft_print_to_pdf_broken/
+
+---
+
+#### 7267. I believe my PC is compromised, how to back up data before factory reset?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugddf8/i_believe_my_pc_is_compromised_how_to_back_up/
+
+---
+
+#### 7268. My PC restarts when I open some game or Steam
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugj8sc/my_pc_restarts_when_i_open_some_game_or_steam/
+
+---
+
+#### 7269. Need help with fax
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugd8em/need_help_with_fax/
+
+---
+
+#### 7270. can someone help me to on secure boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugj6g6/can_someone_help_me_to_on_secure_boot/
+
+---
+
+#### 7271. My computer keeps rebooting automatically with no apparent reason.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugj561/my_computer_keeps_rebooting_automatically_with_no/
+
+---
+
+#### 7272. SSD is dying, still saveable?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugj2s7/ssd_is_dying_still_saveable/
+
+---
+
+#### 7273. Some instability on brand new PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ug96c2/some_instability_on_brand_new_pc/
+
+---
+
+#### 7274. HDMI vs DP colour depth
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugiqp0/hdmi_vs_dp_colour_depth/
+
+---
+
+#### 7275. no audio coming from headphones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugiqbg/no_audio_coming_from_headphones/
+
+---
+
+#### 7276. Computer keeps freezing and dying on me
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugionx/computer_keeps_freezing_and_dying_on_me/
+
+---
+
+#### 7277. Wife's computer goes blank and unresponsive but stays in Discord call?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugi5j0/wifes_computer_goes_blank_and_unresponsive_but/
+
+---
+
+#### 7278. Phone Issue: Have I been Hacked?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugi3ip/phone_issue_have_i_been_hacked/
+
+---
+
+#### 7279. Phone screen broken
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ugi37p/phone_screen_broken/
+
+---
+
+#### 7280. Bsod and game crashes every 5 minutes
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugj3aa/bsod_and_game_crashes_every_5_minutes/
+
+---
+
+#### 7281. Windows Update broken - "Something went wrong" + Error 1053 on wuauserv/UsoSvc (tried almost everything)
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugbrmc/windows_update_broken_something_went_wrong_error/
+
+---
+
+#### 7282. I cant access my laptop because it freezer when i boot it
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1uggvyd/i_cant_access_my_laptop_because_it_freezer_when_i/
+
+---
+
+#### 7283. Trouble with LG 5k Thunderbolt monitor and Dell Latitude 5430
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugguyp/trouble_with_lg_5k_thunderbolt_monitor_and_dell/
+
+---
+
+#### 7284. Secure Boot “failed signature verification” after resetting keys; Windows boots fine with Secure Boot OFF
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugdlnb/secure_boot_failed_signature_verification_after/
+
+---
+
+#### 7285. Windows 11 clean install boot loop
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugdfkh/windows_11_clean_install_boot_loop/
+
+---
+
+#### 7286. Game Bar Shortcuts all Running Without Alt - Can't use Win+R for run anymore!
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugczrm/game_bar_shortcuts_all_running_without_alt_cant/
+
+---
+
+#### 7287. My pc keeps freezing when i play games!
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug289j/my_pc_keeps_freezing_when_i_play_games/
+
+---
+
+#### 7288. PC freeze or black screen but sound continues and sometimes stutter even if idle.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugcwix/pc_freeze_or_black_screen_but_sound_continues_and/
+
+---
+
+#### 7289. LAPS Issues and Creating Application Shortcuts
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugce04/laps_issues_and_creating_application_shortcuts/
+
+---
+
+#### 7290. Windows 10 desktop leaves blank icon-grid spaces after Refresh, but only when sorted by Date Modified or Size
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugbccl/windows_10_desktop_leaves_blank_icongrid_spaces/
+
+---
+
+#### 7291. How to get my computer out of safe mode?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugb745/how_to_get_my_computer_out_of_safe_mode/
+
+---
+
+#### 7292. laptop not working after restart
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ugalyw/laptop_not_working_after_restart/
+
+---
+
+#### 7293. My Windows is stuck in a boot loop
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug6zwf/my_windows_is_stuck_in_a_boot_loop/
+
+---
+
+#### 7294. Task Manager UI is broken on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug691b/task_manager_ui_is_broken_on_windows_11/
+
+---
+
+#### 7295. Windows 11 Ethernet icon keeps blinking for 10-15 seconds after boot before connecting and unable to connect internet until it recognize.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug5tyj/windows_11_ethernet_icon_keeps_blinking_for_1015/
+
+---
+
+#### 7296. What and why is windows desktop manger eating up so much of my ram?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ufvpuf/what_and_why_is_windows_desktop_manger_eating_up/
+
+---
+
+#### 7297. Bluetooth fault on my windows 11 laptop
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug45el/bluetooth_fault_on_my_windows_11_laptop/
+
+---
+
+#### 7298. Weird thing in my task view, causing yellow flash.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug2kkr/weird_thing_in_my_task_view_causing_yellow_flash/
+
+---
+
+#### 7299. TPM 2.0 and Secure Boot Issues
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug17bp/tpm_20_and_secure_boot_issues/
+
+---
+
+#### 7300. Windows won't remember window positions after sleep when using an OLED as primary monitor
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug11hq/windows_wont_remember_window_positions_after/
+
+---
+
+#### 7301. Windows security update install error new lenovo LOQ laptop
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ug0rmg/windows_security_update_install_error_new_lenovo/
+
+---
+
+#### 7302. ASUS Zenbook A16 – Windows Search Bar not working / frozen
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1ufyw1w/asus_zenbook_a16_windows_search_bar_not_working/
+
+---
+
+#### 7303. [V2EX] 求助！个人平时用 windows 都是打游戏，如何给 windows 做程序员风格优化？周末想给老婆的电脑处理一下
+
+**问题描述 / Problem Description**:
+比如： 日常必备软件，类似 mac Raycast 那种的 程序员必备软件 感谢大佬们分享经验！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223173#reply9
+
+---
+
+#### 7304. [V2EX] windows11 专业版，微软商店下载的 chatgpt 桌面版，打开速度很慢。点击之后大概 1 分钟才真正打开,才弹出窗口。这是什么问题，如何解决？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222609#reply3
+
+---
+
+#### 7305. [V2EX] crossoverchina 和 codeweavers 有什么区别？
+
+**问题描述 / Problem Description**:
+准备买台 mac mini 打游戏，发现 CrossOver 搜出来两个域名，价格差距还蛮离谱？盗版商？ codeweavers 中永久版 345.8 刀 crossoverchina 中永久版 188 人民币 看上去很有陷阱的样子？但如果破解版卖这个价格有点离谱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223242#reply3
+
+---
+
+#### 7306. [V2EX] 今晚 3 个梯子炸了 2 个，发力了？
+
+**问题描述 / Problem Description**:
+买的一台 vps 中国全红，不会被墙了吧😭，别人搭的 dmit 也挂了，翻出来好久没用的机场才勉强连上来，而且很卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223230#reply7
+
+---
+
+#### 7307. [V2EX] dmit 线路出问题了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223219#reply8
+
+---
+
+#### 7308. [V2EX] 最近看到很多人说 cursor 的 Composer 2.5 fast 很好用，是真的吗？
+
+**问题描述 / Problem Description**:
+一般的开发好像说完全够用，不知道具体情况如何，有点担心改乱代码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223217#reply5
+
+---
+
+#### 7309. [V2EX] 突然发现，很多蚊子飞行都没有声音了？
+
+**问题描述 / Problem Description**:
+我记得之前蚊子飞到头周围都是有声音的， 怎么今年遇到的大部分蚊子都开了静音飞行模式，没声音啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223214#reply6
+
+---
+
+#### 7310. [V2EX] v2ex 网站右边的未读提醒上面的那个横线是做什么的
+
+**问题描述 / Problem Description**:
+一会颜色是灰色，一会是绿色，一会是黄色，是做什么用的，没明白，问 ai 也答不出来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223209#reply5
+
+---
+
+#### 7311. [V2EX] 坐标成都，孩子小升初，大家有提前安排学奥数去考试的吗？
+
+**问题描述 / Problem Description**:
+子坐标天府新区，有没有这样的伙伴，或者正在经历、准备干这个的伙伴，交流交流啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223202#reply6
+
+---
+
+#### 7312. [V2EX] 现在外包签的都是劳务合同？
+
+**问题描述 / Problem Description**:
+坐标杭州，某国企外包，由于国企在 2025 年未招标，直到 2026 年才招标，原来一个标能分两个包给两家单位，现在不允许了，一家单位中标后，私下转钱给另外一家单位。没错，我就在这家倒霉的未中标的外包公司。 所以导致我一年半了只拿到国企的预付款的 30%，我盘算着 2025 年的 70%要等到明年的 2 月份左右，想想还是得把钱要回来，不能再等了，必须劳动仲裁，8 月开庭。 国企得知后，部门领导认为我把邮件记录提交给仲裁委是泄密，要我撤诉，我肯定不答应。四方坐下来协商，说 7 月会把 2025 年剩下的钱给我，但今年 6 个月工资要等到外包公司收到 12 月到账的国企预付款。 还让我和中标的外
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223200#reply0
+
+---
+
+#### 7313. [V2EX] 征集一起投诉和起诉小米
+
+**问题描述 / Problem Description**:
+征集一起投诉和起诉小米 小米手机质量太差，售后更差，付费更换屏幕花了近 1200 一年多，售后不给维修. 屏幕绿线是硬件质量问题. .谁有小米类似问题,可以联系我,我打算投诉和起诉.我们一起干。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223199#reply1
+
+---
+
+#### 7314. [V2EX] 统计一下，有多少人因为 ai 赚钱了
+
+**问题描述 / Problem Description**:
+看到苹果涨价，有所感触，感觉 ai 确实能提高生产力，但又有多少人通过 ai 赚钱了，互联网公司开始裁员，硬件价格上涨，好多时候还要自己买 token ，工资却没上涨，是我赚钱思维不够活吗。想统计一下有多少佬通过 ai 赚钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223187#reply8
+
+---
+
+#### 7315. [V2EX] [求助]PDD 买到的打印机为维修机翻新，目前平台升级处理中，后续该怎么刚？
+
+**问题描述 / Problem Description**:
+各位 V 友大家好，最近在 PDD 踩坑了一台打印机，目前正在硬刚平台要求“退一赔三”。 事情经过 在 PDD 某店铺（个体户，注册地在杭州余杭，发货地上海）买了一台爱普生 L4268 打印机，到手发现极其不对劲（缺少官方随机附件）。保修卡上型号（ L4266 ）与机身铭牌（ L4268 ）对不上，序列号却与铭牌一致，找店家百般狡辩。向爱普生客服确认该机存在问题后，找 PDD 客服介入，要求退一赔三。平台最初以“货物已签收不能处理”为由给出 100 元现金补偿；我拒绝后又以“联系不上商家”为借口说最多赔 200 元；后来在我的一再要求下加码到 607 元；最奇葩的是隔天又改口说 607 元是“
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223184#reply0
+
+---
+
+#### 7316. [V2EX] 大模型的输入大小限制是网页 chat 才有？
+
+**问题描述 / Problem Description**:
+我往 deepseek v4 Pro 、mimo v2.5 Pro 贴了个日志，提示超了。 mimo ds qwen3.7 MAX 、doubao 2.1 turbo 没问题 用 Token 计算器算了下，字符不到 11 万、token 不到 4 万 这个限制是网页 chat 有还是模型本身就有，他们各自是多少，哪里能看呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223182#reply2
+
+---
+
+#### 7317. [V2EX] 咨询一波预售房项目规划变更问题
+
+**问题描述 / Problem Description**:
+RT,预售房项目规划变更，开发商说后期会改回来，这种说法靠谱吗？想请教大家有没有遇到过类似情况，取取经。 我买的是预售新房，近期了解到项目目前正在提报给规划局在做规划变更，主要涉及小区地上车位、绿化/园林空间等调整。销售给到的说法大概是： 原规划里小区大门附近一定范围内设置了车位，但现在政府过审不允许，所以需要调整规划； 调整只是为了通过审批/验收，后面还是会按原来承诺的绿化和园林效果来做； 最终会保证绿化率，后期会“改回来”。 但我比较疑惑的是： 如果政府已经按变更后的规划审批通过，后面还能再改回去吗？ 如果要改回去，是不是还要重新报批？ 万一政府后面不同意改回原方案，业主怎么办？ 开发商口
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223179#reply0
+
+---
+
+#### 7318. [V2EX] openclaw 容器化部署
+
+**问题描述 / Problem Description**:
+openclaw 的容器化部署,存储层选用了 polardb,这玩意儿底层好像是 oss,大仓 git 性能有点差,20000+diff 文件切分支要分钟级.还有救么. 还有别的坑么?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223177#reply0
+
+---
+
+#### 7319. [V2EX] x 从前天开始无法登陆，无法找回密码，自动登出了，各位大佬遇到这样情况了吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223172#reply2
+
+---
+
+#### 7320. [V2EX] 民办本科刚毕业，不知道该怎么办了，现在有点眼高手低不甘平凡
+
+**问题描述 / Problem Description**:
+最近毕业了，一所天津的民办本科，专业是机械设计制造及其自动化。 其实这段时间一直挺迷茫的，所以想来听听大家的看法。 我小时候接触互联网算比较早，小学就在玩 Minecraft ，后来慢慢从玩家变成折腾服务器的人。最开始改 gamma 、后面改各种配置文件做整合包、开服、研究插件配置文件、改插件配置写模组,做服务端开云服务器，一点点学。认识的很多朋友也是那时候认识的到现在还有联系，第一桶金也是从开服的时候 收赞助各种 )圈内人懂得都懂吧虽然是。 后来上大学，被调剂到了机械专业。说实话整个大学过得并不开心，因为我一直喜欢的是计算机。机械制图、A0 手绘、各种专业课对我来说都很痛苦，我的空间想象能力
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223171#reply10
+
+---
+
+#### 7321. [V2EX] TP-LINK 7DR7290、TUF 6500、TUF 3600V2 三选一
+
+**问题描述 / Problem Description**:
+面积：100㎡+、千兆带宽 最开始倾向于买华硕的，主要是刷梅林然后配置科学上网+去广告（好像也是第三方改的梅林）。但是后来发现这些功能可以用家里的 NAS 做旁路由搞定 以下都是搜索得来优缺点： TUF : 不稳定（具体表现为可能会断网）、信号覆盖不如 TP 、只有一个 2.5G 口 TP ：信号覆盖强、2.5G 口多、固件官方更新维护时间长 考虑 2.5G 口的主要目的是内网 NAS 传输 现在倾向于 TP ，但是不知道 TP 是否官方系统里就支持配置科学上网（主要是怕到时候旁路由不稳定，多一个冗余） 另外 TP 这款能刷 openwrt 吗（虽然不一定会刷，但是怕以后想折腾）？网上有的说可
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223159#reply8
+
+---
+
+#### 7322. [V2EX] 上什么大学
+
+**问题描述 / Problem Description**:
+外甥女在河北省理科考了 636 ，985 只能选几个末尾的（中央名族、海洋大学、西北农林、兰州这种），211 能选个中等的，孩子比较廉价，不想去太远的地方，大家给建议下选哪些学校比较好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223147#reply0
+
+---
+
+#### 7323. [V2EX] 你们见过不脱发的人嘛。。。。最近键盘上全是头发 不知道咋办了
+
+**问题描述 / Problem Description**:
+～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223143#reply2
+
+---
+
+#### 7324. [V2EX] 有人在 Eleduck / 电鸭上实际找到过工作吗？想了解下真实体验
+
+**问题描述 / Problem Description**:
+最近在看 Eleduck （电鸭）上的远程/兼职/外包岗位，发现一些岗位下面有很多人咨，这是真人还是假的，我自己也投递过，但是没有回音。（只是怀疑，是不是为了收割求职者所以才这样设计的） 想请教下 v 友： 1.有没有人真的通过 Eleduck 找到过工作、项目或稳定合作？ 2.岗位下面显示很多人咨询，这个转化率大概怎么样？ 3.如果需要充值/会员才能联系岗位方(因为必须要有电量才能投递岗位)，实际体验是否值得？ 4.有没有遇到过岗位长期挂着、没人回复、信息质量不高的情况？ 6.这些咨询人数是真实用户行为，还是可能包含平台运营/展示机制带来的水分？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223139#reply0
 
 ---

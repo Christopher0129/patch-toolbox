@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6108**
+**总计条目 / Total entries: 6170**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -83692,5 +83692,811 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1222519#reply4
+
+---
+
+#### 6109. Still rockin macOS Catalina in 2026
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug9tb4/still_rockin_macos_catalina_in_2026/
+
+---
+
+#### 6110. Any way to remove?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugjy6n/any_way_to_remove/
+
+---
+
+#### 6111. Major breakthrough: 32bit Apple app running on M4 natively
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ufug75/major_breakthrough_32bit_apple_app_running_on_m4/
+
+---
+
+#### 6112. It seems Launchpad has finally become history for good
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug159u/it_seems_launchpad_has_finally_become_history_for/
+
+---
+
+#### 6113. What is this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug5bdl/what_is_this/
+
+---
+
+#### 6114. How to add an editable address bar to Finder (macOS)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug1wlq/how_to_add_an_editable_address_bar_to_finder_macos/
+
+---
+
+#### 6115. Does anyone use stage manager? App manager alternative.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugaydq/does_anyone_use_stage_manager_app_manager/
+
+---
+
+#### 6116. How is this happening?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugb4pm/how_is_this_happening/
+
+---
+
+#### 6117. MacBook brightness is dim for one user account but normal for another — same settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugh1z6/macbook_brightness_is_dim_for_one_user_account/
+
+---
+
+#### 6118. Need a little HELP
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugcfjb/need_a_little_help/
+
+---
+
+#### 6119. MacBook Pro M1 2020 OS firmware got bricked, tried everything…help.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug6dbc/macbook_pro_m1_2020_os_firmware_got_bricked_tried/
+
+---
+
+#### 6120. Are there any good reasons for left-aligned title bars instead of centred ones?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug2ona/are_there_any_good_reasons_for_leftaligned_title/
+
+---
+
+#### 6121. 2020 13" Intel MacBook Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugk9vf/2020_13_intel_macbook_pro/
+
+---
+
+#### 6122. Macbook Air M1 freezing [IE no clickable buttons] upon switching between apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugj6rc/macbook_air_m1_freezing_ie_no_clickable_buttons/
+
+---
+
+#### 6123. Safari bug window switching hotkey
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uggxz2/safari_bug_window_switching_hotkey/
+
+---
+
+#### 6124. When reinstalling an older macOS, what’s the difference between “Erase Mac” in Recovery Assistant and “Erase” in Disk Utility?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug3t75/when_reinstalling_an_older_macos_whats_the/
+
+---
+
+#### 6125. Severe printing issues since 26.5.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ugdmo1/severe_printing_issues_since_2651/
+
+---
+
+#### 6126. Has anyone tested window resizing performance in macOS 27 Golden Gate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug06cy/has_anyone_tested_window_resizing_performance_in/
+
+---
+
+#### 6127. What’s your favorite macOS shortcut?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug6whk/whats_your_favorite_macos_shortcut/
+
+---
+
+#### 6128. Need help to transfer thousands of photos and videos
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug58gy/need_help_to_transfer_thousands_of_photos_and/
+
+---
+
+#### 6129. External Monitors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ug97d7/external_monitors/
+
+---
+
+#### 6130. [V2EX] codex 解决了困扰我很久的耳机问题
+
+**问题描述 / Problem Description**:
+耳机默认接管了声音输入,导致播放的声音效果差了很多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223225#reply1
+
+---
+
+#### 6131. [V2EX] vibe 了一个让 macOS 支持 NTFS 文件系统读写的插件
+
+**问题描述 / Problem Description**:
+使用 FSKit 简单包装 ntfs-3g ，无任何花哨功能，自动挂载、弹出都像原生一样[FSKit 的能力] 软件地址： xntfs 因为 ntfs-3g 是 GPL2 协议，后续会开源： 促销代码： 67JNNELMX3AL WMKH7PHAWA3N R9KRJ9EJRR4F 3EXWPLNRH7RH JEH9EL3HHXMP KKT4739WRTNW KKRNAJFTJ7WW 73L66AXW7PXT R96TW4K49TH9 4TLJ7PPW9WFY 使用后要回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222784#reply22
+
+---
+
+#### 6132. [V2EX] macOS 状态栏 按 cmd 可以移动图标顺序
+
+**问题描述 / Problem Description**:
+macOS26 之前一直使用 ICE 可以随意控制状态栏的图标数量和顺序。 升级到 26 之后可以在设置里面设置哪些可以显示/关闭，但是顺序好像随机的。 一开始图标少也就没有在意，现在加了一个状态栏歌词显示，他插在了最里面看着好不舒服。 偶然发现按着 cmd 可以移动图标，搜了一下确实是。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222780#reply7
+
+---
+
+#### 6133. [V2EX] 让你的安卓手机在 Mac 上像苹果手机一样使用镜像。
+
+**问题描述 / Problem Description**:
+介绍下第一个开源 APP ，如果你是安卓手机使用的 Mac 电脑这个开源 APP 会解决你的生态痛点 从 2025 年底抛弃了我的使用 8 年的 iPhone 投入了安卓的怀抱，但是苹果生态早已把我绑定 看到 iPhone 可以跟 Mac 接力， 镜像 看的我非常羡慕 所以有了这一个安卓镜像，在 Mac 上操作你的安卓手机，以及剪切板同步（接力），让安卓用户也能和 Mac 深度融合 欢迎 star ，提 issue https://github.com/matyle/droidMirroring-mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222725#reply14
+
+---
+
+#### 6134. [V2EX] macOS 上有什么比较好用的清理软件
+
+**问题描述 / Problem Description**:
+如题 就是 CleanMyMac 太贵了，AppCleaner 又只能卸载软件，不能清理其它的残余 想知道各位大佬都是用什么方法去清 Mac 上面的垃圾的 o.O 还有一些系统维护，比如清理设置>启动项里面残余的应用 O.o 烦劳各位推荐了 o(≧v≦)o
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222690#reply43
+
+---
+
+#### 6135. [V2EX] 27 Beta2 appstoreagent 进程 占用很高的 CPU 咋办
+
+**问题描述 / Problem Description**:
+appstore 都没有打开，appstoreagent 进程占用很高的 CPU ，强制退出了过一会儿还会出来，重启之后出来的时间慢一点 有通过 hosts 屏蔽 sylvan.apple.com ，不知道是不是因为这个，但是试了下解除屏蔽还是会疯狂下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222655#reply11
+
+---
+
+#### 6136. [V2EX] 为什么最近 macOS 下很多图标都是方方正正的？
+
+**问题描述 / Problem Description**:
+怎么回事？感觉很丑啊，为什么没人发现？也没见人提？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222404#reply16
+
+---
+
+#### 6137. [V2EX] 写了一个本地运行的 macOS 语音输入工具： Juno
+
+**问题描述 / Problem Description**:
+大家好，我最近在做 Juno ，一个 macOS 上本地运行的语音输入工具，想请 V 友帮忙试试。 它解决的是一个很具体的问题：我每天要在 Slack 、邮件、浏览器、Cursor 、Notes 里输入很多文字，但系统听写和很多语音工具用起来总是不太顺手。 常见问题是： - 没有实时转写，说完一大段才发现识别错了 - 项目名、人名、模型名、代码相关词汇很容易被听错 - 语音输入不能理解当前 app 、选中文本、屏幕上的词 - 涉及隐私的内容不想发到云端 - 想在 Mac 上任何输入框里直接使用，而不是打开一个单独的转写页面 Juno 的交互比较简单：按一次快捷键开始说话，再按一次停止，文字会直
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221459#reply8
+
+---
+
+#### 6138. [V2EX] apple 涨价，心态炸了，紧急补仓！
+
+**问题描述 / Problem Description**:
+apple 涨价，昨天晚上看到消息，心态炸了，因为月初要买 M5max 128+2T 没买成，我媳妇有 85 折，想着等 M6 的毕竟只要等 3 个月； 然后喝了口咖啡清醒了，那时候晚上八点还在公司加班，第一时间咸鱼掏附近的 M4Max 128G ，开车去苏州上海掏了 4 台，平均一台 27000 ，还买了个 M3max 128+8T 25000 ，应该能赚钱，投入了 10 万。。。PS:我其实现在还是很慌的 人生第一次投资 10 万
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223129#reply34
+
+---
+
+#### 6139. [V2EX] Apple 官网 airpro 价格对比
+
+**问题描述 / Problem Description**:
+遭库克被刺，统计了一下今天官网几个 mac 的配置及价格 机型 尺寸 内存 硬盘 官网原价 教育优惠 成色 芯片 年份 air 13 24 1t 13749 12999 全新 M5 202603 air 13 32 1t 15249 14349 全新 M5 202603 air 15 32 1t 17249 16349 全新 M5 202603 air 15 24 1t 15749 14999 全新 M5 202603 pro 14 24 1t 17499 16699 全新 M5 202603 pro 14 32 1t 18999 18199 全新 M5 202603 air 15 24 1t
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223116#reply0
+
+---
+
+#### 6140. [V2EX] iPhone16pro 有必要换 iPhone17pro 吗？
+
+**问题描述 / Problem Description**:
+最近 16pro 发烫的厉害，看到京东现在是 7499 ， 听说 17pro 的材质不好，现在 Apple 全系涨价的情况下，现在适合入手 17pro 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223090#reply13
+
+---
+
+#### 6141. [V2EX] MacBook 键盘泼上了咖啡，有没有抢救的方法
+
+**问题描述 / Problem Description**:
+大概泼了 20 毫升左右，是加奶的，泼了之后马上就倒扣过来然后用纸巾擦干了 现在看不见液体，然后打字似乎还行，但是可以闻到咖啡的味道 如果之后键盘手感很奇怪还能救吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223065#reply6
+
+---
+
+#### 6142. [V2EX] apple 全系涨价!
+
+**问题描述 / Problem Description**:
+apple 全系涨价, 从侧面也验证了硅基在逐步的侵蚀碳基的份额, 且碳基毫无还手之力啊 既然打不过, 那就加入, 在门外急得团团转 怎么加入, 有路子么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222999#reply21
+
+---
+
+#### 6143. [V2EX] Mac mini M4 也涨价了， 丐版的 16+256 的现在官网上 5999，我记得之前是 4499 吧，电商的 pdd 和狗东都搜不到这个产品了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222976#reply30
+
+---
+
+#### 6144. [V2EX] iOS 中的“团结”这个是啥？是中毒了么？
+
+**问题描述 / Problem Description**:
+在 APP 列表中看不到，在做“自动化”时，选择 APP 时就能看到了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222916#reply5
+
+---
+
+#### 6145. [V2EX]  Apple 平板和电脑涨价
+
+**问题描述 / Problem Description**:
+iPad：3799 元起 iPad Air：5999 元起 iPad Pro：10799 元起 iPad mini：4799 元起 MacBook Neo：5499 元起 MacBook Air：9999 元起 MacBook Pro：15999 元起 iMac：12499 元起 Mac mini：5999 元起 Mac Studio：19999 元起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222904#reply73
+
+---
+
+#### 6146. [V2EX] macbook m3 pro 和 m1 max 如何选择
+
+**问题描述 / Problem Description**:
+想入个二手 mac ， m3pro 36g 512 （ 12+18 ） 和 m1max 64g 1T （ 10+24 ）,二手市场价格差不多，该如何选择？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222900#reply3
+
+---
+
+#### 6147. [V2EX] 请问下 neo 和 air m5 的购买建议
+
+**问题描述 / Problem Description**:
+主要用来炒股，目前只有 windows 台式机，想买一个干净的电脑来装小龙虾之类的 ai agent 来抓数据、分析热点 我理解这些都是用 api token ，内存只用在浏览器的内存和 agent 本身 8g 能否满足？需不需要 16G 以及 m5 芯片的 ai 算力？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222870#reply8
+
+---
+
+#### 6148. [V2EX] iPhone 屏幕防油渍防指纹涂层
+
+**问题描述 / Problem Description**:
+这涂层也就刚买的时候有效果，一俩月后似乎就慢慢磨损实效了，但一开始真的是非常好使，啥都不粘 有办法回到刚买时那样效果不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222645#reply13
+
+---
+
+#### 6149. [V2EX] 升级到 iOS 27 Beta2， index 终于没了
+
+**问题描述 / Problem Description**:
+坏消息是快捷指令不太对劲，我有两个快捷指令不能正确触发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222130#reply11
+
+---
+
+#### 6150. [V2EX] crossoverchina 和 codeweavers 有什么区别？
+
+**问题描述 / Problem Description**:
+准备买台 mac mini 打游戏，发现 CrossOver 搜出来两个域名，价格差距还蛮离谱？盗版商？ codeweavers 中永久版 345.8 刀 crossoverchina 中永久版 188 人民币 看上去很有陷阱的样子？但如果破解版卖这个价格有点离谱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223242#reply4
+
+---
+
+#### 6151. [V2EX] Agent 协作平台
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/grLVGDVBv0b56RIPRiWNMA
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223231#reply0
+
+---
+
+#### 6152. [V2EX] 世界杯你买了吗？中了多少？赔了多少？交流经验
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223211#reply5
+
+---
+
+#### 6153. [V2EX] 把自己的 Android 手机，接入 Phones Cloud
+
+**问题描述 / Problem Description**:
+把自己的 Android 手机，接入 Phones Cloud ，变成可远程访问的自有云设备。 Phones Cloud 自注册设备功能目前正在内测中。现在支持在 Android 手机上安装设备端 APK ，登录账号并添加本机后，就可以在 Web 控制台或 iOS 客户端远程使用这台手机。 内测期间，自注册设备可以一直免费续期使用。到期后可在设备续费入口领取免费续期，继续使用远控和设备管理能力。 适合这些场景： 备用 Android 手机远程管理 移动应用测试 多账号环境隔离 团队共享自有设备 出门不带手机，也能远程打开使用 首次启动远控有两种方式： Android 11+ 可使用无线调试配对
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223206#reply1
+
+---
+
+#### 6154. [V2EX] Foxmail 居然诈尸更新了
+
+**问题描述 / Problem Description**:
+mac 版本和 Windows 版本都更新了。 mac 版本终于支持 Apple Silicon 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223181#reply0
+
+---
+
+#### 6155. [V2EX] 腾讯 ima.copilot 智能助手（安卓和电脑端）
+
+**问题描述 / Problem Description**:
+ima.copilot （简称 ima ）是一款以知识库为核心的 AI 工作台产品，已接入腾讯混元大模型和 DeepSeek R1 模型满血版。ima 是搜、读、写一体的效率工具，旨在帮助有较强知识获取 [限时领 20G ] 下载腾讯 ima 免费领知识库超大空间 https://ima.qq.com/mp-user-space-share?channel=10000105
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223152#reply4
+
+---
+
+#### 6156. [V2EX] 做了一个不需要数学基础就能学懂大模型/Agent 的 AI 教程站，各位大佬看看有啥指点了没
+
+**问题描述 / Problem Description**:
+内容覆盖大概这些方向: 神经网络基础(从零开始,不绕弯子) CV(卷积网络、目标检测、风格迁移等) NLP(RNN/LSTM 、词嵌入、注意力机制) 大模型(Transformer 、预训练微调、RLHF 、Prompt 工程) Agent(模块拆解、工具调用、多 Agent 协作、LangChain 等框架) RAG(从最小可行版本到进阶架构、多模态 RAG) AI 工程化(部署、容器化、监控、MLOps) 强化学习、AI 量化、类脑 SNN 等相对小众的方向 https://www.captainbed.cn/xn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223138#reply0
+
+---
+
+#### 6157. [V2EX] 分享一个上网的“冷知识”
+
+**问题描述 / Problem Description**:
+手机欠费停机了，你可直接拨打运营商的人工客服电话，和客服说明情况，会帮你短暂恢复网络，让你顺利完成充值，既安全又方便，不用再麻烦找别人帮忙。 移动:10086 ，联通:10010 ，电信:10000
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223123#reply1
+
+---
+
+#### 6158. [V2EX] 分享一款 txt rpg 游戏 CyberCode Online
+
+**问题描述 / Problem Description**:
+https://cybercodeonline.com 网页 打开就能玩没，手机端也支持。 游戏看着挺有深度，还没有细品
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223122#reply0
+
+---
+
+#### 6159. [V2EX] 浙北房价已经崩了，观法拍有感
+
+**问题描述 / Problem Description**:
+我是去年买的二手房毛坯，原房东发票价格是 88 万，我是 52 万买的。这房子没有车位，但是今年过年的时候，看到有人群里发小区车位在法拍，就是 4.2 万拍了一个，拿到法院的单据后过户很顺利。 于是就养成了时不时看下法拍的习惯😂，今天上去看下，法拍价都到 30 万，40 万一套房子了。这崩的也太快了。 https://sf-item.taobao.com/sf_item/1057084585207.htm 起拍 38 万 https://sf-item.taobao.com/sf_item/1055345707689.htm 起拍 35 万 当然作为浙北来说，本地经济跟邻居杭州肯定没法比，基本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223119#reply11
+
+---
+
+#### 6160. [V2EX] 记录一次 IPV6 机器挂 pt 折腾人事件
+
+**问题描述 / Problem Description**:
+我知道有脚本，我手上也有，所以没用网上的，但是脚本和我的环境不一样，然后 cursor 也用不了，因为公司没有 v6 ，挂不上去 cursor 也有 v6 的原因，也有 docker 的原因 折腾步骤 1.小的云服务商只有 vnc ，复制粘贴巨慢，而且我不知道为什么有的时候发送的字母会变成大写 2.所以我想把我的脚本发上去，但是由于公司没 v6 的原因，无法 ssh 上去，我就想通过我家里的服务器发上去，然后想了想我没配置 nginx ，就准备通过 curl 发过去，因为原来的时候写了个自动化，转发验证码，但是有很多的斜杠和反斜杠，作罢 3.我就想通过家里的 docker ssh 上去（家里有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223118#reply1
+
+---
+
+#### 6161. [V2EX] 针对 Cursor / ComfyUI 高并发优化的 API 中转， Azure 官方原厂通道，带脚本来压测进 QQ 群 982893776 送 10 刀额度
+
+**问题描述 / Problem Description**:
+各位 V 友，下午好。 最近自己在做 AI 短剧自动化分镜脚本和批量降噪，频繁遇到官方 API 被 Rate Limit（限流）或者多模态接口流式传输突然断流崩掉的问题。市面上很多中转站渠道混杂、掺假率高，跑稍微重一点的自动化工作流或者大批量跑图，延迟和丢包率就能让人血压飙升。 为了彻底解决高并发和 TTFB 延迟的问题，自己撸了一个 AI API 中转网关： eirouter ( https://eirouter.com )。 作为一个刚起步的站，我们不玩套路，主打的就是稳定和硬核，真金不怕火炼。 🛠️ 核心技术特性： 纯官方与 Azure 专用通道 ：拒绝低质盗刷渠道，拒绝模型掺假。对大文
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223071#reply7
+
+---
+
+#### 6162. [V2EX] 新浪云停止服务
+
+**问题描述 / Problem Description**:
+由于业务调整，新浪云服务将于 2026 年 9 月 16 日 24 时起下线并永久终止服务，由此给您带来的不便，我们深表歉意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223060#reply12
+
+---
+
+#### 6163. [V2EX] 索尼居然是御三家当中第一个支持实况照片的
+
+**问题描述 / Problem Description**:
+2026 年 6 月 25 日，索尼 Creators' App 更新 3.4 版本，新增导出实况照片功能。索尼相机用户可通过 Creators' App 直接将相机拍摄的视频转换为时长 3 秒的实况照片并保存至手机中，轻松制作 4K 高清电影感实况照片，还原电影感生动影像，并可快速分享社交媒体。 用户可直接在 Creators' App 内完成片段选择与导出，快速分享至社交媒体，无需借助第三方软件或额外剪辑流程。对于支持 Shot Mark （镜头标记）功能的机型，可在拍摄过程中添加 Shot Mark ，在 Creators' App 直接将标记了 Shot Mark 的片段转换为实况照片
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223049#reply12
+
+---
+
+#### 6164. [V2EX] 985 本硕的学习天赋真好啊
+
+**问题描述 / Problem Description**:
+B 站刷到的一个 up 主。 30 岁。 硕士毕业一直没上班。 做 up 主+考研辅导赚钱。 后面可能想做高考志愿辅导+回到学校环境。 复习了 50 来天。 中间还拍自媒体。 河南高考出门 585 。 考研也是跨考半年就上了川大计算机。上过徐师傅的视频。 普通人真不容易做到吧。 感慨一下这就是学习天赋吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223046#reply3
+
+---
+
+#### 6165. [V2EX] 一个网页应用即是一个 mcp
+
+**问题描述 / Problem Description**:
+事情是这样的 ，用 agent 去浏览操作网页，然后直接和 agent 对话 ，全程有 60 多条信息大概 1800 字左右 ,api 花费加上各种工具调用之类花费 2 分钱 （ v4-flash ） 如果网页上直接从接口取数的话测算了下不到 0.5 分钱就可以搞定了，60*30 1800 条信息，一个月不到 1.5 毛钱 成本是一方面，还有就是速度，大概 17 个工具调用，输出了 5000 左右文字，输入了上万文字整体才花了不到 2 分钟 背景铺垫完了，如果主流的网站都支持某种 mcp 的协议或三方适配，那么是不是浏览网页这个动作也彻底被重构了呢？ 这里面蕴含有哪些价值，欢迎大家讨论
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223035#reply6
+
+---
+
+#### 6166. [V2EX] 分享一个最近很火的游戏， Meccha Chameleon
+
+**问题描述 / Problem Description**:
+Meccha Chameleon （超级变色龙）是一款极具创意色彩的在线躲猫猫游戏。与传统的躲避障碍物或变身为物体的“道具赛”不同，这款游戏的核心在于“视觉伪装”。玩家将被分为“躲藏者”和“搜寻者”两个阵营，展开一场关于色彩、形状与观察力的博弈。https://ai-meccha-chameleon.online/ 核心玩法与特色 游戏的独特之处在于躲藏者可以改变自身的颜色。躲藏者的初始身体是白色的，他们需要通过采集地图中墙壁、地板或道具的颜色来涂装自己，使自己的色调与背景完全一致。 色彩涂装：​ 躲藏者必须精准复制环境颜色，甚至利用阴影来掩盖轮廓。 动作伪装：​ 仅仅颜色对齐是不够的，玩家还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223029#reply0
+
+---
+
+#### 6167. [V2EX] 小米 token plan 续费吗，可以折扣，我的算下来 Pro 只需要 7.27
+
+**问题描述 / Problem Description**:
+点击这个查看图片 https://imgur.com/a/xf3Ppb0
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223026#reply2
+
+---
+
+#### 6168. [V2EX] Mimo + OpenCode 用了一段时间，推荐大家也试试吧
+
+**问题描述 / Problem Description**:
+Mimo + OpenCode 用了一段时间，感觉还算能用，整体智商和 Deepseek 差不多，比 GPT 5.5 略差一些，有兴趣可以试试。直接使用 API 就可以了，不要购买 token plan ，我计算了一下，实际上 token plan 价格和直接使用 api 几乎完全一样的价格。直接使用 api 性能我感觉比前些日子的百万亿 tokenplan 要好很多。 通过我的邀请码注册：双方各得 ¥10 API 体验金 + 首单 9 折。邀请码：2DEQB7 。注册： https://platform.xiaomimimo.com?ref=2DEQB7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223015#reply10
+
+---
+
+#### 6169. [V2EX] 百度千帆 Coding Plan 上线 4 个月就停止续费了，有人买了吗？
+
+**问题描述 / Problem Description**:
+RT ，百度千帆今天发公告，Coding Plan 所有套餐即日起停止续费。已购用户能用到当前周期结束，自动续费 30 天后失效，到期后就不能再续了。 这服务 2026 年 2 月才上线，这才四个月就砍了，有点难绷。 有人在用吗？体验怎么样？是不是又被百度“起大早赶晚集”了？ 感觉大厂这些 Coding Plan 一个个都在改按 token 计费，订阅制是不是快玩不下去了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222929#reply2
+
+---
+
+#### 6170. Homebrew error: "Can’t install the software because it is not currently available from the Software Update server."
+
+**问题描述 / Problem Description**:
+Tags: keyboard, command-line, bash, homebrew | Score: 0 | Views: 42 | Answers: 1 | Created: 2026-06-25
+
+**解决方案 / Solution**:
+Try following: Install XCode command line tool manually. Install XCode from App Store Then, in terminal, xcode-select --install Ref: https://developer.apple.com/documentation/xcode/installing-the-command-line-tools/ Cleanup the current homebrew cd /opt rm -rf homebrew Install homebrew again /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486655/homebrew-error-can-t-install-the-software-because-it-is-not-currently-availabl
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2172**
+**总计条目 / Total entries: 2192**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -34410,5 +34410,245 @@ other path where this warning could get trigger from.
 **参考链接 / References**:
 - https://git.kernel.org/stable/c/829367e55012c053738ebe7db20c4a90d6609ece
 - https://git.kernel.org/stable/c/bbcbf045d6c778e82b47a35fc8728387708e9a3d
+
+---
+
+#### 2173. CVE-2026-13325 - virt-handler-rhel9: kubevirt: kubevirt: DisableTLS migration setting removes…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] virt-handler-rhel9: kubevirt: kubevirt: DisableTLS migration setting removes authentication, exposing unauthenticated virtqemud proxy on all interfaces. Bugzilla: 2493378
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493378
+
+---
+
+#### 2174. CVE-2026-40941 - cacti: Cacti: Package Import Signature Validation Bypass Allows Self-Signed…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] cacti: Cacti: Package Import Signature Validation Bypass Allows Self-Signed Packages. Bugzilla: 2493265
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493265
+
+---
+
+#### 2175. CVE-2026-46611 - glances: Glances: Information disclosure via DNS rebinding attack
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glances: Glances: Information disclosure via DNS rebinding attack. Bugzilla: 2493117
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493117
+
+---
+
+#### 2176. CVE-2026-47770 - jq: jq: Denial of Service via deeply nested array comparison
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Denial of Service via deeply nested array comparison. Bugzilla: 2493034
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493034
+
+---
+
+#### 2177. CVE-2026-54679 - jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems. Bugzilla: 2493030
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493030
+
+---
+
+#### 2178. CVE-2026-9705 - keycloak: Keycloak: Attacker can re-enable and take over disabled clients via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Attacker can re-enable and take over disabled clients via Registration Access Token. Bugzilla: 2481878
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481878
+
+---
+
+#### 2179. CVE-2026-9099 - keycloak: Group-Admin Escalation to Realm-Admin
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Group-Admin Escalation to Realm-Admin. Bugzilla: 2480182
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480182
+
+---
+
+#### 2180. CVE-2026-9086 - keycloak: Keycloak: Cross-site scripting (XSS) via case-insensitive URI validation…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Cross-site scripting (XSS) via case-insensitive URI validation bypass. Bugzilla: 2480170
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480170
+
+---
+
+#### 2181. CVE-2026-9083 - keycloak: Keycloak: Information disclosure through arbitrary filesystem path probing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure through arbitrary filesystem path probing. Bugzilla: 2480168
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480168
+
+---
+
+#### 2182. CVE-2026-57438 - nokogiri: rubygem-nokogiri: Nokogiri: Memory corruption due to XInclude…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nokogiri: rubygem-nokogiri: Nokogiri: Memory corruption due to XInclude substitution. Bugzilla: 2492963
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492963
+
+---
+
+#### 2183. CVE-2026-57236 - nokogiri: Nokogiri: Denial of Service or Information Disclosure via invalid…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nokogiri: Nokogiri: Denial of Service or Information Disclosure via invalid encoding handling. Bugzilla: 2492952
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492952
+
+---
+
+#### 2184. CVE-2026-13324 - geary: geary: Silent file attachment via ?attach= parameter
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] geary: geary: Silent file attachment via ?attach= parameter. Bugzilla: 2492860
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492860
+
+---
+
+#### 2185. CVE-2026-13311 - shell-quote: shell-quote/parse: shell-quote: Denial of Service due to inefficient…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] shell-quote: shell-quote/parse: shell-quote: Denial of Service due to inefficient input parsing. Bugzilla: 2492642
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492642
+
+---
+
+#### 2186. CVE-2026-13218 - kubevirt: kubevirt: symlink following in WriteToCachedFile allows host file…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: kubevirt: symlink following in WriteToCachedFile allows host file overwrite from virt-launcher. Bugzilla: 2492654
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492654
+
+---
+
+#### 2187. CVE-2026-13318 - virt-api-rhel9: kubevirt: KubeVirt: SSRF in virt-api port-forward via unvalidated…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] virt-api-rhel9: kubevirt: KubeVirt: SSRF in virt-api port-forward via unvalidated guest-agent-reported IP. Bugzilla: 2492659
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492659
+
+---
+
+#### 2188. CVE-2026-13322 - kubevirt: virt-handler-rhel9: kubevirt: unbounded virtio-serial ReadLine in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: virt-handler-rhel9: kubevirt: unbounded virtio-serial ReadLine in virt-handler causes OOM denial of service. Bugzilla: 2492681
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492681
+
+---
+
+#### 2189. CVE-2026-53194 - kernel: USB: serial: kl5kusb105: fix bulk-out buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: USB: serial: kl5kusb105: fix bulk-out buffer overflow. Bugzilla: 2492703
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492703
+
+---
+
+#### 2190. CVE-2026-53163 - kernel: locking/rtmutex: Skip remove_waiter() when waiter is not enqueued
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: locking/rtmutex: Skip remove_waiter() when waiter is not enqueued. Bugzilla: 2492704
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492704
+
+---
+
+#### 2191. CVE-2026-53168 - kernel: fuse: reject fuse_notify() pagecache ops on directories
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: fuse: reject fuse_notify() pagecache ops on directories. Bugzilla: 2492705
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492705
+
+---
+
+#### 2192. CVE-2026-53159 - kernel: misc: fastrpc: fix DMA address corruption due to find_vma misuse
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: misc: fastrpc: fix DMA address corruption due to find_vma misuse. Bugzilla: 2492706
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492706
 
 ---

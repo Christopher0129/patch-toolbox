@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6460**
+**总计条目 / Total entries: 6490**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -91912,5 +91912,395 @@ Test to have the script run when the user logs into their graphical session by a
 
 **参考链接 / References**:
 - https://askubuntu.com/questions/1544203/how-to-add-jar-file-to-autostart
+
+---
+
+#### 6461. NVIDIA 580.173.02 Linux driver released for older GeForce GTX GPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ugcozs/nvidia_58017302_linux_driver_released_for_older/
+
+---
+
+#### 6462. Linux Foundation Unveils New Open Source Security Project Akrites
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ug5bjv/linux_foundation_unveils_new_open_source_security/
+
+---
+
+#### 6463. Akrites: The Latest Attempt to Protect Open-Source From AI Attacks Has Arrived
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uggexy/akrites_the_latest_attempt_to_protect_opensource/
+
+---
+
+#### 6464. The Surface You Never Added — Vivian Voss
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ugdmtr/the_surface_you_never_added_vivian_voss/
+
+---
+
+#### 6465. Por que hay gente que odia linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ugjvo6/por_que_hay_gente_que_odia_linux/
+
+---
+
+#### 6466. PhotoFlow: Efficient RAW Automation for Panorama Photography on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ug7z7k/photoflow_efficient_raw_automation_for_panorama/
+
+---
+
+#### 6467. Live, zero-config Redis traffic profiler built on eBPF. Reads plaintext and TLS, no app changes.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ufryzz/live_zeroconfig_redis_traffic_profiler_built_on/
+
+---
+
+#### 6468. [V2EX] Linux 上的游戏网络加速
+
+**问题描述 / Problem Description**:
+（ Fedora 44 ） 我遇到的问题 - UU 本来今年二月用的 UU 加速器的 steamdeck 插件没啥问题的，最近再启动发现用不了了，估计是插件和 Fedora 的更新终于不再兼容了，毕竟那玩意是给 steam OS 编译好的二进制。 刚开始排查问题的时候，发现开始加速之后有个叫 tun163 的虚拟网卡获得了最高默认优先级，过了几分钟之后这个网卡显示为 down ，但还是最高优先级，（导致）整个系统断网。这时的插件版本应该是 4 月份发布的 后来更新到了 6 月发布的版本，倒是不会整个系统断网了，但是也没有任何加速效果，也没有看到 tun163 网卡了。 测试时关闭了 SELin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223240#reply1
+
+---
+
+#### 6469. [V2EX] 太好了感动哭了 chrome149 修复了 wayland+nvidia 的硬件加速问题
+
+**问题描述 / Problem Description**:
+我的游戏本，i7-11800H + RTX 3060 Laptop ，因为桌面不够流畅的问题（如下描述）我将 bios 中显卡输出模式切换成了独显直连 BIOS 中设为双显卡混合输出时，系统主 GPU 是 Intel 核显，桌面合成器（ Mutter ）由核显驱动。但笔者的两台外接显示器（一台 4K 27 寸、一台 1080P 24 寸）通过 HDMI 和 USB-C 直连到了 RTX 3060 独显，这意味着：外接屏幕的最终画面输出必须经过 NVIDIA 独显。每一帧渲染流程为 Intel 核显合成→经 PCIe 总线拷贝到 NVIDIA 显存→NVIDIA 输出到屏幕，这个跨 GPU 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223133#reply3
+
+---
+
+#### 6470. [V2EX] 国产 Touchpad 在 arch 下偶发无法用手势
+
+**问题描述 / Problem Description**:
+ricky@archlinux ~> sudo dmesg | grep -i i2c [sudo] password for ricky: [ 0.211745] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C3.TPD0], AE_NOT_FOUND (20251212/dswload2-162) [ 0.211891] ACPI BIOS Error (bug): Could not resolve symbol [_SB.PC00.I2C4.TPL1], AE_NOT_FOUND (20251212/dswlo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1216141#reply6
+
+---
+
+#### 6471. [V2EX] Claude 新一轮大规模封号
+
+**问题描述 / Problem Description**:
+我的 Claude 今天被封号了，大家的还好吗？ 上一波 指控 DeepSeek 蒸馏，Claude 进行了大规模封号 这次指控阿里 Qwen 蒸馏，又来一波？？ 💔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223234#reply1
+
+---
+
+#### 6472. [V2EX] 国区上架 2 天， app 日活破 700 了🎉
+
+**问题描述 / Problem Description**:
+我写的 VirPulse 从公测到现在差不多 6 天的时间，收获了 1212 个注册用户，昨天上架国区的，今天的日活已经 721 了，看来我的软件还是解决了一部分人的需求的☺️
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223229#reply5
+
+---
+
+#### 6473. [V2EX] 不用 Python 也能搞 AI Agent —— 一个纯 Go 实现的 SDK 和 Agent 平台
+
+**问题描述 / Problem Description**:
+之前看到不少人说搞 AI Agent 绑定 Python ，想试试用 Go 能做到什么程度。 起因是 OpenAI 开源了 openai-agents-python ，觉得设计挺好的，就拿当时刚出的 Claude Fable 5 一把梭把核心逻辑移植成了 Go 版本（后来 Fable 5 下线了，后续用 Claude Code 断断续续补完的）。 SDK 在这里： github.com/zzir/agents-go 移植完 SDK 之后顺手写了个完整的 Web Demo ，算是验证 SDK 能不能真正跑起来： agents-server 单二进制部署，内嵌前端，SQLite ，开箱即用。 目前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223216#reply2
+
+---
+
+#### 6474. [V2EX] 现在很多技术活，是不是已经开始被 AI 吃掉一部分了？
+
+**问题描述 / Problem Description**:
+最近自己用 Claude / Codex 做内部工具，感触越来越明显。 以前很多我一定会排给技术同事的活，现在会先让 AI 搓一版。 比如一个后台页面、一个数据导入导出、一个小报表、一个简单手机端页面、一些测试和文案调整。 不是说 AI 做得多完美。 但很多内部工具，本来目标也不是“代码多漂亮”，而是先能跑、能验证、能把重复活压下去。 我以前写过几年代码，后来创业做跨境，这些年更多是在公司里哪儿漏补哪儿。站在我这种半技术老板的角度看，这件事其实挺明显： 前端、测试、设计、客户端，甚至一部分后端的执行型工作，肯定会被压缩。 不是今天明天立刻没岗位。 但很多“需求说清楚以后照着做”的活，会越来越危
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223205#reply2
+
+---
+
+#### 6475. [V2EX] 我给 codex 做了一个外挂知识库--codex-brain
+
+**问题描述 / Problem Description**:
+先把地址放上，开源地址： https://github.com/yinshaojun001/projectbrain 最近做了一个小工具叫 Project Brain ，MVP 阶段，想发出来听听大家意见。 起因挺现实的：组里有同学要离职，我不得不接手一些支付相关的活儿，第一个需求就是在抖音支付的原有代码上做一整套流程修改。 接手之后才发现，真正麻烦的不是代码本身，而是代码背后的上下文。支付流程怎么走的、哪段代码对应哪份文档、某个字段为什么要这么传、历史上踩过哪些坑、改一个地方会不会牵连回调和退款链路……这些东西散落在各处：有些在代码里，有些在外部文档里，有些在历史经验里，还有一些可能只存在于
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223201#reply3
+
+---
+
+#### 6476. [V2EX] 完了完了又续费了，付费上班第二年
+
+**问题描述 / Problem Description**:
+染上 Token 了，这辈子完了。 https://imgur.com/a/1zHfAlM https://imgur.com/a/vIV5g4m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223190#reply1
+
+---
+
+#### 6477. [V2EX] 分享一些 RAG 工作的排查经验
+
+**问题描述 / Problem Description**:
+RAG 项目有一个很奇怪的倾向：系统一旦答错，大家首先怀疑的总是模型。 这当然可以理解。模型是整套系统里最显眼的部分，也是最容易替换的部分。换一个模型，输出立刻就会变化；调整一下提示词，当天就能找到几个更好的答案。相比之下，整理文档、检查版本、设计测试，看起来既慢又不够聪明。它们很少在演示里制造惊喜，更多时候只是让一些错误不再发生。 但是呢，生产系统的质量，恰恰是在这些“稳”中体现的。要我说，一个 RAG 项目的工作大概是 50% 评测，40% 整理数据，8% 接入业务，最后 2% 才是模型训练。 这说的可能有点夸张了啊，但是实际上你想想是不是这样。我们喜欢优化模型，理论上说是“模型最重要”，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223185#reply1
+
+---
+
+#### 6478. [V2EX] 微信 Mac 版最新版，你们没发觉吗？实时调节全局音量
+
+**问题描述 / Problem Description**:
+今天发现系统全局音量不定时调节到 17%左右的音量，以为是 spoify 作妖，找来找去发现是全民应用微信 mac 版，昨天更新的微信 macos 4.1.11.21 ，今天就这样了，作为全民应用不应该啊！ 原来全世界都一个草台班子。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223165#reply2
+
+---
+
+#### 6479. [V2EX] 现在哪个 coding plan 写轻量脚本性价比高？还涉及到用视觉理解，求推荐～
+
+**问题描述 / Problem Description**:
+目前了解到 glm minimax 都还行，有其他性价比高的推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223164#reply3
+
+---
+
+#### 6480. [V2EX] VSCode 内置 Chat 在 AI Coding 工具中处于什么水平？
+
+**问题描述 / Problem Description**:
+VSCode 重度用户，之前 AI 用的不多，用了一段时间 Cursor ，感觉还不错，但不花 20 美元连 BYOK 都用不了，折腾过 Cline ，比 Cursor 差不少。最近 VSCode 更新后 Chat 功能跟 Copilot 已经解耦，甚至不登录 Github 账号也能用，体验上很像 Cursor 了。 它在 AI Coding 工具中处于什么水平？网上搜了一下，似乎都是对比 ClaudCode 和 Codex ，很少拿 VSCode Chat 对比的，但感觉挺好用了呀，用相同模型的话，比前两者差在哪里？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223153#reply2
+
+---
+
+#### 6481. [V2EX] 花 2 月写了一款软件，结果 claude code router 上线了一模一样的功能
+
+**问题描述 / Problem Description**:
+用各种 agent 调模型经常遇到的几个问题： 1.用 claude code 中途需要切模型，尤其是切供应商，需要 resume session 才能识别新的 settings.json 2.模型本身的供应商做了 429 限流，经常卡住，无法并发，比如 kimi 的和火山引擎的 coding plan 3.在不同的供应商买了 coding plan ，需要在 token 用完的时候可以切到其他供应商，无缝使用 4.根据当前任务选择不同智能的模型，比如 plan 的时候用 opus ，implement 的时候用 qwen ，支持 step level 我前 2 月自己开发使用的时候，clau
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223150#reply15
+
+---
+
+#### 6482. [V2EX] 分享 [AI 自动调试失败自动化] Playwright+Testng+ Java 框架
+
+**问题描述 / Problem Description**:
+自动化框架：Playwright+Testng+Java 要解决的痛点：目前我们接口+UI 自动化有 6000 来个，每天上班就要跟踪失败的自动化，非常耗时间 办法：半夜 Jenkins job 跑完，让 AI 去接收结果，AI 去改失败的 case ，第二天上班看 AI 的代码 Merge 报告和总结，组员去审核没问题就合入代码 新问题：单个 Job 的 log 非常大，动辄几百 MB 甚至上 GB ，整段塞给 LLM 既废 token 又全是噪音。所以日志要先「瘦身」再进分析 日志瘦身方法： 1 、不依赖 log 做主分析 — 主证据来自结构化的 trace.zip （ artifact
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223131#reply0
+
+---
+
+#### 6483. [V2EX] sub2api 反代 pro, 管理已经把生图打开了, 但是 codex 客户端默认无法生图, 怎么办?
+
+**问题描述 / Problem Description**:
+需要单独配置, 大佬们怎么配置的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223130#reply1
+
+---
+
+#### 6484. [V2EX] GLM 5.2 模型，有哪些优惠的订阅渠道？
+
+**问题描述 / Problem Description**:
+目前用的 OpenCode Go 订阅首月 $5 ，挺划算，但不耐用，没几天就用完了。 还有其他用 GLM 5.2 模型的优惠订阅渠道吗？或者说多开几个 opencode go 账号？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223121#reply17
+
+---
+
+#### 6485. [V2EX] Claude Max 5x 还是 Codex Pro 5x
+
+**问题描述 / Problem Description**:
+当前双持 claude pro 、codex plus ，额度着实吃紧不够用😲 想上一个 5x. 都是 ios 美区订阅付款, 体感上还是 claude 好用一点, 但是要 125 刀一月不爽贵 25 刀 佬们能给给主意不.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223088#reply21
+
+---
+
+#### 6486. [V2EX] 怎样明文导出微信的所有聊天历史记录
+
+**问题描述 / Problem Description**:
+想用 AI 做一个个人的数字分身，用历史聊天记录做语料。 微信电脑版导出的数据是加密的，但是根据这篇文章，机制并不复杂： https://www.zhihu.com/question/1996383537063039406/answer/1997234667099821276 以前收藏了一个做这件事情的 Github Repo： https://github.com/sjzar/chatlog 已经被微信法务警告，强行关闭了。 有谁知道这个机制吗？或者有代码更好。 只是为了把自己的数据导出，不传播。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223078#reply7
+
+---
+
+#### 6487. [V2EX] 大家用 AI 的“最佳实践”是怎么样的，方便分享一下吗？
+
+**问题描述 / Problem Description**:
+我感觉我还停留在“基础开发”上，只用了 trae 、codebuddy 、cursor ，直接对话，然后我等 ide 改完之后审查一下继续下一轮对话这种。 trae 和 codebuddy 主要是蹭免费，给付费的省点是点，毕竟我司也不给报销，能不付费上班还是尽量不付费，毕竟薪资也不高。不过 trae 排队越来越久，codebuddy 智商也总不在线，头大。 我看网上很多工作流什么的，但是我感觉开发的流程上，并没有找到（或者说我太弱）合适的“最佳实践”，各位大佬可以分享一下你们 AI 开发的最佳实践吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223064#reply20
+
+---
+
+#### 6488. [V2EX] 分项一个自己开发的浏览器盯盘插件，感兴趣的可以体验一下
+
+**问题描述 / Problem Description**:
+支持 A 股/港股/美股自选行情的浏览器扩展（支持 Chrome 、Firefox 、Edge ）。 上班盯盘更隐蔽，通过网页悬浮面板和底部横幅、弹窗完美融入网页，可持续关注自选股走势。非常适合日常看盘、办公时轻量盯盘和个人自选股管理。 已上架浏览器应用商店： chrome 应用商店（美股/港股的支持已上架正在审核: v1.5.2 ，当前版本：v1.4.5 ，可先使用离线包体验）: https://chromewebstore.google.com/detail/gemibeipmlnopapaopiencghgpijlebg?utm_source=v2ex Firefox 扩展中心（已支持美
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223061#reply9
+
+---
+
+#### 6489. [V2EX] 什么样的 cursor pro 号可以无限用
+
+**问题描述 / Problem Description**:
+我都是买成品号用，前 2 个额度用完就不让用了 第 3 个号，上周末把额度用完之后，一直可以跑 free
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223048#reply4
+
+---
+
+#### 6490. [V2EX] 上架的过程中发现，华为是目前最友好的应用商城
+
+**问题描述 / Problem Description**:
+上架了几个应用平台，现在发现华为是国内最友好的商城。 小米、应用宝都像机器一样，冷冰冰的，回复就是 AI ，让等三天，所有的字段，带 * 的就是必填项，不管你什么情况。 可能他们都太成熟了 酷安找不到入口，即使是百度搜索，仍然不能给我第一个上架入口。 华为目前可能在主打应用商城，能感觉到所有人都在为你上架这个事情操心，有一个微信群，每天在叮嘱我做到什么程度了。 在教我怎么写代码， 给我发连接资料。我知道其他门户的重心不在这个上面， 但现阶段，如果独立开发的话，可以考虑下鸿蒙。 另外鸿蒙不要软著，你可以先上架后补软著，其他平台都不行。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223037#reply75
 
 ---

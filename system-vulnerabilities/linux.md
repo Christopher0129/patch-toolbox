@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2036**
+**总计条目 / Total entries: 2056**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -38429,5 +38429,325 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0c22d9511cbde74
 - https://git.kernel.org/stable/c/368d21ae9081c93497b1c8163bed3eddcb2443ff
 - https://git.kernel.org/stable/c/7eb72425c4e3234926502eb262f9d6193ccd572c
 - https://git.kernel.org/stable/c/d5bd8b4e39cfa8b087448adcd48088065cd629d5
+
+---
+
+#### 2037. CVE-2026-13325 - virt-handler-rhel9: kubevirt: kubevirt: DisableTLS migration setting removes…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virt-handler-rhel9: kubevirt: kubevirt: DisableTLS migration setting removes authentication, exposing unauthenticated virtqemud proxy on all interfaces. Bugzilla: 2493378
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493378
+
+---
+
+#### 2038. CVE-2026-40941 - cacti: Cacti: Package Import Signature Validation Bypass Allows Self-Signed…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cacti: Cacti: Package Import Signature Validation Bypass Allows Self-Signed Packages. Bugzilla: 2493265
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493265
+
+---
+
+#### 2039. CVE-2026-46611 - glances: Glances: Information disclosure via DNS rebinding attack
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] glances: Glances: Information disclosure via DNS rebinding attack. Bugzilla: 2493117
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493117
+
+---
+
+#### 2040. CVE-2026-47770 - jq: jq: Denial of Service via deeply nested array comparison
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Denial of Service via deeply nested array comparison. Bugzilla: 2493034
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493034
+
+---
+
+#### 2041. CVE-2026-54679 - jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems. Bugzilla: 2493030
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2493030
+
+---
+
+#### 2042. CVE-2026-9705 - keycloak: Keycloak: Attacker can re-enable and take over disabled clients via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Attacker can re-enable and take over disabled clients via Registration Access Token. Bugzilla: 2481878
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2481878
+
+---
+
+#### 2043. CVE-2026-9099 - keycloak: Group-Admin Escalation to Realm-Admin
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Group-Admin Escalation to Realm-Admin. Bugzilla: 2480182
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480182
+
+---
+
+#### 2044. CVE-2026-9086 - keycloak: Keycloak: Cross-site scripting (XSS) via case-insensitive URI validation…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Cross-site scripting (XSS) via case-insensitive URI validation bypass. Bugzilla: 2480170
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480170
+
+---
+
+#### 2045. CVE-2026-9083 - keycloak: Keycloak: Information disclosure through arbitrary filesystem path probing
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak: Keycloak: Information disclosure through arbitrary filesystem path probing. Bugzilla: 2480168
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480168
+
+---
+
+#### 2046. CVE-2026-57438 - nokogiri: rubygem-nokogiri: Nokogiri: Memory corruption due to XInclude…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nokogiri: rubygem-nokogiri: Nokogiri: Memory corruption due to XInclude substitution. Bugzilla: 2492963
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492963
+
+---
+
+#### 2047. CVE-2026-57236 - nokogiri: Nokogiri: Denial of Service or Information Disclosure via invalid…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nokogiri: Nokogiri: Denial of Service or Information Disclosure via invalid encoding handling. Bugzilla: 2492952
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492952
+
+---
+
+#### 2048. CVE-2026-13324 - geary: geary: Silent file attachment via ?attach= parameter
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] geary: geary: Silent file attachment via ?attach= parameter. Bugzilla: 2492860
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492860
+
+---
+
+#### 2049. CVE-2026-13311 - shell-quote: shell-quote/parse: shell-quote: Denial of Service due to inefficient…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] shell-quote: shell-quote/parse: shell-quote: Denial of Service due to inefficient input parsing. Bugzilla: 2492642
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492642
+
+---
+
+#### 2050. CVE-2026-13218 - kubevirt: kubevirt: symlink following in WriteToCachedFile allows host file…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: kubevirt: symlink following in WriteToCachedFile allows host file overwrite from virt-launcher. Bugzilla: 2492654
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492654
+
+---
+
+#### 2051. CVE-2026-13318 - virt-api-rhel9: kubevirt: KubeVirt: SSRF in virt-api port-forward via unvalidated…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virt-api-rhel9: kubevirt: KubeVirt: SSRF in virt-api port-forward via unvalidated guest-agent-reported IP. Bugzilla: 2492659
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492659
+
+---
+
+#### 2052. CVE-2026-13322 - kubevirt: virt-handler-rhel9: kubevirt: unbounded virtio-serial ReadLine in…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: virt-handler-rhel9: kubevirt: unbounded virtio-serial ReadLine in virt-handler causes OOM denial of service. Bugzilla: 2492681
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492681
+
+---
+
+#### 2053. CVE-2026-53194 - kernel: USB: serial: kl5kusb105: fix bulk-out buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: USB: serial: kl5kusb105: fix bulk-out buffer overflow. Bugzilla: 2492703
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492703
+
+---
+
+#### 2054. CVE-2026-53163 - kernel: locking/rtmutex: Skip remove_waiter() when waiter is not enqueued
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: locking/rtmutex: Skip remove_waiter() when waiter is not enqueued. Bugzilla: 2492704
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492704
+
+---
+
+#### 2055. CVE-2026-53168 - kernel: fuse: reject fuse_notify() pagecache ops on directories
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: fuse: reject fuse_notify() pagecache ops on directories. Bugzilla: 2492705
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492705
+
+---
+
+#### 2056. CVE-2026-53159 - kernel: misc: fastrpc: fix DMA address corruption due to find_vma misuse
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: misc: fastrpc: fix DMA address corruption due to find_vma misuse. Bugzilla: 2492706
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492706
 
 ---
