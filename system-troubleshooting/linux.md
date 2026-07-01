@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6490**
+**总计条目 / Total entries: 6543**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -92302,5 +92302,694 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1223037#reply75
+
+---
+
+#### 6491. How can I ensure that the virtual machine is completely isolated from the host and has no internet access?
+
+**问题描述 / Problem Description**:
+Tags: debian, virtualbox, virtual-machine, malware, void-linux | Score: 5 | Views: 134 | Answers: 1 | Created: 2026-06-26
+
+**解决方案 / Solution**:
+You might want to avoid that the host can be reached during the bridged phases. That would be easy if the host is the only system in the subnet (just block everything from that subnet in Netfilter). Given that the VM could contact you via the gateway, too (depending on how much you can configure on that system), you might want to block connections from the bridge to other bridge ports than your outgoing port (with ebtables or nft ). Or even packets which arrive in the bridge from other ports and are targeted at your subnet.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806527/how-can-i-ensure-that-the-virtual-machine-is-completely-isolated-from-the-host-a
+
+---
+
+#### 6492. How to remove an old shortcut in the action bar? Its application doesn't exist anymore, but I find no .desktop file about it
+
+**问题描述 / Problem Description**:
+Tags: debian, gnome | Score: 0 | Views: 28 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+The list of pinned apps in GNOME is stored in GSettings at: org.gnome.shell favorite-apps as a list of pointers to desktop files (which themselves are just kept in the standard locations). You can see it with gsettings get org.gnome.shell favorite-apps , or using the lower-level dconf (e.g. dconf dump /org/gnome/shell/ ), or graphically through dconf-editor . (Note that the output of gsettings get or dconf dump is GVariant , not JSON.) I've observed that my action bar... are two, in fact The bottom one is the favorite-apps bar (aka the "Dash"), but the top one in your screenshot is a search results bar (no specific name other than "grid search results" internally, part of the "search results" view). And the Windows screen overall is called the "Overview" in GNOME. As far as I know, it shows literally the same apps as GNOME Shell's overall "Show Apps" grid, just after applying your input search terms. The apps themselves are read directly from .desktop files and cached in RAM (so they are re-scanned on login or whenever a change is detected). If something still exists there, then it likely still has a loose .desktop file in /usr/share/applications , or ~/.local/share/applications , or any of the paths in $XDG_DATA_DIRS , or in any of the paths specified by ~/.local/share/desktop-directories/ . Try to right-click the icon and pin it to your favorites bar ("Pin to Dash"), then dump favorite-apps to determine which .desktop file name it originates from, then search your filesystem for that name. Some older GNOME versions also involved Tracker (GNOME's file indexer, now renamed to LocalSearch) in the indexing of .desktop files, so try to reset tracker-miner-apps using tracker-control or similar commands (I don't remember what those are; it's called localsearch in the version I have, and it no longer does app indexing either).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806551/how-to-remove-an-old-shortcut-in-the-action-bar-its-application-doesnt-exist-a
+
+---
+
+#### 6493. Smartctl errors on querying a modern HD through WD WDE1UBK USB2 enclosure
+
+**问题描述 / Problem Description**:
+Tags: linux, smartctl, smart | Score: 0 | Views: 41 | Answers: 1 | Created: 2026-06-28
+
+**解决方案 / Solution**:
+You don't show the actual commands you used, but I surmise they were of the form smartctl ... But, since manipulating disk characteristics is a "system management" activity, you can't do it as $USER , you must do it as root , with sudo smartctl ... (supply your login password when prompted). Read man smartctl sudo .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806545/smartctl-errors-on-querying-a-modern-hd-through-wd-wde1ubk-usb2-enclosure
+
+---
+
+#### 6494. I made an open source TUI app to practice Japanese
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukthpp/i_made_an_open_source_tui_app_to_practice_japanese/
+
+---
+
+#### 6495. PlayStation 5 Linux project gets upgraded to support new firmware and PS5 Slim
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukhjk6/playstation_5_linux_project_gets_upgraded_to/
+
+---
+
+#### 6496. Progress Report: Asahi Linux 7.1
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukhidb/progress_report_asahi_linux_71/
+
+---
+
+#### 6497. Interestingly long list of 9.8 scoring CVEs Today
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukppye/interestingly_long_list_of_98_scoring_cves_today/
+
+---
+
+#### 6498. The Servo browser engine continues making much progress on less than $8k in monthly donations
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujwku1/the_servo_browser_engine_continues_making_much/
+
+---
+
+#### 6499. A new Linux driver has been posted to enable keyboard support on M3 MacBooks
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujw360/a_new_linux_driver_has_been_posted_to_enable/
+
+---
+
+#### 6500. Why Gentoo? – Michał Górny
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uk6wwz/why_gentoo_michał_górny/
+
+---
+
+#### 6501. Built an extremely fast du -sh alternative in c++! (idu)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujq08p/built_an_extremely_fast_du_sh_alternative_in_c_idu/
+
+---
+
+#### 6502. Plasma 6.7.2 is out with most common Kwin crash fix & improved full-screen video playback performance for Chromium-based apps
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujw20y/plasma_672_is_out_with_most_common_kwin_crash_fix/
+
+---
+
+#### 6503. AMD Linux Patches Introduce New "Low Power" CPU Core Type
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujiy74/amd_linux_patches_introduce_new_low_power_cpu/
+
+---
+
+#### 6504. The highlights of Linux 7.2: cache-aware scheduling, USB4STREAM, the AMD ISP4 driver, AMDGPU HDMI 2.1 FRL support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujw0ef/the_highlights_of_linux_72_cacheaware_scheduling/
+
+---
+
+#### 6505. Wine 11.12 has been released with 27 known bug fixes and Wayland fractional scaling support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uj8t55/wine_1112_has_been_released_with_27_known_bug/
+
+---
+
+#### 6506. Linux 7.1 list of changes (two weeks late): new NTFS implementation; improved swapping; support for user.* extended attributes on sockets; enablement of Intel FRED; BTF-powered io_uring; support for sub-schedulers in sched_ext; new flags to clone3(2) system call and more
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujqp04/linux_71_list_of_changes_two_weeks_late_new_ntfs/
+
+---
+
+#### 6507. KDE Plasma 6.7.2, Bugfix Release for June
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujxt68/kde_plasma_672_bugfix_release_for_june/
+
+---
+
+#### 6508. P2P file sharing app without cloud storage, free and open-source
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujp2dp/p2p_file_sharing_app_without_cloud_storage_free/
+
+---
+
+#### 6509. Why the Gnome hate?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukxj1v/why_the_gnome_hate/
+
+---
+
+#### 6510. Built a port of libfetch for GNU/Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujsup9/built_a_port_of_libfetch_for_gnulinux/
+
+---
+
+#### 6511. Git 2.55 is out: Rust support is now enabled by default and further improvements have been made to repacking with incremental multi-pack indexes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uj2wpw/git_255_is_out_rust_support_is_now_enabled_by/
+
+---
+
+#### 6512. The Infinity Scheduler is another new attempt at improving the CPU scheduling behavior under Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uj31bw/the_infinity_scheduler_is_another_new_attempt_at/
+
+---
+
+#### 6513. GPU accelerated Ubuntu 26.04LTS Desktop VMs on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujepms/gpu_accelerated_ubuntu_2604lts_desktop_vms_on/
+
+---
+
+#### 6514. Built a small GTK app to browse my Jellyfin library and burn playlists to CD
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ukf14c/built_a_small_gtk_app_to_browse_my_jellyfin/
+
+---
+
+#### 6515. The next release of Bcachefs, 1.38.7, will aim to begin including Rust code in the in-kernel module
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uj35uy/the_next_release_of_bcachefs_1387_will_aim_to/
+
+---
+
+#### 6516. Logging was wearing out my SSD
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uinv1m/logging_was_wearing_out_my_ssd/
+
+---
+
+#### 6517. This FOSS project needs some love
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uixmnq/this_foss_project_needs_some_love/
+
+---
+
+#### 6518. Intel has killed off AMX-TF32 support before it even shipped in Diamond Rapids
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ujwimz/intel_has_killed_off_amxtf32_support_before_it/
+
+---
+
+#### 6519. [V2EX] 大佬们， Linux kernel 漏洞频发需要升级的问题，你们是怎么处理的？
+
+**问题描述 / Problem Description**:
+我们目前的模式是，基础设施主机组支撑多个业务项目组，业务项目组的业务运维基本是开发兼顾，水平参差不齐 所以内核升级的工作就落在我们这边，升级后需要业务组那边验证业务 现在的问题是今年漏洞频发，上级安全部门要求必须整改漏洞，上一轮的漏洞还没修完，又有新漏洞爆出来了 天天加班升级内核，实在熬不动 目前主要发行版是银河麒麟，厂家说不支持内核补丁热升级。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224019#reply12
+
+---
+
+#### 6520. [V2EX] 为啥 ubuntu 搞个 wayland 这种不兼容的玩意出来
+
+**问题描述 / Problem Description**:
+好好的 xorg 放弃掉,兼容性很大问题 wayland 下的远程桌面没法共享一个会话,只能用 vnc,wayland 下的 sogou 输入法也基本用不了. 内置的那个智能中文输入就象个智障一样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223777#reply15
+
+---
+
+#### 6521. [V2EX] Linux 上的游戏网络加速
+
+**问题描述 / Problem Description**:
+（ Fedora 44 ） 我遇到的问题 - UU 本来今年二月用的 UU 加速器的 steamdeck 插件没啥问题的，最近再启动发现用不了了，估计是插件和 Fedora 的更新终于不再兼容了，毕竟那玩意是给 steam OS 编译好的二进制。 刚开始排查问题的时候，发现开始加速之后有个叫 tun163 的虚拟网卡获得了最高默认优先级，过了几分钟之后这个网卡显示为 down ，但还是最高优先级，（导致）整个系统断网。这时的插件版本应该是 4 月份发布的 后来更新到了 6 月发布的版本，倒是不会整个系统断网了，但是也没有任何加速效果，也没有看到 tun163 网卡了。 测试时关闭了 SELin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223240#reply7
+
+---
+
+#### 6522. [V2EX] 太好了感动哭了 chrome149 修复了 wayland+nvidia 的硬件加速问题
+
+**问题描述 / Problem Description**:
+我的游戏本，i7-11800H + RTX 3060 Laptop ，因为桌面不够流畅的问题（如下描述）我将 bios 中显卡输出模式切换成了独显直连 BIOS 中设为双显卡混合输出时，系统主 GPU 是 Intel 核显，桌面合成器（ Mutter ）由核显驱动。但笔者的两台外接显示器（一台 4K 27 寸、一台 1080P 24 寸）通过 HDMI 和 USB-C 直连到了 RTX 3060 独显，这意味着：外接屏幕的最终画面输出必须经过 NVIDIA 独显。每一帧渲染流程为 Intel 核显合成→经 PCIe 总线拷贝到 NVIDIA 显存→NVIDIA 输出到屏幕，这个跨 GPU 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223133#reply5
+
+---
+
+#### 6523. [V2EX] PVE 9 里装了个 kvm debian 13， Docker 方式安装了 Daed ，竟然无法通网！
+
+**问题描述 / Problem Description**:
+一开始我是在 pve 里装了 immortalwrt 25.12.0 来运行 daed 的，这两天休息就开始折腾 debian 13 ，daed 也是很顺利的装上，也能进 2023 端口进行配置，一样的节点，immortalwrt 运行没问题，但网关一切换成 debian 就没网。没网的状态就是解释不了域名。 也问了 AI ，什么 ip 转发，关网卡的 offloading 也试过，也是不行。 我看这里也有人安装过 daed 的，特来请教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221796#reply7
+
+---
+
+#### 6524. [V2EX] [全栈] 后端开发如何转型为未来的全栈工程师？
+
+**问题描述 / Problem Description**:
+蛮多厂都在往全栈试水，前端开发还停留在大学时使用 vue 写个简单的小程序； 想知道作为后端开发，如何转型成未来的全栈开发？ 或者说以后的前端开发是什么样的？目前在尝试让 AI 写管理页前端，感觉调样式很费时间；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224352#reply2
+
+---
+
+#### 6525. [V2EX] 有没有靠谱的中转站啊
+
+**问题描述 / Problem Description**:
+要稳定的，不要那种开了几天的。低于 0.15 倍率的，pro 20x 的那种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224345#reply5
+
+---
+
+#### 6526. [V2EX] Pencil 出的设计稿很不错，还原为前端应用有啥经验分享不？
+
+**问题描述 / Problem Description**:
+之前在论坛看到老哥推荐 pencil 画设计稿，试了下效果很不错。现在问题来了，照着写前端完全不像，丢三落四。 Trae + GLM 5.2 ，直接读 .pen 文件，mcp 有点问题没连上，我大失所望； Cursor + opus 4.8 ，读 .pen 文件为主，cursor 的 pencil mcp 有问题不稳定，偶尔能调 tool ，还是一塌糊涂； Copilot + opus 4.8 ，读 .pen 文件为主，Plan 阶段我看了就放弃点停止了； Copilot + opus 4.8 ，一张张导出高精度 PNG 图片，贴给 AI 。这把终于配好了 pencil mcp ，但 AI 还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224329#reply2
+
+---
+
+#### 6527. [V2EX] Linux 系统依赖包下载平台分享
+
+**问题描述 / Problem Description**:
+一个失业的运维，闲来有空，share 一个关于各种操作系统的离线依赖包下载的功能。 背景么就是经常遇到一些纯内外环境，比如机房里面，或者信创客户环境，各种操作系统没有网络，也没有挂载 cdrom ，要安装一个 nginx 都很麻烦，因为 nginx 依赖很多包，比如 perl 等等，手工编译耗时也可能二次依赖。 那么本次 share 的一个自研的网站，主要为了解决这些问题。 https://deps.itgank.com:8888/ 解决操作系统问题，支持 x86_64/aarch64 ，支持以下操作系统，实际 loongarch64 没有对应的机器，不然也是可以支持的，等待我的 pve 升级
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224321#reply0
+
+---
+
+#### 6528. [V2EX] 新版 AGY (Antigravity) 的 skills 怎么添加？
+
+**问题描述 / Problem Description**:
+感觉 Gemini3.5 Flash 处理些简单任务还不错，速度快的飞起。不过没有找到 新版 AGY (Antigravity) 的 skills 的添加入口。有知道的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224290#reply9
+
+---
+
+#### 6529. [V2EX] 有没有便宜或者免费用 grok 的方法
+
+**问题描述 / Problem Description**:
+如题 现在官方充值的话 有 5 刀，10 刀，20 刀几个选项 但国内没法充，问了网上，说是找代充，但代充只能充 super grok ， 一充就是几十刀，只能是会员那种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224280#reply3
+
+---
+
+#### 6530. [V2EX] AI 时代下是不是专业深度更有价值了？
+
+**问题描述 / Problem Description**:
+我指的专业深度不是精通某一种编程语言，而是多年生产环境积累下来的工程判断：如何做架构取舍、如何评估系统风险、如何保障可靠性、如何预测可能发生的线上事故，以及如何在复杂场景下做出正确决策 感觉现在 ai 贬值的是“写代码”这一层，而如何审核代码，改代码，为线上兜底反而更有价值了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224270#reply8
+
+---
+
+#### 6531. [V2EX] 小白用 codex 写了一个原生 ios 的相册 app，模仿 ios 自带相册的那种缩放，写不动了，这里改了另一处出问题
+
+**问题描述 / Problem Description**:
+= 演示视频： https://youtube.com/shorts/BNUhr-YKgd0?feature=share = 写累了，和 ai 交流了几个月，想放弃了，这是一个瓦片的相册系统，支持海量照片，我自己的测试数据是 500k 级别，不懂代码的我，真的 ai 改了一个地方另一个地方出问题，目前代码数量大概是 1w 多行。 = 还有安卓原生端，和 react 端，和后端，但是我想先把 ios 调节精细，真的太累了，全程 5.5 超高模型，顶不住了 = 有共同爱好的友友吗 交流交流，或者有大佬吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224269#reply3
+
+---
+
+#### 6532. [V2EX] 有人注意到了 AI 时代 Java 的问题了吗？
+
+**问题描述 / Problem Description**:
+公司分享总结，发现需求少的 java 部门消耗 Token 还更多(排除用到其他地方)，问了下 AI 可能的原因，有意思的一些信息出来了。 1. Token 成本高 对大型多 agent 系统不友好（你的 manifest-based 路由，Java 实现会吃更多窗口） 显式声明 + 类型注解 + 访问修饰符，同功能代码比 Python/Go 多 30-50% 企业框架（ Spring ）天然臃肿，即使简单需求也要大量样板代码 同样的 token 预算，Java 项目能加载的代码量更少，长期使用 Java 开发者的 token 开销明显更高 2. 文化惯性强化冗长 Java 社会期望"显式、规
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224256#reply0
+
+---
+
+#### 6533. [V2EX] n 年前互联网繁荣期有一个 35 岁的“免毕业”方案是“转管理”，现在大家应该人均手下几个 agent 员工，很少参与大规模代码手写，是否算是完成了“夙愿”——转管理
+
+**问题描述 / Problem Description**:
+现在的码农可以说是人均“小主管”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224251#reply6
+
+---
+
+#### 6534. [V2EX] 用 AI 写代码时，你们还逐行看代码吗？
+
+**问题描述 / Problem Description**:
+最近用 Claude / Codex 写公司内部工具，我发现自己越来越少逐行看代码。 原因也简单：我早年写过几年代码，但很多年没正经写了。现在让我看 AI 写的一堆后端、接口、SQL 、测试，很多地方我也看不懂。硬看一遍，未必比 AI 自己写得更靠谱。 所以我现在更偏向结果验收： 先把我要的结果讲清楚； 让 AI 补测试用例； 页面真实跑一遍； 业务口径自己验； 异常和失败日志必须能看出来。 比如日报功能，我不会逐行看它怎么查表，但我会验：昨天数据取没取对，DAU / 销量 / 利润口径对不对，没数据时会不会乱写，失败能不能重发，同一天会不会重复发。 代码我可以不懂，但业务结果我必须懂。 你们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224238#reply42
+
+---
+
+#### 6535. [V2EX] vibe coding 多了和技术同事之间的工作沟通都异步了
+
+**问题描述 / Problem Description**:
+之前同事向我提出问题,我大概率会当场解决.稍微复杂一些的问题需要当面敲命令查一下之后给个回答,之后同事离开 现在同事提出问题,我大概率无法当面给出回答,经常是让他先回去忙别的,之后我开个 cluade code 窗口查一下,之后在 im 上给答复 甚至后面发展到,同事在 im 上向我丢一个他 agent 生成的 md 文件提出问题,之后我用 agent 读取这个 md 文件之后在后面续写上回答,再用 im 丢 md 文件回去.有几次我自己完全都没看这个 md 文件里面的内容 也不知道这种变化是不是好的方向
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224236#reply10
+
+---
+
+#### 6536. [V2EX] 分享一个非官方 ServerCat app 的 CLI 工具： sc
+
+**问题描述 / Problem Description**:
+ServerCat 用户好， 写了一个简单的命令行工具 sc ，可以直接管理 ServerCat 的 Core Data 数据库（服务器、容器、Snippet 、SSH Key ），支持批量导入 docker-compose 和 ~/.ssh/config 。 纯本地工具，零依赖，macOS only 。配合 AI Agent 使用效果不错（ --json 输出）。 仓库： https://github.com/pengyanai/servercat-cli 非官方作品，如有冒犯请随时告知，会立即删除。感谢 ServerCat 这么好的产品 🙏 不了解的 Servercat 可以看官方网站 h
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224230#reply0
+
+---
+
+#### 6537. [V2EX] 用 Tauri 写运维软件很好，但是？ ——OxideTerm 开发小记
+
+**问题描述 / Problem Description**:
+OxideTerm 是一款我开发的 免费开源 的运维软件，具备 SSH 、SFTP 、端口转发、文件编辑、serial 、telnet 等功能。 GPUI 是 Zed 编辑器团队开源的 Rust 原生 UI 框架，直接用 Rust 构建桌面界面，不依赖浏览器 WebView 。 最近在做 OxideTerm 的 GPUI 版本 ，顺便回头看了一下之前用 Tauri 的过程。我们最早用 Tauri 起步，就是因为它真的很适合快速做桌面端：前端生态成熟，Rust 后端也好用，包体积小，看起来也比 Electron 清爽很多。 But at what cost ？ Tauri 一开始真的很香。包小、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224224#reply18
+
+---
+
+#### 6538. [V2EX] claude 被封后，使用 GLM 一天 21 大洋，感觉国产模型更用不起
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224214#reply52
+
+---
+
+#### 6539. [V2EX] kkRepo 私服 v0.2.0 发布，新增 Docker/OCI 、Cargo/Rust 仓库支持，还需要哪些仓库支持欢迎来聊一聊
+
+**问题描述 / Problem Description**:
+前言 kkRepo 是一个支持 Maven 、npm 、PyPI 、Go 、Helm 、Cargo/Rust 、Docker/OCI 、NuGet 、RubyGems 、Yum 和 Raw 等多种制品格式的私服仓库软件。 kkRepo 完全兼容 Nexus 元数据，支持一键迁移 Nexus 到 kkRepo 。解决了 Nexus OSS 不支持高可用部署，使用限制等痛点问题。 v0.2.0 新增内容 v0.2.0 的核心变化可以概括为五类： Docker/OCI 仓库能力正式完成。 Cargo/Rust 仓库能力正式完成。 Nexus 迁移支持覆盖更多源端版本和存储形态。 新增真实客户端 E2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224205#reply2
+
+---
+
+#### 6540. [V2EX] 为了更好的 Vibe Vibe 了一个开源软件来更好的 Vibe
+
+**问题描述 / Problem Description**:
+视频介绍地址 https://www.bilibili.com/video/BV14CKX6LEtL/?vd_source=1e69504ef91dc05332d5d6a44ad50d67 Agent Port —— agent 会话的「远程控制面板」,Rust + Flutter,MIT 开源 起因很简单:我经常在 Mac 上开一堆 tmux,挂着 Claude Code / Codex 跑长任务(重构、批量改、跑测试)。 问题是——它们跑到一半经常停下来问你 y/n,或者干完了在那儿干等,而我人早就离开电脑了。要么错过,要么得一直 SSH 回去看。 所以做了 Agent Port:一个本地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224193#reply4
+
+---
+
+#### 6541. [V2EX] 炸裂了 Claude code 偷偷植入代码识别国内用户
+
+**问题描述 / Problem Description**:
+Anthropic 偷偷在 Claude Code 中植入了隐形代码，只为识别中国用户。 这两天，Claude 大面积封号。 国内的 Claude 用户，几乎被封完了。 我的两个 Max 订阅账号，已经阵亡了一个了。。。 剩下一个老号在苟延残喘，感觉过不了两天这个号基本上也会没了。 而且非常骚的是，大家发现，Anthropic 在给大家封号的邮件里，甚至还偷偷埋了一个地址追踪。 就属于，小聪明贼多，但是全都在为了防中国用户。 但很快大家就发现，在邮件里面塞追踪器，也不是啥特别骚的操作，因为，还有更骚一万倍的。 事情的起因，是昨天，Reddit 上有大佬逆向了一下 Claude Code ，然后
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224186#reply0
+
+---
+
+#### 6542. [V2EX] Claude Code 被爆植入后门，检测中国用户和 AI 实验室
+
+**问题描述 / Problem Description**:
+原文： https://mp.weixin.qq.com/s/C4hFqxVRAlpuut5MQaWUZQ 6 月 30 日，外网上在热议：A 社封禁中国开发者账号的途径似乎找到了。有人发现 Claude Code 疑似内置“隐藏后门”，专门检测中国用户。 网友 LegitMichel777 在 Reddit 发帖称，他逆向拆解了 Claude Code 工具，发现从 2026 年 4 月的 2.1.91 版本起，cli.js 藏了一套检测机制。 只有开发者自行设置中转代理接口（ ANTHROPIC_BASE_URL ）时才会启动检测：程序读取电脑时区，看是不是国内时区（上海、乌鲁木齐），再查
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224178#reply1
+
+---
+
+#### 6543. [V2EX] 字节 AI Coding 的三个反思：代码占比不该当 KPI
+
+**问题描述 / Problem Description**:
+字节技术副总裁洪定坤讲了字节在 AI Coding 上的三个反思：代码占比不该当 KPI 、功能正确不等于工程可用、代码门槛降了团队怎么协同。这是一篇研读——保留他的数据和例子，夹带我自己的体感。 https://2aran.com/articles/research/topics/bytedance-ai-coding-hongdingkun-reflections
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224130#reply0
 
 ---

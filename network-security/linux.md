@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2192**
+**总计条目 / Total entries: 2258**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -34650,5 +34650,797 @@ other path where this warning could get trigger from.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2492706
+
+---
+
+#### 2193. [Ubuntu] USN-8477-1: tar vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tar incorrectly handled certain crafted archive files. An attacker could possibly use this to inject hidden files with attacker-controlled content, bypassing pre-extraction inspection mechanisms.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8477-1
+
+---
+
+#### 2194. [Ubuntu] USN-8476-1: xrdp vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that xrdp incorrectly handled bounds checking when processing user domain information during the connection sequence. An unauthenticated remote attacker could use this issue to cause xrdp to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2025-68670) It was discovered that xrdp did not correctly enforce the maximum number of login attempts config
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8476-1
+
+---
+
+#### 2195. [Ubuntu] USN-8475-1: AMD Microcode vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Oleksii Oleksenko, Cedric Fournet, Jana Hofmann, Boris Köpf, Stavros Volos, and Flavien Solt discovered that some AMD processors may allow an attacker to infer data from previous stores, potentially resulting in the leakage of privileged information. A local attacker could possibly use this to expose sensitive information. (CVE-2024-36350, CVE-2024-36357) It was discovered that some AMD Zen 5 proc
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8475-1
+
+---
+
+#### 2196. [Ubuntu] USN-8474-1: NSD vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that NSD incorrectly handled APL resource records with an address length larger than permitted for the address family. A remote attacker could use this to cause a stack-based buffer overflow when the zone is written to disk, potentially executing arbitrary code with the privileges of the NSD server. (CVE-2026-12246) It was discovered that NSD incorrectly handled SVCB resource rec
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8474-1
+
+---
+
+#### 2197. [Ubuntu] USN-8473-1: containerd-stable vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that containerd incorrectly handled HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause containerd to enter an infinite loop, resulting in a denial of service. (CVE-2026-33814) Jakub Ciolek and Kyle Elliott discovered that containerd incorrectly handled group parsing when creating containers from images. An attacker could possibly use this issue to ca
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8473-1
+
+---
+
+#### 2198. [Ubuntu] USN-8472-1: containerd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that containerd incorrectly handled HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause containerd to enter an infinite loop, resulting in a denial of service. (CVE-2026-33814) Jakub Ciolek and Kyle Elliott discovered that containerd incorrectly handled group parsing when creating containers from images. An attacker could possibly use this issue to ca
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8472-1
+
+---
+
+#### 2199. [Ubuntu] USN-8471-1: containerd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that containerd incorrectly handled HTTP/2 SETTINGS frames. A remote attacker could possibly use this issue to cause containerd to enter an infinite loop, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS and Ubuntu 22.04 LTS. (CVE-2026-33814) Jakub Ciolek and Kyle Elliott discovered that containerd incorrectly handled
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8471-1
+
+---
+
+#### 2200. [Ubuntu] USN-8470-1: cpp-httplib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cpp-httplib incorrectly percent-decoded HTTP request header values. A remote attacker could use this to inject crafted header content possibly leading to response splitting, log injection or proxy smuggling.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8470-1
+
+---
+
+#### 2201. [Ubuntu] USN-8469-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Jiasheng Jiang discovered that FFmpeg incorrectly handled memory in certain error-handling paths of its TensorFlow DNN backend. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS. (CVE-2025-12343) Quang Luong discovered that FFmpeg incorrectly handled certain subsample data. An attacker could possibly use this issue to cause a denial o
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8469-1
+
+---
+
+#### 2202. [Ubuntu] USN-8468-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images when using the wavelet-denoise operator. An attacker could possibly use this issue to trigger a heap buffer over-read, resulting in information disclosure. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-27798) It was discovered that ImageMagick incorrectly handled c
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8468-1
+
+---
+
+#### 2203. [Ubuntu] USN-8467-1: Perl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Perl's Archive::Tar module incorrectly handled symlink and hardlink targets during extraction. An attacker could use this issue to read or overwrite arbitrary files outside the extraction directory. (CVE-2026-42496) It was discovered that Perl had a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds. An attacker could use th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8467-1
+
+---
+
+#### 2204. [Ubuntu] USN-8466-1: Perl DBI module vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Perl DBI module incorrectly handled certain error messages. An attacker could use this issue to cause applications using the Perl DBI module to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-9698) It was discovered that the Perl DBI module incorrectly handled memory when preparsing SQL statements that included more than nine binder
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8466-1
+
+---
+
+#### 2205. [Ubuntu] USN-8465-1: Apache MINA vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache MINA lacked an acceptMatchers allowlist mechanism to restrict which classes could be deserialized. An attacker could use this to execute arbitrary code. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2024-52046) It was discovered that Apache MINA's deserialization filter could be bypassed via multiple code paths. An attacker could use this to exe
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8465-1
+
+---
+
+#### 2206. [Ubuntu] USN-8464-1: LIBNFS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LIBNFS incorrectly handled certain string sizes when connecting to an NFS server. An attacker could use this issue to cause LIBNFS to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8464-1
+
+---
+
+#### 2207. [Ubuntu] USN-8463-1: LibVNCServer vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LibVNCServer had a memory leak in the client cleanup function. An attacker could possibly use this issue to cause LibVNCServer to consume memory, leading to a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2020-29260) It was discovered that LibVNCServer did not properly validate bounds when handling UltraZip encoding subrectangles. A remote attacker could
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8463-1
+
+---
+
+#### 2208. [Ubuntu] USN-8462-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8462-1
+
+---
+
+#### 2209. [Ubuntu] USN-8461-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500, C
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8461-1
+
+---
+
+#### 2210. [Ubuntu] USN-8460-1: libxml2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libxml2 did not properly release memory allocated in the xmllint utility. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-1757) A type confusion vulnerability was found in libxml2 when processing a specially crafted XML document. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-6732)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8460-1
+
+---
+
+#### 2211. [Ubuntu] USN-8459-1: HAProxy vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that HAProxy incorrectly handled the FCGI demultiplexer record length field. A remote attacker could possibly use this issue to cause incorrect request routing, response smuggling, or other memory safety issues. (CVE-2026-55203) It was discovered that HAProxy failed to validate the return value of the HPACK dynamic table defragmentation function when memory was exhausted. A remot
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8459-1
+
+---
+
+#### 2212. [Ubuntu] USN-8458-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that nginx incorrectly handled large headers when proxying HTTP/2 traffic. A remote attacker could use this issue to cause nginx to crash, resulting in a denial of service, or possibly execute arbitrary code. The default compiler options for affected releases should reduce the vulnerability to a denial of service. (CVE-2026-42055) It was discovered that nginx incorrectly handled
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8458-1
+
+---
+
+#### 2213. [Ubuntu] USN-8480-1: SQLite vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SQLite incorrectly handled certain memory operations in the FTS5 full-text search extension. An attacker could use this issue to cause SQLite to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8480-1
+
+---
+
+#### 2214. [Ubuntu] USN-8479-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libheif incorrectly handled certain crafted HEIF files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-47178) It was discovered that libheif incorrectly validated offsets when decoding certain crafted HEIF files. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8479-1
+
+---
+
+#### 2215. [Ubuntu] USN-8478-1: Ruby vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Ruby's Net::IMAP library did not properly verify that TLS encryption was started after issuing a STARTTLS command. A remote attacker could use this to perform a machine-in-the-middle attack and silently bypass TLS encryption. (CVE-2026-42246) It was discovered that Ruby's Net::IMAP library did not validate string arguments passed to certain commands. A remote attacker could
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8478-1
+
+---
+
+#### 2216. [Ubuntu] USN-8486-1: libssh2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled the sftp_symlink() function. A malicious SSH server or machine-in-the-middle attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2025-15661) It was discovered that libssh2 had a pre-authentication denial of service vulnerability in the SSH_MSG_EXT_INFO handler. A malicious SSH server could poss
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8486-1
+
+---
+
+#### 2217. [Ubuntu] USN-8485-1: libyang vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libyang incorrectly handled certain metadata list pointers. An attacker could use this issue to cause libyang to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8485-1
+
+---
+
+#### 2218. [Ubuntu] USN-8484-1: GD.pm vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GD.pm incorrectly handled filename arguments. An attacker could possibly use this issue to execute arbitrary commands or overwrite files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8484-1
+
+---
+
+#### 2219. [Ubuntu] USN-8483-1: HPLIP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that HPLIP incorrectly handled certain print data. An attacker could possibly use this issue to cause HPLIP to execute arbitrary code. (CVE-2026-8631) It was discovered that HPLIP incorrectly handled certain inputs. A local attacker could possibly use this issue to execute arbitrary code. (CVE-2026-8632)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8483-1
+
+---
+
+#### 2220. [Ubuntu] USN-8482-1: Roundcube Webmail vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Roundcube Webmail was prone to a Cross-Site-Scripting (XSS) vulnerability via the animate tag in an SVG document. An attacker could use this issue to execute arbitrary web script in the context of an affected user's session.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8482-1
+
+---
+
+#### 2221. [Ubuntu] USN-8481-1: NSS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Haruto Kimura discovered that NSS had incorrecty handled parsing PKCS#11 URI escape sequences. An attacker could possibly use this issue to cause NSS to crash, resulting in a denial of service, or obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8481-1
+
+---
+
+#### 2222. CVE-2026-13455 - postgresql_anonymizer: PostgreSQL Anonymizer: Information Disclosure via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql_anonymizer: PostgreSQL Anonymizer: Information Disclosure via brute-force attack on hash function. Bugzilla: 2495009
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495009
+
+---
+
+#### 2223. CVE-2026-53433 - fzf: fzf: Denial of Service via inefficient HTTP body processing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] fzf: fzf: Denial of Service via inefficient HTTP body processing. Bugzilla: 2494891
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494891
+
+---
+
+#### 2224. CVE-2026-53432 - github.com/junegunn/fzf: fzf: Denial of Service via Integer Overflow in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/junegunn/fzf: fzf: Denial of Service via Integer Overflow in FuzzyMatchV2 function. Bugzilla: 2494892
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494892
+
+---
+
+#### 2225. CVE-2026-12388 - keycloak-broker: Keycloak: Privilege escalation to realm administrator via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-broker: Keycloak: Privilege escalation to realm administrator via improper authorization in identity provider mapper. Bugzilla: 2489140
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489140
+
+---
+
+#### 2226. CVE-2026-14209 - keycloak-admin-ui: keycloak-admin-ui: Keycloak: Admin UI extension…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-admin-ui: keycloak-admin-ui: Keycloak: Admin UI extension brute-force-user endpoint bypasses FGAPv2 user view restrictions. Bugzilla: 2494837
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494837
+
+---
+
+#### 2227. CVE-2026-49434 - org.apache.activemq/activemq-broker: org.apache.activemq/activemq-core:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.activemq/activemq-broker: org.apache.activemq/activemq-core: org.apache.activemq/activemq-all: Apache ActiveMQ: Unauthorized broker instantiation via improper input validation in LDAP entries. Bugzilla: 2494843
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494843
+
+---
+
+#### 2228. CVE-2026-49432 - org.apache.activemq/activemq: org.apache.activemq/activemq-all:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.activemq/activemq: org.apache.activemq/activemq-all: org.apache.activemq/activemq-stomp: Apache ActiveMQ: Denial of Service via improper input validation in STOMP connector. Bugzilla: 2494847
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494847
+
+---
+
+#### 2229. CVE-2026-50734 - Apache ActiveMQ Client: Apache ActiveMQ: Apache ActiveMQ All: Apache ActiveMQ:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Apache ActiveMQ Client: Apache ActiveMQ: Apache ActiveMQ All: Apache ActiveMQ: Denial of Service via crafted WireFormatInfo frame. Bugzilla: 2494841
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494841
+
+---
+
+#### 2230. CVE-2026-50750 - activemq: Apache ActiveMQ: Denial of Service via repeated BrokerInfo commands
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] activemq: Apache ActiveMQ: Denial of Service via repeated BrokerInfo commands. Bugzilla: 2494845
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494845
+
+---
+
+#### 2231. CVE-2026-53916 - Apache ActiveMQ, Apache ActiveMQ All, Apache ActiveMQ Stomp: Unbounded header…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Apache ActiveMQ, Apache ActiveMQ All, Apache ActiveMQ Stomp: Unbounded header buffer in STOMP NIO codec. Bugzilla: 2494846
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494846
+
+---
+
+#### 2232. CVE-2026-53917 - activemq: activemq-all: activemq-client: activemq-broker: Apache ActiveMQ: Denial…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] activemq: activemq-all: activemq-client: activemq-broker: Apache ActiveMQ: Denial of Service via crafted OpenWire Message. Bugzilla: 2494842
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494842
+
+---
+
+#### 2233. CVE-2026-54475 - org.apache.activemq/activemq-broker: org.apache.activemq/activemq-all:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.activemq/activemq-broker: org.apache.activemq/activemq-all: org.apache.activemq/activemq: Apache ActiveMQ: Information disclosure due to broken temporary destination isolation. Bugzilla: 2494840
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494840
+
+---
+
+#### 2234. CVE-2026-13149 - brace-expansion: Brace-expansion: Denial of Service due to exponential-time…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity. Bugzilla: 2494813
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494813
+
+---
+
+#### 2235. CVE-2026-45822 - decode-uri-component: decode-uri-component: Denial of Service via crafted input
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] decode-uri-component: decode-uri-component: Denial of Service via crafted input. Bugzilla: 2494807
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494807
+
+---
+
+#### 2236. CVE-2026-12243 - nltk: NLTK: Information disclosure via path traversal vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Information disclosure via path traversal vulnerability. Bugzilla: 2494748
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494748
+
+---
+
+#### 2237. CVE-2026-55955 - tomcat: Apache Tomcat: Replay attack via improper authentication in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tomcat: Apache Tomcat: Replay attack via improper authentication in EncryptionInterceptor. Bugzilla: 2494678
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494678
+
+---
+
+#### 2238. CVE-2026-55276 - tomcat: Apache Tomcat: Misleading security logs due to incorrect control flow
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] tomcat: Apache Tomcat: Misleading security logs due to incorrect control flow. Bugzilla: 2494675
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494675
+
+---
+
+#### 2239. CVE-2026-53434 - tomcat: Apache Tomcat: Error condition not handled when configuring CRLs
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] tomcat: Apache Tomcat: Error condition not handled when configuring CRLs. Bugzilla: 2494668
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494668
+
+---
+
+#### 2240. CVE-2026-53404 - Apache Tomcat: Apache Tomcat: Incorrect control flow in rewrite valve allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Apache Tomcat: Apache Tomcat: Incorrect control flow in rewrite valve allows unexpected rule processing. Bugzilla: 2494681
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494681
+
+---
+
+#### 2241. CVE-2026-50229 - tomcat: Apache Tomcat: Cross-Site Scripting vulnerability in number guess example
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tomcat: Apache Tomcat: Cross-Site Scripting vulnerability in number guess example. Bugzilla: 2494688
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494688
+
+---
+
+#### 2242. [Ubuntu] USN-8493-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - RISC-V architecture; - Cryptographic API; - InfiniBand drivers; - IOMMU subsystem; - Network drivers; - STMicroelectronics network drivers; - NVME drivers; - x86 platform drivers; - SCSI subsystem; - SPI subsystem; - T
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8493-1
+
+---
+
+#### 2243. [Ubuntu] USN-8492-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - MIPS architecture; - PowerPC architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - ACPI drivers; - ATM drivers; - RNBD block device driver; - Ublk userspace block drive
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8492-1
+
+---
+
+#### 2244. [Ubuntu] USN-8488-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: -
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8488-1
+
+---
+
+#### 2245. [Ubuntu] USN-8491-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - DMA engine subsystem; - InfiniBand drivers; - STMicroelectronics network drivers; - Network drivers; - NVME drivers; - SCSI subsys
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8491-1
+
+---
+
+#### 2246. [Ubuntu] USN-8489-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500, C
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8489-1
+
+---
+
+#### 2247. [Ubuntu] USN-8487-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Andrew Nesbitt discovered that curl could reuse an existing live connection during STARTTLS-based connection upgrades even when the TLS configuration did not match. A remote attacker could possibly use this issue to cause curl to use an unintended TLS configuration. (CVE-2026-8286) Muhamad Arga Reksapati discovered that curl incorrectly reused connections for Negotiate-authenticated requests when
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8487-1
+
+---
+
+#### 2248. [Ubuntu] USN-8486-1: libssh2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled the sftp_symlink() function. A malicious SSH server or machine-in-the-middle attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2025-15661) It was discovered that libssh2 had a pre-authentication denial of service vulnerability in the SSH_MSG_EXT_INFO handler. A malicious SSH server could poss
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8486-1
+
+---
+
+#### 2249. [Ubuntu] USN-8485-1: libyang vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libyang incorrectly handled certain metadata list pointers. An attacker could use this issue to cause libyang to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8485-1
+
+---
+
+#### 2250. [Ubuntu] USN-8484-1: GD.pm vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GD.pm incorrectly handled filename arguments. An attacker could possibly use this issue to execute arbitrary commands or overwrite files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8484-1
+
+---
+
+#### 2251. [SUSE] SUSE-SU-2026:2716-1: important: Security update for pacemaker
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for pacemaker Announcement ID: SUSE-SU-2026:2716-1 Release Date: 2026-06-30T15:34:32Z Rating: important References: * bsc#1268381 Cross-References: * CVE-2026-10649 CVSS scores: * CVE-2026-10649 ( SUSE ): 7.5 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H * CVE-2026-10649 ( NVD ): 8.6 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H * CVE-2026-10649 ( NVD ): 8.6 CVSS:3.1/AV:N/AC:L/PR:N
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2252. [SUSE] SUSE-SU-2026:2717-1: important: Security update for apache2
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for apache2 Announcement ID: SUSE-SU-2026:2717-1 Release Date: 2026-07-01T08:05:44Z Rating: important References: * bsc#1267503 * bsc#1267955 * bsc#1267956 * bsc#1267962 * bsc#1267963 * bsc#1267965 * bsc#1267969 * bsc#1267970 * bsc#1267971 * bsc#1267972 * bsc#1267976 * bsc#1267977 * bsc#1267978 Cross-References: * CVE-2026-29167 * CVE-2026-29170 * CVE-2026-34355 * CVE-2026-34356
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2253. [SUSE] SUSE-SU-2026:22391-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel (Live Patch 10 for SUSE Linux Enterprise 16) Announcement ID: SUSE-SU-2026:22391-1 Release Date: 2026-06-26T08:14:10Z Rating: important References: * bsc#1261640 * bsc#1263088 * bsc#1263108 * bsc#1263902 * bsc#1266229 * bsc#1267625 * bsc#1268282 Cross-References: * CVE-2026-31402 * CVE-2026-31504 * CVE-2026-31554 * CVE-2026-31694 * CVE-2026-43503 * CVE-2026-4
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2254. [SUSE] SUSE-SU-2026:22390-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel (Live Patch 3 for SUSE Linux Enterprise 16) Announcement ID: SUSE-SU-2026:22390-1 Release Date: 2026-06-25T11:19:45Z Rating: important References: * bsc#1260907 * bsc#1261640 * bsc#1263088 * bsc#1263108 * bsc#1263902 * bsc#1266229 * bsc#1267625 * bsc#1268282 Cross-References: * CVE-2026-23278 * CVE-2026-31402 * CVE-2026-31504 * CVE-2026-31554 * CVE-2026-31694
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2255. [SUSE] SUSE-SU-2026:22382-1: important: Security update for giflib
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for giflib Announcement ID: SUSE-SU-2026:22382-1 Release Date: 2026-06-28T09:26:36Z Rating: important References: * bsc#1259836 Cross-References: * CVE-2026-26740 CVSS scores: * CVE-2026-26740 ( SUSE ): 8.3 CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:H/SC:N/SI:N/SA:N * CVE-2026-26740 ( SUSE ): 8.6 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H * CVE-2026-26740 ( NVD ): 8.2 CVSS:
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2256. [SUSE] SUSE-SU-2026:22381-1: moderate: Security update for alsa
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for alsa Announcement ID: SUSE-SU-2026:22381-1 Release Date: 2026-06-28T08:50:00Z Rating: moderate References: * bsc#1268853 Cross-References: * CVE-2026-56109 CVSS scores: * CVE-2026-56109 ( SUSE ): 6.8 CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H * CVE-2026-56109 ( NVD ): 7.0 CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MP
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2257. [SUSE] SUSE-SU-2026:22380-1: low: Security update for loupe
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for loupe Announcement ID: SUSE-SU-2026:22380-1 Release Date: 2026-06-28T08:41:36Z Rating: low References: * bsc#1249009 Cross-References: * CVE-2025-58160 CVSS scores: * CVE-2025-58160 ( SUSE ): 2.3 CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N * CVE-2025-58160 ( SUSE ): 3.1 CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N * CVE-2025-58160 ( NVD ): 2.3 CVSS:4.0/AV:
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2258. [SUSE] SUSE-SU-2026:22378-1: important: Security update for ImageMagick
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for ImageMagick Announcement ID: SUSE-SU-2026:22378-1 Release Date: 2026-06-26T09:13:30Z Rating: important References: * bsc#1265048 * bsc#1265373 * bsc#1268092 * bsc#1268094 * bsc#1268095 * bsc#1268096 * bsc#1268101 * bsc#1268102 * bsc#1268103 * bsc#1268105 * bsc#1268107 * bsc#1268108 * bsc#1268110 * bsc#1268111 * bsc#1268112 * bsc#1268113 * bsc#1268114 * bsc#1268116 * bsc#12681
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
 
 ---

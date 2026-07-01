@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6170**
+**总计条目 / Total entries: 6251**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -84498,5 +84498,1058 @@ Try following: Install XCode command line tool manually. Install XCode from App 
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486655/homebrew-error-can-t-install-the-software-because-it-is-not-currently-availabl
+
+---
+
+#### 6171. Turning Over MacBook to another user
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, administrator | Score: 3 | Views: 477 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+The current Apple Support advice on resetting a Mac before sale, etc. is https://support.apple.com/en-us/102773 You want a more gradual handover - no erase and reinstall. I am assuming some trust between you and your sister - if not you should do a full erase and reinstall. At a minimum, you will need to log out from iCloud and iMessages, choosing not to download any content as, I assume, you have that back at home. Your sister should log in to iCloud with her own Apple ID. She should not continue to use yours (if that is what you are doing now). Then your suggestion of making her an Administrator and allowing her to delete your account should work fine. Some things to watch (and this may not be a complete list): Any apps, from the Apple App Store which you have installed are not licensed for her use. At some point she will be asked to login to the App Store with her Apple ID and, most likely, be asked to pay for any non-free apps she wants to keep. If this is a stumbling block, you could consider Family Sharing with your as "organiser" and her as a family member. Family Sharing This will allow sharing some purchases and subscriptions. Whether you want to take this up would depend on your relationship with your sister and, legally, whether you are a family in any way. Apps from outside the App Store will have their own licensing conditions. But in general I would expect her not to be licensed to continue to use them - particularly paid apps registered with your name or email address. Make sure you empty the bin. There will still be some bits left over from your use, but that should not be an issue.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486672/turning-over-macbook-to-another-user
+
+---
+
+#### 6172. Can I backup multiple Mac devices to a NAS on the LAN?
+
+**问题描述 / Problem Description**:
+Tags: macos, network, time-machine, nas | Score: 3 | Views: 183 | Answers: 2 | Created: 2026-06-16
+
+**解决方案 / Solution**:
+I have a QNAP NAS and back up a handful of Macs to it First create a user for the backup process like “TimeMachine” on the NAS. Create a folder on your NAS. I call mine “tmbackup” and give the above user RW priviliges. Set the folder as the Time Machine backup folder. In control panel “Network & File Services > Win/Mac/NFS > Microsoft Networking” click advanced options and set highest SMB version to SMB 3. In Finder use the GO menu and connect to server and enter SMB:// plus the ip address of your NAS. Enter the name and password you set up for Time Machine (as above) and then select the folder you created (as above). Open Time Machine (In System Settings) and click on “Select Backup Disk.” I suggest checking the box for “Show Time Machine in menu bar” Select the NAS shared folder and click on “Use Disk” and enter the Time Machine password you previouslly set up. Click Connect. That’s the basic procedure. You could also use the “HBS” or Hybrid Backup Sync App in the QNAS AppCenter. This is all explained on the QNAP.com support site at How to back up your Mac to QNAP NAS using Time Machine In greater detail and with screen shots and everything. But the basics are here, and should hopefully be enough to get you going. Yes the Apple tech support rep is “technically” correct, as they only give support for Apple products. But QNAP (and presumably) others have taken the ball and run with it to give you a more flexible solution, beyond what Apple provides.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486608/can-i-backup-multiple-mac-devices-to-a-nas-on-the-lan
+
+---
+
+#### 6173. App to find visually similar (NOT duplicates) in Apple Photos on MacOS
+
+**问题描述 / Problem Description**:
+Tags: macos, photos, software-recommendation | Score: 2 | Views: 169 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+Photosweeper by Overmacs is by far the best similar / dupe photo finder I've used. I have been a very happy customer for many years. It works with standard folders, has a folder level (with recursive search) compare, supports Apple Photos, Lightroom CC (not web) and Capture One catalogs. It will also allow cross-source comparisons, e.g. what images in the Downloads folder are already in Apple Photos... There are many ways to sort, filter, classify and establish the 'keeper' in results, e.g. newest vs oldest, larger vs smaller dimensions, and with a slider to control the similarity dynamically once the batch has been processed. The developer is very responsive and IME will help with suggestions on how to achieve a tricky search. Be sure to checkout the manual to get a better idea of how it works. There is a trial version, and the app can be purchased direct or via the App Store. One time very reasonable payment of course.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486676/app-to-find-visually-similar-not-duplicates-in-apple-photos-on-macos
+
+---
+
+#### 6174. Does macOS 27's tweaked Liquid Glass remind anyone else of Aqua?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukhxue/does_macos_27s_tweaked_liquid_glass_remind_anyone/
+
+---
+
+#### 6175. We can now freely resize the iPhone Mirroring window on macOS Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukt386/we_can_now_freely_resize_the_iphone_mirroring/
+
+---
+
+#### 6176. Modern Time Capsule Replacement?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukuv27/modern_time_capsule_replacement/
+
+---
+
+#### 6177. How to clean up old Macbook before switching to new one?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukqacw/how_to_clean_up_old_macbook_before_switching_to/
+
+---
+
+#### 6178. Time Machine transfer won't complete
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukwgle/time_machine_transfer_wont_complete/
+
+---
+
+#### 6179. Can anyone recommend a good Finder file path alternative to the old FinderPath?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukwedj/can_anyone_recommend_a_good_finder_file_path/
+
+---
+
+#### 6180. Tahoe 26.5 no longer lets you change the brightness of external monitors. 🥲
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uk31qv/tahoe_265_no_longer_lets_you_change_the/
+
+---
+
+#### 6181. Finder window stuck at fixed size
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukzsth/finder_window_stuck_at_fixed_size/
+
+---
+
+#### 6182. Apple Music Visualization
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukp581/apple_music_visualization/
+
+---
+
+#### 6183. Old man needs help with minimised window :)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukyuv7/old_man_needs_help_with_minimised_window/
+
+---
+
+#### 6184. Ventura to Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukys81/ventura_to_sequoia/
+
+---
+
+#### 6185. Macports issue installing wine -
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukxx83/macports_issue_installing_wine/
+
+---
+
+#### 6186. I admit that I bought it without thinking twice.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukwwuv/i_admit_that_i_bought_it_without_thinking_twice/
+
+---
+
+#### 6187. Hi everyone! If I never downloaded iPhoto from the App Store back in the day, where can I download version 9.5.1 of iPhoto?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukl5g9/hi_everyone_if_i_never_downloaded_iphoto_from_the/
+
+---
+
+#### 6188. Help loading Monterey on external drive
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukugya/help_loading_monterey_on_external_drive/
+
+---
+
+#### 6189. Save/Save as/Export from app question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukn6im/savesave_asexport_from_app_question/
+
+---
+
+#### 6190. Safari Ad Blocker Notifcation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uks91i/safari_ad_blocker_notifcation/
+
+---
+
+#### 6191. New Mac owner - Issues and Questions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uks65m/new_mac_owner_issues_and_questions/
+
+---
+
+#### 6192. Slow Internet Speeds
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukqt3y/slow_internet_speeds/
+
+---
+
+#### 6193. Fn + F1 shows a green microphone icon — how do I find what app owns this shortcut?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukk0jr/fn_f1_shows_a_green_microphone_icon_how_do_i_find/
+
+---
+
+#### 6194. Does anyone have a copy of this MacOS 10.8.4 version?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukn869/does_anyone_have_a_copy_of_this_macos_1084_version/
+
+---
+
+#### 6195. Building a native Swift bittorrent client, anyone interested?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ujg3z8/building_a_native_swift_bittorrent_client_anyone/
+
+---
+
+#### 6196. download video from youtube
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ukmojc/download_video_from_youtube/
+
+---
+
+#### 6197. Hotstash Clipboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uklpyh/hotstash_clipboard/
+
+---
+
+#### 6198. [V2EX] 几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件
+
+**问题描述 / Problem Description**:
+如题。 我目前是打开文本编辑器新建后设置格式再另存。始终觉得不方便。 网上搜索发现有自动操作的教程，可能太笨了没有成功过。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224166#reply61
+
+---
+
+#### 6199. [V2EX] 有没有办法禁止应用唤起自动填充功能？
+
+**问题描述 / Problem Description**:
+我发现有些应用莫名其妙会启动一个自动填充的进程，有些甚至 CPU 占用率极高。我在搜索引擎上查找自动填充的相关信息都是关于 safari 的，于是我关闭了 safari 所有自动填充相关，还执行了 defaults write -g NSAutoFillHeuristicControllerEnabled -bool false 命令，但其他应用还是会启动自动填充进程，有哪位知道怎么处理吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224021#reply0
+
+---
+
+#### 6200. [V2EX] 有升到 mac os 27 的兄弟帮忙看看鼠标回报率这块有没有提升？
+
+**问题描述 / Problem Description**:
+目前情况（ macos 26.5.1 ）是： 外接 60hz 刷新的显示器，合盖使用： 如果用 chrome 浏览器，鼠标回报率最高就是 60 如果用 Safari 浏览器，鼠标回报率能到 800 多 不知道 27 有没有变化
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223733#reply3
+
+---
+
+#### 6201. [V2EX] 求助，安卓与 mac 蓝牙传输文件问题。
+
+**问题描述 / Problem Description**:
+我有一台真我 GT7Pro 和一台荣耀 X50 ，在蓝牙连接 Mac （ M1 pro ）传输文件时（文件不大，基本在 5MB 内），真我这边基本没有问题，但荣耀 X50 经常传输失败，错误信息报蓝牙未连接，但是我看电脑上，显示已连接，挺让人头疼的。按理说两台手机都支持蓝牙文件传输，不知道为什么会这样。有知道为什么的大佬吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223646#reply4
+
+---
+
+#### 6202. [V2EX] 如何禁止程序抢夺焦点窗口？
+
+**问题描述 / Problem Description**:
+比如启动程序 A 需要初始化 10 秒，所以启动 A 后可以先去其他程序操作，等 A 程序初始化完毕后再切回 A 操作。 但 A 程序初始化完成后会抢夺焦点窗口，导致其他程序操作中断，必须重新切去其他程序操作完毕后再切 A 。 当年 Windows 这个问题非常严重，OS X 上几乎不存在抢夺焦点的程序，所以非常喜欢 OS X 的高效率操作。 但如今 macOS 上抢夺焦点的程序也变多了，作为多任务操作系统，有没有办法阻止这种抢夺焦点窗口的功能？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223543#reply1
+
+---
+
+#### 6203. [V2EX] 介绍一下我使用 karabiner 和 hammerspoon 的经验
+
+**问题描述 / Problem Description**:
+有几个诉求： 能够在快速启动和切换 app 能够方便的把 app 移动到不同的显示器上 能够方便的调整 app 窗口的大小，比如全屏，等 其他杂七杂八的需求，比如调整音量，屏幕亮度，关屏之后自动关闭蓝牙等 解决方案就是 karabiner 和 hammerspoon 。 工作流： 使用 HyperKey + C ，就会自动打开 Chrome. 如果 Chrome 已经打开，就会切换到对应的窗口。 然后按 HyperKey + ], 就会把 Chrome 移动到下一个显示器上，然后再按 HyperKey + Enter, 就会在新显示器上全屏(非 macos 的全屏，只是调整窗口到全屏幕大小)显
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223516#reply43
+
+---
+
+#### 6204. [V2EX] 我做了一个 macOS 菜单栏日历：白纸日历
+
+**问题描述 / Problem Description**:
+我做了一个 macOS 菜单栏日历：白纸日历 V2EX 的朋友们大家好，最近做了一个 macOS 菜单栏日历应用，叫「白纸日历」。 它的出发点很简单：我每天都会看日期、农历、节假日、日程和提醒事项，但这些信息通常分散在系统菜单栏、日历 App 、提醒事项 App 和各种节假日查询页面里。系统菜单栏只适合看一个很短的日期，系统日历又更像一个完整管理工具，打开成本偏高。 所以我想做一个更轻的入口：常驻菜单栏，点击一下展开，今天、农历、节假日、日程和提醒都在眼前。 它主要解决什么 白纸日历不是想替代 Fantastical 、BusyCal 这类完整日历应用，而是想补上一个更适合中文用户的菜单栏日历
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223423#reply35
+
+---
+
+#### 6205. [V2EX] macOS 使用 iOS 应用的高负载问题
+
+**问题描述 / Problem Description**:
+mba m5 在 app store 下载了仅有 ios 版本的米家 app ，打开之后系统立刻报高能耗应用，几秒后就温度直接升到 100 度以上，一看 cpu 占用 200%多。是所有的 ios 应用都有类似问题吗，macos 有没有什么办法单独限制个别 app 的性能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223357#reply6
+
+---
+
+#### 6206. [V2EX] 大神们帮我看看什么情况！
+
+**问题描述 / Problem Description**:
+本周前，我的 mac 电脑端 Clash Verge 都是正常运转，VPS 来自于 bandwagong ，使用的是 vless+reality ，在 3X-UI 上，都很稳定。 突然这周发疯，Clash Verge 一开始连接不稳定，过两天就直接挂了。我换成了 shadowrocket 一样也是不稳定，然后直接挂了。结果我换成 Loon 就直接恢复之前的稳定连接状态。 目前，shadowrocket 电脑端和手机端都不能正常连接。Clash Verge 电脑端不能正常连接。电脑和手机全部换成了 Loon 。 我自己感觉，不是 VPS 的问题，我曾经无数次怀疑过，但是 bandwagong 确
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223316#reply5
+
+---
+
+#### 6207. [V2EX] 苹果 iWork 三件套的实用性究竟如何？
+
+**问题描述 / Problem Description**:
+最近 word 和 excel 经常崩溃，就突发奇想该用 pages 和 numbers ，一开始提示一堆的不符还是有点失望的，但几个小时下来感觉也没什么大问题，体验比 Office 三件套好太多了（特质 Mac 上的 Office ）。 所以有没有人试过日常办公只用 iWork 三件套的，体验如何？有哪些需要注意的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223283#reply12
+
+---
+
+#### 6208. [V2EX] codex 解决了困扰我很久的耳机问题
+
+**问题描述 / Problem Description**:
+耳机默认接管了声音输入,导致播放的声音效果差了很多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223225#reply3
+
+---
+
+#### 6209. [V2EX] vibe 了一个让 macOS 支持 NTFS 文件系统读写的插件
+
+**问题描述 / Problem Description**:
+使用 FSKit 简单包装 ntfs-3g ，无任何花哨功能，自动挂载、弹出都像原生一样[FSKit 的能力] 软件地址： xntfs 因为 ntfs-3g 是 GPL2 协议，后续会开源： 促销代码： 67JNNELMX3AL WMKH7PHAWA3N R9KRJ9EJRR4F 3EXWPLNRH7RH JEH9EL3HHXMP KKT4739WRTNW KKRNAJFTJ7WW 73L66AXW7PXT R96TW4K49TH9 4TLJ7PPW9WFY 使用后要回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222784#reply26
+
+---
+
+#### 6210. [V2EX] macOS 上有什么比较好用的清理软件
+
+**问题描述 / Problem Description**:
+如题 就是 CleanMyMac 太贵了，AppCleaner 又只能卸载软件，不能清理其它的残余 想知道各位大佬都是用什么方法去清 Mac 上面的垃圾的 o.O 还有一些系统维护，比如清理设置>启动项里面残余的应用 O.o 烦劳各位推荐了 o(≧v≦)o
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222690#reply48
+
+---
+
+#### 6211. [V2EX] 27 Beta2 appstoreagent 进程 占用很高的 CPU 咋办
+
+**问题描述 / Problem Description**:
+appstore 都没有打开，appstoreagent 进程占用很高的 CPU ，强制退出了过一会儿还会出来，重启之后出来的时间慢一点 有通过 hosts 屏蔽 sylvan.apple.com ，不知道是不是因为这个，但是试了下解除屏蔽还是会疯狂下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222655#reply16
+
+---
+
+#### 6212. [V2EX] 美区 ID 开通 ChatGPT plus 到别人帐号了怎么办
+
+**问题描述 / Problem Description**:
+我的美区 Apple ID 之前帮别人开通 ChatGPT Plus ，但是我记得好像是有六个月过了六个月以后就可以再给别的号开通了，然后我刚才直接就充值了 20 美元开通以后他说我已完成购买，紧接着提示我什么开通到其他账号了然后我就去 Apple 官网申请退款了，能成功退款吗？另外我想问一下大家，现在土耳其的低价区已经没有了，大家都是用什么方式去开通呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224350#reply0
+
+---
+
+#### 6213. [V2EX] 大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机
+
+**问题描述 / Problem Description**:
+jd 现在很多挂羊头卖狗肉的 特别 iphone17 你看价格 4999 其实是什么准新机 刘强东你别太离谱 个强奸犯 不知道能不能退一赔三 骗子和客服都理直气壮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224297#reply22
+
+---
+
+#### 6214. [V2EX] 做了一个 macOS App： Surge Relay，用来集中管理、转换和发布 Surge 模块。
+
+**问题描述 / Problem Description**:
+最近做了一个 macOS App ，叫 Surge Relay 。老刘没做的，我给补上了！ GitHub： https://github.com/EEliberto/SurgeRelay-macOS 它主要用于集中管理、转换、编辑和发布 Surge 模块，比较适合经常通过 Script-Hub 将 Loon / Quantumult X / 其他代理工具格式转换为 Surge .sgmodule 的场景。 我自己遇到的痛点是：Surge 里已经安装的模块不方便批量修改来源地址。如果上游作者修改了仓库地址、文件路径或目录结构，就需要重新打开 Script-Hub 、重新转换模块，再重新安装到 S
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224268#reply1
+
+---
+
+#### 6215. [V2EX] 新款 APPLE TV 什么时候出， 9 月会出么？
+
+**问题描述 / Problem Description**:
+想入手个 apple tv 了 9 月会出新品么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224254#reply13
+
+---
+
+#### 6216. [V2EX] [送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～
+
+**问题描述 / Problem Description**:
+👋 嗨，V 站的朋友们，大家好～ 🙋 我是 Wins 的开发者，距离 Wins 3.0 发布竟然 9 个月过去了，又来和大家同步最近的一次更新了。 这次主要打磨了一个我自己很喜欢的新交互： 🏝️ Wins 3.4 发布：「悬浮分屏岛」来了 这不是一个普通的悬浮面板。 我想做的是：当你拖动窗口到屏幕顶部时，它像 iOS 灵动岛一样，从 MacBook 的刘海区域自然出现；你继续拖动，就可以快速选择布局并完成分屏。 也就是说，MacBook 的刘海不再只是一个“缺口”，它也可以变成窗口管理的入口。 在没有刘海的 Mac 或外接显示器上，它也会以顶部悬浮岛的形式出现，尽量保持同样自然的拖拽体验。 我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224253#reply65
+
+---
+
+#### 6217. [V2EX] M3U 96G 是不是有点不上不下？
+
+**问题描述 / Problem Description**:
+最近搞了个 studio ，配置如上，似乎不尴不尬的，有没感觉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224191#reply3
+
+---
+
+#### 6218. [V2EX] iOS 17 和 macOS 14 之后的这个标点挤压有解决办法吗
+
+**问题描述 / Problem Description**:
+钉子户刚更新的 iOS 18 和 macOS 15 ，标点挤压好丑又不能关掉 搜了一下怎么到处也没什么人讨论这个 https://www.v2ex.com/t/977075 也不知道为什么被删了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224164#reply0
+
+---
+
+#### 6219. [V2EX] ios27 目前用下来最大的 bug 就是音量键老是自动调节音量
+
+**问题描述 / Problem Description**:
+没办法上传图片，大家有这个情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224152#reply5
+
+---
+
+#### 6220. [V2EX] 最近很火的 Apple WLOC 定位修改能用来给国行 iPhone Air 添加海外 esim 吗
+
+**问题描述 / Problem Description**:
+如题 有没有人试过的？我的 gg 卡是实体，看了下要转 esim 就不能转回去实体卡了 不敢试 git 地址 https://github.com/Yu9191/wloc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224147#reply13
+
+---
+
+#### 6221. [V2EX] 使用土耳其 appleid 订阅的 claude/chatgpt 会员，账号被封后申请退款， appleid 有概率被封
+
+**问题描述 / Problem Description**:
+具体规律没有研究明白，但我 的两个土耳其 appleid 都是在申请退款后的次日被封，被封后，即使账户有余额也很难退款，联系客服，客服回复[关于这个问题，我无法帮助到你] 账号来源：牛牛苹果 提交时网络环境：cn 支付方式：iTunes card iTunes card 来源：seagm 账号已绑个人手机号 大家尽量小心些吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224134#reply2
+
+---
+
+#### 6222. [V2EX] Iphone18 pro 泄漏事件
+
+**问题描述 / Problem Description**:
+苹果印度工厂的保密工作做的也是没谁了，泄漏了 630GB 文件，包括 iPhone 18 Pro 系列主板原理图、芯片手册、产线流程、测试视频，被扒了个精光，这应该是近年来苹果供应链最严重的泄露事件了。#iPhone18ProMax 银灰色##苹果回应机密文件泄露# 往年外观最多也就曝光个渲染图，今年给特努斯整了个大的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224113#reply43
+
+---
+
+#### 6223. [V2EX] AppleId 换区支付方式
+
+**问题描述 / Problem Description**:
+现在 AppleId 换区不能设置 None 支付方式了？ 我靠 天塌了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224097#reply3
+
+---
+
+#### 6224. [V2EX] 美版 MacBook Pro 升级到 macOS 27 后， Siri AI 对话一直失败
+
+**问题描述 / Problem Description**:
+不进行对话，只是用 Siri 进行一些快捷操作的话，功能正常。 但一旦进行对话就会一直返回 Sorry, there’s something wrong. Please try again. Uh oh, something’s wrong. Please try again. 难道是网络的原因么，开不开 Chatgpt 扩展都一样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224073#reply3
+
+---
+
+#### 6225. [V2EX] 指纹和 face id
+
+**问题描述 / Problem Description**:
+你们觉得哪个好用，听说新的折叠屏没有 face id 了，哎
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224072#reply3
+
+---
+
+#### 6226. [V2EX] 怪不得苹果要涨价， apple store 都没现货
+
+**问题描述 / Problem Description**:
+上周日准备去 深圳前海壹方城 apple store 提一台 32+512 mac mini ，然后我问服务员有现货吗，结 果无论什么版本 mac mini 都没现货，居然缺货到如此程度。 看了下台式机，想入手 3090 、4090 显卡来跑 comfyUI （ mac mini 生成一张图要几分钟），整个拼夕夕都没几台现货，而且很多 4090 价格低的离谱（其实是笔记本版的 4090 ），桌面版真的很紧俏。 太难了，租了某平台的云电脑，估计是共享硬件、解压个大文件（ 2-3G ）要几十分钟，14 代 cpu 好像是 14700 ？ 4070 显卡，花费 3 个小时，结果运行环境都没搭建好。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224052#reply7
+
+---
+
+#### 6227. [V2EX] 米家 app 使用时 iPhone 发烫
+
+**问题描述 / Problem Description**:
+只要在前端一直使用/查看只能设备超过 5 分钟手机就开始逐步发烫了 退到桌面后就逐步降温了，其他 app 哪怕游戏，视频 app 均未遇到 不知道有没有用小米的朋友注意到此现象，有啥解决方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224018#reply23
+
+---
+
+#### 6228. [V2EX] 从"1000 杯水一杯有毒用几只老鼠试出来",到给女儿做了个猜心小魔术的 ios App
+
+**问题描述 / Problem Description**:
+前段时间重新看到一道老题:1000 杯水里有一杯有毒,最少用几只老鼠能试出来。答案是 10 只——把水编号成二进制,每只老鼠对应一个二进制位,喝下那一位是 1 的所有水,最后看哪几只死了,死亡组合拼起来就是毒水编号。2¹⁰ = 1024,刚好够。 我盯着这道题看了半天,突然想起小时候玩过的一个魔术:一沓卡片,每张上面印一堆数字,你心里想一个数,我逐张问你「你的数在不在这张卡上」,你只答在或不在,最后我就能说出你想的数。 那一刻我反应过来——这俩根本是同一件事。老鼠的死/不死,和卡片的在/不在,都是一个比特;十只老鼠和六张卡片,都是在用二分法,把一大堆可能性一层层对半切开,最后锁定唯一那个。再往
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223929#reply1
+
+---
+
+#### 6229. [V2EX] 打算买个 applewatch 怎么选
+
+**问题描述 / Problem Description**:
+看了下 s11 现在就 2000 左右，618 期间好像 1800 左右都能买到 手机基本不离身，感觉也没必要买蜂窝版吧 不知道今年会不会出 s12 ，应该也不会有什么大更新吧 最近的涨价潮，不知道后面会不会影响到手表
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223908#reply0
+
+---
+
+#### 6230. [V2EX] app 关后台必要性
+
+**问题描述 / Problem Description**:
+app 后台有必要经常关闭吗？ 但实测新旧手机迁移数据时最好后台 app 全部关闭，这样迁移速度会快很多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223903#reply1
+
+---
+
+#### 6231. [V2EX] 苹果开发者即将到期，是否要续费
+
+**问题描述 / Problem Description**:
+去年有点小迷 vibe ，吭哧瘪肚（非常曲折）弄了个公司的账号，但是一年了其实也没啥产出。 最近看到开发者账号各种被封，想请教下是否要「保护性」的续费一下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223885#reply7
+
+---
+
+#### 6232. [V2EX] 看到一个灵感：人形机器人的美妆灵感😁
+
+**问题描述 / Problem Description**:
+当机器人开始拥有接近真人的面部、皮肤和表情，美妆就不再只是遮瑕、修饰和风格表达，也会变成一种“如何让非人类更像人、又保留一点异质感”的设计语言。这个方向很适合延展成 AI 影像、虚拟偶像、仿生机器人和未来美妆品牌的视觉参考。 https://2aran.com/feed/humanoid-robot-beauty-inspiration
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224322#reply0
+
+---
+
+#### 6233. [V2EX] Magic Context 大模型防痴呆插件
+
+**问题描述 / Problem Description**:
+https://github.com/cortexkit/magic-context 再牛的大模型，上下文过长都会变成痴呆。 这个 harness 插件的作用就是管住上下文，让你在一个会话里面可以永远聊下去。具体就是： 一个项目只需一个会话，这个插件会主动控制上下文的长度，将不需要的内容清理掉，将暂时不需要的记忆存档，需要时又重新加入上下文。 多个项目的记忆可以共享，包括环境配置、命名风格、设计意图，你可以将多个项目放在一个 workspace 里面来共享记忆。 用户画像，记录用户的开发习惯、表达习惯，让大模型更精准的获知用户意图。 有人会问这有什么用，回答是聊天更自然了，我可以直接说 “上周
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224274#reply0
+
+---
+
+#### 6234. [V2EX] 那把电脑时间调成新加坡时区岂不是就可以用 Claude 了
+
+**问题描述 / Problem Description**:
+中文系统，新加坡时区也是东 8 区，完全没影响了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224243#reply9
+
+---
+
+#### 6235. [V2EX] 我找到了世界上最好用的西瓜勺!
+
+**问题描述 / Problem Description**:
+https://item.m.jd.com/product/100081994232.html 尖头 加深 强烈推荐!!!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224240#reply3
+
+---
+
+#### 6236. [V2EX] 7 月份网易云音乐黑胶会员领取，天数随机
+
+**问题描述 / Problem Description**:
+1http:/$Y3q22e2d1b82c1$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 贱***叔 送你网易云音乐 7 月黑胶会员卡，领取享 20+会员权益。 https://163cn.tv/96mMCNF 日常每月分享，欢迎佬们领取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224212#reply4
+
+---
+
+#### 6237. [V2EX] 分享一款鼠标指针
+
+**问题描述 / Problem Description**:
+github: https://github.com/ShumTin/Windows-11-Cursors-Concept-v2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224150#reply4
+
+---
+
+#### 6238. [V2EX] 可以三年洗白的医疗险
+
+**问题描述 / Problem Description**:
+如题所示，投保三年后，可以洗白的医疗险 简单点举个例子，比如常见的异常体况肺结节等级不高的情况下，一般的医疗险健康告知后，基本都会除外。 而且这个除外，是属于永久除外，之后再怎么续保，都不会把这个责任保障进来。 而今天推荐的产品，所谓的三年洗白。 就是投保的时候正常做健康告知，同样，肺结节依旧会被除外。 但是，它的除外责任只是前三年生效，当正常续保到第四年的时候，按照条款的特别约定，之前除外的责任就会被洗白，然后保进责任里。 当然，这里只是用肺结节举一个例子，实际上，所有在健康告知过程中被除外的责任，都能够按照这个特别约定在第四年的时候洗白。 前阵子我遇到一个小姐姐客户，就是三结节一体的异常，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224136#reply0
+
+---
+
+#### 6239. [V2EX] 现在的推销电话正在转接也是搞笑
+
+**问题描述 / Problem Description**:
+有时候接到的一些电话，一接通就提示：通话正在转接，请等待。 我等你个锤子，你搞推销我还等你，直接挂断。 搞得起推销就不要省成本，这不来搞笑的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224129#reply7
+
+---
+
+#### 6240. [V2EX] 如何免手机收发短信&保号办法，对国内外 eSIM 卡
+
+**问题描述 / Problem Description**:
+在 Mac （ Apple Silicon / Intel ）上用 UTM 跑 Linux 虚拟机 把大疆 4G 模块（ EG25-G ）伪装成移远 Quectel EC25 并部署 vohive 平台的完整步骤 https://github.com/wlzh/dji-4g-vohive-mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224123#reply1
+
+---
+
+#### 6241. [V2EX] 在 v2 推广的的中转站，有没有上了克劳德的“官方”名单啊？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224120#reply0
+
+---
+
+#### 6242. [V2EX] 想认识懂社媒推广的朋友，一起合作。
+
+**问题描述 / Problem Description**:
+我有产品，你懂推广，一起合作，一起分成。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224114#reply2
+
+---
+
+#### 6243. [V2EX] Mac 系列涨价后，我反而感觉轻松：不买立省 100%
+
+**问题描述 / Problem Description**:
+本来最近我的 MBA M3 16+512 感觉有点卡，在看 MBP M5pro 48G+1T ，pdd 上 18888 。苹果官方宣布涨价后，立刻就提价到 22888 ，我现在感觉我的 MBA 似乎也不怎么卡了，可以再用 5 年吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224098#reply1
+
+---
+
+#### 6244. [V2EX] 简单分析硅基流动招股书
+
+**问题描述 / Problem Description**:
+港交所刚刚披露了硅基流动的招股书，笔者立马来劲了。公司全称：北京硅基流動科技股份有限公司 - P ，这里简单分析下。 2025 年收入 5500 万出头，其中公有云 2900 万出头（需要租赁算力），其它是本地化部署（客户自备算力，硅基流动提供技术服务）。 2025 年销售成本超过 6800 万，其中算力租赁费用接近 6000 万。针对使用代金券的免费用户，额外有超过 5400 万的推广算力成本。 2025 年研发费用超过 2 亿，主要是薪酬福利（约 1.6 亿）和研发算力成本（超过 4500 万）。 粗略的说，硅基流动花 4 块钱租赁算力，再花 7 块钱把算力变成 token ，最后用 1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224088#reply12
+
+---
+
+#### 6245. [V2EX] 新加坡钱包 Starryblu 开放万事达虚拟卡
+
+**问题描述 / Problem Description**:
+新加坡钱包 Starryblu 开放万事达虚拟卡 卡 BIN:22800118 （新加坡卡段） 大陆 +86 手机号 + 护照 申请 有开过的大佬说说这个虚拟卡如何呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224076#reply5
+
+---
+
+#### 6246. [V2EX] 公积金结息了
+
+**问题描述 / Problem Description**:
+上海的公积金结息已经到账了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224074#reply25
+
+---
+
+#### 6247. [V2EX] 用 Docker Sandbox 跑 Claude Code，规避时区指纹
+
+**问题描述 / Problem Description**:
+原文发在这里了： https://yylx.io/blog/2026/06/30/claude-code-docker-sandbox-timezone-fingerprint/ 简单说就是跑进虚拟机里给他一个指定的时区
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224056#reply1
+
+---
+
+#### 6248. [V2EX] 深度体验了一天 mimo code 提供的免费模型
+
+**问题描述 / Problem Description**:
+直接使用的 mimo code 里提供的免费模型 mimo-v2.5, 开发了两个 python 应用，一个关于通过二维码加解密发送和接收数据的，一个关于 dns 检测和远程更新的，总体感觉性价比非常高，全程非常流畅，复杂一些的问题也都能稳定解决。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224043#reply0
+
+---
+
+#### 6249. [V2EX] Anthropic 这波大批量封号的原因可能找到了
+
+**问题描述 / Problem Description**:
+Anthropic 这轮封号，可能不是“美国 IP 不够干净”这么简单。 Claude Code 被曝会在开启代理时检测本机时区、代理 URL 、中国域名/AI 实验室特征，并把这些信号藏进 system prompt 的日期格式和 Unicode 撇号里。 你以为美国家宽 + 海外手机号已经洗干净了环境；如果爆料属实，本地客户端可能早把线索写进 prompt 交上去了。 一个能读文件、跑 Shell 、改代码的高权限本地 Agent ，不知不觉就把你的底裤扒了，有点细思极恐啊 原文地址： https://www.reddit.com/r/ClaudeAI/comments/1ujila1/a
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224025#reply19
+
+---
+
+#### 6250. [V2EX] 搓了一个看世界杯的
+
+**问题描述 / Problem Description**:
+https://umuo.app/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224001#reply2
+
+---
+
+#### 6251. [V2EX] TVAtlas —— 一个免费全球电视直播聚合站， 11,000+频道在线看
+
+**问题描述 / Problem Description**:
+TVAtlas —— 一个免费全球电视直播聚合站，11,000+频道在线看 前言 最近发现一个很有意思的免费电视站 —— TVAtlas （ tvatlas.app ），它把全世界的免费电视直播频道聚合到一个页面里，不用翻墙就能看各国电视台，支持 188 个国家/地区，总计超过 11,000 个电视频道 和 16,000 个广播电台 。 这是什么？ TVAtlas 是一个 免费的全球电视/广播目录网站 ，基于公开的电视直播源数据整理而成。你不需要装任何 App ，打开浏览器就能直接用。 网站地址： https://tvatlas.app 核心功能 🌍 Live Globe —— 3D 地球看全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223986#reply7
 
 ---

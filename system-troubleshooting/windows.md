@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7324**
+**总计条目 / Total entries: 7380**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -100976,5 +100976,734 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1223139#reply0
+
+---
+
+#### 7325. Print supported display resolutions with aspect ratios
+
+**问题描述 / Problem Description**:
+Tags: windows, resolution | Score: 2 | Views: 201 | Answers: 1 | Created: 2026-06-30
+
+**解决方案 / Solution**:
+There are Powershell scripts that can immediately find out your resolutions and aspect ratio. I tried to include refresh rates as well, but the code kept crashing out, so that is left out. The code as below: function gcd($a, $b) { $a = [int]$a $b = [int]$b while ($b -ne 0) { $t = $b $b = $a % $b $a = $t } return $a } # Pull supported display modes from WMI $monitors = Get-CimInstance -Namespace root\wmi -ClassName WmiMonitorListedSupportedSourceModes | Where-Object Active $results = foreach ($monitor in $monitors) { $name = $monitor.InstanceName foreach ($mode in $monitor.MonitorSourceModes) { $width = [int]$mode.HorizontalActivePixels $height = [int]$mode.VerticalActivePixels if ($width -le 0 -or $height -le 0) { continue } $gcdValue = gcd $width $height $ratio = "{0}:{1}" -f ($width / $gcdValue), ($height / $gcdValue) # Fix known EDID odd ratios if ($ratio -eq "683:384") { $ratio = "~16:9" } [pscustomobject]@{ Monitor = $name Resolution = "$width x $height" AspectRatio = $ratio } } } # Clean up output $results | Sort-Object Monitor, Resolution -Unique | Format-Table -AutoSize It should display your monitor supported resolutions in a chart. Monitor Resolution AspectRatio ------- ---------- ----------- DISPLAY\LEN61A6\4&37b31332&0&UID198195_0 1024 x 768 4:3 DISPLAY\LEN61A6\4&37b31332&0&UID198195_0 1152 x 864 4:3 ......
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938773/print-supported-display-resolutions-with-aspect-ratios
+
+---
+
+#### 7326. Apache web server: Is it possible to pass arguments to ScriptAlias scripts?
+
+**问题描述 / Problem Description**:
+Tags: windows, apache-2.4, mod-alias | Score: 1 | Views: 111 | Answers: 1 | Created: 2026-06-30
+
+**解决方案 / Solution**:
+It is not possible to pass command-line arguments to a ScriptAlias target in Apache. ScriptAlias only performs a URL prefix → filesystem path mapping. The right-hand side is treated strictly as an executable path, not a command line. To achieve version-based dispatch with a single wrapper script, you need to: Match multiple URL prefixes using a regex-based alias. Set an environment variable based on the requested prefix. Use that variable inside a single CGI wrapper. An example Apache configuration: ScriptAliasMatch ^/php[0-9]+/ "${path}/php_cgi_wrapper.bat" SetEnvIf Request_URI "^/php85/" PHP_VERSION=85 SetEnvIf Request_URI "^/php84/" PHP_VERSION=84 SetEnvIf Request_URI "^/php83/" PHP_VERSION=83 Action php-script "/php" AddHandler php-script .php With this configuration, the environment variable can be used in the batch script: @echo off if "%PHP_VERSION%"=="" set PHP_VERSION=85 set "PHP=C:\php\%PHP_VERSION%\php-cgi.exe" "%PHP%" -f "%SCRIPT_FILENAME%" If your directory structure uses dotted version numbers, set the environment variable accordingly (e.g. PHP_VERSION=8.5 for C:\php\8.5\ ). This is purely a naming convention and can be adjusted to match the filesystem layout.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199363/apache-web-server-is-it-possible-to-pass-arguments-to-scriptalias-scripts
+
+---
+
+#### 7327. How do I reset the Claude Code VS Code extension to use my Claude subscription instead of a deleted API key's deployment?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, visual-studio-code, claude-code | Score: 1 | Views: 430 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+The issue was some environment variables were pointing to old Opus model: (it shows HAIKU/SONNET but same for Opus) PowerShell command to list such environment variables: Get-ChildItem Env: | Where-Object Name -match '^(ANTHROPIC|CLAUDE_CODE|AWS)' | Select Name After deleting the environment variables, it goes back to normal:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938734/how-do-i-reset-the-claude-code-vs-code-extension-to-use-my-claude-subscription-i
+
+---
+
+#### 7328. Hyper-V - how to give VM internet access?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, hyper-v | Score: 0 | Views: 27 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+That question you linked has multiple answers. Jamez Mertz's answer is a simple external vswitch, try this first. Those screenshots are still relevant for a GUI approach, but a quick summary: Virtual Switch Manager, create a new External type, attach it to the physical network card that is your internet link, and enable "Allow management operating system to share". Edit the VM's network adapter to use this virtual switch. A shared external vswitch is bridged. As if you attached a dumb Ethernet switch to the internet link, the VMs, and Windows. Hyper-V assigns MAC address to VMs for layer 2, in fact. VM's IPv6 neighbor discovery and IPv4 DHCP go out the physical link, to whatever box that is your internet router, and they get assigned IP addresses. Non-trivial networks exist where this simple setup would be inadequate. NICs dedicated for VMs, port security, VLANs. However, these tend to be enterprise features not common on home networks. Ask your network administrator, if there is such a person. So far this has followed the external switch type per Hyper-V network documentation . At the end of it a mention of NAT, which is another possibility, used by both containers and VMs. On desktop editions of Windows (not Server) a default Hyper-V network exists, which will automatically NAT a Windows IP address to a network for VMs. This is not my first choice, as multiple NATs can be confusing, and unnecessary if IPv6 is in use. venimus's answer mentions several things: Hyper-V default and internal vswitch types, and Windows Internet Connection Sharing. ICS use case is for Windows desktop edition to share an internet connection. Example use case, your internet router has no Wi-Fi feature, so you use Windows to route and NAT the wired link via a laptop's Wi-Fi antenna to other devices. Yet Hyper-V switch manager (and associated PowerShell command line) can fully define virtual networks. You do not need to configure the host's ICS for Hyper-V, ignore this answer. If you do have a specific reason for Windows to do the NAT, please edit your question to describe your network in detail.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938746/hyper-v-how-to-give-vm-internet-access
+
+---
+
+#### 7329. Does creating a parent reverse lookup zone delete or delegate existing independently-created child zones?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, active-directory, reverse-dns, windows-dns | Score: 0 | Views: 92 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+Are existing child-zone records destroyed? The known TechNet behaviour is that creating a child zone under an existing parent can wipe records. Does the same happen in reverse, i.e. creating the parent after the children exist? Nothing like that happens. The two zones are stored as separate subtrees within the LDAP directory (or as separate zonefiles if not using AD-backed zones for whatever reason), and creating a parent zone does nothing to any child zone's records. All remote management RPC operations also explicitly specify which zone to act on, so there's no ambiguity. I strongly doubt the alleged "TechNet behavior", as well. It's more likely that those records merely become inaccessible (shadowed) via DNS since the queries start being served from the new child zone (as it now has a more specific match to the query than the original parent zone), and I would be very surprised if they got outright destroyed within the directory, or even if they became invisible through management for that matter. Are auto-delegations created in the new parent pointing at the existing child zones, and how quickly? It seems that they are not created automatically. But since the same server hosts both zones, it will automatically respond from the child zone without strictly needing a delegation to self. This works since queries (unlike updates) don't specify which exact zone they're querying, so the server has to decide, and typically it serves answers from the "most specific" zone. So if a query for 4.3.2.10.in-addr.arpa arrives, even though the resolver has issued that query thinking it followed a delegation to the parent zone (and hasn't yet learned about the existence of the child zone), the server can't actually tell the difference, so it'll answer from the child zone anyway. AFAIK a (self-)delegation is only truly necessary for avoiding DNSSEC validation issues, but if you aren't using DNSSEC for internal rDNS then there's no rush to create it (although you still definitely should do that). And of course, you can script the creation of 500 delegations to make it happen in a second. Do the child zones keep answering queries normally while the parent exists alongside them? Yes, as mentioned in the previous section. Where does dynamic registration go for subnets with no existing child zone, once the parent exists? There does not need to be a 1:1 correspondence between subnet and zone. Dynamic registration just always follows the same general rules, without any distinction between forward and reverse updates: the most-specific matching zone (i.e. longest suffix match) is chosen. Also, unlike with queries, a DNS update request explicitly indicates the zone – not just the specific name – so if there are multiple candidate zones, then the client, not the server, decides which zone the update should be applied to. For example, a client wants to register a PTR for 10.2.3.4 . It starts by making a DNS 'SOA' query for 4.3.2.10.in-addr.arpa , and upwards to 3.2.10.in-addr.arpa , then 2.10.in-addr.arpa , until it eventually receives a response with a SOA record. That SOA record indicates the zone boundary (and also indicates a 'master' server to which the update packet should be sent). So if the client's queries reach a server which has a 3.2.10.in-addr.arpa zone, the client will direct its updates to that zone. On the other hand, if there's no such zone, and the SOA discovery instead reaches 10.in-addr.arpa , then that's where the updates will be directed – and the client's actual IP subnet size (i.e. zone-to-subnet correspondence) does not matter in the slightest. Finally, as Greg mentions, Active Directory doesn't rely on reverse DNS. The rDNS registrations are mostly there to make things like netstat or fsmgmt.msc look nice, but AD on a purely-Windows environment will still work the same even if reverse records don't exist. What does rely on reverse DNS is Kerberos on Unix/Linux – but even then generally only on the client side, expecting rDNS for servers' IP addresses (i.e. when deciding what Kerberos principal to use), and a client will still work fine without having its own PTR at all. (I believe some Linux distributions now disable rdns in krb5.conf by default for various reasons, which you might want to do as well, to move closer to AD behavior.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199347/does-creating-a-parent-reverse-lookup-zone-delete-or-delegate-existing-independe
+
+---
+
+#### 7330. Why is it that Thunderbird seems to prevent Windows 11 shutdown?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, thunderbird, shutdown | Score: 0 | Views: 94 | Answers: 1 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+Check if you have any settings enabled that do things "on exit". An example under Tools -> Account Settings -> Server Settings for an account: "Cleanup ("Expunge") Inbox on Exit". This would cause Thunderbird to start extra work when it gets closed, which in your case is when Windows asks it to close before trying to shut down.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938609/why-is-it-that-thunderbird-seems-to-prevent-windows-11-shutdown
+
+---
+
+#### 7331. My phone shows that I sent a message that I never sent
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukwdso/my_phone_shows_that_i_sent_a_message_that_i_never/
+
+---
+
+#### 7332. Trying to recover a previous version of a folder but most documents and photos are in a "Read-Only" mode.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxe0a/trying_to_recover_a_previous_version_of_a_folder/
+
+---
+
+#### 7333. My phone (Samsung M33) after it fell in water.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukhquj/my_phone_samsung_m33_after_it_fell_in_water/
+
+---
+
+#### 7334. Mouse wont work. pc is up-to-date. pc restarted with and without mouse. made the pc forget the mouse. wire mouse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukzkn4/mouse_wont_work_pc_is_uptodate_pc_restarted_with/
+
+---
+
+#### 7335. my pc keeps crashing while playing games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukzd8e/my_pc_keeps_crashing_while_playing_games/
+
+---
+
+#### 7336. Xbox1 Controller Pairing with PC Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukz7av/xbox1_controller_pairing_with_pc_issues/
+
+---
+
+#### 7337. Help with secure boot on my ASUS Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukz4ux/help_with_secure_boot_on_my_asus_laptop/
+
+---
+
+#### 7338. What can I do to stress test a video card I have, in case it has issues?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukyw2y/what_can_i_do_to_stress_test_a_video_card_i_have/
+
+---
+
+#### 7339. Randomly started experiencing huge ping spikes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukyqau/randomly_started_experiencing_huge_ping_spikes/
+
+---
+
+#### 7340. Video file not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukyn90/video_file_not_working/
+
+---
+
+#### 7341. monitor causing slowness?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukymgb/monitor_causing_slowness/
+
+---
+
+#### 7342. 14900KS hard crashes with WHEA errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukygxm/14900ks_hard_crashes_with_whea_errors/
+
+---
+
+#### 7343. Secure boot not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukyeqv/secure_boot_not_working/
+
+---
+
+#### 7344. CPU Over Temperature from Cold Boot Randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uks6hi/cpu_over_temperature_from_cold_boot_randomly/
+
+---
+
+#### 7345. Need more space
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uky2bd/need_more_space/
+
+---
+
+#### 7346. Mtlogic TV only shows White screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxufp/mtlogic_tv_only_shows_white_screen/
+
+---
+
+#### 7347. My laptop Lx15pro randomly shut down.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukries/my_laptop_lx15pro_randomly_shut_down/
+
+---
+
+#### 7348. how to make hardware acceleration work in brave browser in ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxmtv/how_to_make_hardware_acceleration_work_in_brave/
+
+---
+
+#### 7349. Windows 11 Help! I cannot change my systems language settings.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxduv/windows_11_help_i_cannot_change_my_systems/
+
+---
+
+#### 7350. Smart app blocked a program but it won’t show me its file location
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxbr1/smart_app_blocked_a_program_but_it_wont_show_me/
+
+---
+
+#### 7351. iPad not working/lagging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukxbcq/ipad_not_workinglagging/
+
+---
+
+#### 7352. I'm trying to use Bluetooth on Windows 11, and it's not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukr0jj/im_trying_to_use_bluetooth_on_windows_11_and_its/
+
+---
+
+#### 7353. Weird frametimes suddenly pop up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukwyiz/weird_frametimes_suddenly_pop_up/
+
+---
+
+#### 7354. Do I need a new Graphics Card?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ukwxte/do_i_need_a_new_graphics_card/
+
+---
+
+#### 7355. [V2EX] WSL Containers 有老哥用上了吗？
+
+**问题描述 / Problem Description**:
+重装系统准备去下个 wsl ，看 github 上多了个 WSL Containers Public Preview
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223880#reply29
+
+---
+
+#### 7356. [V2EX] Win RDP 远程桌面音频时不时抽风（无声音）
+
+**问题描述 / Problem Description**:
+具体表现为，远程桌面登录目标机后，有一定概率没声音（目标机的声音传不过来），看了下「远程音频」那个虚拟声卡是正常的，但就是没声音，而且怎么重连都没用， 一定要去到目标机上，用键盘鼠标登录一下（桌面切回 Console 端），然后再回到远程桌面连，100%能恢复有声音 ，而且后续远程桌面怎么退出重连都有声音。 也就是，如果上次登录是直接在目标机使用，下次连远程桌面时（桌面从 Console 端切到 RDP ），有一定概率无声（不是每次都发生，很随机）。 跟播放器也没关系，所有音频，包括浏览器、音乐播放器、系统声音在内都没有，重启播放器/浏览器都没用。 目标机是个骁龙 X Elite ，Windo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223506#reply2
+
+---
+
+#### 7357. [V2EX] 大佬们我重装了个 win11 以后，右键任务栏的程序不会出现功能了
+
+**问题描述 / Problem Description**:
+举个例子，之前在浏览器上右键会出现新建窗口，新建隐身窗口之类的，现在没有了只有关闭了，请问怎么解决啊？ 但是好像系统自带的软件没问题。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223380#reply15
+
+---
+
+#### 7358. [V2EX] 求助！个人平时用 windows 都是打游戏，如何给 windows 做程序员风格优化？周末想给老婆的电脑处理一下
+
+**问题描述 / Problem Description**:
+比如： 日常必备软件，类似 mac Raycast 那种的 程序员必备软件 感谢大佬们分享经验！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223173#reply10
+
+---
+
+#### 7359. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply69
+
+---
+
+#### 7360. [V2EX] 西安赛格有老板跳了
+
+**问题描述 / Problem Description**:
+听说是薅赛格的优惠券羊毛，被罚了一千多万，接受不了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224349#reply0
+
+---
+
+#### 7361. [V2EX] 没有人觉得深圳签注机的位置很阴间吗？
+
+**问题描述 / Problem Description**:
+非深户 最近每日港深往返 需要当日更新签注 然后就被深圳🐶🌞的签注机的位置狠狠折腾 这也太不便民了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224342#reply1
+
+---
+
+#### 7362. [V2EX] openai 说已经修复了 codex 额度消耗过快的问题，我怎么感觉还加速消耗了
+
+**问题描述 / Problem Description**:
+今天早晨没有例行重置 消耗的速度甚至更快了，最夸张是下午，一次会话执行一个 17 分钟的任务，把剩余的 45%都耗光了，大家有同感吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224302#reply7
+
+---
+
+#### 7363. [V2EX] claude max 订阅 ios 换区可行吗
+
+**问题描述 / Problem Description**:
+尼区用了没两个月，现在翻倍，没法续了。我有一个一直自己用、自己充值的美区 id ，不知道到期了（同一个 claude 账号）能不能换美区继续用先顶一阵？有没有人尝试过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224301#reply6
+
+---
+
+#### 7364. [V2EX] 想问一下像我这样的人有吗
+
+**问题描述 / Problem Description**:
+以前一直很自卑，遇到喜欢的女生不敢上前; 不会沟通，不擅长表达，不知道说什么聊什么； 即使两个人已经在一起，依然不知道说什么，有时候逃避联系 不懂如何建立关系，已经建立好的关系很快就被自己毁掉，不懂得如何维护关系。 一直自卑，觉得自己是没有 NIKE(高中到大一时)，不够帅，不够有钱，没肌肉等等，但是忽略了"关系"是需要和对方维持的，只把重心放在自己的缺点上。 不知道怎么对对方好，原来两个人在一起是可以送礼物、用语言表达爱意的，但是当时像一个哑巴一样，只会点开对方的社交账号看看，用幻想代替现实，想得多做得少。 自我的世界很狭隘，感觉是体验的事物太少了，接触的真实生活太少了，大部分时间沉迷网络，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224294#reply10
+
+---
+
+#### 7365. [V2EX] 你们的 Chrome 突然随机打开一个不相关的 AI 网站吗？
+
+**问题描述 / Problem Description**:
+最近总是遇到，但是频率不算高 刚刚是突然又打开了一个叫 [ buzzy ] 的网站，所以才想来问问 我想可能是之前装的某些插件触发的，搜了一圈也没法查到记录之类的所以来问问 目前只能一个一个插件排查了 但是这个不是每天都有 有些时候会隔几个月。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224293#reply3
+
+---
+
+#### 7366. [V2EX] 闲鱼 16G 价格在 300 上下 是否可以买？求 18cm 给点建议
+
+**问题描述 / Problem Description**:
+如题，如果要买的话有什么需要关注的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224267#reply0
+
+---
+
+#### 7367. [V2EX] 你左手按 b 键还是右手
+
+**问题描述 / Problem Description**:
+楼主用右手按 b 按了不知道多少年，今天 gpt 告诉我现在建议用左手……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224255#reply49
+
+---
+
+#### 7368. [V2EX] 是否有技术方案，可以运行一个软件而模拟完全不同于物理机的机器特征
+
+**问题描述 / Problem Description**:
+看到最近 Claude 封号多讨论，想到这个方向 我知道很像指纹浏览器，但是浏览器里要做的事情没有软件多。 类似 Claude 这种编程的，可能需要运行一些本机存在的命令，不仅仅是修改文件，如果用 docker sbx 之类的就不能用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224249#reply2
+
+---
+
+#### 7369. [V2EX] 南京四天三夜 求过来人推荐吃玩住！
+
+**问题描述 / Problem Description**:
+南京四天三夜 求过来人推荐吃玩住！ 目前收集到的散乱攻略，求补充/纠错～ 吃： 大肉面 | 皮肚面 | 南京烤鸭 | 七家湾牛肉锅贴 游： 瞻园 · 南京省博物馆 · 梧桐大道 · 红山动物园 紫金山 · 中山陵 · 音乐台 · 总统府 · 德基广场 住（新街口地铁站附近）： 酒店：全季 / 亚朵 / 如家精选 / 南京中心大酒店 民宿：自由生长民宿 求解答： 1️⃣ 看民宿房间布局还不错，值得住吗？有具体推荐的民宿店吗？ 2️⃣ 有没有具体推荐的店/避雷提醒？ 蹲一波过来人经验🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224232#reply25
+
+---
+
+#### 7370. [V2EX] 访问不了 Reddit，除了换节点还有啥招
+
+**问题描述 / Problem Description**:
+同一个节点，有时候可以有时候不行，反正大部分节点都不行（三个机场都一样），不干净吗 机场节点都万人蹭的...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224231#reply9
+
+---
+
+#### 7371. [V2EX] 请教九寨沟游玩攻略
+
+**问题描述 / Problem Description**:
+从广州出发，大概 4-5 天假期，预计 10 月中下旬去。 一般去九寨沟，还搭配其他哪个地方游玩吗（不去看大熊猫）？不是很熟悉那边。 建议报团去吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224226#reply0
+
+---
+
+#### 7372. [V2EX] 有没有便宜大碗的国产模型中转
+
+**问题描述 / Problem Description**:
+推广里都是国外那三家的中转，国产前沿模型基本十几/二十几每百万 token 了，其实也不便宜，那么有没有便宜大碗的国产模型中转？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224225#reply2
+
+---
+
+#### 7373. [V2EX] 每个人都希望自己能不断地升职加薪，你是不是也很想知道，自己在公司里还有多大
+的升值空间呢？
+
+**问题描述 / Problem Description**:
+你去江南古镇旅游，好不容易拖着疲惫的身体来到一条街道，两边都是住户，唯有一 两家是客栈。往远处看去，也只有三四家。此时，你会作出怎样的选择？ A ．选择离你最近的一家，不过条件一般。 B ．去远处的那家看看，因为店面口摆着一个招牌菜的广告牌，挺吸引人。 C ．到再远一些的店面看看，老板娘在门口正热情地揽客呢。 D ．到附近几家门口看看，选择人最多的那个店
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224217#reply9
+
+---
+
+#### 7374. [V2EX] 有在咸鱼买土区礼品卡续费 codex 的吗
+
+**问题描述 / Problem Description**:
+续费还是之前的价格，但是问了咸鱼店铺，说只负责里拉到账，不保证内购成功，这是啥意思？现在还能用咸鱼买礼品卡吗，或者更稳的续费方式是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224207#reply13
+
+---
+
+#### 7375. [V2EX] [有偿求助] 需要美国实体手机号帮助验证 Google Voice（Link Phone Number）
+
+**问题描述 / Problem Description**:
+大家好，想请教并有偿求助一位有美国实体手机号（ T-Mobile / AT&T / Verizon / Tello / US Mobile ）的朋友帮个小忙。 情况说明： 已有 Google Voice 账号和号码（不是新注册） 现在需要进行 Link Phone Number 验证 只需接收一次短信验证码 不需要提供账号密码，不需要远程操作 全程我自己在 Google 账号内操作 如果验证失败（提示该号码无法使用），可以立即停止，不会影响对方号码使用。 有偿感谢：验证成功后立刻微信/支付宝转账 50 元 如果有愿意帮忙的朋友，麻烦站内信联系，非常感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224182#reply6
+
+---
+
+#### 7376. [V2EX] 有没有那种“手机卡”中转站
+
+**问题描述 / Problem Description**:
+平台支持可以直接租一张全新或者订阅一张手机卡。通过下载平台 app ，可以实现打电话+接电话+发短信+接收短信。 这样就不用自己搞国外 sim 卡，自己激活了多好。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224168#reply3
+
+---
+
+#### 7377. [V2EX] gpt 生成 app 切图受挫
+
+**问题描述 / Problem Description**:
+提示词如下： 生成一个有设计感的按钮，要清晰表现出 Speed Test 的文案，让人有点击的欲望 颜色风格 #2D13F3 #E400FF ❗整张画布 = 1280 * 300 （不能多一像素），比例为 1280:300 ❗不能居中画板 / 不能加外边距 / 不能加背景扩展 ❗按钮必须铺满画布（ UI banner ，而不是按钮贴图） ❗透明背景 但是 gpt 生出的图片全是上下带透明边距的非 1280 * 300 图片，只有中间按钮部分是 1280 * 300 ，整个图片不是 1536 * 1024 就是 1335 * 1178 反复重新生成依然无解，蚌埠住了 是我打开方式不对么？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224161#reply17
+
+---
+
+#### 7378. [V2EX] 有没有在日本的朋友可以帮我代付下 claude 订阅？ 可以付 30%的辛苦费
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224158#reply9
+
+---
+
+#### 7379. [V2EX] 有人使用 claude code / codex + 国产大模型写代码吗？
+
+**问题描述 / Problem Description**:
+或者大家用的别的国产 agent ？ 昨天使用 cc switch 配置了 deepseek ，简单的服务器配置，让它去干了，似乎也做的不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224142#reply5
+
+---
+
+#### 7380. MongoDB server fails to start due to unhandled exception 0xC000001D unless data folder is cleared
+
+**问题描述 / Problem Description**:
+Tags: windows, mongodb | Score: 1 | Views: 1080 | Answers: 1 | Created: 2024-12-13
+
+**解决方案 / Solution**:
+The Core i3-2100 processor lacks support for AVX2 instructions. This might be the cause of the unhandled exception.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168858/mongodb-server-fails-to-start-due-to-unhandled-exception-0xc000001d-unless-data
 
 ---
