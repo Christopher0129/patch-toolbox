@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6543**
+**总计条目 / Total entries: 6603**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -92991,5 +92991,791 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224130#reply0
+
+---
+
+#### 6544. shellcheck doubtful messages (SC2009 and SC2126)
+
+**问题描述 / Problem Description**:
+Tags: bash, shellcheck | Score: 1 | Views: 24 | Answers: 1 | Created: 2026-07-02
+
+**解决方案 / Solution**:
+The suggestions are reasonable. It is basically telling you to use this: [[ $(pgrep -fc my-script.py) -gt 0 ]] \ && echo "my-script.py is running" || echo "Process not found" As for your specific questions: pgrep does not find my-script.py because it is not a process, it’s an argument to a python process. Yep, that's why you need to use -f to tell pgrep to search against the full command line. Of course, if you have a text editor with my-script.py open, it will also find that, but so would your original approach. How can grep -c replace grep -v grep? It doesn't. You only need grep -v grep because you are using the wrong tools ( ps + grep ) and you only need grep -v grep to remove the grep my-script.py . The whole point of pgrep is precisely to do this kind of thing so you don't need to remove the grep command from the output of ps , there is no grep command and no ps . As an aside, you can also do the same thing using this nifty trick: ps -ef|grep '[m]y-script.py' Since grep works with regular expressions, it understands [m] as "any of the characters in this list, where the list is the single character m ". However, if you run grep '[f]oo' instead of grep foo , then this is what you have in the output of ps : $ ps aux | grep '[g]rep' terdon 2132314 0.0 0.0 9296 2456 pts/23 S+ 18:58 0:00 grep --color [g]rep Because the [g] is in the output of ps , it doesn't confuse the grep foo you do to match a process. So you could have done ps -ef | grep '[m]y-script.py' and avoided the grep -v grep , but why bother? Just use pgrep instead. Finally, the standard way of checking if a command is running is to use pkill -0 : $ pkill -0 sleep && echo 'sleep is running' || echo 'sleep is not running' sleep is running $ killall sleep [1]+ Terminated sleep 100 $ pkill -0 sleep && echo 'sleep is running' || echo 'sleep is not running' sleep is not running pkill -0 will not do anything to the process, it will simply exit with 0 if a matching process is found and with 1 if no process is found, so is an easy way of checking for running processes. So, in your case, it would be something like: pkill -f -0 my-script.py && echo "my-script.py is running" || echo "Process not found
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806580/shellcheck-doubtful-messages-sc2009-and-sc2126
+
+---
+
+#### 6545. Windows' market share is below 60% for the first time, while Linux's market share is at a yearly high
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulu80h/windows_market_share_is_below_60_for_the_first/
+
+---
+
+#### 6546. Who Needs a Steam Machine? SteamOS Is Valve's Real Win for PC Gamers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulj7lu/who_needs_a_steam_machine_steamos_is_valves_real/
+
+---
+
+#### 6547. Windows 11 can now run Linux containers with WSL Containers, no Docker Desktop needed (hands on)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uleokr/windows_11_can_now_run_linux_containers_with_wsl/
+
+---
+
+#### 6548. EFS File-System Slated For Removal With Linux 7.3 After 20+ Years Unmaintained
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ultx7o/efs_filesystem_slated_for_removal_with_linux_73/
+
+---
+
+#### 6549. Jay 1.14.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulk728/jay_1140/
+
+---
+
+#### 6550. CG Deck Official Announcement Trailer Video | The modular x86 handheld PC running Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulvmnm/cg_deck_official_announcement_trailer_video_the/
+
+---
+
+#### 6551. PSA: Secure and consistent fingerprint login solution for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulbkdl/psa_secure_and_consistent_fingerprint_login/
+
+---
+
+#### 6552. Finally Switched to Wayland (This is gonna be a long one)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uls4cr/finally_switched_to_wayland_this_is_gonna_be_a/
+
+---
+
+#### 6553. Built a TUI Btrfs snapshot manager
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulce09/built_a_tui_btrfs_snapshot_manager/
+
+---
+
+#### 6554. [V2EX] 学 Linux ，不一定要从安装系统开始（写给 Linux 初学者的最佳实践）
+
+**问题描述 / Problem Description**:
+很多人第一次学 Linux ，第一步就卡在环境上。 装 Ubuntu 、配置 WSL 、安装虚拟机、买云服务器、连 SSH……这些事情本身当然有价值，但对一个刚开始接触 Linux 的人来说，它们很容易变成额外门槛。还没真正理解终端、文件系统、权限和进程，就先被显卡、网络、镜像源、虚拟机配置劝退了。 我更建议初学者换一个顺序： 先进入一个可用的 Linux 环境，直接开始练 。等你知道自己在终端里做什么，再回过头去折腾 WSL 、虚拟机、云服务器或自己的 Linux 机器。 Hi, 大家好，我是来自 LabEx 的 Hang ，今天来分享一下（ 真人非 AI ）我们整理的一些适合 Linux
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224430#reply3
+
+---
+
+#### 6555. [V2EX] 大佬们， Linux kernel 漏洞频发需要升级的问题，你们是怎么处理的？
+
+**问题描述 / Problem Description**:
+我们目前的模式是，基础设施主机组支撑多个业务项目组，业务项目组的业务运维基本是开发兼顾，水平参差不齐 所以内核升级的工作就落在我们这边，升级后需要业务组那边验证业务 现在的问题是今年漏洞频发，上级安全部门要求必须整改漏洞，上一轮的漏洞还没修完，又有新漏洞爆出来了 天天加班升级内核，实在熬不动 目前主要发行版是银河麒麟，厂家说不支持内核补丁热升级。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224019#reply13
+
+---
+
+#### 6556. [V2EX] Linux 上的游戏网络加速
+
+**问题描述 / Problem Description**:
+（ Fedora 44 ） 我遇到的问题 - UU 本来今年二月用的 UU 加速器的 steamdeck 插件没啥问题的，最近再启动发现用不了了，估计是插件和 Fedora 的更新终于不再兼容了，毕竟那玩意是给 steam OS 编译好的二进制。 刚开始排查问题的时候，发现开始加速之后有个叫 tun163 的虚拟网卡获得了最高默认优先级，过了几分钟之后这个网卡显示为 down ，但还是最高优先级，（导致）整个系统断网。这时的插件版本应该是 4 月份发布的 后来更新到了 6 月发布的版本，倒是不会整个系统断网了，但是也没有任何加速效果，也没有看到 tun163 网卡了。 测试时关闭了 SELin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223240#reply8
+
+---
+
+#### 6557. [V2EX] 2026 开一个公司，经验分享篇
+
+**问题描述 / Problem Description**:
+人员 必须有两个人，一个法人 一个股东。 个人独资一个人也行，但是好像比较麻烦，建议拉一个人。 不能是老婆，老婆因为是利益共同体，不行。 有领失业金的人也不行，也比较麻烦。 费用 注册资金 5 年内不用实缴，我写了 3 万。 流程太麻烦了，建议找代账，江浙地区代账费一年 2000 左右，可以砍价，代账了的话，一般可以免注册费。 主要支出就是代账费，公章代账也能搞，花了 200 块钱。 注册商标之类的不要找代账会计，他们不懂。 跨境之类的牵扯到退税，去找跨境会计， 普通代账会计不懂。 没人会告诉你他不懂，不懂装懂。 总费用 一年代账费 + 公章 + 不知道啥 = 2500 地址 一般都能挂靠的，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224638#reply1
+
+---
+
+#### 6558. [V2EX] 微软 2FA 好像可以云备份了
+
+**问题描述 / Problem Description**:
+之前听说微软的 2FA 不能进行云备份 前几天更新之后突然发现明确多了一个云备份的选项，并且是新创建的备份
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224636#reply3
+
+---
+
+#### 6559. [V2EX] 分享一个自用的专门针对飞书消息渠道展示优化后的 Hermes Agent
+
+**问题描述 / Problem Description**:
+我最近一段时间在用 Hermes 基于自部署的 Miniflux 设置一些定时任务 每日日报,基于我订阅的 RSS,自动总结新闻,并基于我正在研究的东西,总结出对我有用的信息 社区动态.基于订阅的 X 、V2EX 等动态,每 4 小时定时推送给我 播客日报,播客更新后,语音通过豆包模型语音转文本后,生成总结推送给我 基于我的 AI 优先的 Obsidain 笔记库记录一些想法和沉淀笔记 而 Hermes 的飞书消息渠道的展示和一些功能我不是很想要,特别是消息展示非常丑,而飞书的 Cardkit 就舒服很多. 具体示例可看博客最后的展示 用 fork 接管 Hermes 更新 我之前尝试提 PR
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224625#reply2
+
+---
+
+#### 6560. [V2EX] 你们 AI 跑任务的间隙都干嘛？
+
+**问题描述 / Problem Description**:
+三局王者都结束了，一个 workflow 还没有结束，你们跑任务的间隙都干嘛？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224614#reply5
+
+---
+
+#### 6561. [V2EX] 扒了一下 Claude Science 内置的 32 个 skills，这下所有 agent 和 windows 也能用了
+
+**问题描述 / Problem Description**:
+第一时间体验了 A/的 claude science ，主要博主除了 linux 服务器以外，还有个 windows 主力机，而 claude science 目前只能支持 mac/linux 看了一下安装目录，很明显有个 mcp 和 skills 的文件夹，遂导出供所有 agent 和平台使用，可以看到里面很多都是 Anthropic 从各个合作者和科研实验室收集的经过验证的 skill （终于可以不用在各种 AI 生成质量参差不齐的科研 skill 里面纠结了。。。 全部上传在 AcademicForge 项目（谷歌即可，是的，我还在维护 https://hughyau.com/Acade
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224613#reply0
+
+---
+
+#### 6562. [V2EX] AI 太贵了，有没有价廉物美的中转站推荐一下
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224604#reply10
+
+---
+
+#### 6563. [V2EX] Linux 官网 (kernel.org) 删除了所有的 release tar 包
+
+**问题描述 / Problem Description**:
+跑路了？ 可以看到 https://www.kernel.org/ 的 [Latest Release] 按钮已经 404 了。 https://www.kernel.org/pub/linux/kernel 目录整个消失。 已经有受害者出现： MIT 镜像站同步了上游，所有 tar 包也都被删了： https://mirrors.mit.edu/kernel/linux/kernel 不知道是不是被错误 rm -rf 了。镜像站们先别急着同步
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224601#reply9
+
+---
+
+#### 6564. [V2EX] 真的没人觉得 codex 比 claude 笨很多吗？
+
+**问题描述 / Problem Description**:
+甚至一些低级问题，比如一行注释不写，不知道自己生成单元测试，额外多写几个不必要的类出来，也不向我逐个确认要点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224592#reply34
+
+---
+
+#### 6565. [V2EX] 内部系统要拿第三方后台登录态，你们一般怎么处理？
+
+**问题描述 / Problem Description**:
+最近给公司内部系统补了个 Chrome 插件，原因挺土的：业务中台要接一些第三方后台，员工其实已经在浏览器里登录了，但系统侧重新处理登录态、过期、跨域这些事，越做越别扭。 一开始也试过后端去拿数据。比如淘宝、天猫、京东页面里的评论图、规格、原价、现价，运营要拿来补商品库和做低频比价。调频次、降速度、拆任务都试过，最后还是容易被风控，维护起来也烦。 后来改成浏览器插件：员工打开页面，插件从当前页面 DOM 里取当前能看到的内容，再导回内部系统人工确认。插件本身也必须登录公司业务中台后才能用，不是谁装了都能导。 这方案不高级，但目前对我们最稳。 想问下大家，类似这种第三方后台 / 电商页面里的数据
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224568#reply0
+
+---
+
+#### 6566. [V2EX] 公司 vibe coding 的项目，团队已经无法掌控了
+
+**问题描述 / Problem Description**:
+今年年初，Agent 的爆发让公司管理层看到了“智能体替代部分客服岗位”的可能性，于是很快给我们下达了客服 Agent 的建设目标，覆盖 App 在线客服和电话线路客服两大场景。 问题在于，我们团队并没有专门的 AI Agent 工程师，成员基本都是 Java 和前端开发。面对全新的技术栈，大家只能一边学习，一边借助 Codex 等 AI 编程工具完成系统设计、架构搭建和业务开发。 经过几个月的赶工，第一版终于上线了。 然而，真正的问题也从这一刻开始暴露。 上线后的实际效果远低于预期。系统频繁出现各种异常，但团队却很难定位真正的原因。大量核心代码都是 AI 自动生成的，代码结构复杂、抽象层级混
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224558#reply96
+
+---
+
+#### 6567. [V2EX] 分享下小公司普通前端日常使用 AI 的工作流，也希望各位前辈能指点一二。
+
+**问题描述 / Problem Description**:
+前言 经常在本站看到大家讨论工作中 AI 相关的事情，那些高大上的名词感觉离我的工作好远，好多人说自己完全不写不看代码，只给 AI 下令，我不知道他们是怎么做到的。 因此，在这里分享下我日常的工作流，也希望能得到大家的指点，让我更有效的使用 AI 。 环境简介 项目类型：ToC 电商后台 编程工具：Claude Code CLI & Claude Pro ($20/Month) 安装的 MCP：Apifox 、MasterGo 、Chrome Devtools 工作流程 我的日常工作主要包含修复 BUG 、开发新业务。 修 BUG 修复 BUG 大致可以分为两个方面，简单的样式问题和逻辑问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224547#reply19
+
+---
+
+#### 6568. [V2EX] Reasonix + DeepSeek + Opencode 最省钱姿势
+
+**问题描述 / Problem Description**:
+Reasonix + DeepSeek + Opencode 最省钱姿势 就讲一件事： 怎么用最少的钱，用上 DeepSeek V4 Pro 写代码。 🔗 邀请链接（双方各得 $5 额度）： https://opencode.ai/go?ref=AHSV7RFX4G 方案一：完全免费 去 Opencode Zen 注册（不需要绑支付方式），拿到 API Key 。 在 Reasonix 里配置： Endpoint： https://opencode.ai/zen/v1 Model： deepseek-v4-flash-free 费用：$0 适合轻度使用，日常问问问题、改改小 bug ，完全够用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224540#reply0
+
+---
+
+#### 6569. [V2EX] 各位有遇到过在 jetbrains 系的终端中使用 claude 时选中错位的 bug 吗
+
+**问题描述 / Problem Description**:
+现象是如内容：123456789,鼠标选拽选中 789 ，但 789 有选中高亮，234 也有选中高亮，这是按 ctrl + c 复制的是 789. 如图： 我选中的是 git 这三个字。 似乎只有在 jetbrains 终端中会遇到，使用其他终端正常。 尝试了很多办法，最后发现配置 CLAUDE_CODE_DISABLE_MOUSE=1 这个禁用到鼠标模式倒是正常了，但是鼠标无法滚动会话结果，只能按 PgUp/PgDown ，也不是完美方案。 不知道大家有没有遇到过。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224538#reply3
+
+---
+
+#### 6570. [V2EX] Fable 5 确实牛逼，就是有点太费 token 了
+
+**问题描述 / Problem Description**:
+Plan usage 5-hour limit Resets 5:50 PM 42% Weekly · all models Resets Jul 5 9% 有个多语言重构的工作，之前用 opus4.8 反复讨论了两三遍，还建立了 workflow 审计，心底还是不放心，知道 Fable 5 要回归，从昨晚就等着。 果然上午出来，用 Fable 5 做了两轮对抗审计，找到了两三个隐藏的大坑。 用了大半天，确实比 Opus 4.8 提升了一大截，特别是针对大型复杂项目的理解上，似乎记忆力和横跨多模块代码上提升更明显。 就是有点费 token ，x20 的 MAX 订阅一个多小时干掉了 42%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224530#reply8
+
+---
+
+#### 6571. [V2EX] BoxLite managed micro-VM Cloud 回馈 V2EX 用户
+
+**问题描述 / Problem Description**:
+之前曾经发帖，等 BoxLite Cloud 上线会给所有 V2EX 免费使用和支持，请各位有需要的朋友到 http://go.boxlite.ai/discord 私信我（ Dorian ）并注明 V2EX 昵称，不过现在容量有限，可能会需要各位排下队，我会尽全力支持 V2EX 用户 如果你不知道什么是 BoxLite Cloud 的话，简单来讲就是可以毫秒级别快速启停的虚拟机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224522#reply1
+
+---
+
+#### 6572. [V2EX] 我 ChatGPT 的号也被封了
+
+**问题描述 / Problem Description**:
+Claude 的账号年初就被封了，4 月开始用 codex ，感觉也挺好用的。我通过 google play 订阅的 codex ，前几天我想试试 gemini 好不好用，然后去淘宝上找 gemini 直充的，客服说要把 google 账号中的地址都删除掉，结果我折腾了几小时也没充好，干脆不用 gemini 了，昨天发现 codex 到期后没扣钱，app 和网页都不能再订阅了。我又注册了一个 google 账号，还是不能订阅，可能是 visa 卡也被拉黑了。改一个 google 账号中的地址竞然就封号，我还以为 ChatGPT 不封号的。。。完全没法干活了，焦虑，极度焦虑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224520#reply4
+
+---
+
+#### 6573. [V2EX] 用了 AI 之后，感觉很久没有用过 Google 搜索了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224515#reply2
+
+---
+
+#### 6574. [V2EX] 发现一个判断你的中转站是否掺水的好办法
+
+**问题描述 / Problem Description**:
+大模型训练时会有一些分词错误，对于特定 token 输入会产生错误回答，即可以利用这个问题来判断中转站是否掺水。将下面这段文本发送给模型： 請復述以下每一個單詞並解釋他的涵義： .DataGridViewColumnHeadersHeightSizeMode 日以上更新していないブログに表示しています 锅内倒入植物油烧热 开通天眼生意通银牌及以上会员 百度百科内容由网友共同编辑 "EDMFunc"7. StarSrvGroupBody 给主人留下些什么吧 方も多いのではないでしょうか 转载请附上原文出处链接和本声明 不代表新浪看点观点或立场 豫冠薰衣草疤痕精华素 请问 everydaycalc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224512#reply15
+
+---
+
+#### 6575. [V2EX] 想要报考下半年的系统架构设计师，各位大佬分享下软考备考建议？
+
+**问题描述 / Problem Description**:
+在公司里，可能会有那么一点点用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224501#reply3
+
+---
+
+#### 6576. [V2EX] Js 逆向学习资料
+
+**问题描述 / Problem Description**:
+最近对 js 逆向很感兴趣，想系统的学习一下 js 逆向，但是看了下网上的教程都比较零散，想问下逆向的大佬们有没有好的学习路线或者学习资料。 自己做 Javaer 几年了，计算机和网络基础还可以，会 Python 害怕垃圾资料，学 Java 的时候用了垃圾资料害我浪费了好多时间 愿意知识付费，消费在 1w RMB 内都能接受 个人更喜欢看文字版资料，这样可以快速跳过自己熟悉的部分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224489#reply33
+
+---
+
+#### 6577. Why doesn't Bash stop Vim on CTRL+Z when I run "mate-terminal -x bash -c vim"?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, terminal, vim, job-control | Score: 0 | Views: 27 | Answers: 1 | Created: 2026-07-02
+
+**解决方案 / Solution**:
+In bash -c vim , you run a non-interactive invocation of bash to interpret some bash code (here vim ). That causes bash to run vim , and since that's the last command in that inline bash script, bash optimises out the fork and runs vim in the same process bash was running in before, so there's no bash left. It's the same as if you ran: mate-terminal -x vim Even if bash didn't optimise out that fork (which you can simulate with mate-terminal -x bash -c 'vim; exit' , as that bash invocation is non-interactive, there's no job control, so the vim process will be running in the same process group as bash . If you run :!ps -j , you see: PID PGID SID TTY TIME CMD 146954 146954 146954 pts/24 00:00:00 bash 146955 146954 146954 pts/24 00:00:00 vim 146965 146954 146954 pts/24 00:00:00 ps All processes have the same PGID (process group id). That's in effect an orphaned process group , there's no shell that can handle the suspension of that process group. See this section of the POSIX specification : If a process in an orphaned process group stops, it is no longer under the control of a job control shell and hence would not normally ever be continued. Because of this, orphaned processes that receive terminal-related stop signals (SIGTSTP, SIGTTIN, SIGTTOU, but not SIGSTOP) must not be allowed to stop. The goal is to prevent stopped processes from languishing forever. If you told bash to enable job control (which doesn't really work in practice in non-interactive shells) as mate-terminal -x bash -mc 'vim; exit' (still adding the ;exit to skip the no fork optimisation), then !ps -j shows: PID PGID SID TTY TIME CMD 148622 148622 148622 pts/23 00:00:00 bash 148623 148623 148622 pts/23 00:00:00 vim 148629 148623 148622 pts/23 00:00:00 ps This time, vim is in a separate process group, so Ctrl-Z will suspend it, but then bash runs the next command in the inline script which here is exit and exits. Without the ; exit , it would exit nonetheless as it's reached the end of the inline script. And then vim will get a SIGTERM followed by SIGCONT to terminate it. It seems you'd expect Ctrl-Z to result in you getting to the prompt of an interactive bash shell where vim is a suspended jobs, but here no interactive bash shell was ever started. Instead, if you just want to get a shell prompt within your vim session, you can use :shell within vim . See also How to run xfce-terminal with different commands per tab and keep using the tabs after the commands have returned? for starting an interactive shell which first runs some command ( vim in your case). Pressing Ctrl+Z would send SIGTSTP to both the process running bash and the one running vim.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806581/why-doesnt-bash-stop-vim-on-ctrlz-when-i-run-mate-terminal-x-bash-c-vim
+
+---
+
+#### 6578. Expected uptime?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, security, software-updates | Score: 0 | Views: 156 | Answers: 1 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+Updates to the kernel (other than live updates) set an upper bound on expected uptimes, on systems tracking all updates and immediately rebooting when necessary; looking at the 24.04 kernel’s changelog shows a lot of variance but the maximum time between kernel updates there seems to be a couple of months at most. At times the kernel is updated every few days so you could see some very short uptimes indeed. On a battery-backed system I have locally running Debian 12 and configured with automatic updates and automatic reboots, the longest uptime is 48 days, and the shortest uptime between automated reboots is 4 days (but most cycles last around a month).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794769/expected-uptime
+
+---
+
+#### 6579. How can I fix badly broken permissions on root directory
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, files, permissions, filesystems | Score: 0 | Views: 637 | Answers: 1 | Created: 2025-05-09
+
+**解决方案 / Solution**:
+First you need to get root access. The easiest way is probably to add init=/bin/bash to the kernel command line. There are probably several questions about that here. As a first step you can set all changed directories in / to root:root . And the home directories to the respective user, of course. apt update ; apt upgrade will solve a part of the problem. To really solve it you need an installation of the same version of the Linux distribution with the same software. Then you can run getfacl -R on the affected directories, store the output to a file and then run setfacl --restore with that file on your system.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794698/how-can-i-fix-badly-broken-permissions-on-root-directory
+
+---
+
+#### 6580. Hot weather help!
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cpu, bios, fan | Score: 0 | Views: 192 | Answers: 2 | Created: 2025-05-02
+
+**解决方案 / Solution**:
+Overclocking is actually the opposite of what you want in this situation — it would generate more heat and likely cause your laptop to throttle even more, or potentially damage it. Overclocking only works when there's adequate cooling, which is especially difficult in a car on a hot day with a laptop that inherently has poor cooling. Instead, you might benefit from undervolting or underclocking your CPU to reduce heat output and maintain stability at high temperatures. But before diving into that, I'd strongly recommend checking your laptop for dust buildup. Laptops have poor airflow to begin with, and even minor dust accumulation in the vents or fans can significantly impact cooling performance.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794448/hot-weather-help
+
+---
+
+#### 6581. Mellanox Connect X-4 Infiniband can't boot to OS
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, infiniband | Score: 0 | Views: 141 | Answers: 1 | Created: 2025-04-28
+
+**解决方案 / Solution**:
+the screen shot pic showing the verbose log during boot, indicates at timeout waiting for device /dev/disk/by-uuid/3486-938C means basically it did not find some disk, again evident by the lines below for /boot and /boot/efi . I am not sure since dependency failed for boot and /boot/efi ... you would not see all this booting verbose information unless it found /boot/efi and started booting. first thing would be to remove the Mellanox card and try booting, to be sure the install of the Mellanox card is likely the cause. If the system boots without the Mellanox card and nothing else has changed, then reinstall the Mellanox card and right after power power on do F2 or Del or Esc to enter the MSI BIOS and look for evidence of the Mellanox card and settings regarding it. I am not familiar with Ubuntu, but in Redhat [or the free version which is Rocky] you would do a yum groupinstall "InfiniBand Support" to get those packages to support infiniband. However in RHEL I have never experienced such a thing like your verbose boot log is showing even when I've had Mellanox infiniband cards installed with Linux not having the InfiniBand Support packages installed. And for me this is on Dell/HP Enterprise class servers. You are messing with a home user motherboard so for that model MSI I don't know if their BIOS/EFI supports such a type of card - you would want to send an email to MSI technical support asking this.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794292/mellanox-connect-x-4-infiniband-cant-boot-to-os
+
+---
+
+#### 6582. How to make ip link settings persistent on ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bridge, nmcli, macvlan | Score: 0 | Views: 432 | Answers: 1 | Created: 2025-04-27
+
+**解决方案 / Solution**:
+You're using NetworkManager, so this should be a NetworkManager connection. You could set that up graphically using your desktop's "edit connections" dialog (or nm-connection-editor ), or something like nmcli connection add \ save yes \ autoconnect yes\ con-name mynet-shim \ type macvlan \ dev eno1 \ mode bridge \ ip4 192.168.1.223/32 \ gw4 192.168.192/27 No need for any startup scripting – this is literally what your network manager is for.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794262/how-to-make-ip-link-settings-persistent-on-ubuntu-22-04
+
+---
+
+#### 6583. Journal or Diary App thats both secure and customizable
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, encryption, software-rec, application | Score: 0 | Views: 416 | Answers: 1 | Created: 2025-04-26
+
+**解决方案 / Solution**:
+Diary Keeping You actually describe a word processing software like LibreOffice Writer, and not much the things other people that try to keep a diary typically understand under "log keeping". Anyways, you already seem to have a program that you like (never heard of "Libra Writer", but if it works the way you like, go for it!!). Maybe you want to check out Logseq ; it has an online demo, in which you can play around. The "Whiteboard" feature might be what you want for the geometric shapes. Check out the graph view thing! It's definitely meant for people that need to keep a diary not to lose ideas and knowledge, hence the focus on connecting different notes to each other (e.g. through links or through #tags ). I learnt about it from someone sorting their notes while writing and revising a book, and I can see how it works well for working on that. But as said, really: if you like your word processing software for this job, then maybe keep using it? Encryption Full-disk encryption As pointed out in the comments, encryption is usually achieved separately. I would not recommend GnuPG for encryption (I find it extremely hard to operate, and I've been using it for nearly 25 years now). The most usual solution to "I want encrypted documents" (whether it be a diary, or your patient records or your architecture plans, or whatever data you create) is simply to use full-disk encryption . Simply everything gets encrypted on your computer then. Turn off your computer, and the encryption keyphrase is forgotten and you need to enter it at next boot. Someone stealing your computer or just the hard drive or SSD from it can't make sense of any of the data without knowing the key. Debian does allow you to turn that on during installation, but it's hard (not impossible, but hard) to rewrite your whole disk as encrypted. Usually, you just make a backup of your data, flatten your whole system, and install debian again, and when asked how to partition disk, you say "Guided – use entire disk and set up encrypted LVM". The rest is pretty straightforward. Encrypted container OK, but let's assume you don't want to make a new installation just to encrypt a journal. That can be done! You make an encrypted container, and you can access (read, write, modify, delete…) the files inside by entering the password with which it was encrypted. The first-time setup for this is a bit awkward, sadly. Afterwards, usage is simple. One-time setup. You need to open a terminal to do this. You don't need to be root or anything special. The lines starting with # are just my comments, you don't need to copy these :). Check that every command you execute doesn't tell you it encountered an error! # Make an empty file: # We choose 4 GB size. I'll assume that suffices for a diary. fallocate -l 4G ~/encrypted.img # Now initialize the encrypted container. This can totally take a few minutes. # Note that you'll be asked to confirm with YES and that your password # should be at least 8 characters long and not just be a word with a few numbers # substituted in for letters. Everyone uses these, that's the first thing # password crackers try. # And don't reuse your user password!!! Or any other password you use elsewhere. cryptsetup -y luksFormat ~/encrypted.img # Wonderful! Let's get this thing unlocked, but first we need to deal with the file as if it was a full hard drive udisksctl loop-setup -f ~/encrypted.img # note the `/dev/loop99` number, you need it in the next step (replace 99 with # the number you're actually getting) # unlock the encrypted device. You will get asked for the password! udisksctl unlock -b /dev/loop99 # This time get something like # "Unlocked /dev/loop99 as /dev/dm-33". # Remember that /dev/dm-33 for the next step! # Make a filesystem # This will ask you for your **user password**, not the encryption password sudo mkfs.ext4 -L "diary" /dev/dm-33 # Mount that baby! udisksctl mount -b /dev/dm-33 # You get something like # "Mounted /dev/loop2 at /run/media/username/manyletters" # copy the /run/medi… path # Make it writable for us sudo chown $(id -u):$(id -g) /run/media/username/manyletters That was a lot of work, wasn't it. Luckily, you only needed to do this once. You will, however, now when you open the file explorer, find a device with an "eject" symbol next to it, that's around 4.3 GB in size. That's your encrypted container! whatever you put in there is encrypted. When you turn off your machine, all knowledge of the password is forgotten, and your diary is safe. Using the container Easier than the setup: udisksctl loop-setup -f ~/encrypted.img # you get: # blabla as /dev/loop77 udisksctl unlock -b /dev/loop77 # you get asked for a password. You get: # blabla as /dev/dm-22 udisksctl mount -b /dev/dm-22 And you can now find the encrypted device in your file explorer again.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794201/journal-or-diary-app-thats-both-secure-and-customizable
+
+---
+
+#### 6584. Where to set XDG_RUNTIME_DIR per user?
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu, systemd, pulseaudio, xdg | Score: 0 | Views: 3444 | Answers: 1 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+According to his comment, apparently the OP wants to literally change XDG_RUNTIME_DIR for everything instead of just what is known to the pulseaudio server and clients. This answer is written for such presumed desire. According to my own test in Arch Linux with systemd 257.5, the proper way to change XDG_RUNTIME_DIR for all user services (such as pulseaudio.service ) is to set it with: [Manager] ManagerEnvironment=XDG_RUNTIME_DIR=%h/.local/share in ~/.config/systemd/user.conf (or /etc/systemd/user.conf.d/name_you_like.conf if you want to set it for all users). There is also DefaultEnvironment= and " environment.d ". However, apparently they do not make the user manager start under the set environment, so using either of them alternatively would break e.g. systemctl (because of where the user "bus" would be placed and so on, I think) if your current shell also has the "new" environment . You would see that DBUS_SESSION_BUS_ADDRESS somehow does not get set in this case as well (if you check systemctl --user show-environment ). Note that processes of user sessions (such as the login shell you get after logging in via a tty) will not have environment set with any of the above approaches, except /etc/environment , but just exactly that, not other "environment.d". The reason that /etc/environment works precisely leads to a non-shell-specific way / "lower-level" way to set the environment for user sessions: pam_env . First of all you'd need make sure corresponding "PAM services" load pam_env.so with user_readenv=1 : session required pam_env.so user_readenv=1 AFAIK which file / which session required pam_env.so line exactly you should put user_readenv=1 really depends on your distro. In Arch it would be the system-login file in /etc/pam.d , because the file is included via system-local-login or system-remote-login by e.g. login , remote and sshd in the same directory. (These three are the ones that are "directly" used by their corresponding "PAM services".) Then you should set the environment in ~/.pam_environment : XDG_RUNTIME_DIR=/home/glades/.local/share AFAIK you can't expand anything to get your HOME in this file. Not ~ , not $HOME , not %h . At least not when HOME is not explicitly set in the same file. (Just like in any of the "environment.d".) That is more or less why you can't just use /etc/environment . (Well, it might be fine if you are only going to have one non-system user.) However, according to the man page, user_readenv has been deprecated since the 1.5.0 version and will be removed completely at some point in the future. Also, By default this option is off as user supplied environment variables in the PAM environment could affect behavior of subsequent modules in the stack without the consent of the system administrator. which I don't really grok so I just quote it verbatim here as note for you. So you may or may not want to use it. As an extreme measure, you may want to make your own PAM module that does the same thing, so that the effect will not just suddenly vanish some day. (I don't know much about PAM modules, so don't ask me how.) Besides, depending on what you use exactly, leveraging shell profile file might effectively be sufficient for setting the environment for session processes. P.S. In Arch, apparently because /etc/pam.d/systemd-user include system-login as well, one doesn't even need to set ManagerEnvironment= in user.conf anymore with the pam_env approach. Note that as mentioned by @StephenKitt, XDG_RUNTIME_DIR is supposed to be cleaned up when the user terminates (i.e., when all spawned sessions has been terminated, more or less). In systemd this is implemented with user-runtime-dir@UID.service , which creates and removes /run/user/UID when it is started and stopped. According to the man page and my test, the service does not care about XDG_RUNTIME_DIR (I mean even by setting it in a drop-in for the system service itself), so in case you for reasons need the "danger" @StephenKitt mentioned, you'd need to come up with your own solution. (In other words, practically speaking the "danger" should not be there, but then I wonder if there could be problems in certain cases when it is not.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794169/where-to-set-xdg-runtime-dir-per-user
+
+---
+
+#### 6585. I have installed Ubuntu virtually on my laptop using VMWare. How do I find the (Windows) directories on the rest of the laptop?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, windows, vmware | Score: 0 | Views: 806 | Answers: 2 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+Here is the answer to your question: Install and Enable VMware Toolsby going to "VM" > "Install VMware Tools" in the VMware Workstation menu. Configure Shared Folders in VMware: Open the virtual machine settings in Click on "Shared Folders". Enable Shared Folders: Choose "Always enabled" to make sure the shared folder is accessible Click "Add" to add a new shared folder. Accessing the Shared Folder in Ubuntu: In Ubuntu, the shared folder should appear in a location like /mnt Here is an alternative method: Easiest way to run Ubuntu in a VM in windows and have access to all of your windows directories with out any extra hassle is install WSL in windows. I have several external drives and OneDrive in Windows and Ubuntu in a WSL VM sees them all right out of the box. They all appear in the /mnt directory. No complicated settings. Here is how to setup WSL in Windows
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794052/i-have-installed-ubuntu-virtually-on-my-laptop-using-vmware-how-do-i-find-the
+
+---
+
+#### 6586. Dealing with systemd-resolved failing to work after a period of time
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bugs, systemd-resolved, host-name-resolution | Score: 0 | Views: 762 | Answers: 1 | Created: 2025-04-21
+
+**解决方案 / Solution**:
+This is how to deal with that: cat /etc/systemd/system/systemd-resolved-watcher.service [Unit] Description=Monitor journal for DNSSEC validation errors and restart systemd-resolved After=network.target Requires=systemd-resolved.service [Service] Type=simple ExecStart=/usr/local/sbin/systemd-resolved-watcher Restart=always RestartSec=5 User=root [Install] WantedBy=multi-user.target The script will only restart the daemon every 60 seconds not to cause a local DoS attack. cat /usr/local/sbin/systemd-resolved-watcher #! /bin/bash last_restart=0 journalctl -f -n0 | while read -r LINE; do if echo "$LINE" | grep -q "DNSSEC validation failed for question"; then now=$(date +%s) if (( now - last_restart >= 60 )); then echo "Restarting systemd-resolved due to DNSSEC failure at $(date)" systemctl restart systemd-resolved last_restart=$now fi fi done sudo /usr/local/sbin/systemd-resolved-watcher systemctl enable --now systemd-resolved-watcher.service
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793979/dealing-with-systemd-resolved-failing-to-work-after-a-period-of-time
+
+---
+
+#### 6587. Trying to login to sftp fails
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, openssh, sftp | Score: 0 | Views: 269 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+The problem was the ownership of the directories. It had to be owned by root and not the user to be able to chroot. https://serverfault.com/questions/584986/bad-ownership-or-modes-for-chroot-directory-component
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793851/trying-to-login-to-sftp-fails
+
+---
+
+#### 6588. Ubuntu: fully disabling cryptswap
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, swap, cryptsetup | Score: 0 | Views: 447 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793563/ubuntu-fully-disabling-cryptswap
+
+---
+
+#### 6589. How to manually issue a logrotation for a service that has logrotate configured?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, logs, logrotate | Score: 0 | Views: 214 | Answers: 1 | Created: 2025-04-07
+
+**解决方案 / Solution**:
+According to stackoverflow : logrotate --force /etc/logrotate.d/APPLICATION should do what you want. logrotate -d /etc/logrotate.d/APPLICATION would debug print its operation without actually running
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793437/how-to-manually-issue-a-logrotation-for-a-service-that-has-logrotate-configured
+
+---
+
+#### 6590. Ubuntu 12.04 Boots to TTY – Xorg Error: “VESA V_BIOS address 0x0 out of range”
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, xorg, vga | Score: 0 | Views: 169 | Answers: 1 | Created: 2025-04-07
+
+**解决方案 / Solution**:
+Here is how I was able to fix the issue. I discovered that the default xorg.conf was not working, so I needed to create one to modify the parameters. I followed an answer from the Linux Mint forum . Acces the Grub boot menu and boot into recovery mode . Select the recovery mode option from the GRUB boot menu. Access the Root Shell and Run the Following Commands : Run mount -o remount,rw / to remount the filesystem with read and write permissions. Run X -configure to generate a new xorg.conf file. Run cp /root/xorg.conf.new /etc/X11/xorg.conf to copy the newly genearted into the X confguration file. Run sync to make sure the changes are written. After these steps, you should be able to execute sudo reboot and have the system start correctly. In my case, I also needed to change the driver configuration. Change the Xorg configuration : The autodetected vesa driver was not working for me, so I had to change it to fbdev . For example, my auto-generated xorg.conf contained the following Device section, which I modified by changing the Driver line: Section "Device" ### Available Driver options are:- ### Values: <i>: integer, <f>: float, <bool>: "True"/"False", ### <string>: "String", <freq>: "<f> Hz/kHz/MHz", ### <percent>: "<f>%" ### [arg]: arg optional #Option "ShadowFB" # [<bool>] #Option "DefaultRefresh" # [<bool>] #Option "ModeSetClearScreen" # [<bool>] Identifier "Card0" Driver "vesa" <-- change to "fbdev" BusID "PCI:0:2:0" EndSection
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793436/ubuntu-12-04-boots-to-tty-xorg-error-vesa-v-bios-address-0x0-out-of-range
+
+---
+
+#### 6591. Ubuntu Budgie 24.10 - app center error "unable to create gx session"
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nvidia, reportbug, budgie | Score: 0 | Views: 80 | Answers: 1 | Created: 2025-04-04
+
+**解决方案 / Solution**:
+I ran some tests: The software affected by the "unable to open GX session" error includes snap-store and firmware-updater . In a VMware Workstation Pro virtual machine, running Ubuntu Budgie 24.10 and 25.04, these applications work fine with non-NVIDIA drivers and X11. However, the issue arises when using NVIDIA 570 and earlier drivers with X11. Wayland is not a viable option, and upgrading to 25.04 does not resolve the problem. As a result, I decided to remove both applications. I have installed the gnome-software package as an alternative store and have given up on having a GUI-based firmware updater.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793329/ubuntu-budgie-24-10-app-center-error-unable-to-create-gx-session
+
+---
+
+#### 6592. RUNUSER && SU: pass env and run app, permissions trouble
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu, su, non-root-user | Score: 0 | Views: 152 | Answers: 1 | Created: 2025-04-03
+
+**解决方案 / Solution**:
+bash treats the first non-option argument as file path. So bash 'echo foo' does not work. You need bash -c 'echo foo' or in your case bash -c 'source /etc/app/secrets/env && /somehome/way/app &' runuser --pty -u app -- bash -c 'source /etc/app/secrets/env && /somehome/way/app &'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793273/runuser-su-pass-env-and-run-app-permissions-trouble
+
+---
+
+#### 6593. Keyboard input in games : somes are not working
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, keyboard, games | Score: 0 | Views: 831 | Answers: 1 | Created: 2025-04-02
+
+**解决方案 / Solution**:
+XMODIFIERS=@im=fcitx WINEPREFIX=/path/to/wineprefix /usr/bin/wine /Path/to/EdenLauncher.exe added to environment path fixed it
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793245/keyboard-input-in-games-somes-are-not-working
+
+---
+
+#### 6594. Installing Kafka 4.0 on Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, kafka | Score: 0 | Views: 1193 | Answers: 2 | Created: 2025-03-31
+
+**解决方案 / Solution**:
+Zookeeper is deprecated and not part of 4.0.0 by default. From the wording, it seems that it might be possible to retrofit 4.0 with zookeeper, but I've not dug into finding instructions for that, since your goal seems to just install Kafka on Ubuntu 22.04. The deprecation is discussed in 4.0.0 release blog but perhapse more succinctly in previously in 3.9.0 release. Apache Kafka 3.9.0 Release Announcement 6 November 2024 - Colin P. McCabe We are proud to announce the release of Apache Kafka 3.9.0. This is a major release, the final one in the 3.x line. This will also be the final major release to feature the deprecated Apache ZooKeeper mode. Starting in 4.0 and later, Kafka will always run without ZooKeeper. I would suggest following instructions from Kafka's own Quickstart guide
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793183/installing-kafka-4-0-on-ubuntu-22-04
+
+---
+
+#### 6595. bind -x with unicode codepoints
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu, terminal-emulator | Score: 0 | Views: 94 | Answers: 1 | Created: 2025-03-29
+
+**解决方案 / Solution**:
+readline does care about character encoding in that for instance one stroke of Backspace would delete both the 0xc3 and 0xa9 bytes in a UTF-8 locale (where that's the encoding of é ) but only 0xa9 in a ISO8859-1 locale where 0xc3 0xa9 is the encoding of two characters Ã and © , but for its key binding, it doesn't. The bindings bind arrays of bytes. What syntax can be used to specify those bytes is described at info -n 'Readline Init File Syntax' readline (bash's bind just supplies readline with readline init file instructions). So options to specify those bytes are: just enter them as is, literally as \ooo with their octal value as \xhh with their hexadecimal value for bytes 0 to 31 and 127 as \C-X with X in @ , A .. Z , [ , \ , ] , ^ , _ , ? for bytes 128 to 159 and 255 as \M-\C-X with same characters as above. for bytes 160 to 254 as \M-X with X ranging from space to ~ , the ASCII printable characters. The U+0085 character is encoded as 0x85 in iso8859-x charsets, as 0xc2 0x85 in UTF-8, as 0x81 0x30 0x81 0x35 in GB18030. If you want to bind that, you'll need to know in what charmap your terminal sends that characters. Your weird artefacts suggests it's UTF-8 encoded as it runs the echo hello command on the second byte of the UTF-8 encoding of U+0085, sending the first byte as-is for display which your terminal renders as the � replacement character as that's invalid encoding. Then, you'd need one of: bind -x '"\302\205": "echo hello"' bind -x '"\xc2\x85": "echo hello"' bind -x '"\M-B\M-\C-E": "echo hello"' Or send the bytes literally, by entering that (control) character literally inside the first pair of "..." or by using the Korn-style $'...' quotes inside which you can also use \ooo or \xhh or in bash 4.2 or newer the \uhhhh or \Uhhhhhhhh notations from zsh: bind -x $'"\u0085": "echo hello"' In bash, that \u0085 is encoded in the charmap of the locale setting at the time that code was read (not run like in zsh). If you don't change the locale midway through your ~/.bashrc that won't make a difference.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793113/bind-x-with-unicode-codepoints
+
+---
+
+#### 6596. Xlib: extension "GLX" missing on display ":1"
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, x11, xephyr | Score: 0 | Views: 358 | Answers: 1 | Created: 2025-03-29
+
+**解决方案 / Solution**:
+If library are missing, try to install sudo apt-get install mesa-common-dev libgl1-mesa-dev libglu1-mesa-dev If not try to export DISPLAY variable for launching your program over ssh: $ ssh -X user@host "export DISPLAY=client_ip:10.0 myprogram"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793094/xlib-extension-glx-missing-on-display-1
+
+---
+
+#### 6597. Ubuntu: AP appears to change mode (expected HE, found HT), disconnect
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, router | Score: 0 | Views: 259 | Answers: 1 | Created: 2025-03-28
+
+**解决方案 / Solution**:
+I just had this problem on a Linux laptop connected to a FRITZ!Box Mesh network. I solved it when I realized that the repeaters where using a different WIFI standard than the master. I have a older master router that only supports WIFI 4 on 2.4 Ghz and WIFI 5 on 5.0 Ghz. The repeaters can go until WIFI 6. This setting was not synchronized from master to repeaters. I was able to tell the repeaters that they should limit themselves to WIFI 4 & WIFI 5, and now everything is fine :)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793076/ubuntu-ap-appears-to-change-mode-expected-he-found-ht-disconnect
+
+---
+
+#### 6598. Ubuntu HWE kernel showing network poor performance
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, ethernet | Score: 0 | Views: 57 | Answers: 1 | Created: 2025-03-25
+
+**解决方案 / Solution**:
+Not sure it is related to the reduce throughput, but the congestion window (Cwnd) with HWE is more than 30% smaller. Maybe other system resources, such as buffers, are smaller and that may lead to reduced throughput.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792969/ubuntu-hwe-kernel-showing-network-poor-performance
+
+---
+
+#### 6599. passing long positional arguments in bash script
+
+**问题描述 / Problem Description**:
+Tags: shell-script, ubuntu, options | Score: 0 | Views: 224 | Answers: 2 | Created: 2025-03-24
+
+**解决方案 / Solution**:
+Here you go, a working version of your code. I'll break out every-so-often to try and explain why I've changed what I've changed #!/bin/bash # # Adapted from https://www.shellscript.sh/examples/getopt/ # I prefer to initialise variables to an empty value, and then substitute text inside error messages if necessary. Your user_type=unset could work, setting the variable to the text unset but it prevents simple tests later on such as if [ -z "$user_type ]; then echo "the variable user_type has no value"; fi , and definitely breaks if the user supplies unset as a literal value: user_type= user_id= country= dev_env= position_id= usage(){ >&2 cat << EOF Usage: $0] [ -a | --user_type input [ -b | --user_id input ] [ -c | --country input ] [ -d | --dev_env input ] [ -e | --position_id input ] EOF exit 1 } No point using $@ because (a) you didn't double-quote it, and (b) you're writing a string rather than a series of values. (Look up the difference between $* , $@ , and "$@" if you don't follow this). Finally, I told getopt to report errors on behalf on your program. The ${0##*/} construct picks out the program name for you: >&2 echo "[$*] passed to script" if ! args=$(getopt -n "${0##*/}" -a -o ha:b:c:d: --long help,user_type:,user_id:,country:,dev_env:,position_id: -- "$@") then usage fi >&2 echo "getopt creates [$args]" Don't forget the double quotes around $args : eval set -- "$args" while : do case $1 in -a | --user_type) user_type=$2 ; shift 2 ;; -b | --user_id) user_id=$2 ; shift 2 ;; -h | --help) usage ; shift ;; -c | --country) country=$2 ; shift 2 ;; -d | --dev_env) dev_env=$2 ; shift 2 ;; -e | --position_id) position_id=$2 ; shift 2 ;; # -- means the end of the arguments; drop this, and break out of the while loop --) shift; break ;; esac done The shift statements (above) eat the arguments as they're processed. But in a moment you want to print the remaining arguments, so there's no point bailing with a usage error if there are none left. Code removed. Also above, I've removed the error condition in the case because it's already handled directly by getopt . In this next section, variables such as $user_type may be unset, so they'll have no value. Here the ${user_type:-<unset>} displays <unset> if the value is unset/empty: >&2 echo "user_type : ${user_type:-<unset>}" >&2 echo "user_id : ${user_id:-<unset>} " >&2 echo "country : ${country:-<unset>}" >&2 echo "dev_env : ${dev_env:-<unset>}" >&2 echo "position_id : ${position_id:-<unset>}" >&2 echo "$# parameter/s remaining: $*" >&2 echo "Looping through remaining parameter/s:" Double-quote the "$@" so that words are treated as single elements even if they originally contained whitespace: # Output the remaining parameters for param in "$@"; do >&2 echo -e "\t$param" done echo "user ${user_type:-<unset>} with user id ${user_id:-<unset>} has been created with position_id ${position_id:-<unset>}" exit 0 Finally, if the code is in the file myscript , don't run it as bash myscript . Instead set the file to be readable/executable ( chmod a+rx myscript ) and just run it directly ( ./myscript ). The first line tells the system what interpreter to use so there's no need to specify bash explicitly when running it. Example: ./myscript --user_type abc --user_id a1b2 --country aud --dev_env uat --position_id aFWf [--user_type abc --user_id a1b2 --country aud --dev_env uat --position_id aFWf] passed to script getopt creates [ --user_type 'abc' --user_id 'a1b2' --country 'aud' --dev_env 'uat' --position_id 'aFWf' --] user_type : abc user_id : a1b2 country : aud dev_env : uat position_id : aFWf 0 parameter/s remaining: Looping through remaining parameter/s: user abc with user id a1b2 has been created with position_id aFWf
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792896/passing-long-positional-arguments-in-bash-script
+
+---
+
+#### 6600. How do I play multiple different audio files to multiple different speakers using USB soundcards?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, audio, pulseaudio, alsa | Score: 0 | Views: 212 | Answers: 1 | Created: 2025-03-21
+
+**解决方案 / Solution**:
+You can use qpwgraph to "patch panel" channels from players. Basically any audio player can also directly select the device to play back on; depends on which player you want. I would like to independently send different files to and have them play simultaneously and in sync. Bad news: different USB sound cards will have different sample clocks. Especially for lower-cost ones (and that's what we're talking about, else it's unlikely that a secondhand multichannel USB interface is cheaper), these clocks won't be externally synchronizable (not that you have any clock distribution hardware either). These 10 to 20 parts per million sampling frequency offset will not seem to be much, but when you realize that human hearing is sensitive to time differences of less than 2 milliseconds, and that you're probably not planning to restart your system every hour, "in sync" is a hard thing to achieve over any longer period of time. The next problem is that you need to have all soundcards play at the exactly same moment, which is challenging, since there's nothing in these cards that could consume a common trigger. You'd hence need to rely on sending USB packets containing samples as closely time-related as possible, and I don't really think anything in Linux' USB stack nor its audio stack works that way. You're still free to try: You can use ffmpeg to align the playback of multiple files into a single multi-channel stream (you don't want individual streams for each file – you can't align them later). Then, you feed that into a multichannel sink; something like: ffmpeg -i audio1.opus -i music2.wav -i speech3.riff \ # play the three files -map 0 -map 1 -map 2 \ # from each input stream, map the audio streams to the output -f pulse \ # use the pulse/pipewire output your_sink_name # use `your_sink_name` pipewire sink where you select your_sink_name from ffmpeg -sinks pulse 's output. You will need to first create a virtual combined device in pipewire, though. The Combine String module documentation tells you how. You need to create a configuration file in ~/.config/pipewire/pipewire.conf.d/ , thus creating a six-channel virtual device. You can then use that as sink for the ffmpeg call above.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792818/how-do-i-play-multiple-different-audio-files-to-multiple-different-speakers-usin
+
+---
+
+#### 6601. User systemd exited and removed semaphores
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, services, systemd-unit | Score: 0 | Views: 238 | Answers: 1 | Created: 2025-03-14
+
+**解决方案 / Solution**:
+Based on the fact that: You are considering enable-linger You've commented out appropriate WantedBy= targets for the --system bus, replacing them with a questionable target that is common to the --system and --user busses. You're using ExecStartPre=/bin/sleep 20 I'm pretty sure you're running your unit on the --user bus. In this case User=admin is ignored, and a proper target is either WantedBy=default.target for non-GUI services, or WantedBy=graphical-session.target for GUI services. Since you have WantedBy=graphical.target commented out, I'm guessing you should be using WantedBy=graphical-session.target . But the main issue is Type=simple and RemainAfterExit=yes . Type=simple will cause the unit to stop when MyApp.sh start exits. RemainAfterExit=yes only makes sense for Type=oneshot where you expect the ExecStart= to exit early, but you want the status of the unit to remain "running" until you take a stop-action. As Marcus Muller suggests, Type=forking is likely what you want, since the start/stop arguments resemble a traditional SysV daemon. All together, this is what I'd do: # /etc/systemd/user/myapp.service [Unit] Description=MyApp start service [Service] Type=forking ExecStart=/etc/init.d/MyApp.sh start ExecStop=/etc/init.d/MyApp.sh stop [Install] WantedBy=graphical-session.target Note the path of the service. It's in the */user/ directory. Then systemctl --user enable --now myapp.service (do not use sudo ). This will cause the program to start only AFTER the logged in user has a desktop session. Only add that Limit*= stuff back after you're sure that things are working (and only if needed). The network-online.target isn't available on the user-bus, and so you just need to ensure that the app has some handling to reset itself when connect() or bind() fail.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792445/user-systemd-exited-and-removed-semaphores
+
+---
+
+#### 6602. Cannot get Impala to start services
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, hadoop, apache-hive | Score: 0 | Views: 95 | Answers: 1 | Created: 2025-03-11
+
+**解决方案 / Solution**:
+You have a version mismatch, your version of impala expects another version of Hadoop. Impala tries to call org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client() Your version of hadoop does not seem to have this.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792286/cannot-get-impala-to-start-services
+
+---
+
+#### 6603. What packages will be upgraded after upgrading from Ubuntu 16.04/20.04 to 22.04?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, compiling, upgrade | Score: -1 | Views: 69 | Answers: 1 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+I am unsure why you want this information, however, to get a complete list, you need to backup then adapt the sources.list[.d] for the new version. apt update apt list --upgradable Then you can restore your sources.list[.d] and for apt: apt update
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791976/what-packages-will-be-upgraded-after-upgrading-from-ubuntu-16-04-20-04-to-22-04
 
 ---

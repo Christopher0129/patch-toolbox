@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7380**
+**总计条目 / Total entries: 7448**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -101705,5 +101705,889 @@ The Core i3-2100 processor lacks support for AVX2 instructions. This might be th
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1168858/mongodb-server-fails-to-start-due-to-unhandled-exception-0xc000001d-unless-data
+
+---
+
+#### 7381. My boyfriend knows my private phone stuff… how?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uld535/my_boyfriend_knows_my_private_phone_stuff_how/
+
+---
+
+#### 7382. Got new DDR5 RAM, installed, both dram and cpu lights steady red, display doesn't work, installing old RAM doesn't work.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulsz4i/got_new_ddr5_ram_installed_both_dram_and_cpu/
+
+---
+
+#### 7383. How to disable the google AI Overview?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulnvmn/how_to_disable_the_google_ai_overview/
+
+---
+
+#### 7384. I think my tablet doesn't recognize my adapter as a means of charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulsxqf/i_think_my_tablet_doesnt_recognize_my_adapter_as/
+
+---
+
+#### 7385. My computer cannot access a VPN
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulvvfj/my_computer_cannot_access_a_vpn/
+
+---
+
+#### 7386. Trying to figure out strange PC problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulvtgz/trying_to_figure_out_strange_pc_problem/
+
+---
+
+#### 7387. Multiple identical 1MB files in my Storage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulvnab/multiple_identical_1mb_files_in_my_storage/
+
+---
+
+#### 7388. Dell Latitude 5420 fan noise + overheating after cleaning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulvjmh/dell_latitude_5420_fan_noise_overheating_after/
+
+---
+
+#### 7389. MSI Cyborg 15 A13V shuts down while gaming, fans go full speed, Kernel-Power 41 BugcheckCode 0
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulvgkw/msi_cyborg_15_a13v_shuts_down_while_gaming_fans/
+
+---
+
+#### 7390. My touch screen only works for 50% of the screen.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulv9pb/my_touch_screen_only_works_for_50_of_the_screen/
+
+---
+
+#### 7391. How do i stop microsoft copilot opening on the shortcut it has?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulv86d/how_do_i_stop_microsoft_copilot_opening_on_the/
+
+---
+
+#### 7392. How do I power 2 3.5" HDD's without a powersupply?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulv3c1/how_do_i_power_2_35_hdds_without_a_powersupply/
+
+---
+
+#### 7393. Random crashes in new PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uluzf0/random_crashes_in_new_pc/
+
+---
+
+#### 7394. DPC Watchdog Violation (windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulup4w/dpc_watchdog_violation_windows_11/
+
+---
+
+#### 7395. "Threat service has stopped. Restart it now."
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulum2l/threat_service_has_stopped_restart_it_now/
+
+---
+
+#### 7396. "IM SCOTTISH" Possible virus on computer after download
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uloiv7/im_scottish_possible_virus_on_computer_after/
+
+---
+
+#### 7397. Microsoft Edge Read Aloud Not Working Stuck Loading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulukct/microsoft_edge_read_aloud_not_working_stuck/
+
+---
+
+#### 7398. new simple volume hard drive issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulu6us/new_simple_volume_hard_drive_issue/
+
+---
+
+#### 7399. Dual boot menu showing "Windows 10" and "Windows 11" after installing on new drive. Only "Windows 10" works. Need to remove the broken entry.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulu1np/dual_boot_menu_showing_windows_10_and_windows_11/
+
+---
+
+#### 7400. Is it possible to use a mini 2k(Lower resolution) screen within a 4k screen?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ultme1/is_it_possible_to_use_a_mini_2klower_resolution/
+
+---
+
+#### 7401. Problume with bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ultlac/problume_with_bluetooth/
+
+---
+
+#### 7402. phone seemingly keeps disconnecting from pc, phone says otherwise
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ultjdh/phone_seemingly_keeps_disconnecting_from_pc_phone/
+
+---
+
+#### 7403. Need some help with my wifi adaptor (ugreens AX900 wifi dongle)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uln7xa/need_some_help_with_my_wifi_adaptor_ugreens_ax900/
+
+---
+
+#### 7404. Need Software Philips 42PFL8404H/12 (Q5481)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ult4l7/need_software_philips_42pfl8404h12_q5481/
+
+---
+
+#### 7405. Simple questions and Help thread - Month of July
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ukjnxx/simple_questions_and_help_thread_month_of_july/
+
+---
+
+#### 7406. Intel's major driver update for Windows 11 delivers performance boost, ships with Microsoft's quality promise
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ulemo2/intels_major_driver_update_for_windows_11/
+
+---
+
+#### 7407. Microsoft Copilot OS revealed in leaked video: Lightweight Windows OS exploration features new desktop UI built entirely around Copilot and agentic AI
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ulgmjk/microsoft_copilot_os_revealed_in_leaked_video/
+
+---
+
+#### 7408. 'Like in a horror movie, it just wouldn't die': Rogue Windows 11 file that was a black hole eating tons of drive space is fixed in latest update
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ulewab/like_in_a_horror_movie_it_just_wouldnt_die_rogue/
+
+---
+
+#### 7409. Windows 11's new Start menu released to all ahead of next big update
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ukzb8c/windows_11s_new_start_menu_released_to_all_ahead/
+
+---
+
+#### 7410. Unbelievable, even WinUI + System.Diagnostics.Eventing.Reader is faster than Eventvwr
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ukqu2n/unbelievable_even_winui/
+
+---
+
+#### 7411. Would you use a resize icon in the Start Menu?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ukna1c/would_you_use_a_resize_icon_in_the_start_menu/
+
+---
+
+#### 7412. Tested: Microsoft just debloated Windows 11 Search without Bing, and it's crazy fast
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uk5wqh/tested_microsoft_just_debloated_windows_11_search/
+
+---
+
+#### 7413. Microsoft warns Windows 11 version 24H2 support is coming to an end for some devices soon
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ujmb7p/microsoft_warns_windows_11_version_24h2_support/
+
+---
+
+#### 7414. does anyone have this high-quality wallpaper?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ukp0pu/does_anyone_have_this_highquality_wallpaper/
+
+---
+
+#### 7415. Microsoft reveals why Windows 11 keeps saying a file is in use after you close the app, plus the fix
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uja9rv/microsoft_reveals_why_windows_11_keeps_saying_a/
+
+---
+
+#### 7416. Microsoft Store without search bar or not opening
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ujvurd/microsoft_store_without_search_bar_or_not_opening/
+
+---
+
+#### 7417. Question What is the big inland rock windows 11 loading background
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ujwews/question_what_is_the_big_inland_rock_windows_11/
+
+---
+
+#### 7418. Question What is the big inland rock windows 11 loading background
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uju8np/question_what_is_the_big_inland_rock_windows_11/
+
+---
+
+#### 7419. WSL Container is now available for public preview.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uj1g08/wsl_container_is_now_available_for_public_preview/
+
+---
+
+#### 7420. PC Manager Software Is Now Becoming All In One Management Platform
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uihpb4/pc_manager_software_is_now_becoming_all_in_one/
+
+---
+
+#### 7421. MacOS dock like taskbar in Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ujpb2u/macos_dock_like_taskbar_in_windows_11/
+
+---
+
+#### 7422. Tip of the Week: Accidentally copied over what was on your clipboard? Windows key plus V will open clipboard history - if enabled it will show recent copied text and images
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ui5ibs/tip_of_the_week_accidentally_copied_over_what_was/
+
+---
+
+#### 7423. Servy 8.5 Now Available with ARM64 Support - Run Any App as a Native Windows Service
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ui8euc/servy_85_now_available_with_arm64_support_run_any/
+
+---
+
+#### 7424. How to guide: Changing Windows 11 startup/shutdown sound
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ui3qyl/how_to_guide_changing_windows_11_startupshutdown/
+
+---
+
+#### 7425. The new Point-in-time restore feature is a really good addition to Windows, but be sure to have your BitLocker key ready before using it.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uhyd62/the_new_pointintime_restore_feature_is_a_really/
+
+---
+
+#### 7426. Windows Defender and MS Edge have officially joined my no alternative software.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uhqvqg/windows_defender_and_ms_edge_have_officially/
+
+---
+
+#### 7427. The Epic Regression of Windows 11's Compatibility Troubleshooter
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1ui2l38/the_epic_regression_of_windows_11s_compatibility/
+
+---
+
+#### 7428. I JUST NOW realized windows have separate "power saving" PC option outside of control panel that is "always on" by default. YEARS of inexplicable random 165Hz > 10Hz frame drops on all games and days of stress and pain solved overnight. I WANT MY LIFE BACK. THIS IS CRIMINAL.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uhv5il/i_just_now_realized_windows_have_separate_power/
+
+---
+
+#### 7429. [V2EX] 字节跳动日常实习面试会问什么？
+
+**问题描述 / Problem Description**:
+本人现在大二，专业是计算机科学与技术，这个暑假打算实习，遂投简历到字节跳动。 前两天收到面试邀约，C++客户端开发岗。 我之前从来没有实习过，想问问各位前辈，面试通常会问些什么呢？ （现在很慌，因为平时做项目和科研时高度依赖 AI ，如果面试官问我一些技术细节问题（比如 electron 几种 ipc 的区别，这种语法细节问题），答不出来会不会很尴尬 555 ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224628#reply0
+
+---
+
+#### 7430. [V2EX] 除了银行，还有哪里可以存档案袋大小的东西？
+
+**问题描述 / Problem Description**:
+银行开个柜子押金+年租金贵 家、朋友、单位这些都排除。 请问还有没有什么地方可以存？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224602#reply12
+
+---
+
+#### 7431. [V2EX] 有用过 iOS 本地跑 TTS 模型的 app 吗？
+
+**问题描述 / Problem Description**:
+想搞个 tts app ，不想用系统自带的 tts ，现在有 0.1B 的 tts 模型，加上推理引擎，能控制在 1G 内存下，声音也还可以，虽然不像那些大厂的 tts 支持克隆/风格化输出等，但已经够用了。 研究竞品，但找不到相关的 app ，只有个 Piper TTS ，但这是 demo 级别的。Piper 这个项目也是比较古老了。 所以大家有用过本地运行的 tts 模型 app 吗？ ps. 暂不考虑用服务器调用厂家 api 生成 tts ，虽然有很多免费的（比如 mimo ）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224594#reply0
+
+---
+
+#### 7432. [V2EX] 亲戚找过来要复刻一个卖酒的微信小程序，对方不动技术，如何沟通和定价
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224586#reply5
+
+---
+
+#### 7433. [V2EX] 开中转站成本多少？怎么获利？
+
+**问题描述 / Problem Description**:
+服务器要在国外三网优化？ aAI 怎么可以获得便宜呀？ 肉身国内是不是 h 有法律风险？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224581#reply0
+
+---
+
+#### 7434. [V2EX] 大家现在 AI Agent 都是怎么管理多个大模型的？
+
+**问题描述 / Problem Description**:
+大家好，我是 ZGI 的产品运营 Eddie 。 最近我们把 ZGI 开源了，正在继续打磨里面的一些企业 AI 运行能力。 我自己最近比较关注一个问题：当一个团队同时用 GPT 、Claude 、DeepSeek 、Qwen 、Gemini 这些模型时，到底应该怎么管理？ 一开始可能没什么感觉，大家各用各的 API Key 、各接各的平台。 但项目多了以后，问题会慢慢出来： API Key 到处散落； 谁在用哪个模型不清楚； Token 花在哪不好统计； 高阶模型谁能用、谁不能用也不好管； 想切模型或者统一调用入口，也会变得很麻烦。 我们在 ZGI 里做了一个 Model Gateway ，想
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224569#reply1
+
+---
+
+#### 7435. [V2EX] 有没有学英语单词的网址？ 给小学 6 年级的孩子用
+
+**问题描述 / Problem Description**:
+打算每天让他学个 20 分钟英语。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224565#reply0
+
+---
+
+#### 7436. [V2EX] 法盲求科普
+
+**问题描述 / Problem Description**:
+比如： 1 、通过修改接口参数，可以开启某个网站需要达到一定条件才能开启的功能。 2 、通过修改参数在游戏里给自己刷金币，金币是可以在咸鱼交易。 3 、之前咸鱼利用漏洞无限白嫖开 gpt plus 类似上面这些不攻击对方的服务器，只是利用客户端的 bug 这种违法吗？给自己用用应该没事吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224562#reply14
+
+---
+
+#### 7437. [V2EX] 美团限制员工使用 Qwen、豆包等模型，往后企业应用范围是不是要缩紧了
+
+**问题描述 / Problem Description**:
+大厂日爆消息，美团近日内部下发通知，开始限制员工使用豆包大模型。 通知要求所有业务团队需完成现有豆包相关业务自查，并规划迁移至 LongCat 、DeepSeek 等模型，如果业务场景确实无法迁移至字节火山豆包模型，相关团队需提交使用理由与业务必要性说明，走专项审批流程。 这并非美团第一次收紧外部大模型的内部使用规范。早在今年 4 月，美团就调整过内部大模型使用规则，不再推荐业务线采用阿里云通义千问（ Qwen ）模型，若业务确有使用需求，必须提交详尽使用说明，上报至 X3 （老板级）级高管层审批。 以后会不会只让用自家模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224560#reply5
+
+---
+
+#### 7438. [V2EX] 有没有穿男生增高鞋的，有比较舒服品牌型号推荐吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224555#reply0
+
+---
+
+#### 7439. [V2EX] 今天 deepseek 的 api 接口巨慢
+
+**问题描述 / Problem Description**:
+pro 和 flash 都慢的要命 ...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224551#reply4
+
+---
+
+#### 7440. [V2EX] 新人入站，并对 Termo 项目和 w1573007 号主所产生的乌龙事件以表致歉！
+
+**问题描述 / Problem Description**:
+事情是这样的： 我做了一个开源项目 Termo ，我想推广此项目，想着借助 V2EX 这个大家庭来推广，可无奈并没有账号，于是我就产产生了去咸鱼购买账号的这个念头。买到账号之后也没考虑到这个账号这么老应该是有人使用的，这一点我没考虑到是我个人本身的问题，非常抱歉对此号 w1573007 原号主也就是 maliaosaide1 所带来的负面影响。 后面我通过 请警惕账号 w1573007 发布的开源项目 Termo 此贴联系到 w1573007 账号的原号主并且说明清楚情况以及将账号物归原主，和号主达成和解。 最后我再次对本次乌龙事件表示抱歉！ 希望我的这个经验教训能够对未入站的新人们以警醒的效
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224544#reply2
+
+---
+
+#### 7441. [V2EX] 这周末去韩国有什么值得带的
+
+**问题描述 / Problem Description**:
+这周末准备去釜山玩俩天，有什么值得吃吃喝喝玩的地方，有啥可以带回来的特产吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224541#reply3
+
+---
+
+#### 7442. [V2EX] 感谢项目 Termo 将我的账号还了回来，自我检讨弱密码
+
+**问题描述 / Problem Description**:
+感谢项目 Termo 将我的账号还了回来，自我检讨弱密码 本次事件如下： 1 ，对方通过咸鱼购买了盗取的账号，并修改了账号密码和两步验证 2 ，发布帖子来推广开源项目。 3 ，号主我不知道发生了啥，用另一个号发帖子提醒。 4 ，联系后，对方已还回账户 5 ，本次事件不针对任何开源项目 是号主傻，多年的弱密码，才导致了这么严重的后果。感觉大家围观。 最后再次声明，本次事件不针对该开源项目，Termo ，如果对该项目存在漏洞等问题，请通过 issu 提出，而不是无端猜测和造谣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224532#reply9
+
+---
+
+#### 7443. [V2EX] 360 加固 7 月 1 号开始收费了
+
+**问题描述 / Problem Description**:
+社区里面有没有小伙伴使用 360 加固或者是其它家加固的，费用是什么样子的？刚刚电话过去问原本之前免费的 Android App 加固，现在变成了差不多要 1.8w/年。有其他更加便宜的方案，或者是其他家的产品么？麻烦佬们推荐一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224529#reply0
+
+---
+
+#### 7444. [V2EX] Codex 使用中转站+CC-Switch 似乎无法调用 gpt-image-2
+
+**问题描述 / Problem Description**:
+RT 已确认 中转站 是有 gpt-image-2 这个模型可以调用的，但是配置完后 不管怎么问 Codex 都只给我用编程方式画 SVG 或者用 py 画 png ，而不是调用 gpt-image-2 模型去生成。 甚至我直接在 prompt 里写明了用 image_gen skill ，也不行。 是我使用方式不对吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224523#reply3
+
+---
+
+#### 7445. [V2EX] 抛砖引玉，怎么找到身边的真实需求？
+
+**问题描述 / Problem Description**:
+v 友们好！ 最近参加了一些线下 ai 的活动，我发现目前大多数人卡在“找真实需要求”这个阶段。大家可能都是技术出身容易做东西从 1-100 但是怎么找到那个从 0-1 对我来说是有比较大的困难的。 上周末刘小排老师分享了一个 公式 类似于 什么人，在什么场景在，愿意花多少钱，解决什么问题？ 举个大家都能看懂的例子，我作为程序员，在软件开发场景，愿意花 100 美刀，解决软件开发中高效率开发的问题。 抛砖引玉，希望大家可以一起交流下，针对自己身边的，了解到的真实需求还有什么生意可以被这样描述。我觉得是有一中很好的从 0-1 发现真实市场，并且以此来创业，副业的方法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224521#reply26
+
+---
+
+#### 7446. [V2EX] 吃东西 biaji 嘴的行为你怎么看
+
+**问题描述 / Problem Description**:
+同事吃任何东西都 biaji 嘴，声音还挺大，而且喜欢把筷子放在餐盘里来回扒拉。 我个人是极度反感这种行为的，但因为家庭环境教育背景生活习惯的不同，我也不能显露出我的厌恶之情，不知道各位如何看待这种行为呢？还是你也喜欢 biaji ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224518#reply4
+
+---
+
+#### 7447. [V2EX] 除了让 AI 辅助工作，和 AI 纯聊天到底有没有价值
+
+**问题描述 / Problem Description**:
+和 AI 随便闲聊，问东问西满足你的好奇或者疑问。现阶段的 AI 输出到底有没有“营养”，还是纯浪费时间
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224517#reply0
+
+---
+
+#### 7448. [V2EX] 想问下 gpt plus 现在怎么开通？
+
+**问题描述 / Problem Description**:
+codeX 月免费额度使用完了，现在还想用 codex ，大佬们有什么解决办法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224510#reply6
 
 ---

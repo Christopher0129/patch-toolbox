@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2258**
+**总计条目 / Total entries: 2287**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -35442,5 +35442,353 @@ It was discovered that GD.pm incorrectly handled filename arguments. An attacker
 
 **参考链接 / References**:
 - https://lists.suse.com/pipermail/sle-security-updates/2026-July.txt
+
+---
+
+#### 2259. CVE-2026-55597 - ImageMagick: ImageMagick: Heap buffer overwrite via incorrect argument handling in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Heap buffer overwrite via incorrect argument handling in JP2 encoder. Bugzilla: 2496158
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496158
+
+---
+
+#### 2260. CVE-2026-55595 - ImageMagick: ImageMagick: Denial of Service via invalid arguments to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via invalid arguments to connected-components option. Bugzilla: 2496147
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496147
+
+---
+
+#### 2261. CVE-2026-55594 - ImageMagick: ImageMagick: Denial of Service via crafted image in MVG decoder
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted image in MVG decoder. Bugzilla: 2496145
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496145
+
+---
+
+#### 2262. CVE-2026-55577 - ImageMagick: ImageMagick: Heap buffer overflow in MVG decoder allows out-of-bounds…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Heap buffer overflow in MVG decoder allows out-of-bounds write. Bugzilla: 2496142
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496142
+
+---
+
+#### 2263. CVE-2026-55510 - ImageMagick: ImageMagick: Denial of Service via crafted 8BIM profile
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted 8BIM profile. Bugzilla: 2496157
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496157
+
+---
+
+#### 2264. CVE-2026-53467 - ImageMagick: ImageMagick: Information disclosure vulnerability in MNG decoder
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure vulnerability in MNG decoder. Bugzilla: 2496151
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496151
+
+---
+
+#### 2265. CVE-2026-53466 - ImageMagick: ImageMagick: Denial of Service via integer overflow in XCF decoder
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via integer overflow in XCF decoder. Bugzilla: 2496131
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496131
+
+---
+
+#### 2266. CVE-2026-55628 - ImageMagick: ImageMagick: Unauthorized file access due to missing policy checks in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Unauthorized file access due to missing policy checks in concatenate operation. Bugzilla: 2496134
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496134
+
+---
+
+#### 2267. CVE-2026-5051 - Vault: Vault Enterprise: HashiCorp Vault: Audit device validation bypass via legacy…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Vault: Vault Enterprise: HashiCorp Vault: Audit device validation bypass via legacy file audit path option. Bugzilla: 2496100
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496100
+
+---
+
+#### 2268. CVE-2026-58031 - MediaWiki: MediaWiki: Cross-site scripting vulnerability due to improper input…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] MediaWiki: MediaWiki: Cross-site scripting vulnerability due to improper input neutralization. Bugzilla: 2495993
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495993
+
+---
+
+#### 2269. CVE-2026-5138 - foreman: Foreman: Information disclosure via improper validation of nested request…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] foreman: Foreman: Information disclosure via improper validation of nested request parameters. Bugzilla: 2452971
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2452971
+
+---
+
+#### 2270. CVE-2026-5136 - foreman: Foreman: Privilege escalation to administrator-level access via usergroup…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] foreman: Foreman: Privilege escalation to administrator-level access via usergroup role assignment manipulation. Bugzilla: 2452970
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2452970
+
+---
+
+#### 2271. CVE-2026-13323 - openvsx: Open VSX Registry: Supply chain attack via cross-site scripting
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openvsx: Open VSX Registry: Supply chain attack via cross-site scripting. Bugzilla: 2495898
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495898
+
+---
+
+#### 2272. CVE-2026-56016 - perl-CGI-Session: perl-CGI-Session: Authentication bypass via predictable session…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CGI-Session: perl-CGI-Session: Authentication bypass via predictable session IDs. Bugzilla: 2495858
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495858
+
+---
+
+#### 2273. CVE-2026-53488 - github.com/containerd/containerd: containerd: Host-root command execution via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/containerd/containerd: containerd: Host-root command execution via unvalidated image config labels in CRI plugin. Bugzilla: 2495815
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495815
+
+---
+
+#### 2274. CVE-2026-14324 - pipewire: RAOP RTSP NULL Deref
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pipewire: RAOP RTSP NULL Deref. Bugzilla: 2495903
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495903
+
+---
+
+#### 2275. CVE-2026-14330 - pipewire: Pulse Server alloca Stack Overflow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pipewire: Pulse Server alloca Stack Overflow. Bugzilla: 2495907
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495907
+
+---
+
+#### 2276. CVE-2026-53346 - kernel: rust: arm64: set uwtable llvm module flag for CONFIG_UNWIND_TABLES
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rust: arm64: set uwtable llvm module flag for CONFIG_UNWIND_TABLES. Bugzilla: 2495926
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495926
+
+---
+
+#### 2277. CVE-2026-53333 - kernel: mm/mincore: handle non-swap entries before !CONFIG_SWAP guard
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/mincore: handle non-swap entries before !CONFIG_SWAP guard. Bugzilla: 2495927
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495927
+
+---
+
+#### 2278. CVE-2026-53353 - kernel: hsr: Remove WARN_ONCE() in hsr_addr_is_self()
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: hsr: Remove WARN_ONCE() in hsr_addr_is_self(). Bugzilla: 2495928
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495928
+
+---
+
+#### 2279. [Ubuntu] USN-8500-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Vim incorrectly handled path traversal in the zip.vim plugin. An attacker could possibly use this issue to overwrite arbitrary files. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2026-35177) It was discovered that Vim incorrectly handled depth tracking when processing spell files. An attacker coul
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8500-1
+
+---
+
+#### 2280. [Ubuntu] USN-8501-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8501-1
+
+---
+
+#### 2281. [Ubuntu] USN-8493-2: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - RISC-V architecture; - Cryptographic API; - InfiniBand drivers; - IOMMU subsystem; - Network drivers; - STMicroelectronics network drivers; - NVME drivers; - x86 platform drivers; - SCSI subsystem; - SPI subsystem; - T
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8493-2
+
+---
+
+#### 2282. [Ubuntu] USN-8499-1: Linux kernel (Xilinx) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8499-1
+
+---
+
+#### 2283. [Ubuntu] USN-8498-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - MIPS architecture; - PowerPC architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - ACPI drivers; - ATM drivers; - RNBD block device driver; - Ublk userspace block drive
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8498-1
+
+---
+
+#### 2284. [Ubuntu] USN-8497-1: Linux kernel (Low Latency) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500, C
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8497-1
+
+---
+
+#### 2285. [Ubuntu] USN-8496-1: cifs-utils vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cifs-utils incorrectly dropped root privileges before looking up user information. A local attacker could possibly use this issue to execute arbitrary code as the root user.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8496-1
+
+---
+
+#### 2286. [Ubuntu] USN-8488-2: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: -
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8488-2
+
+---
+
+#### 2287. [Ubuntu] USN-8495-1: nghttp2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the nghttp2 nghttpx proxy incorrectly handled HTTP/1.1 Upgrade requests that included a Content-Length header and body. A remote attacker could possibly use this issue to perform HTTP request and response smuggling attacks against backend services.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8495-1
 
 ---

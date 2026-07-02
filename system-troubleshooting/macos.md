@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6251**
+**总计条目 / Total entries: 6310**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -85551,5 +85551,772 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1223986#reply7
+
+---
+
+#### 6252. Modify window appearance in MacOS Tahoe using terminal commands
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulpej5/modify_window_appearance_in_macos_tahoe_using/
+
+---
+
+#### 6253. Can we make a rule for no AI wallpaper sharing??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulg1by/can_we_make_a_rule_for_no_ai_wallpaper_sharing/
+
+---
+
+#### 6254. A collection of Finder toolbars over the years (10.0 to 27). Which is your favorite design?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulca18/a_collection_of_finder_toolbars_over_the_years/
+
+---
+
+#### 6255. Is there a way to automatically copy text from screenshots to the clipboard?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulm27p/is_there_a_way_to_automatically_copy_text_from/
+
+---
+
+#### 6256. Revachol made my Mac look perfect (at least for a few days)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uluwt0/revachol_made_my_mac_look_perfect_at_least_for_a/
+
+---
+
+#### 6257. Does resetting to factory settings work for getting rid of system data?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulhekt/does_resetting_to_factory_settings_work_for/
+
+---
+
+#### 6258. Unmount disk0 error
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulnoga/unmount_disk0_error/
+
+---
+
+#### 6259. SOS//Another classic water damage story
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ult389/sosanother_classic_water_damage_story/
+
+---
+
+#### 6260. Disable Whataspp calls on Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulshp2/disable_whataspp_calls_on_macbook/
+
+---
+
+#### 6261. Update 2024 iMac to Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ullgpl/update_2024_imac_to_tahoe/
+
+---
+
+#### 6262. How can I get macOS to recognize single ultrawide monitor as two?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uli1fk/how_can_i_get_macos_to_recognize_single_ultrawide/
+
+---
+
+#### 6263. Issue with screen time usage?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulraiu/issue_with_screen_time_usage/
+
+---
+
+#### 6264. Can't open folder in Finder unless it's in column format
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uljwf3/cant_open_folder_in_finder_unless_its_in_column/
+
+---
+
+#### 6265. Apple’s Business Admin API just went live — a technical breakdown for anyone doing enterprise iOS deployment
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulpqky/apples_business_admin_api_just_went_live_a/
+
+---
+
+#### 6266. Karabiner Elements: Devices list empty
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulpmke/karabiner_elements_devices_list_empty/
+
+---
+
+#### 6267. Screen blooming/flickering
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulpce1/screen_bloomingflickering/
+
+---
+
+#### 6268. _CGXPackagesSetWindowConstraints: Invalid window
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulipgf/cgxpackagessetwindowconstraints_invalid_window/
+
+---
+
+#### 6269. Why is the Wallpaper Setting SO HORRIBLE!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulsnac/why_is_the_wallpaper_setting_so_horrible/
+
+---
+
+#### 6270. mac Mini Display
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulamai/mac_mini_display/
+
+---
+
+#### 6271. Find My & other widgets not updating. Then what's the point?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uldjvr/find_my_other_widgets_not_updating_then_whats_the/
+
+---
+
+#### 6272. iCloud Drive broken after Time Machine restore
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulde9l/icloud_drive_broken_after_time_machine_restore/
+
+---
+
+#### 6273. Put back removed Item to its old location
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulb7e9/put_back_removed_item_to_its_old_location/
+
+---
+
+#### 6274. How to get rid of XCSSET malware?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ulaz5m/how_to_get_rid_of_xcsset_malware/
+
+---
+
+#### 6275. [V2EX] 腾讯 lemon 在用户文稿目录下创建 mmkv 文件夹
+
+**问题描述 / Problem Description**:
+[url= https://ibb.co/TMCZw1Z8 ][img] https://i.ibb.co/F4P9hX9w/Snipaste-2026-07-02-10-14-25.png [/img][/url] 已中招卸载 lemon ，转为 mole
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224414#reply2
+
+---
+
+#### 6276. [V2EX] 几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件
+
+**问题描述 / Problem Description**:
+如题。 我目前是打开文本编辑器新建后设置格式再另存。始终觉得不方便。 网上搜索发现有自动操作的教程，可能太笨了没有成功过。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224166#reply96
+
+---
+
+#### 6277. [V2EX] 我做了一个 macOS 菜单栏日历：白纸日历
+
+**问题描述 / Problem Description**:
+我做了一个 macOS 菜单栏日历：白纸日历 V2EX 的朋友们大家好，最近做了一个 macOS 菜单栏日历应用，叫「白纸日历」。 它的出发点很简单：我每天都会看日期、农历、节假日、日程和提醒事项，但这些信息通常分散在系统菜单栏、日历 App 、提醒事项 App 和各种节假日查询页面里。系统菜单栏只适合看一个很短的日期，系统日历又更像一个完整管理工具，打开成本偏高。 所以我想做一个更轻的入口：常驻菜单栏，点击一下展开，今天、农历、节假日、日程和提醒都在眼前。 它主要解决什么 白纸日历不是想替代 Fantastical 、BusyCal 这类完整日历应用，而是想补上一个更适合中文用户的菜单栏日历
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223423#reply46
+
+---
+
+#### 6278. [V2EX] 27 Beta2 appstoreagent 进程 占用很高的 CPU 咋办
+
+**问题描述 / Problem Description**:
+appstore 都没有打开，appstoreagent 进程占用很高的 CPU ，强制退出了过一会儿还会出来，重启之后出来的时间慢一点 有通过 hosts 屏蔽 sylvan.apple.com ，不知道是不是因为这个，但是试了下解除屏蔽还是会疯狂下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222655#reply17
+
+---
+
+#### 6279. [V2EX] 我开发了一款像 iOS 自带的多功能聚合翻译 App，目前正在 TestFlight 公开测试中，欢迎使用~
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 核心功能 安装包仅 3.6 MB ，足够轻量 支持多平台同
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224621#reply2
+
+---
+
+#### 6280. [V2EX] Apple 什么时候才会考虑把 Mac 上的刘海儿去掉
+
+**问题描述 / Problem Description**:
+手上一台初代 touchbar 13 寸、一台 15 年信仰灯版 15 寸老干部 上班用公司 M1pro 13 寸 一直想买个新的自己用，但是不喜欢 mac 上有刘海儿，苹果啥时候才能干掉刘海儿啊。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224452#reply28
+
+---
+
+#### 6281. [V2EX] oyunfor 购买土区 apple 礼品卡支付失败
+
+**问题描述 / Problem Description**:
+目前从 oyunfor 上购买了几次土区礼品卡，最近发现好像国内 visa 触发风控了，不知道是代理 IP 变动还是别的风控了。第一次购买，A 卡支付成功，第二次发现 A 卡失败了，换了另外一张 visa 卡，今天发现 B 卡也支付失败了。 Payment has not been approved. İşlem onaylanmadı. Kart sahibi bankası ile görüşmeli (KOD BLBIN). 我问 openai gpt ，让我找客服申诉，不知道能不能成功。 有哪个大佬知道 oyunfor 这个问题嘛？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224404#reply13
+
+---
+
+#### 6282. [V2EX] 京东 MacBookpro 16 寸 64G+1T 纳米屏 现在 25985（卖后悔药的来了）
+
+**问题描述 / Problem Description**:
+涨价前看到 pdd-非纳米屏同配置 23599
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224381#reply36
+
+---
+
+#### 6283. [V2EX] 文本补全 cotypist 有好用的替代软件或有人想拼车不
+
+**问题描述 / Problem Description**:
+如题，之前免费试用 cotypist 挺香的，看着他越来越完善，现在收费后试了一下替代的 keytype 和 cotabby ，都不太跟手（卡顿、inline 乱飞、bug 不咋修等） 请问大家还有其他用的不错的文本补全软件吗? 或者有人想拼车、开车不（还不确定这软件方不方便多端分享） Pro $9 /mo Billed annually as $108 Up to 3 Macs
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224368#reply0
+
+---
+
+#### 6284. [V2EX] 美区 ID 开通 ChatGPT plus 到别人帐号了怎么办
+
+**问题描述 / Problem Description**:
+我的美区 Apple ID 之前帮别人开通 ChatGPT Plus ，但是我记得好像是有六个月过了六个月以后就可以再给别的号开通了，然后我刚才直接就充值了 20 美元开通以后他说我已完成购买，紧接着提示我什么开通到其他账号了然后我就去 Apple 官网申请退款了，能成功退款吗？另外我想问一下大家，现在土耳其的低价区已经没有了，大家都是用什么方式去开通呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224350#reply6
+
+---
+
+#### 6285. [V2EX] 大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机
+
+**问题描述 / Problem Description**:
+jd 现在很多挂羊头卖狗肉的 特别 iphone17 你看价格 4999 其实是什么准新机 刘强东你别太离谱 个强奸犯 不知道能不能退一赔三 骗子和客服都理直气壮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224297#reply101
+
+---
+
+#### 6286. [V2EX] 做了一个 macOS App： Surge Relay，用来集中管理、转换和发布 Surge 模块。
+
+**问题描述 / Problem Description**:
+最近做了一个 macOS App ，叫 Surge Relay 。老刘没做的，我给补上了！ GitHub： https://github.com/EEliberto/SurgeRelay-macOS 它主要用于集中管理、转换、编辑和发布 Surge 模块，比较适合经常通过 Script-Hub 将 Loon / Quantumult X / 其他代理工具格式转换为 Surge .sgmodule 的场景。 我自己遇到的痛点是：Surge 里已经安装的模块不方便批量修改来源地址。如果上游作者修改了仓库地址、文件路径或目录结构，就需要重新打开 Script-Hub 、重新转换模块，再重新安装到 S
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224268#reply3
+
+---
+
+#### 6287. [V2EX] 新款 APPLE TV 什么时候出， 9 月会出么？
+
+**问题描述 / Problem Description**:
+想入手个 apple tv 了 9 月会出新品么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224254#reply25
+
+---
+
+#### 6288. [V2EX] [送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～
+
+**问题描述 / Problem Description**:
+👋 嗨，V 站的朋友们，大家好～ 🙋 我是 Wins 的开发者，距离 Wins 3.0 发布竟然 9 个月过去了，又来和大家同步最近的一次更新了。 这次主要打磨了一个我自己很喜欢的新交互： 🏝️ Wins 3.4 发布：「悬浮分屏岛」来了 这不是一个普通的悬浮面板。 我想做的是：当你拖动窗口到屏幕顶部时，它像 iOS 灵动岛一样，从 MacBook 的刘海区域自然出现；你继续拖动，就可以快速选择布局并完成分屏。 也就是说，MacBook 的刘海不再只是一个“缺口”，它也可以变成窗口管理的入口。 在没有刘海的 Mac 或外接显示器上，它也会以顶部悬浮岛的形式出现，尽量保持同样自然的拖拽体验。 我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224253#reply143
+
+---
+
+#### 6289. [V2EX] ios27 目前用下来最大的 bug 就是音量键老是自动调节音量
+
+**问题描述 / Problem Description**:
+没办法上传图片，大家有这个情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224152#reply6
+
+---
+
+#### 6290. [V2EX] 最近很火的 Apple WLOC 定位修改能用来给国行 iPhone Air 添加海外 esim 吗
+
+**问题描述 / Problem Description**:
+如题 有没有人试过的？我的 gg 卡是实体，看了下要转 esim 就不能转回去实体卡了 不敢试 git 地址 https://github.com/Yu9191/wloc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224147#reply20
+
+---
+
+#### 6291. [V2EX] Iphone18 pro 泄漏事件
+
+**问题描述 / Problem Description**:
+苹果印度工厂的保密工作做的也是没谁了，泄漏了 630GB 文件，包括 iPhone 18 Pro 系列主板原理图、芯片手册、产线流程、测试视频，被扒了个精光，这应该是近年来苹果供应链最严重的泄露事件了。#iPhone18ProMax 银灰色##苹果回应机密文件泄露# 往年外观最多也就曝光个渲染图，今年给特努斯整了个大的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224113#reply46
+
+---
+
+#### 6292. [V2EX] 我感觉 Codex 的编码能力还没有到足够强大的地步
+
+**问题描述 / Problem Description**:
+今天发现了一个图片浏览器开源项目 PicView （ C#写的） ，使用体验不错，就是缩放和拖动高分辨率图片时有些卡顿，于是心血来潮想着能不能让 Codex 针对这个问题优化一番（使用 5.5 xhigh ），不改不要紧，一改就出大问题，第一版直接打不开任何图片，我就这么看着 Codex 磨了差不多 1 个小时 ，又是改代码又是跑测试用例又是截屏的，终于把最基本的问题解决了，但是高分辨率图片卡顿问题并没有改善，反而在拖动时会出现色调变化。接着又改第二版，这回色调变化的现象没有了，但是卡顿问题依然没有任何改善，遂放弃。 我用 Codex 也好几个月了，给我的感觉就是这玩意搞搞常见的、不那么复杂的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224634#reply1
+
+---
+
+#### 6293. [V2EX] 为什么现在的 AI 回复第一句都是 “xxx 不是 xxx，而是 xxx 的对比句”？
+
+**问题描述 / Problem Description**:
+看烦了 ‘这篇论文 不是一篇“提出新 RL 算法并跑 benchmark”的论文，更像是一篇 position / system architecture paper’ ‘它不是一个独立运行的 Agent 框架，而是把很多已经写好的专家型 agent/persona 安装到 Claude Code’ ‘它不是让模型写一个孤立函数，而是给模型一个真实 GitHub issue’
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224606#reply5
+
+---
+
+#### 6294. [V2EX] SenseNova-U1-8B-MoT-Infographic-V2 发布了，在开源信息图生成模型领域基本接近 SOTA
+
+**问题描述 / Problem Description**:
+# 改进内容： - V2 进一步提升了小字体渲染、复杂高密度版式以及整体视觉质量。 - 小字号文字显示更加清晰、锐利。 - 信息密集型排版更加稳定，不容易出现布局混乱。 - 海报、信息图（ Infographic ）、Dashboard 、报告等场景的整体视觉效果更加精致。 - 修复了此前偶发的黑色背景问题，避免生成意外的纯黑或过暗背景。 # 已知问题： - 在部分场景下，小字体仍然可能出现轻微模糊。 官方还提供了与其他开源模型的直接对比（详见文档）。 作为参考，GPT-Image-1.5 在 BizGenEval 上的得分为 35.9 / 81.6 （主要依赖 Easy Mode 拉高成绩）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224593#reply0
+
+---
+
+#### 6295. [V2EX] macOS 27 dasd 进程内存占用 80 多 GB
+
+**问题描述 / Problem Description**:
+27.0Beta 版本 估计是内存泄露了，bug 还是挺多的 https://imgur.com/a/eZGiVMK
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224587#reply9
+
+---
+
+#### 6296. [V2EX] 站起来蹬！商汤 Token Plan 的免费计划延长到 7 月底了，支持 DeepSeek V4、GLM 5.2
+
+**问题描述 / Problem Description**:
+最多可以支持 20 个 API Key ，现在支持的模型有： - sensenova-6.7-flash-lite：每 5 小时 1500 次 - sensenova-u1-fast：每 5 小时 1500 次 - DeepSeek V4 Flash：每 5 小时 500 次 - GLM 5.2：每 5 小时 500 次 入口： https://www.sensenova.cn/token-plan
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224585#reply3
+
+---
+
+#### 6297. [V2EX] 支付宝 app 小 bug：按钮展示成了 false、false，阿里的测试同事是不是要加个小班了
+
+**问题描述 / Problem Description**:
+安卓手机，vivo 和小米，新/旧版本支付宝上稳定复现， 有阿里的 v2er 可以自测下： 小米手机，具体问题如图，下方两个按钮应该是重置、确认，展示成了 false 、false： vivo 手机，具体操作如图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224564#reply0
+
+---
+
+#### 6298. [V2EX] 把模型、知识库和工作流放到一起跑，顺手开源了
+
+**问题描述 / Problem Description**:
+大家好，我是 ZGI 的产品运营 Eddie 。 最近我们把 ZGI 开源了，想来 V2EX 跟大家分享一下，也欢迎大家体验后直接提意见。 ZGI 不是一个单纯的聊天工具，更像是一个给 AI Agent 用的运行平台。简单说，就是把模型、知识库、工作流、数据库、权限、Token 这些东西放在一起，让 Agent 不只是能聊，还能在企业场景里真正跑起来。 目前 ZGI 已经接入了不少大模型，比如： GPT Claude DeepSeek Qwen Gemini 如果你平时需要在多个模型之间切换，不想来回打开不同平台，可以直接在 ZGI 里配置和使用。 除了模型调用，目前也支持一些基础能力： 文档
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224550#reply0
+
+---
+
+#### 6299. [V2EX] N26 开始清算了
+
+**问题描述 / Problem Description**:
+To ensure our customers’ privacy and account safety, we are obligated to run routine checks on accounts and transactions. We recently identified a breach of the Terms & Conditions of our agreement which means that, given the current circumstances, we can no longer maintain our business relationship.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224549#reply1
+
+---
+
+#### 6300. [V2EX] 一个不错的 Agent IDE
+
+**问题描述 / Problem Description**:
+vscode 现在基本上变成查看文件的 ide 了，现在主力使用 Orca https://www.onorca.dev/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224536#reply6
+
+---
+
+#### 6301. [V2EX] 微信原生智能体「小微」调研：灰度进展与 WeLM 技术架构
+
+**问题描述 / Problem Description**:
+微信 6 月 20 日起小范围灰度原生 AI 助手「小微」，可用文字/语音操作微信原生功能、调起并操作小程序、一句话生成小工具；底层是微信自研 WeLM 新一代 MoE 模型，DeepSeek 兜底复杂推理，目标 2026 Q3 扩大开放。 https://2aran.com/s/QzXYJaB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224513#reply0
+
+---
+
+#### 6302. [V2EX] 休息的时候分享了个 AI 低级错误长图，公众号就被提示被永久封禁了😅
+
+**问题描述 / Problem Description**:
+昨天看刚果（金）和英格兰踢球的时候，问了豆包一个问题，比赛还没结束，豆包就说英格兰被淘汰了😑，今天用 fileshot 截长图发到微信公众号的贴图，就是觉得搞笑而已。 发完后几分钟，系统就提示我的公众号被永久封禁了。卧槽啊，以前就被微信屏蔽过一次，记忆再次来袭！好歹我也写了 94 篇原创文章，说没就没了么。 没办法，申诉人脸识别后，貌似又解除了封禁了，永久是这个意思吗？吓唬人么，这种运营策略，专门恐吓屁民的么，再次感觉到还是自己完全掌控的网站才是互联网自留地，离谱啊！ 豆包对话如下，千真万确，老实本分，总是挨重锤，是我错了吗？ https://www.doubao.com/thread/xa5
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224491#reply7
+
+---
+
+#### 6303. [V2EX] Raycast 出品的应用生成软件 Glaze 公测
+
+**问题描述 / Problem Description**:
+https://www.glaze.app 通过 AI 对话来创建桌面应用程序，普通用户友好。 Store 野心很大，看起来想革 App Store 的命。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224421#reply2
+
+---
+
+#### 6304. [V2EX] 智谱官方正式发布了 GLM-5.2 的专属开发环境 ZCode
+
+**问题描述 / Problem Description**:
+智谱官方正式发布了 GLM-5.2 的专属开发环境 ZCode ！ 只要你是 GLM 编程计划的订阅者，在 ZCode 里的使用额度直接翻 1.5 倍！ 目前面向 macOS 、Windows 和 Linux 系统开放了全平台下载。 https://zcode.z.ai/cn/docs/welcome
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224419#reply3
+
+---
+
+#### 6305. [V2EX] workBuddy 每天可以领取 100 点通用积分，可以满足基本的日常需要。
+
+**问题描述 / Problem Description**:
+可以完成项目，调研，专家问答等，链接腾讯文库和乐享知识库等功能。免费领取云上虾，支持电脑端安装和云端，手机微信小程序端同时工作，工作成果互传！还有抽奖领养 SSR 宠物。 官方网址： https://www.workbuddy.cn/ 图片链接： https://cdn.nodeimage.com/i/wO9ZBuQnfQjhldkI0qx9Qfo9CpGTs4j6.webp https://cdn.nodeimage.com/i/BNlvCTA5lwZ0gIyeOh8OFMnF0DMb4SNT.webp https://cdn.nodeimage.com/i/dOmSmIOJHQhBsNUm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224396#reply11
+
+---
+
+#### 6306. [V2EX] 谷歌搜索的小心机
+
+**问题描述 / Problem Description**:
+第一次搜 [ mysql workbench ] ，显示的搜索结果是两个 [ Sponsored results ] ，我没注意这是 Sponsored ，习惯性的点击了第一个搜索结果。 然后第二次打开 Google ，再搜相同关键字，这次 Google 就给我正确的结果了。 估计是谷歌内部有判定机制，如果用户在点击了 Sponsored results 后，短时间内，用户又去搜相同的关键字，说明第一次推的广告对用户来说无效，此时就赶紧屏蔽广告了，不然用户可能跑其他地方去搜了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224382#reply3
+
+---
+
+#### 6307. [V2EX] codex 又送一次重置机会 +4 了
+
+**问题描述 / Problem Description**:
+available_count: 4 available ，Full reset (Weekly + 5 hr) granted_at: 2026-06-12 11:40:52 CST+0800 expires_at: 2026-07-12 11:40:52 CST+0800 available ，Full reset (Weekly + 5 hr) granted_at: 2026-06-18 08:15:54 CST+0800 expires_at: 2026-07-18 08:15:54 CST+0800 available ，Full reset (Weekly + 5 hr) gra
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224365#reply23
+
+---
+
+#### 6308. [V2EX] 看到一个灵感：人形机器人的美妆灵感😁
+
+**问题描述 / Problem Description**:
+当机器人开始拥有接近真人的面部、皮肤和表情，美妆就不再只是遮瑕、修饰和风格表达，也会变成一种“如何让非人类更像人、又保留一点异质感”的设计语言。这个方向很适合延展成 AI 影像、虚拟偶像、仿生机器人和未来美妆品牌的视觉参考。 https://2aran.com/feed/humanoid-robot-beauty-inspiration
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224322#reply2
+
+---
+
+#### 6309. [V2EX] 那把电脑时间调成新加坡时区岂不是就可以用 Claude 了
+
+**问题描述 / Problem Description**:
+中文系统，新加坡时区也是东 8 区，完全没影响了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224243#reply11
+
+---
+
+#### 6310. [V2EX] 我找到了世界上最好用的西瓜勺!
+
+**问题描述 / Problem Description**:
+https://item.m.jd.com/product/100081994232.html 尖头 加深 强烈推荐!!!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224240#reply4
 
 ---

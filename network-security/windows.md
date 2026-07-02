@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 898**
+**总计条目 / Total entries: 899**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13166,5 +13166,19 @@ Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52610
+
+---
+
+#### 899. CVE-2026-38972
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Notepad3 through 6.25.822.1 contains a DLL search-order hijacking vulnerability in the About-dialog code path in src/Notepad3.c. The application calls LoadLibrary(L"MSFTEDIT.DLL") with a bare DLL name, which allows a local attacker to place a malicious MSFTEDIT.DLL in the application directory or another preferred DLL search location and achieve arbitrary code execution in the context of the user when the About dialog is opened.
+
+**参考链接 / References**:
+- https://github.com/rizonesoft/Notepad3
+- https://github.com/rizonesoft/Notepad3/issues/5605
+- https://github.com/rizonesoft/Notepad3/pull/5606
 
 ---
