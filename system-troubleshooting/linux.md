@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6603**
+**总计条目 / Total entries: 6836**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -93777,5 +93777,3034 @@ I am unsure why you want this information, however, to get a complete list, you 
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/791976/what-packages-will-be-upgraded-after-upgrading-from-ubuntu-16-04-20-04-to-22-04
+
+---
+
+#### 6604. Issue to merge pdf use Ghostscript
+
+**问题描述 / Problem Description**:
+Tags: debian, pdf, ghostscript | Score: 0 | Views: 15 | Answers: 1 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+The \302\240 is the NBSP character (UNICODE U+00A0 ). Most likely you copied the command line from some document which contained these characters instead of the normal space ( U+0020 ). Just edit your command line and replace NBSP with space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806595/issue-to-merge-pdf-use-ghostscript
+
+---
+
+#### 6605. What are all the rsync --info=FLAGS and differences (progress1, progress2, stats1, stats2) and expected outputs
+
+**问题描述 / Problem Description**:
+Tags: debian, rsync | Score: 0 | Views: 24 | Answers: 1 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+All available rsync --info=FLAGS Here the output of rsync --info=help in Debian GNU/Linux trixie, providing all available info flags: Use OPT or OPT1 for level 1 output, OPT2 for level 2, etc.; OPT0 silences. BACKUP Mention files backed up COPY Mention files copied locally on the receiving side DEL Mention deletions on the receiving side FLIST Mention file-list receiving/sending (levels 1-2) MISC Mention miscellaneous information (levels 1-2) MOUNT Mention mounts that were found or skipped NAME Mention 1) updated file/dir names, 2) unchanged names NONREG Mention skipped non-regular files (default 1, 0 disables) PROGRESS Mention 1) per-file progress or 2) total transfer progress REMOVE Mention files removed on the sending side SKIP Mention files skipped due to transfer overrides (levels 1-2) STATS Mention statistics at end of run (levels 1-3) SYMSAFE Mention symlinks that are unsafe ALL Set all --info options (e.g. all4) NONE Silence all --info options (same as all0) HELP Output this help message Options added at each level of verbosity: 0) NONREG 1) COPY,DEL,FLIST,MISC,NAME,STATS,SYMSAFE 2) BACKUP,MISC2,MOUNT,NAME2,REMOVE,SKIP FLAGs should probably be used lowercase Note that all the flags are apparently documented uppercase from the above command, but the usage is documented lowercase: for example the manual man rsync mentions --info=help lowercase. So I strongly recommend to always write these lowercase, even if it's probably case insensitive. FLAGs should be comma separated (,) That is, if you want to specify multiple flags like progress2 and stats1 , just run rsync --info=progress2,stats1 . FLAGs supporting a level: the default is 1 It seems that the --info=progress is just an alias of --info=progress1 . It seems that the --info=stats is just an alias of --info=stats1 . This is undocumented and this is just the assumption by running commands and inspecting output. Expected outputs of rsync --info=stats1 and stats2 and stats3 Example output of stats1 : $ rsync --archive --info=stats1 user@example.com:/from ./to sent 8.471 bytes received 2.593.128 bytes 1.734.399,33 bytes/sec total size is 2.554.827 speedup is 0,98 Example output of stats2 : $ rsync --archive --info=stats2 user@example.com:/from ./to Number of files: 614 (reg: 392, dir: 221, link: 1) Number of created files: 614 (reg: 392, dir: 221, link: 1) Number of deleted files: 0 Number of regular files transferred: 392 Total file size: 2.554.827 bytes Total transferred file size: 2.554.794 bytes Literal data: 2.554.794 bytes Matched data: 0 bytes File list size: 19.988 File list generation time: 0,001 seconds File list transfer time: 0,000 seconds Total bytes sent: 8.467 Total bytes received: 2.593.128 sent 8.467 bytes received 2.593.128 bytes 1.734.396,67 bytes/sec total size is 2.554.827 speedup is 0,98 Example output of stats3 : $ rsync --archive --info=stats3 user@example.com:/from ./to rsync[970630] (server sender) heap statistics: rsync[12920] (receiver) heap statistics: arena: 696320 (bytes from sbrk) ordblks: 174 (chunks not in use) smblks: 0 (free fastbin blocks) hblks: 2 (chunks from mmap) hblkhd: 532480 (bytes from mmap) allmem: 1228800 (bytes from sbrk + mmap) usmblks: 0 (always 0) fsmblks: 0 (bytes in freed fastbin blocks) uordblks: 612416 (bytes used) fordblks: 83904 (bytes free) keepcost: 63168 (bytes in releasable chunk) arena: 737280 (bytes from sbrk) ordblks: 2 (chunks not in use) smblks: 217 hblks: 1 (chunks from mmap) hblkhd: 266240 (bytes from mmap) allmem: 1003520 (bytes from sbrk + mmap) usmblks: 0 fsmblks: 20800 uordblks: 310096 (bytes used) fordblks: 427184 (bytes free) keepcost: 396736 (bytes in releasable chunk) rsync[12918] (generator) heap statistics: arena: 58408960 (bytes from sbrk) ordblks: 180 (chunks not in use) smblks: 1 (free fastbin blocks) hblks: 1 (chunks from mmap) hblkhd: 266240 (bytes from mmap) allmem: 58675200 (bytes from sbrk + mmap) usmblks: 0 (always 0) fsmblks: 96 (bytes in freed fastbin blocks) uordblks: 578592 (bytes used) fordblks: 57830368 (bytes free) keepcost: 134528 (bytes in releasable chunk) Number of files: 614 (reg: 392, dir: 221, link: 1) Number of created files: 614 (reg: 392, dir: 221, link: 1) Number of deleted files: 0 Number of regular files transferred: 392 Total file size: 2.554.827 bytes Total transferred file size: 2.554.794 bytes Literal data: 2.554.794 bytes Matched data: 0 bytes File list size: 19.988 File list generation time: 0,001 seconds File list transfer time: 0,000 seconds Total bytes sent: 8.467 Total bytes received: 2.593.124 sent 8.467 bytes received 2.593.124 bytes 5.203.182,00 bytes/sec total size is 2.554.827 speedup is 0,98 Other undocumented bigger values like stats4 may actually work but are just undocumented. Anyway, they act like stats3 , but do not rely on this. Printing partial progress with --info=progress1 Example output of progress1 - which is suitable for printing each transferred file: $ rsync --archive --info=progress1 user@example.com:/from ./to 112 100% 109,38kB/s 0:00:00 (xfr#1, to-chk=612/614) 12.582 100% 12,00MB/s 0:00:00 (xfr#2, to-chk=611/614) 678 100% 662,11kB/s 0:00:00 (xfr#3, to-chk=610/614) 105.913 100% 1,44MB/s 0:00:00 (xfr#4, to-chk=609/614) 642 100% 8,96kB/s 0:00:00 (xfr#5, to-chk=608/614) 786 100% 10,97kB/s 0:00:00 (xfr#6, to-chk=607/614) 27.626 100% 369,57kB/s 0:00:00 (xfr#7, to-chk=606/614) 9.079 100% 121,45kB/s 0:00:00 (xfr#8, to-chk=605/614) 161 100% 2,15kB/s 0:00:00 (xfr#9, to-chk=604/614) 240 100% 3,21kB/s 0:00:00 (xfr#10, to-chk=603/614) <veeeeeery long list of each transferred file> Printing total progress percentage with --info=progress2 Example output of progress2 - which is suitable for printing a summary. For example, even if you transfer millions of files, you see a single percentage: $ rsync --archive --info=progress2 user@example.com:/from ./to 2.554.794 99% 4,64MB/s 0:00:00 (xfr#392, to-chk=0/614) Frequent combinations Nobody asked for it but my favourite combination is --info=progress2,stats1 , which results in a very compact output with everything I usually need: total progress (not progress of each single file) final speedup info Example output after transferring millions of files: $ rsync --archive --info=progress2,stats1 user@example.com:/from ./to 2.554.794 99% 2,99MB/s 0:00:00 (xfr#392, to-chk=0/614) sent 8.475 bytes received 2.593.132 bytes 1.734.404,67 bytes/sec total size is 2.554.827 speedup is 0,98
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806589/what-are-all-the-rsync-info-flags-and-differences-progress1-progress2-stats
+
+---
+
+#### 6606. environment modules add new section with specific tools
+
+**问题描述 / Problem Description**:
+Tags: linux, compiler, module | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-07-02
+
+**解决方案 / Solution**:
+You should edit this etc/initrc file and add the following line to it: module use --append /usr/local/Modules/pangenome
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806583/environment-modules-add-new-section-with-specific-tools
+
+---
+
+#### 6607. Rust Coreutils cp Ended Up Breaking Ubuntu Image Builds With Latest Incompatibility
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umgo6q/rust_coreutils_cp_ended_up_breaking_ubuntu_image/
+
+---
+
+#### 6608. Jujutsu (a Git-compatible VCS that is both simple and powerful) 0.43.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umgxf7/jujutsu_a_gitcompatible_vcs_that_is_both_simple/
+
+---
+
+#### 6609. Linux 7.2-rc2 BPF Code Being Hardened Against JIT Spraying Attacks
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umh9f6/linux_72rc2_bpf_code_being_hardened_against_jit/
+
+---
+
+#### 6610. CVE vendor stats by Greg Kroah-Hartman
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umafxl/cve_vendor_stats_by_greg_kroahhartman/
+
+---
+
+#### 6611. booted NixOS on the (incredibly obscure) ThinkPad Stack projector module
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulx46x/booted_nixos_on_the_incredibly_obscure_thinkpad/
+
+---
+
+#### 6612. Orange Pi 5 Plus (RK3588) as a fully open-source daily driver — mainline Ubuntu 26.04, EDK2 UEFI, dual 4K HDR10+, HW decode for AV1/H.264/H.265/VP9, Vulkan 1.4 + Zink + OpenCL on Mali, NPU — all off a 64 GB SD card
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umryxr/orange_pi_5_plus_rk3588_as_a_fully_opensource/
+
+---
+
+#### 6613. Hypothetical: what if Microsoft pushes through Secure Boot mandate and does not allow shim files to run with Windows 12 in order to act as a "Linux killer" (but of course never says that is the reason)?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umqld4/hypothetical_what_if_microsoft_pushes_through/
+
+---
+
+#### 6614. Wormzy - Secure Fast p2p file transfer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ulwr7z/wormzy_secure_fast_p2p_file_transfer/
+
+---
+
+#### 6615. [PSA] Avoid QIDI products (code review post)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umc6rn/psa_avoid_qidi_products_code_review_post/
+
+---
+
+#### 6616. [V2EX] AI 能用来全自动化解决 Linux 系统问题吗？
+
+**问题描述 / Problem Description**:
+最近遇到一个有点复杂的问题，研究了半天没解决，想试试用 AI 来搞行不行，之前看有 V 友分享 AI 使用方面的一些经验，感觉现阶段的 AI 应该是能解决我遇到的这个问题的，但我预算有限，想在实际开搞之前先让 V 友帮我预估一下搞定这个问题大概要花多少钱。 问题如下： dnf --installroot=/var/lib/lxc/f43/rootfs --setopt=reposdir=/etc/yum.repos.d/ --releasever=43 install system-release vi vim systemd passwd dnf rootfiles nmap-ncat op
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224792#reply11
+
+---
+
+#### 6617. [V2EX] 推荐一个我自己开发的自用的 AI Agent 通知工具吧
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/LetTTGACO/agent-notify/blob/main/README-CN.md 通过接收 AI Agent 原始 hook 事件，在服务端格式化成简短、行动导向的通知，并通过 Bark 或 ntfy 推送到你的手机或桌面。 它能做什么 接收 AI Agent 原始 hook 事件。 在服务端格式化简短、行动导向的通知（权限请求、提问、错误、长任务完成）。 让短任务（默认 120 秒以内）保持安静，只在会话运行时间足够长时提醒你。 用防抖/节流限制 60s 之内的多次权限通知，减少权限/问题提醒刷屏。 提供按工具独立的 /agent-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224873#reply0
+
+---
+
+#### 6618. [V2EX] Vibe Coding 时上下文最先满的竟是自己？
+
+**问题描述 / Problem Description**:
+我最近同时开发多个项目，我自己的上下文已经不够用了哈哈哈哈。已经不知道某个项目接下来该干啥了。开始陷于短暂的痴呆了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224872#reply0
+
+---
+
+#### 6619. [V2EX] 盲猜 2 小时后发布 GPT-5.6!
+
+**问题描述 / Problem Description**:
+这哥们又出来打窝，🎣 翘嘴了 盲猜 2 小时后发布 GPT-5.6!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224864#reply7
+
+---
+
+#### 6620. [V2EX] codex 似乎也没有说的那么神~
+
+**问题描述 / Problem Description**:
+使用 codex 官方 api,想创建一个 iphone 长截图拼接 app,以为是一把直接梭哈,结果烧完 5 小时重置一遍还是不能用哈... 多张图片导入拼接,上下部重复区域识别太拉跨,最后是手动调节上下部重复区域.但是拼接重影严重 导入滚动视频想自动生成长截图更是惨不忍睹哈.直接放弃 有点难度的,感觉还是不行.各位程序员大哥一时半会也不会完全被优化 ;-)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224860#reply1
+
+---
+
+#### 6621. [V2EX] 请教下 AI 中转站模型真伪测试跑分标准
+
+**问题描述 / Problem Description**:
+因为有的中转站会造假，所以就整了个 AI 中转站的跑分网页。 网站上个月就做出来了，但之前比较忙，还没有开始真的按计划跑。 这段时间我也接触过其他的一些中转站，按正常来说，比如 GPT5.5 模型，是支持图片的， 但是为什么我在使用一些中转站的时候，提示他不支持图片？如果做其他内容测试吧，又判断出来是 GPT5.5 的模型？ 我现在的跑分测试是 25 个，考虑到网络延迟的情况，很多都做了最低标准的限制。 我自己是想加上图片测试的，但是测试几个结果和我想象的不一样，是我提示词不对吗。 各位还有什么好的建议，可以尽可能的去测试模型的真伪？ https://www.jingxialai.com/ap
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224844#reply0
+
+---
+
+#### 6622. [V2EX] 做了一个可以在手机继续看服务器终端的小工具
+
+**问题描述 / Problem Description**:
+安卓手机可以查看服务器终端实时输出的命令， 对命令的运行状态可以及时推送。 可以看到程序实时输出、设备在线状态、GPU / CPU 状态等等，运行完成或失败手机还能及时收到消息通知。 代码已开源，使用 https 端到端加密传输保证安全，希望大家可以多多使用。 欢迎 star 和 issue 。 地址： https://github.com/HaolemeApp/Haoleme
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224842#reply2
+
+---
+
+#### 6623. [V2EX] 你希望别人拥有的人生体验
+
+**问题描述 / Problem Description**:
+最近做了一个网站，想收集一些回答。 如果你可以指定陌生人干一件事情，你希望让他做什么（不一定是为你而做）,小到拍一张照片，喝一杯水都行 大家动动发财的小手回复一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224838#reply17
+
+---
+
+#### 6624. [V2EX] 不懂就问，简历中吹嘘自己是公司大模型部署的维护人，哪里能找到真实点的企业设备？
+
+**问题描述 / Problem Description**:
+不清楚企业级部署是不是和我们租用个 4090 平台一样部署，想租几天企业级的硬件自己玩几天，看看有什么区别？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224837#reply4
+
+---
+
+#### 6625. [V2EX] 请教下 glm 5.2 coding plan 国内的 team 版和 z.ai 的区别
+
+**问题描述 / Problem Description**:
+有没有抢到 glm 5.2 coding plan 的兄弟介绍下，国内的 team 版，跟 z.ai 里的 pro 版相比怎么样。 因为一个是算 prompt 数，一个算 token 数，不太清楚使用量上差别有多大。 关于性价比，速度，还有 429 的概率，有了解的兄弟麻烦指点下哈~ 非常感谢~~~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224836#reply5
+
+---
+
+#### 6626. [V2EX] 我看到 Qclaw Workbuddy Trae Work 扣子编程 Codex Claude 很多 Agent，但是好像没有开源的？
+
+**问题描述 / Problem Description**:
+Qclaw Workbuddy 好像都是腾讯的 Trae Work 扣子编程 是字节跳动的 Codex Claude 是国外的 有没有开源的，我想学习学习，因为我想知道它们里面啥原理怎么跑的 怎么调用 mcp skill 的 里面是怎么封装 Python 和 Nodejs 环境的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224808#reply12
+
+---
+
+#### 6627. [V2EX] 做海外模型的 API 中转站，会被判刑吗？
+
+**问题描述 / Problem Description**:
+https://news.qq.com/rain/a/20260629A07O8W00 看了这个新闻，感觉有点虚啊，别钱没赚到，人进去了，有没有比较了解相关法律的给说说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224797#reply24
+
+---
+
+#### 6628. [V2EX] 我预判，第一波 AI 洪峰已过！
+
+**问题描述 / Problem Description**:
+AI coding 趋势终于拐点了！ 我预判，第一波 AI 洪峰已过。 据我观察 4 个方面 : 1 、第三方价格数据(暴跌，需求减少)： GeminiPro 一年会员自动开通 CDK 包绑卡订阅 ¥12 ChatGPT [带 RT ] [ Plus 成品号] ¥15 2 、v 站数据（话题占比下降）： 据观察 V 站上月 AI 话题占比趋近 100%，当前占比也有下降趋势 3 、个人数据： 短期使用量，也明显下跌。不可能永远有新项目，只有初版稳定之后就不会再有暴力 token 需求。 4 、小红书数据： 前段时间->vibe coding 帖子热度极高。 很多 不懂代码的人 。 偶然有一个/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224778#reply67
+
+---
+
+#### 6629. [V2EX] 急求 Unreal Engine 5.6 大佬，有偿
+
+**问题描述 / Problem Description**:
+项目背景： 基于 Unreal Engine 5.6 的 MetaHuman 数字人项目 使用 TypeScript 进行前端开发，播放数字人视频流 涉及技术： Unreal Engine Runtime MetaHuman Lip Sync Pixel Streaming TypeScript 需求： 解决音画不匹配的问题 解决语音与唇形不匹配问题 以上 2 个需求解决完之后，后续可能存在需求有：头摇晃小一些、换衣服等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224763#reply0
+
+---
+
+#### 6630. [V2EX] OpenCode 直接把 Mac mini M4 搞死机了
+
+**问题描述 / Problem Description**:
+充了一个 Go ，然后用 GLM5.2 修复一个 iOS 开发的问题，就看到内存蹭蹭往上涨，最后死机了不得不强制重启。然后把它的 API 接入到 Codex ，同样的模型一点事没有。 OpenCode 优化这么差的么...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224744#reply20
+
+---
+
+#### 6631. [V2EX] 精心打磨的远程 vibe 工具第二季：进化
+
+**问题描述 / Problem Description**:
+第一季链接： https://www.v2ex.com/t/1207969 https://github.com/a9gent/mindfs 首先欢迎反馈 第一季主要解决了远程 vibe 的问题，但界面和功能有点零碎。第二季故事如下： 任务看板：有想法直接记一个 task ，可选用 worktree 隔离并发，大幅改善 vibe 的异步性和并发性。 自定义任务模板：模板中指定每一阶段的 agent 、模型、plan 、提示词等，给固定流程的任务大幅提效。 review 效率：任务、会话、worktree 、文件之间深度动态关联，review 交互体验大幅提升。 通知机制：增加了 web pus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224729#reply0
+
+---
+
+#### 6632. [V2EX] 求助大佬，有没有相对稳定的 claude 订阅方案
+
+**问题描述 / Problem Description**:
+以前有自己订阅 max 被封号，想寻求更稳定的方案或者自建托管 中转站不考虑！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224719#reply7
+
+---
+
+#### 6633. [V2EX] Cloude Code 账号问题
+
+**问题描述 / Problem Description**:
+在国外注册个公司，以公司身份订阅 Cloude Code 账号再提供给国内员工使用，这个可行么，有没有大佬了解过 国内的外企员工是怎么使用 Cloude Code 的呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224715#reply6
+
+---
+
+#### 6634. [V2EX] 我只是硅基生物的通信协议
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224714#reply7
+
+---
+
+#### 6635. [V2EX] 现在备案域名的流程又臭又长
+
+**问题描述 / Problem Description**:
+最近申请了域名备案，发现不仅过管局，还要在公安联网备案。这公安联网备案的网站是真的垃圾，网页端注册一半让你去下个 app ，下完 app 用刚注册的账号登录还登录不进去，然后又重新注册一遍，看了 ios 商店里全是骂这勾八 app ，搞不懂都在工信部备案了为啥还要同样的信息再在公安在搞一遍，你要说多加一道流程捞经费我也认了，我 chovy 啊，你捞油水倒是把网站和 app 做好了啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224707#reply53
+
+---
+
+#### 6636. [V2EX] 时代是渐进式发展的，人也是渐进式老去的，所以当发展大于老去的速度的时候才有了 xxx 已死的社会议题
+
+**问题描述 / Problem Description**:
+上世纪的黄包车最后一批工作者在黄包车被替代的那年退休（干不动、不干了之类的不纠结）了，那对于他来说就没有什么黄包车已死的恐慌，因为技术发展的速度和他老去的速度是相等的。 上一代程序员（求伯君这种甚至更老的一辈）对于 AI 替代程序员这个焦虑是为 0 的，因为他们或多或少的已经完全脱离、退出了以代码求生存的时候，其实也是技术的发展没有赶上他们老去的速度（退休、或者干了其他的什么事情） 那 AI 时代呢，我们正在这条路上，而且我们的恐慌来源于技术发展必将快于我们的老去速度，所以 xxx 已死才变成了社会热门焦虑来源 那其实际上会不会那么快呢？我想不会，因为技术发展是整个社会最拔尖的总和，而老去速度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224705#reply1
+
+---
+
+#### 6637. How to search the DNF package manager for all available versions of a package?
+
+**问题描述 / Problem Description**:
+Tags: fedora, node.js, npm, dnf | Score: 21 | Views: 160297 | Answers: 2 | Created: 2022-09-26
+
+**解决方案 / Solution**:
+Okay so I figured out how to find all available packages for a given piece of software. To see if the software is even available through dnf , I will first run the following. $ dnf search pkg-name-here If it returns with a result that looks like the software I was searching for, then I will execute: $ dnf search --showduplicates pkg-name-here If there is more than one package available for the package-name that you searched for the --showduplicates flag will print the list of all available packages, as well as the version info for each one. This is a very useful flag IMO.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1744351/how-to-search-the-dnf-package-manager-for-all-available-versions-of-a-package
+
+---
+
+#### 6638. Why does a Perl CGI program not write to files on Fedora 40 with Apache?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-http-server, fedora, perl | Score: 10 | Views: 1474 | Answers: 3 | Created: 2024-11-15
+
+**解决方案 / Solution**:
+Programs may have a different view of the filesystem set up for them by the service manager (or rarely by PAM for user logins, too). For example, it is very common to configure the Apache2 .service in systemd so that it has an isolated /tmp mounted which is only visible to processes inside the .service – you will see PrivateTmp= enabled in systemctl cat apache2 , and if you run findmnt in your CGI script it'll report a different output than findmnt from an interactive logon. When PrivateTmp is enabled, the service's /tmp is really mapped to /tmp/systemd-private-foo/ on the host (using a bind mount that systemd sets up), so the file creation will succeed¹ – unlike with SELinux, which would return an access denied error (and would log it to dmesg) – but the file is located elsewhere than you think. ¹ That is to say, this sounds to me like a completely different situation than your original "Foswiki can't open log file" issue. If the open function failed, then that most likely was some kind of permissions or SELinux problem. (Of course, the first step should be to check what error code it returned instead of just "it failed" – ideally the wiki should log the failure to systemd journal using the syslog() function, which is always accessible to services and even CGI scripts.) use Sys::Syslog; if (open(my $fh, ">>", "/path/to/log")) { ... } else { syslog("err", "Could not open /path/to/log: %m"); die("Could not open log: $!"); } Often network-based services are configured with a whole ton of filesystem namespacing options, including making their view of /home read-only (or invisible), so that they won't reach out to where they generally shouldn't. makes me wonder how much code is needed in the kernel to support that feature. In absolute terms – a lot, but relatively speaking – zero, as it relies on a pre-existing kernel feature: the same filesystem namespacing is what powers "container" systems such as Docker or LXC, and its kernel implementation predates the creation of systemd by some 3 or 4 years.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861798/why-does-a-perl-cgi-program-not-write-to-files-on-fedora-40-with-apache
+
+---
+
+#### 6639. What is the difference between an `.iso` OS for a network and an `.iso` OS for CD?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, iso-image | Score: 10 | Views: 2252 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+The "network" versions assume that you have a network available during installation and that it is fast enough for you to download needed packages on the fly. It assumes that you know you have a network adaptor that is compatible with the operating system you are installing and that it can be brought up and used to download packages. As a result it will contain only enough on the install media to run and launch the installer. It most likely will not contain packages on the install media. The "CD" version assumes you may not have a network available, or for whatever reason do not wish to use it and so will contain a large selection of default packages on the install media. If your network is slow or you have a fast network in an alternative location then you may prefer the CD version, but you will have potentially downloaded a large number of packages you don't need or want. If your network is fast or you only need a minimal amount of packages you can use the Network media as it will save you downloading a lot of unnecessary packages. As the Network media is getting packages from download servers straight away then it may be more up to date than the CD version which could be an older snapshot of packages, though it is likely you can update them all from within the environment once installed, or even during installation if it can connect to the internet. The end result is going to be (nearly) the same between install media. Choose whichever version suits you. Do you have the internet available and want a faster initial download but can deal with a slower install while it downloads packages? Get the network version. Do you want everything downloaded before you start for a faster install at the cost of downloading a lot of stuff you may not need? Use the CD version.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1853137/what-is-the-difference-between-an-iso-os-for-a-network-and-an-iso-os-for-c
+
+---
+
+#### 6640. Why does Git Bash hang for several seconds if I press Tab as the first key? And how do I stop it?
+
+**问题描述 / Problem Description**:
+Tags: bash, keyboard-shortcuts, freeze, autocomplete, git-bash | Score: 8 | Views: 410 | Answers: 2 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+Why does this happen? Because you are simply trying to autocomplete nothing, which by default resolves to every possibility in Bash (Git Bash is just a Windows version of it), including all the executables from all the %PATH% directories, etc. When this happens, I try the various different kill commands, to no avail There is nothing to kill - killing the process would kill the shell as that's what's running the autocompletion. There could in theory be a separate shortcut to stop readline from continuing own logic, but there's no such implementation and from what I see it'd be hard to implement given how synchronously it currently works and keyboard shortcuts are also input. How do I stop it? You want to prevent autocompletion of empty input. This is done by e.g. enabling the no_empty_cmd_completion shell option : shopt -s no_empty_cmd_completion It disables it for both completely empty and whitespace-only lines. You can add it to .bashrc file for it to be permament.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930161/why-does-git-bash-hang-for-several-seconds-if-i-press-tab-as-the-first-key-and
+
+---
+
+#### 6641. Why did a Fedora update break my unicode U.S. flag symbol?
+
+**问题描述 / Problem Description**:
+Tags: bash, unicode | Score: 7 | Views: 2199 | Answers: 2 | Created: 2026-05-03
+
+**解决方案 / Solution**:
+The Unicode codepoint U+FE4E6 is in the "Private use" range, where each font defines its own meaning. It is not defined to specifically be a U.S. flag, it just happens to be a U.S. flag in one of the fonts you have. (On my non-Fedora system it has no glyph at all.) So it sounds like the Fedora update either removed the font, or installed (or updated) another font which also uses U+FE4E6 for its own purposes, and that other font now has priority in the "fallback" font list produced by Fontconfig. If your terminal font is set to e.g. the "Monospace" alias, you can do fc-match -s "Monospace" to see what fonts it resolves to. One of those will be the font with the new glyph, and below it there might still be the font with the flag. Try temporarily removing the corresponding font files from /usr until you get the flag back. There might be a way to prioritize fonts via ~/.config/fontconfig/fonts.conf for specific codepoint ranges. Or – if the "something else" is a rectangle with tiny characters '0FE 4E6' inscribed – then that means no font was found which would have a glyph for this codepoint. In that case it may still be that Fontconfig is set to exclude that font, or it may be that the upgrade removed the font completely, or that it updated the font to a new version which lacks the glyph. Officially, Unicode 6.0 defines "Regional indicator" symbols which fonts can use for flags – you might get the U.S. flag by combining U+1F1FA and U+1F1F8 (regional indicators U and S forming a ligature or a "contextual alternate"), e.g. echo $'\U1F1FA\U1F1F8' .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937289/why-did-a-fedora-update-break-my-unicode-u-s-flag-symbol
+
+---
+
+#### 6642. How can I get the Dell iDRAC IP address from Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, dell, drac | Score: 7 | Views: 4220 | Answers: 3 | Created: 2025-04-15
+
+**解决方案 / Solution**:
+The IP address of the iDRAC can be discovered with the ipmitool command (as root): ipmitool mc getsysinfo delloem_url It returns the complete URL in this form: https://<iDRAC IP>:443 (It was tested with Dell R740, iDRAC 7.00.00.171 and RHEL 8.10.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179145/how-can-i-get-the-dell-idrac-ip-address-from-linux
+
+---
+
+#### 6643. With network manager (nmcli), how do I drop and renew a dhcp lease from the command line?
+
+**问题描述 / Problem Description**:
+Tags: fedora, dhcp, networkmanager | Score: 7 | Views: 9191 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Edit after comment bellow: This will not DROP a lease and discover a new one, it will simply force a renegotiation. Depending on what you changed on the server, might get you the desired result. See comment by Bert to understand the messages this will generate. nmcli conn down id 'Wired connection 1' && nmcli con up id 'Wired connection 1' nmcli conn show to get the id to use. You can probably use uuid or device. But it most likely will be that name above.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860300/with-network-manager-nmcli-how-do-i-drop-and-renew-a-dhcp-lease-from-the-comm
+
+---
+
+#### 6644. NFS writes over Wireguard S2S tunnel makes TrueNAS hang
+
+**问题描述 / Problem Description**:
+Tags: linux, performance, nfs, truenas | Score: 6 | Views: 968 | Answers: 2 | Created: 2025-04-16
+
+**解决方案 / Solution**:
+The NFS mount option hard will cause I/O blocking if the client loses network access to the server. Other syscalls will be blocked until the I/O request is successful. The advantage is improved data integrity. The disadvantage is the behavior you are experiencing. You can force a mount to use soft . Refer to your OS/client documentation for specifics, but possibly in /etc/nfsmount.conf . The question then becomes; "Why is my NFS client losing access to the NFS server?" It seems you have already narrowed it down and resolved an MTU issue. Lowering MTU is necessary over a VPN tunnel, but if your issue persists there may be something else to resolve.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179271/nfs-writes-over-wireguard-s2s-tunnel-makes-truenas-hang
+
+---
+
+#### 6645. How to turn off monitor and don't enable screen blanking in Arch Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, display, screensaver, blank-screen | Score: 6 | Views: 3345 | Answers: 2 | Created: 2025-02-02
+
+**解决方案 / Solution**:
+Try: xset dpms 65535 65535 65535 This will set dpms not to automatically activate until the machine has be idle for 18.2... hours. You can make it shorter by changing the number of seconds, but that value is apparently the limit. I would recommend this for your ~/.xsession or ~/.xinitrc or some similar file that is run when you login to or start your X server. (Possibly wherever the current xset -dpms is.) With this, xset dpms force off will still work.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876254/how-to-turn-off-monitor-and-dont-enable-screen-blanking-in-arch-linux
+
+---
+
+#### 6646. In Windows Terminal, how do I add bash as one of the shell options?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, bash, shell, windows-terminal | Score: 6 | Views: 25301 | Answers: 3 | Created: 2023-01-18
+
+**解决方案 / Solution**:
+Add Windows Terminal Profile from its settings page: Name: Git Bash Command line: C:\Program Files\Git\bin\bash.exe Icon: C:\Program Files\Git\mingw64\share\git\git-for-windows.ico Git Bash should now open as a tab from the Windows Terminal drop down caret instead of a its own separate window. Ref: Adding Git-Bash to Windows Terminal - Tim Schaeps
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763652/in-windows-terminal-how-do-i-add-bash-as-one-of-the-shell-options
+
+---
+
+#### 6647. 2 different process monitors app report different results for the same process?
+
+**问题描述 / Problem Description**:
+Tags: linux, memory, fedora | Score: 5 | Views: 684 | Answers: 1 | Created: 2026-02-12
+
+**解决方案 / Solution**:
+There are different things on a system that are all called "memory", for one. Virtual Memory and Physical Memory, for instance. Virtual Memory includes cache that is actually stored on disk, whereas Physical Memory typically refers to the specific resource we call "RAM". There are also different ways memory is assigned to or used by a given process. There's Reserved memory and Active memory, for instance. A process may tell the system "I expect to require this much memory" while at the same time it is only actively using a smaller amount, and the OS handles these different memory differently, based on available overall system resources and other factors. Note that these examples are not ALL of the types of memory or ways that memory can be used. They are simply a couple of the more common or obviously different categories that illustrate the point. Understanding what each of these applications are reporting is important. All of the numbers can be true and accurate even if they are not the same. Fedora notes such differences are "as intended" per this document , as each application is using a different and valid calculation to represent the Memory value. There are also bugs. Astra Monitor, which is what I believe the Gnome System Monitor is based on, had an issue where such a discrepancy was resolved within the last year or so, for instance. Reference: https://linuxvox.com/blog/linux-memory-reporting-discrepancy/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934839/2-different-process-monitors-app-report-different-results-for-the-same-process
+
+---
+
+#### 6648. Exported PS1 environment variable, doesn't persist in a subshell
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, command-line, bash, environment-variables | Score: 5 | Views: 543 | Answers: 1 | Created: 2026-01-03
+
+**解决方案 / Solution**:
+On AlmaLinux 10.1 I can repeat your results from CentOS 7, in that "NewPrompt" remains in the subshell:: mr_halfword@alder-lake-alma:~$ export PS1="NewPrompt: " NewPrompt: bash NewPrompt: On Ubuntu 24.04.3 LTS I can repeat your results from Ubuntu 18.04, in that "NewPrompt" doesn't stay in the subshell: mr_halfword@Haswell-Ubuntu:~$ export PS1="NewPrompt: " NewPrompt: bash mr_halfword@Haswell-Ubuntu:~$ On Ubuntu 24.04.3 LTS the ~/.bashrc in my user account sets PS1 which explains why "NewPrompt" doesn't stay in the subshell: mr_halfword@Haswell-Ubuntu:~$ grep PS1 ~/.bashrc PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ' PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" And the Ubuntu default .bashrc , which I think gets used when a new account is created, has the same code to set PS1 in my user account ~/.bashrc : mr_halfword@Haswell-Ubuntu:~$ grep PS1 /etc/skel/.bashrc PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ' PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" Whereas on AlmaLinux 10.1 neither my account ~/.bashrc nor the default .bashrc set PS1: mr_halfword@alder-lake-alma:~$ grep PS1 ~/.bashrc mr_halfword@alder-lake-alma:~$ grep PS1 /etc/skel/.bashrc mr_halfword@alder-lake-alma:~$ One work-around could be to start a bash subshell using the --norc option which is documented as: --norc Do not read and execute the system wide initialization file /etc/bash.bashrc and the personal initialization file ~/.bashrc if the shell is interactive. This option is on by default if the shell is invoked as sh. Tested with Ubuntu 24.04.3 LTS, where also used echo $$ to confirm when a new process had been started (when the PID changes): mr_halfword@Haswell-Ubuntu:~$ echo $$ 27720 mr_halfword@Haswell-Ubuntu:~$ export PS1="NewPrompt: " NewPrompt: echo $$ 27720 NewPrompt: bash --norc NewPrompt: echo $$ 27777 NewPrompt: However, using --norc does mean that the other initialisation in .bashrc isn't run in the new subshell. An alternative would be to edit your ~/.bashrc to not change PS1 if it is already set.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933236/exported-ps1-environment-variable-doesnt-persist-in-a-subshell
+
+---
+
+#### 6649. bluetoothctl pair command will not work in a bash shell script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, bluetooth, game-controller | Score: 5 | Views: 795 | Answers: 2 | Created: 2025-07-13
+
+**解决方案 / Solution**:
+Too lazy to test it but according to the man page, there is: -t seconds, --timeout seconds Timeout in seconds for non-interactive mode Maybe you can try something like: bluetoothctl -t 8 scan on & sleep 4 bluetoothctl pair AA:BB:CC:DD:EE:FF
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910378/bluetoothctl-pair-command-will-not-work-in-a-bash-shell-script
+
+---
+
+#### 6650. Delete directories containing only .directory files
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 5 | Views: 641 | Answers: 3 | Created: 2024-12-06
+
+**解决方案 / Solution**:
+You mentioned find -empty , so your find is probably GNU find . In this answer I will use several non-portable features of GNU find . Please test my solution in an expendable directory first. The solution is: find . -type d \( -empty -delete -o -exec sh -c ' special=".directory" test -f "$1/$special" \ && find "$1" -mindepth 1 -maxdepth 1 ! -name "$special" | { ! grep -q .; } \ && rm "$1/$special" ' find-sh {} \; -delete \) -print It works like this: Because -delete implies -depth , the command will process a directory only after processing everything in it. This is good, as we do want it to process and possibly delete deeper subdirectories first, so when it gets to a parent, there is a chance it has just became empty or almost empty. The command acts on files of the type directory ( -type d ). If the currently considered directory is empty, the command tries to delete it ( -empty -delete ). Otherwise (i.e. if the directory is not empty) a snippet of shell code is executed. Frankly it will be executed also if the directory is empty and the deletion fails; but in this case the snippet should be harmless, so it's OK. The shell code uses && , so each next step is executed if and only if its preceding step succeeded. The steps are: Test if there is a regular file with our "special" name there ( test -f … ). Start finding files directly in the directory ( -mindepth 1 -maxdepth 1 ) with names different than the "special" name. If the output from the inner find is empty then grep -q . will exit with non-zero exit status, so ! grep … will give us a success… And then rm will be executed to remove the "special" file. Only if this rm is successful, the -exec test will be considered true for the directory and the last -delete will be attempted. -print will print pathnames of directories for which -delete (the first or the second one) succeeded. Notes: In my tests -delete did not delete . even when it was empty, although it formally succeeded. -name takes a pattern. In general, if the "special" name contains * , ? or [ then you need to adjust the code. .directory is safe in this matter.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863934/delete-directories-containing-only-directory-files
+
+---
+
+#### 6651. How to add swap space on fedora?
+
+**问题描述 / Problem Description**:
+Tags: linux, memory, fedora, swap | Score: 5 | Views: 25600 | Answers: 4 | Created: 2023-04-12
+
+**解决方案 / Solution**:
+What worked Following Kamil's comment I followed the instructions here . First try I partially solved my problem. The method in (1) didn't work, seemingly because btrfs does not allow swap files. So I followed what I read here , and created a file /etc/systemd/zram-generator.conf with the following content: [zram0] zram-size = 100000 After a reboot I now have around 100 G of zram: $ zramctl NAME ALGORITHM DISKSIZE DATA COMPR TOTAL STREAMS MOUNTPOINT /dev/zram0 lzo-rle 97.7G 3.4G 931.5M 1.2G 12 [SWAP] However when trying to run the LLMs, the swap memory use reached up to 24GB only and then it plateaued and the program was killed by lack of memory. At this point I'm not sure whether the issues lies with zram itself or the program I try to run...
+
+**参考链接 / References**:
+- https://superuser.com/questions/1778582/how-to-add-swap-space-on-fedora
+
+---
+
+#### 6652. Fedora 37 VirtualBox Error "vboxdrv kernel module is not loaded" and "Kernel driver not installed (rc=-1908)"
+
+**问题描述 / Problem Description**:
+Tags: virtualbox, fedora, kernel, linux-kernel | Score: 5 | Views: 8096 | Answers: 2 | Created: 2023-02-27
+
+**解决方案 / Solution**:
+Unfortunately, the kernel module that's required to run VirtualBox has a history of breaking on almost every update, especially on Fedora where new kernel versions are often shipped before matching kmod packages are available. On Fedora 37, this error can occur even if the right kernel module is already installed from the repository. $ virtualbox & WARNING: The vboxdrv kernel module is not loaded. Either there is no module available for the current kernel (6.2.15-200.fc37.x86_64) or it failed to load. Please try load the kernel module by executing as root dnf install akmod-VirtualBox kernel-devel-6.2.15-200.fc37.x86_64 akmods --kernels 6.2.15-200.fc37.x86_64 && systemctl restart vboxdrv.service You will not be able to start VMs until this problem is fixed. $ cat /etc/fedora-release Fedora release 37 (Thirty Seven) $ uname -r 6.2.15-200.fc37.x86_64 # dnf install kmod-VirtualBox-6.2.15-200.fc37.x86_64.x86_64 Package kmod-VirtualBox-6.2.15-200.fc37.x86_64-7.0.8-1.fc37.x86_64 is already installed. So you can run the akmods command successfully because it just checks if the kernel module is there and it is there because it has been installed from the repository (it being the precompiled kernel module). $ sudo akmods --kernels 6.2.15-200.fc37.x86_64 Checking kmods exist for 6.2.15-200.fc37.x86_64 [ OK ] Note that akmods just checks if it's there and that's all. Although I have not seen that error: Exec format error But that does not seem to make any difference. You should try to remove the precompiled kernel module and then build it yourself (not manually, but on your machine, specifically for your environment). That approach has worked best in recent years for most variations of this VirtualBox error. Make sure you have akmods installed, as well as the required kernel build dependencies. The minimum would be: # dnf install akmods kernel-devel Remove whichever precompiled VirtualBox kernel module you have installed, but be careful not to remove all of VirtualBox along the way (read the output of dnf carefully). # dnf erase kmod-VirtualBox-$(uname -r) Since you specifically mention that you are stuck with the current kernel version, it should be sufficient to remove that version only, otherwise you could even run dnf erase kmod-VirtualBox-* . Now run akmods to build that kernel module on and for your machine. # akmods --kernels $(uname -r) That tool also has a "force" option: akmods --force The last command should now print two lines instead of one, the second line indicating that it's building (recreating) the missing kernel module for VirtualBox: # akmods --kernels 6.2.15-200.fc37.x86_64 Checking kmods exist for 6.2.15-200.fc37.x86_64 [ OK ] Building and installing VirtualBox-kmod [ OK ] If that has worked, you still need to reload the module (or reboot): # systemctl restart vboxdrv.service Then restart VirtualBox. It should work now.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1771026/fedora-37-virtualbox-error-vboxdrv-kernel-module-is-not-loaded-and-kernel-dri
+
+---
+
+#### 6653. ping does not work on a rootless Ubuntu podman container on Fedora
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, fedora, ping, podman | Score: 5 | Views: 14465 | Answers: 1 | Created: 2022-10-09
+
+**解决方案 / Solution**:
+As you certainly know, containers make use of certain kernel features. Most prominently this includes kernel namespaces and resource groups. To interact with the network, you usually interact with the kernel through syscals. When you try executing syscalls, the kernel checks whether you have permission to perform these syscalls. This check considers which user you currently use (calling user), which user executes the program (executing user) and which capabilities are granted in the execution context. As you can see in this GitHub issue ( https://github.com/mviereck/dockerfile-x11docker-deepin/issues/19 ), ping requires the NET_RAW capability. Check https://security.stackexchange.com/a/128988 as to what this means. You might also want to read https://superuser.com/a/1702188/1737591 on a similar question. This also helps explain why it works as expected with alpine but not with the ubuntu image. With the --privileged Flag, you basically have a shorthand for including this CAP_NET_RAW among many other permissions. You should instead be able to execute the container with the --cap-add=NET_RAW flag in order to limit the capabilities to a minimum. I do not know where these errors might get logged but I'd check dmesg and the system's syslogs first. EDIT: When using the official ubuntu image and installeing ping on it afterwards, you also need to run setcap cap_net_raw+p /usr/bin/ping inside said container. Otherwise the permission check within the container itself (defining the execution context) will not allow you to execute ping as the required capability will not be part of the effective capabilities. $ podman run --rm -it ubuntu:22.04 Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/000-shortnames.conf) Trying to pull docker.io/library/ubuntu:22.04... Getting image source signatures Copying blob cf92e523b49e skipped: already exists Copying config 216c552ea5 done Writing manifest to image destination Storing signatures root@af1a4b5052e9:/# apt-get update && apt-get install -y iputils-ping && apt-get clean autoclean && apt-get -y autoremove ### Skipped apt output ### 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded. root@af1a4b5052e9:/# ping -c 3 stackoverflow.com bash: /usr/bin/ping: Operation not permitted root@30d9c3c936fc:/# sysctl 'net.ipv4.ping_group_range' net.ipv4.ping_group_range = 0 0 root@af1a4b5052e9:/# setcap cap_net_raw+p /usr/bin/ping root@af1a4b5052e9:/# ping -c 3 stackoverflow.com PING stackoverflow.com (151.101.193.69) 56(84) bytes of data. 64 bytes from 151.101.193.69 (151.101.193.69): icmp_seq=1 ttl=255 time=8.61 ms 64 bytes from 151.101.193.69 (151.101.193.69): icmp_seq=2 ttl=255 time=8.67 ms 64 bytes from 151.101.193.69 (151.101.193.69): icmp_seq=3 ttl=255 time=8.86 ms --- stackoverflow.com ping statistics --- 3 packets transmitted, 3 received, 0% packet loss, time 2003ms rtt min/avg/max/mdev = 8.609/8.713/8.857/0.105 ms root@af1a4b5052e9:/# It is quite likely, that the other images you tried either include the right net.ipv4.ping_group_range already or have executed something like setcap cap_net_raw+p /usr/bin/ping before publishing the image. Feel free to use getcap $(which ping) to list the capabilities other images might have set on ping. cap_net_raw+ep means: For the capability net_raw add ( + ) effective ( e ) and permitted ( p ). I suggest having a look at https://book.hacktricks.xyz/linux-hardening/privilege-escalation/linux-capabilities for a primer regarding capabilities if you are eager to learn more.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1746588/ping-does-not-work-on-a-rootless-ubuntu-podman-container-on-fedora
+
+---
+
+#### 6654. Why does `( cmd )` and `( cmd ) || ( foo )` catch errors differently in `cmd`?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 4 | Views: 63 | Answers: 1 | Created: 2026-02-25
+
+**解决方案 / Solution**:
+Regarding the OP's "My current solution:" section. OP posted the following. set -e set -o pipefail ( cmd1 cmd2 ) || ( failure_catcher ) Since cmd1 and cmd2 are part of a || list, the errexit option is treated as off when these commands execute. Below is one possible fix, where the errexit option will be treated as on when executing cmd1 and cmd2 . Here, set +e temporarily sets the errexit to off so the || list can determine if cmd1 or cmd2 exited with a non-zero status. set -e set -o pipefail ( set +e ( set -e cmd1 cmd2 ) [ $? = 0 ] || ( failure_catcher ) ) Regarding the OP's "For a testable example:" section. OP posted the following. set -e set -o pipefail ( false echo "After failure" ) || ( echo "Failed" ) Using my possible fix would translate the above to what is shown below. set -e set -o pipefail ( set +e ( set -e false echo "After failure" ) [ $? = 0 ] || ( echo "Failed" ) ) Regarding the OP's "I might have found a way:" section. OP posted the following. runit() { false echo "After failure" } export -f runit ( bash -e -o pipefail -c runit ) || ( echo "Failed" ) Using my possible fix would translate the above to what is shown below. runit() { false echo "After failure" } ( set +e ( set -e -o pipefail; runit ) [ $? = 0 ] || ( echo "Failed" ) )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935286/why-does-cmd-and-cmd-foo-catch-errors-differently-in-cmd
+
+---
+
+#### 6655. Why is rsync excluding a file with delete/delete-excluded but not excluding a subdirectory with same name?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, rsync | Score: 4 | Views: 343 | Answers: 2 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+Excluding items named "core" will exclude both files and directories with that name. I don't know of a way to make a rule that only applies to files, not directories, but it's easy to override the exclude rule with an include rule that only applies to directories. Change your EXCLFILE to this: + core/ core The terminating / makes the first rule only apply to directories, and the " + " is shorthand for include , so the first line will be treated as an include rule even if it's in a rule file specified with --exclude-from . Note that it's important that the include rule come before the exclude rule, or else the exclude rule would take precedence.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933142/why-is-rsync-excluding-a-file-with-delete-delete-excluded-but-not-excluding-a-su
+
+---
+
+#### 6656. How do I exclude folders from the 'find' command when accepted solutions don't work?
+
+**问题描述 / Problem Description**:
+Tags: bash, find | Score: 4 | Views: 741 | Answers: 1 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+Start with a find command that includes the directory (i.e. uses -path as a positive match), and tune it until it outputs nothing else but the directory: $ find ~/Music/ -mindepth 1 -path archive [nothing] $ find ~/Music/ -mindepth 1 -path ./archive [nothing] $ find ~/Music/ -mindepth 1 -path ~/Music/archive /home/grawity/Music/archive This shows that "Instead, <exclude> must be given relative to <root> " is not actually true. It is not relative to the search root, but has the search root as a prefix – in other words, the -path input needs to look the same as find's output. In your linked example it only appears to be relative because the search root itself is relative (if the root is . , then the results naturally start with ./ as well), but if the root is absolute, then find's results (and therefore also -path inputs) are also absolute. Now that you have a command that successfully does a positive match, add -prune to achieve the opposite: $ find ~/Music/ -mindepth 1 -print | grep archive [1955 lines] $ find ~/Music/ -mindepth 1 -path ~/Music/archive -prune -o -print | grep archive [nothing] For clarity, I would use parens even if they're not strictly necessary: $ find ~/Music/ -mindepth 1 \( -path ~/Music/archive -prune \) -o \( -print \)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930906/how-do-i-exclude-folders-from-the-find-command-when-accepted-solutions-dont-w
+
+---
+
+#### 6657. How can I grep two different match combination of the file names with filter?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, grep | Score: 4 | Views: 543 | Answers: 4 | Created: 2025-09-30
+
+**解决方案 / Solution**:
+I think you're overthinking your regex: echo 'KLM11.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual KLM43.PM.Thirdqual.fourthqual KLM83.PM.Thirdqual.fourthqual.txt KLM04.TP.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt.sixthqual.seventhqual' | grep -E '(11|34)\.PM\.|\.(TP|OS)\.' KLM11.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual.txt KLM34.PM.Thirdqual.fourthqual KLM04.TP.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt KLM98.OS.Thirdqual.fourthqual.txt.sixthqual.seventhqual
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925795/how-can-i-grep-two-different-match-combination-of-the-file-names-with-filter
+
+---
+
+#### 6658. How to refer to the output of a command as an argument in the next command in Bash shell?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, command-line-arguments | Score: 4 | Views: 1023 | Answers: 5 | Created: 2025-08-07
+
+**解决方案 / Solution**:
+$_ doesn't refer to the output in any way, it usually refers to the last argument you used in previous command. You can't really refer to the output easily as that's not preserved, for various reasons. One of them is that the output could be extremely long for certain commands. The most obvious way to do it here would be to use a variable: res=$(find . -name "docker-compose*") Then echo it to check if there are multiple results: echo "$res" And lastly: vim -R "$res" You could shorten it to a single letter variable if needed. Or, if you use this specific flow often, write a function that takes something like search string as argument, then if there are multiple lines of results it outputs them and if there's one it executes vim (or anything provided through 2nd arg). Quick example: vimfind() { local results=() while IFS= read -r line; do results+=("$line") done < <(find . -name "$1") if (( ${#results[@]} == 1 )); then vim -R "${results[0]}" elif (( ${#results[@]} > 1 )); then printf '%s\n' "${results[@]}" fi } vimfind "docker-compose*"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916212/how-to-refer-to-the-output-of-a-command-as-an-argument-in-the-next-command-in-ba
+
+---
+
+#### 6659. How can I add multiple “.ass” files as soft multiple subtitles with FFmpeg?
+
+**问题描述 / Problem Description**:
+Tags: bash, audio, ffmpeg, video, subtitles | Score: 4 | Views: 669 | Answers: 2 | Created: 2025-06-17
+
+**解决方案 / Solution**:
+As far as I know, you cannot put SSA/ASS format subtitles in MP4 – the format only supports its own specific "MPEG-4 Timed Text" subtitle format (without any fancy formatting). FFmpeg can convert to that format: -c:s mov_text If you want to preserve ASS, you should instead generate a Matroska (.mkv) file: -c:s copy video_out.mkv More commonly mkvmerge or mkvtoolnix-gui are used for this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905391/how-can-i-add-multiple-ass-files-as-soft-multiple-subtitles-with-ffmpeg
+
+---
+
+#### 6660. How to sort a file which contains a list of file names in paragraphs and the size of the files as the header line?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, perl | Score: 4 | Views: 582 | Answers: 3 | Created: 2025-06-11
+
+**解决方案 / Solution**:
+Perl solution: perl -00 -we 'print join "\n", map s/\n+$/\n/r, sort { ($a =~ /^([0-9]+)/)[0] <=> ($b =~ /^([0-9]+)/)[0] } <>' < file -00 reads the input in paragraph mode, i.e. one record (records are separated by empty lines) at a time; <> is the same as readline , but in the paragraph mode, it reads the whole records; sort sorts the records by the first number (i.e. consecutive strings of digits); The map handles consistent newlines between the records in the output.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904615/how-to-sort-a-file-which-contains-a-list-of-file-names-in-paragraphs-and-the-siz
+
+---
+
+#### 6661. VSCode does not activate my Python venv, despite displaying the correct interpreter
+
+**问题描述 / Problem Description**:
+Tags: bash, python, visual-studio-code, vscode-extensions | Score: 4 | Views: 6157 | Answers: 1 | Created: 2025-05-16
+
+**解决方案 / Solution**:
+For ease of use I want to mention the solution mentioned in the github issue that Mohammad linked. They seem to be working on and deploying a fix at this moment, but for now you can fix the issue by opting out of one of their experimental features by adding this to your settings.json: "python.experiments.optOutFrom": [ "pythonTerminalEnvVarActivation"]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1898382/vscode-does-not-activate-my-python-venv-despite-displaying-the-correct-interpre
+
+---
+
+#### 6662. How can I replace one space with N spaces?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, sed, awk | Score: 4 | Views: 1236 | Answers: 6 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+column -t Since XY problem solution were welcome... I think this may be the case. I understand that you want your output to be human readable and aligned in column , so let's pipe everything to column -t . head -n20 $X | paste -sd' \n' | column -t Output of your input example full backup: 20250320-203112F repo1: backup set size: 4.4MB, backup size: 4.4MB full backup: 20250320-210501F repo1: backup set size: 4.4MB, backup size: 4.4MB full backup: 20250321-070502F repo1: backup set size: 7.7MB, backup size: 7.7MB incr backup: 20250321-070502F_20250321-100001I repo1: backup set size: 8.5MB, backup size: 2.8MB incr backup: 20250321-070502F_20250321-104502I repo1: backup set size: 43.5MB, backup size: 38MB incr backup: 20250321-070502F_20250321-104801I repo1: backup set size: 43.5MB, backup size: 465B incr backup: 20250321-070502F_20250322-070502I repo1: backup set size: 155.8MB, backup size: 150MB full backup: 20250323-070501F repo1: backup set size: 283.8MB, backup size: 283.8MB incr backup: 20250323-070501F_20250324-070501I repo1: backup set size: 411.9MB, backup size: 406.1MB incr backup: 20250323-070501F_20250325-070502I repo1: backup set size: 541.5MB, backup size: 535.8MB Notes: Each approach has pros and cons. With a rough replacement of a space with 8, you may have problems if at some point the spaces become 7 or 9 (in the file or in future). With strict formatting using printf string rules, such as "%35s", you may have problems with single longer strings that would not align with the preceding and following ones. You have two options, either cut the string (which creates problems if you use the field to identify something) or move the start of the following fields (which creates problems if you cut a substring from positions that you think are fixed and the same for all lines). With paste of multiple files and column -t you may instead have alignment problems in case of lines with different numbers of fields from the other lines, or files with different number of lines (also present with sed and printf substitutions). With column -t , if you have a single line with a longer field, you widen the column for all lines (but I believe this is the desired behavior, regardless of pathological cases) by adding many unnecessary blank characters. last but not least with column -t you have to treat with special care fields with spaces inside and words of different lenght, but this doesn't seem to be your case. From man column The column utility formats its input into multiple columns.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1891475/how-can-i-replace-one-space-with-n-spaces
+
+---
+
+#### 6663. How do I paste bash commands that contain sudo into a gnome-terminal?
+
+**问题描述 / Problem Description**:
+Tags: bash, sudo, gnome-terminal | Score: 4 | Views: 638 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+Analysis A possible cause may be the use_pty flag. See man 5 sudoers [emphasis mine]: use_pty If set, and sudo is running in a terminal, the command will be run in a new pseudo-terminal. If the sudo process is not attached to a terminal, use_pty has no effect. A malicious program run under sudo may be capable of injecting commands into the user's terminal or running a background process that retains access to the user's terminal device even after the main program has finished executing. By running the command in a separate pseudo-terminal, this attack is no longer possible. This flag is on by default for sudo 1.9.14 and above. With use_pty sudo acts as a relay and it will read its stdin as soon as possible, even if the inner command is not going to read its stdin. The situation is similar to what ssh does . The default behavior changed in the past; this explains why things stopped working for you. Solution You can restore the old behavior. Start an elevated shell with sudo -i , let this be a "just in case" shell. Elsewhere run sudo visudo and turn the flag off: Defaults !use_pty Save the file, exit the editor. Check if sudo still works for your regular user. If it doesn't work then use the elevated shell to fix the sudoers file. Exit the elevated shell only after you confirm that sudo works for your regular user. Note With !use_pty , the command run with sudo may read directly from the terminal and consume what you pasted. A command run without sudo also may. Your example commands do not do this, but in general a command may. And if your sudo was going to ask for password, it would also consume some part of what you pasted. This is something the bracketed paste can solve. To avoid mishaps, enable bracketed paste in your Bash: bind 'set enable-bracketed-paste on' and make sure your terminal emulator uses the functionality when pasting. If bracketed paste works, a pasted multi-line snippet (like the one in question) will not be executed on the fly. It will be buffered by the shell and executed after you hit Enter . This way everything you paste will get to the shell, not to some pasted command that (if started early) would read from its stdin and consume the rest of the input. With bracketed paste your snippet will work, no matter if use_pty is set or unset. For the reason explained in the cited manual it's good to set the flag. Bracketed paste enabled and working, and use_pty set in sudoers is the safest, most robust setup when you want to paste multi-line snippets containing sudo . It will work properly even if sudo is going to ask for your password. The concern from your comment "I don't see what output goes with what command" can be solved with set -v and/or set -x . See help set for details.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850258/how-do-i-paste-bash-commands-that-contain-sudo-into-a-gnome-terminal
+
+---
+
+#### 6664. Failed RDP connection - Failed to Start Remote Desktop Session
+
+**问题描述 / Problem Description**:
+Tags: linux, remote-desktop, fedora, gnome | Score: 4 | Views: 2186 | Answers: 1 | Created: 2024-03-19
+
+**解决方案 / Solution**:
+I just had the same problem, and I guessed that the error message "Session creation inhibited" might be related to the fact that I locked my screen before I left home. So I figured maybe unlocking it remotely might help: List your own sessions: loginctl Example output: martin@desktop ~ % loginctl SESSION UID USER SEAT LEADER CLASS TTY IDLE SINCE 2 1000 martin seat0 3554 user tty2 no - 3 1000 martin - 3621 manager - no - 6 1000 martin - 3024816 user pts/8 no - 7 1000 martin - 3059521 user pts/6 no - 4 sessions listed. The one you are looking for is the one with the seat, so in my case, session 2 . Unlock that session: loginctl <session> So in my case, loginctl unlock-session 2 . Afterwards I could connect.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1835796/failed-rdp-connection-failed-to-start-remote-desktop-session
+
+---
+
+#### 6665. How to exclude sensors from output?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, temperature, lm-sensors | Score: 4 | Views: 1988 | Answers: 1 | Created: 2024-01-30
+
+**解决方案 / Solution**:
+Following @harrymc's advice to check the output of sensors -u , I noticed there were several readings below each "AUXTIN*" entry: AUXTIN3: temp6_input: 26.000 temp6_max: 80.000 temp6_max_hyst: 75.000 temp6_crit: 100.000 temp6_alarm: 0.000 temp6_type: 4.000 temp6_offset: 0.000 temp6_beep: 0.000 So I changed the configuration to refer to these temp* values instead of AUXTIN* : chip "nct6798-*" ignore temp3 ignore temp4 ignore temp5 ignore temp6 ignore temp7 And it worked!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1828051/how-to-exclude-sensors-from-output
+
+---
+
+#### 6666. Root user in Fedora 38
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, root, administration, redhat-classic | Score: 4 | Views: 9098 | Answers: 1 | Created: 2023-07-18
+
+**解决方案 / Solution**:
+If you didn't get asked to setup a root password, it's because you created a user and checked the "Make this user an Admin User" checkbox and then didn't do the enable root step. To set a new root password : sudo su - passwd
+
+**参考链接 / References**:
+- https://superuser.com/questions/1797505/root-user-in-fedora-38
+
+---
+
+#### 6667. Unable to update with dnf because of a GPG check FAILED
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, gnupg, brave, dnf | Score: 4 | Views: 35835 | Answers: 2 | Created: 2023-05-22
+
+**解决方案 / Solution**:
+It's a recent issue of Brave Browser and its expired key. You can try completely uninstalling the package and removing the old key file: find key ID with rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n' remove with sudo rpm -e gpg-pubkey-[keyId] . Then reinstall with the new key: sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc sudo dnf install brave-browser
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785327/unable-to-update-with-dnf-because-of-a-gpg-check-failed
+
+---
+
+#### 6668. Compose key sequence for 'almost equal to' U2248 character stopped working in Fedora 37
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, keyboard-shortcuts, fedora, compose-key | Score: 4 | Views: 878 | Answers: 1 | Created: 2023-03-15
+
+**解决方案 / Solution**:
+This is IBus ignoring your /usr/share/X11/locale/en_US.UTF-8/Compose file. You can re-define combinations directly in your ~/.XCompose file. I used file from https://github.com/kragen/xcompose/blob/master/dotXCompose It contains many combinations, including Compose~~ as ≈
+
+**参考链接 / References**:
+- https://superuser.com/questions/1773921/compose-key-sequence-for-almost-equal-to-u2248-character-stopped-working-in-fe
+
+---
+
+#### 6669. How to disable RSA and ECDSA keys in openssh-server on Fedora Linux
+
+**问题描述 / Problem Description**:
+Tags: fedora, openssh, ssh-keys, sshd | Score: 4 | Views: 8707 | Answers: 3 | Created: 2023-01-17
+
+**解决方案 / Solution**:
+I presume you are using OpenSSH? First use ssh -Q key to list all the supported keys in your version. The relevant part in the manual is -Q cipher | cipher-auth | mac | kex | key | protocol-version Queries ssh for the algorithms supported for the specified version 2. The available features are: cipher (supported symmetric ciphers), cipher-auth (supported symmetric ciphers that support authenticated encryption), mac (supported message integrity codes), kex (key exchange algorithms), key (key types) and protocol-version (supported SSH protocol versions). With that information, set explicitly the ones you want in /etc/sshd_config and reload. For example: PubkeyAcceptedKeyTypes ssh-ed25519,ssh-ed25519-cert-v01@openssh.com
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763269/how-to-disable-rsa-and-ecdsa-keys-in-openssh-server-on-fedora-linux
+
+---
+
+#### 6670. How to install libc++.so in Fedora
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, c++, libraries, dnf | Score: 4 | Views: 5364 | Answers: 1 | Created: 2022-07-25
+
+**解决方案 / Solution**:
+libc++.so is provided by the libcxx package. You can install it using dnf : dnf install libcxx
+
+**参考链接 / References**:
+- https://superuser.com/questions/1733552/how-to-install-libc-so-in-fedora
+
+---
+
+#### 6671. How to create a new partition inside a .bin file with Bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, partitioning, google-chrome-os, shim | Score: 3 | Views: 599 | Answers: 2 | Created: 2026-05-23
+
+**解决方案 / Solution**:
+If it matters, the .bin file I'm trying to edit is specifically a Chrome OS RMA shim Yes, that matters. Apparently that .bin file is the image of a storage drive (aka "disk" image). That means that the first 512-byte block must contain an MBR sector. In order to manipulate such a drive image and modify its partition table, you could treat this file as if it were the device node for a storage drive (e.g. /dev/sda ). So a command such as parted /dev/sda can be replaced with parted <my drive image file> . BTW referring to this drive image file as just a .bin is confusing because more often a .bin refers to an executable file or simply an unspecified non-text file. I'm trying to create a new partition inside a .bin file ... the root directory already has all the shim stuff in it Avoid conflating the concepts of partition and filesystem; they are actually two distinct concepts, and implemented/handled by different layers in the kernel. The typical OS uses a partition as a container for a filesystem, e.g. ext4 or NTFS. A partition without an installed filesystem is not very useful.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937862/how-to-create-a-new-partition-inside-a-bin-file-with-bash
+
+---
+
+#### 6672. Fedora KDE: Menu not responding any more
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, kde, qt | Score: 3 | Views: 704 | Answers: 1 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+OK, after creating the file org.kde.kstart.desktop me@myPC:~>cat /usr/share/applications/org.kde.kstart.desktop [Desktop Entry] Type=Application Name=KStart Exec=org.kde.kstart Icon=some-icon Categories=Qt;KDE; the menue is responsible again. The widget to switch activities is still not reacting, but there are other ways to do that and the rest of the menue is now fine again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934220/fedora-kde-menu-not-responding-any-more
+
+---
+
+#### 6673. How can I send data (not commands) over SSH?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ssh | Score: 3 | Views: 1128 | Answers: 3 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+I think there are two different things you're mixing up: using a Telnet client to talk to non -Telnet servers (which only overlap with Telnet in their use of ASCII/NVT-based protocols); using a Telnet client to talk to actual Telnet servers which output custom things instead of a typical login prompt. Situation #1 involves arbitrary protocol-level data in the underlying packets already before the client interprets them, while #2 involves arbitrary data displayed to the user after the client interprets the protocol. IRC is a case of the former. Blinkenlights is a case of the latter. With the Telnet protocol it's hard to tell the difference, but it's a very important difference, and it means that case #2 is possible with SSH clients but case #1 is not – because in case #1 the proper protocol isn't spoken and only happens to work, thus if you tried to achieve #1 "using the SSH protocol" you would literally not be using the SSH protocol anymore. On the other hand, case #2 is not actually "raw data", it is something that specifically fits into the existing Telnet protocol (for example, Blinkenlights is still very much within the Telnet framework even if it's not a shell) and can be easily mapped to happen inside the SSH protocol or any other terminal-connection protocol. As one specific example, if there was a "telnettable" server like Blinkenlights but which provided access to an interactive game like Nethack, the server would actually have to speak at least a minimum of the proper Telnet protocol to switch the 'telnet' client from line-based to character-based input mode, so it would be a case of #2, not #1. (I've written both IRC servers and Telnet servers. Both are old protocols where the line between 'protocol' and 'user' interface is very thin – for Telnet it's practically by design and indeed FTP/SMTP were explicitly meant to be "telnettable" in the early days, but actual IRC clients have a similar issue where it's customary for user /commands to be mapped to raw protocol commands, blurring the line to great annoyance of IRC client developers.) You can also connect to IRC using telnet, because it's not confined to connecting to a shell. No, more precisely, the 'telnet' client is not limited to connecting to a Telnet server , because the Telnet protocol uses in-line control codes¹ and all of its negotiation is optional, so a Telnet client just so happens to be easily compatible with other ASCII-based protocols – but only as long as they don't use the same specific bytes that start a Telnet control code. Indeed when you connect to IRC using the telnet program, you aren't speaking the Telnet protocol at first: the 'telnet' client recognizes a non-standard port and doesn't actively send any negotiation. (If it were, the IRC server wouldn't understand any of it!) But it still understands Telnet negotiation, and you're mostly just lucky that none of the other users on IRC have thought to send you /msg's containing the special Telnet protocol control codes¹. The protocol handling is still there; you're not really transferring raw data. (You'd need a real raw TCP client like nc or socat for that purpose.) ¹ (Not to be confused with ANSI control codes, which are a different matter and are meant for your terminal.) With SSH – or really any other protocol – that doesn't work. For one, SSH negotiation has to happen when an SSH client talks to an SSH server. Simply letting it not happen on non-standard port numbers would rather defeat the point of an SSH client, which is to ensure an encrypted connection (and to authenticate the server, and also to provide the various "side-band" services). Second, the SSH protocol is structured completely differently, instead of free-flow data with in-line signalling it uses the complete opposite structure of messages or packets or frames, where each unit of data comes with a certain header. So even if the full SSH handshake were skipped somehow, just sending the keypress a would still transmit more data (a whole SSH protocol packet with its framing). If that weren't the case, then the SSH client wouldn't be an SSH client anymore. So really it's not that SSH is confined to a shell, but more that an SSH client can only talk to an SSH server. This rules out situation #1 (but doesn't rule out situation #2 as that still happens inside of the proper protocol). On SSH, the closest thing to this I know of is cat "text" | ssh user@host "cat > remote" . However, this seems really hacky and is still using SSH as a shell. Is it possible to use the SSH protocol to send bytes directly? Yes and no. First, in your IRC example, the Telnet client isn't really talking the Telnet protocol. The protocols overlap just enough, but you can't actually speak the full Telnet protocol to an IRC server. In the same way, you cannot speak the SSH protocol to an IRC server – if your "SSH client" talks IRC, then it no longer talks SSH by definition. Whereas in your Star Wars example, you're no longer "sending bytes directly"; you could be interacting with a proper Telnet server without realizing it. Unlike IRC, there is nothing special about Blinkenlights that bypasses the Telnet protocol – it can very well be a regular Telnet server that simply runs a different backend program than a shell – and even a standard "shell-oriented" SSH server like OpenSSH could be configured to do that with an SSH client. A whole custom SSH server could also be easily written that doesn't involve OpenSSH or running a separate "player" program but directly generates the output data. Golang is a popular choice since there's a Go module that implements the server side of SSH; there was an once slightly popular ssh-chat service, and another example is soft-serve . All of these fit into case #2 above. As a side note: The SSH protocol doesn't immediately dump you into a shell like it might seem – the client and server first negotiate a variety of channels with specific purposes. There is an "interactive shell" channel and a "specific command" channel and an "ssh-agent" channel and a "TCP/IP forward" channel and so on, each of which your client has to explicitly request. That is to say, in SSH the client doesn't just send data to the server, it first has to specify where to send that data – be it a command or a host:port or something else. (Unlike TLS, which is just a plain data pipe.) But it also means that even when it comes to ordinary "shell oriented" SSH servers like OpenSSH, running a single command is a different situation than attaching to an interactive shell, as the provided command isn't just "fake keyboard input" but causes the whole shell to be run differently, with the command fully separate from input. (Specifically, OpenSSH does bash -c "the command" .) Therefore your ssh "cat > foo" example is somewhat less hacky than using telnet , since it actually guarantees a clean 8-bit channel when invoked like this (with the SSH client automatically disabling tty allocation), without any possibility of certain bytes being misinterpreted as control codes. That's not the case when using the 'telnet' program, where e.g. byte 0xFF would look like the beginning of Telnet handshake. (Guarantees at SSH protocol level, that is. The remote shell is another matter. The shell doesn't interpret input in this situation either – it only interprets the provided command string – but… the shell can still print unnecessary stuff if improperly configured, as sometimes happens with .bashrc on some distributions.) Indeed your example is basically what most programs use to transfer raw binary data over SSH. They just don't use > shell redirection to do that, but instead run a custom "server" command to talk to – for example, pushing a Git repository over SSH runs git-receive-pack in exactly this way, and transferring files using SFTP runs sftp-server , and rsyncing files runs rsync --server , and so on. SFTP is a standard part of SSH, so that's what you'd normally use to send files. (I have a script called 'sftpipe' that takes data from stdin and writes it to a file over SSH using SFTP.) But you could just as well do tar -c | ssh somehost "tar -x" , and at SSH protocol level this provides a 8-bit-clean "pipe" to the remote command. Yes, with OpenSSH you're not avoiding a shell on the server side (not even with SFTP!) but again, the shell does not actually deal with your input/output in the first place – it doesn't sit as a "proxy" in front of the program's stdin/stdout – so that is generally not an issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934196/how-can-i-send-data-not-commands-over-ssh
+
+---
+
+#### 6674. Why does it seem that IPv6 not working on my Fedora 43 setup?
+
+**问题描述 / Problem Description**:
+Tags: networking, fedora, ping, ipv6 | Score: 3 | Views: 239 | Answers: 2 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+I restarted my router and it worked suddenly. But only my faulty device was affected.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933790/why-does-it-seem-that-ipv6-not-working-on-my-fedora-43-setup
+
+---
+
+#### 6675. How can get SFTP commands return codes?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sftp | Score: 3 | Views: 570 | Answers: 1 | Created: 2026-01-07
+
+**解决方案 / Solution**:
+The SFTP returns error code on command error in a batch mode only. So normally with -b batchfile switch. If you want to keep using input redirection for the commands, use -b - : https://man.openbsd.org/sftp#b
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933393/how-can-get-sftp-commands-return-codes
+
+---
+
+#### 6676. Trying to better understand how Bash select statement variables work
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables | Score: 3 | Views: 179 | Answers: 1 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+On a Ubuntu 24.04.3 LTS system with GNU bash, version 5.2.21(1)-release man bash has the following in the list of Shell Variables : COLUMNS Used by the select compound command to determine the terminal width when printing selection lists. Automatically set if the checkwinsize option is enabled or in an interactive shell upon receipt of a SIGWINCH. Note the mention that COLUMNS is set automatically if the checkwinsize option is enabled. On my system printing all options, as suggested by How can I list Bash's options for the current shell? , shows the checkwinsize option is set: $ echo $-; shopt -p ; shopt -po <snip> shopt -s checkwinsize Therefore, suggest you try unsetting the checkwinsize option in your script using: $ shopt -u checkwinsize
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932658/trying-to-better-understand-how-bash-select-statement-variables-work
+
+---
+
+#### 6677. sed command gives errror that I do not understand
+
+**问题描述 / Problem Description**:
+Tags: bash, sed | Score: 3 | Views: 150 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+I assume you want to collect executed commands and where they were run in ~/.cmd_history . Note this will look confusing for multi-line commands. Note this about PROMPT_COMMAND in the bash(1) manpage: PROMPT_COMMAND If this variable is set, and is an array, the value of each set element is executed as a command prior to issuing each primary prompt. If this is set but not an array variable, its value is used as a command to execute instead. So there is no need for command expansion ( $() ). For example, this works here: PROMPT_COMMAND="{ pwd | tr '\n' ':'; history 1 | sed -E 's/^ *[0-9]+ *//'; } >> ~/.cmd_history"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931299/sed-command-gives-errror-that-i-do-not-understand
+
+---
+
+#### 6678. ssh and find interact weirdly when no files match the find qualifiers
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, ssh, find, command-line-arguments | Score: 3 | Views: 705 | Answers: 1 | Created: 2025-11-06
+
+**解决方案 / Solution**:
+This is all about quoting (or the lack of it). Consider locally, find /var/log/postgresql -name '*log' -type f -size +4096c the quotes around *log are handled by the shell and tell it that the content is to be treated literally. So the shell passes these four characters to find . Specifically, it does not pass the quotes themselves as it's already used those to interpret the string as a literal. Now consider your remote invocation, ssh FISPCDSPGS401B find /var/log/postgresql -name '*log' -type f -size +4096c The local shell handles the quotes round *log exactly as before and this time passes the four character value to ssh . This in turn passes its resulting command line to the remote server FISPCDSPGS401B : find /var/log/postgresql -name *log -type f -size +4096c Notice that there are no quotes around *log because the local shell has already processed them. The *log either matches zero, one, or more files in the remote user's home directory. If it's zero you win and the two words -name *log are passed literally to find . If it's one match, for example to a file called analog , you get -name analog passed to find . If you get multiple matches find will crash and burn, trying to parse something like -name analog anotherlog nomoreplease.log -type f … . This last case is the cause of the error you're showing in your question. The solution is to provide outer quotes to the original ssh command so that the inner quotes around *log are not processed by the local shell but instead are included in the string passed to the remote host: ssh FISPCDSPGS401B "find /var/log/postgresql -name '*log' -type f -size +4096c"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929828/ssh-and-find-interact-weirdly-when-no-files-match-the-find-qualifiers
+
+---
+
+#### 6679. How to keep the tail of a logfile, and not the near-infinite debug spew before it?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, logging, debug, tail | Score: 3 | Views: 135 | Answers: 2 | Created: 2025-10-09
+
+**解决方案 / Solution**:
+curtail implements this by using filesystem features to truncate files from the beginning. It only works with certain filesystems. rotatelogs (comes as part of the Apache httpd webserver) implements something similar by flipping between 2 log files. Pipe your messages to rotatelogs -n2 foolog 4k (choose number and size as needed). Afterwards, cat together the files in last-modified order to get your "latest lines". This and this threads have suggestions for circular logging tools. I could not find a direct port of pfSense/FreeBSD's clog that would more directly use a ring buffer format (Google seems to insist that "linux ring buffer tool" means dmesg), but the alternatives will probably do the job. As a side note, your shell redirections seem to be out of order. 2>&1 doesn't permanently link 2 and 1 – it only redirects 2 to where 1 was pointing at that moment, and 2 is unaffected by any 1> redirections that happen later. Because of that, 2>&1 should generally be used after >logfile , not before, if the goal is to redirect both 1+2 into the same file. ( &>logfile is the Bash shortcut for the combined redirection.) If there is some specific reason you want it the current way, then the script should have a comment explaining why it's deliberately "backwards" from the typical usage.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926386/how-to-keep-the-tail-of-a-logfile-and-not-the-near-infinite-debug-spew-before-i
+
+---
+
+#### 6680. How to extract one part of a paragraph if a previous line matches an expression?
+
+**问题描述 / Problem Description**:
+Tags: bash, regex, grep, sed, awk | Score: 3 | Views: 395 | Answers: 4 | Created: 2025-07-10
+
+**解决方案 / Solution**:
+or even perl but I’d rather avoid if possible. Oh well. $ perl paras.pl paras.txt Time Delta for 1.2.3.5 is '9' #!/usr/bin/perl use strict; use warnings; local $/ = ""; # paragraph mode while (<>) { # read a para at a time from STDIN or from listed files if (/Mgmt IP\s+1.2.3.5.*Time Delta.{24}(\d+)/s) { print "Time Delta for 1.2.3.5 is '$1'\n"; } } or just $ perl -n -00 -e 'print "$1\n" if /Mgmt IP\s+1.2.3.5.*Time Delta.{24}(\d+)/s' paras.txt 9 I’d prefer a solution using grep, sed, awk See this answer to a different question for paragraph mode in awk.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909842/how-to-extract-one-part-of-a-paragraph-if-a-previous-line-matches-an-expression
+
+---
+
+#### 6681. Postfix service not producing logs in Ubuntu 24.04 Distrobox on Bazzite (Fedora Atomic)
+
+**问题描述 / Problem Description**:
+Tags: email, fedora, postfix | Score: 3 | Views: 328 | Answers: 1 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+There's no way to tell what is exactly going on with your problem given only this information. I'm not familiar with Kubuntu , Bazzite , restic , and have never used proton bridge . However, I have done a decent amount of work with postfix If you want to start the debugging process, I would start by checking the postfix conf files and the paths in there. If you're running postfix with something like systemctl and have something like journalctl integrated, I would check the service logs from the service runner itself. Most likely if you're not seeing "email receipts" you'd see an error higher up in the service stack If you've used postfix before, I assume you're aware of the network/port and file/folder permissions postfix needs, and have made sure other services (firewall) isn't interfering. Additionally, you may need to configure things such as allowed and sender domains to make sure the service can actually send an email from an account: http://www.postfix.org/BASIC_CONFIGURATION_README.html
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907715/postfix-service-not-producing-logs-in-ubuntu-24-04-distrobox-on-bazzite-fedora
+
+---
+
+#### 6682. Grow Btrfs root partition after VM disk resize (preserve /home XFS)
+
+**问题描述 / Problem Description**:
+Tags: linux | Score: 3 | Views: 1050 | Answers: 2 | Created: 2025-04-03
+
+**解决方案 / Solution**:
+You don't even need to go through all the effort of reshuffling partitions to change the size of /dev/sda2 in place. Btrfs natively supports using multiple underlying devices in a single file system, so adding space is as easy as creating a new partition in the new free space at the end of your virtual disk. This can all be done online with at most two simple reboots needed, no backup-restore needed at all (although having backups is strongly advised as always). Change your hypervisor configuration, resizing the underlying block device ( /dev/sda ). This might require rebooting the VM to apply the change. Alternatively, create a brand new VM disk instead of resizing the existing one if that's easier (might work without a reboot, depending on your hypervisor). fdisk /dev/sda Create a new partition number 5 in the newly added free space between partition 4 and the end of the disk. fdisk will likely do exactly that by default. If /dev/sda5 does not appear automatically, run partprobe /dev/sda . If that doesn't help, reboot the VM. btrfs device add /dev/sda5 / and enjoy your enlarged root file system.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178188/grow-btrfs-root-partition-after-vm-disk-resize-preserve-home-xfs
+
+---
+
+#### 6683. Mitigating High Volume Distributed Attack on Port 443 Targeting GET?POST /moodlee/index.php
+
+**问题描述 / Problem Description**:
+Tags: linux, web-server, hosting | Score: 3 | Views: 138 | Answers: 1 | Created: 2025-04-03
+
+**解决方案 / Solution**:
+You need to deploy something like Cloudflare or similar technology to block these attackers a few routing levels upstream. Long story short: You shouldn't be seeing this traffic at all, instead of dealing with its consequences.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178160/mitigating-high-volume-distributed-attack-on-port-443-targeting-getpost-moodle
+
+---
+
+#### 6684. Cache for specific directory over ext4
+
+**问题描述 / Problem Description**:
+Tags: linux, ext4 | Score: 3 | Views: 367 | Answers: 1 | Created: 2025-03-16
+
+**解决方案 / Solution**:
+There is a tool for this functionality . Please try vmtouch . https://hoytech.com/vmtouch/ Also see: https://serverfault.com/a/441443/13325
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175248/cache-for-specific-directory-over-ext4
+
+---
+
+#### 6685. Extend zone by connect SAN Switch to SAN Switch?
+
+**问题描述 / Problem Description**:
+Tags: linux, storage-area-network, connection, fibre-channel | Score: 3 | Views: 101 | Answers: 2 | Created: 2025-02-21
+
+**解决方案 / Solution**:
+Google your specific FC switch model to check whether it supports inter-switch link (ISL) and whether the feature is licensed. The result will determine your answer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173359/extend-zone-by-connect-san-switch-to-san-switch
+
+---
+
+#### 6686. Why does the terminal freeze every time I run `$EDITOR >(cmd)`?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 3 | Views: 575 | Answers: 1 | Created: 2025-02-19
+
+**解决方案 / Solution**:
+The editor is trying to read current text from the file you specified, as text editors generally do. Because nothing has been written to the pipe (yet the pipe is still open for writing), the editor will be forever stuck within the read() call waiting for data to arrive. To make the idea work you will need to create a named pipe using mkfifo . Start the editor, and (simultaneously, in background) cat/echo your text to the pipe – even if there is no text, it's still important to open and close the pipe for writing at least once – before giving the pipe to the "reader" program. This might be difficult to achieve in bash, as the reader needs to be already running when nano is asked to write the new text, yet must only be run after nano has already read the original text. It is a better idea to mktemp a regular temporary file. Using >(…) gives your editor both a file descriptor representing the 'write' end of the pipe (while cat is holding the 'read' end), and a /dev/fd/### style path to that file descriptor. Command line args: [ nano , /dev/fd/63 ] File descriptors: { 0 ←tty, 1 →tty, 2 →tty, 63 →pipe} But the editor does not specifically recognize /dev/fd paths as "this represents a FD which I already have, so let's just use that" – instead, the editor treats it like any other path, calling open() and getting a new file descriptor. (It remains unaware that it has the FD #63.) The way /dev/fd works on Linux, though (not just with pipes but with trying to re-open "file descriptor paths" in general) is that it is treated as a completely new attempt to open that file or object, rather than duplicating the file descriptor 1:1. Editor does: open("/dev/fd/63", O_RDONLY) ⇒ 3 FDs now: { 0 ←tty, 1 →tty, 2 →tty, 3 ←pipe, 63 →pipe} So if the editor opens this path for reading it will in fact get a file descriptor for the 'read' end of the pipe, not the 'write' end – and therefore, the subsequent read() calls will not immediately fail with a "trying to read from a write-only FD" error, as would have happened with the original FD, but will instead block waiting for data. In that sense, the Linux /dev/fd path to an anonymous pipe behaves just like a regular path to a named pipe would behave. If you were to create a pipe using mkfifo ~/foo , the editor would also open it for reading and would get stuck trying to read from it – until you echo'd something to the pipe. But on top of all that: pipes only report "end of file" when the write end is completely closed . So because the editor still unknowingly holds that original file descriptor #63 for the 'write' end, it means there is always an active writer – the editor itself – and even if it were able to receive some data through the pipe (e.g. written via manual 'echo'ing through /proc/PID/fd ), it would still keep waiting forever for the "end of file" indication. In effect the editor is deadlocked on itself. The latter problem doesn't happen with named pipes since there is no pre-existing open file descriptor to the pipe – the hypothetical echo yay > ~/yay is the only writer, so as soon as it exits, the editor will reach "EOF" and show you the text. So if you wish to experiment, I would strongly suggest experimenting with named pipes to get a more controlled environment than the methods involving /dev/fd .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1881251/why-does-the-terminal-freeze-every-time-i-run-editor-cmd
+
+---
+
+#### 6687. How to only download files from a certain number contained in the file name in a directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 3 | Views: 312 | Answers: 1 | Created: 2025-01-23
+
+**解决方案 / Solution**:
+Use the -a option to resume a download, automatically skipping files you already have: sftp> get -ar 00_fastq Similarly: Install lftp and use its mirror command to download only what's missing. $ lftp sftp://data.example.com lftp> mirror -v 00_fastq Both do mostly the same, though lftp's mirror seems like it might work better than OpenSSH sftp's auto resume. lftp also has wildcard support: lftp> cd 00_fastq lftp> lcd 00_fastq lftp> mget 1[4-9]* lftp> mget [2-9]* If you frequently lose connection to your cloud server which is doing the download, install tmux or screen and run sftp/lftp within the tmux session, which you'll be able to reattach later.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1871961/how-to-only-download-files-from-a-certain-number-contained-in-the-file-name-in-a
+
+---
+
+#### 6688. Display mystery: Danish characters in cygwin bash
+
+**问题描述 / Problem Description**:
+Tags: bash, cygwin, utf-8 | Score: 3 | Views: 113 | Answers: 1 | Created: 2025-01-08
+
+**解决方案 / Solution**:
+For what I see on https://www.utf8-chartable.de/ the UTF8 coding of the letter is U+00F8 ø c3 b8 LATIN SMALL LETTER O WITH STROKE The program #include <stdio.h> #include <stdlib.h> int main (int argc, char *argv[]) { printf("Søren"); exit (0); } produces $ ./prova | od -t x1 0000000 53 c3 b8 72 65 6e 0000006 same as $ echo -n "Søren"|od -t x1 0000000 53 c3 b8 72 65 6e 0000006 The problem you see is due to your file being codified in a different code page, specifically ISO-8859-14 https://en.wikipedia.org/wiki/Extended_Latin-8 where the letter ø is just a single byte F8 To prove: $ iconv -f UTF8 -t ISO-8859-14 prova.c > prova-8859-14.c $ gcc -Wall prova-8859-14.c -o prova-8859-14 $ ./prova-8859-14.exe | od -t x1 0000000 53 f8 72 65 6e 0000005
+
+**参考链接 / References**:
+- https://superuser.com/questions/1869703/display-mystery-danish-characters-in-cygwin-bash
+
+---
+
+#### 6689. ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+
+**问题描述 / Problem Description**:
+Tags: windows, bash, windows-subsystem-for-linux | Score: 3 | Views: 13012 | Answers: 1 | Created: 2024-12-21
+
+**解决方案 / Solution**:
+For anyone who stumbled across this error on Windows: wsl --list to find available distros. wsl --setdefault DISTRO-NAME to set default distro. I set it to Ubuntu & it fixed Bash on Terminal. Ref: https://github.com/microsoft/WSL/issues/9018 https://pureinfotech.com/set-default-distro-wsl2-windows-10/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1866988/error-createprocesscommon559-execvpe-bin-bash-failed-no-such-file-or-direc
+
+---
+
+#### 6690. Linux, How to stop or fix vlc messages in bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, audio, vlc-media-player, mp3 | Score: 3 | Views: 393 | Answers: 1 | Created: 2024-09-19
+
+**解决方案 / Solution**:
+The closest thing to an answer that I can find on VLC's bug tracker is this : It's this: Breakpoint 3, 0x00007fffd9bc6800 in QObject::~QObject() () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 (gdb) bt [#0](https://code.videolan.org/videolan/vlc/-/issues/0) 0x00007fffd9bc6800 in >QObject::~QObject() () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 [#1](https://code.videolan.org/videolan/vlc/-/issues/1) 0x00007fffd9f48289 in >?? () from /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5 [#2](https://code.videolan.org/videolan/vlc/-/issues/2) 0x00007ffff568be08 in >__run_exit_handlers (status=0, listp=0x7ffff59f45f8 <__exit_funcs>, run_list_atexit=run_list_atexit@entry=true) at exit.c:82 [#3](https://code.videolan.org/videolan/vlc/-/issues/3) 0x00007ffff568be55 in >__GI_exit (status=<optimized out>) at exit.c:104 [#4](https://code.videolan.org/videolan/vlc/-/issues/4) 0x00007ffff5676617 in >__libc_start_main (main=0x401b97 <main>, argc=1, argv=0x7fffffffe1d8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe1c8) at libc-start.c:325 [#5](https://code.videolan.org/videolan/vlc/-/issues/5) 0x00000000004018f9 in >_start () (gdb) c Continuing. QObject::~QObject: Timers cannot be stopped from another thread AFAIK, Qt documentation requires that QApplication be instantiated on the exiting thread. This violation of Qt API requirements was also why VLC crashes at exit within QtDbus with some versions of Qt. (Of course, this is a stupid requirements and doing anything non-trivial in static object is evil. But unless we add Qt to contribs and patch it in, that's a VLC bug.) --Rémi Denis-Courmont, @Courmisch That you only see those messages upon completion of playing the mp3 file -- "After audio finishes" -- tells me that what they observe there may be related to what you are seeing here. Given: that VLC is a QT application that the VLC team asks its users to use cvlc for terminal applications that the aforementioned bug is not tagged as fixed I suspect that you won't get a solution to this particular edge case from the VLC team, and you'll need to find some other way of handling the undesired output. The comments on your post about redirecting STDERR can help there. As for negating the need for Ctrl+C within a bash command or script... I'm unable to precisely replicate your particular failure mode, with the DBus error messages about the menu, but my VLC does simply pause after finishing playback, rather than closing: $ vlc music.mp3 VLC media player 3.0.21 Vetinari (revision 3.0.21-0-gdd8bfdbabe8) This necessitates either quitting via the interface, or a ^C command. However, investigating the detailed help options of VLC gives this useful nugget (I found the --longhelp --advanced flags from initially checking the vlc manpage a la man vlc ): $ vlc --longhelp --advanced | grep -i quit VLC media player 3.0.21 Vetinari (revision 3.0.21-0-gdd8bfdbabe8) vlc://quit Special item to quit VLC --global-key-quit <string> Quit --key-quit <string> Quit $ And, when I run the following, VLC quits upon finishing playing the mp3: $ vlc music.mp3 vlc://quit VLC media player 3.0.21 Vetinari (revision 3.0.21-0-gdd8bfdbabe8) [000055d8ffffd520] main libvlc: Running vlc with the default interface. Use 'cvlc' to use vlc without interface. [00007f6838003420] idummy demux: command `quit' $ echo $? 0 $ Perhaps tacking on vlc://quit to your vlc commands in the bash shell and scripts will be sufficient for getting around the "I have to ^C " roadblock. Edit: VLC also has the -q option for quiet output, which may or may not suppress some of the undesired messages. E.g., $ vlc -q music.mp3 vlc://quit VLC media player 3.0.21 Vetinari (revision 3.0.21-0-gdd8bfdbabe8) $ and for getting rid of the version: $ vlc -q music.mp3 vlc://quit 2>/dev/null $ (there is also a --no-version flag to vlc, but it does not appear to work on my particular install; perhaps it will work for you rather than redirecting STDERR to /dev/null)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856263/linux-how-to-stop-or-fix-vlc-messages-in-bash
+
+---
+
+#### 6691. bash see if element inside array is inside a different array
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, debian | Score: 3 | Views: 1806 | Answers: 2 | Created: 2024-06-18
+
+**解决方案 / Solution**:
+The thought was array2[c] = c which meant array1 would see "c" and therefore be true No, array indexing does not work like that. Currently both your arrays are numerically indexed; the index of the item 'c' in array2 is 0 and that's it – there is no additional feature that would automatically make an element have itself as its index. So the code really did not work as intended in the first place; it just so happened that array2[c] was interpreted as array2[0] , because the "c" in numeric context was taken to refer to the variable named 'c' – and since you have no such variable, the result quietly became 0 which coincides with the result you wanted. But if you tried the same thing with elements ordered a bit differently, you'd notice that ${array2[d]} also produces the item "c", and ${array2[e]} also produces "c", and if you do e=1 then ${array2[e]} produces "d". In all those cases, the array index is interpreted as an arithmetic expression (e.g. it allows ${array2[i+2]} and similar), not as a string to search for. With regular, numerically indexed arrays, you would need to loop over the indexes of both arrays to find a matching item: for (( i = 0; i < ${#array1[@]}; i++ )); do for (( j = 0; j < ${#array2[@]}; j++ )); do compare array1[i] to array2[j] here done done This is of course a bit slower since it might need n × m checks. To actually make array2[c] work, you would need to turn array2 into an associative array using declare -A . Associative arrays (aka 'dicts' or 'maps') use strings as keys/indices, which you need to specify for each element using the [key]=value syntax. Just to match the way you were trying to use the arrays, let's make the keys identical to the values: declare -A array2=( [b]=b [c.sh]=c.sh [d]=d [e]=e ) for (( i = 0; i < ${#array1[@]}; i++ )); do if [[ ${array1[i]} == "${array2[${array1[i]}]}" ]]; then echo "item '${array1[i]}' is present in array2" Now ${array2[e]} will actually return the value e and the comparison will work. But since the goal is to imitate sets, you could also go further and get rid of the (redundant) values entirely, replacing the equality test with a simpler "is value present" test: declare -A array2=([b]=1 [c.sh]=1 [d]=1 [e]=1) for (( i = 0; i < ${#array1[@]}; i++ )); do if [[ ${array2[${array1[i]}]} ]]; then echo "item '${array1[i]}' is present in array2" As a completely unrelated simplification, ${!var[@]} expands to array indices is an easier way to iterate over an array than the C-style loop: for i in "${!array1[@]}"; do if [[ ${array2[${array1[i]}]} ]]; then But in this case you're not using i for anything except retrieving the value, so you could simplify it further by iterating directly over the values of array1: for item in "${array1[@]}"; do if [[ ${array2[$item]} ]]; then This also works if both arrays are made into dicts, using the same ${!var[@]} to iterate over the string-based indices: declare -A array1=([a]=yes [b]=present [c.sh]=sure) declare -A array2=([b]=1 [c.sh]=1 [d]=1 [e]=1) for item in "${!array1[@]}"; do if [[ ${array2[$item]} ]]; then echo "Item '$item' is present as a key in both arrays" fi done
+
+**参考链接 / References**:
+- https://superuser.com/questions/1846237/bash-see-if-element-inside-array-is-inside-a-different-array
+
+---
+
+#### 6692. Fedora Core 39 Disable zram0
+
+**问题描述 / Problem Description**:
+Tags: fedora, swap, zram | Score: 3 | Views: 4899 | Answers: 1 | Created: 2024-02-09
+
+**解决方案 / Solution**:
+As recommended by Fedora Project[1]: touch /etc/systemd/zram-generator.conf However If there is a configuration existing using copy "null" and it will zero out the file as well as create it if it does not exist. The chattr +i will prevent upgrades from re-enabling it. cp /dev/null /etc/systemd/zram-generator.conf chattr +i /etc/systemd/zram-generator.conf 1.) https://fedoraproject.org/wiki/Changes/SwapOnZRAM#How_can_it_be_disabled
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829485/fedora-core-39-disable-zram0
+
+---
+
+#### 6693. Docker Container VNC initial frame very slow
+
+**问题描述 / Problem Description**:
+Tags: fedora, docker, vnc, tightvnc | Score: 3 | Views: 329 | Answers: 1 | Created: 2023-11-20
+
+**解决方案 / Solution**:
+I had similar problems, getting access to docker containers from the host OS. I used portainer as a gui, to build understanding and awareness of docker features. Using portainer, I created a new network, and allocated fixed IPs, and connected to the services via the port mapping. Use eg. macvlan or ipvlan, from memory. If that functions, you can work backwards from there to make it less tedious or manual. See https://docs.docker.com/network/network-tutorial-macvlan/ (using the Shell/Console & caveats) See https://docs.portainer.io/user/docker/networks/add (using the GUI) See https://www.howtogeek.com/devops/how-to-assign-a-static-ip-to-a-docker-container/ (using shell or console to publish the port mapping to the VNC service after the container is remade connected to the new network)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1817358/docker-container-vnc-initial-frame-very-slow
+
+---
+
+#### 6694. Noticable performance drop after upgrade to Fedora 39
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, performance, fedora | Score: 3 | Views: 1950 | Answers: 2 | Created: 2023-11-11
+
+**解决方案 / Solution**:
+Since op mentioned gaming performance, I'd like to address another possible cause for the performance drop that I encountered during my investigation. This may help future readers whose problem may not be related to disk performance at all. I had a problem with low framerate and occasional temporary freeze while gaming. In my case, the power saver was turned on. So I had to switch to either performance mode or balanced mode to make the stuttering go away. If you are using Gnome, then simply go to Settings>Power then select Performance or Balanced . If you have a hybrid graphics system you also wanna check if you are running your game with discrete graphics. Simply right click on the executable and select Run using dedicated graphics . You also need to make sure if you have the right driver installed for your discrete graphics card before that. Since I'm using nVidia graphics card with Xorg on gnome, I had nvidia-gpu-firmware , nvidia-settings and xorg-x11-drv-nvidia package installed. The rest of the packages shown below were dependencies installed by the package manager. $ dnf list --installed | grep nvidia akmod-nvidia.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver kmod-nvidia-6.6.7-200.fc39.x86_64.x86_64 3:545.29.06-1.fc39 @@commandline kmod-nvidia-6.6.8-200.fc39.x86_64.x86_64 3:545.29.06-2.fc39 @@commandline nvidia-gpu-firmware.noarch 20231211-1.fc39 @updates nvidia-modprobe.x86_64 3:545.29.06-1.fc39 @rpmfusion-nonfree-nvidia-driver nvidia-persistenced.x86_64 3:545.29.06-1.fc39 @rpmfusion-nonfree-nvidia-driver nvidia-settings.x86_64 3:545.29.06-1.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-cuda.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-cuda-libs.i686 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-cuda-libs.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-kmodsrc.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-libs.i686 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-libs.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver xorg-x11-drv-nvidia-power.x86_64 3:545.29.06-2.fc39 @rpmfusion-nonfree-nvidia-driver
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816289/noticable-performance-drop-after-upgrade-to-fedora-39
+
+---
+
+#### 6695. Change default shell to powershell in Neovim
+
+**问题描述 / Problem Description**:
+Tags: powershell, shell, vim | Score: 3 | Views: 10195 | Answers: 1 | Created: 2022-12-27
+
+**解决方案 / Solution**:
+How do I permanently change the default shell to PowerShell? Running :let ... or :set ... will change the settings only for that session. You can paste these lines to your vimrc (vim: C:\Users\<username>\_vimrc , neovim: C:\Users\<username>\AppData\Local\nvim\init.vim ) to make the change permanent. (Reopen vim to apply it) set shell=powershell set shellcmdflag=-command set shellquote=\" set shellxquote= Source: How do I make neovim use Powershell for external commands? : neovim See Also: Setting up Powershell as Vim's shell: command does not seem to be passed correctly - Stack Overflow PowerShell with Vim | Robin Douglas
+
+**参考链接 / References**:
+- https://superuser.com/questions/1759700/change-default-shell-to-powershell-in-neovim
+
+---
+
+#### 6696. How to alt-tab to the last focused window of an application in GNOME without all the other windows of that application appearing on top?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, fedora, gnome, alt-tab | Score: 3 | Views: 1984 | Answers: 1 | Created: 2022-04-10
+
+**解决方案 / Solution**:
+The extension Coverlfow Alt-Tab offers a way to do that. Configure the extension in the "Carousel" looping method. This matches the "normal" Microsoft Windows looping order.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1715532/how-to-alt-tab-to-the-last-focused-window-of-an-application-in-gnome-without-all
+
+---
+
+#### 6697. Increase disk space for Fedora Live CD
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, fedora, wine, livecd | Score: 3 | Views: 1572 | Answers: 1 | Created: 2022-03-31
+
+**解决方案 / Solution**:
+Somehow the build in a docker was failing, but in a running Fedora (the same version as the target LIVE CD ISO) it was working fine. sudo dnf -y install livecd-tools fedora-kickstarts zstd mc # /usr/share/spin-kickstarts # xfce add space : vi fedora-live-base.ks # part / --size 14000 # ws fedora-live-workstation.ks part / --size 14000 ## !! uncomment rawhide :: fedora-repo.ks ## for fedora 35 : comment 'auth' in fedora-live-base
+
+**参考链接 / References**:
+- https://superuser.com/questions/1713781/increase-disk-space-for-fedora-live-cd
+
+---
+
+#### 6698. Unlock keyring of auto-logged-in user
+
+**问题描述 / Problem Description**:
+Tags: fedora, screen-sharing, gnome-keyring | Score: 3 | Views: 6753 | Answers: 1 | Created: 2022-02-12
+
+**解决方案 / Solution**:
+I've finally found a workable solution in this post from UNIX stackexchange . Basically, create a script which must be sourced from an SSH remote login session: echo 'NOTE: This script will only work if launched via source or .' >&2 echo -n 'Login password: ' >&2 read -s _UNLOCK_PASSWORD || return killall -q -u "$(whoami)" gnome-keyring-daemon eval $(echo -n "${_UNLOCK_PASSWORD}" \ | gnome-keyring-daemon --daemonize --login \ | sed -e 's/^/export /') unset _UNLOCK_PASSWORD echo '' >&2
+
+**参考链接 / References**:
+- https://superuser.com/questions/1704543/unlock-keyring-of-auto-logged-in-user
+
+---
+
+#### 6699. How to use a “case” statement inside a select statement in Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 185 | Answers: 1 | Created: 2025-12-26
+
+**解决方案 / Solution**:
+I'm fairly certain the *) option in the case statement never executes It does. Run the script and enter 4 four times. keep a count of empty responses There's nothing like an empty response, regardless of case being involved or not. From help select : If the line is empty, WORDS and the prompt are redisplayed. select doesn't proceed if the reply is empty.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932908/how-to-use-a-case-statement-inside-a-select-statement-in-bash-script
+
+---
+
+#### 6700. How to capture the “enter” key as input in a Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 2 | Views: 328 | Answers: 1 | Created: 2025-12-25
+
+**解决方案 / Solution**:
+tl;dr With select : no (unless in some very cumbersome way that involves more than Bash). Analysis This is what help select prints in Bash 5.2.37 [formatting and emphasis mine]: select : select NAME [in WORDS ... ;] do COMMANDS; done Select words from a list and execute commands. The WORDS are expanded, generating a list of words. The set of expanded words is printed on the standard error, each preceded by a number. […] The PS3 prompt is then displayed and a line read from the standard input. If the line consists of the number corresponding to one of the displayed words, then NAME is set to that word. If the line is empty, WORDS and the prompt are redisplayed. If EOF is read, the command completes. Any other value read causes NAME to be set to null. […] COMMANDS are executed after each selection until a break command is executed. […] select expects a number. What it expects does not depend on any word you pass in WORDS . Sole Enter sends an empty line. Bash states explicitly: if the line is empty, WORDS and the prompt are redisplayed. The only way to select the 2nd (in general: Nth) line by pressing just Enter is to make Enter result in 2\n for select to read (instead of sole \n ). If Bash used Readline when handling select (which is a keyword) then this could be done by configuring Readline, I think; but it does not use Readline, it uses the line discipline. The line discipline can be configured to convert \r (generated by Enter ) into \n , this is what it actually does when you run select ; but there is no way to make the line discipline convert \r to 2\n . Under tmux there is a way to make Enter result in the sequence normally sent by 2 Enter : tmux bind-key -T root Enter 'send 2; send Enter' If your script (running under tmux) called this before select (and called tmux unbind-key -T root Enter later to revert), then you would kinda achieved what you want. Still this would affect Enter for other tmux panes and tmux windows for you. I think it is possible to restrict this for a specific pane, cumbersome though, so I won't even try. Similarly you may be able to make Enter result in the sequence normally sent by 2 Enter by configuring the terminal emulator that provides a tty for the script. Doing this from within the script may or may not be easy (if possible at all), depending on which terminal emulator you use. When using a virtual console, you probably could achieve what you want by using loadkeys and a custom file. This has its own problems . There are probably other ways: rlwrap , expect , … One way or another: cumbersome, requiring and affecting more than Bash that runs select . Alternative If you really want sole Enter to trigger a specific action, rewrite your script using read (in a loop if appropriate) instead of select . An empty line will not be special, you will be able to detect it and do whatever you want in response.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932870/how-to-capture-the-enter-key-as-input-in-a-bash-script
+
+---
+
+#### 6701. How to change a string on the line for a specific parameter (we don’t know the string value) in a Linux Bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, sed, awk, string | Score: 2 | Views: 272 | Answers: 2 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+For $ cat toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p!ass@w0rq -c domainOrganizationUnit command -u serviceaccount -p p!ass@w0rq -z $ZONE -a $FQDN -c domainOrganizationUnit This $ sed 's/ -p [^ ]*/ -p p1wrd!cmd/' toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p1wrd!cmd -c domainOrganizationUnit command -u serviceaccount -p p1wrd!cmd -z $ZONE -a $FQDN -c domainOrganizationUnit or to only change passwords for a specific command "command" $ sed 's/^\(command.*\) -p [^ ]*/\1 -p p1wrd!cmd/' toto1.sh command -z $ZONE -a $FQDN -u serviceaccount -p p1wrd!cmd -c domainOrganizationUnit command -u serviceaccount -p p1wrd!cmd -z $ZONE -a $FQDN -c domainOrganizationUnit This assumes old passwords never contain spaces and the commands are never continued across multiple lines etc. I would test carefully on a range of inputs and maybe insert code into toto1.sh that checks for and guards against syntax errors by checking return codes from commands. The above is a literal-minded answer but I would advocate using the far less risky approach outlined in the comment by Kamil Maciorowski . If toto1.sh is always used interactively, you could also consider having toto1.sh prompt for the password every time, using a method that doesn't display the password as it is typed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926722/how-to-change-a-string-on-the-line-for-a-specific-parameter-we-don-t-know-the-s
+
+---
+
+#### 6702. How to download highest quality (video and audio), and embed thumbnail with yt-dlp?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ffmpeg, video, yt-dlp | Score: 2 | Views: 3029 | Answers: 2 | Created: 2025-09-16
+
+**解决方案 / Solution**:
+You might be looking for --merge-output-format or -t , both of which choose the container that the best video/audio streams get combined into with ffmpeg, without reencoding. MKV would be a good choice for the container that easily supports thumbnails. Which you then add with --embed-thumbnail as normally. So the command could be something like this: yt-dlp -t mkv --embed-thumbnail -o output.mkv https://youtube.com/watch?v=YXRFgYWhRLw You don't need to specify best video/audio format as that's the default.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924786/how-to-download-highest-quality-video-and-audio-and-embed-thumbnail-with-yt-d
+
+---
+
+#### 6703. Use find, exec, basename and xargs to save file selection to different folder
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, find | Score: 2 | Views: 119 | Answers: 2 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+Are you open to an alternative approach? mkdir Photoshoot-{all,selection,raw} touch Photoshoot-all/{1..10}.{JPG,CR3} touch Photoshoot-selection/{1,3,7}.JPG Which gives me: ./Photoshoot-raw ./Photoshoot-all ./Photoshoot-all/3.JPG ./Photoshoot-all/8.JPG ./Photoshoot-all/2.CR3 ./Photoshoot-all/10.JPG ./Photoshoot-all/5.CR3 ./Photoshoot-all/9.JPG ./Photoshoot-all/10.CR3 ./Photoshoot-all/7.JPG ./Photoshoot-all/1.CR3 ./Photoshoot-all/6.CR3 ./Photoshoot-all/7.CR3 ./Photoshoot-all/1.JPG ./Photoshoot-all/9.CR3 ./Photoshoot-all/5.JPG ./Photoshoot-all/2.JPG ./Photoshoot-all/8.CR3 ./Photoshoot-all/4.JPG ./Photoshoot-all/3.CR3 ./Photoshoot-all/4.CR3 ./Photoshoot-all/6.JPG ./Photoshoot-selection ./Photoshoot-selection/3.JPG ./Photoshoot-selection/7.JPG ./Photoshoot-selection/1.JPG And with that we can: find Photoshoot-selection/ -type f -printf "%f\n" | sed 's/.JPG//' | xargs -I{} cp Photoshoot-all/"{}".CR3 Photoshoot-raw/. find . ./Photoshoot-raw ./Photoshoot-raw/1.CR3 ./Photoshoot-raw/7.CR3 ./Photoshoot-raw/3.CR3 ./Photoshoot-all ./Photoshoot-all/3.JPG ./Photoshoot-all/8.JPG ./Photoshoot-all/2.CR3 ./Photoshoot-all/10.JPG ./Photoshoot-all/5.CR3 ./Photoshoot-all/9.JPG ./Photoshoot-all/10.CR3 ./Photoshoot-all/7.JPG ./Photoshoot-all/1.CR3 ./Photoshoot-all/6.CR3 ./Photoshoot-all/7.CR3 ./Photoshoot-all/1.JPG ./Photoshoot-all/9.CR3 ./Photoshoot-all/5.JPG ./Photoshoot-all/2.JPG ./Photoshoot-all/8.CR3 ./Photoshoot-all/4.JPG ./Photoshoot-all/3.CR3 ./Photoshoot-all/4.CR3 ./Photoshoot-all/6.JPG ./Photoshoot-selection ./Photoshoot-selection/3.JPG ./Photoshoot-selection/7.JPG ./Photoshoot-selection/1.JPG
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923955/use-find-exec-basename-and-xargs-to-save-file-selection-to-different-folder
+
+---
+
+#### 6704. bash regex: match a word or its plural
+
+**问题描述 / Problem Description**:
+Tags: bash, regex, string | Score: 2 | Views: 266 | Answers: 2 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+[[ $X =~ rows?\)$ ]] && echo matches s? matches zero or one occurrences of s .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921858/bash-regex-match-a-word-or-its-plural
+
+---
+
+#### 6705. Rofi wayland requires support for the layer shell protocol
+
+**问题描述 / Problem Description**:
+Tags: fedora, launcher | Score: 2 | Views: 1031 | Answers: 1 | Created: 2025-08-19
+
+**解决方案 / Solution**:
+Currently, rofi does not work in GNOME Wayland, as already reported on the official GitHub page: https://github.com/davatorium/rofi/issues/2214 https://github.com/davatorium/rofi/discussions/2216
+
+**参考链接 / References**:
+- https://superuser.com/questions/1919301/rofi-wayland-requires-support-for-the-layer-shell-protocol
+
+---
+
+#### 6706. How do I remap mouse left click to mouse scroll wheel on Fedora 42
+
+**问题描述 / Problem Description**:
+Tags: linux, mouse, fedora, mouse-click, mouse-wheel | Score: 2 | Views: 572 | Answers: 1 | Created: 2025-08-08
+
+**解决方案 / Solution**:
+For reliable mouse wheel to left-click remapping on Fedora 42, I did some research on this topic and found some solutions that might work for you in this case. The first approach uses evemu with a Python script, which tends to handle fast scrolling better than input-remapper since it intercepts events at a lower level: # Install evemu sudo dnf install python3-evdev # Create a Python script (save as mouse_remap.py) #!/usr/bin/env python3 from evdev import InputDevice, categorize, ecodes, UInput import time # Find your mouse device (check with: sudo evdev-devices) dev = InputDevice('/dev/input/eventX') # Replace X with your mouse number ui = UInput() for event in dev.read_loop(): if event.type == ecodes.EV_REL and event.code == ecodes.REL_WHEEL: # Convert each scroll notch to a click if event.value != 0: # Mouse down ui.write(ecodes.EV_KEY, ecodes.BTN_LEFT, 1) ui.syn() time.sleep(0.01) # Small delay # Mouse up ui.write(ecodes.EV_KEY, ecodes.BTN_LEFT, 0) ui.syn() else: # Pass through other events ui.write_event(event) ui.syn() Run with: sudo python3 mouse_remap.py Alternatively, if you're using X11, you could try xbindkeys with xdotool , though this might not be as responsive with rapid scrolling: # Install required tools sudo dnf install xbindkeys xdotool xev # Create ~/.xbindkeysrc echo '"xdotool click 1" b:4 "xdotool click 1" b:5' > ~/.xbindkeysrc # Start xbindkeys xbindkeys The evemu approach should handle fast scrolling more reliably since it processes events before they reach the desktop environment, avoiding the timing issues you experienced.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916491/how-do-i-remap-mouse-left-click-to-mouse-scroll-wheel-on-fedora-42
+
+---
+
+#### 6707. Why does terminal output saved with script or watch contain weird characters, and how do I fix it?"
+
+**问题描述 / Problem Description**:
+Tags: bash, script, redirection, tee, watch | Score: 2 | Views: 175 | Answers: 1 | Created: 2025-08-07
+
+**解决方案 / Solution**:
+In Unix/Linux all the communication to the terminal (terminal emulator), i.e. to the device (or program) that displays text for you to see, gets to it within a single stream. Printable characters are within the stream along with characters that move the cursor (e.g. backspace, newline) and escape sequences that can clear the screen, set colors, move the cursor in more complex way or do other things. When you save the output of program(s) that believe they are sending to a terminal, you save all this. watch is designed to print to a terminal and it does not change its behavior even when printing to a pipe or to a regular file. Other programs may change their behavior ( example ). script is designed to intercept output by creating a tty the child and its descendants will use and they will believe they are printing to a terminal, while they are printing to script which acts as a proxy between them and the actual tty. (This is why script can be used to capture from programs that change their behavior , if this is what you want.) There is no side channel that could carry unprintable characters and escape sequences separately and thus allow you to save only the "main channel" easily. There is just one channel. In some cases the terminal even responds and it does it as if you typed because it's the only channel it has. (Example: Why is the output of Device Status Report sent to the standard input instead of output? ) The "something weird" you saw in your file is normal. Usually we don't see it as weird because the terminal interprets all the "weirdness". In fact the "weirdness" is there exactly for the terminal to interpret it. There are ways to process your file(s) later. See How to clean up output of Linux script command and How to convert escape sequences to text while preserving display format . Use script with --log-timing , then you can use scriptreplay to play it back. Example: script --log-timing script.tm --log-out script.out --command 'timeout 10 watch date' scriptreplay --log-timing script.tm --log-out script.out --maxdelay 0.8
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916107/why-does-terminal-output-saved-with-script-or-watch-contain-weird-characters-an
+
+---
+
+#### 6708. What is an "extended boot partition?"
+
+**问题描述 / Problem Description**:
+Tags: boot, partitioning, fedora | Score: 2 | Views: 980 | Answers: 2 | Created: 2025-07-31
+
+**解决方案 / Solution**:
+Windows does not support Ext4 (not counting a janky third-party driver). Thus an Ext4 partition cannot be a Windows boot partition. Generally /boot is just a regular boot partition for Linux. Distributions make it a dedicated partition so that it could use a simpler filesystem than the whole of / – that way, even if your bootloader (GRUB) cannot directly understand e.g. a fancy ZFS-based / , it is enough for it to be able to load the kernel from an ordinary Ext4-based /boot . This convention predates EFI. In a way, /boot is similar to the EFI System Partition, and indeed often the same partition serves both purposes. But many distributions avoid such sharing and deliberately keep /boot separate from the ESP, as modern Linux kernels can simply be too large to fit within a generic Windows-factory-created ESP.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914218/what-is-an-extended-boot-partition
+
+---
+
+#### 6709. Bash script iterate through directory and delete zip file
+
+**问题描述 / Problem Description**:
+Tags: bash, zip, bash-scripting | Score: 2 | Views: 218 | Answers: 1 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+check out this $ exa -TF . ./ ├── eliot/ │ ├── v1/ │ │ ├── 1.txt │ │ └── v1.zip │ └── v2/ ├── mike/ └── superuser-1908096.sh* #! /usr/bin/env bash WORKDIR=~/superuser-1908096 echo "Working directory: $WORKDIR" for each_customer in "$WORKDIR"/*; do [ -d "$each_customer" ] || continue echo "customer: $each_customer" for each_vehicle in "$each_customer"/*; do [ -d "$each_vehicle" ] || continue echo " vehicle: $each_vehicle" zipName="$(basename "$each_vehicle").zip" zipPath="$each_vehicle/$zipName" if [ -f "$zipPath" ]; then printf " " && rm --verbose "$zipPath" fi if [ -z "$(/usr/bin/ls -A "$each_vehicle")" ]; then echo " skip empty directory" continue fi ( cd "$each_vehicle" || exit echo " create new zip file: $zipName" zip -r "$zipName" ./* 1> /dev/null 2>&1 ) done done
+
+**参考链接 / References**:
+- https://superuser.com/questions/1908096/bash-script-iterate-through-directory-and-delete-zip-file
+
+---
+
+#### 6710. Why am I getting errors when attempting to install wifiphisher on Kali Linux USB?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, python | Score: 2 | Views: 743 | Answers: 2 | Created: 2025-05-31
+
+**解决方案 / Solution**:
+From your error message: ModuleNotFoundError: No module named 'ConfigParser' Have you considered installing ConfigParser ?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903167/why-am-i-getting-errors-when-attempting-to-install-wifiphisher-on-kali-linux-usb
+
+---
+
+#### 6711. How do I disable special Bash tab completion for the firefox command?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, firefox | Score: 2 | Views: 104 | Answers: 1 | Created: 2025-04-22
+
+**解决方案 / Solution**:
+Create a ~/.local/share/bash-completion/completions/firefox (or firefox.bash ), which must define some kind of custom completion using complete . For example, the file at minimum should have: complete -f firefox for basic file completion. You can also directly define complete -f firefox in your ~/.bashrc, and it seems like that will stop bash-completion from auto-loading completions at all.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893164/how-do-i-disable-special-bash-tab-completion-for-the-firefox-command
+
+---
+
+#### 6712. How to install Linux on the device it booted from?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, installation, fedora, anaconda | Score: 2 | Views: 190 | Answers: 1 | Created: 2025-03-11
+
+**解决方案 / Solution**:
+Add rd.live.ram=1 to the boot arguments. If you use UEFI boot, press e and append this to the end of the linux line, if BIOS, press TAB and append to kernel line.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885454/how-to-install-linux-on-the-device-it-booted-from
+
+---
+
+#### 6713. ffmpeg seems cant detect escaped character on file name?
+
+**问题描述 / Problem Description**:
+Tags: bash, ffmpeg | Score: 2 | Views: 896 | Answers: 1 | Created: 2025-01-23
+
+**解决方案 / Solution**:
+That's because escaping isn't for ffmpeg in the first place – it's there for the shell. It's the shell's job to split the command into 'words' (at which point it handles quoting/escaping and expands wildcards) while the actual programs such as ffmpeg expect to receive only the "clean" values in their argv[]. The difference you mention is because quoting and escaping are handled when reading your command input: a plain space is treated as a word separator, but an escaped \ becomes an ordinary space as soon as is read – not at some later point when the variables are expanded, but as early as possible. For example, if you have an assignment like file=One\ two\ three.mp4 or equally file="One two three.mp4" , then the backslashes (or quotes) are handled at input parsing time and don't become part of the value. Which means that if you somehow have backslash escapes within the value of a variable, there is no additional "late" un-escaping that would be performed when that variable is expanded. (Likewise, if you run ffmpeg -i "One two.mkv" One\ two.avi , this immediately becomes four "words" with all quoting removed: ffmpeg , -i , One two.mkv , One two.avi , so ffmpeg never gets to deal with backslashes.) That is the problem with trying to use $(ls -Q) (and the cause for the difference between it and direct input), as the results of the $() expansion (or any other expansion) undergo only word-splitting by IFS but not unquoting, so you end up with f values that have literal backslashes within them. And when "$f" is expanded later, there is likewise no unquoting of its value either, so you still have arguments that have literal backslashes within them. The usual suggestion is to not use for $(ls) in any way, shape, or form. As mentioned, it's the shell that expands wildcards, so a basic for f in $(ls ./*.mp4) would be much better written as a direct for f in ./*.mp4 – without any need to mess with IFS – and if you need a recursive expansion, then Bash offers the 'globstar' option: shopt -s globstar for f in ./**/*.mp4; do ... And if you absolutely must use the output of ls --quoting... or some other program that outputs shell-quoted values, then the values would need to be explicitly unquoted using e.g. "${var@E}" or some careful usage of eval (preferably not).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1871679/ffmpeg-seems-cant-detect-escaped-character-on-file-name
+
+---
+
+#### 6714. Bash Script Fails to Find and Update Specific Line with `grep` and `sed`
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, grep, sed | Score: 2 | Views: 151 | Answers: 1 | Created: 2024-11-04
+
+**解决方案 / Solution**:
+Using grep -F makes it possible to specify a fixed string instead of a regular expression. No such option exists for sed , though, so sed uses the string as a regular expression, and fails: becuase $ and [@] have special meaning in regular expressions. The following works for me: Remove the -F from both calls to grep . Use the following expression as the 3rd parameter to update_wayland : 'exec /opt/spotify/spotify "\${SPOTIFY_USER_FLAGS\[@\]}" "\$@"'
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860724/bash-script-fails-to-find-and-update-specific-line-with-grep-and-sed
+
+---
+
+#### 6715. Can I find from which directory a command was executed?
+
+**问题描述 / Problem Description**:
+Tags: bash, process, environment-variables, process-explorer | Score: 2 | Views: 435 | Answers: 2 | Created: 2024-09-27
+
+**解决方案 / Solution**:
+You can use the pwdx command which is designed specifically for this purpose to report the current working directory of a process . In ps aux you can easily find the PID of this one using ps aux | grep "find . -type f" (or if you have it already) Use this PID with pwdx <PID> You can also make it in one run as: pwdx $(ps aux | grep '[f]ind . -type f' | awk '{print $2}') Another way to do it (useful for some systems that don't come with pwdx but do have ls ) can be what @Kamil Maciorowski mentioned in the comments: ls -l /proc/<PID>/cwd
+
+**参考链接 / References**:
+- https://superuser.com/questions/1857070/can-i-find-from-which-directory-a-command-was-executed
+
+---
+
+#### 6716. Better way to concat many files other than tail?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash, tail | Score: 2 | Views: 197 | Answers: 2 | Created: 2024-09-23
+
+**解决方案 / Solution**:
+tail has a -q option to suppress printing of headers when multiple files are being processed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1856675/better-way-to-concat-many-files-other-than-tail
+
+---
+
+#### 6717. Group the output of ps/top/htop by user?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, top, ps, htop | Score: 2 | Views: 304 | Answers: 1 | Created: 2024-08-23
+
+**解决方案 / Solution**:
+With systemd, start with something like systemd-cgtop to collect the cgroup-level task/cpu/memory counters from /sys/fs/cgroup . (It collects information from all cgroups; you want to limit it to only user-*.slice , so you'll most likely need to write your own tool that mimics it.) This needs CPU accounting to be enabled in user.slice, but that's active by default in current versions. Note that 'tasks' also includes threads, not only whole processes, so large numbers are to be expected. (Without systemd – it would still be the purpose of cgroups to provide this kind of accounting, so I'd find some way to move user sessions into cgroups regardless, e.g. using libcgroup-pam.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1853268/group-the-output-of-ps-top-htop-by-user
+
+---
+
+#### 6718. Will DNF also upgrade my installation of PostgreSQL 16?
+
+**问题描述 / Problem Description**:
+Tags: fedora, postgresql, dnf | Score: 2 | Views: 336 | Answers: 1 | Created: 2024-08-20
+
+**解决方案 / Solution**:
+dnf will update minor versions only i.e. 17.2 to 17.4 These are binary compatible, the update will ensure security patches etc. are applied.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852913/will-dnf-also-upgrade-my-installation-of-postgresql-16
+
+---
+
+#### 6719. KSH PS1 adding spacing when tabbing
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ksh, ps1 | Score: 2 | Views: 45 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+I found the answer, % can actually work in KSH . You just have to add the line setopt promptpercent before your PS1
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850220/ksh-ps1-adding-spacing-when-tabbing
+
+---
+
+#### 6720. In which cases outputs of basename "$x" and echo "${x##*/}" differ?
+
+**问题描述 / Problem Description**:
+Tags: bash, filenames | Score: 2 | Views: 86 | Answers: 1 | Created: 2024-07-12
+
+**解决方案 / Solution**:
+The specification of basename includes the following: SYNOPSIS basename string [suffix] DESCRIPTION The string operand shall be treated as a pathname […]. The string string shall be converted to the filename corresponding to the last pathname component in string and then the suffix string suffix , if present, shall be removed. This shall be done by performing actions equivalent to the following steps in order: If string is a null string, it is unspecified whether the resulting string is . or a null string. In either case, skip steps 2 through 6. If string is // , it is implementation-defined whether steps 3 to 6 are skipped or processed. If string consists entirely of <slash> characters, string shall be set to a single <slash> character. In this case, skip steps 4 to 6. If there are any trailing <slash> characters in string, they shall be removed. If there are any <slash> characters remaining in string, the prefix of string up to and including the last <slash> character in string shall be removed. If the suffix operand is present, is not identical to the characters remaining in string , and is identical to a suffix of the characters remaining in string , the suffix suffix shall be removed from string . Otherwise, string is not modified by this step. It shall not be considered an error if suffix is not found in string . The resulting string shall be written to standard output. Your ${x##*/} gets expanded according to this specification : ${parameter##[word]} Remove Largest Prefix Pattern. The word shall be expanded to produce a pattern. The parameter expansion shall then result in parameter , with the largest portion of the prefix matched by the pattern deleted. So it basically does what the step number 5 in the specification of basename should do. You are asking about basename "$x" (as opposed to basename "$x" suffix ), so the step number 6 is irrelevant. This means that (almost*) all differences between basename "$x" and echo "${x##*/}" must come from the steps 1 to 4. Examples: # from step 1 (there may or may not be a difference, # depending on implementation of basename) x=''; basename "$x"; echo "${x##*/}" # from step 2 (there may or may not be a difference, # depending on implementation of basename) x='//foo'; basename "$x"; echo "${x##*/}" # from step 3 x='/////'; basename "$x"; echo "${x##*/}" # from step 4 x='foo/'; basename "$x"; echo "${x##*/}" * I wrote "almost" because there are few additional possibilities. Among them: basename may interpret arguments as options and also echo possibly supports some options (by POSIX it shall not; but GNU echo does, echo builtins in several shells do). This leads to differences of their own type: # there may or may not be differences and/or errors x=--help; basename "$x"; echo "${x##*/}" x=-n; basename "$x"; echo "${x##*/}" x=--; basename "$x"; echo "${x##*/}" See What does -- (double dash / double hyphen) mean? and Why is printf better than echo ? echo is usually a shell builtin, but basename is usually an external program; so if you break your $PATH … (PATH=; x='xxx/yyy'; basename "$x"; echo "${x##*/}")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848920/in-which-cases-outputs-of-basename-x-and-echo-x-differ
+
+---
+
+#### 6721. Emacs top bar doesn't follow system theme in Fedora
+
+**问题描述 / Problem Description**:
+Tags: fedora, emacs, gnome, themes, dark-mode | Score: 2 | Views: 766 | Answers: 1 | Created: 2024-06-30
+
+**解决方案 / Solution**:
+If you're not able to do custom color preference edits, I was able to get the Emacs GUI (the GUI window/not the background of the terminal) to enter a dark mode using gnome-tweaks in Gnome. On the Appearance tab, next to Legacy Applications, select Adwaita-dark . It seems that Emacs relies on this Legacy implementation and won't follow some theme selections, so you might need to find a route like this one. Adwaita-dark worked well and the GUI window updates immediately when it is selected from the Legacy Applications menu. I'd love to hear the explanation of why this works from someone more knowledgeable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847595/emacs-top-bar-doesnt-follow-system-theme-in-fedora
+
+---
+
+#### 6722. Provide argument while starting a service using systemctl
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 2 | Views: 2312 | Answers: 1 | Created: 2024-06-25
+
+**解决方案 / Solution**:
+Part of systemd's design is that services started from a terminal are subject to exactly the same rules and environment as during system startup (and vice versa) – they can't be directly passed any one-off commands or arguments because there would be no way to express them in terms of startup dependencies. So the only way to provide custom arguments to a "pre-defined" systemd service is to turn it into a template unit, which can receive one argument as part of the instance name : Rename your unit to <name>@.service to indicate that it's a template. mv load-simulator.service load-simulator@.service Make the unit use %i or %I to fill in the instance argument ( %i does no processing while %I applies some un-escaping rules). For example: ExecStart=/etc/init.d/loadsim start %i or, to avoid the redundant init.d script (which are generally not recommended to be used with systemd as they tend to make its monitoring features ineffective): Environment=USED_PROFILE=%i ExecStart=/usr/bin/loadsim --profile=${USED_PROFILE} or: ExecStart=/usr/bin/loadsim --profile=%i Start it using systemctl: systemctl start load-simulator@low Note that because the argument becomes part of the unit's name, systemd will allow multiple copies of the same template to be started with different arguments – e.g. it will allow one sim@low.service and one sim@high.service to be started at the same time, and both of them are likewise separate from the original non-templated sim.service . If you don't want to allow multiple instances, the service program needs to have its own locking (using flock or some other kind of lock file); e.g. flock /run/loadsim.lock /bin/loadsim ... If the "service" isn't so much a service as it is a one-off command that only relies on some other systemd feature (e.g. memory limits), systemd-run can be used to start arbitrary commands with such parameters.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1846985/provide-argument-while-starting-a-service-using-systemctl
+
+---
+
+#### 6723. Cygwin bash script file fails silently
+
+**问题描述 / Problem Description**:
+Tags: bash, cygwin, diff | Score: 2 | Views: 168 | Answers: 1 | Created: 2024-06-04
+
+**解决方案 / Solution**:
+Which interpreter are you using ? bash or sh ? In all cases, try this: It catch your potential faulty command into a variable (a for instance), while keeping a return code ($?) coherent to your diff success or not. Of course the commannd output is stored in the $a variable, and may be displayed after (with echo command). This is purely "voodoo" (i agree with the comment XD), but this may help keeping the script running even if diff encunter sme weird fails. #!/bin/bash ... echo -e "Running diff...\r\n" a=$(diff -qr /cygdrive/d/Data/Tools/Scripts/ /cygdrive/e/Backups/Data/Tools/Scripts) return_code="$?" echo "$a" echo "Return code: ${return_code}"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1844819/cygwin-bash-script-file-fails-silently
+
+---
+
+#### 6724. How to properly use bluetooth dongle in Fedora 39
+
+**问题描述 / Problem Description**:
+Tags: linux, mouse, fedora, bluetooth, dongle | Score: 2 | Views: 511 | Answers: 1 | Created: 2024-04-21
+
+**解决方案 / Solution**:
+If anyone lands here. Check out this link to work with several dongles. FYI: the mouse problems I mention in my question are resovled by the lates sudo dnf update command. Actually, the bluez package got updated and included a fix.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1839869/how-to-properly-use-bluetooth-dongle-in-fedora-39
+
+---
+
+#### 6725. How to disable Ctrl+Shift+u keyboard shortcut (unicode-selector) in Fedora 39 KDE-Spin (Wayland)
+
+**问题描述 / Problem Description**:
+Tags: fedora, shortcuts, kde, unicode, wayland | Score: 2 | Views: 701 | Answers: 1 | Created: 2023-12-24
+
+**解决方案 / Solution**:
+KDE usually ships with the fcitx5 input method. To configure, try System Settings -> Input Method -> configure addons (near the bottom) Look for Unicode. You can rebind this by clicking the configure button, or check Show Advance options at the bottom and disable it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1822967/how-to-disable-ctrlshiftu-keyboard-shortcut-unicode-selector-in-fedora-39-kd
+
+---
+
+#### 6726. How to password protect grub boot menu in Fedora 38?
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub2 | Score: 2 | Views: 4166 | Answers: 2 | Created: 2023-07-30
+
+**解决方案 / Solution**:
+This is a bug in grub2-set-password in UEFI boot systems. grub2-set-password stores the resulting password in /boot/grub2/user.cfg , which would be the correct location for legacy BIOS boot. UEFI boot tries to read this information from ${prefix}/user.cfg , which - based on an experiment - seems to map to /boot/efi/EFI/fedora/user.cfg . As a temporary solution, the following solves the problem in an UEFI boot system (this is the experiment referred to above), call grub2-set-password to generate the password mv /boot/grub2/user.cfg /boot/efi/EFI/fedora/ Calling grub2-mkconfig after this does not seem to be necessary: all the code for reading the password is already in /boot/efi/EFI/fedora/grub.cfg even before the password is generated and stored.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1801209/how-to-password-protect-grub-boot-menu-in-fedora-38
+
+---
+
+#### 6727. Pure-FTPD : How to make anonymous/ftp user allowed to rename and delete file?
+
+**问题描述 / Problem Description**:
+Tags: linux, ftp, fedora, pure-ftpd | Score: 2 | Views: 3657 | Answers: 1 | Created: 2023-06-13
+
+**解决方案 / Solution**:
+N.B.: I don't use any ftpd , including Pure-FTPd (though it looks quite nice), and this answer is based solely on reviewing source code and build logs. It's possible that Fedora modified the source code and/or the build logs don't represent/show all the configuration options possible for building Pure-FTPd . Pure-FTPd is _"designed with security in mind" so it's not surprising that anonymous access operations are restricted by default. The OP states that the FTP server will be on a "trusted network" and presumably with trusted users so relaxing security in this environment may be an acceptable risk. Command line arguments (see man page or GitHub README ) and configuration file options can allow some anonymous user operations, however, it seems that anonymous user delete permission can only be enabled at build time . Snippets from pure-ftpd 's src/ftpd.c : ... void dodele(char *name) { #ifndef ANON_CAN_DELETE if (guest != 0) { addreply_noformat(550, MSG_ANON_CANT_DELETE); return; } #endif ... void dormd(char *name) { #ifdef QUOTAS Quota quota; #endif #ifndef ANON_CAN_DELETE if (guest != 0) { addreply_noformat(550, MSG_ANON_CANT_RMD); return; } #endif ... Looking at Fedora's build log , there doesn't seem to be any setting for ANON_CAN_DELETE that would allow anonymous user delete permission. The OP may need to build pure-ftpd with all the desired permissions enabled or perhaps find another package to install that already has the desired options enabled.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1788766/pure-ftpd-how-to-make-anonymous-ftp-user-allowed-to-rename-and-delete-file
+
+---
+
+#### 6728. Connect to GNOME Online Accounts with commande line
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, fedora, gnome, bash-scripting | Score: 2 | Views: 2699 | Answers: 1 | Created: 2022-12-18
+
+**解决方案 / Solution**:
+I found a solution. This solution can help, I'll post it here. In your actuall Gnome personnal home folder go to .config/goa-1.0 goa = Gnome Online Account 1.0 at this time maybe it will be another version for you. In goa-1.0 you should find a conf file « accounts.conf » If you have added an online account in Gnome parameters. accounts.conf example : [Account account_1875320154_0] Provider=owncloud Identity=username PresentationIdentity=username@account-url.com CalendarEnabled=false ContactsEnabled=false FilesEnabled=true Uri=https://account-url.com AcceptSslErrors=false save and past « accounts.conf » in your new Gnome installation. Same folder /home/user/.config/goa-1.0. A network link appears automatically in Nautilus Go to Gnome paramaters --> @ Online accouts a warning message prompts you to enter your online account password. Enter your password and everything should be OK. In my case, the post-installation script will create the accounts.conf file automatically. It may not be the best way, but it works. Et voilà :)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758371/connect-to-gnome-online-accounts-with-commande-line
+
+---
+
+#### 6729. Fedora 36 hangs on kernel 5.19.16-200.fc36
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, fedora, freeze, kernel | Score: 2 | Views: 767 | Answers: 3 | Created: 2022-10-21
+
+**解决方案 / Solution**:
+I updated today and my computer only stays on the start up screen of ASUS after choosing 5.19.16.201 in the boot menu. Choosing 5.19.15.201 instead works like before.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1748821/fedora-36-hangs-on-kernel-5-19-16-200-fc36
+
+---
+
+#### 6730. Why can't I add flatpak repos?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, flatpak | Score: 2 | Views: 2851 | Answers: 1 | Created: 2022-10-13
+
+**解决方案 / Solution**:
+Ok, found it. For some strange reasons flathub seems to have been installed before but set to disabled in /var/lib/flatpak/repo/config [remote "flathub"] url=https://dl.flathub.org/repo/ xa.title=Fedora Flathub Selection ... xa.description-is-set=true xa.disable=true Removing this line helped me, but another way would have been to just add the repo as user: flatpak remote-add --user flathub https://flathub.org/repo/flathub.flatpakrepo
+
+**参考链接 / References**:
+- https://superuser.com/questions/1747288/why-cant-i-add-flatpak-repos
+
+---
+
+#### 6731. Preserve command history in chronological order (in fish)
+
+**问题描述 / Problem Description**:
+Tags: command-line, shell, fish | Score: 2 | Views: 992 | Answers: 1 | Created: 2022-10-10
+
+**解决方案 / Solution**:
+There's no configuration to do this automatically with the history function itself, no. From the Fish docs : Any duplicate history items are automatically removed. However, if the goal is simply to capture the what you entered so that you can review the commands later (in the proper context), that's it's entirely possible via scripting. At a simple level, what you want to do is simply save every command entered at the prompt into a file that doesn't remove duplicates. Create the following function in ~/.config/fish/conf.d/save_full_history.fish : function log_command --on-event fish_preexec echo $argv[1] >> ~/.local/share/fish/fish_full_history end That does a few things: By having it in ~/.config/fish/conf.d , it will automatically load the function every time Fish starts. This is done through conf.d since --on-event (and other) hooks aren't activated in lazy-loaded Fish functions. Using the --on-event fish_preexec , the function runs just after Enter is pressed for each command. The function receives the full commandline that was entered as $argv[1] , saving it to the ~/.local/share/fish/fish_full_history file for future review. You could, of course, add something like a timestamp to this. E.g.: echo $(date --iso-8601=ns) --- $argv[1] >> ~/.local/share/fish/fish_full_history You could also create a separate function (it can be in the same file) that executed on fish_posterror to make a note in the file when the command resulted in an error.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1746807/preserve-command-history-in-chronological-order-in-fish
+
+---
+
+#### 6732. Oracle VM VirtualBox: Failed to open a session for the virtual machine
+
+**问题描述 / Problem Description**:
+Tags: linux, virtualbox, virtual-machine, virtualization, fedora | Score: 2 | Views: 4357 | Answers: 1 | Created: 2022-09-23
+
+**解决方案 / Solution**:
+Disabling the secure boot from the BIOS setting worked.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1744026/oracle-vm-virtualbox-failed-to-open-a-session-for-the-virtual-machine
+
+---
+
+#### 6733. What is Fedora Workstation's system font?
+
+**问题描述 / Problem Description**:
+Tags: fedora, fonts, visual-studio-code | Score: 2 | Views: 6513 | Answers: 1 | Created: 2022-05-21
+
+**解决方案 / Solution**:
+What is Fedora Workstation's system font? Fedora Linux 36 has just changed the default font to Noto: Under-the-hood changes throughout Fedora Linux 36 The Noto fonts are now used by default for many languages. This provides greater coverage for different character sets. For users who write in the Malayalam script, the new Meera and RIT Rachana fonts are now the default. Source: What’s new in Fedora Workstation 36 - Fedora Magazine Previous version used DejaVu fonts for European and other language scripts. But not all languages are covered by DejaVu so there are also other fonts involved. Source: Fedora 36 Looking To Change Its Default Fonts - Phoronix See Also: Changes/DefaultToNotoFonts - Fedora Project Wiki
+
+**参考链接 / References**:
+- https://superuser.com/questions/1722134/what-is-fedora-workstations-system-font
+
+---
+
+#### 6734. What is the default user/pass for Fedora 35 ARM images?
+
+**问题描述 / Problem Description**:
+Tags: fedora, login, arm | Score: 2 | Views: 9750 | Answers: 1 | Created: 2022-02-22
+
+**解决方案 / Solution**:
+@ mashuptwice is right; there is no default password. However I installed this on a Raspberry Pi 4 compute module, and when it booted, it came to a menu with options to set a user/root password/timezone. But stupidly, it also gives you the option to 'quit'. when you quit it just goes to a boot prompt asking for a username/password. There is no fix for this, no way to get back to that setup menu, so it has to be reinstalled at that point. It's a terribly flawed design.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1706261/what-is-the-default-user-pass-for-fedora-35-arm-images
+
+---
+
+#### 6735. How to truncate a zipped file?
+
+**问题描述 / Problem Description**:
+Tags: linux, compression | Score: 1 | Views: 418 | Answers: 3 | Created: 2026-05-14
+
+**解决方案 / Solution**:
+Events in a log file are arranged chronologically - oldest events on top, newest at bottom. Truncating a log file deletes latest events and only saves the oldest ones. Most likely, you might just as well delete the whole file. Instead, you should use logrotate . It can create monthly, weekly, daily, even hourly logs, compress them or simply delete old logs, all with a single command. Moreover, you can set up background log rotation to maintain the files completely automatically. https://linuxconfig.org/logrotate
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198987/how-to-truncate-a-zipped-file
+
+---
+
+#### 6736. Running spamd as a deamon denied by blocked socket
+
+**问题描述 / Problem Description**:
+Tags: networking, bash, sockets | Score: 1 | Views: 75 | Answers: 1 | Created: 2026-05-11
+
+**解决方案 / Solution**:
+Historically, TCP and UDP ports numbers below 1024 are privileged, requiring something like an OS administrator user to use. Note the "Permission denied" message rather than something about it being in use. Today, most of the applications using those ports are obsolete. However, it does prevent causal listening on the well-known ports where most things happen these days: ssh, http, or email. Which may be better security on systems with untrusted people using them, but mostly an annoyance if it is just you. On Linux, the low port number is configurable via sysctl. Drop in a file: # /etc/sysctl.d/net.conf net.ipv4.ip_unprivileged_port_start = 783 And sysctl --system or reboot. You will want a service manager to start spamd as a background job. Rather than starting it manually in a terminal session. Ubuntu packages a systemd unit for spamd. The system service manager can run things as root, which can listen on any port it want. Or if you are using it in a container, there are other ways to start an entry point. Although then you would need to figure out networking in and out of the container. However its started, with the unprivileged_port set lower, it technically is possible to do systemd user units, or rootless containers, and listen on that port.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937514/running-spamd-as-a-deamon-denied-by-blocked-socket
+
+---
+
+#### 6737. Postfix trying to deliver mail using old MX entries
+
+**问题描述 / Problem Description**:
+Tags: linux, postfix, email-server | Score: 1 | Views: 364 | Answers: 1 | Created: 2026-05-07
+
+**解决方案 / Solution**:
+This sounds more like normal Postfix behavior than a DNS cache issue. Postfix caches destination information and may continue trying previously known Outlook endpoints until the queue is retried or expires. Also check whether those IPs belong to Microsoft's mail infrastructure. Outlook/Microsoft 365 often uses a large pool of mail servers, so the IP Postfix connects to may not match the ones returned by a DNS lookup at that exact moment.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198928/postfix-trying-to-deliver-mail-using-old-mx-entries
+
+---
+
+#### 6738. MySQL does not respond to TCP connections from network namespaces in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, mysql, linux-networking, network-namespace | Score: 1 | Views: 88 | Answers: 1 | Created: 2026-03-10
+
+**解决方案 / Solution**:
+It sounds like MySQL is listening on the host, but traffic from that namespace is getting blocked before it reaches mysqld. Check host firewall rules (iptables/nftables) and whether MySQL is actually listening on 192.168.254.1:3306 with ss -lntp | grep 3306. The fact that SSH works but MySQL doesn't makes me think it's a firewall or interface binding issue rather than a namespace problem.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198419/mysql-does-not-respond-to-tcp-connections-from-network-namespaces-in-linux
+
+---
+
+#### 6739. Why does searching an email address via grep on this site not give any results?
+
+**问题描述 / Problem Description**:
+Tags: bash, email, grep, url, screen-scraping | Score: 1 | Views: 1856 | Answers: 2 | Created: 2026-03-08
+
+**解决方案 / Solution**:
+You won't be able to do it easily for hundreds of URLs. Websites implement security measures for displayed emails to prevent: spamming scam attempts scraping to mass databases While this one, which seems to be just dynamically loaded with help of JavaScript, might be obtainable with headless browser or tool like Puppeteer , the question is almost impossible to answer for a large number of websites . They might use various type of security to remove/obfuscate/change the email address or not let you get contents of the website at all. Here are some examples: user agent verification checking of various window/navigator JavaScript properties missing/undesired headers tons of other fingerprinting methods just being behind Cloudflare can cause you massive CLI access troubles, depending on protection level This subject is wide and way beyond a single answer here, you will need to learn a scraping tool and master it with tons of available materials regarding this topic.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935663/why-does-searching-an-email-address-via-grep-on-this-site-not-give-any-results
+
+---
+
+#### 6740. Why are Flatpak icons missing even after restart?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, icons, bug, flatpak | Score: 1 | Views: 239 | Answers: 1 | Created: 2026-02-23
+
+**解决方案 / Solution**:
+If your Flatpak icons aren't showing up even after a reboot, your environment is likely failing to source the Flatpak export paths (check for warnings in sudo flatpak repair ). This is often due to permission issues or a broken profile script. To fix it, manually add the export directory /var/lib/flatpak/exports/share to your PATH
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935213/why-are-flatpak-icons-missing-even-after-restart
+
+---
+
+#### 6741. Why am I getting "Too many levels of symbolic links" mount error on specific system combination with Samba?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, samba | Score: 1 | Views: 86 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+This problem seems to be specific for that Kernel range. But it can be circumvented for a share when the option msdfs root = no. One has to be careful as there are global and share specific settings. Maybe also check with testparm.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935119/why-am-i-getting-too-many-levels-of-symbolic-links-mount-error-on-specific-sys
+
+---
+
+#### 6742. Why am I unable to find and select a Dell Inspiron 7506s SSD to install Linux from a USB flash drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, linux-mint, dell-inspiron | Score: 1 | Views: 130 | Answers: 1 | Created: 2025-12-23
+
+**解决方案 / Solution**:
+So, this is the answer on how I got to finally install Linux Mint 22.2 -- after I googled the error it gave me, and followed the steps to stop the drives. So I followed the usual steps of trying to install and failing and I googled the error and got this AI generated response: The suggestion that worked for me was "3. RAID Array". Below is the screenshot of the before and after: Then the installer was able to see half of the drive: 512 GB in total. So I went ahead with the install and now I use Linux Mint from the hard drive. Thank you very much all for your helpful suggestions. While I am here, I also want to go ahead and list some of the BIOS settings when I finally got here: Boot Configuration > Secure Boot > Enable Secure Boot : OFF (was ON originally) Boot Configuration > Secure Boot Mode: Deployed Mode Boot Configuration > Expert Key Management > Enable Custom Mode: OFF Storage > SATA/NVMe Operation > Operation Mode: AHCI/NMVe (was RAID On originally) Storage > Storage Interface > Port Enablement > M.2 PCIe SSD: ON Security > Intel Platform Trust Technology: OFF Security > SMM Security Mitigation: OFF Security > Absolute: Disabled Security > UEFI Boot Path Security: Never
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932802/why-am-i-unable-to-find-and-select-a-dell-inspiron-7506s-ssd-to-install-linux-fr
+
+---
+
+#### 6743. Login loop Fedora 43 KDE Plasma w/ nvidia gpu
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, nvidia-graphics-card, kde | Score: 1 | Views: 378 | Answers: 1 | Created: 2025-12-16
+
+**解决方案 / Solution**:
+You just need to select Plasma (X11) on the login screen. Then your NVIDIA GPU will work properly, SDDM will not crash, and your games should run smoothly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932532/login-loop-fedora-43-kde-plasma-w-nvidia-gpu
+
+---
+
+#### 6744. How to clone an SSD with Fedora 43 on a BTRFS partition?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, disk-cloning | Score: 1 | Views: 347 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+The dd command copies everything, including the filesystem UUID. Since both drives now have the same BTRFS UUID, your system gets confused and shows it as "unknown." You're on the right track with btrfs send/receive. First, you'll need to create a new BTRFS filesystem on the target partition (mkfs.btrfs), then use btrfs send | btrfs receiveto copy the data. This will generate a new UUID for the clone, which is what you want. Just remember to update your /etc/fstaband bootloader on the external drive to use the new BTRFS partition's UUID afterward.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929941/how-to-clone-an-ssd-with-fedora-43-on-a-btrfs-partition
+
+---
+
+#### 6745. How to configure QTCreator to use bash-language-server?
+
+**问题描述 / Problem Description**:
+Tags: bash, qt, msys2 | Score: 1 | Views: 60 | Answers: 1 | Created: 2025-10-23
+
+**解决方案 / Solution**:
+For all systems, you must specify "start" as the argument. For windows, rather than using sh and passing in the path to the script, instead use the .cmd version of bash-language-server . Note that on Windows it will only work partially, as there is no ShellCheck for MSYS2.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927138/how-to-configure-qtcreator-to-use-bash-language-server
+
+---
+
+#### 6746. Why is pasting into Nano editor via SSH so painfully slow or even hanging without recovery?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ssh | Score: 1 | Views: 350 | Answers: 1 | Created: 2025-09-19
+
+**解决方案 / Solution**:
+Yes, large pastes into a terminal can be lost partway through. I have seen it for remote servers tens of milliseconds away, although network latency is not the only factor in the problem. A text mode editor is sending characters through the terminal system. This has input buffering separate from file buffer on stdin, or any network buffer for ssh over IP. An obscure C library function to set various parameters is tcsetattr , although I instead remember on Linux man stdin . Input is line by line, and if a buffer is exceeded input is discarded. Plus other complications on how I/O works. It is code designed for humans typing, doesn't always work the best when sent many KB all at once. Which editor you use is a complicating factor. Some do terminal control with readline functions, others roll their own. Maybe try a different editor just to see if the terminal behaves better in this situation. For example vim, remember :set paste to turn formatting off. Most effective way around the problem is to not paste more than maybe 1000 characters into a terminal over ssh. Remote copy files: sftp over ssh, curl over https. Once they are local, you can copy and manipulate how you like. As the contents in this case is shell profile things like aliases, could set things up so that you can drop in files, and not have to edit them to integrate with what is already there. Also is much easier to automate. On Red Hat, /etc/profile.d/*.sh has a few shell drop-ins for various purposes. Or you could script something similar to source ~/.profile.d/*.sh or whatever.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925021/why-is-pasting-into-nano-editor-via-ssh-so-painfully-slow-or-even-hanging-withou
+
+---
+
+#### 6747. How to completely power off Windows SSD when booting into Linux and vice versa?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, boot, ssd, fedora | Score: 1 | Views: 161 | Answers: 1 | Created: 2025-07-30
+
+**解决方案 / Solution**:
+If BIOS has a setting to disable a drive, that is likely the most secure way to prevent accidentally writing to it. Use Windows Power Options to turn off a HDD (not SSD) after a certain length of inactivity. Use sudo hdparm -y /dev/sda to turn off a drive in Linux, You can also put each OS on external SSD's, and remove the internal one. Whether doing any of these would save enough power to be worth the trouble is questionable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1913977/how-to-completely-power-off-windows-ssd-when-booting-into-linux-and-vice-versa
+
+---
+
+#### 6748. Systemd: service to stop main service, run housekeeping then restart main service
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, systemd | Score: 1 | Views: 314 | Answers: 1 | Created: 2025-07-15
+
+**解决方案 / Solution**:
+Units can "chain" to a different unit using OnFailure= and OnSuccess= settings. (The former exists in all relevant systemd versions, but the latter requires systemd v249.) So you might be able to achieve this using: [Unit] Conflicts=main.service OnFailure=main.service OnSuccess=main.service
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910773/systemd-service-to-stop-main-service-run-housekeeping-then-restart-main-servic
+
+---
+
+#### 6749. How to mount a USB drive as a user with systemd mount?
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, fedora, systemd, user | Score: 1 | Views: 601 | Answers: 1 | Created: 2025-07-08
+
+**解决方案 / Solution**:
+The man page for systemd.mount states: When invoked in this way, mount(8) does not read any options from /etc/fstab, and must be run as UID 0. --user units run as the user that started them, not UID 0, so you may not use a --user unit to mount a drive, and unfortunately for you, it appears this is the case regardless of if the mount type is fuse . mount (and by extension /etc/fstab ) have options to mount a drive as a specific user, with specific access ( man page ): uid=n, gid=n Set the owner and group of the mountpoint. You could use these options in a fstab entry or in a systemd unit file (they're the same thing anyway), and since this would be run by root, you may also forgo fuse entirely. Read more: Mount device with specific user rights
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909452/how-to-mount-a-usb-drive-as-a-user-with-systemd-mount
+
+---
+
+#### 6750. Using sed to replace line by dynamic result
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sed | Score: 1 | Views: 64 | Answers: 1 | Created: 2025-06-22
+
+**解决方案 / Solution**:
+<input_file sed ' /^SINGLEMEMBERNUMBER: [0123456789]*$/ { N; s/\([0123456789]*\)\nORDERNUMBER:0$/\1\nORDERNUMBER:\1/; }' For a line matching ^SINGLEMEMBERNUMBER: [0123456789]*$ (where ^ and $ are anchors for the beginning and the end of pattern space, respectively) we append the N ext line of input into the pattern space and then s ubstitution works on the pattern space containing the two lines, so it's possible to do what you want. We replace \([0123456789]*\)\nORDERNUMBER:0$ with \1\nORDERNUMBER:\1 . \n means a newline character. \1 inside the replacement string gets substituted with what the content of the first pair of parentheses matches. In our case it's what [0123456789]* matches immediately before \nORDERNUMBER:0 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1906176/using-sed-to-replace-line-by-dynamic-result
+
+---
+
+#### 6751. How can I upgrade my WSL2 Fedora subsystem from FC40 to FC42?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, wsl2 | Score: 1 | Views: 1266 | Answers: 2 | Created: 2025-06-16
+
+**解决方案 / Solution**:
+Following instructions from this page I just now successfully updated 39 -> 40 -> 41 -> 42. sudo dnf upgrade --refresh sudo dnf install dnf-plugin-system-upgrade sudo dnf system-upgrade download --releasever=37 export DNF_SYSTEM_UPGRADE_NO_REBOOT=1 sudo -E dnf system-upgrade reboot sudo -E dnf system-upgrade upgrade sudo dnf upgrade --refresh although as noted in a comment sudo -E dnf system-upgrade upgrade does not work from Fedora 41 and the alternative is sudo -E dnf offline _execute .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905344/how-can-i-upgrade-my-wsl2-fedora-subsystem-from-fc40-to-fc42
+
+---
+
+#### 6752. When running makepkg -si I get multiple exists in filesystem messages and no packages get installed
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, minecraft, source-code, pacman | Score: 1 | Views: 110 | Answers: 1 | Created: 2025-06-06
+
+**解决方案 / Solution**:
+You're trying to install ArchLinux (the OS, base system) on top of your existing Fedora, and ArchLinux's pacman repository manager prevents you from rewriting the system files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904138/when-running-makepkg-si-i-get-multiple-exists-in-filesystem-messages-and-no-pac
+
+---
+
+#### 6753. Why does "tmux send-keys" behave differently in a bash script?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash, tmux | Score: 1 | Views: 1284 | Answers: 1 | Created: 2025-06-06
+
+**解决方案 / Solution**:
+Hypothesis Why does tmux send-keys behave differently in a bash script? There is possibly a race condition. The script runs tmux send-keys … just after tmux new-session -d . When you type the commands in an interactive shell (or paste one by one), there is a delay. While working with tmux it's good to remember this is a client-server architecture: there is a tmux server and there are tmux clients. Basically every tmux command you use is a client. If there is no server yet then in some circumstances the client may start a server; but even then the server is a separate process and the tmux process you have created is still a client. Your tmux new-session -d starts a tmux server if needed. It tells the (newly created or old) server to create a new session with one window with one pane and to run something inside the pane. You did not supply an explicit command, so the server runs your login shell there (in general this may be customized). So far so good. After telling the server what to do, tmux new-session -d exits without waiting for the process started in the new pane to terminate. It makes perfect sense: the process in your case is an interactive shell that will wait for input and won't terminate by itself; you certainly do not want the tmux client to wait. The script proceeds to tmux send-keys … immediately and this new client tells the server to send keys to the newly created pane. The tmux server does not wait for the process either, in particular it does not even wait for the process to print a prompt or anything. All the server has to do is to set up a pseudoterminal and start the new process with stdin, stdout and stderr attached to the pseudoterminal; then it's ready to send keys (or do whatever) at the request of the next tmux client. This means the keys may (and in your case do) get to the pseudoterminal before the newly created shell is able to handle them, even before it configures the pseudoterminal to its needs. When you see pwd and ls "printed to stdout" for the first time, it's because the pseudoterminal is still in cooked mode and echoes the input. Now this does not mean the input is discarded. The pseudoterminal does buffer input until something reads from it. I think the buffer is about 4 KiB; even if I'm wrong with the number, it's certainly big enough to buffer pwd and ls . And then in your case something reads from the pseudoterminal and echoes pwd and ls for the second time. In my tests with bash the input did get to the shell and the commands were executed. Maybe your shell is different, maybe it reads and discards all input before printing the first prompt (you told us the shell that runs tmux clients is bash, but you did not tell us what the shell in the newly created tmux pane is and this is the shell I'm talking about). Or maybe your shell runs something that reads all input. E.g. in my test with bash I put the following into my ~/.bashrc : IFS= read -r -N 9999999 -t 0.1; printf %s "$REPLY" and it replicates your problem. In your case I do not know what reads and echoes all input before your shell inside tmux gets functional. Poor solution A solution that may work is to wait a moment after tmux new-session -d : tmux new-session -d sleep 1 tmux send-keys pwd C-m tmux send-keys ls C-m This is a poor solution because there is no guarantee that one second is enough (in general there is no guarantee that any given interval is enough). It's also poor because sending keys is a very cumbersome way to run something in tmux. Better solution A better way to run something in tmux is to tell the tmux server exactly what to run, instead of telling it to run an interactive shell and then to emulate "typing" in hope the shell will pick it up. Tmux commands new-session , new-window , split-window , respawn-window and respawn-pane can take shell code. Example: tmux new-session -d 'pwd; ls; tail -f /dev/null' I used tail -f /dev/null so the shell interpreting the shell code does not exit after ls (this would probably make the tmux server destroy the pane, the window, the session and possibly exit; see "Terminating the tmux session" in this answer ). To terminate tail type Ctrl + c in the pane. Another way to keep the pane open is to exec to an interactive shell: tmux new-session -d 'pwd; ls; exec bash' Note pwd and ls are not run by the interactive shell. They are run in a non-interactive shell tmux uses to parse the shell code (including exec bash that gives you the interactive shell). This has consequences: There is no prompt that "separates" commands. Commands are not echoed (like after a prompt). Commands won't be saved in history. The non-interactive shell does not source startup scripts, so e.g. variables set there won't matter. The non-interactive shell will not automatically expand aliases. Shell variables will not be inherited by the interactive shell, unless exported. If you want an interactive shell to run something before you interact with it, it may still be better to tell it via the right option instead of "typing" via tmux send-keys . For bash the right option is --rcfile : tmux new-session -d 'exec bash --rcfile ~/my_custom_file' where ~/my_custom_file is a custom file that will be sourced by bash in place of ~/.bashrc *. In the file call pwd , ls or whatever. You probably want to source ~/.bashrc anyway, so do it explicitly in the custom file. Do not spawn another bash . * Some distros ship bash that sources /etc/bash.bashrc before ~/.bashrc , then with --rcfile you replace them both with a single custom file. Avoid tmux send-keys , unless sending keys is actually what you want to do or there is no other simple way to achieve what you want to achieve. Idea Tmux lets you script many things you otherwise do by hand. When typing manually, you wait for a prompt, right? If you really want to use tmux send-keys to "type" commands into an interactive shell in tmux then consider implementing such waiting as well. Parsing the output of tmux capture-pane -p in a loop until the last non-empty line is a prompt is a way. Not a great way though, I'm mentioning it only to say it is possible. until line="$(tmux capture-pane -p | sed '/^$/d' | tail -n 1)" case "$line" in kamil@*:*$ ) true ;; * ) false ;; esac do sleep 1 done The code contains my username because it detects my prompt ( kamil@*:*$ ); adjust it to your needs. Targeting things in tmux And what is the best way to start a detached tmux session (or window or pane or whatever), such that I know its name? In tmux you can give names to sessions and to windows but not to panes. What you did with tmux new-session -t tmuxA -d is not naming the session though. See this other answer of mine and understand the difference between new session -t and new-session -s . The name of a tmux session identifies the session; the name of a tmux window identifies the window. You can use such names with tmux send-keys -t or so. But a session may contain many windows and a window may contain many panes, so in general targeting a session might not be reliable when doing things to a window or a pane (as opposed to doing things to the session itself) and targeting a window might not be reliable when doing things to a pane (as opposed to doing things to the window itself). See how tmux interprets the option-argument given after -t . Whenever there is ambiguity, there are rules to pick the "right" thing (e.g. if the command expects a pane as a target and you specify a window, the currently active pane in the specified window is used); and there are rules that pick the "right" thing when you simply omit -t . The rules make life easier when you use tmux interactively, or you can take advantage of them when writing a script that uses a tmux server/session/window exclusively, but if two entities (like you and your script(s)) use the same tmux server then it's better they (especially the script(s)) target things as specifically as possible and try to avoid actions that may surprise less rigorous entities (e.g. in a script you shall use split-window with -d , so the new pane does not become active; unless you specifically want it to become active). Many tmux commands need to target a pane, the most reliable way is to specify just the right pane. There are several ways to specify a pane, the most reliable is to give the pane ID (it is a number with leading % ) which uniquely identifies the pane within the tmux server. A process running inside tmux can learn the pane ID of its pane by examining environment variable named TMUX_PANE . Knowing the pane ID (e.g. %4 ), you can get the window ID and the session ID by asking the tmux server: pane=%4 window="$(tmux display-message -p -t "$pane" -F '#{window_id}')" session="$(tmux display-message -p -t "$pane" -F '#{session_id}')" (but note the window may be linked to more than one session, see the already linked answer ; the above code will find one session). This ability to find the window ID and the session ID does not mean you shall not name your sessions and windows. Custom names have advantages: They may be descriptive. A specific name known in advance allows separate programs (scripts) to work reliably with the same tmux session or window. In general proceed like this in a script: pane="$(tmux new-session -s foo -n bar -d)" The command (unless it fails for some reason) creates a new tmux session named foo with one window named bar being one big pane whose pane ID gets stored to a shell variable named pane . Now this script or another script or you can target the created session with -t =foo (it may be good to start with tmux has-session -t =foo and abort upon error). If the session has only one window, the window, then specifying -t =foo: is enough to target the window. Additionally if the window has only one pane, the pane, then specifying -t =foo: is enough to target the pane. Similarly this script or another script or you can target the created window with -t =foo:=bar . If the window has only one pane, the pane, then specifying the window is enough to target the pane. Only this script can reliably target the created pane directly (with -t "$pane" ). I mean it can target the exact pane even if the window has been split to multiple panes, panes rearranged, moved to another window or so.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904136/why-does-tmux-send-keys-behave-differently-in-a-bash-script
+
+---
+
+#### 6754. Why I don't have a root privileges with suid executed?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, permissions, sudo, setuid | Score: 1 | Views: 490 | Answers: 1 | Created: 2025-05-27
+
+**解决方案 / Solution**:
+Adding suid bit to bash is equivalent to running sudo bash , with root privileges. No. An executable with suid runs with effective user id 0 (root) and real user id of the invoking user. sudo executable runs executable with both being 0 (root). In your case the executable is bash . See what man bash states [emphasis mine]: If the shell is started with the effective user ([…]) id not equal to the real user ([…]) id, and the -p option is not supplied, […] the effective user id is set to the real user id . If the -p option is supplied at invocation, the startup behavior is the same, but the effective user id is not reset. This means your bash -c "ls /root" with suid first sets the effective user id to the real user id, i.e. to the invoking user's id. From now on it's like suid was not there, ls /root runs totally without root privileges. Some less sophisticated shells (e.g. posh ) do not reset the effective user id. Setting suid on such a shell would be a security breach. If you really want to play with this then play with a copy of the executable, not with the executable in /bin/ (or /usr/bin/ or whatever directory in $PATH ). The point is if you set suid on a "vulnerable" shell in /bin/ then even legitimate scripts that use this exact shell will run as root, even if they do not expect being run as root; so they may harm you or the OS inadvertently. And if you play with a copy, you're still allowing anyone who can run the copy to act as root.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902561/why-i-dont-have-a-root-privileges-with-suid-executed
+
+---
+
+#### 6755. How to transcode one mov_text stream and copy the rest in FFmpeg?
+
+**问题描述 / Problem Description**:
+Tags: bash, ffmpeg | Score: 1 | Views: 425 | Answers: 1 | Created: 2025-05-10
+
+**解决方案 / Solution**:
+The mapping option (-map) is used to select the input streams and also to specify the processing order. For stream specifiers like -c:x:n or -codec:x:n , x represents the stream type (video, audio, subtitles, data) and n represents the position of that stream type in the output file. In your case, you have two subtitle streams, and the one that needs to be converted is the second one, because it is the second input and the mapping did not change this order. You may replace -map 0:s? -c:s copy -map 0:s:4? -c:s:4 srt by simply : -map s -c:s copy -c:s:1 srt -map s to select all subtitle streams -c:s copy to stream-copy all subtitle streams -c:s:1 srt to convert the second subtitle stream with subtitle codec srt (This part comes last and has a higher privilege level) NB: With FFmpeg, the order of the options is important.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1896984/how-to-transcode-one-mov-text-stream-and-copy-the-rest-in-ffmpeg
+
+---
+
+#### 6756. How to remove blank lines before line matching pattern in file?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, sed | Score: 1 | Views: 298 | Answers: 1 | Created: 2025-04-21
+
+**解决方案 / Solution**:
+Solution sed ' : load /^[[:space:]]*$/ {N; b load;} /\n# End of dynamic section$/ s/^[[:space:]]*// ' hosts Explanation The fragment between : load and b load is a loop that appends ( N ) lines to the pattern space while the entire pattern space consists of "empty" lines: characters from the space character class (in the POSIX locale the space character class includes exactly <space>, <form-feed>, <newline>, <carriage-return>, <tab> and <vertical-tab>; it may include more characters in your locale). Once there is a character that does not belong to the space character class, the loop stops appending and the script moves on. In other words the script loads lines into the pattern space until a non-"empty" line occurs or the input ends. Then the pattern space is a snippet of zero or more "empty" lines followed by at most one non-"empty" line. The line of code with # End of dynamic section replaces ( s ) the initial "empty" lines in the pattern space with nothing, if and only if the last loaded line is exactly # End of dynamic section and it's not the only loaded line. Finally sed prints the resulting pattern space and starts a new cycle (if not at the end of input yet), as this is its default behavior. Notes If you want the script to detect truly empty lines then replace each [[:space]] with just \n . Alternatively it makes sense to use [ \t\n] or [[:blank:]\n] (in the POSIX locale blank includes exactly <space> and <tab>, but it may include more characters in your locale). Choose whatever fits your needs. Each line being exactly # End of dynamic section is special.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1893127/how-to-remove-blank-lines-before-line-matching-pattern-in-file
+
+---
+
+#### 6757. HyperV RTC clock not set on boot
+
+**问题描述 / Problem Description**:
+Tags: linux, hyper-v, time-synchronization | Score: 1 | Views: 275 | Answers: 1 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I assume that your Hyper-V platform is a lot more current than your VM with Oracle / RHEL 5.5 which is an ancient legacy release from early 2010. Since RHEL 5 has already been End of life for several years it is probably no longer a supported OS for current Hyper-V installation. For RHEL 5.5 there is no built-in support for Linux integration services (LIS) but you could/can install it manually. Not sure if that will help with your clock issue though because: RHEL 5.5 has no Hyper V clock source driver in the kernels, that was introduced only later, in RHEL 5.11 from 2014. What I remember is that we needed to use NTP to sync RHEL 5 clocks in the VM rather than being able to rely on the Hyper-V hypervisor to keep the guest time synchronised.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179395/hyperv-rtc-clock-not-set-on-boot
+
+---
+
+#### 6758. scp: command not found while both sides have it installed
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, ssh, scp | Score: 1 | Views: 320 | Answers: 1 | Created: 2025-03-30
+
+**解决方案 / Solution**:
+Apparently, you have two computers, let's call them A and B. If you work on A, you get the message bash: line 1: scp: command not found If you ssh into B, you can use scp . Apparently, B has a working set-up for scp and A does not. Let's first try if this is an environment issue or a missing scp . Try ls -l /usr/bin/scp If scp is there, it is an environment issue. If scp is not there, it is missing and you need to install it. Your PATH looks bizarre.There should not be a $PATH in your PATH . Can you do a simple ls ? Probably not. It is likely, that in some of the bash start-up scripts there is a PATH='$PATH:/opt/python/3.9.2/bin:$HOME/.local/bin' instead of PATH="$PATH:/opt/python/3.9.2/bin:$HOME/.local/bin" (Notice the difference in quotes) If you find that line and correct the quotes, it will probably start working.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1889171/scp-command-not-found-while-both-sides-have-it-installed
+
+---
+
+#### 6759. Why does my Plymouth theme only work for shutdown?
+
+**问题描述 / Problem Description**:
+Tags: linux | Score: 1 | Views: 422 | Answers: 1 | Created: 2025-03-26
+
+**解决方案 / Solution**:
+I had this issue and the problem was that the changed/custom theme was NOT yet in the initramfs. I did "sudo update-initramfs -u" and rebooted, and then my custom splash screen appeared both on shutdown and startup.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1177724/why-does-my-plymouth-theme-only-work-for-shutdown
+
+---
+
+#### 6760. Permanently change the default route to ethernet Fedora 41
+
+**问题描述 / Problem Description**:
+Tags: networking, wireless-networking, routing, fedora, wired | Score: 1 | Views: 482 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+Default route is set to an aliased DNS name, "_gateway", which resolves to two IPs, such as 192.168.9.1 and 10.10.0.1 which I guess are ok as they match the two networks the NICs would be on. It is not set to that. Route gateways are always IP addresses – it's only a matter of whether your route-listing program decides to resolve that address back into some hostname. (The regular Linux ip route command doesn't do so unless you explicitly ask for it, but older tools might do it by default.) Additionally, _gateway is not a DNS name. Linux often comes with an /etc/nsswitch.conf module which internally resolves this name to whichever default gateway happens to be currently defined. (So even if routes could have names as gateways, it wouldn't be possible to use "_gateway" there, because that particular name only comes from route gateways in the first place.) I don't know why the wired NIC isn't at a lower metric, but in any case, it's also not routing its own metric. Keep in mind that for ping -I <interface> to work, there still needs to be an actual route through that interface – the OS needs to know which gateway to use, otherwise it can only assume the destination is local – so you can only test this while you still have both default routes. When you have multiple default routes, you also cannot use the "Reverse path filtering" in strict mode, as it by design drops return packets that arrive from the "wrong" interface, so make sure to disable it via sysctl.d (or set to 'loose' mode, which is as useful as disabled): net.ipv4.conf.all.rp_filter = 0 But the wired NIC eno1 has an outlandishly high metric, That means NetworkManager's built-in "network connectivity check" failed to make an HTTP connection through it. Whenever the connection profile is brought up, as well as every X minutes, NM makes an HTTP request through every "default route" interface to contact some pre-configured URL – just like 'Microsoft NCSI' in Windows, and similar features on all mobile platforms. If the request fails, the interface gets an additional +20000 to its route metrics. $ nmcli net connec full $ NetworkManager --print-config [connectivity] uri=http://detectportal.firefox.com/ response=success If you're sure that the Ethernet interface is working fine, then either change the connectivity test URL to one that your network isn't blocking (like the 'msftconnecttest.com' one) via /etc/NetworkManager, or disable the feature outright through enabled=no in the same config file. Merely disabling it, however, will not actually make the interface work – it will only avoid the outlandishly high metric values.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1887566/permanently-change-the-default-route-to-ethernet-fedora-41
+
+---
+
+#### 6761. 1st character is getting replaced when trying to insert character at the end of a line of a csv file - Unix Bash
+
+**问题描述 / Problem Description**:
+Tags: bash, unix | Score: 1 | Views: 88 | Answers: 1 | Created: 2025-03-11
+
+**解决方案 / Solution**:
+It seems you want to add a comma at the end of each line of your CSV file. Instead of your method I would recommend using sed . sed -i 's/$/,/' new_test.csv The option -i edits the file in-place. 's/$/,/' is a substitution pattern that appends a comma at the end of each line. Example CSV file with missing commas at the end of each line: $ cat new_test.csv 202468,47999,2025,2022,0,1,1,1 202468,47544,2024,2022,1,1,0,0 202509,47522,2025,2021,1,0,1,1 202525,47453,2025,2023,0,0,0,1 202401,47574,2024,2022,1,0,0,1 202464,47659,2024,2022,0,1,0,0 202421,47254,2026,2023,1,1,1,0 202485,47901,2024,2023,0,1,1,0 202476,47088,2025,2022,1,0,1,1 202589,47297,2026,2022,1,1,1,0 $ sed -i 's/$/,/' new_test.csv Result: $ cat new_test.csv 202468,47999,2025,2022,0,1,1,1, 202468,47544,2024,2022,1,1,0,0, 202509,47522,2025,2021,1,0,1,1, 202525,47453,2025,2023,0,0,0,1, 202401,47574,2024,2022,1,0,0,1, 202464,47659,2024,2022,0,1,0,0, 202421,47254,2026,2023,1,1,1,0, 202485,47901,2024,2023,0,1,1,0, 202476,47088,2025,2022,1,0,1,1, 202589,47297,2026,2022,1,1,1,0, Edit: If your line endings aren't Unix style (LF), you should fix them using the dos2unix command beforehand. dos2unix new_test.csv
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885417/1st-character-is-getting-replaced-when-trying-to-insert-character-at-the-end-of
+
+---
+
+#### 6762. bash alias or bash function that adds a timestamp to the beginning of a filename when creating a file with nano?
+
+**问题描述 / Problem Description**:
+Tags: bash, filenames, timestamp, nano, bash-alias | Score: 1 | Views: 270 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+A function like this: # unalias nanotime first, if needed nanotime() { nano "$(date +%Y-%m-%d_%H.%M.%S)-$1" } will do what you want, although it's limited. It simply glues the date string to the beginning of the first argument, so paths with / will not behave well. It uses just one argument. With $@ we could pass many arguments to nano , but in general the name you want to glue the date to may be any of them. To overcome these a non-trivial logic is needed. I'm not going to create any logic because personally I would prefer the following: bind -x '"\C-x\C-t": _nanotime' _nanotime() { local dte dte="$(date +%Y-%m-%d_%H.%M.%S-)" READLINE_LINE="${READLINE_LINE:0:$READLINE_POINT}$dte${READLINE_LINE:$READLINE_POINT:${#READLINE_LINE}}" READLINE_POINT="$((READLINE_POINT+${#dte}))"; } From now on Ctrl + x , Ctrl + t injects the current date and time when you type a command. E.g. type nano Ctrl + x , Ctrl + t This_is_the_description_of_my_file.txt Enter The advantage is the method is not limited to nano . Insert the date in any command line you wish, at any cursor position you wish. Tested in Bash 5.2.21.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1885355/bash-alias-or-bash-function-that-adds-a-timestamp-to-the-beginning-of-a-filename
+
+---
+
+#### 6763. Why can my IPv6 configuration reach some hosts, but not all?
+
+**问题描述 / Problem Description**:
+Tags: linux, ip, ipv6 | Score: 1 | Views: 167 | Answers: 1 | Created: 2025-03-06
+
+**解决方案 / Solution**:
+One of the main rules for IPv6 Source Address Selection is "longest common prefix". Each of the candidate source addresses is compared against the destination to determine how many identical bits they have (counting from the left, just like with CIDR prefixes) and the address with the longest common prefix is the one chosen as the source address. The important bit is that only the destination address – not the gateway address – is compared against the candidate sources. (Though with IPv6 SLAAC there's also supposed to be a rule to prefer sources which are within a prefix advertised by that particular gateway but I don't recall if Linux implements it. I think it doesn't.) Try adding the PreferredSource= parameter to your routes (aka src in iproute2). It works the same in IPv4 and IPv6 and can be used to hint at a preferred source IP address whenever that route gets used.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174424/why-can-my-ipv6-configuration-reach-some-hosts-but-not-all
+
+---
+
+#### 6764. VLAN over OpenVPN
+
+**问题描述 / Problem Description**:
+Tags: linux, openvpn, vlan, bridge, proxmox | Score: 1 | Views: 507 | Answers: 1 | Created: 2025-03-05
+
+**解决方案 / Solution**:
+I suspect that the OpenVPN VLAN feature is specifically what you don't want. It turns the server into a VLAN-aware switch, which (like a physical Ethernet switch) seems to have configuration of allowed VLANs for each "port". So if you want transparent passthrough of tagged packets, you should probably disable it (and raise the maximum frame size manually if needed).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174322/vlan-over-openvpn
+
+---
+
+#### 6765. PuTTY logging without tab completion
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, putty | Score: 1 | Views: 166 | Answers: 1 | Created: 2025-02-21
+
+**解决方案 / Solution**:
+No, PuTTY has no way of distinguishing the 'tab completion' output from 'regular' output. All of it is just text output from the server – tab completion is not something handled by PuTTY locally. So I could only suggest configuring a custom shell prompt (usually via PS1= ) that allows more easily distinguishing between individual commands; a blank line before the prompt might help. Some modern terminals support hidden 'prompt start' 'command start' etc. markers that might make automated filtering possible in theory , but I don't think there is any 'suppress logging' hidden code that PuTTY supports right now.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1881869/putty-logging-without-tab-completion
+
+---
+
+#### 6766. Fedora 41 does not boot after hibernation
+
+**问题描述 / Problem Description**:
+Tags: boot, fedora, hibernate, fedora-41 | Score: 1 | Views: 306 | Answers: 1 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+I had this problem today and was able to fix it by doing some probably not recommended things. I'm a new Linux so really take what I have to say with all the salt. My set up: -I set up hibernation and had a swap partition made for it when I initially installed my Fedora Nobara KDE Plasma installation. -I set my computer to hibernate after 5 minutes of idle and when I closed the clam shell. I closed my clam shell to test it and upon reopening it and trying to reboot it got stuck on trying to load something related to UUID. I don't remember exactly. But I fixed it by going into a few files and removing a specific line from each. But to check if we had the same problem, before you choose which kernel to load on initial boot, press 'e' to see the grub2 boot commands it will load and if your problem is the same as mine, you should see a bit of text in the commands that reads resume=uuid=*string-of-chars-and-numbers* . This is where it will try to grab the pagefile from (I think) but mine was not there for some reason, so it just hung there indefinitely. Removing the entire resume command presumably stops it from trying to reload your last session and just boots like normal. If you manually delete only that part and it boots properly, then you have to go in and delete that text from a few files in your file manager (otherwise it will just replace it next time you boot). There's probably a much better way to do this but like I said I am a Linux newb. It will warn you that you need to be careful in this area while you are root user and you definitely should be. I made backup copies of each of these files and put them on my desktop until I was sure it worked. Not that that would have helped if my system was completely broken by the changes though anyway. The files you need to remove the text resume=uuid=*string-of-chars-and-numbers* from are: Each file in boot>loader>entries The file in boot>grub2>grub.cfg Hopefully this helps you! I thought my install was lost (again). Needless to say I won't be messing around with hibernation again for a while. Here is some info that helped me. Grub boot options: https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Boot_Options/ More specific post about options: https://discussion.fedoraproject.org/t/how-to-change-default-boot-option-in-grubenv/78743?replies_to_post_number=1 Hibernation swap removal: https://www.geeksforgeeks.org/how-to-permanently-disable-swap-in-linux/
+
+**参考链接 / References**:
+- https://superuser.com/questions/1878472/fedora-41-does-not-boot-after-hibernation
+
+---
+
+#### 6767. Why does every Cygwin command take seconds to complete after they run?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, bash, cygwin, history | Score: 1 | Views: 304 | Answers: 1 | Created: 2025-02-02
+
+**解决方案 / Solution**:
+It turns out it was Windows Defender causing the problem. Once I told it to ignore my cygwin home directory, the problem instantly disappeared. I'm not sure why, but telling it to ignore the .bash_history file did not suffice. Here's how you add a Windows Defender exclusion: Go to Start > Settings > Update & Security > Windows Security > Virus & threat protection. Under Virus & threat protection settings, select Manage settings, and then under Exclusions, select Add or remove exclusions. Select Add an exclusion, and then select from files, folders, file types, or process. If you are using a different antivirus software, it may still be responsible.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1876193/why-does-every-cygwin-command-take-seconds-to-complete-after-they-run
+
+---
+
+#### 6768. How to have different .bash_history per Visual Studio Code workspace?
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables, visual-studio-code, command-history, workspace | Score: 1 | Views: 954 | Answers: 2 | Created: 2025-01-30
+
+**解决方案 / Solution**:
+To be smart about this, we'll need more logic than can go in vscode's settings. In your user global settings.json : "terminal.integrated.env.linux": {"VSCODE_WS": "${workspaceFolder}"}, "terminal.integrated.env.windows":{"VSCODE_WS": "${workspaceFolder}"}, "terminal.integrated.env.osx": {"VSCODE_WS": "${workspaceFolder}"}, In your .bashrc ( Edit to suit your needs ): # Enable separate bash history per workspace: # Assume the following is in vscode settings: # "terminal.integrated.env.linux": { "VSCODE_WS": "${workspaceFolder}" }, # When in filemode / not in a workspace, `VSCODE_WS` is set to the literal `${workspaceFolder}` so we check and ignore that if [[ -v VSCODE_WS ]] && [[ "$VSCODE_WS" != '${workspaceFolder}' ]]; then # Only change history file if we know it will be written to a safe place if [[ "$(dirname "${VSCODE_WS}")" == "$HOME/code" ]]; then HISTFILE="${VSCODE_WS}/../.bash_history_$(basename "${VSCODE_WS}")" # Write to history after every command shopt -s histappend # Avoid adding duplicate commands if [[ ! "$PROMPT_COMMAND" =~ "history -a" ]]; then #echo set PROMPT_COMMAND PROMPT_COMMAND="history -a;$PROMPT_COMMAND" fi fi fi I decided I'd the history files easy find and uniquely identify workspaces. I check out all my git repos to to ~/code so I know writing history files to that directory will be more or less as safe as writing to ~ . The 2nd 'if' scopes setting history file to only workspaces in this directory. It won't work for opening ~/code/big-proj/sub-proj as a workspace though. All just my first pass at finding what I want though. Change the 2nd 'if' to something that works for you. Simply removing it would be unwise . And change HISTFILE to suit your needs. Its bash so you can do anything you're willing to put up with. You could make filenames that encode the entire path to the workspace and use one directory for all histfiles. Or use simple filenames and accept conflicts from multiple folders/workspaces with the same name. Just keep the safety warning from the OP in mind.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1874644/how-to-have-different-bash-history-per-visual-studio-code-workspace
+
+---
+
+#### 6769. Git commit restarts simple while loop instantly
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, git | Score: 1 | Views: 47 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+This is a classic mistake. git commit returns a non-positive code ( 1 ) in some cases, like the one mentioned by you, while && only executes commands to the right when preceding command had positive result ( 0 ). Simply replace last && with ; and sleep 60 will always execute.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870838/git-commit-restarts-simple-while-loop-instantly
+
+---
+
+#### 6770. Should `git add` have "smart" filename completion?
+
+**问题描述 / Problem Description**:
+Tags: bash, git, tab-completion | Score: 1 | Views: 80 | Answers: 2 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+bash-completion needs to be 1) installed, 2) explicitly loaded by your ~/.bashrc (or the system-wide bashrc). While Git installs its own bash-completion module, that file does nothing on its own; it relies on the main bash-completion package to provide the necessary framework. Install it, then make sure your bashrc does: . /usr/share/bash-completion/bash_completion so that it would load the framework, which will then automatically load the git completion when needed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870435/should-git-add-have-smart-filename-completion
+
+---
+
+#### 6771. Old Netbook (Micromax Canvas Lapbook), Keyboard/TrackPad does not work in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard, fedora, arch-linux, kali-linux | Score: 1 | Views: 175 | Answers: 1 | Created: 2025-01-13
+
+**解决方案 / Solution**:
+I've got the exact same notebook (L1161 variant) and I had made a similar post here about a year ago. It has an Atom baytrail processor which is almost one of a kind (64bit architecture, 32bit UEFI). To add to the complexity, the company (Micromax) is now defunct and no drivers are available for this anymore on their website. As for Linux distros, it'd be a miracle to even get past the grub menu on this device! Your best bet of reviving this laptop is Windows-10 Home bootable disk of 32bit edition. I have a detailed post on my blog which can be helpful in you want to go this route.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870331/old-netbook-micromax-canvas-lapbook-keyboard-trackpad-does-not-work-in-linux
+
+---
+
+#### 6772. Advanced argument escaping with find + xargs and nested commands
+
+**问题描述 / Problem Description**:
+Tags: bash, find, string, xargs, escaping | Score: 1 | Views: 431 | Answers: 1 | Created: 2024-12-10
+
+**解决方案 / Solution**:
+Analysis The problem arises because you pass the pathname (from the expansion of {} ) inside the shell code your sh -c gets. sh is not aware {} was there, it gets the argument with {} already expanded (by xargs ), it interprets the whole string as shell code . When embedding {} in shell code, there is no firm way to quote what it expands to. I mean: whatever you think of to make weird pathnames kinda work ( "{}" , '{}' etc.), I can always come up with a pathname that will break your specific code; not only break your code, but also inject my code. E.g. your snippet that "works": find remove_afterwards/ -type f -print0 | xargs -0 -I{} sh -c 'echo "{}"' can be exploited by creating a file literally named $(beep) (the command to create such file will be touch 'remove_afterwards/$(beep)' ). Most likely beep is harmless, I could have used reboot or rm something though. Solution The safe way is to pass the expanded {} as a separate argument that will become a positional parameter for your sh -c : find remove_afterwards/ -type f -print0 \ | xargs -0 -I{} sh -c 'echo "$1" "$(stat -c "%s" "$1")"' find-sh {} ( find-sh is explained here: What is the second sh in sh -c 'some shell code' sh ? ) Explanation In the solution the code our sh -c interprets does not contain what {} has just expanded to. The code is totally static, i.e. known in advance, it is exactly what's inside the single-quotes. The expanded {} is passed to sh as a positional parameter, sh knows it is not code. Wherever you need the value inside the shell code, use $1 . It's important to make $ single-quoted or escaped for the outer shell, but later $1 should be properly quoted for the inner shell (note the inner shell will see quotes and backslashes that remain after the outer shell removes quotes and backslashes it considers special). The point is sh will expand $1 on its own, still knowing that the expanded value is not shell code. Broader picture The same problem (with the same solution) exists in case of find -exec . Compare Is it possible to use find -exec sh -c safely? In general you should always prefer static shell code (if possible*), unless the variable part is sanitized or deliberately designed to be interpreted as shell code. This applies whenever you are tempted to embed in the shell code anything expanded "outside of" the shell that is going to interpret the code. It does not have to be {} ; e.g. it may be an outside variable you want to use from within sh -c : # flawed: embedding in shell code var="I want to print '"'$(beep)'"'" sh -c "echo '$var'" # right: passing as positional parameter var="I want to print '"'$(beep)'"'" sh -c 'echo "$1"' sh "$var" # also right: passing in environment var="I want to print '"'$(beep)'"'" var="$var" sh -c 'echo "$var"' * Building static shell code is not always possible. E.g. a command run via ssh is always a single string to be interpreted by the remote shell as shell code; so if you need to pass the value of a local variable then there is no other way than embedding it in the shell code. Still there are ways to do this right (for Bash: see ${parameter@operator} when the operator is Q ). Hint If you choose building static shell code for sh -c , I advise to single-quote the whole code. The only "problematic" character will be the single-quote itself (in case you need it to belong to the shell code argument). You may find this useful: How can I single-quote or escape the whole command line in Bash conveniently?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1864471/advanced-argument-escaping-with-find-xargs-and-nested-commands
+
+---
+
+#### 6773. How to create a bash one-liner activating Python virtualenv?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, python, virtualenv | Score: 1 | Views: 312 | Answers: 1 | Created: 2024-12-05
+
+**解决方案 / Solution**:
+This is the way: sh -c '. /opt/venv/bin/activate && echo $VIRTUAL_ENV && deactivate' /opt/venv This must be single quotes, not double quotes
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863838/how-to-create-a-bash-one-liner-activating-python-virtualenv
+
+---
+
+#### 6774. Exit code of a bash script when one of the steps fails?
+
+**问题描述 / Problem Description**:
+Tags: bash, bash-scripting | Score: 1 | Views: 210 | Answers: 1 | Created: 2024-11-29
+
+**解决方案 / Solution**:
+If you want to exit immediately with a non-zero exit status, then set -e is the way to go. If you want to execute all the jobs and count the ones that fail, then failed=0 call01 || ((++failed)) call02 || ((++failed)) ... call_N || ((++failed)) echo "$failed jobs failed" ((failed == 0)) || exit 1 For the last line, exit $failed might work, but it depends on the number of jobs: the exit status is a number between 0 and 255.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1863150/exit-code-of-a-bash-script-when-one-of-the-steps-fails
+
+---
+
+#### 6775. How to redirect output to both a file and stdout?
+
+**问题描述 / Problem Description**:
+Tags: bash, logging, redirection, make, file-descriptors | Score: 1 | Views: 7519 | Answers: 1 | Created: 2024-11-24
+
+**解决方案 / Solution**:
+After reading the posted question, I assumed make is writing to stderr and that the OP only wants stderr written to outfile.file . This answer was tested using GNU bash, version 5.2.21(1)-release. Below is the proposed solution. func 2> >(tee file) | cat Note: Spaces are not permitted between the 2 and > characters or between the > and ( characters. I do not know what exactly is in the OP's func . To test, I used the following definition for func . func() { echo "stderr" >&2; echo "stdout"; } Explaination Basically, stderr from func is redirected to an anonymous fifo and tee is redirected to read stdin from the same fifo. The above solution could be simplified as shown below. func 2> >(tee file) | cat However, in testing the command prompt appeared before output from tee , as shown below. ubuntu@ubuntu:~$ func 2> >(tee file) stdout ubuntu@ubuntu:~$ stderr To prevent this from happening, all stdout for both func and tee is piped though the cat command, as shown below. ubuntu@ubuntu:~$ func 2> >(tee file) | cat stdout stderr ubuntu@ubuntu:~$ To better understand what | cat does, the solution could be rewritten as shown below. I will not go as far as to say this is an exact equivalent to the solution, but if not, then it is very close. (cat) < <(func 2> >(tee output.file)) Here one can see the subshell containing tee is nested inside the subshell containing func . The result is all stdout must be redirected to the the stdin of the subshell containing cat . Bash will not return a command prompt until after the cat command has completed. Note: the above could be simplified with what is shown below. All stdout is written to an anonymous fifo and the name of this fifo is passed to cat as a single parameter. In this case, cat ignores stdin . cat <(func 2> >(tee output.file)) References Bash Redirections Cheat Sheet This version does contain some errors. With respect to this answer, cmd1 | cmd2 contains some inaccuracies. Bash Redirections Cheat Sheet This version removed errors by omitting cmd1 | cmd2 . Note: Both are stored in the same repository .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862667/how-to-redirect-output-to-both-a-file-and-stdout
+
+---
+
+#### 6776. Starting multiple iperf server instances with gnome-terminal
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, gnome-terminal, iperf3 | Score: 1 | Views: 175 | Answers: 1 | Created: 2024-11-19
+
+**解决方案 / Solution**:
+I'm sure you did not want to pass --bash and -c as options to gnome-terminal . Probably you wanted to use bash -c … as a command to run in GNOME Terminal; but there is no point of bash -c when it's going to execute just a single command ( iperf3 … in your case). Your lines look like frankencode containing three ways of running a command: bash -c 'shell code as a single string, therefore quoted here' gnome-terminal -e 'executable with arguments as a single string' gnome-terminal -- executable with arguments as separate words The form with bash does not involve gnome-terminal (although it can be used with gnome-terminal , we will get to this). The form with -e is deprecated; the form with -- is recommended. The right syntax for you is simply: gnome-terminal -- iperf3 -s -B 10.10.1.1 -p 5021 Rebuild your remaining lines accordingly. If you want to run shell code , then you need sh -c , bash -c or so. Example: gnome-terminal -- sh -c 'iperf3 -s -B 10.10.1.1 -p 5021; exec bash' where ; belongs to shell syntax. In the above command gnome-terminal runs sh with arguments -c and iperf3 -s -B 10.10.1.1 -p 5021; exec bash . This sh runs iperf3 and waits for it to finish, then it replaces itself with interactive bash .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862192/starting-multiple-iperf-server-instances-with-gnome-terminal
+
+---
+
+#### 6777. Display relative date with `date` in human-readable format
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, date | Score: 1 | Views: 395 | Answers: 3 | Created: 2024-11-14
+
+**解决方案 / Solution**:
+#!/bin/bash reldate() { local remains=$1 set -- second s 60 minut es 60 hour s 24 day s 0 local date='' while (($#)) ; do local unit=$1 local plural=$2 local n=$3 shift 3 local amount=$remains (( n )) && (( amount %= n )) if ((amount)) ; then (( amount > 1 )) && unit+=$plural date="$amount $unit $date" (( remains -= amount )) fi (( n )) && (( remains /= n )) done printf 'in %s' "${date% }" } set -eu [[ $(reldate 56) == 'in 56 seconds' ]] [[ $(reldate 325) == 'in 5 minutes 25 seconds' ]] [[ $(reldate 3613) == 'in 1 hour 13 seconds' ]] [[ $(reldate 345603) == 'in 4 days 3 seconds' ]] [[ $(reldate 349203) == 'in 4 days 1 hour 3 seconds' ]] [[ $(reldate 63072000) == 'in 730 days' ]] [[ $(reldate 63071999) == 'in 729 days 23 hours 59 minutes 59 seconds' ]]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1861748/display-relative-date-with-date-in-human-readable-format
+
+---
+
+#### 6778. Where is the path of slurmd binary in a HPC system?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, path, slurm | Score: 1 | Views: 165 | Answers: 1 | Created: 2024-11-04
+
+**解决方案 / Solution**:
+By analyzing slurmd.service You know where slurmd.service is. Most likely what you seek will be in a line containing ExecStart= . To print this line: grep ExecStart= /usr/lib/systemd/system/slurmd.service If you want, you can examine the whole file: less /usr/lib/systemd/system/slurmd.service and analyze it. You explicitly asked for the path of slurmd binary. In general what you find may or may not be a binary executable. E.g. it may be a shell script that eventually executes a binary executable (or not; in general a shell script itself may be a service). Use file /path/to/result to know if the result is binary. With find Without any clue from slurmd.service or so, this is a way to find regular files named slurmd that are executable to their owners: find / -xdev -type f -name slurmd -perm -0100 -xdev makes find not descend into other filesystems. The point is we don't want to check /dev , /proc or /sys . It is sane to assume slurmd is in the root filesystem, but if your setup is more exotic then you may want the following command that does not use -xdev and excludes few directories explicitly: find / -path /dev -prune -o -path /proc -prune -o -path /sys -prune -o \ -type f -name slurmd -perm -0100 -print In general the file you want to find may be a symbolic link named slurmd , whose final target is an executable named whatever. To find such links, run: find / -xdev -type l -name slurmd -exec sh -c ' find "$(realpath "$1")" -prune -type f -perm -0100 | grep -q . ' find-sh {} \; -print Use realpath /path/to/result to see the final target of the result . Like above, what you find may or may not be binary executable(s). By finding the process When the service is running, you can check its status with: systemctl status slurmd.service It will tell you the main PID (among other things). Alternatively, when slurmd is running (as (a part of) the service or in whatever way), this (non-portable) command will show you its PID: pgrep '^slurmd$' Or with portable tools you can do this: ps -A -o 'pid comm' | grep 'slurmd' Once you know the PID, check ls -l /proc/PID/exe # substitute the right number for PID (with sudo if needed). Notes: Some Unix(-like) systems do not provide /proc , in Linux you probably have it. If not, maybe you can mount it on demand (well, in this case you should mount it before using pgrep or ps , because these tools may want to use /proc under the hood in the first place). /proc may be mounted with hidepid , so maybe you need sudo pgrep … / sudo ps … . In general, if some wrapper or a script is involved then the name ps would print as comm for the actual executable might be not as you expect, so filtering by the expected name may lead you to nowhere. Sometimes using command instead of comm can give you a better picture, but this also does not guarantee anything (because there are ways to alter the information: example A , example B ). In some cases pstree with its options is useful to investigate further (not portable though).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860721/where-is-the-path-of-slurmd-binary-in-a-hpc-system
+
+---
+
+#### 6779. “multidimensional expansion” with brace expansion in Bash?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 68 | Answers: 2 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+You can do that in Imagemagick using magick montage. See https://usage.imagemagick.org/montage/ I rename 4 well known images using your syntax. Then I put all 4 images in the same folder (test1 on my desktop). Then cd cd desktop/test1 magick montage -tile 2x2 -geometry +0+0 img_A{1,2}.jpg img_B{1,2}.jpg result.png -tile specifies the x,y arrangement of the images -geometry specifies the spacing between image
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860469/multidimensional-expansion-with-brace-expansion-in-bash
+
+---
+
+#### 6780. Run bash scripts on KDE Plasma sleep and wakeup events of Power Management as a particular user?
+
+**问题描述 / Problem Description**:
+Tags: bash, script, shell-script, power-management, kde-plasma-5 | Score: 1 | Views: 520 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+i created script in /lib/systemd/system-sleep and gave it executable flag #!/bin/sh case "$1" in pre) /home/zzz/util/relay_off.sh ;; esac case "$1" in post) /home/zzz/util/relay_on.sh ;; esac and it is working
+
+**参考链接 / References**:
+- https://superuser.com/questions/1860424/run-bash-scripts-on-kde-plasma-sleep-and-wakeup-events-of-power-management-as-a
+
+---
+
+#### 6781. How to write to last 4 bytes of disk via CLI? Like using dd, optional
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, bash, partitioning, dd | Score: 1 | Views: 222 | Answers: 2 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+script3 fails with bs=4 It does not what you want because dd seek= , when given just a number, uses bs as the unit; but your calculation uses blockdev --getsz that counts 512-byte sectors, so it only works with bs=512 , unless you recalculate. To work with bytes, you don't need to recalculate. Get the size of the disk in bytes with blockdev --getsize64 in the first place. Decrement the value by 4, glue B to the end and use it with seek= of recent enough GNU dd . The B postfix informs GNU dd that the unit of this seek= is one byte (regardless of what bs is). disk=sdX disk_size=$(sudo blockdev --getsize64 "/dev/$disk") \ && sudo dd if=/dev/urandom of="/dev/$disk" bs=4 count=1 iflag=fullblock \ seek="$((disk_size-4))B" I think your GNU dd is not recent enough for the above snippet to work. You need seek=… oflag=seek_bytes . In the recent GNU dd this flag is obsolescent . It should still work, but users should prefer the syntax used in the above snippet. You have no choice, use the below. disk=sdX disk_size=$(sudo blockdev --getsize64 "/dev/$disk") \ && sudo dd if=/dev/urandom of="/dev/$disk" bs=4 count=1 iflag=fullblock \ seek="$((disk_size-4))" oflag=seek_bytes Notes: iflag=fullblock because of the possibility of partial reads . In this particular case you want to write until the end of the disk, so you don't really need count= , dd will stop writing at no space left on device (but note it will report non-zero exit status); and if you drop count= then partial writes (if any) won't break anything, so you can as well drop iflag=fullblock . I did not drop them because in general (e.g. when writing to the middle of the disk) you will need them. seek=…B and oflag=seek_bytes are GNU extensions. iflag=fullblock is a new addition to the POSIX standard ( in 2024 when I'm writing this; for now with the wrong spelling though, bug report: here ). When in doubt, you can always use bs=1 and recalculate count= . Then seek= without B will count bytes (even without oflag=seek_bytes ) and there will be no need for iflag=fullblock . With bs=1 the tool will be slower than with bs=512 , but this is negligible when writing just 4 bytes. Do not embed $(sudo blockdev …) in the line with dd , do not run dd unconditionally. In the snippet I used && , so if sudo blockdev … fails then dd will not run. In our particular case an empty value of $disk_size will result in seek=-4B and dd will complain, but in general you may want to do something like seek="$((var+4))B" and then empty $var may be disastrous. The shell arithmetic in Bash does not work well with arbitrarily large integers (compare this question ). Disk manufacturers introduce larger and larger disks, but Bash in your Kubuntu can handle integers of this magnitude. Still be aware that in general the shell arithmetic is limited and it does not catch overflows. Example: a=111111111111111111111111111111 # stored as string echo "$a" # retrieved as string echo "$((a))" # trivially used in arithmetic expansion echo "$?"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1858913/how-to-write-to-last-4-bytes-of-disk-via-cli-like-using-dd-optional
+
+---
+
+#### 6782. Is there a way to grant Visual Studio Code Sudo priviledges?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, fedora, visual-studio-code | Score: 1 | Views: 3192 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+make sure it's owned by root and set the suid bit, chown -v root:root /usr/bin/code; chmod -v u+s /usr/bin/code; Note: I haven't actually tested this myself, but in theory it should work..
+
+**参考链接 / References**:
+- https://superuser.com/questions/1853107/is-there-a-way-to-grant-visual-studio-code-sudo-priviledges
+
+---
+
+#### 6783. How to execute a sudo NOPASSWD: allowed command from a binary executable?
+
+**问题描述 / Problem Description**:
+Tags: bash, permissions, sudo, sudoers, golang | Score: 1 | Views: 442 | Answers: 1 | Created: 2024-07-28
+
+**解决方案 / Solution**:
+for this piece of code this workaround did work with me . No need to do anything in the sudoers file . I've found a work around, and that is to run my command from a bash command . joins := []string{"/usr/bin/sudo", "-u", "root", " /usr/bin/systemctl", option, service} objective := strings.Join(joins, " ") cmd := exec.Command("/bin/bash", "-c", objective) perfectly worked - after hours of no sleep - as bash command . but for security reasons I don't want to run string options after a bash shell. It's dangerous to do so if my variables are variables . it might lead to an injection. I will really appreciate having an answer involving configuring the sudoers file in a secure way without running my commands from a bash shell ?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850530/how-to-execute-a-sudo-nopasswd-allowed-command-from-a-binary-executable
+
+---
+
+#### 6784. Get the number of Intel Performance cores in a script?
+
+**问题描述 / Problem Description**:
+Tags: bash, cpu, intel, cpu-cores | Score: 1 | Views: 237 | Answers: 1 | Created: 2024-07-28
+
+**解决方案 / Solution**:
+To do it in a script, use: lscpu --all --extended=core | tail --lines=+2 | sort | uniq --repeated | wc -l To understand the underlying machinery, start with the command lscpu --all --extended . You will see which CPUs you have, and to which cores they belong. Afterwards, you can alter the command to only output the "core" column via --extended=core , then remove the first line to focus on the numbers in that column via tail --lines=+2 , then sort the lines alphabetically via sort , then remove lines that do not have duplicates via the uniq command, then count the number of remaining lines via wc -l .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850494/get-the-number-of-intel-performance-cores-in-a-script
+
+---
+
+#### 6785. How to count word frequency with grep (or anything else) with an ignore list of words?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, grep | Score: 1 | Views: 154 | Answers: 1 | Created: 2024-07-26
+
+**解决方案 / Solution**:
+I am not sure the solution matches what you are wanting to do, but it would appear to do what you ask - although I am sure someone with decent regex skills could come up with something better - cat test.file | tr " " "\n" | grep -i "person" | egrep -iv "personal|personnels|personally|hypersonic" | wc -l The tr part tokenizes the input into 1 line per word to make it easier to grep. The first grep is a case insensitive search for person, the second handles the words you want to exclude, which is then counted. Maybe a more suitable generic solution which does not rely on your wordlists would be: tr " " "\n" < test.file | egrep -ic "^(person|persons)\b"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1850371/how-to-count-word-frequency-with-grep-or-anything-else-with-an-ignore-list-of
+
+---
+
+#### 6786. bash autocomplete custom script with possiblities from a text file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, autocomplete | Score: 1 | Views: 194 | Answers: 1 | Created: 2024-07-13
+
+**解决方案 / Solution**:
+I figured out a working solution: _run_remote_completion() { local cur_word="${COMP_WORDS[COMP_CWORD]}" local hosts=$(cat ~/data/remote_hosts.txt) COMPREPLY=($(compgen -W "$hosts" -- "$cur_word")) } complete -F _run_remote_completion run_remote.sh
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848954/bash-autocomplete-custom-script-with-possiblities-from-a-text-file
+
+---
+
+#### 6787. How to run sendmail as another other user?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, email, postfix | Score: 1 | Views: 510 | Answers: 1 | Created: 2024-07-10
+
+**解决方案 / Solution**:
+Why are the above returning different results to executing the commands separately on the command line Because su doesn't actually switch your shell to a different user – it starts a new shell under the new user, while the original shell is waiting for it to exit. Normal: bash [user_one] +-- cat testMail.txt [user_one] +-- sendmail [user_one] When su is used as a separate command: bash [user_one] (waiting for 'su' to exit) +-- su [root] (waiting for 'bash' to exit) +-- bash [user_two] (reading your keyboard input) +-- cat testMail.txt [user_two] +-- sendmail [user_two] When su ; cat|sendmail is used: bash [user_one] (waiting for 'su' to exit) +-- su [root] (waiting for 'bash' to exit) | +-- bash [user_two] (reading your keyboard input) | +-- cat testMail.txt [user_one] \ (will be run +-- sendmail [user_one] / when 'su' exits) In interactive mode, this is almost invisible because both shells receive input from the same "stdin". But scripts or ; -separated commands do not emulate keyboard input – they are processed as a separate source. To make this work, you need to have su specifically run the new shell with the -c option that specifies a command to run (both su and bash take the same -c ): su -c "cat test.txt | sendmail foo@bar" user_two This causes 'su' to run bash -c "cat test.txt | sendmail foo@bar" instead of an interactive bash; it will interpret only that command and exit. If only 'sendmail' needs to run as a different user, you can also use: cat test.txt | su -c "sendmail foo@bar" user_two sudo works the same way, except it skips the shell and directly runs the command, so if you need to run a whole pipeline, then the shell needs to be specified manually: sudo -u user_two bash -c "cat test.txt | sendmail foo@bar" cat test.txt | sudo -u user_two sendmail foo@bar
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848695/how-to-run-sendmail-as-another-other-user
+
+---
+
+#### 6788. how do I format the wildcard inside the BOOLEAN expression so that it tests for all extensions?
+
+**问题描述 / Problem Description**:
+Tags: command-line, bash | Score: 1 | Views: 67 | Answers: 1 | Created: 2024-07-08
+
+**解决方案 / Solution**:
+[[ is not a normal command and words in its argument list don't have pathname expansion aka globbing applied to them. [/test with an unquoted wildcard would do the expansion but could uncontrollably produce multiple results and thus syntax errors. The direct way to get a safely testable value is to use command substitution which does glob and can output empty or nonempty depending: if [[ -z "$(shopt -s nullglob; printf %s $masterdir/$basename.*)" ]] then : not in master blah blah fi If it makes sense for the rest of your script you can set nullglob once globally instead of in each subshell. But instead of probing each one individually, IF the number of distinct names in $masterdir is not too large for memory, and not so much larger than the number of names in $proxydir as to be wasteful, you could better do: declare -A inmaster pushd $masterdir || exit 1 for f in *;do inmaster[${f%.*}]=1; done; popd pushd $proxydir || exit 1 # to avoid the basename calls for f in *;do if ! (( ${inmaster[${f%.*}]-0} )); then : blahblah; fi done; popd
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848497/how-do-i-format-the-wildcard-inside-the-boolean-expression-so-that-it-tests-for
+
+---
+
+#### 6789. How to Preend or Append File Name to Reflect Number of Pages in PDF using "qpdf" and "perl"
+
+**问题描述 / Problem Description**:
+Tags: bash, regex, sed | Score: 1 | Views: 114 | Answers: 1 | Created: 2024-07-06
+
+**解决方案 / Solution**:
+I was unable to find a solution using sed ; however, I found a solution using Perl. There were two problems I identified. The first was related to my regex . Namely, the second grouping wasn't working because the first group was too greedy. I corrected this by making it less greedy ( (.*?) ). The second problem was that sed in the context of this problem doesn't recognize a less greedy approach. Accordingly, I used Perl . IFS=$'\n' for i in `ls *.pdf` do base=`printf "$i" | perl -pe 's/^(.*?)( \([0-9]{1,4}\)|)(\.pdf)$/\1/'` count=`printf "$i" | perl -pe 's/^(.*?)( \([0-9]{1,4}\)|)(\.pdf)$/\2/g'` pp=`qpdf --show-npages $i` printf '%s\n' "$i" printf '%s\n' "$base" printf '%s\n\n' "$count" done As a one-liner, it looks like this and executes as expected. IFS=$'\n'; for i in `ls *.pdf`; do base=`printf "$i" | perl -pe 's/(.*?)( \([0-9]{1,4}\)|)(\.pdf)/\1/'`; count=`printf "$i" | perl -pe 's/(.*?)( \([0-9]{1,4}\)|)(\.pdf)/\2/'`; pp=`qpdf --show-npages $i`; printf '%s\n' "$i"; printf '%s\n' "$base"; printf '%s\n\n' "$count"; done The intent of the original script was to append the filename with the number of pages in the respective PDF. Here that is as a one-liner: IFS=$'\n'; for i in `ls *.pdf`; do base=`printf "$i" | perl -pe 's/(.*?)( \([0-9]{1,4}\)|)(\.pdf)/\1/'`; count=`printf "$i" | perl -pe 's/(.*?)( \([0-9]{1,4}\)|)(\.pdf)/\2/'`; pp=`qpdf --show-npages $i`; new=$base"_pp_"$pp$count".pdf"; printf '%s\n' "$i"; printf '%s\n\n' "$new"; mv "$i" "$new"; done Flexible Solution The below script allows you to preend, append, and specify file path depth of renaming a file to reflect number of pages in PDF. IFS=$'\n' for file in `find ./ -type f -iname "*.pdf" -maxdepth 1` ## Change or remove "-maxdepth 1" to search desired file path depth do path=`printf "$file" | perl -pe 's/^(.*\/)([^\/]*)$/\1/'` base=`printf "$file" | perl -pe 's/^(.*\/)([^\/]*?)( \([0-9]{1,4}\)|)(\.[Pp][Dd][Ff])$/\2/'` count=`printf "$file" | perl -pe 's/^(.*\/)([^\/]*?)( \([0-9]{1,4}\)|)(\.[Pp][Dd][Ff])$/\3/'` pp=`qpdf --show-npages $file` pages=`printf '%04d' "$pp"` preend=$path"pp_"$pages"_"$base$count".pdf" append=$path$base"_pp_"$pages$count".pdf" printf '%s\n' "$file" printf '%s\n' "$preend" printf '%s\n\n' "$append" mv "$file" "$preend" ## Change "$preend" to "$append" to meet objective done
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848308/how-to-preend-or-append-file-name-to-reflect-number-of-pages-in-pdf-using-qpdf
+
+---
+
+#### 6790. Using sed to edit filepath variable
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, git, sed | Score: 1 | Views: 696 | Answers: 1 | Created: 2024-07-05
+
+**解决方案 / Solution**:
+In your question, you have the following. sed -i "s|${filepath}/${correctfilepath}|g" $Dir/.git/config. In this command, the delimiter | only appears twice. I believe the delimiter needs to occur three times. Try the following. sed -i "s|${filepath}|${correctfilepath}|g" $Dir/.git/config Actually, the {} are not needed. Below is a simplication. sed -i "s|$filepath|$correctfilepath|g" $Dir/.git/config Note that using the -i option without specifying an extension is not recommended (according to man sed ) and is not always portable. For example, the above command would work under Ubuntu but not macOS. The equivalent to the above command under macOS would be as follows. sed -i "" "s|$filepath|$correctfilepath|g" $Dir/.git/config A more portable and perhaps better approach would be to allow for a backup, then remove the backup after the sed command completes. Below would work for both Ubuntu and macOS. sed -i.bak "s|$filepath|$correctfilepath|g" $Dir/.git/config rm -f $Dir/.git/config.bak
+
+**参考链接 / References**:
+- https://superuser.com/questions/1848110/using-sed-to-edit-filepath-variable
+
+---
+
+#### 6791. SSH from A through B to C, using private key on B
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, ssh, proxy | Score: 1 | Views: 124 | Answers: 1 | Created: 2024-06-28
+
+**解决方案 / Solution**:
+You should copy the private key from B to A (change the name of id_rsa) scp proxy:.ssh/id_rsa ~/.ssh/id_rsa_second Then you can use Host proxy HostName 10.10.10.10 User foo Port 1234 # IdentityFile ~/.ssh/id_rsa # Not necessary, it's the default Host target HostName 11.11.11.11 User bar Port 5678 IdentityFile ~/.ssh/id_rsa_second ProxyJump proxy Now this should work: ssh target
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847418/ssh-from-a-through-b-to-c-using-private-key-on-b
+
+---
+
+#### 6792. Does bash support variable substitution in return statement?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 45 | Answers: 1 | Created: 2024-06-26
+
+**解决方案 / Solution**:
+Has always been like this, because Variable substitution is not done on a per-statement basis. It is not return that expands the variable, much like it's not echo that would expand echo $? – all such expansions are done as one of the input parsing steps before command execution; meaning that they apply equally to most commands (with only a few exceptions). By the time of execution, the command will have already become return 13 (or echo 13 ) and the individual statements will not need to know anything about variables. (In fact, it doesn't even distinguish between different parts of the command – you could even have local y=return; $y $x and that would also have the same effect as return 13 , which hopefully gets the point across.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847137/does-bash-support-variable-substitution-in-return-statement
+
+---
+
+#### 6793. ssh -t host1 ssh host2 "cat < /tmp/test.txt" – file not found
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh | Score: 1 | Views: 107 | Answers: 1 | Created: 2024-06-18
+
+**解决方案 / Solution**:
+In general ssh is able to build a command from many arguments it gets. This kinda crates an impression the arguments are passed to the remote side as an array. They are not; the remote command is always a single string to be interpreted by the remote shell. Your command: # locally ssh -t host1 ssh host2 "cat < /tmp/test.txt" is equivalent to this: # locally ssh -t host1 'ssh host2 cat < /tmp/test.txt' They both result in the same command being passed to the shell on host1 . The command is: # on host1 ssh host2 cat < /tmp/test.txt The above command makes the shell on host1 try to redirect stdin of this ssh . No such file or directory comes from this redirection attempt on host1 . If the redirection worked, the string passed to a shell on host2 would be cat . Your desired command on host1 is: # on host1 ssh host2 "cat < /tmp/test.txt" which does not involve any redirection on host1 and passes cat < /tmp/test.txt to a shell on host2 . There are many forms of local command that result in passing exactly cat < /tmp/test.txt to a shell on host2 . This is the one I would use: # locally ssh -t host1 'ssh host2 "cat < /tmp/test.txt"' The outer quotes (single-quotes in this case) are for the local shell. The inner quotes (double-quotes in this case) are for the shell on host1 . The command run on host1 is exactly your desired command. More insight here: How to execute complex command line over ssh? Note ssh -t host1 … allocates a tty on host1 , which is useful if ssh host2 … on host1 asks for password (I suspect this is the reason you used ssh -t ), but it may distort the content of /tmp/test.txt . In other words, if you locally redirected output to a regular file, then the file might not be identical to the original /tmp/test.txt . You cannot reliably transfer arbitrary data this way (see ssh with separate stdin, stdout, stderr AND tty ).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1846265/ssh-t-host1-ssh-host2-cat-tmp-test-txt-file-not-found
+
+---
+
+#### 6794. How to merge all mp3 files located in the same directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, ffmpeg, sed, mp3 | Score: 1 | Views: 215 | Answers: 1 | Created: 2024-06-12
+
+**解决方案 / Solution**:
+I wasn't sure what this error message referred to either. Here are the steps I took to find out: Noticed the final line: pipe:: Invalid argument Searched the ffmpeg docs for the pipe protocol, found this Saw that pipe expects a number representing a file descriptor It's hard to say more without knowing the what the sed output looks like, but based on the ls usage, it seems like you're expecting only to read files by their path, so I'm not sure A. where pipe is coming from in the first place, or B. why you need it in protocol_whitelist in the first place. Try removing pipe from the list?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1845690/how-to-merge-all-mp3-files-located-in-the-same-directory
+
+---
+
+#### 6795. Bash prevent word splitting in array from command
+
+**问题描述 / Problem Description**:
+Tags: bash, debian | Score: 1 | Views: 218 | Answers: 1 | Created: 2024-06-06
+
+**解决方案 / Solution**:
+The solution was to use mapfile. This resolves the issue. mapfile selections < <(find . -maxdepth 1 -type d) unset "selections[0]"; ## removes . as an option readarray -t sorted_selections < <(IFS=$'\n'; sort <<<"${selections[*]}") for ((i=0; i<${#sorted_selections[@]}; i++)); do sorted_selections[i]=${sorted_selections[i]:2} done for v in "${sorted_selections[@]}"; do if test "$v"; then var2+=("$v"); fi; done printf '%s\n' "${var2[@]}" This did create some odd behavior in my bash script after implementing this but thats a different probelm. Edit: I have found an even better soultion: IFS='' selections=( $(find . -maxdepth 1 -type d) ) unset IFS readarray -t sorted_selections < <(IFS=$'\n'; sort <<<"${selections[*]}") for ((i=0; i<${#sorted_selections[@]}; i++)); do sorted_selections[i]=${sorted_selections[i]:2} done for ((c=0; c<${#sorted_selections[@]}; c++)); do sorted_selections[c]="\033[0;34m\033[40m${sorted_selections[c]}\033[0m"; done unset "sorted_selections[0]"; ## removes . as an option Like mentioned in the comments there isn't really much you can do with the return/next line character. There might be a way to handle it with eval "$( find . -type f -exec bash -c ' file_array=("$@") declare -p file_array ' -s '{}' + )" echo "--- outside find ---" declare -p file_array but why mess with something that works
+
+**参考链接 / References**:
+- https://superuser.com/questions/1845064/bash-prevent-word-splitting-in-array-from-command
+
+---
+
+#### 6796. How to find the last N days from a log file
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 1 | Views: 84 | Answers: 1 | Created: 2024-05-29
+
+**解决方案 / Solution**:
+Super user is not a script writing service, so I'll give you tip only, where to start: $ n=1;date -d "-${n}days" +"%B %d %Y" will print yesterdays date, That is the beginning (base) of a search parameter to grep.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1844110/how-to-find-the-last-n-days-from-a-log-file
+
+---
+
+#### 6797. Linux installation on Proliant DL360 G7
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, fedora, hp-proliant | Score: 1 | Views: 1159 | Answers: 1 | Created: 2024-03-25
+
+**解决方案 / Solution**:
+Without being able to diagnose the exact problem, I would just suggest not installing a GUI on those servers. They have only the absolute bare minimum graphics adapter (not even an 'iGPU', really), generally something MGA200-like that is integrated into the iLO remote KVM feature, and they will not run anything that requires 3D acceleration. (Until recently, the Linux drivers for these chips only supported the legacy framebuffer mode, not even modern DRI.) So although you can have some Linux GUIs running (much like Windows can show a GUI), it would be more along the lines of Xfce at most – definitely not the GPU-intensive GNOME Shell that you're trying to start on Fedora. As far as server management goes, a standard Debian or Fedora GUI won't even help you much, anyway: most distros (except perhaps SuSE) don't have any "mmc.exe"-like tools for local server configuration. Any setup you do would be either through a text editor (which is going to be much more convenient to do via SSH/SFTP than via iLO), or through a web-based tool like Cockpit or Webmin. (Cockpit is a RHEL/Fedora thing and might even be offered during install.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1836542/linux-installation-on-proliant-dl360-g7
+
+---
+
+#### 6798. How to swap between pulseaudio and pipewire without restarting?
+
+**问题描述 / Problem Description**:
+Tags: audio, fedora, pulse-audio, pipewire | Score: 1 | Views: 4054 | Answers: 1 | Created: 2023-12-23
+
+**解决方案 / Solution**:
+This is what worked for me. # Switch to pulseaudio sudo dnf swap -y --allowerasing pipewire-pulseaudio pulseaudio && { \ systemctl --user stop pipewire.socket pipewire-pulse ; \ sleep 1 ; \ pulseaudio -D ; \ sleep 1 ; \ ps -e | grep 'pipe\|pulse' ; } # Switch to pipewire sudo dnf swap -y --allowerasing pulseaudio pipewire-pulseaudio && { \ pkill -x pulseaudio ; \ sleep 1 ; \ systemctl --user restart pipewire.socket pipewire-pulse ; \ sleep 1 ; \ ps -e | grep 'pipe\|pulse' ; } Each set of commands installs the alternative package, stops the previous service, starts the new one and verifis with a ps -e . My guess is pipewire-pulseaudio implements some pulseaudio API on top of pipewire, maybe like Xwayland allows running X11 apps on wayland, but with the limitation that it can't exist at the same time as pulseaudio so a dnf swap is needed. I found the commands on these forums: https://discussion.fedoraproject.org/t/how-do-i-switch-from-pulseaudio-to-pipewire-and-back/78093 https://forums.fedoraforum.org/showthread.php?328748-pipewire-restart https://forums.fedoraforum.org/showthread.php?326248-Just-upgraded-pipewire-and-want-to-reload-it-without-rebooting&p=1848601
+
+**参考链接 / References**:
+- https://superuser.com/questions/1822909/how-to-swap-between-pulseaudio-and-pipewire-without-restarting
+
+---
+
+#### 6799. How to properly fix [sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set]
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, sudo | Score: 1 | Views: 21554 | Answers: 2 | Created: 2023-11-14
+
+**解决方案 / Solution**:
+First, find another way to become root. Either machinectl shell or systemd-run --shell or the recently added run0 should still work, as they don't rely on setuid binaries (not in /usr/bin at least – machinectl still relies on a setgid binary in /usr/lib, but systemd-run and run0 don't need any). If nothing works, reboot into rescue mode (add rescue to the kernel command line at the boot menu); sudo won't be necessary there as everything starts as root to begin with. As a preliminary fix, use chmod u+s (or chmod 4755 ) to manually mark /usr/bin/sudo as "setuid" (and do the same on /usr/bin/su just in case). For a complete fix, it's best to use your package manager (rpm+dnf) to find and reinstall all affected packages, as there are quite a few other programs in /usr/bin that lost their "setuid" and/or "setgid" privilege bits. Use rpm -Va to verify which other files no longer match what was originally installed from packages (probably rpm -Va | grep /usr/bin and maybe | awk '$1 ~ /[MUGP]/' ). Use rpm -q --whatprovides /usr/bin/whatever to find out which package each file belongs to. Use dnf reinstall whatever to reinstall the packages. Finally, take a look at the files and verify that they have the correct permissions – if you ls -l , you should see "rws" instead of "rwx" on /usr/bin/sudo; and if you use stat to check the same mode in octal you should see 04755 (or 02755) instead of just 0755.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1816624/how-to-properly-fix-sudo-usr-bin-sudo-must-be-owned-by-uid-0-and-have-the-set
+
+---
+
+#### 6800. Keyboard working in grub but not in Windows or Fedora 37
+
+**问题描述 / Problem Description**:
+Tags: linux, windows-10, keyboard, fedora, grub | Score: 1 | Views: 550 | Answers: 1 | Created: 2023-08-10
+
+**解决方案 / Solution**:
+Reinstalling the OS (both Linux and Windows 10) did not solve the problem. I managed to solve by decoupling the BIOS battery from the motherboard for a few seconds. I still do not know what caused it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803507/keyboard-working-in-grub-but-not-in-windows-or-fedora-37
+
+---
+
+#### 6801. Newly created home in a secondary hard drive keeps unmounting after restart, fstab does not work
+
+**问题描述 / Problem Description**:
+Tags: linux, mount, fedora, reboot | Score: 1 | Views: 487 | Answers: 3 | Created: 2023-08-02
+
+**解决方案 / Solution**:
+You hsve commented out the line in your ftab file to mount the drive (The line starting UUID=7c34e1a9-bf29-4b8d-aaf7-e955b647575d...) which refers to your new disk. That entry also references the btrfs but the disk is ext4. You may need to change the entry to reflect this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1802032/newly-created-home-in-a-secondary-hard-drive-keeps-unmounting-after-restart-fst
+
+---
+
+#### 6802. AMD bios RAID not detected in Fedora 38
+
+**问题描述 / Problem Description**:
+Tags: linux, raid, fedora | Score: 1 | Views: 618 | Answers: 1 | Created: 2023-06-11
+
+**解决方案 / Solution**:
+With high probability this is fake RAID controller. It is software based and as you saw it start working only with drivers. Which drivers are available only for Windows OS. You can try to install Windows drivers in Linux but will be better to manage things in natural way work under Linux with JBOD.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1788442/amd-bios-raid-not-detected-in-fedora-38
+
+---
+
+#### 6803. Cannot boot after failed Fedora Dual Boot installation with existing Windows 8
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, windows-8, fedora, mbr | Score: 1 | Views: 732 | Answers: 1 | Created: 2023-05-20
+
+**解决方案 / Solution**:
+Some conclusions from your description : Since your data was not erased, the disk was hopefully not converted to GPT Since an EFI partition didn't exist before, most likely the Windows 8 installation was not EFI The Fedora installation was an EFI version and messed up your boot. Let's hope that it didn't also mess up the BIOS settings. Let's try to fix the Windows locked problem using the Windows installation USB and the two methods below. Run Automatic Repair Boot from the Windows DVD/USB installation media Click "Repair your computer" Navigate to Troubleshoot > Automatic Repair Continue with the wizard to complete the process. Reboot. If this didn't fix the Windows locked error, do this : Use bootrec to rebuild the BCD file Boot from the Windows DVD/USB installation media Navigate to Troubleshoot > Advanced Options > Command Prompt Enter these commands : bootrec /FixMbr bootrec /FixBoot bootrec /ScanOs bootrec /RebuildBcd Remove the installation media Enter the exit command Reboot.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785083/cannot-boot-after-failed-fedora-dual-boot-installation-with-existing-windows-8
+
+---
+
+#### 6804. Linux, SSD, TRIM - Not working? (hdparm, Samsung)
+
+**问题描述 / Problem Description**:
+Tags: linux, ssd, fedora, luks, samsung-ssd | Score: 1 | Views: 930 | Answers: 1 | Created: 2023-05-20
+
+**解决方案 / Solution**:
+I have it working now. It turns out I left off a key piece of information I didn't know was pertinent. So for anyone else: I was using the GUI gnome-disk-utility for unlocking and mounting the encrypted partition. I was unable to to find a direct gnome-disk-utility option to make it work. However : Manually unlocking from the command line once with: sudo cryptsetup luksOpen --allow-discards --persistent /dev/nvme0n1p1 ssd-1_partition Resolved the issue. The --persistent option wrote the --allow-discards into the LUKS2 header metadata. Now gnome-disk-utility simply works and TRIM is enabled. See ArchLinux TRIM Support How to test if TRIM is enabled: sudo lsblk --discard NAME DISC-ALN DISC-GRAN DISC-MAX DISC-ZERO nvme0n1 0 512B 2T 0 └─nvme0n1p1 0 512B 2T 0 └─luks-ffb768b8-144c-4250-8eb7-17f11cc7367c 0 512B 2T 0 The third entry will be missing or zeros if TRIM is not enabled.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1785067/linux-ssd-trim-not-working-hdparm-samsung
+
+---
+
+#### 6805. VPN changes IP Address/Geo Location successfully however the content blocking applied by my ISP persists only on Fedora Linux distribution
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, vpn, fedora, blocking | Score: 1 | Views: 415 | Answers: 1 | Created: 2023-05-13
+
+**解决方案 / Solution**:
+Your DNS may be leaking. Perform an extended test from DNS leak test . Your ISP's DNS servers shouldn't be in the list. Also, try to use DNS over HTTPS with Cloudlfare in Firefox to see if it solves your problem. It's under Settings > General > Network Settings. If you think problem is the firewall, you can temporarily stop it: sudo systemctl stop firewalld
+
+**参考链接 / References**:
+- https://superuser.com/questions/1783904/vpn-changes-ip-address-geo-location-successfully-however-the-content-blocking-ap
+
+---
+
+#### 6806. Cant connect to some websites
+
+**问题描述 / Problem Description**:
+Tags: firefox, internet, fedora, web | Score: 1 | Views: 4476 | Answers: 1 | Created: 2023-05-09
+
+**解决方案 / Solution**:
+There are a number of people reporting that enabling DNS over HTTPS caused them this issue. Try disabling DNS over HTTPS and see if it helps: Click the menu button and select Settings . In the General panel, go down to Network Settings and click the Settings button In the dialog box that opens, scroll down to Enable DNS over HTTPS Deselect the Enable DNS over HTTPS checkbox Click OK to save your changes and close the box Test again loading those websites. Given that the nslookup and dig commands show an error communicating/getting a response from the router's DNS, you should try setting your DNS servers statically (you can use Google's 8.8.8.8 and Cloudflare's 1.1.1.1 ) on the PC and then test again. Open Settings Go to Network Click on the gearwheel next to the network device you want to modify (Wired or wireless) Select IPv4 Toggle the Automatic DNS OFF Input your desired DNS (you can try 8.8.8.8,1.1.1.1 ) Click Apply
+
+**参考链接 / References**:
+- https://superuser.com/questions/1783251/cant-connect-to-some-websites
+
+---
+
+#### 6807. Inaccurate timezone in firefox
+
+**问题描述 / Problem Description**:
+Tags: firefox, fedora, time-zone | Score: 1 | Views: 451 | Answers: 1 | Created: 2023-05-03
+
+**解决方案 / Solution**:
+My solutión was yum update firefox , now I have firefox-112.0.1-1.fc37.x86_64 , and timezone database of firefox was updated
+
+**参考链接 / References**:
+- https://superuser.com/questions/1782237/inaccurate-timezone-in-firefox
+
+---
+
+#### 6808. How to recover windows boot option after installed fedora 38 on another disk
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, fedora, grub | Score: 1 | Views: 2853 | Answers: 1 | Created: 2023-04-27
+
+**解决方案 / Solution**:
+As EFI Partition is missing, so I recreated it by using windows install media. by pressing shift + f10 when choose language wazard appears, enter command prompt then: diskpart list disk // choose disk carefully select disk 0 list partition // choose partition carefully select partition 2 // shrink another partition to give ESP sapce shrink desired =600 // now create the ESP create partition efi // format it as FAT32 format fs=fat32 quick assign letter=Y exit // fill ESP with EFI files... bcdboot c:windows /s Y:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1781198/how-to-recover-windows-boot-option-after-installed-fedora-38-on-another-disk
+
+---
+
+#### 6809. How to disable anything from happening when closing the lid of my laptop on fedora 37
+
+**问题描述 / Problem Description**:
+Tags: linux, laptop, fedora | Score: 1 | Views: 2095 | Answers: 1 | Created: 2023-04-19
+
+**解决方案 / Solution**:
+Two hardware changes to fix issue: You can check WiFi signal strength with a tool such as Nirsoft's free WifiInfoView . If signal strength and quality drop significantly with lid closed, connect a piece of wire of about the same length in place of the antenna for the WiFi card, and extend it out the back, or, if you do not want to take apart the laptop, use an external WiFi USB adapter , e.g., this one . If the issue is due to the lid switch, either disconnect it or put small switch in series. Had you provided info on the laptop, you might get a more specific answer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1779790/how-to-disable-anything-from-happening-when-closing-the-lid-of-my-laptop-on-fedo
+
+---
+
+#### 6810. Can't install and use acpi_call on Fedora 37
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, rpm, acpi, kernel-module | Score: 1 | Views: 1851 | Answers: 1 | Created: 2023-02-09
+
+**解决方案 / Solution**:
+You won't be able to use acpi_call-1.1.0 on a 5.6+ kernel. Use a version after this patch . Ideally 1.2.2
+
+**参考链接 / References**:
+- https://superuser.com/questions/1767785/cant-install-and-use-acpi-call-on-fedora-37
+
+---
+
+#### 6811. DDclient is not able to open files owned by ddclient
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, fedora | Score: 1 | Views: 2350 | Answers: 1 | Created: 2023-01-21
+
+**解决方案 / Solution**:
+The file is not owned by the program "ddclient", it is owned by the user account named "ddclient". Programs will only be allowed to read it if they're running as that user – which is not the case in your example; the ddclient program is being run under the "heimchen" account which has no permissions to access the file. This applies equally to nano /etc/ddclient.conf or cat /etc/ddclient.conf . Starting the program as a service will automatically run it under the correct user account, as the .service configuration has User=ddclient specified in it; starting it directly, however, always runs it under the user account of whoever started it. Compare with sudo -u ddclient ddclient or sudo -u ddclient cat /etc/ddclient.conf , which do switch to the specified user account. The . next to basic file permissions indicates that additional restrictions (security labels) from SELinux can apply, but that's only relevant if the basic permissions allow access (as SELinux can only restrict access further, not relax the checks).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1764198/ddclient-is-not-able-to-open-files-owned-by-ddclient
+
+---
+
+#### 6812. How to configure shell commands to be selectable for running?
+
+**问题描述 / Problem Description**:
+Tags: mac, shell, visual-studio-code | Score: 1 | Views: 51 | Answers: 1 | Created: 2023-01-17
+
+**解决方案 / Solution**:
+I created the alias profile for code /Users/polinach/.bash_profile , and aliases for all my projects. So my steps are: Run profile See project name Run project_name
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763400/how-to-configure-shell-commands-to-be-selectable-for-running
+
+---
+
+#### 6813. How to debug ssh connection to remote user (when connection to root works fine)
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, openssh, ssh-keys, xubuntu | Score: 1 | Views: 395 | Answers: 1 | Created: 2023-01-17
+
+**解决方案 / Solution**:
+-rw-------. 1 kevin kevin 96 Jan 17 06:34 authorized-keys This file should normally be called authorized_keys with an underscore instead of a dash. Sshd looks for the underscore form by default .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1763284/how-to-debug-ssh-connection-to-remote-user-when-connection-to-root-works-fine
+
+---
+
+#### 6814. In a bash shell, is `rm -rf ./*` better/safer than `rm -rf *`
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, rm | Score: 1 | Views: 1027 | Answers: 1 | Created: 2023-01-14
+
+**解决方案 / Solution**:
+The better solution is rm -rf ./* . Shell globs (wildcards) are expanded before the command is executed, and there is no significant restriction on file names, which means that certain classes of filename can affect the command execution itself. Here's an example: # Create a playground mkdir fun cd fun # Create four files touch x y z ./-i ls # Output is four files: -i x y z # Remove them per the original question rm -rf * At this point the command - and the wildcard - is expanded by the shell as follows: rm -rf -i x y z The result is that when rm runs it sees another option ( -i ), which negates the -f and turns it into interactive mode: rm: remove regular empty file 'x'? ... Note that even if you respond y to each of the questions about removing a file, you still won't end up with an empty directory - the file -i will remain. The correct solution is either to prefix the set of files with -- ( POSIX guideline 10 ), which tells many commands to stop parsing the command line for arguments, or simply to use ./* instead of * : rm -rf -- * rm -rf ./* (To remove the file -i , of course you would simply rm ./-i .) Oh, and in response to your " rm -rf . /* can cause disaster " - yes it can, so take care when using rm -rf and any form of wildcard.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1762881/in-a-bash-shell-is-rm-rf-better-safer-than-rm-rf
+
+---
+
+#### 6815. Font size in Flatpak OBS
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, xorg, kde-plasma-5, flatpak | Score: 1 | Views: 1463 | Answers: 1 | Created: 2023-01-13
+
+**解决方案 / Solution**:
+Using a Flatseal Environment Variable Install Flatseal: $ flatpak install flathub com.github.tchx84.Flatseal Launch Flatseal and select the Flatpak application. Under the Environment — Variables section, add the line: QT_SCALE_FACTOR=1.25
+
+**参考链接 / References**:
+- https://superuser.com/questions/1762685/font-size-in-flatpak-obs
+
+---
+
+#### 6816. How to have bash aliases usable from any directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, bash, shell, bash-alias | Score: 1 | Views: 1138 | Answers: 2 | Created: 2022-12-22
+
+**解决方案 / Solution**:
+Some ideas below that are based on the post How to set an alias on a per-directory basis? If the aliases are contained in a file named .aliases in all directories, one idea would be to define your aliases as: alias "foo=. ./.aliases; alias-command" Another idea is to add the following function to your .bashrc file, so that every time that you cd to a directory with an .aliases file, it will get source'd: function cd () { builtin cd "$@" && [[ -f .aliases ]] && . .aliases }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1759081/how-to-have-bash-aliases-usable-from-any-directory
+
+---
+
+#### 6817. Open terminal to execute command and then terminate if successful
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, terminal, shell | Score: 1 | Views: 1615 | Answers: 3 | Created: 2022-12-20
+
+**解决方案 / Solution**:
+The question is tagged bash . This answer uses Bash. bash -t exits after reading and executing one command, possibly complex command, one command "line" that may be quite a huge (and even multi-line) piece of shell code. bash -t exits regardless of the exit status of the command. To exit conditionally you need something more complex. Create a file ~/.single_command_bashrc and put the following code in it: if [ -f /etc/bash.bashrc ]; then . /etc/bash.bashrc fi if [ -f ~/.bashrc ]; then . ~/.bashrc fi PS1="(transient) $PS1" BASH_LATE_ENOUGH= PROMPT_COMMAND=' [ "$?" -eq 0 ] && [ -n "$BASH_LATE_ENOUGH" ] && exit BASH_LATE_ENOUGH=x ' The file does not have to be executable. Now if you run bash --rcfile ~/.single_command_bashrc then the newly opened interactive Bash will source /etc/bash.bashrc and ~/.bashrc (like interactive Bash invoked without --rcfile would); but additionally it will configure itself to do what you want. Inside this Bash the shell code stored in PROMPT_COMMAND will be executed every time a prompt is about to be printed. The code makes the shell exit just before it would otherwise print the prompt after a successful command. Because before the first prompt there's also a successful command, the helper variable named BASH_LATE_ENOUGH is used to make sure exit is not performed before the very first prompt. I could achieve a similar result just by adding false at the end of ~/.single_command_bashrc , but if for any reason set -e would be active at the time, then this false would make the shell exit prematurely. IMO the variable is a better solution. You need to tell your terminal emulator to run bash --rcfile ~/.single_command_bashrc . Judging solely by what you posted, I say the command may be: foot bash --rcfile ~/.single_command_bashrc (I use konsole and in my case it is konsole -e bash --rcfile … .) Notes: If bash gets ~/ inside the option-argument to --rcfile , it will expand it on its own. This means you can use the above (or similar) command even in a context where tilde expansion does not occur. I mean regardless if ~/ gets expanded before foot runs, or by foot (I totally don't know if foot even tries), or by our special-purpose bash , it should work. "One command" the user will be able to execute can be almost arbitrarily complex piece of shell code: many commands separated by ; and/or & , connected by && and/or || ; including pipelines, here-documents etc. This may or may not be what you want. While typing a command, you are typing directly in Bash: you can have your prompt (my code expands it slightly), your key bindings, tab completions, you can use any shell syntax. There is no need to worry about IFS , no need for read , eval or anything, no additional level of parsing. The shell works normally until the next prompt is about to be printed. The user can easily circumvent the mechanism. Few obvious angles of attack: whatever; false unset PROMPT_COMMAND The solution is certainly not a way to restrict the user. It's for a cooperative user. Our file simply sets PROMPT_COMMAND . If you normally use PROMPT_COMMAND for something (e.g. already set it in ~/.bashrc ) then you may want to append to PROMPT_COMMAND rather than to overwrite it. exit exits the shell. It's up to the terminal emulator if it closes automatically after the shell exits. There are commands that encode useful information in their exit status and formal "failure" (non-zero exit status) from them does not necessarily mean something went wrong. E.g. in echo foo | grep bar the exit status from grep is 1 which means "pattern not found", it does not mean grep failed to do its job.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758741/open-terminal-to-execute-command-and-then-terminate-if-successful
+
+---
+
+#### 6818. Fedora 37 Dual Boot | Not Enough Space for Grub.Img
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, dualboot | Score: 1 | Views: 718 | Answers: 1 | Created: 2022-12-19
+
+**解决方案 / Solution**:
+It really depends on whether your Windows installation on the SSD is a UEFI/GPT one, as you would mostly want the Linux/grub installation to be of the same mode. You won't be able to chainload Windows with grub if they are of the same mode (but can only rely on the boot menu of the UEFI firmware to multi-boot). It's kind of strange that the installer doesn't simply create the "BIOS boot partition" for you though. Such partition is required for BIOS/legacy (i386-pc) grub on GPT. Not sure if creating manually will help you get through the installation (in case you need it to be of BIOS/legacy mode because of your Windows installation). Not familiar with all those dumb distro installers. But if your Windows is a UEFI/GPT one, what you need to do is to boot your installation medium in UEFI mode (it appears that now it is booted in legacy mode). You might need to make sure that the medium is properly written / prepared for UEFI booting as well. Once it is booted that way, the installer will likely use the existing EFI system partition on the SSD. If you want to avoid that, you might want to temporarily detach the SSD before you boot the installation medium and attach it back once you finished the installation. (Many distro installers are too dumb to offer an option for that.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758447/fedora-37-dual-boot-not-enough-space-for-grub-img
+
+---
+
+#### 6819. How can I fix a bunch of declare commands being spammed when I start a bash session?
+
+**问题描述 / Problem Description**:
+Tags: macos, bash, terminal, shell | Score: 1 | Views: 353 | Answers: 1 | Created: 2022-12-11
+
+**解决方案 / Solution**:
+The output you are seeing tends to happen if there is an export by itself on a line in : $HOME/.bashrc $HOME/.bash_profile /etc/profile Here are some steps you can try: The first thing you can try is to type export by itself in a shell prompt to see if it spits out the same output. Then check to see if you have export by itself on a line in of those files ( listed above ): grep -HnE $'^( )*export( |\t)*$' $HOME/.bashrc $HOME/.bash_profile /etc/profile (grep command above is checking for the word export by itself preceded or followed by 0 or more spaces or tabs before the end of the line in a manner that would work for a mac and even linux) You can then comment out the line(s) that show up matching in the file(s).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1757212/how-can-i-fix-a-bunch-of-declare-commands-being-spammed-when-i-start-a-bash-sess
+
+---
+
+#### 6820. Possible to use shell script that does loopback to localhost when receiving a packet?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, tcp, loopback | Score: 1 | Views: 390 | Answers: 1 | Created: 2022-12-08
+
+**解决方案 / Solution**:
+OK. I have resolved the question now. It was multiple things that caused the error. First, netcat does not allow multiple connections (see https://stackoverflow.com/a/29780420/19923651 for reference. ) I resolved that by using socat instead. Then there were some other issues too, that made me misinterpret my attempts at debugging.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1756781/possible-to-use-shell-script-that-does-loopback-to-localhost-when-receiving-a-pa
+
+---
+
+#### 6821. Shell script in Mac Automator won't work with folders
+
+**问题描述 / Problem Description**:
+Tags: bash, mac, shell, script, automator | Score: 1 | Views: 1214 | Answers: 2 | Created: 2022-11-30
+
+**解决方案 / Solution**:
+Your first problem is the variable assignment in the loop. Let's say I have files. I made it with touch file\ with\ space{001..010}.txt and touch file{001..010}.txt file with space001.txt file with space002.txt file with space003.txt file with space004.txt file with space005.txt file with space006.txt file with space007.txt file with space008.txt file with space009.txt file with space010.txt file001.txt file002.txt file003.txt file004.txt file005.txt file006.txt file007.txt file008.txt file009.txt file010.txt let's debug you script. for f in "$@" do DIRNAME="$(/usr/bin/dirname "$f")" BASENAME_DIRNAME="$(/usr/bin/basename "$(/usr/bin/dirname "$f")")" echo "$f" echo $DIRNAME echo $BASENAME_DIRNAME done the result is : file with space001.txt . . file with space002.txt . . file with space003.txt . . file with space004.txt . . file with space005.txt <ellipsis> And this is the way the script run. + for f in '"$@"' /usr/bin/dirname "$f" ++ /usr/bin/dirname 'file with space001.txt' + DIRNAME=. /usr/bin/basename "$(/usr/bin/dirname "$f")" /usr/bin/dirname "$f" +++ /usr/bin/dirname 'file with space001.txt' ++ /usr/bin/basename . + BASENAME_DIRNAME=. + echo 'file with space001.txt' file with space001.txt + echo . . + echo . . <ellipsis> The debug shows $f don't have an absolute path. I believe that is not what you want as Accession variable. To get an absolute path, use realpath command. To use realpath , you need to install coreutils via brew install coreutils I suggest add this command in the loop. This fixes the first problem. my realpath 's path is /usr/local/bin/realpath . yours may have different path. To find the path of the realpath , which realpath f=$(/usr/local/bin/realpath "$f") for f in "$@" do f=$(/usr/local/bin/realpath "$f") DIRNAME="$(/usr/bin/dirname "$f")" BASENAME_DIRNAME="$(/usr/bin/basename "$(/usr/bin/dirname "$f")")" echo "$f" echo $DIRNAME echo $BASENAME_DIRNAME done The second problem is that Zsh in the Automator does not work as Zsh in a terminal. This is because they have different setopt settings. The detailed zsh option explanation is zsh options . I can write a more concise and intuitive script, but the difference in setopt can cause an error. So you should write a shell script differently. The difference can be fixed, but now it's too time-consuming for the script. The suggestion for your code. #If you choose a directory. if [[ -d $@ ]] then # if you select a directory which contains files. for f in $@/* do f=$(/bin/realpath $f) /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0008,0050)=$Accession" "$f" -nb Patient="$(/usr/bin/basename "$(/usr/bin/dirname "$(/usr/bin/dirname "$f")")")" /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0010,0010)=$Patient" "$f" -nb /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0010,0020)=$Patient" "$f" -nb done #If you don't choose directory. else # if you select files. for f in $@ do f=$(/bin/realpath $f) /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0008,0050)=$Accession" "$f" -nb Patient="$(/usr/bin/basename "$(/usr/bin/dirname "$(/usr/bin/dirname "$f")")")" /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0010,0010)=$Patient" "$f" -nb /opt/homebrew/Cellar/dcmtk/3.6.7/bin/dcmodify -m "(0010,0020)=$Patient" "$f" -nb done fi
+
+**参考链接 / References**:
+- https://superuser.com/questions/1755484/shell-script-in-mac-automator-wont-work-with-folders
+
+---
+
+#### 6822. Variables not being set in Makefile
+
+**问题描述 / Problem Description**:
+Tags: shell, shell-script, make, makefile | Score: 1 | Views: 8589 | Answers: 1 | Created: 2022-11-12
+
+**解决方案 / Solution**:
+You need to remember that the "makefile" part of make, is separate from the "shell" part. Once you're inside the recipe for the makefile it's all shell commands. That means you can't set a makefile variable from within it. There are ways to get around this however, using the $(shell) and $(eval) makefile commands. https://www.gnu.org/software/make/manual/html_node/Shell-Function.html https://www.gnu.org/software/make/manual/html_node/Eval-Function.html In your case something like this could work. The eval command evaluates the remaining text AS makefile (even when inside a recipe), so we set the Makefile variable profile to the result of a shell command. In there, you can make your bash assertions and echo out whatever you want the variable to be. Only then will your change to the makefile variable actually occur. set_vars: $(eval profile := $(shell [ "${profile}" = "" ] && echo 'test' || echo 'Profile Exists') echo $(profile); On the other hand, you could instead, convert your Makefile variable to a bash variable and manipulate it that way: set_vars: PROFILE=${profile} if [ $PROFILE = "" ]; then \ PROFILE="test"; \ else \ echo "Profile exists";\ fi echo $PROFILE; Hope this helps!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1752412/variables-not-being-set-in-makefile
+
+---
+
+#### 6823. zmv to rename Unicode characters (e.g. u0308 'COMBINING DIAERESIS') on Mac/zsh-shell
+
+**问题描述 / Problem Description**:
+Tags: macos, shell, zsh, unicode, filenames | Score: 1 | Views: 329 | Answers: 1 | Created: 2022-11-08
+
+**解决方案 / Solution**:
+It looks like cutting and pasting the multi-byte characters into the command line will work: > zmv -n '**/*(#qD.)' '$f:gs/ü/ue' mv -- f1/abcü123 f1/abcue123 mv -- f2/MüüMüM f2/MueueMueM > zmv -n '**/*ü*(#qD.)' '${f//ü/ue}' mv -- f1/abcü123 f1/abcue123 mv -- f2/MüüMüM f2/MueueMueM There are some contexts where you can use explicit character encodings, e.g. in substitutions: > f=Au$'\u308'B > print $f AüB > print ${f//u$'\u308'/ue} AueB But this doesn't appear to work with zmv , possibly because of the parsing of the input patterns by the zmv function.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1751689/zmv-to-rename-unicode-characters-e-g-u0308-combining-diaeresis-on-mac-zsh-s
+
+---
+
+#### 6824. Reload user's group in a script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, script, bash-scripting | Score: 1 | Views: 1556 | Answers: 1 | Created: 2022-11-02
+
+**解决方案 / Solution**:
+Unfortunately, the only way that I know of to get a shell with up-to-date user groups is to do something like su - $(whoami) , which requires the current user to type their password in again, or use newgrp / sg . To avoid the user needing to authenticate again, we are stuck with the latter. #!/bin/bash # The new group that will be created and have the current user added to. GROUP_NEW=testgroup if [ -z "$GROUPS_LIST_ADDED" ]; then sudo groupadd "$GROUP_NEW" sudo usermod --append --groups "$GROUP_NEW" "$(whoami)" # Run this script again with the new group added to the groups list # and set as the primary group. We will run it once more to restore # the primary group to the original value. export GROUP_ORIGINAL="$(id -gn)" export GROUPS_LIST_ADDED=1 # We ensure that script arguments are independently sub-quoted. exec sg "$GROUP_NEW" "exec '$0' $(printf "'%s' " "$@")" elif [ -z "$GROUP_PRIMARY_RESTORED" ]; then # Rerun this script once more to restore the primary group. export GROUP_PRIMARY_RESTORED=1 exec sg "$GROUP_ORIGINAL" "exec '$0' $(printf "'%s' " "$@")" fi # Continue on with this script. The current user now has the new group added to # it's groups list. id We need to re-executue using sg twice, once to add the new group to the "groups list" and another to set the "primary group" back to the original primary group. If we tried to do this in one line of nested execs, we would have to use double escaped quotes for the script's arguments, which is complex and unclear. For this reason, I chose to split the sg exec calls.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1750806/reload-users-group-in-a-script
+
+---
+
+#### 6825. Get access to value of command to run in zsh (value of -c paramter)
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, zsh | Score: 1 | Views: 315 | Answers: 1 | Created: 2022-11-01
+
+**解决方案 / Solution**:
+You can use the $ZSH_EXECUTION_STRING parameter to get the value set by using zsh -c . ZSH_EXECUTION_STRING : If the shell was started with the option -c, this contains the argument passed to the option. Otherwise it is not set. Here's what it looks like in the terminal: $ echo $ZSH_EXECUTION_STRING $ echo $ZSH_SCRIPT $ ./scr.zsh $ZSH_SCRIPT: ./scr.zsh $ZSH_EXECUTION_STRING: $ zsh -itc 'echo "$ZSH_EXECUTION_STRING" && ./scr.zsh' echo "$ZSH_EXECUTION_STRING" && ./scr.zsh $ZSH_SCRIPT: ./scr.zsh $ZSH_EXECUTION_STRING: This may also be useful for autolaunching other interactive terminal programs like tmux. Here's an example snippet which launches tmux on launch when placed in your zshrc: if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then exec tmux fi
+
+**参考链接 / References**:
+- https://superuser.com/questions/1750562/get-access-to-value-of-command-to-run-in-zsh-value-of-c-paramter
+
+---
+
+#### 6826. Read from stdin while piping to next command?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, shell-script, bash-scripting | Score: 1 | Views: 4386 | Answers: 1 | Created: 2022-10-20
+
+**解决方案 / Solution**:
+In foo | bar foo and bar run simultaneously. Your code displays done: because the final echo does not read its stdin and it does not wait for anything piped via its stdin. It does its job right away. Additionally ${TEST} after | has nothing to do with the variable your read sets before | . When building a pipeline, Bash runs each command in a separate subshell (the last one may or may not be executed in the context of the main shell). This is what I think you want: echo -n 'input data: '; read TEST echo "done: ${TEST}" (in Bash read -p 'input data: ' TEST will also work). There is no need to pipe anything to anything here. In general, in case you need to interact with the user from within a pipe (I mean from within a genuinely needed pipe), /dev/tty may be useful. Artificial example: echo foo | ( read -p 'i: ' var </dev/tty; echo "d: $var" >/dev/tty; cat ) | nl Here read does not read from the first echo , it reads form /dev/tty . Neither read nor the second echo prints to nl : read -p prints its prompt to stderr by default, echo prints to /dev/tty because we redirected. In effect the data ( foo +newline) goes from echo to cat to nl as if nothing else was there. It may look like a trick, but's it's a legitimate use case. E.g. see How/why does ssh output to tty when both stdout and stderr are redirected? and my answer there .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1748550/read-from-stdin-while-piping-to-next-command
+
+---
+
+#### 6827. How can you write to tty files
+
+**问题描述 / Problem Description**:
+Tags: shell, console, tty, virtual-console, beep-code | Score: 1 | Views: 434 | Answers: 1 | Created: 2022-10-02
+
+**解决方案 / Solution**:
+running beep as root is prohibited In my Debian 10 beep 1.4.3 can be run as root. My tests indicate beep refuses to work when there is SUDO_UID , SUDO_GID , SUDO_USER or SUDO_COMMAND in the environment. sudo sets these variables for the command it executes. Trivia: the variables are the reason sudo -u "$USER" beep doesn't work. It's funny it doesn't work because beep here gets executed as the invoking user, like sole beep without sudo . I can use env -u … to unset the variables, or simply env -i to clear the environment: sudo env -i beep -e /dev/tty1 (I note I can pick any existing tty ; prior logging in to the tty is not required). I'm not sure if this will help you get low latency though. sudo and env are additional programs that will add latency. Alternatively I can invoke sudo -i and unset the variables – and then I can call beep -e … which will work as root.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1745478/how-can-you-write-to-tty-files
+
+---
+
+#### 6828. Why does mysql_secure_installation fail to permit me (as MySQL root user) to enter no password?
+
+**问题描述 / Problem Description**:
+Tags: fedora, mysql | Score: 1 | Views: 974 | Answers: 1 | Created: 2022-08-29
+
+**解决方案 / Solution**:
+While installing you have to get inside as root to fix everything first. Then you can add a user and use it with that user account.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1739546/why-does-mysql-secure-installation-fail-to-permit-me-as-mysql-root-user-to-ent
+
+---
+
+#### 6829. Fedora 36 boots into emergency mode
+
+**问题描述 / Problem Description**:
+Tags: boot, fedora | Score: 1 | Views: 1564 | Answers: 1 | Created: 2022-08-28
+
+**解决方案 / Solution**:
+Temporary solution: Purge 5.18.19-200, Reinstall Nvidia drivers. This is not likely to be a problem unless you have a very special system that is very "exposed" on the internet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1739449/fedora-36-boots-into-emergency-mode
+
+---
+
+#### 6830. cisco anyconnect strange behavior on disconnection
+
+**问题描述 / Problem Description**:
+Tags: linux, vpn, dns, fedora, cisco-anyconnect | Score: 1 | Views: 1106 | Answers: 1 | Created: 2022-07-29
+
+**解决方案 / Solution**:
+so, after some trial and error jazz, i figured out this: [sombriks@ignis ~]$ cat /etc/systemd/resolved.conf # (several lines of comments) # See resolved.conf(5) for details. [Resolve] # (more comments) DNS=8.8.8.8 1.1.1.1 8.8.4.4 # (more commented properties) for some reason set this DNS property made connect/disconnect works properly on both machines. not sure why it works, but it works nicely. so try it if you too have issues with official cisco anyconnect client.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1734205/cisco-anyconnect-strange-behavior-on-disconnection
+
+---
+
+#### 6831. Connected to wifi but can't ping router (or anything else)
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, wifi-configuration, networkmanager | Score: 1 | Views: 1356 | Answers: 1 | Created: 2022-07-25
+
+**解决方案 / Solution**:
+This appears to be a driver issue in Fedora. It is solved by using the open source drivers for RTL88x2CE found here on github . I did have some problems with kernel headers not being installed correctly, but after rebooting it started working. My network card is Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter. I have no idea why it doesn't work since I tried changing kernel version and gotten it to work flawlessly on other distros. I do have a few problems with these open source drivers as well, if the laptop suspends it will won't recognize the Network Card at all (not showing up on lspci -k ), but it is solved with a reboot (which is also a tip for anyone trying to install them, if you get stuck, reboot, since it is drivers something must be loaded in to the kernel correctly, which is often accomplished when booting). As an update, it works much better (without any external drivers) in recent versions of Fedora, although every now and then the issue reappears.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1733507/connected-to-wifi-but-cant-ping-router-or-anything-else
+
+---
+
+#### 6832. Can not login, I am encountering login loop in Fedora 36 after changing /etc/profile file when adding flutter
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, fedora | Score: 1 | Views: 976 | Answers: 2 | Created: 2022-07-09
+
+**解决方案 / Solution**:
+The shell is still functional. You can either run commands via their actual paths: $ /bin/sudo /bin/nano /etc/profile (Most programs are either in /bin or /usr/bin; in Fedora the two locations are equivalent.) or literally change PATH= at the shell the same way you're doing in /etc/profile: $ PATH="/bin:/usr/bin:$PATH" $ export PATH $ sudo nano /etc/profile In the tutorial that you were following, you were supposed to find the existing place where PATH= configuration was done in /etc/profile, i.e. the actual system paths should have been used instead of the literal ... . When appending new configuration to the file, you can use $PATH to refer to the current value, and only add the needed directories before/after. For example, the tutorial should probably have suggested this instead: if [ "`id -u`" -ne 0 ]; then PATH="/usr/local/bin:$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin" fi export PATH
+
+**参考链接 / References**:
+- https://superuser.com/questions/1730730/can-not-login-i-am-encountering-login-loop-in-fedora-36-after-changing-etc-pro
+
+---
+
+#### 6833. Where did the /boot/grub2/grub.cfg `linux16` lines go CentOS 8 / Oracle Linux 8 / RHEL8?
+
+**问题描述 / Problem Description**:
+Tags: centos, fedora, redhat-enterprise-linux, centos-8 | Score: 1 | Views: 977 | Answers: 1 | Created: 2022-05-24
+
+**解决方案 / Solution**:
+The configurations are now in /boot/loader/entries/* It refers to variables defined /boot/grub2/grubenv [root@r8 ~]# ls /boot/loader/entries/fb10fdf8948142c6b39db90da4c74b4b-* /boot/loader/entries/fb10fdf8948142c6b39db90da4c74b4b-0-rescue.conf /boot/loader/entries/fb10fdf8948142c6b39db90da4c74b4b-4.18.0-348.7.1.el8_5.x86_64.conf /boot/loader/entries/fb10fdf8948142c6b39db90da4c74b4b-4.18.0-348.2.1.el8_5.x86_64.conf /boot/loader/entries/fb10fdf8948142c6b39db90da4c74b4b-4.18.0-372.9.1.el8.x86_64.conf [root@r8 ~]# cat /boot/grub2/grubenv # GRUB Environment Block saved_entry=fb10fdf8948142c6b39db90da4c74b4b-4.18.0-372.9.1.el8.x86_64 kernelopts=root=/dev/mapper/rhel_dhcp--12--213--33-root ro crashkernel=auto resume=/dev/mapper/rhel_dhcp--12--213--33-swap rd.lvm.lv=rhel_dhcp-12-213-33/root rd.lvm.lv=rhel_dhcp-12-213-33/swap rhgb quiet boot_success=0 boot_indeterminate=2 ############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### BootLoaderSpec
+
+**参考链接 / References**:
+- https://superuser.com/questions/1722650/where-did-the-boot-grub2-grub-cfg-linux16-lines-go-centos-8-oracle-linux-8
+
+---
+
+#### 6834. PC freezes before GRUB menu during boot, but works when cancelling boot menu options
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, fedora, grub | Score: 1 | Views: 1495 | Answers: 2 | Created: 2022-03-22
+
+**解决方案 / Solution**:
+If you have another machine, and the disk isn't encrypted, you should be able to remove the hard disk from your machine. Plug it into a USB-to-SATA adapter. Navigate to the partition and follow the directions you discovered on the Fedora website.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1712223/pc-freezes-before-grub-menu-during-boot-but-works-when-cancelling-boot-menu-opt
+
+---
+
+#### 6835. Fedora 35 (Silverblue) installer, and then system, boots only into text-mode
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, installation, fedora, wayland | Score: 1 | Views: 821 | Answers: 1 | Created: 2022-03-09
+
+**解决方案 / Solution**:
+NVIDIA GeForce RTX 3080 TI I do not believe that these cards are supported by the "nouveau" open source driver yet. See Nouveau: Feature Matrix — this is an NV170 card, and as of the time I'm writing this, that column is entirely bright red and marked TODO . You can install in text-only mode and enable graphics from there — in fact, that's what you'll have to do. Follow the instructions at https://rpmfusion.org/Howto/NVIDIA#Silverblue , and then systemctl set-default graphical.target to have the system boot into graphical mode. ( systemctl isolate graphical.target to make it happen immediately.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1708947/fedora-35-silverblue-installer-and-then-system-boots-only-into-text-mode
+
+---
+
+#### 6836. How can I mirror the PostgreSQL documentation site excluding sibling directories?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, wget, mirroring | Score: 0 | Views: 35 | Answers: 1 | Created: 2026-03-29
+
+**解决方案 / Solution**:
+My solution was to mirror the favicon.ico before the directories mirroring: wget --mirror https://www.postgresql.org/favicon.ico wget \ --continue \ --mirror \ --convert-links \ --adjust-extension \ --page-requisites \ --no-parent \ --limit-rate=200k \ https://www.postgresql.org/docs/18/\ https://www.postgresql.org/docs/17/\ https://www.postgresql.org/media/\ https://www.postgresql.org/dyncss/\
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936277/how-can-i-mirror-the-postgresql-documentation-site-excluding-sibling-directories
 
 ---

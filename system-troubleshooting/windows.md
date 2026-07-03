@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7448**
+**总计条目 / Total entries: 7494**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -102589,5 +102589,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224510#reply6
+
+---
+
+#### 7449. How can I disable a mic for all programs besides one?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, microphone, windows-10-pro | Score: 2 | Views: 93 | Answers: 2 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+If your application supports ASIO, disable the microphone in Windows (in the Sound Control Panel aka mmsys.cpl via Win+R, go to the Recording tab, right-click your microphone, and select Disable) and install an ASIO Router like ASIO4ALL (free) or VB-Audio Matrix. These tools can see raw hardware streams even when they are hidden from the standard Windows Audio wrapper. If your application doesn't supports ASIO, try VB-CABLE Virtual Audio.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938824/how-can-i-disable-a-mic-for-all-programs-besides-one
+
+---
+
+#### 7450. What is the best software to permanently erase files before selling an older laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ummopw/what_is_the_best_software_to_permanently_erase/
+
+---
+
+#### 7451. Spam calls from 8XX numbers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umr3tu/spam_calls_from_8xx_numbers/
+
+---
+
+#### 7452. Witcher 3 RT bug
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqm6a/witcher_3_rt_bug/
+
+---
+
+#### 7453. Dell 7577 Inspiron Gaming Laptop Terribly Slow after Windows 11 Upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrpm1/dell_7577_inspiron_gaming_laptop_terribly_slow/
+
+---
+
+#### 7454. External ssd corrupted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrp86/external_ssd_corrupted/
+
+---
+
+#### 7455. Acer Predator Helios 16 (RTX 4070 with intel i7 14700HX) Brightness slider greyed out whenever I set Display mode to 'NVIDIA GPU' inside Nvidia app but brightness control works from keyboard shortcuts. The brightness slider becomes normal after switching to 'Auto' as display mode and another issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umr59k/acer_predator_helios_16_rtx_4070_with_intel_i7/
+
+---
+
+#### 7456. Phone playing random horror audio
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ummfbj/phone_playing_random_horror_audio/
+
+---
+
+#### 7457. Pc power problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umm8bp/pc_power_problem/
+
+---
+
+#### 7458. My internet refuses to connect even when it does its very weak
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umpfmb/my_internet_refuses_to_connect_even_when_it_does/
+
+---
+
+#### 7459. Fiancee was cleaning her desk and knocked over a can of celcius right onto her PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ump2hj/fiancee_was_cleaning_her_desk_and_knocked_over_a/
+
+---
+
+#### 7460. My gpu is amd Radeon 7500m/7600m series
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umj4k7/my_gpu_is_amd_radeon_7500m7600m_series/
+
+---
+
+#### 7461. Ideas Needed: How to destroy a lot of hard drives
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ulw691/ideas_needed_how_to_destroy_a_lot_of_hard_drives/
+
+---
+
+#### 7462. "The User Profile Service service failed the sign-in." Error Happening everytime I restart my computer, need to delete .bak file everytime. + Windows Event logs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ums0cy/the_user_profile_service_service_failed_the/
+
+---
+
+#### 7463. Weird horizontal texture tearing/artifacts in Deus Ex Human Revolution RX 9060 XT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrxgt/weird_horizontal_texture_tearingartifacts_in_deus/
+
+---
+
+#### 7464. Help with a dictaphone please!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrwcj/help_with_a_dictaphone_please/
+
+---
+
+#### 7465. A YouTube search index failure is cross‑wiring unrelated creators, breaking thumbnails, and scrambling metadata across multiple franchises
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrvdz/a_youtube_search_index_failure_is_crosswiring/
+
+---
+
+#### 7466. Network Login Problem through Safety NetAccess
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrnil/network_login_problem_through_safety_netaccess/
+
+---
+
+#### 7467. Error after undervolt
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrk9t/error_after_undervolt/
+
+---
+
+#### 7468. Kernel-Power 41 need help please
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umrfzl/kernelpower_41_need_help_please/
+
+---
+
+#### 7469. Kraken Plus 360 woes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqqpz/kraken_plus_360_woes/
+
+---
+
+#### 7470. juice jacking possible with power banks?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqqmb/juice_jacking_possible_with_power_banks/
+
+---
+
+#### 7471. Unable to make drive with one large partition
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqmd8/unable_to_make_drive_with_one_large_partition/
+
+---
+
+#### 7472. Blue screen problem on a custom build.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqlcw/blue_screen_problem_on_a_custom_build/
+
+---
+
+#### 7473. ADATA XPG 512GB SSD freezes BIOS and won’t boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1umqkzc/adata_xpg_512gb_ssd_freezes_bios_and_wont_boot/
+
+---
+
+#### 7474. [V2EX] WSL Containers 有老哥用上了吗？
+
+**问题描述 / Problem Description**:
+重装系统准备去下个 wsl ，看 github 上多了个 WSL Containers Public Preview
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223880#reply30
+
+---
+
+#### 7475. [V2EX] 都是 20 美金， Kiro Pro/ChatGPT Plus/Google AI Pro 选哪个
+
+**问题描述 / Problem Description**:
+目前用的 Antigravity ，但是还没有 Sonnet 5 ，只有 4.6 用。。Kiro 已经有 Sonnet 5 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224847#reply4
+
+---
+
+#### 7476. [V2EX] LG 的京东官方旗舰店和 LG 自营在售后上有区别吗
+
+**问题描述 / Problem Description**:
+看上个显示器，但是自营没货了，官旗还有货，但是不是很放心之后的保修 有没有买过官旗的老哥说下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224840#reply4
+
+---
+
+#### 7477. [V2EX] 老哥们 请教一个 Codex App 的使用问题：如何不让它读取.env*的文件内容？
+
+**问题描述 / Problem Description**:
+现在使用 Codex 桌面版，使用的是 Full Access 完全访问模式 但是开发过程中.env 中有 API Key 如何不让它读取.env*的文件？ 使用过 permissions 相关的配置，但是用了之后它读取不到自己的记忆，能力下降了很多 老哥们是如何解决这个问题的？可以借鉴一下老哥们的 config.toml 配置么 default_permissions = "workspace-network-no-env" # Custom permission profile: keep project work fast while blocking env files. [permi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224817#reply1
+
+---
+
+#### 7478. [V2EX] 咸粽子好吃还是甜粽子好吃？
+
+**问题描述 / Problem Description**:
+本人经常吃甜粽子，感觉甜粽子好吃，但是上一个端午节 朋友从南方寄过来几个咸粽子，有叉烧肉咸蛋黄的，有腊肉的还有一个是包的鲜肉粽。感觉都能接受呢？（把币扔给我🤣）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224812#reply28
+
+---
+
+#### 7479. [V2EX] 想问一下我这个配置的电脑能卖多少钱?
+
+**问题描述 / Problem Description**:
+目前电脑还没有, 麻烦先帮估一下价钱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224803#reply12
+
+---
+
+#### 7480. [V2EX] 各位大佬，今年上半年你们的股票账户盈利情况怎么样
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224800#reply6
+
+---
+
+#### 7481. [V2EX] 2026.7，现在哪家虚拟虚拟信用卡，可以挂载到美区 Apple ID 的手机上，做 Apple Pay 的？
+
+**问题描述 / Problem Description**:
+如果可以自定虚拟卡的账单地址，有没有什么要注意的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224799#reply3
+
+---
+
+#### 7482. [V2EX] Vibe Coding 最大的问题，可能不是代码质量，而是人越来越不懂代码
+
+**问题描述 / Problem Description**:
+最近用 Vibe Coding 做了一套 RAG 功能，切片、向量检索、Reranker 、Agent 基本都是 AI 辅助完成的。 功能能跑，也确实解决了问题。 但现在回头看，很多代码细节记不清。只是大概 Review 一下，然后继续执行，那如果面试官追问具体实现，我可能还得重新看代码梳理。 不知道大家有没有类似情况： Vibe Coding 提高了开发效率，但会不会让程序员越来越不熟悉自己写出来的模块？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224796#reply2
+
+---
+
+#### 7483. [V2EX] 现在有哪家汽车厂商车机支持类似手机应用商店这样的机制
+
+**问题描述 / Problem Description**:
+可以支持个人开发者这样的，搜了下感觉不太行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224787#reply5
+
+---
+
+#### 7484. [V2EX] 家里孩子生了，请帮忙取个名字
+
+**问题描述 / Problem Description**:
+姓先不跟你们说了。 麻烦帮忙取下吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224777#reply46
+
+---
+
+#### 7485. [V2EX] 因存在植入后门风险，阿里内部全面禁用 Claude Code
+
+**问题描述 / Problem Description**:
+自 7 月 10 日起，阿里将全面禁止内部员工在办公环境下使用 Claude Code ，并推荐使用 Qoder 作为替代方案。 这是玩不起了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224766#reply33
+
+---
+
+#### 7486. [V2EX] Google 点击 请验证是您本人操作 无反应
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224748#reply0
+
+---
+
+#### 7487. [V2EX] 腾讯洛克王国偷王者荣耀流水?
+
+**问题描述 / Problem Description**:
+帖子: https://nga.178.com/read.php?tid=47091677 我看别人视频,我一眼假,没想到视频是真的! 我个人看法 "微信显示错了 logo 和商户名"绝不可能真的。 我搜不到官方回应。 https://www.ithome.com/0/971/909.htm 虽然那些媒体报道"腾讯回应",但是"腾讯客服",没有参考价值。 腾讯的目的: 偷流水 - 网友揣测 营销 - 我猜测 还是给王者降流水? - 有点阴谋论了 ... 不知道什么目的。 deepseek: https://chat.deepseek.com/share/y3i2xhyhbjhhk164rk
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224745#reply2
+
+---
+
+#### 7488. [V2EX] 收一些 u 靠谱的有吗
+
+**问题描述 / Problem Description**:
+加我 v foldphone
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224741#reply18
+
+---
+
+#### 7489. [V2EX] 赛格那件事有后续了，但是我有点理解不了舆论
+
+**问题描述 / Problem Description**:
+上下文帖子： https://www.v2ex.com/t/1224349 赛格公告： https://mp.weixin.qq.com/s/iKLKHV7KaW3QlQg1Je-hNg 昨天我就觉得疑点很多，顺手多搜了下： 1. 出事的不是所谓的小人物，运动品牌地区代理，手握好多品牌，几百家门店，流水几十亿。 -- 这种体量的人为什么被 1000w+ 的罚款搞死了，罚款是根因，还是压死骆驼的稻草。今天公告也说，提到他本身公司经营不善了。 2. 为什么只罚他，并且金额这么巨大，他到底套现了多少，让商场这么罚款。 -- 今天公告里说了相关的，但是没正面回复。合同说明了不能拆单去用，他们还用券帮外
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224739#reply41
+
+---
+
+#### 7490. [V2EX] 求助求助！谢谢大家！
+
+**问题描述 / Problem Description**:
+遇到一个装修的，家里给我装修了一半，但是联系不上人了，我钱已经给了，现在知道他的手机，车牌号，广大的网友有没有知道怎么能查到他的家庭住址，我要上门要个说法，求求大家帮忙，谢谢大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224738#reply18
+
+---
+
+#### 7491. [V2EX] 学会一门语言（外语），需要学会多少个单词？
+
+**问题描述 / Problem Description**:
+刚刚刷抖音有个 Up 说学会一门语言，学会 1000 个单词左右就能学会一门语言。 好奇是不是真的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224736#reply7
+
+---
+
+#### 7492. [V2EX] 需要做一个采集脚本，有大佬接单吗？
+
+**问题描述 / Problem Description**:
+用户捕捉全网，含 ins 、tk 、YouTube 、抖音，小红书这些平台的爆款视频，以及能够实时更新指定视频的播放量、点赞，数据，商品点击量，订单数据，购物车数据等统计到飞书。 影刀 RPA 能做到这个需求吗，或者大佬们有其他的推荐？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224733#reply22
+
+---
+
+#### 7493. [V2EX] YZM,有什么靠谱的第三方苹果电池牌子
+
+**问题描述 / Problem Description**:
+两台手机需要更换电池 不打游戏，偶尔刷视频 13 ，需要换一个，之前换过一个杂牌子的，目前没有鼓包，就是明显感觉充一次电很快就没电了 上次更换是直接换的电池，原装的扔了 14 ，也需要换，目前没有换过电池，健康 79%，一天至少两充 目前在看的电池有在一个叫果粉之家，这家主要是便宜，两块一共 250 左右，再加自己找人安装 120 ，没别的了，之前在这修过耳机，还可以。 还有一个是飞毛腿的，差不多包安装，两块 500 左右 品胜的看了半天，口碑太烂了 原装的有点贵，彦祖们有很么推荐的，或者自己已经换了目前还不错的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224728#reply22
+
+---
+
+#### 7494. [V2EX] 如何退订 noreply@xiaomi.com 开发相关的邮件
+
+**问题描述 / Problem Description**:
+noreply@xiaomi.com 这个邮箱连个退订的按钮都没有。我也不知道是从哪个平台注册的了也没发现邮件通知的位置。 发一些信息好看也就罢了，我也不排斥看一看，但它发的信息排版乱的跟粑粑一样 wcl ，实在是看不下去，跟垃圾邮件一样。 有知道如何退订的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224724#reply4
 
 ---

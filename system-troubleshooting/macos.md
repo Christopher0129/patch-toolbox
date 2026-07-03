@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6310**
+**总计条目 / Total entries: 6366**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -86318,5 +86318,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224240#reply4
+
+---
+
+#### 6311. "Activity Monitor" doesn't show software updates
+
+**问题描述 / Problem Description**:
+Tags: macos, software-update, activity-monitor, tahoe | Score: 2 | Views: 109 | Answers: 2 | Created: 2026-07-02
+
+**解决方案 / Solution**:
+The toggle to show all processes is in the View menu - show all processes . Look for the softwareupdated daemon doing the download as none of that process is invisible or silent, but it is run by a user other than yours to secure the transfer from trivial attempts to tamper with the source of the downloads or the sanctity of the end result being checked as authentic before the update is applied. Apple follows a long standing unix tradition of separating tasks. Neither the preference pane or the command line softwareupdate tool do any downloads. They ask other helpers to do that work via interprocess communications API. The task that you see for software update hands off specific tasks to other helpers to do downloads, stage them, apply them. What is slightly different from many unix like OS is macOS's use of launchd to start these processes rather than fork them from other running processes. https://en.wikipedia.org/wiki/Launchd Activity monitor is showing you the processes doing the network. You can perform checks using the command line to first list the available downloads, then download them, then install them and Activity monitor is showing you all the processes running (and if they don't make sense, that's another story to reverse engineer which daemons do which tasks). softwareupdate -l softwareupdate -da softwareupdate -ai If you have no updates at present, you can also fetch a full OS installer and see the download. They come down in parts from caching servers - so you might see a lot of download or them happen in chunks that then get reassembled locally. The install process has a lot of optimizations that might seem overly complicated, but it's interesting and you can see all of it with Apple tools (Xcode Inspector and Activity Monitor and command line tools). softwareupdate --list-full-installers softwareupdate --fetch-full-installer
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486689/activity-monitor-doesnt-show-software-updates
+
+---
+
+#### 6312. Bought a sealed copy of leopard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1um0phg/bought_a_sealed_copy_of_leopard/
+
+---
+
+#### 6313. Why are people posting here asking if they should update to a minor version of macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1um9c1i/why_are_people_posting_here_asking_if_they_should/
+
+---
+
+#### 6314. How do I remove outdated/unwanted apps still listed in "Background Activity"?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umllxf/how_do_i_remove_outdatedunwanted_apps_still/
+
+---
+
+#### 6315. Siri AI needs a little more work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umpgmg/siri_ai_needs_a_little_more_work/
+
+---
+
+#### 6316. Help findiong right click app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ummt4z/help_findiong_right_click_app/
+
+---
+
+#### 6317. How to turn off Tiling Pop-Up
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umr904/how_to_turn_off_tiling_popup/
+
+---
+
+#### 6318. Need replacement for surface laptop 7
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umqyr9/need_replacement_for_surface_laptop_7/
+
+---
+
+#### 6319. Why can't you select range or array of files Icon view in Finder.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umpr6x/why_cant_you_select_range_or_array_of_files_icon/
+
+---
+
+#### 6320. Screensavers from new macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umpcc9/screensavers_from_new_macos/
+
+---
+
+#### 6321. I really hope Apple adds MTP support because I had to run Ubuntu in Parallels just to do that
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umb0vz/i_really_hope_apple_adds_mtp_support_because_i/
+
+---
+
+#### 6322. New to MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umnwv7/new_to_macos/
+
+---
+
+#### 6323. Is it possible to disable double blink around an app window to recognise intention ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umfd7w/is_it_possible_to_disable_double_blink_around_an/
+
+---
+
+#### 6324. PX8S2 USB Mac Question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umj22k/px8s2_usb_mac_question/
+
+---
+
+#### 6325. Export photos, keep edits and creation date
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umfvnr/export_photos_keep_edits_and_creation_date/
+
+---
+
+#### 6326. Help! All emails disappeared after creating a rule in Apple Mail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umas42/help_all_emails_disappeared_after_creating_a_rule/
+
+---
+
+#### 6327. Teams using a horrible amount of CPU / Energy - slow on video call (M4 Air, 24GB RAM)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1um9sfr/teams_using_a_horrible_amount_of_cpu_energy_slow/
+
+---
+
+#### 6328. two Contacts conflict
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umd1wt/two_contacts_conflict/
+
+---
+
+#### 6329. Apple TV remote on Mac with Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1um8b7w/apple_tv_remote_on_mac_with_windows/
+
+---
+
+#### 6330. Bluetooth Mouse/Keyboard Login Disconnects
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umbbkp/bluetooth_mousekeyboard_login_disconnects/
+
+---
+
+#### 6331. Hows the performance of the macOS 26 on a macbook m1 air 8gb ram.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1umljgp/hows_the_performance_of_the_macos_26_on_a_macbook/
+
+---
+
+#### 6332. How reliable is answer calls from iPhone on iMac? It stops working for me all the time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1um30p2/how_reliable_is_answer_calls_from_iphone_on_imac/
+
+---
+
+#### 6333. [V2EX] macos 26 (M5) 外接 HDMI 显示器，现在还有什么方法能强制 RGB 输出吗？
+
+**问题描述 / Problem Description**:
+似乎网上的方法要么是针对 intel mac 的，要么是针对早期版本系统+M1/M2 的，在我的设备上全部无法生效。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224848#reply1
+
+---
+
+#### 6334. [V2EX] vibe 了一个 macOS 上访达右键菜单增强的应用
+
+**问题描述 / Problem Description**:
+前几天 v 友 @ bush911 发帖问 mac 上访如何快速地新建 txt 文件 刚好我也有类似的需求，于是，codex 直接干了一个应用 代码地址: https://github.com/Funnyrz/ClickMate 下载地址： https://github.com/Funnyrz/ClickMate/releases/download/v1.0/ClickMate-unsigned.dmg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224810#reply2
+
+---
+
+#### 6335. [V2EX] macOS 27 beta 2 一直提示应用内存不足
+
+**问题描述 / Problem Description**:
+请教各位 V2 吴彦祖，这是什么情况？这两天频繁出现，不知如何应对？ 技术小白，又喜欢当小白鼠😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224749#reply13
+
+---
+
+#### 6336. [V2EX] 几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件
+
+**问题描述 / Problem Description**:
+如题。 我目前是打开文本编辑器新建后设置格式再另存。始终觉得不方便。 网上搜索发现有自动操作的教程，可能太笨了没有成功过。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224166#reply99
+
+---
+
+#### 6337. [V2EX] 介绍一下我使用 karabiner 和 hammerspoon 的经验
+
+**问题描述 / Problem Description**:
+有几个诉求： 能够在快速启动和切换 app 能够方便的把 app 移动到不同的显示器上 能够方便的调整 app 窗口的大小，比如全屏，等 其他杂七杂八的需求，比如调整音量，屏幕亮度，关屏之后自动关闭蓝牙等 解决方案就是 karabiner 和 hammerspoon 。 工作流： 使用 HyperKey + C ，就会自动打开 Chrome. 如果 Chrome 已经打开，就会切换到对应的窗口。 然后按 HyperKey + ], 就会把 Chrome 移动到下一个显示器上，然后再按 HyperKey + Enter, 就会在新显示器上全屏(非 macos 的全屏，只是调整窗口到全屏幕大小)显
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223516#reply44
+
+---
+
+#### 6338. [V2EX] iPhone 美区 Apple ID 初始化， App Store 安装 App 被要求确认是否 18 岁，应该如何配置？
+
+**问题描述 / Problem Description**:
+要求扫描证件，没有，真没有。 理解他的说明，好像可以录入(绑定信用卡到 iPhone)也行? 不想贸然鲁莽尝试，请问: 如果拿国内 VISA 卡去绑，应该录入不了吧？ 如果拿海外虚拟信用卡，是否可以？ 是不是一定要美区发卡的虚拟信用卡？ (虚拟/实体信用卡)账单地址和 Apple ID 注册的住宅地址，有关系吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224850#reply1
+
+---
+
+#### 6339. [V2EX] 因为帮朋友代充了 ChatGPT Plus，我的 Apple ID 不干净了
+
+**问题描述 / Problem Description**:
+起因是前几个月，我用我的美区 Apple Id ，帮我朋友代充了 ChatGPT Plus ，后面这个订阅过期了。 后来我朋友用自己注册的美区 Apple Id 给自己的 ChatGPT 充值了。 我最近由于工作需要使用 Codex ，准备自己充一波，钱扣了，然后提示什么错误，发现没有充上。 点击恢复购买，提示 “你的 AppleID 购买项目关联到另一个 ChatGPT 账号。巴拉巴拉...”。 后面跟我朋友联系，发现充到他的账号上了。并且是覆盖式的，他在 6 月 30 号充值的，我今天 7 月 3 号 充值的。他的 ChatGPT 账号显示 8 月 3 号过期... 后来翻阅相关文档，发现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224834#reply22
+
+---
+
+#### 6340. [V2EX] macOS 指针跟随窗口聚焦的工具
+
+**问题描述 / Problem Description**:
+平时习惯使用快捷键来切换不同的应用/窗口。现在添置了一台显示器以后感觉切换了窗口聚焦以后还得把鼠标移动到对应的显示器上有点麻烦。想问一下各位 macOS 有没有工具可以在你切换了所聚焦的窗口后能把你的指针给移动到对应的窗口的居中位置的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224727#reply1
+
+---
+
+#### 6341. [V2EX] MBA 的音质真垃圾
+
+**问题描述 / Problem Description**:
+昨天把漫步者 N300 卖掉换新，从昨晚到现在一直先用 MacBook Air 自带扬声器顶着过渡，但真的有点“辣耳朵”，甚至感觉还不如 iPhone 的外放…… 现在已经是一秒都不想听 MBA 的声音了，折寿。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224688#reply4
+
+---
+
+#### 6342. [V2EX] 7 号下单的 MBA，这周告之被退单了，要重新下。
+
+**问题描述 / Problem Description**:
+公司 17 号找供应商下单了 MBA ，这周突然想起 25 号升价了，问一下有没影响，告之被退单了。 要重新下单，升价 1500 元，并且货期比之前慢。 看到有人发贴说收不到货，请做好被退单或者收到“旧机”的心理准备。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224683#reply9
+
+---
+
+#### 6343. [V2EX] apple 全系涨价前买的 mac mini m4 已经 40 天了还未发货
+
+**问题描述 / Problem Description**:
+苹果淘宝官旗店铺买的 24+512 40 天了，还没发货，看评论有人说店铺要求加价 2500 才发货，我都震惊了，不知道真假唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224664#reply34
+
+---
+
+#### 6344. [V2EX] 我开发了一款像 iOS 自带的多功能聚合翻译 App，目前正在 TestFlight 公开测试中，欢迎使用~
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 核心功能 安装包仅 3.6 MB ，足够轻量 支持多平台同
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224621#reply11
+
+---
+
+#### 6345. [V2EX] Apple 什么时候才会考虑把 Mac 上的刘海儿去掉
+
+**问题描述 / Problem Description**:
+手上一台初代 touchbar 13 寸、一台 15 年信仰灯版 15 寸老干部 上班用公司 M1pro 13 寸 一直想买个新的自己用，但是不喜欢 mac 上有刘海儿，苹果啥时候才能干掉刘海儿啊。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224452#reply39
+
+---
+
+#### 6346. [V2EX] oyunfor 购买土区 apple 礼品卡支付失败
+
+**问题描述 / Problem Description**:
+目前从 oyunfor 上购买了几次土区礼品卡，最近发现好像国内 visa 触发风控了，不知道是代理 IP 变动还是别的风控了。第一次购买，A 卡支付成功，第二次发现 A 卡失败了，换了另外一张 visa 卡，今天发现 B 卡也支付失败了。 Payment has not been approved. İşlem onaylanmadı. Kart sahibi bankası ile görüşmeli (KOD BLBIN). 我问 openai gpt ，让我找客服申诉，不知道能不能成功。 有哪个大佬知道 oyunfor 这个问题嘛？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224404#reply16
+
+---
+
+#### 6347. [V2EX] 京东 MacBookpro 16 寸 64G+1T 纳米屏 现在 25985（卖后悔药的来了）
+
+**问题描述 / Problem Description**:
+涨价前看到 pdd-非纳米屏同配置 23599
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224381#reply39
+
+---
+
+#### 6348. [V2EX] 大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机
+
+**问题描述 / Problem Description**:
+jd 现在很多挂羊头卖狗肉的 特别 iphone17 你看价格 4999 其实是什么准新机 刘强东你别太离谱 个强奸犯 不知道能不能退一赔三 骗子和客服都理直气壮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224297#reply103
+
+---
+
+#### 6349. [V2EX] 新款 APPLE TV 什么时候出， 9 月会出么？
+
+**问题描述 / Problem Description**:
+想入手个 apple tv 了 9 月会出新品么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224254#reply26
+
+---
+
+#### 6350. [V2EX] [送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～
+
+**问题描述 / Problem Description**:
+👋 嗨，V 站的朋友们，大家好～ 🙋 我是 Wins 的开发者，距离 Wins 3.0 发布竟然 9 个月过去了，又来和大家同步最近的一次更新了。 这次主要打磨了一个我自己很喜欢的新交互： 🏝️ Wins 3.4 发布：「悬浮分屏岛」来了 这不是一个普通的悬浮面板。 我想做的是：当你拖动窗口到屏幕顶部时，它像 iOS 灵动岛一样，从 MacBook 的刘海区域自然出现；你继续拖动，就可以快速选择布局并完成分屏。 也就是说，MacBook 的刘海不再只是一个“缺口”，它也可以变成窗口管理的入口。 在没有刘海的 Mac 或外接显示器上，它也会以顶部悬浮岛的形式出现，尽量保持同样自然的拖拽体验。 我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224253#reply172
+
+---
+
+#### 6351. [V2EX] 最近很火的 Apple WLOC 定位修改能用来给国行 iPhone Air 添加海外 esim 吗
+
+**问题描述 / Problem Description**:
+如题 有没有人试过的？我的 gg 卡是实体，看了下要转 esim 就不能转回去实体卡了 不敢试 git 地址 https://github.com/Yu9191/wloc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224147#reply29
+
+---
+
+#### 6352. [V2EX] Mac 端最强动态壁纸 APP： Backdrop
+
+**问题描述 / Problem Description**:
+我愿称之为 Mac 端最强动态壁纸 APP ！！ 无论是锁屏、还是桌面常驻都运行地非常丝滑，而且功耗很低。 可以自己使用高清视频创建壁纸，除了没声音，其他都很完美（但我觉得有声音反而很聒噪） 官方网站 https://cindori.com/backdrop 目前是收费的（我是先上车最近补的订阅），价格还行有试用。当然我相信你有另外的办法 Orz 我的桌面壁纸，其实是动态的，但只能发图片。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224874#reply0
+
+---
+
+#### 6353. [V2EX] 时不时看到有人被线上拍卖公司坑，所以给 v 友提个醒
+
+**问题描述 / Problem Description**:
+新手请认准司法拍卖，处置单位是法院，法院和平台都不会额外收取费用，交易程序有保障，虽然曾经也出现过小问题，比如有人会通过虚假诉讼将自己的劣质资产通过法院进行变现，但绝大部分情况下都相对安全许多。其余的拍卖类型可能各有各的坑，这种情况一般不是平台的问题，而是资产处置单位会利用一些方式方法避开平台的审查或者设计一些收费陷阱，比如我见过夸张的还有人敢伪造法律文书蒙骗平台，进行成功挂拍并成功拍卖出去东西的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224779#reply0
+
+---
+
+#### 6354. [V2EX] 垃圾接码平台： hero-sms
+
+**问题描述 / Problem Description**:
+千万别用 hero-sms ，气死我了，大哥们，给我推荐稳定的接码平台呗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224764#reply0
+
+---
+
+#### 6355. [V2EX] 注意，高德地图里的卫星图，存在 Ai 二次创作的问题
+
+**问题描述 / Problem Description**:
+最近，发现高德地图的卫星图，在香港和澳门区域，非常的清晰（清晰到可以数岸边的石头） 然后，就发现了很多诡异的地方，比如：香港国际机场跑道上的车、候机楼顶的公路、迪士尼乐园里的车、丽晶酒店附近海域里的汽车……估计是后期 Ai 优化有问题。 如果有人用高德卫星地图来规划线路，需要注意这类 Ai“造假”的问题，避免踩坑。 谷歌卫星里，正常样子的香港机场候机楼： i.imgur.com/8nIzlfX.png 高德卫星地图里，香港机场候机楼上的公路： i.imgur.com/FXEXBU8.png i.imgur.com/zvgm0bk.jpeg 高德卫星地图里，香港机场跑道上的卡车们： i.imgu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224762#reply1
+
+---
+
+#### 6356. [V2EX] 为什么 ASCII 线框图（Wireframe）一出现中文就对不齐？是字体问题，还是 Unicode 字符宽度导致的？
+
+**问题描述 / Problem Description**:
+最近在用 AI 生成 ASCII 线框图时，发现只要内容里出现中文，就很容易出现对齐问题。 例如： +---------------+ | /Lesson | | 事後回顧 | +---------------+ 理论上，两行内容都是从同一列开始，但实际在很多终端、Markdown 编辑器或代码编辑器中显示时，视觉上却没有垂直对齐。 查了一些资料后，大概了解到原因主要有几点： ASCII 字符通常属于半角字符（宽度为 1 ）。 中文、日文、韩文（ CJK ）字符通常属于全角字符（宽度约为 2 ）。 不同字体、终端和 Markdown 渲染器，对 CJK 字符宽度的处理并不完全一致。 有些编辑器
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224754#reply3
+
+---
+
+#### 6357. [V2EX] jetbrains 订阅用户免费领取 $30 credits
+
+**问题描述 / Problem Description**:
+邮件原文如下 邮件说要订阅用户才可以，我本身就是订阅用户，无订阅或者订阅过期用户自行尝试 不下载软件直接用折扣码充值就行了，充值的地方输入 30 刀，用下面的折扣码实测无需付费 充值地址： https://go.jetbrains.com/dc/YZdgvqwbGRw5vplqwcDuFEq1L3WH4VzUV_-Gpp2PKyPR4NXvNK4shiu4TLG2vXPiqxRLM8qhC3xPnCNh4w-Y_epjuDbYEp8_FQorT_pIFgRxcxDQmI0-XZey0E4uqS5GUqjsgF244ZfgAHO26JQCo5QiDq9GOWTBd09o75CeRDo=/NDI2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224753#reply18
+
+---
+
+#### 6358. [V2EX] 杭州震感明显
+
+**问题描述 / Problem Description**:
+中午感觉楼在晃，抬头一看空调机器在左右摇晃。 https://baijiahao.baidu.com/s?id=1869670047794347412&wfr=spider&for=pc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224746#reply4
+
+---
+
+#### 6359. [V2EX] 微信的桌面客户端看公众号文章，怎么设置直接弹窗？
+
+**问题描述 / Problem Description**:
+公众号的文章，原来都是直接弹窗的，现在这个版本直接搞个新窗口放右侧。我也没有带鱼屏，而且文章一半还在屏幕外，看不全。怎么设置回直接弹窗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224732#reply1
+
+---
+
+#### 6360. [V2EX] “有个东西，也是我今天才学到的，叫 CDN”
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg 作者已编辑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224709#reply125
+
+---
+
+#### 6361. [V2EX] ReviOS 夯爆了， win10ltsc 系统内存下降近 20%
+
+**问题描述 / Problem Description**:
+在 pve 里安装了两台 win10ltsc ，都分配的 6G 内存，有一台之前已经安装了 ReviOS ，另一台没有，启动后发现安装 ReviOS 的那台内存占用一般也就 40%多，但是没有安装的那台开机就接近 60%。今天趁摸鱼的功夫也安装了一下，重启后内存直接就降下来了。 本来寻思 win10 企业版系统已经够精简了，没想到还能继续精简。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224656#reply13
+
+---
+
+#### 6362. [V2EX] Agent Loop 深度调研：把决定权交给模型的一次换代，为什么发生在现在😄
+
+**问题描述 / Problem Description**:
+Agent loop 改的是控制权：LLM 应用六年来第一次把「下一步做什么、什么时候算完成」的判定权从开发者代码交到模型手里。本文沿这条控制权移交线梳理三代范式（ Prompt 时代 → RAG/框架时代 → Agent loop 时代）与「上一代主角降级为新范式组件」的规律，并回答为什么结构 2022 年就有的循环，火在 2024-2026：模型单步准确率过阈值、MCP 标准化工具接口、编码场景先完成商业验证。 https://2aran.com/s/vG4kZmv
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224647#reply0
+
+---
+
+#### 6363. [V2EX] 3 个 claude max 全挂，在美国自建中转自己用有人尝试过吗？
+
+**问题描述 / Problem Description**:
+想让美国的朋友开台电脑给我自己用 tailscale easytier 什么的建个自用中转，有人尝试过吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224641#reply0
+
+---
+
+#### 6364. [V2EX] 我感觉 Codex 的编码能力还没有到足够强大的地步
+
+**问题描述 / Problem Description**:
+今天发现了一个图片浏览器开源项目 PicView （ C#写的） ，使用体验不错，就是缩放和拖动高分辨率图片时有些卡顿，于是心血来潮想着能不能让 Codex 针对这个问题优化一番（使用 5.5 xhigh ），不改不要紧，一改就出大问题，第一版直接打不开任何图片，我就这么看着 Codex 磨了差不多 1 个小时 ，又是改代码又是跑测试用例又是截屏的，终于把最基本的问题解决了，但是高分辨率图片卡顿问题并没有改善，反而在拖动时会出现色调变化。接着又改第二版，这回色调变化的现象没有了，但是卡顿问题依然没有任何改善，遂放弃。 我用 Codex 也好几个月了，给我的感觉就是这玩意搞搞常见的、不那么复杂的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224634#reply3
+
+---
+
+#### 6365. [V2EX] 为什么现在的 AI 回复第一句都是 “xxx 不是 xxx，而是 xxx 的对比句”？
+
+**问题描述 / Problem Description**:
+看烦了 ‘这篇论文 不是一篇“提出新 RL 算法并跑 benchmark”的论文，更像是一篇 position / system architecture paper’ ‘它不是一个独立运行的 Agent 框架，而是把很多已经写好的专家型 agent/persona 安装到 Claude Code’ ‘它不是让模型写一个孤立函数，而是给模型一个真实 GitHub issue’
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224606#reply8
+
+---
+
+#### 6366. [V2EX] macOS 27 dasd 进程内存占用 80 多 GB
+
+**问题描述 / Problem Description**:
+27.0Beta 版本 估计是内存泄露了，bug 还是挺多的 https://imgur.com/a/eZGiVMK
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224587#reply14
 
 ---

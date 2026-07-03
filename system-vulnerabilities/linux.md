@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2145**
+**总计条目 / Total entries: 2161**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -40173,5 +40173,261 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8495-1
+
+---
+
+#### 2146. CVE-2026-14544 - HPLIP: Incomplete Fix for CVE-2026-8631
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] HPLIP: Incomplete Fix for CVE-2026-8631. Bugzilla: 2496772
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496772
+
+---
+
+#### 2147. CVE-2026-54891 - erlang: Erlang SSL: Unauthenticated data injection during TLS handshake
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] erlang: Erlang SSL: Unauthenticated data injection during TLS handshake. Bugzilla: 2496625
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496625
+
+---
+
+#### 2148. CVE-2026-54886 - erlang: Erlang OTP ssh: Denial of Service via infinite loop in SFTP channel
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] erlang: Erlang OTP ssh: Denial of Service via infinite loop in SFTP channel. Bugzilla: 2496623
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496623
+
+---
+
+#### 2149. CVE-2026-55952 - erlang: Erlang/OTP: Denial of Service in TLS 1.3 session ticket handling
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] erlang: Erlang/OTP: Denial of Service in TLS 1.3 session ticket handling. Bugzilla: 2496626
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496626
+
+---
+
+#### 2150. CVE-2026-11946 - open62541: open62541: Denial of Service via unvalidated endpoint URL length
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of Service via unvalidated endpoint URL length. Bugzilla: 2496476
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496476
+
+---
+
+#### 2151. CVE-2026-54431 - liboauth2: liboauth2: DPoP verifier accepts malformed proof with private key…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] liboauth2: liboauth2: DPoP verifier accepts malformed proof with private key material. Bugzilla: 2496464
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496464
+
+---
+
+#### 2152. CVE-2026-54430 - liboauth2: liboauth2: Server-Side Request Forgery allows unauthorized internal…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] liboauth2: liboauth2: Server-Side Request Forgery allows unauthorized internal network access. Bugzilla: 2496465
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496465
+
+---
+
+#### 2153. CVE-2026-9563 - org.eclipse.parsson/parsson: Eclipse Parsson: Denial of Service via uncontrolled…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.eclipse.parsson/parsson: Eclipse Parsson: Denial of Service via uncontrolled resource consumption in JSON parsing. Bugzilla: 2496411
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496411
+
+---
+
+#### 2154. CVE-2026-53357 - kernel: Bluetooth: fix UAF in l2cap_sock_cleanup_listen() vs l2cap_conn_del()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: fix UAF in l2cap_sock_cleanup_listen() vs l2cap_conn_del(). Bugzilla: 2496574
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496574
+
+---
+
+#### 2155. CVE-2026-53358 - kernel: Bluetooth: L2CAP: use chan timer to close channels in cleanup_listen()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: L2CAP: use chan timer to close channels in cleanup_listen(). Bugzilla: 2496575
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496575
+
+---
+
+#### 2156. CVE-2026-38969 - webrick: rubygem-webrick: WEBrick: Request smuggling via re-parsing of…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webrick: rubygem-webrick: WEBrick: Request smuggling via re-parsing of Content-Length header. Bugzilla: 2496708
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496708
+
+---
+
+#### 2157. CVE-2026-55153 - com.mchange/mchange-commons-java: mchange-commons-java: Remote code execution via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.mchange/mchange-commons-java: mchange-commons-java: Remote code execution via JNDI injection. Bugzilla: 2496197
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496197
+
+---
+
+#### 2158. CVE-2026-14363 - Cargo: Mediawiki Cargo Extension: SQL Injection vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Cargo: Mediawiki Cargo Extension: SQL Injection vulnerability. Bugzilla: 2496143
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496143
+
+---
+
+#### 2159. CVE-2026-58517 - wikilambda: WikiLambda Extension: Authentication bypass due to improper input…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wikilambda: WikiLambda Extension: Authentication bypass due to improper input neutralization. Bugzilla: 2496133
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496133
+
+---
+
+#### 2160. [Ubuntu] USN-8496-2: cifs-utils regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8496-1 fixed a vulnerability in cifs-utils. Unfortunately, the fix introduced a regression with Kerberos mounts. This update reverts the security update until a complete fix is available. We apologize for the inconvenience. Original advisory details: It was discovered that cifs-utils incorrectly dropped root privileges before looking up user information. A local attacker could possibly use thi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8496-2
+
+---
+
+#### 2161. [Ubuntu] USN-8503-1: ncurses vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ncurses incorrectly handled certain terminfo entries in the infocmp tool. An attacker could possibly use this issue to cause a denial of service via a crafted terminfo file. The default compiler options for affected releases should reduce the vulnerability to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8503-1
 
 ---
