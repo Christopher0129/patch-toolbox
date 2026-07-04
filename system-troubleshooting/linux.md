@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6836**
+**总计条目 / Total entries: 6864**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -96806,5 +96806,369 @@ My solution was to mirror the favicon.ico before the directories mirroring: wget
 
 **参考链接 / References**:
 - https://superuser.com/questions/1936277/how-can-i-mirror-the-postgresql-documentation-site-excluding-sibling-directories
+
+---
+
+#### 6837. Ghostscript cannot find input files when merging PDFs
+
+**问题描述 / Problem Description**:
+Tags: debian, pdf, ghostscript | Score: 2 | Views: 109 | Answers: 1 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+The \302\240 is the "no-break-space" (NBSP) character (UNICODE U+00A0 ). Most likely you copied the command line from some document which contained these characters instead of the normal space ( U+0020 ). Just edit your command line and replace NBSP with an ordinary space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806595/ghostscript-cannot-find-input-files-when-merging-pdfs
+
+---
+
+#### 6838. kernel.org listing strange releases (super old versions appearing as current)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1unblw6/kernelorg_listing_strange_releases_super_old/
+
+---
+
+#### 6839. CachyOS June Release prioritizes security
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ung5y5/cachyos_june_release_prioritizes_security/
+
+---
+
+#### 6840. GNOME Lands ext-background-effect-v1 Support For Background Blur Effect
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1un9070/gnome_lands_extbackgroundeffectv1_support_for/
+
+---
+
+#### 6841. (Linux/POSIX) my messy modern ISC text editor written in ~1K lines of C
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1unclfn/linuxposix_my_messy_modern_isc_text_editor/
+
+---
+
+#### 6842. Did I just come back from the future ?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1unbkja/did_i_just_come_back_from_the_future/
+
+---
+
+#### 6843. This Week in Plasma: Better Animations
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uneyx0/this_week_in_plasma_better_animations/
+
+---
+
+#### 6844. [VinMail] Bash-ing out emails: built a Bash-based terminal mail manager for multiple email accounts
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1un60m0/vinmail_bashing_out_emails_built_a_bashbased/
+
+---
+
+#### 6845. VUP: Void User Packages
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uncjvv/vup_void_user_packages/
+
+---
+
+#### 6846. Why do people choose CachyOS or Bazzite over Fedora?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1umnm6x/why_do_people_choose_cachyos_or_bazzite_over/
+
+---
+
+#### 6847. [V2EX] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？
+
+**问题描述 / Problem Description**:
+第一次问的是忘记改时区了，后边想起来才改，会被封吗？ Thought for 2sThought for 2s 你好呀!台北人~住在台北哪一区呢?还是说想聊聊台北的什么事情?😊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225003#reply5
+
+---
+
+#### 6848. [V2EX] 警告： AutoBangumi v3.2.2–v3.2.6 连接池 Bug 在 Clash/Mihomo Party 代理环境下可能导致异常磁盘写入
+
+**问题描述 / Problem Description**:
+我想提醒一下使用开源项目 EstrellaXD/Auto_Bangumi 的用户，尤其是运行环境中使用 Clash Party / Mihomo Party 作为代理的用户： AutoBangumi v3.2.2–v3.2.6 期间存在一个连接池相关 Bug ，在特定网络架构下可能触发代理程序持续刷 Warning 日志，从而造成非常高的磁盘写入量。 该问题已在 7 月 2 日 的 v3.2.8 被修复并交付，开发者也确认这是 AutoBangumi 的连接池 Bug 。 如果你曾经在 v3.2.2–v3.2.6 期间运行过 AutoBangumi ，并且代理链路经过 Clash Party
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224986#reply1
+
+---
+
+#### 6849. [V2EX] 一到两年之后 AI 可能会性能过剩，各家将比拼营销和价格
+
+**问题描述 / Problem Description**:
+现在 AI 已经能解决大部分编码工作，一两年之后可能会解决日常全部编码工作，各家厂商可能会需要通过营销和价格来保证自己活下去。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224976#reply6
+
+---
+
+#### 6850. [V2EX] 多亏 AI 现在遇上棘手问题完全不慌
+
+**问题描述 / Problem Description**:
+下午公司 Doris 做一个 Schema Change 的操作，没想到改了两三个小时。 中间 Flink 写入的时候，挂了好几次，不知道什么原因，中间有些数丢了。 按照设想，这种情况应该起任务重新消费一下 Kafka ，但是计算资源和 Kafka 资源都不允许。 就让 AI 写了一个从 OSS 下载原始日志，然后模拟 FLINK 逻辑，离线恢复的程序，又让 AI 梳理了一个相关下游数据恢复的步骤。 吃饭回来，已经搞差不多了，就等我批准往线上数据库导入了。 如果自己搞估计要熬大夜了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224969#reply8
+
+---
+
+#### 6851. [V2EX] 有没有用 curl 8.18.0+的，你们打开外网正常吗（报错 0A000126:SSL）
+
+**问题描述 / Problem Description**:
+如题, 一开始访问 cloudflare 的网站，爆了这个错误，我以为是 cf 的防火墙发力了，开了白名单问题依旧，后面我发现访问 github 也是一模一样的问题，甚至访问任意国外 https 网站都会触发这个问题，目前我测试了下好像被软路由代理过的都不能用 curl 访问 之前我更新 linux 包之前好像还能正常用，好像今天更新所有包之后就不行了 root@fedora:/etc/yum.repos.d# curl https://github.com curl: (35) TLS connect error: error:0A000126:SSL routines::unexpecte
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224957#reply3
+
+---
+
+#### 6852. [V2EX] 人人都有 fuckclaude 系列
+
+**问题描述 / Problem Description**:
+你是「 Claude 中国用户」吗 人人都有 fuckclaude https://fuckclaude.xyz/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224920#reply0
+
+---
+
+#### 6853. [V2EX] claude 被封之后尝试国产替代
+
+**问题描述 / Problem Description**:
+尝试用了一下 qoder ，qoder 的模型都是国产几家里面最新的模型，比如 minimax 2.7 ，kimi 2.7 ，glm 5.2 ，deepseek v4 ，qwen 3.7 ，这一点还是比较赞的，不像 trae 。 我有一个 Android 启动器项目，使用模拟器的时候发现 pixel 的启动器在打开 app 抽屉的时候背景不会扩展到状态栏我觉得这个设计比较好，之前是 codex 做的会扩展到状态栏，然后使用了 auto 模式进行修复，考虑到这个功能比较简单 pr 没有仔细看就合并了，等编译到手机上发现背景还是扩展到状态栏了， 改成 qwen3.7 max ，确实不会扩展到状态栏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224903#reply15
+
+---
+
+#### 6854. [V2EX] 如何最大化使用 codex 的额度？
+
+**问题描述 / Problem Description**:
+都是 20 刀档的会员，最近一个多月，发现 claude 单次 5h 额度可以聊很久（ sonnet ），codex 写不了多少代码单次额度就没了（ gpt5.4)。我的体感就是单次 Claude 能做的事情差不多是 gpt 的 1.5-2 倍。 codex 虽然总送重置额度，但是看到周额度还剩余很多又舍不得立刻用。 大家有同感吗，都是咋用的？ 另外 gpt 总是会做需求后，只做单个你说的需求，而不是多思考（举例子，我让他根据文档需求改代码，他就只改代码，而不会自动更新文档状态，claude 基本都不需要你操心，每次都做的比较完整）。有没有什么办法让 codex 能多思考下呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224889#reply20
+
+---
+
+#### 6855. [V2EX] 智普 coding plan 抢不到，有没有什么方法啊...
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224887#reply43
+
+---
+
+#### 6856. [V2EX] 你喜欢注释丰富， Commit Message 详尽，还是反之？
+
+**问题描述 / Problem Description**:
+作为一个大龄 Ops ，喜欢简洁的代码和注释，但是写起帖子又特别碎碎念（开头就有点跑题了 本人算是古法 Vibe Coding 了，基本上除了自己的一个重构小 skill 以外，也没有安装市面上流行的 skill 。 Claude Code 和 Codex 配合其最新模型，在近两个月我前者烧了 170 亿+后者烧了 200 多亿，近四百亿 token （当然缓存命中率在 95.5%+），所以默认是怎样我还是挺清楚的，简而言之就是， Codex 注释很少，Commit Message 你若是不稍稍加点限定，可能就只有标题，body 都没有 Claude Code 狂写注释，一个 feature
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224882#reply27
+
+---
+
+#### 6857. [V2EX] Vibe Coding 时上下文最先满的竟是自己？
+
+**问题描述 / Problem Description**:
+我最近同时开发多个项目，我自己的上下文已经不够用了哈哈哈哈。已经不知道某个项目接下来该干啥了。开始陷于短暂的痴呆了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224872#reply7
+
+---
+
+#### 6858. [V2EX] codex 似乎也没有说的那么神~
+
+**问题描述 / Problem Description**:
+使用 codex 官方 api,想创建一个 iphone 长截图拼接 app,以为是一把直接梭哈,结果烧完 5 小时重置一遍还是不能用哈... 多张图片导入拼接,上下部重复区域识别太拉跨,最后是手动调节上下部重复区域.但是拼接重影严重 导入滚动视频想自动生成长截图更是惨不忍睹哈.直接放弃 有点难度的,感觉还是不行.各位程序员大哥一时半会也不会完全被优化 ;-)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224860#reply6
+
+---
+
+#### 6859. [V2EX] 请教下 AI 中转站模型真伪测试跑分标准
+
+**问题描述 / Problem Description**:
+因为有的中转站会造假，所以就整了个 AI 中转站的跑分网页。 网站上个月就做出来了，但之前比较忙，还没有开始真的按计划跑。 这段时间我也接触过其他的一些中转站，按正常来说，比如 GPT5.5 模型，是支持图片的， 但是为什么我在使用一些中转站的时候，提示他不支持图片？如果做其他内容测试吧，又判断出来是 GPT5.5 的模型？ 我现在的跑分测试是 25 个，考虑到网络延迟的情况，很多都做了最低标准的限制。 我自己是想加上图片测试的，但是测试几个结果和我想象的不一样，是我提示词不对吗。 各位还有什么好的建议，可以尽可能的去测试模型的真伪？ https://www.jingxialai.com/ap
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224844#reply1
+
+---
+
+#### 6860. [V2EX] 不懂就问，简历中吹嘘自己是公司大模型部署的维护人，哪里能找到真实点的企业设备？
+
+**问题描述 / Problem Description**:
+不清楚企业级部署是不是和我们租用个 4090 平台一样部署，想租几天企业级的硬件自己玩几天，看看有什么区别？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224837#reply7
+
+---
+
+#### 6861. [V2EX] 请教下 glm 5.2 coding plan 国内的 team 版和 z.ai 的区别
+
+**问题描述 / Problem Description**:
+有没有抢到 glm 5.2 coding plan 的兄弟介绍下，国内的 team 版，跟 z.ai 里的 pro 版相比怎么样。 因为一个是算 prompt 数，一个算 token 数，不太清楚使用量上差别有多大。 关于性价比，速度，还有 429 的概率，有了解的兄弟麻烦指点下哈~ 非常感谢~~~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224836#reply7
+
+---
+
+#### 6862. [V2EX] 我看到 Qclaw Workbuddy Trae Work 扣子编程 Codex Claude 很多 Agent，但是好像没有开源的？
+
+**问题描述 / Problem Description**:
+Qclaw Workbuddy 好像都是腾讯的 Trae Work 扣子编程 是字节跳动的 Codex Claude 是国外的 有没有开源的，我想学习学习，因为我想知道它们里面啥原理怎么跑的 怎么调用 mcp skill 的 里面是怎么封装 Python 和 Nodejs 环境的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224808#reply14
+
+---
+
+#### 6863. [V2EX] 做海外模型的 API 中转站，会被判刑吗？
+
+**问题描述 / Problem Description**:
+https://news.qq.com/rain/a/20260629A07O8W00 看了这个新闻，感觉有点虚啊，别钱没赚到，人进去了，有没有比较了解相关法律的给说说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224797#reply28
+
+---
+
+#### 6864. [V2EX] 我预判，第一波 AI 洪峰已过！
+
+**问题描述 / Problem Description**:
+AI coding 趋势终于拐点了！ 我预判，第一波 AI 洪峰已过。 据我观察 4 个方面 : 1 、第三方价格数据(暴跌，需求减少)： GeminiPro 一年会员自动开通 CDK 包绑卡订阅 ¥12 ChatGPT [带 RT ] [ Plus 成品号] ¥15 2 、v 站数据（话题占比下降）： 据观察 V 站上月 AI 话题占比趋近 100%，当前占比也有下降趋势 3 、个人数据： 短期使用量，也明显下跌。不可能永远有新项目，只有初版稳定之后就不会再有暴力 token 需求。 4 、小红书数据： 前段时间->vibe coding 帖子热度极高。 很多 不懂代码的人 。 偶然有一个/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224778#reply76
 
 ---

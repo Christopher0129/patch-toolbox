@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7494**
+**总计条目 / Total entries: 7539**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -103187,5 +103187,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224724#reply4
+
+---
+
+#### 7495. Behavior of the different values for ClientAuthTrustMode in client/certificate authentication
+
+**问题描述 / Problem Description**:
+Tags: windows, iis, ssl-certificate, authentication | Score: 1 | Views: 24 | Answers: 1 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+This is a good case of poor documentation. I would say that options two and three are progressively more secure, due to the scope of trust is narrower. These mechanisms seem to be an attempt at more control than the CTL, which some may find too permissive and inflexible with a lack of control that would not impact other applications or services on a host. The "list" is a text string of the issuer names that the host could send during an exchange, but by default does not. Management of trusted issuers for client authentication In Windows Server 2012 and Windows 8, changes were made to the underlying authentication process so that: CTL-based trusted issuer list management is no longer supported. The behavior to send the Trusted Issuer List by default is off: Default value of the SendTrustedIssuerList registry value is 0 (off by default) instead of 1. Compatibility to previous versions of Windows operating systems is preserved. "...Beginning with Windows Server 2012 , the use of the CTL has been replaced with a certificate store-based implementation." "..the trusted issuers list is configured using certificate stores; one default global computer certificate store and one that is optional per site. The source of the list will be determined as follows:" Process: "If there is a specific credential store configured for the site, it will be used as the source" "If no certificates exist in the application-defined store, Schannel checks the Client Authentication Issuers certificate store on the local computer and, if certificates are present, uses that store as the source." "If neither the global or local stores contain certificates, the Schannel provider will use the Trusted Root Certification Authorities store as the source of trusted issuers list *. (This is the behavior in previous versions prior to Windows Server 2012)." A useful test may be to set the SendTrustedIssuerList registry value to 1, and inspect the value of the text string list in a debugger or capture to confirm the contents.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199386/behavior-of-the-different-values-for-clientauthtrustmode-in-client-certificate-a
+
+---
+
+#### 7496. Is there a way to 100% overwrite files that weren't securely deleted on an SSD?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1un3a63/is_there_a_way_to_100_overwrite_files_that_werent/
+
+---
+
+#### 7497. PC crashes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unielj/pc_crashes/
+
+---
+
+#### 7498. Is this player2 ai modding thing malware?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkfrv/is_this_player2_ai_modding_thing_malware/
+
+---
+
+#### 7499. Credential Manager entries + DPAPI app sessions wiped on every reboot — deep diagnosis done, root cause still unknown
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unip26/credential_manager_entries_dpapi_app_sessions/
+
+---
+
+#### 7500. Cepter laptop fn key
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unffc9/cepter_laptop_fn_key/
+
+---
+
+#### 7501. Need help with 3 home routers to setup correct IP addresses so that all networks can talk with each other.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unifzp/need_help_with_3_home_routers_to_setup_correct_ip/
+
+---
+
+#### 7502. I'VE INSTALLED A FAULTY DRIVER
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unicyp/ive_installed_a_faulty_driver/
+
+---
+
+#### 7503. Laptop has overheating issue. What to do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uneq2z/laptop_has_overheating_issue_what_to_do/
+
+---
+
+#### 7504. Extreme instability and graphical issues with 7900XTX
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unguj1/extreme_instability_and_graphical_issues_with/
+
+---
+
+#### 7505. my headphones not working when plugged into jack
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unlc7h/my_headphones_not_working_when_plugged_into_jack/
+
+---
+
+#### 7506. SRAgent.exe error W11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unl3ze/sragentexe_error_w11/
+
+---
+
+#### 7507. Youtube playlist transfer to text?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unl215/youtube_playlist_transfer_to_text/
+
+---
+
+#### 7508. Weird black window appears randomly over all my other stuff
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unl12o/weird_black_window_appears_randomly_over_all_my/
+
+---
+
+#### 7509. Windows 11 controls not working on keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkz5t/windows_11_controls_not_working_on_keyboard/
+
+---
+
+#### 7510. Phone randomly stopped accepting charge from my main charger.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkxow/phone_randomly_stopped_accepting_charge_from_my/
+
+---
+
+#### 7511. PC hangs on restart, DRAM light in motherboard is on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkx36/pc_hangs_on_restart_dram_light_in_motherboard_is/
+
+---
+
+#### 7512. Fix a corrupted .m4a aac file?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkvcd/fix_a_corrupted_m4a_aac_file/
+
+---
+
+#### 7513. Power went out now nokia router isn't working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkuf1/power_went_out_now_nokia_router_isnt_working/
+
+---
+
+#### 7514. XBOX APP and Microsoft store automatically closing log-in when trying to sign in with a different account
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkm8p/xbox_app_and_microsoft_store_automatically/
+
+---
+
+#### 7515. PC boots to desktop, takes 30 minutes for Wifi/network to activate
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkj8s/pc_boots_to_desktop_takes_30_minutes_for/
+
+---
+
+#### 7516. PC Stuck on VGA LED on New B650/7800X3D build
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unf381/pc_stuck_on_vga_led_on_new_b6507800x3d_build/
+
+---
+
+#### 7517. No video signal, bad mainboard again?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unkeed/no_video_signal_bad_mainboard_again/
+
+---
+
+#### 7518. Lost my notes on my iPhone 8 (iOS 16.7.4)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unka36/lost_my_notes_on_my_iphone_8_ios_1674/
+
+---
+
+#### 7519. Computer not connecting to internet via ethernet.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unk4hd/computer_not_connecting_to_internet_via_ethernet/
+
+---
+
+#### 7520. [V2EX] 放弃折腾 claude 了，请给我推荐纯血的 claude 的中转站
+
+**问题描述 / Problem Description**:
+如题，几个老账号都被封掉了，日了 A➗ 试过 codex ，满足不了我现在的需求，还是要换回去 claude 麻烦大家给推荐纯血的 claude 中转站，如果是逆向什么的就别来了 感谢各位
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225009#reply1
+
+---
+
+#### 7521. [V2EX] 啥情况，豆包还不准俺研究龟男
+
+**问题描述 / Problem Description**:
+看到则新闻很气愤，作为自媒体作者想写篇文章剖析下这个社会现象，结果豆包还不准俺研究。 这哪里有违规公序良俗传播网络戾气了，豆包的人出来解释下…… 俺的提示词还是：“1 严肃分析。2 学姿势网和公众号、知乎。3 必须加入案例，而且要详实充分，观点无懈可击。4 包含 5 字数第一版为你可以输出的上限，俺最后再来精简。” 新闻都可以传播，更客观的反而不允许，害~~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224991#reply1
+
+---
+
+#### 7522. [V2EX] OpenClaw 和 n8n
+
+**问题描述 / Problem Description**:
+去年流行的智能体工作流编排——Coze 、HiAgent 、dify 、n8n 今年流行的智能体自主运行——OpenClaw 、Harmers 、Nanobot 窃以为两者最大的区别就是，在不考虑工具/技能的差异情况下，两者最大的区别就是去年是确定的事情，而今年是让 AI 自主判定。当然通过较强硬的指引，让后者做到前者（但一定程度上不可避免的幻觉使得执行不能保证百分百）。 所以如何看待这两者的关系，是后者一定潮流是方向，前者因为工作流死板不灵活定会死在历史的长河中？还是两者各自侧重各有分工，一定阶段内需要互相配合——那问题就是有没有一个东西实现两者，不然，则是要把前者作为后者的技能，还是把后者
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224978#reply0
+
+---
+
+#### 7523. [V2EX] MacBook 和 PC 使用同一套键鼠，同时使用 Mac 办公和 PC 娱乐的最佳解决方案是什么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224977#reply11
+
+---
+
+#### 7524. [V2EX] 求推荐：中小微企业 AI 落地、AI Agent、自动化工作流相关实战资料
+
+**问题描述 / Problem Description**:
+最近想系统学习 AI 在中小微企业、传统行业或实体业务里的实际落地，比如企业知识库、RAG 、AI 客服、自动化工作流、跨境电商提效、AI Agent 项目开发等。 不太想看纯理论或只讲 Prompt 的内容，更想找那种有真实项目、源码、部署流程、业务场景和 ROI 分析的课程 / 书籍 / PDF / 开源项目。 方向大概包括 Dify 、Coze 、FastGPT 、n8n 、Make 、Zapier 、企业知识库、AI Agent 、跨境电商 AI 工具链这些。 中文英文资料都可以，付费课程也可以，只要内容质量高、不是割韭菜就行。 大家有没有推荐的学习路线、课程、书、GitHub 项目、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224973#reply0
+
+---
+
+#### 7525. [V2EX] Claude 7 月 8 日要启动人脸验证了吗，后续该怎么用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224971#reply0
+
+---
+
+#### 7526. [V2EX] ios17 还能有办法装 chrome 吗
+
+**问题描述 / Problem Description**:
+app store 提示要 ios18 但是官网写的 ios17 以上可以 https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DiOS&oco=1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224967#reply0
+
+---
+
+#### 7527. [V2EX] 国内彻底用不了 claude?
+
+**问题描述 / Problem Description**:
+Anthropic 正在展开一场前所未有的清洗行动。据 Financial Times 报道，该公司已启动全面封禁计划，严厉打击所有绕过地区限制的访问通道，包括 API 中转站、海外子公司跳板及云服务商隐秘通道等，堪称史上最严厉的管控措施。 2026 年 7 月 3 日，Anthropic 明确表态：严禁在未支持地区访问或协助访问 Claude 。公司特别强调，作为唯一明确禁止向限制地区控制公司销售服务的前沿 AI 企业，即使相关子公司注册在境外，也绝对在限制范围内。 为精准识别违规用户，Anthropic 动用了系统级反侦察技术。除常规封锁国内双币信用卡、封杀可疑 IP 外，还通过读取用户电
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224946#reply3
+
+---
+
+#### 7528. [V2EX] 怎么没看到有人提 Grok Build？
+
+**问题描述 / Problem Description**:
+我用了一段时间，感觉挺强的，代码质量挺好的，界面也比较易用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224944#reply4
+
+---
+
+#### 7529. [V2EX] 哪些国家/地区可以数字游民转长居签证？
+
+**问题描述 / Problem Description**:
+先说下本人情况：<30 岁，单身无牵无挂，有 CS 的 PhD 学位，英语水平还行（几年前托福考了 102 ，现在工作交流都是英语）。目前在香港 on-site ，明年能拿香港 PR ，在考虑二润的目的地。 香港这鬼地方太压抑了，我觉得绝对算不上宜居，现在的是想法是明年拿了 PR 就可以二润了。只是现公司待遇和福利都还不错，有全球可用的商业医保，而且可以改签 relocation/remote contractor 合同，所以想找能通过数字游民转长签的国家/地区移民，希望 V 友们能给些建议。 公司业务性质有些特殊，不方便回内地（也有税收，WLB 等因素的考虑）；走公司 relocation
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224942#reply21
+
+---
+
+#### 7530. [V2EX] 要弄个 esim 卡保号，用 Claude code 和 codex，最便宜方案是什么？？
+
+**问题描述 / Problem Description**:
+淘宝买了个小白卡和写卡器，准备申请 eSIM 写入，主要用 ChatGPT 和 Claude ，目前最靠谱和便宜的方案是什么？仅需要短信验证，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224940#reply4
+
+---
+
+#### 7531. [V2EX] 省到就是赚到？
+
+**问题描述 / Problem Description**:
+会有“省钱=赚钱”的想法吗？小到日常生活琐碎物件追求性价比或最优惠价格，大到比如一辆全新 model y 需要二六七十万，但二手或许能省五六万，变相而言是不是赚了五六万
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224937#reply26
+
+---
+
+#### 7532. [V2EX] 英国 giffgaff， BOT 自助下单。
+
+**问题描述 / Problem Description**:
+Esim.Kim 中文交流群群主 @ esimkim 自诩大中华总代理 [ doge ] ，做的自助下单工具（可直接转换 eSIM ） BOT 链接： https://t.me/GGActivate_BOT?start=ref6308095967 GG 卡 SIM/eSIM 均可充值 5GBP 激活 实体卡充值 5GBP 激活送 5GBP 赠金 通过机器人登陆账号后选择 SIM 将实体卡背面的激活码发给机器人 SIM 类型会提示：无赠金/有赠金 自己也可以去 GG 官网查询是否有赠金 选择 eSIM 激活成功机器人会发二维码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224915#reply2
+
+---
+
+#### 7533. [V2EX] 环境工程专业的，想学点 Python ，零编程基础，学哪个课？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224907#reply14
+
+---
+
+#### 7534. [V2EX] Anthropic 封堵 Claude 中国访问，限制中转站与 Code
+
+**问题描述 / Problem Description**:
+Anthropic 加强执行限制，封堵 Claude 在中国及企业绕行访问路径，重点打击中转站与 Claude Code 使用，并强化身份验证与支付风控机制 这下怎么办
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224893#reply10
+
+---
+
+#### 7535. [V2EX] 暗色模式到底是怎么流行起来的？？
+
+**问题描述 / Problem Description**:
+RT ，现在基本上但凡 IT 数码沾点边的站点或者软件，进去默认都是夜间模式、暗色模式。 作为一个讨厌暗色模式的人，每次进去都要找半天日渐模式按钮在哪里，有些在右上角或者左下角直接可以切换的还好。 有些 TM 的直接没有切换按钮或者藏在设置页深处的，简直想打人。 夜间模式到底好在哪里啊？护眼吗？好像没有科学依据证明啊。 日间模式看着多舒服啊，各种设计颜色都是原始的，夜间模式好多界面颜色啥的设计都变乱了，很丑啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224886#reply93
+
+---
+
+#### 7536. [V2EX] 抖音批量私信
+
+**问题描述 / Problem Description**:
+请教一个问题 抖音批量给陌生人发营销消息，且不被封号如何怎么做到的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224879#reply13
+
+---
+
+#### 7537. [V2EX] 都是 20 美金， Kiro Pro/ChatGPT Plus/Google AI Pro 选哪个
+
+**问题描述 / Problem Description**:
+目前用的 Antigravity ，但是还没有 Sonnet 5 ，只有 4.6 用。。Kiro 已经有 Sonnet 5 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224847#reply9
+
+---
+
+#### 7538. [V2EX] LG 的京东官方旗舰店和 LG 自营在售后上有区别吗
+
+**问题描述 / Problem Description**:
+看上个显示器，但是自营没货了，官旗还有货，但是不是很放心之后的保修 有没有买过官旗的老哥说下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224840#reply5
+
+---
+
+#### 7539. [V2EX] 你希望别人拥有的人生体验
+
+**问题描述 / Problem Description**:
+最近做了一个网站，想收集一些回答。 如果你可以指定陌生人干一件事情，你希望让他做什么（不一定是为你而做）,小到拍一张照片，喝一杯水都行 大家动动发财的小手回复一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224838#reply29
 
 ---

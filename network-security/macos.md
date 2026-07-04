@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1109**
+**总计条目 / Total entries: 1110**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -17266,5 +17266,21 @@ Apple security update. Refer to support article for details.
 
 **参考链接 / References**:
 - https://support.apple.com/en-us/127557
+
+---
+
+#### 1110. CVE-2026-14621
+
+**严重程度 / Severity**: LOW | CVSS: 3.1
+
+**漏洞描述 / Description**:
+A vulnerability has been found in FederatedAI FATE up to 2.2.0. This affects the function QueuePushReqStreamObserver.initEggroll of the file java/osx/osx-broker/src/main/java/org/fedai/osx/broker/grpc/QueuePushReqStreamObserver.java of the component OSX Broker. Such manipulation of the argument rollSiteSessionId/dstRole/dstPartyId leads to exposure of data element to wrong session. The attack can be executed remotely. A high complexity level is associated with this attack. It is indicated that the exploitability is difficult. The exploit has been disclosed to the public and may be used. The pull request to fix this issue awaits acceptance.
+
+**参考链接 / References**:
+- https://github.com/FederatedAI/FATE/
+- https://github.com/FederatedAI/FATE/issues/5791
+- https://github.com/FederatedAI/FATE/pull/5792
+- https://vuldb.com/cve/CVE-2026-14621
+- https://vuldb.com/submit/844900
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2303**
+**总计条目 / Total entries: 2307**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -35982,5 +35982,53 @@ It was discovered that ncurses incorrectly handled certain terminfo entries in t
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8503-1
+
+---
+
+#### 2304. CVE-2026-14615 - keycloak-services: keycloak: FGAP v2 parent group children endpoint bypasses…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak: FGAP v2 parent group children endpoint bypasses per-child view permission filter. Bugzilla: 2496891
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496891
+
+---
+
+#### 2305. CVE-2026-14614 - keycloak-services: keycloak-services: FGAP v2 client scope assignment bypass via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: FGAP v2 client scope assignment bypass via ClientResource. Bugzilla: 2496889
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496889
+
+---
+
+#### 2306. CVE-2026-14613 - keycloak-services: keycloak-services: Keycloak: FGAP v2 role groups endpoint…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Keycloak: FGAP v2 role groups endpoint discloses hidden group metadata without group view permission. Bugzilla: 2496878
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496878
+
+---
+
+#### 2307. CVE-2026-14612 - freeipa: ipa: idm: freeipa: off-by-one buffer overflows in ipa-otpd oauth2.c…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] freeipa: ipa: idm: freeipa: off-by-one buffer overflows in ipa-otpd oauth2.c during OAuth2 device authorization. Bugzilla: 2496879
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496879
 
 ---
