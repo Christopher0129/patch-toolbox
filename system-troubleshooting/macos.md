@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6439**
+**总计条目 / Total entries: 6511**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -87995,5 +87995,941 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224709#reply133
+
+---
+
+#### 6440. it's all over, RIP
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoc4xl/its_all_over_rip/
+
+---
+
+#### 6441. Is macOS still called “macOS X” system wide?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo8j9t/is_macos_still_called_macos_x_system_wide/
+
+---
+
+#### 6442. My Mac Homescreen!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoawup/my_mac_homescreen/
+
+---
+
+#### 6443. Is there any way to automatically move an app to the current desktop when I click them on dock?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo8rgw/is_there_any_way_to_automatically_move_an_app_to/
+
+---
+
+#### 6444. App store and Safari problem after updating to Sonoma
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo9ojt/app_store_and_safari_problem_after_updating_to/
+
+---
+
+#### 6445. Nuked Sequoia on MacBook, can't reinstall
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo4x6r/nuked_sequoia_on_macbook_cant_reinstall/
+
+---
+
+#### 6446. PulseCalendar is now available on Mac! 🎉
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uodvls/pulsecalendar_is_now_available_on_mac/
+
+---
+
+#### 6447. Battery issue after update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uodj9p/battery_issue_after_update/
+
+---
+
+#### 6448. MacBook Air 2018 stuck in boot loop after shutdown – any ideas?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uobsno/macbook_air_2018_stuck_in_boot_loop_after/
+
+---
+
+#### 6449. I built a lightweight native macOS editor for focused coding and writing — Neon Vision Editor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1unm9yl/i_built_a_lightweight_native_macos_editor_for/
+
+---
+
+#### 6450. MacBook Pro repeatedly shuts down with AOP PANIC / RTKit / SCMto:i2cm0
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo9de5/macbook_pro_repeatedly_shuts_down_with_aop_panic/
+
+---
+
+#### 6451. Title: HP Dock G6 not detected by my 2017 MacBook Pro — works fine with other devices
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo8anr/title_hp_dock_g6_not_detected_by_my_2017_macbook/
+
+---
+
+#### 6452. Ever since they rolled out the 'new Yahoo' and they won't let me go back to classic Yahoo Mail, my Catalina mac mini is practically unusable. Help?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo5y1x/ever_since_they_rolled_out_the_new_yahoo_and_they/
+
+---
+
+#### 6453. Sports app notification from iphone on mac for F1 is so cool!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo35hj/sports_app_notification_from_iphone_on_mac_for_f1/
+
+---
+
+#### 6454. How to stop headphone buttons from being able to end and start FaceTime calls?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo34r6/how_to_stop_headphone_buttons_from_being_able_to/
+
+---
+
+#### 6455. Does anyone have a workaround for renaming saved locations in Maps?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo2t3g/does_anyone_have_a_workaround_for_renaming_saved/
+
+---
+
+#### 6456. Screen time doesn't record
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo2r6a/screen_time_doesnt_record/
+
+---
+
+#### 6457. Screen Sharing capture
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1unydz6/screen_sharing_capture/
+
+---
+
+#### 6458. Just upgraded to Sequoia from Sonoma and Safari rendering performance got a huge improvement
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uo0cjl/just_upgraded_to_sequoia_from_sonoma_and_safari/
+
+---
+
+#### 6459. macbook not connecting anymore to external keyboard; locked out as inbuilt keyboard and mouse don’t work either - help!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1unzrtv/macbook_not_connecting_anymore_to_external/
+
+---
+
+#### 6460. [V2EX] macos 27 使用测试版的朋友们讲一下,UI 现在好看么?协调一致么?
+
+**问题描述 / Problem Description**:
+感觉 apple 为了改变而改变,频繁的改变界面,搞出一堆毛病,难看的要死 windows 也是,现在的 win11 还不如 windows10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225126#reply3
+
+---
+
+#### 6461. [V2EX] 继 ClickMate（右键大师）后又开源了一个新的 macOS 原生效率工具
+
+**问题描述 / Problem Description**:
+前几天 vibe 了一个 macOS 的右键菜单工具： https://github.com/Funnyrz/ClickMate 今天把之前 vibe 的另一个工具也开源了，名字叫 HoldMac （文件中转桶）。 HoldMac （文件中转桶）是一个轻量的原生 macOS 菜单栏应用，为 Finder 文件拖拽流程提供临时中转区。 当你在 Finder 中开始拖拽文件时，HoldMac 可以在屏幕顶部附近显示一个悬浮中转桶。把文件先拖进中转桶，切换到目标文件夹后，再从中转桶拖出即可复制或移动。应用只保存临时文件引用；文件进入中转桶时不会复制文件内容。 开源地址: https://github
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225108#reply1
+
+---
+
+#### 6462. [V2EX] macOS 27 beta 2 一直提示应用内存不足
+
+**问题描述 / Problem Description**:
+请教各位 V2 吴彦祖，这是什么情况？这两天频繁出现，不知如何应对？ 技术小白，又喜欢当小白鼠😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224749#reply17
+
+---
+
+#### 6463. [V2EX] 几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件
+
+**问题描述 / Problem Description**:
+如题。 我目前是打开文本编辑器新建后设置格式再另存。始终觉得不方便。 网上搜索发现有自动操作的教程，可能太笨了没有成功过。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224166#reply101
+
+---
+
+#### 6464. [V2EX] 周末 vibe coding 了一款高情商改写的 Mac App，名字叫 Mellow（米洛）
+
+**问题描述 / Problem Description**:
+关于开发 Mellow 的心路历程 日常生活中，我经常使用语音识别功能帮我记录生活或者工作中的灵感，但现在的语音识别或者输入法仅仅实现了转写，并没有把其中的 emm 、a 等助词以及不清晰的表达分场景优化出来。比如家庭场景怎么说话更暖心、恋爱场景怎么表达更深情、办公场景怎么说更能得到客户的认可。 我也用过 typeless ，觉得还是没有办法设置场景并即使的表达，体验上也不太顺滑。 于是我决定自己开发一款 app 出来，虽然我完全不懂 Mac app 开发，但有 AI 这事儿也好办。 Mellow 的形象是怎么设计出来的 我觉得这个 app 的形象应该是一团软软的棉花糖， Mellow ＝ m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225141#reply0
+
+---
+
+#### 6465. [V2EX] appstore 下载的软件卸载后为什么没有选项从已购列表里删除
+
+**问题描述 / Problem Description**:
+已购列表里只有隐藏，没有删除选项，虽然可以通过联系多位 apple 支持协助后删除，但提供删除选项不是更简单么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225070#reply8
+
+---
+
+#### 6466. [V2EX] 泰国版的 iPad / MacBook 值得购买吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224934#reply10
+
+---
+
+#### 6467. [V2EX] iPhone 美区 Apple ID 初始化， App Store 安装 App 被要求确认是否 18 岁，应该如何配置？
+
+**问题描述 / Problem Description**:
+要求扫描证件，没有，真没有。 理解他的说明，好像可以录入(绑定信用卡到 iPhone)也行? 不想贸然鲁莽尝试，请问: 如果拿国内 VISA 卡去绑，应该录入不了吧？ 如果拿海外虚拟信用卡，是否可以？ 是不是一定要美区发卡的虚拟信用卡？ (虚拟/实体信用卡)账单地址和 Apple ID 注册的住宅地址，有关系吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224850#reply12
+
+---
+
+#### 6468. [V2EX] 因为帮朋友代充了 ChatGPT Plus，我的 Apple ID 不干净了
+
+**问题描述 / Problem Description**:
+起因是前几个月，我用我的美区 Apple Id ，帮我朋友代充了 ChatGPT Plus ，后面这个订阅过期了。 后来我朋友用自己注册的美区 Apple Id 给自己的 ChatGPT 充值了。 我最近由于工作需要使用 Codex ，准备自己充一波，钱扣了，然后提示什么错误，发现没有充上。 点击恢复购买，提示 “你的 AppleID 购买项目关联到另一个 ChatGPT 账号。巴拉巴拉...”。 后面跟我朋友联系，发现充到他的账号上了。并且是覆盖式的，他在 6 月 30 号充值的，我今天 7 月 3 号 充值的。他的 ChatGPT 账号显示 8 月 3 号过期... 后来翻阅相关文档，发现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224834#reply47
+
+---
+
+#### 6469. [V2EX] MBA 的音质真垃圾
+
+**问题描述 / Problem Description**:
+昨天把漫步者 N300 卖掉换新，从昨晚到现在一直先用 MacBook Air 自带扬声器顶着过渡，但真的有点“辣耳朵”，甚至感觉还不如 iPhone 的外放…… 现在已经是一秒都不想听 MBA 的声音了，折寿。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224688#reply17
+
+---
+
+#### 6470. [V2EX] 7 号下单的 MBA，这周告之被退单了，要重新下。
+
+**问题描述 / Problem Description**:
+公司 17 号找供应商下单了 MBA ，这周突然想起 25 号升价了，问一下有没影响，告之被退单了。 要重新下单，升价 1500 元，并且货期比之前慢。 看到有人发贴说收不到货，请做好被退单或者收到“旧机”的心理准备。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224683#reply14
+
+---
+
+#### 6471. [V2EX] apple 全系涨价前买的 mac mini m4 已经 40 天了还未发货
+
+**问题描述 / Problem Description**:
+苹果淘宝官旗店铺买的 24+512 40 天了，还没发货，看评论有人说店铺要求加价 2500 才发货，我都震惊了，不知道真假唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224664#reply36
+
+---
+
+#### 6472. [V2EX] 我开发了一款像 iOS 自带的多功能聚合翻译 App，目前正在 TestFlight 公开测试中，欢迎使用~
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 核心功能 安装包仅 3.6 MB ，足够轻量 支持多平台同
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224621#reply14
+
+---
+
+#### 6473. [V2EX] Apple 什么时候才会考虑把 Mac 上的刘海儿去掉
+
+**问题描述 / Problem Description**:
+手上一台初代 touchbar 13 寸、一台 15 年信仰灯版 15 寸老干部 上班用公司 M1pro 13 寸 一直想买个新的自己用，但是不喜欢 mac 上有刘海儿，苹果啥时候才能干掉刘海儿啊。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224452#reply43
+
+---
+
+#### 6474. [V2EX] 大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机
+
+**问题描述 / Problem Description**:
+jd 现在很多挂羊头卖狗肉的 特别 iphone17 你看价格 4999 其实是什么准新机 刘强东你别太离谱 个强奸犯 不知道能不能退一赔三 骗子和客服都理直气壮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224297#reply104
+
+---
+
+#### 6475. [V2EX] [送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～
+
+**问题描述 / Problem Description**:
+👋 嗨，V 站的朋友们，大家好～ 🙋 我是 Wins 的开发者，距离 Wins 3.0 发布竟然 9 个月过去了，又来和大家同步最近的一次更新了。 这次主要打磨了一个我自己很喜欢的新交互： 🏝️ Wins 3.4 发布：「悬浮分屏岛」来了 这不是一个普通的悬浮面板。 我想做的是：当你拖动窗口到屏幕顶部时，它像 iOS 灵动岛一样，从 MacBook 的刘海区域自然出现；你继续拖动，就可以快速选择布局并完成分屏。 也就是说，MacBook 的刘海不再只是一个“缺口”，它也可以变成窗口管理的入口。 在没有刘海的 Mac 或外接显示器上，它也会以顶部悬浮岛的形式出现，尽量保持同样自然的拖拽体验。 我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224253#reply183
+
+---
+
+#### 6476. [V2EX] 浩浩荡荡的 codex 零元购开始了😭
+
+**问题描述 / Problem Description**:
+如题 字越少事越大👋 明天上班前奥特曼看来不会修了😭 有朋友说，薅羊毛用 AI 心里过意不去咋办？很简单，每次用的时候，默念老佛爷已经帮你付过就好😡 不接受反驳(但也得承认没有 1840 可能二百年后的 llm 前沿也不会出现在神州) bilibili.com/video/BV15TT266EAP 使用教程往期视频也有的 谢谢😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225110#reply5
+
+---
+
+#### 6477. [V2EX] 短视频平台会将用户上传的视频训练 AI 吗，如果是应该付费吗？
+
+**问题描述 / Problem Description**:
+字节跳动和快手科技，前者拥有抖音（+tiktok),后者拥有快手等 UGC 短视频平台。这两家公司掌握着海量视频，恰恰它们在生成式视频大模型方面又在全球处于领先位置，而同样提供在线影视服务（也归为视频）的爱优腾却没有推出相近水平的大模型。我的推测是爱优腾作为内容分发商，本身没有视频作品的版权，所以无法用于训练 AI ，而短视频平台，用户上传视频后，虽然版权攥在手里，但是却授予了平台泛化的使用权，我怀疑这些公司将用户上传的视频拿去了训练模型。当然除了数据，训练模型，其他方面的条件也很重要，例如技术，这里暂不做讨论。 我去扒了抖音的用户协议，分别喂给 ChatGPT ，Grok ，DeepSeek
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225107#reply1
+
+---
+
+#### 6478. [V2EX] 目前 AI 距离顶级专家还有些差距
+
+**问题描述 / Problem Description**:
+用硬盘挂载为例，比如一块新硬盘，作为数据盘，需要挂载到 /mnt/Data-2 几款主流的 AI ，在把新硬盘格式化后，mkdir /mnt/Data-2 ，然后把挂载信息写入 /etc/fstab ，就完事了。 这里其实有个大隐患，如果数据盘掉了，那么对 /mnt/Data-2 的写入，会直接写穿到系统盘上，原因是当数据盘掉了后，/mnt/Data-2 这个路径依然会存在，而且此时它变成系统盘上的路径了。 顶级专家在 mkdir /mnt/Data-2 ，之后，还会 chattr +i /mnt/cachedata ，这应该属于防止写穿的基本操作，然而目前对于几款主流 AI ，如果你不提防写
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225106#reply1
+
+---
+
+#### 6479. [V2EX] chatgpt team，自动进 k12 工作空间，这两天蹬爽了，无限额度
+
+**问题描述 / Problem Description**:
+原帖链接，会不断有新的空间 ID 冒出来： https://discord.gg/pvfDb9MAq 1.登录这个网站后访问 https://sites.xingjuantech.com/workspace-join 2.登录 gpt 后访问 https://chatgpt.com/api/auth/session 获取 auth.json ，复制 3.粘贴到这边，工作区 ID 填：eb6642e8-b4a6-4652-9c18-67099f2781cc 4.点击加入工作区，成功后刷新 gpt 页面，点击头像可以看到已加入的空间，切换到空间即可使用 gmail 账号可用的空间 ID： Beul
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225096#reply14
+
+---
+
+#### 6480. [V2EX] 头一次发现 Intel NPU 工作了
+
+**问题描述 / Problem Description**:
+用 OpenCode 的时候，第一次发现 Intel NPU 在干活了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225025#reply11
+
+---
+
+#### 6481. [V2EX] 原来 FM 调频转播站晚上会关站
+
+**问题描述 / Problem Description**:
+一听到凌晨 12:05 就会突然没信号，小城仅有的 4 个电台全部离线，没有关站提示，就像跳闸了一样突然变成白噪音了。第一次以为是收音机坏了，换了一个收音机到点还是如此。过了 12 点只能听调幅了，干扰很大，把天线用导线一路引到阳台防盗网上才能收到信号，台灯都没法开呀。 过去听父母说能从收音机听到对岸牧师传教，我还将信将疑，这次确实有收到香港、日本、韩国、俄罗斯的调幅信号，虽然完全听不懂，但这么折腾一番挺有成就感的。 明明记得之前不是这样，高三偷偷用 iPod nano 的收音机听老梁故事会到凌晨也没问题，而且调频电台起码 8 个以上，或许是记混了。那样现在夜班出租车司机岂不是连个收音机都没得
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225024#reply33
+
+---
+
+#### 6482. [V2EX] gpt 又有 bug 了，自动加入 k12 的工作区，速薅
+
+**问题描述 / Problem Description**:
+1.登录这个网站后访问 https://sites.xingjuantech.com/workspace-join 2.登录 gpt 后访问 https://chatgpt.com/api/auth/session 获取 auth.json ，复制 3.粘贴到这边，工作区 ID 填：eb6642e8-b4a6-4652-9c18-67099f2781cc 4.点击加入工作区，成功后刷新 gpt 页面，点击头像可以看到已加入的空间，切换到空间即可使用 原帖的 discord 频道
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224988#reply9
+
+---
+
+#### 6483. [V2EX] 阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字
+
+**问题描述 / Problem Description**:
+今天刚好有需要想在千牛 app 里面问下 AI 客服 居然要求必须开启麦克风权限，否则不能用 键盘输入 到底是想监听啥有价值的商业情报啊？ 还是单纯开发人员故意的，还是领导要求 冲浪互联网多年，你们有用过哪家公司聊天框不开麦克风权限就不能打字吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224885#reply30
+
+---
+
+#### 6484. External SSD refuses to connect with a USB-C cable
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, usb, ssd | Score: 1 | Views: 1261 | Answers: 1 | Created: 2024-05-04
+
+**解决方案 / Solution**:
+The cable you are referring to can only do power delivery to 100 W and USB 2.0 (480 Mb/s). The SSD has an USB 3.1 Gen 2 (10 Gb/s) interface. An Apple M1 Pro can handle that speed (and much faster speeds). This cable is the wrong choice for Mac with USB C ports. If you wanted to stay with the same brand, you would want this cable (the 10 inch one), which is considerably higher in price. Time could be spent trying to determine why the drive is not recognized by the Mac when directly plugged in using the cable you purchased. However, I would consider this as a waste of time, since the connection speed would be about 4.8% of the drive maximum transfer speed. According to the link you gave, the drive was supposed to have both an "USB Type C cable and Type A cable included". You might try to determine what happened to the USB Type C cable. Examples of possible replacement cables (from MyCableMart.com ) are given below. (Note: USB 3.1 Gen 2 = USB 3.2 Gen 2 = USB 3.2 Gen 2x1 and all three are 10 Gb/s) 6 inch 1.5 foot
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472423/external-ssd-refuses-to-connect-with-a-usb-c-cable
+
+---
+
+#### 6485. 1.41 GB volume not mounted since oclp/sonoma installation on MBP
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hard-drive, sonoma | Score: 1 | Views: 196 | Answers: 1 | Created: 2024-04-24
+
+**解决方案 / Solution**:
+I would suggest you enter the command below. diskutil mount Recovery On the Disk Utility, you should see 1 Not Mounted change to Recovery . The size should decrease to what diskutil list shows for the Recovery volume. I suppose the size change can be explained as follows. When mounted, the Disk Utility can examine the Recovery volume and determine space used. When Recovery is unmounted, the Disk Utility computes Not Mounted space by subtracting free space and used space from other volumes in the container from the total space occupied by the container. Afterwards, you can enter the command below to return Recovery to its original unmounted state. diskutil unmount Recovery I tested this on Monterey running as a VMware Fusion Player guest. Here are some images. Below is before mounting Recovery . Below is after mounting Recovery .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472161/1-41-gb-volume-not-mounted-since-oclp-sonoma-installation-on-mbp
+
+---
+
+#### 6486. Why do the interface objects (eg cursor, cmd+tab, swiping across desktops) seem completely unaffected by lag?
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, trackpad, cursor | Score: 1 | Views: 116 | Answers: 1 | Created: 2024-04-18
+
+**解决方案 / Solution**:
+I would guesstimate that the most common reasons for beachballing are the following (in no particular order): Doing heavy calculations on the GUI thread. Well written programs should not do this, and we can probably expect to be the GUI core to be well written. Doing heavy i/o (basically disk read/write) or waiting for network or other external resources on the GUI thread. See (1). The system is running out of memory, and pieces of data that a program expects to be in RAM, or even pieces of the program itself, have been paged out to disk and need to be read back in again before the program can run. The GUI probably protects itself from this by not having much critical data in the first place, and locking what it has in RAM. So to summarize: The GUI does not need much by modern computing standards, and it probably gets high-priority access to what it does need, precisely because the developers at Apple want to keep the GUI “snappy” even when everything else is bogged down.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471986/why-do-the-interface-objects-eg-cursor-cmdtab-swiping-across-desktops-seem
+
+---
+
+#### 6487. How to prevent MacBook from going to sleep when running tasks?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, sleep-wake, python | Score: 1 | Views: 1209 | Answers: 2 | Created: 2024-04-14
+
+**解决方案 / Solution**:
+in the Control Panel, in Privacy and Security, go to Advanced. One of the options there is 'log out automatically after inactivity'. It sounds like that is enabled on your system.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471889/how-to-prevent-macbook-from-going-to-sleep-when-running-tasks
+
+---
+
+#### 6488. MacBook Pro approve as administrator with an apple watch in clamshell
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, apple-watch, sudo, touch-id | Score: 1 | Views: 261 | Answers: 1 | Created: 2024-04-14
+
+**解决方案 / Solution**:
+I use a GitHub project for pam-watchid : clone the project & make git clone https://github.com/biscuitehh/pam-watchid /tmp/pam-watchid cd /tmp/pam-watchid make install ⚠️ WARNING Misconfiguration can disrupt your sudo, but modifying PAM requires sudo privileges. If misconfigured, you may lose the ability to use sudo, like a snake biting its own tail. To prevent losing sudo access, do the following: Create a backup! sudo cp /etc/pam.d/sudo_local /etc/pam.d/sudo_local.bak Open another sudo terminal (I once lost the root on my mac). 2. Then configure the sudo nano /etc/pam.d/sudo_local file. # sudo_local: local config file which survives system update and is included for sudo auth sufficient pam_tid.so auth sufficient pam_watchid.so "reason=execute a command as root" See Configuring MacOS to Use Apple Watch or Touch ID for MFA With Sudo for a helpful guide and the pam-watchid GitHub for more details.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471888/macbook-pro-approve-as-administrator-with-an-apple-watch-in-clamshell
+
+---
+
+#### 6489. How to prevent keyboard and trackpad to wake up Mac from Sleep?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, sleep-wake | Score: 1 | Views: 1561 | Answers: 1 | Created: 2024-04-08
+
+**解决方案 / Solution**:
+There is no Apple supported way of disabling the keyboard and mouse from waking macOS. Consider finding or making a solid case for transporting the device. A 3D printed overlay to protect the keys is another possibility.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471717/how-to-prevent-keyboard-and-trackpad-to-wake-up-mac-from-sleep
+
+---
+
+#### 6490. USB-C device detected only through a hub
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, audio, usb | Score: 1 | Views: 678 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+While a a USB 3.2 or 4 port is backward compatible all the way to USB 1.0, the quality of the USB controller If you issue the command: system_profiler SPUSBDataType | grep -i hub You will see a number of USB hubs, 2.0, USB3 and where applicable USB 4. even though you don’t have have that many. This is from the USB controller chip built into your Mac and how it achieves backward compatibility. If I connect the USB-C plug directly into my MacBook [UGreen Adapter] , the device is not recognized (nothing is seen on system report, just like nothing is plugged in) If I connect the USB-C plug into a USB hub, the device is properly recognize It is likely because the UGreen adapter is of poor quality. I have used Anker USB-C to USB 3.0 adapters with a lot of success. Just use any USB 2.0 cable between it and your Presonus (which is USB 2.0 per the tech specs ). Latency You are correct about latency, and again this is due to the quality of the USB controller chip. “Cheaper” hubs will use more budge chips, thus higher latency. To avoid that get a quality hub…again I recommend Anker
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471417/usb-c-device-detected-only-through-a-hub
+
+---
+
+#### 6491. MacBook goes into clamshell sleep immediately
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, sleep-wake | Score: 1 | Views: 178 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+Compare the two users pmset settings using terminal app pmset -g Pay attention to the lidwake value, it should be 1 not 0
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471415/macbook-goes-into-clamshell-sleep-immediately
+
+---
+
+#### 6492. Do Memory Pressure and Memory Used have a direct relation?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, memory, memory-pressure | Score: 1 | Views: 279 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+Memory Pressure is the efficiency at which your Mac is utilizing its memory resources. Used memory is exactly that: how much memory is allocated. So, yes, they are related. Basically, how efficiently it’s handling those resources. Activity Monitor Users Guide The Memory pane displays how much memory your Mac is using, how often it is swapping memory between RAM and your startup disk, and the amount of memory provided for an app and how much of it is compressed memory. When you have free or unused memory, your computer performance does not necessarily improve. macOS obtains the best performance by efficiently using and managing all of your computer’s memory. Your computer’s memory pressure is accurately measured by examining the amount of free memory available, the swap rate, and the amount of wired and file cached memory to determine if your computer is using RAM efficiently
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471383/do-memory-pressure-and-memory-used-have-a-direct-relation
+
+---
+
+#### 6493. MacBook Pro 13 2017: Built-in display flickering, no problem when connecting to an external display
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display, screen, hdmi | Score: 1 | Views: 224 | Answers: 1 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+This is likely a hardware issue with the graphics mux ( multiplexer ). It’s a chip that manages the switching of the GPU signal to the internal and external displays (or both). When you use dual displays, the signal becomes synchronized, so to speak and thus stabilized. There’s no software “tweak” for this, though there may be a bug in macOS driver (kext). My suggestions are as follows: open a support ticket with Apple Support to get this issue documented. Take it into an Apple store for warranty replacement
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471047/macbook-pro-13-2017-built-in-display-flickering-no-problem-when-connecting-to
+
+---
+
+#### 6494. Why does my Mac's volume jump (and my speakers click) every time I join or leave a Zoom/Meet call?
+
+**问题描述 / Problem Description**:
+Tags: macos, audio, usb, headphones, sound-volume | Score: 0 | Views: 9 | Answers: 1 | Created: 2026-07-05
+
+**解决方案 / Solution**:
+The culprit is the headset's USB dongle, not Zoom/Meet or macOS . Many headset dongles (Jabra, Poly, EPOS, …) send HID consumer volume events ( volume_decrement / volume_increment ) when the headset enters or leaves "call mode" — an attempt to sync volume state with the host. macOS treats those exactly like presses of a keyboard's volume keys, and applies them to the current default output device — which is your speakers, not the headset. Each step lands on the speaker DAC as a small click, hence "tick tick tick." Confirming it on your machine: install Karabiner-Elements and open its EventViewer while you join a call. You'll see the volume_decrement / volume_increment events arrive, attributed to the dongle's vendor/product ID (2830/11856 for the Jabra Link 390). That's the smoking gun — app-agnostic, and independent of any vendor software like Jabra Direct. The fix: make Karabiner swallow the volume events from that one device: In Karabiner → Settings → Devices , enable "Modify events" for the dongle. This is the step everyone misses — Karabiner observes but does not intercept non-keyboard devices until you check it. Add a complex-modification rule that maps that device's volume_decrement , volume_increment , and mute consumer key codes to vk_none , scoped with a device_if condition on the dongle's vendor/product ID. Your keyboard's volume keys keep working (Apple keyboards use different, vendor-specific HID usages), and apps that change volume via the CoreAudio API are unaffected — this blocks only the dongle's phantom key presses. I hit this exact problem and scripted the whole thing — it writes the rule, enables it in your active profile, and flags the device to be modified: karabiner-block-volume.sh ( disclosure: I wrote it ). Usage: ./karabiner-block-volume.sh <vendor_id> <product_id> "Label" — IDs are shown in Karabiner's EventViewer, decimal or 0x-hex. Two non-fixes worth knowing: the headset's own volume buttons hit the wrong device for the same underlying reason (they go to the default output, not the headset), and a "keep-alive" utility that prevents audio-idle pops does nothing here — this is a volume- change click, not an idle power-down click.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486710/why-does-my-macs-volume-jump-and-my-speakers-click-every-time-i-join-or-leave
+
+---
+
+#### 6495. AutoFS smbfs mounts: No route to host
+
+**问题描述 / Problem Description**:
+Tags: macos, smb, nas, automount | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-06-30
+
+**解决方案 / Solution**:
+First, the prefix // before the hostname or IP address in the smbutil command is wrong. Leave that out. You also got an error from smbutil when you passed the IP address of the server without the prefix. That's because of a security feature, Local Network Privacy (developer.apple.com). I suspect you're using a third-party terminal emulator such as "iTerm." You should be able to run the command in the built-in Terminal app, which is pre-authorized, or you may be able to authorize your emulator in System Settings > Privacy & Security > Local Network Another option is to run the command as root. Now, in your auto_master file, the location of the map nas.conf is not specified by a full path, which means that the file must be located at the top level of /etc . I think you know this and it's not an issue, but if I'm wrong please correct it. Finally, the map nas.conf doesn't correctly specify the service protocol. The line should end either in -fstype=smb //user:pass@nas.lan/Storage or smburl smb://user:pass@nas.lan/Storage Note that in the first form, there is no : before // . The value assigned to fstype is smb , not smbfs as you have it. In neither case is fstype included with the other mount options. (I'm not sure this makes a difference, but that's how the man page shows it.) So the whole line could be this: storage -nodev,noowners,filemode=644,dirmode=755 -fstype=smb //user:pass@nas.lan/Storage See the auto_master(5) man page for more details.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486679/autofs-smbfs-mounts-no-route-to-host
+
+---
+
+#### 6496. Getting color and line-drawing characters to work in "man" pages?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, iterm, color, tahoe | Score: 0 | Views: 18 | Answers: 1 | Created: 2026-06-28
+
+**解决方案 / Solution**:
+Good news! I found the answer! I on the old MacBook Pro, I need to set the LESSCHARSET environment variable to "utf8". Then, color characters and line-drawing characters show up with no problem in "man" pages. I don't understand why LESSCHARSET isn't needed to be set on the new MacBook Air, but at least I now have a solution to my problem.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486666/getting-color-and-line-drawing-characters-to-work-in-man-pages
+
+---
+
+#### 6497. Macbook air 2017 is responding very slowly
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, performance, monterey, cpu | Score: 0 | Views: 695 | Answers: 1 | Created: 2024-05-07
+
+**解决方案 / Solution**:
+Reinstalling the OS itself is usually never a solution; but by erasing the disk and reinstalling the OS you have ruled out any third-party software and user settings -- though there are easier ways of doing that. Reinstalling the OS a second time won't install anything differently. Can you see what in Activity Monitor is using all the CPU % ...? What makes you sure it's not overheating? If kernel_task is high, that could be trying to prevent overheating. (A failed sensor might send high values.) Assuming it's not a software problem (on a clean disk), then that leaves us with hardware. You can try Diagnostic mode, though really there's no substitute for taking it to an Apple Store or other authorized repair shop.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472473/macbook-air-2017-is-responding-very-slowly
+
+---
+
+#### 6498. Macbook pro 2015 13'' running monterey keeps on restarting even when I start up in safe mode
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro | Score: 0 | Views: 446 | Answers: 1 | Created: 2024-05-03
+
+**解决方案 / Solution**:
+I found a few steps that might resolve the issue or at least find the culprit: Run Apple Diagnostics : Restart your Mac and hold the 'D' key to check for hardware issues. Reset SMC : Shut down your Mac, hold Shift + Control + Option and the power button for 10 seconds, then turn it back on. Reset NVRAM/PRAM : Restart, then immediately hold Option + Command + P + R for about 20 seconds. If these steps don't resolve the issue, it could very likely be due to a more serious hardware problem, especially considering the age of your MacBook Pro.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472376/macbook-pro-2015-13-running-monterey-keeps-on-restarting-even-when-i-start-up
+
+---
+
+#### 6499. Power button haptic feedback stopped working on MacBook Pro
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, vibrate, haptic-feedback | Score: 0 | Views: 576 | Answers: 1 | Created: 2024-05-01
+
+**解决方案 / Solution**:
+I haven't disassembled this particular model, but anything that provides haptic feedback means there's a mechanical "motor" (lack of a better word) that creates it. If the button still functions otherwise and your only symptom is the haptic feedback is now missing, it means there's a physical problem with your key/button you need to replace it. There's no setting or tweak you can modify that will enable it again. However, (IMO) you should avoid this repair as you'll need to access the top case assembly and that requires nearly a full teardown of your Mac. It's simply not worth the effort. If you get to a point where you need to replace the battery, Apple recommends replacing the whole top case assembly which includes the component in question.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472337/power-button-haptic-feedback-stopped-working-on-macbook-pro
+
+---
+
+#### 6500. Macbook Air a1466 early 2015: can I replace logic board from a newer model, to get 16 GB of RAM?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, upgrade, logicboard | Score: 0 | Views: 2001 | Answers: 2 | Created: 2024-04-27
+
+**解决方案 / Solution**:
+8GB RAM is the maximum The maximum amount of RAM that the MBA could be configured with (at time of purchase) is 8GB. The 2013 and 2014 MBA notebooks came with a standard 4GB of RAM with 8GB RAM option for $100USD at purchase. Below is a table summarizing this data. MBA model Standard RAM Maximum RAM Mid 2013 4GB 8GB Early 2014 4GB 8GB Early 2015 4GB/8GB * 8GB 2017 8GB 8GB * 4GB RAM was standard configuration until April 2016 when 8GB became standard There was no MacBook Air model that was configured to 16GB TL;DR they [Ali Express] have different photos for different years, but from 2013 to 2017 they have single photo - so it looks like I can replace to any year? You can’t go off the picture especially when they use stock images for their product descriptions. Also, consider the vendor - Ali Express. They have quite a reputation for selling junk and for their 3rd party vendors misleading consumers with regards to the product capabilities Since a 16GB MacBook Air never existed for those vintages, I would steer clear of this purchase I recommend that you purchase a new(er) MacBook Air given that logic boards will be anywhere from 7 to 11 years out of date. The cost to repair versus getting a new unit makes a very strong case against this swap you’re looking to do. After all, you may spend several hundred dollars to end up with an obsolete product in the end.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472246/macbook-air-a1466-early-2015-can-i-replace-logic-board-from-a-newer-model-to-g
+
+---
+
+#### 6501. MacBook Pro 16 M3 2023: What happens if both MagSafe and USB PD (via Thuderbolt Dock) and plugged in?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, usb, thunderbolt, power, magsafe | Score: 0 | Views: 352 | Answers: 1 | Created: 2024-04-18
+
+**解决方案 / Solution**:
+I'm sure this has been asked before, but yes, it will use the power source that can provide the most power. This question contains a quote from a now-defunct Apple Support page: Your MacBook Pro draws power from only one power supply, even if more than one is attached—so using multiple power supplies won't speed up charging. If you connect multiple power supplies to your MacBook Pro, the one that provides the most power will be used, regardless of the order in which you connected them.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471994/macbook-pro-16-m3-2023-what-happens-if-both-magsafe-and-usb-pd-via-thuderbolt
+
+---
+
+#### 6502. Install El Capitan and Big Sur on newer Mac
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro | Score: 0 | Views: 185 | Answers: 2 | Created: 2024-04-17
+
+**解决方案 / Solution**:
+Think of it this way: the Operating System is a set of instructions for the hardware. El Capitan was released in 2015. The last update was 2016. It's just not possible for a 2016 OS to know how a computer from the future works. El Capitan has a list of Macs that it knows, and your Mac is not one of them. It doesn't have the necessary drivers to make everything work. The latest version of Cubase (13) runs on Monterey and above. Realistically, you need to update Cubase so that you can run your old projects on the new computer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471974/install-el-capitan-and-big-sur-on-newer-mac
+
+---
+
+#### 6503. Half of Macbook Pro Keyboard backlight is not working
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard | Score: 0 | Views: 1018 | Answers: 1 | Created: 2024-04-10
+
+**解决方案 / Solution**:
+I opened case… Left half of backlit keyboard stopped working…How can I fix this issue? You need to replace the keyboard assembly. It might just be coincidence but the LED backlight circuitry on that side of the keyboard has failed. Remember this is a wear part and depending o on the pressure of the air, you may have damaged something. Given the labor involved to disassemble a keyboard (the 2020 models and newer use rivets and not screws so they’re impossible to service) it doesn’t make sense to try and fix this. I have very similar Macbook which came from service and it has same issue (also left side is not working) You shouldn’t accept repair work that comes back damaged. At a minimum you should get a discount on the repair you took it in for. Bottom line is you unfortunately have to live with this. There’s no setting or tweak that you can make that will fix a physical issue
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471784/half-of-macbook-pro-keyboard-backlight-is-not-working
+
+---
+
+#### 6504. Manually connect Mac to a Bluetooth audio device when it’s paired with several devices
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, audio, bluetooth, android | Score: 0 | Views: 119 | Answers: 1 | Created: 2024-04-04
+
+**解决方案 / Solution**:
+You can manually set the sound input and output device on your MBP. Just go to  > System Settings > Sound and choose the output or the input device you need. An easier way to access the sound settings could be to have the sound control in the menu bar all the time. To do that, go to  > System Settings > Control Center. Then, click the pop-up menu next to Sound on the right, then choose whether to show Sound in the menu bar all the time.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471594/manually-connect-mac-to-a-bluetooth-audio-device-when-it-s-paired-with-several-d
+
+---
+
+#### 6505. Fans on my MacBook Pro (intel) keeps running if I use scaled resolution on my external monitor
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display, resolution | Score: 0 | Views: 210 | Answers: 1 | Created: 2024-04-01
+
+**解决方案 / Solution**:
+is there any way I can have the higher resolution without putting load on my MacBook? More pixel density = more GPU load Unfortunately, you can’t increase your resolution without “paying” for it. The higher the resolution, the more 1s and 0s need to be crunched by the GPU. The more the GPU has to work, the higher the power draw (more electricity). More power equates to more heat which means your Mac requires more cooling. Thus, the fans spin up (faster) as necessary. It’s also not limited to spinning up fans. The CPU and/or GPU could be throttled (performance limited) so that it won’t draw as much power keeping temperatures at reasonable levels. Size your gear accordingly You never mentioned (in the original post) what particular MacBook you had nor what it’s specifications are. However, it’s likely it wasn’t sized correctly for this particular application or your expectations weren’t aligned with its capabilities This particular 2019 MacBook Pro would have no issues driving your external monitor at the scaled resolution due to its dual GPUs and plentiful and quick 8GB of VRAM. It’s a far cry from the entry level 2019 MacBook Pro with only integrated (with the CPU) GPU and VRAM which is shared with system memory. This model would struggle to drive the external monitor at the scaled resolution. Please note: I opted to use an Intel rather than a Silicon based device because its easier to conceptualize this architecture versus Apple’s new one. While extremely graphics efficient, the Silicon chips don’t have a discrete GPU as they are integrated.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471533/fans-on-my-macbook-pro-intel-keeps-running-if-i-use-scaled-resolution-on-my-ex
+
+---
+
+#### 6506. Why does my MacBook Pro screen flicker after about 20 minutes?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, display, screen | Score: 0 | Views: 248 | Answers: 1 | Created: 2024-03-31
+
+**解决方案 / Solution**:
+You have failing display. It’s likely a component that is related to the power of the display (LEDs) itself. If I were to take a SWAG at it, I’d say there are failing capacitors at play here. Capacitors can be used to smooth out voltages There’s obviously enough power to “light up the display” but the image just isn’t smooth the way it should be. Given that the issue presents after 20 minutes, it’s probably a heat related issue. Your Mac needs to go in for service.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471484/why-does-my-macbook-pro-screen-flicker-after-about-20-minutes
+
+---
+
+#### 6507. Camera Reactions aren't turning off
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, camera | Score: 0 | Views: 186 | Answers: 1 | Created: 2024-03-28
+
+**解决方案 / Solution**:
+Solved it: Open Teams/Zoom/whatever without OBS as the video source Disable reactions making sure that it's Teams/Zoom/whatever where it is being disabled Close Teams/Zoom/whatever Open Teams/Zoom/whatever and add OBS as the video source This worked for me.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/471392/camera-reactions-arent-turning-off
+
+---
+
+#### 6508. Dark colours strobing on external display plugged in via HDMI with MacBook
+
+**问题描述 / Problem Description**:
+Tags: macos, macbook-pro, display, hdmi | Score: 0 | Views: 47 | Answers: 1 | Created: 2024-03-11
+
+**解决方案 / Solution**:
+After reading this , it turns out that it was because I'd configured the external display to use Variable Refresh Rate. Disabling this has fixed the issue for me.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470959/dark-colours-strobing-on-external-display-plugged-in-via-hdmi-with-macbook
+
+---
+
+#### 6509. Can the mid 2012 Macbooks have their CPU upgraded?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, upgrade, memory, cpu | Score: 0 | Views: 2395 | Answers: 2 | Created: 2024-03-08
+
+**解决方案 / Solution**:
+No, you’re not able to upgrade the CPU as it is soldered to the main logic board. You can see it in photo (red box). Mid-2012 MacBook Pro Unibody (MacBookPro9,2) Mid-2012 Retina (MacBookPro10,1) Images sourced, from iFixit.com Do you want to upgrade the processor, then you must change the entire main logic board. The fan is a standard laptop fan; I don't believe that there is a more "performance" version for this component. The SSD is upgradeable in the non-retina models. It uses a 2.5” “laptop” drive. Since it’s SATA, any aftermarket 2.5” SSD will work. The Retina model uses a proprietary M.2 connector. Technically it’s upgradable, however, being proprietary, you’re limited to used/salvaged SSD modules; aftermarket SSDs are generally not available. RAM is not soldered on the mid 2012 MacBooks; it can be upgraded to 16GB RAM. See, the post What is the maximum RAM size for MacBook Pro Mid 2012? for more details. RAM is soldered on to the logic board on the Retina models. It is not upgradable.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470895/can-the-mid-2012-macbooks-have-their-cpu-upgraded
+
+---
+
+#### 6510. Why is the left speaker on my 2021 M1 Max MacBook Pro (macOS 14.3.1) experiencing popping/crackling/sound distortion? Sound is also very right-heavy
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, audio, speakers | Score: 0 | Views: 744 | Answers: 1 | Created: 2024-03-05
+
+**解决方案 / Solution**:
+I had this issue on my M1 Pro MacBook Pro as well, but it happened occasionally. Since updating to macOS Tahoe, it was happening almost all the time and driving me insane. While not 100% reproducible, I did find that it would happen more often when the memory pressure crossed into yellow as OP indicated. A fix that has worked for me was to set the priority of coreaudiod to -20 (highest). It was set to 0 for me by default. sudo renice -n -20 -p <pid-of-coreaudiod> It has been a couple of days so far, and I have not seen the crackling issue, even when I put significant pressure on the memory intentionally to test the fix. That said, when I set the priority back to 0 to see if my fix was the actual fix, I have not had the issue come back still, so ¯\ (ツ) /¯ but I'm not gonna complain. Side note: There are many people that have had this issue and Apple has not done anything to fix it. I suggest trying a class action lawsuit against them. Open for ideas and collaboration on this.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/470808/why-is-the-left-speaker-on-my-2021-m1-max-macbook-pro-macos-14-3-1-experiencin
+
+---
+
+#### 6511. Why can't I adjust volume and brightness simultaneously using buttons on my Mac?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, display | Score: -1 | Views: 149 | Answers: 1 | Created: 2024-05-27
+
+**解决方案 / Solution**:
+You’ll want to perform the more important activity first and then the next if you can't find out what's delaying your Mac from processing these events. I can rapidly hit both and the system is updating each in rapid-fire sequence. There's really no delay whether I'm hitting up on brightness or up on both (and down is similarly fast). If you open Activity Monitory - what percentage of the CPU is idle? If you boot to safe mode is it faster? If you quit all the apps and disconnect external displays and all USB items is it faster? If you reboot is it fast initially? Best outcome might be to set up an automation to automate both operations to have the system go as fast as it can react without your physical delay pushing keys. Or have one key initiate the script to do all the tweaking. You could easily have three or four presets to suit whatever scene you want. This is a software decision as Apple USB keys can be processed far faster than the interface allows with the programmed delay. Make sure you’re not holding shift and option as that requires more presses for the total adjustment (instead of 16 steps, then you have 64 steps of adjustment ).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/472975/why-cant-i-adjust-volume-and-brightness-simultaneously-using-buttons-on-my-mac
 
 ---

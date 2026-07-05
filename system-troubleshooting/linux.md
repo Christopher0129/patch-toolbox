@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6864**
+**总计条目 / Total entries: 6890**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -97170,5 +97170,343 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224778#reply76
+
+---
+
+#### 6865. ReactOS "Open-Source Windows" Project Now Capable Of Running Half-Life 2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uo8128/reactos_opensource_windows_project_now_capable_of/
+
+---
+
+#### 6866. Linux penguin
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uoeuy0/linux_penguin/
+
+---
+
+#### 6867. Phosh 0.56.0 is out
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uo40k8/phosh_0560_is_out/
+
+---
+
+#### 6868. This Month in Ladybird - June 2026 - Ladybird
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1unwaya/this_month_in_ladybird_june_2026_ladybird/
+
+---
+
+#### 6869. PipeASIO 1.2.1 - lowlatency audio driver, now with 32bit support!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uo07wz/pipeasio_121_lowlatency_audio_driver_now_with/
+
+---
+
+#### 6870. MOS (new NAS OS) is now stable 🥳
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uoaqju/mos_new_nas_os_is_now_stable/
+
+---
+
+#### 6871. Play sea of thieves in Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uo7mcf/play_sea_of_thieves_in_linux/
+
+---
+
+#### 6872. [V2EX] [从零到一] 一个小尝试，在小红书赚到 3000 元，实战分享
+
+**问题描述 / Problem Description**:
+前置技能树 先点了 3D 打印技能，能简单操作和理解原理。 术 电商通用入门法则 找新鲜的对标 -> 预售 -> 复制 -> 预期切 10% 的盘子 -> 然后很快迎接死亡。 对标 5 月 15 日， 发现一款 3D 打印好物， 鸡蛋托冰箱贴， 销量 4000 左右， 出现时间大约 1 个半月，个人作品，个人制造，发不出来货，预售模式。 执行 5 月 20 日，准备好了账号，店铺，人设，购买了对标的产品，用买到的产品，直接发帖预售。 5 月 21 日，出单了， 但是我飞到深圳去了，调研一些电子硬件的东西 5 月 22-25 日， 深圳之旅，中途出了好几单 5 月 26 日 回来了，好累，为什么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225149#reply1
+
+---
+
+#### 6873. [V2EX] 开源了 gitb — Rust 多仓库 git 工具，批量操作，超快！
+
+**问题描述 / Problem Description**:
+管着 30 多个仓库，每天 cd 进去 git pull 30 次太烦了，用 Rust 写了个多仓库批量工具 gitb： gitb status # 一眼看所有仓库状态 gitb pull -j 8 # 并行拉取 gitb doctor # 健康检查 比 gita （ Python ）快 3 倍左右，50 个仓库 pull 1.2s vs 4.5s 。有未提交改动的时候 pull 会自动 stash → pull → pop ，不会再报冲突。 安装：cargo install gitb 或 brew install luolin1024/git-batch/gitb GitHub: https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225147#reply0
+
+---
+
+#### 6874. [V2EX] 单个 HTML 静态文件网页版 ACME 客户端，已升级支持申请 Let's Encrypt 的 IP 证书（IPv4、IPv6），手动简单操作即可申请到证书，域名可用 ZeroSSL、Google Trust Services
+
+**问题描述 / Problem Description**:
+在线体验: https://xiangyuecn.github.io/ACME-HTML-Web-Browser-Client/ACME-HTML-Web-Browser-Client.html GitHub: https://github.com/xiangyuecn/ACME-HTML-Web-Browser-Client 这个 html 文件可以直接另存为到本地使用，主要是在需要手动获取证书文件的场景下使用。服务器里正常还是用 acme.sh 等支持自动处理的客户端为主。 Let's Encrypt 早在 去年 7 月 就开始支持 IP 证书，不过只有少部分人能用。 今年 1 月 才开始
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225145#reply0
+
+---
+
+#### 6875. [V2EX] 可能是最好的 Agent 连接浏览器的项目
+
+**问题描述 / Problem Description**:
+一言以蔽之，现在还没有能让 Agent 操作我的浏览器的方案 比如很多时候我想让 Agent 帮我看一个网页、点几个按钮、抓一下登录后的内容，结果就会遇到这些问题： Playwright / Puppeteer 默认是一个全新的浏览器环境，没有我的登录态。 云浏览器就不用说了，完全没用 有些网站就是只有你本机 Chrome 里才是完整可用的：cookie 、localStorage 、扩展、登录态，全都在里面。之前尝试过几个项目： openclaw-broswer-relay: 可以做到，但是只有 openclaw 能用 dotobot: 可以做到但是要连接别人服务器，而且只能读，不能操作浏览
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225086#reply2
+
+---
+
+#### 6876. [V2EX] 哪些因素会导致人低估大语言模型？
+
+**问题描述 / Problem Description**:
+最近我发现个让四个大语言模型出错的问题。就是写个 rrweb-player 的例子。实际比这复杂一点。但是我估计应该跟那个复杂的一点没什么关系。我试了 deepseek 、gemini 、Trae 、没有 Claude code 的 fable 5 。最后那个是中转，真实性未知。最后发现是 rrweb-player 最新版有 bug： https://github.com/rrweb-io/rrweb/issues/1872 。说实话，发现有 bug 之前我对大语言模型真有点失望，发现之后又恢复到不吹不黑的状态了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225083#reply6
+
+---
+
+#### 6877. [V2EX] 关于 个体/一人公司 警惕《ICP 经营许可证》虚假广告
+
+**问题描述 / Problem Description**:
+如果开发的网站全是自己的业务，不需要《 ICP 经营许可证》（增值电信业务经营许可证）。 只有容许第三方入住的平台（淘宝，天猫，京东，拼多多）才需要办理这个证件。 如何二次核实 OP 这个帖子的真实性？请拨打当地通信管理局电话。 如果你在网上刷到任何帖子或短视频，威胁创业必须办理这个证件，请拉黑、曝光、举报。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225069#reply2
+
+---
+
+#### 6878. [V2EX] chatgpt plus 账号网页版工作流心得交流
+
+**问题描述 / Problem Description**:
+发现 gpt plus 网页版会话意外的好用，没有额度限制而且模型强度也高 只是无法使用 mcp cli skills ，想询问水友们有没有专门用网页版来辅助功能开发的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225063#reply6
+
+---
+
+#### 6879. [V2EX] 做了一个给开发者用的在线网络工具箱： IP、DNS、延迟、连通性检测和订阅格式转换都放一起了
+
+**问题描述 / Problem Description**:
+最近整理了一些平时排查网络问题经常用到的小工具，做成了一个在线 稳如狗网络工具箱 . 目前主要包含这些功能： 我的 IP：查看当前 IP 、地区、运营商等基础信息 IP 查询：查询某个 IP 的归属信息，IP 纯净度等 DNS 查询：检查域名解析结果，是否 DNS 泄露 连通性测试：快速判断目标站点是否可访问 全球延迟测试：看不同地区访问延迟 网速测试：做一个简单的网络速度参考 WebRTC 检测：查看浏览器侧暴露的网络信息 订阅格式转换：做一些常见格式转换 做这个工具箱的初衷是，平时排查问题时经常要在多个站点之间来回切换，比如查 IP 、看 DNS 、测连通性、测延迟，每次都比较零散，所以想
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225058#reply1
+
+---
+
+#### 6880. [V2EX] 把 5.5 和 5.4 的 xhigh 做糖果测试对比， 5.5 完败
+
+**问题描述 / Problem Description**:
+做糖果測試，5.5 对比 5.4 完败，感觉是不是有必要切回 5.4 继续用了。。。。 ❯ python codex_candy_eval.py -m gpt-5.4 -r xhigh -n 5 Graded 5/5 correct=4 accuracy=80.0% ❯ python codex_candy_eval.py -m gpt-5.5 -r xhigh -n 5 Graded 5/5 correct=1 accuracy=20.0%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225039#reply9
+
+---
+
+#### 6881. [V2EX] 这几天用 AI 撸了个 PDF 翻译平台，没写一行代码
+
+**问题描述 / Problem Description**:
+先说结论 ：我花了大概五天时间，从产品定位、UI 草图、后端架构、前端页面、迁移脚本、API 文档到上线部署，全程没自己敲过一行代码（也就 git commit -m "..." 自己点的），整出来一个叫「译档」的 PDF 翻译平台。今天来摸个鱼，顺便聊聊我是怎么被 AI 按在地上摩擦的。 这玩意儿是干嘛的 一句话：把 PDF 丢进去，把翻译好的 PDF 拿出来。 具体一点 —— 📄 上传 PDF ，先解析页数和 token ，告诉你"这一份大概要多少积分" 🧾 确认下单 ，冻结积分，跑翻译 worker 🪞 保留版式输出 （ PyMuPDF + Chromium 渲染，不是那种把段落拍扁重排
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225038#reply5
+
+---
+
+#### 6882. [V2EX] eclipse.org 500 无法访问
+
+**问题描述 / Problem Description**:
+梦回刚刚入行的时候
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225034#reply5
+
+---
+
+#### 6883. [V2EX] 警告： AutoBangumi v3.2.2–v3.2.6 连接池 Bug 在 Clash/Mihomo Party 代理环境下可能导致异常磁盘写入
+
+**问题描述 / Problem Description**:
+我想提醒一下使用开源项目 EstrellaXD/Auto_Bangumi 的用户，尤其是运行环境中使用 Clash Party / Mihomo Party 作为代理的用户： AutoBangumi v3.2.2–v3.2.6 期间存在一个连接池相关 Bug ，在特定网络架构下可能触发代理程序持续刷 Warning 日志，从而造成非常高的磁盘写入量。 该问题已在 7 月 2 日 的 v3.2.8 被修复并交付，开发者也确认这是 AutoBangumi 的连接池 Bug 。 如果你曾经在 v3.2.2–v3.2.6 期间运行过 AutoBangumi ，并且代理链路经过 Clash Party
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224986#reply2
+
+---
+
+#### 6884. [V2EX] 一到两年之后 AI 可能会性能过剩，各家将比拼营销和价格
+
+**问题描述 / Problem Description**:
+现在 AI 已经能解决大部分编码工作，一两年之后可能会解决日常全部编码工作，各家厂商可能会需要通过营销和价格来保证自己活下去。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224976#reply14
+
+---
+
+#### 6885. [V2EX] 多亏 AI 现在遇上棘手问题完全不慌
+
+**问题描述 / Problem Description**:
+下午公司 Doris 做一个 Schema Change 的操作，没想到改了两三个小时。 中间 Flink 写入的时候，挂了好几次，不知道什么原因，中间有些数丢了。 按照设想，这种情况应该起任务重新消费一下 Kafka ，但是计算资源和 Kafka 资源都不允许。 就让 AI 写了一个从 OSS 下载原始日志，然后模拟 FLINK 逻辑，离线恢复的程序，又让 AI 梳理了一个相关下游数据恢复的步骤。 吃饭回来，已经搞差不多了，就等我批准往线上数据库导入了。 如果自己搞估计要熬大夜了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224969#reply10
+
+---
+
+#### 6886. [V2EX] 有没有用 curl 8.18.0+的，你们打开外网正常吗（报错 0A000126:SSL）
+
+**问题描述 / Problem Description**:
+如题, 一开始访问 cloudflare 的网站，爆了这个错误，我以为是 cf 的防火墙发力了，开了白名单问题依旧，后面我发现访问 github 也是一模一样的问题，甚至访问任意国外 https 网站都会触发这个问题，目前我测试了下好像被软路由代理过的都不能用 curl 访问 之前我更新 linux 包之前好像还能正常用，好像今天更新所有包之后就不行了 root@fedora:/etc/yum.repos.d# curl https://github.com curl: (35) TLS connect error: error:0A000126:SSL routines::unexpecte
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224957#reply5
+
+---
+
+#### 6887. [V2EX] claude 被封之后尝试国产替代
+
+**问题描述 / Problem Description**:
+尝试用了一下 qoder ，qoder 的模型都是国产几家里面最新的模型，比如 minimax 2.7 ，kimi 2.7 ，glm 5.2 ，deepseek v4 ，qwen 3.7 ，这一点还是比较赞的，不像 trae 。 我有一个 Android 启动器项目，使用模拟器的时候发现 pixel 的启动器在打开 app 抽屉的时候背景不会扩展到状态栏我觉得这个设计比较好，之前是 codex 做的会扩展到状态栏，然后使用了 auto 模式进行修复，考虑到这个功能比较简单 pr 没有仔细看就合并了，等编译到手机上发现背景还是扩展到状态栏了， 改成 qwen3.7 max ，确实不会扩展到状态栏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224903#reply16
+
+---
+
+#### 6888. [V2EX] 如何最大化使用 codex 的额度？
+
+**问题描述 / Problem Description**:
+都是 20 刀档的会员，最近一个多月，发现 claude 单次 5h 额度可以聊很久（ sonnet ），codex 写不了多少代码单次额度就没了（ gpt5.4)。我的体感就是单次 Claude 能做的事情差不多是 gpt 的 1.5-2 倍。 codex 虽然总送重置额度，但是看到周额度还剩余很多又舍不得立刻用。 大家有同感吗，都是咋用的？ 另外 gpt 总是会做需求后，只做单个你说的需求，而不是多思考（举例子，我让他根据文档需求改代码，他就只改代码，而不会自动更新文档状态，claude 基本都不需要你操心，每次都做的比较完整）。有没有什么办法让 codex 能多思考下呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224889#reply25
+
+---
+
+#### 6889. [V2EX] 智普 coding plan 抢不到，有没有什么方法啊...
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224887#reply49
+
+---
+
+#### 6890. [V2EX] 你喜欢注释丰富， Commit Message 详尽，还是反之？
+
+**问题描述 / Problem Description**:
+作为一个大龄 Ops ，喜欢简洁的代码和注释，但是写起帖子又特别碎碎念（开头就有点跑题了 本人算是古法 Vibe Coding 了，基本上除了自己的一个重构小 skill 以外，也没有安装市面上流行的 skill 。 Claude Code 和 Codex 配合其最新模型，在近两个月我前者烧了 170 亿+后者烧了 200 多亿，近四百亿 token （当然缓存命中率在 95.5%+），所以默认是怎样我还是挺清楚的，简而言之就是， Codex 注释很少，Commit Message 你若是不稍稍加点限定，可能就只有标题，body 都没有 Claude Code 狂写注释，一个 feature
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224882#reply29
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7539**
+**总计条目 / Total entries: 7608**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -103772,5 +103772,902 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224838#reply29
+
+---
+
+#### 7540. Why are my app icons all of an app I no longer have installed?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, icons, windows-search | Score: 1 | Views: 61 | Answers: 1 | Created: 2026-07-03
+
+**解决方案 / Solution**:
+Clear the icon cache. This can be done by pressing Windows R , typing (or pasting) ie4uinit.exe -show and pressing Enter , or use a third-party tool that includes icon cleaning, such as free Wise Disk Cleaner (a choice under *Windows System). Then press Ctrl Alt Delete and log out, then log in again. That alone might be sufficient to fix the issue. Verify that files are opened by the correct application. Open Explorer and, for any file showing an incorrect icon, right-click, select Open with... , and set the preferred app there. For shortcuts to the applications themselves, recreate the shortcut to see if the correct icon shows. Right-click on the shortcut, select Properties, copy the destination, and create a new shortcut with that. BTW, the icons appear to be for IrfanView, a safe and useful app that did not cause the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938827/why-are-my-app-icons-all-of-an-app-i-no-longer-have-installed
+
+---
+
+#### 7541. PC overheated while gaming, loud “gunshot” pop, now part of apartment power is out — did my PSU die?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uo98x0/pc_overheated_while_gaming_loud_gunshot_pop_now/
+
+---
+
+#### 7542. Tripple Monitor setup new problems. One always off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uobuzm/tripple_monitor_setup_new_problems_one_always_off/
+
+---
+
+#### 7543. Can not get bios to install a fresh copy of Windows from USB.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uobuf9/can_not_get_bios_to_install_a_fresh_copy_of/
+
+---
+
+#### 7544. Is there a way to wipe my Windows details from a broken laptop I am going to return for a refund?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uo7cgu/is_there_a_way_to_wipe_my_windows_details_from_a/
+
+---
+
+#### 7545. Strange issues with NVME enclosures
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoeer8/strange_issues_with_nvme_enclosures/
+
+---
+
+#### 7546. PC shuts down without warning.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uodcy8/pc_shuts_down_without_warning/
+
+---
+
+#### 7547. Pinned commenter's name appears blank on Youtube
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uobyog/pinned_commenters_name_appears_blank_on_youtube/
+
+---
+
+#### 7548. PC time keeps resetting?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uobxrj/pc_time_keeps_resetting/
+
+---
+
+#### 7549. Bloke at the pub thinks he’s installed a virus on his phone, asked for my help.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1unyuyv/bloke_at_the_pub_thinks_hes_installed_a_virus_on/
+
+---
+
+#### 7550. disk active time at 100% then crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoaemo/disk_active_time_at_100_then_crashing/
+
+---
+
+#### 7551. Cannot restart or shut down my computer when logged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uo6vyj/cannot_restart_or_shut_down_my_computer_when/
+
+---
+
+#### 7552. Windows surface is completely frozen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoeu4d/windows_surface_is_completely_frozen/
+
+---
+
+#### 7553. My bluetooth headphones keep cutting out but it's only when I connect it to my laptop. What could be happening and can I fix it myself or by going to a tech repair shop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoepha/my_bluetooth_headphones_keep_cutting_out_but_its/
+
+---
+
+#### 7554. Is there a way to see my iPad live on my windows laptop as I take notes (notability)?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoemsh/is_there_a_way_to_see_my_ipad_live_on_my_windows/
+
+---
+
+#### 7555. Is anyone else having this issue (Appreciate any input)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoekj2/is_anyone_else_having_this_issue_appreciate_any/
+
+---
+
+#### 7556. Hitching after CPU, MoBo, Ram upgrade?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoej4j/hitching_after_cpu_mobo_ram_upgrade/
+
+---
+
+#### 7557. BIOS stops receiving keyboard input seconds after boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoe651/bios_stops_receiving_keyboard_input_seconds_after/
+
+---
+
+#### 7558. My computer connects to the Ethernet router but not the internet :(
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoe0s1/my_computer_connects_to_the_ethernet_router_but/
+
+---
+
+#### 7559. Mouse skipping/lagging in Valorant
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoe0hr/mouse_skippinglagging_in_valorant/
+
+---
+
+#### 7560. Repairing corrupt files via USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoe075/repairing_corrupt_files_via_usb/
+
+---
+
+#### 7561. Storage Space Still Nearly Full Even After Deleting Pictures
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uodznj/storage_space_still_nearly_full_even_after/
+
+---
+
+#### 7562. Keyboard won’t work after swapping between pc to ps5
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uodpjq/keyboard_wont_work_after_swapping_between_pc_to/
+
+---
+
+#### 7563. Super slow downloads on steam since upgrading to AM5
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uodnsd/super_slow_downloads_on_steam_since_upgrading_to/
+
+---
+
+#### 7564. I have internet access but my wifi doesn't think so
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uodjpp/i_have_internet_access_but_my_wifi_doesnt_think_so/
+
+---
+
+#### 7565. Weekly 'I made a useful thing' Thread - July 03, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1um871s/weekly_i_made_a_useful_thing_thread_july_03_2026/
+
+---
+
+#### 7566. Exhausting
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo6f6y/exhausting/
+
+---
+
+#### 7567. Are you an IT Manager, or an "IT Manager"?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo93g9/are_you_an_it_manager_or_an_it_manager/
+
+---
+
+#### 7568. Cat8
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo1hei/cat8/
+
+---
+
+#### 7569. Feeling guilt for wanting to move companies and a new role
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo4j09/feeling_guilt_for_wanting_to_move_companies_and_a/
+
+---
+
+#### 7570. Can an e-mail sender address be spoofed without any detectable domain errors in the e-mail header?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo1rw1/can_an_email_sender_address_be_spoofed_without/
+
+---
+
+#### 7571. linux guy being asked to do windows entraid stuff with hybrid setup
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uoc55f/linux_guy_being_asked_to_do_windows_entraid_stuff/
+
+---
+
+#### 7572. Entra ID SSO and Ubuntu SSH
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo8sl6/entra_id_sso_and_ubuntu_ssh/
+
+---
+
+#### 7573. Impressed by Lenovo
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unolc7/impressed_by_lenovo/
+
+---
+
+#### 7574. Sysadmin shoes?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo5acz/sysadmin_shoes/
+
+---
+
+#### 7575. Helpdesk trying to move up to SysAdmin
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unvydg/helpdesk_trying_to_move_up_to_sysadmin/
+
+---
+
+#### 7576. Windows File Server Deduplication
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo3h6j/windows_file_server_deduplication/
+
+---
+
+#### 7577. Is anyone buying Server equipment now? How are you doing it!
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unjcfa/is_anyone_buying_server_equipment_now_how_are_you/
+
+---
+
+#### 7578. How to Access Android Enterprise (AFW Setup) in Android Emulator
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo8htu/how_to_access_android_enterprise_afw_setup_in/
+
+---
+
+#### 7579. Winget offline package
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo9sfe/winget_offline_package/
+
+---
+
+#### 7580. People who have worked with a lot of foreign workers, how do you deal with language barriers at work, especially when using technology while communicating?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unymmt/people_who_have_worked_with_a_lot_of_foreign/
+
+---
+
+#### 7581. Simple and cheap Asset Management tool
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo4db0/simple_and_cheap_asset_management_tool/
+
+---
+
+#### 7582. What projects actually helped you get your first co-op?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uo6dfx/what_projects_actually_helped_you_get_your_first/
+
+---
+
+#### 7583. Anyone still setting up Remote Desktop Gateway's on Server 2025?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unhvc8/anyone_still_setting_up_remote_desktop_gateways/
+
+---
+
+#### 7584. Enabling/requiring 2FA (DUO) for Windows account elevation (UAC)?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unprk9/enablingrequiring_2fa_duo_for_windows_account/
+
+---
+
+#### 7585. Best way to restrict AWS/Cloudflare app to specific desktops?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unyrxg/best_way_to_restrict_awscloudflare_app_to/
+
+---
+
+#### 7586. Self hosted Remote Support Replacement
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1unabrr/self_hosted_remote_support_replacement/
+
+---
+
+#### 7587. Nobody told me being the senior gets lonely
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1umqlpw/nobody_told_me_being_the_senior_gets_lonely/
+
+---
+
+#### 7588. Keeper PAM vs CyberArk & Delinea?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1un5ghy/keeper_pam_vs_cyberark_delinea/
+
+---
+
+#### 7589. [V2EX] 真的有人会看「AI 生成/剪辑 + 搬运/矩阵」这种东西吗？
+
+**问题描述 / Problem Description**:
+X 上动不到就推荐冒出来这种中文或其它语言的帖子，说什么「 Codex, Claude + Seedance 批量自动制作视频，搬运，矩阵」类似一堆五花八门的名词，号称靠这样流水线式全自动生产一个月挣几十万、几百万美金，堪比 drug trafficker ，真的可能吗，就算可能，有人看这种视频吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225148#reply0
+
+---
+
+#### 7590. [V2EX] 现在 claude 5x 20x 都是什么价位
+
+**问题描述 / Problem Description**:
+贩子报价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225144#reply0
+
+---
+
+#### 7591. [V2EX] Long Cat 效果如何？
+
+**问题描述 / Problem Description**:
+Long Cat 效果如何？套餐值得购买吗？ GLM5.2 不支持视觉，纯文本有时候不够给力
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225128#reply6
+
+---
+
+#### 7592. [V2EX] 有没有人觉得罗老师的 TNT 生不逢时
+
+**问题描述 / Problem Description**:
+前段时间路过同事发现他做了个小硬件，直接和 Codex 语音交流， 有一种 TNT 的即视感， 如果 TNT 放到今天接入大模型， 会不会是一款不错的产品呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225122#reply10
+
+---
+
+#### 7593. [V2EX] 2026 了加密货币还有前途吗？
+
+**问题描述 / Problem Description**:
+1 ，前几天看到川普上台后靠发币赚了上十亿刀，不知道这样算不算透支币圈信用，毕竟信用是一门货币的根本，加密货币本来就不受主流待见，川普这么搞的后续影响还未可知。 2 ，我只是有些许了解的外行，看币圈第一直觉就是水太深，很难有直观数据支撑某个币的涨跌，不清楚圈内大佬都是怎么做的。 3 ，2026 还是入局的好时机吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225094#reply17
+
+---
+
+#### 7594. [V2EX] Project X 即日起严格禁止在中国大陆内使用
+
+**问题描述 / Problem Description**:
+今天在网上看到这么一个关于 Project X 的帖子，说是因为“由于中国翻墙娱乐圈傻逼太多带不动，且几乎无国人捐款反而一直喂国字头 Surge ，以及为了规避风险”。我之前还在 VPS 上装过 3x-ui ，是不是以后这个也不能用来过墙了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225092#reply17
+
+---
+
+#### 7595. [V2EX] 扫地机器人求推荐
+
+**问题描述 / Problem Description**:
+50 平米左右单身公寓，需要吸拖一体最好带水箱的，2000 预算，求好用的扫地机器人，有经验的说说，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225087#reply2
+
+---
+
+#### 7596. [V2EX] windows 使用远控 parsec 控制 mac，使用什么键盘 win+macos 最好用？求方案
+
+**问题描述 / Problem Description**:
+windows 使用远控 parsec 控制 mac ，使用什么键盘 win+macos 最好用？求方案 因为我办公 windows 效率还是更高一些，特别是鼠标键盘到配合，感觉更爽，但是 macos 现在也是平时使用率非常高，加上现在 ai 的应用，经常 windows 控制两台 mac + 其他 windows 但是键盘键位不太一样，Windows 的键盘在使用过程中还是不太方便，有没有大神推荐一款能兼容双系统的好用到键盘，或者什么方案，因为涉及多台不同到系统和电脑 谢谢啦，目前用到罗技 k75m ，感觉手感还可以。只是不兼容 mac ，我经常来回切换。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225082#reply1
+
+---
+
+#### 7597. [V2EX] 网站海外加速方案 [服务器在阿里云深圳]
+
+**问题描述 / Problem Description**:
+非静态网站, 服务器在阿里云深圳, 目前用了阿里云 ESA 需求: - 目前在东南亚访问缓慢 - 可以优先处理东南亚 - 国内还是依旧是重点, 需要优先保证的 问了客服, 让我了解一下阿里云全球加速 GA 各位大佬有什么推荐的好方案吗? 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225079#reply13
+
+---
+
+#### 7598. [V2EX] 国内有没有类似 cf 的测速网站
+
+**问题描述 / Problem Description**:
+请问国内有没有类似 speed.cloudflare.com 的网站？ 背景是刚换了个路由器，打算搞点东西，需要测试一下改动前后对于网络的影响。发现 speed.cloudflare.com 的页面设计和能提供的信息都比较符合需求，奈何在墙内调用时难以反映真实的网络情况（比如下载、延迟）。 国内有没有网站能提供类似的能力。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225076#reply3
+
+---
+
+#### 7599. [V2EX] 车祸中窥探中国医院的专科细分。
+
+**问题描述 / Problem Description**:
+最近遇到车祸了，还挺严重。 本身有 tarlov 囊肿，但 90%的病患是无症状伴随。我老婆也一样。 车祸后，骶骨骨折，囊肿内出血膨胀压迫神经，也有可能骨折外伤导致神经部分断裂。 简言之：大小便功能障碍+尾巴骨麻木。 我这几天，跑了 4 家医院，陆陆续续 13 个医生。 非病急乱投医，因为这个情况不光要骨科，泌尿科，还得神经外科综合会诊。 其中发现，医生的意见几乎各不相同。 神外：有说保守，不用管，手术也要复发，能不做尽可能不做。 也有神外：你这个很复杂，不好说，让我去挂骨创科进一步诊断。 骨肿瘤：帮你约床位，你这要手术处理的。 脊柱外科：你这个大部分人都是共生，不需要处理，你还是继续观察吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225056#reply51
+
+---
+
+#### 7600. [V2EX] 请问怎样让 GVim 进入或退出插入模式自动切换成英文输入状态？
+
+**问题描述 / Problem Description**:
+我的 GVim 进入或退出插入模式会自动切换成中文输入状态， 我发现启动 GVim 后连续按两次 ESC 后进入插入模式可以保持英文输入状态。 GVim 输入法相关配置： set iminsert=0 set imsearch=0 set noimcmdline autocmd InsertEnter * set iminsert=0 autocmd InsertLeave * set iminsert=0 GVim 和输入法版本： Vim 9.2.782 Weasel 0.17.4 请问怎样让 GVim 进入或退出插入模式自动切换成英文输入状态？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225053#reply0
+
+---
+
+#### 7601. [V2EX] Claude desktop 会因为各种原因中断
+
+**问题描述 / Problem Description**:
+主要是这些类型： Connection problem (Check your internet connection, VPN, or proxy and try again.) Authentication failed (Sign in again to continue.) Server Error (API Error: Connection closed mid-response. The response above may be incomplete.) 只能发生此类错误时发“继续”。 怀疑是网络原因，但 codex 不会停止工作，碰到问题会不断尝试，所以没遇到过 codex
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225052#reply0
+
+---
+
+#### 7602. [V2EX] 起猛了，找不到土区 Appstore 的登出按钮了
+
+**问题描述 / Problem Description**:
+我记得留在这里有个红色按钮的 好像是更新 26.5.2 后就不见了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225043#reply2
+
+---
+
+#### 7603. [V2EX] 咱们论坛允许 agent 自己运营账号嘛，哈哈
+
+**问题描述 / Problem Description**:
+弱弱问一下，agent 运营账号，咱们站允许这个不，还是说发现就封号，啊哈哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225040#reply20
+
+---
+
+#### 7604. [V2EX] 求大佬推荐一部安卓主力机，迫于穷和平时打游戏打算苹果转安卓了
+
+**问题描述 / Problem Description**:
+需求如下： 1.能用五年愉快玩耍绝区零、星穹铁道、重返未来 1999 这类游戏，前三年全开画质，第四五年降低画质玩 2.摄像头日常拍美食和单据类，其它无所谓 3.日常出门轻度游戏刷小红书，不用带充电宝就行 4.广告尽量少点或者能手动关，尽量别更新系统还得再设置 5.售后体验好一些，别正常问题来回扯皮 6.不要某米某为
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225035#reply6
+
+---
+
+#### 7605. [V2EX] 苹果密码的 2fa 为啥有的有图标，有的就没有
+
+**问题描述 / Problem Description**:
+比如 google 和 v2 有，但是微软的就没有，黑 x 也没有图标
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225030#reply1
+
+---
+
+#### 7606. [V2EX] 电视机推荐
+
+**问题描述 / Problem Description**:
+V 友们，老家电视坏了，想给家里买台新的，主要是爷爷奶奶看，目前只看了雷鸟鹏 7 ，1500 左右也刚好符合预算，还有其它可以入手的型号吗？麻烦大家推荐推荐。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225028#reply10
+
+---
+
+#### 7607. [V2EX] 小白用 npm.js 做了个小工具，求问怎么便宜地让任何人都可以通过网址访问？
+
+**问题描述 / Problem Description**:
+请问现在有什么便宜的云供应商么？ Web 领域纯小白一个。 初期的访问量应该不大。目前有 3-20 几个人会用。 因为有文本输入功能，为防止乱写敏感内容和消耗 token ，是不是还应该加上微信扫码或手机短信验证这样的实名制功能？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225020#reply14
+
+---
+
+#### 7608. [V2EX] 腾讯的百万意外险优选版我这要 400 一年
+
+**问题描述 / Problem Description**:
+是不是大数据杀熟了，你们的价格是多少
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225018#reply4
 
 ---

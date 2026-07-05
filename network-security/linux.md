@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2307**
+**总计条目 / Total entries: 2308**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -36030,5 +36030,17 @@ It was discovered that ncurses incorrectly handled certain terminfo entries in t
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2496879
+
+---
+
+#### 2308. CVE-2026-14781 - keycloak-services: keycloak-services: OIDC email_verified claim incorrectly…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: OIDC email_verified claim incorrectly applied to userinfo email. Bugzilla: 2497118
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497118
 
 ---
