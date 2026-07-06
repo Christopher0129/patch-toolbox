@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6890**
+**总计条目 / Total entries: 6922**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -97508,5 +97508,421 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1224882#reply29
+
+---
+
+#### 6891. Why should I install python3-pip, when I can just run `python3 -m ensurepip`?
+
+**问题描述 / Problem Description**:
+Tags: debian, python, pip | Score: 2 | Views: 190 | Answers: 2 | Created: 2026-07-05
+
+**解决方案 / Solution**:
+Your first recourse for package specific questions should always be the package itself, otherwise you're just asking for documentation to be read at you (which is a waste of time for all concerned). The reason for python3-pip's existence in Debian and its relationship with ensurepip is documented in the package: From /usr/share/doc/python3-pip/README.Debian : pip on Debian is a crazy mess due to upstream's vendorizing of several packages, which violates both the DFSG and Debian Policy. To resolve this conflict, we package up these dependencies as PEP 427 wheels, essentially zip files containing importable pure-Python code and a metadata directory. These wheels live in separate python--whl binary packages, and are installed into /usr/share/python-wheels . These wheels are not used when running pip outside of a virtual environment (venv). In that case, it pip just uses the normal sys.path, on which it finds the dependencies installed into Debian's system Pythons in the normal way. However, an "outside-the-venv" pip cannot be used to install packages inside the venv, so the two main venv creation tools, virtualenv and pyvenv , make sure that the virtualenv has a pip executable, but of course in different ways. It gets trickier inside a venv, which by definition may be isolated from the system Python's sys.path. In this case, Debian's inside-the-venv pip prepends the paths to the -whl files onto the front of sys.path, so that imports will Just Work and upgrades to the dependencies inside the venv won't break pip. (Yes, this can and has happened and we need to guard against it.) It's important to note that determining whether you are in a venv is a heuristic labyrinth, because the things you need to check are different between Python 2 and Python 3, and between virtualenv and pyvenv (Python 3-only). I think we've got it right . Python 3.4 introduced a module called "ensurepip" which is used - as its name describes - to ensure that there is a pip executable inside the pyvenv created venv. ensurepip does this job by copying all of the dependent .whl files from /usr/share/python-wheels into the venv, where pip will look to put then on the front of sys.path. See Debian Python Policy $3.2 for additional details. As of python3-pip 20.1-1, sys.base_prefix is used by Debian's pip to find the unvendored wheels, so they are no longer copied into a virtualenv when it is created. To locally install these wheels in a virtualenv using pip, you can use the --extra-search-dir option in pip to specify /usr/share/python-wheels as a location to install from. See
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806614/why-should-i-install-python3-pip-when-i-can-just-run-python3-m-ensurepip
+
+---
+
+#### 6892. LinuxUser magazine featured my open-source app in the front page of their July issue
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uoun8z/linuxuser_magazine_featured_my_opensource_app_in/
+
+---
+
+#### 6893. DXVK 3.0.1 improves Proton compatibility for older Direct3D games
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1up43ob/dxvk_301_improves_proton_compatibility_for_older/
+
+---
+
+#### 6894. Frame - FFmpeg GUI Rust rewrite
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upa7n1/frame_ffmpeg_gui_rust_rewrite/
+
+---
+
+#### 6895. Democratizing Abandonware
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1up521n/democratizing_abandonware/
+
+---
+
+#### 6896. What's with the GNU Parallel release names?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uowen9/whats_with_the_gnu_parallel_release_names/
+
+---
+
+#### 6897. 4K @ 60 FPS USB Video Capture Finally Becomes Less Problematic On Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uoommq/4k_60_fps_usb_video_capture_finally_becomes_less/
+
+---
+
+#### 6898. Why do so many Linux apps ship with an incorrect or missing StartupWMClass?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uohi10/why_do_so_many_linux_apps_ship_with_an_incorrect/
+
+---
+
+#### 6899. idu v0.1.0 is here with more features, same performance and binaries!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1up25ie/idu_v010_is_here_with_more_features_same/
+
+---
+
+#### 6900. That's hell lot of improvement in linux gaming,what do you think latency improvement are for real? Kernel 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upaqi7/thats_hell_lot_of_improvement_in_linux_gamingwhat/
+
+---
+
+#### 6901. Edit photos with presets and raw image?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upa0jv/edit_photos_with_presets_and_raw_image/
+
+---
+
+#### 6902. [OC] vmi - a cli tool to verify media file integrity
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uofr3u/oc_vmi_a_cli_tool_to_verify_media_file_integrity/
+
+---
+
+#### 6903. [V2EX] 开 GPT Pro5X 怎样最划算？
+
+**问题描述 / Problem Description**:
+plus 有些不够用了，想开 5x ，啥姿势最划算呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225421#reply4
+
+---
+
+#### 6904. [V2EX] fable5 下周就没了，怎么办
+
+**问题描述 / Problem Description**:
+我在中转站用的 fable5 ，下周如果 A 社作死，那就真的好尴尬。 opus 现在用着好蠢，明显降智 5.6 到现在也还没消息，5.5 也有明显感觉降智。。。 下周怎么办啊。。。 大家有什么想法呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225420#reply4
+
+---
+
+#### 6905. [V2EX] sql server 导出的 bak 文件有 60g 怎么才能变成 Excel 给领导看
+
+**问题描述 / Problem Description**:
+如题，高校信息化部门，审计要求提供 6 年的消费记录，导出来 60G 怎么才能变成表格啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225416#reply2
+
+---
+
+#### 6906. [V2EX] 腾讯会议录像网页逐字稿提取代码
+
+**问题描述 / Problem Description**:
+古法手写了一份腾讯会议录像网页逐字稿提取代码，打开腾需会议录像网页后粘贴到浏览器控制台运行即可得到整理好的全量发言文本 var el = document.querySelector(`.minutes-module-paragraphs`) var propsKey = Object.keys(el ).find(key=>key.startsWith('__reactProps$')) var props = el[propsKey] const data = props.children.props.data const text = data.map(el=>`${el?.speake
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225409#reply0
+
+---
+
+#### 6907. [V2EX] 智谱 ZCode ACP 桥接
+
+**问题描述 / Problem Description**:
+平时开发都是在 Zed 里通过 ACP 使用 Claude Code 和 Codex ，最近试了试智谱的 ZCode 感觉还不错，可惜它不支持 ACP ，没法直接在 Zed 中使用。 于是周末 vibe coding 了一个 ACP server ，把 ZCode 的 cli 桥接成标准的 ACP agent 。 简单说就是： 把 ZCode 后端的 stdio JSON-RPC ，转换成 ACP 的 stdio JSON-RPC ，中间做一层协议翻译 流式输出、工具调用、权限弹窗、session resume 这些都支持了 /compact 、 /mode 这些斜杠命令也都支持了 配置很简单
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225407#reply0
+
+---
+
+#### 6908. [V2EX] 来自镇上的我，不知道什么是网络公司。
+
+**问题描述 / Problem Description**:
+问题可能有点傻，但是一直困扰我几年了。 我看过很多写字楼， 大部分都是 xx 网络公司， 但是推门一看大部分一个人没有。 有人的，比如： 快贷网络公司，实际就是打电话，一个程序员没有。 爱空间网络公司，实际就是装修公司，估计也是一个程序员没有。 百度 这个我知道，确实见过程序员 aws 这个也知道，也接触过几个程序员 关键就是 知名公司(真网络公司，有程序员) 问题是大部分 xx 网络公司，比如几个程序员的，很多年我一个也没见过。 我想破脑袋，也没想明白，究竟是做什么的，既能养活几个程序员，又是小公司。 各位大佬能一句话描述 “究竟是做什么的？”（不需要涉及任何隐私。不需要带公司名字。）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225401#reply9
+
+---
+
+#### 6909. [V2EX] 肥波 5 这个模型感觉训练方向有点怪啊
+
+**问题描述 / Problem Description**:
+用了两天，强是强，但总感觉很怪 就是最近两天的事，我在玩一个 Steam 很小众的一个刷子游戏，然后这个游戏有自动战斗，但是地图的下一关都需要手点，导致没法让它在后台自动刷，很难受 于是我在想能不能让 AI 帮我给这个游戏加一个自动过图的功能，先让 Codex 尝试，简单说了下背景和告诉它游戏目录，让它开干，GPT5.5 折腾了两个多小时，期间确认了很多次：要不要反编译/要不要下载反编译相关的工具/要不要直接改游戏文件等等，最后还是没改成功，它说生效了但我进游戏就是没有 一气之下换成了才恢复的 Fable5 ，然后 Fable5 One shot 完成了这个需求，一次没有和我确认 - 直接定位
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225396#reply2
+
+---
+
+#### 6910. [V2EX] [求助] 男生嘴角两边长毛，拔不掉太捉急（忍不住要拔），求推荐工具/方法
+
+**问题描述 / Problem Description**:
+电动剃须刀看起来对于这里的毛刮不干净。 我之前忍不住强行手拔，网上查了下： 强行拔 = 断在毛囊里 → 红肿、毛囊炎、胡须往肉里长（内生须） 搞得嘴角两边的脸部经常发红也难看。 请教， 兄弟们是咋处理的？ 问了 AI 推荐手动吉列的剃须刀说刮得干净
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225386#reply14
+
+---
+
+#### 6911. [V2EX] 嘲笑别人的 deepseek 偷跑 100 元后，我被偷跑了 2700 元
+
+**问题描述 / Problem Description**:
+一个月前社区有篇帖子《 大家抓紧看看 deepseek 开放平台有没有异常 apikey! 》，我在一楼对楼主贴脸开大，没想到这么快就轮到我自己了，区别是我被偷跑了 2700 元，是我嘲笑对象的 27 倍。 我被偷跑的平台并不是 deepseek ，而是杭州的另一 LLM 厂商，为了避免麻烦，隐去名字了，下面就叫它杭州厂。 事情是上个月发生的，然而时至今日，我仍然不知道我的 apikey 为何被盗，也请大家帮我分析分析。 我厂是个小作坊，主用火山的豆包模型，杭州厂是故障备份，系统按请求结果自动切换主备。我们每天在火山大约消耗 1 亿 token ，杭州厂这边则是零零星星，一个月消费一两块。 6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225382#reply20
+
+---
+
+#### 6912. [V2EX] 试用 hy3，感觉不错
+
+**问题描述 / Problem Description**:
+我的 agent 接入的是 glm 5.2 ，刚刚腾讯推出了 hhy3 的正式版，而且可以免费还用。有几个感受。 很快，不卡顿，可能是因为模型小 感觉中文的训练数据很多，一些财经数据源倾向使用中文 agent 场景完全可用，感觉调用工具的成功率比 deepseek v4 pro 高。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225378#reply20
+
+---
+
+#### 6913. [V2EX] 分享下用了几个月的 web 管理 ai agent 方案
+
+**问题描述 / Problem Description**:
+duckterm-web 最天然的 Ai 沟通方式，方便分屏 划水摸鱼 4 月写的小玩意，日常用了几个月，方便解决自己的痛点. Mac brew install ducksee/tap/duckterm-web brew services start duckterm-web Linux curl -fsSL https://raw.githubusercontent.com/ducksee/duckterm-web-releases/main/install.sh | sh 功能较多，简单介绍几个 低内存批量会话、项目分组、机器分组、ssh 接入等 批量管理 ssh 上的 agent 或者普
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225374#reply10
+
+---
+
+#### 6914. [V2EX] 开源一个自己写的项目: UFO, Unified Fleet Orchestrator / 统一舰队编排引擎
+
+**问题描述 / Problem Description**:
+GitHub: https://github.com/fengsi/ufo 官网: https://getufo.dev 愿景是打造零人工参与的 AI 编排平台（循环工程）🦾🩶 网页 Rover 任务 肝了快一个月，平时用来做一些项目的 agents 统一编排。同一个 rover 可以无限注册到任意 hub 并同时在线，而不同公司、团队的 hub 注册互不影响
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225331#reply7
+
+---
+
+#### 6915. [V2EX] 有因为 Cursor 同时注册多个账号被封的情况吗？
+
+**问题描述 / Problem Description**:
+现在每个月要用 1200 刀左右，如果用邀请制度购买的话，可以拿到 50%折扣+25$返现。 四舍五入比直接采购 Aws 的 API 还划算的多。 我现在注册了 4 个 200$账户在同一设备切换使用 （按月订阅后取消自动续费的方式），但是担心封号风险。 我似乎没有明文找到这个条款，是否有因为这个原因被封号的，请教一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225310#reply0
+
+---
+
+#### 6916. [V2EX] 关于火山引擎 coding plan 里的 ds 和 glm5.2 模型 为什么不支持上传图片
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225303#reply10
+
+---
+
+#### 6917. [V2EX] glm teem 订阅卡吗
+
+**问题描述 / Problem Description**:
+如题如题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225276#reply0
+
+---
+
+#### 6918. [V2EX] Claude code 需要 kyc 了 ，路堵死了。
+
+**问题描述 / Problem Description**:
+上周被封了，claude code 今天尝试尝试新号注册订阅，付款时卡需要 kyc 。 这，只能用 codex 了，还是 cc 用的顺手🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225269#reply13
+
+---
+
+#### 6919. [V2EX] HubProxy 删库了，有没有人知道是啥情况
+
+**问题描述 / Problem Description**:
+一直用这个搭建的 docker 镜像代理，今天说更新一下发现报错，一看 github 都 404 了。 https://github.com/sky22333/hubproxy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225267#reply0
+
+---
+
+#### 6920. [V2EX] Codex Plan 模式下的自动抉择如何关闭？
+
+**问题描述 / Problem Description**:
+现在新版 Codex CLI 的 Plan 模式的 Questions 会超时自动选择，有办法关闭吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225264#reply0
+
+---
+
+#### 6921. [V2EX] opencode 免费模型是有额度限制的么?
+
+**问题描述 / Problem Description**:
+用 opencode 免费模型写代码, 会遇到 Free usage exceeded, subscribe to Go, 切换其他免费模型也不行, 只能等倒计时结束 我还以为不限量呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225259#reply15
+
+---
+
+#### 6922. [V2EX] 各位平时用 codex 都用什么 skill
+
+**问题描述 / Problem Description**:
+我先来,最常用的有 build web apps 和 superpowers
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225240#reply2
 
 ---

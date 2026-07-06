@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6511**
+**总计条目 / Total entries: 6561**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -88931,5 +88931,655 @@ You’ll want to perform the more important activity first and then the next if 
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/472975/why-cant-i-adjust-volume-and-brightness-simultaneously-using-buttons-on-my-mac
+
+---
+
+#### 6512. MacOS Native screen sharing even while updating OS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1upa8fa/macos_native_screen_sharing_even_while_updating_os/
+
+---
+
+#### 6513. Fell for Robot Verification Terminal Malware--feeling Stupid
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up003t/fell_for_robot_verification_terminal/
+
+---
+
+#### 6514. Print remotely from an iOS device to a printer connected to my Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up9pib/print_remotely_from_an_ios_device_to_a_printer/
+
+---
+
+#### 6515. Struggling to understand the Photos App and file management in general. Please help an old geezer!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up0l20/struggling_to_understand_the_photos_app_and_file/
+
+---
+
+#### 6516. Needing help ejecting flash drive, receiving "one or more programs may be using it" message
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoxp4t/needing_help_ejecting_flash_drive_receiving_one/
+
+---
+
+#### 6517. No Notification Banners
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uovxf0/no_notification_banners/
+
+---
+
+#### 6518. dead zones between monitors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up8152/dead_zones_between_monitors/
+
+---
+
+#### 6519. Blu-ray burning w M1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uox5oq/bluray_burning_w_m1/
+
+---
+
+#### 6520. MacBook Air m1 overheating in chrome Google meets.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uozsnx/macbook_air_m1_overheating_in_chrome_google_meets/
+
+---
+
+#### 6521. After updated to macOS 26.5.2, my system data suddenly droped to 8GB.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uox4h5/after_updated_to_macos_2652_my_system_data/
+
+---
+
+#### 6522. Is there a way to add a default send delay in macOS Mail?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoqxes/is_there_a_way_to_add_a_default_send_delay_in/
+
+---
+
+#### 6523. Expanded Notch Usage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up5y6p/expanded_notch_usage/
+
+---
+
+#### 6524. Best Widget app?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoi8yi/best_widget_app/
+
+---
+
+#### 6525. with a board-prep ai agent the metric that matters isn't the deck, it's whether the numbers reconcile without you
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up7clj/with_a_boardprep_ai_agent_the_metric_that_matters/
+
+---
+
+#### 6526. i have a changing symbol even though i dont have a power cable attached to my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uovck4/i_have_a_changing_symbol_even_though_i_dont_have/
+
+---
+
+#### 6527. Made a huge mistake
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1up4xr2/made_a_huge_mistake/
+
+---
+
+#### 6528. MacBook Pro M4 suddenly stopped outputting to my Samsung G9 49" OLED
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uoj0pu/macbook_pro_m4_suddenly_stopped_outputting_to_my/
+
+---
+
+#### 6529. Is there a way to stop Finder from activating when I click on the Desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uosyj7/is_there_a_way_to_stop_finder_from_activating/
+
+---
+
+#### 6530. [V2EX] macos 27 使用测试版的朋友们讲一下,UI 现在好看么?协调一致么?
+
+**问题描述 / Problem Description**:
+感觉 apple 为了改变而改变,频繁的改变界面,搞出一堆毛病,难看的要死 windows 也是,现在的 win11 还不如 windows10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225126#reply13
+
+---
+
+#### 6531. [V2EX] 继 ClickMate（右键大师）后又开源了一个新的 macOS 原生效率工具
+
+**问题描述 / Problem Description**:
+前几天 vibe 了一个 macOS 的右键菜单工具： https://github.com/Funnyrz/ClickMate 今天把之前 vibe 的另一个工具也开源了，名字叫 HoldMac （文件中转桶）。 HoldMac （文件中转桶）是一个轻量的原生 macOS 菜单栏应用，为 Finder 文件拖拽流程提供临时中转区。 当你在 Finder 中开始拖拽文件时，HoldMac 可以在屏幕顶部附近显示一个悬浮中转桶。把文件先拖进中转桶，切换到目标文件夹后，再从中转桶拖出即可复制或移动。应用只保存临时文件引用；文件进入中转桶时不会复制文件内容。 开源地址: https://github
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225108#reply4
+
+---
+
+#### 6532. [V2EX] vibe 了一个 macOS 上访达右键菜单增强的应用
+
+**问题描述 / Problem Description**:
+前几天 v 友 @ bush911 发帖问 mac 上访如何快速地新建 txt 文件 刚好我也有类似的需求，于是，codex 直接干了一个应用 代码地址: https://github.com/Funnyrz/ClickMate 下载地址： https://github.com/Funnyrz/ClickMate/releases/download/v1.0/ClickMate-unsigned.dmg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224810#reply6
+
+---
+
+#### 6533. [V2EX] macOS 27 beta 2 一直提示应用内存不足
+
+**问题描述 / Problem Description**:
+请教各位 V2 吴彦祖，这是什么情况？这两天频繁出现，不知如何应对？ 技术小白，又喜欢当小白鼠😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224749#reply20
+
+---
+
+#### 6534. [V2EX] 几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件
+
+**问题描述 / Problem Description**:
+如题。 我目前是打开文本编辑器新建后设置格式再另存。始终觉得不方便。 网上搜索发现有自动操作的教程，可能太笨了没有成功过。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224166#reply104
+
+---
+
+#### 6535. [V2EX] mac 的外接显示器要完美必须 5K 吗？
+
+**问题描述 / Problem Description**:
+是这样，我有台 32 寸 4K 显示器，连上 14 寸 macbookpro 后（ 64G 内存）总是用着用着就开始卡，一看 window server 占了内存快 30G ，问了 gpt 说是因为 4K 显示器 hipdi 缩放是不能整数缩放，导致有 bug 内存泄露。我现在用 betterdisplay 选择了分辨率，重启后现在用了半天了，windowserver 现在是 5.66G ，暂时不卡，不知道能坚持多久，我的问题是： （ 1 ）对于 4K 显示器，是否有别的方法避免我这个问题。 （ 2 ）如果必须得上高分辨率，比如 27 寸 5K ，32 寸 6K ，有什么平替推荐么，jd 看到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225314#reply48
+
+---
+
+#### 6536. [V2EX] 各位的梯子🪜 平均每个月流量使用多少？
+
+**问题描述 / Problem Description**:
+包括 Mac 💻 和 iPhone 📱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225261#reply74
+
+---
+
+#### 6537. [V2EX] 出个人闲置电脑
+
+**问题描述 / Problem Description**:
+不干程序员了 出电脑了 19 款 mbp 16 寸款 i7 16+512 功能正常 24 款 mac mini m4 32+500 功能正常 箱子都在 最好可以西安当面交易 异地可以走咸鱼，可以 vx 看 看好之后不退
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225258#reply19
+
+---
+
+#### 6538. [V2EX] [送永久激活码]RightX 增强你的 Mac Finder 右键
+
+**问题描述 / Problem Description**:
+RightX：让 Mac Finder 右键菜单更强大 RightX 是一款 macOS Finder 右键增强工具，让常用文件操作不用离开当前文件夹。 主要功能： 打开常用位置：用户目录、桌面、下载、文稿、应用程序、自定义路径 新建文件：文件夹、TXT 、Markdown 、README 、JSON 、HTML 、CSS 、JS 、Python 、Swift 、Shell 、gitignore 复制/移动：一键复制或移动到桌面、下载、文稿、自定义文件夹 复制路径：完整路径、文件名、所在文件夹路径、终端路径、Markdown 链接 批量改名：添加前缀/后缀、查找替换、按序号重命名、大小写转换
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225211#reply127
+
+---
+
+#### 6539. [V2EX] 周末 vibe coding 了一款高情商改写的 Mac App，名字叫 Mellow（米洛）
+
+**问题描述 / Problem Description**:
+关于开发 Mellow 的心路历程 日常生活中，我经常使用语音识别功能帮我记录生活或者工作中的灵感，但现在的语音识别或者输入法仅仅实现了转写，并没有把其中的 emm 、a 等助词以及不清晰的表达分场景优化出来。比如家庭场景怎么说话更暖心、恋爱场景怎么表达更深情、办公场景怎么说更能得到客户的认可。 我也用过 typeless ，觉得还是没有办法设置场景并即使的表达，体验上也不太顺滑。 于是我决定自己开发一款 app 出来，虽然我完全不懂 Mac app 开发，但有 AI 这事儿也好办。 Mellow 的形象是怎么设计出来的 我觉得这个 app 的形象应该是一团软软的棉花糖， Mellow ＝ m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225141#reply6
+
+---
+
+#### 6540. [V2EX] appstore 下载的软件卸载后为什么没有选项从已购列表里删除
+
+**问题描述 / Problem Description**:
+已购列表里只有隐藏，没有删除选项，虽然可以通过联系多位 apple 支持协助后删除，但提供删除选项不是更简单么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225070#reply9
+
+---
+
+#### 6541. [V2EX] 求助，苹果的家庭成员屏幕时间管理太垃圾了，完全没法展示儿童实际使用时间
+
+**问题描述 / Problem Description**:
+开了家庭共享，由监护人管理儿童的屏幕使用时间，能管理但是无法展示实际使用时间。 大人的设备： macOS 26.5 macOS 15.7.8 iPadOS 15.7.8 iPhone 26.5 儿童的设备： macOS 26.5 iPadOS 15.7.8 iPhone 15.7.8 现在是给小朋友的设备设置了屏幕使用时间，不管从大人的哪台设备上修改时间设置，也确实能真正影响到小朋友的设备。但是大人所有的设备，包括小朋友自己在设备之间居然都没有一台能正常显示小朋友的设备使用时间。 比如小朋友 iPad 使用了 2 小时，但是除了他自己的 iPad 能正确显示外，其它所有设备（包括他自己的）都显
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224960#reply3
+
+---
+
+#### 6542. [V2EX] 7 号下单的 MBA，这周告之被退单了，要重新下。
+
+**问题描述 / Problem Description**:
+公司 17 号找供应商下单了 MBA ，这周突然想起 25 号升价了，问一下有没影响，告之被退单了。 要重新下单，升价 1500 元，并且货期比之前慢。 看到有人发贴说收不到货，请做好被退单或者收到“旧机”的心理准备。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224683#reply15
+
+---
+
+#### 6543. [V2EX] apple 全系涨价前买的 mac mini m4 已经 40 天了还未发货
+
+**问题描述 / Problem Description**:
+苹果淘宝官旗店铺买的 24+512 40 天了，还没发货，看评论有人说店铺要求加价 2500 才发货，我都震惊了，不知道真假唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224664#reply37
+
+---
+
+#### 6544. [V2EX] Apple 什么时候才会考虑把 Mac 上的刘海儿去掉
+
+**问题描述 / Problem Description**:
+手上一台初代 touchbar 13 寸、一台 15 年信仰灯版 15 寸老干部 上班用公司 M1pro 13 寸 一直想买个新的自己用，但是不喜欢 mac 上有刘海儿，苹果啥时候才能干掉刘海儿啊。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224452#reply44
+
+---
+
+#### 6545. [V2EX] 发现了一个面向 AI API 中转站的开源监控及专属网关管理系统： TokHub
+
+**问题描述 / Problem Description**:
+原帖 https://x.com/yaojingang/status/2074127139306455492 原帖内容： 这是一个面向 AI API 中转站的开源监控及专属网关管理系统：TokHub 迭代了一个月，和 @ vista8 讨论后，我们决定开源给大家，欢迎下载本地部署，也可以直接使用 （文末附 GitHub 链接和 TokHub 网址） 核心做了几层能力： 1 、公开监控和通道详情 可以看已监测的 API 通道的状态、成功率、延迟、模型、价格和健康评分 2 、L1 / L2 / L3 分层探测 L1 看 DNS 、TCP 、TLS 、HTTP 连通性 L2 看 API Key 、模
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225415#reply0
+
+---
+
+#### 6546. [V2EX] V2 的权重是真的高啊
+
+**问题描述 / Problem Description**:
+刚发的帖子 https://cn.v2ex.com/t/1225369 没过几分钟的样子，我在谷歌搜域名关键词，帖子就给顶到了 top2 ，可问题是我这个域名才提交了不到一周 感觉谷歌算法躺在了 V2 的被窝里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225383#reply1
+
+---
+
+#### 6547. [V2EX] 字节批量申请「咕咕嘎嘎」「香蕉猫」等著作权…
+
+**问题描述 / Problem Description**:
+最近看到新闻说，北京字跳网络技术有限公司登记了网络热梗“咕咕嘎嘎”的美术著作权 还登记了“刀盾狗”、“草地牛”等网络热词的美术著作权 而这些流行的梗图，明明是网友创作的成果 就被字节这么白嫖了 讽刺的是字节公司的使命是：激发创造，丰富生活 把公众的创作力偷到自己家里，叫激发创造？ 张一鸣吃相不要太难看了 https://news.qq.com/rain/a/20260705A08SIN00
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225320#reply0
+
+---
+
+#### 6548. [V2EX] [Emby <- SEO ] 龟仙屋影音库，免费发放一个月观影卡
+
+**问题描述 / Problem Description**:
+🎬 龟仙屋影视库 基于 Jellyfin 搭建，专注于稳定流畅的观影体验。 ✨ 服务特色 • 多入口优化速度(不保证直连稳定) • 纯硬盘服务器架构 • 持续优化播放速度与稳定性 • 自动化资源管理与更新 📚 当前资源规模 电影：6,200+ 电视剧：623+ 剧集：17,000+ 资源仍在持续增长中。 🎞 内容覆盖 • 日番 • 国漫 • 美剧 • 纪录片 • 电影 • 热门剧集 ⚡ 更新速度快 多数资源可保持较快同步更新。 🤖 自助开通 https://t.me/gxwplay_bot
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225289#reply2
+
+---
+
+#### 6549. [V2EX] 做了一个免费的汉字成语查询站，内容是英文的，主要面向海外中文学习人员
+
+**问题描述 / Problem Description**:
+周末做了一个网站： Chinese Idioms 这是一个免费的英文版中文成语查询/学习站，主要给英语用户看。 可以查成语的意思、拼音、来源故事、用法和例句。 用 gpt-image-2 给每个成语生成了一张配图，方便理解； 第一期整理了 300 个成语，后续会持续增加更多成语和主题合集。 欢迎大家帮忙看看：解释是否自然、搜索是否好用、页面信息量是否合适。任何建议都感谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225285#reply2
+
+---
+
+#### 6550. [V2EX] AI 浪潮里，谁来为越来越多的狂欢者买单？
+
+**问题描述 / Problem Description**:
+零、序言 俗话说，一个人的支出就是另一个人的收入。 而在 AI 浪潮里，整个产业链只有两个收入来源： 终端真实需求 和 资本注入 。上游的利润越高、下游亏损越深，资本需要弥补的缺口就越大。 AI 无法改变经济规律。 一、狂欢者的盛宴 2026 年 4 月，英伟达发布了创纪录的财报[^1]: 单季度营收 816 亿美元，**毛利率 75%**。英伟达依然是舞池中最受人敬畏的狂欢者。 2026 年 6 月，美光同样发布了创纪录的财报[^2]: 单季度营收 414 亿美元，**毛利率接近 85%**。虽然几乎每个人都能感受到存储价格上涨带来的痛，但财报后美光股价大涨 16%。美光成了最耀眼的狂欢者。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225278#reply0
+
+---
+
+#### 6551. [V2EX] 云闪付深圳的草台班子
+
+**问题描述 / Problem Description**:
+有奖发票深圳区显示今天中午开始维护，点奖池会跳到微信文档在线表格，有个商银邀请你一起编辑表格........
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225254#reply2
+
+---
+
+#### 6552. [V2EX] codex 又有重置了。。
+
+**问题描述 / Problem Description**:
+大善人啊。。感恩。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225220#reply1
+
+---
+
+#### 6553. [V2EX] 登上 hacker news 首页，我获得了多少访问量
+
+**问题描述 / Problem Description**:
+我开发了一个 gitstock 可以将 github 仓库的 commit 记录转化为 K 线图 https://gitstock.org/ 开发完成以后就在 hacker news 上发布了，很幸运登录上了首页了，获得了很多喜欢，这是我的后台统计数据，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225174#reply2
+
+---
+
+#### 6554. [V2EX] Anthropic 最新的 Sonnet 模型 Claude Sonnet 5 模型在美团浏览器 Tabbit 免费开放
+
+**问题描述 / Problem Description**:
+✦ Claude Sonnet 5 现已在 Tabbit 免费开放 ✦ 现在你可以在 Tabbit 免费使用 Claude Sonnet 5 。 无需配置 API ，也无需订阅付费。只需登录即可开始体验 Anthropic 最新的 Sonnet 模型 https://www.tabbit.ai/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225169#reply4
+
+---
+
+#### 6555. [V2EX] 我在 2026 年买了上一代的 mac
+
+**问题描述 / Problem Description**:
+背景 实在是缺电脑用，ultra 9 285H 的笔记本太卡了，多开浏览器都飘，就想着要不买一台算了。 看了看最近涨价的 m5 系列，pro 涨到了 max 的价格，真的服了 m5 pro 48g + 1t ，要 2.45w, 我没记错的话，上代 max 入门款才是这个价格。 次新 我就想着要不买个上一代吧，结果摩集没货，我上一台就从那买的，当然后面又卖回去了。 我就从其他店铺找，拼夕夕没什么好成色的。 我就从淘宝问商家，因为很多货商家没有直接放到店铺上，得私聊。 问了七八家，终于让我找到一家全新的资源机，m4max 36 1t, 其他的要么是二手，要不成色不好。 价格都差不多，我就买了 乌龙
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225168#reply20
+
+---
+
+#### 6556. [V2EX] 浩浩荡荡的 codex 零元购开始了😭
+
+**问题描述 / Problem Description**:
+如题 字越少事越大👋 明天上班前奥特曼看来不会修了😭 有朋友说，薅羊毛用 AI 心里过意不去咋办？很简单，每次用的时候，默念老佛爷已经帮你付过就好😡 不接受反驳(但也得承认没有 1840 可能二百年后的 llm 前沿也不会出现在神州) bilibili.com/video/BV15TT266EAP 使用教程往期视频也有的 谢谢😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225110#reply8
+
+---
+
+#### 6557. [V2EX] 目前 AI 距离顶级专家还有些差距
+
+**问题描述 / Problem Description**:
+用硬盘挂载为例，比如一块新硬盘，作为数据盘，需要挂载到 /mnt/Data-2 几款主流的 AI ，在把新硬盘格式化后，mkdir /mnt/Data-2 ，然后把挂载信息写入 /etc/fstab ，就完事了。 这里其实有个大隐患，如果数据盘掉了，那么对 /mnt/Data-2 的写入，会直接写穿到系统盘上，原因是当数据盘掉了后，/mnt/Data-2 这个路径依然会存在，而且此时它变成系统盘上的路径了。 顶级专家在 mkdir /mnt/Data-2 ，之后，还会 chattr +i /mnt/cachedata ，这应该属于防止写穿的基本操作，然而目前对于几款主流 AI ，如果你不提防写
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225106#reply4
+
+---
+
+#### 6558. [V2EX] chatgpt team，自动进 k12 工作空间，这两天蹬爽了，无限额度
+
+**问题描述 / Problem Description**:
+原帖链接，会不断有新的空间 ID 冒出来： https://discord.gg/pvfDb9MAq 1.登录这个网站后访问 https://sites.xingjuantech.com/workspace-join 2.登录 gpt 后访问 https://chatgpt.com/api/auth/session 获取 auth.json ，复制 3.粘贴到这边，工作区 ID 填：eb6642e8-b4a6-4652-9c18-67099f2781cc 4.点击加入工作区，成功后刷新 gpt 页面，点击头像可以看到已加入的空间，切换到空间即可使用 gmail 账号可用的空间 ID： Beul
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225096#reply22
+
+---
+
+#### 6559. [V2EX] 头一次发现 Intel NPU 工作了
+
+**问题描述 / Problem Description**:
+用 OpenCode 的时候，第一次发现 Intel NPU 在干活了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225025#reply13
+
+---
+
+#### 6560. [V2EX] 原来 FM 调频转播站晚上会关站
+
+**问题描述 / Problem Description**:
+一听到凌晨 12:05 就会突然没信号，小城仅有的 4 个电台全部离线，没有关站提示，就像跳闸了一样突然变成白噪音了。第一次以为是收音机坏了，换了一个收音机到点还是如此。过了 12 点只能听调幅了，干扰很大，把天线用导线一路引到阳台防盗网上才能收到信号，台灯都没法开呀。 过去听父母说能从收音机听到对岸牧师传教，我还将信将疑，这次确实有收到香港、日本、韩国、俄罗斯的调幅信号，虽然完全听不懂，但这么折腾一番挺有成就感的。 明明记得之前不是这样，高三偷偷用 iPod nano 的收音机听老梁故事会到凌晨也没问题，而且调频电台起码 8 个以上，或许是记混了。那样现在夜班出租车司机岂不是连个收音机都没得
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225024#reply42
+
+---
+
+#### 6561. [V2EX] 今日份的赛博鸡蛋，别忘了领
+
+**问题描述 / Problem Description**:
+https://store.epicgames.com/p/fell-in-love-with-coser-5-514e7c?lang=zh-Hant "Fell in love with coser 5" 是一款真人视频互动游戏。 游戏带你进入主角的世界，你会与 9 位美丽女性有复杂的互动，游戏中没有浪漫元素和感人剧情。 免費特賣截止於 2026/7/13 ，00:00
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224929#reply7
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 899**
+**总计条目 / Total entries: 906**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13180,5 +13180,89 @@ Notepad3 through 6.25.822.1 contains a DLL search-order hijacking vulnerability 
 - https://github.com/rizonesoft/Notepad3
 - https://github.com/rizonesoft/Notepad3/issues/5605
 - https://github.com/rizonesoft/Notepad3/pull/5606
+
+---
+
+#### 900. [webapps] Joomla Extension 4.1.4 - PHP Object injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Joomla Extension 4.1.4 - PHP Object injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52617
+
+---
+
+#### 901. [webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52616
+
+---
+
+#### 902. [local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52615
+
+---
+
+#### 903. [webapps] KeepInMind 0.8.4.2 -  Stored XSS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] KeepInMind 0.8.4.2 - Stored XSS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52614
+
+---
+
+#### 904. [webapps] KNX visualisering - Broken Access Control
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] KNX visualisering - Broken Access Control
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52613
+
+---
+
+#### 905. [local] Windows Defender (MsMpEng.exe) - Race Condition
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Windows Defender (MsMpEng.exe) - Race Condition
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52612
+
+---
+
+#### 906. [webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 -  Reflected Cross-Site Scripting (XSS)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52611
 
 ---

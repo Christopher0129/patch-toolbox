@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7608**
+**总计条目 / Total entries: 7653**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -104669,5 +104669,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225018#reply4
+
+---
+
+#### 7609. Is exFat good FS for 2 TB external HDD if I need full support from Linux and Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoy39p/is_exfat_good_fs_for_2_tb_external_hdd_if_i_need/
+
+---
+
+#### 7610. How do I keep google photos from automatically AI generating slop based on my photos
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoqb5q/how_do_i_keep_google_photos_from_automatically_ai/
+
+---
+
+#### 7611. Need help, new pc keeps crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upaoc4/need_help_new_pc_keeps_crashing/
+
+---
+
+#### 7612. Is this normal clicking? It gets quite loud, currently have a HDD in a external case. (Ironwolf Pro, 12TB - Brand new)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up4nmz/is_this_normal_clicking_it_gets_quite_loud/
+
+---
+
+#### 7613. I unearthed my PC after a year or so (a little less actually but I am not sure) of not using it, and now my steam downloads are beyond slow
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up83kk/i_unearthed_my_pc_after_a_year_or_so_a_little/
+
+---
+
+#### 7614. New APC 425 UPS Battery Connector Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up7310/new_apc_425_ups_battery_connector_issue/
+
+---
+
+#### 7615. Acer Nitro V15 – Pink/Brown Light Bleed Around Screen Edges (Still Under Warranty) – Is This Normal?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up648y/acer_nitro_v15_pinkbrown_light_bleed_around/
+
+---
+
+#### 7616. I spilled a small amount of sweetened tea on my Mechanical keybaord, it suddnely started working again. Am i in the clear?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upbs9y/i_spilled_a_small_amount_of_sweetened_tea_on_my/
+
+---
+
+#### 7617. Security lock down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upbpf6/security_lock_down/
+
+---
+
+#### 7618. I’m stuck on secure boot violation!I need help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upbo08/im_stuck_on_secure_boot_violationi_need_help/
+
+---
+
+#### 7619. FPS drops after playing for a while in my brandnew laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upbnz3/fps_drops_after_playing_for_a_while_in_my/
+
+---
+
+#### 7620. Post Power outage issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upb8xd/post_power_outage_issues/
+
+---
+
+#### 7621. Orange 4G router completely frozen — no DHCP, admin page unreachable, even via ethernet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upb7l0/orange_4g_router_completely_frozen_no_dhcp_admin/
+
+---
+
+#### 7622. Cant connect to ethernet anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upb6tl/cant_connect_to_ethernet_anymore/
+
+---
+
+#### 7623. black screen after windows boots + random restarts while gaming (rtx 3060 ti / driver 610.62)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upaug6/black_screen_after_windows_boots_random_restarts/
+
+---
+
+#### 7624. Need help with external hard drive not connecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upapch/need_help_with_external_hard_drive_not_connecting/
+
+---
+
+#### 7625. Computer won’t connect to Internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upalsz/computer_wont_connect_to_internet/
+
+---
+
+#### 7626. Grey Window pops up on boot Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uoxrvc/grey_window_pops_up_on_boot_windows_11/
+
+---
+
+#### 7627. Windows 11 started crashing a few minutes after loading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up02i9/windows_11_started_crashing_a_few_minutes_after/
+
+---
+
+#### 7628. Does the 4080 Super support 1 OLED and 3 IPS monitors (4 monitors total)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upa1jb/does_the_4080_super_support_1_oled_and_3_ips/
+
+---
+
+#### 7629. Wifi works but Ethernet doesn't?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upa1bv/wifi_works_but_ethernet_doesnt/
+
+---
+
+#### 7630. Chrome sync Auto-Fill URLs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up9uhm/chrome_sync_autofill_urls/
+
+---
+
+#### 7631. Potential Water Damaged Phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up9ttj/potential_water_damaged_phone/
+
+---
+
+#### 7632. phone is getting laggier/slower and idk why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1up9svl/phone_is_getting_laggierslower_and_idk_why/
+
+---
+
+#### 7633. [V2EX] 终于解决困扰我 2 年多的 win10 内存泄漏问题了
+
+**问题描述 / Problem Description**:
+win10 ltsc2021 ，amd 7840h ，32G 内存，无独立显卡，现象是连续开机 15 天内存就会缓慢涨到 90%，重启后重新打软件回到正常 50% 尝试过重装 win10 ltsc 2019 ，win11 ltsc ，win10 精简版，卸载各种软件只保存必须用的那几个，关闭图形加速，关闭这那的，RAMMap ，poolmon ，WinMemoryCleaner......，各种折腾，全都没有用，都认命了 直到 1 个月前，尝试更新了一下 amd 显卡驱动，终于解决了，安装版本是 whql-amd-software-adrenalin-edition-26.6.1-win11-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225180#reply15
+
+---
+
+#### 7634. [V2EX] 一眼 AI 的代码可以等价于有问题的代码？
+
+**问题描述 / Problem Description**:
+今天 B 站 python core dev 码农高天发了个视频 https://www.bilibili.com/video/BV1M7MT6WEwy 里面提了这么两句： - 代码用什么写的不重要。关键它是不是好代码。如果你的代码一眼人就看出来这 AI 写的，说明它并不是好代码，它是有问题的。那你如果 AI 用的好，你应该是可以用 AI 快速生成手搓水准的代码。那就不会有人在意你这个代码到底是怎么生成的。 - (大意）现在看到 PR 说明或 PR 代码有 AI 味道直接关。这种 PR 都不值得深入讨论，你费劲巴拉写很多反馈，对面根本不会听，扭头就喂给 ai 当 promote 了。 你们日常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225430#reply2
+
+---
+
+#### 7635. [V2EX] v 站免费法律咨询～
+
+**问题描述 / Problem Description**:
+想到现在大家对法律需求还是挺大，所以不才也来做个免费法律答疑。 基础信息：base 上海 擅长领域：劳动，合同，刑事都行，之前是干刑事的，这几年做劳动稍微多一点了，尤其是大厂的案件比较多了（最近多的是竞业限制） 有空我就会回复，其实大部分法律问题我觉得都可以 ai 咨询下就基本 ok 了（因为我其实现在 all in ai 了），但是如果真的要去诉讼，可能还是需要专业人士咨询下，所以我觉得我可以起到这个作用～ and ，也帮很多 web3 ，币圈，出海做一些业务咨询，有需求的我也会免费回答的。 我其实最近也自己研究 ai ，github 上也开源了一些案件专用 skill ，如果需要我也会提供
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225422#reply0
+
+---
+
+#### 7636. [V2EX] 有没有适合个人使用的字典的 api
+
+**问题描述 / Problem Description**:
+自己想做个单词本 记录不懂的单词 但是需要在线查询 或者离线词典也行 有推荐么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225403#reply2
+
+---
+
+#### 7637. [V2EX] 有日本家庭 ip，怎么利用？
+
+**问题描述 / Problem Description**:
+目前有日本稳定的家庭 ip 和一个可以一直开机的电脑，有什么办法可以弄一个 vpn ，可以使用这个家庭 ip 呢？ 问 AI 可以使用 wireguard ，但是不知道为啥配置好后连不上。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225394#reply6
+
+---
+
+#### 7638. [V2EX] window 上的微信，保存图片是 heic 格式的，怎么变成 jpg 啊
+
+**问题描述 / Problem Description**:
+公司中某个同事的微信，图片突然变成 heic 格式的了，之前都是 jpg 很多图片上传都不支持 heic 很麻烦 尤其是同一群组中，同一个图片，别人拖拽到桌面或者另存为 都是 jpg 格式，就她的电脑是 .heic window 4.11.几点版本 和微信版本有关系还是和电脑装的插件有问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225384#reply3
+
+---
+
+#### 7639. [V2EX] 提升视频分辨率的解决方案有没有可以支持本地部署的框架
+
+**问题描述 / Problem Description**:
+RT 如我用 AI 生成了一个 480p 的视频，我想把清晰度提升到 1080P 或者 2k 4k ； 有没有开源框架能够支持本地 GPU 来跑的或者租个云服务器也行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225361#reply1
+
+---
+
+#### 7640. [V2EX] 这里还有 40 岁+还在公司上班（非管理岗）的吗
+
+**问题描述 / Problem Description**:
+40 岁+如果没到管理岗，还有工作吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225351#reply7
+
+---
+
+#### 7641. [V2EX] 百度 360 全景有替代的吗
+
+**问题描述 / Problem Description**:
+百度的这个 360 全景我看很多都是至少 4-5 年前的数据了 想问一下大家有替代的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225348#reply2
+
+---
+
+#### 7642. [V2EX] 不想看自媒体怎么办
+
+**问题描述 / Problem Description**:
+我看新闻希望没有自媒体，我觉得自媒体都是垃圾，乱编，或者是旧闻 但是今日头条上面全是自媒体，我现在用人民日报看新闻，这个新闻有点少，但是基本没有自媒体，还有别的新闻软件可以看到真正的新闻吗？就是有机构发的新闻，而不是个人用户发的自媒体？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225345#reply14
+
+---
+
+#### 7643. [V2EX] 存款求助
+
+**问题描述 / Problem Description**:
+大家有什么存款的好去处么，炒股和买房都去做过贡献了。 现在想回归存款，保本为主，之前存的地方小银行众邦上周也出了问题，胆小就撤了。 现在没有其他存款利息高的地方可去了，大家有什么推荐的地方吗？ 支付宝债基也买了，很低，2 月了利息不到 1.5% 招商 1.75%存款也看了，还有其他的么。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225342#reply10
+
+---
+
+#### 7644. [V2EX] 最近有没有去泰国旅游的？
+
+**问题描述 / Problem Description**:
+安全不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225336#reply1
+
+---
+
+#### 7645. [V2EX] 分享一个极限赶飞机不用等的方法
+
+**问题描述 / Problem Description**:
+痛点：国内航班，众所周知，航班延误是常态。如果无脑提前两个小时到机场，就将会有漫长的等待期时间。我找到了下面这种方法，可以参考下，等待时间缩短到 0-30 分钟。仅个人亲测经验分享，如果没赶上飞机，不要怨我哈。 无托运 航旅纵横没有显示延误，直接在值机结束时间提前 5 分钟到出发大厅就行了。基本上 15 分钟就可以过安检并且找到登机口 航旅纵横显示延误，查看前序航班到达时间，前序航班到达时间+30 分钟到达登机口就行了。因为到达+滑行+整备,差不多 50 分钟后，才开始登机。 有托运（没有测试过，欢迎补充）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225334#reply52
+
+---
+
+#### 7646. [V2EX] 有没有用 Devin（Windsurf）的同学，发现内在占用越来越大
+
+**问题描述 / Problem Description**:
+都不敢打开了动不动 5 个 G
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225333#reply0
+
+---
+
+#### 7647. [V2EX] 大家的 giffgaff 能注册 twitter 么？我的好像不行
+
+**问题描述 / Problem Description**:
+区号选择的是+44 手机号填的是 77 开头的十位手机号 但是 twitter 提示：我们无法向你发送短信。请检查你输入的号码。 注册很多别的平台都可以。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225330#reply6
+
+---
+
+#### 7648. [V2EX] 想省点钱，用手机替换 mifi 做移动热点，有解决方案吗
+
+**问题描述 / Problem Description**:
+做仓库监控移动热点用，安卓手机有 2 个问题： 1. 手机热点没有连接会自动断开，有时监控探头静止状态下没有流量，容易断连。 2. 断电没后，电源通电不能自动开机。 有啥办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225325#reply0
+
+---
+
+#### 7649. [V2EX] V 友都是用的什么洗发水？有去屑效果好的推荐吗？
+
+**问题描述 / Problem Description**:
+我每次洗完头，一吹干就会有头皮屑。 干了之后就感觉头皮很紧绷， 然后扣一下就会有那种很大片的头皮屑能从头皮上撕下来。（有点小解压是什么鬼😂） 然后时间长了我发现额头上也出现这种情况了。 很苦恼。 去医院看过一次，开了点涂的药水，但是没啥效果。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225323#reply31
+
+---
+
+#### 7650. [V2EX] 求无手机信号区域儿童定位装置推荐
+
+**问题描述 / Problem Description**:
+其实指海上邮轮 手机信号肯定没有，也没法 24 小时连 wifi 有什么可以相对精确定位的儿童用装置呢？要求手机能看到 如果能控制发声就更好了 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225317#reply8
+
+---
+
+#### 7651. [V2EX] 吃自媒体这碗饭，基本要求是不要怕人骂吧？骂才有流量
+
+**问题描述 / Problem Description**:
+我的微信公众号最近“做实验”性质，写了点两篇还算有点流量的文字，每篇阅读量在 1w-2w 之间，点赞量 200 左右，分享也是 200 次左右。 这是是微信公众号里面阅读量最高的了，但是每次进到后台，都要高血压一下，“你啥也不懂，胡乱写”这种都算是友善的了，有些直接被微信给屏蔽了，有的看了想去和人线下对线。 第一篇的时候还有点激动，等到第二篇慢就习惯了，看着阅读量和广告收入的数字增长，反而会开心。 也能理解 b 站那峰哥的状态了。 另外，自媒体 ai 辅助写作还是挺好的，完全自己从 0 起手，我也知道自己水平了，很难，当然，不能完全是 ai 文字发上去，就像写代码一样，当初一个得力助手挺好的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225307#reply5
+
+---
+
+#### 7652. [V2EX] 请问下 v 友你们是用 opencode 多还是 hermes 多？
+
+**问题描述 / Problem Description**:
+我本人写代码/看开源项目的的时候 用 opencode ，hermes 用在个人助理上，非主力写代码。但是我看不少人也使用 hermes 写代码（可能最终还是 opencode ） 想听听你们的工作流
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225299#reply3
+
+---
+
+#### 7653. [V2EX] 我问个问题，兄弟们有因为用机械键盘手痛的吗？
+
+**问题描述 / Problem Description**:
+我之前上大学的时候是一直用机械键盘的，先是茶轴，后来是红轴，工作了以后有钱了开始买了静电容用，现在回归机械键盘了以后写代码久了会手痛（我已经适应了三个月了，还是有点痛）。之前玩游戏也不会手痛的，现在玩游戏也会有，从手指的第二个骨节到整个手掌又痛又累，第二天没办法完全缓解。我是因为用静电容键盘把手给用退化了吗？我问了 gpt 说是腱鞘炎的前兆.......有没有一样的兄弟，还是说纯粹是我的个人原因
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225293#reply30
 
 ---

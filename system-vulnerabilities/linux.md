@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2166**
+**总计条目 / Total entries: 2188**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -40509,5 +40509,357 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2497118
+
+---
+
+#### 2167. CVE-2026-9165 - stackrox: stackrox: Unbounded GraphQL query depth allows authenticated denial of…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] stackrox: stackrox: Unbounded GraphQL query depth allows authenticated denial of service. Bugzilla: 2480505
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480505
+
+---
+
+#### 2168. CVE-2026-14651 - grass: Grass: Denial of Service vulnerability via local manipulation of compiler…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] grass: Grass: Denial of Service vulnerability via local manipulation of compiler functions. Bugzilla: 2497086
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497086
+
+---
+
+#### 2169. CVE-2026-14650 - grass: Grass: Denial of Service in UTF-8 Character Handler
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] grass: Grass: Denial of Service in UTF-8 Character Handler. Bugzilla: 2497087
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497087
+
+---
+
+#### 2170. CVE-2026-12252 - nltk: nltk: Arbitrary Code Execution via Untrusted JAR File Loading
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: nltk: Arbitrary Code Execution via Untrusted JAR File Loading. Bugzilla: 2496984
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496984
+
+---
+
+#### 2171. CVE-2026-53362 - kernel: ipv6: account for fraggap on the paged allocation path
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv6: account for fraggap on the paged allocation path. Bugzilla: 2497031
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497031
+
+---
+
+#### 2172. CVE-2026-53360 - kernel: KVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use. Bugzilla: 2497032
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497032
+
+---
+
+#### 2173. CVE-2026-53359 - kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected role
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: x86: Fix shadow paging use-after-free due to unexpected role. Bugzilla: 2497033
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497033
+
+---
+
+#### 2174. CVE-2026-53361 - kernel: af_unix: Set gc_in_progress to true in unix_gc()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: af_unix: Set gc_in_progress to true in unix_gc(). Bugzilla: 2497035
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497035
+
+---
+
+#### 2175. CVE-2026-12481 - keras: Keras: Arbitrary code execution via deserialization vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keras: Keras: Arbitrary code execution via deserialization vulnerability. Bugzilla: 2496942
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496942
+
+---
+
+#### 2176. CVE-2026-14631 - webpack-dev-server: webpack-dev-server: Denial of Service via malformed headers
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webpack-dev-server: webpack-dev-server: Denial of Service via malformed headers. Bugzilla: 2496906
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496906
+
+---
+
+#### 2177. CVE-2026-14620 - webpack-dev-server: webpack-dev-server: Arbitrary file opening and denial of…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] webpack-dev-server: webpack-dev-server: Arbitrary file opening and denial of service via exposed developer endpoints. Bugzilla: 2496907
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496907
+
+---
+
+#### 2178. CVE-2026-58467 - cockpit: Cockpit CMS: Arbitrary file read and code execution via path traversal
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cockpit: Cockpit CMS: Arbitrary file read and code execution via path traversal. Bugzilla: 2496697
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496697
+
+---
+
+#### 2179. [Ubuntu] USN-8514-1: OpenSSH vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSH incorrectly handled file permissions when downloading files as root using the legacy scp protocol without the preserve-mode option. An attacker could use this to install setuid or setgid files on a system, possibly leading to privilege escalation.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8514-1
+
+---
+
+#### 2180. [Ubuntu] USN-8502-1: GnuTLS vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GnuTLS had a timing side-channel when processing malformed ciphertexts in RSA-PSK ClientKeyExchange. A remote attacker could possibly use this issue to recover sensitive information. This issue only affected Ubuntu 18.04 LTS. (CVE-2024-0553) Bing Shi discovered that GnuTLS incorrectly handled decoding certain DER-encoded certificates. A remote attacker could possibly use thi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8502-1
+
+---
+
+#### 2181. [Ubuntu] USN-8513-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PHP incorrectly handled SOAP object deduplication when processing apache:Map nodes with duplicate keys. An attacker could possibly use this to cause a use-after-free, resulting in remote code execution. (CVE-2026-6722) It was discovered that PHP incorrectly handled SOAP request persistence when configured with SOAP_PERSISTENCE_SESSION. An attacker could possibly use this to
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8513-1
+
+---
+
+#### 2182. [Ubuntu] USN-8512-1: Gzip vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Gzip's gzexe utility handled temporary files in an insecure manner. When the mktemp utility was not available, gzexe constructed a temporary file path based on the process ID, which could be predicted. A local attacker could possibly use this issue to overwrite arbitrary files via a symlink attack. (CVE-2026-41991) It was discovered that Gzip incorrectly handled certain comp
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8512-1
+
+---
+
+#### 2183. [Ubuntu] USN-8511-1: socat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that socat incorrectly handled the SOCKS5 proxy server reply parser. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-56123) It was discovered that socat incorrectly handled a sample script. A local attacker could possibly use this issue to overwrite arbitrary files. This issue only affected Ubuntu 24.04 LTS. (CVE-2024-54661)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8511-1
+
+---
+
+#### 2184. [Ubuntu] USN-8510-1: tar vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that tar incorrectly handled symlinks when extracting archives. An attacker could possibly use this issue to overwrite arbitrary files.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8510-1
+
+---
+
+#### 2185. [Ubuntu] USN-8509-1: Python vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Python incorrectly normalized paths in the tarfile module. An attacker could possibly use this issue to bypass path restrictions. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2025-13462) It was discovered that Python's HTMLParser incorrectly handled certain malformed HTML input. An attacker could possibly use this issue to cause Python to crash, resul
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8509-1
+
+---
+
+#### 2186. [Ubuntu] USN-8506-1: Request Tracker vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Aleksander Iwicki discovered that Request Tracker did not properly sanitize the search "Page" URL parameter. A remote attacker could possibly use this issue to conduct a reflected cross-site scripting attack. (CVE-2026-6841) It was discovered that Request Tracker did not properly sanitize user- controlled data written to spreadsheet exports of search results. A remote attacker could possibly use t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8506-1
+
+---
+
+#### 2187. [Ubuntu] USN-8505-1: Parsl vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Parsl incorrectly constructed SQL queries using unsafe string formatting with user-supplied input in the parsl-visualize component. A remote attacker could possibly use this issue to perform SQL injection attacks, leading to data exfiltration or a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8505-1
+
+---
+
+#### 2188. [Ubuntu] USN-8492-3: Linux kernel (Raspberry Pi Real-time) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - MIPS architecture; - PowerPC architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - ACPI drivers; - ATM drivers; - RNBD block device driver; - Ublk userspace block drive
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8492-3
 
 ---
