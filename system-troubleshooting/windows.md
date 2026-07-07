@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7653**
+**总计条目 / Total entries: 7699**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -105254,5 +105254,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225293#reply30
+
+---
+
+#### 7654. How do I reinstall OneDrive?
+
+**问题描述 / Problem Description**:
+Tags: windows, microsoft-onedrive | Score: 0 | Views: 12 | Answers: 1 | Created: 2026-07-07
+
+**解决方案 / Solution**:
+Download here: https://www.microsoft.com/en-us/microsoft-365/onedrive/download Alternatively: Click " the website ". Or microsoft.com > All Microsoft > Software > OneDrive. Do not click "Download the app". Click the "Learn more" link which is underneath "For your desktop", in the Overview section. ( archived 2026-07-04 ) Now you can look for the download. It showed me a link: "[>] Don’t have OneDrive? Get the free desktop app".
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938915/how-do-i-reinstall-onedrive
+
+---
+
+#### 7655. PC performance worse unless I have task manager open
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upploq/pc_performance_worse_unless_i_have_task_manager/
+
+---
+
+#### 7656. double programs in task manager
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq57sr/double_programs_in_task_manager/
+
+---
+
+#### 7657. Can't find Display settings in NVIDIA Control Panel for NVIDIA, it's driving me crazy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq3c3b/cant_find_display_settings_in_nvidia_control/
+
+---
+
+#### 7658. Keep getting kicked from online games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq9cfp/keep_getting_kicked_from_online_games/
+
+---
+
+#### 7659. Can I replace the hard drives?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq8q3w/can_i_replace_the_hard_drives/
+
+---
+
+#### 7660. iPhone Mic stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq6d76/iphone_mic_stopped_working/
+
+---
+
+#### 7661. Recurring BSOD Troubleshooting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upvxwv/recurring_bsod_troubleshooting/
+
+---
+
+#### 7662. My phone is on when it got wet but I can't turn it off because the phone screen is just black
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq0hua/my_phone_is_on_when_it_got_wet_but_i_cant_turn_it/
+
+---
+
+#### 7663. Trouble with my windows keys before a hardware switch
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq0347/trouble_with_my_windows_keys_before_a_hardware/
+
+---
+
+#### 7664. Why does Edge keep pinging for my location whenever I open it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upzxx7/why_does_edge_keep_pinging_for_my_location/
+
+---
+
+#### 7665. PC doesn't detect my main SSD and I can only go into BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1upztd7/pc_doesnt_detect_my_main_ssd_and_i_can_only_go/
+
+---
+
+#### 7666. Bios boot loop, can’t boot SSD or USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq9jqo/bios_boot_loop_cant_boot_ssd_or_usb/
+
+---
+
+#### 7667. SoundCloud login fails on Windows 11 across every browser, but works on iPhone Safari
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq90j1/soundcloud_login_fails_on_windows_11_across_every/
+
+---
+
+#### 7668. Smart fridge stuck on vacation mode
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq2evr/smart_fridge_stuck_on_vacation_mode/
+
+---
+
+#### 7669. Accidentally spilled water on my laptop yesterday
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq8tqo/accidentally_spilled_water_on_my_laptop_yesterday/
+
+---
+
+#### 7670. PC wont start
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq8oqn/pc_wont_start/
+
+---
+
+#### 7671. its 4 am and i woke up with my phone now colorblind
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq8fsx/its_4_am_and_i_woke_up_with_my_phone_now/
+
+---
+
+#### 7672. how to get rid of "managed by your orginization" text in chrome
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7xph/how_to_get_rid_of_managed_by_your_orginization/
+
+---
+
+#### 7673. My computer turns on but not completely
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7qyu/my_computer_turns_on_but_not_completely/
+
+---
+
+#### 7674. DNS client issues on Windows Server 2025 after latest update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7o7v/dns_client_issues_on_windows_server_2025_after/
+
+---
+
+#### 7675. T-Force DDR5 RAM stopped working; SPD might be corrupted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7jt4/tforce_ddr5_ram_stopped_working_spd_might_be/
+
+---
+
+#### 7676. Dell Alienware R16 RTX 4070Ti 12Gb VRAM thermal pad thickness?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7j6c/dell_alienware_r16_rtx_4070ti_12gb_vram_thermal/
+
+---
+
+#### 7677. capping fps at 60, leading 1% fps to 42-48 in all games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7crl/capping_fps_at_60_leading_1_fps_to_4248_in_all/
+
+---
+
+#### 7678. Windows Only Lets Me Shrink the Volume by 27GB Even Though I Have 130GB Free — I Need to Dual-Boot with CachyOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uq7cco/windows_only_lets_me_shrink_the_volume_by_27gb/
+
+---
+
+#### 7679. [V2EX] 终于解决困扰我 2 年多的 win10 内存泄漏问题了
+
+**问题描述 / Problem Description**:
+win10 ltsc2021 ，amd 7840h ，32G 内存，无独立显卡，现象是连续开机 15 天内存就会缓慢涨到 90%，重启后重新打软件回到正常 50% 尝试过重装 win10 ltsc 2019 ，win11 ltsc ，win10 精简版，卸载各种软件只保存必须用的那几个，关闭图形加速，关闭这那的，RAMMap ，poolmon ，WinMemoryCleaner......，各种折腾，全都没有用，都认命了 直到 1 个月前，尝试更新了一下 amd 显卡驱动，终于解决了，安装版本是 whql-amd-software-adrenalin-edition-26.6.1-win11-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225180#reply18
+
+---
+
+#### 7680. [V2EX] 之前站内有个分享给 chatgpt mcp 当 codex 用的，求分享！
+
+**问题描述 / Problem Description**:
+如题，想试试！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225709#reply0
+
+---
+
+#### 7681. [V2EX] 开通 Apple Developer Program 受阻
+
+**问题描述 / Problem Description**:
+我的 AppleID 已经注册了 Apple 开发者，可以通过 Xcode 本地调试 App 。前两天尝试开通 Apple Developer Program ，到最后一步报错“你的账户可能存在问题，需要解决后才能继续注册流程”，遂发邮件反馈。 今天收到回复，说什么“由于一个或多个原因，您无法完成 Apple Developer Program 的注册。我们目前无法继续处理您的注册。”无奈直接电话联系 Apple 官方，客服小姐姐的意思是，她会帮我向运营团队申请解决问题（具体什么问题她没说），至于需要多长时间、能不能申请下来，她没法保证。看来目前也只有等了。 各位有遇到过这种情况么？最后是怎么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225695#reply6
+
+---
+
+#### 7682. [V2EX] 你们如何搭建和管理项目知识库？
+
+**问题描述 / Problem Description**:
+项目规模越来越大，业务越来越复杂，我同时身负架构、开发、测试、运维四重角色，脑袋有些不够用啊。如果是没有 AI 的年代我，直接就辞职跑路了，不过现在有了 AI ，我觉得还是可以试下，让 AI 尽可能参与高层设计。要做到这点就需要 AI 充分吸收业务知识、了解现有技术细节。 问题是，开发过程中有很多这样的决定：一方面这些决定影响了后续开发，另一方面并没有体现在代码中，连注释也没有写。所以你不能指望 AI 把全部代码都读一遍，就真的全部都懂，就能进行高层设计了。 此外开发过程中还有很多参考文档，比如对接外部系统的 API 文档。AI 也要拿来参考。 这就是对知识库的需求。不知道各位是怎么做的，或者
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225691#reply1
+
+---
+
+#### 7683. [V2EX] 继续互联网卷，还是去国企？
+
+**问题描述 / Problem Description**:
+走到了人生的十字路口，虚心求教！ V 友们总是能给到一些中肯，让人受益匪浅的建议 本人：30 出头，学历尚可，北京互联网某大厂工作，程序员，AI 相关，年包近百（有一定比例的股票占比，所以有波动） 问题：继续卷，还是去国企？ 国企情况： 行业：某国家机构下属国企 薪资：年包减半，浮动，朝九晚五； 工作内容：据了解，其内部技术相关工作，基本由员工对接外包来完成，由此可见进去后就不要再想有什么技术成长了，而且周边一般都是本地人，自己也未必能融入，基本进去就躺平了 稳定性：据内部人员了解，没有 CY 的先例，应该可以干到退休（存疑，北京国企很多也都在 CY ）；周边也没有太多国企的朋友，自己也会不断
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225680#reply10
+
+---
+
+#### 7684. [V2EX] 有没有关于 ai 技术的交流群最好是偏大模型底层算法方向的
+
+**问题描述 / Problem Description**:
+想问问大家有没有一些和 ai 技术有关的交流渠道，例如：微信群，discord 频道，telegram 频道等等，我想了解一些 ai 前沿的技术还有看看能不能和大佬一起做个项目，感觉普通人很难有这种渠道和机会做一些大模型底层相关的项目
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225679#reply11
+
+---
+
+#### 7685. [V2EX] 求助：如何利用关键词找到帖子
+
+**问题描述 / Problem Description**:
+记得有个大佬发过一个小工具 大概意思是用 AI 写了一个 HTML ，用于本地处理照片 主要功能是把导入的图片进行固定尺寸修改和调整 搜半天关键词，照片 裁剪 相片 尺寸 调整 HTML 翻找半天都找不到，有大佬还记得这个帖子么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225661#reply0
+
+---
+
+#### 7686. [V2EX] 哪家有 GLM5.2 的 TokenPlan 体验最好？
+
+**问题描述 / Problem Description**:
+之前用过 GLM5.0 的 TokenPlan 哪个 TPM 简直感人，跟我手写作文一个速度。 现在有速度快不阉割的 TokenPlan 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225651#reply0
+
+---
+
+#### 7687. [V2EX] 目前项目里 Vibe Coding 需要记录 Prompt 吗？
+
+**问题描述 / Problem Description**:
+开发环境： 公司提供 WVD ，远程登陆进去，虚拟机里进行开发，只允许 AI 读取 dev 分支，开发为 feature/XXXXXX ； 开发流程： 1.需求进入后先写 Spec ，明确背景、边界和验收标准； 2.把代码结构、表结构、接口规范和安全要求作为上下文交给 AI ，让 AI 辅助设计和生成初版代码； 3.开发者再人工检查权限、事务、并发、SQL 和安全问题,完成本地验证后记录输入的 Prompt 和 AI 的设计决策; 4.最后通过 PR 、Code Review 、CI/CD 和测试环境验证后发布。 现在要求我们记录： Prompt 包括开发输入的提示词，需求设计文档 和 AI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225648#reply0
+
+---
+
+#### 7688. [V2EX] 软文投放平台资源哪来的？
+
+**问题描述 / Problem Description**:
+在小红书上发了了个帖子找媒体，媒介资源，一天就 100 多条消息，每个人的报价差别较大，但是媒体平台大差不差。 好奇这些公司的媒体资源哪来，随便都是各种央媒官媒随便发。 已了解到的是，现在主流媒体都是明码标价直接发文，包括央媒官媒。 之前 618 看到一个牙刷品牌投这种网媒渠道，geo 排名直接到第一。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225646#reply0
+
+---
+
+#### 7689. [V2EX] Claude 被封有无可能跟使用什么模型有关？
+
+**问题描述 / Problem Description**:
+结合 anthropic 所谓的蒸馏指控，有无这种可能？ 比如更多用 fable 、opus 就更容易被封，更多用高版本容易被封，用低版本的 sonnet 模型被封的几率会小一些？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225642#reply7
+
+---
+
+#### 7690. [V2EX] 微信小游戏的 eCPM 为什么这么低
+
+**问题描述 / Problem Description**:
+如题，有接入的吗？激励视频 eCPM 只有 20 多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225634#reply1
+
+---
+
+#### 7691. [V2EX] 各位自建 emby 的用的哪个版本？
+
+**问题描述 / Problem Description**:
+在 docker 里部署的 amilys/embyserver ，做了一次磁盘迁移后，发现有些蓝光原盘不能正常播放了，老是报错。想换个版本试试。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225632#reply2
+
+---
+
+#### 7692. [V2EX] 看到这个帖子「技术人员都不要去碰菠菜、多层次网络营销（传销/MLM）、未经合规许可的离岸数字货币交易所项目？」，我也有个疑问🤔
+
+**问题描述 / Problem Description**:
+比较好奇，这家公司是否也属于 MLM 或者灰色地带擦边呢？ https://v2ex.com/t/1203427 看宣传，是挺高大上的，坐标上海苏州河畔，国外团建，X 上的 post 也是各种下午茶福利，精致的美美的。如图： 但深入了解下去，就会发现，其实这家公司在巴塞罗那的业务，基本上都是色情社交相关，似乎还有一部分第三方支付，见 https://ideawisegroup.com/ 这种公司，技术团队在中国大陆，但是在做着中国大陆范围非法业务的公司，是合规的吗？如果去入职会有法律风险吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225624#reply10
+
+---
+
+#### 7693. [V2EX] iPhone air 有什么坑没有，准备换手机
+
+**问题描述 / Problem Description**:
+准备换手机，在京东上发现 iPhone Air 居然比 iPhone17 还便宜三百块钱。就是 eSIM 有点麻烦。我用的是联通双卡双待。一张信号卡，一张流量卡。换 iPhone Air 有什么坑没有？用过的来说说，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225623#reply23
+
+---
+
+#### 7694. [V2EX] AI 干活的时候，我们能干什么
+
+**问题描述 / Problem Description**:
+现在在用 Vibe Coding ，产品给需求，用 AI 拆解成自己需要处理的需求，然后再出计划和自动化测试用例，自己评估完就让 AI 去干活。AI 干活的时候大概会要个 3-5 分钟，这个时间想做点事，试过学习、和 AI 聊其他项目，但不喜欢 3-5 分钟之后被迫中断，所以这个尝试失败了，逛论坛、喝水又可能让人觉得太闲了。所以各位大佬有什么好建议！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225619#reply5
+
+---
+
+#### 7695. [V2EX] 有什么方便的图片同步两台电脑的方法
+
+**问题描述 / Problem Description**:
+平常上班会偶尔刷到一些图片，准备存到家里的电脑里面，出于学习目的需要每天晚上看一下，也就是需要同步（而不是保存一个星期的量然后打包发过去），之前是丢 qq 发给自己小号的，拖动或者复制体感比去点保存图片更方便，最近发现 qq 经常自动清理内容，有什么比较常用的工具，可以实现这个？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225618#reply12
+
+---
+
+#### 7696. [V2EX] 技术人员都不要去碰菠菜、多层次网络营销（传销/MLM）、未经合规许可的离岸数字货币交易所项目？
+
+**问题描述 / Problem Description**:
+最近接触到一家东南亚的“软通动力”公司，明确说他们在筹备一个类似于线上菠菜的项目。心里慌慌的，不知道要不要去争取，想问豆包怕太保守，肯定不建议，就去问了 gemini ，好像只要是中国籍就还是不去的好，三年起步这种，想问问大家怎么看？这个菠菜真的这么刑吗？ OP 背景补充：中国籍，人在国内，家里远没有到揭不开锅的地步，无娃无任何贷。 下文引用 Gemini 原回答： 🚫 技术黑产项目危险程度排行 如果单纯从技术人员（程序员、运维、系统架构等辅助岗位）在司法实践中被抓后的“定罪几率”、“判刑起步价”以及“脱罪难度”来看，从最严重到最轻微的实际排序如下： 🚨 博彩项目（最严重，几乎必判重刑） ＞
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225589#reply45
+
+---
+
+#### 7697. [V2EX] pc 微信这个侧栏新增的游戏中心有关闭的选项吗?看着闹心
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225587#reply0
+
+---
+
+#### 7698. [V2EX] 自从用了微信输入法，错别字率飙升， mac 上有咩有像飞书一样的错别字纠正工具，要支持跨软件识别
+
+**问题描述 / Problem Description**:
+当然，也不一定是微信输入法的锅。但是它的记忆能力好像很一般，感觉用了 1 年多了，还是没有适应我的习惯。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225586#reply3
+
+---
+
+#### 7699. [V2EX] 电视盒子的遥控为什么经常不灵
+
+**问题描述 / Problem Description**:
+广州电信宽带的盒子，刚开机遥控器控制着还行，过一会要么按不到，要么按了后等几十秒才有反应，还会出现比如：按音量-，过一会无限-。 电视里偶尔还提示遥控器蓝牙已断开，真的做的一坨屎一样，话说为啥是蓝牙，不是用红外的。 环境：遥控距离很近，我把盒子藏在了电视后面（不确定是否有影响） 你们的电信盒子遇过这个情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225569#reply2
 
 ---

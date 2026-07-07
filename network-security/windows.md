@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 906**
+**总计条目 / Total entries: 914**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13264,5 +13264,101 @@ Notepad3 through 6.25.822.1 contains a DLL search-order hijacking vulnerability 
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52611
+
+---
+
+#### 907. [webapps] MCPJam Inspector - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] MCPJam Inspector - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52625
+
+---
+
+#### 908. [local] ProtonVPN v4.4.1 - Unquoted Service Path
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ProtonVPN v4.4.1 - Unquoted Service Path
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52624
+
+---
+
+#### 909. [webapps] Flowise  3.1.3 - arbitrary code execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Flowise 3.1.3 - arbitrary code execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52623
+
+---
+
+#### 910. [remote] Hydra - Stack Buffer Overflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Hydra - Stack Buffer Overflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52622
+
+---
+
+#### 911. [webapps] Discuz! X5.0 - Authentication Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Discuz! X5.0 - Authentication Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52621
+
+---
+
+#### 912. [webapps] Tenable Nessus 10.12.1 - SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Tenable Nessus 10.12.1 - SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52620
+
+---
+
+#### 913. [webapps] WordPress Bricks Builder Theme  -  RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress Bricks Builder Theme - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52619
+
+---
+
+#### 914. [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52618
 
 ---

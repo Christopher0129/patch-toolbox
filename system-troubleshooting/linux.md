@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6922**
+**总计条目 / Total entries: 6956**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -97924,5 +97924,447 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225240#reply2
+
+---
+
+#### 6923. Razer Certifying Their First Laptop For Linux: Razer Blade 18 RZ09-0582 Review
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq3xwm/razer_certifying_their_first_laptop_for_linux/
+
+---
+
+#### 6924. TUXEDO Computers is switching the base of TUXEDO OS from Ubuntu to Debian for greater stability and control.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upu346/tuxedo_computers_is_switching_the_base_of_tuxedo/
+
+---
+
+#### 6925. I wanted to share this with you! Miller View for Nautilus
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq5pfw/i_wanted_to_share_this_with_you_miller_view_for/
+
+---
+
+#### 6926. Anyone here hosting their own cli chat service?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq2pdj/anyone_here_hosting_their_own_cli_chat_service/
+
+---
+
+#### 6927. KDE Plasma 6.6.6, Bugfix Release for July
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upxd2h/kde_plasma_666_bugfix_release_for_july/
+
+---
+
+#### 6928. BudsLink App – Looking for Testers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq4v4v/budslink_app_looking_for_testers/
+
+---
+
+#### 6929. Linux kernel experts's lives .... Paul E. McKenney interviewed by Shuah Khan ....
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq64mw/linux_kernel_expertss_lives_paul_e_mckenney/
+
+---
+
+#### 6930. Any Other Linux Users Groups Out There?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq61i5/any_other_linux_users_groups_out_there/
+
+---
+
+#### 6931. AF_ALG "Nightmare" Being Further Limited In Linux 7.3 With New Sysctl Knob
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upv7ee/af_alg_nightmare_being_further_limited_in_linux/
+
+---
+
+#### 6932. OpenWrt One – Open Hardware Router
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uphq45/openwrt_one_open_hardware_router/
+
+---
+
+#### 6933. Atomic/Immutable - clarification
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uppxv1/atomicimmutable_clarification/
+
+---
+
+#### 6934. Found this "Playard One" device there doesn't seem to be any talk about?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq9ixm/found_this_playard_one_device_there_doesnt_seem/
+
+---
+
+#### 6935. GNUstep monthly meeting (audio/(video) call) on Saturday, 11th of July 2026 -- Reminder
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1upu2zp/gnustep_monthly_meeting_audiovideo_call_on/
+
+---
+
+#### 6936. Linux is declining on the Steam Hardware Survey. What are your thoughts on it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uq92bk/linux_is_declining_on_the_steam_hardware_survey/
+
+---
+
+#### 6937. [V2EX] Fable 5 延期到 7 月 12 号
+
+**问题描述 / Problem Description**:
+Through July 12, you can use up to 50% of your weekly usage limit on Fable 5. If you hit your limit, you can continue on Fable 5 with usage credits. Fable 5 draws down usage faster than Opus 4.8. Run /model and select Fable to use it. https://support.claude.com/en/articles/15424964-claude-fable-5-pr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225713#reply2
+
+---
+
+#### 6938. [V2EX] 深夜诡异问题： Claude code 说接收到了 cursor Agent 的 review
+
+**问题描述 / Problem Description**:
+我开着 ultracode opus 跑任务。过了半小时回来一看，它自己说了 user 的 cursor Agent review 结果回来了，正在验证准确性。 头一次遇到，从各个角度上来说都不可能会出现一个自动跑起来的 cursor agent 被 hook 进 claude code 的对话里。 除非模型抽风了，生成了严重幻觉的回复。 不知道有人遇到过吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225712#reply1
+
+---
+
+#### 6939. [V2EX] 🔥中国可能要开始给前沿 AI 模型 分级出海
+
+**问题描述 / Problem Description**:
+中国商务部据报拟限制前沿 AI 模型（含开源权重）出海，阿里/字节/智谱被约谈 Reuters 报道，商务部近期和阿里、字节、智谱开会，讨论限制最先进模型（包括开源权重）的海外访问：基础开源备案、高级模型安全审查、最敏感的只留国内。 这事如果落地，等于 Qwen / DeepSeek / GLM 一直走的「全球开源」路线要被收口，和美国的出口管制正好对称。 果然，AI 时代下，技术有国界🙃
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225707#reply1
+
+---
+
+#### 6940. [V2EX] 几年前，大家会想到今天的 AI 那么离谱吗？
+
+**问题描述 / Problem Description**:
+现在距离 chatgpt 发布好像也才 3 年？ 也不知道明年会变成什么样 又期待又害怕
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225706#reply11
+
+---
+
+#### 6941. [V2EX] 发布自己的创意软件或服务越来越没有意义
+
+**问题描述 / Problem Description**:
+我不是吐槽别人，因为这个问题是从我自己身上开始爆发的。 可能是新冠后遗症的原因，常常记得似乎写过某个工具或软件，但是完全不记得名字或者路径，以及如何启动它。甚至找到了文件夹后，又纠结于如何启动它。 去寻找，去重读代码的时间，AI 手搓一个能用的都足够了。如此下去，创意软件，意义也将会逐渐消失。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225699#reply1
+
+---
+
+#### 6942. [V2EX] 「开源自荐」Spexcode - Spec-driven 的 vibe-coding 真能征服复杂软件开发吗？这是我的尝试
+
+**问题描述 / Problem Description**:
+项目链接： Spexcode 2025 年初,Karpathy 造了 "vibe coding" 这个词——凭感觉写代码。然而, vibe coding 的方式在现实中挑战重重：技术债累积，审查瓶颈，原始意图丧失导致系统不断被拉回 agent 舒适区等等。 为了解决这些问题，让开发过程更有章法，vibe coding 语境下的 SDD （ Spec-Driven Development ，规格驱动开发） 工具不断涌现。"把 spec 当作唯一事实" 是他们的口号，然而现实是，不仅解决原有问题的能力有限,还制造了新问题，比如: 过度工程，营造出一种我写代码很有章法的假象。Agent 仿佛变成一个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225690#reply2
+
+---
+
+#### 6943. [V2EX] 被 Safari 的拖拽上传坑了一下午： dataTransfer.files 偶发为空
+
+**问题描述 / Problem Description**:
+周末给自己站上（ https://whisk-ai.io ）的图片上传做兼容测试，遇到个挺玄学的问题，记录一下。 同一段拖拽上传的代码，Chrome / Firefox 都好好的，Safari 上从访达拖图进 drop 区域，偶发 dataTransfer.files 是空的。控制台一点报错没有，看起来就像用户什么都没拖进来。更烦的是"偶发"——有时候又是正常的，一度怀疑是自己电脑的问题。 加日志排查，drop 事件确实触发了，就是 files 长度为 0 。最后定位下来是两个问题叠一块了： dragover 没有 preventDefault() 。Safari 对这个比 Chrome 严格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225689#reply1
+
+---
+
+#### 6944. [V2EX] 国内的 coding plan 套餐到底行不行
+
+**问题描述 / Problem Description**:
+最近想买火山引擎 Coding Plan 总是告诉售罄了，有人买到过么，使用效果如何
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225668#reply8
+
+---
+
+#### 6945. [V2EX] 🔥 CNBC：美国公司开始更多采用中国 AI 模型
+
+**问题描述 / Problem Description**:
+🔥 CNBC：美国公司开始更多采用中国 AI 模型 核心原因是 OpenAI / Anthropic 成本上升 DeepSeek 、GLM 5.2 等开源模型性能已直逼 OpenAI 和 Anthropic 的顶尖水平（差距仅 6-9 个月），而成本直接暴降 60%-90%！ 最新数据显示，美国公司通过 OpenRouter 采购中国模型的比例已从 11% 狂飙至 30%-46%。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225666#reply23
+
+---
+
+#### 6946. [V2EX] Codex 马上到期了，求靠谱充值方案
+
+**问题描述 / Problem Description**:
+之前使用 WindAi 充值 codex ，马上到期了，但是目前看好像涨价 1 美金，求问这位佬有没有什么靠谱方案或者平替方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225665#reply6
+
+---
+
+#### 6947. [V2EX] 被 AI 厂商爬告警了， gptbot 和 amazonbot 哼哈二将。
+
+**问题描述 / Problem Description**:
+被 AI 厂商爬告警了，gptbot 和 amazonbot 哼哈二将。 AI 厂商采集有什么利弊哦 要不要防一手 都怎么看待和应对得呢🤭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225664#reply0
+
+---
+
+#### 6948. [V2EX] 你们招聘会要求不允许使用副屏吗？
+
+**问题描述 / Problem Description**:
+如果是你来面试一个程序员，有 coding 环节，会要求应聘者不允许用副屏吗？ 或者你是一个应聘者，为了避免不必要的误会，会主动把副屏拔掉吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225649#reply10
+
+---
+
+#### 6949. [V2EX] grok build 简单心得（和 claude code 对比）
+
+**问题描述 / Problem Description**:
+最近为了做一些 claude code 不方便直接做的任务（优化画图 prompt ，要画哪些图请自己意会），试用了 gork build ，简单心得分享。 可调用的模型有 grok build 和 cursor ，我选的是 grok build 。它的文字输入输出尺度真的比 claude 高，但 imggen 仍严防死守，比 grok imagine api 版还严格。 意图理解能力和解决问题的能力还行，就是在"理解用户工程习惯"这点上弱一点，例如 claude 扫一眼目录就大概知道你的目录结构和命名习惯，而 grok 经常放错位置，甚至把应该 gitignore 的东西提交到 tracke
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225635#reply2
+
+---
+
+#### 6950. [V2EX] 难绷，公司内网也要做防爬虫和 WAF 了
+
+**问题描述 / Problem Description**:
+内部系统，本来开放了一批 REST API ，结果有人 vibe coding 搞出来一大堆 404 。问了下一口咬定这 agent 自主调用跟他无关。 这得了？一旦有个高危接口 /delete 之类的，被 AI 猜出来了岂不是？？ 赶紧把权限校验堵上，刷接口封 IP 的机制给加上。专门申请了个 redis 存 url path <-> IP 的关系，然后如果爆量，然后通过 IT 那边顺着网线找过去。。。。。。 🤣 🤣 🤣 🤣 🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225617#reply16
+
+---
+
+#### 6951. [V2EX] 华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？
+
+**问题描述 / Problem Description**:
+如题，OP 非程序员，无从点评。 来源 联合早报 有“华为天才少年”之称的李博杰公开批评中国人工智能公司深度求索（ DeepSeek ）面试流程，相关话题冲上微博热搜。 据澎湃新闻报道，李博杰星期一（ 7 月 6 日）称，在通过 DeepSeek 笔试后，半个月不安排面试，其他公司 offer 都已经下来了，经过反复催促才安排面试。去其他公司面试都不需要代码面，但 DeepSeek 仍然需要笔试，前两轮面试都是代码面试。 李博杰还说，在二面过程中，面试官评价自己的工作态度不好，甚至无端指控自己抄袭，“代码面试中我有两个屏幕，面试官说我不断在瞟左边的屏幕，说我在抄代码，让我停止抄代码，并说如果我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225610#reply85
+
+---
+
+#### 6952. [V2EX] "是的，之前 git checkout -- src/types.rs Cargo.toml 把你的工作区改动回退了，这些没有 commit 过， git 恢复不了。抱歉。"
+
+**问题描述 / Problem Description**:
+我服了，为什么感觉 deepseek-v4-pro 像个混子，能干活，但是越干活越多 ...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225601#reply3
+
+---
+
+#### 6953. [V2EX] 写代码 15 年，没项目不用去公司也不发工资
+
+**问题描述 / Problem Description**:
+写代码 15 年，今年公司没项目就不用去，也不发工资。跟老婆商量后又开了一家童装店店，白天看店进货，晚上偶尔还会习惯性刷技术文章，挺魔幻的。 想来问问大家现在什么情况： 程序员还好找工作吗？身边有转行的吗，都去做什么了？新行业好做吗？ 有类似经历的朋友吗？欢迎聊聊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225572#reply42
+
+---
+
+#### 6954. [V2EX] chrome 安装了 ublock lite 的 v 友们，你们打得开 deepseek 官网吗
+
+**问题描述 / Problem Description**:
+如题，我发现今天打不开 ds 的官网，一打开就光速关闭，尝试禁用 ublock lite 就正常，难道是广告规则的问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225565#reply14
+
+---
+
+#### 6955. [V2EX] 百度千帆的 coding plan 下架了，又少了个次数计费的 plan
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225562#reply0
+
+---
+
+#### 6956. [V2EX] 发现很难高强度搬砖超过 30 分钟，是脑力不够了吗？
+
+**问题描述 / Problem Description**:
+以前专注力感觉比较高，现在越来越容易分心，每次很难专注超过 30 分钟。 要么去泡个茶和杯咖啡，或者摸会🐟，感觉才有意愿继续搬砖。 这是脑力不够了？还是注意缺陷多动障碍（ ADHD ）？ 有人说大佬可以进入心流状态，入定搬砖干半天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225543#reply13
 
 ---

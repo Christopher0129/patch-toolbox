@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2330**
+**总计条目 / Total entries: 2344**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -36306,5 +36306,173 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8492-3
+
+---
+
+#### 2331. CVE-2026-11610 - 389-ds-base: 389-ds-base: Heap buffer overflow in sasl_io_recv() via padded SASL…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: Heap buffer overflow in sasl_io_recv() via padded SASL UNBIND. Bugzilla: 2484414
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484414
+
+---
+
+#### 2332. CVE-2026-14474 - sssd: sssd: sudo LDAP provider searches entire directory tree for sudoRole objects…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] sssd: sssd: sudo LDAP provider searches entire directory tree for sudoRole objects by default, enabling privilege escalation. Bugzilla: 2496556
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496556
+
+---
+
+#### 2333. CVE-2026-14476 - sssd: sssd: GPO cache path traversal via unsanitized gPCFileSysPath allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] sssd: sssd: GPO cache path traversal via unsanitized gPCFileSysPath allows Kerberos authentication bypass. Bugzilla: 2496581
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2496581
+
+---
+
+#### 2334. CVE-2026-55379 - python-pillow: Pillow: Denial of Service via crafted BDF font file
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] python-pillow: Pillow: Denial of Service via crafted BDF font file. Bugzilla: 2497452
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497452
+
+---
+
+#### 2335. CVE-2026-55380 - python-pillow: Pillow: Denial of Service via crafted GD 2.x image file
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] python-pillow: Pillow: Denial of Service via crafted GD 2.x image file. Bugzilla: 2497455
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497455
+
+---
+
+#### 2336. CVE-2026-54060 - python-pillow: Pillow: Denial of Service via excessive memory allocation when…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] python-pillow: Pillow: Denial of Service via excessive memory allocation when processing font files. Bugzilla: 2497466
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497466
+
+---
+
+#### 2337. CVE-2026-56140 - org.apache.camel/camel-aws2-sns: Apache Camel AWS SNS Component: Defense-in-depth…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.camel/camel-aws2-sns: Apache Camel AWS SNS Component: Defense-in-depth hardening due to improper input validation. Bugzilla: 2497289
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497289
+
+---
+
+#### 2338. CVE-2026-14788 - radare2: radare2: Denial of Service via use-after-free in r_core_bin_load function
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] radare2: radare2: Denial of Service via use-after-free in r_core_bin_load function. Bugzilla: 2497219
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497219
+
+---
+
+#### 2339. CVE-2026-14760 - radare2: radare2: Denial of Service via local use-after-free vulnerability
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] radare2: radare2: Denial of Service via local use-after-free vulnerability. Bugzilla: 2497162
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497162
+
+---
+
+#### 2340. CVE-2026-14759 - radare2: radare2: Denial of Service via heap-based buffer overflow
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] radare2: radare2: Denial of Service via heap-based buffer overflow. Bugzilla: 2497163
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497163
+
+---
+
+#### 2341. CVE-2026-14757 - radare2: Radare2: Integer overflow allows local impact
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] radare2: Radare2: Integer overflow allows local impact. Bugzilla: 2497164
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497164
+
+---
+
+#### 2342. CVE-2026-14570 - Crypt::DSA: Crypt::DSA: Private key recovery due to biased random number generation
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] Crypt::DSA: Crypt::DSA: Private key recovery due to biased random number generation. Bugzilla: 2497106
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497106
+
+---
+
+#### 2343. CVE-2026-14684 - org.hdrhistogram/HdrHistogram: HdrHistogram: HdrHistogram: Denial of Service via…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] org.hdrhistogram/HdrHistogram: HdrHistogram: HdrHistogram: Denial of Service via uncontrolled memory allocation in decodeFromByteBuffer. Bugzilla: 2497103
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497103
+
+---
+
+#### 2344. [Ubuntu] USN-8515-1: Addressable vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Addressable incorrectly handled certain URI templates, generating regular expressions vulnerable to catastrophic backtracking. An attacker could use this issue to craft a URI that, when matched against a vulnerable template, causes excessive resource consumption, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8515-1
 
 ---
