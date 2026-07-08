@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7699**
+**总计条目 / Total entries: 7743**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -105852,5 +105852,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225569#reply2
+
+---
+
+#### 7700. No signal from monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur6tyu/no_signal_from_monitor/
+
+---
+
+#### 7701. Used 2TB HDD arrived with 4 rellocated sectors, is the drive usable, or will it die shortly? Seller specified 100% good health with no bad sectors. Plus it has 46000 power on hours.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur066x/used_2tb_hdd_arrived_with_4_rellocated_sectors_is/
+
+---
+
+#### 7702. 320GB of Windows Installer Files taking up most of my laptop storage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uqzqp7/320gb_of_windows_installer_files_taking_up_most/
+
+---
+
+#### 7703. PC wifi on one network, and ethernet to another in order to imporve internet stability?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur53z6/pc_wifi_on_one_network_and_ethernet_to_another_in/
+
+---
+
+#### 7704. Secureboot help? Can't get it right.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur43e2/secureboot_help_cant_get_it_right/
+
+---
+
+#### 7705. Windows 11 MSI laptop snipping tool and clipboard not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur3y6z/windows_11_msi_laptop_snipping_tool_and_clipboard/
+
+---
+
+#### 7706. Using a different power cable for my laptop charger- is this safe?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uqyjli/using_a_different_power_cable_for_my_laptop/
+
+---
+
+#### 7707. Site minimized really small
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur1xdb/site_minimized_really_small/
+
+---
+
+#### 7708. Windows 15fps slideshow like state issue. (Possible FIX)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur1q9a/windows_15fps_slideshow_like_state_issue_possible/
+
+---
+
+#### 7709. Write ISO to external disk (Termux)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur1k1q/write_iso_to_external_disk_termux/
+
+---
+
+#### 7710. Windows 11 lagging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur0vm1/windows_11_lagging/
+
+---
+
+#### 7711. [Idk if this fits the sub but I don't know other subs for this] is this link safe?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur75rk/idk_if_this_fits_the_sub_but_i_dont_know_other/
+
+---
+
+#### 7712. Microphone help please, tried everything, new mic, do I have to get a new one troubleshoot.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur74nv/microphone_help_please_tried_everything_new_mic/
+
+---
+
+#### 7713. Artifacting on PC - possible concern/need to replace parts?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur70y6/artifacting_on_pc_possible_concernneed_to_replace/
+
+---
+
+#### 7714. My ps5 keeps turning off mid game?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur6xan/my_ps5_keeps_turning_off_mid_game/
+
+---
+
+#### 7715. Something is changing my display color on start-up and it's driving me crazy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur6p2k/something_is_changing_my_display_color_on_startup/
+
+---
+
+#### 7716. Problem with Shure mv7
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur6bvn/problem_with_shure_mv7/
+
+---
+
+#### 7717. Red pixels/artifacts on videos (Chromium only)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur6a65/red_pixelsartifacts_on_videos_chromium_only/
+
+---
+
+#### 7718. Very high ping on several games, but not every game (unsolved)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur65hx/very_high_ping_on_several_games_but_not_every/
+
+---
+
+#### 7719. Weird issues with wifi repeater?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur5zg7/weird_issues_with_wifi_repeater/
+
+---
+
+#### 7720. I pressed set as main window or display or something and now my screens black. What do I do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur5tgt/i_pressed_set_as_main_window_or_display_or/
+
+---
+
+#### 7721. HDD Crashing File Explorers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur5jig/hdd_crashing_file_explorers/
+
+---
+
+#### 7722. Built-in microphone not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ur52ux/builtin_microphone_not_working/
+
+---
+
+#### 7723. My notebook has a issue trying to boot up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uqyigg/my_notebook_has_a_issue_trying_to_boot_up/
+
+---
+
+#### 7724. [V2EX] 大家最近消费/生活状态怎么样？是不是越来越“能省则省”了？
+
+**问题描述 / Problem Description**:
+身边朋友聊天，越来越多人提到消费降级：能不买就不买、旅游预算砍一半、甚至连奶茶都开始算性价比。 同时又看到各种“提振消费”的新闻，感觉有点割裂。 想听听真实情况： 你们是主动选择躺平式消费，还是真的被收入/未来预期限制住了？ 有没有什么“以前觉得正常，现在突然觉得奢侈”的小事？ 或者大家对今年下半年/明年的个人规划是什么状态（观望？硬刚？躺平？）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225966#reply7
+
+---
+
+#### 7725. [V2EX] 这是骗子吗?
+
+**问题描述 / Problem Description**:
+收到邮件说我网站有漏洞. I have found a security vulnerability on your website. I would like to report this issue responsibly. Could you please let me know: The correct process or email address for submitting vulnerability reports Whether you have a bug bounty or reward program for valid security findings Once
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225953#reply1
+
+---
+
+#### 7726. [V2EX] 现在 Ultra Mobile 的紫卡没得卖了吗？
+
+**问题描述 / Problem Description**:
+记得之前淘宝上面一大把的，我买了两张 今天去看已经只有代充值，没有卖卡了 闲鱼的搜索代号有吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225952#reply8
+
+---
+
+#### 7727. [V2EX] Cursor 的用量给清零了吗？难道被收购之后要做大善事吗?
+
+**问题描述 / Problem Description**:
+又怕事后给我算用量，不太敢用啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225933#reply14
+
+---
+
+#### 7728. [V2EX] 求回本攻略
+
+**问题描述 / Problem Description**:
+从去年末尾就开始在港股挨打，刚开始以为只是小小的利润回吐，结果从几个月前开始愈演愈烈。看着不少网友在科技吃得满嘴流油，财富增值，在无数个夜晚怀疑自己拍碎栏杆。直到上个月底终于被击垮道心破碎，卖了不少仓位来到科技。刚开始两天确实分分钟妙不可言，还在嘲笑迟迟不割肉不来科技的朋友。结果两天后就开始泥沙俱下，这两天已经开始倒亏本金。由于赚钱的时候开销十分潇洒，纵情享乐，没有进行财富储存。导致现在利润回吐干净，我感觉跟亏本金没什么区别。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225927#reply3
+
+---
+
+#### 7729. [V2EX] 有没有专业的 UI 设计师,我想知道成就勋章怎么设计?
+
+**问题描述 / Problem Description**:
+感觉 AI 生成出来的奇奇怪怪的,我看有用 Midjourney 生成,也有用即梦生成的?感觉对于美学的要求比较高,是不是找个学画画的朋友看一下?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225918#reply0
+
+---
+
+#### 7730. [V2EX] 周星驰的《功夫女足》要上线了，还有人觉得自己欠他一张电影票么？
+
+**问题描述 / Problem Description**:
+我是 80 后，但对于那些口口声声欠他一张电影票的也理解不了，对于叫他“星爷”这种自降身份的称呼也难以接受，溯源了一下发现“星爷”这个称呼来自于《赌圣》。 去电影院看过他的美人鱼感觉还是可以的，但之后其他的真的是烂的难以接受，所以后续就很反感各种宣传了。 我理想的方式就是你觉得你电影不错，你就正常宣传你的电影内容，我感兴趣我自然会去看，觉得好看也会安利周围人，别整天一句电影内容没有就是各种周边八卦炒作，很让人讨厌！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225899#reply16
+
+---
+
+#### 7731. [V2EX] shaowrocket tailsacle 模块如何使用
+
+**问题描述 / Problem Description**:
+[img] https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEW0xZqTgwM9vuWl2bJwYtOhtf-XmgWfgACeSoAAuHecVbOsuiW8G08ejwE.png [/img] exit node 填了没用呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225893#reply2
+
+---
+
+#### 7732. [V2EX] 自己离职可以说被裁员吗
+
+**问题描述 / Problem Description**:
+因上家公司上班太难受，自己离职了，面试时候说业务调整被裁员会有啥影响吗？ 不这么说的话，感觉 hr 总是带有色眼镜拷问我是不是自己抗压能力不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225891#reply16
+
+---
+
+#### 7733. [V2EX] 今年 1Password 还能有免费试用 1 年的活动了吗？去年免费试用 1 年的账号马上要到期了
+
+**问题描述 / Problem Description**:
+如题，已收到通知邮件，只有不到 1 周了，之后不付费就只能进入只读不可写的状态 现在 1Password 的价格实在一言难尽， 自建的 bitwarden 之类也有一定时间和管理成本， WWDC 2026 演示的能够自动改密码的苹果 Password 看着也挺好，但估计无法兼顾非苹果生态。 看看大家有啥妙招？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225890#reply8
+
+---
+
+#### 7734. [V2EX] 发现米家 app 一个在双卡模式下摄像头很难打开的现象
+
+**问题描述 / Problem Description**:
+环境是： ios 26 米家最新版本 手机双卡，一个卡开流量，一个卡不开流量。 这个时候打开米家 app ，点摄像头，就卡住了，摄像头上面的网速一直是 0 ，卡半天，有时候有缘能打开，有时候无缘，就打不开。 但是只要吧不开流量的电话卡一关闭启用，在重复上述操作，立马就打开了。 有没有朋友遇到类似的情况？咋解决的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225886#reply4
+
+---
+
+#### 7735. [V2EX] 更新向日葵后，电脑风扇转的厉害
+
+**问题描述 / Problem Description**:
+在上个月底，将家里台式机的向日葵远程软件更新到最新版了，然后最近用的时候发现主机风扇转的厉害，但看任务管理器又好像没有什么占用，有大佬知道是什么原因吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225862#reply0
+
+---
+
+#### 7736. [V2EX] 现在你们一个月话费要多少？
+
+**问题描述 / Problem Description**:
+我还在用 22 卡，不是 5G 卡，月固定 1G 流量， 超出 1 元 1G ， 每个月大概 60 元。 有啥好用的套餐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225859#reply54
+
+---
+
+#### 7737. [V2EX] 抖音上那些月不敷出的家庭记录视频是真的吗？
+
+**问题描述 / Problem Description**:
+前言 先声明下，楼主工作也没几年，无车无房无贷无对象，一直独来独往，对生活常识、社会现状了解的不够充分，如果我的提问很愚蠢，还请各位不吝指点。 正文 最近在抖音上能刷到一些 90 后夫妻盘点月收入/支出情况的视频，大多数人生活在二三线城市，有一个孩子，夫妻二人收入加起来堪堪一万出头，每个月除去车贷、房贷、装修贷和日常生活支出以后所剩无几，甚至有的还需要倒贴。 每到房贷还款日是他们最头疼的时候，总是要想办法将第二天的还款金额凑齐，两人盘算着各自身上还剩几百块钱。 我看着他们的账单计算结果感觉有些窒息，每天一醒来就要面对这些账单，生活还怎么维持下去？我不理解为什么必须要买房，必须要买车，买这些就是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225855#reply60
+
+---
+
+#### 7738. [V2EX] 小米手机 Surfboard 不让更新了，有解吗？有其他更好的替代吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225853#reply14
+
+---
+
+#### 7739. [V2EX] 想问一下各位大佬有 5w 闲钱如何理财？
+
+**问题描述 / Problem Description**:
+从来没买过各种理财产品，但是个人花钱比较大手大脚放在账户中总喜欢洗脚买东西充游戏，所以想着学习一下如何理财
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225851#reply40
+
+---
+
+#### 7740. [V2EX] 淘宝网页版是不是彻底不可用了
+
+**问题描述 / Problem Description**:
+搜索+打开商品详情页，大概刷了十几个商品，就开始无限跳验证了 是真的恶心啊，隔壁拼多多只要登录之后随便你搜索，虽然是手机版 ui ，但是起码能用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225836#reply6
+
+---
+
+#### 7741. [V2EX] Codex 侧边聊天不能持久化吗
+
+**问题描述 / Problem Description**:
+重新打开之后就是新的了，也没有发现有历史 让 Codex 找只找到我的提问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225832#reply1
+
+---
+
+#### 7742. [V2EX] 问一下，现在真有人选择买天然钻吗
+
+**问题描述 / Problem Description**:
+最近准备结婚，跟对象去看了下钻戒（因为对象想要）结果发现天然钻这玩意儿的水比想象的还要深得多。。。 跟老哥们聊聊我为什么坚决反对买天然钻，纯吐槽（ bushi 1. 价格和成本完全脱钩 大家都知道，天然钻和培育钻（就是河南实验室种出来的那些）在微观层面上 100% 是一模一样的东西，都是碳原子，物理和光学常数完全一致。 现在国内技术已经相当成熟了，1 克拉、D 色、VVS 级这种顶级参数的培育钻，批发成本早就跌到几百到两三千块了。但天然钻换个包装，依然敢高高挂在几万甚至十几万的区间。说白了，花 20 倍的溢价去买一个微观结构完全相同的碳晶体。 2. 所谓的“情绪价值” 天然钻之所以能卖这么贵，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225830#reply41
+
+---
+
+#### 7743. [V2EX] 如果硬盘持续高价，最终是否会影响 iCloud 等云储存涨价？
+
+**问题描述 / Problem Description**:
+目前 icloud 价格没变，如果硬盘持续高位，icloud Google drive 这些是不是也会涨价？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225828#reply4
 
 ---

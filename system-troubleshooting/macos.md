@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6619**
+**总计条目 / Total entries: 6682**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -90335,5 +90335,824 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225289#reply4
+
+---
+
+#### 6620. My Y-H-N-Space keys no longer respond on Macbook Air 2024 keyboard
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, keyboard, repair | Score: 1 | Views: 145 | Answers: 1 | Created: 2026-07-07
+
+**解决方案 / Solution**:
+This same thing happened to me. My y, h, n and space bar keys no longer function, and neither does my right bracket. I believe what happened was I sliced a trace, and, unfortunately, the only way to fix would be an expensive repair, but there are alternatives. One alternative is to rely on autocorrect. Often, it can figure out what you meant to type. Another thing you can do is use voice to text, which I am using right now. Another thing you can do is when you need a space, use a hyphen instead. And often people get the idea, but sometimes you do really need these keys. And so I have a JSON you can use with Karabiner elements that will remap t, g, b, and u, j, m to the obvious choice when Caps Lock is pressed. And for space bar, just a Caps Lock press. I think you'll find in the rare instances when you absolutely need them, this will suffice. drop the file in ~/.config/karabiner/assets/complex_modifications/ { "title": "Dead-key workaround: tap caps lock = space, hold caps lock = y/h/n layer", "rules": [ { "description": "Tap caps lock -> space. Hold caps lock + t/u -> y, + g/j -> h, + b/m -> n.", "manipulators": [ { "type": "basic", "from": { "key_code": "caps_lock", "modifiers": { "optional": [ "any" ] } }, "to": [ { "set_variable": { "name": "caps_layer", "value": 1 } } ], "to_after_key_up": [ { "set_variable": { "name": "caps_layer", "value": 0 } } ], "to_if_alone": [ { "key_code": "spacebar" } ] }, { "type": "basic", "from": { "key_code": "t", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "y" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] }, { "type": "basic", "from": { "key_code": "u", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "y" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] }, { "type": "basic", "from": { "key_code": "g", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "h" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] }, { "type": "basic", "from": { "key_code": "j", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "h" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] }, { "type": "basic", "from": { "key_code": "b", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "n" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] }, { "type": "basic", "from": { "key_code": "m", "modifiers": { "optional": [ "any" ] } }, "to": [ { "key_code": "n" } ], "conditions": [ { "type": "variable_if", "name": "caps_layer", "value": 1 } ] } ] } ] }
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486722/my-y-h-n-space-keys-no-longer-respond-on-macbook-air-2024-keyboard
+
+---
+
+#### 6621. [BUG WARNING] Universal Control + Web Browser drag-and-drop can completely DELETE your folders without warning! (macOS Tahoe)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur0075/bug_warning_universal_control_web_browser/
+
+---
+
+#### 6622. External SSD Write speed is okay but Read speed is extremely slow
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqwnsb/external_ssd_write_speed_is_okay_but_read_speed/
+
+---
+
+#### 6623. I recently bought an Apple Mac mini (w/ 256gb) and I bought a 2tb solid state storage. What stuff absolutely has to be on the built in storage (256gb) and what can be on the 2tb SSD?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur2qdy/i_recently_bought_an_apple_mac_mini_w_256gb_and_i/
+
+---
+
+#### 6624. Look for a way to ssh into my macbook when it is sleeping
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqpaw3/look_for_a_way_to_ssh_into_my_macbook_when_it_is/
+
+---
+
+#### 6625. LG 45" 5K2K Ultra Wide monitor (45GX950A-B) with macOS in Retina mode
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur3j8j/lg_45_5k2k_ultra_wide_monitor_45gx950ab_with/
+
+---
+
+#### 6626. safari vs brave
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqs13q/safari_vs_brave/
+
+---
+
+#### 6627. On a 256GB M2 Mac...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur6lyu/on_a_256gb_m2_mac/
+
+---
+
+#### 6628. 2020 M1 Macbook Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur6ibv/2020_m1_macbook_air/
+
+---
+
+#### 6629. Resume Data Sync not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur62e9/resume_data_sync_not_working/
+
+---
+
+#### 6630. Advice needed for switching from Mac to Windows (not by choice)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur36js/advice_needed_for_switching_from_mac_to_windows/
+
+---
+
+#### 6631. Negative Storage?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur31yb/negative_storage/
+
+---
+
+#### 6632. First bad experience with Keynote.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur2upm/first_bad_experience_with_keynote/
+
+---
+
+#### 6633. What is this purple dot in the corner of my screen?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqdf08/what_is_this_purple_dot_in_the_corner_of_my_screen/
+
+---
+
+#### 6634. suddenly can't send texts in Messages to some people on Mac..?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqyue1/suddenly_cant_send_texts_in_messages_to_some/
+
+---
+
+#### 6635. I wish Apple would improve the sidebar tabs experience in Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqnd0d/i_wish_apple_would_improve_the_sidebar_tabs/
+
+---
+
+#### 6636. It seems like the option to maximize window has vanished
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqxw57/it_seems_like_the_option_to_maximize_window_has/
+
+---
+
+#### 6637. Empty trash from Spotlight
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqz2qp/empty_trash_from_spotlight/
+
+---
+
+#### 6638. Feature Suggestion
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqx6fm/feature_suggestion/
+
+---
+
+#### 6639. Finder memory keeps increasing and doesn't open (except for brief moments, then it becomes unresponsive+crashes)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqqz2q/finder_memory_keeps_increasing_and_doesnt_open/
+
+---
+
+#### 6640. Help regarding photo transfer
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqjuyf/help_regarding_photo_transfer/
+
+---
+
+#### 6641. Malware scanner caught these. Do I need to be concerned?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqf3mf/malware_scanner_caught_these_do_i_need_to_be/
+
+---
+
+#### 6642. My macos is freezing constantly.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uqpswc/my_macos_is_freezing_constantly/
+
+---
+
+#### 6643. macOS and Safari keyboard shortcuts on iMac M4, anyone has a good list?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uql2sr/macos_and_safari_keyboard_shortcuts_on_imac_m4/
+
+---
+
+#### 6644. Help with macos 26
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ur2lfe/help_with_macos_26/
+
+---
+
+#### 6645. [V2EX] os 27 beta 3 launchd 进程占用 CPU 高
+
+**问题描述 / Problem Description**:
+beta 下，有个进程占用 cpu 非常高，190 多%，而且很长时间降不下去。 请问这是什么原因呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225914#reply3
+
+---
+
+#### 6646. [V2EX] 像素级模仿 safari 新标签页
+
+**问题描述 / Problem Description**:
+谁能 vibecoding 一个仿 safari 的新标签页拓展啊，自己虽然用 Claude 的免费额度做了一下，但始终不完美，有一个难点在于解析并缓存网站的高清 icons 。没额度后只能转用 DeepSeek ，但是写代码能力太垃圾了。 闲鱼有人会接这种单吗？我就是想要一个简单类似 safari 的新标签页。在 Edge 浏览器上用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225758#reply4
+
+---
+
+#### 6647. [V2EX] 关于🇹🇼是不是 ios macos 自作多情弄处理的，我身边人的国产 vivo 都没屏蔽这个图标能看能打
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225659#reply2
+
+---
+
+#### 6648. [V2EX] m1pro 升级到 26.5.2 后频繁黑屏（平均 1 天 2 次或更多）有人遇到过吗？
+
+**问题描述 / Problem Description**:
+不想降级，降级要装开发环境好麻烦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225584#reply9
+
+---
+
+#### 6649. [V2EX] macOS 27 beta3 有咩有人 clash 或者其他网络应用不好用了？
+
+**问题描述 / Problem Description**:
+升级完 clash 网站测试就异常了，平时都用 TUN 模式，四个测试（苹果、youtube 、google 、github ）就偶发 TIMEOUT ，各种重启重装重置，均无效。 Chrome 开各种走梯子的网站，如 Google 和 github ，偶发 timeout 。 钉钉干脆一直正在登录，卡在这里，已经干净卸载重装了，也不行 还有其他问题么？或者有人解决了以上问题么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225507#reply9
+
+---
+
+#### 6650. [V2EX] clash verge 能不能导入分流规则的配置文件？
+
+**问题描述 / Problem Description**:
+看了很多教程都是要手动一条一条的添加分流规则，这个软件能比能像小火箭添加配置文件的 url 那样批量添加分流规则？或者说有没有这个功能？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225972#reply1
+
+---
+
+#### 6651. [V2EX] Shadowrocket 支持 Tailscale 了，那支持 split dns 吗？
+
+**问题描述 / Problem Description**:
+iOS 只能开一个代理，要开 tailscale 就不能开小火箭代理 MITM 去广告，今天看到小火箭支持 Tailscale 了，除了 Wireguard 以外多了一种不切 VPN 软件回家的方法。但我想问下各位大佬，看日志里面说默认支持 magic dns,那代表支持 split dns 吗？ 因为我 nas 也有 tailscale ，里面 docker 的服务用的是 agh 重写加上 npm 域名反代，要访问 example.yournasserivece.lan 要把 dns 服务器指向 agh ，我就把 agh 加到 split dns 里面去，出门在外要是使用 ios 原生 ta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225970#reply0
+
+---
+
+#### 6652. [V2EX] Apple 美区礼品卡购买问题
+
+**问题描述 / Problem Description**:
+最近有 v 友用美区 id 在 App Store 购买礼品卡吗？我上个月购买的时候还好好的，今天想要再买就不行了。 支付方式是使用 Apple Pay ，绑定的卡是招商银行的信用卡，账单地址填的也是美国的地址，手机号也是美国的号码。之前一直是使用这种方式购买，今年买过四五次了，今天下单的时候报错被拒了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225835#reply19
+
+---
+
+#### 6653. [V2EX] 2026 年 07 月购买了 Quantumult X
+
+**问题描述 / Problem Description**:
+i 以前 8 刀还是几刀的时候没买； 这么多年使用的过程，小火箭，loon ，surge ，loon 煎熬了这周前三天一直努力尝试 mihomo clash mi 各种 在决定购买 stash 之前还是买了 quantumult X. 目前在 iOS 端手搓配置，前辈们有没有经验分享。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225824#reply37
+
+---
+
+#### 6654. [V2EX] iOS 有什么办法能屏蔽懂球帝的广告
+
+**问题描述 / Problem Description**:
+试了下简单屏蔽 url 似乎还是有缓存 这 app 每次前后台切换都会强行弹开屏广告，每次跳过按钮的位置还不一样，不小心动一下还会跳转到别的 app ，太恶心了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225820#reply15
+
+---
+
+#### 6655. [V2EX] 卖还是不卖？
+
+**问题描述 / Problem Description**:
+我有一台 macbook pro 16 寸 m4 max 128g 内存 1T 存储，当时花了 34000+2500 （ ac ）。 买完用两个月，就后悔了，配置太高，用不上。 现在 32000 ，有人收。 但我看了下现在的 mac ，48g 就要 29400 了（官网价格），第三方估计最低也得 25000 ，卖了当前电脑，买低配不是划算。 各位有什么好的建议吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225746#reply35
+
+---
+
+#### 6656. [V2EX] Mac OS 不显示实时活动（只有美团、瑞幸这些 App 没有）
+
+**问题描述 / Problem Description**:
+Mac OS 不显示实时活动，只有美团、瑞幸这些 App 没有，有些单纯做灵动岛 App 的又可以显示实时活动。 iOS MacOS 的版本是 27 ，但是从 26 某次更新后就不行；网上各种办法尝试了也不行，例如重新使用 iPhone 镜像等等，甚至尝试让 AI 解决也还是不行，这种要如何排查？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225697#reply2
+
+---
+
+#### 6657. [V2EX] 有用户启用了 macOS 27 的 APPLE AI 后，用自然语言搜图么？ 体验如何？
+
+**问题描述 / Problem Description**:
+今天刚搞定关闭 SIP ，在下载模型中～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225656#reply4
+
+---
+
+#### 6658. [V2EX] 国行 iPhone air 在国内成功添加 giffgaff esim，顺便解锁了 apple news 等
+
+**问题描述 / Problem Description**:
+很简单的方法： 更改定位的教程 github 就是 apple news 用的时候怎么设置分流规则都不行，必须全局代理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225631#reply13
+
+---
+
+#### 6659. [V2EX] MAC 外接 32 寸显示器求推荐
+
+**问题描述 / Problem Description**:
+要求： 1 、6k 、5k 或者 4k 都行 2 、预算 5000 内 3 、一定要有硬件防蓝光，希望清晰通透，高刷无所谓 最近在网上看了好多，好像都没有太好的，希望各位有好用的推荐下🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225581#reply8
+
+---
+
+#### 6660. [V2EX] App Store 购买的软件需要登陆账号和购买账号保持一致了？
+
+**问题描述 / Problem Description**:
+macOS27 开始就发现这一点了，现在验证机制变得好严格，Apple Music 还能分开账号登陆，可是付费的和内购的软件只要登陆另外一个账号就会掉订阅，这下难搞了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225483#reply22
+
+---
+
+#### 6661. [V2EX] mac 的外接显示器要完美必须 5K 吗？
+
+**问题描述 / Problem Description**:
+是这样，我有台 32 寸 4K 显示器，连上 14 寸 macbookpro 后（ 64G 内存）总是用着用着就开始卡，一看 window server 占了内存快 30G ，问了 gpt 说是因为 4K 显示器 hipdi 缩放是不能整数缩放，导致有 bug 内存泄露。我现在用 betterdisplay 选择了分辨率，重启后现在用了半天了，windowserver 现在是 5.66G ，暂时不卡，不知道能坚持多久，我的问题是： （ 1 ）对于 4K 显示器，是否有别的方法避免我这个问题。 （ 2 ）如果必须得上高分辨率，比如 27 寸 5K ，32 寸 6K ，有什么平替推荐么，jd 看到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225314#reply73
+
+---
+
+#### 6662. [V2EX] [送永久激活码]RightX 增强你的 Mac Finder 右键
+
+**问题描述 / Problem Description**:
+RightX：让 Mac Finder 右键菜单更强大 RightX 是一款 macOS Finder 右键增强工具，让常用文件操作不用离开当前文件夹。 主要功能： 打开常用位置：用户目录、桌面、下载、文稿、应用程序、自定义路径 新建文件：文件夹、TXT 、Markdown 、README 、JSON 、HTML 、CSS 、JS 、Python 、Swift 、Shell 、gitignore 复制/移动：一键复制或移动到桌面、下载、文稿、自定义文件夹 复制路径：完整路径、文件名、所在文件夹路径、终端路径、Markdown 链接 批量改名：添加前缀/后缀、查找替换、按序号重命名、大小写转换
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225211#reply134
+
+---
+
+#### 6663. [V2EX] 去年蠢到卖了 2 台 macminiM1，悔死。现在基于 NAS 的龙虾方案（其他同理），我觉得是一个资源利用率非常高的解法
+
+**问题描述 / Problem Description**:
+这个龙虾主要是用于日常琐事，也可以用让龙虾整理一些照片，笔记目录。需要配置多模态模型。模型最好是 deepseek+多模态，性价比超高。（千问涨价太多了） 1.在 NAS 创建 2 个文件夹，一个 openClaw ，一个 workspaces ，设置好权限。 2.安装 Docker ，在 Docker 里装龙虾，然后外挂 NAS 的 2 个文件夹 3.为 openClaw 建立单向同步到本地电脑，workspaces 开启双向同步，可以多个设备 4.为龙虾配置好 Agent ，每个 Agent 在 workspaces 里配置好专属的工作目录 我用的绿联，比较简单。麻烦的是他内置的龙虾镜像不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225942#reply0
+
+---
+
+#### 6664. [V2EX] 摸鱼时间写了个 web 播放器项目
+
+**问题描述 / Problem Description**:
+播放器支持原生、React 、Vue 引入，另外字幕库是单独插件接入支持 wasm 渲染艺术字体，欢迎大家提意见 😂 https://player.sweetui.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225939#reply3
+
+---
+
+#### 6665. [V2EX] 摸鱼时间写了一个 web 播放器项目
+
+**问题描述 / Problem Description**:
+欢迎大家提点意见或者缺少啥功能可以补的 😂 https://player.sweetui.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225930#reply0
+
+---
+
+#### 6666. [V2EX] GitHub 上蹭 pr 的机器人现在都这么闲这么多的吗？他们到底图啥？
+
+**问题描述 / Problem Description**:
+为了改 5 行代码，硬是要把 200 多行的 python 测试给带上来？咱这可是纯 c 项目( Catime )，这... 然后我就给他关了，第一回还以为是人手动复制 ai 的，结果过了一段时间又来.... 不是，你在干嘛？？？？你搁这吓唬我？（好吧，刚开始我还真信，还真花时间去看，然后发现你这不是瞎扯吗？） 我本以为我的够离谱了，直到今天看到 localsend 的 https://github.com/localsend/localsend/pull/3137 我真......哎哟~你干嘛啊 ⬆️ https://github.com/vladelaina/Catime
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225925#reply7
+
+---
+
+#### 6667. [V2EX] 智普 GLM-5.2 api 调运，花钱如流水
+
+**问题描述 / Problem Description**:
+看看这个 token 消耗，我是看视频最近网上吹 GLM 5.2 很厉害，所以想试试，改了一个 go 项目的小功能，没想到功能没改好，又引入的新 BUG ，等 BUG 修完，差不多就花了 80 块，这个投入产出比简直了，我觉得你贵就贵点，如果能力能打，我也认了，这么贵的价格，这么垃圾的 Cdoe 能力，不知道他们那来的自信敢这么定价，Codex 人家贵是真的能把功能做出来，属于除了贵基本没啥缺点，国内的模型不管之前的 Minimax 还有现在智普，都是跑分没输过，干活没赢过，除了 Deepsekk 是老好人之外，量大管饱 ，其它的真的一言难尽，大家选择慎重；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225920#reply8
+
+---
+
+#### 6668. [V2EX] 中年人少看抖音吧
+
+**问题描述 / Problem Description**:
+中年人尤其战狼型人格还是少看社交媒体吧，还有乱七八糟的新闻别再荼毒中年人了，他们真的深信不疑，听到两个有意思的： 1.苹果手机都有炸弹，等打仗了，一键爆炸，炸死中国人 2.中国福利院每年那么多小孩被美国人领养，没有音讯，去哪了，被他们吃了，因为中国人没有体味，所以爱吃中国人 分享给佬们笑一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225884#reply38
+
+---
+
+#### 6669. [V2EX] 普通人一生能获得多少流量：把人生按 PV、UV、停留时长和关注分层😂
+
+**问题描述 / Problem Description**:
+用互联网 PV 、UV 、停留时长、关注和留存这些指标，重新估算一个普通人一生能获得多少“人类流量”：多少人见过你，多少人记得你，多少人认识你，多少人持续关注你，以及这些注意力主要来自哪几层关系。 https://2aran.com/s/qt0uzon 一个人一生大约会被 600-1500 人真正记住或识别；有 150-500 人能说出你们的关系来源；长期主动关注你近况的人通常只有 10-50 人。真正的 PV 不是路人看你一眼，而是反复互动带来的注意力事件，中位数可能在 6 万-18 万次之间；总停留时长大约是 1 万-3 万小时，其中 70% 以上来自最亲近的十几个人。普通人的人生流量不是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225879#reply2
+
+---
+
+#### 6670. [V2EX] Cloudflare Agent Setup： Skills 与 MCP 服务器集成调研
+
+**问题描述 / Problem Description**:
+Cloudflare 发布了一份面向 AI 编程代理的 Agent Setup 指南，用 Skills 提供平台知识，用远程 MCP 服务器提供文档、账户资源、Bindings 、Builds 和 Observability 能力；对个人站和边缘应用开发者来说，它更像一套“让代理理解 Cloudflare 项目”的开发环境入口。 https://2aran.com/s/COzhI9U
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225838#reply0
+
+---
+
+#### 6671. [V2EX] 查 IP 定位，别只看一个库
+
+**问题描述 / Problem Description**:
+使用代理 IP 时，经常会遇到一个现象： 同一个 IP ，在不同 IP 检测平台上，显示的国家、城市、经纬度、时区并不完全一致。 这并不一定代表某个平台出错。IP 地理位置本身依赖数据库维护，不同平台的数据来源、更新频率、定位算法不同，最终返回的结果自然可能存在差异。 对于普通用户来说，可能只是“位置显示不一样”。 但对于技术人员来说，这个差异可能会影响实际判断。 例如： 代理 IP 是否符合目标地区要求； 账号环境是否与预期一致； 访问策略是否会被区域规则影响； 风控系统是否可能识别出异常位置； 业务测试时，IP 位置结果是否具备参考价值。 如果只看单一检测平台，很容易把某一个数据库的结果当
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225784#reply0
+
+---
+
+#### 6672. [V2EX] 避雷 CMLink 的无忧行 Gogo China 数据卡
+
+**问题描述 / Problem Description**:
+新人第一次发帖，各位大佬轻喷。平时用海外卡比较多，看见 CMLink App 上有个无忧行 Gogo China 数据卡 eSIM,平时这个 eSIM 的 IP 归属地都是新加坡或者香港，按照分流一般香港的 IP 节点较多，结果今天飘到了巴基斯坦，要命的是我还用它登录了汇丰香港转账汇款，这就大大提交了账户风控了。后续通过了一些 IP 查询网站看了，真就是巴基斯坦 IP 了。怪不得 iPhone 里面显示的运营商是 Zong,问了问 AI ，原来是中国移动国际和巴基斯坦成立的公司。大无语。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225763#reply9
+
+---
+
+#### 6673. [V2EX] 求推荐：安卓小平板+漫画软件方案，体验想接近可达阅读器
+
+**问题描述 / Problem Description**:
+最近想入手一台安卓小平板专门看漫画。本来考虑 iPadmini ，但存储空间价格不划算、边框也偏宽，还没有柔光屏，所以想换个思路问问大家。 用惯了 iOS 上的「可达阅读器」，体验真的很难被替代——安卓这边找了一圈，还没发现哪款软件能打，不是"差点意思"，是真的没有接近的。想请教各位有没有类似体验的安卓漫画软件推荐？ 平板需求： 屏幕：8 寸左右 性能：当前旗舰或略低于旗舰 存储：512G 起，或支持扩展卡 屏幕：柔光屏优先，非必须 预算：2500-4000 元 软件、硬件都可以安利，谢谢各位彦祖！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225762#reply18
+
+---
+
+#### 6674. [V2EX] Cake Fork 了 Signal
+
+**问题描述 / Problem Description**:
+把 Signal 的 MobileCoin 换成了 bitcoin https://radar.chat/ https://x.com/vikrantnyc/status/2074524833761619987
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225737#reply1
+
+---
+
+#### 6675. [V2EX] 搞毛线，昨晚限额都用完了今天来个这
+
+**问题描述 / Problem Description**:
+Fable 5 延期了： https://www.reddit.com/r/claude/comments/1uq27er/anthropic_extending_fable_5_for_paid_users_till/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225731#reply2
+
+---
+
+#### 6676. [V2EX] 如果有家族遗传脱发应尽早使用非那雄胺
+
+**问题描述 / Problem Description**:
+我吃了一周，洗手池里基本已经没有头发了，副作用暂时还不明显
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225721#reply84
+
+---
+
+#### 6677. [V2EX] 🔥中国可能要开始给前沿 AI 模型 分级出海
+
+**问题描述 / Problem Description**:
+中国商务部据报拟限制前沿 AI 模型（含开源权重）出海，阿里/字节/智谱被约谈 Reuters 报道，商务部近期和阿里、字节、智谱开会，讨论限制最先进模型（包括开源权重）的海外访问：基础开源备案、高级模型安全审查、最敏感的只留国内。 这事如果落地，等于 Qwen / DeepSeek / GLM 一直走的「全球开源」路线要被收口，和美国的出口管制正好对称。 果然，AI 时代下，技术有国界🙃
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225707#reply11
+
+---
+
+#### 6678. [V2EX] deepseek 居然出了峰谷价格。。
+
+**问题描述 / Problem Description**:
+DeepSeek API 服务预计 7 月中旬开始采用峰谷定价策略，高峰时段价格为平时价格 2 倍，适用所有计费项。 [高峰时段定义：北京时间每日 9:00 ～ 12:00 和 14:00 ～ 18:00 ]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225688#reply7
+
+---
+
+#### 6679. [V2EX] 成功：国行 iPhone air 上激活 giffgaff esim
+
+**问题描述 / Problem Description**:
+参考了几个文章： 1. 使用 mumu 模拟器，模拟安卓手机，申请 esim ，会下发下个激活串 2.使用 https://qrcode.show/ ，将文字串转换为二维码（要在码头加上 LPA:） 3.参考 https://github.com/Yu9191/wloc ，修改定位，激活 esim ，全程顺利 我的系统是 IOS26.5.2 模拟定位用的以下步骤 0.按 wloc 要求，配置 shadowrocket ，并将节点切到英国（与 esim 卡申请时填的国家一致） 1.https:// wloc-pages.pages.dev/ 在选点页面选好需要修改的定位并储存到设备 2.开飞行模
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225621#reply9
+
+---
+
+#### 6680. [V2EX] 继续收集一些可以打发时间的好玩网页
+
+**问题描述 / Problem Description**:
+继续收集一些无聊时候可以打发时间的简单功能网站。 我比较倾向于很轻量，打开就能使用，或无聊或有趣的网站。最好是支持英文的。 也很欢迎投稿自己的 side project ，说实话我自己也在这个插件网站里增加了自己的一个 side project 。 23 年的时候开过两篇求推荐的文章，那时候做了一个浏览器插件，就一个随机跳转一个很简单功能的无聊/有趣的网站的功能。谷歌插件市场+edge 插件市场用户也一直在四位数倒是没想到。 最近用 codex 给它增加了点功能：点赞/踩，投稿网站。现在收录了 90+个网站了。 欢迎大家分享~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225566#reply2
+
+---
+
+#### 6681. Java installation terminal error
+
+**问题描述 / Problem Description**:
+Tags: command-line, homebrew, java, zsh | Score: 0 | Views: 39 | Answers: 1 | Created: 2026-07-05
+
+**解决方案 / Solution**:
+The second line ( export JAVA_HOME ... ) is syntactically not correct. Add a closing ) at the end so it looks like export JAVA_HOME=$(/usr/libexec/java_home -v 26.0.1) This calls /usr/libexec/java_home to get the actual installation directory of your Java installation and assigns it to JAVA_HOME . PS: It will break as soon as you upgrade your Java version, so unless you regularly need to switch between version you can omit the -v 26.0.1 part.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486707/java-installation-terminal-error
+
+---
+
+#### 6682. how to make brew install to provided XDG path
+
+**问题描述 / Problem Description**:
+Tags: homebrew, automation, environment-variables | Score: 0 | Views: 42 | Answers: 1 | Created: 2026-03-24
+
+**解决方案 / Solution**:
+I think so but you will have to compile everything locally. A lot of packages will not have been tested toi run from there. The instructions to do this are in the normal Installation document https://docs.brew.sh/Installation The documentation also says If you decide to use another prefix: don’t open any issues, even if you think they are unrelated to your prefix choice. They will be closed without response. The instructions are TL;DR: pick another prefix at your peril! mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/main | tar xz --strip-components 1 -C homebrew or: git clone https://github.com/Homebrew/brew homebrew then: eval "$(homebrew/bin/brew shellenv)" brew update --force --quiet chmod -R go-w "$(brew --prefix)/share/zsh" My final comment is that macOS is not Linux so expect things to work differently and forcing Linux ways on macOS will cause you more trouble.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486112/how-to-make-brew-install-to-provided-xdg-path
 
 ---

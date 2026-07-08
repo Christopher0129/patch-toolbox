@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6956**
+**总计条目 / Total entries: 7017**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -98366,5 +98366,798 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225543#reply13
+
+---
+
+#### 6957. Why don't tail or cat display new content of a file to which another process is writing?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, writing, read | Score: 12 | Views: 1237 | Answers: 1 | Created: 2026-04-30
+
+**解决方案 / Solution**:
+Python file writes are buffered, so even though you keep calling Python's write() , the underlying OS write() system call isn't called until the in-memory buffer fills, or the file is closed. If you can edit the Python script, you should add a flush() after each write, and/or open the file in line-buffered mode Flush: f.write(sFileDate + ";" + sHeader) f.write("\r\n") f.flush() Line-buffered mode: f = open(sFile, "a", buffering=1)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937189/why-dont-tail-or-cat-display-new-content-of-a-file-to-which-another-process-is
+
+---
+
+#### 6958. Why isn’t my cron job running at startup/reboot?
+
+**问题描述 / Problem Description**:
+Tags: linux, cron | Score: 6 | Views: 1084 | Answers: 2 | Created: 2026-04-22
+
+**解决方案 / Solution**:
+I probably misunderstood what @reboot does That's one of your misunderstandings. "After a reboot" and "when a session starts" are not the same thing at all. They were the same thing in Windows 98 or MacOS 7.x, where everything that happened, happened on the desktop – but they aren't the same in a multi-user, "session"-oriented operating system. On both Linux and e.g. modern Windows (and also on OSX/macOS), things happen "in the background" by default. Services such as cron do not wait for there to be a graphical display at all – much less a graphical display for your session specifically. (That is, the boot process is "services first" and graphics are just one of the various services.) So your @reboot jobs will have already been run by the time you see even the login screen, or they might be running in parallel while you're typing your password; only very rarely will they run after you've already logged in, and when that happens it'll be by coincidence as neither the start of cron.service nor cron's own scheduling deliberately wait for the login to complete. (It might be good to think of cron jobs as existing in their own mini-"session" that's still under your account but nevertheless separate from the graphical session that you log in to.) If you really want to run something on login, there are a few ways but ~/.config/autostart/ is probably the best choice. Create a *.desktop file in that directory, or use your GUI's startup settings to have it create one for you (GNOME has it in gnome-tweaks ). $ cat ~/.config/autostart/foo.desktop [Desktop Entry] Type=Application Name=Some script Exec=/home/grawity/foo.sh Most desktop "startup apps" are run this way. The other method is to create a user service in ~/.config/systemd/user/*.service – those are somewhat in between cron and desktop; they run in their own separate "session" but do have some integration with your graphical login; indeed a large chunk of your graphical session runs as systemd user services. In X11 there also are the ~/.profile and ~/.xprofile scripts, though I think they might be ignored if you log in to a Wayland-based session. (2): When run in a terminal, the screen displays “hello,” but cron does nothing; no terminal opens automatically There's two things here. For one, as mentioned before, cron runs unattended – it is designed to run unattended, whether you are logged in or not – and your cron jobs run "outside" of your graphical session. While it is possible to have cron jobs interact with your graphical display, by default they do not have such access. There also is no @... syntax for "as soon as the user logs in" (and as mentioned earlier, @reboot happens much too early), so only those jobs which are on a time schedule (e.g. hourly) will actually have a chance to interact with your session. (Specifically – graphical programs need to know the "address" of the display, which is specified through the DISPLAY or WAYLAND_DISPLAY environment variables for X11 and Wayland respectively, often a few additional ones are needed as well. This is in part due to the multi-user nature; there can be more than one active graphical session on the same machine. Not to mention X11's network-oriented roots, where the display could've been on a different machine entirely.) This also applies to systemd user-level services, but those are automatically supplied this information (as soon as you log in, GNOME will push the necessary environment variables into the systemd service manager). Systemd system-level services, however, do not have that and are very much background-only. Your second misunderstanding is the behavior of terminals on Linux. Command-line tools do not automatically cause a terminal to be opened. Even assuming that the cron job happened at the right time (the whole distinction between "at reboot" and "at logon") and assuming that the job was written to access your graphical session, a plain echo still wouldn't cause a terminal window to pop up. While Windows has a feature where "console" .exe files automatically get a console window, there's no such thing on Linux; if a terminal is wanted then one has to be started explicitly, e.g. xterm -e ~/myscript.sh or gnome-terminal -- ~/myscript.sh . (Most terminals also exit immediately when the program ends, so you'd need additional options to make it stay after exit in order to have a chance to see your echo .) In the aforementioned .desktop files, setting Terminal=true will ask the program interpreting the .desktop file to start the program inside a terminal. Also, since cron is meant for unattended jobs, it actually collects all job output by default – historically it would mail it to you (with a file in /var/spool/mail being very literally your email inbox on Unix systems), but nowadays I think the gathered output either goes to the system log (you might be able to see it in journalctl -b ) or is discarded. In any case, cron won't start you a terminal window because its purpose is the complete opposite of that. Redirecting your job's output to a log file was the right thing to do.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936956/why-isn-t-my-cron-job-running-at-startup-reboot
+
+---
+
+#### 6959. Connect to Web Server on PC from Phone on Same Network
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, wireless-networking, router, webserver | Score: 5 | Views: 694 | Answers: 1 | Created: 2026-07-06
+
+**解决方案 / Solution**:
+First, make sure the Python server is listening on the LAN interface, not only on localhost. Using bottle.py replace your localhost with 0.0.0.0 , like this: from bottle import * # Run server if __name__ == '__main__': run(host='0.0.0.0', port=8080) Then, from your phone’s browser, navigate to: http://10.0.0.198:8080/ In your ip a output, 10.0.0.198 is your PC’s Wi-Fi/LAN IP address. If it still does not work, check that the phone is on the same network, that the server is not bound only to 127.0.0.1, and ensure that the Linux firewall allows incoming connections on port 8080.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938875/connect-to-web-server-on-pc-from-phone-on-same-network
+
+---
+
+#### 6960. Ubuntu 26.04 terminal font change
+
+**问题描述 / Problem Description**:
+Tags: command-line, fonts, 26.04 | Score: 5 | Views: 644 | Answers: 2 | Created: 2026-07-04
+
+**解决方案 / Solution**:
+Press on the the 3 lines on the top right of the terminal. Go to preferences and it will enter the appearance tab. Scroll down and find the tab Use system font and uncheck it. Then you can choose the font and size of it.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1568154/ubuntu-26-04-terminal-font-change
+
+---
+
+#### 6961. Why isn’t my LUKS encrypted SSD drive unlocking?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, grub, luks | Score: 5 | Views: 86 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+I am not certain you have provided enough information to conclusively answer your question, but a password/passphrase problem is the most likely issue. I can confirm that this has nothing to do with GRUB as GRUB is not on an encrypted partition. It is unlikely but I guess not impossible there was silent corruption on the SSD at just the wrong spot. If you have other reason to believe the SSD Drive is suspect, then yes, this could be it. As @DrMoishePippik is right - use S.M.A.R.T to check the health of the drive and be guided by that. You may also want to back up the LUKS header as well if you are reusing the drive and are worried about this particular failure mode.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934602/why-isn-t-my-luks-encrypted-ssd-drive-unlocking
+
+---
+
+#### 6962. How to troubleshoot disabled PCI MSIs with PEX8114 PCIE to PCIX bridge
+
+**问题描述 / Problem Description**:
+Tags: linux, pci-express | Score: 4 | Views: 108 | Answers: 1 | Created: 2026-05-17
+
+**解决方案 / Solution**:
+This isn't an answer, just comparison information. I see about 48 seconds boot delay with similar errors with LSI 7404EP Fibre Channel HBA (FC949ES chipset) PCIe card in a Dell PowerEdge R310. Kernel is 6.12.90. Moving the interrupts from IO-APIC to MSI via kernel parameter mptbase.mpt_msi_enable_fc=1 is visible in lspci ( Enable- changes to Enable+ ) and in /proc/interrupts ( ioc entries on different lines) but does not have any effect on the boot timeouts/errors. [ 3.622855] *** unrelated but just to show timestamp *** [ 19.529082] mptbase: ioc0: WARNING - Issuing Reset from mpt_config!!, doorbell=0x24000000 [ 19.551443] mptbase: ioc0: Initiating recovery [ 24.281083] mptbase: ioc0: Attempting Retry Config request type 0x7, page 0x0, action 0 [ 24.304726] mptbase: ioc0: Retry completed ret=0x0 timeleft=3750 [ 24.319315] scsi host1: ioc0: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=18 [ 24.347169] mptbase: ioc1: Initiating bringup [ 24.917079] ioc1: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 27.147909] scsi host2: ioc1: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=19 [ 27.175925] mptbase: ioc2: Initiating bringup [ 27.745076] ioc2: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 45.129115] mptbase: ioc2: WARNING - Issuing Reset from mpt_config!!, doorbell=0x24000000 [ 45.153115] mptbase: ioc2: Initiating recovery [ 49.881081] mptbase: ioc2: Attempting Retry Config request type 0x7, page 0x0, action 0 [ 49.905010] mptbase: ioc2: Retry completed ret=0x0 timeleft=3749 [ 49.919472] scsi host3: ioc2: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=16 [ 49.947047] mptbase: ioc3: Initiating bringup [ 50.517067] ioc3: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 52.748010] scsi host4: ioc3: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=17 lspci -vvv # Default parameters 06:00.0 Fibre Channel: Broadcom / LSI FC949ES Fibre Channel Adapter (rev 02) Subsystem: Broadcom / LSI Device 1260 Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx- Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx- Latency: 0, Cache Line Size: 64 bytes Interrupt: pin A routed to IRQ 18 Region 0: I/O ports at f800 [size=256] Region 1: Memory at df4d8000 (64-bit, non-prefetchable) [size=16K] Region 3: Memory at df4e0000 (64-bit, non-prefetchable) [size=64K] Expansion ROM at df300000 [disabled] [size=1M] Capabilities: [50] Power Management version 2 Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-) Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME- Capabilities: [68] Express (v1) Endpoint, IntMsgNum 0 DevCap: MaxPayload 4096 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us ExtTag+ AttnBtn- AttnInd- PwrInd- RBE- FLReset- SlotPowerLimit 0W TEE-IO- DevCtl: CorrErr+ NonFatalErr+ FatalErr+ UnsupReq+ RlxdOrd+ ExtTag+ PhantFunc- AuxPwr- NoSnoop+ MaxPayload 128 bytes, MaxReadReq 512 bytes DevSta: CorrErr- NonFatalErr+ FatalErr- UnsupReq+ AuxPwr- TransPend- LnkCap: Port #0, Speed 2.5GT/s, Width x8, ASPM L0s L1, Exit Latency L0s <64ns, L1 <1us ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp- LnkCtl: ASPM Disabled; RCB 64 bytes, LnkDisable- CommClk+ ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt- LnkSta: Speed 2.5GT/s, Width x8 TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt- Capabilities: [98] MSI: Enable- Count=1/1 Maskable- 64bit+ Address: 0000000000000000 Data: 0000 Capabilities: [b0] MSI-X: Enable- Count=1 Masked- Vector table: BAR=1 offset=00002000 PBA: BAR=1 offset=00003000 Capabilities: [100 v1] Advanced Error Reporting UESta: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UEMsk: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt+ UnxCmplt+ RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UESvrt: DLP+ SDES- TLP+ FCP+ CmpltTO+ CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC+ UnsupReq- ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- CESta: RxErr- BadTLP- BadDLLP- Rollover- Timeout- AdvNonFatalErr- CorrIntErr- HeaderOF- CEMsk: RxErr- BadTLP+ BadDLLP+ Rollover+ Timeout+ AdvNonFatalErr- CorrIntErr- HeaderOF- AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn- MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap- HeaderLog: 00000000 00000000 00000000 00000000 Kernel driver in use: mptfc Kernel modules: mptfc lspci -vvv # mptbase.mpt_msi_enable_fc=1 06:00.0 Fibre Channel: Broadcom / LSI FC949ES Fibre Channel Adapter (rev 02) Subsystem: Broadcom / LSI Device 1260 Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+ Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx- Latency: 0, Cache Line Size: 64 bytes Interrupt: pin A routed to IRQ 29 Region 0: I/O ports at f800 [size=256] Region 1: Memory at df4d8000 (64-bit, non-prefetchable) [size=16K] Region 3: Memory at df4e0000 (64-bit, non-prefetchable) [size=64K] Expansion ROM at df300000 [disabled] [size=1M] Capabilities: [50] Power Management version 2 Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-) Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME- Capabilities: [68] Express (v1) Endpoint, IntMsgNum 0 DevCap: MaxPayload 4096 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us ExtTag+ AttnBtn- AttnInd- PwrInd- RBE- FLReset- SlotPowerLimit 0W TEE-IO- DevCtl: CorrErr+ NonFatalErr+ FatalErr+ UnsupReq+ RlxdOrd+ ExtTag+ PhantFunc- AuxPwr- NoSnoop+ MaxPayload 128 bytes, MaxReadReq 512 bytes DevSta: CorrErr- NonFatalErr+ FatalErr- UnsupReq+ AuxPwr- TransPend- LnkCap: Port #0, Speed 2.5GT/s, Width x8, ASPM L0s L1, Exit Latency L0s <64ns, L1 <1us ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp- LnkCtl: ASPM Disabled; RCB 64 bytes, LnkDisable- CommClk+ ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt- LnkSta: Speed 2.5GT/s, Width x8 TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt- Capabilities: [98] MSI: Enable+ Count=1/1 Maskable- 64bit+ Address: 00000000fee04000 Data: 0022 Capabilities: [b0] MSI-X: Enable- Count=1 Masked- Vector table: BAR=1 offset=00002000 PBA: BAR=1 offset=00003000 Capabilities: [100 v1] Advanced Error Reporting UESta: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UEMsk: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt+ UnxCmplt+ RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UESvrt: DLP+ SDES- TLP+ FCP+ CmpltTO+ CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC+ UnsupReq- ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- CESta: RxErr- BadTLP- BadDLLP- Rollover- Timeout- AdvNonFatalErr- CorrIntErr- HeaderOF- CEMsk: RxErr- BadTLP+ BadDLLP+ Rollover+ Timeout+ AdvNonFatalErr- CorrIntErr- HeaderOF- AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn- MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap- HeaderLog: 00000000 00000000 00000000 00000000 Kernel driver in use: mptfc Kernel modules: mptfc cat /proc/interrupts # Default parameters CPU0 CPU1 CPU2 CPU3 0: 38 0 0 0 IO-APIC 2-edge timer 8: 0 0 0 0 IO-APIC 8-edge rtc0 9: 0 0 0 0 IO-APIC 9-fasteoi acpi 16: 0 0 0 18 IO-APIC 16-fasteoi ioc2 17: 18 0 0 0 IO-APIC 17-fasteoi ioc3 18: 0 185 0 0 IO-APIC 18-fasteoi ioc0 19: 0 0 18 0 IO-APIC 19-fasteoi ioc1 22: 158 0 0 0 IO-APIC 22-fasteoi ehci_hcd:usb1, ehci_hcd:usb2 24: 0 0 0 0 PCI-MSI-0000:00:01.0 0-edge PCIe PME 25: 0 0 0 0 PCI-MSI-0000:00:06.0 0-edge PCIe PME 26: 0 0 0 0 PCI-MSI-0000:00:1c.0 0-edge PCIe PME 27: 0 0 0 0 PCI-MSI-0000:00:1c.4 0-edge PCIe PME 28: 0 0 0 7336 PCI-MSIX-0000:08:00.0 0-edge megasas0-msix0 29: 0 168 0 0 PCI-MSIX-0000:02:00.0 0-edge eno1-0 30: 0 0 240 0 PCI-MSIX-0000:02:00.0 1-edge eno1-1 31: 0 0 0 231 PCI-MSIX-0000:02:00.0 2-edge eno1-2 cat /proc/interrupts # mptbase.mpt_msi_enable_fc=1 CPU0 CPU1 CPU2 CPU3 0: 38 0 0 0 IO-APIC 2-edge timer 8: 0 0 0 0 IO-APIC 8-edge rtc0 9: 0 0 0 0 IO-APIC 9-fasteoi acpi 22: 0 0 0 152 IO-APIC 22-fasteoi ehci_hcd:usb1, ehci_hcd:usb2 24: 0 0 0 0 PCI-MSI-0000:00:01.0 0-edge PCIe PME 25: 0 0 0 0 PCI-MSI-0000:00:06.0 0-edge PCIe PME 26: 0 0 0 0 PCI-MSI-0000:00:1c.0 0-edge PCIe PME 27: 0 0 0 0 PCI-MSI-0000:00:1c.4 0-edge PCIe PME 28: 7677 0 0 0 PCI-MSIX-0000:08:00.0 0-edge megasas0-msix0 29: 0 200 0 0 PCI-MSI-0000:06:00.0 0-edge ioc0 30: 0 0 18 0 PCI-MSI-0000:06:00.1 0-edge ioc1 31: 0 0 0 18 PCI-MSI-0000:07:00.0 0-edge ioc2 32: 18 0 0 0 PCI-MSI-0000:07:00.1 0-edge ioc3 (I do have a device connected to ioc0 , hence the increased interrupt count there.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937693/how-to-troubleshoot-disabled-pci-msis-with-pex8114-pcie-to-pcix-bridge
+
+---
+
+#### 6963. Why can’t I copy and paste on the xrdp login screen on Ubuntu 24.04.4 LTS?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, xrdp, ubuntu-24.04 | Score: 4 | Views: 921 | Answers: 1 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+This is normal behavior: https://github.com/neutrinolabs/xrdp/issues/816 On that Issues thread people have commented, going back to 2017, regarding this. Developers have agreed that implementing copy/paste outside an authenticated session is challenging and may introduce security issues. The issue has not been closed, and in the future they may implement a solution, but as of 2025 one had not yet been made.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936171/why-can-t-i-copy-and-paste-on-the-xrdp-login-screen-on-ubuntu-24-04-4-lts
+
+---
+
+#### 6964. How to prevent DHCP leakage?
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, dhcp | Score: 3 | Views: 606 | Answers: 2 | Created: 2026-07-07
+
+**解决方案 / Solution**:
+First of all, if you have the Wi-Fi clients on their own subnet, that already brings you the that routing (with NAT or without) would bring. It's not the absence of a bridge per se that that brings the need for NAT, but rather the main router's lack of knowledge about where to direct packets meant for 10.10.3.x or other non-local destinations. So if your Wi-Fi clients have a completely different IP address range, then having the bridge doesn't really do you much help anyway. What happens if 10.10.3.7 sends a packet to the Internet? If it has learned 10.0.3.1 (the Raspberry Pi) as its gateway via DHCP, it'll send packets to the Pi, which then routes them (exactly as without a bridge) via the main LAN gateway – and when it's time for the LAN gateway to deliver packets back to 10.10.3.7, it'll have no idea where to send them (since it's a non-local address), again exactly like without the bridge. The only difference is that the two can happen to figure out a direct path through the bridge, bypassing the Raspberry Pi's routing (thanks to ICMP redirects), but that also means they'll be bypassing the Raspberry Pi's firewall too, which is something you don't want (and which wouldn't happen if there were no bridge). So in the end you will have all of the "non-bridge" problems in addition to those caused by the bridge. DHCP requests seem to get into the bridge from eth0 without passing through ebtables or iptables, so they hit the bridge and, once in the bridge, no-one can tell where they came from in order to serve wlan0 differently to eth0. That's the bridge doing its job as expected. But it might be that you're using the wrong ebtables chain (INPUT vs PREROUTING). Keep in mind that DHCPv4 clients and sometimes servers use "raw sockets" which pick up packets at an early state (due to them lacking regular IP source/destination), so while I'm not sure if that bypasses ebtables, it will indeed bypass regular iptables. Nftables supports a few more hooks at which filtering may happen, e.g. the "ingress" hook can drop packets at a very early stage, so it might be able to achieve the filtering you want (but it has no equivalent for egress). If you must have a bridge, a much easier option might to remove the second DHCP server entirely — have a single IP range and a single DHCP server handling the whole network – and instead use ebtables to filter the actual device traffic when it's crossing the bridge. For example, use ebtables to prevent your lightbulb's IP or MAC address from talking to non-LAN IPs and/or to your gateway's MAC. On Linux, you can even enable iptables processing for bridged traffic (there is a sysctl knob for that). (Still, my general opinion is that you shouldn't have a bridge.) It has been suggested that I don't have a bridge and instead NAT Wi-Fi stuff across to eth0, but then I lose flexibility because, as far as the main router is concerned, everything attached to the Raspberry Pi is coming from the Raspberry Pi's IP address. I would have no way of letting a particular Wi-Fi attached device out to the internet if I wanted to. Okay, I don't currently need this but I can see that it would be a useful thing to do for the future. Keep in mind that NAT isn't the thing that forwards packets through a router (i.e. the Pi). The router already forwards packets by nature of being a router, while NAT is something that's optionally added on top of that, typically as a workaround for something – it isn't automatically mandatory to have when not bridging. The main purpose of NAT in this case would be to to work around the inability to define routes from your main router (towards other subnets). But if your main router can do that, then you don't need NAT at all – you can route across subnets while preserving the source address (i.e. the default way IP routing works). If your main router doesn't allow you to customize its routes – replace it with a better one that does. Alternatively, NAT rules in iptables support all of the matching operators filter rules do. So if the main router doesn't allow custom routes, there's still a middle ground where you NAT traffic if it goes to the Internet (towards your main router), but don't NAT traffic if it goes to your PCs or home servers (in which you can practically always define routes, it's just more of a bother doing it on every PC). There's also yet another option that works without bridging. The Pi can use proxy ARP to answer ARP queries on the "main" side on behalf of all the devices it has on the WLAN side. This way it can "attract" traffic for some IP addresses within the same subnet, allowing the Pi to route them further (and apply firewall rules). (Some dedicated access points even do proxy ARP over a bridge for efficiency reasons.) With ARP proxying, both sides could appear to be in the same subnet and share an IP address range (while in reality being different subnets with their own DHCP servers), and the main router – or your PCs on the main side – wouldn't need to know or care that there's another gateway in the middle.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938917/how-to-prevent-dhcp-leakage
+
+---
+
+#### 6965. How to quickly copy the current typed in command in shell to clipboard?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, clipboard, wayland | Score: 3 | Views: 862 | Answers: 5 | Created: 2026-07-04
+
+**解决方案 / Solution**:
+In .bashrc , add this command: bind -x '"\C-y": "echo -n \"$READLINE_LINE\" | wl-copy"' Change C-y with the keyboard shortcut you prefer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938856/how-to-quickly-copy-the-current-typed-in-command-in-shell-to-clipboard
+
+---
+
+#### 6966. None zero mismatch_cnt count mdadm
+
+**问题描述 / Problem Description**:
+Tags: linux, software-raid, mdadm, raid6 | Score: 3 | Views: 203 | Answers: 1 | Created: 2026-04-27
+
+**解决方案 / Solution**:
+The md manpage says there are some cases where a mismatch_cnt would be normal, but: On a truly clean RAID5 or RAID6 array, any mismatches should indicate a hardware problem at some level - software issues should never cause such a mismatch. See if you can increase verbosity for the next RAID check, and check the log afterward. That might tell you which drive is causing those mismatches. Worst case, remove your drives one-by-one and check for badblocks. If you can add a spare to take over for the removed drive, you'd minimize your risk.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937101/none-zero-mismatch-cnt-count-mdadm
+
+---
+
+#### 6967. Would the planned depreciation of ZFS on Ubuntu 26.10 break Root on ZFS setups?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot, zfs | Score: 3 | Views: 147 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+You are affected by Ubuntu's Streamlining secure boot for 26.10 proposal if all of these are true: Secure Boot via UEFI firmware grub boot loader, the default unless you are doing something exotic. grub*signed packages contain the proposed change kernel or initrd files on one of the no longer supported file systems: btrfs, hfsplus, xfs, zfs. Thus the references to the /boot volume. Or, you are affected if your /boot was on a complex dm storage other md raid1. /boot on LVM, md raid, and LUKS are also to be removed. An affected system will not be bootable in a release with this change, without some action. The bootloader will no longer be able to find the kernel file. This is not in the 26.04 LTS. You can stay on that for a few years to evaluate options if necessary. Secure boot is a notable feature of system integrity. Having it then losing it is not ideal. Getting closer to Ubuntu's defaults implies creating a /boot partition and formatting it ext4. Then can you use their Secure Boot shim and their grub setup. Of course there are alternative boot managers, at the price of some complexity of not being the default. ZFSBootMenu has root on ZFS as a feature. rEFInd has a Secure Boot feature and goes through the trouble of describing options from copying over signed shims to taking over with your own keys.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936717/would-the-planned-depreciation-of-zfs-on-ubuntu-26-10-break-root-on-zfs-setups
+
+---
+
+#### 6968. How do I remove Copilot from Microsoft Edge?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, microsoft-edge, microsoft-copilot | Score: 3 | Views: 594 | Answers: 1 | Created: 2026-01-24
+
+**解决方案 / Solution**:
+Edit: As of Microsoft Edge 148.0.3967.54, [1] you can now easily disable Copilot from the Settings menu. This also mitigates the oddities related to group policies in Edge. If you're using an older version, you really should update your browser. To disable Copilot from the settings menu, go to “Settings” >> “Copilot and AI” and disable “Show Copilot button in toolbar”. This doesn't disable Copilot in the DevTools pane, however. To do that (thanks to Ray - Rip SE ), open DevTools, then in the three-dot menu (upper-right), go to Settings and disable: “Preferences” >> “Console” >> “Show AI summaries for console messages” “Experiments” >> “AI Explain Console Error” “Experiments” >> “Enable CSS Copilot”
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934112/how-do-i-remove-copilot-from-microsoft-edge
+
+---
+
+#### 6969. How to permanently enable Wake-on-LAN (WoL) in Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, wake-on-lan | Score: 3 | Views: 1664 | Answers: 1 | Created: 2025-12-18
+
+**解决方案 / Solution**:
+tl;dr enable in BIOS/UEFI setup run nmcli connection modify <connection-name> 802-3-ethernet.wake-on-lan magic check status via sudo ethtool <device-name> | grep Wake-on: (output should be Wake-on: g Firstly, make sure Wake-on-LAN is enabled in BIOS/UEFI setup utility. The instructions here depend on the manufacturer of your motherboard, hence follow https://askubuntu.com/a/179959/34415 to find out your model and then google how to enter setup utility and enable wake-on-lan feature. Second, run nmcli connection show . This will list all your connections. Typically WoL is only available on Ethernet network cards, although some WiFi network cards also support it. An easy way to identify your ethernet connection is to look for ethernet in the Type column. Once you have identified your connection, note its name in the Name column and device in the Device column. Finally, run the following command. Don't forget to replace <connection-name> with connection name from previous step. nmcli connection modify <connection-name> 802-3-ethernet.wake-on-lan magic To verify that it worked, run this command to check that WoL is enabled: sudo ethtool <device-name> | grep Wake-on: In the output it should contain something like Wake-on: g . If it says Wake-on: d , then WoL is still disabled. Output will also contain Supports Wake-on: ... . If the g is not listed in that line, then your connection does not support Wake-on-LAN, e.g. because it is disabled in setup utility or manufacturer choses not to implement it in hardware.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932619/how-to-permanently-enable-wake-on-lan-wol-in-ubuntu
+
+---
+
+#### 6970. Limit overall memory usage for all logged in users via pam_cgfs.so and cgroups-v2
+
+**问题描述 / Problem Description**:
+Tags: linux, memory, debian, pam, cgroup | Score: 2 | Views: 219 | Answers: 1 | Created: 2026-04-26
+
+**解决方案 / Solution**:
+Debian 13 uses systemd as the init system and service manager. Systemd itself manages the entire cgroupsv2 hierarchy and already puts each user in a separate per-uid/per-session cgroup through pam_systemd . (See systemd-cgls for the hierarchy it creates, and loginctl for the high-level session management.) Because of that – as noted in the same manual page you linked – pam_cgfs doesn't create new hierarchies when it detects that systemd is in use: Systems with a systemd init system are treated specifically, both with respect to cgroupfs v1 and cgroupfs v2. For both, cgroupfs v1 and cgroupfs v2, the module checks whether systemd already placed the user in a cgroup it created user.slice/user-$uid/session-n.scope by checking whether $uid == login uid. If so, the login user chown the session-n.scope, else a cgroup is created as outlined above ( user/$user/n ) and chown it to login uid. If the init system has already placed the login user inside a session specific group, the pam_cgfs.so module is smart enough to detect it and re-use the cgroup. Since you already have a common "users" cgroup created by systemd, pam_cgfs is redundant here; you can directly edit the systemd configuration for the cgroup. The common parent for all user sessions (including also their per-user systemd instances) is /user.slice : $ cat /proc/self/cgroup 0::/user.slice/user-2001.slice/session-1772.scope which you can configure using systemctl edit user.slice , systemctl set-property , or the manual way of /etc/systemd/system/user.slice.d/whatever.conf . Available parameters are documented in systemd.slice(5) and systemd.resource-control(5) . For example, you could add: [Slice] MemoryMax=115G Edits to cgroup-based parameters are applied immediately. The current status of the memory limit will be shown in systemctl status user.slice . Parameters can also be mass-applied to the per-user slices by editing user-.slice (with a trailing dash); this will act as a "template" for every user-UID.slice (e.g. if you wanted to limit each individual user to 2G max). Of course, editing user-2001.slice will apply parameters to that UID only. You can also do the opposite and provide services with a minimum reservation by adding MemoryMin= to system.slice . (See systemd-cgls for the hierarchy.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937071/limit-overall-memory-usage-for-all-logged-in-users-via-pam-cgfs-so-and-cgroups-v
+
+---
+
+#### 6971. How to change Grub cmdpath to be the same partition as grub prefix?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, boot, partitioning, grub | Score: 2 | Views: 190 | Answers: 2 | Created: 2026-02-18
+
+**解决方案 / Solution**:
+I created a virtual machine with Windows 10 22H2 and Ubuntu 24.04.4 installed to BIOS boot from GRUB. The output below shows how the virtual machine is configured. This should be similar to your configuration. dma@dma-VirtualBox:~$ sudo fdisk -l /dev/sda Disk /dev/sda: 680.13 GiB, 730278658048 bytes, 1426325504 sectors Disk model: VBOX HARDDISK Units: sectors of 1 * 512 = 512 bytes Sector size (logical/physical): 512 bytes / 512 bytes I/O size (minimum/optimal): 512 bytes / 512 bytes Disklabel type: dos Disk identifier: 0xe03c5347 Device Boot Start End Sectors Size Id Type /dev/sda1 * 2048 206847 204800 100M 7 HPFS/NTFS/exFAT /dev/sda2 206848 912738788 912531941 435.1G 7 HPFS/NTFS/exFAT /dev/sda3 912740352 1425094655 512354304 244.3G 5 Extended /dev/sda4 1425094656 1426323455 1228800 600M 27 Hidden NTFS WinRE /dev/sda5 912742400 913766399 1024000 500M ef EFI (FAT-12/16/32) /dev/sda6 913768448 927399935 13631488 6.5G 82 Linux swap / Solaris /dev/sda7 927401984 1425094655 497692672 237.3G 83 Linux Partition table entries are not in disk order. dma@dma-VirtualBox:~$ ls -l /boot total 102088 -rw-r--r-- 1 root root 302820 Jan 15 07:44 config-6.17.0-14-generic drwxr-xr-x 4 root root 16384 Dec 31 1969 efi drwxr-xr-x 5 root root 4096 Mar 2 22:28 grub lrwxrwxrwx 1 root root 28 Mar 2 22:13 initrd.img -> initrd.img-6.17.0-14-generic -rw-r--r-- 1 root root 76411224 Mar 2 22:13 initrd.img-6.17.0-14-generic lrwxrwxrwx 1 root root 28 Mar 2 22:13 initrd.img.old -> initrd.img-6.17.0-14-generic -rw-r--r-- 1 root root 142796 Apr 8 2024 memtest86+ia32.bin -rw-r--r-- 1 root root 143872 Apr 8 2024 memtest86+ia32.efi -rw-r--r-- 1 root root 147744 Apr 8 2024 memtest86+x64.bin -rw-r--r-- 1 root root 148992 Apr 8 2024 memtest86+x64.efi -rw------- 1 root root 10471777 Jan 15 07:44 System.map-6.17.0-14-generic lrwxrwxrwx 1 root root 25 Mar 2 22:13 vmlinuz -> vmlinuz-6.17.0-14-generic -rw------- 1 root root 16738376 Jan 15 08:20 vmlinuz-6.17.0-14-generic lrwxrwxrwx 1 root root 25 Mar 2 22:13 vmlinuz.old -> vmlinuz-6.17.0-14-generic dma@dma-VirtualBox:~$ When booted to GRUB, I entered the following to get the values set for root and prefix . grub> echo $root hd0,msdos7 grub> echo $prefix (hd0,msdos7)/boot/grub You posted the following. I have tried to repair it using this link via grub command line but after setting root to the hd07 parition and running boot , it fails to load and I get "can't find root" in initramfs here I was able to enter the following to get Ubuntu to boot. grub> linux /boot/vmlinuz root=/dev/sda7 ro grub> initrd /boot/initrd.img grub> boot Note: In testing, when I incorrectly set root= , I was then greated with an (initramfs) prompt.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935025/how-to-change-grub-cmdpath-to-be-the-same-partition-as-grub-prefix
+
+---
+
+#### 6972. Is there a way to draw shapes other than rectangles and ellipses in GIMP?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, gimp | Score: 2 | Views: 100 | Answers: 1 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+In GIMP you can draw various shapes using the Gfig (Geometrical figures) Filter, available through Filter -> Render -> Gfig . The official documentation is here , and you should read it to understand the full scope of the filter. When you run the filter, a dialogue windows opens. From the top, you can choose among various shapes, for example: choose the "Star" shape from the top menu, left side Insert the number of sides in the "tool options" Choose the stroke, brush, and fill settings and color click-and drag in the 'object details' pane to create the shape at this point, you will see the shape both in the 'object details', and also in the window of your full drawing. To modify your object, you'll need to use the tools in the middle of the toolbar (move object / move single point / copy object / delete object) you can create more than one object, and arrange them top/bottom with the up/down arrows on the right side of the toolbar. The last three icons to the far right are to select single objects, or all objects at once. This is important if you want to give different strokes or fills to the single objects. once you hit 'close', you'll have the shapes on a separate layer. if the layer is selected, you can re-open Gfig and modify the shapes. Although the tool is quite self-explaining once you play with it, there's a video tutorial someone might find useful.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934567/is-there-a-way-to-draw-shapes-other-than-rectangles-and-ellipses-in-gimp
+
+---
+
+#### 6973. Why are VS Code extensions not loading on Ubuntu?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, visual-studio-code, extension | Score: 2 | Views: 497 | Answers: 1 | Created: 2026-01-24
+
+**解决方案 / Solution**:
+When I was able to install and turn on VPN, the problem was solved. I assume that the problem was due to some specific blocking from the Internet provider.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934091/why-are-vs-code-extensions-not-loading-on-ubuntu
+
+---
+
+#### 6974. How to make it so that Brave will re-open after shutdown across all workspace as it was before the shutdown?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, debian, reboot, brave | Score: 1 | Views: 137 | Answers: 2 | Created: 2026-06-13
+
+**解决方案 / Solution**:
+I think you can do it with Brave and xdotool . As @music2myear comments, set up Brave to save your last tabs. Note that what you call 'Workspaces' are known as 'desktops' in X. You can also start Brave, from a command prompt or in a script, with a URL as argument and/or --new-window and --new-tab options, see https://linuxcommandlibrary.com/man/brave Follow these steps: Open all your windows and tabs. Identify a unique title for each window. Form a command like this for each window: xdotool search --onlyvisible --name {AS FOUND} set_desktop_for_window {WS NUMBER} {AS FOUND} is the title from the previous step. {WS NUMBER} is the desktop ( xdotool terminology) / workspace (your name) where you want to place this window. There are other, more complex, ways of finding the correct window for xdotool , see for example https://unix.stackexchange.com/a/254854/321108 Test the commands, when you are happy, copy them into a script to be executed when you log on.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938408/how-to-make-it-so-that-brave-will-re-open-after-shutdown-across-all-workspace-as
+
+---
+
+#### 6975. What is the "upper bar" in Byobu, and how to enable it?
+
+**问题描述 / Problem Description**:
+Tags: linux, byobu, statusbar | Score: 1 | Views: 61 | Answers: 1 | Created: 2026-05-21
+
+**解决方案 / Solution**:
+I'm pretty sure the man page is simply wrong, or perhaps obsolete, when it says it is supposed to be displayed at the top right. Note how the quote you have posted is found in the "STATUS NOTIFICATIONS" section which starts with (emphasis mine): byobu supports a number of unique and interesting status notifications across the lowest two lines in the screen . Each of the entries listed in that section, including the "whoami" you are asking about, can be enabled using byobu-config . Just run byobu-config , then select "Toggle status notifications": That will take you to a list where you can enable and disable all of the notifications listed in the man page. Use the arrow keys to scroll down to "whoami", then press space to enable it, then tab to move to the "Apply" option and enter to apply. After that, exit byobu-config , start a new byobu session and you should see something like this:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937801/what-is-the-upper-bar-in-byobu-and-how-to-enable-it
+
+---
+
+#### 6976. Can the default LocalSocket configuration of clamd.config, that is defined at install, be considered safe to use, including without firewall?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, security, clamav | Score: 1 | Views: 54 | Answers: 1 | Created: 2026-05-20
+
+**解决方案 / Solution**:
+You can verify operational state directly, without having to extrapolate it from the configuration. Start the daemon, then use netstat -l or ss -l to verify what sockets it has created. For TCP sockets, you could use: # netstat -lptn # ss -lptn (Just in case, also pay attention to sockets held by pid 1 (systemd), see also systemctl list-sockets .) If there are no TCP or UDP sockets, only Unix (local) sockets, then the service is not accessible from the network, and therefore not subject to direct attacks from the network. (TCP/UDP sockets bound to ::1 or 127.0.0.1 or any other 127.x.x.x are also local-only.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937786/can-the-default-localsocket-configuration-of-clamd-config-that-is-defined-at-in
+
+---
+
+#### 6977. Debian Trixie questions on AArch64 (ARM64) Laptop (Snapdragon-X)
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, grub | Score: 1 | Views: 65 | Answers: 1 | Created: 2026-05-15
+
+**解决方案 / Solution**:
+Is it correct that there is no 'shim' stuff so that I HAVE TO disable UEFI Secure Boot to boot a Debian Trixie? The grub EFI binary seems not to be signed by Microsoft. You have to disable Secure Boot on Snapdragon X platforms because Microsoft (who were foolishly left as the sole steward of Secure Boot signing by the UEFI Forum) introduced a two-tier system for Secure Boot, whereas there is one Secure Boot trust chain to validate the Windows Secure Boot stuff, and a different Secure Boot trust chain to validate everything else (including the Linux Shim). This second trust-chain is often referenced as "third party", in the Secure Boot menu of UEFI firmwares that allow you to choose which trust chains the platform should enable. However, Microsoft are currently abusively pushing for OEMs wishing to produce systems that support Windows ARM64 to only have the Windows Secure Boot trust chain, and remove the third party one altogether, which means that you have to disable Secure Boot if you want to boot Linux. This is pure anti-competitive behaviour from Microsoft, that should be seen as illegal (since they got sanctioned for it in the past), so people need to spread the word , because it is certainly not in the interest of the OEMs to make their machines less attractive to Linux users, and there is also no technical challenge to having both trust chains, as it's just a matter of having the relevant certificate in a DB that is designed, per UEFI specs, to accept multiple ones, so the pressure to do has to come from Microsoft themselves. And it's definitely not the first time Microsoft has attempted to hinder the installation of Linux on ARM through their exclusive control of Secure Boot, per the WinRT fiasco of some years ago. Oh, and the Shim EFI binary (I think you meant Shim instead of GRUB) is properly signed by Microsoft for Secure Boot. But that still doesn't prevent Microsoft to push for it not to be allowed on platforms on which they have some influence. Booting Debian Trixie just shows the menu (in the EFI binary, no Linux kernel booted). Once I select 'rescue system', the laptop just reboots. Trixie comes with Linux 6.12 and I googled that important Snapdragon-X patches are part of more recent 6.19. None of Debian or Ubuntu latest releases (even the recent 26.04 release for Ubuntu) properly support Snapdragon X based systems. You will usually find that they can attempt boot (once you have disabled Secure Boot) but either freeze or reboot later on, due to missing hardware drivers, especially when it comes to the GPU. Please be mindful that it's not because support starts to be added for a specific CPU in the kernel that it automatically means that platforms using that CPU will start working with the next distro that uses that kernel, as it takes a lot more than CPU support to have a working Linux system. Support for Snapdragon X platforms should come to distros eventually, but it's still way too early for that yet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937625/debian-trixie-questions-on-aarch64-arm64-laptop-snapdragon-x
+
+---
+
+#### 6978. Azure VPN Client fails with "Couldn't set DNS server/domains" on Linux, but works on Windows
+
+**问题描述 / Problem Description**:
+Tags: linux, vpn, azure | Score: 1 | Views: 158 | Answers: 2 | Created: 2026-05-08
+
+**解决方案 / Solution**:
+Finally, I found a solution to this. @Fonseca's input gave me some ideas. First, I needed to install resolvconf, and since I am using systemd on Arch, I did: yay -S systemd-resolvconf And, I enabled and started it: sudo systemctl enable --now systemd-resolved As well, I needed to add the symlink, for it to be activated: sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf I thought this was it. However, it still did not work. The final "trick" was that I had to add myself to the network group: sudo usermod -aG network [USERNAME] After a reboot all worked well!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937449/azure-vpn-client-fails-with-couldnt-set-dns-server-domains-on-linux-but-work
+
+---
+
+#### 6979. How to replicate a partition without RAID 1?
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, raid | Score: 1 | Views: 86 | Answers: 1 | Created: 2026-04-28
+
+**解决方案 / Solution**:
+Software storage redundancy for the bootloader is mostly a matter of mirroring or copying, to make a somewhat manual switch of boot disk faster. The least common denominator UEFI firmware is not going to understand disk arrays, and BIOS definitely will not either. Implementation can be file copying when that is convenient, and sometimes block level mirroring is possible. Note that for early boot of Linux, the choice of mirroring supported by your chosen distro may be limited, probably to just md RAID1. As a RAID type that mostly just looks like two disks kept in sync with each other. But also, Ubuntu 26.10 is considering only allowing single partition or md RAID1 for /boot , in their Secure Boot with grub configuration. ZFS for example would not be supported for /boot, although you could switch to ZFSBootMenu if you cared about that. I said md RAID1 members looks mostly like a copy of each other, however there is metadata. Only file system UEFI system partition must support is fat, and mdraid metadata at the front causes problems if you pretend it is a single disk. In this situation, I would suggest copying to each ESP. Ubuntu will offer to do this for you when reconfiguring a grub-efi* package , if you have multiple ESPs, with the correct partition type UUID and all that. Other distros could be configured to do similar things, although you might need to ask for the feature or script it yourself. Two disks, each with an ESP partition, and a /boot on raid1 partition, can be configured similar to this . If instead of UEFI boot you have legacy BIOS, the ESP partition is not relevant, and it becomes a hack to be sure both mirror members are bootable. I think you can install to MBR on both, have /boot on a Linux file system like ext4, and boot each disk separately. Alternatives exist that do not requiring keeping two disks in sync. Rescue a system by reinstalling the bootloader to the other disk. Boot recovery media, reinstall kernel packages or bootloader, reconfigure such that it regenerates initrd and all that. Consider network boot. With a local storage array and clever DHCP options, firmware capable of PXE removes the requirement for a boot disk. With a decent enough firmware, or a full featured implementation like iPXE, its possible to serve over http.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937136/how-to-replicate-a-partition-without-raid-1
+
+---
+
+#### 6980. How to avoid freezes and show a black screen when using a 2x2 mosaic when input is offline for one or more cameras with FFmpeg?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ffmpeg | Score: 1 | Views: 89 | Answers: 1 | Created: 2026-04-28
+
+**解决方案 / Solution**:
+Revised command: ffmpeg \ ... -i rtsp://url_cam_1 \ ... -i rtsp://url_cam_2 \ ... -i rtsp://url_cam_3 \ ... -i rtsp://url_cam_4 \ -filter_complex \ "[0:v] setpts='(RTCTIME - RTCSTART) / (TB * 1000000)', scale=960x540, tpad=stop=-1:stop_mode=add:color=black [a0]; \ [1:v] setpts='(RTCTIME - RTCSTART) / (TB * 1000000)', scale=960x540, tpad=stop=-1:stop_mode=add:color=black [a1]; \ [2:v] setpts='(RTCTIME - RTCSTART) / (TB * 1000000)', scale=960x540, tpad=stop=-1:stop_mode=add:color=black [a2]; \ [3:v] setpts='(RTCTIME - RTCSTART) / (TB * 1000000)', scale=960x540, tpad=stop=-1:stop_mode=add:color=black [a3]; \ [a0][a1][a2][a3]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" \ -map "[v]" \ -c:v libx264 -g 15 -b:v 1200k -profile:v baseline -preset:v faster -tune zerolatency -an \ -f flv -r 15 rtmp://localhost/live_shp_cam & tpad filter added to each cam to produce black frames after EOF. Remove -re from each input. Not required for actual live inputs.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937133/how-to-avoid-freezes-and-show-a-black-screen-when-using-a-2x2-mosaic-when-input
+
+---
+
+#### 6981. Wayland using wrong backlight device on Ubuntu (AMD + NVIDIA laptop)
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, brightness, wayland | Score: 1 | Views: 137 | Answers: 1 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+Unlike X11 which has Xorg, Wayland doesn't have a single display server – GNOME Shell (Mutter) acts as its own display server and directly handles the backlight controls. Mutter's src/backends/meta-udev.c unfortunately looks at connector mapping last when the monitor is internal – first it picks whichever backlight device has ATTR{type} of firmware , or if none then platform . Only then does it attempt to check the parent drm_connector device of each backlight device. There does not seem to be any override, just like there wasn't any workaround earlier when the backlight handling code was still part of gnome-settings-daemon. You might be able to trick it into skipping nvidia_0 by doing: # echo raw > /run/fake_type # mount --bind /run/fake_type /sys/class/backlight/nvidia_0/type as it looks for ATTR{type}=="raw" devices only as the absolute last resort. Kernel parameters: Tried acpi_backlight=native ➔ Absolutely no change. Tried acpi_backlight=video ➔ Removed previous devices and created a new acpi_video0 device, which was just as broken as nvidia_0 . As far as I know, the proprietary nvidia driver does not participate in acpi_backlight logic. Wrote a rule to suppress NVIDIA: SUBSYSTEM=="backlight", KERNEL=="nvidia_0", ATTR{brightness}="0" . That doesn't suppress the device; it merely sets the brightness level to zero. The brightness attribute represents the current level (which can legitimately be zero) and not whether the device is usable.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936931/wayland-using-wrong-backlight-device-on-ubuntu-amd-nvidia-laptop
+
+---
+
+#### 6982. Why does VirtualBox report a much smaller “Actual Storage” size to the “Virtual Size” when the guest OS says the disk is full?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, virtualbox | Score: 1 | Views: 165 | Answers: 1 | Created: 2026-03-15
+
+**解决方案 / Solution**:
+So the question is, why is VirtualBox reporting the wrong “Actual Size?” VirtualBox is showing the correct actual size. Your current drive is derived from a collection of .vdi files. To get an idea of the amount of space used, you could make a copy of the current snapshot. Below is an example of how to do this. The example was take from a Windows 11 virtual machine that I happened to have installed. Below show Windows 11 virtual machine named "Windows 11". Below the settings show the name of the NVMe drive is Windows 11_2.vdi . Below shows the Windows 11_2.vdi file is attached to the snapshot named "cloned" of the "Windows 11" virtual machine. Below shows the {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}.vdi file is attached to the "Windows 11" virtual machine. This is shown in the snapshots of the "Windows 11" virtual machine as "Current State (changed)". To get a idea of how must actual space is being used, I used VirtualBox to make a copy of the {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}_copy.vdi file. This copy is a merger of the Windows 11_2.vdi and {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}.vdi files. Below shows the copy, which is named {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}_copy.vdi . Since I have no need for this file, I removed and deleted the file after posting the image below. Below is the space used by 3 of the 4 partitions on the drive. The missing second partition is not shown, which a 16 MiB System Reserved required by Microsoft. You can see the actual size of the {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}_copy.vdi file is larger than the space used by the current state of the virtual machine, but less that the sum of the actual size of the Windows 11_2.vdi and {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}.vdi files. Note: I used diskpart to temporarily assign the letter S: to the first partition (EFI System Parition) and the letter R: the fourth partition (Recovery Partition). Is there huge overhead from the snapshots? A dynamically allocated .vdi file can automatically grow in size as needed until the virtual drive becomes full, but does not automatically shrink when files are permanently deleted. See the links below for more information. How to change fixed size VDI with modifyhd command in Windows? How to compact VirtualBox's VDI file size? And is it safe to enlarge the disk via the graphical interface (or VBoxManage modifyhd Lubuntu24.04LTS.vdi --resize 50000 )? You need to add space to the .vdi file shown to be attached to the current state of your virtual machine. By looking at the above images, one can see this would be {6a9aafef-e0bb-44cf-8b87-5fd8728ef632}.vdi for my "Windows 11" virtual machine. In your case, it is highly unlikely the Lubuntu24.04LTS.vdi file is the one shown to be attached to the current state of your virtual machine. Note: Using VirtualBox to increasing the size of a drive with a GPT does not move the secondary (backup) header and table to the end of the drive.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935872/why-does-virtualbox-report-a-much-smaller-actual-storage-size-to-the-virtual
+
+---
+
+#### 6983. apt-get python not installable but it is
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, python, deb | Score: 1 | Views: 64 | Answers: 1 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+Why does it not find my python-version The package manager treats python version 2 and python version 3 as two completely different entities. Since Python 2 has been removed from the default repositories of modern Ubuntu versions, the system reports it as "not installable". how can I tackle this? One solution is using a Docker container using an older Ubuntu base (like ubuntu:18.04) where Python 2 is native.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935847/apt-get-python-not-installable-but-it-is
+
+---
+
+#### 6984. How to configure excluded dirs for updatedb.plocate in Kubuntu 25.10?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, kubuntu | Score: 1 | Views: 118 | Answers: 1 | Created: 2026-02-19
+
+**解决方案 / Solution**:
+The settings screen in your screenshot is not for plocate – neither plocate nor its predecessor mlocate have the capability to index file contents. It is instead for KDE's own Baloo indexer. Behavior of locate/updatedb is configured exclusively through /etc/updatedb.conf .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935082/how-to-configure-excluded-dirs-for-updatedb-plocate-in-kubuntu-25-10
+
+---
+
+#### 6985. Which block size to give to fsck?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, hard-drive, bad-sectors, scan-disk | Score: 1 | Views: 80 | Answers: 1 | Created: 2026-02-07
+
+**解决方案 / Solution**:
+My suggestion is to use the block size for the file system. The Server Fault answer How do I determine the block size of an ext3 partition on Linux? shows how to use stat to get the block size for a file system partition. The suggested badblocks command is the following, where the sub-process $(stat -fc %s /dev/sdb1) obtains the block size of /dev/sdb1 : badblocks -wsv -b $(stat -fc %s /dev/sdb1) /dev/sdb1 <last_block> <first_block> > badblocks.txt The <last_block> <first_block> arguments need to be supplied, as per the ? ? placeholder in the question. Note that I don't have a suspect hard drive to test the above suggestion on, and this answer was written by reading man pages rather than actually testing the command.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934661/which-block-size-to-give-to-fsck
+
+---
+
+#### 6986. Why is my T460 Thinkpad laptop stuck on sleep/suspend?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, sleep, hibernate, suspend | Score: 1 | Views: 242 | Answers: 2 | Created: 2026-02-01
+
+**解决方案 / Solution**:
+If Windows Hibernate is enabled, and the system was last "shut down" using Hibernate rather than a full shutdown, it marks the system partition "dirty", so the next boot will go to Windows rather than grub. In BIOS, there may be a setting for Sleep States. C heck that S1 and S3, in particular, are enabled . Check /proc/acpi/wakeup to see which event are enabled to wake from sleep. N.B.: Some versions of Ubuntu do not implement locking after sleep or hibernation. While that might be acceptable if you're the only being with access to that PC, it's inadvisable in a shared space. Even a kitten playing on the keys could cause issues ;-)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934397/why-is-my-t460-thinkpad-laptop-stuck-on-sleep-suspend
+
+---
+
+#### 6987. How to set up my Asus EZ N USB WiFi dongle on Ubuntu 24.04?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, wireless-networking | Score: 1 | Views: 183 | Answers: 1 | Created: 2026-01-16
+
+**解决方案 / Solution**:
+The Realtek RTL8188SU circuit in the WiFi adapter you use might require new drivers added to the Linux kernel, if the device was not automatically installed. If the adapter is already working, at the top-right of the screen, there should be a "pie slice" (sector) WiFi symbol, showing connectivity. Click on that symbol to configure WiFi SSID and authentication. If there is no WiFi symbol, click on the top right and ensure that Airplane Mode is not selected. If there is still no WiFi symbol, try shutting down completely, leaving the USB WiFi adapter connected. Then restart the computer. Then run following in Terminal to perform an update: sudo apt -y update && sudo apt -y full-upgrade Shut down and reboot again, and see if WiFi works. If that doesn't work, try reinstalling Ubuntu with that WiFi adapter plugged in. For older versions of Ubuntu, a driver might have been needed to be added into the Linux kernel , but Ubuntu 24.04 should have the Realtek RTL8188SU driver preinstalled.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933792/how-to-set-up-my-asus-ez-n-usb-wifi-dongle-on-ubuntu-24-04
+
+---
+
+#### 6988. Chromium ignores AutoSelectCertificateForUrls policy
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, chromium, client-certificate | Score: 1 | Views: 155 | Answers: 1 | Created: 2026-01-03
+
+**解决方案 / Solution**:
+Luckily I got help from the google chrome support group. Turns out I had a syntax error in my json. The closing quote for the URL wasn't escaped. The correct syntax is: { "AutoSelectCertificateForUrls": [ "{\"pattern\":\"https://example.com/\",\"filter\":{\"ISSUER\":{\"CN\":\"MYCA\"}}}" ] }
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933229/chromium-ignores-autoselectcertificateforurls-policy
+
+---
+
+#### 6989. Wayland No Longer Considered Experimental For Linux Mint's Next Cinnamon Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uqsx7h/wayland_no_longer_considered_experimental_for/
+
+---
+
+#### 6990. OpenMandriva fell victim to sabotage by developer Mumble
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ur469u/openmandriva_fell_victim_to_sabotage_by_developer/
+
+---
+
+#### 6991. Thoughts on Thunderbird Early Bird?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ur21x5/thoughts_on_thunderbird_early_bird/
+
+---
+
+#### 6992. Working as a new Patent Examiner. A lot of my fellow new examiners seem to have very outdated (20-25 years ago) views on Linux :0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uqu5na/working_as_a_new_patent_examiner_a_lot_of_my/
+
+---
+
+#### 6993. Valve Proton 11 released, adds support for Resident Evil and Dino Crisis
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uqljnf/valve_proton_11_released_adds_support_for/
+
+---
+
+#### 6994. DankMaterialShell (DMS) 1.5 "The Wolverine" Released - A Linux shell for Wayland Compositors
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ur2ttk/dankmaterialshell_dms_15_the_wolverine_released_a/
+
+---
+
+#### 6995. 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uqmvnt/15yearold_ghostlock_flaw_enables_root_and/
+
+---
+
+#### 6996. Nick Desaulniers returns as a maintainer for LLVM/Clang support in the kernel: "I'm coming back. I will return. I will possess your body, and I'll make LKML burn."
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uqt0th/nick_desaulniers_returns_as_a_maintainer_for/
+
+---
+
+#### 6997. A GUI for 7-Zip on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uquexf/a_gui_for_7zip_on_linux/
+
+---
+
+#### 6998. [V2EX] cyber abuse 是因为没有 cyber kyc 导致的吗？
+
+**问题描述 / Problem Description**:
+主要就是 用 skill ，扫扫项目，账号用俩月了 我之前 5 月份有个账号用了孟加拉的一个 KYC ，然后被封了，然后新号我就没有 KYC ，就只充钱一直用，然后这个月月初 才充的 200 刀，用了几天就给我发邮件说 Cyber abuse 了，心疼死我了😭，我还有两个用量重置一直都还没用。 不知道申诉有没有用，用个 cyber kyc 会稳一些吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225969#reply0
+
+---
+
+#### 6999. [V2EX] Facebook 和 Google 的开发团队在想什么
+
+**问题描述 / Problem Description**:
+今天在微信某公众号看到一则文章，标题大约是"互联网巨头正在拋弃 Git"，点进去一看原来是点名了 M 和 G 两"巨头" ── 他们把所有项目放同个 repo 里（"monorepo"），结果现在 Git 不够用，于是他们转向别的版本管理框架。 该文指出了 monorepo 的几个"好处"，还痛斥 Linus 不为 M 和 G 的需求考虑。我看完觉得：难道拆分 repo 这个全世界 90% 以上的 git 用户都在用的 best practice 有问题吗？难道不是这两家前巨头在逆水行舟？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225963#reply2
+
+---
+
+#### 7000. [V2EX] 寻一正经白剽技术宅的道友
+
+**问题描述 / Problem Description**:
+小道自修 Rust 技术已有段时日，主要用于量化交易领域，目前在研究 NautilusTrader 。如果道友在技术上有需要欢迎白剽，由于你的白剽是我的积累，所以我需要你的领域和我的领域一致，双修互利互惠。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225959#reply0
+
+---
+
+#### 7001. [V2EX] 一个中登这两年的经历，希望大家看完后性格和职业规划上可以给点意见。
+
+**问题描述 / Problem Description**:
+自我介绍 楼主 16 年毕业，二本计算机专业，目前在一线城市工作。24 年之前职业发展一直很顺利，基本三个月内就能找到下家。 22 年疫情放开后，所在电商公司几乎每年年中年尾都会裁员，陆续裁了四批，技术部从巅峰 300 来人减到百来人。24 年 7 月最后一批大裁员，比例接近七成，技术部只剩三十来人维持系统运转，楼主也在其中，拿了 n+1 离职。其实征兆早就有了：裁员前一个多月基本无事可干，需求都是小改动，排期很松。本以为公司会等到国庆前才动手，没想到这次风声捂得紧，来得还是有点突然。 裁员前后 裁员前后沉迷炒币，无心工作。那几年土狗 meme 非常火，21-24 年撸毛、23-25 年初炒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225946#reply11
+
+---
+
+#### 7002. [V2EX] 明后天阿里就全面禁用 Claude 了，那他们用啥啊？
+
+**问题描述 / Problem Description**:
+很好奇，接下来他们是仍要翻墙投入别家的怀抱，还是打算就用国内的工具？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225928#reply22
+
+---
+
+#### 7003. [V2EX] Trae 会自动在生产环境安装自己推广标识
+
+**问题描述 / Problem Description**:
+https://www.bilibili.com/video/BV1ZGTR6MEz5 哪位点子王产品经理想出来的？？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225921#reply5
+
+---
+
+#### 7004. [V2EX] 我写了一篇“灵魂文档”，让 AI 知道如何让编码代理写出好的代码？
+
+**问题描述 / Problem Description**:
+我们如何让编码代理写出好的代码？ 我们曾告诉它们要写“整洁的代码”。太模糊。“优雅的代码”。太主观。“可维护的代码”。每个人的理解都不同。 然后我们发现了其中的规律：好的代码也是物理意义上的最小代码。 如果行为、约束条件和可读性保持不变，任何还能被删除的部分都是多余的代码。 如果某部分可以被删除，说明代码还未完成。 如果没有任何部分可以被删除，那么你就找到了最小代码。 这就是绝对代码。唯一的规则：最小代码。 不是字符最少，也不是 diff 最短。而是表达相同行为和约束的最小可读代码。任何多余的部分都必须被删除。 这有效是因为代码是物理的。你可以删除它并观察变化。优雅是主观的，但必要性是可测试的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225902#reply3
+
+---
+
+#### 7005. [V2EX] claude code 还能继续用么？
+
+**问题描述 / Problem Description**:
+今天看到说 claude code 有后门，还是有些担心 我对 claude code 依赖比较重，搭配的 glm 5.2 ，opencode 之类的还没有用过，不着调差异多大。 我觉得 claude code 比 codex 都强一些。 大佬们有没有懂抓包啥的，是否能验证下 claude code 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225900#reply9
+
+---
+
+#### 7006. [V2EX] 现在已经下钻到挣小白的 token 钱了。
+
+**问题描述 / Problem Description**:
+今天看项目上有个同事在用 cursor 写标书，跟我说用的模型是 5.5 。我说你不挂代理咋能用上 5.5 ，同事来了一句什么是代理，看了下他用的。现在都是打包卖软件了。插件中转 这钱比卖给程序员 token 好赚多了。客户啥是降智不清楚，中转是啥也不知道，就知道我是 gpt5.5 。后边接个豆包能咋的。（这句话纯扯淡，我不知道能不能接豆包，没用过）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225892#reply11
+
+---
+
+#### 7007. [V2EX] 今天有个朋友从以前的程序员转行进厂了，突然就看到了自己的以后
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225888#reply1
+
+---
+
+#### 7008. [V2EX] 发布新语言 ago，鼓吹新思维，邀请贡献者：函数即类，调用帧即其实例
+
+**问题描述 / Problem Description**:
+https://siphonlab.github.io/ 2022 年，我在整理动画、协程、流程引擎等技术时，发现它们在本质上都试图对现实世界中的 “动作 (Action)” 进行形式化表达。通过深入思考，我意识到传统编程语言在描述真实世界动作方面存在严重不足，而这一瓶颈的突破点恰在 Call Frame 的概念。我将 CallFrame 从低层机器机制抽象出来，置于面向对象视角中，并发现对象化的 CallFrame 足以充当对动作的完整表征。基于此观察，我进一步提出 “函数即类、CallFrame 即其实例” 的观点，并据此设计了一门全新的面向对象编程语言—— ago （取自世界语中的 Ac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225876#reply1
+
+---
+
+#### 7009. [V2EX] 老哥们，大家有什么免费的 llm 推荐吗？我想给用户轮换着白嫖
+
+**问题描述 / Problem Description**:
+最近搞了一个插件，可以把各平台图文音视频解析成 md 放到飞书、notion 等 AI 笔记本，所以免费的 llm api 扛一下轻度日常还是很必要的。 目前用到了 Gemini 的 free tier 几个 flash 模型和 glm 的 flash 模型，但 glm 太蠢了，不听 prompt 指令，Gemini 又容易额度上限。想多扩展几个，老哥们有推荐的烦请指点下谢谢🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225870#reply7
+
+---
+
+#### 7010. [V2EX] 话说 AI 服务器运维有搞头吗，是服务器面板 AI 化，还是直接 SSH 给 AI 一把嗦呢？
+
+**问题描述 / Problem Description**:
+话说各位大佬们平时都是怎么干的 方案 A：把服务器面板，比如宝塔之类的想办法接出来给 AI 调用 方案 B：直接让 cc 生成个公钥配在远程机器里，然后 IP 和用户名直接丢让他自己干
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225854#reply28
+
+---
+
+#### 7011. [V2EX] 请教下一个外包系统的收费问题
+
+**问题描述 / Problem Description**:
+要做一个跨境物流系统，大致功能点如下： 司机送货过来，做入库记录，并且后续要持续跟踪这个货物的变动（被打包，被发走，库存之类的） 打印标签，贴在货物上 工人扫货物上的二维码，将单个货物发走，或者将多个货物打包进一个大的包裹发走，这时候生成包裹记录或者单个货物发走的记录 然后状态变成已发货，用 WhatsApp api 向收货人发送通知（就像微信公众号推送消息那样） 货物到达国外仓库，国外员工扫码查看货物列表，并且可以打印，然后清点货物，单个或者包含多个货物的包裹，点击确认到达，通过 WhatsApp api 向所有这批货的收件人发送 WhatsApp 通知 然后就是货物报表，统计，导出之类的标
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225852#reply32
+
+---
+
+#### 7012. [V2EX] 给 coding-tools-mcp 做了个启动器： coding-tools-conductor
+
+**问题描述 / Problem Description**:
+之前在 V2EX 发过 coding-tools-mcp ，但之前配置非常繁琐，所以最近给它做了个上层的启动器 + 控制台，叫 ctc （ coding-tools-conductor ）。 欢迎尝试（需要 Node 22+和 Python 环境）： npm i -g coding-tools-conductor ctc # 在当前仓库开个会话 /tunnel start # 生成个公网地址，粘到 ChatGPT / Claude 连接器里 GitHub： https://github.com/xyTom/coding-tools-mcp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225850#reply0
+
+---
+
+#### 7013. [V2EX] 兄弟们，大家现在的 AI Coding 工具都是公司报销，还是自费“付费上班”？
+
+**问题描述 / Problem Description**:
+自己做独立项目或个人折腾时，用的是 Claude Code （走 DeepSeek 官方 API 或者中转），体验非常爽。 但一回到公司项目，我大多数情况就只能切回“古法编程”了。主要原因是公司的项目体量太大了，Token 额度完全消耗不起，尝试了两次钱包就在滴血，感觉自费走 API 纯属“付费上班”，实在太亏了。 包月套餐可能是个解法，但又觉得为了公司的项目自己掏钱有点冤大头。 想请教下大家： 在公司做正式项目时，AI Coding 工具（ Cursor/Copilot/Claude 等）是公司统一采购/实报实销，还是自己掏腰包自费在用？ 纯好奇，想看看现在大部分人是“公费打工”还是“付费上
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225845#reply16
+
+---
+
+#### 7014. [V2EX] SightRead, vibe coding 时代代码视觉增强辅助阅读插件
+
+**问题描述 / Problem Description**:
+Vibe coding 时代的代码强化阅读器，专注于强化代码的微观阅读。视觉上提供高亮、标记、一键折叠反折叠、代码段视觉强化等等功能，让你就地读懂代码 vscode marketplace: https://marketplace.visualstudio.com/items?itemName=WaylongLeon.sightread vsx registry: https://open-vsx.org/extension/WaylongLeon/sightread
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225831#reply0
+
+---
+
+#### 7015. [V2EX] immich iPhone mov 视频缩略图生成有问题 有遇到过的吗
+
+**问题描述 / Problem Description**:
+有些可以有些不行，点进去正常播放，就是部分视频缩略图有问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225827#reply2
+
+---
+
+#### 7016. [V2EX] codex 越来越傻越来越磨蹭怎么办？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225826#reply16
+
+---
+
+#### 7017. [V2EX] 请教： Antigravity IDE 2.0 如何找到当前项目的历史对话？
+
+**问题描述 / Problem Description**:
+右上角的历史，是包含全部项目的，很难找到当前项目的历史对话。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225794#reply3
 
 ---

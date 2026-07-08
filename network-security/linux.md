@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2344**
+**总计条目 / Total entries: 2364**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -36474,5 +36474,245 @@ It was discovered that Addressable incorrectly handled certain URI templates, ge
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8515-1
+
+---
+
+#### 2345. CVE-2026-15041 - 389-ds-base: 389-ds-base: Non-constant-time comparison in PBKDF2-SHA256 password…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: Non-constant-time comparison in PBKDF2-SHA256 password verification. Bugzilla: 2498022
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498022
+
+---
+
+#### 2346. CVE-2026-60002 - openssh: OpenSSH: Use-after-free vulnerability during host key re-exchange on the…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: Use-after-free vulnerability during host key re-exchange on the client side. Bugzilla: 2497936
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497936
+
+---
+
+#### 2347. CVE-2026-60001 - openssh: OpenSSH: Brute-force attacks facilitated due to insufficient…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: Brute-force attacks facilitated due to insufficient authentication delay. Bugzilla: 2497938
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497938
+
+---
+
+#### 2348. CVE-2026-60000 - openssh: OpenSSH: Denial of Service via excessive GSSAPI authentication attempts
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: Denial of Service via excessive GSSAPI authentication attempts. Bugzilla: 2497946
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497946
+
+---
+
+#### 2349. CVE-2026-59999 - openssh: OpenSSH sshd: Security bypass due to incorrect handling of forwarding and…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH sshd: Security bypass due to incorrect handling of forwarding and tunneling options. Bugzilla: 2497942
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497942
+
+---
+
+#### 2350. CVE-2026-59998 - openssh: OpenSSH: Undocumented GSSAPIStrictAcceptorCheck behavior impacts security…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: Undocumented GSSAPIStrictAcceptorCheck behavior impacts security in Windows Active Directory. Bugzilla: 2497935
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497935
+
+---
+
+#### 2351. CVE-2026-59997 - openssh: OpenSSH: SFTP security bypass due to command-line argument parsing flaw
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: SFTP security bypass due to command-line argument parsing flaw. Bugzilla: 2497929
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497929
+
+---
+
+#### 2352. CVE-2026-59995 - openssh: OpenSSH: sftp client allows attacker to control downloaded file location
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: sftp client allows attacker to control downloaded file location. Bugzilla: 2497927
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497927
+
+---
+
+#### 2353. CVE-2026-14969 - 389-ds-base: 389-ds-base: Static initialization vector in AES-CBC/3DES-CBC…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: Static initialization vector in AES-CBC/3DES-CBC attribute encryption. Bugzilla: 2497735
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497735
+
+---
+
+#### 2354. CVE-2026-14935 - gstreamer: gstreamer: webrtcbin accepts remote SDP without a=fingerprint due to…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer: gstreamer: webrtcbin accepts remote SDP without a=fingerprint due to inverted presence check. Bugzilla: 2497679
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497679
+
+---
+
+#### 2355. CVE-2026-14940 - 389-ds-base: 389-ds-base: heap-buffer-overflow in DN normalization via quoted…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: heap-buffer-overflow in DN normalization via quoted multivalued RDN. Bugzilla: 2497697
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497697
+
+---
+
+#### 2356. CVE-2025-12799 - jastow: Jastow Cross-Site Scripting attack due to unsanitized URI
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jastow: Jastow Cross-Site Scripting attack due to unsanitized URI. Bugzilla: 2413071
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2413071
+
+---
+
+#### 2357. CVE-2026-59710 - showdown: Showdown: Stored Cross-Site Scripting via unescaped table header ID…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] showdown: Showdown: Stored Cross-Site Scripting via unescaped table header ID attributes in markdown. Bugzilla: 2497554
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497554
+
+---
+
+#### 2358. CVE-2026-59711 - showdown: Showdown: Cross-site scripting via unescaped metadata title allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] showdown: Showdown: Cross-site scripting via unescaped metadata title allows arbitrary code execution. Bugzilla: 2497535
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497535
+
+---
+
+#### 2359. CVE-2026-55514 - vllm: vLLM: Denial of Service via crafted prompt in /v1/completions request
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via crafted prompt in /v1/completions request. Bugzilla: 2497504
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497504
+
+---
+
+#### 2360. CVE-2026-55574 - vllm: vLLM: Denial of Service via adversarial regular expression in structured…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via adversarial regular expression in structured outputs API. Bugzilla: 2497509
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497509
+
+---
+
+#### 2361. CVE-2026-54234 - vllm: vLLM: Denial of Service via malformed speculative decoding workload
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via malformed speculative decoding workload. Bugzilla: 2497515
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497515
+
+---
+
+#### 2362. [Ubuntu] USN-8518-1: mailcap vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Aaron Rainbolt discovered that the cautious-launcher utility in the mailcap package did not properly restrict the execution of certain file types. An attacker could use this issue to escape a sandboxed application and execute arbitrary code on the host operating system.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8518-1
+
+---
+
+#### 2363. [Ubuntu] USN-8517-1: ClamAV vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ClamAV incorrectly handled certain PE files. A remote attacker could possibly use this issue to cause ClamAV to crash, resulting in a denial of service. (CVE-2026-20213, CVE-2026-20214, CVE-2026-20217) It was discovered that ClamAV incorrectly handled certain 7z archive files. A remote attacker could possibly use this issue to cause ClamAV to crash, resulting in a denial of
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8517-1
+
+---
+
+#### 2364. [Ubuntu] USN-8516-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache HTTP Server's mod_ldap module incorrectly handled memory when processing per-directory configurations. An attacker could use this issue to cause the server to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-29167) It was discovered that Apache HTTP Server's mod_proxy_ftp module incorrectly handled HTML generation for FTP director
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8516-1
 
 ---

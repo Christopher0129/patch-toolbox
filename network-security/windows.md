@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 914**
+**总计条目 / Total entries: 918**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13360,5 +13360,53 @@ Notepad3 through 6.25.822.1 contains a DLL search-order hijacking vulnerability 
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52618
+
+---
+
+#### 915. [webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Krayin CRM v2.2.x - Authenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52629
+
+---
+
+#### 916. [webapps] Atarim WordPress Plugin  4.2.2 - Sensitive Information Exposure
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52628
+
+---
+
+#### 917. [webapps] Langflow 1.9.0 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Langflow 1.9.0 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52627
+
+---
+
+#### 918. [webapps] Joomla Page Builder CK  3.5.10 -  Arbitrary File Upload
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52626
 
 ---
