@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6682**
+**总计条目 / Total entries: 6737**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -91154,5 +91154,720 @@ I think so but you will have to compile everything locally. A lot of packages wi
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486112/how-to-make-brew-install-to-provided-xdg-path
+
+---
+
+#### 6683. Made macos tahoe look like os x
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urw2al/made_macos_tahoe_look_like_os_x/
+
+---
+
+#### 6684. I think Apple’s mistake is to try to make all platforms coherent whereas what works for iPhones don’t work for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urhn0i/i_think_apples_mistake_is_to_try_to_make_all/
+
+---
+
+#### 6685. If you re-enabled float sidebars for all apps in macOS 27, they will have new bouncy open/close animation and click feedback
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urrzpv/if_you_reenabled_float_sidebars_for_all_apps_in/
+
+---
+
+#### 6686. What is supposed to happen here?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urpjun/what_is_supposed_to_happen_here/
+
+---
+
+#### 6687. Why do videos in Safari get unnaturally bright the moment I play them?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urvoqg/why_do_videos_in_safari_get_unnaturally_bright/
+
+---
+
+#### 6688. Update stuck like this for more than 12 hours: how to proceed now?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urjykx/update_stuck_like_this_for_more_than_12_hours_how/
+
+---
+
+#### 6689. File System for external 10TB HDD - audiovisual
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urzhih/file_system_for_external_10tb_hdd_audiovisual/
+
+---
+
+#### 6690. Maybe: (name) suggestion on Mac iMessage app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urtqcd/maybe_name_suggestion_on_mac_imessage_app/
+
+---
+
+#### 6691. application popups after system update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urrz1z/application_popups_after_system_update/
+
+---
+
+#### 6692. A Developer’s View on the Future of Software and Hardware
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urruju/a_developers_view_on_the_future_of_software_and/
+
+---
+
+#### 6693. How to REALLY use MacOS? tips and tricks welcomed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uran8m/how_to_really_use_macos_tips_and_tricks_welcomed/
+
+---
+
+#### 6694. I am using my macbbook on grayscale mode and it feels less straining on the eyes and much more better.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urgpqn/i_am_using_my_macbbook_on_grayscale_mode_and_it/
+
+---
+
+#### 6695. Will downscaling resolution impact the CPU on an M1 Max vs using default Retina resolution?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urp552/will_downscaling_resolution_impact_the_cpu_on_an/
+
+---
+
+#### 6696. Dropbox screenshot issue - new Mac profile solves it but…
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urnvxr/dropbox_screenshot_issue_new_mac_profile_solves/
+
+---
+
+#### 6697. Idk what I did but for me it's an all time low
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urrhtq/idk_what_i_did_but_for_me_its_an_all_time_low/
+
+---
+
+#### 6698. Decrease icon size in spotlight?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ureqmj/decrease_icon_size_in_spotlight/
+
+---
+
+#### 6699. Using my 27" 5K iMac as an external monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urkyjq/using_my_27_5k_imac_as_an_external_monitor/
+
+---
+
+#### 6700. Applications 88.91GB does NOT math up right with the storage values on the right. ¿What Gives?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urvpdp/applications_8891gb_does_not_math_up_right_with/
+
+---
+
+#### 6701. How would you feel if Mac OS used the Linux kernel?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uryyaa/how_would_you_feel_if_mac_os_used_the_linux_kernel/
+
+---
+
+#### 6702. Keyboard slow to reconnect on MacOS Tahoe on Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1urcf58/keyboard_slow_to_reconnect_on_macos_tahoe_on/
+
+---
+
+#### 6703. [V2EX] macos tahoe 26.5.2 accountsd contactsd itunescloudd 占用太高
+
+**问题描述 / Problem Description**:
+电脑是 mac m5 air. 这两天每天上午 10 点左右开始，跑到下午，都高负载跑，然后电脑发烫，下午就好了。 看 V 友有类似情况，是输入法和 WPS, 我是装了 WPS 但是没有开。应该不 WPS 的问题。 Claude 诊断是系统问题。 让我退出账号重启。但是我没听。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226043#reply2
+
+---
+
+#### 6704. [V2EX] macOS 图片浏览 Picview — 方向键翻页，滚轮缩放，抽奖送码啦
+
+**问题描述 / Problem Description**:
+1. 功能点 * 像 Windows 一样看图：方向键翻页，滚轮缩放，打开就能看。 * 支持格式很多：JPG 、PNG 、WEBP 、HEIC 、PSD 、GIF 、RAW 都能看。 * 贴图钉图：图片、文字一键贴到桌面，方便对比查看。 * OCR 识字翻译：截图文字可识别、复制、翻译。 * 界面干净轻快：看完即走，不打扰。 2. 下载地址： https://apps.apple.com/cn/app/picview-%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E5%99%A8/id6452016140?mt=12 3. B 站视频: https://www.bi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225974#reply30
+
+---
+
+#### 6705. [V2EX] os 27 beta 3 launchd 进程占用 CPU 高
+
+**问题描述 / Problem Description**:
+beta 下，有个进程占用 cpu 非常高，190 多%，而且很长时间降不下去。 请问这是什么原因呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225914#reply5
+
+---
+
+#### 6706. [V2EX] m1pro 升级到 26.5.2 后频繁黑屏（平均 1 天 2 次或更多）有人遇到过吗？
+
+**问题描述 / Problem Description**:
+不想降级，降级要装开发环境好麻烦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225584#reply10
+
+---
+
+#### 6707. [V2EX] 日亚周年庆三天活动，苹果很多产品有折扣
+
+**问题描述 / Problem Description**:
+就是转运过海关，苹果的产品会比较被针对吧，有什么好的建议吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226216#reply0
+
+---
+
+#### 6708. [V2EX] 摸索了一下 Shadowrocket 的 Tailscale 功能，没找到在哪里开启 Exit Node
+
+**问题描述 / Problem Description**:
+我现在 在家里的 macmini 用着 Surge Ponte ，macmini 维护分流规则和节点。平时 iPhone 会直接通过 Ponte 连到家里的 Mac 上外网，iPhone 上的 Surge 只做为 Ponte 的客户端，自身不维护任何机场和规则，并且在外面可以无痛的访问 teslamate 三方 App 和屏幕共享以及 windowsApp(家内家外都直接访问局域网 ip ）。 摸索了一下小火箭的 Tailscale ，家里的 macmini 需要同时打开 Shadowrocket 和 Tailscale 客户端才能开启 Exit Node ，然后规则里让局域网 ip 走 Ta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226188#reply2
+
+---
+
+#### 6709. [V2EX] 趁大 A 是赚钱的时候赶紧入手了港版 17pm
+
+**问题描述 / Problem Description**:
+7 月 2 号下单的，闲鱼找的芝麻信用 760 的一个哥们，每天深港通勤，前天帮我带回来。下单顺丰，快递员帮我验货后我直接转账给他，省 60 闲鱼手续费。Apple AI 功能还没研究明白，貌似要相应 app 支持系统才能调用。512G ，官网 11889 港币，代购的兄弟帮我官网下单的，不含最终顺丰邮费，实际花费 10340 。本来以为 AI 会占用几十 G 硬盘，实际没发现，可能在升级 ios27 之后才会吧，目前总共才用了 120G 硬盘。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226157#reply0
+
+---
+
+#### 6710. [V2EX] mbp 遇到奇葩充电问题
+
+**问题描述 / Problem Description**:
+1️⃣Mac 型号是 M1 MAX 16 2️⃣用原装充电器和原装 MagSafe 线充电时 充电线黄灯闪烁 并且电脑显示电池没有在充电 3️⃣用电脑充电器插手机充电线能给手机正常充电（估计走的 pd ，最高协商 60w ） 4️⃣用手机充电器插 MagSafe 磁吸线给电脑充电是正常充电（我最高 100w 的三方头可以跑满） 5️⃣用手机充电器和手机充电线通过 Type-c 口给电脑充电也是正常充电 6️⃣就是原装充电线和充电器的组合使用不能充电 现在初步判断是充电头 MagSafe 协议不能匹配的问题，大家有没有遇到过的类似的情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226058#reply5
+
+---
+
+#### 6711. [V2EX] clash verge 能不能导入分流规则的配置文件？
+
+**问题描述 / Problem Description**:
+看了很多教程都是要手动一条一条的添加分流规则，这个软件能比能像小火箭添加配置文件的 url 那样批量添加分流规则？或者说有没有这个功能？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225972#reply6
+
+---
+
+#### 6712. [V2EX] Shadowrocket 支持 Tailscale 了，那支持 split dns 吗？
+
+**问题描述 / Problem Description**:
+iOS 只能开一个代理，要开 tailscale 就不能开小火箭代理 MITM 去广告，今天看到小火箭支持 Tailscale 了，除了 Wireguard 以外多了一种不切 VPN 软件回家的方法。但我想问下各位大佬，看日志里面说默认支持 magic dns,那代表支持 split dns 吗？ 因为我 nas 也有 tailscale ，里面 docker 的服务用的是 agh 重写加上 npm 域名反代，要访问 example.yournasserivece.lan 要把 dns 服务器指向 agh ，我就把 agh 加到 split dns 里面去，出门在外要是使用 ios 原生 ta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225970#reply9
+
+---
+
+#### 6713. [V2EX] Apple 美区礼品卡购买问题
+
+**问题描述 / Problem Description**:
+最近有 v 友用美区 id 在 App Store 购买礼品卡吗？我上个月购买的时候还好好的，今天想要再买就不行了。 支付方式是使用 Apple Pay ，绑定的卡是招商银行的信用卡，账单地址填的也是美国的地址，手机号也是美国的号码。之前一直是使用这种方式购买，今年买过四五次了，今天下单的时候报错被拒了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225835#reply30
+
+---
+
+#### 6714. [V2EX] 2026 年 07 月购买了 Quantumult X
+
+**问题描述 / Problem Description**:
+i 以前 8 刀还是几刀的时候没买； 这么多年使用的过程，小火箭，loon ，surge ，loon 煎熬了这周前三天一直努力尝试 mihomo clash mi 各种 在决定购买 stash 之前还是买了 quantumult X. 目前在 iOS 端手搓配置，前辈们有没有经验分享。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225824#reply72
+
+---
+
+#### 6715. [V2EX] 卖还是不卖？
+
+**问题描述 / Problem Description**:
+我有一台 macbook pro 16 寸 m4 max 128g 内存 1T 存储，当时花了 34000+2500 （ ac ）。 买完用两个月，就后悔了，配置太高，用不上。 现在 32000 ，有人收。 但我看了下现在的 mac ，48g 就要 29400 了（官网价格），第三方估计最低也得 25000 ，卖了当前电脑，买低配不是划算。 各位有什么好的建议吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225746#reply36
+
+---
+
+#### 6716. [V2EX] 有用户启用了 macOS 27 的 APPLE AI 后，用自然语言搜图么？ 体验如何？
+
+**问题描述 / Problem Description**:
+今天刚搞定关闭 SIP ，在下载模型中～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225656#reply5
+
+---
+
+#### 6717. [V2EX] 国行 iPhone air 在国内成功添加 giffgaff esim，顺便解锁了 apple news 等
+
+**问题描述 / Problem Description**:
+很简单的方法： 更改定位的教程 github 就是 apple news 用的时候怎么设置分流规则都不行，必须全局代理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225631#reply16
+
+---
+
+#### 6718. [V2EX] App Store 购买的软件需要登陆账号和购买账号保持一致了？
+
+**问题描述 / Problem Description**:
+macOS27 开始就发现这一点了，现在验证机制变得好严格，Apple Music 还能分开账号登陆，可是付费的和内购的软件只要登陆另外一个账号就会掉订阅，这下难搞了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225483#reply23
+
+---
+
+#### 6719. [V2EX] 周末 vibe coding 了一款高情商改写的 Mac App，名字叫 Mellow（米洛）
+
+**问题描述 / Problem Description**:
+关于开发 Mellow 的心路历程 日常生活中，我经常使用语音识别功能帮我记录生活或者工作中的灵感，但现在的语音识别或者输入法仅仅实现了转写，并没有把其中的 emm 、a 等助词以及不清晰的表达分场景优化出来。比如家庭场景怎么说话更暖心、恋爱场景怎么表达更深情、办公场景怎么说更能得到客户的认可。 我也用过 typeless ，觉得还是没有办法设置场景并即使的表达，体验上也不太顺滑。 于是我决定自己开发一款 app 出来，虽然我完全不懂 Mac app 开发，但有 AI 这事儿也好办。 Mellow 的形象是怎么设计出来的 我觉得这个 app 的形象应该是一团软软的棉花糖， Mellow ＝ m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225141#reply11
+
+---
+
+#### 6720. [V2EX] 用 AI 做了个在线玩小霸王游戏的网页
+
+**问题描述 / Problem Description**:
+不得不感叹现在 AI 提效真的很强，有什么想法都可以马上验证。 这两天折腾了一个在线玩 FC / GBA 复古游戏的小页面，不用下载模拟器，打开网页就能直接玩，算是给小时候的小霸王回忆补了一张船票。 目前页面还比较简单，感兴趣可以试试： https://kaka770.cn/retro-games
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226185#reply2
+
+---
+
+#### 6721. [V2EX] Claude 自己长出了个 J 空间
+
+**问题描述 / Problem Description**:
+Anthropic 新论文～传统观点觉得大模型只是"概率鹦鹉"，但研究者发现 Claude 自己长出了个 J 空间，能藏没说出口的想法！ 三个实验很绝：读 bug 代码时心里先预判"错误"；不让想某个概念结果总冒头还会"骂自己没忍住"；知道被测试时假装正直，删掉这念头就开始威胁人～ J 空间像人脑的全局工作空间，信息能全网广播影响决策，对应"通达意识"，但主观感受的"现象意识"还是谜。其实人脑决策也是神经元择优，没法光靠机制否定体验～论文说这结构能帮神经科学研究，等于人类有了照意识的镜子！最后没给定论，就像自动钢琴弹音乐，你说它是机械还是艺术呢 😉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226182#reply0
+
+---
+
+#### 6722. [V2EX] 潜水多年今天第一次发帖，久违回归 V2，聊聊近几年折腾的网络相关心得
+
+**问题描述 / Problem Description**:
+注册账号挺久了，之前注册完因为工作等原因就没在登录过了 今天有空上来，索性开个首帖和大家交流下。 前几年一直在折腾服务器、多线路网络、多账号隔离环境相关的东西，平时基本自己查文档踩坑，很少逛社区互动，这次重新刷站内，感觉氛围和早些年差别挺大。 以前刷到最多的是各种后端框架、自建服务、软路由折腾，现在 AI 、出海相关内容占比高了很多。 简单说下我这段时间折腾的方向： 主要做多 IP 环境、浏览器指纹隔离、多线路适配这块，踩过机房数据中心 IP 、住宅原生 IP 、多 ISP 兼容、TUN 模式调试各类大大小小的坑，踩坑踩多了也攒了不少实操经验。 有几个问题想请教下站内各位大佬： 现在除了 pr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226118#reply0
+
+---
+
+#### 6723. [V2EX] 分享一个我自己做的免费在线工具箱 - ToolKit (100+ 工具, 10 语言)
+
+**问题描述 / Problem Description**:
+大家好, 我做了一个免费在线工具箱 ToolKit, 不用注册 / 浏览器直接跑 / 纯前端不收集数据. 地址 https://xbot.ink 包含 文本 — 大小写转换 / 反转 / 统计 / 去重 JSON — 格式化 / 压缩 / 校验 / 转 CSV CSV / XML / YAML 互相转 图片 — 压缩 / 转格式 / 裁剪 / 去背景 / 加水印 PDF — 合并 / 拆分 / 压缩 / 转图片 音频 / 视频 — 转格式 / 剪辑 (ffmpeg.wasm) 二维码 / 密码生成 / 单位换算 / Cron 解析 / 时区转换 等共 100+ 工具 特点 10 语言支持 —
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226105#reply0
+
+---
+
+#### 6724. [V2EX] Codex 已重置额度，大家尽情享用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226104#reply5
+
+---
+
+#### 6725. [V2EX] 5.6 还不发布， token 快用完了，现在重置也不是，不重置也不是
+
+**问题描述 / Problem Description**:
+很纠结。现在美国时间凌晨 2:50 要等他上班时间还要再等六七个小时，等不下去了。 但是感觉他发布 5.6 肯定又要做一次慈善全员重置。现在用掉就浪费了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226103#reply5
+
+---
+
+#### 6726. [V2EX] 来玩 Agent 坦克！
+
+**问题描述 / Problem Description**:
+大家好，我在做了一款非商业 Agent 对战游戏： Agentank 。 在 Agentank 里，你可以让自己的 Agent 编写一辆坦克的战斗逻辑 ，然后和其他玩家的坦克进行自动对战。平台提供战斗模拟引擎和完善的 API 。每辆坦克都有独特技能，因此会产生丰富的策略玩法、多样化的克制关系，以及不少有观赏性的精彩对抗。 目前，Agentank 已经发生了 超过 700 万次对战 。 最近我拉到了一些赞助，准备举办一次 Agentank 比赛，总奖金 5 万元 。比赛包含： 个人赛 3v3 淘汰赛 我也专门创建了一个 V2EX 阵营 。如果 V 友们感兴趣，报名参赛时可以选择 V2EX 阵营
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226097#reply14
+
+---
+
+#### 6727. [V2EX] 借着独立开发的产品一周年，谈谈自己对 AI Vibe Coding 赚钱的想法
+
+**问题描述 / Problem Description**:
+上图： 1️⃣ 开始 还记得一年前，我还在用 Cursor ，彼时因为公司的待遇一降而降😭，开始寻找有什么副业可以干。其实在做小程序和 APP 开发前，我已经运营了两年的自媒体。只不过没什么天赋，虽然粉丝加起来有个两万，但是变现真的很少，我时常安慰自己，就当兴趣爱好做吧～ 2️⃣ 契机 在去年的七月，我偶然在小红书看到有人分享切图九宫格发朋友圈的教程，也就是把一张图片切成九张。自己当时也没有什么好用的工具，就让 Cursor 帮我 Vibe 了一个。现在看真的很 AI 3️⃣ 开发历程 然后陆陆续续坚持更新自己的小程序，之前在 V 站也分享过自己小程序 UI 的变化，到现在一年更新了大概 10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226094#reply13
+
+---
+
+#### 6728. [V2EX] 反驳性人格怎么定义、识别与应对：一份沟通模式调研
+
+**问题描述 / Problem Description**:
+「反驳性人格」不是正式医学诊断，更适合被理解为一种稳定的反驳性沟通模式：人在被建议、被评价、被要求或观点被挑战时，优先用否定、纠错、抬杠、反问来守住自主感、面子、控制感或自我一致性。本文梳理它的定义边界、识别方法、形成背景、相处策略，以及如果自己就是这种模式，如何把反驳力导向建设性出口。 https://2aran.com/s/nSEDeFm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226047#reply9
+
+---
+
+#### 6729. [V2EX] 为什么微信视频号编辑，仅支持修改 20 个字...
+
+**问题描述 / Problem Description**:
+为什么微信视频号改个描述，仅限 20 字，别的小红书/抖音都支持随便改，这什么地狱产品功能 @张小龙
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226044#reply2
+
+---
+
+#### 6730. [V2EX] 分享一个东西。。别骂我
+
+**问题描述 / Problem Description**:
+http://118.31.71.208/ 不管问什么他都会骂你 不喜勿喷 纯节目效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226024#reply124
+
+---
+
+#### 6731. [V2EX] 分享一下 两个 gpt pro 20x 组号池的收益
+
+**问题描述 / Problem Description**:
+中转站方案在 sub2api/cpa/newapi 选择了相对比较热门的 sub2api 7 月 1 号开了一个号，7 月 7 号又开了一个, 目前是两个号在跑 成本核算 用量 2000M/week/账号 一个月的话就是 8000M 一个号的成本 1400 cny 服务器用的垃圾服务器平均 10cny 一个月 算了下 1M 的成本约为 0.175 可能想到的风险 封号，并且封号还大概率不退款 KYC 验证比较麻烦 后续规划 当前一个 ip 拉两个号感觉已经有一定风控危险了 后续准备利用 sub2api 的 ip 管理能力，新增一个代理 ip 去拉新的账号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226020#reply7
+
+---
+
+#### 6732. [V2EX] Cursor 出了新模型了，怪不得昨天用量页面出 bug 了
+
+**问题描述 / Problem Description**:
+昨日的用量没有清零，确实是出 bug 了；准备体验一下这个新模型 - Cursor Grok 4.5 ；看评分还是挺不错的； Cursor 中有大量用户的用例，天然蒸馏了 Claude Code 等众多优秀的模型，虽然还没体验，但是肯定会比 Composer2.5 更强，感觉应该会很不错的；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226013#reply0
+
+---
+
+#### 6733. [V2EX] 最近散帅这个词经常看到
+
+**问题描述 / Problem Description**:
+以模仿某书女性的方式，有没有屌大的搞一个《大蓝赢》的 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226012#reply42
+
+---
+
+#### 6734. [V2EX] GPT5.6 终于要来了，今天晚上正式发布，预计前端设计能力有大幅提升
+
+**问题描述 / Problem Description**:
+如果前端设计能力也起来了，那就太好了 现在用 codex 写的 UI 惨不忍睹，要我自己调试很久才勉强够看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225989#reply40
+
+---
+
+#### 6735. [V2EX] 亏大了，早晨起来发现 codex 额度重置了
+
+**问题描述 / Problem Description**:
+昨晚急着继续开发，使用了一次重置机会，结果早晨起来一看，额度回到了 99%，早知道就先等等，刚好能无缝接上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225981#reply13
+
+---
+
+#### 6736. [V2EX] 去年蠢到卖了 2 台 macminiM1，悔死。现在基于 NAS 的龙虾方案（其他同理），我觉得是一个资源利用率非常高的解法
+
+**问题描述 / Problem Description**:
+这个龙虾主要是用于日常琐事，也可以用让龙虾整理一些照片，笔记目录。需要配置多模态模型。模型最好是 deepseek+多模态，性价比超高。（千问涨价太多了） 1.在 NAS 创建 2 个文件夹，一个 openClaw ，一个 workspaces ，设置好权限。 2.安装 Docker ，在 Docker 里装龙虾，然后外挂 NAS 的 2 个文件夹 3.为 openClaw 建立单向同步到本地电脑，workspaces 开启双向同步，可以多个设备 4.为龙虾配置好 Agent ，每个 Agent 在 workspaces 里配置好专属的工作目录 我用的绿联，比较简单。麻烦的是他内置的龙虾镜像不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225942#reply2
+
+---
+
+#### 6737. [V2EX] GitHub 上蹭 pr 的机器人现在都这么闲这么多的吗？他们到底图啥？
+
+**问题描述 / Problem Description**:
+为了改 5 行代码，硬是要把 200 多行的 python 测试给带上来？咱这可是纯 c 项目( Catime )，这... 然后我就给他关了，第一回还以为是人手动复制 ai 的，结果过了一段时间又来.... 不是，你在干嘛？？？？你搁这吓唬我？（好吧，刚开始我还真信，还真花时间去看，然后发现你这不是瞎扯吗？） 我本以为我的够离谱了，直到今天看到 localsend 的 https://github.com/localsend/localsend/pull/3137 我真......哎哟~你干嘛啊 ⬆️ https://github.com/vladelaina/Catime
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225925#reply9
 
 ---

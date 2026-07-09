@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7017**
+**总计条目 / Total entries: 7052**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -99159,5 +99159,460 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225794#reply3
+
+---
+
+#### 7018. Different times. Different Sony.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uryx4i/different_times_different_sony/
+
+---
+
+#### 7019. Remember when I posted about my trap for bots hitting 10 million loads on here? Well it's 50 million now.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urwzux/remember_when_i_posted_about_my_trap_for_bots/
+
+---
+
+#### 7020. Security finds my base64 "suspicious"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1us02f9/security_finds_my_base64_suspicious/
+
+---
+
+#### 7021. Initial Patches Posted For Booting The Apple M4 On Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urrq2k/initial_patches_posted_for_booting_the_apple_m4/
+
+---
+
+#### 7022. Orbitiny Desktop Pilot X Released - The Most Substantial and Most Difficult Release Ever
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urvmv2/orbitiny_desktop_pilot_x_released_the_most/
+
+---
+
+#### 7023. I love how easy it is to build cool things on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urzeom/i_love_how_easy_it_is_to_build_cool_things_on/
+
+---
+
+#### 7024. waytator - screenshot editor for TWMs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urpv4g/waytator_screenshot_editor_for_twms/
+
+---
+
+#### 7025. Display Next Hackfest 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1us4cny/display_next_hackfest_2026/
+
+---
+
+#### 7026. GnomePaper Engine: A native GTK4 frontend for Steam Wallpaper Engine
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1us3bl5/gnomepaper_engine_a_native_gtk4_frontend_for/
+
+---
+
+#### 7027. Rust in the Linux Kernel — a version-by-version analysis
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urnk15/rust_in_the_linux_kernel_a_versionbyversion/
+
+---
+
+#### 7028. Is Dell really Linux friendly?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urec78/is_dell_really_linux_friendly/
+
+---
+
+#### 7029. This Month in Redox - June 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urrt52/this_month_in_redox_june_2026/
+
+---
+
+#### 7030. I built a control deck + remote desktop for my Linux workstation, served to a spare phone over Tailscale (self-hosted, MIT license)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urclxg/i_built_a_control_deck_remote_desktop_for_my/
+
+---
+
+#### 7031. Asus Dial driver for Linux. Works on an Asus ProArt Studiobook 16 (2023, H7604JI-MY006X)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urhzei/asus_dial_driver_for_linux_works_on_an_asus/
+
+---
+
+#### 7032. Built an eBPF debugger that answers “who changed what and when” on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1urp311/built_an_ebpf_debugger_that_answers_who_changed/
+
+---
+
+#### 7033. [V2EX] Codex 这次是真重置了
+
+**问题描述 / Problem Description**:
+我手机端和电脑端都显示 100%了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226217#reply0
+
+---
+
+#### 7034. [V2EX] Grok4.5 刚发布，就用它搓了个 grok-hud
+
+**问题描述 / Problem Description**:
+https://github.com/xiyouMc/grok-hud Grok4.5 整的还行，有那么点意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226210#reply0
+
+---
+
+#### 7035. [V2EX] 当我一天花光了 300 美刀用来 ai 写代码，我的问题还是没有得到解决，我意识到 ai 只有在辅佐没有思想
+
+**问题描述 / Problem Description**:
+经过大量的 vibe coding ，我对 ai 开发有一个深刻的认识，就是，ai 没有思想，更多的只是概率事件，更多的是大概率事件。但是写代码不一样，这是一件艺术创作，硬生生的 review 无脑选择 1 ，最后结束了，然后编译，居然通过了，但是可能在某一天，一个边界问题，引燃了这颗定时炸弹。你会发现在深处埋了一个定时炸弹，很愚蠢的，一眼蠢的 1+1=2 的错误，尤其是那种很简单的左右逻辑跳转错误。 ai 开发，只会对初学者友好 ai 开发适合脚本开发，不适合基础开发 试想一下，让 ai 去做一个电梯控制程序？ 越来越多的人，参与 ai 的世界，有的人转的盆满钵满，有的人赚吆喝，而又有的人瞎
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226209#reply4
+
+---
+
+#### 7036. [V2EX] GPT-5.6 还有 5 分钟上线
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226202#reply21
+
+---
+
+#### 7037. [V2EX] 你们在 zcode v3.3.3 使用 opencode go glm-5.2 出问题了吗？
+
+**问题描述 / Problem Description**:
+前提不使用任何 LLM Gateway 如题，今天出问题了 zcode 加了字段 opencode 那边不认 ZCode 报错信息 报错摘要 Error from provider: Extra inputs are not permitted, field: 'extra_body' TraceID: a3c0beb8-c0db-4d7f-a8f7-b2fd7e44f26a 报错详情 Turn execution failed provider=e6946690-f10b-4b8d-8fd1-4fe4895658ff provider_code=invalid_request_error m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226195#reply0
+
+---
+
+#### 7038. [V2EX] AI 编译器技术沙龙 0801 北京站！
+
+**问题描述 / Problem Description**:
+AI Compiler 技术沙龙 8.1 要来北京办了！ HyperAI 邀请到来自智源、TileRT 团队、腾讯、华为昇腾、智元创新的多位专家，围绕以下方向进行分享： FlagTree 语言扩展 TileRT 超低延迟推理 FalconGEMM 算子优化 AscendNPU IR 开源共建 面向具身智能的应用实践 活动链接： https://go.hyper.ai/TuhIj
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226163#reply0
+
+---
+
+#### 7039. [V2EX] 终于轮到我了， Codex 又又又重置了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226154#reply5
+
+---
+
+#### 7040. [V2EX] codex 突然刷新额度了
+
+**问题描述 / Problem Description**:
+本来我是明天刷新额度的，刚刚突然变成 99%了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226151#reply2
+
+---
+
+#### 7041. [V2EX] grok4.5 太强了
+
+**问题描述 / Problem Description**:
+https://pub.mini-tools.uk/7-day/2e35ce5d-d04a-4e40-8cfe-3ff4823ce306.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226140#reply5
+
+---
+
+#### 7042. [V2EX] iOS 原生开发在 AI 时代真的是灾难
+
+**问题描述 / Problem Description**:
+主要是说老工程，大多数能长期盈利的项目还是很多年前开发的 SwiftUI 和 UIKit 的混编感觉还不如 Flutter 非结构化的代码 AI 很容易就漏掉细节 UIKit 命令式布局代码顺序不对都可能崩溃 没有热重载更比不上其他平台在 AI 加持下的效率
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226139#reply2
+
+---
+
+#### 7043. [V2EX] codex 的额度是不是出问题了，变来变去的
+
+**问题描述 / Problem Description**:
+codex 的额度今天变来变去的，一开始我还以为重置了，结果不是，今天变来变去了好几次了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226134#reply6
+
+---
+
+#### 7044. [V2EX] 分享个小脚本：将任意长度的视频转换成 motion photo / 动态图片 / 实况照片，可发小红书
+
+**问题描述 / Problem Description**:
+小红书测试了正常，客户端和 web 端都正常，封面图、音画都 OK 朋友圈测试了一下不行，只展示了静态照片，可能被微信认为不够规范 [捂脸] 脚本兼容 windows/macOS/linux 感兴趣的朋友欢迎去尝试: https://github.com/hellodk34/make_motion_photo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226128#reply1
+
+---
+
+#### 7045. [V2EX] Windows 版的 QQ 音乐 bug 还真多
+
+**问题描述 / Problem Description**:
+经常卡死（遇到好几次），搜索功能点不了，播放点了没反应。 不知道是用什么开发的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226126#reply1
+
+---
+
+#### 7046. [V2EX] 受够了臃肿的 AI 中转管理面板，我做了一个更轻量的开源版
+
+**问题描述 / Problem Description**:
+最近做了一个开源小项目： ModelPort GitHub： https://github.com/tg111/modelport Demo： https://tg111.github.io/modelport/ 做这个项目的原因很简单：我之前用过 CLIProxyAPI ，功能确实多，但对我来说有点太臃肿了。 我更想要的是一个简单点的工具： 能管理多个 AI 中转站 能给模型设置代理名 能按同一个模型名做渠道轮询 某个渠道失败时自动切到下一个 能看到每个渠道的调用记录和成功 / 失败情况 UI 尽量清爽一点 所以就做了 ModelPort 。 我不是想做一个大而全的平台，核心目标就是： 把多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226114#reply0
+
+---
+
+#### 7047. [V2EX] GPT-Image2 这两天基本用不了
+
+**问题描述 / Problem Description**:
+经常卡在微调一下，然后提示图片生成失败
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226090#reply15
+
+---
+
+#### 7048. [V2EX] 如今回头看看十年前 AI 写代码相关帖子真是感触颇深
+
+**问题描述 / Problem Description**:
+起因是刷到了这个帖子 https://v2ex.com/t/694359 评论区还是一片冷嘲热讽，如今看来我们还是低估 AI 的发展了 所以我找了几个更早的帖子，16-18 年的 https://v2ex.com/t/287509 https://v2ex.com/t/424000 https://v2ex.com/t/521116 站在如今的节点上，我已经完全无法想象十年后是什么场景了，未来已来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226089#reply27
+
+---
+
+#### 7049. [V2EX] 现在能过 cc 的指纹浏览器 或者 配置 有大佬分享吗
+
+**问题描述 / Problem Description**:
+cloudflare 感觉人工点了 也过不去 是 ip 问题 有质量好的 么 是环境问题 有交流的么？ Sorry, you have been blocked You are unable to access veritaconnect.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226077#reply0
+
+---
+
+#### 7050. [V2EX] 有没有 Gemma4 的破限提示词，网上找了几种不行
+
+**问题描述 / Problem Description**:
+求分享下。 网上搜了半天，都试了不行。 有没有强大的破限提示词。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226076#reply1
+
+---
+
+#### 7051. [V2EX] 5.6 啥时候来啊，这 5.5 快要吐死了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226063#reply10
+
+---
+
+#### 7052. [V2EX] cursor 上出现了 Honeycomb EAP，看起来是 claude 的新模型
+
+**问题描述 / Problem Description**:
+在测试，好像还不错，关键是 free!!!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226051#reply4
 
 ---

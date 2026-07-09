@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2364**
+**总计条目 / Total entries: 2394**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -36714,5 +36714,365 @@ It was discovered that Apache HTTP Server's mod_ldap module incorrectly handled 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8516-1
+
+---
+
+#### 2365. CVE-2026-54499 - stanza: Stanza: Remote Code Execution via unsafe deserialization in model loaders
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] stanza: Stanza: Remote Code Execution via unsafe deserialization in model loaders. Bugzilla: 2498355
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498355
+
+---
+
+#### 2366. CVE-2026-15168 - wireshark: Wireshark: Information disclosure in BLF file parser
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Information disclosure in BLF file parser. Bugzilla: 2498329
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498329
+
+---
+
+#### 2367. CVE-2026-59818 - etcd: etcd: Authentication bypass due to improper Certificate Revocation List…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] etcd: etcd: Authentication bypass due to improper Certificate Revocation List enforcement on gRPC listener. Bugzilla: 2498305
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498305
+
+---
+
+#### 2368. CVE-2026-15166 - Wireshark: Wireshark: Denial of Service via IEEE 802.11 protocol dissector crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Wireshark: Wireshark: Denial of Service via IEEE 802.11 protocol dissector crash. Bugzilla: 2498314
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498314
+
+---
+
+#### 2369. CVE-2026-15174 - wireshark: Wireshark: Denial of Service via Catapult DCT2000 protocol dissector…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service via Catapult DCT2000 protocol dissector crash. Bugzilla: 2498289
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498289
+
+---
+
+#### 2370. CVE-2026-15172 - wireshark: Wireshark: Denial of service via FMP/NOTIFY protocol dissector crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of service via FMP/NOTIFY protocol dissector crash. Bugzilla: 2498306
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498306
+
+---
+
+#### 2371. CVE-2026-15173 - Wireshark: Wireshark: Denial of Service via pcapng file parser crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Wireshark: Wireshark: Denial of Service via pcapng file parser crash. Bugzilla: 2498278
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498278
+
+---
+
+#### 2372. CVE-2026-15171 - wireshark: Wireshark: Denial of service via SSH protocol dissector crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of service via SSH protocol dissector crash. Bugzilla: 2498296
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498296
+
+---
+
+#### 2373. CVE-2026-15169 - wireshark: Wireshark: Denial of Service via UMTS FP protocol dissector crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service via UMTS FP protocol dissector crash. Bugzilla: 2498295
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498295
+
+---
+
+#### 2374. CVE-2026-15167 - wireshark: Wireshark: Denial of Service via DBS Etherwatch file parser crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service via DBS Etherwatch file parser crash. Bugzilla: 2498277
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498277
+
+---
+
+#### 2375. CVE-2026-15170 - wireshark: Wireshark: Denial of service via Z39.50 protocol dissector crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of service via Z39.50 protocol dissector crash. Bugzilla: 2498313
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498313
+
+---
+
+#### 2376. CVE-2026-15165 - wireshark: Wireshark: Denial of Service via TLS ECH decryptor crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service via TLS ECH decryptor crash. Bugzilla: 2498279
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498279
+
+---
+
+#### 2377. CVE-2026-15163 - wireshark: Wireshark: Denial of Service via multiple protocol dissector infinite…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service via multiple protocol dissector infinite loops. Bugzilla: 2498302
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498302
+
+---
+
+#### 2378. CVE-2026-15164 - wireshark: Wireshark: Denial of Service vulnerability in ciscodump
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wireshark: Wireshark: Denial of Service vulnerability in ciscodump. Bugzilla: 2498280
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498280
+
+---
+
+#### 2379. CVE-2026-6352 - gitlab: GitLab EE: Auditor-level users can modify compliance records via improper…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] gitlab: GitLab EE: Auditor-level users can modify compliance records via improper authorization in GraphQL. Bugzilla: 2498312
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498312
+
+---
+
+#### 2380. CVE-2026-11827 - gitlab-ee: GitLab EE: Information disclosure via improper authorization controls
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gitlab-ee: GitLab EE: Information disclosure via improper authorization controls. Bugzilla: 2498318
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498318
+
+---
+
+#### 2381. CVE-2026-13320 - gitlab: GitLab: Arbitrary script execution via improper input sanitization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gitlab: GitLab: Arbitrary script execution via improper input sanitization. Bugzilla: 2498316
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498316
+
+---
+
+#### 2382. CVE-2026-55206 - py7zr: py7zr: Denial of Service via crafted .7z archives due to inefficient…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] py7zr: py7zr: Denial of Service via crafted .7z archives due to inefficient algorithmic complexity. Bugzilla: 2498253
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498253
+
+---
+
+#### 2383. CVE-2026-55195 - py7zr: py7zr: Denial of Service via decompression bomb in 7zip archive extraction
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] py7zr: py7zr: Denial of Service via decompression bomb in 7zip archive extraction. Bugzilla: 2498255
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498255
+
+---
+
+#### 2384. CVE-2026-58494 - wasmtime: Wasmtime: Overwrite host files via insufficient permission checks in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wasmtime: Wasmtime: Overwrite host files via insufficient permission checks in wasmtime-wasi. Bugzilla: 2498250
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498250
+
+---
+
+#### 2385. [Ubuntu] USN-8526-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Xianrui Dong discovered that libheif had an out-of-bounds read in its HEIF sequence track parser. An attacker could possibly use this issue to cause a denial of service or obtain sensitive information. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-47254) Junyi Liu discovered that libheif had a null pointer dereference in its image tiling interface. An attacker could possibly use this issue
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8526-1
+
+---
+
+#### 2386. [Ubuntu] USN-8525-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Harry Sintonen discovered that curl incorrectly handled credentials when following HTTP redirects in conjunction with .netrc files. An attacker could possibly use this issue to obtain sensitive information. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, and Ubuntu 18.04 LTS. (CVE-2024-11053) Hiroki Kurosawa discovered that curl incorrectly handled OCSP stapling responses. A remote at
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8525-1
+
+---
+
+#### 2387. [Ubuntu] USN-8524-1: Python vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Python did not use sufficient entropy for Expat hash-flooding protection in the xml.parsers.expat and xml.etree.ElementTree modules. An attacker could use this to cause a denial of service via a crafted XML document.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8524-1
+
+---
+
+#### 2388. [Ubuntu] USN-8523-1: libsoup vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Eric Su and Samuel Dainard discovered that libsoup incorrectly handled content with zero-length resources. An attacker could possibly use this issue to trigger a buffer over-read, resulting in information disclosure or a denial of service. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 25.10, and Ubuntu 26.04 LTS. (CVE-2026-2369) Kona Arctic
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8523-1
+
+---
+
+#### 2389. [Ubuntu] USN-8522-1: LibRaw vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LibRaw incorrectly handled certain Nikon RAW image files. An attacker could possibly use this issue to cause LibRaw to crash, resulting in a denial of service. (CVE-2026-5342) It was discovered that LibRaw had an integer overflow in its DNG image loader. An attacker could possibly use this issue to cause LibRaw to crash, resulting in a denial of service, or execute arbitrary
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8522-1
+
+---
+
+#### 2390. [Ubuntu] USN-8521-1: Libidn vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Libidn incorrectly handled certain internationalized domain name strings. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8521-1
+
+---
+
+#### 2391. [Ubuntu] USN-8520-1: Expat vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Expat used insufficient entropy when generating hash salt values for its internal hash table. An attacker could use this to craft an XML document that triggers hash flooding, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8520-1
+
+---
+
+#### 2392. [Ubuntu] USN-8519-1: Go Cryptography vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Jakub Ciolek and Nicola Murino discovered that Go Cryptography incorrectly handled SSH agent responses. An attacker could use this to cause a denial of service. (CVE-2025-47913) Yuichi Watanabe discovered that Go Cryptography incorrectly handled SSH key exchanges. An attacker could use this to cause a denial of service. (CVE-2025-22869)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8519-1
+
+---
+
+#### 2393. [Ubuntu] USN-8492-4: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - MIPS architecture; - PowerPC architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - ACPI drivers; - ATM drivers; - RNBD block device driver; - Ublk userspace block drive
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8492-4
+
+---
+
+#### 2394. [Ubuntu] USN-8490-2: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Block layer subsystem; - Cryptographic API; - DMA engine subsystem; - InfiniBand drivers; - STMicroelectronics network drivers; - Network drivers; - NVME drivers; - SCSI subsystem; - USB over IP d
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8490-2
 
 ---

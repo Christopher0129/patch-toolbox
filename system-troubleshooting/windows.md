@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7743**
+**总计条目 / Total entries: 7788**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -106424,5 +106424,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1225828#reply4
+
+---
+
+#### 7744. GF's desktop got water in it while off including PSU. What to do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us3tn2/gfs_desktop_got_water_in_it_while_off_including/
+
+---
+
+#### 7745. My Windows computer no longer lets me download music onto my iPod.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us0s4q/my_windows_computer_no_longer_lets_me_download/
+
+---
+
+#### 7746. Recover Data from External HDD after a fall
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us46sz/recover_data_from_external_hdd_after_a_fall/
+
+---
+
+#### 7747. Earbuds not working after wireless charging.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us3gvf/earbuds_not_working_after_wireless_charging/
+
+---
+
+#### 7748. Flashing Never Ending Loading cursor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us38a1/flashing_never_ending_loading_cursor/
+
+---
+
+#### 7749. Mic not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1urt61l/mic_not_working/
+
+---
+
+#### 7750. Games not launching on HP Omen 16
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us37wr/games_not_launching_on_hp_omen_16/
+
+---
+
+#### 7751. 7-8 month old hp omen 16 completely dead (please help urgent)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us05g3/78_month_old_hp_omen_16_completely_dead_please/
+
+---
+
+#### 7752. RCA RTU6000 - Advanced Picture Settings are grayed out. Trying to enable Game Mode for Rocket League.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1urz288/rca_rtu6000_advanced_picture_settings_are_grayed/
+
+---
+
+#### 7753. Windows 11 constant but random USB disconnect sound, no reconnect sound.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1urqg33/windows_11_constant_but_random_usb_disconnect/
+
+---
+
+#### 7754. IP Address can’t be found? (Windows)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us4lln/ip_address_cant_be_found_windows/
+
+---
+
+#### 7755. Firefox Accessing Service: Windows Camera Frame Server, When I'm Not Trying to Access The Camera?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uryalq/firefox_accessing_service_windows_camera_frame/
+
+---
+
+#### 7756. Playing movies from a hard-drive to a Fire TV
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us4bll/playing_movies_from_a_harddrive_to_a_fire_tv/
+
+---
+
+#### 7757. Grafics Card fried?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us48jk/grafics_card_fried/
+
+---
+
+#### 7758. Dual Monitor - Video Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us431d/dual_monitor_video_issue/
+
+---
+
+#### 7759. PC fans making a scratching noise
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us3lde/pc_fans_making_a_scratching_noise/
+
+---
+
+#### 7760. Windows SSD won’t boot after removing it from another PC — Critical Process Died, BIOS only, need repair advice
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us3hnr/windows_ssd_wont_boot_after_removing_it_from/
+
+---
+
+#### 7761. google said "our systems have detected usual traffic on your computer network." after searching up a specific thing.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us35d2/google_said_our_systems_have_detected_usual/
+
+---
+
+#### 7762. Ok so i fixed one issue which got replaced by another issue.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us34ac/ok_so_i_fixed_one_issue_which_got_replaced_by/
+
+---
+
+#### 7763. Having Stability issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us30r1/having_stability_issues/
+
+---
+
+#### 7764. HP laptop charging issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us2wqo/hp_laptop_charging_issue/
+
+---
+
+#### 7765. MSI Sword 15 has audio glitch when wired earphones are connected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1urwjgj/msi_sword_15_has_audio_glitch_when_wired/
+
+---
+
+#### 7766. Random black screens on turning on laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1urwars/random_black_screens_on_turning_on_laptop/
+
+---
+
+#### 7767. Philip's TV recovery firmware
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1us2ni5/philips_tv_recovery_firmware/
+
+---
+
+#### 7768. [V2EX] CPU 不在 win11 支持列表中，如果安装 11，有啥后果？
+
+**问题描述 / Problem Description**:
+cpu 是老古董 e5-2699A v4 ，主板是超威服务器主板，配置还行，256g 内存，不舍得扔，11 的 cpu 型号支持早就不在列了，支持 tpm2.0 现在系统是 win10 ，如果强制装 11 ，后期有啥后果？微软会不会不给更新了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1218626#reply60
+
+---
+
+#### 7769. [V2EX] Gemini 不同账号尺度判定还不一样的吗
+
+**问题描述 / Problem Description**:
+之前我把 R18 漫画文本分别丢 chatgpt 和 gemini 翻译，gemini 从来没有拒绝过这类请求，倒是 chatgpt 偶尔不配合。今天弄了个 gemini pro 的新号，也是两边一起翻，没翻几页 gemini 就说违反安全准则，我一检查，原来是有“子供”（日语的“孩子”）这个词。关键这也不是什么炼铜内容，否则 chatgpt 那边也会屏蔽。算了，先不深究，继续往下翻。 过了一会，gemini 又出岔子了。这次我认真问它这段文字哪些内容违规了，回答是包括「またがる（跨坐）」、「下から突き上げていく（从下方往上顶/抽插）」等具体动作细节。我人傻了，难道我之前用的 gemini 是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226215#reply2
+
+---
+
+#### 7770. [V2EX] 从 220 斤减肥到 195 斤，脸还是很胖怎么回事
+
+**问题描述 / Problem Description**:
+25 斤已去，大肚腩，大象腿，双下巴，一样没少，有时候照镜子越看自己越胖，好像减了个空气 初始 25 年 6 月 | 体脂 | 骨骼肌 | | 40.7kg | 39.3kg | 现在 26 年 7 月 | 体脂 | 骨骼肌 | | 29.6kg | 38.3kg | 以上是乐刻不准确体脂秤的结果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226214#reply3
+
+---
+
+#### 7771. [V2EX] ai studio 大佬们被封过么
+
+**问题描述 / Problem Description**:
+前两天两个项目被封了，一个收费一个不收费，然后刚申诉成功。这俩项目我就用在 hermes 上，但是也挂在 new api 上只是没用。 在申诉成功之前几个小时我又把一个项目的 api 弄到了 hermes 上，然后刚睡醒了和 hermes 聊了几句，结果又封了......，这是不让我用么？我想着俩项目的 api 在一个 hermes 上，我手动切换你们封了就算了。我现在老老实实一个收费的 api ，聊了没几句，就给我封了啊......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226198#reply0
+
+---
+
+#### 7772. [V2EX] 坦克大赛 V2EX 管理员在吗？我想加入社区
+
+**问题描述 / Problem Description**:
+我登顶过王者第一名，不会拖后腿的 https://agentank.ai/share/tanks/tnk_3fnkVXMpL5PDIoaCS
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226193#reply0
+
+---
+
+#### 7773. [V2EX] 坐等 gpt5.6
+
+**问题描述 / Problem Description**:
+最开始火的是 ChatGPT ，如今大模型那么多，GPT 依旧强悍，希望 5.6 提升一个台阶，不要拉跨。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226189#reply1
+
+---
+
+#### 7774. [V2EX] 如果不限制 token 数量，你想写什么项目
+
+**问题描述 / Problem Description**:
+RT ，来聊聊想 vibe 的好玩的或者有需求的项目，感觉 vibe coding 很好玩，我想再多写点好玩的项目，目前写了很多 app 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226187#reply8
+
+---
+
+#### 7775. [V2EX] 有人知道小米门店里面定制柜体用的是什么颜色吗？
+
+**问题描述 / Problem Description**:
+最近在装修家，准备做全屋定制，无意间看到小米门店里放油烟机，燃气灶等智能家居用的定制柜体的颜色很合我心意，但不知道是什么颜色？网上也没有相关数据，请问有人知道是什么颜色吗？ 我观察到几乎所有直营的小米之家门店里面的定制柜体都是一种颜色，我看着像暖灰或者羊绒灰，又或者是棕灰色这类颜色，但拿不准。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226183#reply2
+
+---
+
+#### 7776. [V2EX] iPhone 13 Pro Max 16.6.1，还有必要升级 iOS 27 吗？
+
+**问题描述 / Problem Description**:
+目前手持一台 iPhone 13 Pro Max，512GB 港版，系统版本是 iOS 16.6.1。 当前版本还能用巨魔，对我来说比较有用的功能主要是： 通话录音 微信双开 iOS / 安卓双在线 其他功能目前感觉可有可无。 考虑升级 iOS 27 的原因主要有两个： 听说 iOS 27 会更流畅 一些软件开始对 iOS 版本有要求 想体验新的系统 这种情况下还有必要升级吗？ 补充一下：我另外还有一台一加 15，主要用来玩游戏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226171#reply1
+
+---
+
+#### 7777. [V2EX] 接到一个陌生手机号码的电话 喂两句 对方就挂断了 同时我在筒里听到一句背景音 通话在录音中 是什么新诈骗？
+
+**问题描述 / Problem Description**:
+这是什么新型咋骗 细思极恐 收集人的声音 AI 合成 PS 备忘录里产生了一个笔记 内容是录音文件 我用的是 iPhone
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226153#reply0
+
+---
+
+#### 7778. [V2EX] 感觉今天的 deepseek 奇奇怪怪的
+
+**问题描述 / Problem Description**:
+明显降智就不说啥了，注意力也很奇怪，东一锄头西一锄头，最后都不知道飘哪里去了。兜兜转转又回来重新做。 最莫名其妙的是，输出内容中英韩混杂了 opencode go/deepseek v4pro/flash
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226149#reply1
+
+---
+
+#### 7779. [V2EX] 没有设计经验的情况怎么， png 如何准确的转 svg
+
+**问题描述 / Problem Description**:
+让 ai 帮忙输出了设计跟预览，但是卡在怎么应用到项目里 想法是固定轮廓，然后用不同眼神状态眯眼 睁大 来表示状态，现在碰到个困难就是市面上的转 svg 效果不行尤其是我还想固定轮廓总失败，大伙是怎么处理矢量图 有没有什么 ipad 好上手的设计软件能临摹把这个图画出来呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226147#reply5
+
+---
+
+#### 7780. [V2EX] 懒得拿相机包了，出门打算直接丢书包里
+
+**问题描述 / Problem Description**:
+怎么处理一下比较好 A7C2 配个 28200 说大也不算大 就是包里还有些其他东西，要不要拿啥包一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226146#reply2
+
+---
+
+#### 7781. [V2EX] 离职公司欠钱不还，说是社保扣款咋办
+
+**问题描述 / Problem Description**:
+看到一个佬分享的跟公司要债的，想到我的血汗钱。 之前一个小公司干了半年，是下个月 20 发工资，所以这个月交的社保钱下个月扣，我当时干到月中提离职了（压力大没人干，一边干几个岗位的活，一边给新人培训），打算月底走，人事催我抓紧交接走，就到 17 号，底薪 4500，结果等到发工资就给我 600，还有 200 是提成，我给人事发信息意思是不给，解释说没干满一个月社保（公司+个人的部分）都由我自己承担了，就不回了，然后我发朋友圈陈述事实还我血汗钱（仅我加的客户和合作的平台官方人员可见），大概五百人，因为是个小公司我基本参与所有项目，所以是所有公司合作的客户了，然后打电话说让我等律师函（老板亲自给我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226135#reply7
+
+---
+
+#### 7782. [V2EX] 请问下新买的国行 iPhone 手机可以用美区的 apple id 激活登录吗？
+
+**问题描述 / Problem Description**:
+在还没能科学上网的时候
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226132#reply2
+
+---
+
+#### 7783. [V2EX] 限韩令和韩国当前的影视行业发展有没有关系？
+
+**问题描述 / Problem Description**:
+除了韩国还有其它国家被类似限韩令限制么？如果韩国是唯一被限制的，那韩国当前影视行业的爆发式发展，跟限韩令是不是也有关系？为什么偏偏被限制的那个，成了新的东方好莱坞，让人不自觉会产生联想。 失去了大陆的市场，没有自我审查，反而可以放开手来大干一场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226130#reply21
+
+---
+
+#### 7784. [V2EX] 请问大概多少钱一个月能招以下需求 资深全端制造系统开发工程师 地点东莞
+
+**问题描述 / Problem Description**:
+**职位概述**： 负责核心制造系统的架构设计、开发与运维，涵盖 QMS （质量管理系统）、MES （制造执行系统）及 IoT 设备集成，推动工厂数字化与云原生转型。 **岗位职责**： 1. 主导 QMS/MES 系统的模块设计、核心代码开发及性能调优，确保高可用与低延迟。 2. 负责 IoT 设备数据接入，实现 MQTT 、Modbus 等协议的通信层开发与设备适配。 3. 基于 Azure 云平台进行应用部署、资源管理及监控，保障系统弹性扩展与数据安全。 4. 设计并优化数据库模型（ PostgreSQL / SQL Server ），处理海量生产数据的存储、查询与分析。 5. 参与 B
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226125#reply8
+
+---
+
+#### 7785. [V2EX] 为什么现在很多某乎某音某黄书开始了很多打板的帖子，什么 3w 全仓，目标 30w。50w 全仓打满。目标 100w 等等
+
+**问题描述 / Problem Description**:
+真这么牛逼早就自己干私募了，为啥这么多人信，还是现在是牛市？傻子太多了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226122#reply7
+
+---
+
+#### 7786. [V2EX] codex 里面开 fast 对 gpt-image-2 生图有加速效果吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226120#reply2
+
+---
+
+#### 7787. [V2EX] 求 skill
+
+**问题描述 / Problem Description**:
+现在有没有专门对 nvidia GPU 故障排查的 skill ，包含但不限于以下内容 ECC 故障 xid 错误分析 RDMA 网络异常 nccl 报错 mlx 网卡通信异常 最终得出一个巡检报告
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226117#reply0
+
+---
+
+#### 7788. [V2EX] [求助] Codex 连续两次被封（实体信用卡+新加坡 IP+月付$200），申诉退款全无门，求防封经验 + 养号策略
+
+**问题描述 / Problem Description**:
+如题，我彻底没辙了。前前后后注册了两个 Codex 账号，全是月付订阅，结果每次都是 不到三周 就被封。 我的详细情况（两次几乎一致） 支付方式 ：两张其他国家的 实体信用卡 （非虚拟卡），账单地址真实。 网络环境 ：全程使用 新加坡机房 IP （静态，非机场中转），没有频繁切换。 订阅费用 ：每月 200 美元 。 登录设备 ： 第一次：设备数超过 3 台后第二天被封。 第二次：严格控制只保留 2 台设备 （本地机器 + sub2api 中转），但这次编码内容涉及 逆向工程 （调试、反编译、协议分析等），依旧被封。 申诉与退款 ：两次都提交了申诉，不是自动拒绝就是完全没回应；退款申请同样石沉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226108#reply25
 
 ---
