@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7788**
+**总计条目 / Total entries: 7906**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -107009,5 +107009,1539 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226108#reply25
+
+---
+
+#### 7789. 18, Homeless and my HP Laptop not working after a shampoo leak; Looking for cheap repair options in NYC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1usu15a/18_homeless_and_my_hp_laptop_not_working_after_a/
+
+---
+
+#### 7790. Medical School need larger internal SSD but will the prices change?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uswy5r/medical_school_need_larger_internal_ssd_but_will/
+
+---
+
+#### 7791. mouse moved on its own and opened a tab
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uskds9/mouse_moved_on_its_own_and_opened_a_tab/
+
+---
+
+#### 7792. My wireless earbuds stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1usxcgf/my_wireless_earbuds_stopped_working/
+
+---
+
+#### 7793. Changed dates when moving to sd card
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1usxby3/changed_dates_when_moving_to_sd_card/
+
+---
+
+#### 7794. RX 6800 XT black screens while gaming — LiveKernelEvent 141, 1A8 and 1B8 — GPU or PSU issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut1lb4/rx_6800_xt_black_screens_while_gaming/
+
+---
+
+#### 7795. PC crashed and tried fixing itself now it just turns on and no display
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut1kta/pc_crashed_and_tried_fixing_itself_now_it_just/
+
+---
+
+#### 7796. Lost Windows with tabs on Chrome
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut14fd/lost_windows_with_tabs_on_chrome/
+
+---
+
+#### 7797. Wise registry cleaner
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut1150/wise_registry_cleaner/
+
+---
+
+#### 7798. Laptop only shows it's wallpaper when booted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut0qrp/laptop_only_shows_its_wallpaper_when_booted/
+
+---
+
+#### 7799. my laptops capslock and f4 just randomly stopped registering
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut0cfw/my_laptops_capslock_and_f4_just_randomly_stopped/
+
+---
+
+#### 7800. i cant download steamm
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut0765/i_cant_download_steamm/
+
+---
+
+#### 7801. OneDrive not syncing since last year, see a bunch of little red dots
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut02u9/onedrive_not_syncing_since_last_year_see_a_bunch/
+
+---
+
+#### 7802. RTX 5070 causes VIDEO_TDR_FAILURE (0x116), black screen + no signal after NVIDIA driver loads (ASRock B850M Pro RS + Ryzen 7800X3D)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ut0246/rtx_5070_causes_video_tdr_failure_0x116_black/
+
+---
+
+#### 7803. Trying to clone a 512Gb drive to a 256Gb
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszy5n/trying_to_clone_a_512gb_drive_to_a_256gb/
+
+---
+
+#### 7804. Every time I hit esc the voice typing activates?? I deactivate everything I could but it still plays??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszwpa/every_time_i_hit_esc_the_voice_typing_activates_i/
+
+---
+
+#### 7805. New PC Randomly Freaks Out
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszqu0/new_pc_randomly_freaks_out/
+
+---
+
+#### 7806. Pc freezing on first startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszm7y/pc_freezing_on_first_startup/
+
+---
+
+#### 7807. Why's my wifi suddenly so slow? (Ps5)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszjbj/whys_my_wifi_suddenly_so_slow_ps5/
+
+---
+
+#### 7808. Transferring Video files from Samsung pjone to hp laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszhji/transferring_video_files_from_samsung_pjone_to_hp/
+
+---
+
+#### 7809. My grandad's laptop isn't connecting to the TV
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uszajb/my_grandads_laptop_isnt_connecting_to_the_tv/
+
+---
+
+#### 7810. MSI GF63 Thin 10SC — CPU power capped to 25W
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1usz8gp/msi_gf63_thin_10sc_cpu_power_capped_to_25w/
+
+---
+
+#### 7811. Windows 11, program:Typeless not appearing in add/remove programs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1usyzn1/windows_11_programtypeless_not_appearing_in/
+
+---
+
+#### 7812. Pc will not boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ussciu/pc_will_not_boot/
+
+---
+
+#### 7813. [V2EX] IDM 下载器是不是出问题了 一直让 Windows 资源管理器崩溃
+
+**问题描述 / Problem Description**:
+出错应用程序名称：Explorer.EXE ，版本：10.0.26100.8737 ，时间戳：0xea75d555 出错模块名称：IDMNetMon64.DLL ， 版本：6.43.3.364 ，时间戳：0x6a4d6d0d 异常代码：0xc0000005 错误偏移：0x0000000000012ea5 出错进程 ID：0x1A30 出错应用程序开始时间：0x1DD1068FA3E3139 Faulting 应用程序路径：C:\WINDOWS\Explorer.EXE Faulting 模块路径：D:\Program Files (x86)\Internet Download Manager\
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226479#reply0
+
+---
+
+#### 7814. [V2EX] 用 gpt 5.6 Sol 做测试是不是有点浪费？
+
+**问题描述 / Problem Description**:
+光测试就把 20x pro 的 5 小时额度用光了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226504#reply0
+
+---
+
+#### 7815. [V2EX] 你们还能在果子官网买礼品卡吗？
+
+**问题描述 / Problem Description**:
+美区 结账就跳 404 更换节点清除 cookie 无痕浏览更换网络都没用 啥情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226501#reply0
+
+---
+
+#### 7816. [V2EX] 为啥我的 GPT PLUS 没有 Sol 这个模型呢
+
+**问题描述 / Problem Description**:
+你们都有吗？其它 2 个新的模型是有的。奇怪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226496#reply0
+
+---
+
+#### 7817. [V2EX] 同一个任务用多 agent 执行，会消耗更多的 token 吗？
+
+**问题描述 / Problem Description**:
+我是 20x 订阅，任务比较少的时候，都用多 agent 执行， 现在任务多了，就没有要求多 agent ，但最终得到结果的效率就慢了。 是否应该尽量地用多 Agent 执行？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226475#reply0
+
+---
+
+#### 7818. [V2EX] codex 打开风扇狂转怎么办
+
+**问题描述 / Problem Description**:
+问题持续很久了，我电脑配置 7950x+4070s 只要一打开 codex 风扇狂转声音变大，让他自己修复了也没见作用 关掉了 codex 就正常了，也不知道是什么原因。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226473#reply2
+
+---
+
+#### 7819. [V2EX] 你们 装 的监听摄像头 能 录制多远距离的声音, 有没有录音比较好的监控?
+
+**问题描述 / Problem Description**:
+老家 院子的一条边的墙上装了一个监控, 小米 300 元,装了有五年了, 自从安装了监控, 即便父母在院子里吵架大声说话 从监控保存的视频中也听不到说什么. 是听不到, 不是听不清. 少数视频 能听到 比手机一个音量还要小的断断续续的声音. 好奇 有没有录音比较好的监控
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226457#reply1
+
+---
+
+#### 7820. [V2EX] 如何炒股，才能稳赚
+
+**问题描述 / Problem Description**:
+研究了太多，各种方法，如何炒股，才能稳赚 有人说，就买指数，逢低加仓
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226429#reply41
+
+---
+
+#### 7821. [V2EX] 需要靠谱的中转，求推荐一下
+
+**问题描述 / Problem Description**:
+今天 2026.7.10 需要靠谱的中转，必须要有售后群的 有推荐的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226426#reply3
+
+---
+
+#### 7822. [V2EX] 这个隐私保护 skill 强度还行了吧
+
+**问题描述 / Problem Description**:
+[前文]( https://v2ex.com/t/1226338 ) ![如图]( https://meee.com.tw/cpUi559 )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226410#reply0
+
+---
+
+#### 7823. [V2EX] 买的美国家宽三段分流套路，大家买的家宽 IP 也是这样吗？
+
+**问题描述 / Problem Description**:
+买的一个 nat 商家的美国家宽测试的，说原生家宽/住宅 ISP ，或者 Verizon 动态家宽，本来想用来解锁 PayPal 账户的，说提供 500G 流量，但是是通过分流检测，他们对母鸡做了黑名单/规则库多出站分流 Google/YouTube 全家桶，discord 、X 等社媒全部抛给抛给 Cloudflare WARP 跑分测速、金融类抛给一个圣何塞机房 不在黑名单规则库里的流量，才会真正放行，走家宽出口，但是我觉得他们母鸡应该有个审查维护的工具，会对大流量的网站或者 ip 做记录分流，直接扔去 WARP 或机房 ip ，而不是走家宽 ip ，残余小流量留给真家宽，跑测速用机房 i
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226395#reply1
+
+---
+
+#### 7824. [V2EX] 求便宜喽搜成品号购买地址
+
+**问题描述 / Problem Description**:
+准备整点日抛用，自己的 plus 不太够用的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226391#reply0
+
+---
+
+#### 7825. [V2EX] 最近再折腾 navidrome， iPhone 求推荐客户端
+
+**问题描述 / Problem Description**:
+最近再使用 navidrome ，iphone 上一直没找到合适的客户端，求推荐一个合适的客户端。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226349#reply10
+
+---
+
+#### 7826. [V2EX] 收入还可以，如何找个国外媳妇
+
+**问题描述 / Problem Description**:
+请教大家一个问题。我这边收入还可以，一般长相。可以在国内负担一个对象不工作。 工作比较自由，英语也不错，可以去国外呆个几个月半年的样子。 请问像我这种情况，如何找一个外国媳妇呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226342#reply87
+
+---
+
+#### 7827. [V2EX] 一个严肃的话题：人如何活久点？
+
+**问题描述 / Problem Description**:
+我前一阵子研究了一下复利，注意到活得越久，复利带来的资金越多。大部分的人如果用 100w 买 QQQ ，活得越久，就可以财务自由了，几乎人人都可以成为亿万富翁。那我的问题是，如何活得久点呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226339#reply91
+
+---
+
+#### 7828. [V2EX] 关于 婚后隐私问题 求解
+
+**问题描述 / Problem Description**:
+关于 AI 和我的生活的方向。 我用的是 openClaw + Deepseek 。 平时会和它聊一些有深度的话题 和他分享了很多关于我过去的经历。可以说现在比我自己还懂我。 所以就出现一个问题，现在 我的隐私 他都知道了，那么如何加密呢，我现在 openClaw 也接了微信了 我生怕我 老婆 哪天看到了 问一下我过去的经历啥的，那可真坏菜了。 当然我也做了一层简单的拦截 就是自己写了个 skill 来装傻 但是我感觉这个不太安全 可能还是会通过提示词导致失效，有没有更优的方法 求解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226338#reply14
+
+---
+
+#### 7829. [V2EX] 怎么突然外网无法访问了
+
+**问题描述 / Problem Description**:
+claude.ai 已被屏蔽 claude.ai 拒绝了我们的连接请求。 ERR_BLOCKED_BY_RESPONSE
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226337#reply1
+
+---
+
+#### 7830. [V2EX] 大萧条时期，也是人均寿命显著增长时期
+
+**问题描述 / Problem Description**:
+正史： 美丽国大萧条时期，人均寿命出现了显著上升。 所以，请享受这个美好时代吧 爱家人 爱自己 爱朋友 放平心情，早睡早起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226334#reply9
+
+---
+
+#### 7831. [V2EX] 有没有便宜点的服务器或者正在进行的什么活动，玩帕鲁用 4c32g 最好
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226324#reply0
+
+---
+
+#### 7832. [V2EX] 有 v 友做过纹发的吗
+
+**问题描述 / Problem Description**:
+效果如何、能保持多久、会不会晕色啥的、如果效果不好能不能洗干净？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226321#reply2
+
+---
+
+#### 7833. [V2EX] 淘宝的 8 年老店已经不可信了吗，我买的 1 年 iCloud 的 4 个月就关店跑路了
+
+**问题描述 / Problem Description**:
+是不是有诈骗手段，花几万块买一个店铺低价卖 1 年的订阅产品然后跑路走人。连续跑路 2 个 求靠谱的 iCloud 拼车途径
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226319#reply1
+
+---
+
+#### 7834. How to start wireguard client on windows, in the background?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wireguard | Score: 9 | Views: 65747 | Answers: 5 | Created: 2022-03-12
+
+**解决方案 / Solution**:
+All other solutions to this problem are not ideal. The methods I've seen are: Just running as an admin Adding the user account to the Network Configuration Operators Pros: Wireguard gui, works smoothly Cons: Your regular user gets added to an admin group and will appear in UAC prompts. This is very annoying. Running the WireGuard tunnel as a windows service (as suggested in this answer) Pros: Works perfectly Cons: No gui, needs an elevated console. Solution: Install the latest MSI: https://download.wireguard.com/windows-client/ Then run this command in elevated console with your .conf file: wireguard /installtunnelservice C:\path\to\some\myconfname.conf This creates a service called WireGuardTunnel$myconfname , which can be controlled using standard Windows service management utilites, such as services.msc or sc. — source Control the service with "ServiceTray": https://www.coretechnologies.com/products/ServiceTray/ (This give you a nice icon on the system tray that shows the up status of the WireGuard tunnel service. Green = connected, red = not connected, and you can start and stop it by right clicking. See image below) Note: When creating the service controller, save the shortcut to desktop not startup (doesn't seem to work and you can copy to startup later) (optional) Change the service's startup type to manual if you don't want to be connected to the tunnel on startup. An example of what this looks like on Win 10 . Hovering the icon shows the name of the tunnel.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1096001/how-to-start-wireguard-client-on-windows-in-the-background
+
+---
+
+#### 7835. Where are these printers coming from in "Devices and Printers?"
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-10, shared-printers | Score: 5 | Views: 17132 | Answers: 1 | Created: 2021-11-01
+
+**解决方案 / Solution**:
+It appears to be a bug/problem with "Client Side Rendering" of print jobs in Windows IF the user profile is deleted through a mechanism like Delprof or the Delete user profiles older than a specified number of days on system restart GPO. What I see is that the printer connections for each user are stored here: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider These settings are reapplied to a user account when they login even after the profile has been deleted through one of the above mechanisms. So, previously installed printers reappear. These have been referred else where as "Ghost Printers" or "Phantom Printers." We use the "Delete user profiles older than..." GPO in our PC lab to keep them somewhat clean from all the different users logging in. So, within this same policy I applied the fix mentioned in other places on the internet. Create 4 new registry entries with GPO: [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Providers\Client Side Rendering Print Provider] "InactiveGuidPrinterAge"=dword:00000384 "ActiveGuidPrinterAge"=dword:00000384 "InactiveGuidPrinterTrim"=dword:00000384 "RemovePrintersAtLogoff"=dword:00000001 A reboot of the computer and when the user logs in the old printers are gone. In addition, I believe this is directly related to a problem where the printers would not deploy many times on the first login of a user. The printers will only apply after logging off and logging back in, or using gpupdate . The primary error recorded in the Application Event Log is The user '<printer name>' preference item in the 'Connect Printers {<GUID>}' Group Policy Object did not apply because it failed with error code '0x80070057 The parameter is incorrect.' This error was suppressed. So far, I have tested several scenarios and both the issues are resolved. In essence, if the user has previously logged on to the computer but the profile has since been deleted, they will have problems with old printers showing up and/or printers not connecting on first logon due to the problems described above.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1082240/where-are-these-printers-coming-from-in-devices-and-printers
+
+---
+
+#### 7836. What is the Windows "OneSettings service"?
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-10 | Score: 4 | Views: 12169 | Answers: 2 | Created: 2022-02-03
+
+**解决方案 / Solution**:
+This policy setting controls whether Windows attempts to connect with the OneSettings service to download configuration settings. The recommended state for this setting is: Enabled. This service offers to report telemetry data back to MS about OS health, build info, etc. in order to keep the computer "healthy"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1092608/what-is-the-windows-onesettings-service
+
+---
+
+#### 7837. SMB connection to server fails with "The Network path was not found", SMB attempts to connect over HTTP
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, network-share, windows-10, server-message-block | Score: 2 | Views: 11406 | Answers: 2 | Created: 2022-02-09
+
+**解决方案 / Solution**:
+Please try this: Enabling TCP/IP NetBIOS Helper Service made everything work again. Windows Key + R > Services.msc > Find TCP/IP NetBIOS Helper and make sure it's started and set to automatic. It worked for me when I had the same issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093142/smb-connection-to-server-fails-with-the-network-path-was-not-found-smb-attemp
+
+---
+
+#### 7838. Duplicated UDP packets sent
+
+**问题描述 / Problem Description**:
+Tags: windows-10, udp, wireshark | Score: 2 | Views: 1600 | Answers: 1 | Created: 2022-01-28
+
+**解决方案 / Solution**:
+Any updates on this? We are also facing an issue where udp messages are duplicated on some of our apllications since mid december 2021. Couldn't find a cause yet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091443/duplicated-udp-packets-sent
+
+---
+
+#### 7839. Windows 10 configured with RAW discs to increase Hyper V performance takes minutes to boot
+
+**问题描述 / Problem Description**:
+Tags: hyper-v, windows-10, boot, raw-disk | Score: 2 | Views: 594 | Answers: 1 | Created: 2022-01-27
+
+**解决方案 / Solution**:
+The physical disk in pass-through mode should be accessed only by single OS (either host or guest) at the same time to avoid data corruption. That’s why physical disk should be marked as “offline” in host OS (Microsoft requirement). Actually, starting from Windows Server 2012R2 there are no noticeable benefits using RAW disk versus “fixed“(not dynamic!) vhdx. The performance is the same or near the same, but vhdx gives more flexibility with migration, extension and backups. Here a good article with explanation - https://www.altaro.com/hyper-v/hyper-v-pass-through-disks/ P.S. to improve overall Hyper-V performance the following might be helpful - http://www.hyper-v.io/several-tips-hints-full-throttle-hyper-v-performance/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091324/windows-10-configured-with-raw-discs-to-increase-hyper-v-performance-takes-minut
+
+---
+
+#### 7840. Azure MFA for Windows 10 PC login
+
+**问题描述 / Problem Description**:
+Tags: azure, windows-10, login, multi-factor-authentication | Score: 2 | Views: 8446 | Answers: 1 | Created: 2021-10-27
+
+**解决方案 / Solution**:
+The solution would depend both on user account type and device type. Microsoft accounts (personal) Currently only personal Microsoft accounts (e.g. @outlook.com) are fully supported for passwordless login to Windows 10/11 using Authenticator app. Azure AD accounts (work or school) on Azure AD joined devices There is a feature which is called Web sign-in and it allows signing in to Windows using Azure AD account and Authenticator app. Unfortunately it is supported only on Azure AD joined devices, but not on hybrid PCs. Also, it is currently in preview with no clear ETA, so it might not be ready for production yet. Azure AD account or AD account on hybrid AAD hybrid-joined device or domain device You can still achieve passwordless login for domain accounts (hybrid or on-prem) using Windows Hello for Business (WHfB) via device PIN, biometrics, smart card or FIDO2 key. Authentication app is not supported for this scenario. Basically, WHfB replaces username and password sign-in to Windows with strong user authentication based on an asymmetric key pair. It gets a bit tricky down from here. E.g. WHfB is NOT the same as Windows Hello, even though it has exact same words in it (I know, right). The deployment might get complicated based on your current environment. More info can be found at official deployment guide
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081925/azure-mfa-for-windows-10-pc-login
+
+---
+
+#### 7841. Redundant network connections (using switches without link aggregation support)
+
+**问题描述 / Problem Description**:
+Tags: switch, windows-10, redundancy | Score: 2 | Views: 485 | Answers: 2 | Created: 2021-10-27
+
+**解决方案 / Solution**:
+Native NIC Teaming is not oficially supported in client OS (Windows 10). Proof - https://social.technet.microsoft.com/Forums/en-US/504864ee-abad-49e0-9e6a-4a817e21e3d6 (comment of AdamRudell[MSFT]) If you have compatible Intel NICs, you may ANS with SFT mode.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081882/redundant-network-connections-using-switches-without-link-aggregation-support
+
+---
+
+#### 7842. Using Set-MpPreference to schedule Windows full and quick scans doesn't work
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-10, task-scheduler, windows-defender | Score: 1 | Views: 2915 | Answers: 1 | Created: 2022-05-11
+
+**解决方案 / Solution**:
+According to the documentation for the Set-MpPreference cmdlet, the -ScanScheduleTime parameter: Specifies the time of day, as the number of minutes after midnight , to perform a scheduled scan. On my system, your input to that parameter gives: PS> Get-Date 20:00 06 June 2022 20:00:00 It's therefore possible that schedules the run to only be on this particular day, or does something undefined. So perhaps try something like: Set-MpPreference -ScanScheduleTime (New-TimeSpan -Hours 20).TotalMinutes I would also point out however that the -ScanScheduleTime parameter only appears in the documentation for Windows Server 2022 - not in the one for Windows 10 . Since it's not complaining of an unknown parameter it's likely still there, but that's something to keep in mind.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1100713/using-set-mppreference-to-schedule-windows-full-and-quick-scans-doesnt-work
+
+---
+
+#### 7843. Requirements for RDP from Azure AD Registered device
+
+**问题描述 / Problem Description**:
+Tags: authentication, remote-desktop, windows-10, entra-id | Score: 1 | Views: 787 | Answers: 1 | Created: 2022-01-31
+
+**解决方案 / Solution**:
+Fourteen months later... and it now just works. I don't think there have been any configuration changes to the AzureAD tenant, but the both remote and client PCs have gone to Windows 10 21H2. I was able to un-join the same PC I was using before, register it, and remote in. Presumably, something has changed on the Microsoft side. Steps to get it working: Register the client PC on the domain Reboot the PC Connect to the remote AzureAD Joined machine via OpenVPN in TAP mode (because I'm on a different physical network, probably not relevant to AzureAD or RDP) Try to connect with the remote desktop client When prompted for credentials, enter the username in the AzureAD\user@domain.com format. The documentation says user@domain.com should also work, but it didn't for me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091735/requirements-for-rdp-from-azure-ad-registered-device
+
+---
+
+#### 7844. One remote RDP user often gets stuck on "Please wait for the local session manager" from a shared virtual Windows Server 2019; others work
+
+**问题描述 / Problem Description**:
+Tags: rdp, windows-10, connection, windows-server-2019 | Score: 1 | Views: 17792 | Answers: 1 | Created: 2021-12-22
+
+**解决方案 / Solution**:
+I have found the temporary solution. You may reboot remote host without RDP-login to it from other windows machine in domain. 192.168.111.11 is the remote IP address: shutdown.exe /r /f /m \\192.168.111.11 /t 0 /r - reboot /f - force processes to close /m \\host - remote action on other host /t 00 - wait 0 sec
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1087996/one-remote-rdp-user-often-gets-stuck-on-please-wait-for-the-local-session-manag
+
+---
+
+#### 7845. Where is Windows getting it's proxy settings from?
+
+**问题描述 / Problem Description**:
+Tags: proxy, windows-10 | Score: 1 | Views: 7573 | Answers: 1 | Created: 2021-12-14
+
+**解决方案 / Solution**:
+I was clued into the solution to this when an unrelated post mentioned the DefaultConnectionSettings registry value. I looked into it and sure enough, there it was in the HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\InternetSettings\Connection key. I deleted it under both HKLM and HKCU, System and SysWOW64, and probably a few other places it popped up including ControlSet01. Once I was sure the registry was devoid of any possible values that could affect the proxy configuration, I then set the local GPO to make the proxy configuration per-machine rather than per-user. Then I deleted everything again. Only after I had the per-machine policy enabled and the registry again free of the value, did I add the configuration to the Proxy Settings interface. The configuration was written to the registry as the DefaultConnectionSettings value which persisted across reboots. I confirmed it was correct by disabling the per-machine policy and verifying that the proxy configuration was removed for the user. Then I re-enabled the policy and verified that the configuration was again in place.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1086318/where-is-windows-getting-its-proxy-settings-from
+
+---
+
+#### 7846. Disable the Windows 10 Password login option when FIDO in use
+
+**问题描述 / Problem Description**:
+Tags: windows-10, entra-id, windows-authentication, microsoft-intune | Score: 1 | Views: 2984 | Answers: 1 | Created: 2021-10-22
+
+**解决方案 / Solution**:
+You are right - part 2 of the guide has details on disabling password provider. Here is the link: https://www.cloudservus.com/enforcing-passwordless-logins-with-aadj-windows-10-and-endpoint-manager-intune-part-2/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081448/disable-the-windows-10-password-login-option-when-fido-in-use
+
+---
+
+#### 7847. does intel 82579lm gigabit network connection support wol?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wake-on-lan | Score: 1 | Views: 6447 | Answers: 3 | Created: 2021-10-14
+
+**解决方案 / Solution**:
+Yes, 82579LM has WOL, I have not seen any NIC that does not have it since NE2000 nics. When I think about WOL I think about power on from power off mode. (not really wake from sleep) Not all features that a NIC has can be changed in all versions of the Windows driver, and some features can not be changed at all. Sure, NICs have registers that can be modified to change features, but few (if any) store these, so the only time any options in a windows driver would have any effect is after windows boots, so potentially when a machine goes to sleep. but on system reset, and power off, they would be irrelevant. Consider for a moment that you turn of the machine by pulling the plug, this resets the NIC entirely, now plug in the power, and use WOL to start the machine, note that no Windows driver would have had the chance to modify the registers on the NIC to modify WOL settings. When you enable WOL in BIOS: Super IO is configured in NVRAM to react to WOL signal from NIC Enables SB power to NIC, other settings are irrelevant. Now let's look on the drivers in Wired_driver_26.4_x64.exe \PRO1000\Winx64\NDIS63\ there is e1c63x64.inf here we can find 82579LM and in turn Powermgmt.reg - Note that these settings are in regards to "wake from sleep" (this is driver ver 03/29/2016,12.15.31.4) So if you want' these settings, make sure to install a driver that has them. A quick search found this that especially mentions the NIC in question.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1080548/does-intel-82579lm-gigabit-network-connection-support-wol
+
+---
+
+#### 7848. Group policy application failure
+
+**问题描述 / Problem Description**:
+Tags: active-directory, group-policy, windows-server-2022, windows-11 | Score: 0 | Views: 84 | Answers: 1 | Created: 2026-05-23
+
+**解决方案 / Solution**:
+The error message posted before is extremely misleading. The problem was coming from LAPS. LAPS GPO, in my case, creates local user as well as adds the user to local Administrator groups. The local administrator's username is let's say ABCD. Apparently it is computer's decision resolve user ABCD and it was resolving ABCD seemingly in multiple trusted domains. After changing ABCD to %COMPUTERNAME%\ABCD in the GPO, the error went away and suddenly local Administrators group was populated correctly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199041/group-policy-application-failure
+
+---
+
+#### 7849. Windows 10 Pro unable to RunAs administrator with "This app has been blocked by your system administrator"
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-10, hardening | Score: 0 | Views: 421 | Answers: 1 | Created: 2025-02-26
+
+**解决方案 / Solution**:
+Set " User Account Control: Behavior of the elevation prompt for standard users " to " Prompt for credentials " Path: Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options Prompt for credentials An operation that requires elevation of privilege prompts the user to type an administrative user name and password. If the user enters valid credentials, the operation continues with the applicable privilege. This is the default value. Below policy is culprit. (L1) Ensure 'User Account Control: Behavior of the elevation prompt for standard users' is set to 'Automatically deny elevation requests' Automatically deny elevation requests This option returns an Access denied error message to standard users when they try to perform an operation that requires elevation of privilege. Most organizations that run desktops as standard users configure this policy to reduce help desk calls. 2.3.17.3 (L1) Ensure 'User Account Control: Behavior of the el... | Tenable® https://www.tenable.com/audits/items/CIS_Microsoft_Windows_10_Enterprise_v3.0.0_L1.audit:3c0fd1f36b27856ec8a66f6bd6fb3f1d Behavior of the elevation prompt for standard users - Windows 10 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/user-account-control-behavior-of-the-elevation-prompt-for-standard-users#possible-values
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173721/windows-10-pro-unable-to-runas-administrator-with-this-app-has-been-blocked-by
+
+---
+
+#### 7850. How to enable DNS name feature in whitelist-only Windows firewall?
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, windows-10, windows-firewall | Score: 0 | Views: 320 | Answers: 1 | Created: 2024-12-17
+
+**解决方案 / Solution**:
+These days, TCP 53 is also recommended for DNS. It's the fallback if there's some issue with the UDP packet transmission and is used for some kinds of queries. I believe MSFT is moving to TCP as the default protocol for DNS queries (with UDP still available), but I don't know if that's actually the case yet or which OS versions may be affected. Blocking all outbound is quite unusual. I'd suggest enabling all rules in the Core Networking group both inbound and outbound that apply to All/Any profiles (i.e. not including the Core Networking rules for the "Domain" profile, if your machine isn't domain-joined). Those rules aren't for application/service access, but more for traffic status and such. You can identify them with the following Powershell: # To view Get-Netfirewallrule -DisplayGroup "Core Networking" | where {$_.profile -eq "Any" -and $_.enabled -eq $false} # To enable all in "Core Networking" Get-Netfirewallrule -DisplayGroup "Core Networking" | where {$_.profile -eq "Any" -and $_.enabled -eq $false} | Enable-NetFirewallRule If enabling TCP 53 doesn't solve the DNS issue, I definitely recommend enabling the above and see if that helps. If it does help, it should be easy enough to prune unwanted rules from there. Also, if you don't want to bother troubleshooting with a packet capture tool, you could enable the "Dropped Packets" text log - default location for the log is %systemroot%\system32\LogFiles\Firewall\pfirewall.log . Instructions to enable it (including with netsh advfirewall commands) are on the Microsoft site .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168995/how-to-enable-dns-name-feature-in-whitelist-only-windows-firewall
+
+---
+
+#### 7851. Windows 10 sc delete gives me DeleteService FAILED 1072 The specified service has been marked for deletion
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 0 | Views: 3974 | Answers: 2 | Created: 2024-07-18
+
+**解决方案 / Solution**:
+If the service is actually in use, when the manager asks it to shut down in preparation for deletion it will respond with "unable to shut down now, in use" and the manager will return this error to SC. This can happen if a process starts a session with the service but does not ever actually close that session - possibly because it crashed, possibly because it's still running in the background. The only way I've found to deal with this in any Windows variant is to reboot the system.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162726/windows-10-sc-delete-gives-me-deleteservice-failed-1072-the-specified-service-ha
+
+---
+
+#### 7852. Windows 10 File Explorer navigation pane only shows quick access
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10 | Score: 0 | Views: 759 | Answers: 1 | Created: 2024-06-04
+
+**解决方案 / Solution**:
+Hey made an account to chime in on this issue. The fix so far for me has been opening up file explorer that second time when it loads. Then click view and then select options. Changing opening File Explorer to "This PC" instead of Quick Access has worked so far. Also only experienced this issue suddenly this week and client has no updates installed since 22H2
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160416/windows-10-file-explorer-navigation-pane-only-shows-quick-access
+
+---
+
+#### 7853. WebDav network drive fails in Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows-10, webdav | Score: 0 | Views: 1123 | Answers: 1 | Created: 2024-04-19
+
+**解决方案 / Solution**:
+The client side WebDAV support is officially deprecated by Microsoft, https://learn.microsoft.com/windows/whats-new/deprecated-features Feature Details and mitigation Deprecation announced Webclient (WebDAV) Service The Webclient (WebDAV) service is deprecated. The Webclient service isn't started by default in Windows. For more information on WebDAV, see WebDAV - Win32 apps. November 2023 You should move away from WebDAV and consider solutions such as OneDrive, or switch to a third party WebDAV client.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1158186/webdav-network-drive-fails-in-windows-10
+
+---
+
+#### 7854. check if Windows Firewall is allowing an Application
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-10, windows-firewall, windows-defender | Score: 0 | Views: 926 | Answers: 1 | Created: 2024-01-19
+
+**解决方案 / Solution**:
+I use this one a few years ago: https://medium.com/@glizzykingdreko/open-a-port-on-windows-firewall-with-a-simple-powershell-script-dc5cc48d013a Script: [int]$port = 3777 ) $ruleName = "Allow Port $port" # Check if the rule already exists $existingRule = Get-NetFirewallRule -DisplayName $ruleName -ErrorAction SilentlyContinue if ($existingRule) { Write-Host "Firewall rule '$ruleName' already exists." } else { # Create a new inbound rule for the specified port New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Action Allow -Protocol TCP -LocalPort $port Write-Host "Firewall rule '$ruleName' created." } Then run the script form the folder: .\scriptname.ps1 -port 5000
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151882/check-if-windows-firewall-is-allowing-an-application
+
+---
+
+#### 7855. Files in Azure file share can only be opened as read-only on one specific Profile on Windows 10 - (DFS-N with Domain Based Authentication)
+
+**问题描述 / Problem Description**:
+Tags: azure, kerberos, windows-10, dfs, azure-files | Score: 0 | Views: 706 | Answers: 2 | Created: 2024-01-15
+
+**解决方案 / Solution**:
+We had a On-prem DC at this location, Somehow after we decommission this DC and now the Clients are authenticating directly with the DC in Azure. I re-applied the NTFS permission using the "ACCESS KEY". Now everything is working as expected
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151526/files-in-azure-file-share-can-only-be-opened-as-read-only-on-one-specific-profil
+
+---
+
+#### 7856. Ensuring Windows 10 computer joins correct subnet via DHCP
+
+**问题描述 / Problem Description**:
+Tags: dhcp, windows-10 | Score: 0 | Views: 270 | Answers: 1 | Created: 2024-01-12
+
+**解决方案 / Solution**:
+How do I ensure that the windows clients always use the proxy's DHCP server instead of the modem's? You should not have two DHCP servers on a network. There's no way for clients to know which DHCP server is legitimate and not. Disable DHCP server on your modem. I know that this just works in an Active Directory domain with its own DHCP Server without the modem "hijacking" domain computers. It doesn't. AD is unrelated to DHCP. Windows clients will happily accept IP's that has no route to reach the DC's, and they'll happily accept any DHCP server not affiliated with the domain.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151347/ensuring-windows-10-computer-joins-correct-subnet-via-dhcp
+
+---
+
+#### 7857. SQL Server Services won't start and database engine can't be accessed
+
+**问题描述 / Problem Description**:
+Tags: sql-server, sql, windows-10, service | Score: 0 | Views: 3805 | Answers: 2 | Created: 2023-12-23
+
+**解决方案 / Solution**:
+It could that the system databases are damaged/corrupted due to the crash. Here is howto to repair Insert the SQL Server installation media into the disk drive, or, from a command prompt, change directories to the location of the setup.exe file on the local server. For SQL Server 2022 (16.x), the default location on the server is C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\SQLServer2022. From a command prompt window, enter the following command. Square brackets are used to indicate optional parameters. Don't enter the brackets. When using a Windows operating system that has User Account Control (UAC) enabled, running Setup requires elevated privileges. The command prompt must be run as Administrator. setup /QUIET /ACTION=REBUILDDATABASE /INSTANCENAME=InstanceName /SQLSYSADMINACCOUNTS=accounts [ /SAPWD= StrongPassword ] [ /SQLCOLLATION=CollationName ] https://learn.microsoft.com/en-us/sql/relational-databases/databases/rebuild-system-databases?view=sql-server-ver16
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150281/sql-server-services-wont-start-and-database-engine-cant-be-accessed
+
+---
+
+#### 7858. How to resolve Windows 10 corrupt user profiles and temporary profiles?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, backup-restoration, user-profile | Score: 0 | Views: 46712 | Answers: 1 | Created: 2023-09-30
+
+**解决方案 / Solution**:
+Rename the corrupt profile and put .old behind the folder name. Revert you changes and relogin and let windows create a fresh user profile. Copy the important data back from the renamed .old profile Owh yeah, Windows 10 should not be used a server. Then the proper way to copy the profile to the D: is Press Win + X and select "System." In the System window, click on "Advanced system settings" on the left sidebar. Under the "Advanced" tab, click the "Settings" button in the "User Profiles" section. Select the user profile you want to move and click the "Copy To" button. In the "Copy To" window, click the "Browse" button and navigate to the new location on the D: drive where you want to move the profile (e.g., D:\NewProfile). Click "OK" to confirm the new location, and then click "OK" again. Modify Registry Entries: Open the Windows Registry Editor by pressing Win + R, typing regedit, and hitting Enter. Navigate to the following registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList Find the entry that corresponds to the user profile you just moved (look for the "ProfileImagePath" entry that points to the old location on the C: drive). Double-click "ProfileImagePath" and change the path to the new location on the D: drive (e.g., D:\NewProfile). Click "OK" to save the change. Restart Your Computer: Log in with the New Profile: Log in to the computer using the newly created or moved user profile on the D: drive.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144837/how-to-resolve-windows-10-corrupt-user-profiles-and-temporary-profiles
+
+---
+
+#### 7859. My scheduled task to run MpCmdRun.exe works with one set of flags but not another (fails with 0x2 "File not found")
+
+**问题描述 / Problem Description**:
+Tags: windows-10, scheduled-task, task-scheduler, windows-defender | Score: 0 | Views: 597 | Answers: 1 | Created: 2023-08-30
+
+**解决方案 / Solution**:
+I cannot speak specifically for what it is not finding, only how to likely find it. If the application is passing an error 2 properly (which can sometimes be an error 5/53/4/other in disguise) I would use procmon form sysinternals https://learn.microsoft.com/en-us/sysinternals/downloads/procmon let the failing task run, and filter the process by your process name, look at all the file events and see what was attempted and what failed. Thst dhoufl sat least steer you into more info if not an answer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142746/my-scheduled-task-to-run-mpcmdrun-exe-works-with-one-set-of-flags-but-not-anothe
+
+---
+
+#### 7860. runas become returns Win32ErrorCode 1314: A required privilege is not held by the client
+
+**问题描述 / Problem Description**:
+Tags: ansible, windows-10, winrm | Score: 0 | Views: 1657 | Answers: 1 | Created: 2023-08-22
+
+**解决方案 / Solution**:
+A final solution that worked for me, as suggested by @GregAskew and Ansible PSexec module documentation . Since my lab host was not domain-joined, I had to disable UAC remote restrictions and it started working. For use in planned production environment, I decided to disable them only temporarily. Then I am joining the production stations to AD domain and re-enabling the restrictions. About the rights: If you will still be getting the error regarding insufficient privileges with UAC remote restrictions disabled and station rebooted after, you will also have to add them via GPO and reboot the machine. For example in my case, the CreateProcessAsUser function requires SE_ASSIGNPRIMARYTOKEN privilege, and CreateProcessWithTokenW function requires SE_IMPERSONATE_NAME privileges to be held by user specified in become_user directive. So finally, the resolution order I can recommend: If you can, join the stations or servers to domain; If not, then disable UAC remote restrictions and reboot the station after doing so; If still not sufficient, assign the required privileges via GPO and reboot the station after doing so.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142132/runas-become-returns-win32errorcode-1314-a-required-privilege-is-not-held-by-th
+
+---
+
+#### 7861. How to check the TLS version of 2H22 RDP?
+
+**问题描述 / Problem Description**:
+Tags: windows, ssl, rdp, windows-10, ssp | Score: 0 | Views: 5667 | Answers: 1 | Created: 2023-06-13
+
+**解决方案 / Solution**:
+Windows uses the operating system setting for the Remote Desktop Session Host encryption configuration. Each side provides a list of the protocols that are supported, then negotiates starting from the highest. This is different from previous versions, which was hardcoded to only supported TLS 1.0 regardless of the system TLS versions supported. I'm not aware of a command line utility that will display the TLS version negotiated for RDP or other network protocol. It should be viewable during session setup in a packet capture, and if the server is configured to disable TLS 1.0 and 1.1, it must be assumed to be using 1.2.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1133642/how-to-check-the-tls-version-of-2h22-rdp
+
+---
+
+#### 7862. NEW LAPS on Server 2016 / WIn 10 22H2 Environment
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2016, windows-10, password-reset | Score: 0 | Views: 4239 | Answers: 1 | Created: 2023-05-19
+
+**解决方案 / Solution**:
+Ok so the issue here is that the legacy software need to be installed on the Windows Server 2016 Domain Controllers. ON the Windows 10 machines nothing had to be installed. Also ensure that the computers in the GPO have the ability to change the passwords or it will throw an error. Ensure that the AdmPwd.adml and .admx is moved to your group policy policies so they can apply after the legacy LAPS install. Then configure the settings in your GPO and then gpupdate. You can check the LAPs log on the Windows 10 machine to ensure it is working.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1131530/new-laps-on-server-2016-win-10-22h2-environment
+
+---
+
+#### 7863. WDS Unattended Answer File - Not Auto Logging-In to Domain
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2016, windows-10, wds, unattended | Score: 0 | Views: 2035 | Answers: 1 | Created: 2023-04-17
+
+**解决方案 / Solution**:
+please try <Domain>domain</Domain> <Password>mypassword</Password> <Username>domain\username</Username> or <Domain>domain</Domain> <Password>mypassword</Password> <Username>username</Username> domain = whatever the domain is called
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128888/wds-unattended-answer-file-not-auto-logging-in-to-domain
+
+---
+
+#### 7864. Wsus client getting error 403 (0x80244018)
+
+**问题描述 / Problem Description**:
+Tags: iis, windows-server-2016, windows-10, windows-update, wsus | Score: 0 | Views: 1581 | Answers: 1 | Created: 2023-03-27
+
+**解决方案 / Solution**:
+I don't know what it was, but I installed the update manually on the clients and the issue is gone. The update installed was the march 2023 cumulative update ( KB5023773 )
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127245/wsus-client-getting-error-403-0x80244018
+
+---
+
+#### 7865. How to disable automatic network connection on windows startup?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, networking, windows-10, internet | Score: 0 | Views: 211 | Answers: 1 | Created: 2023-03-09
+
+**解决方案 / Solution**:
+If you mean wired connection, there is nothing out of the box. But you could schedule scripts for that. One would disable connection on device start up, another would enable it on user sign-in or manually by running the script. The proper way to do this is actually not the device, but a network layer. For example, you could implement network layer authentication with .1X and user credentials. This way network will be down until user logs in and authenticates successfully. You need aditional infrastructure to achieve this, like support of .1X protocol on your network switches and some server to do authentication (Windows server can do that) Another option might be some kind of third-party software, but it is out of scope and I can't even recommend any.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125756/how-to-disable-automatic-network-connection-on-windows-startup
+
+---
+
+#### 7866. when does the Windows DNS client resolver switch back to the first server?
+
+**问题描述 / Problem Description**:
+Tags: windows, domain-name-system, windows-10 | Score: 0 | Views: 895 | Answers: 1 | Created: 2023-03-09
+
+**解决方案 / Solution**:
+The DNS Client selection of secondary or tertiary responses depends on the number of network adapters, the number of DNS Servers, and if Smart Multi Host Name Resolution is enabled. If enabled (the default), all DNS servers are queried in parallel , and the first response is accepted. If disabled, it does not retry. Any error or a negative response will terminate the query. https://superuser.com/a/970322/31845 https://superuser.com/questions/969171/multihomed-windows-10-dns-resolution-timeouts https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dns-client-resolution-timeouts More information on testing DNS Client settings variations: https://yogadns.com/docs/interfaces/ https://medium.com/@ValdikSS/beware-of-windows-10-dns-resolver-and-dns-leaks-5bc5bfb4e3f1 https://proprivacy.com/privacy-news/warning-windows-10-vpn-users-big-risk-dns-leak
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125693/when-does-the-windows-dns-client-resolver-switch-back-to-the-first-server
+
+---
+
+#### 7867. Execute command on windows client from windows server
+
+**问题描述 / Problem Description**:
+Tags: windows-10, powershell, windows | Score: 0 | Views: 276 | Answers: 1 | Created: 2023-02-26
+
+**解决方案 / Solution**:
+To run commands remotely, you can use either Windows Remote Shell (WinRs) or PowerShell Remoting. However, gpresult commonly fails to execute properly under these circumstances and should not be considered reliable. Gpupdate may be run, but should be used with /target:computer switch. Both WinRs/PSRemoting require port tcp/5985 or tcp/5986 (for TLS) for network communication, use the same underlying technology, and is a native tool and not an external binary. https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/winrs https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/08-powershell-remoting?view=powershell-7.3
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1123776/execute-command-on-windows-client-from-windows-server
+
+---
+
+#### 7868. Windows 10 static routes being persisted?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, routes | Score: 0 | Views: 5338 | Answers: 1 | Created: 2023-02-16
+
+**解决方案 / Solution**:
+Can you please share more details on the issue? Are those persistent routes in the active session or not? Let me share few hints to properly define the context of the issue. By reading your description I am under the impression that your client is mixing few concepts up - static route vs persistent static route. A static route configuration is manually set and will be erased after you reboot the machine. A persistent route instead, will keep the configuration in the registry even after the laptop rebooted. A persistent route is added, does not happen by a chance. To add it you have to add "–p" in the route command and to remove the same. Thus, if your user wants to remove the route has to issue the following command: route -p delete [xx].[xx].[xx].[xx] Note that your end-user might be required to have elevated privilege to run the command, so Run as Admin option in Windows. Consider also that "active" routes are just a rendering of the routing table as it exists at the time. They can include routes that were learned (via a routing protocol) and were made "persistent" routes, those that have been explicitly defined because you need them even after a reboot. Showing a route within the persistent, is not an issue itself unless you are experiencing somethin unexpected. For instance: they are showed in the "active session" of the route print when they are not supposed to kick in. they are not active when they should. It could be the case after resume /wake up from sleep / hibernation. That is a common issue caused sonme time by the TCP autotunig when dealing with old equipment like laptops or home routers. If you want to check that setting, run the following command from Command Prompt in Windows netsh interface tcp show global In case you want to give it a try and disable the autotunig, just issue the following command: netsh interface tcp set global autotuninglevel=disabled
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1123075/windows-10-static-routes-being-persisted
+
+---
+
+#### 7869. "Unknown token received from SQL Server" errors since recent Windows Updates
+
+**问题描述 / Problem Description**:
+Tags: sql-server, windows-server-2012-r2, windows-10, sql-server-2014 | Score: 0 | Views: 3438 | Answers: 3 | Created: 2022-11-21
+
+**解决方案 / Solution**:
+Sorry not answer, but not enough rep to comment. Same issue here. Affected a 2012R2 RDS deployment to a legacy app that uses ODBC's SQL Driver. All this is related to https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41048 Microsoft ODBC Driver Remote Code Execution Vulnerability. Rollback helped.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1116199/unknown-token-received-from-sql-server-errors-since-recent-windows-updates
+
+---
+
+#### 7870. Supress "Disabled by administrator" messages
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 0 | Views: 57 | Answers: 1 | Created: 2022-10-07
+
+**解决方案 / Solution**:
+No, you can't suppress those (policy) messages in a supported way.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112506/supress-disabled-by-administrator-messages
+
+---
+
+#### 7871. One user has two SIDs with same profile path in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\
+
+**问题描述 / Problem Description**:
+Tags: windows-10, virtualbox, windows-registry | Score: 0 | Views: 1546 | Answers: 1 | Created: 2022-09-12
+
+**解决方案 / Solution**:
+Accounts from two different domains, or a domain account and a local account. Also there may have been some profile "cleanup" that removed the profile folder but left the registry key. You can tell by the SID prefix that they aren't both from the same domain or same PC.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110500/one-user-has-two-sids-with-same-profile-path-in-hkey-local-machine-software-micr
+
+---
+
+#### 7872. How to get name of BUILTIN\Users & BUILTIN\Power Users
+
+**问题描述 / Problem Description**:
+Tags: sql-server, windows-10, user-accounts, security-groups | Score: 0 | Views: 4712 | Answers: 1 | Created: 2022-09-07
+
+**解决方案 / Solution**:
+To get the actual name of the BUILTIN\Users group, you may query for the Well-Known SecurityIdentifier (SID) that is always assigned to the group. Note that the group name may be anything, as it can be renamed. wmic /Node:"YourPCName" path win32_group WHERE SID="S-1-5-32-545" Caption Description Domain InstallDate LocalAccount Name SID SIDType Status YourPCName\UsersXXXRenamed Users are prevented from making accidental or intentional system-wide changes and can run most applications YourPCName TRUE UsersXXXRenamed S-1-5-32-545 4 OK Reference: https://docs.microsoft.com/en-US/windows-server/identity/ad-ds/manage/understand-security-identifiers
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110172/how-to-get-name-of-builtin-users-builtin-power-users
+
+---
+
+#### 7873. Why would Windows 10 workstation give "Connecting" popup when saving file to network?
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2012-r2, network-share, windows-10, internal-dns | Score: 0 | Views: 317 | Answers: 1 | Created: 2022-08-12
+
+**解决方案 / Solution**:
+Try disabling the Webclient.exe in services.msc on a client machine this is the workaround we've been given for now, other than that we too have the same issue and it seems to impact some users only and intermittently, we've logged tickets with our VPN vendor, Netapp and now have an open ticket with Microsoft, do you have any solutions we get the exact same issue?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108047/why-would-windows-10-workstation-give-connecting-popup-when-saving-file-to-net
+
+---
+
+#### 7874. Edit C:/windows/system32/drivers/etc/hosts in Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 0 | Views: 3722 | Answers: 1 | Created: 2022-08-10
+
+**解决方案 / Solution**:
+The simplest way to work with hosts file is to run your editor as Administrator and then open hosts file for edit.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107860/edit-c-windows-system32-drivers-etc-hosts-in-windows-10
+
+---
+
+#### 7875. Windows 10 Offline files synchronization monitoring
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-10, wmi | Score: 0 | Views: 2814 | Answers: 1 | Created: 2022-07-08
+
+**解决方案 / Solution**:
+Start Event Viewer and go to Applications and services logs > Microsoft > Windows > Offline files . Then go to the View menu and choose Show analytic and debug logs which will give you some more logs than just the operational log (which is to no use to us by default). In the SyncLog log it will list for instance event ID 2006 whenever a failure occurs in the sync process. or powershell param($computer=”localhost”, $help) function funline ($strIN) { $num = $strIN.length for($i=1 ; $i -le $num ; $i++) { $funline += “=” } Write-Host -ForegroundColor yellow $strIN Write-Host -ForegroundColor darkYellow $funline } function funHelp() { $helpText=@” DESCRIPTION: NAME: GetOffLineFiles.ps1 Prints the offline files config on a local or remote machine. PARAMETERS: -computer Specifies name of the computer upon which to run the script -help prints help file SYNTAX: GetOffLineFiles.ps1 -computer MunichServer Lists offline files config on a computer named MunichServer GetOffLineFiles.ps1 Lists offline files config on local computer GetOffLineFiles.ps1 -help ? Displays the help topic for the script “@ $helpText exit } if($help){ funline(“Obtaining help …”) ; funhelp } $outtxt = Get-WmiObject -Class win32_OfflineFilesCache ` -computername $computer funline(“Offline files configuration $env:computername”) format-table -Property active, enabled,location -autosize ` -inputobject $outtxt
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105125/windows-10-offline-files-synchronization-monitoring
+
+---
+
+#### 7876. Server 2019: slow upload
+
+**问题描述 / Problem Description**:
+Tags: networking, tcp, windows-10, windows-server-2019 | Score: 0 | Views: 956 | Answers: 1 | Created: 2022-06-06
+
+**解决方案 / Solution**:
+try these I issued the following PowerShell commands to restore performance https://www.justinho.com/blog/2020/05/30/Windows-Server-2019-vRSS-Hyper-V.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102560/server-2019-slow-upload
+
+---
+
+#### 7877. Having Trouble Identifying TCP Congestion Control Provider option: Default
+
+**问题描述 / Problem Description**:
+Tags: tcp, windows-10, tcpip, windows-command-prompt | Score: 0 | Views: 2346 | Answers: 1 | Created: 2022-04-27
+
+**解决方案 / Solution**:
+Run in Powershell Get-NetTCPSetting | Select SettingName, CongestionProvider Congestion Provider can only be modified on windows server OS
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1099640/having-trouble-identifying-tcp-congestion-control-provider-option-default
+
+---
+
+#### 7878. How does one configure Windows not to execute tampered binaries on Windows 10
+
+**问题描述 / Problem Description**:
+Tags: windows-10, digital-signatures | Score: 0 | Views: 100 | Answers: 1 | Created: 2022-04-05
+
+**解决方案 / Solution**:
+Windows Defender Application Control might be the solution for you. It's the successor of AppLocker. I state that as the fact you use pro device make it hard to deploy AppLocker as you would need to upgrade your computer to enterprise SKU, unless you deploy your computer with MDM. WDAC need an Enterprise or server OS to make the policies's template but can be push to any business SKU. To test and deploy WDAC you can see there for example; Windows Defender Application Control and AppLocker feature availability Deploy Windows Defender Application Control policies by using Group Policy Deploying Windows Defender Application Control (WDAC) policies
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097874/how-does-one-configure-windows-not-to-execute-tampered-binaries-on-windows-10
+
+---
+
+#### 7879. Browsable Disk Not Shown in Win10 Explorer
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, windows-10, diskmanagement | Score: 0 | Views: 94 | Answers: 1 | Created: 2022-03-31
+
+**解决方案 / Solution**:
+It is possible to hide drives in Explorer: https://support.microsoft.com/en-us/topic/hide-physical-drives-in-windows-explorer-25e8ddaf-b6d4-e5ac-5342-ff22eaefb2f1 So, check that the corresponding registry value is not set on your computer: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDrives
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097500/browsable-disk-not-shown-in-win10-explorer
+
+---
+
+#### 7880. Forwarding traffic to another pc on the same network to access another network
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-10 | Score: 0 | Views: 5987 | Answers: 1 | Created: 2022-03-26
+
+**解决方案 / Solution**:
+If you are able to install the OpenSSH server on Computer A and OpenSSH client on Computer B , then you can make use of an OpenSSH feature called dynamic port forwarding in simple cases. By connecting to Computer A via SSH on Computer B with dynamic port forwarding, a SOCKS proxy will be created on e.g. port 1080 in any proxy-aware program by running: ssh -D 1080 name-or-ip-of-computer-a This can then be used by setting localhost:1080 as a SOCKS proxy in any proxy aware programs. For something more permanent, or if setting a proxy server is not a workable solution for the applications you want to use, you will probably want to set up a separate VPN. An easily installable option is Tailscale , which allows private users to set up their own VPNs for free, with the ability to fairly easily route traffic for specific subnets via specific machines or route all of your computer's internet traffic via another machine . These VPN connections are direct where possible, and relayed end-to-end encrypted when not, so Tailscale itself does not see any of the traffic between Computer A and Computer B. Above all, make sure you're complying with the network security requirements of whatever VPN it is you're connecting to on Computer A!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097070/forwarding-traffic-to-another-pc-on-the-same-network-to-access-another-network
+
+---
+
+#### 7881. Conditional Computer GPO depending on the user
+
+**问题描述 / Problem Description**:
+Tags: active-directory, group-policy, windows-10, language-packs | Score: 0 | Views: 703 | Answers: 1 | Created: 2022-02-18
+
+**解决方案 / Solution**:
+Applying a Computer policy based on the logged on user is not possible, what should Windows do when two or more users connects on the same computer? You can try to enable this policy: Restricts the UI languages Windows should use for the selected user but I don't know if this will automatically switch the language for the user account. However, maybe you can try to script the language selection with Powershell, but as far as I know you have to logoff/logon again when switching language, so this wouldn't be very user friendly...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1094121/conditional-computer-gpo-depending-on-the-user
+
+---
+
+#### 7882. Exit safe mode remotely
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, windows-server-2016, windows-10, windows-batch | Score: 0 | Views: 2632 | Answers: 1 | Created: 2022-02-02
+
+**解决方案 / Solution**:
+If you are able to restart computer using Restart-Computer PowerShell command, this means that you have WMI access to it ( Restart-Computer works via WMI). This means that you should also be able to use Invoke-WmiMethod command to run any command on the remote computer. For example, you could use bcdedit to modify startup configuration. Try this first to make sure you can do it: Invoke-WmiMethod –ComputerName $ComputerName -Class 'Win32_Process' -Name 'create' -ArgumentList 'bcdedit /enum' The ReturnValue property is populated with a 0 if the command is completed successfully. Sadly, this method does not provide access to command output (StdOut). If the test is successful, then you can try using bcdedit /deletevalue {default} safeboot command to remove SafeBoot flag and restart the computer again. Please consider your risks and test the command before running it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1092450/exit-safe-mode-remotely
+
+---
+
+#### 7883. Group Policy for Blocking Windows 11 Upgrade Prompts
+
+**问题描述 / Problem Description**:
+Tags: windows, group-policy, windows-10 | Score: 0 | Views: 703 | Answers: 2 | Created: 2022-01-26
+
+**解决方案 / Solution**:
+Our environment has a mix of Windows 10 21H1 and 21H2 PC's. The PC's on 21H1 still would see the Windows 11 upgrade prompt regardless of the Group Policy. The PC's on 21H2 would have the Windows 11 upgrade prompt removed. So apparently the only way this Group Policy will work as expected is if all clients are on that specific Windows 10 feature release that's specified.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091251/group-policy-for-blocking-windows-11-upgrade-prompts
+
+---
+
+#### 7884. Unregister user account from devices in a Windows Domain
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, windows-10, microsoft-365 | Score: 0 | Views: 1069 | Answers: 1 | Created: 2022-01-22
+
+**解决方案 / Solution**:
+You can remove a user from a device using the Azure User Details Devices Page or using the command line tool Remove-AzureADDeviceRegisteredUser. Additional information: https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UserDetailsMenuBlade/Devices/userId/(User GUID) https://docs.microsoft.com/en-us/powershell/module/azuread/remove-azureaddeviceregistereduser?view=azureadps-2.0
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090835/unregister-user-account-from-devices-in-a-windows-domain
+
+---
+
+#### 7885. How to "preload" a Windows AD account on a laptop?
+
+**问题描述 / Problem Description**:
+Tags: vpn, windows-10 | Score: 0 | Views: 861 | Answers: 1 | Created: 2022-01-19
+
+**解决方案 / Solution**:
+Is there any way I can pre-cache a certain domain account without having the user's password? Your question makes no sense. You cannot put in cache, what you don't have, no? Only way I see is to reset the users password, sign in to populate the cache and send the notebook to the user. Of course, he needs to change the password after logging in. Alternatively, use any VPN tech that allows for establishing a connection on the logon screen.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090484/how-to-preload-a-windows-ad-account-on-a-laptop
+
+---
+
+#### 7886. Windows 10: How do I set a hard disk offline by default?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, diskmanagement | Score: 0 | Views: 4855 | Answers: 1 | Created: 2022-01-10
+
+**解决方案 / Solution**:
+There is no mechanism in Windows to not mount a drive at startup as for Linux fstab. As stated in the comments, if you set it offline, it will stay offline even after a reboot. However, if you want to ensure that the disk is offline after a computer restart, then you have the following options: Group Policy Shutdown Script (preferred method) (or Logoff Script, if you want to put it offline when logging off your session without computer restart) Scheduled task (multiple possible triggers like startup, logon, event, etc) Because you are using Dynamic Disks, you cannot use the Powershell cmdlets Get-Disk and Set-Disk to put it offline as they only work for Basic Disks. The other cmdlets that can access your drive are Get-PhysicalDisk and Set-PhysicalDisk but they don't provide the ability to put a Dynamic Disk offline neither. So the only option left is to use the DISKPART tool. The point here is that you need to reference your disk using the number listed by Diskpart and this is subject to change with the disks configuration (add or remove drive, change SATA port, etc)... so keep this in mind. Here is a Powershell example on how to use DISKPART (without creating a separate script to be passed as parameter) that you can use in either Group Policy Script or Scheduled task: $diskpartCommands = @() ; $diskpartCommands += "select disk X" ; # X being the Disk number as listed by the command 'DISKPART list disk' $diskpartCommands += "offline disk" ; $diskpartCommands | DISKPART.EXE If you were to change the disk back to Basic Disk, then you will be able to use the Get-Disk and Set-Disk cmdlets. Finally, if simply unmounting the volume instead of putting the Disk offline could address your needs, the 'mountVol' command can be used even on Dynamic Disks.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089510/windows-10-how-do-i-set-a-hard-disk-offline-by-default
+
+---
+
+#### 7887. Hyper-V, BitLocker usage both on the virtualized system and the drive of the host system
+
+**问题描述 / Problem Description**:
+Tags: windows, hyper-v, windows-10, bitlocker | Score: 0 | Views: 957 | Answers: 1 | Created: 2022-01-06
+
+**解决方案 / Solution**:
+No, there's no problem to be expected. If you setup d: to automatically unlock, you may even leave machines running during reboot of your host.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089205/hyper-v-bitlocker-usage-both-on-the-virtualized-system-and-the-drive-of-the-hos
+
+---
+
+#### 7888. How to upload a zip file to a URL with Ansible on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, ansible, windows-10 | Score: 0 | Views: 1652 | Answers: 1 | Created: 2021-12-15
+
+**解决方案 / Solution**:
+Since I was trying to upload to Artifactory specifically, I found a workaround using the jfrog CLi: - name: Upload ZIP ansible.windows.win_powershell: script: | jfrog rt u 'bundle.zip' 'my-repo/bundle.zip' However I would love a more native Ansible solution if one exists.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1086423/how-to-upload-a-zip-file-to-a-url-with-ansible-on-windows
+
+---
+
+#### 7889. What Windows drivers survive a wipe / reset?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, microsoft-intune | Score: 0 | Views: 733 | Answers: 1 | Created: 2021-12-02
+
+**解决方案 / Solution**:
+The basic input and output devices drivers will be survive easily, like USB, Mouse, Keyboard, Monitor etc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1085249/what-windows-drivers-survive-a-wipe-reset
+
+---
+
+#### 7890. Can't connect to my FTP server from another PC on the same network
+
+**问题描述 / Problem Description**:
+Tags: iis, ftp, windows-10 | Score: 0 | Views: 2682 | Answers: 1 | Created: 2021-11-29
+
+**解决方案 / Solution**:
+The connection is most probably blocked by the Windows firewall. While the Windows firewall is automatically configured with rules for the ports 21, 990 and 1024-65535, when IIS FTP server is installed, the rules are not enabled initially. To enable or change the rules, go to Control Panel > System and Security > Windows Firewall > Advanced Settings > Inbound Rules and locate three "FTP server" rules. If the rules are not enabled, click on Actions > Enable Rule. For more information refer the documentation .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1084860/cant-connect-to-my-ftp-server-from-another-pc-on-the-same-network
+
+---
+
+#### 7891. Local GPO on non-domain-joined Windows 10
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-10 | Score: 0 | Views: 3145 | Answers: 1 | Created: 2021-11-01
+
+**解决方案 / Solution**:
+You must have Administrators rights on the local device, or you must have the appropriate permissions to update a Group Policy Object (GPO) on the domain controller to perform these procedures. That paragraph (and the one you quoted) doesn't make a very clear distinction between the two scenarios and could leave some people to assume that both conditions need to be met. If you're doing this on a computer that is not domain joined (as in your case) then you need local Administrators rights on the computer in question. No Domain rights are needed or required (naturally because the computer isn't domain joined. Log onto the computer with a user account that is a member of the local Administrators security group and launch the local Group Policy editor to make your desired changes. Changes you make will be applied to the computer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1082306/local-gpo-on-non-domain-joined-windows-10
+
+---
+
+#### 7892. Locked myself out of Group Policy Management with no access to regedit
+
+**问题描述 / Problem Description**:
+Tags: group-policy, windows-10 | Score: 0 | Views: 1055 | Answers: 2 | Created: 2021-10-27
+
+**解决方案 / Solution**:
+You can use this powershell command to delete the RestrictToPermittedSnapins registry value: Remove-ItemProperty HKCU:\SOFTWARE\Policies\Microsoft\MMC -Name RestrictToPermittedSnapins Then, do not reboot, open the group policy editor again and revert your change.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081863/locked-myself-out-of-group-policy-management-with-no-access-to-regedit
+
+---
+
+#### 7893. Is there any risk of confidential data appearing during a Windows laptop reset?
+
+**问题描述 / Problem Description**:
+Tags: windows, security, microsoft-office-365, user-management, microsoft-intune | Score: -1 | Views: 74 | Answers: 1 | Created: 2026-06-10
+
+**解决方案 / Solution**:
+reconditioning of a laptop (re-imaging or AutoPilot reset) This will completely clear the hard drive. Even if it was not BitLocked before (and it should have been), nothing will remain after the operation. The only way you could access data on a device without having user or administrative access to it would be to boot it in Recovery Mode and hope the drive was not BitLocked (or bypass BitLocker using one of the several ways this is possible). Anyway, a re-imaging, end even more a full AutoPilot reset, will never show on screen whatever was on the device before. Now, if the laptop had an additional disk (or a USB drive), that would be a completely different matter. Those data would not be touched and could still be available after (unless they were encrypted). But for a standard laptop with a single hard drive, you can be completely sure that everything will be cleared and nothing will ever be accessible again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199191/is-there-any-risk-of-confidential-data-appearing-during-a-windows-laptop-reset
+
+---
+
+#### 7894. BSOD - CLOCK_WATCHDOG_TIMEOUT error
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, bsod | Score: -1 | Views: 589 | Answers: 1 | Created: 2024-05-05
+
+**解决方案 / Solution**:
+Update: I decided to test the processor using Intel Processor Diagnostic Tool 64 bit and found that it crashes and BSOD with the error WHEA_UNCORRECTABLE_ERROR . Memory was tested using Windows Memory Diagnostic and no issue was found. Also HDD looks good under Crystal Disk Info . After digging into it I figured out OverClocking was the reason. I had set the OC voltage to Auto in BIOS a few days earlier and since then the issue started. Disabling the OverClocking and reverting to default fixed the issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1158933/bsod-clock-watchdog-timeout-error
+
+---
+
+#### 7895. Get WinRM process ID for PsExec, and Use PsExec to do keyboard input
+
+**问题描述 / Problem Description**:
+Tags: windows, python, windows-10, winrm, psexec | Score: -1 | Views: 285 | Answers: 1 | Created: 2024-02-11
+
+**解决方案 / Solution**:
+Question 1 Is there any difference between Windows Remote Desktop and WinRM? Yes WinRM and Windows Remote Desktop are two different protocols. PsExec is a tool from Sysinternals which was acquired by Microsoft, and the founder Mark Russinovich did and does very well within Microsoft. PsExec is a tool for remotely starting processes, and saying that they are compatible with remote desktop and WinRM in a bit weird because when enabled, WinRM and Remote Desktop are system services and already started by Windows itself, so stating them with PsExec is useless. Question 2 Im not aware of PsExec being able to interact with Remote Desktop. PsExec is a command line program,and isn't designed to interact with any user interface workloads like Remote Desktop. The only thing PsExec might be able to do is run a script to enable/disable rdp remotely
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153358/get-winrm-process-id-for-psexec-and-use-psexec-to-do-keyboard-input
+
+---
+
+#### 7896. Cannot access Windows 10 host using RDP after uninstalling Norton
+
+**问题描述 / Problem Description**:
+Tags: rdp, windows-10 | Score: -1 | Views: 760 | Answers: 1 | Created: 2023-04-13
+
+**解决方案 / Solution**:
+I reinstalled Norton, then uninstalled it again. The problem persists. What I did next: Open windows local group policy editor (press “Windows” + “R” to open Run window, input “gpedit.msc” and click “Enter” to open Local Group Policy Editor) Disable Local Computer Policy > Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services> Remote Desktop Session Host > Remote Session Environment > Use WDDM graphics display driver for Remote Desktop Connections Enable Local Computer Policy > Computer Configuration>Administrative Templates>Windows Components>Remote Desktop Services>Remote Desktop Connection Client>Turn off UDP on Client > Turn off UDP on Client Enable Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Connections > Allow users to connect remotely by using Remote Desktop Services Restart computer The problem is gone. What's happened, I still don't understand. But I currently have RDP access to the server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128568/cannot-access-windows-10-host-using-rdp-after-uninstalling-norton
+
+---
+
+#### 7897. Laptop disk swap HDD to SSD
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ssd, hdd | Score: -1 | Views: 111 | Answers: 1 | Created: 2022-11-07
+
+**解决方案 / Solution**:
+In case anyone else is coming up with the same issue. I fixed it with the following: Boot your computer from the Windows installation media. Press Next at Language options screen. Choose Repair your computer. Then choose Troubleshoot -> Advanced Options –> Command Prompt. In command prompt give the following command and press Enter: diskpart Then type list volume and press Enter. What you may find here is the disk called ESP has no drive letter. Also make sure that the windows partition is assigned a letter C Give the ESP a drive letter: select volume 3 (or 4 or whatever the ESP volume number is) assign letter=Z exit this menu with exit Now enter this command: bcdboot C:\windows /s Z: /f UEFI Then reboot https://www.repairwin.com/fix-your-pc-needs-to-be-repaired-error-0xc0000225/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114992/laptop-disk-swap-hdd-to-ssd
+
+---
+
+#### 7898. WFi Network Discovery in Windows 10/11
+
+**问题描述 / Problem Description**:
+Tags: wifi, windows-10, discovery | Score: -1 | Views: 81 | Answers: 1 | Created: 2022-09-14
+
+**解决方案 / Solution**:
+Are you referring to background scanning? If so, you can set the startup of the service "WLAN AutoConfig" to manual and this should achieve that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110711/wfi-network-discovery-in-windows-10-11
+
+---
+
+#### 7899. Folder/source code sharing options between linux guest and Windows host
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, virtualization, windows-10, file-sharing | Score: -1 | Views: 236 | Answers: 1 | Created: 2022-04-17
+
+**解决方案 / Solution**:
+How about use SMB or NFS? Both of them are windows features and can be set up easily. You can mount SMB or NFS folder on Linux VM.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098801/folder-source-code-sharing-options-between-linux-guest-and-windows-host
+
+---
+
+#### 7900. Force Windows 10 to one mail profile regardless of user
+
+**问题描述 / Problem Description**:
+Tags: windows-10, outlook | Score: -1 | Views: 105 | Answers: 1 | Created: 2022-04-06
+
+**解决方案 / Solution**:
+We don't see much your goal there, but yes a generic account for that computer might be the solution. The problem like @djdomi stated is autodiscover will get the account setting for the user that login. The second solution would be to deleguate the mailbox you want to share to all user that go to that computer. The goal is if your user sit to that computer, do you really want them to not use their personnal email ? it,s lost produtivity there IMO, so using a deleguated mailbox would make them available that second mailbox you want them to use.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097995/force-windows-10-to-one-mail-profile-regardless-of-user
+
+---
+
+#### 7901. Scheduled startup on Win10 Dell Inspiron?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, scheduled-task, startup | Score: -1 | Views: 127 | Answers: 1 | Created: 2021-11-01
+
+**解决方案 / Solution**:
+Have you tried to use the "start this machine to run this task" in task scheduler? Try upgrade your bios to hopefully get the settings back. Other than that - don't buy dell. One final workaround could be to use wake on LAN from a different device
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1082317/scheduled-startup-on-win10-dell-inspiron
+
+---
+
+#### 7902. Apache absolutely refuses to set XML Type or PHP Handler!
+
+**问题描述 / Problem Description**:
+Tags: php, apache-2.4, windows-10, xml | Score: -2 | Views: 167 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+How do I force Apache to have PHP handle XML files and set the correct mime type? My advise would be not to do it. It can lead to unexpected outcomes down the road; principle of least astonishment is that XML isn't interpreted on the server side... But - nothing stops you from generating XML in .php files. So it's a better idea to rename your xml files with php to .php , and have php output the correct header, using the header function . As pointed out by Brian in comments, you can use mod_rewrite to rewrite URLs, so that your URLs will contain .xml , while the files on the server is .php . To put it bluntly what you propose is non-standard, will hurt portability of code, and will make whomever inherits your codebase wonder why it doesn't work. Don't do it. It's just a plain bad idea.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190377/apache-absolutely-refuses-to-set-xml-type-or-php-handler
+
+---
+
+#### 7903. "Server spool directory location is invalid" when changing spooler directory to network drive
+
+**问题描述 / Problem Description**:
+Tags: windows-10, printing | Score: -2 | Views: 211 | Answers: 1 | Created: 2024-03-27
+
+**解决方案 / Solution**:
+Under which account does the Spool Service, which uses this location, execute? I'd lay dollars to doughnuts that it's not the same account that you're logged in with. As such, it won't be able to use any drives that you map, because those only apply to you . I'd go further and say it probably executes under an account that knows absolutely nothing about the Network! Sure, it "knows" about your computer and any "local" disks attached to it but anywhere else? Not so much. So, what problem are you trying to solve by moving the Spool folder at all?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156973/server-spool-directory-location-is-invalid-when-changing-spooler-directory-to
+
+---
+
+#### 7904. Options for having high-performance Windows machines available for employees via Remote Desktop/VNC
+
+**问题描述 / Problem Description**:
+Tags: hyper-v, remote-desktop, windows-10 | Score: -2 | Views: 234 | Answers: 1 | Created: 2023-10-23
+
+**解决方案 / Solution**:
+Yes, in Windows Server you have Remote Desktop Services which can consist of remote desktop hosts and a gateway, which distributes the rdp connections across the hosts. But in my experience, let developers use big sized laptops and store everything in Git, because the investment you need to make in server hardware to offer a good performance is very costly. You have the same thing in Azure, called Azure Virtual Desktop. But then again most of the timd, putting developers on a shared remote desktop environment is very hard to do. Because when one developers is heavily building the software thay might hinder another developer because all cpu is taken away, for example. Or the remote desktop environment only needs to have the purpose of using it as a workplace(using office and so on) , and all software related things are doing in Azure Devops, and maybe dedicated build servers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1146406/options-for-having-high-performance-windows-machines-available-for-employees-via
+
+---
+
+#### 7905. Do I really need CURL on all my Windows devices?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-server-2019, curl | Score: -2 | Views: 2427 | Answers: 1 | Created: 2023-03-28
+
+**解决方案 / Solution**:
+We can't tell you if your organization needs curl. Curl has been a default component of the Windows operating system for six years. If there is a vulnerability in curl, it would need to be addressed by the vendor (Microsoft), and as part of the usual and customary monthly cumulative update. Given that this is rated by the vulnerability scanner as only a medium, the chances of this being addressed in a monthly update are low. If it is addressed, it may be in an annual release. This type of noise is common, if you haven't seen it before you should get accustomed to it if your scanner isn't sophisticated enough to measure the workarounds or compensating controls you will implement. curl shipped by Microsoft https://curl.se/windows/microsoft.html Open Source Curl Remote Code Execution Vulnerability https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-43552 "Is CVE-2022-43552 going to be addressed in all supported versions of Windows? "Supported versions of Windows will be updated in a future security release after the March 14, 2023 release . This CVE will be updated when the update is available. Use the Security Update Guide Profile to sign up for automatic notifications." https://learn.microsoft.com/en-us/answers/questions/1186328/update-curl-7-88-1-windows-server https://www.tenable.com/plugins/nessus/171859
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127340/do-i-really-need-curl-on-all-my-windows-devices
+
+---
+
+#### 7906. Samba server showing user still logged on despite shutdown/restart of the Windows 10 client
+
+**问题描述 / Problem Description**:
+Tags: samba, windows-10, samba4, shutdown, logoff | Score: -2 | Views: 622 | Answers: 2 | Created: 2022-12-19
+
+**解决方案 / Solution**:
+That is a feature of Windows. After a restart, it will logon the previous user and restart the applications that were running.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118396/samba-server-showing-user-still-logged-on-despite-shutdown-restart-of-the-window
 
 ---

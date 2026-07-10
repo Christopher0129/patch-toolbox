@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 903**
+**总计条目 / Total entries: 908**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -14363,5 +14363,85 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-53361
+
+---
+
+#### 904. [Microsoft] CVE-2026-53269 - netfilter: synproxy: add mutex to guard hook reference counting
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-53269
+
+---
+
+#### 905. [Microsoft] CVE-2026-53223 - net: guard timestamp cmsgs to real error queue skbs
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-53223
+
+---
+
+#### 906. [Microsoft] CVE-2026-12413 - IKEv2 Denial of Service via malformed fragmentation
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-12413
+
+---
+
+#### 907. [Microsoft] CVE-2026-50722 - IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-50722
+
+---
+
+#### 908. [Microsoft] CVE-2026-50721 - IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-50721
 
 ---

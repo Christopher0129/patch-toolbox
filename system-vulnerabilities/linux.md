@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2252**
+**总计条目 / Total entries: 2265**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -41885,5 +41885,213 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8490-2
+
+---
+
+#### 2253. CVE-2026-15378 - guardrails-detectors: guardrails-detectors: SSRF and local file read via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] guardrails-detectors: guardrails-detectors: SSRF and local file read via user-supplied XML Schema (xml-with-schema:). Bugzilla: 2498941
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498941
+
+---
+
+#### 2254. CVE-2026-55689 - openfga: OpenFGA: OIDC audience validation skipped when --authn-oidc-audience is…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openfga: OpenFGA: OIDC audience validation skipped when --authn-oidc-audience is unset. Bugzilla: 2498818
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498818
+
+---
+
+#### 2255. CVE-2026-15308 - python: Python: CPU Denial of Service in HTML parser via repeated unterminated…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] python: Python: CPU Denial of Service in HTML parser via repeated unterminated markup declarations. Bugzilla: 2498608
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498608
+
+---
+
+#### 2256. CVE-2026-58459 - gpsd: gpsd: Command Injection via GPS device subtype allows arbitrary code…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gpsd: gpsd: Command Injection via GPS device subtype allows arbitrary code execution. Bugzilla: 2498575
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498575
+
+---
+
+#### 2257. CVE-2026-15187 - enquirer: Enquirer: Prototype pollution vulnerability allows remote attackers to…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] enquirer: Enquirer: Prototype pollution vulnerability allows remote attackers to modify object attributes. Bugzilla: 2498547
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498547
+
+---
+
+#### 2258. CVE-2026-12590 - body-parser: body-parser: Denial of Service via invalid limit option
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] body-parser: body-parser: Denial of Service via invalid limit option. Bugzilla: 2498472
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498472
+
+---
+
+#### 2259. CVE-2026-38076 - jbig2dec: jbig2dec: Denial of Service via crafted input
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jbig2dec: jbig2dec: Denial of Service via crafted input. Bugzilla: 2498866
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498866
+
+---
+
+#### 2260. CVE-2026-54528 - jupyterlab-git: JupyterLab Git: Information disclosure via case-sensitivity bypass…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jupyterlab-git: JupyterLab Git: Information disclosure via case-sensitivity bypass in excluded path enforcement. Bugzilla: 2498291
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498291
+
+---
+
+#### 2261. [Ubuntu] USN-8530-1: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284) It was discovered
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8530-1
+
+---
+
+#### 2262. [Ubuntu] USN-8529-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8529-1
+
+---
+
+#### 2263. [Ubuntu] USN-8528-1: Linux kernel (Xilinx ZynqMP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel algif_aead module did not properly handle in-place cryptographic operations. This flaw is known as Copy Fail. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-31431) It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirt
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8528-1
+
+---
+
+#### 2264. [Ubuntu] USN-8527-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - RISC-V architecture; - Cryptographic API; - InfiniBand drivers; - IOMMU subsystem; - Network drivers; - STMicroelectronics network drivers; - NVME drivers; - x86 platform drivers; - SCSI subsystem; - SPI subsystem; - T
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8527-1
+
+---
+
+#### 2265. [Ubuntu] USN-8492-5: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - MIPS architecture; - PowerPC architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - ACPI drivers; - ATM drivers; - RNBD block device driver; - Ublk userspace block drive
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8492-5
 
 ---

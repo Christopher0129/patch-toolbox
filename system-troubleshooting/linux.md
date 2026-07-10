@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7052**
+**总计条目 / Total entries: 7080**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -99614,5 +99614,370 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226051#reply4
+
+---
+
+#### 7053. Got a "Windows Hello only" USB fingerprint reader working on Linux by running the vendor's Windows matcher natively
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1usgp9g/got_a_windows_hello_only_usb_fingerprint_reader/
+
+---
+
+#### 7054. Interview with Nara Oliveira, Free Software Artist
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1usz5h0/interview_with_nara_oliveira_free_software_artist/
+
+---
+
+#### 7055. Linux DT Patches Provide Very Basic Support For Apple M3 Pro / Max / Ultra
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1usmdwd/linux_dt_patches_provide_very_basic_support_for/
+
+---
+
+#### 7056. AMD Enabling CACP Feature On Linux For Greater OLED Power Savings
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1us92nn/amd_enabling_cacp_feature_on_linux_for_greater/
+
+---
+
+#### 7057. draftcraft — Auto-generate snapcraft.yaml
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uszeix/draftcraft_autogenerate_snapcraftyaml/
+
+---
+
+#### 7058. I love Gimp but...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1usxk8m/i_love_gimp_but/
+
+---
+
+#### 7059. Koboldcpp v1.117 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1us5qzs/koboldcpp_v1117_released/
+
+---
+
+#### 7060. I built NiriSeek — a searchable GTK4 window switcher for Niri
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1usgubc/i_built_niriseek_a_searchable_gtk4_window/
+
+---
+
+#### 7061. [V2EX] 用了 ai 之后工作很碎片化，完全无法进入心流
+
+**问题描述 / Problem Description**:
+有没有发现用了 ai 之后，工作时间高度碎片化。在等待 ai 写代码的时候我去做别的事情，或者别的项目，这让我感觉很糟糕，完全无法进入心流状态。 整个人过的浑浑噩噩，慌慌张张，经常忘记 agent 事情做完了，顾了这个顾不了那个。导致事情做的更慢 有什么好的办法吗？你们在等 ai 工作的时候会干啥？还是因为怕自己没了状态就什么都不干盯着 ai 看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226513#reply2
+
+---
+
+#### 7062. [V2EX] 为了省下每年几万的的费用，用 ai 做了完整的 erp
+
+**问题描述 / Problem Description**:
+我们有自己的电商平台，当然也在各家电商上售卖产品。 然后对接云仓时，感觉那些 erp 卖的贵，系统还老旧，去对接到自己的业务定制化的电商流程也不见得好对接， 索性就自己开发了。 其实最花时间的地方是需求整理， 云仓的人沟通起来比想象中要难，体系复杂笨重且陈旧。 做完之后现在觉得需求也就这些了。 但是第一次接触电商，第一次接触云仓，对需求没有全局视角，没有经验指导，探索起来还是很痛苦的，很多数据模型也因为缺乏经验指导，后期才发现有问题又各种改。 好在有 Claude code 加持，并行开发，对抗审查，浏览器模拟调用测试， 就这么吭哧吭哧的，还做了得有一周的时间。 自己的脑力真的是有些跟不上了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226505#reply13
+
+---
+
+#### 7063. [V2EX] vscode 的 codex cli 更新后，界面卡白屏，不知道什么时候会卡
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226487#reply3
+
+---
+
+#### 7064. [V2EX] mimo 分享， 7.10 23:59:59 过期
+
+**问题描述 / Problem Description**:
+今晚过期 baseurl:https://paofun.top/v1 api key(base64):c2stYlk0YzFmdmdST1dvOVBHazV6YmZKN1AwazV0OEZ1WlNJSXc3aUtyczdwa0NIWkl2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226480#reply0
+
+---
+
+#### 7065. [V2EX] 继之前 5.4 的 “收口”之后， 5.6 Sol 好像特别喜欢说 “红灯”
+
+**问题描述 / Problem Description**:
+这个又是什么新的黑话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226476#reply6
+
+---
+
+#### 7066. [V2EX] 关于 monorepo 的实践问题
+
+**问题描述 / Problem Description**:
+最近看到关于 monorepo 的讨论，我想分享我现在手头上项目的架构，顺便问几个问题。 我现在的项目分为前端和后端各一个 repo ，前端是 Vue3 + Nuxt 4 ，后端是 Rust （分为 3 个 crates 和 1 个 binary ，binary 打包成 GHCR image ），目前日常维护这两个 repo 就够了。 这种模式给我带来很大方便，我现在的开发流基本上是：前端有需求 → 研究前后端各要改什么 → 前端写 spec + 给后端发 issue → 写后端 → 部署后端（后端的部署配置文件放前端 repo 里）→ 让前端对接后端。 感觉这样的架构挺顺手的，写前端的 ag
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226464#reply0
+
+---
+
+#### 7067. [V2EX] claude 今天好像重置了 fable5 的时间，又把之前送的 100$过期代币重新激活了
+
+**问题描述 / Problem Description**:
+Hello, You previously received promotional credits on April 4, 2026, which expired after 90 days. We realize the expiration may have come and gone without much notice, so we’re restoring your credits and giving you more time to use them. We’ve credited your account with $81.62. These credits expire
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226453#reply4
+
+---
+
+#### 7068. [V2EX] 每日心情：我做了款心情日历 App，基于心理学整理的 skills 让你 有个树洞来吐槽、表达和记录心情
+
+**问题描述 / Problem Description**:
+这是一款私密的心情记录与情绪树洞。你可以写下当天的感受，选择情绪标签，让树洞给出温和回应，并把这一天存入心情日历。 我们适合： 睡前整理一天的心情 焦躁、低落、委屈时先写下来 记录开心、期待、感激和平静的时刻 回看一段时间里的情绪变化 生成一张给自己的鼓励卡片 主要功能介绍： [心情树洞] 打开 App 就可以写下此刻真实的心情。无需写得完整，选一个心情标签或留下一句话，都可以开始记录。 [温和 AI 回应] 树洞会先承接你的感受，再给出轻量、克制的回应。它像一个愿意认真听你说话的朋友，帮助你把纷乱的情绪慢慢放下。 [心情日历] 每天的记录会沉淀在日历里。你可以回看标题、情绪标签、摘要和当时的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226448#reply1
+
+---
+
+#### 7069. [V2EX] 腾讯云大模型也 429 了
+
+**问题描述 / Problem Description**:
+exceeded retry limit, last status: 429 Too Many Requests, request id: eb42ca40-940c-4fbc-bafd-972dde8814f6 这会儿反复 429 ，没法使用。 腾讯云大模型 api （主要是 deepseek 、glm 模型）用了挺久，直观感觉比阿里云流畅太多，几乎不卡。 今天第一次遇到严重限流。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226444#reply2
+
+---
+
+#### 7070. [V2EX] 做了一个网页划词标注扩展 Markwise，支持高亮、笔记、刷新恢复和本地管理，欢迎试用和拍
+ 砖
+
+**问题描述 / Problem Description**:
+Chrome 商店地址：< https://chromewebstore.google.com/detail/markwise/gockcnafglkplkplfacoiapepoeilegj?authuser=0&hl=zh-CN > 最近做的一个 Chrome 扩展 Markwise 已经审核通过上架了，想发出来请大家试用 一下，也欢迎提建议。 Markwise 的定位比较简单：把网页变成一个可以随手标记和回看的阅读工作区。 平时看技术文档、博客、产品资料、论文网页或者长文章时，当看 到一段重要内容，复制到笔记软件又有点打断阅读，不复制后面又很难找回来。所以我做了这 个扩展，希望能更自然地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226430#reply2
+
+---
+
+#### 7071. [V2EX] AI 时代，竟然有人要花 3 万去学 AI 编程
+
+**问题描述 / Problem Description**:
+这远远超出我的认知了。。。。 还有前几天的做 SEO GEO 的大 V 不知道 CDN 看来搞钱还是下沉市场比较好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226399#reply15
+
+---
+
+#### 7072. [V2EX] TypeScript 7.0 发布了，编译速度比之前快 10 倍
+
+**问题描述 / Problem Description**:
+Go 版本编译速度比之前快 10 倍 更低内存占用（eg: VsCode -18%） 原文： https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226385#reply5
+
+---
+
+#### 7073. [V2EX] 极限二选一
+
+**问题描述 / Problem Description**:
+家用五座 suv ，最多 3 人出行，大部分 2 人出行，坐标杭州，极氪 7x 和蔚来 es6 选择哪个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226379#reply22
+
+---
+
+#### 7074. [V2EX] [吐槽] CodePass 最近是不是彻底不行了？
+
+**问题描述 / Problem Description**:
+之前看论坛一堆人推荐 CodePass ，说什么 Composer / Auto 无限用，想着开发需求大，一个月也能吃 2 到 3 个亿 token ，就上车试了一下。 结果最近体验真的有点离谱。 先是疯狂掉线： 写代码写到一半，突然提示错误信息，任务超时，一套流程下来人都麻了。 然后现在更狠： 直接提示 “任务繁忙，号池额度不足” 。 或者一直卡住 Planing next moves 几个小时都不动了 ？？？ 不是宣传无限用吗？ 怎么现在感觉像开盲盒，用不用得上全看当天服务器心情。 限制其实可以理解，毕竟 AI 成本摆在那里。 但问题是： 一开始宣传得像生产力神器，结果用起来各种限制，这落
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226370#reply3
+
+---
+
+#### 7075. [V2EX] 通过 ChatGPT 和 Codex 的合并，观察和对比各家的 AI 产品整合情况
+
+**问题描述 / Problem Description**:
+其实这次 ChatGPT 和 Codex 合并，我最关心的一个事情是 Agent 产品的整合路径。每家 AI 厂商的文本模型产品都可以粗略分到 3 条线里：对话、本地 Agent 、云端 Agent 。这 3 种我都有使用场景，甚至还需要控制云手机，所以我的 AI 工具装得非常杂非常碎，让人有点心智负担。 我特别关注它们的整合趋势，特意做了这张表，可以一目了然看各家公司内部的产品生态位分别情况： https://my.feishu.cn/sheets/V8WdsqSbyh1yEKtD7Cbc3emQn4g?from=from_copylink 可以观察出一些有意思的结论： 1. 大趋势是对话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226367#reply0
+
+---
+
+#### 7076. [V2EX] 用 AI 重新写个手机操作系统是不是可行的？
+
+**问题描述 / Problem Description**:
+有没有人有兴趣，一起玩？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226358#reply47
+
+---
+
+#### 7077. [V2EX] codex app 切 5.6 显示 custom, 怎么解决?
+
+**问题描述 / Problem Description**:
+中转站, 用 cc switch 强切 5.6 后, app 显示 custom 有大佬解决了这个问题吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226332#reply6
+
+---
+
+#### 7078. [V2EX] 有使用 codebuddy 的 IDEA 插件吗？怎么性能怎么差，腾讯的开发水平这么差了？
+
+**问题描述 / Problem Description**:
+对话稍微多几轮，导致插件功能卡死，添加文件、打开历史记录、输入框卡死 代码文件 2k-3k 行的情况，添加到对话大概率卡死 以上是上一个版本的问题，昨天发现有更新，点了更新， 对话记录被清空，刚好升级前有在新开发一个功能，对话了几轮还没实施，工作内容丢失 IDEA 版本是 2025.1.7.1 看他们的更新内容：很多也是解决卡死的问题，怀疑代码是 AI 生成或者是实习生开发的吧 [4.9.14] 新增 Agent 编辑时模型选择支持继承自定义 Agent 的配置 优化编码时内联补全输入体验，修复卡顿问题 修复 Agent 执行终端命令后获取结果卡顿的问题 修复执行任务时偶现长时间卡住无响应的问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226327#reply10
+
+---
+
+#### 7079. [V2EX] 让 5.6 sol 根据项目除了一套三个视角的人体模型图片，耗费了 50%点额度
+
+**问题描述 / Problem Description**:
+好用么： 好用，真香 还想用么： 穷（必须是大 pro 才能敞开用）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226313#reply2
+
+---
+
+#### 7080. [V2EX] GPT-5.6 Sol Ultra 跑半个小时写出来的网页长这样
+
+**问题描述 / Problem Description**:
+静态图放在了帖子最下面，网址： https://gpt-5-6-cn-intro.familiar-nova.workers.dev Prompt: 参考 https://openai.com/index/gpt-5-6/ 的文字内容，生成一个 Web 介绍页面，不要调用任何 Skill ，网页文字为中文 生成后又用两句对话让他将其部署在了最近 Cloudflare 推出的临时公开部署功能上 其中的一些动态效果感觉挺惊艳的，看下面的静态图可能看不出什么，建议去上面的网址查看效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226310#reply72
 
 ---
