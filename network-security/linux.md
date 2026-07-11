@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2457**
+**总计条目 / Total entries: 2473**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -37939,5 +37939,197 @@ A Incorrect Execution-Assigned Permissions vulnerability in the permissions pack
 **参考链接 / References**:
 - https://bugzilla.suse.com/show_bug.cgi?id=1171883
 - https://bugzilla.suse.com/show_bug.cgi?id=1171883
+
+---
+
+#### 2458. CVE-2026-52747 - ModSecurity: ModSecurity: Security rule bypass due to incorrect handling of line…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ModSecurity: ModSecurity: Security rule bypass due to incorrect handling of line breaks in form data. Bugzilla: 2499232
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499232
+
+---
+
+#### 2459. CVE-2026-52761 - ModSecurity: ModSecurity: Web Application Firewall rules bypass due to incorrect…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ModSecurity: ModSecurity: Web Application Firewall rules bypass due to incorrect UTF-8 to Unicode transformation. Bugzilla: 2499254
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499254
+
+---
+
+#### 2460. CVE-2026-57156 - FreeRDP: FreeRDP: Arbitrary code execution or denial of service via integer…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Arbitrary code execution or denial of service via integer overflow in RDP message processing. Bugzilla: 2499160
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499160
+
+---
+
+#### 2461. CVE-2026-57157 - FreeRDP: FreeRDP: Out-of-bounds read leads to information disclosure and denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Out-of-bounds read leads to information disclosure and denial of service. Bugzilla: 2499158
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499158
+
+---
+
+#### 2462. CVE-2026-57158 - FreeRDP: FreeRDP: Information disclosure via truncated RDPGFX planar payload
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Information disclosure via truncated RDPGFX planar payload. Bugzilla: 2499155
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499155
+
+---
+
+#### 2463. CVE-2026-55827 - FreeRDP: FreeRDP: Remote code execution via heap out-of-bounds write in RemoteFX…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Remote code execution via heap out-of-bounds write in RemoteFX decoding. Bugzilla: 2499159
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499159
+
+---
+
+#### 2464. CVE-2026-15146 - wget: Wget: Server-Side Request Forgery via FTP PASV response IP address…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wget: Wget: Server-Side Request Forgery via FTP PASV response IP address validation bypass. Bugzilla: 2499143
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499143
+
+---
+
+#### 2465. CVE-2026-53450 - coturn: Coturn: Localhost services exposed via IPv4-mapped IPv6 address bypass
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] coturn: Coturn: Localhost services exposed via IPv4-mapped IPv6 address bypass. Bugzilla: 2499130
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499130
+
+---
+
+#### 2466. CVE-2026-53449 - coturn: Coturn: Arbitrary file overwrite via CLI command
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] coturn: Coturn: Arbitrary file overwrite via CLI command. Bugzilla: 2499139
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499139
+
+---
+
+#### 2467. CVE-2026-53448 - coturn: Coturn: Arbitrary code execution via SQL injection in HTTPS admin panel
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] coturn: Coturn: Arbitrary code execution via SQL injection in HTTPS admin panel. Bugzilla: 2499142
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499142
+
+---
+
+#### 2468. CVE-2026-59180 - apprise: Apprise: Information disclosure via HTTP redirect following with…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] apprise: Apprise: Information disclosure via HTTP redirect following with credential resending. Bugzilla: 2499082
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499082
+
+---
+
+#### 2469. CVE-2026-56366 - ImageMagick: ImageMagick: Denial of Service via memory leak in APP1JPEG image…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via memory leak in APP1JPEG image processing. Bugzilla: 2498999
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498999
+
+---
+
+#### 2470. CVE-2026-56373 - ImageMagick: ImageMagick: Use-after-free vulnerability in PDB decoder allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Use-after-free vulnerability in PDB decoder allows denial of service or limited data corruption.. Bugzilla: 2499008
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499008
+
+---
+
+#### 2471. CVE-2026-15143 - guardrails-detectors: guardrails-detectors: SSRF and local file read via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] guardrails-detectors: guardrails-detectors: SSRF and local file read via user-supplied XML Schema (xml-with-schema:). Bugzilla: 2498165
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498165
+
+---
+
+#### 2472. CVE-2026-53363 - kernel: xfrm: iptfs: preserve shared-frag marker in iptfs_consume_frags()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfrm: iptfs: preserve shared-frag marker in iptfs_consume_frags(). Bugzilla: 2498986
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498986
+
+---
+
+#### 2473. CVE-2026-55170 - github.com/openfga/openfga: OpenFGA: Incorrect authorization decisions due to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/openfga/openfga: OpenFGA: Incorrect authorization decisions due to case-insensitive comparisons in MySQL datastore. Bugzilla: 2498841
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498841
 
 ---

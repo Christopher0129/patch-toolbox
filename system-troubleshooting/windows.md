@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7906**
+**总计条目 / Total entries: 7953**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -108543,5 +108543,616 @@ That is a feature of Windows. After a restart, it will logon the previous user a
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1118396/samba-server-showing-user-still-logged-on-despite-shutdown-restart-of-the-window
+
+---
+
+#### 7907. Access denied to UNC printer share on Windows Server 2025
+
+**问题描述 / Problem Description**:
+Tags: windows, network-printer, windows-server-2025 | Score: 1 | Views: 42 | Answers: 1 | Created: 2026-07-11
+
+**解决方案 / Solution**:
+Well, copy to \\server\printershare was never really a supported way to interact with a shared printer... Right, older Windows releases were pretty forgiving and let a lot of stuff slide, but after the whole PrintNightmare saga Microsoft has been locking the print spooler down pretty aggressively, especially in Server 2022 and 2025. So, \\server\printershare you see listed is a print provider endpoint, not a regular SMB file share, and while net use may still enumerate it or even establish a connection, copy isn't something that's expected to work anymore. Getting an Access is denied error is pretty much the new normal. If your goal is simply to install or connect to the printer, stick with the supported methods: rundll32 printui.dll,PrintUIEntry ... Add-Printer Group Policy Browse to \\server and double-click the printer you want. Long story short, if your app is using copy as some kind of compatibility or sanity check, that's probably the thing that finally bit the dust, not printer sharing itself. Microsoft has been killing off a lot of legacy spooler behavior over the last few Windows releases, and this looks like just another casualty of those security hardening changes.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199452/access-denied-to-unc-printer-share-on-windows-server-2025
+
+---
+
+#### 7908. Add a boot device
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 0 | Views: 13 | Answers: 1 | Created: 2026-07-11
+
+**解决方案 / Solution**:
+I made a bootable USB drive with Windows 11. Make it again, but make sure it's created with UEFI support. The official Windows "media creation tool" will do that automatically, but if you use Rufus then it only lets you pick BIOS or UEFI (from what I remember, "Both" only becomes available if you press a hidden key), and some other tools might not support UEFI at all. (UEFI-bootable USB sticks always have an EFI directory, with an \EFI\Boot\Bootx64.efi file inside.) So if the laptop is sufficiently new that it no longer supports BIOS-style boot, but you've created a USB stick that only has BIOS-style bootcode, then it won't show up as a boot option at all.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939004/add-a-boot-device
+
+---
+
+#### 7909. Intermittent “Working in Background” cursor flashes repeatedly in Windows 11 on a Lenovo laptop
+
+**问题描述 / Problem Description**:
+Tags: windows-11, mouse, lenovo-laptop, windows-services, cursor | Score: 0 | Views: 26 | Answers: 2 | Created: 2026-07-10
+
+**解决方案 / Solution**:
+After isolating the processes and testing the related Windows service, I found that the cursor flashing was caused by Lenovo Vantage Service and the processes it launched. The workaround that stopped the behavior was to disable only the affected Lenovo Vantage service. Workaround I opened: services.msc Then found: Critical Service for Lenovo Vantage Its internal service name is: LenovoVantageService I changed it as follows: Clicked Stop . Changed Startup type from Automatic to Disabled . Clicked Apply and OK . Restarted Windows. After restarting: LenovoVantageService.exe did not run. LenovoVantage-(LenovoMachineFixUserAddin).exe did not appear. The intermittent “Working in Background” cursor flashing stopped. Hardware shortcuts tested The following still worked normally on my laptop: Fn + Space for keyboard-backlight brightness Volume controls Screen-brightness controls Fn + Q power-mode switching I did not disable any of these other Lenovo services: Lenovo Fn and function keys service System Interface Foundation Service Lenovo Intelligent Sensing Service Lenovo Notebook ITS Service Those remained enabled. Important limitation This is a workaround, not a confirmed vendor fix. Disabling LenovoVantageService prevents Lenovo Vantage from fully loading and managing some device settings. Opening Lenovo Vantage may display a message asking to install or enable its dependencies. Some automatic Vantage features may no longer work while the service is disabled. For example, the automatic behavior of Adaptive power mode may depend on the service, although manual power-mode switching with Fn + Q still works on my laptop. Reverting the change To restore the service: Open services.msc . Open Critical Service for Lenovo Vantage . Set Startup type to Automatic . Click Start . Click Apply and OK . The equivalent elevated PowerShell commands are: Set-Service -Name LenovoVantageService -StartupType Automatic Start-Service -Name LenovoVantageService To disable it again: Stop-Service -Name LenovoVantageService -Force Set-Service -Name LenovoVantageService -StartupType Disabled This solution is specific to my Lenovo configuration, but it may help anyone whose cursor flashes at the same time that either of these processes starts: LenovoVantageService.exe LenovoVantage-(LenovoMachineFixUserAddin).exe
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938979/intermittent-working-in-background-cursor-flashes-repeatedly-in-windows-11-on
+
+---
+
+#### 7910. Everything on my PC hasgotten really large
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utmr83/everything_on_my_pc_hasgotten_really_large/
+
+---
+
+#### 7911. I think my pc was hacked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uttldz/i_think_my_pc_was_hacked/
+
+---
+
+#### 7912. Windows wont install on my ssd but installs Fine on my HDD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utuy7x/windows_wont_install_on_my_ssd_but_installs_fine/
+
+---
+
+#### 7913. Laptop runs slower while charging, and loses battery much quicker.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utuvwl/laptop_runs_slower_while_charging_and_loses/
+
+---
+
+#### 7914. Stuck at black screen screen in Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utuhse/stuck_at_black_screen_screen_in_windows_11/
+
+---
+
+#### 7915. Is it ok to use a 12 volt 4 amp power supply with a 12 volt 3 amp monitor?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uto8p2/is_it_ok_to_use_a_12_volt_4_amp_power_supply_with/
+
+---
+
+#### 7916. My PC becomes extremaly slow after 1 week of use
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utmmmh/my_pc_becomes_extremaly_slow_after_1_week_of_use/
+
+---
+
+#### 7917. lag spikes while playing games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utohmk/lag_spikes_while_playing_games/
+
+---
+
+#### 7918. MBP M5 Pro - Startup Options Loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utx472/mbp_m5_pro_startup_options_loop/
+
+---
+
+#### 7919. My Sandisk SSD is having some sort of crisis. It thinks it has 2TB of storage. It doesn't. It never did. And now it's completely useless. Please help.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utww5i/my_sandisk_ssd_is_having_some_sort_of_crisis_it/
+
+---
+
+#### 7920. Very slow write speeds on MSI M470 PRO 1TB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwvvs/very_slow_write_speeds_on_msi_m470_pro_1tb/
+
+---
+
+#### 7921. Shady PayPal captcha
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwsd8/shady_paypal_captcha/
+
+---
+
+#### 7922. Bios still not reading key inputs after update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwpzo/bios_still_not_reading_key_inputs_after_update/
+
+---
+
+#### 7923. PC typing on its own (not the keyboard)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwow6/pc_typing_on_its_own_not_the_keyboard/
+
+---
+
+#### 7924. My fn and ctrl keys swapped on my keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwow4/my_fn_and_ctrl_keys_swapped_on_my_keyboard/
+
+---
+
+#### 7925. Outlook keeps putting phishing mails in "relevant" folder
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utwcze/outlook_keeps_putting_phishing_mails_in_relevant/
+
+---
+
+#### 7926. Laptop on TV display weirdness during video playback happening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utw8vj/laptop_on_tv_display_weirdness_during_video/
+
+---
+
+#### 7927. GPU crashes, nvlddmkm errors under load... is my RTX 3080 dead ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utw8c4/gpu_crashes_nvlddmkm_errors_under_load_is_my_rtx/
+
+---
+
+#### 7928. Weird crashes and disk disappearing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utvzra/weird_crashes_and_disk_disappearing/
+
+---
+
+#### 7929. CPU Temp Throttling Issues on Acer Nitro ANV16-72 with literally anything more intense than Youtube?!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utvqbw/cpu_temp_throttling_issues_on_acer_nitro_anv1672/
+
+---
+
+#### 7930. My PC is lagging in games that used to run perfectly.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utvogk/my_pc_is_lagging_in_games_that_used_to_run/
+
+---
+
+#### 7931. Accidentally created a new volume and formatted my hard drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utvoec/accidentally_created_a_new_volume_and_formatted/
+
+---
+
+#### 7932. Video TDR failure
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utuwqn/video_tdr_failure/
+
+---
+
+#### 7933. Bluetooth drivers code 45
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1utuvjj/bluetooth_drivers_code_45/
+
+---
+
+#### 7934. [V2EX] IDM 下载器是不是出问题了 一直让 Windows 资源管理器崩溃
+
+**问题描述 / Problem Description**:
+出错应用程序名称：Explorer.EXE ，版本：10.0.26100.8737 ，时间戳：0xea75d555 出错模块名称：IDMNetMon64.DLL ， 版本：6.43.3.364 ，时间戳：0x6a4d6d0d 异常代码：0xc0000005 错误偏移：0x0000000000012ea5 出错进程 ID：0x1A30 出错应用程序开始时间：0x1DD1068FA3E3139 Faulting 应用程序路径：C:\WINDOWS\Explorer.EXE Faulting 模块路径：D:\Program Files (x86)\Internet Download Manager\
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226479#reply2
+
+---
+
+#### 7935. [V2EX] 如何让 codex 创造性地给我一些选择让我选，它默认直接做出的代码修改总是不符合我的要求。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226642#reply4
+
+---
+
+#### 7936. [V2EX] 充电器炸了
+
+**问题描述 / Problem Description**:
+Aohi 的 100w 充电器。 充着笔记本。 突然听到噼里啪啦的声音。 回头一看充电器冒火花还冒烟。 吓得我直接上手拽下来了。 幸好没触电。 算下来也用了好几年了。 不过炸了还是挺吓人的 平常用的时候就挺烫手。 感觉是因为温度太高了。里面电容啥的炸了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226638#reply2
+
+---
+
+#### 7937. [V2EX] codex 接入 Claude 模型
+
+**问题描述 / Problem Description**:
+看到很多人都是用 Claude Code 接入 GPT 模型，那么有没有人试过用 Codex 接入 Cloud 的模型呢？ 最近试用了一下 Codex 的桌面版，感觉挺丝滑的。 但是在开发项目方面，此前一直使用的 Claude code 用 Claude 系列的模型。 那么有没有可能使用 Codex 的桌面版，但通过 CC Switch 的方式接入 Claude 的模型呢？ 这样有必要吗？🤔 之前到底是 Agent 工具的效果好，还是因为模型本身的效果好？ 那用 Codex 接入 Claude 的模型，编码起来是不是也能达到之前用 Claude Code 的效果呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226637#reply4
+
+---
+
+#### 7938. [V2EX] 碰到 win11 的 bug 了吗，吓我一雷
+
+**问题描述 / Problem Description**:
+昨天用着还好好的，今天开机后，突然变成这样了，像是恢复出厂设置了，吓我一大跳，赶紧看了看文件和应用什么的都还在，没有丢失，重启了一下电脑后，壁纸任务栏什么的又变成之前的样子了，有人遇到过类似的情况吗，或者知道是什么原因吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226636#reply1
+
+---
+
+#### 7939. [V2EX] 想加薪的话是不是还得跳槽
+
+**问题描述 / Problem Description**:
+上上周吧一个电气的同事给 hr 说想提高薪资被拒了然后过几天她就离职了，整个电气部的没人了，不知道是不是活太多或者流程太杂电气的干不过来了 然后电机和核心部件组的走了不少人 看来想提高薪资只能跳槽，给提高薪资是不太可能了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226631#reply4
+
+---
+
+#### 7940. [V2EX] Arc 浏览器你们还在用吗？
+
+**问题描述 / Problem Description**:
+我一直很喜欢 Arc 浏览器的侧边栏，管理书签方便太多了。 很久之前听到 Arc 浏览器进入维护阶段还挺遗憾的。 你们有更好用的浏览器推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226620#reply2
+
+---
+
+#### 7941. [V2EX] Airdroid 的 windows 客户端为什么这么烂
+
+**问题描述 / Problem Description**:
+应该也算是大公司了吧。为什么软件用一段时间就固定卡死要强退才能使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226606#reply0
+
+---
+
+#### 7942. [V2EX] 求推荐支持 esim 的安卓机
+
+**问题描述 / Problem Description**:
+只用来注册收短信，希望价格在 700 以内吧，当然越低越好 目前打算在 pixel 和乐天二选一，但不知道哪款性价比更高 二手没关系，只要尽可能价廉物美就行！谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226602#reply2
+
+---
+
+#### 7943. [V2EX] 电车有哪些玩法
+
+**问题描述 / Problem Description**:
+就像手机 root 自定义玩法，有哪些有意思的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226591#reply3
+
+---
+
+#### 7944. [V2EX] 尼区 Apple ID 被限制 Media & Purchases ，不涨价的 Claude 5X 进入倒数 ，还有救吗？
+
+**问题描述 / Problem Description**:
+只怪自己脑抽，用两个不同名字的 GoMoney 账户给 Apple ID 充值，触发了封控。 账号还在但没有办法下载更新 app 、 无法充值 、 无法增减新的信用卡绑定。 看了一眼下个月续费还是 10W 奈拉 ，但已经无法继续使用了。 按网上教程 打国服 、 转 大中华服 、 给 tcook@apple.com 写信 、 换绑银行卡 都试过了。 追悔莫及 ， 还能用 15 天 ， 大家引以为戒。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226587#reply0
+
+---
+
+#### 7945. [V2EX] 2026 年中求笔记本推荐
+
+**问题描述 / Problem Description**:
+价格 1w 以内，32g 内存，就拿来开发用，平时 java 写的多一点，不需要独立显卡，这个价位 mac 肯定够不到了，win 目前看中了几个 358h 的笔记本，不知道还有什么别的推荐么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226579#reply3
+
+---
+
+#### 7946. [V2EX] 国模 Minimax 的能力到底如何？ glm 抢不到 打算买一下 minimax
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226577#reply37
+
+---
+
+#### 7947. [V2EX] GPT 走什么渠道订阅最舒服
+
+**问题描述 / Problem Description**:
+之前一直是走的英国 paypal ，想问各位有没有更优解，我的双币卡直接订阅 gpt 拒卡不知道为啥，google 应用内还显示购买不可用，走 ios 会不会好一点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226572#reply14
+
+---
+
+#### 7948. [V2EX] 为什么 PDD 上的山姆、麦德龙的东西这么便宜，譬如最近很火黄油千层吐司、这里 4x、但山姆 59
+
+**问题描述 / Problem Description**:
+搞不明白为什么可以这么便宜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226571#reply1
+
+---
+
+#### 7949. [V2EX] mac chrome 密码保存不起来
+
+**问题描述 / Problem Description**:
+1p 到期了，换成 mac 自带的密码 app 发现无论点多少次保存都不会成功保存进密码 app 里面，有大佬知道是什么原因吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226563#reply0
+
+---
+
+#### 7950. [V2EX] codex 又又又重置了，山姆奥特曼古希腊掌管 token 的神
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226559#reply4
+
+---
+
+#### 7951. [V2EX] cloudflare 登录失败,你们登录还好吗
+
+**问题描述 / Problem Description**:
+API Request Failed: post https://dash.cloudflare.com/api/v4/login (403) 上面是提示的信息, 我 pc 有问题, 手机能登录, 应该是自己这边环境的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226528#reply2
+
+---
+
+#### 7952. [V2EX] 你们还能在果子官网买礼品卡吗？
+
+**问题描述 / Problem Description**:
+美区 结账就跳 404 更换节点清除 cookie 无痕浏览更换网络都没用 啥情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226501#reply2
+
+---
+
+#### 7953. [V2EX] 为啥我的 GPT PLUS 没有 Sol 这个模型呢
+
+**问题描述 / Problem Description**:
+你们都有吗？其它 2 个新的模型是有的。奇怪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226496#reply2
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7080**
+**总计条目 / Total entries: 7108**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -99979,5 +99979,369 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226310#reply72
+
+---
+
+#### 7081. Motorola Razr2 V8 (2007), Rokr Z6 (2007) and Rokr E8 (2008) were Linux phones that ran a distribution called MotoMagx
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utsuzu/motorola_razr2_v8_2007_rokr_z6_2007_and_rokr_e8/
+
+---
+
+#### 7082. Whisp 1.3.7 - A minimalist GTK4 scratchpad now with powerful text & list macros!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utst1k/whisp_137_a_minimalist_gtk4_scratchpad_now_with/
+
+---
+
+#### 7083. Scam warning: the RootBoard handheld on Kickstarter
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utx04w/scam_warning_the_rootboard_handheld_on_kickstarter/
+
+---
+
+#### 7084. Ah, Debian point release are here i.e. 13.6 ....goooooo and grab it , fellas.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utwlt2/ah_debian_point_release_are_here_ie_136_goooooo/
+
+---
+
+#### 7085. Not your ordinary Linux distributions!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utfblk/not_your_ordinary_linux_distributions/
+
+---
+
+#### 7086. A lightweight animated Wayland wallpaper daemon
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ut7mhj/a_lightweight_animated_wayland_wallpaper_daemon/
+
+---
+
+#### 7087. DLSS Updater 4.3.0 for Linux has "grown into a full Proton Upscalers panel"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utfkic/dlss_updater_430_for_linux_has_grown_into_a_full/
+
+---
+
+#### 7088. This Week in Plasma: Audio Recording in Spectacle
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utinde/this_week_in_plasma_audio_recording_in_spectacle/
+
+---
+
+#### 7089. MPC-Qt v26.07 is out now! (A clone of MPC-HC using libmpv/Qt)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ut4pi3/mpcqt_v2607_is_out_now_a_clone_of_mpchc_using/
+
+---
+
+#### 7090. scroll wayland compositor stable version 1.12.16
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utg7xs/scroll_wayland_compositor_stable_version_11216/
+
+---
+
+#### 7091. TUI for configuring webcams
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1utfiil/tui_for_configuring_webcams/
+
+---
+
+#### 7092. [V2EX] 专科大二，喜欢底层开发(?)，但有点迷茫想听听建议...
+
+**问题描述 / Problem Description**:
+我是专科 大二的学生，因为比赛拿奖有个专业课免试资格，所以升本能去本省计算机专业里最好的本科 本来是留校实习的，但因为种种问题（没有处理这种事的经验），现在被流放到市场了。 我现在感觉到 AI Agent 对 CRUD 写胶水真没什么意思了，我个人很喜欢计算机，10 年前就注册了 Github ，最早是用 Java 写一些 Android 小应用发到当时的酷安市场，几 w 的下载量，谈不上厉害，但那时候的我也挺开心的。 之后接触 Webdev ，最开始 Vue->Go ，到现在 AI agent 最喜欢的 Nextjs+tailwindcss 我感觉应用层变来变去，你很难在其中找到一个属于自己
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226643#reply0
+
+---
+
+#### 7093. [V2EX] 有没有一起研究学习 NautilusTrader 的道友
+
+**问题描述 / Problem Description**:
+喜欢交易、喜欢量化技术，最近发现一个非常不错的开源项目——NautilusTrader ，官方社区用中文的很少，有没有一起学习研究的朋友，欢迎来聊 wx a29uZ3NoYW5idXpoaWtl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226635#reply0
+
+---
+
+#### 7094. [V2EX] codex 的审美赶 gemini 还是差一大截呀
+
+**问题描述 / Problem Description**:
+"写一个网页版的贪吃蛇" 用这句相同的 prompt ，让 gemini 3.5 flash 和 codex 5.6 sol 同时写个贪吃蛇，效果差别很大呀。 都是开的 medium 能看出哪个是 gemini 写的吗 https://daily-snake.pages.dev/games/orchard-battle/ https://daily-snake.pages.dev/games/neon-snake/ （图片上传失败了，直接点开看吧。v 站这个图片上传真是一言难尽）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226630#reply6
+
+---
+
+#### 7095. [V2EX] Claude 突然的，就来了！瑟瑟发抖中。。。。
+
+**问题描述 / Problem Description**:
+API Error: Unable to connect to API: SSL certificate hostname mismatch cli 正常，desktop 端提示这个，大家又遇到这个情况的吗？已经被封好几个号了，无缘由的！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226625#reply2
+
+---
+
+#### 7096. [V2EX] 分享一个 Codex 写简历, Markdown 转 PDF 神级工作流
+
+**问题描述 / Problem Description**:
+写一个简历大纲 Markdown Codex prompt: 根据大纲完善简历 Codex prompt: 找到简历里面的问题, 可以优化的地方, 输出建议, 和原因, 表格形式 根据结果继续完善 Markdown, 直到满意 使用 markdown-to-resume 工具生成 PDF, 智能一页, 完美的 GitHub 样式 这个工具我开源了, 欢迎品鉴, 给建议 https://jarvanstack.github.io/markdown-to-resume/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226621#reply2
+
+---
+
+#### 7097. [V2EX] 魔兽争霸 3 网页版
+
+**问题描述 / Problem Description**:
+完全在浏览器运行的魔兽争霸 3 ，魔改 github v86 实现了 opengl 转 webgl ，感兴趣的老哥可以试试： https://retrogaming.dpdns.org/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226611#reply20
+
+---
+
+#### 7098. [V2EX] codex 有没有调用其他 AI 进行对抗的 skills?
+
+**问题描述 / Problem Description**:
+有些问题比较有难度,希望 AI 圆桌会议一下. 比如 "与 /claude 讨论后确认最终方案后执行" 是不是能直接看到烧钞票的感觉?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226593#reply2
+
+---
+
+#### 7099. [V2EX] 想试试 Fable 5 200 刀的够用吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226583#reply3
+
+---
+
+#### 7100. [V2EX] 你们 codex 更新后还能使用 5.5？
+
+**问题描述 / Problem Description**:
+为啥 codex 更新版本后只能选择 5.6 了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226581#reply3
+
+---
+
+#### 7101. [V2EX] 拖了 4 年的内部营销工具，这次 5 天做到能上线试跑，记录一下
+
+**问题描述 / Problem Description**:
+最近把一个内部营销工具做出来了，想起来这事在我这拖了快 4 年，有点感慨，来记录一下。 工具本身没什么新概念，就是把公司里三个系统串起来：云策（人群和行为数据）、手铺（商品、订单、库存、供价、活动）、墨鱼（客服触达）。要做的事说穿了就是根据数据挑人、挑品、算活动，结果推给运营确认，确认完部分动作写回系统。单点看都不是特别难，难的是它横跨几个系统，而且规则很碎。 拖住它的不是代码，是链路。这几年思维导图画了一版又一版，产品方案过了一遍又一遍，中间还换了好几个产品同事。每换一个人我就得重新讲一遍：云策里用户行为怎么看，手铺的商品和订单怎么对应，墨鱼能做哪些触达，哪些客户不能乱发，哪些商品不能乱推，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226578#reply0
+
+---
+
+#### 7102. [V2EX] 请教下 信息出海合规问题
+
+**问题描述 / Problem Description**:
+我做了一个个人的网页应用，存了一些抖音粉丝的个人信息，聊天记录等，已经脱敏。 听说有个人信息出海合规问题，这种涉及到大陆个人信息，聊天记录，必须保存在内地。 不知道这个实际执行下来，严不严？ 我的情况是，只有客户一两个人访问这台服务器，不是对外访问的。 我的问题是，这个服务器必须在大陆吗？放在香港可不可以？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226570#reply1
+
+---
+
+#### 7103. [V2EX] Java 构建工具《Maven 实战》视频课程
+
+**问题描述 / Problem Description**:
+AI 编程时代，Java 编程必备知识，五星好评，链接： https://edu.51cto.com/course/39315.html ，欢迎感兴趣的同学观看。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226538#reply15
+
+---
+
+#### 7104. [V2EX] 为了省下每年几万的的费用，用 ai 做了完整的 erp
+
+**问题描述 / Problem Description**:
+我们有自己的电商平台，当然也在各家电商上售卖产品。 然后对接云仓时，感觉那些 erp 卖的贵，系统还老旧，去对接到自己的业务定制化的电商流程也不见得好对接， 索性就自己开发了。 其实最花时间的地方是需求整理， 云仓的人沟通起来比想象中要难，体系复杂笨重且陈旧。 做完之后现在觉得需求也就这些了。 但是第一次接触电商，第一次接触云仓，对需求没有全局视角，没有经验指导，探索起来还是很痛苦的，很多数据模型也因为缺乏经验指导，后期才发现有问题又各种改。 好在有 Claude code 加持，并行开发，对抗审查，浏览器模拟调用测试， 就这么吭哧吭哧的，还做了得有一周的时间。 自己的脑力真的是有些跟不上了，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226505#reply63
+
+---
+
+#### 7105. [V2EX] vscode 的 codex cli 更新后，界面卡白屏，不知道什么时候会卡
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226487#reply5
+
+---
+
+#### 7106. [V2EX] 继之前 5.4 的 “收口”之后， 5.6 Sol 好像特别喜欢说 “红灯”
+
+**问题描述 / Problem Description**:
+这个又是什么新的黑话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226476#reply7
+
+---
+
+#### 7107. [V2EX] 每日心情：我做了款心情日历 App，基于心理学整理的 skills 让你 有个树洞来吐槽、表达和记录心情
+
+**问题描述 / Problem Description**:
+这是一款私密的心情记录与情绪树洞。你可以写下当天的感受，选择情绪标签，让树洞给出温和回应，并把这一天存入心情日历。 我们适合： 睡前整理一天的心情 焦躁、低落、委屈时先写下来 记录开心、期待、感激和平静的时刻 回看一段时间里的情绪变化 生成一张给自己的鼓励卡片 主要功能介绍： [心情树洞] 打开 App 就可以写下此刻真实的心情。无需写得完整，选一个心情标签或留下一句话，都可以开始记录。 [温和 AI 回应] 树洞会先承接你的感受，再给出轻量、克制的回应。它像一个愿意认真听你说话的朋友，帮助你把纷乱的情绪慢慢放下。 [心情日历] 每天的记录会沉淀在日历里。你可以回看标题、情绪标签、摘要和当时的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226448#reply2
+
+---
+
+#### 7108. [V2EX] 腾讯云大模型也 429 了
+
+**问题描述 / Problem Description**:
+exceeded retry limit, last status: 429 Too Many Requests, request id: eb42ca40-940c-4fbc-bafd-972dde8814f6 这会儿反复 429 ，没法使用。 腾讯云大模型 api （主要是 deepseek 、glm 模型）用了挺久，直观感觉比阿里云流畅太多，几乎不卡。 今天第一次遇到严重限流。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226444#reply4
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6792**
+**总计条目 / Total entries: 6860**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -92584,5 +92584,889 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226105#reply2
+
+---
+
+#### 6793. desktop fingerprint unlock device (open source, ~$15)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utk7pk/desktop_fingerprint_unlock_device_open_source_15/
+
+---
+
+#### 6794. All macOS 27 icons!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uts77e/all_macos_27_icons/
+
+---
+
+#### 6795. Made two free minimal clock screen savers for macOS. Utsuroi (移ろい), Itten (一点)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utpyu3/made_two_free_minimal_clock_screen_savers_for/
+
+---
+
+#### 6796. Now THIS is what the new Launchpad should have been
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utft9d/now_this_is_what_the_new_launchpad_should_have/
+
+---
+
+#### 6797. Does anyone actually use the color tags? If so, what for?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ut8u1a/does_anyone_actually_use_the_color_tags_if_so/
+
+---
+
+#### 6798. Record a Mac task once, get a step-by-step guide. I spent 6 months building this native app — 100% on-device, offline, no Electron.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utk17r/record_a_mac_task_once_get_a_stepbystep_guide_i/
+
+---
+
+#### 6799. The most complete, delightful Mac battery experience in one menu-bar app, and it celebrates when you plug-in
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utfw98/the_most_complete_delightful_mac_battery/
+
+---
+
+#### 6800. Hello from Arch Linux! Made this classic XFCE4 theme inspired by the pre Mavericks era
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utqtjz/hello_from_arch_linux_made_this_classic_xfce4/
+
+---
+
+#### 6801. AndroidFileSync v2.3.1: A native, free, open-source alternative to Android File Transfer on macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utfl2x/androidfilesync_v231_a_native_free_opensource/
+
+---
+
+#### 6802. [FOSS] macshot update: edge-snapping selections, screen recording editor, offline version & MUCH more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utiodk/foss_macshot_update_edgesnapping_selections/
+
+---
+
+#### 6803. Taphouse - The missing GUI for Homebrew
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utl4m9/taphouse_the_missing_gui_for_homebrew/
+
+---
+
+#### 6804. Turned Chromium into Netscape, old Safari and IE... a real browser that just looks 25 years old
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ut4nga/turned_chromium_into_netscape_old_safari_and_ie_a/
+
+---
+
+#### 6805. Stuck on 'Checking "(null)"' when upgrading 2018 MacBook Pro from High Sierra
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utu04s/stuck_on_checking_null_when_upgrading_2018/
+
+---
+
+#### 6806. What do you do when your Downloads folder becomes a mess?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utlhak/what_do_you_do_when_your_downloads_folder_becomes/
+
+---
+
+#### 6807. Is it safe to install a used SSD - MacBook Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utuav7/is_it_safe_to_install_a_used_ssd_macbook_air/
+
+---
+
+#### 6808. Can you edit the order of Safari extensions?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utva5y/can_you_edit_the_order_of_safari_extensions/
+
+---
+
+#### 6809. a 1960s tube radio for the Mac , you tune it by twisting on the trackpad, and it taps your fingers when a station locks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utx6be/a_1960s_tube_radio_for_the_mac_you_tune_it_by/
+
+---
+
+#### 6810. Vehla | My team and I built a new Mac app that combines Alfred/Raycast-style commands with RAG, Magnet, Dropover, Amphetamine, Excalidraw, Notes, Notchnook, Bartender, and Text Sniper features and more [DEMO]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uto4h5/vehla_my_team_and_i_built_a_new_mac_app_that/
+
+---
+
+#### 6811. Free open-source Typora alternative (100% Swift)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utg1zx/free_opensource_typora_alternative_100_swift/
+
+---
+
+#### 6812. Pls help. I don’t know how to disable the white arrow pointing in the help section of the task bar. It only shows in the help task bar section. I think I may have accidentally activated it with a keyboard short cut.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utwl7j/pls_help_i_dont_know_how_to_disable_the_white/
+
+---
+
+#### 6813. This is highly annoying
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utw5zw/this_is_highly_annoying/
+
+---
+
+#### 6814. Anybody else having Wi-Fi connection problems after the OS update?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utu265/anybody_else_having_wifi_connection_problems/
+
+---
+
+#### 6815. LG 49WL95C-WE (5120×1440) on macOS – Need bigger UI without lowering resolution + Dual cable issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utsgam/lg_49wl95cwe_51201440_on_macos_need_bigger_ui/
+
+---
+
+#### 6816. Fully disable fullscreen globally across all apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utggd6/fully_disable_fullscreen_globally_across_all_apps/
+
+---
+
+#### 6817. Folder color bug on dock, colored in finder but gray in dock? Happening since the last couple macOS updates (the red was done on 26.5)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1utp28t/folder_color_bug_on_dock_colored_in_finder_but/
+
+---
+
+#### 6818. Slow Spotlight Popup
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1utrpu2/slow_spotlight_popup/
+
+---
+
+#### 6819. 27b3: GRID Legends missing all shadows
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1ut7jzm/27b3_grid_legends_missing_all_shadows/
+
+---
+
+#### 6820. PSA: beta 3 has a data corruption bug. Your files may already be damaged and you wouldn't know - please take 30 seconds to check
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urwnt4/psa_beta_3_has_a_data_corruption_bug_your_files/
+
+---
+
+#### 6821. 27b3: Can't disable "Drag windows to menu bar to fill screen"
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1usurg5/27b3_cant_disable_drag_windows_to_menu_bar_to/
+
+---
+
+#### 6822. A question about how performance should be on betas, for an OS marketed as improving stability
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uswb44/a_question_about_how_performance_should_be_on/
+
+---
+
+#### 6823. Activity Monitor's inspection of iOS app executable locations caused a kernel panic from macOS 26.x to macOS 27 Beta 3.
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1us9iip/activity_monitors_inspection_of_ios_app/
+
+---
+
+#### 6824. If you re-enabled float sidebars for all apps in macOS 27, they will have new bouncy open/close animation and click feedback
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urs3sh/if_you_reenabled_float_sidebars_for_all_apps_in/
+
+---
+
+#### 6825. Search autocomplete appears too high and cut off in Chrome.
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1us7rcm/search_autocomplete_appears_too_high_and_cut_off/
+
+---
+
+#### 6826. Parallels and macOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1usnupv/parallels_and_macos_27/
+
+---
+
+#### 6827. Transmission and Jdownloader not working on beta 3. Anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1usmzni/transmission_and_jdownloader_not_working_on_beta/
+
+---
+
+#### 6828. Upgrading to macOS 27 Beta 3 damaged my Macintosh HD - Data Volume
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urpdof/upgrading_to_macos_27_beta_3_damaged_my_macintosh/
+
+---
+
+#### 6829. the golden gate developer beta is buggy as hell for my M1
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1usv3uy/the_golden_gate_developer_beta_is_buggy_as_hell/
+
+---
+
+#### 6830. (27.0DB3) Can you hide "Running in the background" applications?
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uryk6g/270db3_can_you_hide_running_in_the_background/
+
+---
+
+#### 6831. macOS 27 Golden Gate Beta 3 Writing Tools appears to treat selected text as executable instructions
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1us2e7r/macos_27_golden_gate_beta_3_writing_tools_appears/
+
+---
+
+#### 6832. Weirdest Issue: MacOS Beta 3 Can't log on to several apps
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1ury2gf/weirdest_issue_macos_beta_3_cant_log_on_to/
+
+---
+
+#### 6833. How I fixed my macOS 27b3 networking issues
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urg42l/how_i_fixed_my_macos_27b3_networking_issues/
+
+---
+
+#### 6834. Installing apps after updating to macOS Golden Gate.
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1us7855/installing_apps_after_updating_to_macos_golden/
+
+---
+
+#### 6835. macOS 27 db3 - dasd memory leak is still a major issue
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1ur46df/macos_27_db3_dasd_memory_leak_is_still_a_major/
+
+---
+
+#### 6836. Issue with Networking in Virtualization (UTM)
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uribgi/issue_with_networking_in_virtualization_utm/
+
+---
+
+#### 6837. Audio mute behaviour on GG27 Beta3
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urllqp/audio_mute_behaviour_on_gg27_beta3/
+
+---
+
+#### 6838. Downgraded, now it’s even worse than before
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urzlib/downgraded_now_its_even_worse_than_before/
+
+---
+
+#### 6839. Update os will my software gone?
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1urixis/update_os_will_my_software_gone/
+
+---
+
+#### 6840. macOS 27 beta icon changes
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uqbe44/macos_27_beta_icon_changes/
+
+---
+
+#### 6841. Beta 3 internet connectivity issues in certain applications
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uqwm1g/beta_3_internet_connectivity_issues_in_certain/
+
+---
+
+#### 6842. MacOS 27 beta 3 There is an update that can be installed forever.
+
+**问题描述 / Problem Description**:
+Reddit r/MacOSBeta discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOSBeta/comments/1uri4o2/macos_27_beta_3_there_is_an_update_that_can_be/
+
+---
+
+#### 6843. [V2EX] Mac Air M3 16+512 需要更新系统吗
+
+**问题描述 / Problem Description**:
+目前 Mac Air 的系统为 14.8.7 ，升级选项直接到 26 系统了，需要更新吗，有什么坑。目前只是日常使用，没有什么重活。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226400#reply5
+
+---
+
+#### 6844. [V2EX] macOS 27 Beta 3 可能存在 Bug 导致 APFS 数据损坏，已经更新的需要立刻排查
+
+**问题描述 / Problem Description**:
+太长不看 如果你已经安装 macOS 27 Golden Gate Developer Beta 3 （ 26A5378j ），很可能会导致 APFS 数据损坏，立刻备份重要文件，没有更新的先不要更新。 我所知道的 macOS 27.0 Developer Beta 3 （ 26A5378j ）是 6 号推送的。 https://developer.apple.com/news/releases/ 7 月 9 日前后，我看到 Reddit 和 MacRumors 上有人说更新了 Beta 3 的设备有问题，出现数据损坏。 https://forums.macrumors.com/threads
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226234#reply19
+
+---
+
+#### 6845. [V2EX] macos tahoe 26.5.2 accountsd contactsd itunescloudd 占用太高
+
+**问题描述 / Problem Description**:
+电脑是 mac m5 air. 这两天每天上午 10 点左右开始，跑到下午，都高负载跑，然后电脑发烫，下午就好了。 看 V 友有类似情况，是输入法和 WPS, 我是装了 WPS 但是没有开。应该不 WPS 的问题。 Claude 诊断是系统问题。 让我退出账号重启。但是我没听。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226043#reply3
+
+---
+
+#### 6846. [V2EX] macOS 图片浏览 Picview — 方向键翻页，滚轮缩放，抽奖送码啦
+
+**问题描述 / Problem Description**:
+1. 功能点 * 像 Windows 一样看图：方向键翻页，滚轮缩放，打开就能看。 * 支持格式很多：JPG 、PNG 、WEBP 、HEIC 、PSD 、GIF 、RAW 都能看。 * 贴图钉图：图片、文字一键贴到桌面，方便对比查看。 * OCR 识字翻译：截图文字可识别、复制、翻译。 * 界面干净轻快：看完即走，不打扰。 2. 下载地址： https://apps.apple.com/cn/app/picview-%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E5%99%A8/id6452016140?mt=12 3. B 站视频: https://www.bi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225974#reply35
+
+---
+
+#### 6847. [V2EX] [预告] Reset! 各种 AI Agent 额度管理/自动预热重置 App (macOS Only)
+
+**问题描述 / Problem Description**:
+做了一个 macOS 菜单栏 AI Agent 额度管理工具：RESET! 🔄 最近高频使用 Codex 、Claude Code 、Cursor 、Antigravity 进行开发，遇到了一个比较真实的问题： AI Agent 越来越强，但是额度管理越来越混乱。 不同工具都有： 5 小时窗口 周额度 模型额度池 不同恢复机制 经常出现： 刚进入状态，额度没了。 或者： 准备开始工作，却发现还要等待窗口恢复。 所以自己做了一个 macOS 菜单栏 App： RESET! 🔄 它的目标： 让 AI 在你需要的时候，已经准备好。 ✨ 当前功能 1. AI Agent 额度实时查看 支持： Chat
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226608#reply1
+
+---
+
+#### 6848. [V2EX] 🍉LOL so funny, Switch to LINE Messenger so nobody sees this...
+
+**问题描述 / Problem Description**:
+Chang Liu 苹果高级系统电气工程师 在苹果工作 8 年，主要做 iPhone 2026 年 1 月：从苹果离职跳槽去 OpenAI 苹果要求他归还工作电脑 他直接无视 “哈哈，现在这电脑是我的了” 离职后没几个小时，就联系还在苹果的朋友 Yu-Ting “Alyssa” Peng： Liu：“我还有另一台电脑” 然后用这台电脑继续访问苹果的机密信息。 没过几周，他甚至用朋友的苹果工作电脑访问系统。 2 月 9 日：尝试访问苹果的网络存储（云端机密工程文件库），居然因为认证漏洞还能进！ 他发消息给 Peng：“LOL ，我发现我还能访问[网络存储]，太搞笑了” Peng 回复：“我准备好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226532#reply2
+
+---
+
+#### 6849. [V2EX] 日亚周年庆三天活动，苹果很多产品有折扣
+
+**问题描述 / Problem Description**:
+就是转运过海关，苹果的产品会比较被针对吧，有什么好的建议吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226216#reply9
+
+---
+
+#### 6850. [V2EX] Shadowrocket 支持 Tailscale 了，那支持 split dns 吗？
+
+**问题描述 / Problem Description**:
+iOS 只能开一个代理，要开 tailscale 就不能开小火箭代理 MITM 去广告，今天看到小火箭支持 Tailscale 了，除了 Wireguard 以外多了一种不切 VPN 软件回家的方法。但我想问下各位大佬，看日志里面说默认支持 magic dns,那代表支持 split dns 吗？ 因为我 nas 也有 tailscale ，里面 docker 的服务用的是 agh 重写加上 npm 域名反代，要访问 example.yournasserivece.lan 要把 dns 服务器指向 agh ，我就把 agh 加到 split dns 里面去，出门在外要是使用 ios 原生 ta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225970#reply20
+
+---
+
+#### 6851. [V2EX] 卖还是不卖？
+
+**问题描述 / Problem Description**:
+我有一台 macbook pro 16 寸 m4 max 128g 内存 1T 存储，当时花了 34000+2500 （ ac ）。 买完用两个月，就后悔了，配置太高，用不上。 现在 32000 ，有人收。 但我看了下现在的 mac ，48g 就要 29400 了（官网价格），第三方估计最低也得 25000 ，卖了当前电脑，买低配不是划算。 各位有什么好的建议吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225746#reply39
+
+---
+
+#### 6852. [V2EX] App Store 购买的软件需要登陆账号和购买账号保持一致了？
+
+**问题描述 / Problem Description**:
+macOS27 开始就发现这一点了，现在验证机制变得好严格，Apple Music 还能分开账号登陆，可是付费的和内购的软件只要登陆另外一个账号就会掉订阅，这下难搞了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225483#reply24
+
+---
+
+#### 6853. [V2EX] 家里有旗舰电脑、旗舰服务器以及昂贵的多盘存储设备的，一定要配置 UPS
+
+**问题描述 / Problem Description**:
+配置 UPS 倒不是专门为了针对长时间停电情况，而是用来应对电力浪涌或小于 1 秒的瞬间停电。 自从在家里配置了几台 UPS ，它能报告浪涌情况，我才发现小区的电力系统有多糟糕，难怪经常听说很多人的电脑或硬盘容量损坏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226619#reply0
+
+---
+
+#### 6854. [V2EX] 做了个免费追剧资源导航，每天自动检测资源是否还活着，开源的，求反馈
+
+**问题描述 / Problem Description**:
+追剧踩坑踩多了，发现每次找资源都要先确认"这个站还能用吗"，然后大概率发现挂了，再换下一个，再挂…… 于是做了个导航： awesome-zhuiju-free 核心就一件事： GitHub Actions 每天早上自动跑一遍，检测里面每个资源能不能访问，结果直接标在 README 里。不能用的标红，访问受限的标黄。 收录了在线影视、影视 APP 、网盘搜索、磁力 BT 、字幕、TVBox/影视仓配置地址、IPTV 订阅源这几个类别，目前 62 个资源。 几个设计选择解释一下： 数据全部在 resources.json 里，有 schema 验证，PR 合进来会自动跑检测。不想做成一个黑盒的导航
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226595#reply2
+
+---
+
+#### 6855. [V2EX] Plus 昨天还能用 Sol，今天突然没了，是回收权限了吗？
+
+**问题描述 / Problem Description**:
+昨天 Plus 账号里还能正常用 Sol ，直接爽蹭了一上午 当时还挺疑惑网上不少人都说只有 Pro 才能用，为什么我这个 Plus 账号反而能用，结果今天再登录，Sol 直接没了，瞬间悲剧。emmm.... 目前感觉 Terra 实际体验未必比 Sol 差很多，但最强模型突然不能用了还是有点难受。尤其普通 ChatGPT 端似乎还能用 Sol 模型 但是额度和 codex 是分开的 另外说一下，Sol 和 Terra 的额度消耗感觉差不多啊？我开的 X-High 用，不管是 Sol 还是 Terra ，基本一个小时左右额度就见底了。大家的 plus 也是这样吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226589#reply2
+
+---
+
+#### 6856. [V2EX] 推荐电影《痴迷》
+
+**问题描述 / Problem Description**:
+这片的评分我能给到 9/10 ，除了节奏略慢，很多场景很黑——后者我不知道是播放器问题还是导演有意为之，其他都很出色，特别是演员，剧情后半截已经没多少悬念的情况下，全靠演员的演技张力维持了紧张的感觉和恐怖的氛围，可以说，这电影大部分的观看体验都靠男女主的演出，特别是女主的表演，太可怕了，一动不动的时候反而最吓人。 看到最后，我老婆问，国内能上映吗？——想想也不可能吧😁
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226520#reply11
+
+---
+
+#### 6857. [V2EX] ModHeader 插件有暗箱操作?
+
+**问题描述 / Problem Description**:
+Chrome 已经下架了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226500#reply3
+
+---
+
+#### 6858. [V2EX] 见识到国内版权保护的大手了
+
+**问题描述 / Problem Description**:
+想找几本口腔医学类的电子书，确实比较冷门吧，但学口腔的同学要用，应该不至于太冷。 感觉找资源能力还可以吧。很快找到了外文版，但医学外语哪啃得动。中文版死活找不到。耗费一个下午，大概还是要花点钱解决。 印象中特别是医学这种技术书籍，欧美版权保护的更好，而奇怪的是很快找到了外文却找不到中文。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226495#reply11
+
+---
+
+#### 6859. [V2EX] 折腾 homelab 挺长时间了 建了一个群 想不定期分享一些心得 感兴趣来
+
+**问题描述 / Problem Description**:
+RT 最近用 codex + warpgate 管理 homelab 非常爽 所以建了一个群想一起交流一下折腾过程中遇到的问题，不限于 ai ，pve ，k8s, nas ，软路由, emby/jellyfin 等问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226465#reply1
+
+---
+
+#### 6860. [V2EX] 用 AI 做了个在线玩小霸王游戏的网页
+
+**问题描述 / Problem Description**:
+不得不感叹现在 AI 提效真的很强，有什么想法都可以马上验证。 这两天折腾了一个在线玩 FC / GBA 复古游戏的小页面，不用下载模拟器，打开网页就能直接玩，算是给小时候的小霸王回忆补了一张船票。 目前页面还比较简单，感兴趣可以试试： https://kaka770.cn/retro-games
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226185#reply6
 
 ---
