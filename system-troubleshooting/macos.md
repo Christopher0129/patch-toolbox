@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6860**
+**总计条目 / Total entries: 6891**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -93468,5 +93468,408 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226185#reply6
+
+---
+
+#### 6861. The Sequoia Calculator app trying to sneak away
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uus92i/the_sequoia_calculator_app_trying_to_sneak_away/
+
+---
+
+#### 6862. Current state of network scanning apps on macOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uu8vvw/current_state_of_network_scanning_apps_on_macos_27/
+
+---
+
+#### 6863. FIX for Mac draining battery while in sleep.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uutkbv/fix_for_mac_draining_battery_while_in_sleep/
+
+---
+
+#### 6864. Trying to install Mac OS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uunbcy/trying_to_install_mac_os/
+
+---
+
+#### 6865. Cursor placement when clicking on text?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uuqou7/cursor_placement_when_clicking_on_text/
+
+---
+
+#### 6866. How to make this black?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uuo0wp/how_to_make_this_black/
+
+---
+
+#### 6867. My mac Neo isn’t charging
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uu34sf/my_mac_neo_isnt_charging/
+
+---
+
+#### 6868. M4 air lagging on Tahoe 26.5.2 with low fps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uuohwp/m4_air_lagging_on_tahoe_2652_with_low_fps/
+
+---
+
+#### 6869. Mac air m5 only 60hz on external monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uug4yq/mac_air_m5_only_60hz_on_external_monitor/
+
+---
+
+#### 6870. Fix Spaces at their place
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uudgec/fix_spaces_at_their_place/
+
+---
+
+#### 6871. Settings.app not found
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uuc0nc/settingsapp_not_found/
+
+---
+
+#### 6872. How do you like your sidebars/lists in Settings?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uuesuh/how_do_you_like_your_sidebarslists_in_settings/
+
+---
+
+#### 6873. Mac os Siri storage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uujo1o/mac_os_siri_storage/
+
+---
+
+#### 6874. The screen is having a weird behaviour, with strange lines
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uu46t3/the_screen_is_having_a_weird_behaviour_with/
+
+---
+
+#### 6875. [V2EX] macOS 27 Beta 3 可能存在 Bug 导致 APFS 数据损坏，已经更新的需要立刻排查
+
+**问题描述 / Problem Description**:
+太长不看 如果你已经安装 macOS 27 Golden Gate Developer Beta 3 （ 26A5378j ），很可能会导致 APFS 数据损坏，立刻备份重要文件，没有更新的先不要更新。 我所知道的 macOS 27.0 Developer Beta 3 （ 26A5378j ）是 6 号推送的。 https://developer.apple.com/news/releases/ 7 月 9 日前后，我看到 Reddit 和 MacRumors 上有人说更新了 Beta 3 的设备有问题，出现数据损坏。 https://forums.macrumors.com/threads
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226234#reply20
+
+---
+
+#### 6876. [V2EX] macOS 图片浏览 Picview — 方向键翻页，滚轮缩放，抽奖送码啦
+
+**问题描述 / Problem Description**:
+1. 功能点 * 像 Windows 一样看图：方向键翻页，滚轮缩放，打开就能看。 * 支持格式很多：JPG 、PNG 、WEBP 、HEIC 、PSD 、GIF 、RAW 都能看。 * 贴图钉图：图片、文字一键贴到桌面，方便对比查看。 * OCR 识字翻译：截图文字可识别、复制、翻译。 * 界面干净轻快：看完即走，不打扰。 2. 下载地址： https://apps.apple.com/cn/app/picview-%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E5%99%A8/id6452016140?mt=12 3. B 站视频: https://www.bi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225974#reply38
+
+---
+
+#### 6877. [V2EX] [预告] Reset! 各种 AI Agent 额度管理/自动预热重置 App (macOS Only)
+
+**问题描述 / Problem Description**:
+做了一个 macOS 菜单栏 AI Agent 额度管理工具：RESET! 🔄 最近高频使用 Codex 、Claude Code 、Cursor 、Antigravity 进行开发，遇到了一个比较真实的问题： AI Agent 越来越强，但是额度管理越来越混乱。 不同工具都有： 5 小时窗口 周额度 模型额度池 不同恢复机制 经常出现： 刚进入状态，额度没了。 或者： 准备开始工作，却发现还要等待窗口恢复。 所以自己做了一个 macOS 菜单栏 App： RESET! 🔄 它的目标： 让 AI 在你需要的时候，已经准备好。 ✨ 当前功能 1. AI Agent 额度实时查看 支持： Chat
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226608#reply5
+
+---
+
+#### 6878. [V2EX] 日亚周年庆三天活动，苹果很多产品有折扣
+
+**问题描述 / Problem Description**:
+就是转运过海关，苹果的产品会比较被针对吧，有什么好的建议吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226216#reply10
+
+---
+
+#### 6879. [V2EX] 2026 年 07 月购买了 Quantumult X
+
+**问题描述 / Problem Description**:
+i 以前 8 刀还是几刀的时候没买； 这么多年使用的过程，小火箭，loon ，surge ，loon 煎熬了这周前三天一直努力尝试 mihomo clash mi 各种 在决定购买 stash 之前还是买了 quantumult X. 目前在 iOS 端手搓配置，前辈们有没有经验分享。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225824#reply85
+
+---
+
+#### 6880. [V2EX] App Store 购买的软件需要登陆账号和购买账号保持一致了？
+
+**问题描述 / Problem Description**:
+macOS27 开始就发现这一点了，现在验证机制变得好严格，Apple Music 还能分开账号登陆，可是付费的和内购的软件只要登陆另外一个账号就会掉订阅，这下难搞了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225483#reply25
+
+---
+
+#### 6881. [V2EX] YOLO 原来是“赢了会所嫩模”的英文缩写
+
+**问题描述 / Problem Description**:
+我搜： what does --yolo mean? In the context of OpenAI documentation 结果是： it's using the slang meaning of YOLO = "You Only Live Once" , which in developer tools has come to mean: Run with minimal safety prompts; trust the tool to proceed automatically. 这不就是 “赢了会所嫩模，输了下海干活” 嘛 😆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226803#reply0
+
+---
+
+#### 6882. [V2EX] 交管系统用的是 AWS 服务???
+
+**问题描述 / Problem Description**:
+周末去派出所换驾照, 发现工作人员用的交管系统是网址是 http://50.18.18.80:8008 , 查了下地址是美国亚马逊的: https://en.ntunhs.net/IPInfo/EN/50/18.htm 有点奇怪为啥他们没有用内网 IP 或者是国内的地址, 我又搜索了下这个 IP, 似乎的确是交管在用: https://m.modiauto.com.cn/wzcld/4100.html . 有没有懂得解释下. 另外他们用的是 Windows 7, 还是没有激活的, 系统卡的要死, 身份证读取器也是试了半天才可以用... 开始理解工作人员的服务态度了.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226791#reply8
+
+---
+
+#### 6883. [V2EX] 分享一个免费下载 wordpress 破解版付费插件和主题的网站
+
+**问题描述 / Problem Description**:
+https://wpforfree.com/ 界面还是挺清新的，不知道站里用 wordpress 的朋友多不多，分享一下这个网站，资源挺多的。关键是免费没广告，仅需注册登录就行。很多资源其他网站都是收费卖的。我自己用了两个月。分享出来给大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226781#reply0
+
+---
+
+#### 6884. [V2EX] 『开源』自用 agent ally， golang 实现，界面友好，功能丰富（非 cli）
+
+**问题描述 / Problem Description**:
+平常工作基本使用自己写的 agent ，特点： 0. 类 codex app ，非 cli cli 做 UI 渲染不怎么方便，个人更喜欢直接的 GUI APP ，基于 webview 实现，安装包~30mb 。 1. 不绑定单一模型厂商 支持多种 API 格式，包括： OpenAI Chat Completions OpenAI Responses Anthropic Messages 2. 功能完整 除了聊天，Ally 还可以： 批量读取、搜索和修改项目文件 执行本地命令 展示代码差异 管理待办事项和长期目标 调用 MCP 工具 委派子任务给子 Agent 创建定时执行的 Agent 任务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226780#reply0
+
+---
+
+#### 6885. [V2EX] Codex 用 CLIProxyAPI 反代不会封号
+
+**问题描述 / Problem Description**:
+可以心安理得的用起来了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226714#reply0
+
+---
+
+#### 6886. [V2EX] ZGI 开源两周了，拿到 200+ Stars，想和大家同步一下进展
+
+**问题描述 / Problem Description**:
+大家好，我是 ZGI 的产品运营 Eddie 。 ZGI 开源上线大概两周了，目前 GitHub 已经有 200+ Stars ，Gitee 也同步上线了。先感谢这段时间点进来看过、提过建议、点过 Star 的朋友。 发这个帖子不是想硬推产品，主要是想同步一下我们现在在做什么，也希望听听 V2EX 上开发者的真实反馈。 ZGI 想解决的问题比较明确： 现在很多 AI 应用做 Demo 很快，接一个大模型、写几个 Prompt 、挂一个知识库，几天就能跑起来。但真正到企业内部使用时，问题会变多： 文档怎么清洗？ 知识库怎么召回？ 模型怎么统一接入？ 工作流怎么编排？ Agent 执行过程怎么记录
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226690#reply0
+
+---
+
+#### 6887. [V2EX] 家里有旗舰电脑、旗舰服务器以及昂贵的多盘存储设备的，一定要配置 UPS
+
+**问题描述 / Problem Description**:
+配置 UPS 倒不是专门为了针对长时间停电情况，而是用来应对电力浪涌或小于 1 秒的瞬间停电。 自从在家里配置了几台 UPS ，它能报告浪涌情况，我才发现小区的电力系统有多糟糕，难怪经常听说很多人的电脑或硬盘容量损坏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226619#reply1
+
+---
+
+#### 6888. [V2EX] 魔兽争霸 3 网页版
+
+**问题描述 / Problem Description**:
+完全在浏览器运行的魔兽争霸 3 ，魔改 github v86 实现了 opengl 转 webgl ，感兴趣的老哥可以试试： https://retrogaming.dpdns.org/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226611#reply32
+
+---
+
+#### 6889. [V2EX] 做了个免费追剧资源导航，每天自动检测资源是否还活着，开源的，求反馈
+
+**问题描述 / Problem Description**:
+追剧踩坑踩多了，发现每次找资源都要先确认"这个站还能用吗"，然后大概率发现挂了，再换下一个，再挂…… 于是做了个导航： awesome-zhuiju-free 核心就一件事： GitHub Actions 每天早上自动跑一遍，检测里面每个资源能不能访问，结果直接标在 README 里。不能用的标红，访问受限的标黄。 收录了在线影视、影视 APP 、网盘搜索、磁力 BT 、字幕、TVBox/影视仓配置地址、IPTV 订阅源这几个类别，目前 62 个资源。 几个设计选择解释一下： 数据全部在 resources.json 里，有 schema 验证，PR 合进来会自动跑检测。不想做成一个黑盒的导航
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226595#reply4
+
+---
+
+#### 6890. [V2EX] 见识到国内版权保护的大手了
+
+**问题描述 / Problem Description**:
+想找几本口腔医学类的电子书，确实比较冷门吧，但学口腔的同学要用，应该不至于太冷。 感觉找资源能力还可以吧。很快找到了外文版，但医学外语哪啃得动。中文版死活找不到。耗费一个下午，大概还是要花点钱解决。 印象中特别是医学这种技术书籍，欧美版权保护的更好，而奇怪的是很快找到了外文却找不到中文。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226495#reply15
+
+---
+
+#### 6891. [V2EX] codex 说是 24 小时内重置两次， 赶快站起来蹬啊！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226406#reply7
 
 ---

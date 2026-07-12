@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7108**
+**总计条目 / Total entries: 7164**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -100343,5 +100343,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226444#reply4
+
+---
+
+#### 7109. Why doesn't bash set PATH as an environment variable when setting its default value?
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables, path | Score: 3 | Views: 498 | Answers: 1 | Created: 2026-07-09
+
+**解决方案 / Solution**:
+It's not alone. Among the few shells that I've tried, this is the behaviours I've found (here on a Debian GNU/Linux system) when the shell is invoked with no PATH in its environment: set PATH but does not export it like bash does: zsh , dash , busybox hush -based sh (and the ash -based one without the Debian patch). set PATH and export it: pdksh and derivatives, Debian's busybox ash -based sh (via a Debian patch added there in 2007), public domain clone of rc and derivatives, fish do not set it, but command execution searches a builtin path (like glibc's execlp() / execvp() does): ksh93 , bosh , tcsh do not set it, and don't find any command: yash , port of plan9 rc Note the command look up by name is not done only by shells, most other tools that can execute commands do, and not all invoke a shell (like via the standard system() or popen() C functions) for doing so. For example: env cmd , find . -exec cmd ';' are other commands that execute other commands (generally using the execvp() standard function). On most systems (though POSIX again leaves it implementation defined ), when there's no PATH variable in the environment, execvp() still searches commands (with no / in their name) in a default internal search path, and that search path can vary with the way the command using execvp() has been built. For instance, a /usr/xpg4/bin/cmd command on Solaris which is meant to be the POSIX compliant version of cmd , when executing another command will want to search in /usr/xpg4/bin first to find the POSIX compliant versions of utilities, while the /usr/bin/cmd will use a different search path that finds traditional ones instead. So, in other words, an unset PATH is: every command does their own search as they please. You could see bash / zsh / dash behaviour as choosing their own default search path, making it visible to the user, but not influence the behaviour of other commands executed within which can carry on using their default search path. The shells in the second category that export PATH are problematic, that means that commands called through them will potentially behave differently from when they're not or when called from a different shell. For instance, in an environment with no PATH variable, mksh -c '/usr/bin/env cmd' ( mksh being a pdksh derivative) may run a different cmd from /usr/bin/env cmd or sh -c '/usr/bin/env cmd' .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806643/why-doesnt-bash-set-path-as-an-environment-variable-when-setting-its-default-va
+
+---
+
+#### 7110. Today I suddenly realized what a mad man I have become after 3 years of using Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuqxdu/today_i_suddenly_realized_what_a_mad_man_i_have/
+
+---
+
+#### 7111. Realtek RTL8723BS WiFi Linux Driver Hardened Against Malicious WiFi Access Points
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuiw54/realtek_rtl8723bs_wifi_linux_driver_hardened/
+
+---
+
+#### 7112. Droidtux integrates your phone’s apps seamlessly into your Linux desktop as individual apps.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuln8d/droidtux_integrates_your_phones_apps_seamlessly/
+
+---
+
+#### 7113. Fog Panther - Professional Image Editor for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uukv7i/fog_panther_professional_image_editor_for_linux/
+
+---
+
+#### 7114. Debian 12.15 - Final 32-Bit Update for Debian Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uu2jgv/debian_1215_final_32bit_update_for_debian_released/
+
+---
+
+#### 7115. Why isn't flatpak mesa beta/git 25.08 branch getting updates anymore
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uupu16/why_isnt_flatpak_mesa_betagit_2508_branch_getting/
+
+---
+
+#### 7116. PeaZip 11.2.0 released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuctd3/peazip_1120_released/
+
+---
+
+#### 7117. Alpine Linux on any Single-Board Computers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuta4z/alpine_linux_on_any_singleboard_computers/
+
+---
+
+#### 7118. jminequest, my remake/clone of an old mobile game is now open source, albeit with a twist
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uus2yt/jminequest_my_remakeclone_of_an_old_mobile_game/
+
+---
+
+#### 7119. T4NGO STUDIOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuqgvw/t4ngo_studios/
+
+---
+
+#### 7120. gitm - A CLI release tracker
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uudtp0/gitm_a_cli_release_tracker/
+
+---
+
+#### 7121. Why do you customize things?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uudkmf/why_do_you_customize_things/
+
+---
+
+#### 7122. UbuCon India 2026 - Bengaluru - Call for proposals
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1u8xtyy/ubucon_india_2026_bengaluru_call_for_proposals/
+
+---
+
+#### 7123. Trying to get steam to work
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uurmns/trying_to_get_steam_to_work/
+
+---
+
+#### 7124. HELP! Cant control laptop's brighness on Ubuntu 26.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uuiku5/help_cant_control_laptops_brighness_on_ubuntu_26/
+
+---
+
+#### 7125. After 16 years, I came home!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uttc55/after_16_years_i_came_home/
+
+---
+
+#### 7126. No plymouth when shutting down encrypted installation
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uus81t/no_plymouth_when_shutting_down_encrypted/
+
+---
+
+#### 7127. HELP!!! stuck on login screen!
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uukszb/help_stuck_on_login_screen/
+
+---
+
+#### 7128. Ubuntu on Dell Pro Precision 5 series 14S and Dell Pro 13 2in1 7 series
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uuegwo/ubuntu_on_dell_pro_precision_5_series_14s_and/
+
+---
+
+#### 7129. Running linux behind nordvpn
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uuhqbx/running_linux_behind_nordvpn/
+
+---
+
+#### 7130. is dms + ubuntu a good option?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uumeps/is_dms_ubuntu_a_good_option/
+
+---
+
+#### 7131. Libxml2 install
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uu525f/libxml2_install/
+
+---
+
+#### 7132. Linux desktop on Old iMac not booting anymore - How to repair?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uufl4n/linux_desktop_on_old_imac_not_booting_anymore_how/
+
+---
+
+#### 7133. Help
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utuyc4/help/
+
+---
+
+#### 7134. Here we go again
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1ut7g0k/here_we_go_again/
+
+---
+
+#### 7135. Kubuntu 26.04 Installation error (update-initramfs, sync error syncing, Input/Output error)
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uu3snx/kubuntu_2604_installation_error_updateinitramfs/
+
+---
+
+#### 7136. Dell Latitude 7410 for Ubuntu? Help needed
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utoc2n/dell_latitude_7410_for_ubuntu_help_needed/
+
+---
+
+#### 7137. Ubuntu sound quality
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utor58/ubuntu_sound_quality/
+
+---
+
+#### 7138. How do I remove this Ubuntu Pro ad from my software updates?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1uuar23/how_do_i_remove_this_ubuntu_pro_ad_from_my/
+
+---
+
+#### 7139. installing stuck at this screen
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utdcod/installing_stuck_at_this_screen/
+
+---
+
+#### 7140. How to change top bar color in 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utoi08/how_to_change_top_bar_color_in_2604/
+
+---
+
+#### 7141. CPU usage spikes when I type on the keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utwy7e/cpu_usage_spikes_when_i_type_on_the_keyboard/
+
+---
+
+#### 7142. 24.04 or 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utli26/2404_or_2604/
+
+---
+
+#### 7143. Sudo apt upgrade returns with this error.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utgp83/sudo_apt_upgrade_returns_with_this_error/
+
+---
+
+#### 7144. Why is Ubuntu so slow on my VM?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utr2wa/why_is_ubuntu_so_slow_on_my_vm/
+
+---
+
+#### 7145. Laptop Crashes
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utr1p4/laptop_crashes/
+
+---
+
+#### 7146. public wifi
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1utpv0f/public_wifi/
+
+---
+
+#### 7147. [V2EX] 我开发了一个 AI 程序化建模的工具
+
+**问题描述 / Problem Description**:
+现在的 AI 3D 很擅长生成第一版：输入一句话或一张图片，很快得到一个模型。 但游戏生产更关心下一步。车身太窄，能否只改宽度？车顶太高，能否只改高度？材质错了，能否只换材质，不重做几何？半年后，能否用同样的输入重新得到同样的模型？ 如果每次修改都要重新生成完整模型、重新描述全部要求、再次消耗大量 Token ，模型就很难真正进入生产流程。 Meshova 采用另一条路线：**模型就是脚本**。 模型由 TypeScript 脚本和参数生成。AI 不只交付一次性的网格，还交付生成方法。结果不满意，只改相关参数或局部规则，不必从头再来。 这样做有几个直接好处： - AI 易于阅读：代码、参数和结
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226804#reply0
+
+---
+
+#### 7148. [V2EX] 像 ZCode 这种一天一更新是怎么做到的？
+
+**问题描述 / Problem Description**:
+如题 https://zcode.z.ai/cn/changelog 现在就算有 AI 工具加码，也只提升了整个编码的开发速度，后面还有调试、测试、发版等一系列相关流程要走。如果一个人做，一天一更新感觉也比较极限，很难持续；如果多个人一起做，又如何保证大家并发开发的功能在合并时不会发生冲突？ 在多模块、多人协作的场景下，AI 有没有好的提效和控制熵增的方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226782#reply16
+
+---
+
+#### 7149. [V2EX] 兄弟们的 codex 和 claude code 用中转吗
+
+**问题描述 / Problem Description**:
+我看很多人用，几十块钱蹬不完。 我生产环境上没用，怕掺水事小，还植入点什么后门 但是价格有点遭老罪了，兄弟们都是什么解决方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226772#reply2
+
+---
+
+#### 7150. [V2EX] 各位大佬每月在 AI 工具上的支出都是多少？多少是因为工作支出？
+
+**问题描述 / Problem Description**:
+最近看到一篇历史的 https://v2ex.com/t/1173165 的报告，现在 GLM5.2 也出来了，国内不仅有多重 coding plan 、token plan ，而且中转站也转了多次。 本人是之前阿里有 40 元 coding plan 时就订阅直至没法续订了，现在就是靠之前 iflow cli 的免费套餐，xiaomi mimo 套餐赠送+续费 1 个月，美团 longcat 2.0 从测试阶段到现在赠送的 1 个月，每个月的费用大概是 40~90 元？ 主要都是工作上一些编程工作的，以前手工自己写，写完后比较方便改，但是面临需求变化快，写的过程很累。现在用 AI 后，就是感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226765#reply13
+
+---
+
+#### 7151. [V2EX] 给联通 VN007+ 5G CPE 写一个任务栏流量监控 + 短信收发小工具
+
+**问题描述 / Problem Description**:
+收了个联通 VN007+，插上卡用上去很不错。 于是 Vibe Coding 了一个小工具。 用来看流量和收发短信。 项目地址： https://gitee.com/assad2008/5g-traffic-monitoring-system 博客文章： https://blog.wangjiang.me/posts/fiveg_traffic_monitor.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226764#reply0
+
+---
+
+#### 7152. [V2EX] LLM 知识库，如何统一本地与云端修改
+
+**问题描述 / Problem Description**:
+LLM 知识库，如何统一本地与云端修改 立即体验 NoteDeep 做 NoteDeep Desktop 时，我希望本地知识库不只是云端数据的缓存：用户可以离线编辑 Markdown ，Codex 、Claude Code 或 Cursor 可以直接改文件，云端仍然保留富文本编辑、历史版本与协作能力。 真正困难的不是上传文件，而是三类修改可能同时发生：它们从哪里进入、以谁为准、断网后如何恢复、云端领先时又如何合并？最后，我把它们收敛到同一套本地状态和 JSON0 同步链路中。 背景与目标 这个方案先确定了两个产品边界：本地目录必须在没有网络、甚至没有登录时正常工作； Markdown 必须是人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226749#reply3
+
+---
+
+#### 7153. [V2EX] [仅供参考] Codex/Claude Code 降智测试脚本
+
+**问题描述 / Problem Description**:
+写了一个专门用来测试 codex/claude code 是否降智的脚本，各位可以下载下来用来测试 https://github.com/yukun181013/llm-iq-test
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226728#reply0
+
+---
+
+#### 7154. [V2EX] 突然发现 chatgpt 语音多了 live 功能，感觉练口语挺好的
+
+**问题描述 / Problem Description**:
+以前拿 chatgpt 练口语，都是 chatgpt 一句，我语音读一句。现在用这个 live 模式，终于有点像实时真人对话了，比菲律宾人的英语课效果还要好，至少不要钱。 现在唯一的难点，就是得坚持了。 https://openai.com/zh-Hans-CN/index/introducing-gpt-live/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226716#reply33
+
+---
+
+#### 7155. [V2EX] 这算不算是 Codex 官方站队 CLIProxyAPI
+
+**问题描述 / Problem Description**:
+https://x.com/thsottiaux/status/2076119366647894371
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226715#reply1
+
+---
+
+#### 7156. [V2EX] 理性讨论，大模型的客户端会不会吃光所有 agent 应用的份额
+
+**问题描述 / Problem Description**:
+最近更新了 gpt5.6,codex 的客户端也把 chatgpt 和 codex 融合在一起了。 目前自己已经越来越少对 ai 做任何约束性的动作，包括之前的 harness 也很少了，因为 codex 的客户端几乎能够完全完成我自然语言的全部要求。 之前都觉得大模型厂商是提供源头，agent 提供分发，但是大模型厂商目前的客户端感觉已经能够 agent 应用全部吞并。而且最关键的是，比如说 200 刀的 Codex 会员，它的那个 token 费用远远比我自己单独去买 API 接入各种 Agent 的应用来的划算。 哪怕 agent 厂商尝试着与它对抗，都不可能，因为你的货的源头就是它，它
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226704#reply4
+
+---
+
+#### 7157. [V2EX] Gisia 1.4.1 发布 - NAS 自建代码托管的不二之选
+
+**问题描述 / Problem Description**:
+大家好， 我开发的自托管 DevOps 平台 Gisia 今天发布了 1.4.1 版本。 Gisia 专注于为 个人开发者和小团队 提供轻量、纯粹、自控力强的代码托管解决方案。它集成了 Git 仓库托管、CI/CD 流水线、议题管理、Merge Request 等核心功能，基本能满足日常开发协作需求，同时保持极简不臃肿。 核心优势： 完全自托管，代码和数据全在自己手里 Docker 一键部署，几分钟就能跑起来，非常适合 NAS / 服务器自建 轻量高效，资源占用低 开发者优先设计，界面简洁，操作流畅 亮点特性 —— AI 就绪 智能体只需一个 skill.md URL 即可学会你的项目 API
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226696#reply0
+
+---
+
+#### 7158. [V2EX] 基于 chromium 150 版本的 UI 框架和 pdfium 实现了跨平台的 PDF 软件
+
+**问题描述 / Problem Description**:
+免费下载： https://github.com/libcr/crpdf/releases 在 AI 协助下，用 C++ 花了不到 2 个礼拜实现的 主要实现了 PDF 文件的阅读和标注 实践下来，用 libcr 这套跨平台的代码 稳定性和可行性很不错 1. 免 QT 授权费用 2. 优秀的 chromium 代码基础 实现 UI 和动效也很方便，编译后的体积也小很多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226667#reply2
+
+---
+
+#### 7159. [V2EX] grok-4.5 真的比 gpt-5.6 sol 好用吧
+
+**问题描述 / Problem Description**:
+gpt-5.6 首先慢, 其次贵, 体感上智能程度并没有明显强过 grok-4.5, 而且超级喜欢自己主动做更多的事情,而且审美还是一般没有多少进步.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226656#reply32
+
+---
+
+#### 7160. [V2EX] codex 的审美赶 gemini 还是差一大截呀
+
+**问题描述 / Problem Description**:
+"写一个网页版的贪吃蛇" 用这句相同的 prompt ，让 gemini 3.5 flash 和 codex 5.6 sol 同时写个贪吃蛇，效果差别很大呀。 都是开的 medium 能看出哪个是 gemini 写的吗 https://daily-snake.pages.dev/games/orchard-battle/ https://daily-snake.pages.dev/games/neon-snake/ （图片上传失败了，直接点开看吧。v 站这个图片上传真是一言难尽）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226630#reply15
+
+---
+
+#### 7161. [V2EX] Claude 突然的，就来了！瑟瑟发抖中。。。。
+
+**问题描述 / Problem Description**:
+API Error: Unable to connect to API: SSL certificate hostname mismatch cli 正常，desktop 端提示这个，大家又遇到这个情况的吗？已经被封好几个号了，无缘由的！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226625#reply4
+
+---
+
+#### 7162. [V2EX] 分享一个 Codex 写简历, Markdown 转 PDF 神级工作流
+
+**问题描述 / Problem Description**:
+写一个简历大纲 Markdown Codex prompt: 根据大纲完善简历 Codex prompt: 找到简历里面的问题, 可以优化的地方, 输出建议, 和原因, 表格形式 根据结果继续完善 Markdown, 直到满意 使用 markdown-to-resume 工具生成 PDF, 智能一页, 完美的 GitHub 样式 这个工具我开源了, 欢迎品鉴, 给建议 https://jarvanstack.github.io/markdown-to-resume/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226621#reply5
+
+---
+
+#### 7163. [V2EX] codex 有没有调用其他 AI 进行对抗的 skills?
+
+**问题描述 / Problem Description**:
+有些问题比较有难度,希望 AI 圆桌会议一下. 比如 "与 /claude 讨论后确认最终方案后执行" 是不是能直接看到烧钞票的感觉?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226593#reply3
+
+---
+
+#### 7164. How is "Linux" pronounced?
+
+**问题描述 / Problem Description**:
+Tags: linux | Score: -5 | Views: 100 | Answers: 1 | Created: 2026-07-10
+
+**解决方案 / Solution**:
+In English-speaking contexts, “Lin” in “Linux” rhymes with “rim”, as explained by Linus Torvalds in this video . Expressed in IPA , that’s /lɪ.n/.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806657/how-is-linux-pronounced
 
 ---

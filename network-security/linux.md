@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2473**
+**总计条目 / Total entries: 2479**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -38131,5 +38131,77 @@ A Incorrect Execution-Assigned Permissions vulnerability in the permissions pack
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2498841
+
+---
+
+#### 2474. CVE-2026-61870 - ImageMagick: ImageMagick: Denial of Service via specially crafted VIFF images
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via specially crafted VIFF images. Bugzilla: 2499365
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499365
+
+---
+
+#### 2475. CVE-2026-61861 - ImageMagick: ImageMagick: Use-after-free vulnerability leading to denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Use-after-free vulnerability leading to denial of service or code execution. Bugzilla: 2499377
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499377
+
+---
+
+#### 2476. CVE-2026-61858 - ImageMagick: ImageMagick: Policy bypass allows unauthorized file writing via APNG…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Policy bypass allows unauthorized file writing via APNG encoder. Bugzilla: 2499370
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499370
+
+---
+
+#### 2477. CVE-2026-61465 - ImageMagick: ImageMagick: Denial of Service via crafted image due to missing…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via crafted image due to missing memory allocation check. Bugzilla: 2499374
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499374
+
+---
+
+#### 2478. CVE-2026-61857 - ImageMagick: ImageMagick: Application crashes via malicious XMP profiles
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Application crashes via malicious XMP profiles. Bugzilla: 2499382
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499382
+
+---
+
+#### 2479. CVE-2026-56372 - ImageMagick: ImageMagick: Information Disclosure and Denial of Service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information Disclosure and Denial of Service. Bugzilla: 2499383
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499383
 
 ---

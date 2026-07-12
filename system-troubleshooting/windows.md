@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7953**
+**总计条目 / Total entries: 7999**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109154,5 +109154,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226496#reply2
+
+---
+
+#### 7954. How can I rotate the Global Device Identifier (GDID) used for telemetry on a Windows 11 system?
+
+**问题描述 / Problem Description**:
+Tags: vpn, windows-11, privacy, telemetry | Score: 4 | Views: 1255 | Answers: 1 | Created: 2026-07-06
+
+**解决方案 / Solution**:
+Apparently, you cannot change or disable the GDID, according to Microsoft, if you've set up Windows using a Microsoft account. Arthur Kay, in GHACKS, states , "The ID is generated when Windows is set up with a Microsoft Account, persists through Windows updates, and cannot be disabled without affecting Windows activation and Microsoft Store apps." "Delivery Optimization reports the GDID back to Microsoft when the PC shares or downloads updates. This identifier is stored in the Windows registry under HKCU\SOFTWARE\Microsoft\IdentityCRL\ExtendedProperties and formatted with a lowercase "g" prefix followed by a decimal number." (On this PC with local account, there was no "g" prefix, only a hexadecimal string.) You could experiment with changing the string value LID in HKCU\SOFTWARE\Microsoft\IdentityCRL\ExtendedProperties on a PC that has local account only , and on a PC with a Microsoft account. Make a drive image of each PC before testing, so you can safely restore it afterwards, because performing the tests might invalidate Windows activation and break apps installed through Microsoft Store. Please edit this answer, or add your own after performing those tests. All my PC's have local accounts only . Though I've changed the value in LID, according to Windows Lartest, on a PC with MS account, the original value might be restored . "When Windows provisions a device against a Microsoft Account, a system service called wlidsvc talks to login.live.com and gets back what Microsoft calls a Device PUID, a Passport Unique ID, inside the server’s SOAP response... It receives a string and stores it."
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938878/how-can-i-rotate-the-global-device-identifier-gdid-used-for-telemetry-on-a-win
+
+---
+
+#### 7955. How to add a boot device on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11 | Score: 0 | Views: 52 | Answers: 1 | Created: 2026-07-11
+
+**解决方案 / Solution**:
+I made a bootable USB drive with Windows 11. Make it again, but make sure it's created with UEFI support. The official Windows "media creation tool" will do that automatically, but if you use Rufus then it only lets you pick BIOS or UEFI (from what I remember, "Both" only becomes available if you press a hidden key), and some other tools might not support UEFI at all. (UEFI-bootable USB sticks always have an EFI directory, with an \EFI\Boot\Bootx64.efi file inside.) So if the laptop is sufficiently new that it no longer supports BIOS-style boot, but you've created a USB stick that only has BIOS-style bootcode, then it won't show up as a boot option at all.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939004/how-to-add-a-boot-device-on-windows-11
+
+---
+
+#### 7956. I deleted the OneDrive folder, and ALL my files are gone.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuh03k/i_deleted_the_onedrive_folder_and_all_my_files/
+
+---
+
+#### 7957. Can someone please help with the white screen in Poppy Playtime Chapter 4?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uunsvl/can_someone_please_help_with_the_white_screen_in/
+
+---
+
+#### 7958. Fans making weird ticking sound
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uurkrj/fans_making_weird_ticking_sound/
+
+---
+
+#### 7959. Ladvix Linux Malware accidentally installed and run, how can I make sure my system is clean?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuoh1l/ladvix_linux_malware_accidentally_installed_and/
+
+---
+
+#### 7960. Windows 11 randomly freezes and reboots
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuo1cs/windows_11_randomly_freezes_and_reboots/
+
+---
+
+#### 7961. Troubleshooting regarding EAC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uunu6l/troubleshooting_regarding_eac/
+
+---
+
+#### 7962. Having weird issues with my new pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uur00q/having_weird_issues_with_my_new_pc/
+
+---
+
+#### 7963. Which is best Nvidia driver version for RTX 30 series.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uutky9/which_is_best_nvidia_driver_version_for_rtx_30/
+
+---
+
+#### 7964. Is it ok to turn off my APC UPS after I'm done with it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uusxca/is_it_ok_to_turn_off_my_apc_ups_after_im_done/
+
+---
+
+#### 7965. Imgur mobile website banner makes it unuseable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuar15/imgur_mobile_website_banner_makes_it_unuseable/
+
+---
+
+#### 7966. Realtek RTL8852BE WiFi randomly crashes while gaming. Code 10, rtwlane601, NDIS errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uusvfx/realtek_rtl8852be_wifi_randomly_crashes_while/
+
+---
+
+#### 7967. I have a problem connecting my HDMI cable to my android nord one plus phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uusv89/i_have_a_problem_connecting_my_hdmi_cable_to_my/
+
+---
+
+#### 7968. Possible Scam.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uusjz8/possible_scam/
+
+---
+
+#### 7969. Screen tearing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uurvkt/screen_tearing/
+
+---
+
+#### 7970. PC used as display no longer shows I as audio source sayong "not plugged in"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uulov6/pc_used_as_display_no_longer_shows_i_as_audio/
+
+---
+
+#### 7971. Norton security log spamming "rule windows networking in allowed udp 17"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uurnc6/norton_security_log_spamming_rule_windows/
+
+---
+
+#### 7972. Complete Freezes/Lockups of Gaming RIG during Gameplay of Demanding Games...
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uurkoj/complete_freezeslockups_of_gaming_rig_during/
+
+---
+
+#### 7973. Desktop will not connect to internet with ethenet or wifi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uur0at/desktop_will_not_connect_to_internet_with_ethenet/
+
+---
+
+#### 7974. NVME boot drive not appearing in BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uukwbk/nvme_boot_drive_not_appearing_in_bios/
+
+---
+
+#### 7975. Death Stranding 2 | Anisotropic Filtering doesn’t work • Most (half?) textures look blurry and low res
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuqf4d/death_stranding_2_anisotropic_filtering_doesnt/
+
+---
+
+#### 7976. how do you unsync your desktop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuqary/how_do_you_unsync_your_desktop/
+
+---
+
+#### 7977. PC's Memory Has Been Struggling
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uuq78m/pcs_memory_has_been_struggling/
+
+---
+
+#### 7978. Windows 11 Setup Loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uupu6t/windows_11_setup_loop/
+
+---
+
+#### 7979. Port forwarding over CGNAT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uupfzd/port_forwarding_over_cgnat/
+
+---
+
+#### 7980. [V2EX] 你们使用大模型的输入输出比是多少？
+
+**问题描述 / Problem Description**:
+我个人的统计结果是，输入命中率在 90-95% 之间，输出的 Token 量大概是输入的 2-3% 左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226798#reply0
+
+---
+
+#### 7981. [V2EX] 请问一下 grok 写代码的正确打开方式是什么
+
+**问题描述 / Problem Description**:
+好像有个 grok build ，但是比较抽象
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226794#reply0
+
+---
+
+#### 7982. [V2EX] 如何结束孤岛学习的环境？
+
+**问题描述 / Problem Description**:
+早上，从喝杯豆浆开始，刷刷 rss 订阅，获取新动态。 感兴趣的不少，陆续添加到 check it out later 列表 然后开始捣鼓 代码，给 ai 部署，并让 understand-anything 生成 graph.json 给我看看。 新闻，让 ai 总结，有用就把 summary 扔到 obs 里，打上时间戳。没用的，阅后即焚。 感觉效率还行了，但缺乏交流，孤岛严重，一切依赖 ai。的确 ai 已经完成闭环了。 现在反而想听点“谩骂”“反驳”“抨击”“嘲讽”“贬低”等强反馈的都没了。 体验很孤立，偶尔和几个人交流，知识水平并没有 ai 全面，但重要的是，他们给了更多的信息差弥补机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226792#reply2
+
+---
+
+#### 7983. [V2EX] 求靠谱的 Grok 渠道
+
+**问题描述 / Problem Description**:
+之前一直用的 Grok 进行资料检索（因为可以搜 X ，所以很多最新咨询查询出来都比较准确） 现在看它编码能力也上来了，响应速度也上来了，关键还不封号，那么用来编码就很香了 所以各位有没有便宜靠谱的 Grok 渠道？ 我需求主要就是 coding ，可能一个月有一小段时间高密度使用，不是每天高频，所以所谓的“日抛号”，好像也在我的可以接受的范围之内。如果有其他区的低价方案，也可以推荐给我，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226788#reply8
+
+---
+
+#### 7984. [V2EX] 这种类型的 AI 文案要怎么样才能迅速批量生成有大佬知道吗？
+
+**问题描述 / Problem Description**:
+如下面所示 我发现他的内容一看就是 AI 写的，但用 OpenClaw 批量模仿时，直接喂文案总是学不像——AI 味重、费 token 、上下文一丢风格就变。求教各位，有没有高效的解决办法？我尝试过各种方案都不太行，得到的效果都不太符合我的预期，想问问各位有没有好的解决方案？ 小弟我先谢谢各位解答了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226785#reply0
+
+---
+
+#### 7985. [V2EX] 这种竞技场模型是哪里来的？
+
+**问题描述 / Problem Description**:
+https://opencompass.org.cn/arena/home 还有 Claude opus 4.8 ，难道模型名字都乱写的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226768#reply0
+
+---
+
+#### 7986. [V2EX] 老家修路，简单聊一下村里那无敌的村主任。
+
+**问题描述 / Problem Description**:
+有几个很离谱的事。。。 老家要修水泥路，村主任 n 年前收了一波前，说集资修路。然后收了钱到去年一直都没修。 今年有集资修路，n 年前的钱去哪了？不知道，没答复，让一家出 3500 块钱（竟然都出了）。 和家里人聊了一下，这种事，没人敢说，因为你说了，村里以后啥事都回针对你，让你不好过。你要忍一忍，这个路还能修到你家 另外我无意中发现，之所以修这个路，是因为有一家人得式，好像村里当官了，他家门口没水泥路，这条水泥路是路过他家的（没错，没路过的地方还是没修）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226762#reply16
+
+---
+
+#### 7987. [V2EX] 人在国外，想开个小店卖些自研的硬件小玩意
+
+**问题描述 / Problem Description**:
+这两年 ESP32 ，3D 打印，墨水屏发展挺快的。加上 AI 的加速，小红书和 B 站上面有许多有趣博主做的小玩意。比如之前很火的小智 AI 机器人，claude buddy ，墨水屏小挂件之类。 我本来打算自己自研一个小东西（也确实在做，但是进度一般吧），然后在我这边国家卖，面向美国和欧洲。 但是我现在想，与其等着自研完成，不如先把销售跑通。所以就打算先搞点类似的自研硬件或者 diy 的小玩意卖卖看。 大家有什么想法呢？觉得怎么样呢？感觉选品是个大问题。 大家也在做一些意思的小玩意，我们可以一起来搞搞。有兴趣的我们也可以加 wx 细聊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226751#reply14
+
+---
+
+#### 7988. [V2EX] 增肌粉有用吗
+
+**问题描述 / Problem Description**:
+想问问大家 外面卖的增肌粉有用吗 本人属于光吃不胖的 唯一胖的就是肚子 可能是久坐少运动导致的 但是其他地方都没什么肉 吃增肌粉会有用吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226744#reply12
+
+---
+
+#### 7989. [V2EX] 有使用 opencode+omo 的吗？
+
+**问题描述 / Problem Description**:
+昨晚刚刚开通的新的 opencode 。 使用的是 omo 官方推荐的配置,一个简单的项目都没完成就把周限额给干完了，月限额直接 50% 了 ，是我用的姿势不对么 { "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json", "agents": { // Sisyphus: Kimi K2.7 is the top alternative to Claude for orchestration "sisyphus": { "
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226720#reply17
+
+---
+
+#### 7990. [V2EX] 如果 token 自由了（是所有模型），你最想干什么?
+
+**问题描述 / Problem Description**:
+比财务自由还自由那种，随便用，没有额度限制。你最想做什么呢 ？ 我最想让 AI 写红楼梦续集。 前提是喂给它所有已知版本，然后先列故事大纲，在我修改下逐渐完善，最后一章一章的写。有哪里不妥的，就改。 最后能不能达到原作者的 8 成水平？ （既然都自由了，所有的文学创作理论，或什么时代背景，它都知道了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226694#reply0
+
+---
+
+#### 7991. [V2EX] 求救，怎么解决网站被恶意盗刷
+
+**问题描述 / Problem Description**:
+我做了个简单的生成图片网站，有游客免费生成的功能，每个 ip 只能免费生成几次，我发现有些大批量请求是同一个人生成的，但是 ip 却都不同
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226692#reply17
+
+---
+
+#### 7992. [V2EX] 求助 Gemini api 对 srt 翻译后造成时间轴错乱的解决方法
+
+**问题描述 / Problem Description**:
+想请教个问题， 我尝试用 AI 比如 Gemini api 把日语 srt 翻译成英语 srt, 但发觉 gemini 老是把 srt 的时间轴弄的乱七八糟的，和原来的不一样，有什么好的办法纠正这个毛病吗？ 每次手动纠正 srt 弄了老半天。。。 目前为了省事，直接 google translate, 但结果好像又没有 gemini flash 那么准确。 不知道有什么好办法。 求助。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226685#reply5
+
+---
+
+#### 7993. [V2EX] 老铁们 macOS 27 日常和开发可以用么？ 用了 3 天的 macOS 26 实在受不了～
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226681#reply15
+
+---
+
+#### 7994. [V2EX] 哪家的 文生图 api 费用最低呢？
+
+**问题描述 / Problem Description**:
+https://agnes-ai.com/ 的文生图 虽然免费。但是生图质量似乎不太好。 哪家的文生图 api 费用最低呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226676#reply6
+
+---
+
+#### 7995. [V2EX] codex 需要绑定手机号？🈚️+86 怎么破？
+
+**问题描述 / Problem Description**:
+如题，听说 GPT 合并了 Codex 就想着下载一个玩玩，结果，我使用 google 登陆的，但是遇到了需绑定手机号接验证码。但是没有 +86 ，手机上的 gpt 是可以使用 google 登陆，桌面端不可以，有大佬遇到过这个问题嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226673#reply22
+
+---
+
+#### 7996. [V2EX] 新注册的 v2 账号, 不可以用其他邮箱进行注册吗?
+
+**问题描述 / Problem Description**:
+用了谷歌邮箱注册之后, 如何进行修改到其他邮箱呢?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226668#reply0
+
+---
+
+#### 7997. [V2EX] 现阶段有什么画质优先的 Emby 高码服推荐吗
+
+**问题描述 / Problem Description**:
+先说一下楼主这边的情况吧，年前搬家时误判了储存局势，把原先刷 PT 的阵列放恒湿箱封存在老家了，重新买是买不起的，重建也麻烦。没办法，自从小雅后时隔多年重新拥抱流媒体，馒头之类的已经刷满保号了，选 Emby 单纯只是懒，主打一个花钱买服务。 之前入了 youno, 但是不同资源画质参差不齐，主要是感觉压制组压的一般，所以想了解一下其他家没有画质优先的 emby 高码服。 需求如下 片源质量优先，主看 4K DV Atmos ，低码率二压和质量一般的小体积压制不在考虑范围 观看内容以电影和动漫为主 播放平台以 infuse, Hills, Yamby 为主，能支持 Moon, Skybox 这些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226649#reply12
+
+---
+
+#### 7998. [V2EX] 如何让 codex 创造性地给我一些选择让我选，它默认直接做出的代码修改总是不符合我的要求。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226642#reply12
+
+---
+
+#### 7999. [V2EX] codex 接入 Claude 模型
+
+**问题描述 / Problem Description**:
+看到很多人都是用 Claude Code 接入 GPT 模型，那么有没有人试过用 Codex 接入 Cloud 的模型呢？ 最近试用了一下 Codex 的桌面版，感觉挺丝滑的。 但是在开发项目方面，此前一直使用的 Claude code 用 Claude 系列的模型。 那么有没有可能使用 Codex 的桌面版，但通过 CC Switch 的方式接入 Claude 的模型呢？ 这样有必要吗？🤔 之前到底是 Agent 工具的效果好，还是因为模型本身的效果好？ 那用 Codex 接入 Claude 的模型，编码起来是不是也能达到之前用 Claude Code 的效果呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226637#reply5
 
 ---
