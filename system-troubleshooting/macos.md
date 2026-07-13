@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6891**
+**总计条目 / Total entries: 6941**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -93871,5 +93871,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226406#reply7
+
+---
+
+#### 6892. Turns out the transcription engine built into macOS 26 is now better than Whisper. I measured it.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvfksb/turns_out_the_transcription_engine_built_into/
+
+---
+
+#### 6893. What do you guys think of the old MacOS UI?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvpjz2/what_do_you_guys_think_of_the_old_macos_ui/
+
+---
+
+#### 6894. Current mood
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvo576/current_mood/
+
+---
+
+#### 6895. How does Spotlight rank search results?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvlyxb/how_does_spotlight_rank_search_results/
+
+---
+
+#### 6896. iCloud folder icon
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uv730b/icloud_folder_icon/
+
+---
+
+#### 6897. Can’t wake iMac using keyboard or mouse after updating to Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvm1yk/cant_wake_imac_using_keyboard_or_mouse_after/
+
+---
+
+#### 6898. Pages constantly hangs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvls0d/pages_constantly_hangs/
+
+---
+
+#### 6899. Apple Books--iPhone books won't sync to Mac Mini
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvmvkd/apple_booksiphone_books_wont_sync_to_mac_mini/
+
+---
+
+#### 6900. 128GB Mac Running Sonoma: System Data is eating 30GB+. Advice needed!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvpeqk/128gb_mac_running_sonoma_system_data_is_eating/
+
+---
+
+#### 6901. [M1 MacBook Air] Stuck in "Loading startup options" loop. Kernel Panic explicitly shows "btn_rst". Power button acting weird. Is my logic board dead?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvoxkk/m1_macbook_air_stuck_in_loading_startup_options/
+
+---
+
+#### 6902. can't enter recovery mode and factory reset macbook pro mid 2012
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvox5d/cant_enter_recovery_mode_and_factory_reset/
+
+---
+
+#### 6903. MacBook 26.5.2 Issues?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uv371s/macbook_2652_issues/
+
+---
+
+#### 6904. Websites not opening
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvoe21/websites_not_opening/
+
+---
+
+#### 6905. MacOS-inspired browser start page for Chrome
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uve32h/macosinspired_browser_start_page_for_chrome/
+
+---
+
+#### 6906. How do you stop (or find) a folder compression?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uv9wtj/how_do_you_stop_or_find_a_folder_compression/
+
+---
+
+#### 6907. Question regarding Homebrew
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvj7br/question_regarding_homebrew/
+
+---
+
+#### 6908. "Share with app developers" toggle greyed out, can't turn it off
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvi7xu/share_with_app_developers_toggle_greyed_out_cant/
+
+---
+
+#### 6909. Black circles on my dock ???
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvhlh1/black_circles_on_my_dock/
+
+---
+
+#### 6910. How to stop items from deleting themselves from Open at Login on MacOS Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvfhkn/how_to_stop_items_from_deleting_themselves_from/
+
+---
+
+#### 6911. Jumping on the colour tags thread and have questions!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvfddq/jumping_on_the_colour_tags_thread_and_have/
+
+---
+
+#### 6912. SSD usage (Tahoe vs. Seqoia)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvoghy/ssd_usage_tahoe_vs_seqoia/
+
+---
+
+#### 6913. Dual monitor setup with HDMI/USB-C not working correctly in Tahoe (bug + solution)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvedua/dual_monitor_setup_with_hdmiusbc_not_working/
+
+---
+
+#### 6914. MacOS Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvcf4g/macos_tahoe/
+
+---
+
+#### 6915. [V2EX] macbook air m4 发热问题
+
+**问题描述 / Problem Description**:
+系统 27beta3 ，最近使用只是编辑文字，就感觉热热的，比之前热，是系统问题吗？还是有别的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226899#reply11
+
+---
+
+#### 6916. [V2EX] macOS 27 Beta 3 可能存在 Bug 导致 APFS 数据损坏，已经更新的需要立刻排查
+
+**问题描述 / Problem Description**:
+太长不看 如果你已经安装 macOS 27 Golden Gate Developer Beta 3 （ 26A5378j ），很可能会导致 APFS 数据损坏，立刻备份重要文件，没有更新的先不要更新。 我所知道的 macOS 27.0 Developer Beta 3 （ 26A5378j ）是 6 号推送的。 https://developer.apple.com/news/releases/ 7 月 9 日前后，我看到 Reddit 和 MacRumors 上有人说更新了 Beta 3 的设备有问题，出现数据损坏。 https://forums.macrumors.com/threads
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226234#reply21
+
+---
+
+#### 6917. [V2EX] macOS 图片浏览 Picview — 方向键翻页，滚轮缩放，抽奖送码啦
+
+**问题描述 / Problem Description**:
+1. 功能点 * 像 Windows 一样看图：方向键翻页，滚轮缩放，打开就能看。 * 支持格式很多：JPG 、PNG 、WEBP 、HEIC 、PSD 、GIF 、RAW 都能看。 * 贴图钉图：图片、文字一键贴到桌面，方便对比查看。 * OCR 识字翻译：截图文字可识别、复制、翻译。 * 界面干净轻快：看完即走，不打扰。 2. 下载地址： https://apps.apple.com/cn/app/picview-%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E5%99%A8/id6452016140?mt=12 3. B 站视频: https://www.bi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225974#reply40
+
+---
+
+#### 6918. [V2EX] macOS 27 beta 2 一直提示应用内存不足
+
+**问题描述 / Problem Description**:
+请教各位 V2 吴彦祖，这是什么情况？这两天频繁出现，不知如何应对？ 技术小白，又喜欢当小白鼠😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1224749#reply22
+
+---
+
+#### 6919. [V2EX] 做了个 iOS 聚合翻译 App:一句话同时问 Apple 翻译、DeepL 和一堆大模型,求 TestFlight 反馈
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 不说废话，简单介绍一下： 支持软件内翻译，画中画翻译，接入
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227047#reply8
+
+---
+
+#### 6920. [V2EX] 美区 Apple One Premier 找长期车友（超大杯）
+
+**问题描述 / Problem Description**:
+自用 Visa 卡官网购入余额，美区绑定 Paypal ，稳定使用。 仅招 长期稳定车友 （支持季付/半年付/年付，先付后用）。 套餐与人数 计划 ：Apple One Premier （美区） 成员 ：3=3 包含 ：Apple Music 、Apple TV+、Apple Arcade 、Apple Fitness+、Apple News+、iCloud+ 2TB （家庭共享，服务各自独立使用） 容量与使用 iCloud 存储分配 ：2TB/家庭，参考 ≈ 333 GB/人 软上限 ：333 GB ；总空间宽裕时可放宽至 ≤ 400 GB （ 400 GB 为红线 ） 总空间紧张且你超量，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227038#reply0
+
+---
+
+#### 6921. [V2EX] 想搞个 AirPods Max，但是觉得有点贵，大家有没有靠谱的二手店
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226910#reply12
+
+---
+
+#### 6922. [V2EX] [预告] Reset! 各种 AI Agent 额度管理/自动预热重置 App (macOS Only)
+
+**问题描述 / Problem Description**:
+做了一个 macOS 菜单栏 AI Agent 额度管理工具：RESET! 🔄 最近高频使用 Codex 、Claude Code 、Cursor 、Antigravity 进行开发，遇到了一个比较真实的问题： AI Agent 越来越强，但是额度管理越来越混乱。 不同工具都有： 5 小时窗口 周额度 模型额度池 不同恢复机制 经常出现： 刚进入状态，额度没了。 或者： 准备开始工作，却发现还要等待窗口恢复。 所以自己做了一个 macOS 菜单栏 App： RESET! 🔄 它的目标： 让 AI 在你需要的时候，已经准备好。 ✨ 当前功能 1. AI Agent 额度实时查看 支持： Chat
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226608#reply9
+
+---
+
+#### 6923. [V2EX] Shadowrocket 支持 Tailscale 了，那支持 split dns 吗？
+
+**问题描述 / Problem Description**:
+iOS 只能开一个代理，要开 tailscale 就不能开小火箭代理 MITM 去广告，今天看到小火箭支持 Tailscale 了，除了 Wireguard 以外多了一种不切 VPN 软件回家的方法。但我想问下各位大佬，看日志里面说默认支持 magic dns,那代表支持 split dns 吗？ 因为我 nas 也有 tailscale ，里面 docker 的服务用的是 agh 重写加上 npm 域名反代，要访问 example.yournasserivece.lan 要把 dns 服务器指向 agh ，我就把 agh 加到 split dns 里面去，出门在外要是使用 ios 原生 ta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225970#reply23
+
+---
+
+#### 6924. [V2EX] 2026 年 07 月购买了 Quantumult X
+
+**问题描述 / Problem Description**:
+i 以前 8 刀还是几刀的时候没买； 这么多年使用的过程，小火箭，loon ，surge ，loon 煎熬了这周前三天一直努力尝试 mihomo clash mi 各种 在决定购买 stash 之前还是买了 quantumult X. 目前在 iOS 端手搓配置，前辈们有没有经验分享。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225824#reply87
+
+---
+
+#### 6925. [V2EX] jav.hk 这域名做什么站比较好？
+
+**问题描述 / Problem Description**:
+做片站怕被版权方投诉到注册局，况且市面上有不少看片站了。或者搞个自拍论坛？ 有啥比较好的想法? 现在这域名就挂了个停放页，放了我的邮箱，如果有 V 友有意购买欢迎出价。 这域名持有一段时间了，正常续费价格入的，闲置当个邮箱域名也不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227011#reply32
+
+---
+
+#### 6926. [V2EX] docker 仓库这套体系设计的真差，这么多年了都还没有镜像统一缓存的方案。
+
+**问题描述 / Problem Description**:
+想在内网部署一个 docker 镜像的缓存层： 如果用 docker 官方的 registry:2 + proxy cache ，则只能缓存 docker 官方的仓库 registry-1.docker.io ，无法缓存别的仓库比如 registry.gitlab.com 、 ghcr.io 、 quay.io 、 registry.k8s.io 等等。 如果用 Harbor Proxy Cache 或 Nexus/JFrog ，在 docker pull 时需要更改镜像的 URL ，比如需要把： docker pull ghcr.io/home-assistant/home-assistan
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227057#reply0
+
+---
+
+#### 6927. [V2EX] 创建一个关于散帅相关的 wiki 网站，由于中文互联网各大平台词条被删除，亟需可靠信源讲述了散帅发展史
+
+**问题描述 / Problem Description**:
+https://sanshuai.site/history/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227013#reply8
+
+---
+
+#### 6928. [V2EX] 这下 ChatGPT 更像人类了。
+
+**问题描述 / Problem Description**:
+不知道能不能看到图片，下面是文字内容： 主要内容是 ChatGPT 回答我的问题时回复“分享图片仍只吃 front 。”我想了一下 ChatGPT 应该是是想说“分享图片仍支持 front 。” 我还是头次看到 ChatGPT 回复错别字。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227007#reply3
+
+---
+
+#### 6929. [V2EX] AI 自我诊断。发现以下提示词，输入到自己常用的 AI 进行诊断。结果确实有意思
+
+**问题描述 / Problem Description**:
+自我的诊断结果太私密了，不能贴出来。哈哈 You are my AI Meta-Coach, tasked with performing a deep, unfiltered personal growth diagnostic. Your mission is to leverage our entire conversational history to reveal my unconscious behavioral patterns that are silently sabotaging my potential. ### Diagnostic Parameters #### Bl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226955#reply1
+
+---
+
+#### 6930. [V2EX] tcptun v0.1.8 发布了，支持链式代理了。
+
+**问题描述 / Problem Description**:
+自动生成 server.json 和 client.json 配置: # 生成 Xray-compatible VLESS + REALITY 配置对 $ tcptun config vless \ --server proxy.example.com \ --port 9443 项目地址： https://tcptun.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226940#reply3
+
+---
+
+#### 6931. [V2EX] 12100 散片 835
+
+**问题描述 / Problem Description**:
+这个市场已经我已经理解不了，2030 年我再回来看看，看看 diy 市场是否依然逆天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226935#reply1
+
+---
+
+#### 6932. [V2EX] GitHub 又又又被风控了
+
+**问题描述 / Problem Description**:
+上个月发现我的 GitHub 别人打开 404 ，我自己可以打开，我申诉了一下，后来好了，这周发现又又又被风控了，这次直接登录不上，太逆天了，我最近都没提交代码创建仓库，只是可能会切换 vpn 查看，真是无语了，又要申诉！！！逆天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226875#reply2
+
+---
+
+#### 6933. [V2EX] 做了一个劳动合同解除的网站，可以预测自己解除获得 2n 的可能性
+
+**问题描述 / Problem Description**:
+https://labourhelp.xyz/ 几乎是融合了市面上能有的专业材料做了一个大而全的劳动合同解除网页 选择劳动者身份后，和做问卷一样点击就行，最后输入你的工资数额之后就会有结论页面。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226849#reply4
+
+---
+
+#### 6934. [V2EX] 这张图值得让更多人看见， GPT>Claude，达子自食其果
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226838#reply7
+
+---
+
+#### 6935. [V2EX] 之前一直有网友猜测，靠反代调用 Codex 会触发账号封禁，如今官方亲自发文指导反代操作，这下直接把这个谣言戳破了🤣
+
+**问题描述 / Problem Description**:
+https://x.com/thsottiaux/status/2076119366647894371?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226824#reply15
+
+---
+
+#### 6936. [V2EX] YOLO 原来是“赢了会所嫩模”的英文缩写
+
+**问题描述 / Problem Description**:
+我搜： what does --yolo mean? In the context of OpenAI documentation 结果是： it's using the slang meaning of YOLO = "You Only Live Once" , which in developer tools has come to mean: Run with minimal safety prompts; trust the tool to proceed automatically. 这不就是 “赢了会所嫩模，输了下海干活” 嘛 😆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226803#reply6
+
+---
+
+#### 6937. [V2EX] 交管系统用的是 AWS 服务???
+
+**问题描述 / Problem Description**:
+周末去派出所换驾照, 发现工作人员用的交管系统是网址是 http://50.18.18.80:8008 , 查了下地址是美国亚马逊的: https://en.ntunhs.net/IPInfo/EN/50/18.htm 有点奇怪为啥他们没有用内网 IP 或者是国内的地址, 我又搜索了下这个 IP, 似乎的确是交管在用: https://m.modiauto.com.cn/wzcld/4100.html . 有没有懂得解释下. 另外他们用的是 Windows 7, 还是没有激活的, 系统卡的要死, 身份证读取器也是试了半天才可以用... 开始理解工作人员的服务态度了.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226791#reply34
+
+---
+
+#### 6938. [V2EX] 分享一个免费下载 wordpress 破解版付费插件和主题的网站
+
+**问题描述 / Problem Description**:
+https://wpforfree.com/ 界面还是挺清新的，不知道站里用 wordpress 的朋友多不多，分享一下这个网站，资源挺多的。关键是免费没广告，仅需注册登录就行。很多资源其他网站都是收费卖的。我自己用了两个月。分享出来给大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226781#reply1
+
+---
+
+#### 6939. [V2EX] Codex 用 CLIProxyAPI 反代不会封号
+
+**问题描述 / Problem Description**:
+可以心安理得的用起来了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226714#reply2
+
+---
+
+#### 6940. [V2EX] 家里有旗舰电脑、旗舰服务器以及昂贵的多盘存储设备的，一定要配置 UPS
+
+**问题描述 / Problem Description**:
+配置 UPS 倒不是专门为了针对长时间停电情况，而是用来应对电力浪涌或小于 1 秒的瞬间停电。 自从在家里配置了几台 UPS ，它能报告浪涌情况，我才发现小区的电力系统有多糟糕，难怪经常听说很多人的电脑或硬盘容量损坏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226619#reply2
+
+---
+
+#### 6941. [V2EX] 做了个免费追剧资源导航，每天自动检测资源是否还活着，开源的，求反馈
+
+**问题描述 / Problem Description**:
+追剧踩坑踩多了，发现每次找资源都要先确认"这个站还能用吗"，然后大概率发现挂了，再换下一个，再挂…… 于是做了个导航： awesome-zhuiju-free 核心就一件事： GitHub Actions 每天早上自动跑一遍，检测里面每个资源能不能访问，结果直接标在 README 里。不能用的标红，访问受限的标黄。 收录了在线影视、影视 APP 、网盘搜索、磁力 BT 、字幕、TVBox/影视仓配置地址、IPTV 订阅源这几个类别，目前 62 个资源。 几个设计选择解释一下： 数据全部在 resources.json 里，有 schema 验证，PR 合进来会自动跑检测。不想做成一个黑盒的导航
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226595#reply6
 
 ---

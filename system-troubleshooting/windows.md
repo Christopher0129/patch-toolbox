@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7999**
+**总计条目 / Total entries: 8043**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109752,5 +109752,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226637#reply5
+
+---
+
+#### 8000. Is my device capable of connecting via ethernet cable?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvlsi3/is_my_device_capable_of_connecting_via_ethernet/
+
+---
+
+#### 8001. Laptop suddenly has been having issues with randomly shutting off.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uved1r/laptop_suddenly_has_been_having_issues_with/
+
+---
+
+#### 8002. FPS Hard Capped at 105 - Help Please!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvo7ee/fps_hard_capped_at_105_help_please/
+
+---
+
+#### 8003. Windows 11 Wifi Not Working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvlftt/windows_11_wifi_not_working/
+
+---
+
+#### 8004. Does anyone know how to fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvosr0/does_anyone_know_how_to_fix_this/
+
+---
+
+#### 8005. Multiple games and Windows apps crashing with access violations/OOM
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvnhfw/multiple_games_and_windows_apps_crashing_with/
+
+---
+
+#### 8006. Losing performance only when streaming.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvngqf/losing_performance_only_when_streaming/
+
+---
+
+#### 8007. My PC started having issues after a possible power surge from a bad wall socket.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvdoz9/my_pc_started_having_issues_after_a_possible/
+
+---
+
+#### 8008. PC crashing after freezing when games are run
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvi0x2/pc_crashing_after_freezing_when_games_are_run/
+
+---
+
+#### 8009. Streaming League of legends, impossible.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvliq4/streaming_league_of_legends_impossible/
+
+---
+
+#### 8010. PC randomly having graphical issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvlino/pc_randomly_having_graphical_issues/
+
+---
+
+#### 8011. USB to audio possible?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvpsyo/usb_to_audio_possible/
+
+---
+
+#### 8012. Netflix thinks that I'm in a different country
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvpk4d/netflix_thinks_that_im_in_a_different_country/
+
+---
+
+#### 8013. Random sound that randomly plays, cannot pin point it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvp97m/random_sound_that_randomly_plays_cannot_pin_point/
+
+---
+
+#### 8014. Trouble With Intel Display Adapter
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvp6t4/trouble_with_intel_display_adapter/
+
+---
+
+#### 8015. My network adapter dissapears, but it comes back after going into BIOS and doing nothing?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvp2rc/my_network_adapter_dissapears_but_it_comes_back/
+
+---
+
+#### 8016. No sound on acer
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvoyrc/no_sound_on_acer/
+
+---
+
+#### 8017. My PC had another BSoD after trying to boot elden ring.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvok10/my_pc_had_another_bsod_after_trying_to_boot_elden/
+
+---
+
+#### 8018. Windows 11 can’t delete troyaner
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvo5z7/windows_11_cant_delete_troyaner/
+
+---
+
+#### 8019. BIOS WONT OPEN
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvnh1c/bios_wont_open/
+
+---
+
+#### 8020. New Asus Vivobook stuck in a boot loop following initial Windows update.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvnepm/new_asus_vivobook_stuck_in_a_boot_loop_following/
+
+---
+
+#### 8021. (IOS) How do I render this mathematical syntax in the notes app?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvncn7/ios_how_do_i_render_this_mathematical_syntax_in/
+
+---
+
+#### 8022. HP Victus 15 (MediaTek MT7921) Bluetooth keeps disconnecting after 10–60 minutes (Code 43 → Code 45)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uvgw7f/hp_victus_15_mediatek_mt7921_bluetooth_keeps/
+
+---
+
+#### 8023. Internet gets unbearably slow during the night.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uv389g/internet_gets_unbearably_slow_during_the_night/
+
+---
+
+#### 8024. [V2EX] 最新的 chatgpt work 的 step 1/6 的进度显示 似乎有问题！
+
+**问题描述 / Problem Description**:
+5.6 sol ultra 已经进行到 可能 step 3 或者都快完了。 但是 一直显示 step 1/6 这种。都不知道它搞到哪一步了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227063#reply0
+
+---
+
+#### 8025. [V2EX] 租房遇到烦心事，请教各位大哥这种情况有什么比较好的做法嘛
+
+**问题描述 / Problem Description**:
+背景： 坐标北京，25 年三月在我爱我家旗下的「相寓」整租了个二室一厅。老小区，顶楼，该房子没有单独的房本，与楼下是同一个产权（合同上的门牌号也是楼下），业主住在楼下。 问题： 目前这个房子最大的问题就是夏天用电高峰时（进入七月后），极其容易跳闸断电。在我去年夏天的居住体验里，这个跳闸阈值相当低，在冰箱必须长期插电的情况下，比较稳妥的情况是最多同时只能插两台大功率电器（包括空调、电热水器、电磁炉）只要再加一个就很容易断电。这意味着： 1. 日常用电需要非常小心翼翼，做饭洗澡前最好还要把空调关闭，做完洗完再打开，十分麻烦。 2.我也担心频繁推闸刀对自己产生安全问题。 反馈过程： 去年找管家反馈，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227039#reply9
+
+---
+
+#### 8026. [V2EX] 请问在深圳关于 airport time capsule 第四代 2t 绿盘靠谱数据恢复服务
+
+**问题描述 / Problem Description**:
+朋友明天 14 号到深圳，有一个一直在家里用的 Apple AirPort Time Capsule 第四代硬盘 2t （西数？）绿盘忽然咔咔咔响。没有任何移动或者外伤，忽然一天不行了。 朋友取出来放在 usb 的硬盘盒里，不能识别硬盘（有可能是时间胶囊文件格式原因？） 里面有可能 500 多 g 家庭照片和视频，想找深圳靠谱的维修店或者数据恢复点，不乱收费的，第一目的是数据恢复，能修好硬盘更好。 麻烦大家推荐，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227033#reply0
+
+---
+
+#### 8027. [V2EX] 发现一个浏览器神器，顺便咨询一个问题
+
+**问题描述 / Problem Description**:
+浏览器名称为 ego lite, 可以通过 ai agent 操作浏览器，从而不会影响自己的浏览器 在使用过程中有一个问题：如何让其可以自动操作验证器，如图形验证器？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227027#reply0
+
+---
+
+#### 8028. [V2EX] 炒股的兄弟们你们今天还好吗?
+
+**问题描述 / Problem Description**:
+上周加仓了，没想啊 没想到啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227019#reply6
+
+---
+
+#### 8029. [V2EX] jav.hk 这域名做什么站比较好？
+
+**问题描述 / Problem Description**:
+做片站怕被版权方投诉到注册局，况且市面上有不少看片站了。或者搞个自拍论坛？ 有啥比较好的想法? 现在这域名就挂了个停放页，放了我的邮箱，如果有 V 友有意购买欢迎出价。 这域名持有一段时间了，正常续费价格入的，闲置当个邮箱域名也不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227011#reply31
+
+---
+
+#### 8030. [V2EX] ups 求推荐
+
+**问题描述 / Problem Description**:
+想给家里 nas 搞个 ups ，现在硬盘这么贵，还是珍惜一些吧 预算 500 以内，今年已经停过 1 次电了，感觉每年都会停 1-2 次 目前看了 2 个牌子：山特、宇泰 山特具体型号是：TG-BOX850 pdd 400 多一点的价格 宇泰就是图片中这种常规的样子 我个人更倾向于常规样式的，大佬们给点意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227009#reply10
+
+---
+
+#### 8031. [V2EX] 想问问 v 站上独立开发们都是用什么收款的？
+
+**问题描述 / Problem Description**:
+stripe 好像需要国外主体？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226997#reply9
+
+---
+
+#### 8032. [V2EX] 十一有什么好去处么
+
+**问题描述 / Problem Description**:
+十一有什么好去处吗，人少的地，国内外都行 想出去玩，又不知道去哪，感觉去哪人都多，有什么推荐的吗冷门人少的，景好看，好吃的多，还能陶冶情操净化心灵 能自驾的路线也行，可以租个车
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226973#reply8
+
+---
+
+#### 8033. [V2EX] 你们的 codex 的 5 小时限制消失了么？
+
+**问题描述 / Problem Description**:
+目前只有 7 天限制了，不知道是后台暂时取消还是奥特曼要搞波大的，还有 3 次重置机会。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226966#reply1
+
+---
+
+#### 8034. [V2EX] free 账号也不放过吗？？
+
+**问题描述 / Problem Description**:
+太恐怖了，我就想每天问几个小问题用用 claude sonnet4.7 之前一直以为封的是 pro 充值账号，现在 free 账号都不放过了吗。拥抱奥特曼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226963#reply5
+
+---
+
+#### 8035. [V2EX] 阿里云海外服务器买哪个地域好？
+
+**问题描述 / Problem Description**:
+弄个小网站，想在阿里买个海外服务器，一方面不用备案，另一方面考虑搭个梯子。 请问哪里性价比高？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226962#reply0
+
+---
+
+#### 8036. [V2EX] codex 没有 five-hour-limit 限制了吗，现在每个月只给 4 次手动 reset 机会了
+
+**问题描述 / Problem Description**:
+用 codex 发现状态栏没有 5 小时限制 显示了，重新设置后还是无效。 使用中提示 You have 3 usage limit resets available. Run /usage to use one. 以后是不是每周用量限制到达后手动重置了，没有 5 小时用量限制了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226956#reply5
+
+---
+
+#### 8037. [V2EX] 有人用过 AI 照片挑选工具吗？
+
+**问题描述 / Problem Description**:
+婚礼照片拍了 5000 多张底片，差不多 40 多 G ，粗略看了下有很多重复的照片，目标是选出 40 张左右的照片用于精修。 一张一张挑太麻烦了，v 友们有没有推荐的开源 AI （机器学习）工具，可以过滤、筛选一些废片。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226948#reply1
+
+---
+
+#### 8038. [V2EX] SuperGrok 有没有便宜的渠道可以入手？
+
+**问题描述 / Problem Description**:
+听说印度区一年只要 500RMB 左右 求个教程方法～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226936#reply2
+
+---
+
+#### 8039. [V2EX] 有没有信用卡，可以在 ChatGPT 网页支付啊， 0 元优惠用不了难受啊
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226926#reply1
+
+---
+
+#### 8040. [V2EX] Chrome edge Firefox 的最好版本是什么
+
+**问题描述 / Problem Description**:
+在我记忆里, Chrome edge 都有一次非常失败的 ui 大改, 旧版本非常非常美观; Firefox 也是变得越来越难用, 但用 css 配置就能有不错的外观体验了. 一般而言, 我只用 edge, 因为 Windows 上难以卸载, 但在发现网上许多教程可以卸载之后我也可以用其他浏览器作为主力了. Chrome 的大改是整体式的, 包括右键菜单, 标签栏, 三点设置菜单等等, 变得更大更疏松; 虽然我觉得变得难看了许多, 但总体上没那么讨厌. edge 的大改主要是右键菜单图标没了, 之后的版本也同样有大大小小的 ui 变化. 想知道大改前的 Chrome 版本号与 edge 版本号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226918#reply1
+
+---
+
+#### 8041. [V2EX] 中年男性身体每况愈下问与答
+
+**问题描述 / Problem Description**:
+需求背景： 即将奔 4 ，身体每况愈下；哪些症状，一一列举 身体油腻，手心出汗（一直这样） 身上长痘，容易长皮脂腺囊肿（一直有，现在越发严重，现在后脑勺也长） 失眠，早上很容易被吵醒，被吵后就没法快速入睡（近 2 年才有） 尿频：偶尔半夜/早上 6 点经常（近 1 年才有） 偏瘦，没胃口（应该是一直这样） 原因分析： 可能是工作压力大，246 加班，下班要辅导小孩学习，身体得不到休息 几乎没怎么锻炼，偶尔爬山/散步 尝试举措： 中医调理（效果不明显） 没加班的时候尽量保证睡眠充足 发帖目的： 看看 v 友是否有相同的情况，是否要去医院检查（其实每年公司有体检） 看看 v 友是否有建议（毕竟大佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226917#reply40
+
+---
+
+#### 8042. [V2EX] 问各位关于加班的事情，咨询下各位。
+
+**问题描述 / Problem Description**:
+1 、上周明确说明了加班完不成， 领导还是坚持不砍需求， 让我们努努力搞完 2 、我们连续加了一周的班， 周末两天也拿来加班了，搞的很累 3 、到最后，差不多能满足上线要求， 但是真的搞得心态很累。 --- 遇到这种情况，该怎么办。 说明下： 加班没钱，只有餐补 + 调休。 --- 这次项目完成了，要发邮件给大领导说明这种情况吗？ 感觉会折寿啊。。 导致我已经 10 天没健身了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226916#reply5
+
+---
+
+#### 8043. [V2EX] 东方树叶的开盖扫码赢奖
+
+**问题描述 / Problem Description**:
+最近一直喝 5 块钱的东方树叶（保持富态（开玩笑）），一直幻想着开盖扫码后中个“一元换购”来拉低我买东方树叶的均价，25%的中奖概率吧 然后好奇一个问题，关于抽奖，1.是提前把中奖信息录入到盖子上的二维码里，2.还是扫码跳转到小程序后 服务器端才开始进行一次抽奖 然后快速地把抽奖结果返回到用户端界面上？ 1 or 2 ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226901#reply19
 
 ---

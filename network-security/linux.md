@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2479**
+**总计条目 / Total entries: 2485**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -38203,5 +38203,77 @@ A Incorrect Execution-Assigned Permissions vulnerability in the permissions pack
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2499383
+
+---
+
+#### 2480. [Ubuntu] USN-8535-1: PipeWire vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PipeWire accepted unbounded Content-Length values in its RAOP module. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS. (CVE-2026-14324) It was discovered that PipeWire performed multiple unbounded stack allocations in its PulseAudio protocol server. A local attacker could possibly use this issue to cause
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8535-1
+
+---
+
+#### 2481. [Ubuntu] USN-8534-1: LibreOffice vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LibreOffice incorrectly handled importing DXF drawings. An attacker could use this issue to cause LibreOffice to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-6039) It was discovered that LibreOffice incorrectly handled certain ODF number formats. An attacker could use this issue to cause LibreOffice to crash, resulting in a denial of
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8534-1
+
+---
+
+#### 2482. [Ubuntu] USN-8533-1: OpenSSH vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSH sftp did not properly constrain the location of downloaded files when connecting to an attacker-controlled server. An attacker could possibly use this issue to write files to unintended locations on the file system. (CVE-2026-59995) It was discovered that OpenSSH scp could place files in the parent directory of the intended destination when copying between two remote
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8533-1
+
+---
+
+#### 2483. [Ubuntu] USN-8532-1: libssh2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled certain publickey subsystem attributes. A remote attacker controlling a malicious SSH server could use this issue to cause a denial of service or possibly execute arbitrary code. (CVE-2026-58050) It was discovered that libssh2 did not properly initialize publickey list entries before parsing. A remote attacker controlling a malicious SSH server co
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8532-1
+
+---
+
+#### 2484. [Ubuntu] USN-8496-3: cifs-utils vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8496-1 fixed vulnerabilities in cifs-utils. The update caused a regression and was backed out in USN-8496-2. This update reintroduces the security fix, along with a fix for the regression. Original advisory details: It was discovered that cifs-utils incorrectly dropped root privileges before looking up user information. A local attacker could possibly use this issue to execute arbitrary code a
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8496-3
+
+---
+
+#### 2485. [Ubuntu] USN-8531-1: libexif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libexif had an integer overflow in its MakerNote decoder when called with a zero-length buffer. An attacker could possibly use this issue to cause a denial of service or obtain sensitive information. (CVE-2026-32775) It was discovered that libexif had an integer overflow in its Nikon MakerNote handler on 32-bit systems. A local attacker could possibly use this issue to cause
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8531-1
 
 ---

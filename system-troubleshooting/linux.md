@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7164**
+**总计条目 / Total entries: 7189**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -101071,5 +101071,330 @@ In English-speaking contexts, “Lin” in “Linux” rhymes with “rim”, as
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806657/how-is-linux-pronounced
+
+---
+
+#### 7165. A heatmap of 1st & 2nd letter frequencies in NixOS package names
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvkoyy/a_heatmap_of_1st_2nd_letter_frequencies_in_nixos/
+
+---
+
+#### 7166. Proton CachyOS now uses pipewire instead of pulse by default
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvawjm/proton_cachyos_now_uses_pipewire_instead_of_pulse/
+
+---
+
+#### 7167. O'Reilly Book Bundle on Humble Bundles.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvfw7m/oreilly_book_bundle_on_humble_bundles/
+
+---
+
+#### 7168. Unfit to Boot: Breaking U-Boot's FIT Signature Verification
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uv9hwk/unfit_to_boot_breaking_uboots_fit_signature/
+
+---
+
+#### 7169. Linux community, I am pleased to introduce you, XMB BigScreen. Light up living rooms around the world with your HTPCs. It's completely open source and lets you control your PC entirely with a joystick.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uuu194/linux_community_i_am_pleased_to_introduce_you_xmb/
+
+---
+
+#### 7170. After days of research, I finally cracked it: True multi-monitor VR on Steam Deck. No dummy plugs, custom resolutions, and zero lag.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvotn1/after_days_of_research_i_finally_cracked_it_true/
+
+---
+
+#### 7171. [V2EX] 开源了一个 Hugging Face 桌面客户端:断点续传下载、支持 hf-mirror、缓存可视化清理,全平台零遥测
+
+**问题描述 / Problem Description**:
+分享一个自己写的开源项目: Oh My HuggingFace —— 一个非官方的 Hugging Face Hub 桌面客户端,macOS / Windows / Linux 全平台。 官网: https://ohmyhf.com GitHub: https://github.com/oh-my-hf/ohmyhf (Apache-2.0,求个 star) 为什么做这个 天天泡 HF Hub 的应该都懂:用浏览器下几十 GB 的模型权重太痛苦了——不能断点续传、没有队列、不能限速;HF 缓存目录悄悄吃掉几百 GB 硬盘也没个地方看;关注的组织和 Daily Papers 更新全靠手动刷网页。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227067#reply0
+
+---
+
+#### 7172. [V2EX] 到底要怎么宣传自己的产品啊
+
+**问题描述 / Problem Description**:
+做了个在线文档，自己感觉好用，但是没人愿意试，怎么解？ 宣传过，流量太少了，只有官方打电话过来让你买流量。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227034#reply23
+
+---
+
+#### 7173. [V2EX] AI 编程时代，不需要学习编程的基础知识和原理了？程序员应该怎么做？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227032#reply11
+
+---
+
+#### 7174. [V2EX] 最近 token 烧得多了，自己手搓了个智能路由 MiniRouter
+
+**问题描述 / Problem Description**:
+最近发现一个很现实的问题：Fable 、GPT-5.6 、GLM-5.2 这些强模型真的很好用。 但是……如果每一次 AI 请求都调用最贵模型，账单真的扛不住。 比如：✍️ “帮我润色一句话” 📄 “总结一篇文章” 💻 “解释一段代码” 这些任务，真的需要每次都上最强模型吗？ 于是我做了一个小工具： MiniRouter 🚀 它可以帮你自动判断任务难度，然后选择合适的模型。 你只需要一个入口： model = minirouter/auto 后面交给它： 🚀 简单任务 → 快模型（便宜、响应快） ⚖️ 日常开发 → 均衡模型（速度和质量平衡） 🧠 复杂推理 / 疑难排查 → 强模型（保证效果）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227031#reply0
+
+---
+
+#### 7175. [V2EX] 5.6 sol ultra 1 分钟消耗 plus 周限额 1%
+
+**问题描述 / Problem Description**:
+暂时没有 5 小时限制了，试了一把 5.6 sol ultra ，一轮对话运行 25 分钟，周限额 100%变成了 80% 这是真用不起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227026#reply1
+
+---
+
+#### 7176. [V2EX] 为什么在 2026 年， Agent 更适合 Heredoc 式执行，而非 REPL 式交互？
+
+**问题描述 / Problem Description**:
+最初，人们在 Coding Agent 上发现了这样一个现象：只要把 Bash 工具暴露给它，它似乎就能完成所有事——从基础的代码编写，到 agentic 的上下文查找，再到 Git 工作流的执行。 于是，我们开始看到万物 CLI 化。CLI 似乎成为了将复杂软件暴露给 Agent 的标准答案。你一定听过这句话： “CLI is all you need.” 但在这股热潮背后，我们也观察到一个问题：Agent 往往像人类使用终端一样，执行一条短命令、读取结果，再决定下一步。任务越复杂，模型与工具之间的往返越多，也就意味着更多的模型调用、上下文开销和等待时间。 与其让 Agent 编写复杂的 S
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227024#reply0
+
+---
+
+#### 7177. [V2EX] 访谈 Mitchell Hashimoto：终端、Zig 与开源哲学
+
+**问题描述 / Problem Description**:
+独家访谈：Mitchell Hashimoto 谈下一代终端 Ghostty 的设计哲学。深入解析“n-screen API”与“按钮协议”如何重塑终端生态，以及他选择 Zig 、放弃 Wayland 方案的技术决策背后 阅读全文： https://mzfoss.com/posts/interview-with-mitchell-hashimoto
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227006#reply0
+
+---
+
+#### 7178. [V2EX] 鼠标手得到了极大的缓解
+
+**问题描述 / Problem Description**:
+鼠标是罗技的 lift ，定做了一个腕枕，现在已经不怎么酸痛了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227005#reply17
+
+---
+
+#### 7179. [V2EX] 有好用的收费软件的授权激活管理平台吗？
+
+**问题描述 / Problem Description**:
+我想开发一些小软件，mac 和 win 双平台的 想像 typora 和 git tower client 那样 一周或两周免费全功能免费试用，后续收费，有比较好用的第三方授权激活管理平台吗？ 开源或收费都可以 感觉细节还是挺多的 比如许可证生成、设备绑定、在线/离线激活、心跳校验、订阅续费与吊销
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227004#reply0
+
+---
+
+#### 7180. [V2EX] Win11 codex 桌面版死都打不开，不知道有没有人遇到
+
+**问题描述 / Problem Description**:
+折腾了好久,看到这个 https://github.com/openai/codex/issues/31808 创建一个 Codex.ps1 文件，写入： $dir = Join-Path (Get-AppxPackage Codex ).InstallLocation "app" Start-Process -FilePath (Join-Path $dir "ChatGPT.exe") -ArgumentList "--no-sandbox" -WorkingDirectory $dir 然后在 powershell 里执行，终于可以打开了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226999#reply2
+
+---
+
+#### 7181. [V2EX] 两年， 1444 次提交，我给自己撸了一套 .NET 10 模块化框架（XiHan.Framework）
+
+**问题描述 / Problem Description**:
+如果你写过几年 .NET 后端，下面这些事大概率也折磨过你： 每开一个新项目，DI 注册、中间件顺序、日志、事务、多租户、缓存这些 横切的东西 又要重新接一遍，接错顺序还很难查； Controller 里全是"把参数原样丢给 Service"的胶水代码，写一遍 ApiResponse 包装、写一遍异常转状态码、写一遍 TraceId ； 想用现成的框架，ABP 很全但很重，想吃透它、想改它，成本不低； Furion 很顺手，但你总有些地方想按自己的想法来。 我也一样。ABP 是我的启蒙，Furion 给过我不少灵感，但折腾到最后，我还是想要一套 每一行都是我自己写的、能完全吃透、优先用 .NE
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226998#reply3
+
+---
+
+#### 7182. [V2EX] 5.6 上下文怎么缩回 258k 了
+
+**问题描述 / Problem Description**:
+记得明明已经提高到 300 多了，然后我感觉最近触发压缩有点快，结果看了下不知道什么时候变回 258k 了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226976#reply5
+
+---
+
+#### 7183. [V2EX] 有没有用 gpt 5.6 的时候遇到过安全审查的，在用 goal 的时候经常报，不知道怎么解决
+
+**问题描述 / Problem Description**:
+ⓘ This content can't be shown We take extra caution with cybersecurity requests. If you’re a security professional, you may be able to apply for Trusted Access. Trusted Access: https://openai.com/form/enterprise-trusted-access-for-cyber/ Learn more: https://help.openai.com/en/articles/20001326
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226947#reply1
+
+---
+
+#### 7184. [V2EX] claude 的 workflow 收益是否真的很大，是否是阻止转 gpt 的最大因素
+
+**问题描述 / Problem Description**:
+我现在 codex 都是拿来做一些 quick ask 的，开发还是走 claude。 核心原因是 claude 的 workflow 的对抗式审查让我更安心，但我不知道这是不是只是一个错觉，虽然它确实查出来很多 bug 去修复了，但是这些 bug 是不是修复与否也就这样，或者是不是有很多误判我也没有去仔细分辨了。 另一个原因是 claude code 的终端 UI 使用的比较习惯了，不过 codex 的 UI 其实也没问题，一点小习惯不足以成为真正的壁垒。 我目前主要是开 opus 4.8 的 xhigh，如果换 codex 那就是选择 5.6 sol 的极高思考模式，但是感觉 5.6 so
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226921#reply10
+
+---
+
+#### 7185. [V2EX] codex 5 小时没了、周重置了、又送了一次重置机会
+
+**问题描述 / Problem Description**:
+大家都一样吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226851#reply24
+
+---
+
+#### 7186. [V2EX] 国内服务器云厂商不检测未备案域名的 443 端口解析吗？
+
+**问题描述 / Problem Description**:
+经过这几天的测试，把阿里云的子域名解析到腾讯云，80 端口会被拦截，但是 443 端口( https)依然正常访问。 反之，腾讯云的子域名解析到阿里云（未备案子域名，已备案主域名），80 端口页面很快就被拦截。 所以 443 端口未备案可以正常使用吗？比如开发一个 app 用到了 api 请求，域名是在境外的，但为了国内用户的请求速度，解析到国内的服务器。这是能跑通的吗？（先抛开 app 也要备案这一话题）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226843#reply12
+
+---
+
+#### 7187. [V2EX] 兄弟们 还有 claude pro 开票的渠道吗
+
+**问题描述 / Problem Description**:
+3 月份开始使用 claude code 在淘宝找个能开票的卖家(公司可以走报销) 7 月份开始下架了 不知道管控还是什么问题 很多卖家都下架了 兄虎们 你们还在用 claude code 吗 有稳定能开票的渠道吗 ps: codex 试过了 额度太少了，根本不够用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226836#reply5
+
+---
+
+#### 7188. [V2EX] 我开发了一个 AI 程序化建模的工具
+
+**问题描述 / Problem Description**:
+现在的 AI 3D 很擅长生成第一版：输入一句话或一张图片，很快得到一个模型。 但游戏生产更关心下一步。车身太窄，能否只改宽度？车顶太高，能否只改高度？材质错了，能否只换材质，不重做几何？半年后，能否用同样的输入重新得到同样的模型？ 如果每次修改都要重新生成完整模型、重新描述全部要求、再次消耗大量 Token ，模型就很难真正进入生产流程。 Meshova 采用另一条路线：**模型就是脚本**。 模型由 TypeScript 脚本和参数生成。AI 不只交付一次性的网格，还交付生成方法。结果不满意，只改相关参数或局部规则，不必从头再来。 这样做有几个直接好处： - AI 易于阅读：代码、参数和结
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226804#reply2
+
+---
+
+#### 7189. [V2EX] 像 ZCode 这种一天一更新是怎么做到的？
+
+**问题描述 / Problem Description**:
+如题 https://zcode.z.ai/cn/changelog 现在就算有 AI 工具加码，也只提升了整个编码的开发速度，后面还有调试、测试、发版等一系列相关流程要走。如果一个人做，一天一更新感觉也比较极限，很难持续；如果多个人一起做，又如何保证大家并发开发的功能在合并时不会发生冲突？ 在多模块、多人协作的场景下，AI 有没有好的提效和控制熵增的方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226782#reply51
 
 ---
