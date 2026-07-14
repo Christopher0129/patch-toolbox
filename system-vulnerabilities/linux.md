@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2293**
+**总计条目 / Total entries: 2305**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -42541,5 +42541,281 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8531-1
+
+---
+
+#### 2294. CVE-2026-60103 - blender: Blender: Denial of Service and information disclosure via crafted .blend…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] blender: Blender: Denial of Service and information disclosure via crafted .blend file. Bugzilla: 2499738
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499738
+
+---
+
+#### 2295. CVE-2026-62147 - tempo-operator: Tempo Operator: Query RBAC bypass
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tempo-operator: Tempo Operator: Query RBAC bypass. Bugzilla: 2499635
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499635
+
+---
+
+#### 2296. CVE-2026-15538 - primereact: PrimeReact: Remote attacker can modify object prototype attributes
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] primereact: PrimeReact: Remote attacker can modify object prototype attributes. Bugzilla: 2499590
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499590
+
+---
+
+#### 2297. [Ubuntu] USN-8542-1: Dnsmasq vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yiwei Hou discovered that Dnsmasq incorrectly handled logging of DS or DNSKEY. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-12725) It was discovered that Dnsmasq incorrectly validated the length of fixed-length DNS record fields when parsing NS section records. A remote attacker could possibly use this issue to cause Dnsmasq to read out of bounds, possibl
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8542-1
+
+---
+
+#### 2298. [Ubuntu] USN-8526-2: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8526-1 fixed vulnerabilities in libheif. This update provides the corresponding updates for CVE-2026-47709 and CVE-2026-47714 in Ubuntu 24.04 LTS. Original advisory details: Junyi Liu discovered that libheif had a null pointer dereference in its image tiling interface. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-47709) Calvin Young and Enoch Chow discovere
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8526-2
+
+---
+
+#### 2299. [Ubuntu] USN-8541-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Hirohito Higashi discovered that Vim incorrectly escaped class or trait names when performing PHP omni-completion. An attacker could possibly use this issue to trick a user into opening a specially crafted PHP file and executing arbitrary commands. This issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-59856) Hirohito Higashi discovered that Vim incorrectly ha
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8541-1
+
+---
+
+#### 2300. [Ubuntu] USN-8540-1: OpenVPN vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN had a 1-byte buffer overrun when handling NTLMv2 proxy responses. An attacker could use this issue to cause a denial of service or possibly execute arbitrary code. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-11771) It was discovered that OpenVPN incorrectly handled metadata when extracting tls-crypt-v2 client keys. An attacker could poss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8540-1
+
+---
+
+#### 2301. [Ubuntu] USN-8539-1: GnuTLS vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Haruto Kimura discovered that GnuTLS did not properly apply permitted name constraints in certain certificate validation paths. A remote attacker could possibly use this issue to bypass certificate validation, leading to a machine-in-the-middle attack. (CVE-2026-42011) Oleh Konko discovered that GnuTLS incorrectly fell back to Common Name checks for certain URI and SRV subject alternative names. A
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8539-1
+
+---
+
+#### 2302. [Ubuntu] USN-8538-1: alsa-lib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that alsa-lib incorrectly handled certain ALSA configuration text. An attacker could use this issue to cause alsa-lib to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8538-1
+
+---
+
+#### 2303. [Ubuntu] USN-8537-1: httplib2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that httplib2 performed unbounded decompression of HTTP response bodies when the server used gzip or deflate Content-Encoding. A remote attacker could possibly use this issue to cause httplib2 to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8537-1
+
+---
+
+#### 2304. [Ubuntu] USN-8536-1: MariaDB vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that MariaDB did not properly validate parameters supplied by a joiner node during a State Snapshot Transfer using the mariabackup method. An attacker could possibly use this issue to execute arbitrary shell commands on the donor node. (CVE-2026-44168) It was discovered that MariaDB did not properly enforce the SHOW CREATE ROUTINE privilege when a user obtained access to a stored
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8536-1
+
+---
+
+#### 2305. CVE-2026-53108
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc/64s: Fix unmap race with PMD migration entries
+
+The following race is possible with migration swap entries or
+device-private THP entries. e.g. when move_pages is called on a PMD THP
+page, then there maybe an intermediate state, where PMD entry acts as
+a migration swap entry (pmd_present() is true). Then if an munmap
+happens at the same time, then this VM_BUG_ON() can happen in
+pmdp_huge_get_and_clear_full().
+
+This patch fixes that.
+
+Thread A: move_pages() syscall
+  add_folio_for_migration()
+    mmap_read_lock(mm)
+    folio_isolate_lru(folio)
+    mmap_read_unlock(mm)
+
+  do_move_pages_to_node()
+    migrate_pages()
+      try_to_migrate_one()
+        spin_lock(ptl)
+        set_pmd_migration_entry()
+          pmdp_invalidate()     # PMD: _PAGE_INVALID | _PAGE_PTE | pfn
+          set_pmd_at()          # PMD: migration swap entry (pmd_present=0)
+        spin_unlock(ptl)
+        [page copy phase]       # <--- RACE WINDOW -->
+
+Thread B: munmap()
+  mmap_write_downgrade(mm)
+  unmap_vmas() -> zap_pmd_range()
+    zap_huge_pmd()
+      __pmd_trans_huge_lock()
+        pmd_is_huge():          # !pmd_present && !pmd_none -> TRUE (swap entry)
+        pmd_lock() -> 		# spin_lock(ptl), waits for Thread A to release ptl
+      pmdp_huge_get_and_clear_full()
+        VM_BUG_ON(!pmd_present(*pmdp))  # HITS!
+
+[  287.738700][ T1867] ------------[ cut here ]------------
+[  287.743843][ T1867] kernel BUG at arch/powerpc/mm/book3s64/pgtable.c:187!
+cpu 0x0: Vector: 700 (Program Check) at [c00000044037f4f0]
+    pc: c000000000094ca4: pmdp_huge_get_and_clear_full+0x6c/0x23c
+    lr: c000000000645dec: zap_huge_pmd+0xb0/0x868
+    sp: c00000044037f790
+   msr: 800000000282b033
+  current = 0xc0000004032c1a00
+  paca    = 0xc000000004fe0000   irqmask: 0x03   irq_happened: 0x09
+    pid   = 1867, comm = a.out
+kernel BUG at :187!
+Linux version 6.19.0-12136-g14360d4f917c-dirty (powerpc64le-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #27 SMP PREEMPT Sun Feb 22 10:38:56 IST 2026
+enter ? for help
+[link register   ] c000000000645dec zap_huge_pmd+0xb0/0x868
+[c00000044037f790] c00000044037f7d0 (unreliable)
+[c00000044037f7d0] c000000000645dcc zap_huge_pmd+0x90/0x868
+[c00000044037f840] c0000000005724cc unmap_page_range+0x176c/0x1f40
+[c00000044037fa00] c000000000572ea0 unmap_vmas+0xb0/0x1d8
+[c00000044037fa90] c0000000005af254 unmap_region+0xb4/0x128
+[c00000044037fb50] c0000000005af400 vms_complete_munmap_vmas+0x138/0x310
+[c00000044037fbe0] c0000000005b0f1c do_vmi_align_munmap+0x1ec/0x238
+[c00000044037fd30] c0000000005b3688 __vm_munmap+0x170/0x1f8
+[c00000044037fdf0] c000000000587f74 sys_munmap+0x2c/0x40
+[c00000044037fe10] c000000000032668 system_call_exception+0x128/0x350
+[c00000044037fe50] c00000000000d05c system_call_vectored_common+0x15c/0x2ec
+---- Exception: 3000 (System Call Vectored) at 0000000010064a2c
+SP (7fff9b1ee9c0) is in userspace
+0:mon> zh
+
+commit a30b48bf1b24 ("mm/migrate_device: implement THP migration of zone device pages"),
+enabled migration for device-private PMD entries. Hence this is one
+other path where this warning could get trigger from.
+
+ ------------[ cut here ]------------
+ WARNING: arch/powerpc/mm/book3s64/hash_pgtable.c:199 at hash__pmd_hugepage_update+0x48/0x284, CPU#3: hmm-tests/1905
+ Modules linked in: test_hmm
+ CPU: 3 UID: 0 PID: 1905 Comm: hmm-tests Tainted: G    B   W    L   N  7.0.0-rc1-01438-g7e2f0ee7581c #21 PREEMPT
+ Tainted: [B]=BAD_PAGE, [W]=WARN, [L]=SOFTLOCKUP, [N]=TEST
+ Hardware name: IBM pSeries (emulated by qemu) POWER10 (architected) 0x801200 0xf000006 of:SLOF,git-ee03ae pSeries
+ NIP [c000000000096b70] hash__pmd_hugepage_update+0x48/0x284
+ LR [c000000000096e7c] hash__pmdp_huge_get_and_clear+0xd0/0xd4
+ Call Trace:
+ [c000000604707670] [c000000004e102b8] 0xc000000004e102b8 (unreliable)
+ [c000000604707700] [c00000000064ec3c] set_pmd_migration_entry+0x414/0x498
+ [c000000604707760] [c00000000063e5a4] migrate_vma_col
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/829367e55012c053738ebe7db20c4a90d6609ece.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/829367e55012c053738ebe7db20c4a90d6609ece
+- https://git.kernel.org/stable/c/bbcbf045d6c778e82b47a35fc8728387708e9a3d
 
 ---

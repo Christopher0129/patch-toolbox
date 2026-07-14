@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2485**
+**总计条目 / Total entries: 2497**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -38275,5 +38275,149 @@ It was discovered that libexif had an integer overflow in its MakerNote decoder 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8531-1
+
+---
+
+#### 2486. CVE-2026-60103 - blender: Blender: Denial of Service and information disclosure via crafted .blend…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] blender: Blender: Denial of Service and information disclosure via crafted .blend file. Bugzilla: 2499738
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499738
+
+---
+
+#### 2487. CVE-2026-62147 - tempo-operator: Tempo Operator: Query RBAC bypass
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tempo-operator: Tempo Operator: Query RBAC bypass. Bugzilla: 2499635
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499635
+
+---
+
+#### 2488. CVE-2026-15538 - primereact: PrimeReact: Remote attacker can modify object prototype attributes
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] primereact: PrimeReact: Remote attacker can modify object prototype attributes. Bugzilla: 2499590
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499590
+
+---
+
+#### 2489. [Ubuntu] USN-8542-1: Dnsmasq vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Yiwei Hou discovered that Dnsmasq incorrectly handled logging of DS or DNSKEY. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-12725) It was discovered that Dnsmasq incorrectly validated the length of fixed-length DNS record fields when parsing NS section records. A remote attacker could possibly use this issue to cause Dnsmasq to read out of bounds, possibl
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8542-1
+
+---
+
+#### 2490. [Ubuntu] USN-8526-2: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8526-1 fixed vulnerabilities in libheif. This update provides the corresponding updates for CVE-2026-47709 and CVE-2026-47714 in Ubuntu 24.04 LTS. Original advisory details: Junyi Liu discovered that libheif had a null pointer dereference in its image tiling interface. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-47709) Calvin Young and Enoch Chow discovere
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8526-2
+
+---
+
+#### 2491. [Ubuntu] USN-8541-1: Vim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Hirohito Higashi discovered that Vim incorrectly escaped class or trait names when performing PHP omni-completion. An attacker could possibly use this issue to trick a user into opening a specially crafted PHP file and executing arbitrary commands. This issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-59856) Hirohito Higashi discovered that Vim incorrectly ha
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8541-1
+
+---
+
+#### 2492. [Ubuntu] USN-8540-1: OpenVPN vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN had a 1-byte buffer overrun when handling NTLMv2 proxy responses. An attacker could use this issue to cause a denial of service or possibly execute arbitrary code. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-11771) It was discovered that OpenVPN incorrectly handled metadata when extracting tls-crypt-v2 client keys. An attacker could poss
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8540-1
+
+---
+
+#### 2493. [Ubuntu] USN-8539-1: GnuTLS vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Haruto Kimura discovered that GnuTLS did not properly apply permitted name constraints in certain certificate validation paths. A remote attacker could possibly use this issue to bypass certificate validation, leading to a machine-in-the-middle attack. (CVE-2026-42011) Oleh Konko discovered that GnuTLS incorrectly fell back to Common Name checks for certain URI and SRV subject alternative names. A
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8539-1
+
+---
+
+#### 2494. [Ubuntu] USN-8538-1: alsa-lib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that alsa-lib incorrectly handled certain ALSA configuration text. An attacker could use this issue to cause alsa-lib to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8538-1
+
+---
+
+#### 2495. [Ubuntu] USN-8537-1: httplib2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that httplib2 performed unbounded decompression of HTTP response bodies when the server used gzip or deflate Content-Encoding. A remote attacker could possibly use this issue to cause httplib2 to use excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8537-1
+
+---
+
+#### 2496. [Ubuntu] USN-8536-1: MariaDB vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that MariaDB did not properly validate parameters supplied by a joiner node during a State Snapshot Transfer using the mariabackup method. An attacker could possibly use this issue to execute arbitrary shell commands on the donor node. (CVE-2026-44168) It was discovered that MariaDB did not properly enforce the SHOW CREATE ROUTINE privilege when a user obtained access to a stored
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8536-1
+
+---
+
+#### 2497. [Ubuntu] USN-8543-1: Wget vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Wget mishandled semicolons in the userinfo subcomponent of a URL. A remote attacker could possibly use this issue to trick a user into connecting to a different host than intended. This issue only affected Ubuntu 14.04 LTS. (CVE-2024-38428) It was discovered that Wget incorrectly handled Metalink documents containing a whitespace-only URL. A remote attacker could possibly us
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8543-1
 
 ---

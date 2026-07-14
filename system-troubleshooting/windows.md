@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8043**
+**总计条目 / Total entries: 8114**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -110324,5 +110324,928 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226901#reply19
+
+---
+
+#### 8044. How to store decryption keys of my BitLocker-encrypted 2nd internal drive to TPM so I don't have to enter the key on every boot in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, encryption, bitlocker | Score: 0 | Views: 43 | Answers: 1 | Created: 2026-07-12
+
+**解决方案 / Solution**:
+BitLocker only automatically unlocks a fixed data drive if the required auto-unlock protector is present and the operating system drive has already been unlocked. You generally do not manually store a BitLocker key in the TPM for a secondary internal drive. If your second internal drive is prompting for its recovery key on every boot, something is preventing auto-unlock from working. Common causes include: Auto-unlock is disabled for the drive. The drive is using only a recovery password protector instead of an auto-unlock protector. The TPM or BitLocker protectors were reset or changed (for example, after a BIOS/UEFI update, Secure Boot change, or TPM reset). To enable auto-unlock again: Unlock the data drive with its recovery key. Open an elevated Command Prompt. Run: manage-bde -autounlock -enable X: replacing X: with the drive letter of the encrypted drive. You can also check the drive's protectors with: manage-bde -status X: manage-bde -protectors -get X: This will show whether the drive has an auto-unlock protector configured. If the drive is still asking for the recovery key every boot, verify that your **OS drive is successfully using the TPM and that no recent firmware or TPM changes have invalidated the existing protectors **. Finally, keep the BitLocker recovery key backed up somewhere safe (e.g., your Microsoft account, Active Directory/Azure AD, or an offline copy). If the TPM ever fails or its state changes, the recovery key may be the only way to regain access to your data.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939019/how-to-store-decryption-keys-of-my-bitlocker-encrypted-2nd-internal-drive-to-tpm
+
+---
+
+#### 8045. 5070ti underperforming below a 3060
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwb7qb/5070ti_underperforming_below_a_3060/
+
+---
+
+#### 8046. Can't open youtube directly via browser.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwhkav/cant_open_youtube_directly_via_browser/
+
+---
+
+#### 8047. Insert Disk into USB Drive: I attempted all the common fixes but it says theres no usable storage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwkqyc/insert_disk_into_usb_drive_i_attempted_all_the/
+
+---
+
+#### 8048. small tech help with a wired house
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwc4ov/small_tech_help_with_a_wired_house/
+
+---
+
+#### 8049. PC won’t send signal to monitors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwgrck/pc_wont_send_signal_to_monitors/
+
+---
+
+#### 8050. "Sim 1 isnt from Verizon. Some services may not be available while you use sim 1."
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwmmp5/sim_1_isnt_from_verizon_some_services_may_not_be/
+
+---
+
+#### 8051. NETWORK CONNECTION TROUBLE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwmlbp/network_connection_trouble/
+
+---
+
+#### 8052. Why is my pc using 13gb of ram when i just turned it on??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwmdc1/why_is_my_pc_using_13gb_of_ram_when_i_just_turned/
+
+---
+
+#### 8053. URGENT gaming laptop no longer charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwm4mv/urgent_gaming_laptop_no_longer_charging/
+
+---
+
+#### 8054. Windows 11 taskbar not appearing, internet and ethernet not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwltij/windows_11_taskbar_not_appearing_internet_and/
+
+---
+
+#### 8055. Connecting PlayStation controller with USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwlqhh/connecting_playstation_controller_with_usb/
+
+---
+
+#### 8056. does this laptop need thermal paste?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwlmm2/does_this_laptop_need_thermal_paste/
+
+---
+
+#### 8057. Disk queue length jumps to 100, all applications freeze
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwlh1g/disk_queue_length_jumps_to_100_all_applications/
+
+---
+
+#### 8058. Lenovo Gaming 3 i5 laptop secure boot broken after bios updated
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwkxmz/lenovo_gaming_3_i5_laptop_secure_boot_broken/
+
+---
+
+#### 8059. Could Nvidia Fast sync be the reason a game can stutter as in FPS drop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uweok4/could_nvidia_fast_sync_be_the_reason_a_game_can/
+
+---
+
+#### 8060. PC keeps freezing I have no idea why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwkt8a/pc_keeps_freezing_i_have_no_idea_why/
+
+---
+
+#### 8061. Win 11 23H2 Downgrade
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwks6t/win_11_23h2_downgrade/
+
+---
+
+#### 8062. ”Something happened and your PIN isn’t available. Click to set up your pin again.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwko6a/something_happened_and_your_pin_isnt_available/
+
+---
+
+#### 8063. MSI X470 Gaming Pro Carbon - VGA EZ Debug LED stays on, no display after normal shutdown
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwkf7t/msi_x470_gaming_pro_carbon_vga_ez_debug_led_stays/
+
+---
+
+#### 8064. bsod with minidump
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwe40o/bsod_with_minidump/
+
+---
+
+#### 8065. My laptop’s volume slider gets stuck at 0 whenever I hook it up to my TV via HDMI
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwdz8i/my_laptops_volume_slider_gets_stuck_at_0_whenever/
+
+---
+
+#### 8066. Audio issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwjx4y/audio_issue/
+
+---
+
+#### 8067. Second monitor detected but no signal detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwjwp1/second_monitor_detected_but_no_signal_detected/
+
+---
+
+#### 8068. PC suddenly started crashing after accidental shutdown — now getting BitLocker loops, HYPERVISOR_ERROR, IRQL_NOT_LESS_OR_EQUAL, and UNEXPECTED_KERNEL_MODE_TRAP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uwjusl/pc_suddenly_started_crashing_after_accidental/
+
+---
+
+#### 8069. Simple Questions - July 13, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uvskrh/simple_questions_july_13_2026/
+
+---
+
+#### 8070. Built my PC around a case I found sealed in an abandoned office storage room
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwmeq8/built_my_pc_around_a_case_i_found_sealed_in_an/
+
+---
+
+#### 8071. Would be crazy to get a 5070 instead of a 9070 xt?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwg8vx/would_be_crazy_to_get_a_5070_instead_of_a_9070_xt/
+
+---
+
+#### 8072. What's one PC building tip you wish someone told you before your first build?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw1nmh/whats_one_pc_building_tip_you_wish_someone_told/
+
+---
+
+#### 8073. Anyone else feel like the used market is just a waste of time?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw3wv2/anyone_else_feel_like_the_used_market_is_just_a/
+
+---
+
+#### 8074. Good replacement for a 3070?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwjm3u/good_replacement_for_a_3070/
+
+---
+
+#### 8075. Why did AM5 APUs didn't get the same appeal as the AM4 counterparts. What went wrong?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uvyh02/why_did_am5_apus_didnt_get_the_same_appeal_as_the/
+
+---
+
+#### 8076. Is the Radeon RX 7600 a good choice for a new budget build?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwgxzd/is_the_radeon_rx_7600_a_good_choice_for_a_new/
+
+---
+
+#### 8077. Ethernet wire Questions?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwlkgs/ethernet_wire_questions/
+
+---
+
+#### 8078. RX 7900XT or RX 9070XT?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw9n3b/rx_7900xt_or_rx_9070xt/
+
+---
+
+#### 8079. Just spilled a rockstar on side of case/near pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwffwi/just_spilled_a_rockstar_on_side_of_casenear_pc/
+
+---
+
+#### 8080. Does RT and MFG worth the money ?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwc1pw/does_rt_and_mfg_worth_the_money/
+
+---
+
+#### 8081. Upgrade GPU for my PC
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwe6t8/upgrade_gpu_for_my_pc/
+
+---
+
+#### 8082. What is the cheapest gpu i can get that can run games decently at 60fps on high graphics
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw4cmn/what_is_the_cheapest_gpu_i_can_get_that_can_run/
+
+---
+
+#### 8083. Is an 9900x3D a good buy at $440?.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwlpze/is_an_9900x3d_a_good_buy_at_440/
+
+---
+
+#### 8084. First time getting a pc
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw85c1/first_time_getting_a_pc/
+
+---
+
+#### 8085. Found a DDR4 14th gen Intel board. Should I upgrade or keep my AM4 platform?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uw72ht/found_a_ddr4_14th_gen_intel_board_should_i/
+
+---
+
+#### 8086. cpu and dram lights on consistently no matter what I do
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwmsfi/cpu_and_dram_lights_on_consistently_no_matter/
+
+---
+
+#### 8087. Should I upgrade my RAM from 16GB to 32GB?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwmrin/should_i_upgrade_my_ram_from_16gb_to_32gb/
+
+---
+
+#### 8088. Can't find a pc case.
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwmm17/cant_find_a_pc_case/
+
+---
+
+#### 8089. How can I use a 2 monitor setup with a MacBook and a Desktop PC?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwmkm5/how_can_i_use_a_2_monitor_setup_with_a_macbook/
+
+---
+
+#### 8090. Need a new setup for rendering/recording/streaming simultaneously at 2-4k resolution at 120-144fps on most games
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwa2u8/need_a_new_setup_for_renderingrecordingstreaming/
+
+---
+
+#### 8091. PC Build:
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwm4mn/pc_build/
+
+---
+
+#### 8092. Can anyone build a pc for £1300-£1500
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwm36f/can_anyone_build_a_pc_for_13001500/
+
+---
+
+#### 8093. Can my motherboard cause a bottleneck?
+
+**问题描述 / Problem Description**:
+Reddit r/buildapc discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/buildapc/comments/1uwm2h5/can_my_motherboard_cause_a_bottleneck/
+
+---
+
+#### 8094. [V2EX] 有没有人 vibe coding 一个支持 udp 的运行在 macos 上的 windows App？
+
+**问题描述 / Problem Description**:
+高强度使用，在外一个月 150g 的大流量流量开手机热点，用 macos 控制家里的 windows 。虽然是 ipv6 配合 ddns-go 来直连，17ms+79Mbps 的带宽，依然感觉卡顿。 没有这种产品出现的原因可能是其他支持 udp 的串流方式太普遍了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227100#reply4
+
+---
+
+#### 8095. [V2EX] 有个西班牙号码，可以怎么利用下？
+
+**问题描述 / Problem Description**:
+人在西班牙旅游，有个手机号，目前已注册 claude 和 chatgpt ，已通过 codex 的验证，还有哪些服务可以注册下，能够发挥下这个号码的作用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227334#reply0
+
+---
+
+#### 8096. [V2EX] giffgaff 申请 esim 用 bybit 的 mastercard 无法成功付款
+
+**问题描述 / Problem Description**:
+bybit card 生物识别成功后,giffgaff 的确认按钮一直转圈圈,最后一步死活过不了. 问了 AI,说是两边的地址不一样.我觉得这个说法扯淡. 有没有谁有经验?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227333#reply0
+
+---
+
+#### 8097. [V2EX] 该怎么面试：水平超过自己的应聘者？（数据分析岗）
+
+**问题描述 / Problem Description**:
+上一份帖子请教大家指导，是否该拉朋友一起做事。多数大佬都劝我，对方如果比较犹豫，那就没必要再劝。 我老反思人了，也觉得的确有点过，不来就不来吧。 最近就开始从 Boss 上招聘，这个岗位基本上就是“数据分析师”的职责。 纯远程、不打卡、不加班、弹性，但社招的话，薪资开的不高，10k+年终分红（大饼）。 然而我本人是服务端/后端出身，不是很了解数据分析的技能点，只是粗浅看了看——数仓、数据清洗、数据分层、数据优化与性能调优、数据建模等等，感觉非常的庞杂且贴近应用场景。 就基于现实，萌生三个小问题和一个大问题： 现在面了一些，发现部分面试者都“躺平在舒适区+也没有丰富的业务经历”（毕业进普通公司，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227330#reply4
+
+---
+
+#### 8098. [V2EX] 问完净水机来问软水机了
+
+**问题描述 / Problem Description**:
+我用的 22 年的海尔 6b 但是最近买了个水质笔，测试发现过了软水机的水和没过的都 80 硬度。。。。所以是软水机就能软到 80 还是我的软水机树脂该换了，才 4 年，盐一直在耗。。。 求助 另外如果树脂该换了感觉自己也能换，那买什么样的树脂呢买多少升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227312#reply2
+
+---
+
+#### 8099. [V2EX] 现在给国外几家 LLM 冲点钱买 api token，都有什么风险？
+
+**问题描述 / Problem Description**:
+之前给 openrouter 充了点钱，刚刚登陆发现：Your billing address is in a region that does not have access to models from OpenAI, Anthropic, and Google. All other models remain available. 有没有安全的途径？ 只是小量使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227310#reply0
+
+---
+
+#### 8100. [V2EX] 普及一下中医(药)税的知识
+
+**问题描述 / Problem Description**:
+大概看了下，绝大部分人对医疗系统的运行还是不太了解，所以有很多不太准确的认识，这里做个简单的普及。 开中成药是医院创收： 因为政策规定，基础医药是平进平出，医院本身是没有利润的。 医院和医生的关系： 这个是要特别解释一下的，尤其是内科类，其实医院和医生的关系，简单理解的话，可以认为是菜市场和个体户（小摊贩）的关系，或者是商场和柜台的关系，商场提供一些统一服务（比如环境、仓储、收款、清结算……），医生出门诊基本上都是个体行为，医院本身是没有什么能够介入的，或者说在“业务”方向上，医院行政实体对医生的“业务”本身并不是 [管理关系] 。 医院的利润： 医院的收入，核心主体是来自医保结算，医保是绝对
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227307#reply0
+
+---
+
+#### 8101. [V2EX] 中转站是发 0.01 不限速的 gpt5.6 给大家蹬好 还是完全免费但是限制并发的好
+
+**问题描述 / Problem Description**:
+在站里一开始发的第二种 然后太累不小心睡着被群友电话郭醒了 原来晚上有神人进货还在群里炫耀倒卖😭 这都什么事啊 然后加上了限速 10rpm 但是因为那个 5.6 最高档一直喜欢生一大堆孙子和重孙子奶龙开会 这个限速会一直断 然后又被群友骂了() 最后感觉很烦恼直接调成 0.03 了 赚点钱骂就骂吧 有钱了才能升级服务器 推广用户 然后体量大了才能更低 这个飞轮应该是必须得当一下恶人的 大家怎么看开中转站的那些事
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227301#reply4
+
+---
+
+#### 8102. [V2EX] 堂弟被骗到巴布新几内亚 瓦尼莫的园区怎么办？
+
+**问题描述 / Problem Description**:
+前段时间还能微信语音联系，这几天只能发微信了，定位也发不过来，说是每天在网上联系客户，也不知道具体是做什么，也不敢问。舅舅准备明天去报警了，想请教一下大家我还有什么能做的吗？他说园区离机场不远，苹果手机指南针上没有定位，不知道为啥微信位置也是一片空白。打电话给大使馆有用吗？还需要收集什么信息呢？ 我这边现在要到了他的签证（短期商务签证，停留 60 天），还有当地华人互助会的联系方式。准备明天打电话问问看看，不知道还可以做什么了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227298#reply17
+
+---
+
+#### 8103. [V2EX] chatgpt 和 cursor 真是废物
+
+**问题描述 / Problem Description**:
+chatgpt 和 cursor 真是废物 无一例外，全都画的不对，稀烂。 有没有大哥能给我讲讲咋弄 视频地址： https://xiaoliuhenshuai.ccwu.cc/alist/s/CX9Udl7B prompt：105 平，根据视频画户型图 耗时：50min codex: model:5.6 Sol 极高 标准速度 cost:一周额度的 100%+50%重置卡一周的量 cursor: model:claude-fable-5-thinking-max 1M cost:3000 万 token ，直接干掉了我 100 刀的额度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227296#reply3
+
+---
+
+#### 8104. [V2EX] 十几年前的个人网站域名被人注册做黄网了
+
+**问题描述 / Problem Description**:
+大概是 12 年左右，当时自己注册了个域名做个人博客，后来也没有写博客的习惯就没有续费了。 最近心血来潮访问了一下，发现被挂上黄网了... 这个域名我之前做博客的时候用我自己的个人信息备案过。 这不会给我惹啥麻烦吧...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227270#reply10
+
+---
+
+#### 8105. [V2EX] 突发奇想：把人生“全托管”给 AI 来安排，可行吗？
+
+**问题描述 / Problem Description**:
+最近冒出一个有点硬核的想法：如果把人生的控制权彻底交给 AI ，自己会不会变得特别牛逼？ 大概思路： 用 Claude/Codex 配合 Agent （比如 OpenClaw 或 Hermes ）。把我的目标和尽可能详细的现状全喂给它，让它在后台时刻运行。 AI 负责全局调度，安排我几点该敲代码、几点去跑步撸铁、几点复习备考。遇到突发状况我再给它发反馈微调。总之，它当 Master 节点负责规划，我当 Worker 节点只管无脑执行。 理论上这能彻底干掉“决策内耗”，但我也有几点犯嘀咕： 状态掉线： 人毕竟不是服务器，白天要是刚排查完线上的 OOM 或死锁，下班“CPU”早爆表了，真的还能严格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227256#reply12
+
+---
+
+#### 8106. [V2EX] 咨询各方大佬，国内有建成的 DGX B300 数据中心吗？
+
+**问题描述 / Problem Description**:
+这东西好像还在老美的禁售名单里，假如我说的是假如😆能搞到 40 台左右的 B300,包括配套的 RoCE 组网，搞算力出租这生意能做吗？ 担心： Nvidia 年底好像还要出 R100 ，怕被淘汰。 这东西溢价太高，2 倍以上。 目前谈的承租方万一消化不了，这么大的算力难找到接手方。 如果被老美知道，被制裁。后有什么后果？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227253#reply6
+
+---
+
+#### 8107. [V2EX] [求助] 关于 Apple ID 退款后余额处理的疑问
+
+**问题描述 / Problem Description**:
+我的 Codex 订阅又被封了，这次是用苹果 ID 订阅的，打算申请退款了。我平时不用苹果设备，也没有在 App Store 购物的需求。 想请教一下大家： 退款余额除了在 App Store 消费，还有其他处理方式吗？ 联系苹果客服请求清零的成功率高吗？有没有什么沟通技巧？ 有没有什么办法能把这笔钱转移？ 提前感谢各位的解答！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227244#reply0
+
+---
+
+#### 8108. [V2EX] 老板给了个任务，请大家伙帮忙看看怎么设计产品思路
+
+**问题描述 / Problem Description**:
+我司的产品是微服务架构，不通的微服务打包组成产品售卖。几个不通的产品线各自为战，部署方式有 k8s 集群，docker 部署，二进制部署。 现在售前抱怨，搭配售卖的时候，不知道怎么快速拿到资源需求（ 20C200G 主机多少台，硬盘需要多大）每次都是问各个产品线的架构师，然后稀里糊涂的看着给，毫无标准。 现在老板，让我做一个系统，效果就是，直接勾选想要的产品，自动测算出所需要的资源大小，当然不能简单累计，如果有重复组件要能够去重，给出最小可用资源。输出机器的规格，以及数量。 不通的部署方式，不通的依赖组件，还要考虑并发数（大客户和小客户肯定是不一样的） 我目前是准备按照微服务录入元数据到系统，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227240#reply0
+
+---
+
+#### 8109. [V2EX] trpg.news 和 trpg.tv 这两个域名想做点什么
+
+**问题描述 / Problem Description**:
+trpg.news 和 trpg.tv 注册之后一直放在手里，想做什么，但是没有什么想法，有什么建议？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227232#reply3
+
+---
+
+#### 8110. [V2EX] 如果你有一万块钱干点什么把它变成两万？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227198#reply27
+
+---
+
+#### 8111. [V2EX] 做了一个过滤 YouTube 广告的谷歌浏览器插件：广告漏过过滤时自动静音、跳过和加速
+
+**问题描述 / Problem Description**:
+最近遇到普通广告拦截器偶尔失效、影响播放的问题，所以做了 AdQuiet 。 播放前优先过滤已确认的播放器广告 广告仍然进入播放器时，优先点击“跳过广告” 无法跳过时自动静音、遮挡并加速 广告结束后恢复原来的音量、静音和倍速 不上传观看记录、视频标题、网址或账号信息 当前不支持 Shorts 、YouTube Music 、手机、电视端和视频内口播 商店地址： https://chromewebstore.google.com/detail/adquiet/bdcapbcpjlogldlhenkppjamadnmffim 欢迎反馈真实广告漏过、误处理或播放设置没有恢复的情况。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227196#reply0
+
+---
+
+#### 8112. [V2EX] agent memory
+
+**问题描述 / Problem Description**:
+想咨询个各位使用 ai 的大佬们，你们都是使用什么 memory 啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227154#reply6
+
+---
+
+#### 8113. [V2EX] todesk 功耗真的拉完了 M 芯片上, 有什么脏东西一直在耗电 还发热
+
+**问题描述 / Problem Description**:
+todesk 功耗真的拉完了,导致电脑异常发热 , 开了会员连接体验还行 但是这个功耗 都超过谷歌浏览器了, 一天都在用谷歌浏览器也就算了, 就用了一会儿 todesk 功耗这么高 还有一次 todesk 一晚上在运行 ,电脑第二天发热了, 这个软件怎么做优化的 功耗优化真的拉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227146#reply4
+
+---
+
+#### 8114. [V2EX] 为什么小红书的网页版这么卡？
+
+**问题描述 / Problem Description**:
+我只是想愉快地摸鱼而已
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227143#reply0
 
 ---

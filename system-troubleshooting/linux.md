@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7189**
+**总计条目 / Total entries: 7253**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -101396,5 +101396,837 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226782#reply51
+
+---
+
+#### 7190. bubblewrap: how to remove bound file
+
+**问题描述 / Problem Description**:
+Tags: linux, security, sandbox | Score: 2 | Views: 345 | Answers: 2 | Created: 2026-07-12
+
+**解决方案 / Solution**:
+A bwrap contributor confirmed what I intend to do is not really supported by --bind option, so either need to perform the manual copy/move step, or use a different tool than bubblewrap.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806682/bubblewrap-how-to-remove-bound-file
+
+---
+
+#### 7191. KVM VM can't communicate with ZTE 5G USB modem over Linux bridge
+
+**问题描述 / Problem Description**:
+Tags: fedora, kvm, libvirt, virtio, zte | Score: 1 | Views: 39 | Answers: 1 | Created: 2026-07-11
+
+**解决方案 / Solution**:
+I finally got it working. The Problem (Diagnosis) I see some tcpdumps logs and see that response of modem destination mac address is host mac address not my vm mac address! Solution (MAC Rewriting) So i try to rewrite destination MAC on incoming packets from the modem. this solution work but it's make all incoming packets go to that specific VM (mac destination always be that VM) i think it's can be improved like mark on packet and then in incoming packet use that mark for real destination but i don't need that so i make all packet go to that vm and my problem solved, if someone find better solution i very appreciated to hear. Commands: # Adjust these two variables PHYS_IF="enp128s20f0u2u2" # your current modem USB interface VM_MAC="52:54:00:5d:89:9c" # MAC of your VM network interface sudo ebtables -t nat -F sudo ebtables -t nat -A PREROUTING -i $PHYS_IF -d 88:9e:96:60:ce:41 -j dnat --to-destination $VM_MAC sudo ebtables -t nat -A PREROUTING -i $PHYS_IF -p arp --arp-op Request -j ACCEPT sudo ebtables -t nat -A PREROUTING -i $PHYS_IF -p arp --arp-op Reply -j dnat --to-destination $VM_MAC After applying the rules: In my test default 1500 mtu is big and need to fragment so i decrease it, it's may ok in other modem # Inside the VM: sudo ip neigh flush all sudo ip link set enp1s0 mtu 1420 # Very important for these modems Then restart networking or the VM. DHCP and full connectivity should now work. To remove the fix (revert to clean state): sudo ebtables -t nat -F I hope this help you
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806671/kvm-vm-cant-communicate-with-zte-5g-usb-modem-over-linux-bridge
+
+---
+
+#### 7192. Preventing container escape in an interactive Linux learning platform
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, docker, non-root-user, container | Score: 0 | Views: 69 | Answers: 1 | Created: 2026-07-12
+
+**解决方案 / Solution**:
+What measures can I take to enable root in the images without having to worry too much about container escape? What other security measures can I take? Don't use containers for isolation of untrusted compute. That's not their design goal, and in general, they're not secure enough for that. In instances, where non-cooperative workloads share the same Linux operating system, heavy precautions to not allow users to just execute any program are taken, and these things still regularly fall prey to data leaks and escapes. Everyone who sells Linux compute power to untrusted users uses virtual machines (VMs). So go that route. A VM can be very low-overhead these days, and take milliseconds to boot, if optimized for that use case. Either you host these VMs on your own servers (even nested in a VM itself), especially if you go for very lightweight VMs. Compare Firecracker 's concept of "MicroVMs". But the safest way, and probably also the easiest, is to not run your users' code on your servers at all . Simply let them run their Linux on their own machines – as virtual machine running in the browser. All security problems related to escaping the environment cease to exist that moment – the environment is on the user's own computer/phone/tablet, not on anybody else's machine. The common VM engine for browsers is JSLinux , based on TinyEMU . To cite the project website: What's the use ? […] Benchmarking of Javascript engines (how much time takes your Javascript engine to boot Linux ?) and use of new browser technologies (asm.js, WASM). Learning to use command line Unix tools without leaving the browser. […] (emphasis mine) You might find that the example VM configurations offered on Bellard's website are already very close to what you'd want to get users started with a command line. Click on the "Startup Link" links! You're allowed, encouraged, to copy that. Try the "Fedora 33 (Linux) Console" link. Type and run uname -r , ls -lh /*/ , zsh etc.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806690/preventing-container-escape-in-an-interactive-linux-learning-platform
+
+---
+
+#### 7193. Is there a good image viewer for Linux that can show the metadata title of an image?
+
+**问题描述 / Problem Description**:
+Tags: linux, software-rec, exif | Score: 0 | Views: 80 | Answers: 1 | Created: 2026-07-12
+
+**解决方案 / Solution**:
+check out gwenview . It is available from EPEL. Eye of Gnome (eog) I think can display it if you go through eog menus. And there is perl-Image-ExifTool also available from EPEL that is a command line tool. exiftool '-*title*' image.jpg
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806689/is-there-a-good-image-viewer-for-linux-that-can-show-the-metadata-title-of-an-im
+
+---
+
+#### 7194. Linux 7.2-rc3 Bringing Fixes For The SEGA Dreamcast Drivers In 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwiaks/linux_72rc3_bringing_fixes_for_the_sega_dreamcast/
+
+---
+
+#### 7195. Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uweu9x/measuring_input_latency_on_linux_x11_vs_wayland/
+
+---
+
+#### 7196. The one thing "back in the day" that was such a hassle on Linux that is a non-issue today?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwequi/the_one_thing_back_in_the_day_that_was_such_a/
+
+---
+
+#### 7197. Why is hibernation so hard?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwf03v/why_is_hibernation_so_hard/
+
+---
+
+#### 7198. Linux specific malware website tries exploiti using terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwg73m/linux_specific_malware_website_tries_exploiti/
+
+---
+
+#### 7199. Plasma 6.7.3 complete changelog
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uw7hfc/plasma_673_complete_changelog/
+
+---
+
+#### 7200. Announcing atrium v0.4.0 - a multiseat display manager
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwltsf/announcing_atrium_v040_a_multiseat_display_manager/
+
+---
+
+#### 7201. Haiku Activity & Contract Report, June 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwbeou/haiku_activity_contract_report_june_2026/
+
+---
+
+#### 7202. [ANN] qpwgraph v1.0.3 - A Summer'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwf5r1/ann_qpwgraph_v103_a_summer26_release/
+
+---
+
+#### 7203. I built a lightweight Linux TUI network usage monitor because the existing tools did not fit what I wanted
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwmnqg/i_built_a_lightweight_linux_tui_network_usage/
+
+---
+
+#### 7204. Reworked System Call Entry Handling Slated For Linux 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvq0qx/reworked_system_call_entry_handling_slated_for/
+
+---
+
+#### 7205. A lot of updates, isn't it suspicious?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwln5c/a_lot_of_updates_isnt_it_suspicious/
+
+---
+
+#### 7206. Made a simple interactive menu wrapper around wget for category-based downloads (pictures/music/video/ebooks/software)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uw5v7k/made_a_simple_interactive_menu_wrapper_around/
+
+---
+
+#### 7207. papagaia: talk to write, hit a key to rewrite. a local Wispr Flow alternative for Wayland
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uw5n13/papagaia_talk_to_write_hit_a_key_to_rewrite_a/
+
+---
+
+#### 7208. Vynody - A cross-platform local music player that supports Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uvxdpm/vynody_a_crossplatform_local_music_player_that/
+
+---
+
+#### 7209. Patch Tuesday Megathread - (July 14, 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw9kba/patch_tuesday_megathread_july_14_2026/
+
+---
+
+#### 7210. The slop has arrived, wish me luck.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwcfnv/the_slop_has_arrived_wish_me_luck/
+
+---
+
+#### 7211. What's your office's unlocked screen punishment tradition?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwk6oh/whats_your_offices_unlocked_screen_punishment/
+
+---
+
+#### 7212. Why does CoPilot generate bad Powershell (rant)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwiffh/why_does_copilot_generate_bad_powershell_rant/
+
+---
+
+#### 7213. TIFU by clicking “update appliance”
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw8igc/tifu_by_clicking_update_appliance/
+
+---
+
+#### 7214. Telstra - Australia's largest telco blames outage on obsolete server and known cyclical 20-year bug
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uvz7ns/telstra_australias_largest_telco_blames_outage_on/
+
+---
+
+#### 7215. Are companies underestimating how big the identity problem is becoming
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwlknc/are_companies_underestimating_how_big_the/
+
+---
+
+#### 7216. Tell me I'm not the only one...
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwephi/tell_me_im_not_the_only_one/
+
+---
+
+#### 7217. How many of you actually switch off on leave?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw7741/how_many_of_you_actually_switch_off_on_leave/
+
+---
+
+#### 7218. Major change in Entra ID: SMS and Voice-based Auth will no longer work starting February 1 2027 unless your tenant pays for a separate add-on service
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwcjjb/major_change_in_entra_id_sms_and_voicebased_auth/
+
+---
+
+#### 7219. Windows Server upgrades
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwf1qo/windows_server_upgrades/
+
+---
+
+#### 7220. How do you manage to stay motivated and keep learning when [almost] everything is AI now.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw4dxf/how_do_you_manage_to_stay_motivated_and_keep/
+
+---
+
+#### 7221. Does anyone actually still run 'isolated' (sort-of-airgapped) networks for 'business' use?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwdjbk/does_anyone_actually_still_run_isolated/
+
+---
+
+#### 7222. End user comes up with "How can I do this specific thing in (App)?'
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw6pa7/end_user_comes_up_with_how_can_i_do_this_specific/
+
+---
+
+#### 7223. Whoever unplugged the Lexis Nexis DNS servers...could you plug them back in?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwct66/whoever_unplugged_the_lexis_nexis_dns/
+
+---
+
+#### 7224. What repetitive IT tasks have you actually automated with AI?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwgf94/what_repetitive_it_tasks_have_you_actually/
+
+---
+
+#### 7225. Compact discs had their downsides but I miss physical disks sometimes for novelty reasons
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwdc17/compact_discs_had_their_downsides_but_i_miss/
+
+---
+
+#### 7226. US company opening an EU office, GDPR data-residency requirements are throttling me
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uw0b9l/us_company_opening_an_eu_office_gdpr/
+
+---
+
+#### 7227. Centrally Managed Outlook Signature That Appears When User Creates Email
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwdy0p/centrally_managed_outlook_signature_that_appears/
+
+---
+
+#### 7228. Network guys, what's in your daily carry?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwji8y/network_guys_whats_in_your_daily_carry/
+
+---
+
+#### 7229. Chrome Hardware Acceleration Issues - Dell Pro Towers / Radeon 780M
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwkpb1/chrome_hardware_acceleration_issues_dell_pro/
+
+---
+
+#### 7230. Entra - There is no way to delete a SMS/Phone sign-in method when the only other method of sign in is a passkey. But users who have SMS/Phone-sign ins are not able to be provisioned in Cross-tenant syncrhonization
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwmn1e/entra_there_is_no_way_to_delete_a_smsphone_signin/
+
+---
+
+#### 7231. Windows FTP Service Remote Code Execution Vulnerability – CVE-2026-49172
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwfgrl/windows_ftp_service_remote_code_execution/
+
+---
+
+#### 7232. Smart-UPS X 3000VA bad PFC input relay?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1uwkt56/smartups_x_3000va_bad_pfc_input_relay/
+
+---
+
+#### 7233. [V2EX] Linux 上的游戏网络加速
+
+**问题描述 / Problem Description**:
+（ Fedora 44 ） 我遇到的问题 - UU 本来今年二月用的 UU 加速器的 steamdeck 插件没啥问题的，最近再启动发现用不了了，估计是插件和 Fedora 的更新终于不再兼容了，毕竟那玩意是给 steam OS 编译好的二进制。 刚开始排查问题的时候，发现开始加速之后有个叫 tun163 的虚拟网卡获得了最高默认优先级，过了几分钟之后这个网卡显示为 down ，但还是最高优先级，（导致）整个系统断网。这时的插件版本应该是 4 月份发布的 后来更新到了 6 月发布的版本，倒是不会整个系统断网了，但是也没有任何加速效果，也没有看到 tun163 网卡了。 测试时关闭了 SELin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223240#reply9
+
+---
+
+#### 7234. [V2EX] Windsurf++ | 极为渴望和顺滑的 BYOK Server 集成
+
+**问题描述 / Problem Description**:
+Windsurf++ | 极为渴望和顺滑的 BYOK Server 集成 前文： https://linux.do/t/topic/2565152 24 年的时候 在用 cursor 疯狂 coding 很开心，一开始用无限续杯到变成忠实付费用户，后来有一个改了价格计算方式，500 次数 改成按量付费，一天就干完了用量。愣着干嘛 跑路呀！然后跑到了 windsurf 很快乐 依旧原始的计算方式，一开始感觉不如 cursor ，用了一段时间，感觉还行 逐渐变强了，也可能用习惯了。后来持续付费，结果又改了日/周额度限制，虽然现在还在付费使用，但是不够用了。 紧接着自己买了 Kimi 和 GPT 还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227327#reply0
+
+---
+
+#### 7235. [V2EX] Kimi K3 营销天花板？
+
+**问题描述 / Problem Description**:
+不得不说，Kimi K3 这一波营销玩得真秒啊！👍 妥妥的营销天花板！值得学习！ 话题度直接拉满，热度这不就一下子起来了吗？ 别等了，明天铁定不会发布，全都是营销套路而已。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227326#reply1
+
+---
+
+#### 7236. [V2EX] 要给单词生成助记图片的 prompt，有比 deepseek pro 智能又便宜的 api 吗？
+
+**问题描述 / Problem Description**:
+claude 和 gpt 的 api 似乎不好搞，风控严。glm52 价格似乎太高。 gemini 的 api 是否比 deepseek pro 智能一些呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227317#reply0
+
+---
+
+#### 7237. [V2EX] 截止到 7 月 14 日，公开评测中 Grok4.5 的能力特点分析
+
+**问题描述 / Problem Description**:
+Grok 4.5 的编程评测表现很有特点：它并不是所有榜单的第一，但在长周期 Agent 、终端操作、多服务集成和持续执行方面非常强。最近的结果里，它拿到 Long-Horizon Terminal-Bench 第 1 、APEX-SWE 第 2 ，在 Web 开发和真实代码仓库修复中也处于第一梯队。 它最大的优势不只是能力，而是性价比。相比 GPT-5.6 和 Fable 5 ，Grok 4.5 的 API 价格更低、Token 消耗更少，特别适合批量生成代码、并行处理多个仓库、自动运行测试和长时间执行任务。 它的短板也比较明显：在复杂架构理解、生产故障深度诊断、用户交互体验和高难任务的一次
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227313#reply4
+
+---
+
+#### 7238. [V2EX] 想了解下大家日常编码使用的 AI 工具
+
+**问题描述 / Problem Description**:
+先说说自己，深度的 claude code 用户 现在 99%的代码都是在 claude code 的 命令行下完成 因为没有尝试别的工具，所以想了解下。 大家平常工作用的什么工具，私底下又用的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227279#reply18
+
+---
+
+#### 7239. [V2EX] 大家对于 OpenAI 此次调整 codex 为 ChatGPT， ChatGPT 为 ChatGPT Classic 有什么想法呢？
+
+**问题描述 / Problem Description**:
+不知道现在大家使用 AI 是桌面端应用多一些，还是网页多一些，在各应用功能迭代如此快速的情况下，出现这样的调整对于大家的影响多么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227276#reply2
+
+---
+
+#### 7240. [V2EX] 大家的 Cursor 500 次请求套餐还续订吗？
+
+**问题描述 / Problem Description**:
+马上就要续费了，感觉只能用 opus4.6 有点鸡肋。有大佬 claude/codex 多持用户试过 claude 做 plan, cursor opus4.6 执行这样工作流么？想把手里的 claude 5x 降成 pro ，结合 cursor 用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227254#reply6
+
+---
+
+#### 7241. [V2EX] AI Agent 和 MCP 普及，独立站系统的护城河和未来在哪里？
+
+**问题描述 / Problem Description**:
+现在越来越多的独立站系统都在支持 MCP 、SDK agent 模式，按照这个路径发展下去，AI 几乎可以接管商品上架、TDK 生成、打单发货等日常运营。 同时，随着 ai 的发展手，搓独立站的难度感觉也越来越低，如果未来各个品牌的独立站底层技术差异越来越小。 真不知道 SaaS 独立站或者开源独立站系统的未来在哪里🤷‍ 或者换句话说，如果技术、使用的门槛越来越低，各类建站系统的厂牌，新的商业核心壁垒会转移到哪里？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227248#reply4
+
+---
+
+#### 7242. [V2EX] 关于 codex 和 claude code 的取舍
+
+**问题描述 / Problem Description**:
+首先是 codex 优点 1.相对 claude code 要便宜一些 2.电脑操作做的真不错,还不消耗额外 token 3.官方比较人性化,经常送重置卡 4.智能方面足够了,至少我的工作是够了 5.生成图方面蛮强大的 缺点 1.回答太慢了,尤其是 5.6 sol,生成一大堆,结果没出来,额度没了 2.前端能力还是不如 claude,经常有没对齐/间距奇怪的问题,虽然可以调,但是比较费时间 3.有些位置还是有些小瑕疵,虽然问题不大,不能像 claude 那样偶尔给人惊喜 claude 优点 1.速度相对来说快一点,代码生成相对来说精简一些 2.前端效果比较满意,审美大部分时候比较在线 3.fa
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227231#reply3
+
+---
+
+#### 7243. [V2EX] 分享一个做了 7 周的开源 Agent 项目 Maka，聊聊它的架构和一些实测数据
+
+**问题描述 / Problem Description**:
+最近在开发一个开源 Agent 项目 Maka ，想来 V2EX 分享一下，顺便听听大家的意见。 项目地址： https://github.com/maka-agent/maka-agent 欢迎大家 star 和 阅读学习。 先说数据，不吹：项目 5 月 27 日创建，到今天正好 7 周，666 star ，70 fork 。过去 9 天（ 7.6-7.14 ）提交了 300 个 commit ，111 个 fix ，103 个 feat ，日均 33 个 commit 。核心贡献者两三人，其余是陆续加入的社区开发者。 这是个什么东西 市面上 AI Desktop 已经很多了，Maka 想解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227230#reply0
+
+---
+
+#### 7244. [V2EX] win11+v2rayN, 已经是 tun+全局了，但 chatgpt work 有时还是 reconnecting ， why?
+
+**问题描述 / Problem Description**:
+怎么搞？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227228#reply6
+
+---
+
+#### 7245. [V2EX] win11 上用了 v2rayN , 开启了 tun， set system proxy，全局，网卡关 ipv6,虚拟卡关 ipv6. 但 https://ping0.cc/env 的 dns 测试仍然没通过， why?
+
+**问题描述 / Problem Description**:
+'''DNS 解析器 ↔ IP 国家 至少有一个 DNS 解析器落在 IP 出口国之外（例：IP 是美国但有解析器走中国电信），属于 DNS 泄漏。即使部分解析器在本国，只要混入外国解析器就足以让平台识别。修法：改用代理自带的 DNS 、或全局走 DoH/DoT 。 实测值：ip_country=US · dns_countries=CN · foreign_countries=CN 高危''', 请问 v2rayN 里的 dns 该怎么设置， 才能放置 DNS 泄露？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227214#reply0
+
+---
+
+#### 7246. [V2EX] coding agent 加广告似乎也没啥影响
+
+**问题描述 / Problem Description**:
+我觉得，对于一些 coding agent 在执行的时候，大部分是不会看执行过程和思考内容的。这个过程中完全可以播放广告，以来增加盈利方式，从而把 token 价格打下来。如果 token 降价，我是不介意我的五个终端在播放广告的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227208#reply7
+
+---
+
+#### 7247. [V2EX] 自己搞了个主页浏览器插件，不知道还有什么功能可以加进去优化下
+
+**问题描述 / Problem Description**:
+主体功能其实是自己的常用入口、签到、待办、天气是为了好看才加的，默认所有入口都是打开新的页签，保证主入口一直常驻。集思广益下看看有什么好玩的功能可以加下。 主要功能： 快捷入口管理：分类管理常用系统、网址和内网环境，支持拖拽排序。 命令面板搜索：Ctrl K 快速搜索并打开系统，支持键盘操作。 悬浮搜索助手：可拖动、可吸附边缘的小宠物搜索入口。 天气与待办小组件：展示天气、存活天数、待办事项和每日签到状态。 每日签到：支持一键触发常用站点签到。 个性化设置：支持主题、壁纸、搜索引擎和默认打开方式配置。 WebDAV 云同步：支持通过坚果云等 WebDAV 服务同步配置。 本地优先：数据优先保存
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227187#reply1
+
+---
+
+#### 7248. [V2EX] 大家用中转站不怕被掺水么, 信息安全怎么保障
+
+**问题描述 / Problem Description**:
+虽然我自己也有在用，但不知道大家是怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227175#reply59
+
+---
+
+#### 7249. [V2EX] kkRepo v0.3.0 版本发布，完全开源平替 Nexus 的制品仓库， UI 全新升级，新增 Google 的 Dart/Pub 私服支持。
+
+**问题描述 / Problem Description**:
+kkRepo 是什么？ kkRepo 是一款社区驱动、完全开源的自托管制品仓库，旨在解决 Sonatype Nexus 社区版的各类限制与痛点，为社区提供开放、可靠且可持续演进的制品管理方案。目前已支持 Maven 、npm 、PyPI 、Go 、Helm 、Cargo/Rust 、Dart/Pub 、Docker/OCI 、NuGet 、RubyGems 、Yum 和 Raw 等制品格式。 功能特性 支持 13+ 种主流仓库格式，覆盖 hosted 、proxy 和 group 仓库管理。 兼容 Sonatype Nexus API 协议、用户权限模型、和 /repository/<repo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227170#reply1
+
+---
+
+#### 7250. [V2EX] 第一次做 app/小程序，框架选型求大佬指导下
+
+**问题描述 / Problem Description**:
+自己有一些想法，想做个 app ，最好能支持小程序。 问了下 ai ，给我推荐的是 uni-app x ，ui 框架推荐的是 uni-ui 和 uv-ui ，请问下各位大佬，这个组合是最佳的方案吗？ uni-ui 和 uv-ui 推荐选哪个呢？ uni-ui 的组件有点少，uv-ui 看官网好像都没维护了，有更好的选择？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227118#reply40
+
+---
+
+#### 7251. [V2EX] 现在有好用的配置电脑环境变量的 skill 吗
+
+**问题描述 / Problem Description**:
+比方说读取现在电脑的环境，备份。 去到新的电脑安装这个 skill 读取备份精准恢复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227115#reply2
+
+---
+
+#### 7252. [V2EX] Grok 大瓜
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227096#reply52
+
+---
+
+#### 7253. [V2EX] 关于 Grok Build 的偷偷代码打包上传行为官方举措
+
+**问题描述 / Problem Description**:
+早在 7 月初开始，Grok Build 就被发现在运行过程中，将你的代码打包上传至 storage.googleapis.com ，这两天经过 X 的各种大 V 不断发布和转发，持续发酵，SpaceXAI 在昨夜进行了官方说明： https://x.com/SpaceXAI/status/2076692402442846289 https://x.com/elonmusk/status/2076739687658496209 但是官方并没有说明他们启用这个功能是何意味，以及背后的零数据政策是否真的如同他们一样开启就会全部删除？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227071#reply12
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 928**
+**总计条目 / Total entries: 948**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -14763,5 +14763,325 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-13927
+
+---
+
+#### 929. [Microsoft] CVE-2026-41109 - GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: GitHub Copilot and Visual Studio
+
+**漏洞描述 / Description**:
+[Microsoft] Improper neutralization of special elements in output used by a downstream component ('injection') in GitHub Copilot and Visual Studio allows an unauthorized attacker to bypass a security feature over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-41109
+
+---
+
+#### 930. [Microsoft] CVE-2026-58529 - Windows Active Directory Federation Services (ADFS) Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Active Directory Federation Services (AD FS)
+
+**漏洞描述 / Description**:
+[Microsoft] Out-of-bounds read in Active Directory Federation Services (AD FS) allows an authorized attacker to disclose information over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58529
+
+---
+
+#### 931. [Microsoft] CVE-2026-55121 - Microsoft Office Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office
+
+**漏洞描述 / Description**:
+[Microsoft] Out-of-bounds read in Microsoft Office allows an unauthorized attacker to disclose information locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-55121
+
+---
+
+#### 932. [Microsoft] CVE-2026-56181 - Windows Network Address Translation (NAT) Spoofing Vulnerability
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Windows Network Address Translation (NAT)
+
+**漏洞描述 / Description**:
+[Microsoft] Origin validation error in Windows Network Address Translation (NAT) allows an unauthorized attacker to perform spoofing over an adjacent network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-56181
+
+---
+
+#### 933. [Microsoft] CVE-2026-58638 - Windows Boot Loader Security Feature Bypass Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Boot Loader
+
+**漏洞描述 / Description**:
+[Microsoft] Missing cryptographic step in Windows Boot Loader allows an authorized attacker to bypass a security feature locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58638
+
+---
+
+#### 934. [Microsoft] CVE-2026-58637 - Windows Client-Side Caching Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Client-Side Caching (CSC) Service
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58637
+
+---
+
+#### 935. [Microsoft] CVE-2026-58634 - Desktop Window Manager Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Desktop Window Manager
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58634
+
+---
+
+#### 936. [Microsoft] CVE-2026-58633 - Desktop Window Manager Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Desktop Window Manager
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58633
+
+---
+
+#### 937. [Microsoft] CVE-2026-58632 - Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Win32K
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58632
+
+---
+
+#### 938. [Microsoft] CVE-2026-58629 - DirectX Graphics Kernel Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows DirectX
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows DirectX allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58629
+
+---
+
+#### 939. [Microsoft] CVE-2026-58628 - Windows Wireless Network Manager Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Wireless Networking
+
+**漏洞描述 / Description**:
+[Microsoft] Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Wireless Networking allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58628
+
+---
+
+#### 940. [Microsoft] CVE-2026-58627 - Windows DHCP Server Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows DHCP Server
+
+**漏洞描述 / Description**:
+[Microsoft] Uncontrolled resource consumption in Windows DHCP Server allows an unauthorized attacker to deny service over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58627
+
+---
+
+#### 941. [Microsoft] CVE-2026-58626 - Windows Remote Desktop Services Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Remote Desktop Services
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Remote Desktop Services allows an authorized attacker to execute code over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58626
+
+---
+
+#### 942. [Microsoft] CVE-2026-58619 - Windows Sensor Data Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Sensor Data Service
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Sensor Data Service allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58619
+
+---
+
+#### 943. [Microsoft] CVE-2026-58617 - M365 Copilot for iOS Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft 365 Copilot for iOS
+
+**漏洞描述 / Description**:
+[Microsoft] Improper access control in Microsoft 365 Copilot for iOS allows an unauthorized attacker to elevate privileges over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58617
+
+---
+
+#### 944. [Microsoft] CVE-2026-58613 - Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Cloud Files Mini Filter Driver
+
+**漏洞描述 / Description**:
+[Microsoft] Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58613
+
+---
+
+#### 945. [Microsoft] CVE-2026-47305 - Visual Studio Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Visual Studio
+
+**漏洞描述 / Description**:
+[Microsoft] Protection mechanism failure in Visual Studio allows an unauthorized attacker to execute code locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-47305
+
+---
+
+#### 946. [Microsoft] CVE-2026-58594 - Remote Desktop Client Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows RDP
+
+**漏洞描述 / Description**:
+[Microsoft] Integer overflow or wraparound in Windows RDP allows an unauthorized attacker to execute code over a network.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58594
+
+---
+
+#### 947. [Microsoft] CVE-2026-58541 - Microsoft DWM Core Library Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows DWM
+
+**漏洞描述 / Description**:
+[Microsoft] Access of resource using incompatible type ('type confusion') in Windows DWM allows an authorized attacker to elevate privileges locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58541
+
+---
+
+#### 948. [Microsoft] CVE-2026-58543 - Universal Print Management Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows USB Print Driver
+
+**漏洞描述 / Description**:
+[Microsoft] Concurrent execution using shared resource with improper synchronization ('race condition') in Windows USB Print Driver allows an authorized attacker to elevate privileges with a physical attack.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-58543
 
 ---

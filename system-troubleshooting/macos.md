@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6941**
+**总计条目 / Total entries: 6992**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -94521,5 +94521,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226595#reply6
+
+---
+
+#### 6942. Does anybody else miss Cover Flow?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvybpb/does_anybody_else_miss_cover_flow/
+
+---
+
+#### 6943. guys what happened : (
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwjwqw/guys_what_happened/
+
+---
+
+#### 6944. I fkn love my Mac.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvtwe7/i_fkn_love_my_mac/
+
+---
+
+#### 6945. Mac keeps acting up
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwid6w/mac_keeps_acting_up/
+
+---
+
+#### 6946. Blind VoiceOver user: how can I access hidden system dialogs and move windows properly on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw9851/blind_voiceover_user_how_can_i_access_hidden/
+
+---
+
+#### 6947. Using my "Page Up" and "Page Down" keys as part of a keyboard shortcut
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwn3ev/using_my_page_up_and_page_down_keys_as_part_of_a/
+
+---
+
+#### 6948. Cannot get wallpaper and screen saver to be different on MBA running Sonoma
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwmnqc/cannot_get_wallpaper_and_screen_saver_to_be/
+
+---
+
+#### 6949. Computer keeps crashing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwkkh3/computer_keeps_crashing/
+
+---
+
+#### 6950. Why is my spotlight broken?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwgsfe/why_is_my_spotlight_broken/
+
+---
+
+#### 6951. What LinearMouse settings do you use for the MX Master 3S?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw4p7p/what_linearmouse_settings_do_you_use_for_the_mx/
+
+---
+
+#### 6952. After testing local text-to-speech models on Apple Silicon, model quality wasn’t the only thing that mattered
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwf73p/after_testing_local_texttospeech_models_on_apple/
+
+---
+
+#### 6953. help! changes with office 365
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw3n7o/help_changes_with_office_365/
+
+---
+
+#### 6954. Do we finally have separate mouse and trackpad scrolls in the new macOS 27?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw1dim/do_we_finally_have_separate_mouse_and_trackpad/
+
+---
+
+#### 6955. macos gem --> podcast 23GB, i wonder how many more garbage under "System Data"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwjjsk/macos_gem_podcast_23gb_i_wonder_how_many_more/
+
+---
+
+#### 6956. App recommendations for video player with trim options and AND discrete length skip
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwa8kd/app_recommendations_for_video_player_with_trim/
+
+---
+
+#### 6957. Looking for an app to search and pull everything that is related to one specific search word (name).
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw7q22/looking_for_an_app_to_search_and_pull_everything/
+
+---
+
+#### 6958. Why is my MacBook Air writing right to left?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw6bmo/why_is_my_macbook_air_writing_right_to_left/
+
+---
+
+#### 6959. How can I reliably access my Mac Studio remotely—and recover it if it goes offline?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uvs9ly/how_can_i_reliably_access_my_mac_studio/
+
+---
+
+#### 6960. Strange view of attachments in Apple Mail after update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw5vvx/strange_view_of_attachments_in_apple_mail_after/
+
+---
+
+#### 6961. My Macbook trakpad and keyboard stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw5cw3/my_macbook_trakpad_and_keyboard_stopped_working/
+
+---
+
+#### 6962. Recommendation for an M4 Nvme-Hub that doesn't disconnect?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwa7l2/recommendation_for_an_m4_nvmehub_that_doesnt/
+
+---
+
+#### 6963. Keyboard shortcut for launching apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uw4trs/keyboard_shortcut_for_launching_apps/
+
+---
+
+#### 6964. [V2EX] 我的 macOS 27 b3 怎么不改地区就可以直接使用 News.app 了？
+
+**问题描述 / Problem Description**:
+只让 News.app 走了美国节点就能正常访问了，这是啥情况？ 另一台却不能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227295#reply1
+
+---
+
+#### 6965. [V2EX] 苹果的 UI 做的半拉嗑叽的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227243#reply1
+
+---
+
+#### 6966. [V2EX] macbook air m4 发热问题
+
+**问题描述 / Problem Description**:
+系统 27beta3 ，最近使用只是编辑文字，就感觉热热的，比之前热，是系统问题吗？还是有别的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226899#reply13
+
+---
+
+#### 6967. [V2EX] macOS 27 Beta 3 可能存在 Bug 导致 APFS 数据损坏，已经更新的需要立刻排查
+
+**问题描述 / Problem Description**:
+太长不看 如果你已经安装 macOS 27 Golden Gate Developer Beta 3 （ 26A5378j ），很可能会导致 APFS 数据损坏，立刻备份重要文件，没有更新的先不要更新。 我所知道的 macOS 27.0 Developer Beta 3 （ 26A5378j ）是 6 号推送的。 https://developer.apple.com/news/releases/ 7 月 9 日前后，我看到 Reddit 和 MacRumors 上有人说更新了 Beta 3 的设备有问题，出现数据损坏。 https://forums.macrumors.com/threads
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226234#reply22
+
+---
+
+#### 6968. [V2EX] macOS 图片浏览 Picview — 方向键翻页，滚轮缩放，抽奖送码啦
+
+**问题描述 / Problem Description**:
+1. 功能点 * 像 Windows 一样看图：方向键翻页，滚轮缩放，打开就能看。 * 支持格式很多：JPG 、PNG 、WEBP 、HEIC 、PSD 、GIF 、RAW 都能看。 * 贴图钉图：图片、文字一键贴到桌面，方便对比查看。 * OCR 识字翻译：截图文字可识别、复制、翻译。 * 界面干净轻快：看完即走，不打扰。 2. 下载地址： https://apps.apple.com/cn/app/picview-%E5%9B%BE%E7%89%87%E6%B5%8F%E8%A7%88%E5%99%A8/id6452016140?mt=12 3. B 站视频: https://www.bi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225974#reply41
+
+---
+
+#### 6969. [V2EX] 记录 macos beta3 午睡差点机毁人亡
+
+**问题描述 / Problem Description**:
+下午，午睡，macbook 什么也没跑，正常挂着 QQ 微信，safari 正常后台 这些都是日常的日常，标配的标配。 午睡起来，看到电脑在房间里，屏幕是品红色的，有点发紫色，非常高亮度 没开空调，房间燥热难耐，电脑是 mbp 16 寸 m4 pro ， 电脑非常烫手（预估 80 ，90 度+） 随即长按电源键放进冰箱降温。 惊险的一个午睡后，beta 系统还是小心，我听说 beta3 还有坏硬盘数据的案例？ 当然，话说在前头，自己用 beta 版系统自己得承担这些风险，我不抱怨，只是分享惊险的心理感受。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227273#reply10
+
+---
+
+#### 6970. [V2EX] 公司提供 5 周年礼物是一台美版 ipad11 的 esim 版，想卖掉发现不好出手。
+
+**问题描述 / Problem Description**:
+如题，竟然是美版的 ipad11 ，还是 esim 的，想不通为什么买了这个版本。貌似不能使用国内的运营商。导致出二手可能只和普通的 wifi 版的价格差不多。想自用但是有了 iPad mini7 和其他安卓平板，不太想用这个非贴合屏，比较纠结。还有其他比较好的处理方式吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227132#reply19
+
+---
+
+#### 6971. [V2EX] macOS Golden Gate beta 3 是更新了两回吗？
+
+**问题描述 / Problem Description**:
+还是头一回见这么神奇的情况。 我记得我上周二刚更新过 Beta 3 ，今天上班一看又更新，我以为出 Beta 4 了呢，一看还是 Beta 3. 我同事说，你肯定记错了，上次更 Beta 3 的时候你没点更新。。。说的我都懵了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227113#reply6
+
+---
+
+#### 6972. [V2EX] 27 public beta 好像已经出了，有没有人收到推送？
+
+**问题描述 / Problem Description**:
+RT ，大家试用了吗？感觉如何？ 如果没有很严重的续航尿崩我就升级了，iPhone air ，M5 macbook 和 iPad 很馋更流程的系统和可以触控的随行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227111#reply9
+
+---
+
+#### 6973. [V2EX] 做了个 iOS 聚合翻译 App:一句话同时问 Apple 翻译、DeepL 和一堆大模型,求 TestFlight 反馈
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 不说废话，简单介绍一下： 支持软件内翻译，画中画翻译，接入
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227047#reply23
+
+---
+
+#### 6974. [V2EX] 想搞个 AirPods Max，但是觉得有点贵，大家有没有靠谱的二手店
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226910#reply17
+
+---
+
+#### 6975. [V2EX] 2026 年 07 月购买了 Quantumult X
+
+**问题描述 / Problem Description**:
+i 以前 8 刀还是几刀的时候没买； 这么多年使用的过程，小火箭，loon ，surge ，loon 煎熬了这周前三天一直努力尝试 mihomo clash mi 各种 在决定购买 stash 之前还是买了 quantumult X. 目前在 iOS 端手搓配置，前辈们有没有经验分享。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225824#reply90
+
+---
+
+#### 6976. [V2EX] 草台班子之某闪购
+
+**问题描述 / Problem Description**:
+真的就没人审核、没人上报、没人处理这么大的错别字吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227324#reply5
+
+---
+
+#### 6977. [V2EX] 尝试只用 clash 核心筛选解锁 ChatGPT 的节点
+
+**问题描述 / Problem Description**:
+clash 的自动选择代理组有两个参数 url 是测速链接,expected-status 是测速的返回值,支持范围和准确数值,只有返回这些数值时才判定为 alive 询问 AI 得到 url: https://api.openai.com/v1/models expected-status: 401 我只用网页版的 ChatGPT,这个组合用了一段时间发现效果不是很好 尝试设置 chatgpt.com ,预期状态 200,发现所有节点均为 false 问题来了,用 api 使用相同的配置测速,一半以上节点都是 alive,把配置文件里面的预期状态改为 200-500,测速后得到正常的结果 经
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227321#reply0
+
+---
+
+#### 6978. [V2EX] 用 codex 做了个 Nuphy 键盘侧灯的 agent 状态同步
+
+**问题描述 / Problem Description**:
+https://github.com/itsmaiGe/NuphyBar 适配 air v2 系列的键盘，但我只有 air60v2 ，所以里面的固件也只有这个键盘 不过 codex 自己就能编译写入固件，适配其他键盘倒也不算麻烦 工作中→蓝色流光 等批准→橙色闪烁 已完成→绿色呼吸 空闲→恢复原厂灯效
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227302#reply1
+
+---
+
+#### 6979. [V2EX] 企微文档，你们有重大安全漏洞
+
+**问题描述 / Problem Description**:
+如题，一个涉及企业微信文档“子文档”权限的安全漏洞，无奈找了各种渠道，联系不上你们。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227287#reply1
+
+---
+
+#### 6980. [V2EX] AI interview prep 首月付费订阅分享
+
+**问题描述 / Problem Description**:
+给了 5 个 gift 要的留下邮箱 先到先得 点个赞就行 内容见 https://aiinterviewprep.substack.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227218#reply1
+
+---
+
+#### 6981. [V2EX] ChatGPT Codex 会小概率输出被污染的中文语料
+
+**问题描述 / Problem Description**:
+比如我就遇到 Codex 输出 精品国产
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227210#reply0
+
+---
+
+#### 6982. [V2EX] 中医税？
+
+**问题描述 / Problem Description**:
+这两天感冒发烧，在确诊乙型流感前后，去了两家不同的公立医院。 第一家医院（尚未确诊乙流）给我开了： 布洛芬（退烧）约 40 元； 一盒中成药，约 90 元。 第二天症状加重，我去了另一家医院，用试纸确诊乙型流感。医生开的药是： 布洛芬约 40 元； 奥司他韦约 14 元（抗病毒治疗）； 头孢约 6 元； 一盒中成药约 48 元。 整个过程里，我按医嘱服用了奥司他韦、布洛芬等药物，但两盒中成药一粒都没吃，现在已经痊愈。 这让我想起以前去医院看病，好像无论是感冒、发烧还是其他一些常见疾病，处方里经常都会搭配一盒价格并不便宜的中成药。 我并不是想讨论中医或中药本身，而是想讨论一种现象： 为什么中成药
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227206#reply70
+
+---
+
+#### 6983. [V2EX] 我发现 claude 封号策略，地区、位置、时区、ip 都不是充分条件
+
+**问题描述 / Problem Description**:
+我刚才猛然发现，我的 claude 桌面版隐私中一致勾选了，分享我的位置信息。而且登陆记录中，我也有多个 ip （跨州）登陆历史。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227177#reply4
+
+---
+
+#### 6984. [V2EX] 联想 M10 平板+拓展坞 = 遥遥领先
+
+**问题描述 / Problem Description**:
+https://www.bilibili.com/video/BV1vtN26MEgU 联想 M10 平板价格 300-500 元 拼接版价格在 3K 左右 主要还是 Logo 溢价太多了，卖 1000 估计没啥事。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227169#reply0
+
+---
+
+#### 6985. [V2EX] 同样是写项目报告这个任务， codex 写的既慢又不全面又很没条理，不如 cursor
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227107#reply7
+
+---
+
+#### 6986. [V2EX] docker 仓库这套体系设计的真差，这么多年了都还没有镜像统一缓存的方案。
+
+**问题描述 / Problem Description**:
+想在内网部署一个 docker 镜像的缓存层： 如果用 docker 官方的 registry:2 + proxy cache ，则只能缓存 docker 官方的仓库 registry-1.docker.io ，无法缓存别的仓库比如 registry.gitlab.com 、 ghcr.io 、 quay.io 、 registry.k8s.io 等等。 如果用 Harbor Proxy Cache 或 Nexus/JFrog ，在 docker pull 时需要更改镜像的 URL ，比如需要把： docker pull ghcr.io/home-assistant/home-assistan
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227057#reply5
+
+---
+
+#### 6987. [V2EX] 这下 ChatGPT 更像人类了。
+
+**问题描述 / Problem Description**:
+不知道能不能看到图片，下面是文字内容： 主要内容是 ChatGPT 回答我的问题时回复“分享图片仍只吃 front 。”我想了一下 ChatGPT 应该是是想说“分享图片仍支持 front 。” 我还是头次看到 ChatGPT 回复错别字。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227007#reply6
+
+---
+
+#### 6988. [V2EX] AI 自我诊断。发现以下提示词，输入到自己常用的 AI 进行诊断。结果确实有意思
+
+**问题描述 / Problem Description**:
+自我的诊断结果太私密了，不能贴出来。哈哈 You are my AI Meta-Coach, tasked with performing a deep, unfiltered personal growth diagnostic. Your mission is to leverage our entire conversational history to reveal my unconscious behavioral patterns that are silently sabotaging my potential. ### Diagnostic Parameters #### Bl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226955#reply2
+
+---
+
+#### 6989. [V2EX] tcptun v0.1.8 发布了，支持链式代理了。
+
+**问题描述 / Problem Description**:
+自动生成 server.json 和 client.json 配置: # 生成 Xray-compatible VLESS + REALITY 配置对 $ tcptun config vless \ --server proxy.example.com \ --port 9443 项目地址： https://tcptun.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226940#reply4
+
+---
+
+#### 6990. [V2EX] 12100 散片 835
+
+**问题描述 / Problem Description**:
+这个市场已经我已经理解不了，2030 年我再回来看看，看看 diy 市场是否依然逆天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226935#reply2
+
+---
+
+#### 6991. [V2EX] 做了一个劳动合同解除的网站，可以预测自己解除获得 2n 的可能性
+
+**问题描述 / Problem Description**:
+https://labourhelp.xyz/ 几乎是融合了市面上能有的专业材料做了一个大而全的劳动合同解除网页 选择劳动者身份后，和做问卷一样点击就行，最后输入你的工资数额之后就会有结论页面。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226849#reply7
+
+---
+
+#### 6992. [V2EX] 这张图值得让更多人看见， GPT>Claude，达子自食其果
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226838#reply8
 
 ---
