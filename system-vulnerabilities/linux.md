@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2305**
+**总计条目 / Total entries: 2333**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -42817,5 +42817,453 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/829367e55012c05
 **参考链接 / References**:
 - https://git.kernel.org/stable/c/829367e55012c053738ebe7db20c4a90d6609ece
 - https://git.kernel.org/stable/c/bbcbf045d6c778e82b47a35fc8728387708e9a3d
+
+---
+
+#### 2306. CVE-2026-15809 - cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via HOME env
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via HOME env. Bugzilla: 2500846
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500846
+
+---
+
+#### 2307. CVE-2026-50651 - dotnet: SocketsHttpHandler Http2Connection - HTTP/2 SETTINGS/PING ACK flood…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: SocketsHttpHandler Http2Connection - HTTP/2 SETTINGS/PING ACK flood causing OOM. Bugzilla: 2499217
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499217
+
+---
+
+#### 2308. CVE-2026-48125 - ua-parser-js: UAParser.js: Denial of Service via crafted Client Hints header
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ua-parser-js: UAParser.js: Denial of Service via crafted Client Hints header. Bugzilla: 2500746
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500746
+
+---
+
+#### 2309. CVE-2026-49476 - soupsieve: python-soupsieve: Soupsieve: Denial of Service via crafted CSS selector…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] soupsieve: python-soupsieve: Soupsieve: Denial of Service via crafted CSS selector string. Bugzilla: 2500715
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500715
+
+---
+
+#### 2310. CVE-2026-53486 - decompress: @xhmikosr/decompress: Decompress: Arbitrary file read/write via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] decompress: @xhmikosr/decompress: Decompress: Arbitrary file read/write via crafted archive extraction. Bugzilla: 2500679
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500679
+
+---
+
+#### 2311. CVE-2026-49978 - dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution. Bugzilla: 2500695
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500695
+
+---
+
+#### 2312. CVE-2026-49459 - dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution. Bugzilla: 2500676
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500676
+
+---
+
+#### 2313. CVE-2026-49458 - dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes. Bugzilla: 2500636
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500636
+
+---
+
+#### 2314. CVE-2026-47423 - dompurify: DOMPurify: Cross-site scripting vulnerability allows information…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting vulnerability allows information disclosure. Bugzilla: 2500564
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500564
+
+---
+
+#### 2315. CVE-2026-47736 - puma: Puma: Denial of Service due to unbounded memory growth in PROXY protocol v1
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] puma: Puma: Denial of Service due to unbounded memory growth in PROXY protocol v1. Bugzilla: 2500583
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500583
+
+---
+
+#### 2316. CVE-2026-47737 - puma: Puma: Source IP spoofing via PROXY protocol header re-parsing
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] puma: Puma: Source IP spoofing via PROXY protocol header re-parsing. Bugzilla: 2500584
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500584
+
+---
+
+#### 2317. CVE-2026-15713 - libsoup: SoupCache: libsoup: HTTP/2 frame window exhaustion remote denial of…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupCache: libsoup: HTTP/2 frame window exhaustion remote denial of service via memory leak. Bugzilla: 2499941
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499941
+
+---
+
+#### 2318. CVE-2026-15714 - libsoup: SoupMultipartInputStream: libsoup: Out-of-bounds read in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupMultipartInputStream: libsoup: Out-of-bounds read in soup_multipart_input_stream_read_headers via an oversized multipart boundary string. Bugzilla: 2499942
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499942
+
+---
+
+#### 2319. CVE-2026-15712 - SoupClientMessageIOHTTP2: libsoup3: libsoup: HTTP/2 GOAWAY frame parsing heap…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] SoupClientMessageIOHTTP2: libsoup3: libsoup: HTTP/2 GOAWAY frame parsing heap buffer over-read via invalid NUL-termination assumption. Bugzilla: 2499939
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499939
+
+---
+
+#### 2320. CVE-2026-15711 - libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via oversized control frame protocol violation. Bugzilla: 2499924
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499924
+
+---
+
+#### 2321. CVE-2026-15709 - SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate Unbounded Decompression Remote Denial of Service. Bugzilla: 2499922
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499922
+
+---
+
+#### 2322. CVE-2026-59674 - suricata: Suricata: Privilege escalation via symbolic link following
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] suricata: Suricata: Privilege escalation via symbolic link following. Bugzilla: 2499909
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499909
+
+---
+
+#### 2323. CVE-2026-12482 - keras: Keras: Arbitrary File Operations via Malicious Tar Archive Processing
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keras: Keras: Arbitrary File Operations via Malicious Tar Archive Processing. Bugzilla: 2499902
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499902
+
+---
+
+#### 2324. CVE-2026-15605 - wandb: wandb: Information disclosure due to weak hash in artifact integrity…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wandb: wandb: Information disclosure due to weak hash in artifact integrity validation. Bugzilla: 2499859
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499859
+
+---
+
+#### 2325. [Ubuntu] USN-8552-1: Sympa vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Sympa did not properly validate input on the generic SSO login. A remote attacker could possibly use this issue to perform a path traversal attack and gain unintended access.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8552-1
+
+---
+
+#### 2326. [Ubuntu] USN-8551-1: Tomcat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Tomcat incorrectly handled authorization when multiple method constraints defined the same HTTP method. A remote attacker could possibly use this issue to bypass authorization restrictions. (CVE-2026-43515) It was discovered that the Tomcat number guess example application did not properly sanitize user-supplied input. An attacker could possibly use this issue to inject mali
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8551-1
+
+---
+
+#### 2327. [Ubuntu] USN-8550-1: libslirp vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libslirp incorrectly handled TCP urgent data. A privileged attacker inside a guest VM could possibly use this issue to obtain sensitive information from the host process memory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8550-1
+
+---
+
+#### 2328. [Ubuntu] USN-8549-1: idna vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that idna did not properly reject oversized inputs before performing expensive processing. An attacker could possibly use this issue to cause idna to consume significant resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8549-1
+
+---
+
+#### 2329. [Ubuntu] USN-8548-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8548-1
+
+---
+
+#### 2330. [Ubuntu] USN-8547-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - RISC-V architecture; - Cryptographic API; - InfiniBand drivers; - IOMMU subsystem; - Network drivers; - STMicroelectronics network drivers; - NVME drivers; - x86 platform drivers; - SCSI subsystem; - SPI subsystem; - T
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8547-1
+
+---
+
+#### 2331. [Ubuntu] USN-8546-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Block layer subsystem; - Cryptographic API; - DMA engine subsystem; - InfiniBand drivers; - STMicroelectronics network drivers; - Network drivers; - NVME drivers; - SCSI subsystem; - USB over IP d
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8546-1
+
+---
+
+#### 2332. [Ubuntu] USN-8544-1: LuaJIT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that LuaJIT incorrectly handled certain inputs. An attacker could possibly use these issues to cause a crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8544-1
+
+---
+
+#### 2333. [Ubuntu] USN-8543-1: Wget vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Wget mishandled semicolons in the userinfo subcomponent of a URL. A remote attacker could possibly use this issue to trick a user into connecting to a different host than intended. This issue only affected Ubuntu 14.04 LTS. (CVE-2024-38428) It was discovered that Wget incorrectly handled Metalink documents containing a whitespace-only URL. A remote attacker could possibly us
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8543-1
 
 ---

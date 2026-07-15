@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7253**
+**总计条目 / Total entries: 7286**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -102228,5 +102228,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1227071#reply12
+
+---
+
+#### 7254. Linus Torvalds Reaffirms That Linux Is Not "Anti-AI" & Not A "Social Warrior" Project
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ux44og/linus_torvalds_reaffirms_that_linux_is_not_antiai/
+
+---
+
+#### 7255. Linux Patches Finally Allow Apple Magic Keyboard/Mouse Battery Monitoring Via Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxehsb/linux_patches_finally_allow_apple_magic/
+
+---
+
+#### 7256. Seriously, except package managers, what's the difference between distros?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ux5vns/seriously_except_package_managers_whats_the/
+
+---
+
+#### 7257. How KVM actually runs a virtual machine
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxba0e/how_kvm_actually_runs_a_virtual_machine/
+
+---
+
+#### 7258. FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uws7ff/freebsd_16_retires_the_last_of_its_gpl_code_from/
+
+---
+
+#### 7259. Odyssey Linux — a Void-based distro trying to make no-systemd approachable (with a verifiable supply chain)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxdvcu/odyssey_linux_a_voidbased_distro_trying_to_make/
+
+---
+
+#### 7260. cterm -- Tiny terminal emulator release!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ux2nut/cterm_tiny_terminal_emulator_release/
+
+---
+
+#### 7261. Is qualcomm X2 Elite chip going to get support?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxi2bq/is_qualcomm_x2_elite_chip_going_to_get_support/
+
+---
+
+#### 7262. COSMIC Epoch 1.3.0 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uws93e/cosmic_epoch_130_released/
+
+---
+
+#### 7263. Just had my first "oh wow I actually did it" moments
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwna3w/just_had_my_first_oh_wow_i_actually_did_it_moments/
+
+---
+
+#### 7264. A GTK4 frontend for Void's XBPS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ux030e/a_gtk4_frontend_for_voids_xbps/
+
+---
+
+#### 7265. TeXstudio Qt6 Builds with Native Poppler SyncTeX | APT Repository & AppImage for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uwnoq5/texstudio_qt6_builds_with_native_poppler_synctex/
+
+---
+
+#### 7266. [V2EX] debian+gnome 开机后可以不显示用户列表 只需要输入密码 像 mac 那样么？有什么插件实现么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222124#reply4
+
+---
+
+#### 7267. [V2EX] 现在不能看别人 github 仓库的 star 的人员列表了吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227591#reply1
+
+---
+
+#### 7268. [V2EX] 个人开发者 APP 推送怎么做？
+
+**问题描述 / Problem Description**:
+做了一个 APP ，但是目前在通知推送上遇到了问题 现在接的是极光推送，没有接入单独的手机厂商通道，推送之后只有在 app 打开的时候才能收到通知。 我看了下，小米开发者官网都需要企业营业执照（个体工商户还不行） 但我现在有本职工作，难以注册公司当法人等 大佬们有合适的的方法解决 App 推送问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227589#reply4
+
+---
+
+#### 7269. [V2EX] 求助，朋友想将公司业务搬到线上，应该如何报价
+
+**问题描述 / Problem Description**:
+朋友公司现在有一套业务，目前是通过微信群来管理，下午聊了下大概需求，就是工作人员需要进行上传现场的施工视频和与客户聊天相关图片，他想把这套业务做到线上来，想做个小程序、后台管理（可能会涉及到工作流相关的），，准备买一台 nas 服务器放到公司，把视频、图片文件都放到 nas 中，存储周期挺长的，防止后面撕逼用，域名之类的什么都没有，他想让我给他搞，我感觉这个周期比较长，三两天就无所谓了，但是报价这种又不知道报多少，求助 v 友这种整套流程报价多少合适
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227583#reply4
+
+---
+
+#### 7270. [V2EX] 最近给 专门为 C++模块化打造的构建工具 增加了 gcc16/mingw 支持, 可以一键在 Linux 上构建出 windows 的 exe 程序, 欢迎体验 mcpp
+
+**问题描述 / Problem Description**:
+mcpp 构建工具, 对增加了更多工具链的支持 目前已经覆盖主流的 linux/macos/winodws 支持部分的 跨 cpu 架构和操作系统的 交叉编译构建 C++项目, 欢迎大家体验反馈 mcpp 项目: https://github.com/mcpp-community/mcpp 最小验证 + 支持的工具链集合 mcpp new hello && cd hello mcpp build --target x86_64-windows-gnu wine target/../hello.exe Target Convention toolchain Status x86_64-linux
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227579#reply1
+
+---
+
+#### 7271. [V2EX] 给「一人全干」做了一套 Skill，优化了 Grok 4.5 的短板，让中阶模型也能发挥威力
+
+**问题描述 / Problem Description**:
+自从 Grok 4.5 发布之后，一直在高强度使用，总体感觉就一个字：快！ 但是快的背后也有代价。相对于 Fable 5 、GPT 5.6 Sol higher 这些更强的模型来说，Grok 在这些更难的任务上还是有一些差距： 长任务的理解和执行 更加复杂的架构理解 用户交互体验 问题深度诊断 于是乎，根据自己最近的项目全干工作经验，写了一套 skill 。这套 skill 可以从产品到实现全自动化，人只需要： 输入任务 评审每个阶段的结果和验收 这套 skill 同时弥补了中低阶模型相对于更高级强大模型之间的差距，相当大程度上解决了 Grok 4.5 一些短板的地方。 implement s
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227569#reply0
+
+---
+
+#### 7272. [V2EX] 分享一个小工具： AiRoute — 本地 AI 路由转发网关
+
+**问题描述 / Problem Description**:
+作为开发者，手里基本都有好几个模型 API ，编辑器也经常来回切换，每次换模型都要改配置、重启，挺烦的。 所以我做了一个本地中转层： AiRoute — 所有客户端只需连 localhost:3000 ，想换模型在面板点一下就行，不用改任何客户端配置。 完全免费，完全开源 ，MIT 协议。 核心思路 你的编辑器/客户端 → AiRoute (localhost:3000) → 你配置的多个模型 中间加一层本地网关，模型切换、智能路由、故障容灾都在这一层搞定。 几个我觉得比较实用的点 一键切换模型 — 面板点击或托盘右键，客户端无需改动 智能路由 — 设为 auto 模式，代码自动走强模型，中文
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227543#reply2
+
+---
+
+#### 7273. [V2EX] 开源一个面向流式场景的交互式 Markdown 组件
+
+**问题描述 / Problem Description**:
+面向流式场景的交互式 Markdown：在 AI 输出的 Markdown 中嵌入 单选 多选 开关 按钮 输入框等表单组件，用户可以直接点击选择，无需手工输入。 git 地址： https://github.com/baiyuxiong/interactive-markdown 欢迎大佬们品鉴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227541#reply0
+
+---
+
+#### 7274. [V2EX] chatgpt work 优先使用 websocket，那中国国内怎么设置 win11+v2rayN ，才能让 gpt app 的 websocket 保持稳定呢？
+
+**问题描述 / Problem Description**:
+有没有简单的命令行来检测当前的 gpt app 的会话走的是 websocket 还是 https ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227536#reply2
+
+---
+
+#### 7275. [V2EX] [开源] kkRepo v0.4.0 版本发布，开源平替 Nexus 的制品仓库，新增 PostgreSQL 支持，新增 Composer/ PHP 私服支持。
+
+**问题描述 / Problem Description**:
+kkRepo 是什么？ kkRepo 是一款社区驱动、完全开源的自托管制品仓库，旨在解决 Sonatype Nexus 社区版的各类限制与痛点，为社区提供开放、可靠且可持续演进的制品管理方案。目前已支持 Maven 、npm 、PyPI 、Go 、Helm 、Cargo/Rust 、Dart/Pub 、Docker/OCI 、Composer/PHP 、NuGet 、RubyGems 、Yum 和 Raw 等制品格式。 https://github.com/klboke/kkRepo 功能特性 支持 13+ 种主流仓库格式，覆盖 hosted 、proxy 和 group 仓库管理。 兼容 S
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227535#reply1
+
+---
+
+#### 7276. [V2EX] /goal 已经跑了 1d3h，完成 143 个 commit， 8w 行代码。跑的我道心破碎。
+
+**问题描述 / Problem Description**:
+趁着 codex 最近疯狂重置，尝试下新的 5.6 sol 的能力边界，已经用了大概有 20 亿 token 。完成 3/7 。稍微翻了下过程，会有些弯路，但基本上不会像之前一样擅自缩减技术方案。 整体的完成度要比我想象中高的多，之前类似的场景还需要很多次打断纠偏，而且最终跑下来最多就是一个 MVP 版本，这次我甚至觉得最终能够完成一个成熟的 cloud agent 产品。 历史的车轮滚滚而来，已经碾我脸上了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227533#reply21
+
+---
+
+#### 7277. [V2EX] crRequest 一款基于 chromium network 库和 UI views 实现的跨平台 API 测试工具
+
+**问题描述 / Problem Description**:
+1. 100% chromium 原生 network 代码 支持 QUIC ，HTTP/2 2. 用 chromium UI views 实现的界面，现在感觉做跨平台 APP 的 UI 挺容易上手 有什么建议 可以评论 可以提 issue https://github.com/libcr/crRequest 大家可以先关注，这个礼拜可以发布预览版本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227529#reply0
+
+---
+
+#### 7278. [V2EX] 我目前在创建一个酒店小程序，想推出可以预定多个酒店房型的功能，还涉及代金卷之类的。有大佬给点建议么
+
+**问题描述 / Problem Description**:
+本人正在做一个酒店管理的小程序，已经上架，目前想增加用户可以预定不同酒店房型的功能，代金卷功能做推广。后端程序涉及有经验的大佬给点可行的建议么。纯实战
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227524#reply3
+
+---
+
+#### 7279. [V2EX] [开源推广] rasen - 基于 spec 的 harness 工程，一句话全自动 vibe coding。
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/DumoeDss/rasen 文档站： https://rasen.io 安装： npm i -g @atelierai/rasen 第一次发帖，推广一下自己做的 harness/loops 框架，欢迎各位坛友试用，并给出一些反馈~ 这个框架算是蒸馏了我这一年多的 vibe coding 开发流程，也是边用边改，目前是我比较满意的版本。 先说明一下项目的起源（一些废话） 我使用 ClaudeCode 和 Codex 的开发的第一阶段是手搓流程。先让 agent 规划出文档，包含详细的任务列表。接着让 agent 开发，目标是任务列表全清。清完之
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227523#reply5
+
+---
+
+#### 7280. [V2EX] claude 和 chatgpt work 写代码的速度跟网速关系大吗？ 300Kbps 够不够？多小就开始影响写代码的速度了？
+
+**问题描述 / Problem Description**:
+1.claude 和 chatgpt work 写代码的速度跟网速关系大吗？ 300Kbps 够不够？多小就开始影响写代码的速度了？ 2.用 claude/gpt 的 cli 写代码是否比他们的 app 快？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227519#reply5
+
+---
+
+#### 7281. [V2EX] codex 到了下午基本处于无法干活的状态
+
+**问题描述 / Problem Description**:
+各种超时重连,ai 用习惯了,代码都懒得自己写了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227517#reply5
+
+---
+
+#### 7282. [V2EX] 现在哪个 ai agent 性价比比较高
+
+**问题描述 / Problem Description**:
+rt 之前一直用 cc ，今天在尝试了一下 zcode ，发现 token 消耗比 cc 少好多，相同模型的情况下，现在有什么性价比比较高的 agent 吗，兼顾产出和费用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227516#reply13
+
+---
+
+#### 7283. [V2EX] 现在如果买一个 20x 的 claude，那在 19 号 fable5 下线之前能用多少 fable5 呢？ fable5 的速度怎样？
+
+**问题描述 / Problem Description**:
+现在如果买一个 20x 的 claude ，那在 19 号 fable5 下线之前能用多少 fable5 呢？ fable5 的速度怎样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227509#reply2
+
+---
+
+#### 7284. [V2EX] golang 的语言排名很低，并且 go 的生态也不丰富，为什么现在很多公司做一些核心业务系统的都使用 go 来实现？
+
+**问题描述 / Problem Description**:
+现在入职的这家公司做的一些核心的业务系统，比如 SCRM 系统，以及各个事业部的一些业务系统都是使用 go 语言来实现。但是我个人认为 go 语言有自身的可取之处，但是对于一个核心业务系统，使用 go 语言反而提升了系统的复杂度。 是 go 自身的语言特性使然，还有就是 go 的生态对系统的各种要求也有一些没法满足的地方。 目前公司其实 go 语言的技术储备其实也不是很好，很多组件都需要自己开发和实现 很多外部接入的第三方对 go 的支持也不是很好 公司的技术经理和最高的技术负责人其实对 GO 的掌握也不是很好，只能说处于能做项目的阶段，但是对底层一些原理和更深层次的东西也是不是很理解 你们身
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227508#reply41
+
+---
+
+#### 7285. [V2EX] 抛砖引玉，大家觉得哪种后端语言对 vibe coding 更友好？个人认为还得是 go
+
+**问题描述 / Problem Description**:
+我这么觉得有三个原因： 1 语法死板且简洁，语法糖不多，大多数写法比较固定； 2 语言比较新，社区分裂不多，常用的库比较统一； 3 静态类似，编译执行，比动态语言能更多的提前发现问题； 对比我个人用过的其他的: 1 node:typescript,拉中拉，一个 any 改三四次都还报错； 2 java,太啰嗦，浪费 token
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227484#reply45
+
+---
+
+#### 7286. [V2EX] 专升本前端毕业 1 年，从初创到大厂，我的开源项目上了 github trending，顺利聊聊做开源的收获
+
+**问题描述 / Problem Description**:
+6 月 30 日，我做的开源项目 Archify 第一次出现在 GitHub Trending ，排名第 9 。到发帖这会儿，仓库有 4.7k Star 、414 个 Fork Archify 是什么 Archify 是一个给 Claude 、Codex 、opencode 使用的 Agent Skill 。你用自然语言描述系统或流程，它生成 JSON IR ，经过 Schema 和布局检查，最后输出一个独立 HTML ，可以切换深色和浅色主题，也可以复制或导出 PNG 、JPEG 、WebP 、SVG Trending 不是突然掉下来的 仓库创建于 4 月 15 日。最开始只有架构图，后来陆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227470#reply66
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 6992**
+**总计条目 / Total entries: 7043**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -95184,5 +95184,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1226838#reply8
+
+---
+
+#### 6993. What do you use to block network access for individual apps on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux9nkf/what_do_you_use_to_block_network_access_for/
+
+---
+
+#### 6994. Where my minimum opacity liquid glass supremacists at?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwp405/where_my_minimum_opacity_liquid_glass/
+
+---
+
+#### 6995. Auto Login Blocked: "This setting has been configured by a profile"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxk5mu/auto_login_blocked_this_setting_has_been/
+
+---
+
+#### 6996. how to save file types to specific folders?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxe3d3/how_to_save_file_types_to_specific_folders/
+
+---
+
+#### 6997. How to change the account signed in to TV.app?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxbtvx/how_to_change_the_account_signed_in_to_tvapp/
+
+---
+
+#### 6998. [Research] What features you wish would be in Finder?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxjer6/research_what_features_you_wish_would_be_in_finder/
+
+---
+
+#### 6999. [HELP] I deleted the volume (Macintosh HD - Data) from my mac mini (late 2018)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxfo25/help_i_deleted_the_volume_macintosh_hd_data_from/
+
+---
+
+#### 7000. Missing documents folder in finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxep80/missing_documents_folder_in_finder/
+
+---
+
+#### 7001. Does anyone know how to place the dock on the monitor at the top?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwsd6z/does_anyone_know_how_to_place_the_dock_on_the/
+
+---
+
+#### 7002. Shared Passwords: Unable to join
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux1w2b/shared_passwords_unable_to_join/
+
+---
+
+#### 7003. Completely thrown off by Tahoe’s Spotlight
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux7jpq/completely_thrown_off_by_tahoes_spotlight/
+
+---
+
+#### 7004. Is this some kind of a bug?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux434h/is_this_some_kind_of_a_bug/
+
+---
+
+#### 7005. Storage doesn't add up
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux7hl1/storage_doesnt_add_up/
+
+---
+
+#### 7006. Only iMessages work on MacBook, sms, rcs messages will not send.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxcwea/only_imessages_work_on_macbook_sms_rcs_messages/
+
+---
+
+#### 7007. There is an Os X El captain installer working today?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwtrlc/there_is_an_os_x_el_captain_installer_working/
+
+---
+
+#### 7008. "Error - 36" message, despite original file working (MacBook Pro)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwwsoc/error_36_message_despite_original_file_working/
+
+---
+
+#### 7009. Is networking broken for anyone else on 15.7.8
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwvqw4/is_networking_broken_for_anyone_else_on_1578/
+
+---
+
+#### 7010. Mi cargador de Mac parpadea en naranja
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux7abw/mi_cargador_de_mac_parpadea_en_naranja/
+
+---
+
+#### 7011. What is your workflow on mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1ux73kp/what_is_your_workflow_on_mac/
+
+---
+
+#### 7012. MacBook Pro document pathway messed up
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uwt1rk/macbook_pro_document_pathway_messed_up/
+
+---
+
+#### 7013. [V2EX] 求助， macos26，外接显示器，如何在本机屏幕和外接屏幕同时显示 docker？
+
+**问题描述 / Problem Description**:
+如题，两个屏幕位置比较远，只有一个 docker 非常不方便。 目前没找到设置入口，求教如何设置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227450#reply3
+
+---
+
+#### 7014. [V2EX] 我的 macOS 27 b3 怎么不改地区就可以直接使用 News.app 了？
+
+**问题描述 / Problem Description**:
+只让 News.app 走了美国节点就能正常访问了，这是啥情况？ 另一台却不能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227295#reply6
+
+---
+
+#### 7015. [V2EX] 苹果的 UI 做的半拉嗑叽的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227243#reply2
+
+---
+
+#### 7016. [V2EX] macbook air m4 发热问题
+
+**问题描述 / Problem Description**:
+系统 27beta3 ，最近使用只是编辑文字，就感觉热热的，比之前热，是系统问题吗？还是有别的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226899#reply14
+
+---
+
+#### 7017. [V2EX] macOS 27 Beta 3 可能存在 Bug 导致 APFS 数据损坏，已经更新的需要立刻排查
+
+**问题描述 / Problem Description**:
+太长不看 如果你已经安装 macOS 27 Golden Gate Developer Beta 3 （ 26A5378j ），很可能会导致 APFS 数据损坏，立刻备份重要文件，没有更新的先不要更新。 我所知道的 macOS 27.0 Developer Beta 3 （ 26A5378j ）是 6 号推送的。 https://developer.apple.com/news/releases/ 7 月 9 日前后，我看到 Reddit 和 MacRumors 上有人说更新了 Beta 3 的设备有问题，出现数据损坏。 https://forums.macrumors.com/threads
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226234#reply23
+
+---
+
+#### 7018. [V2EX] Notability App 美区买断 40% off, 仅限三天
+
+**问题描述 / Problem Description**:
+在 notability.com 买 Classic 版本 $29.99 (US only). 结账使用优惠码: CLASSIC40 另我有美区 Apple 礼品卡 95 折出
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227598#reply0
+
+---
+
+#### 7019. [V2EX] 闲鱼卖 iPhone 遇到骗子
+
+**问题描述 / Problem Description**:
+闲鱼出个美版 iPhone Air ，面交前付款，见面后确认 ok ，就直接重置了系统，他自己设了新密码和 apple id （当时没发现），等确认收款时找理由无法确认收货，要求走微信（这时已识别出是骗子），我直接拒绝并拿走了手机，回去一看才发现密码被他设成了新的。 报警后警察认为没有造成资产损失（也是人生第一次报警），让先联系平台，目前平台客服处理中，买家闲鱼账号已读不回。 教训： 不要走任何除了闲鱼外的平台，不要加微信，不要加微信，不要加微信（ lz 对这个很敏感，没有中招） 确认收货前，不要重置系统，不要重置系统，不要重置系统。 目前手机还在 lz 这里，但密码不知道。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227563#reply18
+
+---
+
+#### 7020. [V2EX] 中国网信网：关于发布 7 款提供手机端侧生成式人工智能服务已备案信息的公告
+
+**问题描述 / Problem Description**:
+公告原文链接： https://www.cac.gov.cn/2026-07/15/c_1785861480767004.htm Apple 设备端侧 AI 快来了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227515#reply3
+
+---
+
+#### 7021. [V2EX] [苹果智能国内备案，阿里千问能力集成其中]
+
+**问题描述 / Problem Description**:
+[苹果智能国内备案，阿里千问能力集成其中] 华尔街见闻获悉，阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS 、iPadOS 、macOS 和 visionOS 的中国用户带来智能体验。用户无需在应用间切换，即可在 Apple 设备上直接体验千问的文本与图像理解、内容生成等能力。 7 月 15 日，据网信中国，促进生成式人工智能服务创新发展和规范应用，网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，有序开展生成式人工智能服务备案工作，现将新增的“Apple 智能”等 7 款提供手机端侧生成式人工智能服务备案信息予以公告。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227507#reply7
+
+---
+
+#### 7022. [V2EX] apple 智能备案通过了，“今年晚些时候上线 apple 智能”，真的是今年了。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227497#reply0
+
+---
+
+#### 7023. [V2EX] Apple 智能备案了
+
+**问题描述 / Problem Description**:
+https://www.ithome.com/0/977/080.htm IT 之家 7 月 15 日消息，促进生成式人工智能服务创新发展和规范应用，网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，有序开展生成式人工智能服务备案工作，现将新增的“Apple 智能”等 7 款提供手机端侧生成式人工智能服务备案信息予以公告。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227490#reply17
+
+---
+
+#### 7024. [V2EX] Apple Fitness+ 挺好用的
+
+**问题描述 / Problem Description**:
+几年前就用过，不过都是零零碎碎送的一个月或者三个月的会员，就只是尝鲜，没特别的感受。 今年开了 Apple One ，加上有减肥计划，从 3 月 2 号开始，到现在四个多月，已经有点离不开的感觉了。 目前用到的运动类型 动感单车 前三个月用的多，减重很有效，30 分钟或者 45 分钟，消耗 300/450 大卡，最近体重下来就不怎么骑了 划船机 闲鱼买了个二手的放家里，大部分时间吃灰，偶尔心血来潮练一下，练一次 20 或 30 分钟，也是每分钟 10 大卡左右的消耗 力量训练和核心训练 最近开始用，感觉效果不错 Mindful Cooldown 力量和核心练完会跟着拉伸，其他训练一般就自己拉伸
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227379#reply12
+
+---
+
+#### 7025. [V2EX] IOS27 还能用 AI 吗？
+
+**问题描述 / Problem Description**:
+之前外版+商店外区 ID 就可以用，至少能整个照片清除。 那新的 27 是什么方案呢？还是原来的 Siri 报错，照片的几个功能貌似也用不了？ 加规则了已经～ 我 Siri 语言用 us 就是旧版本的，换 uk 是新的，但是啥也用不了，新的不奢求，能用照片的那几个也可以啊～ 另外切换语言后，自动化怎么也没有了～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227365#reply6
+
+---
+
+#### 7026. [V2EX] 记录 macos beta3 午睡差点机毁人亡
+
+**问题描述 / Problem Description**:
+下午，午睡，macbook 什么也没跑，正常挂着 QQ 微信，safari 正常后台 这些都是日常的日常，标配的标配。 午睡起来，看到电脑在房间里，屏幕是品红色的，有点发紫色，非常高亮度 没开空调，房间燥热难耐，电脑是 mbp 16 寸 m4 pro ， 电脑非常烫手（预估 80 ，90 度+） 随即长按电源键放进冰箱降温。 惊险的一个午睡后，beta 系统还是小心，我听说 beta3 还有坏硬盘数据的案例？ 当然，话说在前头，自己用 beta 版系统自己得承担这些风险，我不抱怨，只是分享惊险的心理感受。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227273#reply18
+
+---
+
+#### 7027. [V2EX] 公司提供 5 周年礼物是一台美版 ipad11 的 esim 版，想卖掉发现不好出手。
+
+**问题描述 / Problem Description**:
+如题，竟然是美版的 ipad11 ，还是 esim 的，想不通为什么买了这个版本。貌似不能使用国内的运营商。导致出二手可能只和普通的 wifi 版的价格差不多。想自用但是有了 iPad mini7 和其他安卓平板，不太想用这个非贴合屏，比较纠结。还有其他比较好的处理方式吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227132#reply22
+
+---
+
+#### 7028. [V2EX] 做了个 iOS 聚合翻译 App:一句话同时问 Apple 翻译、DeepL 和一堆大模型,求 TestFlight 反馈
+
+**问题描述 / Problem Description**:
+Hi ，v2ex 的朋友们大家好！ 最近开发了一款 iOS 原生 App——纯粹翻译，一款多功能聚合翻译工具。顾名思义，这款 App 非常"纯粹"，只做一件事：翻译。 为什么要做这款软件？ 因为直到今天，我都没有在 iOS 上找到一款让自己满意的翻译软件。我的要求其实很简单： 原生开发，界面简洁、布局合理，小而美，最好能适配液态玻璃设计 支持的翻译平台足够丰富，既能用传统翻译引擎，也能接入大模型翻译，用户可以自行添加 能接入 iOS 系统翻译扩展 尝试过不少翻译 App ，但始终没有一款能同时满足这几点，于是"纯粹翻译"就这样诞生了。 不说废话，简单介绍一下： 支持软件内翻译，画中画翻译，接入
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227047#reply29
+
+---
+
+#### 7029. [V2EX] 避雷 [business.newcli.com] 假的活动
+
+**问题描述 / Problem Description**:
+原贴： https://v2ex.com/t/1227416?p=2#reply168 时间过去了 12 小时，至今未收到说赠送的金额，同时看历史回帖也没有说送过，怀疑纯粹就是假活动，然后拉人助人气
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227588#reply2
+
+---
+
+#### 7030. [V2EX] 小米这种企业，连这么高规格的世界人工智能大会的购票 APP，都配合高仿诈骗，已被骗，广而告之
+
+**问题描述 / Problem Description**:
+[img]https://i.imgs.ovh/2026/07/15/7690f1d35301610dc19726509622a21a.jpg[/img]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227574#reply8
+
+---
+
+#### 7031. [V2EX] 用了 10 亿 token，祛魅了
+
+**问题描述 / Problem Description**:
+这个月用了不少 token 。 尤其是 openai 一直送重置 但最大的收获，反而是对 AI 祛魅了。 它不是一个能替你跨越所有能力边界的东西，更像一个能力放大器：你原本有判断、有方法、有执行，它会让你走得更快；你原本没有想清楚，它也只会更快地放大混乱。 这个月做了一些偏实用的探索： 群聊总结、股票跟踪系统，以及对 Agent 、Skill 、Harness 、GitHub 工作流的系统理解。 从一开始关注“能做什么”，到后来更关心“为什么做、怎么组织、何时不用”。 大概也是从术，稍微往道靠近了一点。 token 数只是消耗记录，真正留下来的，是判断力和方法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227521#reply4
+
+---
+
+#### 7032. [V2EX] imya，去年 4 月份我开始做出海，通过慢慢做的，也是做出一定成绩，至少比之前打工收入高了。
+
+**问题描述 / Problem Description**:
+时隔一年，我终于敢有勇气做品牌战了， https://imya.ai ，做的后面发现发现赚钱的战，还是要学习大厂已经验证过的需求，不要自己瞎想，因为，人家都是靠人才和资金才研究透的，我一个什么都没有的人，怎么可能找到，如果能行，我也不会被公司裁员了😂，AI Image, Video & Music Generator Studio ，就这样做，至少怎么获取流量，我还在摸索，纯靠 seo ，其实很难，特别是这样大战，如果你们有什么比较好的想法和我沟通吧，而且我的产品视频免费不了，因为成本太高，我这个小开发者不太行啊，免费图片还可以可以给大家的哈哈哈，大家不要嫌弃我扣，实在是能力有限😂。 最后这三
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227514#reply15
+
+---
+
+#### 7033. [V2EX] V2 的成分怎么变成了 中医、算命、🐢、币圈赌狗
+
+**问题描述 / Problem Description**:
+L 站也变成薅子，垃圾信息太多了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227505#reply19
+
+---
+
+#### 7034. [V2EX] 一套键鼠多台电脑共用的无成本解决方案，立省 300 元
+
+**问题描述 / Problem Description**:
+目前是公司台式+个人笔记本同时办公 本来用的是逻辑 anywhere 来解决两台电脑之间鼠标控制的问题 但目前的工位只放了一个 USB 外接键盘 笔记本电脑为了防止低头又架得很高，矮子臂长不够，打字困难（如图） 于是搜了一下这种情况怎么解决，怎么能实现硬件不变的情况下解决两台电脑共享一个 USB 键盘的问题 不然只能再配一个支持 logitech flow 的键盘了，肉痛 然后发现一个很牛逼的开源软件：deskflow https://github.com/deskflow/deskflow 鼠标移动到哪个电脑，键盘就在那台电脑上生效 非常爽 还支持剪切粘贴版的共用，可以完美替代 logite
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227420#reply27
+
+---
+
+#### 7035. [V2EX] 最近搬家，把客厅搞成了电竞房分享一下
+
+**问题描述 / Problem Description**:
+设备都是之前买的，这次就在多多买了个洞洞板搞上去还挺有模有样的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227380#reply78
+
+---
+
+#### 7036. [V2EX] 今日 coinbase 开放中国用户注册
+
+**问题描述 / Problem Description**:
+中国用户支持，大陆手机号和身份证可以直接注册 认证方式：身份证或护照 验证方式需要上传信用卡账单（带个人地址信息） 需要注意：中国用户现在只能转入、转出和买卖交易；不支持银行法币入金。 链接 https://advanced.coinbase.com/join/MJDVLZW
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227369#reply6
+
+---
+
+#### 7037. [V2EX] [Emby <- SEO ] 龟仙屋影音库，现免费发放一个月观影卡
+
+**问题描述 / Problem Description**:
+🎬 龟仙屋影视库(公益服 可靠签到持续白嫖) 基于 Jellyfin 搭建，专注于稳定流畅的观影体验。 ✨ 服务特色 • 多入口优化速度(不保证直连稳定) • 纯硬盘服务器架构 • 持续优化播放速度与稳定性 • 自动化资源管理与更新 📚 当前资源规模 电影：7000+ 电视剧：1000+ 剧集：18000+ 资源仍在持续增长中。 🎞 内容覆盖 • 日番 • 国漫 • 美剧 • 纪录片 • 电影 • 热门剧集 ⚡ 更新速度快 多数资源可保持较快同步更新。 🤖 机器人自助开通账号 https://t.me/gxwplay_bot
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227354#reply10
+
+---
+
+#### 7038. [V2EX] 草台班子之某闪购
+
+**问题描述 / Problem Description**:
+真的就没人审核、没人上报、没人处理这么大的错别字吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227324#reply15
+
+---
+
+#### 7039. [V2EX] 尝试只用 clash 核心筛选解锁 ChatGPT 的节点
+
+**问题描述 / Problem Description**:
+clash 的自动选择代理组有两个参数 url 是测速链接,expected-status 是测速的返回值,支持范围和准确数值,只有返回这些数值时才判定为 alive 询问 AI 得到 url: https://api.openai.com/v1/models expected-status: 401 我只用网页版的 ChatGPT,这个组合用了一段时间发现效果不是很好 尝试设置 chatgpt.com ,预期状态 200,发现所有节点均为 false 问题来了,用 api 使用相同的配置测速,一半以上节点都是 alive,把配置文件里面的预期状态改为 200-500,测速后得到正常的结果 经
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227321#reply3
+
+---
+
+#### 7040. [V2EX] 用 codex 做了个 Nuphy 键盘侧灯的 agent 状态同步
+
+**问题描述 / Problem Description**:
+https://github.com/itsmaiGe/NuphyBar 适配 air v2 系列的键盘，但我只有 air60v2 ，所以里面的固件也只有这个键盘 不过 codex 自己就能编译写入固件，适配其他键盘倒也不算麻烦 工作中→蓝色流光 等批准→橙色闪烁 已完成→绿色呼吸 空闲→恢复原厂灯效
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227302#reply3
+
+---
+
+#### 7041. [V2EX] AI interview prep 首月付费订阅分享
+
+**问题描述 / Problem Description**:
+给了 5 个 gift 要的留下邮箱 先到先得 点个赞就行 内容见 https://aiinterviewprep.substack.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227218#reply2
+
+---
+
+#### 7042. How to prevent the local device scan dialog from appearing when launching Android Studio on macOS 27 beta?
+
+**问题描述 / Problem Description**:
+Tags: macos, ssh, beta | Score: 0 | Views: 20 | Answers: 1 | Created: 2026-07-15
+
+**解决方案 / Solution**:
+You are using a beta version of the next version of macOS, issues like this are to be expected. Report the issue both to Apple (via the Feedback Assistant) and to the developer of Android Studio so it can be fixed before Golden Gate is released in Autumn.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486759/how-to-prevent-the-local-device-scan-dialog-from-appearing-when-launching-androi
+
+---
+
+#### 7043. Strange Files in /tmp Folder
+
+**问题描述 / Problem Description**:
+Tags: macos, malware, tahoe | Score: 0 | Views: 43 | Answers: 1 | Created: 2026-07-14
+
+**解决方案 / Solution**:
+I don't think this is malware. As best I can tell, it's support for WiFi 7 and perhaps a future 5G modem in the M5 MacBooks, not applicable to any previous model. The latest rumors we heard about the M5 MacBook Pro (computeruser.com) Research State — MacBook Air M5 (github.com)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486754/strange-files-in-tmp-folder
 
 ---

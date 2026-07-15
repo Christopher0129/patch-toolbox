@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 948**
+**总计条目 / Total entries: 950**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -15083,5 +15083,37 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-58543
+
+---
+
+#### 949. [Microsoft] CVE-2026-13221 - Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-13221
+
+---
+
+#### 950. [Microsoft] CVE-2026-57432 - Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-57432
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2497**
+**总计条目 / Total entries: 2567**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -38419,5 +38419,1007 @@ It was discovered that Wget mishandled semicolons in the userinfo subcomponent o
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8543-1
+
+---
+
+#### 2498. CVE-2026-15809 - cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via HOME env
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via HOME env. Bugzilla: 2500846
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500846
+
+---
+
+#### 2499. CVE-2026-50651 - dotnet: SocketsHttpHandler Http2Connection - HTTP/2 SETTINGS/PING ACK flood…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dotnet: SocketsHttpHandler Http2Connection - HTTP/2 SETTINGS/PING ACK flood causing OOM. Bugzilla: 2499217
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499217
+
+---
+
+#### 2500. CVE-2026-48125 - ua-parser-js: UAParser.js: Denial of Service via crafted Client Hints header
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ua-parser-js: UAParser.js: Denial of Service via crafted Client Hints header. Bugzilla: 2500746
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500746
+
+---
+
+#### 2501. CVE-2026-49476 - soupsieve: python-soupsieve: Soupsieve: Denial of Service via crafted CSS selector…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] soupsieve: python-soupsieve: Soupsieve: Denial of Service via crafted CSS selector string. Bugzilla: 2500715
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500715
+
+---
+
+#### 2502. CVE-2026-53486 - decompress: @xhmikosr/decompress: Decompress: Arbitrary file read/write via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] decompress: @xhmikosr/decompress: Decompress: Arbitrary file read/write via crafted archive extraction. Bugzilla: 2500679
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500679
+
+---
+
+#### 2503. CVE-2026-49978 - dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution. Bugzilla: 2500695
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500695
+
+---
+
+#### 2504. CVE-2026-49459 - dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution. Bugzilla: 2500676
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500676
+
+---
+
+#### 2505. CVE-2026-49458 - dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes. Bugzilla: 2500636
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500636
+
+---
+
+#### 2506. CVE-2026-47423 - dompurify: DOMPurify: Cross-site scripting vulnerability allows information…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-site scripting vulnerability allows information disclosure. Bugzilla: 2500564
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500564
+
+---
+
+#### 2507. CVE-2026-47736 - puma: Puma: Denial of Service due to unbounded memory growth in PROXY protocol v1
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] puma: Puma: Denial of Service due to unbounded memory growth in PROXY protocol v1. Bugzilla: 2500583
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500583
+
+---
+
+#### 2508. CVE-2026-47737 - puma: Puma: Source IP spoofing via PROXY protocol header re-parsing
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] puma: Puma: Source IP spoofing via PROXY protocol header re-parsing. Bugzilla: 2500584
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500584
+
+---
+
+#### 2509. CVE-2026-15713 - libsoup: SoupCache: libsoup: HTTP/2 frame window exhaustion remote denial of…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupCache: libsoup: HTTP/2 frame window exhaustion remote denial of service via memory leak. Bugzilla: 2499941
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499941
+
+---
+
+#### 2510. CVE-2026-15714 - libsoup: SoupMultipartInputStream: libsoup: Out-of-bounds read in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupMultipartInputStream: libsoup: Out-of-bounds read in soup_multipart_input_stream_read_headers via an oversized multipart boundary string. Bugzilla: 2499942
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499942
+
+---
+
+#### 2511. CVE-2026-15712 - SoupClientMessageIOHTTP2: libsoup3: libsoup: HTTP/2 GOAWAY frame parsing heap…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] SoupClientMessageIOHTTP2: libsoup3: libsoup: HTTP/2 GOAWAY frame parsing heap buffer over-read via invalid NUL-termination assumption. Bugzilla: 2499939
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499939
+
+---
+
+#### 2512. CVE-2026-15711 - libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsoup: SoupWebsocketConnection: libsoup: WebSocket remote denial of service via oversized control frame protocol violation. Bugzilla: 2499924
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499924
+
+---
+
+#### 2513. CVE-2026-15709 - SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] SoupWebsocketExtensionDeflate: libsoup: libsoup: WebSocket permessage-deflate Unbounded Decompression Remote Denial of Service. Bugzilla: 2499922
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499922
+
+---
+
+#### 2514. CVE-2026-59674 - suricata: Suricata: Privilege escalation via symbolic link following
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] suricata: Suricata: Privilege escalation via symbolic link following. Bugzilla: 2499909
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499909
+
+---
+
+#### 2515. CVE-2026-12482 - keras: Keras: Arbitrary File Operations via Malicious Tar Archive Processing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keras: Keras: Arbitrary File Operations via Malicious Tar Archive Processing. Bugzilla: 2499902
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499902
+
+---
+
+#### 2516. CVE-2026-15605 - wandb: wandb: Information disclosure due to weak hash in artifact integrity…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] wandb: wandb: Information disclosure due to weak hash in artifact integrity validation. Bugzilla: 2499859
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499859
+
+---
+
+#### 2517. [Ubuntu] USN-8552-1: Sympa vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Sympa did not properly validate input on the generic SSO login. A remote attacker could possibly use this issue to perform a path traversal attack and gain unintended access.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8552-1
+
+---
+
+#### 2518. [Ubuntu] USN-8551-1: Tomcat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Tomcat incorrectly handled authorization when multiple method constraints defined the same HTTP method. A remote attacker could possibly use this issue to bypass authorization restrictions. (CVE-2026-43515) It was discovered that the Tomcat number guess example application did not properly sanitize user-supplied input. An attacker could possibly use this issue to inject mali
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8551-1
+
+---
+
+#### 2519. [Ubuntu] USN-8550-1: libslirp vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libslirp incorrectly handled TCP urgent data. A privileged attacker inside a guest VM could possibly use this issue to obtain sensitive information from the host process memory.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8550-1
+
+---
+
+#### 2520. [Ubuntu] USN-8549-1: idna vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that idna did not properly reject oversized inputs before performing expensive processing. An attacker could possibly use this issue to cause idna to consume significant resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8549-1
+
+---
+
+#### 2521. [Ubuntu] USN-8548-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8548-1
+
+---
+
+#### 2522. [Ubuntu] USN-8547-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - RISC-V architecture; - Cryptographic API; - InfiniBand drivers; - IOMMU subsystem; - Network drivers; - STMicroelectronics network drivers; - NVME drivers; - x86 platform drivers; - SCSI subsystem; - SPI subsystem; - T
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8547-1
+
+---
+
+#### 2523. [Ubuntu] USN-8546-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Block layer subsystem; - Cryptographic API; - DMA engine subsystem; - InfiniBand drivers; - STMicroelectronics network drivers; - Network drivers; - NVME drivers; - SCSI subsystem; - USB over IP d
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8546-1
+
+---
+
+#### 2524. [Ubuntu] USN-8544-1: LuaJIT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LuaJIT incorrectly handled certain inputs. An attacker could possibly use these issues to cause a crash, resulting in a denial of service, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8544-1
+
+---
+
+#### 2525. CVE-2005-0749
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The load_elf_library in the Linux kernel before 2.6.11.6 allows local users to cause a denial of service (kernel crash) via a crafted ELF library or executable, which causes a free of an invalid pointer.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.11.6
+- http://secunia.com/advisories/14713/
+- http://secunia.com/advisories/19607
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+
+---
+
+#### 2526. CVE-2004-0812
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the Linux kernel before 2.4.23, on the AMD AMD64 and Intel EM64T architectures, associated with "setting up TSS limits," allows local users to cause a denial of service (crash) and possibly execute arbitrary code.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%403fad673ber4GuU7iWppydzNIyLntEQ
+- http://secunia.com/advisories/13359
+- http://www.ciac.org/ciac/bulletins/p-047.shtml
+- http://www.redhat.com/support/errata/RHSA-2004-549.html
+- http://www.securityfocus.com/bid/11794
+
+---
+
+#### 2527. CVE-2004-1235
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+
+**漏洞描述 / Description**:
+Race condition in the (1) load_elf_library and (2) binfmt_aout function calls for uselib in Linux kernel 2.4 through 2.429-rc2 and 2.6 through 2.6.10 allows local users to execute arbitrary code by manipulating the VMA descriptor.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://isec.pl/vulnerabilities/isec-0021-uselib.txt
+- http://marc.info/?l=bugtraq&m=110512575901427&w=2
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+
+---
+
+#### 2528. CVE-2005-0003
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The 64 bit ELF support in Linux kernel 2.6 before 2.6.10, on 64-bit architectures, does not properly check for overlapping VMA (virtual memory address) allocations, which allows local users to cause a denial of service (system crash) or execute arbitrary code via a crafted ELF or a.out file.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.4/cset%4041c36fb6q1Z68WUzKQFjJR-40Ev3tw
+- http://linux.bkbits.net:8080/linux-2.6/cset%4041a6721cce-LoPqkzKXudYby_3TUmg
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2529. CVE-2005-0124
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The coda_pioctl function in the coda functionality (pioctl.c) for Linux kernel 2.6.9 and 2.4.x before 2.4.29 may allow local users to cause a denial of service (crash) or execute arbitrary code via negative vi.in_size or vi.out_size values, which may trigger a buffer overflow.
+
+**参考链接 / References**:
+- http://seclists.org/lists/linux-kernel/2004/Dec/3914.html
+- http://seclists.org/lists/linux-kernel/2005/Jan/1089.html
+- http://seclists.org/lists/linux-kernel/2005/Jan/2018.html
+- http://seclists.org/lists/linux-kernel/2005/Jan/2020.html
+- http://secunia.com/advisories/17002
+
+---
+
+#### 2530. CVE-2005-1126
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The SIOCGIFCONF ioctl (ifconf function) in FreeBSD 4.x through 4.11 and 5.x through 5.4 does not properly clear a buffer before using it, which allows local users to obtain portions of sensitive kernel memory.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:04.ifconf.asc
+- http://lists.apple.com/archives/security-announce/2005/Oct/msg00000.html
+- http://secunia.com/advisories/14959
+- http://secunia.com/advisories/17368
+- http://www.osvdb.org/15514
+
+---
+
+#### 2531. CVE-2005-0001
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+
+**漏洞描述 / Description**:
+Race condition in the page fault handler (fault.c) for Linux kernel 2.2.x to 2.2.7, 2.4 to 2.4.29, and 2.6 to 2.6.10, when running on multiprocessor machines, allows local users to execute arbitrary code via concurrent threads that share the same virtual memory space and simultaneously request stack expansion.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://isec.pl/vulnerabilities/isec-0022-pagefault.txt
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030826.html
+- http://marc.info/?l=bugtraq&m=110554694522719&w=2
+- http://marc.info/?l=bugtraq&m=110581146702951&w=2
+
+---
+
+#### 2532. CVE-2005-0061
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The kernel of Microsoft Windows 2000, Windows XP SP1 and SP2, and Windows Server 2003 allows local users to gain privileges via certain access requests.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2005/ms05-018
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1656
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1761
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A3994
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A4593
+
+---
+
+#### 2533. CVE-2005-0135
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The unw_unwind_to_user function in unwind.c on Itanium (ia64) architectures in Linux kernel 2.6 allows local users to cause a denial of service (system crash).
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%4041f2beablXVnAs_6fznhhITh1j5hZg
+- http://secunia.com/advisories/15019
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2534. CVE-2005-0137
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Linux kernel 2.6 on Itanium (ia64) architectures allows local users to cause a denial of service via a "missing Itanium syscall table entry."
+
+**参考链接 / References**:
+- http://www.redhat.com/support/errata/RHSA-2005-284.html
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11039
+- http://www.redhat.com/support/errata/RHSA-2005-284.html
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+
+---
+
+#### 2535. CVE-2005-0204
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Linux kernel before 2.6.9, when running on the AMD64 and Intel EM64T architectures, allows local users to write to privileged IO ports via the OUTS instruction.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18784
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+- http://www.securityfocus.com/bid/12598
+- http://www.trustix.org/errata/2006/0006
+
+---
+
+#### 2536. CVE-2005-0207
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Unknown vulnerability in Linux kernel 2.4.x, 2.5.x, and 2.6.x allows NFS clients to cause a denial of service via O_DIRECT.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000930
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.securityfocus.com/advisories/7880
+- http://www.securityfocus.com/bid/12330
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11001
+
+---
+
+#### 2537. CVE-2005-0209
+
+**严重程度 / Severity**: N/A | CVSS: 7.8
+
+**漏洞描述 / Description**:
+Netfilter in Linux kernel 2.6.8.1 allows remote attackers to cause a denial of service (kernel crash) via crafted IP packet fragments.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000945
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://www.novell.com/linux/security/advisories/2005_18_kernel.html
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.redhat.com/support/errata/RHSA-2005-420.html
+
+---
+
+#### 2538. CVE-2005-0210
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+
+**漏洞描述 / Description**:
+Netfilter in the Linux kernel 2.6.8.1 allows local users to cause a denial of service (memory consumption) via certain packet fragments that are reassembled twice, which causes a data structure to be allocated twice.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000945
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://rhn.redhat.com/errata/RHSA-2005-366.html
+- http://rhn.redhat.com/errata/RHSA-2005-663.html
+- http://secunia.com/advisories/14295
+
+---
+
+#### 2539. CVE-2005-0400
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The ext2_make_empty function call in the Linux kernel before 2.6.11.6 does not properly initialize memory when creating a block for a new directory entry, which allows local users to obtain potentially sensitive information by reading the block.
+
+**参考链接 / References**:
+- http://arkoon.net/advisories/ext2-make-empty-leak.txt
+- http://kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.11.6
+- http://marc.info/?l=bugtraq&m=111238764720696&w=2
+- http://secunia.com/advisories/14713/
+- http://secunia.com/advisories/17002
+
+---
+
+#### 2540. CVE-2005-0529
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Linux kernel 2.6.10 and 2.6.11rc1-bk6 uses different size types for offset arguments to the proc_file_read and locks_read_proc functions, which leads to a heap-based buffer overflow when a signed comparison causes negative integers to be used in a positive context.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://linux.bkbits.net:8080/linux-2.6/cset%404201818eC6aMn0x3GY_9rw3ueb2ZWQ
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://marc.info/?l=full-disclosure&m=110846727602817&w=2
+- http://www.guninski.com/where_do_you_want_billg_to_go_today_3.html
+
+---
+
+#### 2541. CVE-2005-0530
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Signedness error in the copy_from_read_buf function in n_tty.c for Linux kernel 2.6.10 and 2.6.11rc1 allows local users to read kernel memory via a negative argument.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://linux.bkbits.net:8080/linux-2.6/cset%40420181322LZmhPTewcCOLkubGwOL3w
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://marc.info/?l=full-disclosure&m=110846727602817&w=2
+- http://www.guninski.com/where_do_you_want_billg_to_go_today_3.html
+
+---
+
+#### 2542. CVE-2005-0531
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The atm_get_addr function in addr.c for Linux kernel 2.6.10 and 2.6.11 before 2.6.11-rc4 may allow local users to trigger a buffer overflow via negative arguments.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://linux.bkbits.net:8080/linux-2.6/gnupatch%404208e1fcfccuD-eH2OGM5mBhihmQ3A
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://marc.info/?l=full-disclosure&m=110846727602817&w=2
+- http://www.guninski.com/where_do_you_want_billg_to_go_today_3.html
+
+---
+
+#### 2543. CVE-2005-0532
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The reiserfs_copy_from_user_to_file_region function in reiserfs/file.c for Linux kernel 2.6.10 and 2.6.11 before 2.6.11-rc4, when running on 64-bit architectures, may allow local users to trigger a buffer overflow as a result of casting discrepancies between size_t and int data types.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%4042018227TkNpHlX6BefnItV_GqMmzQ
+- http://marc.info/?l=bugtraq&m=111091402626556&w=2
+- http://marc.info/?l=full-disclosure&m=110846727602817&w=2
+- http://www.guninski.com/where_do_you_want_billg_to_go_today_3.html
+- http://www.novell.com/linux/security/advisories/2005_18_kernel.html
+
+---
+
+#### 2544. CVE-2005-0637
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The copy functions in locore.s such as copyout in OpenBSD 3.5 and 3.6, and possibly other BSD based operating systems, may allow attackers to exceed certain address boundaries and modify kernel memory.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/14432
+- http://securitytracker.com/id?1013333
+- http://www.openbsd.org/errata.html#copy
+- http://www.openbsd.org/errata35.html#locore
+- http://www.securityfocus.com/bid/12825
+
+---
+
+#### 2545. CVE-2005-0708
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+
+**漏洞描述 / Description**:
+The sendfile system call in FreeBSD 4.8 through 4.11 and 5 through 5.4 can transfer portions of kernel memory if a file is truncated while it is being sent, which could allow remote attackers to obtain sensitive information.
+
+**参考链接 / References**:
+- https://www.freebsd.org/security/advisories/FreeBSD-SA-05:02.sendfile.asc
+- https://www.freebsd.org/security/advisories/FreeBSD-SA-05:02.sendfile.asc
+
+---
+
+#### 2546. CVE-2005-0839
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+Linux kernel 2.6 before 2.6.11 does not restrict access to the N_MOUSE line discipline for a TTY, which allows local users to gain privileges by injecting mouse or keyboard events into other user sessions.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%4041fa6464E1UuGu6zmketEYxm73KSyQ
+- http://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg64704.html
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.securityfocus.com/archive/1/427980/100/0/threaded
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9460
+
+---
+
+#### 2547. CVE-2005-0867
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+Integer overflow in Linux kernel 2.6 allows local users to overwrite kernel memory by writing to a sysfs file.
+
+**参考链接 / References**:
+- http://www.novell.com/linux/security/advisories/2005_18_kernel.html
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.securityfocus.com/archive/1/427980/100/0/threaded
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10867
+- http://www.novell.com/linux/security/advisories/2005_18_kernel.html
+
+---
+
+#### 2548. CVE-2005-0916
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+AIO in the Linux kernel 2.6.11 on the PPC64 or IA64 architectures with CONFIG_HUGETLB_PAGE enabled allows local users to cause a denial of service (system panic) via a process that executes the io_queue_init function but exits without running io_queue_release, which causes exit_aio and is_hugepage_only_range to fail.
+
+**参考链接 / References**:
+- http://groups-beta.google.com/group/linux.kernel/browse_thread/thread/13b43bd5783842f6/7ce3c5a514a497ab?q=io_queue_init&rnum=3#7ce3c5a514a497ab
+- http://linux.bkbits.net:8080/linux-2.6/cset%404248c8c0es30_4YVdwa6vteKi7h_nw
+- http://www.novell.com/linux/security/advisories/2005_50_kernel.html
+- http://www.securityfocus.com/bid/12987
+- http://groups-beta.google.com/group/linux.kernel/browse_thread/thread/13b43bd5783842f6/7ce3c5a514a497ab?q=io_queue_init&rnum=3#7ce3c5a514a497ab
+
+---
+
+#### 2549. CVE-2005-0977
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The shmem_nopage function in shmem.c for the tmpfs driver in Linux kernel 2.6 does not properly verify the address argument, which allows local users to cause a denial of service (kernel crash) via an invalid address.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%40420551fbRlv9-QG6Gw9Lw_bKVfPSsg
+- http://lkml.org/lkml/2005/2/5/111
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.securityfocus.com/archive/1/427980/100/0/threaded
+- http://www.securityfocus.com/bid/12970
+
+---
+
+#### 2550. CVE-2005-1041
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The fib_seq_start function in fib_hash.c in Linux kernel allows local users to cause a denial of service (system crash) via /proc/net/route.
+
+**参考链接 / References**:
+- http://marc.info/?l=bk-commits-head&m=111186506706769&w=2
+- http://secunia.com/advisories/17918
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- http://www.securityfocus.com/archive/1/419522/100/0/threaded
+- http://www.securityfocus.com/archive/1/427980/100/0/threaded
+
+---
+
+#### 2551. CVE-2005-1400
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+The i386_get_ldt system call in FreeBSD 4.7 to 4.11 and 5.x to 5.4 allows local users to access sensitive kernel memory via arguments with negative or very large values.
+
+**参考链接 / References**:
+- ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:07.ldt.asc
+- ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:07.ldt.asc
+
+---
+
+#### 2552. CVE-2005-1406
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+The kernel in FreeBSD 4.x to 4.11 and 5.x to 5.4 does not properly clear certain fixed-length buffers when copying variable-length data for use by applications, which could allow those applications to read previously used sensitive memory.
+
+**参考链接 / References**:
+- ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:08.kmem.asc
+- http://lists.apple.com/archives/security-announce/2005/Oct/msg00000.html
+- http://secunia.com/advisories/17368
+- http://www.securityfocus.com/bid/13526
+- http://www.securityfocus.com/bid/15252
+
+---
+
+#### 2553. CVE-2005-1263
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+The elf_core_dump function in binfmt_elf.c for Linux kernel 2.x.x to 2.2.27-rc2, 2.4.x to 2.4.31-pre1, and 2.6.x to 2.6.12-rc4 allows local users to execute arbitrary code via an ELF binary that, in certain conditions involving the create_elf_tables function, causes a negative length argument to pass a signed integer comparison, leading to a buffer overflow.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://secunia.com/advisories/19185
+- http://secunia.com/advisories/19607
+- http://www.isec.pl/vulnerabilities/isec-0023-coredump.txt
+- http://www.redhat.com/support/errata/RHSA-2005-472.html
+
+---
+
+#### 2554. CVE-2005-1765
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+syscall in the Linux kernel 2.6.8.1 and 2.6.10 for the AMD64 platform, when running in 32-bit compatibility mode, allows local users to cause a denial of service (kernel hang) via crafted arguments.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18056
+- http://www.debian.org/security/2005/dsa-922
+- http://www.novell.com/linux/security/advisories/2005_29_kernel.html
+- http://www.securityfocus.com/bid/13904
+- https://usn.ubuntu.com/143-1/
+
+---
+
+#### 2555. CVE-2005-0756
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+ptrace in Linux kernel 2.6.8.1 does not properly verify addresses on the amd64 platform, which allows local users to cause a denial of service (kernel crash).
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/18056
+- http://secunia.com/advisories/18059
+- http://www.debian.org/security/2005/dsa-921
+
+---
+
+#### 2556. CVE-2005-1763
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+
+**漏洞描述 / Description**:
+Buffer overflow in ptrace in the Linux Kernel for 64-bit architectures allows local users to write bytes into kernel memory.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/18056
+- http://www.debian.org/security/2005/dsa-922
+- http://www.novell.com/linux/security/advisories/2005_29_kernel.html
+- http://www.redhat.com/support/errata/RHSA-2005-514.html
+
+---
+
+#### 2557. CVE-2005-1265
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The mmap function in the Linux Kernel 2.6.10 can be used to create memory maps with a start address beyond the end address, which allows local users to cause a denial of service (kernel crash).
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/18056
+- http://securitytracker.com/id?1014152
+- http://www.debian.org/security/2005/dsa-922
+- http://www.redhat.com/support/errata/RHSA-2005-514.html
+
+---
+
+#### 2558. CVE-2005-2019
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+ipfw in FreeBSD 5.4, when running on Symmetric Multi-Processor (SMP) or Uni Processor (UP) systems with the PREEMPTION kernel option enabled, does not sufficiently lock certain resources while performing table lookups, which can cause the cache results to be corrupted during multiple concurrent lookups, allowing remote attackers to bypass intended access restrictions.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:13.ipfw.asc
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:13.ipfw.asc
+
+---
+
+#### 2559. CVE-2005-2145
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+
+**漏洞描述 / Description**:
+The kernel driver in Prevx Pro 2005 1.0 does not verify the source of certain messages, which allows local users to bypass protection by sending certain messages to the driver, as demonstrated by sending an "allow" message to bypass a warning message.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15885
+- http://securitytracker.com/id?1014346
+- http://secunia.com/advisories/15885
+- http://securitytracker.com/id?1014346
+
+---
+
+#### 2560. CVE-2005-1768
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+
+**漏洞描述 / Description**:
+Race condition in the ia32 compatibility code for the execve system call in Linux kernel 2.4 before 2.4.31 and 2.6 before 2.6.6 allows local users to cause a denial of service (kernel panic) and possibly execute arbitrary code via a concurrent thread that increments a pointer count after the nargs function has counted the pointers, but before the count is copied from user space to kernel space, which leads to a buffer overflow.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://marc.info/?l=bugtraq&m=112110120216116&w=2
+- http://secunia.com/advisories/15980
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/18059
+
+---
+
+#### 2561. CVE-2005-1762
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The ptrace call in the Linux kernel 2.6.8.1 and 2.6.10 for the AMD64 platform allows local users to cause a denial of service (kernel crash) via a "non-canonical" address.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/15786
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/18056
+- http://secunia.com/advisories/18059
+
+---
+
+#### 2562. CVE-2005-2456
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+Array index overflow in the xfrm_sk_policy_insert function in xfrm_user.c in Linux kernel 2.6 allows local users to cause a denial of service (oops or deadlock) and possibly execute arbitrary code via a p->dir value that is larger than XFRM_POLICY_OUT, which is used as an index in the sock->sk_policy array.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/16298
+- http://secunia.com/advisories/16500
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/17826
+
+---
+
+#### 2563. CVE-2005-1761
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+Linux kernel 2.6 and 2.4 on the IA64 architecture allows local users to cause a denial of service (kernel crash) via ptrace and the restore_sigcontext function.
+
+**参考链接 / References**:
+- http://kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=4ea78729b8dbfc400fe165a57b90a394a7275a54
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/17073
+- http://secunia.com/advisories/18056
+- http://secunia.com/advisories/19369
+
+---
+
+#### 2564. CVE-2005-1767
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+traps.c in the Linux kernel 2.6.x and 2.4.x executes stack segment faults on an exception stack, which allows local users to cause a denial of service (oops and stack fault exception).
+
+**参考链接 / References**:
+- http://kernel.org/git/?p=linux/kernel/git/marcelo/linux-2.4.git%3Ba=commit%3Bh=51e31546a2fc46cb978da2ee0330a6a68f07541e
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/18056
+- http://secunia.com/advisories/18059
+- http://secunia.com/advisories/18977
+
+---
+
+#### 2565. CVE-2005-1218
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+The Microsoft Windows kernel in Microsoft Windows 2000 Server, Windows XP, and Windows Server 2003 allows remote attackers to cause a denial of service (crash) via crafted Remote Desktop Protocol (RDP) requests.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=112146383919436&w=2
+- http://security-protocols.com/modules.php?name=News&file=article&sid=2783
+- http://www.kb.cert.org/vuls/id/490628
+- http://www.microsoft.com/technet/security/advisory/904797.mspx
+- http://www.securityfocus.com/bid/14259
+
+---
+
+#### 2566. CVE-2005-2548
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+
+**漏洞描述 / Description**:
+vlan_dev.c in the VLAN code for Linux kernel 2.6.8 allows remote attackers to cause a denial of service (kernel oops from null dereference) via certain UDP packets that lead to a function call with the wrong argument, as demonstrated using snmpwalk on snmpd.
+
+**参考链接 / References**:
+- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=309308
+- http://lists.osdl.org/pipermail/bridge/2004-September/000638.html
+- http://secunia.com/advisories/17826
+- http://secunia.com/advisories/18056
+- http://www.debian.org/security/2005/dsa-922
+
+---
+
+#### 2567. CVE-2005-2553
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+
+**漏洞描述 / Description**:
+The find_target function in ptrace32.c in the Linux kernel 2.4.x before 2.4.29 does not properly handle a NULL return value from another function, which allows local users to cause a denial of service (kernel crash/oops) by running a 32-bit ltrace program with the -i option on a 64-bit executable program.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.4/cset%4041dd3455GwQPufrGvBJjcUOXQa3WXA
+- http://lists.suse.de/archive/suse-security-announce/2006-Feb/0010.html
+- http://lkml.org/lkml/2005/1/5/245
+- http://secunia.com/advisories/17002
+- http://secunia.com/advisories/18059
 
 ---

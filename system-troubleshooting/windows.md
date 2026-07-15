@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8114**
+**总计条目 / Total entries: 8159**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -111247,5 +111247,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1227143#reply0
+
+---
+
+#### 8115. Help with stopping downloads
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxalgs/help_with_stopping_downloads/
+
+---
+
+#### 8116. Question about fresh install on w11 and Ram USage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxiicb/question_about_fresh_install_on_w11_and_ram_usage/
+
+---
+
+#### 8117. Firestick not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxhjui/firestick_not_working/
+
+---
+
+#### 8118. Help I just wanted to play Warzone on new pc “Invalid signature detected” when Secure Boot is enabled, but Windows loads when Secure Boot is disabled. Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxdc9p/help_i_just_wanted_to_play_warzone_on_new_pc/
+
+---
+
+#### 8119. Acer Nitro 17 randomly shuts off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxca25/acer_nitro_17_randomly_shuts_off/
+
+---
+
+#### 8120. My Acer Laptop keeps automatically pressing the "-" key on its own.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxb7oy/my_acer_laptop_keeps_automatically_pressing_the/
+
+---
+
+#### 8121. My asus laptop freezes unless it has its emotional support USB stick
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxeh25/my_asus_laptop_freezes_unless_it_has_its/
+
+---
+
+#### 8122. Repeated cycle issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxjwj7/repeated_cycle_issue/
+
+---
+
+#### 8123. Audio became muffled out of nowhere
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxjt9r/audio_became_muffled_out_of_nowhere/
+
+---
+
+#### 8124. Unknown usb device (device descriptor request failed)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxjt6d/unknown_usb_device_device_descriptor_request/
+
+---
+
+#### 8125. PC NOT WORKING
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxjo15/pc_not_working/
+
+---
+
+#### 8126. A black window flashes my screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxdn9k/a_black_window_flashes_my_screen/
+
+---
+
+#### 8127. Mouse cursor is active but clicks aren't registering
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxjdiy/mouse_cursor_is_active_but_clicks_arent/
+
+---
+
+#### 8128. Lenovo Laptop started with suspected virus / malware issues, then FPS drops, reset fixed it temporarily, now boot is broken and nothing works outside BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxdbul/lenovo_laptop_started_with_suspected_virus/
+
+---
+
+#### 8129. Unexpected store exception and critical process died every time i try to download/heavy gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxixsd/unexpected_store_exception_and_critical_process/
+
+---
+
+#### 8130. Pc won’t connect to my wifi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxilmu/pc_wont_connect_to_my_wifi/
+
+---
+
+#### 8131. Home keys not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxikid/home_keys_not_working/
+
+---
+
+#### 8132. Dead spots
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ux8niv/dead_spots/
+
+---
+
+#### 8133. My old HDD doesn’t show up when i plug it in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxi63i/my_old_hdd_doesnt_show_up_when_i_plug_it_in/
+
+---
+
+#### 8134. Windows corrupt cannot repair or reinstall
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ux88p6/windows_corrupt_cannot_repair_or_reinstall/
+
+---
+
+#### 8135. Secure Boot Violation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxbiee/secure_boot_violation/
+
+---
+
+#### 8136. Pc wont start anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxhkzy/pc_wont_start_anymore/
+
+---
+
+#### 8137. Advice needed: Is it worth it to get my 3070 repaired?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxb9dy/advice_needed_is_it_worth_it_to_get_my_3070/
+
+---
+
+#### 8138. Pc will freeze + loud buzzing. Turns itself off and back on. How to fix?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uxhcce/pc_will_freeze_loud_buzzing_turns_itself_off_and/
+
+---
+
+#### 8139. [V2EX] Windows 10 任务管理器闪退问题
+
+**问题描述 / Problem Description**:
+各位 V2EXer 大佬，小弟的电脑从 2 个月前突然就这样了：打开系统自带的任务管理器之后，只会进入简洁页面，手动点击 [详情信息] 之后 任务管理器就卡死然后闪退了，再次打开也是一样的 尝试了各种办法（操作完成后都有重启电脑），都没有效果： 注册表的任务管理器配置重置 系统组件修复 taskmgr 本体文件替换（虚拟机装了同版本的 Win10 ，然后手动把任务管理器复制出来） 系统文件修复 检查第三方软件冲突 又不想重装系统，小弟实在是没招了呀，有木有大佬遇到过类似情况可以支个招的 对了，系统版本是 Windows 10 Pro ，22H2 ，19045.6466 版本的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227372#reply5
+
+---
+
+#### 8140. [V2EX] 最近有人在用 Seedream 5.0 Pro 吗？和 GPT Image 2 差距大不大？
+
+**问题描述 / Problem Description**:
+最近在折腾 AI 生图，之前基本一直用 GPT Image 2 。 GPT Image 2 确实挺稳，尤其是图片里带文字、海报、信息图这类东西，生成出来的可用率比以前高不少。 但这两天老看到 Seedream 5.0 Pro ，搜了一圈，发现已经有不少人在拿它和 GPT Image 2 对比了。 我自己看了一些案例，感觉 Seedream 这个路线好像有点不一样。 GPT Image 2 给我的感觉是「理解你要什么，然后尽量准确做出来」。 Seedream 5.0 Pro 更偏「设计师出图」？ 尤其是构图、氛围、商业视觉这块，有些图第一眼确实更抓人。 当然，也可能是网上发出来的本来就是筛过的好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227592#reply0
+
+---
+
+#### 8141. [V2EX] 神奇的咸鱼都有 qoder/workbuddy 积分卖了
+
+**问题描述 / Problem Description**:
+闲鱼上这么快就有 qoder/workbuddy 积分卖了，想买点，比较好奇是怎么来的，会不会导致封号。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227578#reply0
+
+---
+
+#### 8142. [V2EX] 这能向欧盟举报反垄断吗
+
+**问题描述 / Problem Description**:
+macOS 自带的预览不支持 flac 的 cover 预览，想着自己写一个 quicklook 支持一下吧。 发现 macOS 新的 quicklook 的插件机制下，flac 不让生效。 就是说自己不遵守 flac 规范搞了 flac 的预览，然后就不让别人做正确的了？ 带 ID3v2 的能预览，但是规范 strongly discouraged 的，Chrome 就可能播放不了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227525#reply1
+
+---
+
+#### 8143. [V2EX] 个人小程序如何引流到思域？如何合规？
+
+**问题描述 / Problem Description**:
+我遇到一个问题，我做了一款小程序 小程序的目标客户本来就比较精准在使用我的产品 但是我查阅了个人微信小程序的社区规范，好像禁止小程序中放微信二维码，微信号，QQ 号，公众号 各位有什么高招？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227520#reply7
+
+---
+
+#### 8144. [V2EX] 求助：论如何把运营商的老套餐升级新套餐，变得更实惠
+
+**问题描述 / Problem Description**:
+三大运营商的杀熟太恶心了。 现在的通话套餐费用高于新用户的套餐，大佬们，有没有办法可以在保留号码的基础上实现套餐升级（更便宜更多流量）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227518#reply3
+
+---
+
+#### 8145. [V2EX] chatgpt 客户端 ,codex 和 chatgpt work 好像还没有对我开放,所以我好像目前只能用 Pro lite 的套餐,我现在只能用 Codex Cli 了
+
+**问题描述 / Problem Description**:
+是我的梯子不太好还是?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227511#reply2
+
+---
+
+#### 8146. [V2EX] 阿里千问将作为 AI 能力集成至苹果智能
+
+**问题描述 / Problem Description**:
+各位怎么看？ 我认为在国外 AI 不可能引进的情况下，已经不错了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227504#reply0
+
+---
+
+#### 8147. [V2EX] 请问最近还有什么在维护的 ChatGPT 网页端共享/镜像方案么？
+
+**问题描述 / Problem Description**:
+原因： 1. 家里四五个人的多台设备都会用 ChatGPT ，多设备登录担心封号。 2. 想要隔离不同人的对话记录。 3. ChatGPT 需要代理访问，wifi 环境的透明代理无法覆盖流量场景。 4. 用 CLIProxyAPI 、Sub2API 等方案要吃 Codex 额度，网页端额度不用白不用。（家里老头子沉迷于 AI 生图） 5. 家里人不需要关心 ChatGPT 账号是不是出问题，只需要一个镜像面板的账号就行，减少沟通成本。 需求： 1. 支持多用户隔离对话记录 2. 需要支持聊天和 gpt-image-2 图片生成接口 3. 最好支持对话记录跨 ChatGPT 账号留存，账号要是挂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227501#reply0
+
+---
+
+#### 8148. [V2EX] vivo 手机拍照有办法控制虚化部分吗？
+
+**问题描述 / Problem Description**:
+目前用人像模式有背景虚化功能，但是没法手动调整虚化部分。 想请教下，手机拍照有没有其他方式可以手动控制哪些部分要清晰，哪些部分要虚化的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227498#reply0
+
+---
+
+#### 8149. [V2EX] 苹果的人工智能通过备案了，这是真的吗？
+
+**问题描述 / Problem Description**:
+刚刚看到的新闻，这个是代表 AI 可以上了吗？ https://www.news.cn/tech/20260715/946a9e3e979745628447c2d2b52667c4/c.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227496#reply2
+
+---
+
+#### 8150. [V2EX] 小宇宙可以下载文字吗？
+
+**问题描述 / Problem Description**:
+手机版的小宇宙其实有文字稿，但不支持下载。想请教下，怎么能实现爬取、下载文字稿呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227488#reply3
+
+---
+
+#### 8151. [V2EX] 这种情况我应该跑路吗？
+
+**问题描述 / Problem Description**:
+我在一个不知名杀毒软件公司里 感觉把这辈子的亏都吃完了 刚入职的时候 这家公司编译出包各个信创架构平台的产品，都是物理机编译 我搭了交叉编译平台，统一了编译出包环境，节省大量人力成本 然后就和其它同事一样，维护产品、对接项目 后面由于 SDK 版本太多，shell 作为出包脚本越来越难维护 我用 python 把自动化出包脚本重写了 然后项目需要 Linux 下的主防驱动以实现系统监控、反勒索、文件保护、自保护 我又收集了 Linux 系统中的十种监控方式，深入研究了 7 套，成功落地了两套，花费我大量心血 再往后我发现 C++11 的第三方库逐渐停止维护 于是我把所有的工具链对齐到 C++1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227487#reply36
+
+---
+
+#### 8152. [V2EX] 求教 Windows 上有没有什么优雅使用 xhs 的姿势？
+
+**问题描述 / Problem Description**:
+windows 上除了网页版小红书，还有其他方案吗？ 尤其是如何实现私信功能。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227478#reply1
+
+---
+
+#### 8153. [V2EX] 有人长期在内地使用香港 SIM 卡的吗？体验如何？
+
+**问题描述 / Problem Description**:
+有人长期在内地使用香港 SIM 卡的吗？体验如何？过几天去想带个卡回来用，听说在内地一样丝滑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227476#reply2
+
+---
+
+#### 8154. [V2EX] 个人体检应该去三甲还是体检机构
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227474#reply13
+
+---
+
+#### 8155. [V2EX] 父母手机推荐
+
+**问题描述 / Problem Description**:
+今天我妈说手机有点不太好使了，我前几年给他们买的华为 P30Pro 确实也有点旧了，想问问大家有没有什么推荐的手机，父母年纪大了，太多的功能也没什么用，老人想拍照好点就可以，预算的话每个人 3000 元，谢谢大家
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227473#reply1
+
+---
+
+#### 8156. [V2EX] 收一张 giffgaff sim 实体卡~
+
+**问题描述 / Problem Description**:
+要求： 未激活； 咸🐟交易；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227466#reply3
+
+---
+
+#### 8157. [V2EX] gpt 科学上网相关
+
+**问题描述 / Problem Description**:
+好哥哥们，你们用的哪个 vps 或者哪家机场访问 gpt 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227464#reply17
+
+---
+
+#### 8158. [V2EX] 因为最近有很多老哥想用 codex，所以想做一个 codex 的拼车服务，你可以理解为这是一个需求调研的主题
+
+**问题描述 / Problem Description**:
+老哥们可以来说下你们想要的拼车服务是什么形式？账号还是 API ？ 最重视的特性是什么？速度还是 token 价格？毕竟世界上又好又便宜的事务并没有那么多 回答质量最高的帖子，本人会私信一个 20x 4 人车名额，希望各位老哥能够多多建言献策
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227452#reply6
+
+---
+
+#### 8159. [V2EX] codex 可以一个账号两台机器同时使用吗
+
+**问题描述 / Problem Description**:
+不懂就问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227440#reply2
 
 ---
