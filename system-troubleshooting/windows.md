@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8159**
+**总计条目 / Total entries: 8213**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -111832,5 +111832,731 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1227440#reply2
+
+---
+
+#### 8160. Secondary monitors randomly black screen/reconnect after GPU/PC upgrades (happens on RTX 5070 Ti and RTX 3070)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyf5mu/secondary_monitors_randomly_black_screenreconnect/
+
+---
+
+#### 8161. PC won’t enter Windows Recovery Environment
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uybffh/pc_wont_enter_windows_recovery_environment/
+
+---
+
+#### 8162. I need to change where my email is hosted.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyaqvh/i_need_to_change_where_my_email_is_hosted/
+
+---
+
+#### 8163. I accidentally turned my dads backup/general file saving external drive into solely a windows boot drive, can i revert it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uygoak/i_accidentally_turned_my_dads_backupgeneral_file/
+
+---
+
+#### 8164. Windows 11 Help with volume mixer
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyg67h/windows_11_help_with_volume_mixer/
+
+---
+
+#### 8165. I switched from a 1GB ethernet switch to a 2.5GB ethernet switch, now my motherboard ethernet port will not work.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyfzor/i_switched_from_a_1gb_ethernet_switch_to_a_25gb/
+
+---
+
+#### 8166. Bitlocker "Protection is suspended" notification for a singler user?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyftpe/bitlocker_protection_is_suspended_notification/
+
+---
+
+#### 8167. SD card malfunctioning on the switch.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyekup/sd_card_malfunctioning_on_the_switch/
+
+---
+
+#### 8168. Computer monitor flickering
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uy9qs1/computer_monitor_flickering/
+
+---
+
+#### 8169. My tv won't turn on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uy9msv/my_tv_wont_turn_on/
+
+---
+
+#### 8170. Please help, lost all my layers in an art app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyc4nk/please_help_lost_all_my_layers_in_an_art_app/
+
+---
+
+#### 8171. Three different phones can't find any mobile network with my SIM (sim.de), but the SIM works perfectly in other devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyc3s8/three_different_phones_cant_find_any_mobile/
+
+---
+
+#### 8172. Since AMD Adrenalin 26.6.4, I get a crash after each first boot of the day : Already heard about such issue ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uy7wpz/since_amd_adrenalin_2664_i_get_a_crash_after_each/
+
+---
+
+#### 8173. windows 11 pro laptop stuck on updates underway
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uybf8v/windows_11_pro_laptop_stuck_on_updates_underway/
+
+---
+
+#### 8174. Setup for a Conference Room
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uygyjm/setup_for_a_conference_room/
+
+---
+
+#### 8175. dxcache question
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uygvua/dxcache_question/
+
+---
+
+#### 8176. Dell Wireless mouse WM326 not detecting movement but otherwise works properly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uygp4i/dell_wireless_mouse_wm326_not_detecting_movement/
+
+---
+
+#### 8177. My Samsung phone just asked me to update the time zones and idk if it's right
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uygo4m/my_samsung_phone_just_asked_me_to_update_the_time/
+
+---
+
+#### 8178. Screen - displayport mystery
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyg9pd/screen_displayport_mystery/
+
+---
+
+#### 8179. Possible fire hazard?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyg4zi/possible_fire_hazard/
+
+---
+
+#### 8180. Very curious windows 11 restart issue. Please help.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyg4c9/very_curious_windows_11_restart_issue_please_help/
+
+---
+
+#### 8181. Potential burnt components on laptop motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyg088/potential_burnt_components_on_laptop_motherboard/
+
+---
+
+#### 8182. Something is messing up my mouse cursor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyfmsn/something_is_messing_up_my_mouse_cursor/
+
+---
+
+#### 8183. No audio coming from my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyfe5i/no_audio_coming_from_my_pc/
+
+---
+
+#### 8184. [V2EX] 把 Windows Terminal 优化配置过程更新了一下
+
+**问题描述 / Problem Description**:
+大概 5 年前写的了，今天上班摸鱼更新了一下。 https://blog.dejavu.moe/posts/windows-terminal/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227683#reply7
+
+---
+
+#### 8185. [V2EX] 有无 edgeone 企业版商家推荐
+
+**问题描述 / Problem Description**:
+就是商家买了企业版 edgeone ，然后相当于卖 cdn 一样，下发给我们散户使用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227874#reply0
+
+---
+
+#### 8186. [V2EX] 有老铁用上了 Kimi k3 吗？实际效果如何？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227858#reply1
+
+---
+
+#### 8187. [V2EX] 当前经济形势下，小厂确认即将裁员，应该如何选择
+
+**问题描述 / Problem Description**:
+** 首先强调一下，我虽然顶着个 duolingo 的头像，但实际毫无关系。** 35+程序员，普通 javaer + 运维。 有一些积蓄，但是只能顶 1 年左右的支出。 作为公司老班底，给了一个自选 n+1 的机会。 很纠结，确认即将裁员，如果我不走，自然会有他人走。 在这家公司深耕多年，看不到更长远的路。 想过回老家/考公，但是现在这经济形势，注定也不是什么好路。 烦请 v 友们给一些参考意见。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227828#reply6
+
+---
+
+#### 8188. [V2EX] 有没有大佬用 codex 制作视频的，能完整高质量出片的
+
+**问题描述 / Problem Description**:
+顺便问有没有好使的 skill
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227822#reply0
+
+---
+
+#### 8189. [V2EX] 26 届普通二本本科毕业生，考研失败求出路
+
+**问题描述 / Problem Description**:
+当时考研没上岸，错过了春招秋招，现在毕业了，在家学黑马程序员的微服务课程，准备找个 Java 岗，boss 上投了好多都没约上面试，有没有大佬指个路或者帮我优化一下简历 小的实在没招了，回家快一个月了。现在只会 Java ，vue ，mysql ，Java 正在学微服务。😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227817#reply4
+
+---
+
+#### 8190. [V2EX] 北京电信线下营业厅开卡求助：哪些厅目前能办？
+
+**问题描述 / Problem Description**:
+大家好，想请教一下北京本地朋友或熟悉电信业务的朋友：北京哪个电信营业厅目前可以正常开通新的电话卡？ 先说一下我的情况和需求： 我目前用的是移动卡，想再办一张电信卡作为双网络备份（移动信号不好或网络故障时，还有另一张卡可用）。 平时外网流量需求比较大，想体验一下电信的 CN2 GIA 线路，所以优先选电信。 我没有身份证，只能用其他有效证件开户，因此必须去线下营业厅办理，无法线上开卡。 近期实地踩坑: 苹果园营业厅：告知石景山和门头沟片区需要留资料审核，约 15 天等通知。因为路程太远，不想跑第二次，暂时放弃。 西单营业厅：被问到开卡原因，我说“来北京定居、想办张北京电信卡”，结果以当前反诈管控
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227814#reply2
+
+---
+
+#### 8191. [V2EX] 关于阿里 AI 的一点疑惑
+
+**问题描述 / Problem Description**:
+编程工具方面，最开始用的是字节的 TRAE ，但是性价比不高，后来就换成了 Cursor ，再后来就是 Codex 。 之前 Qwen 和 智谱 也都体验过，智谱还是稍微能打一点，就是特别容易出现限速，还有购买限制。 上面这些都属于 To C 方向。 To B 方向的话，听得最多的是 可灵 和 即梦，这个也和阿里没什么关系。 还有就是一些 App 接 AI ，类似于接入 Qwen 这种模型能力的应用。但这类更像是“模型能力的封装”，真正让用户记住的往往是应用本身，而不是模型提供方。 现在最大感觉就是阿里和之前互联网时代作为布道者的形象不太相符。 这其中是为什么呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227813#reply5
+
+---
+
+#### 8192. [V2EX] "关于我和一个教师恋爱一年的经历"观后感
+
+**问题描述 / Problem Description**:
+上周又是一件小事，暑假来找我，让我给她买个游泳卡，我不想买，她开始说我小气，格局小之类的，我直接给她喷回去了，谈恋爱 1 年了，1 周年我都是单方面给你送的礼物，你一点表示没有，还好意思让我给你买东西，这一年来你总共付出的都不到 1 万块钱，还是我当初给你的，相当于你谈个恋爱一年一分钱没花，还能赚钱，我真的不知道你哪来的脸说我小气。这事给她说破防了，然后又把我拉黑了。这是她过去的常规操作，基本上一个月都要拉黑几次。 __我后面也有点后悔，说话有点重，就给她加回来，但是她都把我拉黑了，我觉得事情闹的有点大了，于是用支付宝给她转了 520 ，她给我还回来了，说分手了就别再打扰了，我看她意志很坚定，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227805#reply2
+
+---
+
+#### 8193. [V2EX] codex 到了下午 5 点，慢的令人发指，即使开了 fast 还是很慢
+
+**问题描述 / Problem Description**:
+用的是 5.6 sol high fast
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227800#reply0
+
+---
+
+#### 8194. [V2EX] 劳动法规定工作 10 年以上 10 天年假， 现在公司只给 5 天，怎么办
+
+**问题描述 / Problem Description**:
+现在公司明确说公司规定只有 5 天，微信有聊天记录。 跟工作 10 年以上没有关系。怎么去争取 10 天？ 这种以后如果发生仲裁，通过聊天记录可以赢吗？能赢什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227790#reply16
+
+---
+
+#### 8195. [V2EX] claude 额度用不完
+
+**问题描述 / Problem Description**:
+大家 claude 用不完得额度可以用来做些什么有趣得东西啊？还有一天重置周额度了才用了 2%..... 感觉不用完很浪费啊！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227776#reply0
+
+---
+
+#### 8196. [V2EX] 玩 polymarket 会变成赌狗吗？
+
+**问题描述 / Problem Description**:
+有兄弟玩 polymarket 吗？ 最近压了点世界杯，英雄联盟比赛，有输有赢 压的不大，每次就几美元 长期下去会变成赌狗吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227765#reply10
+
+---
+
+#### 8197. [V2EX] 半导体泛科技还打算持有吗
+
+**问题描述 / Problem Description**:
+前几天看到买了佰维的 v 友秀了盈利，从今天收盘来看按最高点回撤已经 40%+ 不知道各位 v 友这个月回撤多少，是否已经止盈，止损，还是坚定持有呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227763#reply0
+
+---
+
+#### 8198. [V2EX] 观《关于我和一个教师恋爱一年的经历》有感
+
+**问题描述 / Problem Description**:
+不性情，可以看下抖音帖子 9.23 复制打开抖音，看看 [杰哥相亲（成渝 广深 沪杭）的作品] 《她想找个小二代…》 # 成都 # 深圳 # 杰哥... https://v.douyin.com/KGnp8TqTDEY/ 09/20 G@v.Sy reb:/ :1pm 不是推广贴哈，就是刚好刷到了而已，大家还是对自己好点吧，对父母亲人好点，亮眼识女人，别被下体支配，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227759#reply5
+
+---
+
+#### 8199. [V2EX] 闲鱼 GPT plus 代充居然只要 130~139/月，请问是怎么做到的
+
+**问题描述 / Problem Description**:
+按汇率算的话也要 136 137 的样子啊，他们是怎么挣钱的，有没有什么猫腻
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227757#reply12
+
+---
+
+#### 8200. [V2EX] 各位股神,最近还好吗?
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227750#reply12
+
+---
+
+#### 8201. [V2EX] 微博 这种 账户没显示封禁，但是发帖 就显示账户异常，还能解封吗
+
+**问题描述 / Problem Description**:
+求助 ，估计是以前冲塔导致的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227747#reply4
+
+---
+
+#### 8202. [V2EX] 各位大佬，求推荐性价比高的手电筒
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227746#reply12
+
+---
+
+#### 8203. [V2EX] 闲鱼卖家没发内存,反客为主,说我黑他内存
+
+**问题描述 / Problem Description**:
+闲鱼购买主机后 卖家没发内存,说发了,拍了开箱视频,因为没经验没有拍完整的 6 面,视频无效,平台判是我的责任,我有权要求平台披露卖家信息吗,用来法院起诉报警?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227745#reply6
+
+---
+
+#### 8204. [V2EX] 发现 影视资源站 监控和收集平台
+
+**问题描述 / Problem Description**:
+我看到好多资源站，还有其他资源的吗 www.ziyuanzu.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227741#reply2
+
+---
+
+#### 8205. File Explorer alternately works for 18 seconds and crashes 4 times
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, crash | Score: 1 | Views: 38 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+I believe that the Folder Options dialog contains some spelling errors, corrected below. Uncheck the "crash File Explorer" boxes if you don't want to crash File Explorer. (has been working for a few minutes now)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939086/file-explorer-alternately-works-for-18-seconds-and-crashes-4-times
+
+---
+
+#### 8206. How to disable Windows 11 sign-up from Linux
+
+**问题描述 / Problem Description**:
+Tags: windows-11, dualboot | Score: 0 | Views: 122 | Answers: 1 | Created: 2026-03-23
+
+**解决方案 / Solution**:
+As Ramhound said in the comments: use chntpw to enable the Administrator account, not the microsoft-synced account. It worked. (i'm re-posting it to make the question formally answered).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936084/how-to-disable-windows-11-sign-up-from-linux
+
+---
+
+#### 8207. When installing WSL (Ubuntu), Windows shows a help, containing an image with the "screenfetch -p" command. How to run this?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, windows-11, windows-subsystem-for-linux | Score: 0 | Views: 74 | Answers: 1 | Created: 2026-03-16
+
+**解决方案 / Solution**:
+WSL installs a "stock" distribution (usually from a distro-provided image that's adapted slightly to WSL), and if a distribution such as Ubuntu typically does not include such commands "out of the box", then its WSL image will most likely not have them either. Things like screenfetch are practically always installed as a separate package (since their only purpose is to show off the system – otherwise they just occupy extra space in the image). Ubuntu has it packaged as screenfetch in the universe component of the standard Ubuntu repository – I don't know if it is enabled by default (you might need to enable it via /etc/apt/sources.list ), but even if it is, AFAIK any contents of 'universe' are never included as part of a default Ubuntu installation since it's their "lower standards" section. https://packages.ubuntu.com/search?keywords=screenfetch https://packages.debian.org/search?keywords=screenfetch
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935884/when-installing-wsl-ubuntu-windows-shows-a-help-containing-an-image-with-the
+
+---
+
+#### 8208. How to remove "Visual Search" from Desktop, windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows-11, bing, widgets | Score: 0 | Views: 418 | Answers: 1 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+This is a function of Spotlight. There a loads of guides online regarding disabling this. Here are two methods I've found in a quick web search: You can choose any desktop background option other than Spotlight. Settings > Personalization > Background. Choose any option other than Spotlight and this icon will go away. If you want to keep the Spotlight, Microsoft-served background slideshow, you'll need to adjust the Registry. In the Registry, navigate to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel . Create a new DWORD value named {2cc5ca98-6485-489a-920e-b3e88a6ccce3} and set its value to 0. Source: https://learn.microsoft.com/en-us/answers/questions/2157455/how-to-remove-a-persistent-shortcut-learn-about-th
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935686/how-to-remove-visual-search-from-desktop-windows-11
+
+---
+
+#### 8209. Adobe Acrobat opening files in a wrong desktop
+
+**问题描述 / Problem Description**:
+Tags: windows-11, adobe-acrobat, window-focus | Score: 0 | Views: 173 | Answers: 1 | Created: 2026-02-19
+
+**解决方案 / Solution**:
+You're not alone. Adobe is aware of the issue and has apparently decided not to implement proper support for Desktops/Workspaces in Windows 10 or 11. References: https://community.adobe.com/questions-9/acrobat-dc-does-not-appear-to-support-multiple-desktops-in-windows-11-1266401 https://community.adobe.com/questions-9/arcobat-and-multiple-desktops-in-windows-10-1246056 The issue is that Adobe does not support the features required by Microsoft's Desktop/Workspace tool in Read DC, and given how long they've ignored this, I think it is unlikely they'll change. This also makes me wonder whether this is related to how poorly different Adobe products coexist on the same computer, but that's not really the topic here. There are several suggested solutions at the linked posts, including or . Another suggestion is to . Proposed solutions: Create a 2nd user account and then use "Run as..." to run separate instances of Adobe for each Desktop (not recommended). Create a shortcut to the Adobe executable adding /n as an argumentargument to it (better from a security standpoint, but a far cry from being able to double-click a PDF file to open it). Use the Close File method of... closing a PDF file, rather than the more commonly used Exit Acrobat (which is what you get when you click the X in the upper right, or any other of the more common methods). None of these are great solutions. There's no word whether the more current releases of Adobe Pro have fixed this, but I assume you're licensed for DC and so this is not likely a solution either.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935078/adobe-acrobat-opening-files-in-a-wrong-desktop
+
+---
+
+#### 8210. Is there any risk of confidential data appearing during a Windows laptop reset?
+
+**问题描述 / Problem Description**:
+Tags: windows, office365, user, intune | Score: -1 | Views: 105 | Answers: 1 | Created: 2026-06-10
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938350/is-there-any-risk-of-confidential-data-appearing-during-a-windows-laptop-reset
+
+---
+
+#### 8211. Backup/restore currently open Windows Explorer windows - assistance
+
+**问题描述 / Problem Description**:
+Tags: windows, batch-file | Score: -1 | Views: 49 | Answers: 1 | Created: 2026-05-15
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937630/backup-restore-currently-open-windows-explorer-windows-assistance
+
+---
+
+#### 8212. How to to compact an MS Access database file using VBA code with Microsoft Office 365 64-bit
+
+**问题描述 / Problem Description**:
+Tags: windows | Score: -3 | Views: 45 | Answers: 1 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938638/how-to-to-compact-an-ms-access-database-file-using-vba-code-with-microsoft-offic
+
+---
+
+#### 8213. Why has be Lenovo laptop with Windows failed boot?
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, laptop, windows-11, lenovo | Score: -3 | Views: 79 | Answers: 1 | Created: 2026-05-30
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938041/why-has-be-lenovo-laptop-with-windows-failed-boot
 
 ---

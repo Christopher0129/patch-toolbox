@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7286**
+**总计条目 / Total entries: 7371**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -102657,5 +102657,1111 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1227470#reply66
+
+---
+
+#### 7287. Weston 16 released: better HDR/color management, DRM backend perf, and debugging tools
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uybrab/weston_16_released_better_hdrcolor_management_drm/
+
+---
+
+#### 7288. gzip is 33 years old, tar is 47
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxpzy4/gzip_is_33_years_old_tar_is_47/
+
+---
+
+#### 7289. AMD Ryzen 7 7700X3D Linux performance review
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uy334o/amd_ryzen_7_7700x3d_linux_performance_review/
+
+---
+
+#### 7290. Linux Floppy Driver For Apple's Super Woz Integrated Machine "SWIM" In Old Macs Improved
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uydgby/linux_floppy_driver_for_apples_super_woz/
+
+---
+
+#### 7291. Hardening NixOS against the Januscape KVM Escape (CVE-2026-53359)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uxmpyg/hardening_nixos_against_the_januscape_kvm_escape/
+
+---
+
+#### 7292. Distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uygk33/distros/
+
+---
+
+#### 7293. [V2EX] Linux 下有没有可能实现 Listary 的快速跳转
+
+**问题描述 / Problem Description**:
+软件弹出的“打开”或“保存”文件对话框时，帮你省去一层层寻找文件夹的麻烦，实现一键跳转， 我问大模型说没有统一每个应用的文件对话框，所以做不到 那退一步有没有可能实现自带文件管理器或者 dolphin 的快速跳转
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227633#reply1
+
+---
+
+#### 7294. [V2EX] 闲鱼 GPT plus 代充居然只要 130~139/月，请问是怎么做到的
+
+**问题描述 / Problem Description**:
+按汇率算的话也要 136 137 的样子啊，他们是怎么挣钱的，有没有什么猫腻
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227757#reply13
+
+---
+
+#### 7295. [V2EX] ai 时代程序员这个职业更适合 wfh 了
+
+**问题描述 / Problem Description**:
+反正都是 ai 写代码了，以往的面对面给新人讲解代码的场景也不存在了，现在程序员的主要工作是梳理/对齐需求然后交给 ai 去实现，反而是文字/书面文档沟通更有效率（可以直接帮助 ai 梳理需求），视频会议也比口头交流更可靠（会议录音，工作留痕，划分责任，防止后续乱甩锅扯皮），在家办公心情更加舒适放松，而且也能让加班变得更加容易接受，反而提高了工作效率和产出量，强烈感觉 wfh 是个大趋势。 希望下次跳槽找个 wfh 的公司
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227878#reply2
+
+---
+
+#### 7296. [V2EX] 求推荐：多 AI 平台会话历史管理工具
+
+**问题描述 / Problem Description**:
+各位佬，目前同时在使用 Claude 、Codex 、ZCode 等多个 AI Agent 辅助开发。 痛点： 会话分散在不同平台，难以统一检索 历史记录没有集中管理，查找过往对话效率低 想要跨平台搜索某个技术问题的讨论记录 请问社区是否有类似解决方案： 开源/商业的工具都行 最好支持会话导出、全文检索 能本地备份优先（避免账号问题导致数据丢失） 或者大家都是怎么管理多 AI 对话记录的？求指教！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227847#reply7
+
+---
+
+#### 7297. [V2EX] 现在哪个平台的模型 API 不卡顿、不限流？
+
+**问题描述 / Problem Description**:
+阿里云不用提了，之前买 coding plan 反复遇到限流，后来放弃阿里云了。 前面两个月在用腾讯云（没买套餐，按调用量计费，主要用 hy3 和 glm-5.2 模型），这两周也开始 429 了。我理解这是算力紧张的结果。 那么，现在还有哪个平台的模型能流畅提供服务？ 刚开始尝试火山方舟（用多少付多少），效果还要观察（之前买过他家的 coding plan 也是限流，用了半个小时就退款了）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227844#reply7
+
+---
+
+#### 7298. [V2EX] 开源送的 GitHub Copilot Pro 没了
+
+**问题描述 / Problem Description**:
+因为做开源项目，有 Github Copilot Pro 的免费用的资格，虽然也就只有 10 刀的额度。然后，上个月花 30 刀升到 Pro+，现在到期后发现直接降级到 Free 了，也没地方再领 Pro 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227835#reply1
+
+---
+
+#### 7299. [V2EX] 开始更新几门 AI 编程的系列课，大家提出宝贵意见
+
+**问题描述 / Problem Description**:
+开始系统地学习 AI 编程，从 Harness Engineering 、Loop Engineering 到 软件测试工程。 一起学习，共同进步！内容陆续更新中，感谢大家的支持。 🛠️ Harness Engineering 系列课 第 6 课：Skill 系统 🔗 点击阅读：Harness 工程：第 6 课 [ https://mp.weixin.qq.com/s/gaLEAjOz8xLAi8ABnG855g ] 🔄 Loop Engineering 系列课 第 1 课：Loop Engineering 是什么 🔗 点击阅读：Loop Engineering: 第 1 课 [ https:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227834#reply0
+
+---
+
+#### 7300. [V2EX] 有时候真的会被 AI 气笑
+
+**问题描述 / Problem Description**:
+看到有个很酷炫的页面想 COPY 过来，丢给 codex 做 要求相似度不得低于 99% 聊了几轮做出来了，感觉挺满意 看看代码居然是用 iframe 引用过来的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227833#reply9
+
+---
+
+#### 7301. [V2EX] 专门用来读代码的 IDE
+
+**问题描述 / Problem Description**:
+现在基本不会敲代码了。但是看代码变得非常重要。 现在最好用的还是 IDEA 。但是内存占用太大了。 是不是开发一个专门用来看代码，提交代码的 IDE ，轻量级。 谁 token 多，搞一下、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227830#reply0
+
+---
+
+#### 7302. [V2EX] 再见！ windsurf!
+
+**问题描述 / Problem Description**:
+你们有没有用过 windsurf 试用号的时光？ 闲鱼一堆 2 元号，用起来也不心疼，windsurf 变成 devin 后，试用号直接被砍，高级模型限速甚至有的直接封号用不了。 于是回到了 cursor 上面，找到了一个 cursorbyok 插件，搭配 api 中转站使用，这应该是目前性价比最高的方案了。 一个月花费大概 100 左右，爽用 gpt5.6 模型 你们一个月 token 能花多少呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227802#reply5
+
+---
+
+#### 7303. [V2EX] 迫切需要给大脑开个接口让 AI 往进来灌
+
+**问题描述 / Problem Description**:
+靠眼睛根本看不过来，累瞎了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227797#reply1
+
+---
+
+#### 7304. [V2EX] 我自用了 3 个月的 Agent 编排器，开源啦！
+
+**问题描述 / Problem Description**:
+摆脱电脑，利用手机随时随地召唤你的 AI 生活助手、编程伙伴和 agent 团队。 解放双手，通过 Zen Brain 构建统一工作区，记忆空间，依据任务类型委派不同的子 agent ，自动 review ，最大化的减少不必要的人工介入, 并且灵活的控制 Token 成本。 支持 Terminal 和 Interface 双模式，也就意味着我们兼容任意 cli ，并且为主流 agent 如 codex, claude code, grok, cursor cli 定制了丝滑的界面。 多端支持，通过 ios 或 android 派发任务，在电脑上时也可以通过 tmux 随时接入。 Github:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227788#reply0
+
+---
+
+#### 7305. [V2EX] 送码， 做了一个代码 Review 工具，专门用来 Review AI 写的代码
+
+**问题描述 / Problem Description**:
+已上架 mas 商店 https://sabun.hamsterbase.com/ EH77AAW9TY6N EWKEHR6A3F9A 3H4WMY7YKJAY RYLAM3THNEHL P4YRMP7R73LN T4TY4TLNE7XH ENKLY3LJWKFW HNLNKNEPEKRT NRXWYLRJL37E N4AF44NNTLJN XLW63EMPK47J 39PXYWAT4LL4 YPNXEAJHW6R3 YL9P9JN9FLFA HKXMT49HTJK9 H4NM7TYTYM64 P7WELMK4AXH9 MJ43AHL4NX7T TAL3JT34J6JT MRTRJ9J7JPR
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227786#reply17
+
+---
+
+#### 7306. [V2EX] 对接车牌机、PLC、摄像头比较多，选哪个语言要好一些
+
+**问题描述 / Problem Description**:
+目前是用 C#,各位朋友都是用什么语言呢？有没有更好的推荐一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227784#reply3
+
+---
+
+#### 7307. [V2EX] 我基本不懂代码，请大神们帮我参谋参谋
+
+**问题描述 / Problem Description**:
+以前用 codex 5.5 去审 fable5 写的代码，基本上 2-3 轮就结束了，现在用 5.6sol 去审，十几轮才结束。我也不知道 codex 审的对不对。大神们是不是和我的体验一样呢？你们也是能审出七八轮甚至 13 轮吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227779#reply2
+
+---
+
+#### 7308. [V2EX] 面试需要展示 vibe coding 项目, 应准备哪些重点/亮点?
+
+**问题描述 / Problem Description**:
+我想到的一些 请各位补充 claude.md 等规则文件 架构设计 ...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227778#reply4
+
+---
+
+#### 7309. [V2EX] 我们已向与此电子邮箱关联的 ChatGPT 账户添加 US$100.00 的额度（2,500 额度）
+
+**问题描述 / Problem Description**:
+codex 牛逼！！！站起来蹬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227758#reply21
+
+---
+
+#### 7310. [V2EX] 纠结开发用哪个模型好？
+
+**问题描述 / Problem Description**:
+目前开发时使用 Fable5 ，还是 chatGpt5.5 呀？哪个好用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227734#reply2
+
+---
+
+#### 7311. [V2EX] 有没有人感觉合并完， codex app 变卡了许多（windows 平台）
+不管是切换对话，还是执行任务，都要卡很久
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227730#reply11
+
+---
+
+#### 7312. [V2EX] 地铁打字丨欢迎大家用各自的 ai/脚本来 pk
+
+**问题描述 / Problem Description**:
+地铁打字 昨天上线之后发现大家非常喜欢这款游戏，受宠若惊，感谢大家对这款游戏的喜欢。 后面发现了已经有玩家开始用脚本/外挂来辅助，做到了常人不可能达到的成绩 索性专门给了一个 AI 竞技场，让大家可以用外挂的方式来完成路线，看看谁写的脚本强。 完成路线之后发送到 AI 竞技场即可 当然，做了一层 Proof of Work ，需要服务端验证之后才能使用脚本，设置了一点点小门槛。 希望大家玩得开心！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227725#reply0
+
+---
+
+#### 7313. [V2EX] 今日踩缝纫机处新奇见闻
+
+**问题描述 / Problem Description**:
+闲着没事，今天上午去踩缝纫机的地方转了转 发现个来了个新人比较新奇 定为诈骗， 判决认定类型为电信诈骗，有退赃意愿但是客观情形难以退赃，已缴纳罚金，有期 3 年 实施方式： 案发前，在 bilibili 小红书两个平台给人发私信，说自己未成年，跟父母闹掰了，吃不上饭了，要 20 块钱买点吃的 向不定人群，群发信息超过五千条，认定匹配性质为电信诈骗 判决认定，诈骗既有既遂，又有未遂，分别达到不同量刑幅度的，依照处罚较重的规定处罚，达到数额巨大标准。 另有一个卖他群发软件的同案犯，另案处理，应该是没抓到或者暂时懒得抓了。 数额巨大,但情节较轻 别问因为啥抓了，骗到不该骗的人了，成为业绩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227724#reply42
+
+---
+
+#### 7314. [V2EX] AI Coding 时代，核心业务系统选型：该追求技术先进，还是优先工程成熟？
+
+**问题描述 / Problem Description**:
+昨天发了一个帖子（帖子地址： https://v2ex.com/t/1227508#reply72 ），原本想讨论的是 Java 和 Go 各自的生态，对公司核心业务系统技术选型的影响。但因为我的表述不够准确，最后讨论更多集中在语言本身。 上一个帖子里的每条回复我都认真看了，非常感谢大家提出的各种观点。这里想进一步补充说明一下我的原意。 我并不是认为 Go 、Java 或其他语言谁好谁坏，也不是想发起一场语言之争。 我真正想讨论的是：在 AI 编程能力越来越强、各种语言和技术栈百花齐放的今天，企业应该如何评估一个核心业务系统的工程化能力，并据此完成长期技术选型。 我们目前从事的是与金融相关的业
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227716#reply5
+
+---
+
+#### 7315. Play 2 audio files/streams simultaneously
+
+**问题描述 / Problem Description**:
+Tags: audio, debian, pulse-audio | Score: 15 | Views: 1671 | Answers: 1 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+I found the problem and have the solution. The issue was the built-in "Media Flow" ( https://store.kde.org/p/1986300 ) applet. Media Flow has 2 options: auto-pause and auto-resume when another source is playing. Unfortunately, it seems that neither of those options does anything, and the problem went away after I removed the applet.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1898998/play-2-audio-files-streams-simultaneously
+
+---
+
+#### 7316. Why am I seeing a weird font in my Chrome/Brave?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, google-chrome, debian | Score: 10 | Views: 4195 | Answers: 3 | Created: 2025-09-21
+
+**解决方案 / Solution**:
+This problem usually happens because Chromium browsers like Chrome or Brave end up using the wrong system fonts on Linux, while Firefox is not affected since it handles fonts differently. The first thing you should try is refreshing the font cache with the command: fc-cache -r -v After that, reinstall the common fonts that Chromium depends on, such as Liberation and Noto, with: sudo apt install --reinstall fonts-liberation fonts-noto-core Once that is done, open Chrome or Brave settings, go to chrome://settings/fonts , and set both the standard and serif fonts to something reliable like Noto Sans or Noto Serif. Finally, make sure you don’t have any broken or strange overrides in your font configuration files, either in /etc/fonts/local.conf or ~/.config/fontconfig/fonts.conf . In most cases, refreshing the cache, reinstalling the fonts, and explicitly setting them in the browser clears up the weird font rendering.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925177/why-am-i-seeing-a-weird-font-in-my-chrome-brave
+
+---
+
+#### 7317. Why can't I delete files with systemd service running as root but can delete over shell with root?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, file-permissions, systemd, root | Score: 8 | Views: 1099 | Answers: 2 | Created: 2026-07-13
+
+**解决方案 / Solution**:
+why the service, which runs as root, had no permission Probably because you're explicitly removing the permission at # Drop all capabilities . Root on Linux doesn't have all permissions directly by being root – rather, when a process runs as root, it automatically gets certain capabilities (or privileges in non-Linux terminology) assigned to it, and it's actually those capabilities which allow the process to do "root things". For example, the ability to ignore file permissions is in the cap_dac_override capability. Root gets it automatically, but a process can turn it off for itself while still being root in other aspects, and vice versa, AmbientCapabilities= can be used to grant it even to non-root services if necessary. But your unit file has an empty capability bounding set: CapabilityBoundingSet= which causes all of the "root" privileges to be removed from that process and prevents them from being gained again. If you want the service to be able to bypass file security, either do not set the bounding set at all, or make sure to include at least the DAC-related capabilities in the list: CapabilityBoundingSet=cap_dac_override Might also need cap_fowner depending on what the script does. See man capabilities for the full list. There is no point in specifying an empty AmbientCapabilities= list, as it is already empty by default. You could however make the service run as non-root and grant it cap_dac_override via ambient capabilities if you want. There might also be an issue with NoNewPrivileges=true and PrivateUsers=true . I'm not sure whether they have any effect here, but since the service is supposed to be privileged, they're not particularly useful. If the above hasn't fixed it, consider removing NoNewPrivileges.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939025/why-cant-i-delete-files-with-systemd-service-running-as-root-but-can-delete-ove
+
+---
+
+#### 7318. Why can’t Windows see Ubuntu Linux shares? It has worked in the past
+
+**问题描述 / Problem Description**:
+Tags: linux, smb | Score: 8 | Views: 1027 | Answers: 2 | Created: 2026-03-30
+
+**解决方案 / Solution**:
+I wanted to add this here, for those who might run into this issue of Windows losing connection to Linux. I was able to connect through the smbclient to a share on my computer. So, at least Linux can access Windows, but Windows cannot access Linux. I can copy files to Windows from Linux. It seems that something must be corrupt on the Linux system for it not to allow Windows to access it. But, at least I can access Windows from Linux, and am successfully copying the important files over. Very happy right now. However, I still would like to dive into why Linux does not allow Windows to access it. Still open to suggestions, but wanted to add this as an Answer, as it did allow me to save my files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936295/why-can-t-windows-see-ubuntu-linux-shares-it-has-worked-in-the-past
+
+---
+
+#### 7319. Where does Ubuntu Linux get its information about CPU temperature on ssh login?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu | Score: 8 | Views: 2860 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+The sensors command is a good starting point. Most modern PCs have a ton of sensors – probably three different temperatures for the CPU alone – and some of them possibly inaccurate due to the respective kernel driver reading them incorrectly. The primary Linux interface for "devices in general" is /sys ², so the "sensors" command mostly obtains sensor data through /sys/class/hwmon , and I assume Ubuntu's "motd" generator does the same. Any driver can export hwmon sub-devices, some of them come from a standalone driver (ACPI/WMI or proprietary I2C) while others are e.g. part of your GPU driver, or part of the SATA disk driver.¹ If you ls -l that directory (or any other '/sys/class' directory) you'll see that they're symlinks into sub-devices scattered all over '/sys/devices'. Running udevadm info on a /sys path will also give you some information about which driver and/or which main device that hwmon sub-device comes from. Not all sensors are hwmon devices at all – e.g. the "power_meter" driver attaches directly to an ACPI device (turning it into a sensor) and doesn't create a hwmon subdevice. Use strace -e file sensors to see what exactly it does and which files it reads from. I don't know exactly how Ubuntu generates its welcome message – the most likely two places are either part of the /etc/profile script (possibly /etc/profile.d/* ), or it could be a cronjob or systemd timer that generates /etc/motd (or /run/motd* ) on a schedule – so it might be that the message is a few minutes out-of-date and the sensors don't report that anymore. It may be useful to install something like "Netdata" or "collectd" to continuously gather system statistics, and possibly to correlate CPU usage with reported temperature. ² /proc is "process" information; it has some hardware details but many of those are legacy leftovers. /dev is the place for high-bandwidth hardware interaction, but typically programs first look in /sys to enumerate the devices they want before looking for that device in /dev. ¹ SATA temperatures checked by default, "modprobe drivetemp" loads the kernel module to retrieve it from the disk's ATA SMART data, but I think this may result in the disk not fully going into sleep mode when it's otherwise idle.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929652/where-does-ubuntu-linux-get-its-information-about-cpu-temperature-on-ssh-login
+
+---
+
+#### 7320. Why is Command Prompt, set up via SSH as a Linux terminal and asking for a password, entering 3 or 4 characters when I type a number with NumLock on?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, bash, ssh, terminal | Score: 7 | Views: 1131 | Answers: 2 | Created: 2026-07-13
+
+**解决方案 / Solution**:
+In Linux/Unix a non-GUI program you run "in a terminal" does not read keystrokes, it reads input from /dev/tty and/or from its stdin (which may be /dev/tty or something else); these are streams of bytes without intrinsic boundaries. If the program runs under a virtual console then it's the kernel that translates keystrokes to bytes or sequences of bytes. If the program runs under a terminal emulator (which itself is a GUI program) then the terminal emulator gets keystrokes (not directly but still), it translates them to bytes or sequences of bytes programs "within" may read from /dev/tty . ssh client in Linux is such a "non-GUI program", it knows nothing about keystrokes, it just reads a stream of bytes. I believe ssh run from PowerShell in Windows is similar; but even if it knew about actual keystrokes then this wouldn't matter because SSH (the protocol) is not designed to transmit keystrokes, it transmits streams of bytes. If ssh requests an interactive shell on the remote side (and this is your case; as opposed to running an arbitrary command) then the SSH server allocates a tty for the shell, so the shell (and its descendants, e.g. sudo ) can read from /dev/tty and their default stdin is the tty; for them it's like they are run under a terminal (or terminal emulator) that seems local for them. Whatever you type locally when your local ssh runs and reads input from you, it gets to the remote program(s) as a stream of bytes. Inside the stream a is "encoded" trivially as a , Shift + a is A , Ctrl + p is one byte we denote ^P (ASCII DLE, 0x10), Enter is equivalent to Ctrl + m which is one byte we denote ^M (CR, \r , 0x0d; usually translated at some point to LF, \n , 0x0a), Backspace is ^H (0x08) or ^? (0x7f), Escape is ^[ (ASCII ESC, 0x1b), Ctrl + z is ^Z (note it may or may not get to the remote program(s) ). See caret notation . There are more keystrokes than available characters, so some keystrokes get encoded as sequences of bytes. Usually each such sequence starts with ^[ (one-byte escape character, exactly the one that encodes Escape , not two bytes ^ and [ ) and for some keystrokes there is more than one convention (and for some there is none). What you observed when you used cat -v are the sequences for: Insert : ^[[2~ End : ^[[F (it may be ^[[4~ ) ↓ : ^[[B PgDn : ^[[6~ etc. Normally with NumLock off your numeric keypad should work as arrows, End , PgDn and such. They get to the remote side as the sequences you observed. With NumLock on your numeric keypad should work as digits, they get to the remote side as one-byte ASCII characters 0 , 1 , 2 etc. For a reason I cannot tell your NumLock seems to have reversed or stopped working: you got sequences when (as you claim) your NumLock was on . This is certainly a problem on your local (Windows) side because SSH does not transmit keystrokes and the CLI program(s) on the remote side cannot know the state of your local NumLock, reverse it or be wrong about it; the concept of NumLock simply does not exist for them, they get input as a stream of bytes from your local ssh . AFAIK a remote desktop session does transmit keystrokes. Maybe to a point where KP_7 (numeric keypad 7) is KP_7 regardless what local computer thinks about the state of the NumLock and gets "translated" to 7 or Home according to what remote computer thinks about the state of the NumLock. I don't know, I cannot verify. But I'm mentioning this because while working with virtual computers and/or VNC in some configurations I observed a phenomenon where pressing NumLock always changed its local state, but the virtual/remote state changed only when the window was in focus at the time. In effect it was possible to desynchronize the two states and make them opposite to each other. If remote desktop allows this or if you in some other way experienced this and therefore believed your NumLock is on because it was on for the virtual/remote OS (and e.g. your keyboard has no light that shows the local state), but for the local OS it was really off then you may have confused (local) off and on states. The local state is what matters for ssh because SSH does not transmit keystrokes. Anyway, back to the sequences. A program that understands the sequences looks out for them and reacts accordingly. E.g. interactive Bash reacts to ↑ ( ^[[A ) and fetches the previous command from the history list. You can even "emulate" ↑ by pressing Esc ( ^[ ), [ , Shift + a fast enough. This is not a perfect situation, it's historical and there are voices to improve it ( example ). Still, for now this is how it is. sudo does not understand the sequences, they are not special to it. The program by default reads password silently but it may be configured to display * for each "character" (with pwfeedback in sudoers ). I wrote "character" but it's really * for each byte. And here you go: each of the sequences your numpad caused when NumLock was (effectively) off is three or four bytes long. sudo reacted to each byte. The connection you made with what cat -v had shown you is basically correct (only "without the opening ^" is wrong; the count is different because ^[ denotes a single byte: ASCII ESC).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939037/why-is-command-prompt-set-up-via-ssh-as-a-linux-terminal-and-asking-for-a-passw
+
+---
+
+#### 7321. How to prevent LibreOffice headless from creating its config file tree in $HOME?
+
+**问题描述 / Problem Description**:
+Tags: linux, libreoffice, libreoffice-writer, headless, configuration-managment | Score: 7 | Views: 684 | Answers: 2 | Created: 2026-04-16
+
+**解决方案 / Solution**:
+LibreOffice has its own override flag. Here is an example to redirect the entire config tree to /tmp/lo-profile : soffice -env:UserInstallation=file:///tmp/lo-profile --headless ...
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936793/how-to-prevent-libreoffice-headless-from-creating-its-config-file-tree-in-home
+
+---
+
+#### 7322. Kate Text Editor Line Ending Chars
+
+**问题描述 / Problem Description**:
+Tags: linux, kate | Score: 6 | Views: 717 | Answers: 2 | Created: 2026-03-07
+
+**解决方案 / Solution**:
+My usual reason for wanting to see line-ending characters (CR or LF) is to identify trailing spaces. According to https://askubuntu.com/q/596737/257118 Click Settings > Configure Kate... to bring up the Configure dialog. Click Editor Component > Appearance. In the Whitespace Highlighting section, check Highlight tabulators and Highlight trailing spaces. In the Advanced section, check Show indentation lines. Click OK. My other main reason is to make visible in Unix/Linux any DOS line endings in the text file. Specifically the CR in CR+LF. I almost exclusively use vim everywhere, which shows these. I don't know if or how Kate handles this. Externally, as I expect you know, you can find unwanted characters with other tools (e.g. grep ) $ grep --count '^M' t.txt 1 $ grep -n '^M' t.txt | cat -v 2:bbb^M $ cat -v t.txt aaa bbb^M ccc etc. The CR is inserted in the grep command using Ctrl + v Ctrl + m (in bash ). I imagine Kate might allow you to create a keyboard macro to invoke a command on the current file? You could maybe use tools like dos2unix as a precaution.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935629/kate-text-editor-line-ending-chars
+
+---
+
+#### 7323. Why is grep ignoring colors?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, grep, egrep | Score: 5 | Views: 742 | Answers: 1 | Created: 2026-07-15
+
+**解决方案 / Solution**:
+The simplest solution in this case is to grep at the end: ( echo 1 ABC ; echo 2 123 ; echo 3 A2C ; echo 4 ABCD ; echo 5 123D ; echo 6 A2CD ) | grep -v BCD | egrep --color 'A.C|^' Alternatively you can change egrep 'A.C|^' to egrep 'A.C|$' Of course you can just append | egrep 'A.C|^' to the end of your original command. But in this case the middle egrep is just redundant, as 'A.C|' will match all the lines. So simply by moving it to the end and change the match all to the match end we'll have a simpler way to achieve the desired colorization effect Why is there no color if egrep 'A.C|' | grep -v BCD was used? Because grep checks stdout to see if it's a tty or not when --color is auto like almost any other CLI tools, and will only apply ANSI sequences to format in that case. Because the output here is a pipe, it just outputs the plain texts And why doesn't egrep --color=always 'A.C|' | grep -v BCD work? Because the ANSI sequences to highlight the A.C string ends at the C character, so after C isn't D anymore but the reset formatting sequence. It's easy to check that: $ ( echo 1 ABC ; echo 2 123 ; echo 3 A2C ; echo 4 ABCD ; echo 5 123D ; echo 6 A2CD ) | egrep --color=always 'A.C' | hexdump -C egrep: warning: egrep is obsolescent; using grep -E 00000000 31 20 1b 5b 30 31 3b 33 31 6d 1b 5b 4b 41 42 43 |1 .[01;31m.[KABC| 00000010 1b 5b 6d 1b 5b 4b 0a 33 20 1b 5b 30 31 3b 33 31 |.[m.[K.3 .[01;31| 00000020 6d 1b 5b 4b 41 32 43 1b 5b 6d 1b 5b 4b 0a 34 20 |m.[KA2C.[m.[K.4 | 00000030 1b 5b 30 31 3b 33 31 6d 1b 5b 4b 41 42 43 1b 5b |.[01;31m.[KABC.[| 00000040 6d 1b 5b 4b 44 0a 36 20 1b 5b 30 31 3b 33 31 6d |m.[KD.6 .[01;31m| 00000050 1b 5b 4b 41 32 43 1b 5b 6d 1b 5b 4b 44 0a |.[KA2C.[m.[KD.| 0000005e $ ( echo 1 ABC ; echo 2 123 ; echo 3 A2C ; echo 4 ABCD ; echo 5 123D ; echo 6 A2CD ) | egrep --color=auto 'A.C' | hexdump -C egrep: warning: egrep is obsolescent; using grep -E 00000000 31 20 41 42 43 0a 33 20 41 32 43 0a 34 20 41 42 |1 ABC.3 A2C.4 AB| 00000010 43 44 0a 36 20 41 32 43 44 0a |CD.6 A2CD.| 0000001a
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939072/why-is-grep-ignoring-colors
+
+---
+
+#### 7324. Why do some web browsers on Debian GNU/Linux 13 display blurry images even at 100% scale?
+
+**问题描述 / Problem Description**:
+Tags: linux, browser, xfce, dpi, xfce4 | Score: 5 | Views: 250 | Answers: 1 | Created: 2026-03-14
+
+**解决方案 / Solution**:
+I found the source of the problem; it was Xfce. The DPI was automatically being set as 95 instead of the standard 96 . There are application-specific fixes for Chromium/Opera and Firefox/LibreWolf, as well as a global fix that edits the Xfce configuration. Global fix (Xfce): Find out the current DPI using this command: xfconf-query -c xsettings -p /Xft/DPI Set the DPI to 96 using this command: xfconf-query -c xsettings -p /Xft/DPI -s 96 Alternatively, edit the file ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml and set the DPI property to 96 (may require restart): <property name="DPI" type="int" value="96"/> Chromium/Opera fix: When launching the chromium or opera command, add this flag: --force-device-scale-factor=1 Firefox/LibreWolf fix: Open the URL about:config . Search for the browser.display.os-zoom-behavior key. Set the key value to 0 (zero). Optional: set the layout.css.devPixelsPerPx key to 1.0 .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935855/why-do-some-web-browsers-on-debian-gnu-linux-13-display-blurry-images-even-at-10
+
+---
+
+#### 7325. How to troubleshoot disabled PCI MSIs with PEX8114 PCIE to PCIX bridge?
+
+**问题描述 / Problem Description**:
+Tags: linux, pci-express | Score: 4 | Views: 112 | Answers: 1 | Created: 2026-05-17
+
+**解决方案 / Solution**:
+This isn't an answer, just comparison information. I see about 48 seconds boot delay with similar errors with LSI 7404EP Fibre Channel HBA (FC949ES chipset) PCIe card in a Dell PowerEdge R310. Kernel is 6.12.90. Moving the interrupts from IO-APIC to MSI via kernel parameter mptbase.mpt_msi_enable_fc=1 is visible in lspci ( Enable- changes to Enable+ ) and in /proc/interrupts ( ioc entries on different lines) but does not have any effect on the boot timeouts/errors. [ 3.622855] *** unrelated but just to show timestamp *** [ 19.529082] mptbase: ioc0: WARNING - Issuing Reset from mpt_config!!, doorbell=0x24000000 [ 19.551443] mptbase: ioc0: Initiating recovery [ 24.281083] mptbase: ioc0: Attempting Retry Config request type 0x7, page 0x0, action 0 [ 24.304726] mptbase: ioc0: Retry completed ret=0x0 timeleft=3750 [ 24.319315] scsi host1: ioc0: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=18 [ 24.347169] mptbase: ioc1: Initiating bringup [ 24.917079] ioc1: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 27.147909] scsi host2: ioc1: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=19 [ 27.175925] mptbase: ioc2: Initiating bringup [ 27.745076] ioc2: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 45.129115] mptbase: ioc2: WARNING - Issuing Reset from mpt_config!!, doorbell=0x24000000 [ 45.153115] mptbase: ioc2: Initiating recovery [ 49.881081] mptbase: ioc2: Attempting Retry Config request type 0x7, page 0x0, action 0 [ 49.905010] mptbase: ioc2: Retry completed ret=0x0 timeleft=3749 [ 49.919472] scsi host3: ioc2: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=16 [ 49.947047] mptbase: ioc3: Initiating bringup [ 50.517067] ioc3: LSIFC949E: Capabilities={Initiator,Target,LAN} [ 52.748010] scsi host4: ioc3: LSIFC949E, FwRev=01031b00h, Ports=1, MaxQ=1023, IRQ=17 lspci -vvv # Default parameters 06:00.0 Fibre Channel: Broadcom / LSI FC949ES Fibre Channel Adapter (rev 02) Subsystem: Broadcom / LSI Device 1260 Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx- Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx- Latency: 0, Cache Line Size: 64 bytes Interrupt: pin A routed to IRQ 18 Region 0: I/O ports at f800 [size=256] Region 1: Memory at df4d8000 (64-bit, non-prefetchable) [size=16K] Region 3: Memory at df4e0000 (64-bit, non-prefetchable) [size=64K] Expansion ROM at df300000 [disabled] [size=1M] Capabilities: [50] Power Management version 2 Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-) Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME- Capabilities: [68] Express (v1) Endpoint, IntMsgNum 0 DevCap: MaxPayload 4096 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us ExtTag+ AttnBtn- AttnInd- PwrInd- RBE- FLReset- SlotPowerLimit 0W TEE-IO- DevCtl: CorrErr+ NonFatalErr+ FatalErr+ UnsupReq+ RlxdOrd+ ExtTag+ PhantFunc- AuxPwr- NoSnoop+ MaxPayload 128 bytes, MaxReadReq 512 bytes DevSta: CorrErr- NonFatalErr+ FatalErr- UnsupReq+ AuxPwr- TransPend- LnkCap: Port #0, Speed 2.5GT/s, Width x8, ASPM L0s L1, Exit Latency L0s <64ns, L1 <1us ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp- LnkCtl: ASPM Disabled; RCB 64 bytes, LnkDisable- CommClk+ ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt- LnkSta: Speed 2.5GT/s, Width x8 TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt- Capabilities: [98] MSI: Enable- Count=1/1 Maskable- 64bit+ Address: 0000000000000000 Data: 0000 Capabilities: [b0] MSI-X: Enable- Count=1 Masked- Vector table: BAR=1 offset=00002000 PBA: BAR=1 offset=00003000 Capabilities: [100 v1] Advanced Error Reporting UESta: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UEMsk: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt+ UnxCmplt+ RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UESvrt: DLP+ SDES- TLP+ FCP+ CmpltTO+ CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC+ UnsupReq- ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- CESta: RxErr- BadTLP- BadDLLP- Rollover- Timeout- AdvNonFatalErr- CorrIntErr- HeaderOF- CEMsk: RxErr- BadTLP+ BadDLLP+ Rollover+ Timeout+ AdvNonFatalErr- CorrIntErr- HeaderOF- AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn- MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap- HeaderLog: 00000000 00000000 00000000 00000000 Kernel driver in use: mptfc Kernel modules: mptfc lspci -vvv # mptbase.mpt_msi_enable_fc=1 06:00.0 Fibre Channel: Broadcom / LSI FC949ES Fibre Channel Adapter (rev 02) Subsystem: Broadcom / LSI Device 1260 Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+ Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx- Latency: 0, Cache Line Size: 64 bytes Interrupt: pin A routed to IRQ 29 Region 0: I/O ports at f800 [size=256] Region 1: Memory at df4d8000 (64-bit, non-prefetchable) [size=16K] Region 3: Memory at df4e0000 (64-bit, non-prefetchable) [size=64K] Expansion ROM at df300000 [disabled] [size=1M] Capabilities: [50] Power Management version 2 Flags: PMEClk- DSI- D1+ D2+ AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-) Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME- Capabilities: [68] Express (v1) Endpoint, IntMsgNum 0 DevCap: MaxPayload 4096 bytes, PhantFunc 0, Latency L0s <64ns, L1 <1us ExtTag+ AttnBtn- AttnInd- PwrInd- RBE- FLReset- SlotPowerLimit 0W TEE-IO- DevCtl: CorrErr+ NonFatalErr+ FatalErr+ UnsupReq+ RlxdOrd+ ExtTag+ PhantFunc- AuxPwr- NoSnoop+ MaxPayload 128 bytes, MaxReadReq 512 bytes DevSta: CorrErr- NonFatalErr+ FatalErr- UnsupReq+ AuxPwr- TransPend- LnkCap: Port #0, Speed 2.5GT/s, Width x8, ASPM L0s L1, Exit Latency L0s <64ns, L1 <1us ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp- LnkCtl: ASPM Disabled; RCB 64 bytes, LnkDisable- CommClk+ ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt- LnkSta: Speed 2.5GT/s, Width x8 TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt- Capabilities: [98] MSI: Enable+ Count=1/1 Maskable- 64bit+ Address: 00000000fee04000 Data: 0022 Capabilities: [b0] MSI-X: Enable- Count=1 Masked- Vector table: BAR=1 offset=00002000 PBA: BAR=1 offset=00003000 Capabilities: [100 v1] Advanced Error Reporting UESta: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UEMsk: DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt+ UnxCmplt+ RxOF- MalfTLP- ECRC- UnsupReq+ ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- UESvrt: DLP+ SDES- TLP+ FCP+ CmpltTO+ CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC+ UnsupReq- ACSViol- UncorrIntErr- BlockedTLP- AtomicOpBlocked- TLPBlockedErr- PoisonTLPBlocked- DMWrReqBlocked- IDECheck- MisIDETLP- PCRC_CHECK- TLPXlatBlocked- CESta: RxErr- BadTLP- BadDLLP- Rollover- Timeout- AdvNonFatalErr- CorrIntErr- HeaderOF- CEMsk: RxErr- BadTLP+ BadDLLP+ Rollover+ Timeout+ AdvNonFatalErr- CorrIntErr- HeaderOF- AERCap: First Error Pointer: 00, ECRCGenCap+ ECRCGenEn- ECRCChkCap+ ECRCChkEn- MultHdrRecCap- MultHdrRecEn- TLPPfxPres- HdrLogCap- HeaderLog: 00000000 00000000 00000000 00000000 Kernel driver in use: mptfc Kernel modules: mptfc cat /proc/interrupts # Default parameters CPU0 CPU1 CPU2 CPU3 0: 38 0 0 0 IO-APIC 2-edge timer 8: 0 0 0 0 IO-APIC 8-edge rtc0 9: 0 0 0 0 IO-APIC 9-fasteoi acpi 16: 0 0 0 18 IO-APIC 16-fasteoi ioc2 17: 18 0 0 0 IO-APIC 17-fasteoi ioc3 18: 0 185 0 0 IO-APIC 18-fasteoi ioc0 19: 0 0 18 0 IO-APIC 19-fasteoi ioc1 22: 158 0 0 0 IO-APIC 22-fasteoi ehci_hcd:usb1, ehci_hcd:usb2 24: 0 0 0 0 PCI-MSI-0000:00:01.0 0-edge PCIe PME 25: 0 0 0 0 PCI-MSI-0000:00:06.0 0-edge PCIe PME 26: 0 0 0 0 PCI-MSI-0000:00:1c.0 0-edge PCIe PME 27: 0 0 0 0 PCI-MSI-0000:00:1c.4 0-edge PCIe PME 28: 0 0 0 7336 PCI-MSIX-0000:08:00.0 0-edge megasas0-msix0 29: 0 168 0 0 PCI-MSIX-0000:02:00.0 0-edge eno1-0 30: 0 0 240 0 PCI-MSIX-0000:02:00.0 1-edge eno1-1 31: 0 0 0 231 PCI-MSIX-0000:02:00.0 2-edge eno1-2 cat /proc/interrupts # mptbase.mpt_msi_enable_fc=1 CPU0 CPU1 CPU2 CPU3 0: 38 0 0 0 IO-APIC 2-edge timer 8: 0 0 0 0 IO-APIC 8-edge rtc0 9: 0 0 0 0 IO-APIC 9-fasteoi acpi 22: 0 0 0 152 IO-APIC 22-fasteoi ehci_hcd:usb1, ehci_hcd:usb2 24: 0 0 0 0 PCI-MSI-0000:00:01.0 0-edge PCIe PME 25: 0 0 0 0 PCI-MSI-0000:00:06.0 0-edge PCIe PME 26: 0 0 0 0 PCI-MSI-0000:00:1c.0 0-edge PCIe PME 27: 0 0 0 0 PCI-MSI-0000:00:1c.4 0-edge PCIe PME 28: 7677 0 0 0 PCI-MSIX-0000:08:00.0 0-edge megasas0-msix0 29: 0 200 0 0 PCI-MSI-0000:06:00.0 0-edge ioc0 30: 0 0 18 0 PCI-MSI-0000:06:00.1 0-edge ioc1 31: 0 0 0 18 PCI-MSI-0000:07:00.0 0-edge ioc2 32: 18 0 0 0 PCI-MSI-0000:07:00.1 0-edge ioc3 (I do have a device connected to ioc0 , hence the increased interrupt count there.) Addendum added 15Jul2026: My issue must be specific to some aspect of certain motherboards. I was experiencing it on a Dell PowerEdge R310 when the troublesome fibre channel card was in the Riser 1 slot position. Moving the card to a totally different type of computer eliminated the issue. Moving it back to an R310 (not the same R310) brought the issue back. But then moving it within the R310 to the Riser 2 slot position eliminated the issue. Curiously the BIOS interrupt assignments are the same for both riser positions, and the results in /proc/interrupts are the same in both cases, yet there is a 48 second Linux kernel boot delay when the card is in Riser 1. Both positions are PCIe x8 slots on the motherboard, but Riser 1 (the riser itself) allows a x16 card to be inserted, whereas Riser 2 allows only a x8 card to be inserted. Electrically they are both x8. In conclusion, it remains a mystery why this LSI card behaves differently in the R310 Riser 1 slot as compared to the Riser 2 slot (or compared to slots on totally different motherboards).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937693/how-to-troubleshoot-disabled-pci-msis-with-pex8114-pcie-to-pcix-bridge
+
+---
+
+#### 7326. Does UEFI support at least 1 EFI partition per drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, partitioning, uefi, efi | Score: 4 | Views: 298 | Answers: 1 | Created: 2026-03-26
+
+**解决方案 / Solution**:
+The spec supports this scenario: The boot sequence for UEFI consists of the following: The boot order list is read from a globally defined NVRAM variable . Modifications to this variable are only guaranteed to take effect after the next platform reset. The boot order list defines a list of NVRAM variables that contain information about what is to be booted . Each NVRAM variable defines a name for the boot option that can be displayed to a user. The variable also contains a pointer to the hardware device and to a file on that hardware device that contains the UEFI image to be loaded. The variable might also contain paths to the OS partition and directory along with other configuration specific directories. You don't even have to worry about UEFI being confused when you switch out drives between boot because: The boot manager must use the GUID or signature and partition number in the hard drive device path to match it to a device in the system. If the drive supports the GPT partitioning scheme the GUID in the hard drive media device path is compared with the UniquePartitionGuid field of the GUID Partition Entry The use of GUID here means your boot manager should be able to tell which of your stick is preferred (e.g., always boot to a specific Ubuntu install if available, fallback to a Mint install otherwise) regardless of how you plug them in (different slot, or even external).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936193/does-uefi-support-at-least-1-efi-partition-per-drive
+
+---
+
+#### 7327. Debian nvidia-driver not creating kernel modules
+
+**问题描述 / Problem Description**:
+Tags: debian, nvidia-graphics-card, debian-bookworm | Score: 4 | Views: 1933 | Answers: 1 | Created: 2025-06-15
+
+**解决方案 / Solution**:
+In my case the problem was that linux-headers-amd64 was not installed. After installation, run dpkg-reconfigure nvidia-kernel-dkms . Imho this is a bug in package dependencies.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905207/debian-nvidia-driver-not-creating-kernel-modules
+
+---
+
+#### 7328. How to make Firefox remember my last file upload location?
+
+**问题描述 / Problem Description**:
+Tags: firefox, upload, linux | Score: 3 | Views: 295 | Answers: 2 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+The Firefox preference that control the upload folder is named dom.input.fallbackUploadDir . To have Firefox use the last upload folder, delete the value of that pref. To accomplish this: Go to about:config in Firefox's address bar. Enter dom.input.fallbackUploadDir in that page's search field. Click the reset button (looks like a backwards curling arrow) for that preference. Restart Firefox. If you have a user.js file in the active Firefox profile that modifies that pref, you'll need to remove the dom.input.fallbackUploadDir entry from that file, or set the value of that pref to null ("") therein.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936386/how-to-make-firefox-remember-my-last-file-upload-location
+
+---
+
+#### 7329. How to disable animation in tabs and titles in Firefox?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, firefox, tabs | Score: 3 | Views: 339 | Answers: 2 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+This turns out to be an animated character, rather than an animated favicon. Plugins exist to do everything else, and they exist to do this too. Plugin confirmed to work: https://addons.mozilla.org/en-CA/firefox/addon/tab-title-tamer/ I cannot speak to the safety of this plugin, or how it works to accomplish what it does. I would guess that it modifies the userChrome.css, as many of these plugins do, and that could be inspected to confirm its function.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931042/how-to-disable-animation-in-tabs-and-titles-in-firefox
+
+---
+
+#### 7330. why does gpg --recv-keys strip 3rd party signatures?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gnupg, pgp | Score: 3 | Views: 348 | Answers: 1 | Created: 2025-11-10
+
+**解决方案 / Solution**:
+It's a result of some activities that resulted in well-known people's keys being completely flooded with garbage third-party signatures. Due to the design of the 'SKS' keyserver software – specifically the gossip protocol it uses to synchronize between instances – there is no good way to remove something from the SKS keyserver pool (even if that addition wasn't fully valid PGP data), e.g. a key's owner cannot refuse to have signatures attached to their key nor unpublish them after the fact. It is effectively append-only. https://gist.github.com/rjhansen/f716c3ff4a7068b50f2d8896e54e4b7e https://dkg.fifthhorseman.net/blog/openpgp-certificate-flooding.html (On top of that, the SKS software itself had some significant reliability issues. Various remaining keyservers now tend to run replacement software such as Hockeypuck or Hagrid. The former – used by the Ubuntu keyserver – still uses the same 'gossip' synchronization as SKS but is overall more robust. The latter does not synchronize at all; the "keys.openpgp.net" server is fully isolated from the rest.) Since filtering could not be effectively done on the keyservers, GnuPG chose to do it on the client side instead, so now self-sigs-only and import-clean are among the default keyserver-options . (Except on Debian, where the change is reverted.) https://anarc.at/blog/2019-07-30-pgp-flooding-attacks/ https://dev.gnupg.org/rG23c978640812d123eaffd4108744bdfcf48f7c93 https://sources.debian.org/patches/gnupg2/2.4.8-4/freepg/0005-gpg-drop-import-clean-from-default-keyserver-import-.patch/ https://dkg.fifthhorseman.net/blog/community-impact-openpgp-cert-flooding.html
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929978/why-does-gpg-recv-keys-strip-3rd-party-signatures
+
+---
+
+#### 7331. How to implement PAM over U2F and FIDO2 to integrate YubiKey authentication as extra security layer to an OpenVPN server?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, openvpn, pam, yubikey, fido2 | Score: 3 | Views: 855 | Answers: 1 | Created: 2025-10-05
+
+**解决方案 / Solution**:
+That's just not going to work. Your PAM modules are running on the server and have no access to the U2F key connected to the client system. PAM 'authentication' is designed to deal only with passwords and password-like input – the calling software initializes PAM with a username (PAM_USER), then each module may prompt for input and return a verdict. U2F/FIDO doesn't fit into that. Instead, modules such as pam_u2f or pam_fprint work by mostly ignoring the PAM dialog interface and directly accessing a local device (such as the U2F hidraw or the fingerprint reader). To PAM, it looks as if the module just authenticated the user without asking for anything. But that's of course not possible when the PAM module and the U2F device are on two different systems – pam_u2f on the server has no way to access a device connected to the client. The only interface it has to the client is through the interactive prompts for a password or similar. It could still be technically possible to do U2F auth through that – but since all of pam_u2f is running server-side, it cannot remotely teach the OpenVPN client software to talk to U2F keys (especially if the OpenVPN client is running on a different OS). In short, pam_u2f is strictly local-only. So in order for this to be possible, 1) the OpenVPN client software would need to be extended to detect and talk to U2F/FIDO keys, and either 2a) both the client and server would need to be extended to handle U2F as a distinct authentication type (it is definitely not a password, but it doesn't exactly fit into certificate either) or 2b) the client would need to be adapted to recognize specific PAM prompts as requesting a signature from a U2F device, and pam_u2f would need to be rewritten to issue such prompts instead of trying to directly access U2F devices. OpenSSH doesn't use pam_u2f; it works because the SSH protocol has been adapted to handle U2F by creating special "public key" types and the 'ssh' client has been specifically extended to talk to U2F keys when a *-sk key is used. If your U2F/FIDO key happens to be a Yubikey with the PIV feature, then it can be used with OpenVPN by ignoring U2F and only using PIV as a "traditional" smartcard which provides secure storage for a TLS client certificate. It still requires some client configuration, but OpenVPN already knows how to talk to smartcards through PKCS#11 on Linux (or through CAPI/CNG on Windows), and the smartcard can be configured to require a PIN to make it sort-of two-factor.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926183/how-to-implement-pam-over-u2f-and-fido2-to-integrate-yubikey-authentication-as-e
+
+---
+
+#### 7332. Evince no longer opens a specific file unless I rename it
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, evince | Score: 3 | Views: 194 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+Evince stores per-file metadata, such as window position or viewing mode. It might be that the file's metadata tells Evince to put its window way off-screen. Run gio info <path> to see the metadata fields. To clear specific fields: for attr in metadata::evince::window_{x,y,width,height}: gio set -d <path> $attr done To delete all of them: file=<path> attrs=$(gio info "$file" | awk '/^..metadata/ {gsub(/:$/, "", $1); print $1}') for attr in $attrs; do gio set -d "$file" "$attr" done
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924904/evince-no-longer-opens-a-specific-file-unless-i-rename-it
+
+---
+
+#### 7333. Why is it when I’m trying to install ZFS on Debian Trixie, I get a message that the release can’t be found?
+
+**问题描述 / Problem Description**:
+Tags: debian, zfs, zfsonlinux | Score: 3 | Views: 2421 | Answers: 1 | Created: 2025-08-14
+
+**解决方案 / Solution**:
+So it turns out that I needed to add the 'contrib' repository component/section to my /etc/apt/sources.list so added it using the one-liner: sudo sed -i -E 's/^(deb .* main)(?!.*\bcontrib\b)/\1 contrib/' /etc/apt/sources.list And then ran sudo apt update and then sudo apt install zfsutils-linux . Then I knew it worked because sudo which zpool returned /usr/sbin/zpool Turns out I missed the second line of the documentation It is necessary to add the contrib section to your apt sources configuration to be able to get the packages
+
+**参考链接 / References**:
+- https://superuser.com/questions/1918215/why-is-it-when-i-m-trying-to-install-zfs-on-debian-trixie-i-get-a-message-that
+
+---
+
+#### 7334. Where are the sources of GNU GMP (a.k.a. libgmp) in Debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, packages | Score: 3 | Views: 435 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+So which package has the sources of libgmp in Debian None. Sources aren't distributed as packages – they're literally the sources from which packages are built from. So the source code of the library is contained within the source code of the Debian package. While Debian has the term "source package", these are not actually packages in the apt/dpkg sense of the word. They are not installable nor seen by apt/synaptic in general (although the apt repository metadata has pointers to the correct location). and how do I get it? Enable deb-src repository lines in your /etc/apt/sources.list (basically copy every Debian 'deb' line to a 'deb-src' one), then use: apt update apt source libgmp The downloaded tree will contain a debian/ directory with build rules, so it will be suitable for building a full package using: # apt install build-essential # apt build-dep libgmp dpkg-buildpackage -b -us -uc Debian packaging style is slightly unusual in that it puts build rules within the source tree; other distributions typically do the opposite and start with the spec file which then downloads sources straight from upstream. So you'll have debian/rules which actually calls the 'configure' command, debian/patches/ which contains Debian-specific changes (often a lot), and such. You can also do this manually, by going to https://packages.debian.org/libgmp and clicking "Source package". (It's not an apt/dpkg package, but it's still a standardized Debian "unit of measurement".) From that page, either there will be a link to a Git repository on salsa.debian.org, or several links to .tar.gz (pristine upstream source) + .diff (patch to add Debian's build rules) + .dsc files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911347/where-are-the-sources-of-gnu-gmp-a-k-a-libgmp-in-debian
+
+---
+
+#### 7335. Why does Linux (Debian 12) file system creation fail at installation from a live USB?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, debian, formatting | Score: 3 | Views: 666 | Answers: 1 | Created: 2025-07-12
+
+**解决方案 / Solution**:
+I took another approach and connected the HDD to my main laptop to try to partition and format it there. Immediately after connecting I got a system notification like " device /dev/sdc is likely to fail soon ". I considered the suggestion made by Jorge Luiz in a comment to the question: sudo smartctl -a /dev/sdc ... and got right at the top: ... === START OF READ SMART DATA SECTION === SMART overall-health self-assessment test result: FAILED! Drive failure expected in less than 24 hours. SAVE ALL DATA. ... Seems that the HDD has reached its end of life, too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1910293/why-does-linux-debian-12-file-system-creation-fail-at-installation-from-a-live
+
+---
+
+#### 7336. Install postgresql-18 beta from apt repo on debian
+
+**问题描述 / Problem Description**:
+Tags: debian, installation, postgresql, apt | Score: 3 | Views: 890 | Answers: 2 | Created: 2025-07-06
+
+**解决方案 / Solution**:
+You need to configure the Experimental Repository Debian . Add to the file /etc/apt/sources.list the following line: deb https://deb.debian.org/debian experimental main Run the following command lines: apt update apt -t experimental install postgresql-18 That's it. Now you've the beta version installed. Futher Information postgresql-18 experimental package DebianExperimental
+
+**参考链接 / References**:
+- https://superuser.com/questions/1909102/install-postgresql-18-beta-from-apt-repo-on-debian
+
+---
+
+#### 7337. Laptop sometimes won't turn on, sometimes shuts off during use
+
+**问题描述 / Problem Description**:
+Tags: debian, thinkpad | Score: 3 | Views: 148 | Answers: 1 | Created: 2025-06-14
+
+**解决方案 / Solution**:
+It looks like it's a hardware problem and not the OS. Can you try running the laptop without the docking station? And once, I would remove the battery and run the laptop without it. To rule out that either of the two parts is the issue. Because then it’s probably an issue with the laptop, something isn’t right. With used things, you always have to be careful!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905179/laptop-sometimes-wont-turn-on-sometimes-shuts-off-during-use
+
+---
+
+#### 7338. Send raw printfile from windows to CUPS print server
+
+**问题描述 / Problem Description**:
+Tags: debian, cups | Score: 2 | Views: 370 | Answers: 1 | Created: 2026-04-27
+
+**解决方案 / Solution**:
+The reported error, 0x0000052e, is "Logon Failure: unknown user name or bad password". An oddity of the Windows credential prompt is that if you do not specify a computer/domain name as part of the user name, it will prepend the current domain/computer - and I think it defaults to the computer, not the domain. Thus, if my computer is named Workbox on the domain contoso.com , entering user in the user name field of the Windows credential prompt will assume that I mean Workbox\user , not contoso.com\user . Try entering the credential as contoso.com\contosouser with the correct domain password. Alternatively, if the cups server has its own logon names, try cupsserver\cupsuser . Edited: I had originally included \\ at the beginning of the suggested user names; this is incorrect, as pointed out in the comments.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937097/send-raw-printfile-from-windows-to-cups-print-server
+
+---
+
+#### 7339. How to map AltGR+key to a Unicode symbol?
+
+**问题描述 / Problem Description**:
+Tags: linux, keyboard-shortcuts, unicode | Score: 2 | Views: 210 | Answers: 3 | Created: 2026-04-10
+
+**解决方案 / Solution**:
+I have partially achieved this with AutoKey , creating a simple script to send the copy-&-pasted symbol: keyboard.send_keys("ℓ") It works in Libre Office Writer , gvim and xed (X-Apps small text editor), but not in Calc or here. I would still welcome a universal answer, maybe using xmodmap or similar.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936613/how-to-map-altgrkey-to-a-unicode-symbol
+
+---
+
+#### 7340. How can you configure a system-wide minimum version of TLS and cipher libraries on Debian systems, such as LMDE?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, tls | Score: 2 | Views: 236 | Answers: 2 | Created: 2026-04-06
+
+**解决方案 / Solution**:
+Where can you configure a similar minimum TLS setting for all programs on the system? Probably nowhere. There are multiple TLS libraries used by programs (OpenSSL, GnuTLS, NSS, Botan, Golang's built-in one, Java's built-in one, whatever Rust comes up with...), and they don't really have a single common place for configuration. Only Fedora/RHEL packagers put in some work to patch all of them to follow a centrally configurable policy, but other distributions don't have an equivalent. (And that's not even counting the software which comes via Flatpak or AppImage or otherwise beyond the distro's control...) At best you might be able to edit /etc/ssl/openssl.cfg for the ones which use OpenSSL (but, for example, none of the major web browsers do so it'll only affect minor apps and command-line tools). (You do get a similar situation on Windows too. There's the Windows-provided "SChannel" TLS interface of course, but not even Edge uses that anymore.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936487/how-can-you-configure-a-system-wide-minimum-version-of-tls-and-cipher-libraries
+
+---
+
+#### 7341. Deleting an apparently unused VirtualBox Snapshot
+
+**问题描述 / Problem Description**:
+Tags: linux, virtualbox, snapshot | Score: 2 | Views: 58 | Answers: 1 | Created: 2026-03-06
+
+**解决方案 / Solution**:
+The proper procedure would be to release, then remove the disk snapshot. The release operation will remove the disk from the VM. Therefore, you will need to add the disk back to the VM after deleting the disk snapshot. An Example Below I have my VM named Machine. There are no VM snapshots for the Machine VM. Select Media as shown below. Select Release, as shown below. However, if the snapshot does not appear, then you can ignore the rest of this answer and just use your file manager to delete the snapshot. Again, select Release, as shown below. Select Remove, as shown below. Again, select Remove, as shown below. Select Delete, as shown below. The result is shown below. Select Machines, as shown below. Below you can see the SATA disk has be removed from the Machine VM. You will need to add this disk back in. Goto to settings to do this. Selecting this disk is shown below. Below shows the Machine VM with the SATA disk.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935585/deleting-an-apparently-unused-virtualbox-snapshot
+
+---
+
+#### 7342. How to prevent a UEFI entry for bootable USB drive from disappearing from BIOS when UEFI entries updated by Linux on fixed drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, boot, usb, bios, bootloader | Score: 2 | Views: 125 | Answers: 1 | Created: 2026-02-26
+
+**解决方案 / Solution**:
+My USB is apparently over Thunderbolt, so the thunderbolt needs to be enabled in BIOS for it to boot from USB. Even though USB works perfectly fine in the system without that enabled (except for boot).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935308/how-to-prevent-a-uefi-entry-for-bootable-usb-drive-from-disappearing-from-bios-w
+
+---
+
+#### 7343. How to stop Bluetooth from waking my monitors from sleep every 15 minutes with Debian/KDE?
+
+**问题描述 / Problem Description**:
+Tags: debian, bluetooth, kde, wayland, sddm | Score: 2 | Views: 137 | Answers: 1 | Created: 2025-11-30
+
+**解决方案 / Solution**:
+It wasn't Bluetooth, it was my Nvidia GPU failing to suspend. System is now suspending normally after enabling the following services: sudo systemctl enable nvidia-suspend.service sudo systemctl enable nvidia-hibernate.service sudo systemctl enable nvidia-resume.service Solution found in: https://bbs.archlinux.org/viewtopic.php?id=288181
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930837/how-to-stop-bluetooth-from-waking-my-monitors-from-sleep-every-15-minutes-with-d
+
+---
+
+#### 7344. libfdk_aac Unable to set the AOT 5: Invalid config
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ffmpeg, aac | Score: 2 | Views: 252 | Answers: 1 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+Thanks to this comment on Reddit, I tried compiling the fdk-aac library from source instead of using the Ubuntu libfdk-aac-dev package. That removed the error. So it seems that the latest version of the libfdk-aac-dev Ubuntu library will not work with the aac_he or aac_he_v2 profiles (version 2.0.2-3~ubuntu4). I can confirm that version 0.1.6-1 worked.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930603/libfdk-aac-unable-to-set-the-aot-5-invalid-config
+
+---
+
+#### 7345. Why am I experiencing unexpected behavior of the find command in Ubuntu 22.04?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, find | Score: 2 | Views: 79 | Answers: 1 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+How is that even possible? I don't know but it might be to do with the details of the script you are actually using This gives expected results: $ touch data/books/Calibre/test.txt $ find data/books/Calibre -mindepth 1 -newer Calibre.timestamp -not -name 'metadata*' data/books/Calibre/test.txt This doesn't work though: $ cmd="find data/books/Calibre -mindepth 1 -newer Calibre.timestamp -not -name 'metadata*'" $ echo $cmd find data/books/Calibre -mindepth 1 -newer Calibre.timestamp -not -name 'metadata*' $ $cmd data/books/Calibre/metadata_db_prefs_backup.json data/books/Calibre/test.txt data/books/Calibre/metadata.db Addendum 1 Your exact results could arise from a script containing args="/data/books/Calibre -mindepth 1 -newer Calibre.timestamp -not -name 'metadata*'" echo finding $args find $args Addendum 2 The reasons for this may become clearer if we examine exactly what the find command sees handed to it by the shell after the shell has processed the command line. This works: $ listargs a b c -name 'c*.txt' Argument 0 is <listargs> Argument 1 is <a> Argument 2 is <b> Argument 3 is <c> Argument 4 is <-name> Argument 5 is <c*.txt> As you know we put single quotes around c*.txt to prevent the shell performing globbing on the asterisk and replacing the expression with an unwanted list of matching filenames from the current working directory. The below doesn't work though (paying attention to argument 5 above and below): $ opts="-name 'c*.txt'" $ echo listargs a b c $opts listargs a b c -name 'c*.txt' $ listargs a b c $opts Argument 0 is <listargs> Argument 1 is <a> Argument 2 is <b> Argument 3 is <c> Argument 4 is <-name> Argument 5 is <'c*.txt'> The listargs program is this (there's probably a builtin or something but this was quick enough to dash off) As we can see, we are inadvertently asking find to search for files whose name does not start with an apostrophe.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927000/why-am-i-experiencing-unexpected-behavior-of-the-find-command-in-ubuntu-22-04
+
+---
+
+#### 7346. How do I write a script that logs me out and suspends a PC running Ubuntu 24 with LightDM?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, bash-scripting, lightdm | Score: 2 | Views: 209 | Answers: 1 | Created: 2025-10-04
+
+**解决方案 / Solution**:
+Your script cannot log you out first, suspend after, because it is killed as part of the logout. Use systemd-run to start a detached script that waits for your session to disappear, then suspends the system. For example, the script might be: #!/bin/sh -eu SESSION_ID=$1 # Ideally this loop should give up after a minute, to avoid unexpected suspends # in case the corresponding logout request fails while [ -e /run/systemd/sessions/$SESSION_ID ]; do sleep 1; done systemctl suspend Then the frontend script can ask the GUI session manager to log out, as the last thing it does: #!/bin/sh -eu SESSION_ID=$(loginctl show-session self -P Id) # SESSION_ID=$(loginctl show-user "$(whoami)" -P Sessions) sudo systemd-run -- /usr/local/bin/waitforlogout $SESSION_ID gnome-session-quit --logout --force --no-prompt # qdbus org.kde.ksmserver /KSMServer logout 0 -1 -1 # mate-session-save --logout # gnome-session-save --force-logout --silent # xfce4-session-logout --logout With systemd-run , the 'while' loop will survive the logout as it is not part of the session being logged out.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926140/how-do-i-write-a-script-that-logs-me-out-and-suspends-a-pc-running-ubuntu-24-wit
+
+---
+
+#### 7347. Emacsclient in WSL2 as default editor for .txt files
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, cygwin, emacs, wsl2 | Score: 2 | Views: 526 | Answers: 2 | Created: 2025-09-07
+
+**解决方案 / Solution**:
+I spent a while trying to create a powershell script to open the files but kept having issues with one terminal or another remaining open. While those issues can probably be fixed, I moved the logic inside WSL using bash and seems to work for me (most of the time) /usr/bin/handle_txt.sh (+x) #!/bin/bash LOG=FALSE LOGFILE="$HOME/log.txt" log() { if [ "$LOG" = "TRUE" ]; then echo "$(date '+%Y-%m-%d %H:%M:%S') - $*" | tee -a "$LOGFILE" fi } wait() { echo "Press Enter to Continue..." read } # wsl distribution name SELF=$(basename "$(wslpath -m /)" | tr '[:upper:]' '[:lower:]') # no file provided, just open emacs if [ $# -eq 0 ]; then nohup emacsclient -a /usr/bin/emacs -c -n >/dev/null 2>&1 & exit 0 fi log "Arguments: $*" for winpath in "$@"; do linuxpath="" target="$SELF" log "Processing path: $winpath" # convert windows path if [[ "$winpath" =~ ^[A-Za-z]:\\ ]]; then linuxpath=$(wslpath -a "$winpath") log "Converted Windows Path to Linux: $linuxpath" # convert network path elif [[ "$winpath" =~ ^\\\\wsl\.localhost\\([^\\]+)\\(.+) ]]; then target=$(echo "${BASH_REMATCH[1]}" | tr '[:upper:]' '[:lower:]') linuxpath="/${BASH_REMATCH[2]//\\//}" log "Converted WSL UNC Path to Linux: $linuxpath" # skip non-wsl network path elif [[ "$winpath" =~ ^\\\\[^\\]+\\[^\\]+ ]]; then log "Skipping regular UNC path: $winpath" wait continue # assume already linux path else log "Assumed Linux Path: $linuxpath" linuxpath="$winpath" fi # if [[ "$target" != "$SELF" ]]; then log "$linuxpath is from distribution [$target] and cannot be opened on [$SELF]" wait continue fi nohup emacsclient -a /usr/bin/emacs -c -n "$linuxpath" >/dev/null 2>&1 & done log "Finished" Registry file to create a file extension (probably the wrong term) and adjust the default handler for .txt . You will likely need to clear the values under: HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.txt as these override the values under: HKCU\Software\Classes\.txt . Windows Registry Editor Version 5.00 [HKEY_CURRENT_USER\SOFTWARE\Classes\emacsfile] @="Emacs File" "FriendlyTypeName"="Emacs File" [HKEY_CURRENT_USER\SOFTWARE\Classes\emacsfile\shell\open\command] @="wsl.exe /usr/bin/handle_txt.sh \"%1\"" [HKEY_CURRENT_USER\SOFTWARE\Classes\.txt] @="emacsfile" Regarding the Other problems Dragging linux file I think the issue with dragging a linux file (from the Linux/WSL section in explorer) is that its essentially a mapped network drive, so the path sent to your script is not actually the linux path or a windows path. I have a file /home/myuser/example.txt on my Debian WSL2. If I view the properties of that file from explorer its path is \wsl.localhost\Debian\home\myuser\example.txt When I drag it to the script it becomes /mnt/c/wsl.localhost/Debian/home/myuser/example.txt This path doesn't exist, so new file! Looks like you will need to add some logic to detect if its a "remote" file. This file may harm your computer! This is related to the linux files being a network location. You can fix this by adding file://*.wsl.localhost to the local intranet security zone. Control Panel -> Internet Options On the security tab, select Local Intranet and then the Sites button below, in the window that opens select Advanced and then add wsl.localhost . Better instructions with pictures
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923862/emacsclient-in-wsl2-as-default-editor-for-txt-files
+
+---
+
+#### 7348. How to release/renew IP address on Debian 13?
+
+**问题描述 / Problem Description**:
+Tags: debian, ip, dhcp | Score: 2 | Views: 6616 | Answers: 1 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+On Debian 13, I was able to use dhcpcd dhcpcd --release {iface name like eth0} dhcpcd --renew {iface name like eth0}
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916993/how-to-release-renew-ip-address-on-debian-13
+
+---
+
+#### 7349. Grub stuck on the minimal BASH-like line editing after a power interruption (debian 13)
+
+**问题描述 / Problem Description**:
+Tags: debian, grub, gpt, efi, lvm | Score: 2 | Views: 538 | Answers: 2 | Created: 2025-08-08
+
+**解决方案 / Solution**:
+Most likely, drive corruption is causing the issue, rather than an issue with grub . The quickest and easiest way to fix such corruption, I find, is to do the following: Shut down. Use shutdown -h now , poweroff or systemctl poweroff . If that fails, hold down the power button. Insert a USB (or CD) drive with Debian live test/installation. Hold down the key to select boot device, or for BIOS, power on while holding the key, and select the Debian boot device. Then start the PC to boot from USB. Choose to try Debian, not install. Then, either Use the Disks utility to repair each partition Or use File System Consistency Check (fsck) to repair each partition. N.B., I've often seen a message for failure of the repair on the first attempt. However, repeating the identical procedure reports success on the second try. Sorry, I've no explanation as to why a second pass works, but it most often does . Shut down gracefully, remove the boot media, and boot again. Hopefully, all will be well. If there is an actual problem with grub , after trying to fix partitions, try Boot-Repair or, if that fails, GrubEFIReinstall , using the Debian live installation media. BTW, if Boot-Repair is not already on that media, add it in Terminal as follows: sudo apt install -y wget; wget -O- https://sourceforge.net/projects/boot-repair/files/key.gpg | sudo tee /etc/apt/keyrings/boot-repair.gpg; echo 'deb [signed-by=/etc/apt/keyrings/boot-repair.gpg] https://ppa.launchpadcontent.net/yannubuntu/boot-repair/ubuntu noble main' | sudo tee /etc/apt/sources.list.d/boot-repair.list; sudo apt update && sudo apt install -y boot-repair Note that this is a Ubuntu noble (v. 24.04) tool, but it should work on recent Debian versions.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916480/grub-stuck-on-the-minimal-bash-like-line-editing-after-a-power-interruption-deb
+
+---
+
+#### 7350. Why am I getting this message with USB-to-Ethernet adapter inside USB-C Hub: Temporary failure in name resolution?
+
+**问题描述 / Problem Description**:
+Tags: networking, debian, dns, ip, ethernet | Score: 2 | Views: 231 | Answers: 2 | Created: 2025-08-06
+
+**解决方案 / Solution**:
+To verify that it is truly a DNS resolution issue, rather than a failure to communicate, ping a server by IP address , rather than by name: e.g., ping 74.6.143.25 for one of the Yahoo servers, or better, a public site allowing ping, such as DNS resolver Cloudflare ( 1.1.1.1 ) or Google ( 8.8.8.8 ), or any other external server (not necessarily a DNS resolution server) you can reach from another PC on your network, such as Microsoft.com by IP address . Also check if your machine can ping another IP inside your local area network , such as your router . If you cannot even ping on the LAN, then the issue is clearly failure to communicate at all.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1916063/why-am-i-getting-this-message-with-usb-to-ethernet-adapter-inside-usb-c-hub-tem
+
+---
+
+#### 7351. How to programmatically determine if APT is doing an update?
+
+**问题描述 / Problem Description**:
+Tags: debian, shell-script, updates, apt, widgets | Score: 2 | Views: 321 | Answers: 2 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+Apt locks files using flock() . This means that the file will open the file, call flock on the descriptor, and as result of flock it will get if another file has it, or if they have succesfully got the lock. To detect if a lock has being hold, you can do lsof /var/lib/dpkg/lock-frontend or similar. (Make sure to run this as root, it will exit with status 1 quietly if not run as root) I am unsure if it is possible to get the current state, you should probably be able to use the output of apt if you are using it in your own script.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907799/how-to-programmatically-determine-if-apt-is-doing-an-update
+
+---
+
+#### 7352. Tor log file doesn't exist on Debian - how to enable?
+
+**问题描述 / Problem Description**:
+Tags: debian, tor | Score: 2 | Views: 920 | Answers: 1 | Created: 2025-04-19
+
+**解决方案 / Solution**:
+You need to edit the /etc/tor/torrc file to enable logs (uncomment the below line). Log notice file /var/log/tor/notices.log Please also note : We advise using "notice" in most cases, since anything more verbose may provide sensitive information to an attacker who obtains the logs. Then, just restart the tor service like this : sudo systemctl restart tor From now, you should be able to monitor and view tor logs : sudo tail -f /var/log/tor/notices.log
+
+**参考链接 / References**:
+- https://superuser.com/questions/1892860/tor-log-file-doesnt-exist-on-debian-how-to-enable
+
+---
+
+#### 7353. Linux service can only do network request, if restarted with sudo priviledges?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, services, systemd, systemctl | Score: 2 | Views: 78 | Answers: 1 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+I had to add 2 lines to the Unit section. Found that out literally 5 minutes after setting up a bounty after days. [Unit] After=network-online.target Wants=network-online.target Seems that even if the network comes online with time, the service will not have access to it, if it does not wait for it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1892713/linux-service-can-only-do-network-request-if-restarted-with-sudo-priviledges
+
+---
+
+#### 7354. Smart 199 SATA_CRC_Error_Count number
+
+**问题描述 / Problem Description**:
+Tags: linux, ssd, smart | Score: 1 | Views: 90 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+Should I trust this disk to store my data? The disk is probably fine, but the data isn't properly reaching the disk in the first place. As long as the disk is able to detect SATA packets with incorrect checksum, it will discard them and the host will retransmit, until hopefully they make through – at which point the disk will store the data as it should. But high error rate will likely reduce performance (since it takes multiple tries to write or read the same sector), and it might be that a packet can't get through and the host controller will try to fully reinitialize the link (additional noticeable delays and dmesg logs) or even give up and decide the disk unresponsive. Should I try to switch slots, meaning install the big new SSD to the direct slot and the OS old SSD to the caddy adaptor? Yes to determine whether the problem is with the adapter or the disk. (I might even try installing the disk without the adapter, as the ports are usually the same anyway and the adapter just holds it in place.) But keep in mind that SATA ports dedicated to an optical drive are often lower speed (and your smartctl output suggests this might be the case here), so plan accordingly. For example, it used to be common for a typical older laptop (or an SFF/µFF PC) to have one 6 Gbps SATA port for the HDD and one 3 Gbps SATA port for the CD/DVD drive. So while SATA SSDs are already limited to ~550 MB/s throughput, connecting one to an "optical drive" port might only give you half of that. On the other hand, it could also be that smartctl is saying (current: 3.0 Gb/s) specifically because of your connection issues, not because of the port itself (the SATA controller will negotiate a lower speed if it has issues keeping the link up). So move the disks around, check dmesg to see what speed they negotiate and whether the disk on the 2nd port gives you any SATA or AHCI errors. (If it turns out that the 2nd port is actually only 3Gbit, since it's going to be a NAS, I would probably use the fast one for data and the slow one for the OS.) Or should I return the disk? Not until you have ruled out physical connection issues.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939094/smart-199-sata-crc-error-count-number
+
+---
+
+#### 7355. question about dig command output
+
+**问题描述 / Problem Description**:
+Tags: command-line | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-07-13
+
+**解决方案 / Solution**:
+Yes, this is a partial list. No local command can returns a complete list for this, because the server only returns 8 records . It's Round-robin DNS used by clouds for load balancing, and clouds are unlike residential ISPs in that they can change their IPs at will. DNS can fit ~25 records , so the server choose to not return the rest. home@daniel-desktop3:~$ dig @1.1.1.1 checkip.amazonaws.com +noall +answer +expandaaaa | awk '{print$NF}' | sort 100.57.255.105 107.20.33.36 32.199.109.161 32.199.254.48 34.193.55.238 3.89.216.194 52.71.235.7 54.145.215.170 checkip.check-ip.aws.a2z.com. home@daniel-desktop3:~$ dig @1.1.1.1 checkip.amazonaws.com +noall +answer +expandaaaa | awk '{print$NF}' | sort 100.57.255.105 32.199.109.161 34.195.102.33 3.89.216.194 52.71.235.7 52.7.214.107 54.145.215.170 54.204.79.41 checkip.check-ip.aws.a2z.com. root@daniel-desktop3:~# tshark Running as user "root" and group "root". This could be dangerous. Capturing on 'enp39s0' 1 0.000000000 192.168.3.155 → 1.1.1.1 DNS 104 Standard query 0x6e3f A checkip.amazonaws.com OPT 2 0.010518270 1.1.1.1 → 192.168.3.155 DNS 259 Standard query response 0x6e3f A checkip.amazonaws.com CNAME checkip.check-ip.aws.a2z.com A 32.199.109.161 A 32.199.254.48 A 3.89.216.194 A 107.20.33.36 A 54.145.215.170 A 100.57.255.105 A 34.193.55.238 A 52.71.235.7 OPT 3 0.375603244 192.168.3.155 → 1.1.1.1 DNS 104 Standard query 0x9815 A checkip.amazonaws.com OPT 4 0.384146585 1.1.1.1 → 192.168.3.155 DNS 259 Standard query response 0x9815 A checkip.amazonaws.com CNAME checkip.check-ip.aws.a2z.com A 54.204.79.41 A 100.57.255.105 A 34.195.102.33 A 52.71.235.7 A 54.145.215.170 A 3.89.216.194 A 52.7.214.107 A 32.199.109.161 OPT ^C4 packets captured Adding @1.1.1.1 or @8.8.8.8 bypasses the local systemd-resolved cache. Systemd-resolved is noticeable by subsequent requests within 60 seconds being faster. But even systemd-resolved randomizes the order to have the application pick the first one, so I sorted to ease comparison. Notice 1 54.x.x.x IP on the first try and 2 54.x.x.x IPs on the second try without the cache. This corresponds to the tshark packet capture, showing that it's the remote server not the local Ubuntu that is causing the list to be partial.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1568361/question-about-dig-command-output
+
+---
+
+#### 7356. LibreOffice headless HTML to DOCX: images gone without a trace
+
+**问题描述 / Problem Description**:
+Tags: debian, html, libreoffice-writer, headless, docx | Score: 1 | Views: 103 | Answers: 2 | Created: 2026-04-16
+
+**解决方案 / Solution**:
+You could try to inline the images into the html file before conversion. I.e. embed them as data URI. With a helper script like #!/bin/bash html_file="$1" while read -r img_path; do if [[ -f "$img_path" ]]; then mime_type=$(file -b --mime-type "$img_path") data_uri="data:$mime_type;base64,$(base64 < "$img_path" | tr -d '\n')" sed -i "s|src=\"$img_path\"|src=\"$data_uri\"|g" "$html_file" fi done < <(grep -oP 'src="\K[^"]*' "$html_file")
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936786/libreoffice-headless-html-to-docx-images-gone-without-a-trace
+
+---
+
+#### 7357. How to git push as a different user for one specific commit?
+
+**问题描述 / Problem Description**:
+Tags: linux, git, bitbucket.org | Score: 1 | Views: 237 | Answers: 1 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+The documentation seems to focus on modifying the git config (for the cloned tree) but, if I change the email address in there am I not going to suffer problems because I am forced to use one identity to get and another to send? The author/committer identity is not used at all for any of those operations – neither to get commits, nor to send them. The user.name and user.email parameters are stored within the commits themselves as a metadata field, but are not specifically reported to the server as part of e.g. a fetch/clone. (Imagine writing a letter in a .txt file, signing it with your name, then transferring it somewhere using FTP or SSH or Rsync. The name with which you signed the message has no relationship to the FTP or SSH account: it is sent to server as part of the data, but not as part of the command.) When cloning, the only identity that's relevant is your SSH or HTTPS credentials for the specified URL in git remote (often the username is specified directly in the URL). In most cases, that also applies when pushing: the Git server checks access purely based on which SSH credentials you've provided. It sounds like your Git server has had a receive hook specifically added to prevent users from pushing "someone else"'s commits. If that's the case, you need to change your author/committer identity before you make the commits. Git will not rewrite the metadata during push (and cannot, as doing so would change the commit IDs), so if you have already made the commits, then you would need to do a manual rewrite using git filter-repo or git filter-branch and then push the result.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936693/how-to-git-push-as-a-different-user-for-one-specific-commit
+
+---
+
+#### 7358. Samsung PM981a NVMe shows 0B in Linux but works fine in BIOS and Windows - ASUS ZenBook UX481F
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, boot, partitioning, arch-linux | Score: 1 | Views: 149 | Answers: 1 | Created: 2026-03-22
+
+**解决方案 / Solution**:
+I fixed it by installing plain Arch first instead of using the Omarchy installer directly. As Omarchy boots straight through the bootloader and doesnt allow you to edit the boot entry. Arch fixed this. At the Arch USB boot menu, I edited the boot entry and added: nvme_core.default_ps_max_latency_us=0 pcie_aspm=off pcie_port_pm=off That stopped the NVMe drive from dropping to 0B / failing with D3cold power-state errors. After Arch installed, I made it permanent by adding the same options to: /etc/kernel/cmdline Then rebuilt the boot image: sudo mkinitcpio -P sudo reboot After reboot, I confirmed it worked with: cat /proc/cmdline From this I could then connect to my wifi and install Omarchy correctly!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936075/samsung-pm981a-nvme-shows-0b-in-linux-but-works-fine-in-bios-and-windows-asus
+
+---
+
+#### 7359. Prevent OpenVPN from asking token password (Linux)
+
+**问题描述 / Problem Description**:
+Tags: linux, openvpn, systemd | Score: 1 | Views: 92 | Answers: 1 | Created: 2026-03-17
+
+**解决方案 / Solution**:
+Simply store the password and certificate in the VPN settings, as shown below. Select a VPN connection. On the Identity tab, enter User name , Password and the CA certificate . Hint: There are numerous Linux distros. It is helpful to specify the OS to get a useful answer. This answer applies to Ubuntu 24.04 LTS .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935929/prevent-openvpn-from-asking-token-password-linux
+
+---
+
+#### 7360. Laptop does not wake up from sleep, dmesg shows errors related to d3cold and AX210 card
+
+**问题描述 / Problem Description**:
+Tags: linux, wireless-networking, laptop, sleep | Score: 1 | Views: 118 | Answers: 2 | Created: 2026-03-09
+
+**解决方案 / Solution**:
+Not really a solution, but after more digging, I found out it is related to this laptop's faulty BIOS and bad power management. AX210 gets into D3Cold power saving state for sleep, but it couldn't get out of it. As a workaround, I wrote this service that disables D3Cold state for AX210 before sleep, and re-enables it after waking up. #!/bin/sh # Place this service under '/usr/lib/systemd/system-sleep/' and run 'chmod +x' # Due to a faulty BIOS, the laptop fails to get out of the suspend. # That's because the wifi card gets into a power saving mode # right before the suspend called "D3Cold", but # couldn't get out. As a workaround, D3Cold is disabled right before the suspend, # and enabled afterwards. This way, suspend will work without draining the battery. # Comment out the following line to disable the service # SERVICE_DISABLED=1 if [ "$SERVICE_DISABLED" = "1" ]; then logger "D3Cold disabler service disabled." exit 0 fi # Path to D3Cold control file. Modify accordingly. # Use 'lspci | grep Network', get device ID (e.g. 0000:02:00.0). # Then use the following command to find the path: # 'find /sys/devices -path "*0000:02:00.0*/d3cold_allowed"' D3COLD_CONTROL='/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/d3cold_allowed' if [ "${1}" = "pre" ]; then logger "Disabled D3Cold before suspend." echo 0 | tee "$D3COLD_CONTROL" elif [ "${1}" = "post" ]; then logger "Enabled D3Cold after suspend." echo 1 | tee "$D3COLD_CONTROL" fi logger "D3Cold script execution complete."
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935703/laptop-does-not-wake-up-from-sleep-dmesg-shows-errors-related-to-d3cold-and-ax2
+
+---
+
+#### 7361. Why is /usr/local/bin not in my PATH?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, path, lxc, proxmox | Score: 1 | Views: 423 | Answers: 1 | Created: 2026-01-08
+
+**解决方案 / Solution**:
+From https://dimasmaulana.dev/posts/development/bash-check-if-shell-on-interactive-or-login/ Bash Check if Shell on Interactive or Login In Bash, you can check whether the shell is running in an interactive or login mode using the provided commands. Here’s an explanation of each command and what it checks for: [[ $- == *i* ]] && echo 'Interactive' || echo 'Not interactive' : This command checks the value of the special shell variable $- , which contains a string of options and flags that are currently set for the shell. The *i* pattern is used to check if the letter ‘i’ appears anywhere in the value of $- . If it does, it indicates that the shell is running in interactive mode. If ‘i’ is found, it echoes ‘Interactive’, otherwise, it echoes ‘Not interactive’. shopt -q login_shell && echo 'Login shell' || echo 'Not login shell' : This command uses the shopt built-in command to check the status of a shell option called login_shell . If shopt -q login_shell returns true (exit status 0), it means that the shell is a login shell, so it echoes ‘Login shell’. If shopt -q login_shell returns false (exit status non-zero), it means that the shell is not a login shell, so it echoes ‘Not login shell’. From https://blog.vandenakker.xyz/posts/whats-the-difference-between-a-login-and-a-nonlogin-shell/ Is My Current Shell a Login Shell? There are two ways to check if your current shell is a login shell: First, you can check the output of echo $0 : if it starts with a dash (like -bash ), it’s a login shell. Be aware, however, that you can start a login shell with bash --login , and echo $0 will output just bash without the leading dash, so this is not a surefire way of find out if you are running a login shell. Secondly, the Unix StackOverflow offers this way of finding out : $ shopt -q login_shell && echo login || echo nonlogin Why You Sometimes Want a Login Shell When you switch users using su you will take the environment of the calling user with you. To prevent this, you should use su - which is short for su --login . This acts like a clean login for a new user, so the environment will not be cluttered with values from the calling user. Just as before, a login shell will read /etc/profile and the .bash_profile of the user you are switching to, but not its .bashrc . This post on StackOverflow shows why you might want to prefer to start with a clean environment (spoiler: your $PATH might be “poisoned”).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933431/why-is-usr-local-bin-not-in-my-path
+
+---
+
+#### 7362. Why am I unable to SSH into a remote server? “Resource Temporarily Unavailable”
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, ssh, vpn | Score: 1 | Views: 324 | Answers: 1 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+I got: C:\Users\MyAcctName> C:\Windows\System32\OpenSSH\ssh.exe test@remote.site.example OpenSSH_for_Windows_8.1p1, LibreSSL 3.0.2 debug3: Failed to open file:C:/Users/MyAcctName/.ssh/config error:2 debug3: Failed to open file:C:/ProgramData/ssh/ssh_config error:2 debug2: resolving "remote.site.example" port 22 debug2: ssh_connect_direct debug1: Connecting to remote.site.example [198.51.100.146] port 22. debug3: finish_connect - ERROR: async io completed with error: 10060, io:0000022AA074B5C0 debug1: connect to address 198.51.100.146 port 22: Connection timed out ssh: connect to host remote.site.example port 22: Connection timed out Except, I falsified some of the data in the above example, to use "remote.site.example" and "198.51.100.146" instead of what you typed, for privacy reasons. The name remote.site.example was used as noted by https://datatracker.ietf.org/doc/html/rfc6761#section-6.5 and 198.51.100.# was used as noted by https://datatracker.ietf.org/doc/html/rfc5737#section-3 Unless you are expecting the site to act different when reached when you are using a specific address (which may very well be the point of the VPN), the issue looks more likely to be a problem with the server's side of things. Google AI overview suggests "Resource not available" can come from issues like memory exhaustion (which very well could be on the server's side) or other server overload. Verifying that the server is accepting connections, and checking server-side details like firewall settings and logs, may be helpful. (Such details may be needed for us, people who are not on the same network, to feasibly help further.) https://stackoverflow.com/a/70041647/4411648 shows a resolution (use a different network path).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931301/why-am-i-unable-to-ssh-into-a-remote-server-resource-temporarily-unavailable
+
+---
+
+#### 7363. How can I find out the default mount directory used for USB flash drives? (ex: /media on Ubuntu systems, /run/media on Arch Linux)
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, usb, mount, arch-linux | Score: 1 | Views: 346 | Answers: 2 | Created: 2025-11-13
+
+**解决方案 / Solution**:
+This is not a complete solution, but it might help others: Whether /media or /run/media is used, depends on whether the --enable-fhs-media was used when compiling udisk2 or not: --enable-fhs-media Mount devices in /media instead of /run/media [default=no] And it looks like Debian based distributions (Ubuntu at least) do use --enable-fhs-media at compile time, while Arch does not. Relevant source files: https://github.com/storaged-project/udisks/blob/f928fdd455f5fdfd5a87b976e4c9f06ac0f8cc92/configure.ac#L130 https://github.com/storaged-project/udisks/blob/f928fdd455f5fdfd5a87b976e4c9f06ac0f8cc92/src/udiskslinuxfilesystem.c#L104 Relevant commit: https://github.com/storaged-project/udisks/commit/ae2a5ff1e49ae924605502ace170eb831e9c38e4 Related question: https://askubuntu.com/questions/1140662/automatic-mounting-in-run-media-instead-of-media
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930102/how-can-i-find-out-the-default-mount-directory-used-for-usb-flash-drives-ex
+
+---
+
+#### 7364. Steam-related files remain in Snap after full apt removal — why?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu | Score: 1 | Views: 287 | Answers: 1 | Created: 2025-10-13
+
+**解决方案 / Solution**:
+I asked the same question on Reddit and got a response saying "nothing" should be done. Yes, and you're going to get the same response here. The response you got on Reddit already explained, correctly, why "nothing" should be done. What do you think should be done in this situation? Step back for a moment, and consider that not all uses of the word 'steam' are part of Steam. They might be completely unrelated packages that exist independently of Steam but happen to contain Steam-related components. Or, for all you know, they might be referring to water vapor . For example, the file you found is part of the Papirus icon pack. It is an image that looks like this: It has the Steam logo, therefore it contains steam in its name, but nevertheless it is not part of the Steam installation – it is part of the Papirus icon pack, which itself is part of the 'gtk-common-themes' package that was already there before you installed Steam. So, in short, are these files related to Snap? But are they Steam's own files? Or are Snap's own files not even directly related to Steam? None of the above. They are files belonging to the 'gtk-common-themes' Snap package. They are not part of Snap proper and they are not part of Steam either.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926621/steam-related-files-remain-in-snap-after-full-apt-removal-why
+
+---
+
+#### 7365. Do I need to uninstall and reinstall phpMyAdmin when replacing MariaDB with MySQL?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mysql, phpmyadmin, mariadb | Score: 1 | Views: 190 | Answers: 1 | Created: 2025-10-02
+
+**解决方案 / Solution**:
+No, you do not need to uninstall phpMyAdmin, let alone purge it. PHPMyAdmin is simply interpreted PHP code which connects to MySQL/MariaDB databases, and its only dependency is "If you want it to connect to do anything, you need to point it in the direction of the database(s) and provide the credentials. This can be done in a config file or through the login interface, depending on exactly how it's configured, but it's not tied in to a database. In fact, you don't even need to have a valid database running on the same server as PHPMyAdmin - you can point it to a database on another system. The only dependencies would be to PHP Libraries - but these are libraries which can connect and speak to a MySQL/MariaDB database, not dependent on the existence of that database on your machine.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926005/do-i-need-to-uninstall-and-reinstall-phpmyadmin-when-replacing-mariadb-with-mysq
+
+---
+
+#### 7366. SSD partition deletion, only appear on Grub, not appear on Installation Ubuntu or Win through USB boot
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, partitioning, ssd, grub | Score: 1 | Views: 145 | Answers: 1 | Created: 2025-09-21
+
+**解决方案 / Solution**:
+The error message shown in the question's first image explains your problem. This is repeated below. We couldn't find any drives. To get a storage driver, click Load driver. I can recreate a situation similar to yours by using VirtualBox. Below is image similar to what is posted in the question. In my virtual machine, the drive is attached to a LsiLogic SCSI controller. (According to this website , the LsiLogic LSI53c1030 SCSI controller is being emulated.) Grub was installed by using Ubuntu Live. Grub is capable accessing this drive arrangement. However, when booting to a Windows 10 installer, I get the image below, which is similar to what is posted in the question. In my case, I downloaded the LSIMPT_SCSI_WinVista_1-28-03.zip file from Broadcom (which acquired Lsi Logic) and after loading the driver, the screen changed to what is shown below.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925118/ssd-partition-deletion-only-appear-on-grub-not-appear-on-installation-ubuntu-o
+
+---
+
+#### 7367. Disabling the Kate Scrolling Mini-Map
+
+**问题描述 / Problem Description**:
+Tags: debian, text-editors, scrollbar, kate | Score: 1 | Views: 198 | Answers: 1 | Created: 2025-09-04
+
+**解决方案 / Solution**:
+The way to disable the Scrollbar Mini-Map with Kate version 25.04.3 is to access the menu and go to View > Borders > Scrollbar Mini-Map. There you can toggle it on or off. Also in Settings > Configure Kate > Borders > Minimap: Show minimap
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923398/disabling-the-kate-scrolling-mini-map
+
+---
+
+#### 7368. How do I verify the authenticity of software downloaded from the Ubuntu App Center/Snap?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, security, snap | Score: 1 | Views: 404 | Answers: 1 | Created: 2025-08-25
+
+**解决方案 / Solution**:
+From my own reading the App Center is a front for both Snap and apt . I have been unable to find any information on how to use publisher's certs to validate software within the system. Also, given that you can add repos, I would guess that the App Center can probably use these too, so even assuming the default repos are generally trustworthy, you can add untrusted repos. Given the above, the Ubuntu App Center appears to be "General User" focused and should only be used on unmodified systems with default repos, and then should not be trusted beyond the normal level of trust accorded to software you download online. If trust and safety is your goal, use the other package management tools that support cryptographic publisher confirmation and package validation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1921133/how-do-i-verify-the-authenticity-of-software-downloaded-from-the-ubuntu-app-cent
+
+---
+
+#### 7369. Why is an older Linux binary failing on newer system with “/lib/arm-linux-gnueabihf/libpthread.so.0: version `GLIBC_2.25' not found?”
+
+**问题描述 / Problem Description**:
+Tags: debian, glibc, shared-libraries | Score: 1 | Views: 251 | Answers: 1 | Created: 2025-07-29
+
+**解决方案 / Solution**:
+The (dynamic) linker is capable of finding compat symbols where available, glibc naturally was an early adopter. This is why the linker might know about version GLIBC_2.25 when the .so name of the file did not change. glibc 2.34 merged the tightly integrated yet separate libpthread into libc . Although newer glibc like the host system will have a libpthread.so.0, nothing but placeholders are in there. This should be fine; it's either in one place or the other. On my Fedora box with glibc 2.40, there are no 2.25 versioned symbols when I run readelf -W -s /usr/lib64/libpthread.so.0 /lib64/libc.so.6 | grep pthread Use the linker debugger environment variables to find out how every symbol is resolved. LD_DEBUG_OUTPUT=/tmp/ld.txt LD_DEBUG=all ./Demo An output file will be in /tmp/ld.txt postfixed with PID. (Or do not set LD_DEBUG_OUTPUT and it's then printed on stderr.) Find every GLIBC_2.25 versioned symbol and how it was resolved. symbol= lines when it first appears, and lookup in file= for the search path. Note if the search path is for the host or the target libraries. Also try the programs on a glibc less than 2.34, such as Debian bullseye. On such systems, readelf -W -s libpthread.so.0 will show the actual symbols of the pthread implementation. If that also does find GLIBC_2.25, your problem is not specific to the pthread merge.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1913743/why-is-an-older-linux-binary-failing-on-newer-system-with-lib-arm-linux-gnueab
+
+---
+
+#### 7370. How do I print IP address and SSH host keys finterprints before login prompt on linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, sshd | Score: 1 | Views: 102 | Answers: 1 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+Add a script to the ExecStartPre= of getty@.service . (You might also want to set TTYReset=no , and make sure your /etc/issue doesn't have any "clear screen" codes.) Alternatively, add a script that generates /etc/issue to the ExecStartPre of the same service.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903003/how-do-i-print-ip-address-and-ssh-host-keys-finterprints-before-login-prompt-on
+
+---
+
+#### 7371. No brightness control. Debian with KDE on iMac 2013
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, graphics-card, nvidia-graphics-card, kde | Score: 1 | Views: 344 | Answers: 1 | Created: 2025-05-07
+
+**解决方案 / Solution**:
+Switch display manager from Wayland to x11 then use xrandr. While this is technically a solution to the problem, x11 is not fully compatible with KDE. I notice that several basic settings are not available such as custom shortcuts. Display brightness changes from xrandr persist when I switch back to Wayland, but do no persist after reboot. Here are the steps I took: Navigate to the login screen (Logged out of my session without shutdown) Switch from Wayland to X11 (in the lower left corner of the login screen it just said "Wayland" - I clicked it and chose the x11 option.) Use xrandr | grep " connected" to get display name. (The first "word" in the resulting line was DP-1, my display name.) Use xrandr --output DP-1 --brightness 0.7 to change brightness! (0.7 makes it a little bit dim. 1.2 makes it brighter. 1 is default.) xrandr does not work in Wayland
+
+**参考链接 / References**:
+- https://superuser.com/questions/1896499/no-brightness-control-debian-with-kde-on-imac-2013
 
 ---

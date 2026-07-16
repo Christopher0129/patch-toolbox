@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7043**
+**总计条目 / Total entries: 7107**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -95847,5 +95847,837 @@ I don't think this is malware. As best I can tell, it's support for WiFi 7 and p
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486754/strange-files-in-tmp-folder
+
+---
+
+#### 7044. Problem making a symlink in / using /etc/synthetic.conf
+
+**问题描述 / Problem Description**:
+Tags: macos, symlink, root | Score: 1 | Views: 52 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+The columns in /etc/synthetic.conf must be separated by a tab character, as stated in man synthetic.conf : Each line may have one or two columns, separated by a tab character. In your case – as the hex dump shows – the columns are separated by a space character (hex 20) instead of a tab character (hex 09), and that is why it does not work. In vim you can simply press the TAB key for the tab character when you are in insert or append mode. CTRL-V in vim serves a different purpose (start visual-block mode ). With respect to your remark that people have said you do tab as "(Ctrl-V + Tab)" That is if you want a tab character in the Terminal, compare Control-V in Wikipedia: Unix interactive terminals use Control-V to mean "the next character should be treated literally" (the mnemonic here is "V for verbatim"). This allows a user to insert a literal Control-C or Control-H or similar control characters that would otherwise be handled by the terminal. For example, echo "foo<CTRL-V><TAB>bar" >> /etc/synthetic.conf appends foo<TAB>bar to that file.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486761/problem-making-a-symlink-in-using-etc-synthetic-conf
+
+---
+
+#### 7045. What is that one Mac app that made you think, "How was I working without this?"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy0hha/what_is_that_one_mac_app_that_made_you_think_how/
+
+---
+
+#### 7046. I woke up to something every indie developer dreams about
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uybybb/i_woke_up_to_something_every_indie_developer/
+
+---
+
+#### 7047. Is this for real?? No Private Relay just cuz I'm using wired network...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxpfe7/is_this_for_real_no_private_relay_just_cuz_im/
+
+---
+
+#### 7048. The shape of apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uyfhhn/the_shape_of_apps/
+
+---
+
+#### 7049. OS become laggy for no reason
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxwa1p/os_become_laggy_for_no_reason/
+
+---
+
+#### 7050. Any alternatives for macOS 26/27 icon composer
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uyapb7/any_alternatives_for_macos_2627_icon_composer/
+
+---
+
+#### 7051. How to really learn to use Terminal on Mac and create useful automations?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxzvpi/how_to_really_learn_to_use_terminal_on_mac_and/
+
+---
+
+#### 7052. Impossible to change a model on MacOS app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uyeppk/impossible_to_change_a_model_on_macos_app/
+
+---
+
+#### 7053. Chrome is much faster than Safari on my MacBook, or am I imagining things?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxwfzt/chrome_is_much_faster_than_safari_on_my_macbook/
+
+---
+
+#### 7054. Headphone Output Won't Work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uyd2zm/headphone_output_wont_work/
+
+---
+
+#### 7055. Apple TV flickering on Macbook Air M1 with macos 14.8.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy6lql/apple_tv_flickering_on_macbook_air_m1_with_macos/
+
+---
+
+#### 7056. Unable to open raw format (.cr2) images
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uya0ld/unable_to_open_raw_format_cr2_images/
+
+---
+
+#### 7057. My Mac book air has this issue going on with the screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxuydu/my_mac_book_air_has_this_issue_going_on_with_the/
+
+---
+
+#### 7058. macOS lockscreen password prompt inconsistent - possibly compromised?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxwcnj/macos_lockscreen_password_prompt_inconsistent/
+
+---
+
+#### 7059. Working from cafés for a few months on macOS Tahoe - anything obvious I'm missing security-wise?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy7jdn/working_from_cafés_for_a_few_months_on_macos/
+
+---
+
+#### 7060. real talk - should I move from built-in apps to paid apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy5mcm/real_talk_should_i_move_from_builtin_apps_to_paid/
+
+---
+
+#### 7061. MacBook monitors question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy4q9a/macbook_monitors_question/
+
+---
+
+#### 7062. I am facing problem while deleting one file
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxukje/i_am_facing_problem_while_deleting_one_file/
+
+---
+
+#### 7063. MacOS tahoe 26.5.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uybeo3/macos_tahoe_2652/
+
+---
+
+#### 7064. Apart from Safari which browser do u recommend which is lightweight in terms of battery on mac and has no telmentary
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy1bl9/apart_from_safari_which_browser_do_u_recommend/
+
+---
+
+#### 7065. How to stop the " Now Playing " media controls from appearing when hovering a dock icon?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxu65e/how_to_stop_the_now_playing_media_controls_from/
+
+---
+
+#### 7066. How do I fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxlw68/how_do_i_fix_this/
+
+---
+
+#### 7067. 43” 4K TV as Monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uxtdpd/43_4k_tv_as_monitor/
+
+---
+
+#### 7068. Ongoing and unaddressed UI/UX degradation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uy6esi/ongoing_and_unaddressed_uiux_degradation/
+
+---
+
+#### 7069. Samsung 65” TV - am I screwed?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyh3g4/samsung_65_tv_am_i_screwed/
+
+---
+
+#### 7070. Is my SSD dying? Disk usage constantly jumps to 100% and read speed drops to 0 KB/s
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyh22f/is_my_ssd_dying_disk_usage_constantly_jumps_to/
+
+---
+
+#### 7071. Fibre upload speeds/streaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uyh0qq/fibre_upload_speedsstreaming/
+
+---
+
+#### 7072. [V2EX] 以前用 clover 换成 oc 了
+
+**问题描述 / Problem Description**:
+以前用的 clover ，换成 oc 了，不知道怎么从 clover 备份然后恢复到 oc ，于是就从 oc 到 config 从新注入，注入之后，序列号有了，可以上 iCloud ，App Store 可以用，但是 FaceTime 和 iMessage 不能用，FaceTime 显示此账户地址无法访问，iMessage 点击下一步没有反应，多次点击提示认证失败。有哪些好用的工具方便分享一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227692#reply5
+
+---
+
+#### 7073. [V2EX] 升级 macOS 27 Public Beta 版本总提示：未能个性化软件更新。请重试。
+
+**问题描述 / Problem Description**:
+https://cleanshot.com/share/KdRQlSVQ 是外置系统硬盘里的系统；内置系统没有升级所以不行的原因吗？ 已尝试关闭“查找、信息”；关闭 VPN 打开 VPN ，更改 DNS 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227637#reply4
+
+---
+
+#### 7074. [V2EX] 求助， macos26，外接显示器，如何在本机屏幕和外接屏幕同时显示 docker？
+
+**问题描述 / Problem Description**:
+如题，两个屏幕位置比较远，只有一个 docker 非常不方便。 目前没找到设置入口，求教如何设置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227450#reply5
+
+---
+
+#### 7075. [V2EX] macbook air m4 发热问题
+
+**问题描述 / Problem Description**:
+系统 27beta3 ，最近使用只是编辑文字，就感觉热热的，比之前热，是系统问题吗？还是有别的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226899#reply16
+
+---
+
+#### 7076. [V2EX] 如果以后 Apple AI 国行版上线，国行的 iPhone 可以在科学上网前提下，使用国外的 Apple AI 吗？
+
+**问题描述 / Problem Description**:
+类似默认搜索服务，默认百度，但也可以选择 Google 之前 Apple 无意开放的 Apple ai ，当时好像就是可以选择 ChatGPT 做默认 Apple ai ，不知道国行版 ai 上线后是否也可以手动选择
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227780#reply11
+
+---
+
+#### 7077. [V2EX] 已故妻子的 iPhone 因失窃设备保护卡在 Face ID 验证，已知锁屏及 Apple 账户密码，能否提取微信数据？
+
+**问题描述 / Problem Description**:
+冒昧请教各位。 妻子上个月乘坐货车送货时发生交通事故，当场去世。事故后她的手机一度没有找到，我担心手机和个人数据遗失，便通过“查找”将手机设置为丢失模式。 大约一周后，车辆接受事故鉴定时，手机才在货车残骸中被找到。手机此前在残骸和积水环境中放置了约一周，之后又由警方保管了一个多月。我于 7 月 9 日取回手机，当时手机已经无法开机，后来找维修人员进行了硬件维修。 维修完成后，我忘记先关闭丢失模式，手机联网后，开机输入正确的锁屏密码，系统随即要求通过 Face ID 验证身份并退出丢失模式。 之后我做过以下尝试： 1. 联系 Apple 支持，并通过其他设备关闭丢失模式； 2. 使用电脑将手机升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227775#reply51
+
+---
+
+#### 7078. [V2EX] sing box 有望回归 apple store
+
+**问题描述 / Problem Description**:
+Version 1.14 is expected to be released within two months, and there is hope that the App Store version will be restored as well. I will post updates here as things progress.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227752#reply0
+
+---
+
+#### 7079. [V2EX] 如何给非大陆版 AirPod Pro 购买美版 Apple Care+
+
+**问题描述 / Problem Description**:
+第一次开机激活的时候激活在了中国大陆的 iCloud 上，据说大陆只有七天线上购买期，然后我解绑重新绑定到美区 iCloud 后就不弹出购买选项了，设备的话是非国行 iPad ，只能电话联系美区 Support 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227743#reply3
+
+---
+
+#### 7080. [V2EX] [Mac] 自荐我的新 App： DropPocket - 屏幕顶部的临时文件口袋，限时特价 $3.99 🎉
+
+**问题描述 / Problem Description**:
+大家好！向大家介绍一款我开发的 Mac 效率小工具 —— DropPocket 📦。 它是一个位于屏幕顶部的临时文件“口袋”。在跨窗口或跨 App 移动整理文件时，你可以先把文件丢进口袋暂存，切换到目标位置后再拖出，告别频繁切换窗口和杂乱的桌面。 ✨ 核心功能 ： 极简存取：文件随手拖进顶部口袋，支持单个拖出，也能一次性整组拖回。 直观预览：一眼预览文件名和缩略图，找文件更方便。 快捷操作：支持快捷复制、分享、AirDrop ，按住 Option 键拖出可保留原文件。 顶部小岛：实时显示口袋中的文件数量。 🎉 限时优惠 ： 目前 App 正在限时打折，原价 $6.99 ，现在仅需 **$3.9
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227658#reply2
+
+---
+
+#### 7081. [V2EX] iOS27 太流畅了，垃圾 26
+
+**问题描述 / Problem Description**:
+升级了 pb1 ，iPhone 17pro ，被 iOS26 折磨了一年，27 终于找回了 18 那种丝滑感，而且水玻璃可以按我喜好调最透明了；还有终于不管适配没适配的应用，键盘都是新样式了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227627#reply7
+
+---
+
+#### 7082. [V2EX] Notability App 美区买断 40% off, 仅限三天
+
+**问题描述 / Problem Description**:
+在 notability.com 买 Classic 版本 $29.99 (US only). 结账使用优惠码: CLASSIC40 另我有美区 Apple 礼品卡 95 折出
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227598#reply10
+
+---
+
+#### 7083. [V2EX] 闲鱼卖 iPhone 遇到骗子
+
+**问题描述 / Problem Description**:
+闲鱼出个美版 iPhone Air ，面交前付款，见面后确认 ok ，就直接重置了系统，他自己设了新密码和 apple id （当时没发现），等确认收款时找理由无法确认收货，要求走微信（这时已识别出是骗子），我直接拒绝并拿走了手机，回去一看才发现密码被他设成了新的。 报警后警察认为没有造成资产损失（也是人生第一次报警），让先联系平台，目前平台客服处理中，买家闲鱼账号已读不回。 教训： 不要走任何除了闲鱼外的平台，不要加微信，不要加微信，不要加微信（ lz 对这个很敏感，没有中招） 确认收货前，不要重置系统，不要重置系统，不要重置系统。 目前手机还在 lz 这里，但密码不知道。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227563#reply117
+
+---
+
+#### 7084. [V2EX] [苹果智能国内备案，阿里千问能力集成其中]
+
+**问题描述 / Problem Description**:
+[苹果智能国内备案，阿里千问能力集成其中] 华尔街见闻获悉，阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS 、iPadOS 、macOS 和 visionOS 的中国用户带来智能体验。用户无需在应用间切换，即可在 Apple 设备上直接体验千问的文本与图像理解、内容生成等能力。 7 月 15 日，据网信中国，促进生成式人工智能服务创新发展和规范应用，网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，有序开展生成式人工智能服务备案工作，现将新增的“Apple 智能”等 7 款提供手机端侧生成式人工智能服务备案信息予以公告。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227507#reply9
+
+---
+
+#### 7085. [V2EX] Apple Fitness+ 挺好用的
+
+**问题描述 / Problem Description**:
+几年前就用过，不过都是零零碎碎送的一个月或者三个月的会员，就只是尝鲜，没特别的感受。 今年开了 Apple One ，加上有减肥计划，从 3 月 2 号开始，到现在四个多月，已经有点离不开的感觉了。 目前用到的运动类型 动感单车 前三个月用的多，减重很有效，30 分钟或者 45 分钟，消耗 300/450 大卡，最近体重下来就不怎么骑了 划船机 闲鱼买了个二手的放家里，大部分时间吃灰，偶尔心血来潮练一下，练一次 20 或 30 分钟，也是每分钟 10 大卡左右的消耗 力量训练和核心训练 最近开始用，感觉效果不错 Mindful Cooldown 力量和核心练完会跟着拉伸，其他训练一般就自己拉伸
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227379#reply17
+
+---
+
+#### 7086. [V2EX] 记录 macos beta3 午睡差点机毁人亡
+
+**问题描述 / Problem Description**:
+下午，午睡，macbook 什么也没跑，正常挂着 QQ 微信，safari 正常后台 这些都是日常的日常，标配的标配。 午睡起来，看到电脑在房间里，屏幕是品红色的，有点发紫色，非常高亮度 没开空调，房间燥热难耐，电脑是 mbp 16 寸 m4 pro ， 电脑非常烫手（预估 80 ，90 度+） 随即长按电源键放进冰箱降温。 惊险的一个午睡后，beta 系统还是小心，我听说 beta3 还有坏硬盘数据的案例？ 当然，话说在前头，自己用 beta 版系统自己得承担这些风险，我不抱怨，只是分享惊险的心理感受。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227273#reply20
+
+---
+
+#### 7087. [V2EX] 27 public beta 好像已经出了，有没有人收到推送？
+
+**问题描述 / Problem Description**:
+RT ，大家试用了吗？感觉如何？ 如果没有很严重的续航尿崩我就升级了，iPhone air ，M5 macbook 和 iPad 很馋更流程的系统和可以触控的随行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227111#reply10
+
+---
+
+#### 7088. [V2EX] 想搞个 AirPods Max，但是觉得有点贵，大家有没有靠谱的二手店
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1226910#reply18
+
+---
+
+#### 7089. [V2EX] 被 AI 当前的智能程度“震惊”了，还发现为什么即梦和 ChatGPT 生成的图片居然惊人的相似
+
+**问题描述 / Problem Description**:
+今天被 AI 当前的智能程度“震惊”了 上面是原图，我的诉求是把这个错误的左手换成右手 然后就发现全世界的 AI ，居然都不能正确的识别左右手 chatgpt： 豆包： 即梦： 猜一下下方这个是哪个 AI 生成的 还有一个惊人的发现，同一套提示词，在即梦的 VIP 生成，与 chatgpt plus 生成的图基本雷同，不说 100%，95%类似
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227870#reply0
+
+---
+
+#### 7090. [V2EX] 影院是真不行了，恐怖游轮明天都要上映了
+
+**问题描述 / Problem Description**:
+明显是用老片吸引人，八月还有杀死比尔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227843#reply5
+
+---
+
+#### 7091. [V2EX] Codex Dream Skin： Codex App 换肤 Skill 与自定义主题工具
+
+**问题描述 / Problem Description**:
+Codex Dream Skin 是一个免费开源的 Codex App 换肤 Skill 。它可以为 Codex Desktop 安装可交互的背景皮肤：macOS 支持自定义图片、CDN Banner 、主题保存与切换，Windows 支持内置主题；两个平台都支持运行验证和恢复官方外观。 Codex Dream Skin 下载与安装 方法一：让 Codex 安装 Skill 把下面这段话发送给 Codex： 请从这个 GitHub 仓库安装 codex-dream-skin Skill： https://github.com/aithink001/Codex-Dream-Skin-Themes
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227841#reply2
+
+---
+
+#### 7092. [V2EX] 用遥控器做 vibe coding 输入体验很棒.
+
+**问题描述 / Problem Description**:
+买了个带语音输入的遥控器, 把一个按键映射成 codex 的语音输入快捷键, 一个映射为输入法的, 返回键改成删除, 自带发送. 按住说话, 松开完成. 用电视机的遥控器就可以,我没有闲置的. 买了一个.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227836#reply0
+
+---
+
+#### 7093. [V2EX] Grok 4.5 PK GPT-5.6 Sol
+
+**问题描述 / Problem Description**:
+下午摸鱼 闲着在公司电脑上做了一个测试： 使用相同的提示词和设计稿，让 Grok 4.5 和 GPT-5.6 Sol 做同一个产品 结果： UI Grok 4.5 做的 UI 界面比 GPT-5.6 Sol 好看 代码 Grok 4.5 简单需求，一次通过 复杂需求，有问题提示它 3-5 次就可以通过 GPT-5.6 Sol 基本上一次过；复杂需求，提示、修改一次就过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227809#reply6
+
+---
+
+#### 7094. [V2EX] 小白如何探索经营收入缴税
+
+**问题描述 / Problem Description**:
+起因 在某书上面有个小店卖点小东西，寻思这也有点额外的收入了，该考虑怎么缴税的问题了，对此一窍不通，走了些弯路目前算是有一些结论了，分享一下，还有一些疑惑的各位彦祖亦菲有解答一下的啊。 摸索过程 不缴税行不行？考虑到营业额每个月也有万八千的，就这么打进卡里面不申报害怕被发现了要补缴更多。 走什么途径缴？按个人所得害怕跟工资加在一起累进缴税，这样税率好像比较高。咋办？ 听说个体工商户免税？研究了一下申请个体工商户好像有 30 万营业额免受增值税的待遇，于是考虑注册。 马上开始注册！就快通过了，了解到注册个体户有很多麻烦事，并且《个人所得税 APP 》已经设立了“其他经营所得”这一项了。 撤销个体
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227807#reply0
+
+---
+
+#### 7095. [V2EX] 换皮肤的玩儿法 还是吹到了 OpenAI 什么优雅 和辣眼睛的背景图都来了 😂
+
+**问题描述 / Problem Description**:
+安全性 DYOR https://github.com/Fei-Away/Codex-Dream-Skin
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227804#reply5
+
+---
+
+#### 7096. [V2EX] 好消息， Violentmonkey Chrome 插件能正常使用了
+
+**问题描述 / Problem Description**:
+https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227796#reply0
+
+---
+
+#### 7097. [V2EX] Firebase Remote Config 要开始收费了, 注意切换
+
+**问题描述 / Problem Description**:
+https://firebase.google.com/docs/remote-config/pricing?hl=zh-cn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227720#reply0
+
+---
+
+#### 7098. [V2EX] 看到有一些色情类智能体
+
+**问题描述 / Problem Description**:
+有人用？ 不就聊天吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227702#reply5
+
+---
+
+#### 7099. [V2EX] 中转站的价格似乎比 Pro 20x 贵很多很多？
+
+**问题描述 / Problem Description**:
+算了下，一个 pro 20x 账户的周额度大概是 2500 刀，一个月 4 周就是 1w 刀，如果算上经常重置（包括送重置卡）的情况下还会更多甚至翻倍。 现在中转 gpt 的价格有些是 1 美元：1 人民币（大概 1:0.15 ），有些是 1:0.2 ，前阵子见过最便宜的是 1:0.1 （估计是有 k12/bug team 那段时间） 拿 1:0.1 来算，一个月的 pro 用量，在中转站要花 1000 美元，足够买 5 个正价 pro 账户。。。 我之前还以为这里的 1:0.1 是 1 美元=0.1 人民币 ，这样的话，中转和正价 Pro 价格差不多，所以我还认真考虑过用要不要试一下中转，现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227678#reply14
+
+---
+
+#### 7100. [V2EX] Grok-Build 开源了
+
+**问题描述 / Problem Description**:
+https://github.com/xai-org/grok-build
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227614#reply6
+
+---
+
+#### 7101. [V2EX] 避雷 [business.newcli.com] 假的活动
+
+**问题描述 / Problem Description**:
+原贴： https://v2ex.com/t/1227416?p=2#reply168 时间过去了 12 小时，至今未收到说赠送的金额，同时看历史回帖也没有说送过，怀疑纯粹就是假活动，然后拉人助人气
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227588#reply4
+
+---
+
+#### 7102. [V2EX] 小米这种企业，连这么高规格的世界人工智能大会的购票 APP，都配合高仿诈骗，已被骗，广而告之
+
+**问题描述 / Problem Description**:
+[img]https://i.imgs.ovh/2026/07/15/7690f1d35301610dc19726509622a21a.jpg[/img]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227574#reply15
+
+---
+
+#### 7103. [V2EX] 用了 10 亿 token，祛魅了
+
+**问题描述 / Problem Description**:
+这个月用了不少 token 。 尤其是 openai 一直送重置 但最大的收获，反而是对 AI 祛魅了。 它不是一个能替你跨越所有能力边界的东西，更像一个能力放大器：你原本有判断、有方法、有执行，它会让你走得更快；你原本没有想清楚，它也只会更快地放大混乱。 这个月做了一些偏实用的探索： 群聊总结、股票跟踪系统，以及对 Agent 、Skill 、Harness 、GitHub 工作流的系统理解。 从一开始关注“能做什么”，到后来更关心“为什么做、怎么组织、何时不用”。 大概也是从术，稍微往道靠近了一点。 token 数只是消耗记录，真正留下来的，是判断力和方法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227521#reply10
+
+---
+
+#### 7104. [V2EX] imya，去年 4 月份我开始做出海，通过慢慢做的，也是做出一定成绩，至少比之前打工收入高了。
+
+**问题描述 / Problem Description**:
+时隔一年，我终于敢有勇气做品牌战了， https://imya.ai ，做的后面发现发现赚钱的战，还是要学习大厂已经验证过的需求，不要自己瞎想，因为，人家都是靠人才和资金才研究透的，我一个什么都没有的人，怎么可能找到，如果能行，我也不会被公司裁员了😂，AI Image, Video & Music Generator Studio ，就这样做，至少怎么获取流量，我还在摸索，纯靠 seo ，其实很难，特别是这样大战，如果你们有什么比较好的想法和我沟通吧，而且我的产品视频免费不了，因为成本太高，我这个小开发者不太行啊，免费图片还可以可以给大家的哈哈哈，大家不要嫌弃我扣，实在是能力有限😂。 最后这三
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227514#reply22
+
+---
+
+#### 7105. [V2EX] V2 的成分怎么变成了 中医、算命、🐢、币圈赌狗
+
+**问题描述 / Problem Description**:
+L 站也变成薅子，垃圾信息太多了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227505#reply22
+
+---
+
+#### 7106. [V2EX] 一套键鼠多台电脑共用的无成本解决方案，立省 300 元
+
+**问题描述 / Problem Description**:
+目前是公司台式+个人笔记本同时办公 本来用的是逻辑 anywhere 来解决两台电脑之间鼠标控制的问题 但目前的工位只放了一个 USB 外接键盘 笔记本电脑为了防止低头又架得很高，矮子臂长不够，打字困难（如图） 于是搜了一下这种情况怎么解决，怎么能实现硬件不变的情况下解决两台电脑共享一个 USB 键盘的问题 不然只能再配一个支持 logitech flow 的键盘了，肉痛 然后发现一个很牛逼的开源软件：deskflow https://github.com/deskflow/deskflow 鼠标移动到哪个电脑，键盘就在那台电脑上生效 非常爽 还支持剪切粘贴版的共用，可以完美替代 logite
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227420#reply34
+
+---
+
+#### 7107. [V2EX] 最近搬家，把客厅搞成了电竞房分享一下
+
+**问题描述 / Problem Description**:
+设备都是之前买的，这次就在多多买了个洞洞板搞上去还挺有模有样的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227380#reply81
 
 ---

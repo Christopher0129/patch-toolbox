@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2567**
+**总计条目 / Total entries: 2591**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -39421,5 +39421,293 @@ The find_target function in ptrace32.c in the Linux kernel 2.4.x before 2.4.29 d
 - http://lkml.org/lkml/2005/1/5/245
 - http://secunia.com/advisories/17002
 - http://secunia.com/advisories/18059
+
+---
+
+#### 2568. CVE-2026-15925 - snowflake-connector-python: Snowflake Connector for Python: Arbitrary SQL…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] snowflake-connector-python: Snowflake Connector for Python: Arbitrary SQL execution and information disclosure via improper TLS hostname verification. Bugzilla: 2501255
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501255
+
+---
+
+#### 2569. CVE-2026-12382 - aap-gateway: missing requestHeadersToRemove allows mTLS bypass via Subject header…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] aap-gateway: missing requestHeadersToRemove allows mTLS bypass via Subject header spoofing. Bugzilla: 2489126
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489126
+
+---
+
+#### 2570. CVE-2026-45804 - diffusers: Diffusers: Arbitrary code execution due to trust_remote_code guard…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] diffusers: Diffusers: Arbitrary code execution due to trust_remote_code guard bypass. Bugzilla: 2501024
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501024
+
+---
+
+#### 2571. CVE-2026-61872 - ImageMagick: ImageMagick: Denial of Service due to memory leak in TIFF encoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to memory leak in TIFF encoder. Bugzilla: 2500907
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500907
+
+---
+
+#### 2572. CVE-2026-61871 - ImageMagick: ImageMagick: Denial of Service via memory leak in ICON decoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via memory leak in ICON decoder. Bugzilla: 2500909
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500909
+
+---
+
+#### 2573. CVE-2026-61869 - ImageMagick: ImageMagick: Denial of Service via memory leak in MIFF encoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via memory leak in MIFF encoder. Bugzilla: 2500928
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500928
+
+---
+
+#### 2574. CVE-2026-61868 - ImageMagick: ImageMagick: Denial of Service due to memory leak in YUV decoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to memory leak in YUV decoder. Bugzilla: 2500925
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500925
+
+---
+
+#### 2575. CVE-2026-61867 - ImageMagick: ImageMagick: Denial of Service due to memory leak in TIFF encoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to memory leak in TIFF encoder. Bugzilla: 2500913
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500913
+
+---
+
+#### 2576. CVE-2026-61865 - ImageMagick: ImageMagick: Memory leak in hough lines operation can lead to denial…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Memory leak in hough lines operation can lead to denial of service. Bugzilla: 2500895
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500895
+
+---
+
+#### 2577. CVE-2026-61866 - ImageMagick: ImageMagick: Memory leak in JNG encoder can lead to denial of service
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Memory leak in JNG encoder can lead to denial of service. Bugzilla: 2500926
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500926
+
+---
+
+#### 2578. CVE-2026-61864 - ImageMagick: ImageMagick: Memory leak in color transformation to log colorspace
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Memory leak in color transformation to log colorspace. Bugzilla: 2500904
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500904
+
+---
+
+#### 2579. CVE-2026-61863 - ImageMagick: ImageMagick: Memory leak in TIFF encoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Memory leak in TIFF encoder. Bugzilla: 2500901
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500901
+
+---
+
+#### 2580. CVE-2026-61862 - ImageMagick: ImageMagick: Information disclosure via out-of-bounds read when…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure via out-of-bounds read when displaying profiles with debug enabled. Bugzilla: 2500933
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500933
+
+---
+
+#### 2581. CVE-2026-61860 - ImageMagick: ImageMagick: Denial of Service via use-after-free during freetype…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via use-after-free during freetype initialization. Bugzilla: 2500897
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500897
+
+---
+
+#### 2582. CVE-2026-61464 - ImageMagick: ImageMagick before 7.1.2-26 Heap Buffer Over-Write via X11
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick before 7.1.2-26 Heap Buffer Over-Write via X11. Bugzilla: 2500894
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500894
+
+---
+
+#### 2583. CVE-2026-61859 - ImageMagick: ImageMagick: Information disclosure via policy bypass in -script…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure via policy bypass in -script operation. Bugzilla: 2500896
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500896
+
+---
+
+#### 2584. CVE-2026-56375 - Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU:…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Denial of Service due to memory leak in ASHLAR coder. Bugzilla: 2500890
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500890
+
+---
+
+#### 2585. CVE-2026-15809 - github.com/cri-o/cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/cri-o/cri-o: Fix Bypass for CVE-2022-4318 — /etc/passwd Injection via HOME env. Bugzilla: 2500846
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500846
+
+---
+
+#### 2586. CVE-2026-59733 - rclone: Rclone: Unauthorized access to private repositories via directory traversal
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rclone: Rclone: Unauthorized access to private repositories via directory traversal. Bugzilla: 2500770
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500770
+
+---
+
+#### 2587. [Ubuntu] USN-8557-1: Authlib vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Jay Neiva and Mauro Carrillo discovered that Authlib did not properly validate cryptographic keys embedded in JWT headers. An attacker could possibly use this issue to forge trusted tokens, resulting in authentication and authorization bypass. (CVE-2026-27962) Jay Neiva and Mauro Carrillo discovered that Authlib incorrectly handled RSA1_5 encrypted tokens. An attacker could possibly use this issue
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8557-1
+
+---
+
+#### 2588. [Ubuntu] USN-8556-1: Ruby vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Net::IMAP client in Ruby did not properly sanitize Symbol arguments passed to IMAP commands. A remote attacker controlling a malicious IMAP server, or able to influence command arguments, could use this to inject arbitrary IMAP commands via CRLF sequences. (CVE-2026-42258) It was discovered that the Zlib::GzipReader in Ruby did not correctly ensure sufficient buffer capa
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8556-1
+
+---
+
+#### 2589. [Ubuntu] USN-8555-1: Ubuntu Advantage Tools (pro client) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Bilal Teke discovered that Ubuntu Advantage Tools exposed the Pro bearer token in command-line arguments when validating APT credentials. A local attacker could possibly use this issue to obtain sensitive information and gain unauthorized access to Ubuntu Pro repositories. (CVE-2026-9494) Frederick Jerusha discovered that Ubuntu Advantage Tools did not properly validate data received from the cont
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8555-1
+
+---
+
+#### 2590. [Ubuntu] USN-8554-1: NTFS-3G vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that NTFS-3G had a heap buffer overflow when reading certain NTFS images. A local attacker could possibly use this issue to execute arbitrary code. (CVE-2026-42616) It was discovered that NTFS-3G had multiple heap buffer overflows when processing certain NTFS images. A local attacker could possibly use these issues to execute arbitrary code. (CVE-2026-42617, CVE-2026-42618, CVE-2
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8554-1
+
+---
+
+#### 2591. [Ubuntu] USN-8553-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Artur Stetsko discovered that the .NET did not properly validate authentication data. An attacker could possibly use this issue to elevate privileges. (CVE-2026-47300) Levi Broderick discovered that .NET did not properly handle XML encryption during parsing. An attacker could possibly use this issue to consume excessive resources, resulting in a denial of service. (CVE-2026-47302) Pham Quang Minh
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8553-1
 
 ---
