@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7371**
+**总计条目 / Total entries: 7435**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -103763,5 +103763,837 @@ Switch display manager from Wayland to x11 then use xrandr. While this is techni
 
 **参考链接 / References**:
 - https://superuser.com/questions/1896499/no-brightness-control-debian-with-kde-on-imac-2013
+
+---
+
+#### 7372. Why X Is Not Our Ideal Window System (1990)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uz02cz/why_x_is_not_our_ideal_window_system_1990/
+
+---
+
+#### 7373. Collabora has been working with Valve on Holo Core, an aarch64 port of Arch Linux that'll be the basis for the OS on Steam Frame. First public preview is out.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uz42fq/collabora_has_been_working_with_valve_on_holo/
+
+---
+
+#### 7374. OpenBLAS 0.3.34 Improves Multi-Threading, Support For A Memory-Safe C Toolchain
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uz283m/openblas_0334_improves_multithreading_support_for/
+
+---
+
+#### 7375. Linux: fingerprint reader for Asus ROG Flow X13 (2021) finally fixed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uyzd1d/linux_fingerprint_reader_for_asus_rog_flow_x13/
+
+---
+
+#### 7376. UOLT: coreutils-style tools in raw assembly (no libc, no heap), verified byte-for-byte — now dual-arch x86_64/aarch64
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uzcwyw/uolt_coreutilsstyle_tools_in_raw_assembly_no_libc/
+
+---
+
+#### 7377. I was tired of status bars that did way too many things so i created a bare minimal bar
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uzcfsm/i_was_tired_of_status_bars_that_did_way_too_many/
+
+---
+
+#### 7378. Installing Ubuntu 24.04 on corporate laptop Dell Pro 16 Plus PB16255 (AMD) with window-manager: need the practical advise, tips and what setup people are doing!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uy1bsn/installing_ubuntu_2404_on_corporate_laptop_dell/
+
+---
+
+#### 7379. [V2EX] 强烈推荐一款性价比极高的 Linux 本搞 vibe coding
+
+**问题描述 / Problem Description**:
+Linux 笔记本这里讨论过很多次，我自己都多次发帖，我也前后用过折腾过一二十个笔记本， 60% Apple, 30% Thinkpad X1C/T 系列 10% 杂牌甚至 PAD/Surface 系列 多多少少都有不满意的对方，大部分是兼容问题，电池问题，驱动问题，启动问题，稳定问题。 由于目前我自己主要用 AI 来写一些小项目，所以主要考虑轻便，续航高，性能无所谓，由于 M 芯片支持不是太友好，要不然 M 芯片应该是首选。 后来我研究发现 12 寸的 Macbook+Omarchy 是极品配置 我以前定制过一台 12 寸的，好像 1.2w 买的，用了半年不习惯（那个时候觉得性能不行发热）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227981#reply28
+
+---
+
+#### 7380. [V2EX] Linux 下有没有可能实现 Listary 的快速跳转
+
+**问题描述 / Problem Description**:
+软件弹出的“打开”或“保存”文件对话框时，帮你省去一层层寻找文件夹的麻烦，实现一键跳转， 我问大模型说没有统一每个应用的文件对话框，所以做不到 那退一步有没有可能实现自带文件管理器或者 dolphin 的快速跳转
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227633#reply3
+
+---
+
+#### 7381. [V2EX] debian+gnome 开机后可以不显示用户列表 只需要输入密码 像 mac 那样么？有什么插件实现么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1222124#reply5
+
+---
+
+#### 7382. [V2EX] 搓了一个自动通知 Codex 额度重置的 TG 频道
+
+**问题描述 / Problem Description**:
+最近 Codex 官方的重置太频繁了，蹬都没来得及蹬突然又重置了，都不知道啥时候重置的。晚上看了下 ChatGPT 的 Status ，感觉应该今天又会重置了，每次重置完各种 TG 频道都推送的比较慢，于是自己做了个 TG 频道： https://t.me/codexreset 只会在官方实际重置之后推送，延迟应该是 10 分钟以内（除非有 bug 了） 不会推送预测什么时候重置或者周限重置，目前刚开始运行，无广告，欢迎 V 友们帮忙观察一下准确性，有遇到误报或漏报也可以在帖子里反馈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228147#reply0
+
+---
+
+#### 7383. [V2EX] 看到些 V 友做 API 中转站，自己也想搞一个
+
+**问题描述 / Problem Description**:
+并不是一时心起，其实早几个月前就想做。 奈何现在有一个问题一直没调研清楚。 就是上游提供商渠道问题。 现在只知道官渠，和聚合渠（ openrouter ）。 但是我看到别人做的中专站。倍率都是远低于 7 ，即使是官渠倍率也是 4.5 ～ 5 这一。 假设倍率是 2.是否可以理解为用¥2 买到$1 的 token 使用量？那这种很低的价格买到比正常人更多量的渠道方法是什么？有大佬知道的吗？我去研究学习，不忘感恩...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228146#reply3
+
+---
+
+#### 7384. [V2EX] 做了个在浏览器里跑真 Manim 的站，不用装 Python
+
+**问题描述 / Problem Description**:
+起因很简单：每次想用 Manim 做点数学动画，都得先折腾环境——Python 、LaTeX 、ffmpeg 、cairo 、pango 一整套装下来一下午没了，渲染还得敲命令行。太劝退，就想把这一步整个干掉，做成"打开浏览器就能写就能渲"。 做出来的是极坐标 XYZ （ jizuobiao.xyz ），几个技术选择也顺便贴出来聊聊： 跑真本体，不重写引擎 ：用 Pyodide 在浏览器里跑真 manim 0.20.1 ，把跑不了的原生依赖逐一替换掉（ cairo→Canvas2D 、Pango→opentype.js 、LaTeX→MathJax 、ffmpeg→ffmpeg.wasm 、s
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228143#reply0
+
+---
+
+#### 7385. [V2EX] 大家觉得 Kimi k3 怎么样？
+
+**问题描述 / Problem Description**:
+不管怎样，现在能用上也算是有缘人了。到了晚上才终于用上了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228135#reply0
+
+---
+
+#### 7386. [V2EX] 出售成熟 IP 查询工具站 ipin.io｜已接入 AdSense｜月收入约 $800
+
+**问题描述 / Problem Description**:
+因个人时间和精力有限，现考虑整体出售正在运营的 IP 查询工具网站 ipin.io 。 这是一个面向全球用户的 IP 信息查询与网络分析平台，网站已经完成开发并稳定运行，拥有真实访问流量，同时已经接入 Google AdSense 。目前广告收入平均约为 每月 800 美元 ，实际收入会受到流量、广告单价和季节因素影响，交易前可配合买家核实相关数据。 网站功能 网站目前包含 IP 地址查询、地理位置识别、国家和城市信息、ISP 与 ASN 查询、网络范围识别、IP 类型判断、风险评分以及代理相关检测等功能。 另外还提供多种实用工具，包括： 批量 IP 地理位置查询 批量 IP 转 ASN 查询
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228124#reply0
+
+---
+
+#### 7387. [V2EX] 还有 2 天， fable5 就要计费了，各位要转向 codex 吗？
+
+**问题描述 / Problem Description**:
+还有 2 天，fable5 就要计费了，各位要转向 codex 吗？ A➗还会再次延迟 fable5 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228118#reply6
+
+---
+
+#### 7388. [V2EX] Kimi k3， gpt5.6， gemini3.1 生成的单页面哪个好看
+
+**问题描述 / Problem Description**:
+一句话提示词：生成水墨风格的网站留言板页面 gemini3.1 pro： https://preview.kaka770.cn/tools/html-share?share=h8kHJu gpt5.6 sol high： https://preview.kaka770.cn/tools/html-share?share=Kxsbbf Kimi3.0： https://preview.kaka770.cn/tools/html-share?share=KdpYKL
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228104#reply15
+
+---
+
+#### 7389. [V2EX] 一个开源的 agent team 系统
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/huanyingtianhe/agents-chat 可以像群聊一样和 agent 对话，当 at 多个 agent 时候会自动触发 agent 编排，每个 agent 都是一个流行的 agent 实例，我们可以配置 agent 实例类型，claud code, codex, github copilot etc 都支持。 还有很多其他的功能，详情见 repo 。欢迎大家体验，并提出你的宝贵意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228075#reply0
+
+---
+
+#### 7390. [V2EX] 8 年前端，已厌倦目前的每天做不完的需求，是否该离职？
+
+**问题描述 / Problem Description**:
+在广州做了 8 年多的前端，目前在一个小公司，做自己产品的，10 来个人，正常发薪，加班较少，正常 6 点下班 公司有 2 个前端，另一个前端兼职了项目经理，可以说是负责整个项目的负责人，除了领导外，他是统领整个项目进度的 而我负责的项目多而杂，电脑 project 那个目录下，存在十几二十个项目，部分项目偶尔需要维护下，有几个长期的项目要经常迭代，基本这些项目都是我负责在做迭代升级，面对长期的这几个项目，每天坐在座位上，动都不想动，看到那些需求，若不去完成的话，又会到月底清算（绩效） 题主一家老小都在广州，大的也读小学了，小的刚幼儿园，然后这几年捣鼓了个服装开工厂，不算我的工资，能覆盖生活开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228050#reply43
+
+---
+
+#### 7391. [V2EX] [车找人] gpt pro20x 拼车 可以看账单 可以看账号信息 可以查看官方重置次数 自己重置
+
+**问题描述 / Problem Description**:
+4 人车 300 元 / 人 每周约 550 刀额度 3 人车 400 元 / 人 每周约 720 刀额度 2 人车 600 元 / 人 每周约 1100 刀额度 异常与退款说明 如果遇到官方封禁、账号异常、额度调整等不可控情况，我会第一时间处理和跟进。 无论官方最后退不退款，我这边都会按未使用时间给大家退还对应费用。 额度同步 官方如果重置或恢复额度，我后台也会同步处理，尽量保证大家能正常使用，不让额度浪费，也避免分配不清楚。 用车要求 本车只做长期稳定车，单次上车至少一个月起。 中途个人原因主动退出，不支持退款，这点上车前请确认好。 禁止破限制、逆向工程等违规行为。 后端已配置 GPT 审
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228046#reply0
+
+---
+
+#### 7392. [V2EX] kimi k3 买的 199 会员，终于有随便用的感觉了
+
+**问题描述 / Problem Description**:
+怎么用都用不完那种感觉，是 codex 和 claude 给不了的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228031#reply32
+
+---
+
+#### 7393. [V2EX] 做了一个 macOS Codex 任务状态小工具
+
+**问题描述 / Problem Description**:
+本来只是想研究一下 Codex Micro 的 HID 通信协议，阴差阳错做成了一个 Codex 任务监控小工具 平时同时跑多个任务时，我还会切出去处理其他事情。因为没开通知，经常要过一会儿再点回 Codex ，逐个看看任务执行到哪里。 现在可以直接用一个置顶小窗口查看所有非空闲任务的状态，包括执行中、待审批、待反馈和待查看 点击任务还能直接跳转到对应的 Codex 对话 截屏 https://imgur.com/a/Ty2jcxB https://imgur.com/a/E1ES2II 源代码 https://github.com/raylax/CodexSoftMicro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228007#reply1
+
+---
+
+#### 7394. [V2EX] 做 DeepSeek Agent 近一个月，同步下 Orca 的进展
+
+**问题描述 / Problem Description**:
+上个月发帖说要做一个 DeepSeek-Native 的 Agent （ Orca ） https://www.v2ex.com/t/1222331 。 差不多块一个月了，来给 V 友们同步下进展： 这一个月 880 多个提交，Rust 从 3.9 万行涨到 18 万行，代码全部是 codex 、claude code 和 orca 自己写的。我的工作只有两件：提需求和定质量门禁。 先说门禁： 2300+ 个测试，其中 20 个契约测试套件，把 agent loop 、审批、provider 、shell 会话、子代理、workflow 这些边界锁死 需求先落 spec 再落 plan 才准动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228000#reply16
+
+---
+
+#### 7395. [V2EX] Grok Build 开源之后，有没有开源的 GUI 已经出来了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227997#reply1
+
+---
+
+#### 7396. [V2EX] 美国大豆包的 google one 白嫖的正式挂了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227984#reply9
+
+---
+
+#### 7397. [V2EX] 给 AI 研究人员提个醒，做高度兴趣内容推荐，可能一开始方式就错了！
+
+**问题描述 / Problem Description**:
+先从我看到 OpenBiliClaw 这个民间的 github 项目说起，这个项目是用 AI 给用户专门做内容推荐，我看到这个项目的时候有点欣喜若狂的，因为终于看到有人搞出来高度推荐兴趣内容的东西，当然我也知道，做这种事情绝不止一个公司或科研机构，人类面对海量互联网数据，是绝对需求一种高度推荐兴趣内容的技术变革的，未来这是必然，而且未来肯定会有很多公司或科研机构来推动这种科技变革。我现在转念一想，虽然这种事情在进步，但目前的发展，做这种事情，可能一开始方式就错了！ 为什么方式错了？语言模型想必是用思维逻辑加上特点分析，用户给喜好的内容作为数据参考，依此这样来提高推荐效果的，思维逻辑加上特点分析
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227980#reply0
+
+---
+
+#### 7398. [V2EX] apikey 被偷跑 2700 元的后续 “黑客竟是我自己”
+
+**问题描述 / Problem Description**:
+前情： https://v2ex.com/t/1225382 我的诉求：退钱、调查碰撞可能性、调查黑客 ip 是否存在规模化活动。 工单查了 20 天，给我气笑了。。 他们说 apikey 的可能性是 36 的 32 次方，不可能碰撞。但是 32 位 0-f 最多 16 的 32 次方，不查就不查呗，随口编个数字给我。 然后说黑客 ip 和我的服务器是“同一应用”，也就是没有被盗，我自己请求的。。。黑客竟是我自己🤡？而他们知道黑客是 Windows ，我是 Linux ，这咋同一应用啊，我都不知道我应用还能跨平台。。他们也不肯说同一应用是怎么定义的。。 我猜是被盗率有 KPI 考核，所以坚决不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227979#reply14
+
+---
+
+#### 7399. [V2EX] ai 时代移植代码就是块
+
+**问题描述 / Problem Description**:
+grok build 开源，发现 mermaid.rs 这个实现 ， 能在终端用字符画出架构图。 直接就让 codex 移植到 node \ web js 上 Cli-Mermaid
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227975#reply0
+
+---
+
+#### 7400. [V2EX] 我的个人站点重构之路
+
+**问题描述 / Problem Description**:
+1.0 时代: github md 写 2.0 时代：自己做的服务端渲染，搭一个 cms 的后台，把博客当做文章，有审核，有流程校验 3.0 时代（ AI 驱动，产品思维）：平台拆分为 mono （后台管理/API ）和 stereo （前台 SSR 渲染），处理四种内容类型（长文、动态、知识库、Vault ）, 其中还有五个私密功能模块：私密记事本（ vault ）、临时传文件（ tmplink ）、图床（ gallery ）、音乐（ music ）和影视（ tv ） v1: https://github.com/dirkhe1051931999/hjBlog v2: https://pub
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227951#reply3
+
+---
+
+#### 7401. [V2EX] [信创相关] 信创操作系统兼容性如何保证
+
+**问题描述 / Problem Description**:
+我司最新有桌面端需要面向信创操作系统推出对应的客户端，但是身边设备有限，而信创操作+国产芯片的组合多种多远，如何能保证各类操作系统+各类国产 CPU 的组合下软件的兼容性问题？ 因此想请教下各位做过相关适配工作的同学，你们是怎么做的？是把设备一一买回来测还是有类似的云平台可以提供云真机让你进行测试？ ps: 阿里云、天翼云、移动云都有信创操作系统（一般是 uos 和银河麒麟）的云电脑可供测试，但是 cpu 一般都 intel xeon 的，只能覆盖很小一部分的操作系统+CPU 的组合。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227932#reply9
+
+---
+
+#### 7402. Why can’t I remove a file inside a while-read loop with a Bash script?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash-scripting | Score: 7 | Views: 877 | Answers: 1 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+Thanks to Themoonisacheese I found that the issue was related to a shared NFS file lock on FILE_TO_DELETE. I used flock to put an exclusive file lock on FILE_TO_DELETE and it worked beautifully. #!/bin/bash /usr/local/bin/polling.sh | while read FILE_TO_DELETE; do flock --exclusive "${FILE_TO_DELETE}" --command "rm ${FILE_TO_DELETE}" done
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933135/why-can-t-i-remove-a-file-inside-a-while-read-loop-with-a-bash-script
+
+---
+
+#### 7403. How to use BASH variables with "local", but less bloated?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash-scripting | Score: 7 | Views: 854 | Answers: 3 | Created: 2025-12-18
+
+**解决方案 / Solution**:
+If you're going to use local to declare each variable separately I'd be inclined to coalesce the first two lines (much like the old-style variant of export PATH; PATH=/bin/… ): local foo; foo="$(bar)" I'm not so sure that the third line's error case will ever get executed; if bar failed, then the assignment foo="$(bar)" will exit, and if it succeeds then it will never need to be executed. On this basis it seems better to tag the variable with readonly : local foo; foo="$(bar)"; readonly foo Unfortunately this isn't much different to your original code. I've put mine on a single line; yours is on three.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932630/how-to-use-bash-variables-with-local-but-less-bloated
+
+---
+
+#### 7404. Why did Debian 13 fail to make a kernel release?
+
+**问题描述 / Problem Description**:
+Tags: linux, nvidia, xfce4, v4l2, debian-trixie | Score: 4 | Views: 767 | Answers: 1 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+The "blockage" is v4l2loopback_dc . This module is failing to build against kernel 6.12 , which is probably causing the postinst script to fail leaving the kernel in a dirty state. v4l2loopback_dc/0.01 is incompatible with your current kernel version. Unless you absolutely need this specific webcam loopback, first remove the source from DKMS, then remove it with apt. sudo dkms remove v4l2loopback_dc/0.0.1 --all sudo apt remove v4l2loopback-dc-dkms (Package name could be different, use apt list --installed | grep v4l2) Now you should be able to tell Debian to finish setting up kernel and headers. sudo dpkg --configure -a sudo apt install -f If this works OK, your linux-image and linux-headers are now officially healthy. As for the flickering on XFCE, this is often a conflict with the Nvidia proprietary driver and Wayland (if XFCE is trying to use it). Check if the Nvidia module is running with nvidia-smi . If it says "could not communicate with the Nvidia driver" the Nvidia driver DKMS build also failed. If it works, the issue is likely a compositor setting. Edit your GRUB config: Find the line GRUB_CMDLINE_LINUX_DEFAULT and ensure nvidia-drm.modeset=1 is included: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nvidia-drm.modeset=1" Update grub config and reboot: sudo update-grub sudo reboot If the flickering continues, try disabling VBlank in XFCE Window manager tweaks: Settings > Window Manager Tweaks > Compositor Turn off "Synchronize drawing to the vertical blank"
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934579/why-did-debian-13-fail-to-make-a-kernel-release
+
+---
+
+#### 7405. Why can’t I have a screen log file in a “$HOME/log/” directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, gnu-screen | Score: 4 | Views: 499 | Answers: 1 | Created: 2026-01-22
+
+**解决方案 / Solution**:
+Screen doesn't expand variables in its config file. It doesn't seem to understand ~ , either. Use a full path instead. Something like this (replace sebma with your actual user name): startup_message off logfile flush 1 logfile /home/sebma/log/%S-%Y-%m-%d-%c.log Using a relative path in the config makes it relative to $PWD when screen is started.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934019/why-can-t-i-have-a-screen-log-file-in-a-home-log-directory
+
+---
+
+#### 7406. S.M.A.R.T. 199 SATA_CRC_Error_Count number
+
+**问题描述 / Problem Description**:
+Tags: linux, ssd, sata, smart, crc | Score: 3 | Views: 257 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+Should I trust this disk to store my data? The disk is probably fine, but the data isn't properly reaching the disk in the first place. As long as the disk is able to detect SATA packets with incorrect checksum, it will discard them and the host will retransmit, until hopefully they make through – at which point the disk will store the data as it should. But high error rate will likely reduce performance (since it takes multiple tries to write or read the same sector), and it might be that a packet can't get through and the host controller will try to fully reinitialize the link (additional noticeable delays and dmesg logs) or even give up and decide the disk unresponsive. Should I try to switch slots, meaning install the big new SSD to the direct slot and the OS old SSD to the caddy adaptor? Yes to determine whether the problem is with the adapter or the disk. (I might even try installing the disk without the adapter, as the ports are usually the same anyway and the adapter just holds it in place.) But keep in mind that SATA ports dedicated to an optical drive are often lower speed (and your smartctl output suggests this might be the case here), so plan accordingly. For example, it used to be common for a typical older laptop (or an SFF/µFF PC) to have one 6 Gbps SATA port for the HDD and one 3 Gbps SATA port for the CD/DVD drive. So while SATA SSDs are already limited to ~550 MB/s throughput, connecting one to an "optical drive" port might only give you half of that. On the other hand, it could also be that smartctl is saying (current: 3.0 Gb/s) specifically because of your connection issues, not because of the port itself (the SATA controller will negotiate a lower speed if it has issues keeping the link up). So move the disks around, check dmesg to see what speed they negotiate and whether the disk on the 2nd port gives you any SATA or AHCI errors. (If it turns out that the 2nd port is actually only 3Gbit, since it's going to be a NAS, I would probably use the fast one for data and the slow one for the OS.) Or should I return the disk? Not until you have ruled out physical connection issues.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939094/s-m-a-r-t-199-sata-crc-error-count-number
+
+---
+
+#### 7407. Netfilter hiccup during cron.daily procedure
+
+**问题描述 / Problem Description**:
+Tags: linux, cronjob, netfilter | Score: 3 | Views: 223 | Answers: 1 | Created: 2026-02-22
+
+**解决方案 / Solution**:
+As it turned out, the packet loss was caused by the daemon waiting for a cursor to lookup an IPv6 address —unlike IPv4, for IPv6, Ipqbdb supports storing ranges rather than just single-address records, and a cursor is required for Berkeley DB's DB_SET_RANGE option. A daily operation used to lock the database to count the number of records and possibly reduce it so as not to exceed the configured maximum. This operation is now performed weekly, thus reducing the number of packet losses. However, the original question wasn't so much about the exact cause of the issue, but rather how to diagnose it. This required uncovering what is happening on that box . As obvious as it may seem, @tink's comment tipped me off to the fact that the problem was cron.daily logging. I could have used run-parts 's --verbose option, but then I'd have faced the difficulty of coordinating cron 's email logging with the daemon.log file where most jobs write. I also wasn't sure if simply establishing the timeline would reveal the culprit. So, to gain full inspection capabilities, I added more options to run-parts . The ability to run a custom script before and/or after each script called by run-parts allowed me to adjust the logging as needed. Please support this patch , as I believe it could be useful in a number of similar situations.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935167/netfilter-hiccup-during-cron-daily-procedure
+
+---
+
+#### 7408. What are the meanings of the columns in the output of lsinitrd?
+
+**问题描述 / Problem Description**:
+Tags: linux, dracut | Score: 3 | Views: 474 | Answers: 1 | Created: 2026-02-17
+
+**解决方案 / Solution**:
+While I have no direct experience with lsinitrd , the output you are showing seems to be 100% the same as the output of ls command with the -l option (aka: ls -l ); the basic and common Linux/Unix directory/file viewing utility: drwxr-xr-x 1 root root 0 Feb 8 20:31 var/lib/dracut/hooks/cmdline -rwxr-xr-x 1 root root 1254 Nov 23 10:38 var/lib/dracut/hooks/cmdline/00-parse-root.sh drwxr-xr-x 1 root root 0 Feb 8 20:31 var/lib/dracut/hooks/emergency From left to right the values are: Permissions/File Type : Values with d are directory entries. The rest of it is the permissions of owner, group, and others. r is read, w is write and x indicates it is executable. Directory entries are typically executable. Number of Links (e.g., 1 or 2) : Hard links number. Typically 1. Owner : The name of the owner of the file or directory. Group : The group of the owner of the file or directory. Size : The size (in bytes) of the file or directory. Timestamp : A timestamp of the last modification. Name : The name of the file or directory. For more information, check out this page at Computer Networking Notes .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934975/what-are-the-meanings-of-the-columns-in-the-output-of-lsinitrd
+
+---
+
+#### 7409. Why does my Python script only run correctly from command line but not via Triggerhappy?
+
+**问题描述 / Problem Description**:
+Tags: linux, raspberry-pi | Score: 3 | Views: 575 | Answers: 1 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+Replace your script with: env >/tmp/WhenRunFromTriggerhappy And then compare the newly created WhenRunFromTriggerhappy file with the same from the prompt, i.e.: $ env >WhenRunFromPrompt You might also consider the output of this in the same manner: python -m pip freeze >/tmp/WhenRunFromTriggerhappy I'd suspect there might be difference(s) there too. Also consider @Chester's comment .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934135/why-does-my-python-script-only-run-correctly-from-command-line-but-not-via-trigg
+
+---
+
+#### 7410. Nested desktop (plasma) session with a different user in Wayland?
+
+**问题描述 / Problem Description**:
+Tags: linux, desktop, multiple-users, wayland | Score: 3 | Views: 972 | Answers: 1 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+The nested display is now on the other side of the user boundary. For X, you start the secondary Xephyr display server on "your" side – it connects to your 'host' Xorg display server like a normal X app – and then the new session from the "other" side is able to connect to Xephyr on "your" side because you've used the -ac option to turn off all access control. In a sense, Xephyr acts as an access control bypass proxy. For Wayland it's different as the secondary display server is now built in to KWin (as is usual with Wayland, the window manager is its own display server), and therefore already runs on the "other" side – and nothing runs on "your" side – meaning that KWin has no access to the 'host' display server which only accepts connections from "your" account. Since there's no "proxy" like Xephyr that would still be running on your side, now it is the 'host' display server that would need access control disabled. Most Wayland compositors do not have such an option; the Wayland display socket is both located in your user-specific location (as opposed to X sockets all being in a machine-global location) and set to only accept connections from your own UID. I think the easiest way to accomplish this is to use waypipe , which is like "X forwarding" over SSH except for Wayland, and would act as such a proxy between the two users: $ waypipe ssh myworkuser@localhost gtk3-demo $ waypipe ssh myworkuser@localhost startplasma-wayland With SSH you probably don't need dbus-run-session as the SSH login will automatically start a systemd-managed "user bus" at the default location. (You don't need -X or -Y as X11 programs will be handled by KWin on the "other" side (which will run XWayland to receive X connections) – the only thing that goes through this SSH connection is the single "nested KWin" window.) But to avoid the overhead of SSH, you can combine waypipe client with sudo waypipe server to run the Waypipe protocol directly over a local socket. $ waypipe -s /tmp/way client & $ chmod a+rw /tmp/way (0666 if you prefer) $ sudo -u otheruser mkdir -m 0700 /tmp/rundir (-m u=rwx,go= if you want) $ sudo -u otheruser XDG_RUNTIME_DIR=/tmp/rundir waypipe -s /tmp/way gtk3-demo ( machinectl shell otheruser@ can be used to simulate a "clean" login for D-Bus, but ssh otheruser@localhost works as well, as you're directing waypipe to a local socket anyway.) Alternative approach: Linux has always supported concurrent non-nested user sessions. Use KDE's "Switch user" feature to return to the login screen (SDDM or whichever Fedora uses), then log in as the second user. Then use keyboard shortcuts to switch between the two – your original session is likely on Ctrl Alt F1 while the second session might be on Ctrl Alt F2 or F3 (depending on where the "login screen" session was). If I remember correctly, KDE's launcher ("Start menu") also had a list of active users for direct switching between them. Recent systemd versions extend this by adding the concept of "areas" which are like separate home directories for the same user, e.g. the same user could be logged in to two "areas" with different settings while still being able to access files from the other areas (which is usually harder with two users).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933269/nested-desktop-plasma-session-with-a-different-user-in-wayland
+
+---
+
+#### 7411. SSH: investigation into a possible latency issue
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, latency | Score: 3 | Views: 522 | Answers: 1 | Created: 2026-01-02
+
+**解决方案 / Solution**:
+Wi-Fi client devices typically have a power saving mode, where the receiver only stays awake for a short time after a transmission, and thereafter only wakes up periodically to check if there are any packets pending pickup. (That is, the client indicates to the AP that incoming packets should be buffered at the AP until the next wake-up.) When the Wi-Fi device is the SSH client or the ping/traceroute sender, latency is low because its Wi-Fi interface transmits and then stays awake for long enough to receive a response. When the Wi-Fi device is the receiver, though, latency is high because its Wi-Fi interface is practically always in power-saving sleep when you're trying to ping it. If device B is running Linux, iw dev wlan0 set power_save off can be used to turn off the power-saving mode. If the laptop is going to be a "server", you can use a udev RUN rule to automatically disable it on every startup. Also, since your devices are in the same subnet, the "router" part of your WiFi router isn't involved and therefore not shown in traceroute. The packets are still going through the "WiFi" part of your WiFi router (i.e. not actually direct between devices), but traceroute has no way of seeing that. There are unfortunately no good mechanisms for a 'layer 2' trace.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933183/ssh-investigation-into-a-possible-latency-issue
+
+---
+
+#### 7412. Is there a way to empty all of the trash via Trash CLI or a similar command in Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, nautilus, trash | Score: 3 | Views: 457 | Answers: 2 | Created: 2025-12-17
+
+**解决方案 / Solution**:
+There must exist a command which Nautilus is calling that effectively does in fact empty all of the trash. Nautilus does not call commands for that. It doesn't need to call commands if it can do the same job directly (…in the same way that those commands ultimately would), e.g. in this case it directly uses the C API functions provided by GNOME libraries. GNOME does include a command-line interface to its filesystem functions – if you have Nautilus then you should also have the gio command available as part of GLib2. Use gio trash to remove a file or gio trash --empty to remove the contents of all trash folders. Note that Debian/Ubuntu traditionally put CLI commands in a separate libglib2.0-bin package which might need to be manually installed (whereas on Arch the command is just part of libglib2 overall). Older GNOME versions instead had gvfs-* tools (as part of the gvfs package rather than GLib), that is, gvfs-trash to remove a file or gvfs-trash --empty to empty the trash. Again, on Debian this was in the gvfs-bin package. That being said, trash-cli itself comes with trash-empty to do the same thing. It sounds like it did not work for you, but the code seems to be iterating over multiple trash folders, so if you find that trash-empty only empties the "home" trash then you should report that issue through trash-cli's GitHub.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932598/is-there-a-way-to-empty-all-of-the-trash-via-trash-cli-or-a-similar-command-in-l
+
+---
+
+#### 7413. How to remove a “Trash-1000” folder from USB flash drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, usb, arch-linux, trash | Score: 2 | Views: 731 | Answers: 1 | Created: 2026-02-23
+
+**解决方案 / Solution**:
+For USB drives always mounting as read-only it can help to delete the parent folder of the default mountpoint, which on Arch-based distros is /run/media/$USER (and usb would be mounted at /run/media/$USER/myusbdrive ) and Ubuntu-based ones just /media/$USER ($USER is an environment variable containing the username). Unplug all drives, then delete the folder: cd /run/media ls # Confirm it's empty, nothing mounted anymore ls $USER rmdir $USER # In relevant cases will require root sudo rmdir $USER You can also simply write out the value of $USER instead of using the variable. If you now re-plug your thumbdrive it should mount writable as expected.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935208/how-to-remove-a-trash-1000-folder-from-usb-flash-drive
+
+---
+
+#### 7414. How to recover multiple NTFS partitions from disk with MBR completely lost?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, partitioning, filesystems, data-recovery | Score: 2 | Views: 257 | Answers: 1 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+Since testdrive uses Gibibytes (GiB), I will go ahead and use that notation. A secotr is probably a half-kilobyte. So when testdrive suggests it sees a FAT12 drive which is 7200 sectors, that would be 3600 KiB so about 3.6 MiB. Then, the next partition is not starting until Cyl 2236 H 35 S 36. This means that the space between Cyl 0 H 179 S 31 (the end of the FAT12 partition) and the start of partition 2 (Cyl 22336 H 35 S 36) is unpartitioned space, which equates to about 1/3 of the space on this 465GiB disk. This is probably wrong. Testdrive may be able to find files. However, chances are that you may be able to recover some full partitions in an excellent way, so that you will have all of those files with no problem. That will be much nicer than recovering individual files. It is entirely believable that (in addition to whatever else was earlier in the disk) there were two NTFS partitions, one of which started about 1/3 of the way through the disk (at Cyl 22336) and went to about 2/3 of the way through the disk (Cyl 42973), and another one which went from one sector after that drive, up to basically the end of the disk. It does seem a little less usual that the partitions are ending on boundaries which are not at the end/start of a cylinder, but that isn't the most shocking thing. So your last partition might be between the System Partition, which may be a variation of FAT, and the next NTFS drive. At this point, it will be very easy to make adjustments to the drive that will cause further data loss. It is highly advised that you do not make any additional changes before creating a bit-for-bit copy of this drive's data, at a drive level (rather than at partition level). In Linux, guymager can do that (part of a distribution named CAINE). Other software, apparently not including Clonezilla, may also be able to create such a "forensic image". (Clonezilla likes to interpret partitions and then back up partition-by-partition.) If you work with a high budget scenario (e.g. national intelligence agency), they might be able to look at what data was previously written to the disk (by looking at details on how closely the magnetic charges are set). Supposedly more may be doable using an "electron microscope". If you want to proceed with more economical possibilites that can be done with reasonable recovery efforts more commonly affordable to a typical consumer budget, you will be limited to what data is on the disk. That probably means that you lost the first X number of bytes, where X represents the amount of data that got copied from the portion of the ISO image that got written. (It sounds like the write got interrupted, since you noted that the write attempt ended "without writing all" [of the whole ISO image?].) That would typically wipe out the MBR, and perhaps (probably) part of the first NTFS partition. Recovery efforts might notice the partial ISO file, and be making presumptions about the first partition based on what it sees there. My rough understanding is that FAT drives tend to store the critical data in a "file allocation table" towards the start of the partition. However, NTFS tends to store critical data in two "master file tables", intended to remain identical to each other, one of which is stored near the front of the partition and the other stored somewhere around the halfway mark (maybe typically at the halfway mark, but not typically moved if partition resizing occurs with tools built into Windows, namely diskmgmt.msc) So you probably want to see about using an NTFS partition recovery tool which is very familiar with NTFS structure, and can find that middle-of-disk MFT and use that to rebuild as much as possible. Understand that some files may be fragmented, so if you did lose 4 GiB of data at the start of the disk, that could mean losing 4 GiB of file fragments which may affect more than just 4 GiB of files. I think I concluded that it seemed like testdisk was the best recovery tool that is free, but that was years ago. Reduce your stress about causing more data loss from further mistakes made (whether by you, or some software) by making sure you are working on one of your copies after making the full bit-by-bit image.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934558/how-to-recover-multiple-ntfs-partitions-from-disk-with-mbr-completely-lost
+
+---
+
+#### 7415. Can I flip-flop between LVM snapshots?
+
+**问题描述 / Problem Description**:
+Tags: linux, lvm | Score: 2 | Views: 36 | Answers: 1 | Created: 2025-12-24
+
+**解决方案 / Solution**:
+Yes, an active snapshot will capture the changes from merging another snapshot back into the main volume. I tested it with approximately these commands: # # Create the first version: # lvcreate -L 12M --name test ssd # mke2fs /dev/ssd/test # mount /dev/ssd/test /mnt # echo "This is the first version of the file." >/mnt/test.txt # # # Snapshot and modify: # lvcreate --snapshot -L 12M --name test_snap1 ssd # echo "This is the second version of the file." >/mnt/test.txt # echo "This file only exists in version 2." >/mnt/test2.txt # # # Create a second snapshot, and restore the first: # umount /mnt # lvcreate --snapshot -L 12M --name test_snap2 ssd # lvconvert --merge ssd/test_snap1 # # # Verify contents of the first snapshot: # mount /dev/ssd/test /mnt # ls /mnt lost+found test.txt # cat /mnt/test.txt This is the first version of the file. # # # Swap back to the second snapshot and verify its contents. # umount /mnt # lvconvert --merge ssd/test_snap2 # mount /dev/ssd/test # ls /mnt lost+found test.txt test2.txt # cat /mnt/test.txt This is the second version of the file. # cat /mnt/test2.txt This file only exists in version 2. # # # Clean up. # umount /mnt # lvremove ssd/test
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932812/can-i-flip-flop-between-lvm-snapshots
+
+---
+
+#### 7416. How can I properly unmount a FUSE filesystem in a Docker container?
+
+**问题描述 / Problem Description**:
+Tags: linux, docker, fuse | Score: 1 | Views: 191 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+(So based on grawity's comment I did a bit of testing and research. Here's what I found and I'm writing this answer as a note for myself. See if it helps.) This is how the docker documentation describes shared : Sub-mounts of the original mount are exposed to replica mounts, and sub-mounts of replica mounts are also propagated to the original mount. And this is how the kernel documentation describes shared mounts: A peer group is defined as a group of vfsmounts that propagate events to each other. A shared mount is defined as a vfsmount that belongs to a peer group. For example: mount --make-shared /mnt mount --bind /mnt /tmp The mount at /mnt and that at /tmp are both shared and belong to the same peer group. Anything mounted or unmounted under /mnt or /tmp reflect in all the other mounts of its peer group. While it's somewhat implicit, I think both of them do imply that the unmounting of any of the replica mounts (a.k.a. vfsmount that belongs to a peer group ) themselves are not propagated to the original mount (or, "the others" in the same peer group). So in other to achieve what you want, you would need the drive mapped to / mounted on somewhere under a mountpoint , of say a tmpfs, such that /srv/gdrive is mounted with a tmpfs and your drive mapped to / mounted on e.g. /srv/gdrive/gfolder , and then you rbind mount /srv/gdrive onto /mnt/gdrive of the container (with shared ). (EDIT: it doesn't seem like the "parent", i.e. what is made shared, has to be a mountpoint itself -- it can be just a simple directory, e.g. somewhere in the root filesystem -- although the FUD part of me does wonder if that could lead to certain concern, especially when given the containerization context) The reason that you may need rbind instead of bind is that if the bind mounting is done after the "drive mapping", the mapping would not be propagated -- because it is not a mount event that occurs after the bind mounting but and existing sub-mount. ( With docker bind mounting is by default recursive though .) As a side note, a sub-mount event does not exactly need to happen to a sub-directory of a shared mount for it to propagate the event to its peers. It can be "stacked" onto the mountpoint of the shared mount as well. For example: mount -t tmpfs tmpfs /srv/gdrive mount --make-shared --bind /srv/gdrive /mnt/gdrive google-drive-ocamlfuse /srv/gdrive If things happen in the order above , you'll get the desired behavior as well. However, if the mapping is stacked onto /srv/gdrive before the bind mounting is done, then the tmpfs underneath won't make any difference (because you would be bind mounting the mapping on the top then).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1935088/how-can-i-properly-unmount-a-fuse-filesystem-in-a-docker-container
+
+---
+
+#### 7417. How to mount android phone internal storage as disk under Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, mount, android | Score: 1 | Views: 1003 | Answers: 2 | Created: 2026-02-08
+
+**解决方案 / Solution**:
+Something to look into: gvfs-mtp or jmtpfs -- I have no experience with these. The 2000'ish PTP https://en.wikipedia.org/wiki/Picture_Transfer_Protocol and microsofts "extension" MTP https://en.wikipedia.org/wiki/Media_Transfer_Protocol ... has in my personal experience largely replaced pure file system access (to any data) in cameras, phones and other similar devices. In other words; pure mounting isn't possible, you might be able to get the tool/fs above working though... Read more using the links above, the access is not near similar to a true file system. If your device has removable media, then you have one more option; a memory card reader; which most likely WILL make it be a mountable device with file system, often FAT32 or even exFAT. I discovered this as I started using my (then) all new Nikon D700 - THE big disappointment
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934693/how-to-mount-android-phone-internal-storage-as-disk-under-linux
+
+---
+
+#### 7418. usb_modeswitch for XSStick W1220 LTE USB antenna
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, usb, wwan | Score: 1 | Views: 183 | Answers: 1 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+I found the solution googling around for general advice regarding LTE USB Sticks from brand "4G Systems". This took me to this thread in a forum. So I've tried this command, which worked: usb_modeswitch -v 2fd4 -p 4005 -M "55534243a069008d8000000080000606f50402527100000000000000000000" This turns the LTE USB Stick into "MBIM" mode, resulting in an network interface called wwan0 . This can be configured using nmcli . To give a full picture, I edited these files to automate the modeswitch and connecting to LTE when plugging in the stick: sudo vim /etc/udev/rules.d/70-usb_modeswitch.rules ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="2fd4", ATTRS{idProduct}=="4005", RUN+="/usr/sbin/usb_modeswitch -v 2fd4 -p 4005 -M '55534243a069008d8000000080000606f50402527100000000000000000000'" sudo vim /etc/NetworkManager/system-connections/lte [connection] id=lte type=gsm uuid=12345678-abcd-efef-abcd-0123456789ab [gsm] apn=your.apn.name password=pw username=user pin=1234 [ipv4] method=auto [ipv6] method=auto #Netplan: passthrough setting addr-gen-mode=default [proxy] sudo chmod 600 /etc/NetworkManager/system-connections/lte pin is the PIN number for your sim apn , username and password should be provided by your mobile data carrier uuid can be any random UUID
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934203/usb-modeswitch-for-xsstick-w1220-lte-usb-antenna
+
+---
+
+#### 7419. Hyper-V guests with Linux have wrong time after host sleep
+
+**问题描述 / Problem Description**:
+Tags: linux, virtual-machine, sleep, hyper-v, clock | Score: 1 | Views: 271 | Answers: 1 | Created: 2026-01-20
+
+**解决方案 / Solution**:
+Time sync working when host hibernates indicates time sync integration is working, but confirm anyways. Get-VMIntegrationService -VMName In a Linux guest on Hyper-V, kernel logs in dmesg output will show the various integrations being enabled. In particular, check for hv_utils: TimeSync This integration has an on and off switch, not much else. Hyper-V either chooses to send messages with flag ICTIMESYNCFLAG_SYNC or it doesn't. I do not have a citation for exactly what's going on here, but would not be surprised if the interaction of modern Windows suspend with a Linux guest had some non-obvious interactions or legacy behavior. Linux commit adf4752 you cite would work around things by assuming a sync if more than 5 seconds behind. Committed in March 2024 circa Linux 6.8. No it would not be in OL8 or 9, or other equivalent EL distros. A thing to try that minimizes additional software: upgrade the kernel. Test OL10, if that is better accelerate plans to upgrade to it. Just the kernel can be upgraded with third-party packages, however you would want a plan for how to get support and updates for it. And now the extra software option. Personally I consider a time discipline daemon a good idea on every host with (virtualized) hardware, so this is not really extra. And in this case, an IP network or internet is not required. Linux on Hyper-V includes a PTP interface to sync to host time. chrony.conf: # Hyper-V clock refclock PHC /dev/ptp0 # Step when more than 1 second difference, always makestep 1 -1 Some distros make a symlink so that /dev/ptp_hyperv is the device by name. However unless you have some other fun time sync configured, unlikely, there will only be the one /dev/ptp0. Subtle difference from this answer , I don't think trust keyword is necessary. If you have other time sources for chrony, and they all disagree that the PTP from the host is wrong, then it might be wrong.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933900/hyper-v-guests-with-linux-have-wrong-time-after-host-sleep
+
+---
+
+#### 7420. What is the SMART status vs support?
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, smart | Score: 1 | Views: 76 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+I realized that the issue was with the connectivity: the disk was temporarily connected to a USB disk enclosure and it seems that some SMART messages are not correctly supported. Switching to the permanent SATA connection fixed the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933321/what-is-the-smart-status-vs-support
+
+---
+
+#### 7421. Why am I experiencing MPV framerate/stuttering issues with HDR video on Fedora Gnome?
+
+**问题描述 / Problem Description**:
+Tags: linux, video, hdr, mpv | Score: 1 | Views: 255 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+I had to change hwdec=nvdec into hwdec=auto , and remove these items: vo=gpu gpu-api=opengl gpu-context=wayland
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933281/why-am-i-experiencing-mpv-framerate-stuttering-issues-with-hdr-video-on-fedora-g
+
+---
+
+#### 7422. Why is my VPN access point on a Raspberry Pi not working? Clients don't have internet access
+
+**问题描述 / Problem Description**:
+Tags: linux, routing, iptables, raspberry-pi | Score: 1 | Views: 132 | Answers: 1 | Created: 2025-12-25
+
+**解决方案 / Solution**:
+It turns out in addition to nordvpn set firewall off you also need nordvpn whitelist add subnet 10.42.0.0/24 nordvpn whitelist add subnet 192.168.178.0/24 The former is the IP range of the pi's wifi. The latter is the IP range of the network the pi is connected to via ethernet. I didn't test, if one of the two is unnecessary. But after whitelisting and the steps from the question, it works perfectly fine.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932875/why-is-my-vpn-access-point-on-a-raspberry-pi-not-working-clients-dont-have-int
+
+---
+
+#### 7423. What is the correct way to enable user reading from /dev/input events Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, pulse-audio, input, swaywm | Score: 1 | Views: 358 | Answers: 1 | Created: 2025-12-24
+
+**解决方案 / Solution**:
+The piece of functionality I am looking at at the moment is the fact that when I plug a 3.5mm headphone into the jack, the sound output doesn't automatically switch to the headphones. Generally this should already be handled by pulseaudio/pipewire, as the same events should be arriving through the ALSA sound interface. For PA, I think it's module-switch-on-port-available that normally handles this. However, it expects the same 'card profile' to provide both 'ports' simultaneously (which AFAIK is the default on all modern PCs with HD Audio). The obvious temptation is to alter the permissions on the event file so that it can be read by users, but that seems like it might be the wrong thing to do (events aren't meant to be directly read by users as I understand it). The device nodes are compatible with this kind of usage, but it's potential for a security issue on multi-user systems, or even single-user systems if you were worried about malicious software acting as a key logger (more in Wayland/Flatpak environments, less in X11 environments where any X client can just do that anyway). Think of it as giving all users read access to /dev/tty* or /dev/pts/* . For example, when you start Sway, it has to talk to 'seatd' or 'systemd-logind' to open the input device nodes and can only receive file descriptors for the devices assigned to its "seat" – and when you switch to a different VT to log in as another user, seatd/logind will revoke the 'input' file descriptors held by the compositor so that the background session cannot read the foreground session's input. (Linux does not have a generic frevoke() but it has specific ioctls for DRM and input devices to achieve that.) It should be safe to give users read access to the specific input devices that correspond to sound card "input" events, e.g. by setting GROUP= on them through a udev rule. I could also set up a systemd service to read the file, and then send messages either via a socket or d-bus. But, this seems tautological with simply giving read access to users on the event file. Only if you assume that such a service can only re-send the events 1:1. It's common to have such services that additionally do filtering on their input or output.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932821/what-is-the-correct-way-to-enable-user-reading-from-dev-input-events-linux
+
+---
+
+#### 7424. How to link 2 WireGuard interfaces to route specific IPs?
+
+**问题描述 / Problem Description**:
+Tags: linux, vpn, routing, wireguard, routing-table | Score: 1 | Views: 339 | Answers: 1 | Created: 2025-12-23
+
+**解决方案 / Solution**:
+The universal suggestion is to look at the packets to determine what is actually happening (and what is not happening). Run tcpdump -n -i wg0 on the main VPS to see if it receives packets, -i wg1 to see if it sends them out, and then -i wg0 on the second VPS to see if that receives the packets, etc. The most likely problem: Routing preserves the 'source' IP address on packets. When the client (10.7.0.2) sends a packet (inside the tunnel of course), the second VPS sees that it arrived from 10.7.0.2 – not 10.8.0.1. This means that The second VPS's WireGuard configuration must accept these packets, i.e. it must have 10.7.0.0/24 in its AllowedIPs : [Peer] PublicKey = <main_server_to_second_public_key> Endpoint = MAIN_SERVER_IP:53241 AllowedIPs = 10.8.0.1/32, 10.7.0.0/24 The second VPS's routing table must know the way back to 10.7.0.2 (via 10.8.0.1) so that it could properly deliver the 'reply' packets from Internet back to the client. If you are using wg-quick, I believe it will automatically add this route according to AllowedIPs so you don't need to do it manually. (An alternative method would be to enable MASQUERADE in the 1st server as well, but I do not recommend that – best to stick to regular routing internally, and only do NAT at the very edge.) As a side note, via <ip> routes don't really do what they say when WireGuard is involved, as the tunnels do not have L2 addressing – such routes act like dev wg0 routes and the output peer is actually decided by AllowedIPs. (That is to say, AllowedIPs has two purposes: inbound filtering and outbound routing.) It's fine to continue using via 10.7.0.1 , but you still need to keep in mind that AllowedIPs is doing most of the work there (in your case it works because the peer has 0.0.0.0/0 anyway).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932789/how-to-link-2-wireguard-interfaces-to-route-specific-ips
+
+---
+
+#### 7425. What can I do to debug this issue I am having with an external USB SSD drive?
+
+**问题描述 / Problem Description**:
+Tags: linux, ssd | Score: 1 | Views: 324 | Answers: 1 | Created: 2025-12-17
+
+**解决方案 / Solution**:
+The issue is due to permissions : root owns that partition. You can either change permissions (inadvisable for root !) or manually mount it -- which is best done read only , to avoid destroying that OS. In this case, you might try: sudo mkdir /mnt/usb_root sudo mount -o ro /dev/sda2 /mnt/usb_root That can be made into a bash script, and run when needed. Though fstab could be modified to automatically mount that partition, e.g., using Disks , that might cause issues when the external drive is not connected.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932587/what-can-i-do-to-debug-this-issue-i-am-having-with-an-external-usb-ssd-drive
+
+---
+
+#### 7426. How stop bash from setting default terminal window title
+
+**问题描述 / Problem Description**:
+Tags: bash, gnome-terminal, titlebar | Score: 1 | Views: 419 | Answers: 2 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+The default .bashrc that ships with Ubuntu sets the prompt (PS1) and title of the gnome-terminal . Therefore you need to change environment variable PS1 otherwise your changes won't show up because it will reset the title after each command. First make a copy of you .bashrc (in your $HOME directory) in case you make a mistake and you can move it back easily. Use your favorite editor to edit your .bashrc . (I use vi) Search for PS1 (/ in vi) Below this you will see a case: - case "$TERM" in xterm*|rxvt*) Below you will see a line of code as follows: - PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" Which you should comment out (start with #) and copy and modify to PS1="${debian_chroot:+($debian_chroot)}\u@\h:$" To make it easy to change the title you can also create a function below the above function - the line after esac (end of case). Then insert the following function: - #To set terminal name set_term_title(){ echo -en "\033]0;$1\a" } Then save and exit the editor. Run the script as follows: - source .bashrc From the prompt start the function name and press tab to complete and add a text name after and return. You should see your gnome-terminal name change. Good luck I hope this was of some help.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1533501/how-stop-bash-from-setting-default-terminal-window-title
+
+---
+
+#### 7427. Change boot order on multiboot Windows 10 - Ubuntu 15.10 - Fedora 23
+
+**问题描述 / Problem Description**:
+Tags: boot, dual-boot, grub2, uefi, fedora | Score: 1 | Views: 4394 | Answers: 2 | Created: 2016-04-26
+
+**解决方案 / Solution**:
+I'll begin by answering the questions at the end of your post: EFI-mode booting uses the firmware's native boot mode, whereas BIOS/CSM/legacy-mode booting uses the Compatibility Support Module, which permits booting older BIOS-mode boot loaders. See this question and my answer to it on superuser.com for more on this subject. GRUB is one of several EFI-mode boot loaders for Linux. (There are also versions of GRUB for BIOS and other firmware types.) GRUB Legacy, aka GRUB 1, was never officially supported for EFI, although Fedora did have a heavily-patched version that's now abandonware. Thus, most references to GRUB in an EFI context refer to GRUB 2. Secure Boot is an optional EFI feature intended to improve system security by blocking an EFI from launching binaries that are not cryptographically signed by a trusted authority. In principle, this authority could be you; or it could be somebody else. In practice, Microsoft holds the only commonly-available keys for Secure Boot, and so controls the process. Fortunately, Microsoft will sign third-party binaries, and Ubuntu has used this to have Microsoft sign a binary called Shim that, in turn, includes Canonical's key, which is used to sign GRUB and the Linux kernel in Ubuntu. Note that, when dual-booting two Linux distributions, neither distribution's Shim will include the key for the other distribution. Thus, you must register the other distribution's key with the Machine Owner Key (MOK) list, which you can do with the MokManager.efi utility under EFI. I think the sb-updatevar utility can do this in Linux, too, but I have less experience with it. See here for several keys in one handy place; you'd need .cer or .der keys. See my page on Secure Boot for more on this subject. As to your main problem, the efibootmgr -o (or efibootmgr --bootorder ) command should give control to whatever boot program you specify. Note, however, that you probably meant to give to control to Boot0001 or Boot0007 , not Boot0006 -- Ubuntu uses the name ubuntu , not grub , to describe its own boot entries. You can better identify each of these by typing sudo efibootmgr -v , which produces complete paths to the boot entries (identified using EFI path identifiers, which are long and complex and refer, among other things, to partitions' GUID numbers, which you can get with gdisk or some versions of blkid ). Thus, before you do anything else, you might want to try changing the boot order to the correct value, rather than to Boot0004 . In practice, efibootmgr changes sometimes fails to work because of buggy EFIs or corrupted data in the machine's NVRAM (which is where the data that efibootmgr displays and adjusts is stored). Three solutions to such problems are commonly employed: Wipe unwanted entries -- Sometimes deleting an unwanted or duplicate entry, as in sudo efibootmgr -b 0004 -B to delete Boot0004 , will fix a problem. (You might or might not actually want to delete this entry, though.) Sometimes you may need to delete multiple boot entries to get the system working again. Do not delete entries you need to boot, though. Also, most computers have entries that the firmware itself creates, like the two Network Controller entries in your output. Deleting those entries is generally inadvisable. Reset the firmware to its defaults -- Most EFIs provide an option to reset all settings to their defaults in the firmware setup utility. (What some people call the "BIOS setup screens" or something similar -- although EFIs are technically not BIOSes, despite the fact that many people, and even manufacturers, often refer to them as such.) The drawback to this approach is that it's likely to wipe out all the EFI entries, rendering the system unbootable until you use an emergency disk to restore at least one working entry. Piggyback your boot loader on another entry -- This approach involves copying or moving/renaming your desired boot loader to use the filename of whatever the EFI insists on launching. It's generally used when an EFI refuses to launch anything but the Windows boot loader, so it shouldn't be necessary in your case. Stepping back a bit further, though, I'll say that it really shouldn't matter which GRUB you use (Fedora's or Ubuntu's); they're basically the same software. If you're having problem configuring Fedora's GRUB to do what you want, you could always tweak its settings -- but OTOH, GRUB 2 configuration is notoriously difficult once you move beyond some very basic things. For this reason, many people who dual-boot multiple Linux distributions prefer to have a distribution-independent boot loader -- either their own GRUB or something else. My own rEFInd boot manager has several advantages for such configurations, such as a lack of reliance on configuration files to detect kernel updates and its independence from any given OS's configuration scripts. That said, if you're having trouble getting efibootmgr to switch from one GRUB to another, you might also have problems getting rEFInd (or any other boot loader) to launch. Also, if you're using Secure Boot, you may need to register at least one Secure Boot key with your MOK to get rEFInd to work. For that matter, if the reason you want to switch to Ubuntu's GRUB is that Fedora's GRUB won't launch Ubuntu's kernels, then the issue is most likely Secure Boot; adding the Secure Boot key for Canonical/Ubuntu should overcome that problem. EDIT: Boot0001 is the entry that's most likely to do what you want, so it should go at the start of your boot list; but it sounds like that's not working for you. If you can live with leaving Fedora in charge of the boot process, it might be best to do so, lest you end up creating a cascade of new problems. Certainly outright deleting the Fedora entry is risky, since if you then can't get anything else to work, you may be left unable to boot anything. You might try disabling Secure Boot, assuming it's currently enabled, since that feature can cause problems, particularly on complex setups.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/763057/change-boot-order-on-multiboot-windows-10-ubuntu-15-10-fedora-23
+
+---
+
+#### 7428. Deleted Linux Partition , Stuck on grub rescue , Cannot load any OS
+
+**问题描述 / Problem Description**:
+Tags: grub2, windows-10, fedora | Score: 1 | Views: 3599 | Answers: 2 | Created: 2016-03-05
+
+**解决方案 / Solution**:
+It sounds like the Windows bootloader got hosed. I know Windows used to have a "Rescue" mode that would effectively reinstall Windows files over themselves. Your #2 error does sound like RAM... the Ubuntu disk should have a memtest option. You can download and burn a memtest ISO if you don't have it and want it faster than downloading a whole 'nother live CD.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/742429/deleted-linux-partition-stuck-on-grub-rescue-cannot-load-any-os
+
+---
+
+#### 7429. Ubuntu 14.04.02 LTS Workstation Installer Doesn't Recognize Windows 7
+
+**问题描述 / Problem Description**:
+Tags: dual-boot, partitioning, system-installation, windows-7, fedora | Score: 1 | Views: 448 | Answers: 2 | Created: 2015-04-25
+
+**解决方案 / Solution**:
+I will try to answer your question. Go to www.ubuntu.com and download the distribution of your choice. Save it to your computer. Now, Burn this download to a DVD. Put the DVD in to cd/dvd slot and restart your computer. You have just created a live dvd. I think what is happening is you cannot partition when you are using the operating system. A live dvd will allow you to modify the partition straight from the dvd. Press CTRL,ALT, and T at the same time. A terminal window will pop up. Now type this in the terminal window: sudo apt-get install gparted Follow the prompts, you are almost there. Once this is installed, click on the spiral on the very top left corner of the operating system and type "gparted" Your software will pop up. Finally, follow these instructions found on this website starting on step four and create your partition: http://howtoubuntu.org/how-to-resize-partitions-with-the-ubuntu-or-gparted-live-cd .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/613943/ubuntu-14-04-02-lts-workstation-installer-doesnt-recognize-windows-7
+
+---
+
+#### 7430. Ubuntu, or Fedora?
+
+**问题描述 / Problem Description**:
+Tags: 14.10, fedora | Score: 1 | Views: 648 | Answers: 1 | Created: 2015-02-13
+
+**解决方案 / Solution**:
+My recommendation? Definite go back to ubuntu. for these reasons. debian system added extra level of protection,(sudo.....) to prevent novice users from tempering the OS's file system, while in administrative mode. You have to give an explicit command for wanting to change setting. As the largest distribution, ubuntu keeps its OS fresh with twice-a-year upgrades. Some people find it arduous, and pron to unexpected problems. Others find it refreshing. You always have the choice to disable the auto-upgrade,and do so whenever you chose to. Ubuntu has the largest fan based users, and as you see on this forum, the largest repository of answers to your question. As for which one (14.10 vs. 14.04), the latter one is classified as Long Term System (LTS) which means, it is bug free. The first is not, and constantly upgraded. So if you do install the 14.10, make sure to check for update & Upgrades frequently.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/584906/ubuntu-or-fedora
+
+---
+
+#### 7431. Recover encrypted home partition from Fedora
+
+**问题描述 / Problem Description**:
+Tags: system-installation, encryption, fedora | Score: 1 | Views: 849 | Answers: 1 | Created: 2014-07-10
+
+**解决方案 / Solution**:
+What you need is this command: sudo ecryptfs-recover-private The scenario: boot from your new Ubuntu installation and issue the command above. It will take a while until it will find your encrypted /home folder (assuming that it is accessible and mounted, if not, follow the instructions here .)
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/495923/recover-encrypted-home-partition-from-fedora
+
+---
+
+#### 7432. Is there a way to switch from Fedora without wiping the home partition?
+
+**问题描述 / Problem Description**:
+Tags: partitioning, fedora | Score: 1 | Views: 1451 | Answers: 2 | Created: 2014-05-27
+
+**解决方案 / Solution**:
+without wiping home partition Maybe but I would not advice it. Redhat Fedora and Ubuntu are different though you can share a /home between the 2 if you remove Fedora you will have files on your disc that are useless. I would do it like this: Install gParted, resize disc, make unallocated space and create a new partition in that unallocated space. Move the files you need to save to that new partition. Install Ubuntu with format and mount the new partition without a format. Move files from the back-up partition to you new /home Tip: separates the root ("/") and your personal file ("/ home"), creating two partition (one for "/ home" and one for "/"). Thus, in case of re-installation, there will be no need to save the file in "/ home" (you'll just have to mount the correct partition in "/ home" without formatting)
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/472950/is-there-a-way-to-switch-from-fedora-without-wiping-the-home-partition
+
+---
+
+#### 7433. How do I create a persistent Fedora live USB?
+
+**问题描述 / Problem Description**:
+Tags: live-usb, persistence, fedora | Score: 1 | Views: 4692 | Answers: 1 | Created: 2014-04-29
+
+**解决方案 / Solution**:
+Ubuntu comes with default Disk/Usb creator. Search in Unity Startup Disk Creater & after selecting ISO & Drive, select Stored in reserved extra space & give your persistence space OR ELSE Use Unetbootin to make Live USB with persistence!
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/457638/how-do-i-create-a-persistent-fedora-live-usb
+
+---
+
+#### 7434. How to get a history of all copy paste stuff?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, clipboard | Score: 2 | Views: 94 | Answers: 1 | Created: 2026-07-12
+
+**解决方案 / Solution**:
+I used this all the time history | head -50 # (shows first 50) history | tail -50 # (shows last 50) To list all: history To shorten: history | tail -10 # (last 10 entries)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806686/how-to-get-a-history-of-all-copy-paste-stuff
+
+---
+
+#### 7435. Where is this configuration setting for gthumb?
+
+**问题描述 / Problem Description**:
+Tags: debian, configuration | Score: 0 | Views: 13 | Answers: 1 | Created: 2026-07-17
+
+**解决方案 / Solution**:
+Your question Where is this configuration setting for gthumb? I don't personally know gthumb , but considering the g , it's probably a gnome program, and thus stores its configuration via the GSettings mechanism, with dconf as the storage backend. That means you can dump the configuration with dconf dump /org/gnome/gthumb/ or dconf dump /app/gthumb/ depending on your version of gthumb (one of these will be empty). To transfer the settings (use the one that wasn't empty!) # on your old machine, run dconf dump /org/gnome/gthumb/ > settings.ini # and keep the settings.ini file # on the new machine: copy over the settings.ini file, # and from that directory, run dconf load /org/gnome/gthumb/ < settings.ini What you actually care about but didn't ask… However , I do not want it to switch. I cannot find any "preferences" related to this. Probably then, that's not something that can be configured but just a change in behaviour of the program or the selection dialog.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806746/where-is-this-configuration-setting-for-gthumb
 
 ---

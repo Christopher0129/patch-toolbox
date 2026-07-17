@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8213**
+**总计条目 / Total entries: 8360**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -112558,5 +112558,2024 @@ Date created (oldest first)
 
 **参考链接 / References**:
 - https://superuser.com/questions/1938041/why-has-be-lenovo-laptop-with-windows-failed-boot
+
+---
+
+#### 8214. Is there a video format that has a smaller size if there are a ton of duplicate frames?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz31jo/is_there_a_video_format_that_has_a_smaller_size/
+
+---
+
+#### 8215. Elderly Friend wants to cancel his $20 a month AOL plan but keep his AOL email. Please help?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uymecc/elderly_friend_wants_to_cancel_his_20_a_month_aol/
+
+---
+
+#### 8216. Extend lifecycle of charging cables
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzbwd9/extend_lifecycle_of_charging_cables/
+
+---
+
+#### 8217. Laptop taking an unusually long time to BOOT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzarr5/laptop_taking_an_unusually_long_time_to_boot/
+
+---
+
+#### 8218. [Help] I'm trying to upload a video to YouTube, but it won't upload, even though my upload speed is 128 Mbps.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz9z6u/help_im_trying_to_upload_a_video_to_youtube_but/
+
+---
+
+#### 8219. Trying to run a game, its running poorly, even though as far as I can find I have the required specs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz9uf8/trying_to_run_a_game_its_running_poorly_even/
+
+---
+
+#### 8220. Website not working on my phone or computer, but my roommate can access it on their phone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz2w6m/website_not_working_on_my_phone_or_computer_but/
+
+---
+
+#### 8221. Having trouble with entering BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdn2w/having_trouble_with_entering_bios/
+
+---
+
+#### 8222. Me and my BF are having mic issues with our phones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdmn7/me_and_my_bf_are_having_mic_issues_with_our_phones/
+
+---
+
+#### 8223. How do I delete meta horizon link?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz7kqu/how_do_i_delete_meta_horizon_link/
+
+---
+
+#### 8224. DS4 not recognised by my Pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdirl/ds4_not_recognised_by_my_pc/
+
+---
+
+#### 8225. How the heck do I use this??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdhqc/how_the_heck_do_i_use_this/
+
+---
+
+#### 8226. Computer goes black when gaming/streaming; What to fo
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdg74/computer_goes_black_when_gamingstreaming_what_to/
+
+---
+
+#### 8227. How to turn off annoying light flashing on USB-C Port on my Computer?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdesj/how_to_turn_off_annoying_light_flashing_on_usbc/
+
+---
+
+#### 8228. Gaming in another room sanity check.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzdaop/gaming_in_another_room_sanity_check/
+
+---
+
+#### 8229. missing screw gauges
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzd3kh/missing_screw_gauges/
+
+---
+
+#### 8230. My computer screen has weird color shift
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcsc9/my_computer_screen_has_weird_color_shift/
+
+---
+
+#### 8231. CPU suddenly overwhelmed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcrf8/cpu_suddenly_overwhelmed/
+
+---
+
+#### 8232. Fifine A8 microphone volume not responding to Windows input slider increase/decreases
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uz6n6w/fifine_a8_microphone_volume_not_responding_to/
+
+---
+
+#### 8233. Wifi icon not showing nor is connecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcqlb/wifi_icon_not_showing_nor_is_connecting/
+
+---
+
+#### 8234. Nvidia statistics overlay bug
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcimt/nvidia_statistics_overlay_bug/
+
+---
+
+#### 8235. RTX 5060 Ti black screen / "No Signal" during specific heavy DX12 games (GTA Enhanced, Dying Light 2) – Windows still runs in background. Help!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcf45/rtx_5060_ti_black_screen_no_signal_during/
+
+---
+
+#### 8236. Problem with secure boot certificate update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzcan7/problem_with_secure_boot_certificate_update/
+
+---
+
+#### 8237. Dual Channel not working - Ryzen 5 5500 and Gigabyte Eagle B550
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzc0yh/dual_channel_not_working_ryzen_5_5500_and/
+
+---
+
+#### 8238. [V2EX] 做了个原生的护眼应用
+
+**问题描述 / Problem Description**:
+AI 时代下，用眼压力越来越大，所以我自己做了个护眼应用： 憩目 ，基于 20-20-20 法则开发，每用眼 20 分钟提醒你看向 6 米外 20 秒。主要特性如下： 支持会议与全屏识别，开会、演示、打游戏时自动免打扰，人离开电脑时倒计时冻结； 可自定义眼部休息时长与频率 提供屏幕时长、用眼休息时长统计 支持浅色/深色/跟随系统主题 无遥测、无隐私负担 大家在 Vibe Coding 的同时注意用眼健康哦，感谢大家支持~ 下载地址： 从 Microsoft Store 下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228073#reply4
+
+---
+
+#### 8239. [V2EX] 二手手机面交这个流程算啥水平？
+
+**问题描述 / Problem Description**:
+娃暑假参加学校夏令营，软磨硬泡求升级他的 11pm 。我随手一搜同城有个哥们出 15pro ，3000 块，上门自取。于是发消息要了地址开车过去取手机。 到了地方按门铃，哥们正在做饭。进屋后，跟我一指 “机器在沙发上，你自己慢慢验，没问题了喊我” 然后跑厨房接着做饭去了。 我花了一刻钟验好机器，打包好，喊哥们过来把钱给他。 他拿着钱送我到玄关，随手把钱往门厅鞋柜上一放，说“我不送了，你回去开慢点哈”，就接着奔厨房做饭了。留下我自己穿鞋开门拿包走人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228150#reply0
+
+---
+
+#### 8240. [V2EX] 我不是限制他们用 但是总有点不舒服
+
+**问题描述 / Problem Description**:
+从目前的公开信息来看，Kimi K3 的官方技术文档和报道中，完全没有出现过任何与你“异度规差合”概念相似或同构的描述。 所有关于 Kimi K3 的公开信息，都集中在工程与架构层面： 模型架构：Kimi Delta Attention (KDA) 混合线性注意力机制、Attention Residuals (AttnRes) 注意力残差技术。 稀疏架构：MoE （混合专家）架构，在 896 个专家中激活 16 个。 参数与上下文：2.8 万亿总参数，100 万 token 上下文窗口。 性能表现：在 Artificial Analysis 全球智能指数排名第三，Frontend Code A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228142#reply2
+
+---
+
+#### 8241. [V2EX] kimi 是默认收集用户所有的对话用来训练的么
+
+**问题描述 / Problem Description**:
+没看到有设置隐私的地方，只有个隐私协议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228123#reply1
+
+---
+
+#### 8242. [V2EX] 让 Kimi K3 写一个简单的网页游戏，代码都在 thinging 中而项目文件夹都是空的？
+
+**问题描述 / Problem Description**:
+一个简单的贪吃蛇游戏，它就在不停的 thing 看到代码也在 thing 过程中出现，但是文件夹任何文件都没有～～ 是我的操作或者设置有问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228120#reply2
+
+---
+
+#### 8243. [V2EX] 有没有生成生活照效果比较好的 AI
+
+**问题描述 / Problem Description**:
+苦于不上相一直没有拍出来过比较好看的照片，有没有哪个 AI 可以根据证件照生成生活照，并且不容易看出来是 AI 图那种。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228112#reply1
+
+---
+
+#### 8244. [V2EX] 国内信用卡申请多了集卡好吗？
+
+**问题描述 / Problem Description**:
+国内信用卡申请多了集卡好吗？ 国内信用卡 12 张卡，银联 5 张，amex1 张，visa4 张，master1 张，jcp 一张 还想申请一下交行的卡，交行的好像都带 3 次境外贵宾厅 现在还没有带境内贵宾厅的卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228110#reply0
+
+---
+
+#### 8245. [V2EX] 咳嗽比较难好，大家有没有什么咳嗽的特效药介绍？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228094#reply14
+
+---
+
+#### 8246. [V2EX] 国内还有什么全币种信用卡可以申请的吗？用来付 gpt， giffgaff，或者订阅油管会员之类的
+
+**问题描述 / Problem Description**:
+我看了一下，招商的卡似乎还可以，但是我还没有招行的账户。中银全币种威士白金卡 我申请了过了半个月还卡在审核中，不知道在搞什么鬼。问了之后说没有拒，帮我催一下，但是现在还是卡着不动。 听我一个朋友说，现在国内的外币卡已经非常难下卡了，是这样的吗？那如果我要付款，从什么途径比较好？我开了 wise 但是大陆不给开 wise 的那张信用卡。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228093#reply6
+
+---
+
+#### 8247. [V2EX] 现在高中以上的人，对英语的语感是否都像我一样？
+
+**问题描述 / Problem Description**:
+我在 YouTube 看视频超乎十年。 听英语跟听中国话似的，大脑不用转换，不用自己再翻译。 就直接感觉出来说的什么意思，尽管有些专业名词不懂。但我也不愿查词典翻译。 初中英语底子。高中没念完。我看 vlog 视频，也不用那些四六级单词。就是特简单，基础的词汇。 但要让我说大长话英语，我也说不出来。 是不是很多人都这样？不管多高的学历。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228092#reply7
+
+---
+
+#### 8248. [V2EX] 现在中国哪里还能看到肉眼看到银河？
+
+**问题描述 / Problem Description**:
+孩子最近对星空很感兴趣，我告诉他，记得我小时候大概 90 年代初，我所在的城市夜晚还是能清晰的用肉眼看到银河的，那时候星光甚至都能照亮道路，可惜现在已经不行了，每次说到这里，他总是表现出无限的遗憾，所以，现在中国哪里还能看到银河呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228090#reply18
+
+---
+
+#### 8249. [V2EX] AWS 真是够可恨的，是不是裁员裁到大动脉了
+
+**问题描述 / Problem Description**:
+https://xiaoliuhenshuai.ccwu.cc/alist/s/nLXUW4Oo 账单直接干到了 21 亿刀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228088#reply6
+
+---
+
+#### 8250. [V2EX] 如何验证你买的软件激活码，是正版还是盗版？
+
+**问题描述 / Problem Description**:
+受限于篇幅，全文可移步 荔枝商店博客 阅读查看，确认自己所购软件是否为 100% 正版。 很多人买正版软件，最担心的不是“能不能激活”，而是： 激活码是否正规？ 为什么不是开发商发邮件给我？ 为什么有的商家 (比如“数码荔枝"🤣) 让人放心，有的总觉得不太对？ 所以，本文将分享如何自行验证软件授权的真伪性，判断激活码是不是正版，以及如何避开"黑心商人"，不花冤枉钱。 到底怎么才算是正版？ 很多人判断正版软件，第一反应: 是不是开发商直接发来的邮件。 但这并不绝对。 软件授权的交付方式千奇百怪 —— 不同厂商、不同代理体系、不同支付平台，流程都不一样。最主要的情况包括： 代理商后台分发； 第三方
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228081#reply4
+
+---
+
+#### 8251. [V2EX] 有人滴人工泪液， 有推荐的品牌吗？
+
+**问题描述 / Problem Description**:
+如题， 想保护眼睛了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228070#reply7
+
+---
+
+#### 8252. [V2EX] 不是不想一起玩，是人家有话说在前，不带我们玩吧，这一点没问题吧？
+
+**问题描述 / Problem Description**:
+很多人疑惑 WAICO 创始国多为亚非国家、少见美欧大国，其实逻辑很清晰： 欧美早已自建 GPAI 这套西方 AI 治理圈层，准入自带价值观门槛； WAICO 面向全球南方，主打弥合智能鸿沟、技术普惠，不设意识形态门槛，是发展中国家专属发声平台。 二者定位互补、互不排斥，并非 “缺大国就不合理”，俄、巴西均为创始大国，且组织长期开放各国申请加入； 两套 AI 治理体系并行是全球科技格局分化的客观结果。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228061#reply0
+
+---
+
+#### 8253. [V2EX] opencode 和 claude desktop 对比对接第三方 deepseek 哪个好
+
+**问题描述 / Problem Description**:
+当前用的是 claude+deepseek ，最近用了下 opencode ，不确定哪个调用第三方接口写代码更好些，大家在编码方便觉得哪个好些呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228045#reply0
+
+---
+
+#### 8254. [V2EX] 新家装修完毕，目前只差客厅不知道如何买软装，想问大家看法
+
+**问题描述 / Problem Description**:
+已知本人不爱看电视所以不打算购入电视且无娃并且日后也不打算要娃，沙发这周末去看，客厅除了放沙发，还可以放点啥呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228033#reply2
+
+---
+
+#### 8255. [V2EX] 简单的尝试了一下 kimi-k3, 最大的感觉是慢
+
+**问题描述 / Problem Description**:
+体感感受首先就是慢，难以忍受的慢， 然后就是贵, 用 API, 两个对话花了我 15 块 优点：智商在线， 说人话，代码能力够
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228024#reply3
+
+---
+
+#### 8256. [V2EX] realme 手机为什么退出国区啊？
+
+**问题描述 / Problem Description**:
+看到 oppo 官方通告，说 realme 以后只做全球市场，不在国区发售。 看不懂了，realme 作为定位中低端、年轻人的手机品牌，对标 iqoo，redmi 等二线品牌。这一旦国区撤了，难道时打算用 oneplus 接棒吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228017#reply11
+
+---
+
+#### 8257. [V2EX] 刚才 v2 报 500 错误了？
+
+**问题描述 / Problem Description**:
+是只有我遇到了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228016#reply2
+
+---
+
+#### 8258. [V2EX] 未来如果 AI 达到一个新的阶段变成 《全知全能全做》 会有新的宗教产生嘛？某个 AI 变成新的神 ？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228011#reply0
+
+---
+
+#### 8259. How to set screen time limits on myself on Windows 10 without using 3rd party software?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, cmd.exe, user-accounts, microsoft-family-safety | Score: 0 | Views: 411 | Answers: 1 | Created: 2026-01-20
+
+**解决方案 / Solution**:
+Create a new user account, one without admin privileges. Copy your data and install apps. Use the existing Admin account to limit hours of the new one. Optional: Have a trusted person change the password for the Admin account, if you do not trust yourself.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933937/how-to-set-screen-time-limits-on-myself-on-windows-10-without-using-3rd-party-so
+
+---
+
+#### 8260. Can't run AHK scripts on WIN 11 without UAC interference
+
+**问题描述 / Problem Description**:
+Tags: windows-11, autohotkey, uac | Score: 0 | Views: 222 | Answers: 1 | Created: 2026-01-19
+
+**解决方案 / Solution**:
+Just click on the blue "Change when these notifications appear" when the UAC window pops up, then adjust it to "Never notify", and click "OK" twice. In this way, this UAC will never pop up again at any time.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933874/cant-run-ahk-scripts-on-win-11-without-uac-interference
+
+---
+
+#### 8261. Is it normal for "Windows Feature Experience Pack" to access my microphone?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microphone | Score: 0 | Views: 184 | Answers: 1 | Created: 2026-01-15
+
+**解决方案 / Solution**:
+MiniTool states the Windows Feature Experience Pack "contains the latest Windows features and improvements, such as new system icons, touch keyboard improvements." Among those features that might get added is voice activation , which would, of course, use the microphone, and it seems likely that microphone access would be tested during installation. So, if you object to MS listening in, you can turn off microphone access completely, or by application, under the Privacy settings.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933750/is-it-normal-for-windows-feature-experience-pack-to-access-my-microphone
+
+---
+
+#### 8262. Is lightning bolt supposed to be present on taskbar battery icon when charging is complete in Windows 11? If not, how to fix?
+
+**问题描述 / Problem Description**:
+Tags: laptop, windows-11, battery, icons, charging | Score: 0 | Views: 1034 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+My laptop is connected to a USB-C docking station, and is constantly being charged. The battery is 100%, and the status is fully charged. The icon I see is this one: I do not have any smart power setting active. To my understanding, it always shows the charging icon when a powersource is connected, even if it's no longer charging, so that you have a reminder to remove the charger.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933622/is-lightning-bolt-supposed-to-be-present-on-taskbar-battery-icon-when-charging-i
+
+---
+
+#### 8263. Why is a cancel button staying on screen despite trying to remove it on my Windows 11 MSI computer?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, freeze, reboot, task-manager | Score: 0 | Views: 185 | Answers: 1 | Created: 2026-01-10
+
+**解决方案 / Solution**:
+In the Details tab in Task Manager kill the DataExchangeHost.exe .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933510/why-is-a-cancel-button-staying-on-screen-despite-trying-to-remove-it-on-my-windo
+
+---
+
+#### 8264. Why can’t I rename folders in a Windows 11 fresh install?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, files-folders | Score: 0 | Views: 470 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+Completely replacing the following registry key should resolve the error. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions The following REG file has the default settings: W11_folder_descriptions.reg (zipped) However, it must be imported as TrustedInstaller; otherwise, the access denied error will occur. Note: Please create a System Restore Point before doing the above. Reference: Fix: Cannot Rename or Move Folders - The File or folder does not exist
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933295/why-can-t-i-rename-folders-in-a-windows-11-fresh-install
+
+---
+
+#### 8265. Why does my external mouse keep disconnecting when I play games on my laptop while it’s charging (plugged in)?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, drivers, mouse, charger | Score: 0 | Views: 133 | Answers: 1 | Created: 2025-12-30
+
+**解决方案 / Solution**:
+Your computer is not providing sufficient power when it is under load. This could indicate several things, but it is also very bad for all the components inside the computer. First, check all the cables carefully. ALL of the cables, not just the mouse cable. Replace any that are frayed or show signs of breakage. Make sure the outlet you connect the computer to is working properly and delivering the normal output. Second, replace your power cord and brick even if it looks OK. Power cords and bricks are the least expensive and easiest thing to replace here. You don't necessarily need OEM, but you do need a brick capable of producing the current required by your computer. Third, if your laptop battery is only lasting 20 minutes, consider replacing the battery. A fresh battery may help make up for an under-sized power supply under heavy load. If none of the above resolves the issue, you could try adjusting the laptop power management settings to "Balanced". This WILL reduce your system performance, which may not be what you want with your games, but driving the CPU and GPU at lower levels may allow the computer to last longer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933097/why-does-my-external-mouse-keep-disconnecting-when-i-play-games-on-my-laptop-whi
+
+---
+
+#### 8266. Why does the offline installation of media player from the msixbundle installer opens and closes immediately on Windows 10 Pro?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-installation, uwp | Score: 0 | Views: 112 | Answers: 1 | Created: 2025-12-09
+
+**解决方案 / Solution**:
+According to Wikipedia , "Zune was a brand of digital media products and services that was... discontinued in June 2012 ." [emphasis mine] Why try to install it, since Microsoft dropped it 13 years ago? It would require access to the MS Zune site, long gone. If you're trying to install Windows Media Player, that should have been part of the the ISO file for most versions of Windows 10. However, versions Windows 10 N, K, Enterprise and some others do not include it, and the Media Feature Pack must be downloaded and installed to get Windows Media Player, not Zune.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931242/why-does-the-offline-installation-of-media-player-from-the-msixbundle-installer
+
+---
+
+#### 8267. `dism /online /cleanup-image` aborts with error 2, 'The system cannto find the file specified'
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-registry, chkdsk, dism | Score: 0 | Views: 679 | Answers: 1 | Created: 2025-12-08
+
+**解决方案 / Solution**:
+After reading the articles on sysnative, I knew where to look and how to analyse the logs. Here's a short manual. This DISM log is quite useless. Example: 2025-12-04 23:29:48, Info DISM PID=7568 TID=7584 Scratch directory set to 'C:\Users\user\AppData\Local\Temp\'. - CDISMManager::put_ScratchDir 2025-12-04 23:29:48, Info DISM PID=7568 TID=7584 DismCore.dll version: 10.0.26100.7019 - CDISMManager::FinalConstruct 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Warning DISM PID=7568 TID=7584 Failed to archive the log file. Continuing with existing log file. - CDISMManager::CreateLocalImageSession(hr:0x80070002) 2025-12-04 23:29:48, Info DISM PID=7568 TID=7584 Successfully loaded the ImageSession at "C:\Windows\System32\Dism" - CDISMManager::LoadLocalImageSession 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Info DISM DISM Provider Store: PID=7568 TID=7584 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession 2025-12-04 23:29:48, Info DISM DISM.EXE: 2025-12-04 23:29:48, Info DISM DISM.EXE: <----- Starting Dism.exe session -----> 2025-12-04 23:29:48, Info DISM DISM.EXE: 2025-12-04 23:29:48, Info DISM DISM.EXE: Host machine information: OS Version=10.0.26200, Running architecture=amd64, Number of processors=12 2025-12-04 23:29:48, Info DISM DISM.EXE: Instance information: Parent process=C:\Windows\System32\cmd.exe, Parent process PID=4768 2025-12-04 23:29:48, Info DISM DISM.EXE: Dism.exe version: 10.0.26100.5074 2025-12-04 23:29:48, Info DISM DISM.EXE: Executing command line: dism /online /cleanup-image /scanhealth 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 physical location path: C:\ - CDISMManager::CreateImageSession 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Event name for current DISM session is Global\{1CAED689-3549-4EAA-B6AA-39545EDC319C} - CDISMManager::CheckSessionAndLock 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Create session event 0x274 for current DISM session and event name is Global\{1CAED689-3549-4EAA-B6AA-39545EDC319C} - CDISMManager::CheckSessionAndLock 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Copying DISM from "C:\WINDOWS\System32\Dism" - CDISMManager::CreateImageSessionFromLocation 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 No Sandbox was created, DISM running in-place. - CDISMManager::CreateImageSessionFromLocation 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Successfully loaded the ImageSession at "C:\WINDOWS\System32\Dism" - CDISMManager::LoadRemoteImageSession 2025-12-04 23:29:48, Info DISM DISM Image Session: PID=7660 TID=9912 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore 2025-12-04 23:29:48, Info DISM DISM OS Provider: PID=7660 TID=9912 Defaulting SystemPath to C:\ - CDISMOSServiceManager::Final_OnConnect 2025-12-04 23:29:48, Info DISM DISM OS Provider: PID=7660 TID=9912 Defaulting Windows folder to C:\Windows - CDISMOSServiceManager::Final_OnConnect 2025-12-04 23:29:48, Info DISM DISM Provider Store: PID=7660 TID=9912 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Info DISM DISM Provider Store: PID=7660 TID=9912 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Info DISM Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log 2025-12-04 23:29:48, Info DISM DISM Manager: PID=7568 TID=7584 Image session successfully loaded from location: C:\WINDOWS\System32\Dism - CDISMManager::CreateImageSession 2025-12-04 23:29:48, Info DISM DISM.EXE: Target image information: OS Version=10.0.26200.7171, Image architecture=amd64 2025-12-04 23:29:48, Info DISM DISM.EXE: Image session version: 10.0.26100.5074 2025-12-04 23:29:48, Info DISM DISM Transmog Provider: PID=7660 TID=9912 Current image session is [ONLINE] - CTransmogManager::GetMode 2025-12-04 23:29:48, Info DISM DISM Transmog Provider: PID=7660 TID=9912 Audit Mode: [No] - CTransmogManager::Initialize 2025-12-04 23:29:48, Info DISM DISM Transmog Provider: PID=7660 TID=9912 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType 2025-12-04 23:29:48, Info DISM DISM Transmog Provider: PID=7660 TID=9912 Product Type: [WinNT] - CTransmogManager::Initialize 2025-12-04 23:29:48, Info DISM DISM Transmog Provider: PID=7660 TID=9912 Product Type ServerNT : [No] - CTransmogManager::Initialize 2025-12-04 23:29:48, Info DISM DISM OS Provider: PID=7660 TID=9912 Determined System directory to be C:\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory 2025-12-04 23:29:48, Info CSI 00000001 Shim considered [l:123]'\??\C:\WINDOWS\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7010_none_a54d8be7772fd084\wcp.dll' : got STATUS_SUCCESS 2025-12-04 23:29:48, Info DISM DISM Driver Manager: PID=7660 TID=9912 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=9912 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=9912 CBS is being initialized for online use. More information about CBS actions can be located at: %windir%\logs\CBS\CBS.log - CDISMPackageManager::Initialize 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=9912 Loaded servicing stack for online use. - CDISMPackageManager::CreateCbsSession 2025-12-04 23:29:48, Info CSI 00000001 Shim considered [l:123]'\??\C:\WINDOWS\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7010_none_a54d8be7772fd084\wcp.dll' : got STATUS_SUCCESS 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=7664 Processing the top level command token(cleanup-image). - CPackageManagerCLIHandler::Private_ValidateCmdLine 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=7664 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=7664 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine 2025-12-04 23:29:48, Info DISM DISM Package Manager: PID=7660 TID=7664 CBS session options=0x100! - CDISMPackageManager::Internal_Finalize 2025-12-04 23:30:05, Info DISM DISM Package Manager: PID=7660 TID=8836 Error in operation: (null) (CBS HRESULT=0x80070002) - CCbsConUIHandler::Error 2025-12-04 23:30:05, Error DISM DISM Package Manager: PID=7660 TID=7664 Failed finalizing changes. - CDISMPackageManager::Internal_Finalize(hr:0x80070002) 2025-12-04 23:30:05, Error DISM DISM Package Manager: PID=7660 TID=7664 Failed processing package changes with session options - CDISMPackageManager::Internal_ProcessChangesWithOptions(hr:0x80070002) 2025-12-04 23:30:05, Error DISM DISM Package Manager: PID=7660 TID=7664 Failed processing package changes with session option CbsSessionOptionDetectStoreCorruption - CDISMPackageManager::ScanHealth(hr:0x80070002) 2025-12-04 23:30:05, Error DISM DISM Package Manager: PID=7660 TID=7664 Failed to restore the image health. - CPackageManagerCLIHandler::ProcessCmdLine_CleanupImage(hr:0x80070002) 2025-12-04 23:30:05, Error DISM DISM Package Manager: PID=7660 TID=7664 Failed while processing command cleanup-image. - CPackageManagerCLIHandler::ExecuteCmdLine(hr:0x80070002) 2025-12-04 23:30:05, Info DISM DISM Package Manager: PID=7660 TID=7664 Further logs for online package and feature related operations can be found at %WINDIR%\logs\CBS\cbs.log - CPackageManagerCLIHandler::ExecuteCmdLine 2025-12-04 23:30:05, Error DISM DISM.EXE: DISM Package Manager processed the command line but failed. HRESULT=80070002 2025-12-04 23:30:05, Info DISM DISM Package Manager: PID=7660 TID=8836 Finalizing CBS core. - CDISMPackageManager::Finalize 2025-12-04 23:30:05, Info DISM DISM Manager: PID=7568 TID=7584 Closing session event handle 0x274 - CDISMManager::CleanupImageSessionEntry 2025-12-04 23:30:05, Info DISM DISM.EXE: Image session has been closed. Reboot required=no. 2025-12-04 23:30:05, Info DISM DISM.EXE: 2025-12-04 23:30:05, Info DISM DISM.EXE: <----- Ending Dism.exe session -----> 2025-12-04 23:30:05, Info DISM DISM.EXE: This log rather looks like a debug log of a software developer. The useful info is in the CBS log: 2025-12-04 23:29:48, Info CBS TI: --- Initializing Trusted Installer --- 2025-12-04 23:29:48, Info CBS TI: Last boot time: 2025-12-04 23:27:43.500 2025-12-04 23:29:48, Info CBS Starting TrustedInstaller initialization. 2025-12-04 23:29:48, Info CBS Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:4 2025-12-04 23:29:48, Info CBS Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:5 2025-12-04 23:29:48, Info CBS Lock: New lock added: WinlogonNotifyLock, level: 8, total lock:6 2025-12-04 23:29:48, Info CBS Ending TrustedInstaller initialization. 2025-12-04 23:29:48, Info CBS Starting the TrustedInstaller main loop. 2025-12-04 23:29:48, Info CBS TrustedInstaller service starts successfully. 2025-12-04 23:29:48, Info CBS No startup processing required, TrustedInstaller service was not set as autostart 2025-12-04 23:29:48, Info CBS Startup processing thread terminated normally 2025-12-04 23:29:48, Info CBS TI: Startup Processing completes, release startup processing lock. 2025-12-04 23:29:48, Info CBS Starting TiWorker initialization. 2025-12-04 23:29:48, Info CBS Lock: New lock added: TiWorkerClassFactory, level: 30, total lock:2 2025-12-04 23:29:48, Info CBS Ending TiWorker initialization. 2025-12-04 23:29:48, Info CBS Starting the TiWorker main loop. 2025-12-04 23:29:48, Info CBS TiWorker starts successfully. 2025-12-04 23:29:48, Info CBS No content found - 'C:\WINDOWS\SystemTemp\CbsTemp._ForDelete' 2025-12-04 23:29:48, Info CBS Priority: Restoring default priority 2025-12-04 23:29:48, Info CBS Lock: New lock added: CCbsWorker, level: 5, total lock:3 2025-12-04 23:29:48, Info CBS Universal Time is: 2025-12-04 22:29:48.894 2025-12-04 23:29:48, Info CBS Loaded Servicing Stack v10.0.26100.7010 with Core: C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7010_none_a54d8be7772fd084\cbscore.dll 2025-12-04 23:29:48, Info CBS Build: 26100.1.amd64fre.ge_release.240331-1435 2025-12-04 23:29:48, Info CBS Current Overlay Status: 0, Velocity configured status: 0 2025-12-04 23:29:48, Info CSI 00000001@2025/12/4:22:29:48.894 WcpInitialize: wcp.dll version 10.0.26100.7010 (WinBuild.160101.0800) 2025-12-04 23:29:48, Info CBS TurboContainer load Successful 2025-12-04 23:29:48, Info CBS Lock: New lock added: CCbsSessionManager, level: 11, total lock:9 2025-12-04 23:29:48, Info CBS Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:10 2025-12-04 23:29:48, Info CBS NonStart: Set pending store consistency check. 2025-12-04 23:29:48, Info CBS Module starts contributing to an existing logging session 2025-12-04 23:29:48, Info SXS TurboStack version 10.0.26100.7010 (WinBuild.160101.0800) loaded from C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7010_none_a54d8be7772fd084 2025-12-04 23:29:48, Info CSI 00000002@2025/12/4:22:29:48.940 WcpInitialize: wcp.dll version 10.0.26100.7010 (WinBuild.160101.0800) 2025-12-04 23:29:48, Info CSI 00000003 Perf: LRU Cache Initialize @0x1534acf02c0; Maximum Size: 1024 MiB; Initial Elements: 10485 2025-12-04 23:29:48, Info SXS Initialized store, arch=amd64, style=Desktop, compact=false, windir=(null), sandbox= 2025-12-04 23:29:48, Info CBS Session: 31221101_2149293092 initialized by client DISM Package Manager Provider 2025-12-04 23:29:48, Info CBS Priority: Setting normal priority with EcoQos 2025-12-04 23:29:48, Info CBS Enabling EcoQos for session threads 2025-12-04 23:29:48, Info CBS Client specifies manual store corruption detect or repair. 2025-12-04 23:29:48, Info CBS Exec: Session processing started. Client: Manual, Session(DISM Package Manager Provider Store Corruption Detect/Repair): 31221101_2149293092 2025-12-04 23:29:48, Info CBS Reboot mark set 2025-12-04 23:29:48, Info CBS Winlogon: Registering for CreateSession notifications 2025-12-04 23:29:48, Info CBS Winlogon: Loading SysNotify DLL 2025-12-04 23:29:48, Info CBS Winlogon: Starting notify server 2025-12-04 23:29:48, Info CBS FLOW: Entering stage: CheckCbs 2025-12-04 23:29:48, Info CSI 00000001 Direct SIL provider: Number of files opened: 1. 2025-12-04 23:29:48, Info CSI 00000002 Direct SIL provider: Number of files opened: 2. ... 2025-12-04 23:30:02, Info CSI 00002bfd Direct SIL provider: Number of files opened: 1. 2025-12-04 23:30:02, Info CSI 00002bfe Direct SIL provider: Number of files opened: 2. 2025-12-04 23:30:03, Info CBS Repr: CBS Store check completes 2025-12-04 23:30:03, Info CSI 00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0x52eb27d540 2025-12-04 23:30:03, Info CSI 00000005 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline' 2025-12-04 23:30:03, Info CSI 00000006 CSI Store 1457261139888 initialized 2025-12-04 23:30:03, Info SXS Loading registry hive C:\WINDOWS\System32\config\Components with flags 0x000008a0 2025-12-04 23:30:03, Info SXS Loading registry hive C:\WINDOWS\System32\SMI\Store\Machine\schema.dat with flags 0x000008ed 2025-12-04 23:30:03, Info SXS Loading registry hive C:\WINDOWS\System32\config\DEFAULT with flags 0x00000000 2025-12-04 23:30:03, Info SXS PERF: Beginning servicing query for session 31221101_2149293092 2025-12-04 23:30:03, Info CSI 00000007 StoreCorruptionRepair transaction begun. WcpVersion: [l:38]'10.0.26100.7010 (WinBuild.160101.0800)'. 2025-12-04 23:30:03, Info CSI 00000008@2025/12/4:22:30:03.298 Starting corruption detection (InnerFlags=2) 2025-12-04 23:30:03, Info CBS FLOW: Entering stage: CheckCsi 2025-12-04 23:30:04, Error CSI 00000009@2025/12/4:22:30:04.936 (F) onecore\base\wcp\sil\ntsystem.cpp(6443): Error STATUS_OBJECT_NAME_NOT_FOUND originated in function Windows::Rtl::SystemImplementation::DirectRegistryProvider::SysOpenKey expression: (null) [gle=0x80004005] 2025-12-04 23:30:04, Info CONX aepic: TRACE,PicRetrieveFileInfo,950,Deprecated flag used: [0x4000] 2025-12-04 23:30:04, Info CONX aepic: TRACE,File::SetBaseFileInfoForPic,600,Retrieved "c:\windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7010_none_a54d8be7772fd084\tiworker.exe" info from cache 2025-12-04 23:30:04, Info CBS Added CBS.log to WER report. 2025-12-04 23:30:04, Info CBS Added Sessions.xml to WER report. 2025-12-04 23:30:04, Info CBS Added FilterList.log to WER report. 2025-12-04 23:30:05, Error CSI 0000000a (F) STATUS_OBJECT_NAME_NOT_FOUND #62221# from Windows::Rtl::SystemImplementation::DirectRegistryProvider::SysOpenKey(flg = 0, key = {provider=NULL, handle=0, name= ("null")}, da = (KEY_READ|KEY_WOW64_64KEY), oa = @0x52eb27ae58->OBJECT_ATTRIBUTES {s:48; rd:0; on:[206]'\Registry\Machine\COMPONENTS\DerivedData\VersionedIndex\10.0.26100.7010 (WinBuild.160101.0800)\ComponentFamilies\amd64_5c15d135c68d0d01de58a71e998b3bc8_b03f5f7f11d50a3a_none_5e273f2e30aff156\v!4.0.15920.100'; a:(OBJ_CASE_INSENSITIVE)[gle=0xd0000034] 2025-12-04 23:30:05, Error CSI }, disp = Invalid)[gle=0xd0000034] 2025-12-04 23:30:05, Error CSI 0000000b (F) STATUS_OBJECT_NAME_NOT_FOUND #62220# from Windows::Rtl::SystemImplementation::CBufferedRegistryProvider::SysOpenKey(flg = 0, key = {provider=NULL, handle=0, name= ("null")}, da = (KEY_ALL_ACCESS), oa = @0x52eb27b4c0->OBJECT_ATTRIBUTES {s:48; rd:0; on:[206]'\Registry\Machine\COMPONENTS\DerivedData\VersionedIndex\10.0.26100.7010 (WinBuild.160101.0800)\ComponentFamilies\amd64_5c15d135c68d0d01de58a71e998b3bc8_b03f5f7f11d50a3a_none_5e273f2e30aff156\v!4.0.15920.100'; a:(OBJ_CASE_INSENSITIVE)}, disp[gle=0xd0000034] 2025-12-04 23:30:05, Error CSI = Invalid)[gle=0xd0000034] 2025-12-04 23:30:05, Error CSI 0000000c (F) STATUS_OBJECT_NAME_NOT_FOUND #62219# from Windows::Rtl::SystemImplementation::CKey::OpenExistingKey(f = 2, da = (KEY_ALL_ACCESS), oa = @0x52eb27b828, key = NULL, disp = (null))[gle=0xd0000034] 2025-12-04 23:30:05, Info CSI 0000000d Direct SIL provider: Number of files opened: 1239. 2025-12-04 23:30:05, Error CSI 0000000e (F) STATUS_OBJECT_NAME_NOT_FOUND #239# from CCSDirect::EnumStoreCorruptions(...)[gle=0xd0000034] 2025-12-04 23:30:05, Error CSI 0000000f (F) HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) #238# from Windows::COM::CStorePendingStoreRepairTxn_IStorePendingStoreRepairTransaction::Detect(Flags = 4, cancelEvt = 7c4 (''), disp = 0)[gle=0x80070002] 2025-12-04 23:30:05, Error CBS Rept: Failed to call CSI detect. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Info CBS Failed to check CSI store. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Info CBS 2025-12-04 23:30:05, Info CBS ================================= 2025-12-04 23:30:05, Info CBS Checking System Update Readiness. 2025-12-04 23:30:05, Info CBS 2025-12-04 23:30:05, Info CBS 2025-12-04 23:30:05, Info CBS Summary: 2025-12-04 23:30:05, Info CBS Operation: Detect only 2025-12-04 23:30:05, Info CBS Operation result: 0x80070002 2025-12-04 23:30:05, Info CBS Last Successful Step: CBS store detection completes. 2025-12-04 23:30:05, Info CBS Total Detected Corruption: 0 2025-12-04 23:30:05, Info CBS CBS Manifest Corruption: 0 2025-12-04 23:30:05, Info CBS CBS Metadata Corruption: 0 2025-12-04 23:30:05, Info CBS CSI Manifest Corruption: 0 2025-12-04 23:30:05, Info CBS CSI Metadata Corruption: 0 2025-12-04 23:30:05, Info CBS CSI Payload Corruption: 0 2025-12-04 23:30:05, Info CBS Total Repaired Corruption: 0 2025-12-04 23:30:05, Info CBS CBS Manifest Repaired: 0 2025-12-04 23:30:05, Info CBS CSI Manifest Repaired: 0 2025-12-04 23:30:05, Info CBS CSI Payload Repaired: 0 2025-12-04 23:30:05, Info CBS CSI Registry Metadata refreshed: False 2025-12-04 23:30:05, Info CBS CSI Store Metadata refreshed: False 2025-12-04 23:30:05, Info CBS Staged Packages: 2025-12-04 23:30:05, Info CBS CBS Staged packages: 0 2025-12-04 23:30:05, Info CBS CBS Staged packages removed: 0 2025-12-04 23:30:05, Info CBS 2025-12-04 23:30:05, Info CBS Total Operation Time: 16 seconds. 2025-12-04 23:30:05, Info CBS Ensure CBS corruption flag is clear 2025-12-04 23:30:05, Info CBS Ensure WCP corruption flag is clear 2025-12-04 23:30:05, Info CBS CheckSur: hrStatus: 0x80070002 [ERROR_FILE_NOT_FOUND], download results: <none> 2025-12-04 23:30:05, Info CBS Count of times corruption detected: 0 2025-12-04 23:30:05, Info CBS Seconds between initial corruption detections: -1 2025-12-04 23:30:05, Info CBS Seconds between corruption and repair: -1 2025-12-04 23:30:05, Info CBS Failed to run Detect and repair. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Info CBS Reboot mark cleared 2025-12-04 23:30:05, Info CBS Winlogon: Simplifying Winlogon CreateSession notifications 2025-12-04 23:30:05, Info CBS Winlogon: Deregistering for CreateSession notifications 2025-12-04 23:30:05, Info CBS Exec: Processing complete, session(Corruption Detecting): 31221101_2149293092 [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Error CBS Session: 31221101_2149293092 failed to perform store corruption detect and repair operation. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Info CBS ================= 2025-12-04 23:30:05, Info CBS Operations recap: 2025-12-04 23:30:05, Info CBS ================= 2025-12-04 23:30:05, Info CBS Session: 31221101_2149293092 2025-12-04 23:30:05, Info CBS Correlation Vector: sI8JSWC+LEW6BJOb.1 2025-12-04 23:30:05, Info CBS ================= 2025-12-04 23:30:05, Info CBS ================= 2025-12-04 23:30:05, Info CBS Total time: 0ms 2025-12-04 23:30:05, Info CBS ================= 2025-12-04 23:30:05, Info CBS Session: 31221101_2149293092 finalized. Reboot required: no [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND] 2025-12-04 23:30:05, Info CSI 00000010 Direct SIL provider: Number of files opened: 4. 2025-12-04 23:30:05, Info CBS Failed to FinalizeEx using worker session [HRESULT = 0x80070002] 2025-12-04 23:30:05, Info CBS Deleting directory: \\?\C:\WINDOWS\CbsTemp\31221101_2149293092\ 2025-12-04 23:30:05, Info CBS Moving directory from \\?\C:\WINDOWS\CbsTemp\31221101_2149293092\ to \\?\C:\WINDOWS\CbsTemp\{40838980-1249-4D26-A9FC-7EA68015A214} 2025-12-04 23:30:05, Info CBS Deletion of: \\?\C:\WINDOWS\CbsTemp\{40838980-1249-4D26-A9FC-7EA68015A214} successful 2025-12-04 23:30:05, Info SXS Removing reference on previously loaded registry hive: \Registry\Machine\COMPONENTS 2025-12-04 23:30:05, Info SXS Removing reference on previously loaded registry hive: \Registry\User\.DEFAULT 2025-12-04 23:30:05, Info SXS Unloading registry hive: \Registry\Machine\SCHEMA 2025-12-04 23:30:05, Info CBS Priority: Restoring default priority The most important line is the first of the consecutive error lines: 2025-12-04 23:30:05, Error CSI 0000000a (F) STATUS_OBJECT_NAME_NOT_FOUND #62221# from Windows::Rtl::SystemImplementation::DirectRegistryProvider::SysOpenKey(flg = 0, key = {provider=NULL, handle=0, name= ("null")}, da = (KEY_READ|KEY_WOW64_64KEY), oa = @0x52eb27ae58->OBJECT_ATTRIBUTES {s:48; rd:0; on:[206]'\Registry\Machine\COMPONENTS\DerivedData\VersionedIndex\10.0.26100.7010 (WinBuild.160101.0800)\ComponentFamilies\amd64_5c15d135c68d0d01de58a71e998b3bc8_b03f5f7f11d50a3a_none_5e273f2e30aff156\v!4.0.15920.100'; a:(OBJ_CASE_INSENSITIVE)[gle=0xd0000034] This line tells that dism failed to open a registry key ( SysOpenKey ) at the path \Registry\Machine\COMPONENTS\DerivedData\VersionedIndex\10.0.26100.7010 (WinBuild.160101.0800)\ComponentFamilies\amd64_5c15d135c68d0d01de58a71e998b3bc8_b03f5f7f11d50a3a_none_5e273f2e30aff156\v!4.0.15920.100 , which is confirmed by the logs from Process Monitor: Unfortunately, there is no path HKLM\Components : This path belongs to a hive that is not loaded be default. It is stored in the file c:\windows\system32\config\components . You need to edit some security settings to access its folder, then you can load it in regedit (running under admin mode): We can now see, that the registry path from the log is indeed missing: An export of the keys above and below show, that their content is equal, only the paths differ. Therefore, I simply took one of the exported reg files, adapted the paths to the base path of the missing reg key: and importet the modified reg file: Afterwards, I was not able to unload the hive: But this could be solved by closing regedit, starting it again and trying again to unload. Now, the failure is gone. And the next failure is found by dism: Microsoft Windows [Version 10.0.26200.7171] (c) Microsoft Corporation. Alle Rechte vorbehalten. C:\Windows\System32>dism /online /cleanup-image /scanhealth Tool zur Imageverwaltung für die Bereitstellung Version: 10.0.26100.5074 Abbildversion: 10.0.26200.7171 [==================== 34.6% ] Fehler: 2 Das System kann die angegebene Datei nicht finden. Die DISM-Protokolldatei befindet sich unter "C:\WINDOWS\Logs\DISM\dism.log". C:\Windows\System32> I continued to fix failures like this for about 20 times. Then I gave up, especially because later on, CBS log reported files with wrong hashes, so I assumed that there must be many more and severe problems, which make it worthless to go on: 2025-12-04 23:58:43, Info CSI 00000017 Hashes for file member [l:11]'usbuhci.sys' do not match. Expected: {l:32 ml:33 b:ddd24bdb39e81886ec17f5d9218cd8d33e06dc34c286599518dfa6126987cb67}. Actual: {l:33 ml:4096 b:d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34}. 2025-12-04 23:58:43, Info CSI 00000018 Warning: Unable to repair payload file ([l:11]'usbuhci.sys') for component ([l:74 ml:140]'amd64_dual_usbport.inf_31bf3856ad364e35_10.0.26100.1_none_1c442d9679c3b090') from backups directory with disposition (2). A backup file may not exist or may be corrupt. Falling back to WU. I finally simply wiped the SSD and did a clean installation of Win 11. But maybe this manual helps others if they are facing just 1 or 2 or a couple of such failures.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931212/dism-online-cleanup-image-aborts-with-error-2-the-system-cannto-find-the-f
+
+---
+
+#### 8268. Windows Update Pause Button Greyed Out in Windows 10 Pro
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-update, updates | Score: 0 | Views: 2144 | Answers: 1 | Created: 2025-12-08
+
+**解决方案 / Solution**:
+Ok, an answer, and you probably won't like it: Windows 11 is essentially already installed. Your solution path involves going forward, and then going back to W10. A couple givens: You NEED to install updates on your computer, unless it is air-gapped and offline. I do NOT mean that you should install and use W11, but Windows 10 needs updates to be secure. Windows 11 is not just waiting to be installed, the process of beginning the installation has already occurred. You aren't at the point of preventing the W11 installation, you're past that. So, the solution: Backup your data. Allow the Windows 11 update to complete. Use the Go back function in Settings > Recovery to go back to Windows 10 within 10 days. Review the current methods for blocking W11 forced-upgrades and apply those. Note: The online sources I've followed note that preventing W11 updates on capable hardware is a moving target, usually with decreasing odds of success.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931205/windows-update-pause-button-greyed-out-in-windows-10-pro
+
+---
+
+#### 8269. Why is HWiNFO reporting some CPU cores are thermal throttling even though the CPU core temperatures according to HWiNFO/CoreTemp is much below TjMAX?
+
+**问题描述 / Problem Description**:
+Tags: windows, monitoring, overheating, cpu-throttling | Score: 0 | Views: 176 | Answers: 1 | Created: 2025-12-07
+
+**解决方案 / Solution**:
+From my understanding, there's no contradiction. The temperature reading and the throttling flag come from the same register (per-core MSR IA32_THERM_STATUS (0x19C)) but represent different things on different timescales: The temperature HWiNFO shows is a snapshot, sampled once per polling interval (default ~2 s). The "Thermal Throttling" flag is read from a sticky log bit that latches any TjMax event that occurred between two polls, even one lasting microseconds. Therefore, a core can briefly spike to TjMax (100 °C), trip the throttle bit, and fall back to 60 °C long before HWiNFO's next temperature sample. As a result, we see "throttling = Yes" next to a cool temperature because the spike that caused it was already over by the time the temperature was read.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931143/why-is-hwinfo-reporting-some-cpu-cores-are-thermal-throttling-even-though-the-cp
+
+---
+
+#### 8270. Extended tab of Services.msc console in Windows 10 is missing Service Name and Description columns
+
+**问题描述 / Problem Description**:
+Tags: windows-10, services, console, windows-services | Score: 0 | Views: 367 | Answers: 1 | Created: 2025-12-06
+
+**解决方案 / Solution**:
+There should be an "Add/Remove Columns" item under the View menu button in the header.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931127/extended-tab-of-services-msc-console-in-windows-10-is-missing-service-name-and-d
+
+---
+
+#### 8271. Windows 10 22H2 is there a way to reinstall update?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-update | Score: 0 | Views: 324 | Answers: 1 | Created: 2025-12-05
+
+**解决方案 / Solution**:
+So i thought to reinstall the update (to be sure it is properly installed) but do not know how to achieve it. I got an update in the MSU file from the Microsoft catalog website. Running MSU gives me an error that the update is already installed. Running MSU with DISM ends at 5%. Is there a way to force MSU to fully reinstall? KB5066791 has been superseded by KB5068781, but the latter has an issue installing on my machine. My recommendation would be to install KB5068781 since it superseded KB5066791. If you uninstalled KB5072653 at some point, you would need to reinstall it, before KB5068781 can be installed since it's a ESU update.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931078/windows-10-22h2-is-there-a-way-to-reinstall-update
+
+---
+
+#### 8272. I moved my users directory to another drive, now all my OneDrive files are empty
+
+**问题描述 / Problem Description**:
+Tags: windows-10, microsoft-onedrive | Score: 0 | Views: 211 | Answers: 1 | Created: 2025-12-04
+
+**解决方案 / Solution**:
+As far as OneDrive knows, you deleted all those files when you moved them on your local computer. Deleting the files locally tells OneDrive to begin deleting them in the cloud storage. You should look through the OneDrive Recycle Bin, but, what you really need to do is use the correct method for your system and needs to free up space. Compounding this issue is that we do not know which of the files were stored locally and which were just stubs pointing to the actual files in the cloud. Those files that were only stubs locally need to be restored from the OneDrive Recycle Bin, because that's the only place they may exist right now. First , BACKUP ALL THE DATA YOU'RE MOVING. Second , go through the OneDrive Recycle Bin on the OneDrive website and restore all the files there to their original locations. Third , move everything back to its original location and let OneDrive re-sync to get good copies of everything safely stored away in OneDrive. Fourth , make sure everything has good copies, that sync errors have been resolved, etc. Fifth , MAKE ANOTHER BACKUP NOW THAT YOU'VE GOT ALL THE DATA. This may involve downloading a lot, but you need to do this or you risk losing more data. Finally , choose the right method to free up space based on your specific needs and requirements: Keep most of your files on the OneDrive servers: OneDrive can keep most files out in the cloud and leave only those stubs locally. These don't take up much space, but you need an internet connection to download them when you want to access them. Right click on files or folders and make the appropriate selections based on your needs. Move the files on your computer in a way that OneDrive recognizes so that it will sync the files to/from the right place on your computer. Here's a couple guides on how to do this: In Windows 10, change location of both OneDrive and Documents folder to another hard drive and How do I move my OneDrive from C:\ to D:\?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931025/i-moved-my-users-directory-to-another-drive-now-all-my-onedrive-files-are-empty
+
+---
+
+#### 8273. Why does Windows copy first file fast (sometimes) but then craters (200MB/s -> 1MB/s)?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, file-sharing, robocopy | Score: 0 | Views: 114 | Answers: 1 | Created: 2025-12-03
+
+**解决方案 / Solution**:
+any ideas! The first file being fast might just be filling a write buffer in RAM? I wonder if the slow IO to the disk might be a faulty USB cable? This could be identified by trying a different cable, then a different USB3 port, then a different host PC.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1931002/why-does-windows-copy-first-file-fast-sometimes-but-then-craters-200mb-s-1
+
+---
+
+#### 8274. OBS Window Capture only captures mouse cursor when window is focused
+
+**问题描述 / Problem Description**:
+Tags: windows-11, mouse-cursor, obs-studio | Score: 0 | Views: 402 | Answers: 1 | Created: 2025-12-03
+
+**解决方案 / Solution**:
+How do I make my mouse cursor appear when capturing a window in OBS, even if that window is not focused? The simpliest way is to just use Display Capture source instead of Window Capture. Of course it won't work for all flows, e.g. if you want to hide something in the background, but that's what its purpose is - to provide full multi-window experience. Alternatively, you could try focusing the app permamently, with e.g. help of apps like Always on Top . Not sure if and how well this will work, though.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930998/obs-window-capture-only-captures-mouse-cursor-when-window-is-focused
+
+---
+
+#### 8275. Why are Windows Powershell repair scripts failing under Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, powershell | Score: 0 | Views: 206 | Answers: 1 | Created: 2025-12-02
+
+**解决方案 / Solution**:
+Can anyone tell me why this failed, given that similar syntax can be found in several websites, and what I might do to fix it? You are running Windows 10. Reset-AppxPackage doesn’t exist on Windows 10. I would suggest upgrading to Windows 11, but the process of upgrading to Windows 11, would likely end up solving the problem itself before you could even run Reset—AppxPackage
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930950/why-are-windows-powershell-repair-scripts-failing-under-windows-10
+
+---
+
+#### 8276. What AI services and data collection can I effectively remove from Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, privacy, artificial-intelligence | Score: 0 | Views: 264 | Answers: 2 | Created: 2025-12-02
+
+**解决方案 / Solution**:
+Easiest, fastest and most complete way to reduce intrusions into privacy, egregious advertising and some AI "features" in Windows is with one of the many third-party utilities that put all the settings in one place. O&O ShutUp10 is an effective tool, an there are numerous similar tools and alternatives . N.B.: Before installing any software, check it at VirusTotal .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930919/what-ai-services-and-data-collection-can-i-effectively-remove-from-windows-11
+
+---
+
+#### 8277. Why does my laptop keyboard stop working shortly after boot?
+
+**问题描述 / Problem Description**:
+Tags: windows, laptop, keyboard, installation, hardware-failure | Score: 0 | Views: 121 | Answers: 1 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+The easy way to test if the operating system (OS) is at fault is to make a boot device, such as a USB drive, with an alternate OS. Two suggestions: Hiren’s BootCD PE uses Windows 11 Preinstallation Environment to make a number of utilities available. If the keyboard functions under WinPE, then you know at least Windows 11 is compatible. Ubuntu on a bootable USB device can be used to test if Linux works with that keyboard. If neither work with that keyboard, there's likely a hardware issue. Otherwise, reinstall the OS.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930884/why-does-my-laptop-keyboard-stop-working-shortly-after-boot
+
+---
+
+#### 8278. How do I stop "Zmbie" synced Chrome bookmarks re-appearing?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, android, bookmarks | Score: 0 | Views: 211 | Answers: 1 | Created: 2025-11-30
+
+**解决方案 / Solution**:
+Thanks to @DrMoishe Pippik’s comment , I have found the cause. iCloud Bookmark Sync was enabled. I need to have iCloud on the machine, but I don’t need to sync bookmarks with any Apple device. So I have removed the extension from both Chrome and Edge (since they were both exhibiting these Zombie Bookmarks. Bookmark synchronization appears to be back to normal. If this is not the case, I’ll report back.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930852/how-do-i-stop-zmbie-synced-chrome-bookmarks-re-appearing
+
+---
+
+#### 8279. Can't connect bluetooth devices to VoiceMeeter (Failed to Open Main Output Device | 0x88890008)
+
+**问题描述 / Problem Description**:
+Tags: audio, windows-11, bluetooth, voicemeeter | Score: 0 | Views: 752 | Answers: 1 | Created: 2025-11-29
+
+**解决方案 / Solution**:
+First thing to to is to try to select your BT device with MME interface (instead of WDM). If still not working, check your device is not already in use by an application (selected as playback device , also in Windows Audio Settings). If still not working, check your device is listed in Windows Sound device list and can be tested functional.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930826/cant-connect-bluetooth-devices-to-voicemeeter-failed-to-open-main-output-devic
+
+---
+
+#### 8280. My window 10 office 2019 has started to display very small
+
+**问题描述 / Problem Description**:
+Tags: windows-10, microsoft-office, display-settings | Score: 0 | Views: 148 | Answers: 1 | Created: 2025-11-27
+
+**解决方案 / Solution**:
+While in an MS Office application, press and hold Ctrl while scrolling the mouse wheel. This likely will adjust scaling (zoom) of the document being edited, and it might or might not adjust icon size. To change the size of all menus and captions: Press Windows and type acces . Select Ease of Access Center . Select Change the size of text and icons . Adjust as needed. The Anchorage also has suggestions to change ribbon and menu icon size.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930750/my-window-10-office-2019-has-started-to-display-very-small
+
+---
+
+#### 8281. How to auto-skip already unzipped files with Windows Powershell
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, zip | Score: 0 | Views: 113 | Answers: 1 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+Since you're using 7-Zip, you can use its -aos option for that, which lets you skip existing files/folders: 'C:\Program Files\7-Zip\7z.exe' x *.zip -o* -aos
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930672/how-to-auto-skip-already-unzipped-files-with-windows-powershell
+
+---
+
+#### 8282. Recording of a cloud-hosted Windows 11 Pro screen with OBS
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, vps, recording, obs-studio | Score: 0 | Views: 191 | Answers: 2 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+As @Darius states, OBS is recording the screen and audio from your PC, not by streaming from the web. If the remote PC has a web interface, e.g., broadcasting by UDP, use a tool such as VLC or an alternative to record the stream . If not , then dedicate a PC to stay connected by RDP and use OBS, VLC or other tool to record that dedicated PC's screen and audio.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930563/recording-of-a-cloud-hosted-windows-11-pro-screen-with-obs
+
+---
+
+#### 8283. Windows won't boot off internal drives but boots fine off external drives
+
+**问题描述 / Problem Description**:
+Tags: windows-10, hard-drive, boot | Score: 0 | Views: 181 | Answers: 2 | Created: 2025-11-23
+
+**解决方案 / Solution**:
+My best guess is that when you disconnected the battery, the BIOS settings might have reset, and now it's not properly recognizing the internal SATA controller for booting. I'd double-check the SATA operation mode in your BIOS (like AHCI vs. RAID) and make sure all the internal drive connections are snug.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930554/windows-wont-boot-off-internal-drives-but-boots-fine-off-external-drives
+
+---
+
+#### 8284. Can I log in with a Microsoft account on a separate Windows user different from my main to get Windows 10 ESU without having to login every 60 days?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-update, microsoft-account, esu | Score: 0 | Views: 175 | Answers: 1 | Created: 2025-11-18
+
+**解决方案 / Solution**:
+As far as is currently known (but Microsoft may change this later) after ESU is activated it will remain active, regardless of which user-account you use on that machine after ESU has been activated. The 60 day re-activation period doesn't appear to exist. The account that activates ESU has to be linked to a Microsoft account and has to be a local Administrator. You can remove the admin-rights from the account and even disable the account on that PC after ESU has been activated. (Don't forget to reboot the machine before messing with the account. ESU apparently updates some things during the 1st reboot after activation.) However: DO NOT remove the ESU account from the PC. It has to remain (even if it is disabled) You can activate up to 10 computers for ESU on a single Microsoft account. Source: German and Dutch Computer magazine C't that published an extensive article about this in the November 2025 issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930335/can-i-log-in-with-a-microsoft-account-on-a-separate-windows-user-different-from
+
+---
+
+#### 8285. I changed a disk partition, but some program paths weren't modified automatically. How can I update them?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, path | Score: 0 | Views: 111 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+Its a little untested but use SUBST to mount A: as E: - SUBST E: A:\ This won't break existing applications that work on E: but will simulate the old mountpoints - this will only work until you reboot , so is lower risk than re-renaming the folder try uninstalling and reinstalling said apps.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930142/i-changed-a-disk-partition-but-some-program-paths-werent-modified-automaticall
+
+---
+
+#### 8286. Where is my OneDrive folder on my Windows 11 partition?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, fedora, microsoft-onedrive, home-folder | Score: 0 | Views: 581 | Answers: 1 | Created: 2025-11-14
+
+**解决方案 / Solution**:
+This is a limitation of the ntfs-3g driver in Linux. It cannot read the OneDrive folder because of OneDrive's files-on-demand feature. There is a project ntfs3g-onedrive that purports the ability to access the OneDrive directory, but I have not gotten this to work on Fedora.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930139/where-is-my-onedrive-folder-on-my-windows-11-partition
+
+---
+
+#### 8287. Why Does Task Manager Keep Opening on Windows 11 Start Up?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, task-manager | Score: 0 | Views: 431 | Answers: 1 | Created: 2025-11-13
+
+**解决方案 / Solution**:
+This issue has been resolved. The fix was a computer update that I forgot to apply and install.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1930137/why-does-task-manager-keep-opening-on-windows-11-start-up
+
+---
+
+#### 8288. Intermittent File Explorer search on Windows 11 Pro for Windows 10 Home network share
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-explorer, windows-11, network-shares | Score: 0 | Views: 1058 | Answers: 1 | Created: 2025-11-10
+
+**解决方案 / Solution**:
+Answer / Fix: In my case, the issue was resolved after installing the KB5070311 update on my Windows 11 machine. After the update, File Explorer search on SMB shares started working consistently again. According to the patch notes, this update fixes a bug that caused File Explorer search problems with certain SMB shares, and also addresses an LSASS stability issue caused by an access violation. Source: Windows 11 KB5070311 update fixes File Explorer freezes, search issues I didn’t have to change anything manually — the update was installed automatically. If anyone else is seeing unreliable or completely broken search on network shares, check whether KB5070311 is installed. It appears to fix the problem. Note : KB5070311 appears to be offered only on Windows 11 25H2. My affected system running Windows 11 Pro 24H2 (OS build 26100.7171, Feature Experience Pack 1000.26100.265.0) did not receive this update. After updating to Windows 11 Pro 25H2 (OS build 26200.7309, Feature Experience Pack 1000.26100.275.0) , KB5070311 became available, and the File Explorer search issue was fully resolved.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929958/intermittent-file-explorer-search-on-windows-11-pro-for-windows-10-home-network
+
+---
+
+#### 8289. Windows 10 to Windows 11 in-place upgrade fails with error 0xC1900101 - 0x20017
+
+**问题描述 / Problem Description**:
+Tags: windows-10, partitioning, uefi, mbr, windows-11-upgrade | Score: 0 | Views: 798 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+Does the in-place upgrade only work on a GPT disk? The in-place upgrade can also work on a MBR disk, where Windows 10 is legacy BIOS booting. This requires that the Windows 11 installation media be created by using Rufus. Here, Rufus substitutes the setup.exe file on the Windows 11 ISO with its own modified setup.exe file. If successful, the result will be a BIOS booting Windows 11. Success does depend on the hardware. How do I quickly determine which type of partitioning my system was set up with? Windows is usually installed on disk 0. You can enter the following command in a Administrator Command Prompt window to determine if this disk is GPT or MBR partitioned. echo list disk | diskpart If there is a * in the Gpt column, them the disk is using GPT, otherwise MBR is in use. If more than on disk appears, you can using the Disk Management application to determine which disk has the boot volume. Is it possible to in-place convert the partition table? Generally, the mbr2gpt command is used to do the conversion. There are configurations where the mbr2gpt command cannot be used. In such cases, the conversion can be accomplished by using a combination of commands. One third party command which can be useful is GPT fdisk . This command must be used with a combination of other command included with Windows 10. When writing out the new GPT to the disk, Windows will continue to use the old MBR table until you reboot. Before rebooting you will need to install the UEFI boot files. Making a mistake can cause your computer to not boot.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929923/windows-10-to-windows-11-in-place-upgrade-fails-with-error-0xc1900101-0x20017
+
+---
+
+#### 8290. Disk manager fails to format partition after creation
+
+**问题描述 / Problem Description**:
+Tags: partitioning, windows-11, formatting, disk-management | Score: 0 | Views: 176 | Answers: 1 | Created: 2025-11-06
+
+**解决方案 / Solution**:
+A KI told me that it is due to the implementation of usbstor.sys. The initialisation with GPT seems to be incomplete because the required efi partition is missing. This applies to removable USB drives only. One workaround to create a gpt partitioned USB drive is to run format command again using disk manager. This does not help if one wants do write a diskpart script. However, it works if the USB drive is prepared with MBR partition before it gets converted to GPT. This all is not really satisfying but it is something to start with.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929813/disk-manager-fails-to-format-partition-after-creation
+
+---
+
+#### 8291. How to remove languages from the language bar?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, keyboard-layout, language | Score: 0 | Views: 165 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+The InputMethodTips doesnt take a string like en-CA it takes a <LOCALEID>:<KEYBOARDHANDLE> (not sure what the actual name of it is) This should give you what you want. $list = New-WinUserLanguageList -Language 'en-CA' ForEach ($item in $list) { $item.InputMethodTips.Clear() # English (Canada) - US Keyboard $item.InputMethodTips.Add("1009:00000409") # English (Canada) - Canadian French Keyboard # $item.InputMethodTips.Add("1009:00000109") # French (Canada) - Canadian French Keyboard $item.InputMethodTips.Add("0C0C:00001009") # French (Canada) - US Keyboard # $item.InputMethodTips.Add("0C0C:00004009") } Set-WinUserLanguageList -LanguageList $list -Force Assuming you only have one physical keyboard, US or Canadian French , you can adjust the commented out options to match that keyboard.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929786/how-to-remove-languages-from-the-language-bar
+
+---
+
+#### 8292. How to install AMD Radeon video drivers without any bloatware (Adrenaline, AMD Install Manager)?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, drivers, amd-radeon, display-driver | Score: 0 | Views: 3085 | Answers: 1 | Created: 2025-11-04
+
+**解决方案 / Solution**:
+Thank-you for documenting your steps. I tried your step 3 & it appears to have just installed the graphics drivers, as there is no 'AMD Install Manager' listed under the Start menu or in Add/ Remove programs. To be precise, I did the following: 1.Ran the standard install (there's no custom option) up to the point of telling me to reboot Before rebooting copied the c:\AMD\Drivers folder to my Desktop (folder path may not be exact) Rebooted Uninstalled the AMD software & rebooted again Installed the video driver by going into Device Manager\Display Adapters & selected update driver on the Basic driver. Then I selected the install from folder option & pointed it to the Desktop\Drivers folder. Pointing it at the root Drivers folder lets Windows select the inf file and it appears to have installed the AMD Radeon Graphics driver only, as it should. As a final step, I deleted the Drivers folder off my Desktop & rebooted.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929731/how-to-install-amd-radeon-video-drivers-without-any-bloatware-adrenaline-amd-i
+
+---
+
+#### 8293. How to capture or log window openings?
+
+**问题描述 / Problem Description**:
+Tags: windows-10 | Score: 0 | Views: 60 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+Though answered elsewhere, here is a summary of ways to find out what processes are running, one of which pops open a window: Check all running processes in Task Manager or Process Explorer. Check all processes that might be *starting to run in Autoruns. Also, the process of elimination is quite fast if you use a binary search pattern. It can pick a single process out of 1,024 with only ten tests: Stop half the processes. If the mysterious window no longer pops up, it's in that list; if it still occurs, it's in the other half. Now that you know the list of the half it's in, stop only half the processes in that half, leaving 3/4 running. Repeat as needed.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929635/how-to-capture-or-log-window-openings
+
+---
+
+#### 8294. Teams application is constantly trying to update an does not start
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, office365, microsoft-teams | Score: 0 | Views: 148 | Answers: 1 | Created: 2025-10-30
+
+**解决方案 / Solution**:
+Workaround: Deinstall all instances of Teams, reinstall, and you should be good to go.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929520/teams-application-is-constantly-trying-to-update-an-does-not-start
+
+---
+
+#### 8295. Windows 10 refuses to recreate Recycle Bin after deletetion
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, recycle-bin | Score: 0 | Views: 124 | Answers: 1 | Created: 2025-10-30
+
+**解决方案 / Solution**:
+Turns out, when I deleted a file as an admin, Windows recreated the Recycle Bin directory and resumed normal recycling for my regular account as well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929495/windows-10-refuses-to-recreate-recycle-bin-after-deletetion
+
+---
+
+#### 8296. Why is there missing text in Explorer context menu buttons on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, windows-11-25h2 | Score: 0 | Views: 391 | Answers: 1 | Created: 2025-10-29
+
+**解决方案 / Solution**:
+Check that you did not change the default System fonts . Some fonts might not fit properly. Check display scaling . Set it to 100% to test If Windows doesn't handle scaling correctly on your system. Use SFC and DISM to have Windows check on missing and corrupt files. Download the Windows 11 ISO, following directions to Create Windows 11 Installation Media , and then reinstall Windows, keeping files. If those don't resolve the issue, your profile might be corrupt, and you'll need to create a new profile .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1929462/why-is-there-missing-text-in-explorer-context-menu-buttons-on-windows-11
+
+---
+
+#### 8297. Can't enable Hyper v switch, no idea why or how to fix
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-subsystem-for-linux, hyper-v, switch | Score: 0 | Views: 573 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+Did you check the error log (Event Viewer) for errors? Try to restart Hyper-V Components via the command line: bcdedit /set hypervisorlaunchtype off Restart bcdedit /set hypervisorlaunchtype auto Restart Try adding the switch again If that does not work, try to reset all Hyper-V components , also check the other answers. If both fail, go low level: temp. install a fresh second Windows on your system, and see if the error is still there. If it is, verify the BIOS/UEFI settings. If the temp. system works. If the temp. Windows works, we'll have to expand the answer once you get to that point (check for conflicting software etc.). Also please update your system do repairs ( DISM /Online /Cleanup-Image /RestoreHealth and sfc /scannow )
+
+**参考链接 / References**:
+- https://superuser.com/questions/1927010/cant-enable-hyper-v-switch-no-idea-why-or-how-to-fix
+
+---
+
+#### 8298. Windows 10 Home does not boot anymore - block with EOL?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, bios, ventoy | Score: 0 | Views: 125 | Answers: 1 | Created: 2025-10-17
+
+**解决方案 / Solution**:
+The most likely cause is bad SSD or HDD drive. Since you can get to BIOS, then try booting from USB, which would allow you to check the machine's internal drive. If the drive can be fixed (e.g., using CHKDSK ), then continue using Windows 10, if you wish . However, as of 14 October 2025, there will be no more updates to Windows 10, unless you subscribe to Extended Security Updates . You might consider switching to another OS, e.g., Windows 11 or Linux, that is supported. Here are some tools you might use to check the drive, salvage data, attempt repairs and/or install a new OS. Try a version of Linux operating system, such as Ubuntu , which has drive tools (e.g., Disks ), and also allows you to try the Linux OS from the USB drive or install it to the internal drive. Use a Windows PE/RE-based toolbox such as Hiren’s BootCD PE or an alternative . These tools might help salvage data and repair the drive, but do not offer a long-term fix for Windows 10 EOL.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1926843/windows-10-home-does-not-boot-anymore-block-with-eol
+
+---
+
+#### 8299. Why is the alarm sound option “none” missing in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, alarm-clock | Score: 0 | Views: 107 | Answers: 1 | Created: 2025-10-01
+
+**解决方案 / Solution**:
+Easiest is to select the shortest, softest alarm. Or just make an empty .wav file, and use that. It's quite easy, because .wav sound files have no header. On the desktop, create a new text document. While the file name is editable, press Ctrl A to select all, then change it to something like nothin.wav . Ignore the warning about changing the file extension. Move the file to where other system sounds are stored, e.g., C:\Windows\Media . Now select that dummy file for that event , and no sound will play.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925939/why-is-the-alarm-sound-option-none-missing-in-windows-10
+
+---
+
+#### 8300. Clonezilla prompted me for bitlocker key when backing up a drive recently. Now it doesn't and clones bitlocked drive RAW. Why?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ntfs, bitlocker, clonezilla | Score: 0 | Views: 1455 | Answers: 1 | Created: 2025-09-24
+
+**解决方案 / Solution**:
+I was the one who wrote the bitlocker detection code for Clonezilla. Although it has been merged to the clonezilla, as of now, it is still only available on the testing and alternative testing version of it. So I would guess you have downloaded the stable version instead. Just download it again: https://clonezilla.org/downloads.php
+
+**参考链接 / References**:
+- https://superuser.com/questions/1925399/clonezilla-prompted-me-for-bitlocker-key-when-backing-up-a-drive-recently-now-i
+
+---
+
+#### 8301. Removed 2.5" SSD from Win10 system and have it connected to a new Win11 system via USB-C, can't find Word docs/pictures
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ssd, windows-11 | Score: 0 | Views: 220 | Answers: 1 | Created: 2025-09-15
+
+**解决方案 / Solution**:
+In most cases, they should be in F:/users/username/ - there's a few things that seem a little fishy here, so it might be worth going step by step is your old drive actually mounted and with a drive letter Best place to check for this is in the disk management tool - aka "create and format hard drives" You should see two disks, and ensure your old disk's main/largest partition has a drive letter Vaguely something like this Once that's confirmed - modern windows uses junctions to create virtual directories "dir /ad" in command prompt (not powershell) will show you the real locations. No idea if it'll work on an offline disk - so I checked and am listing what's of interest The 'proper' directory for this is C:\Users\username - the following directions are junctions so you'd need to look elsewhere - credit to this other post for the instructions . Everything else should be in your user folder. Application Data [F:\Users\username\AppData\Roaming] Cookies [F:\Users\username\AppData\Local\Microsoft\Windows\INetCookies] Local Settings [F:\Users\username\AppData\Local] My Documents [F:\Users\username\Documents] NetHood [F:\Users\username\AppData\Roaming\Microsoft\Windows\Network Shortcuts] PrintHood [F:\Users\username\AppData\Roaming\Microsoft\Windows\Printer Shortcuts] Recent [F:\Users\username\AppData\Roaming\Microsoft\Windows\Recent] SendTo [F:\Users\username\AppData\Roaming\Microsoft\Windows\SendTo] Start Menu [F:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu] Templates [F:\Users\username\AppData\Roaming\Microsoft\Windows\Templates] Assuming default locations that's where to look.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924671/removed-2-5-ssd-from-win10-system-and-have-it-connected-to-a-new-win11-system-v
+
+---
+
+#### 8302. How to set the sensitivity of Dell mouse wheel?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, wireless-mouse, mouse-wheel | Score: 0 | Views: 253 | Answers: 2 | Created: 2025-09-11
+
+**解决方案 / Solution**:
+Because this is an inexpensive mouse, the problem may be physical. Cheap mice use cheap mechanisms and sensors inside to record the actions and send signals. It is possible that the mechanism recording the wheel movement is simply unable to accurately count each movement of the wheel when the wheel is spun too quickly. How do I tell? You'll be able to tell this is the case if the software solutions others suggest do not change anything. You could also use a Mouse Wheel Scroll Counter and observe the results when you roll the wheel at differing speeds. Here's a website that does this in a graphical form: https://scrollwheeltest.com/ Can I fix it? This is not something easily resolved. It is possible, with patience and skill and access to parts, to disassemble the mouse and install a better sensor that works with the other components in the mouse, but it is probably cheaper to buy a better mouse, or to recognize this mouse has physical limits.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1924237/how-to-set-the-sensitivity-of-dell-mouse-wheel
+
+---
+
+#### 8303. Why am I no longer seeing the volume name for disk in a DVD-RW drive?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-explorer, dvd | Score: 0 | Views: 170 | Answers: 1 | Created: 2025-09-04
+
+**解决方案 / Solution**:
+What kind of disc are you putting in? Is it a mainstream DVD (like a movie bought off the shelf) or a home movie? What kind of use case are you wanting the volume name for? If it is a mainstream DVD it most likely would've been "locked" by the manufacturer to stop people from using it for their own use.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1923451/why-am-i-no-longer-seeing-the-volume-name-for-disk-in-a-dvd-rw-drive
+
+---
+
+#### 8304. How to reduce number of dump files for Windows executables?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, minidumps | Score: 0 | Views: 336 | Answers: 1 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+After putting up with that issue for some years, I've found there are Windows Error Reporting (WER) entries in the Registry to control the size and number dumps from an application: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps Three values ameliorate the issue for any application using the Windows API to create them: DumpCount : REG_DWORD, maximum number. The default is 10. When exceeded, the oldest dump file is replaced by newest. DumpType : REG_DWORD, enum {Custom dump, Minidump, Full dump} LoggingDisabled : REG_DWORD, enum {Enabled, Disabled} After creating a new key, audiodg.exe , I added values for DumpCount of 1 (limiting it to a single dump file). and DumpType of 1 , i.e., minidump. After doing so, I found only one dump file exists at a time, each being overwritten by subsequent dumps. However, the file was still 6.1 MB, implying either that the developers consider that a "minidump". or the application does not respect that value. Then I added LoggingDisabled , set to 1 , but that value was not respected by audiodg.exe . which still creates an occasional dump file -- but at least it's only a single file. Hopefully, this will help others where an app creates too many, or too large, dump files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1918931/how-to-reduce-number-of-dump-files-for-windows-executables
+
+---
+
+#### 8305. Can an infected PC automatically install a virus on a USB flash drive that plug in to it and have a file activate upon plugging it to another PC?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, security, windows-11, virus | Score: 0 | Views: 708 | Answers: 1 | Created: 2025-08-05
+
+**解决方案 / Solution**:
+Yes. It is a known behavior of many viruses, especially when flashdisk was the primary mean to transfer files back then. autorun.inf was usually used to tell Windows to run something when a disc is inserted (CD, DVD, flashdisk). This 'autoplay' feature can be used to run script or virus silently when it is plugged into your computer. Thankfully, Windows has disabled this feature by default - it will ask you what you want to do instead of running the program. If your PC is infected with this kind of virus, it will install virus on any flashdisk inserted . If you insert it into another computer, usually it will be safe (because it won't autorun). The antivirus/Windows Defender will scan any new disk and any program run in your computer and prevent them from being executed. Disclaimer: some people disable antivirus/Windows Defender. You will still relatively be safe as long as you don't run the autorun program/script. If you decide to run it while the protection is disabled, then the virus will infect your computer too.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1915612/can-an-infected-pc-automatically-install-a-virus-on-a-usb-flash-drive-that-plug
+
+---
+
+#### 8306. Why do some of File Explorer's file type associations stop working after ten minutes?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, file-association | Score: 0 | Views: 130 | Answers: 1 | Created: 2025-08-04
+
+**解决方案 / Solution**:
+Do you have a Microsoft account? It might be syncing those file associations. Test by restarting and immediately disconnecting from network and internet after logging in. Look for hidden , background processes. Use Autoruns to look for unusual processes. Check Task Manager - Details , to see what processes are running. Try repairing Windows with SFC and DISM. Create a new Windows user, and see if that user has the same issues. If not, then your Windows User Profile might be damaged.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1915328/why-do-some-of-file-explorers-file-type-associations-stop-working-after-ten-min
+
+---
+
+#### 8307. 0xc000014c \Windows\system32\config\system
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-registry, windows-installation | Score: 0 | Views: 1385 | Answers: 1 | Created: 2025-08-04
+
+**解决方案 / Solution**:
+Per this article: https://www.thewindowsclub.com/0xc000014c-bcd-error If System Restore doesn't work, create a bootable Windows USB drive and boot your computer to it. When prompted, click Repair your computer . Click Troubleshoot > Advanced Options > Command Prompt , then enter these commands, allowing each to complete before proceeding to the next: bootrec /FixMbr bootrec /FixBoot bootrec /ScanOS bootrec /RebuildBcd Reboot and see if this fixes the issue. You note you've already tried the other things suggested in that article, and I would suggest that if that is indeed the case and the above does not resolve this for you, you should proceed with testing your storage drive for health, backup your data, and complete a full reinstall of your OS if the drives report they are healthy.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1915325/0xc000014c-windows-system32-config-system
+
+---
+
+#### 8308. Why do my keyboard Ctrl and Shift keys randomly fail?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, keyboard, keystrokes | Score: 0 | Views: 458 | Answers: 1 | Created: 2025-08-02
+
+**解决方案 / Solution**:
+Here's what has worked for me: Note: When trying to fix this with AI, you might be advised to edit registry data. This is usually bad advice. In the Sticky Keys settings page within your Windows Settings: Toggle the “Keyboard shortcut for Sticky Keys” option - enable it, then disable it again (leave it disabled) Turn off “Lock shortcut keys when pressed twice in a row” toggle This should resolve the issue, but if the problem persists, check if any running software is intercepting those key combinations, or consider that the keyboard itself might be faulty
+
+**参考链接 / References**:
+- https://superuser.com/questions/1914689/why-do-my-keyboard-ctrl-and-shift-keys-randomly-fail
+
+---
+
+#### 8309. Shrink data partition and enlarge system partition in front
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, partitioning | Score: 0 | Views: 180 | Answers: 2 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+Without knowing drive layout (a screenshot would help), there is no definitive answer. However, if D: is immediately after C:, then Back up everything in D: to another drive. Remove partition for D, making it unallocated, free, space. Expand C: partition into some of that space. Format the remainder of free space NTFS and assign letter D:. Restore saved data to D:.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1911338/shrink-data-partition-and-enlarge-system-partition-in-front
+
+---
+
+#### 8310. In Visual Studio Code, how to add a new repo?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, git, visual-studio-code | Score: 0 | Views: 1509 | Answers: 1 | Created: 2025-06-27
+
+**解决方案 / Solution**:
+Found the way. It is necessary to switch to the Terminal shell, go to the git parent directory, clone the remote git repo, then add the new repo folder to VSC via File -> Add Folder To Workspace. It is not possible to do so via the Source Control interface.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907180/in-visual-studio-code-how-to-add-a-new-repo
+
+---
+
+#### 8311. Difference between DirectX 11 and 12?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, gaming, directx | Score: 0 | Views: 314 | Answers: 1 | Created: 2025-06-21
+
+**解决方案 / Solution**:
+DirectX is a framework similar to .Net, but aimed at supporting games. It is a layer between the game and graphics, providing commands to make drawing 2D and 3D graphics and doing certain tasks easier. Each iteration of DirectX support a subset of instructions that graphics cards can use to draw graphics. With each newer version of DirectX, the platform gains the ability to do more complex stuff making the graphics look better, but with the caveat that it also requires a faster graphics card, as it is slower to perform certain tasks due to how complex the calculations become. There's no simple A to B comparison because they are too different. If your system is powerful enough, the higher version is what you want. If not, choose the lower version. Also, some versions of Windows will only support one or two versions of DirectX. For example, Windows XP supported DirectX 9, but if you compare DirectX 9 graphics to 10, 9 looks outdated.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1906066/difference-between-directx-11-and-12
+
+---
+
+#### 8312. When I play Fortnite, sometimes the whole PC freezes during gameplay?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, freeze, gaming | Score: 0 | Views: 2130 | Answers: 3 | Created: 2025-06-21
+
+**解决方案 / Solution**:
+After trying various solutions I found online and nothing helped, and strangely enough the problem only occurred with Fortnite, I had given up and thought, okay, that's just how it is, and didn't start the game on the device anymore. After we installed a new graphics card in the PC yesterday and everything ran flawlessly, I completely disassembled the GTX 1070 to clean it. Here I discovered that the thermal paste on the chip was really minimal and a joke. After cleaning and replacing the thermal paste and the thermal pads, the card now runs flawlessly. I tried the benchmark tool FurMark and ran the card at over 80°C, and also tried Fortnite on various settings, and everything runs okay. I should have done this much earlier but didn't think of it because the other games ran without any problems. That's still strange to me, why it didn't happen with the other games.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1906065/when-i-play-fortnite-sometimes-the-whole-pc-freezes-during-gameplay
+
+---
+
+#### 8313. Which RAM DIMM / slot is better? Compatible with a Gigabyte GA-B250M-D3H (1.0)?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, memory | Score: 0 | Views: 134 | Answers: 1 | Created: 2025-06-17
+
+**解决方案 / Solution**:
+Just one RAM stick? I don't expect it will really matter, as long as it works. You could try looking on the motherboard to see if the RAM slots are numbered, and aim for the lowest-numbered slot (probably zero). Otherwise, use whatever RAM slot is closest to the CPU. However, I would anticipate any speed difference to be excessively neglible. What will matter more is when you get more than one RAM stick, and you consider things like: making sure the RAM sticks match details pretty precisely Choosing a second slot. Some motherboards may prefer that if you have just two RAM sticks, you may benefit from using just the even-numbered RAM slots or just odd-numbered RAM slots, to benefit from a design that can utilize "dual-channel" mode. But too often people fuss over little stuff, while ignoring bigger stuff. Bigger stuff like: more RAM capacity can often be helpful Your entire experience will likely be hindered most by one detail, which may often be described as the "weakest link" in the chain. Figuring out what that detail is (it might be RAM, or CPU, or video card, or data storage speed, or computer networking speed, or quite simply user interaction), and improving that , will help much more immensely than trying to super-optimize a detail that is already serving you well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1905463/which-ram-dimm-slot-is-better-compatible-with-a-gigabyte-ga-b250m-d3h-1-0
+
+---
+
+#### 8314. Create shortcut to open current folder as an argument for a program?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-explorer | Score: 0 | Views: 111 | Answers: 1 | Created: 2025-06-11
+
+**解决方案 / Solution**:
+While this is technically not directly answering your question, this workaround might actually be preferable. Explorer has a neat trick, you can run commands directly in the address bar where you type the current folder location. If you click on the location in a white area, you will be able to type there. From there, you can run commands. For example: cmd . will open a command prompt in the current folder. powershell . will do the same for powershell, and any program you have entered in your path environmental settings can be launched the same way. Note, the . refers to the current folder. If you omit it, it will open that program in its native location, usually your user profile directory.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904597/create-shortcut-to-open-current-folder-as-an-argument-for-a-program
+
+---
+
+#### 8315. Typing medical symbols
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10 | Score: 0 | Views: 174 | Answers: 1 | Created: 2025-06-10
+
+**解决方案 / Solution**:
+Ⓛ (U+24C1, Circled Latin Capital Letter L ) Ⓡ (U+24C7, Circled Latin Capital Letter R ) How to enter any Unicode character in Microsoft Windows? (Full description in my another answer .) There's an universal method - Alt + +U This method works regardless of any of your language settings , but is the most cumbersome to type: Press and hold down the Alt key. Press the + ( plus key on the numeric keypad ). Type the hexidecimal unicode value. Release the Alt key. Alas, this appears to require the following registry setting: reg query "HKEY_Current_User\Control Panel\Input Method" -v EnableHexNumpad HKEY_CURRENT_USER\Control Panel\Input Method EnableHexNumpad REG_SZ 1 If you don't have above registry setting already then use the following command from an open cmd prompt or from Run dialogue ( WinKey + R ): reg add "HKEY_Current_User\Control Panel\Input Method" -v EnableHexNumpad -t REG_SZ -d "1" -f
+
+**参考链接 / References**:
+- https://superuser.com/questions/1904514/typing-medical-symbols
+
+---
+
+#### 8316. Why am I having a DNS issue on Windows 10? I have already tried all solutions I could find
+
+**问题描述 / Problem Description**:
+Tags: windows-10, dns, internet | Score: 0 | Views: 215 | Answers: 1 | Created: 2025-06-04
+
+**解决方案 / Solution**:
+Given that another computer connected to the same internet source has the same problem, the problem is not with your computer. You will need to try a different adapter, or look at issues with the phone itself.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1903823/why-am-i-having-a-dns-issue-on-windows-10-i-have-already-tried-all-solutions-i
+
+---
+
+#### 8317. How do I remove syncronized folders/files without affecting those located on teams
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-explorer, sync, microsoft-teams | Score: 0 | Views: 569 | Answers: 1 | Created: 2025-05-27
+
+**解决方案 / Solution**:
+Stop syncing the folder in OneDrive settings by selecting "Stop sync" for the Teams/SharePoint folder. Then safely delete the local files—this won’t affect the versions stored in Teams.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1902528/how-do-i-remove-syncronized-folders-files-without-affecting-those-located-on-tea
+
+---
+
+#### 8318. What is "mager.onnxe" file in the Windows 10 "Photos" app folder?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, photos, windows-8-photos-app | Score: 0 | Views: 2711 | Answers: 1 | Created: 2025-05-22
+
+**解决方案 / Solution**:
+It's really obscure, but I just found an answer - https://www.bleepingcomputer.com/forums/t/799174/mystery-file-mageronnxe-300597649-bytes/?p=5703763 "mager.onnxe" is an ONNX model for a component of a Microsoft project called Perceptive Shell. It is accompanied with a library, magerapi.dll. Looking around it quickly shows that "mager" is an abbreviation for... "Magic Eraser". Which is an internal name for a Microsoft Photos feature, called Generative Erase. Here's some docs: https://support.microsoft.com/en-us/windows/using-generative-erase-in-microsoft-photos-e0b4df42-3372-4dfd-9d28-c4ef408454a7 So, if you really need to delete it (if you need additional 288 MB of disk space), and you don't use the "Magic Eraser" feature (and won't use it in the future), then you can delete it (or move it somewhere else). I just checked, and it accesses the file only when you select the "Magic Eraser" option, so the app should work just fine. Though, you can't delete it that simple, because the file owner is "SYSTEM", so you don't have a permission to do anything with this file, unless messing with the permissions/owner or something else.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1901698/what-is-mager-onnxe-file-in-the-windows-10-photos-app-folder
+
+---
+
+#### 8319. How to force Outlook to stop trying to connect to inaccessible resources and unfreeze itself?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, microsoft-outlook, office365, exchange-online | Score: 0 | Views: 225 | Answers: 1 | Created: 2025-05-08
+
+**解决方案 / Solution**:
+Unless there was some other process Outlook was dependent on whose behavior is causing these symptoms, the only ways to get Outlook to "behave" is to use Task Manager and end Outlook's processes. I do not believe there is a way to entirely stop Outlook freezing when it is trying to connect to a network resource it expects to find. As I noted in my comment, this is how Outlook has behaved as long as I've used this application, which is now well more than 20 years. But, there are things you can do to minimize the chances of freezing. Tell Outlook to not download external content . Go to File > Options > Trust Center > Automatic Download and choose "Don't download pictures or other content automatically..." and "Warn me before downloading content when editing...". This will prevent 3rd party servers' issues contributing to Outlook's freezes. Disable add-ins . Run Outlook using the command outlook.exe /safe and click OK at the prompt. Observe if Outlook still behaves as it did. If it does not, the problems are caused by plugins and not Outlook itself. Restart Outlook in regular mode, then go to File > Options > Add-ins and disable plugins manually until you identify the one(s) causing the issues. Clean up your mailbox . The size of your mailbox could contribute to hangs and freezes, so, following whatever retention policies your org has, archive or delete emails that can be archived or deleted, empty your Deleted Items folder, etc. Large numbers of items in PST files can also contribute to slowness and hangs, especially when there is corruption in these often large files. Do not save email you do not need. If you're in a business environment, use the provided Archive options rather than PST files whenever possible. These are the common sorts of things you as a user can do. Other things will require you to speak with your employer's IT administrators and support staff. They will no doubt be familiar with the issues themselves, but may have tips and tricks unique to your environment. Reference: https://learn.microsoft.com/en-us/outlook/troubleshoot/performance/outlook-not-responding-error-or-outlook-freezes
+
+**参考链接 / References**:
+- https://superuser.com/questions/1896658/how-to-force-outlook-to-stop-trying-to-connect-to-inaccessible-resources-and-unf
+
+---
+
+#### 8320. Should I be able to do this on my NAS?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, raid, windows-server, zfs, zfsonlinux | Score: 0 | Views: 89 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+The OpenZFS 2.3 filesystem driver for Windows is nearly ready (pre release 2 with all major bugs of last months fixed). It allows ZFS directly on Windows. See Issues and Discussions https://github.com/openzfsonwindows/openzfs/releases/tag/zfswin-2.3.0rc2
+
+**参考链接 / References**:
+- https://superuser.com/questions/1875317/should-i-be-able-to-do-this-on-my-nas
+
+---
+
+#### 8321. Windows Server 2019 as a NAT Router
+
+**问题描述 / Problem Description**:
+Tags: router, dns, dhcp, nat, windows-server | Score: 0 | Views: 550 | Answers: 1 | Created: 2025-01-15
+
+**解决方案 / Solution**:
+Windows Server technically can route and NAT, and indeed the 'client' versions (Windows 10/11) even have it set up by default for the Hyper-V switch used by WSL2 – not to mention ICS (an older NAT implementation) having existed for decades. But as far as I know, it does not make a good router. For example, its firewall seems to be very oriented towards local input/output, and I don't know if you even can configure it to filter forwarded cross-subnet traffic at all. In general, it's also not the best idea to make your domain controllers do non-DC-related tasks – I'd rather have Hyper-V and a DC-only VM anyway, to make it more future-proof. So if you want multiple VLANs, then it would be better to use a dedicated router VM (based on Linux or BSD; e.g. pfSense/OpnSense are popular BSD-based router systems). Or ideally a whole physical router – e.g. those running OpenWrt or Mikrotik RouterOS should be sufficiently capable. (From what I remember, the Hyper-V GUI management tools do not expose "trunk" mode for VMs, but it's available through PowerShell.) Active Directory does not strictly require DHCP. Its main requirement is that all clients must be able to resolve the domain names hosted on AD DNS (as those tell clients where to find the domain controller). So if you use your existing router's DHCP for the IP address but manually set all PCs to use the AD DC as their only DNS server, that would be "good enough" for AD, although tedious to manage long-term.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1870571/windows-server-2019-as-a-nat-router
+
+---
+
+#### 8322. Unable to use NVIDIA L4 GPU Card on Windows Server Hyper-V VMs with DDA
+
+**问题描述 / Problem Description**:
+Tags: linux, gpu, nvidia-graphics-card, hyper-v, windows-server | Score: 0 | Views: 454 | Answers: 1 | Created: 2024-12-27
+
+**解决方案 / Solution**:
+I wanted to provide an update regarding the issue I faced with NVIDIA L4 GPUs on Windows Server Hyper-V VMs using Discrete Device Assignment (DDA). I was able to resolve this issue successfully by following the guidance provided in the NVIDIA documentation: Bug #2812853: Microsoft DDA not working with some GPUs . The problem occurred because GPUs with more than 16 GB of memory require additional MMIO (Memory-Mapped Input/Output) space for proper mapping in the guest VM. Without this configuration, the GPU wouldn't be detected properly in the VM. Solution: The workaround involves allocating sufficient HighMemoryMappedIoSpace for the VM based on the GPU's BAR1 memory size and the number of GPUs assigned to the VM. Here's the step-by-step process: Use the following formula to calculate the required MMIO space: MMIO space=2×gpu-bar1-memory×assigned-gpus Where: gpu-bar1-memory : The amount of BAR1 memory for one GPU (equal to total GPU memory if not specified). assigned-gpus : The number of GPUs assigned to the VM. Assign the calculated MMIO space to the VM using the Set-VM PowerShell command on the Hyper-V host. Example: NVIDIA L4 GPU with 23 GB Memory For a VM with 1 GPU assigned, where each GPU has 23 GB of BAR1 memory : MMIO space=2×23 GB×1=46 GB PowerShell Command: Run the following on the Hyper-V host to set the required MMIO space: Set-VM –HighMemoryMappedIoSpace 46GB –VMName <VM_Name> Example: Multiple GPUs Assigned For 3 NVIDIA L4 GPUs , each with 23 GB of memory assigned to a single VM: MMIO space=2×23 GB×3=138 GB PowerShell Command: Run the following to set the MMIO space for the VM: Set-VM –HighMemoryMappedIoSpace 138GB –VMName <VM_Name> Verification: Once the MMIO space is configured, reboot the VM and check that the GPU is recognized correctly in the guest VM using tools like nvidia-smi or lspci (for Linux VMs). I hope this helps anyone facing similar issues. If you have additional questions, feel free to ask!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1867778/unable-to-use-nvidia-l4-gpu-card-on-windows-server-hyper-v-vms-with-dda
+
+---
+
+#### 8323. Test-ComputerSecureChannel / nltest errors out on a single domain controller in forest
+
+**问题描述 / Problem Description**:
+Tags: active-directory, windows-server, windows-domain | Score: 0 | Views: 5350 | Answers: 1 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+Can confirm we experience the same behavior in our forest. Test-ComputerSecureChannel errors out on all domain controllers that hold the PDC role. Test-ComputerSecureChannel : Cannot verify the secure channel for the local computer. Operation failed with the following exception: The specified domain either does not exist or could not be contacted. There is an article from Dell about it that also reports the same. https://www.dell.com/support/kbdoc/en-us/000226052/domain
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862502/test-computersecurechannel-nltest-errors-out-on-a-single-domain-controller-in
+
+---
+
+#### 8324. "There is not enough usable space for this operation" when adding mirror to volume in Windows Server
+
+**问题描述 / Problem Description**:
+Tags: windows-server, software-raid, diskpart, windows-server-2022 | Score: 0 | Views: 1724 | Answers: 2 | Created: 2024-10-17
+
+**解决方案 / Solution**:
+Decided to post an answer myself since I did figure this out. Maybe helps someone out in the future. The steps to recreate Windows RE partition were almost complete, all I had to do is retain the Recovery volume in diskpart between steps 6 and 7. Also dism was not required, I used xcopy command instead from this doc . The retain command "Prepares an existing simple dynamic volume for use as a boot or system volume". No wonder it didn't work before. After that, reagentc /setreimage ... and reagentc /enable worked as expected, and I was able to boot into Windows RE without any problem.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1859071/there-is-not-enough-usable-space-for-this-operation-when-adding-mirror-to-volu
+
+---
+
+#### 8325. Remove UAC from Print Server Properties
+
+**问题描述 / Problem Description**:
+Tags: windows, permissions, group-policy, windows-server | Score: 0 | Views: 321 | Answers: 1 | Created: 2024-09-27
+
+**解决方案 / Solution**:
+Turned out this problem indeed had to do with permissions but it had to do with being able to install untrusted fonts. The printer driver wanted to install untrusted fonts on the machine and group policy prevented that from happening. As a result the resident fonts didn't show up.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1857057/remove-uac-from-print-server-properties
+
+---
+
+#### 8326. Windows Server Backup Catalog
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-server, windows-backup | Score: 0 | Views: 404 | Answers: 1 | Created: 2024-08-20
+
+**解决方案 / Solution**:
+As you state, the monthly Macrium Reflect images will have a Windows Server Backup catalog that is up to a month out-of-date. After restoring the server's drive from a Macrium Reflect image, you can use the command wbadmin to restore the current catalog if the catalog has been copied to another drive. However, if the catalog is missing or damaged, then manually search for the latest Virtual Hard Disk (VHDX) file in the location that stores the backup data and mount it. The data can be restored directly from that VHDX, without need of the catalog. Caveat Windows Server Backup uses Volume Shadow Copy Service (VSS) . There might be an issue restoring VSS data backup to a drive restored from an earlier image. Test the full backup and restore procedure! Using a spare drive, restore a month-old Macrium Reflect image, and then try restoring the more recent Windows Server Backup . [At a firm for which I worked, daily backups were made. On the day that one was needed, it was found that none of the backups could be restored!]
+
+**参考链接 / References**:
+- https://superuser.com/questions/1852904/windows-server-backup-catalog
+
+---
+
+#### 8327. Home server setup
+
+**问题描述 / Problem Description**:
+Tags: domain, windows-server, windows-domain, home-server | Score: 0 | Views: 108 | Answers: 2 | Created: 2024-07-02
+
+**解决方案 / Solution**:
+Would my laptop, that will be connected by domain, require me to be on this network to log on? Usually not, as Windows stores cached credentials for the last X users that have logged in (that is, a PBKDF2 hash of the last successful password is stashed in your Registry) – given that your laptop is probably going to be used by 1 account total, it should always retain cached credentials for you. (If I remember correctly, it will also keep your password in memory so that it'll be able to automatically get Kerberos tickets later... although that already happens when unlocking the laptop anyway.) The "We cant sign you in with this credential because the domain could not be found" error message only shows up when you try to sign in with an account whose credentials Windows does not have cached. (Or, of course, if the domain administrator has disabled credential caching via GPO.) You can also avoid this by setting up an "always-on VPN" tunnel through which your system could talk to the DCs. (Active Directory uses TCP/IP, you don't need to be "on the same subnet" or anything.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1847832/home-server-setup
+
+---
+
+#### 8328. PC setup for power users with a life on the go
+
+**问题描述 / Problem Description**:
+Tags: networking, remote-desktop, remote-access, windows-server | Score: 0 | Views: 68 | Answers: 1 | Created: 2024-06-16
+
+**解决方案 / Solution**:
+That should be doable, with the caveat that it will increase latency (you're dependent on a fast network all the way to your PC which while plausible may not be an actuality), and the lack of peripherals is not necessarily great. It should function though and as long as the controls match what a touchscreen can do (or be assigned to such), it should function.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1846106/pc-setup-for-power-users-with-a-life-on-the-go
+
+---
+
+#### 8329. my drive shows size on disk very smaller than its actual size
+
+**问题描述 / Problem Description**:
+Tags: ntfs, compression, windows-server, windows-server-2019, size | Score: 0 | Views: 223 | Answers: 2 | Created: 2024-03-29
+
+**解决方案 / Solution**:
+You have a sparse file. Regions of it which are still empty (not yet written by the program) are not stored on disk at all – instead of pointing to some specific area on disk, they're marked as "unallocated" in NTFS and just automatically appear as 0x00-bytes when read.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1837111/my-drive-shows-size-on-disk-very-smaller-than-its-actual-size
+
+---
+
+#### 8330. Windows File/Folder Sharing - custom network path
+
+**问题描述 / Problem Description**:
+Tags: windows, network-shares, file-sharing, windows-server | Score: 0 | Views: 1216 | Answers: 2 | Created: 2024-02-12
+
+**解决方案 / Solution**:
+I was wondering if it is in any way possible to make it so typing \\fileshare would redirect to the \d folder. No; SMB is fundamentally based around named "shares" and there's no mode to opt out of that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829932/windows-file-folder-sharing-custom-network-path
+
+---
+
+#### 8331. Best method for connecting user applications (which relly on SQL) over VPN
+
+**问题描述 / Problem Description**:
+Tags: vpn, remote-desktop, windows-server, remoteapp | Score: 0 | Views: 145 | Answers: 1 | Created: 2024-02-06
+
+**解决方案 / Solution**:
+SQL is a database. Lots of Apps are like this (database). Running live over VPN can damage the database, so I suggest not doing this. Pure Remote Desktop just needs an office computer and (in my experience) no additional licensing requirements. Better for you, I think, is a Terminal Server and yes, there are licensing requirements for this. I do recommend for several (numerous) users a properly designed Terminal Server as the best overall approach.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1829110/best-method-for-connecting-user-applications-which-relly-on-sql-over-vpn
+
+---
+
+#### 8332. Is explorer.exe always in the "C:\Windows\" folder?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-explorer, windows-server | Score: 0 | Views: 6188 | Answers: 1 | Created: 2024-02-04
+
+**解决方案 / Solution**:
+Explorer.exe is located at %windir%\explorer.exe On 64 bit systems there is also a 32 bit version located in %windir%\SysWOW64\explorer.exe on emulators or other types of 32bit systems. You also will need to consider CLI based server environments where the GUI module hasn't been installed so the file wouldn't exist but I'm assuming if you're searching for explorer.exe, it is GUI related, so might be irrelevant in this case.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1828795/is-explorer-exe-always-in-the-c-windows-folder
+
+---
+
+#### 8333. Why does my Windows Server 2019 say it is not connect to the Internet?
+
+**问题描述 / Problem Description**:
+Tags: internet, windows-server | Score: 0 | Views: 3131 | Answers: 1 | Created: 2024-01-21
+
+**解决方案 / Solution**:
+The Network Connectivity Status Indicator (NCSI) is set by allowing the PC to connect to a Microsoft server, as shown in the O&O ShutUp10 screenshot below. There might be a Windows Firewall rule, or a Group Policy setting, to prohibit the server from contacting MS, or specifying a different server for the probe. If NCSI is important to you, check the Firewall and GPO to change the setting, perhaps specifying a corporate server probe IP, rather than Microsoft's. Otherwise, ignore the indicator.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1826769/why-does-my-windows-server-2019-say-it-is-not-connect-to-the-internet
+
+---
+
+#### 8334. Increase display resolution using Microsoft Basic Display Adapter on Windows Server 2019 due to lack of AMD drivers
+
+**问题描述 / Problem Description**:
+Tags: drivers, display, windows-server, display-driver, amd-ryzen | Score: 0 | Views: 4201 | Answers: 1 | Created: 2024-01-20
+
+**解决方案 / Solution**:
+Even tough your Windows version (1809) says it is up2date (as you indicate in the comments) it is not the LATEST version of Server 2019. And you will need a NEWER version of Server 2019 (at least the 23H1 version, possibly 22H2 will work too) in order to able to have the OS recognize the much more recent AMD CPU/GPU combo and offer the standard Microsoft drivers as optional updates via Windows Update. Your OS is simply too old to know about these new chipsets. Installing the Feature update packs to get it at 22H2 or later and then re-checking the optional updates for drivers for the AMD CPU/GPU should fix your issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1826596/increase-display-resolution-using-microsoft-basic-display-adapter-on-windows-ser
+
+---
+
+#### 8335. Put VM on real hardware
+
+**问题描述 / Problem Description**:
+Tags: virtual-machine, vmware, nas, windows-server, windows-server-2022 | Score: 0 | Views: 822 | Answers: 1 | Created: 2023-11-27
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1818390/put-vm-on-real-hardware
+
+---
+
+#### 8336. After Adding then Removing Active Directory/DNS Server Roles to Server, All User Accounts were Deleted
+
+**问题描述 / Problem Description**:
+Tags: user-accounts, windows-server | Score: 0 | Views: 87 | Answers: 1 | Created: 2023-10-01
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1810829/after-adding-then-removing-active-directory-dns-server-roles-to-server-all-user
+
+---
+
+#### 8337. is there a script i can use for task scheduler to recycle iis application pool?
+
+**问题描述 / Problem Description**:
+Tags: windows, webserver, iis, windows-server | Score: 0 | Views: 723 | Answers: 1 | Created: 2023-08-08
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1803168/is-there-a-script-i-can-use-for-task-scheduler-to-recycle-iis-application-pool
+
+---
+
+#### 8338. Cannot edit file on windows server through RDP as domain admin
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop, windows-server | Score: 0 | Views: 992 | Answers: 2 | Created: 2023-06-28
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1792289/cannot-edit-file-on-windows-server-through-rdp-as-domain-admin
+
+---
+
+#### 8339. Remote work by "Streaming" windows file server files
+
+**问题描述 / Problem Description**:
+Tags: vpn, remote, windows-server, cloud, file-server | Score: 0 | Views: 236 | Answers: 1 | Created: 2023-06-20
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1790003/remote-work-by-streaming-windows-file-server-files
+
+---
+
+#### 8340. Can I recover from a corrupted boot sector on a running system?
+
+**问题描述 / Problem Description**:
+Tags: hard-drive, partitioning, data-recovery, windows-server | Score: 0 | Views: 2136 | Answers: 3 | Created: 2023-06-10
+
+**解决方案 / Solution**:
+3 Answers
+3
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1788263/can-i-recover-from-a-corrupted-boot-sector-on-a-running-system
+
+---
+
+#### 8341. Cannot ping Windows Server Wireguard Interface
+
+**问题描述 / Problem Description**:
+Tags: windows-server, windows-firewall, wireguard | Score: 0 | Views: 4827 | Answers: 1 | Created: 2023-06-09
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1788159/cannot-ping-windows-server-wireguard-interface
+
+---
+
+#### 8342. Can I install the Outlook Mail app on Windows Server 2019?
+
+**问题描述 / Problem Description**:
+Tags: microsoft-outlook, windows-server | Score: 0 | Views: 6476 | Answers: 2 | Created: 2023-05-05
+
+**解决方案 / Solution**:
+2 Answers
+2
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1782575/can-i-install-the-outlook-mail-app-on-windows-server-2019
+
+---
+
+#### 8343. Attached files from Outlook 2013/2019 on Windows Server 2016 are blocked when downloaded. "This file came from another computer..."
+
+**问题描述 / Problem Description**:
+Tags: microsoft-outlook, microsoft-outlook-2013, windows-server, windows-server-2016, attachments | Score: 0 | Views: 1155 | Answers: 1 | Created: 2023-04-25
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1780774/attached-files-from-outlook-2013-2019-on-windows-server-2016-are-blocked-when-do
+
+---
+
+#### 8344. How do config that an SFTP user can access two root folders on different drives from OpenSSH Windows Server?
+
+**问题描述 / Problem Description**:
+Tags: ssh, openssh, sftp, windows-server, sshd | Score: 0 | Views: 1794 | Answers: 1 | Created: 2023-03-08
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1772543/how-do-config-that-an-sftp-user-can-access-two-root-folders-on-different-drives
+
+---
+
+#### 8345. What to try before power cycling unresponsive remote Windows Server VM
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2012-r2, windows-server | Score: 0 | Views: 280 | Answers: 1 | Created: 2023-03-07
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1772499/what-to-try-before-power-cycling-unresponsive-remote-windows-server-vm
+
+---
+
+#### 8346. OpenSSH says 'Permission denied' or 'Connection reset' after I modify my user name through netplwiz on my Windows server
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ssh, windows-11, openssh, windows-server | Score: 0 | Views: 3884 | Answers: 1 | Created: 2023-02-07
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1767281/openssh-says-permission-denied-or-connection-reset-after-i-modify-my-user-na
+
+---
+
+#### 8347. Mount SFTP server reachable via HTTP proxy as a windows local drive
+
+**问题描述 / Problem Description**:
+Tags: windows, proxy, mount, sftp, windows-server | Score: 0 | Views: 665 | Answers: 1 | Created: 2022-12-18
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1758416/mount-sftp-server-reachable-via-http-proxy-as-a-windows-local-drive
+
+---
+
+#### 8348. How to setup IKEv2/IPSec MSCHAPv2 VPN on Windows Server 2019
+
+**问题描述 / Problem Description**:
+Tags: windows, vpn, android, windows-server, windows-server-2019 | Score: 0 | Views: 7079 | Answers: 1 | Created: 2022-11-26
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1754752/how-to-setup-ikev2-ipsec-mschapv2-vpn-on-windows-server-2019
+
+---
+
+#### 8349. How to run VMware 16 on Windows Server 2022 host?
+
+**问题描述 / Problem Description**:
+Tags: virtualization, vmware, hyper-v, vmware-workstation, windows-server | Score: 0 | Views: 3131 | Answers: 1 | Created: 2022-11-15
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1752986/how-to-run-vmware-16-on-windows-server-2022-host
+
+---
+
+#### 8350. Propagation of network printer among non-domain user
+
+**问题描述 / Problem Description**:
+Tags: printer, network-printer, windows-server | Score: 0 | Views: 983 | Answers: 1 | Created: 2022-11-14
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1752695/propagation-of-network-printer-among-non-domain-user
+
+---
+
+#### 8351. Computer Management not loading on windows server 2019 standard
+
+**问题描述 / Problem Description**:
+Tags: windows-server, windows-server-2019 | Score: 0 | Views: 1077 | Answers: 1 | Created: 2022-11-01
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1750457/computer-management-not-loading-on-windows-server-2019-standard
+
+---
+
+#### 8352. ffmpeg on Windows Server Core 2022?
+
+**问题描述 / Problem Description**:
+Tags: ffmpeg, windows-server | Score: 0 | Views: 1589 | Answers: 1 | Created: 2022-09-16
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1742768/ffmpeg-on-windows-server-core-2022
+
+---
+
+#### 8353. Credential Guard Will not Start With All Required Settings
+
+**问题描述 / Problem Description**:
+Tags: windows-11, virtualization-based-security, credential-guard | Score: -1 | Views: 34 | Answers: 1 | Created: 2026-07-08
+
+**解决方案 / Solution**:
+Credential Guard is not supported for Windows 11 Pro as per the Microsoft Documentation .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938952/credential-guard-will-not-start-with-all-required-settings
+
+---
+
+#### 8354. How to create a fully encrypted user in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, encryption, user-accounts, veracrypt | Score: -1 | Views: 90 | Answers: 1 | Created: 2026-06-10
+
+**解决方案 / Solution**:
+You've been given a variety of good suggestions in comments. Some preliminary points First, there's no such thing as you describe, specifically, in Windows; you have to find some other way to achieve what you want based on your specific needs. Second, it may be helpful to more precisely define, for yourself, your true needs. If this is an organizational privacy concern, the policies that will govern this solution should be written by appropriate teams in your org, with ITs input regarding feasibility. Possible solutions The viable solutions currently available based on our understanding of your request: A Virtual Machine: This may be more complex to implement, but it is arguable the easiest for an average user to understand and use on an ongoing basis. The VM can exist in a secure server, have its own VM-device encryption on top of the host encryption (if you really wish), and because it is a full, if transient, computer, you have the most flexibility in what sorts of confidential content you need to review as well as the simplest clean up: just delete the VM when you're done. This can be largely automated using off-the-shelf tools that are likely already present in your environment. An encrypted container: As suggested by Ramhound . Veracrypt and other mature and free encryption tools allow creation of local containers with a variety of authentication options supported. This would exist on whatever storage you wish it to exist on. This is very secure, very private storage. If that's all you need, that should be sufficient. Closing thoughts: If you're concerned about 3rd parties viewing content, you really have a different set of problems, not all of which are technical in their nature, and your better solution may be to identify and solve those problems. Are you concerned about snoopers employed at the same corp? Identify and remove these. Are you unable to trust your IT staff ? Why, and if you are justified, remove them. These are HR, not technology, issues. Are you concerned about outsiders gaining access? None of these solutions will stop them from accessing the data if they're inside your systems. Secure your entire system properly, and you won't need to worry about these. Are you concerned about employees not treating the confidential information with sufficient care? None of these solutions will solve that problem either. The weakest link in any system is, generally, the humans using it. Set up normal security, create appropriate and clear policies, educate, and then enforce. The most secure system is turned off and inaccessible by any method, physical or electronic. Because your systems need to be used, they have to balance security. I hope this makes it clear that understanding your specific needs more precisely will help you make a better decision regarding how best to secure it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938353/how-to-create-a-fully-encrypted-user-in-windows-10
+
+---
+
+#### 8355. Loading Adobe CS6 on Dell Alienware I9, Windows 11
+
+**问题描述 / Problem Description**:
+Tags: windows-11, adobe-photoshop, dreamweaver | Score: -1 | Views: 66 | Answers: 2 | Created: 2026-05-31
+
+**解决方案 / Solution**:
+There are a couple possible solutions to try. The issue is that there's incompatibilities with certain dependencies in CS6 that cause these crashes. Solutions from this link found by Andrew Morton (see comment above): https://community.adobe.com/questions-617/how-to-install-most-of-cs6-on-windows-11-without-errors-565984 Method 1: Install in compatibility mode Turn off Antivirus (probably disable your internet during this period). Right-click on the installer executable and adjust the Compatibility settings to Windows7/8. Install each component individually. Method 2: Install only components that do not have the incompatible dependencies Install the package normally but choose which products to install, and only install these items: Adobe Flash Professional CS6 AIR for Apple iOS support (FP) Adobe After Effects CS6 Adobe Encore CS6 (MUST deselect the SonicWrappers_ph component) Adobe Illustrator CS6 Adobe Illustrator CS6 (64-bit) Adobe Photoshop CS6 (64-bit) Adobe Photoshop CS6 Adobe Prelude CS6 Adobe Premiere Pro CS6 Adobe SpeedGrade CS6 Do NOT install these: Adobe Audition CS6 Suggestion I would guess that Method 1 will not work, and may just end up being a more roundabout way to accomplish what Method 2 does more directly, and does without the bad idea of disabling AV.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938054/loading-adobe-cs6-on-dell-alienware-i9-windows-11
+
+---
+
+#### 8356. In the Microsoft Store's "Updates & downloads" page, what does the "cloud with down-arrow" icon signify and what action does clicking on it perform?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, icons, updates, user-interface, microsoft-store | Score: -1 | Views: 90 | Answers: 2 | Created: 2026-05-14
+
+**解决方案 / Solution**:
+I don't know if Apple was the first, but I do recall seeing that icon on Apple services/products before I have clear memories seeing it online. On Apple devices it means the content "is not stored locally" and therefore is available to be downloaded. This aligns with my own understanding, and with that your chatbots said, and matches the icon elements itself. In this case I have a couple thoughts, and I don't have a personal Windows device handy to check things. There's just some bug in your Store. The HEVC is more of a license with little real data attached, and so can exist both "not on your device" and "on your device" at the same time (this is more of a stretch, I think the first point is more likely).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1937591/in-the-microsoft-stores-updates-downloads-page-what-does-the-cloud-with-d
+
+---
+
+#### 8357. How to disable Windows Antimalware service?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-defender | Score: -1 | Views: 140 | Answers: 1 | Created: 2026-04-06
+
+**解决方案 / Solution**:
+On Windows 11 the built-in antivirus is tightly integrated, so even disabling real time protection or using group policy often won’t fully stop it. The safest approach is to install a third party antivirus which automatically disables Windows Defender’s active scanning, or alternatively you can use Windows Security settings to turn off all protection temporarily but the service itself can’t be completely removed. Trying to force-stop it or edit system files can break system stability so its not recommended.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936471/how-to-disable-windows-antimalware-service
+
+---
+
+#### 8358. How can I know when my laptop's webcam was turned on and turned off?
+
+**问题描述 / Problem Description**:
+Tags: security, windows-11, logging, privacy, webcam | Score: -1 | Views: 156 | Answers: 1 | Created: 2026-01-29
+
+**解决方案 / Solution**:
+This data is kept in the Windows Registry in two locations. Here: Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\ And here: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\ Look under the subkeys microphone and webcam for the values LastUsedTimeStart and LastUsedTimeStop for the time, stored as a file time . You can use PowerShell to convert to date and time : [system.datetime]::FromFileTime(0x<hexstring>).ToString('ddMMyyyy HH:mm:ss') Or use one of the many file date-time to formatted date time applications or online converters, such as EpochConverter , which takes a decimal file time (e.g., 132191978011391860 ), and outputs the UTC (AKA GMT, Zulu Time) as Monday, November 25, 2019 11:23:21 PM.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1934322/how-can-i-know-when-my-laptops-webcam-was-turned-on-and-turned-off
+
+---
+
+#### 8359. Why is my Windows account login not working after changing home-dir access rights during backup with another computer?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, ntfs, user-profiles, acl | Score: -1 | Views: 116 | Answers: 1 | Created: 2026-01-09
+
+**解决方案 / Solution**:
+Since you've modified access/ownership recursively affecting hundreds of folders and files, by far the most efficient way to try to fix this is by reinstalling Windows 10 from ISO . Use any disk imaging tool such as Macrium Reflect FREE Edition or an alternative to copy everything on that drive to another. BTW, most of these tools allow you to access restricted files from that image, That would have allowed copying your user directory from the image, without having to modify the image or the original data. Now that the original files are safely stored, download the Windows 10 ISO from Microsoft and Create Windows 10 installation media . Use that installation media to reinstall Windows 10, keeping files . Verify that you can log into your MS account. Likely, some of the data in your account might still be inaccessible. Using the image created at the beginning, go through each folder in the image and copy it to your user folder. Copying Documents, Downloads, Music, Pictures and Videos should be easy. Use caution when copying AppData and other system folders... you might want to make another image of the drive, while it's working, before attempting that.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933502/why-is-my-windows-account-login-not-working-after-changing-home-dir-access-right
+
+---
+
+#### 8360. How to properly troubleshoot network sharing between two Windows computers?
+
+**问题描述 / Problem Description**:
+Tags: networking, windows-11 | Score: -1 | Views: 91 | Answers: 1 | Created: 2025-12-21
+
+**解决方案 / Solution**:
+Does the client PC successfully send ping requests to the host pc, and does it receive responses back? If not... I really don't know what to do except mess around with enabling/disabling autoconfiguration on the network interfaces, set up IP addresses on the same subnets, configure stricter/laxer subnet masks, etc... until I get ping between them. There's no gain in changing the size of the subnet mask in either direction; it doesn't adjust the way IP or Ethernet behaves. A more lax subnet mask only results in the subnet containing more 'possible' IP addresses, but that does not correspond to anything like "time slots" that could affect connectivity – if you have two hosts, you still have two hosts. All hosts within the subnet need to agree on the subnet mask, and the mask needs to be chosen so that the resulting subnet covers the IP addresses of all participating hosts but doesn't overlap with any other subnet that any of the hosts are connected to. For example, an overly broad subnet mask might result in a subnet address that overlaps the 'host' PC's "upstream" or "main" LAN connection, and it might result in a host considering some addresses "local" to an interface when they are not (and trying to resolve them via ARP where they won't answer). On the other hand, an overly narrow subnet mask might result in host 1 not considering host 2's address "local" and instead sending packets through a gateway – which can seem to work fine a lot of the time if the gateway just reflects packets to the correct host, although is not optimal. Are there any tools I can utilize to gain better insight/control over this situation? Set up proper IP address autoconfiguration? Examine packet routing on the host PC? What problems can I identify and solve in these circumstances? Install a packet capture program. On the 'host' PC you can use Wireshark, while on the 'client' PC – if you end up needing it – you can use the Windows 11 built-in pktmon tool, which can record into Wireshark-compatible .pcapng files. (If you can get the Npcap driver installed, then the rest of Wireshark can run without installation as such.) If the client PC does not have an IP address configured, it will broadcast a 'DHCPDISCOVER' UDP packet. The host PC runs a DHCP server as part of the network sharing feature and will respond with a 'DHCPOFFER', followed by a 'DHCPREQUEST' – 'DHCPACK' exchange, in total 4 UDP packets. The same DHCP lease will also advertise a default gateway as a DHCP option, which the client host will use to configure a "default route" (0.0.0.0/0 route). Check its presence in route -4 print . Once the client PC has an IP address configured, as soon as it has to send a packet it needs to resolve nearby IP addresses to Ethernet MAC addresses using ARP – whether it is contacting a local (same-subnet) host directly, or whether it is using that host as a gateway to reach "outside", it still uses the same ARP to do the translation. You should see both the 'host' and the 'client' making ARP queries for each other immediately before the first non-DHCP packet is sent between them. Verify that both the 'host' and the 'client' have each other in their ARP cache (the arp or netsh int ipv4 show nei commands). When the 'client' PC tries to send any packets – whether to the 'host' PC, or through the 'host' PC to the outside – they should be visible on the 'host' PC's capture, addressed to the 'host' PC's MAC address. If you're trying to ping the 'host' PC, it will reply if its firewall configuration allows the inbound 'ping' requests (enable the relevant rules in wf.msc ). If you're trying to ping or otherwise reach something external, you should see packets arrive on the 'host' PC's "ethernet 2" and similar packets should leave the 'host' PC's "ethernet 1" towards your real Internet gateway. The "internet sharing" feature includes NAT (masquerading), so the "upstream" packets will appear as if they come from the 'host' PC's own IP address (if they don't then your upstream gateway won't know where to deliver responses). Then you should see the opposite – a reply packet arriving at the host PC's "upstream" ethernet interface, where the host PC undoes NAT and re-sends it through the "sharing" interface towards the client PC. If, for example, you connect the cable and the 'client' PC is configured to obtain addresses automatically but Wireshark on the 'host' does not see any inbound DHCP packets – or if the 'client' PC has a static address but the 'host' PC is unable to resolve it via ARP, or does not see any inbound ARP queries or ICMP "Echo Request" (ping) packets – then it suggests that the 'client' PC cannot transmit on Ethernet at all, a lower-layer problem that has nothing to do with IP configuration. Check whether both hosts agree on the Ethernet link mode (PowerShell Get-NetAdapter can show at least the speed, through not duplex mode). Generally both sides should have Ethernet auto-negotiation enabled. Testing with both sides on manual speed/duplex mode (e.g. 100M/full) might be useful, but never use mixed configurations, i.e. either both sides must use auto-negotiation or both sides must be manual. Replace the cable. In 10Mbps and 100Mbps modes, separate wire pairs are used for send and receive so it's possible for the cable to be "bad" in only one direction.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1932705/how-to-properly-troubleshoot-network-sharing-between-two-windows-computers
 
 ---

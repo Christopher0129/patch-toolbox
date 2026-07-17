@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2357**
+**总计条目 / Total entries: 2367**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -43649,5 +43649,166 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8553-1
+
+---
+
+#### 2358. CVE-2026-58659 - pytorch-lightning: PyTorch Lightning: Remote code execution via malicious…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pytorch-lightning: PyTorch Lightning: Remote code execution via malicious checkpoint files. Bugzilla: 2501037
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501037
+
+---
+
+#### 2359. CVE-2026-30623 - litellm: LiteLLM: Remote code execution via unvalidated MCP server configuration
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: LiteLLM: Remote code execution via unvalidated MCP server configuration. Bugzilla: 2501202
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501202
+
+---
+
+#### 2360. [Ubuntu] USN-8490-2: Linux kernel (Real-time) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Block layer subsystem; - Cryptographic API; - DMA engine subsystem; - InfiniBand drivers; - STMicroelectronics network drivers; - Network drivers; - NVME drivers; - SCSI subsystem; - USB over IP d
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8490-2
+
+---
+
+#### 2361. [Ubuntu] USN-8477-2: tar regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8477-1 fixed a vulnerability in tar. The update introduced a regression that could cause tar to fail to extract certain valid files. This update fixes the problem. Original advisory details: It was discovered that tar incorrectly handled certain crafted archive files. An attacker could possibly use this to inject hidden files with attacker-controlled content, bypassing pre-extraction inspectio
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8477-2
+
+---
+
+#### 2362. CVE-2026-10037
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+
+**漏洞描述 / Description**:
+A sandbox escape vulnerability exists in the OpenJDK packages provided in Ubuntu. The .jar MIME handlers installed by these packages execute files marked as executable when the mailcap package is installed. A compromised or malicious sandboxed application with access to the OpenURI portal via xdg-desktop-portal-gtk can write a malicious .jar file to the host file system, set its executable bit, and trigger the handler to execute arbitrary code outside of the sandbox environment.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/openjdk-25/+bug/2153100.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/openjdk-25/+bug/2153100
+
+---
+
+#### 2363. CVE-2026-58198
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+ChatterBot is a machine learning, conversational dialog engine for creating chat bots. Prior to 1.2.14, UbuntuCorpusTrainer.extract() uses a predictable home-rooted output directory (~/ubuntu_data/ubuntu_dialogs) with a check-then-create pattern followed by tar.extractall(path=self.data_path), allowing a local attacker who pre-plants a symlink at the predictable path to cause archive contents to be written through the symlink to an attacker-chosen directory. This issue is fixed in version 1.2.14.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/gunthercox/ChatterBot/commit/82817b5c28bfd43e682b991bcc76e6f780726dbf.
+
+**参考链接 / References**:
+- https://github.com/gunthercox/ChatterBot/commit/82817b5c28bfd43e682b991bcc76e6f780726dbf
+- https://github.com/gunthercox/ChatterBot/pull/2445
+- https://github.com/gunthercox/ChatterBot/releases/tag/1.2.14
+- https://github.com/gunthercox/ChatterBot/security/advisories/GHSA-wvrh-2f4m-924v
+- https://github.com/gunthercox/ChatterBot/security/advisories/GHSA-wvrh-2f4m-924v
+
+---
+
+#### 2364. CVE-2026-55576
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+MaaAssistantArknights is a one-click tool for daily Arknights tasks. In the current dev-v2 workflow, .github/workflows/release-preparation.yml inlined attacker-controlled github.event.pull_request.title into a run: shell command during the pull_request opened, reopened, and ready_for_review events, so a non-draft fork PR whose title starts with Release v could execute shell commands on the ubuntu-latest runner during the generate-changelog job. This vulnerability is fixed by commit cafc3946059e6337d2089d4fec8b6885ba17c332.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://github.com/MaaAssistantArknights/MaaAssistantArknights/commit/cafc3946059e6337d2089d4fec8b6885ba17c332.
+
+**参考链接 / References**:
+- https://github.com/MaaAssistantArknights/MaaAssistantArknights/commit/cafc3946059e6337d2089d4fec8b6885ba17c332
+- https://github.com/MaaAssistantArknights/MaaAssistantArknights/security/advisories/GHSA-pqx2-5g66-f5w8
+
+---
+
+#### 2365. CVE-2026-11386
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.0
+
+**漏洞描述 / Description**:
+An input validation and injection vulnerability exists in Canonical ubuntu-pro-client (formerly ubuntu-advantage-tools). The client constructs APT source files (such as /etc/apt/sources.list.d/ubuntu-.list or their DEB822 equivalents) using data received directly from the contract server response via the directives.suites[] and directives.aptURL fields. Because the client utilizes Python's str.format() to write these files without performing escaping, validation, or newline character filtering, a malicious or tampered contract response containing embedded newline (\n) characters can successfully inject arbitrary, attacker-controlled deb configuration lines into root-owned APT sources. When combined with the unvalidated additionalPackages[] field—which is passed positionally into a root-executed apt-get install command—an attacker capable of spoofing or manipulating the contract response (e.g., via a compromised internal infrastructure, an intercepted connection utilizing a trusted CA, or local logical bugs) can force the client to fetch and install malicious packages. This ultimately leads to arbitrary code execution with root privileges on the affected system. This component is preinstalled on supported Ubuntu Server releases and auto-attaches by default on cloud provider Ubuntu Pro images.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://ubuntu.com/security/CVE-2026-11386.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/CVE-2026-11386
+
+---
+
+#### 2366. CVE-2026-12391
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.0
+
+**漏洞描述 / Description**:
+An insecure symlink following vulnerability exists in Canonical ubuntu-pro-client (formerly ubuntu-advantage-tools) within the pro collect-logs command framework. The utility creates or utilizes predictable temporary file paths or user-accessible log directories when gathering diagnostic information without verifying the file type or ownership. An unprivileged local attacker can exploit this behavior by creating a symbolic link (symlink) at a predictable destination path pointing to an arbitrary, root-readable file (such as /etc/shadow or private files within /root). When a root administrator or operator subsequently executes the pro collect-logs command, the tool follows the user-controlled symlink, reads the target file, and compresses its contents into the resulting diagnostic support archive. Because the output archive remains readable by the unprivileged user, the attacker can extract and read the sensitive root-owned files, leading to a complete information disclosure of system secrets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://ubuntu.com/security/CVE-2026-12391.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/CVE-2026-12391
+
+---
+
+#### 2367. CVE-2026-9494
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.5
+
+**漏洞描述 / Description**:
+An information disclosure vulnerability exists in Canonical ubuntu-pro-client (formerly ubuntu-advantage-tools). The client validates Ubuntu Pro APT credentials by executing /usr/lib/apt/apt-helper using the download-file command. During this process, the secret bearer token is embedded directly in
+the cleartext URL component passed via the command-line arguments (argv), resulting in a URL format such as https://bearer:<token>@esm.ubuntu.com/.../. On systems utilizing a default-mounted /proc file system where process-hiding mitigations (such as hidepid) are disabled, an unprivileged local attacker can
+monitor system processes and read the sensitive bearer token directly from /proc/cmdline while the helper process is actively running. This leaked token can subsequently be used to gain unauthorized access to the victim's Ubuntu Pro or Expanded Security Maintenance (ESM) repositories.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://ubuntu.com/security/CVE-2026-9494.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/CVE-2026-9494
 
 ---
