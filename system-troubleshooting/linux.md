@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7435**
+**总计条目 / Total entries: 7599**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -104595,5 +104595,2143 @@ Your question Where is this configuration setting for gthumb? I don't personally
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806746/where-is-this-configuration-setting-for-gthumb
+
+---
+
+#### 7436. Flathub announces migration away from GitHub to its own Forgejo instance at GUADEC 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v00tfs/flathub_announces_migration_away_from_github_to/
+
+---
+
+#### 7437. GNOME OS Safe Mode Improving The System Reliability
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uzwbb5/gnome_os_safe_mode_improving_the_system/
+
+---
+
+#### 7438. Prompt injection as active defense (ie. in SSH banners, etc.)?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uzm2ij/prompt_injection_as_active_defense_ie_in_ssh/
+
+---
+
+#### 7439. Fred TV Mobile 2.0: Ultra-Fast Open-Source IPTV app, now will full Android TV support and much more!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v01jw3/fred_tv_mobile_20_ultrafast_opensource_iptv_app/
+
+---
+
+#### 7440. How eBPF lets Linux run your code inside the kernel
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1uzojc6/how_ebpf_lets_linux_run_your_code_inside_the/
+
+---
+
+#### 7441. How far would hostile distributions go to hurt application developers? — Hari Rana
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v00dyg/how_far_would_hostile_distributions_go_to_hurt/
+
+---
+
+#### 7442. AI on the linux desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v00ywk/ai_on_the_linux_desktop/
+
+---
+
+#### 7443. The 2026 Developer Survey is now open
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uh5k5h/the_2026_developer_survey_is_now_open/
+
+---
+
+#### 7444. A retro console synth: uses my draft immediate-mode C TUI library, runs on esp32-p4, web demo
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uz8z8d/a_retro_console_synth_uses_my_draft_immediatemode/
+
+---
+
+#### 7445. Command Line Interface Guidelines
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uy9bc5/command_line_interface_guidelines/
+
+---
+
+#### 7446. ssh cli.poker - an SSH server to play live heads-up poker
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1ux4fdd/ssh_clipoker_an_ssh_server_to_play_live_headsup/
+
+---
+
+#### 7447. tcols, a Columns-like command line game made with ncurses
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uy224v/tcols_a_columnslike_command_line_game_made_with/
+
+---
+
+#### 7448. Small script I made for setting up wifi on OpenBSD
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uwmrfb/small_script_i_made_for_setting_up_wifi_on_openbsd/
+
+---
+
+#### 7449. Nerve CLI: A fast terminal monitor for cross-language IPC traffic
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uwdexe/nerve_cli_a_fast_terminal_monitor_for/
+
+---
+
+#### 7450. Wondering about the next steps...
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uw158k/wondering_about_the_next_steps/
+
+---
+
+#### 7451. hdi - extract the most useful / timely information from READMEs
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uwjgxd/hdi_extract_the_most_useful_timely_information/
+
+---
+
+#### 7452. tinhorn: dice roller to simulate the joy of physical dice
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uuxhnz/tinhorn_dice_roller_to_simulate_the_joy_of/
+
+---
+
+#### 7453. I made portwho: one TUI for listening sockets + connections + live throughput (no root needed)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uvkw5g/i_made_portwho_one_tui_for_listening_sockets/
+
+---
+
+#### 7454. A new Powerlevel10k theme called ghostline
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uv6l9c/a_new_powerlevel10k_theme_called_ghostline/
+
+---
+
+#### 7455. Does anyone here know how to get Pure markdown editor to work?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1utuct4/does_anyone_here_know_how_to_get_pure_markdown/
+
+---
+
+#### 7456. xan: the CSV magician
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1usr1r7/xan_the_csv_magician/
+
+---
+
+#### 7457. Interview with Mitchell Hashimoto about Ghostty and Zig
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1usiqrm/interview_with_mitchell_hashimoto_about_ghostty/
+
+---
+
+#### 7458. mwb-linux: a headless Go daemon that shares mouse, keyboard and clipboard with Windows (Mouse Without Borders protocol)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uq5u0n/mwblinux_a_headless_go_daemon_that_shares_mouse/
+
+---
+
+#### 7459. a fuzzy spotlight-style switcher for tmux windows/sessions, now works outside tmux too
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1upowc3/a_fuzzy_spotlightstyle_switcher_for_tmux/
+
+---
+
+#### 7460. 3-month update on my Zig ls-like CLI: configurable long view and Homebrew install
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1uqeqy4/3month_update_on_my_zig_lslike_cli_configurable/
+
+---
+
+#### 7461. Getting mutt email client to work with school Office 365
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1up0pcs/getting_mutt_email_client_to_work_with_school/
+
+---
+
+#### 7462. Jay: A semantic AUR Helper wrapper (Arch linux) with Flatpak integration
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1up8p4y/jay_a_semantic_aur_helper_wrapper_arch_linux_with/
+
+---
+
+#### 7463. Micro plugins
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1unt59v/micro_plugins/
+
+---
+
+#### 7464. git-remote-pqcrypt: Git remote helper and CLI tool for encrypted repository storage
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1umhbn4/gitremotepqcrypt_git_remote_helper_and_cli_tool/
+
+---
+
+#### 7465. How can I edit the same file in two windows?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1um0cin/how_can_i_edit_the_same_file_in_two_windows/
+
+---
+
+#### 7466. Ditched Termius after they killed free sync, so I made my own SSH client
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1umi7ha/ditched_termius_after_they_killed_free_sync_so_i/
+
+---
+
+#### 7467. Intellisense autocompletions inside of Bash
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1ukz9zn/intellisense_autocompletions_inside_of_bash/
+
+---
+
+#### 7468. [V2EX] 强烈推荐一款性价比极高的 Linux 本搞 vibe coding
+
+**问题描述 / Problem Description**:
+Linux 笔记本这里讨论过很多次，我自己都多次发帖，我也前后用过折腾过一二十个笔记本， 60% Apple, 30% Thinkpad X1C/T 系列 10% 杂牌甚至 PAD/Surface 系列 多多少少都有不满意的对方，大部分是兼容问题，电池问题，驱动问题，启动问题，稳定问题。 由于目前我自己主要用 AI 来写一些小项目，所以主要考虑轻便，续航高，性能无所谓，由于 M 芯片支持不是太友好，要不然 M 芯片应该是首选。 后来我研究发现 12 寸的 Macbook+Omarchy 是极品配置 我以前定制过一台 12 寸的，好像 1.2w 买的，用了半年不习惯（那个时候觉得性能不行发热）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227981#reply31
+
+---
+
+#### 7469. [V2EX] [Rewrite Bun in MC++] 7 天 20+万行代码 C++26 模块化, 重写 Bun 行为艺术复刻, 已能真实运行顶级开源 Web 框架项目
+
+**问题描述 / Problem Description**:
+背景 之前 Anthropic 团队用 Agent 开发 C 编译器 以及 早期 Rewrite Bun in Rust . 最初我也就看个热闹, 但没有想到的是 Bun 作者真的把这个 100W+行的 PR 合入了, 我相信这不仅是对我而是整个开发者群体都是一件相当震惊的事情。 一个 ~100k+ star 、真实应用到生产环境的顶级开源项目、不到 2 周时间 AI 编写了 100 万+行代码 单个 PR 直接合入主分支了! 这里最核心的是他不是一个玩具项目。所以这个事件引发了我的一些思考: 对于百万行级的大型项目 Agent 大幅度参与的可行性、会不会遇到什么问题? 开源项目、开发者、Ag
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228291#reply7
+
+---
+
+#### 7470. [V2EX] 现在机场价格这么离谱了吗
+
+**问题描述 / Problem Description**:
+用了挺久的机场快到期了，寻思续费一年，一看价格感觉好贵啊，准备换家试试 以前感觉两三百就算比较高端的了，上千暂时还是接受不了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228287#reply9
+
+---
+
+#### 7471. [V2EX] 能否把逻辑跟 AI 说清楚，让它先不要写实际代码(pyside6 界面)。而是先用最简单的 html 把页面/按钮布局和伪数据把图表/折线图等递进的逻辑关系表达出来？ 经过审核，觉得可以再用代码实施呢？
+
+**问题描述 / Problem Description**:
+类似于逻辑效果图吧，可以吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228279#reply6
+
+---
+
+#### 7472. [V2EX] 完全没有编程经验能否依靠 AI 开发一些小软件
+
+**问题描述 / Problem Description**:
+玩电脑倒是有 20 年的经验，不过也就是比普通用户多知道一些电脑知识。对编程一窍不通。 AI 时代已经走过好几年了，现在 AI 的能力更上一层楼，看了很多用 AI 辅助开发软件的案例。心中有一丝疑惑？ 1 ，普通人能否依靠 AI 开发一些个人使用的单机软件呢？比如某些辅助工具软件。方便自己的工作或者生活吗？ 2 ，如果可行的话，自己还需要学习哪些知识内容？ 3 ，哪个 AI 的编程能力比较强？ 4 ，开发完全让 AI 编写，还是自己也要参与部分编写呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228254#reply23
+
+---
+
+#### 7473. [V2EX] crRequest 1.1.0 跨平台的 API 开发者工具
+
+**问题描述 / Problem Description**:
+免费下载: https://github.com/libcr/crRequest/releases 1.1.0 把 chromium 内置接口，添加了 crRequest 的工具箱页面，方便开发者使用 HASH ，HMAC ，AES ，Regex Tester ，UUID Generater 接口 crRequest 纯 C++实现 基于源代码 chromium 150.0.7871.91 1. 基于 100% chromium 网络代码， 支持 QUIC, HTTP2 等网络协议 2. 使用 chromium UI 框架设计跨平台应用界面，提供一致且优秀的性能表现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228243#reply0
+
+---
+
+#### 7474. [V2EX] cursor 两天重构了小红书 uniapp 项目
+
+**问题描述 / Problem Description**:
+http://8.146.211.120:8081/ 页面基本 100%还原
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228237#reply9
+
+---
+
+#### 7475. [V2EX] 开发 App 时为了调研竞品，我做了个 AI 评论分析扩展
+
+**问题描述 / Problem Description**:
+最近在开发一个 App ，前期免不了做产品调研——把竞品在 App Store 和 Google Play 上的用户评论翻一遍，看看大家都在吐槽什么、想要什么。 想法很直接，做起来才发现：一个好点的 App 动辄几千条评论，逐条翻不现实，跳着看又怕漏掉关键信息。那些 Saas 数据平台功能确实强，年费几千上万，对个人开发者来说太重了。 自己刚好会写代码，就做了个浏览器扩展。访问 App Store 或 Google Play 的评论页面，自动抓评论 → 丢给 AI 做语义聚合 → 把零散的吐槽和需求提炼成结构化的信号 → 按评分排好序。 每个信号会告诉你：这是什么问题（比如"加载速度慢"），严
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228229#reply0
+
+---
+
+#### 7476. [V2EX] vibe coding 问题想请教一下。
+
+**问题描述 / Problem Description**:
+前情提要： https://www.v2ex.com/t/1227585 几天前我在以上帖子看到了一个分享创造，一楼 V 友说了句“Vibe Coding 真是让每一个人都能开发了，奇奇怪怪的产品又增加了”，我一直呆在实业/制造业，其实平时根本不用接触写代码/IT 开发的，但很多时候都想按照自己想法做个网站运营一下，所以想试试是否真的“每一个人都能开发了”。 考虑到现时比较多人推崇或者被普遍认为较为先进的 AI 模型都收费，我决定随缘，采用上贴 OP 推荐的 trae 试试。由于我对自己能否说清问题和 AI 能否理解问题和实现功能都比较怀疑，所以我没有写功能列表和实现计划。直接对话开干，技术选
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228221#reply8
+
+---
+
+#### 7477. [V2EX] AI 写代码的时候总是使用大量的辅助函数，应该如何处理？
+
+**问题描述 / Problem Description**:
+提示词中应该如何表达？似乎 AI 总是忽略我的提示词。 ``` 避免过度抽象: 不要创建一次性 helper 、utils 、wrapper 或局部小框架，除非能明确提升复用、测试、复杂度隔离或语义稳定性。不要做辅助函数小王子。 ``` 不喜欢过度抽象，尤其是重复的大量小辅助函数。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228216#reply9
+
+---
+
+#### 7478. [V2EX] 大家用 AI 写代码真实感受是啥？
+
+**问题描述 / Problem Description**:
+先说说，会感觉比较空虚； 因为代码写完了，但是不是我写的，我没学到东西也没发现问题。没有仔细 review 代码，大概率也不会 review 心里没底； 连调和修 bug 的时候心理没底，因为不知道写了啥东西 🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228212#reply40
+
+---
+
+#### 7479. [V2EX] PowerShell 和 Codex 在打架？可以试试这份提示词
+
+**问题描述 / Problem Description**:
+今天花时间写了篇 codex 下使用 PowerShell 的文章 在 V2EX 上也发一份 背景 最近半年一直 Windows 下使用 Codex 开发项目，逐渐把开发环境打造得更接近 Linux 下的开发体验。最近看到很多人反馈 PowerShell 和 Codex 打架的情况，因为这问题我之前就解决了，所以想分享下我的方案。 现在这套环境谈不上多复杂，主要有两个重点： 先把终端环境统一，再用提示词把大模型的命令习惯掰过来。 先安装 pwsh 7 和 Windows Terminal 如果你还在使用系统自带的 Windows PowerShell 5.1 ，我建议先换成现代 shell：P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228204#reply23
+
+---
+
+#### 7480. [V2EX] 2026，我将博客部署到了 Cloudflare（CF）
+
+**问题描述 / Problem Description**:
+20 年的时候，我看别人写博客，自己也开始凑热闹，大多都是些没有啥价值的内容。当时想着，肯定要部署在国内的云服务上，于是发现成本还挺高的。要购买域名（还必须是 .com 后缀)，还要搞定备案，HTTPS 还要单独配置。 并没有坚持写几篇内容，还要经常注意别让免费的证书过期了，虽然可以通过脚本来处理。但是当时自己的心智还不足以成熟到把一件事情做好。 24 年的时候，我觉得自己维护服务器太麻烦了，于是将博客直接采用了 Github Pages 部署，因为再也不用担心服务器的维护问题了。 反倒是在这个时候，开始坚持发布我的读书笔记，慢慢了习惯了将自己的阅读记录整理出来。 虽然大多数读书笔记对于大多数
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228199#reply27
+
+---
+
+#### 7481. [V2EX] codex 重置后， 5.6 Sol 不见了，你们也这样吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228198#reply2
+
+---
+
+#### 7482. [V2EX] codex 额度刚才又重置了，虽迟但到
+
+**问题描述 / Problem Description**:
+Tibo: Enjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever. Enjoy the weekend! Oops...我又搞砸了。 所有付费用户都可以享受 Codex 和 ChatGPT Work 的复位使用限额。非常感谢这个不可思议的团队，他们以惊人的速度迭代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228196#reply0
+
+---
+
+#### 7483. [V2EX] A÷搞抽象， OpenAI 搞重置
+
+**问题描述 / Problem Description**:
+A÷已经把好感度败的差不多了，论性能差不多，论营销不如 oai ，论整活，和 oai 差太远了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228191#reply0
+
+---
+
+#### 7484. [V2EX] kimi3 是否适合后端？
+
+**问题描述 / Problem Description**:
+现在看到 Kimi3 测试都是基于前端写什么页面的。 受不了 gpt 了。 开通了 Pro 20x 一天就没了。 每天在等 reset 很烦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228182#reply8
+
+---
+
+#### 7485. [V2EX] 现在 Python 开发一堆 agent 的工作，你们都是怎么学的？
+
+**问题描述 / Problem Description**:
+以前工作中也用不到，B 站查了几个课，貌似讲得很基础。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228178#reply5
+
+---
+
+#### 7486. [V2EX] Harness ： Vibe Coding 时代的研发将何去何从
+
+**问题描述 / Problem Description**:
+AI Coding 大爆发，一方面带来编程指数级的提效。另一方面，让无数技术人的职业生涯面临巨大挑战。 Vibe Coding 的普及，甚至非技术人能轻松写代码，是否意味以后研发工程师会大面积消失？那么真实的企业又是怎样？ 我想通过目前接触到前沿的团队和企业，分享一线的资讯和感受 1 、中国公司比较“狠”，倒“逼” Vibe Coding 的极限价值。Vibe Coding 在一定场景下替换到整个技术团队，这不是在夸张比喻，这变成了既定事实。 2 、研发的未来价值：解决 Vibe Coding 面临的瓶颈.Harness Engineer 解决企业用 AI 编程的“三个失控”：财务失控、质量失
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228173#reply0
+
+---
+
+#### 7487. [V2EX] 记录一次小程序逆向
+
+**问题描述 / Problem Description**:
+需求 小区有个电动车的地下车库，需要用微信小程序扫码打开，充电也需要扫码。但是车库信号很差，经常加载不出来小程序，或者是加载出来了提示我没开会员。所以想做一个 APP ，直接把请求放我 APP 里，这样至少减小了网络流量，理论上来说应该不会再出现上面的情况了。 实现路径 解包 小程序的逆向工具已经很成熟了，我去 GitHub 随便搜了下 wxapkg 关键字就搜到了，用这个工具完成解包。 抓包 解包的部分很顺利，拿到了相应的接口及输入输出格式。但是他的接口需要鉴权，看了下实现是用 wx.login 获取的 code 去登陆的。他的大致原理是小程序调用 wx.login 从微信获取一个 code
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228153#reply18
+
+---
+
+#### 7488. [V2EX] 有了 ai，一个小插件文件，实现了 X 的照猫画虎仿制！
+
+**问题描述 / Problem Description**:
+X 的照猫画虎仿制 https://bbs.domains 有兴趣的可以安装试试， 一个文件实现的。安装[x_skin]X 风格皮肤插件即可。 仓库地址： https://github.com/bbs1org/bbs1org
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228152#reply8
+
+---
+
+#### 7489. Emacs info manual missing in Ubuntu 17.10
+
+**问题描述 / Problem Description**:
+Tags: package-management, 17.10, debian, emacs, documentation | Score: 15 | Views: 3438 | Answers: 2 | Created: 2018-01-22
+
+**解决方案 / Solution**:
+The Emacs documentation is in the package emacs25-common-non-dfsg .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/998527/emacs-info-manual-missing-in-ubuntu-17-10
+
+---
+
+#### 7490. Is there an equivalent of caniuse for commands on posix systems?
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, compatibility | Score: 8 | Views: 866 | Answers: 3 | Created: 2024-07-19
+
+**解决方案 / Solution**:
+There are a few tools or sites which can be used to find out which version of a project is available in various distributions (including non-Linux systems); see Is there a tool/website to compare package status in different Linux distributions? It’s much harder to categorically state which systems have a given package by default. In some cases there is no really reliable default; for example, most Debian systems will have wget when initially set up (because it’s “standard” there), but Debian container images don’t include it by default, and there’s nothing forcing wget to be installed on a Debian system. There’s also no requirement for users to use their system’s package (if any) to provide a given binary. They may also have both a packaged version and a manually-installed version available, and looking at only the package may give a false impression ( e.g. if you need at least a specific version, and the installed package is older, but the user has an appropriate version on their path). All this means that you can’t do much better than check for a command’s existence and fail if you can’t find all the commands you need, with links to instructions explaining how to install them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780429/is-there-an-equivalent-of-caniuse-for-commands-on-posix-systems
+
+---
+
+#### 7491. How do you add Debian experimental repo to Ubuntu, for those understanding the risks associated?
+
+**问题描述 / Problem Description**:
+Tags: apt, package-management, ppa, repository, debian | Score: 8 | Views: 24189 | Answers: 3 | Created: 2017-07-01
+
+**解决方案 / Solution**:
+Sorry for this long answer, but the previous answers are all erroneous in one way or another, so I hope this attempt to be a bit of help to everyone. Besides "experimental", Debian has several streams of packages that it calls "distribution". And every such distribution has its very own name. The current stable distribution was just released and is called "buster". Before that, now referred to as "oldstable" was "stretch", before that was oldoldstable "jessie". The 5/2013 released "wheezy" still sees another year of long-term support ( https://wiki.debian.org/LTS ). The one that is under current development is always called "testing", and it also always has a name that testing will be known to at the time it is released, this is "bullseye" now. There is also a distribution to which developers upload new packages, which is "unstable" and runs under the permanent name "sid". Packages uploaded to sid are auto-transferred to testing if there was no critical bug assigned to it during the first days (the uploader says how many days) of presence in unstable. For non-critical machines it is perfectly fine to run testing or unstable. The "unstable" refers to packages changing a lot, not to "software that crashes". Experimental is kind of special in that it only has the name "experimental", no assignment to a toy story character it has a dual use as an ever lasting repository for packages that are not considered ready for the general public to use and as a temporary store for packages while the release is finalised and new uploads are put on hold ("freeze"). packages are auto-removed from experimental when newer versions of a software appear on unstable Debian developers typically expect users of testing or unstable to be the ones that install packages from experimental. Users of stable are likely to need updates to libraries. A recent version of Ubuntu should be fine with installing Debian packages from experimental directly, you would indeed just add deb http://httpredir.debian.org/debian/ experimental main contrib non-free to your /etc/apt/sources.list but this is not what I tend to recommend. It depends a bit on the number of packages that are dragged in by the update and the dependencies on specific versions of libraries. If it is too many that apt-get suggests to install, then stop the installation if you fear a negative effect on your other binaries. Instead, I suggest that you compile the software yourself. You may add deb-src http://httpredir.debian.org/debian/ experimental main contrib non-free to sources.list (instead or in addition to the prior mentioned line describing a source for binary packages) and after apt-get update do apt-get build-dep wantedpackagename # installs build dependencies apt-get source --compile wantedpackagename # fetches source and builds If the right version is downloaded you see at the time of the download. For binaries, have not tried with apt-get source , to retrieve from the experimental section you may also from Ubuntu need to specify "-t experimental" as additional flags to apt-get install. With apt-cache show wantedpackagename you see all versions of the package available to the system. When building from source, there is absolutely no risk at all to damange your system since you leave all libraries at the version that your regular distribution already offers. There should hence be no side-effects. If the build fails, then it may already fail because the build dependencies could not be matched upfront. With build dependencies matched, a failed build you may decide to report to the package maintainer to improve his build instructions and possibly continue working on the package together. It is common for a package maintainer to be very happy about constructive feedback, so do not be shy.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/930867/how-do-you-add-debian-experimental-repo-to-ubuntu-for-those-understanding-the-r
+
+---
+
+#### 7492. Is bash's expansion of unset parameters to the empty string documented anywhere?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 6 | Views: 1407 | Answers: 3 | Created: 2025-01-12
+
+**解决方案 / Solution**:
+In man bash , you can find the following under "Word Splitting": Explicit null arguments ( "" or '' ) are retained and passed to commands as empty strings. Unquoted implicit null arguments, resulting from the expansion of parameters that have no values, are removed. If a parameter with no value is expanded within double quotes, a null argument results and is retained and passed to a command as an empty string. When a quoted null argument appears as part of a word whose expansion is non-null, the null argument is removed. That is, the word -d'' becomes -d after word splitting and null argument removal.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789467/is-bashs-expansion-of-unset-parameters-to-the-empty-string-documented-anywhere
+
+---
+
+#### 7493. Dynamics between parameter expansion and arithmetic expansion in echo $a$((a=2))$a
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 6 | Views: 302 | Answers: 1 | Created: 2024-03-08
+
+**解决方案 / Solution**:
+this contradicts my understanding of the GNU bash manual which states that there is clear order in bash expansion: arithmetic expansion being performed AFTER parameter expansion. That's not what man bash states. Read carefully: The order of expansions is: brace expansion; tilde expansion, parameter and variable expansion, arithmetic expansion, and command substitution (done in a left-to-right fashion); word splitting; and pathname expansion. Note the use of commas and semicolons. Tilde, parameter, variable, and arithmetic expansions, and command substitution all happen at the same level, left to right, in accord with the observed behaviour. FWIW, the POSIX text has clearer formatting in its corresponding section . It says: The order of word expansion shall be as follows: Tilde expansion, parameter expansion, command substitution, and arithmetic expansion shall be performed, beginning to end. See item 5 in Token Recognition. Field splitting shall be performed on the portions of the fields generated by step 1, unless IFS is null. Pathname expansion shall be performed, unless set -f is in effect. Quote removal shall always be performed last.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771917/dynamics-between-parameter-expansion-and-arithmetic-expansion-in-echo-aa-2
+
+---
+
+#### 7494. Merging multiple JSON data blocks into a single entity
+
+**问题描述 / Problem Description**:
+Tags: shell, json, jq | Score: 5 | Views: 478 | Answers: 2 | Created: 2024-12-13
+
+**解决方案 / Solution**:
+You can use map | add to merge all of the tickets into a single array: jq -s '{tickets: map(.tickets) | add}' part_{1..3}.json Or with parameterisation of tickets , key=$(jq -r 'to_entries[] | select(.value | type == "array") | .key' part_1.json) jq -s --arg key "$key" '{ ($key): map(.[$key]) | add }' part_{1..3}.json Or with one jq invocation: jq -s ' ( first | to_entries[] | select(.value|type == "array") | .key ) as $key | { ($key): map(.[$key]) | add }' part_{1..3}.json
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788080/merging-multiple-json-data-blocks-into-a-single-entity
+
+---
+
+#### 7495. Does the shell's & operator perform redirects before or after starting asynchronous commands?
+
+**问题描述 / Problem Description**:
+Tags: shell, io-redirection, background-process | Score: 5 | Views: 174 | Answers: 1 | Created: 2024-08-24
+
+**解决方案 / Solution**:
+The forking is done first and the open(2) for the redirection done in the child process. Doing the open(2) before the fork(2) would make little sense. It would also make fifos less usable. For instance: cmd1 < fifo & cmd2 > fifo Would hang because the open("fifo", O_RDONLY) doesn't return until fifo is also open in write mode. That would also mean the shell would need to close the fd in the parent after the fork() . It's easy to check with strace or equivalent. $ strace -fP /dev/zero sh -c 'echo > /dev/zero & wait' strace: Process 10918 attached [pid 10918] openat(AT_FDCWD, "/dev/zero", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3 [pid 10918] dup2(3, 1) = 1 [pid 10918] close(3) = 0 [pid 10918] write(1, "\n", 1) = 1 [pid 10918] dup2(10, 1) = 1 [pid 10918] +++ exited with 0 +++ --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10918, si_uid=1000, si_status=0, si_utime=0, si_stime=0} --- +++ exited with 0 +++ You can see the open() is done by the child, the same that runs echo (here builtin). It's not only redirections that are done in the child, all expansions are done there too. If not, that could mean running something in background doesn't get you back to the prompt immediately. For instance, after: /bin/true $(sleep 12) /*/*/*/* > "/dev/null$(sleep 100)" & You get back to the prompt instantly, with the child subshell process busy getting the output of sleep 12 , then expanding /*/*/*/* , then getting the output of sleep 100 , then opening /dev/null , then running /bin/true (or failing to if that /*/*/*/* expands to too many files). The order in which those operations are done may vary with the shell, but they all do it in a child process.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782478/does-the-shells-operator-perform-redirects-before-or-after-starting-asynchron
+
+---
+
+#### 7496. Why does editing '/etc/shells' file using 'sudo open' shows an error saying I don't own the file?
+
+**问题描述 / Problem Description**:
+Tags: shell, sudo, macos | Score: 5 | Views: 1727 | Answers: 3 | Created: 2024-08-13
+
+**解决方案 / Solution**:
+The macOS command open command will not actually start the editor on its own. Instead, it asks the macOS Launch Services to do it. Your login session's Launch Services component runs as your regular user account, and so it cannot launch the editor with root privileges. Using sudo to have the open command make the request with root privileges does not change this fact. There does not seem to be a way to add an attribute that would effectively say "please start the application that will open this file as root " to the Launch Services request, and even if it was, it seems the Launch Services wouldn't have the capability to run things as root anyway.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781868/why-does-editing-etc-shells-file-using-sudo-open-shows-an-error-saying-i-do
+
+---
+
+#### 7497. printf in Zsh does not shell escape exclamation mark
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, zsh, printf | Score: 5 | Views: 645 | Answers: 1 | Created: 2024-05-17
+
+**解决方案 / Solution**:
+It looks like it checks the current shell settings to determine if the bang is special. History expansion isn't enabled by default in noninteractive shells, so it's not special in a script. % (setopt banghist; printf '%q\n' 'One! Two') One\!\ Two % (setopt nobanghist; printf '%q\n' 'One! Two') One!\ Two The same appears to apply to the ${(q)var} parameter expansion. Honestly, I find that a somewhat odd choice, as while it means the output is suitable as input to the same shell session, it's not generally suitable as input to every zsh session. Always escaping the bang shouldn't cause any issues as \! gives a ! regardless of if banghist is set. You could use ${(qq)var} instead to single-quote the string (or ${(qqqq)var} to use the $'...' quotes). The bang would then be quoted along with everything else. Or make it into a function: % printq() { printf '%s\n' "${(qq)1}" } % printq one\!two 'one!two'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/776665/printf-in-zsh-does-not-shell-escape-exclamation-mark
+
+---
+
+#### 7498. Root couldn't write to file with rw permissions for all users and owned by other user
+
+**问题描述 / Problem Description**:
+Tags: shell, permissions, chmod, chown, ownership | Score: 5 | Views: 827 | Answers: 1 | Created: 2024-05-01
+
+**解决方案 / Solution**:
+When you run this as the user armoken the file is created according to your current permissions settings, which are such that you can read/write the file but no-one else can: ls -l /var/tmp/lll.log -rw------- 9 armoken 1 May 10:52 /var/tmp/lll.log So when other users try to write to this file they have no permission to do so. However, it's more complicated than this because you have the protected regular files security feature enabled in your system's kernel ( cat /proc/sys/fs/protected_regular returns non-zero). This means that, regardless of these permissions, no-one other than the owner can write to a file in a sticky directory such as /var/tmp - not even root - unless the file is owned by the owner of the directory itself. So, if you want everyone to be able to read/write this file in this directory you need to set it up so that root owns it and that anyone can write to it. But bear in mind this means other people can erase or change content in the file too. #!/bin/sh if [ ! -f /var/tmp/lll.log ] then # File does not exist if [ "$(id -u)" -eq '0' ] then # We are root so create the file (and continue) >/var/tmp/lll.log chmod a=rw /var/tmp/lll.log else echo 'ERROR: Log file does not exist. Have your systems administrator create it before proceeding' >&2 exit 1 fi fi # Now anyone can read/write the contents of the file echo 'This is a test message' >>/var/tmp/lll.log This is not defensive coding, though, as anyone can still create the file and prevent others from using it. A better solution might be to use a logger. For example, this will write to the files managed through journalctl (and/or /var/log/user.log otherwise) logger 'This is a test message' journalctl --since today | tail … May 01 10:14:24 myServer myUser[18892]: This is a test message …
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775597/root-couldnt-write-to-file-with-rw-permissions-for-all-users-and-owned-by-other
+
+---
+
+#### 7499. "Here Document" as a Single Line Command?
+
+**问题描述 / Problem Description**:
+Tags: shell, here-document, here-string | Score: 5 | Views: 2450 | Answers: 3 | Created: 2024-03-29
+
+**解决方案 / Solution**:
+But shouldn't it work if the semicolon ; means "we're going to run another command"? No, precisely because ; means "we are going to run another command" but you are inserting it in the middle of a single command. Your command is: sha256sum -c << EOF 85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh EOF That is one command, not many. You cannot break that with a semicolon and the way here docs work assumes separate lines, so you cannot do a here doc on a single line. Some shells, however, like bash , support here strings that are probably what you are looking for: sha256sum -c <<< "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" Here strings are just a quick way of passing a string as input to a command (or to file descriptor, but never mind that). You can think of the above as the equivalent of printf '%s\n' "85762db0edc00ce19a2cd5496d1627903e6198ad850bbbdefb2ceaa46bd20cbd install.sh" | sha256sum
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773418/here-document-as-a-single-line-command
+
+---
+
+#### 7500. Whats the simplest way to make source and binary package when you are the original author?
+
+**问题描述 / Problem Description**:
+Tags: packaging, debian | Score: 5 | Views: 431 | Answers: 3 | Created: 2018-01-08
+
+**解决方案 / Solution**:
+Nobody wants pointless anything. And rest assured, the communities that have adopted the .deb packaging (Debian, Ubuntu, Mint, ...) have discussed beyond lengths about everything in there. The basic idea about the packaging is that there is: a tarball that is nothing distribution-specific to argue with, which is the program's distribution-independent source tree. If that already knows how to behave in particular distributions - nice - if not, not. That is the tarball that has to be named yourname_version.orig.tar.(xz,gz,bz2) to be found when creating the package. a tarball that has everything that is specific to a particular release of Debian in a separate folder named - debian. One reason to have it separated, which the question already prepared for is that the individuals packaging are typically not the same as the ones that maintain the software itself. This helps when there is an update of the software so it cannot overwrite the packaging. And it rests assured that there are no hidden changes performed to the original source tree. And a RedHat developer would not want to see the debian-specific bits, so everyone is happy to have the debian folder separated from the rest. So, there are the two tarballs. Not too much overhead, I tend to think. The main concern is the integrity of the upstream source tree. Depending on where you live and about how social you are, there are different ways to start learning how to package. For many, just skimming through the Debian Policy https://www.debian.org/doc/debian-policy/ (surprisingly readable) and the Debian New Maintainer's Guide https://www.debian.org/doc/manuals/maint-guide/ is all they ever want. Others are happy with the dh-make package that provides dh_make that basically auto-packages and yet again others will have a look at https://wiki.debian.org/Keysigning/Offers to meet up with a mostly social Debian Developer to be guided over the first steepest moments. Once you have some routine it is truly just a few minutes from 0 to an installable package, basically it is mostly the compile time that you wait for, so it is not too much to ask IMHO. Most work then goes into the package descriptions or also bits that upstream has not cared enough about like missing man pages or optional bits like the automated notification of updates. Good luck.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/993584/whats-the-simplest-way-to-make-source-and-binary-package-when-you-are-the-origin
+
+---
+
+#### 7501. How to detect if headphones are plugged in for a shell script?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, shell, alsa | Score: 4 | Views: 566 | Answers: 1 | Created: 2024-11-10
+
+**解决方案 / Solution**:
+has_headphone() { for card in /proc/asound/card*; do amixer -c"${card##*card}" cget 'iface=CARD,name=Headphone Jack' done 2> /dev/null | grep -qw values=on } Works for me with alsa-utils 1.2.12 on Debian trixie (testing) and Audio device: Intel Corporation 7 Series/C216 Chipset Family High Definition Audio Controller (rev 04) . See also amixer -c0 contents to see all the controls of card 0 in case the name is different from Headphone Jack in your case. The laptop I test it on has a combined headphone + microphone TRRS jack socket but I still do see an additional Mic Jack control which switches to on when I plug a headset but not a headphone without microphone (TRS jack plug), so for a has_headset that checks whether both a headphone and microphone are connected to the same card, you could do: jack_connected() { amixer -c"$1" cget "iface=CARD,name=$2 Jack" 2> /dev/null | grep -qw values=on } has_headset() { for card in /proc/asound/card*; do card=${card##*card} jack_connected "$card" Headphone && jack_connected "$card" Mic && return done false } Note that under strace , I see amixer doing a: openat(AT_FDCWD, "/dev/snd/controlC0", O_RDWR|O_CLOEXEC) = 3 [...] ioctl(3, SNDRV_CTL_IOCTL_ELEM_INFO, 0x7ffc2fdc3020) = 0 So not getting the information from /proc nor /sys .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786399/how-to-detect-if-headphones-are-plugged-in-for-a-shell-script
+
+---
+
+#### 7502. Why does command 'sort' behave differently for those 2 files
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, sort | Score: 4 | Views: 202 | Answers: 1 | Created: 2024-10-30
+
+**解决方案 / Solution**:
+Solution provided by @MarcusMuller and @ilkkachu: As explained by the manpage: *** WARNING *** The locale specified by the environment affects sort order. Set LC_ALL=C to get the traditional sort order that uses native byte values. $ export LC_ALL=C; echo "f'*.5.7 f'9.0.0 f'*.9.6 "|sort f'*.5.7 f'*.9.6 f'9.0.0 $ export LC_ALL=C; echo "f'*.5 f'9.0 f'*.9 "|sort f'*.5 f'*.9 f'9.0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785846/why-does-command-sort-behave-differently-for-those-2-files
+
+---
+
+#### 7503. how to check if the path from where the script is started stored on a hdd or ssd drive?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, scripting, filesystems | Score: 4 | Views: 646 | Answers: 2 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+What I would do: . is the current directory . #!/bin/bash dev=$(df -P . | awk 'NR==2 {print $1;exit}') res=$(lsblk -n -o ROTA $dev) if ((res == 0)); then printf '%s\n' 'SSD' else printf '%s\n' 'Not SSD' fi Notes & limitations lsblk is typically already installed on GNU/Linux OSes. This is not the case on FreeBSD by example. Moreover, /sys/block/sda/queue/rotational is Linux specific. See Stéphane Chazelas's comment about special cases.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784847/how-to-check-if-the-path-from-where-the-script-is-started-stored-on-a-hdd-or-ssd
+
+---
+
+#### 7504. BASH - Find file with regex - Non-recursively delete number-only filenames in directory
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, find, regular-expression, wildcards | Score: 4 | Views: 596 | Answers: 4 | Created: 2024-09-12
+
+**解决方案 / Solution**:
+No need for regexps, LC_ALL=C find . ! -name '*[!0-9]*' -type f -delete Non-recursively (and that applies for all find commands below), add -maxdepth 1 if supported, or change to: LC_ALL=C find . ! -name . -prune ! -name '*[!0-9]*' -type f -delete ( -delete being a non-standard but fairly common extension, a lot more common than your -regextype which is a GNU-only extension). Would delete the files whose name are made only of digits (those other than the ones that contain at least one non-digit). In zsh , you could also do: rm -f -- **/<->(D.) Non recursive: rm -f <->(.) Where <-> is a form of <1-123> without bound so matches any decimal integer number, and (D) to enable dotglob to also consider hidden files (such as .git/123 ) as find does, and the . qualifier as the equivalent of find 's -type f . To only delete the ones with 1 to 4 digits: LC_ALL=C find . ! -name '*[!0-9]*' ! -name '?????*' -type f -delete rm -f -- **/<0-9999>(D.) Strictly speaking, <0-9999> would also match on 00002 . See also **/[0-9](#c1,4)(D.) in zsh -o extendedglob to explicitly match 1 to 4 digits (similar to ksh93's {1,4}([0123456789]) ). If you wanted to use GNU find 's -regex , you'd need: LC_ALL=C find . -regextype posix-extended -regex '.*/[0-9]{1,4}' -type f -delete Bear in mind that: -regex matches on the full path (like -path , not -name ) and the regexp is implicitly anchored at start and end so you need the .*/ Even more so than for -name , you want LC_ALL=C to be able to match arbitrary file paths (even those that can't be decoded as text in the user's locale), and for [0-9] to match on 0123456789 only. With BSD find , use the -E option instead of the -regextype posix-extended predicate for extended regexps. You could also have done: LC_ALL=C find . '(' -name '[0-9]' -o -name '[0-9][0-9]' -o -name '[0-9][0-9][0-9]' -o -name '[0-9][0-9][0-9][0-9]' ')' -type f -delete To match those 1, 2, 3, 4 digit file names with only one find invocation. With bash -O dotglob -O failglob -O extglob -O globstar (assuming bash 5.0 or newer), you could also do: export LC_ALL=C rm -f -- **/[0-9]?([0-9]?([0-9]?([0-9]))) (though without the -type f equivalent as bash doesn't have glob qualifiers). Bash with extglob implements a subset of ksh's extended glob operators, but not the {x,y}(...) one from ksh93, so here we use ksh88's ?(...) which is like {0,1}(...) . Remove the -O globstar and **/ for non-recursive.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783353/bash-find-file-with-regex-non-recursively-delete-number-only-filenames-in-di
+
+---
+
+#### 7505. How to check if part of a symlink goes outside a directory in posix shell
+
+**问题描述 / Problem Description**:
+Tags: shell, symlink | Score: 4 | Views: 283 | Answers: 1 | Created: 2024-06-28
+
+**解决方案 / Solution**:
+This is not an easy task because the basic tools you have to work with do either too little or too much. Symbolic link resolution inside the kernel can only tell you the ultimate location of a chain of links. It won't tell you if the chain temporarily goes outside of a particular directory tree. Reading a link's target with readlink is only a small part of the job as soon as .. is involved: if dir/link points to sub/../foo and sub itself is a symbolic link, the exact location of the target of sub determines whether that link is acceptable. However, with commonly available tools, you can make a rehomed view of the directory tree, which solves most of the problem. (This was suggested by frostschutz in a comment .) You can make a view of a directory tree with a bind mount , and you can make a bind mount with bindfs without root permissions. You just need permission to use FUSE. The following code sets up $view to present the same content as /path/to/dir , but at a different location. The name of the toplevel is randomly generated and has a won't-happen-in-the-universe's-lifetime probability of having ever been written down before, so you can be confident that no symbolic link has that directory's name as a substring. view=$(mktemp -d /tmp/viewXXXXXXXXXXXXXXXXXXXXXXXXX) bindfs -n /path/to/dir "$view" … work under $view fusermount -u "$view" rmdir "$view" Any symbolic chain that starts under $view and escapes it won't be able to get back into it, since it doesn't contain the name of the toplevel directory of $view . Therefore a symbolic link is acceptable if and only if, when looking at it under $view , its fully-resolved target is still under $view . By fully-resolved target, I mean after expanding all symbolic links — this is the ultimate destination of the link except for a broken link. For a non-broken link, you can check whether the target is within the bindfs filesystem. With POSIX shell tools, use df -P and check that the first column of the second line contains $view . With POSIX system calls, check the st_dev field contains the same value as for $view itself. You can also check that with stat(1) if your system has it. For broken links, POSIX isn't helpful. GNU and BSD have a readlink utility that prints the fully-resolved target of a link with readlink -f : check if that starts with $view/ . The following code snippet lists all the escaping links, broken or not: cd "$view" find . -type l -exec sh -c 'case $(readlink -f "$0") in $PWD/*) :;; *) printf %s\\n "$0";; esac' {} \;
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779156/how-to-check-if-part-of-a-symlink-goes-outside-a-directory-in-posix-shell
+
+---
+
+#### 7506. set -o xtrace for just one line?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, set | Score: 4 | Views: 724 | Answers: 2 | Created: 2024-06-12
+
+**解决方案 / Solution**:
+You could use a subshell: (set -x; ./blarge) This ensures that -x is only set for the duration of the subshell.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778219/set-o-xtrace-for-just-one-line
+
+---
+
+#### 7507. Don't truncate the COMMAND column in ps
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, ps | Score: 4 | Views: 925 | Answers: 1 | Created: 2024-03-20
+
+**解决方案 / Solution**:
+Assuming this is on Linux, the value that ps retrieves from the kernel is truncated to 16 bytes (including terminating zero byte), so there is no way for ps to show more information for that value specifically. If you want to see more information about the command being run, you can look at the args column instead. See How to get a list of process ids of long command names, not command line parameters? for details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772749/dont-truncate-the-command-column-in-ps
+
+---
+
+#### 7508. POSIX Shell: `exec` with changed arg0
+
+**问题描述 / Problem Description**:
+Tags: shell, posix, exec | Score: 4 | Views: 313 | Answers: 1 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+According to POSIX documentation of Special Builtin Utilities , the syntax for exec is exec [command [argument...]] Environment of the calling shell should be propagated to command so setting it prior to exec-ing like foo=bar exec cmd should just work. However, you might want to consider the Rationale paragraph. Most historical implementations were not conformant in that: foo=bar exec cmd did not pass foo to cmd. There is also no built-in way to fiddle argv[0]. a possible workaround could consist in symlinking some_name to command prior to exec some_name (full credit to muru ) Note that bash zsh and ksh do support an extended implementation of the exec command : exec [-cl] [-a name] [command [arguments]] which, thanks, to the -a option enables name to stand as argv[0] with -a argv0 set the argv[0] string of the command executed However, neither csh nor dash nor fish support that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772454/posix-shell-exec-with-changed-arg0
+
+---
+
+#### 7509. LightDM login screen configuration
+
+**问题描述 / Problem Description**:
+Tags: login, lightdm, login-screen, debian | Score: 4 | Views: 22432 | Answers: 2 | Created: 2017-09-18
+
+**解决方案 / Solution**:
+/usr/share/lightdm is where the debian config files are. Lightdmgreeter.conf is the file for the greeter. there is also lightdm-gtk-greeter-settings available in the repo. add/change to greeter-hide-users=false in the file /usr/share/lightdm/lightdm.conf.d/01_debian.conf to get a user list. LightDM automatically rememer last user to log in. If you don't want to type your password every time, you have to enable autologin.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/957011/lightdm-login-screen-configuration
+
+---
+
+#### 7510. How do you set up Let's Encrypt SSL certificates for additional ports in Apache?
+
+**问题描述 / Problem Description**:
+Tags: server, apache2, debian, ssl, certificates | Score: 4 | Views: 29818 | Answers: 2 | Created: 2017-08-29
+
+**解决方案 / Solution**:
+You make modifications in apache's /etc/apache2/ports.conf to inform apache to listen on these different ports: Listen 8080 <IfModule ssl_module> Listen 446 </IfModule> The steps would be: Create your SSL certificates: Make directory to add certificates: mkdir -p /etc/apache2/ssl/example.com Create a self signed certificate: sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/example.com/apache.key –out /etc/apache2/ssl/example.com/apache.crt Enable the ssl module with: sudo a2enmod ssl Make entries in your Virtualhost files ( called example.conf ), with sudo nano /etc/apache2/sites-available/example.conf <VirtualHost *:8080> ServerAdmin webmaster@localhost ServerName example.com DocumentRoot /var/www/html </VirtualHost> <IfModule mod_ssl.c> <VirtualHost *:446> ServerAdmin webmaster@localhost ServerName example.com DocumentRoot /var/www/html # SSL Engine Switch: # Enable/Disable SSL for this virtual host. SSLEngine on # A self-signed (snakeoil) certificate can be created by installing # the ssl-cert package. See # /usr/share/doc/apache2.2-common/README.Debian.gz for more info. # If both key and certificate are stored in the same file, only the # SSLCertificateFile directive is needed. SSLCertificateFile /etc/apache2/ssl/example.com/apache.crt SSLCertificateKeyFile /etc/apache2/ssl/example.com/apache.key </VirtualHost> </IfModule> Tell apache to listen in the new ports by adding the ports to /etc/apache2/ports.conf file: Listen 8080 <IfModule ssl_module> Listen 446 </IfModule> <IfModule mod_gnutls.c> Listen 446 </IfModule> This tells apache to listen for SSL traffic on port 446 as against 443 Enable the config files: sudo a2ensite example Restart apache: sudo systemctl restart apache2
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/950815/how-do-you-set-up-lets-encrypt-ssl-certificates-for-additional-ports-in-apache
+
+---
+
+#### 7511. How do I pass dns parameters during boot
+
+**问题描述 / Problem Description**:
+Tags: boot, kernel, dns, debian | Score: 4 | Views: 3684 | Answers: 1 | Created: 2017-05-27
+
+**解决方案 / Solution**:
+In diskless booting (e.g. using NFS), you often specify ip4 as follows: ip=<client-ip>:<server-ip>:<gw-ip>:<netmask>:<hostname>:<device>:<autoconf>:<dns0-ip>:<dns1-ip> Perhaps that's the syntax you were looking for and would work in your instance? Here's the kernel doc reference: https://www.kernel.org/doc/Documentation/filesystems/nfs/nfsroot.txt
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/919523/how-do-i-pass-dns-parameters-during-boot
+
+---
+
+#### 7512. tar compress inside android adb su root -c sub command produces empty tar file
+
+**问题描述 / Problem Description**:
+Tags: shell, tar, android, su | Score: 3 | Views: 275 | Answers: 1 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+It was indeed a bug in the toybox tar version 0.8.3 This was the fix: https://github.com/landley/toybox/commit/a3fc87752193cc9fb406b4c4b152e4ffb435dce5 It wasn't waiting for the archiver fork to close, which was force closed when the subshell ended Update: As Stéphane Chazelas pointed out, it was most likely this commit which fixed it: https://github.com/landley/toybox/commit/2e952a47820d3e03dd7b56d50954c92cc0caa20b Tar was exiting before the compressor process finished This bug only occurs with the Magisk su binary , which seems to be killing all child processes on exit. Internally it calls /system/bin/sh -c but that's not responsible for killing the child processes. Here's the proof: /system/bin/sh -c "sleep 123 &" ps -A | grep sleep root 30923 1 11560 3620 __se_sys_nanosleep_time32 0 S sleep su root -c "sleep 123 &" ps -A | grep sleep #no sleep process found
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789314/tar-compress-inside-android-adb-su-root-c-sub-command-produces-empty-tar-file
+
+---
+
+#### 7513. use jq to pick a key out of a list of a list of objects and raw output with newline separation for outer array items
+
+**问题描述 / Problem Description**:
+Tags: shell, json, jq | Score: 3 | Views: 541 | Answers: 1 | Created: 2024-12-12
+
+**解决方案 / Solution**:
+$ jq -r 'map(map(.url) | join("\n")) | join("\n\n")' file url-1 url-2 url-a url-b This joins the url strings of all elements of a sub-array with newlines and then joins all of the generated strings from the sub-arrays with double newlines. This would treat null -valued url strings as empty strings and would output as empty lines. To avoid this, you may use .url // empty in place of just .url in the jq expression. This would weed out any missing url values and any such values that are null or false .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787994/use-jq-to-pick-a-key-out-of-a-list-of-a-list-of-objects-and-raw-output-with-newl
+
+---
+
+#### 7514. Bash builtin 'command' ignoring option '-p'
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, shell-builtin | Score: 3 | Views: 393 | Answers: 1 | Created: 2024-11-27
+
+**解决方案 / Solution**:
+... it it seems like the -p option that is supposed to force a path search ... A literal reading of help text quoted in the question doesn't imply anything like that. All -p does according to that text is make command use a default value for PATH , but it doesn't say that command will then skip alias, built-in, etc. lookups (nor does POSIX require this ). With bash, I'd say you're looking for type -P : type: type [-afptP] name [name ...] Display information about command type. For each NAME, indicate how it would be interpreted if used as a command name. Options: [...] -P force a PATH search for each NAME, even if it is an alias, builtin, or function, and returns the name of the disk file that would be executed $ command -pv ping alias ping='ping -c5' $ type -P ping /sbin/ping
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787275/bash-builtin-command-ignoring-option-p
+
+---
+
+#### 7515. linux shell ctrl-C doesn't work (using busybox)
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, busybox | Score: 3 | Views: 399 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+Upon boot stdin, stdout, stderr are open on /dev/console , but it's not possible to do job control with that device file. The job of cttyhack is to find and open the actual tty device file /dev/console refers to (based on information in /sys/class/tty/console/active ), but in my case the device file for the corresponding device was missing. So I did: mknod /dev/ttyAMA0 c 204 64 and then : setsid cttyhack sh Now Control + C works again. I got the hint from my old note and it said the major and minor number is 204 and 64, but the information can also be retrieved from /sys/class/tty/ttyAMA0/dev .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785948/linux-shell-ctrl-c-doesnt-work-using-busybox
+
+---
+
+#### 7516. How to limit the number of files printed by ls and print them in columns like ls prints normally?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, command-line, ls, limit | Score: 3 | Views: 900 | Answers: 2 | Created: 2024-07-31
+
+**解决方案 / Solution**:
+With zsh : ls -d -- *([1,10]) Would list the first 10 files (in lexical order). ls -t -d -- *(om[1,10]) For the first 10 files o rdered by m odification time (with GNU ls , you can replace -t with -U to skip the sorting by mtime as zsh has already sorted them). See also oL (with ls -S ) to order by L ength ( S ize), n (with GNU ls -v ) for n umeric ( v ersion) order, O instead of o to revert the order (with ls -r ) and more. Use [-10,-1] for the last 10 ones. zsh 's print builtin can also print in columns with its -C option: print -rC4 -- *([1,10]) To print r aw on 4 C olumns for instance. It also has a chpwd hook function (and chpwd_functions array) which is invoked any time the current working directory changes (more versatile than bash $PROMPT_COMMAND whose equivalent would be the precmd hook function or wrapping the cd / pushd / popd builtins), so you can add to ~/.zshrc : list-first-few-files() { local files=( *(N) ) if (( $#files )); then ls -dF -- $files[1,10] if (( $#files > 10 )) print ... and $(($#files - 10)) more. else print Directory has no non-hidden files fi } autoload -Uz add-zsh-hook add-zsh-hook chpwd list-first-few-files In bash (or ksh93 where bash copied that syntax from), you could do: lsn() { ls -d -- "${@:2:$1}" } Then: lsn 10 * bash doesn't have glob qualifiers to change the order of glob expansions but next version 5.3 will have a GLOBSORT global variable with which you can change the default sorting order with which you'll be able to clumsily do a subset of what you can do with zsh's oOn^- glob qualifiers. About your ls -C | cat bug , it's just that the output is not going to a terminal, so ls assumes a 80 column display width instead of requesting the width of the terminal it displays its output on. You can adjust that default width with the -w option (with GNU ls at least) or the $COLUMNS environment variable (as @ChrisDavies says , bash¹ like zsh set that variable automatically based on the width of the terminal, but do not export it to the environment by default). Other side effect of ls output not going to a terminals are: control characters are no longer escaped (which can be quite dangerous with malicious file names). That also means that using head is invalid when there are files that contain newline characters (one of those control characters). colouring if you have an ls alias that adds --color=auto for GNU ls is no longer done. Also, if you're going to use head on the columned output, you should use -x (aka --format=across with GNU ls ) instead of -C or you won't get the first files. So: ls -w "$COLUMNS" --color=always -xqF | head -n 4 For the first 4 lines of the output of a columned ls . ¹ in the case of bash only when interactive
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781136/how-to-limit-the-number-of-files-printed-by-ls-and-print-them-in-columns-like-ls
+
+---
+
+#### 7517. How to overload / customize bash (or any other shell) commands handler?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, alias, function | Score: 3 | Views: 463 | Answers: 1 | Created: 2024-07-26
+
+**解决方案 / Solution**:
+In bash : $ s() { printf 'Called s %s\n' "$*" >&2; } $ cat $HOME/bin/command_not_found_handle #!/usr/bin/env bash command_not_found_handle() { if [[ "$*" =~ ^(s)([0-9]{3})$ ]]; then "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]}" else printf 'Command not found: %s\n' "$*" >&2 return 127 fi } $ . $HOME/bin/command_not_found_handle $ s123 Called s 123 $ s500 Called s 500 $ echo $? 0 $ s5001 Command not found: s5001 $ echo $? 127 FYI 127 is the standard "command not found" exit status. See https://www.gnu.org/software/bash/manual/bash.html#Command-Search-and-Execution for more information. I'm only using BASH_REMATCH[] as above to call s because I know it's safe to do so given that $* contains the command as a single letter and its args just 3 digits, for anything more complicated see https://mywiki.wooledge.org/BashFAQ/050 . There is no solution that will work in every shell, see How to define a function that handles `command not found`? to find information on approaches to the above for some other shells.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780846/how-to-overload-customize-bash-or-any-other-shell-commands-handler
+
+---
+
+#### 7518. "history" command ordered by most common
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, zsh, command-history | Score: 3 | Views: 572 | Answers: 2 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+You can remove the initial number by calling passing the -n flag to history or fc . To sort by frequency, use the -c flag to uniq and sort again by that value. The following snippet shows your 20 most often used used commands. Remove the sed step if you want to keep the repeat count. Remove the tail step if you want the whole list. fc -n -l 1 | sort | uniq -c | sort -k1n | sed 's/^ *[0-9][0-9]* //' | tail -n20 Of course this assumes you don't enable options like hist_ignore_dups , otherwise the information is lost.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780743/history-command-ordered-by-most-common
+
+---
+
+#### 7519. What is the precedence of operators '=', '||'
+
+**问题描述 / Problem Description**:
+Tags: shell, syntax | Score: 3 | Views: 500 | Answers: 1 | Created: 2024-07-24
+
+**解决方案 / Solution**:
+There are three distinct uses of || : As an operator in an OR list of commands : An OR list has the form command1 || command2 command2 is executed if, and only if, command1 returns a non-zero exit status. As an operator in the extended test construct ( [[ ... ]] , but not [ ... ] or test ... ): expression1 || expression2 True if either expression1 or expression2 is true. As an operator in arithmetic contexts ( $(( ... )) , (( ... )) , let expressions, etc.): || logical OR It looks like the page you link to is talking about operators in the arithmetic contexts. However, what you are using is an OR list of commands. Here, || is a separator : A list is a sequence of one or more pipelines separated by one of the operators ‘ ; ’, ‘ & ’, ‘ && ’, or ‘ || ’, and optionally terminated by one of ‘ ; ’, ‘ & ’, or a newline . At its simplest form, a pipeline can be just a simple command . And res=$(curl -s "http://example.com") is a simple command that just results in a variable assignment. The || separates that pipeline from the other pipeline ( true ). If you want to test what the linked page says, use arithmetic contexts instead, like an arithmetic expression: $ ((a = 0 || 10 )) $ echo $a 1 $ (((a = 0) || 10 )) $ echo $a 0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780681/what-is-the-precedence-of-operators
+
+---
+
+#### 7520. How do quotes work in bash regex regarding reserved characters?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, regular-expression, special-characters | Score: 3 | Views: 750 | Answers: 2 | Created: 2024-06-16
+
+**解决方案 / Solution**:
+Short answer: yes, of course you need to quote Bash special characters in a regex. Longer answer, as well as an idea to overcome the problem of quoting Bash special characters, is contained in section 3.2.5.2 Conditional Constructs of the GNU Bash Reference Manual: You can quote any part of the pattern to force the quoted portion to be matched literally instead of as a regular expression (see above). If the pattern is stored in a shell variable, quoting the variable expansion forces the entire pattern to be matched literally. and If you want to match ‘initial string’ at the start of a line, the following will work: [[ $line =~ ^"initial string" ]] but this will not: [[ $line =~ "^initial string" ]] because in the second example the ‘^’ is quoted and doesn’t have its usual special meaning. It is sometimes difficult to specify a regular expression properly without using quotes, or to keep track of the quoting used by regular expressions while paying attention to shell quoting and the shell’s quote removal. Storing the regular expression in a shell variable is often a useful way to avoid problems with quoting characters that are special to the shell. For example, the following is equivalent to the pattern used above: pattern='[[:space:]]*(a)?b' [[ $line =~ $pattern ]] The manual then continues detailing the specifics and giving the examples for backslashes, bracket expressions, and so on.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778451/how-do-quotes-work-in-bash-regex-regarding-reserved-characters
+
+---
+
+#### 7521. Rename batch of pictures with a very specific format
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, rename | Score: 3 | Views: 182 | Answers: 3 | Created: 2024-04-01
+
+**解决方案 / Solution**:
+With zsh : autoload zmv typeset -A n=() # 1 23 4 5 6 7 8 9 zmv -n '(**/)photo_<->@((<->)-(<->)-(<->)_(<->)-(<->)-(<->))(.jpg)(#qn.)' \ '$1${3}_${4}_${5}_${6}h${7}m${8}s_${(l[5][0])$((++n[\$2]))}$9' Remove -n (dry-run) if happy. On your sample, that gives: mv -- photo_6923@06-01-2022_14-18-36.jpg 06_01_2022_14h18m36s_00001.jpg mv -- photo_6924@07-01-2022_00-03-23.jpg 07_01_2022_00h03m23s_00001.jpg mv -- photo_6925@07-01-2022_01-36-20.jpg 07_01_2022_01h36m20s_00001.jpg mv -- photo_6926@07-01-2022_10-44-20.jpg 07_01_2022_10h44m20s_00001.jpg mv -- photo_6927@07-01-2022_10-44-20.jpg 07_01_2022_10h44m20s_00002.jpg Explained: typeset -A n=() creates an A ssociative array initially empty zmv is an autoloadable function that takes a glob pattern (an extended glob one, zmv does set the extendedglob option for the duration of its execution) and expression as two separate arguments, and renames the files that match the pattern to the expansion of the expression inside which $1 , $2 ... correspond to what is matched by the respective n th pair of (...) in the pattern. For the pattern: **/ matches any level of subdirectories (including 0), and that's inside the first (...) , so will be available as $1 in the replacement. Note that zmv processes the files depth-first (leaves before the branches they're on) as if given the (#qod) glob qualifier which is generally important when renaming files, though not here as we're only renaming regular files, not directories. <-> matches any positive decimal integer number. That's like <1-31> but with boundaries not specified, so matches <0-infinity> or IOW any sequence of decimal digits. You could change it to (<1-31>)-(<1-12)-(<1900-2100>)... if you wanted the matching to be stricter. (#q...) adds glob qualifiers, n for the sorting to be numerical instead of the default of lexical (so that photo_10 comes after photo_2 for instance instead of before), and . to restrict the match to regular files (excluding all other types such as directories, symlinks, fifos...). For the replacement: ${(l[5][0])expansion} l eft pads the expansion to a length of 5 characters with 0 s. $(( ++n[\$2] )) expands to the value of the associative array element of key $2 (which is matched by the second (...) , so ((<->)-(<->)-(<->)_(<->)-(<->)-(<->)) ) incremented by one. Note the \ to defer the dereferencing of that parameter, so it's not expanded inside the arithmetic expression. It would be a problem if for instance, $2 contained ] (which is not the case here). To set the EXIF CreateDate based on the date in the filename: exiftool -r -ext jpg -d '%d-%m-%Y_%H-%M-%S' \ -if '$Filename =~ /@\d+-\d+-\d+_\d+-\d+-\d+\.jpg\z/i' \ -'CreateDate<${FileName;s/.*@//;s/\.jpg\z//i}' . (shell independent)/ Explained: -r : finds files r ecursively inside those files passed as arguments that are directories (here . the current working directory). -ext jpg : only considers the files with a jpg extension (case insensitively). -if 'perl expression' : further restricts the filter to those for which the perl expression returns true. $Filename =~ /@\d+-\d+-\d+_\d+-\d+-\d+\.jpg\z/i : whether the file name (without directory component) matches the given perl regular expression, so here ends in @<digits>-<digits>-<digits>_<digits>-<digits>-<digits>-.jpg . -d '%d-%m-%Y_%H-%M-%S' use that strftime/strptime template for the f ormatting/ p arsing of dates. -'CreateDate<date' : sets the CreateDate EXIF metadata attribute to the specified date, here: ${FileName;s/.*@//;s/\.jpg\z//i} the file name from which we have removed everything up to the right-most @ and the .jpg extension.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773591/rename-batch-of-pictures-with-a-very-specific-format
+
+---
+
+#### 7522. Behaviour of Functions in Sourced Scripts
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell | Score: 3 | Views: 1094 | Answers: 2 | Created: 2024-04-01
+
+**解决方案 / Solution**:
+You can think of the function as a variable in this context: it will have the last value you assigned it. Just like if you have something like this: var=foo var=bar var=baz echo "$var" In the case above, I hope it is obvious that echo "$var" will print out baz since every time you assign a value to a variable you overwrite whatever value it might have had before. Functions work in the same way. If you define a function with the same name multiple times, only the last definition will be relevant and the others will be lost. Sourcing doesn't change that. If you source a function from a file and then redefine a new function with the same name, then only the new one will work. Conversely, if you define a function in your script and then source a file with a function of the same name, only the sourced one will work. So yes, it is entirely consistent, the order of operations defines what will actually be used.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773571/behaviour-of-functions-in-sourced-scripts
+
+---
+
+#### 7523. How to replace both lower and uppercase extensions with Parameter Expansion?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, terminal | Score: 3 | Views: 2249 | Answers: 2 | Created: 2024-03-30
+
+**解决方案 / Solution**:
+I don't think you can make the pattern match in ${filename%.doc} case-insensitive in Bash. You could do it zsh , with ${filename%(#i).doc} (requires setopt extendedglob enabled) or ksh93 with ${filename%~(i:.doc)} . Bash's nocasematch doesn't help, it only works in case and [[ .. ]] constructs. In any POSIX shell, there's always the workaround of explicitly listing both uppercase and lowercase characters with ${filename%.[dD][oO][cC]} . Or just remove the three last characters with ${filename%.???} , knowing find only gives you the correct ones. Then again ${filename%.*} should only remove the shortest matching part, so that should also not be a problem. ( %% would remove the longest.) zsh: % setopt extendedglob % filename=foo.bar.DoC % echo ${filename%.(#i)doc}.txt foo.bar.txt sh/Bash: $ filename=foo.bar.DoC $ echo "${filename%.[dD][oO][cC]}.txt" foo.bar.txt $ echo "${filename%.*}.txt" foo.bar.txt
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773454/how-to-replace-both-lower-and-uppercase-extensions-with-parameter-expansion
+
+---
+
+#### 7524. importing root CA certificate in linux
+
+**问题描述 / Problem Description**:
+Tags: debian, certificates | Score: 3 | Views: 27291 | Answers: 1 | Created: 2018-02-18
+
+**解决方案 / Solution**:
+format = Pem file To convert the certificate, use: openssl x509 -inform DER -in yourdownloaded.crt -out outcert.pem -text System sudo mkdir /usr/local/share/ca-certificates/extra sudo cp root.cert.pem /usr/local/share/ca-certificates/extra/root.cert.crt sudo update-ca-certificates
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1007233/importing-root-ca-certificate-in-linux
+
+---
+
+#### 7525. What are the different values available for the Aptitude CLI “-q” option?
+
+**问题描述 / Problem Description**:
+Tags: debian, aptitude | Score: 3 | Views: 101 | Answers: 1 | Created: 2017-10-12
+
+**解决方案 / Solution**:
+I believe this says it all man aptitude : -q[=<n>], --quiet[=<n>] Suppress all incremental progress indicators, thus making the output loggable. This may be supplied multiple times to make the program quieter, but unlike apt-get, aptitude does not enable -y when -q is supplied more than once. The optional =<n> may be used to directly set the amount of quietness (for instance, to override a setting in /etc/apt/apt.conf); it causes the program to behave as if -q had been passed exactly <n> times. Here it says setting -q to the values indicated by you will be interpreted as passing -q that number of times. So doing -q=5 is equivalent to doing -q -q -q -q -q , but of course doing -q=5 is much pleasing and readable. The operational difference is that it makes the program run far more quietly with respect to the number of -q s used.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/964358/what-are-the-different-values-available-for-the-aptitude-cli-q-option
+
+---
+
+#### 7526. Does Ubuntu update after a new Debian version is released?
+
+**问题描述 / Problem Description**:
+Tags: debian | Score: 3 | Views: 159 | Answers: 1 | Created: 2017-06-22
+
+**解决方案 / Solution**:
+Open source often uses the analogy of a river/stream - in that there are upstream projects, which can flow down to those downstream. Linux (kernel) is upstream of Debian, as it is of GNOME project, KDE project etc. Debian is upstream of Ubuntu. Ubuntu is BASED on debian-testing, though it'll likely include parts of debian-unstable as well. Linux Mint is further downstream that Ubuntu, as it uses Ubuntu as its base. Yes, future versions of Ubuntu will reflect changes being made currently in debian-testing or debian-unstable, but a Debian release has NO impact on Ubuntu really, mainly because the relevant changes have already made it into Ubuntu. Example: MATE desktop maintainer for debian is Martin Wimpress. He's also the (head-)maintainer for Ubuntu MATE. Martin makes changes for Ubuntu, I've heard him say, by making them in Debian, and they make their way into Ubuntu anyway. It saves him heaps of work with almost no duplication. (Ubuntu-MATE & Debian with MATE desktop are not identical; Ubuntu MATE contains a few extra things only in Ubuntu MATE).
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/928011/does-ubuntu-update-after-a-new-debian-version-is-released
+
+---
+
+#### 7527. Calculate byte offset for unquashfs
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, elf, squashfs | Score: 2 | Views: 337 | Answers: 1 | Created: 2025-01-16
+
+**解决方案 / Solution**:
+If you read the right bytes from the ELF file (with a tool that can process binary files like python , perl , etc...) then you don't require readelf -h nor objdump at all. An ELF file starts with a header that looks like this (see man elf for an unmodified version): typedef struct { unsigned char e_ident[16]; // ELF Identification (16 bytes) uint16_t e_type; // Type of file uint16_t e_machine; // Required architecture for this file uint32_t e_version; // Must be equal to 1 uintN_t e_entry; // Address to jump to in order to start program uintN_t e_phoff; // Program header table's file offset, in bytes uintN_t e_shoff; // Section header table’s file offset, in bytes uint32_t e_flags; // Processor-specific flags uint16_t e_ehsize; // Size of ELF header, in bytes uint16_t e_phentsize; // Size of an entry in the program header table uint16_t e_phnum; // Number of entries in the program header table uint16_t e_shentsize; // Size of an entry in the section header table uint16_t e_shnum; // Number of entries in the section header table uint16_t e_shstrndx; // Sect hdr table index of sect name string table }; note: the N in uintN_t can be 32 or 64 . Calculating the offset required by unsquashfs To calculate SECTION_OFFSET + SECTION_SIZE * SECTION_NO you have to extract e_shoff , e_shentsize and e_shnum from the ELF header. The problem is that their exact location depends on the bitness (32 or 64 bits) of the ELF file, and their byte order depends on its endianness (little or big endian). The bitness and endianness of an ELF file are stored in: e_ident[4] (0-indexed): with 0x01 standing for 32 bits, and 0x02 for 64 bits. e_ident[5] (0-indexed): with 0x01 standing for little-endian, and 0x02 for big-endian. After reading those two bytes, you'll know "where to" and "how to" read e_shoff , e_shentsize and e_shnum accurately. Python solution The following python command does exactly as described above, and then outputs e_shoff + e_shentsize * e_shnum : python -c 'if 1: # no-op that allows to add indentation import os, struct; elfHeader = os.read(0, 64); (bitness,endianness) = struct.unpack("4x B B 58x", elfHeader); (shoff,shentsize,shnum) = struct.unpack( (">" if endianness == 2 else "<") + ("40x Q 10x H H 2x" if bitness == 2 else "32x L 10x H H 14x"), elfHeader ); print(shoff + shentsize * shnum) ' < audacity-linux-3.7.1-x64-22.04.AppImage output: 193728 remark: works with Python 2 & 3 and any CPU bitness & endianness. POSIX solution As an ELF header is at most 64 bytes long, it's not too far fetched to translate its bytes to hex and process the result. All of it can be done with standard tools, in a standard way: output the ELF header in hex format with od , then process the relevant bytes with awk , and do the base-16 calculations with bc : #!/bin/sh od -An -vtx1 -N 64 -- audacity-linux-3.7.1-x64-22.04.AppImage | awk ' {elfHeader = elfHeader " " $0} END { $0 = toupper(elfHeader); is64 = ($5 == "02"); # 64-bit ELF flag isBE = ($6 == "02"); $ Big-Endian flag shoff = (is64 ? (isBE ? $41$42$43$44$45$46$47$48 : $48$47$46$45$44$43$42$41) : (isBE ? $33$34$35$36 : $36$35$34$33)); shentsize = (is64 ? (isBE ? $59$60 : $60$59) : (isBE ? $47$48 : $48$47)); shnum = (is64 ? (isBE ? $61$62 : $62$61) : (isBE ? $49$50 : $50$49)); print "ibase=16;" shoff "+" shentsize "*" shnum; } ' | bc output: 193728 remark: works in any UNIX/Linux system and any CPU bitness & endianness.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789699/calculate-byte-offset-for-unquashfs
+
+---
+
+#### 7528. How to highlight the matched regex pattern got by many regex exps disjoined with `||` in awk?
+
+**问题描述 / Problem Description**:
+Tags: shell, awk, grep, regular-expression | Score: 2 | Views: 415 | Answers: 3 | Created: 2024-12-29
+
+**解决方案 / Solution**:
+I'd use perl here. To highlight foo on lines that don't contain foo bar : perl -pe 's/foo/\e[31;1m$&\e[m/g unless /foo bar/' < your-file Same as: awk '! /foo bar/ {gsub(/foo/, "\33[1;31m&\33[m")}; {print}' < your-file Or (assuming a shell with support for ksh93-style $'...' form of quotes): sed $'/foo bar/! s/foo/\e[1;31m&\e[m/g' < your-file Or to highlight the foo s that are not followed by bar . perl -pe 's/foo(?! bar)/\e[31;1m$&\e[m/g' < your-file No awk , sed equivalent except if your sed is one of those few that support perl regexps as some do with -P (like ast-open's) or -R (like ssed )), however it's more common for grep implementations to support perl -like regexps generally with a -P option, like GNU grep does when built with perl-like regexp support via the PCRE2 library (formerly PCRE), in which case you can do: grep -P --color 'foo(?! bar)' < your-file But that also discards lines with no match. To discard the lines that contain foo bar and highlight occurrences of foo in remaining lines, you could do: perl -ne 'unless (/foo bar/) { s/foo/\e[31;1m$&\e[m/g; print }' < your-file Or: awk '! /foo bar/ {gsub(/foo/, "\33[1;31m&\33[m"); print}' < your-file Or (assuming a shell with support for ksh93-style $'...' form of quotes): sed $'/foo bar/d; s/foo/\e[1;31m&\e[m/g' < your-file But you could also do: < your-file grep -v 'foo bar' | grep --color -e '^' -e foo ( -e '^' to match all lines, so they're not discarded, -e foo to highlight foo occurrences in those lines; < file.in A | B > file.out is like A < file.in | B > file.out or A < file.in | > file.out B as redirections can appear anywhere on the command lines, but using the former in pipelines is common as it makes the flow more evident). To discard all the lines that contain foo bar and all that don't contain foo and highlight foo in the remaining ones: perl -ne 'print if ! /foo bar/ && s/foo/\e[1;31m$&\e[m/g' < your-file sed -n $'/foo bar/! s/foo/\e[1;31m&\e[m/gp' < your-file awk '! /foo bar/ && gsub(/foo/, "\33[1;31m&\33[m")' < your-file < your-file grep -v 'foo bar' | grep --color foo Details about the perl syntax: perl -p is the sed mode (and perl -n the sed -n mode) where the code (here supplied as an inline -e xpression like in sed ) is run for each line of the input with the current line in $_ (equivalent of sed 's pattern space with that difference that in perl , $_ does contain the line delimiter). See perldoc perlrun for details. s/replacement/replacement/ is similar to sed 's but with many improvements, in particular much more feature-full regexps, that many other languages have copied since. (?! foo) is one of those extra regexp operators introduced by perl, which is a negative look ahead operator. See perldoc perlre for details. code unless some-condition is a short form of unless (some-condition) {code} which reads more like English but is otherwise equivalent. unless being like if ! . See perldoc perlsyn for details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788816/how-to-highlight-the-matched-regex-pattern-got-by-many-regex-exps-disjoined-with
+
+---
+
+#### 7529. Which is better when using a program that produces output to STDOUT the program's output option or output redirection
+
+**问题描述 / Problem Description**:
+Tags: shell, io | Score: 2 | Views: 138 | Answers: 1 | Created: 2024-12-18
+
+**解决方案 / Solution**:
+Neither is better, they just have different use cases. First of all, not all programs write to standard output, so sometimes you must use their option to provide an output file name. Conversely, not all programs have such an option, so sometimes you must redirect. More generally, in the cases where you have the choice, you can use whichever you prefer for what you are doing. If, for example, you are running the command as a different user using sudo , then the redirection will be run as your regular user and won't have the elevated privileges conferred by sudo : $ sudo curl unix.stackexchange.com > /unix.se bash: /unix.se: Permission denied This is because the redirection, the > , isn't part of curl , so has no connection with the sudo and is being run as your regular user. This is also why the error appears even before I am prompted for a password. So here, using curl's -o is one possible way around that problem: $ sudo curl unix.stackexchange.com -o /unix.se [sudo] password for terdon: % Total % Received % Xferd Average Speed Time Time Time Current Dload Upload Total Spent Left Speed 100 167 100 167 0 0 3037 0 --:--:-- --:--:-- --:--:-- 3092 Conversely, if for instance you want to append multiple pages to one file, then you can't use -o because that will overwrite the file's contents: $ for url in unix.stackexchange.com google.com duckduckgo.com; do curl -o mysites.all "$url" 2>/dev/null done $ grep -ic '<head>' mysites.all 1 As you can see above, we only have one <head> tag in the output file, because each iteration overwrote the previous contents. If we were to instead redirect output using > , we would get everything: $ for url in unix.stackexchange.com google.com duckduckgo.com; do curl "$url" 2>/dev/null done > mysites.all $ grep -ic '<head>' mysites.all 3 On the other hand, sort has the -o option which writes the output file only after processing all the input, allowing to use a same file for both input and output. This can't be done with a redirection, as the shell will open and truncate the output file even before starting the command itself. So, there is no better or worse option, they are just useful in different contexts. If both work for you, feel free to choose whichever you prefer.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788345/which-is-better-when-using-a-program-that-produces-output-to-stdout-the-program
+
+---
+
+#### 7530. Should launching background jobs cause a race condition?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, background-process | Score: 2 | Views: 179 | Answers: 2 | Created: 2024-12-16
+
+**解决方案 / Solution**:
+You'd have to trace that to see for sure what order everything ends up happening (e.g. with strace on Linux), but note that there's no ordering between how the background processes run and the rest of the shell script runs. It's quite possible for some of the later background processes to run after the echo in the main script has finished. This will depend heavily on the OS and the surrounding environment. So what you may get is something like this: <pipe cat # bg 1 ... <pipe cat # bg N echo hello world >pipe <pipe cat # bg N+1 ... <pipe cat # bg N+M Here, the first N cats, or rather, the shell processes about to launch the cats block when trying to open the pipe as there's no writer yet. Then the shell about to run echo opens the write side of the pipe, letting the cats finish their opens. The echo writes, one cat reads, and when the echo finishes, all cats see the pipe is now closed as it has no writer; they read an EOF and exit. Then after that, the last M background processes get around to trying to open the pipe, and block on open since there's no writer. Here, echo hello world | { i=0 while [ $i -lt 10 ]; do cat & : $(( i+=1 )) done } wait the pipe is created once, and the same already-open fd is passed to all cats. It's not opened for each cat individually, so none of them block on open. If some of the cats get around to reading the fd before the echo has written anything, they'll block on read waiting for data. When the left-hand side closes the pipe, all cats read an EOF, even the ones that first read their copy of the fd after the echo had finished.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788219/should-launching-background-jobs-cause-a-race-condition
+
+---
+
+#### 7531. turning list of file paths from one command into command-line arguments for another
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, zsh | Score: 2 | Views: 379 | Answers: 2 | Created: 2024-11-22
+
+**解决方案 / Solution**:
+If you have an array and just want to pass the elements intact to a command, it's enough to use $array in zsh, or "${array[@]}" (with quotes!) in Bash/ksh. The former drops empty elements, though, but "${array[@]}" works in either: zsh: % l=("foo * bar" '' $'new\nline') % printf '<%s>\n' $l <foo * bar> <new line> % printf '<%s>\n' "${l[@]}" <foo * bar> <> <new line> Bash: $ l=("foo * bar" '' $'new\nline') $ printf '<%s>\n' "${l[@]}" <foo * bar> <> <new line> On the other hand, if you need to pass the array elements to a shell to be executed as a command line, you'll need to quote them properly. This would happen if you need to embed the values in a shell script, or run them through eval (for whatever reason), or pass them through ssh . Here, you can use printf %q in Bash or zsh, or the (q) modifier in zsh. Bash's printf %q tends to use backslashes, so the output is ugly, but it should work (the echo is to add a trailing newline for the printout): $ printf '%q ' "${l[@]}"; echo foo\ \*\ bar '' $'new\nline' zsh's (qqqq) uses the $'...' quoting which looks nicer (opinion, of course): % printf '%q ' "${l[@]}"; echo foo\ \*\ bar '' new$'\n'line % printf "%s " ${(qqqq)l}; echo $'foo * bar' $'' $'new\nline' However, note that $'...' is nonstandard and may have differences between shells. See: Escape a variable for use as content of another script In any case, I would try to avoid inserting quoted data inside code. It's usually a pain and has loads of corner cases. In most cases with filenames, it's enough to pass them raw, one on each line and read them into an array. (And make sure you don't have newlines in the filenames, or check for them and complain.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787028/turning-list-of-file-paths-from-one-command-into-command-line-arguments-for-anot
+
+---
+
+#### 7532. Can one execute a function in background from a function that is already running in background?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, background-process | Score: 2 | Views: 395 | Answers: 1 | Created: 2024-11-07
+
+**解决方案 / Solution**:
+I imagine a concern could be that waiting in b would wait for all processes started from the shell script, leading to a deadlock. That’s not a problem, wait waits for children of the current (sub)shell; running b in the background forces it to have its own subshell, with its own list of jobs and child processes. So function b { for n in `cat ok.txt` do a $1 $n & done wait } will work fine as far as that’s concerned — b will wait for the a s it started, and only those.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786271/can-one-execute-a-function-in-background-from-a-function-that-is-already-running
+
+---
+
+#### 7533. How to capture exit code of subshell (while in pipe)
+
+**问题描述 / Problem Description**:
+Tags: shell, pipe, exit-status | Score: 2 | Views: 631 | Answers: 2 | Created: 2024-08-21
+
+**解决方案 / Solution**:
+The exit status of a pipeline is that of the right-most component if the pipefail option¹ is off (default) or that of the right-most component that has a non-zero exit status if pipefail is on. For example, the exit status of (exit 12) | (exit 5) | (exit 0) will be 0 without pipefail , and 5 with. Now, in a sh pipeline, it's unspecified by POSIX whether the last (right-most) component of a pipeline runs in a subshell or not, and in practice, it varies with sh implementation. So, depending on the shell, that exit 2 , if run, will either exit the script altogether, or only exit the subshell that runs that while loop. In the latter case, the exit status of the pipeline will then be 2 regardless of whether the pipefail option is on or not. Here, though you'd do something like: <somefile awk '{print}; $0 == "bbb" {exit 2}' || exit echo "I'm here" That is invoke a text processing utility to do text processing, not hundreds of invocations (assuming hundreds lines input) of inappropriate tools such as read , echo , [ . See also: Why is using a shell loop to process text considered bad practice? Understanding "IFS= read -r line" Why is printf better than echo? Should I care about unnecessary cats? ¹ a ksh extension now found in most sh implementations and specified by POSIX since the 2024 edition but not found in all implementations yet and in particular, not dash . edit now supported by dash 0.5.13 released in September 2025.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782279/how-to-capture-exit-code-of-subshell-while-in-pipe
+
+---
+
+#### 7534. What does POSIX's third exception to the application of `set -e` mean?
+
+**问题描述 / Problem Description**:
+Tags: shell, posix | Score: 2 | Views: 194 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+I think the "other than a subshell command" means that that entire compound has to be a subshell command. Compare these: ( false && : ); echo fail #1 { false && :; }; echo pass #2 The exit status of the false && : is: the result of a failure (of false ) while -e was being ignored (because it wasn't the last command in an AND-OR pipeline) But: The former is for a compound command that is a subshell command, while The latter is not a subshell command So the former triggers set -e , while the latter shouldn't. And: % for sh in dash bash ksh zsh; do $sh -ec '( false && :; ); echo $0 fail' || echo $sh subshell pass; $sh -ec '{ false && :; } ; echo $0 pass'; done dash subshell pass dash pass bash subshell pass bash pass ksh subshell pass ksh pass zsh subshell pass zsh pass
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780807/what-does-posixs-third-exception-to-the-application-of-set-e-mean
+
+---
+
+#### 7535. Joining 'fish shell' arguments into a single string with spaces
+
+**问题描述 / Problem Description**:
+Tags: shell, string, fish | Score: 2 | Views: 419 | Answers: 1 | Created: 2024-07-17
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780307/joining-fish-shell-arguments-into-a-single-string-with-spaces
+
+---
+
+#### 7536. Which interpreter for "Unicode text, UTF-8 text executable"
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, unicode | Score: 2 | Views: 804 | Answers: 1 | Created: 2024-07-09
+
+**解决方案 / Solution**:
+Your command attempts to run a command called "/path/to/the/executable" - including the double quotes as part of the name: sh -c '\"/path/to/the/executable\" --options' This is almost certainly not what you want, and you should either omit the escaped quoted entirely, or remove the backslashes. For example, date # Tue, 9 Jul 2024 18:42:00 "date" # Tue, 9 Jul 2024 18:42:00 \"date\" # -bash: "date": command not found sh -c 'date' # Tue, 9 Jul 2024 18:42:00 sh -c '"date"' # Tue, 9 Jul 2024 18:42:00 sh -c '\"date\"' # sh: line 1: "date": command not found You're probably best setting the binding to this: /path/to/the/executable --options Or if executable is already in your $PATH , simply: executable --options Now, moving on to the second part of your question. Your "hash bang" line specifies env as the script interpreter, which is a non-intuitive way of telling the system that the next argument can be searched for in the normal way, including being searched down the $PATH #!/usr/bin/env ./Browser/execdesktop However, in this situation the command can only be found if the script is executed from a directory that contains Browser/execdesktop . Should you try to execute this script from anywhere else you'll still get an error telling you the command cannot be found. You would be better either adding the absolute path to execdesktop to your $PATH or specifying an absolute path to the command. For example, #!/usr/bin/env /home/me/Browser/execdesktop And at that point you might as well remove the env redirection completely: #!/home/me/Browser/execdesktop
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779820/which-interpreter-for-unicode-text-utf-8-text-executable
+
+---
+
+#### 7537. Shell/bash: Can I create a file descriptor to an existing file without emptying the file?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, logs, file-descriptors, logrotate | Score: 2 | Views: 519 | Answers: 1 | Created: 2024-07-09
+
+**解决方案 / Solution**:
+You have several options, but those have to be >> file instead of > file in order to not "clobber" that file. For exemple, if you need to redirect STDOUT and STDERR inside your script to that logfile, you could use exec lines : exec 1>>logfile.log # fd 1 now points to file logfile.log, without clobbering it exec 2>&1 # fd 2 now points to where fd 1 points now, ie logfile.log # (note : just 2>&1, not 2>>&1 : m>&n just "copies" the fd "n" destination into fd "m") For exemple: $ cat script.bash #!/usr/bin/env bash log="./logfile.log" # better to place a /absolute/path here, otherwise it goes to whatever the caller's current working directory ($PWD) is exec 3>&1 exec 4>&2 function logsize_info() { printf " == %s: the file %s has : %s lines.\n" "$1" "${log}" "$( wc -l < "${log}" )" >&3 # to STDOUT } logsize_info "before redirections" date # should appear on STDOUT exec 1>>"${log}" # now fd 1 points to "${log}" file logsize_info "after redirecting fd 1" date # should go to "${log}" logsize_info "after date" ls -d /something_inexistant_1 # should appear on STDERR as fd 2 still goes to STDERR logsize_info "after listing /something_inexistant_1" exec 2>&1 # now fd 2 points to the same place fd1 currently goes to : "${log}" file logsize_info "after redirecting fd 2" echo foo # to ${log} echo bar # to ${log} echo baz # to ${log} ls -d /something_inexistant_2 # to ${log} ls -d /something_inexistant_3 2>&4 # to STDERR logsize_info "4 more lines should have appeared: 'foo', 'bar', 'bar', and 'an error msg about /something_inexistant_2'" exec 1>&3 # reconnecting fd 1 to STDOUT (otherwise the following "cat" will output an error that Input=Output!) exec 2>&4 # reconnecting fd 2 to STDERR printf "Content of \${log} (= %s ) :\n" "${log}" cat "${log}" $ printf "%s\n" "original" "lines" > ./logfile.log $ ./script.bash == before redirections: the file ./logfile.log has : 2 lines. mar. 9 juil. 2024 14:11:49 == after redirecting fd 1: the file ./logfile.log has : 2 lines. == after date: the file ./logfile.log has : 3 lines. ls: cannot access /something_inexistant: No such file or directory == after listing /something_inexistant_1: the file ./logfile.log has : 3 lines. == after redirecting fd 2: the file ./logfile.log has : 3 lines. ls: cannot access /something_inexistant_3: No such file or directory == 4 more lines should have appeared: 'foo', 'bar', 'bar', and 'an error msg about /something_inexistant_2': the file ./logfile.log has : 7 lines. Content of ${log} (= ./logfile.log ) : original lines mar. 9 juil. 2024 14:11:49 foo bar baz ls: cannot access /something_inexistant_2: No such file or directory $
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779798/shell-bash-can-i-create-a-file-descriptor-to-an-existing-file-without-emptying
+
+---
+
+#### 7538. find with du -sch and very many files
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, find, disk-usage | Score: 2 | Views: 558 | Answers: 2 | Created: 2024-07-02
+
+**解决方案 / Solution**:
+Your quoting makes no sense, the output of find doesn't get interpreted by a shell; neither does using \n as separator; you should instead always use \0 zero byte as separator and use xargs with -0 ; the zero byte can never be part of a file name or path! Anyways, that might not solve the issue at hand: Command lines have a maximum length; so having a single call to du with very many parameters might simply be impossible. If you have GNU coreutils du (you probably do if you're on a fully-fledged Linux, du --version would tell you), you can use du --files0-from= to read the files from a file, or specifically, from standard input, when using - as file name: find . \( CRITERIA \) -printf '%h\0' | du -sch --files0-from=- | sort -rh Stéphane points out that it'd make more sense to remove duplicates from the files before they get processed: find . \( CRITERIA \) -printf '%h\0' | LC_ALL=C sort -zu | du -sch --files0-from=- LC_ALL=C instructs sort to use the "default English-UNIX locale" for sorting. That's usually a good idea to avoid having different ordering depending on the language of the user.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779358/find-with-du-sch-and-very-many-files
+
+---
+
+#### 7539. Enabling command hashing in tcsh
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, tcsh, audit | Score: 2 | Views: 525 | Answers: 1 | Created: 2024-03-17
+
+**解决方案 / Solution**:
+It's quite a complicated issue, but I'll try to explain How are the commands being hashed in tcsh Command hashing in tcsh is quite different than in bash . In bash , every time is command is executed for the first time, it searches for its location in the PATH environment variable and caches it. The next time the same command is being executed, it will use the full path already hashed. Here's the relevant section from the tcsh man page : rehash Causes the internal hash table of the contents of the directories in the path variable to be recomputed. This is needed if new commands are added to directories in path while you are logged in. This should be necessary only if you add commands to one of your own directories, or if a systems programmer changes the contents of one of the system directories. Also flushes the cache of home directories built by tilde expansion. path A list of directories in which to look for executable commands. [...] A shell which is given neither the -c nor the -t option hashes the contents of the directories in path after reading ~/.tcshrc and each time path is reset . If one adds a new command to a directory in path while the shell is active, one may need to do a rehash for the shell to find it. In other words tcsh performs the hashing for all the commands found in the directories in the path variable, only when: The shell is started. The path is being modified. You manually run the rehash command. So after you start the shell it will hash all the commands found in path , and further commands will not be hashed unless you modify the path or run rehash . What is the reason your hashing might be disabled? The man pages specific exactly the conditions for this to happen: This hashing mechanism is not used: If hashing is turned explicitly off via unhash . If the shell was given a -f argument. Here's an example. If I start the shell with the -f flag, hashstat will be empty because the hashing is disabled. $ tcsh -f > hashstat The same would happen if somewhere you run the unhash command. However, in both scenarios, you can still enable it by running `rehash. > rehash > hashstat 512 hash buckets of 8 bits each Why does tcsh executes some commands in different paths even if hashing is enabled? Understanding hashstat Let's look at the output of hashstat : $ hashstat 512 hash buckets of 8 bits each It says there are 512 hash buckets. tcsh uses a hashing function to calculate the hash id of each command, and in this case the value would be between 0 and 511. This means that some commands might (and probably will) have the same hash. The initial number of buckets and bits might be differ depending on the number of directories in your PATH . So let's say two command A and B have the same hash (let's say the hash of both commands is 123). Let's say command A is located /bin , and command B is located /usr/bin . What happens then? It means that in the bucket of hash id 123, there will be two paths: Both /bin and /usr/bin . And when you execute either A or B, it will try to exec those commands in both of those directories (in their order in PATH ) until it succeeds. You'll see an example further down this answer. But for now let's talk about rehash . rehash "secret" parameters The rehash builtin in tcsh has some "secret" undocumented optional arguments that you can only see in the source code. The options are: rehash [hashlength [hashwidth [debug]]] For instance, you can change the number of hash buckets the following way: $ hashstat 512 hash buckets of 8 bits each # At the beginning, 512 buckets $ rehash 4096 # increasing the bucket number $ hashstat 4096 hash buckets of 8 bits each # Now there are 4096 buckets instead of 512 I won't talk about the hash width, because it only has effect if the length is set to 0 (and then the width would be used internally to calculate the length of the hash). Besides for that that it has no meaning. Important note Increasing the table length could help you minimize the possible number of conflicts between different commands. So if you're doing some tests you can try that and see if there is some improvement. Anyway, the really interesting part is yet to come. Showing the internal hashing table You could increase the debugging for hash operations by setting the last argument to 1 or 3. Let's see how it works. $ rehash 0 0 3 hash=19 dir=0 prog=addgnupghome hash=0 dir=0 prog=addpart hash=206 dir=0 prog=agetty hash=498 dir=0 prog=alternatives hash=463 dir=0 prog=applygnupgdefaults hash=323 dir=0 prog=blkdiscard hash=342 dir=0 prog=blkid hash=277 dir=0 prog=blkzone hash=410 dir=0 prog=blockdev hash=500 dir=0 prog=cfdisk [...] It shows you exactly all the commands are hashed and where. For instance, the command addgnupghome has a hash value of 19, and it was found in directory number 0. What is directory number 0? Those directories are numbered according to their order in your PATH environment variables (which is linked to the path shell variable in tcsh ). $ echo $PATH /usr/sbin:/usr/bin:/sbin:/bin The directories in my PATH are numbered the following way: /usr/sbin /usr/bin /sbin /bin So if command addgnupghome was found in directory number 0, it means it's located in /usr/sbin . Examples Let's save the output of our rehash command (after I've set the debug to 3) to a file: $ rehash > rehash.log Now, let's look at a certain hash: $ grep hash=498 rehash.log hash=498 dir=0 prog=alternatives hash=498 dir=1 prog=passwd There are two commands that are mapped to the same hash (498): alternatives found in dir 0 ( /usr/sbin ) passwd found in dir 1 ( /usr/bin ). Another nice effect of increasing the debug level is in the where builtin ( "Reports all known instances of command, including aliases, builtins and executables in path " ). Usually it just shows the found location of the executables, but with the increased debugs it also shows you missed location, and you will see $ where alternatives /usr/sbin/alternatives hash miss: /usr/bin/alternatives $ where passwd hash miss: /usr/sbin/passwd /usr/bin/passwd You could see it will search for both commands in both directories: /usr/sbin and /usr/bin ! Confirming with strace . You wrote: Lastly, strace hasn't captured the failed execve calls captured by audit. I've tried simple strace sleep , and strace -f -e trace=execve sleep , both essentially just showing the correct entry, but not the failed ones: execve("/bin/sleep", ["sleep"], 0x7ffe0d773ff8 /* 32 vars */) = 0 If you run strace sleep , it's no longer the shell that searches for the location of sleep - it's the strace command. The shell only searches for the location of the command that you actually run, which is the first word in your line (in this case, strace ). The rest of the words are considered parameters that are just passed to the command. So before strace executes the sleep command, strace itself searches for the command in the directories in your PATH . If you want to actually see how your shell finds the location of your commands, you'll need to attach strace to your shell (from another terminal) and then run the command. For instance, I have a tcsh process running with pid 21033. From another terminal, I attach strace to this pid. $ strace -f -qq -e trace=execve -p 21033 If I run alternatives on the attached shell, it will immediately find it in the first directory in the list of this hash. [pid 19134] execve("/usr/sbin/alternatives", ["alternatives", "--help"], [/* 125 vars */]) = 0 But passwd command is located in the second directory, and will fail the execve in the first one: [pid 20919] execve("/usr/sbin/passwd", ["passwd", "-h"], [/* 125 vars */]) = -1 ENOENT (No such file or directory) [pid 20919] execve("/usr/bin/passwd", ["passwd", "-h"], [/* 125 vars */]) = 0 Here's the opposite example, of a hash that's mapped only to one command: $ grep hash=102 rehash.log hash=102 dir=1 prog=curl # Only curl has hash 102 $ where curl /usr/bin/curl # And indeed "where" only tries one dir Disclaimer Everything I wrote here was based on what I saw in the tcsh source code and by testing in my own environment (I have version 6.20.00). This might be different according to the version and the way the tcsh was compiled on your distro.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772582/enabling-command-hashing-in-tcsh
+
+---
+
+#### 7540. How to source environment variable in command line with && combiner?
+
+**问题描述 / Problem Description**:
+Tags: shell, scripting, environment-variables | Score: 2 | Views: 144 | Answers: 2 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+I believe your problem has nothing to do with && : /bin/sh is usually some other shell trying to mimic The Shell. Many distributions use /bin/bash for sh , it supports source . On Ubuntu, though, /bin/dash is used which does not support source . Most shells use . instead of source . If you are on one of these systems, replace source by . in your package.json file: "scripts": { "deploy": ". private/create_env.sh && ./deploy.sh", }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772429/how-to-source-environment-variable-in-command-line-with-combiner
+
+---
+
+#### 7541. Shell detection of empty subshell
+
+**问题描述 / Problem Description**:
+Tags: shell, subshell, shellcheck | Score: 2 | Views: 153 | Answers: 1 | Created: 2024-03-14
+
+**解决方案 / Solution**:
+As ilkkachu writes , POSIX itself specifies that The shell shall expand the command substitution by executing command in a subshell environment (see Shell Execution Environment ) and replacing the command substitution (the text of command plus the enclosing "$()" or backquotes) with the standard output of the command, removing sequences of one or more <newline> characters at the end of the substitution. However looking at shells’ actual behaviour reveals some surprises (well, one). I’m using a script containing only echo \ Before \ `# commented` \ After Bash and Zsh fork a subshell to run the comment-only command substitution: $ strace -f -e process bash bttest execve("/bin/bash", ["bash", "bttest"], 0x7ffe31522a10 /* 67 vars */) = 0 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 3134851 attached , child_tidptr=0x7fe3ef0c6a10) = 3134851 [pid 3134851] exit_group(0) = ? [pid 3134851] +++ exited with 0 +++ --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3134851, si_uid=1000, si_status=0, si_utime=0, si_stime=0} --- wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3134851 wait4(-1, 0x7ffecdd13810, WNOHANG, NULL) = -1 ECHILD (No child processes) Before After exit_group(0) = ? +++ exited with 0 +++ $ strace -f -e process zsh bttest execve("/usr/bin/zsh", ["zsh", "bttest"], 0x7fffa2f78140 /* 67 vars */) = 0 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLDstrace: Process 3134903 attached , child_tidptr=0x7f236ce63750) = 3134903 [pid 3134903] exit_group(0) = ? [pid 3134902] kill(3134903, 0) = 0 [pid 3134903] +++ exited with 0 +++ --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3134903, si_uid=1000, si_status=0, si_utime=0, si_stime=0} --- wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG|WSTOPPED|WCONTINUED, {ru_utime={tv_sec=0, tv_usec=593}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 3134903 wait4(-1, 0x7ffcabc4a7d4, WNOHANG|WSTOPPED|WCONTINUED, 0x7ffcabc4a7f0) = -1 ECHILD (No child processes) kill(3134903, 0) = -1 ESRCH (No such process) Before After exit_group(0) = ? +++ exited with 0 +++ DASH on the other hand parses the contents inside the backticks to determine whether they represent a builtin command or an external command, and if that parsing results in an empty “node” (an empty command), skips it entirely : $ strace -f -e process dash bttest execve("/bin/dash", ["dash", "bttest"], 0x7ffe61eee5c0 /* 67 vars */) = 0 Before After exit_group(0) = ? +++ exited with 0 +++ If the backticks include a command, even a builtin, DASH does fork, same as Bash and Zsh; with echo \ Before \ `: # commented` \ After we get $ strace -f -e process dash bttest execve("/bin/dash", ["dash", "bttest"], 0x7fff762e6260 /* 41 vars */) = 0 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7effab920850) = 3905359 strace: Process 3905359 attached [pid 3905359] exit_group(0) = ? [pid 3905359] +++ exited with 0 +++ --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3905359, si_uid=1000, si_status=0, si_utime=0, si_stime=0} --- wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3905359 wait4(-1, 0x7ffdb1e8683c, WNOHANG, NULL) = -1 ECHILD (No child processes) Before After exit_group(0) = ? +++ exited with 0 +++ So there is at least one shell “smart” enough to not launch a subshell in this scenario. Some shells, such as ksh93, don’t fork at all for subshells not involving external commands; even with the : variant of the test, strace shows $ strace -f -e process ksh93 bttest execve("/bin/ksh93", ["ksh93", "bttest"], 0x7ffce3c73510 /* 41 vars */) = 0 Before After exit_group(0) = ? +++ exited with 0 +++ (There is no “POSIX shell” — POSIX is a specification, with no reference implementations. No shell that I’m aware of strictly implements POSIX and only POSIX.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772297/shell-detection-of-empty-subshell
+
+---
+
+#### 7542. What can I do to get my package from Debian unstable to next Ubuntu LTS?
+
+**问题描述 / Problem Description**:
+Tags: package-management, lts, debian, release-management | Score: 2 | Views: 131 | Answers: 1 | Created: 2018-02-08
+
+**解决方案 / Solution**:
+It's already done. Hooray for Ubuntu's Merge-o-Matic See https://launchpad.net/ubuntu/+source/thonny Consider spinning up an 18.04 VM, and testing it.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1004329/what-can-i-do-to-get-my-package-from-debian-unstable-to-next-ubuntu-lts
+
+---
+
+#### 7543. Debian packages in private repository not visible in Muon
+
+**问题描述 / Problem Description**:
+Tags: apt, package-management, dpkg, debian, muon-package-manager | Score: 2 | Views: 256 | Answers: 1 | Created: 2018-02-06
+
+**解决方案 / Solution**:
+Muon (KDE Software) is like Gnome software, by default it shows only graphical tools. Filtering out some Debian package categories mainly used by advanced users. Muon → View → Show technical packages
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1003482/debian-packages-in-private-repository-not-visible-in-muon
+
+---
+
+#### 7544. run crontab as www-data to create a file with www-data as owner
+
+**问题描述 / Problem Description**:
+Tags: cron, debian | Score: 2 | Views: 3808 | Answers: 3 | Created: 2018-01-24
+
+**解决方案 / Solution**:
+So you want to have all your crontabs in one place under root execute some python code every 5 minutes execute the script with user www-data Since su is not available for www-data as discussed in the comments one can use sudo instead if it is available on the system. From the man page it says sudo, sudoedit — execute a command as another user In your case this would mean you use sudo crontab -e to edit your crontab as user root. Inside crontab prepend sudo -u www-data python command to execute python ad user www-data . */5 * * * * sudo -u www-data python /my/python/log/script.py
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/999357/run-crontab-as-www-data-to-create-a-file-with-www-data-as-owner
+
+---
+
+#### 7545. Install non-executable files with dh_install
+
+**问题描述 / Problem Description**:
+Tags: packaging, debian | Score: 2 | Views: 3252 | Answers: 2 | Created: 2017-12-01
+
+**解决方案 / Solution**:
+It's a bug in dh-install. Remove the executable bit in your .install file. chmod -x debian/*.install Hope this answer helps someone, it took me blood sweat and tears to solve.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/982078/install-non-executable-files-with-dh-install
+
+---
+
+#### 7546. Upgrading network-manager crashes sudo
+
+**问题描述 / Problem Description**:
+Tags: networking, upgrade, debian | Score: 2 | Views: 1140 | Answers: 1 | Created: 2017-11-26
+
+**解决方案 / Solution**:
+In that case (unless you want to remove NetworkManager and replace it by something else) you'll need to fix NetworkManager . For one thing, you could have a look at journalctl -xe does it show you anything useful? Second thing is you could do is to "reproduce the problem manually", i.e. issue service NetworkManager restart as root. Does that show you something interesting? If that doesn't show you anything interesting either, then try to "restart" NetworkManager even more "manually". I.e. have a look at the NetworkManager service. It should be living under /etc/systemd/system/multi-user.target.wants/NetworkManager.service or such. On my system that file tells me that systemd will: try to stop NetworkManager by kill -TERM $PID_OF_NETWORK_MANAGER try to start NetworkManager by executing NetworkManager --no-daemon What you can do now is to do that manually. I.e. try to do the kill manually to stop NetworkManager and try to start it manually by running the command above. Note that NetworkManager supports a --debug flag, which you could use to see more verbose output from NetworkManager , which could tell you what it exactly is that makes NetworkManager either to take so long to stop or take that long to start. I.e. what NetworkManager is waiting for to happen... Also note, that on my system systemd expects NetworkManager to appear on dbus . So you could check that as well.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/980435/upgrading-network-manager-crashes-sudo
+
+---
+
+#### 7547. Errors encountered when installing Google Earth on Ubuntu 17.04
+
+**问题描述 / Problem Description**:
+Tags: software-installation, dpkg, debian | Score: 2 | Views: 1643 | Answers: 1 | Created: 2017-08-06
+
+**解决方案 / Solution**:
+The error shows you a dependency issue: google-earth-pro-stable depends on lsb-core (>= 3.2); however: Package lsb-core is not installed. Google Earth requires the package lsb-core but it is not installed on your system. Since this package is in the Ubuntu 17.04 repos, simply run sudo apt-get install lsb-core to install lsb-core. Then you can run sudo dpkg -i google-earth-pro-stable_current_amd64.deb again to install.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/943547/errors-encountered-when-installing-google-earth-on-ubuntu-17-04
+
+---
+
+#### 7548. RTL8723BE Bluetooth not working
+
+**问题描述 / Problem Description**:
+Tags: drivers, bluetooth, debian, rtl8723be | Score: 2 | Views: 2734 | Answers: 1 | Created: 2017-07-29
+
+**解决方案 / Solution**:
+The bug is fixed with this kernel: http://kernel.ubuntu.com/~jsalisbury/lp1788997 as long as you select antenna 1: modprobe rtl8723be ant_sel=1 Make sure you have that in config too: sudo /bin/sh -c 'echo "options rtl8723be ant_sel=1" >> /etc/modprobe.d/rtl8723be.conf'
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/940835/rtl8723be-bluetooth-not-working
+
+---
+
+#### 7549. What are the secure ways to use credentials in bash scripts?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, authentication | Score: 1 | Views: 1935 | Answers: 3 | Created: 2025-07-02
+
+**解决方案 / Solution**:
+The answer to this pretty much depends on the trade-off between convenience and security. From whom are you protecting the credentials? For example, other users on the same server? Root users on the same server? External attackers? How valuable is the data that your credentials can access? For example, would it just be inconvenient or embarrassing if colleagues used them? Does the API access cost real money - Are you paying a fixed amount or per API access? Considerations If you are protecting the credentials against peers with access to the server but without root privileges you could store the credentials in a suitably protected file in your home directory. Possibly encoded to defeat casual views over your shoulder If you are protecting the credentials against anyone with root access on the server you will need to consider the value of the credentials. One approach might be to have the job run just once in cron and control its own repeatability schedule. It would read the credentials from a named pipe at startup. You would be responsible for writing those credentials to the named pipe by hand to allow the job to start. But note that anyone with root permissions can potentially subvert your program code, maybe to writing the collected credentials to a temporary file for later retrieval. You'll probably get better answers to a better formulated question over on the Information Security site
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797597/what-are-the-secure-ways-to-use-credentials-in-bash-scripts
+
+---
+
+#### 7550. Why read process doesn't show up in ps -ef
+
+**问题描述 / Problem Description**:
+Tags: shell, process, ps, read, safety | Score: 1 | Views: 99 | Answers: 1 | Created: 2025-01-21
+
+**解决方案 / Solution**:
+In my shell, read is a shell builtin: $ type read read is a shell builtin Therefore, running read foo is not starting a new process and therefore, nothing shows up in ps -ef .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789909/why-read-process-doesnt-show-up-in-ps-ef
+
+---
+
+#### 7551. Would #! /bin/sh - shebang prevent from execution on other operating systems? How to create shell agnostic portable script?
+
+**问题描述 / Problem Description**:
+Tags: shell, portability | Score: 1 | Views: 257 | Answers: 2 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+Would it prevent from execution on other operating systems like Windows which may not have sh in bin folder? These days many Windows users run WSL so they could run it but not without earlier preparation. They could also use Git bash, Cygwin, UnxUtils and so on. On *nix systems - no because you still could run it as sh script.sh , no matter where sh lives but it might be a completely different shell than was intended to start the script. Even on Linux sh may refer to different things - on Slackware it's a symlink to Bash which starts in a different mode than if it was started as bash, on Ubuntu it's dash, on Android it's mksh, on embedded Linux systems it's commonly busybox ash. On FreeBSD it used to be tcsh but now they say it's something different . In theory it's possible to write a portable script if you limit yourself to POSIX but it's very very limiting. Is this better to omit shebang line to make a portable script? No, it's even worse. If you know you're going to use Bash-specific construct you should put Bash in the shebang. How to write a operating system agnostic, shell agnostic, portable script which would execute in the same way in all operating systems or shells? Not possible but see below. If the script has to be executed the same way on Mac OS, Windows, Ubuntu, any other Linux or any other operating systems? These days I'd suggest using docker . It's available on Linux, macOS and Windows and lets you run reproducible environments. Users need to only have docker installed on their machines and then you can run any image you want and be absolutely sure that everyone has the same environment on their machines including not only the shell but also package manager and command line tools. For example: $ docker run --rm -it ubuntu:24.10 Unable to find image 'ubuntu:24.10' locally 24.10: Pulling from library/ubuntu 31734b193a81: Pull complete Digest: sha256:102bc1874fdb136fc2d218473f03cf84135cb7496fefdb9c026c0f553cfe1b6d Status: Downloaded newer image for ubuntu:24.10 root@5bdf4f449557:/# Recent MacBooks and other small laptops are based on ARM architecture so it's another problem to solve, some tools may not be available for ARM because even though in theory it's the most widely used instruction set architecture in the world many tools, especially developer tools are still focused on x86 family. But most tools like curl, sed, mkdir, cp etc. that you're using should work normally (I don't know what sf is, sorry). I share preparation notes to install all needed tools like jq, sed, sfdx, curl and I assume the script would run the same way on all machines and all the operating systems. You could ask workshop participants to install docker and make sure it runs on their machines.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789558/would-bin-sh-shebang-prevent-from-execution-on-other-operating-systems-ho
+
+---
+
+#### 7552. umask value leaked when logging in into a different account
+
+**问题描述 / Problem Description**:
+Tags: shell, login, umask | Score: 1 | Views: 324 | Answers: 1 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+The current user file-creation mask (umask) isn’t determined by an environment variable, so it isn’t affected by the environment changes made either by sudo or su . The umask is a process attribute, and the shell inherits it from its parent and doesn’t change it, even if it’s a login shell — the process handling the actual login (such as login ) is in charge of setting the umask (for login , using /etc/login.defs or the default 022 umask, and/or PAM). Since PAM has a umask-setting module ( pam_umask ), you can configure your system to reset the umask when su is used, but that’s not the default.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789276/umask-value-leaked-when-logging-in-into-a-different-account
+
+---
+
+#### 7553. Is there a built-in way to copy a file from current directory to previous directory?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, file-copy, pwd | Score: 1 | Views: 101 | Answers: 1 | Created: 2024-12-13
+
+**解决方案 / Solution**:
+Use the builtin OLDPWD variable. cd /path/to/first/location cd /path/to/second/location cp "some file" "$OLDPWD"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788087/is-there-a-built-in-way-to-copy-a-file-from-current-directory-to-previous-direct
+
+---
+
+#### 7554. Open pdf files by terminal with fzf and fd
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, scripting | Score: 1 | Views: 276 | Answers: 1 | Created: 2024-12-12
+
+**解决方案 / Solution**:
+I'm not familiar with fd nor fzf nor masterpdfeditor5 but I can at least tell that the xargs command won't work because you use the -0 for NUL ‑delimited records while feeding LF -delimited ones to it... An easy fix (and most probably the best one when dealing with paths) is to use NUL -delimited records in all the commands of the pipeline: fd . ~/OneDrive/DBCalibre -t f -e pdf -0 | fzf --read0 --print0 | xargs -0 -n1 masterpdfeditor5
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788023/open-pdf-files-by-terminal-with-fzf-and-fd
+
+---
+
+#### 7555. I fail to match the standard output of a posix shell function with the text I want to test it against
+
+**问题描述 / Problem Description**:
+Tags: shell, posix, output, test, testing | Score: 1 | Views: 137 | Answers: 1 | Created: 2024-12-08
+
+**解决方案 / Solution**:
+You have two issues: The result of a command substitution $(...) will never end with a LF , as they are implicitly trimmed by the shell. So your GROUND_TRUTH variable (that's meant to test the result of a command substitution) shan't end with a LF . Inside a string literal, the shell doesn't understand \n as an escape sequence for the LF character. As you're targeting a POSIX shell, the most common workaround is to use a real LF in your string. So, the minimal fix that'll make your code work as intended would be to replace: GROUND_TRUTH="Test output.\nReturn to exit\n" with: GROUND_TRUTH="Test output. Return to exit"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787840/i-fail-to-match-the-standard-output-of-a-posix-shell-function-with-the-text-i-wa
+
+---
+
+#### 7556. How to keep a pipe open and discard data while the reader is blocked?
+
+**问题描述 / Problem Description**:
+Tags: shell, pipe, fifo | Score: 1 | Views: 156 | Answers: 1 | Created: 2024-11-19
+
+**解决方案 / Solution**:
+You could insert something in between ripcam-vid and go2rtc that forwards the data with the output in non-blocking mode so that when the pipe is full because nothing is reading from it, the data is discarded (the write() s to the pipe just fail with EAGAIN ( Resource temporarily unavailable )¹): rpicam-vid ... | { dd count=0 oflag=nonblock status=none && PERLIO=:unix perl -pe 'BEGIN{$/ = \8192}' } | go2rtc Here using dd (assumed to be the GNU implementation of dd ) to change stdout to non-blocking mode and perl to forward the data in chunks of up to 8KiB. By default on Linux, the pipe buffer size is 64KiB, you can enlarge it to make it less likely for data to be discarded in normal operation using the F_SETPIPE_SZ fnctl. For instance, doing both the non-block and pipe capacity enlargement with perl : rpicam-vid ... | PERLIO=:unix perl -MFcntl=F_GETFL,F_SETFL,O_NONBLOCK,F_SETPIPE_SZ -pe ' BEGIN{ $flags = fcntl(STDOUT, F_GETFL, 0) || die "getfl: $!\n"; fcntl(STDOUT, F_SETFL, $flags | O_NONBLOCK) || die "setfl: $!\n"; fcntl(STDOUT, F_SETPIPE_SZ, 1048576) || die "setpipesz: $!\n"; $/ = \8192; }' | go2rtc The maximum pipe size value one may use is determined by /proc/sys/fs/pipe-max-size ( sysctl fs/pipe-max-size ), 1MiB by default, which you can raise as root with sysctl -w fs/pipe-max-size="$newvalue" if need be. But I'm not sure discarding chunks of a video like that is a good idea. ¹ non-blocking mode could also mean short writes, that is, when writing to the pipe that is almost full, only as much as can fit in the pipe be written, the rest discarded if not reattempted.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786843/how-to-keep-a-pipe-open-and-discard-data-while-the-reader-is-blocked
+
+---
+
+#### 7557. cron jobs to inherit cron daemons environment variable
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, process, cron | Score: 1 | Views: 127 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+The following approach was verified on my Debian system. Note that Debian uses the vixie version of cron ; some other distros use a different version. I haven't tested this approach on other distros, and YMMV: open the file /etc/environment in your editor, and add your environment variables; e.g. : ENV_VAR_B=hoppinjohn Alternatively , from the command line: $ sudo echo "ENV_VAR_B=hoppinjohn" >> /etc/environment in your crontab (s), add a statement to print cron's environment to a file (for verification): * * * * * printenv > /home/seamus/cronenvironment.txt 2>&1 verify the env variable has been added by viewing cronenvironment.txt : $ cat ~/cronenvironment.txt HOME=/home/seamus MAILTO= LOGNAME=seamus PATH=/usr/bin:/bin LANG=en_GB.UTF-8 SHELL=/bin/sh ENV_VAR_B=hoppinjohn PWD=/home/seamus
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785964/cron-jobs-to-inherit-cron-daemons-environment-variable
+
+---
+
+#### 7558. How to decode bytes to characters in a POSIX-compliant way?
+
+**问题描述 / Problem Description**:
+Tags: shell, posix, locale, i18n | Score: 1 | Views: 290 | Answers: 1 | Created: 2024-10-25
+
+**解决方案 / Solution**:
+Once you have done the setlocale() , MB_CUR_MAX will tell you if you have a multibyte character set or not. If multibyte, you can use the mb*() POSIX functions such as mbstowcs() to convert multibyte character strings into wide characters. Then use either the isblank() / isalpha() .. vs iswblank() / iswalpha() for instance if you need to know whether a character is a blank/alpha... See iconv() to convert between charsets. All the wc*() functions to work with wide characters (beware not all systems use Unicode codepoints for the wchar_t values). Characters used in the syntax of the shell itself should be part of the portable charset (ASCII in practice these days) so invariant across locales in practice¹. A lot of what the shell does is at byte level though, so you may get away in a lot of cases without having to decode. There's also the question of what to do for strings that can't be decoded into characters. Command line arguments don't have to be text or could be text in a variety of different charsets, so shells should be able to deal with that. They should also be able to deal with the locale changing midway through like after export LC_CTYPE=something-else . For a shell written today, I think I would only support UTF-8 as a multibyte character encoding like mksh does (with -o utf8-mode ), a lot of the other multibyte character encoding are dangerous especially in a shell so are best avoided anyway. Then you can do without all that mb* API and do the UTF-8 decoding/encoding by hand. You'll probably want to check how other shells do, here is not the place to provide a full guide. You'll find that it's often not pretty. For instance bash's pattern matching wrt multibyte handling is pretty awful and not something I'd recommend emulating. Decoding bytes that can't be decoded into characters into special wchar_t values like zsh/python do is likely the best approach at dealing with non-text when you have to do text operation on strings (like pattern matching, cutting, string length...). Shells that have some level of multibyte support that you may want to look at include bash, zsh, ksh93, mksh, bosh and yash. yash chokes on non-text. ¹ Though POSIX suggests for instance any character considered as blank in the locale can be used as delimiter in the syntax or variable names can be have any alnum, I would strong suggest not going there. Few shells do or only partly and that just makes life harder for yourself and gives users an API that cannot be made reliable. Note that some systems still have locales that have ms-kangi as charset. That charset doesn't have a backslash character and byte 0x5c there is the yen (¥) symbol. You generally get away with it because tools including shells don't really decode bytes into character especially in single-byte locales, so the ¥ can generally be used in place of \ there as tools just attach the backslash meaning to the 0x5c byte.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785610/how-to-decode-bytes-to-characters-in-a-posix-compliant-way
+
+---
+
+#### 7559. swap matched columns
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, shell, awk, sed | Score: 1 | Views: 300 | Answers: 4 | Created: 2024-10-11
+
+**解决方案 / Solution**:
+One idea where we redefine $0 if we find a match: $ awk '$2 == "172.21.154.37" { $0 = $2 OFS $1 } 1' file.dat 172.21.154.40 172.21.254.25 172.21.154.37 172.21.250.94 172.21.250.93 172.21.254.24 NOTES: the standalone 1 is awk's equivalent to 'true' and basically says to print the current line (which in this case means we print all lines) the OFS default is a space; if the input delimiter is something other than a space (eg, 3 spaces) and you wish to retain the input spacing then we could add some more code but at this point the single space appears to be sufficient to match your sample input
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784911/swap-matched-columns
+
+---
+
+#### 7560. add a randomize option in a bash script
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, shell, scripting | Score: 1 | Views: 194 | Answers: 1 | Created: 2024-10-09
+
+**解决方案 / Solution**:
+If you can build options.txt to have equal possibilities between the lines, possibly by repeating the letters as needed, then you could write: --option "$( shuf -n1 options.txt )" (And you probably should have quotes around your other $( ... ) constructs.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784759/add-a-randomize-option-in-a-bash-script
+
+---
+
+#### 7561. Is [..] posix compliant while [[..]] is not
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, scripting, posix | Score: 1 | Views: 151 | Answers: 1 | Created: 2024-10-02
+
+**解决方案 / Solution**:
+Yes, the [ utility also known as test is standard, you can find an HTML version of its POSIX 2024 specification on the OpenGroup website . There was a proposal to specify ksh's [[...]] in the POSIX sh language but it was eventually rejected (downscaled to just adding a few extra operators to [ that are common to most implementations). You'll see the rationale section stating: The KornShell-derived conditional command (double bracket [[]] ) was removed from the shell command language description in an early proposal. Objections were raised that the real problem is misuse of the test command ( [ ), and putting it into the shell is the wrong way to fix the problem. Instead, proper documentation and a new shell reserved word (!) are sufficient. A later proposal to add [[]] in Issue 8 was also rejected because existing implementations of it were found to be error-prone in a similar way to historical versions of test, and there was also too much variation in behavior between shells that support it. Some of the relevant differences between [[...]] and [ : combining more than one test in one invocation reliably is easier to do with [[...]] than with [...] (where the -a / -o operators are actually deprecated as they can't be used reliably), but using [ ... ] && [ ... ] || [ ... ] is fine and doesn't incur penalties as [ is invariably builtin which makes [[...]] 's own && / || redundant (and potentially confusing as precedence rules are different from the shell's && / || ). [[ $string = $pattern ]] does actually pattern matching rather than equality comparison. That is redundant as well with the standard case construct, and source of bugs as people tend to think it's fine to leave variables unquoted inside [[...]] (and it often is) and forget to do [[ $string1 = "$string2" ]] when comparing strings for equality. it gets worse with [[ $string =~ $pattern ]] which is done differently depending on the shell. bash and a few other shells made an unfortunate decision to have quoting influence the regex operation there which is wrong as regex syntax is not compatible with normal shell tokenisation (more details at How does storing the regular expression in a shell variable avoid problems with quoting characters that are special to the shell? and in the Austin Group bug mentioned above). The [ builtin of zsh and yash do have a =~ operator as well. in most shells, the arithmetic operators of [[...]] interpret their operands as arithmetic expressions (which makes things like [[ $1 -eq $2 ]] a command injection vulnerability in most shells (and causes surprises when the numbers start with 0 which makes them interpreted as octal in some shells). While POSIX requires operands to those of [ to be treated as decimal integers. the parsing rules in [[...]] are specific to the construct and vary from shell to shell, while [ is just a simple command so handled like any other command. So [ is usually fine and to quote POSIX the real problem is misuse of the test command ( [ ) . As long as you remember to quote variables and other expansions (as needed for all commands, not just [ ) and don't use the -a (and), -o (or) deprecated binary operators (and (...) which are not needed anyway once you can't combine more than one test), [ is just fine (and safer when doing number comparisons). [[...]] can be nicer as it can make for shorter code, can allow one to skip quoting some expansions, but that's mostly syntactic sugar but at the expense of having to learn extra syntax and its quirks.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784363/is-posix-compliant-while-is-not
+
+---
+
+#### 7562. How can I iterate over the white space separated words returned by a command substition?
+
+**问题描述 / Problem Description**:
+Tags: shell, command-substitution, whitespace | Score: 1 | Views: 131 | Answers: 1 | Created: 2024-09-13
+
+**解决方案 / Solution**:
+By default, unquoted command substitution, in Bourne-like shells, when in list context (and that for loop in part is a list context obviously) is subject to split+glob (split only in zsh) The splitting is done on characters of $IFS which by default includes space, tab and newline (and null in zsh). So: for x in $(echo one two three); do echo $x; done Should loop over one , two , three as long as you've not modified $IFS from its default¹. Note that globbing is also performed in shells other than zsh which you almost never want. It's harmless here, but would become a problem if there was a * word for instance in the output of echo . And also note that split+glob is also performed on unquoted parameter expansions, so that $x should be "$x" . Unsetting $IFS also reverts the default splitting, so if you want to account for a $IFS that might have been modified earlier, you can do: unset -v IFS # split on space, tab, newline set -o noglob # except in zsh for x in $(echo one two three); do echo "$x"; done ¹ And those are really regular U+0020 space characters, not one of the other space characters found in Unicode that terminal emulators usually display the same as U+0020; you can add them to $IFS , but in most shells, the splitting will not behave like for space/tab/newline in that leading and trailing ones won't be ignored and each individual occurrence will delimit a field.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783440/how-can-i-iterate-over-the-white-space-separated-words-returned-by-a-command-sub
+
+---
+
+#### 7563. Difference between -v, -z and -n while comparing variables in a shell script
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, scripting | Score: 1 | Views: 284 | Answers: 1 | Created: 2024-09-13
+
+**解决方案 / Solution**:
+-v always tests for the existence of a parameter, whether its value is empty or not. $ unset x $ [[ -v x ]] && echo set $ x= $ [[ -v x ]] && echo set set $ x=1 $ [[ -v x ]] && echo set set -z only tests if a string is empty or not. It doesn't know or care about parameters; $x just provides the string to test, and unset parameters always expand to the empty string, just like empty parameters. $ unset x $ [[ -z "$x" ]] && echo empty empty $ x= $ [[ -z "$x" ]] && echo empty empty $ x=1 $ [[ -z "$x" ]] && echo empty $ -n is the opposite of -z , so [[ ! -n "$x" ]] and [[ -z "$x" ]] are equivalent for the same parameter x , whether it is set or not. Because unset parameters expand to the empty string, [[ -v x ]] succeeding doesn't tell you if [[ -z "$x" ]] will succeed or not, and [[ -z "$x" ]] succeeding doesn't tell you if [[ -v x ]] will succeed or not.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783437/difference-between-v-z-and-n-while-comparing-variables-in-a-shell-script
+
+---
+
+#### 7564. Bash script that takes multiple path arguments and checks if files can be successfully created there
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, awk, scripting | Score: 1 | Views: 1039 | Answers: 6 | Created: 2024-09-01
+
+**解决方案 / Solution**:
+JSON is a poor choice of format as, when UTF-8 encoded (as it's often required to these days, and many tools don't support non-UTF-8 encoded JSON), its strings can't contain arbitrary file paths (which are arbitrary sequences of non-NUL bytes). But if you're OK with producing non-UTF-8 encoded JSON like many tools on Linux such as lsfd do (but that tools like jq can't process), you could do: #! /bin/sh - exec perl -MJSON::PP -Mfiletest=access -e ' print JSON::PP->new ->indent ->space_after ->indent_length(2) ->encode( [ map { "path" => $_, "is_available" => !!(-d $_ && -x $_ && -w $_) }, @ARGV ] )' -- "$@" Though you might as well make it a perl script: #! /usr/bin/perl -- use JSON::PP; use filetest 'access'; print JSON::PP->new ->indent ->space_after ->indent_length(2) ->encode( [ map { 'path' => $_, 'is_available' => !!(-d $_ && -x $_ && -w $_) }, @ARGV ] ); Note that, rather than trying to create files in there, which is potentially destructive (and can at least update the modification time of those directories), it uses heuristics (checks that the paths identify searchable ( -x ) and w ritable d irectories). The ->indent->space_after->indent_length(2) is just to get a jq -style pretty-formatting. You can remove it to get compact JSON (like with jq -c ). Replace !! with int or 0+ for instance if you do want is_available to be a 0 / 1 number rather than a false / true boolean.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782873/bash-script-that-takes-multiple-path-arguments-and-checks-if-files-can-be-succes
+
+---
+
+#### 7565. bash: script running in pm2 unable to access file descriptors files at /dev/fd/
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, file-descriptors, tee | Score: 1 | Views: 299 | Answers: 1 | Created: 2024-08-23
+
+**解决方案 / Solution**:
+1. Why this Error message? tee: /dev/fd/2: No such device or address Is not saying it's not finding /dev/fd , it's saying that trying to open /dev/fd/2 is failing with a ENXIO error code. You can confirm that error message corresponds to that error code in zsh with: $ zmodload zsh/system $ syserror ENXIO No such device or address If you look at the open(2) man page on a Linux-based system, the possible reasons for that code are: ENXIO O_NONBLOCK | O_WRONLY is set, the named file is a FIFO, and no process has the FIFO open for reading. ENXIO The file is a device special file and no corresponding device exists. ENXIO The file is a UNIX domain socket. Here, you're most likely in the last case. It's common for stderr to be on a UNIX domain socket, that's typically happening for most processes started by systemd where stderr is a UNIX domain socket communicating with journald . If you run: sudo lsof -d2 -E On a typical modern GNU/Linux system, you'll find the fd 2 of most processes are connected to journald via a UNIX domain socket. And on Linux, /dev/fd/2 is not behaving like on other Unix-like systems. On other Unix-like systems (except Cygwin which behaves like Linux in this instance), opening /dev/fd/2 or /dev/stderr is like doing a dup(2) , so writing to a fd opened on /dev/fd/2 is like writing on fd 2 (stderr), but on Linux, /dev/fd/2 is a magic symlink to the file opened on fd 2, and opening that file anew gives you a totally separate open file description than the one fd 2 is pointing to. Here, that even fails altogether as one can't open() a UNIX domain socket, one has to connect() to it instead. But even if fd 2 was opened to a regular file instead, using tee /dev/fd/2 would also have been wrong, as it would have opened the file from the start instead (and possibly in a different mode). In that case, using tee -a helps a bit but not for the UNIX domain socket case. 2. Using zsh instead of bash Here, you could use zsh instead of bash and do: #! /usr/bin/env zsh print -ru2 Running in /proc/self/exe(:P) echo Hello >&1 >&2 As zsh has builtin support for both readlink -f (or its standard realpath equivalent) and tee . Except its tee (which is done implicitly when a fd is redirected more than once for writing) can write to arbitrary file descriptors and anything zsh can redirect to, and not just files like for tee . If you can't be sure the she-bang is honoured, change it to: #! /usr/bin/env zsh [ -n "$ZSH_VERSION" ] || exec zsh -- "$0" "$@" print -ru2 Running in /proc/self/exe(:P) echo Hello >&1 >&2 3. Use tee to cat in a ksh-style process substitution. Using /dev/fd/x for this kind of thing on Linux/Cygwin only really works acceptably when the fd is opened on things like a pipe or a tty device where all writes by different processes are mostly independent from each other and there's no concept of position within the file. So here with bash , you could do something like: echo hello | tee -- >(cat >&2) Where >(cat >&2) expands to a /dev/fd/n (or /proc/self/fd/n which is the same on Linux), but n is a fd open on a pipe here, and what you feed to that pipe is read by cat , and what cat reads from that pipe it writes on its stdout which we've redirected to the same open file description as on stderr. Beware however that bash doesn't wait for that cat process, so you might find that in: echo hello | tee >(cat>&2) echo world >&2 On stderr, world comes before hello as cat has not finished its job by the time bash runs echo world .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782430/bash-script-running-in-pm2-unable-to-access-file-descriptors-files-at-dev-fd
+
+---
+
+#### 7566. how to correct "unknown root shell" in shell in a box
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, freebsd, root | Score: 1 | Views: 271 | Answers: 3 | Created: 2024-08-23
+
+**解决方案 / Solution**:
+Edit /etc/passwd or /etc/master.passwd directly, there is a line for your user that also specifies the path to the shell.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782425/how-to-correct-unknown-root-shell-in-shell-in-a-box
+
+---
+
+#### 7567. Linux command vs bash command, is my understanding correct?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, command, terminology | Score: 1 | Views: 2376 | Answers: 3 | Created: 2024-08-13
+
+**解决方案 / Solution**:
+All in all your understanding is correct. Shells have various builtins which replicate real programs and which are often also installed as real programms. One reason to do this is performance. Builtins do not need to fork which make them faster. while bash commands are somewhat specific to the shell syntax I wouldn't call them 'specific to the shell syntax'. Builtins are used and behave very much like external commands. In one case it will call an external program and in the other an internal function replicating a program. Specific to the shell syntax are things like [[ which is more part of the shell syntax and not a builtin. It is especially recognizable with [[ which allows using > and other shell special characters as 'arguments' which would normally, for a builtin or external command, setup a redirection. (Note: in Shell scripts redirections are usually added after the command and its argument but this is not a requirement. The syntax allows them at any point including in between the commands arguments.) A shell agnostic way to use the real program instead of the builtin is to use the full path e.g. /usr/bin/pwd instead of just pwd . Or depending on the shell to disable the builtin, e.g. for Bash enable -n pwd . Also useful is the Zsh shell builtin where which is an extended version of which and shows all locations where a command is found, not only the first. Last but not least you example with cd is an unfortunate choice. While several shell builtins also exist as external programs there are some which do not and cannot. External programs are run separate from the shell and cannot change the shells environment. cd should change the current working directory. If you implement it as external program you would only change the working directory for this external program. It cannot not change the shell running it. So cd and many other builtins have to be shell builtins.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781834/linux-command-vs-bash-command-is-my-understanding-correct
+
+---
+
+#### 7568. Autocomplection with description in zsh
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, autocomplete | Score: 1 | Views: 78 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+The main issue with $(echo "$TMPLIST") is that it splits on any whitespace, rather than just newlines. In zsh, you can split a variable on newlines with ${(@f)TMPLIST} , then use another layer of expansion to remove any leading spaces from each element: _triumphum_parametter_values() { # The list without spaces TMPLIST="Foo[Longdescription] Bar[Anotherlongdescription]" # The list WITH description TMPLIST="Foo[Long description] Bar[Another long description]" local -a allowedValues # split on newlines, then remove leading spaces from each element allowedValues=("${(@)${(@f)TMPLIST}## #}") if [[ ${#allowedValues} -gt 0 ]]; then _values -s , 'Available values' "${allowedValues[@]}" else _message 'Available values (none found)' fi }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780804/autocomplection-with-description-in-zsh
+
+---
+
+#### 7569. omz reload in zsh widget
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, zsh, oh-my-zsh | Score: 1 | Views: 288 | Answers: 1 | Created: 2024-07-23
+
+**解决方案 / Solution**:
+Code running in a custom zle widget (i.e. a zsh function that's bound to a key) runs with standard input connected to /dev/null . The reason for this is that zsh is in the middle of reading from the terminal, and commands run from widget should not interfere with this. omz reload runs exec zsh to replace the zsh instance. Since standard input is connected to /dev/null , this zsh instance is not interactive, and reads commands from /dev/null , so it finishes running immediately (after executing zshenv files if present). If you want to restart zsh from a widget, you need to redirect standard input to the terminal. I've minimally tested this (just exec zsh , not using oh-my-zsh) and it works, but it's possible that in some circumstances or on some systems this puts the terminal in a bad state, or the new instance of zsh restores a bad terminal state (but that's not a problem if zsh is run directly by the terminal emulator). function f() { # ... update .zshrc here ... omz reload </dev/tty }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780624/omz-reload-in-zsh-widget
+
+---
+
+#### 7570. zsh autocompletion for parametre value
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, autocomplete | Score: 1 | Views: 62 | Answers: 1 | Created: 2024-07-21
+
+**解决方案 / Solution**:
+_arguments describes how to complete a command and its arguments. For arguments that are options that themselves take an argument, pass an option like --my-option:description of the argument:how to complete the argument . There are several ways to specify how to complete the argument of an option. To complete one of a fixed set of words, put the words in parentheses. _arguments \ … '(- 1 *)'{-r,--run}'[Run a given game and track playing time.]:game to run:(civilization 0ad vicecity crash)' \ … If you don't want to hard-code the completions, put code to generate the completions after the second colon. For example: function _triumphum_run_games { local games games=("${(f@)$(_call_program triumphum-list-games ${(q)words[1]} --list-games)}") compadd -- $games } … _arguments \ … '(- 1 *)'{-r,--run}'[Run a given game and track playing time.]:game to run:_triumphum_run_games' \ …
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780554/zsh-autocompletion-for-parametre-value
+
+---
+
+#### 7571. Command not found on shell opening
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell | Score: 1 | Views: 1183 | Answers: 2 | Created: 2024-07-04
+
+**解决方案 / Solution**:
+One trick to find out which source file a given command comes from is to modify PS4 to include the source file name and line in the xtrace output. (See here and here .) E.g. run the shell with something like PS4='+ $BASH_SOURCE: $LINENO: ' bash -x -l In the comments, you showed that the following line, and if it's indeed in the exactly as here, with literal backslashes, it would explain the problem: if test "$BASH" &&\n test -z "$POSIXLY_CORRECT" &&\n ... In Bash, an unquoted \n is the same as just n . The backslash removes any special meaning of the following character, and gets removed itself. Not that n has a special meaning, but the backslash still gets removed. This would be different when quoted, "\n" would result in a backslash and the n . Here, the \n in the format string "%s\n" is turned into a newline by printf, and the rest are printed as they end up after the shell's processing. $ printf "%s\n" \n "\n" '\n' n \n \n The $'...' form of quotes is different, though, it will turn \n into a newline as part of the shell's processing, before printf sees it. $ printf "<%s>\n" $'new\nline' <new line> (printf does process backslash escapes for the format string, but not for strings printed with %s .) So &&\n test -z ... is the same as && n test -z ... , which should explain the error. If you want to have a && chain in a single line, you can do it without anything extra, i.e. test "$BASH" && test -z "$POSIXLY_CORRECT" && ... Or, if you want to split it to multiple lines, you can do that with just a newline after the && operator: test "$BASH" && test -z "$POSIXLY_CORRECT" && ... If you need to split the line anywhere else, you'll need to put a backslash at the very end of the line (with no whitespace after it), e.g.: test "$BASH" \ && test -z \ "$POSIXLY_CORRECT" \ && ...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/779524/command-not-found-on-shell-opening
+
+---
+
+#### 7572. Running a cronjob that requires setting of several environment variables in particular directory
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, cron | Score: 1 | Views: 416 | Answers: 1 | Created: 2024-06-24
+
+**解决方案 / Solution**:
+cron uses a shell to interpret the command line given in the crontab. By default, it's sh , but by setting the SHELL variable in the crontab like you do here, you can get a different shell. So you can have that shell do the sourcing: SHELL=/bin/csh 0 0 * * 5 (cd path/to/regression_dir && source setup.csh && perl regression_script.pl) >& log.txt To run that at midnight in the morning of every Friday. The initial working directory in cron jobs is the home directory of the user so we as long as your home dir exists and you have access to it, we don't need the ~/ in ~/log.txt and the path/to/regression_dir will be ~/path/to/regression_dir . Note the && to separate commands so that the next command is only run if the previous one succeeded and the >& log.txt instead of > log.txt which in csh is the syntax to redirect both stdout and stderr (equivalent of the Bourne shell's > log.txt 2>&1 ). When not redirected, the output and errors are sent by email to the user.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778896/running-a-cronjob-that-requires-setting-of-several-environment-variables-in-part
+
+---
+
+#### 7573. What is PS1 prompt \[\e]0; vs \[\e]2; , it looks like one is for title name of tab, one is for title name of windows
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, prompt, control-characters, osc | Score: 1 | Views: 328 | Answers: 1 | Created: 2024-06-21
+
+**解决方案 / Solution**:
+Both set the window title, but one additionally sets the title of the taskbar button (originally meant to set the title of the desktop icon, if your GUI environment has no taskbar but iconifies minimized windows instead – imagine a Windows 3.11 style desktop; I think Motif's mwm does the same thing with icons), and one sets both. For example, the desktop icon title (or taskbar button title) might be shorter, or it might have indications like **NEW MAIL** added to it, but when you un-minimize the window, the actual terminal window would still have its proper title. To see the difference between the two on your system, try: printf '\e]0;Both titles\a'; sleep 30 printf '\e]1;Icon title\a'; sleep 30 printf '\e]2;Window title\a'; sleep 30 (The 'sleep' commands are there so you can see the changes before your shell prompt overwrites them.) It is possible that the icon title won't be visible anywhere at all, or that it will only be visible when the window is minimized. Despite that, in general I would suggest using 0 as the parameter, to set both titles for consistency, in case you ever end up using an environment where it makes a difference. For reference, the \e] prefix is often called "OSC" in documentation (while \e[ is "CSI"). \e]0; (OSC 0) begins a sequence that sets both the terminal's window title and icon title – for desktop environments that allow a separate title for minimized or iconified windows. \e]2; (OSC 2) sets only the window title. \e]1; (OSC 1) sets only the icon title (taskbar button title). \e]; is equal to \e]0; . Not to be confused with \e[0m (CSI 0 m, aka SGR 0) which resets all text formatting. Both OSCs can end with either \e\\ (ST) or \a (BEL), the latter is nonstandard but also common. So \e]0;YYY@\h:\w\a is the whole sequence. The outermost \[ ... \] in the prompt are specific to Bash; they're not part of the sequence itself, but tell the shell's Readline library that the sequences are zero-width and don't move the cursor when printed, so that it would correctly know how wide the prompt is and how line-wrapping should behave when editing long multi-line commands. http://web.archive.org/web/2020if_/http://rtfm.etla.org/xterm/ctlseq.html https://invisible-island.net/xterm/ctlseqs/ctlseqs.html
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778746/what-is-ps1-prompt-e0-vs-e2-it-looks-like-one-is-for-title-name-of-t
+
+---
+
+#### 7574. SSH shows double shell prompt after entering a command
+
+**问题描述 / Problem Description**:
+Tags: shell, ssh, prompt | Score: 1 | Views: 769 | Answers: 2 | Created: 2024-06-19
+
+**解决方案 / Solution**:
+The only way I've seen this happen is when I've accidentally got two shells running and reading input. If you can manage to run ps or better ps ft , that should show you if there are two. If there are two, sleep 60 is a good way to tie one up for a bit. You might try running other commands, to see if perhaps the less is relevant. You might running echo "$PS1" to see what PS1 is actually set to. In this case, the problem is probably simpler. Your prompt (like mine) is designed to put the prompt information into the window title. The machine you are SSHing from probably does not respect those escape sequences, and just displays the text. You should make your prompt depend on the setting of the $TERM variable. At least for now, try just setting PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ ' Then the question becomes, what terminals do you use. If it is only the one you are complaining about, that setting should be enough. If there are several, find out what $TERM is set to for each, and use a setup like: case "$TERM" in (xterm*) PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ ' ;; (windowsterm) PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ ' ;; (dumb) PS1='\u@\h:\w$ ' ;; (*) PS1='\u@\h:\w$ ' ;; esac The "*" case is the default... and "windowsterm" is definitely the wrong value...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/778632/ssh-shows-double-shell-prompt-after-entering-a-command
+
+---
+
+#### 7575. How to store and source environment variables when they contain semicolon (`;`)
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, shell, environment-variables | Score: 1 | Views: 232 | Answers: 1 | Created: 2024-06-07
+
+**解决方案 / Solution**:
+; would not be the only problematic character. Any character special in the shell syntax would also be. That includes space, newline |&<>*?[]~#'"\$^() at least. printenv (a non-standard command) prints name=value followed by a newline character for each environment variable in the environment it receives itself. It prints those names and values raw. It does not intend to produce shell code. In fact, it will also print environment variables whose name cannot be mapped to shell variables. It will obviously not print shell variables that are not exported to the environment, including array or assoc variables, and of course non-variable shell parameters such as $1 , $2 , $! , $$ ... In the case of the bash shell specifically, it will print the special environment variables that bash uses to export exported functions. Example: $ env -i $'\n\n=variable with newlines as its name' \ 1=x \ ++=x \ bash -c 'f() (:); export -f f; printenv' =variable with newlines as its name 1=x ++=x PWD=/tmp SHLVL=0 BASH_FUNC_f%%=() { ( : ) } _=/usr/bin/printenv To save those of your shell variables that are exported to the environment, you can use export -p (standard, but the output it produces for a given shell can only be used in the same shell (and version thereof, and same OS (libc) and locale)). For instance, with our example above: $ env -i $'\n\n=variable with newlines as its name' \ 1=x \ ++=x \ bash -c 'f() (:); export -f f; export -p' declare -x OLDPWD declare -x PWD="/tmp" declare -x SHLVL="1" Those 3 variables have actually been defined internally by bash itself. OLDPWD is exported, but not set in this case. Note how bash used declare -x instead of export in the output. That means that when the resulting code is interpreted within a function, the resulting variables will be local to the function. To work around that, you can set the posix option: $ env -i $'\n\n=variable with newlines at its name' 1=x ++=x bash -c 'f() (:); export -f f; set -o posix; export -p' export OLDPWD export PWD="/tmp" export SHLVL="1" See however how OLDPWD is exported but not set nor unset, so upon restore, its value will be left unchanged. Same would happen for any variable you export but don't set. So, your save_env could look like: save_env() { local - set -o posix mkdir -p ~/tmp && export -p > ~/tmp/env } And load_env : load_env() { command . ~/tmp/env } ( command to avoid exiting the shell upon error if bash is in POSIX mode). local - (non-standard and copied from the Almquist shell) to make changes to options local to the function need a relatively recent version of bash. With older versions, you can always use a subshell instead of a command group as the body of the save_env function: save_env() ( set -o posix mkdir -p ~/tmp && export -p > ~/tmp/env ) Also beware that bash stores the option settings in its SHELLOPTS variable (the long-option variant of the $- parameter). If that variable is exported (which is not a wise thing to do), that posix option will end up included in the value printed by export -p . To print all variables (not just the exported ones) and their value, you can use set alone, though beware it doesn't include attribute information (like exported, read-only, integer...) and in the case of bash also includes functions. Since that also includes read-only variables, you'll also get errors when sourcing the result. Like in the Korn shell or zsh, typeset -p can be used to print variable definitions including their type and attributes, but like for export -p when not in posix mode, the output will have things like declare -- var="value" which when sources within a function would create the variable local to the function. Since version 4.4, bash also has a ${var@A} which expands to the code that could be used to redefine that variable, and that you can use with ${!varname@A} indirection operator, but it gives a bit of a bastard output: it will give var='value' for a scalar variable without attribute, but declare -x var='value' otherwise (with the same issue as above), and for empty arrays or assocs gives declare -a var / declare -A var (since 5.1) instead of declare -a var=() / declare -A var=() (and nothing at all in previous versions) so is pretty useless overall. With zsh instead of bash, you'd have more control as to which variables you want to select and how they are dumped. zsh has a special $parameters associative array that maps variable names to their type and attributes. For instance, print -raC2 -- ${(kv)parameters} to print , k eys and v alues of that assoc r aw on 2 C olumns ( a cross) outputs something like: PATH scalar-tied-export-special pipestatus array-special HOST scalar jobstates association-readonly-hide-hideval-special To only print the definition of scalar variables that are neither special nor readonly nor hidden, you'd do: set -o extendedglob typeset -p -- ${(k)parameters[(R)scalar*~*(special|hide|readonly)*} If run within a function, it will add a -g option¹ to the generated typeset command lines (except for those variables that are local to the function) which prevent making the variable local if sourced again within a function. ¹ bash's typeset also has a -g option, but that places variables in the outermost scope rather than avoiding making the variable local if not already, so it rather useless.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/777903/how-to-store-and-source-environment-variables-when-they-contain-semicolon
+
+---
+
+#### 7576. Relaunch a terminal using a terminal command
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, zsh, macos | Score: 1 | Views: 114 | Answers: 1 | Created: 2024-05-11
+
+**解决方案 / Solution**:
+The zsh shell has a built-in command, rehash, which makes the shell forget all remembered ("hashed") locations of executables. This allows it to discover new executables you may have installed during the lifetime of the current shell session. I believe it would be better to use rehash than to try to relaunch the terminal. That is, if it is due to not finding the newly installed pdflatex command you ask the question.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/776273/relaunch-a-terminal-using-a-terminal-command
+
+---
+
+#### 7577. How do I tell if my shell is being run from within Dolphin's integrated terminal?
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, konsole | Score: 1 | Views: 158 | Answers: 1 | Created: 2024-05-02
+
+**解决方案 / Solution**:
+As long as you just want to know whether the shell is directly run within Dolphin's integrated terminal, it's simple: check the of the parent process. if [[ $(ps -o comm= -p $PPID) == dolphin ]]; then … The comm field is the executable's base name. If you also want to detect nested shells (for example running zsh inside zsh, or :shell inside Vim), it's more complicated. You can check whether the output of pstree -p $$ -s contains dolphin , which will tell you whether Dolphin was involved at any level. This will report false positives, for example, if you start another terminal emulator from inside Dolphin. Dolphin implements several terminal identification control sequences such as CSI > Ps p but the output is the same as in Konsole. CSI > Ps q is not supported, at least by default (and this is justified because it's a security risk since it can inject arbitrary content into the command line). So I don't think you can get the information that way. Some GUI terminals set the WINDOWID environment variable to their window ID. Dolphin's integrated terminal sets WINDOWID to 0. This might be weird enough to be a useful indicator: terminal emulators generally either don't set WINDOWID at all or set it to an actual window ID (e.g. xterm and konsole do it). Note that WINDOWID carries the risk that it remains set when you start a terminal emulator from another terminal emulator, for example it can get carried into a screen or tmux session.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775710/how-do-i-tell-if-my-shell-is-being-run-from-within-dolphins-integrated-terminal
+
+---
+
+#### 7578. How can I add a property in the end of the object (text manipulation)
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, awk, sed | Score: 1 | Views: 170 | Answers: 3 | Created: 2024-05-01
+
+**解决方案 / Solution**:
+Using any awk: $ content='"three" = "three"' $ awk -v content="$content" ' /^object = \{/ { f=1 } f && /^}/ { print " " content; f=0 } { print } ' file . . object = { "one": "one", "two": "two", "three": "three", } . .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775635/how-can-i-add-a-property-in-the-end-of-the-object-text-manipulation
+
+---
+
+#### 7579. zsh completion for custom script: URL + optional parameters
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, autocomplete | Score: 1 | Views: 113 | Answers: 1 | Created: 2024-04-23
+
+**解决方案 / Solution**:
+With the code as posted, after myscript --A Tab , zsh tries to complete either an option or non-option argument number 1. The action for argument 1 is empty, which falls into what the manual describes under “(single unquoted space)” (this case is actually triggered if the action consists solely of zero or more space characters): This is useful where an argument is required but it is not possible or desirable to generate matches for it. The message will be displayed but no completions listed. There is no message to display: the message input is a single space, so the “display” action has no visual effect. However, the internal actions of displaying a message (in _message ) are performed, and in particular compstate[insert] is set to be empty. This signals to the user interface of completion that the completion is ambiguous, even if there turns out to be a single valid completion. The fix is to explicitly arrange for zsh to think that there are no completions , rather than letting it think that there are completions but they can't be generated . Any of the following will do: _arguments … '1: :()' _arguments … '1: :{}' _arguments … '1: : true' Mind you, if the argument is a URL, you should probably use _urls . This will still result in only completions for options after typing - (as long as no URL starts with a - or you have some very aggressive substring completion settings).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/775042/zsh-completion-for-custom-script-url-optional-parameters
+
+---
+
+#### 7580. Where do I find documentation for the output of ls -l?
+
+**问题描述 / Problem Description**:
+Tags: shell, command-line, ls, devices, coreutils | Score: 1 | Views: 212 | Answers: 2 | Created: 2024-03-24
+
+**解决方案 / Solution**:
+ls is specified by POSIX , that’s the common reference. The output formats are described in the “STDOUT” section.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/773014/where-do-i-find-documentation-for-the-output-of-ls-l
+
+---
+
+#### 7581. Force tcsh to check whether command exist in the path before attempting to execute it
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, tcsh, audit | Score: 1 | Views: 243 | Answers: 1 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+The trick was to force tcsh to enable command hashing, which as it turns out get's disabled if it's called with "-f" flag, which was the case in my problematic scripts. At the top of the script I just added: rehash 4096 See the answer in: Enabling command hashing in tcsh , for a very detailed description of command hashing in tcsh.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/772401/force-tcsh-to-check-whether-command-exist-in-the-path-before-attempting-to-execu
+
+---
+
+#### 7582. zsh completion for umount: limit completion to one argument
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, autocomplete, unmounting | Score: 1 | Views: 92 | Answers: 1 | Created: 2024-03-07
+
+**解决方案 / Solution**:
+_arguments is a complicated beast… The part that handles non-option arguments is '*:dev or dir:->udevordir' This is an instance of *:message:action in the manual, with * meaning that it applies to all non-option arguments. Replace * by 1 , which applies only to the first non-option argument (an instance of n:message:action ). '1:dev or dir:->udevordir' I guess zsh's completion is more liberal because umount accepts multiple filesystems on some platforms. To also stop completing options after the filesystem, pass -A "-*" to _arguments , i.e. change its invocation to _arguments -C -A "-*" -s "$args[@]" && ret=0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771819/zsh-completion-for-umount-limit-completion-to-one-argument
+
+---
+
+#### 7583. Possible reasons for the shell's "not found" response?
+
+**问题描述 / Problem Description**:
+Tags: shell, busybox, yocto | Score: 1 | Views: 868 | Answers: 1 | Created: 2024-03-04
+
+**解决方案 / Solution**:
+Given a binary with executable permissions, a common reason for “not found” error messages is that the dynamic loader requested by the binary doesn’t exist. You can check this using readelf : $ readelf -l /path/to/binary | grep interpreter [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2] If that interpreter doesn’t exist, the executable will fail to run with a “not found” error. See Getting "Not found" message when running a 32-bit binary on a 64-bit system for details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771569/possible-reasons-for-the-shells-not-found-response
+
+---
+
+#### 7584. Replace value in yaml file using yq
+
+**问题描述 / Problem Description**:
+Tags: shell, yaml | Score: 1 | Views: 8726 | Answers: 2 | Created: 2024-02-29
+
+**解决方案 / Solution**:
+Your issue is that you are expecting the shell to expand the variable to its value within a single-quoted string, which is something that a Unix shells will not do. On top of that, you are assuming that the variable's value does not contain certain specific characters, such as double quotes. To properly insert (not inject) a shell variable's value into a YAML document using Mike Farah's yq utility, you use env() to read the variable's value from the environment: newrevision=$newTargetRevision \ yq -i '.spec.source.targetRevision = env(newrevision)' target.yaml This sets the environment variable newrevision to the value of the newTargetRevision variable and then modifies the correct place within the document in an in-place edit. You could also have exported the newTargetRevision variable, and used its name with env() . Testing: $ cat target.yaml spec: source: targetRevision: &default v1.0 $ newTargetRevision='v1.1 "kangaroo"' $ newrevision=$newTargetRevision yq -i '.spec.source.targetRevision = env(newrevision)' target.yaml $ cat target.yaml spec: source: targetRevision: &default v1.1 "kangaroo"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771346/replace-value-in-yaml-file-using-yq
+
+---
+
+#### 7585. Fish access non-aliased command from alias
+
+**问题描述 / Problem Description**:
+Tags: shell, fish | Score: 1 | Views: 319 | Answers: 1 | Created: 2024-02-26
+
+**解决方案 / Solution**:
+For simple cases, fish's alias will figure it out itself. You can just do alias ls='ls -l' and it will result in the following function: function ls --description 'alias ls=ls -l' command ls -l $argv end because fish's alias is a cheesy wrapper that defines functions the way to call a command by name, skipping functions and builtins, is to use command So you can do alias man='PAGER="bat -p" command man' (similary, builtin foo calls the builtin "foo", skipping any functions) In this specific case the best solution is to just set $MANPAGER, skipping the alias entirely: set -gx MANPAGER "bat -p" Also, you can avoid any issues with fish's aliases by directly defining a function yourself: function man PAGER="bat -p" command man $argv end or using an abbreviation instead.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771161/fish-access-non-aliased-command-from-alias
+
+---
+
+#### 7586. Popup cannot be interacted with: "Daemons using outdated libraries" "Which services should be restarted?"
+
+**问题描述 / Problem Description**:
+Tags: bash, ubuntu, shell, package-management, daemon | Score: 1 | Views: 4586 | Answers: 1 | Created: 2024-02-26
+
+**解决方案 / Solution**:
+The particular pop-up you mention is produced by needrestart (which I imagine you already know since your script configured it). needrestart is invoked by hooks; the two relevant hooks here are its apt and dpkg hooks. The apt hook can be disabled temporarily by setting the NEEDRESTART_SUSPEND environment variable to a non-empty value. The dpkg hook isn’t configurable but it can be disabled by renaming it. It’s worth noting too that the NEEDRESTART_MODE environment variable can be used to override the mode configuration setting (instead of modifying the configuration file). I suggest the following approach: Remove all the needrestart tweaks from your script. Set NEEDRESTART_SUSPEND to a non-empty value and export it: export NEEDRESTART_SUSPEND=1 Set NEEDRESTART_MODE to either “automatic” or “list”: export NEEDRESTART_MODE=l If the above isn’t sufficient, disable the dpkg hook; at the start of your script, [ -f /etc/dpkg/dpkg.cfg.d/needrestart ] && mv /etc/dpkg/dpkg.cfg.d/needrestart /etc/dpkg/dpkg.cfg.d/needrestart.disabled and at the end (or in an exit trap), [ -f /etc/dpkg/dpkg.cfg.d/needrestart.disabled ] && mv /etc/dpkg/dpkg.cfg.d/needrestart.disabled /etc/dpkg/dpkg.cfg.d/needrestart If you want to restart daemons using outdated libraries, you might want to run needrestart explicitly at the end of your script.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/771109/popup-cannot-be-interacted-with-daemons-using-outdated-libraries-which-servi
+
+---
+
+#### 7587. Why am I using an interactive non login shell, but I can still access the environment variables defined in /etc/profile?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, environment-variables, visual-studio-code | Score: 1 | Views: 112 | Answers: 1 | Created: 2024-02-23
+
+**解决方案 / Solution**:
+Environment variables that have been defined with the export command, e.g. export foo=bar are passed to child processes, and their children, and so forth. Your "interactive, non-login shell" is a child process of of a process that did source /etc/profile (see man bash about "INVOCATION"), picked up all the export ed variables, and passed them to your shell. See man 3 exec to see how environment variables are passed to a program. You also receive variables added to the environment by processes in your parent chain. Some, like XDG_SESSION_ID=1 are pointers to resources a parent process provides. Others, like TERM=xterm-256color , when passed to your subprocesses/commands, control terminal behavior
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/769990/why-am-i-using-an-interactive-non-login-shell-but-i-can-still-access-the-enviro
+
+---
+
+#### 7588. Start 3 Terminator Windows on 3 different Monitors with 3 different layouts
+
+**问题描述 / Problem Description**:
+Tags: bash, scripts, debian, terminator | Score: 1 | Views: 174 | Answers: 1 | Created: 2018-03-02
+
+**解决方案 / Solution**:
+To open Terminator in a pre-defined layout you first need to define the layout. The configuration window can help you with that. You can also configure and name multiple different layouts there. I won't cover how to do that and focus on how to start Terminator with existing layouts upon log-in instead. Start with a single Terminator layout and instance Let's start simple with a single instance. I'll assume that you have a pre-defined Terminator layout named "simple-layout". You can start a new Terminator instance with this layout with the following command-line options: terminator -l simple-layout If you want a maximised, fullscreen or borderless window you can use suitable additional options as described in the Terminator manual (run man terminator to view it). Run a single command at log-in The general process is explained extensively in How do I start applications automatically on login? and I'm not going to repeat it here. However there are some specifics in relation to Terminator: I found that Terminator only remembers its previous size position when it's launched once the window manager is fully running. That's why I delay the start by a few seconds (10 in this example). Instead of the above command I choose to auto-start the command: sh -c "sleep 10 && exec terminator -l simple-layout" sh -c invokes a (Bourne shell) command-interpreter that can execute multiple commands in sequence as explained below. sleep 10 waits 10 seconds before running the next command. exec replaces the current command-interpreter process with the subsequent program (instead of spawning an new process and wasting resources for no reason). terminator ... – see above. Now for multiple instances and layouts At this point it should be trivial to repeat the process for additional Terminator instances and layouts. I'm not sure if Terminator will remember the position of each window of multiple instances. If not you should search around or ask a follow-up question and include your window manager in the question since that influences the answer.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1011372/start-3-terminator-windows-on-3-different-monitors-with-3-different-layouts
+
+---
+
+#### 7589. Unable to install php5-tidy on Ubuntu 16.04
+
+**问题描述 / Problem Description**:
+Tags: apt, package-management, debian | Score: 1 | Views: 2396 | Answers: 1 | Created: 2018-02-18
+
+**解决方案 / Solution**:
+I would think this command apt search php.*tidy would be more helpful in identifying the correct package name. So run that and pick from the results to install.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1007390/unable-to-install-php5-tidy-on-ubuntu-16-04
+
+---
+
+#### 7590. How does one know which will be kept current: Snap, Flatpak, or Debian
+
+**问题描述 / Problem Description**:
+Tags: package-management, snap, debian, flatpak | Score: 1 | Views: 458 | Answers: 1 | Created: 2018-01-19
+
+**解决方案 / Solution**:
+Both snap and flatpak applications have some similarities. And as of your doubt regarding security features, Snap and Flatpak packages come with security benefits. They are sandboxed. Apps can only see themselves and parts of the computer they have permission to see. This isolation prevents software from easily damaging other parts of the system. But this comes with some problems as well. The situation isn’t foolproof. The X11 window system used by most Linux distros limits the security of both formats. This should change once the Wayland and Mir display servers are ready for primetime. All these useful information comes from here , have a look into it for further info.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/997580/how-does-one-know-which-will-be-kept-current-snap-flatpak-or-debian
+
+---
+
+#### 7591. Differences in stability between Ubuntu LTS and Debian Stable
+
+**问题描述 / Problem Description**:
+Tags: drivers, nvidia, bluetooth, mate, debian | Score: 1 | Views: 669 | Answers: 1 | Created: 2018-01-17
+
+**解决方案 / Solution**:
+Both Debian Stable and Ubuntu LTS are stable releases. In terms of how they develop and deploy a release there are minor differences in policy between the two but by and large their release policies are pretty similar. There is no logical reason why one would be significantly more bug-free than the other.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/996821/differences-in-stability-between-ubuntu-lts-and-debian-stable
+
+---
+
+#### 7592. How to upload a Debian package to a repository when you have only the .deb file?
+
+**问题描述 / Problem Description**:
+Tags: repository, debian, reprepro | Score: 1 | Views: 3127 | Answers: 1 | Created: 2017-11-10
+
+**解决方案 / Solution**:
+With reprepro, you don't need a changes file for uploading a deb file. There's the includedeb subcommand: $ reprepro -b /var/www/repo includedeb xenial grep_3.1-2\~16.04.york0_amd64.deb Exporting indices... $ cd /var/www/repo; find pool pool pool/main pool/main/g pool/main/g/grep pool/main/g/grep/grep_3.1-2~16.04.york0_amd64.deb Change -b /var/www/repo to suit wherever your reprepro root directory is located.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/974891/how-to-upload-a-debian-package-to-a-repository-when-you-have-only-the-deb-file
+
+---
+
+#### 7593. Unable to start netatalk service
+
+**问题描述 / Problem Description**:
+Tags: debian | Score: 1 | Views: 3145 | Answers: 1 | Created: 2017-11-05
+
+**解决方案 / Solution**:
+After the George's help and a bit more of search I was able to properly run netatalk. The correct steps that I took to fix the problem are the following As George said sudo systemctl unmask netatalk This will unmasked the /dev/null of the service. Then I just followed the installation guide bellow instead of using the apt-get command http://netatalk.sourceforge.net/wiki/index.php/Install_Netatalk_3.1.11_on_Ubuntu_16.04_Xenial hope this helps other people with similar problems
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/973240/unable-to-start-netatalk-service
+
+---
+
+#### 7594. Valid characters in field identifiers of binary package control file
+
+**问题描述 / Problem Description**:
+Tags: package-management, python, packaging, debian | Score: 1 | Views: 82 | Answers: 2 | Created: 2017-10-14
+
+**解决方案 / Solution**:
+If anyone finds a specification, it would be great to add this as the answer; for the time being I'll go with the source which is at debian_support.py of the python-debian package . Currently it uses this regular expression to parse the package control file: ^([A-Za-z][A-Za-z0-9-_]+):(?:\s*(.*?))?\s*$
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/964862/valid-characters-in-field-identifiers-of-binary-package-control-file
+
+---
+
+#### 7595. Ubuntu replaced my /home directory after install
+
+**问题描述 / Problem Description**:
+Tags: 16.04, partitioning, debian, ubiquity | Score: 1 | Views: 448 | Answers: 1 | Created: 2017-08-23
+
+**解决方案 / Solution**:
+Get the UUID of the partition with blkid and add it to your /etc/fstab as follows (assuming it has an ext4 file system): UUID=paste_your_UUID_here /home ext4 defaults 0 2 Then a simple sudo mount -a (or a reboot) suffices to mount it and it is mounted automatically from now on. An example how you can set a partition's mountpoint in the installation gives this screenshot: Of course this is different from your case – here the home partition /dev/sda6 is set to be formatted with reiserfs .
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/948878/ubuntu-replaced-my-home-directory-after-install
+
+---
+
+#### 7596. How do I fix this key signing issue with NeuroScience Debian?
+
+**问题描述 / Problem Description**:
+Tags: ppa, debian | Score: 1 | Views: 2050 | Answers: 1 | Created: 2017-08-22
+
+**解决方案 / Solution**:
+you could also just fetch the key from the neurodebian website directly... see http://neuro.debian.net/faq.html "What means “The following signatures couldn’t be verified...”?"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/948504/how-do-i-fix-this-key-signing-issue-with-neuroscience-debian
+
+---
+
+#### 7597. Looking for instructions to modify Debian Installer
+
+**问题描述 / Problem Description**:
+Tags: partitioning, system-installation, customization, debian | Score: 1 | Views: 716 | Answers: 1 | Created: 2017-08-07
+
+**解决方案 / Solution**:
+Documentation on preseeding from ubuntu.com. The example preseed on what this documentation refers to can be found here . The example covers all the options you can skip and has bits on how to do partitioning. Regarding: So I would like to know, how to remove the questions from the installation, whilst still being able to allow the partitioning. You can but need to select either the whole disk or unallocated space on a disk but inside that you can set up partitions. See B.4.7. Partitioning Using preseeding to partition the harddisk is limited to what is supported by partman-auto. You can choose to partition either existing free space on a disk or a whole disk. The layout of the disk can be determined by using a predefined recipe, a custom recipe from a recipe file or a recipe included in the preconfiguration file. Preseeding of advanced partition setups using RAID, LVM and encryption is supported, but not with the full flexibility possible when partitioning during a non-preseeded install. Example preseed file using LVM: Automated LVM partitioning with Ubuntu preseed . Also see: How do I preseed multiple partitions on one disk; /tmp /data /usr swap? for a partitioning method.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/943794/looking-for-instructions-to-modify-debian-installer
+
+---
+
+#### 7598. Why don't I have to edit sources.list to upgrade?
+
+**问题描述 / Problem Description**:
+Tags: apt, upgrade, package-management, debian | Score: 1 | Views: 900 | Answers: 1 | Created: 2017-08-04
+
+**解决方案 / Solution**:
+Ubuntu is upgraded differently from Debian. In Debian the process includes manually editing /etc/apt/sources.list , while in Ubuntu it does not becuase you use automated tools instead that perform that step and the other necessary steps. Editing /etc/apt/sources.list and upgrading with APT is neither necessary nor sufficient to correctly upgrade an Ubuntu system to a newer release. See below for more details about this. However, if your goal is just to upgrade your Ubuntu system, I recommend How do I upgrade to a newer version of Ubuntu? as well as this tutorial (for a desktop system) and these instructions (for a server system, though the do-release-upgrade way works for desktop systems too). Why isn't it necessary to edit /etc/sources.list ? It is necessary, but in Ubuntu you don't do it yourself. Unlike in Debian, the recommended ways to upgrade to a newer release of Ubuntu (such as from 12.04 LTS to 14.04 LTS) do not involve manually editing /etc/sources.list . Instead you use the Update Manager / Software Updater or run the do-release-upgrade command. Editing /etc/apt/sources.list to replace each official Ubuntu repository with the corresponding repository for the target Ubuntu release is one of the steps performed automatically as part of the upgrade. However, there are other important steps as well. If you attempt to upgrade Ubuntu to a later release as though it were Debian, by manually editing /etc/apt/sources.list and then issuing upgrade commands with apt / apt-get / aptitude , it is likely--though not certain--that you will get a broken system and have to reinstall. If you want the upgrade to work and the resulting Ubuntu system to be usable, then you should not attempt to upgrade it that way. Why isn't it sufficient to edit /etc/sources.list ? It isn't always sufficient in Debian , either. Ubuntu has tools that perform the other actions necessary for upgrading. The correct way to upgrade a Debian system is to read and follow the upgrade instructions in the target system's release notes. Usually the process is simple and pretty easy, but the specific steps do differ between releases. Reading release notes for Ubuntu it useful, too, but Ubuntu has tools that perform all the necessary actions behind the scenes. If you were to perform exactly the same actions yourself, correctly and in the correct order, then you would succeed at upgrading the system. (If you did that, then editing /etc/sources.list would be one of the steps.) This is neither required nor recommended. The tools do it for you. There are also some differences between Ubuntu and Debian that create the need for some Ubuntu-specific steps. For example, when you upgrade an Ubuntu system, PPAs are automatically disabled. The specific details of what happens in an upgrade change somewhat between Ubuntu releases but What does `do-release-upgrade` really do? should give you an idea.
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/942993/why-dont-i-have-to-edit-sources-list-to-upgrade
+
+---
+
+#### 7599. I can't install any apps from the Software Center
+
+**问题描述 / Problem Description**:
+Tags: software-center, debian | Score: 1 | Views: 522 | Answers: 1 | Created: 2017-06-19
+
+**解决方案 / Solution**:
+I have not this message error but by the way: Do you have access to a console? Could you install synaptic package manager? Then install apps from synaptic? Do you tried installing some app from apt-get like apt-get install application_you_want I hope someone of this can give you some idea
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/927111/i-cant-install-any-apps-from-the-software-center
 
 ---

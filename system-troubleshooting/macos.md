@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7187**
+**总计条目 / Total entries: 7233**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -97725,5 +97725,603 @@ Date created (oldest first)
 
 **参考链接 / References**:
 - https://superuser.com/questions/1939041/trimming-mkv-videos-in-ffmpeg-solution
+
+---
+
+#### 7188. Saw this and had to post
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzi8k7/saw_this_and_had_to_post/
+
+---
+
+#### 7189. MacOS still doesn't have a good way to organize your Cloud and Storage. So I made Neodisk, a free, open source, and fast Disk/Cloud Analyzer, with duplicates and changes detection
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzz5i8/macos_still_doesnt_have_a_good_way_to_organize/
+
+---
+
+#### 7190. This feels like Aqua 2.0
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzzuig/this_feels_like_aqua_20/
+
+---
+
+#### 7191. Local Kubernetes on Apple's container framework
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzulbc/local_kubernetes_on_apples_container_framework/
+
+---
+
+#### 7192. [FREE] I'd like to introduce BetterMacWidgets with Dynamic/Live Widgets so you can add cool widgets to your desktop instead of the standard Apple stuff.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzxbty/free_id_like_to_introduce_bettermacwidgets_with/
+
+---
+
+#### 7193. RetroMac 2.1: More authentic themes (new monochrome System 6, a truer Snow Leopard), living wallpaper, and per-theme cursors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzlk7m/retromac_21_more_authentic_themes_new_monochrome/
+
+---
+
+#### 7194. Unable to insall Ventura onto external drive
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v00dd2/unable_to_insall_ventura_onto_external_drive/
+
+---
+
+#### 7195. An aquarium for your mac desktop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v026ti/an_aquarium_for_your_mac_desktop/
+
+---
+
+#### 7196. Turn Youtube videos into lasting knowledge
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v02qak/turn_youtube_videos_into_lasting_knowledge/
+
+---
+
+#### 7197. MacOS is actually better than what I thought
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzl2y7/macos_is_actually_better_than_what_i_thought/
+
+---
+
+#### 7198. I built an all-in-one, 100% native utility that supercharges macOS file management (App Showcase)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v01c72/i_built_an_allinone_100_native_utility_that/
+
+---
+
+#### 7199. Copy Once, Remember Forever on all your devices
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v00qnw/copy_once_remember_forever_on_all_your_devices/
+
+---
+
+#### 7200. MacOS system data taking up everything.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v087nm/macos_system_data_taking_up_everything/
+
+---
+
+#### 7201. Ported over pass-tomb extension for pass to macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzyt4a/ported_over_passtomb_extension_for_pass_to_macos/
+
+---
+
+#### 7202. Unbind Native Mac Keyboard Shortcut
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v07qqc/unbind_native_mac_keyboard_shortcut/
+
+---
+
+#### 7203. How can I fix these blocky app icons?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v07ifl/how_can_i_fix_these_blocky_app_icons/
+
+---
+
+#### 7204. Problems with fillable pdf on Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v06gua/problems_with_fillable_pdf_on_tahoe/
+
+---
+
+#### 7205. Pages Unusable - anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v065ir/pages_unusable_anyone_else/
+
+---
+
+#### 7206. Window Snapping - wants to open new Space
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v055fw/window_snapping_wants_to_open_new_space/
+
+---
+
+#### 7207. I’m building 3 lightweight native Mac apps for huge files, Kubernetes and archives
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzywmm/im_building_3_lightweight_native_mac_apps_for/
+
+---
+
+#### 7208. Local-first Mac workspace where projects, CRM, files, time and visual workflows stay connected, with BYO AI through MCP, plus a free 14-day trial.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzvb10/localfirst_mac_workspace_where_projects_crm_files/
+
+---
+
+#### 7209. TimeGuage V1.1 is here, Get time progress perspective from mac menu bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uznbbg/timeguage_v11_is_here_get_time_progress/
+
+---
+
+#### 7210. Time Machine issue: /usr backed up, then hidden.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v02nbs/time_machine_issue_usr_backed_up_then_hidden/
+
+---
+
+#### 7211. Wallpaper site?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uztt3a/wallpaper_site/
+
+---
+
+#### 7212. Devly 60+ Dev Tools now with Liquid Glass ($4.99 Lifetime)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1uzvdy3/devly_60_dev_tools_now_with_liquid_glass_499/
+
+---
+
+#### 7213. [V2EX] 历时 3 个月，用 Swift 在一台 10 年前的 MacBook 上写了个 App，今天上架 App Store 了
+
+**问题描述 / Problem Description**:
+给老婆做的。 她是自由职业，在家干活。没有上下班打卡，早上跟我一起起床，吃完早饭刷完手机，真正开始干活已经 10 点了。午觉睡到下午三点，干一会儿就该吃晚饭了。一整天都没法规律安排。 她跟我说——要是能像上学一样，有上课铃下课铃，到点有人喊你"该干嘛了"，那该多好。 市面上试了一圈：电子闹钟只能设 10 个不够用、番茄钟霸屏对查资料不友好、系统提醒太安静根本注意不到。都放弃了。 所以就自己写了这个—— 小鸡播报 。 🔊 到点大声播报 ：不是弹窗、不是小红点，是真的语音朗读"下午两点啦，开始工作"。电脑上跑，不怕听不到。 👀 悬浮窗始终可见 ：半透明毛玻璃浮在桌面，瞥一眼就知道现在该干嘛。 📋
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228231#reply5
+
+---
+
+#### 7214. [V2EX] 修复使用 UU 远程控制 Macos27 鼠标点击不会切换窗口焦点问题的一个临时方案
+
+**问题描述 / Problem Description**:
+我最近把 macOS 升级了，结果发现 UU 远程控制突然有点不对劲。 鼠标明明已经点到了另一个应用里，点击也确实生效了，可键盘输入还留在原来的应用。比如我人在 A 应用里，通过远程控制点击 B 应用的编辑区域，B 应用里的按钮能点，内容也能操作，但一敲键盘，文字还是跑到 A 应用里。 macOS 新版本似乎收紧了对模拟鼠标事件的处理，等了好久 UU 远程都没更新解决这个问题，最终是求助 AI 做了一个临时方案，以下没有任何推广成分，这是 AI 给出的方案。 我最后用 Hammerspoon 补了一层逻辑：监听鼠标左键点击，看看鼠标下面的窗口属于哪个应用。如果发现它不是当前前台应用，就主动调用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227907#reply5
+
+---
+
+#### 7215. [V2EX] 以前用 clover 换成 oc 了
+
+**问题描述 / Problem Description**:
+以前用的 clover ，换成 oc 了，不知道怎么从 clover 备份然后恢复到 oc ，于是就从 oc 到 config 从新注入，注入之后，序列号有了，可以上 iCloud ，App Store 可以用，但是 FaceTime 和 iMessage 不能用，FaceTime 显示此账户地址无法访问，iMessage 点击下一步没有反应，多次点击提示认证失败。有哪些好用的工具方便分享一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227692#reply8
+
+---
+
+#### 7216. [V2EX] 求助， macos26，外接显示器，如何在本机屏幕和外接屏幕同时显示 docker？
+
+**问题描述 / Problem Description**:
+如题，两个屏幕位置比较远，只有一个 docker 非常不方便。 目前没找到设置入口，求教如何设置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227450#reply7
+
+---
+
+#### 7217. [V2EX] iPhone 换电池，都是去官方还是自己买电池换呢？
+
+**问题描述 / Problem Description**:
+因为目前自己手机已经健康度 73%了，以前自己换过，总感觉爱发热，发烫，还很卡！想问问换了官方的会不会好！大家都是选择什么呢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228249#reply10
+
+---
+
+#### 7218. [V2EX] 为什么 ChatGPT 可以在 APP 里让用户绕过 App Store 通过网页付费？
+
+**问题描述 / Problem Description**:
+我记得苹果的上架规则不是不允许绕过 App Store 吗？😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228174#reply5
+
+---
+
+#### 7219. [V2EX] Apple 上调 iCloud+， Apple Music 和 Apple One 订阅服务价格
+
+**问题描述 / Problem Description**:
+Apple 上调 iCloud+，Apple Music 和 Apple One 订阅服务价格 在八个国家上调了 iCloud 订阅价格：尼日利亚、土耳其、越南、日本、埃及、新西兰、菲律宾、印度尼西亚。涨价可能是由于汇率波动所致。 根据套餐和国家/地区的不同，价格涨幅从 11% 到 55% 不等。尼日利亚的涨幅最大，50GB 套餐的价格从 900 奈拉涨至 1300 奈拉。土耳其的涨幅位居第二，50GB 套餐的价格从 39.99 土耳其里拉涨至 49.99 土耳其里拉。 在美国和其他国家提高了 Apple Music 和 Apple One 套装的价格。涨价原因为“由于授权成本上涨”。 以下是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228164#reply4
+
+---
+
+#### 7220. [V2EX] 国行 iPhone 开始出现苹果 AI 流量连接
+
+**问题描述 / Problem Description**:
+apple-relay.fastly-edge.com 是 苹果官方域名，用于 Apple Intelligence 的 Private Cloud Compute （ PCC ，私有云计算），由 Fastly CDN 提供边缘接入服务。 国行设备+国区账号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227973#reply16
+
+---
+
+#### 7221. [V2EX] 已故妻子的 iPhone 因失窃设备保护卡在 Face ID 验证，已知锁屏及 Apple 账户密码，能否提取微信数据？
+
+**问题描述 / Problem Description**:
+冒昧请教各位。 妻子上个月乘坐货车送货时发生交通事故，当场去世。事故后她的手机一度没有找到，我担心手机和个人数据遗失，便通过“查找”将手机设置为丢失模式。 大约一周后，车辆接受事故鉴定时，手机才在货车残骸中被找到。手机此前在残骸和积水环境中放置了约一周，之后又由警方保管了一个多月。我于 7 月 9 日取回手机，当时手机已经无法开机，后来找维修人员进行了硬件维修。 维修完成后，我忘记先关闭丢失模式，手机联网后，开机输入正确的锁屏密码，系统随即要求通过 Face ID 验证身份并退出丢失模式。 之后我做过以下尝试： 1. 联系 Apple 支持，并通过其他设备关闭丢失模式； 2. 使用电脑将手机升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227775#reply102
+
+---
+
+#### 7222. [V2EX] sing box 有望回归 apple store
+
+**问题描述 / Problem Description**:
+Version 1.14 is expected to be released within two months, and there is hope that the App Store version will be restored as well. I will post updates here as things progress.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227752#reply10
+
+---
+
+#### 7223. [V2EX] [Mac] 自荐我的新 App： DropPocket - 屏幕顶部的临时文件口袋，限时特价 $3.99 🎉
+
+**问题描述 / Problem Description**:
+大家好！向大家介绍一款我开发的 Mac 效率小工具 —— DropPocket 📦。 它是一个位于屏幕顶部的临时文件“口袋”。在跨窗口或跨 App 移动整理文件时，你可以先把文件丢进口袋暂存，切换到目标位置后再拖出，告别频繁切换窗口和杂乱的桌面。 ✨ 核心功能 ： 极简存取：文件随手拖进顶部口袋，支持单个拖出，也能一次性整组拖回。 直观预览：一眼预览文件名和缩略图，找文件更方便。 快捷操作：支持快捷复制、分享、AirDrop ，按住 Option 键拖出可保留原文件。 顶部小岛：实时显示口袋中的文件数量。 🎉 限时优惠 ： 目前 App 正在限时打折，原价 $6.99 ，现在仅需 **$3.9
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227658#reply7
+
+---
+
+#### 7224. [V2EX] iOS27 太流畅了，垃圾 26
+
+**问题描述 / Problem Description**:
+升级了 pb1 ，iPhone 17pro ，被 iOS26 折磨了一年，27 终于找回了 18 那种丝滑感，而且水玻璃可以按我喜好调最透明了；还有终于不管适配没适配的应用，键盘都是新样式了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227627#reply16
+
+---
+
+#### 7225. [V2EX] Notability App 美区买断 40% off, 仅限三天
+
+**问题描述 / Problem Description**:
+在 notability.com 买 Classic 版本 $29.99 (US only). 结账使用优惠码: CLASSIC40 另我有美区 Apple 礼品卡 95 折出
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227598#reply12
+
+---
+
+#### 7226. [V2EX] 闲鱼卖 iPhone 遇到骗子
+
+**问题描述 / Problem Description**:
+闲鱼出个美版 iPhone Air ，面交前付款，见面后确认 ok ，就直接重置了系统，他自己设了新密码和 apple id （当时没发现），等确认收款时找理由无法确认收货，要求走微信（这时已识别出是骗子），我直接拒绝并拿走了手机，回去一看才发现密码被他设成了新的。 报警后警察认为没有造成资产损失（也是人生第一次报警），让先联系平台，目前平台客服处理中，买家闲鱼账号已读不回。 教训： 不要走任何除了闲鱼外的平台，不要加微信，不要加微信，不要加微信（ lz 对这个很敏感，没有中招） 确认收货前，不要重置系统，不要重置系统，不要重置系统。 目前手机还在 lz 这里，但密码不知道。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227563#reply122
+
+---
+
+#### 7227. [V2EX] 记录 macos beta3 午睡差点机毁人亡
+
+**问题描述 / Problem Description**:
+下午，午睡，macbook 什么也没跑，正常挂着 QQ 微信，safari 正常后台 这些都是日常的日常，标配的标配。 午睡起来，看到电脑在房间里，屏幕是品红色的，有点发紫色，非常高亮度 没开空调，房间燥热难耐，电脑是 mbp 16 寸 m4 pro ， 电脑非常烫手（预估 80 ，90 度+） 随即长按电源键放进冰箱降温。 惊险的一个午睡后，beta 系统还是小心，我听说 beta3 还有坏硬盘数据的案例？ 当然，话说在前头，自己用 beta 版系统自己得承担这些风险，我不抱怨，只是分享惊险的心理感受。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227273#reply23
+
+---
+
+#### 7228. [V2EX] 我也分享一个 Kimi K3 的用例
+
+**问题描述 / Problem Description**:
+我没用 Coding Agent ，我是买了 Andante 会员，在网页上用。 最近拿到一个前端页面需求文档。这个文档比较奇葩，只用纯文字描述页面上的内容，没有任何设计图。我就打开 Kimi 上传这个文件，模型选 K3 极致，提示词如下： 根据这份文档生成文档当中提到的页面的线框设计图。我需要： 1. 每个页面的元素和布局； 2. 对每个交互元素的说明。 最后 Kimi 生成了一份带设计的 Word 文档，这一个任务也用掉了我 25% 的月额度。不过无所谓，这种量级的任务几个月碰到一回而已。另外我也发现，这种用 Kimi 自己的容器去完成任务的方式，大模型可以自由发挥，避免了在我本机上装一堆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228280#reply1
+
+---
+
+#### 7229. [V2EX] AI Agent 记忆系统折腾记：本地跑了半个月，最后还是上云了
+
+**问题描述 / Problem Description**:
+分享一段折腾经历，给同样想给 Agent 加记忆的老哥们避避坑。 起因是看到 Garry Tan （ YC 那位）开源了 GBrain ，一个 AI Agent 记忆系统，能持续吃会议记录和邮件，自动给人物和公司建档案，还带自我改进。这种东西对我这种记性差还要跟一堆项目的人太有吸引力了，果断开搞。 本地跑的三个坑 第一坑：保活。记忆系统的意义就是一直在线一直吸收，但我的主力机是笔记本，合盖就睡。挂在台式机上，结果一次系统更新自动重启，断了两天才发现。 第二坑：数据放哪。记忆数据就是这系统的全部价值，放本地磁盘总觉得悬，配自动备份又是一堆活。折腾到后面发现我在给一个工具当运维（本末倒置了属于是）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228257#reply0
+
+---
+
+#### 7230. [V2EX] 腾讯视频客户端深夜拿我电脑当 pcdn？
+
+**问题描述 / Problem Description**:
+无聊看了一眼 everything 出来一堆.TS 新鲜出炉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228145#reply10
+
+---
+
+#### 7231. [V2EX] Ai 让很多无代码基础的人想法落地
+
+**问题描述 / Problem Description**:
+然后发现自己的想法啥也不是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228125#reply18
+
+---
+
+#### 7232. [V2EX] 一觉醒来欠 aws 四百亿
+
+**问题描述 / Problem Description**:
+世界果然是个巨大的草台班子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228115#reply12
+
+---
+
+#### 7233. [V2EX] 同样的网络小说，微信读书比起点读书贵近 20%
+
+**问题描述 / Problem Description**:
+最近在看《诡秘之主》，发现文章里的作者明明是说的 130 章才上架，可是微信读书是从第 30 章就收费了，于是去起点对比下。 然后发现了端倪，起点一共收 194 元，前面 130 章节免费，但是微信读书只有前面 30 章节免费，收费也更贵，要 230 元。 起点从第 130 章收费 微信读书收费 230 元，从第 30 章收费
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228042#reply4
 
 ---

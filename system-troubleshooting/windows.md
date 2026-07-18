@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8360**
+**总计条目 / Total entries: 8405**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -114577,5 +114577,590 @@ Does the client PC successfully send ping requests to the host pc, and does it r
 
 **参考链接 / References**:
 - https://superuser.com/questions/1932705/how-to-properly-troubleshoot-network-sharing-between-two-windows-computers
+
+---
+
+#### 8361. Chance of bed bugs in laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v06dti/chance_of_bed_bugs_in_laptop/
+
+---
+
+#### 8362. PC losing ethernet connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v04lu0/pc_losing_ethernet_connection/
+
+---
+
+#### 8363. Canon Printer software installation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v06s5a/canon_printer_software_installation/
+
+---
+
+#### 8364. Mouse won't work properly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v05ix9/mouse_wont_work_properly/
+
+---
+
+#### 8365. Will deleting photos on my old phone delete them from my new one?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v056rj/will_deleting_photos_on_my_old_phone_delete_them/
+
+---
+
+#### 8366. Brand new Acer Swift Neo has a loose bottom screw and a gap in the bottom cover. Replacement or warranty fix? (Video)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v055e8/brand_new_acer_swift_neo_has_a_loose_bottom_screw/
+
+---
+
+#### 8367. Wifi almost never works
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v04p2o/wifi_almost_never_works/
+
+---
+
+#### 8368. Very stubborn shrinking icons after a few weeks
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v004gs/very_stubborn_shrinking_icons_after_a_few_weeks/
+
+---
+
+#### 8369. How is my internet speed so vastly different on my PC compared to my iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v08966/how_is_my_internet_speed_so_vastly_different_on/
+
+---
+
+#### 8370. Booting from a recovery drive without BIOS access
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzv593/booting_from_a_recovery_drive_without_bios_access/
+
+---
+
+#### 8371. I got a stutter issue with a Legion 5 17ACH6H laptop.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07ujz/i_got_a_stutter_issue_with_a_legion_5_17ach6h/
+
+---
+
+#### 8372. Problem Laptop keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07tpx/problem_laptop_keyboard/
+
+---
+
+#### 8373. No internet, secured issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07t22/no_internet_secured_issue/
+
+---
+
+#### 8374. Something off with my browser after downloading smth sketchy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07olt/something_off_with_my_browser_after_downloading/
+
+---
+
+#### 8375. Keys don't register in combination anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07mby/keys_dont_register_in_combination_anymore/
+
+---
+
+#### 8376. A56 overheating
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v07jpv/a56_overheating/
+
+---
+
+#### 8377. Sound issue with "interference" on the PD50SNE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v077iu/sound_issue_with_interference_on_the_pd50sne/
+
+---
+
+#### 8378. GTX 1080 issue when changing drivers to Nvidia
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v076ke/gtx_1080_issue_when_changing_drivers_to_nvidia/
+
+---
+
+#### 8379. During the a cleaning acident I accidentally damaged the motherboard of my Lenovo all in one C340
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v074yf/during_the_a_cleaning_acident_i_accidentally/
+
+---
+
+#### 8380. How to resolve 'source file cannot be read' on hard drive??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v073pk/how_to_resolve_source_file_cannot_be_read_on_hard/
+
+---
+
+#### 8381. My iPhone16e got very hot and emitted a strange smell when I played too many games.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v073dr/my_iphone16e_got_very_hot_and_emitted_a_strange/
+
+---
+
+#### 8382. Pc freezes with blackscreen while the fans are running
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1uzt0p4/pc_freezes_with_blackscreen_while_the_fans_are/
+
+---
+
+#### 8383. Recent Windows 11 update has broken my USB Keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v06zmo/recent_windows_11_update_has_broken_my_usb/
+
+---
+
+#### 8384. How can I ensure this malware is completely gone from my computer?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v06zhd/how_can_i_ensure_this_malware_is_completely_gone/
+
+---
+
+#### 8385. [V2EX] 做了个原生的护眼应用
+
+**问题描述 / Problem Description**:
+AI 时代下，用眼压力越来越大，所以我自己做了个护眼应用： 憩目 ，基于 20-20-20 法则开发，每用眼 20 分钟提醒你看向 6 米外 20 秒。主要特性如下： 支持会议与全屏识别，开会、演示、打游戏时自动免打扰，人离开电脑时倒计时冻结； 可自定义眼部休息时长与频率 提供屏幕时长、用眼休息时长统计 支持浅色/深色/跟随系统主题 无遥测、无隐私负担 大家在 Vibe Coding 的同时注意用眼健康哦，感谢大家支持~ 下载地址： 从 Microsoft Store 下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228073#reply5
+
+---
+
+#### 8386. [V2EX] 检测中国用户的 Claude 版本是 Claude code，不包括 Claude desktop 吗？
+
+**问题描述 / Problem Description**:
+我一直用 Claude Desktop ，甚至没有意识到这个广泛传播的问题和讨论可能只是针对 Claude Code 的。 大家用的哪个工具？ Claude Desktop 总是报各类网络错误，Claude code 好像能实现某种自动化重试，Claude desktop 不行，要手敲“继续”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228285#reply0
+
+---
+
+#### 8387. [V2EX] 如何培养孩子当领导的能力
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228256#reply11
+
+---
+
+#### 8388. [V2EX] 除了地方档案馆记录现代历史以外，有没有什么平台记录了现代野史呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228247#reply2
+
+---
+
+#### 8389. [V2EX] 用 Automate 解决 outlook 垃圾邮件问题 结果现在个人账户用不了 Automate 了
+
+**问题描述 / Problem Description**:
+outlook 垃圾邮件过滤太垃圾了 什么正常邮件都放到垃圾邮件 还不能设置统一放行 经常耽误事 然后我参考用 Microsoft Power Automate 的方法 https://www.v2ex.com/t/684677 https://www.zhihu.com/question/30555386 把邮件都自动化放到收件箱 好好地用了很长时间 前两天突然发现有一些邮件没有被自动转移 没有太在意 感觉可能是 bug 今天又没有转移 又被耽误事了 想上平台看一眼 发现 Automate 不对个人开放了 这条路可能被官方封死了 这下可咋办 之前为了规避邮件信息泄露 选了 outlook 这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228245#reply0
+
+---
+
+#### 8390. [V2EX] cloud flare pages 问题
+
+**问题描述 / Problem Description**:
+技术小白，有一个域名在 cloudflare 上，在上面部署一个静态页面网站，就一个主页，现在要更新，同样在元宝生成了一个 index.html, 双击能正常显示，新建了一个文件夹，拖入 index.html, 重新上传到 page 上，production ，但 dev 链接是空白的，原有的域名还是显示原来的内容，这是怎么回事。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228228#reply1
+
+---
+
+#### 8391. [V2EX] 我想制作一款这样的设备，会有人喜欢吗？
+
+**问题描述 / Problem Description**:
+功能完全是按我自己的日常焦慮量身定製的：第一個專門用來盯大語言模型的 Token 消耗（看著數字跳就是看著錢在燒）。第二個平時懶得切軟件盯盤，直接鎖死，納斯達克 100 最近跌的是真慘呀。。第三個專門用來跑 API 賬單報警和死循環監控。每个下面有 3 个灯。 代表你的电脑里的 Agent 的工作进度，如果完成了，对应的灯就会亮起来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228226#reply2
+
+---
+
+#### 8392. [V2EX] 明天去香港，现在鸭寮街能买到+44 的实体卡吗，用来过 codex 手机号验证
+
+**问题描述 / Problem Description**:
+刚好明天有点事情去香港。 不知道现在还能不能买到卡，需要准备什么吗 我是国行手机，能否做内地接收验证码呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228224#reply14
+
+---
+
+#### 8393. [V2EX] IDC 报告《中国 AI 编程市场份额， 2025》说 qoder 市场占有率 47.6%
+
+**问题描述 / Problem Description**:
+也不是不信，但是刷论坛这么久讨论 Qoder 的人都不多，而且看起来性能也就那样。市场占有率能有这么高的？还是因为可能是很多大厂的官方编辑器，按人头算统计出来的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228217#reply10
+
+---
+
+#### 8394. [V2EX] cursor claude code desktop qoder codex
+
+**问题描述 / Problem Description**:
+感觉 claude code desktop 有点丑 cursor 要升级付费才能换模型 我只有 qwen 模型，然后用 claude code desktop + cc switch 切换是不是没有必要，直接用 qoder 就好了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228211#reply0
+
+---
+
+#### 8395. [V2EX] claude-seo 有用过这玩意的吗？有效果吗
+
+**问题描述 / Problem Description**:
+https://github.com/AgricIDaniel/claude-seo 想用在应用官网。谷歌有索引，但是几乎没有展示，基本就靠商店流量和零星的 bing 搜索。 一个月二十三个试用，两个付费，俩付费还都是国内的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228210#reply0
+
+---
+
+#### 8396. [V2EX] Codex 5 小时限额去掉后，周限额使用速度感觉和之前 5 小时的速度差不多？
+
+**问题描述 / Problem Description**:
+当前周限额模型是 5.6 Sol Medium,之前 5 小时限额的时候用的 5.5 Xhigh ，体感差不多，这用起来也太快了吧？咋回事 是我自己配置的问题吗 还是缓存问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228208#reply3
+
+---
+
+#### 8397. [V2EX] v2er 不能用了？ V2EX 有什么平替的客户端吗？
+
+**问题描述 / Problem Description**:
+v2er 打开内容都是空白。有什么平替的客户端吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228207#reply11
+
+---
+
+#### 8398. [V2EX] WhatsApp 的用户名价值几何
+
+**问题描述 / Problem Description**:
+今天发现我的某个 whatsapp 账号，已经可以在搜索框内通过用户名搜到一些账号了（和他们聊天还要知道他们的 username key ），看来这个用户名功能正在逐步推开。这对保护用户隐私大有好处，meta 这一步肯定是走对了。 突然想到一个问题，whatsapp 的用户名价值高吗？目前 Telegram 4 字母的用户名价格大约在 8000 刀左右，全球用户量 whtsapp 大幅领先 tg ，接受度和高价值用户量就更多了。由此看来，是不是 wahtsapp 的用户名其实潜在价值更高？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228201#reply4
+
+---
+
+#### 8399. [V2EX] v2rayN 中怎么看某一个网站是不是走了代理？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228188#reply7
+
+---
+
+#### 8400. [V2EX] 股票开户什么时候最优惠？
+
+**问题描述 / Problem Description**:
+最近有同事开的 0.75 ，无门槛，免五，推给我的时候已经没这个优惠了。 同事说每年都有那么一两次，优惠力度特别大，公众号、知乎、社群，一堆人在推广。但我每次发现的时候都错过。也不知道有没有什么规律。 不过早期已经开了 0.85 免五的号了，也差不了多少，纯属爱囤号习惯😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228172#reply2
+
+---
+
+#### 8401. [V2EX] 搬家到了自如发现宽带插网线直连外网是咋回事
+
+**问题描述 / Problem Description**:
+搬家到了自如，发现宽带插网线直连外网，ip 在 sg ，没开代理，联通 300M ，天津，这是为啥呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228171#reply9
+
+---
+
+#### 8402. [V2EX] 什么叫浏览器有奇奇怪怪的设置？
+
+**问题描述 / Problem Description**:
+我用的是 mac book air M4 ，用官方的 firefox ，没有启用任何扩展，但是 V 站提示我的浏览器有奇奇怪怪的设置，建议我换个干净的浏览器。 有没有人碰到这样的情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228169#reply4
+
+---
+
+#### 8403. [V2EX] 160 买了 spcx 现在 120
+
+**问题描述 / Problem Description**:
+才一个月 你们有买的吗 还在跌 要割肉吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228162#reply9
+
+---
+
+#### 8404. [V2EX] 好奇怪，我的 mac 插电源和扩展坞，外接 type c 显示器，结果扩展坞没反应
+
+**问题描述 / Problem Description**:
+好奇怪，我的 mac 插电源和扩展坞，外接 type c 显示器，结果扩展坞没反应 问了下 AI 说是有电涌，这个是正常现象吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228161#reply3
+
+---
+
+#### 8405. [V2EX] 假如没有厕纸了，你用什么？
+
+**问题描述 / Problem Description**:
+坐标江西，小时候在乡下，那时候厕纸还是高级货，没多少人有，小伙伴出去玩，中途释放完之后，会使用竹片刮（不是擦，是刮）屁股，现在就好奇，江西竹子多所以用竹子，那其它地方的人在没厕纸的情况下都用什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228159#reply76
 
 ---

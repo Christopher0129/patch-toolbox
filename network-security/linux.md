@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2602**
+**总计条目 / Total entries: 2620**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -39920,5 +39920,221 @@ monitor system processes and read the sensitive bearer token directly from /proc
 
 **参考链接 / References**:
 - https://ubuntu.com/security/CVE-2026-9494
+
+---
+
+#### 2603. CVE-2026-16089 - keycloak-services: keycloak-services: Authorization codes can be retargeted to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Authorization codes can be retargeted to another client session. Bugzilla: 2501724
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501724
+
+---
+
+#### 2604. CVE-2026-57077 - YAML::Syck: YAML::Syck: Information disclosure via out-of-bounds read
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] YAML::Syck: YAML::Syck: Information disclosure via out-of-bounds read. Bugzilla: 2501576
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501576
+
+---
+
+#### 2605. CVE-2026-57076 - YAML-Syck: YAML::Syck: Heap use-after-free via anchor name reuse
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] YAML-Syck: YAML::Syck: Heap use-after-free via anchor name reuse. Bugzilla: 2501583
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501583
+
+---
+
+#### 2606. CVE-2026-57075 - YAML::Syck: YAML::Syck: Information disclosure via out-of-bounds read in base64…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] YAML::Syck: YAML::Syck: Information disclosure via out-of-bounds read in base64 decoder. Bugzilla: 2501586
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501586
+
+---
+
+#### 2607. CVE-2026-13713 - YAML-Syck: YAML::Syck: Denial of Service via crafted YAML document
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] YAML-Syck: YAML::Syck: Denial of Service via crafted YAML document. Bugzilla: 2501564
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501564
+
+---
+
+#### 2608. CVE-2026-16072 - keycloak-services: keycloak-services: Organization invitation link exposure allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Organization invitation link exposure allows unauthorized member creation. Bugzilla: 2501721
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501721
+
+---
+
+#### 2609. CVE-2026-16093 - keycloak-services: keycloak-services: Required signed-JWT assertion policy can be…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Required signed-JWT assertion policy can be bypassed with unsigned assertion headers. Bugzilla: 2501729
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501729
+
+---
+
+#### 2610. CVE-2026-16103 - keycloak-services: keycloak-services: Incomplete fix for CIBA brute-force lockout…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Incomplete fix for CIBA brute-force lockout bypass at token redemption. Bugzilla: 2501736
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501736
+
+---
+
+#### 2611. CVE-2026-15943 - keycloak-services: keycloak-services: OIDC IdP update reuses masked client secret…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: OIDC IdP update reuses masked client secret after token URL change. Bugzilla: 2501270
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501270
+
+---
+
+#### 2612. CVE-2026-53366 - kernel: ipv4: account for fraggap on the paged allocation path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipv4: account for fraggap on the paged allocation path. Bugzilla: 2501252
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501252
+
+---
+
+#### 2613. CVE-2026-47085 - cyrus-imapd: Cyrus IMAP: Information disclosure via URLAUTH token forgery
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Information disclosure via URLAUTH token forgery. Bugzilla: 2501446
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501446
+
+---
+
+#### 2614. CVE-2026-47084 - cyrus-imapd: Cyrus IMAP: Unauthorized mailbox deletion via ACL bypass
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Unauthorized mailbox deletion via ACL bypass. Bugzilla: 2501447
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501447
+
+---
+
+#### 2615. CVE-2026-47082 - cyrus-imapd: Cyrus IMAP: ACL bypass in vacation 'fcc' feature allows unauthorized…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: ACL bypass in vacation 'fcc' feature allows unauthorized mailbox writes. Bugzilla: 2501449
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501449
+
+---
+
+#### 2616. CVE-2026-47083 - cyrus-imapd: Cyrus IMAP: Information disclosure via ESEARCH command
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Information disclosure via ESEARCH command. Bugzilla: 2501451
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501451
+
+---
+
+#### 2617. CVE-2026-47081 - cyrus-imapd: Cyrus IMAP: Information disclosure of mailbox existence via…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Information disclosure of mailbox existence via XAPPLEPUSHSERVICE command. Bugzilla: 2501453
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501453
+
+---
+
+#### 2618. CVE-2026-47088 - cyrus-imapd: Cyrus IMAP: Information disclosure via heap exposure in MIME comment…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Information disclosure via heap exposure in MIME comment parsing. Bugzilla: 2501455
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501455
+
+---
+
+#### 2619. CVE-2026-47089 - cyrus-imapd: Cyrus IMAP: Information disclosure via LISTRIGHTS
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Information disclosure via LISTRIGHTS. Bugzilla: 2501456
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501456
+
+---
+
+#### 2620. CVE-2026-47087 - cyrus-imapd: Cyrus IMAP: Unauthorized access due to URLAUTH not honoring revoked…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: Cyrus IMAP: Unauthorized access due to URLAUTH not honoring revoked authorizer access. Bugzilla: 2501459
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501459
 
 ---
