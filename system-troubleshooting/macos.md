@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7233**
+**总计条目 / Total entries: 7268**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -98323,5 +98323,460 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228042#reply4
+
+---
+
+#### 7234. I just realized the new Preview logo isn't a jar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0viwv/i_just_realized_the_new_preview_logo_isnt_a_jar/
+
+---
+
+#### 7235. Time Machine local snapshots - normal behaviour?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0zjhl/time_machine_local_snapshots_normal_behaviour/
+
+---
+
+#### 7236. Reboot loop after failed update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v13fpl/reboot_loop_after_failed_update/
+
+---
+
+#### 7237. Migration missed a few things??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v11aka/migration_missed_a_few_things/
+
+---
+
+#### 7238. 10% battery drain in 10 minutes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0ubse/10_battery_drain_in_10_minutes/
+
+---
+
+#### 7239. Safari how to mute a tab
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0wxro/safari_how_to_mute_a_tab/
+
+---
+
+#### 7240. What's fba.apple. com? it took a lot of memory
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v11fzh/whats_fbaapple_com_it_took_a_lot_of_memory/
+
+---
+
+#### 7241. macOS 27 might have fixed long standing Thunderbolt Ethernet issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0vgcj/macos_27_might_have_fixed_long_standing/
+
+---
+
+#### 7242. Made a free photo viewer for macOS that doesn't import or index anything
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v06l42/made_a_free_photo_viewer_for_macos_that_doesnt/
+
+---
+
+#### 7243. Xcode's TouchBar emulation stopped responding to clicks after upgrading to macOS Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0qm6i/xcodes_touchbar_emulation_stopped_responding_to/
+
+---
+
+#### 7244. alright so I need yes need windows 11 lowly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v103fc/alright_so_i_need_yes_need_windows_11_lowly/
+
+---
+
+#### 7245. Wallpaper change issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0pyj7/wallpaper_change_issue/
+
+---
+
+#### 7246. Terrible user experience change in new MacOS 26
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0wce0/terrible_user_experience_change_in_new_macos_26/
+
+---
+
+#### 7247. What level of Steam games can my mac (details below) run efficiently?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0e300/what_level_of_steam_games_can_my_mac_details/
+
+---
+
+#### 7248. 大家在2026年有遇到过MacOS密码正确但是无法进入系统的情况吗？
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0o3r8/大家在2026年有遇到过macos密码正确但是无法进入系统的情况吗/
+
+---
+
+#### 7249. Is it possible to zoom in/out on Preview using two mouse side buttons? Specifically for pdf.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v0clzn/is_it_possible_to_zoom_inout_on_preview_using_two/
+
+---
+
+#### 7250. [V2EX] 有遇到过 mac 电脑连接蓝牙鼠标后,不能睡眠的情况吗?
+
+**问题描述 / Problem Description**:
+新买的蓝牙鼠标好像会阻止系统睡眠 晚上睡觉前, 让 mac 强制睡眠后, 隔个几分钟电脑会重新亮屏, 几秒后再熄屏, 再隔个几分钟又重新亮屏...无限循环 把鼠标蓝牙关了就没这个问题, 这是咋回事? 另一个蓝牙鼠标就不会这样 有办法解决吗, 不想每次都要关蓝牙, 有点不方便
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228339#reply4
+
+---
+
+#### 7251. [V2EX] macOS 看图时缩放老是跑偏，我写了个工具解决这个问题
+
+**问题描述 / Problem Description**:
+用 macOS 自带预览器看大图的时候，缩放总是以画面中心为基准，每次滚轮都要手动拖回来对齐位置，挺烦的。 我写了个小工具叫 iMonet ，核心就一个功能：滚轮缩放时，鼠标在哪就放大哪，不用反复拖动。 顺便也做了文件夹一键浏览和缩略图侧边栏，看图方便点。 App Store 刚上架，完全免费 https://apps.apple.com/cn/app/imonet/id6770070921?mt=12 iMonet 欢迎试试，有什么问题直接反馈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228320#reply2
+
+---
+
+#### 7252. [V2EX] 兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！
+
+**问题描述 / Problem Description**:
+原文:本电脑本人自营购买，有发票，有盒子配件齐全的未激活电脑。到手后，没登录 iCloud ，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年，此前密码一直是 0000 ，前天改了也是 6 位纯数字密码。（和手机一起改的同样的密码）然后就正常用，后面电脑又突发恶疾，莫名其妙的断网，故我就重启了，开机时这里又卡住在系统桌面大概 20 多秒才自己关机。（ apple 真垃圾！）关机后重启系统，到输入密码界面发现输入密码错误，试了新的旧的，都错误，但是我能 100%确定密码是正确的，因为我和手机同时改的同样的密码。（纯数字密码，故排除了输入法问题）并且清晰地记得当时改完密码第一时间验证过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228302#reply127
+
+---
+
+#### 7253. [V2EX] 以前用 clover 换成 oc 了
+
+**问题描述 / Problem Description**:
+以前用的 clover ，换成 oc 了，不知道怎么从 clover 备份然后恢复到 oc ，于是就从 oc 到 config 从新注入，注入之后，序列号有了，可以上 iCloud ，App Store 可以用，但是 FaceTime 和 iMessage 不能用，FaceTime 显示此账户地址无法访问，iMessage 点击下一步没有反应，多次点击提示认证失败。有哪些好用的工具方便分享一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227692#reply9
+
+---
+
+#### 7254. [V2EX] iOS 如何设置能实现像安卓手机的来电提醒一样显示是谁打电话过来的，比如 10086 标识为中国移动这样？
+
+**问题描述 / Problem Description**:
+换了 iPhone 后这点挺困扰的，不知道来电是谁，接了听半天发现是推销广告，不接又怕漏掉重要的通知，安卓手机上都会标识来电是美团、联通、银行什么的，有些还标识为推销或者诈骗，这个功能感觉十分好用，iOS 能通过配置或者三方 app 实现这个功能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228323#reply11
+
+---
+
+#### 7255. [V2EX] iPhone 换电池，都是去官方还是自己买电池换呢？
+
+**问题描述 / Problem Description**:
+因为目前自己手机已经健康度 73%了，以前自己换过，总感觉爱发热，发烫，还很卡！想问问换了官方的会不会好！大家都是选择什么呢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228249#reply15
+
+---
+
+#### 7256. [V2EX] Apple 上调 iCloud+， Apple Music 和 Apple One 订阅服务价格
+
+**问题描述 / Problem Description**:
+Apple 上调 iCloud+，Apple Music 和 Apple One 订阅服务价格 在八个国家上调了 iCloud 订阅价格：尼日利亚、土耳其、越南、日本、埃及、新西兰、菲律宾、印度尼西亚。涨价可能是由于汇率波动所致。 根据套餐和国家/地区的不同，价格涨幅从 11% 到 55% 不等。尼日利亚的涨幅最大，50GB 套餐的价格从 900 奈拉涨至 1300 奈拉。土耳其的涨幅位居第二，50GB 套餐的价格从 39.99 土耳其里拉涨至 49.99 土耳其里拉。 在美国和其他国家提高了 Apple Music 和 Apple One 套装的价格。涨价原因为“由于授权成本上涨”。 以下是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228164#reply5
+
+---
+
+#### 7257. [V2EX] 已故妻子的 iPhone 因失窃设备保护卡在 Face ID 验证，已知锁屏及 Apple 账户密码，能否提取微信数据？
+
+**问题描述 / Problem Description**:
+冒昧请教各位。 妻子上个月乘坐货车送货时发生交通事故，当场去世。事故后她的手机一度没有找到，我担心手机和个人数据遗失，便通过“查找”将手机设置为丢失模式。 大约一周后，车辆接受事故鉴定时，手机才在货车残骸中被找到。手机此前在残骸和积水环境中放置了约一周，之后又由警方保管了一个多月。我于 7 月 9 日取回手机，当时手机已经无法开机，后来找维修人员进行了硬件维修。 维修完成后，我忘记先关闭丢失模式，手机联网后，开机输入正确的锁屏密码，系统随即要求通过 Face ID 验证身份并退出丢失模式。 之后我做过以下尝试： 1. 联系 Apple 支持，并通过其他设备关闭丢失模式； 2. 使用电脑将手机升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227775#reply103
+
+---
+
+#### 7258. [V2EX] sing box 有望回归 apple store
+
+**问题描述 / Problem Description**:
+Version 1.14 is expected to be released within two months, and there is hope that the App Store version will be restored as well. I will post updates here as things progress.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227752#reply12
+
+---
+
+#### 7259. [V2EX] 闲鱼卖 iPhone 遇到骗子
+
+**问题描述 / Problem Description**:
+闲鱼出个美版 iPhone Air ，面交前付款，见面后确认 ok ，就直接重置了系统，他自己设了新密码和 apple id （当时没发现），等确认收款时找理由无法确认收货，要求走微信（这时已识别出是骗子），我直接拒绝并拿走了手机，回去一看才发现密码被他设成了新的。 报警后警察认为没有造成资产损失（也是人生第一次报警），让先联系平台，目前平台客服处理中，买家闲鱼账号已读不回。 教训： 不要走任何除了闲鱼外的平台，不要加微信，不要加微信，不要加微信（ lz 对这个很敏感，没有中招） 确认收货前，不要重置系统，不要重置系统，不要重置系统。 目前手机还在 lz 这里，但密码不知道。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227563#reply123
+
+---
+
+#### 7260. [V2EX] Apple Fitness+ 挺好用的
+
+**问题描述 / Problem Description**:
+几年前就用过，不过都是零零碎碎送的一个月或者三个月的会员，就只是尝鲜，没特别的感受。 今年开了 Apple One ，加上有减肥计划，从 3 月 2 号开始，到现在四个多月，已经有点离不开的感觉了。 目前用到的运动类型 动感单车 前三个月用的多，减重很有效，30 分钟或者 45 分钟，消耗 300/450 大卡，最近体重下来就不怎么骑了 划船机 闲鱼买了个二手的放家里，大部分时间吃灰，偶尔心血来潮练一下，练一次 20 或 30 分钟，也是每分钟 10 大卡左右的消耗 力量训练和核心训练 最近开始用，感觉效果不错 Mindful Cooldown 力量和核心练完会跟着拉伸，其他训练一般就自己拉伸
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227379#reply19
+
+---
+
+#### 7261. [V2EX] 分享一个小创意，用 Agent 处理工作交接的问题
+
+**问题描述 / Problem Description**:
+工作久了，真是什么样的工作交接都能见到。以前光景好，我遇到过不少很 nice 的大佬，交接文档写得超级全，让人看了就能感觉出工作能力很强，拿到也能直接上手。 但近来行情不好，奇葩事件也就越来越多了。有些粗糙的，最后往往就收到一个网盘链接，里面是几十份文档、几个 Notion 页面，文件名看起来还很像：「最终版」「最终确认版」「最新最终版」。 一问呢就说资料都在，可接手的人肯定一脸懵逼：平时到底看哪份？ 现在的情况就更麻烦了。很多人每天都在用自己的 AI 助手。一个 Agent 跟着项目跑了大半年，读过 PRD 、客户记录、研究报告，也处理过一堆零碎问题。人一走，账号一关，这...这就没了？不应
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228405#reply0
+
+---
+
+#### 7262. [V2EX] 已入手安克 160w prime 充电头，毕业了
+
+**问题描述 / Problem Description**:
+官翻只要 328 元，比咸鱼价格还低，一步到位不折腾，看了拆解真是电子黄图，对得起价格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228400#reply2
+
+---
+
+#### 7263. [V2EX] [自荐开源] vlaina - 没错就是那个 Catime 作者的新作笔记软件
+
+**问题描述 / Problem Description**:
+vlaina.com https://github.com/vladelaina/vlaina 没错没错，你没看错，就是那个写纯 C 的 Catime 的作者的新作，也是 Catime 半年迟迟没有发布一直在做的事情 提前猜个你会好奇的点： 这个使用什么做的？原生？ Electron,没错，既不是原生，也不是 tauri ，而是大家都在抱怨体积大的 Electron ，相信你一定好奇为啥我这把 Catime 之前做到 200kb 的原生开发者为啥不选 tauri 而是 Electron 吧，答案就留到文章的末尾吧 :smirking_face: 这个是个什么？ 一. 传统的 markdown
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228380#reply0
+
+---
+
+#### 7264. [V2EX] 用 Claude Design / GPT-5.6-sol / Kimi K3 给我的游戏做技能特效，附三份可玩的 standalone
+
+**问题描述 / Problem Description**:
+在业余时间做一款哥特埃及题材类吸血鬼幸存者的 roguelike 游戏（ Phaser 4.1 + H5 ）。美术、特效、UI 全部靠 AI 流水线产出，分享一下这套 pipeline 跑到今天的样子，以及最近一次挺有意思的实验。 这是游戏实际跑起来的样子： 技能特效(VFX) 生成 pipeline 核心思路：把「设计」当成一份可验收的工程交付(pipeline with skills)，而不是一句 prompt 。 Handoff 包生成 skill：每个设计需求打成一个自包含 zip —— 真实游戏截图、机制数值表、视觉正交规则（新技能不和老技能相似）、性能预算等。这个 zip 会扔给
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228361#reply0
+
+---
+
+#### 7265. [V2EX] 性生活是不是人的刚需
+
+**问题描述 / Problem Description**:
+刚刚刷到知乎的一个评论，也是被震撼到了，只能说荷兰是一个真的很人性的国家，瞬间有想移民到荷兰的冲动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228347#reply49
+
+---
+
+#### 7266. [V2EX] AI Agent 记忆系统折腾记：本地跑了半个月，最后还是上云了
+
+**问题描述 / Problem Description**:
+分享一段折腾经历，给同样想给 Agent 加记忆的老哥们避避坑。 起因是看到 Garry Tan （ YC 那位）开源了 GBrain ，一个 AI Agent 记忆系统，能持续吃会议记录和邮件，自动给人物和公司建档案，还带自我改进。这种东西对我这种记性差还要跟一堆项目的人太有吸引力了，果断开搞。 本地跑的三个坑 第一坑：保活。记忆系统的意义就是一直在线一直吸收，但我的主力机是笔记本，合盖就睡。挂在台式机上，结果一次系统更新自动重启，断了两天才发现。 第二坑：数据放哪。记忆数据就是这系统的全部价值，放本地磁盘总觉得悬，配自动备份又是一堆活。折腾到后面发现我在给一个工具当运维（本末倒置了属于是）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228257#reply2
+
+---
+
+#### 7267. [V2EX] 腾讯视频客户端深夜拿我电脑当 pcdn？
+
+**问题描述 / Problem Description**:
+无聊看了一眼 everything 出来一堆.TS 新鲜出炉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228145#reply12
+
+---
+
+#### 7268. [V2EX] Ai 让很多无代码基础的人想法落地
+
+**问题描述 / Problem Description**:
+然后发现自己的想法啥也不是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228125#reply20
 
 ---

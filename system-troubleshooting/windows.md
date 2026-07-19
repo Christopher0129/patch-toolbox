@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8405**
+**总计条目 / Total entries: 8442**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -115162,5 +115162,486 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228159#reply76
+
+---
+
+#### 8406. RTX 3070 Laptop Suddenly Can’t Run Any Games – Elden Ring Gets 3 FPS on Lowest Settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v0qfe5/rtx_3070_laptop_suddenly_cant_run_any_games_elden/
+
+---
+
+#### 8407. BF6 crash and pc restart
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v12zsy/bf6_crash_and_pc_restart/
+
+---
+
+#### 8408. Unable to install windows 11 via bootable USB (no media drivers found)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11o11/unable_to_install_windows_11_via_bootable_usb_no/
+
+---
+
+#### 8409. PC keeps BSODing with different codes everytime
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v10z8y/pc_keeps_bsoding_with_different_codes_everytime/
+
+---
+
+#### 8410. Tried to update/download new driver and my laptop crashed windows wont start
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v0yisr/tried_to_updatedownload_new_driver_and_my_laptop/
+
+---
+
+#### 8411. Having serious trouble connecting to the internet on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v133jj/having_serious_trouble_connecting_to_the_internet/
+
+---
+
+#### 8412. Windows 11 Camera app and browsers can't access webcam, but Zoom, VLC, and WhatsApp work perfectly (Acer Aspire 5)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v131w2/windows_11_camera_app_and_browsers_cant_access/
+
+---
+
+#### 8413. 4TB is partitioned for some reason and i can’t do anything with one of them
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v12s16/4tb_is_partitioned_for_some_reason_and_i_cant_do/
+
+---
+
+#### 8414. PC black screens after changing bios settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v12mk6/pc_black_screens_after_changing_bios_settings/
+
+---
+
+#### 8415. Xbox Wireless Adapter does not work correctly on windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v12ac9/xbox_wireless_adapter_does_not_work_correctly_on/
+
+---
+
+#### 8416. Occasional momentary screen flickering on desktop; windows/taskbar going black
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v12a02/occasional_momentary_screen_flickering_on_desktop/
+
+---
+
+#### 8417. My character continues to move when letting go of the WASD keys in certain games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1225k/my_character_continues_to_move_when_letting_go_of/
+
+---
+
+#### 8418. Help with tapo tc46 camera face detection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11yxd/help_with_tapo_tc46_camera_face_detection/
+
+---
+
+#### 8419. so i have been atempting to conneqt with remote desktop connection but i get "the logon attempt failed"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11shz/so_i_have_been_atempting_to_conneqt_with_remote/
+
+---
+
+#### 8420. onn TWS mini pods; right bud not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11o6e/onn_tws_mini_pods_right_bud_not_working/
+
+---
+
+#### 8421. Animated cursor not working properly (Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11lwk/animated_cursor_not_working_properly_windows_11/
+
+---
+
+#### 8422. Have I been hacked?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11hvc/have_i_been_hacked/
+
+---
+
+#### 8423. Omen Laptop’s screen won’t turn on. Computer itself will.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v0vx6b/omen_laptops_screen_wont_turn_on_computer_itself/
+
+---
+
+#### 8424. Mouse auto-clicking
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v11c9g/mouse_autoclicking/
+
+---
+
+#### 8425. Laptop sometimes starts up with black screen and mouse, needing several restarts to turn normal. Why? What should I do once it's on normal again ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v116p2/laptop_sometimes_starts_up_with_black_screen_and/
+
+---
+
+#### 8426. How do you check if someone signed on to your computer on windows 11?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v113t2/how_do_you_check_if_someone_signed_on_to_your/
+
+---
+
+#### 8427. We had a leak (water in PC)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v0s6n1/we_had_a_leak_water_in_pc/
+
+---
+
+#### 8428. BSOD. POOL CORRUPTION and KERNEL CORRUPTION.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v10msj/bsod_pool_corruption_and_kernel_corruption/
+
+---
+
+#### 8429. My files got deleted even after windows blocked the Trojan
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v10gw3/my_files_got_deleted_even_after_windows_blocked/
+
+---
+
+#### 8430. [V2EX] 京东 pc 端每次打开就会有一个遮罩提示领红包, 这是纯恶心人的吧
+
+**问题描述 / Problem Description**:
+https://ibb.co/bjwXtz2h
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228418#reply0
+
+---
+
+#### 8431. [V2EX] 3d 打印进阶玩法咨询
+
+**问题描述 / Problem Description**:
+目前 p2s, 网站上的模型也都打了遍，大概打了几百个各种的生活用品； 现在有了新的需求，想自己扫描 3d 模型，打印； 请问有啥工具可以用来 3d 扫描的，苹果手机的 lidar 似乎精度不够？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228393#reply8
+
+---
+
+#### 8432. [V2EX] 被 cursor 团队版购买流程及客服效率搞破防了，求助这种情况如何解决？
+
+**问题描述 / Problem Description**:
+真心被 Cursor 新版团队版的购买流程搞破防了，对比三个月前的顺畅体验，现在的付费逻辑混乱、机制反人类，全程踩满坑，纯纯付费找罪受！ 三个月前第一次买 5 人团队版，流程简单清晰：直接选定 5 个席位，一次性支付宝全款支付，账单、收据一键导出，报销全程丝滑，没有任何多余操作。 本以为这次续费新增团队也是一样的流程，结果体验天差地别，全程漏洞百出、BUG 不断。 本次新开团队购买全过程踩坑： 无法直接选购多席位，必须先强制开通 1 人账号，支付 40 美金打底； 后续新增团队成员，通过邀请方式添加，每添加、确认一位成员（也可能是 2 位 or or3 位，很迷）就单独生成一笔账单、单独扣款；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228367#reply0
+
+---
+
+#### 8433. [V2EX] 如何将中美两国的家庭网络组成局域网?
+
+**问题描述 / Problem Description**:
+中国、美国各有一个家庭网络，均有公网 ipv4 ，且可以互相直连，延迟 150ms 左右，比较稳定。 两个局域网内各有几十台家用设备。 希望 : 实现局域网互通。可以在两端各加一个旁臂路由，或者其他设备也可。(个人不喜欢用软路由当主路由) 互相作为网络出口。在中国通过美国网络访问 Google 、ChatGPT 等，在美国使用中国网络访问淘宝等网站。 大佬们有成熟方案吗？或者给个关键词？ ZeroTier 或 WireGuard 好用吗？ 提前感谢各位大佬！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228327#reply40
+
+---
+
+#### 8434. [V2EX] [自荐开源] vlaina - 没错就是那个 Catime 作者的新作笔记软件
+
+**问题描述 / Problem Description**:
+vlaina.com https://github.com/vladelaina/vlaina 没错没错，你没看错，就是那个写纯 C 的 Catime 的作者的新作，也是 Catime 半年迟迟没有发布一直在做的事情 提前猜个你会好奇的点： 这个使用什么做的？原生？ Electron,没错，既不是原生，也不是 tauri ，而是大家都在抱怨体积大的 Electron ，相信你一定好奇为啥我这把 Catime 之前做到 200kb 的原生开发者为啥不选 tauri 而是 Electron 吧，答案就留到文章的末尾吧 :smirking_face: 这个是个什么？ 一. 传统的 markdown
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228326#reply0
+
+---
+
+#### 8435. [V2EX] 如何缓解使用 AI 带来大脑疲劳感？
+
+**问题描述 / Problem Description**:
+在使用 AI 的过程中，是否也会出现大脑非常疲劳的情况，自己会出现这种情况，而且感觉有了 AI 之后比之前更忙了，因为老想着让 AI 做更多的事情，导致有些进入了恶性循环，这个过程中会出现大脑很疲惫的情况。 目前自己的做法是尽量早上去跑步，找到自己精力低的时间段，自己是下午 4-5 点状态差，安排沟通或者低脑力的工作，尽量不使用 AI ，每隔 20-30 分钟左右停一下看看远方，喝点水或者起来动动。 想问下大家在日常工作中，有这种情况是怎么缓解的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228316#reply20
+
+---
+
+#### 8436. [V2EX] 怎么让 AI 模仿指定网站前端风格进行改造
+
+**问题描述 / Problem Description**:
+目前参考网站需要登录后才能看到，Claude 没办法直接访问的（还是说得用 AI 专用浏览器让 Claude 去学习？）。目前我是通过一张张截图让 Claude 去学习模仿，但是发现 Claude 没办法完全模仿参考网站去改造，改造后的网站风格和参考网站还是肉眼可见差异。请问各位大神，是如何让 AI 模仿指定网站前端风格进行改造，尽可能做到一模一样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228309#reply9
+
+---
+
+#### 8437. [V2EX] 我想在抖音里推广 ip9，有什么好的引流方法？
+
+**问题描述 / Problem Description**:
+我想在抖音里推广 ip9 ip9.com.cn 但是抖音不让引流网址，自然流怎么引流？ 有什么好方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228297#reply11
+
+---
+
+#### 8438. [V2EX] 如何培养孩子当领导的能力
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228256#reply33
+
+---
+
+#### 8439. [V2EX] 除了地方档案馆记录现代历史以外，有没有什么平台记录了现代野史呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228247#reply3
+
+---
+
+#### 8440. [V2EX] cloud flare pages 问题
+
+**问题描述 / Problem Description**:
+技术小白，有一个域名在 cloudflare 上，在上面部署一个静态页面网站，就一个主页，现在要更新，同样在元宝生成了一个 index.html, 双击能正常显示，新建了一个文件夹，拖入 index.html, 重新上传到 page 上，production ，但 dev 链接是空白的，原有的域名还是显示原来的内容，这是怎么回事。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228228#reply2
+
+---
+
+#### 8441. [V2EX] 我想制作一款这样的设备，会有人喜欢吗？
+
+**问题描述 / Problem Description**:
+功能完全是按我自己的日常焦慮量身定製的：第一個專門用來盯大語言模型的 Token 消耗（看著數字跳就是看著錢在燒）。第二個平時懶得切軟件盯盤，直接鎖死，納斯達克 100 最近跌的是真慘呀。。第三個專門用來跑 API 賬單報警和死循環監控。每个下面有 3 个灯。 代表你的电脑里的 Agent 的工作进度，如果完成了，对应的灯就会亮起来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228226#reply4
+
+---
+
+#### 8442. [V2EX] v2er 不能用了？ V2EX 有什么平替的客户端吗？
+
+**问题描述 / Problem Description**:
+v2er 打开内容都是空白。有什么平替的客户端吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228207#reply12
 
 ---

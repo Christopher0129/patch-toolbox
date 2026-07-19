@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7599**
+**总计条目 / Total entries: 7763**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -106733,5 +106733,2143 @@ I have not this message error but by the way: Do you have access to a console? C
 
 **参考链接 / References**:
 - https://askubuntu.com/questions/927111/i-cant-install-any-apps-from-the-software-center
+
+---
+
+#### 7600. The last MPEG-4 Visual patent has expired
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0s7p9/the_last_mpeg4_visual_patent_has_expired/
+
+---
+
+#### 7601. GNU Hurd Makes Progress On AArch64, Writing Translators In Rust
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0tz55/gnu_hurd_makes_progress_on_aarch64_writing/
+
+---
+
+#### 7602. i made tux in blender i guess
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v12sjv/i_made_tux_in_blender_i_guess/
+
+---
+
+#### 7603. Medically retired. Want to give back to Linux. What free pathways exist to help train someone to a level where they can assist with the Linux kernel?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v12ww8/medically_retired_want_to_give_back_to_linux_what/
+
+---
+
+#### 7604. What are future developments of desktop linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0swzi/what_are_future_developments_of_desktop_linux/
+
+---
+
+#### 7605. cTetris - A minimal tetris implementation.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0jr3i/ctetris_a_minimal_tetris_implementation/
+
+---
+
+#### 7606. How fork() duplicates a process without copying its memory
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0uqx6/how_fork_duplicates_a_process_without_copying_its/
+
+---
+
+#### 7607. [OC] Whisp 1.3.8 released — Added "Slate Mode" for absolute minimalism and official NixOS support.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0j2t7/oc_whisp_138_released_added_slate_mode_for/
+
+---
+
+#### 7608. CoreFreq improves its support for monitoring Spark cores @ github.com/cyring/CoreFreq
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0zuy8/corefreq_improves_its_support_for_monitoring/
+
+---
+
+#### 7609. Google Summer of Code Midpoint Progress (GIMP)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0ac5o/google_summer_of_code_midpoint_progress_gimp/
+
+---
+
+#### 7610. Swaybeing, a screentime monitoring damon
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0vtos/swaybeing_a_screentime_monitoring_damon/
+
+---
+
+#### 7611. Fixed CSR8510/Barrot Bluetooth clone dongle failures ("Unbranded CSR clone detected", HCI timeouts) — root cause + patch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v0anuh/fixed_csr8510barrot_bluetooth_clone_dongle/
+
+---
+
+#### 7612. [V2EX] 做了个浏览器里跑真 Manim 的站，也整理了 Windows 本地安装与排错
+
+**问题描述 / Problem Description**:
+最近把 Windows 上安装 Manim Community 的流程重新走了一遍。很多教程的问题不是命令错，而是把 Python 、原生 DLL 、PyPI 、LaTeX 和代码错误混成了一个“安装失败”。一旦失败就从头重装，反而很难知道是哪一层坏了。 不过先说我的真实建议： 如果只是刚开始学 Manim ，不要先装本地环境。 我做极坐标⋅XYZ 的直接原因，就是希望初学者打开浏览器便能运行真 Manim 0.20.1 ，而不是先过 Python/uv/VC++/MiKTeX 这套环境考试。 目前 Playground 可以匿名打开，内置示例直接 Run ；编辑器有 Python 高亮、基于
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228430#reply0
+
+---
+
+#### 7613. [V2EX] kimi 算力顶不住停售了
+
+**问题描述 / Problem Description**:
+所以目前国内市场高端大模型仍然是供不应求？ 国产卡的能力和产能到底行不行。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228419#reply5
+
+---
+
+#### 7614. [V2EX] 实测 GPT-5.6 Sol 的 High/Max：修 bug 未必值得上 Max，重写/迁移可能值得
+
+**问题描述 / Problem Description**:
+先声明：我是 [Tura]( https://github.com/Tura-AI/tura ) 的维护者。这不是独立评测；完整方法、图表和公开产物在文末链接。想请大家重点挑一挑下面这个“按任务形态路由”的结论有没有遗漏。 我把 DeepSWE v1.1 的记录和一次 eza （ Rust → Python 、52 项检查）的行为兼容重写放在一起看。结论不是“Max 总是更强”，而是 Max 多买到了搜索、回滚、再试和 agent 回合；这些回合有没有价值，取决于任务剩下多少不确定性。 | 任务形态 | High | Max | 通过率变化 | 成本 | | --- | ---: | ---:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228412#reply4
+
+---
+
+#### 7615. [V2EX] 记燃油车油耗有什么好用的软件或者小程序么？
+
+**问题描述 / Problem Description**:
+之前使用腾讯出行的加油功能，买完单之后只需要填一个车上显示的总里程，就可以自动记录加油信息了 最近一次用，突然提示记油耗功能下线了，历史数据也没有了 现在还有什么好用的记油耗的软件或者小程序么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228409#reply3
+
+---
+
+#### 7616. [V2EX] 想买个 claude 号，又怕卖家是用黑卡充值的，号没了还把 pc 也被拉黑了。哪家是正经充值的呢？
+
+**问题描述 / Problem Description**:
+求指点。 黑卡卖家怎么避让？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228408#reply2
+
+---
+
+#### 7617. [V2EX] 为什么“节省 90% Token”不等于 Coding Agent 总成本降低 90%
+
+**问题描述 / Problem Description**:
+最近把几个“Token 节省”插件放到完整仓库任务里做了一个小型配对实验，结论和常见宣传口径差异很大。 任务不是单轮代码补全，而是把 Rust eza 仓库重写成行为兼容的 Python 实现，并通过 52 项 harness 检查。模型、推理档位和 Codex CLI 版本保持一致，每组目前只有 2 次运行： 无插件：78.85% 通过率，平均 666 万 Token ，约 5.28 美元，62.5 轮 Ponytail：通过率 80.77%，Token -7.56%，成本 -8.87%，但耗时 +13.51% RTK：通过率 76.92%，Token +13.20%，成本 +7.18%，轮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228396#reply6
+
+---
+
+#### 7618. [V2EX] claude 被杀
+
+**问题描述 / Problem Description**:
+除了 gpt ，第二个用来备份的工具选啥 kimi code plan cursor glm code plan(国际版)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228387#reply3
+
+---
+
+#### 7619. [V2EX] Vibe Coding 副业四个月：成本超出收益，要放弃吗？
+
+**问题描述 / Problem Description**:
+楼主本身是一名程序，Vibe Coding 流行后，我一直觉得，开发的技术门槛会越来越低，每个程序员或许都应该做一个自己的独立项目，放到市场上试一次水。 于是从今年 3 月开始，用业余时间做了一个 A 股新闻事件分析工具“新闻雷达”。 四个月以后，我最大的感受是： 技术反而是最容易解决的部分，真正困难的是运营、推广和收费。 做了一个复盘。 项目做了什么 我平时会关注财经新闻。新闻本身很多，费时间的是判断它影响哪些行业和公司，这种关联是否有真实业务依据，以及类似事件过去发生后市场如何表现。 新闻雷达会抓取新闻、过滤噪音，通过 AI 和本地股票及公告数据分析相关公司，再记录事件后的市场表现。3 月
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228385#reply31
+
+---
+
+#### 7620. [V2EX] OpenPencil v0.8.0:全面 Rust 化，跨平台稳定性提升；设计能力大幅提升，针对 GLM、DS 等模型特别优化
+
+**问题描述 / Problem Description**:
+久等了，经过 2 个月苦战，OpenPencil 的 v0.8.0 终于来了 这次带来全新的体验，彻底解决一些跨平台问题，尤其针对国产模型做了很多特别优化，提升了设计审美的底线！ v0.8.1 地址： https://github.com/ZSeven-W/openpencil/releases/tag/v0.8.1 欢迎兄弟们继续体验、继续拍砖～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228378#reply1
+
+---
+
+#### 7621. [V2EX] Kimi K3 这波真的爆了，你们用着感觉怎么样？
+
+**问题描述 / Problem Description**:
+这几天被 Kimi K3 刷屏了，X 上在吹，HN 上在吹，都说是国产之光，deepseek 时刻 2.0 来了。 我也试了一下，浅浅分享自己的体验吧。 先说好的地方： 前端能力很强。 Kimi K3 前端能力这块，算是跻身全球第一梯队，真要个人排名的话，目前我给它排第二，还超越不了 Fable 5--LMArena 人类盲投榜上它前端甚至排第一，但我实测体感，Fable 5 还是更稳。 不过比 GPT-5.6 强得多，这是 GPT 系列家族的通病，前端能力一直很弱。 特别是那个刷屏的 3D 建模，我不知道设计圈怎么看，我觉得挺牛的。 长时复杂任务处理能力也很不错。 比如要做一个复杂的系统，定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228376#reply25
+
+---
+
+#### 7622. [V2EX] [KIMI] K3 出来以后， K2.6 降智挺严重的，千问 3.8Preview 很香
+
+**问题描述 / Problem Description**:
+RT ，之前一直用的 KIMI ，感觉回答问题准确还容易理解；最近想在自己电脑上用 codex ，不懂得就问 KIMI ，结果： 现在我问他 “codexcli 怎么使用 chatgpt plus 会员登录，之前用的 apikey 方式登录的”，结果告诉我不能使用 chatgpt plus 会员登录； 想用 K3 提示需要充值，遂作罢；拥抱千问；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228368#reply0
+
+---
+
+#### 7623. [V2EX] [分享] 写了一个有记忆系统、能自我进化的 AI Agent，从此不用整理笔记了？也不用学习课程了？
+
+**问题描述 / Problem Description**:
+各位好，分享一个我自己在做的项目。 起因是前阵子清理电脑里的笔记，Notion 300 多篇、Obsidian 200 多篇、还有一堆 markdown 散落在各个文件夹。翻了一遍发现大部分内容我根本不记得写过什么，更别说交叉对比、发现关联了。 然后我想：LLM 每分钟能处理几千 tokens ，能同时比较大量材料，知识工作的最后一步本来就是让 AI 来做的——那为什么不把「管理知识」这件事也交给它？ 于是我做了 康纳同学 ，一个 macOS 上的 AI Agent ，核心是一套五层记忆系统： L0 - 原始档案库（对话、笔记、邮件、网页原文，原样保存） L1 - 上下文窗口（缓存碎片信息，等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228366#reply0
+
+---
+
+#### 7624. [V2EX] 如果一个 claude 号被 ban，那用过这个号的 pc 是否也被标黑了？
+
+**问题描述 / Problem Description**:
+想买个成品号来试一下。 但是如果被 ban ，是否 pc 也会被拉黑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228362#reply8
+
+---
+
+#### 7625. [V2EX] cloudflare 的新博客好难看
+
+**问题描述 / Problem Description**:
+原来是比较朴实的，新博客长这样： https://i.imgur.com/PjntuXq.png 最重要的正文部分改成了浅灰色的小字，从来没见过哪个内容为主的网站会用这种样式，对阅读很不友好 这是不是 Vibe Coding 的坏处？有 AI 之后，重构东西很容易，手里有锤子，看哪都想去敲一下。虽然原来的版本可能更好，但也要去敲一下。把自己的公司做得 fancy 一点，更能蹭上 AI 的叙事 cloudflare 还提到过，他们有不少设计师从传统的 Figma 转向了直接用 AI 写代码出原型，很难想象这个再跃进一点，是不是直接原来的前端把设计也包干了？直接让 AI Vibe 一个出来，反正自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228360#reply7
+
+---
+
+#### 7626. [V2EX] 问下大家使用 codex ，会员到期 token 用完，是可以立即续费吗
+
+**问题描述 / Problem Description**:
+如题，立即续费，点数是否会重置？ 还是建议间隔一周再冲呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228325#reply7
+
+---
+
+#### 7627. [V2EX] 灵魂拷问：未来的 vibe coding 平民化了，那我现在还迭代个锤子啊
+
+**问题描述 / Problem Description**:
+重构了一版扔在产品库的老掉牙的屎山产品。过程中，来灵魂拷问一下大家，按照 AI 发展趋势+端侧能力， 未来用户需求=产品了，都个性自定义化了，那么我们现在还迭戈锤子啊。。。。动力感不强劲了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228303#reply46
+
+---
+
+#### 7628. [V2EX] 小红书下载无水印视频原理是什么？
+
+**问题描述 / Problem Description**:
+那些可以提供小红书无水印下载视频、图片的，背后是使用免费的 API 还是收费的第三方服务？如果是后者，那成本不是很高吗/。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228301#reply14
+
+---
+
+#### 7629. [V2EX] openrouter 上 glm 5.2 的多家供应商相互压价
+
+**问题描述 / Problem Description**:
+glm 5.2 发布才一个月，开源模型的 token 价格屠刀已经崭露锋芒了。 openrouter glm 5.2 有三家供应商相互压价，昨天上午还 70% off ，今天上午已经 80% off 了，开始向电费成本逼近了。 买不到原厂 code plan ，可以试试 openrouter 上 2 折的 glm 5.2 ，不用包月，随充随用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228299#reply13
+
+---
+
+#### 7630. [V2EX] 把 app 的每一个页面 copy 给 AI， ai 能复刻出这个 app 吗？它能自动发掘其后的逻辑，复刻出来吗？
+
+**问题描述 / Problem Description**:
+复刻程序是否越来越容易了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228298#reply29
+
+---
+
+#### 7631. [V2EX] [Rewrite Bun in MC++] 7 天 20+万行代码 C++26 模块化, 重写 Bun 行为艺术复刻, 已能真实运行顶级开源 Web 框架项目
+
+**问题描述 / Problem Description**:
+背景 之前 Anthropic 团队用 Agent 开发 C 编译器 以及 早期 Rewrite Bun in Rust . 最初我也就看个热闹, 但没有想到的是 Bun 作者真的把这个 100W+行的 PR 合入了, 我相信这不仅是对我而是整个开发者群体都是一件相当震惊的事情。 一个 ~100k+ star 、真实应用到生产环境的顶级开源项目、不到 2 周时间 AI 编写了 100 万+行代码 单个 PR 直接合入主分支了! 这里最核心的是他不是一个玩具项目。所以这个事件引发了我的一些思考: 对于百万行级的大型项目 Agent 大幅度参与的可行性、会不会遇到什么问题? 开源项目、开发者、Ag
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228291#reply16
+
+---
+
+#### 7632. Create a GIF with "boomerang effect" from a video (from mp4, webm, ...) using ffmpeg and bash command line in Linux
+
+**问题描述 / Problem Description**:
+Tags: bash, ffmpeg, gif | Score: 0 | Views: 86 | Answers: 1 | Created: 2026-06-29
+
+**解决方案 / Solution**:
+First, you must have a multimedia video (MP4, webm, MKV, or GIF) designed to be "nice to be boomeranged". See this example input multimedia file, where somebody drags a slider from left-to-right . At the moment this is just a normal input file without the particular "boomerang effect". So, at the end of the file, you can just repeat it again, without any particular "rewind" effect. You can easily detect the start and the end of the multimedia file. INPUT ("normal video, with evident start and end"): As output, you may be interested in having that example slider not just dragged from left-to-right, but left-to-right and back . OUTPUT ("boomerang effect"): So, how to obtain the above example? Preamble Be sure to have FFMpeg installed. Is open source software, frequently pre-installed in Linux distributions. https://ffmpeg.org/ Example installation in Debian or Ubuntu: sudo apt update sudo apt install --yes ffmpeg Preparation Optionally, consider these: consider cutting the video start/end to discard unuseful parts consider scaling down the video to reduce video size consider reducing the frame rate (FPS) to make the GIF faster and reduce size All these optional actions can be combined in a single ffmpeg command: # Cut the video to start at 00:00:02.5 # Cut the video to have a duration of 3.5 seconds # Scale down to 13 FPS # Scale to 600 pixels of width ffmpeg -i video.mp4 -ss 00:00:02.5 -t 3.5 -vf "fps=13,scale=600:-2" video-cut.mp4 These are just hardcoded parameters. Adapt them for your needs. See the documentation of ffmpeg for more scaling options: https://trac.ffmpeg.org/wiki/Scaling Conversion from MP4 to GIF with boomerang effect (In this example I mention an input .mp4 video, but it really works with any file video format probably. I've already tried this with .mkv , .webm and others.) After you have your clean video file ( video-cut.mp4 ), you can make it a GIF boomerang loop, running this script: #################################################################### # Take 'video-cut.mp4' as input. # # Generate 'image-loop.gif' as output, with boomerang effect loop. # #################################################################### # Create a reversed video ffmpeg -i video-cut.mp4 -vf reverse video-cut-reverse.mp4 # Merge normal and reversed videos to create a boomerang effect echo "file 'video-cut.mp4'" > files.list echo "file 'video-cut-reverse.mp4'" >> files.list ffmpeg -f concat -safe 0 -i files.list -c copy video-boomerang.mp4 # OPTIONAL: cleanup temporary files rm files.list video-cut-reverse.mp4 video-cut.mp4 # Convert the resulting video in a GIF with infinite loop ffmpeg -y -i video-boomerang.mp4 -loop 0 image-loop.gif # OPTIONAL: cleanup temporary files rm video-boomerang.mp4 Tah-dah! You obtain the image-loop.gif , which is the already-mentioned GIF file with boomerang effect, so, it plays once, and it rewinds the original video, looping it forever, with a smooth animation: You obtain this "boomerang GIF" thanks to three ffmpeg commands: one command for making a "reverse" version of the input video, another command to glue these videos, and another command to have an output GIF with infinite loop. For some reasons, having these separated commands was the best way for me to do it with minimal RAM consumption and maximum speed and maximum readability. There are other ways to do that, using unmaintainable ffmpeg very-long commands which may consume all your RAM to produce small GIFs. But I prefer readability and efficiency, over 1-line commands. For your commodity, I've shared more credits and examples in Internet Archive: https://archive.org/details/mp4-videos-to-gif-boomerang-effect-shell-script-Linux
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806552/create-a-gif-with-boomerang-effect-from-a-video-from-mp4-webm-using-ff
+
+---
+
+#### 7633. Create terminal command alias with same name
+
+**问题描述 / Problem Description**:
+Tags: bash, function | Score: 0 | Views: 119 | Answers: 2 | Created: 2026-06-24
+
+**解决方案 / Solution**:
+You can prevent the function or alias from being used by the command prefix or (only with aliases, not with functions) by quoting (part of) the command name: command xed \xed So the function definition would be: xed() { command xed "$@" 2>/dev/null & disown; }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806507/create-terminal-command-alias-with-same-name
+
+---
+
+#### 7634. Need help with a Bash scripting issue in Bazzite
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, hardware, bazzite, distrobox | Score: 0 | Views: 142 | Answers: 2 | Created: 2026-06-20
+
+**解决方案 / Solution**:
+I observe the same behavior on Ubuntu 24.04 GNOME. The problem is that when run from the application launcher the zenity invocation in the # CASE 1: Jiggler is running if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then # Changed the cancel button label to "Exit" here zenity --progress \ ... cleanup returns immediately: Jun 21 09:48:43 ThinkPad-E16-Gen3 test-app.desktop[183906]: ++ cat /tmp/mouse_jiggler_active.pid Jun 21 09:48:43 ThinkPad-E16-Gen3 test-app.desktop[183868]: + kill -0 183905 Jun 21 09:48:43 ThinkPad-E16-Gen3 test-app.desktop[183868]: + zenity --progress '--title=Mouse Jiggler' '--text=Status: Running\n\nMouse movement is active.\nClick Exit to stop.' --width=350 --height=150 --pulsate --auto-close --cancel-label=Exit Jun 21 09:48:43 ThinkPad-E16-Gen3 test-app.desktop[183868]: + cleanup The dialogue flashes on the screen and disappears. Removing --auto-close from the zenity invocation makes it work (albeit with different label and without pulsating): zenity --progress \ --title="$WINDOW_TITLE" \ --text="Status: Running\n\nMouse movement is active.\nClick Exit to stop." \ --width=350 --height=150 \ --pulsate \ --cancel-label="Exit" The reason why it works in a terminal but not in the application launcher - zenity --progress reads the current progress from the stdin . When launched from the application launcher the stdin is set to /dev/null , so zenity --progress immediately assumes it reached 100%. With --auto-close it exits and without --auto-close it displays the different, final, dialogue.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806472/need-help-with-a-bash-scripting-issue-in-bazzite
+
+---
+
+#### 7635. Using restricted rsync (rrsync) to pull files from source sandbox to target host. How to call rsync from inside a bash script?
+
+**问题描述 / Problem Description**:
+Tags: bash, ssh, scripting, rsync | Score: 0 | Views: 76 | Answers: 1 | Created: 2026-05-29
+
+**解决方案 / Solution**:
+Solution taken from an edit to the question The syntax below, notice the -i switch to identify the $USER key, works with or without the -n (dry-run) switch, when I call bash script_name as the sudo_user (fills $USER ): bash script_name $1 sudo rsync -ahnvv -e "sudo -u $USER ssh -i home/$USER/.ssh/id_ed25519" \ --delete --itemize-changes --stats spku@$1:/rel /local/tgt This enables me to dry-run the pull operation first, to verify proper transfer, and then prompt Y/N to perform the rsync operation, by using the command without the -n switch if the user says yes.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806237/using-restricted-rsync-rrsync-to-pull-files-from-source-sandbox-to-target-host
+
+---
+
+#### 7636. In a shell script, why use multiple `printf` or `echo` expressions instead of a multiline string literal or HERE document?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, posix, echo, printf | Score: 0 | Views: 199 | Answers: 1 | Created: 2026-04-09
+
+**解决方案 / Solution**:
+A here-doc is to feed data on a given file descriptor (0, that is standard input by default) of a command. To do that, depending on the shell, version thereof and the size of the here document, it either writes it into a deleted temporary file, like the Bourne shell did, or uses a pipe or memfd (shared memory). For that here-document to be output though, you need to feed it to a command that will read it and echo it back on stdout or rather stderr for a usage message (at least those that are output in response to incorrect usage by the user). That's not what echo does. echo echoes the strings it's given as arguments after having expanded some escape sequences in them¹. It does not read its standard input nor any other file descriptor. To use a here-doc, you'd typically use the cat utility: cat << EOF >&2 usage: ${PROGNAME} [OPTION]... This script creates an OpenSSH user configuration. Options: --debug -d Enable shell's debug output. --yes -y Answer all questions with "yes" automatically. --no -n Answer all questions with "no" automatically. EOF While echo is built into most shells, cat is rarely so, so in addition to having to construct that here-doc, it's more expensive as it involves forking a process and execute and load a separate command. Not really a concern here for a command that is run only once in your script. One may want to use echo because of it's ability to expand sequences such as \n , \t , or \033[1m for bold for instance, but as it's not portable, and you wouldn't want them to be expanded in the value of $PROGNAME for instance, it would be better to use printf (which supports standard C-style escape sequences in the format argument or echo -style ones with %b ) or ksh93's $'...' quotes which have now been standardised for sh . You don't need to run several echo invocations: echo >&2 "\ usage: $PROGNAME [OPTION]... This script creates an OpenSSH user configuration. Options: --debug -d Enable shell's debug output. --yes -y Answer all questions with \"yes\" automatically. --no -n Answer all questions with \"no\" automatically." Would work just as well (note the line continuation right after the opening " that allows the first line to start at the start of a line in the script; that only works for double quotes, not for '...' nor $'...' ). One may want to run one echo per line so as to be able to indent the code as in: usage() { echo "usage: $PROGNAME [OPTION]..." echo echo "This script creates an OpenSSH user configuration." echo echo "Options:" echo " --debug -d Enable shell's debug output." echo " --yes -y Answer all questions with \"yes\" automatically." echo " --no -n Answer all questions with \"no\" automatically." } >&2 But you can still do the same with one printf invocation: usage() { printf>&2 '%s\n' \ "usage: $PROGNAME [OPTION]..." \ '' \ 'This script creates an OpenSSH user configuration.' \ '' \ 'Options:' \ " --debug -d Enable shell's debug output." \ ' --yes -y Answer all questions with "yes" automatically.' \ ' --no -n Answer all questions with "no" automatically.' } A common idiom is to store the usage message in a $USAGE variable at the start of the script, so indentation is not needed: #! /bin/sh - USAGE="\ usage: $PROGNAME [OPTION]... This script creates an OpenSSH user configuration. Options: --debug -d Enable shell's debug output. --yes -y Answer all questions with \"yes\" automatically. --no -n Answer all questions with \"no\" automatically." die() { [ "$#" -eq 0 ] || printf>&2 '%s\n' "$@" exit 1 } ... || die 'You did it wrong.' "$USAGE" More reasons people may use echo and several invocations of it could be because they don't know anything else, are not aware of its limitations , are not very familiar with the shell quoting syntax, or don't want to write code harder to understand by their reader that are not very familiar with shell syntax, or because they do what people have always done since the 80s before printf existed. Personally these days, I mostly write zsh scripts where I do this kind of thing with: #! /bin/zsh - die() { print -ru2 -C1 -- "$@"; exit 1; } usage() die "$@" "\ Usage: $ZSH_SCRIPT [-n <number>] arg [arg...] Schtroumpf some schtroumpfs Options: -n <number>: number of schtroumpfs to schtroumpf." zparseopts -D -F -A opt n || usage (( $# > 0 )) || usage 'At least one arg required' [[ ${opt[-n]-1} = <1-100> ]] || usage '<number> must be a decimal integer number in range 1-100' For completeness, with the ksh93 shell, the help, usage and man page can be generated automatically based on the extended option specification passed to its getopts builtin² and are always sent to stderr, including with the --help , --usage , --man options (among others) handled automatically. There, that option specification allows blank lines and leading blanks, which helps with code indentation. See this other Q&A here for an example. In any case, for something shipped with OpenSSH, zsh or ksh93 would not be an option, it would have to be a sh script, at least POSIX sh (complying to an at least 10 year old edition of that standard), even possibly Bourne if intended to be portable to ancient systems. ¹ Some echo implementations such as bash 's depending on build and/or runtime parameters only do it when passed a -e option. ² Or anything using AT&T Software Technology (ast)'s optget API , though ksh93 is probably the only ast software still in wide usage.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805357/in-a-shell-script-why-use-multiple-printf-or-echo-expressions-instead-of-a
+
+---
+
+#### 7637. How can I decode alias in fish
+
+**问题描述 / Problem Description**:
+Tags: bash, alias, fish | Score: 0 | Views: 123 | Answers: 1 | Created: 2026-03-26
+
+**解决方案 / Solution**:
+fish aliases are just functions, so functions nvs6124 will print the definition of this alias. Just like in bash you can simply use alias nvs6124 to display its content.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805165/how-can-i-decode-alias-in-fish
+
+---
+
+#### 7638. How to make the output of a command be in the variable of other command
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, arch-linux, hyprland | Score: 0 | Views: 77 | Answers: 1 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+This is called command substitution and you do it with var=$(command) - do not use backticks instead of $() , they are ancient and obsolete and deprecated. e.g. id=$(hyprctl activeworkspace -j | grep '"id"' | head -1 | grep -o '[0-9]*') BTW, you can get rid of the head -1 in that pipeline if you use -m 1 with grep to exit after the first match. And with GNU grep (standard on linux) with support for Perl Compatible Regular Expressions, you can eliminate the second grep too, with a regex like id.*?\K[0-9]+ , resulting in a much shorter: id=$(hyprctl activeworkspace -j | grep -P -m1 -o 'id.*?\K[0-9]+') Also worth noting, the -j option of hyprctl tells it to output in json format. You'd be much better off using jq than grep . e.g. something like: id=$(hyprctl activeworkspace -j | jq .id) (the exact jq filter needed will depend on the structure of hyperctl 's output, .id will work for the very simplest, essentially flat structure)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805161/how-to-make-the-output-of-a-command-be-in-the-variable-of-other-command
+
+---
+
+#### 7639. how to do a "bash completion" on exit of a script or function
+
+**问题描述 / Problem Description**:
+Tags: bash, compgen | Score: 0 | Views: 66 | Answers: 2 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+That does not appear to be possible for the reasons explained in depth in this answer to the Execute a readline function without keybinding? The closest I can think of is history -s "some string" that appends some string to the history and you can recall it using previous-history . This means one more keystroke.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804839/how-to-do-a-bash-completion-on-exit-of-a-script-or-function
+
+---
+
+#### 7640. Bash - How to securely erase a password from memory which is displayed whilst being typed
+
+**问题描述 / Problem Description**:
+Tags: bash, security, memory, password, forensics | Score: 0 | Views: 232 | Answers: 2 | Created: 2026-02-21
+
+**解决方案 / Solution**:
+Instead of: read -s pwd you might try: pwd="$( read -s pwd2 ; printf '%s' "$pwd2" ; unset pwd2 )" This makes the read happen in an ephemeral subprocess and captures the results of that.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804642/bash-how-to-securely-erase-a-password-from-memory-which-is-displayed-whilst-be
+
+---
+
+#### 7641. Issue with looping through an array/list of hostnames
+
+**问题描述 / Problem Description**:
+Tags: bash, array, ansible, hostname | Score: 0 | Views: 100 | Answers: 2 | Created: 2026-02-04
+
+**解决方案 / Solution**:
+Thanks to @steeldriver’s comment pointing to this thread , I was able to make it work with: while IFS= read -r -u9 srv ; do ssh $srv 'exit' ; sleep 0.3 ; done 9< <(ansible-playbook get_pg-version.yml -e '{"targets":"prod:&dbserver"}' --list-hosts | tail -n +7) ssh: Could not resolve hostname local-srv5910: Name or service not known
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804238/issue-with-looping-through-an-array-list-of-hostnames
+
+---
+
+#### 7642. Why `date -d` doesn't respond to change of `LC_TIME` variable
+
+**问题描述 / Problem Description**:
+Tags: bash, kde, environment-variables, date, gnu | Score: 0 | Views: 89 | Answers: 1 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+LC_TIME and TZ are two independent variables. TZ determines the content (the time value) and LC_TIME defines the presentation (the time format). It is quite valid and normal to change one without changing the other.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804038/why-date-d-doesnt-respond-to-change-of-lc-time-variable
+
+---
+
+#### 7643. Why is `systemctl show-environment --user` different from the environment available to systemd service when running as the same user
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, systemd, environment-variables | Score: 0 | Views: 176 | Answers: 2 | Created: 2026-01-25
+
+**解决方案 / Solution**:
+systemctl show-environment --user talks to the user systemd instance. It is normally started when user logs in and remains active for as long as user remains logged in. This environment is set for any service started by the user systemd instance (like systemctl --user start foo.service ). Here is user's instance: bor@ThinkPad-E16-Gen3:~/tmp$ LANG=C ps -fp 1681 UID PID PPID C STIME TTY TIME CMD bor 1681 1 0 Jan17 ? 00:00:15 /usr/lib/systemd/systemd --user bor@ThinkPad-E16-Gen3:~/tmp$ You are setting User or Group property for a system service. These services are spawned by the system systemd instance (normally PID 1) and inherit environment of the PID 1, not of the corresponding user's instance. Setting User does not make it user service - it simply runs all processes with this user's UID. System and user systemd instances are independent processes, each having its own environment.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804007/why-is-systemctl-show-environment-user-different-from-the-environment-availa
+
+---
+
+#### 7644. How can I read a single key press from a user if it's either the Escape key or a function key?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, posix, escape-characters, read | Score: 0 | Views: 159 | Answers: 2 | Created: 2026-01-19
+
+**解决方案 / Solution**:
+The -s and -n options of read are not standard. They are extensions from ksh93 also found in bash and mksh (and zsh for -s only). Also -n chars in those is still to read a line , but up to chars characters, so not what you want here to read the byte sequence sent by your terminal upon a key press (or key combination). The -k option (from zsh in 1994) or ksh93's -N equivalent (from 2003; added to mksh in 2011 and bash in 2010) would be better. In ksh93 and bash, read can't read NUL characters anyway. Few POSIX utilities can. To be able to detect a NUL character which terminal emulators generally send upon Ctrl + @ or Ctrl + Space , you'd need something like IFS= read -rd '' -n1 char where an empty $char while read returns success would mean NUL in bash or recent versions of ksh93. In most modern terminal emulators, pressing function keys (such as F1 , Home or arrow keys, not Esc or Backspace and YMMV for Del ) or mouse events (click or motion if enabled) with or without modifiers (ctrl, shift, alt...) send a sequence of characters the first of which is ESC . The second character can be either O or [ and the sequence ends in a character other than 0123456789; . The Esc key also sends the ESC character and Alt + Key oftens sends ESC + what would be sent for Key alone (generally not for function keys where it generally changes the character sequence instead). So reading a function key sequence would be reading as many characters as needed until a \e[[O].*?[^\d;] perl regexp matches for instance, but then there's the problem of the user pressing Alt + Shift + o which sends \eO or Alt + [ or pressing Esc and those, etc. So you'd need to add a short time out waiting for the [ and O and [^\d;] character to handle those cases. You also need the terminal driver to disable the internal line editor (which ksh/bash's read -n or zsh 's read -k does automatically when stdin is a terminal device), disable echo (as done by read -s ) which you can do with stty . A simple, though not foolproof approach here would be to use the terminal driver's read timeout capability to read bursts of characters assuming each of these bursts will correspond to a key press or combination thereof as done by the crude LE line editor in this answer of mine to a related question here. saved_tty_settings=$(stty -g) stty -icanon -echo -isig min 100 time 1 -istrip set -- $(dd bs=100 count=1 2> /dev/null | od -vAn -to1) stty "$saved_tty_settings" # restore In there does: -icanon : disables the tty driver line editor, so each character sent by the terminal is immediately available for reading by the application. -echo : disables the local echo by the tty driver -isig : disables some characters causing some signal delivery such as ^C causing a SIGINT -istrip : likely already the default these days avoids mangling bytes with the 8th bit set. min 100 time 1 : configures the tty driver so that a read() on the tty device returns after 100 bytes (but at least one is required) or if no byte was send for 1 centisecond. Then dd does 1 read() and od d umps the o ctal value of each 1 byte with n o A ddress. And we split that on $IFS character to store in $1 , $2 ... Then, you can recognise a Up key press without modifier for instance as 033 133 101 ( \e[A ) or 033 117 101 ( \eOA ) depending on whether the terminal is in keypad local (after tput rmkx or tput keypad_local ) or keypad transmit (after tput smkx or tput keypad_xmit ) mode. infocmp -L1 | grep key_ can show you what the terminfo database knows about what some key presses send. That's far from being exhaustive though. For something portable to most terminals, you'll likely want to restrict to the most common function keys and account for the different sequences that may be sent by those, so test on a few different terminal emulators.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803899/how-can-i-read-a-single-key-press-from-a-user-if-its-either-the-escape-key-or-a
+
+---
+
+#### 7645. How do I learn what the bash command's -n option does?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line, cygwin | Score: 0 | Views: 201 | Answers: 1 | Created: 2026-01-11
+
+**解决方案 / Solution**:
+You can find this by reading the Bash manual . Specifically, Invoking Bash , which says: All of the single-character options used with the set builtin (see The Set Builtin ) can be used as options when the shell is invoked. Following the link leads to the description of -n : Read commands but do not execute them. This may be used to check a script for syntax errors. This option is ignored by interactive shells. The same information is available in man bash on the systems I’ve checked; the start of the “Options” section says All of the single-character shell options documented in the description of the set builtin command, including -o , can be used as options when the shell is invoked. and the description of set , much further down, describes -n as Read commands but do not execute them. This may be used to check a shell script for syntax errors. This is ignored by interactive shells. Most GNU software ships its documentation in “Info” format rather than as a man page; see Why didn't GNU Info succeed man? for some discussion of that. On the web I find it most effective to consult the GNU manuals directly, because they rarely turn up in web search results (in my experience). Similarly, for POSIX commands I consult the POSIX specifications ; they also rarely turn up in web search results.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803689/how-do-i-learn-what-the-bash-commands-n-option-does
+
+---
+
+#### 7646. Find document containing specific strings among all completed jobs in CUPS 2.4.2
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, sudo, cups | Score: 0 | Views: 98 | Answers: 1 | Created: 2025-12-12
+
+**解决方案 / Solution**:
+That's because $USER (the user expanding /var/spool/cups/* ) lacks execute ( x ) access ("search" for directories) to /var/spool/cups . A workaround: sudo find /var/spool/cups -type f -name '*-001' -print | \ xargs sudo grep 'text to find'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/802006/find-document-containing-specific-strings-among-all-completed-jobs-in-cups-2-4-2
+
+---
+
+#### 7647. Launching Browser in Wayland/Cosmic w/ bash script as "non-steam" game in steam doesn't transfer ownership of controller or allow for the overlay
+
+**问题描述 / Problem Description**:
+Tags: bash, firefox, wayland, steam, media | Score: 0 | Views: 201 | Answers: 1 | Created: 2025-12-07
+
+**解决方案 / Solution**:
+Steam Overlay doesn't seem to support standard software. As seen in https://partner.steamgames.com/doc/features/overlay : Q. My game runs in a browser. Can the Overlay work in that? A. The Steam Overlay requires a game consistently render frames, not pausing rendering or rendering only part of the screen based on dirty rects. Unfortunately, web browsers do not support this model. A workaround for web based games is to host an embedded Chromium inside a native application, with a D3D window and input forwarding to the embedded Chromium. That can be setup to render in offscreen mode, which then renders the resulting chromium texture each frame in the native app. Partners often use CEF to do this, though this is not an easy task. It seems you'll need to wrap something around your browser in order to let Steam run a overlay over it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801910/launching-browser-in-wayland-cosmic-w-bash-script-as-non-steam-game-in-steam
+
+---
+
+#### 7648. How to move the cursor to an embedded newline on the bash command line?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line, keyboard-shortcuts, newlines, readline | Score: 0 | Views: 138 | Answers: 1 | Created: 2025-12-01
+
+**解决方案 / Solution**:
+You can use Alt+B / Alt+F for faster cursor movement backwards (still might need to press it many times). You can also use Ctrl+X Ctrl+E to open the lines in your favourite editor and fix it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801764/how-to-move-the-cursor-to-an-embedded-newline-on-the-bash-command-line
+
+---
+
+#### 7649. Process sed capture group with a bash function before replacement: "sh: 1: <bash function>: not found"
+
+**问题描述 / Problem Description**:
+Tags: bash, sed, command-substitution, subshell | Score: 0 | Views: 210 | Answers: 2 | Created: 2025-11-16
+
+**解决方案 / Solution**:
+sed runs shell commands in a sub-shell of the default system shell i.e. whatever /bin/sh links to (Usually a POSIX shell like dash ) that shell doesn't support exporting user defined functions (which is needed in this case) i.e. printf_stdin () {...;} is defined in the current running shell (parent) and is called from a subshell (child) where that function isn't available/defined hence sh: 1: <function>: not found ... That's why AFAIK.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801360/process-sed-capture-group-with-a-bash-function-before-replacement-sh-1-bash
+
+---
+
+#### 7650. `xargs sh -c` not picking up last argument (vs `for i in $(...)`)
+
+**问题描述 / Problem Description**:
+Tags: bash, pipe, xargs, for, math | Score: 0 | Views: 86 | Answers: 1 | Created: 2025-11-15
+
+**解决方案 / Solution**:
+To solve what appears to be your complement requirement you can use bc colourcode='#0C0C0C' sixhex="${colourcode#\#}" printf 'obase=16\nibase=16\n"FFFFFF - %s\n' "${sixhex^^}" | bc Output F3F3F3 The ^^ in "${sixhex^^}" converts the $sixhex variable to uppercase. It's not required in this example because the input is already uppercase, but if you're coding defensively you may need to force the conversion. If you don't have bash or another shell that understands the ^^ modifier on a variable to indicate uppercasing you can do that another way (for example by piping through tr '[:lower:]' '[:upper:]' or by ensuring the input is already valid uppercase hex. More concisely, you can use printf and shell arithmetic directly, and sidestep issues of case sensitivity: colourcode='#0C0C0C' printf '#%06X\n' "$(( 0xFFFFFF - 0x${colourcode#\#} ))" Output #F3F3F3
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801342/xargs-sh-c-not-picking-up-last-argument-vs-for-i-in
+
+---
+
+#### 7651. Source file in bash to set prompt with ANSI colors
+
+**问题描述 / Problem Description**:
+Tags: bash, prompt, ansi | Score: 0 | Views: 99 | Answers: 2 | Created: 2025-11-02
+
+**解决方案 / Solution**:
+You use single quotes in the PS1= assignments, preventing variable expansion from happening right there at assignment time. For PS1 that's fine as Bash will do a second expansion pass later, immediately before it prints the prompt. But that second pass will happen after the function ends (the PS1 isn't printed by or during the PROMPT_COMMAND; it is printed after), and because you've declared all those variables local to the function, they cease to exist when the function ends – so when they're finally needed they all expand to empty values (or wrong values in case of $? ). Anything you use from within PS1 with the delayed expansion needs to be a global variable. So you need to un- local practically everything in that function, and replace direct usage of $? with the stored $EXIT . # These are constant so they can be declared once, outside the function # If you want you can even 'readonly RED=...' to truly make them constant CLEAR='\[\e[0m\]' RED='\[\e[1;31m\]' __prompt_command() { # Without 'local' the assignment will be global by default # You can use 'declare -g' to explicitly say "this is *deliberately* global” EXIT="$?" In some cases I'd even use a function from within PS1, i.e. PS1='$(_print_cool_prompt)' and let that function directly 'echo' or 'printf' the prompt. (In such cases it would need to print \001..\002 around the color codes, not the usual \[..\] .) Also, you have too many backslashes in some of your color codes. The \[...\] are okay as they have special meaning around color codes. But that means there shouldn't be a \[ within the color code. It needs to be just \e[ , not \e\[ . Also, try \e[91m for bright red that isn't bold – 1;31 means "bold + red", and in many terminals bold also makes the color bright, but most terminals support color codes 90+ to get bright colors without necessarily making the text bold. (Also, the usual style convention is that local variables are lower-case. I'd say even global variables, when they aren't exported into the environment, seem to be better as lower-case.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800964/source-file-in-bash-to-set-prompt-with-ansi-colors
+
+---
+
+#### 7652. LF file manager : how to go back to $OLDPWD?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, variable, cd-command, file-manager | Score: 0 | Views: 157 | Answers: 1 | Created: 2025-11-01
+
+**解决方案 / Solution**:
+Existing examples The lf repository has several example scripts which change the working directory to the last working directory in lf on exit, one of them made for the POSIX shell: etc/lfcd.sh . Essentially, it defines a function lfcd , which is using the -print-last-dir command line parameter to write the last working directory on stdout: lfcd () { # `command` is needed in case `lfcd` is aliased to `lf` cd "$(command lf -print-last-dir "$@")" } There currently (2025-11-30) seems to be no option within lf to override that behavior. For example, a hypothetical option dontprintlastdir which, when set to true , would suppress the output of wd to stdout, would be the solution to the issue from this question using this approach, rather than "signaling" back to the calling shell. A non-elegant solution Interestingly enough, contrary to what is stated in the lf documentation, it seems that currently (2025-11-30) all environment variables are exported for shell commands, not only those listed. Proof of this: with the script testvar.sh : #!/bin/sh printf "MYTESTVAR=\"%s\"\n" "$MYTESTVAR" and map P $./testvar.sh; sh -c 'read test' in $HOME/.config/lf/lfrc , running MYTESTVAR='Hello, world!' lf and pressing P will print out MYTESTVAR="Hello, world!" and wait for the user to press Enter. So, to achieve the desired behavior of q and Q , one would add this function to a startup script such as $HOME/.profile : lfcd() { wdfile=$(mktemp) WDFILE=$wdfile command lf "$@" wd=$(cat $wdfile) if [ -n "$wd" ]; then cd "$wd" fi rm "$wdfile" } and in $HOME/.config/lf/lfrc : map Q $echo $PWD >$WDFILE; $lf -remote "send $id quit" (since q is already returning to the original working directory by default). Note that pressing Q will error out if WDFILE is not set.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800956/lf-file-manager-how-to-go-back-to-oldpwd
+
+---
+
+#### 7653. How to set a bind -V variable from the bash command line, not ~/.inputrc?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-line, readline | Score: 0 | Views: 71 | Answers: 1 | Created: 2025-10-15
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800493/how-to-set-a-bind-v-variable-from-the-bash-command-line-not-inputrc
+
+---
+
+#### 7654. command line access to bash directory stack
+
+**问题描述 / Problem Description**:
+Tags: bash, tcsh | Score: 0 | Views: 87 | Answers: 1 | Created: 2025-09-11
+
+**解决方案 / Solution**:
+You can access the directory stack through the $DIRSTACK array. The documentation ( man bash ) explains DIRSTACK An array variable (see Arrays below) containing the current contents of the directory stack. Directories appear in the stack in the order they are displayed by the dirs builtin. Assigning to members of this array variable may be used to modify directories already in the stack, but the pushd and popd builtins must be used to add and remove directories. [...] It's also worth reading the sections on dirs , popd and pushd to see other ways of manipulating the directory stack
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799640/command-line-access-to-bash-directory-stack
+
+---
+
+#### 7655. How to prevent side effects when using an alias (e.g. cat aliased to batcat)?
+
+**问题描述 / Problem Description**:
+Tags: bash, alias, cat | Score: 0 | Views: 252 | Answers: 2 | Created: 2025-09-10
+
+**解决方案 / Solution**:
+Aliases set in an interactive shell are not inherited by shell scripts started from that shell (as they are not part of the environment that gets inherited by child processes). Aliases set in a bash shell script are not expanded by default inside the script. Only when the expand_aliases shell option is set are aliases defined in a script expanded in that script. Aliases are, by default, only expanded in interactive shell sessions in bash , as they are mainly used to provide a "shorthand", to save you from having to type longer interactive commands. You will not be messing up any existing scripts by aliasing cat to some other command, unless those other scripts are sourced by the current interactive shell. You don't usually source scripts, though, except possibly via your shell initialisation files when the shell starts up. You may therefore want to define your aliases late or last in ~/.bashrc . An alias may still interfere with things running to update your PS1 (your primary prompt variable) or other variables in the current interactive session, but the degree to which this is an issue depends on what the command is being used for and what the updated command (alias) does instead . In any case, you will probably spot issues immediately upon starting a new shell, at least if they are affecting strings that are displayed in the shell session, like the prompt. A default bash interactive shell would have no issues whatsoever with cat aliased to another command.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799605/how-to-prevent-side-effects-when-using-an-alias-e-g-cat-aliased-to-batcat
+
+---
+
+#### 7656. How to start vipw/vigr without my vimrc?
+
+**问题描述 / Problem Description**:
+Tags: bash, vim, environment-variables | Score: 0 | Views: 110 | Answers: 2 | Created: 2025-09-08
+
+**解决方案 / Solution**:
+Use a wrapper script: echo $'#! /bin/sh\n/usr/bin/vim -u NONE' >~/vim_without_vimrc.sh chmod 755 ~/vim_without_vimrc.sh EDITOR=~/vim_without_vimrc.sh vigr
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799559/how-to-start-vipw-vigr-without-my-vimrc
+
+---
+
+#### 7657. bash function returns 0 when it seemingly should return 1 or 2
+
+**问题描述 / Problem Description**:
+Tags: bash, error-handling | Score: 0 | Views: 123 | Answers: 1 | Created: 2025-09-01
+
+**解决方案 / Solution**:
+Ignoring the other issues in your code and answering the question about the exit status of: IFS='|' read foo bar msg <<<$(Get_ValidDB CDSLBXW) When interpreting that code, bash 4.4 first creates a pipe and forks itself. In the child process it makes stdout the writing end of that pipe and evaluates the Get_ValidDB function with CDSLBXW as argument and exits with the exit status of the function. Meanwhile, in the parent process, it reads from the other end of the pipe, removes all NUL characters and stores that in memory. When it reaches end-of-file on that pipe, it strips all trailing characters and waits for the child process to return. At that point, it sets $? based on the exit status of that child process which should match the exit status of the function, but it's not done yet. Then, for <<< , it creates a temporary file, opened both for writing and also for reading on stdin (after having saved a copy the previous stdin as here we're redirecting a builtin command), deletes it (whilst still open), stores the result of the command substitution (the output of the function, minus the NUL characters and the trailing newline characters) followed by a newline character. If at any point in that process, there's an error, like it can't create a pipe or /tmp is full, or it can't open that temp file because it ran out of file descriptors, it will abort and set $? to 1 . If not, then it runs the read builtin which will read one line (possibly more if they end in a \ as you didn't use -r ) from that temp file. Then split it on unescaped | s to assign the foo , bar , msg variables. When read returns, $? will be set to the exit status of read (overriding that the previous value from the child process that was running Get_ValidDB ) If it doesn't run into errors, read itself will return success (status 0) if it has read a full line including the line delimiter and failure (status 1) otherwise, so here it will return success unless all the lines in the output of Get_ValidDB end in backslash characters. In any case, it will not be the exit status of Get_ValidDB . If you wanted to preserve that whilst still using read on its output, easiest would be to use a temporary variable: output=$(Get_ValidDB CDSLBXW) ret=$? IFS='|' read foo bar msg <<<"$output"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799377/bash-function-returns-0-when-it-seemingly-should-return-1-or-2
+
+---
+
+#### 7658. Is it possible to protect a bash script against a hostile environment?
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, environment-variables | Score: 0 | Views: 1836 | Answers: 7 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+The general problem you are trying to avoid is almost unavoidable at present. Only statically compiled binaries don’t exhibit the problems you describe, because an attacker can simply set LD_LIBRARY_PATH to subvert any other program (bash scripts included). It’s important to understand that in a *nix world a lot of internal security is still based on a perimeter defence model, zero trust has not really been adopted except for networking. So there are (far too) many cases where we say “if an attacker can do that then the system is totally compromised and we can’t stop them” . Therefore, the knee jerk response to this question is “what threat are you modelling?” If an attacker has the ability to set environment variables for another user, then they almost certainly have the ability to run any (modified) program as that same user. Or if we put that another way, executing a program doesn’t cross any security perimeter (unless you are running SELinux ). If one user needs to execute another’s script you must never set the execute-as-owner bit on a script. Instead use sudo because it can be configured to limit the environment variables passed through. Ultimately the question is not so much how to directly protect the script, but what security perimeter you can put around its execution to ensure the environment variables are protected. Linux would need a very different security model to enforce anything else, but do look into SELinux if you are working in a sensitive environment.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798872/is-it-possible-to-protect-a-bash-script-against-a-hostile-environment
+
+---
+
+#### 7659. Detecting outbound mail
+
+**问题描述 / Problem Description**:
+Tags: bash, tcpdump, lsof | Score: 0 | Views: 72 | Answers: 1 | Created: 2025-08-13
+
+**解决方案 / Solution**:
+A bit long for a comment ... Assuming this is a timing issue (ie, source ends before script can run the lsof call), we can speed things up a bit by eliminating the unnecessary spawning of subshells, as well as eliminating the overhead of repeatedly opening/writing-to/closing $LOGFILE . To simulate OP's tcpdump call: $ cat tcpdump.out 08:37:08.569447 IP6 (flowlabel 0x8ac27, hlim 64, next-header TCP (6) payload length: 40) 2600:3c00::f03c:92ff:fec3:42d5.59497 > 2607:f8b0:4023:1000::1b.25: Flags [S], cksum 0x95fa (incorrect -> 0xa190), seq 3074360875, win 28800, options [mss 1440,sackOK,TS val 1439016068 ecr 0,nop,wscale 7], length 0 One idea for streamlining the current code: while read -ra arr # split line into array arr[] do port="${arr[12]#*.}" # bash array indices start at 0 so arr[12] is the 13th # space delimited field; strip off ip address and period echo -e "\nInput line: ${arr[*]}\nSource port: ${port}\n" # echo input line to stdout; replace 3x echo's with 1x echo lsof -i ":${port}" done < <(cat tcpdump.out) >> "${logfile}" # keep ${logfile} open for duration of while/read loop NOTES: OP will replace cat tcpdump with their actual tcpdump -l -i any -nn ip6 and tcp dst port 25 -vv 2>/dev/null call recommend getting used to using lowercase variable names to reduce chance of clashing with uppercase (system) environment variables since $LSOF_OUT is used solely to print to $LOGFILE there's really no need to (spawn a subshell to) first capture the lsof output to a variable and then print the variable to stdout; instead, just let lsof output go directly to stdout (and into ${logfile} ) Results of feeding this loop with cat tcpdump.out : $ cat logfile Input line: 08:37:08.569447 IP6 (flowlabel 0x8ac27, hlim 64, next-header TCP (6) payload length: 40) 2600:3c00::f03c:92ff:fec3:42d5.59497 > 2607:f8b0:4023:1000::1b.25: Flags [S], cksum 0x95fa (incorrect -> 0xa190), seq 3074360875, win 28800, options [mss 1440,sackOK,TS val 1439016068 ecr 0,nop,wscale 7], length 0 Source port: 59497 <<< no output from lsof call on my system for port 59497 NOTES: this coding approach should significantly improve the speed of the while/read loop though ... this does not address OP's issue if it turns out that a) timing is not an issue or b) timing is an issue but this script is still 'too slow'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798811/detecting-outbound-mail
+
+---
+
+#### 7660. Storing the iterations of the Receiver (or node) number and RSSI value into a file
+
+**问题描述 / Problem Description**:
+Tags: shell, text-formatting, excel | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-07-25
+
+**解决方案 / Solution**:
+I take it you want outputs roughly like this, so all the results for a given Node are gathered in one list: Node RSSI 170 [-43,-43] 171 [-43,-44] (This is a TSV rather than a CSV: I’m separating the columns with tabs instead of commas. That way I can use the comma-separated list for the second column as desired.) One GNU AWK solution that uses a two-dimensional array: bash test.sh -l 170,171 -k 2 | awk 'BEGIN{OFS="\t"}!/(Node|---|===)/ && $1 { # append the RSSI to the array indexed by the node rssis[$1][n[$1]++]=$2 } END{ print "Node","RSSI" # print a header for(x in rssis){ # for each node printf("%s" OFS "[%s", x, rssis[x][0]); # print "node\t[first_rssi" for(j=1;j<n[x];j++){ # for each subsequent rssi printf(",%s",rssis[x][j])}; # print ",this_rssi" print "]"} # print "]\n" }' Here I’m just ignoring the === Iteration... lines, and adding an entry every time the same value for Node appears. So if you had 170 appear twice in one iteration, both would show up in the list.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798245/storing-the-iterations-of-the-receiver-or-node-number-and-rssi-value-into-a-fi
+
+---
+
+#### 7661. grep behaviour is different when run using bash -c '...'
+
+**问题描述 / Problem Description**:
+Tags: shell, grep | Score: 0 | Views: 878 | Answers: 1 | Created: 2025-07-21
+
+**解决方案 / Solution**:
+This is just a quoting issue. When you run this: bash -c 'tr -d '\0' <your_file | grep -am 1 ^ ; echo $?' It becomes: bash -c 'tr -d ' \0 (which is just 0 ) ' <your_file | grep -am 1 ^ ; echo $?' You are using single quotes within the single quotes, so your '\0' actually becomes \0 which is just 0 . You can see it happen with set -x : $ bash -c 'tr -d '\0' <your_file | grep -am 1 ^ ; echo $?' + bash -c 'tr -d 0 <your_file | grep -am 1 ^ ; echo $?' 0 The presence of NUL ( \0 ) in a file will mark it as binary data. So the fact that grep complained about that is also a hint. As you can see above, you are not actually removing \0 , you are removing 0 . Next, the exit status of grep , which is what you have in your $? variable, is 0 if at least one line matches and 1 if no line matches. In your first command, tr -d '\0' <your_file | grep -am 1 ^ ; echo $? , you are deleting all \0 from a file that consists of nothing but \0 so you end up with an empty file. Therefore, nothing is matched and you get an exit status of 1 . With your second command, bash -c 'tr -d '\0' <your_file | grep -am 1 ^ ; echo $?' , because of the quoting issue, you are removing 0 . The file has no 0 , so nothing is removed and there is one "line" to be found and so the output is 0 . The second shell is completely irrelevant, you can get the same behavior without it: $ tr -d '\0' <your_file | grep -am 1 ^ ; echo $? 1 $ tr -d 0 <your_file | grep -am 1 ^ ; echo $? 0 To get the expected output in the second shell, use: $ bash -c 'tr -d "\0" <your_file | grep -am 1 ^ ; echo $?' 1
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798130/grep-behaviour-is-different-when-run-using-bash-c
+
+---
+
+#### 7662. Why does bash returns `[[: command not found`in this case when it's actually a bash feature?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 121 | Answers: 1 | Created: 2025-07-11
+
+**解决方案 / Solution**:
+If you want something evaluated as if it was being passed in you want the eval command. You just got lucky that splitting the $cond in the [ 100 -gt 8] case on whitespace gives you something that looks like a simple command. If you set cond to [ 100 -gt 8 ] && echo OK then running $cond you will get the cryptic error [: missing ] . The point here is [[ is part of the shell grammar whilst [ is conceptually just a command. You can't put an if or for statement into $cond either and just use it. The commands for the shell are parsed, and you need eval "$cond" to do the parse.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797831/why-does-bash-returns-command-not-foundin-this-case-when-its-actually-a-b
+
+---
+
+#### 7663. Alias for rm does not include file name with @$
+
+**问题描述 / Problem Description**:
+Tags: bash, filenames, alias, rm | Score: 0 | Views: 105 | Answers: 1 | Created: 2025-07-10
+
+**解决方案 / Solution**:
+Aliases are not functions, they don't take arguments. They're just a simple replacement. You'll have to rewrite your alias as a bash function, e.g.: rm() { printf "rm: cannot remove %s: Permission denied\n" "$@" && w >> /tmp/logfile_20090204_001.log' } PS: what does w do? is it a program, alias, or another function? Also, wrapping rm with an alias or a function is easily over-ridden. All the user has to do is run \rm or command rm instead of rm and they're running the original rm binary rather than your alias/function. If you really need to prevent users from deleting files, you'll have to do it with permissions (e.g. no write permission on the directory ) or with ACLs.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797815/alias-for-rm-does-not-include-file-name-with
+
+---
+
+#### 7664. Saving output of `bash --verbose` to a file
+
+**问题描述 / Problem Description**:
+Tags: bash, configuration, io-redirection | Score: 0 | Views: 332 | Answers: 2 | Created: 2025-07-09
+
+**解决方案 / Solution**:
+Please disregard the first iteration of this answer, which was wrong (which would have been obvious if testing it). The easiest way to store the output of bash --verbose to a file, is to use script : $ script -c 'bash --verbose' This would enter an interactive bash shell session in which you can do whatever you want or need to do. When done, exit the session and read the output now stored in the file transcript . To use another output filename, like your txt.tmp , $ script -c 'bash --verbose' txt.tmp
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797779/saving-output-of-bash-verbose-to-a-file
+
+---
+
+#### 7665. Always terminate command on SIGHUP (nohup oposite)
+
+**问题描述 / Problem Description**:
+Tags: shell, docker, console | Score: 0 | Views: 146 | Answers: 1 | Created: 2025-06-18
+
+**解决方案 / Solution**:
+Why does this happen? The issue occurs because without --init the main process (Oracle) becomes PID 1 inside the container’s namespace. On Linux, PID 1 has special signal handling — it ignores SIGHUP by default. When you close the terminal, SIGHUP is sent, but the process (as PID 1) doesn’t terminate. Solution Use --init to inject a lightweight init process ( tini ) as PID 1, which properly forwards signals to the main process: docker run --init --rm -it -p 1521:1521 -e ORACLE_PASSWORD=atk4_pass gvenzl/oracle-xe:18-slim-faststart
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797158/always-terminate-command-on-sighup-nohup-oposite
+
+---
+
+#### 7666. Meaning of `. ./script.sh`
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 116 | Answers: 1 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+It is a shortcut for source ./script.sh . This command tells the shell to execute the contents of script.sh within the current shell session, rather than launching a new subprocess. Sometimes, scripts define environment variables that need to persist in the current terminal session. To ensure these variables remain available, the script must be executed in the same shell environment. See also: Source man page period Built-in
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796789/meaning-of-script-sh
+
+---
+
+#### 7667. how do I prevent script continuation when the process run queue is full?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, process, ps | Score: 0 | Views: 152 | Answers: 2 | Created: 2025-06-07
+
+**解决方案 / Solution**:
+The question isn't using common linux terminology. On Ubuntu or any modern Linux you can theoretically add process until the /proc/sys/kernel/pid_max runs out, typically at 2^22 or 4 billion processes. Of course you would likely run out of DRAM+Swap first. Each process is in one of several well defined states: R: Running or runnable. S: Interruptible sleep, waiting for an event to complete. D: Uninterruptible sleep. Z: Zombie,terminated process waiting to have its status collected T: Stopped, a process that has been suspended/stopped and some special states. The kernel keeps ordered linked lists of processes for each state. In practice the "run queue" is never full, and rarely empty. and the following command runs immediately afterward (as if I had just launched the previous one in the background with &). This is almost certainly b/c the process launched by bash has exited, but we expect daemon processes may create subprocesses that last long beyond the parent process that spawns them. An example of the way this is done is with the 'daemon(3)' call that forks a subprocess then the parent process exits. IOW waiting for your bash-spawned process to exit does not mean that all of it's child processes have exited. I need my script to wait for each launch to complete before continuing. AFAIK there is no general way to cause a process (like bash) to wait till all of the subsequent off-spring sub-processes have exited. It is typical from daemons to change process groups and controlling terminals - so they are hard to track. The only viable approach would be to understand each of these processes that you fork/exec from bash and then determine some way to detect that they and their children, grandchildren, ... are all gone. Is there a way to force my script to wait for each command to finish before proceeding? That is the default for a foreground process started from bash, and it is working correctly. Checking /proc or using bash's "wait" won't help. It DOES wait for the launched (fork/exec) process to exit, it does not wait for all the offspring of that process to exit. I believe you have some fundamental misunderstanding about how things should work. It is typical for a daemon process to either continue perpetually or to spawn a child-process that does. We shouldn't expect that they won't leave long-lived offspring around, nor that the parent won't exit quickly. You've given no information on what you are trying to accomplish, but it appears to be based on some misunderstandings.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796738/how-do-i-prevent-script-continuation-when-the-process-run-queue-is-full
+
+---
+
+#### 7668. The < redirection character causes the command to not execute properly in bash
+
+**问题描述 / Problem Description**:
+Tags: linux, bash | Score: 0 | Views: 123 | Answers: 1 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+The problem is that you've defined a function called patch and then later you're trying to call a program also called patch . The function definition overrides the program name and so your function ends up calling itself, recursively. Note how the script repeats printing the @@@ Patching... from the start of the function. There are essentially three options here: Rename the function to something other than patch Prefix the utility program with command ( command patch -p1 … ) Use a full path to the utility program ( /usr/bin/patch -p1 … ) I'd recommend the first option
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796569/the-redirection-character-causes-the-command-to-not-execute-properly-in-bash
+
+---
+
+#### 7669. How to redirected output from disowned process to a file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, openssh, background-process, disown | Score: 0 | Views: 135 | Answers: 1 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+I looked which binaries I had available on the system and I found nohup , what seemed to do the things I need it to. I have used nohup in the past but totally forgot about it, and it seemed like bg + disown did the same thing in the heat of the moment. This is the corrected the command: nohup long_running_command &> file.log & Short Explanation: nohup catches the hang-up signals, it ensures the command won't get killed. It ignores the SIGHUP signal. &> file.log redirects the stdout and the stderr into the file named file.log & puts the command into the background.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796560/how-to-redirected-output-from-disowned-process-to-a-file
+
+---
+
+#### 7670. Making the micro editor behave like a desktop terminal in a Linux TTY
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, terminal, tty, konsole | Score: 0 | Views: 328 | Answers: 2 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+The Linux kernel console does not support this directly. Its arrow key handling in drivers/tty/vt/keyboard.c -> k_cur() -> applkey() does not implement outputting the xterm-style modifier sequences. You could maybe make a custom keymap using loadkeys , where Shift+arrows were defined to send a custom string, e.g. \e[1;2D for Shift+Left. See /usr/share/kbd/keymaps/ .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796451/making-the-micro-editor-behave-like-a-desktop-terminal-in-a-linux-tty
+
+---
+
+#### 7671. In a bash alias, how do I run "apt autoremove" automatically after "apt upgrade" only if needed?
+
+**问题描述 / Problem Description**:
+Tags: bash, apt, alias | Score: 0 | Views: 307 | Answers: 2 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+This doesn’t explain how to process apt ’s output, but alias upg='sudo apt upgrade --autoremove' would achieve what you’re after, removing packages which are no longer necessary. Note that apt recommends against processing its output; if you want to go down that path you should use apt-get .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796254/in-a-bash-alias-how-do-i-run-apt-autoremove-automatically-after-apt-upgrade
+
+---
+
+#### 7672. How to temporarily substitute the login shell for running a shell command/subprocess?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, command-line, environment-variables, subshell | Score: 0 | Views: 134 | Answers: 2 | Created: 2025-05-24
+
+**解决方案 / Solution**:
+If the faulty maintainer script looks at the SHELL environment variable to find the login shell, override that: SHELL=/bin/bash apt install … Alternatively, if your root user still has a non- fish shell as its login shell, login using that for commands that need to run as root: sudo -i apt install … This runs the target user’s shell ( root ’s shell here) as a login shell to run the command.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796235/how-to-temporarily-substitute-the-login-shell-for-running-a-shell-command-subpro
+
+---
+
+#### 7673. How to resolve a relative symlink to an absolute one without canonicalizing it?
+
+**问题描述 / Problem Description**:
+Tags: shell, symlink | Score: 0 | Views: 168 | Answers: 1 | Created: 2025-05-15
+
+**解决方案 / Solution**:
+The realpath command can do this, if you give it the -s / --no-symlinks flag: realpath --no-symlinks /var/lib/flatpak/exports/bin/com.github.tchx84.Flatseal This prints: /var/lib/flatpak/exports/bin/com.github.tchx84.Flatseal This is using the command from GNU coreutils 9.6.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794950/how-to-resolve-a-relative-symlink-to-an-absolute-one-without-canonicalizing-it
+
+---
+
+#### 7674. Bash, the -nt fails when comparing two rsynced files between APFS and HFS+
+
+**问题描述 / Problem Description**:
+Tags: bash, hfs+, apfs | Score: 0 | Views: 93 | Answers: 1 | Created: 2025-05-13
+
+**解决方案 / Solution**:
+I got the answer with some help from ChatGPT, leaving this issue + answer here, in the hope of saving the hours I wasted... HFS+ has a resolution of seconds, while APFS stores up to nanoseconds. So, the backup's time is approximated to seconds, [[ -nt ]] has a ns precision too (in recent shells), so the test above is positive. The workaround is using stat : $ src_t=$(stat -f %m "$src") $ bkp_t=$(stat -f %m "$bkp") $ [[ $src_t -gt $bkp_t ]] && echo "$src was updated" # doesn't print it
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794832/bash-the-nt-fails-when-comparing-two-rsynced-files-between-apfs-and-hfs
+
+---
+
+#### 7675. SLURM error and output files with custom variable name
+
+**问题描述 / Problem Description**:
+Tags: bash, scripting, slurm, batch-jobs | Score: 0 | Views: 845 | Answers: 1 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+Okay, I see: in your example, you’re having the program “submit itself,” so to speak: you run it as a regular command, but it invokes sbatch on itself, but that time it can tell it's inside a slurm job, so it doesn’t call sbatch again. Honestly, I think that's really clever! But don’t do it. You can avoid it by just passing --output and --error on the outer sbatch invocation. sbatch --output="$log_dir"/some_software_"$var".out \ --error="$log_dir"/some_software_"$var".err \ path/to/your/script.sh \ "$var" Advantages over the clever way: It doesn’t rely on SLURM_JOB_ID being unset. (Imagine if I ran export SLURM_JOB_ID=something before your script. Then it wouldn’t submit anything!) You can call this sbatch program inside another sbatch program . It’s less likely to confuse somebody else who might read your code. You won't accidentally write the slurm equivalent of a fork bomb.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794799/slurm-error-and-output-files-with-custom-variable-name
+
+---
+
+#### 7676. bash conditional variable assignment cli not what I expected
+
+**问题描述 / Problem Description**:
+Tags: bash, variable, assignment | Score: 0 | Views: 92 | Answers: 1 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+The value of DR ( -n ) is being interpreted as an option for echo . Specifically: -n do not output the trailing newline You should use printf instead: printf '%s\n' "$DR" Alternatively, you can add something so the -n isn't the first thing echo sees: echo "DR: $DR"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794786/bash-conditional-variable-assignment-cli-not-what-i-expected
+
+---
+
+#### 7677. Making each word in a text file an item in a bash array
+
+**问题描述 / Problem Description**:
+Tags: bash, string, array | Score: 0 | Views: 162 | Answers: 3 | Created: 2025-04-29
+
+**解决方案 / Solution**:
+If your grep supports the non-standard -o option, with bash 4.0 or newer, you can do: readarray -t array < <(grep -Eo '[^[:space:]]+' < file) Which would work for words delimited with any character classified as whitespace¹ in the locale. ¹ while read 's $IFS -based splitting depending on the locale and bash version would only work reliably for only ASCII space, tab, or newline, or only ASCII whitespace (adding CR, VT, FF) or only single-byte whitespace... (and you'd need to list all the whitespace characters you want to split on); and tr on GNU systems at least only works for single byte characters.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794307/making-each-word-in-a-text-file-an-item-in-a-bash-array
+
+---
+
+#### 7678. How to make bash not set the underscore _ environment variable?
+
+**问题描述 / Problem Description**:
+Tags: bash, environment-variables | Score: 0 | Views: 144 | Answers: 1 | Created: 2025-04-27
+
+**解决方案 / Solution**:
+There is no way (known to me) to disable or pause this behavior. As a work-around, you can use this: env -u _ myprogram --arg1 --arg2 ... In place of your usual myprogram --arg1 --arg2 Underscores can still be used in other environment variables, program arguments etc. This will launch env that is instructed to remove this extra variable, and env in turn will start your other program. P.S. It's recommendable to use specifically env -u _ as above, not env --unset=_ for portability, as Stéphane Chazelas points out. This approach works not only on GNU and Solaris 11 implementations of env , but also on most recent BSDs, busybox and toybox.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794243/how-to-make-bash-not-set-the-underscore-environment-variable
+
+---
+
+#### 7679. Understanding `bash` options -Ee
+
+**问题描述 / Problem Description**:
+Tags: bash, exit-status, trap, settings, shopt | Score: 0 | Views: 164 | Answers: 1 | Created: 2025-04-27
+
+**解决方案 / Solution**:
+As others mentioned in the comments errexit is full of pitfalls. https://mywiki.wooledge.org/BashPitfalls#errexit is a good reference and has nice examples. For your shunit2 context: apparently the test function is executed in an eval as part of a if condition. https://github.com/kward/shunit2/blob/6d31ca9b0858cda66843057d08ea499b58c903d6/shunit2#L1258 This will effectively disable errexit in all of your test code even though $- claims it is active. Btw: in Bash it is quite easy to produce a quick stacktrace to see from were your test function is called. for (( i = 0; 1; i++ )); do caller $i || break; done Adding this to your test you should be able to verify yourself in what context the test is executed.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794234/understanding-bash-options-ee
+
+---
+
+#### 7680. bash - list of breaking change
+
+**问题描述 / Problem Description**:
+Tags: bash, compatibility | Score: 0 | Views: 164 | Answers: 1 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+Breaking changes are listed (tersely) in the COMPAT file in the source distribution. I imagine most distributions provide this in their packages too — for example, /usr/share/doc/bash/COMPAT.gz in Debian and derivatives.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794168/bash-list-of-breaking-change
+
+---
+
+#### 7681. How to create splittet random files and join them with dmsetup
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, scripting | Score: 0 | Views: 125 | Answers: 1 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+Your "fallocate loop" could be this, calling out to split : for i in "${numbers[@]}"; do outfile="$TEMPDIRfiles/file$((++j))" if fallocate -l "$i" "$outfile"; then split_size=1000M if (( $(stat -c '%s' "$outfile") < 10**9 )); then split_size=100M fi split --bytes="$split_size" --numeric-suffixes=1 "$outfile" "${outfile}." fi done
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793889/how-to-create-splittet-random-files-and-join-them-with-dmsetup
+
+---
+
+#### 7682. How to compare output of a program with a reference value in a shell script?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, nc, redis | Score: 0 | Views: 389 | Answers: 1 | Created: 2025-04-17
+
+**解决方案 / Solution**:
+Your comparison test is not working as expected because of two things: The actual response from the server (as I understand from your original post and comments) is the string +PONG followed by a carriage return (aka CR, ^M, \r) followed by a newline (aka linefeed, LF, NL, ^J, \n). However, your test tried to compare it to the literal characters \r\n . In other words, you tried to compare characters with their backslash-escaped equivalents. The trailing newline character as captured in your response variable is stripped due to command substitution behavior. To fix your test, you can: Ensure the comparison is between the right characters. In other words, adopt @markp-fuso's syntax of $'+PONG\r\n' for your reference value. Ensure your newline is not stripped. One such solution is to append a throwaway value at the end of your desired value and then remove it after command substitution finishes. Some extra trickery is required in order to also preserve exit status. It is described in detail here . Taken together, here is an example solution (without the exit code trickery): response=$(printf '*1\r\n$4\r\nPING\r\n' | nc localhost "$PORT"; echo .) response=${response%.} if [ "$response" = $'+PONG\r\n' ]; then printf ' PASSED' else printf ' FAILED\nGot:\n%s\n\n' "$response" fi Note that the $'...' syntax, initially from ksh93, whilst now standard for sh since the 2024 edition of the POSIX specification is still not supported by a few sh implementations, notably dash , the sh of Debian and derivatives, so you may want to change your shebang to #! /usr/bin/env zsh or #! /usr/bin/env bash for instance ( ksh would not work on systems where ksh is still ksh88 or pdksh) if you want your script to be portable to other systems. Also note that you don't need to escape the $ with \ if you use strong quotes ( '...' ) in place of "..." inside which parameter expansion is still performed. You could also use $'...' (inside which there is no parameter expansions either) in which case the \r , \n would be converted to the CR and LF control characters by that $'...' operator before being passed to printf instead of printf converting them itself. Using printf '%s\r\n' '*1' '$4' PING would also make it clearer that you want to output three CRLF delimited lines.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793874/how-to-compare-output-of-a-program-with-a-reference-value-in-a-shell-script
+
+---
+
+#### 7683. How to redirect output from a program that waits for input
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, zsh, pam | Score: 0 | Views: 179 | Answers: 2 | Created: 2025-04-11
+
+**解决方案 / Solution**:
+The PAM stack invoked by pamtester sends the Password: prompt (and possibly other prompts like for MFA if configured, PAM errors and other user messages) to stderr, while pamtester itself upon success sends pamtester: successfully authenticated to stdout (and returns a success exit status) and upon failure pamtester: Authentication failure to stderr and a failure exit status. If you want to get all that output (prompt, messages, success/failure) into a scalar variable, use command substitution (preferably the modern $(...) form, not the ancient `...` one), but with the stderr of pamtester redirected to the same thing as on its stdout so it's also captured with 2>&1 : #! /bin/zsh - output=$(print -r -- $pwd | pamtester login "$user" authenticate 2>&1) But if the point is to check whether authentication succeeded or not, best is to check the exit status instead (discarding the output if you don't need it): #! /bin/zsh - if print -r -- $pwd | pamtester login "$user" authenticate >& /dev/null then something if success else something if failure fi (where >& /dev/null redirects both stdout and stderr to /dev/null , same as Bourne-style > /dev/null 2>&1 ). Above to feed the contents of $pwd followed by a newline character to pamtester , we use a simple pipe and the Korn-style¹ print -r -- $pwd . Alternatively, you can use the standard printf '%s\n' "$pwd" ³, or zsh-specific echo -E - $pwd , using echo $pwd alone would be wrong as it would not work properly if $pwd contained backslashes or for some values of $pwd that start with - . You can also use a Bourne-style here-document: output=$( pamtester login "$user" authenticate 2>&1 << eof $pwd eof ) Or zsh's here-string shortcut (these days also supported by bash 4 ): output=$(pamtester login "$user" authenticate 2>&1 <<< $pwd) Those don't use a pipe in zsh 5 but store the contents of the here-doc or here-string in a temporary file which is deleted just after it has been open on stdin for the command. In any case, combining here-doc and command substitution like you do in your approach makes little sense. ¹ Though in the Korn shell and in bash ² you'd need to quote $pwd to prevent split+glob. ² bash does have a print builtin but you have to load it before using and not all systems ship those loadable builtins. ³ though beware that printf , while builtin in zsh and bash is not in every shell, in particular not in ksh88 and pdksh and some of its derivatives, so would not be suitable to call with secrets as argument. 4 though beware that in older versions of bash , the $pwd needs to be quoted. 5 Recent versions of bash use pipes instead of deleted temp files if the contents is small enough to fit in a pipe buffer.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793609/how-to-redirect-output-from-a-program-that-waits-for-input
+
+---
+
+#### 7684. How to avoid a race condition where a script runs a program that should only be run once per script
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: 0 | Views: 412 | Answers: 3 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+Assuming this is a typical Linux: This is done by creating two systemd service units. The scripts start them with systemctl start unit-a.service systemctl start unit-b.service No matter how often the scripts do this call, the unit is started once only.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793579/how-to-avoid-a-race-condition-where-a-script-runs-a-program-that-should-only-be
+
+---
+
+#### 7685. No space after option with bash completion
+
+**问题描述 / Problem Description**:
+Tags: bash, autocomplete | Score: 0 | Views: 108 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+So, the problem is: local used=() local word for word in "${COMP_WORDS[@]:1}"; do ... done The solution is: local used=() for ((i = 1; i < COMP_CWORD; i++)); do local word="${COMP_WORDS[$i]}" ... done I'm not sure to understand why.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793576/no-space-after-option-with-bash-completion
+
+---
+
+#### 7686. How to expand a Bash alias given as an argument?
+
+**问题描述 / Problem Description**:
+Tags: bash, alias | Score: 0 | Views: 249 | Answers: 2 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+The way I would approach this would be to create one (or more) mini shell scripts in a directory that's part of my $PATH . I use $HOME/bin (traditional, from early BSD/UNIX days) but if you're starting out then the XDG standard suggests $HOME/.local/bin as a place to store executables In .bash_profile or .profile , export PATH PATH="$HOME/.local/bin:$PATH" Then mkdir -p "$HOME/.local/bin" Now you can create scripts there ( upg , upg-pi , pg-pi , etc.) that can be accessed just like any other program (i.e. gnome-terminal --window -- pg-pi ) cat >"$HOME/.local/bin/pg-pi" <<'EOF' #!/bin/sh ssh-pi -t /root/upgrade EOF chmod a+rx "$HOME/.local/bin/pg-pi" Then gnome-terminal --window -- pg-pi
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793573/how-to-expand-a-bash-alias-given-as-an-argument
+
+---
+
+#### 7687. how do i use pv in a script that has a seq for loop
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, pv | Score: 0 | Views: 274 | Answers: 2 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+You need the pv to be fed the output of the loop, but you also need the output to be redirected. If you don't redirect it, you will have the pv progress bar interspersed with the output of the command. Something like this: for i in $(seq 1 10000000); do echo "iteration ${i}" #rest of for loop done | pv -l > output.file Or, if you know the size of the output generated in advance, you can get a more informative progress bar by passing the expected output size to pv with -s : max=10000000 for i in $(seq 1 "$max"); do echo "iteration ${i}" #rest of for loop done | pv -ls "$max" > output.file
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793562/how-do-i-use-pv-in-a-script-that-has-a-seq-for-loop
+
+---
+
+#### 7688. What is (if any) the file descriptor of /dev/tty?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, pipe, file-descriptors | Score: 0 | Views: 180 | Answers: 1 | Created: 2025-04-08
+
+**解决方案 / Solution**:
+This works because /dev/tty is the controlling terminal, if any, and by redirecting from it you’re ensuring read reads from it rather than whatever standard input was before the redirection. If you didn’t do that, read would read from mycommand-outputpiped ’s output. A program’s standard input is, initially, whatever its parent process decides it should be. When starting a process from a shell in a terminal, without redirection, that will be the shell‘s controlling terminal; but any redirection of standard input replaces that. By redirecting standard input from /dev/tty you are getting a file descriptor for it, 0; but since read reads from that by default, -u isn’t useful. There’s no other file descriptor guaranteed to point to /dev/tty . In many shells you could explicitly open a different file descriptor, but in this scenario there’s not much reason to do so.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793460/what-is-if-any-the-file-descriptor-of-dev-tty
+
+---
+
+#### 7689. is it possible to invoke mc with a tar.gz path as a parameter to open mc directly inside the tar.gz?
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, tar, mc | Score: 0 | Views: 62 | Answers: 1 | Created: 2025-04-04
+
+**解决方案 / Solution**:
+You need to tell mc how to open the file: mc file.tar.gz/utar:// ( utar is Midnight Commander’s “Tar File System”). There are other “external file systems” , listed in the manual; for example ZIP files can be opened with mc file.zip/uzip://
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793309/is-it-possible-to-invoke-mc-with-a-tar-gz-path-as-a-parameter-to-open-mc-directl
+
+---
+
+#### 7690. Variable substituion ":+" in automake
+
+**问题描述 / Problem Description**:
+Tags: shell, variable-substitution, automake | Score: 0 | Views: 96 | Answers: 1 | Created: 2025-03-27
+
+**解决方案 / Solution**:
+The doc can be misinterpreted as I did. :+ is not supposed to be expanded by automake, but by the shell. So by prepending $ twice, two expansions will occur: one by automake that expands every $ occurence ( $$SOURCE_DATE_EPOCH into $SOURCE_DATE_EPOCH ), the second one by shell which expands $SOURCE_DATE_EPOCH into the value stored in the environment variable SOURCE_DATE_EPOCH . # This will return the value of SOURCE_DATE_EPOCH if defined, # when called from a command line inside a Makefile.am (automake + shell expansions) `$${SOURCE_DATE_EPOCH:+ -d @$${SOURCE_DATE_EPOCH}}`
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793023/variable-substituion-in-automake
+
+---
+
+#### 7691. Bash script, execute while command isnt outputting value
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, scripting | Score: 0 | Views: 285 | Answers: 2 | Created: 2025-03-23
+
+**解决方案 / Solution**:
+If your command returns immediately, then just take your command and write the output to a variable. output=$(xev | grep -A2 --line-buffered -E 'ButtonRelease' | grep -o 'button 1') Then test if the output is empty with [ -z "$output" ] You can stick that in a while loop: output="" while [ -z "$output" ] ; do sleep 5 output=$(xev | grep -A2 -E 'ButtonRelease' | grep --line-buffered -o 'button 1') done If your command is a blocking process, and you want to execute something based on its output, then you'll need to fork, and monitor that output. # Make a temporary file output=$(mktemp) # Run your command # > "$output" will send the output of that command to a file. # The & at the end is a "fork". It means we will continue the script # while that command is running. You also need the --line-buffered # option for all grep calls used xev | grep -A2 --line-buffered -E 'ButtonRelease' | grep --line-buffered -o 'button 1' > "$output" & # Save a handle to the forked process pid=$? # Start a loop, as long as the file/output doesn't exist or has a zero-size, # stay in the loop while [ ! -s "$output" ] ; do echo "seperate command" sleep 5 done echo "We got something" cat "$output" # If you need to kill the original process, now's a good time kill $pid # Don't forget to delete the file # 'trap' works well for doing this reliably. rm "$output"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792860/bash-script-execute-while-command-isnt-outputting-value
+
+---
+
+#### 7692. Move/mark files and the associated-part too
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, scripting, mc | Score: 0 | Views: 230 | Answers: 5 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+With bash and its Parameter Expansion : for i in *.mkv; do [[ -e "${i%.*}.md5" ]] && echo mv -v -- "$i" "${i%.*}.md5" mkvandmd5; done Output: mv -v 123.mkv 123.md5 mkvandmd5 mv -v abc.mkv abc.md5 mkvandmd5 mv -v dde.mkv dde.md5 mkvandmd5 mv -v xxy.mkv xxy.md5 mkvandmd5 Remove echo if output looks okay.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792740/move-mark-files-and-the-associated-part-too
+
+---
+
+#### 7693. Kill current bash shell and start a new one with some command
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, command, exit | Score: 0 | Views: 302 | Answers: 2 | Created: 2025-03-18
+
+**解决方案 / Solution**:
+You don't kill shells, you kill processes. You can start both processes and commands including shells though. Starting a process is done by cloning (forking) one. Starting a command would mean executing it. Something typically starts a shell (let's say bash) script by forking itself, and in one of the branches of the fork (typically the child) running execve("/path/to/bash", ["bash", "/path/to/the-script"], environ) . That process will read the contents of the-script one line at a time and interpret the shell code in it. Before doing that, it will initialise a few special parameters including $$ for the pid of the process that executed it, $PPID for the parent of that process (at that time; that may be the other branch of the fork mentioned above, or that could be pid 1 or that of the child subreaper). Some of the code it reads will often cause the shell process to spawn more processes (fork itself) in some of which it will execute more commands. After all, a shell is a language interpreter specialised in running commands, and those have to be run in separate processes if you want to be able to run more than one. For those commands that are shell builtins such as kill , the shell doesn't need to fork itself to execute them, though. It is worth noting that in those child processes, $$ and $PPID remain unchanged, regardless of whether the corresponding processes are still alive or not. They are not the pid and ppid of the shell process that happens to be expanding those parameters, they are the pid and ppid of the process that originally executed the shell interpreter. So when you do kill -9 $PPID , that will (as long as $IFS has not been modified as you forgot to quote that expansion) run the kill command in the same process, which may or may not be one that originally executed the shell if that code is found as part of a subshell or a pipeline for instance, and send the SIGKILL signal (a signal that cannot be handled and should only be used as a last resort) to whatever the parent process of the one that executed the shell at the time it initialised itself. That will not kill the shell, though the shell might die as some consequence of its parent dying. For instance, if the parent is a terminal emulator, the shell process(es) might receive a SIGHUP as the terminal hung up. If you replace it with kill "$$" , then the process that initially executed the shell in a child of itself and might still be around waiting for that child process, will see it having died and carry on with its own business. If it's the process with $$ as pid that ran that kill "$$" , then it will die and won't be able to carry on with bash -c echo 'I started new!' . What you can do here though is: exec bash -c echo 'I started new!' exec should rather have been called no-fork . That tells the current shell process to execute bash in the same process , not in a child one, so basically that will restart the shell, re-execute it in the same process. That process does not terminate. If it still has a parent waiting for it, that parent will not see its end until that new bash shell calls exit or gets itself killed. You could also do: bash -c echo 'I started new!' & exit In which case the current shell process runs bash in a child of itself, but does not wait for its termination and exits straight away. Then, if it has a parent, that parent will see that shell process terminating but will not be aware of the new bash process (its grandchild).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792628/kill-current-bash-shell-and-start-a-new-one-with-some-command
+
+---
+
+#### 7694. Why is bash expanding `[--x]` to `f` only when I’m in my home directory?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: 0 | Views: 93 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+Bash is treating [--x] , [--two] , and [--arg] as globbing patterns . It turned out there was a file ~/f in my home folder. Matches [--two] because f is in the range - to t in the ASCII table. [--x] for the same reason with - to x . Non-matches [--arg] because f is after both - and a in the ASCII table. [-x] because f is neither - nor x . --x and --two because these aren't globbing patterns. [---x] because f is neither in the range from - to - , nor is it x . If you really need to disable this, run set -f to turn off globbing before you run the echo command.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792262/why-is-bash-expanding-x-to-f-only-when-i-m-in-my-home-directory
+
+---
+
+#### 7695. best way to load an .env file as exported variables
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, environment-variables | Score: 0 | Views: 298 | Answers: 1 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+exp () { set -a source "$1" set +a } With this shell function, you can do $ exp .env ... to source the given file of shell variable assignments and have them all be promoted to environment variables.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792104/best-way-to-load-an-env-file-as-exported-variables
+
+---
+
+#### 7696. How does `find` replace `{}` if it contains special characters like `"`?
+
+**问题描述 / Problem Description**:
+Tags: shell, find, quoting | Score: 0 | Views: 161 | Answers: 1 | Created: 2025-03-07
+
+**解决方案 / Solution**:
+The behaviour you’re seeing isn’t the result of find ’s processing of “special characters” (quotes aren’t special for find ), it’s the result of sh ’s. The file’s name is file with "double quotes" ; the backslashes are escapes intended for the shell, they don’t appear in the file system and find doesn’t know about them. Thus $ find findtest -type f -exec cat {} \; works as expected: find finds findtest/file with "double quotes" , and constructs the invocation of cat with that argument; cat opens it and everything works. Now when you add sh into the mix, find does exactly the same thing: with find findtest -type f -exec sh -c 'set -x;cat "{}"' \; find builds an invocation of sh with the arguments -c followed by set -x; cat "findtest/file with "double quotes"" . sh processes the quotes, resulting in an invocation of cat with the arguments findtest/file with double and quotes : cat "findtest/file with "double quotes"" ^ ^ ^^ \___________________/ \/ The pairs of quotes delimit findtest/file with (with a trailing space), and the empty string. Because there’s no space between the second double quote and double , that’s concatenated in the same argument; the space between double and quotes doesn’t occur inside a quote pair, so it separates words. Thus, after quote removal and word splitting, the command-line components are cat findtest/file with double quotes
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792073/how-does-find-replace-if-it-contains-special-characters-like
+
+---
+
+#### 7697. Output of echo uses different encoding than the one specified according to LANG and LC_CTYPE
+
+**问题描述 / Problem Description**:
+Tags: shell, echo, character-encoding | Score: 0 | Views: 154 | Answers: 1 | Created: 2025-03-06
+
+**解决方案 / Solution**:
+echo doesn't do character decoding/encoding (of its arguments/output) other than for the encoding that some echo implementations do for \uXXXX , \UXXXXXXXX (or \u{XXXX} or \x{XXXX} for some) If you run: echo "ä" You're passing that ä as an array of bytes which is the encoding of that character in whatever encoding is used by your terminal emulator (or editor if you entered that in a script via a text editor). And echo will output those bytes as-is¹ If your echo implementation supports the \uXXXX escapes for outputting a character based on their Unicode code point, you may find that: LC_ALL=de_DE.iso88591 echo '\u00E4' (beware LC_ALL takes precedence over LANG and other LC_* variables) outputs U+00E4 encoded in ISO8859-1 (outputs a 0xe4 byte) while: LC_ALL=de_DE.UTF-8 echo '\u00E4' Outputs it UTF-8 encoded (0xc3 0xa4). In bash and if the xpg_echo option is not enabled, you need echo -e '\u00E4' (and a recent version of bash). Or you can do something like: echo 'ä' | iconv -f UTF-8 -t ISO8859-1 Where that ä is UTF-8 encoded to have it converted to ISO8859-1, or: echo 'ä' | LC_ALL=de_DE.iso88591 iconv -f UTF-8 (again with a UTF-8 encoded ä ). For it to be converted to whatever encoding is used in the de_DE.iso88591 locale (likely ISO8859-1). Or write echo '\0303\0244' or the more portable printf '\303\244\n' instead of echo 'ä' to have ASCII code that outputs a UTF-8 encoded ä . ¹ provided none of those bytes are byte 0x5c on ASCII based systems which also happens to be the encoding of backslash which standard echo 's treat as an escape sequence introducer (some echo implementations need -e for that to happen); and because some characters in some encoding do contain that byte, you should prefer single quotes over double quotes to quote text containing non-ASCII characters.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/792031/output-of-echo-uses-different-encoding-than-the-one-specified-according-to-lang
+
+---
+
+#### 7698. Change stdout for shell to pipe
+
+**问题描述 / Problem Description**:
+Tags: shell, posix | Score: 0 | Views: 173 | Answers: 1 | Created: 2025-02-28
+
+**解决方案 / Solution**:
+Easiest is to do: { rest of your script } | gpg... With shells compliant to the 2024 edition of the POSIX specification, you can do: set -o pipefail { rest of your script } | gpg... To make sure that failure of rest of your script or gpg is not lost in the overall exit status. exec | cmd runs 2 commands in parallel in 2 separate processes, the first one (evaluated in a child process in all shells) doing nothing without forking ( exec should really have been called nofork ), and with its stdout redirected to a pipe and the second (which in some shells is not done in a child) runs cmd (in a child if its external and therefore needs to be executed) with its stdin connected to the other end of a pipe. In some shells, you can do: exec > >(cmd) Using the (non-POSIX) process substitution feature from ksh Which runs cmd in background with its stdin connected to a pipe, and >(cmd) expands to the name of a file (which can be /dev/fd/x or /proc/self/fd/x or a named pipe depending on the system and shell) which once open for writing (as > does) gets you the other end of the pipe. The exit status of cmd is lost in that case. That you can do by hand by using a temporary named pipe: mkfifo fifo || exit cmd < fifo & cmd_pid=$! exec > fifo rest of the script ret=$? exec >&- wait "$cmd_pid" || ret=$? rm -f fifo exit "$ret" (not handling the cleanup of the fifo if the script is killed). Bearing in mind that there's still no command in POSIX (other than m4 ) to give you a unique temp file reliably, let alone one of type fifo.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791749/change-stdout-for-shell-to-pipe
+
+---
+
+#### 7699. How do I remap Ctrl + X in the terminal
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, terminal | Score: 0 | Views: 163 | Answers: 2 | Created: 2025-02-23
+
+**解决方案 / Solution**:
+The signals as you know are things like sigint and sigtstp. The stty command allows you to tell the tty driver which keys should generate the signals. If for some reason you wanted ^X to generate sigint you could use stty to do so. If you want to remap what ^X means to bash then you need to look into what man readline or help bind tells you.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791511/how-do-i-remap-ctrl-x-in-the-terminal
+
+---
+
+#### 7700. ksh: how to capture the current invoked command and arguments?
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, macos, ksh | Score: 0 | Views: 135 | Answers: 1 | Created: 2025-01-30
+
+**解决方案 / Solution**:
+With ksh93: set -o functrace trap 'printf "\e]0;%s\a" "${.sh.command}" > /dev/tty' DEBUG HOSTNAME=$(uname -n) PS1=$'\e]0;$HOSTNAME:${PWD/#"$HOME"/\\~}\a\e[32m$HOSTNAME\e[m:\e[35m${PWD/#"$HOME"/\\~}\e[m$ ' Would do something similar to your zsh code: displays simple commands that are being executed in the title just before they're executed (for pipe lines, it only prints the simple commands in the right-most component), and when returning to the prompt hostname:current-directory (with $HOME replaced with ~ ). Relevant sections of the the man page : .sh.command When processing a DEBUG trap, this variable contains the current command line that is about to run. The value is in the same format as the output generated by the xtrace option (minus the preceding PS4 prompt). functrace Causes the -x option's state and the DEBUG trap action to be inherited by functions defined using the function keyword (see Functions above) instead of being reset to default. Changes made to them within the function do not propagate back to the parent scope. Similarly, this option also causes the DEBUG trap action to be inherited by subshells. ${.sh.command} being ksh93's equivalent to zsh 's $ZSH_DEBUG_CMD . The functrace option was added in 2022 , so only available in 93u+m/1.0.0 2022-08-01, latest as of writing being 93u+m/1.0.10 2024-08-01. ksh93u+m is the community effort that maintains ksh93 based on the code from ksh93u+ 2012-08-01, the last stable release by AT&T Software Technology, led by Martijn Dekker (the m in ksh93u+m). A separate effort to maintain ksh93 based on the last beta release from AST and which led to the short-lived ksh2020 has been abandoned. Note DEBUG trap (also supported by zsh ) and zsh's preexec work at different stages of shell execution. The preexec hook is invoked when a user presses Enter to submit shell code at the prompt of an interactive shell for evaluation (whether that shell code contains one simple command or several or compound commands such as loop), while the DEBUG trap is invoked for each "command" (not all types of command) being run.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790382/ksh-how-to-capture-the-current-invoked-command-and-arguments
+
+---
+
+#### 7701. Can anyone explain the blurry (at least for me) boundary between shell and kernel?
+
+**问题描述 / Problem Description**:
+Tags: shell, linux-kernel, kernel | Score: 0 | Views: 143 | Answers: 2 | Created: 2025-01-20
+
+**解决方案 / Solution**:
+The shell is the interpreter between the user and the kernel. An interpreter can be called an "interface" but you're thinking of the word "interface" as a low-level transport of the input and output characters. With this in mind, the word "interpreter" is a better description of the shell. The devices that form the low-level transport of input characters (e.g., the keystrokes the user types) and the output characters (e.g., the ones that display characters in a terminal window on the screen) are managed by device drivers that exist within the kernel. So the low-level transport devices (the "interfaces" in the way you're interpreting the word) and their driver software for the input and output are within the kernel. But the kernel doesn't understand the meaning of the user's keystrokes coming in from the keyboard, nor the characters being output to the screen. This is what the shell does - figure out from the keystrokes what the user wishes to happen, and make the function calls into the kernel to invoke the corresponding programs. And the shell interprets error codes returned from those function calls (such as "command not found") and outputs characters to the screen that form messages to notify the user of the problem. When talking about the role of the shell your book simply uses the word "interface" to mean something close to "interpreter". The shell does transform sequences of text characters into kernel function calls that invoke programs and perform other actions, which is a kind of interface, so the book's usage isn't entirely wrong. Just not precisely the same meaning you had in your mind for the word.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789867/can-anyone-explain-the-blurry-at-least-for-me-boundary-between-shell-and-kerne
+
+---
+
+#### 7702. append newline to bash alias
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, alias | Score: 0 | Views: 306 | Answers: 2 | Created: 2025-01-18
+
+**解决方案 / Solution**:
+Aliases (and scripts) don't mimic keyboard input. A newline within the alias is not equivalent to pressing Enter on the keyboard. For a newline to be output to screen, the alias actually needs a command that would output the newline, such as echo or printf . alias mip="curl ifconfig.me/ip && echo;" mip() { curl ifconfig.me/ip; printf '\n'; } Alternatively: mip() { echo "$(curl ifconfig.me/ip)"; }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789798/append-newline-to-bash-alias
+
+---
+
+#### 7703. bash - slice quoted substrings delimited by spaces into array
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, grep, variable-substitution, bash-array | Score: 0 | Views: 402 | Answers: 4 | Created: 2025-01-05
+
+**解决方案 / Solution**:
+If the input is as simple as shown in the question and you really do want to avoid spawning a subshell on each invocation as you stated: ... however this ... will invoke a new subprocess on each call. I would like to see a better solution than this then you could use a loop isolating each '...' substring and storing it in an array: $ cat tst.sh #!/usr/bin/env bash string=" 'f o o' 'f oo' 'fo o' " re="('[^']*')(.*)" array=() while [[ "$string" =~ $re ]]; do array+=( "${BASH_REMATCH[1]}" ) string="${BASH_REMATCH[2]}" done declare -p array $ ./tst.sh declare -a array=([0]="'f o o'" [1]="'f oo'" [2]="'fo o'") If you don't mind a subshell then you could use GNU grep for -o to just print the single-quoted substrings then read those into an array: $ cat tst.sh #!/usr/bin/env bash string=" 'f o o' 'f oo' 'fo o' " readarray -t array < <(grep -o "'[^']*'" <<<"$string") declare -p array $ ./tst.sh declare -a array=([0]="'f o o'" [1]="'f oo'" [2]="'fo o'") or if you don't have a grep that supports -o you could use any sed to strip leading/trailing blanks and change every ' ' to '<newline>' then read the result into an array: $ cat tst.sh #!/usr/bin/env bash string=" 'f o o' 'f oo' 'fo o' " readarray -t array < <(sed -E "s/^ +| +$//g; s/' +'/'\n'/g" <<<"$string") declare -p array $ ./tst.sh declare -a array=([0]="'f o o'" [1]="'f oo'" [2]="'fo o'") If you want to get rid of the ' s from the result then just change the sed command to sed -E "s/^ +'|' +$//g; s/' +'/\n/g" .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789097/bash-slice-quoted-substrings-delimited-by-spaces-into-array
+
+---
+
+#### 7704. Check xorg Shortcut SHIFT+CTRL+NUMLOCK is active
+
+**问题描述 / Problem Description**:
+Tags: shell, xorg | Score: 0 | Views: 63 | Answers: 1 | Created: 2025-01-01
+
+**解决方案 / Solution**:
+You can find the current setting in the output of xset q under XKB indicators. On my setup I found $ xset q ... XKB indicators: 00: Caps Lock: off 01: Num Lock: off 02: Scroll Lock: off 03: Compose: off 04: Kana: off 05: Sleep: off 06: Suspend: off 07: Mute: off 08: Misc: off 09: Mail: off 10: Charging: off 11: Shift Lock: off 12: Group 2: off 13: Mouse Keys: off I'm not sure if this output depends on your xkb configuration, but you can get the on/off state with gnu awk: xset q | awk '{if(match($0,/Mouse Keys: *(on|off)/,x)) print x[1]}'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788948/check-xorg-shortcut-shiftctrlnumlock-is-active
+
+---
+
+#### 7705. How to use docker exec to execute a shell script with an argument in a container?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, docker | Score: 0 | Views: 1107 | Answers: 1 | Created: 2024-12-31
+
+**解决方案 / Solution**:
+Whenever you see an error complaining about a file not existing, and the file corresponding to the full command line you provided, it means whatever tried to execute the command didn’t split it. So you need to do that yourself: results=$(docker exec mycontainer ./scripts/container_script.sh "$path") See also the docker exec documentation which explicitly states that The command must be an executable. A chained or a quoted command doesn't work.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788939/how-to-use-docker-exec-to-execute-a-shell-script-with-an-argument-in-a-container
+
+---
+
+#### 7706. Understanding bash ‘<’ and ‘>’ with parentheses
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, io-redirection | Score: 0 | Views: 155 | Answers: 1 | Created: 2024-12-14
+
+**解决方案 / Solution**:
+Two important things: In your examples echo runs always before cat . Each redirection > file_test creates an independent open file description . Your first example is simple: echo writes to file_test , then cat copies the content of file_empty to file_out . In the second and in the third example file_test is opened and truncated twice. First the "outer" > file_test opens and truncates the file, then the other > file_test opens and truncates the file for echo ; only then echo runs, finally cat runs. In effect echo writes to file_test from the beginning of the file, and cat writes to file_test independently from the beginning of the file. The two tools do not share an open file description, so the act of writing by echo does not move the position in the file for cat . The latter tool (over)writes to the file from the beginning, not from where echo finished. Specifically, in the second example echo writes test to the file, then cat puts something in the file from its beginning , overwriting test . In the third example echo writes test to the file, then cat puts an empty string in the file from its beginning, overwriting nothing (as the size of the empty string is zero bytes). To better see what happens, consider this: (echo "1234567890interesting" > file_test; < file_in cat) > file_test First echo writes 12… to the file, then cat puts something in the file from its beginning, overwriting 12…89 with something and 0 with the terminating newline character from file_in (I'm assuming the line that says something is properly terminated inside file_in ). The content of file_test is now: something interesting (with a terminating newline character after interesting , added by echo in the first place). It is different with (echo "1234567890interesting" > file_test; < file_in cat) >> file_test because >> is essentially "always seek to end of file" . This time cat writes from where echo finished, because at the time this is where the file ends. Try it. The result is: 1234567890interesting something (with a terminating newline character from file_in ). Also if the two tools actually share an open file description (created with > ) then echo will move the position in the file for cat : (echo "1234567890interesting"; < file_in cat) > file_test The result is again 1234567890interesting something (with a terminating newline character from file_in ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788102/understanding-bash-and-with-parentheses
+
+---
+
+#### 7707. How can I manage long package lists in sh without arrays?
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 0 | Views: 124 | Answers: 1 | Created: 2024-11-24
+
+**解决方案 / Solution**:
+The backslashes in your example aren't needed because you would need to let the shell split the string anyway, and it would, by default, split on spaces, tabs, and newlines. So whether or not the newlines in the string are escaped or not really doesn't matter. The issue with demoting the list of packages to a single string is that to use the individual package names in loops or do whatever you want to do with them, you must (let the shell) split the string by leaving it unquoted. Now, that may be alright in the simple cases where package names contain no whitespace or globbing characters, but as soon as you need to deal with things like curl 8.* or similar substrings, the splitting and globbing action of the shell will be challenging to get right in all cases. Instead, use the list of positional parameters: set -- \ package_a \ package_b \ package_c \ package_d \ 'My weird *** package' \ 'Bumblebees 2.0' You may then refer to the list using "$@" . You may loop over the packages using for package do # do something with "$package" done or, if you like typing, for package in "$@"; do # do something with "$package" done
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787130/how-can-i-manage-long-package-lists-in-sh-without-arrays
+
+---
+
+#### 7708. Run program only on matching lines
+
+**问题描述 / Problem Description**:
+Tags: shell, text-processing, xargs | Score: 0 | Views: 171 | Answers: 2 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+Here's one way to do the first thing you asked for ( Block-wise ), assuming blackbox is nl : $ cat tst.sh #!/usr/bin/env bash awk ' BEGIN { cmd = "nl" } /=TAG=/ { print | cmd next } { close(cmd) print } ' "${@:--}" $ ./tst.sh file in this file 1 this line contains =TAG= 2 so does =TAG= this one 3 as =TAG= does this other line this line does not nor does this line 1 =TAG= here again gone again If you want to do it 1 line at a time as in your 2nd request ( Line-wise ), just move the close() : $ cat tst.sh #!/usr/bin/env bash awk ' BEGIN { cmd = "nl" } /=TAG=/ { print | cmd close(cmd) next } { print } ' "${@:--}" $ ./tst.sh file in this file 1 this line contains =TAG= 1 so does =TAG= this one 1 as =TAG= does this other line this line does not nor does this line 1 =TAG= here again gone again GNU awk also supports Coprocesses if you need more control over where the output of the external command appears in the overall output or it needs any other additional processing before printing it. And talking of which... here's a way to implement your 3rd request, Continuously , using GNU awk for coprocesses: $ cat tst.sh #!/usr/bin/env bash awk ' BEGIN { cmd = "nl" } { lines[NR] = $0 } /=TAG=/ { print |& cmd tbds[NR] } END { close(cmd, "to") for ( i=1; i<=NR; i++ ) { if ( i in tbds ) { if ( (cmd |& getline line) > 0 ) { lines[i] = line } } print lines[i] } close(cmd) } ' "${@:--}" $ ./tst.sh file in this file 1 this line contains =TAG= 2 so does =TAG= this one 3 as =TAG= does this other line this line does not nor does this line 4 =TAG= here again gone again That assumes your input isn't so massive that it can't fit in memory. If that's not the case then you can do the same thing with a 2-pass approach reading the input twice instead of storing it in the lines[] array. The above might break if the pipe fills up (thanks @Stéphane Chazelas for pointing that out), if your system has stdbuf then you can do the following to make nl output line-buffered: $ cat tst.sh #!/usr/bin/env bash awk ' BEGIN { cmd = "stdbuf -oL nl" } /=TAG=/ { print |& cmd if ( (cmd |& getline line) > 0 ) { $0 = line } } { print } ' "${@:--}" $ ./tst.sh file in this file 1 this line contains =TAG= 2 so does =TAG= this one 3 as =TAG= does this other line this line does not nor does this line 4 =TAG= here again gone again With a non-GNU awk you can write to a temp file instead of piping to a process and then read from the tempfile instead of reading from the process, e.g.: $ cat tst.sh #!/usr/bin/env bash tmp=$(mktemp) || exit 1 trap 'rm -f "$tmp"; exit' EXIT tmp="$tmp" awk ' BEGIN { tmp = ENVIRON["tmp"] cmd = "nl > \047" tmp "\047" } { lines[NR] = $0 } /=TAG=/ { print | cmd tbds[NR] } END { close(cmd) for ( i=1; i<=NR; i++ ) { if ( i in tbds ) { if ( (getline line < tmp) > 0 ) { lines[i] = line } } print lines[i] } } ' "${@:--}" $ ./tst.sh file in this file 1 this line contains =TAG= 2 so does =TAG= this one 3 as =TAG= does this other line this line does not nor does this line 4 =TAG= here again gone again or, again, use stdbuf in the same way as we do for the coprocess solution. If you're ever considering using getline make sure to read http://awk.freeshell.org/AllAboutGetline first.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787020/run-program-only-on-matching-lines
+
+---
+
+#### 7709. Why does ASH (shell) not find my commands executed through "sudo"?
+
+**问题描述 / Problem Description**:
+Tags: shell, sudo, pipe, io-redirection | Score: 0 | Views: 324 | Answers: 1 | Created: 2024-11-11
+
+**解决方案 / Solution**:
+Note that the error message says that the file /bin/sh -c "$(< /dev/stdin)" is not found. It tries to execute that whole string as a command because you told sudo to do so (the string was the only argument to the command, apart from the unnecessary -i option). Instead, you'd want to use echo whoami | sudo "$SHELL" -c 'exec $(< /dev/stdin)' ... which runs $SHELL with -c and exec $(< /dev/stdin) as arguments. Note, though, that if $SHELL is a shell that does not understand process substitutions, such as sh , you would not expect the in-line shell script to produce any output. Instead, use $SHELL -s (run the shell and get it to read its commands from standard input): $ echo whoami | sudo "$SHELL" -s root
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786472/why-does-ash-shell-not-find-my-commands-executed-through-sudo
+
+---
+
+#### 7710. How to start tree of applications with dependencies
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell | Score: 0 | Views: 73 | Answers: 1 | Created: 2024-11-08
+
+**解决方案 / Solution**:
+I need to be able to start some selected application, which means first making sure its dependencies are started, and if necessary their dependencies and so on. this is already implemented in almost all modern Linux distros: Service managers that have an understanding of the dependencies a service declares, and start (and stop) them in the appropriate order. The most relevant of these managers, which almost all distros use (and the ones that don't usually figure out their own ways to make your declaration for them) is systemd . You just go, and write a "systemd service file", which is honestly just an INI file that says "hey, my service is called XYZ, here's how you start it, and how you stop it, and here's the things it depends on". That's it. Then you just tell systemd to please start that to reach the default "system is up and running" state. If your software consists of multiple, mutually dependent services, you write such a service file for each. Don't worry, they are typically less than 15 lines each. Services can be started by the system during boot, or by individual users for their sessions. I was thinking of defining the pre requisites in a file, and writing a python script that worked out what to start in which order. Don't. This is already solved for you, see above. And you're underestimating the complexity of the problem if you forget that you need to know a way to tell whether a dependency service is still starting or already fully operation, that you also need proper shutdown ordering, and a controlled way to deal with failures (restart service automatically? Just mark system as broken? Shut down dependents?), and some way to make things "monitorable". It's all already solved; don't reinvent the wheel. (Systemd brings a lot more really handy features for service design, like the option of activating a service only when something tries to connect to a socket, or central log management, or optional resource limitation, or temporary directory handling, and a lot more things) I need to be able to do this on Linux and Windows. Windows services are so fundamentally different that the same logic can't apply to both platforms, so you will need to figure that out for Windows separately. Your python approach wouldn't be good on Windows, either, you should still do proper services. I'm afraid for Windows service design, you'll have to ask in a different place – specifically not the platform we are knowledgable around here.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786321/how-to-start-tree-of-applications-with-dependencies
+
+---
+
+#### 7711. Symlinks with data inside directory
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, symlink | Score: 0 | Views: 56 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+Your ln -s "$REPO_DIR/src/packages/my-project/out/"* "$OUTPUT_PATH" As long as $OUTPUT_PATH is a directory, should make one symlink for each of the non-hidden entries of the $REPO_DIR/src/packages/my-project/out directory. Note that if $REPO_DIR is a relative path, then that will likely not work properly as upon resolution, the link targets will be interpreted as relative to $OUTPUT_PATH not to your current working directory. Using the -r / --relative option of GNU ln can help in that case as it computes the right relative path for the target of the link: ln -rs -- "$REPO_DIR/src/packages/my-project/out/"* "$OUTPUT_PATH" (also note the -- to avoid problems if $REPO_DIR or $OUTPUT_PATH starts with - ). If there is a very large number of entries in the source directory, then the command may reach the system's limit on the size of a command line and fail. (cd -P -- "$REPO_DIR/src/packages/my-project/out" && ln -sr -- * "$OUTPUT_PATH") (assuming $OUTPUT_PATH is an absolute path) would make the command shorter reducing the risk of that limit being reached, or you could use: xargs -r0a <(printf '%s\0' "$REPO_DIR/src/packages/my-project/out"/* ) ln -srt "$OUTPUT_PATH" -- Where xargs will break down the list in smaller chunks that execve() can swallow OK.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785980/symlinks-with-data-inside-directory
+
+---
+
+#### 7712. GitLab CI/CD: Create tar.gz with content inside current working dir and save tar.gz inside current working dir: tar: .: file changed as we read it
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, tar, compression, gitlab | Score: 0 | Views: 204 | Answers: 1 | Created: 2024-10-23
+
+**解决方案 / Solution**:
+If using the tar arg f it must be followed by the name of the archive, so you need tar -czf archive1.tar.gz --exclude=archive1.tar.gz . To avoid the warning, simply touch archive1.tar.gz beforehand to create an empty file, so that . doesn't change during the tar.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785532/gitlab-ci-cd-create-tar-gz-with-content-inside-current-working-dir-and-save-tar
+
+---
+
+#### 7713. Open 2 mate-terminal instances and run commands
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, shell | Score: 0 | Views: 242 | Answers: 1 | Created: 2024-10-21
+
+**解决方案 / Solution**:
+Since Crontab does not work the way I wanted to and I thought it does, I decided to go with systemd and create a service and a timer to trigger the script at midnight. Create the service file: nano ~/.config/systemd/user/RestartApp.service [Unit] Description=Restart App via RestartApp.sh [Service] ExecStart=/path/to/RestartApp.sh Create the timer nano ~/.config/systemd/user/RestartApp.timer [Unit] Description=Restart App Daily at 00:00 [Timer] OnCalendar=*-*-* 00:00:00 Persistent=true [Install] WantedBy=timers.target Enable the mechanism systemctl --user daemon-reload systemctl --user enable RestartApp.timer systemctl --user start RestartApp.timer Not sure if this is the correct way of achieving what I wanted but it works for me.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785424/open-2-mate-terminal-instances-and-run-commands
+
+---
+
+#### 7714. How to print the processed argument after each command invocation with xargs
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, scripting, xargs | Score: 0 | Views: 158 | Answers: 2 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+The shell interprets the ; as a command separator even before xargs runs, so it runs xargs and then it runs the echo % . The argument to xargs is a command to run, not a command list. If you need to run several commands, write them to a script and run it from xargs . Also, parsing the output of ls is mostly wrong. It doesn't work correctly for filenames containing whitespace.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784869/how-to-print-the-processed-argument-after-each-command-invocation-with-xargs
+
+---
+
+#### 7715. bash - check free available space against requered
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, command-substitution | Score: 0 | Views: 208 | Answers: 1 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+Store the available bytes in a variable: avail=$(df --output=avail -B 1 . | tail -n 1) Do the same with the required bytes, and multiply by 3/2 (bash doesn’t support floating point arithmetic): req=$(( $(du -sb folder123 | cut -f1) * 3 / 2)) The difference is then available as printf '%d\n' "$((avail - req))" To make a decision based on the values, compare them; for example if (( req > avail )); then printf 'Not enough storage, %s available but %s required\n' "$avail" "$req" exit 1 fi
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784821/bash-check-free-available-space-against-requered
+
+---
+
+#### 7716. how can I delete or deactivate primary groups in debian gnu/linux?
+
+**问题描述 / Problem Description**:
+Tags: bash, debian, shell | Score: 0 | Views: 1569 | Answers: 3 | Created: 2024-10-08
+
+**解决方案 / Solution**:
+Another viewpoint to this... You can't delete groups at all. A group is just a number, and you can't delete a number and make it go away. It still exists. What you find in /etc/group is not a group but a label for a group. So if you delete the label, but the group is still in use, then you have two problems: The group will be unlabeled and when it is used, it will show up as just a number with a mysterious meaning. Since the label is deleted, the system won't know that the group number is used, and it may try to reuse the number for a different group label, which could cause security issues with one group being used for two purposes. In addition to the above two issues, if the group is used by a system service and you delete the label, uses of the deleted group label in the service config files may invalidate the config files and cause the service to fail. The best way to delete a group (label) that is the primary group for a user is to delete the user. For service accounts like ''news'', it is inadvisable to delete the user unless you also delete the software that uses that service account. On a linux flavor that uses a package manager, the user (and associated group) may be automatically deleted if you use the package manager to delete the software. Unfortunately, users and groups are not managed as tightly as software packages, so there's no trivial way to track what software uses a specific service account. Fortunately, they are typically named in a way that makes it easy to guess this. That failing, you may find references to the service account in either ownership of config files or mentions of the group and user in serivce and systemd config files, so if you can't guess, some digging might be required. You can't exactly deactivate a user. You can invalidate their password so they can't log in, sort of. You can change their shell to something invalid so they can't log in via other methods. (This may already be the case for a service account!) But you don't typically log into a group, so for groups, you can't even do that. Neither the password file nor the group file support commenting out groups. So, for instance, if you try commenting out the news group with a # then you now have a group mislabeled as #news . Since comments are not a documented behavior for these files, even if some tools support it, other tools will not. As mentioned in other answers, the only way to deactivate a group is to stop using it by removing every mention of it in config files, file ownership, active processes, and possibly hard coded uses in software executables (and probably also some way to use it I forgot).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784720/how-can-i-delete-or-deactivate-primary-groups-in-debian-gnu-linux
+
+---
+
+#### 7717. group ip address to different subnet with shell
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, shell, subnets | Score: 0 | Views: 178 | Answers: 1 | Created: 2024-10-08
+
+**解决方案 / Solution**:
+Intuitively, I'd think that if you sort your IP addresses into buckets, one for each subnet, and keep picking 2 from the 2 fullest buckets, that should allow you to pair them all. Could be with something like: perl -e ' push @{$s{s/\.\d+$//r}}, $_ for @ARGV; @l = values %s; for ($n = @ARGV; $n > 0; $n -= 2) { @l = sort {@$b <=> @$a} @l; printf "ip_map[%s]=%s\n", pop(@{$l[0]}), pop(@{$l[1]}); }' -- "${ips[@]}" Which on your sample gives: ip_map[172.211.91.30]=172.211.89.166 ip_map[172.211.90.173]=172.211.91.63 ip_map[172.211.90.61]=172.211.89.233 code for @ARGV loops over the parameters given to the inline script (the -e xpression) using the default $_ variable as the loop variable. A shorter form of the for (@ARGV) {code} . s/\.\d+$//r (which acts on $_ by default) removes the .<digits> part at the end, but with the r flag, the result is r eturned instead of being stored back into $_ . So that expands to the /24 subnet part of the IP address. In the first line, we build the %s associative array (aka hash in perl ), where $s{subnet} is a reference to the list of IP addresses in that subnet. @{that} dereferences it so we can push the IP address ( $_ ) onto the list. @l = values %s : gets the values of the hash, that is references to our bucket lists into a @l list. then, n/2 times, we pluck two IP addresses from the 2 largest subnets, sorting them by size first (when a list is used in scalar context, like in @$b <=> @$a , it expands to the number of elements in it, so we compare the length of the lists to sort them) and then pop ping one from the first and second list ( pop(@{$l[...]}) ). You would evaluate the output in bash (with source <(that-code) or eval "$(that-code)" ), but you might as well use perl for the whole thing, shells (especially bash) are not very good at programming. If I had to use a shell, I would use zsh instead of bash, where something equivalent could look like: typeset -A s ip_map for ip ($ips) s[${ip%.*}]="x$s[${ip%.*}] $ip" l=( $s ) repeat $#ips/2 { l=( ${(O)l} ) ip_map[${l[1][(w)-1]}]=${l[2][(w)-1]} l[1]=${l[1]#x} l[2]=${l[2]#x} l[1]=${l[1]% *} l[2]=${l[2]% *} } zsh associative arrays, like bash's can't contain lists, here we're storing the list of IP addresses space separated (so we can use (w) ord-based indexing later on) in the values of the associative array and prefixed with a string of x s (used a bit like 𝍩 𝍪 𝍫 𝍬 𝍸 tally marks), one per IP address so it looks like: typeset -A s=( [172.211.89]='xx 172.211.89.233 172.211.89.166' [172.211.90]='xx 172.211.90.61 172.211.90.173' [172.211.91]='xx 172.211.91.63 172.211.91.30' ) So the ${(O)l} which we use to O rder the list in reverse lexically sorts by number of elements. The pop ping is done by extracting and removing the last IP addresses in those buckets and remove one x from the start.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784707/group-ip-address-to-different-subnet-with-shell
+
+---
+
+#### 7718. Replace multiple lines in a file with another command
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, awk, sed | Score: 0 | Views: 198 | Answers: 2 | Created: 2024-10-04
+
+**解决方案 / Solution**:
+With sed , just change line 9 and 10 to the have the text you want: sed '9,10c \ HELLO_LATEST = $(shell curl -s https://api.github.com/repos/org/repo/releases | grep tag_name | cut -d\" -f4)' hello.mk The c command changes the addressed lines to the content after the \ and newline. If you want to insert multiple lines, each internal newline has to be escaped by \ : sed '9,10c \ HELLO_LATEST = $(shell curl -s https://api.github.com/repos/org/repo/releases | grep tag_name | cut -d\" -f4)\ moar\ data\ here' hello.mk Use sed -i if you want to write this back to the original file using GNU sed . Calling this from find : find . -name hello.mk -exec sed ... {} \; Note too that the code grep tag_name | cut -d\" -f4 that you are replacing jq -r 'map(select(.prerelease)) | .[0].tag_name' with, could be better written like jq -r '.[].tag_name' This would give you the values of all tag_name keys from the top-level array (whereas the old expression would give you the first tag_name value of the entries that had true prerelease values). If you want the first tag_name value, use jq -r 'first.tag_name' Don't try to use grep on the JSON data as the string vlue would additionally have to be decoded from having been JSON-encoded.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784480/replace-multiple-lines-in-a-file-with-another-command
+
+---
+
+#### 7719. Bash script to copy and keep x4 backup files (daily, weekly, monthly, six-monthly) in second directory
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell, backup | Score: 0 | Views: 1437 | Answers: 1 | Created: 2024-10-01
+
+**解决方案 / Solution**:
+Based on the discussion in comments, I propose the following solution: In your daily cron job... Copy the newest (or the only remaining) file from dirA to dirB/daily and rename it based on the date. On one day of the week, e.g. on Sundays, copy the file to dirB/weekly . On one day of every month, e.g. on the 1st, copy the file to dirB/monthly . In the subdirectories daily , weekly and monthly , use the known approach to remove all but the newest N files, e.g. 8 daily, 5 weekly or 7 monthly backup files. For renaming the file based on the date and for all date checks you can use the date command with different format specifiers, see man date . The following script is untested, only checked by shellcheck.net. #! /bin/bash # similar to question, but head -1 to get 1st = newest file only infile="$( find /path/to/dirA/ -type f -printf '%T@\t%p\n' | sort -t $'\t' -g | tail -n 1 | cut -d $'\t' -f 2- )" # prepend date to file name, remove directory path outfile="$(date --iso-8601)_${infile##*/}" cp infile /path/to/dirB/daily/"$outfile" # Alternative: compress instead of copying # outfile="$(date --iso-8601)_${infile##*/}.gz" # gzip -c infile > /path/to/dirB/daily/"$outfile" # day of week = Sunday if [ "$(date '+%u')" = 7 ] then cp /path/to/dirB/daily/"$outfile" /path/to/dirB/weekly/"$outfile" fi # day of month = 01 if [ "$(date '+%d')" = '01' ] then cp /path/to/dirB/daily/"$outfile" /path/to/dirB/monthly/"$outfile" fi # TODO: Use the known approach to remove the old files and keep e.g. # 8 daily, 5 weekly and 7 monthly backup files The date formatting in outfile="$(date --iso-8601)_${infile##*/}" was chosen to show the date without time, in the assumption that the cron job will run on the same day as the backup file was created. Example: $ infile=/foo/bar/baz.tar $ echo "$(date --iso-8601)_${infile##*/}" 2024-10-07_baz.tar The OP proposed outfile="$(date -d "$(stat -c '%w' "$infile")" --iso-8601=minutes).tar" On the system where I tested the command, I get $ infile=foobar.tar $ echo "$(date -d "$(stat -c '%w' "$infile")" --iso-8601=minutes).tar" 2024-10-07T14:53+02:00.tar The choice depends on your needs.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784337/bash-script-to-copy-and-keep-x4-backup-files-daily-weekly-monthly-six-monthl
+
+---
+
+#### 7720. how to process a sequence of items in groups of N at a time
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, shell | Score: 0 | Views: 173 | Answers: 3 | Created: 2024-09-27
+
+**解决方案 / Solution**:
+I'm assuming OP's reference to command is a placeholder for some other binary (as opposed to calling the bash builtin named command ). Create some files: $ touch a.txt b.txt 'c d e.pdf' g.dat i.txt k.txt 'l m n.pdf' qrst.pdf$'\r' $ mkdir dir1 $ touch dir1/XXX.txt $ ls -1F a.txt b.txt 'c d e.pdf' dir1/ g.dat i.txt k.txt 'l m n.pdf' 'qrst.pdf'$'\r' $ tree . ├── a.txt ├── b.txt ├── c d e.pdf ├── dir1 │ └── XXX.txt ├── g.dat ├── i.txt ├── k.txt ├── l m n.pdf └── qrst.pdf\015 A simple shell script to process filenames: $ cat my_command #!/bin/bash printf "my input:%s:\n" "$@" sleep 4 General approach: use find to generate a list of files from the current directory feed the files to xargs and let xargs handle running N copies of my_command at a time One approach: find . -maxdepth 1 -type f -print0 | xargs -0 -r -P3 -n1 my_command Where: find / -print0 terminates items with the null character and xargs / -0 allows delimiting by null character; allows white space, quotes and backslashes to be treated as literal characters -P3 - run at most 3 copies of my_command at a time -n1 - submit one filename at a time to my_command This generates: my input:./b.txt: # 3 lines of output printed in quick succession my input:./g.dat: my input:./l m n.pdf: # 4-sec delay my input:./i.txt: # 3 lines of output printed in quick succession my input:./c d e.pdf: my input:./k.txt: # 4-sec delay my input:./a.txt: # only 2 filenames left so only 2 copies of my_current called to generate 2 lines of output in quick succession :y input:./qrst.pdf # notice the last ':' is displayed at the start of the line; this indicates the filename's trailing '\r' has been maintained # 4-sec delay
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784192/how-to-process-a-sequence-of-items-in-groups-of-n-at-a-time
+
+---
+
+#### 7721. How to check how much space is free in the current working directory?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, disk-usage | Score: 0 | Views: 139 | Answers: 1 | Created: 2024-09-27
+
+**解决方案 / Solution**:
+With GNU df : if df --output=avail --block-size=1 . | awk ' BEGIN {getline size < "filesize"; size *= 1.25} NR == 2 {exit !($0 >= size)}' then echo 'There is enough available disk space in the file system the current working directory is in.' fi . is always a path to the current working directory, while the output of pwd (which often just prints the contents of $PWD and depending on the shell, without always checking it still represents a path to the current working directory) is not always¹. df 's avail column is the amount of space available to regular users. That may be less than the space available to the superuser as there's often a percentage of the disk space reserved for root for emergency recovery when the filesystem gets full. To get the free space, some of which may not be available to you, you can compute size - used instead: if df --output=size,used --block-size=1 . | awk ' BEGIN {getline size < "filesize"; size *= 1.25} NR == 2 {exit !($1 - $2 >= size)}' then echo 'There is enough disk space but I might not be able to use it.' fi ¹ It's also cumbersome to retrieve its output reliably when the path² of the currently working directory may end in newline characters. You might as well use $PWD directly. ² Well pwd prints a path to the current working directory, usually the one derived from the directories you called cd with to get there. Of the potentially many possible paths that lead to the current working directory, that is not necessary the canonical one for which you need pwd -P instead, not that it would make a different when that path is passed to df .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784190/how-to-check-how-much-space-is-free-in-the-current-working-directory
+
+---
+
+#### 7722. How to add some random data at certain places in a file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, scripting | Score: 0 | Views: 204 | Answers: 1 | Created: 2024-09-24
+
+**解决方案 / Solution**:
+Here's some code to play with, which does what I understood you wanted. It makes extensive use of dd ibs=1 count=99 to read 99 bytes from stdin to stdout. Since the functions often stdout is the file being created, if you add any debug ensure it writes to stderr, e.g. echo here >&2 . Please start a new post to discuss each new feature that you would prefer that it did. #!/bin/bash # given a number N from 0 up, return fibonacci number N fib(){ local a=0 b=1 c i n=${1?} for ((i=1;i<n;i++)){ let c=a+b; a=$b; b=$c; } echo $((n==0?0:b)) } docopy(){ # copy count bytes from stdin to stdout local count=${1?} dd ibs=1 count=$count status=none } doinsert(){ # gen random number 0..7, write it and that many chars to stdout let len=$RANDOM%7 # 0..7 plus 1 byte for len char printf "$len" dd if=/dev/random ibs=1 count=$len status=none } doremove(){ # ready next byte and skip that many more bytes len=$(dd ibs=1 count=1 status=none) # 1 byte should be 0..7 if ! [[ $len =~ [0-7] ]] then printf "corrupted input at %s, got byte %c\n" $offset "$len" >&2 exit 1 fi dd of=/dev/null ibs=1 count=$len status=none } run(){ dowhat=${1?} filesize=$(stat --format=%s -) curpos=0 # current position in stdin, or for doremove in stdout for ((n=6; ;n++)) # start from fibonacci F6 to avoid repeated offset of 1 do offset=$(fib $n) [ $offset -gt $filesize ] && break docopy $((offset-curpos)) curpos=$offset $dowhat # insert or remove done cat } # create an example data file of wanted length man bash >input while cat input;do :;done | dd ibs=1048576 count=1 iflag=fullblock >file.dat run doinsert <file.dat >file.new ls -l file.new run doremove <file.new >file.restored cmp -l file.dat file.restored You can do a byte-by-byte diff with this script: #!/bin/bash dodiff(){ declare a=$1 b=$2 tmp=/tmp/bdiff$$ flags=-u od -cvw1 "$a" | sed 's/^....... //;$d' >$tmp od -cvw1 "$b" | sed 's/^....... //;$d' | diff $flags $tmp - rm -fr $tmp } dodiff file.dat file.restored dodiff file.dat file.new
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783997/how-to-add-some-random-data-at-certain-places-in-a-file
+
+---
+
+#### 7723. How to remove a background process whose pid was hidden
+
+**问题描述 / Problem Description**:
+Tags: shell, process, background-process | Score: 0 | Views: 228 | Answers: 2 | Created: 2024-09-16
+
+**解决方案 / Solution**:
+Technically, (some command &) runs some command asynchronously in a sub-shell , so it's not inserted in the job table of the (main) shell, and $! is set to the pid of that process but only within that subshell. The shell has no knownledge of that process as it wasn't the one who started it, so you'll need to identify the process (or processes as some command could have spawned more processes) some other way. pgrep and pkill can come handy for that as it can search processes based on several of its attributes. Unless the process detached itself from the terminal, it will still have $TTY (set automatically by zsh to the path of the controlling terminal device) as its controlling terminal. pkill -xft ${TTY#/dev/} 'some command' Would kill the processes with $TTY as their controlling terminal and whose e x act f ull command line is some command . You can use pgrep -l instead of pkill first to see which pid(s) that finds only with their command line. The above only works if some is a file that that process executed with some and command as arguments. If some command is a shell construct such as a while loop as you indicate in comment, then that will just be a child process of your shell's running it and its argument list (the thing pgrep -fx matches on) will be the same as that of the current shell, likely something like zsh , -zsh or /usr/bin/zsh . If that's the only process running unattended in that shell session in your terminal, then you can do: pkill -t ${TTY#/dev/} On FreeBSD/macos, pkill will automatically exclude the ancestor processes of itself unless you add the -a option, so your shell will not be killed. On Linux-based systems using pkill from procps-ng, you'll want to pass the -A option to explicitly exclude the ancestors.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/783550/how-to-remove-a-background-process-whose-pid-was-hidden
+
+---
+
+#### 7724. Fish shell add args to $EDITOR using export
+
+**问题描述 / Problem Description**:
+Tags: shell, environment-variables, fish | Score: 0 | Views: 224 | Answers: 1 | Created: 2024-08-26
+
+**解决方案 / Solution**:
+export is a compatibility function only, and won't split the argument into multiple elements. If you can't use set -gx for some reason, try a small script: #! fish code --wait $argv and set $EDITOR to the path of the script.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782583/fish-shell-add-args-to-editor-using-export
+
+---
+
+#### 7725. How can I set a restricted shell for a user, while allowing cd to user-owned directories?
+
+**问题描述 / Problem Description**:
+Tags: shell, permissions, ownership, restricted-shell | Score: 0 | Views: 266 | Answers: 2 | Created: 2024-08-14
+
+**解决方案 / Solution**:
+You cannot use cd inside a restricted shell except in the shell initialisation files (such as ~/.bash_profile and ~/.bashrc ). Note that neither these files nor the user's home directory itself should be writable by the user, as otherwise they could simply edit or replace the initialisation files with code of their choice.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781950/how-can-i-set-a-restricted-shell-for-a-user-while-allowing-cd-to-user-owned-dir
+
+---
+
+#### 7726. My shell script exits if I try to mount from within the script an already mounted drive How can I make my shell script resume?
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell, mount, exit | Score: 0 | Views: 242 | Answers: 3 | Created: 2024-08-09
+
+**解决方案 / Solution**:
+You have to run a check to see if is mounted already, then determine to mount based on the conditional. In your case, it's /dev/sdc . #!/bin/bash # Function to check state of the USB drive function is_usb_ready() { # Check if the USB drive exists if lsblk -d -o NAME | grep -q "^sdc$"; then # Check if the USB drive is not mounted if ! mount | grep -q "/dev/sdc"; then return 0 # Plugged in and not mounted fi fi return 1 # Not plugged in or already mounted } # Call function and perform the proper task based on its return value if is_usb_ready; then echo "USB drive exists, but not mounted. Mounting drive." sudo mount /dev/sdc /your/mount_point/here else echo "USB drive is not plugged in or already mounted." fi # Rest of your code exit 0 The first grep will check if the drive's already plugged in, and the second grep will determine if it's mounted. If not, do so, otherwise proceed. This is a way to do the check via destination instead of source. Since both don't cover each other's potential scenario's, I'll put both, and leave the decision up to the user. #!/bin/bash mountpoint="/your/mount_point/here" function is_usb_ready() { # Check for filesystem at the mount point if mountpoint -q "$mountpoint"; then echo "The USB drive is already mounted at $mountpoint." return 1 # Already mounted else # If not mounted, check for device if lsblk -d -o NAME,TRAN | grep -q "sdc.*usb"; then return 0 # USB drive exists and is not mounted fi fi return 1 # USB drive is not plugged in } # Call function and perform the proper task based on its return value if is_usb_ready; then echo "USB drive exists, but not mounted. Mounting drive." # Mount the USB drive sudo mount /dev/sdc "$mountpoint" else echo "USB drive is not plugged in or already mounted." fi # Rest of your code exit 0 It's waltinator for the win! A very simple solution. #!/bin/bash mountpoint="/your/mount_point/here" if sudo grep -q "$mountpoint" /etc/mtab; then echo "The USB drive is already mounted at $mountpoint." else echo "Mounting the USB drive." sudo mount /dev/sdc "$mountpoint" fi # Rest of your code exit 0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781633/my-shell-script-exits-if-i-try-to-mount-from-within-the-script-an-already-mounte
+
+---
+
+#### 7727. how to write a std out to a unique temporary file name and use the same to mail out
+
+**问题描述 / Problem Description**:
+Tags: shell | Score: 0 | Views: 96 | Answers: 1 | Created: 2024-08-07
+
+**解决方案 / Solution**:
+You don't need a temp file here, you can just use a pipe: ssh "$host" '/usr/local/bin/script1' | mail -s script "$LOGNAME@xxx.com" Or if you want to also print the output to stdout, with zsh : { ssh $host '/usr/local/bin/script1' >&3 | mail -s script $USERNAME@xxx.com } 3>&1 With shells with support for ksh-style process substitution (ksh, zsh, bash): ssh $host '/usr/local/bin/script1' | tee -- >(mail -s script $LOGNAME@xxx.com) (bear in mind that in some shells such as bash , mail is not waited for, so the next command could be started before the mail is sent). To create unique temp files, most systems have a mktemp command for that: tmp=$(mktemp) || exit ssh "$host" '/usr/local/bin/script1' | tee -- "$tmp" echo sleep 2 <"$tmp" mail -s script "$LOGNAME@xxx.com" rm -f -- "$tmp" In zsh, you can use the =(...) form of process substitution which uses a temp file that is automatically deleted after the command that uses it terminates. Here that command could be a for loop looping on an empty =(...) : for tmp ( =() ) { ssh $host '/usr/local/bin/script1' >&1 > $tmp echo sleep 2 <$tmp mail -s script $USERNAME@xxx.com }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781520/how-to-write-a-std-out-to-a-unique-temporary-file-name-and-use-the-same-to-mail
+
+---
+
+#### 7728. When is the ENV variable set
+
+**问题描述 / Problem Description**:
+Tags: shell, environment-variables, posix, rc | Score: 0 | Views: 118 | Answers: 1 | Created: 2024-08-05
+
+**解决方案 / Solution**:
+The point is that you would set it to the path to some file in your ~/.profile (which is your session initialisation file, not a shell customisation file) or any other place to customise your session (like ~/.xsession , or PAM env file as relevant to your system) for it to become a shell customisation file: ~/.profile : ENV=~/.shrc export ENV # other env var setting ~/.shrc : # things that need to be redone for every shell and are # generally local to the shell alias la='ls -A' var=value Beware the $ENV was originally sourced by even non-interactive invocation. That's no longer the case for POSIX compliant sh implementations, but could be a problem on systems that still have a Bourne shell or old ksh88. Now, people generally don't use sh as their interactive shell, and shells like zsh , fish , bash have their own customisation method.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781394/when-is-the-env-variable-set
+
+---
+
+#### 7729. Splitting Words into space separated characters
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, text-processing | Score: 0 | Views: 186 | Answers: 3 | Created: 2024-07-30
+
+**解决方案 / Solution**:
+Here's a Perl solution that can also handle Unicode characters: perl -C -pe 's/\S/$& /g' I am using this slightly more complicated file as input: $ cat file wat Blinns allens witter kemen na se is goot µëóþäéß©®· Which gives: $ perl -C -pe 's/\S/$& /g' file w a t B l i n n s a l l e n s w i t t e r k e m e n n a s e i s g o o t µ ë ó þ ä é ß © ® · The -p means "read the input file line by line, apply the script given by -e to each line, and then print the resulting line". The -C enables unicode support so we can deal with characters like ö and other non-ASCII multibyte characters. Without it, you would get: $ perl -pe 's/\S/$& /g' file w a t B l i n n s a l l e n s w i t t e r k e m e n n a s e i s g o o t � � � � � � � � � � � � � � � � � � � � Then, we are using the substitution operator ( s/old/new/ ) with the g lobal flag to replace all occurrences of the pattern. The pattern is \S which means "any non-whitespace character" and we replace it with itself ( $& , on the right hand side of the substitution operator, means "whatever was matched") plus a space.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781090/splitting-words-into-space-separated-characters
+
+---
+
+#### 7730. How do I pass an associative array to a function in bash
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, bash-array, associative-array | Score: -1 | Views: 125 | Answers: 3 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+Somewhat empirical. Notes about quoting (thanks to Ed Morton): the result of ${array[@]@K} is the single word (even in double quotes) with individual keys and values quoted as needed, but bash will still apply word splitting and pathname expansion unless it is quoted. Both [*] and [@] appear equivalent with @K operator. as it is a single word, direct assignment of ( "${array[@]@K}" ) will not work and must be used with eval so that shell properly splits the single value in its (quoted) words. Also changed echo to printf as suggested by cas. $ cat /tmp/foo.sh #!/usr/bin/bash declare -A foo=( k1 v1 k2 v2 '[k]=3' 'v[3' '"k 4"' '"v 4"' ) function f () { eval declare -n ref=$1 eval "declare -lA array=( ${ref[*]@K} )" printf '%s\n' "${array[*]@K}" } function f1 () { eval "declare -lA array=( $@ )" printf '%s\n' "${array[*]@K}" } f foo f1 "${foo[@]@K}" $ /tmp/foo.sh k1 "v1" k2 "v2" "\"k 4\"" "\"v 4\"" "[k]=3" "v[3" k1 "v1" k2 "v2" "\"k 4\"" "\"v 4\"" "[k]=3" "v[3" $
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806733/how-do-i-pass-an-associative-array-to-a-function-in-bash
+
+---
+
+#### 7731. Beginner question: How do I create and run a simple shell script in Linux?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, command-line, permissions | Score: -1 | Views: 162 | Answers: 2 | Created: 2026-04-21
+
+**解决方案 / Solution**:
+You've already got an answer the other parts of your question, so I'm going to answer these parts: 1.) What is the simplest way to create a shell script from scratch? 4.) Are there any best practices for beginners when writing shell scripts? Where to save your scripts The obvious answer is "Somewhere in your $PATH". I save my personal scripts (i.e. those that are really only useful for me) in ~/bin/ and more generic scripts (i.e. those meant to be useful for my user AND root AND any other users on the system) in /usr/local/bin/ . If you haven't already done so, run mkdir -p ~/bin and add it to your PATH (e.g. by editing ~/.bashrc and/or ~/.bash_profile ). You may want to have ~/bin/ at or near the start of $PATH so it will be searched first for executables. And if /usr/local/bin isn't already in your PATH, add it too. BTW, unless you've changed the permissions or owner or group-owner of the directory, /usr/local/bin/ will not be writable by your user, so you'll have to install scripts there as root (e.g. with sudo). For single-use disposable scripts, you might want to save them to /tmp/ or to the current working directory (i.e. the same directory as the data you want to use the script with). These won't be in your PATH, so execute them as ./scriptname args... if you've used chmod to make them executable, or by passing the script's filename to the interpreter (e.g. bash scriptname args... How to edit scripts With your favourite text editor. This should, of course, be vim :-), but some people prefer nano or other barely-adequate things that pretend to be fully-functional text editors. You can get by with them in an emergency if you have to, but it'll be much more work and effort than using a decent text editor. You probably have vimtutor installed if you have vim installed. It's a pretty good interactive intro to using vim. How to get started writing scripts Take commands (or sequences of commands) that you run repeatedly and save them to a file somewhere in your PATH. Make the file executable with chmod +x . That's it. That's a shell script: one or more commands in a text file that has the execute bits set in its permissions. Most beginner scripts are written because someone gets tired of repeatedly typing the exact same sequence of commands every time they log in and reduce them all to just one command, the new script they wrote. Or they want to avoid typing mistakes and other user errors (like forgetting one of the steps) in some task they have to frequently (like weekly or monthly processing of a particular set of files). These are great ways to start. Automating tedious and repetitive tasks is the point of writing scripts. The next step is to start learning and making use of some of the shell's syntax features. If it makes sense to do so, start parameterising the command(s) in the script. What that means is to replace hard-coded values with variables or shell positional parameters or both. Learn how to avoid repetition by using for and while and until . Add comments. Since you're starting out, comment even things that are obvious because you will inevitably find that what's obvious to you TODAY while you're writing a script may not be so obvious to future you in six months time when you want to edit it. Think of comments as notes and reminders to your future self. As you get more experience, you will be able to reduce the amount of commenting needed. Also, add some error checking. Check for at least the most common things that might go wrong, print an appropriate error message, and exit - preferably as early in the script as possible, before the script does anything irrevocable. Your scripts should, as much as possible, try to deal with errors as safely and as gracefully as possible. For a really simple example, you might convert something like sudo install -m 755 myscript /usr/local/bin to: #!/bin/bash # Script to install file(s) into /usr/local/bin with executable perms. # Save as /usr/local/bin/myinstaller and make it executable # and configure sudo to allow your user to run it as root. if [ -z "$1" ] ; then echo "Usage: $0 [filename...]" echo "ERROR: Mandatory filename argument was not provided!" > /dev/stderr exit 1 fi for f in "$@"; do if [ ! -r "$f" ] ; then # use printf and %q for automagic quoting/escaping of the filename printf "ERROR: %q missing or not readable!\n" "$f" > /dev/stderr exit 2 fi done dir=/usr/local/bin/ # `install` is in GNU Coreutils. See `man install` for details install -m 755 "$@" "$dir" Then you can run the script like so: sudo myinstaller ascript acompiledprogram anotherscript onemorescript A note on using sudo It might be tempting to have sudo install -m 755 ... inside the script and configure sudo to allow your user to run install itself as root, which would allow the user to install any file into any directory with any permissions. That's pretty common practice these days, especially on single-user desktop machines, and it's quite likely that your user already has sudo access to run any program as root, but it's bad practice and not how sudo was designed and meant to be used. sudo is meant to be used in a manner that provides the minimum required permissions to do a particular job, doing as much as possible as your non-root user and as little as possible as root. That's done by writing small wrapper scripts which do only one simple job as root after sanity checking its args and/or environment. Even if your system is configured to allow your user to run anything as root, it's still good practice to get into the habit of writing small wrapper scripts to use with sudo. More advice Understand that shell quoting quirks will be the bane of your existence. You want to be a shell programmer, so this is an unavoidable part of your life now. Learn how to mitigate the problems and avoid disaster. Read the following: Why does my shell script choke on whitespace or other special characters? Security implications of forgetting to quote a variable in bash/POSIX shells $VAR vs ${VAR} and to quote or not to quote Learn at least the basics of sed , awk , and perl . You'll need them, shell is not a good language for text or data processing, shell's job is to co-ordinate the execution of other programs (including those written in sed, awk, perl, python, C, etc) - it's good at that, and lousy at pretty much everything else that people try to do with it. These are essential tools for shell programming, at least as much as other tools like cp , mv , bc , tar , rsync , gzip and thousands of others. If you're wondering why you would want to use other scripting languages inside a shell script, it's because they can do things that shell can't, or do them easier and/or better, and much faster (see, e.g. Why is using a shell loop to process text considered bad practice? ). As a simple example, shell has built-in arithmetic, you can do calculations in shell - but it's limited to integers only. If you want to do floating-point calculations, then you have to use an external tool like bc (which, as the man page says, is "a language that supports arbitrary precision numbers with interactive execution of statements.") - e.g. avg=$(echo "scale=2; (1+2+3+4+5)/5" | bc) . You can also do calculations in awk or perl. If you only have time to learn one, learn perl - it can do everything that sed and awk can do plus a whole lot more, has excellent documentation , and there are a lot of good tutorials and examples on the net - including examples of the kinds of simple tasks that are commonly needed on the command line. Here are two good places to start: Learn Perl and Perl for Perl Newbies . And here's a good collection of useful one-liners . But, really, you should learn all three. And maybe python too. And be able to at least read source code in C and several other languages too. Use a Revision Control System ("RCS"). There are several to choose from but unless you're already a die-hard user of another RCS, there's really only one you need to know, and that's git . Using an RCS could mean writing and updating each script in its own directory with its own git repo, but more practically, you'll probably end up with a bunch of tiny scripts and find that it's more convenient to have a ~/bin/ directory in your PATH and make that directory a git repo for all your little personal scripts. You might find it's convenient to have a combined repo for most of your tiny scripts and also have dedicated git repos for some larger scripts (especially if you intend to publish them for others to use) and copy or symlink the executable into ~/bin/ You don't need to be an expert in git to use it. To start with, all you really need to know is a few git commands: git init (initialise a directory to be a git repo - this is non-destructive, and does not affect any existing files. it just creates a .git/ subdirectory), git add (tell git to start keeping track of a file), git commit (commit the current state of a file to the git history), git show (show a previous commit, defaults to the most recent commit), git diff (show the differences between the current state and the repo), and git revert (revert a file to a previous version). git log is also useful to see a list of commits (i.e. view a summary of the repo's history, with dates and times and the commit messages you used) git status will tell you which files aren't being tracked, and which files have changes that have not yet been committed. (actually, most of those descriptions like "show a previous commit..." are only partially accurate, they're just bare-minimum explanations that gloss over the full capabilities of the commands) Unless you have previous experience with a revision control system, git will probably confuse the hell out of you at first, but it's worth putting in the effort to learn at least the basics. Worth noting: git is useful for config files too. Depending on what distro you're using, you may already have your entire /etc/ directory as a git repo via the etckeeper program. You can also use it to keep a revision history of your own config files, e.g ~/.config/ or just a selection of some of the subdirectories under ~/.config/ In fact, git is useful for all kinds of tasks, especially those involving text files of some kind - plain text, markdown, TeX etc. It's not uncommon for people to write books in a markup language like markdown or LaTeX and use git to keep the entire revision history, including all the scripts needed to turn the text into a publishable format like PDF or EPUB. And just as with source code, it's useful for collaboration - with a shared github repo (e.g. a private gitlab or gitea server), multiple authors can work on the same project.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805565/beginner-question-how-do-i-create-and-run-a-simple-shell-script-in-linux
+
+---
+
+#### 7732. Unix folder has file named "-f". Standard `/bin/bash` tools do not recognized this (can not `rm`, `cat`, nor `stat` this). What to do?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell | Score: -1 | Views: 140 | Answers: 2 | Created: 2025-09-30
+
+**解决方案 / Solution**:
+If you need to remove a file named -f , you can’t just run rm -f because rm will interpret -f as an option (force) rather than a file name. To tell rm stop parsing options and treat the following arguments as literal file names , you use the -- end-of-options marker: rm -f -- -f The -- marker is mandatory here to avoid passing -f as a switch of the rm command, or there's also another way: rm -f ./-f References POSIX utility conventions (-- to end option parsing)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800099/unix-folder-has-file-named-f-standard-bin-bash-tools-do-not-recognized-th
+
+---
+
+#### 7733. Why doesn't bash recognize alias in interactive mode?
+
+**问题描述 / Problem Description**:
+Tags: bash, alias, interactive | Score: -1 | Views: 122 | Answers: 1 | Created: 2025-07-19
+
+**解决方案 / Solution**:
+So there is a hidden character in your command. This is copied directly out of your question: $ echo -n 'GCOM​ "\pushdict now ignores prefix macro."' | od -c 0000000 G C O M 342 200 213 " \ p u s h d i 0000020 c t n o w i g n o r e s p 0000040 r e f i x m a c r o . " 0000055 That 342 200 213 is the UTF-8 encoding of U+200B — a zero-width space. Try typing the command manually. Copy and paste from your question: $ alias GCOM='git commit -a -m' $ GCOM​ "\pushdict now ignores prefix macro." GCOM​: command not found Manually typing: $ GCOM "\pushdict now ignores prefix macro." fatal: not a git repository (or any of the parent directories): .git
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798080/why-doesnt-bash-recognize-alias-in-interactive-mode
+
+---
+
+#### 7734. grep capture from beginning until first 2 chars found
+
+**问题描述 / Problem Description**:
+Tags: bash, grep, regular-expression | Score: -1 | Views: 314 | Answers: 4 | Created: 2025-05-25
+
+**解决方案 / Solution**:
+With Perl-compatible regular expressions If you're using GNU grep, you can do: $ grep -P -o '^.*?(?=cd)' <<<"$list" aa bb cc dd ee ff ab This uses the -P flag for Perl-compatible regular expressions [sic!]. This gives us two features: The (?=cd) looks ahead, so we match from the beginning of the line until the last character before the first occurrence of cd . The question mark in *? makes grep perform a non-greedy match, so it matches up to the first and not the last cd . Note that your example output doesn't have the trailing space. If you want to exclude the space, you can add it to the pattern: $ grep -P -o '^.*?(?= cd)' <<<"$list" aa bb cc dd ee ff ab With sed instead of grep Delete the longest suffix cd.* if one exists: $ sed 's/cd.*$//g' <<<"$list" aa bb cc dd ee ff ab What about basic or extended regular expressions? You can’t; you need lookahead. (Thanks to @ilkkachu for pointing out the mistake I made earlier.) If you had any grep command like grep -o -E '<pattern>' that worked here, then it would have to treat these strings differently: abccce → abccc abcccd → abcc The grep command would have to build a DFA that can land on a final state after reading either abcc or abccc . It would then have to return abccc both times , because that's the longest prefix where it lands on a final state. But then it would give the wrong answer for abcccd .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796279/grep-capture-from-beginning-until-first-2-chars-found
+
+---
+
+#### 7735. How do I test the existence of a directory accessible only as root?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, scripting | Score: -1 | Views: 301 | Answers: 3 | Created: 2025-05-19
+
+**解决方案 / Solution**:
+Does the -d test return the right result about the existence of a directory even if the to be tested for directory is inaccessible in the calling context? No. Revealing the existence of an item is part of "access" to its parent directory. If you don't have the 'traverse' (+x) permission on parent directories – or a system privilege to bypass it – then you cannot enter those directories and therefore cannot check for existence of anything inside, either. If it does not: How to check for the existence of a directory as root? As was mentioned in comments, [ is a weird-looking command name (and the ] is one of its parameters, to complete the illusion). The overall syntax of the if block is actually just: if some_command; then where the command is only usually [ , but it could be anything else that returns a 0/non-0 exit code, such as if grep ... or if ~/bin/diceroll – and therefore also could be if sudo <something> . As it happens, [ is not only a shell built-in command but also exists in standalone binary form (not exactly identical to Bash's built-in but mostly the same) at /usr/bin/[ , which means it too can be sudo'd: if sudo [ -d "$path" ]; then For clarity: if /usr/bin/[ -d "$path" ]; then if sudo /usr/bin/[ -d "$path" ]; then If this looks too weird, [ also has an alias test which also exists as built-in and external. The above examples can also be written as: if test -d "$path"; then if sudo test -d "$path"; then if sudo /usr/bin/test -d "$path"; then Finally, in case it weren't something sudo-able as an external command (e.g. if you wanted to use Bash's fancier [[ ), you could find a different command that does the same thing and then follow the same model – e.g. by running a whole separate shell if necessary: if sudo path="$path" /bin/sh -c 'test -d "$path"'; then if sudo /bin/sh -c "test -d ${path@Q}"; then if sudo /bin/sh -c 'test -d "$1"' -- "$path"; then (The former passes $path as an environment variable instead of relying on nested expansion, while the latter uses Bash's "add shell-safe quotes" feature. Avoid just using "test -d $path" as that could lead to unpleasant results if the path has special characters. Using "test -d '$path'" is halfway there but still risky.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795073/how-do-i-test-the-existence-of-a-directory-accessible-only-as-root
+
+---
+
+#### 7736. "history -0" works in ksh, why doesn't "history -0" work in zsh?
+
+**问题描述 / Problem Description**:
+Tags: shell, zsh, macos, ksh, command-history | Score: -1 | Views: 117 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+AFAIK, command lines are added to the history in zsh after they've been run, when they are history. If you have a specific use case where you need a command to know what command line led to its execution (assuming it was invoked from some code entered by the user and not some other way like a trap), you could do something like: preexec() CURRENT_COMMAND_LINE=$1 Or: record-cmdline() CURRENT_COMMAND_LINE=$1 autoload add-zsh-hook add-zsh-hook preexec record-cmdline Then: $ print -r "current command line: $CURRENT_COMMAND_LINE" current command line: print -r "current command line: $CURRENT_COMMAND_LINE" preexec is a hook invoked after a full command line has been entered just before it is being executed, with the full code in $1 . Here, we just record that code in $CURRENT_COMMAND_LINE . In a DEBUG trap, see also the ZSH_DEBUG_CMD variable which contains a representation of the command being executed (as opposed to the last command line entered by the user which may or may not have led to its execution). $ preexec() CURRENT_COMMAND_LINE=$1 $ TRAPDEBUG() print -rlu2 "command: $ZSH_DEBUG_CMD" "command line: $CURRENT_COMMAND_LINE" $ echo x; echo y command: CURRENT_COMMAND_LINE=$1 command line: TRAPDEBUG() print -rlu2 "command: $ZSH_DEBUG_CMD" "command line: $CURRENT_COMMAND_LINE" command: echo x command line: echo x; echo y x command: echo y command line: echo x; echo y y (see how the first DEBUG trap execution is actually showing you the command run by preexec , so the "command line" there is a bit misleading). See also the zle-line-finish ZLE hook widget that is invoked when the line editor exits and where you can find the current command line in $BUFFER (and previous lines in the case of a multiline command where the $PS2 / $PROMPT2 prompt was printed in $PREBUFFER ). count() printf '\e]0;%s\a' "$#BUFFER characters in the previous line" autoload add-zle-hook-widget add-zle-hook-widget zle-line-finish count For instance, would update the terminal emulator window title with the length of each line being entered.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790396/history-0-works-in-ksh-why-doesnt-history-0-work-in-zsh
+
+---
+
+#### 7737. chose files random and put the names into textfiles
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell | Score: -1 | Views: 118 | Answers: 1 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+Could be: export MIN_PER_FILE=4 FILES='filegroupA.txt filegroupB.txt filegroupC.txt filegroupD.txt' ls path/to/the/folder | shuf | awk ' BEGIN{ n = split(ENVIRON["FILES"], file) srand() } {print > file[NR <= n * ENVIRON["MIN_PER_FILE"] ? NR % n + 1 : int(rand() * n + 1)]}' Where we shuf fle the l i s t of file, despatch the first MIN_PER_FILE*n lines into the n files to guarantee there are at least MIN_PER_FILE in each (provided there are enough files), and then for the rest despatch at random between the n files. If your system doesn't have shuf , it might have sort -R .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/784842/chose-files-random-and-put-the-names-into-textfiles
+
+---
+
+#### 7738. Strange $$ behavior in bash
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: -2 | Views: 175 | Answers: 2 | Created: 2026-01-18
+
+**解决方案 / Solution**:
+I was trying to craft a script that produces the location of the local bash binary […] The simplest solution for this is to use $BASH , i.e. #!/bin/sh bash -c 'echo "$BASH"' It's documented in (at least) the GNU page for bash , The full pathname used to execute the current instance of Bash. Some examples: # Debian GNU/Linux 12 (bookworm) # Debian GNU/Linux 13 (trixie) /usr/bin/bash # Cygwin /bin/bash # Termux /data/data/com.termux/files/usr/bin/bash
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803867/strange-behavior-in-bash
+
+---
+
+#### 7739. extract fields of a string separated by |
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: -2 | Views: 228 | Answers: 1 | Created: 2025-09-04
+
+**解决方案 / Solution**:
+It's not clear why you're trying to do what you show, nor whether or not there are any other use cases to be considered, but this would produce the output I think you want from the relevant code sections given the input you provided: $ re='^[^|]*[|](.*)([|][^|]*){2}$' $ test_def1='abc|pidof abc|0|0' $ if [[ "$test_def1" =~ $re ]]; then echo "${BASH_REMATCH[1]}"; fi pidof abc $ test_def2='abc|ps -a | awk "/abc/ { print \$1 }"|0|0' $ if [[ "$test_def2" =~ $re ]]; then echo "${BASH_REMATCH[1]}"; fi ps -a | awk "/abc/ { print \$1 }"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799445/extract-fields-of-a-string-separated-by
+
+---
+
+#### 7740. HISTTIMEFORMAT not working as desired in RHEL 8 bash 4.4.20
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, rhel, ksh, command-history | Score: -2 | Views: 163 | Answers: 2 | Created: 2025-07-29
+
+**解决方案 / Solution**:
+In bash you get the expected output with the history command. cat $HOME/.bash_history.test #1753813619 echo foo #1753813622 history #1753813639 history -w history 1 2025-07-29 08:26:59 20:26:59echo foo 2 2025-07-29 08:27:02 20:27:02history This way makes sense. Why reformat the whole file just because you want different output? For better readability I suggest simething like HISTTIMEFORMAT='%F %I:%M:%S %T : ' using several history files declare -a HISTORYFILES=( /path_a /path_b /path_c ) combining history files cat "${HISTORYFILES[@]}" >/combined_file HISTFILE=/combined_file history -c history -r loading several files history -c for file_path in "${HISTORYFILES[@]}"; do HISTFILE="$file_path" history -r done
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798343/histtimeformat-not-working-as-desired-in-rhel-8-bash-4-4-20
+
+---
+
+#### 7741. Counting unique IP addresses per hour in existing log files
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, sed, grep, logs | Score: -2 | Views: 168 | Answers: 2 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+With awk: awk ' { hits[$1 " " substr($4,1,16) "00]"]++ } END { for (k in hits) printf "%s - %d hits\n", k, hits[k] } ' access*.log This will: Create an array named hits Each date will be converted to the hour and used in conjunction with the IP as the array index. For example 192.168.211.85 [29/Sep/2024:10:00] Each time an entry contains an IP in an hour that array element is incremented. After all lines are read ( END ), print the summary in the desired format.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794187/counting-unique-ip-addresses-per-hour-in-existing-log-files
+
+---
+
+#### 7742. How to redirect output to file with timestamp?
+
+**问题描述 / Problem Description**:
+Tags: linux, shell, io-redirection | Score: -2 | Views: 139 | Answers: 1 | Created: 2024-12-18
+
+**解决方案 / Solution**:
+You can use a command substitution in a file redirection: jf rt del … > "myproj-$(date +%Y-%m-%d)"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788347/how-to-redirect-output-to-file-with-timestamp
+
+---
+
+#### 7743. How does bash <command-argument> work?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, subshell | Score: -2 | Views: 127 | Answers: 1 | Created: 2024-08-26
+
+**解决方案 / Solution**:
+bash <command-argument> is described in the manual section on invoking Bash : If arguments remain after option processing, and neither the -c nor the -s option has been supplied, the first argument is assumed to be the name of a file containing shell commands (see Shell Scripts ). So bash cat /etc/os-release looks for a file named cat containing shell commands (in other words, a shell script). Typically, you should have seen an error along the lines of /usr/bin/cat: /usr/bin/cat: cannot execute binary file unless you happen to have a file named cat in the current directory, in which case Bash would try to run that instead. I can’t think of a context where using bash <command-argument> would be mandatory , but it can be useful in a variety of circumstances, for example: run a text file as a shell script without making it executable; run a shell script with different shell options (for example, bash -x script ). This is the mechanism used when executing scripts through a shebang: a script starting with #! /bin/bash ends up run as /bin/bash <path-to-the-script> . So running a script requiring bash directly or using bash <path-to-the-script> is equivalent. (But see Why the "-" in the "#! /bin/sh -" shebang? for useful shebang information.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782560/how-does-bash-command-argument-work
+
+---
+
+#### 7744. Remove last 9 character in alternate lines of file in unix
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell, sed | Score: -2 | Views: 83 | Answers: 2 | Created: 2024-07-28
+
+**解决方案 / Solution**:
+Assuming you want to remove the last nine character s from the 4 th , 6 th , 8 th ... lines , not "the last 9 character from the file on those lines" which would not make sense to me, that could be: sed '3,${n;s/.\{9\}$//;}' Or: perl -pe 's/.{9}$// if $. >= 4 && $. % 2 == 0' (add the -C option if the input contains UTF-8 encoded multibyte characters or -Mopen=locale to decode the file as per the locale's character encoding as with the other solutions). Or awk 'NR >= 4 && NR % 2 == 0 {sub(/.{9}$/, "")};1' Example: $ printf '%s\n' {01..10}-123456789 | sed '3,${n;s/.\{9\}$//;}' 01-123456789 02-123456789 03-123456789 04- 05-123456789 06- 07-123456789 08- 09-123456789 10- $ printf '%s\n' {01..10}-123456789 | perl -pe 's/.{9}$// if $. >= 4 && $. % 2 == 0' 01-123456789 02-123456789 03-123456789 04- 05-123456789 06- 07-123456789 08- 09-123456789 10- $ printf '%s\n' {01..10}-123456789 | awk 'NR >= 4 && NR % 2 == 0 {sub(/.{9}$/, "")};1' 01-123456789 02-123456789 03-123456789 04- 05-123456789 06- 07-123456789 08- 09-123456789 10-
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/780946/remove-last-9-character-in-alternate-lines-of-file-in-unix
+
+---
+
+#### 7745. bash help : cut -f1-3 into variable
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: -3 | Views: 140 | Answers: 5 | Created: 2026-04-02
+
+**解决方案 / Solution**:
+Unquoted $(...) in list context in bash and most other Korn-like shells¹ means invoking an implicit split+glob operator (split only in zsh). As others have said, the split part is done based on the characters of $IFS which by default contains space, tab and newline (and null in zsh; other shells can't cope with null). It's more complex in that whitespace characters (often only space, tab and newline, but YMMV depending on shell and version thereof) are treated differently from other characters, and with the default value of $IFS , it would behave as if the empty elements resulting of that splitting would be discarded. Here, as others have said, you'd need $IFS to only contain the newline character, but in bash (as opposed to zsh), you'd also want to disable the glob part: (IFS=$'\n'; set -o noglob; for var in $(cmd); do ...; done) Which would loop over the contents of the non-empty lines of the output of cmd . Here using a subshell to limit the scope of the change of IFS and noglob , though in bash 4.4 or newer, you could also use local IFS - ² in a function to avoid the subshell. bash 4.0 or newer can also read the lines of the output of a command into an array with its readarray builtin (or its mapfile misnomer alias) combined with process substitution: readarray -t lines < <(cmd) for line in "${lines[@]}"; do ... done But if you want to loop over the first 3 space-separated words of each line of the output, in Korn-like shells, you could use: while IFS=' ' read -ru3 word1 word2 word3 rest_if_any_ignored; do something with "$word1" "$word2" "$word3" done 3< <(cmd) read -r does the splitting the same way as split+glob upon unquoted command substitution does, so that's done differently from the way cut -f splits in that it's sequences of one or more spaces that are used as delimiters and leading and trailing spaces are ignored. For instance, cut -d ' ' would split " a b c" into "" , "a" , "" , "b" , "c" but IFS=' ' read -r would split it into "a" , "b" , "c" only. You can get a more cut -like behaviour in ksh93 or zsh by doubling the space in $IFS : $ echo " a b c" | zsh -c 'IFS=" " read -rA words; typeset -p words' typeset -a words=( a b c ) $ echo " a b c" | zsh -c 'IFS=" " read -rA words; typeset -p words' typeset -a words=( '' a '' b c ) Instead of IFS=' ' read -ru3 word1 word2 word3 rest_if_any_ignored , you can read into an array with the -A option in ksh, zsh or yash ( -a in bash). And pass the first 3 to another command with $array[1,3] in zsh, "${array[1,3]}" in yash or "${array[@]:0:3}" in ksh93 or bash (or zsh). Here, you could also do something like: #! /bin/sh - [ "$(id -u)" -eq 0 ] || exec sudo -u root -- "$0" "$@" smartctl --scan | sed -n '/megaraid/s/^/smartctl -i /p' | sh | grep Product: And not even need bash / zsh / ksh93 / yash , as smarctl does not output a list of words to pass to a command, but something that looks more like snippets of code in the sh syntax (with the fourth word being # to introduce a shell comment). Also beware that smartctl outputs those arguments in the wrong order with the options after the non-option argument. smarctl -i /dev/bus/0 -d megaraid,0 will fail if using a POSIX-compliant getopt() , including the GNU one if called in an environment where $POSIXLY_CORRECT is set. In most environments, sudo should strip most environment variables, so hopefully you should be fine. Make sure you don't use #! /bin/sh -a as the shebang, because on those systems where sh is bash , bash sets $POSIXLY_CORRECT when invoked as sh and exports it to the environment with -a . Also, if it's just the serial number of those drives you're after, you may be able to find them directly in /sys without needing smartctl nor superuser privilege. Possibly also via udevadm info : udevadm info -q property --property ID_SERIAL_SHORT --value -- "$device_path" specifically or eval "$(udevadm info -P DEVINFO_ -xq property -- "$device") to get all properties as separate shell variables ( $DEVINFO_ID_SERIAL_SHORT for the serial number). ¹ And in those shells, that also applies to unquoted parameter expansions such as your smartctl -a $count and in that case, it would be a desired effect as you want smartctl to receive separate /dev/bus/0 , -d and megaraid,0 arguments not one /dev/bus/0 -d megaraid,0 argument which it would interpret it as the 0 -d megaraid,0 file in /dev/bus . ² local - like in the Almquist shell, or like zsh's set -o localoptions to limit the scope of shell options, though only the ones set with set -o , not the ones set by shopt -s .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805266/bash-help-cut-f1-3-into-variable
+
+---
+
+#### 7746. problem with looping through 2 arrays in bash
+
+**问题描述 / Problem Description**:
+Tags: bash, rhel, bash-array | Score: -3 | Views: 117 | Answers: 3 | Created: 2026-01-26
+
+**解决方案 / Solution**:
+If you have the information in a file, and just want to run commands for each line, you don't need to load everything to an array first. Just loop over the input and run the commands: while read -r dummy role db; do echo createdb "$db" -O "$role" done < inputfile With the file shown, that prints createdb db0 -O user0 createdb db1 -O user1 createdb db2 -O user2 and of course you'd remove the echo to actually run the commands. If you need to mangle the data somehow in between, you can use the shell's parameter expansions. E.g. to change user0 to role0 : role=role${role#user} . Or you could preprocess the input file with grep or sed or whatever: grep ^# inputfile | while read -r dummy role db; do echo createdb "$db" -O "$role" done (or while ... done < <(grep ^# inputfile) in feature-rich shells)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804028/problem-with-looping-through-2-arrays-in-bash
+
+---
+
+#### 7747. Double pass processing of stdin with bash
+
+**问题描述 / Problem Description**:
+Tags: bash, stdin | Score: -3 | Views: 236 | Answers: 2 | Created: 2026-01-22
+
+**解决方案 / Solution**:
+Sounds like you want to store stdin in memory. As the bash shell specifically doesn't support storing NUL bytes in its variables, for arbitrary input, you'd need to use some form of encoding. For example: input_b64=$(base64 -w0) echo "$input_b64" | base64 -d | cmd1 echo "$input_b64" | base64 -d | cmd2 Of course, that's terribly wasteful with memory. I'd still use a tempfile. If ${TMPDIR-/tmp} as used by most things such as mktemp , sort or bash's << / <<< (at least on some systems and/or some versions) is unusable, then that's a broken environment, a pathological case where you can't expect much. Same as when $PATH / $LD_LIBRARY_PATH , or signal handling or resource limits or available disk space are bogus or stdin/stdout/stderr are closed. Just make sure you handle errors properly. As in: tmpfile=$(mktemp) || exit cat > "$tmpfile" || exit <"$tmpfile" cmd1 <"$tmpfile" cmd2 In the cases where stdin is seekable, like when open on a regular file or most block device ones, you could seek back to the start position between each use of it. See my answer to How can a "two-pass" script support reading input either from a file or from stdin? for instance. bash doesn't have builtin support for seeking but a bash script could resort to zsh or perl to do that seeking if needed. If on a system with a relatively recent Linux kernel and assuming the procfs for the current pid namespace is mounted in /proc , you could use a memfd which would use memory much more efficiently with something like: tmp_memfile=$(perl -e ' $fd = syscall(319, ($name = "tmp"), 0); die "memfd_create: $!" if $fd < 0; if ($pid = fork) { print "/proc/$pid/fd/$fd"; } else { close STDOUT; # hold the fd long enough for bash to open it sleep 1 }' ) && exec 3<> "$tmp_memfile" || exit cat >&3 || exit perl -e 'seek STDIN,0,0' <&3 cmd1 <&3 perl -e 'seek STDIN,0,0' <&3 cmd2 <&3 (here hardcoding the value of the memfd_create() system call; if your system / perl deployment includes syscall.ph , you can add a require "syscall.ph" at the start of the perl code and use SYS_memfd_create() in place of 319 ). Solutions using seek on the same fd whether on a tempfile or memfd can't be used if cmd1 and cmd2 need to operate on the input at the same time. In that case, you'd need to open 2 independent fds on the same tempfile or memfile. As in exec 3<> "$tmp_memfile" 4<> "$tmp_memfile" instead of exec 3<> "$tmp_memfile" . Since version 5.3, bash supports the non-forking ${ ...; } form of command substitution from ksh93 and uses memfds if available (Linux or FreeBSD at least or shm_mkstemp() , the OpenBSD equivalent) to store the output that makes up the expansion. So on such systems, you can use: ${ exec {fd}>&1; } To get a $fd open on an anonymous memory-backed file. Beware as of 5.3.3, it's still buggy in that bash may randomly close the fd as seen for instance here on Debian GNU/Linux with: $ bash -c '${ exec 4>&1; }; ls -l "/proc/$$/fd/4"' lrwx------ 1 chazelas chazelas 64 Jan 23 08:58 /proc/11240/fd/4 -> '/memfd:anonopen (deleted)' OK but: $ exec 3>&1 $ bash -c '${ exec 4>&1; }; ls -l "/proc/$$/fd/4"' ls: cannot access '/proc/11246/fd/4': No such file or directory It closed fd 4 in that case as it happened to be the fd 4 was using internally for reading the contents of the memfile to make up the expansion. Using {fd} to get the first free fd looks like it should work around that bug. In 5.3.3, the fd is open in read+write mode at least on Linux. That may not remain the case in future versions as that's not documented. On Linux-based systems, you can use exec {fd}<> /dev/stdout instead of exec {fd}>&1 to guarantee it being the case. On non-Linux (or cygwin) systems, /dev/stdout can only be open in the mode stdout is open in. To sum up, on recent Linux, with bash 5.3 or newer, getting two independent fds open on the same anonymous memory-backed file: # get fds on anon memfile ${ exec {fd1}<> /dev/stdout {fd2}<> /dev/stdout || exit; } # fill-up the memfile with stdin's contents cat >&"$fd1" # rewind $fd1 to start of memfile perl -e 'seek STDIN,0,0' <&"$fd1" # run cmd1 with memfile open (in read+write mode) on stdin cmd1 <&"$fd1" # run cmd2 with virtual path to memfile as argument cmd2 "/dev/fd/$fd2"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803968/double-pass-processing-of-stdin-with-bash
+
+---
+
+#### 7748. How to pass an array as an argument to a function
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, bash-array | Score: -3 | Views: 271 | Answers: 3 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+Functions like other commands only take a list of strings as arguments. In bash (contrary to zsh), those strings even have the same limitation as arguments to external commands in that they can't contain NUL bytes. When you do: print 1 "${fruits[@]}" print is called with 1 and each value of the $fruits array as separate arguments. There's no way for print to know which of those arguments were actually values of an array. Also, in bash, like in ksh (and unlike most other shells and programming languages), arrays are more associative arrays with keys limited to positive integers, so in that process, you're discarding the list of keys. If you wanted to pass all the values, or all the keys and values to the function, you'd need to encode them in some way and your function to decode it. For instance, you could pass the number of elements, then all the keys and then all the values as separate arguments and the function decode that back into its own local array: myfunc() { local n="$1" i local -a array shift for (( i = 1; i <= n; i++ )) { array[${@:i:1}]=${@:i+n:1} } shift "$(( n + n ))" # rest of the arguments local other_arg1="$1" other_arg2="$2" typeset -p array other_arg1 other_arg2 } myarray=([4]=1 2 '' [123]=3) myarray[30]=* myfunc "${#myarray[@]}" "${!myarray[@]}" "${myarray[@]}" other arg Or you could pass the output of typeset -p on the array: shopt -s extglob myfunc() { eval "${1/+([^ =])=/array=}" # rest of the arguments other_arg1=$2 other_arg2=$3 typeset -p array other_arg1 other_arg2 } myarray=([4]=1 2 '' [123]=3) myarray[30]=* myfunc "$(typeset -p myarray)" other arg Which both output: declare -a array=([4]="1" [5]="2" [6]="" [30]="*" [123]="3") declare -- other_arg1="other" declare -- other_arg2="arg" ( declare is an alias for the typeset that bash copied from ksh; local itself is from the Almquist shell AFAIK, and is another alias for typeset except that in bash like in ash, it can only be called in functions).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799223/how-to-pass-an-array-as-an-argument-to-a-function
+
+---
+
+#### 7749. Generate hashes automatically and continuously with a script and stop by pressing a key?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, hashsum | Score: -3 | Views: 307 | Answers: 3 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+I need a part for a script in bash where hashes are generated automaticaly and continuously and when I press a key the generation stops and the last hash at which I stopped is displayed. that makes little sense – why compute anything that you don't use? That has absolutely no advantage over just generating one hash at the point you press a key. And you can already do that! regarding: hash=$(echo "$RANDOM" | sha256sum | cut -d' ' -f1) With sha256sum you're using a hash that has 256 bits. Bash's $RANDOM gives you 15 bit numbers, from 0 to (incl.) 2 15 -1. So, you're getting one of only 32768 different hashes each time. That's a very insufficient approach! Even stringing together multiple numbers is a bad idea, because bash uses the (everywhere I looked) minstd0 pseudo-random number generator, with the original (unwisely chosen) coefficients. It also has a very short period (2 32 ), so that the sequence of numbers will, on a modern computer can repeat while you observe it. Note that I said sequence – this is a pseudo -random number generator. Refer to ReflectYourCharacter's answer on how to get true random numbers. When you do that, calculating hashes that you don't uses is even worse, because unlike in the case of $RANDOM , where observing a couple (computer-"couple") hashes will allow you to take reasonable guesses on the next number, two words coming from /dev/[u]random are really independent to the observer.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799216/generate-hashes-automatically-and-continuously-with-a-script-and-stop-by-pressin
+
+---
+
+#### 7750. How to extract an unknown number of file lines between two regex patterns?
+
+**问题描述 / Problem Description**:
+Tags: bash, regular-expression | Score: -3 | Views: 155 | Answers: 2 | Created: 2025-06-03
+
+**解决方案 / Solution**:
+sed or awk would be my tools of choice; either sed -n '/pattern1/,/pattern2/p' or awk '/pattern1/,/pattern2/ { print }' # note that { print } is the default and can be omitted Note that both awk and sed are stream processors; they read and process one line of input at a time, without looking at the rest of the file. These will start printing when pattern1 is encountered, and stop printing after pattern2 is encountered; repeating as many times as pattern1 is encountered. If pattern2 does not appear after matching pattern1 , print all of the input after the last line matching pattern1 . Alternatively, you might want to check that each pattern occurs exactly once, and in order: #!/bin/bash { read l1 && ! read extra } < <( sed -n '/pattern1/=') && { read l2 && ! read extra } < <( sed -n '/pattern2/=') && (( l1 < l2 )) && sed -n "$l1,$l2 p" Both awk and sed can match lines based on line numbers or patterns within lines; awk can also match lines based on arbitrary expressions. If you don´t want to include the delimiting lines, you can either exclude them with grep -v -e pattern1 -e pattern2 , or for sed you can write: sed -n '/pattern1/, /pattern2/ { /pattern1/d; /pattern2/d; p; }'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796576/how-to-extract-an-unknown-number-of-file-lines-between-two-regex-patterns
+
+---
+
+#### 7751. Creating in Linux files in GB or MB range by various size by read a file
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, shell-script, shell, scripting | Score: -3 | Views: 186 | Answers: 1 | Created: 2025-04-25
+
+**解决方案 / Solution**:
+It sounds like you might want to do something like this: $ cat ./tst.sh #!/usr/bin/env bash while read -r idx sfx size; do echo fallocate "file${idx}.${sfx}" "$size" done < <( awk '{ for ( idx=1; idx<=NF; idx++ ) { remainSz = $idx chunkSz = 1000000000 if ( remainSz < chunkSz ) { chunkSz = 100000000 } sfx = 1 while ( remainSz > chunkSz ) { print idx, sfx++, chunkSz remainSz -= chunkSz } print idx, sfx, remainSz } }' "${@:--}" ) $ ./tst.sh numbers_in_one_line fallocate file1.1 1000000000 fallocate file1.2 1000000000 fallocate file1.3 1000000000 fallocate file1.4 1000000000 fallocate file1.5 1000000000 fallocate file1.6 1000000000 fallocate file1.7 1000000000 fallocate file1.8 1000000000 fallocate file1.9 1000000000 fallocate file1.10 1000000000 fallocate file1.11 1000000000 fallocate file1.12 1000000000 fallocate file1.13 1000000000 fallocate file1.14 1000000000 fallocate file1.15 1000000000 fallocate file1.16 1000000000 fallocate file1.17 1000000000 fallocate file1.18 1000000000 fallocate file1.19 1000000000 fallocate file1.20 1000000000 fallocate file1.21 1000000000 fallocate file1.22 1000000000 fallocate file1.23 1000000000 fallocate file1.24 1000000000 fallocate file1.25 997117901 fallocate file2.1 1000000000 fallocate file2.2 1000000000 fallocate file2.3 1000000000 fallocate file2.4 1000000000 fallocate file2.5 848337945 fallocate file3.1 100000000 fallocate file3.2 100000000 fallocate file3.3 100000000 fallocate file3.4 100000000 fallocate file3.5 100000000 fallocate file3.6 41113465 fallocate file4.1 100000000 fallocate file4.2 100000000 fallocate file4.3 100000000 fallocate file4.4 100000000 fallocate file4.5 46445181 Remove the echo and update fallocate... to be however you really call fallocate .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/794189/creating-in-linux-files-in-gb-or-mb-range-by-various-size-by-read-a-file
+
+---
+
+#### 7752. bash -n is a not documented in manpages or info documents
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, man, documentation, info | Score: -3 | Views: 838 | Answers: 1 | Created: 2025-04-18
+
+**解决方案 / Solution**:
+It is in fact documented, but you need to read carefully. The OPTIONS sections of man bash , or info -n invoking bash says: All of the single-character shell options documented in the description of the set builtin command can be used as options when the shell is invoked. And under set , -n is documented: -n Read commands but do not execute them. This may be used to check a shell script for syntax errors. This is ignored by interactive shells.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/793918/bash-n-is-a-not-documented-in-manpages-or-info-documents
+
+---
+
+#### 7753. what is a "string" in bash?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, terminology | Score: -3 | Views: 289 | Answers: 1 | Created: 2024-08-21
+
+**解决方案 / Solution**:
+String is a sequence of characters. See String (computer science) in Wikipedia for more details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/782292/what-is-a-string-in-bash
+
+---
+
+#### 7754. Allow members of group sudo to execute any command
+
+**问题描述 / Problem Description**:
+Tags: bash, sudo | Score: -4 | Views: 90 | Answers: 1 | Created: 2026-05-05
+
+**解决方案 / Solution**:
+This is not a shell command that you must type in the terminal to execute. The syntax %sudo ALL=(ALL:ALL) ALL it's a configuration statement belonging to the file /etc/sudoers (or to a file inside the directory /etc/sudoers.d/ ), and instructs the system to grant all users of the group sudo the right to execute any command as any user/group on any host, as the comment line says. A similar example is shown in the sudoers manpage (which I do not really recommend as a learning material for a neophyte, as it's quite complex): Runas_Alias ADMINGRP = adm, oper (...) %opers ALL = (: ADMINGRP) /usr/sbin/ Users in the opers group may run commands in /usr/sbin/ as themselves with any group in the ADMINGRP Runas_Alias (the adm and oper groups).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805805/allow-members-of-group-sudo-to-execute-any-command
+
+---
+
+#### 7755. bash pipeline: syntax error near unexpected token 'else'
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: -4 | Views: 229 | Answers: 4 | Created: 2025-12-10
+
+**解决方案 / Solution**:
+You have a spurious fi (or else ) in the middle of your block. Shellcheck does point this out as its very first error: Line 44: else ^-- SC1009 (info): The mentioned syntax error was in this else clause. Typically this means you have a dangling else (which you do). Here's a cleaned up and tagged version of your code loop: #PREPARES THE INPUT if [ -e "$d/select.done" ] then echo "regions selecion done!" else for h in "${HAP[@]}" do if [ "$h" == "hap0" ] then if [ "$SEX" == "ref" ] then for c in "${CHR_38[@]}" do ###generate chromosome FASTA "$SEQKIT" grep -f "$d/${ID}_${c}_${h}_contigs_one.list" "$d/${ID}_${h}_hprc_r2.fa.gz" -j 10 | "$BGZIP" -@10 > "$d/${ID}_${c}.fna.gz" done elif [ "$SEX" == "t2t" ] then for c in "${CHR_13[@]}" do ###generate chromosome FASTA "$SEQKIT" grep -f "$d/${ID}_${c}_${h}_contigs_one.list" "$d/${ID}_${h}_hprc_r2.fa.gz" -j 10 | "$BGZIP" -@10 > "$d/${ID}_${c}.fna.gz" done elif [ "$SEX" == "m" ] || [ "$SEX" == "f" ] then echo "nothing to be done, running in diploid mode" fi fi ## UNINTENDED ?? else ## OTHERWISE WHAT'S THIS ?? if [ "$SEX" == "m" ] then if [ "$h" == "hap1" ] then for c in "${CHR_P[@]}" do ###generate chromosome FASTA "$SEQKIT" grep -f "$d/${ID}_${c}_${h}_contigs_one.list" "$d/${ID}_${h}_hprc_r2.fa.gz" -j 10 | "$BGZIP" -@10 > "$d/${ID}_${c}_${h}.fna.gz" done else for c in "${CHR_M[@]}" do ###generate chromosome FASTA "$SEQKIT" grep -f "$d/${ID}_${c}_${h}_contigs_one.list" "$d/${ID}_${h}_hprc_r2.fa.gz" -j 10 | "$BGZIP" -@10 > "$d/${ID}_${c}_${h}.fna.gz" done fi elif [ "$SEX" == "f" ] then for c in "${CHR_M[@]}" do ###generate chromosome FASTA "$SEQKIT" grep -f "$d/${ID}_${c}_${h}_contigs_one.list" "$d/${ID}_${h}_hprc_r2.fa.gz" -j 10 | "$BGZIP" -@10 > "$d/${ID}_${c}_${h}.fna.gz" done elif [ "$SEX" == "ref" ] || [ "$SEX" == "t2t" ] then echo "nothing to be done, running in haploid mode" fi ## MISSING fi done touch "$d/select.done" fi Using a consistent indentation approach would help - whether that's putting do and then on the same line as the corresponding constructor, or putting them on the line below (as I have done). You should also look to double quoting your variables pretty much whenever you use them. There's no harm in quoting when it's not strictly necessary, but there can be unintended consequences when missing double quotes like much of your code. I've provided a cleaned up version here, but the same approach should apply to the upper configuration/definition block too.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801957/bash-pipeline-syntax-error-near-unexpected-token-else
+
+---
+
+#### 7756. How to make this command prompt?
+
+**问题描述 / Problem Description**:
+Tags: bash, prompt | Score: -4 | Views: 298 | Answers: 3 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+It could be from a lib like oh-my-zsh or starship , but you can reproduce this PS1 in your ~/.bashrc for example with: reset="\[$(tput sgr0)\]" blue="\[$(tput setaf 4)\]" cyan="\[$(tput setaf 6)\]" sep="㉿" line1="${blue}┌──(${cyan}\u${blue}${sep}${cyan}\h${blue})-[\w]${reset}\n" line2="${blue}└─\$ ${reset}" PS1="${line1}${line2}" typeset +x PS1 # ⁶ If tput commands fails, use: reset='\[\e[m\]' blue='\[\e[34m\]' cyan='\[\e[36m\]' Make sure $PS1 is not export ed, as $PS1 is the variable for the primary prompt string in many shells, not just bash but that syntax is specific to the bash shell. \[...\] is special prompt syntax in the bash shell to tell it that what's inside doesn't take up any space. The zsh equivalent would be %{...%} like in tcsh though in zsh, you wouldn't need it as it has prompt expansion operators for colour: PS1=$'%F{blue}┌──(%F{cyan}%n%F{blue}⚙%F{cyan}%m%F{blue})-[%~]%f\n%F{blue}└─$%f ' Prompt expansion escapes used: Description bash tcsh / zsh user name \u %n machine name \h %m working directory \w %d / %~ ¹ foreground colour² N/A³ %F{colour} ⁴ newline character \n ⁵ literal LF like with $'\n' escape character \e ⁵ literal ESC like with $'\e' to embed literal escapes \[...\] %{...} See info bash prompting and info zsh 'prompt expansion' for details. ¹ %~ is like %d but presents home directories (and more) with their ~ or ~user notation (bash's \w only does it for $HOME -> ~ ). ² not in tcsh; note that in tcsh, the name of the variable is $prompt ; in zsh $PS1 is an alias for $PROMPT ³ you need to embed the escapes for the current terminal literally within \[...\] as shown (with \e or literal ESC for the escape character). tput can be used to query the terminfo database for the right syntax to use for the terminal specified in $TERM assuming they don't contain \!$ characters. ⁴ and %f to reset the foreground colour to the default. ⁵ Or embed literally using for instance $'\n' or $'\e' like you'd do in zsh. ⁶ typeset +x PS1 removes the export flag so PS1 is a shell-local variable, not inherited by child processes.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800519/how-to-make-this-command-prompt
+
+---
+
+#### 7757. How to redirect command output to a file if the command itself contains redirection
+
+**问题描述 / Problem Description**:
+Tags: shell-script, shell | Score: -4 | Views: 254 | Answers: 1 | Created: 2025-09-11
+
+**解决方案 / Solution**:
+FWIW, I can reproduce it after: export BASH_ENV=~/.foolishenv cat > "$BASH_ENV" << 'EOF' shopt -s expand_aliases alias remote_execute='alias remote_execute=; fool' EOF Then: $ ./your-script ./your-script: line 13: echo abc=123 > /a/b/c/abc.txt: No such file or directory Other than that, I can't see how your script could produce that error.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/799630/how-to-redirect-command-output-to-a-file-if-the-command-itself-contains-redirect
+
+---
+
+#### 7758. Are simple command variable assignments accessible in nested scripts? e.g., does `child.sh` have "FOO=BAR" when running "FOO=BAR ./parent.sh"?
+
+**问题描述 / Problem Description**:
+Tags: bash, shell, environment-variables | Score: -4 | Views: 121 | Answers: 1 | Created: 2025-05-17
+
+**解决方案 / Solution**:
+FOO=BAR ./parent.sh prints: parent.sh BAR child.sh BAR In other words, when running a "simple command" with variable assignments , the variables are accessible to the command and any child command(s) it calls. BONUS : What will print if FOO=BAR ./parent.sh; ./parent.sh is run? parent.sh BAR child.sh BAR parent.sh child.sh
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/795015/are-simple-command-variable-assignments-accessible-in-nested-scripts-e-g-does
+
+---
+
+#### 7759. Thousands of Linux distros that have an UI offer a Terminal going on a shell. But on Android it seems that such Terminal cannot exist. Why?
+
+**问题描述 / Problem Description**:
+Tags: shell, terminal, android | Score: -4 | Views: 171 | Answers: 1 | Created: 2024-11-01
+
+**解决方案 / Solution**:
+Nothing prevents terminal emulators on Android. The most famous one is probably Termux but it’s not the only one. Google Play Store policies make it complicated to publish functional terminal emulators there, other than terminal emulators designed solely to access remote systems. See the Termux documentation for a brief summary.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/785949/thousands-of-linux-distros-that-have-an-ui-offer-a-terminal-going-on-a-shell-bu
+
+---
+
+#### 7760. Moving file with date using Unix command
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script, shell | Score: -4 | Views: 132 | Answers: 1 | Created: 2024-08-10
+
+**解决方案 / Solution**:
+dt=$(date +%Y%m%d) mv DAPRETAIL$dt*.XML destination_folder_path
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/781701/moving-file-with-date-using-unix-command
+
+---
+
+#### 7761. Find latest file in multiple directories
+
+**问题描述 / Problem Description**:
+Tags: bash, debian | Score: -5 | Views: 78 | Answers: 1 | Created: 2026-07-15
+
+**解决方案 / Solution**:
+To find the oldest file in each directory: ls -lt a b ls List files -l Long listing -t Sort by last modification time 'a b' is a list of directories to search. The last file in each directory is the oldest. If you want the newest, simply add -r which reverses the sort order: ls -ltr a b Now, the last file in each directory is the newest. There are many other options listed on the man page, e.g. -c uses create time (strictly time of last change of file status information) instead of last modification time. To show only file per directory, use a for loop: for f in $(ls -f) do echo $f ls -ltr $f|tail -1 done Again use or omit -r as per your requirement. The echo is optional, but identifies the directory of each file.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806721/find-latest-file-in-multiple-directories
+
+---
+
+#### 7762. To have ., the source synonym, workable
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-builtin | Score: -5 | Views: 111 | Answers: 1 | Created: 2025-10-16
+
+**解决方案 / Solution**:
+While in the Bourne shell, function names had the same restrictions as variable names¹, in bash, at least when not in POSIX/ sh mode, function and alias names can contain a number of non-alphanumeric characters other than _ , including . . See valid_function_word() and valid_alias_name() in the code for details. In POSIX mode (like when invoked as sh or with -o posix or with POSIXLY_CORRECT in the environment), it doesn't let you redefine special builtins as functions, and source / . happen to be special builtins , but that doesn't apply when not in POSIX mode nor for aliases. .() { echo not .; } # Bourne style function . { echo not .; } # Korn style alias '.=echo not .' Would be ways to redefine . as a function or alias like you would do for any other command. To call the real . when there is an alias for it, same as for any other builtin, I don't see why this would not work: builtin . scriptYouNeedToSource Or the POSIX equivalent: command . scriptYouNeedToSource This would also bypass a . alias (bash doesn't allow \ in alias names, so there can't be an alias for \. in current versions of bash), not function: \. scriptYouNeedToSource Note that if you find that . / source doesn't work as expected, it could also be that bash has been started in restricted mode (with -r ), in which case you can only source files found in $PATH . ¹ function and variable names actually shared the same namespace. You couldn't have both a function and variable by the same name.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800505/to-have-the-source-synonym-workable
+
+---
+
+#### 7763. "File name too long" when printing a long base64 string. Why?
+
+**问题描述 / Problem Description**:
+Tags: bash | Score: -10 | Views: 207 | Answers: 1 | Created: 2025-10-10
+
+**解决方案 / Solution**:
+Because you're not printing the string. There is no implicit echo in Bash like there is in PowerShell or in a Python REPL. Instead, the first word of the statement is always the command to be run, even if it's a variable – the result of the variable expansion still becomes the command. To print the contents of the variable, use either an explicit echo (shows the result of an expansion) or declare -p (takes a variable name and shows its shell representation), depending on what you're trying to see. echo "$IMG_BASE64" declare -p IMG_BASE64
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/800377/file-name-too-long-when-printing-a-long-base64-string-why
 
 ---
