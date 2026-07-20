@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7763**
+**总计条目 / Total entries: 7800**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -108871,5 +108871,486 @@ Because you're not printing the string. There is no implicit echo in Bash like t
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/800377/file-name-too-long-when-printing-a-long-base64-string-why
+
+---
+
+#### 7764. Why does my request line limit in Apache seem not to equal the default limit?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-http-server, url | Score: 1 | Views: 184 | Answers: 2 | Created: 2026-07-20
+
+**解决方案 / Solution**:
+Apache's LimitRequestLine (default 8190) limits the size of the entire Request-Line, not just the query string. The Request-Line has this shape: METHOD SP request-target SP HTTP-version For your curl -I "http://localhost?<N bytes>" , the actual line Apache parses is: GET /?aaaa...a HTTP/1.1 Breaking down the fixed overhead: GET → 4 bytes /? → 2 bytes → N bytes (your payload) HTTP/1.1 → 9 bytes Fixed overhead = 4 + 2 + 9 = 15 bytes. For your working case (8175 bytes of a): 15 + 8175 = 8190 — exactly Apache's default LimitRequestLine. That's why it succeeds: it's right at the limit, not under it by coincidence. For your failing case (8176 bytes of a): 15 + 8176 = 8191 — one byte over the 8190 limit, so Apache correctly returns 414 Request-URI Too Long. Now the log check: You ran tail -n1 access.log after running both curl commands. The last line logged was from your second (failing) request — the 8176-byte one — not the first, successful one. So $2 (the %r field) contains the request line as Apache received/logged it for that rejected request, which is exactly 8191 bytes — matching the 15+8176 math perfectly. In short: the "off by one" isn't a real discrepancy at all. LimitRequestLine 8190 is being enforced exactly as documented. Your successful request's actual request-line length is 8190 (right at the limit). The value 8191 you saw in the log belongs to the next request — the one that exceeded the limit by 1 byte and was correctly rejected. If you'd logged/measured the first (successful) request specifically, you'd have seen 8190, matching the directive precisely. Practical way to confirm this on your box, so you have concrete evidence for the SO answer: bash # Log the successful one specifically curl -I "http://localhost?$( head -c 8175 /dev/zero | tr '\0' a )" tail -n1 /var/log/apache2/access.log | gawk -F\" '{ printf "%s", $2; }' | wc -c # should print 8190 curl -I "http://localhost?$( head -c 8176 /dev/zero | tr '\0' a )" tail -n1 /var/log/apache2/access.log | gawk -F\" '{ printf "%s", $2; }' | wc -c # should print 8191, and the response will be 414 That will show 8190 for the success case and 8191 only for the rejected case — confirming the "off-by-one" was just which log line you happened to check, not any real inconsistency in Apache's enforcement.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939164/why-does-my-request-line-limit-in-apache-seem-not-to-equal-the-default-limit
+
+---
+
+#### 7765. 432 Linux kernel CVEs published in the last 24 hours
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1siqn/432_linux_kernel_cves_published_in_the_last_24/
+
+---
+
+#### 7766. Linux patches introduce "KNOD" for in-kernel network offloading directly to AMD GPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1mleq/linux_patches_introduce_knod_for_inkernel_network/
+
+---
+
+#### 7767. Linux's Qualcomm Crypto Accelerator Driver "Harmful" And Being Disabled: Slower Than CPU, History Of Bugs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1n0c4/linuxs_qualcomm_crypto_accelerator_driver_harmful/
+
+---
+
+#### 7768. [OC] QuickShare / Nearby for Linux v0.5 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1gj3r/oc_quickshare_nearby_for_linux_v05_released/
+
+---
+
+#### 7769. Who’s responsible for bug reports on old software versions? | Perspective from a KDE Developer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v156k7/whos_responsible_for_bug_reports_on_old_software/
+
+---
+
+#### 7770. Some Changes to GNOME Security Tracking
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1rs51/some_changes_to_gnome_security_tracking/
+
+---
+
+#### 7771. 27th Debian Conference (DebConf 26) is underway!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1mpky/27th_debian_conference_debconf_26_is_underway/
+
+---
+
+#### 7772. WanderingThoughts: The Rust coreutils (uutils) are sticky in Ubuntu 26.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1gftm/wanderingthoughts_the_rust_coreutils_uutils_are/
+
+---
+
+#### 7773. TIL about `pv --watchfd`
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1bh8u/til_about_pv_watchfd/
+
+---
+
+#### 7774. [OC] m3qs — Material 3 clock widgets for Quickshell with wallpaper-synced theming
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1ovht/oc_m3qs_material_3_clock_widgets_for_quickshell/
+
+---
+
+#### 7775. Looking for guidance on moving my low-latency C++ project from AF_PACKET to real DPDK kernel bypass
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1qov1/looking_for_guidance_on_moving_my_lowlatency_c/
+
+---
+
+#### 7776. git send-mail uncanny completion behavior...although, never encountered
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v14jwu/git_sendmail_uncanny_completion_behavioralthough/
+
+---
+
+#### 7777. Mt Sync - (Auto)Mount and Sync your data from anywhere
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v1vc7m/mt_sync_automount_and_sync_your_data_from_anywhere/
+
+---
+
+#### 7778. [V2EX] [震惊] 用 Firefox 播放一个抖音视频，我的 Linux 系统立马死机
+
+**问题描述 / Problem Description**:
+由于我的系统是魔改的 Ubuntu 16.04 + Kernel 6.19 + Mesa 25.1.4 + libva 2.11 + Firefox 152(参考： https://v2ex.com/t/1179778 ), 最近突然发现机器经常卡顿，最终定位发现播放某一个抖音视频（《归墟》 第一季 1-9 合集）时，立马出发 AMDGPU VCNU 固件报错，严重时显卡失去响应，需要强制断电重启。 嗯，这也算一种 Linux “攻击”吧😁，通过某些特殊的视频编码，层层穿透，直达内核。 打算切换到 nix 的 mesa 26.1.5 + Firefox 152 了。 OS: Ubuntu 16
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228447#reply2
+
+---
+
+#### 7779. [V2EX] 强烈推荐一款性价比极高的 Linux 本搞 vibe coding
+
+**问题描述 / Problem Description**:
+Linux 笔记本这里讨论过很多次，我自己都多次发帖，我也前后用过折腾过一二十个笔记本， 60% Apple, 30% Thinkpad X1C/T 系列 10% 杂牌甚至 PAD/Surface 系列 多多少少都有不满意的对方，大部分是兼容问题，电池问题，驱动问题，启动问题，稳定问题。 由于目前我自己主要用 AI 来写一些小项目，所以主要考虑轻便，续航高，性能无所谓，由于 M 芯片支持不是太友好，要不然 M 芯片应该是首选。 后来我研究发现 12 寸的 Macbook+Omarchy 是极品配置 我以前定制过一台 12 寸的，好像 1.2w 买的，用了半年不习惯（那个时候觉得性能不行发热）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227981#reply33
+
+---
+
+#### 7780. [V2EX] 为啥 ubuntu 搞个 wayland 这种不兼容的玩意出来
+
+**问题描述 / Problem Description**:
+好好的 xorg 放弃掉,兼容性很大问题 wayland 下的远程桌面没法共享一个会话,只能用 vnc,wayland 下的 sogou 输入法也基本用不了. 内置的那个智能中文输入就象个智障一样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1223777#reply16
+
+---
+
+#### 7781. [V2EX] 大家用 Claude Code / Codex 攒了几个月的"经验"，最后都去哪了？
+
+**问题描述 / Problem Description**:
+重度用 Claude Code + Codex 大半年，~/.claude/projects 和 ~/.codex 里躺了几百个 session ，全是当时一起踩坑、定方案、改 bug 的过程。问题是这些几乎再也不会被翻出来——换台机器、换个工具、开个类似的新项目，之前和 agent 一起搞明白的东西就锁死在旧的 JSONL 里了。 现在主流的"记忆"方案（ CLAUDE.md 、各种 memory MCP ）解决的是"下次别忘"，但我想说的是另一个问题： 积累下来的那部分 ，怎么变成能带走、能复用的资产。 想问问大家真实的做法（不是假设，是你实际干过的）： 你有没有真的翻回旧 session
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228685#reply9
+
+---
+
+#### 7782. [V2EX] 程序员这个职业算是快完蛋了，但是生活还要继续，有没有好的出路互相交流一下？
+
+**问题描述 / Problem Description**:
+建了一个交流群，有兴趣的可以加群交流一下，话题领域包括： 投资：本人 10 年以上投资经验，对各种投资产品从股票到期权，期货等都有一定经验。 加密货币：长期持有 BTC,ETH 等主流币，最近比较喜欢研究好用的 U 卡。 自媒体：目前在 B 站和抖音有一个几千粉的账号做副业。 其他话题：Vibe coding ，生活经验，生活趣事等等都可以分享。 交流加群： https://shimo.im/docs/loqeMdRv5nUDb6qn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228676#reply0
+
+---
+
+#### 7783. [V2EX] 某些 App 能不能不要这么自作聪明
+
+**问题描述 / Problem Description**:
+今天打开高德地图，想把搜索结果长截屏发给别人，因为我是小米手机，按正常逻辑来说，截图后右上角会出现长截屏以及分享图片的选项。 但是我一截图，刚想点击长截屏，高德就出来个分享菜单覆盖住了页面，导致页面没办法向下滚动，长截屏只能截到单屏页面。如果我点击 X 号关闭菜单，右上角小米的截屏分享控件也会消失。 安卓又不是 iPhone ，截屏分享早都是各家厂商在系统里就实现好的便捷功能，当用户是傻子不知道用吗，开发这个功能的不觉得是脱裤子放屁？而且我他妈根本就没安装微博，你的微博按钮是怎么冒出来了，难道连基本的 App 安装判断都没做？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228669#reply11
+
+---
+
+#### 7784. [V2EX] 有什么比较丝滑的远程桌面工具
+
+**问题描述 / Problem Description**:
+目前在使用的向日葵，但是远程使用非常卡顿，体验感非常差； 计划打算开下向日葵的会员，看下是否会解决卡顿问题， 我自己使用感觉下来 ，windows 自带的远程桌面连接，是真的好用且不卡；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228666#reply16
+
+---
+
+#### 7785. [V2EX] AI 时代低代码产品是否还有意义？
+
+**问题描述 / Problem Description**:
+如题所述，AI 时代特别是模型发展如此迅速，低代码产品是否还有意义？ 各位有还在维护的低代码产品或者基于低代码的系统吗？现在维护情况如何？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228638#reply20
+
+---
+
+#### 7786. [V2EX] 主人、奴隶、马具、细绳、控制者、模特：程序员太爽了
+
+**问题描述 / Problem Description**:
+v 站很多程序员应该都年入百万
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228637#reply4
+
+---
+
+#### 7787. [V2EX] 记录一下： AI 图片 prompt 越写越长，不如先把参考图的职责拆清楚
+
+**问题描述 / Problem Description**:
+最近给一个图像生成相关页面做测试，发现自己很容易陷进一个坑：图不对，就继续往 prompt 里加词。 比如一开始是： modern editorial image, clean, premium, cinematic, minimal 然后发现不对，又开始补： not too futuristic, not too dark, clean but not empty, premium but not luxury 写到最后，prompt 已经不像需求了，更像在跟模型讨价还价。 我测试的页面是这个： https://krea2.io/ 主要是拿它试 reference image / image
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228630#reply2
+
+---
+
+#### 7788. [V2EX] 记录一下：给一个 AI 音乐站做 demo BGM 时， prompt 参数比形容词重要得多
+
+**问题描述 / Problem Description**:
+最近给自己一个小页面做 demo 视频，想快速弄一段不侵权、能放在背景里的音乐。之前总觉得 AI 音乐就是输入一句“cinematic / emotional / inspiring”然后碰运气，实际折腾下来发现，真正有用的不是这些形容词，而是更具体的音乐参数。 我测试的页面是这个： https://flowmusic.co/ 不是来吹效果多神，主要是拿它当一个 text-to-song 的测试对象。 比较稳定的 prompt 写法大概是： lo-fi hip hop, dusty piano, vinyl crackle, mellow, 70 bpm, no vocals 比下面这种靠谱很
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228614#reply1
+
+---
+
+#### 7789. [V2EX] 总结我的几个 Claude 账号情况
+
+**问题描述 / Problem Description**:
+共有 3 个 claude 账号： 使用了 3 年以上的老账号，25 年在取消订阅后，间隔一个月再次订阅时被封，几个月前申诉后被解封，当前订阅了$100 的 MAX ，一切正常 在 1 被封后注册的新账号，注册后进行几次对话后，未再次使用，数周后收到邮件告知被封号 今年注册的新账号，存活数个月，最近一个月未进行使用，上周收到邮件被封号 这三个账号都在同一个 PC 上使用，使用的相同的网络出口
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228589#reply2
+
+---
+
+#### 7790. [V2EX] 百度的文心大模型最近有人在用吗，现在啥水平了
+
+**问题描述 / Problem Description**:
+如题，最近有人试过这个模型吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228586#reply1
+
+---
+
+#### 7791. [V2EX] 所以说，你们对大模型是一点黏性都没有的？
+
+**问题描述 / Problem Description**:
+从 DP4 ，到 GLM 5.2 ，到 K3 ，说换就换，毫无纠结，就跟渣男一样…… 那，做了一半的任务，是直接在新模型上继续了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228568#reply66
+
+---
+
+#### 7792. [V2EX] /goal 跑了 80(62 + 18)h 的结果， 18w 行代码。200 多个 commit。
+
+**问题描述 / Problem Description**:
+先感谢 codex 最近疯狂重置，总共用了大概 40 亿 token 。 需求和目标起点在 https://github.com/erweixin/langshift.dev/tree/ai-start 这个分支。goal 中相关的几个文档都在。 这个 goal 完成的代码在 https://github.com/erweixin/langshift.dev/tree/ai-generated 后面又以 https://github.com/erweixin/langshift.dev/commit/f82bbd377f9da999f4c514d869cb91ad582c5b43#diff-6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228560#reply6
+
+---
+
+#### 7793. [V2EX] 那种完全不碰具体框架，只考虑工程结构的 ai 开发模式有谁实践过？
+
+**问题描述 / Problem Description**:
+我对 ai 在编程最复杂的使用，要么就是写一大堆提示词，要么就是写一个接口，两个接口，写几个类，然后写提示词，交给 ai 去完善，但是这些在提示词中，都还是限定了语言的。 那有没有那种完全不碰具体框架，只考虑抽象的工程结构的 ai 开发模式，有没有大佬践行过？ 比如我开发一个前后端软件项目，我不关心 ai 用的是 html/css/js 写前端还是用其他写的，后端用 java 用 c#写的我不关心，后台数据库用啥我也不关心。 我只需要负责考虑抽象的工程结构如何设计。包括有哪些实体类，有哪些枚举，有哪些后台 api ，功能结构流程，页面显示成什么样。 然后让 ai 进行部署打包，让 ai 写好批
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228556#reply19
+
+---
+
+#### 7794. [V2EX] 是否个人创意开发者的噩梦来了？ (小)资本只需要每天自动监控几大下载站，用 AI 自动复刻热点程序并大力推广就行了！
+
+**问题描述 / Problem Description**:
+:(
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228548#reply19
+
+---
+
+#### 7795. [V2EX] 最近在做 SEO 方面的探索，有一些效果不过整体看起来增长缓慢，有没有大佬指导指导。
+
+**问题描述 / Problem Description**:
+主要用了 claude-seo 去做了优化，还增加了落地页，没有想象中的美好。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228543#reply17
+
+---
+
+#### 7796. [V2EX] Claude Code 子代理风暴大家是怎么规避的？
+
+**问题描述 / Problem Description**:
+Claude Code 只限制了递归子代理最大深度 5 ，有时候会拉起上百个子代理，大家是怎么规避的呢？ CLAUDE.md 里声明一个 Agent Policy 有效吗？ 合理的子代理配置各位怎么看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228533#reply15
+
+---
+
+#### 7797. [V2EX] 你觉得 A 厂封号的最大因素是
+
+**问题描述 / Problem Description**:
+ip 时区等系统环境 prompt 语言 用户作息 用量 别挣扎了，claude 其实什么都能分析出来，没用的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228525#reply47
+
+---
+
+#### 7798. [V2EX] v2rayN 里怎么设置才能在 ping0.cc 等测试里通过 dns 测试？
+
+**问题描述 / Problem Description**:
+我记得昨天不知咋设置，dns 测试基本 ok 了。今天又换成其它配置，又不行了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228519#reply2
+
+---
+
+#### 7799. [V2EX] pdd 首页这个事这么火，站里没人讨论下吗
+
+**问题描述 / Problem Description**:
+群里发的是这张图
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228510#reply44
+
+---
+
+#### 7800. [V2EX] Prompt Review 会取代 Code Review？ -- 读《当代码不再稀缺：程序员真正稀缺的是判断力》
+
+**问题描述 / Problem Description**:
+Prompt Review 会取代 Code Review 周末看到 原贴 ， 产生了一些思考： 原文中写到 在开源社区中，学徒制更多体现在 Code Review 的过程中。新人提交代码尝试解决问题，维护者给出反馈。在反复沟通的过程中，整个社区的技术偏好和维护风格得以传承。 这种方式当然很有价值。 但我也在想，随着 AI 开发越来越普及，传统的「学徒制」大概率会被逐渐淘汰 至少在商业开发团队里，除了交付压力的原因，AI 开发带来的效率提升逐渐成为老板们的预期，会让开发排期进一步缩短。 最终导致留给资深开发者逐行阅读新人代码、反复给出修改意见的时间会越来越少。 以真实例子来说，我们团队因为大部
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228509#reply2
 
 ---

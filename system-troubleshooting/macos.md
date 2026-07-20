@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7268**
+**总计条目 / Total entries: 7324**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -98778,5 +98778,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228125#reply20
+
+---
+
+#### 7269. First time Mac OS user, my experience
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1ij0w/first_time_mac_os_user_my_experience/
+
+---
+
+#### 7270. doodled my entire Mac dock and kinda love how it turned out 😅
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v14yor/doodled_my_entire_mac_dock_and_kinda_love_how_it/
+
+---
+
+#### 7271. Best advice for mac beginner?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1xr81/best_advice_for_mac_beginner/
+
+---
+
+#### 7272. OS] TargetBridge 3.2.0 — use a supported Intel iMac as a display for another Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1u1cw/os_targetbridge_320_use_a_supported_intel_imac_as/
+
+---
+
+#### 7273. Custom keyboard shortcuts possible?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1uz7e/custom_keyboard_shortcuts_possible/
+
+---
+
+#### 7274. How do I find out which start up items are causing this ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1pj9d/how_do_i_find_out_which_start_up_items_are/
+
+---
+
+#### 7275. 8k h264 playback is broken on MacOS after 26.5.1, M4 Max. Can any M5 users test this? Any suggestions?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1lyn0/8k_h264_playback_is_broken_on_macos_after_2651_m4/
+
+---
+
+#### 7276. Internet sharing channel dropdown inactive
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1zx0g/internet_sharing_channel_dropdown_inactive/
+
+---
+
+#### 7277. How are these both so different?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1ysq3/how_are_these_both_so_different/
+
+---
+
+#### 7278. How capable is this “Turn Text into Audio” service?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1oez6/how_capable_is_this_turn_text_into_audio_service/
+
+---
+
+#### 7279. How to type plain quotes without disabling smart quotes text substitution
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1t0w7/how_to_type_plain_quotes_without_disabling_smart/
+
+---
+
+#### 7280. All tabs are saying Start Page in Safari after Tahoe update?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1smnx/all_tabs_are_saying_start_page_in_safari_after/
+
+---
+
+#### 7281. Podcast app sync
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1qgo0/podcast_app_sync/
+
+---
+
+#### 7282. What's the best way to switch to a specific app window?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1djen/whats_the_best_way_to_switch_to_a_specific_app/
+
+---
+
+#### 7283. MacBook Pro M3 Pro only detects one of two monitors randomly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1pk18/macbook_pro_m3_pro_only_detects_one_of_two/
+
+---
+
+#### 7284. Virtual machine MacOS Ventura
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1v2qg/virtual_machine_macos_ventura/
+
+---
+
+#### 7285. Seeking solution to copy an old Time Machine backup and preserving hardlinks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1nqbn/seeking_solution_to_copy_an_old_time_machine/
+
+---
+
+#### 7286. Reply emails containing entire conversation with outlook on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1n9ap/reply_emails_containing_entire_conversation_with/
+
+---
+
+#### 7287. Just received this from eBay should I go to tahoe or stay in big sur because Ik how hot these 16 inch MacBook pro 2019 get
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1mhro/just_received_this_from_ebay_should_i_go_to_tahoe/
+
+---
+
+#### 7288. No "generic RGB" or "AdobeRGB" display preset - MBP M4/M5 14/16
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1jwzj/no_generic_rgb_or_adobergb_display_preset_mbp/
+
+---
+
+#### 7289. Transfer speed to SSD extremely slow after installing Paragon For Mac EXT
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1igmc/transfer_speed_to_ssd_extremely_slow_after/
+
+---
+
+#### 7290. macOS Speak Screen Not Working Properly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1csc8/macos_speak_screen_not_working_properly/
+
+---
+
+#### 7291. it's my 4th year with MacBook, I just realized a new feature
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1gfhr/its_my_4th_year_with_macbook_i_just_realized_a/
+
+---
+
+#### 7292. Marketing and distribution advice
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v1g1c7/marketing_and_distribution_advice/
+
+---
+
+#### 7293. [V2EX] [NanoTab] vibe 了一款 mac 窗口切换工具并分享一下我的窗口管理方案
+
+**问题描述 / Problem Description**:
+NanoTab NanoTab 是一款面向键盘用户的 macOS 窗口切换器：通过窗口图标、标题和数字编号，快速定位并直达任意窗口。它保留同一应用的独立窗口与最小化窗口，让多桌面、多窗口工作流更顺手。 开发动机： 在我日常使用窗口切换时，往往需要通过图标加上标题来定位窗口，在此基础上我希望能通过数字键盘快速高效的直达窗口，看了下市面上常见的 mac 窗口切换工具都不是我想要的样子，所以我自己 vibe 了一个并分享一下我的使用经验。 基础功能： 快捷键 操作 ↑ / ↓ 或 K / J 选择上一个或下一个窗口 ← / → 或 H / L 切换上一页或下一页 Return 切换到所选窗口 1 –
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228618#reply0
+
+---
+
+#### 7294. [V2EX] M1Pro 全盘格了重装 26.5.1，然后频繁的进程无响应。
+
+**问题描述 / Problem Description**:
+OSDUIHelper 很频繁的进程无响应。现在所有的多媒体操作一类的都没提示了。全靠 Atoll 。 这个问题是在我格盘重装 26.5.1 后又更新了 26.5.2 的时候出现的。。。 有大佬有解决方案么？→_→ 虽然很想更新 27.但是据说 coding 上 beta 容易鬼打墙→_→ 不是很敢上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228602#reply2
+
+---
+
+#### 7295. [V2EX] 有没有免费的第三方 Launchpad 启动台软件？
+
+**问题描述 / Problem Description**:
+最好流畅不卡顿，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228581#reply3
+
+---
+
+#### 7296. [V2EX] macOS 看图时缩放老是跑偏，我写了个工具解决这个问题
+
+**问题描述 / Problem Description**:
+用 macOS 自带预览器看大图的时候，缩放总是以画面中心为基准，每次滚轮都要手动拖回来对齐位置，挺烦的。 我写了个小工具叫 iMonet ，核心就一个功能：滚轮缩放时，鼠标在哪就放大哪，不用反复拖动。 顺便也做了文件夹一键浏览和缩略图侧边栏，看图方便点。 App Store 刚上架，完全免费 https://apps.apple.com/cn/app/imonet/id6770070921?mt=12 iMonet 欢迎试试，有什么问题直接反馈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228320#reply3
+
+---
+
+#### 7297. [V2EX] 兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！
+
+**问题描述 / Problem Description**:
+原文:本电脑本人自营购买，有发票，有盒子配件齐全的未激活电脑。到手后，没登录 iCloud ，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年，此前密码一直是 0000 ，前天改了也是 6 位纯数字密码。（和手机一起改的同样的密码）然后就正常用，后面电脑又突发恶疾，莫名其妙的断网，故我就重启了，开机时这里又卡住在系统桌面大概 20 多秒才自己关机。（ apple 真垃圾！）关机后重启系统，到输入密码界面发现输入密码错误，试了新的旧的，都错误，但是我能 100%确定密码是正确的，因为我和手机同时改的同样的密码。（纯数字密码，故排除了输入法问题）并且清晰地记得当时改完密码第一时间验证过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228302#reply168
+
+---
+
+#### 7298. [V2EX] 历时 3 个月，用 Swift 在一台 10 年前的 MacBook 上写了个 App，今天上架 App Store 了
+
+**问题描述 / Problem Description**:
+给老婆做的。 她是自由职业，在家干活。没有上下班打卡，早上跟我一起起床，吃完早饭刷完手机，真正开始干活已经 10 点了。午觉睡到下午三点，干一会儿就该吃晚饭了。一整天都没法规律安排。 她跟我说——要是能像上学一样，有上课铃下课铃，到点有人喊你"该干嘛了"，那该多好。 市面上试了一圈：电子闹钟只能设 10 个不够用、番茄钟霸屏对查资料不友好、系统提醒太安静根本注意不到。都放弃了。 所以就自己写了这个—— 小鸡播报 。 🔊 到点大声播报 ：不是弹窗、不是小红点，是真的语音朗读"下午两点啦，开始工作"。电脑上跑，不怕听不到。 👀 悬浮窗始终可见 ：半透明毛玻璃浮在桌面，瞥一眼就知道现在该干嘛。 📋
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228231#reply6
+
+---
+
+#### 7299. [V2EX] 修复使用 UU 远程控制 Macos27 鼠标点击不会切换窗口焦点问题的一个临时方案
+
+**问题描述 / Problem Description**:
+我最近把 macOS 升级了，结果发现 UU 远程控制突然有点不对劲。 鼠标明明已经点到了另一个应用里，点击也确实生效了，可键盘输入还留在原来的应用。比如我人在 A 应用里，通过远程控制点击 B 应用的编辑区域，B 应用里的按钮能点，内容也能操作，但一敲键盘，文字还是跑到 A 应用里。 macOS 新版本似乎收紧了对模拟鼠标事件的处理，等了好久 UU 远程都没更新解决这个问题，最终是求助 AI 做了一个临时方案，以下没有任何推广成分，这是 AI 给出的方案。 我最后用 Hammerspoon 补了一层逻辑：监听鼠标左键点击，看看鼠标下面的窗口属于哪个应用。如果发现它不是当前前台应用，就主动调用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227907#reply7
+
+---
+
+#### 7300. [V2EX] 升级 macOS 27 Public Beta 版本总提示：未能个性化软件更新。请重试。
+
+**问题描述 / Problem Description**:
+https://cleanshot.com/share/KdRQlSVQ 是外置系统硬盘里的系统；内置系统没有升级所以不行的原因吗？ 已尝试关闭“查找、信息”；关闭 VPN 打开 VPN ，更改 DNS 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227637#reply5
+
+---
+
+#### 7301. [V2EX] 求助， macos26，外接显示器，如何在本机屏幕和外接屏幕同时显示 docker？
+
+**问题描述 / Problem Description**:
+如题，两个屏幕位置比较远，只有一个 docker 非常不方便。 目前没找到设置入口，求教如何设置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227450#reply8
+
+---
+
+#### 7302. [V2EX] 我的 macOS 27 b3 怎么不改地区就可以直接使用 News.app 了？
+
+**问题描述 / Problem Description**:
+只让 News.app 走了美国节点就能正常访问了，这是啥情况？ 另一台却不能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227295#reply9
+
+---
+
+#### 7303. [V2EX] os 27 beta 3 launchd 进程占用 CPU 高
+
+**问题描述 / Problem Description**:
+beta 下，有个进程占用 cpu 非常高，190 多%，而且很长时间降不下去。 请问这是什么原因呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225914#reply6
+
+---
+
+#### 7304. [V2EX] 求购或者有偿用一次 dayone plus 账号
+
+**问题描述 / Problem Description**:
+如题，dayone 订阅制实在太贵了，免费版每篇日记只能添加 1 张图。 如果在 dayone 改订阅制之前(2017 年)购买过 dayone ，可以永久享受 plus 账户的权利，每篇日记可以添加 10 张图。 所以想购买一个拥有 plus 账号的闲置账号，或者也可以有偿借你的账号下载一次 dayone ，这样我也可以享受到 plus 的体验。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228671#reply6
+
+---
+
+#### 7305. [V2EX] 土区 App Store 内购方式的 Youtube Premium 被暂停， renew 要求绑定支付方式
+
+**问题描述 / Problem Description**:
+账户内余额充足，但是订阅在到期日被暂停，没有自动续订，也没有邮件提醒，尝试 renew 要求绑定支付方式 目前搜了下只有几个办法（ https://yummy.best/turkey-and-indias-appstore-requires-payment-methods-to-subscribe-to-youtube-premium/） 1. 绑土耳其银行卡后才能恢复余额使用 2. 尝试使用新的 Google 帐号进行订阅， 不知道苹果到底在搞什么，还是说 Google 要求的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228546#reply16
+
+---
+
+#### 7306. [V2EX] 土区内购家庭组 YouTube，现要求添加付款方式或手机号，大佬指点下
+
+**问题描述 / Problem Description**:
+我是司机，年初出现过礼品卡余额充足，但是自动掉订阅情况，后来了解可以在商店中强制 renew ，现在订阅周期又到了，又出现自动掉订阅，之前的方法尝试无果，在支付礼品卡时，要求必须添加支付方式或者手机号，请问大佬现在有什么办法能够过关呢？ 虚拟信用卡？ eSIM ？虚拟短信接码？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228495#reply7
+
+---
+
+#### 7307. [V2EX] iPhone 无法批量导出视频是什么鬼？
+
+**问题描述 / Problem Description**:
+昨天参加娃的活动，拍了几十个 5-6 分钟的视频，s 几十张照片。 回家插到 mac 上用 photos 导入所有新拍的素材。结果吭哧吭哧导入进度条跑了半个小时，只有照片成功导入。 我以为是自己哪里没操作对，就在 photos 里把 ip 上的视频在选了一遍，重新导入。结果又是跑了几十分钟，进度条走完，photo 里没有任何新增视频。 看 photo 搞不定，我又开了图像捕捉，想直接导入文件。图像捕捉第一个视频卡了半个小时都没结果，感觉根本搞不定的样子。 现在苹果 iosg 和 macos 的导入导出配合已经垃圾至此了么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228433#reply6
+
+---
+
+#### 7308. [V2EX] iOS 如何设置能实现像安卓手机的来电提醒一样显示是谁打电话过来的，比如 10086 标识为中国移动这样？
+
+**问题描述 / Problem Description**:
+换了 iPhone 后这点挺困扰的，不知道来电是谁，接了听半天发现是推销广告，不接又怕漏掉重要的通知，安卓手机上都会标识来电是美团、联通、银行什么的，有些还标识为推销或者诈骗，这个功能感觉十分好用，iOS 能通过配置或者三方 app 实现这个功能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228323#reply14
+
+---
+
+#### 7309. [V2EX] iPhone 换电池，都是去官方还是自己买电池换呢？
+
+**问题描述 / Problem Description**:
+因为目前自己手机已经健康度 73%了，以前自己换过，总感觉爱发热，发烫，还很卡！想问问换了官方的会不会好！大家都是选择什么呢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228249#reply20
+
+---
+
+#### 7310. [V2EX] sing box 有望回归 apple store
+
+**问题描述 / Problem Description**:
+Version 1.14 is expected to be released within two months, and there is hope that the App Store version will be restored as well. I will post updates here as things progress.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227752#reply23
+
+---
+
+#### 7311. [V2EX] iOS27 太流畅了，垃圾 26
+
+**问题描述 / Problem Description**:
+升级了 pb1 ，iPhone 17pro ，被 iOS26 折磨了一年，27 终于找回了 18 那种丝滑感，而且水玻璃可以按我喜好调最透明了；还有终于不管适配没适配的应用，键盘都是新样式了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227627#reply18
+
+---
+
+#### 7312. [V2EX] OpenCode banned 8,000 fraudulent OpenCode Go accounts
+
+**问题描述 / Problem Description**:
+we banned someone operating 8,000 fraudulent OpenCode Go accounts they were reselling $480,000 of tokens every month this will make things more sustainable for legitimate users enjoy your week bluesky 上面的 这些人是不是就是那种中转啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228688#reply0
+
+---
+
+#### 7313. [V2EX] 给大家推荐一个开源桌面宠物
+
+**问题描述 / Problem Description**:
+推荐一个有意思的 Codex 开源项目 其实就是 Codex 配了个桌宠，但多了一层功能， 没什么生产力价值，就看着挺有意思。。。 给一个 prompt： 票仔，开今天的票。 它会生成一张今天的 AI 打工小票...哈哈哈哈，that's it 安装： ```bash npx codex-work-receipt@latest --install-companion ``` https://github.com/a-bai-2026/ai-work-receipt 项目已经开源，也发到 NPM 了，Skill 和桌宠会一起装。 属于桌面上又多养了一只没什么用，但也舍不得关掉的东西，也挺好玩对不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228684#reply0
+
+---
+
+#### 7314. [V2EX] A / 的答辩计费系统
+
+**问题描述 / Problem Description**:
+很久之前送的 20 刀我还没用，今天下午 3 点之后按理说应该无法使用 fable5 了（我是 pro 订阅），结果现在 1. 还可以在"Usage credits" off 的状态下在 claude desktop 里边的 code 中用 fable 5. credit 不掉，fable 5 的专属用量条正常消耗 2. 在“Usage credits” on 的状态下，claude code vscode 插件里还是无法用 fable 5.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228657#reply0
+
+---
+
+#### 7315. [V2EX] 最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。
+
+**问题描述 / Problem Description**:
+最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。 核心玩法就是英雄、装备、符文、关卡和刷资源循环。前期看起来简单，玩进去之后会发现 build 、符文路线和刷图选择还挺讲究。 这个攻略站整理得比较清楚，有新手路线、符文、build 、掉落和宝箱计时器： https://taskbarheroatlas.com/ 刚入坑的话可以先看这个，少走很多弯路。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228646#reply0
+
+---
+
+#### 7316. [V2EX] 使用 Neko 搭建 ChatGPT 拼车共享浏览器
+
+**问题描述 / Problem Description**:
+之前开了 GPT Pro 共享车，需要把已经登录的 Web 端共享给车友。直接提供账密码或者分发浏览器资料（比如指纹浏览器），账号凭证和登录状态都不容易控制。 后来我改成用 Neko 共享一台已经登录 ChatGPT 的 Chromium 。车友只进入 Neko 房间，不直接接触账号密码；房间口令、控制权和浏览器可访问的网站可以分别限制。下面记录完整的手动部署过程。 网络结构 先总览一下网络拓扑，帮助大家理解 Neko + 共享浏览器的网络链路： Neko 站点的 HTTPS 、登录接口和 WebSocket 经过 443 ，再由 Nginx 转发到 Neko 的 8080 。 Neko 页面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228623#reply0
+
+---
+
+#### 7317. [V2EX] 经典：上涨时是认知胜利，回撤时是命运喜剧，被质疑时是舆论战争，深套时又变成自我修行。
+
+**问题描述 / Problem Description**:
+峰哥亡命天涯微博炒股时间线：清仓、追涨与情绪循环 基于微博公开页面、原帖链接和新浪转载记录，持续梳理“峰哥亡命天涯”从 2026 年 6 月看多科技，到 7 月反复清仓、满仓追回、再度崩溃的交易表达，并分析其情绪驱动、FOMO 与公开表演式交易循环。 https://2aran.com/s/fVFfsWe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228578#reply1
+
+---
+
+#### 7318. [V2EX] 此时此刻恰如彼时彼刻——国模和丰田
+
+**问题描述 / Problem Description**:
+Codex 在跑，只能刷刷网帖，然后发个帖子分享一下一个有意思的想法。 最近首页上经常刷到国模的各种消息。体验下来和 Codex 差别还是蛮大的。当然，价格也差得蛮大。 但是从最新的各种 kimi K3 和 DeepseekV4 正式版的消息来看，这个差距在缩小。 为什么会用这个标题呢？因为现在的国模非常像日本丰田当年所面临的那个困境。 刚好最近在看制造业相关的书，来一点背景铺垫： 大概 1945 年左右，日本丰田和现在国模遇到的困境差不多。老美和小日子的工业生产效率比值差距书 1:9 。根据大野耐一说的，有人告诉他德国是小日子三倍，老美是德国三倍，所以得出老美是小日子九倍的结论。大野耐一是丰
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228569#reply20
+
+---
+
+#### 7319. [V2EX] 2026 了 大家有没有下用了之后就一直没放下的东西
+
+**问题描述 / Problem Description**:
+1 ditto,listary,everything,irm https://get.activated.win | iex ,每次装机都先装这几个 2 霞鹜文楷 mono 基本上所有的终端和 ide 都用这字体 3 密码锁+nfc+变色龙等破解设备,出门拿个手机就走了 4 烘干机 买了之后基本上就周日晚上洗衣服,开一把游戏,衣服扔烘干机里 每天取衣服,周日洗衣服循环 很爽
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228542#reply10
+
+---
+
+#### 7320. [V2EX] Barbee，这个状态栏 App 真不错呀～
+
+**问题描述 / Problem Description**:
+用过 ice 、thaw 、bartender 但是总是有问题 自从换了 Barbee ，这也没有遇到糟心的事儿了 https://apps.apple.com/us/app/barbee-hide-menu-bar-items/id1548711022
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228513#reply2
+
+---
+
+#### 7321. [V2EX] 快速删除 Excel 表格空行的小工具， WebAssembly 技术加持， wasm 绝佳应用场景
+
+**问题描述 / Problem Description**:
+快速删除表格空行 小工具，一键删除多余空行 这个程序使用了 Excelize 的 WebAssembly 版本。算是 wasm 绝佳应用场景了。 Excel 文件也无法上传服务器，文件有更好的 [隐私保护] 。 AI 来的太猛了，感觉软件开发行业蓬勃发展……势不可挡。 每个小需求，都值得被看见，值得被尊重。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228488#reply2
+
+---
+
+#### 7322. [V2EX] 已入手安克 160w prime 充电头，毕业了
+
+**问题描述 / Problem Description**:
+官翻只要 328 元，比咸鱼价格还低，一步到位不折腾，看了拆解真是电子黄图，对得起价格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228400#reply6
+
+---
+
+#### 7323. [V2EX] [自荐开源] vlaina - 没错就是那个 Catime 作者的新作笔记软件
+
+**问题描述 / Problem Description**:
+vlaina.com https://github.com/vladelaina/vlaina 没错没错，你没看错，就是那个写纯 C 的 Catime 的作者的新作，也是 Catime 半年迟迟没有发布一直在做的事情 提前猜个你会好奇的点： 这个使用什么做的？原生？ Electron,没错，既不是原生，也不是 tauri ，而是大家都在抱怨体积大的 Electron ，相信你一定好奇为啥我这把 Catime 之前做到 200kb 的原生开发者为啥不选 tauri 而是 Electron 吧，答案就留到文章的末尾吧 :smirking_face: 这个是个什么？ 一. 传统的 markdown
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228380#reply2
+
+---
+
+#### 7324. [V2EX] 性生活是不是人的刚需
+
+**问题描述 / Problem Description**:
+刚刚刷到知乎的一个评论，也是被震撼到了，只能说荷兰是一个真的很人性的国家，瞬间有想移民到荷兰的冲动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228347#reply71
 
 ---

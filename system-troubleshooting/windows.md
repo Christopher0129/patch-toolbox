@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8442**
+**总计条目 / Total entries: 8486**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -115643,5 +115643,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228207#reply12
+
+---
+
+#### 8443. If I sign into a site through "Sign in with Google", am I compromosing my google account?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1ogt8/if_i_sign_into_a_site_through_sign_in_with_google/
+
+---
+
+#### 8444. My GPU Utilization is 14144166%?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1w2g8/my_gpu_utilization_is_14144166/
+
+---
+
+#### 8445. JBL Charge 4 sounds muffled/distorted on Windows, but works fine on iOS/Android.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1yr7l/jbl_charge_4_sounds_muffleddistorted_on_windows/
+
+---
+
+#### 8446. I want to set up a wireless local area network between two PCs. I do not connect to the internet on one of them.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1tnqr/i_want_to_set_up_a_wireless_local_area_network/
+
+---
+
+#### 8447. My PC has a weird SSD issue that nobody can reproduce
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1eyv0/my_pc_has_a_weird_ssd_issue_that_nobody_can/
+
+---
+
+#### 8448. I have two phones. I am connected to Spotify on both of them. The older (Samsung A70) plays all the podcasts that I try to listen to. The newer one (Samsung A54) doesn't play, e.g. Pod Save America, or the Tim Dillon Show... I also tried playing them on Pocket Casts and Podcast Player, and failed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1u7fk/i_have_two_phones_i_am_connected_to_spotify_on/
+
+---
+
+#### 8449. My phone is charging weird.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1tm5i/my_phone_is_charging_weird/
+
+---
+
+#### 8450. My laptop refuses charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1pgtq/my_laptop_refuses_charging/
+
+---
+
+#### 8451. Stuck with Black screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1z10n/stuck_with_black_screen/
+
+---
+
+#### 8452. Color banding issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1yv36/color_banding_issue/
+
+---
+
+#### 8453. How do I stop Snipping Tool from auto capturing? I want to choose between Copy, Save and Save As every time
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1oz45/how_do_i_stop_snipping_tool_from_auto_capturing_i/
+
+---
+
+#### 8454. My laptop keeps having stutters in games that come with weird audio crackles that make game sound lag
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1sd7b/my_laptop_keeps_having_stutters_in_games_that/
+
+---
+
+#### 8455. A lot of issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1s42d/a_lot_of_issues/
+
+---
+
+#### 8456. Bluetooth drivers keep crashing/shutting down windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1y9ms/bluetooth_drivers_keep_crashingshutting_down/
+
+---
+
+#### 8457. Google Nexus 7 (2012) Not Turning On
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1y4gv/google_nexus_7_2012_not_turning_on/
+
+---
+
+#### 8458. PC overhaul
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1y3ut/pc_overhaul/
+
+---
+
+#### 8459. Microsoft Edge Slowdown
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1y0kk/microsoft_edge_slowdown/
+
+---
+
+#### 8460. Why do my airpods disconnect while doing the dishes?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xuix/why_do_my_airpods_disconnect_while_doing_the/
+
+---
+
+#### 8461. Lots of RAM Usage w/ no apps (Not Caching)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xu62/lots_of_ram_usage_w_no_apps_not_caching/
+
+---
+
+#### 8462. Windows boots in UEFI, but my Gigabyte Hybrid EFI board only boots Linux USBs in Legacy mode can I get one boot menu for both?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xsn5/windows_boots_in_uefi_but_my_gigabyte_hybrid_efi/
+
+---
+
+#### 8463. strange behavior after Llano V12 Ultra software usage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xn0t/strange_behavior_after_llano_v12_ultra_software/
+
+---
+
+#### 8464. Need solution for my coaching app issue . I can't use it on my laptop or big screens and it's only work on mobile app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xkry/need_solution_for_my_coaching_app_issue_i_cant/
+
+---
+
+#### 8465. Games start crashing today??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1xi45/games_start_crashing_today/
+
+---
+
+#### 8466. My psu makes weird static noises whenever I boot up my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v1l3n2/my_psu_makes_weird_static_noises_whenever_i_boot/
+
+---
+
+#### 8467. [V2EX] 如何才能找到一名合适的同性伴侣？
+
+**问题描述 / Problem Description**:
+各种交友软件上（比如 Blued 等）几乎都是约 p 的，小红书这些的话，很多都是要求很高的人（各种卡颜卡身材...）而且也不乏乱搞的。 有没有新颖的方式来找同圈子的人，就正常发展，先慢慢认识彼此，合适再继续发展，不合适就 say bye 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228686#reply0
+
+---
+
+#### 8468. [V2EX] 我有两个思考多年的问题一直没能解决
+
+**问题描述 / Problem Description**:
+是这样的，我相信大多数人，都不喜欢屎尿粘在身上或者衣服上对吧。但是这在公厕里又是不能避免的问题，可能很多人会问，你小心一点怎么会粘上屎尿呢。其实是这样： 一个是男厕的小便池，当我们小便的时候，水柱落在小便池里，很容易飞溅出来。而如果最后是无力的下落，肯定会落在便池的下沿，这个位置只要滴水，必定会向四周飞溅。所以飞溅的小水珠，可能会有自己或者残留在便池上其他人的尿，这些水珠会飞溅在裤子上。然后最后很可能还有落在地上的，落地的水珠也必定会向四周飞溅，到鞋子上。大多数时候，我都会通过寻找有蹲坑的公厕去包间里小便解决这个问题。 还有一个是大便的时候马桶飞溅的问题，扔一片纸有时候只管一条那个，第二条还是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228667#reply5
+
+---
+
+#### 8469. [V2EX] 电动剃须刀大家有推荐的吗？
+
+**问题描述 / Problem Description**:
+家中老父今日突然让我给他买个电动剃须刀。说自己 20 年前买过一款日立的剃须刀，好用得很。后来唯刀网坏了，配不上，遂扔之。说起来我还有点惊讶，日立还出剃须刀？ 我一直用百来块的深圳货，感觉挺好用的。但细细想来，一是确实我也忘却了品牌；二是考虑到老父年岁已高，许是当年对舶来品有些好感，无论是投其所好，还是给老父展现一下国内制造业如今也不差的实力，还是买牌子货比较好，国货洋货均可，只要好用。 无奈我并不懂各中区别，面对各型号感觉眼花缭乱。不知大家有何推荐？谢谢大家！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228656#reply5
+
+---
+
+#### 8470. [V2EX] 失业马上一个月了 ，大家是怎么度过没工作的时期的。
+
+**问题描述 / Problem Description**:
+岗位减少太多了，招聘软件基本都是已读不回。看了一个月世界杯，不知道路在何方
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228644#reply8
+
+---
+
+#### 8471. [V2EX] 判断中转 api 是否掺假国产模型是不是可以通过问敏感问题，看看能不能回答出来判断
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228634#reply2
+
+---
+
+#### 8472. [V2EX] 吃完伟哥，女人不在的话咋办？
+
+**问题描述 / Problem Description**:
+自己撸会是啥感觉。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228633#reply15
+
+---
+
+#### 8473. [V2EX] 上海有什么值得加入的外企或创业公司
+
+**问题描述 / Problem Description**:
+从毕业就在大厂，累了，有什么值得的公司推荐么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228626#reply0
+
+---
+
+#### 8474. [V2EX] 二手纯电车怎么选，靠谱么？
+
+**问题描述 / Problem Description**:
+有没有接触过二手纯电车的兄弟，我看新车 20w ，基本上 1 年就是 7 折，2 年就 5 折了，比如 2024 款的极氪 007 ，领克 z10 ，小米 su7 ，model3 ，这些车二手车性价比好像很高，比新车便宜了 8-10 万，性价比很高
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228621#reply6
+
+---
+
+#### 8475. [V2EX] 也许空间并没有我们想象的那么大
+
+**问题描述 / Problem Description**:
+缘起 codex 上周多次的重置, 让自己有了一些错觉, token 可以使劲的用了, 没有用过 claude code, 刚开始的时候,两个账号被封禁后, 就没有使用过它了, 在其他平台也能用 claude 的模型, 可我没有 claude 的账户. 看到很多人说账号被封, 我想了解下,openai/claude 到底有多少用户是国内在用, 封禁我们, 到底对他们有多大的影响 分析下 1 国内程序员的人数, 在全世界的比例 排名 国家或地区 GitHub 开发者数量 全球占比 同比增长 1 美国 3241.1 万 18.14% 25.4% 2 印度 2672.7 万 14.96% 38.8%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228606#reply4
+
+---
+
+#### 8476. [V2EX] 网上卖的除甲醛喷雾和一些除甲醛包是智商税吗？
+
+**问题描述 / Problem Description**:
+如题，这些东西价钱还不便宜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228598#reply16
+
+---
+
+#### 8477. [V2EX] 如何解决在境外坐车，半路被蒙头，拉去缅北的场景问题
+
+**问题描述 / Problem Description**:
+我想带我爸妈去泰国玩玩。 如果你已经上了车，并且还是导游带的车，半路就让你下车，把你拉到缅北。如何提前预判？好像无解啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228576#reply60
+
+---
+
+#### 8478. [V2EX] 你们能接收的 Vibe Coding 成本价格大约是多少？
+
+**问题描述 / Problem Description**:
+我能接受的极限大约是用 50 元换一人天的工作量，再多就太贵了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228566#reply1
+
+---
+
+#### 8479. [V2EX] 客厅只想让空调制冷一块地方,有什么隔热的办法.
+
+**问题描述 / Problem Description**:
+目前客厅大概有一半是摆了桌子和电视,然后刚好是一块凹进去的地方.目前是通行的地方用顶天立地杆搞了个窗帘,桌子那里直接买了个那种车库的大帘子挡着,但是感觉效果不好. 这个老式空调一直 1200w 满功率跑,我刚好在空调下面被吹冷死了他还是 1200w,不知道有没有啥办法能让他温度到了之后就别太制冷了. 顺便主卧有个大阳台,中间没有隔断,上次晚上回家里面 35 度,空调开了 3 个小时坐在空调底下都热..
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228557#reply4
+
+---
+
+#### 8480. [V2EX] 安卓平板上有使用 claude code/ codex 或者别的什么 agent 的姿势吗？
+
+**问题描述 / Problem Description**:
+搞了个便宜的安卓平板+悬浮键盘 平时在客厅的时候懒得捧着电脑了，安卓平板上似乎官方 app 只支持 chatbot 除了 remote 到自己的电脑，还有什么姿势可以用 claude code / codex 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228547#reply6
+
+---
+
+#### 8481. [V2EX] 怎么用气息说话，而不是用嗓子说话
+
+**问题描述 / Problem Description**:
+本人从小到大都是用嗓子发声，说话唱歌都很废嗓子，开个会一个小时嗓子就哑了，查了一下正确的应该使用气息发声，有谁自学或者找过声乐老师学习怎么正确用气息发声吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228540#reply5
+
+---
+
+#### 8482. [V2EX] “坚持密码正确也无法解锁”与“加解密的技术”讨论
+
+**问题描述 / Problem Description**:
+要将清楚这个 先得讨论加解密 加解密这件事情要分两种情况： 软件加密技术：例如不使用 tpm 的 bitlocker ，luks ，veracrypt 加密流程： 随机产生高熵密钥用于实际加密磁盘数据。 用户密码用于加密这个高熵密钥，加密后存储在加密区头部。 解密流程：使用用户密码解密加密区头部的高熵密钥，再使用高熵密钥解密数据。 改密码流程：使用旧密码解密头部的高熵密钥，再使用新密码加密后存储到头部 忘记密码找回流程： 事先随机一个恢复密钥，用恢复密钥加密高熵密钥，一并存在头部。 这也是多用户多密码的逻辑。 每套密码占用一个槽位 key slot 脱机破解思路： 从磁盘获取加密区头部数据，然
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228527#reply0
+
+---
+
+#### 8483. [V2EX] 想问一下推广自己的中转站帖子可以发吗
+
+**问题描述 / Problem Description**:
+具体发的规则在哪里呀 有没有大佬可以解答一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228523#reply2
+
+---
+
+#### 8484. [V2EX] 如何培养行动力
+
+**问题描述 / Problem Description**:
+想做一件事 可能两个月都还没开始 洗个碗 可能也先泡上拖一两个小时 发这个帖子从想发到现在 半天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228522#reply6
+
+---
+
+#### 8485. [V2EX] [求答] github 10 年老号被封了
+
+**问题描述 / Problem Description**:
+不知道为啥我 github 10 年老号 5 月底左右被封了 身边的人都挺惊讶的，github 居然也能被封，发了申诉一直没回 有解决过账号被封的伙伴吗？求指点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228521#reply4
+
+---
+
+#### 8486. [V2EX] codex 亏麻了，上周五下午用的重置卡 还剩 90% ，周一来看重置了，
+
+**问题描述 / Problem Description**:
+上周送了好几次重置，这周能有几次呢，一天几次更新。 这周来了感觉额度消耗并且比上周快了，回到了上上周的消耗速度了，上周是 codex 的奖励吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228507#reply7
 
 ---

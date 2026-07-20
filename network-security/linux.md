@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2620**
+**总计条目 / Total entries: 2648**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -40136,5 +40136,341 @@ monitor system processes and read the sensitive bearer token directly from /proc
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2501459
+
+---
+
+#### 2621. CVE-2026-16254 - claircore: claircore: Denial of service via out-of-bounds slice in claircore's apk…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] claircore: claircore: Denial of service via out-of-bounds slice in claircore's apk installed-database parser. Bugzilla: 2502701
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502701
+
+---
+
+#### 2622. CVE-2026-64173 - kernel: tracing: Do not call map->ops->elt_free() if elt_alloc() fails
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: tracing: Do not call map->ops->elt_free() if elt_alloc() fails. Bugzilla: 2502530
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502530
+
+---
+
+#### 2623. CVE-2026-64095 - kernel: batman-adv: bla: avoid double decrement of bla.num_requests
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: bla: avoid double decrement of bla.num_requests. Bugzilla: 2502531
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502531
+
+---
+
+#### 2624. CVE-2026-64121 - kernel: net: ifb: report ethtool stats over num_tx_queues
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ifb: report ethtool stats over num_tx_queues. Bugzilla: 2502532
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502532
+
+---
+
+#### 2625. CVE-2026-64140 - kernel: ksmbd: fix null pointer dereference in proc_show_files()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: fix null pointer dereference in proc_show_files(). Bugzilla: 2502533
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502533
+
+---
+
+#### 2626. CVE-2026-64165 - kernel: ARM: integrator: Fix early initialization
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ARM: integrator: Fix early initialization. Bugzilla: 2502534
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502534
+
+---
+
+#### 2627. CVE-2026-64044 - kernel: ovpn: respect peer refcount in CMD_NEW_PEER error path
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ovpn: respect peer refcount in CMD_NEW_PEER error path. Bugzilla: 2502535
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502535
+
+---
+
+#### 2628. CVE-2026-64098 - kernel: drm/virtio: use uninterruptible resv lock for plane updates
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/virtio: use uninterruptible resv lock for plane updates. Bugzilla: 2502536
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502536
+
+---
+
+#### 2629. CVE-2026-64108 - kernel: cifs: Fix busy dentry used after unmounting
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: cifs: Fix busy dentry used after unmounting. Bugzilla: 2502562
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502562
+
+---
+
+#### 2630. CVE-2026-64134 - kernel: ALSA: pcm: Don't setup bogus iov_iter for silencing
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ALSA: pcm: Don't setup bogus iov_iter for silencing. Bugzilla: 2502563
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502563
+
+---
+
+#### 2631. CVE-2026-64139 - kernel: ksmbd: fix SID memory leak in set_posix_acl_entries_dacl() on overflow
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ksmbd: fix SID memory leak in set_posix_acl_entries_dacl() on overflow. Bugzilla: 2502564
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502564
+
+---
+
+#### 2632. CVE-2026-64058 - kernel: netfs: Fix netfs_read_folio() to wait on writeback
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfs: Fix netfs_read_folio() to wait on writeback. Bugzilla: 2502565
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502565
+
+---
+
+#### 2633. CVE-2026-64069 - kernel: netfs: Fix cancellation of a DIO and single read subrequests
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfs: Fix cancellation of a DIO and single read subrequests. Bugzilla: 2502566
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502566
+
+---
+
+#### 2634. CVE-2026-64091 - kernel: batman-adv: tt: fix TOCTOU race for reported vlans
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: tt: fix TOCTOU race for reported vlans. Bugzilla: 2502567
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502567
+
+---
+
+#### 2635. CVE-2026-64038 - kernel: hwmon: (lm90) Stop work before releasing hwmon device
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: hwmon: (lm90) Stop work before releasing hwmon device. Bugzilla: 2502568
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502568
+
+---
+
+#### 2636. CVE-2026-64043 - kernel: ovpn: fix race between deleting interface and adding new peer
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ovpn: fix race between deleting interface and adding new peer. Bugzilla: 2502569
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502569
+
+---
+
+#### 2637. CVE-2026-64129 - kernel: mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page. Bugzilla: 2502570
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502570
+
+---
+
+#### 2638. CVE-2026-64104 - kernel: virt: sev-guest: Explicitly leak pages in unknown state
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: virt: sev-guest: Explicitly leak pages in unknown state. Bugzilla: 2502571
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502571
+
+---
+
+#### 2639. CVE-2026-64128 - kernel: Bluetooth: ISO: drop ISO_END frames received without prior ISO_START
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: ISO: drop ISO_END frames received without prior ISO_START. Bugzilla: 2502572
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502572
+
+---
+
+#### 2640. CVE-2026-64159 - kernel: netfs: Fix zeropoint update where i_size > remote_i_size
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfs: Fix zeropoint update where i_size > remote_i_size. Bugzilla: 2502573
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502573
+
+---
+
+#### 2641. [Ubuntu] USN-8563-2: nginx regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8563-1 fixed vulnerabilities in nginx. One of the fixes introduced ABI changes that could cause issues with external modules. This update reverts the fix for CVE-2026-42533 pending further investigation. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain map directives using regex matching and capture variables. A remote atta
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8563-2
+
+---
+
+#### 2642. [Ubuntu] USN-8573-1: libde265 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libde265 did not properly manage memory under certain circumstances. An attacker could possibly use this issue to cause libde265 to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2023-51792) It was discovered that libde265 did not properly handle certain malformed media files, leading to a heap buffer overflow. An attacker could poss
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8573-1
+
+---
+
+#### 2643. [Ubuntu] USN-8572-1: Wget vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Wget did not properly validate the IP address provided in an FTP PASV response when operating in FTP passive mode. A remote attacker controlling a malicious FTP server, or an HTTP server that redirects to an FTP URL, could possibly use this issue to redirect Wget's data connection to an arbitrary address and perform server-side request forgery, potentially accessing localhos
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8572-1
+
+---
+
+#### 2644. [Ubuntu] USN-8571-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Pavel Kohout and Arkadi Vainbrand discovered that Apache HTTP Server incorrectly handled certain memory operations in mod_authn_socache. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-33007) Haruki Oyama, Merih Mengisteab, and Dawit Jeong discovered that Apache HTTP Server had an HTTP response splitting vulnerability in multiple modules when used with untru
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8571-1
+
+---
+
+#### 2645. [Ubuntu] USN-8569-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8569-1
+
+---
+
+#### 2646. [Ubuntu] USN-8570-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Foo-over-UDP (FOU); - ARM64 architecture; - x86 architecture; - Block layer subsystem; - Drivers core; - Null block device driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsystem; - DPLL subsys
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8570-1
+
+---
+
+#### 2647. [Ubuntu] USN-8568-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructions executed at a higher privilege level, resulting in privilege escalation. (CVE-2025-54518) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8568-1
+
+---
+
+#### 2648. [Ubuntu] USN-8565-1: SQLite vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SQLite did not properly handle NULL pointer dereferences in the Session Extension when applying a corrupt changeset. An attacker could possibly use this issue to cause SQLite to crash, resulting in a denial of service. (CVE-2026-50812) It was discovered that SQLite had a buffer overread in the Session Extension when processing a corrupt changeset. An attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8565-1
 
 ---
