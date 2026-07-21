@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7324**
+**总计条目 / Total entries: 7366**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -99506,5 +99506,551 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228347#reply71
+
+---
+
+#### 7325. What the actual hell, Apple?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2mc76/what_the_actual_hell_apple/
+
+---
+
+#### 7326. MacOS Memory Leak
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2mqns/macos_memory_leak/
+
+---
+
+#### 7327. The real system requirements of macOS 27 at launch…
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2jz4d/the_real_system_requirements_of_macos_27_at_launch/
+
+---
+
+#### 7328. Tip: Redoing your desktop widget setup? Hold option while moving your cursor to remove multiple widgets with ease.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2qiqd/tip_redoing_your_desktop_widget_setup_hold_option/
+
+---
+
+#### 7329. MacOS and code environment for first time user.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2s6hl/macos_and_code_environment_for_first_time_user/
+
+---
+
+#### 7330. Round 2 of the speech benchmark: you asked about Parakeet, so I ran it (plus MOSS)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2o3cx/round_2_of_the_speech_benchmark_you_asked_about/
+
+---
+
+#### 7331. How do I disable clamshell mode?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2ro4q/how_do_i_disable_clamshell_mode/
+
+---
+
+#### 7332. Preview - Lock a PDF Form?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2w03g/preview_lock_a_pdf_form/
+
+---
+
+#### 7333. Private Relay Unavailable? 🤔
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2m6ho/private_relay_unavailable/
+
+---
+
+#### 7334. When I enter mission control while in fullscreened app, the mission control jumps to desktop 1 instead of previewing fullscreened window , any way to fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2qttd/when_i_enter_mission_control_while_in/
+
+---
+
+#### 7335. Updating MacBook Pro - Which version?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2qpc3/updating_macbook_pro_which_version/
+
+---
+
+#### 7336. Update frozen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2p37o/update_frozen/
+
+---
+
+#### 7337. VPN logs for system VPN L2TP
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2fc4c/vpn_logs_for_system_vpn_l2tp/
+
+---
+
+#### 7338. Word stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2kgzw/word_stopped_working/
+
+---
+
+#### 7339. MacOS 26.5 updates (both 26.5.1 & 26.5.2) killing my MacBook Air m2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2ebko/macos_265_updates_both_2651_2652_killing_my/
+
+---
+
+#### 7340. You guys helped me with Better Display. Can you guys help me with HDR?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v23c7e/you_guys_helped_me_with_better_display_can_you/
+
+---
+
+#### 7341. Background on App Icons
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v27s23/background_on_app_icons/
+
+---
+
+#### 7342. Tags question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2e6ck/tags_question/
+
+---
+
+#### 7343. SMB share bug? I can't access my shared files from Finder anymore
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2e20c/smb_share_bug_i_cant_access_my_shared_files_from/
+
+---
+
+#### 7344. Speedup language change on the globe key
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2c4le/speedup_language_change_on_the_globe_key/
+
+---
+
+#### 7345. Switching input sources (Korean/Japanese/etc IME) doesn't work over NoMachine to my Mac mini, only works clicking the menu bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v2ekya/switching_input_sources_koreanjapaneseetc_ime/
+
+---
+
+#### 7346. Choosing a monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v22gh8/choosing_a_monitor/
+
+---
+
+#### 7347. [V2EX] macOS 27 外接高刷屏 WindowServer 占用高的，可以试试 BetterDisplay 5.x 预览版
+
+**问题描述 / Problem Description**:
+最近升级 macOS 27 后，外接 5K 高刷显示器时， WindowServer 占用一直比较高，机身也明显发热。 我的环境： MacBook Air M4 ，16GB macOS 27 Beta 4 ，构建号 26A5388g 外接小米 5K 显示器 HiDPI： 2560 × 1440 内屏和外接屏同时开启 外接屏刷新率：100Hz BetterDisplay 4.3.5 的表现 100Hz 下： WindowServer 占用约 48%～ 72% 平均约 61% 整机 CPU 空闲率约 75% 机身发热比较明显 降到 60Hz 后： WindowServer 平均下降到约 38.2%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228885#reply5
+
+---
+
+#### 7348. [V2EX] 有没有免费的第三方 Launchpad 启动台软件？
+
+**问题描述 / Problem Description**:
+最好流畅不卡顿，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228581#reply6
+
+---
+
+#### 7349. [V2EX] 兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！
+
+**问题描述 / Problem Description**:
+原文:本电脑本人自营购买，有发票，有盒子配件齐全的未激活电脑。到手后，没登录 iCloud ，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年，此前密码一直是 0000 ，前天改了也是 6 位纯数字密码。（和手机一起改的同样的密码）然后就正常用，后面电脑又突发恶疾，莫名其妙的断网，故我就重启了，开机时这里又卡住在系统桌面大概 20 多秒才自己关机。（ apple 真垃圾！）关机后重启系统，到输入密码界面发现输入密码错误，试了新的旧的，都错误，但是我能 100%确定密码是正确的，因为我和手机同时改的同样的密码。（纯数字密码，故排除了输入法问题）并且清晰地记得当时改完密码第一时间验证过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228302#reply177
+
+---
+
+#### 7350. [V2EX] 升级 macOS 27 Public Beta 版本总提示：未能个性化软件更新。请重试。
+
+**问题描述 / Problem Description**:
+https://cleanshot.com/share/KdRQlSVQ 是外置系统硬盘里的系统；内置系统没有升级所以不行的原因吗？ 已尝试关闭“查找、信息”；关闭 VPN 打开 VPN ，更改 DNS 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227637#reply7
+
+---
+
+#### 7351. [V2EX] iPhone 的 photos 同步出问题了
+
+**问题描述 / Problem Description**:
+从大概 2 天前开始，iPhone 上的照片不同步了，提示： Syncing Paused Your iCloud Storage is Full iCloud 存储空间还有 5GB 多，也没有共享之类的，可以确认 iCloud 空间是够用了。跟 AI 聊了一下，各种方法都试了试（除了关掉 photos 的同步再重新打开）没有一个有用的。与此同时，macOS 上的 photos 还是能正常同步的。 有人遇到过类似的问题吗？这种是 iOS 系统的问题，还是 iCloud 服务端的问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228789#reply5
+
+---
+
+#### 7352. [V2EX] 求购或者有偿用一次 dayone plus 账号
+
+**问题描述 / Problem Description**:
+如题，dayone 订阅制实在太贵了，免费版每篇日记只能添加 1 张图。 如果在 dayone 改订阅制之前(2017 年)购买过 dayone ，可以永久享受 plus 账户的权利，每篇日记可以添加 10 张图。 所以想购买一个拥有 plus 账号的闲置账号，或者也可以有偿借你的账号下载一次 dayone ，这样我也可以享受到 plus 的体验。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228671#reply17
+
+---
+
+#### 7353. [V2EX] 土区 App Store 内购方式的 Youtube Premium 被暂停， renew 要求绑定支付方式
+
+**问题描述 / Problem Description**:
+账户内余额充足，但是订阅在到期日被暂停，没有自动续订，也没有邮件提醒，尝试 renew 要求绑定支付方式 目前搜了下只有几个办法（ https://yummy.best/turkey-and-indias-appstore-requires-payment-methods-to-subscribe-to-youtube-premium/） 1. 绑土耳其银行卡后才能恢复余额使用 2. 尝试使用新的 Google 帐号进行订阅， 不知道苹果到底在搞什么，还是说 Google 要求的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228546#reply35
+
+---
+
+#### 7354. [V2EX] 土区内购家庭组 YouTube，现要求添加付款方式或手机号，大佬指点下
+
+**问题描述 / Problem Description**:
+我是司机，年初出现过礼品卡余额充足，但是自动掉订阅情况，后来了解可以在商店中强制 renew ，现在订阅周期又到了，又出现自动掉订阅，之前的方法尝试无果，在支付礼品卡时，要求必须添加支付方式或者手机号，请问大佬现在有什么办法能够过关呢？ 虚拟信用卡？ eSIM ？虚拟短信接码？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228495#reply9
+
+---
+
+#### 7355. [V2EX] iOS 如何设置能实现像安卓手机的来电提醒一样显示是谁打电话过来的，比如 10086 标识为中国移动这样？
+
+**问题描述 / Problem Description**:
+换了 iPhone 后这点挺困扰的，不知道来电是谁，接了听半天发现是推销广告，不接又怕漏掉重要的通知，安卓手机上都会标识来电是美团、联通、银行什么的，有些还标识为推销或者诈骗，这个功能感觉十分好用，iOS 能通过配置或者三方 app 实现这个功能吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228323#reply15
+
+---
+
+#### 7356. [V2EX] iPhone 换电池，都是去官方还是自己买电池换呢？
+
+**问题描述 / Problem Description**:
+因为目前自己手机已经健康度 73%了，以前自己换过，总感觉爱发热，发烫，还很卡！想问问换了官方的会不会好！大家都是选择什么呢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228249#reply23
+
+---
+
+#### 7357. [V2EX] Gemini 3.6 flash 可用了
+
+**问题描述 / Problem Description**:
+用着用着突然刷出个 3.6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228929#reply2
+
+---
+
+#### 7358. [V2EX] 去了趟香港，看到了加藤鹰老师和海狗丸
+
+**问题描述 / Problem Description**:
+背景 早就想去香港开卡了，为的就是交易自由， 这次特意请了一天假跑去香港，大家如果要去办卡，汇丰和众安都可以线上搞定，很方便，如果是中银只能线下开投资账户，大概要 1h ，一定要预约，反正店员跟我说早上 5 点就有人排队了，太卷了 尺度开放 刚落地就被小小震惊， 宣传的尺度比大陆大得多 这本书，我是真想买一本，但是人太多，晚上再去，已经收摊了 消费高 消费是真的高，一碗面要 100 人民币左右，我感觉真的再抢,要是老家的早餐店知道了，感觉能立马打的来开店 12km 左右的打车费，大概要 200 块人民币 拥挤 真是寸土寸金， 感觉这些楼房都是挨着建 回收标题 这里的礼品店里好多药 ，各种各样的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228792#reply4
+
+---
+
+#### 7359. [V2EX] 浙江联通 app 发现一个 可办套餐 49 元 98G，打算转网过去办，各位浙江用户了解一下有没有需求
+
+**问题描述 / Problem Description**:
+流量王优享版 49 元（浙江)，语音(分钟):100 通用流量:98G 可办副卡 移动老号准备协转过去办这个套餐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228737#reply2
+
+---
+
+#### 7360. [V2EX] 分享两个通过分布式锁实现 SSE 或长轮询推送的例子
+
+**问题描述 / Problem Description**:
+https://github.com/snower/jaslock-spring/tree/main/examples/polling-request 实现的"反向轮询 RPC"示例工程。解决一个常见的网络打通场景：云上服务需要调用部署在医院内网/受防火墙保护环境中的系统，但内网系统无法被云上直接访问。本示例让内网系统主动长轮询云上接口拉取任务、处理后再回写结果，云上调用方则同步等待结果。 https://github.com/snower/jaslock-spring/tree/main/examples/pubsub 实现的发布/订阅（ pubsub ）消息推送示例工程。用分布式锁的"事件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228733#reply2
+
+---
+
+#### 7361. [V2EX] OpenCode banned 8,000 fraudulent OpenCode Go accounts
+
+**问题描述 / Problem Description**:
+we banned someone operating 8,000 fraudulent OpenCode Go accounts they were reselling $480,000 of tokens every month this will make things more sustainable for legitimate users enjoy your week bluesky 上面的 这些人是不是就是那种中转啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228688#reply2
+
+---
+
+#### 7362. [V2EX] 最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。
+
+**问题描述 / Problem Description**:
+最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。 核心玩法就是英雄、装备、符文、关卡和刷资源循环。前期看起来简单，玩进去之后会发现 build 、符文路线和刷图选择还挺讲究。 这个攻略站整理得比较清楚，有新手路线、符文、build 、掉落和宝箱计时器： https://taskbarheroatlas.com/ 刚入坑的话可以先看这个，少走很多弯路。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228646#reply1
+
+---
+
+#### 7363. [V2EX] 此时此刻恰如彼时彼刻——国模和丰田
+
+**问题描述 / Problem Description**:
+Codex 在跑，只能刷刷网帖，然后发个帖子分享一下一个有意思的想法。 最近首页上经常刷到国模的各种消息。体验下来和 Codex 差别还是蛮大的。当然，价格也差得蛮大。 但是从最新的各种 kimi K3 和 DeepseekV4 正式版的消息来看，这个差距在缩小。 为什么会用这个标题呢？因为现在的国模非常像日本丰田当年所面临的那个困境。 刚好最近在看制造业相关的书，来一点背景铺垫： 大概 1945 年左右，日本丰田和现在国模遇到的困境差不多。老美和小日子的工业生产效率比值差距书 1:9 。根据大野耐一说的，有人告诉他德国是小日子三倍，老美是德国三倍，所以得出老美是小日子九倍的结论。大野耐一是丰
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228569#reply27
+
+---
+
+#### 7364. [V2EX] 2026 了 大家有没有下用了之后就一直没放下的东西
+
+**问题描述 / Problem Description**:
+1 ditto,listary,everything,irm https://get.activated.win | iex ,每次装机都先装这几个 2 霞鹜文楷 mono 基本上所有的终端和 ide 都用这字体 3 密码锁+nfc+变色龙等破解设备,出门拿个手机就走了 4 烘干机 买了之后基本上就周日晚上洗衣服,开一把游戏,衣服扔烘干机里 每天取衣服,周日洗衣服循环 很爽
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228542#reply12
+
+---
+
+#### 7365. [V2EX] Barbee，这个状态栏 App 真不错呀～
+
+**问题描述 / Problem Description**:
+用过 ice 、thaw 、bartender 但是总是有问题 自从换了 Barbee ，这也没有遇到糟心的事儿了 https://apps.apple.com/us/app/barbee-hide-menu-bar-items/id1548711022
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228513#reply3
+
+---
+
+#### 7366. [V2EX] 性生活是不是人的刚需
+
+**问题描述 / Problem Description**:
+刚刚刷到知乎的一个评论，也是被震撼到了，只能说荷兰是一个真的很人性的国家，瞬间有想移民到荷兰的冲动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228347#reply76
 
 ---

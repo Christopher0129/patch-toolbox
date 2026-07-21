@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2648**
+**总计条目 / Total entries: 2675**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -40472,5 +40472,329 @@ It was discovered that SQLite did not properly handle NULL pointer dereferences 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8565-1
+
+---
+
+#### 2649. CVE-2026-15370 - libssh: libssh: stack buffer overflow in SFTP server longname construction
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: stack buffer overflow in SFTP server longname construction. Bugzilla: 2499049
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+
+---
+
+#### 2650. CVE-2026-39879 - syslog-ng: syslog-ng: SQL Injection vulnerability leading to denial of service and…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] syslog-ng: syslog-ng: SQL Injection vulnerability leading to denial of service and data manipulation. Bugzilla: 2502916
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502916
+
+---
+
+#### 2651. CVE-2026-26199 - HDF5: HDF5: Denial of Service via buffer underflow in H5Iget_name
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] HDF5: HDF5: Denial of Service via buffer underflow in H5Iget_name. Bugzilla: 2502848
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502848
+
+---
+
+#### 2652. CVE-2026-26197 - hdf5: HDF5: Out-of-bounds read due to corrupted file can lead to denial of service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] hdf5: HDF5: Out-of-bounds read due to corrupted file can lead to denial of service. Bugzilla: 2502846
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502846
+
+---
+
+#### 2653. CVE-2026-16277 - rpcbind: rpcbind: stack buffer overflow in rpcinfo rpcbaddrlist()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rpcbind: rpcbind: stack buffer overflow in rpcinfo rpcbaddrlist(). Bugzilla: 2462085
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462085
+
+---
+
+#### 2654. CVE-2026-12701 - pulpcore: pulpcore: relative_path_validator bypass via directory traversal in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] pulpcore: pulpcore: relative_path_validator bypass via directory traversal in FilesystemExport. Bugzilla: 2490703
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490703
+
+---
+
+#### 2655. CVE-2026-64620 - FreeRDP: FreeRDP: Remote code execution or denial of service via heap-based buffer…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Remote code execution or denial of service via heap-based buffer overflow. Bugzilla: 2502752
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502752
+
+---
+
+#### 2656. CVE-2026-64621 - FreeRDP: FreeRDP: Double-free vulnerability via crafted .rdp file leading to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Double-free vulnerability via crafted .rdp file leading to potential remote code execution. Bugzilla: 2502766
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502766
+
+---
+
+#### 2657. CVE-2026-64191 - kernel: i2c: stub: Reject I2C block transfers with invalid length
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: i2c: stub: Reject I2C block transfers with invalid length. Bugzilla: 2502872
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502872
+
+---
+
+#### 2658. CVE-2026-64188 - kernel: net: qualcomm: rmnet: fix endpoint use-after-free in rmnet_dellink()
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: qualcomm: rmnet: fix endpoint use-after-free in rmnet_dellink(). Bugzilla: 2502875
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502875
+
+---
+
+#### 2659. CVE-2026-64206 - kernel: Bluetooth: L2CAP: cancel pending_rx_work before taking conn->lock
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Bluetooth: L2CAP: cancel pending_rx_work before taking conn->lock. Bugzilla: 2502878
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502878
+
+---
+
+#### 2660. CVE-2026-64190 - kernel: net: team: fix NULL pointer dereference in team_xmit during mode change
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: team: fix NULL pointer dereference in team_xmit during mode change. Bugzilla: 2502879
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502879
+
+---
+
+#### 2661. CVE-2026-64192 - kernel: bpf: Reject BPF_MAP_TYPE_INODE_STORAGE creation if BPF LSM is uninitialized
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Reject BPF_MAP_TYPE_INODE_STORAGE creation if BPF LSM is uninitialized. Bugzilla: 2502884
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502884
+
+---
+
+#### 2662. CVE-2026-64189 - kernel: netfilter: ipset: fix race between dump and ip_set_list resize
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: ipset: fix race between dump and ip_set_list resize. Bugzilla: 2502889
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502889
+
+---
+
+#### 2663. CVE-2026-64187 - kernel: xfs: fail recovery on a committed log item with no regions
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: fail recovery on a committed log item with no regions. Bugzilla: 2502891
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502891
+
+---
+
+#### 2664. CVE-2026-64207 - kernel: net/sched: dualpi2: fix GSO backlog accounting
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: dualpi2: fix GSO backlog accounting. Bugzilla: 2502893
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502893
+
+---
+
+#### 2665. CVE-2026-64205 - kernel: i2c: i801: fix hardware state machine corruption in error path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: i2c: i801: fix hardware state machine corruption in error path. Bugzilla: 2502895
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502895
+
+---
+
+#### 2666. CVE-2026-12484 - keras: torch: Keras: Arbitrary code execution via unsafe deserialization of…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keras: torch: Keras: Arbitrary code execution via unsafe deserialization of PyTorch data. Bugzilla: 2502670
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502670
+
+---
+
+#### 2667. CVE-2026-53370 - kernel: perf/x86/intel: Improve validation and configuration of ACR masks
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: perf/x86/intel: Improve validation and configuration of ACR masks. Bugzilla: 2502177
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502177
+
+---
+
+#### 2668. [Ubuntu] USN-8580-2: AccountsService vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8580-1 fixed vulnerabilities in AccountsService. This update provides the corresponding fixes for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: It was discovered that the Ubuntu-specific SetLanguage patch to AccountsService incorrectly handled dropping privileges. A local attacker could use this issue to execute arbitrary commands as an
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8580-2
+
+---
+
+#### 2669. [Ubuntu] USN-8582-1: jbig2dec vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Zeng Yunxiang and Song Jiaxuan discovered that jbig2dec had an out-of-bounds read vulnerability in its command-line tool. An attacker could possibly use this issue to cause jbig2dec to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2023-46361) It was discovered that jbig2dec had an integer overflow in the jbig2_arith_iaid_ctx_new() function. An attacker co
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8582-1
+
+---
+
+#### 2670. [Ubuntu] USN-8581-1: libarchive vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libarchive did not properly manage memory when unpacking certain RAR5 archives, leading to a double free. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-14164) It was discovered that libarchive did not properly validate certain tar archives, leading to a buffer overflow. A remote attacker could possibly use this issue to cause a denial of s
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8581-1
+
+---
+
+#### 2671. [Ubuntu] USN-8579-1: snapd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+James Henstridge discovered that snapd's default apparmor template did not restrict access to systemd-userdbd varlink interface. A local attacker could possibly use this issue to obtain sensitive information. (CVE-2024-5300) Qualys discovered that snap-confine can be tricked to create attacker-controlled files at certain privileged locations. A local attacker could possibly use this issue to bypas
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8579-1
+
+---
+
+#### 2672. [Ubuntu] USN-8578-1: CUPS control character injection vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that CUPS did not properly filter control characters in IPP string attributes and PPD keywords. An unauthenticated attacker could exploit this to execute arbitrary code as the lp user on systems with shared target queues.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8578-1
+
+---
+
+#### 2673. [Ubuntu] USN-8577-1: OpenSSH vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8222-1 fixed a vulnerability in OpenSSH. This update provides the corresponding fix for Ubuntu 16.04 LTS. Original advisory details: Vladimir Tokarev discovered that OpenSSH incorrectly handled certificates with the principal name containing a comma character when using user-trusted CA keys in authorized_keys and an authorized_keys principals="" option that lists more than one principal. This
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8577-1
+
+---
+
+#### 2674. [Ubuntu] USN-8576-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8576-1
+
+---
+
+#### 2675. [Ubuntu] USN-8574-1: Linux kernel (GCP FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8574-1
 
 ---

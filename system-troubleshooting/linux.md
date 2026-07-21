@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7800**
+**总计条目 / Total entries: 7833**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109352,5 +109352,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228509#reply2
+
+---
+
+#### 7801. HDFS NFS Gateway configuration help needed
+
+**问题描述 / Problem Description**:
+Tags: linux, nfs, hadoop, hdfs | Score: 2 | Views: 158 | Answers: 1 | Created: 2026-07-14
+
+**解决方案 / Solution**:
+What I do not understand about this is that it is using standard NFS commands on the NFS server but nowhere does it indicate how that relates to HDFS access. That does not seem to be the case. Indeed step 1 of starting the service, in that documentation page, tells you to stop the system-provided NFS server (and its helper services) – because you will be starting Hadoop's own NFS server in its place. In the end, an NFS server is just something that talks the (fairly simple) NFS protocol on TCP port 2049 (or on UDP port whatever for legacy servers). So it seems that Hadoop has an NFS server that's written in Java, listens on port 2049, and serves data directly out of HDFS that way – without interacting with the host's filesystem at all. (This is similar to "NFS-Ganesha" which is another userspace NFS server which can serve directly out of Ceph or Gluster.) All that remains running out of standard NFS components is rpcbind , aka the portmapper, which is not strictly "part of NFS" – it is a generic component for various SunRPC-based services, all of which can register with the portmapper to announce that they're providing service X on TCP/UDP port Y. It just happens that NFS is practically the sole remaining SunRPC-based service nowadays... so rpcbind gets associated with NFS because there is no longer any reason to have it running besides NFS. But Unix used to have several more network services which relied on the same portmapper, such as NIS/YP or rwalld . (Although even NFSv4 doesn't use the portmapper anymore, it aggregates all of the sub-protocols into a single protocol over TCP and has settled on a static port for that, so it's really just NFSv3 that needs rpcbind.) The other standard command, showmount , isn't an NFS server command – it is a small NFS client which interrogates the specified server through the network, which means it can talk to any NFS server, not just the system built-in one. In the docs, it is talking to the "HDFS Gateway" process.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199479/hdfs-nfs-gateway-configuration-help-needed
+
+---
+
+#### 7802. Jellyfin founder Andrew leaves team
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2iphh/jellyfin_founder_andrew_leaves_team/
+
+---
+
+#### 7803. [OC] I fixed Davinci Resolve on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2qfum/oc_i_fixed_davinci_resolve_on_linux/
+
+---
+
+#### 7804. Snapd - multiple vulnerabilities fixed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2sdr6/snapd_multiple_vulnerabilities_fixed/
+
+---
+
+#### 7805. KDE for Enterprise Needs a Strong PIM Infrastructure - ervin
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2gfh2/kde_for_enterprise_needs_a_strong_pim/
+
+---
+
+#### 7806. I think I've fallen in love with CachyOs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2vw6q/i_think_ive_fallen_in_love_with_cachyos/
+
+---
+
+#### 7807. Linux 7.2 Improves Intel Panther Lake Xe3 Arc B390 Graphics Performance Review
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2h1pd/linux_72_improves_intel_panther_lake_xe3_arc_b390/
+
+---
+
+#### 7808. Qualcomm engineers submit mainline Linux kernel patches for the Snapdragon X2 Elite Extreme-powered ASUS Zenbook A16 (UX3607OA)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2vstm/qualcomm_engineers_submit_mainline_linux_kernel/
+
+---
+
+#### 7809. Flameshot color picker offset
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2pl73/flameshot_color_picker_offset/
+
+---
+
+#### 7810. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2euv4/removed_by_reddit/
+
+---
+
+#### 7811. Firefox is back on X
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v2pb2u/firefox_is_back_on_x/
+
+---
+
+#### 7812. [V2EX] 请问： Linux 系统下，有没有好用的 [查找重复文件] 的软件？
+
+**问题描述 / Problem Description**:
+在 Windows 中，查找重复文件，一直以来，我使用的，是一款名为 [ NoClone ] 的软件。它是以二进制对比的方式，查找出 [文件内容] 完全一样的文件，哪怕你把其中的一个文件的 [文件名] 和 [扩展名] 全都更改了， [ NoClone ] 这个软件，也能把它识别出来。当然， [ NoClone ] 识别识别出来的重复文件，它们的哈希值，实际上，也是一样的。 最近，我开始接触 Ubuntu ，我想请问一下，在 Linux 中，特别是在 Ubuntu 中，没有类似于 NoClone 这样的软件？ 请了解这方面的大佬，推荐几个软件。 谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228798#reply22
+
+---
+
+#### 7813. [V2EX] [震惊] 用 Firefox 播放一个抖音视频，我的 Linux 系统立马死机
+
+**问题描述 / Problem Description**:
+由于我的系统是魔改的 Ubuntu 16.04 + Kernel 6.19 + Mesa 25.1.4 + libva 2.11 + Firefox 152(参考： https://v2ex.com/t/1179778 ), 最近突然发现机器经常卡顿，最终定位发现播放某一个抖音视频（《归墟》 第一季 1-9 合集）时，立马出发 AMDGPU VCNU 固件报错，严重时显卡失去响应，需要强制断电重启。 嗯，这也算一种 Linux “攻击”吧😁，通过某些特殊的视频编码，层层穿透，直达内核。 打算切换到 nix 的 mesa 26.1.5 + Firefox 152 了。 OS: Ubuntu 16
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228447#reply4
+
+---
+
+#### 7814. [V2EX] How GPT-5.6 sol token is used in Codex
+
+**问题描述 / Problem Description**:
+我在 Codex CLI 上做了 280+ 次 GPT-5.6 Sol 测试。当前版本似乎仍有会增加 token 消耗的问题。 在多数基准中，GPT-5.6 Sol 的成本效益优于 GPT-5.5 。以 DeepSWE 为例：5.5 High 平均每任务 5.1 美元，5.6 Sol High 为 3.5 美元；但在 Codex CLI 0.144.1 ，我测到 5.6 Sol High 反而比 5.5 High 高约 21%。 https://preview.redd.it/how-gpt-5-6-sol-token-is-used-in-codex-v0-pghf32p14meh1.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228941#reply0
+
+---
+
+#### 7815. [V2EX] codex 又又又又又又重置了
+
+**问题描述 / Problem Description**:
+准备开蹬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228939#reply4
+
+---
+
+#### 7816. [V2EX] 提供欧洲自由职业平台远程工作机会。
+
+**问题描述 / Problem Description**:
+✅ 已验证 Upwork ✅ + PAYONEER + WHATSAPP + TELEGRAM | 24/7 在线访问 | 长期支持 [全方位技术支持] 🗃️内容包括： • 独享电脑（ 24/7 全天候访问） • 独享固定 IP• 我将提供 24/7 全力技术支持 • 完美的电力和网络保障（笔记本电脑 24/7 保持在线，不受停电影响） 支持的服务/平台： • Upwork• LinkedIn • Freelancer • Payoneer • PayPal • Telegram • WhatsApp • 我可以根据您的需求全力配合 📩 联系方式：Telegram: @ UP_rent_ua
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228938#reply0
+
+---
+
+#### 7817. [V2EX] [PromptX 极客团队招募] 寻找 5-8 位极客伙伴，在 AI Coding 时代一起做点酷东西！
+
+**问题描述 / Problem Description**:
+你是否也有过这样的时刻：脑子里每天都有各种天马行空的想法，想做类似 Photoshop 、Figma 、Notion 这样兼具实用与美感的伟大工具，但每次一想到跨语言、跨平台的庞大工程量，就被复杂的现实劝退？ 在 AI Coding 的时代，这个限制被彻底打破了。 借力 AI ，个人和微型团队的生产力被无限放大。现在的我们，拥有了前所未有的交付速度，正是去把那些“听起来很酷”的想法变成现实的最好时机。 我想组建一个 5–8 人的高浓度创作小组 （如果碰撞出成熟方向，随时准备真刀真枪创业）。 💡 我们可能探索的方向 我们不限制思路，主打 快速验证、敏捷迭代 。潜在的方向包括但不限于： AI 视频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228932#reply3
+
+---
+
+#### 7818. [V2EX] 最近做了个 Hyperliquid 数据分析站，聊聊数据开发里踩的坑
+
+**问题描述 / Problem Description**:
+大家好，最近在搞一个 Hyperliquid 链上交易数据分析站，聊聊为什么做这个东西，以及开发过程里踩过的一些坑。 做这个东西的初衷是因为我自己也在做交易，但是之前交过一些学费（亏损），目前能保持小的稳定盈利，想要提高方向性判断，所以做了这个工具。欢迎各位大佬体验和提意见！ 为什么选 Hyperliquid Hyperliquid 目前在永续合约 DEX 里面算是头部的，日交易量经常有几十亿美元，上面也有不少大户和机构用户在交易。 而且官方有 API ，交易数据也比较透明。刚开始我觉得，既然数据都能拿到，那做个统计分析站应该不会太难。 实际做下来发现，数据“能拿到”和“能低成本地整理出来”，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228925#reply1
+
+---
+
+#### 7819. [V2EX] 有点好奇，大家在 Codex 送重置的时候都蹬出了啥呢？
+
+**问题描述 / Problem Description**:
+做个小调查.jpg 大概是，如果没有重置的话，跟 Codex 最近送了一堆重置比起来，有哪些蹬出来的东西，如果没有重置的话，可能原来就不一定会做或者不一定想到去做的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228916#reply6
+
+---
+
+#### 7820. [V2EX] 观新智元最新关于 AI 使用成本文章有感
+
+**问题描述 / Problem Description**:
+看了这篇文章，突然激发了我的讲话欲，使用 AI 深度参与开发的时间也有快一年的时间了，心中真有一些话，不吐不快！ 首先声明，我开发的软件都是中小型的软件。此种软件的 token 消耗量暂且不谈，如果是那种极复杂的大型软件，放开手脚使用商用的高级模型来开发的话，到最后核算一下成本，可能比用程序员成本都高（这段是我的一个猜测，我也没参与过这种极复杂的软件开发，有懂行的可以出来说两句）。 关于开发治理问题，过去我们有一整套成熟的软件开发模式来保证我们程序员的开发的代码质量，但是引入 AI 之后，我私以为整个开发治理的难度比之前要大得多，且需要不断摸索。 先抛一个观点：我认为最好的思路就是当成现有每个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228914#reply0
+
+---
+
+#### 7821. [V2EX] 感觉又慢又贵：实测 Kimi-K3 编码能力
+
+**问题描述 / Problem Description**:
+在 Trae 、Qoder 下，分别用 Deepseek-v4 和 Kimi-K3 跑编程任务。Kimi-K3 挺让人失望的 AI Coding 测评准备 测试项目：桌面端知识库工具 用户导入本地文档，系统建立分块索引，支持自然语言提问并返回带引用来源的回答 初始脚手架 运行时：Electron 33 （主进程 Node.js+Chromium ） 前端：React 18 + TypeScript （ Vite 构建） 后端：TypeScript 服务层 大家如果想要自己完整测评一下，可以评论区留言，把原项目开源出来 Vibe Coding 工具和大模型 编程工具分别用 字节 Trae 、阿里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228913#reply8
+
+---
+
+#### 7822. [V2EX] Seedream 5.0 Pro 官方 7 折
+
+**问题描述 / Problem Description**:
+字节的旗舰图像模型 Seedream 5.0 Pro ，在 ReAPI 上目前有官方 7 折优惠， $0.031/张 平台上还有 GPT Image 2 、Google Imagen 这些模型。 适合做 AI 设计工具、电商图、营销素材生成这类需求的独立开发者或小团队。 👉 https://reapi.ai/ 👉 https://reapi.ai/models/seedream-5-0-pro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228891#reply0
+
+---
+
+#### 7823. [V2EX] iOS 27 Beta 4 今日正式推送，新机老机 BUG 问题汇总
+
+**问题描述 / Problem Description**:
+先说说更新特性： 苹果在今天凌晨（ 7 月 21 日）推送了 iOS 27 Beta 4 ，iPhone14 pro Max 已经更新，主力机还没敢升， 目前测试一切顺滑，看来有 AI 加持，底层架构改的很彻底，耗电量也有提升，之前 Beta 的 Xcode 连接编译问题，也修复。还在测试，有问题 可以此贴汇总一下，方便佬友参考。 iOS 27 支持设备如下：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228890#reply2
+
+---
+
+#### 7824. [V2EX] 一个 AI 写作工具从 Next.js 迁移到 TanStack Start，并改用 Gemini Batch API 的记录
+
+**问题描述 / Problem Description**:
+下面这版可以直接发到 V2EX 的「分享创造」或「程序员」节点。 标题 一个 AI 写作工具从 Next.js 迁移到 TanStack Start ，并改用 Gemini Batch API 的记录 正文 最近做了一个 AI 内容生成工具 WriteGeniuses： https://writegeniuses.com 它目前支持两种内容： 长篇 Blog Article X Thread 和常见的“输入一句话，直接返回整篇文章”不太一样。WriteGeniuses 会先生成结构化 Plan ，再拆成多个 Unit ，分别生成正文。用户可以单独编辑或重新生成某个段落，不需要每次都重跑整篇内容
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228888#reply9
+
+---
+
+#### 7825. [V2EX] 一个 Next.js WebGL 小游戏从 Lighthouse 40+ 到 97 的性能优化记录
+
+**问题描述 / Problem Description**:
+最近做了一个基于 Next.js 、React 和 PixiJS 的网页小游戏 Color Tiles 。 页面看起来不复杂：一个 WebGL 棋盘、几个控制按钮，加上一些玩法介绍。但第一次跑移动端 Lighthouse 时只有四十多分。最初的报告没有保存下来，目前仓库里能复核的中间结果是 59 分： LCP：11.36 s TBT：625 ms 首屏传输量：2.33 MB 经过几轮优化后，生产构建的移动端 Lighthouse 达到 97 分，桌面端 100 分： LCP：2.29 s ，下降约 80% TBT：135 ms ，下降约 78% 首屏传输量：509 KB ，下降约 78% CL
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228871#reply2
+
+---
+
+#### 7826. [V2EX] 有人有感觉 gpt5.6 sol 的 token 消耗特别大吗？可以看下这个帖子能在长任务中节省 60%-80%
+
+**问题描述 / Problem Description**:
+其实主要问题在 gpt5.6 比 5.5 更喜欢阅读整个文件导致上下文膨胀严重。而且高 reasoning 又忒喜欢反复思考原地踏步。其实主要问题都是 codex 本身的问题。我自己弄了个 harness 。 这个想法其实非常简单。假设 Codex 需要修改文件并运行测试，通常需要经历以下流程： 第 1 轮——应用补丁（修改 package 文件） 第 2 轮——应用补丁（修复 Bug ） 第 3 轮——应用补丁（修改测试脚本） 第 4 轮——执行构建 第 5 轮——运行测试和代码检查 第 6 轮——如果使用 Playwright ，Codex 还需要额外一轮读取截图等媒体文件 我们的思路是使
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228868#reply0
+
+---
+
+#### 7827. [V2EX] Kimi k3 让我贷款上班
+
+**问题描述 / Problem Description**:
+5 小时限额了，想着还差一点功能，冲了 25 ，结果写了 452 行的文件，思考完测试（还没写），用完了！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228841#reply7
+
+---
+
+#### 7828. [V2EX] codex 重置次数用完了怎么办
+
+**问题描述 / Problem Description**:
+一天用不了 codex 就浑身难受
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228831#reply4
+
+---
+
+#### 7829. [V2EX] 做海外 AI 产品，最后让我停止整个后端
+
+**问题描述 / Problem Description**:
+最近做了一个 Electron 桌面工具。 它的功能很简单：框选屏幕上的一张图片，调用 AI 分析图片内容，并反推出对应的 Prompt ，方便继续创作或者学习图片风格。 产品做得差不多之后，我开始接入海外支付。 原本我的方案是大家比较熟悉的一套： Electron ↓ Lemon Squeezy ↓ Cloudflare Worker ↓ Webhook ↓ License Server ↓ 订单数据库 我以为最难的是 AI 、截图、图片上传这些功能。 结果真正卡住我的，是 收款 。 Lemon Squeezy 这边，我的账户始终不能显示 Tax Information 的填写表单，因此一直
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228802#reply22
+
+---
+
+#### 7830. [V2EX] Claude 做了个机场网站, wises.me 欢迎测试
+
+**问题描述 / Problem Description**:
+网站: https://wises.me 启用了很多以前计划中的功能, 比如自愈系统, 自动节点缩放系统, 还有很多功能在机场上用不到只能等到另外一个支付项目实验了. 注册就送 1G 流量, 我知道 V2 的人最挑剔, 也最能从各种刁钻角度找出问题,我已经用 fable 提前进行了各种验证和测试, 但是仍然欢迎各位提出宝贵意见. 另外: 这个只是个试验品, 并没有拿来当作商业运营的计划, 虽然看上去已经是个完美的商业网站, 先做机场和大家经历基本一致, 身边的人总是问你要机场, 烦死了, 又不想碰那些面板来二开, 遇到 claude/codex 后终于彻底解脱了, 身边的人问直接扔给他们注册,
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228800#reply6
+
+---
+
+#### 7831. [V2EX] 最近在 github 上看到很多所谓开源量化交易系统
+
+**问题描述 / Problem Description**:
+RT 但是感觉一言难尽，值得吐槽的点： 用 vibe coding 的思路去写传统机械指标，然后拼在一起 粗暴的搞截图发数据给 LLM ，妄图用提示词工程来分析图表，根本没有多周期综合分析能力 搞红蓝队辩论模式，实际上毫无意义 整体看，一直没法回避的问题是 LLM 幻觉和分析一致性、可审计性。B 站知乎上面一群连 github 都不会用的韭菜只会用那些黑心 up 主发布的百度网盘链接下载的所谓智能体 因为我自己是主观交易员，本科时候学过计算机，略懂软件开发，做交易后偏好用波浪理论，我之前自己搞了一个类似的 agent ，大概思路就是写好 python 工具，然后 LLM 按提示词去调用来分析波
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228796#reply58
+
+---
+
+#### 7832. [V2EX] 5.6 Sol x high plus plan 可以用多久？
+
+**问题描述 / Problem Description**:
+一直用 claude, 想開個 plus 玩玩， 不會幾個 prompt 就限制吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228775#reply4
+
+---
+
+#### 7833. [V2EX] windows 上用 claude code，使用是 git bash 报错
+
+**问题描述 / Problem Description**:
+你们在 windows 上用 claude code ，使用的是 git bash 会不会经常报 Error: Exit code 5 0 [main] bash (6336) C:\Program Files\Git\bin\..\usr\bin\bash.exe: *** fatal error - add_item ("\??\C:\Program Files\Git", "/", ...) failed, errno 1 已经把 hook 都改走 powershell 还是会有 我怀疑是 statusline 不断调用 git bash 的问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228768#reply10
 
 ---
