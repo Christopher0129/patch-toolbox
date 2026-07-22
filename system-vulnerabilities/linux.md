@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2441**
+**总计条目 / Total entries: 2470**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -45040,5 +45040,469 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8574-1
+
+---
+
+#### 2442. CVE-2026-16544 - awx: websocket EventConsumer missing authorization for inventory_update_events,…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] awx: websocket EventConsumer missing authorization for inventory_update_events, project_update_events, and system_job_events allows cross-organization stdout disclosure. Bugzilla: 2506053
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506053
+
+---
+
+#### 2443. CVE-2026-46917 - openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU 2026-07). Bugzilla: 2502782
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502782
+
+---
+
+#### 2444. CVE-2026-47010 - openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07). Bugzilla: 2502783
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502783
+
+---
+
+#### 2445. CVE-2026-47021 - openjdk: OpenJDK: Enhance XBM image support (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance XBM image support (Oracle CPU 2026-07). Bugzilla: 2502784
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502784
+
+---
+
+#### 2446. CVE-2026-47027 - openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU 2026-07). Bugzilla: 2502791
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502791
+
+---
+
+#### 2447. CVE-2026-47059 - openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07). Bugzilla: 2502792
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502792
+
+---
+
+#### 2448. CVE-2026-47063 - openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07). Bugzilla: 2502793
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502793
+
+---
+
+#### 2449. CVE-2026-47057 - openjdk: OpenJDK: Improve Nashorn index handling (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Improve Nashorn index handling (Oracle CPU 2026-07). Bugzilla: 2502794
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502794
+
+---
+
+#### 2450. CVE-2026-47058 - openjdk: OpenJDK: Enhance Dataview Implementation (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Enhance Dataview Implementation (Oracle CPU 2026-07). Bugzilla: 2502795
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502795
+
+---
+
+#### 2451. CVE-2026-60147 - openjdk: OpenJDK: Improve certification checking (Oracle CPU 2026-07)
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: OpenJDK: Improve certification checking (Oracle CPU 2026-07). Bugzilla: 2503636
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503636
+
+---
+
+#### 2452. CVE-2026-16493 - ansible-core: argument injection in ansible-galaxy collection install via git…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-core: argument injection in ansible-galaxy collection install via git clone (incomplete fix for CVE-2026-11332). Bugzilla: 2503724
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503724
+
+---
+
+#### 2453. CVE-2026-59851 - libssh: libssh: authentication bypass via missing GSSAPI principal check
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: authentication bypass via missing GSSAPI principal check. Bugzilla: 2498184
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+
+---
+
+#### 2454. CVE-2026-59850 - libssh: libssh: use-after-free via data callbacks on closed channels
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: use-after-free via data callbacks on closed channels. Bugzilla: 2498183
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+
+---
+
+#### 2455. CVE-2026-59849 - libssh: libssh: denial of service via automatic certificate authentication loop
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: denial of service via automatic certificate authentication loop. Bugzilla: 2498182
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+
+---
+
+#### 2456. CVE-2026-59848 - libssh: libssh: denial of service via SFTP responses with unknown request IDs
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: denial of service via SFTP responses with unknown request IDs. Bugzilla: 2498181
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+
+---
+
+#### 2457. CVE-2026-59847 - libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag verification
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag verification. Bugzilla: 2498180
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+
+---
+
+#### 2458. CVE-2026-59846 - libssh: libssh: information disclosure via ProxyCommand %r username expansion
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: information disclosure via ProxyCommand %r username expansion. Bugzilla: 2498179
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+
+---
+
+#### 2459. CVE-2026-46968 - openjdk: Enhance TLS certificate handling
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk: Enhance TLS certificate handling. Bugzilla: 2502751
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2502751
+
+---
+
+#### 2460. CVE-2026-59845 - libssh: libssh: denial of service via unchecked ProxyCommand fork() failure
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: denial of service via unchecked ProxyCommand fork() failure. Bugzilla: 2498178
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+
+---
+
+#### 2461. CVE-2026-59844 - libssh: libssh: denial of service via oversized SFTP read length
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libssh: libssh: denial of service via oversized SFTP read length. Bugzilla: 2498177
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+
+---
+
+#### 2462. [Ubuntu] USN-8590-1: Exim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Exim incorrectly handled certain command line options. A local attacker could possibly use this issue to access files outside of the spool area. It was discovered that Exim incorrectly handled string expansion in .local files. A local attacker could possibly use this issue to escalate privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8590-1
+
+---
+
+#### 2463. [Ubuntu] USN-8589-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Apache HTTP Server's mod_ldap module incorrectly handled memory when processing per-directory configurations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-29167) It was discovered that Apache HTTP Server's mod_proxy_ftp module incorrectly handled HTML generation for FTP directory listings. A remote attacker
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8589-1
+
+---
+
+#### 2464. [Ubuntu] USN-8588-1: Gawk vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Gawk incorrectly handled memory when processing input using the getline redirection. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-40467) It was discovered that Gawk incorrectly handled certain integer calculations when allocating memory. An attacker could possibly use this issue to cause a denial of service or overwrite heap memory with a
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8588-1
+
+---
+
+#### 2465. [Ubuntu] USN-8477-3: tar regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8477-1 fixed a vulnerability in tar. That fix was incomplete and could cause tar to fail to extract old archives that recorded a nonzero size for directory entries, resulting in a regression. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that tar incorrectly handled certain crafted archive files. An attacker could possibly use t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8477-3
+
+---
+
+#### 2466. [Ubuntu] USN-8587-1: HTML-Parser vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that HTML-Parser incorrectly handled entity references when the input string was identical to an entity value in the lookup table. An attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8587-1
+
+---
+
+#### 2467. [Ubuntu] USN-8586-1: libgphoto2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libgphoto2 did not properly validate buffer boundaries when parsing EOS image format data. An attacker with physical access could possibly use this issue to obtain sensitive information. (CVE-2026-40333) It was discovered that libgphoto2 did not properly null-terminate buffers when parsing Canon folder entries. An attacker with physical access could possibly use this issue t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8586-1
+
+---
+
+#### 2468. [Ubuntu] USN-8585-1: Kerberos vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Kerberos had an integer underflow vulnerability in the berval2tl_data() function. An attacker could possibly use this issue to cause Kerberos to crash, resulting in a denial of service. (CVE-2026-11850) It was discovered that Kerberos had vulnerabilities in its NegoEx mechanism parsing. A remote attacker could possibly use these issues to cause Kerberos to crash, resulting i
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8585-1
+
+---
+
+#### 2469. [Ubuntu] USN-8584-1: GStreamer Good Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins incorrectly handled certain Matroska files. An attacker could possibly use this issue to cause GStreamer Good Plugins to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-39043) It was discovered that GStreamer Good Plugins incorrectly handled certain WAV files. An attacker could possibly
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8584-1
+
+---
+
+#### 2470. [Ubuntu] USN-8583-1: GIFLIB vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GIFLIB incorrectly handled certain GIF image files. If a user or automated system were tricked into opening a specially crafted GIF file, a remote attacker could use this issue to cause GIFLIB to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8583-1
 
 ---

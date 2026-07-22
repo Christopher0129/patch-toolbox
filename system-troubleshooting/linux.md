@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7833**
+**总计条目 / Total entries: 7864**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109781,5 +109781,408 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228768#reply10
+
+---
+
+#### 7834. Codeberg voted to disallow projects consisting mostly by "generative AI"-tools
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3b96h/codeberg_voted_to_disallow_projects_consisting/
+
+---
+
+#### 7835. Legal obligations vs social contracts | Perspective from a KDE Developer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3gdv5/legal_obligations_vs_social_contracts_perspective/
+
+---
+
+#### 7836. bringing mainline Linux to the Nokia Lumia 1520
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3s3p3/bringing_mainline_linux_to_the_nokia_lumia_1520/
+
+---
+
+#### 7837. Photoshop on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3ge16/photoshop_on_linux/
+
+---
+
+#### 7838. libx11-compat Is Working To Implement Xlib Atop SDL For Wayland, macOS, Android
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3lfwy/libx11compat_is_working_to_implement_xlib_atop/
+
+---
+
+#### 7839. Ubuntu Snap-Confine Flaw Could Grant Unprivileged Users Full Root Access
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v34he9/ubuntu_snapconfine_flaw_could_grant_unprivileged/
+
+---
+
+#### 7840. Minuet, KDE's application for music education needs testers!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v39nb2/minuet_kdes_application_for_music_education_needs/
+
+---
+
+#### 7841. Intel Directed Package-Level Thermal Interrupts Slated For Linux 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3f3kq/intel_directed_packagelevel_thermal_interrupts/
+
+---
+
+#### 7842. Alright...time to give it a stab ....Sashiko...https://github.com/sashiko-dev/sashiko ...Agentic review of Linux Kernel code changes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3tjmd/alrighttime_to_give_it_a_stab/
+
+---
+
+#### 7843. Mega Simple Games Launcher
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v36r6u/mega_simple_games_launcher/
+
+---
+
+#### 7844. Debating the role of large language models in the kernel community
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3g4tc/debating_the_role_of_large_language_models_in_the/
+
+---
+
+#### 7845. [V2EX] 跨平台工具客户端 crRequest 1.2.1 新增对 SSH 支持
+
+**问题描述 / Problem Description**:
+免费下载: https://github.com/libcr/crRequest/releases crRequest C++实现跨平台的开发工具客户端 基于源代码 chromium 150.0.7871.91 1. 基于 100% chromium 网络代码， 支持 QUIC, HTTP2 等网络协议 2. 使用 chromium UI 框架设计跨平台应用界面，提供一致且优秀的性能表现 3. 基于 libssh2 实现的 SSH 客户端
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229150#reply0
+
+---
+
+#### 7846. [V2EX] Claude Code 的 Prompt Cache 到底怎么工作？ 5 个让缓存失效的坑
+
+**问题描述 / Problem Description**:
+用 Claude Code 一段时间后我发现，同样的工作量，token 账单能差好几倍——差别几乎全在 Prompt Cache 有没有用对。官方文档把"有这个功能"讲了，但"怎么才不会踩坑"基本没说。这篇把我踩过的坑和读源码/官方博客理解的机制整理一下。 纯技术，不涉及任何平台推荐，就事论事。 一、为什么 Claude Code 对缓存特别敏感 普通 API 调用输入输出大致 1:1 ，prompt 短，缓存收益有限。 Claude Code 反过来—— 单次请求的输入 token 远大于输出 。一次"改个 bug"的对话，输出可能就 200 token ，但输入要带： 系统提示词（约 30
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229144#reply3
+
+---
+
+#### 7847. [V2EX] 如果请美国人(不用 claude)申请并支付 claude，哪种支付方式不会让对方担心信用卡/银行卡 等的安全问题？
+
+**问题描述 / Problem Description**:
+如果对方有 苹果支付，google 支付，美国银行借记卡，美国信用卡，美国 paypal 这些方式。 对方用哪种方式支付，一点不用担心他自己的卡的安全问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229140#reply9
+
+---
+
+#### 7848. [V2EX] 昨天是不是很多中转都拉闸了
+
+**问题描述 / Problem Description**:
+果然，浪潮褪去才知道谁在裸泳（笑 一堆中转挂着低价，实际动不动拉闸，是否能用全看别人脸色，但至少还有低价的优点 但如果有挂着高价稳定的中转还拉闸了，那就得赶紧跑路了，纯在圈钱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229137#reply0
+
+---
+
+#### 7849. [V2EX] AI codeing 开始一个新项目的时候要做哪些准备
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229136#reply5
+
+---
+
+#### 7850. [V2EX] 关于 Kimi Code 付费套餐限额不透明的投诉指南
+
+**问题描述 / Problem Description**:
+Kimi Code 作为国内御三家 Coding Plan 中最不透明的，完全不知道用量及限额多少，只有模糊的倍率和百分比，侵犯消费者的 知情权 与 公平交易权 。希望大家帮忙扩散投诉~ 被投诉人 ：北京月之暗面科技有限公司（统一社会信用代码：91110108MACG2KBH8F ） 经营地址 ：北京市海淀区知春路 76 号（写字楼） 1 栋 13 层 1-11 管辖单位 ：北京市海淀区市场监督管理总局（务必向被投诉人属地市监局投诉！） 争议服务 ：北京月之暗面科技有限公司提供的 Kimi Code 大模型订阅套餐 投诉渠道 ：微信 12315 小程序、全国 12315 平台 https://
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229133#reply11
+
+---
+
+#### 7851. [V2EX] 编程能力排名是 claude fable5 > gpt sol extra > claude 4.8 吗？
+
+**问题描述 / Problem Description**:
+看到说，规划用 claude ，代码用 gpt 。 那具体编码能力是 claude fable5 > gpt sol extra > claude 4.8 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229132#reply13
+
+---
+
+#### 7852. [V2EX] AI 编程在上游提需求的人眼里，不是一种手段，是一种技术选型，超级上瘾，他负责爽，瘾发作留给你
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229122#reply0
+
+---
+
+#### 7853. [V2EX] [慢迅] Surge 6 支持 tailscale 了
+
+**问题描述 / Problem Description**:
+Tailscale Support Surge now supports Tailscale as a policy. With this feature, Surge can join your Tailscale tailnet directly and route selected traffic through Tailscale peers using the existing Surge rule system. You can use Tailscale IPs, and tailnet-only services together with Surge policies, po
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229110#reply3
+
+---
+
+#### 7854. [V2EX] 花了半年做了一个可转债 + 套利研究工具集网站
+
+**问题描述 / Problem Description**:
+一直自己做可转债和 LOF/ETF 套利，平时要来回切集思录、雪球、东财好几个网站，数据散、效率低，就想着干脆自己撸一套工具。 陆陆续续写了半年，目前是这个样子： 可转债数据中心 ：全市场行情，8 个 Tab ，行情概览、全景透视、排行榜、强赎/下修跟踪、转股明细、十大持有人都有 雪球网增强扩展 ：给雪球页面注入阶段涨跌、波动率指标、转债条款进度 套利工具箱扩展 ：集思录/东财/雪球/天天基金页面增强，雷达扫描套利机会 + 前十持仓加权分析 理论价值计算器 ：Black-Scholes + XNPV 现金流贴现，扫全市场低估转债 网页版 + 两个浏览器扩展 + 公众号助手，一套把盘中决策和盘后
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229105#reply54
+
+---
+
+#### 7855. [V2EX] 大家觉得 Kimi 的 MAX 值得订阅吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229102#reply6
+
+---
+
+#### 7856. [V2EX] 花云是崩了吗
+
+**问题描述 / Problem Description**:
+全部节点都挂了，更新订阅也失败
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229100#reply18
+
+---
+
+#### 7857. [V2EX] 拿 go 又重新实现了一版 v2ex
+
+**问题描述 / Problem Description**:
+接这个贴 /t/1227534 原因：大佬们反馈，加载慢，卡 做法：从 next, 改成了 go + echo + templ 架构，pm2 管理，从 next 的 160mb 常驻内存，优化到了 20mb ，性能大幅度提升。 架构：我用的 tailscale 组网，我的 mac mini m2 ，家里 24h 开机，和阿里云组网，阿里云只负责转发 mac 的流量，配了 dns 解析。阿里云 99 计划，貌似不限流量，我挂了好多服务。 邀请码：WELCOME01 https://binaural.oolaf.top/ 大佬们蹬蹬，反馈反馈 ，🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229096#reply33
+
+---
+
+#### 7858. [V2EX] AI 编码怎么选最省钱？按量 token 接入还是直接订阅躺平
+
+**问题描述 / Problem Description**:
+在线求助各位技术大佬！想问问日常 AI 编码，哪种使用方案性价比更高？ 是自己 coding 对接按量 token 调用，还是直接订阅套餐省心躺平？ 有没有踩过坑的朋友聊聊真实开销、利弊区别，坐等大佬分享实战经验～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229094#reply4
+
+---
+
+#### 7859. [V2EX] 日常摸鱼发呆的三种虚无时刻
+
+**问题描述 / Problem Description**:
+1. 盯着 llm 自主写代码并跑通、跑过测试。 2. 看到怀孕的同事，以及想到里面是一个有智慧的人类胚胎正在自主的发育。 3. 抬头看到天体在自主的运行，太阳、星星、银河、宇宙... who am i.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229089#reply4
+
+---
+
+#### 7860. [V2EX] 如何向 Apple 报告类似“播放静默音频以在后台运行”的问题
+
+**问题描述 / Problem Description**:
+观 https://www.v2ex.com/t/1228974 有感，这属于滥用了吧？如何向 Apple 报告这类问题，最好的结果是让它下架整改...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229062#reply0
+
+---
+
+#### 7861. [V2EX] Qwen3.7 搞人心态
+
+**问题描述 / Problem Description**:
+告辞，换个模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229048#reply10
+
+---
+
+#### 7862. [V2EX] 大家 VibeCoding 的作品最终用起来了嘛？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229044#reply84
+
+---
+
+#### 7863. [V2EX] 现在通过手机控制电脑上的 agent 编程，用啥好方案？
+
+**问题描述 / Problem Description**:
+有没有不用梯子、不会被封的方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229038#reply37
+
+---
+
+#### 7864. [V2EX] grok 降智了？
+
+**问题描述 / Problem Description**:
+从今天开始，指令依从性、实现效果、理解能力，都降到完全没法用的状态了，grok 4.5 medium ，之前又快又好，现在傻快，体感是 deepseek3.2 的水平
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229032#reply36
 
 ---

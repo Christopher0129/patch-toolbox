@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8536**
+**总计条目 / Total entries: 8609**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -116889,5 +116889,954 @@ Date created (oldest first)
 
 **参考链接 / References**:
 - https://superuser.com/questions/1929684/what-is-latest-windows-version-can-i-can-install-on-this-system
+
+---
+
+#### 8537. Explorer.exe Crashes When Connecting Second Monitor
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, shell, crash, external-display | Score: 1 | Views: 66 | Answers: 1 | Created: 2026-07-17
+
+**解决方案 / Solution**:
+(update - sorry, probably should have submitted this as comment, not as answer...) 22.07.2026: I experience the same symptomatic (Explorer.exe crashing when connecting external monitors), on a different hardware platform, and a different module is been claimed failing. As further evidence I submit my details below. This happens since mid-last week, I think starting to occur after the system updates from 17.06.2026: 2026-07 Security Update (KB5101650) (26200.8875) 2026-07 .NET Framework Security Update (KB5100998) (I am afraid I have no time for further debugging now, i.e. trying the mentioned suggestions before weekend.) My system parameters are: System: Dell Precision 7680 CPU: 13th Gen Intel(R) Core(TM) i9-13950HX (2.20 GHz) GPU: NVIDIA RTX 2000 Ada Generation Laptop GPU (8 GB) and Intel(R) UHD Graphics (128 MB) Latest Display Driver is installed: NVIDIA-Quadro-Txxx0-Quadro-RTX-X000-RTX-xxx0-RTX HV7FV 32.0.15.8195 A36 01 OS: Windows 11 Pro, 25H2, 26200.8875 Experience: Windows Feature Experience Pack 1000.26100.334.0 Dock: Dell WD19S Second Screen: Dell U3421WE Third Screen: Dell U2410f My Event Viewer entry for the last crash is: Log Name: Application Source: Application Error Date: 22/07/2026 13:01:22 Event ID: 1000 Task Category: Application Crash Events Level: Error Keywords: User: *** Computer: *** Description: Faulting application name: Explorer.EXE, version: 10.0.26100.8875, time stamp: 0x0bebf481 Faulting module name: ucrtbase.dll, version: 10.0.26100.8875, time stamp: 0x303b538a Exception code: 0xc0000409 Fault offset: 0x00000000000a527e Faulting process id: 0x69A8 Faulting application start time: 0x1DD19A7F84FBD94 Faulting application path: C:\WINDOWS\Explorer.EXE Faulting module path: C:\WINDOWS\System32\ucrtbase.dll Report Id: b64393fe-438d-4cc1-a3b9-467778117a19 Faulting package full name: Faulting package-relative application ID:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939108/explorer-exe-crashes-when-connecting-second-monitor
+
+---
+
+#### 8538. Low FPS/Stutter when watching twitch stream or video on different monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3r3ic/low_fpsstutter_when_watching_twitch_stream_or/
+
+---
+
+#### 8539. Anyway to disable Google ai when you search stuff/in the drop tabs?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3rvii/anyway_to_disable_google_ai_when_you_search/
+
+---
+
+#### 8540. REDDIT THIS IS MY FIRST POST AND ASKING FOR ADVICE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3tq63/reddit_this_is_my_first_post_and_asking_for_advice/
+
+---
+
+#### 8541. chrome opened with a weird website
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3khpj/chrome_opened_with_a_weird_website/
+
+---
+
+#### 8542. Headphone cable stopped working out of nowhere
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3sq4e/headphone_cable_stopped_working_out_of_nowhere/
+
+---
+
+#### 8543. My windows update is stuck on 98% and wont budge , keep trying to retstart and re launch my computer but it wont work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3lloz/my_windows_update_is_stuck_on_98_and_wont_budge/
+
+---
+
+#### 8544. Dashcam Video Repair?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3uy0f/dashcam_video_repair/
+
+---
+
+#### 8545. Lenovo laptop making weird crackling noises
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3uxls/lenovo_laptop_making_weird_crackling_noises/
+
+---
+
+#### 8546. Web browser isn’t connected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3usma/web_browser_isnt_connected/
+
+---
+
+#### 8547. Grey screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3ultl/grey_screen/
+
+---
+
+#### 8548. Physx wont select my GPU
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3u8w5/physx_wont_select_my_gpu/
+
+---
+
+#### 8549. Im planning to reset my windows 11 laptop but I only want to wipe my C drive how should I do it without losing any data from my D drive?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v38j4e/im_planning_to_reset_my_windows_11_laptop_but_i/
+
+---
+
+#### 8550. Dell Precision 7730 CPU reaches 80–90°C during light use
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3tqsa/dell_precision_7730_cpu_reaches_8090c_during/
+
+---
+
+#### 8551. My sound is just dosent work at all
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3tlrs/my_sound_is_just_dosent_work_at_all/
+
+---
+
+#### 8552. Straight to Black Screen Reboot in certain games BF6 and Warthunder
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3tk48/straight_to_black_screen_reboot_in_certain_games/
+
+---
+
+#### 8553. diy wifi router
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3tcnb/diy_wifi_router/
+
+---
+
+#### 8554. Does anyone know how to fix this error when downloading games?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3t3b0/does_anyone_know_how_to_fix_this_error_when/
+
+---
+
+#### 8555. Greenlion Earbuds Pro 3
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3sz8y/greenlion_earbuds_pro_3/
+
+---
+
+#### 8556. Update on Seagate 8TB random ejections / tx_flush timeouts (M2 MacBook Air)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3su41/update_on_seagate_8tb_random_ejections_tx_flush/
+
+---
+
+#### 8557. 700w psu thermaltake smart 24 pin connector issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3stk3/700w_psu_thermaltake_smart_24_pin_connector_issue/
+
+---
+
+#### 8558. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3smz9/removed_by_reddit/
+
+---
+
+#### 8559. Boot Device not found
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3smvj/boot_device_not_found/
+
+---
+
+#### 8560. Laptop unresponsive when I plug it in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3sijj/laptop_unresponsive_when_i_plug_it_in/
+
+---
+
+#### 8561. PC Can't detect Wi-Fi networks after a series of unfortunate events
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v3sd2k/pc_cant_detect_wifi_networks_after_a_series_of/
+
+---
+
+#### 8562. Cumulative Updates: July 14th, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1uwexbu/cumulative_updates_july_14th_2026/
+
+---
+
+#### 8563. I saw the post about the upcoming Properties dialog window. I created these designs a few years ago in my free time, and I feel like mine are superior to Microsoft's. Who's with me?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v3gjmm/i_saw_the_post_about_the_upcoming_properties/
+
+---
+
+#### 8564. Microsoft is finally modernizing Windows 11's decades-old File Explorer properties window with a new UI
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2y852/microsoft_is_finally_modernizing_windows_11s/
+
+---
+
+#### 8565. What are some cool features on Windows 11 that not many people know about that are life changing.
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2fz9i/what_are_some_cool_features_on_windows_11_that/
+
+---
+
+#### 8566. please replace this icon with a rocket or something like that
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v3pprz/please_replace_this_icon_with_a_rocket_or/
+
+---
+
+#### 8567. Announcing Windows 11 Insider Experimental (26H1) Preview Build 28120.2546 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2vh3k/announcing_windows_11_insider_experimental_26h1/
+
+---
+
+#### 8568. Windhawk Backup Manager – Easily back up and restore your Windhawk mods, binaries, and configurations
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2q7ut/windhawk_backup_manager_easily_back_up_and/
+
+---
+
+#### 8569. Windows is changing how it gets activated to be tamper-proof
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v3o1in/windows_is_changing_how_it_gets_activated_to_be/
+
+---
+
+#### 8570. Nooo, any good alternatives?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2hhi2/nooo_any_good_alternatives/
+
+---
+
+#### 8571. they sem to have added this thing i suggested a while ago
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v31ehn/they_sem_to_have_added_this_thing_i_suggested_a/
+
+---
+
+#### 8572. After every update I MUST RUN TWEAKS AGAIN
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v39hq6/after_every_update_i_must_run_tweaks_again/
+
+---
+
+#### 8573. Am I the only one that likes all the new AI features inside Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v3kfxs/am_i_the_only_one_that_likes_all_the_new_ai/
+
+---
+
+#### 8574. MacOS Floating Thumbnails
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2l87r/macos_floating_thumbnails/
+
+---
+
+#### 8575. Servy 8.7 Now Available
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2dmus/servy_87_now_available/
+
+---
+
+#### 8576. Announcing Windows 11 Insider Experimental Preview Build 26300.8935 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1y5mt/announcing_windows_11_insider_experimental/
+
+---
+
+#### 8577. Announcing Release Preview Build 26100.8942/26200.8942 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1y56i/announcing_release_preview_build/
+
+---
+
+#### 8578. Announcing Windows 11 Insider Beta Preview Build 26220.8925 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1y3g9/announcing_windows_11_insider_beta_preview_build/
+
+---
+
+#### 8579. Any ideas when the snipping tool will get the "add text to screenshot" option?
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v23mty/any_ideas_when_the_snipping_tool_will_get_the_add/
+
+---
+
+#### 8580. Announcing Windows 11 Insider Beta (26H1) Preview Build 28020.2539 - Windows Insider Program
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1y4gf/announcing_windows_11_insider_beta_26h1_preview/
+
+---
+
+#### 8581. The second time I launched the windows installer it looked different then the first time why is that? It's the same usb
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1xoej/the_second_time_i_launched_the_windows_installer/
+
+---
+
+#### 8582. OCD in system hygiene
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v19l98/ocd_in_system_hygiene/
+
+---
+
+#### 8583. Windows and Spyware from LG Monitors
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v10d56/windows_and_spyware_from_lg_monitors/
+
+---
+
+#### 8584. References for learning windows optimization
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v2j94q/references_for_learning_windows_optimization/
+
+---
+
+#### 8585. AviyalWM [0.2.6]: move windows by dragging it from anywhere inside
+
+**问题描述 / Problem Description**:
+Reddit r/Windows11 discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Windows11/comments/1v1ivmp/aviyalwm_026_move_windows_by_dragging_it_from/
+
+---
+
+#### 8586. [V2EX] 用 AI 搓了个通过 DLNA 协议投屏的小工具
+
+**问题描述 / Problem Description**:
+https://github.com/liyafe1997/dlna-screen-cast 这个需求源自父母日常习惯在摆在茶几的电脑上找各种视频看，包括但不限于网页上各种搜 D 版电影电视剧，各种体育赛事直播，迅雷下种子，本地视频，微信公众号/别人发的各种视频等等， 然后经常问我这个能不能放到电视上看 现在电视应该都是有支持 Miracast 、DLNA 、AirPlay 等各种投屏协议的，Miracast 对设备要求太严，老一点的笔记本/无线网卡/电视不兼容都不行，反正父母的笔记本的 Windows 搜不到电视。 于是就打起了 DLNA 的主意，发现 Windows 下居然没有类似的工具，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229113#reply0
+
+---
+
+#### 8587. [V2EX] 大家有用过 Power Automate 吗？
+
+**问题描述 / Problem Description**:
+今天整理电脑发现 windows 自带了一个 Power Automate 工具 一开始以为是类似苹果的快捷指令 看了一下里面的样例，感觉更像是强化版的按键精灵 好像也不能关联应用通过触发器来启动一些流程 不知道大家有没有用过，有用过的可以分享一下场景 我是暂时还没想到能用来干啥 没啥用就想删了，占空间还挺大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228995#reply10
+
+---
+
+#### 8588. [V2EX] 一台[物理断网]+[加密解密专用]的 WIN 电脑,如何在开机后“主动补熵”呢?
+
+**问题描述 / Problem Description**:
+有一些数据需要长期保存,打算专门新购一台电脑 最好是“软”方法?即使用程序/代码来主动“制造混乱”,而不需要引入额外硬件? 我的天真想法: ①随机(此时可能是低质量随机源)生成不存在的 1000 条命令抛给 PS 执行 ②滚键盘输入乱码(可视为高质量随机源?)作为密码,随机选择系统中某一个文件,嵌套加密它 10 次 这俩动作应该能增加大量 I/O+系统中断+CPU 抖动吧? 或者说,执行 openssl rand 命令能够正常输出结果,是不是说明 CSPRNG 已经初始化成功了?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228923#reply8
+
+---
+
+#### 8589. [V2EX] 终于解决困扰我 2 年多的 win10 内存泄漏问题了
+
+**问题描述 / Problem Description**:
+win10 ltsc2021 ，amd 7840h ，32G 内存，无独立显卡，现象是连续开机 15 天内存就会缓慢涨到 90%，重启后重新打软件回到正常 50% 尝试过重装 win10 ltsc 2019 ，win11 ltsc ，win10 精简版，卸载各种软件只保存必须用的那几个，关闭图形加速，关闭这那的，RAMMap ，poolmon ，WinMemoryCleaner......，各种折腾，全都没有用，都认命了 直到 1 个月前，尝试更新了一下 amd 显卡驱动，终于解决了，安装版本是 whql-amd-software-adrenalin-edition-26.6.1-win11-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1225180#reply20
+
+---
+
+#### 8590. [V2EX] [服务器] 想买个低配的服务器托管 multica 有推荐吗
+
+**问题描述 / Problem Description**:
+想买个低配的服务器托管 multica 有推荐吗 另外，域名可以搭配购买吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229171#reply2
+
+---
+
+#### 8591. [V2EX] [浴室深思] 一旦有了 token，就忍不住的让 AI 工作，和无良领导有什么区别？
+
+**问题描述 / Problem Description**:
+洗澡时突然思考了以下，感觉自己和无良领导的作风趋于一致。 一直在搞 CODEX ，有了 token 就忍不住让 AI 工作起来，哪怕不是具体的事项，只是一个想法一个点子，就会扔给 AI 去看看，就像无良领导看不得下属闲着，有点什么脑洞就赶快让下属去验证，如果 AI 能说话，是不是我们发出去 query 后，他也会反驳和内心骂一句。 只限于随便想想，不知道各位大佬什么看法，请就事论事；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229160#reply2
+
+---
+
+#### 8592. [V2EX] 承诺报销面试者公共交通费用，结果他跨城打车来的，合理吗？
+
+**问题描述 / Problem Description**:
+目前招聘工作异地到深圳面试的，都报销往返高铁票。 这个面试者是在广州，结果今天面试完了，丢了两张打车的截图，600 块。 我有点懵，打车是公共交通吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229151#reply27
+
+---
+
+#### 8593. [V2EX] 60 岁的父母衣裤鞋推荐牌子
+
+**问题描述 / Problem Description**:
+背景：父母来帮忙带小孩，很辛苦，老妈给买了个金饰，老爸给钱让他自己想买啥买啥也不要。所以想着给他买身衣服，鞋子啥的。 有适合东西买给老父亲的都可以推荐下。 感谢各位佬， 提前祝大家新年快乐，万事如意。 要求： 1.夏装 2.舒适 3.性价比高，（农村人节俭习惯了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229146#reply2
+
+---
+
+#### 8594. [V2EX] 求推荐小说
+
+**问题描述 / Problem Description**:
+看完了三体，阿西莫夫的看不进去，外国人名字太难记了。 凡人也看完了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229142#reply9
+
+---
+
+#### 8595. [V2EX] 发现了个薅 codex 羊毛的法子，不知道火星没有
+
+**问题描述 / Problem Description**:
+上个月 20 号下午 18 点多美区苹果账户冲的 5xpro, 今天已经 22 号了，仍然能用，无论是页面还是 codex. 钱没有扣。因为我的美区账号信用卡过期了。是不是过几天会封我号？ 上上个月充的 plus, 也是到期后没充钱，用的不多。好像大概 4-5 天后确认账号被降到免费账号了。 plus 到 pro 之间大概隔了一周多的时间，期间也没有用 codex 也没有登陆网页。 这算是封号小妙招还是薅到羊毛了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229139#reply1
+
+---
+
+#### 8596. [V2EX] 用 chatgpt5.6 编程的最佳姿势？
+
+**问题描述 / Problem Description**:
+原来用的是 Antigravity IDE ，Ai 编程挺好用的，多文件夹加入到一个 workspace ；文件树等等都挺好用的。 后来用 chatgpt 的 windows 客户端（ codex 好像被整合了），体验不好用，多个项目文件夹（在不同的目录）不直观；加了一个项目进去连文件树都看不到，颗粒化修改简直是摸黑状态（还得单独开一个 vscode 看修改的结果？） 应该是我不会用，老铁们点拨一下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229130#reply5
+
+---
+
+#### 8597. [V2EX] 求推荐 送什么
+
+**问题描述 / Problem Description**:
+外甥女今年高考被 985 大学录取了，想送她一份礼物，v 友们给推荐一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229126#reply0
+
+---
+
+#### 8598. [V2EX] 大家目前平均每天用多少 token
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229117#reply0
+
+---
+
+#### 8599. [V2EX] kimi 699 的 coding plan 5 小时限额和周限额大概相当于多少 tokens？
+
+**问题描述 / Problem Description**:
+我现在 opus 大概每天消耗 300M 左右，用 max x5 ($125) 正好，kimi 699 的用量哪位有买过，大概每 5 小时和每周可以用多少 tokens ？ 另外他似乎没有说明有月限制，应该只有周限对吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229112#reply5
+
+---
+
+#### 8600. [V2EX] 现在网站 ICP 备案完成后，还要公安备案吗？
+
+**问题描述 / Problem Description**:
+ICP 备案完收到个短信: 您的备案订单 xxxx 公安备案数据码为 xxxx （有效期至 2026-08-22 18:21:53 ）。请您及时前往 https://beian.mps.gov.cn/ 进行公安备案。如需协助可使用公安备案管家服务 https://t.aliyun.com/7l9eOOSA 这个不备会怎么样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229111#reply7
+
+---
+
+#### 8601. [V2EX] 家庭网络问题求助！遇到一件非常奇怪的事情...
+
+**问题描述 / Problem Description**:
+因为在外地出差，买了个中兴的 F50Pro 配合 TR3000 用 F50Pro ↔ TR3000 （ usb2.0 理论能跑满 480 mb/s ） iPhone Mac ↔ TR3000 可以跑满 Windows ↔ F50Pro 可以跑满 Windows ↔ TR3000 不论有线还是无线都是 100mb/s 左右 偶尔 200mb/s 如果是 Windows 的问题，那连接 F50Pro 为啥能跑满呢 如果是 TR3000 的问题，那 iPhone 和 Mac 也能跑满
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229108#reply1
+
+---
+
+#### 8602. [V2EX] 有没有可以使用 USDT/USDC/其他数字货币 支付的中转站？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229107#reply5
+
+---
+
+#### 8603. [V2EX] 我最近的生活状态
+
+**问题描述 / Problem Description**:
+基本情况： 94 年 单身独居 从早上说起，六点到六点半之间起床。起床后，豆浆先烧着，锅里煮两个鸡蛋+红薯+玉米。煎两块鸡胸肉，煮四五颗菜心，作为午饭带着。吃完早饭，简单收拾一下，或者不收拾，开始四组左右的哑铃力量训练，大概 40 分钟。出门上班前冲把澡。 中午，吃自己带的午饭。 晚上下班回家，简单做点晚饭。一般是蛋白质配蔬菜，外加一些碳水。碳水一般是玉米、红薯、馒头等。吃完收拾一下或者懒得收拾直接放水池。然后下楼溜达三十分钟。 溜达完回来将近九点半，然后洗澡，争取在晚上十点躺下，入睡我需要 20-40 分钟不等。 这种状态我目前保持了半个月，感觉还不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229095#reply10
+
+---
+
+#### 8604. [V2EX] 咸鱼什么时候开始 openwrt 是违禁词了？
+
+**问题描述 / Problem Description**:
+如题，楼主前两天挂了个闲置的工控机买，提到了盘表示盘里是之前刷的是 openwrt ，然后就被处罚了，提了申诉后无效还是让我违规，怎么都想不明白 openwrt 能是违禁词
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229079#reply13
+
+---
+
+#### 8605. [V2EX] 阅历不够，做生意的亲戚一直找我借钱怎么办？
+
+**问题描述 / Problem Description**:
+人物：我爸的亲兄弟，我爸，我 背景：他早年做生意，被远房亲戚坑了一道（说把远方亲戚告了，没下文），生意没做起来，我爸也是帮了他好多年，我爸的工资不说全部，很多都打给他了，但是他生意一直不温不火。然后我爸下岗了，身无分文，他今年才有点订单，但是钱又不够了，他借不到钱，我爸也借不到钱（我爸套信用卡借钱给他，他定期还），来找我借，我也没钱，就拿我的借呗给他借了几万，但是不够，还在借，金额不多，每次几千块。 一些影响判断的地方： 1. 我大学的学费，生活费都是他给的，也都给了，因为我爸没钱，都给他做生意了。 2. 他每次借钱都说下周就有资金回了，我爸也帮他说话，结果总是没下文。 3. 生意确实在做，也
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229077#reply74
+
+---
+
+#### 8606. [V2EX] 到现在没有正经用 agent+harness+知识库做过正经的项目，有没有老哥可以给一些顶层设计指导？
+
+**问题描述 / Problem Description**:
+如题，接触 AI 编程倒是很早，22 年 copilot 试用用户。我个人的舒适区是行级补全 + vscode 插件聊天，目前顶多用一用 codex + gpt plus 通过纯聊天做一些小项目，但是据我所知整个对话中的流程控制似乎并不是本地的 harness 完成的，更像是 gpt 在一次对话中后台对流程的控制。 感觉需要接触一下 AI 时代的新东西了，所以想问一下方案做的比较成熟的各位老哥能否给些指导。我尝试问 AI 但是感觉它还是说得不太清楚，更别提抓要点抓的准。 主要两个问题： 想要用领先模型（框架设计决策起码 deepseek v4pro 能力之上的模型）与现代工具链（有 agent
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229076#reply1
+
+---
+
+#### 8607. [V2EX] 请问如何判断巨魔安装的第三方 ipa 是否有安全隐患？
+
+**问题描述 / Problem Description**:
+我想安装一个两步路免会员版，但是担心 ipa 里面有后门
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229071#reply1
+
+---
+
+#### 8608. [V2EX] 现在电商大数据杀熟，价格来回浮动，买东西太烦人了
+
+**问题描述 / Problem Description**:
+最近装修好的房子要进家电了，空调冰箱洗衣机洗碗机啥的。 经常是看了一个价格，然后犹豫一天，第二台再去看，价格变了，上浮了 200 块。 有时候在拼多多百亿补贴看到好价，有时候在淘宝看到，有时候在京东看到。 最无语的是我要买 3 个空调挂机，看了某店的价格了，因为需求匹数不同，不能一下下单 2 台，然后就先下单了一台，然后在去下单第二台的时候，咔，价格变了。 要是不知道吧，也就没有这些心累的事。 知道了吧，被多要了 10 块钱，都不爽，更别说有些家电动辄上百元的浮动了。 我这吐槽还是不是那种复杂购物券定金尾款之类的算法，就直接下单，经常刷刷，价格也变动蛮大，不但是拼多多，京东居然也是这样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229058#reply9
+
+---
+
+#### 8609. [V2EX] 兄弟们，我打算租个集装箱，卖点什么好
+
+**问题描述 / Problem Description**:
+社区规划了一批集装箱，在菜市场隔壁，面积 20 平左右，年租金 5 个左右，想盘个下来，做什么最赚钱啊？兄弟们给点主意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229049#reply47
 
 ---

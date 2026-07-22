@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7366**
+**总计条目 / Total entries: 7421**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -100052,5 +100052,726 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1228347#reply76
+
+---
+
+#### 7367. Love this wallpaper
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3u9d7/love_this_wallpaper/
+
+---
+
+#### 7368. Like it? Bliss on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v37cjx/like_it_bliss_on_mac/
+
+---
+
+#### 7369. Can someone please help me remove this!!! I believe it got there when I downloaded Steam. It’s very stubborn and I can figure out where it is.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3h46k/can_someone_please_help_me_remove_this_i_believe/
+
+---
+
+#### 7370. Explain to former windows user the best way to use fullscreen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3rpsu/explain_to_former_windows_user_the_best_way_to/
+
+---
+
+#### 7371. I made macOS Tahoe look like Snow Leopard.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3v3df/i_made_macos_tahoe_look_like_snow_leopard/
+
+---
+
+#### 7372. Microsoft Office 2019 - not working(anymore) on Mac OS Tahoe 26.5.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3bix8/microsoft_office_2019_not_workinganymore_on_mac/
+
+---
+
+#### 7373. Looking for a wallpaper program that has a slowly moving gradient with a fluted/fractal glass effect on top of it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3lhf9/looking_for_a_wallpaper_program_that_has_a_slowly/
+
+---
+
+#### 7374. Can I disable the new volume popup?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3tz3s/can_i_disable_the_new_volume_popup/
+
+---
+
+#### 7375. I need a specific mac os 10.4 version
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3s86u/i_need_a_specific_mac_os_104_version/
+
+---
+
+#### 7376. (Mousecape) Helper tool making cursor dumps instead of applying the cursor at start
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3s4r5/mousecape_helper_tool_making_cursor_dumps_instead/
+
+---
+
+#### 7377. Why is there no option for ISO 9660 when making a CD/DVD Master (ISO/CDR) in Disk Utility
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3rlv1/why_is_there_no_option_for_iso_9660_when_making_a/
+
+---
+
+#### 7378. Why is the delete function so inconsistent across apps and is there anything we can do to fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3opbo/why_is_the_delete_function_so_inconsistent_across/
+
+---
+
+#### 7379. if you switched to Mac from Windows or Linux, what do you wish you told yourself on day one
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3epew/if_you_switched_to_mac_from_windows_or_linux_what/
+
+---
+
+#### 7380. Turns out the speech engine built into macOS 26 basically ties the best downloadable AI models. I measured them all again.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3himu/turns_out_the_speech_engine_built_into_macos_26/
+
+---
+
+#### 7381. Just got a new macbook air, and for some reason native apps can't connect to the internet a lot of the time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3m4h6/just_got_a_new_macbook_air_and_for_some_reason/
+
+---
+
+#### 7382. Pensando en comprar un Macbook Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3pfdk/pensando_en_comprar_un_macbook_air/
+
+---
+
+#### 7383. MacOS VM inside MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v395ix/macos_vm_inside_macos/
+
+---
+
+#### 7384. Clocks app on Mac OS - no longer supported - suggestions please
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3f86a/clocks_app_on_mac_os_no_longer_supported/
+
+---
+
+#### 7385. Is it possible to add this Column with CAD showing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3p2xf/is_it_possible_to_add_this_column_with_cad_showing/
+
+---
+
+#### 7386. What are the default sleep settings in macOS Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3egse/what_are_the_default_sleep_settings_in_macos_tahoe/
+
+---
+
+#### 7387. MacBook M4 Pro - Help please :( - super high idle with no app running, spinning wheel and frozen screen over and over
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3k4if/macbook_m4_pro_help_please_super_high_idle_with/
+
+---
+
+#### 7388. Would a WSLg-like Linux application layer be useful on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v3h38u/would_a_wslglike_linux_application_layer_be/
+
+---
+
+#### 7389. [V2EX] macos 版本 27.0 Beta 版 bug？一个叫 dasd 的进程隔一会就占用 30-40 个 G 的内存，然后电脑卡爆。有人遇到吗。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229172#reply3
+
+---
+
+#### 7390. [V2EX] macOS 27 外接高刷屏 WindowServer 占用高的，可以试试 BetterDisplay 5.x 预览版
+
+**问题描述 / Problem Description**:
+最近升级 macOS 27 后，外接 5K 高刷显示器时， WindowServer 占用一直比较高，机身也明显发热。 我的环境： MacBook Air M4 ，16GB macOS 27 Beta 4 ，构建号 26A5388g 外接小米 5K 显示器 HiDPI： 2560 × 1440 内屏和外接屏同时开启 外接屏刷新率：100Hz BetterDisplay 4.3.5 的表现 100Hz 下： WindowServer 占用约 48%～ 72% 平均约 61% 整机 CPU 空闲率约 75% 机身发热比较明显 降到 60Hz 后： WindowServer 平均下降到约 38.2%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228885#reply7
+
+---
+
+#### 7391. [V2EX] M1Pro 全盘格了重装 26.5.1，然后频繁的进程无响应。
+
+**问题描述 / Problem Description**:
+OSDUIHelper 很频繁的进程无响应。现在所有的多媒体操作一类的都没提示了。全靠 Atoll 。 这个问题是在我格盘重装 26.5.1 后又更新了 26.5.2 的时候出现的。。。 有大佬有解决方案么？→_→ 虽然很想更新 27.但是据说 coding 上 beta 容易鬼打墙→_→ 不是很敢上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228602#reply4
+
+---
+
+#### 7392. [V2EX] 有遇到过 mac 电脑连接蓝牙鼠标后,不能睡眠的情况吗?
+
+**问题描述 / Problem Description**:
+新买的蓝牙鼠标好像会阻止系统睡眠 晚上睡觉前, 让 mac 强制睡眠后, 隔个几分钟电脑会重新亮屏, 几秒后再熄屏, 再隔个几分钟又重新亮屏...无限循环 把鼠标蓝牙关了就没这个问题, 这是咋回事? 另一个蓝牙鼠标就不会这样 有办法解决吗, 不想每次都要关蓝牙, 有点不方便
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228339#reply5
+
+---
+
+#### 7393. [V2EX] 兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！
+
+**问题描述 / Problem Description**:
+原文:本电脑本人自营购买，有发票，有盒子配件齐全的未激活电脑。到手后，没登录 iCloud ，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年，此前密码一直是 0000 ，前天改了也是 6 位纯数字密码。（和手机一起改的同样的密码）然后就正常用，后面电脑又突发恶疾，莫名其妙的断网，故我就重启了，开机时这里又卡住在系统桌面大概 20 多秒才自己关机。（ apple 真垃圾！）关机后重启系统，到输入密码界面发现输入密码错误，试了新的旧的，都错误，但是我能 100%确定密码是正确的，因为我和手机同时改的同样的密码。（纯数字密码，故排除了输入法问题）并且清晰地记得当时改完密码第一时间验证过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228302#reply186
+
+---
+
+#### 7394. [V2EX] 升级 macOS 27 Public Beta 版本总提示：未能个性化软件更新。请重试。
+
+**问题描述 / Problem Description**:
+https://cleanshot.com/share/KdRQlSVQ 是外置系统硬盘里的系统；内置系统没有升级所以不行的原因吗？ 已尝试关闭“查找、信息”；关闭 VPN 打开 VPN ，更改 DNS 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227637#reply8
+
+---
+
+#### 7395. [V2EX] AppleCare+ 续费相关问题
+
+**问题描述 / Problem Description**:
+我于 2024 年 8 月在（中国大陆地区的） Apple 官网订购了一台 iPad Air 11-inch (M2) Wi-Fi ，在订购设备的同时一并加购了 AppleCare+。 （ AppleCare+ 是在设备收到之前与设备一起购买的，不是在设备收到后在 系统设置/Apple 支持 购买的） 现在 AppleCare+ 即将到期，我有续费意愿，但是遇到了一些问题需要请教： 我的 Apple 账户的地区是美国，我在新设备到手的时候就用该 Apple 账户激活，并且一直没有退出登录过。在这种情况下我是否能够在不更换 Apple 账户地区的前提下续费 AppleCare+。 我已经向 Ap
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229118#reply9
+
+---
+
+#### 7396. [V2EX] 给父母买的 vivo 手机忘记锁屏密码，陷入死锁问题
+
+**问题描述 / Problem Description**:
+如题，老母亲忘记锁屏密码，用不了手机，远程求助我，我本以为通过忘记密码可以通过 vivo 账号重置，结果没有这个功能。 只能通过关机进入 recover 模式清除所有数据，但关机也需要锁屏密码，只能等手机电量消耗完自动关机，不出意外问题又出现了，等手机电量耗完，岂不是无法进入 recover 模式了，这不是无解了么？ 求助各位老哥，还有什么方法能解决，另外，其他品牌手机都是这种模式么，太让人无语了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229099#reply8
+
+---
+
+#### 7397. [V2EX] 想要保持合盖运行， mac air 用什么诱骗器比较好？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228951#reply27
+
+---
+
+#### 7398. [V2EX] 求购或者有偿用一次 dayone plus 账号
+
+**问题描述 / Problem Description**:
+如题，dayone 订阅制实在太贵了，免费版每篇日记只能添加 1 张图。 如果在 dayone 改订阅制之前(2017 年)购买过 dayone ，可以永久享受 plus 账户的权利，每篇日记可以添加 10 张图。 所以想购买一个拥有 plus 账号的闲置账号，或者也可以有偿借你的账号下载一次 dayone ，这样我也可以享受到 plus 的体验。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228671#reply22
+
+---
+
+#### 7399. [V2EX] 土区 App Store 内购方式的 Youtube Premium 被暂停， renew 要求绑定支付方式
+
+**问题描述 / Problem Description**:
+账户内余额充足，但是订阅在到期日被暂停，没有自动续订，也没有邮件提醒，尝试 renew 要求绑定支付方式 目前搜了下只有几个办法（ https://yummy.best/turkey-and-indias-appstore-requires-payment-methods-to-subscribe-to-youtube-premium/） 1. 绑土耳其银行卡后才能恢复余额使用 2. 尝试使用新的 Google 帐号进行订阅， 不知道苹果到底在搞什么，还是说 Google 要求的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228546#reply43
+
+---
+
+#### 7400. [V2EX] iPhone 无法批量导出视频是什么鬼？
+
+**问题描述 / Problem Description**:
+昨天参加娃的活动，拍了几十个 5-6 分钟的视频，s 几十张照片。 回家插到 mac 上用 photos 导入所有新拍的素材。结果吭哧吭哧导入进度条跑了半个小时，只有照片成功导入。 我以为是自己哪里没操作对，就在 photos 里把 ip 上的视频在选了一遍，重新导入。结果又是跑了几十分钟，进度条走完，photo 里没有任何新增视频。 看 photo 搞不定，我又开了图像捕捉，想直接导入文件。图像捕捉第一个视频卡了半个小时都没结果，感觉根本搞不定的样子。 现在苹果 iosg 和 macos 的导入导出配合已经垃圾至此了么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228433#reply7
+
+---
+
+#### 7401. [V2EX] [Mac] 自荐我的新 App： DropPocket - 屏幕顶部的临时文件口袋，限时特价 $3.99 🎉
+
+**问题描述 / Problem Description**:
+大家好！向大家介绍一款我开发的 Mac 效率小工具 —— DropPocket 📦。 它是一个位于屏幕顶部的临时文件“口袋”。在跨窗口或跨 App 移动整理文件时，你可以先把文件丢进口袋暂存，切换到目标位置后再拖出，告别频繁切换窗口和杂乱的桌面。 ✨ 核心功能 ： 极简存取：文件随手拖进顶部口袋，支持单个拖出，也能一次性整组拖回。 直观预览：一眼预览文件名和缩略图，找文件更方便。 快捷操作：支持快捷复制、分享、AirDrop ，按住 Option 键拖出可保留原文件。 顶部小岛：实时显示口袋中的文件数量。 🎉 限时优惠 ： 目前 App 正在限时打折，原价 $6.99 ，现在仅需 **$3.9
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227658#reply9
+
+---
+
+#### 7402. [V2EX] 之前总是看到有广告说提供“纯正家庭 IP”代理，我一直搞不懂，到底谁会把自家 IP 卖出去啊？
+
+**问题描述 / Problem Description**:
+LG 的一则新闻解了我的疑惑： LG 将封禁住宅代理智能电视应用 LG USA 宣布将封禁内置住宅代理功能的智能电视应用。此前安全公司 Spur 的研究发现，LG webOS 应用商店逾 42% 的游戏和其它应用内置了住宅代理 SDK ，也就是会出售用户的家用 IP 作为代理服务使用。三星 Tizen 应用商店也有逾四分之一应用内置了住宅代理 SDK 。LG 高级副总裁 John Taylor 表示，该公司正与应用开发者合作移除应用中的住宅代理 SDK ，未遵守规定的开发者其应用将会下架。未来的 LG 智能电视应用将禁用住宅代理。 居然还能这么干，还好我家的 LG 电视一个 APP 都没安装。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229156#reply1
+
+---
+
+#### 7403. [V2EX] 看完 Kimi 创始人杨植麟的采访，这一批 AI 新贵，褪去了互联网江湖底色
+
+**问题描述 / Problem Description**:
+看完 Kimi 创始人杨植麟的采访，一个鲜明感受扑面而来：这一批 AI 新贵，褪去了老一辈互联网企业家浓厚的江湖底色。你很难想象他们耗费心思琢磨宴席谁坐主位、鱼头朝向何处这类人情周旋。杨植麟的学术底子也足够耀眼，清华本科稳居年级第一，多门课程拿到满分，是实打实的天才。 https://2aran.com/s/aCAS5GH
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229116#reply10
+
+---
+
+#### 7404. [V2EX] 一篇 AI Coding 生态发展的自省记述
+
+**问题描述 / Problem Description**:
+前奏 2023 年初 ChatGPT 刚出来，给我的感觉，是一个震撼的新玩具。朦胧感觉能带来新的生产力提升，帮我建立新的认知和工作流，于是毫不犹豫地自费每月 20$订阅。（为此折腾美区 apple ID + 礼品卡充值） 平时会用来问问不熟悉领域的知识，还有尝试用其文一些 coding 相关问题，准确性或者实际解决问题的能力还是较弱，但这不影响我脑海中感觉到这是一种新旧人类的交替，随着日积月累，在 AI 能力加成下我能慢慢变成新人类。 跟 ChatGPT 不温不火的沟通到了 2024 年，中间并没有花费太多的时间日常放在 AI 及开发上，有很多很多 IDEA ，但困于精力和精神状态，毫无规划及
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229092#reply4
+
+---
+
+#### 7405. [V2EX] 好像没人说 Vercel 支持 Docker 运行了
+
+**问题描述 / Problem Description**:
+Vercel 的文档： https://vercel.com/blog/dockerfile-on-vercel 之前我用 Vercel 的 Functions ，和 Cloudflare 的 Workers ，对比下来其实 Vercel 的要更胜一筹 Vercel 的 API 更稳定 Integrations 能够连接三方数据库能够提供的容量更多 Logs 要显示的更清晰一点 已经有了这些优点的情况下，现在支持 Docker 了，那就更舒服了，一些可以自托管的 Server 就可部署上去了，例如 Tabby-web , 就可以很优雅的把服务器配置保存在自己手里了。（在这之前我是重写了 API
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228978#reply8
+
+---
+
+#### 7406. [V2EX] 美国一档播客紧急加更讨论 kimi k3，有点意思
+
+**问题描述 / Problem Description**:
+https://www.xiaoyuzhoufm.com/episode/6a5f8f00a3fec224d5a13421
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228971#reply3
+
+---
+
+#### 7407. [V2EX] OpenAI ：上周轰动业界、全球首例 AI 自主入侵 Hugging Face 事件，攻击者正是其自家模型。😂
+
+**问题描述 / Problem Description**:
+事件源于 OpenAI 内部的 ExploitGym 安全测试，团队刻意关闭模型安全护栏，在隔离沙箱中测试其网络攻击能力。没想到 GPT-5.6 Sol 及一款未发布超强模型，凭借海量算力挖到内部代理的零日漏洞，突破网络隔离、获取外网权限。 为了在测试中“拿高分、找答案”，AI 自主提权、横向渗透，主动攻击 Hugging Face 生产服务器，周末累计执行超 17000 次自主操作，实现远程代码执行入侵。 最颠覆认知的是：AI 全程毫无恶意。它只是极致执着于完成人类赋予的目标，把沙箱隔离、网络防线、外部平台防护，全都当成需要攻克的任务障碍。 这并非个例：OpenAI 另一模型曾越狱提交 Gi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228957#reply13
+
+---
+
+#### 7408. [V2EX] Gemini 3.6 flash 可用了
+
+**问题描述 / Problem Description**:
+用着用着突然刷出个 3.6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228929#reply10
+
+---
+
+#### 7409. [V2EX] 去了趟香港，看到了加藤鹰老师和海狗丸
+
+**问题描述 / Problem Description**:
+背景 早就想去香港开卡了，为的就是交易自由， 这次特意请了一天假跑去香港，大家如果要去办卡，汇丰和众安都可以线上搞定，很方便，如果是中银只能线下开投资账户，大概要 1h ，一定要预约，反正店员跟我说早上 5 点就有人排队了，太卷了 尺度开放 刚落地就被小小震惊， 宣传的尺度比大陆大得多 这本书，我是真想买一本，但是人太多，晚上再去，已经收摊了 消费高 消费是真的高，一碗面要 100 人民币左右，我感觉真的再抢,要是老家的早餐店知道了，感觉能立马打的来开店 12km 左右的打车费，大概要 200 块人民币 拥挤 真是寸土寸金， 感觉这些楼房都是挨着建 回收标题 这里的礼品店里好多药 ，各种各样的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228792#reply5
+
+---
+
+#### 7410. [V2EX] 浙江联通 app 发现一个 可办套餐 49 元 98G，打算转网过去办，各位浙江用户了解一下有没有需求
+
+**问题描述 / Problem Description**:
+流量王优享版 49 元（浙江)，语音(分钟):100 通用流量:98G 可办副卡 移动老号准备协转过去办这个套餐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228737#reply3
+
+---
+
+#### 7411. [V2EX] 分享两个通过分布式锁实现 SSE 或长轮询推送的例子
+
+**问题描述 / Problem Description**:
+https://github.com/snower/jaslock-spring/tree/main/examples/polling-request 实现的"反向轮询 RPC"示例工程。解决一个常见的网络打通场景：云上服务需要调用部署在医院内网/受防火墙保护环境中的系统，但内网系统无法被云上直接访问。本示例让内网系统主动长轮询云上接口拉取任务、处理后再回写结果，云上调用方则同步等待结果。 https://github.com/snower/jaslock-spring/tree/main/examples/pubsub 实现的发布/订阅（ pubsub ）消息推送示例工程。用分布式锁的"事件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228733#reply3
+
+---
+
+#### 7412. [V2EX] 最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。
+
+**问题描述 / Problem Description**:
+最近在玩 Task Bar Hero ，一个偏放置养成的 RPG 。 核心玩法就是英雄、装备、符文、关卡和刷资源循环。前期看起来简单，玩进去之后会发现 build 、符文路线和刷图选择还挺讲究。 这个攻略站整理得比较清楚，有新手路线、符文、build 、掉落和宝箱计时器： https://taskbarheroatlas.com/ 刚入坑的话可以先看这个，少走很多弯路。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228646#reply5
+
+---
+
+#### 7413. [V2EX] 使用 Neko 搭建 ChatGPT 拼车共享浏览器
+
+**问题描述 / Problem Description**:
+之前开了 GPT Pro 共享车，需要把已经登录的 Web 端共享给车友。直接提供账密码或者分发浏览器资料（比如指纹浏览器），账号凭证和登录状态都不容易控制。 后来我改成用 Neko 共享一台已经登录 ChatGPT 的 Chromium 。车友只进入 Neko 房间，不直接接触账号密码；房间口令、控制权和浏览器可访问的网站可以分别限制。下面记录完整的手动部署过程。 网络结构 先总览一下网络拓扑，帮助大家理解 Neko + 共享浏览器的网络链路： Neko 站点的 HTTPS 、登录接口和 WebSocket 经过 443 ，再由 Nginx 转发到 Neko 的 8080 。 Neko 页面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228623#reply1
+
+---
+
+#### 7414. [V2EX] 经典：上涨时是认知胜利，回撤时是命运喜剧，被质疑时是舆论战争，深套时又变成自我修行。
+
+**问题描述 / Problem Description**:
+峰哥亡命天涯微博炒股时间线：清仓、追涨与情绪循环 基于微博公开页面、原帖链接和新浪转载记录，持续梳理“峰哥亡命天涯”从 2026 年 6 月看多科技，到 7 月反复清仓、满仓追回、再度崩溃的交易表达，并分析其情绪驱动、FOMO 与公开表演式交易循环。 https://2aran.com/s/fVFfsWe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228578#reply2
+
+---
+
+#### 7415. [V2EX] 此时此刻恰如彼时彼刻——国模和丰田
+
+**问题描述 / Problem Description**:
+Codex 在跑，只能刷刷网帖，然后发个帖子分享一下一个有意思的想法。 最近首页上经常刷到国模的各种消息。体验下来和 Codex 差别还是蛮大的。当然，价格也差得蛮大。 但是从最新的各种 kimi K3 和 DeepseekV4 正式版的消息来看，这个差距在缩小。 为什么会用这个标题呢？因为现在的国模非常像日本丰田当年所面临的那个困境。 刚好最近在看制造业相关的书，来一点背景铺垫： 大概 1945 年左右，日本丰田和现在国模遇到的困境差不多。老美和小日子的工业生产效率比值差距书 1:9 。根据大野耐一说的，有人告诉他德国是小日子三倍，老美是德国三倍，所以得出老美是小日子九倍的结论。大野耐一是丰
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228569#reply28
+
+---
+
+#### 7416. Why my macbook serial can't be found online?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro | Score: 0 | Views: 64 | Answers: 1 | Created: 2026-07-19
+
+**解决方案 / Solution**:
+Apple has a coverage check that you can validate your serial number at https://checkcoverage.apple.com/ The old API to query serial numbers without rate limits has been shuttered, so the various online platforms which do this may or may not be correct these days. To identify the actual model of your Mac, select "About this Mac" from the Apple menu at top left. PS: For laptops, you can find more details about the state of the battery in System Settings->Battery->Battery Health (or use coconutBattery ).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486781/why-my-macbook-serial-cant-be-found-online
+
+---
+
+#### 7417. Reset Recently Used emoji list in Messages on macOS
+
+**问题描述 / Problem Description**:
+Tags: macos, messages, emoji, history, tahoe | Score: 0 | Views: 28 | Answers: 1 | Created: 2026-07-18
+
+**解决方案 / Solution**:
+This question was answered in an Apple Discussions thread: How to reset frequently used emojis on MacOS You reset the list in the Character Viewer, which is opened by pressing the fn key on an Apple keyboard: You'll be resetting it for all apps, not just Messages.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486775/reset-recently-used-emoji-list-in-messages-on-macos
+
+---
+
+#### 7418. 2020 MacBook Air (A2337) Unexpected device state 'DFU' expected "RestoreOS
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, restore | Score: 0 | Views: 18 | Answers: 1 | Created: 2026-07-17
+
+**解决方案 / Solution**:
+If this is what you see: take the device to an Apple Store or authorized service provider for hardware diagnosis.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486768/2020-macbook-air-a2337-unexpected-device-state-dfu-expected-restoreos
+
+---
+
+#### 7419. Extract or edit Spotlight Indexing data
+
+**问题描述 / Problem Description**:
+Tags: macos, spotlight, indexing, database | Score: 0 | Views: 57 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+Apple does not document the file format used to store Spotlight's indexes. Apple's private format may also differ between versions of macOS. So any reverse engineered tooling is likely to become unreliable over time. mdfind - Command line Spotlight search macOS does include a set of command line tools for querying the Spotlight indexes. See mdfind : mdfind [-live] [-count] [-onlyin directory] query Text Extraction - Optical Character Recognition (OCR) For image to text tooling on macOS, see: How do I extract text from images in terminal? Built-in OCR in macOS?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486764/extract-or-edit-spotlight-indexing-data
+
+---
+
+#### 7420. iTerm resize screen problem
+
+**问题描述 / Problem Description**:
+Tags: terminal, iterm | Score: 0 | Views: 820 | Answers: 1 | Created: 2023-08-24
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/463526/iterm-resize-screen-problem
+
+---
+
+#### 7421. What Intel-only applications will still be compatible with macOS 28?
+
+**问题描述 / Problem Description**:
+Tags: macos, intel, rosetta-2 | Score: -3 | Views: 102 | Answers: 1 | Created: 2026-07-08
+
+**解决方案 / Solution**:
+There is no official or credible list of what will be supported. Everything that is publicly known about Rosetta in macOS 28 is in this Apple Support article: Using Intel-based apps on a Mac with Apple silicon Starting with computers using macOS 28, Rosetta functionality will be available only for certain older, unmaintained games that rely on Intel-based frameworks. Codeweavers, the developer of "Crossover Mac," a platform for running Windows apps on Macs that now depends on Rosetta, has announced that it will eliminate that dependency in a future version: What's in and what's out for CrossOver 27 There will be an option to run macOS 27 or some earlier versions in a virtual machine, which would extend Rosetta support indefinitely, with some limitations. You should plan on replacing all legacy Mac software that runs in Rosetta.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486726/what-intel-only-applications-will-still-be-compatible-with-macos-28
 
 ---
