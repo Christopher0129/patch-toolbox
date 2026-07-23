@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7864**
+**总计条目 / Total entries: 7897**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -110184,5 +110184,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229032#reply36
+
+---
+
+#### 7865. Codeberg: Protecting our FLOSS commons from LLMs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v48o84/codeberg_protecting_our_floss_commons_from_llms/
+
+---
+
+#### 7866. Stepping away from Flathub
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4p266/stepping_away_from_flathub/
+
+---
+
+#### 7867. I built a Linux filesystem benchmark for corruption, snapshots, rebuilds and ENOSPC across 26 storage layouts
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4lsfk/i_built_a_linux_filesystem_benchmark_for/
+
+---
+
+#### 7868. Release Version 11.0-20260703 · CachyOS/proton-cachyos
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4ipdj/release_version_11020260703_cachyosprotoncachyos/
+
+---
+
+#### 7869. Are Linux Mint's Default Apps Too Outdated for Everyday Use?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v45adu/are_linux_mints_default_apps_too_outdated_for/
+
+---
+
+#### 7870. New position at TDF: Join the LibreOffice team as a Marketing and Communication Professional (full-time, remote
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v44qiz/new_position_at_tdf_join_the_libreoffice_team_as/
+
+---
+
+#### 7871. Community Fedora Remix 12.3 hopefully soon to be archived :)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4lef3/community_fedora_remix_123_hopefully_soon_to_be/
+
+---
+
+#### 7872. PipeWire-Controller Update- thanks everyone who tried it and gave feedback. I have an update for it later today or tomorrow. Currently testing. I really do appreciate the feedback and support. The app is extremely comprehensive in terms of what it can do.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3wkkf/pipewirecontroller_update_thanks_everyone_who/
+
+---
+
+#### 7873. FlatRoot v0.1.0 - Build linux rootfs without root privileges or a package manager.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4q3k3/flatroot_v010_build_linux_rootfs_without_root/
+
+---
+
+#### 7874. JPEG "Trust" and similar
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v4q3jc/jpeg_trust_and_similar/
+
+---
+
+#### 7875. Vice Game Clipper 2.0 released! (Linux Medal.tv alternative)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v40td6/vice_game_clipper_20_released_linux_medaltv/
+
+---
+
+#### 7876. Lemonade 11.5 local AI server released with completed Lemonade Router
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v3x5i9/lemonade_115_local_ai_server_released_with/
+
+---
+
+#### 7877. [V2EX] 北通手柄 Linux USB 断连排查与修复
+
+**问题描述 / Problem Description**:
+🚀第一篇水贴 一开始只是想让 archlinux 能 2.4g 连上我的北通手柄 从硬件查到驱动，从 usb 查到 xpad 当我解决完并推送到 aur 仓库的时候，她说要去找个用 windows 的 fk Microsoft ！ https://www.reddit.com/r/linuxsucks/comments/1k6e9th/i_lost_my_wife_because_of_linux 北通手柄 Linux USB 断连排查与修复 症状 北通 BTP-KP40A 手柄通过 2.4G 无线接收器连接 Linux 时，USB 设备每 ~1 秒断开重连一次。蓝牙模式正常，有线 USB 正
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229296#reply4
+
+---
+
+#### 7878. [V2EX] 想自建 API 中转站，找上游渠道合作
+
+**问题描述 / Problem Description**:
+想自建 API 中转站，找上游渠道合作，长期大量，有卡商/号商/渠道方请联系 要价低的真源头，谢谢~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229426#reply1
+
+---
+
+#### 7879. [V2EX] 请教大家怎么解决 UI 的问题
+
+**问题描述 / Problem Description**:
+首先，我并不是程序员，以前有个网站有个大概 10 年了吧，花钱叫别人写的，然后这不 AI 也能写代码了吗，我就重新写了底层前端，然后呢反复搞，前端 UI 搞出来太烂，我是用 CLAUDE CODE ，只会用这个，搞出来的界面实在是看不下去，一眼看上去就是 AI 做出来的。 问题就是各位程序员你们的 UI 是怎么处理的，如果利用 AI 的话。用什么工具来做。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229422#reply0
+
+---
+
+#### 7880. [V2EX] 开源免费的 agent，可以适配本地大模型有哪些，哪个最好用？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229406#reply0
+
+---
+
+#### 7881. [V2EX] 送码， 做了一个 Mac 原生的窗口管理工具
+
+**问题描述 / Problem Description**:
+纯 swift 开发， 只有 2mb 给自己做的， 耗费了大概 400 刀的 fable token 创建项目 把任何软件的窗口添加到项目里 额外适配了 chrome, ghosty. 支持把某一个 tab 添加到项目里 添加后支持用快捷键唤起，然后搜索，用键盘快捷键快速的唤起这个窗口。 官网 https://recue.hamsterbase.com/ 0 元购 购买地址： https://mbd.pub/o/bread/YZaUlZ1ubA==?discount_code=LPKSRX# 访问此链接可以免费获得我的作品 [ Recue ] 。 请注意，优惠码可重复使用 25 次，不要轻易分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229395#reply8
+
+---
+
+#### 7882. [V2EX] 开源作者，没有 Apple 证书
+
+**问题描述 / Problem Description**:
+做开源桌面端项目，一般都适配 windows 、mac 、linux 客户端，但是我没有申请成为 apple 开发者，mac 端的应用一直被拦截，如何用较小的代价解决这个问题。大家是怎么解决的？感谢各路大神
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229394#reply15
+
+---
+
+#### 7883. [V2EX] 厌倦了 AI 的看不懂的黑话、胡乱造词，让 AI 输出的文本更简洁清晰，试试这个新 skill 吧
+
+**问题描述 / Problem Description**:
+no-slop-zh 试图解决什么 在用了一些去 AI 味的 skill 之后，我并没有找到自己想要的，很多 skill 要么就是高频词替换，要么就是让模型写得更像人，但是“更像人”这个东西并没有明确的边界或者只能固定一种死板的风格。 no-slop-zh 其实是试图去解决一个更窄层面的问题： 在不改变事实的前提下，去除 AI 生成文本里的固定模板感、夸大感和语义漂移。 例如改写前： 值得注意的是，本次版本不仅仅修复了导出超时问题，更通过系统性升级全面提升了用户体验。Android 12 以下尚未验证。 改写后： 本次版本修复了导出超时问题。Android 12 以下尚未验证。 通过什么方式解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229376#reply2
+
+---
+
+#### 7884. [V2EX] 这个 Transformer 的网页互动效果太好了
+
+**问题描述 / Problem Description**:
+理解 Transformer 迄今为止见过的最好的动态展示理解 Transformer 的网页
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229374#reply2
+
+---
+
+#### 7885. [V2EX] Tailscale,这个组网工具真不错，而且是端到端直连；推荐，推荐
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229371#reply27
+
+---
+
+#### 7886. [V2EX] 如何解决 claude code 使用 deepseek 不明中缓存导致费用暴涨的问题
+
+**问题描述 / Problem Description**:
+最近遇到这个问题，发现很多小伙伴也有这个问题。 有部分原因可能是因为 Claude code 新增加的 Attribution Block 的特性 Attribution Block （归因块） 是 Claude Code 在每次请求发送给 Anthropic API 时，自动在 system prompt 最前面 插入的一小段元数据信息。 典型内容类似下面这样（会动态变化）： <claude_code_attribution> Client: Claude Code v2.1.XXX Session: abc123-uuid Fingerprint: hash-of-previous-con
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229360#reply10
+
+---
+
+#### 7887. [V2EX] 我发现了自研编程语言的一条出路
+
+**问题描述 / Problem Description**:
+一个月前，我将编译器的 23 万行源码全部移植到了自研编程语言。 功能不变，但代码量直接缩减到了 19 万行。 然后这个月用自研的语言继续自举开发，感觉越用越爽，也终于感受到了自研的价值。 之前一直被质疑做小众语言毫无意义，但现在觉得： 生产力才是硬道理。 产品初期，不需要寻求他人认可。 只要自己有用，那就 OK 了。 等自己用了一段时间，产品也稳定后，必然能找到同样觉得它好用的用户。 在我的语言里面，最重要的功能是“模式匹配、自动导入、自动构造函数、编译期装饰器、部分类”，之前的 4 万行代码就是靠这些功能省下来的。 再也不用等主流语言支持，已经先用上了，确实很爽。 不过，目前还有很多功能没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229354#reply8
+
+---
+
+#### 7888. [V2EX] 自研 20KB Markdown 所见即所得编辑器内核发布 0.3.0 版本，支持 CRDT 无冲突合并，期待可以接入到大家的产品中
+
+**问题描述 / Problem Description**:
+项目在持续维护迭代，最近的版本优化了很多编辑体验、手机端编辑体验。功能上主要支持了业务无关 CRDT 合并。内核支持 npm 安装，后续会考虑把插件发单独 npm 包 项目地址： https://github.com/do-md/domd 在线体验： https://www.domd.app 功能点： Markdown 原生所见即所得编辑，支持代码实时高亮，支持代码格式化 增量加载文档，可以实现大文档秒开 支持增量流式输入渲染 支持段落内细粒度的离线、多端无冲突合并，不是段落级 LWW 极其轻量（本来想控制在 20KB ，现在应该已经突破 20KB 了） 期待有需求的可以接入到 domd 内核
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229342#reply30
+
+---
+
+#### 7889. [V2EX] ai 复刻了小红书 uniapp 项目
+
+**问题描述 / Problem Description**:
+http://8.146.211.120:8081/ 一周基本完成了重构 添加了视频通话和地图 为啥没人找我写项目😭 https://gitee.com/ddeatrr/springboot_vue_xhs
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229305#reply10
+
+---
+
+#### 7890. [V2EX] 关于 AI 工作流,提示词的问题.求各位大佬救命（有偿）
+
+**问题描述 / Problem Description**:
+公司在做 AI 短剧工作流,视频模型接的是 seedance2.0 现在的流程是用户提交提示词我原封不动的给 seedance,现在导致用户反映跟外面商用的 AI 工具流差距很大(TapNow,libTv)等 同样提示词 同样资产生成的视频差很多 所以在想是不是用户提交给 seedance 中间 是不是有个工程化，把提示词优化再给 seedance 现在就我一个后端（ java ） 一个前端 一个产品 只能自己想提示词 有没有大佬能救救孩子 如果能 SKILL 复用最好 如果可行 我会让公司给你付酬劳 一个人真扛不住
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229304#reply15
+
+---
+
+#### 7891. [V2EX] 这么个产品能碰瓷大厂产品吗？ AI 驱动+本地知识库的工具
+
+**问题描述 / Problem Description**:
+github 地址:GitHub - Yoan98/Ncurator · GitHub 官网: https://www.ncurator.com 代码其实没开源，但开了仓库欢迎提 issue ，软件工具是纯免费的，无盈利性质 亮点: 1.内置本地知识库 2.AI 驱动操作 3.将来会内置更多像向量模型的开源模型,可以免费使用到自己电脑的资源来完成任务 4.AI 精细修改 docx,ppt 等办公文件,加强性 UI 交互设计 为爱发电,就是想和大厂的产品碰一下,纯免费,但你们需要花费自己的 token
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229303#reply0
+
+---
+
+#### 7892. [V2EX] 招聘独立开发或者 seo,可以去试探你的方向和去做你想做的东西(ai 开发任务一上午能做完公司的活)
+
+**问题描述 / Problem Description**:
+做公司的网站迭代，是持续性迭代 codex 管够 公司任务用 ai 一上午能干完 希望一起去折腾一起组做流量或者独立项目 目前流量最高是 8000uv 一天 公司岗位还没有放出来，完全负责，想着能找一起志同道的的人 Bu46948487
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229289#reply10
+
+---
+
+#### 7893. [V2EX] 关于流传出来的梁文锋投资人会议实录
+
+**问题描述 / Problem Description**:
+找不到原文在哪，目前看的是这篇总结： https://mp.weixin.qq.com/s/AWsSjcT9NYbj1W8SWXgb_w 看完之后只能感慨梁圣的格局真的太大了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229272#reply49
+
+---
+
+#### 7894. [V2EX] 5.6Sol 的腐坏来的太快
+
+**问题描述 / Problem Description**:
+我是 5.6Sol+极高推理+1.5 倍速度，现在这玩意儿给我感觉就是 5.5 ，又蠢又慢，低级错误屡犯。 现在一千万的用户上来了，OpenAI 也吃不住了是么。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229237#reply33
+
+---
+
+#### 7895. [V2EX] code agent 是不是太卷了，个人是不是不适合做
+
+**问题描述 / Problem Description**:
+一时兴起想着做一个 code agent 来节省成本，一做就是 2 个月。 因为抢不到 glm ，一直用的是 deepseek 。5 月份有一天升级 claudecode 后发现 token 账单飙升得很厉害。想着 deepseek 与 claudecode 兼容性是越来越差了，此前就有好几次自己调整协议让 claudecode 兼容 deepseek 的情况。期间也尝试用了 reasonix ，用着不是很顺手，索性自己折腾一下。 现在想的是看能不能把自己的 code agent 开源做起来好找工作，6 月份被裁员了，现在很迷茫，目前开源项目只有 54 个 star, 3 个 issues ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229234#reply36
+
+---
+
+#### 7896. [V2EX] vscode 上的 codex 插件出 bug 了
+
+**问题描述 / Problem Description**:
+在 windowd 中没问题，今天在 ubuntu 中用，先是打不开插件，重装后可以打开了，但对话报错，“创建任务时出错 Invalid request: AbsolutePathBuf deserialized without a base path”，问 ChatGPT 说是 2026 年 7 月 22 日更新后的版本有这个问题，但没给出解决方法，有人遇到过吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229217#reply0
+
+---
+
+#### 7897. [V2EX] 做了个能远程访问的本地 Markdown 知识库， Claude、ChatGPT 和手机 Web 都能读写
+
+**问题描述 / Problem Description**:
+Claude Code 、Codex 读取本机知识库并不难。但换到 Claude.ai 、ChatGPT Web 或手机后，要么失去这些上下文，要么需要重新上传和维护另一份知识库。 所以我做了 HomeKB： https://github.com/do-md/homekb HomeKB 的核心思路是：知识库继续运行在家里的电脑上，但可以从本机和远程使用。 Markdown 、索引和写入保留在本机； Claude Code 、Codex 通过本地 MCP 直接访问，不经过中继； 本机主动建立 outbound tunnel ，不需要公网 IP 或开放入站端口； 通过一次性配对码，可以连接 Hom
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229215#reply8
 
 ---

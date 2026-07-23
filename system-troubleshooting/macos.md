@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7421**
+**总计条目 / Total entries: 7478**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -100773,5 +100773,746 @@ There is no official or credible list of what will be supported. Everything that
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486726/what-intel-only-applications-will-still-be-compatible-with-macos-28
+
+---
+
+#### 7422. Install Latest OS on Old Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4lt8k/install_latest_os_on_old_macbook/
+
+---
+
+#### 7423. Password immediately required when iPhone Mirroring is set to automatically authenticate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4o0ts/password_immediately_required_when_iphone/
+
+---
+
+#### 7424. iCloud Drive Issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4mfw7/icloud_drive_issue/
+
+---
+
+#### 7425. Automation for the New Siri App? Alfred, AppleScript, Shortcuts, URL Schemes, CLI?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4p50m/automation_for_the_new_siri_app_alfred/
+
+---
+
+#### 7426. How to stop making new desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4eb3e/how_to_stop_making_new_desktop/
+
+---
+
+#### 7427. MagicMouse smooth scroll not working for Chrome but trackpad works
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4jahl/magicmouse_smooth_scroll_not_working_for_chrome/
+
+---
+
+#### 7428. Deleted 84 GB OneDrive (and its cache) and no data decrease
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4pf27/deleted_84_gb_onedrive_and_its_cache_and_no_data/
+
+---
+
+#### 7429. Tengo drama, no abre mi MBP
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4n7e9/tengo_drama_no_abre_mi_mbp/
+
+---
+
+#### 7430. Blurry icons in Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4lmzx/blurry_icons_in_tahoe/
+
+---
+
+#### 7431. strange green dot on Dock?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4krzq/strange_green_dot_on_dock/
+
+---
+
+#### 7432. Needing Help With Bluetooth connection
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4jxyb/needing_help_with_bluetooth_connection/
+
+---
+
+#### 7433. What's the most convincing phishing attempt you've received on your Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4pno1/whats_the_most_convincing_phishing_attempt_youve/
+
+---
+
+#### 7434. Folder-specific sorting setting somewhere?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4f0pv/folderspecific_sorting_setting_somewhere/
+
+---
+
+#### 7435. I cant use the bootable drive on my 2007 iMac, i just keep getting this.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4eqsq/i_cant_use_the_bootable_drive_on_my_2007_imac_i/
+
+---
+
+#### 7436. Finding Old iMessage Shared Media
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4ejkn/finding_old_imessage_shared_media/
+
+---
+
+#### 7437. MacOS Sonoma not installing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4dk16/macos_sonoma_not_installing/
+
+---
+
+#### 7438. Is 140gb bytes read normal for a mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v45mqi/is_140gb_bytes_read_normal_for_a_mac/
+
+---
+
+#### 7439. Orphaned right-click menu items
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v424ie/orphaned_rightclick_menu_items/
+
+---
+
+#### 7440. USB hub + audio = unusable mouse/keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v46cct/usb_hub_audio_unusable_mousekeyboard/
+
+---
+
+#### 7441. SIRI says mhm
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v4nzaq/siri_says_mhm/
+
+---
+
+#### 7442. [V2EX] 观“兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！”,聊聊 macOS 有哪些 bug 吧
+
+**问题描述 / Problem Description**:
+我先来,即使开了信息的 icloud 的同步功能,通用-存储 页面依旧会推荐你把信息同步到 icloud. 我当前系统为最新版 26.5.2 分享的 bug 最好是正式版最新系统遇到的哦,不是正式版最新
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229317#reply4
+
+---
+
+#### 7443. [V2EX] macos 版本 27.0 Beta 版 bug？一个叫 dasd 的进程隔一会就占用 30-40 个 G 的内存，然后电脑卡爆。有人遇到吗。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229172#reply5
+
+---
+
+#### 7444. [V2EX] macOS 27 外接高刷屏 WindowServer 占用高的，可以试试 BetterDisplay 5.x 预览版
+
+**问题描述 / Problem Description**:
+最近升级 macOS 27 后，外接 5K 高刷显示器时， WindowServer 占用一直比较高，机身也明显发热。 我的环境： MacBook Air M4 ，16GB macOS 27 Beta 4 ，构建号 26A5388g 外接小米 5K 显示器 HiDPI： 2560 × 1440 内屏和外接屏同时开启 外接屏刷新率：100Hz BetterDisplay 4.3.5 的表现 100Hz 下： WindowServer 占用约 48%～ 72% 平均约 61% 整机 CPU 空闲率约 75% 机身发热比较明显 降到 60Hz 后： WindowServer 平均下降到约 38.2%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228885#reply8
+
+---
+
+#### 7445. [V2EX] [NanoTab] vibe 了一款 mac 窗口切换工具并分享一下我的窗口管理方案
+
+**问题描述 / Problem Description**:
+NanoTab NanoTab 是一款面向键盘用户的 macOS 窗口切换器：通过窗口图标、标题和数字编号，快速定位并直达任意窗口。它保留同一应用的独立窗口与最小化窗口，让多桌面、多窗口工作流更顺手。 开发动机： 在我日常使用窗口切换时，往往需要通过图标加上标题来定位窗口，在此基础上我希望能通过数字键盘快速高效的直达窗口，看了下市面上常见的 mac 窗口切换工具都不是我想要的样子，所以我自己 vibe 了一个并分享一下我的使用经验。 基础功能： 快捷键 操作 ↑ / ↓ 或 K / J 选择上一个或下一个窗口 ← / → 或 H / L 切换上一页或下一页 Return 切换到所选窗口 1 –
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228618#reply7
+
+---
+
+#### 7446. [V2EX] 兄弟们，关于 Macbook 血的教训！ MacOS 比 Win 更逆天！
+
+**问题描述 / Problem Description**:
+原文:本电脑本人自营购买，有发票，有盒子配件齐全的未激活电脑。到手后，没登录 iCloud ，只设置了本地账户（不设本地账户进不去系统），随后用了大概半年，此前密码一直是 0000 ，前天改了也是 6 位纯数字密码。（和手机一起改的同样的密码）然后就正常用，后面电脑又突发恶疾，莫名其妙的断网，故我就重启了，开机时这里又卡住在系统桌面大概 20 多秒才自己关机。（ apple 真垃圾！）关机后重启系统，到输入密码界面发现输入密码错误，试了新的旧的，都错误，但是我能 100%确定密码是正确的，因为我和手机同时改的同样的密码。（纯数字密码，故排除了输入法问题）并且清晰地记得当时改完密码第一时间验证过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228302#reply188
+
+---
+
+#### 7447. [V2EX] 历时 3 个月，用 Swift 在一台 10 年前的 MacBook 上写了个 App，今天上架 App Store 了
+
+**问题描述 / Problem Description**:
+给老婆做的。 她是自由职业，在家干活。没有上下班打卡，早上跟我一起起床，吃完早饭刷完手机，真正开始干活已经 10 点了。午觉睡到下午三点，干一会儿就该吃晚饭了。一整天都没法规律安排。 她跟我说——要是能像上学一样，有上课铃下课铃，到点有人喊你"该干嘛了"，那该多好。 市面上试了一圈：电子闹钟只能设 10 个不够用、番茄钟霸屏对查资料不友好、系统提醒太安静根本注意不到。都放弃了。 所以就自己写了这个—— 小鸡播报 。 🔊 到点大声播报 ：不是弹窗、不是小红点，是真的语音朗读"下午两点啦，开始工作"。电脑上跑，不怕听不到。 👀 悬浮窗始终可见 ：半透明毛玻璃浮在桌面，瞥一眼就知道现在该干嘛。 📋
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228231#reply7
+
+---
+
+#### 7448. [V2EX] 美区 Apple One 超大杯涨价， 37.95 刀涨到 39.95 刀
+
+**问题描述 / Problem Description**:
+已收到邮件通知，哎！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229375#reply1
+
+---
+
+#### 7449. [V2EX] macbook 显示器推荐，分辨率 4k、5k 都可以，预算 5000 以内，不要 dell 的
+
+**问题描述 / Problem Description**:
+需求： 分辨率：4k 、5k 支持 type-c 一线通，充电功率 65W 以上 价格 <= 5000 不要 dell 品牌的，2720qm 刚过保 3 个月就坏了，怕了跑了 平时就看文档、写代码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229331#reply28
+
+---
+
+#### 7450. [V2EX] 不是，国区 apple music 价格也要上调啊？
+
+**问题描述 / Problem Description**:
+https://imgbed.5l6d54s2.cn/file/PixPin_2026-07-23_16-12-06.webp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229321#reply23
+
+---
+
+#### 7451. [V2EX] macOS 文件关联管理工具
+
+**问题描述 / Problem Description**:
+迫不得已装了某办公软件，被关联了好多文件格式，懒得一个个改，vibe coding 了一个小工具 主要功能： 1 、按扩展名浏览 / 搜索 / 改默认 App 2 、管理 URL Scheme 、浏览器、邮件客户端 3 、诊断异常关联，支持一键修复 4 、JSON 备份 / 恢复，纯本地运行，无需联网 可以通过 brew 安装： brew tap birdyzzz/tap brew trust birdyzzz/tap brew install --cask filepilot 项目地址： GitHub： https://github.com/birdyzzz/FilePilot
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229300#reply0
+
+---
+
+#### 7452. [V2EX] 2021 年的 M1 Pro 能升 macOS 27
+
+**问题描述 / Problem Description**:
+2021 年的 MacBook Pro 14 寸，10 核 32G 内存，能升 macOS 27 吗，现在还是 macOS 14 ，主要怕会有什么软件或打印机驱动什么的不兼容，发热和流畅度和除了 26 的老版本比咋样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229259#reply29
+
+---
+
+#### 7453. [V2EX] 注册 Apple Developer Program 提示「无法继续下一步」
+
+**问题描述 / Problem Description**:
+最近 Vibe 了一个 MacOS 应用打算上架 app store ，结果中道崩殂，注册开发者就直接被拒了，邮件联系客服直接回复： 由于一个或多个原因，你无法完成 Apple Developer Program 的注册。我们目前无法继续处理你的注册。 随后电话联系支持人员也是一样的答复，说是系统直接拒绝的，他们也不知道什么原因，后续新注册了个 appleid 再次申请，但填写身份信息后依旧提示「无法继续下一步」，貌似身份信息直接被“拉黑”，有没有有老哥也遇到过这种情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229250#reply19
+
+---
+
+#### 7454. [V2EX] 来来来，讨论下苹果折叠出了以后双持怎么弄？
+
+**问题描述 / Problem Description**:
+现在的双持配置是 iPhone17 pro,和 vivo 的 x100 ultra ，话说这 x100 u 拍照，真的是 3 年也不落后。 等到 iphone fold 出了以后，换机 iPhone 也就意味着 iPhone 有大屏了，但拍照进一步削弱。 我想着要么把 x100 换成 pixel （但 pixel 拍照不知道怎么样，并且真的好贵啊！！！），要么就换成最新的 vivo x 系列小屏，拍照可能差一点，但问题也不大。 当然，还有一个就是不换安卓机了，现在换机也不是好时候。 各位双持党，你们怎么打算。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229235#reply27
+
+---
+
+#### 7455. [V2EX] iPadOS dp beta4 索引卡住了
+
+**问题描述 / Problem Description**:
+如题礼拜二凌晨第一时间更完 这几天也特意插电放置一边 今天早晨看了下 还是 34%似乎卡住了 iPhone 放在 magesafe 上第二天就完成了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229210#reply1
+
+---
+
+#### 7456. [V2EX] AppleCare+ 续费相关问题
+
+**问题描述 / Problem Description**:
+我于 2024 年 8 月在（中国大陆地区的） Apple 官网订购了一台 iPad Air 11-inch (M2) Wi-Fi ，在订购设备的同时一并加购了 AppleCare+。 （ AppleCare+ 是在设备收到之前与设备一起购买的，不是在设备收到后在 系统设置/Apple 支持 购买的） 现在 AppleCare+ 即将到期，我有续费意愿，但是遇到了一些问题需要请教： 我的 Apple 账户的地区是美国，我在新设备到手的时候就用该 Apple 账户激活，并且一直没有退出登录过。在这种情况下我是否能够在不更换 Apple 账户地区的前提下续费 AppleCare+。 我已经向 Ap
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229118#reply13
+
+---
+
+#### 7457. [V2EX] 给父母买的 vivo 手机忘记锁屏密码，陷入死锁问题
+
+**问题描述 / Problem Description**:
+如题，老母亲忘记锁屏密码，用不了手机，远程求助我，我本以为通过忘记密码可以通过 vivo 账号重置，结果没有这个功能。 只能通过关机进入 recover 模式清除所有数据，但关机也需要锁屏密码，只能等手机电量消耗完自动关机，不出意外问题又出现了，等手机电量耗完，岂不是无法进入 recover 模式了，这不是无解了么？ 求助各位老哥，还有什么方法能解决，另外，其他品牌手机都是这种模式么，太让人无语了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229099#reply11
+
+---
+
+#### 7458. [V2EX] 想要保持合盖运行， mac air 用什么诱骗器比较好？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228951#reply28
+
+---
+
+#### 7459. [V2EX] 土区 App Store 内购方式的 Youtube Premium 被暂停， renew 要求绑定支付方式
+
+**问题描述 / Problem Description**:
+账户内余额充足，但是订阅在到期日被暂停，没有自动续订，也没有邮件提醒，尝试 renew 要求绑定支付方式 目前搜了下只有几个办法（ https://yummy.best/turkey-and-indias-appstore-requires-payment-methods-to-subscribe-to-youtube-premium/） 1. 绑土耳其银行卡后才能恢复余额使用 2. 尝试使用新的 Google 帐号进行订阅， 不知道苹果到底在搞什么，还是说 Google 要求的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228546#reply44
+
+---
+
+#### 7460. [V2EX] iPhone 换电池，都是去官方还是自己买电池换呢？
+
+**问题描述 / Problem Description**:
+因为目前自己手机已经健康度 73%了，以前自己换过，总感觉爱发热，发烫，还很卡！想问问换了官方的会不会好！大家都是选择什么呢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228249#reply24
+
+---
+
+#### 7461. [V2EX] 欧盟 Chat Control 1.0 出台，只能说我们的制度遥遥领先
+
+**问题描述 / Problem Description**:
+这几天外网吵得最厉害的话题莫过于欧盟刚刚通过的一条临时法案，其内容简而言之就是允许（注意，只是允许，不是强制）服务商扫描用户的私人通讯。 这种新闻放在国内可谓是平平无奇，甚至官媒都懒得把它拉出来批判一番，民间也鲜有讨论。毕竟我们自己的网络审查更先进，更顺理成章。不需要动这种投票的大阵仗，不需要找“为了抵制儿童色情”这种蹩脚的借口，更不用担心反对的声音太大而失控。 这得益于我们社会主义制度的优势，西方国家就学着去吧。另外预祝他们 Chat Control 2.0 （强制扫描，这意味着绕过审查进行端到端加密通信可能不再合法）早日落地。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229392#reply0
+
+---
+
+#### 7462. [V2EX] kimi 做了个 k399 小游戏，居然有点好玩
+
+**问题描述 / Problem Description**:
+https://www.k399.games/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229382#reply0
+
+---
+
+#### 7463. [V2EX] 在推特上看到的梁文锋投资者交流会全文文稿
+
+**问题描述 / Problem Description**:
+https://x.com/falali2015/status/2080141498658762797 文字很多，超出了 V2EX 发帖的 20000 字符限制。可以去推特上看原文，这里放了大概 15000 字。 以下是原文。 梁文锋 欢迎各位投资人。我们一开始来做这个公司，初衷是没有想到说我最后要赚多少钱，要到资本市场上去，要上市，要怎么样的，所以我们是没有这个初衷的。最开始的几十个人完全没有这么想过。如果他这么想，他就不会来。 所以总体讲，我们是怀着一个对这个世界非常大的善意来做这个事情，然后我们觉得这是对人类有用的，这是一个金钱以外的事情。当然，到了后面，这个事情发现利益非常大之后，又有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229373#reply2
+
+---
+
+#### 7464. [V2EX] 梁文锋投资者交流会：录音文字稿👍
+
+**问题描述 / Problem Description**:
+梁文锋投资者交流会录音文字稿：集中讨论 DeepSeek 的愿景、开源与商业化、AGI 路线、算力和国产芯片。 https://2aran.com/s/qsHY8lm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229357#reply1
+
+---
+
+#### 7465. [V2EX] 我的推薦系統
+
+**问题描述 / Problem Description**:
+Build and Rebuild Your Own Recommendation System in Minutes - for All the Web. But how? 不鍾意現在平台們給我推薦的東西，可以清空重來麼 盼...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229349#reply0
+
+---
+
+#### 7466. [V2EX] chatgpt 免费版推送广告怎么没人讨论
+
+**问题描述 / Problem Description**:
+是因为都开了会员吗😂免费版每条回答都有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229341#reply3
+
+---
+
+#### 7467. [V2EX] 分享一个每天 1 分钟阅读的 TG 频道：帮你减少信息焦虑
+
+**问题描述 / Problem Description**:
+大家好，最近做了一个 Telegram 频道： 👉 https://t.me/one_minute_reading 名字叫 One Minute Reading （每日一分钟阅读）。 简单介绍一下它的定位： 现在每天的信息量越来越大，新闻、技术文章、行业趋势、书籍观点、各种知识碎片铺天盖地，但真正有价值的内容往往需要花几十分钟甚至几个小时消化。 这个频道想做的是： 每天花 1 分钟，读一点值得留下来的东西。 内容方向主要包括： 📚 书籍中的精彩观点 💡 有价值的思考和认知提升 🧠 提炼后的知识碎片 🌍 有趣的科技、商业、人文内容 ✍️ 简短但值得反复阅读的文字 不是资讯搬运，也不是标题党。 更
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229318#reply5
+
+---
+
+#### 7468. [V2EX] ds 和我玩死循环
+
+**问题描述 / Problem Description**:
+我没有杠过它 https://chat.deepseek.com/share/wi0n1nbpf01xyf5e2k
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229310#reply6
+
+---
+
+#### 7469. [V2EX] delete
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229285#reply0
+
+---
+
+#### 7470. [V2EX] 如何能买得起 500 平的房子（或者你是如何买得起 500 平方的房子的）
+
+**问题描述 / Problem Description**:
+最近刷抖音，看到全屋装修，基本都 200 平以上的。还有很多 500 800 的。真心提问，如何能买得起。感觉打工，完全没有希望。之前还觉得一年赚几十，还挺开心
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229284#reply7
+
+---
+
+#### 7471. [V2EX] 两个 mimo key，蹬起来
+
+**问题描述 / Problem Description**:
+兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic KEY1：tp-cc2dqn3f4iwezmjmrhqfknbttsjlm8qk57a3z1f7e3cgtlow KEY1：tp-cfnnd6ouum8khcmxwv4ut6of00wtqdcwqxkkbokoivi1sntd 蹬之前先这里测一下有没有 429 再去配置 key1 测试链接 ： 点击测试 key2 测试链接 ： 点击测试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229279#reply2
+
+---
+
+#### 7472. [V2EX] 为什么独立开发是死局
+
+**问题描述 / Problem Description**:
+有很多都是这么一种情况：我边工作边独立开发，然后独立开发的产品收入逐渐超过副业，然后美滋滋离职躺赚，只需要开发一次后续就无本万利，至于付费营销自然也是没有的。 那么现在就算一算： 例如月入一万，用户月度付费 1 元，也就是需要一万个付费用户，按照 10%的漏斗算吧，就要十万注册用户，一百万用户，一千万次曝光。 那么曝光怎么来呢？ 投稿宣传，例如在 V2EX ，少数派写推文，自测全平台能有个几万曝光已经算极好了 投自媒体，例如阮一峰博客，运气好的话有个几万曝光 个人 IP ，例如抖音小红书，每个帖子几十曝光，算一百吧，整个周期上限也是几万曝光 SEO/ASO ，一般做不出来，整个周期算个几万曝光
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229266#reply25
+
+---
+
+#### 7473. [V2EX] 分享个省钱方案： Claude/Codex 低至 1.5 折， 70+ 模型统一 Key
+
+**问题描述 / Problem Description**:
+用 Claude Code 和 Codex 写代码，每个月账单比较肉痛，后来自己搞了个聚合 API 接口，跑了两个月分享一下。 核心就是便宜： • Codex 通道 → 官方价的 1.5 折 • Claude 全系（ Opus 4.8 / Sonnet 4.6 / Haiku ）→ 2 折起 • Claude Code 专用 → 5.2 折（隔离通道，不和普通请求抢） 技术上兼容 OpenAI 格式，也支持 Anthropic 原生和 Responses API： base_url: https://api.kevoryn.com/v1 Cursor / Claude Code / Codex
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229262#reply2
+
+---
+
+#### 7474. [V2EX] 梁文锋四小时投资人会议实录
+
+**问题描述 / Problem Description**:
+来源： https://finance.sina.com.cn/stock/companyt/2026-07-22/doc-iniitvfk8356408.shtml?cre=tianyi&mod=pchp&loc=5&r=0&rfunc=54&tj=cxvertical_pc_hp&tr=12 DeepSeek 只有一条主线 1 ． 现在做产品不是收益最大化的时候。通往 AGI 的路上，要经过产品这个台阶，但我们不需要太多的心思和精力去做 C 端、B 端的产品。当站在一个技术的高位上来做相对低一级别的技术，是降维打击。产品是在 AGI 路上的副产物。 2 ． 很多东西不在我们的主线上，比如
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229261#reply26
+
+---
+
+#### 7475. [V2EX] 路由器/路由系统预设的管理地址都是多少？
+
+**问题描述 / Problem Description**:
+已知： TP-Link ，192.168.1.1 ， 小米，192.168.31.1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229214#reply20
+
+---
+
+#### 7476. [V2EX] 人在香港酒店躺着，不用科学的感觉真好啊
+
+**问题描述 / Problem Description**:
+感觉上 v 站都丝滑了很多，真羡慕他们🥺 马上回内地了，最大的留恋居然是这里的网络，其他的也就那样吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229178#reply76
+
+---
+
+#### 7477. [V2EX] 看完 Kimi 创始人杨植麟的采访，这一批 AI 新贵，褪去了互联网江湖底色
+
+**问题描述 / Problem Description**:
+看完 Kimi 创始人杨植麟的采访，一个鲜明感受扑面而来：这一批 AI 新贵，褪去了老一辈互联网企业家浓厚的江湖底色。你很难想象他们耗费心思琢磨宴席谁坐主位、鱼头朝向何处这类人情周旋。杨植麟的学术底子也足够耀眼，清华本科稳居年级第一，多门课程拿到满分，是实打实的天才。 https://2aran.com/s/aCAS5GH
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229116#reply13
+
+---
+
+#### 7478. [V2EX] 一篇 AI Coding 生态发展的自省记述
+
+**问题描述 / Problem Description**:
+前奏 2023 年初 ChatGPT 刚出来，给我的感觉，是一个震撼的新玩具。朦胧感觉能带来新的生产力提升，帮我建立新的认知和工作流，于是毫不犹豫地自费每月 20$订阅。（为此折腾美区 apple ID + 礼品卡充值） 平时会用来问问不熟悉领域的知识，还有尝试用其文一些 coding 相关问题，准确性或者实际解决问题的能力还是较弱，但这不影响我脑海中感觉到这是一种新旧人类的交替，随着日积月累，在 AI 能力加成下我能慢慢变成新人类。 跟 ChatGPT 不温不火的沟通到了 2024 年，中间并没有花费太多的时间日常放在 AI 及开发上，有很多很多 IDEA ，但困于精力和精神状态，毫无规划及
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229092#reply5
 
 ---

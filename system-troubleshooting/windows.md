@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8609**
+**总计条目 / Total entries: 8655**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -117838,5 +117838,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229049#reply47
+
+---
+
+#### 8610. Windows Security real time protection toggling off automatically and showing false threat status
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4mv8s/windows_security_real_time_protection_toggling/
+
+---
+
+#### 8611. All audio sources have a 5 second delay before being played through wired headphones.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4r2u5/all_audio_sources_have_a_5_second_delay_before/
+
+---
+
+#### 8612. PC suddenly shutting down when using it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4moqr/pc_suddenly_shutting_down_when_using_it/
+
+---
+
+#### 8613. Is Screencast between two Android devices possible?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4nj3t/is_screencast_between_two_android_devices_possible/
+
+---
+
+#### 8614. sick of random wi-fi lag spikes/stuttering? check this out
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4sc5e/sick_of_random_wifi_lag_spikesstuttering_check/
+
+---
+
+#### 8615. Alienware Laptop Bricked need some help. No power
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4s7au/alienware_laptop_bricked_need_some_help_no_power/
+
+---
+
+#### 8616. I need help with my Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4rveq/i_need_help_with_my_laptop/
+
+---
+
+#### 8617. Meta, glitch or malicious actor ? (Account is "secured" I just want some explanation)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4rq4o/meta_glitch_or_malicious_actor_account_is_secured/
+
+---
+
+#### 8618. Need specific driver.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4r6zw/need_specific_driver/
+
+---
+
+#### 8619. Both monitors turn black when playing video games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4r582/both_monitors_turn_black_when_playing_video_games/
+
+---
+
+#### 8620. lag spikes cant understand why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4r0a3/lag_spikes_cant_understand_why/
+
+---
+
+#### 8621. Computer gradually throttles while doing any 3D workload *unless* Open Hardware Monitor is open!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4qklc/computer_gradually_throttles_while_doing_any_3d/
+
+---
+
+#### 8622. Is my function key (Fn) broken?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4pjse/is_my_function_key_fn_broken/
+
+---
+
+#### 8623. When shutting down the PC, it doesn't shut completely. what could be the cause?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4pi7w/when_shutting_down_the_pc_it_doesnt_shut/
+
+---
+
+#### 8624. How to fix ERR_SSL_VERSION_OR_CIPHER_MISMATCH error on a laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4pgm9/how_to_fix_err_ssl_version_or_cipher_mismatch/
+
+---
+
+#### 8625. Ethernet card drops connection after exactly 5 minutes and switches to Wi-Fi (Drivers are up to date)(Windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4pdmh/ethernet_card_drops_connection_after_exactly_5/
+
+---
+
+#### 8626. My mouse isnt working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4p9he/my_mouse_isnt_working/
+
+---
+
+#### 8627. Gaming keyboard not working?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4ow0i/gaming_keyboard_not_working/
+
+---
+
+#### 8628. TikTok constantly breaking on Samsung A16
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4ovc6/tiktok_constantly_breaking_on_samsung_a16/
+
+---
+
+#### 8629. trouble connecting Xbox controller to PC with BT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4ol7u/trouble_connecting_xbox_controller_to_pc_with_bt/
+
+---
+
+#### 8630. Cracked MS Card
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4oiov/cracked_ms_card/
+
+---
+
+#### 8631. No sound / stuck on mute
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4o7t0/no_sound_stuck_on_mute/
+
+---
+
+#### 8632. is this good for rtx 4070 super GIGABYTE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4o2jt/is_this_good_for_rtx_4070_super_gigabyte/
+
+---
+
+#### 8633. Repeated NVIDIA TDRs on Lenovo Legion RTX 5060 Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v4ny4w/repeated_nvidia_tdrs_on_lenovo_legion_rtx_5060/
+
+---
+
+#### 8634. [V2EX] 用 AI 搓了个通过 DLNA 协议投屏的小工具
+
+**问题描述 / Problem Description**:
+https://github.com/liyafe1997/dlna-screen-cast 这个需求源自父母日常习惯在摆在茶几的电脑上找各种视频看，包括但不限于网页上各种搜 D 版电影电视剧，各种体育赛事直播，迅雷下种子，本地视频，微信公众号/别人发的各种视频等等， 然后经常问我这个能不能放到电视上看 现在电视应该都是有支持 Miracast 、DLNA 、AirPlay 等各种投屏协议的，Miracast 对设备要求太严，老一点的笔记本/无线网卡/电视不兼容都不行，反正父母的笔记本的 Windows 搜不到电视。 于是就打起了 DLNA 的主意，发现 Windows 下居然没有类似的工具，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229113#reply1
+
+---
+
+#### 8635. [V2EX] 大家有用过 Power Automate 吗？
+
+**问题描述 / Problem Description**:
+今天整理电脑发现 windows 自带了一个 Power Automate 工具 一开始以为是类似苹果的快捷指令 看了一下里面的样例，感觉更像是强化版的按键精灵 好像也不能关联应用通过触发器来启动一些流程 不知道大家有没有用过，有用过的可以分享一下场景 我是暂时还没想到能用来干啥 没啥用就想删了，占空间还挺大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228995#reply13
+
+---
+
+#### 8636. [V2EX] [创业组队] 瑞士日内瓦 · 实物大宗商品贸易 AI Agent，已有试点客户，找技术合伙人
+
+**问题描述 / Problem Description**:
+不是「有个 idea 就差一个程序员」。 我 24 岁，人在日内瓦，之前在全球头部的能源和实物大宗商品贸易公司做 operations 。要解决的就是我自己干过的活。 产品 ：给实物大宗商品贸易公司的操作团队用的 AI agent 。注意是实物贸易，不是衍生品——真的有船、有货、有单据在动。这行到现在还是跑在邮件、PDF 和 Excel 上，一笔货的同一份信息要在四五个地方重复录入，漏一步就赔钱。产品读这些文档，起草每一步操作，全程跟单，对不上就报警，人工确认后才发出。 现状 ：不只是 demo 。目前在一家石油天然气贸易公司做试点，另外和全球最大的咖啡贸易商之一也已经在谈。客户就在楼下，日内
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229430#reply0
+
+---
+
+#### 8637. [V2EX] 记录一下 cc 号池第一次被打满
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229420#reply0
+
+---
+
+#### 8638. [V2EX] Fable 5 不可用， as advisor temporarily unavailable
+
+**问题描述 / Problem Description**:
+不知道哪位大佬也有类似的问题？最早的时候还可以正常用，最近无法用了，开了 credit 还是显示 不可用。 主模型使用 fable 5 倒是正常。 Claude Code v2.1.218 Fable 5 (temporarily unavailable) ❯ 2. Opus 4.8 ✔ Sonnet 5 No advisor 各种查询都说是 cc 服务器端的限制，用 vpn 更换国家也不行。github 也有人有类似的问题，但是一直没有修复。 请问有大佬也遇到类似的问题吗？是如何解决的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229408#reply0
+
+---
+
+#### 8639. [V2EX] 现在有人长期在在 hermes 或者 openclaw 中使用 claude provider 吗 ？ 会被封号吗？
+
+**问题描述 / Problem Description**:
+之前记得 claude 宣布 cli 不再单独收费了，是不是默许大家那么用了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229364#reply0
+
+---
+
+#### 8640. [V2EX] 求高性价比高可用 [有源 hub/usb 集线器] 推荐，目前在用 r2s
+
+**问题描述 / Problem Description**:
+ai 推荐是西普莱 a172 ，为什么要有源，因为接的模块可能几个要求电流可能有时候会高一点 r2s 的 2.0 口供电比较弱，肯定带不起来多几个类似无线网卡模块这种 有无老哥有别的推荐，不行就买西普莱了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229355#reply0
+
+---
+
+#### 8641. [V2EX] 8 月中旬要到成都出差一周，求问怎么安排时间最合理
+
+**问题描述 / Problem Description**:
+如题 应该会是在某一周的周六落地，周日开始项目执行 一直执行到第二周的周六，可以推迟到周日返程 所以可以停留 7-8 天左右 执行的位置在双流区湖畔路北段，似乎是比较偏远的位置 另外如果不出意外的话 9 月的第一周也会待四天左右的样子 目前我所在的城市青岛很凉快，每天的气温在 25 到 28 度左右 一直到今天风都是凉的，没开过一天空调 但听说成都最近一直是 40 来度的高温 有点望而生畏了 我的问题是： 1.如果白天做项目执行晚上自由活动，在居住地相对偏僻的情况下我如何最大程度地利用好这些时间吃吃喝喝玩玩？ 2.天气特别热的情况下，如果有两天的周末时间可以安排游玩，更建议去哪里？ 3.返程携
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229352#reply11
+
+---
+
+#### 8642. [V2EX] 有没有发现 国内企业 普遍在学 华为 OD 模式?
+
+**问题描述 / Problem Description**:
+外包工资 财务上叫 项目采购 或者服务费.......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229348#reply9
+
+---
+
+#### 8643. [V2EX] claude.md 怎么写能让 Claude Code 更高效？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229346#reply0
+
+---
+
+#### 8644. [V2EX] 阿里云服务宕机通知有收到的吗
+
+**问题描述 / Problem Description**:
+因底层宿主机出现非预期的软硬件故障而宕机，阿里云正在对该实例进行重启恢复操作。ECS 实例重启通常会在 2~5 分钟内完成，重启完成后阿里云会第一时间通知您，感谢您的支持与配合。正业务高峰期，机器给我重启了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229337#reply4
+
+---
+
+#### 8645. [V2EX] 请教一下大佬们，美国的家宽，哪家住宅代理最纯净啊？现在用 cliproxy，感觉他家的 ip 很一般。
+
+**问题描述 / Problem Description**:
+主要是想买那种静态 ISP
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229336#reply0
+
+---
+
+#### 8646. [V2EX] x 被自动改名 改头像
+
+**问题描述 / Problem Description**:
+最近 x 被自动改名 改头像，又过了几天给我关注了几百个陌生账号。之前 tiktok 用 x 登陆过 解除以后关注也没变少 怎么解决呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229326#reply4
+
+---
+
+#### 8647. [V2EX] codex 运行中断是什么原因
+
+**问题描述 / Problem Description**:
+让 codex 给我的项目加上「添加存储过程的功能」 快跑完了弹窗提示「对于网络安全相关请求，我们会格外谨慎。如果你是安全专业人士，可以申请可信访问权限。」，这是什么原因，模型是 5.6sol xhigh
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229323#reply1
+
+---
+
+#### 8648. [V2EX] 家里人拍脑袋非要拿出 30w 加盟蜜雪合适吗
+
+**问题描述 / Problem Description**:
+坐标四线小城市 感觉市场都很饱和了 劝不动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229306#reply64
+
+---
+
+#### 8649. [V2EX] 下周去香港玩求推荐
+
+**问题描述 / Problem Description**:
+过去玩玩顺便开几张卡，有推荐的吗 银行/吃的/玩的推荐都行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229302#reply8
+
+---
+
+#### 8650. [V2EX] 有没有懂乒乓球的大佬的说说王楚钦的水平到底怎么样？
+
+**问题描述 / Problem Description**:
+本人纯看热闹式看各项体育赛事，属于那种看不懂具体技术只能看出这一下那一下很厉害的。对王楚钦的感觉和那些不看好他的舆论一样，感觉他老是爆冷输给一些没怎么太听说过的人，给人的观感不如一些前辈的头部乒乓运动员强。 但是很好奇他客观的水平到底怎么样，在各个社媒搜完全搜不出啥东西，要么全是粉丝控评要么全是一边倒的恶评，还有粉丝做的他的比赛的各种拉表什么的。在 b 站刷到一些他的比赛分析视频看下来就是说他好像发球水平比较厉害，有一些可取之处，但是本人的对乒乓球这项运动的水平不足以使我辨别这种说法是否正确。 所以王楚钦作为乒乓球运动员的专业水平到底怎样呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229292#reply12
+
+---
+
+#### 8651. [V2EX] 有没有比较及时权威的模型测评网站
+
+**问题描述 / Problem Description**:
+能及时更新，方便查看各家模型的评分、特长
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229277#reply6
+
+---
+
+#### 8652. [V2EX] ai 时代下使用电子设备的理想形态
+
+**问题描述 / Problem Description**:
+技术逻辑 每个电子设备，如电脑、手机、家里的电器、工厂的设备、交通工具、远程服务器等，都实现 2 个事情：给中枢上报自己的状态和具有的能力（可执行的操作等），接受中枢的控制指令并反馈进度。 中枢运行一个智能体系统，维护设备状态，维护智能策略，协调所有设备 人机交互终端，比如手机、音箱等，也接中枢，用于发送指令、接收响应 这样以后就有无限想象力了。 我可以发指令让电脑 agent 修改某个代码功能，然后自动上传到远程服务器部署，然后工厂设备连接服务器按新的逻辑工作 工厂生产完成，中枢给无人汽车发指令把东西送到另一个地方 中枢实时向人汇报进度 智能手表检测到人身体状态，发出提醒，或者检测到热了，自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229254#reply0
+
+---
+
+#### 8653. [V2EX] V 友帮我看看我安装 PVE9 还是 ESXI8 还是 HyperV
+
+**问题描述 / Problem Description**:
+我的配置是 NEC8 代小主机，PCIE 安装了一个服务器的 4 口千兆网卡，总共有 5 个网口，CPU 是 I3-8100T ，内存 16G ，硬盘是一个三星的 NVME 256G 。 计划跑一些轻量的虚拟机，想问问 PVE9 、ESXI8 、Windows HyperV 应该怎么选择？稳定一些，损耗少一点。 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229239#reply5
+
+---
+
+#### 8654. [V2EX] 问下，有没有方便又安全的服务器连接方式
+
+**问题描述 / Problem Description**:
+问下，有没有方便又安全的服务器连接方式 场景：有一个国内公网 ip 的服务器，用于内部使用，服务器有很多功能，不同端口对应不同程序，需要适配同事不同设备 ios ，安卓，鸿蒙，win ，mac 系统可以直接访问与使用 限制： 1：不能装软件，避免麻烦 2：他们在异地直接连接使用服务器的网站，或者共享文件夹，api 授权，调取内部数据，远程服务器内的虚机电脑，等等操作 3：为了安全，肯定会限制其他人链接这个 ip ，都是拒绝的 4：也就是说有什么办法可以只给同事的设备的 ip 开启白名单，但是同事的设备存在动态 ip 的情况 5：正规行业，正规国内服务器，正规使用用途。 6：已经问了 ai ，但
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229223#reply5
+
+---
+
+#### 8655. [V2EX] 智能马桶你们认为最有用和最没用的功能是什么？
+
+**问题描述 / Problem Description**:
+我觉得最有用的： 泡沫盾：开拉前先释放泡泡，避免了溅水并能有效减小臭味扩散，比较好用 洗屁股：洗的真干净，内裤上再也不糊屎了 最没用的： 感应翻盖：男生使用麻烦，有时候还乱翻盖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229209#reply74
 
 ---

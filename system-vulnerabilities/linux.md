@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2470**
+**总计条目 / Total entries: 2497**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -45504,5 +45504,437 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8583-1
+
+---
+
+#### 2471. CVE-2026-44191 - ansible-lightspeed: Visual Studio Code Ansible Lightspeed extension: Remote Code…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Visual Studio Code Ansible Lightspeed extension: Remote Code Execution via command injection in configuration settings. Bugzilla: 2466761
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466761
+
+---
+
+#### 2472. CVE-2026-16560 - 389-ds-base: 389-ds-base: heap-buffer-overflow in rdn_av_swap on quoted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: heap-buffer-overflow in rdn_av_swap on quoted multivalued RDN. Bugzilla: 2506102
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506102
+
+---
+
+#### 2473. CVE-2026-44190 - ansible-lightspeed: Ansible Lightspeed Visual Studio Code extension: Arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Ansible Lightspeed Visual Studio Code extension: Arbitrary code execution via command injection in activation script setting. Bugzilla: 2466762
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466762
+
+---
+
+#### 2474. CVE-2026-44189 - ansible-lightspeed: Visual Studio Code Ansible Lightspeed Extension: Arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Visual Studio Code Ansible Lightspeed Extension: Arbitrary Code Execution via Malicious Playbook Filename. Bugzilla: 2466763
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466763
+
+---
+
+#### 2475. CVE-2026-44187 - ansible-lightspeed: Ansible Lightspeed extension for Visual Studio Code:…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Ansible Lightspeed extension for Visual Studio Code: Information disclosure of Google Gemini API key. Bugzilla: 2466765
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466765
+
+---
+
+#### 2476. CVE-2026-44192 - ansible-lightspeed: Ansible Lightspeed MCP Server: Remote Code Execution and Data…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-lightspeed: Ansible Lightspeed MCP Server: Remote Code Execution and Data Exfiltration via Path Traversal. Bugzilla: 2466760
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466760
+
+---
+
+#### 2477. CVE-2026-6390 - nano: GNU nano: Arbitrary memory writes, information disclosure, or denial of…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nano: GNU nano: Arbitrary memory writes, information disclosure, or denial of service via format string vulnerability in error handling.. Bugzilla: 2458767
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2458767
+
+---
+
+#### 2478. CVE-2026-40691 - unbound: Unbound: Denial of Service via crafted DNSCrypt query
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound: Denial of Service via crafted DNSCrypt query. Bugzilla: 2503062
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503062
+
+---
+
+#### 2479. CVE-2026-11331 - bind9: bind: Potential wildcard CNAME RPZ policy bypass
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind9: bind: Potential wildcard CNAME RPZ policy bypass. Bugzilla: 2503721
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503721
+
+---
+
+#### 2480. CVE-2026-13321 - bind: bind9: DNSSEC Validation Bypass via Out-of-Zone NSEC Next Field
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: DNSSEC Validation Bypass via Out-of-Zone NSEC Next Field. Bugzilla: 2504166
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504166
+
+---
+
+#### 2481. CVE-2026-11605 - bind: bind9: Unnecessary validation of DNSSEC signed records
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Unnecessary validation of DNSSEC signed records. Bugzilla: 2504266
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504266
+
+---
+
+#### 2482. CVE-2026-11622 - bind: bind9: Potential memory usage beyond configured limits
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Potential memory usage beyond configured limits. Bugzilla: 2504298
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504298
+
+---
+
+#### 2483. CVE-2026-11721 - bind: bind9: Cache poisoning via label count discrepancy, RRSIG, wildcards
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Cache poisoning via label count discrepancy, RRSIG, wildcards. Bugzilla: 2504338
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504338
+
+---
+
+#### 2484. CVE-2026-12617 - bind: bind9: Record ordering based unexpected exit with CNAME or DNAME
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Record ordering based unexpected exit with CNAME or DNAME. Bugzilla: 2504370
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504370
+
+---
+
+#### 2485. CVE-2026-13204 - bind: bind9: Unexpected exit with NSEC and NSEC3 both present
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Unexpected exit with NSEC and NSEC3 both present. Bugzilla: 2504447
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504447
+
+---
+
+#### 2486. CVE-2026-10723 - bind: bind9: Incorrect acceptance of NSEC3 records
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Incorrect acceptance of NSEC3 records. Bugzilla: 2504560
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504560
+
+---
+
+#### 2487. CVE-2026-10822 - bind: bind9: Key Record using PRIVATEDNS algorithm may lead to exit
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] bind: bind9: Key Record using PRIVATEDNS algorithm may lead to exit. Bugzilla: 2504598
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2504598
+
+---
+
+#### 2488. CVE-2026-16552 - systemd: systemd-tmpfiles symlink-redirected arbitrary file overwrite via a…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] systemd: systemd-tmpfiles symlink-redirected arbitrary file overwrite via a CHASE_SAFE root-to-unprivileged ownership transition bypass. Bugzilla: 2506073
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506073
+
+---
+
+#### 2489. CVE-2026-16566 - community.general: community.general: jenkins_credential module returns generated…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] community.general: community.general: jenkins_credential module returns generated API token in plaintext output. Bugzilla: 2506113
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506113
+
+---
+
+#### 2490. [Ubuntu] USN-8602-1: libinput vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libinput did not properly escape device properties. A local attacker could possibly use this issue to inject arbitrary udev properties and execute arbitrary code as root.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8602-1
+
+---
+
+#### 2491. [Ubuntu] USN-8601-1: PAM vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PAM had a timing discrepancy in the pam_userdb module when comparing plaintext passwords. An attacker could possibly use this issue to obtain sensitive information by measuring response-timing differences during repeated authentication attempts.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8601-1
+
+---
+
+#### 2492. [Ubuntu] USN-8600-1: libXpm vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Naoki Wakamatsu discovered that libXpm did not properly validate file boundaries when processing XPM image files. An attacker could possibly use this issue to cause libXpm to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8600-1
+
+---
+
+#### 2493. [Ubuntu] USN-8599-1: HTTP-Date vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that HTTP-Date incorrectly handled parsing certain date strings. An attacker could possibly use this issue to cause HTTP-Date to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8599-1
+
+---
+
+#### 2494. [Ubuntu] USN-8598-1: rsyslog vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that rsyslog incorrectly handled regex-based TCP framing in the imptcp module. A remote attacker could possibly use this issue to cause rsyslog to crash, resulting in a denial of service. It was discovered that rsyslog incorrectly handled oversized RFC5424 structured data in the mmpstrucdata module. A remote attacker could possibly use this issue to cause rsyslog to crash, result
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8598-1
+
+---
+
+#### 2495. [Ubuntu] USN-8322-2: Apache Commons BeanUtils regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8322-1 fixed a vulnerability in Apache Commons BeanUtils. It was discovered that for Ubuntu 18.04 LTS, during the update preparation phase, a previous fix for CVE-2014-0114 and CVE-2019-10086 was incorrectly dropped. This update reintroduces the fix for CVE-2014-0114 and CVE-2019-10086. We apologize for the inconvenience. Original advisory details: It was discovered that Apache Commons BeanUti
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8322-2
+
+---
+
+#### 2496. [Ubuntu] USN-8597-1: Linux kernel (IBM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8597-1
+
+---
+
+#### 2497. [Ubuntu] USN-8596-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8596-1
 
 ---
