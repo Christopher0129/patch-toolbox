@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7897**
+**总计条目 / Total entries: 7973**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -110613,5 +110613,993 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229215#reply8
+
+---
+
+#### 7898. Why does NoExecPaths=/tmp not block execution when RootDirectory= is set?
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd, systemd-unit, sandbox, hardening | Score: 2 | Views: 109 | Answers: 1 | Created: 2026-07-25
+
+**解决方案 / Solution**:
+This is caused by how systemd resolves plain (non-"+"-prefixed) paths in NoExecPaths=/ExecPaths=/ReadWritePaths=/etc. when RootDirectory=/ RootImage= is also set. Per systemd.exec(5): If prefixed with "+" the paths are taken relative to the root directory of the unit, as configured with RootDirectory=/RootImage=, instead of relative to the root directory of the host. Without the "+" prefix, NoExecPaths=/tmp is resolved against the host's /tmp, not against the private /tmp mount inside your chroot. Those are two different filesystem locations. The restriction is applied correctly — just to the wrong directory. The /tmp your process actually uses (the PrivateTmp= mount inside RootDirectory=) is never touched by it, so it stays fully executable. systemd-analyze security can't catch this: it only checks whether a directive is present in the unit file, not what it actually restricts at runtime. Fix: add the "+" prefix so the path resolves relative to the chroot instead of the host: NoExecPaths=+/tmp This affects any of the prefixable directives (ReadWritePaths=, ReadOnlyPaths=, InaccessiblePaths=, ExecPaths=, etc.) whenever RootDirectory=/RootImage= is set — a bare path is silently checked against the host, not the chroot. There's an open upstream discussion at systemd/systemd#39935. Disclosure: I ran into this while working on systemd-sandbox-check ( https://github.com/manfred-kaiser/systemd-sandbox-check ), a tool that starts a transient unit with your service's actual hardening settings and tests whether directives like this are really enforced at runtime, rather than just checking whether they're present in the config.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806809/why-does-noexecpaths-tmp-not-block-execution-when-rootdirectory-is-set
+
+---
+
+#### 7899. why is my liblzma5 i386 in conflict with the amd64 version, on my Debian (trixie 13.6) PC?
+
+**问题描述 / Problem Description**:
+Tags: debian, package-management | Score: 1 | Views: 46 | Answers: 1 | Created: 2026-07-26
+
+**解决方案 / Solution**:
+On Debian 13, your apt policy output should be similar to liblzma5:i386: Installed: 5.8.1-1+deb13u1 Candidate: 5.8.1-1+deb13u1 Version table: *** 5.8.1-1+deb13u1 500 500 http://deb.debian.org/debian trixie/main i386 Packages 100 /var/lib/dpkg/status The output you’re getting indicates that your repository index cache is outdated. That should usually be fixed by running sudo apt update If it doesn’t, you’ll need to clear the cache: sudo rm /var/lib/apt/lists/*_* sudo apt update Once the cache is updated, apt should be able to sort the situation out.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806819/why-is-my-liblzma5-i386-in-conflict-with-the-amd64-version-on-my-debian-trixie
+
+---
+
+#### 7900. Open directory in terminal, gnome 50
+
+**问题描述 / Problem Description**:
+Tags: debian, gnome, nautilus | Score: 1 | Views: 107 | Answers: 2 | Created: 2026-07-25
+
+**解决方案 / Solution**:
+The menu "Open in terminal" is implemented by the gnome-terminal Nautilus extension (Debian package nautilus-extension-gnome-terminal ). Check that this package is installed. GNOME 50 defaults to using Ptyxis and gnome-terminal is considered legacy. It still works for now, but if you prefer Ptyxis, there are some ideas how to integrate it into Nautilus in this GNOME Discourse discussion.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806813/open-directory-in-terminal-gnome-50
+
+---
+
+#### 7901. Feed input positional argument with wild cards to script array variable
+
+**问题描述 / Problem Description**:
+Tags: bash, array | Score: 1 | Views: 177 | Answers: 2 | Created: 2026-07-22
+
+**解决方案 / Solution**:
+Let the shell expand the list of files before your script runs. myscript *.txt You can then pick up the set of files directly into your array: targetScripts=("$@") Make sure you double quote your variables each time you use them. For example for i in "${targetScripts[@]}" do echo "target file is: $i" done If you need to pass a pattern to your script, for your script to expand, it gets more complicated. Note that you must quote it to prevent the shell expanding it before passing the value to your script myscript '*.txt' Then you can try something like this, which handles file names containing spaces and other non-printing characters. If no file names match the pattern you have a couple of choices. Include the shopt -s nullglob and targetScripts() will be empty. Exclude it and targetScripts[0] will contain the pattern itself. shopt -q nullglob; _shopt=$?; shopt -s nullglob _ifs=$IFS IFS= targetScripts=($1) IFS=$_ifs [ "$_shopt" -eq '1' ] && shopt -u nullglob It's one of the very rare times where a variable ( $1 in this case) should not be double quoted.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806784/feed-input-positional-argument-with-wild-cards-to-script-array-variable
+
+---
+
+#### 7902. NFS shares in /etc/fstab no longer mount at boot: "mount.nfs4: failed to prepare mount: Operation not permitted"
+
+**问题描述 / Problem Description**:
+Tags: debian, fstab, synology, nfsv4 | Score: 1 | Views: 83 | Answers: 1 | Created: 2026-07-16
+
+**解决方案 / Solution**:
+Make your NFS mounts wait for the network to come up by adding _netdev to the mount options for each one. See man mount mount.nfs . Your problem is that networking cannot reach 10.0.0.100 that early in the boot process.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806730/nfs-shares-in-etc-fstab-no-longer-mount-at-boot-mount-nfs4-failed-to-prepare
+
+---
+
+#### 7903. "KVM Chainsaw" Expected To Hit Linux 7.3 For Dealing With God Data Structure
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v784vq/kvm_chainsaw_expected_to_hit_linux_73_for_dealing/
+
+---
+
+#### 7904. Dell 14/16 XPS 2026 Panther Lake camera module now does everything on Linux that it does on Windows — RGB, IR, and face unlock - first working vision stack
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7a6ig/dell_1416_xps_2026_panther_lake_camera_module_now/
+
+---
+
+#### 7905. How Linux services talk to each other through D-Bus
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v75y8t/how_linux_services_talk_to_each_other_through_dbus/
+
+---
+
+#### 7906. Linux 7.2-rc5 Fixing Longstanding Bug In IPv4 Networking Over Firewire
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v786rx/linux_72rc5_fixing_longstanding_bug_in_ipv4/
+
+---
+
+#### 7907. auto-cpufreq v3.1.0 is here
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v6xvg3/autocpufreq_v310_is_here/
+
+---
+
+#### 7908. Realtek RTL8723B/RTL8723BS Trying To Be Tacked On To The RTW88 Linux Driver
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7860h/realtek_rtl8723brtl8723bs_trying_to_be_tacked_on/
+
+---
+
+#### 7909. One of the biggest ui framework Avalonia now supports wayland
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v6a2x5/one_of_the_biggest_ui_framework_avalonia_now/
+
+---
+
+#### 7910. PCLinuxOS 2007 .iso now available stand-alone on Archive.org (READ BODY)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v6jvs8/pclinuxos_2007_iso_now_available_standalone_on/
+
+---
+
+#### 7911. Linux+ CE credits
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7aalw/linux_ce_credits/
+
+---
+
+#### 7912. Niri + DMS has been a much better experience than COSMIC for me
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v67n6r/niri_dms_has_been_a_much_better_experience_than/
+
+---
+
+#### 7913. XL-View, an HDR JPEG XL image viewer for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v6k1py/xlview_an_hdr_jpeg_xl_image_viewer_for_linux/
+
+---
+
+#### 7914. GR proposal: Ban LLM contributions from Debian
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v5q78f/gr_proposal_ban_llm_contributions_from_debian/
+
+---
+
+#### 7915. High-Performance data transport in Rust on Linux: Putting madvise, mremap, and mmap to work, with optional io_uring. Lightstream measured faster than Apache Arrow Flight (gold standard) on every axis in open 50gbps EC2 network benchmarks. Not supporting Windows was a pleasure.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v63fh7/highperformance_data_transport_in_rust_on_linux/
+
+---
+
+#### 7916. Purchasing Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v5kxok/purchasing_linux/
+
+---
+
+#### 7917. I made a tool for pausing and resuming mpvpaper on hyprland
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v68jns/i_made_a_tool_for_pausing_and_resuming_mpvpaper/
+
+---
+
+#### 7918. Considering that even Linus is pro-AI why the heck is this community so hostile to it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7a4kw/considering_that_even_linus_is_proai_why_the_heck/
+
+---
+
+#### 7919. midscroll: Windows-style middle-click autoscroll for Linux, implemented at the evdev layer so it works in every app on Wayland and X11
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v503xk/midscroll_windowsstyle_middleclick_autoscroll_for/
+
+---
+
+#### 7920. Any DJs running on Linux? What has worked well for you?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v5inyz/any_djs_running_on_linux_what_has_worked_well_for/
+
+---
+
+#### 7921. Is exFAT feasible for internal ssd long term ?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v5dpw3/is_exfat_feasible_for_internal_ssd_long_term/
+
+---
+
+#### 7922. Where do you install software from? Standard repos, sources, Flatpak, AppImage, etc
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v56fjz/where_do_you_install_software_from_standard_repos/
+
+---
+
+#### 7923. RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v56hde/refluxfs_a_linux_kernel_local_privilege/
+
+---
+
+#### 7924. Feed it your LinPEAS output and it draws every path from a low-priv user to root
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v636oj/feed_it_your_linpeas_output_and_it_draws_every/
+
+---
+
+#### 7925. Recent huggingface incident: do we run out of good security experts?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v6bv7b/recent_huggingface_incident_do_we_run_out_of_good/
+
+---
+
+#### 7926. Windows Win+K-style cast panel for GNOME on Ubuntu - AirPlay, Miracast, and Chromecast
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v50kiw/windows_winkstyle_cast_panel_for_gnome_on_ubuntu/
+
+---
+
+#### 7927. Weekly 'I made a useful thing' Thread - July 24, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v54wvy/weekly_i_made_a_useful_thing_thread_july_24_2026/
+
+---
+
+#### 7928. Anyone else lose track of one-off IT requests that never turn into real tickets?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v748mr/anyone_else_lose_track_of_oneoff_it_requests_that/
+
+---
+
+#### 7929. I feel like when it comes to troubleshooting, people don't think long-term or think about resolving the underlying issue so they don't have to deal with it in the future
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v74jz7/i_feel_like_when_it_comes_to_troubleshooting/
+
+---
+
+#### 7930. Anyone using an EASM platform that doesn't induce major alert fatigue?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v77u0p/anyone_using_an_easm_platform_that_doesnt_induce/
+
+---
+
+#### 7931. Long file paths + OneDrive sync
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v77t5x/long_file_paths_onedrive_sync/
+
+---
+
+#### 7932. Streamlining and improving quality of employee submitted tickets
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v78eel/streamlining_and_improving_quality_of_employee/
+
+---
+
+#### 7933. Seeking advice: Has anyone evaluated hardened mobile devices for a small VIP user group (e.g., GrapheneOS)?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v7drhq/seeking_advice_has_anyone_evaluated_hardened/
+
+---
+
+#### 7934. OpenVPN- Getting Pre-Login Connect (PLC) to work?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v7g6f8/openvpn_getting_prelogin_connect_plc_to_work/
+
+---
+
+#### 7935. Question about supabase_admin default privileges
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v77gqv/question_about_supabase_admin_default_privileges/
+
+---
+
+#### 7936. The VA is paying for my IT degree, and asked me to list some certs that would help me find a job so that they can include them in my education plan and pay for them too.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6kf51/the_va_is_paying_for_my_it_degree_and_asked_me_to/
+
+---
+
+#### 7937. Need advice to avoid SCL 5 spam with MSFT
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v7fwca/need_advice_to_avoid_scl_5_spam_with_msft/
+
+---
+
+#### 7938. On the LG monitor situation -- prevention, safe brands?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6fy39/on_the_lg_monitor_situation_prevention_safe_brands/
+
+---
+
+#### 7939. How to Fix Recurring RPC Server Unavailable Errors on vMatrix Windows 11 Host
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6wa3b/how_to_fix_recurring_rpc_server_unavailable/
+
+---
+
+#### 7940. How do you cope with cowboy environments?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v660ma/how_do_you_cope_with_cowboy_environments/
+
+---
+
+#### 7941. I'm debating whether to get a 4-year degree or if a 2-year diploma is enough
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6o25h/im_debating_whether_to_get_a_4year_degree_or_if_a/
+
+---
+
+#### 7942. Well.. that's it boys. 16 year career up in smoke. IT Manager for company that's closing shop in December
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v5g8nx/well_thats_it_boys_16_year_career_up_in_smoke_it/
+
+---
+
+#### 7943. Feedback wanted: is a better multiboot USB tool worth building?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v7estl/feedback_wanted_is_a_better_multiboot_usb_tool/
+
+---
+
+#### 7944. Poweredge R740 w/ PERC H730p - glacial (and out of warranty)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6hjxn/poweredge_r740_w_perc_h730p_glacial_and_out_of/
+
+---
+
+#### 7945. Anyone ditching legacy phishing tools for modern platforms? What's working for you?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v77nhu/anyone_ditching_legacy_phishing_tools_for_modern/
+
+---
+
+#### 7946. How to Fix Recurring RPC Server Unavailable Errors on vMatrix Windows 11 Host
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6w99d/how_to_fix_recurring_rpc_server_unavailable/
+
+---
+
+#### 7947. What is the above standard in network security?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v6vumy/what_is_the_above_standard_in_network_security/
+
+---
+
+#### 7948. Do IT Managers Care About Homelabs?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v5s3du/do_it_managers_care_about_homelabs/
+
+---
+
+#### 7949. How to manage Claude within an organization
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v5zorf/how_to_manage_claude_within_an_organization/
+
+---
+
+#### 7950. Known state actor knocking the door with an expired token, causing user to get marked High Risk repeatedly
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1v5nny4/known_state_actor_knocking_the_door_with_an/
+
+---
+
+#### 7951. [V2EX] Linux 输入法求助
+
+**问题描述 / Problem Description**:
+环境：Debian 13 + GNOME Wayland 现象：fcitx5-pinyin 稳定，中州韵+万象 间歇性切不出中文、候选框消失、输入直接出英文，重启中州韵也无法解决。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229500#reply5
+
+---
+
+#### 7952. [V2EX] 北通手柄 Linux USB 断连排查与修复
+
+**问题描述 / Problem Description**:
+🚀第一篇水贴 一开始只是想让 archlinux 能 2.4g 连上我的北通手柄 从硬件查到驱动，从 usb 查到 xpad 当我解决完并推送到 aur 仓库的时候，她说要去找个用 windows 的 fk Microsoft ！ https://www.reddit.com/r/linuxsucks/comments/1k6e9th/i_lost_my_wife_because_of_linux 北通手柄 Linux USB 断连排查与修复 症状 北通 BTP-KP40A 手柄通过 2.4G 无线接收器连接 Linux 时，USB 设备每 ~1 秒断开重连一次。蓝牙模式正常，有线 USB 正
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229296#reply6
+
+---
+
+#### 7953. [V2EX] 分享这几个月学习转 AI 以及面试被拷打的经验， Data-Driven AI
+
+**问题描述 / Problem Description**:
+这是数据研发转 AI 的经验，只讲玄学。 企业要做什么？ AI 重构业务。 企业需要什么？ Data-Driven AI 。 企业现在关注是什么？ Ontology 和 Data Loop 。 企业需要什么样的人？ 都不知道。 分布式系统的两个根本不可靠：不可靠时钟和不可靠网络——设计时默认它们存在，用协议与副本去驯服。Data-Driven AI 里有同构的一面：业务语义不可靠。 Ontology 解决不可靠语义传递，Data Loop 解决不可靠语义时效。 Ontology 解决的问题是：给 AI 一个与人类业务共识对齐的世界模型。 Data Loop 让数据产品能持续迭代：对应前言所言语
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229983#reply0
+
+---
+
+#### 7954. [V2EX] 写的开源股票数据库 free-stockdb 快速破 1000 星。日 k 分钟 k、etf 量化底座 2 分钟启动+完全免费
+
+**问题描述 / Problem Description**:
+从 第一天 发在 V2EX 的帖子，还是 0 星 一、缘起： ( 实在受不了 tushare 了!自己写了一个!日 k 数据+分时本地数据库，每日自动更新，免费送给需要的人了 - V2EX ) 多个通宵改 bug 之后，终于稳定了。 干净简单 ❤️ 7400 只股票，etf ，日 k 分钟 k ，双击更新 ， 直接无限并发。 ❤️ 不注册，不登录，不限 ip ，不限速，不要积分，不要缘，双击启动，打开就能用！ 🚀️ 为什么做？之前一直在： 1 、折腾数据库 sqlite 数据到了 6gb 卡的不行 mangodb 一看安装包 900 兆 气的不行 duckdb 一同步数据 烦得不行 redis
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229982#reply0
+
+---
+
+#### 7955. [V2EX] 5 年 PHPer，现在学 Java 还来得及吗？
+
+**问题描述 / Problem Description**:
+不是标题党，不是程序员小白。5 年 php ，今年被公司裁员了，出来一看所在地连岗位都没有了。现在正在努力的学习 java ，争取找到工作，但也是也怕自己努力错了方向，拉长自己的 gap 时长，希望可以得到各位大佬的建议，呜呜呜，别骂我，拜托了。 （公司一直用的 PHP ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229977#reply6
+
+---
+
+#### 7956. [V2EX] 纯 ai 搭了一个小 agent 平台，然后接了一个网页
+
+**问题描述 / Problem Description**:
+https://fortune.inshocking.com/ 一个小算命网站 纯属娱乐 ； 用 ai 先搓了一个 agent 平台，类似于 workbuddy 吧，然后在上边发布了一个算命 agent ，就是 llm 搭载了一些 skills ，内置了一些 tool ； 做了一个前端接了这个 agent runtime ，就实现了一个 算命 agent ，目前是部署在了自己的 2c2g 服务器上，数据没有做持久化，没有用户隐私留存； 服务器有点小，如果有人看到的话希望也是轻用，毕竟自己的博客 blog.inshocking.com 和资源站 inshocking.com 都在上面 哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229976#reply0
+
+---
+
+#### 7957. [V2EX] 留一个地方给自己“古法”编程吧
+
+**问题描述 / Problem Description**:
+本文无 AI 辅助创作，请放心食用。 我看了一下自己最近纯手工编程的项目，是开源仓库 Noteman ，最近更新时间是 Mar 29, 2025 ，距今一年多。而真正还在大规模手搓代码，大概是在 2023 年之前 ——对上了，22 年 11 月 30 日，OpenAI 发布 ChatGPT3.5 ，自那以后，无论是让 AI 生成之后我再 Copy （大约是在 2023~2025 ，基本用的是免费的 GPT 和 Gemini Pro 2.5 ）还是转向纯 Coding Harness （最近两年是诸如 Claude Code 或是 Codex CLI ），我再也没有完全手搓代码了。哪怕是去年自己
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229967#reply4
+
+---
+
+#### 7958. [V2EX] 当 MCP Server 变了，用户原来的设置还算数吗？
+
+**问题描述 / Problem Description**:
+关于能力漂移（ Capability Drift ）、持久管理意图（ Durable Management Intent ）与原子能力面（ Atomic Capability Surface ）的实践思考 本文证据截止于 2026-07-24 ； MCP 官方议题、拉取请求与规范状态最后核验于 2026-07-26 。文中的 MCP 2026-07-28 仍按候选发布版表述，正式发布后需要按最终规范再次核验。 1. 从“连接几个 Server”到一个长期状态问题 我们最初把 MCPMate 看成一个相对直接的桌面网关（ Desktop Gateway ）：连接多个 MCP Server ，处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229964#reply1
+
+---
+
+#### 7959. [V2EX] [分享] IDEA 查库插件，兑换码可免费用 10 个月
+
+**问题描述 / Problem Description**:
+大家好，我是 Database Plus 的作者。 做这个插件，是想让写代码时查库、看 Redis 更省事一点。 能在 IDEA 里连常见数据库，也能看 Mongo ，配置文件旁可以快速建数据源。 大家可以先试用 30 天。 下面兑换码填写后，可以 免费用 10 个月 。 Marketplace 搜索 Database Plus 。码如下： 44U2A-WBW6M-NAXYW-Q45Y4-RBUMF ML44S-RU4JC-V8CW7-B7UK6-Y99H7 JFAXU-T32UK-TB4NP-T9J8E-7MAZB SDEAN-4BP4X-HP66E-PLP7P-W52PH MRK2U-2M
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229961#reply0
+
+---
+
+#### 7960. [V2EX] 做了一个可以对话生成流程图的 AI 工具，支持 Mermaid / 思维导图，想听听大家的建议
+
+**问题描述 / Problem Description**:
+大家好，最近做了一个自然语言生成图表的小工具： 👉 https://text2everything.vip 它叫 text2diagram 。输入一段自然语言，或者直接和 AI 对话，就可以生成可编辑的图表。 生成后可以： 实时编辑 Mermaid / Markdown 源码 缩放、拖动画布 导出 SVG 、PNG 思维导图导出 Markdown 、OPML 中英文切换 不注册也可以直接体验 主要是想研究一下 agent 的应该怎么实现。顺便做了这个工具。实现原理参见 多轮对话生成架构图 Agent 设计实践
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229956#reply2
+
+---
+
+#### 7961. [V2EX] 分享一个小龙虾作者的 Codex、Claude 额度查询工具： CodexBar
+
+**问题描述 / Problem Description**:
+最近在用 Codex 和 Claude ，来回打开后台看剩余额度有点麻烦，最近刷到 codexbar ，用来快一个月确实好用。（奥特曼这天天重置，真快 24 不让我睡觉了） 作者是开发小龙虾的那老哥，现在去 opneai 了，是不是才叫做 codexbar ，而不是 claudebar （不是） 它可以集中显示剩余额度和重置时间，而且一些动效的交互感也很棒。比较实用的是，它会结合当前消耗速度，估算额度能不能撑到下次重置。用得太快时也可以发通知提醒。 目前主要支持 macOS ，Linux 有命令行版本，Windows 暂时只有社区移植版。 目前的小 bug：软件偶尔会遇到菜单打不开或授权失效的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229942#reply1
+
+---
+
+#### 7962. [V2EX] Code Agent / Work Agent 应用的差异化有哪些？
+
+**问题描述 / Problem Description**:
+感觉 ReAct Loop 都大差不差，工具调用、工作编排（工作编排甚至是很可能是伪需求），大家都有自己的实现，本质上也差不多。 不同的 Code Agent / Work Agent 的差异化在哪？ 虽然现在是百花齐放，但是自由竞争一段时间后，除了背靠大厂、模型提供商的 Agent 应用，或者已经打出一定知名度的个人/团队应用，这个市场似乎难以进入？ 还望大佬解惑！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229935#reply0
+
+---
+
+#### 7963. [V2EX] 上次分享的 Codex 桌宠，我又发现它还会将 codex 日志变成“小票”，也挺有趣的
+
+**问题描述 / Problem Description**:
+前几天发过一个 Codex 桌宠“票仔”，本来以为就是放在桌面上看着玩。后来翻了一下，发现作者最近一直在往里面加东西。桌宠只是入口，真正有意思的是它会把 Codex 的工作记录开成一张“小票”。 比如今天让 Codex 干了多少轮活、用了多少 Token 、调用了多少工具、卡在等待确认上多久，最后都会变成一张账单一样的东西。 不是用来报销，也不是什么效率管理工具。就是有时候一天跟 AI 来回折腾完，看到一张“今日工分”和“本日工种”的小票，会觉得这段时间至少留下了点痕迹。 这次还多了个“情绪小票”。名字有点中二，但我看下来不是读你的 Prompt ，也不会分析聊天内容。它只看轮次、打断、响应等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229927#reply5
+
+---
+
+#### 7964. [V2EX] opencode ——最过誉的开源项目
+
+**问题描述 / Problem Description**:
+买了 opencode go ，发现到底谁在用这玩意，打开一个 cli 什么都不干占用内存 700mb ，只是用来写文章就来到了 1 个 G 。 同样的模型，deepseek pro 在 claude 里面验证过能完成的任务，在 opencode 里磕磕绊绊的进行不下去。 直接 claude code 改个 setting.json 就能换模型的事，还专门做一个开源的很菜的项目。而且 codex ，claude code 都开源了（被迫）。 以前的开源项目小而美，现在的开源项目大而肥。 还有各种大大小小的 bug 就不说了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229924#reply9
+
+---
+
+#### 7965. [V2EX] 为什么现在 CLI agent 应用那么火， GUI 不好用吗？
+
+**问题描述 / Problem Description**:
+如题，大家不喜欢好看的 GUI 应用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229915#reply41
+
+---
+
+#### 7966. [V2EX] 梁文峰投资人演讲内容的子弹飞了一会了
+
+**问题描述 / Problem Description**:
+梁文峰演讲内容的新闻热度持续了几天了，网络上也出现了越来越多的背景信息。我看到的总结下来有以下这些： 这次演讲内容来自 DeepSeek 第一轮融资时期，当然距现在也不是很久远； 演讲内容的泄露，导致梁文峰暂停了第二轮融资进程，网传他对此次事件很不满； 网络舆论对此次演讲内容的反应大多是正面的，但网民和主流网络媒体基本上都是外行，不论是技术方面还是金融方面，这些舆论反应对下一轮融资并无实质性帮助； 对于演讲内容如何客观看待，要明白梁文峰这些话是说给投资人听的，这中间是否掺杂了以融资为目的的诱导性的存在偏差的信息，投资人可能难以自行判断，出于谨慎，会要找自己的专业人脉来寻求帮助，这可能是演讲内容
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229913#reply3
+
+---
+
+#### 7967. [V2EX] 开了玻区的 Pro 感觉比美区的智商要低
+
+**问题描述 / Problem Description**:
+昨天听说玻区的便宜，正好美区的周额度没了，于是多开一个帐号。 可能有点主观，但是玻区的方案给得不如美区靠谱，还把我美区刚生成的方案推翻了（正好是额度用完前的最后一个回答），不知道各位有没有这种感觉？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229907#reply2
+
+---
+
+#### 7968. [V2EX] 🥝 VH-Warp： Cloudflare WARP 一键 Docker 部署
+
+**问题描述 / Problem Description**:
+🥝 轻量级 Docker 镜像封装 Cloudflare WARP ，快速搭建局域网可访问的代理服务，极简部署、极致性能、极其稳定。 🔗 GitHub 仓库： github.com/uxiaohan/vh-warp 一条命令部署 ： docker compose up -d ，零配置上手 局域网代理 ：Mixed 模式（ SOCKS5 + HTTP ），单端口 1111 ，全屋设备直连 多账号支持 ：WARP Free （ MASQUE ）/ WARP+ / Zero Trust Teams ，菜单切换 断线自愈 ：四级渐进恢复，自动软重连 → 完整重置，无需人工干预 多架构 ：amd64 +
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229903#reply1
+
+---
+
+#### 7969. [V2EX] 谁还没有薅到免费的 CCMAX-20X?
+
+**问题描述 / Problem Description**:
+今天出现巨大羊毛，使用德国的 sepa 支付，再配合 L 站大佬的油猴脚本，可以直接白嫖到 A/的 20x 看到此贴的速速去白嫖！！！具体教程自行寻找！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229896#reply1
+
+---
+
+#### 7970. [V2EX] 自研 markdown 编辑器内核支持了实时协同能力，做一个基于 webrtc p2p 协同 demo 有没有被喝茶风险
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/do-md/domd 协同 playground： https://www.domd.app/playground/live domd 内核 0.4.0 发布，支持了实时协同能力，代码已经 push 。editor 页面也支持了邀请协同编辑，无需登入。不过担心被喝茶，代码还没推送
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229892#reply24
+
+---
+
+#### 7971. [V2EX] 一份可以进大厂的 AI Agent 开发简历长啥样
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229882#reply2
+
+---
+
+#### 7972. [V2EX] 用 Pi Agent 连接官方账号（Codex/Claude）有风险吗？
+
+**问题描述 / Problem Description**:
+Just asking 。 我打算试试在 OpenAI GPT Pro 和 Claude Max （主要是前者）的官方直连账号上使用 Pi Agent ，但不清楚会不会有封号的风险？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229871#reply4
+
+---
+
+#### 7973. XFCE panel volume control after removing PulseAudio
+
+**问题描述 / Problem Description**:
+Tags: debian, xfce, pipewire | Score: 0 | Views: 48 | Answers: 1 | Created: 2026-07-23
+
+**解决方案 / Solution**:
+You can run pavucontrol from the main Debian menu, under the Multimedia sub-menu - it's called "Volume Control". As you probably already know, the pavucontrol program works with both pulse audio and pipewire. You will need the pipewire-pulse package installed, which provides a PulseAudio replacement daemon for Pipewire. Other programs interact with it as if they're interacting with PulseAudio but behind the scenes, they're actually interacting with Pipewire. You can also drag "Volume Control" from that menu to a panel to get a dedicated launcher for it (and maybe to the Desktop too - dunno, I never use the desktop for launchers. or anything else, really. I generally never even see it because it's hidden behind my terminal and other app windows). Finally, the Pulse Audio Panel Plugin from the xfce4-pulseaudio-plugin package can be added to a panel and gives you volume control sliders and an On/Off button to mute, and a menu to choose which audio device is currently the default (I use this to switch between my USB headphones and my monitor's DisplayPort audio), and a menu option called "Audio Mixer" which is also a launcher for pavucontrol .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806791/xfce-panel-volume-control-after-removing-pulseaudio
 
 ---

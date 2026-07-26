@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2779**
+**总计条目 / Total entries: 2802**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -42231,5 +42231,281 @@ Linux kernel before 2.6.15 allows local users to cause a denial of service (pani
 - http://secunia.com/advisories/18216
 - http://secunia.com/advisories/18510
 - http://secunia.com/advisories/18788
+
+---
+
+#### 2780. CVE-2026-17107 - cluster-proxy: cluster-proxy: Impersonation header injection in service-proxy…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] cluster-proxy: cluster-proxy: Impersonation header injection in service-proxy grants cluster-admin on every managed cluster. Bugzilla: 2506771
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506771
+
+---
+
+#### 2781. CVE-2026-17059 - keycloak-services: keycloak-services: Information disclosure via role-users…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Information disclosure via role-users endpoint bypasses per-user view filter. Bugzilla: 2506746
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506746
+
+---
+
+#### 2782. CVE-2026-66010 - dompurify: DOMPurify: Cross-Site Scripting (XSS) via custom element attribute…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dompurify: DOMPurify: Cross-Site Scripting (XSS) via custom element attribute bypass. Bugzilla: 2506731
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506731
+
+---
+
+#### 2783. CVE-2026-56392 - coreutils: GNU coreutils unexpand: Denial of Service via crafted tab stop values
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] coreutils: GNU coreutils unexpand: Denial of Service via crafted tab stop values. Bugzilla: 2506694
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506694
+
+---
+
+#### 2784. CVE-2026-17039 - pki-core: dogtag-pki: redhat-pki: pki-core: CA renewal request processing omits…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] pki-core: dogtag-pki: redhat-pki: pki-core: CA renewal request processing omits realm authorization check performed by enrollment path. Bugzilla: 2506720
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506720
+
+---
+
+#### 2785. CVE-2026-16804 - chromium-browser: Google Chrome: Sandbox escape via crafted HTML page
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Sandbox escape via crafted HTML page. Bugzilla: 2506643
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506643
+
+---
+
+#### 2786. CVE-2026-16806 - chromium-browser: Chromium: Arbitrary code execution via use after free…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Arbitrary code execution via use after free vulnerability in WebMCP. Bugzilla: 2506637
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506637
+
+---
+
+#### 2787. CVE-2026-65706 - FFmpeg: FFmpeg: Arbitrary Code Execution via Crafted Video Frame
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FFmpeg: FFmpeg: Arbitrary Code Execution via Crafted Video Frame. Bugzilla: 2506586
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506586
+
+---
+
+#### 2788. CVE-2026-65705 - FFmpeg: FFmpeg: Arbitrary code execution via out-of-bounds write in vf_floodfill…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FFmpeg: FFmpeg: Arbitrary code execution via out-of-bounds write in vf_floodfill video filter. Bugzilla: 2506591
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506591
+
+---
+
+#### 2789. CVE-2026-65704 - ffmpeg: FFmpeg: Heap corruption via crafted ffconcat file can lead to arbitrary…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Heap corruption via crafted ffconcat file can lead to arbitrary code execution. Bugzilla: 2506589
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506589
+
+---
+
+#### 2790. CVE-2026-65703 - FFmpeg: FFmpeg: Arbitrary code execution via crafted AVI file in TDSC video decoder
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FFmpeg: FFmpeg: Arbitrary code execution via crafted AVI file in TDSC video decoder. Bugzilla: 2506580
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506580
+
+---
+
+#### 2791. CVE-2026-54422 - ironic-python-agent: ironic-python-agent: Credential extraction from bootc…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ironic-python-agent: ironic-python-agent: Credential extraction from bootc container deployment via /proc/1/root. Bugzilla: 2501234
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2501234
+
+---
+
+#### 2792. CVE-2026-43823 - swift-crypto: swift-crypto: Denial of Service due to double-free during RSA public…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] swift-crypto: swift-crypto: Denial of Service due to double-free during RSA public key initialization. Bugzilla: 2506494
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506494
+
+---
+
+#### 2793. CVE-2026-16733 - find-cypress-specs: bahmutov find-cypress-specs: OS Command Injection via Branch…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] find-cypress-specs: bahmutov find-cypress-specs: OS Command Injection via Branch Argument Manipulation. Bugzilla: 2506495
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506495
+
+---
+
+#### 2794. CVE-2026-21723 - grafana: Grafana: Denial of Service via uncontrolled memory usage in alertmanager…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] grafana: Grafana: Denial of Service via uncontrolled memory usage in alertmanager templates. Bugzilla: 2506342
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506342
+
+---
+
+#### 2795. CVE-2026-16730 - dbus-broker: dbus-broker: session bus denial of service via EMFILE during peer…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dbus-broker: dbus-broker: session bus denial of service via EMFILE during peer setup. Bugzilla: 2506348
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506348
+
+---
+
+#### 2796. CVE-2026-16743 - accountsservice: accountsservice: arbitrary file read via SetIconFile for…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] accountsservice: accountsservice: arbitrary file read via SetIconFile for systemd-homed users. Bugzilla: 2506381
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506381
+
+---
+
+#### 2797. CVE-2026-64831 - ffmpeg: FFmpeg: Arbitrary code execution via crafted HEVC/H.265 bitstream
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Arbitrary code execution via crafted HEVC/H.265 bitstream. Bugzilla: 2506500
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506500
+
+---
+
+#### 2798. CVE-2026-56416 - unbound: Unbound: Heap buffer overflow via malformed DNSSEC record
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: Unbound: Heap buffer overflow via malformed DNSSEC record. Bugzilla: 2506137
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506137
+
+---
+
+#### 2799. CVE-2026-14586 - unbound: libngtcp2: Unbound: Denial of Service via assertion failure in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] unbound: libngtcp2: Unbound: Denial of Service via assertion failure in DNS-over-QUIC environments. Bugzilla: 2506128
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506128
+
+---
+
+#### 2800. [Ubuntu] USN-8610-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8610-1
+
+---
+
+#### 2801. [Ubuntu] USN-8609-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8609-1
+
+---
+
+#### 2802. [Ubuntu] USN-8605-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Foo-over-UDP (FOU); - ARM64 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Drivers core; - Null block device driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine sub
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8605-1
 
 ---

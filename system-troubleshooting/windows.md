@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8655**
+**总计条目 / Total entries: 8706**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -118436,5 +118436,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229209#reply74
+
+---
+
+#### 8656. How does kerberos authenticated RDP use TLS?
+
+**问题描述 / Problem Description**:
+Tags: windows, active-directory, rdp | Score: 4 | Views: 275 | Answers: 1 | Created: 2026-07-23
+
+**解决方案 / Solution**:
+Is there some previous secret shared between the workstation and the server during the authentication phase that they rely on during the TLS part that make the certificates useless ? Yes, the session key within the Kerberos ticket. In an AD environment (and with NLA/CredSSP enabled), RDP uses Kerberos – which provides user authentication, server authentication, and optionally transport encryption independent from TLS. (Overall flow) To start with, every Kerberos principal (every user and every service) shares a secret with the KDC. You and the RDP server have two long-term shared secrets (user↔KDC and server↔KDC) which are used to distribute a third temporary shared secret (user↔server). 2 Your Kerberos secret is based on your password (fed through PBKDF2 to produce an AES key); the AD-joined server likewise has a "computer account password" from which its Kerberos key is derived. Outside of AD, it can also be a random (non-password) key held in a .keytab file. When you obtain a Kerberos ticket for a service, the KDC includes a randomly-generated session key together with the ticket – one copy is separate and visible to you (encrypted using your key), while a second copy is stored inside the ticket (encrypted using the service's long-term key). So when you present that ticket to the RDP server as part of Kerberos authentication, you're also sending it an encrypted copy of this session key, which only the correct service is able to decrypt. (This handshake also requires you to send a one-time "authenticator" produced from the session key, meaning that Kerberos doesn't rely on TLS to protect the ticket from being stolen at this point – indeed it was originally designed to be done in the clear.) Now that both sides have decrypted their copies of the session key, it can be used to establish a secure channel – either encrypted ("sealed") or only integrity-protected ("signed"). The SSPI interface on Windows and the GSSAPI on Linux provide functions to GSS_Wrap() / GSS_Unwrap() arbitrary messages using the established Kerberos context, while old pre-GSSAPI programs use krb_mk_priv() / krb_rd_priv() . Specifically in RDP, the client and server use these Kerberos-protected messages to confirm that the TLS certificate seen by the client is the correct one ( [MS-CSSP] ). (More general aside) In other words, Kerberos was designed so that it alone can serve as a full replacement for TLS (mainly because it predates SSL/TLS by nearly a decade), and Windows indeed uses it that way for securing LDAP, MS-RPC, and WinRM/PS-Remoting traffic. All initial "domain join" traffic is protected by Kerberos sealing, for example, which is why it doesn't require setting up LDAPS. SMBv3 encryption also relies on the same feature to negotiate its own session keys, although SMB and RDP don't rely on Kerberos for bulk encryption since it seems to use a cipher mode that's much harder to optimize for performance. For comparison, NFSv4 does use Kerberos encryption and it is much slower than e.g. TLS or IPsec. Many other protocols don't use Kerberos sealing but still rely on the same session key purely to authenticate the server to the client (i.e. Kerberos provides mutual authentication) without needing a separate server certificate – the server's ability to decrypt the ticket and reply with an encrypted message authenticates it by proving that it knows its long-term shared key (keytab or machine password or whatever). Usually programs only need to pass the "require mutual auth" flag to SSPI or GSSAPI to achieve this. (Back to RDP) Finally, the way it integrates into RDP NLA (as part of the "CredSSP" mechanism) is documented in [MS-CSSP] ; in short, it seems that after the Kerberos ticket auth is done, is used to exchange an encrypted/"sealed" hash of the server's TLS public key that was seen, and the client expects to receive a sealed confirmation from the server that it's the right one. Again, the server's ability to decrypt your message and encrypt its reply (with Kerberos's built-in anti-replay protection) is what authenticates the server to you. (Something similar also happens when you use LDAP with TLS, at least in Windows/AD en­vi­ron­ments, where it is called "channel binding" and doesn't fully replace the TLS cert verification, and is documented in RFC 4121/6542 although the integration into LDAP is a non-standard Microsoft variant – standard RFC 4752 can't do channel bindings.) (From non-AD-joined clients) From what I remember, if you connect using RDP from a non-domain-joined machine, a linux with remmina for instance or a WORKGROUP windows, you will have a warning on the client side regarding the certificate of the machine you connect to because it's self-signed. You can have this work even from non-domain-joined machines, so long as they're able to find your domain through DNS (i.e. you didn't use some nonsense domain name). When prompted for RDP or SMB credentials you must specify your username either in the AD UPN format or in the Kerberos principal format (i.e. either user@domain or user@REALM ) – not in the legacy NT DOMAIN\user format – and then the standalone client will just do Kerberos without needing any configuration. (That is to say, the whole thing doesn't rely on the client having machine credentials – at least not until you configure your DCs to make FAST armoring mandatory. Otherwise the user's password is enough to get an initial ticket.) Remmina on Linux (or rather its FreeRDP backend) also supports NLA with Kerberos starting with FreeRDP 3.1 or so; AFAIK you must specify the username in the raw Kerberos principal format user@REALM , e.g. foo@AD.EXAMPLE.COM , although it might accept the lowercase UPNs as well. I don't think it fully implements the TLS+Kerberos combination though – it still asks to verify the certificate before it gets to speaking Kerberos. * In theory, NTLM can also provide a secure channel (as far as the hardcoded RC4 can be called "secure"), but it cannot authenticate the server (only the client), so in a workgroup environment it's not really good enough. Future Windows versions are apparently going to switch to Kerberos directly between standalone machines. 1 Each Kerberos enc-type ( see table ) separately defines the KDF to use. For example, in addition to modern AES keys with PBKDF2, most AD DCs still store "RC4-HMAC" keys which use MD4 for key derivation (which is completely identical to what NTLM uses; meaning that it used to be possible to upgrade a legacy NT domain to a Kerberos-based AD domain without requiring a mass password reset). 2 This is a simplified version that skips the TGT acquisition, but is still plausible (there are in fact situations where a TGT is not used), and either way it doesn't change the point being made. The full flow involving a TGT merely adds a second near-identical layer of the same thing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199545/how-does-kerberos-authenticated-rdp-use-tls
+
+---
+
+#### 8657. Microsoft account sign-in broken on a single Windows 11 profile, login fails with 0x80048054 or 0x80860010
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-registry, user-accounts, windows-store, microsoft-account | Score: 1 | Views: 87 | Answers: 1 | Created: 2026-07-26
+
+**解决方案 / Solution**:
+I spent 2 days debugging this issue by searching and by using AI. I did not want to migrate to a new profile as the broken profile was an old profile with a lot of apps and customizations and migration would be similar as to reinstalling Windows fresh or just moving to Linux. Hope this helps someone and saves them the time and pain of debugging or moving to a new profile. First I tried the typical steps like removing/re-adding the account, clearing IdentityCache / TokenBroker / Credential Manager, re-registering Microsoft.AccountsControl and Microsoft.AAD.BrokerPlugin , sfc / DISM , and reboots. Nothing helped. Here is what turned out to be the problem on my machine: Root cause Two artifacts belonging to that profile carried impossible far-future timestamps . On my machine this followed cloning Windows from a 512 GB NVMe to a 2 TB NVMe (and a later BIOS fTPM clear), but the exact trigger is unproven — if you've never cloned a disk you may still hit this. 1. A per-user CNG key file dated in the year 2175 %APPDATA%\Microsoft\Crypto\Keys\ contained the Microsoft Connected Devices Platform device certificate key with LastWriteTime of 2175 . Cryptographic operations against it failed with ERROR_INVALID_FUNCTION / NTE_NOT_FOUND . 2. A device-identity record dated in the year 2161 — the real killer HKEY_USERS\.DEFAULT\Software\Microsoft\IdentityCRL\DeviceIdentities\production\<YOUR-USER-SID>\<deviceid>\DeviceId held: <Data DAInvalidationTime="6039175974"><User username="…"><HardwareInfo BoundTime="6039175979" …/></User></Data> 6039175974 as Unix time is 2161-05-16 . A healthy profile has no DAInvalidationTime attribute at all . Why that breaks everything DAInvalidationTime tells wlidsvc to discard any device-auth (DA) token obtained before that moment. Because the value exceeds INT_MAX , the service reports it as exactly 2147483647 (2038-01-19) — it appears to saturate a 32-bit signed integer. Every DA token, no matter how fresh, is therefore "obtained prior to" the watermark and is thrown away microseconds after being issued: deviceidentity.cpp:931 Invalidating DA token for <deviceid> obtained prior DA InvalidationTime: 2147483647, 1784936365 DeviceIdHelpers::GetDeviceAuthToken → 0x80048054 Note this store lives in the SYSTEM hive ( HKU\.DEFAULT , because wlidsvc runs as LocalSystem) but is keyed by your user SID. That's why it survives everything: it's not in HKCU , not in HKLM , and it's an XML attribute , so registry value searches never find it. How to check whether you have it # 1. Any device identity with a DAInvalidationTime? Compare the number against https://www.epochconverter.com — anything beyond ~2040 is corrupt. Get-ChildItem "Registry::HKEY_USERS\.DEFAULT\Software\Microsoft\IdentityCRL\DeviceIdentities\production" -Recurse | ForEach-Object { $d = (Get-ItemProperty $_.PSPath -ErrorAction SilentlyContinue).DeviceId if ($d -match 'DAInvalidationTime="(\d+)"') { "{0}`n {1} -> {2}" -f $_.Name, $matches[1], [DateTimeOffset]::FromUnixTimeSeconds([long]$matches[1]).ToString('yyyy-MM-dd') } } # 2. Any per-user crypto key with an absurd date? Get-ChildItem -Force "$env:APPDATA\Microsoft\Crypto\Keys" | Select-Object Name, LastWriteTime To confirm it's really your problem, capture the auth trace (elevated) and reproduce once: logman create trace LiveId -p "Microsoft-Windows-LiveId" 0xffffffffffffffff 0xff -o C:\t\liveid.etl -ets # …attempt the sign-in, let it fail… logman stop LiveId -ets tracerpt C:\t\liveid.etl -o C:\t\liveid.csv -of CSV -y Select-String C:\t\liveid.csv -SimpleMatch 'Invalidating DA token' A healthy profile produces zero hits. Mine produced 20 per attempt. Fix Back up first: reg export "HKU\.DEFAULT\Software\Microsoft\IdentityCRL\DeviceIdentities" C:\backup-devids.reg Then edit that DeviceId value to remove the DAInvalidationTime attribute entirely and set BoundTime to a sane current Unix timestamp — i.e. make it match a healthy profile: <Data><User username="…"><HardwareInfo BoundTime="1784936832" TpmKeyStateClient="0" TpmKeyStateServer="0" LicenseInstallError="0"/></User></Data> Get a correct timestamp with [DateTimeOffset]::UtcNow.ToUnixTimeSeconds() ( not Get-Date -UFormat %s , which is off by your UTC offset). Then restart the service and retry: Restart-Service wlidsvc Also move the future-dated file out of %APPDATA%\Microsoft\Crypto\Keys\ — Windows regenerates it (mine came back healthy at 1080 bytes, matching a working profile). Re-trace afterwards: Invalidating DA token should now be 0 . Gotcha — do not set up a Windows Hello PIN while troubleshooting this Creating a PIN creates NGC containers, which pushes ShouldCreateNgcKey off the benign "No usable NGC containers found" path onto one that then demands an NGC key for your account. Because Store/Settings request tokens with noUI , it can't prompt and dies silently with ONL_E_ACTION_REQUIRED / PPCRL_E_NGC_REGISTRATION_REQUIRED — a second , self-inflicted failure that masks the first. Removing the PIN reverted it. Things that were NOT the cause (save yourself the time) ACLs on profile keys/files; the TPM (healthy, and tpmtool said ready — clearing it is what created some of this mess); VBS/Credential Guard key isolation; the missing Microsoft.AccountsControl per-user folder ( absent on healthy profiles too — these are SystemApps that keep state in the registry); the virtualapp/didlogical credential (deleting it regenerates the same device ID); removing the device from account.microsoft.com; IdentityCRL\KeyCache ; and an empty IdentityCache folder (a symptom of never completing sign-in, not a cause). Also, two traps if you go trace-diving: tracerpt CSV has a variable column count per event type, so Import-Csv silently misaligns fields — read it as raw lines. And Win32 message strings are localised per profile , so a string match can return zero for one profile purely because it's in another language.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939283/microsoft-account-sign-in-broken-on-a-single-windows-11-profile-login-fails-wit
+
+---
+
+#### 8658. How to create a standard keyboard desktop shortcut from login screen?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, keyboard-shortcuts | Score: 0 | Views: 52 | Answers: 1 | Created: 2026-07-25
+
+**解决方案 / Solution**:
+Workaround If it's really important to shut down via keyboard, without mouse, at startup, make the PC dual-boot, Linux and Windows 10. Then, at startup, while the grub options menu is shown , press C , then type halt and press Enter . If you want to make it easier, edit grub to add: menuentry "Shut Down" {halt} Adding Linux as an option also gives the PC an operating system that is still supported. Windows 10 EOL was October 2025.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939275/how-to-create-a-standard-keyboard-desktop-shortcut-from-login-screen
+
+---
+
+#### 8659. WSL2 fails to start with CreateVm/HCS/ERROR_FILE_NOT_FOUND after a reboot, but the install looks healthy
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-subsystem-for-linux | Score: 0 | Views: 58 | Answers: 1 | Created: 2026-07-25
+
+**解决方案 / Solution**:
+I'm still not sure what caused it, but what fixed it was downloading the msixbundle for the exact version of WSL that I had installed from github: https://github.com/microsoft/WSL/releases Then extracting modules.vhd: cd $env:TEMP Copy-Item "$HOME\Downloads\Microsoft.WSL_<version>_x64_ARM64.msixbundle" .\wsl.zip -Force Expand-Archive .\wsl.zip .\wslbundle -Force Copy-Item .\wslbundle\Microsoft.WSL_<version>_x64.msix .\wslx64.zip -Force Expand-Archive .\wslx64.zip .\wslx64 -Force dir .\wslx64 and then, from an elevated cmd/powershell: wsl --shutdown msiexec /fa "$env:TEMP\wslx64\wsl.msi" /qb /l*v "$env:TEMP\wslrepair.log" dir "C:\Program Files\WSL\tools" wsl
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939267/wsl2-fails-to-start-with-createvm-hcs-error-file-not-found-after-a-reboot-but-t
+
+---
+
+#### 8660. Why has my Windows 11 search popup background turned white?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-search | Score: 0 | Views: 542 | Answers: 2 | Created: 2026-07-24
+
+**解决方案 / Solution**:
+Here's your fix: Disable Bing search in the registry editor ( Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search , make a new DWORD 32 bit value, call it BingSearchEnabled, double click on it, set it to 0, then go to task manager and kill the search app.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939255/why-has-my-windows-11-search-popup-background-turned-white
+
+---
+
+#### 8661. How to save a desktop theme with picture and selected background colour?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, desktop-customization | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-07-23
+
+**解决方案 / Solution**:
+The desktop size being different isn't the problem you think it is. Windows has always supported background image positioning settings, and one of those is "Centered". Windows has also never really supported, at the same level as other things, an image AND background color. It has always assumed you'll use either a background color OR an image, so it not including the background color information in your Theme file isn't surprising. The way to solve this is to turn that image into a bigger image, of at least the same resolution as the highest-resolution computer you'll be remoting into (the fact you're doing this for remote control purposes is also very relevant, and would have been helpful info in your main question). Once you've got that big image, set its position to Centered and save the theme file.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939243/how-to-save-a-desktop-theme-with-picture-and-selected-background-colour
+
+---
+
+#### 8662. Please help with consistent GPU timeouts - troubleshooting so far
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gun8/please_help_with_consistent_gpu_timeouts/
+
+---
+
+#### 8663. Need help with broken iphone 16 pro max
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7g2t7/need_help_with_broken_iphone_16_pro_max/
+
+---
+
+#### 8664. How bad are these scratches on my cold plate?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7ba0i/how_bad_are_these_scratches_on_my_cold_plate/
+
+---
+
+#### 8665. LIAN LII GALAHAD 2 NO RGB MAX FAN SPEED
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7e2ga/lian_lii_galahad_2_no_rgb_max_fan_speed/
+
+---
+
+#### 8666. Need help with Easy AntiCheat
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7dwd2/need_help_with_easy_anticheat/
+
+---
+
+#### 8667. Nvidia App's Max Frame Rate is not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v748s8/nvidia_apps_max_frame_rate_is_not_working/
+
+---
+
+#### 8668. Windows update keeps unsintalling my *latest* graphic driver.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v77dfr/windows_update_keeps_unsintalling_my_latest/
+
+---
+
+#### 8669. Quantum fiber Gigibit wifi PC directly above modem is weaker signal than Phones in same room.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7coig/quantum_fiber_gigibit_wifi_pc_directly_above/
+
+---
+
+#### 8670. My phone charge percentage not going up.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7bpdo/my_phone_charge_percentage_not_going_up/
+
+---
+
+#### 8671. Malwarebytes detected Trojan.Loader and CoinMiner, PowerShell keeps trying outbound connections after cleanup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7hjy6/malwarebytes_detected_trojanloader_and_coinminer/
+
+---
+
+#### 8672. Help with Windows file explorer crashing / freezing.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7hju9/help_with_windows_file_explorer_crashing_freezing/
+
+---
+
+#### 8673. My display freezes up when I stop scrolling, and sometimes when I type
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7be93/my_display_freezes_up_when_i_stop_scrolling_and/
+
+---
+
+#### 8674. monitor dimming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7haly/monitor_dimming/
+
+---
+
+#### 8675. why did my laptop (lenovo ideapad's) fan suddenly start sounding like a gas stove (really high pitched) and have heavy crackles ever now and then?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gwug/why_did_my_laptop_lenovo_ideapads_fan_suddenly/
+
+---
+
+#### 8676. Very Niche but here we go
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gl2s/very_niche_but_here_we_go/
+
+---
+
+#### 8677. High CPU when sceen goes in power saving mode
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gji0/high_cpu_when_sceen_goes_in_power_saving_mode/
+
+---
+
+#### 8678. I'm having really weird Windows files issues that I don't understand
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gijf/im_having_really_weird_windows_files_issues_that/
+
+---
+
+#### 8679. Necesito ayuda con mi microfono en algunos juegos xfa 😢
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gein/necesito_ayuda_con_mi_microfono_en_algunos_juegos/
+
+---
+
+#### 8680. Black screen before BitLocker/UEFI after power outage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gea5/black_screen_before_bitlockeruefi_after_power/
+
+---
+
+#### 8681. New secondary SSD is not detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gd4j/new_secondary_ssd_is_not_detected/
+
+---
+
+#### 8682. Post/bios issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gd1u/postbios_issues/
+
+---
+
+#### 8683. lenovo loq 15 failing to boot occasionally, it's a gamble to even boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7gbz3/lenovo_loq_15_failing_to_boot_occasionally_its_a/
+
+---
+
+#### 8684. Is there any way to save my laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7g2ly/is_there_any_way_to_save_my_laptop/
+
+---
+
+#### 8685. Missing BCD, unable to "Repair your PC" via Booted USB?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v7g27q/missing_bcd_unable_to_repair_your_pc_via_booted/
+
+---
+
+#### 8686. [V2EX] 大家有用过 Power Automate 吗？
+
+**问题描述 / Problem Description**:
+今天整理电脑发现 windows 自带了一个 Power Automate 工具 一开始以为是类似苹果的快捷指令 看了一下里面的样例，感觉更像是强化版的按键精灵 好像也不能关联应用通过触发器来启动一些流程 不知道大家有没有用过，有用过的可以分享一下场景 我是暂时还没想到能用来干啥 没啥用就想删了，占空间还挺大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228995#reply14
+
+---
+
+#### 8687. [V2EX] 各位 OPCEO 们, 你们是用什么途径与手段来推广自己家产品的呢?
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229965#reply5
+
+---
+
+#### 8688. [V2EX] 马斯克最新访谈里的一个观点： 5 年内 AI 智力将超越人类， 10 年后人类大概率失去控制权
+
+**问题描述 / Problem Description**:
+https://www.economist.com/insider/the-insider/an-interview-with-elon-musk 其中一个观点：5 年内 AI 智力将超越人类，10 年后人类大概率失去控制权——“我们不过是黑猩猩的进化版”。 这个时间节点大家认同吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229953#reply12
+
+---
+
+#### 8689. [V2EX] 有没有大佬可以分享下 Claude 防封 skill
+
+**问题描述 / Problem Description**:
+rt ，想让 codex 设置下本地环境，如果有区分 window 系统和 mac 系统就更好了，skill 针对的是浏览器网页对话或者 Claude code 麻烦说明下，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229948#reply0
+
+---
+
+#### 8690. [V2EX] 开发转售前技术支持需要具备的能力
+
+**问题描述 / Problem Description**:
+如题，op 有 4-5 年后端开发经验，目前想转型售前解决方案；想咨询一下各位佬，该岗位招聘是否支持开发转型 [例如需要 xx 年该岗位的经验之类] 以及需要具备的能力等；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229947#reply2
+
+---
+
+#### 8691. [V2EX] 还有做工好的键盘机吗？
+
+**问题描述 / Problem Description**:
+看了看当年的一些经典手机，轻，待机时间长，有些外观也很漂亮。 比如诺基亚的 8800 ，西门子的一些机器。 有色彩搭配，有不同的按键设计。 现在还有这类手机吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229944#reply1
+
+---
+
+#### 8692. [V2EX] 哪个城市生活成本低，适合搞 OPC？
+
+**问题描述 / Problem Description**:
+在家乡小县城被查水表了，感觉有点可怕，想润到大城市了。 想问问 V 友们，有什么推荐的地方吗？ 最好生活成本低一些，然后有 OPC 相关政策社区，想和志同道合的朋友一起搞项目玩。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229916#reply25
+
+---
+
+#### 8693. [V2EX] 前两年在站里买的 Skinny 现在是不是要凉了？
+
+**问题描述 / Problem Description**:
+激活以后就没关注了，现在新卡貌似必须在新西兰激活了，老卡一直充值貌似还能用，但是不知道稳不稳啊，万一以后突然不能用了，绑的账号就麻烦了。希望有懂的说说，这卡还值不值得长期持有了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229910#reply1
+
+---
+
+#### 8694. [V2EX] 智能音箱推荐
+
+**问题描述 / Problem Description**:
+小爱同学、天猫精灵这些太封闭了，不能听很多音乐平台的曲库，尤其是不买音乐平台会员的时候。 大佬们有没有更好的智能音箱推荐，或者相关的方案推荐？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229900#reply1
+
+---
+
+#### 8695. [V2EX] 大家觉得的躺平就是完全不工作吗？
+
+**问题描述 / Problem Description**:
+我一直觉得躺平是找个轻松的班上，或者开个小店（自己不坐班那种），每个月有个两三千利润就可以了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229894#reply35
+
+---
+
+#### 8696. [V2EX] 有没有发现今年 7 月养老保险交得变多了
+
+**问题描述 / Problem Description**:
+无意中发现今年 7 月养老金比以前多交了几百，真的是现在养老金不够发所以要上调养老基数么🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229891#reply30
+
+---
+
+#### 8697. [V2EX] 有没有什么好用的漫画翻译插件？付费的也行
+
+**问题描述 / Problem Description**:
+试了一直在用的沉浸翻译，开通会员才发现它的漫画翻译太慢了，十秒翻译一张，基本上不用看了，光在那等，还不如 Safari 自带的翻译，至少能顺畅看下去，迷迷糊糊猜个大概意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229875#reply4
+
+---
+
+#### 8698. [V2EX] 美国 llc 资质入驻苹果开发者后一直卡在支付风控，有什么办法么
+
+**问题描述 / Problem Description**:
+我是用网页进行注册，现在支付页面只有卡号支付这一种方式 有过 2 次付款成功（美卡、中卡）的记录，但是次日被苹果取消订单； 从此之后换任何卡都是直接付款失败；（支付信息严格匹配） 现在的情况是跟苹果开发者的售后团队第一轮邮件回复是让我继续更换支付方式或者联系银行，没有任何新增信息； 现在就是继续等到周二周三第二轮的邮件回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229872#reply0
+
+---
+
+#### 8699. [V2EX] 重装系统，整理了一下浏览器在用的扩展和油猴脚本
+
+**问题描述 / Problem Description**:
+每次重装系统，总是忘记备份一下油猴脚本，扩展倒是可以自动同步，这次把自己一直在用的油猴脚本和浏览器扩展都整理在 github 的 readme 里面了，有需要的可以参考下做个备份 https://github.com/wayner6/BrowserTools-share
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229868#reply2
+
+---
+
+#### 8700. [V2EX] 目前什么 AI 工具在购物推荐&比价上比较好用？
+
+**问题描述 / Problem Description**:
+家里的壁挂式空调用了 10 多年，需要换了，想让 AI 推荐几款，不知道有没有合适的智能体或者 Agent 能够做这活？ 主要是能够根据需求推荐到合适的商品，其次是价格划算。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229866#reply2
+
+---
+
+#### 8701. [V2EX] 求性价比高稳定的 Claude 中转
+
+**问题描述 / Problem Description**:
+就日常问问题，不写代码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229864#reply3
+
+---
+
+#### 8702. [V2EX] 现在有没有融合 AI Agent 的 SecureCRT、Putty? (类似这样的)
+
+**问题描述 / Problem Description**:
+1.用的时候，肯定是没那么重要的场合，非生产环境; 2.用户不放心在 Agent CLI 环境中，全交交密钥，密码给 Agent(就算受限的账号也不行)，让 Agent 进去放飞自我，只是需要更方便的方式，让 Agent 介入一些操作、可审阅命令，阅读终端输出(手工选择，脱敏某些)的环节; 3.可指定所使用的 LLM(API),chatgpt,kimi,grok 什么的; 现在很多时候，输出屏幕的内容，要复制出来，交给 Agent 的对话里去，让它研究，再得出答案，手工来回多次，还是觉得太麻烦了，SecureCRT 我没升级到最新版，不知道对 AI 的支持如何了，只是想知道 2026.7 ，是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229861#reply3
+
+---
+
+#### 8703. [V2EX] 有没有牛逼的图片转 PPT 的工具
+
+**问题描述 / Problem Description**:
+经常有一些图片，比如 processon 或者 draw io 画的，或者别人分享的，想转换成 PPT 之后做二次编辑。试过一些图片转 PPT 的 claude 技能，也让 AI 编过，效果都不行。这个技术有没有突破
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229851#reply0
+
+---
+
+#### 8704. [V2EX] 求推荐磁吸强的 iPhone 磨砂手机壳
+
+**问题描述 / Problem Description**:
+最近入手了图拉斯的 o3 手机壳，虽然能吸在健身器材上，但是龙门架不知道为啥吸着会掉，而且这款壳挺重的估计是自带支架的原因。比较想要没有支架的、磁吸强、最好是磨砂手感的手机壳，麻烦大家推荐下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229847#reply8
+
+---
+
+#### 8705. [V2EX] pixel 手机 Wi-Fi 受限 openclash
+
+**问题描述 / Problem Description**:
+请问，我今天第一次收了一个 pixel 手机，但是没发登陆 Google 账号 我其实是 pixelbook 用户，在路由器上 openclash 的 fake-ip 增强模式下一切都没问题的，甚至 pixel phone 里 chrome 都可以正常登陆 google 账号 但是似乎 pixel 手机里有特别的机制，Wi-Fi 受限而且没发登陆 Google play 请问需要做什么？ adb 修改 Wi-Fi 检查 url ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229839#reply6
+
+---
+
+#### 8706. [V2EX] AI 时代感觉番茄工作法不是特别适合了，大家有什么替代品吗？
+
+**问题描述 / Problem Description**:
+以前是一个番茄专心做一件事情，现在同时开好几个 session 并行做几件事情，而且因为频繁的切换，没有以前那种进入心流的状态了，感觉不是那么得劲。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229817#reply7
 
 ---
