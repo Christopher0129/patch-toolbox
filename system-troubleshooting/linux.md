@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7973**
+**总计条目 / Total entries: 8006**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -111601,5 +111601,434 @@ You can run pavucontrol from the main Debian menu, under the Multimedia sub-menu
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806791/xfce-panel-volume-control-after-removing-pulseaudio
+
+---
+
+#### 7974. Single job in roots crontab seemingly spawns two jobs
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, process, cron | Score: 0 | Views: 43 | Answers: 1 | Created: 2026-07-27
+
+**解决方案 / Solution**:
+You specify a really complex shell line; to execute that, the shell has to fork itself and then exec (or similar) the programs specified. Now, specifically with (…) , there's a place where the shell can't just fork-and-exec, but has to fork-wait-fork-exec, and you're seeing the resulting two processes. Because () specifically says "spawn a shubshell"! So, what you observe is exactly the code you've written, working as intended! As a remark: In all honesty, your cronjob line is unhealthily complex. That all belongs into a script that gets launched from the cronjob! That allows you to test (and read) the script comfortably: ( flock -w 86400 -x 200 || exit; DATECODE=$(date +%Y%m%d-%H%M); /bin/time /usr/local/sbin/rsync1.sh; /usr/local/sbin/rsync2.sh; /usr/local/sbin/snapshot snapshot-daily-${DATECODE} ) 200>>/var/run/snapshot.lock | tee -a /var/log/rsyncbackup.log |tail -500 is just way too error-prone. It also feels natural to have a script that does this specifically, since: you already call three custom scripts in there ( rsync1.sh , rsync2.sh , snapshot ), so tying things together would come natural. And, since you say, these scripts are undergoing changes: I'm sure you're using version control ( cvs , svn , mercurial , git …) on them to not go insane, and doing that with the script that invokes them makes extra much sense under these circumstances! Since you mention that this is on Redhat: flock is superfluous. You can just make this a systemd.service (low effort – single file with about 5 lines; Type=exec in your case). That service can then be given a timeout ( TimeoutSec=86400 ); removing the necessity for flow -w 86400 , will only be run as one instance, removing the need for flock / flock -x alltogether, can be started (imho, easier) through a systemd.timer instead of through crontab. Systemd timers can be set up using converted good ole crontab timespecs, if you want, which, in your cae OnCalendar=Mon..Sat *-*-* 03:00:00 , which I find a lot less confusing¹. which then also integrates the logs properly, and depending on your need, that means your whole tee | tail logic becomes unnecessary, too. ¹ But I'm especially bad at writing the cron timespec right on the first try; but then again, other admins tell me that they get crontabs wrong all the time, so maybe that cron format just isn't very human-compatible and we're all suffering from some form of Stockholm syndrome when it comes to crontab.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806834/single-job-in-roots-crontab-seemingly-spawns-two-jobs
+
+---
+
+#### 7975. Mount ntfs drive as user on fedora kde
+
+**问题描述 / Problem Description**:
+Tags: fedora, permissions, mount, ntfs-3g | Score: 0 | Views: 34 | Answers: 2 | Created: 2026-07-26
+
+**解决方案 / Solution**:
+As your error message, and Unable to mount NTFS partition from user account mention, you will need write permissions to the mountpoint, /mnt/Stockage. So, chown yourusername /mnt/Stockage; chmod +w /mnt/Stockage are necessary. This feels very insecure it is. But since in the way you're doing this, your user needs to be able to run the userland driver, there's not really a better solution. Instead of going the route you've chosen, I'd instead revert the permissions to what they were before remove the two entries from /etc/fstab Make an automount unit The 2. step is not that hard. man systemd.mount and man systemd.automount explain things, but are (imho) a bit long. In short, you need a mount unit in /etc/systemd/system/mnt-Stockage.mount (name is important! see the man systemd.mount man page on naming) [Unit] Description=NTFS medium mount [Mount] # important: ***.mount filename must be identical to Where= with all slashes replaced by "-" Where=/mnt/Stockage What=/dev/sdb1 Type=ntfs and a mnt-Stockage.automount (same name, but .automount !) in the same directory: [Unit] Description=NTFS medium automount [Automount] Where=/mnt/Stockage [Install] WantedBy=multi-user.target You then need to systemctl daemon-reload to make systemd aware of the new unit files, and then systemctl enable --now mnt-Stockage.automount to permanently enable the automatic mounting. Now, whenever you simply open the directory /mnt/Stockage, be it through your file manager, any program accessing a file on it, or you cd ing into it on your shell, your NTFS volume gets mounted by systemd as root user. You should still see the NTFS volume in your file explorer, and be able to go there manually.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806824/mount-ntfs-drive-as-user-on-fedora-kde
+
+---
+
+#### 7976. How Valve's desperation to escape Windows 8 turned it into a Linux powerhouse
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v88bbk/how_valves_desperation_to_escape_windows_8_turned/
+
+---
+
+#### 7977. Fedora 44 running on Ayneo PocketDS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7umw7/fedora_44_running_on_ayneo_pocketds/
+
+---
+
+#### 7978. Gosuki v1.4.2: a cloudless, real time, multi-browser, extension-free bookmark manager with multi-device sync
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v87180/gosuki_v142_a_cloudless_real_time_multibrowser/
+
+---
+
+#### 7979. FreeBSD Status Report Second Quarter 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v83cld/freebsd_status_report_second_quarter_2026/
+
+---
+
+#### 7980. Syne: An android application for server administration
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7zp4y/syne_an_android_application_for_server/
+
+---
+
+#### 7981. DistroWatch highlights games and experiences for learning Linux skills the fun way
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7kuux/distrowatch_highlights_games_and_experiences_for/
+
+---
+
+#### 7982. The long awaited usbmuxd rewrite
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v83b2m/the_long_awaited_usbmuxd_rewrite/
+
+---
+
+#### 7983. Hulios – Transparent Tor proxy for Linux in Rust (Looking for testers across distros)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v89qvt/hulios_transparent_tor_proxy_for_linux_in_rust/
+
+---
+
+#### 7984. [REVIEW] You should try Solus - rolling release done right!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v7vdm2/review_you_should_try_solus_rolling_release_done/
+
+---
+
+#### 7985. [V2EX] 有用 codex 做 vibe research 的吗？
+
+**问题描述 / Problem Description**:
+指给一个 idea ，然后方法设计到仿真到训练的实验全部都让 codex 跑。 我试了一下发现 codex 跑实验意外地特别占上下文，gpt 还很喜欢闷着头皮硬改不去上网查讨论串或开源仓库。每次提醒它也只能管一段时间，是不是要安装什么 skill ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230273#reply0
+
+---
+
+#### 7986. [V2EX] iOS27 开通 gg 卡的 wificalling 失败
+
+**问题描述 / Problem Description**:
+1 、全局英国代理 2 、修改定位到伦敦 3 、隧道修改为所有网络 是我遗漏了什么设置吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230265#reply4
+
+---
+
+#### 7987. [V2EX] 推荐 Factory Droid 的服务
+
+**问题描述 / Problem Description**:
+我用过中转站，也单独买过几家的服务，经常就是换过来换过去，要不就是账号被封，要不就是中转站跑路，要不就是有的模型没有。 Factory Droid 的 CLI 用起来也很顺手， 模型也比较全， 比如： Fable 5 Kimi K3 Opus 5 GPT-5.6 Sol GROK 4.5 GLM 5.2 这几个常用的都有，不用再去折腾账号了，并且随时/model 切换着用。 买了 100 美金的套餐，舒服！ 不是推广，谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230262#reply0
+
+---
+
+#### 7988. [V2EX] 分享下自己生产力工具 ccteam，用这套工具日常管理 50+并行 agent
+
+**问题描述 / Problem Description**:
+以前用 Claude Code 、Codex 、Grok ，其实都是单打独斗：开一堆终端，这边聊半截、那边写一半，进度散得到处都是。agent 干完一步就停在那等我回车；我去接杯水，活就卡死了。人得一直钉在电脑前，比写代码本身还累。 烦够了，我干脆把想要的工作方式做成了开源项目 ccteam ——不是再造一个新 agent ，而是把已经在用的这些 code agent 编成一支真正能协作的团队。 现在比较常见的一天是这样的：出门前丢给 Codex 一个长活；吃饭时在 Telegram （飞书也行）瞄一眼进度、补一句要求；回来测试已经跑完了。中途想插话，浏览器控制台说一句就行。多个会话可以互相派
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230260#reply2
+
+---
+
+#### 7989. [V2EX] 又来请教大家技术问题了
+
+**问题描述 / Problem Description**:
+小弟用 flutter 做了一个应用，目前准备上架苹果商店（之前一次都没发布过） 已经在 app store connect 配置了订阅商品，目前是“可供审核”状态 付费协议等什么的都配置好了 但是在应用里请求苹果总是找不到商品 id ，在 iphone 开发者模式的沙盒账号中发起交易 也提示“无法完成交易，提供的产品 ID 或者套装 ID 无效” 有大佬知道怎么办吗，让 codex 自己调试半天还去 app store connect 操作半天也没找到问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230253#reply0
+
+---
+
+#### 7990. [V2EX] Zedis：用 Rust 写的 Redis GUI，以及让 AI 帮忙改界面的一点感想
+
+**问题描述 / Problem Description**:
+最近把自用的 Redis 客户端 Zedis 又打磨了一轮，发出来给大家看看。 项目地址： https://github.com/vicanso/zedis Zedis 是原生 GUI （ Rust + GPUI ，和 Zed 同一套 UI 栈），不是套一层 WebView 。目标很简单：日常连 Redis 、翻 key 、改数据、偶尔排个障，开着不别扭。 主要特性（按使用频率） 连接与工作区 • 多服务器管理，支持常见连接方式（含 SSH 隧道等） • 多 Tab：不同实例 / 不同上下文可以并排开着 • 状态栏看延迟、内存、连接状态，点一下能进对应工具页 键空间 • 按分隔符分层的键树（默
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230237#reply4
+
+---
+
+#### 7991. [V2EX] 现在在公司里面 vibe coding 到底还落没落地啊
+
+**问题描述 / Problem Description**:
+从我自身使用体验来看，写出来的东西需要不断地调试，反复的修改，达到 ready 的状态也不知道需要多久，token 用的飞快，很好奇，到底哪些公司在 vibe coding 上已经落地了，用于生产环境了，应用到什么程度了？我之前公司还是 ai 写出来代码，然后人工 review 再上线，这种情况的 diff 往往不会特别大。 单纯的好奇，是大家疯狂的自嗨还是厂商疯狂的造势炒作。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230232#reply10
+
+---
+
+#### 7992. [V2EX] gg 卡如果被封，卡里的余额怎么办，就不还了？
+
+**问题描述 / Problem Description**:
+目前，我了解到的 gg 卡被封后还有携号转网的缓冲期，但是我的卡没被封，我也不清楚真假，而且我看到有人说号码被封，连账号都登不进去的。 最重要的事，卡里的余额怎么办，就被 giffgaff 吞了？退款我记得得套餐生效 14 天内才能退吧，注册半年的账号岂不是退都不能退了？ 有维权的方法渠道吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230231#reply3
+
+---
+
+#### 7993. [V2EX] 最近悟道了，人生本来就没有意义
+
+**问题描述 / Problem Description**:
+苦卷十余载，从年轻小伙子熬成了满头白发。 从一无所有熬到了有房有车有娃。 从满身轻松熬到了债务累累。 想想快到 35 的年龄，看看格子间和小屏幕，不知道还能坚持多久。 最近总是幻想，几年之后，财务自由，躺在老家的院子里一杯茶一支烟的惬意。 又不知道什么时候才会到来。 人生本来就没有意义，总是向往轻松一些，又跳不出这个世俗的圈子和所谓的成就感。 我说我不卷，他们都在笑。 在办公室越来越坐不住，原来不是腰疼，也不是颈椎，也不是胃疼，而是我的心，已经不在这里。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230230#reply37
+
+---
+
+#### 7994. [V2EX] 大佬们，在 Claude Code 中使用 GLM5.2 效果怎么样？
+
+**问题描述 / Problem Description**:
+和 Claude Code 原生的比着怎么样？ Codex 呢？ Codex 开通会员的话，折腾几下。想着是不是先开通 glm 140 的套餐试试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230224#reply6
+
+---
+
+#### 7995. [V2EX] 我上线了我的个人网站，米小饭饭布吉岛
+
+**问题描述 / Problem Description**:
+诚然在 2026 年上线一个个人站似乎有点跟不上时代，但这是我多年来的计划。 这个站点有我开发的应用和在线工具，未来应该也会写一些技术上的感悟在这里。 地址： https://mixiao.fan ，欢迎来提需求或者建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230220#reply0
+
+---
+
+#### 7996. [V2EX] fastjson2 也出远程代码执行漏洞
+
+**问题描述 / Problem Description**:
+刚推业务修好 fastjson 1.2.83 的 RCE 漏洞，修复建议里是升级到 2😂现在 2 也沦陷了。。。 长亭科技的漏洞通告： https://mp.weixin.qq.com/s/LJaul1jNjK9pXRAkoUiMEA fastjson 官方的说明： https://github.com/alibaba/fastjson2/issues/7702 现在漏洞还没修复，官方也没发布新版本，解决方法只有开启 safemode 。。。所以之前 1.2.83 升级 2 的方案也是无法解决问题的 官方称“在特定条件下可能被利用”，但长亭科技的文章里说的是“默认配置”、“全 JDK 版本通杀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230205#reply10
+
+---
+
+#### 7997. [V2EX] deepseek 是不是在偷偷读取 gemini 的信息尼？
+
+**问题描述 / Problem Description**:
+比如说，我问 DeepSeek 的问题，DeepSeek 他不太知道和清楚的情况下，然后他回答了其他的不太相关的答案。并没回答出问题的精髓，然后我接着就问谷歌的 Gemini 。谷歌九精准的发现了这个问题的精髓，回答出来了，还不错，那么接下来我返回 deepseek 再次问 DeepSeek 。这下 DeepSeek 就回答出精髓了，居然给谷歌 Gemini 说的话几乎是一模一样的答案。我在想第一次我问 deepseek 它并不知道答案的，我问了 gemin 后，DeepSeek 是怎么就马上知道答案了尼？ deepseek 是读取谷歌本地缓存的信息吗？神奇？我好几次发现这个问题了。大家是否有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230200#reply32
+
+---
+
+#### 7998. [V2EX] gpt 什么时候会像 claude 一样彻底关门
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230197#reply0
+
+---
+
+#### 7999. [V2EX] 用点 ai 不容易
+
+**问题描述 / Problem Description**:
+看别的论坛发的，感慨用点 ai 不容易
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230182#reply8
+
+---
+
+#### 8000. [V2EX] 半年 OPC, 打算终结这段旅程了
+
+**问题描述 / Problem Description**:
+我做的是 B 端的业务 SaaS, 刚开始以为 Soft as a Service, soft 是重点. 半年下来发现服务才是重点. 跳过获客这一段段, 从客户咨询、线上演示, 到咨询陪跑、线上调试, 再到 Bug 修复、线上答疑、数据修复等. 重业务型的 SaaS 根本不是开发一个软件直接卖给下一家这么简单, 且不说各家业务模式差异性问题, 业务大小付费能力页天差地别. 很多客户咨询后几乎都没了下文. 思来想去, 感觉不是我这个小个体能做的来的事情. 补个感受, B 端需求和市场还是在的, 客户也愿意付钱. 但是, 销售终究是一个价值互换的过程, 有价值的问题才能获得高回报.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230178#reply9
+
+---
+
+#### 8001. [V2EX] 买 giffgaff 的小心了，开始封长期漫游的，真是流年不爽。没上车的不建议上了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230174#reply36
+
+---
+
+#### 8002. [V2EX] 有没有一款可以限制手机使用时间的软件
+
+**问题描述 / Problem Description**:
+最终效果类似抖音的未成年人模式，设定时间后，到了时间需要输入监护人密码 需要能够限制所有软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230160#reply18
+
+---
+
+#### 8003. [V2EX] 免费送 Claude fable 额度，会有人感兴趣吗。
+
+**问题描述 / Problem Description**:
+做了个小工具，注册可以得到 200 刀 fable 额度（后续看情况增加模型），正常使用的情况下可以私聊加额度，有感兴趣的或者想体验可以加下现有的群。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230150#reply7
+
+---
+
+#### 8004. [V2EX] GitNexus 用过的评价一下效果如何 真的能省 token 吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230149#reply1
+
+---
+
+#### 8005. Extract a string from a searched column index on the row below?
+
+**问题描述 / Problem Description**:
+Tags: shell, awk | Score: 2 | Views: 275 | Answers: 3 | Created: 2024-02-21
+
+**解决方案 / Solution**:
+If your df implementation supports it, you can use --output instead of parsing. From man df on my Arch Linux: --output[=FIELD_LIST] use the output format defined by FIELD_LIST, or print all fields if FIELD_LIST is omitted. [...] FIELD_LIST is a comma-separated list of columns to be included. Valid field names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', 'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page). So, in your case, you would just do: $ df -BG --output="used" / Used 200G If you really need to parse it, I wouldn't bother with the pattern matching at all. You control the input, it won't change, so you can just print the 3rd field (output from my system): $ df -P -BG / | awk '{print $3}' Used 44G If you really really need to have it work even if the field order changes, so you need to find what field contains the string Used , you could do something complicated like this: $ df -P -BG / | awk '{ if(NR==1){for(i=1; i<=NF; i++){ if($i ~ /Used/){want=i}}} print $want}' Used 44G
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/769815/extract-a-string-from-a-searched-column-index-on-the-row-below
+
+---
+
+#### 8006. In bash: how to configure the !command behaviour to something more practical?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-history | Score: 1 | Views: 90 | Answers: 2 | Created: 2026-07-27
+
+**解决方案 / Solution**:
+As choroba said in a comment , <tab> does not execute the command in bash. To directly answer your question: shopt -s histverify is the option you want. Usually you would add it to your ~/.bashrc file.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806831/in-bash-how-to-configure-the-command-behaviour-to-something-more-practical
 
 ---

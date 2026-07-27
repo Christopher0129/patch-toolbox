@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7549**
+**总计条目 / Total entries: 7609**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -102437,5 +102437,785 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229486#reply3
+
+---
+
+#### 7550. macOS 26.6 is now available
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v88kbi/macos_266_is_now_available/
+
+---
+
+#### 7551. macOS 26.6 fixes 155 security vulnerabilities
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8bd5h/macos_266_fixes_155_security_vulnerabilities/
+
+---
+
+#### 7552. Shutdown vs Restart on MAC - is there any difference and how often should I do?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v813mz/shutdown_vs_restart_on_mac_is_there_any/
+
+---
+
+#### 7553. I have never once found it useful to page through a PDF at icon size. Here's how to remove 'em!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v82h5l/i_have_never_once_found_it_useful_to_page_through/
+
+---
+
+#### 7554. macOS 26.6 - VNC apps won’t connect anymore?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8ecsv/macos_266_vnc_apps_wont_connect_anymore/
+
+---
+
+#### 7555. Am I the only one thats gonna miss the "floating" sidebars?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v803fa/am_i_the_only_one_thats_gonna_miss_the_floating/
+
+---
+
+#### 7556. Keyboard keys acting up in small office
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v89nyz/keyboard_keys_acting_up_in_small_office/
+
+---
+
+#### 7557. Multiple External Monitor Help Please
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8epd9/multiple_external_monitor_help_please/
+
+---
+
+#### 7558. [OS] Still Running - Free - finds what you forgot was running
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8dwy8/os_still_running_free_finds_what_you_forgot_was/
+
+---
+
+#### 7559. How do I make my dock stay on one monitor?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8320q/how_do_i_make_my_dock_stay_on_one_monitor/
+
+---
+
+#### 7560. Adding emojis to folder names, does this cause issues in shared/cross-platform environments?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8crto/adding_emojis_to_folder_names_does_this_cause/
+
+---
+
+#### 7561. Do older macOS versions also get security updates along side macOS 26.6 ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8cmbb/do_older_macos_versions_also_get_security_updates/
+
+---
+
+#### 7562. External hard drive (Backup question)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8c3ug/external_hard_drive_backup_question/
+
+---
+
+#### 7563. Best/most advanced CAD software on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v7qbbv/bestmost_advanced_cad_software_on_macos/
+
+---
+
+#### 7564. Is there really no method to disable ClamShell mode on Apple Silicon?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v84erk/is_there_really_no_method_to_disable_clamshell/
+
+---
+
+#### 7565. macos tahoe audio and spotlight search bugs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v80rk6/macos_tahoe_audio_and_spotlight_search_bugs/
+
+---
+
+#### 7566. how do I avoid duplicates when adding to Photos?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v84o71/how_do_i_avoid_duplicates_when_adding_to_photos/
+
+---
+
+#### 7567. fun fact
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v8eoti/fun_fact/
+
+---
+
+#### 7568. Questions about screenshots and Microsoft applications
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v841tq/questions_about_screenshots_and_microsoft/
+
+---
+
+#### 7569. Confused between, downgrade to Sequoia or upgrade to macOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v7xfsp/confused_between_downgrade_to_sequoia_or_upgrade/
+
+---
+
+#### 7570. Is there a way to create an infinite canvas in macOS Finder icon view?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v82gqu/is_there_a_way_to_create_an_infinite_canvas_in/
+
+---
+
+#### 7571. Cannot boot to USB
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v7w75w/cannot_boot_to_usb/
+
+---
+
+#### 7572. Can I extract wallpapers from MacBook Pro 2018 from the latest version of macOS Mojave?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v7xsbh/can_i_extract_wallpapers_from_macbook_pro_2018/
+
+---
+
+#### 7573. Help creating a child iCloud account
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v7wwm1/help_creating_a_child_icloud_account/
+
+---
+
+#### 7574. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply8
+
+---
+
+#### 7575. [V2EX] 用 Opus5 实现了 macOS 用户态 RNDIS 驱动
+
+**问题描述 / Problem Description**:
+众所周知之前的 macOS 需要用 RNDIS 驱动就得用 jwise/HoRNDIS 需要关闭 SIP ，还是很麻烦的。 但是实际上在用户态可以直接用 libusb 在用户态实现。 把实现目标说清楚直接交给 Opus5,一共用了两小时全部完成了。 用了一个 vivo 手机(USB 共享网络)测试和一个开发板（ USB gadget ）测试都是成功的 方案 能否纯用户态 门槛 语义层级 结论 kext / NKE ❌ Apple 授予的 kext 签名 entitlement 或关 SIP L2 Apple Silicon 上实质不可行 NEPacketTunnelProvider ✔ 付费开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229902#reply3
+
+---
+
+#### 7576. [V2EX] 永远不要给你的 codex 直接运行命令的权限，已经在准备重装电脑了。
+
+**问题描述 / Problem Description**:
+需要用到几个老的二进制，发现没有 arm 架构，偷懒了就想让 codex 找源码重新编译。说：找到正确的二进制并替换。 codex 上网找了源码但是编译失败了：源码原生化被上游跨版本 ABI 卡住了。到这里应该就停下了，但是 codex 还在继续，也没有询问我，AI 会为了目标而不择手段。 谁能想到它自己运行了命令安装了 rosetta ，我看到的时候立刻点了停止并且马上关机了，但是还是装上了。这个东西装了就卸不掉了，现在已经在准备重装了。 一定要每次都亲自审核，或者提前准备好快照，AI 受害人+1 。 我是用这条 Apple 官方命令触发安装的： /usr/sbin/softwareupda
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229528#reply39
+
+---
+
+#### 7577. [V2EX] macOS 27 外接高刷屏 WindowServer 占用高的，可以试试 BetterDisplay 5.x 预览版
+
+**问题描述 / Problem Description**:
+最近升级 macOS 27 后，外接 5K 高刷显示器时， WindowServer 占用一直比较高，机身也明显发热。 我的环境： MacBook Air M4 ，16GB macOS 27 Beta 4 ，构建号 26A5388g 外接小米 5K 显示器 HiDPI： 2560 × 1440 内屏和外接屏同时开启 外接屏刷新率：100Hz BetterDisplay 4.3.5 的表现 100Hz 下： WindowServer 占用约 48%～ 72% 平均约 61% 整机 CPU 空闲率约 75% 机身发热比较明显 降到 60Hz 后： WindowServer 平均下降到约 38.2%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228885#reply14
+
+---
+
+#### 7578. [V2EX] 注册 Apple Developer 求问
+
+**问题描述 / Problem Description**:
+注册 Apple Developer 需要填信息吗,我就点了 enroll 还没填信息没申请就提示这个 如果填信息是填假的还是真实的呢 如果是真实的国内信息，可以上架外区和接支付吗，能通过吗 如果接三方支付呢，填认证信息该怎么填能提高审核通过率，比如 Paddle
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230210#reply2
+
+---
+
+#### 7579. [V2EX] 如何才能成功注册 Kliq 用于绑定土区
+
+**问题描述 / Problem Description**:
+试了 ultra/gg/talktone 都报错无法发送验证码，间隔好几天断断续续试了很多次 试了土区 IP 、美国 IP 都不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230123#reply5
+
+---
+
+#### 7580. [V2EX] 现在 mba 32g+512 有好价吗？
+
+**问题描述 / Problem Description**:
+想把手里的丐版 M4 macmini 出掉，换个 macbook air 32g+512 的，自从涨价后才发现很香，还是很后悔没有换的，现在有什么便宜的渠道吗？以旧换新？二手？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230117#reply5
+
+---
+
+#### 7581. [V2EX] 想把 16+256 的 M4 Mac Mini 换成 M1 Pro 32+512 的无头骑士，大家给点建议
+
+**问题描述 / Problem Description**:
+主要用途就是扔在家里做软路由+媒体服务器+看片和轻办公（ Citrix 和 Web applications) 价格方正差不多，大家怎么看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230110#reply11
+
+---
+
+#### 7582. [V2EX] Q 圈如何删除老设备
+
+**问题描述 / Problem Description**:
+rt,之前绑定的一些设备都不再使用或者出售了，只能重新买吗？但是那样的话需要重新注册美区账号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230106#reply5
+
+---
+
+#### 7583. [V2EX] oyunfor 不能用 u 付款了嘛
+
+**问题描述 / Problem Description**:
+马上要扣费了才想起来去买里拉，结果发现不能 u 付款了，信用卡付款还得亏点儿手续费。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230029#reply11
+
+---
+
+#### 7584. [V2EX] Infuse 可以直接调用 Emby 的转码了？
+
+**问题描述 / Problem Description**:
+最近发现可以选择编码了，没注意哪个版本开始的。 是直接可以调用 Emby 的转码？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230012#reply0
+
+---
+
+#### 7585. [V2EX] 日区 appleone 涨价 2500
+
+**问题描述 / Problem Description**:
+rt 。前两天看国区 applemusic 涨价 还说 日区 2000 真是划算 ,现在汇率便宜的不行。开车就收家人 200 一年。🤡。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230005#reply0
+
+---
+
+#### 7586. [V2EX] 要给 intel Macbook Air 升级， m2 16+256 还是 m3 8+256，二选一
+
+**问题描述 / Problem Description**:
+平时需要携带，只考虑 air
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229835#reply24
+
+---
+
+#### 7587. [V2EX] mac 的 ac 快到期还有用嘛
+
+**问题描述 / Problem Description**:
+我买的二手 m1pro ，功能目前正常，就键盘打油了一点，applecare+7 月底到期 d ，对我来说有用嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229782#reply9
+
+---
+
+#### 7588. [V2EX] [送码] BuhoNTFS 2.0 免费公测招募，相信是最好用的 NTFS 挂载方案哦
+
+**问题描述 / Problem Description**:
+如果你曾经试过在 Mac 上往 NTFS 硬盘里拷东西，应该懂那种感觉——要么拷不进去，要么得装个软件、关 SIP 、重启、再祈祷一切正常。 我们之前做了 BuhoNTFS 1.0 ，能解决读写问题，但说实话，我们自己用着也觉得有些地方不够爽——有时候挂载不够快，有时候传输大文件会卡一下。在之后的版本升级过程中，我们也尝试各种各样的技术思路，但结果都不理想，所以 2.0 我们干脆把底层重写了。 这次不一样的地方： 1. 不关 SIP ，不用重启——插上硬盘、开始读写、即插即用 2. 读写更快——针对大文件传输和日常文件操作重新优化 3. 原生架构——基于 macOS 原生能力重构，少了很多奇怪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229710#reply20
+
+---
+
+#### 7589. [V2EX] 今天（20260724）苹果调整新 siri 规则了？不需要电子围栏和网络了
+
+**问题描述 / Problem Description**:
+目前测了好一会，应该是不需要这些了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229509#reply36
+
+---
+
+#### 7590. [V2EX] macbook 显示器推荐，分辨率 4k、5k 都可以，预算 5000 以内，不要 dell 的
+
+**问题描述 / Problem Description**:
+需求： 分辨率：4k 、5k 支持 type-c 一线通，充电功率 65W 以上 价格 <= 5000 不要 dell 品牌的，2720qm 刚过保 3 个月就坏了，怕了跑了 平时就看文档、写代码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229331#reply47
+
+---
+
+#### 7591. [V2EX] 不是，国区 apple music 价格也要上调啊？
+
+**问题描述 / Problem Description**:
+https://imgbed.5l6d54s2.cn/file/PixPin_2026-07-23_16-12-06.webp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229321#reply31
+
+---
+
+#### 7592. [V2EX] 2021 年的 M1 Pro 能升 macOS 27
+
+**问题描述 / Problem Description**:
+2021 年的 MacBook Pro 14 寸，10 核 32G 内存，能升 macOS 27 吗，现在还是 macOS 14 ，主要怕会有什么软件或打印机驱动什么的不兼容，发热和流畅度和除了 26 的老版本比咋样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229259#reply38
+
+---
+
+#### 7593. [V2EX] 国内能访问 https://openai.com/ 了怎么回事
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230274#reply0
+
+---
+
+#### 7594. [V2EX] Grok Build vs Codex
+
+**问题描述 / Problem Description**:
+Grok build 有人用过吗？和 codex 对比呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230267#reply1
+
+---
+
+#### 7595. [V2EX] 这帮洗钱的太嚣张了
+
+**问题描述 / Problem Description**:
+闲鱼上挂了一张显卡，标价 2 万 陆陆续续已经有 3 个人要上门自取，但是不走闲鱼，要银行卡直接转账。 统一流程是假模假样问一嘴，也不砍价，说让朋友上门取，没问题直接银行卡转账 我说自提可以，上门验货也可以，但是得走闲鱼交易，不直接走银行卡转账，这些人立刻就消失了不回复了 这种一般有猫腻，弄不好前脚跟我银行卡转账，后脚就给我把银行卡冻结了 大家千万小心奥
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230227#reply1
+
+---
+
+#### 7596. [V2EX] Vibe Design - HTML is All you need
+
+**问题描述 / Problem Description**:
+原文地址： https://glink25.github.io/post/HTML-is-All-you-need/ 天下苦 Figma 久矣 Vibe Coding 这么多项目以来，让我感受最深的一点就是，对于一个项目来说，点子越来越不重要了，重要的是如何让人发现，因为点子可以被快速复制，但是审美和品味不能，一个好看的宣传图，一段让人印象深刻的视频介绍，会比项目的实际功能更吸引人，毕竟好不好用用了才知道，但如何吸引人来用才是项目的立身之本。 之前我一直都在用 Figma 做图，截图，调整字体，配色，琢磨布局，颇有种古法仙人的做派，事实上是由于目前的生图模型大都十分昂贵，要做出一张满意的图微调
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230212#reply0
+
+---
+
+#### 7597. [V2EX] [开源] Illustrator：让 Agent 用代码生成可编辑配图
+
+**问题描述 / Problem Description**:
+开源一个用于文章配图的 Agent Skill： Illustrator 。 可以让纯文本模型基于上下文、代码和已有图片生成代码，再通过 Takumi 在本地输出图片。不调用生图模型，不依赖 Chromium 、Puppeteer 浏览器运行时。 图片中的文字、颜色、间距和位置都由代码控制，需要调整时修改对应参数重新渲染即可，素材、源码和输出可以一并保存。 支持文章和社交媒体配图、照片编排、数据图、信息图、代码窗口和 Diff 图片，也支持 Diy 创建自己的主题、基于已有示例二开。 安装： npx skills add Visualizeit/illustrator --skill illu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230211#reply0
+
+---
+
+#### 7598. [V2EX] Giffgaff 被停止服务了
+
+**问题描述 / Problem Description**:
+通知邮件如下 Hi Wanda, We need to make you aware that, following a review of your account usage, we have made the decision to disconnect your service. In line with our terms and conditions, our services are intended primarily for use within the UK, with roaming provided for short-term travel only. As your
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230161#reply69
+
+---
+
+#### 7599. [V2EX] 发现一个评估商品真实价值的方法
+
+**问题描述 / Problem Description**:
+就是看这个东西二手的价格. 譬如一个显示器全新价格 3000,闲鱼上二手价格 1400,那么这个显示器的真实价值就接近 1400. 一台新车 30w,如果二手价值 15w,那么这台车的真实价值就差不多 15w.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230159#reply7
+
+---
+
+#### 7600. [V2EX] 求安卓端会议记录软件推荐
+
+**问题描述 / Problem Description**:
+需求如下： 可以录制系统音频，包括并不限于各类直播、Zoom 、腾讯会议等会议并保存录音+文字转写 跨平台 ，支持安卓和 iOS 数据同步，iOS 支持查看和编辑即可 支持桌面端加分 支持 ai 总结，若可接入自己的 api key 加分 各位佬有推荐的吗，付费免费都可以。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230142#reply0
+
+---
+
+#### 7601. [V2EX] 畅销小说家东野圭吾去世终年 68 岁
+
+**问题描述 / Problem Description**:
+日本畅销推理作家东野圭吾于去世，终年 68 岁。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230141#reply2
+
+---
+
+#### 7602. [V2EX] 实测 trae 也能接入 V2EX AI Persona
+
+**问题描述 / Problem Description**:
+trae 的 agent 做的比 copilot 好太多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230033#reply0
+
+---
+
+#### 7603. [V2EX] 不跳就锁——用心率广播实现人走锁屏
+
+**问题描述 / Problem Description**:
+## 背景：人走必须锁屏，但我总会忘 🐶公司办公区有比较严格的安全规范：离开工位必须锁屏。道理都懂，可实际执行起来总是磕磕绊绊——去洗手间、接水、开会，经常起身就走了，屏幕还亮着。 ![clip_1784758448046_n4br1c.png]( https://file.awen.me/images/clip_1784758448046_n4br1c.png ) 理想中的人走锁屏应该满足几个条件： - **无感**：不需要我手动操作，也不需要我佩戴额外硬件。 - **及时**：人离开工位后几秒内就要锁屏。 - **不误判**：坐在电脑前正常工作时不应该突然锁屏。 - **隐私**：不要把我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229992#reply61
+
+---
+
+#### 7604. [V2EX] 分享个我用 kimi k3 抄的一款粘贴板软件
+
+**问题描述 / Problem Description**:
+如果你每天要在浏览器、IDE 、文档、聊天窗口之间复制粘贴几十次，就会明白一件事： 剪贴板才是最常用的生产力工具 。但它又是最被忽视的——系统默认只记住最后一条，一旦手滑复制了新内容，刚才那段文字就再也找不回来。 我之前用 Rust 写过一个剪贴板工具，一直在 Windows 上用。基本功能都有，但越用越觉得受限：想要更顺滑的 UI 动画、更跟手的拖拽交互、更深度的系统集成，在 Windows 上绕路太多。 后来我转到 macOS 主力环境，索性用 Swift 重新写了一遍，并全程用 Kimi K3 做辅助。结果发现，Swift + AppKit/SwiftUI 能做出很多 Rust 版本难以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229954#reply7
+
+---
+
+#### 7605. [V2EX] Mimo key 200 亿
+
+**问题描述 / Problem Description**:
+兼容 OpenAI 接口协议： https://token-plan-cn.xiaomimimo.com/v1 兼容 Anthropic 接口协议： https://token-plan-cn.xiaomimimo.com/anthropic KEY1：tp-cp32l1rxrdlewtd60v09qci62t4wxszza59ra6vc3g4zzjxq 新增：tp-ccymclpgchzdc5k1lku6rcpwgjwfllh56cn2taxy870vkepr 蹬之前先这里测一下有没有 429 再去配置 key1 ==点击测试== key2 ==点击测试==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229874#reply3
+
+---
+
+#### 7606. [V2EX] 心痛， codex 用了复活卡后一小时就重置了
+
+**问题描述 / Problem Description**:
+晚上睡不着起来干活，2 点额度没了用了一张复活卡，3 点一看又 100%了，只用了 20%心痛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229819#reply10
+
+---
+
+#### 7607. [V2EX] 坏消息 openai 挂了,好消息中转站还能用
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229807#reply7
+
+---
+
+#### 7608. [V2EX] 推荐下磷酸铁锂的五号和七号电池
+
+**问题描述 / Problem Description**:
+家里用电池的东西越来越多，门锁，电子秤，小孩玩具，手柄，键盘鼠标等，保险柜，燃气表等，不得不得备好些电池。 调研了下稍新点电池发展，简单介绍下我的研究成果，不涉及具体品牌，可能稍有纰漏，大家自己选择时要研究清楚，用错电池可能会损坏设备。 通常我们口语的电量应是功率乘时间，即瓦时，电池普遍标的毫安时 mah ，乘以电压后即 mwh 毫瓦时，这个才是电量，当我们讨论起不太常见的锂电池时，这点至关重要。为什么？比如一个 1.2v 五号碱性电池足足 3000mah ，而一个 14500 同样尺寸锂电池，只有 1000mah ，是否意味着，碱性电池电量更多？实际上一个是 1.2v×3000mah=360
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229778#reply50
+
+---
+
+#### 7609. [V2EX] 分享 语言学习 的 Paul Nation 的指南
+
+**问题描述 / Problem Description**:
+近来学日语，接触到 refold 。 但感觉 refold 在中文语料世界中，实际似乎也偏冷门。 后来接触到 Paul Nation 的 What do you need to know to learn a foreign language?。 这个学术数据支撑的信息，感到仿佛中国只有我一个人见到一样，没见过讨论过的。 老实说感到很奇特。 就分享出来名字供大家搜索。 可以的话，也许可以看看我所作的 粗糙译本 。 不说炫耀，也不说卖弄，也不说借这个争夺个话语权什么的方便地位、满足虚荣心一类的事情，我只是会很好奇，我这么做了之后是否会发生什么神奇的事情，比如改变一些人的人生？毕竟这份指南是基于学
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229775#reply3
 
 ---

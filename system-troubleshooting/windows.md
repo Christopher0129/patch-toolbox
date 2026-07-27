@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8706**
+**总计条目 / Total entries: 8750**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119099,5 +119099,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1229817#reply7
+
+---
+
+#### 8707. RTX 5080 + Ryzen 7 7800X3D - Extremely bad frame pacing in every game despite high FPS. I've tried almost everything.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v80g7f/rtx_5080_ryzen_7_7800x3d_extremely_bad_frame/
+
+---
+
+#### 8708. Block websites
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8e8sk/block_websites/
+
+---
+
+#### 8709. SSD not working after overheat
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v88abh/ssd_not_working_after_overheat/
+
+---
+
+#### 8710. RTX 3050 + LG M2550D-PS TV stuck at 1024x768 and 800x600 over HDMI
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8b5p1/rtx_3050_lg_m2550dps_tv_stuck_at_1024x768_and/
+
+---
+
+#### 8711. Blue A00136 mic not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8eoaz/blue_a00136_mic_not_working/
+
+---
+
+#### 8712. I have two files I’m having trouble deleting from system reserved drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8eguf/i_have_two_files_im_having_trouble_deleting_from/
+
+---
+
+#### 8713. PC freezes completely while playing PUBG
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8ee2b/pc_freezes_completely_while_playing_pubg/
+
+---
+
+#### 8714. Flickering blacks and shadows in games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8dk89/flickering_blacks_and_shadows_in_games/
+
+---
+
+#### 8715. MSI GP66 Leopard SSD Fail
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8djjx/msi_gp66_leopard_ssd_fail/
+
+---
+
+#### 8716. PS5 overheating from Marvel Rivals
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8dbz4/ps5_overheating_from_marvel_rivals/
+
+---
+
+#### 8717. GTX 1650 Ti (Lenovo laptop, IdeaPad Gaming 3) intermittently vanishes from Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8db1c/gtx_1650_ti_lenovo_laptop_ideapad_gaming_3/
+
+---
+
+#### 8718. ABS Pre-Built PC from Newegg, 3 out of 5 fans stopped within a few days of each other. They are physically harder to spin with my finger.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8cu4w/abs_prebuilt_pc_from_newegg_3_out_of_5_fans/
+
+---
+
+#### 8719. Google Drive Uploads Taking Too Long
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8cr3g/google_drive_uploads_taking_too_long/
+
+---
+
+#### 8720. Says ''couldn't connect'' when I try to pair my phone to bluetooth in Phone Link app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8co1f/says_couldnt_connect_when_i_try_to_pair_my_phone/
+
+---
+
+#### 8721. Intermittent BSODs (PAGE_FAULT_IN_NONPAGED_AREA / IRQL_NOT_LESS_OR_EQUAL) on brand new prebuilt
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8ckni/intermittent_bsods_page_fault_in_nonpaged_area/
+
+---
+
+#### 8722. How Can I Open Multiple Windows of the Same Desktop App in Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v85xcc/how_can_i_open_multiple_windows_of_the_same/
+
+---
+
+#### 8723. the Wi-Fi disconnects or stops providing internet but it appears that it is still connected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8cb7x/the_wifi_disconnects_or_stops_providing_internet/
+
+---
+
+#### 8724. PC boots straight into MSI Click BIOS 5, Windows Boot Manager missing after moving the PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8c4dc/pc_boots_straight_into_msi_click_bios_5_windows/
+
+---
+
+#### 8725. Ups power issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8c1fa/ups_power_issue/
+
+---
+
+#### 8726. USB Mic not adjusting volume
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8bom4/usb_mic_not_adjusting_volume/
+
+---
+
+#### 8727. Blank Google Tabs?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8bd5u/blank_google_tabs/
+
+---
+
+#### 8728. USB device not recognized loop even with EVERYTHING unplugged — Device Manager shows no errors?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8bbpm/usb_device_not_recognized_loop_even_with/
+
+---
+
+#### 8729. tpm attestation is not supported while everything functions normally
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8ba5j/tpm_attestation_is_not_supported_while_everything/
+
+---
+
+#### 8730. Hard drive transfer speeds suddenly slower on main computer after hooking it up to laptop and back
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v8b75r/hard_drive_transfer_speeds_suddenly_slower_on/
+
+---
+
+#### 8731. [V2EX] 关于楼上噪音 遇到没素质且心理有毛病的怎么处理
+
+**问题描述 / Problem Description**:
+楼上小孩天天满屋子跑，共振厉害，起初上去好好沟通没有用 不承认，后来实在不改 变本加厉 我就在群里匿名提醒，（没公开说哪户）然后居然就破防了，然后讥讽说我们敏感，然后只要在群里发声 或者找物业说 然后就找叔叔 我都奇怪了 最该找叔叔的是我家 这样的人居然先报警，还振振有词，这样的人怎么破?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230256#reply6
+
+---
+
+#### 8732. [V2EX] github 新账户无 action， codespaces，你们遇到过吗？
+
+**问题描述 / Problem Description**:
+提示错误：Create error Codespace could not be created: Usage not allowed Unable to enable Actions for this repository.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230248#reply3
+
+---
+
+#### 8733. [V2EX] 提问 OneDrive 上传慢
+
+**问题描述 / Problem Description**:
+平时 OneDrive 用户，图片相册，本地我的文档定期备份 最近这一两个月 OneDrive 上传很慢，300KB ，切换节点看运气，有的时候能跑到 800KB 以前稳定上传 3.4MB 确定不是 ISP 限速，别的网站上传能三四个 MB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230218#reply7
+
+---
+
+#### 8734. [V2EX] 求靠谱速度快质量优的中转站
+
+**问题描述 / Problem Description**:
+RT ，codex 额度不够用，急需中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230217#reply0
+
+---
+
+#### 8735. [V2EX] 刚买了 gpt plus 订阅，发现额度不够，大概两天就用完一周的量了。。。
+
+**问题描述 / Problem Description**:
+刚买了 gpt plus 订阅，发现额度不够，大概两天就用完一周的量了。我现在想升级到 pro ，发现还是要 100 美刀。 7.25 买的，我直接升级的话岂不是白花 plus 的 20 美刀了。。。咋解决啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230216#reply5
+
+---
+
+#### 8736. [V2EX] 听说 Giffgaff 现在大规模退卡， saily 这个路线靠谱吗？
+
+**问题描述 / Problem Description**:
+主要是 开通 codex 和 claude code 会员用的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230214#reply4
+
+---
+
+#### 8737. [V2EX] 用 Creem 的老铁 你们的店铺被封了吗？
+
+**问题描述 / Problem Description**:
+给客户推荐了 Creem ，用了不到半年，被封了～ 真尴尬 现在准备迁移到 DoDoPayments 了 在 x 上看了看了好多用 Creem 服务的店铺被封了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230208#reply0
+
+---
+
+#### 8738. [V2EX] giffgaff 的未接来电也要收费？
+
+**问题描述 / Problem Description**:
+最近到了发保号短信的时候，然后登陆后台发现，giffgaff 的来电没有接也会收费...这两个英国来电，我确定是没有接听的。 但是： 我的 iPhone 开启了 siri 自动应答，不知道这是否有影响？ 有遇到同样问题的兄弟吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230207#reply4
+
+---
+
+#### 8739. [V2EX] [工龄] 工作 1 年和工作 3 年的工程师区别在哪儿？
+
+**问题描述 / Problem Description**:
+RT ，最近开始关注求职市场，发现社招很多是要求 3 年或者 5 年的，作为工作 2 年的蒟蒻，很好奇 JD 上要求 3 年的核心原因是啥？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230202#reply3
+
+---
+
+#### 8740. [V2EX] giffgaff 号主如何自救？
+
+**问题描述 / Problem Description**:
+号码绑定了一堆账号，有些账号还只能通过手机号登陆，比如 telegram ，这可如何迁移是好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230198#reply3
+
+---
+
+#### 8741. [V2EX] glados 谁有充值渠道呀，之前一直找的那个小哥现在不回我了，感觉进去了
+
+**问题描述 / Problem Description**:
+glados 用了好几年了，每年续费都是找一个小哥充的，现在小哥不回了，谁有这个的充值渠道呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230196#reply5
+
+---
+
+#### 8742. [V2EX] [慢迅] 听说英国 GG 卡 真的 GG 了
+
+**问题描述 / Problem Description**:
+隔壁说刚刚接到邮件，说卡片主要服务于英国国内，而不是长期漫游在其他地区，这不符合规定。所以给停了。 这.... , 我还没收到邮件，但感觉也不会幸免，还有什么卡值得开吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230192#reply3
+
+---
+
+#### 8743. [V2EX] 能使用 chatgpt , 带 emby 的梯子推荐？
+
+**问题描述 / Problem Description**:
+我目前用的： 乌龟加速 emby 资源很多，更新也及时，但是开源客户端没法使用，订阅链接总失效，而且订阅链接还有每天更新的次数限制，我无法通过自定义脚本及时更新订阅 M78 星云 全平台客户端，非常好使，可惜 emby 资源少，‘仙逆’更新慢了好多。。。 求推荐带全平台客户端，emby 好的梯子～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230191#reply2
+
+---
+
+#### 8744. [V2EX] 看极客湾昨天发布的最新续航榜，小米苹果能效区别真有这么逆天么？
+
+**问题描述 / Problem Description**:
+http://socpk.com/batlife 苹果 ip17pm 18.75Wh 电池，续航将将 9 小时（ 8h54m ），锁电 95%, 能效 2w 小米这边 小米 17pm 8h56m 续航，装了 27.64wh 电池。考虑锁电 90%，有效电量算 25wh 吧，能效 2.8w 红米 k90pm 31.85wh 跑到 11h47m ，假设同样锁电 90%, 能效 2.83w 华为 p90pm 22.35Wh ，续航 9h12m ，锁电也是 95%级别，能效 2.3w 。确实能看出鸿蒙能效上确实有优化。另外不知道是不是跟 app 功能不全压榨不够给力有关 话说如果有一天苹果卖不动了，上
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230190#reply2
+
+---
+
+#### 8745. [V2EX] Giffgaff UK 卡正式关门，老铁们你们收到这份邮件没？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230189#reply13
+
+---
+
+#### 8746. [V2EX] giffgaff 出现大规模封号，你们的 gg 号还好吗
+
+**问题描述 / Problem Description**:
+我才刚上车一个多月呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230176#reply0
+
+---
+
+#### 8747. [V2EX] 不是吧，东野圭吾真走了？
+
+**问题描述 / Problem Description**:
+原来 7 月 23 号就离世了，哎，还买过好几本他的推理小说呢，这就走了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230173#reply0
+
+---
+
+#### 8748. [V2EX] 求助，如何合规的做海外 affiliate ， media buyer
+
+**问题描述 / Problem Description**:
+我一直做海外 affiliate media buyer ，之前都是用港卡，美卡，私户收款，多年来并没有把资金结汇回来 。一直留在香港，投资炒股，购买债卷。 直到今年收到 CRS 信息回传，才开始重视这件事 。 查了很多资料，也问了很多人，都告诉我要注册一个香港公司，然后正常收款，报税 。但是这些钱我总有需要花的时候，那这些钱转到内地，是不是还得交一回个人所得税呢？哪怕转到香港私户，按照目前的 CRS 信息回传，也一样需要给个解释 。总之就是再交一遍税 。 目前合规的做法都是怎样操作的？要保证每一步的资金都安全合法，有完税证明 。 每年的流水可能是十几万美金，但真实的利润可能只有一两万美金 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230171#reply0
+
+---
+
+#### 8749. [V2EX] gg 卡被终止服务。有没有相同遭遇的人？有没有解决方法呢？
+
+**问题描述 / Problem Description**:
+收到 giffgaff 的邮件： We need to make you aware that, following a review of your account usage, we have made the decision to disconnect your service (mobile number ending 5178). In line with our terms and conditions, our services are intended primarily for use within the UK, with roaming provided for sho
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230168#reply4
+
+---
+
+#### 8750. [V2EX] “残忍卸载” “狠心离开” 这股歪风是哪个厂子开始吹的
+
+**问题描述 / Problem Description**:
+APP 卸载文案也有小心思，是哪家开始的呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230167#reply16
 
 ---

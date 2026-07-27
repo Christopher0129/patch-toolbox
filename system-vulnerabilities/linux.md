@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2521**
+**总计条目 / Total entries: 2526**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -46322,5 +46322,123 @@ Apply patch from vendor. Monitor https://github.com/sebhildebrandt/systeminforma
 - https://github.com/sebhildebrandt/systeminformation/releases/tag/v5.31.7
 - https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-5xpp-75jx-m839
 - https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-5xpp-75jx-m839
+
+---
+
+#### 2522. [Ubuntu] USN-8613-1: FreeIPMI vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Zhihan Zheng discovered that FreeIPMI had several buffer overflow vulnerabilities in ipmi-oem response message handling. A local attacker with control a malicious IPMI device or simulator could possibly cause FreeIPMI to crash, resulting in a denial of service. (CVE-2026-33554, CVE-2026-50031)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8613-1
+
+---
+
+#### 2523. [Ubuntu] USN-8612-1: Roc Toolkit vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Roc Toolkit incorrectly handled WAV files with a malformed "smpl" chunk. An attacker could use this issue to cause Roc Toolkit to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8612-1
+
+---
+
+#### 2524. [Ubuntu] USN-8611-1: GNU C Library vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the GNU C Library iconv function incorrectly handled certain IBM character sets. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-4046) It was discovered that the GNU C Library DNS functions incorrectly handled certain DNS server responses when using gethostbyaddr or gethostbyaddr_r. An attacker in a privileged network position could possibly
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8611-1
+
+---
+
+#### 2525. CVE-2024-5300
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.6
+
+**漏洞描述 / Description**:
+An access control bypass and information disclosure vulnerability exists in the base AppArmor security profile configuration of Canonical snapd. The abstraction rules located in /etc/apparmor.d/abstractions/nss-systemd (inherited via ) inadvertently permit strictly confined snap applications, which lack the privileged account-control interface, to interact directly with the io.systemd.Multiplexer and io.systemd.NameServiceSwitch UNIX domain sockets under /run/systemd/userdb/.
+On systems where the systemd-userdbd service is installed and operational, the service fails to distinguish between an unconfined root user on the host system and a restricted root user running within a snap application's sandbox (such as a daemon or configuration hook). Because systemd-userdbd returns "complete" user records—including sensitive hashed user passwords from /etc/shadow—when queried by a process running as root, a compromised or malicious strictly confined snap executing code as root can successfully query the Varlink interface to retrieve all system password hashes, bypassing intended snap sandbox restrictions. This issue is mitigated by the fact that systemd-userdbd is not installed by default on standard Ubuntu deployments.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://ubuntu.com/security/CVE-2024-5300.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/CVE-2024-5300
+
+---
+
+#### 2526. CVE-2026-64455
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+USB: chaoskey: Fix slab-use-after-free in chaoskey_release()
+
+The chaoskey driver has a use-after-free bug in its release routine.
+If the user closes the device file after the USB device has been
+unplugged, a debugging log statement will try to access the
+usb_interface structure after it has been deallocated:
+
+	BUG: KASAN: slab-use-after-free in dev_driver_string (drivers/base/core.c:2406)
+	Read of size 8 at addr ffff888168e8a0b8 by task chaoskey_raw_re/10106
+
+	Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+	Call Trace:
+	 <TASK>
+	 dump_stack_lvl (lib/dump_stack.c:94 lib/dump_stack.c:120)
+	 print_report (mm/kasan/report.c:378 mm/kasan/report.c:482)
+	 kasan_report (mm/kasan/report.c:595)
+	 dev_driver_string (drivers/base/core.c:2406)
+	 __dynamic_dev_dbg (lib/dynamic_debug.c:906)
+	 chaoskey_release (drivers/usb/misc/chaoskey.c:323)
+	 __fput (fs/file_table.c:510)
+	 fput_close_sync (fs/file_table.c:615)
+	 __x64_sys_close (fs/open.c:1507 fs/open.c:1492 fs/open.c:1492)
+	 do_syscall_64 (arch/x86/entry/syscall_64.c:63 arch/x86/entry/syscall_64.c:94)
+	 entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:121)
+
+The driver's last reference to the interface structure is dropped in
+the chaoskey_free() routine, so the code must not use the interface --
+even in a debugging statement -- after that routine returns.
+(Exception: If we know that another reference is held by someone else,
+such as the device core while the disconnect routine runs, there's no
+problem.  Thanks to Johan Hovold for pointing this out.)
+
+Since the bad access is part of an unimportant debugging statement,
+we can fix the problem simply by removing the whole statement.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2a52d55c86a429dac47886b8424e67f90b001e67.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2a52d55c86a429dac47886b8424e67f90b001e67
+- https://git.kernel.org/stable/c/3ad5fbcced4e9c2b0fee3c1b76289a147fc35b89
+- https://git.kernel.org/stable/c/5ec61fbef9ec5635c492ae63dfb5d13f2bdf1023
+- https://git.kernel.org/stable/c/6c82f88bc7a8458d5c60f9b354c4d32d233f0cac
+- https://git.kernel.org/stable/c/8f50613bff228272577893aa10a346a2f3063e49
 
 ---

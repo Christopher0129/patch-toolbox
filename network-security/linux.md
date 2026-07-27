@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2802**
+**总计条目 / Total entries: 2807**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -42507,5 +42507,78 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8605-1
+
+---
+
+#### 2803. [Ubuntu] USN-8613-1: FreeIPMI vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Zhihan Zheng discovered that FreeIPMI had several buffer overflow vulnerabilities in ipmi-oem response message handling. A local attacker with control a malicious IPMI device or simulator could possibly cause FreeIPMI to crash, resulting in a denial of service. (CVE-2026-33554, CVE-2026-50031)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8613-1
+
+---
+
+#### 2804. [Ubuntu] USN-8612-1: Roc Toolkit vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Roc Toolkit incorrectly handled WAV files with a malformed "smpl" chunk. An attacker could use this issue to cause Roc Toolkit to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8612-1
+
+---
+
+#### 2805. [Ubuntu] USN-8611-1: GNU C Library vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the GNU C Library iconv function incorrectly handled certain IBM character sets. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-4046) It was discovered that the GNU C Library DNS functions incorrectly handled certain DNS server responses when using gethostbyaddr or gethostbyaddr_r. An attacker in a privileged network position could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8611-1
+
+---
+
+#### 2806. CVE-2026-50289
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+systeminformation is a System and OS information library for node.js. Prior to 5.31.7, networkInterfaces() on Linux is vulnerable to OS command injection through the Debian/Ubuntu interfaces(5) source directive because lib/network.js checkLinuxDCHPInterfaces() reads /etc/network/interfaces, extracts a source <path> token from file content, and interpolates it unquoted into cat ${file} 2> /dev/null | grep 'iface\|source' executed by execSync(cmd, util.execOptsLinux), allowing a path containing shell metacharacters to execute commands in any process that calls networkInterfaces(), including via getStaticData() and getAllData(). This issue is fixed in version 5.31.7.
+
+**参考链接 / References**:
+- https://github.com/sebhildebrandt/systeminformation/commit/bbfddde48672d0ee124fefdb3cb4442fd9dd4f03
+- https://github.com/sebhildebrandt/systeminformation/releases/tag/v5.31.7
+- https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-5xpp-75jx-m839
+- https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-5xpp-75jx-m839
+
+---
+
+#### 2807. CVE-2026-42792
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Improper Handling of Exceptional Conditions vulnerability in Erlang OTP erts (epmd) allows an unauthenticated remote attacker to permanently terminate the Erlang Port Mapper Daemon (epmd) via connection slot exhaustion.
+
+The do_accept function in erts/epmd/src/epmd_srv.c calls epmd_cleanup_exit() when accept(2) returns EMFILE (per-process file descriptor limit reached) or ENFILE (system-wide file descriptor limit reached), rather than treating these as recoverable conditions. An attacker can exhaust epmd's file descriptor slots by holding many TCP connections open while periodically sending a single byte to reset the idle timeout, then causing accept(2) to return EMFILE, which kills the daemon. epmd has no per-source-IP connection cap, making the attack feasible from a single source.
+
+On Debian/Ubuntu default packaging the impact is amplified: the systemd unit inherits a low file descriptor soft limit, and repeated daemon deaths trigger systemd's start-rate-limit, permanently failing both epmd.service and epmd.socket and requiring manual operator intervention to recover.
+
+This issue affects OTP from OTP 17.0 before OTP 29.0.4, OTP 28.5.0.4 and OTP 27.3.4.15.
+
+**参考链接 / References**:
+- https://cna.erlef.org/cves/CVE-2026-42792.html
+- https://github.com/erlang/otp/commit/865d203e4a6a8f44179eced9e1428f9259e4a3bb
+- https://github.com/erlang/otp/security/advisories/GHSA-h6f3-hx58-xhj6
+- https://osv.dev/vulnerability/EEF-CVE-2026-42792
+- https://www.erlang.org/doc/system/versions.html#order-of-versions
 
 ---
