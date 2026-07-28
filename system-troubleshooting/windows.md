@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8750**
+**总计条目 / Total entries: 8798**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119671,5 +119671,629 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230167#reply16
+
+---
+
+#### 8751. Wifi speeds on laptop are much slower than other devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v937bn/wifi_speeds_on_laptop_are_much_slower_than_other/
+
+---
+
+#### 8752. Password encrypting an HTML file on a thumb-drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v94lnt/password_encrypting_an_html_file_on_a_thumbdrive/
+
+---
+
+#### 8753. USB devices keep disconnecting.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v97v0o/usb_devices_keep_disconnecting/
+
+---
+
+#### 8754. My headset won't connect to its USB on my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v97ujt/my_headset_wont_connect_to_its_usb_on_my_pc/
+
+---
+
+#### 8755. Game freezing when SSD usage spikes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9ch9r/game_freezing_when_ssd_usage_spikes/
+
+---
+
+#### 8756. Screw stuck in monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9ch0m/screw_stuck_in_monitor/
+
+---
+
+#### 8757. Samsung TV flickering on and off.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9c39m/samsung_tv_flickering_on_and_off/
+
+---
+
+#### 8758. Bluetooth device problems on windows 11 (connected, connected mic, connected audio)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9ben8/bluetooth_device_problems_on_windows_11_connected/
+
+---
+
+#### 8759. Wifi works perfectly on my iPhone but not on macbook
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9bd7n/wifi_works_perfectly_on_my_iphone_but_not_on/
+
+---
+
+#### 8760. WoW suddenly refuses to launch after 5 hours of troubleshooting — looking for ideas
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9bcz0/wow_suddenly_refuses_to_launch_after_5_hours_of/
+
+---
+
+#### 8761. Brand New PC Randomly Restarts – Windows Memory Diagnostic Reports Memory Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9b9fz/brand_new_pc_randomly_restarts_windows_memory/
+
+---
+
+#### 8762. The laptop turns on by itself
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9b8n5/the_laptop_turns_on_by_itself/
+
+---
+
+#### 8763. ASRock A620M Pro RS WiFi: No POST, RAM works in some slots but not others
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9b5to/asrock_a620m_pro_rs_wifi_no_post_ram_works_in/
+
+---
+
+#### 8764. Can't receive service after Australian Ausalert
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9b34l/cant_receive_service_after_australian_ausalert/
+
+---
+
+#### 8765. Is there a way to prevent google to change my default browser?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9axpa/is_there_a_way_to_prevent_google_to_change_my/
+
+---
+
+#### 8766. Single short beep, restart
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9ai0y/single_short_beep_restart/
+
+---
+
+#### 8767. pc wired input audio does not work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9adji/pc_wired_input_audio_does_not_work/
+
+---
+
+#### 8768. second monitor no signal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9a8we/second_monitor_no_signal/
+
+---
+
+#### 8769. CTRL Key Stuck Thought it isn’t
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v93j3x/ctrl_key_stuck_thought_it_isnt/
+
+---
+
+#### 8770. Anyone know why bluetooth earbuds won't connect to anything?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v99iue/anyone_know_why_bluetooth_earbuds_wont_connect_to/
+
+---
+
+#### 8771. Is this the name of the Paint3D projects folder?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v99d6t/is_this_the_name_of_the_paint3d_projects_folder/
+
+---
+
+#### 8772. How closely does my power supply amperage and voltage need to match the computer specs?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v99d1u/how_closely_does_my_power_supply_amperage_and/
+
+---
+
+#### 8773. How do i fix trouble buffer underruns? I have latencymon reports below
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v98vdn/how_do_i_fix_trouble_buffer_underruns_i_have/
+
+---
+
+#### 8774. Is my laptop starting to fail?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v98ub4/is_my_laptop_starting_to_fail/
+
+---
+
+#### 8775. [V2EX] 有没有遇到更新 Win11 2026-07 之后每次开机反复 chkdsk 的（NTFS 分区被标 dirty）
+
+**问题描述 / Problem Description**:
+很奇怪的问题，更新到 Win11 2026-07 之后，一个 NTFS 分区只要一挂载，就会被标 dirty ，会产生一个 Event 55 日志： 在文件系统索引结构中发现损坏。文件参考编号为 0x100000000001a 。文件名为“<无法确定文件名>”。损坏的索引属性为“:$R:$INDEX_ALLOCATION”。损坏的索引块位于 Vcn 0x1 ，Lcn 0xffffffffffffffff 。损坏开始位置在索引块中的偏移 352 处。 chkdsk /f /r 什么问题都没有，所以在这个系统下，只要 chkdsk /f 完，马上又会变 dirty ，导致每次开机都反复 chkds
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230399#reply3
+
+---
+
+#### 8776. [V2EX] [请教]codex 绑定的 Giff 号码问题
+
+**问题描述 / Problem Description**:
+我的 codex 是微软账号登录的，当时登录就提示要绑定手机号。然后我就绑定了 giff+44 的手机号就没管了。 现在我的 giff 虽然没被封，但感觉也是迟早的事情，已经申请退款了，请问绑定的 codex 后面会有什么问题吗？就怕某一天二次验证了。 我重新注册了一个新的 gpt 账号，但是登录 codex 没要我验证手机号，测试能正常使用，准备想绑定 菲律宾 globe 手机号的，要不要主动去绑定呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230558#reply1
+
+---
+
+#### 8777. [V2EX] giffgaff 是诈骗企业嘛？
+
+**问题描述 / Problem Description**:
+无法退款
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230550#reply2
+
+---
+
+#### 8778. [V2EX] 想给我 8 岁的闺女换一辆自行车
+
+**问题描述 / Problem Description**:
+各位 V 友，想给我 8 岁的闺女换一辆自行车，预算 1000 左右，有什么好的品牌可以推荐的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230547#reply8
+
+---
+
+#### 8779. [V2EX] v2ex 的 dark mode 是故意把背景弄得那么亮的吗？这不是违背了 dark mode 的设计原则吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230532#reply1
+
+---
+
+#### 8780. [V2EX] giffgiff 卡被封了 - 如何申请退款
+
+**问题描述 / Problem Description**:
+卡被封了还好 10 英镑没了肉疼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230515#reply7
+
+---
+
+#### 8781. [V2EX] GiffGaff 嘎了，还有其他低价保号卡吗？
+
+**问题描述 / Problem Description**:
+GiffGaff 貌似大批量封号了，还有什么备选方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230513#reply0
+
+---
+
+#### 8782. [V2EX] PDD 上的小白卡（eSIM）如何选购？
+
+**问题描述 / Problem Description**:
+现在小白卡都有哪些芯片？哪些 EID 比较干净不会被个别运营商拒写入？能不能在 iOS 上直接写卡切卡呀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230506#reply0
+
+---
+
+#### 8783. [V2EX] giffgaff 的电话卡有 pac，能携号转网转到哪个运营商？（最好有 eSIM）
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230503#reply3
+
+---
+
+#### 8784. [V2EX] 虽迟但到， giffgaff 被毕业
+
+**问题描述 / Problem Description**:
+7 月初弄好 esim 转实体卡，一个月还没到，还是没有逃过，昨天刷到铺天盖地的封禁就感觉到不妙了，果然今天一下班就收到邮件，没招了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230498#reply1
+
+---
+
+#### 8785. [V2EX] 刚用 GG 卡，绑定了谷歌账号不久，卡就不让用了。
+
+**问题描述 / Problem Description**:
+英国人王八蛋。CTMD. 里面的英镑就没有了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230493#reply4
+
+---
+
+#### 8786. [V2EX] 油管拼车的天塌了？提示家庭成员不在一个住所
+
+**问题描述 / Problem Description**:
+您的 YouTube Premium 家庭会员资格要求所有成员与家庭管理员位于同一家庭。 了解更多。 看来您可能与您的家庭管理员不在同一住所，您的会员资格可能会在 14 天后暂停。如果您的访问权限被暂停，您仍将保留在家庭群组中，并可以观看带广告的 YouTube 视频，但将不再享有 YouTube Premium 会员权益。 如果您认为这是一个错误，请联系我们以确认资格并保持访问权限。 谢谢， YouTube 团队 ———— 拼车被暂停了，这该怎么处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230491#reply0
+
+---
+
+#### 8787. [V2EX] 公司可以报销，订阅 Codex Pro 有什么安全、可开发票的渠道？
+
+**问题描述 / Problem Description**:
+想请教一下大家，订阅 Codex 的发票一般怎么解决？公司可以报销，但需要提供正规发票或符合要求的付款凭证。 我目前的订阅方式是： 在支付宝切换到海外地区，通过里面的礼品卡入口购买 Apple 礼品卡； 将礼品卡充值到美区 Apple ID 余额； 通过 Apple 内购订阅 Codex Pro 。 现在的问题是，Apple 似乎无法提供国内可报销的发票。我也给支付宝礼品卡的销售方发邮件询问过能否开票，但一直没有收到回复。 想问问大家： 有没有正规、安全，并且可以开发票的 Codex Pro 订阅渠道？ 通过官网或其他方式订阅，能否获取公司报销所需的发票或付款凭证？ 淘宝等平台虽然也有礼品卡，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230489#reply2
+
+---
+
+#### 8788. [V2EX] 有没有这样的保存临时书签列表的浏览器插件？
+
+**问题描述 / Problem Description**:
+我大部分时候浏览器都保持着二三十个 tab 页面，平常浏览频率并不高，主要用于日常备用。这些页面不属于需要长期保存的书签，相当于临时书签性质（几天到几周就会关掉），但是浏览器持续保打开这么页面会消耗很多内存，有什么方便的插件可以用来做临时书签列表管理用呢？我的目的主要是释放浏览器内存。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230488#reply9
+
+---
+
+#### 8789. [V2EX] 你们到现在都用 ai 做了什么呢？有收益吗?
+
+**问题描述 / Problem Description**:
+我最近 2 周开始频繁用 ai ，目前做了一个个人网站+种花小游戏+各种桌面小工具+个人练习打卡软件+视频拼合生成器+视频生成器 我同事帮我做了视频自动发布工具和迷你剪影 几乎都是个人用途，应该没办法把我的需求普及给大众，想知道你们都做了什么？ app 或者软件有人用了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230487#reply1
+
+---
+
+#### 8790. [V2EX] 35 岁之后发现技术还不如销售
+
+**问题描述 / Problem Description**:
+最近浙 M 都在追缴社保，发现自己作为程序员的补缴金额远远不如销售。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230484#reply1
+
+---
+
+#### 8791. [V2EX] 上班闲暇时间能否通过 vibe coding 挣点小钱
+
+**问题描述 / Problem Description**:
+今年公司的业务扩展比较慢，服务也基本上稳定了，导致我们上班比较闲，经常在公司坐 8 小时没啥大事，现在 vibe coding 不是比较火吗，我手里有公司发的免费 token ，能利用这个优势做点什么东西挣点小钱呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230480#reply1
+
+---
+
+#### 8792. [V2EX] [求推荐通勤双肩包] 大家通勤或者出游 2-3 天的双肩包推荐一个吧
+
+**问题描述 / Problem Description**:
+需要单独隔层，能装轻薄本就行，14 寸左右 再一个就是周末出游，随身携带一两身衣服 预算 300 左右吧，不需要牌子，我翻了之前的帖子，小鹰、背部带独立系统的那种等等那些都超预算了 京东京造的黑武士看了下是 pu 面，时间长了几乎就是掉皮开裂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230478#reply5
+
+---
+
+#### 8793. [V2EX] 150 出个经典白体检 & 45 出个京东家政（上海）
+
+**问题描述 / Problem Description**:
+出招行经典白体检，150 出。 出京东家政，45 出。（上海，5 积分那个，2 小时日常保洁，适用面积小于 55m²户型） YWx1Y19q 有意辛苦注明来意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230476#reply0
+
+---
+
+#### 8794. [V2EX] Java 程序员，现在 AI 这么强？外面的面试都在问啥？快两年没面试了
+
+**问题描述 / Problem Description**:
+还会问八股文吗？哈哈哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230469#reply1
+
+---
+
+#### 8795. [V2EX] 不小心把亚马逊电视棒给初始化了
+
+**问题描述 / Problem Description**:
+amazon fire tv stick 4K ，平时就看看 B 站，乱点不小心还给初始化了，然后得重新激活，刚买那会注册一个美国账号就行，现在居然 IP 识别说区域不可使用，我用 VPN 外网热点也不行，有什么办法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230468#reply3
+
+---
+
+#### 8796. Why is my external hard disk is only found in device manager in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: usb, windows-11, external-hard-drive | Score: 0 | Views: 32 | Answers: 1 | Created: 2026-07-28
+
+**解决方案 / Solution**:
+Your drive is broken, failed. If the data on it is important, you could open the drive enclosure and see if you can directly connect to it, but that has a high risk of permanently destroying the data. Alternately, you could look up professional data recovery services.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939343/why-is-my-external-hard-disk-is-only-found-in-device-manager-in-windows-11
+
+---
+
+#### 8797. How do I view log files from a failed Windows Automatic Repair?
+
+**问题描述 / Problem Description**:
+Tags: boot, windows-11, repair, windows-recovery-environment | Score: 0 | Views: 32 | Answers: 1 | Created: 2026-07-28
+
+**解决方案 / Solution**:
+Summary From your description, the main (system) drive is badly corrupted, and logs might or might not have been written. Salvage any data you can, and check the S.M.A.R.T. drive status . If the drive is not physically damaged, try reinstalling Windows from ISO, else replace the drive and install de novo from ISO. Details Boot from external media (e.g., Hiren’s BootCD PE or Ubuntu live USB ) and copy data to another drive, or better, make a complete drive image using a third-party tool, such as Ubunutu's Disks or dd or Hiren's Macrium Reflect utility. Using tools on that bootable media, such as Ubuntu's Disks or Hiren's MHDD , check S.M.A.R.T. values and determine if the drive is salvageable or if it has hard, irreparable issues. Depending on the outcome, either replace the drive or continue with the current one. Create Windows 11 Installation Media . Attempt in-place repair install, keeping files , if reusing the existing drive. If that fails, or the drive was replaced, install Windows de novo . Restore what was salvaged from the drive, if need be.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939327/how-do-i-view-log-files-from-a-failed-windows-automatic-repair
+
+---
+
+#### 8798. Is it possible to install Windows on a locked BIOS Debian laptop?
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, boot, bios | Score: 0 | Views: 83 | Answers: 3 | Created: 2026-07-27
+
+**解决方案 / Solution**:
+Install Windows in a VM on Linux, such as VirtualBox . It also makes it easier to bypass odious requirements .
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939316/is-it-possible-to-install-windows-on-a-locked-bios-debian-laptop
 
 ---

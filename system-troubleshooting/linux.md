@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8006**
+**总计条目 / Total entries: 8048**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -112030,5 +112030,551 @@ As choroba said in a comment , <tab> does not execute the command in bash. To di
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806831/in-bash-how-to-configure-the-command-behaviour-to-something-more-practical
+
+---
+
+#### 8007. GOG confirm they are working towards GOG Galaxy on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8vvbv/gog_confirm_they_are_working_towards_gog_galaxy/
+
+---
+
+#### 8008. AMD P-State Linux Driver Patches Can Boost 1%-Low FPS Gaming Performance By 31%
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v90si5/amd_pstate_linux_driver_patches_can_boost_1low/
+
+---
+
+#### 8009. What Valve did for Linux is ridiculously outstanding.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9957i/what_valve_did_for_linux_is_ridiculously/
+
+---
+
+#### 8010. How do you (personally) pronounce "sudo"?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8ysa6/how_do_you_personally_pronounce_sudo/
+
+---
+
+#### 8011. CachyOS Outperforming Windows 11, Ubuntu & Fedora On AMD Ryzen AI 9 HX 470
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8ze4m/cachyos_outperforming_windows_11_ubuntu_fedora_on/
+
+---
+
+#### 8012. A follow up to my post from December - I got the new OmniPod insulin pump. It still runs Linux. It still violates the GPL.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8te73/a_follow_up_to_my_post_from_december_i_got_the/
+
+---
+
+#### 8013. Linux's crypto_rng Abstraction Layer Next On The Chopping Block
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8yq6d/linuxs_crypto_rng_abstraction_layer_next_on_the/
+
+---
+
+#### 8014. I'm doing my part
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v96eh0/im_doing_my_part/
+
+---
+
+#### 8015. Use Easy Effects for better audio on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9cbtw/use_easy_effects_for_better_audio_on_linux/
+
+---
+
+#### 8016. Thrive-one Annual worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v924yt/thriveone_annual_worth_it/
+
+---
+
+#### 8017. First beta release of my Linux distribution
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9cuzk/first_beta_release_of_my_linux_distribution/
+
+---
+
+#### 8018. Fooyin v0.12.0 release notes discussion thread (in the crossposted post)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8f03i/fooyin_v0120_release_notes_discussion_thread_in/
+
+---
+
+#### 8019. Linux Plumbers Conference 2026 Registration Open, please do the due diligence
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8gbmu/linux_plumbers_conference_2026_registration_open/
+
+---
+
+#### 8020. Share your complicated or weirdest PipeWire configs — collecting edge cases for bug testing
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8fp38/share_your_complicated_or_weirdest_pipewire/
+
+---
+
+#### 8021. oman - read commands comfortably
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v8tpmp/oman_read_commands_comfortably/
+
+---
+
+#### 8022. [V2EX] 我做了一个可以看 skill， agent，和插件是否真的能提高成功率和减少 token 的测试架构
+
+**问题描述 / Problem Description**:
+哈喽，这个月早些时候，我发布了 Tura ，并写了几篇博客，探讨了长周期基准评估对 Agent 测试框架的重要性。 https://turaai.net/blog#token-saving-plugins-are-mostly-stupid-idea 在过去的两周里，我看到越来越多的科技 KOL 陆续发布了他们对现有 Token 节省插件（比如 RTK 和 Ponytails ）的测试结果： https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/ https://github.com/Tura-AI/benchm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230562#reply0
+
+---
+
+#### 8023. [V2EX] 出路在哪里？打工是不可能打工的。
+
+**问题描述 / Problem Description**:
+1 、以前想做产品，到处找后端。且成本高。 2 、现在想做产品，网上一大堆同质化的。开发成本越来越低，以后真的咋弄啊？要不要走硬件，嵌入式了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230553#reply1
+
+---
+
+#### 8024. [V2EX] 又拍云的对象存储是挂了吗
+
+**问题描述 / Problem Description**:
+有用又拍云的兄弟吗 突然所有图片都访问不了 官方提供的测试域名也不能访问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230552#reply1
+
+---
+
+#### 8025. [V2EX] 用 Java 写了一个小玩具，实现了 Claude code 主要功能
+
+**问题描述 / Problem Description**:
+github repo : jooj 核心能力: Multi-turn Agent Loop —— LLM 调工具、看结果、自我修正,直到任务完成 内置工具集 —— bash / read_file / write_file / edit_file / glob / todo_write / 任务管理 / cron / 团队通信 / git worktree 等十几种 MCP 协议外挂 —— connect_mcp("filesystem") 运行期连接外部 MCP server,新工具立即可用,不用重启 Skill 三层加载 —— 启动期扫描项目 / ~/.jooj/skills / ~/.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230546#reply3
+
+---
+
+#### 8026. [V2EX] 探讨一下比较节省 token 的 coding agent
+
+**问题描述 / Problem Description**:
+背景是这样的，公司给每个人开了 copilot 订阅。目前使用的方法是我自己搓了个中转的 gateway ，本地构造一个 openai 格式的 API ，然后接入 opencode/codex CLI/claude code 里面使用。但是最近 5.6-sol 上来之后感觉用起来太快了，token 紧张。可能是我使用习惯不好，不管大小任务都是直接开 xhigh 。 我平时比较多用 gpt 模型，因为公司说由于政策原因，不开放 Claude 模型给中国区员工。 自己搜索了一下发现 pi-coding-agent 似乎是一个比较流行的解决方案，想问下大家的使用感受。 如果有其他解决方法的话也欢迎分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230543#reply5
+
+---
+
+#### 8027. [V2EX] 两周前我把 OpenAI 的 Agent SDK 移植成了 Go，两周后我让它"叛变"了
+
+**问题描述 / Problem Description**:
+两周前我在这里发过 v0.1.0 （ https://www.v2ex.com/t/1223216 ），当时的介绍是"OpenAI Agents SDK 的忠实 Go 移植"。先还个愿：3 楼建议、我在 4 楼答应的"把野路子裸 JSX 换成正经构建"，干完了——现在是 Vite + React + TS ，产物照旧 embed 进单二进制，部署还是一个文件。 然后说这两周发生的事。一句话版本：我停止了对 Python 上游的忠实，151 个提交之后，v0.2.0 不再是移植品。 "忠实"是怎么变成陷阱的 移植做到后面，越来越多地方是在用 Go 模仿 Python 的形状：Python 用生命
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230538#reply0
+
+---
+
+#### 8028. [V2EX] Sol 5.6 Max 也会自主启动多个后台智能体了吗
+
+**问题描述 / Problem Description**:
+我知道 Sol 5.6 Ultra 是会自主启动多个后台智能体，今天发现 Sol 5.6 Max 也自主启动多个后台智能体了，是 Codex 升级了吗还是出现什么错乱了。多后台智能体我感觉未必适合呀，消耗大暂且不提，效果感觉也不是适合很多任务。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230510#reply1
+
+---
+
+#### 8029. [V2EX] giffgaff 别开 WiFi Calling，我是 6 月份激活的实体卡，早上开了 WiFi Calling，刚收到邮件被封了
+
+**问题描述 / Problem Description**:
+封了以后无法获取 PAC 码，因为没法获取验证码。没封的建议先获取一个，30 天有效期，至少还可以转运营商。我试下看看能不能退款。卡是 6 月份 nodeseek 那批 33 元的。推特那些叼毛，乱蹭热点，信了他们的邪。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230509#reply61
+
+---
+
+#### 8030. [V2EX] trae 是放弃国际版了吗，模型迟迟不更新
+
+**问题描述 / Problem Description**:
+trae 是放弃国际版了吗 模型还是 gpt-5.4 我充了年卡的咋办
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230471#reply4
+
+---
+
+#### 8031. [V2EX] 从 0 到 1 做方案设计和开发，现在哪个模型比较强
+
+**问题描述 / Problem Description**:
+打个比方，要开发一个 codex 类似的 agent ，只是这样告诉大模型，哪个大模型出方案比较强，比较合理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230466#reply7
+
+---
+
+#### 8032. [V2EX] 如何让 AI 安全可控地查询生产库数据？
+
+**问题描述 / Problem Description**:
+在大公司办公网一般是不能直连生产数据库的，公司一般会搞一个数据库查询网站（简称 DMS 系统），开通权限后程序员可以在系统中执行 sql 查数据。 在 AI Coding 背景下，这种方式效率很低。纯手工拼写 sql ，涉及到分库分表、多步查询、数据分析的场景下非常低效。 我在想：是不是有安全可控的方案，比如搞一个数据库 mcp ，然后设置防护栏（如最大执行时间不超过 2s ）、并对数据做脱敏的情况下，让 codex 这样的工具可以通过 mcp 执行数据查询。 最终效果：用 codex 打开代码仓库，下发指令“帮我查询用户 xxx 的什么数据”，AI 会基于代码生成 sql ，并调用 mcp
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230460#reply16
+
+---
+
+#### 8033. [V2EX] 体验了一下 k3，前端效果还是不错，大厂前端已经死了又死，路是越走越窄
+
+**问题描述 / Problem Description**:
+看到有很多在卷中转，这条路是否可以进入，各位佬有什么出路吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230443#reply4
+
+---
+
+#### 8034. [V2EX] [Antigravity IDE] 没有历史对话记录
+
+**问题描述 / Problem Description**:
+请教各位大佬，Antigravity IDE 每次打开原来的对话记录都没了。有没有知道如何解决的啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230437#reply2
+
+---
+
+#### 8035. [V2EX] Postman 不小心离开 Team 导致所有历史的请求丢失了
+
+**问题描述 / Problem Description**:
+分享一个自己的经历，提醒其他 Postman 用户注意。 最近我不小心创建了一个 Team Workspace ，后来发现自己并不需要，于是选择离开这个 Team 。 在离开 Team 的过程中，我误操作选择了删除个人空间（ Personal Workspace ）的数据。之后发现，我之前长期积累的 API Collection 、请求记录、环境配置等内容全部消失了。 目前我已经联系 Postman 官方支持，希望他们能够通过后台备份或其他恢复机制帮助找回数据。 网上搜了一下，似乎一直有人遇到这个问题： https://github.com/postmanlabs/postman-app-su
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230435#reply9
+
+---
+
+#### 8036. [V2EX] 看看你的 codex 用量 + 使用交流
+
+**问题描述 / Problem Description**:
+也想看看各位的使用情况（发图教程： https://www.v2ex.com/t/1161898 ） 目前仅使用 codex 20x ，之前一直用 opencode + omo 日常研发用 GPT5.6 Sol xHigh ，调研用 Ultra 从 5.6 发布以后，由于频繁 reset 和 AI 开发工作流摸清，用量开始大幅提升 大概每天 1B Token 左右 一般并行 4-8 任务，任务时长平均 1-2 小时 简单的话题我们直接贴内交流 一些复杂或有趣的话题，再单独开贴交流
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230424#reply16
+
+---
+
+#### 8037. [V2EX] 请教一下各位，你们平时用 AI 是公司报销还是自费？
+
+**问题描述 / Problem Description**:
+都是什么套餐？ 比如 ChatGPT ，是 plus 还是 pro ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230423#reply29
+
+---
+
+#### 8038. [V2EX] WebChat 发布了 2.0，同时也变成了 AI slop 项目
+
+**问题描述 / Problem Description**:
+最近在 AI 的加持下，重构了我的个人项目 WebChat 。 WebChat 是一款基于 P2P 技术的无服务器浏览器扩展，让每个网页都拥有专属的实时聊天室。 这次借助 AI ，终于解决了一个困扰我很久的核心痛点 “网页刷新需要重连”，和补齐了完整的测试。 唯一的问题是：代码现在复杂到我自己也快看不懂了。 AI 辅助开发的真实写照，大概就是痛点消失了，新的痛点变成了读懂 AI 和我一起写出来的代码。 Github: https://github.com/molvqingtai/WebChat
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230408#reply5
+
+---
+
+#### 8039. [V2EX] 开源个工具给所有 Claude 被封号的家人们
+
+**问题描述 / Problem Description**:
+claude 被封了两次之后接受现实转战 cursor 了， 但 cursor 实在缺一些实用的 harness feature ， 比如/goal ，multiagent mode 。。。 于是我在 cursor 里把自己常用的都搓出来了，开源成了可以一键安装的版本，持续更新中。。。欢迎大家添砖加瓦。。。 https://github.com/cocolwy/cursor-agents 这年头用个 ai 真不容易。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230404#reply0
+
+---
+
+#### 8040. [V2EX] Kimi k3 今天可以订阅了，这里居然一点声音都没有？
+
+**问题描述 / Problem Description**:
+是很难用还是咋地？我也在犹豫要不要订阅~~~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230377#reply62
+
+---
+
+#### 8041. [V2EX] 有美团的老哥吗，美团是不是真的所有前端都转岗了
+
+**问题描述 / Problem Description**:
+一个不剩了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230372#reply9
+
+---
+
+#### 8042. How do I use AppArmor to disable the execution of specific executables from bash?
+
+**问题描述 / Problem Description**:
+Tags: linux, apparmor | Score: 0 | Views: 521 | Answers: 1 | Created: 2025-08-17
+
+**解决方案 / Solution**:
+The problem is that iptables was a symlink. Apparently symlinks can be used to bypass AppArmor. That's pathetic. I updated the policy to block xtables-legacy-multi and it worked fine. # ls -lh /usr/bin/iptables lrwxrwxrwx 1 root root 20 22 mar 18.58 /usr/bin/iptables -> xtables-legacy-multi # iptables -bash: /usr/bin/iptables: Permission denied
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798943/how-do-i-use-apparmor-to-disable-the-execution-of-specific-executables-from-bash
+
+---
+
+#### 8043. top memory utilization with less COMMAND width
+
+**问题描述 / Problem Description**:
+Tags: linux, ps | Score: 0 | Views: 150 | Answers: 4 | Created: 2025-08-09
+
+**解决方案 / Solution**:
+ps has a sort option ( --sort -%mem makes it sort by reverse memory), and awk can be used to print both the first (header) line and limit the output to, say, 10 lines ( NR < 12 ) after the header. awk can also truncate the number of fields by setting NF. With ps aux the command name will be the eleventh field, so you can set NF=11 . And then pipe the output into column -t to neaten up the output table. $ ps aux --sort -%mem | awk 'NR == 1 { print; next}; NR < 12 { NF=11; print}' | column -t USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND libvirt+ 668952 2.0 2.7 8285148 1724120 ? Sl Jul26 450:40 /usr/bin/kvm cas 29168 2.9 2.3 29414904 1478788 ? Sl Jul25 672:12 /usr/lib/firefox/firefox cas 53759 1.1 2.0 6003316 1316688 ? Sl Jul25 275:40 /usr/lib/firefox/firefox cas 53895 1.0 1.6 20607700 1067724 ? Sl Jul25 251:17 /usr/lib/firefox/firefox cas 30775 0.5 1.4 3694240 939016 ? Sl Jul25 133:51 /usr/lib/firefox/firefox cas 28898 2.8 1.4 13569076 927556 ? Sl Jul25 660:44 /usr/bin/firefox.real cas 2100749 0.3 1.3 3571244 833112 ? Sl Jul28 63:00 /usr/lib/firefox/firefox cas 117454 10.1 1.0 34430888 684428 ? S<Ll Aug09 120:58 /usr/lib/chromium/chromium Or, using head as well as awk , just: $ ps aux --sort -%mem | head -n 11 | awk 'NF=11' | column -t Alternatively, you could concatenate all the fields from $11 to $NF and then use awk's substr() function to truncate the command & args to, say, 30 characters or whatever width you want...but that will mean the $11 will contain spaces which will mess up the output table unless you use -v OFS='\t' with awk and tell column to use tabs as the separator. e.g. something like: ps aux --sort -%mem | awk -v cmdlen=30 -v OFS='\t' ' NR < 12 { cmd = $11; for (i=12; i <= NF; i++) { cmd = cmd " " $i }; $11 = substr(cmd, 1, cmdlen); NF = 11; print; }' | column -t -s $'\t'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798662/top-memory-utilization-with-less-command-width
+
+---
+
+#### 8044. Wrong bridge interface gets IP address
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, bridge, nas | Score: 0 | Views: 166 | Answers: 1 | Created: 2025-08-08
+
+**解决方案 / Solution**:
+Several options: Assign the NIC's MAC address to the bridge explicitly. I believe the raw command would be ip link set dev <bridgename> address <macaddress> Your distribution may provide another way to do this. Wait. Just after a reboot, the remote hosts have the old MAC address in their cache. After some time, the cache will time-out, and be refreshed with the new address. Route instead of bridging. Or even neither if the VM only ever needs to talk to the host.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798633/wrong-bridge-interface-gets-ip-address
+
+---
+
+#### 8045. Remote SSH Vscode plugin giving Permission Denied when running installation binary
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh | Score: 0 | Views: 723 | Answers: 1 | Created: 2025-07-24
+
+**解决方案 / Solution**:
+The issue was due to the fact that the /home partition was mounted with noexec. Once that was changed, the script ran fine.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798216/remote-ssh-vscode-plugin-giving-permission-denied-when-running-installation-bina
+
+---
+
+#### 8046. ZFS (ZoL). New VDEVs with larger disks: OK or not?
+
+**问题描述 / Problem Description**:
+Tags: linux, zfs | Score: 0 | Views: 139 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+Adding a vdev with larger disks is not a problem. Adding a vdev with a different number of disks wouldn't be a problem, either. Also, replacing drives in a vdev with larger ones isn't a problem, but you won't see any increase in storage capacity until all drives in that vdev are replaced. And, since ~2022, ZFS has had the ability to expand existing RAID-Z vdevs by adding more drives. ZFS is a lot more flexible than it used to be. When you add a vdev to an existing pool, ZFS will start striping NEW data over all the vdevs - existing & new. This does not add any risk if the vdev is mirrored or a RAID-Z. The only time you add risk is if you add, e.g. a single disk vdev (fix it by attaching a mirror to it ASAP), or a degraded RAID-Z vdev (fix that by adding enough disks to that vdev so that it's no longer degraded)....i.e. when the structure of the pool doesn't have enough redundancy to cope with a drive failing. It does, however become "unbalanced" - you'll have more data on the old vdevs than on the new. You can deal with this, if it seems necessary, by iterating through your datasets, snapshotting them, and zfs sending them to the pool with a new dataset name, then rename the old dataset out of the way and rename the new dataset to the old name, and finally delete the original dataset. Do that for all datasets and everything will be balanced across all vdevs. Obviously, it's best to schedule some downtime for this or at least do it at a time when the dataset being snapshotted/sent/renamed is not in use (no writes, no open files). Note that being "unbalanced" isn't necessarily a problem. You may notice that accessing any new data is slightly faster than accessing the old (because it's striped over all three vdevs, not just two). And you'll probably find that the old vdevs fill up faster (because they were more full to start with and they're still getting new data striped to them). It's also something that solves itself over time as data is written and deleted. BTW, the one nice thing that btrfs has which ZFS doesn't is that it has a btrfs balance command to re-balance data over the drives when you add them or otherwise change the structure of the array. Nice, but not essential.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798044/zfs-zol-new-vdevs-with-larger-disks-ok-or-not
+
+---
+
+#### 8047. phosh gives me an error and phoc opens up empty black screen or few apps which I try to open hence onwards
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, x11, phone | Score: 0 | Views: 85 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+Beyond X11 Plasma Phone Shell - phoc & phosh-session gives the better & reliable Windowing System for Android with the following command I am able to open Android 13 reliably. I have used the following command to open up the session with Android - Emulater & Conatainer - Waydroid phoc -E waydroid But for sometime it crashes while I'm using Android and playing games with it. And I am not able to install Prime OS as a VM with qemu . It fails.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798041/phosh-gives-me-an-error-and-phoc-opens-up-empty-black-screen-or-few-apps-which-i
+
+---
+
+#### 8048. create container with a tcp server socket inside from an outside app (as non root user)
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, container, network-namespaces | Score: 0 | Views: 226 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+You have some options here, I would recommend the use of UNIX Socket and the socat command. The main advantage is that a UNIX socket is literally a file on your filesystem; hence allows you to apply the classic, standard file permissions to it (ownership, rwx, etc..) which will prevent everyone on your system to access it. You have different options to launch a unix socket: socat UNIX-LISTEN ... nc -lU ... Note that you can also create one with almost every programming language. You mentioned bubblewrap ; you can keep it for launching firefox and binding your tcp socket to the unix domain socket you would have created before. Something like this: socat UNIX-LISTEN:/run/user/$(id -u)/magic_app.sock,fork The fork option allows multiple requests without stopping but you will need to adjust the options depending of your needs Then your bwrap command can look like this: bwrap --your_options \ sh -c 'socat TCP4-LISTEN:8080,fork UNIX-CONNECT:/run/user/$(id -u)/magic_app.sock & firefox --proxy-server http://127.0.0.1:8080' This starts firefox and makes it use the 'bridge' you just created with socat . And your connection won't be accessible to everyone on the system, since you will have applied your file permissions to it. Finally, two last precisions : You may be wondering why we can't connect Firefox directly to theUNIX socket. As far as I know, this is not possible because of design and also for security reasons . Now, if you want to do a deep dive on this subject I recommend you this conversation While you could replace socat with nc in my example, socat is better for your specific task because it can really act as a 'bridge' between sockets. Also, note that you will likely need to install socat on your system and then make the binary available inside the bwrap sandbox by mounting it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/798028/create-container-with-a-tcp-server-socket-inside-from-an-outside-app-as-non-roo
 
 ---

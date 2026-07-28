@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2526**
+**总计条目 / Total entries: 2554**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -46440,5 +46440,453 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2a52d55c86a429d
 - https://git.kernel.org/stable/c/5ec61fbef9ec5635c492ae63dfb5d13f2bdf1023
 - https://git.kernel.org/stable/c/6c82f88bc7a8458d5c60f9b354c4d32d233f0cac
 - https://git.kernel.org/stable/c/8f50613bff228272577893aa10a346a2f3063e49
+
+---
+
+#### 2527. CVE-2026-58341 - moodle: CSRF risk in group messaging state toggle
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] moodle: CSRF risk in group messaging state toggle. Bugzilla: 2494828
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494828
+
+---
+
+#### 2528. CVE-2026-17072 - gstreamer1-plugins-good: gst-plugins-good: 4-byte heap over-read in…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-good: gst-plugins-good: 4-byte heap over-read in gst_matroska_parse_flac_stream_headers when parsing FLAC codec data in Matroska containers. Bugzilla: 2506750
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506750
+
+---
+
+#### 2529. CVE-2026-53669 - react-router: React Router: Open Redirect vulnerability via backslashes in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] react-router: React Router: Open Redirect vulnerability via backslashes in navigation components. Bugzilla: 2507843
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507843
+
+---
+
+#### 2530. CVE-2026-53668 - react-router: react-router-dom: React Router: Cross-Site Scripting (XSS) via open…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] react-router: react-router-dom: React Router: Cross-Site Scripting (XSS) via open redirects. Bugzilla: 2507837
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507837
+
+---
+
+#### 2531. CVE-2026-53667 - react-router: React Router: Untrusted redirects due to missing protocol validation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] react-router: React Router: Untrusted redirects due to missing protocol validation. Bugzilla: 2507836
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507836
+
+---
+
+#### 2532. CVE-2026-53666 - react-router: React Router: Information disclosure via client-side constructor…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] react-router: React Router: Information disclosure via client-side constructor execution. Bugzilla: 2507839
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507839
+
+---
+
+#### 2533. CVE-2026-12383 - eda-server: ExternalEventStreamViewSet trusts Subject header without validation…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] eda-server: ExternalEventStreamViewSet trusts Subject header without validation and leaks expected DN. Bugzilla: 2489127
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2489127
+
+---
+
+#### 2534. CVE-2026-15003 - binutils: GNU Binutils: Heap-buffer-overflow in linker leads to information…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Heap-buffer-overflow in linker leads to information disclosure and denial of service. Bugzilla: 2497805
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2497805
+
+---
+
+#### 2535. CVE-2026-17513 - whisper.cpp: whisper.cpp: Denial of Service via ftype argument manipulation
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] whisper.cpp: whisper.cpp: Denial of Service via ftype argument manipulation. Bugzilla: 2507471
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507471
+
+---
+
+#### 2536. CVE-2026-17512 - whisper.cpp: whisper.cpp: Information disclosure via out-of-bounds read
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] whisper.cpp: whisper.cpp: Information disclosure via out-of-bounds read. Bugzilla: 2507460
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507460
+
+---
+
+#### 2537. CVE-2026-55969 - thrift: github.com/apache/thrift: Apache Thrift: Denial of Service via integer…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] thrift: github.com/apache/thrift: Apache Thrift: Denial of Service via integer overflow or wraparound. Bugzilla: 2507433
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507433
+
+---
+
+#### 2538. CVE-2026-48586 - thrift: org.apache.thrift/libthrift: github.com/apache/thrift: Apache Thrift:…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] thrift: org.apache.thrift/libthrift: github.com/apache/thrift: Apache Thrift: Denial of Service via improper handling of highly compressed data. Bugzilla: 2507434
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507434
+
+---
+
+#### 2539. CVE-2026-16554 - cJSON: cJSON: Remote code execution due to integer overflow via crafted JSON
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cJSON: cJSON: Remote code execution due to integer overflow via crafted JSON. Bugzilla: 2507414
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507414
+
+---
+
+#### 2540. CVE-2026-64535 - kernel: nvmet-tcp: Fix potential UAF when ddgst mismatch
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: nvmet-tcp: Fix potential UAF when ddgst mismatch. Bugzilla: 2507404
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507404
+
+---
+
+#### 2541. CVE-2026-17501 - llama.cpp: llama.cpp: Denial of Service due to resource allocation manipulation in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] llama.cpp: llama.cpp: Denial of Service due to resource allocation manipulation in JSON-Schema-to-GBNF Conversion. Bugzilla: 2507392
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507392
+
+---
+
+#### 2542. CVE-2026-17527 - virt-cdi-operator: containerized-data-importer: cdi.kubevirt.io:view aggregated…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] virt-cdi-operator: containerized-data-importer: cdi.kubevirt.io:view aggregated ClusterRole grants create on datavolumes/source, allowing unauthorized PVC clone. Bugzilla: 2507413
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507413
+
+---
+
+#### 2543. CVE-2026-51300 - sqlite: SQLite: Application crash and information leakage due to use-after-free
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sqlite: SQLite: Application crash and information leakage due to use-after-free. Bugzilla: 2507549
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507549
+
+---
+
+#### 2544. CVE-2026-51298 - sqlite: SQLite: Denial of Service via use-after-free in JSON extraction
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sqlite: SQLite: Denial of Service via use-after-free in JSON extraction. Bugzilla: 2507556
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507556
+
+---
+
+#### 2545. CVE-2026-64530 - kernel: net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle. Bugzilla: 2507345
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507345
+
+---
+
+#### 2546. CVE-2024-14040 - kernel: net: nexthop: Increase weight to u16
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: nexthop: Increase weight to u16. Bugzilla: 2507346
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507346
+
+---
+
+#### 2547. [Ubuntu] USN-8561-2: FreeRDP regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8561-1 fixed vulnerabilities in FreeRDP. Unfortunately, the upgrade to version 3.30.0 introduced a regression in the clipboard functionality. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8561-2
+
+---
+
+#### 2548. [Ubuntu] USN-8621-1: Samba vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Samba's pam_winbind incorrectly handled home directory ownership when mkhomedir was enabled. A local attacker could possibly use this issue to cause a denial of service by triggering a change in ownership of the root directory. (CVE-2026-15779) Arjun Basnet, Douglas Bagnall, and Andrew Tridgell discovered that Samba incorrectly handled TSIG packets with name compression. A r
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8621-1
+
+---
+
+#### 2549. [Ubuntu] USN-8620-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8620-1
+
+---
+
+#### 2550. [Ubuntu] USN-8619-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8619-1
+
+---
+
+#### 2551. [Ubuntu] USN-8570-2: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Foo-over-UDP (FOU); - ARM64 architecture; - x86 architecture; - Block layer subsystem; - Drivers core; - Null block device driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsystem; - DPLL subsys
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8570-2
+
+---
+
+#### 2552. [Ubuntu] USN-8618-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructions executed at a higher privilege level, resulting in privilege escalation. (CVE-2025-54518) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8618-1
+
+---
+
+#### 2553. [Ubuntu] USN-8617-1: Linux kernel (KVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8617-1
+
+---
+
+#### 2554. [Ubuntu] USN-8616-1: Linux kernel (IBM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284, CVE-2026-43500) I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8616-1
 
 ---
