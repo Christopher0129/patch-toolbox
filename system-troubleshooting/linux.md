@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8048**
+**总计条目 / Total entries: 8084**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -112576,5 +112576,473 @@ You have some options here, I would recommend the use of UNIX Socket and the soc
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/798028/create-container-with-a-tcp-server-socket-inside-from-an-outside-app-as-non-roo
+
+---
+
+#### 8049. Sign the petition against client side scanning in the UK
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9te6s/sign_the_petition_against_client_side_scanning_in/
+
+---
+
+#### 8050. DRM format modifiers for old AMD GPUs coming with Linux 7.3: Thanks Valve
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1va9ly1/drm_format_modifiers_for_old_amd_gpus_coming_with/
+
+---
+
+#### 8051. Flowchart of the Linux RNG
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9ytvj/flowchart_of_the_linux_rng/
+
+---
+
+#### 8052. A huge thank you to everyone involved in porting FAR Manager to Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9vvqr/a_huge_thank_you_to_everyone_involved_in_porting/
+
+---
+
+#### 8053. Tengu: A Modernized Mirai (Botnet) That Doesn’t Want to Leave
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9uuod/tengu_a_modernized_mirai_botnet_that_doesnt_want/
+
+---
+
+#### 8054. Lumia 1520 mainline Linux update
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1va118o/lumia_1520_mainline_linux_update/
+
+---
+
+#### 8055. Graphics Creator: Create titles and visual effects
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9v3ok/graphics_creator_create_titles_and_visual_effects/
+
+---
+
+#### 8056. Intel Arc A770 + Xe driver: HuC authentication fix for DG2 (looking for help getting this upstream)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9z1y4/intel_arc_a770_xe_driver_huc_authentication_fix/
+
+---
+
+#### 8057. Foss Mainstream
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vab72x/foss_mainstream/
+
+---
+
+#### 8058. [FIXED] DragonRise Gamepad on Linux has wrong mappings
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9yi2r/fixed_dragonrise_gamepad_on_linux_has_wrong/
+
+---
+
+#### 8059. eBPF Scheduler delivers power and latency gains for Meta
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9rm79/ebpf_scheduler_delivers_power_and_latency_gains/
+
+---
+
+#### 8060. [In Development] GaleOS: A plug-and-play Linux distro to revive primitive, ultra-low-spec 32-bit/64-bit PCs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9rbg6/in_development_galeos_a_plugandplay_linux_distro/
+
+---
+
+#### 8061. SintyOS public alpha/nightly builds are available!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9fl41/sintyos_public_alphanightly_builds_are_available/
+
+---
+
+#### 8062. I've been working on my own distro, it's been fun
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9r0j8/ive_been_working_on_my_own_distro_its_been_fun/
+
+---
+
+#### 8063. Daily linux TIP: Dont use tmpfs for /tmp (High CPU / RAM usage)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1v9ye91/daily_linux_tip_dont_use_tmpfs_for_tmp_high_cpu/
+
+---
+
+#### 8064. [V2EX] 搞错
+
+**问题描述 / Problem Description**:
+搞错
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230851#reply1
+
+---
+
+#### 8065. [V2EX] giffgaff 是不是玩不起？封手机号就算了，还把社区账号封了，然后我现在访问直接就是 401
+
+**问题描述 / Problem Description**:
+首先它把我充值的手机号给封了，然后想着里面还有 9 英镑多，还没用完，想申请退款，然后按照网上说的方法，写退款申请，以及去 https://community.giffgaff.com/ 写反馈 然后没想到把我号封了 giffgaff 真的玩不起，格局小，严重怀疑 giffgaff 是下套了，先低门槛让你拥有一张 esim 卡，然后随便找个理由封你，把你卡里的余额给吞了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230843#reply0
+
+---
+
+#### 8066. [V2EX] [出] Hostinger Cloud Startup 云主机，还剩 3 年 2 个月，折合约 $3.9/月
+
+**问题描述 / Problem Description**:
+出一个 Hostinger Cloud Startup （云主机套餐），当时上车 4 年付还送了 3 个月，现在用不上了，转给有需要的 V 友。 套餐信息 套餐：Cloud Startup （ Hostinger 云主机，非共享虚拟主机） 有效期：至 2029-10-17 ，还剩约 38 个月（ 3 年 2 个月） 配置：4 核 CPU / 4 GB RAM / 100 GB NVMe / 可建 100 个网站 / 不限流量 附带：每日自动备份（ Daily Backup ）、免费 SSL 、CDN 原价 $306.82 购入（有账单可查），折合约 $6/月；官网现在新购续费都比这个贵 价格
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230839#reply3
+
+---
+
+#### 8067. [V2EX] Gitea Runner Manager：把 act_runner 装进原生图形界面
+
+**问题描述 / Problem Description**:
+自托管 CI 一直是件麻烦事：装一条 Runner 要找二进制、手写 config.yaml 、拼凑注册 Token 、想个办法让它常驻后台、还要再去翻日志排查任务失败。 act_runner 的命令行虽然称职，但全靠文档和记忆堆出来的体验，对只想跑构建的个人开发者并不友好。 Gitea Runner Manager （下称 GRM ）正是为了把这堆零碎操作压缩到「四步点击」而生的——它是一款同时提供 macOS 版（ SwiftUI 菜单栏应用）和 Windows 版（ WinUI 3 桌面应用）的图形化管理器，覆盖 act_runner 从下载安装、注册、守护进程启停到实时日志查看的全部生
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230838#reply0
+
+---
+
+#### 8068. [V2EX] claude code 旧账号删除后不能注册问题-已申请
+
+**问题描述 / Problem Description**:
+背景: 只有一个 gg 邮箱,之前注册 cc 被封了.账号当时也删除了. 今天登陆提示 "This email is already associated with another account or was used too recently." weijie wu <coder.earic@gmail.com> 06:19 (2 分钟前) 发送至 support Hello Anthropic Support, I am unable to log in to my Claude account. When I try to register or log in with my emai
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230835#reply1
+
+---
+
+#### 8069. [V2EX] giffgaff 拒绝退款了，还有救回余额的希望吗
+
+**问题描述 / Problem Description**:
+违规原因： 长期在海外使用网络：giffgaff 的服务主要是为在英国境内使用而提供的。系统检测到您的设备长时间连接在国际网络上（ connected to international networks over an extended period ）。 超出短期漫游的合理限制： 虽然他们提供漫游服务，但仅限于支持客户的短期旅行（如度假或短期出差），不适用于长期、连续或永久在海外使用。您的使用情况已经远超出了临时漫游的合理限制。 对这个结果不满意，他们表示您有权带着这封最终答复信，向英国通信行业的独立纠纷解决机构 Ombudsman Services 提出申诉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230830#reply2
+
+---
+
+#### 8070. [V2EX] Giffgaff 封号潮？话费余额带不走？不如短信捐公益，一分都别留给 GG！
+
+**问题描述 / Problem Description**:
+只需一条短信，就能用剩余话费支持动物保护、心理援助或人道主义救援。行善积德，把损失转化为爱心❤，大家一起把余额清空！ 如果你还知道其他可以通过短信捐款的机构，欢迎在评论区补充！让我们把余额都花在有意义的地方，坚决不给 GG 留一分钱！👇 皇家防止虐待动物协会 需要先去官网输入手机号，会给你发个短信，回复 YES 即可，捐 5 英镑。 巴特西动物收容所 发送短信 SAFE 至 70545 捐 3 英镑 猫咪保护协会 发送短信 THREE 至 70030 捐 3 镑 发送短信 FIVE 至 70030 捐 5 镑 发送短信 TEN 至 70030 捐 10 镑 撒玛利亚会-自杀救助 发送短信 SA
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230828#reply34
+
+---
+
+#### 8071. [V2EX] 一个 vibe coding 省 Token 小技巧
+
+**问题描述 / Problem Description**:
+做之前先看看，有没有现成的可以直接用，不是什么都要自己做的🤪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230823#reply1
+
+---
+
+#### 8072. [V2EX] 分享最近做的一个免费截图工具
+
+**问题描述 / Problem Description**:
+起因是发现每次要截图的时候，发现微信没打开，还需要找手机去启动微信，很麻烦。 截图工具支持基本的截图标注，OCR ，滚动截图，同时还加了历史粘贴板能力，基本把我常用好用的工具都整合在一起了，整个包非常小，才 4M 本身是自用的，考虑到有些朋友也可能也有我这种情况，把微信当成截图工具启动台的，所以分享一下。 永久免费 🔗： clipture.talkape.net
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230821#reply4
+
+---
+
+#### 8073. [V2EX] WorkBuddy 这么自信的么？只支持/v1/chat/completions 端点格式！
+
+**问题描述 / Problem Description**:
+本来想下载一个来玩玩，看它这么自信，马上卸载了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230820#reply6
+
+---
+
+#### 8074. [V2EX] 跨 Agent、跨设备的一个记忆外挂（当 Claude 被封之后的记忆迁移工具，你值得拥有
+
+**问题描述 / Problem Description**:
+memU 2.0 已上线。 这次最值得体验的是，memU 的个人记忆现在可以跨 Agent 、跨设备使用。 无论你在 Codex 、Claude Code 、Cursor 、Openclaw 之间切换，还是换一台设备，都能继续使用同一份上下文和知识。 接入也更简单：把 memU 的 Skill 链接交给常用 Agent 即可；之后记忆沉淀和检索会在后台自动进行，Dashboard 也能查看和管理自己的记忆。 另外，memU 依然保持轻量、开源，核心记忆逻辑约 500 行代码，方便开发者按自己的工作流定制。 欢迎现在试试新版本（完全免费）： https://memu.so/（在 Quick st
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230809#reply0
+
+---
+
+#### 8075. [V2EX] 第一次写桌面应用，做了个下载管理器，叫 NextDL。
+
+**问题描述 / Problem Description**:
+现在大家都在写 AI Agent ，我还在写这种传统下载工具，多少有点“逆版”。不过自己确实想试试用 Go + Wails + Vue3 做一个真正能用的桌面应用。 目前支持 HTTP 、m3u8/HLS 、BT 下载，也有暂停/继续、断点续传、速度限制、代理、日志这些基础功能。 项目地址： https://github.com/yuanmoc/NextDL 欢迎试用，也欢迎提建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230799#reply1
+
+---
+
+#### 8076. [V2EX] 老哥们，你们都是怎么开的 codex 的会员呢
+
+**问题描述 / Problem Description**:
+切美区 苹果 id 买礼品卡 充值的这种吗？ 或者说代充值？ 或者说有更好的方案呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230794#reply41
+
+---
+
+#### 8077. [V2EX] 我有一个 idea，现在就差一个程序员了
+
+**问题描述 / Problem Description**:
+感叹下时代的变化，十几年前 O2O 开始流行，全民创业的时候经常能看到类似的帖子，那个时候是程序员的黄金时期，现在看到这个梗能会心一笑的人现在还好找工作么？ 这么多年过去了，很多 idea 都被实现了，程序员也饱和了，甚至有 idea 都不需要程序员来给你实现了，大模型就能帮你快速的糊出来一个大差不差的产品原型。 前两天听朴树的《 new boy 》无意间听到这么一段歌词： “快来吧奔腾电脑“ ”就让它们代替我来思考” 这首上世纪末的歌里提到的奔腾产品线前几年也被 Intel 砍了，奔腾电脑从始至终也没能实现思考的功能，大模型实现了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230791#reply2
+
+---
+
+#### 8078. [V2EX] 大家找好的 gg 卡的替代了吗？
+
+**问题描述 / Problem Description**:
+giffgaff 备份，找替代。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230790#reply15
+
+---
+
+#### 8079. [V2EX] [图 => Web] 图转成代码讨论
+
+**问题描述 / Problem Description**:
+有 GPT 生成了一张这样的图片设计稿，里面做出来电影级设计感 现在需要将其转成前端代码，里面的图片素材需要替换 如果是直接让 gpt 上来就做，做出来会比较粗糙 有没有比较好还原度比较高的方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230788#reply4
+
+---
+
+#### 8080. [V2EX] 英国佬真坏啊,昨天申请的 giffgaff 退款今天就给封了,还不给退款
+
+**问题描述 / Problem Description**:
+昨天趁着还没封号就申请退款,结果今天来邮件了,也要被封禁,工单回复还不给退款,后续咋继续进行啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230787#reply1
+
+---
+
+#### 8081. [V2EX] 大家平时是怎么用 AI 的啊？
+
+**问题描述 / Problem Description**:
+最近发现自己已经越来越依赖 AI 了。 回头统计了一下，现在大概 90% 的代码都是 AI 参与完成的，自己更多是在做需求分析、架构设计、Review 、调试以及最后的决策。 我目前大概是这样分工的： Claude Code ：负责完整功能开发、重构、复杂任务。 Codex ：处理一些工程开发、代码修改和日常编码。 Trae ：快速改 Bug 、调整某个具体功能或文件。 ChatGPT ：讨论方案、审核一些内容、查资料、头脑风暴。 Gemini ：聊天，整理思路。 目前感觉这套组合还算顺手，但总觉得还有很多优化空间，效率也还没有达到自己理想的状态。 我平时开发主要是 Golang 、Vue 、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230784#reply14
+
+---
+
+#### 8082. [V2EX] 没编程基础，靠 AI 搓了个自动填外链表单的 Chrome 插件，送 30 天 Plus 体验
+
+**问题描述 / Problem Description**:
+大家好，我是一名没有编程基础的产品经理，目前正在借助 AI 探索 OPC 。 我用 Codex 开发了一款辅助 web 开发者发外链的 AI 填表插件，如果你正在做海外 Saas 站或谷歌 SEO ，应该能用得上。 做这个工具的原因很简单： 之前给自己的项目做外链时，我经常要在各种导航站和产品目录中重复填写名称、网址、介绍、Logo 等信息。填多了实在太枯燥，于是用 AI 做了 LinkJuice 。 LinkJuice 是一款 Chrome 插件，可以用 AI 自动识别网页表单，并匹配、填写提前保存好的项目资料。 目前项目还在早期，希望找一些做独立站、SEO 和外链建设的朋友体验试用，也帮我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230783#reply1
+
+---
+
+#### 8083. [V2EX] easytier over tailscale 可行么？
+
+**问题描述 / Problem Description**:
+一直用 tailscale 组网，但是运营商阻断 udp 比较蛋疼，连接受损。没有国内服务器建 derp 。 那么想用 easytier 的 tcp p2p 连接。既然 tailscale 已经组了个内网，那么 easytier 是否可以直接用它进行连接？就不需要一个中间服务器了。 我试了一下: # 电脑 A 的 tailscale ip 是 100.100.100.1 $ easytier-core --network-name mynet --network-secret password --default-protocol tcp --ipv4 10.144.144.1 -l tcp:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230782#reply0
+
+---
+
+#### 8084. Removing/Replace the distribution logo from the GNOME login screen
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, fedora, gnome, gdm | Score: 4 | Views: 2227 | Answers: 2 | Created: 2025-02-18
+
+**解决方案 / Solution**:
+Update 2026 replace the login screen logo with Gnome Shell 43.9 & GDM3 43.0-3 The greeter logo on the login screen is controlled by the org.gnome.login-screen.logo **GSettings ** key. Since GDM uses its own dconf profile, you can add a greeter logo by changing the settings in that profile. My configuration: Debian 13 Wayland GDM3 43.0-3 Gnome Shell 43.9 Ubuntu is based on Debian and, in its default editions, also uses the GNOME desktop environment and GDM3 (GNOME Display Manager). Since both distributions use the same mechanism for configuring the login screen, this dconf-based solution works the same on both systems, as long as you're using the standard Ubuntu edition with GNOME and GDM3 in my opinion. 1. Log in as root or use sudo for all commands. 2. Create or edit the gdm profile at /etc/dconf/profile/gdm with: nano /etc/dconf/profile/gdm If the /etc/dconf/profile/ directory does not exist, create it first. mkdir /etc/dconf/profile/ The file should contain the following lines: user-db:user system-db:gdm file-db:/usr/share/gdm/greeter-dconf-defaults gdm is the name of a dconf system database. 3. Create a gdm database for system-wide settings at /etc/dconf/db/gdm.d/01-logo : nano /etc/dconf/db/gdm.d/01-logo Add the following configuration to set the login screen logo. In this example, the logo file has been copied to `/usr/share/backgrounds: [org/gnome/login-screen] logo='/usr/share/backgrounds/logo.png' 4. Update the dconf databases : dconf update The next time the login screen is displayed, it will show the new logo. What if the Logo Does Not Update? Make sure that you have run the dconf update command as root to update the system databases. In case the logo does not update, try restarting GDM... 10.4. Customizing the Login Screen 14.1.1. Restarting GDM Chapter 9. Configuring Desktop with GSettings and dconf Similar posts with the same problem and other/more solutions. How to customize Gnome login screen in Debian How can I change or remove the orange login screen logo in Ubuntu 22.04? Change Ubuntu's purple login screen to GNOME 3.36's Here is a compilation of additional methods and other possible sources. The logo can be set with the gsettings get org.gnome.login-screen .logo gsettings key . Due to the position of the logo on the login screen, an image that does not need to be tall is recommended. Landscape orientation images can work well. Downstream Branding The greeter logo on the login screen is controlled by the org.gnome.login-screen.logo GSettings key . Since GDM uses its own dconf profile, you can add a greeter logo by changing the settings in that profile. Add a greeter logo to the login screen Adding a logo to the login screen How to change distribution logo in Settings > System > About Using dconf profile approach In this approach, we do not need to run any script. We simply need to create some additional configuration files and save the changes in the dconf database. This approach is quite straightforward and can be used against Ubuntu 20.04 and later. You do not need anything else. Ubuntu-How to manually customize the Gnome login screen in Ubuntu gdm-tools gdm-tools is, like its name suggests, a set of command line tools to change the look of the GNOME Display / Login Manager (GDM 3). How To Change The GDM3 Login Screen (Greeter) GTK Theme And Background Image Using gdm-tools gdm-settings AUR Most of the configuration options listed below can be easily set using the gdm-settings AUR GUI application. GDM - GNOME Display Manager GDM Settings A settings app for GNOME's Login/Display Manager, GDM. It is written in Python and uses LibAdwaita for graphical interface. Install · gdm-settings/gdm-settings Wiki · GitHub GitHub - gdm-settings/gdm-settings: A settings app for GNOME's Login Manager, GDM Install GDM Settings in Ubuntu 24.04 | 22.04 to Configure Login Screen AUR (en) - gdm-settings The distribution logo on the GNOME login screen, check manually: 1. Locate the Distribution Logo The logo is usually stored in the GNOME Shell theme or the GDM theme. The >common paths where these files might be located are: /usr/share/gnome-shell/theme/ /usr/share/gdm/themes/ /usr/share/backgrounds/ The logo is often an SVG or PNG file named something like distributor->logo.svg, logo.png, or similar. 2. Identify the Correct Theme GDM uses a specific theme, which might be a custom theme provided by the distribution. You can check which theme is being used by inspecting the GDM configuration. Check the GDM configuration file, usually located at: /etc/gdm3/greeter.dconf->defaults or /etc/gdm/custom.conf Look for the theme-name or icon-theme-name setting. 3. Restart GDM sudo systemctl restart gdm Customizing the GDM appearance GDM v3.0+ allows for some basic customization, such as changing the logo icon, display background, and GTK theme. Available X display managers: DisplayManager | Debian Wiki More sources: Wayland | Debian Wiki Can '~/.local/share/gnome-shell/theme/ubuntu.css' have priority over '/usr/share/gnome-shell/theme/ubuntu.css'? Is the default desktop theme backed up outside /usr/share/themes?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791209/removing-replace-the-distribution-logo-from-the-gnome-login-screen
 
 ---

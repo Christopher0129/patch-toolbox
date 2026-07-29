@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8798**
+**总计条目 / Total entries: 8844**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120295,5 +120295,603 @@ Install Windows in a VM on Linux, such as VirtualBox . It also makes it easier t
 
 **参考链接 / References**:
 - https://superuser.com/questions/1939316/is-it-possible-to-install-windows-on-a-locked-bios-debian-laptop
+
+---
+
+#### 8799. How to prevent external monitors from flickering during a Windows Notification Event?
+
+**问题描述 / Problem Description**:
+Tags: multiple-monitors, windows-11, lenovo-laptop, docking-station | Score: 0 | Views: 19 | Answers: 2 | Created: 2026-07-29
+
+**解决方案 / Solution**:
+It occurs on two docks, so it's not your cable or dock. The pink and negative colours are not a "repaint", but an HDR/colour-space switch. So: Set both monitors to turn off HDR and Auto HDR (Settings > System > Display). Turn off "Automatically manage colour for apps" (new feature in Windows 11 25H2). This one leads to colour glitches in some Intel systems. Turn off the hardware accelerated GPU scheduling and use a clean 60 Hz, not 59.95. If it continues to flicker, simply disable the trigger: Settings > System > Notifications, turn OFF "Show notification banners." They are still available in the notification center, but not as a pop up, meaning there is no flicker. Keep HDR off, which will focus on the flash.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939379/how-to-prevent-external-monitors-from-flickering-during-a-windows-notification-e
+
+---
+
+#### 8800. WSL installation fails with REGDB_E_CLASSNOTREG on Windows 11 build 26200
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, powershell, installation, windows-subsystem-for-linux | Score: 0 | Views: 46 | Answers: 1 | Created: 2026-07-28
+
+**解决方案 / Solution**:
+I finally solved the issue by bypassing both winget and wsl --install and running the WSL MSI package directly. The MSI installer was already being downloaded to the temporary folder, so I executed it manually from there: Here is the successful prompt: msiexec.exe /i "C:\Users\YOURUSERNAME\AppData\Local\Temp\wsl.2.7.11.0.x64.msi" /l*v C:\Temp\wsl-msi.log` Note: The filename may be different ( (10).msi , (17).msi , etc.) depending on how many times the installer has been downloaded. Check in \AppData\Local\Temp for the actual file name. The installation completed successfully and the WSLService service was created correctly. It looks like the problem was not the MSI installation itself, but the installation process triggered by wsl --install / winget on my system. Running the MSI directly avoided the failure.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939351/wsl-installation-fails-with-regdb-e-classnotreg-on-windows-11-build-26200
+
+---
+
+#### 8801. My laptop won't charge
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va5jrq/my_laptop_wont_charge/
+
+---
+
+#### 8802. So I just burned two iMacs in the same day
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va9yam/so_i_just_burned_two_imacs_in_the_same_day/
+
+---
+
+#### 8803. Wife deleted a bunch of files to make space for Genshin Impact.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1v9irf2/wife_deleted_a_bunch_of_files_to_make_space_for/
+
+---
+
+#### 8804. Using a Win11 desktop computer in two rooms (multiple monitor setups)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va4mun/using_a_win11_desktop_computer_in_two_rooms/
+
+---
+
+#### 8805. laptop running slow. How does my Task Manager look?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8esd/laptop_running_slow_how_does_my_task_manager_look/
+
+---
+
+#### 8806. The front panel power button on my PC case is not responding or turning on the computer.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vab2lp/the_front_panel_power_button_on_my_pc_case_is_not/
+
+---
+
+#### 8807. Xfinity flagging tabs?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vab1ab/xfinity_flagging_tabs/
+
+---
+
+#### 8808. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaazjn/removed_by_reddit/
+
+---
+
+#### 8809. Problem with Discord picking up sounds from the computer (youtube for example)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaaudo/problem_with_discord_picking_up_sounds_from_the/
+
+---
+
+#### 8810. My pc starts up super fast then at desktop gets extremely slow
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaana0/my_pc_starts_up_super_fast_then_at_desktop_gets/
+
+---
+
+#### 8811. Internet not working unless connected to VPN
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaae65/internet_not_working_unless_connected_to_vpn/
+
+---
+
+#### 8812. Help my mic is not working but audio is
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaacdx/help_my_mic_is_not_working_but_audio_is/
+
+---
+
+#### 8813. Ethernet cutting out at random times
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaa607/ethernet_cutting_out_at_random_times/
+
+---
+
+#### 8814. Clicking noise when laptop is held vertically / at an angle
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaa4ap/clicking_noise_when_laptop_is_held_vertically_at/
+
+---
+
+#### 8815. Help! “No bootable devices found” after update (windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va9yzg/help_no_bootable_devices_found_after_update/
+
+---
+
+#### 8816. Moving everything
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va9782/moving_everything/
+
+---
+
+#### 8817. Dell G15 5510 turned off after shorting/ soldering the 2nd fan pins - solid orange light when holding power button
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va92dw/dell_g15_5510_turned_off_after_shorting_soldering/
+
+---
+
+#### 8818. Bluetooth controller completely messed up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8xi6/bluetooth_controller_completely_messed_up/
+
+---
+
+#### 8819. PC crashes while playing particular game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8ug1/pc_crashes_while_playing_particular_game/
+
+---
+
+#### 8820. Is this soundboard safe?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8n6h/is_this_soundboard_safe/
+
+---
+
+#### 8821. Download new drivers and my AirPods Pro stop working with windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8fg1/download_new_drivers_and_my_airpods_pro_stop/
+
+---
+
+#### 8822. Every time I turn on my laptop the resolution on my second monitor resets
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8e45/every_time_i_turn_on_my_laptop_the_resolution_on/
+
+---
+
+#### 8823. Issue with wired mice not responding
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va8azr/issue_with_wired_mice_not_responding/
+
+---
+
+#### 8824. POS Web Applications
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1va7wb2/pos_web_applications/
+
+---
+
+#### 8825. [V2EX] 请问 sing-box 的 route.rules 如何写，可以指定内网的 IP/MAC 地址走到对应的 outbound?
+
+**问题描述 / Problem Description**:
+如题。 我这样写并不生效： "route": { "rules": [ { "protocol": "dns", "action": "hijack-dns" }, { "source_ip_cidr": [ "192.168.2.41/32", ], "outbound": "proxy1" }, { "ip_is_private": true, "outbound": "direct" }, { "rule_set": [ "geosite-cn", "geoip-cn" ], "outbound": "direct" } ], "rule_set": [ ...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230859#reply0
+
+---
+
+#### 8826. [V2EX] Senplayer 一个人内购买完可以几个人用？
+
+**问题描述 / Problem Description**:
+第二个人必须要登陆设备 iCloud 才能用吗？ 还是登陆 app store 下载就能用呢？ 第一个人用 iPad 端，第二个人只用 iPhone 端
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230858#reply0
+
+---
+
+#### 8827. [V2EX] 中转站到底要卖给谁
+
+**问题描述 / Problem Description**:
+公司建了一个中转站，价格远远没有其他中转站低，因为来源是官方渠道，非号池。现在公司让员工开始卖，问了一圈朋友，都能自己订阅 Claude 、Codex 。也不知道谁有需求了...想请教各位老哥，现在用中转站 API 的场景是什么？应该卖给谁？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230808#reply4
+
+---
+
+#### 8828. [V2EX] 安卓系有像 iOS 的圈 X、loon、surge 那样连接到特定 WiFi 时就自动切换代理模式的代理软件吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230802#reply3
+
+---
+
+#### 8829. [V2EX] 身份证的地址，如果带括号，应该是全角括号吧？
+
+**问题描述 / Problem Description**:
+背景：今天腾讯云的备案给我打电话，说我的证件信息不匹配。我的身份证地址中有一对括号，是半角的，但是我备案提交时用的全角，需要修正。 我身份证都换了第三张了，第一次注意到那个括号是半角的，不过这玩意是不是也应该有国标之类的，正确的应该是全角吧？比如 XXX （北京）有限公司是对的，而的 xxx(北京)有限公司是错误的。 另外，我这个需要去户籍相关部门去修改吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230800#reply0
+
+---
+
+#### 8830. [V2EX] 想做一个面向普通投资者的信息/工具网站，想问问大家日常投资里真正缺什么？
+
+**问题描述 / Problem Description**:
+最近想做一个股票、基金相关的信息/工具网站，想先问问大家真实需求。 方向不是荐股，不做买卖建议，也不做收益承诺。更想做成一个偏信息整理、数据可视化、工具和投资者教育的网站，帮助普通投资者更高效地理解市场、基金、公司和风险。 想问问大家，日常投资里你最希望有一个网站帮你解决什么问题？ 比如信息太分散、数据不好找、基金不好对比、研报太长、财报看不懂、估值不知道怎么看、定投/回测麻烦、组合记录困难、风险提醒不及时等等。当然不限于这些，欢迎随便说。 也想听听反面意见：你觉得现在股票/基金类产品最让人反感的地方是什么？哪些功能一看就不靠谱？哪些表达会让你觉得像荐股或者割韭菜？ 我想先听大家怎么说，再决定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230797#reply8
+
+---
+
+#### 8831. [V2EX] 公司的 IT 部门裁员后，需要找一个 IT 外包服务工程师偶尔驻场，大家有什么建议或者服务公司推荐吗？
+
+**问题描述 / Problem Description**:
+贸易公司外资企业，80 人左右。 说是 IT 部门，其实就 2 个人，主要工作就是 HelpDesk 和网络管理。 最近由于上面的决定裁掉了一个，但是剩下的一个人由于工作量，以及偶尔请假的需求， 需要找一个每周 1-2 天最忙的两天定期驻场工作，以及偶尔来顶班。 大家有没有类似的经验可以分享下？ 例如费用（按天算），合作的时候账号权限问题，上门人员不固定问题。。。 由于不是大城市，可能找不到一些大型的外包服务公司，AI 问了一圈，推荐的有些公司连网站都还在 2000 年左右那种风格，连 SSL 证书都没有，感觉是长期和一些政企合作的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230792#reply5
+
+---
+
+#### 8832. [V2EX] 最近 V 站买车的帖子多了起来，想起来我去年的一个帖子，因为肯定国产新能源车被不少人喷，好奇一年过去了，有人改变对国产新能源的偏见了么。
+
+**问题描述 / Problem Description**:
+原帖 https://v2ex.com/t/1159866#reply202
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230789#reply9
+
+---
+
+#### 8833. [V2EX] 有没有人尝试过 GLM 接入 Reasonix？
+
+**问题描述 / Problem Description**:
+一般用 GLM5.2 + ZCode ，超限之后试了下在 ZCode 上跑 DeepSeek ，结果同样一个 demo 项目，对相同的几个类文件，花费 DeepSeek 的价格 ZCode 下是 Reasonix 下的 4 倍。 那么，如果在 Reasonix 中接入 GLM 相比在 ZCode 中使用 GLM 在 token 花费上会有优势吗？ 另外，是因为 ZCode 新版本的问题吗？上周用感觉挺够用的，直到 https://zcode.z.ai/cn/changelog 3.5.3 更新提出了“优化缓存命中率”……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230785#reply0
+
+---
+
+#### 8834. [V2EX] 谁有 cmd5 的会员 帮我解个密，谢谢
+
+**问题描述 / Problem Description**:
+8fc36634eaf1ceff39e4ead1d6c7064a
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230780#reply0
+
+---
+
+#### 8835. [V2EX] https://mode.pw/和 V2EX 什么关系？
+
+**问题描述 / Problem Description**:
+免责：利益毫无相关，无意中发现。 mode.pw 里的帖子似乎都来自于 V2EX ，但没有同步评论内容，而且在 mode.pw 发布的内容没办法同步到 v 站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230777#reply3
+
+---
+
+#### 8836. [V2EX] 最近突然多了 100w 能否躺平，我以亲身经历告诉你们 100w+能否躺平！
+
+**问题描述 / Problem Description**:
+说下我的情况吧：35 了，存款 100w+，县城有房有车无贷，长漂，目前年 30w+，月消费 2k 左右，房租 1k+，整体月消费在 5k 以下。目前仍然有很大的失业焦虑，压根不敢没工作，90%的都存在定期里，利率在 3 个点以上，存的比较早吧，当你 100 个的时候你绝对不会躺平的，但是不会造成你很大的焦虑，大致是这么个情况，还有其他疑问可以直接问！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230772#reply5
+
+---
+
+#### 8837. [V2EX] 闲鱼上购买 QQ 音乐 SVIP 有什么坑吗
+
+**问题描述 / Problem Description**:
+如题，闲鱼上看年卡比 APP 里便宜很多，有 v 友买过吗？有没有坑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230770#reply8
+
+---
+
+#### 8838. [V2EX] Workbuddy 你们用过吗?
+
+**问题描述 / Problem Description**:
+最近某音女主播，用 Workbuddy 制作了一个工作台 又吃了一波红利，你们有用过的吗 我打算去看看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230762#reply12
+
+---
+
+#### 8839. [V2EX] 看<绍宋>有感, 求历史地理在线地图
+
+**问题描述 / Problem Description**:
+最近在看《绍宋》，对这类架空历史小说很感兴趣。 书中很多情节都建立在真实的历史地理基础上，但里面的地名和行军、作战路线等都比较模糊， 比如金兵的进攻路线\宋兵的防守城池\双方对战路线等，读起来不太直观,没有清晰的印象. 比如看近代战争剧里面的那种路线图（红箭头\蓝箭头）. 想问一下：有没有类似高德地图那样的历史朝代在线地图？ 可以输入古代地名，查看对应的地理位置，或者大致规划出当时的行军/进攻路线。 那些搞历史学术研究的应该也需要吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230757#reply7
+
+---
+
+#### 8840. [V2EX] 自我幻想来达到精神安慰算不算一种病态疾病？或者不好的习惯？
+
+**问题描述 / Problem Description**:
+我一直以来都有一种恶习（或许说是奇怪的自我安慰精神大法） 具体表现就是： 没事的时候坐着或者下班回家走在路上，躺在床上刷短视频的时候，时常会不自觉走神，然后会在脑海中自动编排&预想各种爽文才会有的场景/镇压天下、霸道于世、世间无敌手类似这样的各种的宏大场景/自己占尽了理的骂人、打人，而且都是对我有利，会让我感觉到很爽的那种。 有时候我会想，这种幻想是不是出现的频繁了点，闲的时候一天至少会出现一次，更多次的时候也有。而且百分十九十九都不切合实际，纯纯的自我幻想，然后我会不自觉的感觉到很爽，会笑，哈哈哈哈哈哈。 想请教一下各位大佬，不知道是就我一个人有这种感觉？还是都会有？这算不算是一种疾病？自我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230756#reply15
+
+---
+
+#### 8841. [V2EX] 一个人，在有房单身未婚无娃，房在 4/5 线小县城，低欲望的情况下， 120 个（或多一点或少一点）到底能不能活完下半辈子？
+
+**问题描述 / Problem Description**:
+在问与答下面看到了很多关于躺平的帖子.有很多说好几百个的，但好几百个的非不动产感觉比较少见，看这些帖子里出现概率比较多的一个数字 100 ，略微向上考虑，以 120 为例，有以下两个问题： 问题有二： 假设如题所述，能不能过完下半生？ 如果不能，假设是中年程序员，在当今这个职场环境比较恶劣的情况下，有哪些选择可以补贴收入呢？ 已知条件： 考虑地理位置在 4 线城市。 考虑背景为为互联网开发。 当前职场环境比较恶劣，可能选择的职位比较少。 因为条件 3 ，消费环境也不是很好，所以创业的风险较高。 参考： 躺平就是什么也不干了么？ 观“存了 100w+ 太想躺平了”有感 关于多少钱能躺平的一些离谱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230755#reply6
+
+---
+
+#### 8842. [V2EX] 9800+16G+5060 算不算丐中丐
+
+**问题描述 / Problem Description**:
+朋友娃高考完想买这个电脑配置，跑来问我意见。 我第一反应是应该上 64G 内存，5070 显卡，9800x3d 。 又担心瞎出主意霍霍朋友钱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230752#reply5
+
+---
+
+#### 8843. [V2EX] 开了 6 年的网易云 vip 不准备续费了，你们都用什么听歌软件？
+
+**问题描述 / Problem Description**:
+最近几年都在用 Spotify ，曲库挺符合我歌单的，没开订阅，一直用重写也没有广告，目前设备是 Airpods Pro2 ，受限于苹果的 AAC 编码，开订阅的话提升大不大？ Apple Music 之前也订阅过，但是遇到过两次耳机爆音以及 appstore 切换 id 会丢失资料库，这两个点受不了。 话说你们现在都订阅着什么 App ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230751#reply40
+
+---
+
+#### 8844. [V2EX] model Y 到底有啥魔力，体验了下感觉就是很普通一辆车，为啥卖这么好？
+
+**问题描述 / Problem Description**:
+毫无性价比可言
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230740#reply117
 
 ---

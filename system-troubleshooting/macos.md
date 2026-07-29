@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7672**
+**总计条目 / Total entries: 7734**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -104036,5 +104036,811 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230267#reply10
+
+---
+
+#### 7673. RIP to the free Final Cut Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9k9ux/rip_to_the_free_final_cut_pro/
+
+---
+
+#### 7674. Bookmarks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va7p4g/bookmarks/
+
+---
+
+#### 7675. Help...Message app keeps asking for Apple ID
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vaah2o/helpmessage_app_keeps_asking_for_apple_id/
+
+---
+
+#### 7676. FileVault problem
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9z6v6/filevault_problem/
+
+---
+
+#### 7677. Turn off FaceTime ringing on Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va8pme/turn_off_facetime_ringing_on_mac/
+
+---
+
+#### 7678. MacBook Pro M4 with macOS 26.6, Find My Mac not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9yek3/macbook_pro_m4_with_macos_266_find_my_mac_not/
+
+---
+
+#### 7679. No reminders on MBP with 26.6
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va245n/no_reminders_on_mbp_with_266/
+
+---
+
+#### 7680. Keyboard shortcut to hide ENTIRE menubar (3rd party app)?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va8gqx/keyboard_shortcut_to_hide_entire_menubar_3rd/
+
+---
+
+#### 7681. I built NueZip — a modern native macOS archive tool for ZIP, RAR, 7Z and more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9v52q/i_built_nuezip_a_modern_native_macos_archive_tool/
+
+---
+
+#### 7682. MacOS 26.6 iCloud icon bug
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9oo2r/macos_266_icloud_icon_bug/
+
+---
+
+#### 7683. Shift + Space bring this search function, I cant work it out what it is. I have disabled Spotlight Keyboard Shortcut and assigned that for Raycast. Thanks in advanced
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va39yo/shift_space_bring_this_search_function_i_cant/
+
+---
+
+#### 7684. What is the keyboard shortcut for the macOS to focus the cursor to the search bar of the ChatGPT app. Universally it is the "/" key.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9zs4y/what_is_the_keyboard_shortcut_for_the_macos_to/
+
+---
+
+#### 7685. ‘today’ and ‘earlier’ folders
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9xzfj/today_and_earlier_folders/
+
+---
+
+#### 7686. Tahoe contrast issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9vpos/tahoe_contrast_issue/
+
+---
+
+#### 7687. macOS recognising monitor as Extended Display when opening Start Up Options
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9s1ph/macos_recognising_monitor_as_extended_display/
+
+---
+
+#### 7688. All Touch ID functions disabled
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9k2th/all_touch_id_functions_disabled/
+
+---
+
+#### 7689. My MacOS isn't letting me connect to apps?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9qsmg/my_macos_isnt_letting_me_connect_to_apps/
+
+---
+
+#### 7690. Weird scrolling issue in Safari Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9qsak/weird_scrolling_issue_in_safari_tahoe/
+
+---
+
+#### 7691. Finally at a point where I can share this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va7ecn/finally_at_a_point_where_i_can_share_this/
+
+---
+
+#### 7692. MacOS Screen time bugs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9ofot/macos_screen_time_bugs/
+
+---
+
+#### 7693. I created a free macOS App to replace Clean My Mac X because it's so expensive
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1va604u/i_created_a_free_macos_app_to_replace_clean_my/
+
+---
+
+#### 7694. MacOS 15 VM
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9t22j/macos_15_vm/
+
+---
+
+#### 7695. I am a try hard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9vldj/i_am_a_try_hard/
+
+---
+
+#### 7696. open an app over browser?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1v9laa3/open_an_app_over_browser/
+
+---
+
+#### 7697. [V2EX] 同一节点， macbook 上的 shadowrocket 无法使用。
+
+**问题描述 / Problem Description**:
+家里有一台虚拟机，上面运行着 cloudflare warp ，模式为 proxy ，即 socks5,端口 40000 。同一机器上用 gost 将此 socks5 共享出来，命令是 gost -L socks5://:1080 -F socks5://127.0.0.1:40000 。 android 上用 nekoray 来连接，所有服务均正常； macbook 上用 shadowrocket/clash verge rev 来连接，无法使用。 问了 gemini ，说是 dns 的问题，因为 cloudflare warp 是用 tcp 来解析的,按照给的解决方法，都无法正常使用。 谁
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230519#reply1
+
+---
+
+#### 7698. [V2EX] 买 mbp 的时候是看中续航买的，现在天天挂尿袋跑 agent 开发，从 100%掉电只需 3、4 个小时
+
+**问题描述 / Problem Description**:
+完全“丧失本心”了属于是。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230337#reply9
+
+---
+
+#### 7699. [V2EX] 有没有一个多显示器多工作区自动恢复窗口布局的 macOS 程序？
+
+**问题描述 / Problem Description**:
+说一下我的需求： 3 个显示器，每个显示器下有多个工作区 同时开许多程序，有些程序会同时开多个窗口（例如 Cursor ） 希望能一键恢复窗口布局，我尝试过这类程序都不支持多工作区布局（只能设置某程序在某个显示器当前的工作区上，不支持设置在非活跃工作区上） 例如 A 显示器有 a1 a2 a3 工作区，B 显示器有 b1 b2 b3 工作区，我希望能精确控制每个程序的某个窗口在某个工作区 有时后会把笔记本带出门，此时就只有一个显示器+多个工作区，此时窗口的布局逻辑和多个显示器时不一样，相当于有两套布局方式。 接上或拔掉显示器的时候，会自动恢复对应的窗口布局方案 我有一个疑问，这个需求应该是使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230316#reply10
+
+---
+
+#### 7700. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply47
+
+---
+
+#### 7701. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply5
+
+---
+
+#### 7702. [V2EX] web 版 app store 强制跳转大陆区的问题有解决方案了吗？
+
+**问题描述 / Problem Description**:
+之前好像有人说在 chrome 里安装一个扩展插件可以解决，当时安装了好像没有作用，依然强制跳转，现在有没有什么解决方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230836#reply3
+
+---
+
+#### 7703. [V2EX] M1 Max 能装 macOS 27 Public Beta 么？
+
+**问题描述 / Problem Description**:
+M1 Max (64+1) 能装 macOS 27 Public Beta 么， 装了 27 的 V 友说说体验？ 目前还是 15.7.7 ，唯一生产设备，不敢乱更新！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230815#reply2
+
+---
+
+#### 7704. [V2EX] 微信在 Mac 上频繁闪退（等）
+
+**问题描述 / Problem Description**:
+主要表现在 - 使用中忽然闪退，需重新打开 - 自带微信输入法无法输入中文（🌍键 语音转文字反而可以） - 时不时弹出窗口，告知微信输入法在后台运行 - 搜索表情包显示空白 期间 升级微信、重启、（彻底）卸载微信输入法重装 可以解决部分问题，但“闪退”今天又发生两次 😠 微信版本 - 4.1.12.29 Mac OS - 27.0 Beta (26A5388g) # 实际上从 26.5 正式版就开始有了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230811#reply4
+
+---
+
+#### 7705. [V2EX] Apple Store App 登录美区账号却强制显示国区，有人遇到过吗？
+
+**问题描述 / Problem Description**:
+刚刚通过网页链接跳转 Apple Store App （美区）时，发现界面被自动切到了国区。 去后台检查了账户设置，确认为美区 Apple ID 无误。但无论是切换底部 tab ，还是划掉 App 后台重新打开，界面依然死死卡在国区。 之前从没碰到这种事，后续重新登录就就回到了美区 系统 iOS26.4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230631#reply7
+
+---
+
+#### 7706. [V2EX] giffgaff 收到邮件终止服务， esmi 还可以正常用咋回事
+
+**问题描述 / Problem Description**:
+giffgaff 收到邮件终止服务，单 esmi 还可以正常用咋回事，昨晚收到短信，今天早上还收到短信，而且可以上网
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230578#reply26
+
+---
+
+#### 7707. [V2EX] 小孩子照片比较多，目前存在 icloud 2t，有什么什么比较优雅的实体备份方式？
+
+**问题描述 / Problem Description**:
+想要快速备份，想留住小孩子的点点滴滴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230534#reply39
+
+---
+
+#### 7708. [V2EX] iOS26.6 续航好像又可以了
+
+**问题描述 / Problem Description**:
+如图，手机是 15Pro ，早上刚升，今天的电量损耗感觉比之前好多了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230531#reply10
+
+---
+
+#### 7709. [V2EX] 告别 finder 的乱七八糟的窗口宽度(强迫症)
+
+**问题描述 / Problem Description**:
+本来刚做系统的时候挑好了 finder 的窗口样式, 能保证每次打开都是相同的样式的窗口; 但是后续觉得太宽了, 又重新调了一下 问题就出现了: 直接打开的样式是我要的, 但是通过其他软件点击"在 finder 中显示"出现的窗口又会变回原来的 乱七八糟的,强迫症根本忍不了 该试过的办法都试了, 全盘删除 .DS_store 、删除 ~/Library/Preferences/com.apple.finder.plist 都没有作用; 直接用 hammerspoon 解决了, 每次打开 finder 强制设置, 舒服了 -- 自定义日志包装方法, 支持传入多个参数 function debug
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230472#reply4
+
+---
+
+#### 7710. [V2EX] 各位的 macOS 菜单栏里放了哪些有用的小工具？
+
+**问题描述 / Problem Description**:
+可能是月经问题？看了下，我现在只有： PixPin Mouse Fix 腾讯柠檬 Bartender 相关讨论： https://www.v2ex.com/t/875619 https://www.v2ex.com/t/1126467 https://www.v2ex.com/t/1133738
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230420#reply26
+
+---
+
+#### 7711. [V2EX] 19 年的 MBP 坏了
+
+**问题描述 / Problem Description**:
+前几天休假把最后一代 intel 版本的 MBP 带回家，期间只开机处理了一些事情后关机，等周一过来上班，发现打不开电脑了。 带过去修，维修的师傅直接说烧了主板上的芯片，我最近修了很多了，我网上搜了下，好像是这代的通病。最后花了 750 快，intel 版本的 mac 是真的容易坏。 要不是当时买的顶配的配置我早就换电脑了。 https://wsrv.nl/?url=https%3A%2F%2Fexternal-content.duckduckgo.com%2Fiu%2F%3Fu%3Dhttps%253A%252F%252Fi.imgur.com%252FctJ69mc.png&default
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230410#reply28
+
+---
+
+#### 7712. [V2EX] Apple One Premier 自己和家人用的车队
+
+**问题描述 / Problem Description**:
+本人自己用，芝麻信用已经有 800 了 我的自己的美区帐号搭配美国原生 PAYPAL 稳定支付方式，已经一个人用了快 4 年多了 去年在 V2EX 拼的车月初有 1 位伙伴下车了（可以看我发帖纪录），所以现在有 1 个车位突然空出来。 再招募 1 个车位，每个人可以使用到 400G 的空间，主打一个自觉，如果你需要更多的空间，我们可以协商增加价格(我需要通过减员的方式实现) 总价 39.85 美元/月。平均下来一人大概 7 美刀一个月的价格，为了省麻烦，每季度收费一次。 也就是每个季度 160 元。 希望有稳定的小伙伴上车。 如果有兴趣可以加我 WX: harry_peng1 --------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230333#reply6
+
+---
+
+#### 7713. [V2EX] 现在 mba 32g+512 有好价吗？
+
+**问题描述 / Problem Description**:
+想把手里的丐版 M4 macmini 出掉，换个 macbook air 32g+512 的，自从涨价后才发现很香，还是很后悔没有换的，现在有什么便宜的渠道吗？以旧换新？二手？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230117#reply7
+
+---
+
+#### 7714. [V2EX] 想把 16+256 的 M4 Mac Mini 换成 M1 Pro 32+512 的无头骑士，大家给点建议
+
+**问题描述 / Problem Description**:
+主要用途就是扔在家里做软路由+媒体服务器+看片和轻办公（ Citrix 和 Web applications) 价格方正差不多，大家怎么看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230110#reply16
+
+---
+
+#### 7715. [V2EX] Infuse 可以直接调用 Emby 的转码了？
+
+**问题描述 / Problem Description**:
+最近发现可以选择编码了，没注意哪个版本开始的。 是直接可以调用 Emby 的转码？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230012#reply4
+
+---
+
+#### 7716. [V2EX] 想做 AI 漫剧/沙雕动画，第一步就卡住了
+
+**问题描述 / Problem Description**:
+现在主流文生视频、图生视频一秒钟都 5 毛钱以上，5 分钟的视频至少 150 元！好贵啊。 买了可灵 12 元的套餐，结果生成 2 个 15 秒 720p 的视频，额度花光了？？？抢钱都没这么块。不知道抖音那些人做几十集的怎么做到的 本地开源模型像 wan2.2\ LTX2.3 买电脑也很贵，3090 起步，32G 内存，电脑成本至少 1.2 万，而且生成速度也慢，几秒钟的视频要半小时，而且可能还要调各种模型，不像付费模型可以直接输入提示词就基本上获得想要的效果。 一开始以为做沙雕动画会很快，据说熟练之后 5 分钟的视频也要 5 小时。自己学了几个视频后感觉很麻烦，而且非常耗时、遂放弃。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230857#reply2
+
+---
+
+#### 7717. [V2EX] 关于职场的看法：没人能为你兜底
+
+**问题描述 / Problem Description**:
+背景 今年发生了很多变化，有时候让人摸不到头脑 一开始没什么业务，意料之中， 后来因为战略调整发生了高层变动，业务线被重组， 后来我们才知道我们的年终其实是用创始人的股份跟集团换的。 感慨之余，也觉得算是遇到了好老板。 发展 集团接管，这个没什么好说的，因为本身就是算是集团的资产。 后续的发展就是意料之中的裁员。 大家都能感觉到危机。但是真的当危机来临的时候，置身其中的人才会发现，还是发展得太快了， 最快的约谈记录大概 10min ，5h 后走人。 感悟 实话，还是那句话“谁答应你的都不算数，只有自己说的才算数” 只有自己能做到的，自己才能给自己兜底。 未来发展 说句实话，不知不觉工作也有 8
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230805#reply0
+
+---
+
+#### 7718. [V2EX] 每日蹬大模型如履薄冰，大家说我们这一生能走到“AGI”的对岸吗？😂
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230754#reply1
+
+---
+
+#### 7719. [V2EX] 表达能力有所提升
+
+**问题描述 / Problem Description**:
+提示词写多了，表达能力感觉更严谨和准确了😊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230723#reply1
+
+---
+
+#### 7720. [V2EX] 笑死，刚才 codex 报错： unexpected status 404 Not Found: Model not found gpt-5.6-sol
+
+**问题描述 / Problem Description**:
+看来今天又应该站起来使劲蹬了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230714#reply1
+
+---
+
+#### 7721. [V2EX] 见过一点反佛学的信息
+
+**问题描述 / Problem Description**:
+一休大师的晚年。也就是动画片里你看到的那个一休和尚。 Evan Thompson 的《 Why I Am Not a Buddhist 》（为什么我不是佛教徒），2020 年出版 在 最近悟道了，人生本来就没有意义 一帖中，见到 72 楼的 @ drinkUp 先生的佛学讨论，而回忆起此信息。 我想，应该是冒犯到了，在此先道歉了。 但是我认为贴出来，可以开阔有闲的 v 友的视野。 或者其中有不对的地方被指出，反而光大了佛学。 拙见猜测，也许利大于弊，所以就冒此天下之大不韪了。 善哉善哉，阿弥陀佛。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230695#reply37
+
+---
+
+#### 7722. [V2EX] 一篇讲词汇覆盖率与理解的语言学论文，与我的一点丧气话
+
+**问题描述 / Problem Description**:
+Hu, M., & Nation, P. (2000). Unknown vocabulary density and reading comprehension. Reading in a Foreign Language, 13(1), 403-430. https://nflrc.hawaii.edu/rfl/item/43 可以的话带上你的 AI 去翻译、讨论一下这份一手消息。 不方便的话，简单说大意的话， 大概就是， 文本内容，其中 98%的词汇都明白，才能理解意思。 口语内容，其中 95%的词汇都明白，才能理解意思。 70~80%的程度，则难以理解内容。 结合近来的我注意到的 词频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230681#reply0
+
+---
+
+#### 7723. [V2EX] 测了几个模型 API 平台，发现冷门平台反而体验不错
+
+**问题描述 / Problem Description**:
+最近在给一个小项目换模型 API ，主要需求比较简单，接 Dify 和自己写的服务都能用，优先国产大语言模型，价格友好，响应速度和稳定性别太抽象。 试了模型原厂、云厂商平台、聚合平台，意外发现一个相对冷门，但目前让我比较满意的模型聚合平台，白山智算， https://ai.baishan.com/website/ 挺适合个人开发者或者小团队用。 有几个点： 1.国产大语言模型比较全。像 DeepSeek 、GLM 、Qwen 、Kimi 、MiniMax 这类主流的国产模型基本都能找到，至少对我这种主要做中文场景、小工具、知识库问答的人来说，覆盖是够的。 2.模型上新比较及时。我比较烦那种平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230664#reply0
+
+---
+
+#### 7724. [V2EX] stepfun 要过期了，有谁要用的吗
+
+**问题描述 / Problem Description**:
+Chat Completions API （ OpenAI ）: https://api.stepfun.com/step_plan/v1/chat/completions Base URL: https://api.stepfun.com/step_plan/v1 Apikey: YsVotoL0xgyNS3Jgsoj0TttnawY4vaUKG2oBul03niHNNlEUXOfkx61SW3fA7O9s Model: step-3.7-flash 另外还有没注册的，可以点点这个，帮我延长下天数：）： https://platform.stepfun.com/?invite_code=ER
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230660#reply1
+
+---
+
+#### 7725. [V2EX] Giffgaff 好像没封禁香港地区
+
+**问题描述 / Problem Description**:
+最近看见漫天飞舞的 giffgaff 封禁有点慌。 但是自己的 giffgaff esim ，漫游在香港 3hk ，目前没有任何通知。 看了看 reddit/X 之类的论坛，没有像中文社区般满山倒海的通知邮件，难道是 giffgaff 官方对漫游中国基站的绞杀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230641#reply4
+
+---
+
+#### 7726. [V2EX] 纸上得来终觉浅，绝知此事要躬行
+
+**问题描述 / Problem Description**:
+看到很多人好奇中转挣不挣钱，挣多少钱，我也好奇。 所以，我决定搞一个，投入一点钱实际走一遍，看看情况。 我计划每周更新一下经营情况，我是打工仔，所以不会太多经历去推广，所以出来的结果仅供参考。 大家可以闲来无事当个乐子看看。 今天第一天，发了一个推广贴：t/1230596 让我带大家一起来看看，这活到底值不值得干！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230628#reply4
+
+---
+
+#### 7727. [V2EX] 甲状腺癌过度诊断与过度治疗观点综述
+
+**问题描述 / Problem Description**:
+说明：本文是面向阅读和讨论的综述性材料，不替代个体化医疗建议。涉及筛查、手术、主动监测等具体决策时，仍应结合病理类型、影像表现、年龄、合并症、随访条件和患者偏好，由内分泌科、甲状腺外科、超声科等共同判断。 一、核心结论 中国语境下，关于“甲状腺癌过度诊断与过度治疗”的主流观点，已经逐渐形成较清晰的共识： 不应对无症状、普通风险人群开展常规甲状腺癌筛查 ，尤其不应把颈部超声作为体检中的普遍性项目。 甲状腺癌发病率上升，不等于死亡率同步上升 ；这一“发病明显上升、死亡相对稳定”的分离现象，是过度诊断讨论的核心背景。 过度诊断最常见地发生在低风险乳头状甲状腺癌，尤其是微小乳头状癌（ PTMC ） ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230621#reply0
+
+---
+
+#### 7728. [V2EX] 兄弟们，又到月底了，大家有用不完的 mimo token 吗，能否共享出来帮你蹬一蹬
+
+**问题描述 / Problem Description**:
+rt ，帮助你避免 token 浪费的空虚感（开玩笑😊）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230618#reply2
+
+---
+
+#### 7729. [V2EX] 伟大的 V 友们， giffgaff 被封后，有什么平替推荐吗？
+
+**问题描述 / Problem Description**:
+早上打开 gmail ，就发现了 giffgaff 的邮件，心一下子凉了半截，可是生活还要继续，伟大的 V 友们，有什么好的平替吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230615#reply10
+
+---
+
+#### 7730. [V2EX] 以为自己能能躲过 giffgaff 的这波封号呢， 现在还是申请退款转网吧
+
+**问题描述 / Problem Description**:
+有需要的兄弟可以尝试此链接退款： 退款链接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230611#reply2
+
+---
+
+#### 7731. [V2EX] 苹果充值送 10%优惠又有了。
+
+**问题描述 / Problem Description**:
+不贴图了。打开苹果商店充值就能看到。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230607#reply25
+
+---
+
+#### 7732. [V2EX] 分享一下逾期经历中的几个问题
+
+**问题描述 / Problem Description**:
+1.银行会起诉，小额网贷会给本金打折。银行电话沟通：“你先把银行的还了吧，那些小额贷七八年都不会起诉你” 2.多个网贷渠道逾期，大多数不会接受你的队列或均分安排。基本是“你不先还我，那你就都别还了”的意思去催缴 3.曾经入职一家公司后未使用公司地址，未在其他地方使用公司名称的情况下，催缴打到公司骂人，且在催缴短信和电话中使用了一个注册公司名而非常用公司名，因此怀疑是社保公积金信息存在泄露 4.除调解或司法机关来电外，移动手机号收到的催缴，基本只发送到注册手机号里。但联通手机号，名下所有手机号都会收到。之前因为催缴，注册了一个新号，第一天放手机里没使用，第二天就收到了催缴短信。因此怀疑联通存在信
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230564#reply13
+
+---
+
+#### 7733. [V2EX] 终于找回账号了
+
+**问题描述 / Problem Description**:
+晚上 22 点就开始找用户名，结果也没有输入对 后来又去看了之前注册的企业邮箱邮件，结果想起来之前邮箱更换服务器，没有之前的邮件了 又在 V2EX 搜索这搜了半天这类问题，要么就是联系管理员，要么就是搜索之前发过的帖子 结果找到 0 点 29 终于找到了 终于登进来了✌️
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230561#reply1
+
+---
+
+#### 7734. [V2EX] qoder 的极致模型每天免费送 1200 次调用
+
+**问题描述 / Problem Description**:
+本意可能是想让用户体验极致模型来买套餐，但是体验完后更不想买它的套餐了，这消耗也太惊人了，pro 的 2000Credits ， 用极致几分钟就蹬完了🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230528#reply5
 
 ---

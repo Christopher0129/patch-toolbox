@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2835**
+**总计条目 / Total entries: 2838**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -42916,5 +42916,41 @@ It was discovered that the Linux kernel did not properly handle shared page frag
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8616-1
+
+---
+
+#### 2836. [Ubuntu] USN-8623-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - Arm Firmware Framework for ARMv8-A(FFA); (CVE-2026-53354, CVE-2026-64520)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8623-1
+
+---
+
+#### 2837. [Ubuntu] USN-8620-2: Linux kernel (Azure FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8620-2
+
+---
+
+#### 2838. [Ubuntu] USN-8615-2: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8615-2
 
 ---
