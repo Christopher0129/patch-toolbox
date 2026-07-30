@@ -9,8 +9,8 @@
 
 | 平台 / Platform | 条目数 / Entries | 链接 / Link |
 |---|---|---|
-| Windows | 8844 | [windows.md](windows.md) |
-| Linux | 8084 | [linux.md](linux.md) |
-| Macos | 7734 | [macos.md](macos.md) |
+| Windows | 8887 | [windows.md](windows.md) |
+| Linux | 8124 | [linux.md](linux.md) |
+| Macos | 7792 | [macos.md](macos.md) |
 
 ---

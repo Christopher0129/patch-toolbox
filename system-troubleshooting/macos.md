@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7734**
+**总计条目 / Total entries: 7792**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -104842,5 +104842,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230528#reply5
+
+---
+
+#### 7735. Unfidante.com
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vb6g23/unfidantecom/
+
+---
+
+#### 7736. Huge Time Machine backups after macOS point updates
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vau85i/huge_time_machine_backups_after_macos_point/
+
+---
+
+#### 7737. color tagging files and folders in MacOS Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vatvdr/color_tagging_files_and_folders_in_macos_finder/
+
+---
+
+#### 7738. "Automatically download new updates when available" not working 🤡
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vb7p31/automatically_download_new_updates_when_available/
+
+---
+
+#### 7739. MacSources reviewed Moonlock — how important is lightweight security to you on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vb4q2o/macsources_reviewed_moonlock_how_important_is/
+
+---
+
+#### 7740. Apple Developer Program enrollment stuck for months (Nepal) — rejected/pending with no explanation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vatdnf/apple_developer_program_enrollment_stuck_for/
+
+---
+
+#### 7741. [OS] A small fix for menu bar icons disappearing behind the MacBook notch
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vat6gg/os_a_small_fix_for_menu_bar_icons_disappearing/
+
+---
+
+#### 7742. Safari on Mac: return to last used tab when closing, not the adjacent one
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vas70u/safari_on_mac_return_to_last_used_tab_when/
+
+---
+
+#### 7743. iCal timezone disaster.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vas1wp/ical_timezone_disaster/
+
+---
+
+#### 7744. Possible to downgrade to macOS 15.7.7 from macOS 26.6?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vb3jo3/possible_to_downgrade_to_macos_1577_from_macos_266/
+
+---
+
+#### 7745. WebThumbnail Extension Content cpu Hog? how do i fix this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1varh3e/webthumbnail_extension_content_cpu_hog_how_do_i/
+
+---
+
+#### 7746. Cursor/Claude Code deleted my entire Documents folder on macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vb0i84/cursorclaude_code_deleted_my_entire_documents/
+
+---
+
+#### 7747. Dimming of touch bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1val68r/dimming_of_touch_bar/
+
+---
+
+#### 7748. Clean system data
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1varx05/clean_system_data/
+
+---
+
+#### 7749. macOS 26 IKEv2 failure with Yamaha RTX830: zero Responder SPI after INVALID_KE_PAYLOAD retry
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vai42k/macos_26_ikev2_failure_with_yamaha_rtx830_zero/
+
+---
+
+#### 7750. Apple Account recovery after password reset request
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vaez1v/apple_account_recovery_after_password_reset/
+
+---
+
+#### 7751. should I update my mac m1 from tahoe 26.5.2 to tahoe 26.6?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vathj8/should_i_update_my_mac_m1_from_tahoe_2652_to/
+
+---
+
+#### 7752. I bought a new macbook m5 air 1 week ago, is it loosing battery very fast
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vao2rf/i_bought_a_new_macbook_m5_air_1_week_ago_is_it/
+
+---
+
+#### 7753. How to get rid of this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vaesbe/how_to_get_rid_of_this/
+
+---
+
+#### 7754. Are macOS updates as fun as they were a decade ago?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1valzag/are_macos_updates_as_fun_as_they_were_a_decade_ago/
+
+---
+
+#### 7755. [V2EX] macos 中，休眠一段时间和触控板拖动变得卡顿， windowserver 进程 CPU 占用超过 30%，可能是什么原因
+
+**问题描述 / Problem Description**:
+操作系统：macos 26.5 arm 安装的软件：karabiner-elements （未处理鼠标事件）, linearmouse 触发条件：未知，通常在笔记本夜晚休眠后触发 外设：笔记本自带触控板，通过蓝牙连接的罗技鼠标（未安装 logi options+） 问题描述： 电脑休眠一晚上后，再唤醒，可能有一定概率出现这种问题：触控板按压拖动时，反应及其卡顿，甚至通过触控板移动鼠标指针时都会发生卡顿；触控板三指拖移则非常流畅无卡顿；鼠标交互和拖动也很流畅。用任务管理器查看进程，WindowServer 的 CPU 占用会常年上 30%。 重启 windowserver 进程后，触控板按压拖移
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231108#reply1
+
+---
+
+#### 7756. [V2EX] 做了个 macOS 菜单栏小工具：同时跑多个 Codex 任务时一眼看状态
+
+**问题描述 / Problem Description**:
+同时开着几个 Codex Desktop / CLI 任务时，我经常要反复切回 Codex 确认：哪些还在跑、哪些已经有结果、哪些在等我批准或回答。 所以做了 AgentMicro ：一个本地优先、只读的 macOS 菜单栏小工具，专门观察 Codex 任务状态。 它会在菜单栏图标和下拉菜单里显示最近任务： 白色：空闲 绿色：有未读完成结果 蓝色：正在思考/执行 橙色：等待批准、回答或浏览器交互 红色：当前任务遇到阻塞错误 正在工作的任务会排在最前面；每行显示任务标题、项目、当前 turn 已运行多久，快速模式还会标一个闪电。点击 Codex Desktop 任务可直接回到对应会话。 几个边界
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231028#reply0
+
+---
+
+#### 7757. [V2EX] MacOS 27beta 不支持 Xcode 26.6?
+
+**问题描述 / Problem Description**:
+升级 MacOS 27beta 后发现 Xcode 26.6 打不开。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231000#reply8
+
+---
+
+#### 7758. [V2EX] macOS 27 public beta 现在的兼容性怎么样了？
+
+**问题描述 / Problem Description**:
+想升级 macOS 27 ，但是不清楚 public beta 兼容性怎样，担心出现严重兼容性问题。 大家使用过程中有没有遇到不兼容的软件？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230950#reply10
+
+---
+
+#### 7759. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply68
+
+---
+
+#### 7760. [V2EX] 有没有一个多显示器多工作区自动恢复窗口布局的 macOS 程序？
+
+**问题描述 / Problem Description**:
+说一下我的需求： 3 个显示器，每个显示器下有多个工作区 同时开许多程序，有些程序会同时开多个窗口（例如 Cursor ） 希望能一键恢复窗口布局，我尝试过这类程序都不支持多工作区布局（只能设置某程序在某个显示器当前的工作区上，不支持设置在非活跃工作区上） 例如 A 显示器有 a1 a2 a3 工作区，B 显示器有 b1 b2 b3 工作区，我希望能精确控制每个程序的某个窗口在某个工作区 有时后会把笔记本带出门，此时就只有一个显示器+多个工作区，此时窗口的布局逻辑和多个显示器时不一样，相当于有两套布局方式。 接上或拔掉显示器的时候，会自动恢复对应的窗口布局方案 我有一个疑问，这个需求应该是使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230316#reply18
+
+---
+
+#### 7761. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply55
+
+---
+
+#### 7762. [V2EX] 如果下个月 AI 按 Apple ID 来区分的话，是不是还得注册个港区的 iD？
+
+**问题描述 / Problem Description**:
+目前是国区 ID+美区商店；AI 是跑马灯。 我看好多用外区 ID 的，直接跑的是最新的 AI。 本来想转区的，但是貌似还得留一个国区的来下载一些国区的特色 APP。 那么注册新的话，直接所有设备退出旧 ID，保留资料，登录新 ID 就可以还是需要重新走激活流程？ 另外我现在 iCloud 家庭组里，还有一个共享图库～这个共享图库是不是所有的都在同一个区？ 不能我设备港区 ID，家里人设备国家 ID？ 如果需要在一个区的话，这个共享图库是不是先存所有退出，都换了后再新建？ 求佬解答～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231015#reply2
+
+---
+
+#### 7763. [V2EX] 国区支付，各位日常使用什么方式
+
+**问题描述 / Problem Description**:
+之前一直认为应该是银行卡排第一 由于日常 iPhone 做备用机， 今天看到 V 友说国区充值有+10% 的折扣，准备薅一下 同时公交卡🚌 代替 NFC 门禁说了很久，想一并添加 结果付款界面来回跳转，先 WeChat，又 UnionPay，各种验证&确认，最后都没搞成 😣 看到列表里有 Alipay，活马医的心态添加了下， 操作充值，不能说全程丝滑 （付款成功后一直卡在转圈无自动跳转）但起码可用了 操作公交卡，全程就比较顺畅，比在账号里直接添加公交卡还顺畅 感觉不太科学，国区支付宇宙的尽头，难道是 Alipay？🤔 是不我打开的方式不对？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230961#reply1
+
+---
+
+#### 7764. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply44
+
+---
+
+#### 7765. [V2EX] web 版 app store 强制跳转大陆区的问题有解决方案了吗？
+
+**问题描述 / Problem Description**:
+之前好像有人说在 chrome 里安装一个扩展插件可以解决，当时安装了好像没有作用，依然强制跳转，现在有没有什么解决方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230836#reply4
+
+---
+
+#### 7766. [V2EX] M1 Max 能装 macOS 27 Public Beta 么？
+
+**问题描述 / Problem Description**:
+M1 Max (64+1) 能装 macOS 27 Public Beta 么， 装了 27 的 V 友说说体验？ 目前还是 15.7.7 ，唯一生产设备，不敢乱更新！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230815#reply8
+
+---
+
+#### 7767. [V2EX] 微信在 Mac 上频繁闪退（等）
+
+**问题描述 / Problem Description**:
+主要表现在 - 使用中忽然闪退，需重新打开 - 自带微信输入法无法输入中文（🌍键 语音转文字反而可以） - 时不时弹出窗口，告知微信输入法在后台运行 - 搜索表情包显示空白 期间 升级微信、重启、（彻底）卸载微信输入法重装 可以解决部分问题，但“闪退”今天又发生两次 😠 微信版本 - 4.1.12.29 Mac OS - 27.0 Beta (26A5388g) # 实际上从 26.5 正式版就开始有了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230811#reply5
+
+---
+
+#### 7768. [V2EX] Apple Store App 登录美区账号却强制显示国区，有人遇到过吗？
+
+**问题描述 / Problem Description**:
+刚刚通过网页链接跳转 Apple Store App （美区）时，发现界面被自动切到了国区。 去后台检查了账户设置，确认为美区 Apple ID 无误。但无论是切换底部 tab ，还是划掉 App 后台重新打开，界面依然死死卡在国区。 之前从没碰到这种事，后续重新登录就就回到了美区 系统 iOS26.4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230631#reply8
+
+---
+
+#### 7769. [V2EX] giffgaff 收到邮件终止服务， esmi 还可以正常用咋回事
+
+**问题描述 / Problem Description**:
+giffgaff 收到邮件终止服务，单 esmi 还可以正常用咋回事，昨晚收到短信，今天早上还收到短信，而且可以上网
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230578#reply27
+
+---
+
+#### 7770. [V2EX] iOS26.6 续航好像又可以了
+
+**问题描述 / Problem Description**:
+如图，手机是 15Pro ，早上刚升，今天的电量损耗感觉比之前好多了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230531#reply12
+
+---
+
+#### 7771. [V2EX] 各位的 macOS 菜单栏里放了哪些有用的小工具？
+
+**问题描述 / Problem Description**:
+可能是月经问题？看了下，我现在只有： PixPin Mouse Fix 腾讯柠檬 Bartender 相关讨论： https://www.v2ex.com/t/875619 https://www.v2ex.com/t/1126467 https://www.v2ex.com/t/1133738
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230420#reply30
+
+---
+
+#### 7772. [V2EX] 19 年的 MBP 坏了
+
+**问题描述 / Problem Description**:
+前几天休假把最后一代 intel 版本的 MBP 带回家，期间只开机处理了一些事情后关机，等周一过来上班，发现打不开电脑了。 带过去修，维修的师傅直接说烧了主板上的芯片，我最近修了很多了，我网上搜了下，好像是这代的通病。最后花了 750 快，intel 版本的 mac 是真的容易坏。 要不是当时买的顶配的配置我早就换电脑了。 https://wsrv.nl/?url=https%3A%2F%2Fexternal-content.duckduckgo.com%2Fiu%2F%3Fu%3Dhttps%253A%252F%252Fi.imgur.com%252FctJ69mc.png&default
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230410#reply29
+
+---
+
+#### 7773. [V2EX] 如何才能成功注册 Kliq 用于绑定土区
+
+**问题描述 / Problem Description**:
+试了 ultra/gg/talktone 都报错无法发送验证码，间隔好几天断断续续试了很多次 试了土区 IP 、美国 IP 都不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230123#reply14
+
+---
+
+#### 7774. [V2EX] nixos 这系统和 ai 简直是绝配啊。
+
+**问题描述 / Problem Description**:
+人类操作简直是灾难，申明式还真用不习惯。但架不住能回滚，也就是 ai 随便造。这不是天生为 ai 打造的嘛。 minimal 连个 dhcp 都没，自己 ip add 得。装完，我得配置两遍网络。除了这个吐槽下，傻缺一样的存在，剩下就是完美情机了。 配置完毕后，赶紧扔给 ai ，让 ai 自己优化。只要维护 configuration.nix 和 flake.nix 就行了。而且这东西，git 管理，做 ci/cd ，完全不担心歇菜啊。 我甚至 zfs 下的 snapshot 都不想要了，感觉根本没用处。 反正让我人肉用，这东西绝对用不来的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231113#reply0
+
+---
+
+#### 7775. [V2EX] 在英生活，我写了一份 Giffgaff 实战版退款及维权指南
+
+**问题描述 / Problem Description**:
+2026 年 7 月的最后一周， Giffgaff 正在大规模封号清退长期漫游的用户 ，不少在中国境内使用的用户已经收到了类似这样的邮件通知 Hi , We need to make you aware that, following a review of your account usage, we have made the decision to disconnect your service (mobile number ending XXXX). In line with our terms and conditions, our services are intended pri
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231084#reply4
+
+---
+
+#### 7776. [V2EX] esim 的含金量还在上升
+
+**问题描述 / Problem Description**:
+gg 被吹捧是因为它有实体卡，现在爆雷了。而所有 esim 境外号方案现在都好好的，因为国行已经从根本上拔了 esim 的用户基数。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231058#reply0
+
+---
+
+#### 7777. [V2EX] vibe 了 color-block-jam 发布到微信小游戏
+
+**问题描述 / Problem Description**:
+看 https://www.v2ex.com/t/1223897 帖子, 我 vibe 了一个 color-block-jam 在微信小游戏 也是第一次正式发行了一个小游戏，微信认证、平台审核、开发者认证、工信部备案足足花了大概一个月的时间... 开发时间大概只有 3 天, 用的是原生 js 写的, 主要是因为 AI 接入 cocos 之类的引擎有点麻烦, 不太好全 AI 实现, 刚开发成功的时候性能很差, 后面迭代了几次以后性能才优化了非常多... 可能还是引擎来做比较好吧. 接下来准备实现第二个游戏, 可能会开发一个 cocos-mcp, 有兴趣的话可以一起交流一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231047#reply4
+
+---
+
+#### 7778. [V2EX] edgeone 下线了 cidr 查询接口又禁止了免费版的源站防护，还有方法拿到 realip 吗？
+
+**问题描述 / Problem Description**:
+第一步：2025 年先下线源站防护，公告 https://cloud.tencent.com/announce/detail/2153 这样没有办法通过查到自己站点的 cdn ip cidr ，一般用户都会想到查询整个 edgeone ip 段，比如 https://api.edgeone.ai/ips?version=v4 第二步：2026 年下线 ip range 查询接口，这下彻底拿不到 ip range 了 # [DEPRECATION NOTICE] This interface stopped serving on 2026-07-31 and will be officially
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231018#reply8
+
+---
+
+#### 7779. [V2EX] 普通人越折腾越惨
+
+**问题描述 / Problem Description**:
+感觉普通人真的很难过好这一生，尤其爱折腾，不甘于做普通人，上学因为努力因素考上好大学的然后赚了钱，坚信自己只要勤努力多折腾肯定会拥有好的人生 然后会有一个个陷阱等着你： 第一类就是房子，早些年坚信房子永远会涨，然后高位接盘，房子不用多说了，应该论坛里化债人占比不少 第二类就是股市，跟风投资，年初的有色黄金，之后的商业航天，散户追涨杀敌，至于今年股市行情： 今年比特币，阶段高点最大回撤 54% 黄金年内高点回撤 28% 中证白酒今年下跌 29.5% 国证半导体指数最大回撤 37.1% 恒生科技今年下跌 23% 第三类就是家庭，一把年纪还被下半身控制，可能是同事，可能是前任，可能是偶遇，追求“真爱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230999#reply3
+
+---
+
+#### 7780. [V2EX] 推荐一个好用的局域网聊天工具
+
+**问题描述 / Problem Description**:
+推荐一个好用的局域网聊天工具 地址： https://tcptun.com/lan/ 同网设备自动发现 私密聊天 + 端到端加密 支持传文件 零配置，开箱即用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230984#reply4
+
+---
+
+#### 7781. [V2EX] 大英博物馆没有归还文物，但 Wise 替我从 Giffgaff 手里追回了十英镑
+
+**问题描述 / Problem Description**:
+开卡不到 30 天根本没有到它 TOS 规定的时长，也没有被封，发邮件问了一下在中国漫游使用是否合规，如果合规可以不退款，不合规是否可以退款，然而发完工单第二天就被封了。另外，没事逛了下 GIFFGAFF 的 community 讨论区，一帮英国佬阴阳怪气，实在看不惯，决定反制 1.发送 GIFT 到 70007 捐款 3 英镑给青年癌症基金会 2.发送 FIVE 到 70702 捐款 5 英镑 3.在 WISE 账单上进行争议，提交 GIFFGAFF 工单记录+充值记录 INVOCE.pdf, 第二天 10 英镑到账。 有用 wise 或者信用卡、paypal 支付的，速度去提交争议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230977#reply0
+
+---
+
+#### 7782. [V2EX] SEA-H2X 国际海缆经海缆组验收，正式商用
+
+**问题描述 / Problem Description**:
+7 月 22 日，由中国移动主导发起并参与投资建设的东南亚—海南—香港（ SEA-H2X ）国际海缆经海缆组验收，正式商用。作为该项目最大投资方，中国移动承担核心管理职能并发挥主导推动作用。 有谁知道怎么用吗？请分享你的洞见。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230964#reply0
+
+---
+
+#### 7783. [V2EX] 这限免网站是什么逻辑！
+
+**问题描述 / Problem Description**:
+我前几天计划对开发的 app 进行限免，想着给一些限免网站发送邮件，或者提交一下申请。 有些网站不回复、有些网站直接上架了，但是有个网站回复说要在他们网站推广限免需要收费。 之前公司限免的 app 在 reddit 发布帖子后，用不几个小时这个收费的网站就会自动收录。 感觉好蛋疼～～ 这是什么逻辑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230946#reply15
+
+---
+
+#### 7784. [V2EX] 分享一下针对程序员的绩效考核规则，探讨一下各种考核指标项的优缺点，以及合理性
+
+**问题描述 / Problem Description**:
+在提供不合理的考核指标时，请避免以纯粹的吐槽与抱怨的方式表达，这会丢失讨论的价值。 分享一个这两年在开发测试阶段用的指标：开发质量指标=Bug 加权得分/开发工时 这个指标反应单位开发时间内输出代码的 bug 多少的情况。执行这个指标有几个前提条件，管理能力要跟得上，任务估时因人能力而定，不同 level 的开发估时有适应性的调整，一般由小组长 review 估时。 Bug 得分权重 （ P0 50%，P1 30% P2 20%） 团队会根据数据，提供一个指标数值基准线，低于基准线会按比例扣绩效，淘汰低于团队人才水平线以下的。 高于基准线不会跟其他人横向对比，这并没有太大意义，我们团队允许在基
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230930#reply2
+
+---
+
+#### 7785. [V2EX] GiffGaff 被封了，我选择了把余额捐出去
+
+**问题描述 / Problem Description**:
+还没被封的时候申请了退款，结果先给我封了，然后告诉我无法退款。 既然这样，我也懒得投诉，我选择了捐款渠道。把余额捐赠出去。 Comic Relief 发送 FIVE 到 70702 捐赠 £5 ， 发送 TEN 到 70702 捐赠 £10 刚发现，已经有人发过了。建议看另一贴，更多渠道 https://www.v2ex.com/t/1230828
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230927#reply2
+
+---
+
+#### 7786. [V2EX] 看《马驹桥的时间》有感
+
+**问题描述 / Problem Description**:
+看完《马驹桥的时间》忽然觉得能在一个写字楼里坐 8~10 小时操作电脑工作是多么幸福的事情，虽然有时候我们也会被人催促指责，但是比起那些进厂的日结工们，我们更多时间是自由的。 也突发一个想法，那些上初中、高中不好好学习的孩子们，家长利用暑假时间可以把他们送到马驹桥干一个月日结，让他们提前体验一下挣钱的艰难，一个月后或许他们回到家，会领悟到比起打工读书其实才是最幸福的事情。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230924#reply1
+
+---
+
+#### 7787. [V2EX] 豆包与飞书合并！
+
+**问题描述 / Problem Description**:
+钛媒体独家报道： https://tmtpost.com/8084310.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230910#reply19
+
+---
+
+#### 7788. [V2EX] 这个低成本的美国手机号码，价值还在上升
+
+**问题描述 / Problem Description**:
+之前发了一个 Saily 美国手机号的帖子，引来部分使用 GG 英国手机卡的 V 友嘲讽。 目前来看 Saily 的含金量又一次上升了。 这个卡的优势就是： 1 、本身就是旅行卡，允许在国外使用，暂时看不到封号风险。 2 、原生美国实体手机号，支持银行及 openai/PayPal 注册（有的号码可能不行） 需要的 V 友，教程自取吧 mutou.men 邀请码这个低价套餐不能用了，所以就纯分享。注册应该会自动送两美金。所以前 5 个月月租 0.6 美元。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230904#reply51
+
+---
+
+#### 7789. [V2EX] giffgaff 各位不用申请退款了，我给打样了，不给退，只给出转网指引
+
+**问题描述 / Problem Description**:
+Conor from the giffgaff team 29 Jul 2026 13:43 Hi giffgaffer, Thank you for contacting us regarding the recent disconnection of your mobile service. I am writing to provide our response following a full review of your service usage and account history. Summary of Your Case I understand you are dissa
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230901#reply10
+
+---
+
+#### 7790. [V2EX] 进入智驾时代，就不会有插车，逆行等现象，有道理不？
+
+**问题描述 / Problem Description**:
+例如现在开车，总有素质低的人插车，逆行，横冲直撞等一系列危险行为，导致道路拥堵。 未来如果大家都开启智驾，是不是就不存在上述情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230892#reply75
+
+---
+
+#### 7791. [V2EX] 刚发现土区 Claude 下个月要涨价了
+
+**问题描述 / Problem Description**:
+甚至没有任何邮件通知，但是在订阅那里写了提示 gpt 还是原价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230888#reply4
+
+---
+
+#### 7792. [V2EX] 想做 AI 漫剧/沙雕动画，第一步就卡住了
+
+**问题描述 / Problem Description**:
+现在主流文生视频、图生视频一秒钟都 5 毛钱以上，5 分钟的视频至少 150 元！好贵啊。 买了可灵 12 元的套餐，结果生成 2 个 15 秒 720p 的视频，额度花光了？？？抢钱都没这么块。不知道抖音那些人做几十集的怎么做到的 本地开源模型像 wan2.2\ LTX2.3 买电脑也很贵，3090 起步，32G 内存，电脑成本至少 1.2 万，而且生成速度也慢，几秒钟的视频要半小时，而且可能还要调各种模型，不像付费模型可以直接输入提示词就基本上获得想要的效果。 一开始以为做沙雕动画会很快，据说熟练之后 5 分钟的视频也要 5 小时。自己学了几个视频后感觉很麻烦，而且非常耗时、遂放弃。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230857#reply14
 
 ---

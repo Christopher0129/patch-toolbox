@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2838**
+**总计条目 / Total entries: 2860**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -42952,5 +42952,269 @@ It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8615-2
+
+---
+
+#### 2839. CVE-2026-18369 - dogtag-pki: pki-core: redhat-pki: pki: ACME HTTP-01 validation SSRF via IP literal…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] dogtag-pki: pki-core: redhat-pki: pki: ACME HTTP-01 validation SSRF via IP literal identifiers and unvalidated redirects. Bugzilla: 2509234
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509234
+
+---
+
+#### 2840. CVE-2026-18005 - chromium-browser: chromium-browser: Inappropriate implementation in WebXR
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in WebXR. Bugzilla: 2508954
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508954
+
+---
+
+#### 2841. CVE-2026-18002 - chromium-browser: chromium-browser: Insufficient validation of untrusted input in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Insufficient validation of untrusted input in Google Lens. Bugzilla: 2508957
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508957
+
+---
+
+#### 2842. CVE-2026-17983 - chromium-browser: chromium-browser: Incorrect security UI in Global Media Controls
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect security UI in Global Media Controls. Bugzilla: 2508964
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508964
+
+---
+
+#### 2843. CVE-2026-17975 - chromium-browser: chromium-browser: Inappropriate implementation in IME
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in IME. Bugzilla: 2509009
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509009
+
+---
+
+#### 2844. CVE-2026-17962 - chromium-browser: chromium-browser: Inappropriate implementation in Blink
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Blink. Bugzilla: 2508948
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508948
+
+---
+
+#### 2845. CVE-2026-17953 - chromium-browser: chromium-browser: Insufficient policy enforcement in WebView
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Insufficient policy enforcement in WebView. Bugzilla: 2508998
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508998
+
+---
+
+#### 2846. CVE-2026-17939 - chromium-browser: chromium-browser: Inappropriate implementation in Passwords
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Passwords. Bugzilla: 2508953
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508953
+
+---
+
+#### 2847. CVE-2026-17928 - chromium-browser: chromium-browser: Inappropriate implementation in DataTransfer
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in DataTransfer. Bugzilla: 2509023
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509023
+
+---
+
+#### 2848. CVE-2026-17907 - chromium-browser: Google Chrome: Information leakage via crafted HTML page
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Information leakage via crafted HTML page. Bugzilla: 2509004
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509004
+
+---
+
+#### 2849. CVE-2026-17896 - chromium-browser: chromium-browser: Use after free in DevTools
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in DevTools. Bugzilla: 2508963
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508963
+
+---
+
+#### 2850. CVE-2026-17891 - chromium-browser: chromium-browser: Use after free in ANGLE
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in ANGLE. Bugzilla: 2508966
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508966
+
+---
+
+#### 2851. CVE-2026-17889 - chromium-browser: chromium-browser: Uninitialized Use in WebXR
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Uninitialized Use in WebXR. Bugzilla: 2508970
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508970
+
+---
+
+#### 2852. CVE-2026-17884 - chromium-browser: chromium-browser: Object lifecycle issue in WebRTC
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Object lifecycle issue in WebRTC. Bugzilla: 2508978
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508978
+
+---
+
+#### 2853. CVE-2026-17882 - chromium-browser: chromium-browser: Policy bypass in Extensions
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Policy bypass in Extensions. Bugzilla: 2508984
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508984
+
+---
+
+#### 2854. CVE-2026-17878 - chromium-browser: chromium-browser: Inappropriate implementation in CSS
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in CSS. Bugzilla: 2508993
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508993
+
+---
+
+#### 2855. CVE-2026-17869 - chromium-browser: chromium-browser: Out of bounds read in WebXR
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Out of bounds read in WebXR. Bugzilla: 2508961
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508961
+
+---
+
+#### 2856. CVE-2026-17867 - chromium-browser: chromium-browser: Insufficient validation of untrusted input in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Insufficient validation of untrusted input in Dawn. Bugzilla: 2508976
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508976
+
+---
+
+#### 2857. CVE-2026-17862 - chromium-browser: chromium-browser: Use after free in Tracing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in Tracing. Bugzilla: 2508958
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508958
+
+---
+
+#### 2858. CVE-2026-17865 - chromium-browser: chromium-browser: Inappropriate implementation in Crypto
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Crypto. Bugzilla: 2509022
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509022
+
+---
+
+#### 2859. [Ubuntu] USN-8625-1: OpenSSL vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSL incorrectly allocated memory buffers in the SSL/TLS state machine when receiving handshake data. A remote attacker could possibly use this issue to cause OpenSSL to consume excessive memory, leading to a denial of service. This issue is known as the "HollowByte" denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8625-1
+
+---
+
+#### 2860. [Ubuntu] USN-8624-1: Sinatra vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Sinatra did not properly handle header parsing, causing ETag generation to hang when given specific input. A remote attacker could possibly use this issue to cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8624-1
 
 ---

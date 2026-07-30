@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8084**
+**总计条目 / Total entries: 8124**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -113044,5 +113044,543 @@ Update 2026 replace the login screen logo with Gnome Shell 43.9 & GDM3 43.0-3 Th
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/791209/removing-replace-the-distribution-logo-from-the-gnome-login-screen
+
+---
+
+#### 8085. GCC steering committee announces AI policy
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vaqo1l/gcc_steering_committee_announces_ai_policy/
+
+---
+
+#### 8086. AMD Zen 6 Client HSMP Patches Point To "Ryzen Master" Functionality On Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vawkq1/amd_zen_6_client_hsmp_patches_point_to_ryzen/
+
+---
+
+#### 8087. Patches posted to improve Linux media acceleration on Intel Alchemist GPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1var68f/patches_posted_to_improve_linux_media/
+
+---
+
+#### 8088. Wayland compositor feature support chart
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vaj2mc/wayland_compositor_feature_support_chart/
+
+---
+
+#### 8089. Changing the Chip Industry: How Public Investment Has Grown Open Silicon
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vatux9/changing_the_chip_industry_how_public_investment/
+
+---
+
+#### 8090. PixiEditor 2.0 just turned one year. Wayland support on the roadmap
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vb3mnk/pixieditor_20_just_turned_one_year_wayland/
+
+---
+
+#### 8091. Running Wayland, X11, GNOME, and KDE natively on an iPad
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vaj37v/running_wayland_x11_gnome_and_kde_natively_on_an/
+
+---
+
+#### 8092. A super summarized version of the Linux From Scratch (LFS) book
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vassee/a_super_summarized_version_of_the_linux_from/
+
+---
+
+#### 8093. OpenCalc: open calculator inspired by Windows 95
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vawsxt/opencalc_open_calculator_inspired_by_windows_95/
+
+---
+
+#### 8094. oops: snapshot + undo for destructive shell commands (Rust, open source)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vav0e3/oops_snapshot_undo_for_destructive_shell_commands/
+
+---
+
+#### 8095. [V2EX] GG 卡真的 GG 后怎么办
+
+**问题描述 / Problem Description**:
+看了几个其他论坛有说：目前热度比较高的好像是 CTExcel 和 VOXI GG 卡被封禁的情况下，也可以在网页通过 get a PAC code 获取 PAC 码，以备接下来的携号转网 注册 CTExcel 账号并购买最便宜的 中英通套餐£4.90/30 天 套餐一个月就可以。 提到“激活后连续 30 天无有效使用将被终止”。这只针对新卡激活后的首次使用要求，不是正常使用中的日常保号规则 购买号码后通过 WiFi Calling 进行激活 激活后会有邮件提醒，根据给出的账号和初始密码进行登录 登录平台进行 携号转网 操作 半价码 DEAL50OFF 已经过期，不知道是否还有新的没。 以上只是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231107#reply3
+
+---
+
+#### 8096. [V2EX] 同时跑多个 Codex 任务时，我做了个本地状态观察器
+
+**问题描述 / Problem Description**:
+最近用 Codex 并行处理多个任务时，一个实际痛点是状态分散在不同会话里：任务是不是还在执行？最终结果有没有看过？是不是卡在需要我批准、回答或浏览器交互？ 我做了一个开源 macOS 菜单栏应用 AgentMicro ，只读观察本机 Codex Desktop / CLI 任务，把这些状态放到一屏里。 实现时最在意“别把猜测显示成事实”： 只有明确的 turn 开始、活跃推理、工具调用/执行等本地证据才显示思考中 final answer 会立刻结束蓝色状态，不等进程退出 明确的提问、批准请求或浏览器 handoff 才会进入橙色，并持续到用户继续任务 阻塞失败才显示红色；已恢复的警告和用户
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231100#reply1
+
+---
+
+#### 8097. [V2EX] 家里两台 闲置的 MACBOOK PRO 可以做点什么吗？
+
+**问题描述 / Problem Description**:
+AI 时代 想做点什么 但是感觉不知道做点什么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231090#reply6
+
+---
+
+#### 8098. [V2EX] GitHub Star History 是不是已经完全没法用了
+
+**问题描述 / Problem Description**:
+之前在其网站配置只读元数据的 Token 还能展示历史星标的，今天刷新了下发现也失效了，看了下文档是说要把内容写入权限也加上，这我可不敢放开哦 https://www.star-history.com/blog/how-to-use-github-star-history#how-to-add-your-github-access-token 是否有其它替代方案呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231077#reply1
+
+---
+
+#### 8099. [V2EX] 哪位大佬可以 vibe 一个 artifact.cafe 的开源版本
+
+**问题描述 / Problem Description**:
+https://artifact.cafe/ 太好用了，感觉会取代 notion 作为公司的文档管理工具，但因为数据安全需要独立部署，目前没开源版本很蛋疼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231064#reply0
+
+---
+
+#### 8100. [V2EX] sub2api 最近一直 Selected model is at capacity. Please try a different model
+
+**问题描述 / Problem Description**:
+7.21 号开始的, 我都是 pro 号, 直连没问题, sub2api 就有问题, 有兄弟有解决办法吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231029#reply5
+
+---
+
+#### 8101. [V2EX] 低代码真的有前景吗
+
+**问题描述 / Problem Description**:
+我们主管一人借助 Vibe Coding 开发了一套低代码平台，目前主要功能如下： 逻辑引擎：支持设置入参、出参，通过拖拽循环、JS 、SQL 节点以及分支节点来编写业务逻辑。 页面快速生成：选择数据表后可快速进行联表生成页面，再结合逻辑引擎和自定义表单，配置各类编辑、弹窗等交互事件。 自定义页面：直接用 HTML/CSS/JS 三件套编写页面，通过逻辑引擎获取数据并完成页面渲染。 在内部人事管理系统上，这套平台确实显著提升了效率，也让产品能够深度参与开发。但当我们把同样的模式应用到考试系统以及业务逻辑更复杂的场景时，问题开始显现。 我在参与过程中明显感觉到，这种开发方式与自己以往的编码习惯差
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231024#reply75
+
+---
+
+#### 8102. [V2EX] Codex 有多张重置卡和重置卡即将到期完全是两种心态
+
+**问题描述 / Problem Description**:
+不知道什么原因，我的 Codex 即使开 medium 的 effort 额度消耗也很快，让 Codex 进行自查也是说 token 消耗没有问题。但之前手里有 5 张重置卡，而且 Tibo 也经常重置，所以即使额度消耗快也不当回事。随着重置卡一张一张的消失，手里只剩 2 张，还有 1 张是 8.1 马上到期了，意味着后面只剩 1 张重置卡，心里突然有股淡淡的忧伤。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231023#reply18
+
+---
+
+#### 8103. [V2EX] 大佬们你们的多模型搭配工作流是怎么样的
+
+**问题描述 / Problem Description**:
+目前我只是拆了 plan 、handoff 、review ，一个流程仅一个模型参与 有啥方案能让多个模型参与吗，相互 solo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231009#reply3
+
+---
+
+#### 8104. [V2EX] vibe coding 需要养成不写注释的好习惯
+
+**问题描述 / Problem Description**:
+进行了好久的 vibe coding 了，使用发现在 AICoding 时代，尽量不要写注释。写了注释之后 AI 会根据注释理解代码逻辑，注释写错了 AI 都大概率跟着理解错！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231008#reply23
+
+---
+
+#### 8105. [V2EX] AI 帮我修复了 atrust 在 deepin25 上闪退的问题
+
+**问题描述 / Problem Description**:
+登陆客户系统需要用 atrust,但是装在 deepin 上面一直都在崩溃，尝试让 claude 修复一下，然后就修好了，哈？这也行，真是牛的 根本原因 Deepin 25 采用了不可变根文件系统架构， /usr 目录整体以只读方式挂载： usr-overlay on /usr type overlay (ro,...) 而 aTrust 把运行时需要频繁读写的数据（端口锁文件、RPC socket 文件等）放在了 /usr/share/sangfor/.aTrust/var/run/ 下。程序启动时尝试删除/重建这些文件， 由于 /usr 只读而失败，报错： Failed to start
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230996#reply2
+
+---
+
+#### 8106. [V2EX] 想在自己的项目里集成开源的 下载器(exe 文件也可以，只要有调用接口也行)到底哪个是最好的呢？ 当前选用的 gopeed，问题是这个的插件 2 年多都没有更新了。
+
+**问题描述 / Problem Description**:
+要求： 支持 http/https 源 支持 磁链 支持 youtube/抖音/b 站等媒体 支持云盘等 活跃 开源可用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230995#reply4
+
+---
+
+#### 8107. [V2EX] 分享最近做的 AI 录音软件可完全免费使用
+
+**问题描述 / Problem Description**:
+最近花了一段时间，做了一个 AI 录音工具 从语音识别模型，到实时转写，再到 AI 总结 一次会议、一段访谈、一个突然想到的想法 录下来，剩下的交给 AI 可完全免费使用，而且数据完全本地化 目前还在持续优化，欢迎大家体验和反馈 欢迎前往官网下载，多多建议 https://www.lingerx.cn/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230989#reply6
+
+---
+
+#### 8108. [V2EX] 被阿里云镜像坑了一下
+
+**问题描述 / Problem Description**:
+go 打镜像的时候，突然报错，试了几次也不行。 AI 分析了一波，认为这个包已经不维护了云云，没给出好的解决方案，然后我就换官方推荐的镜像库试试： https://goproxy.cn 然后打镜像就成功了。。。 无语 ing
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230981#reply4
+
+---
+
+#### 8109. [V2EX] 有人在 Canva 上开发小程序吗？
+
+**问题描述 / Problem Description**:
+看起来好像不复杂，有没有踩过坑的朋友分享下经验
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230979#reply1
+
+---
+
+#### 8110. [V2EX] 大家有没有对比过 Codex 的 ChatGPT 模式和 Codex 写代码的质量
+
+**问题描述 / Problem Description**:
+前两天，我使用 Codex 选 5.6 Sol Max 模式写一个需求，生成的代码全是 bug 。改半天都改不好。然后我发现左上角的模式选的是『 ChatGPT 』模式。 我把它改成 Codex 模式以后，相同的 prompt ，也是 5.6 Sol Max 新开一个 session ，一次性就生成好了，功能完全正常。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230976#reply0
+
+---
+
+#### 8111. [V2EX] Claude 宕机了吗？
+
+**问题描述 / Problem Description**:
+https://status.claude.com/ 显示： Elevated errors across many models Investigating - We are currently investigating this issue. Jul 30, 2026 - 05:57 UTC
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230975#reply2
+
+---
+
+#### 8112. [V2EX] Giffgaff 卡从发邮件提示暂停服务到真的停止服务多长时间
+
+**问题描述 / Problem Description**:
+我是前天就收到邮件了，不过目前网站还可以登录，也还可以收到短信，不知道啥时候真的停止服务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230955#reply18
+
+---
+
+#### 8113. [V2EX] 用 Rust 重写 kcptun，完全线上兼容 kcptun-go
+
+**问题描述 / Problem Description**:
+🚀 kcptun-rs: 基于 Rust 重构的 KCP 加速隧道 这是一个使用 Rust 完整重构的 kcptun ( https://github.com/xtaci/kcptun ) 兼容实现。不仅做到完全兼容原版 Go 协议与算法，同时在二进制体积控制与系统底层 IO 上优化。 🔗 项目地址： https://github.com/xsean2020/kcptun-rs ✨ 核心亮点 100% 协议与算法双向兼容（ Drop-in Replacement ） 无缝替换：Rust 客户端 / 服务端可与现有的 Go 版本 kcptun 双向互通，无需修改已有拓扑或配置文件。 全加密算法覆
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230941#reply11
+
+---
+
+#### 8114. [V2EX] Giffgaff 之后，还有别的海外实体卡或者虚拟卡推荐吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230929#reply49
+
+---
+
+#### 8115. Changing the conntrack hashtable size at runtime: sysctl vs module parameter
+
+**问题描述 / Problem Description**:
+Tags: linux, kernel-modules, sysctl, netfilter, ip-conntrack | Score: 2 | Views: 100 | Answers: 1 | Created: 2026-07-30
+
+**解决方案 / Solution**:
+Yes, writes to net.netfilter.nf_conntrack_buckets are handled immediately and call the resize function; see nf_conntrack_hash_sysctl : ret = proc_dointvec(table, write, buffer, lenp, ppos); if (ret < 0 || !write) return ret; /* update ret, we might not be able to satisfy request */ ret = nf_conntrack_hash_resize(nf_conntrack_htable_size_user); nf_conntrack_hash_resize tries to resize the hashtable. In any case the value shown by the sysctl is updated to reflect the value used by the kernel — so you write what you want , and read again to see what you actually ended up with (or check /sys/module/nf_conntrack/parameters/hashsize as you did).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806857/changing-the-conntrack-hashtable-size-at-runtime-sysctl-vs-module-parameter
+
+---
+
+#### 8116. Nvidia driver local repository not found for fedora43 x86_64 architecture
+
+**问题描述 / Problem Description**:
+Tags: fedora, drivers, nvidia, proprietary-drivers | Score: 0 | Views: 126 | Answers: 1 | Created: 2026-05-05
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805807/nvidia-driver-local-repository-not-found-for-fedora43-x86-64-architecture
+
+---
+
+#### 8117. System won’t boot after interrupted Fedora 43 kernel update
+
+**问题描述 / Problem Description**:
+Tags: fedora, boot, upgrade | Score: 0 | Views: 165 | Answers: 1 | Created: 2026-05-03
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805775/system-won-t-boot-after-interrupted-fedora-43-kernel-update
+
+---
+
+#### 8118. Flash drive cannot be mounted after format with mke2fs (debian 10 or Windows )
+
+**问题描述 / Problem Description**:
+Tags: debian | Score: 0 | Views: 145 | Answers: 1 | Created: 2026-04-23
+
+**解决方案 / Solution**:
+Disk read failed you have a hardware problem. In the context of USB flash drives, this is usually an indication of end-of-life; there's nothing you can really do to salvage this. Your formatting might just have been the straw that broke the camel's back, but it wasn't causal itself: Flash drives by working principle have limited live, and even among more expensive ones, there's often flukes (not to mention that counterfeit branded drives are really rampant in the marketplace).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805592/flash-drive-cannot-be-mounted-after-format-with-mke2fs-debian-10-or-windows
+
+---
+
+#### 8119. Computers not connecting to Wifi despite proper config in NetworkManager?
+
+**问题描述 / Problem Description**:
+Tags: debian, networkmanager | Score: 0 | Views: 52 | Answers: 2 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+I think my file contained some strict parameters that didn't match all my computers (for example the UUID and the interface name). Commenting these 2 items fixed the issue! I'm still puzzled about the logs telling me "need author: failed" though...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805440/computers-not-connecting-to-wifi-despite-proper-config-in-networkmanager
+
+---
+
+#### 8120. Unable to retrieve secrets when requesting secrets from kwallet
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, password-store, kwallet, keepassxc | Score: 0 | Views: 115 | Answers: 1 | Created: 2026-04-14
+
+**解决方案 / Solution**:
+This partial solution comes from a post on bugs.kde.org . Apparently, the poster found a working configuration for plasma-nm and kwallet. Create ~/.local/share/dbus-1/services/org.freedesktop.secrets.service : [D-BUS Service] Name=org.freedesktop.secrets Exec=/bin/false SystemdService=keepassxc.service Create ~/.config/systemd/user/keepassxc.service : [Unit] Description=KeePassXC After=plasma-plasmashell.service PartOf=graphical-session.target [Service] ExecStart=/usr/bin/keepassxc Restart=on-failure [Install] WantedBy=plasma-workspace.target A problem listed by the poster was that keepassxc is started up too early, so it has to be called to bring it to the foreground. I found was that sometimes, the DB-creation dialog would appear at secret requests after a system sleep and re-opening. This was fixed by manually running systemctl --user restart dbus-:1.1-org.kde.kwalletd6* . Apparently, systemctl restart NetworkManager.service may fix issues with plasma-nm and the secret service. Also, starting the system with the network disabled or set to unencrypted, waiting for KeePassXC to unlock the database, executing systemctl --user restart dbus-:1.1-org.kde.kwalletd6* , and then setting the password setting to encrypted finally makes plasma-nm work. Additionally, plasma-nm initially asks for the Wi-Fi password after waking up from suspend, and it only retrieves secrets if the password is submitted after the KeePassXC database is unlocked. Still, this is unreliable, and I still sometimes receive these errors after sleeping, so I am looking for a reliable, explanatory answer.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805426/unable-to-retrieve-secrets-when-requesting-secrets-from-kwallet
+
+---
+
+#### 8121. How to hide a Wi-Fi WPA password from unprivileged users using NetworkManager?
+
+**问题描述 / Problem Description**:
+Tags: debian, wifi, networkmanager, cinnamon, wpa | Score: 0 | Views: 130 | Answers: 2 | Created: 2026-04-13
+
+**解决方案 / Solution**:
+NetworkManager itself runs as a system service with root credentials, so it has access to all connection definitions (actually, access to the system connections stored on disk should already be restricted to root only by default). NetworkManager is controlled via D-Bus and permissions to perform actions or modify configuration are controlled using PolicyKit. The default permissions for org.freedesktop.NetworkManager.settings.modify.system action should require authentication as administrator. Your distribution may override them or install polkit rules that allow wider access. Check polkit rules in /usr/share/polkit-1/rules.d/ and /etc/polkit-1/rules.d/ whether they mention any NetworkManager actions ( org.freedesktop.NetworkManager.* ). As requested, example of such rule from the NM sources (which may or may not be installed): // NetworkManager authorizations/policy for the @NM_POLKIT_NOAUTH_GROUP@ group. // // DO NOT EDIT THIS FILE, it will be overwritten on update. // // Allow users in the @NM_POLKIT_NOAUTH_GROUP@ group to create system-wide connections without being // prompted for a password if they are in a local console. // This is optional and is only recommended to maintain backwards compatibility // in systems where it was already working in this way. It is discouraged // otherwise. polkit.addRule(function(action, subject) { if (action.id == "org.freedesktop.NetworkManager.settings.modify.system" && subject.isInGroup("@NM_POLKIT_NOAUTH_GROUP@") && subject.local) { return polkit.Result.YES; } });
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805415/how-to-hide-a-wi-fi-wpa-password-from-unprivileged-users-using-networkmanager
+
+---
+
+#### 8122. apt-get install gradle puts a 4.4.1 version (2012) for Java 8. Which cannot be installed anymore on Debian 13. Why embarking unusable packages?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, software-distribution | Score: 0 | Views: 114 | Answers: 1 | Created: 2026-04-04
+
+**解决方案 / Solution**:
+The main reason gradle is kept in the distribution is that it’s required to build the distribution. Simulating its removal shows Checking reverse dependencies... # Broken Depends: android-platform-tools-base: libgradle-android-plugin-java android-sdk-helper: android-sdk-helper gradle-debian-helper: gradle-debian-helper gradle-kotlin-dsl: libgradle-kotlin-dsl-java # Broken Build-Depends: adql: libgradle-plugins-java asm: gradle (4.4 >=) checker-framework-java: libgradle-core-java libgradle-plugins-java darcula: gradle freeplane: gradle google-common-protos-java: libgradle-plugins-java gradle-debian-helper: gradle (4.4.1-18~ >=) gradle-kotlin-dsl: gradle grpc-java: libgradle-plugins-java ice-builder-gradle: gradle insubstantial: gradle libmnemonicsetter-java: gradle libspring-java: gradle mockito: gradle (3.4.1-2 >=) opencensus-java: libgradle-plugins-java openjfx: gradle (4.4 >=) perfmark-java: libgradle-plugins-java proguard: gradle rx-java: libgradle-plugins-java simplyhtml: gradle zeroc-ice: gradle (2 >=) Dependency problem found. Removing gradle would require removing all those packages too, along with all their reverse dependencies. Some of them may be outdated or even obsolete, I haven’t checked, but not all of them are. The reason Debian doesn’t ship a newer version of gradle is that packaging Gradle 4.5 or newer requires Kotlin , as well as removing some proprietary dependencies that newer versions of Gradle rely on to build, and doing all of that with properly-aligned versions of all the dependencies is an enormous amount of work. There was progress last year but that seems to have stalled for the time being . Note that the 2012 date is set arbitrarily for reproducibility — Gradle 4.4.1 was released in December 2017 , the gradle package was updated to 4.4.1 in October 2018 , and the version shipped in Debian 13 was built in January 2025 . The JDK 8 limitation is also incorrect; the gradle package in Debian is used to build packages with newer JDKs. (That’s not to say that any newer Java project will build as-is with the Debian gradle package; just that newer JDKs can be supported.) Last but not least, OpenJDK 8 can still be installed on Debian 13; see How can I install Java 8 on Debian 12 (bookworm)? for the Debian 12 recipe which can be adapted to Debian 13 ( Debian 13 packages are available ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805289/apt-get-install-gradle-puts-a-4-4-1-version-2012-for-java-8-which-cannot-be-i
+
+---
+
+#### 8123. Strange or buggy behavior when running an app in Wine with an external display
+
+**问题描述 / Problem Description**:
+Tags: fedora, display, wine | Score: 0 | Views: 46 | Answers: 1 | Created: 2026-03-31
+
+**解决方案 / Solution**:
+1 Answer
+1
+Sorted by:
+Reset to default
+Highest score (default)
+Date modified (newest first)
+Date created (oldest first)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805229/strange-or-buggy-behavior-when-running-an-app-in-wine-with-an-external-display
+
+---
+
+#### 8124. scanimage returns me an html page instead of the wished png or jpeg on Debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, scanner, jpeg, png | Score: 0 | Views: 104 | Answers: 1 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+Submitted as a bug #1131413 , that has chance to be found a duplicate of #1118474 (20 Oct 2025) itself forwarded upstreams .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805080/scanimage-returns-me-an-html-page-instead-of-the-wished-png-or-jpeg-on-debian-13
 
 ---

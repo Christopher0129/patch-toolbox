@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8844**
+**总计条目 / Total entries: 8887**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120893,5 +120893,564 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230740#reply117
+
+---
+
+#### 8845. "File Download - Security Warning" on desktop URLs but only from firefox
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb62ci/file_download_security_warning_on_desktop_urls/
+
+---
+
+#### 8846. Did my SSD just die randomly?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb5z9k/did_my_ssd_just_die_randomly/
+
+---
+
+#### 8847. Automatic switching between low and high consumption with an ac
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb57cf/automatic_switching_between_low_and_high/
+
+---
+
+#### 8848. Gpu broken?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vawnrg/gpu_broken/
+
+---
+
+#### 8849. Fake Cloudflare scam & linksynergy redirects?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb4wap/fake_cloudflare_scam_linksynergy_redirects/
+
+---
+
+#### 8850. Cant Solve BSOD Errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb148e/cant_solve_bsod_errors/
+
+---
+
+#### 8851. Mouse Pointer/Cursor overexposed while in game.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb7cuc/mouse_pointercursor_overexposed_while_in_game/
+
+---
+
+#### 8852. Most "tech failures" are actually years in the making
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb757d/most_tech_failures_are_actually_years_in_the/
+
+---
+
+#### 8853. How to fix a flat Ethernet cable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb74kc/how_to_fix_a_flat_ethernet_cable/
+
+---
+
+#### 8854. Unreal 5 Gaming Troubles (AMD)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb73na/unreal_5_gaming_troubles_amd/
+
+---
+
+#### 8855. "KERNEL HEAP MODE CORRUPTION" on boot only in a single room in my house
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb72ym/kernel_heap_mode_corruption_on_boot_only_in_a/
+
+---
+
+#### 8856. The REAL TinyTask???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb6r56/the_real_tinytask/
+
+---
+
+#### 8857. Blue screen, error code 0x80070003, no idea what happened
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb6pu8/blue_screen_error_code_0x80070003_no_idea_what/
+
+---
+
+#### 8858. Weirdest USB/HID behavior I've ever seen. Can anyone explain this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb6jyy/weirdest_usbhid_behavior_ive_ever_seen_can_anyone/
+
+---
+
+#### 8859. Librewolf Fail Fast Exception on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb6c86/librewolf_fail_fast_exception_on_windows_11/
+
+---
+
+#### 8860. Narcoleptic Dell Monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vaz75y/narcoleptic_dell_monitor/
+
+---
+
+#### 8861. I Can't figure out how to make the HDMI port work on recently purchased Anker A8392 13-1 USB-C Dock from my Thinkpad L14 Gen 1 i7.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb5jc8/i_cant_figure_out_how_to_make_the_hdmi_port_work/
+
+---
+
+#### 8862. Screen shows unwanted informations about itself
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb5atq/screen_shows_unwanted_informations_about_itself/
+
+---
+
+#### 8863. Help with Alexa/Kasa smart switches
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb57co/help_with_alexakasa_smart_switches/
+
+---
+
+#### 8864. [Lian Li A3] Front right USB-A port stopped working for some devices, got replacement panel from Lian Li and same port failed again same day. Left port is fine.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb52x4/lian_li_a3_front_right_usba_port_stopped_working/
+
+---
+
+#### 8865. I bought a jvc tv which said it had HDR10 but it doesn't show anywhere
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb4zv7/i_bought_a_jvc_tv_which_said_it_had_hdr10_but_it/
+
+---
+
+#### 8866. WI-FI Failing to reconnect after system resume
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb4x9b/wifi_failing_to_reconnect_after_system_resume/
+
+---
+
+#### 8867. PC Crashes randomly upon startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vb4vig/pc_crashes_randomly_upon_startup/
+
+---
+
+#### 8868. [V2EX] 为什么我的前端项目总是强制浏览器显示在窗口顶层？
+
+**问题描述 / Problem Description**:
+噩梦疑似从一个 tauri 项目开始。 一年多前，我初始化 tauri 时，选择了 vue3 模板。 之后，这个项目被我 copy 了很多次，比如删掉 tauri 依赖和相关代码，就变成了纯前端项目，然后在被 copy 。。。 （别问我为啥不新建一个 vue3 项目，有很多原因） 几个月前，我发现打开项目开发页面时，浏览器就无法切走了，浏览器始终保持在最顶层，除非切换到其他标签页，浏览器才能切走。 我仔细检查了项目的依赖，和 tauri 没有任何关系了，每次 copy 也都是不带 node_modules 文件夹的。 最神奇的是，最近我新启动了一个 nuxt4+vue3 项目，是真正的从官方脚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231101#reply2
+
+---
+
+#### 8869. [V2EX] 淘宝限制买家确认收货是什么风控逻辑
+
+**问题描述 / Problem Description**:
+就是买家要确认收货,说有风险不让点确认收货. 这是啥意思.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231093#reply0
+
+---
+
+#### 8870. [V2EX] 小米发布了增程 SUV N90 和 N70，各位怎么看，值得入手吗？
+
+**问题描述 / Problem Description**:
+N90Max 预售价 29.90 万 N70Max 预售价 25.99 万
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231088#reply2
+
+---
+
+#### 8871. [V2EX] Apple 美区已礼品卡充值， ChatGPT 升级没办法用余额支付，求帮助
+
+**问题描述 / Problem Description**:
+我的 Mac 都是登陆美区账号，手机也是美区账号，但是钱包是国区的。 1 、多年前 Apple 美区账号，没有绑定银行卡，也没有绑定 PayPal ，已通过礼品卡充值成功。 2 、ChatGPT 升级，IOS 和 MAC 端升级都是跳转到浏览器，然后选银行卡或 Apple Pay 支付。 由于美区绑不了国内的卡，Apple Pay 支付又要 iPhone 扫描确认，只要扫描就跳手机国区钱包。 有没有办法用美区余额支付呢？求帮助。 非常感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231073#reply4
+
+---
+
+#### 8872. [V2EX] 此时此刻，此分此秒，我打开豆包，豆包的界面变了，并且收费了。
+
+**问题描述 / Problem Description**:
+一小时之前还是旧版的界面, 我还和豆包聊天聊了好久 现在界面变了, 而且告诉我已经达到限额, 并且弹出订阅界面, 你们呢?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231070#reply0
+
+---
+
+#### 8873. [V2EX] QQ 被强制下线要求安装国家网络身份认证 APP
+
+**问题描述 / Problem Description**:
+你们有遇到过吗？移动网络不就已经是裸奔了吗？为啥还要安装这些几把玩意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231068#reply8
+
+---
+
+#### 8874. [V2EX] 车被剐蹭，要自己翻将近 100 小时的视频，请教工具
+
+**问题描述 / Problem Description**:
+故事，事故 小区停车位，车被剐蹭，面积不小，报警后，正在排队调取录像，说可以自己拷贝排查。 现成工具有没有？ 小伙伴们，有没有快速排查的工具？还没拿到素材，估计需要调取 4 天的录像，应该不会超过 20G 。 or 自己搞 如果没有，准备自己用 opencv 和 yolo 搞一个，因为画面是相对固定的，只要画一个检测区域，这里面同一个物体出现的第一次，截屏，名字是时间点。然后人工排查。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231061#reply10
+
+---
+
+#### 8875. [V2EX] 佬们，有没有稳一点的 GEMINI 中转站
+
+**问题描述 / Problem Description**:
+求几个你们用的好用的站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231060#reply0
+
+---
+
+#### 8876. [V2EX] 同样是程序员，聊聊大家的副业，怎么实现睡后收入的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231056#reply13
+
+---
+
+#### 8877. [V2EX] 红米 K80 Google Play 下载应用又变成了“等待中……”了，求解决方案
+
+**问题描述 / Problem Description**:
+最近（大概个把月了吧）发现又变成不能下载，一直是“等待中。。。。”，网上一搜都是 2024 年出现的问题，大致解决方案是： 前提：*.googleapis.com​要通过 proxy 访问 然后： 1 、保证 services.googleapis.cn​和*.xn--ngstr-lra8j.com​都是 direct 国内直连状态 或者 2 、保证 services.googleapis.cn​和*.xn--ngstr-lra8j.com​都是 proxy 访问状态 然后看了梯子（在路由器上的 passwall ），确实都是已经设置了。 然后目前发现用手机流量+v2rayng ，是可以下载的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231046#reply8
+
+---
+
+#### 8878. [V2EX] 网恋的结果是什么，要不要见面。
+
+**问题描述 / Problem Description**:
+我们认识一年零一个月了，准备线下见面，路途遥远，我坐火车 2000 多 KM ，她坐高铁 700 多 KM ，准备一起去玩三天半。 我刚刚买了车票，心里有点乱。 首先我没有旅游的习惯，出去玩宁愿在酒店呆着，我今年 29 ，在很多城市生活过，比如现在在北京读书，三年了，没有去过故宫、颐和园、环球影城之类的任何地方（倒是爬了不少野山、长城）。 其实我没那么喜欢她，虽然每天早安、晚安，很亲密，但是确实没那么喜欢她了。在这一年里，我和她认识的过程中至少和 5 个女生同时保持暧昧，线下有过亲密接触的有 3 个，不过最多只是边缘性行为，到真的插入的时候心理压力特别大，或者因为手淫的习惯没办法做到。跟她的认
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231035#reply32
+
+---
+
+#### 8879. [V2EX] 在 ai coding 的时候跨多 Agent，诸位是如何管理 skill 的呢
+
+**问题描述 / Problem Description**:
+我在用 Claude 、codex 、cursor 写东西。但是 skill 有时候是在 claude 生成的、有时候是在 codex 生成的，想要复用的时候就很麻烦，得手动告诉 agent 帮我搞到另一个 agent 里面。要不就是手动上传整理一个仓库，让 agent 自己去拉。好奇诸位大佬，有什么管理 skills 的心得或者工具推荐的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231026#reply4
+
+---
+
+#### 8880. [V2EX] mac 电池好换嘛
+
+**问题描述 / Problem Description**:
+电脑已用了 10 年，最新发现有点鼓包，但系统流畅度还在，咨询官方的电池要 1000 多，请问有什么好的替代方案嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231017#reply12
+
+---
+
+#### 8881. [V2EX] 大伙都用什么地图 app 啊？高德有时候也坑爹啊
+
+**问题描述 / Problem Description**:
+去新疆旅游，给的线路是好多年前的线路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231016#reply6
+
+---
+
+#### 8882. [V2EX] 现在在使用 codex cluade code 做小程序，移动端哪种好看的瓷片区一般都是怎么做到的，有无好的工具能够直接生成
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230970#reply0
+
+---
+
+#### 8883. [V2EX] 你们有没有觉得今天 codex 很耐蹬
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230969#reply2
+
+---
+
+#### 8884. [V2EX] ai 只是进入了公司，却没有进入业务
+
+**问题描述 / Problem Description**:
+很多公司只是把 ai 用于员工的提效，在业务上找不到切入点，只能在人身上找到突破口，毕竟玩人他们是专业的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230966#reply13
+
+---
+
+#### 8885. [V2EX] 想问问现在还能怎么开 claude 号
+
+**问题描述 / Problem Description**:
+最近除了让朋友在海外帮我开，封号就退款 封号就退款，但是时间久了也不是长事情 现在做中转站的兄弟都是怎么开号的呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230960#reply0
+
+---
+
+#### 8886. [V2EX] 打车高速上开启智能辅助驾驶后安心睡觉情况多吗?
+
+**问题描述 / Problem Description**:
+我最近三个月打车(滴滴平台)有 2 个司机开智驾睡觉，分母 8 次 是我个人样品数，还是现在平台上司机都如此恐怖 现在打车不敢睡觉，中途要确认司机没睡觉．．．
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230954#reply23
+
+---
+
+#### 8887. [V2EX] 求大家分享一些 Codex、ClaudeCode 的一些好用的技巧
+
+**问题描述 / Problem Description**:
+求大家分享一些例如双模开发 skills （ 5.6 sol 分配任务给 5.6 Terra 干，然后负责审查和重新触发）这样的技巧，想看看有没有能优化自己当前工作流的，万分感谢🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230952#reply3
 
 ---
