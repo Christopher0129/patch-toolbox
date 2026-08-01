@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8124**
+**总计条目 / Total entries: 8172**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -113582,5 +113582,629 @@ Submitted as a bug #1131413 , that has chance to be found a duplicate of #111847
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/805080/scanimage-returns-me-an-html-page-instead-of-the-wished-png-or-jpeg-on-debian-13
+
+---
+
+#### 8125. How do I merge root and home partitions on Debian 13 LUKS encrypted drive?
+
+**问题描述 / Problem Description**:
+Tags: debian, partition, hard-disk, luks, move-partition | Score: 0 | Views: 39 | Answers: 1 | Created: 2026-07-31
+
+**解决方案 / Solution**:
+yeah, you're missing things. None of what you describe is needed; both your home and root filesystems are not on partitions that need to be moved, but on LVM volumes, which makes this all a lot easier, because you don't need to move a single thing, don't need to boot off a separate device, and all this can potentially be done while your system is working. make a backup (not "of individual files"; make a proper backup to an external drive; restic is not very hard to use, but with deja-dup there's a nice graphical frontend. Don't make manual experiments with backups, you'll regret it. Many beginners do mistakes like copying their /home to an external drive's file system that doesn't support full UNIX attributes/xattrs, and that leads to tears, because that backup is not useful. Use a proven backup tool like restic / deja-dup ) I don't know whether the file system that stores your /home is possible to shrink (some are, some aren't. Ext4 is, XFS isn't, for example.). Figure out how much space your /home needs. So, two options for your first step: either shrink the filesystem if that is supported, or delete the /home-storing volume and restore it from backup. If you can shrink the filesystem, boot into an USB stick and shrink the home volume # assume you only need 200 GB, according to df -h /home on the sudo lvresize -L 200G --resizefs comp-vg/home If that doesn't work: recreate a smaller /home volume, and restore its contents from backup: make sure you know how to restore data from the restic backup from your live medium. delete the comp-vg/home LVM volume make a smaller volume of the same name, format it, and restore the backup to it. Then, after you either shrunk the /home volume or recreated it with smaller, enlarge the / volume to take up all the freed space: sudo lvresize -l+100%FREE --resizefs comp-vg/root That's it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806877/how-do-i-merge-root-and-home-partitions-on-debian-13-luks-encrypted-drive
+
+---
+
+#### 8126. Lacking sda folder for booting in GRUB2 CLI
+
+**问题描述 / Problem Description**:
+Tags: linux, command-line, grub2 | Score: 0 | Views: 38 | Answers: 2 | Created: 2026-07-31
+
+**解决方案 / Solution**:
+Answering GRUB CLI question. In GRUB CLI you can use the command configfile (disk)/path/to/grub.cfg If this grub.cfg contains menuentry statements, this menu should be shown. Notice that $prefix , automatically set by GRUB, could be incorrect (or, better, the grub.cfg may expect $prefix to be set differently), so it makes sense to change it to the location of grub.cfg before invoking configfile command: set prefix=(hd0,5)/boot/grub configfile $prefix/grub.cfg Adjust for your actual device and path.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806866/lacking-sda-folder-for-booting-in-grub2-cli
+
+---
+
+#### 8127. Linux desktop market share has hit over 10% in North America
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/
+
+---
+
+#### 8128. Linux global desktop market share passes 7%
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcpv6a/linux_global_desktop_market_share_passes_7/
+
+---
+
+#### 8129. We are the...46%?!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcvh1n/we_are_the46/
+
+---
+
+#### 8130. EU Digital ID/Age Verification app will require hardware attestation, ruling out PC/Linux support and unapproved Android OSes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcspqj/eu_digital_idage_verification_app_will_require/
+
+---
+
+#### 8131. Lazarus FreePascal IDE: Gtk3 becomes default widgetset on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vckcnt/lazarus_freepascal_ide_gtk3_becomes_default/
+
+---
+
+#### 8132. AMD Begins Posting Display Core Next 6 "DCN6" Linux Patches For RDNA5 GPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcn27n/amd_begins_posting_display_core_next_6_dcn6_linux/
+
+---
+
+#### 8133. The First Open-Source Firmware Released For Modern AMD Ryzen AM5 Platform
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbze8o/the_first_opensource_firmware_released_for_modern/
+
+---
+
+#### 8134. Master Blaster – A simple Qt6 SoundFont manager for Creative EMU10K1 sound cards.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcz9of/master_blaster_a_simple_qt6_soundfont_manager_for/
+
+---
+
+#### 8135. Arch Linux AUR Under Another Wave Of Malicious Packages, Package Adoptions Halted (CachyOS)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vc3dqn/arch_linux_aur_under_another_wave_of_malicious/
+
+---
+
+#### 8136. Avis Imgv - A fast and user expandable image viewer [No LLM Programming]
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcqkge/avis_imgv_a_fast_and_user_expandable_image_viewer/
+
+---
+
+#### 8137. The New DE/WM KineticWE
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vco2i6/the_new_dewm_kineticwe/
+
+---
+
+#### 8138. Can I require LUKS to use both the passphrase and Yubikey?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcbulm/can_i_require_luks_to_use_both_the_passphrase_and/
+
+---
+
+#### 8139. Is PipeWire still unusable for Pro Audio in 2026? Is it even aiming for that?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbwta0/is_pipewire_still_unusable_for_pro_audio_in_2026/
+
+---
+
+#### 8140. Some insight on future performance fixes for multi-gpu setups in KDE
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbxmu4/some_insight_on_future_performance_fixes_for/
+
+---
+
+#### 8141. [Linux Kernel] Intel Arc A770 QSV Encoding Benchmark: The New 'Xe' Driver vs Legacy 'i915' (DG2 HuC Patched!)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vceugf/linux_kernel_intel_arc_a770_qsv_encoding/
+
+---
+
+#### 8142. Interestingly long list of 10 scoring CVEs Today
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcvg62/interestingly_long_list_of_10_scoring_cves_today/
+
+---
+
+#### 8143. June in Servo: real world compat, media queries, SharedWorker, and more!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbzj7p/june_in_servo_real_world_compat_media_queries/
+
+---
+
+#### 8144. Linux 7.3 Will Treat Intel Nova Lake S Graphics As Stable
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbjwhk/linux_73_will_treat_intel_nova_lake_s_graphics_as/
+
+---
+
+#### 8145. OpenCalc: improved Linux support!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vc4hwz/opencalc_improved_linux_support/
+
+---
+
+#### 8146. [Fresh Install] Samsung MZAL NVMe drops to D3cold and fails to wake (Ryzen 5 5600U)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vcibtw/fresh_install_samsung_mzal_nvme_drops_to_d3cold/
+
+---
+
+#### 8147. The Fedora 45 Sausage Factory
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbmdgn/the_fedora_45_sausage_factory/
+
+---
+
+#### 8148. who is lazy vim for?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbqlvd/who_is_lazy_vim_for/
+
+---
+
+#### 8149. dotz 0.2 - Terminal image and video previewer in Braille art
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbr066/dotz_02_terminal_image_and_video_previewer_in/
+
+---
+
+#### 8150. AMA Today: Yuhang Wu (Ex-Tesla & TikTok) Red Team Engineer & Exploit Developer | Linux Kernel Exploit Creator
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbtrdb/ama_today_yuhang_wu_extesla_tiktok_red_team/
+
+---
+
+#### 8151. Nokia N900 / Maemo 5 wallpapers upscaled
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vbl157/nokia_n900_maemo_5_wallpapers_upscaled/
+
+---
+
+#### 8152. [V2EX] macOS 原生终端 Termite 1.10 版本发布
+
+**问题描述 / Problem Description**:
+分屏里的 agent 停下来等输入时:橙色边框 + 菜单栏角标 + 系统通知,⌘J 一键跳过去 侧边栏切项目,标签栏只显示当前项目的标签 重启 App 会话完整恢复(窗口/分屏/屏幕内容) SwiftUI + AppKit 原生,不是 Electron;Shell 集成零配置(⌘↑↓ 按命令跳转、复制上条输出) macOS 15+,免费。 官网: https://termite.xinghelee.com GitHub: https://github.com/xinghelee/Termite 安装: brew install --cask xinghelee/tap/termite 欢迎拍砖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231491#reply0
+
+---
+
+#### 8153. [V2EX] [脑洞] 既然编程生产力如此高了，为什么不众程序员协作重建 BAT/TMD 让中心化的平台暴利回归用户实现普惠互联？
+
+**问题描述 / Problem Description**:
+如题，20 美元的 Claude 都蹬不完，技痒总觉得某个伟大的项目等待着众程序员一起去蹬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231482#reply11
+
+---
+
+#### 8154. [V2EX] Raft(slock.ai)的完美实践是怎么样的？
+
+**问题描述 / Problem Description**:
+本身的需求是主力 codex pro ，公司的 openrouter+claude code ，有时候也会跑跑 ds+claude code 。会开很多本地桌面端，时常还需要用 cc-switch 来切换。 再加上一直想云端开发，发现 Raft( slock.ai ）非常不错，但是只能看到一些很简单的实践，比如组一个工程师 team 之类的。 大概用了几天，发现体验还是不太好的。 项目多了之后，频道和 agent 也会变多，取名和生成头像也很耗费时间。 每个 agent 独立 workspace, 当 gpt 作为开发，opus5 作为 reviewr 的场景下，可能都要随时 pull 更新代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231480#reply0
+
+---
+
+#### 8155. [V2EX] deepseek-v4-flash-0731 感觉把国产模型价格打穿了，还买啥 coding plan。
+
+**问题描述 / Problem Description**:
+第一次有种 token 自由的感觉.. 现在用不出来跟 deepseek-v4-pro-preview 有何区别，只感觉更快了更便宜了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231459#reply2
+
+---
+
+#### 8156. [V2EX] 有没有 max20 拼车的，看到一个保封的，测试观察了几天还没封
+
+**问题描述 / Problem Description**:
+一个人买太贵了，看到有一个保封的 2000 ，我在他给的测试环境下面用了几天目前还没封 有的话可以发 waga5283@agent.qq.com ，一起拼 不是广，纯拼车，一分钱不赚你的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231410#reply0
+
+---
+
+#### 8157. [V2EX] 现在做 API 中转站怎么样？
+
+**问题描述 / Problem Description**:
+目前有不少客户来询问中转站的，现在 API 中转站很火了吗? 大多有什么样的配置需求和带宽需求？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231408#reply21
+
+---
+
+#### 8158. [V2EX] 请职场大佬请教，准备跳槽前应该是一个什么状态
+
+**问题描述 / Problem Description**:
+这周突然被调去另一个组支撑几个月，但是我已经不想在这儿干了。 能在新组这里摆烂吗，一种什么程度的摆烂比较好呢，就这两个月找找下家了。 譬如说今天早上新组的负责人突然周末拉人干活，我应付了两句就关机刷题去了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231406#reply9
+
+---
+
+#### 8159. [V2EX] 7 月份独立开发复盘
+
+**问题描述 / Problem Description**:
+Figma 插件流量稳定下滑，看不到上升空间了，这个月带来 $259 的收入 Uwarp 站点流量持续上升，通过 Google Adsense 带来了 $60 的收入 Becahrts 依旧是僵尸状态，没有多少流量 距离今年的月入千刀目标依旧遥远，独立开发太难熬了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231403#reply24
+
+---
+
+#### 8160. [V2EX] Codex 叒重置了, 各位冲啊
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231402#reply5
+
+---
+
+#### 8161. [V2EX] （新产品测试）Linkit 一款跨平台收藏夹管理 桌面端应用
+
+**问题描述 / Problem Description**:
+Linkit 一款跨平台收藏夹管理 桌面端应用 我做了一个桌面书签管理器，尝试更智能、更美观的书签管理。Ctrl+L 显示隐藏程序。 仓库地址： https://github.com/blue-idea/linkit 正文 先说结论： Linkit 是一款跨平台桌面应用，用来收藏、整理和重新发现你保存过的一切网页资源。 为什么又造了一个书签工具？ 我用过 Raindrop 、Notion 、浏览器收藏夹，最后发现一个共同问题： 收藏是终点，而不是起点。 东西存进去就再也找不到，或者找到了也不知道当时为什么收藏。时间一长，收藏夹变成了数字垃圾桶。 Linkit 想解决的就是这个问题。 它和普通书
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231401#reply1
+
+---
+
+#### 8162. [V2EX] 兄弟们， codex 又重置了~
+
+**问题描述 / Problem Description**:
+兄弟们，codex 又重置了~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231398#reply0
+
+---
+
+#### 8163. [V2EX] DeepSeek 官方 Harness 不一定会开源
+
+**问题描述 / Problem Description**:
+官方 DeepSeek Harness 没有一点点开源迹象，看起来像是被当作闭源产品在推进。 近期传闻 ： 7 月下旬，社区流传内测招募截图，称 Harness 计划本周晚些时候开启内测。首批用户从小型群组筛选，需提交个人资料并签署《保密承诺函》；泄密不仅取消本次资格，还会影响后续 DeepSeek 模型/产品内测和合作机会。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231389#reply8
+
+---
+
+#### 8164. [V2EX] 在 DeepSeek 官方 Harness 没有出来之前，用什么 Agent 更好？
+
+**问题描述 / Problem Description**:
+opencode claudecode codex Pi Zcode …… 选择太多了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231381#reply54
+
+---
+
+#### 8165. [V2EX] AI Code Review 是不是更适合做低噪声筛查，而不是合并闸门？
+
+**问题描述 / Problem Description**:
+最近在看 GitHub 周榜里的 alibaba/open-code-review 。它没有只靠一段 prompt 审 diff ，而是把文件筛选、关联文件分组、规则匹配、评论定位这些步骤做成确定性流程，再让 LLM agent 负责读上下文和判断问题。 更值得讨论的是它公开写出的取舍：项目方自己的 benchmark 里，precision 和 F1 高于通用 agent ，token 大约是后者的 1/9 ，但 recall 更低。这个结果目前仍是项目自测，不是独立评测，不过取舍本身很现实。 如果 precision 高，开发者收到的误报更少，评论才更可能被认真看；但 recall 低，意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231364#reply0
+
+---
+
+#### 8166. [V2EX] 你们是怎么将文档和代码对齐的？
+
+**问题描述 / Problem Description**:
+以及修改代码后如何保证文档不被改烂，还有就现在 agent 的输出都能读下去吗？如何应对高信息密度的输出和那些令人抓狂的内容。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231356#reply12
+
+---
+
+#### 8167. [V2EX] 在浏览器里跑真· Linux 读我的博客，这波操作什么水平？🔥
+
+**问题描述 / Problem Description**:
+事情是这样的——我一直想在博客上加个“终端版”访问入口，但去年觉得太麻烦就鸽了。 结果上个月我试了把 Vibe Coding （就是全程跟 AI 聊天写代码），居然真给捣鼓出来了，而且效果离谱得好…… 现在你可以在浏览器里直接用真正的 Linux 内核（ WASM 版）访问我的博客 ，不是模拟，不是装样子，是真的 busybox + shell + wget ，还能 cat 文章、看评论，甚至联网。 基于 WASM Linux 项目，纯正内核，跑在浏览器里 我给上游提了 issue ，作者大佬第二天就修了 bug ，强得可怕😨 AI 帮我写了设备驱动、网络网关、交互脚本，我主要负责提需求和喊“
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231355#reply9
+
+---
+
+#### 8168. [V2EX] 目前各个大模型厂家 token 耗费数量还都是黑盒？
+
+**问题描述 / Problem Description**:
+实现一个需求，或者有时候让改一个小功能之前，大概会用掉多少 token ，其实也就是多少费用，你们心里有数么？ 我有时候一个小需求，结果 cc 跑了半天，token 耗费巨多。 有时候，我心里预期可能会耗费蛮多的 token ，让它去处理一个大的 word 文件啥的，结果只耗费了少许。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231349#reply6
+
+---
+
+#### 8169. [V2EX] 大模型公司之间的竞争太惨烈了。。。。。。
+
+**问题描述 / Problem Description**:
+之前说国外模型领先国内一年半，目前看，平时写写代码，国内的模型现在也能用了， 比如 Kimi K3 ，Glm5.2 ，比如 刚出的 Deepseek V4 Flash ，包括 Grok4.5 也是又快又便宜 Anthropic 和 OpenGpt 的价格总的来说要贵很多，fable ，opus5 ，gpt 5.6sol 等等， 不过最近也一直在做活动，相信 a 家这价格应该抗不了了多久的 也就是说这些模型之间差异化不够，垄断性不够，导致大部分人都定了多家的套餐，今天用这个，明天可能就用那个，很难说一直用某一个。但是如果一单某一些模型基本能力达到一定水准，比如 Deepseek v4 flash
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231347#reply17
+
+---
+
+#### 8170. [V2EX] 求个 star 做了个小工具可以看 dota 对局记录
+
+**问题描述 / Problem Description**:
+可以筛出当前段位的低胜率英雄然后狠狠拷打挚友 基本我干的活儿就是微调,配置 cicd, nginx, wrk 压测 还有 docker compose up 启动 ai 干的活儿是画 ui 搞后端 api 限速锁缓存锁 ttl 啥的 因为我 v 社的 api 和 opendota 的 api 都调用了所以要是自用的话得去 v 社搞一个 apikey 然后 env 配置一下就行 demo 地址 https://dota.zhangkun.dev/ 项目地址 https://github.com/zk39/dota-stat 差不多长这样 https://imgur.com/IDpLKN8 htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231340#reply0
+
+---
+
+#### 8171. [V2EX] Mac 原生 SSH 终端增加 AI 辅助维护服务器
+
+**问题描述 / Problem Description**:
+原生，免费，开源。 简单做了个网站。 berth.xinghelee.com/zh/ berth 增加了 AI 的支持。 可以直接让 AI 辅助你维护服务器。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231332#reply0
+
+---
+
+#### 8172. Failed to Start After Moving /var to Another Drive
+
+**问题描述 / Problem Description**:
+Tags: centos, rsync, var | Score: 1 | Views: 232 | Answers: 1 | Created: 2023-01-16
+
+**解决方案 / Solution**:
+In recovery mode: chroot into your system mount /var if it's not mounted restorecon -rv /var and then try booting normally again. Make sure your /var entry in /etc/fstab is correct.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/731959/failed-to-start-after-moving-var-to-another-drive
 
 ---

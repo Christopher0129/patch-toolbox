@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7792**
+**总计条目 / Total entries: 7856**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -105596,5 +105596,837 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230857#reply14
+
+---
+
+#### 7793. I am now the proud owner of a permanent trash item thanks to Microsoft. It cannot be deleted or moved out or copied over.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcxuro/i_am_now_the_proud_owner_of_a_permanent_trash/
+
+---
+
+#### 7794. Introducing SuperCmd v2 — Blazing-fast MacOS Launcher built in swift, Raycast v2 alternative
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcmfz2/introducing_supercmd_v2_blazingfast_macos/
+
+---
+
+#### 7795. Purge - free, open source cache cleaner for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vchqcf/purge_free_open_source_cache_cleaner_for_macos/
+
+---
+
+#### 7796. AeroSpork is a FOSS, i3-like, window tiling manager based on AeroSpace
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vco9b0/aerospork_is_a_foss_i3like_window_tiling_manager/
+
+---
+
+#### 7797. How I can change from zsh shell to bash shell on Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcnuh2/how_i_can_change_from_zsh_shell_to_bash_shell_on/
+
+---
+
+#### 7798. Is it true Apple is dropping support for their very own Apple SuperDrive with MacOS GOLDEN GATE?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vbvib4/is_it_true_apple_is_dropping_support_for_their/
+
+---
+
+#### 7799. DeltaSnap — native file version control using APFS snapshots for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcifp3/deltasnap_native_file_version_control_using_apfs/
+
+---
+
+#### 7800. Issue with uploading photos to reddit and it happens only on my MAC
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcxplk/issue_with_uploading_photos_to_reddit_and_it/
+
+---
+
+#### 7801. Safari certificate errors after upgrading to macOS Sonoma 14.8.8 — Chrome works normally
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vd00fy/safari_certificate_errors_after_upgrading_to/
+
+---
+
+#### 7802. QKB - One Shortcut, Different Actions in Every Mac App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcon16/qkb_one_shortcut_different_actions_in_every_mac/
+
+---
+
+#### 7803. [OS] Keychange: a free macOS app that changes input sources when you change keyboards
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcltl3/os_keychange_a_free_macos_app_that_changes_input/
+
+---
+
+#### 7804. External Display Only: auto-disable built-in display when using an external monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcp7vn/external_display_only_autodisable_builtin_display/
+
+---
+
+#### 7805. Gloss | Intelligent Text Expansion
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcwiw2/gloss_intelligent_text_expansion/
+
+---
+
+#### 7806. [OS] QuickLook on Google Drive stub files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcvtbi/os_quicklook_on_google_drive_stub_files/
+
+---
+
+#### 7807. Native light weight Logi Options alternative for mx master 3/3s
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcv455/native_light_weight_logi_options_alternative_for/
+
+---
+
+#### 7808. Is there a way to customize the Shortcuts app's Notifications?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcu5s5/is_there_a_way_to_customize_the_shortcuts_apps/
+
+---
+
+#### 7809. Finder search not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vclj2j/finder_search_not_working/
+
+---
+
+#### 7810. StickIt – Modern Sticky Notes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vctz7r/stickit_modern_sticky_notes/
+
+---
+
+#### 7811. MacOS Tahoe shows old unibody circa 2012 MacBook Pro when you search for "Computer"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vctez3/macos_tahoe_shows_old_unibody_circa_2012_macbook/
+
+---
+
+#### 7812. Apple Posts Record June Quarter, Warns Supply Constraints Are Coming
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vc4h08/apple_posts_record_june_quarter_warns_supply/
+
+---
+
+#### 7813. Can't activate Spotlight Search on old Mac (High Sierra 10.13).
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcstob/cant_activate_spotlight_search_on_old_mac_high/
+
+---
+
+#### 7814. FTP Clients with Certain Features
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcs7df/ftp_clients_with_certain_features/
+
+---
+
+#### 7815. Arras (prev. Tableau) just crossed 100 downloads!! A new update dropped for a big milestone.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcs4m5/arras_prev_tableau_just_crossed_100_downloads_a/
+
+---
+
+#### 7816. SnipNotes - A Mac notes app designed for quick capture. And what happens afterward
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcrsi3/snipnotes_a_mac_notes_app_designed_for_quick/
+
+---
+
+#### 7817. Menu Bar Icons Flicker During Light/Dark Background Transitions on macOS 26
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vcr65y/menu_bar_icons_flicker_during_lightdark/
+
+---
+
+#### 7818. [V2EX] 绝版 Setapp 家庭版车位
+
+**问题描述 / Problem Description**:
+Setapp 19 年绝版家庭订阅车位一个，具体介绍自行了解。 今年有个下车的，空出一位。26 年 5 月 24 号刚续期的，今年¥206 。 独立账号，每个账号可用 2 个 Mac 授权，1500 点 AI 模型余额。 WX：MzI5Mzg2NjI=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231366#reply1
+
+---
+
+#### 7819. [V2EX] macos 中，休眠一段时间和触控板拖动变得卡顿， windowserver 进程 CPU 占用超过 30%，可能是什么原因
+
+**问题描述 / Problem Description**:
+操作系统：macos 26.5 arm 安装的软件：karabiner-elements （未处理鼠标事件）, linearmouse 触发条件：未知，通常在笔记本夜晚休眠后触发 外设：笔记本自带触控板，通过蓝牙连接的罗技鼠标（未安装 logi options+） 问题描述： 电脑休眠一晚上后，再唤醒，可能有一定概率出现这种问题：触控板按压拖动时，反应及其卡顿，甚至通过触控板移动鼠标指针时都会发生卡顿；触控板三指拖移则非常流畅无卡顿；鼠标交互和拖动也很流畅。用任务管理器查看进程，WindowServer 的 CPU 占用会常年上 30%。 重启 windowserver 进程后，触控板按压拖移
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231108#reply7
+
+---
+
+#### 7820. [V2EX] macOS 27 public beta 现在的兼容性怎么样了？
+
+**问题描述 / Problem Description**:
+想升级 macOS 27 ，但是不清楚 public beta 兼容性怎样，担心出现严重兼容性问题。 大家使用过程中有没有遇到不兼容的软件？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230950#reply11
+
+---
+
+#### 7821. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply76
+
+---
+
+#### 7822. [V2EX] 有没有一个多显示器多工作区自动恢复窗口布局的 macOS 程序？
+
+**问题描述 / Problem Description**:
+说一下我的需求： 3 个显示器，每个显示器下有多个工作区 同时开许多程序，有些程序会同时开多个窗口（例如 Cursor ） 希望能一键恢复窗口布局，我尝试过这类程序都不支持多工作区布局（只能设置某程序在某个显示器当前的工作区上，不支持设置在非活跃工作区上） 例如 A 显示器有 a1 a2 a3 工作区，B 显示器有 b1 b2 b3 工作区，我希望能精确控制每个程序的某个窗口在某个工作区 有时后会把笔记本带出门，此时就只有一个显示器+多个工作区，此时窗口的布局逻辑和多个显示器时不一样，相当于有两套布局方式。 接上或拔掉显示器的时候，会自动恢复对应的窗口布局方案 我有一个疑问，这个需求应该是使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230316#reply19
+
+---
+
+#### 7823. [V2EX] iOS 27 pb， APP 更新完小组件都失效了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231368#reply4
+
+---
+
+#### 7824. [V2EX] MacBook Pro 14 英寸， 2021 年（Apple M1 Pro）支持外接两台 120Hz 4k 显示器吗
+
+**问题描述 / Problem Description**:
+请问大家这款 MacBook Pro 可以通过双雷电口外接两台高刷显示器，并且不关闭笔记本的屏幕吗？求教大家都是怎样实现的，对显示器有要求吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231257#reply5
+
+---
+
+#### 7825. [V2EX] 如果下个月 AI 按 Apple ID 来区分的话，是不是还得注册个港区的 iD？
+
+**问题描述 / Problem Description**:
+目前是国区 ID+美区商店；AI 是跑马灯。 我看好多用外区 ID 的，直接跑的是最新的 AI。 本来想转区的，但是貌似还得留一个国区的来下载一些国区的特色 APP。 那么注册新的话，直接所有设备退出旧 ID，保留资料，登录新 ID 就可以还是需要重新走激活流程？ 另外我现在 iCloud 家庭组里，还有一个共享图库～这个共享图库是不是所有的都在同一个区？ 不能我设备港区 ID，家里人设备国家 ID？ 如果需要在一个区的话，这个共享图库是不是先存所有退出，都换了后再新建？ 求佬解答～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231015#reply7
+
+---
+
+#### 7826. [V2EX] 国区支付，各位日常使用什么方式
+
+**问题描述 / Problem Description**:
+之前一直认为应该是银行卡排第一 由于日常 iPhone 做备用机， 今天看到 V 友说国区充值有+10% 的折扣，准备薅一下 同时公交卡🚌 代替 NFC 门禁说了很久，想一并添加 结果付款界面来回跳转，先 WeChat，又 UnionPay，各种验证&确认，最后都没搞成 😣 看到列表里有 Alipay，活马医的心态添加了下， 操作充值，不能说全程丝滑 （付款成功后一直卡在转圈无自动跳转）但起码可用了 操作公交卡，全程就比较顺畅，比在账号里直接添加公交卡还顺畅 感觉不太科学，国区支付宇宙的尽头，难道是 Alipay？🤔 是不我打开的方式不对？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230961#reply3
+
+---
+
+#### 7827. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply46
+
+---
+
+#### 7828. [V2EX] M1 Max 能装 macOS 27 Public Beta 么？
+
+**问题描述 / Problem Description**:
+M1 Max (64+1) 能装 macOS 27 Public Beta 么， 装了 27 的 V 友说说体验？ 目前还是 15.7.7 ，唯一生产设备，不敢乱更新！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230815#reply16
+
+---
+
+#### 7829. [V2EX] 微信在 Mac 上频繁闪退（等）
+
+**问题描述 / Problem Description**:
+主要表现在 - 使用中忽然闪退，需重新打开 - 自带微信输入法无法输入中文（🌍键 语音转文字反而可以） - 时不时弹出窗口，告知微信输入法在后台运行 - 搜索表情包显示空白 期间 升级微信、重启、（彻底）卸载微信输入法重装 可以解决部分问题，但“闪退”今天又发生两次 😠 微信版本 - 4.1.12.29 Mac OS - 27.0 Beta (26A5388g) # 实际上从 26.5 正式版就开始有了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230811#reply7
+
+---
+
+#### 7830. [V2EX] giffgaff 收到邮件终止服务， esmi 还可以正常用咋回事
+
+**问题描述 / Problem Description**:
+giffgaff 收到邮件终止服务，单 esmi 还可以正常用咋回事，昨晚收到短信，今天早上还收到短信，而且可以上网
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230578#reply28
+
+---
+
+#### 7831. [V2EX] 小孩子照片比较多，目前存在 icloud 2t，有什么什么比较优雅的实体备份方式？
+
+**问题描述 / Problem Description**:
+想要快速备份，想留住小孩子的点点滴滴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230534#reply47
+
+---
+
+#### 7832. [V2EX] iOS26.6 续航好像又可以了
+
+**问题描述 / Problem Description**:
+如图，手机是 15Pro ，早上刚升，今天的电量损耗感觉比之前好多了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230531#reply16
+
+---
+
+#### 7833. [V2EX] 19 年的 MBP 坏了
+
+**问题描述 / Problem Description**:
+前几天休假把最后一代 intel 版本的 MBP 带回家，期间只开机处理了一些事情后关机，等周一过来上班，发现打不开电脑了。 带过去修，维修的师傅直接说烧了主板上的芯片，我最近修了很多了，我网上搜了下，好像是这代的通病。最后花了 750 快，intel 版本的 mac 是真的容易坏。 要不是当时买的顶配的配置我早就换电脑了。 https://wsrv.nl/?url=https%3A%2F%2Fexternal-content.duckduckgo.com%2Fiu%2F%3Fu%3Dhttps%253A%252F%252Fi.imgur.com%252FctJ69mc.png&default
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230410#reply31
+
+---
+
+#### 7834. [V2EX] 如何才能成功注册 Kliq 用于绑定土区
+
+**问题描述 / Problem Description**:
+试了 ultra/gg/talktone 都报错无法发送验证码，间隔好几天断断续续试了很多次 试了土区 IP 、美国 IP 都不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230123#reply15
+
+---
+
+#### 7835. [V2EX] 现在 mba 32g+512 有好价吗？
+
+**问题描述 / Problem Description**:
+想把手里的丐版 M4 macmini 出掉，换个 macbook air 32g+512 的，自从涨价后才发现很香，还是很后悔没有换的，现在有什么便宜的渠道吗？以旧换新？二手？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230117#reply9
+
+---
+
+#### 7836. [V2EX] OpenAI 的十个重大数学成果：数学核爆已成常态
+
+**问题描述 / Problem Description**:
+虽然已经知道 AI 在理论空间的探索速度远超人类，但是进度比预想中的更快，还是有一点五味杂陈 越靠近理论空间的探索性质的工作量越容易被爆 OpenAI 的十个重大数学成果：数学核爆已成常态
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231496#reply0
+
+---
+
+#### 7837. [V2EX] Claude Code 是不是挺长时间没有更新了
+
+**问题描述 / Problem Description**:
+翻了一下更新日志 2.1.220 版本是 7 月 25 号发布的，再往前基本上是日更，是在憋什么大更新吗？ 更新日志地址： https://code.claude.com/docs/en/changelog
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231486#reply0
+
+---
+
+#### 7838. [V2EX] 领赛博鸡蛋了！又一个大厂（基元律动）可以领 Token 了 注册送 68 元。
+
+**问题描述 / Problem Description**:
+基元律动注册送 68 元，注册链接（有 aff ） https://tokenrhythm.studio/i/rf_tr_ORRZ-SzHjVTmlQvQAK_79-w_ 不知道什么原因，图传不上去，手动复制了下模型列表： deepseek-v4-flash deepseek-v4-pro glm-5 glm-5.1 glm-5.2 kimi-k2.5 kimi-k2.6 kimi-k2.7-code mimo-v2.5-pro minimax-m2.5 minimax-m2.7 qwen-image-2.0 qwen3.7-max wan2.7-image
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231470#reply0
+
+---
+
+#### 7839. [V2EX] 8 月份网易云音乐黑胶会员领取，天数随机
+
+**问题描述 / Problem Description**:
+1http:/$BBRJFn2efbb793$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 贱***叔 送你网易云音乐 8 月黑胶会员卡，领取享 20+会员权益。 https://163cn.tv/bcb9LndG 日常分享，欢迎领取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231453#reply0
+
+---
+
+#### 7840. [V2EX] 今天怎么回事？ x 都在发收益？
+
+**问题描述 / Problem Description**:
+有玩 x 的 v 友吗？真的这么赚？我也转行了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231452#reply8
+
+---
+
+#### 7841. [V2EX] 英格兰及威尔士慈善委员会注意到最近来自 Giffgaff 用户的捐款突增
+
+**问题描述 / Problem Description**:
+或许是这个帖子起到了作用？ /t/1230828 注：内容来自网络，真实性未验证。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231407#reply6
+
+---
+
+#### 7842. [V2EX] 打电话的信用都负数了，一天里 90%来电都是垃圾电话
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231377#reply5
+
+---
+
+#### 7843. [V2EX] 加拿大 Coldcard 硬件钱包生成的随机数不安全，导致大量 BTC 被盗，草台班子
+
+**问题描述 / Problem Description**:
+报道 https://mp.weixin.qq.com/s/sZptPd_d2eUbjFeZsI8Aog 就因为偷懒使用了简单的随机数生成算法，酿成大祸。 官网连续发文，但是没有赔偿的意思。。。 https://x.com/COLDCARDwallet/status/2083081854597374168 用这种草台班子，还不如写纸上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231370#reply5
+
+---
+
+#### 7844. [V2EX] SenseNova U1.5-Lite-Preview 开源了： 4K 生成、复杂排版和原生图像编辑
+
+**问题描述 / Problem Description**:
+这次目前只开源了权重，我还没饭判断本地部署的成本，把主要功能放在这儿 原生 4K 图像生成 U1.5 重新设计了图像生成头，并把训练扩展到 4K 分辨率。 这部分主要改善： 局部纹理和高分辨率细节 材质表现 光影一致性 视觉 Token 网格产生的痕迹 拼接缝和破损纹理 中英文文字和复杂排版 这次更新加强了中文、英文文字生成，以及海报、信息图和品牌视觉中的复杂布局 简单任务仍然可以使用短提示词, 长提示词和 JSON 一类的结构化指令主要用于提高复杂任务的可控程度，不是每次生成都需要写几千字 这个方向对海报和信息图比较实用。这类任务的难点通常不在于生成一张好看的背景，而在于同时处理文字、层级、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231358#reply0
+
+---
+
+#### 7845. [V2EX] 做了一个 Neovim 里的 AI 编程 Agent 前端 pi2.nvim，开源求交流
+
+**问题描述 / Problem Description**:
+背景 一直在用 pi coding agent 做日常开发，它是一个极简的终端 AI 编程 agent （类似 Claude Code / Codex CLI ，但更轻量、可定制）。上游有个 Neovim 前端 alex35mil/pi.nvim ，我在上面加了不少自己需要的功能，越加越多，最后独立成了 pi2.nvim （π²），MIT 开源。 声明：pi2.nvim 是 alex35mil/pi.nvim 的 fork ，基础架构（ RPC 桥接、chat 布局、diff review 、session 管理）全部来自上游，在此致谢。本文只聊 fork 新增的部分。 演示 Agent 读文
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231354#reply0
+
+---
+
+#### 7846. [V2EX] gemini pro 额度该咋办，怎么消耗掉？
+
+**问题描述 / Problem Description**:
+各位你们都用 gemini pro 做什么，我现在尴尬了。 充了会员，但是发现好像性能不如 deepseek ，功能不如 codex ，速度不如 grok 。 我该怎么用掉剩下的 gemini 额度==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231323#reply6
+
+---
+
+#### 7847. [V2EX] GiffGaff 又复活了？
+
+**问题描述 / Problem Description**:
+We see you’ve checked in with us again. It’s great to have you back in the world of active giffgaff members. This means your giffgaff number (***) is safe and will stay yours. Thanks for sticking around. Bye for now, The giffgaff team 突然收到邮件，咋又活了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231307#reply21
+
+---
+
+#### 7848. [V2EX] 基元律动准备引入正式版 ds v4 flash
+
+**问题描述 / Problem Description**:
+帮我助力，一起拿大奖！完成注册即可获得 68 元免费 token 额度 https://tokenrhythm.studio/i/rf_tr_CEM1q6Rw3YK-PwxTYyqNwHBw
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231274#reply10
+
+---
+
+#### 7849. [V2EX] DeepSeekv4Flash 正式版上线公测，测试多方位超越 GLM5.2!！
+
+**问题描述 / Problem Description**:
+看了眼官方群，官方发布了正式版公测： DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力大幅增强 2026 年 7 月 31 日，DeepSeek-V4-Flash 正式版 API 上线公测。 官方公布的基准测试结果显示，正式版在图中 9 项 Agent 测试中均超过 DeepSeek-V4-Pro-Preview ，相比 V4-Flash Preview 也有明显提升。 完整成绩对比： 基准测试 V4-Flash 0731 Flash Preview V4-Pro Preview GLM-5.2 Opus-4.8 Terminal Bench 2.1 82.7 6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231267#reply0
+
+---
+
+#### 7850. [V2EX] DeepSeek-V4-Flash 正式版 API 上线公测了啊，各位看官以为如何？
+
+**问题描述 / Problem Description**:
+偷摸上线，小梁怎么回事
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231260#reply1
+
+---
+
+#### 7851. [V2EX] deepseek 也只更新 flash
+
+**问题描述 / Problem Description**:
+前有谷歌一拖再拖, 只放流 flash 现在 deepseek 也学到了 deepseek-v4-flash 模型版本已更新为 DeepSeek-V4-Flash-0731 ，调用方法不变，使用 deepseek-v4-flash 即可调用最新版本。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231258#reply0
+
+---
+
+#### 7852. [V2EX] 我让 AI 参与维护 9 台 NixOS（下）：协作流程、证据边界与风险
+
+**问题描述 / Problem Description**:
+前两篇分别介绍了 NixOS 的声明式基础，以及权限、secrets 、存储、监控、测试和任务验证中 的真实案例。最后一篇讨论护栏之外的部分：NixOS 依然解决不了哪些 AI 风险，哪些动作不应 默认授权，以及怎样把整套协作流程长期维护下去。 本文涉及的公开配置与实现： LokiSharp/nix-config 。 真实凭据保存在独立私有仓库中，不包含在公开配置里。 十八、NixOS 也解决不了的 AI 风险 前面一直在讲 NixOS 如何约束 AI ，但不能因此把 NixOS 描述成安全沙箱。它只是让一部分状态 更可见，并没有消除以下风险。 1. 仓库并不一定等于现实 声明式系统最容易让人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231237#reply0
+
+---
+
+#### 7853. [V2EX] 我让 AI 参与维护 9 台 NixOS（中）：权限、故障案例与实战方法
+
+**问题描述 / Problem Description**:
+上一篇讨论了 NixOS 为什么适合与 AI 协作，以及怎样把主机地址、SSH 安全和 Test 金丝雀 发布变成机器可验证的约束。这一篇进入更接近真实运维的部分：权限、secrets 、存储、告警 和测试中的失败案例，以及如何向 AI 描述任务、如何判断验证证据。 本文涉及的公开配置与实现： LokiSharp/nix-config 。 真实凭据保存在独立私有仓库中，不包含在公开配置里。 七、案例四：健康检查不应该等于给 AI 一个 root shell 为了让 AI 能部署后验证节点，最简单的办法是允许它 SSH 到 root ，然后运行任意命令。 我认为这不是一个好边界。 现在健康检查通
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231220#reply0
+
+---
+
+#### 7854. [V2EX] 快进入梁圣阶段了， DeepSeek-V4-Flash 正式版上线！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231216#reply62
+
+---
+
+#### 7855. [V2EX] 我让 AI 参与维护 9 台 NixOS（上）：为什么声明式系统适合人机协作
+
+**问题描述 / Problem Description**:
+本文不是一篇“让 AI 帮我写了几个配置文件”的体验文，而是一份持续协作记录：我让 AI 参与维护一套真实运行的 NixOS 基础设施，经历需求讨论、代码审查、静态检查、测试、 金丝雀部署、全节点发布和线上告警处理。它确实提高了效率，也确实犯过一些只有人类知道 为什么不能犯的错误。 本文涉及的公开配置与实现： LokiSharp/nix-config 。 真实凭据保存在独立私有仓库中，不包含在公开配置里。 写在前面 先说明两点。 第一，本文中的“AI”不是一个被接入生产环境后完全自主行动的机器人。它运行在我的工作区中， 能读取仓库、修改文件和执行检查；只有在我明确授权后，才会提交、连接节点或部
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231205#reply1
+
+---
+
+#### 7856. Safari on Mac: return to last used tab when closing, not the adjacent one
+
+**问题描述 / Problem Description**:
+Tags: macos, safari, web-browser | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-07-30
+
+**解决方案 / Solution**:
+There is no built-in setting for this in Safari, and your two dead ends were both correct. The Debug menu options only affect how new tabs will be opened, and AppleScript is unable to help since Safari does not provide a "tab closed" event to intercept. This means there is no switch you can flip to turn the feature on or off. There are two methods to get there, though. Easy way (works today): install a small "last used tab" extension for Safari, such as Last Tab for Safari. It introduces a shortcut (Cmd+Esc) for jumping back to your last active tab, and it works even after closing a tab. So now, if you are on tab 2, Cmd+T to search, Cmd+W to close the tab, then hit the shortcut, and you're back on tab 2. One additional keystroke, but easy and cost-effective. TabBack and ReTab are alike. Automatic way: it can be built as a Safari Web Extension, since Safari supports the tabs API. You maintain a list of the most recently used tabs and restore it on close: let mru = []; browser.tabs.onActivated.addListener(({ tabId }) => { mru = [tabId, ...mru.filter(id => id !== tabId)]; }); browser.tabs.onRemoved.addListener((closedId) => { mru = mru.filter(id => id !== closedId); if (mru[0] !== undefined) browser.tabs.update(mru[0], { active: true }); }); There are a couple of caveats, though: Safari extensions need to be packaged in a small app built with Xcode, and you might briefly see the side tab before it jumps back (like the Chrome MRU extensions). So: no native fix, but the shortcut extension solves it with one keypress today, or a small Web Extension makes it fully automatic.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486830/safari-on-mac-return-to-last-used-tab-when-closing-not-the-adjacent-one
 
 ---

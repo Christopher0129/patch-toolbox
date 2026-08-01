@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2579**
+**总计条目 / Total entries: 2599**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -47288,5 +47288,325 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8624-1
+
+---
+
+#### 2580. CVE-2026-17566 - pgAdmin 4: pgAdmin 4: Remote Code Execution via backslash-escape mismatch in…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgAdmin 4: pgAdmin 4: Remote Code Execution via backslash-escape mismatch in Import/Export Data tool. Bugzilla: 2509835
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509835
+
+---
+
+#### 2581. CVE-2026-17348 - pgadmin4: pgAdmin 4: Unauthenticated access allows data manipulation and…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: Unauthenticated access allows data manipulation and information disclosure. Bugzilla: 2509842
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509842
+
+---
+
+#### 2582. CVE-2026-18141 - aap-gateway: aap-gateway: Authentication bypass in Event-Driven Ansible via forged…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] aap-gateway: aap-gateway: Authentication bypass in Event-Driven Ansible via forged HTTP header. Bugzilla: 2508155
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508155
+
+---
+
+#### 2583. CVE-2026-18358 - gnome-remote-desktop: gnome-remote-desktop system-mode RDP server missing…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gnome-remote-desktop: gnome-remote-desktop system-mode RDP server missing connection throttling allows unauthenticated denial of service. Bugzilla: 2462876
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462876
+
+---
+
+#### 2584. CVE-2026-10079 - stackrox: stackrox: Deploy-time policy enforcement and visibility bypass via label…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] stackrox: stackrox: Deploy-time policy enforcement and visibility bypass via label injection. Bugzilla: 2483158
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483158
+
+---
+
+#### 2585. CVE-2026-11770 - 389-ds-base: 389-ds-base: pre-auth LDAP filter injection in CleanAllRUV status…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-auth LDAP filter injection in CleanAllRUV status check. Bugzilla: 2484802
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484802
+
+---
+
+#### 2586. CVE-2026-15722 - 389-ds-base: 389-ds-base: pre-authentication stack buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-authentication stack buffer overflow in get_ruvelement_from_berval() via unbounded replica ID parsing. Bugzilla: 2499961
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499961
+
+---
+
+#### 2587. CVE-2026-68563 - ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information disclosure of PostgreSQL data via insecure backup permissions. Bugzilla: 2465419
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465419
+
+---
+
+#### 2588. CVE-2026-68562 - ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information disclosure via Leapp report tampering. Bugzilla: 2466035
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466035
+
+---
+
+#### 2589. CVE-2026-18157 - yggdrasil-worker-package-manager: yggdrasil-worker-package-manager: Remote Code…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] yggdrasil-worker-package-manager: yggdrasil-worker-package-manager: Remote Code Execution via APT Argument Injection. Bugzilla: 2465250
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465250
+
+---
+
+#### 2590. CVE-2026-66066 - activestorage: Active Storage: Remote Code Execution via Unsafe libvips Operations
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] activestorage: Active Storage: Remote Code Execution via Unsafe libvips Operations. Bugzilla: 2509559
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509559
+
+---
+
+#### 2591. CVE-2026-12932 - openvpn: OpenVPN: Denial of Service due to memory leak in tls-crypt-v2 client key…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Denial of Service due to memory leak in tls-crypt-v2 client key extraction. Bugzilla: 2509521
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509521
+
+---
+
+#### 2592. CVE-2026-12996 - OpenVPN: OpenVPN: Denial of Service or memory leak via crafted packets
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Denial of Service or memory leak via crafted packets. Bugzilla: 2509536
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509536
+
+---
+
+#### 2593. CVE-2026-11771 - openvpn: OpenVPN: Denial of Service via crafted NTLM proxy response
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Denial of Service via crafted NTLM proxy response. Bugzilla: 2509516
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509516
+
+---
+
+#### 2594. CVE-2026-13117 - OpenVPN: OpenVPN: Denial of service or memory leakage via incomplete TLS guard
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Denial of service or memory leakage via incomplete TLS guard. Bugzilla: 2509530
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509530
+
+---
+
+#### 2595. CVE-2026-56850 - nodejs: Node.js: mTLS client identities can be reused due to HTTPS Agent…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nodejs: Node.js: mTLS client identities can be reused due to HTTPS Agent connection flaw. Bugzilla: 2509179
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509179
+
+---
+
+#### 2596. CVE-2026-18018 - chromium-browser: chromium-browser: Inappropriate implementation in Updater
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Updater. Bugzilla: 2508737
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508737
+
+---
+
+#### 2597. CVE-2026-18019 - chromium-browser: chromium-browser: Side-channel information leakage in Media
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Side-channel information leakage in Media. Bugzilla: 2508903
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508903
+
+---
+
+#### 2598. CVE-2026-18015 - chromium-browser: chromium-browser: Inappropriate implementation in Tint
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Tint. Bugzilla: 2508705
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508705
+
+---
+
+#### 2599. [Ubuntu] USN-8620-4: Linux kernel (Intel IoTG) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8620-4
 
 ---

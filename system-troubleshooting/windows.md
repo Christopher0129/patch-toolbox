@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8887**
+**总计条目 / Total entries: 8932**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -121452,5 +121452,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1230952#reply3
+
+---
+
+#### 8888. How do I view the log file for a failed Windows Automatic Repair on a corrupted drive?
+
+**问题描述 / Problem Description**:
+Tags: boot, windows-11, repair, windows-recovery-environment | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-07-28
+
+**解决方案 / Solution**:
+Summary From your description, the main (system) drive is badly corrupted, and logs might or might not have been written. Salvage any data you can, and check the S.M.A.R.T. drive status . If the drive is not physically damaged, try reinstalling Windows from ISO, else replace the drive and install de novo from ISO. Details Boot from external media (e.g., Hiren’s BootCD PE or Ubuntu live USB ) and copy data to another drive, or better, make a complete drive image using a third-party tool, such as Ubunutu's Disks or dd or Hiren's Macrium Reflect utility. Using tools on that bootable media, such as Ubuntu's Disks or Hiren's MHDD , check S.M.A.R.T. values and determine if the drive is salvageable or if it has hard, irreparable issues. Depending on the outcome, either replace the drive or continue with the current one. Create Windows 11 Installation Media . Attempt in-place repair install, keeping files , if reusing the existing drive. If that fails, or the drive was replaced, install Windows de novo . Restore what was salvaged from the drive, if need be.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939327/how-do-i-view-the-log-file-for-a-failed-windows-automatic-repair-on-a-corrupted
+
+---
+
+#### 8889. Someone got remote access to my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcpl3z/someone_got_remote_access_to_my_pc/
+
+---
+
+#### 8890. spilled water on pc, did most of the things you’re supposed to but accidentally left it plugged in for a few hours, is it over?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcw2ew/spilled_water_on_pc_did_most_of_the_things_youre/
+
+---
+
+#### 8891. Anyone else having issues with installing the latest driver (610.88) after an upgrade?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcynx6/anyone_else_having_issues_with_installing_the/
+
+---
+
+#### 8892. How do i add storage to my laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcvy1e/how_do_i_add_storage_to_my_laptop/
+
+---
+
+#### 8893. Error message when trying to access website
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcxrgv/error_message_when_trying_to_access_website/
+
+---
+
+#### 8894. 900GB hard drive filled up with supposed System Files WinDirStat is not able to see
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcjgsr/900gb_hard_drive_filled_up_with_supposed_system/
+
+---
+
+#### 8895. SSD extremely slow but passes all tests...
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcss8d/ssd_extremely_slow_but_passes_all_tests/
+
+---
+
+#### 8896. For some reason when I try to change My Virtual memory it freezes after like press set then ok how do I fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vd05n3/for_some_reason_when_i_try_to_change_my_virtual/
+
+---
+
+#### 8897. Splitter suddenly only supports a single external monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vd00zs/splitter_suddenly_only_supports_a_single_external/
+
+---
+
+#### 8898. how do i unfuck my usb drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vczubq/how_do_i_unfuck_my_usb_drive/
+
+---
+
+#### 8899. My old HP 530 laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vczqkp/my_old_hp_530_laptop/
+
+---
+
+#### 8900. Error comes up everytime I turn on my computer (windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vczl9i/error_comes_up_everytime_i_turn_on_my_computer/
+
+---
+
+#### 8901. Internet keep disconnecting when I try to game and I can’t figure out why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vczivp/internet_keep_disconnecting_when_i_try_to_game/
+
+---
+
+#### 8902. Mi laptop doesn't charge when it's on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vczg08/mi_laptop_doesnt_charge_when_its_on/
+
+---
+
+#### 8903. Why is my computer changing backgrounds in parts?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcze28/why_is_my_computer_changing_backgrounds_in_parts/
+
+---
+
+#### 8904. driver keeps crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcl992/driver_keeps_crashing/
+
+---
+
+#### 8905. Why Can't I transfer Files directly instead of transferring folders?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcz6o9/why_cant_i_transfer_files_directly_instead_of/
+
+---
+
+#### 8906. Gaming crash Win11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcyrug/gaming_crash_win11/
+
+---
+
+#### 8907. Sata SSD not being recognized
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcyj90/sata_ssd_not_being_recognized/
+
+---
+
+#### 8908. i cant get my audio on my pc to work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcyj49/i_cant_get_my_audio_on_my_pc_to_work/
+
+---
+
+#### 8909. How do i fix this issue i got with my drive?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcye9s/how_do_i_fix_this_issue_i_got_with_my_drive/
+
+---
+
+#### 8910. BSOD when trying to launch Steam, just started today
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcybjq/bsod_when_trying_to_launch_steam_just_started/
+
+---
+
+#### 8911. Help installing pipx on Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcya11/help_installing_pipx_on_windows/
+
+---
+
+#### 8912. Continued BSOD errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vcy8o9/continued_bsod_errors/
+
+---
+
+#### 8913. [V2EX] [求助]了解一下「中科酷原科技」这家公司
+
+**问题描述 / Problem Description**:
+最近准备跳槽，拿到了中科酷原科技的 offer ，有没有 V 友了解这家公司？ 有内部员工或者前员工方便分享下吗？感谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231494#reply0
+
+---
+
+#### 8914. [V2EX] GiffGaff 转 CTExcel 可行嘛
+
+**问题描述 / Problem Description**:
+最近 GG 卡被 gank 的好多啊 虽然我的还没有被 ban 但是感觉离被 ban 也不远了 看到有人说可以转 CTExcel 有成功的案例 但是也刷到了有佬友说别着急转 CTExcel. 佬友们还有什么更好的办法嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231490#reply0
+
+---
+
+#### 8915. [V2EX] PLUS 是不是额度砍半了
+
+**问题描述 / Problem Description**:
+之前还能蹬超过 100+，今天只能 50-80 左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231479#reply4
+
+---
+
+#### 8916. [V2EX] 在什么用量下使用官方 DeepSeek API (V4 Flash 模型) 比 Claude Pro $20 划算呢？
+
+**问题描述 / Problem Description**:
+我目前在 Claude Code 中使用 Opus 5 high ，工作日每天用满上午和下午的 5 小时限制，刚好能完成我的日常工作，周限额分配到每天也足够，因此 Claude Pro 目前的配额刚好满足我的需求。 最近听说 DeepSeek V4 Flash 正式版很强，试着在 Claude Code 中接入了 API ，并让它修复了一个日常开发 BUG ，完成的很快也很满意，这个任务花费了 ￥ 0.35 元。 按照这种计费方式来看，$20 * 6.75 / 0.35 = 385 ，也就是按照之前的任务强度， Claude Pro 的订阅支出可以让 DeepSeek V4 Flash 模型每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231467#reply3
+
+---
+
+#### 8917. [V2EX] 想问问佬友有玩 pixel 的嘛
+
+**问题描述 / Problem Description**:
+本人自用 Pixel 10 Pro Fold ，想问问佬友们是咋玩 Pixel 的，有没有一个互相交流玩机的地方呢，最主要想佬友们推荐几个好用的开源软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231466#reply6
+
+---
+
+#### 8918. [V2EX] 求推荐充 chatGPT plus 的靠谱方式
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231465#reply0
+
+---
+
+#### 8919. [V2EX] ssh 管理工具求教
+
+**问题描述 / Problem Description**:
+求助一下各位大佬，有没有这样的一个 ssh 工具: 管理的 ssh 服务器可以提供 mcp 服务，安装到 CodeCLI 后，可以让 AI 访问到远程服务器去干活，不要求远程服务器安装依赖 我使用 reeve 可以达到这种效果，但是收费有点贵，想看看有没有平替
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231455#reply4
+
+---
+
+#### 8920. [V2EX] 使用 openrouter API 报错
+
+**问题描述 / Problem Description**:
+在 pi agent 使用 openrouter API 时报错，无论是 anthropic/claude-opus-5 还是 google/gemini-3.6-flash ，报错 Error: 403 这个有可能是因为啥呀？有能解决的办法吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231445#reply4
+
+---
+
+#### 8921. [V2EX] 格鲁吉亚的 GLOBALCELL 这个 esim 卡国内激活无法短信和电话--大家不要买了
+
+**问题描述 / Problem Description**:
+如题。。我买了一个激活了。。无法发短信和电话，无法平替 GG----X 上也有帖子说这个卡有问题。。NND 。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231440#reply0
+
+---
+
+#### 8922. [V2EX] 有没有从始至终在 AI 上花费 0 元的朋友？
+
+**问题描述 / Problem Description**:
+从 ChatGPT 2022 年 12 月 1 日出来那天开始用现代 AI 到今天，我一直花费 0 元，感觉免费的 AI 一直就够用了。 有没有相同情况的朋友？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231438#reply20
+
+---
+
+#### 8923. [V2EX] 现在国内是买电车好还是买油车好啊
+
+**问题描述 / Problem Description**:
+电车越出越多，油车越来越少，是不是买电车是主流了，但是买电车总感觉只是买了使用权，车企可以远程锁车，还有电池安全问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231435#reply12
+
+---
+
+#### 8924. [V2EX] 有性价比高的模型 api 推荐吗？
+
+**问题描述 / Problem Description**:
+识图取标题，输出英文长标题，电商用 有几十万个图片需要批处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231421#reply3
+
+---
+
+#### 8925. [V2EX] 你们买了车之后有没有后悔过？
+
+**问题描述 / Problem Description**:
+特别是那些入手二手车的朋友，除非手头比较宽裕，不然养车的开销还真不小呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231419#reply40
+
+---
+
+#### 8926. [V2EX] 你们用 Opus5 开多大的思考强度？
+
+**问题描述 / Problem Description**:
+为什么我感觉 opus5 开 ultracode 或者 Max 反而不好用，开低或者中反而更好，这是错觉吗？ 你们用哪一档呢？ opus5 给我一种像老板的感觉，很多事情总偷懒或者选择不做，需要不断地重复需求才行......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231411#reply21
+
+---
+
+#### 8927. [V2EX] 怎么解决骚扰电话的问题啊
+
+**问题描述 / Problem Description**:
+每天能收到五个左右的骚扰电话，有固定电话，有手机号码。都是推广短视频的。。 兄弟们有什么办法，给移动公司打过电话，也开通了放骚扰。依然没有效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231397#reply23
+
+---
+
+#### 8928. [V2EX] 现在买 U 都只能一百一百的买吗？听说风控非常变态
+
+**问题描述 / Problem Description**:
+一个朋友微信转了 10000 买 U ，结果秒封，不给出正当解释就不给解封
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231386#reply6
+
+---
+
+#### 8929. [V2EX] 在 AI 上掉队的大厂有哪些？
+
+**问题描述 / Problem Description**:
+这东西感觉落后了很难追上来，除非有发现什么弯道超车的新思路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231352#reply36
+
+---
+
+#### 8930. [V2EX] 用了一下午时间， 用 v4 flash 做了个小游戏
+
+**问题描述 / Problem Description**:
+当然 不是一句话许愿成功的 https://shape-battle.pages.dev
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231337#reply11
+
+---
+
+#### 8931. [V2EX] deepseek v4 flash 这个价格和能力，体感确实不错， 有点期待正式版 pro 了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231317#reply2
+
+---
+
+#### 8932. [V2EX] opencode go 订阅使用 deepseek v4 flash 受限了？
+
+**问题描述 / Problem Description**:
+返回: Error code: 403 - {'type': 'error', 'error': {'type': 'RegionError', 'message': 'The latest version of this model is only available hosted in China and requires explicit opt in: .....
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231306#reply3
 
 ---

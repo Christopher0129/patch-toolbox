@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2860**
+**总计条目 / Total entries: 2892**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -43216,5 +43216,476 @@ It was discovered that Sinatra did not properly handle header parsing, causing E
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8624-1
+
+---
+
+#### 2861. [Ubuntu] USN-8625-1: OpenSSL vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSL incorrectly allocated memory buffers in the SSL/TLS state machine when receiving handshake data. A remote attacker could possibly use this issue to cause OpenSSL to consume excessive memory, leading to a denial of service. This issue is known as the "HollowByte" denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8625-1
+
+---
+
+#### 2862. [Ubuntu] USN-8624-1: Sinatra vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Sinatra did not properly handle header parsing, causing ETag generation to hang when given specific input. A remote attacker could possibly use this issue to cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8624-1
+
+---
+
+#### 2863. [Ubuntu] USN-8621-1: Samba vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Samba's pam_winbind incorrectly handled home directory ownership when mkhomedir was enabled. A local attacker could possibly use this issue to cause a denial of service by triggering a change in ownership of the root directory. (CVE-2026-15779) Arjun Basnet, Douglas Bagnall, and Andrew Tridgell discovered that Samba incorrectly handled TSIG packets with name compression. A r
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8621-1
+
+---
+
+#### 2864. [Ubuntu] USN-8620-4: Linux kernel (Intel IoTG) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8620-4
+
+---
+
+#### 2865. [Ubuntu] USN-8619-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8619-1
+
+---
+
+#### 2866. [Ubuntu] USN-8617-1: Linux kernel (KVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8617-1
+
+---
+
+#### 2867. [Ubuntu] USN-8614-1: Python vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Python incorrectly handled expanding environment variables in os.path.expandvars() when the input was user-controlled. An attacker could possibly use this issue to cause Python to consume resources, leading to a denial of service. (CVE-2025-6075) It was discovered that Python incorrectly handled certain malformed HTML-like markup in the HTMLParser module, raising an uncaught
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8614-1
+
+---
+
+#### 2868. [Ubuntu] USN-8612-1: Roc Toolkit vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Roc Toolkit incorrectly handled WAV files with a malformed "smpl" chunk. An attacker could use this issue to cause Roc Toolkit to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8612-1
+
+---
+
+#### 2869. [Ubuntu] USN-8611-1: GNU C Library vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the GNU C Library iconv function incorrectly handled certain IBM character sets. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-4046) It was discovered that the GNU C Library DNS functions incorrectly handled certain DNS server responses when using gethostbyaddr or gethostbyaddr_r. An attacker in a privileged network position could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8611-1
+
+---
+
+#### 2870. CVE-2026-17566 - pgAdmin 4: pgAdmin 4: Remote Code Execution via backslash-escape mismatch in…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] pgAdmin 4: pgAdmin 4: Remote Code Execution via backslash-escape mismatch in Import/Export Data tool. Bugzilla: 2509835
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509835
+
+---
+
+#### 2871. CVE-2026-17348 - pgadmin4: pgAdmin 4: Unauthenticated access allows data manipulation and…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pgadmin4: pgAdmin 4: Unauthenticated access allows data manipulation and information disclosure. Bugzilla: 2509842
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509842
+
+---
+
+#### 2872. CVE-2026-18141 - aap-gateway: aap-gateway: Authentication bypass in Event-Driven Ansible via forged…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] aap-gateway: aap-gateway: Authentication bypass in Event-Driven Ansible via forged HTTP header. Bugzilla: 2508155
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508155
+
+---
+
+#### 2873. CVE-2026-18358 - gnome-remote-desktop: gnome-remote-desktop system-mode RDP server missing…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gnome-remote-desktop: gnome-remote-desktop system-mode RDP server missing connection throttling allows unauthenticated denial of service. Bugzilla: 2462876
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462876
+
+---
+
+#### 2874. CVE-2026-10079 - stackrox: stackrox: Deploy-time policy enforcement and visibility bypass via label…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] stackrox: stackrox: Deploy-time policy enforcement and visibility bypass via label injection. Bugzilla: 2483158
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483158
+
+---
+
+#### 2875. CVE-2026-11770 - 389-ds-base: 389-ds-base: pre-auth LDAP filter injection in CleanAllRUV status…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-auth LDAP filter injection in CleanAllRUV status check. Bugzilla: 2484802
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2484802
+
+---
+
+#### 2876. CVE-2026-15722 - 389-ds-base: 389-ds-base: pre-authentication stack buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-authentication stack buffer overflow in get_ruvelement_from_berval() via unbounded replica ID parsing. Bugzilla: 2499961
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499961
+
+---
+
+#### 2877. CVE-2026-68563 - ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information disclosure of PostgreSQL data via insecure backup permissions. Bugzilla: 2465419
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465419
+
+---
+
+#### 2878. CVE-2026-68562 - ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-redhat-leapp: ansible-collection-redhat-leapp: Information disclosure via Leapp report tampering. Bugzilla: 2466035
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466035
+
+---
+
+#### 2879. CVE-2026-18157 - yggdrasil-worker-package-manager: yggdrasil-worker-package-manager: Remote Code…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] yggdrasil-worker-package-manager: yggdrasil-worker-package-manager: Remote Code Execution via APT Argument Injection. Bugzilla: 2465250
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2465250
+
+---
+
+#### 2880. CVE-2026-66066 - activestorage: Active Storage: Remote Code Execution via Unsafe libvips Operations
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] activestorage: Active Storage: Remote Code Execution via Unsafe libvips Operations. Bugzilla: 2509559
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509559
+
+---
+
+#### 2881. CVE-2026-12932 - openvpn: OpenVPN: Denial of Service due to memory leak in tls-crypt-v2 client key…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Denial of Service due to memory leak in tls-crypt-v2 client key extraction. Bugzilla: 2509521
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509521
+
+---
+
+#### 2882. CVE-2026-12996 - OpenVPN: OpenVPN: Denial of Service or memory leak via crafted packets
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Denial of Service or memory leak via crafted packets. Bugzilla: 2509536
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509536
+
+---
+
+#### 2883. CVE-2026-11771 - openvpn: OpenVPN: Denial of Service via crafted NTLM proxy response
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Denial of Service via crafted NTLM proxy response. Bugzilla: 2509516
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509516
+
+---
+
+#### 2884. CVE-2026-13117 - OpenVPN: OpenVPN: Denial of service or memory leakage via incomplete TLS guard
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Denial of service or memory leakage via incomplete TLS guard. Bugzilla: 2509530
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509530
+
+---
+
+#### 2885. CVE-2026-56850 - nodejs: Node.js: mTLS client identities can be reused due to HTTPS Agent…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodejs: Node.js: mTLS client identities can be reused due to HTTPS Agent connection flaw. Bugzilla: 2509179
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509179
+
+---
+
+#### 2886. CVE-2026-18018 - chromium-browser: chromium-browser: Inappropriate implementation in Updater
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Updater. Bugzilla: 2508737
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508737
+
+---
+
+#### 2887. CVE-2026-18019 - chromium-browser: chromium-browser: Side-channel information leakage in Media
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Side-channel information leakage in Media. Bugzilla: 2508903
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508903
+
+---
+
+#### 2888. CVE-2026-18015 - chromium-browser: chromium-browser: Inappropriate implementation in Tint
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Inappropriate implementation in Tint. Bugzilla: 2508705
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508705
+
+---
+
+#### 2889. [Ubuntu] USN-8620-4: Linux kernel (Intel IoTG) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8620-4
+
+---
+
+#### 2890. CVE-2026-63827
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+apparmor: fix use-after-free in rawdata dedup loop
+
+aa_replace_profiles() walks ns->rawdata_list to dedup the incoming
+policy blob against entries already attached to existing profiles.
+Per the kernel-doc on struct aa_loaddata, list membership does not
+hold a reference: profiles hold pcount, and when the last pcount
+drops, do_ploaddata_rmfs() is queued on a workqueue that takes
+ns->lock and removes the entry. Between dropping the last pcount
+and the workqueue running, an entry remains on the list with
+pcount == 0.
+
+aa_get_profile_loaddata() is an unconditional kref_get() on
+pcount, so when the dedup loop hits such an entry, refcount
+hardening reports
+
+  refcount_t: addition on 0; use-after-free.
+
+inside aa_replace_profiles(), and the poisoned counter then
+trips "saturated" and "underflow" warnings on the subsequent
+uses of the same loaddata.
+
+Before commit a0b7091c4de4 ("apparmor: fix race on rawdata
+dereference") the dedup path used a get_unless_zero-style helper
+on a single counter, so the existing "if (tmp)" guard was
+meaningful. The split-refcount refactor introduced
+aa_get_profile_loaddata(), which has plain kref_get() semantics,
+and the guard quietly became a no-op.
+
+Introduce aa_get_profile_loaddata_not0(), matching the existing
+_not0 convention used by aa_get_profile_not0(), and use it for
+the rawdata_list dedup lookup so dying entries are skipped.
+
+Reproduced on x86_64 with v7.1-rc5 in QEMU+KVM running Ubuntu
+24.04 + stress-ng 0.17.06:
+
+  stress-ng --apparmor 1 --klog-check --timeout 60s
+
+Without this patch the three refcount_t warnings fire within a
+few seconds. With it the same 60 s run is clean. Coverage is a
+smoke-test only; a longer soak with CONFIG_KASAN, CONFIG_KCSAN
+and CONFIG_PROVE_LOCKING would be welcome from anyone with the
+cycles.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/15fd83a1e42ede15070968806bb6c8b1a5170688
+- https://git.kernel.org/stable/c/5e34fa9f6f7cd688ae153fff13139a5cf2d42339
+- https://git.kernel.org/stable/c/643221da57dbb1a8fd800610331cf1ec27969f71
+- https://git.kernel.org/stable/c/6f060496d03e4dc560a40f73770bd08335cb7a27
+- https://git.kernel.org/stable/c/a7a2890028f16e5b0af0bb005d80fcb32559cca3
+
+---
+
+#### 2891. CVE-2024-5300
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.6
+
+**漏洞描述 / Description**:
+An access control bypass and information disclosure vulnerability exists in the base AppArmor security profile configuration of Canonical snapd. The abstraction rules located in /etc/apparmor.d/abstractions/nss-systemd (inherited via ) inadvertently permit strictly confined snap applications, which lack the privileged account-control interface, to interact directly with the io.systemd.Multiplexer and io.systemd.NameServiceSwitch UNIX domain sockets under /run/systemd/userdb/.
+On systems where the systemd-userdbd service is installed and operational, the service fails to distinguish between an unconfined root user on the host system and a restricted root user running within a snap application's sandbox (such as a daemon or configuration hook). Because systemd-userdbd returns "complete" user records—including sensitive hashed user passwords from /etc/shadow—when queried by a process running as root, a compromised or malicious strictly confined snap executing code as root can successfully query the Varlink interface to retrieve all system password hashes, bypassing intended snap sandbox restrictions. This issue is mitigated by the fact that systemd-userdbd is not installed by default on standard Ubuntu deployments.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/CVE-2024-5300
+
+---
+
+#### 2892. CVE-2026-64455
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+USB: chaoskey: Fix slab-use-after-free in chaoskey_release()
+
+The chaoskey driver has a use-after-free bug in its release routine.
+If the user closes the device file after the USB device has been
+unplugged, a debugging log statement will try to access the
+usb_interface structure after it has been deallocated:
+
+	BUG: KASAN: slab-use-after-free in dev_driver_string (drivers/base/core.c:2406)
+	Read of size 8 at addr ffff888168e8a0b8 by task chaoskey_raw_re/10106
+
+	Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+	Call Trace:
+	 <TASK>
+	 dump_stack_lvl (lib/dump_stack.c:94 lib/dump_stack.c:120)
+	 print_report (mm/kasan/report.c:378 mm/kasan/report.c:482)
+	 kasan_report (mm/kasan/report.c:595)
+	 dev_driver_string (drivers/base/core.c:2406)
+	 __dynamic_dev_dbg (lib/dynamic_debug.c:906)
+	 chaoskey_release (drivers/usb/misc/chaoskey.c:323)
+	 __fput (fs/file_table.c:510)
+	 fput_close_sync (fs/file_table.c:615)
+	 __x64_sys_close (fs/open.c:1507 fs/open.c:1492 fs/open.c:1492)
+	 do_syscall_64 (arch/x86/entry/syscall_64.c:63 arch/x86/entry/syscall_64.c:94)
+	 entry_SYSCALL_64_after_hwframe (arch/x86/entry/entry_64.S:121)
+
+The driver's last reference to the interface structure is dropped in
+the chaoskey_free() routine, so the code must not use the interface --
+even in a debugging statement -- after that routine returns.
+(Exception: If we know that another reference is held by someone else,
+such as the device core while the disconnect routine runs, there's no
+problem.  Thanks to Johan Hovold for pointing this out.)
+
+Since the bad access is part of an unimportant debugging statement,
+we can fix the problem simply by removing the whole statement.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2a52d55c86a429dac47886b8424e67f90b001e67
+- https://git.kernel.org/stable/c/3ad5fbcced4e9c2b0fee3c1b76289a147fc35b89
+- https://git.kernel.org/stable/c/5ec61fbef9ec5635c492ae63dfb5d13f2bdf1023
+- https://git.kernel.org/stable/c/6c82f88bc7a8458d5c60f9b354c4d32d233f0cac
+- https://git.kernel.org/stable/c/8f50613bff228272577893aa10a346a2f3063e49
 
 ---
