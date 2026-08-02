@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8172**
+**总计条目 / Total entries: 8280**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -114206,5 +114206,1409 @@ In recovery mode: chroot into your system mount /var if it's not mounted restore
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/731959/failed-to-start-after-moving-var-to-another-drive
+
+---
+
+#### 8173. What was your "ok, this is enough" to finally move to linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdr0am/what_was_your_ok_this_is_enough_to_finally_move/
+
+---
+
+#### 8174. Kakehashi – Experimental userspace to run macOS binaries on Linux ARM
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdrl5k/kakehashi_experimental_userspace_to_run_macos/
+
+---
+
+#### 8175. zuno - A free, open source desktop client for YouTube Music (Windows/macOS/Linux) with Downloads and offline mode
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdf7id/zuno_a_free_open_source_desktop_client_for/
+
+---
+
+#### 8176. Intel Graphics Driver Support For Xe3 "Peak Bandwidth Threshold" Feature In Linux 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdo4fl/intel_graphics_driver_support_for_xe3_peak/
+
+---
+
+#### 8177. Linux on the HP Prime calculator
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdlzi0/linux_on_the_hp_prime_calculator/
+
+---
+
+#### 8178. Copilot key remapping
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdqnzu/copilot_key_remapping/
+
+---
+
+#### 8179. Eclipse Foundation and OWASP Join Forces to Strengthen Open Source Security and CRA Readiness
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdlqil/eclipse_foundation_and_owasp_join_forces_to/
+
+---
+
+#### 8180. Frozen Bubble online multiplayer down, website redirects to a casino scam
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdgxzl/frozen_bubble_online_multiplayer_down_website/
+
+---
+
+#### 8181. Is this book worth reading for a developer?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdka8e/is_this_book_worth_reading_for_a_developer/
+
+---
+
+#### 8182. Kairos a tablet friendly calendar
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vddxae/kairos_a_tablet_friendly_calendar/
+
+---
+
+#### 8183. swayclip - clipboard manager for Wayland compositors
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vd9yk3/swayclip_clipboard_manager_for_wayland_compositors/
+
+---
+
+#### 8184. I reimplemented the Aula L99 Driver/App for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdrnhv/i_reimplemented_the_aula_l99_driverapp_for_linux/
+
+---
+
+#### 8185. Any love for scx pluggable Schedulers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdjj6k/any_love_for_scx_pluggable_schedulers/
+
+---
+
+#### 8186. I made Granola run natively on Linux using its official macOS app
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdgtj0/i_made_granola_run_natively_on_linux_using_its/
+
+---
+
+#### 8187. Rm -rf ./*
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdjbwf/rm_rf/
+
+---
+
+#### 8188. [V2EX] 从产品实现看欧盟 AI 内容透明规则：别把机器标记和可见标签混为一谈
+
+**问题描述 / Problem Description**:
+欧盟《 AI 法案》第 50 条从 2026 年 8 月 2 日开始适用。我看完欧盟委员会刚更新的指南和 FAQ ，最容易误读的一点是：这不是“只要用了 AI ，所有内容都贴同一种可见标签”。 从产品和工程实现看，至少要拆成两层。 第一层是提供方的系统能力：直接和人互动的 AI 需要从交互开始就表明身份；生成的图片、音频、视频和文字，需要有效、可靠、可互操作的机器可读标记。 第二层是业务使用方在具体场景里的披露：深度伪造、情感识别/生物特征分类，以及没有经过实质人工审核和编辑责任的公共利益文字。个人、非职业用途不在 deployer 的定义里。 我把发布前检查压成四问： 1. 我是系统提供方，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231592#reply0
+
+---
+
+#### 8189. [V2EX] 做了一个可以分步查看魔尺折叠过程的网页工具
+
+**问题描述 / Problem Description**:
+最近陪儿子折腾魔尺，发现网上的视频教程看起来不太方便，经常需要来回暂停、拖动进度，所以做了一个简单的网页工具。 主要功能： 用 3D 模型查看魔尺造型 分步播放折叠过程 可以自由旋转视角和调整播放速度 支持 24 、36 、48 、72 段魔尺 内置一些常见造型 支持手动编辑和几种公式格式 可以通过链接分享当前造型 纯前端实现，不需要登录 截图： 项目地址： https://regomne.github.io/magic-snake/ 代码： https://github.com/regomne/magic-snake
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231574#reply1
+
+---
+
+#### 8190. [V2EX] macOS 原生终端 Termite 1.12 版本发布-新增巡航模式
+
+**问题描述 / Problem Description**:
+1.12 的主角是 巡航模式 : ⇧⌘\ 或 双指捏合 ,所有分屏等宽横排,触控板横滑逐个检阅 滑到哪个分屏,键盘焦点就是哪个的,顺手消掉它的等待提醒;⌘←→ 键盘翻页 再捏合一下还原,分屏布局原样不动 顺带新增 原地快速回复 :agent 等输入时,直接在系统通知上打字发回去, 或 pane 徽标右键「回车确认 / 发送 y 」——大部分打断就是一个 y,不值得切换上下文。 也修了几个硬伤:布局切换偶发空白、ssh 远端 TUI(grok/deepseek cli)切换后不重画。 免费开源(GPL-3.0),macOS 15+,已装用户会收到应用内更新提示: 官网(完整视频): https:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231572#reply0
+
+---
+
+#### 8191. [V2EX] 根本不会 go 语言，做了个给微信 clawbot 发消息的机器人
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/XUJINKAI/wxbot 就一个单文件，扫码绑定以后，可以通过 CLI 或者 Webhook 给自己的微信发消息， echo 你好 | ./wxbot send --user user1 收到消息也能运行脚本，但感觉没什么用，除非你给他写个全套的 agent 。 后台服务的主要功能是收消息刷新 24h token ，要不是微信这个限制，连后台服务也用不着，直接 send 是发的出去的。 我本来是需要一个服务器上的通知手段，就微信方便（就他麻烦），然后 cc-connect 太大了我用不着，还试过另一个平台但是老有 bug ，所以最后决定锻炼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231567#reply4
+
+---
+
+#### 8192. [V2EX] 冒险岛 083 网页版
+
+**问题描述 / Problem Description**:
+https://retrogaming.dpdns.org/game.html?id=maplestory 完全运行在网页里的冒险岛 v083 ，基于 v86 做了 d3d8-webgpu ，加载会有点慢，大概 1-2 分钟，帧率 30-40fps 左右，差不多能爽玩。 测试账号： id: testuser 密码:1234567 id: usertest 密码:1234567
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231558#reply14
+
+---
+
+#### 8193. [V2EX] Clash 的规则集现在都怎么选？ rule-provider 感觉不够用了？
+
+**问题描述 / Problem Description**:
+最近折腾 Clash Verge 的规则配置，发现以前常用的那套规则集好像有点跟不上节奏了，想问问大家现在都怎么搞。 背景 ：之前一直用机场自带的规则（订阅里直接带 rules ），基本策略就是国内直连+海外代理+广告拦截。但最近遇到几个问题： 有些 App 的分流不对——比如某个国内工具被走了代理（延迟暴涨），查了下是规则集没覆盖到它的域名 想加自定义规则（比如某个网站强制走特定节点），但每次机场更新订阅就覆盖掉我手动加的 rule-provider 引用的几个开源规则集更新慢了，有些新域名没收录 我现在试了几种方案 ： 方案 A ：用 Clash Verge 的"覆写"功能叠本地规则，订阅
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231545#reply18
+
+---
+
+#### 8194. [V2EX] 除了刷 leetcode, 平时大家还会古法编程吗？
+
+**问题描述 / Problem Description**:
+有时候就是改一行代码的配置文件，古法明显更快，但惯性还是会打开 codex 一通口喷
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231536#reply12
+
+---
+
+#### 8195. [V2EX] 似乎开源项目作者不知道/不想利用 AI 来加速自己的开发？
+
+**问题描述 / Problem Description**:
+我关注的几个开源项目，gopeed,FluxDown, retainpdf 等似乎进展很慢。 为啥不利用 fable5 来加速呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231528#reply48
+
+---
+
+#### 8196. [V2EX] Google Play 订阅的 GPT20 X 封号后退款成功，不过客服说这次是破例
+
+**问题描述 / Problem Description**:
+如题，6 月订阅的美区 GPT20X ，7 月续费后几天被封号，期间没有收到过 cyber 警告。后续跟 Google 客服反馈后退款了，但对方表示这次退款是“one-time courtesy refund”，估计下次再封号就退不了了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231518#reply10
+
+---
+
+#### 8197. [V2EX] 请教：除了 api 直连，有没有更便宜也保质量的办法可以用 deepseek-v4-flash？
+
+**问题描述 / Problem Description**:
+v4 flash 确实给力，有什么办法可以更便宜的用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231509#reply64
+
+---
+
+#### 8198. [V2EX] codex 现在怎么这么慢了，用的 sol 中、高都很慢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231499#reply23
+
+---
+
+#### 8199. [V2EX] macOS 原生终端 Termite 1.10 版本发布
+
+**问题描述 / Problem Description**:
+分屏里的 agent 停下来等输入时:橙色边框 + 菜单栏角标 + 系统通知,⌘J 一键跳过去 侧边栏切项目,标签栏只显示当前项目的标签 重启 App 会话完整恢复(窗口/分屏/屏幕内容) SwiftUI + AppKit 原生,不是 Electron;Shell 集成零配置(⌘↑↓ 按命令跳转、复制上条输出) macOS 15+,免费。 官网: https://termite.xinghelee.com GitHub: https://github.com/xinghelee/Termite 安装: brew install --cask xinghelee/tap/termite 欢迎拍砖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231491#reply2
+
+---
+
+#### 8200. [V2EX] [脑洞] 既然编程生产力如此高了，为什么不众程序员协作重建 BAT/TMD 让中心化的平台暴利回归用户实现普惠互联？
+
+**问题描述 / Problem Description**:
+如题，20 美元的 Claude 都蹬不完，技痒总觉得某个伟大的项目等待着众程序员一起去蹬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231482#reply31
+
+---
+
+#### 8201. [V2EX] deepseek-v4-flash-0731 感觉把国产模型价格打穿了，还买啥 coding plan。
+
+**问题描述 / Problem Description**:
+第一次有种 token 自由的感觉.. 现在用不出来跟 deepseek-v4-pro-preview 有何区别，只感觉更快了更便宜了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231459#reply13
+
+---
+
+#### 8202. [V2EX] 现在做 API 中转站怎么样？
+
+**问题描述 / Problem Description**:
+目前有不少客户来询问中转站的，现在 API 中转站很火了吗? 大多有什么样的配置需求和带宽需求？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231408#reply25
+
+---
+
+#### 8203. [V2EX] 7 月份独立开发复盘
+
+**问题描述 / Problem Description**:
+Figma 插件流量稳定下滑，看不到上升空间了，这个月带来 $259 的收入 Uwarp 站点流量持续上升，通过 Google Adsense 带来了 $60 的收入 Becahrts 依旧是僵尸状态，没有多少流量 距离今年的月入千刀目标依旧遥远，独立开发太难熬了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231403#reply35
+
+---
+
+#### 8204. [V2EX] Codex 叒重置了, 各位冲啊
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231402#reply6
+
+---
+
+#### 8205. mirrorlist.centos.org no longer resolve?
+
+**问题描述 / Problem Description**:
+Tags: centos | Score: 96 | Views: 146529 | Answers: 6 | Created: 2024-07-01
+
+**解决方案 / Solution**:
+mirrorlist.centos.org doesn't exists anymore. From the .repo file: # The mirror system uses the connecting IP address of the client and the # update status of each mirror to pick mirrors that are updated to and # geographically close to the client. You should use this for CentOS updates # unless you are manually picking other mirrors. # # If the mirrorlist= does not work for you, as a fall back you can try the # remarked out baseurl= line instead. To resolve the issue you can mass update all .repo files: sed -i 's/mirror\.centos\.org/vault.centos.org/g' /etc/yum.repos.d/CentOS-*.repo sed -i 's/^#.*baseurl=http/baseurl=http/g' /etc/yum.repos.d/CentOS-*.repo sed -i 's/^mirrorlist=http/#mirrorlist=http/g' /etc/yum.repos.d/CentOS-*.repo
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161816/mirrorlist-centos-org-no-longer-resolve
+
+---
+
+#### 8206. How to install and configure Redis server on Amazon Linux 2023 (AL2023)?
+
+**问题描述 / Problem Description**:
+Tags: amazon-web-services, fedora, redis, amazon-linux, aws-ec2 | Score: 13 | Views: 26339 | Answers: 4 | Created: 2023-03-30
+
+**解决方案 / Solution**:
+Try this: sudo dnf install -y redis6 sudo systemctl start redis6 sudo systemctl enable redis6 sudo systemctl is-enabled redis6 redis6-server --version redis6-cli ping
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127483/how-to-install-and-configure-redis-server-on-amazon-linux-2023-al2023
+
+---
+
+#### 8207. Is upgrading from CentOS Stream 8 to CentOS Stream 9 now straightforward?
+
+**问题描述 / Problem Description**:
+Tags: centos | Score: 6 | Views: 11805 | Answers: 3 | Created: 2024-04-14
+
+**解决方案 / Solution**:
+I've been researching this tonight, too. I have a "CentOS Stream release 8" VM in VirtualBox. I fully upgraded it and made a snapshot of it before testing the 3 lines you posted. I was warned to first run "sudo dnf --refresh upgrade" first so I did. Once I began the upgrade, I was met with suggestions to add "--skip-broken" and "--nobest". After adding both of those, I was able to trigger the update after a reboot. Now, however, I'm met with the inability to do much due to "This system is not registered with an entitlement server. You can use subscription-manager to register." I renew a free RHEL Developer's License annually to keep my RHEL 9 VM operational but I've never needed to register a version of CentOS. I'm not sure if there's a registration required now or if this is just not such a great idea. Fortunately with that snapshot it was easy to rollback.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157913/is-upgrading-from-centos-stream-8-to-centos-stream-9-now-straightforward
+
+---
+
+#### 8208. How to run DNF without going OOM on GCP e2-micro
+
+**问题描述 / Problem Description**:
+Tags: google-cloud-platform, fedora, oom, dnf | Score: 6 | Views: 4245 | Answers: 5 | Created: 2023-01-16
+
+**解决方案 / Solution**:
+You can create a swapfile and utilize it while running dnf updates. $ sudo dd if=/dev/zero of=/swapfile count=1024 bs=1MiB $ sudo chmod 600 /swapfile $ sudo mkswap /swapfile $ sudo swapon /swapfile $ sudo dnf update Once the updates are finished you can turn swap off by running: $ sudo swapoff When using a swapfile over the long-term there were spurious instance stability issues, but these were mainly over come by using zram. Unfortunately even with 384MB of zram enabled updates would be killed by oom, otherwise the system was stable and has run a LAMP stack for over a year.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1120367/how-to-run-dnf-without-going-oom-on-gcp-e2-micro
+
+---
+
+#### 8209. Understanding the ChallengeResponseAuthentication setting with PAM and login.conf
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, pam | Score: 4 | Views: 938 | Answers: 1 | Created: 2025-09-18
+
+**解决方案 / Solution**:
+After you set ChallengeResponseAuthentication yes in sshd_config OpenSSH hands authentication over to PAM. That’s why UsePAM normally also has to be set to yes , and otherwise the auth flow won’t make sense and you’ll just get failures. On Linux, the actual behavior (password prompt, keyboard-interactive, 2FA, smartcards job, et cetera) is defined by the PAM stack for SSH, which lives in /etc/pam.d/sshd , and that exact file tells sshd which modules to call and in what order. So if you enable ChallengeResponseAuthentication and you wonder “Where're all the cowboys gone? Where’s the real auth logic happening?!”, the answer is... In the PAM configuration, not in login.conf file! The login.conf references you’ll see in some broader docs are entirely BSD-specific, they have nothing to do with Linux. TL;DR: If ChallengeResponseAuthentication yes is combined with UsePAM yes , then auth is handled by /etc/pam.d/sshd organically. If UsePAM no is paired with ChallengeResponseAuthentication yes then the whole thing won't work, and login.conf only matters on BSD, but not Linux :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1192844/understanding-the-challengeresponseauthentication-setting-with-pam-and-login-con
+
+---
+
+#### 8210. virt-viewer launch as system service
+
+**问题描述 / Problem Description**:
+Tags: systemd, fedora, libvirt, gnome | Score: 4 | Views: 398 | Answers: 1 | Created: 2025-09-01
+
+**解决方案 / Solution**:
+Don’t run GUI apps from system units! Keep the VM in qemu:///system and autostart it if you want it booted with the host. Use a user service tied to graphical-session.target for launching virt-viewer , so it inherits the session’s DISPLAY/Wayland env and... It Just Works!™
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1191130/virt-viewer-launch-as-system-service
+
+---
+
+#### 8211. Certificate for gnome-remote-desktop
+
+**问题描述 / Problem Description**:
+Tags: certificate, rdp, fedora, gnome | Score: 4 | Views: 21888 | Answers: 2 | Created: 2024-06-03
+
+**解决方案 / Solution**:
+answer here and here : sudo -u gnome-remote-desktop winpr-makecert \ -silent -rdp -path ~gnome-remote-desktop rdp-tls Needs to be run before the enable. At least for the problem with the certificate.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160308/certificate-for-gnome-remote-desktop
+
+---
+
+#### 8212. Cannot use 2FA due to <Disabled method "keyboard-interactive"> even when it is enabled
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, fedora, two-factor-authentication | Score: 4 | Views: 6069 | Answers: 2 | Created: 2022-10-31
+
+**解决方案 / Solution**:
+Try removing your modifications in /etc/ssh/sshd_config and put the following lines in /etc/ssh/sshd_config.d/50-redhat.conf (if this file would exist): # This system is following system-wide crypto policy. The changes to # crypto properties (Ciphers, MACs, ...) will not have any effect in # this or following included files. To override some configuration option, # write it before this block or include it before this file. # Please, see manual pages for update-crypto-policies(8) and sshd_config(5). Include /etc/crypto-policies/back-ends/opensshserver.config SyslogFacility AUTHPRIV ChallengeResponseAuthentication yes GSSAPIAuthentication yes GSSAPICleanupCredentials no UsePAM yes ChallengeResponseAuthentication yes PasswordAuthentication yes PubkeyAuthentication yes KbdInteractiveAuthentication yes ... ... If you require PW + 2FA, then put the following line on the bottom of /etc/pam.d/sshd (perhaps you don't need not nullok, debug etc.): auth required pam_google_authenticator.so nullok debug [authtok_prompt=Enter your secret token: ] If you require only 2FA, then remark auth substack password-auth in /etc/pam.d/sshd and keep the following line on the bottom: auth required pam_google_authenticator.so nullok debug [authtok_prompt=Enter your secret token: ] In my case, this worked with SSSD-AD-Auth + Google-Authenticator-2FA in Rocky9.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114499/cannot-use-2fa-due-to-disabled-method-keyboard-interactive-even-when-it-is-e
+
+---
+
+#### 8213. DRBD does not sync files even though it is UpToDate
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, high-availability, drbd | Score: 4 | Views: 1441 | Answers: 2 | Created: 2022-06-15
+
+**解决方案 / Solution**:
+It works as expected. DRBD is an active-passive replication by default, so only one copy of the data is accessible by host "owning" the volume currently. If you need both servers accessing data simultaneously, you need an active-active replication, global shared volume access, and some clustered file system. Here are some examples. VMware VSAN + VMFS https://www.vmware.com/content/vmware/vmware-published-sites/us/products/vsan.html.html Microsoft S2D + CSFVS https://learn.microsoft.com/en-us/azure-stack/hci/concepts/storage-spaces-direct-overview StarWind vSAN + GFSV2 https://www.starwindsoftware.com/starwind-virtual-san
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103354/drbd-does-not-sync-files-even-though-it-is-uptodate
+
+---
+
+#### 8214. Partitioning Rocky Linux 9 on AWS ec2
+
+**问题描述 / Problem Description**:
+Tags: centos, partition, aws-ec2, rocky-linux | Score: 3 | Views: 457 | Answers: 1 | Created: 2024-11-02
+
+**解决方案 / Solution**:
+I think I found the issue and the root cause is tmp.mount. In many guides I found online that to mount tmp with an entry in fstab I need to disable that service with systemctl mask tmp.mount With this command, that should disable the service, the corresponding unit is redirect to null, via symbolic link I suppose [root@rocky9 ~]# ls -l /etc/systemd/system/tmp.mount lrwxrwxrwx. 1 root root 9 May 23 17:20 /etc/systemd/system/tmp.mount -> /dev/null [root@rocky9 ~]# cat /etc/systemd/system/tmp.mount [root@rocky9 ~]# Operation that seemed useless since on Rocky 9 the configuration is that one by default. Only in this page https://www.tenable.com/audits/items/CIS_AlmaLinux_OS_9_v1.0.0_L1_Server.audit:3b133929eff69c1cd4b4655a7c7542bf I found the command [root@rocky9 ~]# systemctl unmask tmp.mount Removed "/etc/systemd/system/tmp.mount". That completely remove the file and I'm able to mount via fstab. I don't know exactly the meaning and the action of mask and unmask commands, but that's an other topic.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167329/partitioning-rocky-linux-9-on-aws-ec2
+
+---
+
+#### 8215. How to update to Fedora 40 with GPG errors
+
+**问题描述 / Problem Description**:
+Tags: fedora, upgrade | Score: 3 | Views: 1277 | Answers: 3 | Created: 2024-10-02
+
+**解决方案 / Solution**:
+You need to remove the package with the expired key. Run rpm -q gpg-pubkey --qf '%{NAME}-%{VERSION}-%{RELEASE}\t%{SUMMARY}\n' to get a list of all, and then in your case you need to identify the one corresponding to "GitHub CLI", e.g. something like rpm --erase gpg-pubkey-38ab71f4-60242b087 Credit: https://gist.github.com/e7d/3b786c7410ca14a5ded61eec36de9874
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166049/how-to-update-to-fedora-40-with-gpg-errors
+
+---
+
+#### 8216. Fedora 40: auditctl doesn't audit creating, editing and deleteing to files as expected
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, audit | Score: 3 | Views: 973 | Answers: 1 | Created: 2024-06-22
+
+**解决方案 / Solution**:
+Few points for consider. This do not work for you because audit monitor different folder: root@localhost:~# auditctl -l -a never,task -w /tmp/testing -p rwxa -k testing Next I am not sure you need -D as first line in audit rules file. And your rules file is probably in wrong place, set it in: /etc/audit/rules.d/audit.rules (this is recommended for RHEL 7,8,9) And do not forget to restart audit daemon after changing the configuration systemctl restart auditd.service P.S. Unfortunately systemctl do not work for audit daemon so restart should be done via: service auditd restart And answering you concern - it work and add records for edit, remove, etc: I added rule like this: auditctl -w /root/test/ -p rwxa -k testing and the result is [root@rh9-1 test]# ausearch -k testing ---- <snip> ---- time->Sat Jun 22 15:26:50 2024 type=PROCTITLE msg=audit(1719059210.373:105): proctitle=726D002D690062 type=PATH msg=audit(1719059210.373:105): item=1 name="b" inode=656718 dev=fd:00 mode=0100644 ouid=0 ogid=0 rdev=00:00 obj=unlabeled nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0 type=PATH msg=audit(1719059210.373:105): item=0 name="/root/test" inode=655414 dev=fd:00 mode=040755 ouid=0 ogid=0 rdev=00:00 obj=unlabeled nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0 type=CWD msg=audit(1719059210.373:105): cwd="/root/test" type=SYSCALL msg=audit(1719059210.373:105): arch=c000003e syscall=263 success=yes exit=0 a0=ffffff9c a1=5570b6183630 a2=0 a3=20 items=2 ppid=1266 pid=1355 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=1 comm="rm" exe="/usr/bin/rm" subj=kernel key="testing" This above remove the file, named b from directory /root/test
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161362/fedora-40-auditctl-doesnt-audit-creating-editing-and-deleteing-to-files-as-ex
+
+---
+
+#### 8217. Removing obsolete shortcuts in ~/.local/bin
+
+**问题描述 / Problem Description**:
+Tags: python, fedora, pip | Score: 3 | Views: 180 | Answers: 2 | Created: 2024-06-21
+
+**解决方案 / Solution**:
+You can easily do that with a script. First determine current Python version; then define directories by setting variables for the local binary and library directories, and finally find and remove obsolete shortcuts. Like this: #!/bin/bash # Get the current Python version current_python_version=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')") # Define the local bin and lib directories local_bin="$HOME/.local/bin" local_lib="$HOME/.local/lib" # Find obsolete shortcuts for shortcut in "$local_bin"/*; do # Check if the shortcut is a symlink or executable script if [ -L "$shortcut" ] || [ -x "$shortcut" ]; then # Check if the target of the shortcut exists and is an executable target=$(readlink -f "$shortcut") if [[ "$target" == "$local_lib/python"* ]] && [[ "$target" != *"$current_python_version"* ]]; then echo "Removing obsolete shortcut: $shortcut" rm -f "$shortcut" fi fi done echo "Cleanup completed." Good luck!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161357/removing-obsolete-shortcuts-in-local-bin
+
+---
+
+#### 8218. How to automatically change the name of a file on a daily basis
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, logging, log-files, logrotate | Score: 3 | Views: 1265 | Answers: 2 | Created: 2023-07-24
+
+**解决方案 / Solution**:
+Please refer logrotate man page option "start count" start count This is the number to use as the base for rotation. For example, if you specify 0, the logs will be created with a .0 extension as they are rotated from the original log files. If you specify 9, log files will be created with a .9, skipping 0-8. Files will still be rotated the number of times specified with the count directive.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1138800/how-to-automatically-change-the-name-of-a-file-on-a-daily-basis
+
+---
+
+#### 8219. Cross domain authentication with transitive forest trust for linux
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, centos, active-directory, redhat | Score: 3 | Views: 1664 | Answers: 1 | Created: 2023-07-14
+
+**解决方案 / Solution**:
+EDIT #1 - Ubuntu update: I ended up getting this to work for CentOS, RedHat, and Ubuntu. Ubuntu is similar but has some differences in package names and making the homedir. Using samba, winbind, and net ads join: dnf install samba samba-client samba-winbind samba-winbind-clients oddjob oddjob-mkhomedir /etc/samba/smb.conf: [global] workgroup = DEV realm = DEV.DOMAIN.COM security = ads idmap config * : backend = autorid idmap config * : range = 100000-19999999 idmap config * : rangesize = 1000000 template homedir = /home/%D/%U template shell = /bin/bash winbind use default domain = false winbind offline logon = true log file = /var/log/samba/log.%m max log size = 50 log level = 0 Join and stop/start winbind: systemctl stop winbind net ads join -U domainAdmin systemctl enable winbind --now Now I can ssh as a corp user to a dev machine but I have to specify the corp domain at login otherwise it defaults to local user and fails: ssh -l username@corporate.domain.com 10.1.100.100 [CORP\username@hostnametest ~]$ whoami CORP\username [CORP\username@hostnametest ~]$ pwd /home/CORP/username Is there a way to just default add the corp domain for login attempts or ideally, another samba or ssh config setting that handles it? EDIT #1: Ubuntu is pretty much the same apt -y install winbind libpam-winbind libnss-winbind krb5-config samba-dsdb-modules samba-vfs-modules Same smb.conf Additionally, I added these edits in /etc/nsswitch.conf and /etc/pam.d/common-session /etc/nsswitch.conf: passwd: files systemd winbind group: files systemd winbind /etc/pam.d/common-session: session optional pam_mkhomedir.so skel=/etc/skel umask=077 Join and restart winbind. I didn't have to update DNS settings in netplan because it already had the right nameservers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1137213/cross-domain-authentication-with-transitive-forest-trust-for-linux
+
+---
+
+#### 8220. Why is systemd-oom the owner of my podman container volume?
+
+**问题描述 / Problem Description**:
+Tags: docker, systemd, fedora, docker-compose, podman | Score: 3 | Views: 1173 | Answers: 1 | Created: 2023-07-12
+
+**解决方案 / Solution**:
+Files share uid's between the container and host (without user namespaces) when you mount a volume. So a file with uid 999 in the container will have uid 999 on the host (just like permission bits are the same between both). So if the container changes ownership of files in its volume, then you'll see that ownership change, by uid, on the host. You can compare the /etc/passwd in the container vs your host to see what host user maps to which container user. Here are the user mapping in the container for the postgres:13 image, where you can see postgres is uid 999: root@9a946afa90cc:/# cat /etc/passwd root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin bin:x:2:2:bin:/bin:/usr/sbin/nologin sys:x:3:3:sys:/dev:/usr/sbin/nologin sync:x:4:65534:sync:/bin:/bin/sync games:x:5:60:games:/usr/games:/usr/sbin/nologin man:x:6:12:man:/var/cache/man:/usr/sbin/nologin lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin mail:x:8:8:mail:/var/mail:/usr/sbin/nologin news:x:9:9:news:/var/spool/news:/usr/sbin/nologin uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin proxy:x:13:13:proxy:/bin:/usr/sbin/nologin www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin backup:x:34:34:backup:/var/backups:/usr/sbin/nologin list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin _apt:x:42:65534::/nonexistent:/usr/sbin/nologin nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin postgres:x:999:999::/var/lib/postgresql:/bin/bash
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1136765/why-is-systemd-oom-the-owner-of-my-podman-container-volume
+
+---
+
+#### 8221. Leapp upgrade : no matches found for the following disable plugin patterns : subscription-manager
+
+**问题描述 / Problem Description**:
+Tags: centos, migration, upgrade | Score: 3 | Views: 6743 | Answers: 1 | Created: 2023-07-10
+
+**解决方案 / Solution**:
+TL;DR; Install the whole package (not only the DNF plugin), re-run the check and upgrade, then remove it after on Alma 9. sudo dnf install subscription-manager sudo leapp preupgrade I do not have an answer for why it happened but I am going to post a workaround for it and give the background that I am aware of about it. I got the same error message No matches found for the following disable plugin patterns: subscription-manager but with different details around it during the leapp preupgrade check for Alma 8 to Alma 9. The system had previously been CentOS 7 but did not have the error going from CentOS 7 to Alma 8. The full message is long but it appears to come down to the preupgrade check assuming that plugin would exist. ..., '--enablerepo', 'almalinux9-nfv', 'dnf-command(config-manager)', 'dnf', 'kpatch-dnf', 'util-linux', '--disableplugin', 'subscription-manager'] failed with exit code 1. Based on Fedora systems around the time of the CentOS 8 release, I believe Red Hat (or IBM) tried to include that plugin as a default. Depending on how (and maybe when) the system was upgraded it might not have be there (and in both of our cases was not). The plugin was framed as a general tool but is written to facilitate various RHEL subscription options. The documentation now seems to have dropped the pretense of it being for anything other than Red Hat. It might only be an oversight in the preupgrade utility and not the upgrade process itself, but I was not going to risk it. Installing the plugin subscription-manager package (the DNF plugin alone was not enough) let the preupgrade checks finish without errors. sudo dnf install subscription-manager Installing: subscription-manager Installing dependencies: dnf-plugin-subscription-manager python3-cloud-what python3-ethtool python3-inotify python3-librepo python3-subscription-manager-rhsm subscription-manager-rhsm-certificates sudo leapp preupgrade Note: Before and after that, I had to handle other things that were preventing the upgrade, like disabling third-party, package repositories (example: packages-microsoft-com-prod in /etc/yum.repos.d/prod.repo ).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1136466/leapp-upgrade-no-matches-found-for-the-following-disable-plugin-patterns-sub
+
+---
+
+#### 8222. SELinux is preventing in:imjournal from unlink accesses on the file imjournal.state
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, rsyslog, selinux | Score: 3 | Views: 2136 | Answers: 1 | Created: 2022-11-13
+
+**解决方案 / Solution**:
+The Target Context of system_u:object_r:unlabeled_t:s0 is a likely cause. There may be a rule to allow scontext=system_u:system_r:syslogd_t:s0 to perform actions on files of type syslogd_var_lib_t , which is what I think the SELinux context should be for the /var/lib/rsyslog/imjournal.state file. On my system, there's an fcontext rule that sets it: /var/lib/r?syslog(/.*)? all files system_u:object_r:syslogd_var_lib_t:s0 The fix may be as simple as restorecon -v /var/lib/rsyslog/imjournal.state , followed up with a confirmation check of ls -lZ /var/lib/rsyslog/imjournal.state . I don't have a Fedora system at-hand to confirm this, so you confirm the theory by checking the allowed actions between a source context of syslogd_t (shown in the audit) and a target context of syslogd_var_lib_t: sesearch --allow -s syslogd_t -t syslogd_var_lib_t as well as looking for fcontext rules: semanage fcontext -l | grep 'syslog.*syslogd_var_lib_t' If I'm correct, you'll see: Found 8 semantic av rules: ... allow syslogd_t syslogd_var_lib_t : file { ioctl read write create getattr setattr lock append map unlink link rename open } ; ... ... in the sesearch output, and: ... /var/lib/r?syslog(/.*)? all files system_u:object_r:syslogd_var_lib_t:s0 ... ... in the semanage output. If you don't have the sesearch command by default, it should be available in an "setools" or "setools-console" package.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115544/selinux-is-preventing-inimjournal-from-unlink-accesses-on-the-file-imjournal-st
+
+---
+
+#### 8223. Why are Nix programs not able to resolve mDNS names when native programs are?
+
+**问题描述 / Problem Description**:
+Tags: fedora, avahi, mdns, nixos, nix | Score: 3 | Views: 1253 | Answers: 1 | Created: 2022-04-25
+
+**解决方案 / Solution**:
+The missing link here is nscd ; simply installing nscd and starting the daemon makes the Nix-installed programs work. $ sudo dnf install nscd $ sudo systemctl start nscd.service $ nix-shell -p ssh-tools [nix-shell:~]$ ssh-ping felonyspork.local SSHPING felonyspork.local Pong from felonyspork.local: ssh_seq=1 time=2191 ms Pong from felonyspork.local: ssh_seq=2 time=1310 ms ^C --- felonyspork.local ping statistics --- 2 requests transmitted, 2 requests received, 0% request loss
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1099450/why-are-nix-programs-not-able-to-resolve-mdns-names-when-native-programs-are
+
+---
+
+#### 8224. Reverse SSH - Issue with autossh migrating from Debian 13 to Fedora 42
+
+**问题描述 / Problem Description**:
+Tags: networking, fedora, troubleshooting | Score: 2 | Views: 231 | Answers: 1 | Created: 2025-09-28
+
+**解决方案 / Solution**:
+On Fedora the autossh build is stricter about the order of options. In Debian you could run: autossh -N -f -R 21666:localserver:22 remoteserver.domain.tld But on Fedora 42, the -N and -f are treated as autossh flags, not SSH’s, so it just prints the usage text. Put the SSH flags after -- so autossh knows everything that follows belongs to ssh: autossh -f -- -N -R 21666:localserver:22 remoteserver.domain.tld Or set the SSH command explicitly: AUTOSSH_PORT=0 autossh -M 0 -f \ ssh -N -R 21666:localserver:22 remoteserver.domain.tld Also ensure AUTOSSH_PORT=0 (or -M 0) if you don’t want a monitor port. This ordering difference is why the same line worked on Debian but failed on Fedora.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193084/reverse-ssh-issue-with-autossh-migrating-from-debian-13-to-fedora-42
+
+---
+
+#### 8225. Upgrading with leapp to Oracle Linux 8 fails at libguestfs and btfrs-progs dependency
+
+**问题描述 / Problem Description**:
+Tags: centos, oracle-linux, leapp | Score: 2 | Views: 297 | Answers: 1 | Created: 2025-03-22
+
+**解决方案 / Solution**:
+After writing this, I realized that this was happening because it was trying to update the libguestfs package that was installed (which wasn't installed for any reason beyond the server was set up by someone who installed way more than what was necessary). After removing libguestfs, the leapp upgrade proceeded normally.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1176663/upgrading-with-leapp-to-oracle-linux-8-fails-at-libguestfs-and-btfrs-progs-depen
+
+---
+
+#### 8226. Solved - Fedora host, Windows guest (QEMU/KVM): NAT'd virtual bridges work except this one (USB/Ethernet)
+
+**问题描述 / Problem Description**:
+Tags: networking, routing, kvm-virtualization, fedora, qemu | Score: 2 | Views: 1622 | Answers: 1 | Created: 2024-09-05
+
+**解决方案 / Solution**:
+ip route add default dev "$interface" is, in most cases, an incomplete default route. When you don't specify a gateway IP address, it declares all of 0.0.0.0/0 to be "on link" or "local subnet" – instead of the OS making an ARP query for the gateway, it's told to make ARP queries for every destination IP directly, just as if they all were on your subnet. (Hence the Request who-has 20.191.45.158 ARP query in your tcpdump.) This only works if your gateways provide Proxy-ARP and respond to ARP on behalf of distant addresses – which is something that AFAIK only Cisco enables out of the box for historical reasons (it's a feature that predates even the concept of subnetting). Most other routers, even if capable of doing Proxy-ARP, don't provide it by default; and I'm pretty sure that Android also does not. The lack of ARP response is what leads to the ICMP error "Host unreachable" (not to be confused with "Network unreachable"). Because you cannot enable Proxy-ARP on standard Android 1 , you'll have to define the default route with the gateway address specified. (Since you probably have DHCP to get the IP address from Android, it'd be best to make the DHCP client directly add the route to the correct table.) 1 Unless the Android device is rooted, in which case regular Linux sysctls should work: net.ipv4.conf.xxx.proxy_arp would make that interface respond to ARP on behalf of any IP address that's routed through a different interface. Even if Proxy-ARP is available (such as for your main wired connections), a gateway route is still preferable over a route that relies on Proxy-ARP, as in the latter case your host's ARP cache ( ip neigh or arp -an ) has to keep an entry for every single destination IP address that needs to be contacted, whereas a gateway route only needs one ARP cache entry (for the gateway).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164846/solved-fedora-host-windows-guest-qemu-kvm-natd-virtual-bridges-work-excep
+
+---
+
+#### 8227. Samba not starting dependency error (CentOS)
+
+**问题描述 / Problem Description**:
+Tags: centos, samba | Score: 2 | Views: 527 | Answers: 1 | Created: 2024-07-05
+
+**解决方案 / Solution**:
+The error is due to a mismatch in the versions of the samba libraries installed on your system. Specifically, it seems there is an issue with the libwbclient.so.0 library requiring a different version of libreplace-samba4.so and libwinbind-client-samba4.so. Check current samba packages: rpm -qa | grep samba If you find any 32-bit (i686) Samba packages installed, you should remove them: yum remove samba-client-libs-4.7.1-6.el7.i686 Then clean the YUM cache: yum clean all Now, install the correct version of samba: yum install samba samba-client samba-client-libs After installing the correct packages, verify the installation: smbd --version Finally, try restarting the samba service: systemctl restart smb systemctl restart nmb systemctl restart winbind If there are still issues, check the status and logs for more detailed error messages: systemctl status smb journalctl -xe Good luck!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162079/samba-not-starting-dependency-error-centos
+
+---
+
+#### 8228. Fedora 40: Apache Httpd refuses to write to "/home" filesystem, but I checked SELinux settings
+
+**问题描述 / Problem Description**:
+Tags: apache-2.4, systemd, fedora, selinux, foswiki | Score: 2 | Views: 535 | Answers: 1 | Created: 2024-06-01
+
+**解决方案 / Solution**:
+The problem is due to systemd , which has recently branched out into controlling process access to /home . This may be useful, but doesn't contribute to clarity on a system that already has POSIX access control and SELinux access control. Having a sudden brainwave and searching for "have systemd block access to /home" was key. The option is ProtectHome (added in version 214 and indeed, I am at version 255). The manual says: ProtectHome= Takes a boolean argument or the special values "read-only" or "tmpfs". If true, the directories /home/ , /root , and /run/user are made inaccessible and empty for processes invoked by this unit. If set to "read-only", the three directories are made read-only instead. If set to "tmpfs", temporary file systems are mounted on the three directories in read-only mode. The value "tmpfs" is useful to hide home directories not relevant to the processes invoked by the unit, while still allowing necessary directories to be made visible when listed in BindPaths= or BindReadOnlyPaths= . etc. By default this option is read-only . We need to change it to no . # systemctl show httpd | grep Home ProtectHome=read-only So, let's do it. Run systemctl edit httpd and set up the override file to contain: [Service] ProtectHome=no After saving that file and restarting Apache httpd: systemctl restart httpd The process can create and write the files in their respective directories under /home .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160267/fedora-40-apache-httpd-refuses-to-write-to-home-filesystem-but-i-checked-se
+
+---
+
+#### 8229. kubectl failed to ensure lease exists error
+
+**问题描述 / Problem Description**:
+Tags: kubernetes, fedora | Score: 2 | Views: 6340 | Answers: 1 | Created: 2024-01-29
+
+**解决方案 / Solution**:
+Ok, it looks like this has to do with how kubelet and the control plane handles permissions using the hostname of the device. When dnf installs kubernetes-kubeadm , the default configuration file for kubelete specified localhost.localdomain, no mater what the domain name of the server itself actually is. So after installing kubernetes-kubeadm but before running kubeadm init , you need to replace the config file's references to the hostname with the servers actual hostname with sed --in-place=".old" "s/localhost.localdomain/$(hostname)/" /etc/kubernetes/kubelet.conf Explaining the command: sed is "stream editor" which is included with GNU tools for many linux distrobutions --in-place=".old" copies the existing configuration file to a file with the same name ending in ".old" before modifying the file specified "s/localhost.localdomain/$(hostname)/" replaces any instance of the string "localhost.localdomain" with the value returned by running hostname . ./kubelet.conf the configuration file to modify. Hope this help others! Now off to other battles!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152489/kubectl-failed-to-ensure-lease-exists-error
+
+---
+
+#### 8230. dnsmasq reads addn-hosts config but ignores it, falls back to system's /etc/hosts
+
+**问题描述 / Problem Description**:
+Tags: linux-networking, fedora, dnsmasq, networkmanager | Score: 2 | Views: 3767 | Answers: 2 | Created: 2023-12-31
+
+**解决方案 / Solution**:
+Problem solved thanks to the great advice from @Tai Viinikka ! TLDR; A DNS server from dnsmasq running on localhost doesn't necessary mean it's used by the NetworkManager , even if the /etc/resolv.conf says explicitly so; If your local machine is using your router's DHCP server, you got DNS server settings from it too. TIL; dig uses a DNS server from /etc/resolv.conf by default, even if a connection managed by the NetworkManager uses DNS server address obtained from the DHCP; hence the difference how dig and, say, curl resolve the same hostname. Troubleshooting: Check, if my localhost DNS from dnsmasq is indeed working as expected: # dig or nslookup a host from my addn-hosts's hosts file $ dig 1.example.com [...] ;; ANSWER SECTION: 1.example.com. 0 IN A 0.0.0.0 [...] ;; SERVER: 127.0.0.1#53(127.0.0.1) (UDP) Hostname resolved to 0.0.0.0 (as stated by addn-hosts hosts file) by the 127.0.0.1 ( dnsmasq local DNS server) as expected. Why then all the all the requests from curl or a browser to the same hostname got resolved not though my local DNS from dnsmasq , but, obviously, from another upstream DNS, despite /etc/resolv.conf saying: cat /etc/resolv.conf # Generated by NetworkManager nameserver 127.0.0.1 options edns0 trust-ad That mean something is overriding DNS settings. Must be NetworkManager Check what NetworkManager is using as DNS: $ nmcli device show | grep -i dns IP4.DNS[1]: 192.168.0.1 IP6.DNS[1]: 2a02:8383:d:c::1000 IP6.DNS[2]: 2a02:8383:d:c::1 Indeed, instead of what /etc/resolv.conf says, NetworkManager uses my WiFi router's DNS addresses. This is because a WiFI connection on my local machine uses router's DHCP settings. Set upstream DNS servers in dnsmasq Before fixing DNS used by the NetworkManager , we need to add some upstream DNS that will be used once hosts files are checked. Here's how my whole dnsmasq config looks like now: $ cat /etc/NetworkManager/dnsmasq.d/00-add-hosts.conf # NB! When making changes, don't forget restart dnsmasq & NetworkManager.service: # $ killall dnsmasq # $ systemctl restart NetworkManager # No need to read /etc/resolv.conf as it contains the localhost # addresses of dnsmasq itself no-resolv # Upstream DNS servers # My router, Google, CloudFlare server=192.168.0.1 server=8.8.8.8 server=1.1.1.1 # Add debug logging # $ journalctl --follow -u NetworkManager log-queries # Ignore /etc/hosts no-hosts # Add custom hosts files; # If path is a directory, all files from it are loaded addn-hosts=/etc/hosts.d Fix DNS servers in NetworkManager 's connection settings: Open up nm-connection-editor (or Settings -> WiFi -> Network you're connected to Settings), then IPv4 : Method -> Automatic (DHCP) addresses only DNS Server -> 127.0.0.1 (instead of automatic one) then for IPv6 : Method -> Automatic, DHCP only (watch out, it's different than for IPv4 ) This corresponds to the changes in /etc/NetworkManager/system-connections/YOUR-CONNECTION-NAME.nmconnection : [ipv4] dns=127.0.0.1; ignore-auto-dns=true method=auto [ipv6] addr-gen-mode=stable-privacy dns=::1; ignore-auto-dns=true method=dhcp Now, restart the dnsmasq and the NetworkManager : $ sudo killall dnsmasq $ sudo systemctl restart NetworkManager et voilà! NetworkManager uses localhost as a DNS server, all requests from curl or a web browser get resolved using it, extra hosts files from dnsmasq 's addn-hosts are respected: $ nmcli device show | grep -i dns IP4.DNS[1]: 127.0.0.1 IP6.DNS[1]: ::1 $ curl -v 1.example.com * processing: 1.example.com * Trying 0.0.0.0:80... * connect to 0.0.0.0 port 80 failed: Connection refused * Trying [2604:a880:400:d0::2082:1001]:80... * Immediate connect fail for 2604:a880:400:d0::2082:1001: Network is unreachable * Failed to connect to lobste.rs port 80 after 1 ms: Couldn't connect to server * Closing connection
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150701/dnsmasq-reads-addn-hosts-config-but-ignores-it-falls-back-to-systems-etc-host
+
+---
+
+#### 8231. Samba share not accessible to client in the same network
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, centos, samba, windows-server-2016 | Score: 2 | Views: 2176 | Answers: 1 | Created: 2023-09-18
+
+**解决方案 / Solution**:
+You've got two issues here You're trying to access \192.168.1.20\testshare instead of \\192.168.1.20\testshare . I'm going to assume that's a typo but it's important to be precise You have a hosts allow = 192.168.1.20 entry in the smb.conf . The documentation ( man smb.conf ) describes this value as " This parameter is a […] set of hosts which are permitted to access a service ". However, from your Windows client you're trying to access a server on address 192.168.1.20 , showing that your client can't be 192.168.1.20 . As a result any service will be refused. Temporarily, remove the hosts allow entry (comment it out) and test that you have connectivity. When you have confirmed this, put the line back but with the correct client IP address.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143943/samba-share-not-accessible-to-client-in-the-same-network
+
+---
+
+#### 8232. cannot run kubeadm init on centos
+
+**问题描述 / Problem Description**:
+Tags: centos, kubernetes | Score: 2 | Views: 1399 | Answers: 1 | Created: 2023-06-09
+
+**解决方案 / Solution**:
+This is probably not working due to the fact that CentOS Linux 8 has reached EOL . As per the official article, the contents of the official repository of CentOS Linux 8 were removed from http://mirror.centos.org/ to http://vault.centos.org/ , where it will be archived permanently since Centos Linux 8 will not be able to provide updates to the content after the EOL date. Workaround 1: Refer to Aaron Kili’s article on Tecmint To fix the error, open your terminal or login via ssh, and run the following commands to change the repo URL to point to vault.centos.org, from the official CentOS repos. Here you can use the sed command to edit the required directives or parameters in the repo configuration files: sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-* Workaround 2 : Refer to Techglimpse content written by Ramya Santhosh. Follow the below steps to resolve your issue: Step 1: Go to the /etc/yum.repos.d/ directory. [root@autocontroller ~]# cd /etc/yum.repos.d/ Step 2: Run the below commands [root@autocontroller ~]# sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* [root@autocontroller ~]# sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-* Step 3: Now run the yum update [root@autocontroller ~]# yum update -y
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1132930/cannot-run-kubeadm-init-on-centos
+
+---
+
+#### 8233. Java unable to start as service on Centos/Rocky/Fedora "Failed to mark memory page as executable"
+
+**问题描述 / Problem Description**:
+Tags: java, systemd, fedora, rocky-linux | Score: 2 | Views: 3869 | Answers: 1 | Created: 2022-11-09
+
+**解决方案 / Solution**:
+From investigations it turns out this problem is specific to Temurin on these various operating systems. Installing JRE's that are available in the default repositories the problem doesn't occur. From what I can determine its because these are installed into locations which are permitted by SELinux where as Temurin installs itself into a directory not allowed by the default SELinux policy. I'm able to run the application as my user as the policies are more permissive that if running from an ExecStart in systemd. Disabling SELinux allows Temurin to run the service as well (although shouldn't be done).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115222/java-unable-to-start-as-service-on-centos-rocky-fedora-failed-to-mark-memory-pa
+
+---
+
+#### 8234. Apache "search permissions are missing on a component of the path" despite permissions being set correctly
+
+**问题描述 / Problem Description**:
+Tags: apache2, fedora, selinux, mediawiki | Score: 1 | Views: 85 | Answers: 1 | Created: 2026-05-22
+
+**解决方案 / Solution**:
+As said in the comments, the issue was that the SELinux label for the directory was httpd_user_content_t . I switched it over to httpd_sys_content_t , and the web server worked again.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199039/apache-search-permissions-are-missing-on-a-component-of-the-path-despite-permi
+
+---
+
+#### 8235. Centos 9 yum update segmention fault
+
+**问题描述 / Problem Description**:
+Tags: centos, centos9 | Score: 1 | Views: 122 | Answers: 1 | Created: 2025-07-18
+
+**解决方案 / Solution**:
+The failed instruction (mnemonic) is: c5 fd 74 0f vpcmpeqb ymm1,ymm0,YMMWORD PTR [rdi] It seems that the RDI register is pointing to an address that is not yet allocated. The stack trace shows that sqlite is trying to run a transaction which triggered a WAL-index recover. This operations seems to be successful and the logging of the event triggers the Segmentation Fault. sqlite-source$ cat src/wal.c [...] /* ** Recover the wal-index by reading the write-ahead log file. ** ** This routine first tries to establish an exclusive lock on the ** wal-index to prevent other threads/processes from doing anything ** with the WAL or wal-index while recovery is running. The ** WAL_RECOVER_LOCK is also held so that other threads will know ** that this thread is running recovery. If unable to establish ** the necessary locks, this routine returns SQLITE_BUSY. */ static int walIndexRecover(Wal *pWal){ [...] /* If more than one frame was recovered from the log file, report an ** event via sqlite3_log(). This is to help with identifying performance ** problems caused by applications routinely shutting down without ** checkpointing the log file. */ if( pWal->hdr.nPage ){ sqlite3_log(SQLITE_NOTICE_RECOVER_WAL, "recovered %d frames from WAL file %s", pWal->hdr.mxFrame, pWal->zWalName ); Based on this I suspect a hardware issue and I would start first by checking the kernel log with: sudo dmesg -H Then I would check for corruption in sql DB used by yum or rpm and repair or rebuild it. Make sure you backup the files before you make any changes. Check the integrity of the installed packages with: sudo rpm -Va Pay attention to the "5" (checksum different)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189255/centos-9-yum-update-segmention-fault
+
+---
+
+#### 8236. Fedora CoreOS on Vagrant: transaction failed: Signature verification failed after provisioning
+
+**问题描述 / Problem Description**:
+Tags: fedora, virtualbox, vagrant, coreos, packer | Score: 1 | Views: 275 | Answers: 1 | Created: 2025-05-07
+
+**解决方案 / Solution**:
+Vagrant plugin , per this issue . Guest additions seem to be the entire point of that plugin, maybe look into removing it. Or, Vagrantfile config to skip the install at first boot thing config.vbguest.auto_update = false Evaluate whether you need to update guest addons . Especially for display less guests, you might not need file share or mouse, and only really use the time sync addon. Note vagrant detected an earlier version installed, probably the downstream kernel's copy, packaged in the Fedora kernel, which might be sufficient. No, you cannot install packages this way. Control of the base operating system is the point of an image based distro like coreos. Prevent package commands from running, that are not supposed to install. Do not rely on them to fail. It attempted to install a C compiler, kernel module tools, and a scripting language, which could be considered a significant difference in security and maintainability. Not that this software is bad. But it snuck in, the reason you know about it is the distro enforcing immutability. Should you really want to layer something in the base OS, there is rpm-ostree install which can be done in a butane configuration. CoreOS downloads page has an image for VirtualBox on x86_64, an ova containing a vmdk. In case your automation allows to skip iso boot and import an existing disk image. I do not know if it has different contents from the VMware ova.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180824/fedora-coreos-on-vagrant-transaction-failed-signature-verification-failed-afte
+
+---
+
+#### 8237. HPE Software Delivery Repository for AlmaLinux 9.5?
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, hpe | Score: 1 | Views: 426 | Answers: 1 | Created: 2025-03-17
+
+**解决方案 / Solution**:
+Kernel drivers are mostly upstream in the Linux kernel, they want a good out of the box experience and cannot support all the bewildering number of Linux distros. Alma is minor version comparable with RHEL . Almost the same features, but binary comparability is not guaranteed. The distinction matters because HPE has out-of-distro drivers (spp) only on supported distros, RHEL or SLES. Plus firmware downloads (fwpp) requires a support contract. This makes sense because its a big lift, there is no Linux kernel ABI and its a lot of work to also test firmware. Do not get into a situation where your distro (Alma) support won't touch a tainted kernel, and your server vendor (HPE) won't help with a distro that is not RHEL. What's the difference between the spp (Service Pack for ProLiant), and the mcp (Management Component Pack for ProLiant)? The spp contains drivers, agent software and firmware and is exclusively supported with RedHat Enterprise Linux and SUSE Linux Enterprise Server. The mcp is just the agent software, ported to a variety of commercial and community supported Linux distributions (ssacli for example). The mcp contains no drivers or firmware. You'll likely find that the distros which track the upstream kernel already have many/most of the latest ProLiant Linux drivers. So just mcp, if we browse around the repo there is an Alma build, use baseurl=https://downloads.linux.hpe.com/repo/mcp/Alma/9/x86_64/current/ If there were only a RHEL 9 or other EL 9 build of just the management agent, that might be acceptable. The management interfaces of some gen of HPE are more stable than the entire Linux kernel. But there's an Alma build so use that. Firmware you need, although maybe the package format is slightly less convenient. Such as whatever you can find on the HPE support center. Complicating things, a gen8 is old. Checking available versions of Smart Update Manager shows the last compatible version for a MicroServer gen8 is 8.1 circa 2017. It is irresponsible to run EL7 in the year 2025. Eventually as older gens are not supported, older tools are replaced in the repo. I only see amsd in mcp/Alma/9/x86_64, not hp-ams. If firmware and hardware management is no longer supported in the OS, read the manual for other options. In particular, out-of-band via the BMC (branded iLO). I do not know if modern APIs are supported, so you could do some restful scripting of management tasks. When you only have one server, do it manually until you work out better scripting.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175375/hpe-software-delivery-repository-for-almalinux-9-5
+
+---
+
+#### 8238. Reverse Proxy DolphinDB through Nginx
+
+**问题描述 / Problem Description**:
+Tags: nginx, centos, reverse-proxy, nginx-reverse-proxy, websocket | Score: 1 | Views: 136 | Answers: 1 | Created: 2024-11-12
+
+**解决方案 / Solution**:
+It looks like the issue might be related to your Nginx location block. DolphinDB's WebSocket endpoint usually expects a connection to /, so if your Nginx config uses location /path/, the WebSocket handshake may fail with code 1006, since the path doesn't match. Try changing your Nginx config to use: location / { proxy_pass http://127.0.0.1:8902/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection "upgrade"; ... } If you need to keep /path/, you can try rewriting the URI: location /path/ { rewrite ^/path/(.*)$ /$1 break; proxy_pass http://127.0.0.1:8902/; ... } Take note that proxying WebSocket over a subpath like /path/ isn't ideal unless the backend is also configured to serve from that path. Sticking to / is safer.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167688/reverse-proxy-dolphindb-through-nginx
+
+---
+
+#### 8239. Coredump file not generating
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, postgresql | Score: 1 | Views: 1516 | Answers: 1 | Created: 2024-10-11
+
+**解决方案 / Solution**:
+Limits are not system-wide – they are per-process, initialized and inherited similar to environment variables. Your ulimit command therefore only raises the coredump limit for the Bash instance you're entering that command in – not for anyone else and not for any service. The limits are initialized from /etc/security/limits.conf for user logins; however, on Linux, services don't go through the "user login" procedure even if they have a service account, so the limit initialization from /etc/security will not occur. Instead all such limits need to be set through the service manager which starts Postgres – in this case systemd, so you need to use systemctl edit to add the LimitCORE= option to the .service file. Alternatively, you can use the prlimit command to change the resource limits of an already running process, assuming it can still run for a short while before it crashes.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166477/coredump-file-not-generating
+
+---
+
+#### 8240. kubernetes metrics-server gets 403 from all nodes
+
+**问题描述 / Problem Description**:
+Tags: kubernetes, fedora, metrics | Score: 1 | Views: 902 | Answers: 1 | Created: 2024-09-19
+
+**解决方案 / Solution**:
+So far there's only one UGLIEST hack that has worked for me on 1.24+ k8s cluster versions (and yes, I've read and followed tonnes of issues and tried various approaches, including direct questions to metrics-server authors, none worked for me (however, some has seem to work for some people)): Disclaimer: DO NOT FOLLOW change --authorization-mode=Webhook to --authorization-mode=AlwaysAllow in kubelet startup environment (redhat-based instances have it defined in unit-file, I prefer to use drop-in config inclusion in /etc/systemd/system/kubelet/service.d ) and restart kubelet. This hack effectively disables the authorization on kubelet service port 10250, so anyone having network connectivity to it can do about all nasty things he can imagine with it. Any more elegant working solution is welcome below.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165464/kubernetes-metrics-server-gets-403-from-all-nodes
+
+---
+
+#### 8241. FleetDM deployment
+
+**问题描述 / Problem Description**:
+Tags: centos, docker, docker-compose | Score: 1 | Views: 1118 | Answers: 1 | Created: 2024-07-19
+
+**解决方案 / Solution**:
+That sounds like you're running into a situation where your FleetDM instance is expecting HTTPS connections but is being accessed via HTTP, which results in the "Client sent an HTTP request to an HTTPS server" error. I'd need some logs to be sure, but I hope this solves it: Make sure that your FleetDM configuration is set up correctly to handle HTTPS. If you’re using Docker Compose, check your docker-compose.yml and any associated configuration files. That might involve setting environment variables or configuration options related to SSL/TLS. Review FleetDM’s documentation for details on how to configure HTTPS. Update FleetDM environment variables Makes sure that the environment variables related to FleetDM's server configuration are set correctly. This includes variables for SSL certificates and keys. Example environment variables to check or add in your Docker Compose configuration might include: environment: - FLEET_SERVER_PROTOCOL=https - FLEET_SERVER_TLS_CERT=/path/to/your/cert.pem - FLEET_SERVER_TLS_KEY=/path/to/your/key.pem If you’re using docker compose, ensure your docker-compose.yml reflects the correct configuration for HTTPS. For example, you may need to map the ports correctly and configure the FleetDM container to use HTTPS. services: fleetdm: image: fleetdm/fleet:latest ports: - "443:443" # Make sure you’re mapping HTTPS port correctly environment: - FLEET_SERVER_PROTOCOL=https - FLEET_SERVER_TLS_CERT=/path/to/your/cert.pem - FLEET_SERVER_TLS_KEY=/path/to/your/key.pem volumes: - /path/to/your/certs:/certs When you access the FleetDM instance, make sure you use https:// in the URL and not http://. Like this: https://localhost:443 Make sure that the self-signed certificates you generated are valid and properly configured. Otherwise, it might not be recognized properly by the server. Make sure your self-signed certificate matches the private key and is correctly configured in FleetDM. You should also check there’s no proxy or redirect configuration that could be causing issues. Sometimes, proxies might redirect traffic incorrectly, which can lead to HTTPS/HTTP mismatches. Check the FleetDM logs for any errors or warnings related to HTTPS. Logs can often provide insight into what might be going wrong. docker-compose logs fleetdm Verify: curl -v https://localhost:443 or openssl s_client -connect localhost:443 If it works, please click on the checkmark icon next to the answer to accept the solution. Good luck!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162795/fleetdm-deployment
+
+---
+
+#### 8242. How can I recreate the rpmdb?
+
+**问题描述 / Problem Description**:
+Tags: fedora, rpm, dnf | Score: 1 | Views: 368 | Answers: 1 | Created: 2024-07-06
+
+**解决方案 / Solution**:
+So, it's not 100% fixed, but the best thing I came up with is to install Fedora in a VM and copy the rpmdb files from there. [UPDATE] Here are some more details: Obviously use the same version of the OS. Make sure to copy the database before installing any updates in the guest OS. Otherwise RPM/DNF would "think" you have the latest packages installed and won't update them. After replacing the broken files with the ones from the VM update your system. (Re)install stuff that you had before, like the nvidia drivers. There may be some old kernels left ( ls /boot ) for which the system no longer has records that they are installed. I think the cleanest way to deal with them is to install the exact same versions of the RPM packages and then uninstall them. I haven't done this yet. I'll update here when I do.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162099/how-can-i-recreate-the-rpmdb
+
+---
+
+#### 8243. How can I upgrade from Centos Stream 8 to 9, now that 8 is EOL?
+
+**问题描述 / Problem Description**:
+Tags: centos | Score: 1 | Views: 603 | Answers: 1 | Created: 2024-06-26
+
+**解决方案 / Solution**:
+Clean install, restore data from backup. If you were considering switching distros, this would be an opportunity to do so.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161589/how-can-i-upgrade-from-centos-stream-8-to-9-now-that-8-is-eol
+
+---
+
+#### 8244. SELinux denies samba share
+
+**问题描述 / Problem Description**:
+Tags: samba, fedora, selinux | Score: 1 | Views: 2623 | Answers: 2 | Created: 2024-06-10
+
+**解决方案 / Solution**:
+Chat GPT answered: sudo restorecon -Rv /home/hanuman sudo restorecon -Rv /run/media/hanuman That actually solved the issue; retagging the entire drives. First time I get a useful answer from that thing. EDIT: Actually it nuked my system and I couldn't log in anymore. Restorecon does seem to be necessary for file shares BUT doing that on your entire home directly breaks your system! So that's not the solution.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160720/selinux-denies-samba-share
+
+---
+
+#### 8245. kubectl explain Subsequent entries cannot be automatically completed
+
+**问题描述 / Problem Description**:
+Tags: centos, kubernetes | Score: 1 | Views: 192 | Answers: 1 | Created: 2024-06-01
+
+**解决方案 / Solution**:
+AFAIK kubectl explain command won’t auto-complete the resource which you are trying to get the explanation for. If you try using the tab key after typing the kubectl explain by default as same as any other command it will give you the files available in the path as a suggestion but not resources explanation. To use the kubectl explain command, you need to enter the resource type which you want the explanation. If you want to know the list of kubernetes services available in your cluster use the following command $ kubectl api-resources From the output of the above command select the resource which you want to know the explanation example as follows : $ kubectl explain [Resource-type] EX: $ kubectl explain deployment $ kubectl explain deployment.spec To know more detailed information refer to this official kubernetes kubectl explain document. You can refer to this tutorial by Vivek singh to get more information. Note : You need to connect to a cluster before using the kubectl explain.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160270/kubectl-explain-subsequent-entries-cannot-be-automatically-completed
+
+---
+
+#### 8246. Trying to resolve errors while configuring NFS Clients (as normal user and root)
+
+**问题描述 / Problem Description**:
+Tags: nfs, fedora, lxc, arch-linux, nfs4 | Score: 1 | Views: 1030 | Answers: 1 | Created: 2024-05-19
+
+**解决方案 / Solution**:
+If you’re facing issues mounting an NFS share in unprivileged Linux containers, here are some workarounds and solutions that might help: Solution 1: Use mount --bind with NFS Mount Since unprivileged containers can’t directly mount NFS shares, you can mount the NFS share on the host system and then use a --bind mount to make the NFS mount accessible to the container. Mount NFS on the Host : Run the following command on your Arch Linux host to mount the NFS share locally: sudo mount -t nfs <server-ip>:/srv/nfs4/share1 /mnt/nfs4share Bind Mount into the Container : Once the NFS share is mounted on the host, you can use --bind to make it available to the container. If you have access to the container's configuration, bind mount it from /mnt/nfs4share to the desired path inside the container (e.g., /srv/nfs4/exports ): sudo mount --bind /mnt/nfs4share /path/to/container/root/srv/nfs4/exports Restart Services : After configuring these bind mounts, you may need to restart the NFS service on the host to ensure everything is accessible. Solution 2: Use unprivileged NFS Exports If you control the NFS server’s export options, you may try adding specific permissions to allow unprivileged clients to access the NFS shares. In the NFS server’s /etc/exports file, modify the options for the shared directory: /srv/nfs4/share1 <client-ip>(rw,sync,no_subtree_check,all_squash,anonuid=1000,anongid=1000) Explanation of Options : all_squash : Maps all users (including root) to the anonymous user. anonuid=1000,anongid=1000 : Sets the UID and GID for the anonymous user to match an unprivileged user on your system. Adjust 1000 to match the user ID on your client container. After updating /etc/exports , run: sudo exportfs -ra Solution 3: Rootless Containers with fuse-overlayfs For containers requiring filesystem operations like mounting, consider using a rootless container runtime with fuse-overlayfs , which might support filesystem mounts without requiring CAP_SYS_ADMIN . Solution 4: Use a Different Protocol (e.g., SSHFS) If NFS proves too restrictive for your use case with unprivileged containers, consider using SSHFS as an alternative. SSHFS works well for unprivileged users and doesn’t require mounting privileges. Here’s an example command: sshfs <user>@<server-ip>:/srv/nfs4/share1 /path/to/container/root/srv/nfs4/exports -o allow_other This would allow access to the share within the container without requiring root privileges on the container side. Hopefully, these steps help address your NFS mount issues with unprivileged containers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159616/trying-to-resolve-errors-while-configuring-nfs-clients-as-normal-user-and-root
+
+---
+
+#### 8247. Regarding the issue of degraded query performance after upgrading bind9
+
+**问题描述 / Problem Description**:
+Tags: linux, domain-name-system, centos, bind | Score: 1 | Views: 162 | Answers: 1 | Created: 2024-04-11
+
+**解决方案 / Solution**:
+Many, many moons ago ... while running a fleet of BIND9 dns servers, I also noticed this. Based on the compile stuff you posted, you may very well not only recover but gain performance from using GCC compile-time performance optimization? Test it and try it out to see, but I had SIGNIFICANT GAIN. It's even better if your workload is strictly authoritative answers. Most compilers use -O2 out of the box. Experiment with the -Ofast macro expansion. Read up on it and decide what's best for your specific environment. The gains are worth it!!! You may need to go back and recompile your own openss and libxml2 libraries? If you use what is provided in mainline software repositories, they were compiled to work and deliver average performance across a wide variety of similar hardware platforms. Optimize for the platforms/chipsets that you actually run on and do more than basic optimizations (i.e. -O2). The differences are immense!!! It's a bit of a pita, but if you remember exactly what you did you can reproduce your efforts with other software as well. The performance improvements are INSANE! You will look like a superhero to everyone. They will hoist you upon their shoulders and carry you about cheering your name. You will be worthy of a cape for your office chair, at last. There will be much rejoicing. Hooray!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157736/regarding-the-issue-of-degraded-query-performance-after-upgrading-bind9
+
+---
+
+#### 8248. Cannot ssh into my vps ipv6 ip : Network is unreachable
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, vps, ipv6, putty | Score: 1 | Views: 2022 | Answers: 1 | Created: 2024-02-29
+
+**解决方案 / Solution**:
+Trying to ping googles ipv6 - 2a00:1450:4001:806::200e - from my linux machine also returns Network is unreachable You don't have functioning IPv6. If your ISP is not able to give you this you may look into a tunnel from e.g. HE.net fe80::77d2:3243:db4e:dbb6/64 This is a link local address. They will only ever work locally in your network, and not on the Internet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155477/cannot-ssh-into-my-vps-ipv6-ip-network-is-unreachable
+
+---
+
+#### 8249. Unable to SSH VM instance after OS upgrade & reboot of VM instance in GCP
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, google-compute-engine, google-cloud-platform | Score: 1 | Views: 1059 | Answers: 2 | Created: 2024-02-09
+
+**解决方案 / Solution**:
+As per the Almalinux doc , Migrations will require your system to reboot twice. Can you reboot again and try it. If still unable to connect check below points : As per the logs you are receiving integrity validation failure , You might need to identify the cause of an integrity validation failure and update the integrity policy baseline using the current instance configuration. The VM instance must be running when you update the baseline. If you can't diagnose and resolve the cause of the SSH connection issue, connect using the SSH Putty client . To find more methods for diagnosing and resolving failed SSH connections, see Troubleshooting SSH . You can also raise this issue in almalinux disclosure group to get in line issue resolution .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153219/unable-to-ssh-vm-instance-after-os-upgrade-reboot-of-vm-instance-in-gcp
+
+---
+
+#### 8250. OpenSSH Requires Password AND Public Key!
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh | Score: 1 | Views: 929 | Answers: 4 | Created: 2024-02-07
+
+**解决方案 / Solution**:
+The debug shows that all identity files returned errors (type -1) and there is no public key authentication performed. Do you have read permissions to any files in /home/eric/.ssh/ ? There is also an error no matching host key type found. Their offer: ssh-rsa,ssh-dss . Use ssh -o HostKeyAlgorithms=+ssh-rsa
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153121/openssh-requires-password-and-public-key
+
+---
+
+#### 8251. Dual Xeon E5-2683v4 128GB 2x1TB SSD with 10 Wordpress Sites So Slow
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, dedicated-server | Score: 1 | Views: 176 | Answers: 1 | Created: 2024-01-30
+
+**解决方案 / Solution**:
+Wordpress is slow. Wordpress + plugins is very slow and probably insecure. Your biggest win will be to flatten the sites to static files - there are plenty of tools available off the shelf for this. Failing that, in order: Remove any wp plugins not CRITICAL for site operation (remove - not disable) Check you've got sensible limits set in the php-fpm config (pm=dynamic, pm.max_spare_servers > pm.min_spare_servers + ~10% of pm.max_children,pm.max_children set appropriately) ensure opcache is enabled and properly sized enable the MySQL slow query log and action what it's telling you (you seem to have plenty of free memory - you might consider upping the innodb buffer pool).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152542/dual-xeon-e5-2683v4-128gb-2x1tb-ssd-with-10-wordpress-sites-so-slow
+
+---
+
+#### 8252. firewalld config for OpenVPN
+
+**问题描述 / Problem Description**:
+Tags: firewall, openvpn, fedora, firewalld, firewalld-zone | Score: 1 | Views: 3440 | Answers: 2 | Created: 2024-01-24
+
+**解决方案 / Solution**:
+You could add services to the the Trusted zone and then change the accept to drop For example to only allow openvpn and ssh you can it like this sudo firewall-cmd --zone=trusted --add-service={ssh,openvpn} sudo firewall-cmd --zone=trusted --set-target=DROP sudo firewall-cmd --reload
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1152175/firewalld-config-for-openvpn
+
+---
+
+#### 8253. minikube dns does not resolve on host fedora systemd-resolve
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, kubernetes, fedora, minikube, systemd-resolve | Score: 1 | Views: 1124 | Answers: 2 | Created: 2024-01-12
+
+**解决方案 / Solution**:
+Configure CoreDNS to forward "." to your DNS server outside of Kubernetes, then change the host's DNS to use CoreDNS using resolvconf. This will allow the host resolve the cluster.local addresses and then the normal stuff outside of K8 via the "." forwarder. You do this by editing the configmap of CoreDNS. In the below example 10.254.24.4, 10.254.24.2 and 10.254.24.3 are the three CoreDNS pods from the deployment, one per node. 10.254.12.8 and 10.254.142.8 are the external DNS outside of Kubernetes. Corefile: | . { bind 10.254.24.4 10.254.24.2 10.254.24.3 log errors health 127.0.0.1:8082 kubernetes cluster.local in-addr.arpa ip6.arpa { pods insecure fallthrough in-addr.arpa ip6.arpa } forward . 10.254.12.8 10.254.142.8 cache 30 loop reload loadbalance } Another route would be to do the inverse, i.e. set your external DNS server to conditionally forward cluster.local back to CoreDNS. You then have both normal DNS and a way to resolve cluster.local. There are a number of ways to do this, one is to expose the CoreDNS service via type LoadBalancer, another depending on environment is to forward to the pod addresses, assuming they are routable - which then are with CNI antrea-nsx for example. Another route is to configure systemd-resolved so have interface specific DNS servers and suffixes, i.e. place the cluster interface with DNS of CoreDNS with a cluster.local suffix and the normal management NIC (or whatever you call it) with DNS external to Kubernetes. All three of those methods have worked for me before.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1151380/minikube-dns-does-not-resolve-on-host-fedora-systemd-resolve
+
+---
+
+#### 8254. How to enable executing php files in Fedora Apache?
+
+**问题描述 / Problem Description**:
+Tags: linux, apache-2.2, php, httpd, fedora | Score: 1 | Views: 1734 | Answers: 2 | Created: 2023-10-13
+
+**解决方案 / Solution**:
+You dont need "chmod 777" change your permission to: chmod 644 /var/www/backend/index.php Make sure the owner and group are set to the web server user (usually apache or www-data). chown apache:apache /var/www/backend/index.php Verify that the directory containing your PHP files has the correct permissions. The directory and its parent directories should be accessible by Apache. chmod 755 /var/www/backend If you are using SELinux on Fedora, it might enforce additional security policies. To check SELinux contexts and correct them, you can use the ls -Z command and the chcon command ls -Z /var/www/backend chcon -R -t httpd_sys_content_t /var/www/backend Verify that your Apache configuration allows for PHP execution. In your Apache configuration file (httpd.conf or an included file), you should have the following lines AddType application/x-httpd-php .php AddType application/x-httpd-php-source .phps Ensure that these lines are not commented out. Also, make sure your virtual host configuration (if you have one) includes the DirectoryIndex directive with "index.php." Ensure that the PHP module is loaded by Apache. You can check if the php module is loaded using: apachectl -M After making changes to file permissions and configurations, restart Apache to apply the changes systemctl restart httpd
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145844/how-to-enable-executing-php-files-in-fedora-apache
+
+---
+
+#### 8255. Backup server for several servers with yesterday's files
+
+**问题描述 / Problem Description**:
+Tags: centos, php, backup, repository | Score: 1 | Views: 133 | Answers: 1 | Created: 2023-10-08
+
+**解决方案 / Solution**:
+Backup protection storage exists to restore files as they were. And yes, this includes metadata like owner and permissions. I'll add an additional requirement that some tier of the backup storage is as difficult to alter as is reasonable. Also known as ransomware insurance. Cold storage media like tape. Pull backup methods were the backup system downloads the data, the hosts being backed up have no access to change the backup. Regarding people, only backup administrators should have users that can log into the protection storage, no one else needs to be able to touch it. Your file copy ideas imply a backup server that is synced with every user who owns a file. Such as joined to a central user directory. While nice for a rsync target, a snapshot mount host, or a file share host, that's difficult to make work with my idea of an isolated protection storage. And in environments that don't have strong management of user IDs, it can be surprisingly messy. Test how user names are preserved on such volumes. For example, note that rsync will try to map names but might fall back to numeric IDs . Numeric IDs might work for restoring back to the same host, but what about when copying the file to a different host with a uid conflict? Consider in addition a backup software that can record user name in its archives. For example, tar will record this, and some flavors can also include ACLs. Then the archive can be stored on whatever blob storage. Many archives, from different hosts, can be stored on a very large protection storage if desired. Not recommending tar over anything else, just noting that containers that also store metadata have existed for a long time. Version control systems are not ideal for backups. I don't want to merge histories and resolve their conflicts, I want the simpler thing of store this tree. git (without extensions) does not preserve file owner or permissions, which fails that requirement. Also, some version control systems keep objects around as long as they are referenced, which complicates deleting backups older than however many days. As always, test backups by doing restores. Spot check the restores integrity, and know how long it takes to recover.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145443/backup-server-for-several-servers-with-yesterdays-files
+
+---
+
+#### 8256. Enable BTRFS in kernel (running Rocky Linux 9.2)
+
+**问题描述 / Problem Description**:
+Tags: filesystems, fedora, kernel, btrfs, rocky-linux | Score: 1 | Views: 3097 | Answers: 1 | Created: 2023-10-07
+
+**解决方案 / Solution**:
+EL has not included btrfs since 7, no. Options exist for Red Hat family distros, which to choose depends on whom you trust to maintain your OS. Fedora is an option, same as the source OS. Obvious problem, your host is instead EL. Although could create a Fedora host (VM guest or whatever), for operational use or just to do a file transfer. Oracle Linux has btrfs as a feature. Also not Rocky, but is EL 9 derived so almost the same. ELrepo's kernel-ml package has btrfs enabled. While you can use it with Rocky, this is quite a different kernel than RHEL. Its security and maintainers are different as a third party thing. And you'll have to find a user space btrfs-progs, I don't think that's packaged. Regarding building your own kernel, that means you take on responsibility for maintaining security and stability fixes. And package it such that it replaces upstream kernel, which is a complex beast. Further, support communities like us cannot help with arbitrary customization, we would need to reproduce your builds which is not easy. Feel free to study building packages from source, but from a support perspective even installing some other distro is a more known quantity than custom builds.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145384/enable-btrfs-in-kernel-running-rocky-linux-9-2
+
+---
+
+#### 8257. Fedora 38: Can't open an X11 display between two nearly identical systems; how do I track / fix this?
+
+**问题描述 / Problem Description**:
+Tags: fedora, x11, display, fedora-38 | Score: 1 | Views: 738 | Answers: 1 | Created: 2023-09-04
+
+**解决方案 / Solution**:
+After perhaps more than two day's time lost, I figured it out. I don't have a fully comprehensive answer regarding when certain changes happened, but as of NOW, Fedora 38 : Somewhere along the way, Fedora's Workstation Desktop , which I installed over Server to get a somewhat familiar windowing system, switched from Xorg to something called Wayland . Wayland , for whatever - in my view misguided - reason, think's using displays on another system is a security risk and disables the "remote display" capability by default, and they don't tell you how to turn it back on. Exactly how to turn it back on is now behind a paywall at Red Hat's web site, however, in reading the various materials about Wayland, there's an open admission that "there are still applications and behaviors that don't work as expected," including, apparently, this important feature of X11 . My solution was: During login, click the cog-wheel type logo and select running one of the two original X-11 (AKA Xorg ) options, and then continue as normal. You can still get caught up in firewall and xhost permissions - and maybe even SELinux - but above I indicated I'd taken those things out of the way. Thus, once free of Wayland , "It Just Works!" ... Time to celebrate! And, HEY developers of Wayland , MAYBE you ought to TELL us stuff like this, perhaps HOW to overcome this one via commented out options in the config file?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143048/fedora-38-cant-open-an-x11-display-between-two-nearly-identical-systems-how-d
+
+---
+
+#### 8258. CentOS 7 kickstart file, add entry to /etc/hosts
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, kickstart | Score: 1 | Views: 663 | Answers: 1 | Created: 2023-09-04
+
+**解决方案 / Solution**:
+Just to answer my own question, based on info from @HBruijn. It appears that the packages section is only designed to install packages from the installation media. This makes sense as you would generally not use external repos during the installation phase of the OS. Generally you would install the OS and then install additional packages. So hence it makes sense to use the post section for this. There it's easy to add an entry to /etc/hosts and then install additional packages.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1142959/centos-7-kickstart-file-add-entry-to-etc-hosts
+
+---
+
+#### 8259. Failover load balancing by iptables is possible?
+
+**问题描述 / Problem Description**:
+Tags: centos, iptables, firewall, load-balancing, failover | Score: 1 | Views: 735 | Answers: 1 | Created: 2023-08-04
+
+**解决方案 / Solution**:
+Yes, it's possible. CLUSTERIP target is designed specifically for that. It is configured by assigning the same IP address to all nodes, but filtering access to roughly 1/N of all connections are processed by each node. It is designed so that if the N nodes are configured with all the same settings except --local-node takes values 0, 1, ..., N-1, then all connections are processed — each connection will be assigned to one and only one node. However, it's alone is not enough. When node is down, the share of connections that should have been processed by it will not be considered by anyone. To fix that, all remaining nodes need to be reconfigured with new values of --total-nodes and --local-node . For this reason, it is not designed to be run by hand. You need some agent which will constantly check all the nodes and reconfigure the CLUSTERIP on all nodes on the fly. Usually Pacemaker + Corosync clustering stack is used, which has ClusterIP agent to control this kind of load balancing . It will do all the dirty work: check which nodes are alive, configure the iptables rules; it can also do more, such as defining "alive" as "Apache service is running and accepting connections". Overall Pacemaker is very capable clustering stack. As this module is unable to consider the actual load of the nodes, it is not used for end services much. However, if you want to have several higher-level load balancing HAProxy or Nginx nodes which intelligently balance actual web (or other) backends, to make the balancer farm itself highly available you setup CLUSTERIP-style load balancing for them.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1140735/failover-load-balancing-by-iptables-is-possible
+
+---
+
+#### 8260. How to manually validate the signature of an rpm file
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, rpm | Score: 1 | Views: 2117 | Answers: 1 | Created: 2023-06-27
+
+**解决方案 / Solution**:
+This script mentioned in the same Reddit thread seems to extract the signature and payload from RPM files: https://github.com/rpm-software-management/rpm/blob/master/scripts/tgpg There must be a better way!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1135026/how-to-manually-validate-the-signature-of-an-rpm-file
+
+---
+
+#### 8261. Routine SCP Command fails (VPN/Network Active)
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, fedora, scp | Score: 1 | Views: 887 | Answers: 1 | Created: 2022-12-01
+
+**解决方案 / Solution**:
+Looks like in RedHat 9+ SCP now uses SFTP under the hood. In the OpenSSH SCP deprecation page there are a list of incompatabilities and caveats wrt to pre-RedHat 9 and RedHat 9+ systems, including this relevant snippet. Another difference between the protocols is in the expansion of ~-based path processing. OpenSSH 8.7 and later versions support a special SFTP extension to deal with this expansion. Unfortunately, this extension is not supported in earlier versions, so copying folders from a new version of RHEL to an old one is going to fail if ~ path processing is used. In such cases, the recommended fix is to provide absolute paths. So that explains the need to manually expand the path. Annoying, but at least now we know why :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117011/routine-scp-command-fails-vpn-network-active
+
+---
+
+#### 8262. Can SSSD authenticate via LDAP with anonymous binding either forbidden in ACLs and with 'olcRequires: authc' enforced?
+
+**问题描述 / Problem Description**:
+Tags: redhat, ldap, fedora, access-control-list, sssd | Score: 1 | Views: 1449 | Answers: 1 | Created: 2022-05-28
+
+**解决方案 / Solution**:
+one where 'anonymous' access is completely removed in the ACLs for my LDAP user database, eventually replacing its necessary functions with those of a proxy In this case, no. You can disallow all read/search operations for anonymous connections and have SSSD bind to the machine account before it performs the user search (I use Kerberos for this, SSSD automatically picks up /etc/krb5.keytab), but anonymous clients still need auth rights at minimum. More specifically, by anonymous auth is necessary in OpenLDAP ACLs for the initial "simple" bind to work, because the connection performing the bind is, still, in anonymous state until after the bind succeeds. So if you define a "proxy" account, you're just shifting the problem a bit but not actually changing it – an anonymous connection still needs 'auth' rights in order to bind as the proxy account . Or in other words, if you require the client to be already authenticated in order to authenticate, then how is it going to authenticate as the proxy account in the first place? Also, I wouldn't usually use olcRequires: authc globally for the reason that it prevents reading of the rootDSE entry (null DN), which is how clients discover what authentication mechanisms are available on the server, as well as whether StartTLS is available (if port 636 isn't being used). By preventing anonymous connections from reading attributes on the null DN you're likely to break SASL authentication (e.g. Kerberos/GSSAPI) and limit yourself to password-based 'simple bind' only.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101971/can-sssd-authenticate-via-ldap-with-anonymous-binding-either-forbidden-in-acls-a
+
+---
+
+#### 8263. can't run iptables-legacy using cli - centos8
+
+**问题描述 / Problem Description**:
+Tags: centos, iptables, fedora, centos8, nftables | Score: 1 | Views: 5549 | Answers: 2 | Created: 2022-04-05
+
+**解决方案 / Solution**:
+I had a very similar issue. In my case the iptables-legacy was set by a Docker container and the binary file only existed when the container was running. Did you try finding the binary via: find / -name iptables-legacy ?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097838/cant-run-iptables-legacy-using-cli-centos8
+
+---
+
+#### 8264. Fedora 34: How do I stop the console going blank and reduce the screen resolution on a text only console?
+
+**问题描述 / Problem Description**:
+Tags: fedora, console, screen-resolution | Score: 1 | Views: 271 | Answers: 1 | Created: 2022-04-05
+
+**解决方案 / Solution**:
+First locate your console fonts. They should live under /usr/lib/kdb/consolefonts/ . You should edit the file vconsole.conf which could be found /etc/vconsole.conf . Add or edit the line FONT="xxxxxxxx" . Where "xxxxxxxxx" you should put any font that you like from the console fonts in the above location. Just note that any number that they have, it usually means their size... Logically the bigger the number the larger the font is. And do not forget to edit your grub configuration file and add the vconsole.font=xxxxxx at the very end of the line GRUB_CMDLINE_LINUX= . Not feeling sure about the above....Then try out with the command setfont <font-name> . Again the name could be taken from any file from the above folder.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1097826/fedora-34-how-do-i-stop-the-console-going-blank-and-reduce-the-screen-resolutio
+
+---
+
+#### 8265. VirtualBox on linux: hangs on __lock_acquire on Fedora Core 35
+
+**问题描述 / Problem Description**:
+Tags: linux, virtualization, fedora, virtualbox, linux-kernel | Score: 1 | Views: 188 | Answers: 1 | Created: 2022-03-08
+
+**解决方案 / Solution**:
+OK, so the problem was using the debug kernel (which I believe had been selected ages ago as a VirtualBox requirement to begin with). Switching to the regular kernel made the problem disappear.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1095625/virtualbox-on-linux-hangs-on-lock-acquire-on-fedora-core-35
+
+---
+
+#### 8266. Fedora Server: Is there a security feature that prevents drag-and-drop onto a VirtualBox VM (host: Windows 10)?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora | Score: 1 | Views: 252 | Answers: 1 | Created: 2022-01-11
+
+**解决方案 / Solution**:
+As you are using VirtualBox, you need install Guest Additions Drag and Drop Oracle VM VirtualBox enables you to drag and drop content from the host to the guest, and vice versa. For this to work the latest version of the Guest Additions must be installed on the guest. Drag and drop transparently allows copying or opening files, directories, and even certain clipboard formats from one end to the other. For example, from the host to the guest or from the guest to the host. You then can perform drag and drop operations between the host and a VM, as it would be a native drag and drop operation on the host OS. At the moment drag and drop is implemented for Windows-based and X-Windows-based systems, both on the host and guest side. As X-Windows supports many different drag and drop protocols only the most common one, XDND, is supported for now. Applications using other protocols, such as Motif or OffiX, will not be recognized by Oracle VM VirtualBox. In the context of using drag and drop, the origin of the data is called the source. That is, where the actual data comes from and is specified. The target specifies where the data from the source should go to. Transferring data from the source to the target can be done in various ways, such as copying, moving, or linking. Note At the moment only copying of data is supported. Moving or linking is not yet implemented. When transferring data from the host to the guest OS, the host in this case is the source, whereas the guest OS is the target. However, when transferring data from the guest OS to the host, the guest OS this time became the source and the host is the target. For security reasons drag and drop can be configured at runtime on a per-VM basis either using the Drag and Drop menu item in the Devices menu of the virtual machine, as shown below, or the VBoxManage command. Figure Drag and Drop Menu Options The following drag and drop modes are available: Disabled. Disables the drag and drop feature entirely. This is the default when creating a new VM. Host To Guest. Enables drag and drop operations from the host to the guest only. Guest To Host. Enables drag and drop operations from the guest to the host only. Bidirectional. Enables drag and drop operations in both directions: from the host to the guest, and from the guest to the host. Note Drag and drop support depends on the frontend being used. At the moment, only the VirtualBox Manager frontend provides this functionality. To use the VBoxManage command to control the current drag and drop mode. The modifyvm and controlvm commands enable setting of a VM's current drag and drop mode from the command line. Supported Formats As Oracle VM VirtualBox can run on a variety of host operating systems and also supports a wide range of guests, certain data formats must be translated after transfer. This is so that the target operating system, which receiving the data, is able to handle them in an appropriate manner. Note When dragging files no data conversion is done in any way. For example, when transferring a file from a Linux guest to a Windows host the Linux-specific line endings are not converted to Windows line endings. The following formats are handled by the Oracle VM VirtualBox drag and drop service: Plain text : From applications such as text editors, internet browsers and terminal windows. Files : From file managers such as Windows Explorer, Nautilus, and Finder. Directories : For directories, the same formats apply as for files. Known Limitations The following limitations are known for drag and drop: On Windows hosts, dragging and dropping content between UAC-elevated (User Account Control) programs and non-UAC-elevated programs is not allowed. If you start Oracle VM VirtualBox with Administrator privileges then drag and drop will not work with Windows Explorer, which runs with regular user privileges by default.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1089661/fedora-server-is-there-a-security-feature-that-prevents-drag-and-drop-onto-a-vi
+
+---
+
+#### 8267. On Fedora, how do I configure selinux to allow a port for a new undefined service type?
+
+**问题描述 / Problem Description**:
+Tags: centos, security, fedora, selinux, rhel6 | Score: 1 | Views: 1170 | Answers: 1 | Created: 2021-12-16
+
+**解决方案 / Solution**:
+A key thing to understand here is that the default SELinux policy is targeted . That is, it only constrains known things. Long, long ago we tried the other approach (block everything that isn't allowed by policy), and so much stuff broke all of the time that everyone turned it off. So, your myNiftyGameServer is going to be running in an unconfined domain anyway by default — if you want to tighten it down, you'll need to either run it in a container or write a specific policy. That's why you're not finding an easy way to just add a random port type ... it wouldn't be very useful. There's a decent quick guide for creating a custom policy for a daemon in the RHEL 8 Docs
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1087529/on-fedora-how-do-i-configure-selinux-to-allow-a-port-for-a-new-undefined-servic
+
+---
+
+#### 8268. remote VPS/Fedora Linux 41, reasons why firewalld service is masked?
+
+**问题描述 / Problem Description**:
+Tags: firewall, vps, fedora, firewalld | Score: 0 | Views: 180 | Answers: 1 | Created: 2025-11-20
+
+**解决方案 / Solution**:
+The person who masked firewalld.service did not want it enabled. Just from this we cannot tell why they intended for a different firewall or no host firewall. Absent any documentation, look for what rules if any are installed. nft list ruleset will show nftables rules whether written in a higher layer firewall or netfilter directly. Fedora by default has firewalld.service enabled . By design these systemd presets can be overriden by what people want to do, they are only for first boot or intentionally resetting to presets. Forget other people's use cases for a minute. What host firewall if any do you want to use? Automate installing, configuring, and enabling that. If firewalld, systemctl unmask firewalld.service is easy to script, and harmless if already not masked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196005/remote-vps-fedora-linux-41-reasons-why-firewalld-service-is-masked
+
+---
+
+#### 8269. [Fedora][SELinux] How to enable access between Nginx and Docker container?
+
+**问题描述 / Problem Description**:
+Tags: nginx, docker, fedora, selinux, podman | Score: 0 | Views: 297 | Answers: 1 | Created: 2025-11-05
+
+**解决方案 / Solution**:
+As Ivan says in the comment, it's been answered here: configure nginx to use a proxy when connecting to upstream TL;DR: type this: setsebool -P httpd_can_network_connect 1 If you want to debug SELinux issues in the future, toggle permissive mode, take a look at /var/log/audit/audit.log and use audit2why . Example: $ sudo setenforce 0 # toggles permissive mode $ sudo grep httpd /var/log/audit/audit.log | audit2why type=AVC msg=audit(1762426507.977:11179): avc: denied { name_connect } for pid=1003 comm="nginx" dest=5000 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:commplex_main_port_t:s0 tclass=tcp_socket permissive=1 Was caused by: The boolean httpd_can_network_connect was set incorrectly. Description: Allow httpd to can network connect Allow access by executing: # setsebool -P httpd_can_network_connect 1 As you can see, audit2why explains what's happening and how to fix it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195774/fedoraselinux-how-to-enable-access-between-nginx-and-docker-container
+
+---
+
+#### 8270. Issues Setting up my Server with Multiple VLAN Sub Interfaces to work with my new network via a Cisco CBS350 Switch
+
+**问题描述 / Problem Description**:
+Tags: linux, security, cisco, fedora | Score: 0 | Views: 269 | Answers: 1 | Created: 2025-10-20
+
+**解决方案 / Solution**:
+I managed to get it working in the end On the cisco side i had to setup the server trunk port like this interface GigabitEthernet1 description Server switchport mode trunk switchport trunk native vlan 4093 switchport trunk allowed vlan 2-4093 ! On my server i had to ensure that my connections were bound to the correct zone in nmcli I have a sub interface for each vlan with a static ip in each subnet address each interface also has a gateway set to the ip of the switches interface for that vlan nmcli con mod eth0 connection.zone external nmcli con mod eth1.10 connection.zone home nmcli con mod eth1.20 connection.zone guest Then on the firewall if the server i set it up with each zone having forwarding enabled Added the following policy priority: 100 target: ACCEPT ingress-zones: guest home egress-zones: external masquerade: yes External Zone target: DROP ingress-priority: 0 egress-priority: 0 icmp-block-inversion: no interfaces: eth0 forward: no masquerade: yes rich rules: rule family="ipv6" source address="::/0" drop Internal zone target: %%REJECT%% ingress-priority: 0 egress-priority: 0 icmp-block-inversion: no interfaces: eth1.20 sources: ipset:vlan20 forward: no masquerade: no
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193495/issues-setting-up-my-server-with-multiple-vlan-sub-interfaces-to-work-with-my-ne
+
+---
+
+#### 8271. Lack of permissions accessing certificates for SSL on almalinux 9
+
+**问题描述 / Problem Description**:
+Tags: centos, ssl, virtualhost, apache2, certificate | Score: 0 | Views: 368 | Answers: 1 | Created: 2025-06-10
+
+**解决方案 / Solution**:
+I suspect this might be selinux getting in a way because of incorrect labels on the affected files. Try (as root): restorecon -rv /etc/pki and see if it reports any relabeled files and if this helps. Saying the above, the usual location for certificates used by system services on RHEL and derivatives is /etc/pki/tls/certs and corresponding private keys usually go to /etc/pki/tls/private .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185542/lack-of-permissions-accessing-certificates-for-ssl-on-almalinux-9
+
+---
+
+#### 8272. How to configure automount through freeipa: Fedora 40 clients, Rocky 9.4 ipa servers
+
+**问题描述 / Problem Description**:
+Tags: fedora, freeipa, automount, rocky-linux | Score: 0 | Views: 1696 | Answers: 1 | Created: 2025-02-06
+
+**解决方案 / Solution**:
+This answer assumes you have a working freeipa infrastructure, with clients joined to it for authentication etc, and that it's all working. What the documentation did not make clear (at least to myself), is how file maps /etc/auto.whatever and freeipa/IDM automount maps, work together. Basically, when you configure ipa-client-automount , the entries in the freeipa location's auto.master maps and the entries in /etc/auto.master get merged, with files retaining priority ( /etc/nsswitch.conf contains automount: files sss ) even after ipa-client-automount So, what I wanted to do. Stage 1, replace an entry in the client /etc/fstab with a direct map sourced from IDM. It would be very helpful if the documentation included the debugging command ipa automountlocation-tofiles <location> , which displays the automapping information defined for in the form or the familiar auto.whatever files. To cut a long and useless story short, I'll just spell out how to do things. Create an IDM location, and immediately look at it ipa automountlocation-add interim ipa automountlocation-tofiles interim /etc/auto.master: /- /etc/auto.direct --------------------------- /etc/auto.direct: maps not connected to /etc/auto.master: You will see that adding the location automagically created an auto.direct map. As long as you don't have a /etc/auto.direct you just define direct maps in there. (I didn't, so I don't know what if there is. I'd have guessed to rename the file and edit auto.master) Create the direct automount you want to replace a /etc/fstab entry in auto.direct ipa automountkey-add interim auto.direct --key=/shared --info='-rw,hard,intr oldserv:/shared' Comment out or delete the corresponding line in /etc/fstab #oldserv:/shared /shared nfs rw,hard,intr,noauto,x-systemd.automount 0 0 systemctl daemon-reload Test: unmount /shared, activate IDM automounting with the interim location, and see if /shared is working. NB sss_cache -E to clear the cache is most important. sudo ipa-client-automount --location interim -U sudo systemctl stop autofs; sss_cache -E; systemctl start autofs; systemctl status autofs ls /shared #contents as expected df -h | grep ':' #automounted as expected Success! Now to replace the indirect map currently in auto.homes. If you are logged in to a client's graphical environment, playing around with the definition of /home/ may be very disruptive especially if you get it wrong. So log out, and use control/F2 and log in as root which doesn't care about /home/ Remove /etc/auto.home, create auto.home map, define key, insert into auto.master, and again display the results in familiar form mv /etc/auto.home /etc/auto.home.removed ipa automountmap-add interim auto.home ipa automountkey-add interim auto.home \ --key='*' --info='oldserv:/home/roaming/&' ipa automountkey-add interim auto.master --key=/home --info=auto.home ipa automountlocation-tofiles interim To switch over and test, as before: systemctl stop autofs; sss_cache -E; systemctl start autofs; systemctl status autofs and now before rebooting, one can check by using ssh to log in to a test account or one's own unprivileged account ssh myself@localhost ... ls /home # as expected? df -h | grep ':' # check that /home/myself is mounted as expected. This hasn't changed what is mounted where at all, so this can be rolled out to client systems at leisure, until the last fstab entry is gone and Freeipa rules the roost. Finally, why? I'm about to replace oldsrv with a new server, possibly with files served from different locations. Certainly, using kerberized nfs4 rather than the existing nfs3. So define a different location for srv2 the new server ipa automountlocation-add srv2 ipa automountkey-add srv2 auto.direct --key=/shared/everyone \ --info='-sec=krb5,vers=4 srv2:/home/shared/everyone' ipa automountkey-add srv2 auto.direct --key=/shared/personal \ --info='-sec=krb5,vers=4 srv2:/home/shared/personal' ipa automountmap-add srv2 auto.home ipa automountkey-add srv2 auto.home --key='*' \ --info='-sec=krb5,vers=4 srv2:/home/users/&' ipa automountkey-add srv2 auto.master --key=/home --info=auto.home ipa automountlocation-tofiles srv2 Again, the last line displays the configuration as if it were in /etc/auto.whatever files. There's noting like seeing it in a familiar format for spotting typos. Note, ipa does absolutely zero checking of whatever you supply as --info= On a test machine, change the location. You have to uninstall the old location. There doesn't seem to be any option in ipa-client-automount to change location. ipa-client-automount --uninstall ipa-client-automount --location srv2 -U <reboot and test> You are now connected to the new server which doesn't yet contain live data, but you can check that wverything is working as expected, and over some future week-end you can move all the live data off oldserv onto srv2 , install the well-tested srv2 location on all the clients, and turn oldserv off for the last time. Hope this helps somebody.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172386/how-to-configure-automount-through-freeipa-fedora-40-clients-rocky-9-4-ipa-ser
+
+---
+
+#### 8273. httpd.service entered failed state
+
+**问题描述 / Problem Description**:
+Tags: apache-2.2, centos, apache-2.4, httpd.conf, freepbx | Score: 0 | Views: 1718 | Answers: 2 | Created: 2024-10-25
+
+**解决方案 / Solution**:
+Here are some possible solutions: Check the SSL Certificate Configuration: Ensure that the SSL certificate and key files are located in the correct directories and have the correct permissions. Verify that the certificate chain is complete and valid. Double-check the Apache configuration file (usually /etc/apache2/apache2.conf) to ensure that the SSL certificate and key files are specified correctly. Install Missing Dependencies: If you're using a package manager like apt or yum, make sure that all necessary dependencies for the mod_ssl module are installed. You might need to run a command like sudo apt install libapache2-mod-ssl or sudo yum install mod_ssl. Update Apache: If you're using an older version of Apache, updating to a newer version might resolve the issue. Check for Conflicts: If you have installed any custom modules or configurations that might be interfering with mod_ssl, try disabling them temporarily to see if the problem persists.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167034/httpd-service-entered-failed-state
+
+---
+
+#### 8274. How to setup NAT gateway with Centos 7 for Private server can access internet
+
+**问题描述 / Problem Description**:
+Tags: networking, centos, nat, gateway, infrastructure | Score: 0 | Views: 98 | Answers: 1 | Created: 2024-10-21
+
+**解决方案 / Solution**:
+ens18 connected to the ISP Router and getting IP from the DHCP. ens19 connected to my LAN network with IP address 192.168.100.10, this is manually configured. For nat server: Enable nat module: sudo modprobe iptable_nat Permanent network forwarding: echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf sysctl -p /etc/sysctl.conf Post routing and forwarding for NAT Router: iptables -t nat -A POSTROUTING -o ens18 -j MASQUERADE iptables -A FORWARD -i ens19 -j ACCEPT For client server: Print current route: [root@server2 ~]# route -n Kernel IP routing table Destination Gateway Genmask Flags Metric Ref Use Iface 0.0.0.0 192.168.100.1 0.0.0.0 UG 100 0 0 ens18 192.168.100.0 0.0.0.0 255.255.255.0 U 100 0 0 ens18 Delete the default route: route del -net default Verify the default route has been deleted: [root@server2 ~]# route -n Kernel IP routing table Destination Gateway Genmask Flags Metric Ref Use Iface 192.168.100.0 0.0.0.0 255.255.255.0 U 100 0 0 ens18 Add a new default gateway for the interface, The gateway IP should be the IP of Server 1: route add default gw 192.168.100.10 dev ens18 Verify: [root@server2 ~]# route -n Kernel IP routing table Destination Gateway Genmask Flags Metric Ref Use Iface 0.0.0.0 192.168.100.10 0.0.0.0 UG 100 0 0 ens18 192.168.100.0 0.0.0.0 255.255.255.0 U 100 0 0 ens18 Now try to connect to the internet. Configure DNS forwarder to access any web URL: Configure the interface with DNS, Edit the interface configuration file or use nmcli command to add the DNS: ls -lthr /etc/sysconfig/network-scripts/ifcfg-ens18 DOMAIN=your-domain.local Verify: root@server2 ~]# cat /etc/resolv.conf Generated by NetworkManager search your-domain.local nameserver 192.168.0.21 nameserver 192.168.0.1 Change the value of commands correspondingly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166851/how-to-setup-nat-gateway-with-centos-7-for-private-server-can-access-internet
+
+---
+
+#### 8275. Why is PostgreSQL not prompting for password?
+
+**问题描述 / Problem Description**:
+Tags: postgresql, fedora | Score: 0 | Views: 1525 | Answers: 1 | Created: 2024-10-17
+
+**解决方案 / Solution**:
+It is, indeed, the pg_hba.conf file which controls the Postgres authentication, but what's is uncertain is where it is located in a particular installation. By default it's a data directory , but that can be changed in a various ways . You can obtain the current value (full path to the file) as a hba_file configuration parameter, if you can connect to the server. For that, authenticate as a superuser ( postgres ) or as any user who is a member of pg_read_all_settings role, and issue SHOW hba_file; or \x SELECT * FROM pg_settings WHERE name='hba_file'; ( \x enables extended output, so it'll show it in a columnar fashion, easier to read in this case). See the description of the pg_settings view to understand the output.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166699/why-is-postgresql-not-prompting-for-password
+
+---
+
+#### 8276. How to return longest IPv6 formt when using `ip` command on Linux
+
+**问题描述 / Problem Description**:
+Tags: centos, ip, address | Score: 0 | Views: 105 | Answers: 1 | Created: 2024-07-29
+
+**解决方案 / Solution**:
+Install sipcalc , then create the following script (bash) lets call it full6.sh #!/bin/bash doit() { LINE="$1" IFS='/ ' read -r -a array <<< "$LINE" IP="${array[1]}" FULL=$(sipcalc $IP | grep "Expanded" | cut -d ' ' -f 3) echo "${LINE/$IP/$FULL}" } while IFS= read -r line; do if [[ $line == *" inet6 "* ]]; then doit "$line" else echo "$line" fi done then you can simply ip address show eth0 | bash full6.sh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163192/how-to-return-longest-ipv6-formt-when-using-ip-command-on-linux
+
+---
+
+#### 8277. Dhcp range with fixed Ips
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ip, dhcp, isc-dhcp | Score: 0 | Views: 213 | Answers: 1 | Created: 2024-07-19
+
+**解决方案 / Solution**:
+It's better to simply expand the range in the main config. If you have only one range, you don't have to worry about the problem of networks becoming disjoint (as you've set DNS to be entirely outside your network, your machines can't find each other by name using DNS), and you don't have to worry about range options becoming disparate due to forgetfulness or typos. DHCP generally won't issue an address that's already in use, it checks to see if an address is already claimed before it issues it, but to be safe you might consider changing your current static addresses to reservations, or adding reservations for them even if they're statically defined. If your existing range is already far too heavily populated to gain you much by allowing the DHCP server to allocate addresses in the ranges where it is not, you can expand the overall range, as subnet 192.168.0.0 netmask 255.255.254.0 { option routers 192.168.1.3; option subnet-mask 255.255.254.0; option domain-name "MyServer"; option domain-name-servers 1.1.1.1, 1.0.0.1; option time-offset -18000; option ntp-servers 192.168.1.3; option broadcast-address 192.168.1.255; range 192.168.0.1 192.168.0.254; default-lease-time 21600; max-lease-time 43200; range 192.168.1.11 192.168.1.90; default-lease-time 21600; max-lease-time 43200; # Fixed IP addresses can also be specified for hosts. [List with my fixed IPs] } This does have two disadvantages - first, you'll have to go into all your static assignments, to change the netmask to match the new network. And second, because it's now allocating from a 512-address range, it will be a bit nonstandard.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162779/dhcp-range-with-fixed-ips
+
+---
+
+#### 8278. Failed update : 14: curl#52 - "Empty reply from server"
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, proxy, yum | Score: 0 | Views: 670 | Answers: 1 | Created: 2024-07-10
+
+**解决方案 / Solution**:
+mirrorlist.centos.org does not exist anymore as Centos 7 has reached EOL 1st January 2024. You should be able to use vault.centos.org instead of mirrorlist.centos.org. More discussions on serverfault regarding this here
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162300/failed-update-14-curl52-empty-reply-from-server
+
+---
+
+#### 8279. PHP Unable To Write To Cache Directory
+
+**问题描述 / Problem Description**:
+Tags: nginx, centos, php, php-fpm, centos9 | Score: 0 | Views: 370 | Answers: 1 | Created: 2024-06-19
+
+**解决方案 / Solution**:
+The cause of the issue was SELinux, by running the below command it solved the issue. setsebool -P httpd_unified=1 You can set more specific rules which is recommend but for my issue, the above solution works.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161204/php-unable-to-write-to-cache-directory
+
+---
+
+#### 8280. Publish to AUR from non-Arch System
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, fedora, arch-linux | Score: 0 | Views: 53 | Answers: 1 | Created: 2024-06-11
+
+**解决方案 / Solution**:
+It should be theoretically possible, but since this is very unusual, building (und updating) all the tools (and toolchain dependencies) would be a neverending nightmare on non-arch. I would setup a Arch based VM for this. This will save you a lot of headaches.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1160795/publish-to-aur-from-non-arch-system
 
 ---

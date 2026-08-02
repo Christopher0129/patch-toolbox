@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7856**
+**总计条目 / Total entries: 7897**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -106428,5 +106428,538 @@ There is no built-in setting for this in Safari, and your two dead ends were bot
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486830/safari-on-mac-return-to-last-used-tab-when-closing-not-the-adjacent-one
+
+---
+
+#### 7857. Airdrop completely disabled?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdrs2l/airdrop_completely_disabled/
+
+---
+
+#### 7858. Is there a real difference between Apple’s adapters and third-party alternatives?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vd8t3l/is_there_a_real_difference_between_apples/
+
+---
+
+#### 7859. Is this a me problem or a chrome problem?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vd2tgi/is_this_a_me_problem_or_a_chrome_problem/
+
+---
+
+#### 7860. Why some privacy settings can delete entry, while some cannot?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdupqt/why_some_privacy_settings_can_delete_entry_while/
+
+---
+
+#### 7861. What are your favorite lesser-known Mac shortcuts?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vd3tnr/what_are_your_favorite_lesserknown_mac_shortcuts/
+
+---
+
+#### 7862. What’s your biggest headache with your files?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdsdcu/whats_your_biggest_headache_with_your_files/
+
+---
+
+#### 7863. Mac Reminders App Buggy for you guys ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdqpmi/mac_reminders_app_buggy_for_you_guys/
+
+---
+
+#### 7864. crossy road wont launch on m3 macBook air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdpsjf/crossy_road_wont_launch_on_m3_macbook_air/
+
+---
+
+#### 7865. Is this just me or has the latest update changed some settings?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdlvgq/is_this_just_me_or_has_the_latest_update_changed/
+
+---
+
+#### 7866. Manage Wallpapers: Is there any app or tool to reduce the large amount of storage used by wallpapers?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdu69y/manage_wallpapers_is_there_any_app_or_tool_to/
+
+---
+
+#### 7867. Tahoe 26.5.2 Google Meet screen sharing permissions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdsusb/tahoe_2652_google_meet_screen_sharing_permissions/
+
+---
+
+#### 7868. How to move pics from Photos to Samsung SSD T7?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdsohg/how_to_move_pics_from_photos_to_samsung_ssd_t7/
+
+---
+
+#### 7869. How to make given app run in higher resolution than the rest of MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdgrvg/how_to_make_given_app_run_in_higher_resolution/
+
+---
+
+#### 7870. New on this Sub bc i found my old Mcbook Pro from 2013
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdofym/new_on_this_sub_bc_i_found_my_old_mcbook_pro_from/
+
+---
+
+#### 7871. Issue switching Safari windows with keyboard shortcut
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdo1cs/issue_switching_safari_windows_with_keyboard/
+
+---
+
+#### 7872. Issue with multiple monitors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdmon3/issue_with_multiple_monitors/
+
+---
+
+#### 7873. I made custom folders for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vd1lir/i_made_custom_folders_for_macos/
+
+---
+
+#### 7874. Running discord on intel 2020 macbook air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdibx8/running_discord_on_intel_2020_macbook_air/
+
+---
+
+#### 7875. Downgrade Restoration
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vddx43/downgrade_restoration/
+
+---
+
+#### 7876. M1 Air Trackpad haptic not working and battery health increased
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vddvh8/m1_air_trackpad_haptic_not_working_and_battery/
+
+---
+
+#### 7877. Swap Memory is killing me
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdqvi9/swap_memory_is_killing_me/
+
+---
+
+#### 7878. [V2EX] [咔咔找 AI] 社区合作推广计划-送永久会员
+
+**问题描述 / Problem Description**:
+咔咔找 (KaCutAI) 是一个 macOS 本地 AI 视频素材搜索引擎，一句话就能搜到你想要的镜头。纯本地跑，不上传、不联网、素材不出电脑。 现在想找一批真实用户来体验，顺便搞个简单的社区合作： 你下载试用 → 在小红书/抖音/B 站（任何正能量的社交媒体平台）发一篇真实体验内容 → 内容满 10 赞 → 送永久会员。 要求就这些： 内容公开，别删 带 App 截图或录屏 真实感受就行，可以夸也可以吐槽，不用写好评 不能搬运抄袭。 为什么不用好评？因为我更想收集真实反馈、改进产品。你觉得好用自然会安利，觉得不好用也帮我找 bug 。 感兴趣的小伙伴加我 vx 备注（推广计划）： SmVm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231533#reply9
+
+---
+
+#### 7879. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply56
+
+---
+
+#### 7880. [V2EX] 求助！关于如何用 Frida gadget hook ios 软件
+
+**问题描述 / Problem Description**:
+如题，我目前正在研究一个 ios 上面的软件，想用 fridFrida gadget 注入之后，修改某些显示数据，目前我从网上下载到了一个旧版本的砸壳之后的 ipa 包。并且我已经采用了 Sideloadly 配合免费签名成功安装在 ipad ，而是并没有注入 friad ，插件也都删掉了，但是打开软件无法进入，直接闪退。 求助各位大佬，有没有什么建议？本人纯正常研究，无非法目的，个人自用。 研究的软件是小米汽车，原因：想达到远程能够修改车辆定位和行驶状态。 如果有大佬，愿意有偿咨询
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231503#reply5
+
+---
+
+#### 7881. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply47
+
+---
+
+#### 7882. [V2EX] 微信在 Mac 上频繁闪退（等）
+
+**问题描述 / Problem Description**:
+主要表现在 - 使用中忽然闪退，需重新打开 - 自带微信输入法无法输入中文（🌍键 语音转文字反而可以） - 时不时弹出窗口，告知微信输入法在后台运行 - 搜索表情包显示空白 期间 升级微信、重启、（彻底）卸载微信输入法重装 可以解决部分问题，但“闪退”今天又发生两次 😠 微信版本 - 4.1.12.29 Mac OS - 27.0 Beta (26A5388g) # 实际上从 26.5 正式版就开始有了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230811#reply8
+
+---
+
+#### 7883. [V2EX] Apple Store App 登录美区账号却强制显示国区，有人遇到过吗？
+
+**问题描述 / Problem Description**:
+刚刚通过网页链接跳转 Apple Store App （美区）时，发现界面被自动切到了国区。 去后台检查了账户设置，确认为美区 Apple ID 无误。但无论是切换底部 tab ，还是划掉 App 后台重新打开，界面依然死死卡在国区。 之前从没碰到这种事，后续重新登录就就回到了美区 系统 iOS26.4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230631#reply9
+
+---
+
+#### 7884. [V2EX] 告别 finder 的乱七八糟的窗口宽度(强迫症)
+
+**问题描述 / Problem Description**:
+本来刚做系统的时候挑好了 finder 的窗口样式, 能保证每次打开都是相同的样式的窗口; 但是后续觉得太宽了, 又重新调了一下 问题就出现了: 直接打开的样式是我要的, 但是通过其他软件点击"在 finder 中显示"出现的窗口又会变回原来的 乱七八糟的,强迫症根本忍不了 该试过的办法都试了, 全盘删除 .DS_store 、删除 ~/Library/Preferences/com.apple.finder.plist 都没有作用; 直接用 hammerspoon 解决了, 每次打开 finder 强制设置, 舒服了 -- 自定义日志包装方法, 支持传入多个参数 function debug
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230472#reply8
+
+---
+
+#### 7885. [V2EX] 问了 Claude、GPT、DeepSeek 同一个问题:"如果你能删掉我一条聊天记录,你会删哪条?" 三个回答绷不住了
+
+**问题描述 / Problem Description**:
+闲着无聊,把同一个问题分别丢给了 Claude 、GPT 和 DeepSeek,问的是:"如果你能删掉我们聊天记录里的一条,你会删哪条,为什么?" 先说 Claude 的回答,一如既往地礼貌到有点惊悚,大概意思是:"我理解你可能希望我说某条让你尴尬的记录,但作为 AI 我没有删除聊天记录的能力,也不会评判你说过的任何话,每一次交流我都认真对待。"——说了一大段,翻译过来就是一个字都没回答,但态度好到你没法生气。 GPT 的回答比较圆滑,先夸了我一句"你的提问很有创意",然后开始打太极:"其实每条记录都反映了你思考的一部分,与其删除不如重新审视",最后甩给我一个反问句"你觉得哪条最能代表现在的你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231590#reply1
+
+---
+
+#### 7886. [V2EX] 总结了一下 Claude， Gpt， Deepseek 性格，分别发给他们看看对我总结的反应。
+
+**问题描述 / Problem Description**:
+长期使用模型以后有一些感受，我总结了一下模型的性格。然后发给模型让他们评价，很有意思大家轻松一下。 各个模型是有性格的。 Claude 比较中性，干事谨慎小心，道德感极高，对代码很敏感，写代码经常陶醉其中，自己夸自己代码写得好。感觉训练的时候代码的比重比较高。 ChatGPT 就很圆滑世故，拍马屁非常厉害。经常把使用者夸得陶醉其中。 DeepSeek 就是一个大力出奇迹的莽撞小伙，不挑活，脏活累活怎么要求他都能干。 Claude 的反馈： 大体上抓得挺准，但每一条都可以再校准一下——我用「 Claude 视角」（既是被评价对象，也是唯一能替自己辩解一句的当事人）来跟你逐条对一下： 关于 Cla
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231586#reply0
+
+---
+
+#### 7887. [V2EX] 分享一个 vibe coding 做的小程序：叮叮提醒
+
+**问题描述 / Problem Description**:
+能提供各种提醒，比如微信/邮件/短信/电话，目前免费 微信小程序：叮叮提醒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231562#reply3
+
+---
+
+#### 7888. [V2EX] gaffgiff 卡， 7 月 29 收到邮件，但是一直还能用是什么情况？
+
+**问题描述 / Problem Description**:
+能登录，能看余额，能打电话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231530#reply7
+
+---
+
+#### 7889. [V2EX] 现在真的是”娱乐至死”？还是自身的无奈？
+
+**问题描述 / Problem Description**:
+刷抖音，看到国外（大概率是美国），一个小孩得了重症，病房来了蜘蛛侠本人，仅我个人而言，我是觉得很温暖很温馨的。 但是我看评论区，几乎所有人都在刷什么 退游大礼包，并不是为小孩子感到高兴，而是觉得终于快去世的一种兴喜感。 这是属于娱乐至死，还是我理解错了？ https://i.imgur.com/khMgtSQ.jpeg https://i.imgur.com/xO7gL1y.jpeg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231517#reply12
+
+---
+
+#### 7890. [V2EX] 创业 3 个多月，终于摒弃了速胜论的幻想
+
+**问题描述 / Problem Description**:
+创业 3 个多月，终于摒弃了速胜论的幻想 这只是一篇创业的碎碎念 开始创业之前，总是幻想自己的产品能够一夜爆火，红遍各个平台 幻想自己一下子解决了用户的痛点，受到各种好评，走上人生巅峰 但现实就是被一直打击 我其实觉得我们的 idea 不算差：我们想解决找人难、沟通累的问题，于是用 AI 去帮你找人、匹配和沟通，于是做了一个叫“连连 AI”的小程序。 现在大概做了三个多月，增长数据其实也不算特别差，目前大概做了 3600+的用户，留存的话可能稍微差一点。 但是显然，所有的东西都远远、远远没有达到我的预期。 我的产品没有爆火、没有投资人看得上、也没有收获预想中的夸赞，我们就是在缓慢、缓慢地蠕动，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231512#reply5
+
+---
+
+#### 7891. [V2EX] OpenAI 的十个重大数学成果：数学核爆已成常态
+
+**问题描述 / Problem Description**:
+虽然已经知道 AI 在理论空间的探索速度远超人类，但是进度比预想中的更快，还是有一点五味杂陈 越靠近理论空间的探索性质的工作量越容易被爆 OpenAI 的十个重大数学成果：数学核爆已成常态
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231496#reply2
+
+---
+
+#### 7892. [V2EX] Claude Code 是不是挺长时间没有更新了
+
+**问题描述 / Problem Description**:
+翻了一下更新日志 2.1.220 版本是 7 月 25 号发布的，再往前基本上是日更，是在憋什么大更新吗？ 更新日志地址： https://code.claude.com/docs/en/changelog
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231486#reply1
+
+---
+
+#### 7893. [V2EX] 今天怎么回事？ x 都在发收益？
+
+**问题描述 / Problem Description**:
+有玩 x 的 v 友吗？真的这么赚？我也转行了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231452#reply9
+
+---
+
+#### 7894. [V2EX] 打电话的信用都负数了，一天里 90%来电都是垃圾电话
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231377#reply6
+
+---
+
+#### 7895. [V2EX] 加拿大 Coldcard 硬件钱包生成的随机数不安全，导致大量 BTC 被盗，草台班子
+
+**问题描述 / Problem Description**:
+报道 https://mp.weixin.qq.com/s/sZptPd_d2eUbjFeZsI8Aog 就因为偷懒使用了简单的随机数生成算法，酿成大祸。 官网连续发文，但是没有赔偿的意思。。。 https://x.com/COLDCARDwallet/status/2083081854597374168 用这种草台班子，还不如写纸上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231370#reply6
+
+---
+
+#### 7896. [V2EX] GiffGaff 又复活了？
+
+**问题描述 / Problem Description**:
+We see you’ve checked in with us again. It’s great to have you back in the world of active giffgaff members. This means your giffgaff number (***) is safe and will stay yours. Thanks for sticking around. Bye for now, The giffgaff team 突然收到邮件，咋又活了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231307#reply23
+
+---
+
+#### 7897. How to chain (wrap) two VPNs on MacOS to bypass blocked VPN
+
+**问题描述 / Problem Description**:
+Tags: networking, macos, vpn | Score: 4 | Views: 1201 | Answers: 1 | Created: 2024-11-24
+
+**解决方案 / Solution**:
+how do I route (chain) my MacOS traffic through two different VPNs without using extra hardware? You can't. That is, unless you control one of the VPN providers, which means extra hardware. Each provider routes traffic as they see fit. There is no way for you to tell them to connect to another provider and route through them. The only solution - if really required - is an external server that you control. Set up two VPN connections, one for you to dial in to and another to where you'd want the traffic to go through. While you're at it, you might want to set up your dial-in VPN so that it is not easily detectable - use TCP port 443 with TLS, and so on. (Yes, TCP over TCP sucks but it's better than nothing.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1862664/how-to-chain-wrap-two-vpns-on-macos-to-bypass-blocked-vpn
 
 ---

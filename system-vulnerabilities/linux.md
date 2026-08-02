@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2599**
+**总计条目 / Total entries: 2604**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -47608,5 +47608,85 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8620-4
+
+---
+
+#### 2600. CVE-2026-18569 - keycloak-services: keycloak-services: OIDC backchannel logout accepts unsigned…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: OIDC backchannel logout accepts unsigned forged logout tokens. Bugzilla: 2509755
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509755
+
+---
+
+#### 2601. CVE-2026-18570 - keycloak-services: keycloak-services: Full-scope-disabled client policy validation…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Full-scope-disabled client policy validation bypass via omitted fullScopeAllowed. Bugzilla: 2509756
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509756
+
+---
+
+#### 2602. CVE-2026-18571 - keycloak-services: keycloak-services: FGAP V2 group assignment bypass during user…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: FGAP V2 group assignment bypass during user creation. Bugzilla: 2509759
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509759
+
+---
+
+#### 2603. CVE-2026-18572 - keycloak-services: keycloak-services: UMA claim token can override authorization…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: UMA claim token can override authorization time-policy evaluation attributes. Bugzilla: 2509763
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509763
+
+---
+
+#### 2604. CVE-2026-18573 - keycloak-services: keycloak-services: Client access-type policy condition bypass…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Client access-type policy condition bypass during client update. Bugzilla: 2509764
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509764
 
 ---

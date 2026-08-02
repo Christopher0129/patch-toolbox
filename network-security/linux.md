@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2892**
+**总计条目 / Total entries: 2897**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -43687,5 +43687,65 @@ we can fix the problem simply by removing the whole statement.
 - https://git.kernel.org/stable/c/5ec61fbef9ec5635c492ae63dfb5d13f2bdf1023
 - https://git.kernel.org/stable/c/6c82f88bc7a8458d5c60f9b354c4d32d233f0cac
 - https://git.kernel.org/stable/c/8f50613bff228272577893aa10a346a2f3063e49
+
+---
+
+#### 2893. CVE-2026-18569 - keycloak-services: keycloak-services: OIDC backchannel logout accepts unsigned…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: OIDC backchannel logout accepts unsigned forged logout tokens. Bugzilla: 2509755
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509755
+
+---
+
+#### 2894. CVE-2026-18570 - keycloak-services: keycloak-services: Full-scope-disabled client policy validation…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Full-scope-disabled client policy validation bypass via omitted fullScopeAllowed. Bugzilla: 2509756
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509756
+
+---
+
+#### 2895. CVE-2026-18571 - keycloak-services: keycloak-services: FGAP V2 group assignment bypass during user…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: FGAP V2 group assignment bypass during user creation. Bugzilla: 2509759
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509759
+
+---
+
+#### 2896. CVE-2026-18572 - keycloak-services: keycloak-services: UMA claim token can override authorization…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: UMA claim token can override authorization time-policy evaluation attributes. Bugzilla: 2509763
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509763
+
+---
+
+#### 2897. CVE-2026-18573 - keycloak-services: keycloak-services: Client access-type policy condition bypass…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Client access-type policy condition bypass during client update. Bugzilla: 2509764
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509764
 
 ---

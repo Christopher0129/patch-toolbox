@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8932**
+**总计条目 / Total entries: 8975**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -122037,5 +122037,564 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231306#reply3
+
+---
+
+#### 8933. Why am I experiencing Touchpad and function key (F1-F12) issues on Acer Nitro V 15 after clean Windows install?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, laptop, drivers, keyboard, touchpad | Score: 0 | Views: 38 | Answers: 1 | Created: 2026-08-01
+
+**解决方案 / Solution**:
+The bad news is, the Nitro V 15 is a Windows 11 era machine, and Acer only offers Windows 11 drivers for it. Therefore on a clean Windows 10 install, some of the low level drivers you need just may not exist in a Windows 10 version and that is why the touch pad and the F -keys are dead. Note, too, that Windows 10 is EOL now, so this hardware should be targeted at Windows 11. However, both of your symptoms indicate that you are lacking one component: The Intel Serial IO / GPIO chipset driver. Your touchpad is an I2C device! It is not attached like an old USB touchpad, but rather it "hangs" off the Intel Serial IO (GPIO) controller. In the absence of a driver, the touch pad does not show up at all, and even if you install the driver for Elantech on its own, it does not do anything. Launch Device Manager and see if there is any yellow warning icon next to System devices and Human Interface Devices (an I2C HID device, or no GPIO/Serial IO controller). That will make it official. The fix is to follow the install order: Restart computer after installing Intel Chipset (INF) driver. Install the Intel Serial IO driver, then reboot. (This is the most important one for the touch pad.) Then, the touchpad driver from ELAN/Elantech. Then the Acer Quick Access + the Acer function-key driver for the F1 to F6 media keys, because these keys aren't supported by Windows, but rather by the Acer software. That's your answer, the chipset support won't be available for Windows 10 If it is not there, then it won't install! The right thing to do is to install Windows 11, which supports this hardware in the OS itself and will automatically download most of these drivers. The first one is to try the driver order listed above, but if this doesn't work, the solution is to switch to Windows 11.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939434/why-am-i-experiencing-touchpad-and-function-key-f1-f12-issues-on-acer-nitro-v
+
+---
+
+#### 8934. How to access dual-booted Ubuntu 26.04 LTS files in Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows, ubuntu, wsl2 | Score: 0 | Views: 77 | Answers: 1 | Created: 2026-07-30
+
+**解决方案 / Solution**:
+The WSL2 "bridge" trick only works if Windows and Ubuntu are on 2 different drives. If they are on the same disk (most laptops), WSL is unable to open the Ubuntu partition, because Windows is holding that disk. Moreover, it's a common method of corrupting other operating systems when entering their files in this manner, so be cautious. Simple and safe ways: If you just need the files now: boot into Ubuntu, and copy the files to your Windows partition or a USB. No special tool and no risk to read and write NTFS with Ubuntu. Then boot back to Windows and files are available. You would like to share files at all times: create a single NTFS partition dedicated to data and share from both sides. It doesn't touch any system partition, keeping it safe. If you are looking to get Windows to read ext4 and Ubuntu is on another drive: then wsl --mount .\PHYSICALDRIVEn --partition N will work. Only use a disk reading tool such as DiskInternals Linux Reader to copy files out on same disk. Take note of one thing: Disable Windows Fast Startup and don't use hibernation. It can corrupt data and locks the Windows partition. If you're planning to do dual-boot, you need this.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939385/how-to-access-dual-booted-ubuntu-26-04-lts-files-in-windows-10
+
+---
+
+#### 8935. Ps5 being held hostage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdb9yy/ps5_being_held_hostage/
+
+---
+
+#### 8936. Laptop turning off screen and loud siren sound afterwards
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdqvr0/laptop_turning_off_screen_and_loud_siren_sound/
+
+---
+
+#### 8937. How to test RAM
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdkou5/how_to_test_ram/
+
+---
+
+#### 8938. Pc randomly gives black screen when restarting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdsio5/pc_randomly_gives_black_screen_when_restarting/
+
+---
+
+#### 8939. My SSD is acting strange and no matter where I go I hit a wall.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vds29c/my_ssd_is_acting_strange_and_no_matter_where_i_go/
+
+---
+
+#### 8940. Really bad phone signal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdrn0b/really_bad_phone_signal/
+
+---
+
+#### 8941. PC won't boot to BIOS using EZflash for Asus motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdq32i/pc_wont_boot_to_bios_using_ezflash_for_asus/
+
+---
+
+#### 8942. Does any body know why my new m.2 drive for my ps5 won’t get detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdp8d5/does_any_body_know_why_my_new_m2_drive_for_my_ps5/
+
+---
+
+#### 8943. Random disconnects for no reason
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vduqt5/random_disconnects_for_no_reason/
+
+---
+
+#### 8944. Just reset my firewall settings. Am I good?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vduntr/just_reset_my_firewall_settings_am_i_good/
+
+---
+
+#### 8945. GPU or PSU Problem help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdukxk/gpu_or_psu_problem_help/
+
+---
+
+#### 8946. What is wrong with my Mac book Air? Is it Malware or Damage?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdou59/what_is_wrong_with_my_mac_book_air_is_it_malware/
+
+---
+
+#### 8947. My speakers randomly stoped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdudok/my_speakers_randomly_stoped_working/
+
+---
+
+#### 8948. I want to know how to setup VRR correctly on Windows PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vduar6/i_want_to_know_how_to_setup_vrr_correctly_on/
+
+---
+
+#### 8949. Wifi not working against the wall but is in the middle of the room
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdu1ey/wifi_not_working_against_the_wall_but_is_in_the/
+
+---
+
+#### 8950. New PC randomly restarts only in some games (VIDEO_TDR_ERROR 116) - already tried almost everything
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdu1ev/new_pc_randomly_restarts_only_in_some_games_video/
+
+---
+
+#### 8951. Error Code 0x0000005 on my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdtzki/error_code_0x0000005_on_my_pc/
+
+---
+
+#### 8952. HP windows 11 laptop running slower
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdtwz4/hp_windows_11_laptop_running_slower/
+
+---
+
+#### 8953. Nvidia drivers
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdnwtw/nvidia_drivers/
+
+---
+
+#### 8954. Laptop freezing when GPU in use while Charging/AC supply on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdtnyg/laptop_freezing_when_gpu_in_use_while_chargingac/
+
+---
+
+#### 8955. Games lagging randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdnvu7/games_lagging_randomly/
+
+---
+
+#### 8956. Can’t find replacement battery for hp-14dk1032wm
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdtlhs/cant_find_replacement_battery_for_hp14dk1032wm/
+
+---
+
+#### 8957. I can't open intel.com website
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdnq6y/i_cant_open_intelcom_website/
+
+---
+
+#### 8958. Alienware 14 update issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vdt566/alienware_14_update_issues/
+
+---
+
+#### 8959. [V2EX] 大家所在的公司都在用什么项目管理工具？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231568#reply9
+
+---
+
+#### 8960. [V2EX] 大家周末都干什么？现在周末基本都在生活上了，而不是刷面试题，学习啥的，感觉很舒服的！
+
+**问题描述 / Problem Description**:
+前几年一到周末就看看书呀，学学习呀，有时候即使学不进去也要把书放前面那样，比如刷算法，看系统设计呀等等。 今年自己改变了好多，周末就真的有好好享受周末，出去逛超市，逛商场，出去玩等等。 这种感觉真的蛮不错的哈哈哈，玩就尽情的玩。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231564#reply3
+
+---
+
+#### 8961. [V2EX] ibkr 开户 可以用汇丰信用卡地址吗
+
+**问题描述 / Problem Description**:
+有 WISE 汇丰信用卡,但人实际在国内, 汇丰 Pluse 信用卡目前消费了两个多月了. 如果把地址改成香港的, 然后用信用卡账单去开户的话,是否可行呢? 大家有这样试过的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231551#reply6
+
+---
+
+#### 8962. [V2EX] 订阅了 OpenCode Go 5 美刀会员 只用 DeepSeek 能用多久～？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231535#reply10
+
+---
+
+#### 8963. [V2EX] 知乎里一眼望去都是 gpt 生成的文章，为什么每个文章下面都是一片祥和
+
+**问题描述 / Problem Description**:
+如题， 打开知乎，一眼望去都是 gpt 风味文章，gpt 的文章风味太熟悉了。 但是评论区甚至能看到“我的收藏夹就是为了这类文章而生的‘ 看到这个评论，我久久不能自已，沉默了很久，让我的脑子出现了逻辑错误 比如： https://www.zhihu.com/question/422144033/answer/2053839572241478671 我承认，这些知识很迷人，或许，不是 ai 写的就是错的， 如果是 ai ，输出有用的知识，还是能引起人的赞同 其实我也不知道我在想什么，自从上次写了一篇文章被人攻击是 ai slop ，我一直没能想明白这个问题。 评论区有句话让我一直想到现在，重点不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231526#reply30
+
+---
+
+#### 8964. [V2EX] 中文文本嵌入模型目前哪个效果最好？
+
+**问题描述 / Problem Description**:
+bge-m3 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231516#reply2
+
+---
+
+#### 8965. [V2EX] 中国大陆现在哪个城市的黑户外国定居人数最多？
+
+**问题描述 / Problem Description**:
+意外接触到一个很暴利的行业，大概原理就是以咨询的名义帮助外国友人不办理签证进入中国。后续就销户不离开了。就很好奇，这些外国友人都流向了哪些城市？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231514#reply10
+
+---
+
+#### 8966. [V2EX] GiffGaff 转 CTExcel 可行嘛
+
+**问题描述 / Problem Description**:
+最近 GG 卡被 gank 的好多啊 虽然我的还没有被 ban 但是感觉离被 ban 也不远了 看到有人说可以转 CTExcel 有成功的案例 但是也刷到了有佬友说别着急转 CTExcel. 佬友们还有什么更好的办法嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231490#reply1
+
+---
+
+#### 8967. [V2EX] PLUS 是不是额度砍半了
+
+**问题描述 / Problem Description**:
+之前还能蹬超过 100+，今天只能 50-80 左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231479#reply8
+
+---
+
+#### 8968. [V2EX] 在什么用量下使用官方 DeepSeek API (V4 Flash 模型) 比 Claude Pro $20 划算呢？
+
+**问题描述 / Problem Description**:
+我目前在 Claude Code 中使用 Opus 5 high ，工作日每天用满上午和下午的 5 小时限制，刚好能完成我的日常工作，周限额分配到每天也足够，因此 Claude Pro 目前的配额刚好满足我的需求。 最近听说 DeepSeek V4 Flash 正式版很强，试着在 Claude Code 中接入了 API ，并让它修复了一个日常开发 BUG ，完成的很快也很满意，这个任务花费了 ￥ 0.35 元。 按照这种计费方式来看，$20 * 6.75 / 0.35 = 385 ，也就是按照之前的任务强度， Claude Pro 的订阅支出可以让 DeepSeek V4 Flash 模型每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231467#reply5
+
+---
+
+#### 8969. [V2EX] 想问问佬友有玩 pixel 的嘛
+
+**问题描述 / Problem Description**:
+本人自用 Pixel 10 Pro Fold ，想问问佬友们是咋玩 Pixel 的，有没有一个互相交流玩机的地方呢，最主要想佬友们推荐几个好用的开源软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231466#reply9
+
+---
+
+#### 8970. [V2EX] 求推荐充 chatGPT plus 的靠谱方式
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231465#reply3
+
+---
+
+#### 8971. [V2EX] ssh 管理工具求教
+
+**问题描述 / Problem Description**:
+求助一下各位大佬，有没有这样的一个 ssh 工具: 管理的 ssh 服务器可以提供 mcp 服务，安装到 CodeCLI 后，可以让 AI 访问到远程服务器去干活，不要求远程服务器安装依赖 我使用 reeve 可以达到这种效果，但是收费有点贵，想看看有没有平替
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231455#reply6
+
+---
+
+#### 8972. [V2EX] 有没有从始至终在 AI 上花费 0 元的朋友？
+
+**问题描述 / Problem Description**:
+从 ChatGPT 2022 年 12 月 1 日出来那天开始用现代 AI 到今天，我一直花费 0 元，感觉免费的 AI 一直就够用了。 有没有相同情况的朋友？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231438#reply43
+
+---
+
+#### 8973. [V2EX] 有性价比高的模型 api 推荐吗？
+
+**问题描述 / Problem Description**:
+识图取标题，输出英文长标题，电商用 有几十万个图片需要批处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231421#reply4
+
+---
+
+#### 8974. [V2EX] 你们用 Opus5 开多大的思考强度？
+
+**问题描述 / Problem Description**:
+为什么我感觉 opus5 开 ultracode 或者 Max 反而不好用，开低或者中反而更好，这是错觉吗？ 你们用哪一档呢？ opus5 给我一种像老板的感觉，很多事情总偷懒或者选择不做，需要不断地重复需求才行......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231411#reply27
+
+---
+
+#### 8975. [V2EX] 怎么解决骚扰电话的问题啊
+
+**问题描述 / Problem Description**:
+每天能收到五个左右的骚扰电话，有固定电话，有手机号码。都是推广短视频的。。 兄弟们有什么办法，给移动公司打过电话，也开通了放骚扰。依然没有效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231397#reply32
 
 ---
