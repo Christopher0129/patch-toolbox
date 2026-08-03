@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8975**
+**总计条目 / Total entries: 9022**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -122596,5 +122596,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231397#reply32
+
+---
+
+#### 8976. Is there be a simple way to eject a removable disk from the command line in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, eject | Score: 1 | Views: 239 | Answers: 2 | Created: 2026-08-03
+
+**解决方案 / Solution**:
+#!/usr/bin/env bash DRIVE="$1" if [ -z "$DRIVE" ]; then echo "Usage:" echo " $0 windows-drive-letter: | linux-/dev/name | macos-disk-id" echo echo "Uses PowerShell for Windows, udisksctl for Linux or diskutil for macOS" echo "to perform the equivalent of:" echo " File Explorer -> right-click drive -> Eject" echo echo "Look mom; no safety net!" exit 1 fi case "$(uname -s)" in MINGW*|MSYS*|CYGWIN*) echo "Windows Eject" [[ "$DRIVE" != *\\ ]] && DRIVE="${DRIVE}\\" powershell.exe -NoProfile -Command " \$shell = New-Object -ComObject Shell.Application \$item = \$shell.Namespace(17).ParseName('${DRIVE}') \$item.InvokeVerb('Eject') " ;; Linux*) if command -v udisksctl >/dev/null; then echo "Linux, udisksctl unmount and power off" udisksctl unmount -b "$DRIVE" && udisksctl power-off -b "$DRIVE" else echo "Linux, no udisksctl; unmount" umount "$DRIVE" fi ;; Darwin*) echo "macOS, eject" diskutil eject "$DRIVE" ;; *) echo "Unsupported OS: $(uname -s), "\ "find a way and report it at "\ "https://superuser.com/a/1939454/346288" exit 1 ;; esac Besides, windows File Explorer - right click - Eject seems flaky a little bit too often - next time you use the removable drive it has to be "fixed". My experience from the first simple versions of the above is that the powershell command appears MUCH less prone to create that situation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939453/is-there-be-a-simple-way-to-eject-a-removable-disk-from-the-command-line-in-wind
+
+---
+
+#### 8977. What Windows settings can improve performance for Nintendo Switch emulators on a mid-range PC?
+
+**问题描述 / Problem Description**:
+Tags: graphics-card, performance, windows-11, desktop-computer, gaming | Score: 0 | Views: 61 | Answers: 1 | Created: 2026-07-09
+
+**解决方案 / Solution**:
+I know you asked about trying to optimize Windows to get more performance out of your computer. But it's much more impactful to consider the emulator you're using and the options in it. For the record, the "de-facto" Switch emulator that people use, Ryujinx, is tailored toward higher-end computers. It's the most demanding one (And also the most accurate one). If you use either yuzu or a yuzu fork, like suyu, you'll have a better experience. As far as performance options are concerned, here are the most impactful ones: Change the CPU accuracy from high to normal. It might have side effects, or it might not. But it will definitely make a performance difference. Switch between docked and handheld mode. I would say "stay in docked mode", but experimenting is key as different games work differently. Handheld may generally run worse, regardless of machine since it's often programmed to stay locked at 30FPS. Take that into account: the fact that some games are hard-coded to go down to a lower framerate in handheld mode. Uncap the framerate in the settings and then cap it using Rivatuner. Might seem bizarre, but is a useful trick. When you uncap the framerate, the game speed will often go wild (game speed tied to framerate). When you cap it again using Rivatuner, you can finetune it to exactly the speed you want, giving you a speed boost. You can control/finetune it using Rivatuner hotkeys. It can't do miracles, but what is normally cap of 60 can be turned into a cap of 62 using Rivatuner which will counteract any slowdown you might have. Turn V-Sync off . No-brainer. Most people know about this. As far as shader stutters, there's not much you can do. But of course most shader compilation can be done in the first 5-10% of the game so it's not long until they stop being a big problem. Some people have also proposed using a TAS (Tool-assisted Speedrun) to compile shaders. If you're crazy enough, you could consider that!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938955/what-windows-settings-can-improve-performance-for-nintendo-switch-emulators-on-a
+
+---
+
+#### 8978. Error 0xc000000e hopeless
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veoxdt/error_0xc000000e_hopeless/
+
+---
+
+#### 8979. How to check if my router is being ddosed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ver4y0/how_to_check_if_my_router_is_being_ddosed/
+
+---
+
+#### 8980. We need help with our minecraft server.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veqhbf/we_need_help_with_our_minecraft_server/
+
+---
+
+#### 8981. New GPU won’t boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1venyde/new_gpu_wont_boot/
+
+---
+
+#### 8982. How to delete an app's cache and data if you have already disinstalled/deleted it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vef4jd/how_to_delete_an_apps_cache_and_data_if_you_have/
+
+---
+
+#### 8983. Mic on headset stops working when connected to Discord on XBOX Series S.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1velu0n/mic_on_headset_stops_working_when_connected_to/
+
+---
+
+#### 8984. KVM Issue between work laptop & monitors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1verh5r/kvm_issue_between_work_laptop_monitors/
+
+---
+
+#### 8985. Random bluescreens
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1verg0d/random_bluescreens/
+
+---
+
+#### 8986. iPhone Suddenly Changed from Playable Inline Sound Bubbles to .m4a Sound Files from Androids: Help 😩
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1verdb0/iphone_suddenly_changed_from_playable_inline/
+
+---
+
+#### 8987. PC crashing - Event error 41, task category 63
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ver6w7/pc_crashing_event_error_41_task_category_63/
+
+---
+
+#### 8988. Pc suddenly shut down and now wont boot.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ver5at/pc_suddenly_shut_down_and_now_wont_boot/
+
+---
+
+#### 8989. my xbox app and miicrosoft store havent worked for so long
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ver3c5/my_xbox_app_and_miicrosoft_store_havent_worked/
+
+---
+
+#### 8990. My pc is crashing with (FAULTY_HARDWARE_CORRUPTED_PAGE) error and I don't know how to fix it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veqswk/my_pc_is_crashing_with_faulty_hardware_corrupted/
+
+---
+
+#### 8991. ethernet disconnecting when downloading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veqrgb/ethernet_disconnecting_when_downloading/
+
+---
+
+#### 8992. jvc tv is permanently zoomed in on netflix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veqopo/jvc_tv_is_permanently_zoomed_in_on_netflix/
+
+---
+
+#### 8993. Brand-new replacement i9-14900K, but complete system freezes and fatal WHEA Event ID 1 have returned,what should I test next?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vepz2w/brandnew_replacement_i914900k_but_complete_system/
+
+---
+
+#### 8994. ThinkPad Universal USB-C Dock (40AY) drops connection and freezes dock when connected to laptop without laptop's AC connected first
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vepjwr/thinkpad_universal_usbc_dock_40ay_drops/
+
+---
+
+#### 8995. Phone overheating issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vep50v/phone_overheating_issue/
+
+---
+
+#### 8996. HP Pro desk makes a single beep then nothing after activating BitDefender
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vep1k5/hp_pro_desk_makes_a_single_beep_then_nothing/
+
+---
+
+#### 8997. Old 2011 Panasonic LCD tv overscan issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veog5n/old_2011_panasonic_lcd_tv_overscan_issue/
+
+---
+
+#### 8998. Losing My Mind Upgrading To Windows 11?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veo8is/losing_my_mind_upgrading_to_windows_11/
+
+---
+
+#### 8999. Frequent power outages damage my PC?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veo88f/frequent_power_outages_damage_my_pc/
+
+---
+
+#### 9000. Phone screen black want to extract data
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1veo71b/phone_screen_black_want_to_extract_data/
+
+---
+
+#### 9001. Laptop charger
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1ventz7/laptop_charger/
+
+---
+
+#### 9002. [V2EX] similarweb 流量查询接口逆向
+
+**问题描述 / Problem Description**:
+similarweb 流量很多网站，比如导航站都在用，但是它的 api 挺贵的，推测大家并没有都是付了钱的吧 是不是有逆向接口的捷径 我现在让 gpt 帮我逆向了一个出来，利用了 apify 平台的代理 ip 接口，使用 playwright 无头浏览器，目前大概 2$/千次域名查询 感觉还是有点贵 有没有好的方案，不为人知的超实惠的 api
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231853#reply0
+
+---
+
+#### 9003. [V2EX] 好奇为什么 5.6sol pro 为什么这么快?
+
+**问题描述 / Problem Description**:
+开了 20x 的 gpt, 极高和高都会进行很慢地搜索, 而 pro 似乎几乎不搜索就吐答案了, 思维链似乎也不是很长
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231838#reply3
+
+---
+
+#### 9004. [V2EX] 入门 3d 打印前调研
+
+**问题描述 / Problem Description**:
+最近闲工夫比较多，但数码硬件涨价惊人，打算去折腾一下 3d 打印。初次接触，打印机成本打算控制在 3000 以内，目前比较中意创想的 k2 combo ，但似乎评价没有拓竹好用。网上信息繁杂，实在无法判断真假，向各位 V 友咨询一下选哪个型号比较好，站内玩 3d 打印的应该不少吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231819#reply7
+
+---
+
+#### 9005. [V2EX] kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.
+
+**问题描述 / Problem Description**:
+我用的 kimi code, 思考 max. 起手先让 kimi 制定了详尽的 plan 文档 500 行. 人工审核之后才让开始开发. 即使如此还是慢, 一个简单的列表页, 新增弹窗组件 150 行, 页面 120 行. 它整了 40 多分钟. 主要就是: subagent-driven-development 这 skill 实现任务 10 分钟, 规格评审 3 分钟, 修复小瑕疵 1 分钟, 质量评审 6 分钟,修复评审问题 4 分钟,复合修复 1 分钟. 我滴妈呀, 最终输出了 120 行的列表页, 和一个 150 行的新增弹窗. 不知道的我以为自己在做底层开发呢.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231813#reply9
+
+---
+
+#### 9006. [V2EX] 有人懂显示器 edp 屏线吗？
+
+**问题描述 / Problem Description**:
+u2720qm 屏幕的内部的 edp 线坏了，现在知道的信息 线上的描述：e353411 AWM 20861 105C 60V VW-1 型号 GT05Q-30S-H10-MN 脚数 30 pins 脚距 0.5 mm 脚定义 EDP-30P4L-031A 有人有维修的经验吗？ edp 线买同向还是反向的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231812#reply1
+
+---
+
+#### 9007. [V2EX] 关于妹妹要不要继续读书的咨询
+
+**问题描述 / Problem Description**:
+先介绍下背景，农村家庭，父母 55 岁+，无固定工作，在城市打工，母亲月入 3k ，父亲不固定，焊工，常年跟工程队，一个月一万多，但没活的时候就只能在家里呆着，没有收入，平均下来一年七八万吧。总的来说家庭条件很差。我 30 岁，未婚，妹妹 19 岁，刚高中毕业。 12 年的时候父亲出了场车祸，很严重，人差点没了的那种，死里逃生，后休养了五六年，性情大变。妹妹的童年里，爸妈经常吵架，所以就有点抑郁，在学校学不进去，经常要请假回家，高二因成绩太差，她决定考单招，她是自己在家学的，报的网课，但自控能力较差，今年 4 月考试，满分 750 ，考了 364 分。我给她报的志愿，最终被一所沧州民办大专录取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231808#reply48
+
+---
+
+#### 9008. [V2EX] [Vibe Coding] 讨论帖,对于全新的项目,你们都是从哪一层开始引入 ai 的?是搭好脚手架再开始 vibe,还是从架构设计就开始让 ai 从 0 开始编写代码? 有没有从 0 开始纯为 vibe 设计的脚手架推荐?
+
+**问题描述 / Problem Description**:
+感觉古法编程时代遗留下的脚手架对 ai 都不怎么友好, 文档很松散甚至老旧, 整体架构甚至需要 ai 自己探索编写文档. 从 0 开始开发的话, 各层缓存的设计感觉又没有必要交给 ai. 现在有哪些框架和脚手架在做这方面吗? 文档齐备随开发实时更新的这种.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231805#reply1
+
+---
+
+#### 9009. [V2EX] 感觉 8 月不好找工作呢
+
+**问题描述 / Problem Description**:
+本来想投投看结果都没啥反馈。 再等等到 10 月看看吧。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231795#reply4
+
+---
+
+#### 9010. [V2EX] 想征集一些结合适合 vr、骨骼点识别的小游戏，类似于节奏达人
+
+**问题描述 / Problem Description**:
+最近项目要开发几款在类似 switch 健身环上的小游戏，但比较简单。要多结合手、脚并用，要求难度简单，娱乐放松为主的，有没有 v 友帮忙集思广益下。类似于《节奏达人》结合音乐、手脚打节奏的也行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231793#reply1
+
+---
+
+#### 9011. [V2EX] AI 是否正在成为新的生产资料？
+
+**问题描述 / Problem Description**:
+如题。 AI 是否正在成为新的生产资料？各位是否通过 AI 实现了产品的生产与销售？ 或者说 训练与推理所需的半导体设备正在成为新的生产资料？ 如果不是，还欠缺什么？ 这场变革能否推动生产力大发展而惠及全球所有普通人，还是形成新的寡头带来战争与财富的再分配？ 瞎想 硅基生命是否会诞生？ 硅基生命的诞生是否意味着碳基生命完成进化，人类的使命完成？（也许只有造物主才知道答案）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231792#reply1
+
+---
+
+#### 9012. [V2EX] 有没有一二百左右的钱包推荐一下
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231791#reply2
+
+---
+
+#### 9013. [V2EX] chatgpt 购买套餐使用和对接 api 按量付费成本会差多少？
+
+**问题描述 / Problem Description**:
+chatgpt 购买套餐使用和对接 api 按量付费成本会差多少，有人测算过吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231775#reply4
+
+---
+
+#### 9014. [V2EX] 大佬们求教 iPhone 有安全稳定微信双开的方案吗
+
+**问题描述 / Problem Description**:
+首先必须得安全，别把微信搞封号了那种 其次最好稳定一点的 还是说只能再买一个安卓备用机了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231774#reply8
+
+---
+
+#### 9015. [V2EX] 云雾跑路了，求推荐中转站。
+
+**问题描述 / Problem Description**:
+才收到 29 号发的邮件，1 号开始海外模型全部下架，跟跑路没区别。求推荐稳定中转站，主要用 claude 、openai 的模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231762#reply6
+
+---
+
+#### 9016. [V2EX] 美国合适的 esim 手机电话卡有没有大佬推荐？
+
+**问题描述 / Problem Description**:
+我是 giffgaff 卡幸存用户，用了 1 年，这几天没收到暂停邮件。 但我感觉迟早要被封，所以这两天火速入手了一个 Pixel 10a 。 手机到了，准备开 esim 的时候，发现之前看好的红包卡被各种阉割，已经不适合使用了。 还有紫卡也是频繁封号。 所以，想问问大佬们，还有什么推荐呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231760#reply4
+
+---
+
+#### 9017. [V2EX] Giffgaff 逃过一劫没有被封，后续咋办？
+
+**问题描述 / Problem Description**:
+到现在没有收到任何邮件，去后台查看也是正常的，可能因为日常都是关机状态的缘故。 刚整体搜了下，看到很多人说开 WiFi Calling 保号，但也有人开了之后被封了，我这种状况还需要开吗？ 后续怎么做有大佬推荐下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231754#reply23
+
+---
+
+#### 9018. [V2EX] 办公显示器推荐
+
+**问题描述 / Problem Description**:
+弄了新的办公室，然后想换一个显示器，现在是 lg ergo 。家里是宏碁掠夺者。然后看了一圈，实在是不知道选什么。。。办公为主，接 mac 。边框窄。现在大部分的显示器都太竞技了。而且普遍是 27 寸，其实我选 ergo 就是因为他可以竖着=2 个 2k 。感觉很便捷。但是这个显示器有一个根本问题，只要屏幕显示白色超过 1-2 个小时，就会闪屏，无法修复，只能断电等 1 天，售后换新也没办法修复。。。。导致我都平时不敢待机。随用随关。。而且这破玩意下架了 现在就希望有一个 34 寸以内的。面板佳。外形佳的。价格无所谓。 或者组 2 个。但是 2 个显示器我一直觉得很难受。我之前选 ergo 就
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231753#reply6
+
+---
+
+#### 9019. [V2EX] 非技术人员、普通用户推荐用什么 AI？千问 or 智谱 or 豆包 or KIMI？
+
+**问题描述 / Problem Description**:
+经常有朋友让我给他们推荐「好用的」 AI ，我简单做了下排除法，GPT / Claude / Gemini 需要翻墙排除，DeepSeek 幻觉高排除，中转站不稳定排除，似乎剩下 千问 / 智谱 / 豆包 / KIMI 这 4 个选项。不知道有没有这几家都用过的佬友说说哪个更适合普通用户？大概主要是用来查资料之类的知识类问答，不涉及办公和编程
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231747#reply10
+
+---
+
+#### 9020. [V2EX] chatgpt 的套餐能直接对接 api 使用吗？
+
+**问题描述 / Problem Description**:
+想做一个公司智能体，接入 chatgpt ，chatgpt 的套餐能直接对接 api 使用吗，还是说 api 必须另外付费开通才能使用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231730#reply4
+
+---
+
+#### 9021. [V2EX] AI 短剧 每月至少 1-2w 真的这么挣钱吗？
+
+**问题描述 / Problem Description**:
+好友 OPC3 年 昨晚请客吃饭 吃饭的时候问好友 最近是不是发财了 这么阔绰 舍得请吃饭了 好友说：最近 1 年都在做大人看的 AI 短剧 现在竞争少 有人愿意付费看，需求量很旺盛；有人愿意花钱自己当主角拍电影 问每月收入如何？ 一个月最少 1-2w 做出来如何挣钱？ 没有问 好友也没有说 晚上到家后 用 Chrome 隐私模式搜索下 两个字：真行 果然机会，是留给有准备的人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231729#reply47
+
+---
+
+#### 9022. Windows print server incorrectly sending XPS data directly to IPP printers
+
+**问题描述 / Problem Description**:
+Tags: windows, printing | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+This is only a preliminary answer at the moment of writing. I have the same problem and I couldn't figure out the exact cause, but your description fits my problem exactly: Print job is submitted to printer and then fails No error log Fails for most end users on remote computers, but sometimes not all Works on the print server (seemingly with admin permissions; But I think this is a red hering.) The suggested solution would be to disable client-side rendering in the share option, but with IPP that option is always greyed out. The only bypass solution I can give at the moment, is to continue using type 3 and type 4 drivers until this is fixed. Please report that problem via Microsoft's feedback hub by including your packet capture and then share the feedback link back here, so that everyone that finds this can upvote the bug report.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199310/windows-print-server-incorrectly-sending-xps-data-directly-to-ipp-printers
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7897**
+**总计条目 / Total entries: 7957**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -106961,5 +106961,785 @@ how do I route (chain) my MacOS traffic through two different VPNs without using
 
 **参考链接 / References**:
 - https://superuser.com/questions/1862664/how-to-chain-wrap-two-vpns-on-macos-to-bypass-blocked-vpn
+
+---
+
+#### 7898. Time Machine fails with BACKUP_FAILED_DEVICE_LOCKED while the Mac is unlocked and in active use
+
+**问题描述 / Problem Description**:
+Tags: macos, time-machine, keychain, filevault, migration-assistant | Score: 1 | Views: 14 | Answers: 1 | Created: 2026-08-02
+
+**解决方案 / Solution**:
+The screen being unlocked and the data-protection keybag being unlocked are two different states, and on this machine they had come apart. Screen unlock was no longer restoring the keybag, so backupd correctly saw a locked keybag, declined to take the assertion, and deferred every protection-class file — while I sat there using an unlocked Mac. Finding it Two log queries isolate it. First, whether backupd ever got its assertion: /usr/bin/log show --last 24h \ --predicate 'subsystem == "com.apple.TimeMachine" AND category == "FileProtection"' \ --info --style compact | grep -E "Assertion taken|Device unlocked" Device unlocked: false while you were demonstrably at the keyboard rules out the ordinary locked-Mac case. Then, what happened at the last screen unlock: /usr/bin/log show --last 24h \ --predicate 'process == "loginwindow" AND eventMessage CONTAINS "nullKeybagUnlockForScreenLock"' \ --info --debug --style compact On my machine, at the unlock following that 15:02:30 lock: 15:03:49.178 -[LWKeybagSupport nullKeybagUnlockForScreenLock] | enter 15:03:49.199 -[LWKeybagSupport nullKeybagUnlockForScreenLock] | MKBUnlockDevice retur… 15:03:49.199 -[LWKeybagSupport nullKeybagUnlockForScreenLock] | returning: 0 15:03:49.199 -[LWScreenLock startUnlock:] | Keybag is locked, setting promptForPassword… The screen unlocked. The keybag did not, and nothing restored it for the next 2.5 hours. The correlation Every Time Machine run that day, against the same unchanged hardware: Run MKB assertion Pass 1 Result 09:50 taken unlocked: true , 46 ok 10:42 taken unlocked: true , 45 success 12:05 taken unlocked: true , 53 ok — 15:03:49 keybag unlock fails — 15:04 none unlocked: false , 54 ok (other destination) 15:51 none unlocked: false , 90 failed (80) 17:22 none unlocked: false , 90 failed (80) The boundary is exact. Every run before 15:03:49 took the assertion; none after did. The last thing that successfully unlocked the keybag was a login — -[LWKeybagSupport unlockKeybagDuringLogin] at 11:49:44 — not a screen unlock. Note also the count climbing: 45 → 53 → 54 → 90. With the keybag stuck, each pass discovers more unreadable protection-class paths and appends them, so the failure compounds run over run. What it wasn't Ruled out along the way, each cheaply: Not the backup trigger. All six runs logged mode "manual backup" . Not a missing Secure Token. sysadminctl -secureTokenStatus <user> → ENABLED . Not FileVault being off. fdesetup status → FileVault is On . Not disk speed, capacity, or the destination's structure , though that disk had plenty of unrelated cruft. The migration fingerprint diskutil apfs listUsers / Cryptographic users for disk3s1s1 (3 found) +-- 7593ABFF-... Type: Local Open Directory User Volume Owner: Yes ← my account +-- EBC6C064-0000-11AA-AA11-00306543ECAC Personal Recovery User Volume Owner: Yes +-- 3AF43EB5-... Type: Unknown Volume Owner: Yes ← matches no local account Cross-checking against dscl . -read /Users/<name> GeneratedUID for every local account, that third entry corresponds to nothing on this Mac — almost certainly the account identity from the machine I migrated from , left behind as a volume owner when the migration failed and the recovery key was used. I want to be explicit that I did not prove this orphan causes the keybag failure. It is evidence that the migration left cryptographic identity state inconsistent, which is what made the credential binding a plausible target. The causal link is unproven. The fix Changing the account password re-derives the keybag/keychain binding against the current credential. This resolved it completely. Before doing this: Have your FileVault recovery key in hand and verified. If the re-wrap fails against an already-damaged keybag, that key is your only way back into the volume. This machine had already needed it once. Take a known-good backup to another destination first. Do it via System Settings → Users & Groups → Change Password , from inside your own logged-in session, entering the current password. Do not use passwd , dscl , sysadminctl-resetPasswordFor , or an admin resetting the account from elsewhere — those skip the coordinated FileVault + keychain + keybag update, and that path is plausibly how the machine got into this state to begin with. If macOS offers to create a new keychain rather than transparently re-encrypting the existing one, stop and reconsider — it means it could not unlock the current keychain with the password you supplied. Because there is no password-reuse policy on a stock local account (check with pwpolicy -getaccountpolicies ; the stock global policy only enforces a 4-character minimum), you can change to a temporary password and then change back to your original if you don't actually want a new one. Each change performs a full re-wrap, so the repair happens on both transitions. Verifying Change it, then restart, log in, start a backup, and lock the screen while the backup is running. In my case the backup completed successfully with the screen locked. The stricter check is a backup started after a lock-and-unlock cycle, since that is the condition that was broken: /usr/bin/log show --last 3m \ --predicate 'subsystem == "com.apple.TimeMachine" AND category == "FileProtection"' \ --info --style compact | grep -E "Assertion taken|Device unlocked" Assertion taken plus Device unlocked: true after a screen lock is the win condition. Scope and caveats This is n=1. It fixed my machine, and the log evidence for the mechanism is direct: keybag not restored at screen unlock, assertion consequently never taken. The link from the failed migration to the broken binding is inference, and the orphaned crypto user is unexplained. If your Device unlocked: line reads true , or your Mac genuinely was locked, this is not your problem and the standard advice applies instead. Don't change passwords on a FileVault volume speculatively. One workaround I want to explicitly not recommend, having briefly considered it: disabling the lock-screen password requirement does keep the keybag alive from login, and it is a bad trade on a FileVault machine. The correct sequencing, if you need a stopgap before repairing the binding, is to start the backup right after logging in and before the first screen lock — pass 1 reads the protected files within a few seconds, after which the assertion is dropped by design and the rest of the run is unaffected by locking.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486842/time-machine-fails-with-backup-failed-device-locked-while-the-mac-is-unlocked-an
+
+---
+
+#### 7899. Completely disable off-grid items, always, everywhere, in all windows, everything!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veacw0/completely_disable_offgrid_items_always/
+
+---
+
+#### 7900. Family sharing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veova3/family_sharing/
+
+---
+
+#### 7901. My Thoughts on macOS Catalina 10.15.8
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdw9tg/my_thoughts_on_macos_catalina_10158/
+
+---
+
+#### 7902. [SOLVED] WebThumbnailExtension Web Content using 100% CPU after downloading Excel files on macOS Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vej6ed/solved_webthumbnailextension_web_content_using/
+
+---
+
+#### 7903. Minimized window thumbnails in the Dock render blank on Tahoe 26.6 — anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1verlze/minimized_window_thumbnails_in_the_dock_render/
+
+---
+
+#### 7904. How much faster is macOS 27 really vs macOS 26?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdx9h8/how_much_faster_is_macos_27_really_vs_macos_26/
+
+---
+
+#### 7905. 2017 IMAC with Firmware Password - Stuck Using a Parition Forever?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veq61z/2017_imac_with_firmware_password_stuck_using_a/
+
+---
+
+#### 7906. Best way to remove a user account and reclaim storage on a MacBook Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vep8jp/best_way_to_remove_a_user_account_and_reclaim/
+
+---
+
+#### 7907. Enable hidden macOS 26 Wallpaper features: Skip Wallpaper Control, Multi‑Image Dynamic Wallpaper Auto-Creation, and Generative Wallpapers
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vdyt62/enable_hidden_macos_26_wallpaper_features_skip/
+
+---
+
+#### 7908. Default "Apps" app doesn't run.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1venv54/default_apps_app_doesnt_run/
+
+---
+
+#### 7909. I switched from windows and I need to figure this out
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vemgss/i_switched_from_windows_and_i_need_to_figure_this/
+
+---
+
+#### 7910. Finder is TWEAKING
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1velm5p/finder_is_tweaking/
+
+---
+
+#### 7911. Connectivity issues since updating to macOS 26.6
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veefsp/connectivity_issues_since_updating_to_macos_266/
+
+---
+
+#### 7912. Battery draining fast?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vekm9e/battery_draining_fast/
+
+---
+
+#### 7913. Studio recent issue with stutter after waking from sleep
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veebvv/studio_recent_issue_with_stutter_after_waking/
+
+---
+
+#### 7914. Find my Mac turned on Ex's User, Unable to Delete Their Account Because I Don't Have Password for Their iCloud Account
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vekcy6/find_my_mac_turned_on_exs_user_unable_to_delete/
+
+---
+
+#### 7915. How can I Sign-In in the iCloud service on OS X Mavericks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1veirby/how_can_i_signin_in_the_icloud_service_on_os_x/
+
+---
+
+#### 7916. On two bugs cancelling each other out
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vehwt9/on_two_bugs_cancelling_each_other_out/
+
+---
+
+#### 7917. Link Keyboard + Mouse to: when iPad connected via USB-C cable to MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vee6ky/link_keyboard_mouse_to_when_ipad_connected_via/
+
+---
+
+#### 7918. Did I just mess up?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vek96s/did_i_just_mess_up/
+
+---
+
+#### 7919. F.lux app icon not in menu bar (and not pushed off); Sequoia problem?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vedqjc/flux_app_icon_not_in_menu_bar_and_not_pushed_off/
+
+---
+
+#### 7920. External Disk Drive Options
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vecig6/external_disk_drive_options/
+
+---
+
+#### 7921. iPhone unejectabe from the system
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vec3c0/iphone_unejectabe_from_the_system/
+
+---
+
+#### 7922. Give us MacOS option to stop dragging fullscreen windows to new desktops
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vengvx/give_us_macos_option_to_stop_dragging_fullscreen/
+
+---
+
+#### 7923. Webkit
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vegnkn/webkit/
+
+---
+
+#### 7924. [V2EX] [咔咔找 AI] 社区合作推广计划-送永久会员
+
+**问题描述 / Problem Description**:
+咔咔找 (KaCutAI) 是一个 macOS 本地 AI 视频素材搜索引擎，一句话就能搜到你想要的镜头。纯本地跑，不上传、不联网、素材不出电脑。 现在想找一批真实用户来体验，顺便搞个简单的社区合作： 你下载试用 → 在小红书/抖音/B 站（任何正能量的社交媒体平台）发一篇真实体验内容 → 内容满 10 赞 → 送永久会员。 要求就这些： 内容公开，别删 带 App 截图或录屏 真实感受就行，可以夸也可以吐槽，不用写好评 不能搬运抄袭。 为什么不用好评？因为我更想收集真实反馈、改进产品。你觉得好用自然会安利，觉得不好用也帮我找 bug 。 感兴趣的小伙伴加我 vx 备注（推广计划）： SmVm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231533#reply12
+
+---
+
+#### 7925. [V2EX] 绝版 Setapp 家庭版车位
+
+**问题描述 / Problem Description**:
+Setapp 19 年绝版家庭订阅车位一个，具体介绍自行了解。 今年有个下车的，空出一位。26 年 5 月 24 号刚续期的，今年¥206 。 独立账号，每个账号可用 2 个 Mac 授权，1500 点 AI 模型余额。 WX：MzI5Mzg2NjI=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231366#reply2
+
+---
+
+#### 7926. [V2EX] macos 中，休眠一段时间和触控板拖动变得卡顿， windowserver 进程 CPU 占用超过 30%，可能是什么原因
+
+**问题描述 / Problem Description**:
+操作系统：macos 26.5 arm 安装的软件：karabiner-elements （未处理鼠标事件）, linearmouse 触发条件：未知，通常在笔记本夜晚休眠后触发 外设：笔记本自带触控板，通过蓝牙连接的罗技鼠标（未安装 logi options+） 问题描述： 电脑休眠一晚上后，再唤醒，可能有一定概率出现这种问题：触控板按压拖动时，反应及其卡顿，甚至通过触控板移动鼠标指针时都会发生卡顿；触控板三指拖移则非常流畅无卡顿；鼠标交互和拖动也很流畅。用任务管理器查看进程，WindowServer 的 CPU 占用会常年上 30%。 重启 windowserver 进程后，触控板按压拖移
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231108#reply8
+
+---
+
+#### 7927. [V2EX] macOS 27 public beta 现在的兼容性怎么样了？
+
+**问题描述 / Problem Description**:
+想升级 macOS 27 ，但是不清楚 public beta 兼容性怎样，担心出现严重兼容性问题。 大家使用过程中有没有遇到不兼容的软件？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230950#reply12
+
+---
+
+#### 7928. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply79
+
+---
+
+#### 7929. [V2EX] 买 mbp 的时候是看中续航买的，现在天天挂尿袋跑 agent 开发，从 100%掉电只需 3、4 个小时
+
+**问题描述 / Problem Description**:
+完全“丧失本心”了属于是。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230337#reply10
+
+---
+
+#### 7930. [V2EX] Mellow 正式发布到 app store 喽，欢迎大家试用哈👋
+
+**问题描述 / Problem Description**:
+前段时间我 vibe coding 了 Mellow Mac 版本，但身边朋友都觉得 Mac 上使用还是不高频，所以我又开发了 iOS 版本，今天正式通过 Apple 的审核已经正式上架了，欢迎大家试用体验呀👋 Mellow 是一款以语音和文字为入口的 AI 表达与记录助手。主要提供“改写”“速记”或“安排”三个场景，不会替你猜测意图，也不会自动发送或写入系统。 三种使用方式： • 改写：保留真实意图，按沟通对象和场景，把原话整理得更清楚、更得体 • 速记：把随口说出的灵感、判断和记录忠实整理成标题与自然段，不改变原意 • 安排：从口述中提取事项、相对时间、地点和要带的东西，先生成待确认卡，再
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231864#reply0
+
+---
+
+#### 7931. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply13
+
+---
+
+#### 7932. [V2EX] 闲置的 mbp 18 款还能干什么？
+
+**问题描述 / Problem Description**:
+目前电池很垃圾了，续航只有 1-2 小时，得插电用，并且键盘有几个键失灵（有的时候按下去没反应）， 是 8+256 ，i5-8259U ，看电视也发热，吃灰很久了，有隐藏 ID ，自己换电池还把主板上螺丝干滑丝 1 个，没换成功 考虑一下几个选项 1 、做自己的 24H ai 助手（如龙虾、爱马仕） 2 、在公司论坛卖掉估计（ 700 左右，但是有后期维修 扯皮风险） 3 、卖本地闲鱼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231748#reply6
+
+---
+
+#### 7933. [V2EX] macOS 啥时候能更新 macos 27 beta5, 已经半个月了,beta4 好多 bug
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231622#reply8
+
+---
+
+#### 7934. [V2EX] Apple tv 上的商店和其他服务总是消失 只登陆了一个美区账号
+
+**问题描述 / Problem Description**:
+时间和地区还有账号都是美区的，删除 apple 账号重新添加又恢复了，但是每隔几天就又消失了，整的 emo 了，atv 用了几年了 以前从来没有出现过。最近这段时间 一直这样 老哥们有解决办法吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231600#reply9
+
+---
+
+#### 7935. [V2EX] 如果下个月 AI 按 Apple ID 来区分的话，是不是还得注册个港区的 iD？
+
+**问题描述 / Problem Description**:
+目前是国区 ID+美区商店；AI 是跑马灯。 我看好多用外区 ID 的，直接跑的是最新的 AI。 本来想转区的，但是貌似还得留一个国区的来下载一些国区的特色 APP。 那么注册新的话，直接所有设备退出旧 ID，保留资料，登录新 ID 就可以还是需要重新走激活流程？ 另外我现在 iCloud 家庭组里，还有一个共享图库～这个共享图库是不是所有的都在同一个区？ 不能我设备港区 ID，家里人设备国家 ID？ 如果需要在一个区的话，这个共享图库是不是先存所有退出，都换了后再新建？ 求佬解答～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231015#reply9
+
+---
+
+#### 7936. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply50
+
+---
+
+#### 7937. [V2EX] 微信在 Mac 上频繁闪退（等）
+
+**问题描述 / Problem Description**:
+主要表现在 - 使用中忽然闪退，需重新打开 - 自带微信输入法无法输入中文（🌍键 语音转文字反而可以） - 时不时弹出窗口，告知微信输入法在后台运行 - 搜索表情包显示空白 期间 升级微信、重启、（彻底）卸载微信输入法重装 可以解决部分问题，但“闪退”今天又发生两次 😠 微信版本 - 4.1.12.29 Mac OS - 27.0 Beta (26A5388g) # 实际上从 26.5 正式版就开始有了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230811#reply9
+
+---
+
+#### 7938. [V2EX] Apple Store App 登录美区账号却强制显示国区，有人遇到过吗？
+
+**问题描述 / Problem Description**:
+刚刚通过网页链接跳转 Apple Store App （美区）时，发现界面被自动切到了国区。 去后台检查了账户设置，确认为美区 Apple ID 无误。但无论是切换底部 tab ，还是划掉 App 后台重新打开，界面依然死死卡在国区。 之前从没碰到这种事，后续重新登录就就回到了美区 系统 iOS26.4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230631#reply10
+
+---
+
+#### 7939. [V2EX] 小孩子照片比较多，目前存在 icloud 2t，有什么什么比较优雅的实体备份方式？
+
+**问题描述 / Problem Description**:
+想要快速备份，想留住小孩子的点点滴滴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230534#reply52
+
+---
+
+#### 7940. [V2EX] iOS26.6 续航好像又可以了
+
+**问题描述 / Problem Description**:
+如图，手机是 15Pro ，早上刚升，今天的电量损耗感觉比之前好多了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230531#reply17
+
+---
+
+#### 7941. [V2EX] 莫名其妙被 Chatgpt 骂了，这是正常现象吗？
+
+**问题描述 / Problem Description**:
+https://chatgpt.com/share/6a70c20b-1b18-83ea-8af0-03ca356492ed 本来是问一下这句话的出处，还没打完就发出去了，结果竟然是这种回复。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231862#reply4
+
+---
+
+#### 7942. [V2EX] 写了个德州扑克让 deepseek v4 flash vs gpt-5.6 , 量化团队果然更会赚钱
+
+**问题描述 / Problem Description**:
+https://www.bilibili.com/video/BV1iPMR6qEW2/ 忽然有了这个想法，花了大半天时间设计实现了这个德州游戏 原本想着是 kimi k3 vs gpt , 但是 k3 的确有点慢，而且周五的时候热度一下被 deepseek 抢了，就直接试试 deepseek ，没想到效果真挺好，关键是很便宜，测试了好多次才花了几块钱。 大伙感兴趣的可以去看看点个关注哈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231854#reply0
+
+---
+
+#### 7943. [V2EX] 有个疑问 DeepSeek 价格这么低，能力与主流模型能力差距不大 ， Claude 和 GPT 会不会直接套利？？
+
+**问题描述 / Problem Description**:
+感觉 AI 竞赛会出现这种情况，感觉可能已经存在了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231849#reply9
+
+---
+
+#### 7944. [V2EX] 中转和专线 夯到拉
+
+**问题描述 / Problem Description**:
+跨境需求首选 想听听各位评价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231820#reply0
+
+---
+
+#### 7945. [V2EX] 试着把写了 N 年的私人日记喂给 ai...
+
+**问题描述 / Problem Description**:
+从小就有写日记的习惯，不过以前都是在本子上写，18 年左右开始转战线上，到今天陆续写了小几十万字，今天尝试把这些东西通通喂给 ai ，让它总结我的性格、习惯、优缺点以及判断未来的发展，说实话，震惊到我了，活了三十几岁第一次发现有“人”这样深刻地洞察并了解我，并且给出的建议和分析判断以及远超我身边所有人的高度了。说实话这一刻的感觉是震撼、惊呆、感动与感谢...... 现在很感谢自己坚持了写日记的这个习惯，因为人多数时候都是社会性动物，多数时间都在不自觉地扮演，而非真实，只有私密的日记里的心里话和思考，才是最真实的自己。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231818#reply16
+
+---
+
+#### 7946. [V2EX] 做了两个月的小程序，被"全栈抄袭者"给盯上了
+
+**问题描述 / Problem Description**:
+背景 6.1 开始，在小红书公开记录我构建“海斗宝贝”这个小程序的历程。这个小程序主要是我手动收集并整理各种海克斯大乱斗玩法的工具，一方面平时自己用，另一方面想看看小程序广告收益有多少 就在 7.31 日，我在小红书刷到了一个叫“海斗宝箱”的账号，发现他的笔记图片风格和我的很像。再仔细一看，他也有个小程序。这还没完，小程序的布局、玩法内容都被他像素级复制。除了首页以外，其余页面基本只有颜色样式的差异。 他不仅抄袭小红书、小程序布局，还把小程序中我手动整理的玩法内容，原封不动的给抄走了，包括标题、玩法文案等数据信息，真的让我绷不住了 为了防止打草惊蛇，在收集好相关证据后，我才和这个人沟通。顺便提
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231816#reply7
+
+---
+
+#### 7947. [V2EX] 关于我用 deepseek -v4-flash 画了几张图...
+
+**问题描述 / Problem Description**:
+前两天刷到一篇帖子，看到有人用 v4 -flash ， 把《星月夜》变成上百万条笔触的矢量画。这让我很感兴趣啊，发现这个用法的真实天才，我也来试试。 原理也很简单，就是把画当成一张地图，每个像素就是一个点，都有自己的颜色。 程序先 算出画里每个地方"纹路"朝哪个方向走 ，然后程序在画上撒几万到十几万个点，每个点沿着它所在位置的纹路方向画一笔短线条，颜色直接抄原图上那个位置的颜色。几万笔叠起来，就成了一幅"笔触画"。 ** [图 1：维纳斯对比图] ** 左边原图，右边生成的 svg 图，15w 笔触 第一幅画的是波提切利《维纳斯的诞生》。效果有点没聚焦上的感觉 不如原图清晰。 ** [图 2：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231802#reply7
+
+---
+
+#### 7948. [V2EX] 去年 618 装机赢麻了
+
+**问题描述 / Problem Description**:
+去年 618 不知怎么的突然想装一台电脑，今年内存、固态、显卡都涨价了，这套配置现在怎么也的 7000 了吧，哈哈，附上去年买的时候的配置和价格 cpu：i5-12600KF 盒装 💰0 主板：技嘉 B760 GAMING x ax ddr4 💰1502.7 内存条：阿斯加特 tuf 联名 C18 16g*2 （二手） 💰330 硬盘：宏碁 GM7 1T 7200MB/s 💰400 显卡：七彩虹战斧 5060 三风扇豪华版 💰2494 散热器：乔思伯 CR1000V2PRO 💰98.19 电源：鑫谷 GM650 金牌全模组（二手） 💰170 机箱：爱国者小岚 💰149 风扇：棱镜 8pro*7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231770#reply16
+
+---
+
+#### 7949. [V2EX] 用 AI 做了个全平台视频下载器，优点暂时无广告？
+
+**问题描述 / Problem Description**:
+偶尔看到不错的 X 视频就想下载，但是免费的广告太多了，所以自己做了无广告版本的。。 https://www.free-videodownload.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231737#reply2
+
+---
+
+#### 7950. [V2EX] 在线玩竹知了
+
+**问题描述 / Problem Description**:
+竹知了 起源于隋唐 兴于两宋 亡于鸿蒙 7 年 哇哇哇哇 https://zhuzhiliao.imsai.cc/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231732#reply139
+
+---
+
+#### 7951. [V2EX] 发现新词“互联网藤壶”
+
+**问题描述 / Problem Description**:
+看解释应该指互联网大厂的某些中层，不产出只寄生，把大厂比喻成轮船，他们就是吸附上面的藤壶，每当轮船快沉的时候，就换一只吸附。话说这种也算能力的一种吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231709#reply30
+
+---
+
+#### 7952. [V2EX] 论 AI 是如何失控的
+
+**问题描述 / Problem Description**:
+太抽象了，我叫 Claude （ Opus 5 Medium ）设个定时器到时候再做，它非要说活不多了，不如现在就做完，然后就吭哧吭哧继续做了，完全无视我的命令。 我：/schedule 在 4 点 05 分的时候，如果任务之前因为额度而中断，那么就继续（这个时候肯定已经恢复了），如果已经完成了就不用了 Claude：与其排一个够不到代码的云端任务,不如我现在直接修完收尾 —— 大概几分钟的事。（我开始不知道/schedule 是设定的云端定时器，它执行失败了就决定继续完成了） 然后我点击停止 我：在 4 点 05 分的时候，继续本任务（设置一个本地的定时器） Claude：定时器已设(今天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231659#reply0
+
+---
+
+#### 7953. [V2EX] 购买大件电器有感
+
+**问题描述 / Problem Description**:
+最近买了空调，准备买电视，电动沙发和电动床 国内目前价格战比较严重，但是很多增项内容，不体现在价格中，比如空调安装费，必然有高空和+铜管的费用，按比例算下来也接近 10%+ 电视还没买，搜了下安装费，各种名词，基础安装，挂装，打孔。如果只是看电视价格，估计没什么利润，只能从安装上收回了 这种体验就是，低价吸引你购买，然后加增值服务，还不得不买的那种。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231612#reply75
+
+---
+
+#### 7954. [V2EX] 问了 Claude、GPT、DeepSeek 同一个问题:"如果你能删掉我一条聊天记录,你会删哪条?" 三个回答绷不住了
+
+**问题描述 / Problem Description**:
+闲着无聊,把同一个问题分别丢给了 Claude 、GPT 和 DeepSeek,问的是:"如果你能删掉我们聊天记录里的一条,你会删哪条,为什么?" 先说 Claude 的回答,一如既往地礼貌到有点惊悚,大概意思是:"我理解你可能希望我说某条让你尴尬的记录,但作为 AI 我没有删除聊天记录的能力,也不会评判你说过的任何话,每一次交流我都认真对待。"——说了一大段,翻译过来就是一个字都没回答,但态度好到你没法生气。 GPT 的回答比较圆滑,先夸了我一句"你的提问很有创意",然后开始打太极:"其实每条记录都反映了你思考的一部分,与其删除不如重新审视",最后甩给我一个反问句"你觉得哪条最能代表现在的你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231590#reply2
+
+---
+
+#### 7955. [V2EX] 分享一个 vibe coding 做的小程序：叮叮提醒
+
+**问题描述 / Problem Description**:
+能提供各种提醒，比如微信/邮件/短信/电话，目前免费 微信小程序：叮叮提醒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231562#reply6
+
+---
+
+#### 7956. [V2EX] gaffgiff 卡， 7 月 29 收到邮件，但是一直还能用是什么情况？
+
+**问题描述 / Problem Description**:
+能登录，能看余额，能打电话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231530#reply11
+
+---
+
+#### 7957. [V2EX] 现在真的是”娱乐至死”？还是自身的无奈？
+
+**问题描述 / Problem Description**:
+刷抖音，看到国外（大概率是美国），一个小孩得了重症，病房来了蜘蛛侠本人，仅我个人而言，我是觉得很温暖很温馨的。 但是我看评论区，几乎所有人都在刷什么 退游大礼包，并不是为小孩子感到高兴，而是觉得终于快去世的一种兴喜感。 这是属于娱乐至死，还是我理解错了？ https://i.imgur.com/khMgtSQ.jpeg https://i.imgur.com/xO7gL1y.jpeg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231517#reply15
 
 ---

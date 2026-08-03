@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8280**
+**总计条目 / Total entries: 8417**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -115610,5 +115610,1787 @@ It should be theoretically possible, but since this is very unusual, building (u
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1160795/publish-to-aur-from-non-arch-system
+
+---
+
+#### 8281. Linux didn't just eat 10% of Windows market share, AI bots are inflating the numbers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ve8sb0/linux_didnt_just_eat_10_of_windows_market_share/
+
+---
+
+#### 8282. Benchmarking Six Linux Distributions On The Framework Laptop 13 Pro
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vej28n/benchmarking_six_linux_distributions_on_the/
+
+---
+
+#### 8283. Better sources than Statcounter
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vebgp2/better_sources_than_statcounter/
+
+---
+
+#### 8284. Conclave Linux author Dan Williams has passed away
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1veb0ba/conclave_linux_author_dan_williams_has_passed_away/
+
+---
+
+#### 8285. With the amount of people that would switch if photoshop ran on Linux, why are there not massive community efforts to make some compatibility layer?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ve0jgh/with_the_amount_of_people_that_would_switch_if/
+
+---
+
+#### 8286. Linux 7.3 To Support The Qualcomm Adreno 704 & Adreno 722 GPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdw1s5/linux_73_to_support_the_qualcomm_adreno_704/
+
+---
+
+#### 8287. Some thoughts on declarative package management
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vep1g6/some_thoughts_on_declarative_package_management/
+
+---
+
+#### 8288. Bug: hdparm might erase wrong hard disk on 2 bay USB SATA device (USB JMicron)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vemp8a/bug_hdparm_might_erase_wrong_hard_disk_on_2_bay/
+
+---
+
+#### 8289. Addressing Wayland pain points – kgamma
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1ve9ses/addressing_wayland_pain_points_kgamma/
+
+---
+
+#### 8290. Linux in a Enterprise Environment.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vefucu/linux_in_a_enterprise_environment/
+
+---
+
+#### 8291. Connecting to an Azure Join Windows Machine Using Web Authentication From Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdzgqd/connecting_to_an_azure_join_windows_machine_using/
+
+---
+
+#### 8292. AerynOS Blog update and ISO release (August 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vdvl6f/aerynos_blog_update_and_iso_release_august_2026/
+
+---
+
+#### 8293. Quali sono i reali vantaggi del passaggio a NixOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1veqkxe/quali_sono_i_reali_vantaggi_del_passaggio_a_nixos/
+
+---
+
+#### 8294. curl is still the universal language of broken integrations
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1venjlt/curl_is_still_the_universal_language_of_broken/
+
+---
+
+#### 8295. WhatsApp (Web) TUI
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vena2u/whatsapp_web_tui/
+
+---
+
+#### 8296. AdminToolKit - TUI for system admins (Beta)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vei12f/admintoolkit_tui_for_system_admins_beta/
+
+---
+
+#### 8297. stock-tui – market heatmaps and charts inspired by StockTouch
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1veqket/stocktui_market_heatmaps_and_charts_inspired_by/
+
+---
+
+#### 8298. fmpc v1.6.0 new release
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vdko2z/fmpc_v160_new_release/
+
+---
+
+#### 8299. herdr vs cmux, after two months on each · coles.codes
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vd9ne9/herdr_vs_cmux_after_two_months_on_each_colescodes/
+
+---
+
+#### 8300. Modal control frameworks for terminals?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vdevr6/modal_control_frameworks_for_terminals/
+
+---
+
+#### 8301. I added opt-in Sentry crash reporting to my Kubernetes learning CLI - looking for feedback
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vcrx26/i_added_optin_sentry_crash_reporting_to_my/
+
+---
+
+#### 8302. Cosmo -TUI provides real-time visibility into PostgreSQL database
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vbibah/cosmo_tui_provides_realtime_visibility_into/
+
+---
+
+#### 8303. docksurf - complete developer-first docker tool
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vawa3b/docksurf_complete_developerfirst_docker_tool/
+
+---
+
+#### 8304. keepkit — track and update your CLI tools from one TUI. Reposting after a week of rework and full redesign
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vb6anr/keepkit_track_and_update_your_cli_tools_from_one/
+
+---
+
+#### 8305. skymap.sh: a CLI skymap that tracks stars and planets (and the ISS)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1varwvq/skymapsh_a_cli_skymap_that_tracks_stars_and/
+
+---
+
+#### 8306. Pilum: Deployment CLI for multi target orchestration
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vb8phm/pilum_deployment_cli_for_multi_target/
+
+---
+
+#### 8307. I made a better zsh autosuggestion, it predicts your next command, not just completes the current one
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v9rtzx/i_made_a_better_zsh_autosuggestion_it_predicts/
+
+---
+
+#### 8308. Shell commands suggestion tool that works like code editor's IntelliSense
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v8xift/shell_commands_suggestion_tool_that_works_like/
+
+---
+
+#### 8309. obsidian-tui - your Obsidian vault in the terminal, graph and integrated assistant
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v8xrxd/obsidiantui_your_obsidian_vault_in_the_terminal/
+
+---
+
+#### 8310. How to interact with LSP diagnostics outside of an editor?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v8z0fa/how_to_interact_with_lsp_diagnostics_outside_of/
+
+---
+
+#### 8311. Torrent client with a solid background?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v94s90/torrent_client_with_a_solid_background/
+
+---
+
+#### 8312. herdr: a tmux killer?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v9kxar/herdr_a_tmux_killer/
+
+---
+
+#### 8313. Take notes directly from the terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v911o7/take_notes_directly_from_the_terminal/
+
+---
+
+#### 8314. Yazi or Superfile?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v8cnc8/yazi_or_superfile/
+
+---
+
+#### 8315. Rust terminal UI library
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v7zfu9/rust_terminal_ui_library/
+
+---
+
+#### 8316. My MacBook drained to 0% while just sitting closed for a few days, turned out to be a macOS feature, so I made a TUI to catch it
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v7y80d/my_macbook_drained_to_0_while_just_sitting_closed/
+
+---
+
+#### 8317. terminal game - how to avoid input key repeat delay
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1v66x17/terminal_game_how_to_avoid_input_key_repeat_delay/
+
+---
+
+#### 8318. [V2EX] 用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell
+
+**问题描述 / Problem Description**:
+用了好几年 i3wm ，很多自定义配置早已习惯 。 最近好不容易鼓起勇气切换到了 Hyprland ，一开始感觉是比 i3wm 顺畅，但随着使用深入，发现各种小问题有点多，特别是钉钉，日常办公必须。 于是又尝试了 Sway 、Niri ，在用 Niri 的时候发现了 DankMaterialShell ，再也不需要调试状态栏、锁屏、启动器等等一堆工具了。 Niri + DankMaterialShell 更整体更现代，连钉钉的表现也好了很多（虽然还是有小问题）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231845#reply8
+
+---
+
+#### 8319. [V2EX] coding agent 的 5 个回合 vs 1 次 command_run：完整例子
+
+**问题描述 / Problem Description**:
+先说明：我是开源项目 Tura 的维护者。 给开发 coding agent 的人一个很简单的想法：不要讓模型在可预测的每一步都重新醒來。 一般工具呼叫會變成 5 個 LLM 回合： Turn 1 — 检查 rg -n "TODO|command_run|handler" crates/ rg --files crates/runtime/src crates/tools/src Turn 2 — 应用 patch - // old command handler logic + // patched command handler logic Turn 3 — 构建 cargo build
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231871#reply0
+
+---
+
+#### 8320. [V2EX] 想收集下大家是怎么使用 codex 这类工具开发(新/老)软件的
+
+**问题描述 / Problem Description**:
+开发分很多场景，比如 1.功能迭代修 bug 类，我觉得基本上直接问就 ok 了。 2.但是开发一个新系统，经常容易跑偏，我描述太多，限制他的想法，如果描述简单，给你的都是千篇一律的样式或半成品功能，后期调试跟改动的成本很大，token 消耗也大，甚至根本跟自己想要的相距甚远，你们是如何做到这个平衡的。 也就是说开发一个新系统，你们会按照什么模式告知他需求，把全部的需求文档，设计规范都给他还是？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231870#reply1
+
+---
+
+#### 8321. [V2EX] 用了半天 gpt5.6-luna-max，感觉效果也还可以
+
+**问题描述 / Problem Description**:
+模型 请求 Token 实际 gpt-5.6-luna 736 96.0M $3.2727 gpt-5.6-sol 578 61.9M $49.0419 优点 如上表，价格可以说忽略不计了，开个$20 的 plus 只用 luna 的话根本用不完 智商方面，至少这半天下来 0 返工，对比 ds pro 好很多(新的 flash 还没用不做对比) 缺点 token 用量差不多翻倍了，做个 plan 动不动就压缩 速度感觉有点慢？ 综合来讲价格差不多能做到 sol 的 10%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231835#reply10
+
+---
+
+#### 8322. [V2EX] 企业级账号池服务
+
+**问题描述 / Problem Description**:
+最近接触了不少研发团队，发现大家在内部接入大模型（尤其是外部商业 API 如 OpenAI 等）时，多多少少都会被下面这些底层问题折磨： 支付与风控地狱 海外信用卡难搞，财务没法报销，且动不动就触发风控封号。 共享账号的 2FA 烦恼 团队几个人共用账号，频繁跳二次验证，开发体验极差。 一本糊涂账 API Key 满天飞，根本不知道哪个项目、哪个人跑了多少 Token ，成本无法管控。 为了解决这些“脏活累活”，我们提供了一套完整的 团队级 AI 账号池与网关管理方案 。 简单来说就是：你们只需修改 Base URL 专心写代码，底层账号的风控、支付、验证、分发全交给我们。 核心能力 一站式账
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231831#reply0
+
+---
+
+#### 8323. [V2EX] [开源分享] 做了一个 AI 桌面系统，让应用生成即运行，探索高速 token 的应用
+
+**问题描述 / Problem Description**:
+之前看到 YouTube 上有人做了 VibeOS 的演示，感觉挺有意思，不过找了一圈没看到开源实现。 于是就自己动手做了一个，叫 OpenOS 。 目前做的是一个 macOS 风格的 AI 桌面系统，可以直接在桌面里生成和运行应用。输入一句话，就能生成一个可交互的应用，关闭后会自动保存，再打开不用重新生成。 整个桌面、窗口系统、Dock 、启动台、通知中心这些都是自己实现的，不是套现成的桌面框架。生成出来的应用运行在沙箱里，也支持接 OpenAI 、Claude 、Gemini 等不同模型。 除了把 VibeOS 的体验做出来之外，我还尝试了一些自己的想法，比如生成过程中应用就可以开始运行，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231822#reply0
+
+---
+
+#### 8324. [V2EX] 桌面端小工具(Wails/Tauri) 中 Svelte 的份额有 20% ~ 25% 甚至更高，这是真的吗
+
+**问题描述 / Problem Description**:
+如题，这个数据是 google 总结的。桌面小工具中使用 Svelte 很合适吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231817#reply0
+
+---
+
+#### 8325. [V2EX] 程序员尝试小红书博主一年总结
+
+**问题描述 / Problem Description**:
+你好，我是刘不思，四十岁的程序员。 1. 背景 2024 年 10 月份，我开始尝试投资相关的自媒体。刚开始自己摸索，2025 年 10 月份的时候满一周年在 V 站分享过一篇文章。 尝试自媒体一周年总结 2025 年 7 月份，在朋友建议下，我开始尝试 小红书 ，那时才感觉真正开始做自媒体。至今，已满一年，再写一篇总结下。 2. 收入 先说收入：10 万。 付费会员费：1 万，我把每天的投资笔记、行业学习笔记分享给会员，这占用我自媒体大部分时间，不过即使不分享我也会记录 深度咨询费：3 万，为资金量大的朋友（身边熟人）提供资产配置建议。这几位熟人是投资小白，我根据他们具体情况分析资产配置计划
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231811#reply15
+
+---
+
+#### 8326. [V2EX] claude 开 5x 或者 20x 没有外国公司怎么搞?
+
+**问题描述 / Problem Description**:
+现在几个 PRO 换着用, 切换实在太烦了.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231810#reply3
+
+---
+
+#### 8327. [V2EX] 大家有在开发 coding agent 吗？
+这会成为 AI 时代的程序员"三件套"吗？
+
+**问题描述 / Problem Description**:
+我刷到挺多帖子，都在开发 coding agent ，然后用它来自我迭代的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231790#reply20
+
+---
+
+#### 8328. [V2EX] Immich 有什么替代品吗？
+
+**问题描述 / Problem Description**:
+Immich 有点重，内存最低 6G ，而且不支持 podman ，有轻量一些的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231778#reply5
+
+---
+
+#### 8329. [V2EX] 阿里的 tokenplan 真是一言难尽
+
+**问题描述 / Problem Description**:
+今天看到 tokenplan 新上了 DeepSeek v4 flash 0731 ，（我也不知道之前为什么下掉 Flash ），想试试看是不是划算，找了半天没找到模型消耗的对比 我也就是想找到大概用哪个模型模型便宜，是 v4 flash 还是优惠中的 qwen-3.8max preview 发了工单问客服，客服又把文档发了一遍 您好，Token Plan 采用统一 Credit 抵扣机制，覆盖不同模型、不同工具。系统会根据模型档位、上下文长度、输入/输出 token 数、是否使用 Harness 工具（如联网搜索、代码解释等）综合计算 Credit 消耗，因此不同类型的调用消耗差异较大。具体
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231757#reply21
+
+---
+
+#### 8330. [V2EX] 腾讯这是不打算让小程序商家活了？支付手续费涨了几十倍，直接干到 10%-17%
+
+**问题描述 / Problem Description**:
+官网: https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/business-capabilities/virtual-payment/devplan.html 刚看到新规则的时候，我真以为自己看错了。 以前支付手续费是千分之三 现在变成： Android： 10% iOS： 17% 这叫涨价吗？ 这简直是明抢。 我们整个业务都做在腾讯小程序里。用户在里面，交易在里面，这么多年的投入也全在里面。 现在生态做大了，商家搬不走了，就开始往死里抽成。 说难听点，不就是先把大家圈进来，再关上门收租吗？ 10%、1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231752#reply48
+
+---
+
+#### 8331. [V2EX] 加入学习 FDE 技能
+
+**问题描述 / Problem Description**:
+现在 FDE 职位薪资这么高，边上班边学习下 FDE 的技能，从原来的码农慢慢转 FDE 岗，按 AI 这种速度，以后不需要到 35 就要被辞退的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231751#reply40
+
+---
+
+#### 8332. [V2EX] CC 居然给我提升额度了
+
+**问题描述 / Problem Description**:
+'您的限额已暂时提升。截至 8 月 19 日，您的每周 Claude Code 限额提高 50%（在新标签页中打开）；截至 8 月 5 日，您的 Cowork 限额提高 100%（在新标签页中打开）。优惠活动结束后，限额将恢复至您套餐的标准限额。' 这个是什么情况,有点受宠若惊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231749#reply19
+
+---
+
+#### 8333. [V2EX] 大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题
+
+**问题描述 / Problem Description**:
+第一阶段，codex cli + cmd 第二阶段，codex cli + powershell,用户级 AGENTS.md 明确 PowerShell7 环境 第三阶段，codex cli + wsl 第四阶段，codex app + PowerShell ，用户级 AGENTS.md 明确 PowerShell7 环境，但是.learning 目录下的 ERRORS.md 感觉每天都在打补丁一样，巨难受 第五阶段，codex app + wsl ，现在无法使用牛逼的 Chrome 插件进行浏览器自动化，而且感觉很卡，打字都卡 到底要怎样才能舒服点，苹果和 Ubuntu 就好很多。但有些软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231744#reply39
+
+---
+
+#### 8334. [V2EX] [车找人] gptpro20x 1=3 自己配的 240 一条 vircs 家宽
+
+**问题描述 / Problem Description**:
+4 人车 300 元 / 人 每周约 550 刀额度 3 人车 400 元 / 人 每周约 720 刀额度 2 人车 600 元 / 人 每周约 1100 刀额度 异常与退款说明 翻车和官方申诉 然后官方退款就退款 额度同步 官方如果重置或恢复额度，我后台也会同步处理，尽量保证大家能正常使用，不让额度浪费，也避免分配不清楚。 用车要求 本车只做长期稳定车，单次上车至少一个月起。 中途个人原因主动退出，不支持退款，这点上车前请确认好。 禁止破限制、逆向工程等违规行为。 后端已配置 GPT 审计模型，一旦触发风控，会直接没有质保。 需要的大哥 加我微信 Debug1102
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231717#reply0
+
+---
+
+#### 8335. [V2EX] domd mac 版本发布 0.4.0, 双击打开任意 markdown 后即可分享、协同。无需账号和登入
+
+**问题描述 / Problem Description**:
+Mac 下载: Apple Silicon · Intel 功能： 支持实时协同，可以查看协作者光标，可以查看协作者历史，高亮协作者文本 支持离线无冲突合并，协作者离线编辑后可以无冲突合并 协同不绑定 domd app ，支持在 obsidian 、vs code 中直接编辑同一份 markdown ，也能触发实时协同和离线合并 项目地址： https://github.com/do-md/domd web 版协同编辑： https://www.domd.app/editor 同时开发了一款 obsidian 插件，支持将任意一篇 Obsidian 笔记变成一份实时文档 obsidian 插件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231705#reply0
+
+---
+
+#### 8336. [V2EX] 我为什么放弃低价 AI API 中转，自己做了一套 OpenRouter Gateway
+
+**问题描述 / Problem Description**:
+最近被低价 API 中转站折腾得有点累，也顺手做了一个 OpenRouter 网关 事情起因很普通。 我平时会用 API 接 Cursor 、Grok Builder, Claude Code 、Codex 等工具。之前找过一些价格看起来很便宜的中转服务，刚开始没觉得有什么问题，但用一段时间后，偶尔会发生一种很奇怪的情况： 明明客户端选的还是同一个模型，模型表现却突然断崖式下降。 具体表现包括： 前面刚交代过的上下文，几轮之后就忘了； 重构代码时漏文件、改错调用关系； 工具调用格式突然变得不稳定； 长对话越到后面，回答越像只看到了最后几条消息； 同一个模型昨天还能处理的任务，今天突然开始反复犯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231697#reply1
+
+---
+
+#### 8337. [V2EX] deepseek harness 内测了...
+
+**问题描述 / Problem Description**:
+只要有 harness agent 相关的开源项目就可以申请内测... https://x.com/menfrexu/status/2083551897479414257
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231676#reply5
+
+---
+
+#### 8338. [V2EX] opencode 貌似被 v4flash 这一波挤崩了
+
+**问题描述 / Problem Description**:
+我这额度还充足的很，突然提示额度不足了，还有救不。 The model provider failed after retries. I kept raw provider details out of chat; check gateway logs for diagnostics. Billing or credits exhausted: HTTP 402: Upstream request failed: [invalid_request_error] Insufficient Balance Opencode Go reported that billing, credits, or
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231675#reply18
+
+---
+
+#### 8339. Failed at step EXEC spawning... Permission denied
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, fedora, systemd, exec | Score: 26 | Views: 158346 | Answers: 2 | Created: 2019-03-06
+
+**解决方案 / Solution**:
+SELinux prevents you from running a system service where the binary is in a user's home directory, or in your case, the root user's home directory. To fix the problem, copy the binary to a proper directory such as /usr/local/bin and call it from there.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/957084/failed-at-step-exec-spawning-permission-denied
+
+---
+
+#### 8340. SELinux blocking execution in systemd unit
+
+**问题描述 / Problem Description**:
+Tags: fedora, systemd, selinux | Score: 9 | Views: 37586 | Answers: 2 | Created: 2020-03-10
+
+**解决方案 / Solution**:
+It turns out SELinux has an idea that binaries can only be executed from certain locations and my custom directory was not explicitly marked as allowed. It inherited the type var_t from /srv/.* (I think). To get an extensive list of current rules for all directories you can run semanage fcontext --list . I added an exception using the following Ansible tasks: - name: set SELinux permissions on ts3server binaries sefcontext: target: "/srv/teamspeak/versions/[^/]+/ts3server" setype: bin_t - name: reload SELinux policy to ensure that ts3server is executable command: restorecon -irv /srv/teamspeak/ when: tarball.changed The same can be achieved by using the semanage fcontext command followed by restorecon -irv /srv/teamspeak/ .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1006417/selinux-blocking-execution-in-systemd-unit
+
+---
+
+#### 8341. "system clock synchronized: no", flip it to yes
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, fedora, rhel8, chrony | Score: 8 | Views: 32701 | Answers: 1 | Created: 2020-10-06
+
+**解决方案 / Solution**:
+chronyc sources indicates that it does not have connectivity to any of the available NTP servers. This is what the ? in the S column means, from the man page: This column indicates the state of the source. ? indicates sources to which connectivity has been lost or whose packets do not pass all tests. It is also shown at start-up, until at least 3 samples have been gathered from it. Check your Internet connectivity, host firewall, external firewalls, etc.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1036676/system-clock-synchronized-no-flip-it-to-yes
+
+---
+
+#### 8342. Traceroute vs tracert
+
+**问题描述 / Problem Description**:
+Tags: windows, fedora, traceroute | Score: 7 | Views: 5148 | Answers: 2 | Created: 2019-10-19
+
+**解决方案 / Solution**:
+Windows' tracert is using ICMP while incrementing TTL to do probes: How to Use the TRACERT Utility The TRACERT diagnostic utility determines the route to a destination by sending Internet Control Message Protocol (ICMP) echo packets to the destination. Fedora 's traceroute , by default, sends UDP probes, as have been previous Unix traceroute implementations doing. The hint UDP is default (beside having double-checked by doing a capture before writing this answer) is from man which talks first about UDP: We don't want the destination host to process the UDP probe packets, so the destination port is set to an unlikely value (you can change it with the -p flag). There is no such a problem for ICMP or TCP tracerouting (for TCP we use half-open technique, which prevents our probes to be seen by applications on the destination host). Both tools expect to receive ICMP TIME EXCEEDED as response to build the route. Along this path, various routers may choose to answer differently (ie: not at all) depending on the probe method used. If you know that ICMP probes work better for your test, you can do the same on Fedora with: traceroute --icmp destination As ICMP, contrary to UDP, usually requires crafting special packets, the command might require root privileges to run with this option.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/988650/traceroute-vs-tracert
+
+---
+
+#### 8343. Creating a bridged WiFi AP (hotspot) in Centos 8 (or Fedora)
+
+**问题描述 / Problem Description**:
+Tags: wifi, fedora, bridge, access-point, centos8 | Score: 6 | Views: 9079 | Answers: 5 | Created: 2019-12-20
+
+**解决方案 / Solution**:
+NetworkManager / nmcli CAN create access points that are part of a bridge. WPA supplicant seemed to have a problem figuring out the type of interface after bridging, however that was resolved by adding the bridge interface to the command line arguments of wpa_suppliant in /etc/sysconfig/wpa_supplicant (CentOS 8.2) INTERFACES="-i wlp2s0 -b br0" Bridging ethernet to wifi interface using nmcli https://unix.stackexchange.com/questions/620169/disable-wifi-security-in-network-manger
+
+**参考链接 / References**:
+- https://serverfault.com/questions/996350/creating-a-bridged-wifi-ap-hotspot-in-centos-8-or-fedora
+
+---
+
+#### 8344. How do you restart the network service on Fedora 30?
+
+**问题描述 / Problem Description**:
+Tags: linux-networking, fedora | Score: 6 | Views: 66349 | Answers: 5 | Created: 2019-09-08
+
+**解决方案 / Solution**:
+Instead of systemctl , use NetworkManager, either via the GUI interface or the nmcli command-line. Command Line List the network interfaces on the system (as root): # nmcli device DEVICE TYPE STATE CONNECTION eno1 ethernet connected Wired connection 1 lo loopback unmanaged -- Note the device name that you want to restart. Then force the connection to reload: # nmcli con reload eno1 (Substitute your device name for "eno1") GUI Open the 'Settings' application in Fedora. In the left column, scroll down to 'Network' Toggle the blue switch off and back on again for the connection to want to restart.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/982376/how-do-you-restart-the-network-service-on-fedora-30
+
+---
+
+#### 8345. nginx as reverse proxy with several domains & hosts
+
+**问题描述 / Problem Description**:
+Tags: nginx, ssl, reverse-proxy, fedora, lets-encrypt | Score: 6 | Views: 27325 | Answers: 2 | Created: 2018-11-02
+
+**解决方案 / Solution**:
+In order to have NGINX resolve multiple domain names to independent proxies, you will need to setup a server block for each domain that you are using (and yes, you need that include provided by LE): server { listen 443 ssl; server_name application.domain.com; ssl on; ssl_certificate /etc/letsencrypt/live/www.domain.com/fullchain.pem; ssl_certificate_key /etc/letsencrypt/live/www.domain.com/privkey.pem; include /etc/letsencrypt/options-ssl-nginx.conf; location / { proxy_pass https://hostname1.domain.local:80/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection 'upgrade'; proxy_set_header Host $host; proxy_cache_bypass $http_upgrade; } } server { listen 443 ssl; server_name test.domain.com; ssl on; ssl_certificate /etc/letsencrypt/live/www.domain.com/fullchain.pem; ssl_certificate_key /etc/letsencrypt/live/www.domain.com/privkey.pem; include /etc/letsencrypt/options-ssl-nginx.conf; location / { proxy_pass https://hostname3.domain.local:80/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection 'upgrade'; proxy_set_header Host $host; proxy_cache_bypass $http_upgrade; } } server { listen 443 ssl; server_name www.domain.com; ssl on; ssl_certificate /etc/letsencrypt/live/www.domain.com/fullchain.pem; ssl_certificate_key /etc/letsencrypt/live/www.domain.com/privkey.pem; include /etc/letsencrypt/options-ssl-nginx.conf; location / { proxy_pass https://hostname2.domain.local:1234/; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection 'upgrade'; proxy_set_header Host $host; proxy_cache_bypass $http_upgrade; } }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/938419/nginx-as-reverse-proxy-with-several-domains-hosts
+
+---
+
+#### 8346. Change default certificate signing algorithm in ssh-keygen
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ssh, fedora, arch-linux | Score: 6 | Views: 4067 | Answers: 1 | Created: 2018-09-13
+
+**解决方案 / Solution**:
+The linked article documents the following approach: ssh-keygen -s cert.key -I "signedcert" -n testuser -t rsa-sha2-256 test.pub The key being the -t rsa-sha2-256 parameter.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/930753/change-default-certificate-signing-algorithm-in-ssh-keygen
+
+---
+
+#### 8347. Why doesn't libvirt cooperate with iptables on fedora 32
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, fedora, libvirt | Score: 5 | Views: 1657 | Answers: 2 | Created: 2020-09-25
+
+**解决方案 / Solution**:
+Fedora 32 is the first Fedora release to switch to nftables. Libvirtd currently creates a mix of firewall rules by writing (legacy) iptables rules directly and asking firewalld to create the rules it needs. You (currently) must be using firewalld for libvirtd to work correctly on this distro.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1035262/why-doesnt-libvirt-cooperate-with-iptables-on-fedora-32
+
+---
+
+#### 8348. Issue with LSI SAS2116 - no drives being detected on Fedora 32 kernel 5.8.*
+
+**问题描述 / Problem Description**:
+Tags: storage, fedora, sas, hba | Score: 5 | Views: 969 | Answers: 1 | Created: 2020-09-09
+
+**解决方案 / Solution**:
+The issue is related to how the driver for the newer Broadcom/LSI Tri-Mode cards allocate large amounts of DMA memory for the very high 32455 default queue depth in the latest driver. This is problematic for these older cards as they use the same driver, but do not perform the logic to release all DMA queues then re-request on 32-bit boundary if the original DMA request is not fully allocated. To work around the issue you can set the kernel argument to lower the queue depth to 10000: grubby --update-kernel=ALL --args="mpt3sas.max_queue_depth=10000" You can find more details here: https://bugzilla.kernel.org/show_bug.cgi?id=209177
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1033269/issue-with-lsi-sas2116-no-drives-being-detected-on-fedora-32-kernel-5-8
+
+---
+
+#### 8349. How do I enable IPv6 on Fedora 28 on Amazon EC2
+
+**问题描述 / Problem Description**:
+Tags: amazon-ec2, ipv6, fedora, cloud-init, dhcpv6 | Score: 5 | Views: 1235 | Answers: 1 | Created: 2018-08-31
+
+**解决方案 / Solution**:
+This happens because the current cloud-init version (I tested with 17.1) does not regenerate network settings on every boot. Network settings are only generated on the first instance boot. You can observe this by logging at cloud-init's log files: $ grep 'network config' /var/log/cloud-init.log 2018-09-18 22:13:26,089 - stages.py[INFO]: Applying network configuration from ds bringup=False: {'version': 1, 'config': [{'type': 'physical', 'name': 'eth0', 'subnets': [{'type': 'dhcp4'}], 'mac_address': '12:64:78:dd:c8:62'}]} 2018-09-18 22:13:29,211 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 10:08:08,367 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 10:08:11,458 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:01:12,917 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:01:16,011 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:10:38,782 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:10:41,871 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:12:10,407 - stages.py[DEBUG]: not a new instance. network config is not applied. 2018-09-26 11:12:13,475 - stages.py[DEBUG]: not a new instance. network config is not applied. As you can see, network configuration was only applied on the first boot (at that time, the instance didn't have IPV6 yet). There is an issue asking to make this behaviour configurable: https://bugs.launchpad.net/cloud-init/+bug/1765801 Here are the steps I took to enable IPV6 on an existing instance on Amazon EC2 for Fedora 28 (Cloud Edition): Add NETWORKING_IPV6=yes to /etc/sysconfig/network Add DHCPV6C=yes to /etc/sysconfig/network-scripts/ifcfg-eth0 Run sudo systemctl restart network After those steps, IPV6 is enabled and it also persists between reboots. However, if for some reason the instance is re-created and cloud-init considers that to be first boot again then changes will be lost. However, cloud-init already generates an IPV6 net config out of the box so you should still be fine.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/928924/how-do-i-enable-ipv6-on-fedora-28-on-amazon-ec2
+
+---
+
+#### 8350. NetworkManager - do not allow user to disable network or connection
+
+**问题描述 / Problem Description**:
+Tags: centos7, fedora, rhel7, networkmanager | Score: 5 | Views: 3280 | Answers: 2 | Created: 2018-02-08
+
+**解决方案 / Solution**:
+In my case, I had a particular Network Connection that I didn't want the user disabling, so I prevented NetworkManager from managing that particular network. In NetworkManager.conf ( /etc/NetworkManager/NetworkManager.conf on my system): [main] plugins=keyfile # At least keyfile, could have others comma-separated [keyfile] unmanaged-devices=mac:66:77:88:99:00:aa;interface-name:eth* The unmanaged-devices key uses both mac or interface-name ; you only need one to indicate that you don't want NetworkManager to manager that connection. Note that the mac key requires lower case letters and that the interface-name key can contain wildcards.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/896292/networkmanager-do-not-allow-user-to-disable-network-or-connection
+
+---
+
+#### 8351. Create selinux context for systemd script?
+
+**问题描述 / Problem Description**:
+Tags: redhat, systemd, fedora, selinux, rhel8 | Score: 4 | Views: 6451 | Answers: 1 | Created: 2021-02-04
+
+**解决方案 / Solution**:
+Move your script out of the user's home directory. SELinux rightly complains about trying to execute system services located in users' home directories. Use a more standard location, such as /usr/local/bin : install -m755 /root/scripts/mybackupscript.sh /usr/local/bin And of course edit the unit file to match. ExecStart=/usr/local/bin/mybackupscript.sh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1052453/create-selinux-context-for-systemd-script
+
+---
+
+#### 8352. No space left on device - Fedora 23
+
+**问题描述 / Problem Description**:
+Tags: fedora | Score: 4 | Views: 2786 | Answers: 2 | Created: 2020-09-21
+
+**解决方案 / Solution**:
+If I'm not mistaken the pytorch module is 750 MB large, the tmp partition has only 500 MB of free space. That seems to be the issue. You can temporary point the tmp directory to a different path and the installation should work: mkdir /tmp2 export TMPDIR=/tmp2 python3.8 -m pip install --no-clean --no-cache-dir torch torchvision
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1034728/no-space-left-on-device-fedora-23
+
+---
+
+#### 8353. -bash: ansible-playbook: command not found
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, ansible, fedora, ansible-playbook | Score: 4 | Views: 51293 | Answers: 1 | Created: 2020-03-21
+
+**解决方案 / Solution**:
+I think it's path environment variable issue, that means that the user profile is not loaded when doing ssh , check your PATH when doing ssh and without ( locally ) and compare bothe echo $PATH If so then check your ssh configuration file and enable PermitUserEnvironment .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1007835/bash-ansible-playbook-command-not-found
+
+---
+
+#### 8354. Nginx says 404 not found, no error log
+
+**问题描述 / Problem Description**:
+Tags: nginx, php, php-fpm, fedora | Score: 4 | Views: 15798 | Answers: 2 | Created: 2018-11-17
+
+**解决方案 / Solution**:
+nginx uses error as the default log level for error_log . This logging level does not output anything to the error log in case of 404 responses, since those are trivial errors in the scope of web server operation. You can try changing the log level by using either warn , notice , info or debug in your error_log directive, for example: error_log /var/log/nginx/error.log notice; warn outputs a bit more information than error , notice a bit more than warn . debug produces most detailed output. With your configuration, you need to have the following file for the GET / request to work: /home/temp/_h5ai/public/index.php
+
+**参考链接 / References**:
+- https://serverfault.com/questions/940538/nginx-says-404-not-found-no-error-log
+
+---
+
+#### 8355. Fedora 34 - Unable to resolve any name inside docker containers
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, docker, fedora | Score: 3 | Views: 7240 | Answers: 3 | Created: 2021-10-26
+
+**解决方案 / Solution**:
+But you are getting an answer, the 2 lines after Non-authoritative answer: are the result (142.251.36.238 is a valid IP address for Google). What you are not getting is an IPv6 answer by the look of things. You can just run: docker run busybox nslookup -type=A google.com And it should just return the IP address with out the error. I suspect that the default behaviour of nslookup in busybox might have changed to return both IPv4 and IPv6 Addresses which is why this looks to have changed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081791/fedora-34-unable-to-resolve-any-name-inside-docker-containers
+
+---
+
+#### 8356. cifs automounts suddenly stopped working
+
+**问题描述 / Problem Description**:
+Tags: active-directory, kerberos, fedora, cifs | Score: 3 | Views: 1730 | Answers: 1 | Created: 2020-07-18
+
+**解决方案 / Solution**:
+I have encountered similar behavior, and believe it is a regression in recent kernels. I have submitted a bug report, but in the meantime I find downgrading to 5.7.7 (or 5.4.50 for -lts kernels) avoids the issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1025734/cifs-automounts-suddenly-stopped-working
+
+---
+
+#### 8357. How to install RPM Fusion repository with Ansible on Fedora 32 Server virtual machine?
+
+**问题描述 / Problem Description**:
+Tags: ansible, fedora, rpm, repository, ansible-playbook | Score: 3 | Views: 3237 | Answers: 1 | Created: 2020-06-16
+
+**解决方案 / Solution**:
+Don't use command to install packages. This has no hope of idempotence and will fail in various and subtle ways. The reason these are skipped is that the os_family fact is never Fedora . It is set to RedHat on Fedora systems. You should be checking for the distribution name directly: when: ansible_distribution == 'Fedora' and ansible_distribution_major_version|int == 32 You've got further problems, though, and your dnf play will also fail, because you tried to use a shell substitution and Ansible won't do anything with that. Your play should look more like this: - name: Enable the RPM Fusion repository dnf: name: "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ansible_distribution_major_version}}.noarch.rpm" state: present when: ansible_distribution == 'Fedora' We're actually providing the version number via substitution, so it will have "32" instead of a random shell command. And of course in this case there is no need to check the distribution version in when: because the relevant version is already provided in the package name.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1021744/how-to-install-rpm-fusion-repository-with-ansible-on-fedora-32-server-virtual-ma
+
+---
+
+#### 8358. How to change Fedora hostname while being AD-member
+
+**问题描述 / Problem Description**:
+Tags: active-directory, fedora, sssd | Score: 3 | Views: 320 | Answers: 1 | Created: 2020-02-21
+
+**解决方案 / Solution**:
+Leave the Active Directory Domain, rename your Fedora and then join back. This way you will make sure the new domain entry will be correct and intact.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1004053/how-to-change-fedora-hostname-while-being-ad-member
+
+---
+
+#### 8359. ps command output does not display wchan values in fedora
+
+**问题描述 / Problem Description**:
+Tags: fedora, ps, kali-linux | Score: 3 | Views: 803 | Answers: 1 | Created: 2019-12-04
+
+**解决方案 / Solution**:
+This is a Fedora bug which affects at least Fedora 31 and 32 (#1879450) . Note that the ps man page you are quoting from is outdated - current ps versions directly read the symbolic wchan information from /proc/$pid/wchan . Looking at the stack walking procedure it seems that it simply doesn't work without frame pointers. CONFIG_SCHED_OMIT_FRAME_POINTER isn't the only relevant parameter here, also relevant (on Fedora) seems to be: ONFIG_UNWINDER_ORC=y # CONFIG_UNWINDER_FRAME_POINTER is not set See also this 2013 Debian bug report about wchan breakage. /proc/$pid/stack can be used as a substitute for missing wchan information. See also my answer to a similar question.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/994283/ps-command-output-does-not-display-wchan-values-in-fedora
+
+---
+
+#### 8360. Can I unsilence kickstart step Performing post-installation setup tasks?
+
+**问题描述 / Problem Description**:
+Tags: centos, fedora, kickstart, anaconda | Score: 3 | Views: 3132 | Answers: 3 | Created: 2018-12-03
+
+**解决方案 / Solution**:
+I have used a method similar to what is shown below. Logging %pre and %post When using a %pre or %post script you can simply log the output to a file by using --log=/path/to/file %post --log=/root/my-post-log echo 'Hello, World!' enter code here Another way of logging and displaying the results on the screen would be the following: %post exec < /dev/tty3 > /dev/tty3 chvt 3 echo echo "################################" echo "# Running Post Configuration #" echo "################################" ( echo 'Hello, World!' ) 2>&1 | /usr/bin/tee /var/log/post_install.log chvt 1 From: https://wiki.centos.org/TipsAndTricks/KickStart
+
+**参考链接 / References**:
+- https://serverfault.com/questions/942704/can-i-unsilence-kickstart-step-performing-post-installation-setup-tasks
+
+---
+
+#### 8361. How to keep a specific version of an old kernel while still allowing updates?
+
+**问题描述 / Problem Description**:
+Tags: fedora, kernel, update, dnf | Score: 3 | Views: 7389 | Answers: 2 | Created: 2018-09-24
+
+**解决方案 / Solution**:
+I think dnf mark is the command you are looking for. It marks the package as "user installed" protecting it from autoremoval. dnf mark install kernel-4.14.18-300.fc27.x86_64 https://dnf.readthedocs.io/en/latest/command_ref.html#mark-command-label There is also a dnf protect.d directory where you can store packages that shouldn't be removed. /etc/dnf/protected.d . However I have seen some people report this doesn't work with specific versions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/932351/how-to-keep-a-specific-version-of-an-old-kernel-while-still-allowing-updates
+
+---
+
+#### 8362. Ping host with dual IPs on 1 IP, echo returns from other IP
+
+**问题描述 / Problem Description**:
+Tags: router, fedora, route, gateway, nftables | Score: 2 | Views: 500 | Answers: 1 | Created: 2021-03-02
+
+**解决方案 / Solution**:
+This answer will use policy routing where the fate of a packet is not determined only by its destination but also (and first) by other factors (here source IP address and/or incoming interface). Policy routing is not available with the Linux-obsolete route command but only with the newer API using ip rule and ip route (along ip link and ip address ). The goal is to split a single view of all routes into multiple routing tables where each of them will offer a specific view of the routes intended to be used as if other not interesting parts didn't exist. Among other things, this allows to define multiple default routes to be used at the same time: one per routing table. By default only this exists, (where the last rule's default table is empty): # ip rule show 0: from all lookup local 32766: from all lookup main 32767: from all lookup default Here OP's case can be expressed with this kind of policy routing when handling a packet: packet from coglink or from coggw interfaces use routes for Cogeco dedicated routing table packet from ppp0 or from tekgw interfaces use routes for Teksavvy dedicated routing table While one could just add rules to handle ppp0 and leave the main routing table handle coglink I'll still add rules for both, for the sake of symmetry. Completing some blank spots and choosing arbitrary values (to provide commands without syntax error): coglink 's local address is arbitrarily chosen as 67.193.56.92/21 coglink 's gateway is arbitrarily chosen as 67.193.56.1 instead of 67.193.x.x the routing table for Cogeco has the arbitrarily chosen value 7992 ppp0 's local address is arbitrarily chosen as 206.248.155.133 assuming ppp0 is a layer 3 interface (even if over Ethernet, it's still Point-to-Point), so no gateway is needed for proper routing (else add in appropriate places via 206.248.155.132 ). the routing table for Teksavvy has the arbitrarily chosen value 5645 Each routing table will include only the WAN to use rather than both, but must also include routes to networks that will make use of it. The duplication of these LAN routes is mandatory if SRPF is enabled , else these LAN routes can usually be omitted (as long as they are in the main routing table). ip route add 67.193.56.0/21 dev coglink table 7992 ip route add default via 67.193.56.1 dev coglink table 7992 ip route add 192.168.1.0/24 dev coggw table 7992 ip rule add iif coglink lookup 7992 ip rule add iif coggw lookup 7992 ip route add default dev ppp0 table 5645 ip route add 10.0.0.0/8 dev tekgw table 5645 ip rule add iif ppp0 lookup 5645 ip rule add iif tekgw lookup 5645 This won't affect the traffic with the router as end node itself, which will continue to use only the main table (and it's default route with lower metric: coglink 's) because: (always the case) incoming traffic to the router's own IP addresses is handled in the local routing table looked up first by the policy rule with preference 0. No further tables are looked up. outgoing traffic won't be selected by any of the added policy rules So some corner cases will fail for the Fedora router only (when not actually routing), for example choosing ppp0 's IP address as source with a destination on Internet will still select the route through coglink and won't work correctly. This is what happens when the router answers a ping on its ppp0 IP address. So to address the title of the question, to have the router itself select the correct route when binding with the IP address on an interface and routing through the other interface, additional rules can be added selecting routing table from source address: ip rule add from 67.193.56.92 lookup 7992 ip rule add from 206.248.155.133 lookup 5645 Even only knowing a possible range of addresses (eg: retrieved using the whois command) is good enough by using an additional selector iif lo with the special meaning from local system (rather than from lo interface). The two previous rules can be replaced with: ip rule add from 67.193.48.0/20 iif lo lookup 7992 ip rule add from 206.248.128.0/18 iif lo lookup 5645 For other cases (when the socket is not bound initially), the main routing table's default route with lowest metric will choose the interface (currently coglink ) and by default its IP address as source. Notes and caveat: the NAT rules provided by iptables or nftables are still needed With iptables this could look like this now that the outgoing interface is always chosen correctly: iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o coglink -j MASQUERADE iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o ppp0 -j MASQUERADE or with nftables and kernel >= 5.5 ingress interface can be used in postrouting : mynat.nft (to be used with nft -f mynat.nft ): table ip mynat delete table ip mynat table ip mynat { chain mypost { type nat hook postrouting priority srcnat; policy accept; iif "coggw" oif "coglink" masquerade iif "tekgw" oifname "ppp0" masquerade } } Of course choosing simpler NAT rules would work. should interfaces disappear and reappear, or simply go down and up, many settings previously done will have to be reapplied accordingly: routes will disappear and must be reapplied, and routing rules referencing interfaces might perhaps become stale in some cases. So some integration with the tool(s) handling network at boot and later must be done to keep these routing tables and routing rules working. If the tools have limitations, some policy routing rules could be changed to accomodate. For example with the current topology, iif tekgw is (almost but not exactly) equivalent to from 10.0.0.0/8 . even if coglink 's address and default route's gateway change, these two pieces of information are still available... on coglink interface and on routes (and maybe also in the DHCP client's lease file if DHCP was used). It's just a case of reusing existing data for integration. Here's an example using JSON output and jq : address: ip -json -4 address show dev coglink primary | jq -r '.[].addr_info[] | "\(.local)/\(.prefixlen)"' gateway: ip -json -4 route show default dev coglink | jq -r '.[].gateway' They could even be directly provided by hooks in the tools handling system networking, like NetworkManager .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1055614/ping-host-with-dual-ips-on-1-ip-echo-returns-from-other-ip
+
+---
+
+#### 8363. Allow Samba and Podman to rw on same dir
+
+**问题描述 / Problem Description**:
+Tags: fedora, selinux | Score: 2 | Views: 1307 | Answers: 2 | Created: 2020-08-22
+
+**解决方案 / Solution**:
+Since new to SELinux there are more tools available to help you figure it out, which I just found this last week. A starting point is here . Mainly the audit.log with audit2why and audit2allow. I setenforce to 0, cp /dev/null over audit.log, run failing commands (which succeed in Permissive mode but are still logged in the audit log), then save the log and analyze as in the link above. I used this process over the last few days to create a custom policy for a flask/apache api running python subprocesses. So not a specific answer, but the process should get you to a solution as it did me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1031072/allow-samba-and-podman-to-rw-on-same-dir
+
+---
+
+#### 8364. SELinux with docker and traefik
+
+**问题描述 / Problem Description**:
+Tags: docker, fedora, selinux | Score: 2 | Views: 3099 | Answers: 1 | Created: 2020-03-04
+
+**解决方案 / Solution**:
+Edit and Disclaimer : this solution is not the recommended one since it breaks security rules on docker, The solutions are here: https://stackoverflow.com/questions/29089023/var-run-docker-sock-unaccessible-in-container-running-on-centos-7/30368817#30368817 Thanks to the bug report of redhat given by @Bert I could get a solution: Why SELinux prevent access to /run/docker.sock in redhat configuration (fedora, centos) Bug 1495053 - SELinux is preventing traefik from 'connectto' This bug report is classed as "not a bug" for the folowing reason: You are trying to connect a confined domain to the docker socket. There is no sense in doing this, since the ability to talk to the docker socket allows you full control over the host. Either this is a very serious breakout of your container, or you should be running a privileged container. SELinux is doing exactly what it should do in blocking access to the docker socket. So i shouldn't change access to docker.sock as it would be the same as disabling selinux. Instead, I could run in a "privileged" container. Solution I just changed the docker-compose.yml file to run in provilieged mode (the same mode can be obtained in other docker launchers). Here is the working docker-compose.yml file version: "3.7" services: traefik: image: traefik:v2.1.6 command: --providers.docker ports: - "80:80" - "8080:8080" privileged: true volumes: - /var/run/docker.sock:/var/run/docker.sock:rw - ./traefik.yml:/etc/traefik/traefik.yml - ./dynamic.yml:/etc/traefik/dynamic/traefik.yml web1: image: nginx:alpine labels: - traefik.http.routers.web1.rule=Host(`web1.localhost`) || PathPrefix(`/web1`) web2: image: containous/whoami labels: - traefik.http.routers.web2.rule=Host(`web2.localhost`) || ( Host(`localhost`) && PathPrefix(`/web2`) ) - traefik.http.routers.web2.middlewares=demo-whitelist@file The important line is privileged: true in the traefik container. With privileged: true and selinux enabled, it works, if i change back to privileged: false , I get back the error log, what is expected.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1005574/selinux-with-docker-and-traefik
+
+---
+
+#### 8365. Possible to create libvirt network as non-root?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, fedora, libvirt, vagrant | Score: 2 | Views: 3279 | Answers: 1 | Created: 2019-10-22
+
+**解决方案 / Solution**:
+No, the libvirt virtual network feature doesn't work for non-root at this time. It requires ability to run various operations that need root level privileges. In the future, we hope to allow the non-privileged libvirtd to talk to the privileged libvirtd in order to connect guests to the network, but there's no ETA on that feature.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/988960/possible-to-create-libvirt-network-as-non-root
+
+---
+
+#### 8366. sys-unconfig equivalent for Fedora 30
+
+**问题描述 / Problem Description**:
+Tags: kvm-virtualization, fedora, proxmox, template | Score: 2 | Views: 640 | Answers: 1 | Created: 2019-07-10
+
+**解决方案 / Solution**:
+I found out that sys-unconfig is just a script in the following way: I started CentOS 7 docker container on my computer docker run -it centos:latest then: yum whatprovides sys-unconfig then I found the package: initscripts-9.49.46-1.el7.x86_64 : The inittab file and the /etc/init.d scripts Repo : base Matched from: Filename : /usr/sbin/sys-unconfig installed it: yum install initscripts -y then I found the script contents: cat /usr/sbin/sys-unconfig #!/bin/sh . /etc/init.d/functions if [ $# -ne 0 ]; then echo $"Usage: sys-unconfig" >&2 exit 1 fi touch /.unconfigured rm -f /etc/udev/rules.d/*-persistent-*.rules poweroff
+
+**参考链接 / References**:
+- https://serverfault.com/questions/974740/sys-unconfig-equivalent-for-fedora-30
+
+---
+
+#### 8367. Kickstart, universal install script and default passwords
+
+**问题描述 / Problem Description**:
+Tags: installation, fedora, kickstart | Score: 2 | Views: 1758 | Answers: 2 | Created: 2018-12-23
+
+**解决方案 / Solution**:
+If you do not provide an answer for something that is required, Anaconda will prompt the user for it. I've verified this commenting out my user and rootpw lines in the Kickstart file. Upon installation everything else is pre-populated, but I am asked to create a root password and user. (user is optional) In text mode, the installation will wait for user input before continuing. In graphical mode the installation will proceed while it allows for you to supply a password during package installation. Lastly, cmdline mode does not support user interaction and will halt. Ex: The previous Anaconda screens were skipped and installation went directly to package installation. At the end of installation, Anaconda waits for a root password to be selected and optionally, a user created.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/946426/kickstart-universal-install-script-and-default-passwords
+
+---
+
+#### 8368. PostGIS on Fedora27
+
+**问题描述 / Problem Description**:
+Tags: postgresql, fedora, postgis | Score: 2 | Views: 783 | Answers: 2 | Created: 2018-04-07
+
+**解决方案 / Solution**:
+dnf install postgis (and possibly postgis-utils ) should do it. If it's not, something else is going on. Are you able to install other software? What repo was it unable to find, and what exact error are you getting?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/906503/postgis-on-fedora27
+
+---
+
+#### 8369. Kubernetes minikube fails to start with error: Invalid user docker from 127.0.0.1
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, kubernetes | Score: 2 | Views: 3710 | Answers: 1 | Created: 2018-02-14
+
+**解决方案 / Solution**:
+rm -rf ~/.minikube and try again. I have given up on kvm2 on fedora 27 and gone back to VirtualBox for vm-driver. Regarding your other questions- qemu is a virtual machine application. This is what runs the kubernetes bits for minikube, and what backs the kvm2 vm-driver. there does not need to be a docker user on your machine. The docker user exists on the qemu machine. minikube ssh is short for ssh -i ~/.minikube/machines/minikube/id_rsa docker@ This failure essentially means that the ssh key inside the qemu vm differs from what should be the same key on your machine for this vm. In other words, things are hosed, you should start over.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/897220/kubernetes-minikube-fails-to-start-with-error-invalid-user-docker-from-127-0-0
+
+---
+
+#### 8370. in firewalld port 80 is closed but nmap shows the port is open, and I can connect to it
+
+**问题描述 / Problem Description**:
+Tags: iptables, kvm-virtualization, fedora, firewalld | Score: 2 | Views: 2744 | Answers: 1 | Created: 2017-11-26
+
+**解决方案 / Solution**:
+Interestingly firewalld did not allow port forwarding to virtual machine, even though the firwalld command was right. I found that iptables rule blocks the port forwarding before firewalld. so I added directly port forwarding rule to the first row of iptables rules.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/885170/in-firewalld-port-80-is-closed-but-nmap-shows-the-port-is-open-and-i-can-connec
+
+---
+
+#### 8371. How to block a internal host from the internet with firewalld by MAC address
+
+**问题描述 / Problem Description**:
+Tags: fedora, firewalld, masquerade | Score: 1 | Views: 854 | Answers: 1 | Created: 2021-10-21
+
+**解决方案 / Solution**:
+You are adding the MAC rule on external zone, which is enp2s0 . The ethernet frames sent out via that interface have MAC address of enp2s0 as their source MAC address. If you want to match devices in the internal network, you need to add MAC matching rules in the internal zone, which is using interface eno1 , and sees the client MAC addresses as the source MAC address when it receives frames from clients. This means that you need to add destination IP address matching in the rule too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1081206/how-to-block-a-internal-host-from-the-internet-with-firewalld-by-mac-address
+
+---
+
+#### 8372. Postfix not sending emails to external domains from mailing client
+
+**问题描述 / Problem Description**:
+Tags: linux, postfix, email-server, dovecot, fedora | Score: 1 | Views: 1131 | Answers: 1 | Created: 2021-05-26
+
+**解决方案 / Solution**:
+First, comment "relayhost =" line at main.cf Then if it continues failing, provide more logs. Regards
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1064810/postfix-not-sending-emails-to-external-domains-from-mailing-client
+
+---
+
+#### 8373. SSH - Permission denied (publickey)
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, public-key | Score: 1 | Views: 1581 | Answers: 1 | Created: 2021-05-20
+
+**解决方案 / Solution**:
+Recent releases from RedHat governed distributions disable some of the cryptographic algorithms considered obsolete or insecure. Judging from the line: debug1: send_pubkey_test: no mutual signature algorithm your server is probably using one of these disabled algorithms and doesn't allow something your client considers secure. The systemwide crypto consiguration is setup by update-crypto-policies command and the default is DEFAULT . You can enable most (if not all) of obsolete/insecure algorithms by downgrading to LEGACY crypto policy: update-crypto-policies --set LEGACY Saying the above, please consider upgrading your old server to something more modern.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1064247/ssh-permission-denied-publickey
+
+---
+
+#### 8374. couldn't upgrade to fedora due to error “nothing provides python3.8dist(python-magic)”
+
+**问题描述 / Problem Description**:
+Tags: python, fedora | Score: 1 | Views: 1186 | Answers: 2 | Created: 2020-12-01
+
+**解决方案 / Solution**:
+It is possibly a recent bug . Other users seem to have issues with this too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1044482/couldnt-upgrade-to-fedora-due-to-error-nothing-provides-python3-8distpython-m
+
+---
+
+#### 8375. Fedora 33/32 - Install PHP 7.3
+
+**问题描述 / Problem Description**:
+Tags: fedora, php7, fedora-32 | Score: 1 | Views: 1174 | Answers: 2 | Created: 2020-11-11
+
+**解决方案 / Solution**:
+Years ago, I choose to provide as single version only version >= default distribution version. So 7.3, 7.4 and 8.0 for F31, 7.4 and 8.0 for F32+ When Software Collections (SCL) were created, allowing multiple versions, I choose to also provide older versions, so 5.6 to 8.0 for F31+ So, indeed, you have to use the SCL for 7.3 on F32+ For FPM you only have to choose the right socket path, you can even run different versions for different sites/projects For cli, you have to enable the SCL using scl enable php73 bash Or using (I prefer this one) module load php73 Most packaged CLI app in my repository should work fine (composer, phpunit*...) as I ensure that enabled SCL are used (using "#!/usr/bin/env php" as shebang, while /usr/bin/php is always used in official Fedora packages). Of course, packages requiring PHP >= 7.4 won't work (but I don't think there is any for now). An alternative way is to install php73-syspaths which provide the /usr/bin/php command, but this package conflicts with php-cli, so you won't be able to install any packaged app. You can read My PHP Workstation (quite old, probably need to be refreshed)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1042162/fedora-33-32-install-php-7-3
+
+---
+
+#### 8376. See btrfs subvolume df (used & free space)
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, btrfs | Score: 1 | Views: 6961 | Answers: 2 | Created: 2020-10-20
+
+**解决方案 / Solution**:
+It looks like there is a single partition, split into multiple subvolumes. Subvolumes share the underlying filesystem so the filesystem size and usage for both is indeed the same. I don't use Fedora but if the installer honored the 32GB restriction on / , it is likely through a qgroup that limits the maximum usage of a given subvolume. Try btrfs qgroup show / and btrfs qgroup show /home .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1039379/see-btrfs-subvolume-df-used-free-space
+
+---
+
+#### 8377. Should a unified bare metal application suite outperform multiple VMs on the same hardware?
+
+**问题描述 / Problem Description**:
+Tags: virtualization, kvm-virtualization, freebsd, fedora, nic | Score: 1 | Views: 184 | Answers: 1 | Created: 2020-07-04
+
+**解决方案 / Solution**:
+This is a simple "How long is a piece of string" question. Depends on your string; we have no clue how long yours is. As @ewwhite says, do some testing. If this is an entirely theoretical/academic question, then you're asking on the wrong site. Rule of thumb - sure, bare metal should outperform a set of VMs on the same hardware because virtualization does take some overhead, minimal as it is. And a Gigabit NIC can only move 1 Gbps, virtualization doesn't change that. But there's plenty of implementation specifics that could mean your app won't be best that way. If your app is single-threaded and CPU is your bottlneck (as opposed to RAM or IO), then you're not going to be able to use most of your hardware. Assuming that it can scale out instead of scale up, then just make it a bunch of VMs and have a whole bunch of single CPU VMs. (Or dual-CPU VMs maybe.) Or there can be limitations that you can run into within a single OS (max open file handles, TCP ephemeral ports, I'm sure there are others) that would limit potential throughput, and thus spreading the load out to multiple VMs on that hardware could get you past that. That's not a performance bottleneck as such but it is a bottleneck that virtualization fixes. There can also be management reasons that VMs are preferable. VMs can be easier to spin up and down automatically than bare metal, especially if you don't own the bare metal (hosting/cloud providers); often VMs can make more sense, even if they don't perform exactly as well as the underlying hardware theoretically could.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1024031/should-a-unified-bare-metal-application-suite-outperform-multiple-vms-on-the-sam
+
+---
+
+#### 8378. Editing Authselect files
+
+**问题描述 / Problem Description**:
+Tags: linux, authentication, fedora, hardening | Score: 1 | Views: 8160 | Answers: 1 | Created: 2020-05-26
+
+**解决方案 / Solution**:
+You can use --force to force it. I've added this to ansible post security baseline: - name: enable auto home dirs command: "{{ item }}" loop: - authselect select sssd --force - authselect select sssd with-mkhomedir
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1018828/editing-authselect-files
+
+---
+
+#### 8379. extending a LVM partition > 2TB on Fedora 31 to use all unallocated disk space
+
+**问题描述 / Problem Description**:
+Tags: fedora, partition, raid5, xfs | Score: 1 | Views: 3496 | Answers: 1 | Created: 2020-03-22
+
+**解决方案 / Solution**:
+As you can see from pvs and vgs , you don't have any space available in them to extend the fedora_newserver-home logical volume. You need to use parted (or fdisk ) to create a new partition, /dev/sda3 with the rest of the space from /dev/sda . I'm taking it that you know how to do this considering that you created the other ones. After that, create a new physical volume: pvcreate /dev/sda3 Add it to the fedora_newserver volume group: vgextend fedora_newserver /dev/sda3 And extend the fedora_newserver-home volume group to use the rest of the free space: lvextend -l +100%FREE /dev/mapper/fedora_newserver-home xfs_growfs /dev/mapper/fedora_newserver-home (You may need to use it on the actual mountpoint. I assumed that it was home until you added it to your question.) xfs_growfs /u/newserver You can then see the increased space with: lvs | grep home Or: lvdisplay | sed -n '/home/,/Size/p'
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1007847/extending-a-lvm-partition-2tb-on-fedora-31-to-use-all-unallocated-disk-space
+
+---
+
+#### 8380. DNSMASQ Not recieving DHCP requests/ DNSMASQ Not sending
+
+**问题描述 / Problem Description**:
+Tags: dhcp, fedora, pxe-boot, dhcp-server, dnsmasq | Score: 1 | Views: 2354 | Answers: 1 | Created: 2020-03-02
+
+**解决方案 / Solution**:
+Quite likely you’re running firewalld (enabled by default). Use the following command to enable DHCP in the firewall: firewall-cmd --add-service=dhcp --permanent firewall-cmd --reload
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1005230/dnsmasq-not-recieving-dhcp-requests-dnsmasq-not-sending
+
+---
+
+#### 8381. How to programatically change the DNS servers in Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, networking, debian, fedora | Score: 1 | Views: 480 | Answers: 1 | Created: 2020-01-11
+
+**解决方案 / Solution**:
+How to resolve the requested task is highly distribution dependent. Therefore there is no standard way of doing it properly which matches different distributions. In case of Debian and Ubuntu it should be save to use /etc/network/interfaces . In case of Red Hat Enterprise Linux , CentOs , Fedora related files are found in /etc/sysconfig/network-scripts .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/998528/how-to-programatically-change-the-dns-servers-in-linux
+
+---
+
+#### 8382. Can't start Samba on Fedora Linux
+
+**问题描述 / Problem Description**:
+Tags: linux, active-directory, samba, fedora, kerberos | Score: 1 | Views: 431 | Answers: 1 | Created: 2019-11-19
+
+**解决方案 / Solution**:
+Fixed; turned out it was because I had already started the kadmin and krb5kdc services, and since samba starts those services itself, this was causing the error.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/992476/cant-start-samba-on-fedora-linux
+
+---
+
+#### 8383. How to create network bridge for KVM with nmcli?
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, centos, kvm-virtualization, fedora | Score: 1 | Views: 6198 | Answers: 1 | Created: 2019-10-17
+
+**解决方案 / Solution**:
+A network bridge (in this case) is a virtual interface that joins one ore more network interfaces. It can be compared with a switch. If you add an interface, in this example eno1 (your physical network interface) to the bridge, it is called a slave of the bridge. The idea is, to add the physical interface to the bridge (this is, what "nmcli con add type bridge-slave ifname eno1 master br0" does) and do the IP configuration on the bridge-interface instead of the phsyical interface. If you now create a VM and connect it to your br0 interface, the VM's network adapter will be a slave of br0, too. So you have some kind of switched networking between the VM's network adapter and eno1.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/988468/how-to-create-network-bridge-for-kvm-with-nmcli
+
+---
+
+#### 8384. Directories are full, with 200+GB free on disk that is partitioned
+
+**问题描述 / Problem Description**:
+Tags: storage, lvm, fedora, luks | Score: 1 | Views: 245 | Answers: 1 | Created: 2019-10-17
+
+**解决方案 / Solution**:
+Disclaimer: better do backups before performing potentially dangerous operations, like resizing a filesystem for the first time. Your fedora-root LV has a size of 237.00g, but your / filesystem has a size of 15g. This means that the very last step to increase available size was not done. For an xfs filesystem, to use all available partition or LV space that would simply be: # xfs_growfs / In case the default xfs wasn't chosen, each filesystem has its own specific method to increase its size. For example, with an ext4 filesystem that would be instead: # resize2fs /dev/mapper/fedora-root Both are working (or must be done) online. Be warned that xfs can't be shrunk back at all and that ext4 can't be shrunk online, only offline which is quite difficult for the root filesystem. For an other time: the lvresize command has a --resizefs option which can perform both actions in a single command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/988326/directories-are-full-with-200gb-free-on-disk-that-is-partitioned
+
+---
+
+#### 8385. Why DNF is not obeying "max_parallel_downloads" from config file?
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf | Score: 1 | Views: 1333 | Answers: 1 | Created: 2019-10-05
+
+**解决方案 / Solution**:
+As far as I can tell, this option max_parallel_downloads has not actually been implemented. I grepped through the installed Python source on my Fedora 30 laptop, and then searched the project's github repo, and found only the references in the documentation. I would recommend filing a bug report.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/986869/why-dnf-is-not-obeying-max-parallel-downloads-from-config-file
+
+---
+
+#### 8386. Linux Machines and DHCP reservation
+
+**问题描述 / Problem Description**:
+Tags: cisco, dhcp, fedora | Score: 1 | Views: 543 | Answers: 1 | Created: 2019-08-27
+
+**解决方案 / Solution**:
+Share the connection output To show the active connection use #nmcli connection show --active and then check with the ip4 dhcp client ID Note: Remember to use tab completion when in doubt.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/980789/linux-machines-and-dhcp-reservation
+
+---
+
+#### 8387. Desktop To Command Line Toggle for Default Command Line Environment?
+
+**问题描述 / Problem Description**:
+Tags: command-line-interface, fedora, desktop | Score: 1 | Views: 62 | Answers: 1 | Created: 2019-05-31
+
+**解决方案 / Solution**:
+Either install a desktop environment or don't, pick one. For a server, it is traditional to not have a desktop. Less to secure, update, and run in RAM. Download packet traces somewhere else, and connect to SQL remotely. Virtual machines and containers are common these days. You can manage the same no-GUI environment for dev (VM on laptop) test and production (VM in cloud). Linux desktops with CLIs on emulated terminals or virtual consoles still exist, of course. Command line is just another GUI app to pull up. However, these tend to be management or personal boxes. Anything running a serious service is on a server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/969708/desktop-to-command-line-toggle-for-default-command-line-environment
+
+---
+
+#### 8388. 413 error in apache even though my POST is much smaller than the max limit
+
+**问题描述 / Problem Description**:
+Tags: httpd, fedora, httpd.conf, curl, http-status-code | Score: 1 | Views: 3652 | Answers: 1 | Created: 2019-03-26
+
+**解决方案 / Solution**:
+I see that the call to the Apache Server at 09:05:42 ::1 - - [26/Mar/2019:09:05:42 +0530] "POST /cgi-bin/add-user.fcg HTTP/1.1" 413 144 "-" "curl/7.61.1" correctly started the CGI Script [Tue Mar 26 09:05:42.496956 2019] [fcgid:info] [pid 2883:tid 140595868158208] mod_fcgid: server localhost.localdomain:/var/www/cgi-bin/add-user.fcg(3148) started So the Response Code 413 might come from your Script itself. It would be useful to see what Content reaches your Script.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/959964/413-error-in-apache-even-though-my-post-is-much-smaller-than-the-max-limit
+
+---
+
+#### 8389. Cannot access Samba share on Fedora 29 using the same configuration as CentOS 7
+
+**问题描述 / Problem Description**:
+Tags: samba, fedora, samba4 | Score: 1 | Views: 2545 | Answers: 1 | Created: 2019-01-31
+
+**解决方案 / Solution**:
+Add to smb.conf client lanman auth = yes
+
+**参考链接 / References**:
+- https://serverfault.com/questions/951656/cannot-access-samba-share-on-fedora-29-using-the-same-configuration-as-centos-7
+
+---
+
+#### 8390. Does GLusterFS / Fuse properly support mmap()?
+
+**问题描述 / Problem Description**:
+Tags: network-share, dovecot, fedora, glusterfs, fuse | Score: 1 | Views: 1568 | Answers: 1 | Created: 2018-12-18
+
+**解决方案 / Solution**:
+In general GlusterFS supports mmap() just fine. It would be a bug in case something goes wrong with it. GlusterFS has several performance features that can be troublesome for multi-threaded or multi-client workloads. You may want to experiment with disabling all or some of these options: performance.read-ahead performance.write-behind performance.readdir-ahead and performance.parallel-readdir performance.quick-read performance.stat-prefetch performance.io-cache For example: gluster volume set ${VOLUMENAME} performance.read-ahead off On the Dovecot wiki page that you linked , there is a paragraph about FUSE/GlusterFS: FUSE caches dentries and file attributes internally. If you're using multiple GlusterFS clients to access the same mailboxes, you're going to have problems. Worst of these problems can be avoided by using NFS cache flushes, which just happen to work with FUSE as well: mail_nfs_index = yes mail_nfs_storage = yes These probably don't work perfectly. I don't know why it would not work perfectly... It would be good to have some details about that. For most workloads GlusterFS behaves pretty much the same as NFS, so the recommendations would be the same too.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/945810/does-glusterfs-fuse-properly-support-mmap
+
+---
+
+#### 8391. In a FreeIPA environment, how do I log in without specifying the domain name?
+
+**问题描述 / Problem Description**:
+Tags: fedora, freeipa | Score: 1 | Views: 1004 | Answers: 1 | Created: 2018-08-10
+
+**解决方案 / Solution**:
+Depending on how you actually enroll clients, use_fully_qualified_names would be set or unset in the sssd.conf . If you are using ipa-client-install directly, it would be unset. If you are using realm join , then it would be set. See this comment in a FreeIPA issue 5350: https://pagure.io/freeipa/issue/5350#comment-510770 and, more importantly, a bug against realmd: https://bugzilla.redhat.com/show_bug.cgi?id=1575538
+
+**参考链接 / References**:
+- https://serverfault.com/questions/925833/in-a-freeipa-environment-how-do-i-log-in-without-specifying-the-domain-name
+
+---
+
+#### 8392. Samba fails to mount as daemon (NT_STATUS_BAD_NETWORK_NAME). Fine in foreground
+
+**问题描述 / Problem Description**:
+Tags: linux, samba, fedora | Score: 1 | Views: 1918 | Answers: 1 | Created: 2018-02-26
+
+**解决方案 / Solution**:
+Had the same problem and got it working. Checkout https://www.hiroom2.com/2017/12/03/fedora-27-samba-en I needed the "sudo chcon -R -t samba_share_t /path_to_your_share" on my shares plus "valid user = youruser" in smb.conf then it worked. "sudo setsebool -P samba_enable_home_dirs on" didnt work for me but also used chcon ... and then it worked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/898933/samba-fails-to-mount-as-daemon-nt-status-bad-network-name-fine-in-foreground
+
+---
+
+#### 8393. Why is SELinux blocking systemctl --user / systemd user instance commands?
+
+**问题描述 / Problem Description**:
+Tags: fedora, systemd, selinux | Score: 1 | Views: 3321 | Answers: 1 | Created: 2018-01-05
+
+**解决方案 / Solution**:
+I think you need to change to the sysadm_r role, maybe try: sudo -u <your_user> -r sysadm_r -t sysadm_t systemctl --user status ? That could indeed be a bug in the policy, users should be able to manage their own services IMVHO (compared to the system ones). I guess you should report that to fedora selinux-policy package. Also, did you try to relabel the filesystem with restorecon -RFv / ? This will force (-F) some extra identifier to be reset.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/890798/why-is-selinux-blocking-systemctl-user-systemd-user-instance-commands
+
+---
+
+#### 8394. Fedora Server Edition: Failed to obtain authentication
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, cockpit | Score: 1 | Views: 4946 | Answers: 1 | Created: 2018-01-04
+
+**解决方案 / Solution**:
+I've figured it out. As I get from this address's comments https://fedoramagazine.org/cockpit-overview/ , the admin user needs to be in all these user groups in order to fully work with cockpit: systemd-journal adm wheel Alternatively the root account can be used to perform system administrative tasks, such as update or install.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/890679/fedora-server-edition-failed-to-obtain-authentication
+
+---
+
+#### 8395. Fedora 26 Kernel panic with the last two kernels
+
+**问题描述 / Problem Description**:
+Tags: fedora, kernel-panic | Score: 1 | Views: 298 | Answers: 1 | Created: 2017-12-19
+
+**解决方案 / Solution**:
+The kernel crashed because the init process is terminating which isn't supposed to happen and would leave kernel data structures in a corrupt state. That means the problem isn't necessarily caused by the kernel itself. Try booting with an older kernel version that has been working in the past. What to do next depends on whether the problem turns out to be caused by the kernel version or something else. If it isn't a kernel problem Boot into a shell by passing init=/bin/bash or init=/bin/sh as argument for the kernel. Then start looking for clues in logfiles. If it is a kernel problem Boot the latest working kernel version. Download the sources of the latest working kernel version and the first broken kernel version. Verify that you get the same results when using a kernel that you build directly from those sources. Next start looking at the differences between the two versions to identify which of the differences actually apply to your system. (Changes in drivers for hardware that you don't have would be an obvious example of something unlikely to be relevant). If you feel up to the task you can try creating a separate source tree with some files from the working version and some from the broken version to identify which file was causing the breakage.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/888909/fedora-26-kernel-panic-with-the-last-two-kernels
+
+---
+
+#### 8396. When transfering a RAID array to new computer, do the RAID adapter drivers need to be the same?
+
+**问题描述 / Problem Description**:
+Tags: linux, raid, storage, fedora | Score: 0 | Views: 166 | Answers: 1 | Created: 2024-05-10
+
+**解决方案 / Solution**:
+There is a lot of "should" in this answer, but given what you've told us, pretty much any answer is going to have that. Generally speaking, the geometry of the data in the arrays of a hardware RAID system will be dependent on the firmware in the controller. So long as there is no major update to the RAID controller firmware, the data should remain safe. The driver is an interface layer between the firmware and the OS. While it may have hooks that would control the way the firmware sees the disks, in normal operation it should have no effect on the geometry and so it shouldn't affect data security to update the driver to the latest. Because the driver and the firmware have been given the responsibility for handling the geometry, the OS should be seeing the disk as nothing but a large block device. It will have no input or expectations about geometry and so should be able to just use the arrays as is. If you have to change controller, of course, all bets are off. If you are at all unsure of yourself: three words: back it up .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159231/when-transfering-a-raid-array-to-new-computer-do-the-raid-adapter-drivers-need
+
+---
+
+#### 8397. Fedora 29 can't connect to httpd
+
+**问题描述 / Problem Description**:
+Tags: apache-2.4, fedora | Score: 0 | Views: 201 | Answers: 1 | Created: 2024-03-15
+
+**解决方案 / Solution**:
+I found it. firewall-cmd --add-port=80/tcp firewall-cmd --add-port=443/tcp
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156350/fedora-29-cant-connect-to-httpd
+
+---
+
+#### 8398. How do I get systemctl to run mysql after installing with dnf?
+
+**问题描述 / Problem Description**:
+Tags: mysql, fedora, systemctl | Score: 0 | Views: 459 | Answers: 1 | Created: 2023-12-19
+
+**解决方案 / Solution**:
+Here's the looking I did, and this answer (I didn't test) is probably correct and at least will teach you how to look in the general sense and take you to the next step. sudo dnf search community-mysql and it shows community-mysql.x86_64 : MySQL client programs and shared libraries , but you don't usually run "client programs" on startup with systemctl, so you're looking for a server or daemon. That same dnf search also lists community-mysql-server.x86_64 : The MySQL server and related files so you'll need to install that "server" package (I checked, it contains a /usr/sbin/mysqld where the "d" indicates a daemon) sudo dnf install community-mysql-server sudo systemctl enable mysqld sudo systemctl start mysqld You only need the "start" command this first time; in the future, the enable will automatically start the daemon when you reboot. In some other case like this, if systemctl can't find the "mysqld" field, the service could have a different name. You showed you know how to search for services, I tend to go lower level and find all the possible service files with something like locate -ri \\.service$ | less Back to the beginning, checking for a "daemon" file is a good general starting place when you're trying to install a server. For example the command sudo dnf provides */mysqld would directly show you packages that contain the mysqld daemon. the */ means look in any directory because it could be in /usr/bin or /usr/sbin or /bin or /sbin I've used fedora a long time (since it was called red hat:) but I don't use mysql, that's why I'm able to suggest the right answer but I didn't test it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150077/how-do-i-get-systemctl-to-run-mysql-after-installing-with-dnf
+
+---
+
+#### 8399. kinit fails on freeipa master: File or directory not found
+
+**问题描述 / Problem Description**:
+Tags: fedora, freeipa | Score: 0 | Views: 375 | Answers: 1 | Created: 2023-11-25
+
+**解决方案 / Solution**:
+Any reason why you are not using freeipa-users@ mailing list to ask your questions? There is pretty much nobody who tracks serverfault for FreeIPA-related questsions (except, may be me, occasionally) here on Serverfault. Please make a post to freeipa-users@ with details of your specific user, krb5kdc.log and dirsrv error log entries (if possible, use English-based locale in the logs or provide proper translation alongside). Also provide output of ipa idrange-find command.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148566/kinit-fails-on-freeipa-master-file-or-directory-not-found
+
+---
+
+#### 8400. How to enable IMAP PHP extension on AWS EC2 instance Amazon Linux 2023?
+
+**问题描述 / Problem Description**:
+Tags: amazon-web-services, amazon-ec2, fedora, imap | Score: 0 | Views: 1873 | Answers: 1 | Created: 2023-11-24
+
+**解决方案 / Solution**:
+Enabling the IMAP PHP extension on Amazon Linux 2023, which does not support amazon-linux-extras, involves a few steps. Here are three specific things to try: Install Development Tools: You'll likely need development tools to compile the IMAP extension from source. This can be done using the command: sudo yum groupinstall "Development Tools" Compile the IMAP Extension from Source: The steps typically include navigating to the php/ext/imap directory within the PHP source code and then using phpize , ./configure , and make to compile the extension. Configuration: After compiling the IMAP extension, you will need to configure PHP to use the new extension. This involves adding the extension=imap.so line to your php.ini file or a specific *.ini file within the conf.d directory. Restarting the web server or the PHP-FPM service will be necessary to apply the changes. On Amazon Linux, you might use: sudo nano /etc/php.d/30-imap.ini And add: extension=imap Then restart your HTTP server or PHP-FPM process​​.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148502/how-to-enable-imap-php-extension-on-aws-ec2-instance-amazon-linux-2023
+
+---
+
+#### 8401. 535 5.7.8 Error: authentication failed: UGFzc3dvcmQ6
+
+**问题描述 / Problem Description**:
+Tags: postfix, dovecot, fedora, sasl | Score: 0 | Views: 1676 | Answers: 1 | Created: 2023-07-01
+
+**解决方案 / Solution**:
+generating the base64 values like this is better: $ echo -ne '\000user\000password' |openssl base64 and the AUTH PLAIN will work
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1135335/535-5-7-8-error-authentication-failed-ugfzc3dvcmq6
+
+---
+
+#### 8402. Apache authentication via sql in fedora/rhel/almalinux/rocky linux
+
+**问题描述 / Problem Description**:
+Tags: redhat, fedora, rocky-linux, rhel9 | Score: 0 | Views: 180 | Answers: 1 | Created: 2023-06-11
+
+**解决方案 / Solution**:
+Its not clear what you are trying to achieve, what your expections are here nor what you have already tried. Apache can only do HTTP authentication (basic and digest) which is very limited / basic. It is convenient as a quick hack to keep people out of your website - but no more than that. As a quick hack solution, there doesn't seem to be a justifcation for using a database (requires additional modules) rather than just s simple .htpasswd file. You DID NOT say if you were trying to implement HTTP authentication or something more appropriate how you created the user how you changed the httpd.conf file what happenned after you made these changes (browser behaviour, log entries)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1133071/apache-authentication-via-sql-in-fedora-rhel-almalinux-rocky-linux
+
+---
+
+#### 8403. Fedora Server 38 beta dnf error
+
+**问题描述 / Problem Description**:
+Tags: fedora, dnf | Score: 0 | Views: 190 | Answers: 1 | Created: 2023-04-18
+
+**解决方案 / Solution**:
+If RPM isn't working, DNF won't work. I would start with rebuilding the RPM database: rpm --rebuilddb .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128959/fedora-server-38-beta-dnf-error
+
+---
+
+#### 8404. procmail's logging helped me get one account's .procmailrc working, but two other accounts don't work and don't log); having difficulty diagnosing
+
+**问题描述 / Problem Description**:
+Tags: fedora, spamassassin, procmail | Score: 0 | Views: 341 | Answers: 1 | Created: 2023-03-20
+
+**解决方案 / Solution**:
+I would imagine that systems that don't have an email server being banged on so hard that the rate of new lines being added to the mail server's log is "a waterfall" would have an easier time finding this problem; because our system's logging rate is often over 100 lines a second (sometimes WAY higher), if you don't have something to search for - via a tail -f /var/log/maillog | grep "some search text" - you haven't a prayer of finding anything. But, I gave it a shot, with ONE working account to go by. And, from that I found a procmail[7965]: Suspicious rcfile entry. OK, something to bite into! Pursuit showed no obvious errors, BUT, well, the parent directory correctly has a different group entry than the username - different because of VERY legitimate reasons. Changing the group would have unknowable consequences without substantial investigation. None of the usual advice applies, such as chmod 0640 , so, I dug deeper. I found this tidbit hiding somewhere : Procmail usually gives this error if: [...] The directory is both world-writable and world executable but not ‘sticky’ (mode +t). And, so, a simple chmod +t on the parent directory did the trick!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1126637/procmails-logging-helped-me-get-one-accounts-procmailrc-working-but-two-othe
+
+---
+
+#### 8405. rm -rf on some direcories never complete
+
+**问题描述 / Problem Description**:
+Tags: linux, hard-drive, fedora, ext4 | Score: 0 | Views: 391 | Answers: 1 | Created: 2023-01-31
+
+**解决方案 / Solution**:
+One possible solution is to try using the 'find' command to locate and delete the files in the directories. This can be done by running the following command: find /path/to/directory -type f -delete This will recursively search the directory and delete all files it finds. Once all the files have been deleted, you should be able to delete the directory itself. If this does not work, you may need to try using a tool such as fsck to check the filesystem for errors. This can be done by running the following command: fsck -f /dev/sdX Replace sdX with the device name of the filesystem you are trying to delete. This will check the filesystem for errors and attempt to repair any it finds. Once the filesystem has been checked and repaired, you should be able to delete the directories.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1121605/rm-rf-on-some-direcories-never-complete
+
+---
+
+#### 8406. accessing tomcat manager gui not possible even after updating tomcat users and context xml files
+
+**问题描述 / Problem Description**:
+Tags: fedora, tomcat8 | Score: 0 | Views: 160 | Answers: 1 | Created: 2023-01-20
+
+**解决方案 / Solution**:
+I found the error, my bad, I was updating the wrong file
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1120739/accessing-tomcat-manager-gui-not-possible-even-after-updating-tomcat-users-and-c
+
+---
+
+#### 8407. Upgrading Fedora Server to 37, Postgres' upgrade didn't work: ERROR: could not access file "$libdir/postgis-3"
+
+**问题描述 / Problem Description**:
+Tags: postgresql, fedora, upgrade, postgis | Score: 0 | Views: 558 | Answers: 2 | Created: 2022-12-19
+
+**解决方案 / Solution**:
+PostGIS is an extension which is installed as package. You have to install the package that suits both your postgresql major version and postgis extension version. Such as; postgis32_15 or postgis31_14 $libdir or any other predefined (mostly comes with compilation) configurations can be learned with pg_config client application. You can basically learn libdir by running the command below. pg_config --pkglibdir if you cannot find pg_config then its most propably where psql command is ( $bindir ) .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118352/upgrading-fedora-server-to-37-postgres-upgrade-didnt-work-error-could-not-a
+
+---
+
+#### 8408. Force sending DHCP options
+
+**问题描述 / Problem Description**:
+Tags: dhcp, fedora, pxe-boot, dhcp-server, tftp | Score: 0 | Views: 194 | Answers: 1 | Created: 2022-11-18
+
+**解决方案 / Solution**:
+If you do not mind using an all-in-one Windows application (DHCP, proxyDHCP, TFTP, HTTP, etc.) then you can do what you want with Serva .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1116058/force-sending-dhcp-options
+
+---
+
+#### 8409. SSHd on Fedora 36 doesn't start after boot, even after systemctl enable sshd.service
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, fedora, reboot | Score: 0 | Views: 1002 | Answers: 2 | Created: 2022-10-25
+
+**解决方案 / Solution**:
+Your log shows the sshd.service being actively deactivated, for example here: Oct 25 12:27:48 orange.home.depesz.com systemd[1]: sshd.service: Deactivated successfully. So someone or something is doing sudo systemctl disable sshd.service , thereby instructing systemd not to start sshd during the next system startup. You need to investigate who or what is doing that, and fix it accordingly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113956/sshd-on-fedora-36-doesnt-start-after-boot-even-after-systemctl-enable-sshd-ser
+
+---
+
+#### 8410. Trouble mounting an NFS mount-point on a firewall system which works perfectly on other internal systems: How do I find the cause?
+
+**问题描述 / Problem Description**:
+Tags: nfs, mount, fedora, firewalld | Score: 0 | Views: 9394 | Answers: 2 | Created: 2022-10-05
+
+**解决方案 / Solution**:
+I figured it out. Apparently, the export function stops reading the /etc/export file on any error. The exports that have been read in already and are "valid" are exported, however, any further exports that may be in the file are ignored because processing stops. Unfortunately, such errors are NOT logged in /var/log/messages (the system error log file) by nfs . So far as I have discovered to date, the ONLY place these errors are reported is by running: exportfs -a In this case, most of my entries began with " rw" , a few "ro" and the error that caused all this was one that was just "r" . Oops! That's where the exporting stopped. Also worthy of attention are these additional tools that helped me find the problem: As already noted in the question, here for making a thorough answer, this sends "all" errors to the system log file ( /var/log/messages ): rpcdebug -m nfsd -s all Again,NOT ALL ERRORS ACTUALLY CAN GO HERE, as already noted about /etc/export errors . List all current exports possible: From a server: exportfs From a client: showmount -e <host> Note that showmount is a DANGEROUS possible security hole because it can let clients easily know what a server can do and thus about other systems. So in a case like this one, where it's a "firewall / gateway" machine, make sure ONLY root can run it! And, finally, you can also get a network dump: tcpdump -s0 -i <interface> host <host_ip> -w <file> I don't have a good pointer for how to interpret said dump, but you can run strings on it to at least confirm you got the right packets.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112345/trouble-mounting-an-nfs-mount-point-on-a-firewall-system-which-works-perfectly-o
+
+---
+
+#### 8411. Fedora 31 Grub2 configuration change isn't being applied
+
+**问题描述 / Problem Description**:
+Tags: fedora, grub, grub2, fedora-31 | Score: 0 | Views: 1654 | Answers: 1 | Created: 2022-09-04
+
+**解决方案 / Solution**:
+The output location in the grub2-mkconfig command in the question is for BIOS systems. If you have a directory called /sys/firmware/efi you instead have an UEFI system and must instead run grub2-mkconfig >/etc/grub2-efi.cfg Doing that, and rebooting, causes my edit to take effect. /etc/grub2-efi.cfg is a link on my Fedora 31 system to ../boot/efi/EFI/fedora/grub.cfg .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1109910/fedora-31-grub2-configuration-change-isnt-being-applied
+
+---
+
+#### 8412. cannot boot unless Selinux is disabled
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora, selinux | Score: 0 | Views: 1126 | Answers: 1 | Created: 2022-07-03
+
+**解决方案 / Solution**:
+I was able to run semanage fcontext -d "(/.*)?" replacing it with nothing, booted with selinux permissive, enforcing=0. The first boot failed on re-labling, I think I typo'd the grub cmd arg because the error was the same as selinux=1 so I tried again with enforcing=0 and and relabling worked, booted, logged in and checked sudo ls -alZ to see the root and user contexts look normal again
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104676/cannot-boot-unless-selinux-is-disabled
+
+---
+
+#### 8413. DNS strange behavior for VPN addresses
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, vpn, fedora, barracuda | Score: 0 | Views: 375 | Answers: 1 | Created: 2022-06-30
+
+**解决方案 / Solution**:
+With insights from @PatrickMevzek and @user1686 I managed to understand the problem, so I'll post this answer to help anyone with the same problem. The barracudavpn program, after the connection, changes /etc/resolv.conf to add the VPN name servers, but by default this file is just ignored by systemd.resolved . From systemd-resolved.service(8) manpage: To improve compatibility, /etc/resolv.conf is read in order to discover configured system DNS servers, but only if it is not a symlink to /run/systemd/resolve/stub-resolv.conf, /usr/lib/systemd/resolv.conf or /run/systemd/resolve/resolv.conf. The default Fedora 36 installation has this: $ ls -l /etc/resolv.conf lrwxrwxrwx. 1 root root 39 jun 27 02:54 /etc/resolv.conf -> ../run/systemd/resolve/stub-resolv.conf So just by removing this link (the file will be recreated by systemd-resolved) everything works as intended.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104521/dns-strange-behavior-for-vpn-addresses
+
+---
+
+#### 8414. Apache does not start
+
+**问题描述 / Problem Description**:
+Tags: linux, web-server, apache2, fedora | Score: 0 | Views: 2289 | Answers: 1 | Created: 2022-06-30
+
+**解决方案 / Solution**:
+To fix the issue you will need to add a ServerName directive to your Apache configuration. If you have already added ServerName then check the ServerName. Open apache2.conf file. sudo nano /etc/apache2/apache2.conf Add the following line to the end of the file: ServerName 127.0.0.1 Once you have added the ServerName directive to your configuration, run apachectl to test that the configuration is valid. sudo apachectl configtest A successful apachectl configtest invocation should result in output like this: Output Syntax OK
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104477/apache-does-not-start
+
+---
+
+#### 8415. Fedora mail does not arrive
+
+**问题描述 / Problem Description**:
+Tags: php, sendmail, fedora | Score: 0 | Views: 90 | Answers: 1 | Created: 2022-06-29
+
+**解决方案 / Solution**:
+Check if php successfully transfers responsibility for email delivery. if (mail($to, $subject, $message, $headers)) { echo 'email was sent.'; } else { echo 'An error occurred.'; } On Linux/Unix php by default sends emails via local MTA/SMTP server. Check/report which MTA is installed on your system (postfix/sendmail/exim/…).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1104441/fedora-mail-does-not-arrive
+
+---
+
+#### 8416. Fedora 36 Workstation vs Fedora 36 Server
+
+**问题描述 / Problem Description**:
+Tags: windows-server-2012-r2, fedora, cifs | Score: 0 | Views: 694 | Answers: 1 | Created: 2022-06-14
+
+**解决方案 / Solution**:
+The problem turned out to be DNS search domains. For whatever reason, Windows did not return a FQDN, and my search sequence, which was unintentionally different between the two machines, appended the wrong suffix in the case of SERVER.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103280/fedora-36-workstation-vs-fedora-36-server
+
+---
+
+#### 8417. Fedora Server NSlookup error when running DNS
+
+**问题描述 / Problem Description**:
+Tags: linux, domain-name-system, fedora, nslookup, fedora-server | Score: 0 | Views: 758 | Answers: 2 | Created: 2022-04-09
+
+**解决方案 / Solution**:
+Try to isolate the issue : Server side All your config files are correct ? Run named-checkconf Do you see some errors in the logs ? Run journalctl -u named Could you resolve on the DNS server (not the client) ? Run dig @127.0.0.1 YOUR-LOCAL-ADDRESS or nslookup YOUR-LOCAL-ADDRESS 127.0.0.1 Run dig @127.0.0.1 google.com or nslookup google.com 127.0.0.1 Client side The DNS address is correct in your network settinfgs ? If you try to resolve google.com ? Run with default DNS nslookup google.com Force your DNS server nslookup google.com 192.168.95.1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098206/fedora-server-nslookup-error-when-running-dns
 
 ---

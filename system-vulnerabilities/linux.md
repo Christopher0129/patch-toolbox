@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2604**
+**总计条目 / Total entries: 2672**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -47688,5 +47688,1264 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2509764
+
+---
+
+#### 2605. CVE-2026-68744 - sssd: sssd: NSS responder uninitialized heap disclosure in initgroups reply
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sssd: sssd: NSS responder uninitialized heap disclosure in initgroups reply. Bugzilla: 2509761
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509761
+
+---
+
+#### 2606. CVE-2026-68742 - sssd: sssd: NSS responder out-of-bounds read via unchecked addrlen in GETHOSTBYADDR
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sssd: sssd: NSS responder out-of-bounds read via unchecked addrlen in GETHOSTBYADDR. Bugzilla: 2509762
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509762
+
+---
+
+#### 2607. CVE-2026-68743 - sssd: sssd: PAM responder out-of-bounds read via unchecked auth_token_length in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sssd: sssd: PAM responder out-of-bounds read via unchecked auth_token_length in protocol v1. Bugzilla: 2509760
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509760
+
+---
+
+#### 2608. CVE-2026-68580 - FreeRDP: FreeRDP: Remote code execution or denial of service via audio input…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Remote code execution or denial of service via audio input integer overflow. Bugzilla: 2510125
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510125
+
+---
+
+#### 2609. CVE-2026-67302 - FreeRDP: FreeRDP: Denial of service in camera redirection due to divide-by-zero
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Denial of service in camera redirection due to divide-by-zero. Bugzilla: 2509981
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509981
+
+---
+
+#### 2610. CVE-2026-67306 - FreeRDP: FreeRDP: Out-of-bounds read vulnerability via crafted RDP messages
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Out-of-bounds read vulnerability via crafted RDP messages. Bugzilla: 2509996
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509996
+
+---
+
+#### 2611. CVE-2026-67295 - FreeRDP: FreeRDP: Unauthorized File Access via Drive Redirection Vulnerability
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Unauthorized File Access via Drive Redirection Vulnerability. Bugzilla: 2509998
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509998
+
+---
+
+#### 2612. CVE-2026-66401 - FreeRDP: FreeRDP: Denial of Service via out-of-bounds read in UVC H.264 parser
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Denial of Service via out-of-bounds read in UVC H.264 parser. Bugzilla: 2510002
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510002
+
+---
+
+#### 2613. CVE-2026-67316 - axios: axios: Prototype Pollution allows unauthorized data transmission and…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: axios: Prototype Pollution allows unauthorized data transmission and network redirection. Bugzilla: 2510009
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510009
+
+---
+
+#### 2614. CVE-2026-67300 - FreeRDP: FreeRDP: Use-After-Free vulnerability leading to denial of service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Use-After-Free vulnerability leading to denial of service. Bugzilla: 2510013
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510013
+
+---
+
+#### 2615. CVE-2026-67292 - FreeRDP: FreeRDP: Information Disclosure and Denial of Service via WebSocket Ping
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Information Disclosure and Denial of Service via WebSocket Ping. Bugzilla: 2510028
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510028
+
+---
+
+#### 2616. CVE-2026-67294 - FreeRDP: FreeRDP: Server certificate validation bypass via improper Extended Key…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Server certificate validation bypass via improper Extended Key Usage (EKU) validation. Bugzilla: 2509999
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509999
+
+---
+
+#### 2617. CVE-2026-66402 - FreeRDP: FreeRDP: Server Identity Verification Bypass via TLS Certificate…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Server Identity Verification Bypass via TLS Certificate Validation Weaknesses. Bugzilla: 2510026
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510026
+
+---
+
+#### 2618. CVE-2026-67293 - FreeRDP: FreeRDP: Weakens TLS server authentication due to improper wildcard…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Weakens TLS server authentication due to improper wildcard certificate hostname validation. Bugzilla: 2510015
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510015
+
+---
+
+#### 2619. [SUSE] SUSE-SU-2026:3444-1: moderate: Security update for openssl-3
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for openssl-3 Announcement ID: SUSE-SU-2026:3444-1 Release Date: 2026-07-31T20:04:38Z Rating: moderate References: * bsc#1271712 Affected Products: * Basesystem Module 15-SP7 * SUSE Linux Enterprise Desktop 15 SP7 * SUSE Linux Enterprise Real Time 15 SP7 * SUSE Linux Enterprise Server 15 SP7 * SUSE Linux Enterprise Server for SAP Applications 15 SP7 An update that has one securit
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2620. [SUSE] SUSE-SU-2026:3443-1: moderate: Security update for openssl-1_0_0
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for openssl-1_0_0 Announcement ID: SUSE-SU-2026:3443-1 Release Date: 2026-07-31T19:27:36Z Rating: moderate References: * bsc#1261678 Cross-References: * CVE-2026-28390 CVSS scores: * CVE-2026-28390 ( SUSE ): 8.2 CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N * CVE-2026-28390 ( SUSE ): 5.9 CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H * CVE-2026-28390 ( NVD ): 7.5
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2621. [SUSE] SUSE-SU-2026:3442-1: important: Security update for rsyslog
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for rsyslog Announcement ID: SUSE-SU-2026:3442-1 Release Date: 2026-07-31T19:22:06Z Rating: important References: * bsc#1272414 Cross-References: * CVE-2026-61548 CVSS scores: * CVE-2026-61548 ( SUSE ): 8.1 CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H Affected Products: * openSUSE Leap 15.6 * SUSE Linux Enterprise Server 15 SP6 * SUSE Linux Enterprise Server 15 SP6 LTSS * SUSE Li
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2622. [SUSE] SUSE-SU-2026:3441-1: important: Security update for GraphicsMagick
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for GraphicsMagick Announcement ID: SUSE-SU-2026:3441-1 Release Date: 2026-07-31T19:20:11Z Rating: important References: * bsc#1268878 Cross-References: * CVE-2026-56379 CVSS scores: * CVE-2026-56379 ( SUSE ): 6.9 CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N * CVE-2026-56379 ( SUSE ): 7.3 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L * CVE-2026-56379 ( NVD ): 9.
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2623. [SUSE] SUSE-SU-2026:3440-1: important: Security update for tomcat
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for tomcat Announcement ID: SUSE-SU-2026:3440-1 Release Date: 2026-07-31T18:34:28Z Rating: important References: * bsc#1271397 * bsc#1271398 Cross-References: * CVE-2026-59083 * CVE-2026-59084 CVSS scores: * CVE-2026-59083 ( SUSE ): 8.2 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N * CVE-2026-59083 ( NVD ): 9.1 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N * CVE-2026-59084 ( SUSE )
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2624. [SUSE] SUSE-SU-2026:3439-1: important: Security update for google-guest-agent
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for google-guest-agent Announcement ID: SUSE-SU-2026:3439-1 Release Date: 2026-07-31T18:33:40Z Rating: important References: * bsc#1266603 * bsc#1272118 Cross-References: * CVE-2026-39821 * CVE-2026-56852 CVSS scores: * CVE-2026-39821 ( SUSE ): 9.1 CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N * CVE-2026-39821 ( SUSE ): 7.4 CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2625. [SUSE] SUSE-SU-2026:22995-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel (Live Patch 0 for SUSE Linux Enterprise 16) Announcement ID: SUSE-SU-2026:22995-1 Release Date: 2026-07-30T04:40:12Z Rating: important References: * bsc#1262404 * bsc#1264060 * bsc#1266970 * bsc#1270060 * bsc#1271370 * bsc#1271648 Cross-References: * CVE-2026-23240 * CVE-2026-31738 * CVE-2026-43038 * CVE-2026-46113 * CVE-2026-53359 * CVE-2026-53366 CVSS score
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-August.txt
+
+---
+
+#### 2626. CVE-2012-2734
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: trevor_mckay:cumin, redhat:enterprise_mrg
+
+**漏洞描述 / Description**:
+Multiple cross-site request forgery (CSRF) vulnerabilities in Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allow remote attackers to hijack the authentication of arbitrary users for requests that execute commands via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=832124.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=832124
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://www.securityfocus.com/bid/55618
+
+---
+
+#### 2627. CVE-2012-2735
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: trevor_mckay:cumin, redhat:enterprise_mrg
+
+**漏洞描述 / Description**:
+Session fixation vulnerability in Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allows remote attackers to hijack web sessions via a crafted session cookie.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=832151.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=832151
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://www.securityfocus.com/bid/55618
+
+---
+
+#### 2628. CVE-2012-3459
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: trevor_mckay:cumin, redhat:enterprise_mrg
+
+**漏洞描述 / Description**:
+Cumin before 0.1.5444, as used in Red Hat Enterprise Messaging, Realtime, and Grid (MRG) 2.0, allows remote authenticated users to modify Condor attributes and possibly gain privileges via crafted additional parameters in an HTTP POST request, which triggers a job attribute change request to Condor.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=846501.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=846501
+- http://rhn.redhat.com/errata/RHSA-2012-1278.html
+- http://rhn.redhat.com/errata/RHSA-2012-1281.html
+- http://secunia.com/advisories/50660
+- http://secunia.com/advisories/50666
+
+---
+
+#### 2629. CVE-2012-4452
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: oracle:mysql
+
+**漏洞描述 / Description**:
+MySQL 5.0.88, and possibly other versions and platforms, allows local users to bypass certain privilege checks by calling CREATE TABLE on a MyISAM table with modified (1) DATA DIRECTORY or (2) INDEX DIRECTORY arguments that are originally associated with pathnames without symlinks, and that can point to tables created at a future time at which a pathname is modified to contain a symlink to a subdirectory of the MySQL data home directory, related to incorrect calculation of the mysql_unpacked_real_data_home value.  NOTE: this vulnerability exists because of a CVE-2009-4030 regression, which was not omitted in other packages and versions such as MySQL 5.0.95 in Red Hat Enterprise Linux 6.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0121.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0121.html
+- http://www.openwall.com/lists/oss-security/2012/09/27/1
+- http://www.securityfocus.com/bid/55715
+- https://bugzilla.redhat.com/show_bug.cgi?id=860808
+- http://rhn.redhat.com/errata/RHSA-2013-0121.html
+
+---
+
+#### 2630. CVE-2012-2679
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:rhncfg
+
+**漏洞描述 / Description**:
+Red Hat Network (RHN) Configuration Client (rhncfg-client) in rhncfg before 5.10.27-8 uses weak permissions (world-readable) for /var/log/rhncfg-actions, which allows local users to obtain sensitive information about the rhncfg-client actions by reading the file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1369.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1369.html
+- http://secunia.com/advisories/50978
+- http://www.securityfocus.com/bid/55934
+- http://www.securitytracker.com/id?1027661
+- https://bugzilla.redhat.com/show_bug.cgi?id=825275
+
+---
+
+#### 2631. CVE-2012-4417
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: gluster:glusterfs
+
+**漏洞描述 / Description**:
+GlusterFS 3.3.0, as used in Red Hat Storage server 2.0, allows local users to overwrite arbitrary files via a symlink attack on temporary files with predictable names.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1456.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1456.html
+- http://www.securityfocus.com/bid/56522
+- http://www.securitytracker.com/id?1027756
+- https://bugzilla.redhat.com/show_bug.cgi?id=856341
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/80074
+
+---
+
+#### 2632. CVE-2011-4316
+
+**严重程度 / Severity**: N/A | CVSS: 3.7
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.1, in certain unspecified conditions, does not lock the desktop screen between SPICE sessions, which allows local users with access to a virtual machine to gain access to other users' desktop sessions via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1506.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+- http://rhn.redhat.com/errata/RHSA-2012-1508.html
+- http://www.securityfocus.com/bid/56825
+- http://www.securitytracker.com/id?1027838
+- https://bugzilla.redhat.com/show_bug.cgi?id=754876
+
+---
+
+#### 2633. CVE-2012-0860
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+Multiple untrusted search path vulnerabilities in Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.1, when adding a host, allow local users to gain privileges via a Trojan horse (1) deployUtil.py or (2) vds_bootstrap.py Python module in /tmp/.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1506.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+- http://rhn.redhat.com/errata/RHSA-2012-1508.html
+- http://www.securityfocus.com/bid/56825
+- http://www.securitytracker.com/id?1027838
+- https://bugzilla.redhat.com/show_bug.cgi?id=790730
+
+---
+
+#### 2634. CVE-2012-0861
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+The vds_installer in Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.1, when adding a host, uses the -k curl parameter when downloading deployUtil.py and vds_bootstrap.py, which prevents SSL certificates from being validated and allows remote attackers to execute arbitrary Python code via a man-in-the-middle attack.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1505.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1505.html
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+- http://rhn.redhat.com/errata/RHSA-2012-1508.html
+- http://www.securityfocus.com/bid/56825
+- http://www.securitytracker.com/id?1027838
+
+---
+
+#### 2635. CVE-2012-2696
+
+**严重程度 / Severity**: N/A | CVSS: 2.7
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+The backend in Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.1 does not properly check privileges, which allows remote authenticated users to query arbitrary information via a (1) SOAP or (2) GWT request.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1506.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+- http://www.securityfocus.com/bid/56825
+- http://www.securitytracker.com/id?1027838
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/80545
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+
+---
+
+#### 2636. CVE-2012-3538
+
+**严重程度 / Severity**: N/A | CVSS: 3.3
+**受影响产品 / Affected Products**: redhat:cloudforms
+
+**漏洞描述 / Description**:
+Pulp in Red Hat CloudForms before 1.1 logs administrative passwords in a world-readable file, which allows local users to read pulp administrative passwords by reading production.log.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/88139.
+
+**参考链接 / References**:
+- http://osvdb.org/88139
+- http://rhn.redhat.com/errata/RHSA-2012-1543.html
+- http://secunia.com/advisories/51472
+- http://www.securityfocus.com/bid/56819
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/80547
+
+---
+
+#### 2637. CVE-2012-4543
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:certificate_system
+
+**漏洞描述 / Description**:
+Multiple cross-site scripting (XSS) vulnerabilities in Red Hat Certificate System (RHCS) before 8.1.3 allow remote attackers to inject arbitrary web script or HTML via the (1) pageStart or (2) pageSize to the displayCRL script, or (3) nonce variable to the profileProcess script.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1550.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1550.html
+- http://rhn.redhat.com/errata/RHSA-2013-0511.html
+- http://secunia.com/advisories/51482
+- http://www.securityfocus.com/bid/56843
+- http://www.securitytracker.com/id?1027846
+
+---
+
+#### 2638. CVE-2012-4555
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: redhat:certificate_system
+
+**漏洞描述 / Description**:
+The token processing system (pki-tps) in Red Hat Certificate System (RHCS) before 8.1.3 does not properly handle interruptions of token format operations, which allows remote attackers to cause a denial of service (NULL pointer dereference and Apache httpd web server child process crash) via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1550.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1550.html
+- http://secunia.com/advisories/51482
+- http://www.securityfocus.com/bid/56843
+- http://www.securitytracker.com/id?1027846
+- https://bugzilla.redhat.com/show_bug.cgi?id=869570
+
+---
+
+#### 2639. CVE-2012-4556
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: redhat:certificate_system
+
+**漏洞描述 / Description**:
+The token processing system (pki-tps) in Red Hat Certificate System (RHCS) before 8.1.3 allows remote attackers to cause a denial of service (Apache httpd web server child process restart) via certain unspecified empty search fields in a user certificate search query.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1550.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1550.html
+- http://secunia.com/advisories/51482
+- http://www.securityfocus.com/bid/56843
+- http://www.securitytracker.com/id?1027846
+- https://bugzilla.redhat.com/show_bug.cgi?id=869579
+
+---
+
+#### 2640. CVE-2012-4574
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:cloudforms
+
+**漏洞描述 / Description**:
+Pulp in Red Hat CloudForms before 1.1 uses world-readable permissions for pulp.conf, which allows local users to read the administrative password by reading this file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/88138.
+
+**参考链接 / References**:
+- http://osvdb.org/88138
+- http://rhn.redhat.com/errata/RHSA-2012-1543.html
+- http://secunia.com/advisories/51472
+- http://www.securityfocus.com/bid/56819
+- https://bugzilla.redhat.com/show_bug.cgi?id=872487
+
+---
+
+#### 2641. CVE-2012-5516
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+Red Hat Enterprise Virtualization Manager (RHEV-M) before 3.1, when moving disks between storage domains, does not properly wipe-after-delete, which prevents disks from being securely deleted and might allow local users to obtain sensitive information via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1506.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+- http://www.securityfocus.com/bid/56825
+- http://www.securitytracker.com/id?1027838
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/80546
+- http://rhn.redhat.com/errata/RHSA-2012-1506.html
+
+---
+
+#### 2642. CVE-2012-5603
+
+**严重程度 / Severity**: N/A | CVSS: 5.5
+**受影响产品 / Affected Products**: redhat:cloudforms
+
+**漏洞描述 / Description**:
+proxies_controller.rb in Katello in Red Hat CloudForms before 1.1 does not properly check permissions, which allows remote authenticated users to read consumer certificates or change arbitrary users' settings via unspecified vectors related to the "consumer UUID" of a system.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/88140.
+
+**参考链接 / References**:
+- http://osvdb.org/88140
+- http://osvdb.org/88142
+- http://rhn.redhat.com/errata/RHSA-2012-1543.html
+- http://rhn.redhat.com/errata/RHSA-2013-0544.html
+- http://secunia.com/advisories/51472
+
+---
+
+#### 2643. CVE-2012-5605
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:cloudforms
+
+**漏洞描述 / Description**:
+Grinder in Red Hat CloudForms before 1.1 uses world-writable permissions for /var/lib/pulp/cache/grinder/, which allows local users to modify grinder cache files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/88141.
+
+**参考链接 / References**:
+- http://osvdb.org/88141
+- http://rhn.redhat.com/errata/RHSA-2012-1543.html
+- http://secunia.com/advisories/51472
+- http://www.securityfocus.com/bid/56819
+- https://bugzilla.redhat.com/show_bug.cgi?id=828447
+
+---
+
+#### 2644. CVE-2012-4820
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: ibm:lotus_notes_traveler, ibm:tivoli_monitoring, ibm:tivoli_remote_control, ibm:service_delivery_manager, ibm:rational_change
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the JRE component in IBM Java 7 SR2 and earlier, Java 6.0.1 SR3 and earlier, Java 6 SR11 and earlier, Java 5 SR14 and earlier, and Java 142 SR13 FP13 and earlier; as used in IBM Rational Host On-Demand, Rational Change, Tivoli Monitoring, Smart Analytics System 5600, Tivoli Remote Control 5.1.2, WebSphere Real Time, Lotus Notes & Domino, Tivoli Storage Productivity Center, and Service Deliver Manager; and other products from other vendors such as Red Hat, when running under a security manager, allows remote attackers to gain privileges by modifying or removing the security manager via vectors related to "insecure use of the java.lang.reflect.Method invoke() method."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1465.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1465.html
+- http://rhn.redhat.com/errata/RHSA-2012-1466.html
+- http://rhn.redhat.com/errata/RHSA-2012-1467.html
+- http://rhn.redhat.com/errata/RHSA-2013-1455.html
+- http://rhn.redhat.com/errata/RHSA-2013-1456.html
+
+---
+
+#### 2645. CVE-2012-4821
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: ibm:lotus_notes_traveler, ibm:tivoli_monitoring, ibm:tivoli_remote_control, ibm:service_delivery_manager, ibm:rational_change
+
+**漏洞描述 / Description**:
+Multiple unspecified vulnerabilities in the JRE component in IBM Java 7 SR2 and earlier, Java 6.0.1 SR3 and earlier, Java 6 SR11 and earlier, Java 5 SR14 and earlier, and Java 142 SR13 FP13 and earlier; as used in IBM Rational Host On-Demand, Rational Change, Tivoli Monitoring, Smart Analytics System 5600, Tivoli Remote Control 5.1.2, WebSphere Real Time, Lotus Notes & Domino, Tivoli Storage Productivity Center, and Service Deliver Manager; and other products from other vendors such as Red Hat, allow remote attackers to execute arbitrary code via "insecure use" of the (1) java.lang.Class getDeclaredMethods or nd (2) java.lang.reflect.AccessibleObject setAccessible() methods.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1467.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1467.html
+- http://seclists.org/bugtraq/2012/Sep/38
+- http://secunia.com/advisories/51326
+- http://secunia.com/advisories/51634
+- http://www-01.ibm.com/support/docview.wss?uid=swg1IV29659
+
+---
+
+#### 2646. CVE-2012-4822
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: ibm:lotus_notes_traveler, ibm:tivoli_monitoring, ibm:tivoli_remote_control, ibm:service_delivery_manager, ibm:rational_change
+
+**漏洞描述 / Description**:
+Multiple unspecified vulnerabilities in the JRE component in IBM Java 7 SR2 and earlier, Java 6.0.1 SR3 and earlier, Java 6 SR11 and earlier, Java 5 SR14 and earlier, and Java 142 SR13 FP13 and earlier; as used in IBM Rational Host On-Demand, Rational Change, Tivoli Monitoring, Smart Analytics System 5600, Tivoli Remote Control 5.1.2, WebSphere Real Time, Lotus Notes & Domino, Tivoli Storage Productivity Center, and Service Deliver Manager; and other products from other vendors such as Red Hat, allow remote attackers to execute arbitrary code via vectors related to "insecure use [of] multiple methods in the java.lang.class class."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1465.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1465.html
+- http://rhn.redhat.com/errata/RHSA-2012-1466.html
+- http://rhn.redhat.com/errata/RHSA-2012-1467.html
+- http://rhn.redhat.com/errata/RHSA-2013-1455.html
+- http://rhn.redhat.com/errata/RHSA-2013-1456.html
+
+---
+
+#### 2647. CVE-2012-4823
+
+**严重程度 / Severity**: N/A | CVSS: 9.3
+**受影响产品 / Affected Products**: ibm:lotus_notes_traveler, ibm:tivoli_monitoring, ibm:tivoli_remote_control, ibm:service_delivery_manager, ibm:rational_change
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the JRE component in IBM Java 7 SR2 and earlier, Java 6.0.1 SR3 and earlier, Java 6 SR11 and earlier, Java 5 SR14 and earlier, and Java 142 SR13 FP13 and earlier; as used in IBM Rational Host On-Demand, Rational Change, Tivoli Monitoring, Smart Analytics System 5600, Tivoli Remote Control 5.1.2, WebSphere Real Time, Lotus Notes & Domino, Tivoli Storage Productivity Center, and Service Deliver Manager; and other products from other vendors such as Red Hat, allows remote attackers to execute arbitrary code via vectors related to "insecure use of the java.lang.ClassLoder defineClass() method."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2012-1466.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2012-1466.html
+- http://rhn.redhat.com/errata/RHSA-2012-1467.html
+- http://rhn.redhat.com/errata/RHSA-2013-1455.html
+- http://rhn.redhat.com/errata/RHSA-2013-1456.html
+- http://seclists.org/bugtraq/2012/Sep/38
+
+---
+
+#### 2648. CVE-2012-2124
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: squirrelmail:squirrelmail, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+functions/imap_general.php in SquirrelMail, as used in Red Hat Enterprise Linux (RHEL) 4 and 5, does not properly handle 8-bit characters in passwords, which allows remote attackers to cause a denial of service (disk consumption) by making many IMAP login attempts with different usernames, leading to the creation of many preference files.  NOTE: this issue exists because of an incorrect fix for CVE-2010-2813.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0126.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0126.html
+- http://secunia.com/advisories/51730
+- http://www.openwall.com/lists/oss-security/2012/04/20/22
+- https://bugzilla.redhat.com/show_bug.cgi?id=814671
+- http://rhn.redhat.com/errata/RHSA-2013-0126.html
+
+---
+
+#### 2649. CVE-2012-2697
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in autofs, as used in Red Hat Enterprise Linux (RHEL) 5, allows local users to cause a denial of service (autofs crash and delayed mounts) or prevent "mount expiration" via unspecified vectors related to "using an LDAP-based automount map."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705.
+
+**参考链接 / References**:
+- http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10705
+- http://rhn.redhat.com/errata/RHSA-2013-0132.html
+- http://www.osvdb.org/89878
+- http://www.securityfocus.com/bid/57183
+- https://bugzilla.redhat.com/show_bug.cgi?id=831772
+
+---
+
+#### 2650. CVE-2012-5646
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: redhat:openshift, redhat:openshift_origin
+
+**漏洞描述 / Description**:
+node-util/www/html/restorer.php in the Red Hat OpenShift Origin before 1.0.5-3 allows remote attackers to execute arbitrary commands via a crafted uuid in the PATH_INFO.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0148.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0148.html
+- http://www.osvdb.org/89431
+- http://www.securityfocus.com/bid/57189
+- https://bugzilla.redhat.com/show_bug.cgi?id=888518
+- https://github.com/openshift/origin-server/commit/32564a0839b1517d762afab2013c26c0959bac00
+
+---
+
+#### 2651. CVE-2012-5647
+
+**严重程度 / Severity**: N/A | CVSS: 5.8
+**受影响产品 / Affected Products**: redhat:openshift, redhat:openshift_origin
+
+**漏洞描述 / Description**:
+Open redirect vulnerability in node-util/www/html/restorer.php in Red Hat OpenShift Origin before 1.0.5-3 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the PATH_INFO.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0148.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0148.html
+- http://www.osvdb.org/89430
+- http://www.securityfocus.com/bid/57189
+- https://bugzilla.redhat.com/show_bug.cgi?id=888523
+- https://github.com/openshift/origin-server/commit/32564a0839b1517d762afab2013c26c0959bac00
+
+---
+
+#### 2652. CVE-2012-5658
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:openshift, redhat:openshift_origin
+
+**漏洞描述 / Description**:
+rhc-chk.rb in Red Hat OpenShift Origin before 1.1, when -d (debug mode) is used, outputs the password and other sensitive information in cleartext, which allows context-dependent attackers to obtain sensitive information, as demonstrated by including log files or Bugzilla reports in support channels.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0220.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0220.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=889062
+- http://rhn.redhat.com/errata/RHSA-2013-0220.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=889062
+
+---
+
+#### 2653. CVE-2013-0164
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: redhat:openshift, redhat:openshift_origin
+
+**漏洞描述 / Description**:
+The lockwrap function in port-proxy/bin/openshift-port-proxy-cfg in Red Hat OpenShift Origin before 1.1 allows local users to overwrite arbitrary files via a symlink attack on a temporary file with a predictable name in /tmp.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0220.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0220.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=893307
+- https://github.com/openshift/origin-server/commit/524465f70a32d0eb6bf047e6a05c76c22d52bfa2
+- https://github.com/openshift/origin-server/pull/1136
+- http://rhn.redhat.com/errata/RHSA-2013-0220.html
+
+---
+
+#### 2654. CVE-2012-5604
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:cloudforms
+
+**漏洞描述 / Description**:
+The ldap_fluff gem for Ruby, as used in Red Hat CloudForms 1.1, when using Active Directory for authentication, allows remote attackers to bypass authentication via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0544.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0544.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=882136
+- http://rhn.redhat.com/errata/RHSA-2013-0544.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=882136
+
+---
+
+#### 2655. CVE-2012-5509
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:cloudforms_cloud_engine
+
+**漏洞描述 / Description**:
+aeolus-configserver-setup in the Aeolas Configuration Server, as used in Red Hat CloudForms Cloud Engine before 1.1.2, uses world-readable permissions for a temporary file in /tmp, which allows local users to read credentials by reading this file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0545.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0545.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=875294
+- http://rhn.redhat.com/errata/RHSA-2013-0545.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=875294
+
+---
+
+#### 2656. CVE-2012-6117
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:cloudforms_cloud_engine
+
+**漏洞描述 / Description**:
+Aeolus Configuration Server, as used in Red Hat CloudForms Cloud Engine before 1.1.2, uses world-readable permissions for /var/log/aeolus-configserver/configserver.log, which allows local users to read plaintext passwords by reading the log file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0545.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0545.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=875294
+- http://rhn.redhat.com/errata/RHSA-2013-0545.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=875294
+
+---
+
+#### 2657. CVE-2012-6115
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+The domain management tool (rhevm-manage-domains) in Red Hat Enterprise Virtualization Manager (RHEV-M) 3.1 and earlier, when the validate action is enabled, logs the administrative password to a world-readable log file, which allows local users to obtain sensitive information by reading this file.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://gerrit.ovirt.org/gitweb?p=ovirt-engine.git%3Ba=commit%3Bh=e8c72daec4efa8be0fcd8ea55c41e855ddd8eedf.
+
+**参考链接 / References**:
+- http://gerrit.ovirt.org/gitweb?p=ovirt-engine.git%3Ba=commit%3Bh=e8c72daec4efa8be0fcd8ea55c41e855ddd8eedf
+- http://rhn.redhat.com/errata/RHSA-2013-0211.html
+- http://www.securityfocus.com/bid/57749
+- http://www.securitytracker.com/id/1028076
+- https://bugzilla.redhat.com/show_bug.cgi?id=893355
+
+---
+
+#### 2658. CVE-2013-0168
+
+**严重程度 / Severity**: N/A | CVSS: 4.0
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+The MoveDisk command in Red Hat Enterprise Virtualization Manager (RHEV-M) 3.1 and earlier does not properly check permissions on storage domains, which allows remote authenticated storage admins to cause a denial of service (free space consumption of other storage domains) via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0211.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0211.html
+- http://www.securityfocus.com/bid/57750
+- http://www.securitytracker.com/id/1028076
+- https://bugzilla.redhat.com/show_bug.cgi?id=893355
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/81834
+
+---
+
+#### 2659. CVE-2012-4462
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: condor_project:condor, redhat:enterprise_mrg
+
+**漏洞描述 / Description**:
+aviary/jobcontrol.py in Condor, as used in Red Hat Enterprise MRG 2.3, when removing a job, allows remote attackers to cause a denial of service (condor_schedd restart) via square brackets in the cproc option.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0564.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0564.html
+- http://rhn.redhat.com/errata/RHSA-2013-0565.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=860850
+- https://htcondor-git.cs.wisc.edu/?p=condor.git%3Ba=commitdiff%3Bh=8f9b304c4f6c0a98dafa61b2c0e4beb3b70e4c84
+- http://rhn.redhat.com/errata/RHSA-2013-0564.html
+
+---
+
+#### 2660. CVE-2012-6119
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: candlepinproject:candlepin, redhat:subscription_asset_manager
+
+**漏洞描述 / Description**:
+Candlepin before 0.7.24, as used in Red Hat Subscription Asset Manager before 1.2.1, does not properly check manifest signatures, which allows local users to modify manifests.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0686.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0686.html
+- http://secunia.com/advisories/52774
+- http://www.osvdb.org/91719
+- https://bugzilla.redhat.com/show_bug.cgi?id=908613
+- https://github.com/candlepin/candlepin/blob/master/candlepin.spec
+
+---
+
+#### 2661. CVE-2013-1823
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:subscription_asset_manager
+
+**漏洞描述 / Description**:
+Cross-site scripting (XSS) vulnerability in the Notifications form in Red Hat Subscription Asset Manager before 1.2.1 allows remote attackers to inject arbitrary web script or HTML via the username field.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0686.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0686.html
+- http://secunia.com/advisories/52774
+- http://www.osvdb.org/91718
+- https://bugzilla.redhat.com/show_bug.cgi?id=918784
+- http://rhn.redhat.com/errata/RHSA-2013-0686.html
+
+---
+
+#### 2662. CVE-2012-4546
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The default configuration for IPA servers in Red Hat Enterprise Linux 6, when revoking a certificate from an Identity Management replica, does not properly update another Identity Management replica, which causes inconsistent Certificate Revocation Lists (CRLs) to be used and might allow remote attackers to bypass intended access restrictions via a revoked certificate.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0528.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0528.html
+- http://rhn.redhat.com/errata/RHSA-2013-0528.html
+
+---
+
+#### 2663. CVE-2012-5635
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:storage_server, redhat:storage_native_client, gluster:glusterfs, redhat:storage_management_console
+
+**漏洞描述 / Description**:
+The GlusterFS functionality in Red Hat Storage Management Console 2.0, Native Client, and Server 2.0 allows local users to overwrite arbitrary files via a symlink attack on multiple temporary files created by (1) tests/volume.rc, (2) extras/hook-scripts/S30samba-stop.sh, and possibly other vectors, different vulnerabilities than CVE-2012-4417.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0691.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0691.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=886364
+- http://rhn.redhat.com/errata/RHSA-2013-0691.html
+- https://bugzilla.redhat.com/show_bug.cgi?id=886364
+
+---
+
+#### 2664. CVE-2012-6120
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: redhat:openstack_essex, redhat:openstack_folsom
+
+**漏洞描述 / Description**:
+Red Hat OpenStack Essex and Folsom creates the /var/log/puppet directory with world-readable permissions, which allows local users to obtain sensitive information such as Puppet log files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0710.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0710.html
+- http://rhn.redhat.com/errata/RHSA-2013-0710.html
+
+---
+
+#### 2665. CVE-2012-6137
+
+**严重程度 / Severity**: N/A | CVSS: 4.3
+**受影响产品 / Affected Products**: redhat:enterprise_linux_eus, redhat:enterprise_linux, redhat:enterprise_linux_server_aus, redhat:enterprise_linux_workstation, redhat:enterprise_linux_hpc_node
+
+**漏洞描述 / Description**:
+rhn-migrate-classic-to-rhsm tool in Red Hat subscription-manager does not verify the Red Hat Network Classic server's X.509 certificate when migrating to a Certificate-based Red Hat Network, which allows remote man-in-the-middle attackers to obtain sensitive information such as user credentials.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://osvdb.org/93058.
+
+**参考链接 / References**:
+- http://osvdb.org/93058
+- http://rhn.redhat.com/errata/RHSA-2013-0788.html
+- http://secunia.com/advisories/53330
+- http://www.securityfocus.com/bid/59674
+- http://www.securitytracker.com/id/1028520
+
+---
+
+#### 2666. CVE-2013-2069
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: redhat:livecd-tools
+
+**漏洞描述 / Description**:
+Red Hat livecd-tools before 13.4.4, 17.x before 17.17, 18.x before 18.16, and 19.x before 19.3, when a rootpw directive is not set in a Kickstart file, sets the root user password to empty, which allows local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0849.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0849.html
+- http://www.openwall.com/lists/oss-security/2013/05/23/2
+- http://www.securityfocus.com/bid/60119
+- https://aws.amazon.com/security/security-bulletins/red-hat-and-other-third-party-public-amis-security-concern/
+- https://bugzilla.redhat.com/show_bug.cgi?id=964299
+
+---
+
+#### 2667. CVE-2011-2482
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+A certain Red Hat patch to the sctp_sock_migrate function in net/sctp/socket.c in the Linux kernel before 2.6.21, as used in Red Hat Enterprise Linux (RHEL) 5, allows remote attackers to cause a denial of service (NULL pointer dereference and OOPS) via a crafted SCTP packet.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://ftp.osuosl.org/pub/linux/kernel/v2.6/ChangeLog-2.6.21.
+
+**参考链接 / References**:
+- http://ftp.osuosl.org/pub/linux/kernel/v2.6/ChangeLog-2.6.21
+- http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=ea2bc483ff5caada7c4aa0d5fbf87d3a6590273d
+- http://rhn.redhat.com/errata/RHSA-2011-1212.html
+- http://www.openwall.com/lists/oss-security/2011/08/30/1
+- https://bugzilla.redhat.com/show_bug.cgi?id=714867
+
+---
+
+#### 2668. CVE-2011-2693
+
+**严重程度 / Severity**: N/A | CVSS: 1.9
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+The perf subsystem in the kernel package 2.6.32-122.el6.x86_64 in Red Hat Enterprise Linux (RHEL) 6 does not properly handle NMIs, which might allow local users to cause a denial of service (excessive log messages) via unspecified vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=688547.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=688547
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=fadca7bdc43b02f518585d9547019966415cadfd
+- https://bugzilla.redhat.com/show_bug.cgi?id=688547
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=fadca7bdc43b02f518585d9547019966415cadfd
+
+---
+
+#### 2669. CVE-2011-2942
+
+**严重程度 / Severity**: N/A | CVSS: 6.8
+**受影响产品 / Affected Products**: redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+A certain Red Hat patch to the __br_deliver function in net/bridge/br_forward.c in the Linux kernel 2.6.18 on Red Hat Enterprise Linux (RHEL) 5 allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact by leveraging connectivity to a network interface that uses an Ethernet bridge device.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2011/10/24/3.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2011/10/24/3
+- https://bugzilla.redhat.com/show_bug.cgi?id=730917
+- http://www.openwall.com/lists/oss-security/2011/10/24/3
+- https://bugzilla.redhat.com/show_bug.cgi?id=730917
+
+---
+
+#### 2670. CVE-2011-3347
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+A certain Red Hat patch to the be2net implementation in the kernel package before 2.6.32-218.el6 on Red Hat Enterprise Linux (RHEL) 6, when promiscuous mode is enabled, allows remote attackers to cause a denial of service (system crash) via non-member VLAN packets.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.redhat.com/show_bug.cgi?id=736425.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=736425
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=fadca7bdc43b02f518585d9547019966415cadfd
+- https://bugzilla.redhat.com/show_bug.cgi?id=736425
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=fadca7bdc43b02f518585d9547019966415cadfd
+
+---
+
+#### 2671. CVE-2011-3593
+
+**严重程度 / Severity**: N/A | CVSS: 5.7
+**受影响产品 / Affected Products**: redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+A certain Red Hat patch to the vlan_hwaccel_do_receive function in net/8021q/vlan_core.c in the Linux kernel 2.6.32 on Red Hat Enterprise Linux (RHEL) 6 allows remote attackers to cause a denial of service (system crash) via priority-tagged VLAN frames.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://www.openwall.com/lists/oss-security/2012/03/05/3.
+
+**参考链接 / References**:
+- http://www.openwall.com/lists/oss-security/2012/03/05/3
+- https://bugzilla.redhat.com/show_bug.cgi?id=742846
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=0e48f8daac293335e16e007663b9f4d248f89f0c
+- https://oss.oracle.com/git/?p=redpatch.git%3Ba=commit%3Bh=fadca7bdc43b02f518585d9547019966415cadfd
+- http://www.openwall.com/lists/oss-security/2012/03/05/3
+
+---
+
+#### 2672. CVE-2013-2144
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: redhat:enterprise_virtualization_manager
+
+**漏洞描述 / Description**:
+Red Hat Enterprise Virtualization Manager (RHEVM) before 3.2 does not properly check permissions for the target storage domain, which allows attackers to cause a denial of service (disk space consumption) by cloning a VM from a snapshot.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0888.html.
+
+**参考链接 / References**:
+- http://rhn.redhat.com/errata/RHSA-2013-0888.html
+- http://rhn.redhat.com/errata/RHSA-2013-0888.html
 
 ---
