@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9022**
+**总计条目 / Total entries: 9070**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -123207,5 +123207,629 @@ This is only a preliminary answer at the moment of writing. I have the same prob
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1199310/windows-print-server-incorrectly-sending-xps-data-directly-to-ipp-printers
+
+---
+
+#### 9023. A simple Eject from command line please
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, macos, eject | Score: 4 | Views: 763 | Answers: 4 | Created: 2026-08-03
+
+**解决方案 / Solution**:
+#!/usr/bin/env bash DRIVE="$1" if [ -z "$DRIVE" ]; then echo "Usage:" echo " $0 windows-drive-letter: | linux-/dev/name | macos-disk-id" echo echo "Uses PowerShell for Windows, udisksctl for Linux or diskutil for macOS" echo "to perform the equivalent of:" echo " File Explorer -> right-click drive -> Eject" echo echo "Look mom; no safety net!" exit 1 fi case "$(uname -s)" in MINGW*|MSYS*|CYGWIN*) echo "Windows Eject" [[ "$DRIVE" != *\\ ]] && DRIVE="${DRIVE}\\" powershell.exe -NoProfile -Command " \$shell = New-Object -ComObject Shell.Application \$item = \$shell.Namespace(17).ParseName('${DRIVE}') \$item.InvokeVerb('Eject') " ;; Linux*) if command -v udisksctl >/dev/null; then echo "Linux, udisksctl unmount and power off" udisksctl unmount -b "$DRIVE" && udisksctl power-off -b "$DRIVE" else echo "Linux, no udisksctl; unmount" umount "$DRIVE" fi ;; Darwin*) echo "macOS, eject" diskutil eject "$DRIVE" ;; *) echo "Unsupported OS: $(uname -s), "\ "find a way and report it at "\ "https://superuser.com/a/1939454/346288" exit 1 ;; esac Besides, windows File Explorer - right click - Eject seems flaky a little bit too often - next time you use the removable drive it has to be "fixed". My experience from the first simple versions of the above is that the powershell command appears MUCH less prone to create that situation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939453/a-simple-eject-from-command-line-please
+
+---
+
+#### 9024. Customise Windows Start Menu Folders
+
+**问题描述 / Problem Description**:
+Tags: windows-11, start-menu, desktop-customization, windows-11-25h2 | Score: 1 | Views: 83 | Answers: 1 | Created: 2026-07-31
+
+**解决方案 / Solution**:
+To remove a start menu folder, click and drag all the icons out of it (or right click and unpin them) and it will disappear To move a folder, click and drag it to change the order of the start menu items To rename a folder, click it to open the folder, then click the folder's name in the pop up window to type in a new one See more detailed steps here: https://www.microsoft.com/en-us/windows/learning-center/start-menu-folders In corporate or managed environments, there are policies that can allow or prevent modifying the start menu layouts, in case click and drag isn't working for you
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939411/customise-windows-start-menu-folders
+
+---
+
+#### 9025. Can Google Chrome be set as the passkey provider for other Windows apps?
+
+**问题描述 / Problem Description**:
+Tags: google-chrome, windows-11, passkey | Score: 0 | Views: 16 | Answers: 1 | Created: 2026-08-04
+
+**解决方案 / Solution**:
+No. Using Google's search engine: site:blog.google passkey windows Currently, there are 4 Google blog posts which mention passkeys and Windows. The most recent one is dated 2024-09-19 . But the relevant feature in Microsoft Windows was rolled out around 2025-11-03 , more than a year later. And 1Password claimed to be the first non-Microsoft app to make use of it. I checked by signing in to Google Chrome (151.0.7922.72), and setting up credential sync. At no point was I able to set Google as the system-level provider, or find such an option under chrome://settings/autofill . Google / Chrome did not appear in Windows Settings, Accounts > Passkeys, Advanced options "Manage where your passkeys are saved". The only option was "Save passkeys to this Windows device". Because there was only one option there, it was greyed out and could not be turned off.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939481/can-google-chrome-be-set-as-the-passkey-provider-for-other-windows-apps
+
+---
+
+#### 9026. Recover deleted audios of crimes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfltxs/recover_deleted_audios_of_crimes/
+
+---
+
+#### 9027. My pc freezes exactly once per gaming session
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfated/my_pc_freezes_exactly_once_per_gaming_session/
+
+---
+
+#### 9028. New PC bluescreens "Memory Management" code occasionally. Windows Memory Diagnostic came back clean. Reading a Memory.DMP says there's a corrupt PTE but I have no idea where to go from here.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfk7ie/new_pc_bluescreens_memory_management_code/
+
+---
+
+#### 9029. Persistent DWM/UI/browser/video stutter on Ryzen 9 9950X3D + X870E
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vf9ks7/persistent_dwmuibrowservideo_stutter_on_ryzen_9/
+
+---
+
+#### 9030. PC fails to boot with certain USB devices plugged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfic16/pc_fails_to_boot_with_certain_usb_devices_plugged/
+
+---
+
+#### 9031. Help with slow pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfoc1f/help_with_slow_pc/
+
+---
+
+#### 9032. HDMI switcher makes USB-C touchscreen stop working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfo8vl/hdmi_switcher_makes_usbc_touchscreen_stop_working/
+
+---
+
+#### 9033. My PC blew up.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfo8sb/my_pc_blew_up/
+
+---
+
+#### 9034. problem with the built-in Notepad app from Huawei
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfo5hu/problem_with_the_builtin_notepad_app_from_huawei/
+
+---
+
+#### 9035. Discord randomly gets stuck on "Starting" or opens to a black screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfnzpp/discord_randomly_gets_stuck_on_starting_or_opens/
+
+---
+
+#### 9036. I can't open any of my files on the MediaFire App on iOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfnujw/i_cant_open_any_of_my_files_on_the_mediafire_app/
+
+---
+
+#### 9037. Explorer.exe class not registered
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfnj93/explorerexe_class_not_registered/
+
+---
+
+#### 9038. Server not accepting drives
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfnfkq/server_not_accepting_drives/
+
+---
+
+#### 9039. 240hz monitor stuck at 165hz
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfnbfz/240hz_monitor_stuck_at_165hz/
+
+---
+
+#### 9040. I have random photos fo palantir trades that theres no physical way i could of put them on my phone and more keep appearing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfn8ef/i_have_random_photos_fo_palantir_trades_that/
+
+---
+
+#### 9041. Error message c drive check and repair everytime i boot up my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfn2mn/error_message_c_drive_check_and_repair_everytime/
+
+---
+
+#### 9042. Surface 9 Pro with a docking station?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfmv0m/surface_9_pro_with_a_docking_station/
+
+---
+
+#### 9043. How to stop links to redirect in another app?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfch4d/how_to_stop_links_to_redirect_in_another_app/
+
+---
+
+#### 9044. HWiNFO portable would suddenly not start anymore - caused by Win11 settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfmevj/hwinfo_portable_would_suddenly_not_start_anymore/
+
+---
+
+#### 9045. My computer overheated and won’t turn on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfmcx0/my_computer_overheated_and_wont_turn_on/
+
+---
+
+#### 9046. i cant delete a file
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfmbk7/i_cant_delete_a_file/
+
+---
+
+#### 9047. Touchpad lagging after 2-3 hours of use
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfm5jx/touchpad_lagging_after_23_hours_of_use/
+
+---
+
+#### 9048. My phone is convinced I’m in Italy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vflyti/my_phone_is_convinced_im_in_italy/
+
+---
+
+#### 9049. Laptop stays on even after Closing lid. I have set it to hybernate
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vfbigf/laptop_stays_on_even_after_closing_lid_i_have_set/
+
+---
+
+#### 9050. [V2EX] 用惯了 MacOS 启动台 Launchpad，于是我创建了 Windows 版的 Launchpad
+
+**问题描述 / Problem Description**:
+大家好，我最近在做一个 Windows 小工具，叫 StartPad 。 一个适合 Windows 的全屏启动台，灵感有点类似 macOS Launchpad ，但 UI 也部分使用了 Fluent 风格。 我的目标是让 Windows 用户可以更方便地打开应用、整理应用、减少桌面快捷方式的堆积，也不用每次都从开始菜单里找软件。体积非常小只有 1M 多，完全原生开发、GPU 加速。 目前已有功能： 全屏应用启动台 快速搜索并打开应用 支持应用文件夹整理 支持右键 卸载、创建桌面快捷方式 支持快捷键呼出 支持浅色 / 深色模式 将 StartPad 固定到 任务栏，使用 Win + 1 这样的快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1221570#reply70
+
+---
+
+#### 9051. [V2EX] 有什么好的大流量服务器推荐么
+
+**问题描述 / Problem Description**:
+使用场景 我需要租用一台服务器，主要用于以下操作： 网盘文件下载 ：从百度网盘、迅雷网盘等平台下载大文件到服务器 文件上传/转存 ：将下载的文件上传到其他网盘，或在不同网盘之间进行转存操作 长期挂机 ：服务器需要长时间运行下载和上传任务 各位有什么推荐的吗 价格不要太离谱就行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232139#reply0
+
+---
+
+#### 9052. [V2EX] chatgpt 的线程上下文、云端记忆可以迁移吗？
+
+**问题描述 / Problem Description**:
+有点用不起 Codex 了。我主要就是用来扫描文档，写一些文档。也会写一些程序，但主要不是干开发的 我发现 Codex 简直有点用不起了，之前时不时重置的时候，plus 还顶得住，最近没重置了，一个周的额度两三天就跑完了。最开始还是 sol 极高再跑，后来换成 terra 高，额度消耗速度好像也没差太多。实在顶不住了。这一周才过去三天，周额度已经跑完了 这样子看起来不升级 pro 简直不够用了，但是 pro 有点太贵了，5x 就要 100 刀。想换便宜一点的模型了，kimi 、glm 或者 deepseek （ deepseek 不能处理图片是硬伤啊，我扫描的 word 文档里面很多图片需要理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232128#reply0
+
+---
+
+#### 9053. [V2EX] 我依旧没有找到完美的硬件冷钱包，大家有推荐的么？
+
+**问题描述 / Problem Description**:
+大家有推荐的硬件冷钱包么？我使用了 onekey 我发现他依然不够安全，因为这个钱包要完全依赖官方不作恶的前提下才能保证安全，虽然他是开源的，但是我还是无法保证硬件运行的固件就是开源的固件，有人说可以做重建比对 hash ，但是你也无法确认硬钱包固件显示的 hash 不是人为故意造成的，而且 onekey 升级固件是强制性的，谁都无法保证他不会引入安全问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232108#reply0
+
+---
+
+#### 9054. [V2EX] 懒猫 AI 算力舱值得入手吗？有入手的老铁说说使用感受么？
+
+**问题描述 / Problem Description**:
+现在纠结是配置一台 5090D 显卡的电脑 还是直接买一台懒猫 AI 算力舱 能流畅的使用 ComfyUI ，使用各种开源模型 老铁们有性价比高的方案推荐么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232093#reply1
+
+---
+
+#### 9055. [V2EX] 现在做 mac 和 Windows 桌面软件开发还好做吗？
+
+**问题描述 / Problem Description**:
+有没有做桌面软件的朋友？现在做 mac 和 Windows 桌面软件开发还好做吗？ AI 冲击会不会很大？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232059#reply1
+
+---
+
+#### 9056. [V2EX] opencode 可以设置信任工作目录吗？
+
+**问题描述 / Problem Description**:
+有兄弟知道 opencode 可以设置信任工作目录么，信任的目录任意读写都可以，目录之外要提示，能设置？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232048#reply0
+
+---
+
+#### 9057. [V2EX] 有从 Giffgaff 转 CTExcel 的同学吗？如何保号？
+
+**问题描述 / Problem Description**:
+我看官网的意思，不购买套餐按标准交费扣费。 而 90 天有正常使用就能保号。 那如果只接收验证码用，岂不是不需要购买套餐？充点钱进去，90 天左右发条短信就可以长期拥有这个号吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232044#reply1
+
+---
+
+#### 9058. [V2EX] 智谱的模型到底怎么样
+
+**问题描述 / Problem Description**:
+发现股价那么高， 他的模型，相比较于 opus5/GPT5.6 差距大吗？ 可以作为主力开发模型吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232013#reply2
+
+---
+
+#### 9059. [V2EX] 今天有个彩礼讨论的很热烈，大家都说一下结婚都给没给彩礼，给了的给了多少，结婚七七八八花了多少
+
+**问题描述 / Problem Description**:
+观点是一方面，实践才是观点的最后一站，若观点不落地，那和法兰西第一女仆一样可笑。 我先来。 彩礼 0 ，婚礼：酒席+婚庆+其他，应该是 3-4w 左右，五金没买（后悔了），房子不算了，买的早且不结婚一样要买来住的，因为工作地和老家不在一个地方。 陪嫁：一辆汽车。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232009#reply1
+
+---
+
+#### 9060. [V2EX] 大家觉得最值得投资的事情是什么？
+
+**问题描述 / Problem Description**:
+房子 电子产品 健康 生活 灯红酒绿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231997#reply21
+
+---
+
+#### 9061. [V2EX] 有没有研究过小模型 codingagent 的
+
+**问题描述 / Problem Description**:
+最近在做一个上下文会很长的垂直领域相关 agent 开发 然后就是遇到用户不想用云端模型 但是又没有大资金去部署满血模型 所以就在研究小模型超长上下文和召回相关的方案 做的同时就想到在 coding 领域 其实很多内容也不需要智力特别满血 如果规范好限制 小模型能够满足上下文的长度 然后做一个针对小模型的 codingagent 貌似以后会是一个不错的方向 虽然现在 token 价格已经有很低了的 但是我考虑到的是 本地部署才是最有保障的 现在人对 ai 依赖太强大了 万一线上模型都掐死 那个时候会不会束手无策呢？ 所以我感觉研究本地方案 就算智力不够 只要能代工就算 甚至说是 其实现在小模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231974#reply0
+
+---
+
+#### 9062. [V2EX] 600 读 150 散光 1.74 智锐厚度影响大吗
+
+**问题描述 / Problem Description**:
+如题，v 友有配过厚度高的眼镜吗，太厚影响大吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231967#reply1
+
+---
+
+#### 9063. [V2EX] 寻求帮助:平台需要音色库,这东西去哪找资源,接受付费
+
+**问题描述 / Problem Description**:
+我们平台需要一个 可作为参考的 音色库,但是 不知道 去哪找这种资源,GPT 推荐的 都是 ML 训练的语料库.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231964#reply2
+
+---
+
+#### 9064. [V2EX] 一个竹知了，为什么会引发法务的重视
+
+**问题描述 / Problem Description**:
+一个暗讽的竹知了罢了，为什么会引发媒体限流下架，还有竹知了这个商品售卖的影响 1 、法务纯纯想体现工作量，拉满自我价值 2 、维护伟光正，打压一切不利因素 真不明白，一个正常的公司正常的决策，都不会做出这么拉的操作吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231956#reply1
+
+---
+
+#### 9065. [V2EX] ai 大模型按照 dsv4flash 的能力发展下去，很多大模型厂商会死掉，老美的用户量也会锐减
+
+**问题描述 / Problem Description**:
+ds 的模型就是大模型的斩杀线，未来 ds 的模型能力还会进一步提升，但是价格不变的话。 大模型的能力已经能满足绝大部分的用户需求，当模型的差距只是评测上面差的几分或者零点几分。 实际做事的能力相差不大的话，价格差好多倍，肯定更多人会选择便宜的模型。 有一个观点结论，就是未来大模型的发展，deepseek 这个公司一定会占有一席之地，会拥有海量用户。 个人感觉好可惜的是不能上这艘船，获取一点发展的红利。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231950#reply15
+
+---
+
+#### 9066. [V2EX] 现在还有便宜好用的模型吗？
+
+**问题描述 / Problem Description**:
+看了一下 opencode go 的套餐感觉给的量还算是可以的，不知道还有没有其他的渠道能用到更合适的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231946#reply3
+
+---
+
+#### 9067. [V2EX] 最近一直在淘宝买 EMBY 的影视库季卡，感觉自己搭一个的成本够买好多年的了，大家有没有自建影音库的案例？有哪些便宜的解决方案啊
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231944#reply26
+
+---
+
+#### 9068. [V2EX] 香港银行个人使用体验对比 中银 > 汇丰 >>>>>>>>>> 渣打
+
+**问题描述 / Problem Description**:
+App 操作体验和网页使用上，渣打就是渣渣 渣打唯一优势：月结单同时有中英双语的户主名
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231943#reply3
+
+---
+
+#### 9069. [V2EX] 梁圣的恩情马力不足了吗？你们碰到的了吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231938#reply1
+
+---
+
+#### 9070. [V2EX] 通过文稿搜集视频素材的解决方案有哪些?
+
+**问题描述 / Problem Description**:
+类似于 b 站做那个花生 AI 但是我感觉他家不是很好用 普遍的解决方案是？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231936#reply0
 
 ---

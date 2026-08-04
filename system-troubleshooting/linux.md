@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8417**
+**总计条目 / Total entries: 8454**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -117392,5 +117392,486 @@ Try to isolate the issue : Server side All your config files are correct ? Run n
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1098206/fedora-server-nslookup-error-when-running-dns
+
+---
+
+#### 8418. Linux: What happens if you try to resume from suspend-to-disk when no hibernate image or a stale hibernate image is in the swap?
+
+**问题描述 / Problem Description**:
+Tags: linux, initramfs, disk-encryption, hibernate | Score: 6 | Views: 310 | Answers: 1 | Created: 2026-08-03
+
+**解决方案 / Solution**:
+When the kernel performs hibernation it writes the special signature into the device header. When a resume is requested, the kernel checks for a valid signature and will refuse to resume from this device if the signature is not present. The signature is immediately cleared after the check and also if hibernation was not successful . As long as you ensure that a resume is attempted on every boot this protects against a stale image. You are correct that resume is synchronous. If execution reaches the code after echo N:M > /sys/power/resume it means that the resume attempt failed. Otherwise there is no verification that the hibernation image matches the currently booting system. It is also unclear how it can be verified. Consider taking the disk from a hibernated system, attaching it to another system and modifying the filesystem(s) on it. This invalidates the hibernation image.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806908/linux-what-happens-if-you-try-to-resume-from-suspend-to-disk-when-no-hibernate
+
+---
+
+#### 8419. EU Age Verification Project Mandates Hardware-Bound Attestation
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfl2nq/eu_age_verification_project_mandates/
+
+---
+
+#### 8420. NVIDIA is now supporting the LVFS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfbmk7/nvidia_is_now_supporting_the_lvfs/
+
+---
+
+#### 8421. Linux's Staging Area To Now Reject LLM-Generated Patches, Except For Real Security Fixes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfnhcs/linuxs_staging_area_to_now_reject_llmgenerated/
+
+---
+
+#### 8422. FFmpeg 9.0 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vexq8v/ffmpeg_90_released/
+
+---
+
+#### 8423. KDE Plasma 6.7.4, Bugfix Release for August
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfnfqj/kde_plasma_674_bugfix_release_for_august/
+
+---
+
+#### 8424. Lazyjournal: TUI for viewing logs from journald, auditd, file system, Docker and Podman containers, Compose stacks and Kubernetes pods
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfentw/lazyjournal_tui_for_viewing_logs_from_journald/
+
+---
+
+#### 8425. Pandoc - Twenty Years of Pandoc
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vf3xc6/pandoc_twenty_years_of_pandoc/
+
+---
+
+#### 8426. To any KDE Flatpak users
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vf1q7r/to_any_kde_flatpak_users/
+
+---
+
+#### 8427. What do you use to switch between different "contexts" on your computer?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vetsxy/what_do_you_use_to_switch_between_different/
+
+---
+
+#### 8428. Australian PC authority Morphix
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vf1git/australian_pc_authority_morphix/
+
+---
+
+#### 8429. This Month in Ladybird - July 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfkq6b/this_month_in_ladybird_july_2026/
+
+---
+
+#### 8430. VerseApp - a free open source multi-format reader app
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfn3fi/verseapp_a_free_open_source_multiformat_reader_app/
+
+---
+
+#### 8431. I've been daily-driving Linux and wondering: if I wanted to build a local tool to fix my own desktop friction, what would actually work?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfg558/ive_been_dailydriving_linux_and_wondering_if_i/
+
+---
+
+#### 8432. Docker quick start guide for the Sriracha imageboard and forum server
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vezbjz/docker_quick_start_guide_for_the_sriracha/
+
+---
+
+#### 8433. Does Linux use less RAM?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfb681/does_linux_use_less_ram/
+
+---
+
+#### 8434. [V2EX] 用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell
+
+**问题描述 / Problem Description**:
+用了好几年 i3wm ，很多自定义配置早已习惯 。 最近好不容易鼓起勇气切换到了 Hyprland ，一开始感觉是比 i3wm 顺畅，但随着使用深入，发现各种小问题有点多，特别是钉钉，日常办公必须。 于是又尝试了 Sway 、Niri ，在用 Niri 的时候发现了 DankMaterialShell ，再也不需要调试状态栏、锁屏、启动器等等一堆工具了。 Niri + DankMaterialShell 更整体更现代，连钉钉的表现也好了很多（虽然还是有小问题）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231845#reply11
+
+---
+
+#### 8435. [V2EX] 吐槽 apinebula 价格高昂+猛猛 seo 广告 v2
+
+**问题描述 / Problem Description**:
+1. 先列出充值记录 1. 先列出充值记录 1. 先列出充值记录 -------------------------------------------- -------------------------------------------- -------------------------------------------- -------------------------------------------- 2. 缓存写入异常记录 2. 缓存写入异常记录 2. 缓存写入异常记录 -------------------------------------------- ------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232137#reply0
+
+---
+
+#### 8436. [V2EX] 焯！我的 giffgaff 卡卒了，各位佬的呢？
+
+**问题描述 / Problem Description**:
+收到 giffgaff 的激活邮件后，我顺手测试了下——卡能正常收短信，官网也能看到余额。当时想着怎么着也能撑个半个月到一个月，不至于马上挂掉，结果是我太天真了。 所以也就没第一时间去申请 PAC 码。后来听说有朋友申请了 PAC ，还没正式转出，卡就依然能用。 想问问，有多少佬跟我一样，没掐好时间，卡也说没就没了？😭 最后分享一个《我享云》的 3 折优惠 有需要的自取： http://rbrandly.com/pEONk
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232136#reply4
+
+---
+
+#### 8437. [V2EX] 做了一个用 DevTools 控制台访问博客的方式
+
+**问题描述 / Problem Description**:
+闲来无事又让 AI 搓了一个新的访问博客的方式，打开： https://mabbs.github.io/ 然后按 F12 ，在里面输入 Blog.help() 就可以使用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232122#reply2
+
+---
+
+#### 8438. [V2EX] 有没有更好用的类似的开源工程 a9gent/mindfs
+
+**问题描述 / Problem Description**:
+类似这样的 https://github.com/a9gent/mindfs
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232112#reply0
+
+---
+
+#### 8439. [V2EX] 有人因为发 github 项目或者发 paper 收到过 月之暗面的邮件吗
+
+**问题描述 / Problem Description**:
+因为之前也是没有主动找他们，有一家国内科技公司类似的方式找过我，聊了 4 5 次问了一大堆问题，然后没下文后面他们自己上线了类似的项目。 想问下大家有没有跟月之暗面打过类似的交道。 之前的那一家是要投资，这次这个是 hr 发的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232104#reply4
+
+---
+
+#### 8440. [V2EX] 我的 Tailscale 与代理软件共存 策略 (macOS & Android)
+
+**问题描述 / Problem Description**:
+在外面的时候常常有这么个需求，SSH 连回家里的 MacBook Pro ，看一眼 Claude Code 和 Codex 跑到哪一步了、有没有卡住在等我回话。 (Claude Code 和 Codex 各自都有手机 app ，我没有用，主要考虑是 多接入一个客户端就多一份账号暴露面，出于账号安全的考虑这条路我没走，SSH 也很方便，而且不绑死到某一个 AI Agent 工具上，后面我如果换成其他开源的 Agent ，比如 Grok Builder ，也没有额外的成本。) 家里的宽带没有公网 IP ，这一层 Tailscale 能解决：两端装上、登录同一个账号，设备之间点对点打洞，拿一个 10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232103#reply8
+
+---
+
+#### 8441. [V2EX] 现在的开发人手一个 mac 或者高性能 win，未来想必会有一半的云电脑
+
+**问题描述 / Problem Description**:
+开发人员入职标配：1. 高性能云电脑实例一个，普通办公本一个，云电脑手机 app 下载安装。 每个员工在云电脑对应一个数字人，数字人管理一批 agent ，agent 在云电脑内部可以随意使用测试域、研发域的本机环境，各种 vps ，数据库，对象存储啥的，也可以随意拉起配置。各种安全措施和隔离都已经做好了。 一、 为什么是云电脑 云电脑在云端，时时刻刻跑 agent ，下班前提交任务和指令，云端利用碳基员工休息下班的时间自动巡航。这不是程序员要求的，必然是来自于公司的要求。个人终端关机断电 agent 无法继续工作。对硬件和时间都是浪费。既然所有的开发和测试都在云端了，那么电脑本身的存算能力就
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232097#reply21
+
+---
+
+#### 8442. [V2EX] 当我们在和 AI 谈人天时，我们在谈什么
+
+**问题描述 / Problem Description**:
+今天用 codex 紧急插入一个需求，预计明天晚上就要发版，但是我下午四点才介入。 我就随口跟 codex 讲，评估一下，先给方案，超过 2 人天的话就延期发布。然后它评估的是 1.5 人天，允许发布。 接着它就带着我刚刚提及的另外一个小改动，一口气把小改动和这个 1.5 人天的内容都写完了。 因为我的项目管理，有一个统一的文档仓库，所有需求、开发设计文档、人机审核稿、bug 单、发版记录都会登记在案。并且规定了每个 feature 的开发 sop 和 worktree 等路径。所以不担心 agent 目标漂移，gpt-5.6 sol high 事实上，从我等它把代码全部写完（开了 appro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232085#reply0
+
+---
+
+#### 8443. [V2EX] 发现一个很好用的开源工具，可以用任务面板管理 Codex
+
+**问题描述 / Problem Description**:
+最近把一个开源项目接到了 Codex 上： https://github.com/chuspeeism/dashi-taskboard 它现在已经成了我们实际使用的研发任务管理面板。 之前用 Codex 做项目，最麻烦的地方是对话窗口越开越多。新需求开一个，修 Bug 再开一个，临时想到的优化又单独开一个。过几天回头看，左侧全是名字相似的对话，很难快速确认每个任务做到哪里。 dashi-taskboard 把这些工作收进了任务面板。 每个问题单独建一张任务卡，对应一个 Codex 对话。任务目标、当前状态和执行过程都集中在卡片里。再次处理时，直接找到任务，不用翻聊天记录寻找上下文。 长文可以看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232082#reply1
+
+---
+
+#### 8444. [V2EX] 听到 FDE 这个新职业，想起了当年。
+
+**问题描述 / Problem Description**:
+当年不少职业也是新生。因为当年 PHP 当道（ asp 好像还有，已经是尾了），只有切图仔，PHP 。慢慢后面就分出前端，后端，设计，测试。感觉又一个轮回了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232061#reply11
+
+---
+
+#### 8445. [V2EX] C#程序调用 oracle 存储过程发生的问题， v 友帮忙看下
+
+**问题描述 / Problem Description**:
+存储过程： PROCEDURE INCHECKPRINT(IV_FHTBH IN VARCHAR2, IV_FHY IN VARCHAR2, IV_DJBH IN VARCHAR2, IV_YZID IN VARCHAR2, IV_DJ_SORT IN VARCHAR2, IV_ZZXH IN VARCHAR2, OV_PXH OUT VARCHAR2) IS LV_PX OUT_SALE_TASK_D.PXH%TYPE; C_COUNT NUMBER; V_PXH NUMBER; V_DDLX OUT_SALE_BILLING_M.DDLX%TYPE; BEGIN xxxxxxx......
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232049#reply3
+
+---
+
+#### 8446. [V2EX] 建议 codex 已经用完等重置的把 8.12 的重置卡用掉，因为还有一个 8.13 的
+
+**问题描述 / Problem Description**:
+挨得太近了不好蹬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232036#reply6
+
+---
+
+#### 8447. [V2EX] 有没有发现， AI 的幻觉太严重了......
+
+**问题描述 / Problem Description**:
+最近做 vebo coding 开发，感觉 AI 模型的幻觉太重； 有没有好用的 skills ？？？ 跪求高人推荐！！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232034#reply16
+
+---
+
+#### 8448. [V2EX] 免费送 GPT/Claude 积分换用户
+
+**问题描述 / Problem Description**:
+自家开发的桌面端产品，其实是纯血的 GPT 和 Claude ，注册活动总送的积分基本上够日常使用。 大哥大姐轻拍，产品冷启动阶段定位没那么大，送 Token 诚意满满，只求有用户使用。 https://code.phanthy.com/work/challenge/token-factory/token-factory-2026-r2?source=v2ex&utm_source=v2ex&utm_medium=community&utm_campaign=token_factory_2026_r2&utm_content=v2ex_f0_launch_20260804_01&content
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232015#reply0
+
+---
+
+#### 8449. [V2EX] 中转站调用 opus，价格贵到离谱啊
+
+**问题描述 / Problem Description**:
+选择了适中的 4 倍率的 cc （最贵 16 倍）, 单个任务 cc usage 计费是 7$,我看了一下中转站扣了 30 多块. 这价格和官方 api 差不多了. 下面是最近几条的日志: 缓存读 93,498 · 写 40 9215 ⚡1.109516 缓存读 99,028 · 写 40 20108 ⚡2.209876 缓存读 99,237 · 写 44,740 19074 ⚡3.224394 缓存读 86,750 · 写 8,274 16824 ⚡2.062770 缓存读 95,366 · 写 26 19704 ⚡2.161802 缓存读 87,301 · 写 9,793 19456 ⚡2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232014#reply2
+
+---
+
+#### 8450. [V2EX] 手搓了一个心理测试网页，探讨下后续如何进行
+
+**问题描述 / Problem Description**:
+用 ai 手搓也叫手搓吧， http://tt.404w.com 大家可以看看后续如何发展？需要做成小程序吗？还是什么形式，看很多朋友的测试结果现在大家好像都挺焦虑的，这个有没有进一步发展的必要
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232006#reply3
+
+---
+
+#### 8451. [V2EX] 你们能找到的最便宜 LLM 是哪个，我用 qwen3.7-flash
+
+**问题描述 / Problem Description**:
+我在用 qwen3.7-flash ，上个月出的，这是我能找到的最便宜且够用的大模型。它的价格低到什么程度，100M 输入（ 90%命中）+5M 输出，只要不到十块钱，是 deepseek-v4-flash 的四分之一。 我也不用在什么长线任务上，就平时帮我生成 commit 消息，或者项目打包上传，重启服务，巡视一下生产数据库之类的。要遇上什么问题，让它分析也能给出结果。 有这么个模型，我 90% 的任务由它打底，就可以省下更多的钱，将最贵的大模型用在跑最难的任务上。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232002#reply18
+
+---
+
+#### 8452. [V2EX] codex 付款遭拒，您无法再付款或收款
+
+**问题描述 / Problem Description**:
+今天邮箱突然收到 google 的邮件，订阅了 3 个月的 codex 突然不能付款续费了，付款遭拒。需要重新验证身份，要上传护照，驾照什么的重新验证，这个要怎么解决呀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231995#reply13
+
+---
+
+#### 8453. [V2EX] 买了一年的三星 HW-Q990D，终于连上 SmartThings 了
+
+**问题描述 / Problem Description**:
+第二篇水贴 买了一年的三星 HW-Q990D ，终于连上 SmartThings 了 2026-08-02 三星 HW-Q990D 买回来整整一年，SmartThings 一直连不上。 这一年里，我怀疑过 App 、三星账号、手机权限、路由器、防火墙和 DHCP 。最后真正让它连上的改动却很小：给回音壁单独准备一个 2.4 GHz WPA2 网络，并把无线模式从 802.11ax 改成 802.11n 。 这篇文章记录完整的判断过程。比最终答案更重要的是，路由器日志其实早已告诉我：问题根本还没走到 SmartThings 云端。 我的网络环境 回音壁：Samsung HW-Q990D 路由器芯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231993#reply0
+
+---
+
+#### 8454. [V2EX] 没有后端的产品怎么做付费墙？
+
+**问题描述 / Problem Description**:
+我正在做一个纯浏览器的 AI 知识库：无后端、无账号，模型用你自己的 API key （ BYOK ），文件全在用户本地的文件夹里。打算免费版足够一般使用，付费版加扩展功能，一次性买断。 因为不想为了收费加一台后台服务器，怎么验证用户的 license 就成了问题。 我的想法：用 Ed25519 签一段 payload （订单号、有效期、买家名字），公钥编译进前端 bundle ，浏览器里 WebCrypto 离线验签。不联网、不绑设备、不做撤销。 主要漏洞有两个：用户可以破解，或者共享 license 。 破解我不打算防了, 真有能力和意愿去破解的人，估计本来也不会成为付费用户。但共享不一样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231985#reply24
 
 ---

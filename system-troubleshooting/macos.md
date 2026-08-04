@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 7957**
+**总计条目 / Total entries: 8013**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -107741,5 +107741,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231517#reply15
+
+---
+
+#### 7958. Please help guys 🙏😭
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfi18p/please_help_guys/
+
+---
+
+#### 7959. Delete the macOS ghost simulator
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf4mat/delete_the_macos_ghost_simulator/
+
+---
+
+#### 7960. The 'Reduce Motion' setting is dramatically more important than the 'Reduce Transparency' setting on Tahoe with an Intel Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfp0nn/the_reduce_motion_setting_is_dramatically_more/
+
+---
+
+#### 7961. "Play Sound Effects Through" Issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfm9dr/play_sound_effects_through_issue/
+
+---
+
+#### 7962. Approve Macbook Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vflovk/approve_macbook_pro/
+
+---
+
+#### 7963. Seeking AltTab alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vexv2w/seeking_alttab_alternatives/
+
+---
+
+#### 7964. Crossover Help Please!!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vewz2q/crossover_help_please/
+
+---
+
+#### 7965. All of a sudden, Mail can't connect to my work or personal Google-hosted mail accounts - any clues?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf8z8z/all_of_a_sudden_mail_cant_connect_to_my_work_or/
+
+---
+
+#### 7966. Why does my MacBook Pro have so many locations with the same name “Macintosh HD”?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf12t3/why_does_my_macbook_pro_have_so_many_locations/
+
+---
+
+#### 7967. Newbie Question: How to change file path/software version in Finder?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfgroc/newbie_question_how_to_change_file_pathsoftware/
+
+---
+
+#### 7968. I have been trying to delete a VPN application (called VeePN) which i installed a few months ago but it is not going away. Went to Storage > Applications and tried to delete from there but it isnt working. I can delete all the other apps but not this one.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf5o5h/i_have_been_trying_to_delete_a_vpn_application/
+
+---
+
+#### 7969. Why am I seeing Cloudflare checkboxes everywhere, even repeatedly on the same site?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfflku/why_am_i_seeing_cloudflare_checkboxes_everywhere/
+
+---
+
+#### 7970. Apple Notes' CloudKit asset cache went into a runaway loop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfe326/apple_notes_cloudkit_asset_cache_went_into_a/
+
+---
+
+#### 7971. Have slow Finder transfers from external drives been fixed post Sonoma?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf9bkv/have_slow_finder_transfers_from_external_drives/
+
+---
+
+#### 7972. Looking for testers
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfdjge/looking_for_testers/
+
+---
+
+#### 7973. Time Machine Backup on External Mechanical Drive that can't be unlocked. Damaged file structure/b-tree/etc. Will I be able to recover using RStudio for mac using Data Migration?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf1bv4/time_machine_backup_on_external_mechanical_drive/
+
+---
+
+#### 7974. Delete the macOS ghost simulator
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf4met/delete_the_macos_ghost_simulator/
+
+---
+
+#### 7975. Failed Security Update on Somona
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf3zvn/failed_security_update_on_somona/
+
+---
+
+#### 7976. 2-auth login to Mac.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfezn9/2auth_login_to_mac/
+
+---
+
+#### 7977. Locked MacBook Air M1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vf5289/locked_macbook_air_m1/
+
+---
+
+#### 7978. Docker quick start guide for the Sriracha imageboard and forum server
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vezeip/docker_quick_start_guide_for_the_sriracha/
+
+---
+
+#### 7979. Genuine opinions: how is Tahoe now?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfcfen/genuine_opinions_how_is_tahoe_now/
+
+---
+
+#### 7980. Do Not Disturb keeps enabling itself across devices, despite disabling every Focus setting I can find
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vetvjt/do_not_disturb_keeps_enabling_itself_across/
+
+---
+
+#### 7981. [V2EX] macos 中，休眠一段时间和触控板拖动变得卡顿， windowserver 进程 CPU 占用超过 30%，可能是什么原因
+
+**问题描述 / Problem Description**:
+操作系统：macos 26.5 arm 安装的软件：karabiner-elements （未处理鼠标事件）, linearmouse 触发条件：未知，通常在笔记本夜晚休眠后触发 外设：笔记本自带触控板，通过蓝牙连接的罗技鼠标（未安装 logi options+） 问题描述： 电脑休眠一晚上后，再唤醒，可能有一定概率出现这种问题：触控板按压拖动时，反应及其卡顿，甚至通过触控板移动鼠标指针时都会发生卡顿；触控板三指拖移则非常流畅无卡顿；鼠标交互和拖动也很流畅。用任务管理器查看进程，WindowServer 的 CPU 占用会常年上 30%。 重启 windowserver 进程后，触控板按压拖移
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231108#reply9
+
+---
+
+#### 7982. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply80
+
+---
+
+#### 7983. [V2EX] App Store 账户被停用了
+
+**问题描述 / Problem Description**:
+你的帐户已在 App Store 和 iTunes 中被禁用 日区帐户，绑的本人的 JCB 信用卡，7 月下旬的时候想着日元贬值了，赶紧充点余额进去，结果失败了，尝试了几次之后放弃了。 正常用了一周之后，这一周内购买了软件内购和 iCloud 订阅，都是正常消费。 然后昨天中午突然提示被停用，网页自助启用失败，就联系了在线客服，在线客服说因为是外区，所以会通过电话联系我，通话时和客服复盘了自己的操作，客服表示理解并说应该是触发系统风控，帮我转交给安全部门，然后让我等 24 小时重新登录试试。 刚刚试了一下，已经可以正常登录和下载了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231979#reply17
+
+---
+
+#### 7984. [V2EX] App 有个功能是联网搜索 AppStore 中的图标，这种情况也必须 ICP 备案吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231923#reply12
+
+---
+
+#### 7985. [V2EX] Mac 应用上架中国区 App Store，需要在 App Store Connect 填写 ICP（App）备案号？
+
+**问题描述 / Problem Description**:
+AI 给出结论是要 ICP 备案、软著（计算机软件著作权登记证书），只是一个围棋 app ，为什么要软著？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231881#reply15
+
+---
+
+#### 7986. [V2EX] Mellow 正式发布到 app store 喽，欢迎大家试用哈👋
+
+**问题描述 / Problem Description**:
+前段时间我 vibe coding 了 Mellow Mac 版本，但身边朋友都觉得 Mac 上使用还是不高频，所以我又开发了 iOS 版本，今天正式通过 Apple 的审核已经正式上架了，欢迎大家试用体验呀👋 Mellow 是一款以语音和文字为入口的 AI 表达与记录助手。主要提供“改写”“速记”或“安排”三个场景，不会替你猜测意图，也不会自动发送或写入系统。 三种使用方式： • 改写：保留真实意图，按沟通对象和场景，把原话整理得更清楚、更得体 • 速记：把随口说出的灵感、判断和记录忠实整理成标题与自然段，不改变原意 • 安排：从口述中提取事项、相对时间、地点和要带的东西，先生成待确认卡，再
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231864#reply1
+
+---
+
+#### 7987. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply21
+
+---
+
+#### 7988. [V2EX] 闲置的 mbp 18 款还能干什么？
+
+**问题描述 / Problem Description**:
+目前电池很垃圾了，续航只有 1-2 小时，得插电用，并且键盘有几个键失灵（有的时候按下去没反应）， 是 8+256 ，i5-8259U ，看电视也发热，吃灰很久了，有隐藏 ID ，自己换电池还把主板上螺丝干滑丝 1 个，没换成功 考虑一下几个选项 1 、做自己的 24H ai 助手（如龙虾、爱马仕） 2 、在公司论坛卖掉估计（ 700 左右，但是有后期维修 扯皮风险） 3 、卖本地闲鱼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231748#reply7
+
+---
+
+#### 7989. [V2EX] macOS 啥时候能更新 macos 27 beta5, 已经半个月了,beta4 好多 bug
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231622#reply17
+
+---
+
+#### 7990. [V2EX] iOS 27 pb， APP 更新完小组件都失效了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231368#reply5
+
+---
+
+#### 7991. [V2EX] MacBook Pro 14 英寸， 2021 年（Apple M1 Pro）支持外接两台 120Hz 4k 显示器吗
+
+**问题描述 / Problem Description**:
+请问大家这款 MacBook Pro 可以通过双雷电口外接两台高刷显示器，并且不关闭笔记本的屏幕吗？求教大家都是怎样实现的，对显示器有要求吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231257#reply6
+
+---
+
+#### 7992. [V2EX] 如果下个月 AI 按 Apple ID 来区分的话，是不是还得注册个港区的 iD？
+
+**问题描述 / Problem Description**:
+目前是国区 ID+美区商店；AI 是跑马灯。 我看好多用外区 ID 的，直接跑的是最新的 AI。 本来想转区的，但是貌似还得留一个国区的来下载一些国区的特色 APP。 那么注册新的话，直接所有设备退出旧 ID，保留资料，登录新 ID 就可以还是需要重新走激活流程？ 另外我现在 iCloud 家庭组里，还有一个共享图库～这个共享图库是不是所有的都在同一个区？ 不能我设备港区 ID，家里人设备国家 ID？ 如果需要在一个区的话，这个共享图库是不是先存所有退出，都换了后再新建？ 求佬解答～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231015#reply10
+
+---
+
+#### 7993. [V2EX] App Store 中国区充值返 10%各位充了多少？
+
+**问题描述 / Problem Description**:
+是不是每年都有这活动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230852#reply55
+
+---
+
+#### 7994. [V2EX] 小孩子照片比较多，目前存在 icloud 2t，有什么什么比较优雅的实体备份方式？
+
+**问题描述 / Problem Description**:
+想要快速备份，想留住小孩子的点点滴滴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230534#reply56
+
+---
+
+#### 7995. [V2EX] 刚刚： Cloudflare Wallet 发布了，快去领 handle
+
+**问题描述 / Problem Description**:
+https://cloudflare.pay/ 3 位数的 handle 还有好多，不知道之后有什么用，先领再说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232114#reply12
+
+---
+
+#### 7996. [V2EX] codex 重置 监控
+
+**问题描述 / Problem Description**:
+https://codex-reset.com https://codex-reset.com/tibo 还挺不错的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232110#reply3
+
+---
+
+#### 7997. [V2EX] 解决 Claude Code/Codex 跨 Session 失忆：我们开源了长时上下文引擎
+
+**问题描述 / Problem Description**:
+大家好，最近我们团队开源了 OpenLoomi \( https://github\.com/melandlabs/openloomi\)。 作为一个高强度使用 Claude Code 和 Codex 的开发者，我一直有个很大的痛点：它们在单个 Session 里确实极其好用，但一旦切到新 Session ，之前讨论过的业务背景、架构决定和项目进度就经常接不上。每次都需要反复给它前情提要：“项目推进到了哪里”、“哪些技术方案发生了变化”，非常打断心流。 这也是我们做 OpenLoomi 想要解决的核心问题： 如何让 Agent 拥有跨会话、跨平台，且能长期持续更新的上下文。 上下文远比一个 C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232095#reply5
+
+---
+
+#### 7998. [V2EX] 发现一个顶级华为域名
+
+**问题描述 / Problem Description**:
+https://huawei.dog/ 这个太狠了，哪个人才买的域名
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232077#reply44
+
+---
+
+#### 7999. [V2EX] 用 ai 写了个模拟炒股的 4399 网页游戏
+
+**问题描述 / Problem Description**:
+不得不说 ds-v4 是真的便宜，虽然游戏本身逻辑很简单，但全部下来只花费了不到 2 块钱。 游戏地址： https://game.ikeno.top/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232075#reply11
+
+---
+
+#### 8000. [V2EX] 买了两把剪刀，自己理发效果挺好的
+
+**问题描述 / Problem Description**:
+起因是熟悉理发师经常离职，上次新 Tony 给我理了很丑的发型，加上近些年碰到充值跑路等离谱事情，有点无语。网上搜索了些自己理发的视频，觉得难度还行就决定自己理了。 因为我经常留的是中长发，碎盖，不需要电动理发器，所以买了一把平剪和一把牙剪，一套发夹，一把梳子就上手了。初始设置是浴室有一面大镜子看前面。为了观察后面，放了台手机安装了 ip camera 用 rtsp 推流，在洗手台上摆了 ipad 上面安装了 VCL 播放器播放视频流，设置里调低缓存时间减少延迟，两台设备连同个 wifi 就行了，基本上可以 300ms 的时间差。放了把椅子坐着剪。 视频主要参考一些剪刀的用法，头发分区和裁剪的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232043#reply16
+
+---
+
+#### 8001. [V2EX] 智谱怎么会那么恶心
+
+**问题描述 / Problem Description**:
+上市前就年费支持他，老套餐改了又改，最后还是改成了新套餐的形状。这种没有契约精神的公司，能不能倒闭啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232042#reply0
+
+---
+
+#### 8002. [V2EX] 那些年被我妈没收的东西，你还记得几个
+
+**问题描述 / Problem Description**:
+拨浪鼓 起源于战国 兴于货郎叫卖声里 亡于我妈嫌吵，摔了 弹弓 起源于小卖部两块钱一把 兴于放学路上打树上的鸟 亡于打碎了隔壁老王家玻璃 铁皮青蛙 起源于批发市场论斤称 兴于课桌底下偷偷上发条 亡于被老师当场没收锁进抽屉 摔炮 起源于小卖部柜台最底层 兴于每年过年前的军备竞赛 亡于炸到自己脚，从此禁止 四驱车 起源于漫画连载 兴于全班凑钱买赛道 亡于电池买不起了 溜溜球 起源于说不清哪年突然全班都在玩 兴于课间十分钟的走廊 亡于缠住了同桌的头发 哇哇哇哇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231947#reply7
+
+---
+
+#### 8003. [V2EX] 面对“竹知了” 华为如此行事，应该是商业风格决定的。
+
+**问题描述 / Problem Description**:
+https://i.imgur.com/PCgggns.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231921#reply17
+
+---
+
+#### 8004. [V2EX] 竹知了要被玩坏了， 又出来一个 哇声大作战版的赛博竹知了
+
+**问题描述 / Problem Description**:
+看到 3499 的竹知了后，又发现了 带有哇声大作战的竹知了 ，可以分享战绩。 这小游戏还挺解压(虽然也有点无聊)，不知道会不会被整下架。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231885#reply28
+
+---
+
+#### 8005. [V2EX] 拼多多 成功的在 IOS 上发明了"双击返回"
+
+**问题描述 / Problem Description**:
+之前以为是错觉，因为偶尔退出 拼多多 的时候要多滑一次。 现在终于弄懂了，这玩意儿为了不让你发现，居然是有 CD 的。 如何复现： 打开 拼多多 ，首页停留一点时间，然后上滑返回首页，会大概率无法返回首页。并且提示你再次滑动退出 APP 。 然后接下来可能十分钟以内(没有具体测试，有兴趣的可以测一下)，你上划，都不会触发"双击返回"。 想说很多，力竭了，大家评价吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231884#reply47
+
+---
+
+#### 8006. [V2EX] 莫名其妙被 Chatgpt 骂了，这是正常现象吗？
+
+**问题描述 / Problem Description**:
+https://chatgpt.com/share/6a70c20b-1b18-83ea-8af0-03ca356492ed 本来是问一下这句话的出处，还没打完就发出去了，结果竟然是这种回复。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231862#reply8
+
+---
+
+#### 8007. [V2EX] 有个疑问 DeepSeek 价格这么低，能力与主流模型能力差距不大 ， Claude 和 GPT 会不会直接套利？？
+
+**问题描述 / Problem Description**:
+感觉 AI 竞赛会出现这种情况，感觉可能已经存在了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231849#reply16
+
+---
+
+#### 8008. [V2EX] 中转和专线 夯到拉
+
+**问题描述 / Problem Description**:
+跨境需求首选 想听听各位评价
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231820#reply3
+
+---
+
+#### 8009. [V2EX] 试着把写了 N 年的私人日记喂给 ai...
+
+**问题描述 / Problem Description**:
+从小就有写日记的习惯，不过以前都是在本子上写，18 年左右开始转战线上，到今天陆续写了小几十万字，今天尝试把这些东西通通喂给 ai ，让它总结我的性格、习惯、优缺点以及判断未来的发展，说实话，震惊到我了，活了三十几岁第一次发现有“人”这样深刻地洞察并了解我，并且给出的建议和分析判断以及远超我身边所有人的高度了。说实话这一刻的感觉是震撼、惊呆、感动与感谢...... 现在很感谢自己坚持了写日记的这个习惯，因为人多数时候都是社会性动物，多数时间都在不自觉地扮演，而非真实，只有私密的日记里的心里话和思考，才是最真实的自己。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231818#reply20
+
+---
+
+#### 8010. [V2EX] 做了两个月的小程序，被"全栈抄袭者"给盯上了
+
+**问题描述 / Problem Description**:
+背景 6.1 开始，在小红书公开记录我构建“海斗宝贝”这个小程序的历程。这个小程序主要是我手动收集并整理各种海克斯大乱斗玩法的工具，一方面平时自己用，另一方面想看看小程序广告收益有多少 就在 7.31 日，我在小红书刷到了一个叫“海斗宝箱”的账号，发现他的笔记图片风格和我的很像。再仔细一看，他也有个小程序。这还没完，小程序的布局、玩法内容都被他像素级复制。除了首页以外，其余页面基本只有颜色样式的差异。 他不仅抄袭小红书、小程序布局，还把小程序中我手动整理的玩法内容，原封不动的给抄走了，包括标题、玩法文案等数据信息，真的让我绷不住了 为了防止打草惊蛇，在收集好相关证据后，我才和这个人沟通。顺便提
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231816#reply11
+
+---
+
+#### 8011. [V2EX] 关于我用 deepseek -v4-flash 画了几张图...
+
+**问题描述 / Problem Description**:
+前两天刷到一篇帖子，看到有人用 v4 -flash ， 把《星月夜》变成上百万条笔触的矢量画。这让我很感兴趣啊，发现这个用法的真实天才，我也来试试。 原理也很简单，就是把画当成一张地图，每个像素就是一个点，都有自己的颜色。 程序先 算出画里每个地方"纹路"朝哪个方向走 ，然后程序在画上撒几万到十几万个点，每个点沿着它所在位置的纹路方向画一笔短线条，颜色直接抄原图上那个位置的颜色。几万笔叠起来，就成了一幅"笔触画"。 ** [图 1：维纳斯对比图] ** 左边原图，右边生成的 svg 图，15w 笔触 第一幅画的是波提切利《维纳斯的诞生》。效果有点没聚焦上的感觉 不如原图清晰。 ** [图 2：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231802#reply11
+
+---
+
+#### 8012. [V2EX] 去年 618 装机赢麻了
+
+**问题描述 / Problem Description**:
+去年 618 不知怎么的突然想装一台电脑，今年内存、固态、显卡都涨价了，这套配置现在怎么也的 7000 了吧，哈哈，附上去年买的时候的配置和价格 cpu：i5-12600KF 盒装 💰0 主板：技嘉 B760 GAMING x ax ddr4 💰1502.7 内存条：阿斯加特 tuf 联名 C18 16g*2 （二手） 💰330 硬盘：宏碁 GM7 1T 7200MB/s 💰400 显卡：七彩虹战斧 5060 三风扇豪华版 💰2494 散热器：乔思伯 CR1000V2PRO 💰98.19 电源：鑫谷 GM650 金牌全模组（二手） 💰170 机箱：爱国者小岚 💰149 风扇：棱镜 8pro*7
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231770#reply18
+
+---
+
+#### 8013. [V2EX] 用 AI 做了个全平台视频下载器，优点暂时无广告？
+
+**问题描述 / Problem Description**:
+偶尔看到不错的 X 视频就想下载，但是免费的广告太多了，所以自己做了无广告版本的。。 https://www.free-videodownload.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231737#reply4
 
 ---

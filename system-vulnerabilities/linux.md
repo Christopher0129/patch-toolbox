@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2672**
+**总计条目 / Total entries: 2687**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -48947,5 +48947,245 @@ Apply patch from vendor. Monitor http://rhn.redhat.com/errata/RHSA-2013-0888.htm
 **参考链接 / References**:
 - http://rhn.redhat.com/errata/RHSA-2013-0888.html
 - http://rhn.redhat.com/errata/RHSA-2013-0888.html
+
+---
+
+#### 2673. CVE-2026-70368 - stunnel: Stack-based out-of-bounds read/write in stunnel s_vlog via oversized log…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] stunnel: Stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message. Bugzilla: 2462029
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462029
+
+---
+
+#### 2674. CVE-2026-70367 - stunnel: SSRF bypass in stunnel SOCKS proxy via IPv4-mapped IPv6 loopback and…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] stunnel: SSRF bypass in stunnel SOCKS proxy via IPv4-mapped IPv6 loopback and unspecified addresses allows access to loopback-only services. Bugzilla: 2462083
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462083
+
+---
+
+#### 2675. CVE-2026-17614 - wildfly-core: Path Traversal on WildFly Domain Controller
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wildfly-core: Path Traversal on WildFly Domain Controller. Bugzilla: 2507631
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507631
+
+---
+
+#### 2676. CVE-2026-42169 - gimp: GIMP APNG loader heap-buffer-overflow when fcTL width exceeds IHDR width…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP APNG loader heap-buffer-overflow when fcTL width exceeds IHDR width (file-png.c). Bugzilla: 2461725
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2461725
+
+---
+
+#### 2677. CVE-2026-42170 - gimp: GIMP DDS plug-in heap-based buffer overflow via BPP mismatch in load_layer()…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP DDS plug-in heap-based buffer overflow via BPP mismatch in load_layer() (ddsread.c). Bugzilla: 2461726
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2461726
+
+---
+
+#### 2678. CVE-2026-64561 - kernel: KVM: x86: Check for invalid/obsolete root *after* making MMU pages…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: x86: Check for invalid/obsolete root *after* making MMU pages available. Bugzilla: 2510891
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510891
+
+---
+
+#### 2679. CVE-2026-18739 - popt-devel: popt-static: Off-by-one in poptStuffArgs
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] popt-devel: popt-static: Off-by-one in poptStuffArgs. Bugzilla: 2510737
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510737
+
+---
+
+#### 2680. CVE-2026-69153 - postcss: PostCSS: Information disclosure via crafted sourceMappingURL
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postcss: PostCSS: Information disclosure via crafted sourceMappingURL. Bugzilla: 2510719
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510719
+
+---
+
+#### 2681. CVE-2026-69152 - brace-expansion: brace-expansion: Denial of Service via unbounded intermediate…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays. Bugzilla: 2510722
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510722
+
+---
+
+#### 2682. CVE-2026-69151 - @angular/compiler: @angular/core: Angular: Cross-Site Scripting via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] @angular/compiler: @angular/core: Angular: Cross-Site Scripting via internationalization event handlers. Bugzilla: 2510726
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510726
+
+---
+
+#### 2683. CVE-2026-68945 - @angular/common: Angular: Cross-Request Response Reuse and State Poisoning in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] @angular/common: Angular: Cross-Request Response Reuse and State Poisoning in HttpTransferCache. Bugzilla: 2510710
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510710
+
+---
+
+#### 2684. CVE-2026-18651 - 389-ds-base: 389-ds-base: SASL PLAIN bind installs connection credentials before…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: SASL PLAIN bind installs connection credentials before account-lock check, allowing continued access as a locked account. Bugzilla: 2510617
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510617
+
+---
+
+#### 2685. CVE-2026-67323 - gitpython: GitPython: Arbitrary code execution via command injection due to…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gitpython: GitPython: Arbitrary code execution via command injection due to unguarded Git options. Bugzilla: 2509976
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509976
+
+---
+
+#### 2686. CVE-2026-67299 - FreeRDP: FreeRDP: Denial of Service via crafted WindowIcon async message
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Denial of Service via crafted WindowIcon async message. Bugzilla: 2509985
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509985
+
+---
+
+#### 2687. CVE-2026-67318 - axios: axios: Denial of Service due to maxBodyLength bypass in HTTP/2 requests
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] axios: axios: Denial of Service due to maxBodyLength bypass in HTTP/2 requests. Bugzilla: 2509989
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509989
 
 ---
