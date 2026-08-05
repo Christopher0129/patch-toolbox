@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9070**
+**总计条目 / Total entries: 9116**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -123831,5 +123831,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231936#reply0
+
+---
+
+#### 9071. Opening 'Privacy & Security > App Permissions' causes settings to crash in Windows 11
+
+**问题描述 / Problem Description**:
+Tags: permissions, windows-11, crash, microphone | Score: 1 | Views: 166 | Answers: 1 | Created: 2026-08-05
+
+**解决方案 / Solution**:
+You state, "This drive was previously having boot issues before being repaired with chkdsk." Chkdsk does not restore lost data, it merely fixes the file system itself. Check S.M.A.R.T. status to see if the drive itself is failing. If the drive is usable, there are two likely areas that might have been damaged by the drive issue. Before trying either of these repairs, though, make a full drive image, lest something go awry. Windows operating system (OS) might have been corrupted. Using DISM was a start, but SFC might be needed. If that does not repair the issue, Create Windows 11 Installation Media and reinstall, keeping files . Reinstallation is usually less than a half hour and fairly painless. Your profile might have been damaged. Create a new user and see if that user can use App Permissions . If so, transferring all your data and apps to the new user is a nuisance, but might be the only answer.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939487/opening-privacy-security-app-permissions-causes-settings-to-crash-in-windo
+
+---
+
+#### 9072. HP Laptop 14-dq2025la stuck in Automatic Repair – Intel RST/VMD driver causes DRIVER_PNP_WATCHDOG (0x1D5)
+
+**问题描述 / Problem Description**:
+Tags: windows-11, hp-pavilion | Score: 0 | Views: 33 | Answers: 1 | Created: 2026-08-04
+
+**解决方案 / Solution**:
+Solved. The SSD was not actually failing. This laptop uses an Intel Optane Memory H10, which is a special M.2 device containing two separate storage devices: a ~238 GB NAND SSD and a ~13.4 GB Intel Optane device. Before finding the solution, I booted Ubuntu from USB. Ubuntu detected the storage without any problems, and I was even able to install Ubuntu and boot normally from the SSD. Using lsblk, lspci and nvme list, I confirmed that Linux could see both parts of the Intel H10 separately and was using the Intel VMD/NVMe drivers correctly. This made it unlikely that the SSD itself had failed. I then found Intel Rapid Storage Technology under BIOS → UEFI HII Configuration. RST reported an “Incomplete Optane Volume.” I selected “Reset to non-Optane” and reset the Optane configuration. After doing this, RST showed two independent Non-RAID Physical Disks: the ~238.4 GB SSD and the ~13.4 GB Optane device. After that, the Windows installer was finally able to detect the SSD after loading the Intel RST/VMD driver, without freezing or giving DRIVER_PNP_WATCHDOG. A clean Windows 11 installation still failed during setup, so I tried Windows 10 instead. Windows 10 installed successfully. I then upgraded the working Windows 10 installation to Windows 11. So in the end, the problem was an incomplete/broken Intel Optane H10 configuration, not a dead SSD. Resetting it to non-Optane allowed Windows to access the SSD normally.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939480/hp-laptop-14-dq2025la-stuck-in-automatic-repair-intel-rst-vmd-driver-causes-dr
+
+---
+
+#### 9073. Macbook won't open dvd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgey0e/macbook_wont_open_dvd/
+
+---
+
+#### 9074. RTX 5080 running at PCIe 5.0 x8 instead of x16 on ASUS TUF Z790-Plus WiFi + i9-14900KF — BIOS bug or hardware issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vga0jq/rtx_5080_running_at_pcie_50_x8_instead_of_x16_on/
+
+---
+
+#### 9075. I did a new install of windows and now my ethernet stopped working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgkk3o/i_did_a_new_install_of_windows_and_now_my/
+
+---
+
+#### 9076. PC Crashes Randomly Ever Since Upgrading GPU
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgjf1z/pc_crashes_randomly_ever_since_upgrading_gpu/
+
+---
+
+#### 9077. mouse and keyboard randomly started to have issues today
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgcl95/mouse_and_keyboard_randomly_started_to_have/
+
+---
+
+#### 9078. I haven't set up a new Microsoft Windows PC in years, now my kid got a new one for school. Quick guide for privacy, speed and reliability?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgc51r/i_havent_set_up_a_new_microsoft_windows_pc_in/
+
+---
+
+#### 9079. new one ui 8.5 update???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vglz1g/new_one_ui_85_update/
+
+---
+
+#### 9080. Spotify podcast ending...any way to save it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vglv38/spotify_podcast_endingany_way_to_save_it/
+
+---
+
+#### 9081. Help with headphones not being able to use mic and speaker
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vglp5x/help_with_headphones_not_being_able_to_use_mic/
+
+---
+
+#### 9082. PlayStation 3 Disk Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vglgik/playstation_3_disk_issue/
+
+---
+
+#### 9083. Windows recovery tools System restore failed error code 0x80070026 - any idea what it means?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgf3x0/windows_recovery_tools_system_restore_failed/
+
+---
+
+#### 9084. Right speaker (Trust) doesn't work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vg8qbg/right_speaker_trust_doesnt_work/
+
+---
+
+#### 9085. My YouTube hasn't been working on my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgl0zy/my_youtube_hasnt_been_working_on_my_laptop/
+
+---
+
+#### 9086. Microsoft Word wont work on IOS Ventura 13.7
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgl0ql/microsoft_word_wont_work_on_ios_ventura_137/
+
+---
+
+#### 9087. Dodgy graphics card?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgkmln/dodgy_graphics_card/
+
+---
+
+#### 9088. PC runs slow then shuts down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgkdlj/pc_runs_slow_then_shuts_down/
+
+---
+
+#### 9089. Cmf Buds pro batteries randomly not holding charge while the other does then vice versa?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgk6ig/cmf_buds_pro_batteries_randomly_not_holding/
+
+---
+
+#### 9090. Laptop Keyboard Double/Triple Types
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgk5n9/laptop_keyboard_doubletriple_types/
+
+---
+
+#### 9091. Sudden battery drainage.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgjkva/sudden_battery_drainage/
+
+---
+
+#### 9092. HDMI, DisplayPort and USB-C inherently unstable on every single device and display I’ve ever used
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgji6k/hdmi_displayport_and_usbc_inherently_unstable_on/
+
+---
+
+#### 9093. PC Restarting Under Heavy GPU Load
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vg30na/pc_restarting_under_heavy_gpu_load/
+
+---
+
+#### 9094. Secure Boot won’t work on my Gigabyte motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgir2l/secure_boot_wont_work_on_my_gigabyte_motherboard/
+
+---
+
+#### 9095. Sudden fail on resetting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgir1t/sudden_fail_on_resetting/
+
+---
+
+#### 9096. Can't delete the game folder. Can't install game again.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vgim2j/cant_delete_the_game_folder_cant_install_game/
+
+---
+
+#### 9097. [V2EX] 现在怎么线下笔试候选人
+
+**问题描述 / Problem Description**:
+比如发一份 task ，在规定时间内完成，出什么题或者有什么办法防止高端 AI 直接 ac ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232320#reply1
+
+---
+
+#### 9098. [V2EX] [8 月 5 号申请成功] giffgaff 退款指南
+
+**问题描述 / Problem Description**:
+先说说我的基本情况： 渠道：giffgaff 官网申请的 eSIM eSIM 申请时间：2026 年 6 月 17 日 封号情况： 截止今天（ 8 月 5 号）一直都没收到封号邮件 ，不过出了这档子事情也不敢继续用了 我的退款历程大家可以参考一下： 这张就是我的申诉记录，红框中的两次也就是今天是成功的： 接下来我说说具体的步骤： 申请前先完成携号转网 ，今天我是先转网到了 VOXI 后再申请的（今天刚转网成功，然后我就立马申请 VOXI 退款了，VOXI 有在线客服聊天，所以很快就通过申请了） 需要注意申请时间 ，头几次我都是白天申请的，每次都是到了晚上 19:00 左右回复我，当然回复都是统
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232319#reply0
+
+---
+
+#### 9099. [V2EX] 有没有那种能让 AI「一步一步跟自己讲清楚」的方法（比如 skill）？
+
+**问题描述 / Problem Description**:
+大家应该也有过这种经历吧：AI 一下子输出一大堆东西，结果根本看不懂。 最近在阅读一个不太熟悉的代码分支时，我对比了一下找维护者询问代码逻辑和找 AI 询问代码逻辑的体验。感觉两者最大的不同在于： 问真人的时候，自己需要持续跟上对方说话的思路。如果哪里跟不上了，可以随时打断并提问。等听不懂的部分解释清楚、双方思路重新对齐之后，再继续往下讲，所以最后通常能够听懂。 问 AI 的时候，AI 往往会一次输出一大堆乱七八糟的东西。可能从第二段开始就已经听不懂了，但又没有机会及时打断。思路从一开始就没有对齐（毕竟人类很难对齐 AI 的思路吧！），结果就是越往后看越看不懂。 所以我在想，如果 AI 也能像
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232315#reply5
+
+---
+
+#### 9100. [V2EX] 炒股炒的影响上班
+
+**问题描述 / Problem Description**:
+鏖战大 A 科技，7 月份陆陆续续补仓，仓位越搞越重。今天结束还亏个 20%。 然后就是每天开盘的时候每隔几分钟看一看盘，收盘了还要各个论坛看看消息。 特别影响上班。 要慢慢减一下仓位了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232310#reply8
+
+---
+
+#### 9101. [V2EX] 想买个二手安卓手机做备用机，希望 c 口能接电视播放视频
+
+**问题描述 / Problem Description**:
+目前是苹果全家桶，考虑到有个号码要一直开着，另外出差有影音播放需求，想买个二手安卓手机，希望能满足以下要求 c 口能接 type-c 转 HDMI ，这样出差的时候可以连到酒店电视上放下载好的剧集 希望性能能跟得上，经常会下载一些 4K 的剧集 对品牌、屏幕这些没啥要求，反正也不经常用 感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232308#reply3
+
+---
+
+#### 9102. [V2EX] 租车怎么选
+
+**问题描述 / Problem Description**:
+家附近这个点，带倒车影像的价位低到高如图： 想体验特斯拉，但看评论夏天这款好像只能跑 200km ； A6L 之前开过确实舒服，但是租一个豪车还是有点虚； A7L 每天多个 20 块左右。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232302#reply10
+
+---
+
+#### 9103. [V2EX] 支付宝惠出境改版了，没办法买苹果码了怎么办
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232297#reply3
+
+---
+
+#### 9104. [V2EX] 170HX 破解 80g 显存！
+
+**问题描述 / Problem Description**:
+不得不说，老黄的刀法已臻化境，21 年就能做到的 80g 物理封装显存硬生生只给你用 8g
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232285#reply1
+
+---
+
+#### 9105. [V2EX] 黄金首饰后面会涨还是会跌
+
+**问题描述 / Problem Description**:
+最近购买 20g 首饰金，也不知道是不是合适的时间节点，各位觉得后面黄金还会继续涨吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232267#reply17
+
+---
+
+#### 9106. [V2EX] 桌面音箱决赛圈求意见🙏
+
+**问题描述 / Problem Description**:
+ADAM T5V PreSonus Eris Studio 5 Focal Alpha 50 EVO 我知道 Alpha 50 EVO 比前两个贵 1 倍，主要是想试试劲浪 也可以的推荐一下其他的，预算 2k-3k ，性格比高可酌情加点，有解码器不需要音箱有任何数字输入，最好是专业监听箱，我听的杂 不要惠威，不要惠威，不要惠威，买过两个都坏了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232263#reply14
+
+---
+
+#### 9107. [V2EX] 求问如何充值官方 GPT API
+
+**问题描述 / Problem Description**:
+如题。注意事充值 API ，不是购买 plus/pro 不是程序员，只有特定时间需要密集使用，所以包月不划算。 或者靠谱的中转站也可推荐（备选方案） 现在 luna 输入价格和 DeepSeek 差不多了，打算调用 GPT 做规划，然后用 DeepSeek 进行执行，这样省钱，有没有好的充值建议？ 补充： 查了一下，无法使用 apple 的礼品卡，没找到具体出处 U 卡失败 国内 Visa 没试过。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232257#reply19
+
+---
+
+#### 9108. [V2EX] 在实用性上， k3 比 dsv4 差了一万倍
+
+**问题描述 / Problem Description**:
+dsv4 是神,k3 是个不中用的废废
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232253#reply6
+
+---
+
+#### 9109. [V2EX] fps 玩家 磁轴键盘求推荐！
+
+**问题描述 / Problem Description**:
+很久了解键盘了，一直从大二买了 keychron 的 k3 矮轴到现在。 最近电子阳痿恢复了，重回当年的 fps 巅峰，现需一把性价比高的磁轴键盘助力我攀登更高一个台阶，请 V 友们推荐！ 预算不是很多 最好是 500 内 300 以下更佳！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232250#reply12
+
+---
+
+#### 9110. [V2EX] 谷歌邮箱的搜索功能为何如此难用，还是我姿势没对？
+
+**问题描述 / Problem Description**:
+标题里面就有的数字，我都搜不出来，APP 上也是一样，好像必须得输完整的数字，不是做搜索起家的么，咋这么拉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232245#reply3
+
+---
+
+#### 9111. [V2EX] ai 修图这方面最强的模型是什么
+
+**问题描述 / Problem Description**:
+Nano2 gpt-image-2 还是什么国产的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232242#reply0
+
+---
+
+#### 9112. [V2EX] 我看到圆角按钮和卡片就想吐,是我审美变了?
+
+**问题描述 / Problem Description**:
+看到圆角:吃了一堆肥肉,想吐。 然后看到直角:吃了水果,解腻 真舒服。 特别是按钮,太好看了。 以前我没这个感觉的,最近一年发生的改变。 圆角: 直角:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232238#reply12
+
+---
+
+#### 9113. [V2EX] 请问怀疑另一半有跟别人去年开房如何解决? (🐢 寻求帮忙)
+
+**问题描述 / Problem Description**:
+我这个 🐢 的心病，不想当不明不白的 🐢 可 +v or 咸鱼帮忙 谢谢! 😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232237#reply17
+
+---
+
+#### 9114. [V2EX] 调研一下，你们见过哪些 README 文件写得好的项目
+
+**问题描述 / Problem Description**:
+参考一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232236#reply2
+
+---
+
+#### 9115. [V2EX] 大家更喜欢 vibe 一个长期工具还是一个随手即用即丢的小脚本？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232234#reply9
+
+---
+
+#### 9116. [V2EX] 配合 dsv4 flash，用哪个 GUI 客户端好用？
+
+**问题描述 / Problem Description**:
+zed opencode pi vscode 哪个好用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232231#reply27
 
 ---

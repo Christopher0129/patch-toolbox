@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8013**
+**总计条目 / Total entries: 8060**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -108469,5 +108469,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231737#reply4
+
+---
+
+#### 8014. Microsoft just deleted Windows 11's 32GB RAM recommendation docs, as prices soar and it rushes to sell 8GB RAM PCs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgfb3q/microsoft_just_deleted_windows_11s_32gb_ram/
+
+---
+
+#### 8015. Tahoe 26.6 is Stable enough for the sequoia people update without worries?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgde96/tahoe_266_is_stable_enough_for_the_sequoia_people/
+
+---
+
+#### 8016. OS X Mavericks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfxy9q/os_x_mavericks/
+
+---
+
+#### 8017. Reset my Apple ID password after waiting a week... now it keeps asking for the password of "other MacBook Pro"??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgdrnm/reset_my_apple_id_password_after_waiting_a_week/
+
+---
+
+#### 8018. Windows maximizing without input
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vglvkz/windows_maximizing_without_input/
+
+---
+
+#### 8019. Where would I find a MacOS Snow Leopard 10.6.8 full installer?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgjocy/where_would_i_find_a_macos_snow_leopard_1068_full/
+
+---
+
+#### 8020. Keychron keyboards will randomly disconnect
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgi7u2/keychron_keyboards_will_randomly_disconnect/
+
+---
+
+#### 8021. Virtual Buddy to create Mac VMs. Works with Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgmgsn/virtual_buddy_to_create_mac_vms_works_with_golden/
+
+---
+
+#### 8022. Viper4Android is now available on macOS as Viper4Mac!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vfr8ml/viper4android_is_now_available_on_macos_as/
+
+---
+
+#### 8023. My Scalextric track layout looks like the Apple Command key
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgeunx/my_scalextric_track_layout_looks_like_the_apple/
+
+---
+
+#### 8024. Photos App Freezes When Syncing on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgk7k9/photos_app_freezes_when_syncing_on_mac/
+
+---
+
+#### 8025. Macbok se apagó Derrepente
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgk37t/macbok_se_apagó_derrepente/
+
+---
+
+#### 8026. Old MacBook as a Streaming Server for Tv
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vggj7y/old_macbook_as_a_streaming_server_for_tv/
+
+---
+
+#### 8027. I built a free clipboard manager for macOS with a card UI — it masks API keys and card numbers on screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vggfhu/i_built_a_free_clipboard_manager_for_macos_with_a/
+
+---
+
+#### 8028. MacBook M1 2020 air wont update to 26.6
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgez6g/macbook_m1_2020_air_wont_update_to_266/
+
+---
+
+#### 8029. Robotic audio distortion when playing YouTube videos at faster speeds?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgexkq/robotic_audio_distortion_when_playing_youtube/
+
+---
+
+#### 8030. Help with wifi instability
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vg8kxy/help_with_wifi_instability/
+
+---
+
+#### 8031. OSX upgrade for music production
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgg0u4/osx_upgrade_for_music_production/
+
+---
+
+#### 8032. Any way to prevent Safari WebApps from napping in the background?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vg6bi2/any_way_to_prevent_safari_webapps_from_napping_in/
+
+---
+
+#### 8033. Advice me some up to date browser for Mac OS Big Sur.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vggl6g/advice_me_some_up_to_date_browser_for_mac_os_big/
+
+---
+
+#### 8034. Time Machine keeps adding Macintosh HD as backup destination after I do system update every time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vftov1/time_machine_keeps_adding_macintosh_hd_as_backup/
+
+---
+
+#### 8035. For My Late 2019 MacBook Pro 16 Inch With Touch Bar Should I Stay On Sequoia Or Downgrade To Sonoma, Ventura, Or Monterey? Which macOS Leans More To Intel Chips, Longer Battery Life, And Smoother Performance?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vg70rh/for_my_late_2019_macbook_pro_16_inch_with_touch/
+
+---
+
+#### 8036. For those who jump between Mac & iPad. What do you do with your photos?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vg1w6u/for_those_who_jump_between_mac_ipad_what_do_you/
+
+---
+
+#### 8037. [V2EX] 抖音 PWA 显示出问题了吗
+
+**问题描述 / Problem Description**:
+edge 浏览器安装抖音的 PWA ，会导致顶栏出现渲染问题，大家有吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232275#reply0
+
+---
+
+#### 8038. [V2EX] macOS 27 public beta 现在的兼容性怎么样了？
+
+**问题描述 / Problem Description**:
+想升级 macOS 27 ，但是不清楚 public beta 兼容性怎样，担心出现严重兼容性问题。 大家使用过程中有没有遇到不兼容的软件？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230950#reply13
+
+---
+
+#### 8039. [V2EX] App Store Connect 内购要怎么提交审核？
+
+**问题描述 / Problem Description**:
+内购已经编辑好，但下面的提交以供审核按钮一直无法点击？ AI 说不用管了，但我总觉得不太对。有没有老哥知道是哪里设置有问题？ 界面上也没找能关联内购的选项，是不是因为我第一次提交 app 和内购有这个问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232317#reply2
+
+---
+
+#### 8040. [V2EX] App Store 账户被停用了
+
+**问题描述 / Problem Description**:
+你的帐户已在 App Store 和 iTunes 中被禁用 日区帐户，绑的本人的 JCB 信用卡，7 月下旬的时候想着日元贬值了，赶紧充点余额进去，结果失败了，尝试了几次之后放弃了。 正常用了一周之后，这一周内购买了软件内购和 iCloud 订阅，都是正常消费。 然后昨天中午突然提示被停用，网页自助启用失败，就联系了在线客服，在线客服说因为是外区，所以会通过电话联系我，通话时和客服复盘了自己的操作，客服表示理解并说应该是触发系统风控，帮我转交给安全部门，然后让我等 24 小时重新登录试试。 刚刚试了一下，已经可以正常登录和下载了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231979#reply18
+
+---
+
+#### 8041. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply25
+
+---
+
+#### 8042. [V2EX] MacBook Pro 14 英寸， 2021 年（Apple M1 Pro）支持外接两台 120Hz 4k 显示器吗
+
+**问题描述 / Problem Description**:
+请问大家这款 MacBook Pro 可以通过双雷电口外接两台高刷显示器，并且不关闭笔记本的屏幕吗？求教大家都是怎样实现的，对显示器有要求吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231257#reply7
+
+---
+
+#### 8043. [V2EX] 利用精确时间轴精确识别日语字幕
+
+**问题描述 / Problem Description**:
+之前尝试过各种本地大模型识别日语字幕，但是准确率都不够满意，尤其是时间轴很混乱，没法正常用。 时隔数月，突然想到，时间轴如果是确定的，那把音频切割开来，一句一句识别，加上 Codex 根据本地识别结果和中文翻译再联网 review ，可能可行。 本地用 whipser-v3 做初步识别，置信度低的找 whisper-v2 再次识别，随后让 Codex 对有争议的结果进行判断和联网查询。最后仍然会有个别结果不确定需要人工确认，但一集动漫一般就几句。 之所以要这么做是因为一些动漫只有精确的中文字幕，但网上公开的日语字幕，例如 jimaku.cc 下载的，不太符合中国人的使用习惯，经常将 2 句合并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232325#reply8
+
+---
+
+#### 8044. [V2EX] 记录下 gopls 导致系统自动重启的问题
+
+**问题描述 / Problem Description**:
+最近尝试使用 git worktree 并行开发，频繁系统卡死自动重启。排查后发现，原因是 home 目录下有个 gomod ，导致 VS Code 的 gopls 将整个 home 目录识别为 Go module ，导致大量的扫描 进一步导致 vnode 耗尽，系统进入异常状态后触发 watchdog ，最终导致 kernel panic 自动重启。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232225#reply1
+
+---
+
+#### 8045. [V2EX] uu 远程 的完成度太高了
+
+**问题描述 / Problem Description**:
+完全超过 向日葵 和 todesk ，后者这两个完成度不高于 85% uu 不愧是网易游戏技术下放，降维打击了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232211#reply50
+
+---
+
+#### 8046. [V2EX] 让 Agent 帮我调研我感兴趣的 topic 然后调研写博客，思维深度和广度比我想象中的好
+
+**问题描述 / Problem Description**:
+昨天晚上选了 3 个 topic 让 Agent 自行调研发挥，预测十年后男女对立状况/大学生如何赚到第一桶金（ 100 万）这两篇写的比我认识到的要好很多，可能是读了很多 v2ex/linux[.]do/招聘网站的帖子降低了很多幻觉😂 https://zeredy879.github.io/2026/08/04/first-million-student-2026/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232209#reply1
+
+---
+
+#### 8047. [V2EX] Grok 答非所问
+
+**问题描述 / Problem Description**:
+啊是为什么啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232204#reply0
+
+---
+
+#### 8048. [V2EX] 赛博菩萨 Cloudflare 给 AI 配钱包！羊毛党，赶紧去申领！
+
+**问题描述 / Problem Description**:
+Cloudflare 发布钱包体系，为 AI 智能体提供可编程支付、虚拟预算和可读身份。智能体可以自主试用 API 、MCP 工具和数字内容，人类负责设定消费边界。 https://2aran.com/s/KA74Wkn https://cloudflare.pay/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232194#reply1
+
+---
+
+#### 8049. [V2EX] FFmpeg 9.0 版本刚发布了。这个版本的代号是“Lei” 雷霄骅
+
+**问题描述 / Problem Description**:
+FFmpeg 9.0 版本刚发布了。这个版本的代号是“Lei” 按照惯例，“Lei” 应该是哪个计算机科学家/数学家，可想了好久也对不起来这是谁。 查了一下 FFmpeg 的开发邮件列表，才发现原来是纪念已故的 @雷霄骅 。 他在 2013–2016 年间撰写了大量 FFmpeg API 、源码分析及音视频编解码、封装和传输协议方面的中文教程与示例，帮助许多中国开发者入门音视频和 FFmpeg 。于 2016 年疑似因过劳突然离世。 今年是离世 10 周年，FFmpeg 用了这个大版本号来纪念他。 https://leixiaohua1020.github.io/ 中国传媒大学的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232176#reply4
+
+---
+
+#### 8050. [V2EX] Cloudflare 钱包，各位需要的开发者可以抢注一个喜欢的名字
+
+**问题描述 / Problem Description**:
+https://cloudflare.pay/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232166#reply3
+
+---
+
+#### 8051. [V2EX] Cloudflare Wallets AI 支付钱包发布
+
+**问题描述 / Problem Description**:
+Cloudflare Wallets 是面向 AI 智能体的可编程钱包服务，旨在为智能体提供稳定身份和原生支付能力。它支持通过 x402 协议使用稳定币购买 API 、MCP 工具及数字内容，并可为智能体设置额度、商户白名单和单笔消费上限，实现安全可控的自动支付。 目前 Cloudflare 已开放钱包用户名申领，完整的充值、支付和虚拟钱包功能将陆续推出。 可使用 https://cloudflare.pay/auth/login?tag=xxx （自己更换 xxx ）直接跳转绑定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232162#reply14
+
+---
+
+#### 8052. [V2EX] 刚刚： Cloudflare Wallet 发布了，快去领 handle
+
+**问题描述 / Problem Description**:
+https://cloudflare.pay/ 3 位数的 handle 还有好多，不知道之后有什么用，先领再说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232114#reply14
+
+---
+
+#### 8053. [V2EX] codex 重置 监控
+
+**问题描述 / Problem Description**:
+https://codex-reset.com https://codex-reset.com/tibo 还挺不错的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232110#reply5
+
+---
+
+#### 8054. [V2EX] 解决 Claude Code/Codex 跨 Session 失忆：我们开源了长时上下文引擎
+
+**问题描述 / Problem Description**:
+大家好，最近我们团队开源了 OpenLoomi \( https://github\.com/melandlabs/openloomi\)。 作为一个高强度使用 Claude Code 和 Codex 的开发者，我一直有个很大的痛点：它们在单个 Session 里确实极其好用，但一旦切到新 Session ，之前讨论过的业务背景、架构决定和项目进度就经常接不上。每次都需要反复给它前情提要：“项目推进到了哪里”、“哪些技术方案发生了变化”，非常打断心流。 这也是我们做 OpenLoomi 想要解决的核心问题： 如何让 Agent 拥有跨会话、跨平台，且能长期持续更新的上下文。 上下文远比一个 C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232095#reply6
+
+---
+
+#### 8055. [V2EX] 发现一个顶级华为域名
+
+**问题描述 / Problem Description**:
+https://huawei.dog/ 这个太狠了，哪个人才买的域名
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232077#reply82
+
+---
+
+#### 8056. [V2EX] 用 ai 写了个模拟炒股的 4399 网页游戏
+
+**问题描述 / Problem Description**:
+不得不说 ds-v4 是真的便宜，虽然游戏本身逻辑很简单，但全部下来只花费了不到 2 块钱。 游戏地址： https://game.ikeno.top/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232075#reply12
+
+---
+
+#### 8057. [V2EX] 买了两把剪刀，自己理发效果挺好的
+
+**问题描述 / Problem Description**:
+起因是熟悉理发师经常离职，上次新 Tony 给我理了很丑的发型，加上近些年碰到充值跑路等离谱事情，有点无语。网上搜索了些自己理发的视频，觉得难度还行就决定自己理了。 因为我经常留的是中长发，碎盖，不需要电动理发器，所以买了一把平剪和一把牙剪，一套发夹，一把梳子就上手了。初始设置是浴室有一面大镜子看前面。为了观察后面，放了台手机安装了 ip camera 用 rtsp 推流，在洗手台上摆了 ipad 上面安装了 VCL 播放器播放视频流，设置里调低缓存时间减少延迟，两台设备连同个 wifi 就行了，基本上可以 300ms 的时间差。放了把椅子坐着剪。 视频主要参考一些剪刀的用法，头发分区和裁剪的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232043#reply19
+
+---
+
+#### 8058. [V2EX] 智谱怎么会那么恶心
+
+**问题描述 / Problem Description**:
+上市前就年费支持他，老套餐改了又改，最后还是改成了新套餐的形状。这种没有契约精神的公司，能不能倒闭啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232042#reply2
+
+---
+
+#### 8059. [V2EX] 那些年被我妈没收的东西，你还记得几个
+
+**问题描述 / Problem Description**:
+拨浪鼓 起源于战国 兴于货郎叫卖声里 亡于我妈嫌吵，摔了 弹弓 起源于小卖部两块钱一把 兴于放学路上打树上的鸟 亡于打碎了隔壁老王家玻璃 铁皮青蛙 起源于批发市场论斤称 兴于课桌底下偷偷上发条 亡于被老师当场没收锁进抽屉 摔炮 起源于小卖部柜台最底层 兴于每年过年前的军备竞赛 亡于炸到自己脚，从此禁止 四驱车 起源于漫画连载 兴于全班凑钱买赛道 亡于电池买不起了 溜溜球 起源于说不清哪年突然全班都在玩 兴于课间十分钟的走廊 亡于缠住了同桌的头发 哇哇哇哇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231947#reply8
+
+---
+
+#### 8060. [V2EX] 面对“竹知了” 华为如此行事，应该是商业风格决定的。
+
+**问题描述 / Problem Description**:
+https://i.imgur.com/PCgggns.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231921#reply18
 
 ---

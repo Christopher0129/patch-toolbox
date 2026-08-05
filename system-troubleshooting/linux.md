@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8454**
+**总计条目 / Total entries: 8514**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -117873,5 +117873,785 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231985#reply24
+
+---
+
+#### 8455. What does N mean in sda1[N] when sda1 is part of an mdadm RAID array?
+
+**问题描述 / Problem Description**:
+Tags: linux, raid, mdadm | Score: 2 | Views: 7 | Answers: 1 | Created: 2026-08-04
+
+**解决方案 / Solution**:
+The "disk number" is just an internal index, the desc_nr in the kernel. It doesn't have any implications for redundancy. The requirement is that each device in the array gets a unique index. A better format here would emphasize the RaidDevice number. That's what you, the user, might care about. It's essentially the "position" of the device in the array. And as you can see here, it's 0 or 1 in your two disk RAID 1, even after failing a drive out and re-adding it. But so many tools depend on this output, and indeed, mdadm itself depends on the exact format of /proc/mdstat , so this is what we're kind of stuck with. Ignore the "Number", it will do crazy things.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806930/what-does-n-mean-in-sda1n-when-sda1-is-part-of-an-mdadm-raid-array
+
+---
+
+#### 8456. RPCS3 says 90% of PS3 emulator users run Windows, despite better Linux performance
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgdtxf/rpcs3_says_90_of_ps3_emulator_users_run_windows/
+
+---
+
+#### 8457. the worlds most popular software synthesizer (Serum 2) now has a linux version
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgbser/the_worlds_most_popular_software_synthesizer/
+
+---
+
+#### 8458. What was your first time?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfx5nn/what_was_your_first_time/
+
+---
+
+#### 8459. Some of my pass(1) entries stopped decrypting: a GnuPG regression that only triggers at exactly 4096 bits
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgd6cd/some_of_my_pass1_entries_stopped_decrypting_a/
+
+---
+
+#### 8460. HWiNFO64 style hardware monitoring software for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vghjap/hwinfo64_style_hardware_monitoring_software_for/
+
+---
+
+#### 8461. GNOME Boxes Nightly — The next-gen rewrite of GNOME Boxes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgkssk/gnome_boxes_nightly_the_nextgen_rewrite_of_gnome/
+
+---
+
+#### 8462. rust-lang/rust is adopting an LLM policy
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vg23x0/rustlangrust_is_adopting_an_llm_policy/
+
+---
+
+#### 8463. Is baeldung.com garbage?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vg3kn5/is_baeldungcom_garbage/
+
+---
+
+#### 8464. OpenScreen 1.8: Linux screen recording now goes through PipeWire + a hardware encoder + a Vulkan compositor, instead of the browser fallback
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgfti5/openscreen_18_linux_screen_recording_now_goes/
+
+---
+
+#### 8465. KDE Material decoration with Locally Integrated Menu (and Search) sees its first official release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vg7ple/kde_material_decoration_with_locally_integrated/
+
+---
+
+#### 8466. CLI program to manage rpm-ostree
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgarip/cli_program_to_manage_rpmostree/
+
+---
+
+#### 8467. Why do people recommend AntiX over Alpine for old hardware?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vggpe8/why_do_people_recommend_antix_over_alpine_for_old/
+
+---
+
+#### 8468. GNUstep monthly meeting (audio/(video) call) on Saturday, 8th of August 2026 -- Reminder
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfr5qu/gnustep_monthly_meeting_audiovideo_call_on/
+
+---
+
+#### 8469. Features You want in TUI libary
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vfwvkv/features_you_want_in_tui_libary/
+
+---
+
+#### 8470. So I tried to install Euro-Office
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg2e2d/so_i_tried_to_install_eurooffice/
+
+---
+
+#### 8471. I'm a beginner. How can I familiarize myself with Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgd2d0/im_a_beginner_how_can_i_familiarize_myself_with/
+
+---
+
+#### 8472. Getting rid of windows
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgentn/getting_rid_of_windows/
+
+---
+
+#### 8473. What is your Distro? And Why?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg03k7/what_is_your_distro_and_why/
+
+---
+
+#### 8474. Samsung SM951 (MZHPV256HDGL) + Dell Latitude 5480: "No Bootable Drive" in AHCI Mode, but Windows Boots in RAID. Can I Run Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgceqo/samsung_sm951_mzhpv256hdgl_dell_latitude_5480_no/
+
+---
+
+#### 8475. Laptop Distro Picking
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgl4v3/laptop_distro_picking/
+
+---
+
+#### 8476. Getting Ableton 12 Suite to properly authenticate in lutris
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgb0vk/getting_ableton_12_suite_to_properly_authenticate/
+
+---
+
+#### 8477. What do you really think about Debian?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg13az/what_do_you_really_think_about_debian/
+
+---
+
+#### 8478. [MangoWM] noctalia workspace module not working?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgjn63/mangowm_noctalia_workspace_module_not_working/
+
+---
+
+#### 8479. How do I fully install ArchLinuxARM on my Acer Chromebook R13
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgjmte/how_do_i_fully_install_archlinuxarm_on_my_acer/
+
+---
+
+#### 8480. Issues related to first open source contribution
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgh9tx/issues_related_to_first_open_source_contribution/
+
+---
+
+#### 8481. Ubuntu latest LTS and JDownloader file save issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgh7w0/ubuntu_latest_lts_and_jdownloader_file_save_issue/
+
+---
+
+#### 8482. Dual booting Linux/Windows with 2 physical SSDs
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgguqx/dual_booting_linuxwindows_with_2_physical_ssds/
+
+---
+
+#### 8483. Graphics card problems
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgftrd/graphics_card_problems/
+
+---
+
+#### 8484. Linux in potato PC
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgfl2x/linux_in_potato_pc/
+
+---
+
+#### 8485. Terminal, Virtual Terminal, Virtual Console and Pseudo-Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgfhyl/terminal_virtual_terminal_virtual_console_and/
+
+---
+
+#### 8486. Please help with extension manager
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgfhi3/please_help_with_extension_manager/
+
+---
+
+#### 8487. How to troubleshoot USB problem with Sim Racing Pedals
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg8j9c/how_to_troubleshoot_usb_problem_with_sim_racing/
+
+---
+
+#### 8488. Compressed files over networks
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vgdc4b/compressed_files_over_networks/
+
+---
+
+#### 8489. Intel 258V doesn't go above 17W on HP omnibook X.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg5epe/intel_258v_doesnt_go_above_17w_on_hp_omnibook_x/
+
+---
+
+#### 8490. Alternative to control screens on hardware
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg8qkf/alternative_to_control_screens_on_hardware/
+
+---
+
+#### 8491. why are linux communities divided?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vfy34g/why_are_linux_communities_divided/
+
+---
+
+#### 8492. Using a pen/stylus like touch/finger
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vfze7z/using_a_penstylus_like_touchfinger/
+
+---
+
+#### 8493. I'll leave this here, since I think it'll be useful for beginners
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg84f6/ill_leave_this_here_since_i_think_itll_be_useful/
+
+---
+
+#### 8494. What fonts can I install to fix special Unicode characters appearing as boxes?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vg72io/what_fonts_can_i_install_to_fix_special_unicode/
+
+---
+
+#### 8495. [V2EX] [震惊] 用 Firefox 播放一个抖音视频，我的 Linux 系统立马死机
+
+**问题描述 / Problem Description**:
+由于我的系统是魔改的 Ubuntu 16.04 + Kernel 6.19 + Mesa 25.1.4 + libva 2.11 + Firefox 152(参考： https://v2ex.com/t/1179778 ), 最近突然发现机器经常卡顿，最终定位发现播放某一个抖音视频（《归墟》 第一季 1-9 合集）时，立马出发 AMDGPU VCNU 固件报错，严重时显卡失去响应，需要强制断电重启。 嗯，这也算一种 Linux “攻击”吧😁，通过某些特殊的视频编码，层层穿透，直达内核。 打算切换到 nix 的 mesa 26.1.5 + Firefox 152 了。 OS: Ubuntu 16
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228447#reply5
+
+---
+
+#### 8496. [V2EX] 👏香港高才通批复了,可以办香港 ID 了
+
+**问题描述 / Problem Description**:
+香港高才通时间线 📅 Timeline 6 月 23 日 ：提交高才通申请 7 月 23 日 ：收到补件通知 7 月 31 日 ：正式批复 （悲剧） 8 月初才看到结果 → 白白浪费 5 天 😅 吐槽一下 今天上班和同事聊天才发现批复已经下来了…… 整整晚看了 5 天，直接血亏。 🪪 HKID 预约问题 结果一查香港身份证预约： 👉 最早时间：9 月 24 号 但我这边： 👉 9 月初就要开学 = 完全不可能为了办个 HKID 再飞一趟香港 😅 🤖 自救方案 下午直接开始干活： 写浏览器脚本 自动刷新预约页面 抢更早时间 slot 目前状态： 👉 还在疯狂刷… 🧠 教训 一定要 每天查申请状态
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232327#reply4
+
+---
+
+#### 8497. [V2EX] AI Coding 推荐把这条提示词加入到约束中
+
+**问题描述 / Problem Description**:
+- 禁止为纯理论、低概率的边界情况增加兜底逻辑。例外：用户明确要求，或涉及数据损坏、资源泄漏、安全问题。 假如不加这一条，AI 会习惯把各种极端假设情况都考虑到，写长长的防御性代码占满你的屏幕 这种代码撸棒性拉满 ，但是对人类来说阅读维护成本更高，不符合开发效率优先的现状
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232318#reply7
+
+---
+
+#### 8498. [V2EX] minimax h3 开源模型支持在 mbp m5 32G 内存上本地部署吗
+
+**问题描述 / Problem Description**:
+如题，各位大佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232311#reply2
+
+---
+
+#### 8499. [V2EX] 瞎聊下我用 AI 写代码。
+
+**问题描述 / Problem Description**:
+我用 AI 写代码第一个产品，全部许愿完成，连服务器都没登录过。统统许愿，我用的 CLAUDE ，没有设置过什么规则，比如 agents.md ，主打就是开放思维，我是一行代码看不明白，然后为了解决这个问题，我就让 chatgpt 帮我看，帮我指出有什么问题，然后把反馈给 CLAUDE,如此反复，就成了。 经过大量的许愿，我觉得思维很重要，你能想到，他们就能给你做到，至于代码写的怎么样，其实我并不是很关心，因为达到了我的目的，chatgpt 我觉得不适合给我写代码，因为他很啰嗦，把一个问题复杂化，他可能只适合 审计？ 审计这个词 我也不知道从哪里看到的，总之我说审计他就给我找问题。全部代码差不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232296#reply0
+
+---
+
+#### 8500. [V2EX] 如何快速理解 ai 生成的代码？
+
+**问题描述 / Problem Description**:
+周 1 遇到了一个问题，告诉 ai ，ai 帮我生成了差不多 1k 行代码，差不多花了 3 天时间完全搞清楚 ai 的逻辑，主要是一个分布式的问题，要考虑很多个边界情况。ai 的代码整体设计都挺好的，思路也正确。唯一一个问题就是：因为我引入的一个第三方库版本较低，缺少一些获取状态的接口，ai 为了获取状态额外引入了一些字段去处理，增加了复杂度，后来提示 ai 可以升级依赖的第三方库，ai 简化了处理逻辑。 当然理解 ai 代码的过程中，也在不停的问他 xx 作用是什么，什么场景会触发这个问题。整体感觉用 ai 理解代码还是有效率提升的，前几年没有 ai 的时候，看 raft 的实现，特别痛苦，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232293#reply9
+
+---
+
+#### 8501. [V2EX] 用 AI 写代码的时候，是否会发现它时而 [特别强大] ，时而 [特别蠢]
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232286#reply1
+
+---
+
+#### 8502. [V2EX] 突然觉得薅 AI 中转站没意思了
+
+**问题描述 / Problem Description**:
+6 月份 copilot 改收费规则之后，就退订了 copilot ，然后用上了中转站，6-7 月从 V 站、L 站注册了几十家中转站薅羊毛，前一段时间只要看到新的中转站就赶紧充，然后薅上 5 刀、10 刀，有些甚至 30 刀。 但是现在薅不动了，见到中转站活动也不想注册了，我本身开了 20 刀 plus 官方套餐，基本上每次重置 1 天就用完了，然后就用中转站，现在基本上就用固定一两家稳定、费率低的，其他的还有余额都不想用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232251#reply29
+
+---
+
+#### 8503. [V2EX] 国内模型 json_object 准确性怎么样
+
+**问题描述 / Problem Description**:
+都是支持 json_object ，且是在 prompt 规定的格式要自己验证合法性 接了很多模型，但是 json 输出之前一直是 openai 和 doubao1.6/2.0 min 的 json_schema ，目前除了超出输出长度外，都是合法的且严格按照字段名类型输出 有业务用的 qwen 和 deepseek ，看到支持的是 json_object ，没用过 json_object 想问下大家合法性怎么样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232207#reply5
+
+---
+
+#### 8504. [V2EX] 烧了 6B+ token,分享下我实践出来最好的 AGENTS.md
+
+**问题描述 / Problem Description**:
+烧掉 6B+ Token 后，我的最佳实践 三个月前，我开始用 Claude Code 开发一个自部署的家庭资产管理工具。 截至目前，项目已经迭代了 560 多个 commit ，从 v0.1 一路发布到 v1.8.1： 指标 当前数据 Commit 560+ 版本 v0.1 → v1.8.1 主代码量 5 万+ 行 Token 消耗 6B+ 这期间，我反复迭代过很多版 AGENTS.md ，也踩过不少坑。 例如： Opus 4.7 经常在对话中突然切换成英文； Opus 4.8 经常任务做到一半就停下来； 一旦任务持续时间超过 4 小时，就容易出现类似早期 LLM 的“上下文焦虑”，很难稳定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232201#reply53
+
+---
+
+#### 8505. [V2EX] 求助 claude code 升级为 2.1.222 后，无法使用自定义供应商
+
+**问题描述 / Problem Description**:
+claude code 好几天不升级，一升级就用不了了，原来 2.1.220 用第三方没问题，升级 2.1.221 2.1.220 提示 API error 和✻ Unable to connect to API (ECONNRESET) 查了半天 没有解决，无代理 和 代理情况下都不行， 是官方限制了？还是需要调整配置？有没有遇到同样问题的 使用 CC-Switch 管理配置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232198#reply6
+
+---
+
+#### 8506. [V2EX] 求推荐梯子，最好是自用过好多年的
+
+**问题描述 / Problem Description**:
+目前梯子 7 个人拼的搬瓦工家的，用了 7 年了，最近发现好多次节点上不去，不知道是人多了还是其他原因，今年到期换一个，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232191#reply142
+
+---
+
+#### 8507. [V2EX] 小弟准备软考高级，大神坛友你在哪里？
+
+**问题描述 / Problem Description**:
+熬年头的工作需要一个证书。成天搞机也没研究过这些理论，就知道软考系统规划与管理师和项目管理师比较好过。 这里求助下各位大神。考过这俩的大神网友推荐点学习资料和学习的方法。有靠谱的门路都行。 小弟在此先谢过大神，大仙了~！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232155#reply29
+
+---
+
+#### 8508. [V2EX] 吐槽 apinebula 价格高昂+猛猛 seo 广告 v2
+
+**问题描述 / Problem Description**:
+1. 先列出充值记录 1. 先列出充值记录 1. 先列出充值记录 -------------------------------------------- -------------------------------------------- -------------------------------------------- -------------------------------------------- 2. 缓存写入异常记录 2. 缓存写入异常记录 2. 缓存写入异常记录 -------------------------------------------- ------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232137#reply7
+
+---
+
+#### 8509. [V2EX] 焯！我的 giffgaff 卡卒了，各位佬的呢？
+
+**问题描述 / Problem Description**:
+收到 giffgaff 的激活邮件后，我顺手测试了下——卡能正常收短信，官网也能看到余额。当时想着怎么着也能撑个半个月到一个月，不至于马上挂掉，结果是我太天真了。 所以也就没第一时间去申请 PAC 码。后来听说有朋友申请了 PAC ，还没正式转出，卡就依然能用。 想问问，有多少佬跟我一样，没掐好时间，卡也说没就没了？😭 最后分享一个《我享云》的 3 折优惠 有需要的自取： http://rbrandly.com/pEONk
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232136#reply39
+
+---
+
+#### 8510. [V2EX] 做了一个用 DevTools 控制台访问博客的方式
+
+**问题描述 / Problem Description**:
+闲来无事又让 AI 搓了一个新的访问博客的方式，打开： https://mabbs.github.io/ 然后按 F12 ，在里面输入 Blog.help() 就可以使用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232122#reply3
+
+---
+
+#### 8511. [V2EX] 有没有更好用的类似的开源工程 a9gent/mindfs
+
+**问题描述 / Problem Description**:
+类似这样的 https://github.com/a9gent/mindfs
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232112#reply2
+
+---
+
+#### 8512. [V2EX] 有人因为发 github 项目或者发 paper 收到过 月之暗面的邮件吗
+
+**问题描述 / Problem Description**:
+因为之前也是没有主动找他们，有一家国内科技公司类似的方式找过我，聊了 4 5 次问了一大堆问题，然后没下文后面他们自己上线了类似的项目。 想问下大家有没有跟月之暗面打过类似的交道。 之前的那一家是要投资，这次这个是 hr 发的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232104#reply6
+
+---
+
+#### 8513. [V2EX] 现在的开发人手一个 mac 或者高性能 win，未来想必会有一半的云电脑
+
+**问题描述 / Problem Description**:
+开发人员入职标配：1. 高性能云电脑实例一个，普通办公本一个，云电脑手机 app 下载安装。 每个员工在云电脑对应一个数字人，数字人管理一批 agent ，agent 在云电脑内部可以随意使用测试域、研发域的本机环境，各种 vps ，数据库，对象存储啥的，也可以随意拉起配置。各种安全措施和隔离都已经做好了。 一、 为什么是云电脑 云电脑在云端，时时刻刻跑 agent ，下班前提交任务和指令，云端利用碳基员工休息下班的时间自动巡航。这不是程序员要求的，必然是来自于公司的要求。个人终端关机断电 agent 无法继续工作。对硬件和时间都是浪费。既然所有的开发和测试都在云端了，那么电脑本身的存算能力就
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232097#reply48
+
+---
+
+#### 8514. [V2EX] 当我们在和 AI 谈人天时，我们在谈什么
+
+**问题描述 / Problem Description**:
+今天用 codex 紧急插入一个需求，预计明天晚上就要发版，但是我下午四点才介入。 我就随口跟 codex 讲，评估一下，先给方案，超过 2 人天的话就延期发布。然后它评估的是 1.5 人天，允许发布。 接着它就带着我刚刚提及的另外一个小改动，一口气把小改动和这个 1.5 人天的内容都写完了。 因为我的项目管理，有一个统一的文档仓库，所有需求、开发设计文档、人机审核稿、bug 单、发版记录都会登记在案。并且规定了每个 feature 的开发 sop 和 worktree 等路径。所以不担心 agent 目标漂移，gpt-5.6 sol high 事实上，从我等它把代码全部写完（开了 appro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232085#reply11
 
 ---

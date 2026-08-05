@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2687**
+**总计条目 / Total entries: 2701**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -49187,5 +49187,229 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2509989
+
+---
+
+#### 2688. CVE-2026-10059 - cluster-curator-controller: cluster-curator-controller: namespace admin can…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cluster-curator-controller: cluster-curator-controller: namespace admin can escalate to cluster-wide curator authority via ClusterCurator ServiceAccount token. Bugzilla: 2483187
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483187
+
+---
+
+#### 2689. CVE-2026-10090 - multicluster-operators-subscription: multicluster-operators-subscription:…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] multicluster-operators-subscription: multicluster-operators-subscription: namespace edit user can deploy cluster-scoped ClusterRoleBinding and become cluster-admin via Application Subscription. Bugzilla: 2483292
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483292
+
+---
+
+#### 2690. CVE-2026-71202 - raster: Raster: Denial of Service via integer underflow in image cropping function
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] raster: Raster: Denial of Service via integer underflow in image cropping function. Bugzilla: 2511381
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511381
+
+---
+
+#### 2691. CVE-2026-67592 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via uncontrolled…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via uncontrolled incoming data transfers. Bugzilla: 2511341
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511341
+
+---
+
+#### 2692. CVE-2026-66277 - org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via uncontrolled…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via uncontrolled transfer frames. Bugzilla: 2511340
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511340
+
+---
+
+#### 2693. CVE-2026-66274 - org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via unbounded type nesting. Bugzilla: 2511337
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511337
+
+---
+
+#### 2694. CVE-2026-67589 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via excessive…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via excessive memory allocation. Bugzilla: 2511321
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511321
+
+---
+
+#### 2695. CVE-2026-67588 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via unbounded symbol value caching. Bugzilla: 2511324
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511324
+
+---
+
+#### 2696. CVE-2026-15920 - django: Django: Cross-site scripting via unvalidated URLField values in the admin
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Cross-site scripting via unvalidated URLField values in the admin. Bugzilla: 2511091
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511091
+
+---
+
+#### 2697. CVE-2026-15830 - django: Django: Denial of Service via parsing deeply nested geometry collections
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Denial of Service via parsing deeply nested geometry collections. Bugzilla: 2511103
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511103
+
+---
+
+#### 2698. CVE-2026-15337 - django: Django: Denial-of-service vulnerability due to excessive memory consumption
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Denial-of-service vulnerability due to excessive memory consumption. Bugzilla: 2511110
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511110
+
+---
+
+#### 2699. CVE-2026-15307 - django: Django: Remote code execution via GeoDjango spatial lookups
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Remote code execution via GeoDjango spatial lookups. Bugzilla: 2511095
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511095
+
+---
+
+#### 2700. CVE-2026-67855 - open62541: open62541: Denial of Service via heap use-after-free
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of Service via heap use-after-free. Bugzilla: 2511248
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511248
+
+---
+
+#### 2701. CVE-2026-67857 - open62541: open62541: Denial of Service via out-of-bounds read in client-side…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of Service via out-of-bounds read in client-side function. Bugzilla: 2511251
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511251
 
 ---

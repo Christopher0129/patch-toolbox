@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2981**
+**总计条目 / Total entries: 2995**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -44824,5 +44824,173 @@ A Cleartext Storage of Sensitive Information vulnerability in suppportutils of S
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2509989
+
+---
+
+#### 2982. CVE-2026-10059 - cluster-curator-controller: cluster-curator-controller: namespace admin can…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] cluster-curator-controller: cluster-curator-controller: namespace admin can escalate to cluster-wide curator authority via ClusterCurator ServiceAccount token. Bugzilla: 2483187
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483187
+
+---
+
+#### 2983. CVE-2026-10090 - multicluster-operators-subscription: multicluster-operators-subscription:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] multicluster-operators-subscription: multicluster-operators-subscription: namespace edit user can deploy cluster-scoped ClusterRoleBinding and become cluster-admin via Application Subscription. Bugzilla: 2483292
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483292
+
+---
+
+#### 2984. CVE-2026-71202 - raster: Raster: Denial of Service via integer underflow in image cropping function
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] raster: Raster: Denial of Service via integer underflow in image cropping function. Bugzilla: 2511381
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511381
+
+---
+
+#### 2985. CVE-2026-67592 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via uncontrolled…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via uncontrolled incoming data transfers. Bugzilla: 2511341
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511341
+
+---
+
+#### 2986. CVE-2026-66277 - org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via uncontrolled…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via uncontrolled transfer frames. Bugzilla: 2511340
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511340
+
+---
+
+#### 2987. CVE-2026-66274 - org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/proton-j: Apache Qpid Proton-J: Denial of Service via unbounded type nesting. Bugzilla: 2511337
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511337
+
+---
+
+#### 2988. CVE-2026-67589 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via excessive…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via excessive memory allocation. Bugzilla: 2511321
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511321
+
+---
+
+#### 2989. CVE-2026-67588 - org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.qpid/protonj2: Apache Qpid ProtonJ2: Denial of Service via unbounded symbol value caching. Bugzilla: 2511324
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511324
+
+---
+
+#### 2990. CVE-2026-15920 - django: Django: Cross-site scripting via unvalidated URLField values in the admin
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Cross-site scripting via unvalidated URLField values in the admin. Bugzilla: 2511091
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511091
+
+---
+
+#### 2991. CVE-2026-15830 - django: Django: Denial of Service via parsing deeply nested geometry collections
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Denial of Service via parsing deeply nested geometry collections. Bugzilla: 2511103
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511103
+
+---
+
+#### 2992. CVE-2026-15337 - django: Django: Denial-of-service vulnerability due to excessive memory consumption
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Denial-of-service vulnerability due to excessive memory consumption. Bugzilla: 2511110
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511110
+
+---
+
+#### 2993. CVE-2026-15307 - django: Django: Remote code execution via GeoDjango spatial lookups
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] django: Django: Remote code execution via GeoDjango spatial lookups. Bugzilla: 2511095
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511095
+
+---
+
+#### 2994. CVE-2026-67855 - open62541: open62541: Denial of Service via heap use-after-free
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of Service via heap use-after-free. Bugzilla: 2511248
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511248
+
+---
+
+#### 2995. CVE-2026-67857 - open62541: open62541: Denial of Service via out-of-bounds read in client-side…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of Service via out-of-bounds read in client-side function. Bugzilla: 2511251
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511251
 
 ---
