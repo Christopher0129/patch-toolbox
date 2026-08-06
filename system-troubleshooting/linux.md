@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8514**
+**总计条目 / Total entries: 8552**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -118653,5 +118653,499 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232085#reply11
+
+---
+
+#### 8515. Illinois's new law requires operating system providers to add age verification by 2028 including open-source projects
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhfbum/illinoiss_new_law_requires_operating_system/
+
+---
+
+#### 8516. I Ported CoLinux to X64 and expanded the driver to support all NT versions starting 5.2(XP) which atp is basically WSL but FOSS (Linux Kernel: 7.1.5 // NT: 10)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vh8x1p/i_ported_colinux_to_x64_and_expanded_the_driver/
+
+---
+
+#### 8517. AMD GFX1171 Support Merged For Mesa 26.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vh80wu/amd_gfx1171_support_merged_for_mesa_263/
+
+---
+
+#### 8518. This Quarter in KDE Digital Sovereignty: Q2 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhdifc/this_quarter_in_kde_digital_sovereignty_q2_2026/
+
+---
+
+#### 8519. Proxmox VE finally suports arm64!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgojoi/proxmox_ve_finally_suports_arm64/
+
+---
+
+#### 8520. I got Howdy face unlock to also unlock my keyring, using the TPM — because a face can't be an encryption key
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vh8ija/i_got_howdy_face_unlock_to_also_unlock_my_keyring/
+
+---
+
+#### 8521. Distro Fighter: find your Linux distro & desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgp26t/distro_fighter_find_your_linux_distro_desktop/
+
+---
+
+#### 8522. I built Hody-Telepro – an open-source Python CLI for Telegram metadata inspection
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhetex/i_built_hodytelepro_an_opensource_python_cli_for/
+
+---
+
+#### 8523. I Made a Plugin to Fix Quod Libet's Playlist Handling
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgsc18/i_made_a_plugin_to_fix_quod_libets_playlist/
+
+---
+
+#### 8524. Trials and tribulations of trying to get Maya 2022 to run on Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vgo0my/trials_and_tribulations_of_trying_to_get_maya/
+
+---
+
+#### 8525. Today we launched CodeS. An VS Code on your terminal. It is an very early version, give us feedbacks, and contribute!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vh8lef/today_we_launched_codes_an_vs_code_on_your/
+
+---
+
+#### 8526. I made a programmable virtual OS (and social network) that feels like a crunky 80s terminal :)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vgfouz/i_made_a_programmable_virtual_os_and_social/
+
+---
+
+#### 8527. I made a project planning TUI app in terminal (saves to markdown for git committing and Obsidian syncing)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vgnnk6/i_made_a_project_planning_tui_app_in_terminal/
+
+---
+
+#### 8528. Miss knowing the filename of your wallpaper in macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vh4qir/miss_knowing_the_filename_of_your_wallpaper_in/
+
+---
+
+#### 8529. Portato — TUI for managing SSH port forwards
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vgcf6p/portato_tui_for_managing_ssh_port_forwards/
+
+---
+
+#### 8530. elio 1.11 now supports drag and drop
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vfbrbs/elio_111_now_supports_drag_and_drop/
+
+---
+
+#### 8531. aerc (a terminal email client) releases 0.22.0
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vflysf/aerc_a_terminal_email_client_releases_0220/
+
+---
+
+#### 8532. Portato — TUI for managing SSH port forwards
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1vbjljd/portato_tui_for_managing_ssh_port_forwards/
+
+---
+
+#### 8533. [V2EX] 今天去广州朋友工厂, 开劳斯莱斯的老板被我带入 AI vibe coding 后上瘾了.
+
+**问题描述 / Problem Description**:
+他使用 AI vibe coding 了他想要的工厂管理系统, 从刚开始到现在不过 7 天, 已经彻底疯狂.目前已经买了 3 个 codex plus,一个 100 刀套餐, 不够用, 昨天开始到今天又买了 3 个 claude 20 pro, 1 个 100 刀, 然后又充值了 7000 里拉准备买 200 刀套餐时候, 拒绝购买, 已经联系了 apple expert,预计 72 小时后可以购买, 然后就死命开蹬, 再也没有还账号换来换去的麻烦, 因为需要不停的等待额度恢复. 他说你就当一个吸烟的没有烟, 满地找烟屁股抽的感觉, 无法自拨. 最重要的是他说再也不用看程序员的嘴脸了, 自己让
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232590#reply6
+
+---
+
+#### 8534. [V2EX] 大模型 API 成本参考工具
+
+**问题描述 / Problem Description**:
+我做了一个大模型 API 成本参考工具，用来比较官方供应商 API 和 OpenRouter 的价格。这个项目重点解决的是不要把两类渠道混成一个数字：页面分别展示不同渠道的价格、来源和验证时间，并可以按输入和输出 Token 估算实际工作负载成本。 如果你正在为真实项目比较模型，可以先看 [LLM API 价格指南]( https://llmapiprices.com/pricing/)。正式使用前仍建议以供应商最新文档为准，并另外确认速率限制、延迟、上下文和数据政策。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232579#reply0
+
+---
+
+#### 8535. [V2EX] 我刚刚骂了 codex，然后感觉，它开始故意给我出岔子
+
+**问题描述 / Problem Description**:
+我起了个项目，代码已经写了可能几万行了， 现在让它补写项目愿景、开发规范、和下一步计划 特意使用了 5.6-sol Ultra 模式， 结果后它给我写了一坨，像是免责声明的东西，罗列了各种列表……我看了几段，感觉头皮发麻。 我重新修改了一下提示，让它不必巨细无遗，只说纲要、具有指导性的就行…… 然后它又生成了风格还是一样的东西，几乎没变，然后我发彪了，让他在我之前手动写的版上改： 我靠，这是把我前面认为不合格，重做的那版又恢复了？？？真是浪费我 token!!! 你写的这个，是给人看的吗？我一看就头疼。。能说人话？，你要是给人介绍这个项目，会这样来说？？？？ 撤销吧，在原版的基础框架上修订！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232578#reply11
+
+---
+
+#### 8536. [V2EX] 大家平时都从哪些渠道获取最新的 AI 资讯和动态？
+
+**问题描述 / Problem Description**:
+最近感觉 AI 信息爆炸得太厉害了，模型发布、新工具、论文、产品更新几乎每天都有，信息密度很高，但噪音也特别大。 我自己目前主要看这几个渠道： X （ Twitter ） 关注了一批高信噪比的账号（研究、构建者、公司官方、中文 AI 博主都有），信息最快，但需要自己筛选。 Newsletter 比如 The Rundown AI 、一些中文 AI 周报，比较系统，适合每天快速过一遍。 Discord / Telegram 群 一些工具和开发者社区，实战讨论比较多。 GitHub Trending + 论文站 看新项目和 arXiv ，偏硬核一点。 少数派、即刻、小红书 偶尔刷一下，看普通用户和
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232563#reply7
+
+---
+
+#### 8537. [V2EX] 请教一下目前 agent 和 harness 在卷哪些方面的东西
+
+**问题描述 / Problem Description**:
+体感上，这两年 memory 、agent 、harness 框架层出不穷，人手一个，甚至演员也来代言 memory 插件，但是 readme 看上去都是一样的，不知道到底在卷什么，还是追求复刻 claude code ，求大佬解惑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232560#reply2
+
+---
+
+#### 8538. [V2EX] 多 gpu 服务器能否按用户分组？
+
+**问题描述 / Problem Description**:
+实验室内多 gpu 的 ubuntu 服务器，有什么办法可以指定用户访问哪几张吗？防止有人全占了。最好是重启系统也能生效
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232553#reply1
+
+---
+
+#### 8539. [V2EX] 口喷用微信 voice input 意外的顺滑
+
+**问题描述 / Problem Description**:
+主要微信客户端平时基本都会开着，相当于已经装了一个 whisper flow ，中英夹杂友好并且也能支持 fn, 怀疑是不是在微信客户端装了什么小模型，感觉特别顺畅。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232551#reply0
+
+---
+
+#### 8540. [V2EX] 关于那个强迫女友学 AI 的贴，我的观点是 AI 确实有用
+
+**问题描述 / Problem Description**:
+比如我就让 AI 分析这个帖子，AI 的结论如下： 我也有点好奇，各位拿各自的 AI 来分析这个帖子，会得出什么结论。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232546#reply14
+
+---
+
+#### 8541. [V2EX] 关于 Codex 额度， Luna 出乎意料的好用
+
+**问题描述 / Problem Description**:
+最近额度紧张，用 Luna Extra High 在跑，任务能完成额度使用也很少 原来我的需求较低级的模型就能解决的很好 所以必须用 Sol 解决的都是什么问题呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232539#reply11
+
+---
+
+#### 8542. [V2EX] 2026 年了，访问 github 还是不稳定
+
+**问题描述 / Problem Description**:
+我的梯子访问 google ，v 站都挺快的，就是访问 github 特别的慢，是什么情况？大家有同样的问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232531#reply4
+
+---
+
+#### 8543. [V2EX] Cursor 半价优惠还有吗？
+
+**问题描述 / Problem Description**:
+如题，下午用了官方邮件里的挽回链接去重新开通，结果支付的时候用的支付宝那张卡不支持境外支付导致支付失败了，就再也用不了那个优惠了。 求问还有可用的优惠吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232520#reply1
+
+---
+
+#### 8544. [V2EX] 如何评价 Discoveryloop: https://www.discoveryloop.com/
+
+**问题描述 / Problem Description**:
+创始人团队看着很强，但愿景有点没看明白，介绍里都是一些看着很虚的命题，什么科学方法科学实验，本质是想通过 AI 自动化做重复实验？ 这个目前看上去还没有落脚地的场景为什么能吸引这么多大佬加入，真有那么强大的前景？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232516#reply2
+
+---
+
+#### 8545. [V2EX] Token 是自搭还是中转？
+
+**问题描述 / Problem Description**:
+想请教一下各位：大家目前是倾向于买成品账号，然后自己搭 Sub2Api 服务端自用，还是直接购买第三方中转平台的服务？两者在稳定性和性价比上差别大吗？自搭的纯血但需要自负账号风险。 最后分享一个《我享云》的 3 折优惠 有需要的自取： http://rbrandly.com/pEONk
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232503#reply3
+
+---
+
+#### 8546. [V2EX] 微信输入法的产品经理到底有没有用过自己产品
+
+**问题描述 / Problem Description**:
+输入一个词组，第 1,2 次出现在第 3 个位置，已经习惯了以后，它反人类的又跑到了第 1 个，然后输入错误，然后输入习惯以后，又改了位置。可以理解原来的想法是好的，高频词组调整到前面，但至少能让用户关掉吧。哎。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232477#reply11
+
+---
+
+#### 8547. [V2EX] vibe coding 了一个小游戏，花费 5000，上架了 steam，可以收回成本吗？
+
+**问题描述 / Problem Description**:
+定价 1 刀，上架 1 个月，截止今日收入 50 元人民币。难啊。好卷啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232473#reply18
+
+---
+
+#### 8548. [V2EX] 和 claude code 一起写了一本研究 claude code 的书
+
+**问题描述 / Problem Description**:
+和 claude code 一起研究了 cluade code 泄露的源码，写了研究 claude code 源码的书。 欢迎阅读提意见 https://readingclaude.club/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232471#reply4
+
+---
+
+#### 8549. [V2EX] 上班不忙的时候，大家都在工位做什么，怎么增加一点额外收入呢
+
+**问题描述 / Problem Description**:
+如题，本人是前端开发，在银行工作五年多了，因为银行是不对外联网，所以员工都会自备一台自己的电脑，办公机工作，自己的电脑查资料什么的。自从有了 codex 后工作效率直线上升，每天多出了大量时间不知道怎么利用起来，之前研究了炒股发现怎么都没办法做到稳定盈利，想问问大家有没有什么可以在公司做不被同事领导发现，同时又可以给自己增加一点点收入的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232458#reply56
+
+---
+
+#### 8550. [V2EX] AI 大模型是否有辅助设计编程语言的 skill？
+
+**问题描述 / Problem Description**:
+前些天菲尔兹奖一顿火热，都在关注 AI 辅助数学研究。 我看到 C++ 20 的语法，就觉得挺纠结的。 template <typename T> requires requires (T x) { x + x; } // `requires` 同时使用在 concept 的定义和使用上 T add(T a, T b) { return a + b; } 就是这个 requires requires 就很怪异。 假如让 ai 来参与设计语言，应该会很厉害吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232429#reply1
+
+---
+
+#### 8551. [V2EX] vibe coding 时，怎么设计出自己满意的前端 UI？
+
+**问题描述 / Problem Description**:
+我现在设计前端，都是找到自己喜欢的目标网站/app 参考设计，如果没有现成的网站或者 app 可以参考，就去小红书上看别人分享的设计图;然后让大模型参考着去实现，当然了大模型只能实现个大概，很多细节还是需要自己一点点去打磨（当然了还是 vibe coding 打磨）。 但是总有一些页面是自己从来没见过类似的设计，没有可参考的，这种直接 vide coding 出来的很可能不满意，可是我又无法明确告诉 AI 我想要怎样的效果，我只知道这个效果不满意，却说不出来我想要怎样的设计。 遇到这种问题怎么解决的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232424#reply36
+
+---
+
+#### 8552. [V2EX] 用 AI 写项目，面对需求改动，如何交流能降低改出新 bug 的概率？
+
+**问题描述 / Problem Description**:
+最近用 AI 做个游戏的小项目，我是服务端，所以不太熟悉客户端（ web 代码），主要就是看看服务端代码、试玩、调整配置表。 最初是规划好技术栈、二十条 todo list ，给 AI 让它做，然后效果还不错，它甚至会自己写单元测试，代码质量相当可以。 但我发现，随着自己有更多想法，对 AI 提需求之后，新的代码更容易出现 bug——主要就是开始对老需求、老代码出现不完备、互斥的情况。 这个问题大家有遇到吗，请教平时是怎么解决/预防的呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232418#reply3
 
 ---

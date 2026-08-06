@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9116**
+**总计条目 / Total entries: 9160**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -124429,5 +124429,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232231#reply27
+
+---
+
+#### 9117. I'm struggling with Oblivion: Remastered.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhaub9/im_struggling_with_oblivion_remastered/
+
+---
+
+#### 9118. My 3 year old stuffed a Nintendo switch cartridge in my Wii’s disc drive.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhh49l/my_3_year_old_stuffed_a_nintendo_switch_cartridge/
+
+---
+
+#### 9119. terrible internet- how to improve
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhemol/terrible_internet_how_to_improve/
+
+---
+
+#### 9120. Slow Write Speed (<3 MB/s) on WD 4TB External HDD (WD40NPJZ) – Read Speed Normal, S.M.A.R.T. Good
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhe2g2/slow_write_speed_3_mbs_on_wd_4tb_external_hdd/
+
+---
+
+#### 9121. I can't connect to my home internet through ethernet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhdsi5/i_cant_connect_to_my_home_internet_through/
+
+---
+
+#### 9122. Sorry to bother y'a. My eyboard is not woring on reddit search or tite boxes.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vh9ge6/sorry_to_bother_ya_my_eyboard_is_not_woring_on/
+
+---
+
+#### 9123. HELP ME My partition were deleted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vh9865/help_me_my_partition_were_deleted/
+
+---
+
+#### 9124. Windows 11 random audio buzzing ("TRRRR") + micro freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhcb1v/windows_11_random_audio_buzzing_trrrr_micro/
+
+---
+
+#### 9125. Laptop repeatedly restarting on startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhi9us/laptop_repeatedly_restarting_on_startup/
+
+---
+
+#### 9126. Router and Mesh System
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhi72o/router_and_mesh_system/
+
+---
+
+#### 9127. How to delete conversation history and turn off memory with Google AI Mode tab?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhwkb/how_to_delete_conversation_history_and_turn_off/
+
+---
+
+#### 9128. Bluetooth earbuds microphone not working on Windows (works on phone)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhl50/bluetooth_earbuds_microphone_not_working_on/
+
+---
+
+#### 9129. Tech identification
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhh8u/tech_identification/
+
+---
+
+#### 9130. Lenovo Legion Gaming laptop running very poor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhfq5/lenovo_legion_gaming_laptop_running_very_poor/
+
+---
+
+#### 9131. Performance issues, BF6 on Razer laptop. Any input appreciated
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhdfr/performance_issues_bf6_on_razer_laptop_any_input/
+
+---
+
+#### 9132. Ssd and hdd connecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhhdav/ssd_and_hdd_connecting/
+
+---
+
+#### 9133. My house doesn't have ground wire, would a "no break" help keep my computer safe?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhh8ok/my_house_doesnt_have_ground_wire_would_a_no_break/
+
+---
+
+#### 9134. my internet on my pc is acting all weird
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhh6fx/my_internet_on_my_pc_is_acting_all_weird/
+
+---
+
+#### 9135. my keyboard isnt working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhgp3o/my_keyboard_isnt_working/
+
+---
+
+#### 9136. Visual bugs like shimmering/jagged edges
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhgn8l/visual_bugs_like_shimmeringjagged_edges/
+
+---
+
+#### 9137. Does putting a thermal pad on a SSD without a heat sink dissipate heat?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhglyr/does_putting_a_thermal_pad_on_a_ssd_without_a/
+
+---
+
+#### 9138. I clicked something and idk what
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhgkgz/i_clicked_something_and_idk_what/
+
+---
+
+#### 9139. Wired data transfer from Mac to PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhgh0p/wired_data_transfer_from_mac_to_pc/
+
+---
+
+#### 9140. rtwlane602.sys "page fault in nonpaged area" while uploading/downloading from the internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vhgfrw/rtwlane602sys_page_fault_in_nonpaged_area_while/
+
+---
+
+#### 9141. [V2EX] vscode(codebuddy)使用的时候经常提示这个要怎么默认运行,大佬们
+
+**问题描述 / Problem Description**:
+如图 https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYskNqdKMpsDZr8SveediWQ1ixMPbWuAACFR8AAtsbqFenMv2vob10pj0E.jpeg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232583#reply1
+
+---
+
+#### 9142. [V2EX] bark 有 Windows 接收端吗？
+
+**问题描述 / Problem Description**:
+只找到了 Windows 发送端，但是没见过 Windows 接收端？ 第三方也可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232580#reply0
+
+---
+
+#### 9143. [V2EX] 🙏 求推荐性价比比较高的 Ai 大模型
+
+**问题描述 / Problem Description**:
+我的 hermes 用的是 Deepseek 的 deepseek-v4-flash 模型的 APi ，都没怎么用每天都消耗十多块，有的时候一天几十块...... 😭 求 V 友推荐性价比比较高的 Ai 大模型 🙏 谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232575#reply3
+
+---
+
+#### 9144. [V2EX] 招行 Visa 卡购买苹果礼品卡失败
+
+**问题描述 / Problem Description**:
+上个月才用招行 Visa 卡购买了礼品卡用于开 GPT ，这两天准备继续充礼品卡，试了好几次都失败，提示： Your payment authorization failed on card •••. Please verify your information and try again, or try another payment method. 大家有遇到这种情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232566#reply6
+
+---
+
+#### 9145. [V2EX] 上海和杭州公积金社保问题请教
+
+**问题描述 / Problem Description**:
+公司这边上海只有 7%的公积金，然后今天问了 hr ，说可以转到杭州北京 转过去的话会有 12%，但是社保公积金合同要一块转过去 在这里想请教下 v 友们，转过去有什么损失和风险吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232558#reply2
+
+---
+
+#### 9146. [V2EX] Vibe Coding 你们会把推理模式开到最大吗？
+
+**问题描述 / Problem Description**:
+Vibe Coding 你们会把推理模式开到最大吗？ 推理模式开大最大，不仅消耗更多 token ，还消耗更多时间，但是不开到最大，又怕 AI 曲解我的命令，写错误的代码还得返工
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232534#reply9
+
+---
+
+#### 9147. [V2EX] 二审可能有转机吗？
+
+**问题描述 / Problem Description**:
+郑州的烂尾保交楼楼盘，前段时间告了原开发商和城开子公司。 在几乎没有证据的情况下，法官认定了购房人“知晓并同意转让”。 诉讼费不便宜，我的律师认为二审改判概率不大，V 友们觉得上诉有必要上诉吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232522#reply26
+
+---
+
+#### 9148. [V2EX] 被中国移动狠狠的恶心到了。
+
+**问题描述 / Problem Description**:
+事情是这样的，两年前我给我妈用我的手机号领了一个合约机。 是今年 7 月底到期。 中途我打过一次电话，想换成保号套餐，由于有合约在，每办理了。 然后 8 月 1 号的时候，我打电话过去要帮我办理保号套餐。 他们跟我说当月办理要次月生效！！ 我去他妈的，那我这个合约日期不就平白多了一个月？？ 打了他们 10086 的投诉电话，等了两三天每消息了，然后今天又打过去，跟我说结办了。 我真的是艹了，为什么要这么恶心人啊！！ 有没有有经验的老哥给支支招。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232510#reply13
+
+---
+
+#### 9149. [V2EX] 你们公积金变少了吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232495#reply18
+
+---
+
+#### 9150. [V2EX] 出入境新规出台后，具体形势到底如何呢？
+
+**问题描述 / Problem Description**:
+新规出台后，有最近出入境的朋友嘛，实际情况到底如何呢？有了解的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232489#reply20
+
+---
+
+#### 9151. [V2EX] 老婆公司要倒闭了，让她走仲裁，她说公司没赔，仲裁也是浪费精力，咋搞，呆了 14 年
+
+**问题描述 / Problem Description**:
+公司今年状态不好，成立快 20 年了，高峰的时候快 200 号人，现在只有 10 几号人，欠供应商及会员大概有五六百万，公司 4 、5 、6 月份只发了一半，这两天通知签离职协议和欠条，让大家走，公司其他人也不愿意仲裁，说没钱，也没用，浪费精力，公司无重要资产
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232476#reply41
+
+---
+
+#### 9152. [V2EX] 周围有没有人去医院就像回家一样
+
+**问题描述 / Problem Description**:
+你们周围有没有人去医院就像回家一样频繁。 我就有一个，我的女朋友 我感觉她经常去医院，她的生活方式是秉承着 能坐着绝不站着，能躺着绝不坐着 ，平时饮食也是 高盐 （一起吃饭我吃的正香，但她会经常说“没味儿”）、 高糖 （在外面吃饭会问店里要白砂糖）和吃一些 垃圾食品 尤其是无骨鸡爪（前段时间还暴雷的这个） 我平时喜欢运动，饮食清淡、偏食物的原汁原味的那种，平时也会跟她讲要多锻炼，最近也周六日邀请她去爬山。但她显然是都不喜欢... 我虽然工作后也去过医院，但是秉承着 能打针绝不点滴，能吃药绝不打针，能自愈绝不吃药 的态度，我感觉 是药都有三分毒 ，而且吃药吃多了感觉会对药有依赖性，有个风吹草动的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232474#reply12
+
+---
+
+#### 9153. [V2EX] 远程工作？独立开发 ？你会选择哪个？ 哪个更难？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232463#reply5
+
+---
+
+#### 9154. [V2EX] 现实周处除三害——如是书院你怎么看？
+
+**问题描述 / Problem Description**:
+现实周处除三害——如是书院大家看了吗？ 传销前科犯赖泽平出狱改名如平，摇身成"国学大师"开书院，收十几万学费把厌学孩子关进山里抽戒尺、扇耳光，浙江新昌刚通报立案核查，活脱脱《周处除三害》尊者收信徒的现实翻版。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232456#reply10
+
+---
+
+#### 9155. [V2EX] 我打赏了王思聪 1 毛钱。
+
+**问题描述 / Problem Description**:
+昨天王思聪直播，凑热闹打赏了他 1 毛钱。我成了打赏过王思聪的人。 思聪一场直播收入 700 万，当真是有钱人赚钱容易。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232453#reply7
+
+---
+
+#### 9156. [V2EX] 有 eSIM 手表推荐的吗
+
+**问题描述 / Problem Description**:
+性价比高，越便宜越好，给娃出门用的。 不要儿童手表，诸如小天才之类
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232452#reply1
+
+---
+
+#### 9157. [V2EX] 大家有没有发现，国内的 app，跳转外链，都喜欢帮你审核下链接安全性。
+
+**问题描述 / Problem Description**:
+典型案例就是微信 QQ ，无论什么连接，点击后都要多一步链接安全审计，又或者是弹出一个界面， 让你确认是否打开，好像对用户安全很看重一样。 作为对比，whatsapp ，telegram ，直接就可以跳转并且打开到浏览器了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232448#reply38
+
+---
+
+#### 9158. [V2EX] 新版本把重置卡都删了吗？
+
+**问题描述 / Problem Description**:
+刚才升级了下 ChatGPT ，发现重置卡没了，没升级前我还确认了下是有的。 是删除了还是换地方了？（多么希望是换地方了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232431#reply1
+
+---
+
+#### 9159. [V2EX] 支付宝小程序 有没有办法去除广告
+
+**问题描述 / Problem Description**:
+用支付宝小程序给电动车扫码充电，每次都弹开屏广告，很烦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232420#reply0
+
+---
+
+#### 9160. [V2EX] 看视频的设备选择
+
+**问题描述 / Problem Description**:
+因为不想买电视端会员，用现成的 pc 端视频会员，所以打算搞个小主机接电视，目前有三个选项 1135g7 迷你主机->iris xe 核显，核显能力应该三者最强，价格第二贵 n100 小主机->uhd 核显，最便宜 mac mini m1->功耗最低，被动散热，但是不支持 av1 解码，价格也最贵 不知道还要其他推荐没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232417#reply18
 
 ---

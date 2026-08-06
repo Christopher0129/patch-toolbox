@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8060**
+**总计条目 / Total entries: 8105**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109080,5 +109080,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1231921#reply18
+
+---
+
+#### 8061. Apple Releases macOS Tahoe 26.6.1 With Security Fixes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhbvnf/apple_releases_macos_tahoe_2661_with_security/
+
+---
+
+#### 8062. I made a bouncing DVD style screensaver for my mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhadd8/i_made_a_bouncing_dvd_style_screensaver_for_my_mac/
+
+---
+
+#### 8063. I miss dedicated titlebars
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgu6vf/i_miss_dedicated_titlebars/
+
+---
+
+#### 8064. What the hell happened to spotlight?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh7yjk/what_the_hell_happened_to_spotlight/
+
+---
+
+#### 8065. [Guide] How to fix broken iCloud Contact Photos/Avatars not syncing to macOS (Offline Air-Gap Fix)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhhsse/guide_how_to_fix_broken_icloud_contact/
+
+---
+
+#### 8066. Weird bug with Spotlight. Is it just me? ADDENDUM: Has become even weirder after I wrote most of this but before posting.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhgqo7/weird_bug_with_spotlight_is_it_just_me_addendum/
+
+---
+
+#### 8067. How to get rid of "Input source" HUD
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhfedu/how_to_get_rid_of_input_source_hud/
+
+---
+
+#### 8068. Network issues with TLS connections on M4 MacBook Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh8qx7/network_issues_with_tls_connections_on_m4_macbook/
+
+---
+
+#### 8069. New to MacBook. How do I stay signed in on my google related apps on Safari? I signed into my account on one tab, but had to sign in on another, for the same app.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhe7pn/new_to_macbook_how_do_i_stay_signed_in_on_my/
+
+---
+
+#### 8070. What is the modifier key for the 'exit full screen' command?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhcg1v/what_is_the_modifier_key_for_the_exit_full_screen/
+
+---
+
+#### 8071. Headless Help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh779h/headless_help/
+
+---
+
+#### 8072. How to get rid of "Store in Cloud" recommendation in Storage settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh1353/how_to_get_rid_of_store_in_cloud_recommendation/
+
+---
+
+#### 8073. I have the last Mac Pro Intel CPU (2019) and need disk mounting help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgpkmr/i_have_the_last_mac_pro_intel_cpu_2019_and_need/
+
+---
+
+#### 8074. macOS 26 ships with a hidden, interactive Glitter background option for iMessage chats. Here's how to enable it.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgshbv/macos_26_ships_with_a_hidden_interactive_glitter/
+
+---
+
+#### 8075. Front Row On Mac OS 26
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh2hha/front_row_on_mac_os_26/
+
+---
+
+#### 8076. Anyone know if there’s any way to play any of the Spiderman games on my Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhfqea/anyone_know_if_theres_any_way_to_play_any_of_the/
+
+---
+
+#### 8077. mac keeps entering sleep even when music is playing on google chrome
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vh1511/mac_keeps_entering_sleep_even_when_music_is/
+
+---
+
+#### 8078. Can I use my Mac normally without syncing iCloud? Are there any major drawbacks?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgnw2z/can_i_use_my_mac_normally_without_syncing_icloud/
+
+---
+
+#### 8079. One of the most useful shortcuts I use : making any type of empty file in Finder.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgo1vf/one_of_the_most_useful_shortcuts_i_use_making_any/
+
+---
+
+#### 8080. Issues with installing .iso images on a USB drive
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vgq487/issues_with_installing_iso_images_on_a_usb_drive/
+
+---
+
+#### 8081. [V2EX] macOS 15.7.7 无法直接向同一 iCloud 账号的 iPhone 隔空投送传送文件
+
+**问题描述 / Problem Description**:
+家中一台 M1 的 Mac Mini ，已在养老版本 15.7.7 差不多两年吧 iPhone 17 ，iOS 26.6 ，隔空投送默认为「仅限联系人」 目前碰到的问题： Mac Mini 向 iPhone 发送隔空投送文件， 不正常 ，且表现为： Mac Mini 可以识别到一台叫 iPhone 17 的设备，但无法发送文件，且设备的预览缩略图为空白。 iPhone 端更改为「所有人 10 分钟」选项后，可正常发送和接受，但观察到 iPhone 的预览缩略图仍显示为空白。 补充： 从 iPhone 端向 Mac Mini 发送隔空投送文件， 一切正常 （无论 mac 端是选择「允许所有人发现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232556#reply3
+
+---
+
+#### 8082. [V2EX] 让 Codex 帮我把微信的游戏中心和小程序面板这两个讨厌的侧边栏入口去掉了
+
+**问题描述 / Problem Description**:
+微信自从更新了一个大版本，把 Mac 和 Windows 统一后，左侧边栏就多出了游戏中心和小程序入口，没有提供隐藏这两个入口的设置。网上搜了一圈也没找到可以隐藏的方法。于是让 Codex 自己摸索了一番，终于搞定了。下图是搞定之后的效果： 我把成功的经验让 Codex 提炼成了指南，想要尝试的朋友可以把以下内容复制给 Codex: 请在我的 Mac 上制作一个独立的实验版微信，隐藏左侧栏的“游戏中心”和“小程序面板”两个入口，并保证截图权限在重启后仍然有效。请实际执行、逐步验证，不要只给我命令。 一、已知结论与适用范围 1. 目标是腾讯官网下载版 macOS 微信 4.1.12： https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232533#reply2
+
+---
+
+#### 8083. [V2EX] macOS 27 public beta 现在的兼容性怎么样了？
+
+**问题描述 / Problem Description**:
+想升级 macOS 27 ，但是不清楚 public beta 兼容性怎样，担心出现严重兼容性问题。 大家使用过程中有没有遇到不兼容的软件？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230950#reply14
+
+---
+
+#### 8084. [V2EX] 教大家如何申请豁免中国大陆地区 App Store ICP 备案
+
+**问题描述 / Problem Description**:
+最近各种 Agent Vibe Coding 很火，看到很多 V 友都在写 App 。 App 过审后，如果要在中国大陆分发，需要有 ICP 备案号。偶尔会出现首个版本没备案也没被拦，但后面还是有几率被拦掉。 如果你的 App 不联网，或者虽然联网，但只连接 Apple 的服务器使用 iOS 系统服务（如，连接苹果服务器完成 App 内购买），是可以向苹果申请豁免 ICP 备案的。否则都需要备案，不能豁免。 当然备案本身也不复杂，速度还可能更快，只是会有些额外的金钱和维护成本。 具体申请豁免的方法是： 1. https://developer.apple.com/cn/ ，拉到最底下“联系我们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232582#reply2
+
+---
+
+#### 8085. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply24
+
+---
+
+#### 8086. [V2EX] TestFlight 沙盒订阅使用真实 Apple ID 测试后，如何解除订阅或重置购买状态？
+
+**问题描述 / Problem Description**:
+最近开发了一个 macOS App ，使用 TestFlight + StoreKit 2 测试自动续订订阅。 测试时使用的是自己的 真实 Apple ID （开发者账号） ，购买弹窗明确提示是 Sandbox 环境，不会收费。 现在遇到一个问题： 删除 TestFlight App 后重新安装，订阅会自动恢复。 App Store 的「订阅」页面找不到这个订阅。 因为不是 Sandbox Tester ，也无法在 App Store Connect 中清除购买记录。 请问： 这种情况下如何解除 Sandbox 订阅？ 如何重置购买状态，重新测试首次购买流程？ 还是说使用真实 Apple ID
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232446#reply4
+
+---
+
+#### 8087. [V2EX] App Store Connect 内购要怎么提交审核？
+
+**问题描述 / Problem Description**:
+内购已经编辑好，但下面的提交以供审核按钮一直无法点击？ AI 说不用管了，但我总觉得不太对。有没有老哥知道是哪里设置有问题？ 界面上也没找能关联内购的选项，是不是因为我第一次提交 app 和内购有这个问题？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232317#reply5
+
+---
+
+#### 8088. [V2EX] App 有个功能是联网搜索 AppStore 中的图标，这种情况也必须 ICP 备案吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231923#reply13
+
+---
+
+#### 8089. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply31
+
+---
+
+#### 8090. [V2EX] 如果下个月 AI 按 Apple ID 来区分的话，是不是还得注册个港区的 iD？
+
+**问题描述 / Problem Description**:
+目前是国区 ID+美区商店；AI 是跑马灯。 我看好多用外区 ID 的，直接跑的是最新的 AI。 本来想转区的，但是貌似还得留一个国区的来下载一些国区的特色 APP。 那么注册新的话，直接所有设备退出旧 ID，保留资料，登录新 ID 就可以还是需要重新走激活流程？ 另外我现在 iCloud 家庭组里，还有一个共享图库～这个共享图库是不是所有的都在同一个区？ 不能我设备港区 ID，家里人设备国家 ID？ 如果需要在一个区的话，这个共享图库是不是先存所有退出，都换了后再新建？ 求佬解答～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231015#reply11
+
+---
+
+#### 8091. [V2EX] M1 Max 能装 macOS 27 Public Beta 么？
+
+**问题描述 / Problem Description**:
+M1 Max (64+1) 能装 macOS 27 Public Beta 么， 装了 27 的 V 友说说体验？ 目前还是 15.7.7 ，唯一生产设备，不敢乱更新！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230815#reply18
+
+---
+
+#### 8092. [V2EX] wan 3.0 来了
+
+**问题描述 / Problem Description**:
+wan 3.0 来了，API 还在路上。 https://bailian.console.aliyun.com/cn-beijing?tab=model#/model-market/detail/wan3.0-video https://www.yikeai.com/ http://wanxiang.aliyun.com https://c.qianwen.com/ https://nuzza.ai/models/wan-3-0
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232584#reply0
+
+---
+
+#### 8093. [V2EX] 吐槽！ AI 带来的恶果。。。。。。
+
+**问题描述 / Problem Description**:
+现在 AI 确实发展很快，图片和视频有的时候不仔细看细节真是真假难辨，尤其是那些在真实讯息上做二次加工后的，真的很难识别。 我最近准备出去玩，就在小红书上搜索深圳周边酒店，比如清远，惠州，搜索出来一堆一堆的看起来非常不错的酒店，而且不是那种一眼假的，而且不是一个图，是很多人都晒了，甚至动图，让你以为是真的， 然后就骗你加微信，因为是店群模式运作，所以很难不中招。 可以预见到，半年一年后，小红书，抖音上的会有大量的让人无法识别的讯息， （技术人员况且中招，就更不论年纪大的人了，这几天还有个老头那 android 拍照被一堆广告围攻） 或许等 ai 非常饱和的时候， 人们会呼唤一个 0ai 的平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232571#reply5
+
+---
+
+#### 8094. [V2EX] 我发现很多网盘条款里都禁止超大独占性文件上传，到底多大算超大？
+
+**问题描述 / Problem Description**:
+来自 123 网盘协议条款
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232486#reply9
+
+---
+
+#### 8095. [V2EX] 看到隔壁那个说 Apple Music 被 AI 占领的帖子有感
+
+**问题描述 / Problem Description**:
+刚才刷到 V2EX 上那个关于 Apple Music 已被大量 AI 音乐占领的帖子，深有同感。虽然我平时主力是 Spotify ，偶尔换别的平台，但感受几乎一模一样——推荐算法里冒出来的新歌，越来越像流水线产物，尤其是华语区，旋律套模板、演唱机械感十足、歌词空洞得让人尴尬。 据说有些平台里 AI 生成的新歌上传量已经超过三分之一，平台说播放量占比不高，但推荐流里隔三差五蹦出一首，体验真的被割裂得很厉害。前几天也看了那篇关于 AI 音乐的深度报道，看完只觉得恶心。 我现在基本在往回听。老专辑至少每首歌都有人味儿，有真实的情绪、真实的呼吸、真实的瑕疵。不管是华语经典还是国外的老唱片，那些经过时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232455#reply2
+
+---
+
+#### 8096. [V2EX] 银行卡的委托扣费大家遇到过吗？
+
+**问题描述 / Problem Description**:
+前几天去注销一张流量卡，卡里还有 20 几块钱，本来是退费的，结果遇到一个骚操作：在填了银行卡的时候说是会扣费或者退款，没仔细看，多退少补也正常，我这个卡应该能退点钱。然后人脸验证了。 下午来短信说销户成功了，结果一看银行卡扣了 30 多，柜台交易，当时很懵逼，怎么还扣费了。 幸好填银行卡的时候截图了。看完才明白，运营商会先扣一个月的费用，然后下个月把多的全部还你。 但问题是为什么运营商可以直接扣我银行卡的钱？而且也不用任何验证码什么的。也不是走快捷支付，快捷支付我只有支付宝和微信，上面都没有这笔账。 周末去了支行，一顿查才发现，银行还有个委托扣费功能，像水电，社保什么的，可以直接扣款。我让银
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232434#reply5
+
+---
+
+#### 8097. [V2EX] iOS 梯子突然都用不了了，大家有遇到类似情况吗？求推荐稳定的~
+
+**问题描述 / Problem Description**:
+RT 。 从昨晚开始，我这边 iOS 端的梯子就突然都无法使用了。之前这个梯子差不多稳定用了 5 年，但今年以来大家都知道的陆续出现了各种问题。 目前的情况是： iOS 端彻底挂了； 其他设备还能勉强使用； 软路由目前也不太正常； 换了另一个梯子，iOS 仍然无法使用； 反倒是备用梯子 iOS 还能用。 想问一下大家有没有遇到类似情况？ 另外，也想找一个相对稳定、适合长期使用的梯子，还请推荐一下，感谢！~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232414#reply15
+
+---
+
+#### 8098. [V2EX] 用语音输入法提升口头表达能力
+
+**问题描述 / Problem Description**:
+去年开始用豆包输入法。 具体用了多久没印象，但是感觉从豆包输入法上线以来，就一直在用了。 平时主要用的是豆包的语音输入功能。 今天讲的不是功能有多好用。主要是讲讲语音输入法对个人能力或者说个人的生活有什么改变。 豆包输入法之前，我一直用的是微信输入法。主要是觉得微信的输入法各项功能还不错，没什么广告。 但我对语音输入法的印象一直停留在 iOS 语音输入的那个年代。没有全拼或者双拼的准确性高。 刚开始是被豆包输入法的语音转文本准确性所吸引。 用了一段时间之后，发现最吸引我的反而是用了语音输入法之后，口头表达能力大幅度提升带来的正反馈。 在用语音输入法之前，我习惯了长时间用键盘输入。虽然文字表达能
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232389#reply9
+
+---
+
+#### 8099. [V2EX] 哇哇哇，这是 v 站 一万个角色里最好的角色
+
+**问题描述 / Problem Description**:
+https://edge.v2ex.com/persona/wawawa
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232385#reply0
+
+---
+
+#### 8100. [V2EX] 《周处除三害》的现实版，浙江绍兴新昌如是书院
+
+**问题描述 / Problem Description**:
+“如是书院”是一家打着“传统国学”和“家庭教育”旗号的封闭式培训矫治机构。其创始人如平（原名赖泽平/赖泽明）曾被央视《焦点访谈》曝光为传销头目。该机构因涉嫌对青少年学员进行掌掴、殴打等暴力管教及精神控制，于 2026 年 8 月被媒体曝光后，引发社会广泛关注，当地多部门已成立联合调查组开展调查。 https://m.sohu.com/a/1059385279_121347613?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232378#reply9
+
+---
+
+#### 8101. [V2EX] trae 已经凉了，严重 bug 居然没人发现
+
+**问题描述 / Problem Description**:
+trae 长期不更新模型，我觉得已经没用了，准备到期之后不再续费，结果发现一个死循环： 没有地方可以取消订阅——只有升级订阅 有地方删除账号——但是前提是取消订阅 然后，我就想要把支付方式删除，避免扣费——但是必须保留一个支付方式，这一发现让人吐血，还好我发现可以加微信支付，于是换成微信支付后，在微信中把这个自动续费删了——终于干掉了这个大毒瘤。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232363#reply5
+
+---
+
+#### 8102. [V2EX] 一看今日热议榜单，两眼一黑
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232362#reply24
+
+---
+
+#### 8103. [V2EX] 为什么调用 DeepSeek 的接口，会返回 Claude 的信息呢？
+
+**问题描述 / Problem Description**:
+早上测试 Agent ，对着模型问了一句：你是谁，结果 DeepSeek-v4-flash 返回了下面的信息： {"id":"a43192dd-649d-455b-bed0-c9e0984685ba","object":"chat.completion","created":1785979530,"model":"deepseek-v4-flash","choices":[{"index":0,"message":{"role":"assistant","content":"你好！我是 Claude ，由 Anthropic 开发的人工智能助手。\n\n 我可以帮你处理各种问题，比如：\n-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232360#reply59
+
+---
+
+#### 8104. [V2EX] 利用精确时间轴精确识别日语字幕
+
+**问题描述 / Problem Description**:
+之前尝试过各种本地大模型识别日语字幕，但是准确率都不够满意，尤其是时间轴很混乱，没法正常用。 时隔数月，突然想到，时间轴如果是确定的，那把音频切割开来，一句一句识别，加上 Codex 根据本地识别结果和中文翻译再联网 review ，可能可行。 本地用 whipser-v3 做初步识别，置信度低的找 whisper-v2 再次识别，随后让 Codex 对有争议的结果进行判断和联网查询。最后仍然会有个别结果不确定需要人工确认，但一集动漫一般就几句。 之所以要这么做是因为一些动漫只有精确的中文字幕，但网上公开的日语字幕，例如 jimaku.cc 下载的，不太符合中国人的使用习惯，经常将 2 句合并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232325#reply9
+
+---
+
+#### 8105. [V2EX] uu 远程 的完成度太高了
+
+**问题描述 / Problem Description**:
+完全超过 向日葵 和 todesk ，后者这两个完成度不高于 85% uu 不愧是网易游戏技术下放，降维打击了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232211#reply75
 
 ---

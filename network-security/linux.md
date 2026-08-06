@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2995**
+**总计条目 / Total entries: 3011**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -44992,5 +44992,197 @@ A Cleartext Storage of Sensitive Information vulnerability in suppportutils of S
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2511251
+
+---
+
+#### 2996. CVE-2026-18649 - gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders. Bugzilla: 2510614
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510614
+
+---
+
+#### 2997. CVE-2026-71312 - github.com/rclone/rclone: rclone: Server-Side Command Execution via Malicious SFTP…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Server-Side Command Execution via Malicious SFTP Filenames. Bugzilla: 2511773
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511773
+
+---
+
+#### 2998. CVE-2026-71311 - github.com/rclone/rclone: rclone: FTP command injection via CRLF in filename…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: FTP command injection via CRLF in filename encoding. Bugzilla: 2511771
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511771
+
+---
+
+#### 2999. CVE-2026-71310 - github.com/rclone/rclone: rclone: Denial of Service via unbounded HTTP CONNECT…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Denial of Service via unbounded HTTP CONNECT response headers. Bugzilla: 2511772
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511772
+
+---
+
+#### 3000. CVE-2026-71309 - github.com/rclone/rclone: rclone: Backend Root Escape via Incomplete Path…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Backend Root Escape via Incomplete Path Validation. Bugzilla: 2511774
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511774
+
+---
+
+#### 3001. CVE-2026-18839 - popt-devel: popt-static: size_t underflow in singleOptionHelp
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] popt-devel: popt-static: size_t underflow in singleOptionHelp. Bugzilla: 2511010
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511010
+
+---
+
+#### 3002. CVE-2026-49331 - openshift/oauth-proxy: openshift/oauth-proxy: unauthenticated identity header…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openshift/oauth-proxy: openshift/oauth-proxy: unauthenticated identity header injection on whitelisted paths. Bugzilla: 2483252
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483252
+
+---
+
+#### 3003. CVE-2026-16443 - keycloak-services: keycloak-services: SAML broker metadata import disables…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: SAML broker metadata import disables response signature validation. Bugzilla: 2503139
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503139
+
+---
+
+#### 3004. CVE-2026-71227 - libkcapi: Infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: Infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return. Bugzilla: 2462867
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462867
+
+---
+
+#### 3005. CVE-2026-71281 - peft: peft: Arbitrary Code Execution via Unsafe Deserialization in LoRA-GA and…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] peft: peft: Arbitrary Code Execution via Unsafe Deserialization in LoRA-GA and CorDA Modules. Bugzilla: 2511563
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511563
+
+---
+
+#### 3006. CVE-2026-71267 - microtar: microtar: Stack buffer overflow via overly long filenames
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] microtar: microtar: Stack buffer overflow via overly long filenames. Bugzilla: 2511585
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511585
+
+---
+
+#### 3007. CVE-2026-71226 - libkcapi: Memory corruption via uncanceled AIO requests on error in libkcapi's…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: Memory corruption via uncanceled AIO requests on error in libkcapi's one-shot AIO path. Bugzilla: 2462114
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462114
+
+---
+
+#### 3008. CVE-2026-71225 - libkcapi: IV reuse in libkcapi one-shot symmetric cipher chunking causes cipher…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: IV reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries. Bugzilla: 2462011
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462011
+
+---
+
+#### 3009. CVE-2026-71235 - os: net/http: golang: github.com/absmach/magistrala: Magistrala IoT Platform:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] os: net/http: golang: github.com/absmach/magistrala: Magistrala IoT Platform: Arbitrary Code Execution via Unrestricted Script Execution. Bugzilla: 2511475
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511475
+
+---
+
+#### 3010. CVE-2026-59679 - libxfont2: Font Server Client encoding[] Out-Of-Bounds Read/Write
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libxfont2: Font Server Client encoding[] Out-Of-Bounds Read/Write. Bugzilla: 2509620
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509620
+
+---
+
+#### 3011. CVE-2026-44950 - libxfonts2: libXfont2: Privilege Escalation via Heap Buffer Overflow in Font…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libxfonts2: libXfont2: Privilege Escalation via Heap Buffer Overflow in Font Server Client. Bugzilla: 2509622
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509622
 
 ---

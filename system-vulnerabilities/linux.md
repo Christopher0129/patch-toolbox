@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2701**
+**总计条目 / Total entries: 2717**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -49411,5 +49411,261 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2511251
+
+---
+
+#### 2702. CVE-2026-18649 - gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gst-plugins-good: gst-plugins-good: unbounded memory growth in rtph264depay and rtph265depay RTP depayloaders. Bugzilla: 2510614
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510614
+
+---
+
+#### 2703. CVE-2026-71312 - github.com/rclone/rclone: rclone: Server-Side Command Execution via Malicious SFTP…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Server-Side Command Execution via Malicious SFTP Filenames. Bugzilla: 2511773
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511773
+
+---
+
+#### 2704. CVE-2026-71311 - github.com/rclone/rclone: rclone: FTP command injection via CRLF in filename…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: FTP command injection via CRLF in filename encoding. Bugzilla: 2511771
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511771
+
+---
+
+#### 2705. CVE-2026-71310 - github.com/rclone/rclone: rclone: Denial of Service via unbounded HTTP CONNECT…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Denial of Service via unbounded HTTP CONNECT response headers. Bugzilla: 2511772
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511772
+
+---
+
+#### 2706. CVE-2026-71309 - github.com/rclone/rclone: rclone: Backend Root Escape via Incomplete Path…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Backend Root Escape via Incomplete Path Validation. Bugzilla: 2511774
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511774
+
+---
+
+#### 2707. CVE-2026-18839 - popt-devel: popt-static: size_t underflow in singleOptionHelp
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] popt-devel: popt-static: size_t underflow in singleOptionHelp. Bugzilla: 2511010
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511010
+
+---
+
+#### 2708. CVE-2026-49331 - openshift/oauth-proxy: openshift/oauth-proxy: unauthenticated identity header…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openshift/oauth-proxy: openshift/oauth-proxy: unauthenticated identity header injection on whitelisted paths. Bugzilla: 2483252
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483252
+
+---
+
+#### 2709. CVE-2026-16443 - keycloak-services: keycloak-services: SAML broker metadata import disables…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: SAML broker metadata import disables response signature validation. Bugzilla: 2503139
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2503139
+
+---
+
+#### 2710. CVE-2026-71227 - libkcapi: Infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: Infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return. Bugzilla: 2462867
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462867
+
+---
+
+#### 2711. CVE-2026-71281 - peft: peft: Arbitrary Code Execution via Unsafe Deserialization in LoRA-GA and…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] peft: peft: Arbitrary Code Execution via Unsafe Deserialization in LoRA-GA and CorDA Modules. Bugzilla: 2511563
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511563
+
+---
+
+#### 2712. CVE-2026-71267 - microtar: microtar: Stack buffer overflow via overly long filenames
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] microtar: microtar: Stack buffer overflow via overly long filenames. Bugzilla: 2511585
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511585
+
+---
+
+#### 2713. CVE-2026-71226 - libkcapi: Memory corruption via uncanceled AIO requests on error in libkcapi's…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: Memory corruption via uncanceled AIO requests on error in libkcapi's one-shot AIO path. Bugzilla: 2462114
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462114
+
+---
+
+#### 2714. CVE-2026-71225 - libkcapi: IV reuse in libkcapi one-shot symmetric cipher chunking causes cipher…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libkcapi: IV reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries. Bugzilla: 2462011
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462011
+
+---
+
+#### 2715. CVE-2026-71235 - os: net/http: golang: github.com/absmach/magistrala: Magistrala IoT Platform:…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] os: net/http: golang: github.com/absmach/magistrala: Magistrala IoT Platform: Arbitrary Code Execution via Unrestricted Script Execution. Bugzilla: 2511475
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511475
+
+---
+
+#### 2716. CVE-2026-59679 - libxfont2: Font Server Client encoding[] Out-Of-Bounds Read/Write
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libxfont2: Font Server Client encoding[] Out-Of-Bounds Read/Write. Bugzilla: 2509620
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509620
+
+---
+
+#### 2717. CVE-2026-44950 - libxfonts2: libXfont2: Privilege Escalation via Heap Buffer Overflow in Font…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libxfonts2: libXfont2: Privilege Escalation via Heap Buffer Overflow in Font Server Client. Bugzilla: 2509622
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509622
 
 ---
