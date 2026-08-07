@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2717**
+**总计条目 / Total entries: 2732**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -49667,5 +49667,248 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2509622
+
+---
+
+#### 2718. CVE-2026-18938 - p11-kit: Integer overflow in RPC attribute-array length calculation can…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] p11-kit: Integer overflow in RPC attribute-array length calculation can under-allocate nested attribute storage on 32 bit systems. Bugzilla: 2478995
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2478995
+
+---
+
+#### 2719. CVE-2026-71430 - re2: node-re2: Denial of Service due to excessive string length in replacements
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] re2: node-re2: Denial of Service due to excessive string length in replacements. Bugzilla: 2512248
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512248
+
+---
+
+#### 2720. CVE-2026-71497 - org.jsoup/jsoup: jsoup: Cross-site scripting via malformed HTML tag names
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.jsoup/jsoup: jsoup: Cross-site scripting via malformed HTML tag names. Bugzilla: 2512346
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512346
+
+---
+
+#### 2721. CVE-2026-61632 - pymdown-extensions: PyMdown Extensions: Information disclosure via path traversal…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pymdown-extensions: PyMdown Extensions: Information disclosure via path traversal in b64 extension. Bugzilla: 2512227
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512227
+
+---
+
+#### 2722. CVE-2026-67422 - pymdown-extensions: Pymdown-extensions: Denial of Service via Regular Expression…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pymdown-extensions: Pymdown-extensions: Denial of Service via Regular Expression Vulnerability. Bugzilla: 2512322
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512322
+
+---
+
+#### 2723. CVE-2026-66808 - hypershift-addon-operator: hypershift-addon-operator: unsanitized hub ConfigMap…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] hypershift-addon-operator: hypershift-addon-operator: unsanitized hub ConfigMap data passed as CLI arguments to privileged install Job (argument injection). Bugzilla: 2509774
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509774
+
+---
+
+#### 2724. CVE-2026-71436 - mermaid: Mermaid XY Charts: Denial of Service via invalid X-Axis parameters
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mermaid: Mermaid XY Charts: Denial of Service via invalid X-Axis parameters. Bugzilla: 2512242
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512242
+
+---
+
+#### 2725. CVE-2026-18427 - @fastify/static: @fastify/static: Information disclosure via route guard bypass
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] @fastify/static: @fastify/static: Information disclosure via route guard bypass. Bugzilla: 2512116
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512116
+
+---
+
+#### 2726. CVE-2026-46581 - wildfly-clustering-faces-mojarra: com.sun.faces:jsf-impl:…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wildfly-clustering-faces-mojarra: com.sun.faces:jsf-impl: org.glassfish:jakarta.faces: mojarra: Unauthenticated RCE in EAP JSF applications via EL injection in ui:include. Bugzilla: 2483136
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483136
+
+---
+
+#### 2727. CVE-2026-68480 - kernel: AMD-SN-7061: Safe RET Interrupt Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: AMD-SN-7061: Safe RET Interrupt Vulnerability. Bugzilla: 2508363
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508363
+
+---
+
+#### 2728. CVE-2026-7867 - udisks2: udisks2: Local Privilege Escalation via as-user option spoofing
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] udisks2: udisks2: Local Privilege Escalation via as-user option spoofing. Bugzilla: 2466747
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2466747
+
+---
+
+#### 2729. CVE-2026-15816 - dracut: dracut: root code execution via unescaped error message written to sourced…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] dracut: dracut: root code execution via unescaped error message written to sourced emergency hook script in die(). Bugzilla: 2500889
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2500889
+
+---
+
+#### 2730. CVE-2026-71313 - github.com/rclone/rclone: rclone: Path Traversal allows arbitrary file write
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/rclone/rclone: rclone: Path Traversal allows arbitrary file write. Bugzilla: 2511782
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511782
+
+---
+
+#### 2731. CVE-2026-34966 - code.gitea.io/gitea: Gitea: Information disclosure via Server-Side Request Forgery…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] code.gitea.io/gitea: Gitea: Information disclosure via Server-Side Request Forgery (SSRF) bypass. Bugzilla: 2511770
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511770
+
+---
+
+#### 2732. CVE-2026-41861
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.2
+
+**漏洞描述 / Description**:
+Path Traversal in BOSH-Ecosystem / BOSH allows an IaaS-metadata attacker to make the agent write a root-owned file with partially attacker-controlled body to any path ending in .network, and create any missing parent directories with mode 0777 via network Alias on Ubuntu.
+
+
+
+Affected versions: BOSH agent < v2.847.0 (jammy <= v1.1202, or noble <= v1.364). Lower bound unspecified in advisory ("All bosh agent versions").
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://www.cloudfoundry.org/blog/cve-2026-41861-arbitrary-root-file-write-via-path-traversal-in-bosh-agent/.
+
+**参考链接 / References**:
+- https://www.cloudfoundry.org/blog/cve-2026-41861-arbitrary-root-file-write-via-path-traversal-in-bosh-agent/
 
 ---

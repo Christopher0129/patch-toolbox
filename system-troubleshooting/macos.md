@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8105**
+**总计条目 / Total entries: 8181**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -109665,5 +109665,993 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232211#reply75
+
+---
+
+#### 8106. Smart card (PKCS#15) certificate handling on Mac for a VPN
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vibiiu/smart_card_pkcs15_certificate_handling_on_mac_for/
+
+---
+
+#### 8107. Is anyone else facing this bug ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi8vye/is_anyone_else_facing_this_bug/
+
+---
+
+#### 8108. I made a per-app volume controller for Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vidmu5/i_made_a_perapp_volume_controller_for_mac/
+
+---
+
+#### 8109. App Launcher & Spotlight Not Working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi7lyx/app_launcher_spotlight_not_working/
+
+---
+
+#### 8110. Mac Studio wakes immediately after going to sleep, caused by the Thunderbolt monitor (Dell U2725QE)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhsdie/mac_studio_wakes_immediately_after_going_to_sleep/
+
+---
+
+#### 8111. Macbook Air M1 8GB RAM 256GB SSD - OS update question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi3zey/macbook_air_m1_8gb_ram_256gb_ssd_os_update/
+
+---
+
+#### 8112. Can't seem to get rid of Launchpad on the dock (26.6.1, M5 Air)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi27kc/cant_seem_to_get_rid_of_launchpad_on_the_dock/
+
+---
+
+#### 8113. Free, unlimited, offline, local meeting transcription & summaries in Apple Notes & Apple Shortcuts!!!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhp24a/free_unlimited_offline_local_meeting/
+
+---
+
+#### 8114. Cant quit safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi3u05/cant_quit_safari/
+
+---
+
+#### 8115. Please help - I am not able to get out of internet recovery in my intel macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhxi9x/please_help_i_am_not_able_to_get_out_of_internet/
+
+---
+
+#### 8116. notification center
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhqaky/notification_center/
+
+---
+
+#### 8117. Always on top for Apps & Finder windows on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhu9ew/always_on_top_for_apps_finder_windows_on_mac/
+
+---
+
+#### 8118. MBP M1 16GB still lagging after downgrade from Tahoe to Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi3lx9/mbp_m1_16gb_still_lagging_after_downgrade_from/
+
+---
+
+#### 8119. Weird folder on Macintosh HD
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi2n6w/weird_folder_on_macintosh_hd/
+
+---
+
+#### 8120. can data being written be a reason for faster b a t t e r y drain than it used to?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhribm/can_data_being_written_be_a_reason_for_faster_b_a/
+
+---
+
+#### 8121. run windows on mac mini m4
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi4s7l/run_windows_on_mac_mini_m4/
+
+---
+
+#### 8122. macOS Tahoe 26.6.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhys7i/macos_tahoe_2661/
+
+---
+
+#### 8123. I haven't even opened any app why is my memory usage hitting 5.5gb?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vi5mez/i_havent_even_opened_any_app_why_is_my_memory/
+
+---
+
+#### 8124. I need to use AFS on Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhk0pn/i_need_to_use_afs_on_tahoe/
+
+---
+
+#### 8125. Why is my mouse cursor flickering?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhxid6/why_is_my_mouse_cursor_flickering/
+
+---
+
+#### 8126. Issue with 26.2 Software Update (M1 Pro)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vhmc3h/issue_with_262_software_update_m1_pro/
+
+---
+
+#### 8127. Weekly Advice Thread - August 02, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vde4di/weekly_advice_thread_august_02_2026/
+
+---
+
+#### 8128. Why does Apple keep banning Telegram, but never X?
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vi4jig/why_does_apple_keep_banning_telegram_but_never_x/
+
+---
+
+#### 8129. App Store Rejection of the Week: Dark Hours
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vi8own/app_store_rejection_of_the_week_dark_hours/
+
+---
+
+#### 8130. Apple Rumored to Launch Three New 'Ultra' Products by Early Next Year ["iPhone Ultra", "AirPods Ultra", "MacBook Ultra"]
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1viarro/apple_rumored_to_launch_three_new_ultra_products/
+
+---
+
+#### 8131. Apple expands refurb store with rare M5 MacBook Pro configs, Apple TV 4K, more
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vi4li4/apple_expands_refurb_store_with_rare_m5_macbook/
+
+---
+
+#### 8132. Mac Pro Turns 20 Today, Five Months After Apple Killed It
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhzzii/mac_pro_turns_20_today_five_months_after_apple/
+
+---
+
+#### 8133. The Dopamine jailbreaking tool has updated to expand iOS support across various devices, including up to iOS 26.0.1 on A12/A13 devices — the first time in half a decade that a non-bootrom jailbreak has been available for a release within the current iOS version
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1viaxe8/the_dopamine_jailbreaking_tool_has_updated_to/
+
+---
+
+#### 8134. RAM supply holding up iPhone 18 Pro assembly is another bad sign
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhxar1/ram_supply_holding_up_iphone_18_pro_assembly_is/
+
+---
+
+#### 8135. Apple holds 65% of the premium smartphone market as segment reaches record high
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhh07r/apple_holds_65_of_the_premium_smartphone_market/
+
+---
+
+#### 8136. Apple faces $59 million lawsuit in Brazil over Gambling apps available to children without age verfication checks
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhvlca/apple_faces_59_million_lawsuit_in_brazil_over/
+
+---
+
+#### 8137. Apple raises trade-in values for most iPhone, iPad, Mac, and Apple Watch models
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vh4hdd/apple_raises_tradein_values_for_most_iphone_ipad/
+
+---
+
+#### 8138. iPhone 18 Pro Launching Next Month With These 12 New Features
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vh8oey/iphone_18_pro_launching_next_month_with_these_12/
+
+---
+
+#### 8139. Qualcomm Expects Apple Modem Revenue to Drop Faster Than Expected
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhde84/qualcomm_expects_apple_modem_revenue_to_drop/
+
+---
+
+#### 8140. Apple Releases macOS Tahoe 26.6.1 With Security Fixes (screen-sharing vulnerability)
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhf89j/apple_releases_macos_tahoe_2661_with_security/
+
+---
+
+#### 8141. Apple's ‘Private Relay’ Is Exposing Users' Real IP Addresses
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vg8bc1/apples_private_relay_is_exposing_users_real_ip/
+
+---
+
+#### 8142. Apple Vision Pro Speeds Up Surgery by Almost 20%
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vgb5gk/apple_vision_pro_speeds_up_surgery_by_almost_20/
+
+---
+
+#### 8143. A short demo of what Claude and the Vision Pro can do
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vidwxr/a_short_demo_of_what_claude_and_the_vision_pro/
+
+---
+
+#### 8144. iPhone 18 Pro price: Here's how much more it could cost
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vhxbjr/iphone_18_pro_price_heres_how_much_more_it_could/
+
+---
+
+#### 8145. CarPlay is Coming to Pontoon Boats
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vg1g9c/carplay_is_coming_to_pontoon_boats/
+
+---
+
+#### 8146. These Apple products are likely getting more expensive next month
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vfx03x/these_apple_products_are_likely_getting_more/
+
+---
+
+#### 8147. IP and DNS Leaks in WebKit Affecting Proxy Browsers and Apple iCloud Private Relay
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vfzcu2/ip_and_dns_leaks_in_webkit_affecting_proxy/
+
+---
+
+#### 8148. M7 Ultra to potentially feature up to 1.5TB of RAM - A AI datacenter killer?
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vfink1/m7_ultra_to_potentially_feature_up_to_15tb_of_ram/
+
+---
+
+#### 8149. Apple launches legal challenge against UK government demand to access data
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vftliy/apple_launches_legal_challenge_against_uk/
+
+---
+
+#### 8150. Apple says more ex-employees may have taken confidential data to OpenAI
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vfcp4x/apple_says_more_exemployees_may_have_taken/
+
+---
+
+#### 8151. Virtual Mac on iPad (M1/M2 jailbroken)
+
+**问题描述 / Problem Description**:
+Reddit r/apple discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/apple/comments/1vfsji2/virtual_mac_on_ipad_m1m2_jailbroken/
+
+---
+
+#### 8152. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply105
+
+---
+
+#### 8153. [V2EX] macOS 15.7.7 无法直接向同一 iCloud 账号的 iPhone 隔空投送传送文件
+
+**问题描述 / Problem Description**:
+家中一台 M1 的 Mac Mini ，已在养老版本 15.7.7 差不多两年吧 iPhone 17 ，iOS 26.6 ，隔空投送默认为「仅限联系人」 目前碰到的问题： Mac Mini 向 iPhone 发送隔空投送文件， 不正常 ，且表现为： Mac Mini 可以识别到一台叫 iPhone 17 的设备，但无法发送文件，且设备的预览缩略图为空白。 iPhone 端更改为「所有人 10 分钟」选项后，可正常发送和接受，但观察到 iPhone 的预览缩略图仍显示为空白。 补充： 从 iPhone 端向 Mac Mini 发送隔空投送文件， 一切正常 （无论 mac 端是选择「允许所有人发现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232556#reply4
+
+---
+
+#### 8154. [V2EX] 让 Codex 帮我把微信的游戏中心和小程序面板这两个讨厌的侧边栏入口去掉了
+
+**问题描述 / Problem Description**:
+微信自从更新了一个大版本，把 Mac 和 Windows 统一后，左侧边栏就多出了游戏中心和小程序入口，没有提供隐藏这两个入口的设置。网上搜了一圈也没找到可以隐藏的方法。于是让 Codex 自己摸索了一番，终于搞定了。下图是搞定之后的效果： 我把成功的经验让 Codex 提炼成了指南，想要尝试的朋友可以把以下内容复制给 Codex: 请在我的 Mac 上制作一个独立的实验版微信，隐藏左侧栏的“游戏中心”和“小程序面板”两个入口，并保证截图权限在重启后仍然有效。请实际执行、逐步验证，不要只给我命令。 一、已知结论与适用范围 1. 目标是腾讯官网下载版 macOS 微信 4.1.12： https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232533#reply7
+
+---
+
+#### 8155. [V2EX] 绝版 Setapp 家庭版车位
+
+**问题描述 / Problem Description**:
+Setapp 19 年绝版家庭订阅车位一个，具体介绍自行了解。 今年有个下车的，空出一位。26 年 5 月 24 号刚续期的，今年¥206 。 独立账号，每个账号可用 2 个 Mac 授权，1500 点 AI 模型余额。 WX：MzI5Mzg2NjI=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231366#reply3
+
+---
+
+#### 8156. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply81
+
+---
+
+#### 8157. [V2EX] 纠结怪来了，现在要不要换 iPhone
+
+**问题描述 / Problem Description**:
+如题，终极纠结怪来了。 现在用的是 Pura 70 pro 1T ，刚发售两个月入手用到现在，还没有升级到鸿蒙。后续也会选择 1T 版本的手机。 在疯狂纠结要不要趁现在卡时间入手 iPhone 17 Pro Max 。 Pura 70 Pro 是第一次用华为的手机，之前有十年的时间一直在用 iPhone 。 换华为的契机是，当初被 Pura 70 吸引，越看越顺眼，去店里体验了一下感觉拍照和手感都很好就下单了。 用了两年多也挺舒服的，当初的过渡期没有强烈不适应的感觉。可能不舒服的也自适应，想办法解决了。 我算是重度使用手机的人，对手机的要求是： 1 、拍照要好，但不需要达到专业拍照的效果 2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232740#reply6
+
+---
+
+#### 8158. [V2EX] 大家有用小米或者其他手机替代 iPhone 的吗
+
+**问题描述 / Problem Description**:
+目前在用 iPhone17 AppleWatch 两台 Mac 两台 HomePod 一个 AirPodsPro3 ，想问问大家有没有用小米手机或者安卓手机来替代 iPhone 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232628#reply71
+
+---
+
+#### 8159. [V2EX] 妙控板还是妙控鼠标？
+
+**问题描述 / Problem Description**:
+最近想买一个妙控板替代鼠标，笔记本触摸板用习惯了感觉手势比较爽。 刚好看到 https://www.v2ex.com/t/1232404 这个帖子有人在推荐 Magic Mouse ； 我没有精细操作的需求，就写写代码，处理下文档，摸摸鱼用。 鼠标比妙控板便宜三百块。 有几个问题想问问大家： 想问一下选哪个比较适合啊，鼠标的手势和触摸板大致相通吗？ 是在官网买还是淘宝买？淘宝能便宜个一百多，有区别吗，会买到华强北吗。 妙控板的黑色为什么比白色贵了 150 元，手感有不同吗？ 苹果的这个鼠标不需要鼠标垫吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232627#reply55
+
+---
+
+#### 8160. [V2EX] 教大家如何申请豁免中国大陆地区 App Store ICP 备案
+
+**问题描述 / Problem Description**:
+最近各种 Agent Vibe Coding 很火，看到很多 V 友都在写 App 。 App 过审后，如果要在中国大陆分发，需要有 ICP 备案号。偶尔会出现首个版本没备案也没被拦，但后面还是有几率被拦掉。 如果你的 App 不联网，或者虽然联网，但只连接 Apple 的服务器使用 iOS 系统服务（如，连接苹果服务器完成 App 内购买），是可以向苹果申请豁免 ICP 备案的。否则都需要备案，不能豁免。 当然备案本身也不复杂，速度还可能更快，只是会有些额外的金钱和维护成本。 具体申请豁免的方法是： 1. https://developer.apple.com/cn/ ，拉到最底下“联系我们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232582#reply6
+
+---
+
+#### 8161. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply71
+
+---
+
+#### 8162. [V2EX] 中国出入境新规定没人说说吗？
+
+**问题描述 / Problem Description**:
+简单说就这几条： 出境风险提醒： 外交部会公布战乱、高危国家地区。办护照、过边检时会提醒你别去高危地区；去高风险地区时，必要时会劝阻。 办证件不能撒谎造假： 办护照、签注、邀请函，理由、材料必须真实。作假：不给发证、不让出境。帮外国人开邀请函的个人 / 单位，要为内容真假担责。 新增几类人会被限制出境（ 6 个月‑3 年）： 骗护照、偷渡被拘留过； 在国外干危害国家利益的违法事； 涉及技术出口违规，有技术安全风险； 听说现在已经在卡护照了，以后想润出去更难了😿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232769#reply32
+
+---
+
+#### 8163. [V2EX] 2026 年了还有人玩红警吗？最近折腾了一个红警资源站
+
+**问题描述 / Problem Description**:
+前段时间突然想重温一下红警。 小时候玩的最多的是红警 2 、共和国之辉，后来才开始玩尤里的复仇。现在回头看，一个 20 多年前的游戏居然还有不少人在玩。 不过最近重新折腾的时候发现，现在想在 Win10 / Win11 上舒舒服服玩起来，好像也没想象中那么省事。 网上资源其实很多，但版本、补丁、MOD 、地图、安装教程比较分散。有时候好不容易找到一个下载地址，进去以后又是各种下载器、弹窗，或者版本不知道靠不靠谱。 所以最近干脆自己折腾了一个红警资源站： https://redalert.cn/ 目前主要在整理这些东西： 红警 2 、尤里的复仇、共和国之辉等常见版本 心灵终结等 MOD 一些经典
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232834#reply0
+
+---
+
+#### 8164. [V2EX] 老外以 V2EX 帖子为来源分析中转站
+
+**问题描述 / Problem Description**:
+看到篇分析中转站的博客，[ https://vectoral.com/blog/token-relay-market ] ，v2 的帖子是主要参考来源
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232819#reply1
+
+---
+
+#### 8165. [V2EX] reddit app 不能登录，换旧版本就可以了
+
+**问题描述 / Problem Description**:
+已经好几个月发现 android 上 reddit 无法登录，今天网上搜了下有人推荐 2024 版本可以登录，我从 apkmirror 下载 2024.53.0 版本成功登录 reddit 上很多人反应，这么久了都没人修
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232817#reply2
+
+---
+
+#### 8166. [V2EX] codex 邀请 符合条件来
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232804#reply0
+
+---
+
+#### 8167. [V2EX] 微信的小微最近开始发力了，似乎也没啥用
+
+**问题描述 / Problem Description**:
+俩月前还是左上角一个对话框，最近看到很多入口。 1 、公众号文章列表，小微总结 2 、公众号文章详情，问小微。 3 、扫一扫，拍照给 AI 4 、朋友圈，AI 帮写。 5 、游戏圈，AI 解读。 不知道还有没有我没发现的。 感觉能开的都开了，实际上也没啥用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232776#reply2
+
+---
+
+#### 8168. [V2EX] 手机往电脑上传下载文件跑满 400MB/s，搞了套“双 5G 网卡+网线直连”，
+
+**问题描述 / Problem Description**:
+### [分享] 彻底干掉 MTP ！搞了套“双 5G 网卡+网线直连”，手机往电脑传文件跑满 400MB/s 平时经常要把手机里几十上百 G 的视频素材和日志包导出到电脑，天下苦 MTP 久矣。 走 MTP 协议经常卡死不说，速度顶多三四十兆，遇到海量小文件直接假死；走无线局域网或者快传，又总受限于路由器性能和无线干扰，速度忽高忽低。 最近自己折腾出了一套**硬件级点对点以太网专线**的方案，手机和电脑直接用网线拉起来。实测传输速度直接拉满 **400+ MB/s**（大概 3.2 Gbps 左右），基本上把 5G 网卡扣除损耗后的极限、以及手机 UFS 闪存的读取速度全部挤干了。 附上实测
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232773#reply10
+
+---
+
+#### 8169. [V2EX] 36 岁被裁后开始玩路亚，两年后我用 AI 给钓场写了个 SaaS
+
+**问题描述 / Problem Description**:
+被裁后开始玩路亚，我给钓场做了一个小程序，想找首批用户 2024 年初，我 36 岁，在做了 15 年程序员以后，被裁了。 也可以说是提前“被退休”。 空下来的那段时间，我开始玩路亚，后来经常去商业钓场，也就是钓友常说的黑坑。去得多了，我发现不少钓场还在用微信群完成几乎所有经营工作。 老板在群里发鱼讯：哪天开钓、放什么鱼、放多少斤、票价多少。想去的钓友在下面接龙，付款以后再发一张转账截图。到了正钓当天，老板拿着手机翻聊天记录，有时再配一张纸质名单，确认谁报了名、谁交了钱。 钓完以后还要称回鱼、记重量、算出鱼率，晚上再拿计算器核对当天收入。 我看着很熟悉。这里面无非是鱼讯、预约、订单、支付、核销
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232768#reply3
+
+---
+
+#### 8170. [V2EX] 发现一个有趣的现象， AI 开发代码的自查陷阱
+
+**问题描述 / Problem Description**:
+最近用了几款大模型开展开发工作，我察觉到一个很有意思的规律：当业务代码逻辑稍微复杂之后，倘若直接在原有对话会话中，让刚刚写完代码的 AI 自查漏洞，它大多会判定代码不存在 Bug 。 可只要新建一个空白会话重新提交代码进行审查，AI 往往便能找出各类问题；若是再更换一款大模型检测，排查出的细节问题还会更多，只是其中相当一部分属于影响不大的次要瑕疵。 这是不是 AI 之间的相互挑刺？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232767#reply3
+
+---
+
+#### 8171. [V2EX] [开源预告] 一款 shell + cli + 流程的桌面软件，自定义你的工作流，欢迎来提提意见
+
+**问题描述 / Problem Description**:
+如果你也觉得聊天式开发十分难受 会话上下文稍长（超过 10 轮），模型就开始“降智”——忘记前面的约束、重复犯错、自相矛盾。 更难受的是，模型几乎永远发现不了自己的问题。你指出来，它道歉；你再指，它再道歉……像极了和一面回音壁对话。 每轮对话都要重复指导 ai 进行某些固定的流程 于是，我决定自己造一个工具 CLILoom ，人类只负责和 ai 讨论设计 plan ，设计好之后全自动完成。 CLILoom 本质上是一个 shell + 流程引擎的组合体 你可以： 通过流程引擎来编写属于你自己的工作流（不止于开发） 比 workflow 更智能更省 token 能在终端跑的命令就能在软件中使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232733#reply0
+
+---
+
+#### 8172. [V2EX] 看国外的中转站研究文章发现 v 站里的帖子被作为案例了
+
+**问题描述 / Problem Description**:
+刚刚看阮一峰的周刊，里面有一篇关于中转站的分析文章： https://vectoral.com/blog/token-relay-market 。 作者在里面提到了他在某个中国论坛里看到运营商在公开讨论中继站： While researching where the abuse was coming from, I stumbled onto a Chinese forum where operators openly discussed the relays and their methods. My notes on the industry and its players are bel
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232715#reply6
+
+---
+
+#### 8173. [V2EX] 微信小微 ai 开始灰测了
+
+**问题描述 / Problem Description**:
+发朋友圈的时候有个 AI 帮写，目前看到这一个入口
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232706#reply8
+
+---
+
+#### 8174. [V2EX] 就营销事件而言，对 v 站现状尝试分析
+
+**问题描述 / Problem Description**:
+背景 看到这个 我用 AI 给女朋友做了个抑郁测试，结果她朋友是前男友 。 顺到了这个 很多人不是说不会推广和营销吗？站里就有现成案例，照着学就行 。 于是了解到了 @ t20000622yy 先生的 为了让女朋友学 AI ，给她买了 MacBook Pro ，开了每月 200 刀的 GPT ，她却说我一直在压迫她 大厂前端社招复盘 盛大集团面经（专升本毕业 9 个月,99%代码靠 AI 写） 反思 这个《我用 AI 给女朋友做了个抑郁测试，结果她朋友是前男友》一帖，实话说我在看的时候其实感觉毫无违和。因为我觉得这里、其他地方，见到这样的人和内容，对我来说其实很自然。大家总是些有缺点的平常人，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232689#reply2
+
+---
+
+#### 8175. [V2EX] OpenAI 公布十项数学与理论计算机科学进展
+
+**问题描述 / Problem Description**:
+8 月 1 日，OpenAI 在官网确认下一代模型系列名为 Astra （拉丁语「群星」），并公布其内部版本在数学与理论计算机科学上取得十项成果。研究员 Sébastien Bubeck 同步发布了逐题说明。Astra 尚未公开发布，这份公告没有产品发布，内容是一篇 249 页的论文、一份逐题推理说明（媒体报道约 62 页）与十份 Lean 4 形式化证明。 https://openai.com/zh-Hans-CN/index/ten-advances-in-mathematics/ https://2aran.com/s/FXtDjPN
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232675#reply1
+
+---
+
+#### 8176. [V2EX] 我把个人 IP 配图做成了可复用的 Skill，读者终于能记住我是谁
+
+**问题描述 / Problem Description**:
+最近刷到金尘马开源的一套个人 IP Skills ，我当时就愣住了。 不是因为技术多炫，是因为这事儿我自己也憋了很久。 你写文章，配图永远是个麻烦。找图费时间，AI 乱画又对不上号，更难受的是，今天画出来像张三，明天又像李四。读者根本记不住你。 金尘马把他自己那套热带风墨镜小人，直接嵌进文章里，辨识度拉满，还跑出了不少十万加。然后他把方法拆成两个 Skill ，扔到 GitHub 上了。 我看完就动手了。不只是装来玩，而是按自己的人物，把整套东西改造成了属于我的版本。 仓库叫 itgoyo-ip-skills 。地址在这: https://github.com/itgoyo/itgoyo-ip
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232619#reply3
+
+---
+
+#### 8177. [V2EX] 很多人不是说不会推广和营销吗？站里就有现成案例，照着学就行
+
+**问题描述 / Problem Description**:
+先搞清楚一个社区的主要群体是什么，画像弄清晰了，事情自然化繁为简。 作为入口的争议话题怎么找？站里直男🐢男多，从这两者中醒悟的也不少，充满火药味，两性关系作为切入点再恰当不过了。 有了入口，钩子怎么搞？两性关系 + AI 热点 + 自愿花钱却不被理解，情绪为王，只要引起路人反驳或者思考，流量的开端就有了。 光有钩子还不够, 如何利用反差加把火？大专出身/双一流女友，认真专研 AI/她却无感，低起点"高"成就/高起点躺平清闲, 处处都要有对比和反差。 如何吸引更多网友评论和互动？"真诚"求助当护符，好为人师乃人之常情；人无完人，卖个直男破绽更接地气。 最后把推广藏在顺带一提中，再利用人的好奇心中
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232616#reply15
+
+---
+
+#### 8178. [V2EX] 在线体验 16K token/s 的新大模型部署架构
+
+**问题描述 / Problem Description**:
+在 HN 上看到 AMD 收购那家把模型权重烧到芯片里的 taalas 的消息, 考虑到 gpt 5.6 相比 gpt 5.5 实际体验并没有多在的改进, 感觉或许把权重烧到芯片里, 没准是条路子 帖子里有他们的模型架构体验接口, 自己试了下, 16k token/s, 不敢想象要是有 gpt5.5 这样的模型这么快, 体验得多么好了 https://chatjimmy.ai/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232615#reply29
+
+---
+
+#### 8179. [V2EX] wan 3.0 来了
+
+**问题描述 / Problem Description**:
+wan 3.0 来了，API 还在路上。 https://bailian.console.aliyun.com/cn-beijing?tab=model#/model-market/detail/wan3.0-video https://www.yikeai.com/ http://wanxiang.aliyun.com https://c.qianwen.com/ https://nuzza.ai/models/wan-3-0
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232584#reply4
+
+---
+
+#### 8180. [V2EX] 吐槽！ AI 带来的恶果。。。。。。
+
+**问题描述 / Problem Description**:
+现在 AI 确实发展很快，图片和视频有的时候不仔细看细节真是真假难辨，尤其是那些在真实讯息上做二次加工后的，真的很难识别。 我最近准备出去玩，就在小红书上搜索深圳周边酒店，比如清远，惠州，搜索出来一堆一堆的看起来非常不错的酒店，而且不是那种一眼假的，而且不是一个图，是很多人都晒了，甚至动图，让你以为是真的， 然后就骗你加微信，因为是店群模式运作，所以很难不中招。 可以预见到，半年一年后，小红书，抖音上的会有大量的让人无法识别的讯息， （技术人员况且中招，就更不论年纪大的人了，这几天还有个老头那 android 拍照被一堆广告围攻） 或许等 ai 非常饱和的时候， 人们会呼唤一个 0ai 的平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232571#reply12
+
+---
+
+#### 8181. [V2EX] 看到隔壁那个说 Apple Music 被 AI 占领的帖子有感
+
+**问题描述 / Problem Description**:
+刚才刷到 V2EX 上那个关于 Apple Music 已被大量 AI 音乐占领的帖子，深有同感。虽然我平时主力是 Spotify ，偶尔换别的平台，但感受几乎一模一样——推荐算法里冒出来的新歌，越来越像流水线产物，尤其是华语区，旋律套模板、演唱机械感十足、歌词空洞得让人尴尬。 据说有些平台里 AI 生成的新歌上传量已经超过三分之一，平台说播放量占比不高，但推荐流里隔三差五蹦出一首，体验真的被割裂得很厉害。前几天也看了那篇关于 AI 音乐的深度报道，看完只觉得恶心。 我现在基本在往回听。老专辑至少每首歌都有人味儿，有真实的情绪、真实的呼吸、真实的瑕疵。不管是华语经典还是国外的老唱片，那些经过时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232455#reply3
 
 ---

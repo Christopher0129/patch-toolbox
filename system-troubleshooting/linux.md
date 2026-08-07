@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8552**
+**总计条目 / Total entries: 8579**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119147,5 +119147,356 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232418#reply3
+
+---
+
+#### 8553. Linux keeps getting better the more I use it
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vi62gs/linux_keeps_getting_better_the_more_i_use_it/
+
+---
+
+#### 8554. Why and how the Austrian Military moved to LibreOffice (Part 1)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhvyjr/why_and_how_the_austrian_military_moved_to/
+
+---
+
+#### 8555. Linux Accidentally Left Legacy I/O & Memory Handlers Open In Kernel Lockdown Mode
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vi6ny9/linux_accidentally_left_legacy_io_memory_handlers/
+
+---
+
+#### 8556. WinBoat is alpha testing the GPU acceleration
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhugz4/winboat_is_alpha_testing_the_gpu_acceleration/
+
+---
+
+#### 8557. Zapscape: Guest-to-Host Escape in KVM/x86
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vi6g0v/zapscape_guesttohost_escape_in_kvmx86/
+
+---
+
+#### 8558. PULS DiskInfo - Disk Monitoring and Benchmark Project for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vi0iae/puls_diskinfo_disk_monitoring_and_benchmark/
+
+---
+
+#### 8559. Lumen v2.2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vhjgih/lumen_v22/
+
+---
+
+#### 8560. [V2EX] 如何 vibe 成本那么低，什么才是护城河？或者我们需要护城河吗？
+
+**问题描述 / Problem Description**:
+最近看了很多新工具，确实也有做的非常棒的。 很多基于 obsidian 的，基于本地屏幕录制、剪贴板的，可以说是百花齐放了。 tibo 还没有重置，本人已经被 codex 使用完了，还想要被 AI 大人继续使用😭 vibe 那么快，什么才是软件的护城河？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232841#reply1
+
+---
+
+#### 8561. [V2EX] 给我的博客 Linux 终端增加了挂载本地文件的功能
+
+**问题描述 / Problem Description**:
+闲来无事又让 AI 给我的博客 Linux 终端搓了一个增加了挂载本地文件的功能，打开： https://mabbs.github.io/linux/ 输入 mount_host 就可以挂载了。（这下我看谁还敢乱执行 rm -rf / 🤣）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232836#reply1
+
+---
+
+#### 8562. [V2EX] [分享创造] 给数据库客户端装上 AI： NL2SQL、报错诊断、EXPLAIN 解读、跨库工作流，一个不到 10MB 的开源工具
+
+**问题描述 / Problem Description**:
+断断续续写了几个月，DataZen 终于到了 v0.0.8 。起因很朴素：日常要连 PostgreSQL 、MySQL ，偶尔还要看 Redis ，商业客户端要订阅，DBeaver 功能全但启动和内存都偏重。于是用 Tauri v2 + Rust + React 自己搓了一个桌面客户端，安装包不到 10MB ，GPLv3 开源，macOS 和 Windows 都支持。 主界面长这样：一个窗口管理所有连接，PostgreSQL / MySQL / SQLite / Redis 混在一起也没问题。 🤖 AI 这块是重头 最常用的是自然语言生成 SQL 。想不起来表名或函数？直接说人话，AI 会结合
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232833#reply0
+
+---
+
+#### 8563. [V2EX] 大家好，我们的全球 Ping 站最近终于完成上线了
+
+**问题描述 / Problem Description**:
+网址： https://www.tcping.cn/ 折腾了一段时间，自己的 Ping 测试站终于上线了 🎉 目前支持多地区节点 Ping 、tcpig 、http 测速等功能，后续也会继续完善一些网络相关的小工具。 因为个人精力和开发经验有限，肯定还有不少不足之处，欢迎各位大佬帮忙体验一下。如果遇到 Bug ，或者有什么建议，都欢迎留言交流。 另外前段时间节点遭遇了一波比较大范围的攻击，为了稳定性和安全性考虑，目前大部分测试节点采用了家宽线路，可能和 IDC 机房节点存在一些差异。 如果有做得不好的地方，还请大家轻喷 😂 如果觉得这个工具有点用，也欢迎收藏、分享一下。感谢大家支持！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232826#reply7
+
+---
+
+#### 8564. [V2EX] 分享一下给 AI Agent 挑解析工具的经验
+
+**问题描述 / Problem Description**:
+现在用大模型做文档问答、做摘要，已经是很多人的日常操作了。但是要做成能上线的 Agent 产品，或者搭一套企业级的 RAG 系统，就不太够用了。一是生产环境的文档往往没有那么简单，二是单纯使用大模型有点太贵了。所以，我一般会挑解析工具，来进行辅助。 接下来讲讲怎么挑。 一、选工具前，先看文档和任务 做文档解析，不是只看“哪款工具最强”这么简单，而要先看看手里的文档是什么样的，Agent 要拿它做什么？ 生产环境的文档，大致有以下几类： - 金融文档：年报、季报、授信备忘录、贷款协议、结构化融资披露等。表格密集、脚注复杂，跨页内容很多。 - 科研与技术文档：多栏论文、带公式和图表的技术报告、实验
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232815#reply0
+
+---
+
+#### 8565. [V2EX] 下周 2 个 codex 重置券到期。算了一下，下周每一天都要用完一周的额度，才能在所有的重置券到期前用完他们。
+
+**问题描述 / Problem Description**:
+每周使用限额 将于 8 月 8 日 重置 剩余 4% 使用限额重置 可用 2 次 Full reset 将于 8/12 GMT+8 05:08 到期 Full reset 将于 8/13 GMT+8 01:37 到期 要怎么用完他们。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232814#reply1
+
+---
+
+#### 8566. [V2EX] RNote 笔记软件
+
+**问题描述 / Problem Description**:
+给大家推荐一款自己开发的笔记软件，RNote ， 官网 ，主打加密存储，多端同步（支持 linux 、windows 、macos 、安卓、ios ），html 、pdf 导出等功能，本地使用完全免费，原生支持 Markdown 、富文本、强大图表表达能力（ drawio 、手写板、mermaid 等等），覆盖日常生活、学习办公、汇报演讲等等场景，希望大家喜欢，也欢迎大家多提建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232802#reply0
+
+---
+
+#### 8567. [V2EX] 发布这个内容需要你已经注册满 480 天
+
+**问题描述 / Problem Description**:
+创建新回复过程中遇到一些问题： 发布这个内容需要你已经注册满 480 天 怎么回事 之前还可以回复别人 怎么最近不能回复了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232797#reply0
+
+---
+
+#### 8568. [V2EX] 请教一个小程序支付的问题
+
+**问题描述 / Problem Description**:
+在小程序中，线下课程，线上购买，线下核销，这种支付要申请什么类目？有没有了解的朋友指导的，不甚感激！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232794#reply1
+
+---
+
+#### 8569. [V2EX] Opencode Go 套餐的 DeepSeek V4 Flash 涨价了，注意用量
+
+**问题描述 / Problem Description**:
+今天用着用着发现 oepncode 客户端下面 变成了 2x usage ，各位注意用量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232772#reply16
+
+---
+
+#### 8570. [V2EX] [项目分享] Pragma：尝试解决不同 Agent Harness 之间的记忆断裂
+
+**问题描述 / Problem Description**:
+最近把自己做的项目 Pragma 正式公开了，你觉得有意思或者对你有帮助的话求个 star ，有兴趣的也欢迎提交 pr： https://github.com/pqpo/pragma Pragma 不是想再做一个 Claude Code 或 Codex ，而是想解决一个我在长期使用 AI Agent 时越来越明显的问题： 不同 Agent 很强，但工作方式、上下文和经验都被困在各自的 Session 里。 比如一个开发任务可能是： Claude Code 做需求分析 ↓ Codex 做技术方案 ↓ Codex 实现代码 ↓ Claude Code 做独立 Review 每一步可以使用不同的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232758#reply0
+
+---
+
+#### 8571. [V2EX] 做了个 CLI:把团队的 AI 编程规则/技能一键同步到 Claude Code、Cursor、Codex
+
+**问题描述 / Problem Description**:
+我们团队十几号人,都在用 AI 写代码,但工具很杂:有人 Claude Code,有人 Cursor,有人 Codex 。用的过程中发现一个很烦的问题—— 每个人的 AI 配置不一致,而且各改各的。 老同事本地攒了一套 CLAUDE.md 、自定义 skills 、一堆环境变量和"我们这儿的规矩";新人的 AI 基本是台空白出厂车。 同一个坑,AI 会带着每个人再踩一遍:A 花两小时搞清楚某条内部链路怎么配,一周后 B 问几乎一样的问题,又花两小时。 就算把 rules 、skills 丢进一个共享 Git 仓,也只解决了"有没有源"—— 合并之后没人记得 pull,pull 了也不知道该拷到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232751#reply2
+
+---
+
+#### 8572. [V2EX] 原来 Claude 解封还会送 10 刀额度
+
+**问题描述 / Problem Description**:
+有总比没有强
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232743#reply0
+
+---
+
+#### 8573. [V2EX] AI Coding 还看源代码吗？要是不看，会害怕血崩吗？
+
+**问题描述 / Problem Description**:
+V2EX 帖子，AI Coding 到无法掌控局面： https://v2ex.com/t/1224558 还有报道 AI Coding 9 秒内删除整个业务数据库的： https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database 我个人也有经历。去年 8 月份开始，给公司做一个爬虫项目，AI coding 上功能很快， 住宅 ip 轮换这一块，用的供应商平台接口，自动按城市地区动态返回。 后面对需求，要求每个社交媒体的账户，要尽量固定一个 ip 地址，不能每次发起请求都变。 这个功能也很快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232732#reply31
+
+---
+
+#### 8574. [V2EX] 给大家推荐一个赚钱的思路 我自己发现的
+
+**问题描述 / Problem Description**:
+我不是做了一个外链导航网吗 我就从小红书分享谷歌 seo 相关的内容 结果很多人问我要网址 小红书有个人售卖 我就把网站放到小红书个人售卖了 到现在已经出了 8 单了 可以结合你自己的产品试一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232730#reply3
+
+---
+
+#### 8575. [V2EX] 黑客松初步
+
+**问题描述 / Problem Description**:
+为什么想打黑客松呢？ 第一个是我需要一个平台去认识更多的开发者，相互交流才有进步。因为我本身是非科班，所以更需要跟计算机专精的大佬交流。同时也可以认识到更多的创业者吸取经验。 第二个是在网上刷到七月份的 adventure X ，感觉很有意思，同时也能够去尝试软硬件结合。也能够直观的感受到一个具体的项目从创意到合作到投资的过程。对自身的发展还是比较有帮助的。 前两天在抖音上看到了深港有一个黑客松，看公众号介绍感觉还不错，然后就进到群里潜水。昨天跟老板发了有这样的比赛，老板还没回复的时候就和同事聊了会，发现大家也比较感兴趣。等到老板来找我聊的时候发现我已经跟同事们讲了，他比较有意见，认为得他同意
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232718#reply8
+
+---
+
+#### 8576. [V2EX] WorkBuddy 是真好用
+
+**问题描述 / Problem Description**:
+一开始用的动机就是现在有送的额度，而且用 hy 模型还免费，不消耗额度 这几天就在重度使用 现在的感觉是用过的这类工具里面最好用的 个人最喜欢的几点： 1 ，内置的专家团丰富，都是多智能体协作，我用的几个效果都很好，远超预期。这几天基本上全是在用专家和专家团 2 ，UI 干净，对于我来说布局很清晰也很合理，没啥理解成本，根据选择的文件夹进行归类点赞，这里我就不点名批评某些应用了，都平铺在一起，还得我自己分辨 3 ，生态对接很简单。比如微信小程序能直接跟本地应用同步，扫个码就行。做图标的时候对接另一个平台也是点一下就举行 来做个自来水，趁现在有优惠，感受一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232713#reply46
+
+---
+
+#### 8577. [V2EX] ChatGPT 这次真要解禁成人内容了？
+
+**问题描述 / Problem Description**:
+Hi xxx, We use age-related information to determine when teen safety protections should apply to ChatGPT accounts, to provide the right experience. On August 11, 2026, these protections are scheduled to be removed from your account, and you’ll gain access to features and settings for adults. If this
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232700#reply25
+
+---
+
+#### 8578. [V2EX] 开源 kkRepo v0.7.0 发布，平替 Nexus 的制品仓库，新增企业级的制品清理策略+安全扫描策略功能支持
+
+**问题描述 / Problem Description**:
+kkRepo 是什么？ kkRepo 是一款社区驱动、完全开源的自托管制品仓库，旨在解决 Sonatype Nexus 社区版的各类限制与痛点，为社区提供开放、可靠且可持续演进的制品管理方案。目前已支持 Maven, npm, PyPI, Go, Helm, Cargo/Rust, Dart/Pub, Composer/PHP, Terraform, Swift Package Registry, Ansible Galaxy, Docker/OCI, NuGet, RubyGems, Yum, Raw 等制品格式。 https://github.com/klboke/kkRepo 功能特性
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232696#reply0
+
+---
+
+#### 8579. [V2EX] 为了让女朋友学 AI，给她买了 MacBook Pro，开了每月 200 刀的 GPT，她却说我一直在压迫她 ... 后续
+
+**问题描述 / Problem Description**:
+昨天发了这篇帖子引起的讨论挺大的： https://www.v2ex.com/t/1232427 女朋友知道这件事了，在这里贴一下后续，以及她发我的当时我们的聊天截图 其实她也是理解我的初心的，就是两个人一起成长进步，一起变好 虽然认识她的时候我还是大专，但是我也成长的很快，我的经历也非常充满曲折，毕业一年从专升本到大厂做 AI ，之前写过一篇经历分享的帖子在 v 站： https://www.v2ex.com/t/1227470?p=2#reply113 就是表达方式不太对，其实图里聊天的时候我也有点开玩笑在里面，确实语气态度给人感觉不对吧 但她的空闲时间本来就是她自己的，她可以休息、刷视频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232681#reply5
 
 ---

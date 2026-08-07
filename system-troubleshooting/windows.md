@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9160**
+**总计条目 / Total entries: 9205**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -125001,5 +125001,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232417#reply18
+
+---
+
+#### 9161. Windows 11 intermittently cannot access specific websites despite working internet connection
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, wireless-networking, memory, dns | Score: 0 | Views: 29 | Answers: 1 | Created: 2026-08-07
+
+**解决方案 / Solution**:
+Since "Task Manager reports memory usage reaching 100%," I'd start with another web browser. If you use the MS Edge browser, try Firefox, or a derivative . Also look to any browser add-ons. To check DNS resolution, open CMD and ping the URL by name. If the numeric IPv4 or IPv6 address is found, even if ping is refused, DNS lookup succeeded. As for security software/firewall, what are you using?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939528/windows-11-intermittently-cannot-access-specific-websites-despite-working-intern
+
+---
+
+#### 9162. My pc is hacked need advice
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vi85nb/my_pc_is_hacked_need_advice/
+
+---
+
+#### 9163. Severe frametime spikes, stuttering and FPS drops in CS2/LoL - Tried almost everything - CPU: 5700x3D GPU : 4060Ti
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vicvde/severe_frametime_spikes_stuttering_and_fps_drops/
+
+---
+
+#### 9164. PC reboots no BSOD (probably PSU failing)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vi2n1p/pc_reboots_no_bsod_probably_psu_failing/
+
+---
+
+#### 9165. Zenbook Wi-Fi practically dead on public networks (Starbucks)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vi8xe5/zenbook_wifi_practically_dead_on_public_networks/
+
+---
+
+#### 9166. Faulty audio after installing and uninstalling VB CABLE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vie4iw/faulty_audio_after_installing_and_uninstalling_vb/
+
+---
+
+#### 9167. Was setting up my raspberry pi 5 and it won't detect sd card
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidtgb/was_setting_up_my_raspberry_pi_5_and_it_wont/
+
+---
+
+#### 9168. discord, and only discord, picks up desktop audio through my mic, even if i turn it off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidszu/discord_and_only_discord_picks_up_desktop_audio/
+
+---
+
+#### 9169. PC Crashed and 1 monitor wont respond
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidsm7/pc_crashed_and_1_monitor_wont_respond/
+
+---
+
+#### 9170. i have this old file in my downloads folder that i cant delete :(
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidrw6/i_have_this_old_file_in_my_downloads_folder_that/
+
+---
+
+#### 9171. what to do now ??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidovu/what_to_do_now/
+
+---
+
+#### 9172. Home Theatre speakers turns off after 5 min on PC please help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidj0z/home_theatre_speakers_turns_off_after_5_min_on_pc/
+
+---
+
+#### 9173. Two drives seem to be failing according to chkdsk and event viewer, but CrystalDiskInfo says everything is fine
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidi70/two_drives_seem_to_be_failing_according_to_chkdsk/
+
+---
+
+#### 9174. Cannot shrink Win11 partition any further due to " \$Extend\$Reparse:$R:$BITMAP"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidgbw/cannot_shrink_win11_partition_any_further_due_to/
+
+---
+
+#### 9175. SM-SC/APC Cable Wifi Router Replacement
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vidc2z/smscapc_cable_wifi_router_replacement/
+
+---
+
+#### 9176. PC crashes whenever I load into a game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vid8pd/pc_crashes_whenever_i_load_into_a_game/
+
+---
+
+#### 9177. My phone keeps dying/shutting off at 11%
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vid574/my_phone_keeps_dyingshutting_off_at_11/
+
+---
+
+#### 9178. Defective GPU?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vicstq/defective_gpu/
+
+---
+
+#### 9179. PC keyboard stopped working, any advice?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vicp03/pc_keyboard_stopped_working_any_advice/
+
+---
+
+#### 9180. Tried upgrading ram now their is a constant ringing noise
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vicd10/tried_upgrading_ram_now_their_is_a_constant/
+
+---
+
+#### 9181. What’s wrong with my USB B port?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vic3p1/whats_wrong_with_my_usb_b_port/
+
+---
+
+#### 9182. Intel 14900HX MSI Raider GE68 HX 14V
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vibsnk/intel_14900hx_msi_raider_ge68_hx_14v/
+
+---
+
+#### 9183. Weird Scam Notification from Amazon App
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vibrzq/weird_scam_notification_from_amazon_app/
+
+---
+
+#### 9184. What is going on with my pc?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vibi20/what_is_going_on_with_my_pc/
+
+---
+
+#### 9185. Stop code: DRIVER_POWER_STATE_FAILURE (0x9F)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vibekm/stop_code_driver_power_state_failure_0x9f/
+
+---
+
+#### 9186. [V2EX] dsv4 flash vs k3
+
+**问题描述 / Problem Description**:
+一个自动化脚本 用 dsv4 flash 跑了一晚上，8 个小时，花了 10 块钱 用 kimi k3 跑了一个小时多点，7 天的用量就没了,一个月的用量只能跑不到 5 个小时。 换算下来，每个月 79 块的 kimi 套餐，还没有 deepseek 10 块钱耐用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232839#reply1
+
+---
+
+#### 9187. [V2EX] RustDesk 内存泄露， macOS 有什么好用的远程软件吗「支持局域网连接」
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232832#reply3
+
+---
+
+#### 9188. [V2EX] 有没有老哥分享下 iPhone 配华为 freeclip2 的体验
+
+**问题描述 / Problem Description**:
+一直想买个华为 freeclip2 ，但是日常生态基本都是苹果系，想问下搭配起来怎么样。 主要需求： iPhone 听歌 mac 开会，偶尔看视频、听歌 另外支持多设备快捷切换吗？ 希望有实际使用体验的老哥分享下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232831#reply1
+
+---
+
+#### 9189. [V2EX] Macbook pro m4 用 hdmi 和 typec 转 dp 外接两个显示器,永远只有一个能亮.
+
+**问题描述 / Problem Description**:
+外接的两台都是小米的 4k 160hz 显示器.只接一台就可以,两台一起插后插的那个就不亮.不知道都用 typec 转 dp 能不能点亮两台.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232828#reply1
+
+---
+
+#### 9190. [V2EX] 澳洲昆士兰 macmini 求购
+
+**问题描述 / Problem Description**:
+有个朋友在昆士兰，想整个 macmini 放在他家，然后远程，有无佬友有这个渠道或者要出的吗，最好是在昆士兰本地，实在不行在澳洲也行。不要国行，有无佬友有好的购物平台或者要出吗 目前考虑的机型是 Mac Mini M2 Pro 32+2T 或者 1T
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232806#reply0
+
+---
+
+#### 9191. [V2EX] 一几年的黄焖鸡彻底消失了吗?有没有教程想自己做,太想念那一口汤拌饭了!
+
+**问题描述 / Problem Description**:
+现在的黄焖鸡一言难尽.... 哪里还能吃到当年的味道
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232805#reply12
+
+---
+
+#### 9192. [V2EX] Claude: Your account is on hold
+
+**问题描述 / Problem Description**:
+这个账号感觉用了好几年，平时工作生活遇到问题都会问网页版的 Claude 。2 天没使用了，下午像往常一样 Google 搜索 Claude 使用，发现居然被封了。 我感觉是我订阅的机场出了问题导致被封的，刚好 8 月 5 号机场发公告更新节点配置。然后导致 5 、6 号 2 天都用不了，期间我都不敢用其他家机场的节点访问 Claude 就怕被封。 今天下午机场节点可以用了，访问了一下 Claude 发现 4 号晚上就给我封了 **我现在还没写申请，有没有申请后成功解封的。想取经一下**
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232803#reply3
+
+---
+
+#### 9193. [V2EX] 购买/订阅苹果开发者帐号，一定要 $99 块钱，不能打折么？
+
+**问题描述 / Problem Description**:
+有什么合适的渠道，能够便宜点。貌似 apple gift 中的钱，不能用来付款开发者帐号？ 谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232785#reply0
+
+---
+
+#### 9194. [V2EX] 苹果手机，怎么设置只接受白名单号码
+
+**问题描述 / Problem Description**:
+苹果手机给孩子暑假用，怎么只接受白名单手机号码来电。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232784#reply1
+
+---
+
+#### 9195. [V2EX] 考 人工智能训练师 有什么作用？
+
+**问题描述 / Problem Description**:
+考 人工智能训练师 有什么作用？公司好像有培训资料
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232778#reply5
+
+---
+
+#### 9196. [V2EX] 中了甲状腺癌之后，才知道原来得这个癌的人这么多？
+
+**问题描述 / Problem Description**:
+男，中招了，才知道年轻人现在好多得这个的 特别是女生，建议大家着重检查下 唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232777#reply22
+
+---
+
+#### 9197. [V2EX] 月薪 2W+，工作轻松但几乎没有成长，毕业四五年该继续待着吗？
+
+**问题描述 / Problem Description**:
+今天看到一个帖子，大意是：“月薪 18000 ，但工作几乎毫无意义，干不干？” 感觉和我的现状挺像。毕业四五年了，目前月薪 2W+，工作强度不大，大部分时间比较清闲，偶尔甚至会浑浑噩噩地摸鱼。从收入、稳定性和舒适度来看，这份工作其实没什么可抱怨的。 但待久了又会有一种说不上来的不舒服：每天做的事情没什么成就感，也感觉不到能力在增长。跟朋友聊起这些，他们觉得我是在“无病呻吟”——工资还可以、工作又轻松，还有什么不满足的？说实话，我也理解这种看法，毕竟现在的大环境下，一份舒服稳定的工作并不容易遇到。 纠结的地方在于，毕业四五年似乎正是积累经验、提升能力的阶段。如果长期待在舒适区，担心以后想换工作时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232770#reply21
+
+---
+
+#### 9198. [V2EX] 中国出入境新规定没人说说吗？
+
+**问题描述 / Problem Description**:
+简单说就这几条： 出境风险提醒： 外交部会公布战乱、高危国家地区。办护照、过边检时会提醒你别去高危地区；去高风险地区时，必要时会劝阻。 办证件不能撒谎造假： 办护照、签注、邀请函，理由、材料必须真实。作假：不给发证、不让出境。帮外国人开邀请函的个人 / 单位，要为内容真假担责。 新增几类人会被限制出境（ 6 个月‑3 年）： 骗护照、偷渡被拘留过； 在国外干危害国家利益的违法事； 涉及技术出口违规，有技术安全风险； 听说现在已经在卡护照了，以后想润出去更难了😿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232769#reply30
+
+---
+
+#### 9199. [V2EX] 使用 deepseek，外接视觉模型有什么好的便宜的方案推荐
+
+**问题描述 / Problem Description**:
+deepseek 不是多模态，在实际的使用中写 UI 确实差点意思，感觉好麻烦，特别是调 UI 的时候，感觉不好沟通。 目前实践制作 UI 的流程是让 deepseek 绘制 ascii UI 布局，确定布局之后，就整理提示词使用 gemini 的 stitch 制作原型图，原型图确定了再回到 deepseek 里面制作界面。 实际的过程中就会遇到一些小问题，比如网站 一下 UI 细节或者按钮的大小不一致，deepseek 无法看到，文字 描述的话，deepseek 没有办法一次性搞定。 所以想求一个比较好的使用方案能解决 deepseek 做 UI 视觉上面碰到的问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232764#reply6
+
+---
+
+#### 9200. [V2EX] 有没有清理耳机耳屎的焚诀？
+
+**问题描述 / Problem Description**:
+买过那个专门清理耳机的工具，但清理起来很不方便 有啥焚诀吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232761#reply2
+
+---
+
+#### 9201. [V2EX] 大家有没有试过 miyo（copilot for obsidian 团队开发的）？
+
+**问题描述 / Problem Description**:
+感觉各 AI 共享记忆很能解决痛点，不知道大家如何看。 是觉得更方便了，还是因为记忆污染更讨厌了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232760#reply0
+
+---
+
+#### 9202. [V2EX] 今天 opencode go 里面的 deepseek v4 flash 是不是降智了？
+
+**问题描述 / Problem Description**:
+主观感受，各位有这个感觉吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232757#reply1
+
+---
+
+#### 9203. [V2EX] AI 中转站云设施选择疑问
+
+**问题描述 / Problem Description**:
+如题，各位屌大的中转站老板们，大家搭建中转站时用的是哪个服务商的服务器，dmit, aws, gcp, azure 还是其他。 小弟也想参合一下。如果我看中网络延迟，是否 dmit 是首选？但是他们家也硬盘能否动态扩容咱不清楚，我没用过他家的。 aws 日本如何，有没有在用的现身说法一下。 另外一个是成本问题，是否有价格相对便宜的服务商推荐呢，前提是网络上国内延迟比较低的。 能否给个参考呢，感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232756#reply0
+
+---
+
+#### 9204. [V2EX] opencode go 的 deepseek v4 flash 改成 2 倍用量了吗？
+
+**问题描述 / Problem Description**:
+刚更新的 opencode cli 在使用 deepseek v4 flash 显示成这样了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232741#reply7
+
+---
+
+#### 9205. [V2EX] [AMA] 自由泳练习时长 3 年半，千米成绩破 16 分，有什么想问的
+
+**问题描述 / Problem Description**:
+大家好，我是自由泳练习时长三年半的练习生。今天千米自由泳成绩 15′54, 50 米国标泳池。我之前也是无法连续游百米的选手，一开始坚持下来，25 分进步到 22 分，再到 20 分，然后一分一分的进步。没有童子功，平时也不撸铁，也不跑步，只靠坚持不懈的练习。 50 米自由泳和百米自由泳，可以达到运动员三级，但成年人没办法拿证书了，所以练习比较多的是千米。希望千米能再进步一些。 视频链接: 千米自由泳 15′54 练习，跟着大佬 PB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232737#reply0
 
 ---
