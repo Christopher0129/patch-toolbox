@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3025**
+**总计条目 / Total entries: 3031**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -45352,5 +45352,77 @@ A Cleartext Storage of Sensitive Information vulnerability in suppportutils of S
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2511770
+
+---
+
+#### 3026. CVE-2026-71870 - pypdf: pypdf: Denial of Service via crafted PDF with large /ToUnicode streams
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF with large /ToUnicode streams. Bugzilla: 2512627
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512627
+
+---
+
+#### 3027. CVE-2026-71852 - pypdf: pypdf: Denial of Service via crafted PDF with large CID font width ranges
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF with large CID font width ranges. Bugzilla: 2512615
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512615
+
+---
+
+#### 3028. CVE-2026-12261 - nltk: NLTK: Resource poisoning via improper package archive extraction
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Resource poisoning via improper package archive extraction. Bugzilla: 2512413
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512413
+
+---
+
+#### 3029. CVE-2025-63235 - codepr sol: Sol: Denial of service via resource exhaustion from malformed CONNECT…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] codepr sol: Sol: Denial of service via resource exhaustion from malformed CONNECT packets. Bugzilla: 2512606
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512606
+
+---
+
+#### 3030. CVE-2026-61477 - libvirt: libvirt: newline injection in network XML DNS TXT/SRV fields allows…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] libvirt: libvirt: newline injection in network XML DNS TXT/SRV fields allows dnsmasq config directive injection. Bugzilla: 2512066
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512066
+
+---
+
+#### 3031. CVE-2026-68481 - org.apache.cxf/cxf-rt-rs-security-oauth2: Apache CXF: Revocation bypass allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.cxf/cxf-rt-rs-security-oauth2: Apache CXF: Revocation bypass allows unauthorized access. Bugzilla: 2511994
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511994
 
 ---

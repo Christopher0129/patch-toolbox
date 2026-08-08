@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9205**
+**总计条目 / Total entries: 9269**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -125586,5 +125586,837 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232737#reply0
+
+---
+
+#### 9206. Switches Mobo/CPU, pc wouldn't boot/bios. Switched back to old mobo/CPU, PC still won't boot/bios.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj83ir/switches_mobocpu_pc_wouldnt_bootbios_switched/
+
+---
+
+#### 9207. log file d /recovery/windowsre/winre.wim/system32/logfiles/srt/srttrail.txt
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj81cq/log_file_d/
+
+---
+
+#### 9208. Corrupted BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vixjl1/corrupted_bios/
+
+---
+
+#### 9209. Audio control being over ridden on 2016 Samsung UN32J4000AF (TV)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj2lv9/audio_control_being_over_ridden_on_2016_samsung/
+
+---
+
+#### 9210. PC Case fans won't spin on first boot up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1viwsh8/pc_case_fans_wont_spin_on_first_boot_up/
+
+---
+
+#### 9211. Pc turning off on its own
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1viybu7/pc_turning_off_on_its_own/
+
+---
+
+#### 9212. Buying a wireless dongle for my Microsoft Wireless Headset.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj8oda/buying_a_wireless_dongle_for_my_microsoft/
+
+---
+
+#### 9213. Hello! Need help with the Nividia app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj8lfy/hello_need_help_with_the_nividia_app/
+
+---
+
+#### 9214. Consistent screen freezing and audio looping
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj84e9/consistent_screen_freezing_and_audio_looping/
+
+---
+
+#### 9215. Monitor randomly goes black and flickers for 5 seconds with USB disconnect/reconnect sound
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vix5p6/monitor_randomly_goes_black_and_flickers_for_5/
+
+---
+
+#### 9216. My 5 year old RX6800 XT crashes while gaming in 15 mins(not benchmarks) and I have no idea why.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vivgr4/my_5_year_old_rx6800_xt_crashes_while_gaming_in/
+
+---
+
+#### 9217. I've been getting several bsods on windows 11 lately and I don't know what do to
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7vji/ive_been_getting_several_bsods_on_windows_11/
+
+---
+
+#### 9218. Laptop/laptop charged got fucked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7u4p/laptoplaptop_charged_got_fucked/
+
+---
+
+#### 9219. Graphical issues on the desktop which disappear under load
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7tf6/graphical_issues_on_the_desktop_which_disappear/
+
+---
+
+#### 9220. Open program as admin with no UAC pop up?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7s0t/open_program_as_admin_with_no_uac_pop_up/
+
+---
+
+#### 9221. Nvidia not connected issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1viwqec/nvidia_not_connected_issue/
+
+---
+
+#### 9222. Windows 11 "Your device ran into a problem and couldn't be repaired. Click or press Enter to see other recovery options. Couldn't connect to the network." ...but laptop still works fine.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7k80/windows_11_your_device_ran_into_a_problem_and/
+
+---
+
+#### 9223. Failure to Boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7ij0/failure_to_boot/
+
+---
+
+#### 9224. Severe audio stuttering issues when playing videos.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7ecn/severe_audio_stuttering_issues_when_playing_videos/
+
+---
+
+#### 9225. How to diagnose my display issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj7a9l/how_to_diagnose_my_display_issue/
+
+---
+
+#### 9226. No display on monitor after waking PC from sleep mode
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj75vh/no_display_on_monitor_after_waking_pc_from_sleep/
+
+---
+
+#### 9227. visual c++ 2015-2022 X64 not installing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj6sl5/visual_c_20152022_x64_not_installing/
+
+---
+
+#### 9228. My files got partially corrupted while transferring from my laptop to my brand new SATA ssd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj6hxl/my_files_got_partially_corrupted_while/
+
+---
+
+#### 9229. ASUS TUF F15 Nightmare: Motherboard repaired TWICE in 2 years Need advice!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vj5tgx/asus_tuf_f15_nightmare_motherboard_repaired_twice/
+
+---
+
+#### 9230. Weekly 'I made a useful thing' Thread - August 07, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vhuchq/weekly_i_made_a_useful_thing_thread_august_07_2026/
+
+---
+
+#### 9231. AI-obsessed coworkers are becoming a massive headache
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vik84c/aiobsessed_coworkers_are_becoming_a_massive/
+
+---
+
+#### 9232. Would you leave a $69k remote MSP job for a $100-115k in-house hospital IT job with a 55 minute commute and potentially way more on-call?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1viu1c8/would_you_leave_a_69k_remote_msp_job_for_a/
+
+---
+
+#### 9233. New admin, inherited a mess, and now two staff members blame me for everything – need advice
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vit12q/new_admin_inherited_a_mess_and_now_two_staff/
+
+---
+
+#### 9234. Anyone else dealing with users who think rebooting is a personal insult
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vilh59/anyone_else_dealing_with_users_who_think/
+
+---
+
+#### 9235. Bring down prod?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vivajq/bring_down_prod/
+
+---
+
+#### 9236. Anyone seeing synchronized homepage floods from tens of thousands of one-shot residential IPs?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vj2ks4/anyone_seeing_synchronized_homepage_floods_from/
+
+---
+
+#### 9237. What was your first P1?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vivssr/what_was_your_first_p1/
+
+---
+
+#### 9238. Goodbye Mitel, you really were shit.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi7hvy/goodbye_mitel_you_really_were_shit/
+
+---
+
+#### 9239. Already ISO 27001 certified, now in NIS2 scope with the October deadline close and Im a bit overwhelmed with where to start
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vivvi5/already_iso_27001_certified_now_in_nis2_scope/
+
+---
+
+#### 9240. Anyone actually managed to send syslog directly to Splunk S2S?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vj8fp5/anyone_actually_managed_to_send_syslog_directly/
+
+---
+
+#### 9241. How many times have you jumped jobs?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1viik8l/how_many_times_have_you_jumped_jobs/
+
+---
+
+#### 9242. Should I use RDS for small office?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vio0sv/should_i_use_rds_for_small_office/
+
+---
+
+#### 9243. 🌐 Academic Research | Pesquisa Acadêmica
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vj2713/academic_research_pesquisa_acadêmica/
+
+---
+
+#### 9244. WTF's up with Cisco right now?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1viacti/wtfs_up_with_cisco_right_now/
+
+---
+
+#### 9245. Trying to find an affordable ticketing system
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi7vdg/trying_to_find_an_affordable_ticketing_system/
+
+---
+
+#### 9246. Code Review of Administration Scripts
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi99my/code_review_of_administration_scripts/
+
+---
+
+#### 9247. How do you handle comparing prices when procuring PC hardware/GPUs for your organization?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vivync/how_do_you_handle_comparing_prices_when_procuring/
+
+---
+
+#### 9248. Looking for a new phone system!
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi73ga/looking_for_a_new_phone_system/
+
+---
+
+#### 9249. Microsoft Authenticator App Passkeys. Lost or damaged phone. No backup or sync possible even with Synced passkey type enabled?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vhytw7/microsoft_authenticator_app_passkeys_lost_or/
+
+---
+
+#### 9250. Update: turns out I do like cybersecurity
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi4k3t/update_turns_out_i_do_like_cybersecurity/
+
+---
+
+#### 9251. What’s your “must have been cosmic rays” story?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vhzvpj/whats_your_must_have_been_cosmic_rays_story/
+
+---
+
+#### 9252. Am I Getting Fucked Friday, August 7th 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vi2zmm/am_i_getting_fucked_friday_august_7th_2026/
+
+---
+
+#### 9253. Looking for ransomware specific security tools
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vid364/looking_for_ransomware_specific_security_tools/
+
+---
+
+#### 9254. [V2EX] vibe 用多 agent 的好处是什么？
+
+**问题描述 / Problem Description**:
+最近老看见 rmux 的身影，没用过。 我自己用的 termius ，一个 workspace 开多个终端进行 boardcast input 最多了。 我也不是单一 agent 信徒，有不错的 agent ，引入自己的 flow 也是不避讳的。 但我想不通，很多人用 4-5 个 agentic ide 是做什么的？ 比如 claude code 做编排以及 planner 我能理解。基本用的也是 claude 自家模型。 那么为什么写后端用 vibe ，前端又用 grok ，然后 apis 用 antigravity ，最后 review 再用一个 codex 。 这。。。。 ai 没有这种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232963#reply1
+
+---
+
+#### 9255. [V2EX] 关于被封后的问题
+
+**问题描述 / Problem Description**:
+由于原来不知道论坛规则被封了 2 个账号，可以将邮箱放出来吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232961#reply0
+
+---
+
+#### 9256. [V2EX] openclaw 怎么解决上下文问题？我的 AI 调好了之后总是失忆
+
+**问题描述 / Problem Description**:
+我最近休息日在鼓捣 openclaw ，我期望做一个自动搜集和文案生产的内容，我用的是 gpt5.5 作为模型 但是这个上下文问题一直困扰着我，每次 openclaw 到达了我理想的状态之后，我一旦过几天，因为我让他执行的任务多了，他就会压缩上下文，从而导致最终的结果不符合我的预期，这个问题大佬们有解决方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232955#reply2
+
+---
+
+#### 9257. [V2EX] 为什么 claude 搞封号退款一堆人喷？ ChatGPT 暗中使用垃圾模型却没人说？
+
+**问题描述 / Problem Description**:
+为什么 Claude 因为特征判定封号了，却一堆人在网上喷？ 而 ChatGPT 因为你的 IP 问题，而暗中给你使用这种 mini 或者其他的一些模型，就是降级了，为什么用户只会默默地去想办法购买所谓的家宽 IP 或者伪住宅网络来解决这一风控。受到模型降级的情况，开启自适应模式，花几十甚至上百去购买不被降低智力的网络。 同样都是表子立牌坊，人家就是不让你用了，然后给你办理退款，封掉了你的号，而 GPT 在搞暗箱操作，让人忍受降智的体验却赚着你本来应该满血的体验？ 难道就因为不断的重置额度，以及一些中转站撸来的低价羊毛而造就了这种捧 gpt 为神的局面？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232952#reply2
+
+---
+
+#### 9258. [V2EX] .com 域名现在什么渠道便宜
+
+**问题描述 / Problem Description**:
+.com 域名现在什么渠道便宜? 想买个 com 域名,接受备案,感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232947#reply2
+
+---
+
+#### 9259. [V2EX] 100 出 8 月 8 日山姆副卡
+
+**问题描述 / Problem Description**:
+wx: mooniitt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232946#reply0
+
+---
+
+#### 9260. [V2EX] 各位休息在家还开电脑或打游戏吗
+
+**问题描述 / Problem Description**:
+感觉电脑吃灰好久了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232919#reply19
+
+---
+
+#### 9261. [V2EX] 各位在用苹果手机的 v 友，买的都是国行吗？
+
+**问题描述 / Problem Description**:
+本人之前用三星较多，但无奈近年来三星的屏幕品控下降了，今天莫名其妙的多一条绿线出来，虽然有采用三星屏幕的 vivo 手机也会出现屏幕绿线问题，但 vivo 有四年免费换屏服务，而三星在部分其他国家有免费换屏，却在中国大陆没有免费换屏服务。 计划用回 iPhone 。之前看有人会买其他地区版本的手机，而我之前所有手机用的都是国行，所以此次考虑是否买其他地区版本，看看大家的情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232903#reply9
+
+---
+
+#### 9262. [V2EX] macOS bitwarden 升级到 2026.7.0 后无法登录提示发生异常错误❌
+
+**问题描述 / Problem Description**:
+昨天下午发现 appstore 上有 bitwarden 的升级了，于是例行升级了一下，重启登录后发现都是空白，无法浏览任何密码和 note ，右上角的登录名显示正常，以为数据库坏了天塌了，赶紧用手机试了一下发现都正常，心里一块石头落地了，估计是 macOS 客户端的问题。 于是卸载了 appstore 版本，去官网下载了 dmg 手动安装，发现问题更严重连登录都无登录了，输入主密码直接报错，原地石化，于是 Google 资料，发现升级到 2026.7.0 都有类似的问题，是 bitwarden 从 6.1 版本后升级了内部的一些细微地方，导致与原镜像不兼容了。找到问题点就好解决了。 于是开始
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232890#reply8
+
+---
+
+#### 9263. [V2EX] 大家现在都用 Antigravity 吗？（Gemini 的新版）
+
+**问题描述 / Problem Description**:
+Gemini 是纯命令行，这个 Antigravity 基本也是命令行，但是多一个代码 view 窗口，算是比原来的好一点。 不过用下来感觉还行，自己能从 0 开始跑通一个项目，我让他用 rust 编写一个 udp-knock 应用，刷刷几下就编好了，然后自动测试跑通（虽然挺人类化的，因为刚开始跑还有编译错误，然后自己修改）。 就是 token 用起来太快了。 大家有对比吗？ codex ，claud ，trae ，qcoder 等等。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232886#reply3
+
+---
+
+#### 9264. [V2EX] 有替代有道翻译的软件吗？
+
+**问题描述 / Problem Description**:
+能够截图翻译，替换原文，还能保留原有位置，还能调用第三方的 API 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232870#reply14
+
+---
+
+#### 9265. [V2EX] codex cli 贴大段文本进去的时候 经常会被截断就开始执行
+
+**问题描述 / Problem Description**:
+windows 11 + powershell 7 + 鼠标复制 codex 输出的内容 再贴回去 都会这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232868#reply8
+
+---
+
+#### 9266. [V2EX] 怎么提升自然语言转 SQL 的准确性？
+
+**问题描述 / Problem Description**:
+在表结构比较复杂、字段较多的时候总是容易漏字段，目前的方案是加一层模板匹配，预先设计好一部分模板，然后先和模板做一次相似度匹配，找到相似度较高的模板，再在模板的基础上让 LLM 去修改 where 条件 目前的问题有 2 个： 匹配到的模板不准确，比如我问一个 a 业务有关的问题，然后相似度匹配到了一个意思相近的 b 业务上，这个时候 LLM 就很难基于 b 业务的模板去生成正确的 sql ，有时候甚至语法上都会出问题。 老是漏条件，比如我已经指明了要查询『已解决』的记录，LLM 总是会漏掉这种查询条件，但是系统明明已经在组装提示词的时候把表结构给他了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232853#reply15
+
+---
+
+#### 9267. [V2EX] dsv4 flash vs k3
+
+**问题描述 / Problem Description**:
+一个自动化脚本 用 dsv4 flash 跑了一晚上，8 个小时，花了 10 块钱 用 kimi k3 跑了一个小时多点，7 天的用量就没了,一个月的用量只能跑不到 5 个小时。 换算下来，每个月 79 块的 kimi 套餐，还没有 deepseek 10 块钱耐用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232839#reply9
+
+---
+
+#### 9268. [V2EX] RustDesk 内存泄露， macOS 有什么好用的远程软件吗「支持局域网连接」
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232832#reply5
+
+---
+
+#### 9269. [V2EX] Macbook pro m4 用 hdmi 和 typec 转 dp 外接两个显示器,永远只有一个能亮.
+
+**问题描述 / Problem Description**:
+外接的两台都是小米的 4k 160hz 显示器.只接一台就可以,两台一起插后插的那个就不亮.不知道都用 typec 转 dp 能不能点亮两台.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232828#reply3
 
 ---

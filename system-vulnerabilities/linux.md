@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2732**
+**总计条目 / Total entries: 2739**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -49910,5 +49910,126 @@ Apply patch from vendor. Monitor https://www.cloudfoundry.org/blog/cve-2026-4186
 
 **参考链接 / References**:
 - https://www.cloudfoundry.org/blog/cve-2026-41861-arbitrary-root-file-write-via-path-traversal-in-bosh-agent/
+
+---
+
+#### 2733. CVE-2026-71870 - pypdf: pypdf: Denial of Service via crafted PDF with large /ToUnicode streams
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF with large /ToUnicode streams. Bugzilla: 2512627
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512627
+
+---
+
+#### 2734. CVE-2026-71852 - pypdf: pypdf: Denial of Service via crafted PDF with large CID font width ranges
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF with large CID font width ranges. Bugzilla: 2512615
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512615
+
+---
+
+#### 2735. CVE-2026-12261 - nltk: NLTK: Resource poisoning via improper package archive extraction
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Resource poisoning via improper package archive extraction. Bugzilla: 2512413
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512413
+
+---
+
+#### 2736. CVE-2025-63235 - codepr sol: Sol: Denial of service via resource exhaustion from malformed CONNECT…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] codepr sol: Sol: Denial of service via resource exhaustion from malformed CONNECT packets. Bugzilla: 2512606
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512606
+
+---
+
+#### 2737. CVE-2026-61477 - libvirt: libvirt: newline injection in network XML DNS TXT/SRV fields allows…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libvirt: libvirt: newline injection in network XML DNS TXT/SRV fields allows dnsmasq config directive injection. Bugzilla: 2512066
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512066
+
+---
+
+#### 2738. CVE-2026-68481 - org.apache.cxf/cxf-rt-rs-security-oauth2: Apache CXF: Revocation bypass allows…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.apache.cxf/cxf-rt-rs-security-oauth2: Apache CXF: Revocation bypass allows unauthorized access. Bugzilla: 2511994
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511994
+
+---
+
+#### 2739. CVE-2026-42792
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Improper Handling of Exceptional Conditions vulnerability in Erlang OTP erts (epmd) allows an unauthenticated remote attacker to permanently terminate the Erlang Port Mapper Daemon (epmd) via connection slot exhaustion.
+
+The do_accept function in erts/epmd/src/epmd_srv.c calls epmd_cleanup_exit() when accept(2) returns EMFILE (per-process file descriptor limit reached) or ENFILE (system-wide file descriptor limit reached), rather than treating these as recoverable conditions. An attacker can exhaust epmd's file descriptor slots by holding many TCP connections open while periodically sending a single byte to reset the idle timeout, then causing accept(2) to return EMFILE, which kills the daemon. epmd has no per-source-IP connection cap, making the attack feasible from a single source.
+
+On Debian/Ubuntu default packaging the impact is amplified: the systemd unit inherits a low file descriptor soft limit, and repeated daemon deaths trigger systemd's start-rate-limit, permanently failing both epmd.service and epmd.socket and requiring manual operator intervention to recover.
+
+This issue affects OTP from OTP 17.0 before OTP 29.0.4, OTP 28.5.0.4 and OTP 27.3.4.15.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://cna.erlef.org/cves/CVE-2026-42792.html.
+
+**参考链接 / References**:
+- https://cna.erlef.org/cves/CVE-2026-42792.html
+- https://github.com/erlang/otp/commit/865d203e4a6a8f44179eced9e1428f9259e4a3bb
+- https://github.com/erlang/otp/security/advisories/GHSA-h6f3-hx58-xhj6
+- https://osv.dev/vulnerability/EEF-CVE-2026-42792
+- https://www.erlang.org/doc/system/versions.html#order-of-versions
 
 ---

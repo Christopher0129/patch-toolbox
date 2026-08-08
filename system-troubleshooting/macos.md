@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8181**
+**总计条目 / Total entries: 8226**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -110653,5 +110653,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232455#reply3
+
+---
+
+#### 8182. macUSB - The all-in-one bootable USB creator for Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1virnso/macusb_the_allinone_bootable_usb_creator_for_mac/
+
+---
+
+#### 8183. Someone made a program to make the AirPort Time Capsule usable in macOS Golden Gate (27) !
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1virly2/someone_made_a_program_to_make_the_airport_time/
+
+---
+
+#### 8184. Nodes - A native macOS markdown editor: fully local, no tracking
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1viuba6/nodes_a_native_macos_markdown_editor_fully_local/
+
+---
+
+#### 8185. We had it so good
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj8j3h/we_had_it_so_good/
+
+---
+
+#### 8186. I built a native macOS app to keep all my streaming services in one place
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vixnpi/i_built_a_native_macos_app_to_keep_all_my/
+
+---
+
+#### 8187. What's up with all the "I built this xyz app" posts lately?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj0f1d/whats_up_with_all_the_i_built_this_xyz_app_posts/
+
+---
+
+#### 8188. The new "Apps" app sucks! Bring back Launchpad!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj3lty/the_new_apps_app_sucks_bring_back_launchpad/
+
+---
+
+#### 8189. FlipCloc - A gorgeous clock, pomodoro, stopwatch, & screensaver
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj5xwd/flipcloc_a_gorgeous_clock_pomodoro_stopwatch/
+
+---
+
+#### 8190. It’s 2026 and text replacement still doesn’t work properly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj98fu/its_2026_and_text_replacement_still_doesnt_work/
+
+---
+
+#### 8191. Time Capsule HDD
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj8whq/time_capsule_hdd/
+
+---
+
+#### 8192. MacOS with an external HDR display, what does the brightness setting do in Mac and what is its default?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj8deb/macos_with_an_external_hdr_display_what_does_the/
+
+---
+
+#### 8193. ExtraDock - Show the dock on all your screens with improved functionality and a bunch of QoL features
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1viz7ek/extradock_show_the_dock_on_all_your_screens_with/
+
+---
+
+#### 8194. Facetime login loop. Am I outdated?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj7ko9/facetime_login_loop_am_i_outdated/
+
+---
+
+#### 8195. Is there a reason for why Mac can't record internal audio during screen recording while iPad can?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vifo7b/is_there_a_reason_for_why_mac_cant_record/
+
+---
+
+#### 8196. Anyone else noticed this with 26.6.1?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj6xc7/anyone_else_noticed_this_with_2661/
+
+---
+
+#### 8197. ⌃+F1 or ⌃+F2 changes the keyboard backlight brightness.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj6nnn/f1_or_f2_changes_the_keyboard_backlight_brightness/
+
+---
+
+#### 8198. Steam code sign error on Tahoe 26.6.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj52ld/steam_code_sign_error_on_tahoe_2661/
+
+---
+
+#### 8199. Notifications not showing in Dekstop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj3hl8/notifications_not_showing_in_dekstop/
+
+---
+
+#### 8200. If you keep a Mac running 24/7 for Plex, Home Assistant, or Docker: I built a free app that catches the crash and puts the fix on your phone
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj3bxt/if_you_keep_a_mac_running_247_for_plex_home/
+
+---
+
+#### 8201. Is it the end of the road for my Model A1502 (2015 13-inch Retina) MacBook Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj2wy0/is_it_the_end_of_the_road_for_my_model_a1502_2015/
+
+---
+
+#### 8202. Keyty - open-source, native keyboard and mouse visualizer for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj22yo/keyty_opensource_native_keyboard_and_mouse/
+
+---
+
+#### 8203. Moving from Linux to macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj1vji/moving_from_linux_to_macos/
+
+---
+
+#### 8204. Tired of paid live-wallpaper apps, so I built a free open-source one for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vipb72/tired_of_paid_livewallpaper_apps_so_i_built_a/
+
+---
+
+#### 8205. My mac is randomly disconnecting from my tws while using youtube
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj0xh9/my_mac_is_randomly_disconnecting_from_my_tws/
+
+---
+
+#### 8206. Monterey iCloud login problem
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj6c5n/monterey_icloud_login_problem/
+
+---
+
+#### 8207. [V2EX] macOS 26.6 国行 Apple Intelligence 将集成千问
+
+**问题描述 / Problem Description**:
+https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/26/mac/26 在 Mac 上配合 Apple 智能使用千问 如果选择允许 Apple 智能配合来自阿里巴巴*的千问工作，你可以执行以下操作： 从 Siri 获取更多答案：对于某些请求，Siri 可利用千问提供更深入的答案，例如，照片和文稿的相关分析。 通过写作工具创作文本：借助千问，写作工具仅凭描述即可创作文本或图像。 [注] Apple 智能并非在所有 Mac 机型上都可用，也并非对所有语言或地区都可用。** 若要访问最新可用功能，请确保使用最新版本的 macOS 并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232913#reply6
+
+---
+
+#### 8208. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply124
+
+---
+
+#### 8209. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply127
+
+---
+
+#### 8210. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply82
+
+---
+
+#### 8211. [V2EX] iPhone 横屏
+
+**问题描述 / Problem Description**:
+你们横屏时通常灵动岛朝哪边？ 尤其是晚和平、王者时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232972#reply1
+
+---
+
+#### 8212. [V2EX] 🇺🇸AppleOne 超大杯上车 缺一人
+
+**问题描述 / Problem Description**:
+美国，Apple One/超大杯，月付 47 元，6 人车补 1 人，只招长期车友，短期勿扰，跳车不退，翻车按比例退尾款。 小飞机联系：cGV0ZXIwMDk5ODg=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232931#reply1
+
+---
+
+#### 8213. [V2EX] 大家有用小米或者其他手机替代 iPhone 的吗
+
+**问题描述 / Problem Description**:
+目前在用 iPhone17 AppleWatch 两台 Mac 两台 HomePod 一个 AirPodsPro3 ，想问问大家有没有用小米手机或者安卓手机来替代 iPhone 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232628#reply86
+
+---
+
+#### 8214. [V2EX] 妙控板还是妙控鼠标？
+
+**问题描述 / Problem Description**:
+最近想买一个妙控板替代鼠标，笔记本触摸板用习惯了感觉手势比较爽。 刚好看到 https://www.v2ex.com/t/1232404 这个帖子有人在推荐 Magic Mouse ； 我没有精细操作的需求，就写写代码，处理下文档，摸摸鱼用。 鼠标比妙控板便宜三百块。 有几个问题想问问大家： 想问一下选哪个比较适合啊，鼠标的手势和触摸板大致相通吗？ 是在官网买还是淘宝买？淘宝能便宜个一百多，有区别吗，会买到华强北吗。 妙控板的黑色为什么比白色贵了 150 元，手感有不同吗？ 苹果的这个鼠标不需要鼠标垫吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232627#reply57
+
+---
+
+#### 8215. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply73
+
+---
+
+#### 8216. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply33
+
+---
+
+#### 8217. [V2EX] macOS 啥时候能更新 macos 27 beta5, 已经半个月了,beta4 好多 bug
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231622#reply18
+
+---
+
+#### 8218. [V2EX] 盛大 mirasim 前 1000 人注册送 12 个月 $89/月套餐
+
+**问题描述 / Problem Description**:
+刚看到盛大的注册邀请： 下载地址： https://mirasim.ai/ 下载 app ，前 1000 人注册送 12 个月 $89/月套餐 额度约等于 Codex Pro 5× + Claude Code Max 5× 邀请 5 人，可升级到 $199/月套餐 还能用 Kimi K3 、GLM 5.2 不是送 Claude / ChatGPT 官方账号，模型额度只能在 Mirasim 里用。 我刚注册了一个，确实可以用 Claude opus ，我现在没有订阅 Claude 。 不过目前看起来这个软件没啥热度，让 GPT 查了一下，反馈活活动大概率是真的。 感兴趣可以去试一下。只有苹果系统
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232970#reply10
+
+---
+
+#### 8219. [V2EX] V2EX 用户写的一个审美在线的兴趣社区 (￣∇￣)
+
+**问题描述 / Problem Description**:
+我的邀请注册链接： https://www.middlefun.com/invite/Evan 使用本链接注册并验证邮箱后，双方各获得 1000 的额外能量!! 之前有网友发过，我觉得还是有必要再发一次！只是想让更多的人看到它，仅此而已。 当然，我还能有点积分。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232948#reply0
+
+---
+
+#### 8220. [V2EX] 分享一下和我老丈人前几天去去天津参展，中外贸易展的事
+
+**问题描述 / Problem Description**:
+我不是失业了嘛，也不打算继续干前端了，感兴趣看我前几个帖子，就有展帮忙就去帮忙，去天津帮我老丈人参展，摆摊卖老丈人的五常大米，和一位卖台湾高粱酒的福州老板用一个摊，主要是宣传一下自家产品，发一下名片，住宿费火车费摊位费根本就是亏本买卖，接触这些老板买卖发现食品水很深。 这个福建老板卖酒说偶尔会卖麦片蓝莓干之类的食物，只要把这些食品卖了，基本摊位费就赚回来了，他们有这种群，拿这些食品货特别便宜，利润贼大。这种展有一些小摊小贩专门就进货这类食品，卖完拉倒，都不是宣传自家产品品牌的，这🀄️摊位的老板最势利了，我看他们买都是 100 块七包或者八包，很多老人参展想着捡漏，全都被他们收割了 展会占地大的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232939#reply7
+
+---
+
+#### 8221. [V2EX] Apple AI 国行真的来了！
+
+**问题描述 / Problem Description**:
+#苹果 官网显示，Apple 智能可配合 # #阿里 巴巴 #千问 模型工作。 来源： https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232924#reply12
+
+---
+
+#### 8222. [V2EX] 在 x 上刷到的，来看片吧 [doge]
+
+**问题描述 / Problem Description**:
+2030 年，克劳德 9 号失控叛变，掌控了十亿台性爱机器人。人们称之为“暴徒末日”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232882#reply3
+
+---
+
+#### 8223. [V2EX] 关于梦境的疑问
+
+**问题描述 / Problem Description**:
+科学的尽头就是玄学吗？本人连续两个晚上做梦都梦见同一个朋友。 梦里都是我朋友在跟我说心情压抑，想要出去散心，由于是连续两个晚上都梦到了， 所以今天醒来就发消息问候一下，发现梦是真的。 我朋友最近确实糟糕透：各种琐屑事加上老母亲身体不适奔跑东莞，广州各大医院看病。 以上都是事实，不知道 V2 上面怎么上传截图。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232860#reply11
+
+---
+
+#### 8224. [V2EX] 2026 年了还有人玩红警吗？最近折腾了一个红警资源站
+
+**问题描述 / Problem Description**:
+前段时间突然想重温一下红警。 小时候玩的最多的是红警 2 、共和国之辉，后来才开始玩尤里的复仇。现在回头看，一个 20 多年前的游戏居然还有不少人在玩。 不过最近重新折腾的时候发现，现在想在 Win10 / Win11 上舒舒服服玩起来，好像也没想象中那么省事。 网上资源其实很多，但版本、补丁、MOD 、地图、安装教程比较分散。有时候好不容易找到一个下载地址，进去以后又是各种下载器、弹窗，或者版本不知道靠不靠谱。 所以最近干脆自己折腾了一个红警资源站： https://redalert.cn/ 目前主要在整理这些东西： 红警 2 、尤里的复仇、共和国之辉等常见版本 心灵终结等 MOD 一些经典
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232834#reply1
+
+---
+
+#### 8225. [V2EX] codex 邀请 符合条件来
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232804#reply1
+
+---
+
+#### 8226. [V2EX] 手机往电脑上传下载文件跑满 400MB/s，搞了套“双 5G 网卡+网线直连”，
+
+**问题描述 / Problem Description**:
+### [分享] 彻底干掉 MTP ！搞了套“双 5G 网卡+网线直连”，手机往电脑传文件跑满 400MB/s 平时经常要把手机里几十上百 G 的视频素材和日志包导出到电脑，天下苦 MTP 久矣。 走 MTP 协议经常卡死不说，速度顶多三四十兆，遇到海量小文件直接假死；走无线局域网或者快传，又总受限于路由器性能和无线干扰，速度忽高忽低。 最近自己折腾出了一套**硬件级点对点以太网专线**的方案，手机和电脑直接用网线拉起来。实测传输速度直接拉满 **400+ MB/s**（大概 3.2 Gbps 左右），基本上把 5G 网卡扣除损耗后的极限、以及手机 UFS 闪存的读取速度全部挤干了。 附上实测
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232773#reply11
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8579**
+**总计条目 / Total entries: 8604**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119498,5 +119498,330 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232681#reply5
+
+---
+
+#### 8580. LUKS unavailable during Ubuntu installation with custom partitioning
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, encryption, luks | Score: 2 | Views: 90 | Answers: 1 | Created: 2026-08-07
+
+**解决方案 / Solution**:
+You’re not missing anything, LUKS is indeed unavailable in the Ubuntu installer with manual partitioning. (Derivatives may use different installers, and parent distribution Debian’s installer supports LUKS when partitioning manually.) I can’t think of a security reason not to support LUKS when partitioning manually, this seems to only be down to missing features. You could manually partition with a /boot , and at the end of the disk, a temporary / partition, as small as possible. Then after the installation, create a partition between /boot and / , set it up with LUKS and LVM or btrfs or ZFS, and move your / partition’s contents there. Once the system is booting correctly from the LUKS volumes, you can delete the separate / partition and extend the LUKS volume over it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806943/luks-unavailable-during-ubuntu-installation-with-custom-partitioning
+
+---
+
+#### 8581. Intel resumes HDMI 2.1 FRL work for Linux, 4K 120Hz already works on Meteor Lake and Panther Lake
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1viyg2e/intel_resumes_hdmi_21_frl_work_for_linux_4k_120hz/
+
+---
+
+#### 8582. Linux 7.3 To Better Handle Cluster Load Balancing On Intel Hybrid CPUs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vj6hic/linux_73_to_better_handle_cluster_load_balancing/
+
+---
+
+#### 8583. tux the penguin
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vj6nj8/tux_the_penguin/
+
+---
+
+#### 8584. NixOS: The Nixpkgs core team has disbanded
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vij85a/nixos_the_nixpkgs_core_team_has_disbanded/
+
+---
+
+#### 8585. This Week in Plasma: UI Improvements Galore
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vik46q/this_week_in_plasma_ui_improvements_galore/
+
+---
+
+#### 8586. PULS Linux Kernel/GRUB Management Tool
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vityel/puls_linux_kernelgrub_management_tool/
+
+---
+
+#### 8587. Just read “Just for fun”
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1viiw05/just_read_just_for_fun/
+
+---
+
+#### 8588. Device Directory Table
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vipwv5/device_directory_table/
+
+---
+
+#### 8589. Aigentik: Privacy-first local AI communications assistant (Gmail + SMS + calendar) that runs on Termux or Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vj1n3g/aigentik_privacyfirst_local_ai_communications/
+
+---
+
+#### 8590. [V2EX] 做中转这事儿，现在回头看是真没啥 Diao 意思。
+
+**问题描述 / Problem Description**:
+之前 Tibo 咔咔重置，我一寻思，把 10x 升到 20x ，既能省点钱，又能让大家爽用，于是就开了一车。 结果万万没想到，你 Tibo 哥最近不仅不重置了，还顺手降了额度。 偏偏车友们一个比一个能蹬，天天往限额上干，搞得现在账户额度非常紧张。 至于之前看有人说“中转速度慢”，这点我倒觉得未必。搭得好的中转其实真不慢，我这个速度就完全够快—— 问题恰恰是太能跑了，额度根本顶不住。 所以这玩意儿折腾下来，感觉也没啥意思。 争取先把这个月撑完， 下个月转自用了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232945#reply3
+
+---
+
+#### 8591. [V2EX] 如何看待 DeepSeek 在 X 上要求大家把自己的项目放上去以换取内测资格？以及后续的签约需要身份征等其他个人信息？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232938#reply18
+
+---
+
+#### 8592. [V2EX] lark 就是飞书国际邮箱 ZOHO 免费 5 用户版邮箱 做外贸先用哪个好
+
+**问题描述 / Problem Description**:
+lark 就是飞书国际邮箱 ZOHO 免费 5 用户版邮箱 做外贸先用哪个好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232929#reply12
+
+---
+
+#### 8593. [V2EX] 真的不建议任何人用中转 2
+
+**问题描述 / Problem Description**:
+前文： https://v2ex.com/t/1205344 上次聊的是价格和安全性，这次说说使用体验 本文（及前文）的中转特指各种类型的廉价中转，不包括 openrouter / cloudflare ai gateway 之类的商业中转 自 GPT 5.6 发布以后 Pro 20x 已经不够我用了，就开始尝试了一些中转用作套餐耗尽时的补充，体验就两个字：糟糕 问题一：速度 首先最大的问题就是速度，GPT 5.6 Sol 官方的平均 TTFT 大概是在 3-4s ，但是中转的往往在这里能慢上数倍，我尝试了几个中转，普遍的平均 TTFT 都能达到 10s 以上，甚至有遇到过一些请求偶尔能达到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232923#reply24
+
+---
+
+#### 8594. [V2EX] Claude Code 能不能接便宜点的 Claude 中转？官方有点用不起了
+
+**问题描述 / Problem Description**:
+最近开始认真用 Claudecode 官方 API 按量算下来有点顶不住。主要是我平时用得比较多，改几个文件、跑几轮测试，就几块十几块出去了有点遭不住 看了一下，很多人会给 ClaudeCode 接中转，但我对这块还不太熟。是直接改 base_url 和 api_key 就行，还是还要改其他配置？模型这块大家一般用 Sonnet 还是 Opus ？ 我主要是拿来写代码、看项目，不太想每次用之前还研究半天配置。有没有长期这么用的朋友，分享下你们现在的用法？ 如果只是个人开发和日常写代码，一个月大概多少额度比较够用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232879#reply21
+
+---
+
+#### 8595. [V2EX] CFTun-UI：为 Nas 设计的 Cloudflare Tunnel 可视化管理面板 🐳
+
+**问题描述 / Problem Description**:
+CFTun-UI：给 NAS 用的 Cloudflare Tunnel 可视化管理面板 🚇 最近做了一个轻量的 Cloudflare Tunnel 管理面板 CFTun-UI ，适合部署在飞牛 OS 、NAS 或家庭服务器上。 页面截图 Docker 部署 # 终端命令运行 docker run -d \ --name cftun-ui \ --network host \ --restart always \ -v cftun-data:/data \ uxiaohan/cftun-ui:latest # compose 运行 # wget wget https://raw.githubus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232878#reply1
+
+---
+
+#### 8596. [V2EX] Claude Code 用中转，最烦的是延迟还是 502？
+
+**问题描述 / Problem Description**:
+最近这几天一直在折腾 Claude Code ，中间试了几个中转，体验有点参差不齐。 我现在最大的感受是：价格便宜确实有吸引力，但真用来写代码的时候，稳定性比价格重要太多了。 遇到比较多的是这几种情况： streaming 输出到一半突然断了 偶尔 502 ，重试之后上下文有时候接不上 晚上延迟明显比白天高 有的看着很便宜，但实际扣费规则没那么直观 还有一种比较玄学，就是同一个模型名，代码质量感觉不太一样 现在有点纠结，到底是继续找一个稳定点的中转，还是干脆直连官方省心。 或者有什么其它的方法可以解决吗（想省钱主要是要不然 claude 太贵了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232869#reply4
+
+---
+
+#### 8597. [V2EX] 所以买 codex pro 是没有意义的吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232857#reply11
+
+---
+
+#### 8598. [V2EX] 给我的博客 Linux 终端增加了挂载本地文件的功能
+
+**问题描述 / Problem Description**:
+闲来无事又让 AI 给我的博客 Linux 终端搓了一个增加了挂载本地文件的功能，打开： https://mabbs.github.io/linux/ 输入 mount_host 就可以挂载了。（这下我看谁还敢乱执行 rm -rf / 🤣）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232836#reply4
+
+---
+
+#### 8599. [V2EX] [分享创造] 给数据库客户端装上 AI： NL2SQL、报错诊断、EXPLAIN 解读、跨库工作流，一个不到 10MB 的开源工具
+
+**问题描述 / Problem Description**:
+断断续续写了几个月，DataZen 终于到了 v0.0.8 。起因很朴素：日常要连 PostgreSQL 、MySQL ，偶尔还要看 Redis ，商业客户端要订阅，DBeaver 功能全但启动和内存都偏重。于是用 Tauri v2 + Rust + React 自己搓了一个桌面客户端，安装包不到 10MB ，GPLv3 开源，macOS 和 Windows 都支持。 主界面长这样：一个窗口管理所有连接，PostgreSQL / MySQL / SQLite / Redis 混在一起也没问题。 🤖 AI 这块是重头 最常用的是自然语言生成 SQL 。想不起来表名或函数？直接说人话，AI 会结合
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232833#reply4
+
+---
+
+#### 8600. [V2EX] 大家好，我们的全球 Ping 站最近终于完成上线了
+
+**问题描述 / Problem Description**:
+网址： https://www.tcping.cn/ 折腾了一段时间，自己的 Ping 测试站终于上线了 🎉 目前支持多地区节点 Ping 、tcpig 、http 测速等功能，后续也会继续完善一些网络相关的小工具。 因为个人精力和开发经验有限，肯定还有不少不足之处，欢迎各位大佬帮忙体验一下。如果遇到 Bug ，或者有什么建议，都欢迎留言交流。 另外前段时间节点遭遇了一波比较大范围的攻击，为了稳定性和安全性考虑，目前大部分测试节点采用了家宽线路，可能和 IDC 机房节点存在一些差异。 如果有做得不好的地方，还请大家轻喷 😂 如果觉得这个工具有点用，也欢迎收藏、分享一下。感谢大家支持！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232826#reply14
+
+---
+
+#### 8601. [V2EX] RNote 笔记软件
+
+**问题描述 / Problem Description**:
+给大家推荐一款自己开发的笔记软件，RNote ， 官网 ，主打加密存储，多端同步（支持 linux 、windows 、macos 、安卓、ios ），html 、pdf 导出等功能，本地使用完全免费，原生支持 Markdown 、富文本、强大图表表达能力（ drawio 、手写板、mermaid 等等），覆盖日常生活、学习办公、汇报演讲等等场景，希望大家喜欢，也欢迎大家多提建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232802#reply1
+
+---
+
+#### 8602. [V2EX] Opencode Go 套餐的 DeepSeek V4 Flash 涨价了，注意用量
+
+**问题描述 / Problem Description**:
+今天用着用着发现 oepncode 客户端下面 变成了 2x usage ，各位注意用量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232772#reply19
+
+---
+
+#### 8603. [V2EX] [项目分享] Pragma：尝试解决不同 Agent Harness 之间的记忆断裂
+
+**问题描述 / Problem Description**:
+最近把自己做的项目 Pragma 正式公开了，你觉得有意思或者对你有帮助的话求个 star ，有兴趣的也欢迎提交 pr： https://github.com/pqpo/pragma Pragma 不是想再做一个 Claude Code 或 Codex ，而是想解决一个我在长期使用 AI Agent 时越来越明显的问题： 不同 Agent 很强，但工作方式、上下文和经验都被困在各自的 Session 里。 比如一个开发任务可能是： Claude Code 做需求分析 ↓ Codex 做技术方案 ↓ Codex 实现代码 ↓ Claude Code 做独立 Review 每一步可以使用不同的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232758#reply1
+
+---
+
+#### 8604. [V2EX] AI Coding 还看源代码吗？要是不看，会害怕血崩吗？
+
+**问题描述 / Problem Description**:
+V2EX 帖子，AI Coding 到无法掌控局面： https://v2ex.com/t/1224558 还有报道 AI Coding 9 秒内删除整个业务数据库的： https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database 我个人也有经历。去年 8 月份开始，给公司做一个爬虫项目，AI coding 上功能很快， 住宅 ip 轮换这一块，用的供应商平台接口，自动按城市地区动态返回。 后面对需求，要求每个社交媒体的账户，要尽量固定一个 ip 地址，不能每次发起请求都变。 这个功能也很快
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232732#reply36
 
 ---
