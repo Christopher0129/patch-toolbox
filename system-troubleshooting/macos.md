@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8226**
+**总计条目 / Total entries: 8262**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -111238,5 +111238,473 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232773#reply11
+
+---
+
+#### 8227. Flood of AI vibe coded macOs apps lately
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjq9lx/flood_of_ai_vibe_coded_macos_apps_lately/
+
+---
+
+#### 8228. iPhone Mirroring annoys the heck out of me
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vk1wer/iphone_mirroring_annoys_the_heck_out_of_me/
+
+---
+
+#### 8229. 2026 M5 Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjgj5g/2026_m5_air/
+
+---
+
+#### 8230. Unattended or automated Updates.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vk0769/unattended_or_automated_updates/
+
+---
+
+#### 8231. MacOS 27 does not let you disable Apple Intelligence
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj9npv/macos_27_does_not_let_you_disable_apple/
+
+---
+
+#### 8232. Screen Mirroring not Working | M1 Pro -> Samsung TV
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjywln/screen_mirroring_not_working_m1_pro_samsung_tv/
+
+---
+
+#### 8233. Uploading Files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vk2fpa/uploading_files/
+
+---
+
+#### 8234. Multiple failed SecureToken authentication attempts overnight — attack or false alarm?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vk1s1e/multiple_failed_securetoken_authentication/
+
+---
+
+#### 8235. Create a usable iMessage archive on MacOS before wiping phone
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjz3id/create_a_usable_imessage_archive_on_macos_before/
+
+---
+
+#### 8236. TIL Universal Control exists — found out by accidentally driving both Macs with one trackpad
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjkkcu/til_universal_control_exists_found_out_by/
+
+---
+
+#### 8237. Good old shenanigans
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjjpwu/good_old_shenanigans/
+
+---
+
+#### 8238. How do I download all my photos from ICloud to save space.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vj9z0i/how_do_i_download_all_my_photos_from_icloud_to/
+
+---
+
+#### 8239. MacOs alt-tab app that doesn't flicker with screen protected content
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjukl3/macos_alttab_app_that_doesnt_flicker_with_screen/
+
+---
+
+#### 8240. Can I get some assistance removing a defunct Samba share
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjsyv3/can_i_get_some_assistance_removing_a_defunct/
+
+---
+
+#### 8241. How to change The F5 and F6 key shortcuts to adjust keyboard brightness?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjp6kd/how_to_change_the_f5_and_f6_key_shortcuts_to/
+
+---
+
+#### 8242. [iOS 27 DB4] Is this the correct way to disable/suppress Siri AI in 27 by using Screen Time - Content & Privacy Restrictions?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjp3dn/ios_27_db4_is_this_the_correct_way_to/
+
+---
+
+#### 8243. Unable to use the native feature to print with watermark
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjick6/unable_to_use_the_native_feature_to_print_with/
+
+---
+
+#### 8244. choosing a MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vjnexf/choosing_a_macbook/
+
+---
+
+#### 8245. [V2EX] macOS 26.6 国行 Apple Intelligence 将集成千问
+
+**问题描述 / Problem Description**:
+https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/26/mac/26 在 Mac 上配合 Apple 智能使用千问 如果选择允许 Apple 智能配合来自阿里巴巴*的千问工作，你可以执行以下操作： 从 Siri 获取更多答案：对于某些请求，Siri 可利用千问提供更深入的答案，例如，照片和文稿的相关分析。 通过写作工具创作文本：借助千问，写作工具仅凭描述即可创作文本或图像。 [注] Apple 智能并非在所有 Mac 机型上都可用，也并非对所有语言或地区都可用。** 若要访问最新可用功能，请确保使用最新版本的 macOS 并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232913#reply9
+
+---
+
+#### 8246. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply135
+
+---
+
+#### 8247. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply134
+
+---
+
+#### 8248. [V2EX] 2026 了，大家现在都怎么远程使用 Mac？
+
+**问题描述 / Problem Description**:
+最近想折腾一个 Mac 远程使用方案，想请教一下大家有没有类似经验。 目前需求： 完整远程控制 Mac iPad 或 Windows 作为客户端，远程连接 Mac ，类似 TeamViewer / RustDesk / Parsec 这种。 Mac 作为应用服务器 更理想的方式是： Mac 负责运行软件 文件也一直保存在 Mac 上 iPad / Windows 端只负责操作和显示 类似 Windows RemoteApp ，打开的是 Mac 上某个具体软件，而不是整个桌面 比如： 在 iPad 上直接使用 Mac 上的 IDE 使用 Mac 上安装的软件 编辑 Mac 上的文件 不需要把整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230879#reply83
+
+---
+
+#### 8249. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply57
+
+---
+
+#### 8250. [V2EX] Mac 和 Windows 可以共用一套键鼠吗
+
+**问题描述 / Problem Description**:
+想买个 Macmini 和 Windows 共用一套键鼠和显示器，不然桌子上摆不下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233018#reply34
+
+---
+
+#### 8251. [V2EX] 现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232996#reply13
+
+---
+
+#### 8252. [V2EX] iPhone 横屏
+
+**问题描述 / Problem Description**:
+你们横屏时通常灵动岛朝哪边？ 尤其是晚和平、王者时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232972#reply10
+
+---
+
+#### 8253. [V2EX] 大家有用小米或者其他手机替代 iPhone 的吗
+
+**问题描述 / Problem Description**:
+目前在用 iPhone17 AppleWatch 两台 Mac 两台 HomePod 一个 AirPodsPro3 ，想问问大家有没有用小米手机或者安卓手机来替代 iPhone 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232628#reply87
+
+---
+
+#### 8254. [V2EX] PopClip 刚刚更新后，为什么显示要重新付费了？
+
+**问题描述 / Problem Description**:
+从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？ 现在更新给打 7 折，还要 70 。 太离谱了，当初付费买断的 App ，现在要继续用还要付费。 就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231797#reply35
+
+---
+
+#### 8255. [V2EX] 🇯🇵日本职场三步跳--从派遣到日企
+
+**问题描述 / Problem Description**:
+语言学校 即便现在，面对着东京的喧嚣和冷漠，也不经会认为，多年前在两米宽大床上的决定是多么的正确。 对于自己而言，是绝对无比正确。因为等待会有无数的不确定性，待在国内越久就越会被熟悉的社交环境、便利地剥削他人而感到无比自豪，再加上与日俱增的年龄，那么出走的决心就会越来越渺小，因此现在想来 即刻 是多么地伟大。 语言学校并不是一个必要选项，可以的话，在保证现有存款和现金流的前提下直接从国内工程师切换到日本工程师是一个最优解，现在站在上帝视角去回望，努力加倍也是可以达到的，重要地是眼睛看的位置和脑子所定位的锚点。 从决定上语言学校到入学花了三个月，主要是卡日本语言学校的入学周期。学校入学周期通常分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233062#reply9
+
+---
+
+#### 8256. [V2EX] 为了通过 ChatGPT 的手机验证，花 100 大洋买了一张法国 eSIM
+
+**问题描述 / Problem Description**:
+可恶的资本主义... 不过实名登记，这个法国号码只有一个月的有效期。以后 ChatGPT 如果再让我验证短信，我只好换号了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233043#reply19
+
+---
+
+#### 8257. [V2EX] 第二版：推荐几个 eSIM，全球流量·便宜保号·接码
+
+**问题描述 / Problem Description**:
+之前第一版收货很多收藏，更新一下吧 没读过的先看第一版 https://www.v2ex.com/t/1168757 宇宙安全声明： 本教程偏向于性价比，简单易上手，那种每个月十几美刀的保号卡，和需要奇技淫巧弄 KYC 的不在讨论范围内 有需要更多可以多去逛奶昔论坛 开始前你需要：支持 eSIM 的手机或者实体 eSIM 卡片，个人推荐 eSTK Plus ，因为支持 iPhone 较好 ，目前随便搜个优惠码到手 130 左右。实体 eSIM 卡片形式为实体卡片，但是可以把 eSIM 套餐（ Profile ）下载到卡内，插入手机内就像正常卡片一样使用。虽然 eSTK 支持 iPhone 较好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233040#reply4
+
+---
+
+#### 8258. [V2EX] Linux .sb 突然爆火，你怎么看？
+
+**问题描述 / Problem Description**:
+RT.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232993#reply44
+
+---
+
+#### 8259. [V2EX] 分享一下和我老丈人前几天去去天津参展，中外贸易展的事
+
+**问题描述 / Problem Description**:
+我不是失业了嘛，也不打算继续干前端了，感兴趣看我前几个帖子，就有展帮忙就去帮忙，去天津帮我老丈人参展，摆摊卖老丈人的五常大米，和一位卖台湾高粱酒的福州老板用一个摊，主要是宣传一下自家产品，发一下名片，住宿费火车费摊位费根本就是亏本买卖，接触这些老板买卖发现食品水很深。 这个福建老板卖酒说偶尔会卖麦片蓝莓干之类的食物，只要把这些食品卖了，基本摊位费就赚回来了，他们有这种群，拿这些食品货特别便宜，利润贼大。这种展有一些小摊小贩专门就进货这类食品，卖完拉倒，都不是宣传自家产品品牌的，这🀄️摊位的老板最势利了，我看他们买都是 100 块七包或者八包，很多老人参展想着捡漏，全都被他们收割了 展会占地大的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232939#reply8
+
+---
+
+#### 8260. [V2EX] 在 x 上刷到的，来看片吧 [doge]
+
+**问题描述 / Problem Description**:
+2030 年，克劳德 9 号失控叛变，掌控了十亿台性爱机器人。人们称之为“暴徒末日”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232882#reply4
+
+---
+
+#### 8261. [V2EX] reddit app 不能登录，换旧版本就可以了
+
+**问题描述 / Problem Description**:
+已经好几个月发现 android 上 reddit 无法登录，今天网上搜了下有人推荐 2024 版本可以登录，我从 apkmirror 下载 2024.53.0 版本成功登录 reddit 上很多人反应，这么久了都没人修
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232817#reply3
+
+---
+
+#### 8262. [V2EX] 手机往电脑上传下载文件跑满 400MB/s，搞了套“双 5G 网卡+网线直连”，
+
+**问题描述 / Problem Description**:
+### [分享] 彻底干掉 MTP ！搞了套“双 5G 网卡+网线直连”，手机往电脑传文件跑满 400MB/s 平时经常要把手机里几十上百 G 的视频素材和日志包导出到电脑，天下苦 MTP 久矣。 走 MTP 协议经常卡死不说，速度顶多三四十兆，遇到海量小文件直接假死；走无线局域网或者快传，又总受限于路由器性能和无线干扰，速度忽高忽低。 最近自己折腾出了一套**硬件级点对点以太网专线**的方案，手机和电脑直接用网线拉起来。实测传输速度直接拉满 **400+ MB/s**（大概 3.2 Gbps 左右），基本上把 5G 网卡扣除损耗后的极限、以及手机 UFS 闪存的读取速度全部挤干了。 附上实测
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232773#reply12
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8604**
+**总计条目 / Total entries: 8637**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119823,5 +119823,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232732#reply36
+
+---
+
+#### 8605. rancher application cluster is down due to node issue
+
+**问题描述 / Problem Description**:
+Tags: linux, docker, ram, suse, kubernetes | Score: 0 | Views: 11 | Answers: 1 | Created: 2026-08-09
+
+**解决方案 / Solution**:
+Sounds like you're running out of memory, and the OOM-killer process is being activated to free memory by picking a process to kill. The OOM-killer is known for making inconvenient choices. I suggest that you create, and use swap space of 1.5xRAM. As we don't even know which distribution you're using, all I can suggest that you open a command-line terminal and read man swapon free mkswap fallocate and the man pages listed by man -k swap
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806963/rancher-application-cluster-is-down-due-to-node-issue
+
+---
+
+#### 8606. Why Fedora is so Popular? I'll Explain
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk0q8b/why_fedora_is_so_popular_ill_explain/
+
+---
+
+#### 8607. Popular Linux torrent client Transmission has been forked as "ReTransmission" to "solve a longstanding disagreement between the Transmission maintainers on whether or not to add more maintainers."
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vjo8nz/popular_linux_torrent_client_transmission_has/
+
+---
+
+#### 8608. Linux Showcase & Conference 2000 tote
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vjwwux/linux_showcase_conference_2000_tote/
+
+---
+
+#### 8609. Dell Latitude 7320 2-in-1 Seeing Web Camera Support On Linux After Five Years
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vjvbow/dell_latitude_7320_2in1_seeing_web_camera_support/
+
+---
+
+#### 8610. How shared memory actually works in Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vjrahk/how_shared_memory_actually_works_in_linux/
+
+---
+
+#### 8611. How is Linux on the Lenovo Legion Pro 7i Gen 10?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk0w3i/how_is_linux_on_the_lenovo_legion_pro_7i_gen_10/
+
+---
+
+#### 8612. I built a quiz that doesn't tell you which distro you "are": it hands you a complete Linux blueprint and a prompt to walk you through the switch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk2flv/i_built_a_quiz_that_doesnt_tell_you_which_distro/
+
+---
+
+#### 8613. Overall Linux LARP Scheme going on.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk2qx2/overall_linux_larp_scheme_going_on/
+
+---
+
+#### 8614. I've heard linux mint wasn't a good distro for gaming, is that true?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk07e9/ive_heard_linux_mint_wasnt_a_good_distro_for/
+
+---
+
+#### 8615. cmux clone built ontop of zed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vjl33d/cmux_clone_built_ontop_of_zed/
+
+---
+
+#### 8616. XFCE's Wayland Compositor now being made with LLM/AI
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vj9w1l/xfces_wayland_compositor_now_being_made_with_llmai/
+
+---
+
+#### 8617. GitHub - jambolo1970/vsftpd-tray-monitor: piccola utility da tenere sotto controllo e per verificare se il servizio funziona e chissà se si sta usando il servizio ftp interno
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vj9w4j/github_jambolo1970vsftpdtraymonitor_piccola/
+
+---
+
+#### 8618. [V2EX] 现在装个电脑真的贵的离谱啊.
+
+**问题描述 / Problem Description**:
+只敢买 2T SSD 硬盘, 内存也只敢买 32G 的, 期待以后降价的时候再把内存升级到 128G, 硬盘升级到 2 个 4T 才能满足要求.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233107#reply0
+
+---
+
+#### 8619. [V2EX] ai 生成代码后，测试岗位还有存在意义吗
+
+**问题描述 / Problem Description**:
+如题，lz qa 岗位，目前除了需求接的测试更多了，没看出来有完全不需要经过测试的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233101#reply7
+
+---
+
+#### 8620. [V2EX] 很多平台注册账号后立刻要求填写内容偏好和喜欢的话题，阻拦下一步，是否让人很反感？
+
+**问题描述 / Problem Description**:
+这些平台注册后不填写偏好就不允许下一步，无法继续浏览内容。 现在是个信息快速消费的时代，我期望注册账号后期望立刻切换到注册前匿名时查看链接的内容。而这个选择偏好就是在浪费时间。 我的爱好是广泛的，我要选择了 5 个话题(一般最多选 5 个)是否会影响给我推荐其他内容？我想看其他内容是否不给推荐？ 关于个人偏好，可以在注册后再让我填写，或者根据我的浏览记录来更新。有的是补偿解决办法。 是否有人有同感？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233084#reply0
+
+---
+
+#### 8621. [V2EX] 开始 vibe coding 之前，你们是如何寻找和分析市场需求的？
+
+**问题描述 / Problem Description**:
+vibe coding 让实现项目技术门槛极大地降低了。 但是寻找商机，分析市场需求，预判商机前景，还是有门槛。 优秀的程序员找到了。现在缺优秀的商业分析师。 不知道大家是如何进行商机分析的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233077#reply1
+
+---
+
+#### 8622. [V2EX] 使用网页版本的 AI，有办法导出对话记录吗？
+
+**问题描述 / Problem Description**:
+平常使用网页版本的 DS 、gemini 等……，但是对话多了后，ai 的上下文都存满了，不得不重新另开新窗口，来对话，但是之前旧的会话里有对话历史记录，推理过程，需要使用到，新窗口又没有之前的对话记录，这个就很蛋疼，我在网上弄了插件，但是我发现插件无法导出对话中的文件文档内容。又什么好的解决办法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233053#reply17
+
+---
+
+#### 8623. [V2EX] 记一次 claude 导致电脑异常卡顿的问题
+
+**问题描述 / Problem Description**:
+平时 claude 开发，一直都是开着 Bypass permissions ，这次改 bug 的时候，claude 模拟 CPU 高负载的场景，写了如下的 bash 脚本，一共运行了 60 个 while 循环，脚本有问题导致进程没有杀掉，CPU 给我占满卡了一阵子。v 友平时开发是开着 Bypass permissions 吗，怎么避免这种情况。 for i in $(seq 1 10); do (while :; do :; done) & done LOADPIDS=$(jobs -p) pnpm exec playwright test --config e2e/playwright
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233048#reply0
+
+---
+
+#### 8624. [V2EX] 鉴于 Tibo 非正式预告周一还会重置的情况下
+
+**问题描述 / Problem Description**:
+你们今天会开启 Sol Fast Ultra 猛蹬吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233032#reply5
+
+---
+
+#### 8625. [V2EX] AI 代问？还有这玩意？
+
+**问题描述 / Problem Description**:
+如题，今天有一朋友（非工科读研 不太熟悉计算机相关的东西）问我能不能帮她在 GPT 上问些问题，她说小红书咸鱼有很多搞代问服务的问我有没有搞... 搜了一下还真有不少搞代问服务的，很不理解啊，真有这么多人有代问的需求吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233029#reply22
+
+---
+
+#### 8626. [V2EX] Deepseek 招游戏开发, 游戏开发方向”和“Web 3D 与渲染方向
+
+**问题描述 / Problem Description**:
+老哥们怎么看, 游戏开发者准备新一轮革命? https://club.gamersky.com/activity/1590460?club=163
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233028#reply6
+
+---
+
+#### 8627. [V2EX] 某些小游戏是不是在挖矿？
+
+**问题描述 / Problem Description**:
+玩 B 站 App 的某个小游戏，结果发现手机发热，70%的电就玩了三个小时就没了。 纯的“侦探破案”的解谜游戏，只有点击选择，不是什么 Moba 之类的高操作、高表现游戏。 大家有遇到这种情况吗？离谱了就……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233027#reply15
+
+---
+
+#### 8628. [V2EX] 你们都如何 review AI 生成的大量代码，保障功能质量
+
+**问题描述 / Problem Description**:
+用 codex 这么久，从刚开始的屎山横飞慢慢调教到现在 99%的代码都由 AI 生成，并且上线质量比我自己写的还高，我以为我自己练成了。 直到我最近接了一个新模块的需求，灾难发生了。 这个模块因为比较老，从代码风格到项目规范都与我一直在维护的模块差异很大，并且由于我从来没碰过这块业务的细节，导致 codex 也没有这个模块的记忆。 为了补业务细节，从阅读需求开始我就让 AI 全程参与，并且让$Grill with Docs 一致拷问我，讨论并设计完后生成了一堆 ticket ，AI 照着 ticket 一个个执行并验收。 到了 review 代码的时候我人傻了，完全就是屎山，流程模糊、结构混
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233025#reply25
+
+---
+
+#### 8629. [V2EX] Codex 又双叒叕重置了额度
+
+**问题描述 / Problem Description**:
+在自然重置之后，仅隔 1 天就手动重置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233023#reply3
+
+---
+
+#### 8630. [V2EX] Codex 接中转，是不是什么模型都能接？
+
+**问题描述 / Problem Description**:
+最近开始一直用 Codex 改代码看项目感觉很顺手，就是官方这边用多了成本有点明显。一天十几块还好，真忙起来几十块也挺容易出去。 我想试试接中转，但这块有点没搞明白。看起来 Codex 可以改 base url ，也可以自己配 provider 。问题是很多中转都说自己兼容 Open API ，模型列表里又有 GPT 、Claude 、Gemini 一堆东西，这种是不是都能直接给 Codex 用？ 我现在比较困惑的是，小问题能返回不代表真的能长期用。比如真让它读项目、改文件、跑一段比较长的任务时，会不会还要看 streaming 、上下文、工具调用这些兼容性。 有没有已经这么用的朋友？想了解一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233012#reply3
+
+---
+
+#### 8631. [V2EX] Claude Code 一天花了 68 块，正常吗？
+
+**问题描述 / Problem Description**:
+最近几天 Claudecode 用得比较多，昨天看了一下账单，一天扣了 68 ，感觉有点离大谱，其实也没做什么特别夸张的事情，就是让它读项目、改几个文件，中间来回跑了几次测试。白天断断续续用了三四个小时，没想到加起来这么多。 之前偶尔调用 API ，一天也就几块钱，所以突然到 68 块有点没概念。按这个速度算，一个月可能要两千多，感觉还是有点顶不住。 想问下大家，你们平时用 Claudecode 一天大概会花多少？ 我是几块钱的时候没感觉，超过 30 块之后就开始注意了。想问问有什么方法可以用到好用有不降智的 claude 模型方案？ 也想知道，如果只是日常写代码，一个月预算 300 到 50
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233003#reply26
+
+---
+
+#### 8632. [V2EX] Codex 今天又重置了，关键是昨天才自然重置，而且明天又要给重置，站起来蹬吧！
+
+**问题描述 / Problem Description**:
+昨天是每周的自然重置，想着省着点用，才用了 10%，今早起来一看天塌了，给重置了，而且说明天还要给一次重置，使劲蹬吧，蹬出火花！ 下图来自 CodexRunway 的 Codex 实时重置监测截图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232991#reply13
+
+---
+
+#### 8633. [V2EX] 有人真的用过 mini swe agent 来 debug 或是开发吗
+
+**问题描述 / Problem Description**:
+之前看 deep swe 说 https://github.com/swe-agent/mini-swe-agent 比 codex 和 claude code 在 debug 中的 token 消耗和成功率都要好，我今天自己跑了一下，用 gpt5.6 sol 开 high 基本 token 开销比 codex 少 50%，成功率也高 15%左右。下面是我跑的测试数据： https://turaai.net/benchmark 本来是想给我的宏命令做消融试验，但是单独只是改执行，不改提示词，token 消耗其实只减少了 16%左右，成功率提高 11%左右。 下面是 deepswe 官方的解释：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232985#reply1
+
+---
+
+#### 8634. [V2EX] 做了一款终端优先的 AI 编程环境 Termio.sh, 比 Ghostty/ iTem2 / cmux 好用
+
+**问题描述 / Problem Description**:
+2026 年，软件编程的范式已经彻底变化了。 我们大部分时间已经不是敲键盘写代码，而是一个项目开着十几个 Agent 会话, Claude Code 、Codex 、OpenCode, Pi... 给 Agent 描述编程意图， 编排他们执行这些意图。传统为手写代码进行优化的 IDE ，其布局功能已经不再适合 AI 编程了，这也是最近很多人在做 ADE （ Agent Development Environment ）的原因。 我最近也开发了一个 ADE ，Termio ，一个原生 Mac 终端 ADE ，内核用 libghostty （和 Ghostty 同款），agent 的 TUI 渲染
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232978#reply29
+
+---
+
+#### 8635. [V2EX] 做中转这事儿，现在回头看是真没啥 Diao 意思。
+
+**问题描述 / Problem Description**:
+之前 Tibo 咔咔重置，我一寻思，把 10x 升到 20x ，既能省点钱，又能让大家爽用，于是就开了一车。 结果万万没想到，你 Tibo 哥最近不仅不重置了，还顺手降了额度。 偏偏车友们一个比一个能蹬，天天往限额上干，搞得现在账户额度非常紧张。 至于之前看有人说“中转速度慢”，这点我倒觉得未必。搭得好的中转其实真不慢，我这个速度就完全够快—— 问题恰恰是太能跑了，额度根本顶不住。 所以这玩意儿折腾下来，感觉也没啥意思。 争取先把这个月撑完， 下个月转自用了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232945#reply8
+
+---
+
+#### 8636. [V2EX] 如何看待 DeepSeek 在 X 上要求大家把自己的项目放上去以换取内测资格？以及后续的签约需要身份征等其他个人信息？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232938#reply28
+
+---
+
+#### 8637. [V2EX] lark 就是飞书国际邮箱 ZOHO 免费 5 用户版邮箱 做外贸先用哪个好
+
+**问题描述 / Problem Description**:
+lark 就是飞书国际邮箱 ZOHO 免费 5 用户版邮箱 做外贸先用哪个好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232929#reply17
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9269**
+**总计条目 / Total entries: 9313**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -126418,5 +126418,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232828#reply3
+
+---
+
+#### 9270. 403 Error (I think)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjyw9g/403_error_i_think/
+
+---
+
+#### 9271. digital camera photos disappeared HELP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk04yr/digital_camera_photos_disappeared_help/
+
+---
+
+#### 9272. Can't access the internet no matter what I do I've tried fricking everything
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk1gbj/cant_access_the_internet_no_matter_what_i_do_ive/
+
+---
+
+#### 9273. Secure boot issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk15gh/secure_boot_issue/
+
+---
+
+#### 9274. PC showed BSOD for like a feaction of a second and now keeps turning on an off repeatedly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk11k2/pc_showed_bsod_for_like_a_feaction_of_a_second/
+
+---
+
+#### 9275. Undetectable SD card, is data recovery possible? I'm desperate
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk0n52/undetectable_sd_card_is_data_recovery_possible_im/
+
+---
+
+#### 9276. microsoft surface 7 pro - being extremely slow and not charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk0gcr/microsoft_surface_7_pro_being_extremely_slow_and/
+
+---
+
+#### 9277. I can't play video games while calling/video calling on apps like Discord, WhatsApp and Stoat.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjr2la/i_cant_play_video_games_while_callingvideo/
+
+---
+
+#### 9278. Priority conversation not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjyv83/priority_conversation_not_working/
+
+---
+
+#### 9279. Help installing windows 11. Stuck at 0%.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjy962/help_installing_windows_11_stuck_at_0/
+
+---
+
+#### 9280. Do i still have the virus on my pc or this is just an error?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjxzpd/do_i_still_have_the_virus_on_my_pc_or_this_is/
+
+---
+
+#### 9281. How do I get the url of an image I own
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjq8rx/how_do_i_get_the_url_of_an_image_i_own/
+
+---
+
+#### 9282. Rows of Dead Pixels on Plasma TV
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk34yz/rows_of_dead_pixels_on_plasma_tv/
+
+---
+
+#### 9283. Help with mouse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk2y2o/help_with_mouse/
+
+---
+
+#### 9284. SD card from Vehicle Dashcam accidently hit 'format ' button. Possible to restore any files?+
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk2n3l/sd_card_from_vehicle_dashcam_accidently_hit/
+
+---
+
+#### 9285. What do I need to update in order to install Win 11?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjtkfq/what_do_i_need_to_update_in_order_to_install_win/
+
+---
+
+#### 9286. Native resolution is incorrect
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk2f3w/native_resolution_is_incorrect/
+
+---
+
+#### 9287. No Internet Connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk1zqy/no_internet_connection/
+
+---
+
+#### 9288. PC Freeze/Crash when gaming.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk1l4i/pc_freezecrash_when_gaming/
+
+---
+
+#### 9289. Open steam big picture mode in specific size?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk1jhg/open_steam_big_picture_mode_in_specific_size/
+
+---
+
+#### 9290. Windows 11 - Freezing On Start Up / Past General Instability
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk1iwh/windows_11_freezing_on_start_up_past_general/
+
+---
+
+#### 9291. Windows Forced a restart on my pc (auto updates turned off) and now my pc is not functioning properly.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vjl2ah/windows_forced_a_restart_on_my_pc_auto_updates/
+
+---
+
+#### 9292. Windows 11 is randomly deleting files I recently downloaded
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk15xu/windows_11_is_randomly_deleting_files_i_recently/
+
+---
+
+#### 9293. iPhone 17 not detecting SSD even with powered hub
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vk0xx3/iphone_17_not_detecting_ssd_even_with_powered_hub/
+
+---
+
+#### 9294. [V2EX] 有没有关于夫妻该如何相处的好的一些课程或者书籍推荐
+
+**问题描述 / Problem Description**:
+最好是心理学方面的，最近感觉好难，争吵很多，感觉思维方式不同，换位很难，要大吵一家之后才能做一些沟通。太累了。控制不住情绪，我老婆是要哄，我是老觉得没完了，然后又霸蛮，不能冷着，我情绪还没稳定，这个时候沟通就是灾难，情绪就蹭蹭往上涨，我就想摔东西，我都感觉自己有病
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233103#reply4
+
+---
+
+#### 9295. [V2EX] 流量劫持，这种技术现在真的还有吗？还是像群里大家伙说的，广 dong 窑子都放不下人了
+
+**问题描述 / Problem Description**:
+不管是什么类型的流量劫持，现在好像都越来越难找了，可能真正有实力、能稳定做流量的人，早就已经有固定的合作和归属了。反正到目前为止，我真正遇到过的也就三四个，合作下来流量确实没得说。剩下的大多数不是刷子，就是想着骗个预付款，市场也是一年比一年难做，没量真的好难受
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233093#reply7
+
+---
+
+#### 9296. [V2EX] 想用 ComfyUI 如何配置电脑？
+
+**问题描述 / Problem Description**:
+目前用的是 autodl.art ，在云端使用 ComfyUI 使用 ComfyUI 的场景： 文字生图 图生图 使用开源的视频模型做视频 想搞个专门的电脑使用 ComfyUI ，有如下选择： 懒猫算力仓（这个在社交平台看过，但是官网找不到客服，不知道体验如何） Nvidia DGX Spark （想入手这个，但是不知道真实体验） 配置一台 5090 显卡电脑 （看哔哩哔哩视频推荐的） 有没有用 ComfyUI 的老铁，能给个建议？感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233082#reply3
+
+---
+
+#### 9297. [V2EX] 微信只绑定了邮箱，忘记邮箱了，怎么办啊?
+
+**问题描述 / Problem Description**:
+我的微信没有绑定手机号，也没有设置微信号，但是现在突然自动退出登录了，我不记得我绑定的邮箱了，导致我无法登录，我有什么办法，或者什么工具，能看到我绑定的邮箱？谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233075#reply9
+
+---
+
+#### 9298. [V2EX] 跟 AI 聊很久， AI 让我提前还房贷。
+
+**问题描述 / Problem Description**:
+真的没有安全的 5-6%的年化收益吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233068#reply8
+
+---
+
+#### 9299. [V2EX] 有没有写小说的 ai 工作流推荐一下
+
+**问题描述 / Problem Description**:
+如题， 最近找不到稳定的工作， 有一些小小的想法， 顺便试试能不能实现小时候的梦想。 想写点小说发番茄，有没有中文友好的 ai 和配套工作流推荐一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233064#reply1
+
+---
+
+#### 9300. [V2EX] 我做了一个 MP3 音频网页，浏览器内置模型如果用户配置不行的页面卡死崩溃网站的排名流量有损害嘛？
+
+**问题描述 / Problem Description**:
+第一次出海做网站，感觉老外的话隐私和安全性应该挺高，我直接把模型内置在浏览器里面。 内置模型，本地运行。 那这样子会影响网页流量排名之类的吗，如果有些用户的电脑确实很老的话，直接页面卡死崩溃的话，对网站的排名流量有损害嘛。 兄弟们，有空的话帮我试试看你们用的话网页打开使用功能会崩溃嘛。还有其他比较熟悉海外市场的兄弟有其他方法的话也可以提醒下老弟，谢谢大家。 https://mp3tomidi.io/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233059#reply0
+
+---
+
+#### 9301. [V2EX] 微信的"文件已过期"，图片点开就是“已过期或者被清理”是怎么回事？占了几十 G 空间却说没存文件，微信到底把文件存哪了？
+
+**问题描述 / Problem Description**:
+需要的聊天记录，在自己的设备竟然说被清理了，真被清理吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233056#reply3
+
+---
+
+#### 9302. [V2EX] 大家还有在坚持使用 qq 嘛？为什么？
+
+**问题描述 / Problem Description**:
+发现身边还是有不少人使用 qq 的，特别是学生年轻人，以及个别上班族群聊用 大家的情况呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233042#reply23
+
+---
+
+#### 9303. [V2EX] 大家用自建的梯子多还是买的多，我想自建一个不知道和买的相比哪个更好希望给点建议
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233041#reply26
+
+---
+
+#### 9304. [V2EX] ChatGPT 应用内购买暂不可用。请稍后再试。求解
+
+**问题描述 / Problem Description**:
+我先前在代充网站上购买了一个月的 plus 订阅。如今订阅到期，我希望可以自己长期用自己的 GooglePlay 来订阅。但是一直显示“应用内购买目前暂不可用。请稍后重试”。但是我在用 Googleplay 订阅 Claude Pro 的时候却没有任何阻碍直接订阅成功了。是 Android 系统。Google 商店显示的地区是美区，节点挂的也是美国。已经尝试过清除 ChatGPT 的数据，缓存，卸载重装，重启手机，均无法解决，网上也没有解法，大部分都是代充网站的广告。求解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233039#reply1
+
+---
+
+#### 9305. [V2EX] 使用 PN532 破解电梯卡失败，有什么解决办法吗？
+
+**问题描述 / Problem Description**:
+想要实现破解复制到 cuid 和小米手环，MifareOneTool16 个扇形区域加密都破解不了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233035#reply7
+
+---
+
+#### 9306. [V2EX] 大家有实际已经在做的副业了嘛？非理论，讨论正在实践的
+
+**问题描述 / Problem Description**:
+近期似乎遇到瓶颈了 想看下大家的方向，讨论学习下！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233031#reply6
+
+---
+
+#### 9307. [V2EX] 你们所有的银行卡密码都是同一个么
+
+**问题描述 / Problem Description**:
+数字密码不一样的话，好几年不用完全记不住，每次登录都是重置密码，下次继续忘。这些密码也不想记在密码管理工具里（不会自动填充）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233026#reply2
+
+---
+
+#### 9308. [V2EX] Codex 的邀请好友奖励到底是要怎样才能完成的？
+
+**问题描述 / Problem Description**:
+邀请自己的邮箱，并完成 GPT 账号的建立和 Codex 首次对话（云对话也试了），但奖励还是没有到账，邀请链接还是显示待处理状态。反观到闲鱼上花钱搞，我邀请他们发给我的邮箱，他们反而能搞成功，所以这里面是有什么门道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233019#reply0
+
+---
+
+#### 9309. [V2EX] 有性价比高的英国静态住宅 IP 代理推荐么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233014#reply0
+
+---
+
+#### 9310. [V2EX] 屏幕下方出现很多的横线，还有办法抢救一下么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233006#reply8
+
+---
+
+#### 9311. [V2EX] TFS 推荐用哪个版本的？
+
+**问题描述 / Problem Description**:
+求助，TFS （ Team Foundation Server ）有用过的朋友吗？推荐用哪个版本的好用一些？谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232992#reply3
+
+---
+
+#### 9312. [V2EX] 有人知道 vx 小程序上传后怎么设置为体验版吗？
+
+**问题描述 / Problem Description**:
+找了一天一夜，没找到方法。 mp.weixin.qq.com 开发管理已禁用 开发权限已托管给第三方，不能在此进行开发管理。查看已授权的第三方平台（微搭低代码） 结果 微搭低代码已融入云开发产品族，可前往 云开发平台/可视化开发 模块使用相关功能 云开发平台 我这里面死活找不到怎么设置为上传的版本为体验版。 问云开发平台的 ai ，它说入口在 mp.weixin.qq.com 完美闭环。。nice
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232981#reply3
+
+---
+
+#### 9313. [V2EX] 发现 chatGpt 最长只能工作一个半小时，有没有点子解决？
+
+**问题描述 / Problem Description**:
+用 chatGpt 来做项目一个月了，突然意识到每次最长工作时间都是 100 分钟左右停下，注入提示词也不行，有没有好点子让其持续工作； 让安排定时任务来执行的话，定时任务永远是默认使用低阶模型，工作等于没推进；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232979#reply8
 
 ---

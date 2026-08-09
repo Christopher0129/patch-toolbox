@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2739**
+**总计条目 / Total entries: 2742**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -50031,5 +50031,53 @@ Apply patch from vendor. Monitor https://cna.erlef.org/cves/CVE-2026-42792.html.
 - https://github.com/erlang/otp/security/advisories/GHSA-h6f3-hx58-xhj6
 - https://osv.dev/vulnerability/EEF-CVE-2026-42792
 - https://www.erlang.org/doc/system/versions.html#order-of-versions
+
+---
+
+#### 2740. CVE-2026-19155 - chromium-browser: Chromium: Sandbox escape via use-after-free in Payments
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Sandbox escape via use-after-free in Payments. Bugzilla: 2512345
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512345
+
+---
+
+#### 2741. CVE-2026-71438 - mermaid: Mermaid: Prototype pollution vulnerability via configuration APIs
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mermaid: Mermaid: Prototype pollution vulnerability via configuration APIs. Bugzilla: 2512216
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512216
+
+---
+
+#### 2742. CVE-2026-71437 - mermaid: Mermaid: Prototype pollution vulnerability allows potential arbitrary…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mermaid: Mermaid: Prototype pollution vulnerability allows potential arbitrary code execution. Bugzilla: 2512224
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512224
 
 ---
