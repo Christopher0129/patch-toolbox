@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1101**
+**总计条目 / Total entries: 1102**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -17547,5 +17547,20 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-64578
+
+---
+
+#### 1102. CVE-2026-13133
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+A vulnerability has been identified in LineInst.exe (LINE for Windows) prior to version 26.4.0, where Msftedit.dll is loaded via a relative path without a secure DLL search path, allowing a malicious DLL placed in the installer's directory to be loaded ahead of the legitimate System32 copy.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://line.github.io/security-advisory-blog/CVE-2026-13133/.
+
+**参考链接 / References**:
+- https://line.github.io/security-advisory-blog/CVE-2026-13133/
 
 ---

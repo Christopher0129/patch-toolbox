@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 918**
+**总计条目 / Total entries: 923**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13408,5 +13408,65 @@ Notepad3 through 6.25.822.1 contains a DLL search-order hijacking vulnerability 
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52626
+
+---
+
+#### 919. [webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52633
+
+---
+
+#### 920. [local] Microsoft Edge 150.0.4078.48 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Microsoft Edge 150.0.4078.48 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52632
+
+---
+
+#### 921. [webapps] CorgetGpsDget 2_3.2 - OS Command Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CorgetGpsDget 2_3.2 - OS Command Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52631
+
+---
+
+#### 922. [webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52630
+
+---
+
+#### 923. CVE-2026-13133
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+A vulnerability has been identified in LineInst.exe (LINE for Windows) prior to version 26.4.0, where Msftedit.dll is loaded via a relative path without a secure DLL search path, allowing a malicious DLL placed in the installer's directory to be loaded ahead of the legitimate System32 copy.
+
+**参考链接 / References**:
+- https://line.github.io/security-advisory-blog/CVE-2026-13133/
 
 ---

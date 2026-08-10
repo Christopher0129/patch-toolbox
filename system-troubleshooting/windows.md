@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9313**
+**总计条目 / Total entries: 9359**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -126990,5 +126990,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232979#reply8
+
+---
+
+#### 9314. How to change font and colors in Powershell 7?
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-11, fonts, colors | Score: 1 | Views: 30 | Answers: 1 | Created: 2026-08-10
+
+**解决方案 / Solution**:
+By default in windows 11, terminal applications like Powershell use the same application: Windows Terminal There are two main places to change the colors in WT: In Settings ( Ctrl+, ) > Color Schemes > Edit the specific colors in a named color scheme In Settings > under Profiles > choose the profile to edit > Appearance > select which color scheme to use on that profile, and see which colors apply to different types of syntax
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939587/how-to-change-font-and-colors-in-powershell-7
+
+---
+
+#### 9315. Repair shop gave me a 65W charger instead of 130W and says 130W damaged my previous battery circuit. Is this correct?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkgem0/repair_shop_gave_me_a_65w_charger_instead_of_130w/
+
+---
+
+#### 9316. 7th gen iPad not turning on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxkt0/7th_gen_ipad_not_turning_on/
+
+---
+
+#### 9317. PC keeps crashing at random intervals without any error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkx9tv/pc_keeps_crashing_at_random_intervals_without_any/
+
+---
+
+#### 9318. Windows 11 - I keep having to manually update/refresh explorer for changes to appear
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkwprc/windows_11_i_keep_having_to_manually/
+
+---
+
+#### 9319. Radeon RX 7800XT potentially dying?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vku508/radeon_rx_7800xt_potentially_dying/
+
+---
+
+#### 9320. Black Screen While gaming or watching videos.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vktp4a/black_screen_while_gaming_or_watching_videos/
+
+---
+
+#### 9321. Realtek 8821CE wifi driver won't let me on the 5GHz band
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkzb22/realtek_8821ce_wifi_driver_wont_let_me_on_the/
+
+---
+
+#### 9322. The WiFi on my pc decided to not
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkz799/the_wifi_on_my_pc_decided_to_not/
+
+---
+
+#### 9323. Black Screen after Clean Windows Installation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkz53a/black_screen_after_clean_windows_installation/
+
+---
+
+#### 9324. I have this weird streak mark on my screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkz3pe/i_have_this_weird_streak_mark_on_my_screen/
+
+---
+
+#### 9325. laptop randomly dying without warning - battery possibly dying?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkz32w/laptop_randomly_dying_without_warning_battery/
+
+---
+
+#### 9326. Audio Technica ATH-CLR100iS wired headphone came... unplugged?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkymle/audio_technica_athclr100is_wired_headphone_came/
+
+---
+
+#### 9327. Norton Anti-virus Alert pop-up can't be closed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vky1h2/norton_antivirus_alert_popup_cant_be_closed/
+
+---
+
+#### 9328. My Pc bluescreens and restarts when I’m playing sea of thieves for a little
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vky1c5/my_pc_bluescreens_and_restarts_when_im_playing/
+
+---
+
+#### 9329. My IPhone charges with American lightning cables but not New Zealand ones?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vko2r6/my_iphone_charges_with_american_lightning_cables/
+
+---
+
+#### 9330. No more secure boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxumh/no_more_secure_boot/
+
+---
+
+#### 9331. Windows 11 25H2 suddenly lost 4K output on all external displays Intel iRIS Xe
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxquh/windows_11_25h2_suddenly_lost_4k_output_on_all/
+
+---
+
+#### 9332. Lenovo ideapad C340
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxkap/lenovo_ideapad_c340/
+
+---
+
+#### 9333. New PC instantly restarting/freezing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxiq2/new_pc_instantly_restartingfreezing/
+
+---
+
+#### 9334. was wondering if someone could diagnose my pc problem.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxfma/was_wondering_if_someone_could_diagnose_my_pc/
+
+---
+
+#### 9335. Ethernet does not work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxejc/ethernet_does_not_work/
+
+---
+
+#### 9336. Starforge Lab Prebuilt Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxece/starforge_lab_prebuilt_issues/
+
+---
+
+#### 9337. PlayStation 5 is saying to clear up space when i have enough space
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkxdra/playstation_5_is_saying_to_clear_up_space_when_i/
+
+---
+
+#### 9338. The network card drivers are not working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vkr6b5/the_network_card_drivers_are_not_working/
+
+---
+
+#### 9339. [V2EX] Windows 下图片标注工具没有一个好用的
+
+**问题描述 / Problem Description**:
+不是大包大揽，就是功能复杂，或者操作流程非常繁琐 有没有一款类似早年印象笔记剪藏（如果我没记错）那样的图片编辑工具？ 截图（可没有） -> 画框 -> 文字 -> 画箭头 -> 保存
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233388#reply2
+
+---
+
+#### 9340. [V2EX] 刚刚换手机登陆电报用的 gv 号，要手 1 美元才能登陆，你们也这样吗？
+
+**问题描述 / Problem Description**:
+电脑登陆了也不行，以前还可以电脑上收到验证码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233373#reply7
+
+---
+
+#### 9341. [V2EX] 大家来推荐最适合本地翻译的 LLM 模型
+
+**问题描述 / Problem Description**:
+最近发现本地 LLM 一个很好的玩法，就是 10B 以下的小模型配合翻译的中间 app ，配合自定义 prompt 可以达到非常快捷翻译与学习外语的目的。 想问问大家，有什么好的小模型推荐呢？大于 10B 的就不要推荐了，笔记本就 16GB 内存跑不动。。。 目前我用的 gemma4 e4b ，效果还行。不知道还有没有更好的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233366#reply0
+
+---
+
+#### 9342. [V2EX] 5G 随身 WIFI+移动大流量卡，梯子间歇性抽风
+
+**问题描述 / Problem Description**:
+抽风的时候所有节点全红，手机 5G 联通和宽带都没有这个问题，有没有佬们知道怎么解决吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233361#reply8
+
+---
+
+#### 9343. [V2EX] 请问 codex 如果调用 deepseek 大模型的话需要翻墙吗
+
+**问题描述 / Problem Description**:
+是开始登录的时候需要，后面不需要。还是一直需要？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233359#reply0
+
+---
+
+#### 9344. [V2EX] vibe 了一个 wx 小程序，大家看看，给给建议
+
+**问题描述 / Problem Description**:
+名画不值钱，值钱的是背后的故事；我的小程序也有一个小故事。16 年毕业的时候，我北漂去的第一家公司，一个创业团队，没几个人，那阵也都在说大众创业，万众创新，所以我也觉得创业团队可能会给我一个惊喜，最终虽然没赚到钱，但是却有惊喜。 惊喜来自我的老板，是一个长相非常好看的一个 30 多岁、知性大方，有种胸怀天下、胸有大志的的美女老板。记得很清楚当时在北京我的月薪只有 4k ，房租交完，伙食都不够，但是就因为这个美女老板（可能是因为创业团队没几个人，我又是她来带），所以中午和晚上经常一起吃饭，省下了我吃饭的费用，那米饭后面再也没吃到过，因为真的很软。偶尔老板会去和客户吃吃饭，而且晚饭真的是晚饭，吃完
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233353#reply1
+
+---
+
+#### 9345. [V2EX] 英国人真是不要脸啊， giffgaff 将我的余额直接清空了
+
+**问题描述 / Problem Description**:
+之前收到停止服务的邮件，我去 ombudsman-services.org 做了投诉，状态至今仍是：Your case is waiting to be assigned 。 今天登陆账号，我的余额直接被清空了。 果然强盗的国家还是一贯的风格。 不心疼这点钱，还是被英国人上了一课。 之前 tello 封号，但退款也是秒退的，这样对比，美国人还是有契约精神的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233326#reply3
+
+---
+
+#### 9346. [V2EX] V 友有什么值得办公室用的鼠标吗？有线/无线均可
+
+**问题描述 / Problem Description**:
+希望价格在 100~200 间，然后有 侧边键（浏览网页啥的时候感觉非常方便）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233323#reply7
+
+---
+
+#### 9347. [V2EX] 梯子机场都支持支付宝、微信支付，收款方都是注册国内的公司，这合理么，不怕翻车么？还是说有专门的经营许可特权？有知道其中门道的么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233320#reply18
+
+---
+
+#### 9348. [V2EX] 低谷期你们会做什么？
+
+**问题描述 / Problem Description**:
+身体，精神或经济上的低谷
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233297#reply24
+
+---
+
+#### 9349. [V2EX] 你们的车还能卖多少钱？
+
+**问题描述 / Problem Description**:
+感觉最近几年，车的价格下降的很厉害，你们的油车、新能源都还值多少钱。会准备开到报废吗？ 我 17 年的速腾，落地快 15W ，24 年 4.1W 卖给个人（车商 3.5W 收）。 24 年的领克 08 ，落地 20W ，现在估计 12W 左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233286#reply88
+
+---
+
+#### 9350. [V2EX] GLM 用什么好的 cli 方案吗?Claude code 的话太麻烦了,缓存命中率也不高的吧,GLM 怎么自己不出一个 Cli
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233280#reply1
+
+---
+
+#### 9351. [V2EX] 问下有没有 V 友在做外贸或者跨境的，有用到 ai 用具吗？
+
+**问题描述 / Problem Description**:
+我年初领了礼包，岁数比较大就没有再找工作了，正好媳妇是做外贸的，我就帮她一起做。感觉也没那么好做，主要平台是阿里国际站，现在阿里国际站感觉大客户少了很多，很多都是 2C 的，还有很多垃圾询盘。所以做了一个独立站，开发部署，到现在上架，写技术文章都是通过 codex 。然后开发了一个 1688 、淘宝商品采集的插件，后面又加上了商机分析和翻译的功能。 想问下有没有 V 友也是做外贸或者跨境电商，都是做什么平台，有用到什么 ai 工具或者其他什么工具吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233278#reply1
+
+---
+
+#### 9352. [V2EX] 融入了 AI 元素的小游戏有哪些
+
+**问题描述 / Problem Description**:
+目前市面上有哪些可玩性比较高的融入了 AI 元素的游戏呢？ 如 ai 村民，ai npc ，ai 养成之类的，或其他新奇的玩法游戏？ 或者有什么好的 ai 小游戏创意吗？市面上的那种 ai 文字选择游戏就先不说了，感觉没啥吸引力。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233271#reply0
+
+---
+
+#### 9353. [V2EX] AI 对研发效率提升到底有多大？
+
+**问题描述 / Problem Description**:
+从 Agent 出来到现在，有人说 AI 让研发效率非常大，比如 OpenAI 和 Anthropic 的那波人，说效率有翻天覆地的变化。一个人几天就能把公司的一个很复杂的项目搞定。 但是我自己体验下来，发现用相对比较好的模型（ chatgpt Sol ），或者最新的 deepseek flash v4 ，也总是磕磕绊绊的。特别是当我要写的不是一个 demo ，而是一个可以真实上线的，能稳定运行，不出错的程序，还是要花非常大的精力。 单就我最近做的一个项目来说，大概不到 10 个页面的修改（不是新增），我的需求定义还是花了将近一周，绘制了各种低保真和逻辑图，可以预见的是，也许代码两天可以让 A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233270#reply11
+
+---
+
+#### 9354. [V2EX] 各位兄弟，有奈飞拼车吗？加我一个！
+
+**问题描述 / Problem Description**:
+最近正好想看电视剧，有拼车的兄弟留个言，thanks ！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233268#reply2
+
+---
+
+#### 9355. [V2EX] 强迫症怎么治疗，有人有心得吗？
+
+**问题描述 / Problem Description**:
+女主 41 岁， 高中就开始慢慢有强迫症了。 说下症状 1 、每次洗手要 1 -2 个小时 。 2 、每次出去玩之后，回家里，会把身上穿的衣服都扔了，嫌脏， 行李要收拾 2-4 个小时。 3 、总感觉外面的东西不干净。 之前去宛平南路 600 号看过， 吃了点药会好些，现在停了， 好像变严重了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233263#reply23
+
+---
+
+#### 9356. [V2EX] Trae 采用积分制后，你们还在用吗？
+
+**问题描述 / Problem Description**:
+以前 GLM 5.2 排队都是几千名，现在积分后，都不用排队了。你们还在用 Trae 吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233261#reply0
+
+---
+
+#### 9357. [V2EX] “今年上半年人形机器人领域新设企业 11.6 万户”，火爆程度超出我的想象。
+
+**问题描述 / Problem Description**:
+新增 11.6 万户，那人形机器人领域全国到底有多少企业，这规模惊人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233258#reply4
+
+---
+
+#### 9358. [V2EX] 好奇做中转站的不担心被跨省吗？
+
+**问题描述 / Problem Description**:
+看起来中转站和做翻墙软件没区别，而且大多还用国内的收款方式，跨省易如反掌，是在赌法不责众吗？还是说已经有“合法”的方式了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233244#reply10
+
+---
+
+#### 9359. [V2EX] 高级工（三级）职业技能等级证书证书有用吗？
+
+**问题描述 / Problem Description**:
+人工智能训练师竞赛奖励： 高级工（三级）职业技能等级证书 区级技术能手认定。本次竞赛荣获一等奖、二等奖的 选手, 符合条件的认定为“富阳区技术能手”,若有不符合认定 条件的选手,不再递补；已有“富阳区技术能手”的,不再重复认 定。荣获三等奖的选手,符合条件的认定为“富阳区职工经济技 术创新能手”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233229#reply2
 
 ---

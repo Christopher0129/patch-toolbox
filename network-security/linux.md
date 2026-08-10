@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3034**
+**总计条目 / Total entries: 3037**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -45460,5 +45460,41 @@ A Cleartext Storage of Sensitive Information vulnerability in suppportutils of S
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2512224
+
+---
+
+#### 3035. CVE-2026-12372 - nltk: NLTK: Server-Side Request Forgery via improper network URL validation
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Server-Side Request Forgery via improper network URL validation. Bugzilla: 2513003
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2513003
+
+---
+
+#### 3036. [Ubuntu] USN-8592-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Hao Ren discovered that ImageMagick incorrectly handled certain images when using the wavelet-denoise operation. An attacker could possibly use this issue to trigger an out-of-bounds heap write, resulting in arbitrary code execution. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-30936) It was discovered that ImageMagick incorrectly h
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8592-1
+
+---
+
+#### 3037. [Ubuntu] USN-8626-1: systemd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that systemd-homed did not properly verify the signature of home records. A local attacker could possibly use this issue to add arbitrary system groups to a logged-in user and gain elevated privileges. (CVE-2026-16742) It was discovered that systemd-machined incorrectly handled certain polkit authorization checks. A local attacker could possibly use this issue to terminate arbitr
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8626-1
 
 ---

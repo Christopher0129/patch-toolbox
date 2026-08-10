@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8637**
+**总计条目 / Total entries: 8669**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120252,5 +120252,421 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232929#reply17
+
+---
+
+#### 8638. I never thought I’d love Linux so much
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkshqz/i_never_thought_id_love_linux_so_much/
+
+---
+
+#### 8639. Xbox PC and Game Pass games are being worked on for Linux - VideoCardz.com
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkvum3/xbox_pc_and_game_pass_games_are_being_worked_on/
+
+---
+
+#### 8640. iMessage/SMS over Bluetooth to Linux. No proxy or cloud!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkvk7w/imessagesms_over_bluetooth_to_linux_no_proxy_or/
+
+---
+
+#### 8641. I built a linux like interactive shell for the esp32
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vks2iw/i_built_a_linux_like_interactive_shell_for_the/
+
+---
+
+#### 8642. Recordings of the GNUstep online meeting of 2026-08-08 are online
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkz7nb/recordings_of_the_gnustep_online_meeting_of/
+
+---
+
+#### 8643. Linux CRU 0.2.0 - custom + stretched resolutions on Wayland (KWin, sway, Hyprland) and X11
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkhm1d/linux_cru_020_custom_stretched_resolutions_on/
+
+---
+
+#### 8644. Its Been Like 2 Weeks and I Cant Do This Anymore
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkxir6/its_been_like_2_weeks_and_i_cant_do_this_anymore/
+
+---
+
+#### 8645. Kewl tutorial I made for myself and sharing it because why not?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vkrx62/kewl_tutorial_i_made_for_myself_and_sharing_it/
+
+---
+
+#### 8646. I built a custom Linux initramfs audio workstation / software mixer for the Raspberry Pi (running entirely bare-metal/initramfs, no PipeWire/JACK)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk8sp4/i_built_a_custom_linux_initramfs_audio/
+
+---
+
+#### 8647. Microsoft vs. France
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vk9nh0/microsoft_vs_france/
+
+---
+
+#### 8648. [V2EX] 现在 Deepseek V4 和 GLM5.2 有没有比较优惠且不降智的渠道？
+
+**问题描述 / Problem Description**:
+Deepseek V4 是官方渠道比较好吗？还是 Opencode 的 5 美元月租？ GLM5.2 现在和 Deepseek V4 差距大吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233394#reply0
+
+---
+
+#### 8649. [V2EX] [开源推荐] Ante，一个以单个二进制文件形式运行的离线编码代理
+
+**问题描述 / Problem Description**:
+开源： https://github.com/AntigmaLabs/ante （欢迎感兴趣的朋友点颗 star⭐️） Ante 是一款编码代理，它以一个独立的 15MB 二进制文件的形式发布：TUI 、嵌入式 ripgrep 、本地 PDF/OCR 以及原生管理的 llama.cpp 引擎都包含在内。没有运行时依赖项，没有 node_modules ，也不需要帐户。 Ante 会安装一个经过校验和验证的、与您的机器匹配的官方 llama.cpp 构建版本（ Apple Silicon 上为 Metal ； Linux 上为 CUDA 、Vulkan 或 CPU ），并在版本更新时自动进行升级
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233391#reply0
+
+---
+
+#### 8650. [V2EX] 没想到小学毕业，也能靠 AI 做出来安卓的 APP。
+
+**问题描述 / Problem Description**:
+除了有点丑之外，基本能用， 最少能打开，能播放，就是用起来不太顺，而且功能比较单一，基本没任何功能。 别的收费 AI 还用不起，全靠那啥 XX 的免费额度做出来的， 当然也不是完全从零开始，有个简单的基本，然后结合+AI 搞出来的， 来欢迎下载观摩一下呗，观摩完就删了，免得占用你的内存，哈哈哈哈。 安全下载，放心 https://www.tucao.my/app/tucao-v2.0.4.apk 基本版是 2014 年前的， 在那基本上优化+ai 搞的， 简单预览 [img] https://www.tucao.my/uploadfile/2026/0810/20260810100736236
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233365#reply1
+
+---
+
+#### 8651. [V2EX] 吐槽，为什么 wayland 的 vscode 做的这么石
+
+**问题描述 / Problem Description**:
+linux 萌新打算从 linux 换回 window 了，两个很难受的 bug 调整代码窗口的 width 的时候代码文本会有被强制拉伸的动效 diff 时左右对比窗口，右边代码窗口的横向滚动条经常莫名消失，得把窗口关闭再重新打开才能恢复 试了 gpt 的建议，切到 x11 ，发现问题更严重，代码窗口直接全黑，只有光标所在的那一行显示代码，还是回到 window 的怀抱吧，fedora 和 endeavour+niri 很好，但只适合日用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233356#reply7
+
+---
+
+#### 8652. [V2EX] coding plan 频繁出事，用户变成韭菜，到底意欲何为
+
+**问题描述 / Problem Description**:
+看有人讨论阿里 coding plan ，这两天讯飞 coding plan 也是惨遭用户诟病，上周五开始直接拉闸限电，之前买的套餐 直接不给用了，模型全部繁忙，申请工单，直接让加群退款，工单直接标记已完成。 为何 ai 刚刚兴起，国内大厂就这么对待用户，正经买的套餐也不能正常享受权益? 到底意欲何为?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233330#reply18
+
+---
+
+#### 8653. [V2EX] 工信部投诉阿里云乱收费
+
+**问题描述 / Problem Description**:
+2015 年在阿里云买了台特价 99 一年的云服务器，默认开了快照服务，一年后没续费就释放了，但是这个快照是一直收费的，今天在认真看账单发现有个广州节点的服务一直在扣费，除了这台服务器我一直都是买的深圳节点的服务，再一查这个快照收费 11 年了，每个月扣几毛钱所以一直没发现。联系售后说把多扣的钱退给我，售后说给我一张 10 块钱的服务器限时满减券，我去尼玛的吧。虽然钱不多但这个事恶心人，我已经在工信部投诉了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233322#reply3
+
+---
+
+#### 8654. [V2EX] [词元]自从被赋予“话语权”“主权”等概念后，它已经不仅仅是一个翻译了
+
+**问题描述 / Problem Description**:
+如题，官媒多次发表类似“用 Token 还是词元，事关科技话语权”的文章。 它已经不是一个翻译的事情了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233321#reply2
+
+---
+
+#### 8655. [V2EX] 不知道大家对“词元”这个翻译，为什么反应这么大
+
+**问题描述 / Problem Description**:
+虽然“词元”出现在学术怎章里时间不太长，至少也比 gpt3 时间长吧。 type-token 的概念在语言学里都上百年了。 不知道大家吵的“词元”翻译有什么意思？ 如果不是搞 NLP 的，单拿出来 token ，谁会知道这是个“形符”？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233318#reply95
+
+---
+
+#### 8656. [V2EX] 怎么克服对为自己产品付费订阅用户感到愧疚的心理？
+
+**问题描述 / Problem Description**:
+最近一个半月做了几个 app 和网站，其中一个还可以，自然流陆陆续续有人进来订阅。 也在商店收到了一些好评。 但是个人是有一种怕没有把用户服务好，或者说有一种愧疚感， 总觉得他们竟然会为了这些功能而去付费，其实这些软件的东西，花点时间用 ai 谁都能做，有时想着迭代点新功能别让用户觉得亏了。 我这个心理是怎么回事，该怎么克服。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233311#reply23
+
+---
+
+#### 8657. [V2EX] 有 outlook 邮箱的没，你们的发邮件是否支持已读回执
+
+**问题描述 / Problem Description**:
+有 outlook 邮箱的没，你们的发邮件是否支持已读回执，我测试了几次发送钱我选择了已读回执来测试，但是我发现都没然后回执消息尼？网上查了下都是正常设置啊，怎么还是收不到已读回执。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233301#reply2
+
+---
+
+#### 8658. [V2EX] 非技术同事用 Codex 写的项目，怎么部署才能不折腾运维？
+
+**问题描述 / Problem Description**:
+最近有几个非技术部门的同事，vibe coding 他们部门内部用的项目给到技术部部署，因为楼主兼顾运维工作，每次都被这些项目折腾得够呛。 一开始为了方便部署，叫他们让 Codex 生成 docker compose 部署的方式，发压缩包给我，部署和更新我这边直接 up 即可，更新了几次慢慢发现，更新频率高，整个项目对楼主来说就是个黑盒，每次更新都要把 AI 的部署文档给捋一遍，我得先和项目作者沟通，项目作者又要和 Codex 沟通，最后也没搞成很好的部署方式……最近被这几个项目折腾得头疼不已。 有个更新频率很高的项目，我直接创建服务器用户做限制让他用 Codex ssh 进去更新，虽然那服务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233300#reply40
+
+---
+
+#### 8659. [V2EX] 简要吐槽 ai 的文档都不是 ai 友好的
+
+**问题描述 / Problem Description**:
+今天想试试 seedance2.5 看到使用手册是 lark 文档， 复制给 ai 都需要登录，无法直接访问，遂研究转 md ，浪费 2 小时.... 之前开源社区里见到一种非常 ai 友好的文档，（面向 ai 的文档）直接 url 给 ai 看，相当于 url as skill 了 这样真好啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233288#reply11
+
+---
+
+#### 8660. [V2EX] 有人把「词元」一词塞进了 opencode
+
+**问题描述 / Problem Description**:
+今天看到 opencode 发版了, 才注意到这个三天前的 PR: https://github.com/anomalyco/opencode/pull/40977 PR 里的讨论现在还不多，但是已经有偏离技术和翻译本身的迹象了。 不过抛开其他因素不谈，我也自始至终都觉得这是个糟糕的翻译。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233284#reply146
+
+---
+
+#### 8661. [V2EX] 阿里百炼个人版 token plan，玩不起就不要搞 token plan
+
+**问题描述 / Problem Description**:
+受到网上各种百炼个人 token plan 的软文的欺骗，说什么特别划算，能力很强之类的。 于是 7 月 27 日心动买了 139 元周限制 10000credit 的套餐。那时候还是预览版的 qwen3.8max ，测试下来感觉能力就 glm5.2 上下，积分消耗却很大，基本上一个下午用了 30%左右，大概 4-5 天就用完了。 然后下一周，他们在 8 月 3 日重置了额度。并且在我不知道的情况下把 qwen3.8max 预览版的调用切换成了 qwen3.8 正式版的调用，一个功能的实现，一下子花了周限制的 50%以上，然后功能还是做错的。看在他们送了一张重置卡的情况下，这我忍了。 接下来，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233208#reply44
+
+---
+
+#### 8662. [V2EX] pro20x 菲律宾额度会更少吗,现在周限 3000 左右正常吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233201#reply6
+
+---
+
+#### 8663. [V2EX] fiddler classic 不让商用了，有啥好替代吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233198#reply8
+
+---
+
+#### 8664. [V2EX] twilio 国内能使用吗？
+
+**问题描述 / Problem Description**:
+公司业务准备使用 twilio 来发短信和打电话，注册了 twilio 发现+86 号码无法发送短信和打电话，但是国外手机号是正常的，是需要付费升级才行还是国内屏蔽了？有大哥知道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233190#reply6
+
+---
+
+#### 8665. [V2EX] 普通程序员用在 AI 方面的费用大概有多少了
+
+**问题描述 / Problem Description**:
+想赚钱，先花钱，目前你们在 AI 订阅方面都一个月花多少钱。之前 IDE 都是破解版，现在这笔钱还能省下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233146#reply102
+
+---
+
+#### 8666. [V2EX] 开始 vibe coding 之前，你们是如何寻找和分析市场需求的？
+
+**问题描述 / Problem Description**:
+vibe coding 让实现项目技术门槛极大地降低了。 但是寻找商机，分析市场需求，预判商机前景，还是有门槛。 优秀的程序员找到了。现在缺优秀的商业分析师。 不知道大家是如何进行商机分析的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233077#reply5
+
+---
+
+#### 8667. Got SERVFAIL reply from 127.0.0.53
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, dns, resolv.conf | Score: 0 | Views: 2121 | Answers: 1 | Created: 2025-03-03
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791893/got-servfail-reply-from-127-0-0-53
+
+---
+
+#### 8668. Upgraded k8 worker node from ubuntu 20.04 to 22.04. DNS resolution/networking inside pods doesn’t work & pods keep crashing/restarting
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, iptables, upgrade, container, kubernetes | Score: 0 | Views: 237 | Answers: 1 | Created: 2025-03-02
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791860/upgraded-k8-worker-node-from-ubuntu-20-04-to-22-04-dns-resolution-networking-in
+
+---
+
+#### 8669. vlc creates a linux_perf_out.bin file
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, gpu, vlc | Score: 0 | Views: 102 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791703/vlc-creates-a-linux-perf-out-bin-file
 
 ---

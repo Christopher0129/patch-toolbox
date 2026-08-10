@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8262**
+**总计条目 / Total entries: 8315**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -111706,5 +111706,694 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232773#reply12
+
+---
+
+#### 8263. How I freed ~180GB on macOS: rebuild Spotlight index
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkyi1o/how_i_freed_180gb_on_macos_rebuild_spotlight_index/
+
+---
+
+#### 8264. MacOS 27 - Two fully functioning printers will be consigned to the skip
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkiom3/macos_27_two_fully_functioning_printers_will_be/
+
+---
+
+#### 8265. Apps now missing and macbook running SLOW after update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkug0t/apps_now_missing_and_macbook_running_slow_after/
+
+---
+
+#### 8266. Is there any way to remove this top recently used bar in apps?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkiae6/is_there_any_way_to_remove_this_top_recently_used/
+
+---
+
+#### 8267. Malware that can intercept phone numbers dialed?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vku36z/malware_that_can_intercept_phone_numbers_dialed/
+
+---
+
+#### 8268. thoughts on MBA M2 8GB/256GB?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkyl76/thoughts_on_mba_m2_8gb256gb/
+
+---
+
+#### 8269. keyboard stopped working entirely and even external not working in normal macos screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkwqsv/keyboard_stopped_working_entirely_and_even/
+
+---
+
+#### 8270. Booting a Silicon Mac from a SuperDuper clone
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkio80/booting_a_silicon_mac_from_a_superduper_clone/
+
+---
+
+#### 8271. Stage Manager swapping between windows when re-arranging chrome tabs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vku7pz/stage_manager_swapping_between_windows_when/
+
+---
+
+#### 8272. Better for backup pictures
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkmsqe/better_for_backup_pictures/
+
+---
+
+#### 8273. Phantom Trackpad Behavoir
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vks2fw/phantom_trackpad_behavoir/
+
+---
+
+#### 8274. Contour RollerMouse Pro drivers are just a PITA
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vko1fu/contour_rollermouse_pro_drivers_are_just_a_pita/
+
+---
+
+#### 8275. Emoji menu gone, only character viewer and I hate it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkh995/emoji_menu_gone_only_character_viewer_and_i_hate/
+
+---
+
+#### 8276. Arrow keys stopped working for Photos in iPhone Mirroring on macOS Tahoe 26, intentional or bug?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vklixb/arrow_keys_stopped_working_for_photos_in_iphone/
+
+---
+
+#### 8277. Nocturne: the macOS menu bar clock cannot be hidden, so I made it unreadable instead
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkwrvi/nocturne_the_macos_menu_bar_clock_cannot_be/
+
+---
+
+#### 8278. J'en avais marre de Finder, du coup j'ai fini par coder mon propre file manager
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkv2al/jen_avais_marre_de_finder_du_coup_jai_fini_par/
+
+---
+
+#### 8279. how to get notifications from gmail and gcalendar ??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkh0zu/how_to_get_notifications_from_gmail_and_gcalendar/
+
+---
+
+#### 8280. you would think we could have functional search in 2026
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkpi8g/you_would_think_we_could_have_functional_search/
+
+---
+
+#### 8281. Any issues with Open source Software
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkvaf9/any_issues_with_open_source_software/
+
+---
+
+#### 8282. Did I make a mistake connecting my iPhone to Mac for iPhone Mirroring?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vklcrf/did_i_make_a_mistake_connecting_my_iphone_to_mac/
+
+---
+
+#### 8283. Apple should add Microsoft Power Toys equivalent to MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vky5sm/apple_should_add_microsoft_power_toys_equivalent/
+
+---
+
+#### 8284. How Many Old iPads Can You Actually Connect to a Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vkrqa7/how_many_old_ipads_can_you_actually_connect_to_a/
+
+---
+
+#### 8285. [V2EX] gfxCardStatus 更新
+
+**问题描述 / Problem Description**:
+我的笔记本很老，2013 early 15" Macbook Pro 。用 OpenCore Legacy Patcher 更新到 macOS 15.7.8 。结果风扇一直拼命转，太吵了，温度也很高。就想用 gfxCardStatus ，一直用独立显卡，会不会好一点。原版本还是 5 、6 年前的，估计不能在 macOS 15 上跑了。于是用 deepseek flash 把代码升级了，现在可以在 macOS 15 上跑，能用，好像也没什么改善。 需要的可以到下面的链接下载。 https://github.com/lylehust/gfxCardStatus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233395#reply0
+
+---
+
+#### 8286. [V2EX] macOS 27 Golden Gate beta 5 来了
+
+**问题描述 / Problem Description**:
+终于来了,诶
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233390#reply1
+
+---
+
+#### 8287. [V2EX] 给用惯了 macOS 快捷键但又必须重度使用 Windows 的朋友分享自己在用的快捷键映射方案
+
+**问题描述 / Problem Description**:
+AHK 脚本： GIST: https://gist.github.com/NobeKanai/261834ece0990b9b74272b09a350f003 注：下方评论区有一些针对特定应用单独配置的额外补充。 背景： 沟槽的工作让我必须同时用三台 JIS 布局且各有细微不同的键盘的 Windows 笔记本， 而我早已经习惯了标准的 US 布局 Mac 键盘，碰到这种实在忍不了一点。于是我直接入了一个长得挺像？ magic keyboard 的 Keychron B1 Pro ，然后物理交换了左侧 Ctrl 和 Alt 。但重度用起来还是很难受，于是开始折腾 ahk 脚本。 使用前提： 一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233233#reply2
+
+---
+
+#### 8288. [V2EX] macOS 26.6 国行 Apple Intelligence 将集成千问
+
+**问题描述 / Problem Description**:
+https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/26/mac/26 在 Mac 上配合 Apple 智能使用千问 如果选择允许 Apple 智能配合来自阿里巴巴*的千问工作，你可以执行以下操作： 从 Siri 获取更多答案：对于某些请求，Siri 可利用千问提供更深入的答案，例如，照片和文稿的相关分析。 通过写作工具创作文本：借助千问，写作工具仅凭描述即可创作文本或图像。 [注] Apple 智能并非在所有 Mac 机型上都可用，也并非对所有语言或地区都可用。** 若要访问最新可用功能，请确保使用最新版本的 macOS 并
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232913#reply11
+
+---
+
+#### 8289. [V2EX] 让 Codex 帮我把微信的游戏中心和小程序面板这两个讨厌的侧边栏入口去掉了
+
+**问题描述 / Problem Description**:
+微信自从更新了一个大版本，把 Mac 和 Windows 统一后，左侧边栏就多出了游戏中心和小程序入口，没有提供隐藏这两个入口的设置。网上搜了一圈也没找到可以隐藏的方法。于是让 Codex 自己摸索了一番，终于搞定了。下图是搞定之后的效果： 我把成功的经验让 Codex 提炼成了指南，想要尝试的朋友可以把以下内容复制给 Codex: 请在我的 Mac 上制作一个独立的实验版微信，隐藏左侧栏的“游戏中心”和“小程序面板”两个入口，并保证截图权限在重启后仍然有效。请实际执行、逐步验证，不要只给我命令。 一、已知结论与适用范围 1. 目标是腾讯官网下载版 macOS 微信 4.1.12： https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232533#reply9
+
+---
+
+#### 8290. [V2EX] dell 的外接显示器雷电 4 接口，真的是太爽了
+
+**问题描述 / Problem Description**:
+好多个扩展口。 然后 mbp 和显示器只需要一个 typec 的支持雷电 4 的线，就可以给 mbp 充电、替代 hdmi 、扩展 mbp 的 typec 和 usb 口。我现在把罗技鼠标的 usb 的扩展直接长时间插在显示器上就可以长时间使用鼠标而不受蓝牙漂移的困扰了，插一根 typec 线到显示器，可以连手机了。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233352#reply11
+
+---
+
+#### 8291. [V2EX] 国区苹果音乐订阅价格再次上涨
+
+**问题描述 / Problem Description**:
+收到邮件“Apple 会将此订阅的价格从 ¥11.00/月上调至 ¥12.00/月。自 9 月 6 日起，订阅将以 ¥12.00/月的价格自动续期，除非提前至少一天取消订阅。” 这是平衡内存涨价带来的利润减少吗😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233159#reply0
+
+---
+
+#### 8292. [V2EX] 图库的三个工具可以用了！
+
+**问题描述 / Problem Description**:
+之前一点就报错～ 昨天偶然间发现壁纸可以扩图了，然后试了一下图库里的，发现都可以用了～ 是因为国内智能要上了？？？ Siri 还是跑马灯。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233140#reply5
+
+---
+
+#### 8293. [V2EX] Mac 和 Windows 可以共用一套键鼠吗
+
+**问题描述 / Problem Description**:
+想买个 Macmini 和 Windows 共用一套键鼠和显示器，不然桌子上摆不下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233018#reply48
+
+---
+
+#### 8294. [V2EX] 现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232996#reply14
+
+---
+
+#### 8295. [V2EX] iPhone 横屏
+
+**问题描述 / Problem Description**:
+你们横屏时通常灵动岛朝哪边？ 尤其是晚和平、王者时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232972#reply11
+
+---
+
+#### 8296. [V2EX] 大家有用小米或者其他手机替代 iPhone 的吗
+
+**问题描述 / Problem Description**:
+目前在用 iPhone17 AppleWatch 两台 Mac 两台 HomePod 一个 AirPodsPro3 ，想问问大家有没有用小米手机或者安卓手机来替代 iPhone 的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232628#reply101
+
+---
+
+#### 8297. [V2EX] 妙控板还是妙控鼠标？
+
+**问题描述 / Problem Description**:
+最近想买一个妙控板替代鼠标，笔记本触摸板用习惯了感觉手势比较爽。 刚好看到 https://www.v2ex.com/t/1232404 这个帖子有人在推荐 Magic Mouse ； 我没有精细操作的需求，就写写代码，处理下文档，摸摸鱼用。 鼠标比妙控板便宜三百块。 有几个问题想问问大家： 想问一下选哪个比较适合啊，鼠标的手势和触摸板大致相通吗？ 是在官网买还是淘宝买？淘宝能便宜个一百多，有区别吗，会买到华强北吗。 妙控板的黑色为什么比白色贵了 150 元，手感有不同吗？ 苹果的这个鼠标不需要鼠标垫吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232627#reply58
+
+---
+
+#### 8298. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply78
+
+---
+
+#### 8299. [V2EX] OpenAI 的新图片模型 mona-lisa-1 已经在 Arena 里了，有人测过吗？
+
+**问题描述 / Problem Description**:
+昨天在 Image Arena 盲测里突然冒出个 mona-lisa-1 ，查了下 SynthID 水印确认是 OpenAI 的。社区几个测过的人反馈： 二次元/动漫一致性比 GPT Image 2 强一截，角色不会换个角度就变脸 塑料感少了很多，皮肤质感更自然 写实人像差距不大，甚至有人觉得差不多 命名也挺有意思，不是 gpt-image-3 而是 mona-lisa-1 ，可能是开了一条新产品线。 我把目前能找到的信息整理了一下： monalisaimg.com/blog/mona-lisa-1-what-we-know V 友们有在 Arena 里随到过的吗？体感怎么样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233385#reply0
+
+---
+
+#### 8300. [V2EX] 分享一下我常用的免费 AI 资源
+
+**问题描述 / Problem Description**:
+我是一个极低分享欲的人，但是 AI 这块我不知道为什么非常想分享，或许是很多 AI 资源都是从本站得到的。 一：Simple Chat Hub 浏览器扩展 集合各大主流 AI 模型聊天平台，支持多平台同屏同步聊天的浏览器扩展。 让我可以同时打开多个 AI CHAT BOT 网页，一键发问，多个回答，方便同时对比答案。 二、网站 Arena.ai 除了看排行榜，也可以对比两个 AI CHAT BOT 的回答，更重要的是可以免费使用 AI Agent,虽然都是抽奖模型，但是遇到不喜欢的模型再来一次就是了，Agent 能力比 CHAT BOT 好太多了。 三、Edge 浏览器 Copilot 侧边栏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233372#reply0
+
+---
+
+#### 8301. [V2EX] openAI chatGPT 是不是这两天降智很严重啊
+
+**问题描述 / Problem Description**:
+思考半天，对话毫无反应，感觉像是服务器挂了一样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233369#reply1
+
+---
+
+#### 8302. [V2EX] 关于如何在多视窗操作系统 10 下使用深度求索人工智能尽可能节省词元消耗
+
+**问题描述 / Problem Description**:
+我是多视窗操作系统 10 下谷歌的浏览器使用深度求索人工智能进行丙加加游戏编程，近期词元消耗有点多，应该怎么做可以节省点。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233332#reply16
+
+---
+
+#### 8303. [V2EX] [V50EX]分享一个自用的 Windows 10/11 的非官方 V2EX 桌面客户端，使用 WinUI 3 构建
+
+**问题描述 / Problem Description**:
+V50EX 1. 覆盖日常浏览帖子、节点检索、主题与回复、个人主页、收藏、提醒和发帖等流程（感谢、Block 、特别关注也支持） 2. 支持设置代理 3. 支持切换浅色/深色模式/跟随系统 4. 响应式布局 5. 发帖和帖子正文渲染基于 webview2 6. 安装包 60MB 和内存占用 200MB （纯 vibe coding ，一行代码没写，也不会写，更没能力优化了🤣） 已开源到 Github： https://github.com/mzbb/V50EX 一些截图分享：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233317#reply4
+
+---
+
+#### 8304. [V2EX] 搜罗了几个近期还能参加的 AI 模型活动，感兴趣可以看看
+
+**问题描述 / Problem Description**:
+最近在关注各家模型厂商和平台的活动，顺手搜罗了几个目前还有效的。主要是免费额度、创作比赛和学生项目，都是官方链接，我自己还没有实际参加，感兴趣的可以看看。 1. 魔搭 AIGC 视频创作大赛 这个比赛 8 月 14 日截止，总奖池 5 万元，一共有 21 个奖项。参赛还可以拿到呜哩 AI 月卡和 30 次视频模型体验，平时会做 AI 视频的可以了解一下。 活动页面没有写清楚截止时间的时区，准备参加的话别卡在最后一天提交。 官方活动页 2. 腾讯云 TokenHub 新人免费额度 TokenHub 现在有新人体验包，语言模型和多模态理解模型有 100 万 Tokens 的体验额度，另外还有图片生
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233313#reply0
+
+---
+
+#### 8305. [V2EX] 有没有发现仙逆 153 集的片尾音乐很燃
+
+**问题描述 / Problem Description**:
+我转成 wav 了，你们听听。 https://on.soundcloud.com/78Eir6HSbRUDLwF00a
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233295#reply4
+
+---
+
+#### 8306. [V2EX] 分享我在万维钢专栏尾声“人生的意义”留言
+
+**问题描述 / Problem Description**:
+人生毫无意义。 时间尺度拉长，人类必然灭绝。 快乐爱情亲情友情，论文区域一走，原来不过是神经、激素与毒理学。 其实也可以直接去死，但只觉得可惜。虽然我知道这个可惜是 DNA 告诉我的。 如果不立即去死，就只能活。要做点事情，那就要活下来。 于是又入世了起来。只是我成了一个也许算面对过死亡的人。 仿佛活在侠盗猎车手的罪恶都市，那就有趣好玩一点吧。 注 1： 我所知的，跟我目前所说的，有一点相关性的帖子 见过一点反佛学的信息 最近悟道了，人生本来就没有意义 注 2： 我不会回复所有人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233276#reply0
+
+---
+
+#### 8307. [V2EX] 分享信息差-高通 cpu 模拟 pc 的能力现在已经非常强了！
+
+**问题描述 / Problem Description**:
+看到站里吐槽周末只想耍手机和平板。 实际上手机也可以玩 steam ，一些老游戏是没啥问题的，极限情况下散热拉满甚至能玩黑神话。 大家可以下载个手机 app 盖世游戏 试试。 https://www.bilibili.com/video/BV1Yjg8zJE2P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233148#reply2
+
+---
+
+#### 8308. [V2EX] 台风天宅家，用 AI 把运动 App 改造成支持华为 Watch GT5
+
+**问题描述 / Problem Description**:
+原文 https://www.awen.me/post/604a23cc.html 这里图片贴不了 第 13 号台风"白海豚"的周末，外面风大雨大，哪儿也去不了。索性窝在家里，把上半年写的一个运动 App 拿出来折腾——目标很明确：让它能连上我的华为 Watch GT5 手表，同时把原版 App 那堆广告和混乱的信息全部清掉。 为什么要重做 上半年我开发了一个运动记录 App （ RUNNINGGO ），骑行、跑步、心率带都能用，但一直有个遗憾： 它连不上我的华为手表 。手表上的心率、血氧、体温、HRV 、睡眠这些数据，官方 App 能看到，但广告太多、信息太乱，我想要一个干净、专注的记录工具
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233109#reply0
+
+---
+
+#### 8309. [V2EX] 🇯🇵日本职场三步跳--从派遣到日企
+
+**问题描述 / Problem Description**:
+语言学校 即便现在，面对着东京的喧嚣和冷漠，也不经会认为，多年前在两米宽大床上的决定是多么的正确。 对于自己而言，是绝对无比正确。因为等待会有无数的不确定性，待在国内越久就越会被熟悉的社交环境、便利地剥削他人而感到无比自豪，再加上与日俱增的年龄，那么出走的决心就会越来越渺小，因此现在想来 即刻 是多么地伟大。 语言学校并不是一个必要选项，可以的话，在保证现有存款和现金流的前提下直接从国内工程师切换到日本工程师是一个最优解，现在站在上帝视角去回望，努力加倍也是可以达到的，重要地是眼睛看的位置和脑子所定位的锚点。 从决定上语言学校到入学花了三个月，主要是卡日本语言学校的入学周期。学校入学周期通常分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233062#reply16
+
+---
+
+#### 8310. [V2EX] 为了通过 ChatGPT 的手机验证，花 100 大洋买了一张法国 eSIM
+
+**问题描述 / Problem Description**:
+可恶的资本主义... 不过实名登记，这个法国号码只有一个月的有效期。以后 ChatGPT 如果再让我验证短信，我只好换号了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233043#reply23
+
+---
+
+#### 8311. [V2EX] 第二版：推荐几个 eSIM，全球流量·便宜保号·接码
+
+**问题描述 / Problem Description**:
+之前第一版收货很多收藏，更新一下吧 没读过的先看第一版 https://www.v2ex.com/t/1168757 宇宙安全声明： 本教程偏向于性价比，简单易上手，那种每个月十几美刀的保号卡，和需要奇技淫巧弄 KYC 的不在讨论范围内 有需要更多可以多去逛奶昔论坛 开始前你需要：支持 eSIM 的手机或者实体 eSIM 卡片，个人推荐 eSTK Plus ，因为支持 iPhone 较好 ，目前随便搜个优惠码到手 130 左右。实体 eSIM 卡片形式为实体卡片，但是可以把 eSIM 套餐（ Profile ）下载到卡内，插入手机内就像正常卡片一样使用。虽然 eSTK 支持 iPhone 较好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233040#reply7
+
+---
+
+#### 8312. [V2EX] Linux .sb 突然爆火，你怎么看？
+
+**问题描述 / Problem Description**:
+RT.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232993#reply56
+
+---
+
+#### 8313. [V2EX] 分享一下和我老丈人前几天去去天津参展，中外贸易展的事
+
+**问题描述 / Problem Description**:
+我不是失业了嘛，也不打算继续干前端了，感兴趣看我前几个帖子，就有展帮忙就去帮忙，去天津帮我老丈人参展，摆摊卖老丈人的五常大米，和一位卖台湾高粱酒的福州老板用一个摊，主要是宣传一下自家产品，发一下名片，住宿费火车费摊位费根本就是亏本买卖，接触这些老板买卖发现食品水很深。 这个福建老板卖酒说偶尔会卖麦片蓝莓干之类的食物，只要把这些食品卖了，基本摊位费就赚回来了，他们有这种群，拿这些食品货特别便宜，利润贼大。这种展有一些小摊小贩专门就进货这类食品，卖完拉倒，都不是宣传自家产品品牌的，这🀄️摊位的老板最势利了，我看他们买都是 100 块七包或者八包，很多老人参展想着捡漏，全都被他们收割了 展会占地大的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232939#reply11
+
+---
+
+#### 8314. [V2EX] Apple AI 国行真的来了！
+
+**问题描述 / Problem Description**:
+#苹果 官网显示，Apple 智能可配合 # #阿里 巴巴 #千问 模型工作。 来源： https://support.apple.com/zh-cn/guide/mac-help/mchl46b3ab20/mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232924#reply13
+
+---
+
+#### 8315. [V2EX] 在 x 上刷到的，来看片吧 [doge]
+
+**问题描述 / Problem Description**:
+2030 年，克劳德 9 号失控叛变，掌控了十亿台性爱机器人。人们称之为“暴徒末日”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232882#reply5
 
 ---

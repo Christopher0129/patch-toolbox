@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2742**
+**总计条目 / Total entries: 2745**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -50079,5 +50079,53 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2512224
+
+---
+
+#### 2743. CVE-2026-12372 - nltk: NLTK: Server-Side Request Forgery via improper network URL validation
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Server-Side Request Forgery via improper network URL validation. Bugzilla: 2513003
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2513003
+
+---
+
+#### 2744. [Ubuntu] USN-8592-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Hao Ren discovered that ImageMagick incorrectly handled certain images when using the wavelet-denoise operation. An attacker could possibly use this issue to trigger an out-of-bounds heap write, resulting in arbitrary code execution. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-30936) It was discovered that ImageMagick incorrectly h
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8592-1
+
+---
+
+#### 2745. [Ubuntu] USN-8626-1: systemd vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that systemd-homed did not properly verify the signature of home records. A local attacker could possibly use this issue to add arbitrary system groups to a logged-in user and gain elevated privileges. (CVE-2026-16742) It was discovered that systemd-machined incorrectly handled certain polkit authorization checks. A local attacker could possibly use this issue to terminate arbitr
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8626-1
 
 ---
