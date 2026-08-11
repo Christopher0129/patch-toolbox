@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8669**
+**总计条目 / Total entries: 8704**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120668,5 +120668,460 @@ Refer to the original page for detailed solutions and community answers.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/791703/vlc-creates-a-linux-perf-out-bin-file
+
+---
+
+#### 8670. OpenAI launches ChatGPT desktop app for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlr6rf/openai_launches_chatgpt_desktop_app_for_linux/
+
+---
+
+#### 8671. GNOME Designers Lay Out Some Of Their GNOME Shell Dreams
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlpmec/gnome_designers_lay_out_some_of_their_gnome_shell/
+
+---
+
+#### 8672. OpenSSH 10.5 released, AI Welcome
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlnzz2/openssh_105_released_ai_welcome/
+
+---
+
+#### 8673. Minor Optimization Coming For AMD Athlon XP Era Systems Running Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlopwf/minor_optimization_coming_for_amd_athlon_xp_era/
+
+---
+
+#### 8674. Old SGI Drivers Being Removed In Linux 7.3 Over Security Concerns
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vloowi/old_sgi_drivers_being_removed_in_linux_73_over/
+
+---
+
+#### 8675. Is openSUSE Tumbleweed a beginner friendly distro?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vln4hw/is_opensuse_tumbleweed_a_beginner_friendly_distro/
+
+---
+
+#### 8676. Floorplan software?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vle4tt/floorplan_software/
+
+---
+
+#### 8677. Kernel 7.1.8 fixes AMD artifacting issue.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlve5l/kernel_718_fixes_amd_artifacting_issue/
+
+---
+
+#### 8678. NotesQR CLI on Linux: P2P file send/recv over WebRTC (same as the web app, no cloud disk)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vli2ve/notesqr_cli_on_linux_p2p_file_sendrecv_over/
+
+---
+
+#### 8679. Changes in shadow-utils password-expiration features
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vluqet/changes_in_shadowutils_passwordexpiration_features/
+
+---
+
+#### 8680. wl-relabel: A Crate to Edit Window Labels in Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlbjn6/wlrelabel_a_crate_to_edit_window_labels_in_linux/
+
+---
+
+#### 8681. I believe that we might be lacking interface standarization, rather than having one program for everything.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlsnjo/i_believe_that_we_might_be_lacking_interface/
+
+---
+
+#### 8682. Linux containers don't exist and I created an application that demonstrates that
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlspnk/linux_containers_dont_exist_and_i_created_an/
+
+---
+
+#### 8683. I think I noticed something.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlopoe/i_think_i_noticed_something/
+
+---
+
+#### 8684. What is the current status of age verification in systemd?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vl08bk/what_is_the_current_status_of_age_verification_in/
+
+---
+
+#### 8685. [V2EX] 一个把 MCP 编码 Agent 往返轮次减少 75%+ 的思路
+
+**问题描述 / Problem Description**:
+说明：我是 Tura 的维护者。 很多 coding agent 的常见流程是： 1. 搜索代码 2. 打补丁 3. build 4. test 5. lint 每一步都要重新让模型读结果再决定下一步，实际是 5 次 LLM 进入。 Tura 把这些关联操作放进一个 command_run 宏工具：模型一次提交带依赖关系的执行计划，运行时仍然执行搜索、补丁、构建、测试、lint ，只是少了反复的模型往返。 简单理解： 普通方式：5 次 LLM turn Tura：1 次 command_run 计划 + 相同执行图 这个 ecommerce-ad-package 实测任务显示 5 次变 1 次
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233700#reply0
+
+---
+
+#### 8686. [V2EX] 我做了一个让 Agent 更安全地接收密钥的 Skill
+
+**问题描述 / Problem Description**:
+Agent 有时确实需要 API Token 、访问密钥等敏感信息。 但直接粘贴到对话里，明文会进入上下文，甚至出发 Codex 的 Cyber 应激。为了减少这些不必要的暴露，我开发了一个开源 Agent Skill： Loopmark 。 它的工作流程是： Agent 根据任务生成一张表单，并把链接发给用户 用户在浏览器中填写普通信息或密钥 普通回答复制回对话；密钥在浏览器中加密，不会出现在复制内容里 Agent 将密钥下载并解密到本地临时 .env 文件，供后续命令按需使用 整个过程中，云端只保存密文。用于解密密钥的私钥只保存在发起表单的 Agent 本地。 加密实现采用混合方案：问题会
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233689#reply2
+
+---
+
+#### 8687. [V2EX] PingGlass - 现代化风格 ICMP / TCP 监控面板
+
+**问题描述 / Problem Description**:
+PingGlass - 现代化风格 ICMP / TCP 监控面板 相信各位有网络 ICMP 监控需求的话，或多或少都听过 SmokePing 这个项目。 SmokePing 是一个非常经典的开源网络性能监控工具，主要用于测量、记录以及可视化网络的 延迟、丢包率和连通性 。从 2001 年发展至今，也算是经历了二十多年的风风雨雨。 我自己也用了 SmokePing 很长一段时间 ，不过随着监控的 Targets 越来越多，逐渐发现一些使用上的痛点。 其中一个最直接的问题就是它的 UI 。 SmokePing 的 Web UI 还是比较偏向传统桌面网页，在手机上查看的时候体验并不是特别友好 ——
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233682#reply1
+
+---
+
+#### 8688. [V2EX] 同一个问题， gemini 像鸡血卖课主播， claude 像冷静理智的理工男
+
+**问题描述 / Problem Description**:
+我将同一个产品设计和域名选择问题抛给 gemini 和 claude 。 gemini,很像一个打了鸡血的卖课主播，回答有股浓浓的彩虹屁味。 gemini 回复例子： 做域名矩阵（ Domain Matrix ）是非常聪明的流量围剿策略。如果你打算把 xx 域名纳入你的战队，这是一个杀伤力极强、极具现代感的黄金备选。 你的 xxx 操作简直就是在 xxx 行业扔下了重磅核弹。 你增加了 xxx 功能对于同行业的其他玩家就是降维打击。 你的 xxx 模块就是一把锋利的瑞士军刀。。。它极致丝滑的 C 端互动测试、实时诊断功能会让你的网站互动率远超同类对手。 你的前端主力火炮(某某功能)负责抓眼球、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233670#reply0
+
+---
+
+#### 8689. [V2EX] 吐槽一下关于 xAI
+
+**问题描述 / Problem Description**:
+被这家公司坑了好几次。 众所周知，xAI 在 Grok-3 阶段开放了数据共享计划，在 console 开启数据共享之后允许 xAI 试用训练数据，并且每个月获得 150USD 的额度，这个计划仅 1 个月就结束了。毕竟是免费的东西，我忍了。但是我后续有其他业务要调用 xAI 的 API 的时候发现 数据共享计划加入之后是无法退出的 ，一个持续 1 个月的数据共享计划，这个目的性是不是太明显了。 第二件事：由于之前的部分业务需要，综合对比了之后发现 xAI 的 grok-4.1-fast / grok-4-fast 模型是同类模型里性价比最好的，远超 gemini flash 系，甚至当时（大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233657#reply2
+
+---
+
+#### 8690. [V2EX] libcr 项目组发布开发者工具客户端 crRequest 1.9.0
+
+**问题描述 / Problem Description**:
+免费下载: https://github.com/libcr/crRequest/releases crRequest 是一款 C++开发的跨平台工具客户端 基于源代码 chromium 150.0.7871.91 1. 使用 chromium UI 框架设计跨平台应用界面，提供平台一致且优秀的性能表现 2. 基于 hromium 网络库， 支持 QUIC, HTTP2 等浏览器网络协议 API 接口测试 3. 基于 libssh2 实现的 SSH 客户端 4. 支持 sqlite 和 pgSQL 的数据库操作 5. 引入 v8 脚本引擎，实现在请求过程通过 js 脚本动态控制
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233656#reply0
+
+---
+
+#### 8691. [V2EX] Cursor Pro 有 bug，不计费了，有人 1 小时蹭了接近 0.3B
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233654#reply2
+
+---
+
+#### 8692. [V2EX] gg 卡退款了
+
+**问题描述 / Problem Description**:
+看到隔壁帖子说 n26 退款成功。我招行 visa ，我卡已经转到 voxi 了。刚封的时候申请过退款被拒了。 重新绑定上付款的卡 重新 ask agent 了，5 分钟就退了，招行目前还没收到。 模板是这个 Subject: Request for Refund of Remaining Credit Balance Message: Dear GiffGaff Agent, I have received the notice of service termination for my account (Mobile Number: +447XXXXXXXXX). My number ha
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233639#reply12
+
+---
+
+#### 8693. [V2EX] BLEA： BLE 蓝牙设备开发调试 Agent plugin/skill/mcp
+
+**问题描述 / Problem Description**:
+lz 在实际蓝牙开发过程中发现，Agent 常常写大量脚本来调试分析，其实主要的操作就那么几个，所以开发了 BLEA ，让 Agent 开发调试蓝牙更快、更省 token... BLEA 是一个面向 AI Agent 的开源 BLE 蓝牙工具包，统一提供 CLI 、Agent Skill 和本地 MCP Server 。它支持扫描设备、发现 GATT 、读取特征、观察通知、受保护写入，以及将现场数据保存为 JSONL 后进行 capture 、diff 和离线 replay 。 BLEA 的输出结构稳定，适合 Agent 、自动化脚本和 CI 使用；所有写入操作都需要明确授权和精确设备确认，避
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233618#reply1
+
+---
+
+#### 8694. [V2EX] 关于 codex 重置是否会导致亏损的问题
+
+**问题描述 / Problem Description**:
+我在 L 站发了帖子讨论这个事儿，讨论了 300 多楼…… https://linux.do/t/topic/2727244 不过已经有人用建模的方式证明了，确实存在大量亏损： https://linux.do/t/topic/2735457 我觉得可以盖棺定论了—— 总体用户收益不大，但亏损面也广。让用户主动调整自己的工作计划来应对重置，本质上也是一种亏损。如果考虑到这个，总体上来说也是亏损的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233570#reply0
+
+---
+
+#### 8695. [V2EX] 你们会压缩用户或编辑上传的图片？
+
+**问题描述 / Problem Description**:
+现在很多网站是对接了云上对象存储的直传功能，没有经过任何服务器 这就导致有时候原图很大，然后前面直接套一个 cdn ，很浪费流量 大家是如何处理的，有什么最佳实践吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233561#reply14
+
+---
+
+#### 8696. [V2EX] 寻找一个类似 nocodb 的开源项目
+
+**问题描述 / Problem Description**:
+各位大佬，最新自己 vibe coding 了一个内部财务小系统，现在需要一个后端能够修改数据库，做一些简单的工作流任务，有没有开源的系统？能匹配以下两个需求的。 1.能够同步本地 MySQL 数据库（最好可以双向同步） 2.能支持 Workflow --- 以前用的 nocodb 现在好多功能都要收费了，是否还有开源的同类型项目？ 感谢各位大佬！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233536#reply2
+
+---
+
+#### 8697. [V2EX] 大模型领域 token 这个词， apple 的翻译
+
+**问题描述 / Problem Description**:
+token 这个词，苹果在不同地区采用了不一样的翻译。 大陆：词元，台湾：符元。你更喜欢哪一个？ 说句题外话，为什么想到看苹果的翻译了呢。是想到了 memory 这个单词的翻译，大陆叫内存，台湾叫记忆体。 来源：苹果官网小字注释，可以搜 元 字。 https://www.apple.com.cn/macbook-pro/ Apple 于 2025 年 9 月使用试生产的配备 Apple M5 芯片 (集成 10 核中央处理器和 10 核图形处理器)、32GB 统一内存和 4TB 固态硬盘的 14 英寸 MacBook Pro 系统，已上市的配备 Apple M4 芯片 (集成 10 核中央处理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233534#reply18
+
+---
+
+#### 8698. [V2EX] 大家是怎么管理自己的文件夹、项目资料的？按照版本分类还是项目名称？
+
+**问题描述 / Problem Description**:
+有时候一个版本背后可能有多个项目，不同功能，大家的文件夹名字是咋建的？有没有比较不错的方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233520#reply2
+
+---
+
+#### 8699. [V2EX] opencode go 上下文
+
+**问题描述 / Problem Description**:
+opencode go 订阅的 deepseek-flash-v4 上下文窗口好像不对，160k 左右就超了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233490#reply11
+
+---
+
+#### 8700. [V2EX] 目前哪个模型情商最高啊？我现在每次和领导问答都要截图或者复制去问 ai，有时候开会我就开语音模式让 ai 一起旁听，然后开快速模式随时提问
+
+**问题描述 / Problem Description**:
+哪个模型最懂人情世故？情商最高？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233480#reply9
+
+---
+
+#### 8701. [V2EX] 看完了 Rust 开源社区新出的 LLM 政策，感觉差不多是接近 AI Ban 了
+
+**问题描述 / Problem Description**:
+https://forge.rust-lang.org/policies/llm-usage.html#llm-usage-policy 这里面有两点，我觉得比较严格，一个是文档必须手写，不能 LLM 直接生成，第二个是 LLM 生成代码想要进，有非常多的限制，包括不能修改核心代码、需要找到愿意 review 的维护者等等。 我感觉我其实已经有点守旧了，比如在非娱乐项目里面提 pr ，pr 描述以及和别人交流，都是自己手写的，有时候担心表达不准确，也是先写了，再用 LLM 润色下。 另外，pr 的 commit 、文档以及代码，我都会一行一行过，不断的让 LLM 调整，直到我满意为止。但文档这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233458#reply24
+
+---
+
+#### 8702. [V2EX] 我把 Go 服务器塞进了 Flutter App：一个无服务端照片同步应用的架构分享
+
+**问题描述 / Problem Description**:
+利益相关声明 ：这篇文章介绍的是我自己独立开发的项目 Pho ，同步引擎开源（ GPL-3.0 ，GitHub: github.com/fregie/pho ）。下文是架构层面的真实取舍与踩坑，尽量讲技术、少讲产品。 需求与选型 这个应用要解决一个很朴素的问题：把手机上的照片同步到用户自己的 NAS （ SMB / WebDAV / NFS / 百度网盘），然后本地和云端照片在同一个时间线里浏览。 第一版我试图用纯 Flutter/Dart 实现，很快撞了墙： Dart 生态里 SMB / NFS 协议栈几乎没有可用的成熟库 ，WebDAV 也就一两个半成品； 文件 IO 、并发上传、流式加密
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233441#reply12
+
+---
+
+#### 8703. [V2EX] 有没有人觉得 Codex 现在变成这种随机重置的模式，让人很不舒服
+
+**问题描述 / Problem Description**:
+现在这种模式把原本可预期的，规律的东西，变成了不可预期的，随机的，看某个人心情的模式。 这种随机导致工作量根本无法提前安排，本来准备攒着用的统统变成了傻子。最后导致所有人一有额度就赶紧用光，然后天天喊着要重置。 与其这样，宁可不要这种随机派糖，换周额度增加多一点点。 Tibo 应该很享受这种在推特上被人当圣人天天舔的感觉。人性就是这样，有了一点点权力，就要反复咀嚼，古今中外谁也逃不过。 历史无数次证明过了，大善人，不如好规则。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233409#reply164
+
+---
+
+#### 8704. [V2EX] AI 现在智力的上限
+
+**问题描述 / Problem Description**:
+大模型都是靠训练，所以现在的 AI 智力就等于最聪明那一群人了吧，应该不太可能会比训练它的人还强？ 它学了几千万本书，但是这书也只是人类写的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233407#reply52
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3037**
+**总计条目 / Total entries: 3058**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -45496,5 +45496,257 @@ It was discovered that systemd-homed did not properly verify the signature of ho
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8626-1
+
+---
+
+#### 3038. CVE-2026-71217 - iperf3: iperf3 server accepts unbounded peer-controlled JSON parameters enabling…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] iperf3: iperf3 server accepts unbounded peer-controlled JSON parameters enabling remote denial of service via resource exhaustion. Bugzilla: 2460984
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460984
+
+---
+
+#### 3039. CVE-2026-71218 - iperf3: Unbounded peer-controlled allocation in iperf3 JSON_read() allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] iperf3: Unbounded peer-controlled allocation in iperf3 JSON_read() allows unauthenticated remote memory exhaustion. Bugzilla: 2463003
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2463003
+
+---
+
+#### 3040. CVE-2026-72694 - mrtg: MRTG daemon symlink-following chown allows local privilege escalation via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] mrtg: MRTG daemon symlink-following chown allows local privilege escalation via PID file path manipulation. Bugzilla: 2460973
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460973
+
+---
+
+#### 3041. CVE-2026-72693 - kbd: Local privilege escalation in openvt via incorrect process owner verification…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kbd: Local privilege escalation in openvt via incorrect process owner verification allowing passwordless root login. Bugzilla: 2462115
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462115
+
+---
+
+#### 3042. CVE-2026-15565 - undertow: undertow-websockets: Undertow: Pre-Auth DoS on websocket endpoint with…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undertow: undertow-websockets: Undertow: Pre-Auth DoS on websocket endpoint with @ServerEndpoint class with any @OnMessage method. Bugzilla: 2490628
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2490628
+
+---
+
+#### 3043. CVE-2026-15567 - wildfly: wildfly-iiop: wildfly-jacorb: Wildfly: Pre-auth denial of service on the…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] wildfly: wildfly-iiop: wildfly-jacorb: Wildfly: Pre-auth denial of service on the IIOP listener. Bugzilla: 2491620
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491620
+
+---
+
+#### 3044. CVE-2026-15556 - picketlink-federation: picketlink SAML 2.0 auth bypass via missing assertions
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] picketlink-federation: picketlink SAML 2.0 auth bypass via missing assertions. Bugzilla: 2483121
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483121
+
+---
+
+#### 3045. CVE-2026-15563 - wildfly-iiop-openjdk: Missing authentication on EAP's IIOP NameService leads to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] wildfly-iiop-openjdk: Missing authentication on EAP's IIOP NameService leads to MITM or DoS. Bugzilla: 2483138
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483138
+
+---
+
+#### 3046. CVE-2026-15562 - jboss-remoting: jboss-remoting: integer overflow in MessageReader leads to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] jboss-remoting: jboss-remoting: integer overflow in MessageReader leads to pre-authentication denial of service. Bugzilla: 2483135
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483135
+
+---
+
+#### 3047. CVE-2026-15561 - undertow-core: OOM via missing limits in chunked trailer in EAP's Undertow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undertow-core: OOM via missing limits in chunked trailer in EAP's Undertow. Bugzilla: 2483133
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483133
+
+---
+
+#### 3048. CVE-2026-15560 - openjdk-orb: unauthed class loading via IIOP in EAP
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openjdk-orb: unauthed class loading via IIOP in EAP. Bugzilla: 2483131
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2483131
+
+---
+
+#### 3049. CVE-2026-15555 - jboss-marshalling-river: wildfly-clustering-infinispan-marshalling: Jboss…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] jboss-marshalling-river: wildfly-clustering-infinispan-marshalling: Jboss Deserialization RCE via Unfiltered River Unmarshaller. Bugzilla: 2480637
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480637
+
+---
+
+#### 3050. CVE-2026-15554 - undertow-core: Undertow: Authentication Bypass via AJP ssl_cert/is_ssl Forgery
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undertow-core: Undertow: Authentication Bypass via AJP ssl_cert/is_ssl Forgery. Bugzilla: 2480601
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480601
+
+---
+
+#### 3051. CVE-2026-10579 - picketlink-federation: auth bypass in Picketlink SAML unsolicited-response
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] picketlink-federation: auth bypass in Picketlink SAML unsolicited-response. Bugzilla: 2480325
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480325
+
+---
+
+#### 3052. CVE-2026-66806 - console: console: TLS verification disabled when sending hub pull-secret to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] console: console: TLS verification disabled when sending hub pull-secret to console.redhat.com. Bugzilla: 2508667
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508667
+
+---
+
+#### 3053. CVE-2026-66805 - console: console: stored DOM XSS via unescaped pod logs in document.write
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] console: console: stored DOM XSS via unescaped pod logs in document.write. Bugzilla: 2508666
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508666
+
+---
+
+#### 3054. CVE-2026-18947 - feast: Feast: Authorization bypass in /materialize endpoints enables DoS via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] feast: Feast: Authorization bypass in /materialize endpoints enables DoS via unauthorized full re-materialization. Bugzilla: 2511164
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511164
+
+---
+
+#### 3055. CVE-2026-18982 - odh-training-operator-rhel9: RHOAI fork aggregates training job create onto native…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] odh-training-operator-rhel9: RHOAI fork aggregates training job create onto native edit/admin ClusterRoles. Bugzilla: 2511648
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511648
+
+---
+
+#### 3056. CVE-2026-18951 - odh-training-operator-rhel9: [Trainer v2 Security] TRN-02: RHOAI overlay…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] odh-training-operator-rhel9: [Trainer v2 Security] TRN-02: RHOAI overlay aggregates trainjobs CRUD into standard edit ClusterRole. Bugzilla: 2511187
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511187
+
+---
+
+#### 3057. CVE-2026-18950 - odh-dashboard: odh-dashboard: Confused-deputy privilege escalation via unchecked…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] odh-dashboard: odh-dashboard: Confused-deputy privilege escalation via unchecked roleRef in RoleBinding creation. Bugzilla: 2511170
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511170
+
+---
+
+#### 3058. [Ubuntu] USN-8627-1: Yelp vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Yelp incorrectly handled certain crafted help documents due to an overly permissive Content Security Policy. An attacker could trick a user into opening a specially crafted document, possibly resulting in the disclosure of sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8627-1
 
 ---

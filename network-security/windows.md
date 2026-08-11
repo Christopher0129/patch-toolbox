@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 923**
+**总计条目 / Total entries: 930**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13468,5 +13468,89 @@ A vulnerability has been identified in LineInst.exe (LINE for Windows) prior to 
 
 **参考链接 / References**:
 - https://line.github.io/security-advisory-blog/CVE-2026-13133/
+
+---
+
+#### 924. [webapps] Apache Gravitino 1.2.1 - SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Apache Gravitino 1.2.1 - SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52641
+
+---
+
+#### 925. [webapps] Blocksy Companion  2.1.46 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Blocksy Companion 2.1.46 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52640
+
+---
+
+#### 926. [remote] PraisonAI praisonaiagents  1.6.77 - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] PraisonAI praisonaiagents 1.6.77 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52639
+
+---
+
+#### 927. [remote] mcp-server-kubernetes 3.8.x - Argument Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] mcp-server-kubernetes 3.8.x - Argument Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52638
+
+---
+
+#### 928. [dos] LuCI DHCPv6 -  Lease Hostname Stored Cross-Site Scripting
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52637
+
+---
+
+#### 929. [webapps] Planyo_Online_Reservation_System  3.0 - Arbitrary File Read via SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52636
+
+---
+
+#### 930. [webapps] Ray 2.56.0 - Directory Traversal & Local File Inclusion
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ray 2.56.0 - Directory Traversal & Local File Inclusion
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52635
 
 ---

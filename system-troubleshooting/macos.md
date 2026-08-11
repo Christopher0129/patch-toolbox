@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8315**
+**总计条目 / Total entries: 8365**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -112395,5 +112395,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1232882#reply5
+
+---
+
+#### 8316. Had this Mac Pro bench commissioned. Turned out really nice!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlqf89/had_this_mac_pro_bench_commissioned_turned_out/
+
+---
+
+#### 8317. TIL that you can resize the iPhone mirroring window on apps to get an extended view
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlbuf2/til_that_you_can_resize_the_iphone_mirroring/
+
+---
+
+#### 8318. Are these kinds of MacBooks Air temps normal?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vluv75/are_these_kinds_of_macbooks_air_temps_normal/
+
+---
+
+#### 8319. Creating a blank calender on iMac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlsp6l/creating_a_blank_calender_on_imac/
+
+---
+
+#### 8320. Cursor AI on Mac Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlpxkn/cursor_ai_on_mac_tahoe/
+
+---
+
+#### 8321. Help: 12 GB data remains even after I’ve deleted all photos on MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlpoow/help_12_gb_data_remains_even_after_ive_deleted/
+
+---
+
+#### 8322. Can someone help to solve this bug.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlfd8o/can_someone_help_to_solve_this_bug/
+
+---
+
+#### 8323. Start with a Fresh Backup After Moving Music to External Drive?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlojnt/start_with_a_fresh_backup_after_moving_music_to/
+
+---
+
+#### 8324. Macintosh screen saver intermittent?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vloc7s/macintosh_screen_saver_intermittent/
+
+---
+
+#### 8325. Mac randomly won't detect correct PBP resolution on ultrawide monitor - sometimes works, sometimes doesn't
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlhbl1/mac_randomly_wont_detect_correct_pbp_resolution/
+
+---
+
+#### 8326. TimeMachine "waiting to complete first backup" to MyCloud when it used to work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlkz5r/timemachine_waiting_to_complete_first_backup_to/
+
+---
+
+#### 8327. MacOS Ventura Apple Mail Sent Mails Vanish
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlkpci/macos_ventura_apple_mail_sent_mails_vanish/
+
+---
+
+#### 8328. Repair or replace
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlklnz/repair_or_replace/
+
+---
+
+#### 8329. Is it worth upgrading to the new operating system from Ventura to Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlqnip/is_it_worth_upgrading_to_the_new_operating_system/
+
+---
+
+#### 8330. Launchpad, IOS27, and the Magic Keyboard F4/Launchpad shortcut
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vl4fog/launchpad_ios27_and_the_magic_keyboard/
+
+---
+
+#### 8331. App with a random icon in some variants.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vl0zun/app_with_a_random_icon_in_some_variants/
+
+---
+
+#### 8332. Gfs MacBook Air is stuck in capslock
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vl7jbr/gfs_macbook_air_is_stuck_in_capslock/
+
+---
+
+#### 8333. Is it worth using macOS Tahoe for just a month before Golden Gate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vlim6p/is_it_worth_using_macos_tahoe_for_just_a_month/
+
+---
+
+#### 8334. [V2EX] mac 软件免费下载
+
+**问题描述 / Problem Description**:
+马克喵软件免费下载 https://h5.m.goofish.com/item?id=1071930815353
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233574#reply3
+
+---
+
+#### 8335. [V2EX] macOS 27 Golden Gate beta 5 来了
+
+**问题描述 / Problem Description**:
+终于来了,诶
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233390#reply3
+
+---
+
+#### 8336. [V2EX] 给用惯了 macOS 快捷键但又必须重度使用 Windows 的朋友分享自己在用的快捷键映射方案
+
+**问题描述 / Problem Description**:
+AHK 脚本： GIST: https://gist.github.com/NobeKanai/261834ece0990b9b74272b09a350f003 注：下方评论区有一些针对特定应用单独配置的额外补充。 背景： 沟槽的工作让我必须同时用三台 JIS 布局且各有细微不同的键盘的 Windows 笔记本， 而我早已经习惯了标准的 US 布局 Mac 键盘，碰到这种实在忍不了一点。于是我直接入了一个长得挺像？ magic keyboard 的 Keychron B1 Pro ，然后物理交换了左侧 Ctrl 和 Alt 。但重度用起来还是很难受，于是开始折腾 ahk 脚本。 使用前提： 一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233233#reply3
+
+---
+
+#### 8337. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply137
+
+---
+
+#### 8338. [V2EX] 让 Codex 帮我把微信的游戏中心和小程序面板这两个讨厌的侧边栏入口去掉了
+
+**问题描述 / Problem Description**:
+微信自从更新了一个大版本，把 Mac 和 Windows 统一后，左侧边栏就多出了游戏中心和小程序入口，没有提供隐藏这两个入口的设置。网上搜了一圈也没找到可以隐藏的方法。于是让 Codex 自己摸索了一番，终于搞定了。下图是搞定之后的效果： 我把成功的经验让 Codex 提炼成了指南，想要尝试的朋友可以把以下内容复制给 Codex: 请在我的 Mac 上制作一个独立的实验版微信，隐藏左侧栏的“游戏中心”和“小程序面板”两个入口，并保证截图权限在重启后仍然有效。请实际执行、逐步验证，不要只给我命令。 一、已知结论与适用范围 1. 目标是腾讯官网下载版 macOS 微信 4.1.12： https
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232533#reply10
+
+---
+
+#### 8339. [V2EX] macbook air 扬声器播放声音有电流声，一般会是什么问题
+
+**问题描述 / Problem Description**:
+23 年购入，过保 没有播放声音的情况下，而且靠的很近才会有电流声，不知道是不是正常情况。正常距离很安静 播放声音的情况下，会有断断续续的电流声，设置当我鼠标在不同的 app 之间单击切换的时候，能够有比较大的概率主动触发这种噪声。放着不动也有有断断续续的电流声音。 如果重启电脑，在一段时间内不会有，但是过了一段时间又会有。 正在计划售后，提前发帖不知道有没有大佬遇到过相同的情况。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233683#reply1
+
+---
+
+#### 8340. [V2EX] VMware Fusion Pro 26H1 无套路下载
+
+**问题描述 / Problem Description**:
+通过博通太难下载了，需要的自取 https://www.techspot.com/downloads/2755-vmware-fusion-mac.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233619#reply5
+
+---
+
+#### 8341. [V2EX] iOS 上有没有办法连接 WiFi 的时候让特定 app 走手机流量？
+
+**问题描述 / Problem Description**:
+不想被公司的路由机记录下来，完全不用公司 WiFi 传文件也麻烦，每次都是手动打开关闭，如果可以分流就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233437#reply15
+
+---
+
+#### 8342. [V2EX] dell 的外接显示器雷电 4 接口，真的是太爽了
+
+**问题描述 / Problem Description**:
+好多个扩展口。 然后 mbp 和显示器只需要一个 typec 的支持雷电 4 的线，就可以给 mbp 充电、替代 hdmi 、扩展 mbp 的 typec 和 usb 口。我现在把罗技鼠标的 usb 的扩展直接长时间插在显示器上就可以长时间使用鼠标而不受蓝牙漂移的困扰了，插一根 typec 线到显示器，可以连手机了。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233352#reply32
+
+---
+
+#### 8343. [V2EX] 国区苹果音乐订阅价格再次上涨
+
+**问题描述 / Problem Description**:
+收到邮件“Apple 会将此订阅的价格从 ¥11.00/月上调至 ¥12.00/月。自 9 月 6 日起，订阅将以 ¥12.00/月的价格自动续期，除非提前至少一天取消订阅。” 这是平衡内存涨价带来的利润减少吗😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233159#reply7
+
+---
+
+#### 8344. [V2EX] Mac 和 Windows 可以共用一套键鼠吗
+
+**问题描述 / Problem Description**:
+想买个 Macmini 和 Windows 共用一套键鼠和显示器，不然桌子上摆不下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233018#reply51
+
+---
+
+#### 8345. [V2EX] 现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232996#reply15
+
+---
+
+#### 8346. [V2EX] iPhone 横屏
+
+**问题描述 / Problem Description**:
+你们横屏时通常灵动岛朝哪边？ 尤其是晚和平、王者时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232972#reply13
+
+---
+
+#### 8347. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply80
+
+---
+
+#### 8348. [V2EX] 就目前现状，怎么看后续国内的整体走向？
+
+**问题描述 / Problem Description**:
+笼统看外国一些分析之类的，说是中国现在就是把宝赌在科技上，然后经济主线是化债。 那么又会大概采取哪些长短期措施？ 现在看国内这失业率高飙。了解了下高中同学境况，11 个人，不同专业行业，都是普通四线小城家庭，没有突出的有钱或贫困的。3 个失业，1 个即将失业，泛体制内（师医公） 3 个，3 个低工资国企私企，1 个国企还好。22 届重点高中普通班级，四分之一一本，其他大部分是二本，个位数没过本科线，三人读研 211 （一人暂失业，两人泛体制内）。 结婚生育意愿低。也是这 11 个（ 27 岁左右），3 人结婚（两人有小孩），2 人有稳定女友（一人有近几年结婚意向），6 人无女友。 房价大约腰斩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233694#reply1
+
+---
+
+#### 8349. [V2EX] 12 个月免费 google ai plus
+
+**问题描述 / Problem Description**:
+https://internshala.com/login/student/%2Fgoogle-gemini-ai-plus 我自己成功兑了，但是网上也有不少人没有成功。 地址电话都可以是假的， 我绑定了一个虚拟信用卡 google ai plus 比 Google ai pro 低一档，不知道具体效果怎么样？ Google ai pro ，目前的 ranking 赶上 deepseek 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233699#reply2
+
+---
+
+#### 8350. [V2EX] Manus 恢复了独立运营，兜兜转转
+
+**问题描述 / Problem Description**:
+https://manus.im/zh-cn/blog/a-note-to-our-users 个人觉得这个事情最坏的影响是，未来中国公司拿投资，越来越难了，为数不多的窗口，一扇一扇关上
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233680#reply4
+
+---
+
+#### 8351. [V2EX] 整了个 Codex 中文教程站，求各位佬帮忙挑挑毛病
+
+**问题描述 / Problem Description**:
+最近一直在折腾 Codex ，发现中文入门资料还是比较散，新手很容易卡在安装、环境配置和各种报错上。 所以干脆自己整了个 Codex 中文教程网站：CodexGuide 。 https://codexguide.io 目前主要有这些内容： Windows 环境安装与配置 Windows / WSL 安装 Codex CLI Codex 基础使用方法 常见问题和实际操作案例 先叠个甲：网站目前还在持续更新，内容和使用体验肯定还有不少能改的地方。 有问题直接指出就行，轻喷（ doge ），我会继续慢慢完善 项目教程也已经开源，欢迎各位佬提 Issue 或 PR： https://github.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233621#reply5
+
+---
+
+#### 8352. [V2EX] 又找到一个有意思的网站
+
+**问题描述 / Problem Description**:
+https://lichtspektrum.github.io/liang-intensity-calibrator/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233569#reply5
+
+---
+
+#### 8353. [V2EX] Codex 自定义 Pet「DeepSeek 娘」嘴硬心软、欠欠又傲娇
+
+**问题描述 / Problem Description**:
+https://github.com/kinglisky/codex-pets 拿网友的图片让 codex 做的宠物。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233562#reply0
+
+---
+
+#### 8354. [V2EX] 卢本伟和巴旦木公主领证了
+
+**问题描述 / Problem Description**:
+没想到卢姥爷也有这一天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233538#reply21
+
+---
+
+#### 8355. [V2EX] 分享一下你的电脑桌（家里的）
+
+**问题描述 / Problem Description**:
+因为最近要买个家里的电脑桌，特此来找找灵感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233466#reply1
+
+---
+
+#### 8356. [V2EX] 我现在发现 workbuddy 做一些简单的事情还是不错的
+
+**问题描述 / Problem Description**:
+我现在发现 workbuddy 做一些简单的事情还是不错的，总不能什么事情都让 Codex 去干，有些活还是适合 workbuddy 这种的，而且最近每天签到有积分，小任务完全够用了： https://www.workbuddy.cn/events/invite?inviteCode=1z5dbcy4hsev
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233445#reply1
+
+---
+
+#### 8357. [V2EX] Anthropic 宣布在证明黎曼猜想过程中取得重大突破
+
+**问题描述 / Problem Description**:
+Anthropic 今天宣布，一个未公开的研究版 Claude 在尝试证明黎曼猜想的过程中，虽然没能证明猜想本身，却在一个相关问题上取得了重大突破： 它把黎曼 ζ 函数的非平凡零点落在临界线上的已知比例下界，从 41.6% 提高到了 67.2%。 扩展阅读： 黎曼猜想是数学界最著名的未解难题之一，1859 年提出，至今 167 年无人能证明或推翻。它的核心主张是：黎曼 ζ 函数的所有非平凡零点都落在复平面上一条特定的竖直线上，数学家称之为“临界线”。 如果这个猜想成立，素数的分布就有了一种深层的规律性。这个问题列在克雷数学研究所的七大千禧年问题之中，悬赏 100 万美元。 既然全面证明太难，数
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233420#reply4
+
+---
+
+#### 8358. [V2EX] 分享一下我常用的免费 AI 资源
+
+**问题描述 / Problem Description**:
+我是一个极低分享欲的人，但是 AI 这块我不知道为什么非常想分享，或许是很多 AI 资源都是从本站得到的。 一：Simple Chat Hub 浏览器扩展 集合各大主流 AI 模型聊天平台，支持多平台同屏同步聊天的浏览器扩展。 让我可以同时打开多个 AI CHAT BOT 网页，一键发问，多个回答，方便同时对比答案。 二、网站 Arena.ai 除了看排行榜，也可以对比两个 AI CHAT BOT 的回答，更重要的是可以免费使用 AI Agent,虽然都是抽奖模型，但是遇到不喜欢的模型再来一次就是了，Agent 能力比 CHAT BOT 好太多了。 三、Edge 浏览器 Copilot 侧边栏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233372#reply1
+
+---
+
+#### 8359. [V2EX] openAI chatGPT 是不是这两天降智很严重啊
+
+**问题描述 / Problem Description**:
+思考半天，对话毫无反应，感觉像是服务器挂了一样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233369#reply2
+
+---
+
+#### 8360. [V2EX] 关于如何在多视窗操作系统 10 下使用深度求索人工智能尽可能节省词元消耗
+
+**问题描述 / Problem Description**:
+我是多视窗操作系统 10 下谷歌的浏览器使用深度求索人工智能进行丙加加游戏编程，近期词元消耗有点多，应该怎么做可以节省点。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233332#reply17
+
+---
+
+#### 8361. [V2EX] [V50EX]分享一个自用的 Windows 10/11 的非官方 V2EX 桌面客户端，使用 WinUI 3 构建
+
+**问题描述 / Problem Description**:
+V50EX 1. 覆盖日常浏览帖子、节点检索、主题与回复、个人主页、收藏、提醒和发帖等流程（感谢、Block 、特别关注也支持） 2. 支持设置代理 3. 支持切换浅色/深色模式/跟随系统 4. 响应式布局 5. 发帖和帖子正文渲染基于 webview2 6. 安装包 60MB 和内存占用 200MB （纯 vibe coding ，一行代码没写，也不会写，更没能力优化了🤣） 已开源到 Github： https://github.com/mzbb/V50EX 一些截图分享：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233317#reply5
+
+---
+
+#### 8362. [V2EX] 有没有发现仙逆 153 集的片尾音乐很燃
+
+**问题描述 / Problem Description**:
+我转成 wav 了，你们听听。 https://on.soundcloud.com/78Eir6HSbRUDLwF00a
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233295#reply5
+
+---
+
+#### 8363. [V2EX] 🇯🇵日本职场三步跳--从派遣到日企
+
+**问题描述 / Problem Description**:
+语言学校 即便现在，面对着东京的喧嚣和冷漠，也不经会认为，多年前在两米宽大床上的决定是多么的正确。 对于自己而言，是绝对无比正确。因为等待会有无数的不确定性，待在国内越久就越会被熟悉的社交环境、便利地剥削他人而感到无比自豪，再加上与日俱增的年龄，那么出走的决心就会越来越渺小，因此现在想来 即刻 是多么地伟大。 语言学校并不是一个必要选项，可以的话，在保证现有存款和现金流的前提下直接从国内工程师切换到日本工程师是一个最优解，现在站在上帝视角去回望，努力加倍也是可以达到的，重要地是眼睛看的位置和脑子所定位的锚点。 从决定上语言学校到入学花了三个月，主要是卡日本语言学校的入学周期。学校入学周期通常分
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233062#reply20
+
+---
+
+#### 8364. How to assign key W in Less to toggle -S option
+
+**问题描述 / Problem Description**:
+Tags: linux, terminal, console, less | Score: 0 | Views: 41 | Answers: 1 | Created: 2026-06-23
+
+**解决方案 / Solution**:
+tl;dr: Put a Ctrl + P before the S Working example Here's the minimal .lesskey file I used successfully to achieve exactly what you describe: $ cat -v .lesskey #command w toggle-option ^PS The ^P is a single character entered using Ctrl + V , Ctrl + P Note that I don't have a hyphen - nor a carriage-return \n in my tested .lesskey file. Documentation The man page for less explains it this way: - Followed by one of the command line option letters (see OPTIONS below), this will change the setting of that option and print a message describing the new setting. If a ^P (CONTROL-P) is entered immediately after the dash, the setting of the option is changed but no message is printed. (my emphasis) Although the above text is for a different situation, it also works in a lesskey file.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938627/how-to-assign-key-w-in-less-to-toggle-s-option
+
+---
+
+#### 8365. Why am I experiencing mouse macro issues on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, mouse, macros, gaming, firmware | Score: 0 | Views: 57 | Answers: 1 | Created: 2026-04-08
+
+**解决方案 / Solution**:
+Your ioreg digging already found the root cause, it just needs decoding. PrimaryUsage 6 on usage page 1 is the HID declaration for “I am a keyboard.” Your Mac’s own keyboard has it, but the WLmouse receiver only exposes usages 0, 1, and 2 (vendor-defined and pointer/mouse collections) and never declares a keyboard collection. macOS routes input based on what the HID descriptor actually declares. So if an interface never says “keyboard” it can send whatever bytes it wants, but macOS won’t treat those bytes as keystrokes. That also explains why the plist edit couldn’t help. You were telling macOS which driver to consider, but no driver can add a capability that the device’s own descriptor doesn’t advertise. Windows is generally more forgiving with weird composite HID descriptors, which is why these remaps can work there and then fall apart on macOS. So the real fix is a firmware/receiver-descriptor change, which is also why support is stuck. There’s nothing actually broken on your Mac. In the meantime, the practical workaround is to do the remapping on the Mac side instead of in the mouse. Karabiner-Elements is free and open source, and it can map mouse buttons to keyboard shortcuts at the virtual-device layer. The mouse only needs to report normal button presses (which yours already does) and Karabiner can turn those into keystrokes from a virtual device that macOS fully recognizes. So I’d leave the onboard mappings as plain mouse buttons and let the Mac handle the translation.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936559/why-am-i-experiencing-mouse-macro-issues-on-macos
 
 ---
