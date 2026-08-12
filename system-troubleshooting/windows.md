@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9405**
+**总计条目 / Total entries: 9478**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -128186,5 +128186,954 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233571#reply2
+
+---
+
+#### 9406. Why is my Windows 11 taskbar (which is set to auto hide) behind windows?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, taskbar | Score: 1 | Views: 56 | Answers: 1 | Created: 2026-08-11
+
+**解决方案 / Solution**:
+There is a keyboard workaround: Press Ctrl Esc or Windows to bring the Taskabr forward. There is an old (2003), but still functional, at least on Windows 10, application, Taskbar Activate , that might fix the issue on Win 11, and there are alternatives , though I've not tested them. The app can be found at the developer's site and at Softpedia
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939623/why-is-my-windows-11-taskbar-which-is-set-to-auto-hide-behind-windows
+
+---
+
+#### 9407. MS SQL backup to rustfs gives Operating system error 12175
+
+**问题描述 / Problem Description**:
+Tags: windows, nginx, sql-server, docker, python | Score: 0 | Views: 53 | Answers: 1 | Created: 2026-08-07
+
+**解决方案 / Solution**:
+The problem is I created the self-signed certificate without nginx_proxy and mssql_server in SAN (Subject Alternative Name). I am able to trigger the backup now after recreating certificate and key with the following config and command certs/openssl.conf [req] default_bits = 2048 prompt = no default_md = sha256 distinguished_name = req_distinguished_name x509_extensions = v3_req [req_distinguished_name] C = US ST = Dev L = Local O = Development CN = nginx_proxy [v3_req] basicConstraints = CA:FALSE keyUsage = nonRepudiation, digitalSignature, keyEncipherment extendedKeyUsage = serverAuth subjectAltName = @alt_names [alt_names] # Docker container name used by MSSQL DNS.1 = nginx_proxy # Local development / fallback hostnames DNS.2 = localhost DNS.3 = rustfs_server # IP addresses IP.1 = 127.0.0.1 openssl command openssl req -x509 -nodes -days 365 -newkey rsa:2048 \ -keyout certs\docker-setup.key \ -out certs\docker-setup.crt \ -config certs\openssl.conf -extensions v3_req
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199634/ms-sql-backup-to-rustfs-gives-operating-system-error-12175
+
+---
+
+#### 9408. Dell OptiPlex Micro 7010 + Logitech Bluetooth K/M stop working after a few hours
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmo6bi/dell_optiplex_micro_7010_logitech_bluetooth_km/
+
+---
+
+#### 9409. What’s the fastest ways from backup file from pc drive to google drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmitdu/whats_the_fastest_ways_from_backup_file_from_pc/
+
+---
+
+#### 9410. Program uninstaller wiped an entire directory
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmpi85/program_uninstaller_wiped_an_entire_directory/
+
+---
+
+#### 9411. How to make the fps worse
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vms38o/how_to_make_the_fps_worse/
+
+---
+
+#### 9412. LG Monitor "Out of Range", problem went away, then scrolling down the screen caused the monitor to oscillate between black (pixels off) and light grey
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmry02/lg_monitor_out_of_range_problem_went_away_then/
+
+---
+
+#### 9413. My printer keeps printing blank pieces of paper despite the ink being full and it making printer noises
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrwx7/my_printer_keeps_printing_blank_pieces_of_paper/
+
+---
+
+#### 9414. debloating win11, safely
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrvwp/debloating_win11_safely/
+
+---
+
+#### 9415. My phone isn't charging what should I do? (Samsung galaxy A52)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrvdm/my_phone_isnt_charging_what_should_i_do_samsung/
+
+---
+
+#### 9416. Videos downgrade resolution on my 3060.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrv25/videos_downgrade_resolution_on_my_3060/
+
+---
+
+#### 9417. TV stuck on Language selection screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrqk3/tv_stuck_on_language_selection_screen/
+
+---
+
+#### 9418. Company Google workspace account can see my software and files?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrno2/company_google_workspace_account_can_see_my/
+
+---
+
+#### 9419. PC keeps swapping typing language
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmrmeg/pc_keeps_swapping_typing_language/
+
+---
+
+#### 9420. Laptop rejecting mouse after a while
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmblqs/laptop_rejecting_mouse_after_a_while/
+
+---
+
+#### 9421. Psu troubleshoot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqugd/psu_troubleshoot/
+
+---
+
+#### 9422. ScreenConnect msi GPO location (malware)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqu70/screenconnect_msi_gpo_location_malware/
+
+---
+
+#### 9423. Computer keeps losing connection again and again
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqrid/computer_keeps_losing_connection_again_and_again/
+
+---
+
+#### 9424. Help!!! Charger issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqq9e/help_charger_issue/
+
+---
+
+#### 9425. Zebra Printer only one side, no dual printing.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqpce/zebra_printer_only_one_side_no_dual_printing/
+
+---
+
+#### 9426. Why does the WIFI for the whole house turn off after I unplug my PC-WIFI setup?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqlal/why_does_the_wifi_for_the_whole_house_turn_off/
+
+---
+
+#### 9427. Controller constantly disconnecting from pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqf0e/controller_constantly_disconnecting_from_pc/
+
+---
+
+#### 9428. Unable to use IPTV with Starlink
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmqcsa/unable_to_use_iptv_with_starlink/
+
+---
+
+#### 9429. My pictures are only showing some thumbnails and the rest icons.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmpv27/my_pictures_are_only_showing_some_thumbnails_and/
+
+---
+
+#### 9430. Monitor has no signal after “update and shutdown” last night?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmpm1v/monitor_has_no_signal_after_update_and_shutdown/
+
+---
+
+#### 9431. Dj controller breaks usb?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vmpgq6/dj_controller_breaks_usb/
+
+---
+
+#### 9432. Weekly Discovery Thread - August 07, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vhxgiz/weekly_discovery_thread_august_07_2026/
+
+---
+
+#### 9433. What's the best method/ software to Compare differences between 2 text files ?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmc067/whats_the_best_method_software_to_compare/
+
+---
+
+#### 9434. Is it technically possible for someone to "secure" a rate-limited web request for you using their own software ?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmp5gb/is_it_technically_possible_for_someone_to_secure/
+
+---
+
+#### 9435. What building a 78-tool AI agent for macOS taught me about AI safety (Wednesday share + free trial)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmqx5z/what_building_a_78tool_ai_agent_for_macos_taught/
+
+---
+
+#### 9436. [Self-Promotion Wednesday] I spent the last 6 months building DeskForge – A lightweight, one-time purchase alternative to Fences for Windows!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmphyu/selfpromotion_wednesday_i_spent_the_last_6_months/
+
+---
+
+#### 9437. End Screenshot Hell. Bulk web capture to PPTX. Capture > Resize > PowerPoint — All in 1 Click for Web & PowerPoint Users
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vme044/end_screenshot_hell_bulk_web_capture_to_pptx/
+
+---
+
+#### 9438. Gola - radial launcher for Windows to replace alt + tab from your workflow
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmm4fl/gola_radial_launcher_for_windows_to_replace_alt/
+
+---
+
+#### 9439. Mp4 to amv conversation
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmfnz4/mp4_to_amv_conversation/
+
+---
+
+#### 9440. Nabzex - free workout timer app - html+js
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmlwgl/nabzex_free_workout_timer_app_htmljs/
+
+---
+
+#### 9441. Sistema PDV
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmfiab/sistema_pdv/
+
+---
+
+#### 9442. Help
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmebyp/help/
+
+---
+
+#### 9443. Frame: A screenshot, whiteboard, screenshot AI annotation, App Store screenshot generator with lifetime updates
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmdj64/frame_a_screenshot_whiteboard_screenshot_ai/
+
+---
+
+#### 9444. MPC-BE gpu utilization issue solved on my case
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmifsx/mpcbe_gpu_utilization_issue_solved_on_my_case/
+
+---
+
+#### 9445. CursorCharm is now released on Steam!
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmi8xs/cursorcharm_is_now_released_on_steam/
+
+---
+
+#### 9446. How do you quickly review a folder with 10+ image formats? Here’s the workflow we built
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmhxse/how_do_you_quickly_review_a_folder_with_10_image/
+
+---
+
+#### 9447. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmgedz/removed_by_reddit/
+
+---
+
+#### 9448. Tasket++ : Simulate your Windows actions automatically (free & open source)
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vm5jy2/tasket_simulate_your_windows_actions/
+
+---
+
+#### 9449. Memento: an open-source screenshot tool that idles at 8 MB of RAM and stays out of your way
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmc4kc/memento_an_opensource_screenshot_tool_that_idles/
+
+---
+
+#### 9450. DejaVu: open-source instant replay for Windows that survives crashes and keeps Discord out of your clips
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmc1ok/dejavu_opensource_instant_replay_for_windows_that/
+
+---
+
+#### 9451. Symphonium alternative for windows
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vlyrdq/symphonium_alternative_for_windows/
+
+---
+
+#### 9452. I got tired of sending text to myself just to get it from Android to Windows, so I built this
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vmhonf/i_got_tired_of_sending_text_to_myself_just_to_get/
+
+---
+
+#### 9453. Would an open-source alternative to Screen Studio for auto-zooming screen recordings be useful?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vm6jrx/would_an_opensource_alternative_to_screen_studio/
+
+---
+
+#### 9454. Claude code consumed in two months 2.2 billion tokens, how did that happen?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vlle6q/claude_code_consumed_in_two_months_22_billion/
+
+---
+
+#### 9455. I built a small screenshot/record app for linux
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vlo00m/i_built_a_small_screenshotrecord_app_for_linux/
+
+---
+
+#### 9456. What’s the best free PDF translator that actually keeps the formatting?
+
+**问题描述 / Problem Description**:
+Reddit r/software discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/software/comments/1vlsmwe/whats_the_best_free_pdf_translator_that_actually/
+
+---
+
+#### 9457. [V2EX] 十几年了，微软还是没修复资源管理器图标排列的问题
+
+**问题描述 / Problem Description**:
+前段时间做了段时间兼职，重新用回了半个月的 win7 ，又想起了这个让我十几年都如鲠在喉的 bug：微软在新的资源管理器中，整个桌面的图标管理几乎都是混乱的。 印象里是 win8.1 或者是 win10 引入的问题 例如因为删除软件，之前的图标中间空了一个，win7 只需要两次拖动就能补上这个空缺，还不影响顺序 而 windows 10 开始，这么排会直接扰乱图标顺序，我也没找到其他能正确快速排序的方法，只能一列一列的手动拉 再比如对于因为高分辨率屏幕开启了百分比缩放的情况，win11 图标排序经常是错位的，拖动位置和到达的位置经常对不上 而 win7 则是指哪打哪 除了这些，还有什么图标大小
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233590#reply44
+
+---
+
+#### 9458. [V2EX] 做了个原生的护眼应用
+
+**问题描述 / Problem Description**:
+AI 时代下，用眼压力越来越大，所以我自己做了个护眼应用： 憩目 ，基于 20-20-20 法则开发，每用眼 20 分钟提醒你看向 6 米外 20 秒。主要特性如下： 支持会议与全屏识别，开会、演示、打游戏时自动免打扰，人离开电脑时倒计时冻结； 可自定义眼部休息时长与频率 提供屏幕时长、用眼休息时长统计 支持浅色/深色/跟随系统主题 无遥测、无隐私负担 大家在 Vibe Coding 的同时注意用眼健康哦，感谢大家支持~ 下载地址： 从 Microsoft Store 下载
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1228073#reply6
+
+---
+
+#### 9459. [V2EX] 现在阿里还通 ix 吗
+
+**问题描述 / Problem Description**:
+如题,想问问各位大佬现在阿里还通哪一家 ix,看到隔壁站有人发了一个前海 ix 的拼车,说是可以通阿里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233977#reply0
+
+---
+
+#### 9460. [V2EX] 前端岗位现在 6.5k，还混的下去吗
+
+**问题描述 / Problem Description**:
+现在程序员岗位行情都是多少，三线城市的这种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233968#reply1
+
+---
+
+#### 9461. [V2EX] 大家真的觉得 Manus 是套壳 Agent 么
+
+**问题描述 / Problem Description**:
+虽然大部分人、尤其是开发者觉得 Manus 技术难度很低，但真没有在任何产品上感受过 Manus 这么丝滑的体验，不知道大家怎么想
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233958#reply3
+
+---
+
+#### 9462. [V2EX] web3 holdings limited 是个啥公司？
+
+**问题描述 / Problem Description**:
+有人收到了个主题里有这个名字的面试邮件，发件人是 mokahr 的 sg 邮箱，面试链接是 lark 的，邮件提到要开摄像头和共享屏幕与 coding 。 HR 联系的手机号是北京的，135***33 ，支付宝实名认证。说是公司 2022 年成立，主要做海外市场，北京研发团队 200 多人。 网上搜了一圈，只找到家英国的同名公司，但去年已注销。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233955#reply3
+
+---
+
+#### 9463. [V2EX] 从 DeepSeek 切换到 GPT，发现 GPT 运行好慢，等待的时间除了抽烟，还有什么好的方式消磨时间
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233939#reply3
+
+---
+
+#### 9464. [V2EX] 听说 claude 不退款了，需要发邮件申请，佬们有遇到的吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233938#reply6
+
+---
+
+#### 9465. [V2EX] MAC 的爆音问题解决了没有
+
+**问题描述 / Problem Description**:
+M1PRO,好像内存或者 CPU 负载上来的时候,就会有爆音,我看了一圈好像这个问题存在很多年了,不知道现在新版本系统有修复么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233936#reply0
+
+---
+
+#### 9466. [V2EX] 捡到了一个钱包，怎么找失主--北京/北理工-计院博士/李*庆
+
+**问题描述 / Problem Description**:
+钱包里有身份证/学生证/银行卡等，钱包本身也挺贵 我尝试了脉脉发帖/邮箱咨询计院的公开邮箱/加入北理工的 qq 群，都未果。 失主既然是计院的，会不会也逛 v2 ？ 好像并没有一个足够大的失物招领平台/小程序
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233927#reply12
+
+---
+
+#### 9467. [V2EX] 平安银行办信用卡送 iPad ，这个有啥坑么
+
+**问题描述 / Problem Description**:
+平安银行办信用卡送 ipad ，这个有啥坑么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233923#reply2
+
+---
+
+#### 9468. [V2EX] 我不是重度程序员，同时用 Claude、Codex 做研究和写作，有必要认真维护一套 AI 记忆吗
+
+**问题描述 / Problem Description**:
+如题 我不是重度程序员，平时主要用 Claude 和 Codex 查资料、读项目、整理思路和改文章 单次任务都挺好用，但只要隔几天、换个 session 或换个 Agent ，之前的背景就断了。已经排除过的结论会重新讨论，纠正过的写作习惯也要再说一遍。重要内容虽然可以放进文档，但资料多了以后，我自己都不知道该让 AI 读哪份。。。。。 最近在试 memU 把重复的工作方式沉淀成 skill ，在 Claude 、Codex 和不同设备间继续使用 但我有点怀疑维护成本。如果 AI 记错了，或者把一次性的想法当成长期偏好，最后是不是还得定期检查和清理？ 那它和自己维护 Notion 、Obsidi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233919#reply2
+
+---
+
+#### 9469. [V2EX] 1400 出致态 TiPlus7100 2T M2
+
+**问题描述 / Problem Description**:
+一直插在 ps5 里积灰，现决定出掉 黄鱼链接： https://m.tb.cn/h.8hTVwVG?tk=zESqTZ4Zokc CZ028
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233913#reply0
+
+---
+
+#### 9470. [V2EX] UU 远程 MAC2 个小时磁盘写入 30G 是正常的吗？
+
+**问题描述 / Problem Description**:
+闲着没事看了下磁盘写入，发现 UU 这个进程写入比较大，大概计算了一下，2 个小时左右涨了 30g 。是正常的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233902#reply3
+
+---
+
+#### 9471. [V2EX] 跨境电商后端岗 转型 偏程序化广告+AI 后端岗
+
+**问题描述 / Problem Description**:
+想从后端转程序化广告 / AdTech 方向，求行业前景和学习路线建议 本人 7 年后端开发经验 ，目前在小公司做高级开发 / 开发组长。 技术方面相对比较杂，基本属于 全栈都干 ： 后端开发为主 前端能做一些 爬虫相关也还 OK 做过数据清洗、数据处理 有 SaaS 云管相关经验 目前主要是 跨境电商业务 小公司待得比较久，所以从业务到技术、部署运维基本都会接触一些 最近几年随着 AI 快速发展，越来越明显地感觉到： 纯技术本身的壁垒可能会逐渐降低，技术最终还是要服务于业务。 所以最近也在考虑后续的职业方向。 个人感觉现在依然是一个 流量至上的时代 ，只要互联网流量还存在，广告商业化应该就是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233901#reply4
+
+---
+
+#### 9472. [V2EX] 有没有什么特别准的天气预报的应用吗 ？
+
+**问题描述 / Problem Description**:
+最近感觉手机上的天气预报都不准确。有没有很准的（ 3 天左右）的就可以的应用吗？求推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233887#reply11
+
+---
+
+#### 9473. [V2EX] 做游戏生成素材，使用 web 的 work 效果好，还是使用 codex 直接生成效果好
+
+**问题描述 / Problem Description**:
+我都试了一下感觉差不多？但是额度不是很多所以没有大面积使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233884#reply2
+
+---
+
+#### 9474. [V2EX] 你们都是从哪里关注 AI 资讯的？
+
+**问题描述 / Problem Description**:
+国内的公众号不太想看，先不说广告多，我自己就没看公众号的习惯。 X 上我一般不敢在公司网络上，号已经被我养成专门看 18X 的了，也不想去关注大佬的账号，避免号废了 0.0 因此我知道资讯的途径就很零散，基本都是一些群消息，或是 B 站关注的自媒体账号。消息就相对迟缓，很多新闻过了一两天才会知道。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233877#reply8
+
+---
+
+#### 9475. [V2EX] 大佬们，我准备用 codex+godot 做个游戏，有没有啥建议？纯小白
+
+**问题描述 / Problem Description**:
+大佬们好，最近看到 v 友，用 codex+godot 做了游戏，试玩了下，感觉还可以。我也有点想法想做成游戏，这两天用 codex 跑了个没美术的 demo ，看起来效果还可以。世界观，游戏核心玩法，角色、怪物地图设计都整理好了设计文档。准备正式动工了。 我计划是先不考虑美术，先把游戏跑起来。能正常游玩后再把美术加进来。想跟大老板们取取经，不知道我目前做的方向对不对？大佬们有没有啥建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233873#reply2
+
+---
+
+#### 9476. [V2EX] 七夕给女朋友买啥？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233872#reply0
+
+---
+
+#### 9477. [V2EX] 现在 macbook pro 16 48g 1t 上哪买合适？
+
+**问题描述 / Problem Description**:
+能比官方便宜点还能靠点谱的，不要外版，大佬指个路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233871#reply6
+
+---
+
+#### 9478. [V2EX] 有什么不抽卡的手游还上头的么？
+
+**问题描述 / Problem Description**:
+游戏荒了，二游越来越无聊了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233867#reply22
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2766**
+**总计条目 / Total entries: 2790**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -50463,5 +50463,389 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8627-1
+
+---
+
+#### 2767. CVE-2026-18663 - 389-ds-base: 389-ds-base: pre-authentication double-free in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-authentication double-free in get_ldapmessage_controls_ext() via critical Session Tracking control. Bugzilla: 2510631
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510631
+
+---
+
+#### 2768. CVE-2026-9318 - tablib: tablib: Arbitrary JavaScript execution via stored Cross-Site Scripting in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tablib: tablib: Arbitrary JavaScript execution via stored Cross-Site Scripting in HTML export. Bugzilla: 2514468
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514468
+
+---
+
+#### 2769. CVE-2026-19587 - rlottie: rlottie: Denial of Service due to excessive resource allocation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rlottie: rlottie: Denial of Service due to excessive resource allocation. Bugzilla: 2514466
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514466
+
+---
+
+#### 2770. CVE-2026-68430 - kernel: drm/amdgpu/gfx8: drop unecessary BUG_ON()
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amdgpu/gfx8: drop unecessary BUG_ON(). Bugzilla: 2514455
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514455
+
+---
+
+#### 2771. CVE-2026-68450 - kernel: btrfs: free mapping node on duplicate reloc root insert
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: btrfs: free mapping node on duplicate reloc root insert. Bugzilla: 2514461
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514461
+
+---
+
+#### 2772. CVE-2026-19559 - chromium-browser: Google Chrome: Arbitrary code execution via use after free in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Arbitrary code execution via use after free in HTML. Bugzilla: 2514404
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514404
+
+---
+
+#### 2773. CVE-2026-19557 - chromium-browser: Chromium: Sandbox escape via use-after-free in TabStrip
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Sandbox escape via use-after-free in TabStrip. Bugzilla: 2514408
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514408
+
+---
+
+#### 2774. CVE-2026-19558 - chromium-browser: Google Chrome Extensions: Arbitrary code execution via malicious…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome Extensions: Arbitrary code execution via malicious extension installation. Bugzilla: 2514410
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514410
+
+---
+
+#### 2775. CVE-2026-19556 - chromium-browser: chromium-browser: Arbitrary code execution via use-after-free in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Arbitrary code execution via use-after-free in V8. Bugzilla: 2514407
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514407
+
+---
+
+#### 2776. CVE-2026-73281 - openssh: OpenSSH: ssh-agent allows remote execution of local operations
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssh: OpenSSH: ssh-agent allows remote execution of local operations. Bugzilla: 2514327
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514327
+
+---
+
+#### 2777. CVE-2026-73214 - coturn: coturn: Denial of Service via unverified DTLS session state
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] coturn: coturn: Denial of Service via unverified DTLS session state. Bugzilla: 2514259
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514259
+
+---
+
+#### 2778. CVE-2026-19550 - freeipa: ipa: FreeIPA: trust-fetch-domains uses trust-read ACI to gate a…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] freeipa: ipa: FreeIPA: trust-fetch-domains uses trust-read ACI to gate a privileged AD trust refresh, allowing unauthorized LDAP writes. Bugzilla: 2514019
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514019
+
+---
+
+#### 2779. CVE-2026-72746 - FreeRDP: FreeRDP: Authentication bypass in RDSTLS handshake via PDU-type confusion
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Authentication bypass in RDSTLS handshake via PDU-type confusion. Bugzilla: 2513945
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2513945
+
+---
+
+#### 2780. CVE-2026-72745 - FreeRDP: FreeRDP: Information disclosure and memory corruption via malformed…
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Information disclosure and memory corruption via malformed Kerberos GSS Wrap token. Bugzilla: 2513936
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2513936
+
+---
+
+#### 2781. CVE-2026-71467 - acm-search-v2-api-rhel9: search-v2-api: Authentication bypass on /federated via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-api-rhel9: search-v2-api: Authentication bypass on /federated via Upgrade: websocket header spoofing. Bugzilla: 2512146
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512146
+
+---
+
+#### 2782. CVE-2026-71468 - acm-search-v2-api-rhel9: search-v2-api: Cross-user bearer-token reuse via global…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-api-rhel9: search-v2-api: Cross-user bearer-token reuse via global federation-config cache. Bugzilla: 2512147
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512147
+
+---
+
+#### 2783. CVE-2026-71474 - insights-client-rhel9: insights-client: Pull-secret bearer token written to logs…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] insights-client-rhel9: insights-client: Pull-secret bearer token written to logs on non-200 CCX response. Bugzilla: 2512153
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512153
+
+---
+
+#### 2784. CVE-2026-71475 - insights-client-rhel9: insights-client: Spoke-controlled ClusterID injected…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] insights-client-rhel9: insights-client: Spoke-controlled ClusterID injected unencoded into Insights API URL path. Bugzilla: 2512154
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512154
+
+---
+
+#### 2785. CVE-2026-71845 - insights-client: insights-client: CCX_TOKEN bearer credential logged in clear text…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] insights-client: insights-client: CCX_TOKEN bearer credential logged in clear text at startup via setDefault(). Bugzilla: 2512568
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512568
+
+---
+
+#### 2786. CVE-2026-14180 - undertow-core: Undertow:HTTP request smuggling via oversized chunk-size bit overlap
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undertow-core: Undertow:HTTP request smuggling via oversized chunk-size bit overlap. Bugzilla: 2494771
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494771
+
+---
+
+#### 2787. [Ubuntu] USN-8636-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Media drivers; - Network drivers; - Mellanox network drivers; - Texas Instruments network drivers; - NVME drivers; - File systems infrastructure; - SMB network file system; - I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8636-1
+
+---
+
+#### 2788. [Ubuntu] USN-8635-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel w
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8635-1
+
+---
+
+#### 2789. [Ubuntu] USN-8630-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8630-1
+
+---
+
+#### 2790. [Ubuntu] USN-8629-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-2026-46331, CVE-2026-52924, CVE-20
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8629-1
 
 ---

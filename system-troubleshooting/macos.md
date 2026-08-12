@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8365**
+**总计条目 / Total entries: 8416**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -113045,5 +113045,668 @@ Your ioreg digging already found the root cause, it just needs decoding. Primary
 
 **参考链接 / References**:
 - https://superuser.com/questions/1936559/why-am-i-experiencing-mouse-macro-issues-on-macos
+
+---
+
+#### 8366. Is anyone doing QA at Apple these days?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmiih1/is_anyone_doing_qa_at_apple_these_days/
+
+---
+
+#### 8367. Why is the file manager just called files on IOS? Why isn’t it called finder like on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm352o/why_is_the_file_manager_just_called_files_on_ios/
+
+---
+
+#### 8368. Biggest In-App-Purchase possible?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm6kg7/biggest_inapppurchase_possible/
+
+---
+
+#### 8369. Mac OS X Mavericks 10.9 on a MacBook Pro 2012, captured with a Fujifilm FinePix J28.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmat1e/mac_os_x_mavericks_109_on_a_macbook_pro_2012/
+
+---
+
+#### 8370. Is there a way to stop my Mac from locking itself/going to sleep when it stops charging in clamshell mode?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmo80x/is_there_a_way_to_stop_my_mac_from_locking/
+
+---
+
+#### 8371. Has iPhone Mirroring worked predictably or been a source of frustration?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmrzta/has_iphone_mirroring_worked_predictably_or_been_a/
+
+---
+
+#### 8372. Apple Intelligence Stuck Downloading macos tahoe 26.6 m4 pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmrond/apple_intelligence_stuck_downloading_macos_tahoe/
+
+---
+
+#### 8373. Mission control wallpaper bug
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmr65f/mission_control_wallpaper_bug/
+
+---
+
+#### 8374. Export Voice Memos audio visualization as a video file (MP4 or MOV)?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmgei0/export_voice_memos_audio_visualization_as_a_video/
+
+---
+
+#### 8375. Keychron M6 mouse settings for browsing?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmkpkv/keychron_m6_mouse_settings_for_browsing/
+
+---
+
+#### 8376. is macOS Monterey still recommended for Intels?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vme8u4/is_macos_monterey_still_recommended_for_intels/
+
+---
+
+#### 8377. Shrunk icons in dock
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm80h0/shrunk_icons_in_dock/
+
+---
+
+#### 8378. need help with command
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmhq6t/need_help_with_command/
+
+---
+
+#### 8379. WYSIWYG Website creator
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm6z9b/wysiwyg_website_creator/
+
+---
+
+#### 8380. Is there a fix to these animation stutters?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmkf0b/is_there_a_fix_to_these_animation_stutters/
+
+---
+
+#### 8381. Messages App Won’t Launch Tahoe 26.6.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vme2k7/messages_app_wont_launch_tahoe_2661/
+
+---
+
+#### 8382. Locked out of MacBook. Paper weight?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vly880/locked_out_of_macbook_paper_weight/
+
+---
+
+#### 8383. I recently tried downloading an app with terminal link and after few beeps the terminal is showing blank and nothing is happening help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmoe29/i_recently_tried_downloading_an_app_with_terminal/
+
+---
+
+#### 8384. Hi, im making Liquid Glass icons for businesses. I can do iOS 26 or iOS 27 style. Free of charge. Ask me in the comments if you want one made by me. I can also do it for projects and apps. Please send me a .png or .jpg file in the comments.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmrf2w/hi_im_making_liquid_glass_icons_for_businesses_i/
+
+---
+
+#### 8385. the 26.6.1 update froze my mac & almost gave me a heart attack!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmcy6h/the_2661_update_froze_my_mac_almost_gave_me_a/
+
+---
+
+#### 8386. Any way to create or restore an admin account without an admin account?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm4f03/any_way_to_create_or_restore_an_admin_account/
+
+---
+
+#### 8387. help with iMessage Activation on OS X 10.9.5?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm4dgn/help_with_imessage_activation_on_os_x_1095/
+
+---
+
+#### 8388. Problemas con ajustes de sistema
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vm7qxj/problemas_con_ajustes_de_sistema/
+
+---
+
+#### 8389. [V2EX] macOS 27 Golden Gate beta 5 来了
+
+**问题描述 / Problem Description**:
+终于来了,诶
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233390#reply10
+
+---
+
+#### 8390. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply136
+
+---
+
+#### 8391. [V2EX] mac mini m4 GPU 性能支撑不住 4K
+
+**问题描述 / Problem Description**:
+mac mini m4 外接显示器 GPU 在有些场景下 占用特别高。 有碰到相同问题的吗。。。 比如说看 B 站视频 GPU 也能拉满，然后温度上到 8 ，90 。。 还会很卡 parsec 远程 mac mini 的时候也是 有些特效很多的网站就会特别卡。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230263#reply59
+
+---
+
+#### 8392. [V2EX] Google.com user-agent 设置为 iOS chrome
+
+**问题描述 / Problem Description**:
+我最近设置之后就没有那个搜索完成之后 Google app 推广了 不知道是不是其他因素， Google.com 关闭了去使用 app 还是继续 Safari 。 如果没有修改 user-agent 的工具，是不是 js 可以代替？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233705#reply3
+
+---
+
+#### 8393. [V2EX] macbook air 扬声器播放声音有电流声，一般会是什么问题
+
+**问题描述 / Problem Description**:
+23 年购入，过保 没有播放声音的情况下，而且靠的很近才会有电流声，不知道是不是正常情况。正常距离很安静 播放声音的情况下，会有断断续续的电流声，设置当我鼠标在不同的 app 之间单击切换的时候，能够有比较大的概率主动触发这种噪声。放着不动也有有断断续续的电流声音。 如果重启电脑，在一段时间内不会有，但是过了一段时间又会有。 正在计划售后，提前发帖不知道有没有大佬遇到过相同的情况。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233683#reply5
+
+---
+
+#### 8394. [V2EX] VMware Fusion Pro 26H1 无套路下载
+
+**问题描述 / Problem Description**:
+通过博通太难下载了，需要的自取 https://www.techspot.com/downloads/2755-vmware-fusion-mac.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233619#reply9
+
+---
+
+#### 8395. [V2EX] iOS 上有没有办法连接 WiFi 的时候让特定 app 走手机流量？
+
+**问题描述 / Problem Description**:
+不想被公司的路由机记录下来，完全不用公司 WiFi 传文件也麻烦，每次都是手动打开关闭，如果可以分流就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233437#reply16
+
+---
+
+#### 8396. [V2EX] dell 的外接显示器雷电 4 接口，真的是太爽了
+
+**问题描述 / Problem Description**:
+好多个扩展口。 然后 mbp 和显示器只需要一个 typec 的支持雷电 4 的线，就可以给 mbp 充电、替代 hdmi 、扩展 mbp 的 typec 和 usb 口。我现在把罗技鼠标的 usb 的扩展直接长时间插在显示器上就可以长时间使用鼠标而不受蓝牙漂移的困扰了，插一根 typec 线到显示器，可以连手机了。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233352#reply39
+
+---
+
+#### 8397. [V2EX] 国区苹果音乐订阅价格再次上涨
+
+**问题描述 / Problem Description**:
+收到邮件“Apple 会将此订阅的价格从 ¥11.00/月上调至 ¥12.00/月。自 9 月 6 日起，订阅将以 ¥12.00/月的价格自动续期，除非提前至少一天取消订阅。” 这是平衡内存涨价带来的利润减少吗😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233159#reply10
+
+---
+
+#### 8398. [V2EX] 图库的三个工具可以用了！
+
+**问题描述 / Problem Description**:
+之前一点就报错～ 昨天偶然间发现壁纸可以扩图了，然后试了一下图库里的，发现都可以用了～ 是因为国内智能要上了？？？ Siri 还是跑马灯。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233140#reply6
+
+---
+
+#### 8399. [V2EX] Mac 和 Windows 可以共用一套键鼠吗
+
+**问题描述 / Problem Description**:
+想买个 Macmini 和 Windows 共用一套键鼠和显示器，不然桌子上摆不下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233018#reply52
+
+---
+
+#### 8400. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply82
+
+---
+
+#### 8401. [V2EX] 有没有什么特别准的天气预报的应用吗 ？
+
+**问题描述 / Problem Description**:
+最近感觉手机上的天气预报都不准确。有没有很准的（ 3 天左右）的就可以的应用吗？求推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233887#reply12
+
+---
+
+#### 8402. [V2EX] PDF 转二维码，实现在线文件存储和分享
+
+**问题描述 / Problem Description**:
+为什么要把 pdf 文件转成二维码 ？ 我们常用的场景， 把线下实物（纸张、包装、名片、海报）和线上电子文档打通 ，解决纸质分发、文件传递、版本管理、线下展示的痛点 一、线下物料极简承载，省去大量纸质印刷 减少纸张、降低成本 产品说明书、合同、招生简章、景区导览、设备手册不用打印厚厚的纸质册，只印一个小二维码即可，大幅节约印刷、仓储、运输成本。 例：家电包装只印二维码，消费者扫码看完整 PDF 说明书，不用塞厚厚纸质手册。 节省版面空间 名片、展架、产品贴纸、菜单空间极小，放不下完整文件，一个二维码就能承载几十页 PDF 资料。 二、动态更新文件，二维码图案永远不用换（活码核心优势） 主流 P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233917#reply1
+
+---
+
+#### 8403. [V2EX] 今天才发现 youtube music 不错
+
+**问题描述 / Problem Description**:
+之前一直订阅 apple music 但是涨价+优惠到期了，就没续费， 网页打开 music.youtube.com 就可以听，也没啥广告 多年来不得不承认，我是个木耳+不能欣赏音乐，也就听个经典影视歌曲 有些歌确实夹杂着岁月。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233907#reply8
+
+---
+
+#### 8404. [V2EX] 支付宝的 AI 产品“阿宝”存在的意义是什么？
+
+**问题描述 / Problem Description**:
+今天第一次用了支付宝的 AI 产品“阿宝”，难用到怀疑人生。 平时用支付宝最多的场景就是： 查看昨日收益 付款 生活缴费 小程序打车 还信用卡 以上几个高频使用场景不仅没有一个能够替代原使用习惯，甚至让这几个动作变得更复杂了！这完全背离了 AI 产品的初衷啊！真希望国内这些产品用心的去调研去琢磨到底什么才是用户想要的，而不是为了不掉队把没经过检验的产品匆匆上架！参考「置身钉内」的事件，还不吸纳点教训吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233863#reply16
+
+---
+
+#### 8405. [V2EX] 在土耳其 oyunfor 购买 appstore 礼品卡 VISA 付款失败，大家有没有遇到呢？
+
+**问题描述 / Problem Description**:
+报错：Payment has not been approved. The cardholder should contact their bank. 用的招行 VISA ，找微信信用卡客服，客服反馈卡正常，没有触发招行风控，请外各位大佬可能什么原因？机场换了几个了都不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233832#reply18
+
+---
+
+#### 8406. [V2EX] 沸沸扬扬的 sorry 勒索病毒的宣传,跟营销号一样。
+
+**问题描述 / Problem Description**:
+"沸沸扬扬",内心咯噔一下,nginx 还是 mysql 出漏洞了? 立马去 V2EX linux.do 的搜索下,没人讨论啊。 搜到正常文章的解释: cPanel 授权漏洞 ( cPanel 啥玩意??? 没听过) 特意去搜了才知道是管理面板。 视频从到尾都没说是 Cpanel ,还扯 linux 大旗。 然后那些不明真相的人在评论区: 哦不不不 我用的是 Ubuntu 系统[Facepalm] 大家不用害怕，这个病毒只会在 Linux 系统里运行，你们用 Windows 的安然无恙... ...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233806#reply1
+
+---
+
+#### 8407. [V2EX] 7.3 + 25% 等于 7.55 还是 9.125？
+
+**问题描述 / Problem Description**:
+小朋友问“7.3 + 25% 等于多少”，我和媳妇都以为是 7.55 ，计算器结果是 9.125 查了下设计也能理解，但总觉得很诡异。 也用了下搜索引擎，答案也不同，有点意思 AI 似乎也有不同的想法：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233804#reply27
+
+---
+
+#### 8408. [V2EX] Google 是已经放弃 Gemini 了么？
+
+**问题描述 / Problem Description**:
+憋了老久憋出一坨大的（几个 3.6 Flash 变体），3.5 Pro 至今杳无音信，我看网上有人给出解释说，Gemini 转向主打性价比市场，那性价比这块它能与国产模型竞争？而且就普通用户的日常使用感受来说，3.6 Flash 给我的感觉也是不如 GPT 同等级的模型，后者就是能给我一种务实、高效的感觉，而前者喜欢说一堆有的没的。不过话又说回来，我现在确实还在时不时使用 3.6 Flash ，一是因为它世界知识丰富，二是——因为它说话好听。没错，虽然它喜欢说一堆有的没的，但用户听上去舒服，情绪价值这块给好给满🤣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233798#reply7
+
+---
+
+#### 8409. [V2EX] 安卓 wps 占用内存过大，近 40 个 G
+
+**问题描述 / Problem Description**:
+因为平时办公看 pdf 等经常需要同步功能，渐渐地就把 wps 作为主力软件了，mac 、Windows 、安卓等各个平台都安装了。前段时间手机总是冒出提示说内存不够用，然后发现 wps 占了 38 个 G 的存储，应该是用了一年不到的时间。难道 wps 会自动把所有文件都下载到本地？不清楚是不是开了同步和自动备份的原因。设置里其他相关选项只看到选择哪些文件离线可用，也不至于所有文件都自动离线吧😭目前貌似只有安卓端遇到这个问题（之前老版本的没注意到过类似问题），ipad 、mac 、Windows 端都没有（虽然基本也都是越更新越卡😂）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233771#reply8
+
+---
+
+#### 8410. [V2EX] 12 个月免费 google ai plus
+
+**问题描述 / Problem Description**:
+https://internshala.com/login/student/%2Fgoogle-gemini-ai-plus 我自己成功兑了，但是网上也有不少人没有成功。 地址电话都可以是假的， 我绑定了一个虚拟信用卡 google ai plus 比 Google ai pro 低一档，不知道具体效果怎么样？ Google ai pro ，目前的 ranking 赶上 deepseek 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233699#reply10
+
+---
+
+#### 8411. [V2EX] Manus 恢复了独立运营，兜兜转转
+
+**问题描述 / Problem Description**:
+https://manus.im/zh-cn/blog/a-note-to-our-users 个人觉得这个事情最坏的影响是，未来中国公司拿投资，越来越难了，为数不多的窗口，一扇一扇关上
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233680#reply10
+
+---
+
+#### 8412. [V2EX] 整了个 Codex 中文教程站，求各位佬帮忙挑挑毛病
+
+**问题描述 / Problem Description**:
+最近一直在折腾 Codex ，发现中文入门资料还是比较散，新手很容易卡在安装、环境配置和各种报错上。 所以干脆自己整了个 Codex 中文教程网站：CodexGuide 。 https://codexguide.io 目前主要有这些内容： Windows 环境安装与配置 Windows / WSL 安装 Codex CLI Codex 基础使用方法 常见问题和实际操作案例 先叠个甲：网站目前还在持续更新，内容和使用体验肯定还有不少能改的地方。 有问题直接指出就行，轻喷（ doge ），我会继续慢慢完善 项目教程也已经开源，欢迎各位佬提 Issue 或 PR： https://github.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233621#reply6
+
+---
+
+#### 8413. [V2EX] 又找到一个有意思的网站
+
+**问题描述 / Problem Description**:
+https://lichtspektrum.github.io/liang-intensity-calibrator/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233569#reply6
+
+---
+
+#### 8414. [V2EX] 卢本伟和巴旦木公主领证了
+
+**问题描述 / Problem Description**:
+没想到卢姥爷也有这一天
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233538#reply27
+
+---
+
+#### 8415. [V2EX] 分享一下你的电脑桌（家里的）
+
+**问题描述 / Problem Description**:
+因为最近要买个家里的电脑桌，特此来找找灵感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233466#reply2
+
+---
+
+#### 8416. [V2EX] Anthropic 宣布在证明黎曼猜想过程中取得重大突破
+
+**问题描述 / Problem Description**:
+Anthropic 今天宣布，一个未公开的研究版 Claude 在尝试证明黎曼猜想的过程中，虽然没能证明猜想本身，却在一个相关问题上取得了重大突破： 它把黎曼 ζ 函数的非平凡零点落在临界线上的已知比例下界，从 41.6% 提高到了 67.2%。 扩展阅读： 黎曼猜想是数学界最著名的未解难题之一，1859 年提出，至今 167 年无人能证明或推翻。它的核心主张是：黎曼 ζ 函数的所有非平凡零点都落在复平面上一条特定的竖直线上，数学家称之为“临界线”。 如果这个猜想成立，素数的分布就有了一种深层的规律性。这个问题列在克雷数学研究所的七大千禧年问题之中，悬赏 100 万美元。 既然全面证明太难，数
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233420#reply5
 
 ---

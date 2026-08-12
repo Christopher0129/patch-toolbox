@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8704**
+**总计条目 / Total entries: 8764**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -121123,5 +121123,785 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233407#reply52
+
+---
+
+#### 8705. SSH - Validate passwordless setup stops working after "some time"?
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh, sshd | Score: 0 | Views: 30 | Answers: 1 | Created: 2026-08-12
+
+**解决方案 / Solution**:
+Is the approach technically correct or can it be improved? Regarding the script: Your script is writing both the public keys and the misc messages like "Generating a key" to the same stdout, and they both therefore go to the same $AUTHORIZED_KEYS_FILE . This ends up as junk non-key data in the file. Make it print all remote messages to stderr (this is exactly why stderr exists) using >&2 : echo "Generating a key..." >&2 Or remove the message since ECDSA and EdDSA key generation is practically instant and the message probably serves no purpose. Or split the keygen and the transfer into two ssh commands, the latter redirected to $AUTHORIZED_KEYS_FILE, the former not. Regarding the approach overall: I need passwordless SSH between master and each slave (in both direction, and not between slaves). It seems that your "master" has a single account which all "slaves" are authorized to access. So you don't actually have isolation between "slaves", because nothing at all prevents x.y.z.2 from first ssh'ing to the "master" x.y.z.1 and then using the "master"'s ~/.ssh/id_ed25519 private key to further ssh into other "slaves" x.y.z.3 or x.y.z.4 (or for that matter, stealing the private key). If the restriction were effective (e.g. if "slave→master" couldn't reach root@master but only a separate account), then you could just as well generate a single "id_ed25519 for slave→master" and distribute the private key to all "slaves" via Ansible or something. I had some situations where after a few months, SSH password was prompted again, in both directions. It happened on some hosts only, and I could not pinpoint what triggered it. I did not touch the SSH files. I had an sshd update but I specified that I wanted to keep my original config file (allowing root connections), and issue anyway didn't happen to all computers. Can you help me understand what could make SSH passwords required again? Looking at the service's log messsages usually can help you understand what the service is doing or not doing. Have a quick look at the server's ~/.ssh/authorized_keys , make sure it still exists and all that. You can run ssh-keygen -lf <file> against both the client's id_ed25519 and against the server's authorized_keys to quickly compare by fingerprint. Run the client in verbose mode, ssh -v <host> , to make sure it is offering a private key. Finally, run the server in verbose mode with LogLevel DEBUG (maybe DEBUG2 ) in its sshd_config, to see what it's doing with the offered key, which authorized_keys files it is checking against, etc. The server's logs can be found in journalctl (useful options: -b or -u sshd or -n 2000 or -f ), or in /var/log/auth.log or some similar file, depending on distribution. I also like directly running sshd -rddd (maybe with -p 42 to run on alternate port) to get the same server-side messages, but running a service by hand may mess things up regarding SELinux/Kerberos/NFS, so only do that if you know none of those are in use. (And then still only temporarily due to cgroups as well.) Otherwise prefer adding LogLevel to sshd_config.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806985/ssh-validate-passwordless-setup-stops-working-after-some-time
+
+---
+
+#### 8706. Whats going on with Snapdragon X Elite Linux support?!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vm99q3/whats_going_on_with_snapdragon_x_elite_linux/
+
+---
+
+#### 8707. Linux Finally Seeing Patches For Better Hybrid Graphics On 2018~2019 Era MacBook Pros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmicch/linux_finally_seeing_patches_for_better_hybrid/
+
+---
+
+#### 8708. Session Save/Restore in GNOME | Adrian Vovk @ GUADEC 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmo5w1/session_saverestore_in_gnome_adrian_vovk_guadec/
+
+---
+
+#### 8709. Back In Time 2.0.0 - Release Candidate 1
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmnamj/back_in_time_200_release_candidate_1/
+
+---
+
+#### 8710. Updated GPG key for signing Firefox and Thunderbird Releases – Mozilla Security Blog
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vm87gm/updated_gpg_key_for_signing_firefox_and/
+
+---
+
+#### 8711. I built a Linux app for Soundcore Liberty 4 Pro earbuds and need help supporting more models
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmbrzc/i_built_a_linux_app_for_soundcore_liberty_4_pro/
+
+---
+
+#### 8712. CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmcn4a/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/
+
+---
+
+#### 8713. AstrOS - an immutable, secure-by-default distribution built on Arch Linux and the COSMIC desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vlxn8a/astros_an_immutable_securebydefault_distribution/
+
+---
+
+#### 8714. USB Data recovery
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vm9k5e/usb_data_recovery/
+
+---
+
+#### 8715. https://www.zdnet.com/article/linux-desktop-use-surged-on-one-workday-cloudflare-data-shows/
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmpzlg/httpswwwzdnetcomarticlelinuxdesktopusesurgedononew/
+
+---
+
+#### 8716. nuttty - a TUI for NUT (UPS monitoring)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vme9i8/nuttty_a_tui_for_nut_ups_monitoring/
+
+---
+
+#### 8717. Moved to Linux and did not want to live in psql. dbForge experience so far
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vmakvv/moved_to_linux_and_did_not_want_to_live_in_psql/
+
+---
+
+#### 8718. Do you pronounce "daemon" the same as "demon" or differently
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vlp2ef/do_you_pronounce_daemon_the_same_as_demon_or/
+
+---
+
+#### 8719. Which Distor(s) for gaming and homelab on different computers
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmpivp/which_distors_for_gaming_and_homelab_on_different/
+
+---
+
+#### 8720. Best laptops with native Linux support?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmmcpb/best_laptops_with_native_linux_support/
+
+---
+
+#### 8721. Fedora install backup
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmhhl8/fedora_install_backup/
+
+---
+
+#### 8722. has anyone tried to rip CDs on linux and had issues with incorrect length?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmqwgu/has_anyone_tried_to_rip_cds_on_linux_and_had/
+
+---
+
+#### 8723. How to get a headless install to render an image/video to a screen
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmqv26/how_to_get_a_headless_install_to_render_an/
+
+---
+
+#### 8724. Mouse wheel speed go crazy
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmqn52/mouse_wheel_speed_go_crazy/
+
+---
+
+#### 8725. Dual booting Fedora/Ubuntu with Windows 10 — Linux boot entry exists but selecting it boots Windows Recovery
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmhick/dual_booting_fedoraubuntu_with_windows_10_linux/
+
+---
+
+#### 8726. Troubleshooting after adding a VM on Debian to the domain
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmnlty/troubleshooting_after_adding_a_vm_on_debian_to/
+
+---
+
+#### 8727. Lenovo extra keys give weird return
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmgsob/lenovo_extra_keys_give_weird_return/
+
+---
+
+#### 8728. I have a S10 FE can i make a functional distro for developing using Termux on DeX?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmmjzn/i_have_a_s10_fe_can_i_make_a_functional_distro/
+
+---
+
+#### 8729. Is nobara worth it for beginners?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmmbi8/is_nobara_worth_it_for_beginners/
+
+---
+
+#### 8730. New Linux distro
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmjm54/new_linux_distro/
+
+---
+
+#### 8731. help me run capcut pro on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmivp5/help_me_run_capcut_pro_on_linux/
+
+---
+
+#### 8732. Swapping to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vm485k/swapping_to_linux/
+
+---
+
+#### 8733. Can't login in Unity
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmhyvf/cant_login_in_unity/
+
+---
+
+#### 8734. Best distro for the HP 14s cr2000TU (8GB ram, i5 10th gen, 1.14TB of storage edition)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmgvgt/best_distro_for_the_hp_14s_cr2000tu_8gb_ram_i5/
+
+---
+
+#### 8735. First proper PC build after years on a Mac. Linux, Windows, or both?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmerur/first_proper_pc_build_after_years_on_a_mac_linux/
+
+---
+
+#### 8736. What`s the best linux for my use case
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmqjyj/whats_the_best_linux_for_my_use_case/
+
+---
+
+#### 8737. Keyboard Shortcuts Change with Layout on Wayland/Hyprland
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vmdjon/keyboard_shortcuts_change_with_layout_on/
+
+---
+
+#### 8738. Mac os like app toolbar status bar on gnome?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vm6i88/mac_os_like_app_toolbar_status_bar_on_gnome/
+
+---
+
+#### 8739. Help/recomend
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vm9orc/helprecomend/
+
+---
+
+#### 8740. Disaster recovery backup system for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vm5poj/disaster_recovery_backup_system_for_linux/
+
+---
+
+#### 8741. Need help to do it
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vm34ha/need_help_to_do_it/
+
+---
+
+#### 8742. Trying to install Debian, it got stuck at "Starting Hostname Service"
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vlyiif/trying_to_install_debian_it_got_stuck_at_starting/
+
+---
+
+#### 8743. [V2EX] AI 让 Linux 变得真正可用了
+
+**问题描述 / Problem Description**:
+以前 Linux 最不好用的地方就是各种硬件适配以及软件小问题，尤其是在 DE 环境里。 最近因为老的 Surface Pro 5 用 Windows 实在卡，换 Linux 看能不能续一波命。linux-surface 这个项目很棒，解决了很多驱动问题，但我装了 debian-xfce 之后还是有几个小问题，包括 Surface pen 识别，屏幕自动旋转，电源键休眠，不过都直接用 opencode 免费的 ds-v4-flash 解决了，全程也不需要过多提示。 除此之外，Linux 上也缺一个很好用的 PDF 手写标注软件，尤其是跟 Surface pen 适配的。（其实我在 win 上也
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233912#reply15
+
+---
+
+#### 8744. [V2EX] 给 Noctalia 做了一个 Mihomo / Clash 控制插件
+
+**问题描述 / Problem Description**:
+最近给 Noctalia 写了一个 Mihomo Control 插件，希望使用 Noctalia + Clash/Mihomo 的朋友可以少开一个管理页面。 它不是新的代理内核，也不会接管或修改 Mihomo 配置。Mihomo 继续负责代理、规则和订阅，插件只通过 External Controller API 提供常用操作。 目前支持： - 状态栏显示连接状态、代理模式和实时上下行流量 - 查看连接数量、流量统计和内存占用 - 切换 Rule / Global / Direct 模式 - 查看所有代理组及当前节点 - 展开代理组并直接切换节点 - 显示节点延迟 - 单独测试某个代理组，或
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233875#reply0
+
+---
+
+#### 8745. [V2EX] 用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell
+
+**问题描述 / Problem Description**:
+用了好几年 i3wm ，很多自定义配置早已习惯 。 最近好不容易鼓起勇气切换到了 Hyprland ，一开始感觉是比 i3wm 顺畅，但随着使用深入，发现各种小问题有点多，特别是钉钉，日常办公必须。 于是又尝试了 Sway 、Niri ，在用 Niri 的时候发现了 DankMaterialShell ，再也不需要调试状态栏、锁屏、启动器等等一堆工具了。 Niri + DankMaterialShell 更整体更现代，连钉钉的表现也好了很多（虽然还是有小问题）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1231845#reply12
+
+---
+
+#### 8746. [V2EX] Deepseek V4 Pro 好像来了
+
+**问题描述 / Problem Description**:
+官网文档已更新？ https://api-docs.deepseek.com/zh-cn/quick_start/pricing DeepSeek-V4-Pro-0813
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233961#reply8
+
+---
+
+#### 8747. [V2EX] OpenCode 没办法白嫖 Deepseek 了吗？
+
+**问题描述 / Problem Description**:
+看来最后只能付费了！越来越离不开 Ai 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233937#reply3
+
+---
+
+#### 8748. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply29
+
+---
+
+#### 8749. [V2EX] Any TDF：一套基于 Tailwind 的移动组件库， Svelte / React / Vue 三个实现
+
+**问题描述 / Problem Description**:
+在做的开源项目 Any TDF ，一套移动端 Web 组件库，同一套设计体系，分别用 Svelte 、React 、Vue 实现，底层是 Tailwind CSS + TypeScript 。 文档站： 主站： https://any-tdf.dev STDF （ Svelte 版）： https://stdf.dev RTDF （ React 版）： https://rtdf.dev VTDF （ Vue 版）： https://vtdf.dev 生态内产品 脚手架 NPM：create-any-tdf 框架无关的公共部分（主题、多语言、类型等） NPM：@any-tdf/common Vi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233925#reply0
+
+---
+
+#### 8750. [V2EX] SuperGrok Heavy 太自信了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233854#reply9
+
+---
+
+#### 8751. [V2EX] 谁知道 Cursor 里面的 Grok 4.5 大概是什么水平？
+
+**问题描述 / Problem Description**:
+比 Composer2.5 强吗？比 GLM5.2 和 dsv4f 呢？ 有没有主用 cursor 的说说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233820#reply28
+
+---
+
+#### 8752. [V2EX] Duckterm 移动端内测：为超级个体打造的 tui agent 控制方案
+
+**问题描述 / Problem Description**:
+• 内测｜ App Store TF & Google Play 4 月写的一个小玩意，各种产品都不得劲，所以自研了下，代码也快 100 多万行了。(web/desktop/ios/安卓/golang hookd) 一个高效率 coding 的 case(为啥本项目代码量级能快速到百万级, 且类似这样的项目还有不少，都是大量 tui agent 并行完成的) 幕后故事: 一个 Goal 下去，我的 Codex 成精了：24 小时的全自动安卓适配平地起高楼，到 Google Play 上架 移动端官网: https://dterm.limitwatch.app/ Web 端： https://g
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233791#reply10
+
+---
+
+#### 8753. [V2EX] gpt 最后一张充值卡要过期了-赶紧蹬呀
+
+**问题描述 / Problem Description**:
+Full reset 将于 8/12 GMT-6 11:48 到期 -- 美国时间 有重置卡的,别忘了用,快过期了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233788#reply3
+
+---
+
+#### 8754. [V2EX] 开源制品管理项目 kkRepo 达成 200 个 star ,已在 7 个以上公司生产落地平替 Nexus 了
+
+**问题描述 / Problem Description**:
+kkRepo 是什么？ kkRepo 是一款社区驱动、完全开源的自托管制品仓库，旨在解决 Sonatype Nexus 社区版的各类限制与痛点，为社区提供开放、可靠且可持续演进的制品管理方案。目前已支持 Maven 、npm 、PyPI 、Go 、Helm 、Cargo/Rust 、Dart/Pub 、Composer/PHP 、Terraform 、Swift Package Registry 、Ansible Galaxy 、Conda 、APT/Debian 、Conan 2 、Docker/OCI 、NuGet 、RubyGems 、Yum 和 Raw 等制品格式。 https://g
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233778#reply2
+
+---
+
+#### 8755. [V2EX] 我准备写一个强类型关系型数据库，是应该用 go 还是 rust?
+
+**问题描述 / Problem Description**:
+详细说明在这里： https://github.com/sskycn/xdb go 语言我用了多年，很熟悉，rust 没用过，但在我的感觉里，这个项目应该用 rust. 大家帮我分析分析，应该用什么好。 为什么想写一个强类型数据库，是因为优化自己的 dsl ，优化到了一定程度后，感觉很接近数据库的实现了。 dsl 现在是用 go 实现的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233772#reply37
+
+---
+
+#### 8756. [V2EX] 手持多家模型，怎么选 Agent/Cli
+
+**问题描述 / Problem Description**:
+应该不少人都有多家的模型吧，A\ OpenAI Kimi Qwen GLM 大家怎么用的的？ 1. 切个模型换个对应的 cli ，ClaudeCode Codex QCoder 2. OpenCode 一次性全接入 3. 特定的 Cli + cc-switch, 例如：ClaudeCode + cc-switch 最新在试着用 ClaudeCode + GPT 5.6, 感觉比直接 A\ 的订阅用起来，蠢了不少。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233768#reply20
+
+---
+
+#### 8757. [V2EX] AI 时代，为什么 Windows 还是一大堆非原生软件？
+
+**问题描述 / Problem Description**:
+AI 不是提高了开发效率吗？为什么 windows 平台的很多软件还不是原生的，很多还都是 electron 呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233763#reply5
+
+---
+
+#### 8758. [V2EX] AI 多人协作的时候遇到的一些“问题”
+
+**问题描述 / Problem Description**:
+当 AI 编码多人协作的时候，由于 AI 工具智力参差不齐或者历史代码冗杂的时候，多人协作一个任务时，容易因为规范，编码思路不一导致一系列问题时，怎么解决这种 AI 本地化多位同事协作的问题？ 当 vibe coding 的时候很容易几天的代码也容易忘记是自己手写的还是 AI 帮忙写的，这种情况你是怎么解决的？ 1. 通过项目前期做研发设计的评审和思路对齐以及后续的代码 review,是不是可以解决一些这类问题？ 2. 希望 AI 工具能结合 git 协作开发一种新的工作流的方式，把 AI 思考的上下文以及改动内容标识保留到代码提交记录里面，这样无论是复盘还是继续开发都能有好的延续能力？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233741#reply6
+
+---
+
+#### 8759. [V2EX] 火山云 agent plan/coding plan 缓存命中无优惠
+
+**问题描述 / Problem Description**:
+公司买了 20 多个号，但是用的飞快，根据跟官方的沟通，火山云对长对话上下文缓存命中是根本没有优惠的，每轮对话都需要对历史上下文做全量计费。 也就是说你做一个 1m 上下文的任务，你以为你的 token 消耗大概也是 1m 左右，但是实质上你的每轮对话都会对历史做完整计费。假如你做了 100 轮对话，那实质上你的 token 消耗将达到 100m ，整整多了一百倍！！！ 这跟 ds 官方的计费 完全不一样！！ 不要再用 agent plan 的公式来推算可以使用的量了，这是完全不准确的。实际的扣费，是跟你的会话上下文和轮次完全挂钩的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233731#reply16
+
+---
+
+#### 8760. [V2EX] 我们有了这么多好用的 ai，然后依然没有硬核软件市场。
+
+**问题描述 / Problem Description**:
+付费模式依然不够清晰。 必须对终端客户连哄带骗。 即使是 vip 付费客户，依然会对他弹广告。 ai 不是很强吗，怎么现在做软件，要盈利，还得跪着呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233719#reply30
+
+---
+
+#### 8761. [V2EX] 一个把 MCP 编码 Agent 往返轮次减少 75%+ 的思路
+
+**问题描述 / Problem Description**:
+说明：我是 Tura 的维护者。 很多 coding agent 的常见流程是： 1. 搜索代码 2. 打补丁 3. build 4. test 5. lint 每一步都要重新让模型读结果再决定下一步，实际是 5 次 LLM 进入。 Tura 把这些关联操作放进一个 command_run 宏工具：模型一次提交带依赖关系的执行计划，运行时仍然执行搜索、补丁、构建、测试、lint ，只是少了反复的模型往返。 简单理解： 普通方式：5 次 LLM turn Tura：1 次 command_run 计划 + 相同执行图 这个 ecommerce-ad-package 实测任务显示 5 次变 1 次
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233700#reply2
+
+---
+
+#### 8762. [V2EX] 我做了一个让 Agent 更安全地接收密钥的 Skill
+
+**问题描述 / Problem Description**:
+Agent 有时确实需要 API Token 、访问密钥等敏感信息。 但直接粘贴到对话里，明文会进入上下文，甚至出发 Codex 的 Cyber 应激。为了减少这些不必要的暴露，我开发了一个开源 Agent Skill： Loopmark 。 它的工作流程是： Agent 根据任务生成一张表单，并把链接发给用户 用户在浏览器中填写普通信息或密钥 普通回答复制回对话；密钥在浏览器中加密，不会出现在复制内容里 Agent 将密钥下载并解密到本地临时 .env 文件，供后续命令按需使用 整个过程中，云端只保存密文。用于解密密钥的私钥只保存在发起表单的 Agent 本地。 加密实现采用混合方案：问题会
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233689#reply9
+
+---
+
+#### 8763. [V2EX] PingGlass - 现代化风格 ICMP / TCP 监控面板
+
+**问题描述 / Problem Description**:
+PingGlass - 现代化风格 ICMP / TCP 监控面板 相信各位有网络 ICMP 监控需求的话，或多或少都听过 SmokePing 这个项目。 SmokePing 是一个非常经典的开源网络性能监控工具，主要用于测量、记录以及可视化网络的 延迟、丢包率和连通性 。从 2001 年发展至今，也算是经历了二十多年的风风雨雨。 我自己也用了 SmokePing 很长一段时间 ，不过随着监控的 Targets 越来越多，逐渐发现一些使用上的痛点。 其中一个最直接的问题就是它的 UI 。 SmokePing 的 Web UI 还是比较偏向传统桌面网页，在手机上查看的时候体验并不是特别友好 ——
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233682#reply15
+
+---
+
+#### 8764. [V2EX] 同一个问题， gemini 像鸡血卖课主播， claude 像冷静理智的理工男
+
+**问题描述 / Problem Description**:
+我将同一个产品设计和域名选择问题抛给 gemini 和 claude 。 gemini,很像一个打了鸡血的卖课主播，回答有股浓浓的彩虹屁味。 gemini 回复例子： 做域名矩阵（ Domain Matrix ）是非常聪明的流量围剿策略。如果你打算把 xx 域名纳入你的战队，这是一个杀伤力极强、极具现代感的黄金备选。 你的 xxx 操作简直就是在 xxx 行业扔下了重磅核弹。 你增加了 xxx 功能对于同行业的其他玩家就是降维打击。 你的 xxx 模块就是一把锋利的瑞士军刀。。。它极致丝滑的 C 端互动测试、实时诊断功能会让你的网站互动率远超同类对手。 你的前端主力火炮(某某功能)负责抓眼球、
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233670#reply3
 
 ---
