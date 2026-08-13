@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9478**
+**总计条目 / Total entries: 9523**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -129135,5 +129135,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233867#reply22
+
+---
+
+#### 9479. Once Pc is on, screen slowly blinks black and says gpu is 100% used?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnj1n/once_pc_is_on_screen_slowly_blinks_black_and_says/
+
+---
+
+#### 9480. Unable to enable Secure Boot — PC keeps restarting back into BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vngv4g/unable_to_enable_secure_boot_pc_keeps_restarting/
+
+---
+
+#### 9481. GPU randomly speeds up and both monitors lose display
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnoiev/gpu_randomly_speeds_up_and_both_monitors_lose/
+
+---
+
+#### 9482. Memtest86 errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnxsi/memtest86_errors/
+
+---
+
+#### 9483. Power & Battery Settings closes immediately after opening.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnwvq/power_battery_settings_closes_immediately_after/
+
+---
+
+#### 9484. Why does my search engine default to bing even though I've made Google Chrome my default browser?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnwlo/why_does_my_search_engine_default_to_bing_even/
+
+---
+
+#### 9485. My webcam keeps turning off and I've tried every hotfix possible.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnu5q/my_webcam_keeps_turning_off_and_ive_tried_every/
+
+---
+
+#### 9486. New pc won’t stay on after a few minutes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnaypr/new_pc_wont_stay_on_after_a_few_minutes/
+
+---
+
+#### 9487. USB 3.0 running at 2.0 speeds on the Acer Nitro 5 laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnmbm8/usb_30_running_at_20_speeds_on_the_acer_nitro_5/
+
+---
+
+#### 9488. Windows Powershell and Task Manager not launching after recovery.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vno6wv/windows_powershell_and_task_manager_not_launching/
+
+---
+
+#### 9489. WHEA_UNCORRECTABLE_ERROR 0x124 | eGPU
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vno012/whea_uncorrectable_error_0x124_egpu/
+
+---
+
+#### 9490. Put in new gpu now pc is stuttering and is incredibly slow while working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnopj/put_in_new_gpu_now_pc_is_stuttering_and_is/
+
+---
+
+#### 9491. My laptop is the only device in the house that sometimes loses connection to the house's wi-fi network for seemingly no reason
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnndby/my_laptop_is_the_only_device_in_the_house_that/
+
+---
+
+#### 9492. My computer keeps crashing when trying to factory reset.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnnakn/my_computer_keeps_crashing_when_trying_to_factory/
+
+---
+
+#### 9493. My internet won’t connect to my devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnmxqc/my_internet_wont_connect_to_my_devices/
+
+---
+
+#### 9494. Camera issue - Canon IXUS 185
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnmxez/camera_issue_canon_ixus_185/
+
+---
+
+#### 9495. My tablet is saying battery temperature to high when it's not
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnmvrl/my_tablet_is_saying_battery_temperature_to_high/
+
+---
+
+#### 9496. Loud popping noise when turning on pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vngc0z/loud_popping_noise_when_turning_on_pc/
+
+---
+
+#### 9497. Onkyo TX-RZ30 Receiver Blue Screen and No Sound
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnme5a/onkyo_txrz30_receiver_blue_screen_and_no_sound/
+
+---
+
+#### 9498. Computer killing itself at random, and I don't have a clue why.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnmb6g/computer_killing_itself_at_random_and_i_dont_have/
+
+---
+
+#### 9499. Random BSOD - SYSTEM_SERVICE_EXCEPTION (0x3B)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnm5l6/random_bsod_system_service_exception_0x3b/
+
+---
+
+#### 9500. Nothing works on mobile service except texting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnm0ib/nothing_works_on_mobile_service_except_texting/
+
+---
+
+#### 9501. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnm02j/removed_by_reddit/
+
+---
+
+#### 9502. How can i use TV speaker and external Speakers at the same time.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vnltl2/how_can_i_use_tv_speaker_and_external_speakers_at/
+
+---
+
+#### 9503. [V2EX] 十几年了，微软还是没修复资源管理器图标排列的问题
+
+**问题描述 / Problem Description**:
+前段时间做了段时间兼职，重新用回了半个月的 win7 ，又想起了这个让我十几年都如鲠在喉的 bug：微软在新的资源管理器中，整个桌面的图标管理几乎都是混乱的。 印象里是 win8.1 或者是 win10 引入的问题 例如因为删除软件，之前的图标中间空了一个，win7 只需要两次拖动就能补上这个空缺，还不影响顺序 而 windows 10 开始，这么排会直接扰乱图标顺序，我也没找到其他能正确快速排序的方法，只能一列一列的手动拉 再比如对于因为高分辨率屏幕开启了百分比缩放的情况，win11 图标排序经常是错位的，拖动位置和到达的位置经常对不上 而 win7 则是指哪打哪 除了这些，还有什么图标大小
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233590#reply46
+
+---
+
+#### 9504. [V2EX] 朋友相亲问题被拒询问一下什么情况
+
+**问题描述 / Problem Description**:
+朋友是男孩子，1.7m ，相亲的女孩子 1.7m 。 今天下午朋友家长带着去相亲了。 到了后说你们进小屋聊聊。 然后就进去啦： 女孩直接问：学的什么专业，有工作吗？ 男孩说：学的飞机，实习啦半年，目前没有工作。（女孩看着一直想出去的样子） 女孩说：还有啥想问的吗？ 男孩说：你学的啥？ 女孩说：幼师 男孩说：这是第一次相亲，不知道说啥。（女孩然后说我们出去吧） 然后出去了，男孩不知道相亲要加 wx ，然后外面的家长问加 wx 了吗？ 于是女孩说：他也没给我要！ 男孩说：第一次相亲，不知道这个，不好意思！ （注意：这里说男孩扫女孩的微信，女孩微信点同意才能加上） 然后离开女孩家，过了几个小时，女孩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234219#reply2
+
+---
+
+#### 9505. [V2EX] 为什么知道个内存和存储的区别，会有优越感🤔
+
+**问题描述 / Problem Description**:
+前两天发的这个分享发现帖子 https://www.v2ex.com/t/1233771 感觉回复里多半是自带优越感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234200#reply19
+
+---
+
+#### 9506. [V2EX] 广东省最低薪资 2026 年版本出来了，房租又要开始涨了
+
+**问题描述 / Problem Description**:
+深圳 20220301--20250228 （ 2360 元） 20250301--20260831 （ 2520 元） 20260901--xxxxxxxx （ 2700 元）涨幅是 7.14% 广州 20220301--20250228 （ 2300 元） 20250301--20260831 （ 2500 元） 20260901--xxxxxxxx （ 2680 元）涨幅是 7.2%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234191#reply0
+
+---
+
+#### 9507. [V2EX] 马上开学了，堂妹需要买个笔记本电脑，专业是网络工程，预算 5-7k，现在有什么笔记本可买呢
+
+**问题描述 / Problem Description**:
+看了半天，现在内存硬盘涨价太多了，完全下不了手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234186#reply4
+
+---
+
+#### 9508. [V2EX] 明知道登雪山雪峰很危险，那些有钱人为什么还排队去爬？
+
+**问题描述 / Problem Description**:
+看到那个雪峰出事儿的新闻，再次想到这个问题 不太理解，难道因为咱不是有钱人？无法理解他们的无聊或情趣？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234183#reply0
+
+---
+
+#### 9509. [V2EX] 现在哪个 llm（大模型）干活又快又好？
+
+**问题描述 / Problem Description**:
+用过 gpt-5.6-sol 感觉太慢了，不得已又用回 gpt-5.5 ，但感觉还是有点慢，很多日常需求都要 10min 往上了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234175#reply1
+
+---
+
+#### 9510. [V2EX] 红果短剧上瘾，是否在 Mac 电脑上有客户端或者是网页的形式看红果短剧？用手机看太费眼睛。
+
+**问题描述 / Problem Description**:
+红果短剧上瘾，是否在 Mac 电脑上有客户端或者是网页的形式看红果短剧？用手机看太费眼睛。也有一个 ipad ，但是视角还是不够大，想着在电脑面前看，有没有懂哥解答一下，第三方站点视频解析也可以，只要在显示器前能看即可。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234173#reply9
+
+---
+
+#### 9511. [V2EX] 在网上配眼镜的正确姿势应该是什么样子的？
+
+**问题描述 / Problem Description**:
+最近想配一副新眼镜，但是之前一直都是在线下配的感觉溢价都不少，所以这次想尝试在网上配。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234162#reply9
+
+---
+
+#### 9512. [V2EX] 请问下，你们用 AI 开发个人项目的时候，会开几个分支?
+
+**问题描述 / Problem Description**:
+是 feature 分支+主分支，feature 开发完毕后，合并到主分支。 还是 all in 主分支？ 我研究来研究去，发现 all in 一个分支，也没什么坏处。有问题，直接 git reset
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234157#reply11
+
+---
+
+#### 9513. [V2EX] 现在的蛋糕上卡通/人物都是塑料模型了？
+
+**问题描述 / Problem Description**:
+最近给家人订蛋糕时，想要加上生肖动物，但是被店家告知模型用完了； 我当时在想这不都是直接用奶油、巧克力直接做吗？都可以吃的啊，我记得小时候家里人生日蛋糕上的老虎就是做出来的，栩栩如生，可以吃。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234150#reply13
+
+---
+
+#### 9514. [V2EX] cc 进行下一步怎么绑定鼠标侧键
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234149#reply0
+
+---
+
+#### 9515. [V2EX] 有没有感觉 llm 的输出越来越看不懂了
+
+**问题描述 / Problem Description**:
+输出一大堆，各种信息压缩、简写，看起来就像是老医生的处方单似的。读起来老费劲了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234148#reply3
+
+---
+
+#### 9516. [V2EX] 收少量 deepseek 发票
+
+**问题描述 / Problem Description**:
+如果你充值了用不着开票的，可以出给我。wx 联系 RWRkaWVQZU5neg==，请备注 V2EX 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234118#reply0
+
+---
+
+#### 9517. [V2EX] 大家怎么利用 AI 学习英语？
+
+**问题描述 / Problem Description**:
+RT ，多邻国之类太贵了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234111#reply6
+
+---
+
+#### 9518. [V2EX] 500 块 115T 的 115 网盘+1 年会员 能买吗
+
+**问题描述 / Problem Description**:
+我有点忍不住想下手了，115 说跑路多少年了 一直活得挺好我看。 500 块包含 115T 的长期空间 以及 1 年的会员
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234102#reply23
+
+---
+
+#### 9519. [V2EX] 闲鱼上的超廉价 Gemini 可信吗
+
+**问题描述 / Problem Description**:
+如题，均价不到 25 的一年 Google AI Pro 。感觉有点诱人，比较好奇这背后的渠道是什么，是否会掉，以及是否存在其他风险？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234092#reply32
+
+---
+
+#### 9520. [V2EX] 各位老哥有自己交个人养老金吗？
+
+**问题描述 / Problem Description**:
+各位有自己交养老金来获取一部分抵扣税额度吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234091#reply16
+
+---
+
+#### 9521. [V2EX] 特殊的数据线要求 A-C 口
+
+**问题描述 / Problem Description**:
+背景提要： 耳机是漫步者 W820NB ，最近发现插到电脑 USB 口直接可以用，比蓝牙没有延迟，还能享受降噪，很适合我打 3A,因此提出了数据线要求 1 需要 USB-A 到 USB-C 这样的接口，如果不能满足，那么 C-C 口也可以，但是条件 2 需要修改为 1.5-2m 2 长度有 1-1.5m 3 数据线足够纤细柔软，没有牵拉感 4 支持 USB2.0 即可
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234064#reply9
+
+---
+
+#### 9522. [V2EX] 通勤背包求推荐
+
+**问题描述 / Problem Description**:
+平时上下班通勤都带 14 寸笔记本； 有健身需求，会带衣物、护具、香蕉、蛋白粉啥的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234053#reply14
+
+---
+
+#### 9523. [V2EX] Mac 用户，鼠标坏了，选择妙控触摸板还是罗技的 master 3s、master 4？
+
+**问题描述 / Problem Description**:
+主要应用场景是办公、写代码、写文档，看文档等。 或者朋友们有什么更好的选择？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234052#reply12
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8416**
+**总计条目 / Total entries: 8464**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -113708,5 +113708,629 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233420#reply5
+
+---
+
+#### 8417. Can MacOS record both the screen and audio like iOS does?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnl619/can_macos_record_both_the_screen_and_audio_like/
+
+---
+
+#### 8418. Wifi randomly disconnects and won’t turn on till I restart
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnb328/wifi_randomly_disconnects_and_wont_turn_on_till_i/
+
+---
+
+#### 8419. big sur or monterrey
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnkpe0/big_sur_or_monterrey/
+
+---
+
+#### 8420. Web browsers?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnojex/web_browsers/
+
+---
+
+#### 8421. Macbook Pro M4 or Macbook Air M5?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnoelt/macbook_pro_m4_or_macbook_air_m5/
+
+---
+
+#### 8422. M2 Macbook Air Unstable even from Recovery disk, Disk Utility and Diagnostics say all OK
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnods4/m2_macbook_air_unstable_even_from_recovery_disk/
+
+---
+
+#### 8423. Is this even normal?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnhzzy/is_this_even_normal/
+
+---
+
+#### 8424. Non-IT remote worker: need advice on browser, archiving links, backups, hosting, cloud, internet, and privacy-friendly jurisdictions for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnlnep/nonit_remote_worker_need_advice_on_browser/
+
+---
+
+#### 8425. Is BetterDisplay the Answer? Also, is "Edit Display Role" a Pro Feature?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnevcm/is_betterdisplay_the_answer_also_is_edit_display/
+
+---
+
+#### 8426. Copying file path returns random backslashes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnec27/copying_file_path_returns_random_backslashes/
+
+---
+
+#### 8427. Mac Mail Question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnko8d/mac_mail_question/
+
+---
+
+#### 8428. App Store Cannot Update Specific Apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnf5b3/app_store_cannot_update_specific_apps/
+
+---
+
+#### 8429. Apple Mail won't sync on 2 Macs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vn95so/apple_mail_wont_sync_on_2_macs/
+
+---
+
+#### 8430. Anybody else love Liquid Glass in macOS but hate it in iOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnkpmb/anybody_else_love_liquid_glass_in_macos_but_hate/
+
+---
+
+#### 8431. Any sane way to prevent Apple Music from opening?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vno6st/any_sane_way_to_prevent_apple_music_from_opening/
+
+---
+
+#### 8432. MacOS using 67GB??? Is this normal? How do I fix it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnndvw/macos_using_67gb_is_this_normal_how_do_i_fix_it/
+
+---
+
+#### 8433. Should I update from Sequoia 15.7.8 to Tahoe 26.6 on MBA M1?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnl2x9/should_i_update_from_sequoia_1578_to_tahoe_266_on/
+
+---
+
+#### 8434. USB to Ethernet stopped working and randomly crashes my Macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vn6jcj/usb_to_ethernet_stopped_working_and_randomly/
+
+---
+
+#### 8435. macOS Tahoe kernel/PTE memory keeps growing until 16GB Mac becomes unusable. Jellyfin + leftover Tailscale extension
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmutf6/macos_tahoe_kernelpte_memory_keeps_growing_until/
+
+---
+
+#### 8436. I built a local AI coding lab on a base 16GB Mac Mini - full walkthrough (goodbye Copilot?)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vmyskb/i_built_a_local_ai_coding_lab_on_a_base_16gb_mac/
+
+---
+
+#### 8437. [V2EX] macOS 版微信又开始喂 shi 了。。。
+
+**问题描述 / Problem Description**:
+鼠标移到输入框，就出现「按住鼠标 语音输入文字」。。。疯了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234207#reply1
+
+---
+
+#### 8438. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply138
+
+---
+
+#### 8439. [V2EX] 昨晚还好好的，今天早上突然 MM 鼠标连不上 Mac 了，各种操作都做了，依旧无效。哪个牛逼大神知道咋回事？
+
+**问题描述 / Problem Description**:
+Mac 是 M5 Pro ，鼠标是 MM2 ； Mac 重启、鼠标开关、充电（担心没电）、Lightning 数据线连接 Mac 1 分钟（有线配对）、macOS 的蓝牙后台服务 bluetoothd 、解绑（忽略此设备）后，蓝牙再也无法发现鼠标，奇怪的是，用同时的 Mac 蓝牙可以发现我的鼠标。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234073#reply2
+
+---
+
+#### 8440. [V2EX] 看见有人说 m1pro 的 mbp,我想说,当初多花 3000 买的 32g 还是很香啊
+
+**问题描述 / Problem Description**:
+我买的官翻的,当初好像是 13800 分了 24 免息买的. 感觉现在用起来还是很丝滑. 系统是 26.5.1 . 刚去苹果官网查了一下最新的处理是 m5 了. 不觉感叹时间真快 搜了一下 m5pro 比 m1pro 提升 约 61%.但是估计实际体验差别不大吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233999#reply49
+
+---
+
+#### 8441. [V2EX] VMware Fusion Pro 26H1 无套路下载
+
+**问题描述 / Problem Description**:
+通过博通太难下载了，需要的自取 https://www.techspot.com/downloads/2755-vmware-fusion-mac.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233619#reply11
+
+---
+
+#### 8442. [V2EX] iOS 上有没有办法连接 WiFi 的时候让特定 app 走手机流量？
+
+**问题描述 / Problem Description**:
+不想被公司的路由机记录下来，完全不用公司 WiFi 传文件也麻烦，每次都是手动打开关闭，如果可以分流就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233437#reply17
+
+---
+
+#### 8443. [V2EX] 国区苹果音乐订阅价格再次上涨
+
+**问题描述 / Problem Description**:
+收到邮件“Apple 会将此订阅的价格从 ¥11.00/月上调至 ¥12.00/月。自 9 月 6 日起，订阅将以 ¥12.00/月的价格自动续期，除非提前至少一天取消订阅。” 这是平衡内存涨价带来的利润减少吗😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233159#reply14
+
+---
+
+#### 8444. [V2EX] 现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232996#reply16
+
+---
+
+#### 8445. [V2EX] 妙控板还是妙控鼠标？
+
+**问题描述 / Problem Description**:
+最近想买一个妙控板替代鼠标，笔记本触摸板用习惯了感觉手势比较爽。 刚好看到 https://www.v2ex.com/t/1232404 这个帖子有人在推荐 Magic Mouse ； 我没有精细操作的需求，就写写代码，处理下文档，摸摸鱼用。 鼠标比妙控板便宜三百块。 有几个问题想问问大家： 想问一下选哪个比较适合啊，鼠标的手势和触摸板大致相通吗？ 是在官网买还是淘宝买？淘宝能便宜个一百多，有区别吗，会买到华强北吗。 妙控板的黑色为什么比白色贵了 150 元，手感有不同吗？ 苹果的这个鼠标不需要鼠标垫吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232627#reply60
+
+---
+
+#### 8446. [V2EX] DeepSeek Harness 的 feature list
+
+**问题描述 / Problem Description**:
+DeepSeek Harness 一、架构图 1.1 分层总览 +==========================================================================+ | DeepSeek Harness (dsh) | | "everything is a plugin" -- 没有可打补丁的特权内核 | +==========================================================================+ +------------------------------------------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234239#reply2
+
+---
+
+#### 8447. [V2EX] OpenCode + DeepSeek 一键直出，就问你可不可怕
+
+**问题描述 / Problem Description**:
+https://tradetax-kappa.vercel.app/ OpenCode + DeepSeek 一键直出，就问你可不可怕，让参考的模板 https://www.myaiexp.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234216#reply2
+
+---
+
+#### 8448. [V2EX] 投资人都不投 AI 应用了，但我觉得他们都是错的
+
+**问题描述 / Problem Description**:
+投资人都不投 AI 应用了，但我觉得他们都是错的 最近陆陆续续见了 20 多个投资人，我有一个非常明确的感受： 现在的投资人，已经不投 AI 应用了。 他们最经常问我的一个问题是：如果某某大厂也做你这个东西，你怎么办？ 一开始我还和他们说，我们的“连连 AI”是一个 AI 社交、A2A 的应用，去 AI 帮你找到需要的人，模型能力越强对我们应用按道理是越好的，不会随着模型迭代而取代。但他们又会说，那你的意思是不是你的核心壁垒在于用户数量，那如果大厂自己做了一个产品，用他们自己的流量去给这个产品导流，你怎么办呢？ 我：…… 真没招了大哥，那我是真没招了。 这些投资人想法也没错，大厂当然可以做。大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234172#reply0
+
+---
+
+#### 8449. [V2EX] youtube 2 mp3
+
+**问题描述 / Problem Description**:
+youtube 转 MP3 https://ytmp3.art/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234161#reply0
+
+---
+
+#### 8450. [V2EX] Serie A 38-0-0 意甲全胜赛季 draft challenge
+
+**问题描述 / Problem Description**:
+意甲历史球员 draft 游戏：抽俱乐部+赛季，从那个赛季的真实阵容里选人凑出 11 人首发，然后打满 38 轮联赛，挑战 38 胜 0 平 0 负 38-0-0 Serie A 。数据来自 Wikidata ，6101 名真实球员、55 家俱乐部、1929-2022 共 90 个赛季。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234144#reply0
+
+---
+
+#### 8451. [V2EX] 广电的双百套餐下架了---
+
+**问题描述 / Problem Description**:
+上个月还有的，39 块 150g 不知道这阵风过去了会不会回来。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234141#reply3
+
+---
+
+#### 8452. [V2EX] 分享几个很好用的 Mac 软件吧
+
+**问题描述 / Problem Description**:
+看到有人吐槽 mac 不好用，可能是没有使用合适的 mac 工具吧，所以给大家分享一些好用的 Mac 软件，希望能帮到大家。 1 、LaunchOS https://launchosapp.com 主要功能： 触摸板手势唤起启动台、窗口/滚动/翻页模式、应用任意拖拽排序 因为 macOS 26 取消了启动台，这个 APP 直接把它还原了回来，除了应用界面一模一样，手感也是完美还原，全屏应用网格、文件夹（分组）、分页、拖拽排序、键盘操作、触控板手势等功能一全部都有，一打开就知道怎么用。另外，它还支持高刷显示器，界面切换非常丝滑，而且还与 macOS 26 的液态玻璃效果完美融合，观感特别舒适。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234125#reply1
+
+---
+
+#### 8453. [V2EX] https://chatgpt.com/share/6a7d727e-46ac-83e8-99c5-102bfd1e6a22
+
+**问题描述 / Problem Description**:
+https://chatgpt.com/share/6a7d73c8-4ffc-83e8-8083-eecf09b4801c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234122#reply3
+
+---
+
+#### 8454. [V2EX] 每日分享禅宗故事
+
+**问题描述 / Problem Description**:
+?si=SccKouQIk4BSGI0D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234114#reply1
+
+---
+
+#### 8455. [V2EX] GEO 排名优化怎么做，做了一个 GEO 工具，欢迎大家交流讨论
+
+**问题描述 / Problem Description**:
+最近在研究 GEO ，也就是如何提高品牌在 ChatGPT 、Gemini 等 AI 平台中的曝光、推荐和引用概率。 做 GEO 首先需要弄清楚： 用户会向 AI 提出哪些问题？ AI 有没有提及我们的品牌？ 为什么 AI 推荐竞争对手？ AI 回答引用了哪些网站？ 应该补充哪些内容？ 为了解决这些问题，我做了一个 GEO 分析工具。主要功能如下 1. 自动生成相关用户问题 填写品牌名称和网站后，系统会根据业务自动生成用户可能向 AI 提出的问题，也可以手动增加、删除和修改。 2. 自动发现竞争对手 系统会识别相关竞争对手网站，帮助分析它们在 AI 回答中的提及和推荐情况。 3. 监测不同 A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234113#reply0
+
+---
+
+#### 8456. [V2EX] 用了 Grok 4.6 直接瘫坐！ 仿佛原子弹爆炸
+
+**问题描述 / Problem Description**:
+具体来说有三点比较突出： 1 、能力已经达到了 gpt5.6 sol 级别。复杂推理、代码生成、长文本处理等表现都很扎实，没有明显短板。但最让人意外的是，它没有那些像屎山一样无穷无尽的门禁和测试。用的时候思路几乎不会被反复打断，输出更直接、更干净。 2 、完成速度至少是 gpt5.6 sol 的三倍。同样的任务，从提问到得到可用结果，等待时间明显缩短。无论是写代码、做方案还是修改文案，效率提升都非常直观。 3 、量很充足，目前还是半价。综合能力、速度和成本来看，性价比相当突出。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234062#reply21
+
+---
+
+#### 8457. [V2EX] 记：第一次去广州南沙十四涌吃海鲜（避雷）
+
+**问题描述 / Problem Description**:
+从深圳南山驾车到十四涌，途经深中大桥，花费 73 （来回 146 ）。 这个海鲜市场挺小的，旁边还有很多干货买。海鲜的种类也不算多，价格适中。 例如： 小青龙，中上大小的，75 元一斤，没啥膏，但肉挺厚实。 生蚝，耳朵大小的两打 100 元，还好，没怎么缩水。 罗氏虾 35 元一斤，不大不小，但肉质一般般，没膏。 海瓜子，20 元一斤，全是沙，根本不能吃，白白浪费 40 块。 水蟑螂，40 元一斤，第一次吃，椒盐炸，感觉挺香的。 海胆肉，20 元一盒，用来炒饭。 黄立鱼，挺大的，也鲜活的，感觉还不错。 兰花蟹，75 元一斤，肉质还可以。 在加工店点了些其他的。 我们六个大人，一共吃了一千多，其
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234051#reply8
+
+---
+
+#### 8458. [V2EX] Children of the Light(光遇)震裂 forcast
+
+**问题描述 / Problem Description**:
+Sky: Children of the Light(光遇)震裂(Shard Eruption)预测/倒计时工具 Sky Shard 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234047#reply0
+
+---
+
+#### 8459. [V2EX] 分享几个气象网站，比大多数天气预报 APP 靠谱。
+
+**问题描述 / Problem Description**:
+我看大家都在说哪个天气预报 APP 比较准，但实际上没有特别准的，也没有特别不准的，主要天气状况实时动态变化，同样一个城市可能相隔几公里都不一样。 与其依赖 App 算出来的静态文字，不如直接看雷达回波和学习基础气象知识。了解自己城市天气特点，绝大多数日常天气问题心理都有把我。 今天预报有雨，到底几点开始下？能下多久？看看雷达图八九不离十了。 上午还是阴沉沉的，下午出门玩能不能出太阳？其实看看云图就能猜出来。 远程行程：未来几天去外地旅游，到底有没有雨，是多云还是晴天？也能通过预测和气象模型大概了解。 我整理了这几年经常看的几款气象网站。个人最推荐的玩法：拿个淘汰的旧手机、旧 iPad 或低功
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234015#reply36
+
+---
+
+#### 8460. [V2EX] 突然发现，做独立开发其实根本就不需要开发
+
+**问题描述 / Problem Description**:
+说说这段时间的经历，前两月闲的无聊，在闲鱼上架了软件开发服务。后来一个买家找我，说要开发一个小程序，需要根据他的需求进行产品设计和开发，功能不复杂，就是简单的 crud 功能，总下来大概 12000 的费用。这个老哥也很痛快，在价格上没怎么含糊，直接就付了我 30%预付款。起初还是打算是自己开发的，但是后来灵机一动，为什么不找人帮我开发呢？所以我又在闲鱼上找了一个开发老哥，6000 块包给了他。这个老哥也是靠谱，大概一个星期就完成了，我交付给了我那个甲方，甲方没说啥，就是如果后续有功能 bug ，需要配合修复。自此，我来回一倒腾，就净赚了 6000~~~~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234000#reply21
+
+---
+
+#### 8461. [V2EX] PDF 转二维码，实现在线文件存储和分享
+
+**问题描述 / Problem Description**:
+为什么要把 pdf 文件转成二维码 ？ 我们常用的场景， 把线下实物（纸张、包装、名片、海报）和线上电子文档打通 ，解决纸质分发、文件传递、版本管理、线下展示的痛点 一、线下物料极简承载，省去大量纸质印刷 减少纸张、降低成本 产品说明书、合同、招生简章、景区导览、设备手册不用打印厚厚的纸质册，只印一个小二维码即可，大幅节约印刷、仓储、运输成本。 例：家电包装只印二维码，消费者扫码看完整 PDF 说明书，不用塞厚厚纸质手册。 节省版面空间 名片、展架、产品贴纸、菜单空间极小，放不下完整文件，一个二维码就能承载几十页 PDF 资料。 二、动态更新文件，二维码图案永远不用换（活码核心优势） 主流 P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233917#reply2
+
+---
+
+#### 8462. [V2EX] 今天才发现 youtube music 不错
+
+**问题描述 / Problem Description**:
+之前一直订阅 apple music 但是涨价+优惠到期了，就没续费， 网页打开 music.youtube.com 就可以听，也没啥广告 多年来不得不承认，我是个木耳+不能欣赏音乐，也就听个经典影视歌曲 有些歌确实夹杂着岁月。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233907#reply15
+
+---
+
+#### 8463. [V2EX] 支付宝的 AI 产品“阿宝”存在的意义是什么？
+
+**问题描述 / Problem Description**:
+今天第一次用了支付宝的 AI 产品“阿宝”，难用到怀疑人生。 平时用支付宝最多的场景就是： 查看昨日收益 付款 生活缴费 小程序打车 还信用卡 以上几个高频使用场景不仅没有一个能够替代原使用习惯，甚至让这几个动作变得更复杂了！这完全背离了 AI 产品的初衷啊！真希望国内这些产品用心的去调研去琢磨到底什么才是用户想要的，而不是为了不掉队把没经过检验的产品匆匆上架！参考「置身钉内」的事件，还不吸纳点教训吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233863#reply23
+
+---
+
+#### 8464. [V2EX] 在土耳其 oyunfor 购买 appstore 礼品卡 VISA 付款失败，大家有没有遇到呢？
+
+**问题描述 / Problem Description**:
+报错：Payment has not been approved. The cardholder should contact their bank. 用的招行 VISA ，找微信信用卡客服，客服反馈卡正常，没有触发招行风控，请外各位大佬可能什么原因？机场换了几个了都不行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233832#reply20
 
 ---

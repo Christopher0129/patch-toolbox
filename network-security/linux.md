@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3082**
+**总计条目 / Total entries: 3107**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -46036,5 +46036,305 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8629-1
+
+---
+
+#### 3083. CVE-2026-71469 - acm-search-v2-api-rhel9: search-v2-api: Unbounded tokenReviews cache allows…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-api-rhel9: search-v2-api: Unbounded tokenReviews cache allows unauthenticated memory-exhaustion DoS. Bugzilla: 2512148
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512148
+
+---
+
+#### 3084. CVE-2026-71471 - acm-search-v2-rhel9: search-v2-operator: Hub Search CR Collector.ImageOverride…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: Hub Search CR Collector.ImageOverride propagated to every spoke as arbitrary container image. Bugzilla: 2512150
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512150
+
+---
+
+#### 3085. CVE-2026-71473 - acm-search-v2-rhel9: search-v2-operator: addonfactory.GetValuesFromAddonAnnotation…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: addonfactory.GetValuesFromAddonAnnotation enables arbitrary Helm-values override per spoke. Bugzilla: 2512152
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512152
+
+---
+
+#### 3086. CVE-2026-71846 - insights-client: insights-client: ClusterRole grants cluster-wide secrets…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] insights-client: insights-client: ClusterRole grants cluster-wide secrets get/list/watch beyond least privilege. Bugzilla: 2512569
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512569
+
+---
+
+#### 3087. CVE-2026-18728 - open-iscsi: open-iscsi: Integer underflow in iscsiuio IPv4 DHCP parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] open-iscsi: open-iscsi: Integer underflow in iscsiuio IPv4 DHCP parsing. Bugzilla: 2463029
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2463029
+
+---
+
+#### 3088. CVE-2026-18727 - open-iscsi: open-iscsi: Integer underflow in iscsiuio DHCPv6 parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] open-iscsi: open-iscsi: Integer underflow in iscsiuio DHCPv6 parsing. Bugzilla: 2462956
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462956
+
+---
+
+#### 3089. CVE-2026-18726 - open-iscsi: open-iscsi: Denial of service in iscsiuio Router Advertisement parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] open-iscsi: open-iscsi: Denial of service in iscsiuio Router Advertisement parsing. Bugzilla: 2462331
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462331
+
+---
+
+#### 3090. CVE-2026-19130 - provider-credential-controller: provider-credential-controller: cross-namespace…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] provider-credential-controller: provider-credential-controller: cross-namespace credential propagation via attacker-controlled copiedFrom labels bypasses authorization. Bugzilla: 2512105
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512105
+
+---
+
+#### 3091. CVE-2026-18725 - open-iscsi: open-iscsi: Out-of-bounds access in iscsiuio ICMPv6 echo handling
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] open-iscsi: open-iscsi: Out-of-bounds access in iscsiuio ICMPv6 echo handling. Bugzilla: 2462023
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462023
+
+---
+
+#### 3092. CVE-2026-18724 - open-iscsi: open-iscsi: Stack buffer overflow in idbm record parsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] open-iscsi: open-iscsi: Stack buffer overflow in idbm record parsing. Bugzilla: 2461994
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2461994
+
+---
+
+#### 3093. CVE-2026-19548 - binutils: binutils: Multiple Use-After-Free in add_archive_element via LTO plugin…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: binutils: Multiple Use-After-Free in add_archive_element via LTO plugin processing. Bugzilla: 2507832
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507832
+
+---
+
+#### 3094. CVE-2026-13622 - kubevirt: virt-handler-rhel9: kubevirt: virt-handler migration proxy follows…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kubevirt: virt-handler-rhel9: kubevirt: virt-handler migration proxy follows symlinks allowing container escape to host. Bugzilla: 2494142
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2494142
+
+---
+
+#### 3095. CVE-2026-68429 - kernel: drm/dp_mst: Handle torn-down topology gracefully in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/dp_mst: Handle torn-down topology gracefully in drm_dp_mst_topology_queue_probe(). Bugzilla: 2514439
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514439
+
+---
+
+#### 3096. CVE-2026-68436 - kernel: drm/amd/display: use kvzalloc to allocate struct dc
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amd/display: use kvzalloc to allocate struct dc. Bugzilla: 2514440
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514440
+
+---
+
+#### 3097. CVE-2026-68432 - kernel: vxlan: require CAP_NET_ADMIN in the device netns for changelink
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vxlan: require CAP_NET_ADMIN in the device netns for changelink. Bugzilla: 2514441
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514441
+
+---
+
+#### 3098. CVE-2026-68446 - kernel: drm/vmwgfx: Validate vmw_surface_metadata::array_size
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/vmwgfx: Validate vmw_surface_metadata::array_size. Bugzilla: 2514442
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514442
+
+---
+
+#### 3099. CVE-2026-68439 - kernel: wifi: mt76: mt7925: fix possible NULL-pointer deref in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: wifi: mt76: mt7925: fix possible NULL-pointer deref in mt7925_mcu_bss_he_tlv(). Bugzilla: 2514443
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2514443
+
+---
+
+#### 3100. [Ubuntu] USN-8631-3: Linux kernel (NVIDIA Tegra IGX) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8631-3
+
+---
+
+#### 3101. [Ubuntu] USN-8529-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that a logic flaw existed in the XFRM ESP-in-TCP subsystem in the Linux kernel when handling socket buffer fragments. This flaw is known as Fragnesia. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43503) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. Th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8529-2
+
+---
+
+#### 3102. [Ubuntu] USN-8530-2: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Linux kernel did not properly handle shared page fragments during socket buffer operations, collectively known as Dirty Frag. A logic flaw existed in the XFRM ESP-in-TCP subsystem and in the RxRPC networking subsystem when processing paged fragments. A local attacker could use this to escalate privileges, or possibly escape a container. (CVE-2026-43284) It was discovered
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8530-2
+
+---
+
+#### 3103. [Ubuntu] USN-8638-1: Axios vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ameer Assadi discovered that Axios did not properly handle certain hostnames when applying NO_PROXY rules. An attacker could possibly use this issue to bypass proxy restrictions and access internal services, resulting in server-side request forgery. (CVE-2025-62718) It was discovered that Axios did not properly protect certain HTTP header values from prototype pollution. An attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8638-1
+
+---
+
+#### 3104. [Ubuntu] USN-8637-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Thunderbolt and USB4 drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-20
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8637-1
+
+---
+
+#### 3105. [Ubuntu] USN-8630-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8630-2
+
+---
+
+#### 3106. [Ubuntu] USN-8632-1: follow-redirects vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dennis Sepede discovered that follow-redirects did not properly remove custom authentication headers when following cross-domain redirects. An attacker could possibly use this issue to obtain sensitive authentication information, resulting in credential disclosure.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8632-1
+
+---
+
+#### 3107. [Gentoo] GLSA 202608-02: FreeType: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in FreeType, one of which includes information leak.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-02
 
 ---

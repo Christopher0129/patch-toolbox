@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8764**
+**总计条目 / Total entries: 8822**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -121903,5 +121903,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233670#reply3
+
+---
+
+#### 8765. Dieharder test 102 print empty rows
+
+**问题描述 / Problem Description**:
+Tags: debian, random | Score: 1 | Views: 44 | Answers: 2 | Created: 2026-08-12
+
+**解决方案 / Solution**:
+Well, after comments from Kusalananda and terdon (Thanks!), that it works on OpenBSD and on Mint, I've tried different system. For variety, I've installed Ubuntu. Lo and behold, it works! radek@LAPTOP-OF4SQ070:~$ dieharder -d 102 -g 054 #=============================================================================# # dieharder version 3.31.1 Copyright 2003 Robert G. Brown # #=============================================================================# rng_name |rands/second| Seed | taus113| 2.60e+08 |3904239230| #=============================================================================# test_name |ntup| tsamples |psamples| p-value |Assessment #=============================================================================# sts_serial| 1| 100000| 100|0.91267329| PASSED sts_serial| 2| 100000| 100|0.12770318| PASSED sts_serial| 3| 100000| 100|0.95640638| PASSED sts_serial| 3| 100000| 100|0.84896227| PASSED sts_serial| 4| 100000| 100|0.88364061| PASSED sts_serial| 4| 100000| 100|0.28272202| PASSED sts_serial| 5| 100000| 100|0.46802309| PASSED sts_serial| 5| 100000| 100|0.43193098| PASSED sts_serial| 6| 100000| 100|0.99385166| PASSED sts_serial| 6| 100000| 100|0.98854674| PASSED sts_serial| 7| 100000| 100|0.69910952| PASSED sts_serial| 7| 100000| 100|0.65600528| PASSED sts_serial| 8| 100000| 100|0.27007683| PASSED sts_serial| 8| 100000| 100|0.54317694| PASSED sts_serial| 9| 100000| 100|0.83561070| PASSED sts_serial| 9| 100000| 100|0.13036182| PASSED sts_serial| 10| 100000| 100|0.57802203| PASSED sts_serial| 10| 100000| 100|0.43405580| PASSED sts_serial| 11| 100000| 100|0.99514452| WEAK sts_serial| 11| 100000| 100|0.70059997| PASSED sts_serial| 12| 100000| 100|0.77965618| PASSED sts_serial| 12| 100000| 100|0.35376634| PASSED sts_serial| 13| 100000| 100|0.98845374| PASSED sts_serial| 13| 100000| 100|0.93843232| PASSED sts_serial| 14| 100000| 100|0.84717728| PASSED sts_serial| 14| 100000| 100|0.56554632| PASSED sts_serial| 15| 100000| 100|0.32036330| PASSED sts_serial| 15| 100000| 100|0.34963260| PASSED sts_serial| 16| 100000| 100|0.97889485| PASSED sts_serial| 16| 100000| 100|0.91497626| PASSED Anyway, changing operating system solves the problem, but I would still be interested if there is a fix for debian 11.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806997/dieharder-test-102-print-empty-rows
+
+---
+
+#### 8766. LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vn6myi/lact_brings_more_nvidia_oc_controls_and_gpu/
+
+---
+
+#### 8767. Lumia 1520 Linux update: the audio hardware is finally talking!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnmmki/lumia_1520_linux_update_the_audio_hardware_is/
+
+---
+
+#### 8768. NVIDIA GeForce NOW cloud gaming for Linux levels up and leaves Beta
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vna2o9/nvidia_geforce_now_cloud_gaming_for_linux_levels/
+
+---
+
+#### 8769. What a real LTS looks like: Kubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnovqd/what_a_real_lts_looks_like_kubuntu_2604/
+
+---
+
+#### 8770. I can beat 5 more years out of 15 year old laptop.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vniqfb/i_can_beat_5_more_years_out_of_15_year_old_laptop/
+
+---
+
+#### 8771. DUP - Debian Maintenance Tool
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnm67x/dup_debian_maintenance_tool/
+
+---
+
+#### 8772. VioletiumOS: Debian for IoT, Embedded Devices, and Speed
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vn61ll/violetiumos_debian_for_iot_embedded_devices_and/
+
+---
+
+#### 8773. Codex in ChatGPT desktop app for Linux is now in preview
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnksa2/codex_in_chatgpt_desktop_app_for_linux_is_now_in/
+
+---
+
+#### 8774. Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnby9t/class_is_in_session_geforce_now_levels_up_linux/
+
+---
+
+#### 8775. What exactly is the purpose of workspaces in Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vn94z2/what_exactly_is_the_purpose_of_workspaces_in_linux/
+
+---
+
+#### 8776. I am not a fool.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnjxun/i_am_not_a_fool/
+
+---
+
+#### 8777. Bazzite or CachyOS?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnevco/bazzite_or_cachyos/
+
+---
+
+#### 8778. Kernel panick
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vngkep/kernel_panick/
+
+---
+
+#### 8779. Linux on a Galaxy Book 2 360
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnf5h1/linux_on_a_galaxy_book_2_360/
+
+---
+
+#### 8780. Dual-boot Ubuntu on Legion 5i 15IRX9 (i7-13650HX + RTX 4060) driver conflict + battery life questions
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnimz5/dualboot_ubuntu_on_legion_5i_15irx9_i713650hx_rtx/
+
+---
+
+#### 8781. dual boot options with t14 g3 and 1tb nvme
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vni6fj/dual_boot_options_with_t14_g3_and_1tb_nvme/
+
+---
+
+#### 8782. WM for thinkpad x220???
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnnzke/wm_for_thinkpad_x220/
+
+---
+
+#### 8783. Which screenshot tool do you use on Linux? I loved Shutter (standard + advanced features + great UI / UX), but after I moved to Wayland from X11 (upgrading distro) I had to change st since an handy feature (window capture from a list of opened windows) is not supported on both. Any replacement?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnny5u/which_screenshot_tool_do_you_use_on_linux_i_loved/
+
+---
+
+#### 8784. windows studdering every half a second
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnnp1c/windows_studdering_every_half_a_second/
+
+---
+
+#### 8785. Écran noir hyprland après maj 7.1.8
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnn8fh/écran_noir_hyprland_après_maj_718/
+
+---
+
+#### 8786. Need help on partitioning my D drive
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vngjpg/need_help_on_partitioning_my_d_drive/
+
+---
+
+#### 8787. "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running." What else am I supposed to do?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnmmcy/nvidiasmi_has_failed_because_it_couldnt/
+
+---
+
+#### 8788. On Alpine 3.24, can sudo be replaced with doas-sudo-shim after Pi-Hole is installed?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnfxht/on_alpine_324_can_sudo_be_replaced_with/
+
+---
+
+#### 8789. Issue with installing Linux Mint
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnc8yv/issue_with_installing_linux_mint/
+
+---
+
+#### 8790. Can Unison Flatpak run headless?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vneyip/can_unison_flatpak_run_headless/
+
+---
+
+#### 8791. 2020 Zephyrus G14, High I/O Wait, Uninterruptible Kernel Threads, Integrated GPU Only Boot Issues on Fedora 44
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vndwev/2020_zephyrus_g14_high_io_wait_uninterruptible/
+
+---
+
+#### 8792. How would you movie from debian 13 to windows 11? (On a thinkpad T14 Gen 2)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnk9od/how_would_you_movie_from_debian_13_to_windows_11/
+
+---
+
+#### 8793. How to fix no audio in games?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnjvr9/how_to_fix_no_audio_in_games/
+
+---
+
+#### 8794. Changing from Windows to linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnhmoy/changing_from_windows_to_linux/
+
+---
+
+#### 8795. dual booting linux
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vn4bds/dual_booting_linux/
+
+---
+
+#### 8796. Set up the command line to accept control+backspace to delete a whole word in debian stable + KDE plasma.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vn9j3d/set_up_the_command_line_to_accept/
+
+---
+
+#### 8797. Help please
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnf8q2/help_please/
+
+---
+
+#### 8798. wayland cant login
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vnf21b/wayland_cant_login/
+
+---
+
+#### 8799. Indexing app
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1vneg3v/indexing_app/
+
+---
+
+#### 8800. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply96
+
+---
+
+#### 8801. [V2EX] AI 让 Linux 变得真正可用了
+
+**问题描述 / Problem Description**:
+以前 Linux 最不好用的地方就是各种硬件适配以及软件小问题，尤其是在 DE 环境里。 最近因为老的 Surface Pro 5 用 Windows 实在卡，换 Linux 看能不能续一波命。linux-surface 这个项目很棒，解决了很多驱动问题，但我装了 debian-xfce 之后还是有几个小问题，包括 Surface pen 识别，屏幕自动旋转，电源键休眠，不过都直接用 opencode 免费的 ds-v4-flash 解决了，全程也不需要过多提示。 除此之外，Linux 上也缺一个很好用的 PDF 手写标注软件，尤其是跟 Surface pen 适配的。（其实我在 win 上也
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233912#reply20
+
+---
+
+#### 8802. [V2EX] 给 Noctalia 做了一个 Mihomo / Clash 控制插件
+
+**问题描述 / Problem Description**:
+最近给 Noctalia 写了一个 Mihomo Control 插件，希望使用 Noctalia + Clash/Mihomo 的朋友可以少开一个管理页面。 它不是新的代理内核，也不会接管或修改 Mihomo 配置。Mihomo 继续负责代理、规则和订阅，插件只通过 External Controller API 提供常用操作。 目前支持： - 状态栏显示连接状态、代理模式和实时上下行流量 - 查看连接数量、流量统计和内存占用 - 切换 Rule / Global / Direct 模式 - 查看所有代理组及当前节点 - 展开代理组并直接切换节点 - 显示节点延迟 - 单独测试某个代理组，或
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233875#reply1
+
+---
+
+#### 8803. [V2EX] 感觉自己在工作之余的学习中走了弯路，和大家分享一下
+
+**问题描述 / Problem Description**:
+不过可能也就是我自己蠢，V2 上的大佬们都知道了。 我一直想做系统程序员，但是没有多少计算机基础。之前自学计算机基础，跟着网课和书本做了两三个项目，比如 MIT 的 xv6 labs 、写了个小的解释器，等等。每个项目花 2-4 个月不等。 但是后来我发现，学习这些用不上的东西，一方面容易疲劳，另一方面似乎对自己的职业也没有任何帮助。说到疲劳，我每次做完一个项目，就会陷入大概半年左右的挣扎期。在这段时间内会不断的尝试新的项目，但是始终做不下去，最后放弃，直到六个月之后才能完全好转。而职业上这些东西又用不到，或者说要想用到的话，那要求就高的多了。 所以我觉得我走了很多弯路，花了很多时间，学的也不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234240#reply2
+
+---
+
+#### 8804. [V2EX] DeepSeek Harness 开发版，七嘴八舌交流篇
+
+**问题描述 / Problem Description**:
+体验了下 1 、缓存命中率很高，泰酷辣 2 、主动性很高，给一句话把很多事情默认都做掉了。要提示词或者主动 skill 去主动约束，能接受。 另外看直播评论讨论质疑声更多，以下是一些方面 1 、从 web 入口开始，觉得的太 low 了。 我觉得比起 商店上架 或者 桌面端兼容工作量看，直接浏览器安装应用程序 没差，另外 web 入口还有 /feedback 支持，真公测。 2 、和 WorkBuddy 对比的 产品定位不同。不再讨论。 3 、难上手，插件列表不知道怎么用。 我基本有问题就直接问，譬如几个模式什么区别，什么场景用，为什么用不了正斜线指定 skill （其实可以 整体还是很正面的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234236#reply0
+
+---
+
+#### 8805. [V2EX] 随手 vibe 了一个桌面 ai 客户端横向对比的网页
+
+**问题描述 / Problem Description**:
+分享一个 AI 开发平台，每天赠送一个亿的各种流行模型的 token ，刚好 ds harness 发布了，在这上面随手做了个横评页面，还挺好用，能直接发布成网站。 页面网址 https://xsiuwovq.sc.monkeycode-ai.online 平台网址 monkeycode-ai.com (无 aff)，欢迎大佬们体验~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234232#reply0
+
+---
+
+#### 8806. [V2EX] dsh 这个缓存命中，真的太顶了
+
+**问题描述 / Problem Description**:
+opencode-go 猛猛蹬，5 小时额度几乎没动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234227#reply0
+
+---
+
+#### 8807. [V2EX] 今天一天梁圣的口碑是不是要下滑到小梁们
+
+**问题描述 / Problem Description**:
+目前看滑动变阻器是不是需要新的挡位“小梁们”了 哈哈哈哈哈哈哈 模型发了又撤回，乱糟糟的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234221#reply1
+
+---
+
+#### 8808. [V2EX] DeepSeek Harness 先不用管原理，直接抢先体验
+
+**问题描述 / Problem Description**:
+大家体感如何
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234218#reply3
+
+---
+
+#### 8809. [V2EX] DeepSeek Harness 来了，每几分钟就涨 1k 星，初步用了下挺丝滑的，缓存命中率也很高
+
+**问题描述 / Problem Description**:
+https://github.com/deepseek-ai/deepseek-harness 有一个 web 的 ui 操作界面 一些数据
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234214#reply7
+
+---
+
+#### 8810. [V2EX] deepseek harness 来了
+
+**问题描述 / Problem Description**:
+npm install -g @ deepseek-ai /dsh dsh --profile web 启动 webui
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234213#reply0
+
+---
+
+#### 8811. [V2EX] dsh deepseek-harness 官方消息汇总
+
+**问题描述 / Problem Description**:
+公众号： deepseek harness 团队 - DeepSeek Harness 开发者预览版：一切皆插件 https://mp.weixin.qq.com/s/mANdGRI4fO_sEbC1ECEoZQ github 仓库： https://github.com/deepseek-ai/deepseek-harness cordis 插件系统作者： https://github.com/shigma
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234209#reply6
+
+---
+
+#### 8812. [V2EX] 一个月 codex 下来， 输出 5 个 C++项目
+
+**问题描述 / Problem Description**:
+总计 10w 行 C++代码，5 个跨平台的应用，三个已经上架 微软商店 这放在以前，一年我也做不好，现在只要敢想就行😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234205#reply3
+
+---
+
+#### 8813. [V2EX] DeepSeek Harness 来了，一切皆插件的 Agent 框架
+
+**问题描述 / Problem Description**:
+DeepSeek Harness 技术拆解，一切皆插件的 Agent 框架 DeepSeek Harness 的开发者预览版上线了，代码已经开源，仓库在 github.com/deepseek-ai/deepseek-harness 。圈内习惯叫它 dsh 。 它是 DeepSeek 做的开源 Agent 框架，和 Claude Code 是一类东西，跑在本地，让模型替你真干活。上线前它内测了一阵，这篇按技术脉络把最要紧的设计讲清楚，想快速了解它，看这篇就够。 它是什么 dsh 是一个装在你机器上的编程智能体。装了 Node 开发环境，一行命令 npx @deepseek-ai/dsh web
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234203#reply16
+
+---
+
+#### 8814. [V2EX] 鸿蒙 os 高级开发者认证是个什么水平
+
+**问题描述 / Problem Description**:
+最近招应届生，很多写有这个认证的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234202#reply7
+
+---
+
+#### 8815. [V2EX] 有没有这样一个 AI 啊
+
+**问题描述 / Problem Description**:
+我是做 iOS 和 Android 的，每次测试包都很麻烦，有时候要打很多渠道包。 有没有一个 AI 可以自己拿手机插上数据线自己安装包在手机上，然后自己测试跑一遍登录支付这些。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234201#reply1
+
+---
+
+#### 8816. [V2EX] deepseek v4 pro 正式版来了， api 价格大幅上升
+
+**问题描述 / Problem Description**:
+DeepSeek API 价格调整综合对比表 模型 时段 百万 tokens 输入（缓存命中） 百万 tokens 输入（缓存未命中） 百万 tokens 输出 deepseek-v4-flash 调整前 0.02 元 1 元 2 元 调整后-空闲时段 0.05 元（+150%） 1.5 元（+50%） 4.5 元（+125%） 调整后-高峰时段 0.10 元（+400%） 3.0 元（+200%） 9.0 元（+350%） deepseek-v4-pro 调整前 0.025 元 3 元 6 元 调整后-空闲时段 0.15 元（+500%） 4.5 元（+50%） 13.5 元（+125%）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234199#reply13
+
+---
+
+#### 8817. [V2EX] 现在这个 AI 的时代了。为什么很少能看到有人使用 avaloniaUI 进行开发呢？
+
+**问题描述 / Problem Description**:
+毕竟都是 AI ，写代码也无所谓，学不学这个，它又能支持非常多的跨平台。在性能上也还不错。和一些什么 C 库、Rust 结合也非常方便。但是为什么鲜有人使用这个呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234197#reply16
+
+---
+
+#### 8818. [V2EX] [分享] 分享下我们在使用的三方短信语音服务商
+
+**问题描述 / Problem Description**:
+创蓝 253 https://www.chuanglan.com/ 我们使用了国内短信语音、国外短信语音、挂短、验证码、营销短信 这些功能 功能的使用上没什么问题，回调、界面查询这些基本功能都有，就遇到过一次线上问题，半小时之内也解决了 最大的特点就是售后服务和监控好，会拉企微服务群，他们会主动监测一些异常场景，比如大量无效号码使用，使用量激增等等，还要现场拜访听取意见，被我们社恐的老大给拒了。还会协助一些麻烦操作，比如向运营商报备模版。 顺便 diss 一下其他的，之前用的 ali 经常无缘故不送达，也没有具体原因，听说价格还贵；还连调过 jd 的，更离谱，测试阶段电话都打不通，让他们排查两
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234196#reply0
+
+---
+
+#### 8819. [V2EX] deepseek 价格起飞了
+
+**问题描述 / Problem Description**:
+https://api-docs.deepseek.com/zh-cn/quick_start/pricing/ DeepSeek API 价格调整公告 (1) 我们将对 DeepSeek API 价格进行更新调整，采用峰谷定价， 空闲时段价格为高峰时段价格的一半 。 高峰时段为北京时间 9:00 - 12:00 、14:00 - 18:00 （其余为空闲时段）。 新价格将于北京时间 2026 年 8 月 17 日 00:00 开始生效，具体如下： 模型 时段 百万 tokens 输入（缓存命中） 百万 tokens 输入（缓存未命中） 百万 tokens 输出 deepseek-v4-fla
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234195#reply1
+
+---
+
+#### 8820. [V2EX] deepseek 系里是否 deepseek 公司，小米，硅基流动这 3 家价格差不多？还有性价比高，稳定的 deepseek 系大供应商吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234184#reply0
+
+---
+
+#### 8821. [V2EX] 抨击一下 tibo 现在的重置行为：作秀营销而非真正让利用户
+
+**问题描述 / Problem Description**:
+回顾一下 tibo 最近的几次重置，上上上次重置，没记错的话，正好是更早一次重置的一周后，也就是说本来就自然重置了，马上又再重置一次，大多数用户都还没消耗什么 token 就迎来了重置。 上上次重置则是在 8.12 附近，而最后一张重置卡是 8.13 凌晨到期，上上次重置实际上变相削弱了最后一张重置卡的价值。 最新一次重置则是今天上午十点多的时候，距离上次重置卡到期不超过十二个小时。 可以看到，tibo 的最近几次手动重置时间，都 和自然重置时间非常接近 ，尤其是在没有预告重置的情况下，对普通用户而言并没有太大价值。 轻度用户这里就不考虑了，我们这里把中度用户分成三类（一个重度用户简单等同于多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234169#reply52
+
+---
+
+#### 8822. [V2EX] 配了个迷你主机, 然后跑 ERP 跑不起来,claude 一查竟然是工程 CPU
+
+**问题描述 / Problem Description**:
+真是折腾啊, 不过意味奸商无法隐藏了?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234160#reply10
 
 ---
