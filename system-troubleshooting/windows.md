@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9523**
+**总计条目 / Total entries: 9570**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -129720,5 +129720,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234052#reply12
+
+---
+
+#### 9524. Windows says the audio device is "working properly" but no application can play sound until I reboot
+
+**问题描述 / Problem Description**:
+Tags: windows, audio, drivers, hdmi | Score: 1 | Views: 22 | Answers: 1 | Created: 2026-08-14
+
+**解决方案 / Solution**:
+Windows is telling you the truth about the driver and nothing at all about the endpoint . Those are two different things, and only the second one is broken. Confirming it Device status is useless here, so measure instead. Open a WASAPI stream against the endpoint and see what happens. On the affected device, IAudioClient::Initialize fails with: AUDCLNT_E_ENDPOINT_CREATE_FAILED (0x8889000F) Every application that asks for that endpoint gets the same error, which is why nothing plays anywhere at once. No part of the Windows UI surfaces this error, so the device keeps showing a volume slider it cannot honour. The contrast with HDMI is the giveaway: those outputs hang off the GPU, so they are unaffected by whatever is wrong with the onboard audio controller. The cause A driver update that could not finish. OEM audio packages ship helper services and tray applications that keep handles open on the codec. When Windows Update replaces the audio driver it has to eject and recreate the device, those open handles block the eject, and the install ends up half applied. You can see this in the System event log as Kernel-PnP event 225 , naming the process that blocked it: The application <vendor audio app> with process id N stopped the removal or ejection of the device <your audio device>. Windows then flags the device node as needing a system restart. Until that restart happens the controller will not open a streaming pin, and so the endpoint cannot be created. That flag is also why the usual advice does nothing. pnputil /restart-device does not fail silently, it refuses: The device has a pending system restart to complete a previous operation. Restarting the audio service does not help either, because the service was never the problem. Recovering without a reboot The pending-restart flag lives on the device node. Destroy the node and the flag goes with it. Stop the vendor audio services and tray apps first (Realtek, Dolby, Waves, Nahimic, DTS, Conexant, Senary, and so on). If you skip this they will block the rebuild exactly as they blocked the original install. Rebuild the device node, elevated: pnputil /remove-device "<instance id of the audio device>" pnputil /scan-devices If the endpoint still fails, do the same one level up, on the parent controller rather than the codec. Find it with: Get-PnpDeviceProperty -InstanceId "<instance id>" -KeyName DEVPKEY_Device_Parent then: pnputil /remove-device "<parent instance id>" /subtree pnputil /scan-devices In my case rebuilding the codec alone was not enough; rebuilding the parent controller was what brought the audio back. Restart the vendor services, and kill the long-lived audio process inside your browser ( --utility-sub-type=audio ) so it reconnects to the rebuilt endpoint. The browser respawns it automatically and no tabs are lost. Windows reinstalls the device from the driver package already in the DriverStore, so nothing is permanently removed. Be aware of the risk anyway: if the rebuild does not complete you have no audio until you reboot, which is the state you were already heading for. The pending-reboot markers in the registry stay set. Do not delete them by hand; that can leave Windows servicing inconsistent, and rebuilding the device node is enough on its own. Script I put the whole thing together as a script, because the instance IDs differ on every machine and getting them by hand is error prone: https://github.com/Perkybeet/audio-revive By default it only diagnoses. It probes every playback endpoint with a real WASAPI stream and reads the peak meter, so it distinguishes an endpoint that cannot render from one that is simply not the one you are listening to. Repairs are opt-in and escalate in stages, and the step that rebuilds the parent controller requires an explicit flag. Disclosure: that is my own script. The repair path is verified end to end on one machine (an Intel Smart Sound controller with a Senary codec); the diagnostic half is generic.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939680/windows-says-the-audio-device-is-working-properly-but-no-application-can-play
+
+---
+
+#### 9525. CCleaner malware concerns and alternatives.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vofjqk/ccleaner_malware_concerns_and_alternatives/
+
+---
+
+#### 9526. Write protected USB.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vo90lk/write_protected_usb/
+
+---
+
+#### 9527. 2 Drives - 2 Different OS - Same PC - No connection between drives?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vob632/2_drives_2_different_os_same_pc_no_connection/
+
+---
+
+#### 9528. Wifi Booster Making Internet Speed Abysmal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voj34k/wifi_booster_making_internet_speed_abysmal/
+
+---
+
+#### 9529. How to fix visual glitches
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voijze/how_to_fix_visual_glitches/
+
+---
+
+#### 9530. Google safe search won't turn off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vokytv/google_safe_search_wont_turn_off/
+
+---
+
+#### 9531. PC not recognizing microphone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vokout/pc_not_recognizing_microphone/
+
+---
+
+#### 9532. Can’t unlock the fn button on my mechanical keyboard kemove68se
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vojz0p/cant_unlock_the_fn_button_on_my_mechanical/
+
+---
+
+#### 9533. Audioissues with my MSI Katana gaming laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vojcbb/audioissues_with_my_msi_katana_gaming_laptop/
+
+---
+
+#### 9534. Red lines stuttering on screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voj4mu/red_lines_stuttering_on_screen/
+
+---
+
+#### 9535. Recovering pictures from old flip phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voj3zu/recovering_pictures_from_old_flip_phone/
+
+---
+
+#### 9536. Windows 11 installation/repair issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voitfn/windows_11_installationrepair_issues/
+
+---
+
+#### 9537. Xbox right stick glitch
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voiorg/xbox_right_stick_glitch/
+
+---
+
+#### 9538. BIOS Update yes or no?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voij5z/bios_update_yes_or_no/
+
+---
+
+#### 9539. Windows 11 won’t boot after a update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1voi3cw/windows_11_wont_boot_after_a_update/
+
+---
+
+#### 9540. Attestation Status
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohw8o/attestation_status/
+
+---
+
+#### 9541. PC slows down, lags brutally and then goes back to normal.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohu7v/pc_slows_down_lags_brutally_and_then_goes_back_to/
+
+---
+
+#### 9542. Ryzen 7 5700X3D + RX 7900 GRE: grey-screen recoveries followed by WHEA 0x124 / MCA Bank 5, mostly in Chrome and Discord for now
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohtyz/ryzen_7_5700x3d_rx_7900_gre_greyscreen_recoveries/
+
+---
+
+#### 9543. Keyboard Disconnection Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohmnr/keyboard_disconnection_issues/
+
+---
+
+#### 9544. Intermittent USB/Input Problems on MSI B650-S WiFi, Possibly Related to Sleep/Resume
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohmir/intermittent_usbinput_problems_on_msi_b650s_wifi/
+
+---
+
+#### 9545. Ran into the error mentioned below Stop_Code: HYPERVISOR_ERROR
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohlc5/ran_into_the_error_mentioned_below_stop_code/
+
+---
+
+#### 9546. gaming laptop sounds distorted when not charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vo5jfp/gaming_laptop_sounds_distorted_when_not_charging/
+
+---
+
+#### 9547. Laptop hard freeze on a single game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohcsa/laptop_hard_freeze_on_a_single_game/
+
+---
+
+#### 9548. Game crashing after Overclock
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vohcf2/game_crashing_after_overclock/
+
+---
+
+#### 9549. [V2EX] MSPCManagerService.exe 占用 cpu , 如何解决
+
+**问题描述 / Problem Description**:
+PCManager Service Store 这玩意, 在编译的时候, 占用 cpu 奇高. 在 services.msc 还不能禁止自启动. chatgpt 给的卸载方法也不管用.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234377#reply2
+
+---
+
+#### 9550. [V2EX] 有没有遇到更新 Win11 2026-07 之后每次开机反复 chkdsk 的（NTFS 分区被标 dirty）
+
+**问题描述 / Problem Description**:
+很奇怪的问题，更新到 Win11 2026-07 之后，一个 NTFS 分区只要一挂载，就会被标 dirty ，会产生一个 Event 55 日志： 在文件系统索引结构中发现损坏。文件参考编号为 0x100000000001a 。文件名为“<无法确定文件名>”。损坏的索引属性为“:$R:$INDEX_ALLOCATION”。损坏的索引块位于 Vcn 0x1 ，Lcn 0xffffffffffffffff 。损坏开始位置在索引块中的偏移 352 处。 chkdsk /f /r 什么问题都没有，所以在这个系统下，只要 chkdsk /f 完，马上又会变 dirty ，导致每次开机都反复 chkds
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1230399#reply4
+
+---
+
+#### 9551. [V2EX] 刚买了个贝尔金充电器，准备做 Mac 充电器的平替，然后测了下纹波，结果震惊了
+
+**问题描述 / Problem Description**:
+以上是测试数据，居然是原装充电器纹波最大，然后贝尔金的纹波也不咋地，没想到联想的口红电源频谱最干净（家里有好多，因为啸叫+代工厂的原因，平时还看不上它） 请各位电子大佬帮忙分析下，看下哪个充电器最好，然后还需要测哪些参数（专业仪器就别说了，没意义）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234506#reply8
+
+---
+
+#### 9552. [V2EX] 几时钱也跟风买了一个 gemini pro，只能在网页用？
+
+**问题描述 / Problem Description**:
+以前部署过 cpa 的，感觉很容易被风控。是不是只剩下在网页中使用了？反代会不会也封？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234494#reply3
+
+---
+
+#### 9553. [V2EX] 甲骨文春川是不是无法降配了
+
+**问题描述 / Problem Description**:
+想要升级，已经绑卡成功，但升级时候出现错误：“ 發生錯誤 嘗試升級您的帳戶時發生錯誤。請再試一次，或聯絡 Oracle 全球業務代表。” 这个是五年的老号了，所以不可能重建注册时候的环境。。 想要去降配，显示没有项目可供显示，是不是现在春川没有资源可以选择了。。 现在用的是 4cpu24g ，难道只能停机或删机了吗。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234473#reply5
+
+---
+
+#### 9554. [V2EX] 如何出 ai 时代的软件面试题目？
+
+**问题描述 / Problem Description**:
+有没有人能分享下 如何出面试题？ 题目允许面试者自由使用 ai ， 考察其是否能正确使用 ai 解决复杂的没有标准答案的软件问题， 是否能正确约束问题边界。 能指出 ai 方案里的错误和缺陷 问题边界： 譬如任何软件都是基于某个硬件运行的，也依赖用户需求，不可能满足所有的需求。 故障处理也是有边界的, 哪些故障应该让软件直接 崩溃退出，哪些需要软件兜底 考察如何能清楚地设置边界条件，发现 ai 写的代码/方案有问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234448#reply5
+
+---
+
+#### 9555. [V2EX] 即梦消费欺诈 老会员升级后被降级覆盖，投诉无门 求助
+
+**问题描述 / Problem Description**:
+有点生气， 我是 2026 年 2 月 13 日开通 2599 的高级会员，当时包含 16000 的点数。12 个月。 后来，即梦在 2026 年 6 月左右，削减了高级会员的点数数量，但当时承诺老会员不受影响 8 月 10 日，我看到网页上显示，加量包打 7 折，花费 6599 开通 12 个月加量包 12000 点数，12 个月 当时我明确查看提示，写的是叠加，而且话术是“加量包” 开通后，我的老高级会员直接消失，套餐被覆盖为 12000 点数，原先的剩余的 6 个月高级会员直接消失。 我打即梦人工客服电话被告知，加量包只是名字叫做加量包，不代表加量，实际是对您的减量。 等于我多花了 65
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234426#reply5
+
+---
+
+#### 9556. [V2EX] 现在还有渠道能买到日本 050 的电话号码吗
+
+**问题描述 / Problem Description**:
+需要一个 050 的日本号码， 接收语音验证， 不外呼，哪里可以搞到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234425#reply0
+
+---
+
+#### 9557. [V2EX] 需求梳理，模式设计。让 API 兼容更多场景，编写鲁更加鲁棒的代码到底对不对？
+
+**问题描述 / Problem Description**:
+马上周末了，一些碎碎念 做项目 n 多年了，一直重视组织架构和鲁棒性。现在发现，功劳最多的是哪个每次有个小需求都要写代码的，反倒是你，每次需求你动动手指，改改配置就好了没什么参与度。 年终评审绩效的时候，有几个人能看懂你的高可用和高适配？防御性编程，有时候在特殊情况下也是蛮有道理的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234418#reply5
+
+---
+
+#### 9558. [V2EX] 大伙都会准时交小区管理费么？
+
+**问题描述 / Problem Description**:
+我是绑了一个卡，每月小区就自动扣费管理费，但是发现很多邻居，是不绑卡的， 每天月等管家问，然后去小区管理处缴费。 有时候还会用这个卡管家，比如电梯经常出现故障之类的。 大家的小区管理费是怎么处理的？ 人工手动？还是绑卡自动？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234404#reply2
+
+---
+
+#### 9559. [V2EX] 闲鱼上那种 iMac 拆机的带 touchid 的苹果键盘靠谱吗？我看写着‘严选’的商家
+
+**问题描述 / Problem Description**:
+最近单位里发了通知， 说为了保证 macOS 设备合规，以后登陆公司内网，比如 o365 站点，进行员工 SSO 认证，必须使用 Touch ID 生物认证才能访问。这么看来不得不给 Mac 台式电脑购买带 touchID 的苹果键盘才能继续用了。由于是个人购买的 Mac 电脑，所以公司也不会给报销这个键盘费用。 由于苹果键盘价格实在太贵，于是到闲鱼看了看，看到一些标记‘严选’的商家说有卖 imac 拆机的带 touchid 的苹果键盘，lightning 接口的，大概在 500 上下，不知道靠不靠谱？不知道有哪位 v 友有尝试过？ 我主要是为了解决 touchID 认证的问题，其实平时用着
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234391#reply7
+
+---
+
+#### 9560. [V2EX] 听领导说 gmgn 和 okx 的 web3 部门都把测试人员都快砍完了，有了解的吗？
+
+**问题描述 / Problem Description**:
+ai 自动化测试有这么成熟了吗？为什么我觉得 ai 还是有些不靠谱。 有大佬公司把 ai 自动化，或者其他自动化方向能完整跑通并且效果较好的案例吗？ 求大佬分享分享
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234386#reply1
+
+---
+
+#### 9561. [V2EX] 云主机、既要又要
+
+**问题描述 / Problem Description**:
+想买一台长期使用的云主机，要便宜还要稳定 可以是国内的，也可以是国外的， 本来 oracle 的免费主机是最理想的，注册了个新加坡的，基本申请不到了 可以年付，后续付费不要套路，有没有推荐的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234385#reply5
+
+---
+
+#### 9562. [V2EX] 平安搞了个工号，有需求的可以聊聊
+
+**问题描述 / Problem Description**:
+各位朋友，近期已搞定 中国平安官方工号 。 **面向有保险资金配置、财富传承、家庭保障或车险续保需求的朋友，提供优惠的投保渠道！ 投保方案你来提供，我负责低价帮你实现方案，互惠互利，有需求的可以加 fbys11
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234384#reply1
+
+---
+
+#### 9563. [V2EX] 企微智能助理快捷键怎么关闭？
+
+**问题描述 / Problem Description**:
+不想设置快捷键，但是好像又必须要设置？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234365#reply0
+
+---
+
+#### 9564. [V2EX] mate80 标准版有没有大佬用过，体验咋样，最近入手有没有性价比。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234361#reply3
+
+---
+
+#### 9565. [V2EX] 有划船机推荐吗
+
+**问题描述 / Problem Description**:
+有划船机推荐吗，预算 2000-3000 ，好用耐用一点，性价比高一点。 ai 推荐了几款： 综合体验佳：麦瑞克 950 划船机 承重能力强：佑美 R7 划船机 智能静音款：易跑 V5 银翼海豹 划船机 总结建议：注重真实划船感推荐麦瑞克或佑美；若家中隔音一般且有大体重成员，静音且高承重的佑美 R7 是最佳选择；追求纯粹静音与精细调阻选易跑 V5 。 网上讨论比较多是： 麦瑞克 950 和摩刻 M30 大家都用的哪款，有推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234347#reply10
+
+---
+
+#### 9566. [V2EX] 有兄弟 IBKR 底部标签项缺少 "主页"，多出 "新闻" 的么？
+
+**问题描述 / Problem Description**:
+我记得以前也是有 "主页" 标签的，不知什么时候就变成下面这样了，在设置里也找不到主页标签的相关项。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234342#reply1
+
+---
+
+#### 9567. [V2EX] 有没有办法用 AI 签到各种 app
+
+**问题描述 / Problem Description**:
+比如使用 codex 或 openclaw 啥的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234334#reply3
+
+---
+
+#### 9568. [V2EX] T-mobile 哪里可以买？
+
+**问题描述 / Problem Description**:
+大概多少钱，京东上有 159 、286 的还有 568 的，有没有买过的推荐一下～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234317#reply4
+
+---
+
+#### 9569. [V2EX] 大家有什么好的资产汇总管理方式吗？
+
+**问题描述 / Problem Description**:
+国内银行卡多张就不说了，重点是港卡、港股、国外券商这类。 如何定期方便地回顾自己所有资产的情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234316#reply34
+
+---
+
+#### 9570. [V2EX] 想买个.is 后缀的域名，有什么坑吗？
+
+**问题描述 / Problem Description**:
+在 namecheap 上看，还有个联系人的限制，这个不要求本地地址吧？ https://www.namecheap.com/support/knowledgebase/article.aspx/10105/36/is-domain-registration-requirements/ 有没有搞过的大佬，指点一下，担心有坑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234313#reply0
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2814**
+**总计条目 / Total entries: 2825**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -51231,5 +51231,181 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8632-1
+
+---
+
+#### 2815. CVE-2026-56657 - code.gitea.io/gitea: Gitea: Denial of Service in SSH Key Parser
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] code.gitea.io/gitea: Gitea: Denial of Service in SSH Key Parser. Bugzilla: 2515479
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515479
+
+---
+
+#### 2816. CVE-2026-66804 - console: console: authenticated SSRF via /ansibletower allows arbitrary host…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] console: console: authenticated SSRF via /ansibletower allows arbitrary host access with full response disclosure. Bugzilla: 2508665
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508665
+
+---
+
+#### 2817. CVE-2026-73585 - sblim-cmpi-base: Insecure temporary file creation in sblim-cmpi-base provider…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-cmpi-base: Insecure temporary file creation in sblim-cmpi-base provider registration scripts allows local symlink attack. Bugzilla: 2462235
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462235
+
+---
+
+#### 2818. CVE-2026-73584 - sblim-sfcb: sblim-sfcb: Privileged file corruption and denial of service via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-sfcb: sblim-sfcb: Privileged file corruption and denial of service via insecure temporary file handling. Bugzilla: 2462721
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462721
+
+---
+
+#### 2819. CVE-2026-73583 - sblim-sfcb: Unsafe deserialization in sblim-sfcb provider-manager IPC allows…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-sfcb: Unsafe deserialization in sblim-sfcb provider-manager IPC allows out-of-bounds memory access via malformed OperationHdr. Bugzilla: 2462126
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462126
+
+---
+
+#### 2820. CVE-2026-67986 - amazing_print: amazing_print: Arbitrary code execution via Ruby code injection in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] amazing_print: amazing_print: Arbitrary code execution via Ruby code injection in AwesomeMethodArray#grep. Bugzilla: 2515343
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515343
+
+---
+
+#### 2821. CVE-2026-68454 - kernel: KVM: s390: pci: Fix handling of AIF enable without AISB
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: s390: pci: Fix handling of AIF enable without AISB. Bugzilla: 2515349
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515349
+
+---
+
+#### 2822. CVE-2026-68453 - kernel: s390/zcrypt: Fix buffer over-read in cca_cipher2protkey
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Fix buffer over-read in cca_cipher2protkey. Bugzilla: 2515350
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515350
+
+---
+
+#### 2823. CVE-2026-68452 - kernel: s390/zcrypt: Validate length for CCA AES cipher key requests
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Validate length for CCA AES cipher key requests. Bugzilla: 2515351
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515351
+
+---
+
+#### 2824. CVE-2026-68451 - kernel: s390/zcrypt: Validate length for CCA ECC private key requests
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Validate length for CCA ECC private key requests. Bugzilla: 2515353
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515353
+
+---
+
+#### 2825. CVE-2026-46382 - mrbs: Meeting Room Booking System: Server-Side Request Forgery in import…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mrbs: Meeting Room Booking System: Server-Side Request Forgery in import functionality. Bugzilla: 2515026
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515026
 
 ---

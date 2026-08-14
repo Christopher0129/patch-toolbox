@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8464**
+**总计条目 / Total entries: 8516**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -114332,5 +114332,681 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1233832#reply20
+
+---
+
+#### 8465. The psychological aspect of the macOS menu bar.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vof84g/the_psychological_aspect_of_the_macos_menu_bar/
+
+---
+
+#### 8466. Google Chrome looking weird after tinting
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo7sgh/google_chrome_looking_weird_after_tinting/
+
+---
+
+#### 8467. Who misses the intro video?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1voe6w4/who_misses_the_intro_video/
+
+---
+
+#### 8468. Custom Mac OS restore image
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1voj1q9/custom_mac_os_restore_image/
+
+---
+
+#### 8469. SSD replacement on Apple Silicon computers
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vogr88/ssd_replacement_on_apple_silicon_computers/
+
+---
+
+#### 8470. Apple Intelligence taking 36GB of space despite Siri disabled?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vogqby/apple_intelligence_taking_36gb_of_space_despite/
+
+---
+
+#### 8471. It’s nearly a year since I switched to Mac and I still can’t find the switch to turn the wipers on. What am I doing wrong?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnspsn/its_nearly_a_year_since_i_switched_to_mac_and_i/
+
+---
+
+#### 8472. Sequoia Sunrise wallpaper frame stuck after waking from sleep
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vodtt2/sequoia_sunrise_wallpaper_frame_stuck_after/
+
+---
+
+#### 8473. What do you do on this screen. (the keyboard is the problem, also when you click caps it doesn’t turn on, new keyboard.)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vod6df/what_do_you_do_on_this_screen_the_keyboard_is_the/
+
+---
+
+#### 8474. Can I install macOS on an encrypted partition (with passkey?)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo63o5/can_i_install_macos_on_an_encrypted_partition/
+
+---
+
+#### 8475. Mac OS 26 Contacts Not Appearing From iCloud
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vobssb/mac_os_26_contacts_not_appearing_from_icloud/
+
+---
+
+#### 8476. The animation when switching between spaces is annoying
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1voat9m/the_animation_when_switching_between_spaces_is/
+
+---
+
+#### 8477. SOS: MacBook Compromised?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vog2fp/sos_macbook_compromised/
+
+---
+
+#### 8478. Mac Mail Corrupting Attachments Since Tahoe Update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo12rp/mac_mail_corrupting_attachments_since_tahoe_update/
+
+---
+
+#### 8479. Play Telegram videos before they finish downloading on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnzw7s/play_telegram_videos_before_they_finish/
+
+---
+
+#### 8480. My macos system control doesnt have thumbnail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnzeqj/my_macos_system_control_doesnt_have_thumbnail/
+
+---
+
+#### 8481. Is it worth to update to Tahoe (MBook Pro 2021, M1 pro)?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vobbvm/is_it_worth_to_update_to_tahoe_mbook_pro_2021_m1/
+
+---
+
+#### 8482. macos rice!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo4g9z/macos_rice/
+
+---
+
+#### 8483. How to manage RAM usage between two macOS user accounts?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo4g8y/how_to_manage_ram_usage_between_two_macos_user/
+
+---
+
+#### 8484. enshitification of MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vo5ydm/enshitification_of_macos/
+
+---
+
+#### 8485. Safari 26 Start Page Favorites show generic letters even though Safari has the correct icons cached. Anyone else seeing this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vnww8v/safari_26_start_page_favorites_show_generic/
+
+---
+
+#### 8486. [V2EX] 使用 macbook 的话尽量使用知名品牌的无线鼠标吧
+
+**问题描述 / Problem Description**:
+原本使用的 漫步者（ EDIFIER ） HECATE G3M PRO 这个鼠标，在 windows pc 下无论是蓝牙还是 usb 2.4g 使用都很流畅正常。 最近换了 macbook pro 之后，一开始使用蓝牙模式来连这个鼠标，然后偶尔会解锁后鼠标的回报率骤降只有一半，去网页测试的时候，只有 20-30hz 那种，这时候需要重置蓝牙或者重新开关鼠标才有机会恢复，恢复到 60-70hz 。 因为这种骤降的情况太经常出现了，就买了一个 type c 转 usb 的，然后使用 usb 2.4g 的方式连接。然后就发现 3 个 type c 口就只有一个口可用，而且有时候解锁后就不生效了，需要
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234456#reply15
+
+---
+
+#### 8487. [V2EX] UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？
+
+**问题描述 / Problem Description**:
+mac 远程 mac ，VNC 可以 ⌘+Q 关闭远程桌面上的 App ，到 UU 这里每次 ⌘+Q 都是把 UU 远程自己关掉，真绷不住了。 问了 AI 可以在系统设置 → 键盘 → 键盘快捷键 → App 快捷键，把关闭 App 的快捷键从 ⌘+Q 改成别的快捷键。 改完快捷键 ⌘+Q 就没任何反应了，不会关闭 UU ，远程桌面也不会关闭 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234271#reply6
+
+---
+
+#### 8488. [V2EX] macOS 版微信又开始喂 shi 了。。。
+
+**问题描述 / Problem Description**:
+鼠标移到输入框，就出现「按住鼠标 语音输入文字」。。。疯了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234207#reply13
+
+---
+
+#### 8489. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply138
+
+---
+
+#### 8490. [V2EX] 从 windows 切换到 MacOS，感觉 MacOS 不好用。
+
+**问题描述 / Problem Description**:
+码农，一直用 Windows(基本所有操作都是快捷键，比较少用鼠标，完全不影响工作)，本月切换到 Mac OS （ Macmini M4 Pro ）之后，感觉非常不好用，甚至反人类。 我知道很多的程序员、大牛都是用 Mac OS ，现在甚至怀疑是我自己的问题。 想听听大家的看法。 文件夹中有 14 张图片（参见图片），编号从 1 到 14 。 鼠标双击打开一张之后，方向键(或者 PageUp\PageDown 键无法切换上一张下一张)； 鼠标点中，按回车键，不是打开，是更名。电脑存在这么多年，回车不一直是确认吗； 鼠标选中，空格打开，按方向键可以切换展示，但只能切换到这一行的最后一张，如果想看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232697#reply141
+
+---
+
+#### 8491. [V2EX] 如何禁用照片下载时自动创建相簿
+
+**问题描述 / Problem Description**:
+从微信、抖音等其他 app 下载的照片会自动创建一个相簿，如何只下载照片不创建相簿呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234442#reply1
+
+---
+
+#### 8492. [V2EX] 升级 ios26.6 掉电池健康度
+
+**问题描述 / Problem Description**:
+升级到 ios26.6 降电池健康度了。之前 ios26.5.1 还是 100% （忘记截图了） 上周升级完发现少了 2%看着难受死了。不知道是显示问题还是真的掉了 你们升级完掉了吗？ https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814141106-10-278.SXjPpj https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814140855-9-278.SXjKPq
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234375#reply11
+
+---
+
+#### 8493. [V2EX] 🇲🇾马区 Apple One 超大杯补一人
+
+**问题描述 / Problem Description**:
+马区 Apple One 超大杯，包含 Apple Music 、Apple TV+、Apple Arcade 、Apple Fitness+、iCloud 2T(每人 333g) 费用：¥80/季 要求：自备马区账号，长期稳定，素质高 联系 ✈️：@lanisssss
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234351#reply0
+
+---
+
+#### 8494. [V2EX] 昨晚还好好的，今天早上突然 MM 鼠标连不上 Mac 了，各种操作都做了，依旧无效。哪个牛逼大神知道咋回事？
+
+**问题描述 / Problem Description**:
+Mac 是 M5 Pro ，鼠标是 MM2 ； Mac 重启、鼠标开关、充电（担心没电）、Lightning 数据线连接 Mac 1 分钟（有线配对）、macOS 的蓝牙后台服务 bluetoothd 、解绑（忽略此设备）后，蓝牙再也无法发现鼠标，奇怪的是，用同时的 Mac 蓝牙可以发现我的鼠标。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234073#reply3
+
+---
+
+#### 8495. [V2EX] 看见有人说 m1pro 的 mbp,我想说,当初多花 3000 买的 32g 还是很香啊
+
+**问题描述 / Problem Description**:
+我买的官翻的,当初好像是 13800 分了 24 免息买的. 感觉现在用起来还是很丝滑. 系统是 26.5.1 . 刚去苹果官网查了一下最新的处理是 m5 了. 不觉感叹时间真快 搜了一下 m5pro 比 m1pro 提升 约 61%.但是估计实际体验差别不大吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233999#reply59
+
+---
+
+#### 8496. [V2EX] VMware Fusion Pro 26H1 无套路下载
+
+**问题描述 / Problem Description**:
+通过博通太难下载了，需要的自取 https://www.techspot.com/downloads/2755-vmware-fusion-mac.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233619#reply12
+
+---
+
+#### 8497. [V2EX] 现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232996#reply18
+
+---
+
+#### 8498. [V2EX] 喜欢的东西，有能力就早点买
+
+**问题描述 / Problem Description**:
+对于 Mac 显示器的执着，从刚毕业就有了。 15 年在公司，大家都是标配 1080P 显示器，连接 Mac 后，毛刺的文字显示，让我始终有点难受，先是换了 2K ，又去整了 HDPI 效果，发现还是不够好，最后还是斥巨资购入 P2415Q ，花了三千多大洋，拿到 4K 显示器才发觉这是 Mac 本该有的搭配 后来有同事购买过 LG 4.5K 的那款 Apple 商城显示器，文字更加细腻了，但是和 4K 差距还是不够大 转眼到了 22 年，第一代 stuido display 发布的时候，就想入手了，可惜当时公司已经标配了 4K 显示器，就没有买 后来到了 25 年，B 站上如果刷到 Stud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232504#reply83
+
+---
+
+#### 8499. [V2EX] 移动 iPhone 用户免费领公交卡+送 10 元余额
+
+**问题描述 / Problem Description**:
+参与要求与注意事项：** * 中国移动 App 的扫码按钮在首页右上角。 * 以上所有内容都是依据中国移动官方活动页面，官方也未说明有任何不适用的地区。但是按照以往经验可能会有部分“被特殊照顾”的用户。 * 需为中国移动用户，需为苹果用户，安卓用户无法正常开卡，这里说明一下没有成功开卡的话即便扫了二维码我也不会收到 AFF 的。 * 大部分城市默认扫进去就是 0 元全国互联卡，但所有江苏城市和部分外省城市默认的是本地卡，需要往左边划一下开第二个全国互联卡，否则会有开卡费。 * 成功免费开卡后 10 元余额不会过期（交联卡是双离的，余额不能云控），并不存在网传的所谓 3 天之后余额就会过期的情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234507#reply0
+
+---
+
+#### 8500. [V2EX] [开源]让 Codex 直接用 Kimi K3 的 Responses API 适配层
+
+**问题描述 / Problem Description**:
+我写了一个把 OpenAI Responses API 转成 Kimi Coding 的 Anthropic Messages API 的工具，欢迎大家使用。 原因：new-api 协议转换不好用，sub2api 转换 Responses-> Messages 的也不好使，给 sub2api 提 PR 也没什么反馈，也不想自己维护 fork 。干脆自己写个转换服务得了。 代码是 kimi3 在 codex 中写的，自己也在用，kimi code 套餐明年七月到期前我应该会维护。 镜像： ghcr.io/jianyun8023/kimi-responses-adapter:latest 仓库：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234505#reply3
+
+---
+
+#### 8501. [V2EX] 整理了一份 DeepSeek Harness (dsh) 插件精选列表，目前收录 270 个插件
+
+**问题描述 / Problem Description**:
+背景 DeepSeek Harness （ dsh ）是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent （ Web / headless 两种形态），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI 、乃至 Agent Loop 本身都是插件。 插件既能扩展官方 Coding Agent ，也能替换核心部件，甚至组装出完全不同的东西。 这个列表是什么 awesome-dsh-plugin 是社区维护的插件精选列表，收录的都是可通过 dsh plugin add 安装的插件（均声明了 dsh.bundle manifest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234499#reply0
+
+---
+
+#### 8502. [V2EX] 我给 deepseek-dsh 配置了一个视觉识别 mcp
+
+**问题描述 / Problem Description**:
+今天在逛 商汤的官网 的时候，发现他更新了 token-plan! 可以使用 deepseek-v4-flash 和 GLM5.2 ！而且还是 free 的。 这下不得好好使用一下。 厚着脸皮蹭热度。。 欢迎大家 star https://github.com/Chuyuxuan0v0/deepseek-mcp-image
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234470#reply1
+
+---
+
+#### 8503. [V2EX] DeepSeek Harness 插件越来越多，已经快挑花眼了，试试 👉 https://www.dshplugin.store/
+
+**问题描述 / Problem Description**:
+DeepSeek Harness 插件越来越多，已经快挑花眼了？🧩 别再一个个翻 GitHub 了。 👉 https://www.dshplugin.store/ 集中发现、浏览 DeepSeek Harness 插件，按功能快速找到你真正需要的工具。 插件生态刚开始爆发，现在就把好用的插件收藏起来 🚀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234467#reply1
+
+---
+
+#### 8504. [V2EX] 抖音上刷到的一个关于男女对立的有意思的视频
+
+**问题描述 / Problem Description**:
+视频内容大概讲的是，要是一个女的是大户人家的小姐亦或是什么公主，那么嫁给下人，叫下嫁，叫吃苦，但是一个普通人家的女生，嫁给同样是普通人家的男生，这叫门当户对，不存在下嫁和陪吃苦的情况。 要是以前我估计就划走了，但是这两年，我老婆已经对我表达出这种意思了，原话是，怎么嫁给我这个穷逼，跟我过的什么苦日子😂。 原本，我小时候衣食无忧，游戏机、玩具、电脑，想买啥就买啥，她小时候连学费都交不起，每次都要被老师催，还要去后面罚站，结果跟我在一起之后，却变成了跟我吃苦，今天有点钻牛角尖，也可能是有点难以忍受了吧，这事情让我整个下午一直耿耿于怀。 刚开始她不是这样的人，最初我们刚结婚的时候，就是开着一辆不到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234464#reply1
+
+---
+
+#### 8505. [V2EX] 小米 17 把这次西班牙日食 P 成了月食
+
+**问题描述 / Problem Description**:
+https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil 法语网页，开自动翻译看 哈哈哈哈哈哈哈大乐子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234445#reply1
+
+---
+
+#### 8506. [V2EX] 有没有老哥做 deepseek harness 的评测 效果咋样
+
+**问题描述 / Problem Description**:
+如题 https://github.com/deepseek-ai/deepseek-harness
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234432#reply0
+
+---
+
+#### 8507. [V2EX] 也发一个关于 88VIP+夸克的坑，亲身经历
+
+**问题描述 / Problem Description**:
+看到有人发这俩的问题想到我也遇到这俩的坑，发出来给大家提个醒 坑 1：88VIP 和自己买的会员叠加的时候不容易发现，两边各自都有 6T 的容量，但是这个容量不叠加，还是只有 6T ，所以从容量看不出来 平常进夸克没看那么仔细过，看容量是 6T 认为应该是 88 会员领的 我是查账单的时候偶然发现了夸克还在扣会员费，才发现这两个一直同时生效，但容量不叠加，只有 6T ，所以一直没想到有问题 坑 2：能申请退款，但只能退一次，所以别着急，提前查好，容易退少了 我就是问题 2 的反例，当时联系人工客服，客服说是能退款，问我要退多久的，因为客服脸上要排队好久，我怕断了，就抓紧查银行的扣费记录，发现扣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234431#reply2
+
+---
+
+#### 8508. [V2EX] 七夕快到了想收/收过什么礼物
+
+**问题描述 / Problem Description**:
+收到过滑雪镜、户外音响、徒步装备等等，还是挺多的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234388#reply0
+
+---
+
+#### 8509. [V2EX] 分享一个 Linux 命令行工具-用于更新订阅并启动 xray
+
+**问题描述 / Problem Description**:
+https://github.com/vorlunez/v2sub fork 的别人的项目，自己改了改 目前支持 解析 ss/vmess/vless 协议 根据解析配置启动 xray 我觉得挺好用的，小巧简单实用 本来想添加自动更新功能，但觉得会增加复杂度，没啥必要 有需要的话可以自己写一个 python 脚本每隔一段时间更新 欢迎讨论
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234331#reply1
+
+---
+
+#### 8510. [V2EX] 购买 88vip 带的夸克会员要慎重，基本上一个月要验证一次
+
+**问题描述 / Problem Description**:
+去年买了一个 88vip 夸克，用了一年也没遇到验证问题。 今年又买了一个，没想到一个月就要验证一次。这次购买的 v 友第一次验证之后就删了我的微信，第二次通过发好友申请提示之后帮我验证了，这个月又要验证，联系了两天联系不上了。总之购买夸克要慎重，不如自己开 88vip 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234327#reply31
+
+---
+
+#### 8511. [V2EX] 新加坡的 starryblu 可以用了，听说可以订阅 AI，微信支付
+
+**问题描述 / Problem Description**:
+就是一个 app 名字 starryblu,好像几个月前在 V 站看到人推荐 但是当时还不给申请卡，上个月问了客服，客服说这个月可以申请 然后这几天看了下还是在排队，我还以为排队的意思是他们还没开放这个功能 其实只是在灰度，我前天去客服问了，他说帮我催催，然后今天就开了 还好我没一直等他自动开 优点: 就是免费开卡，有些卡是需要先转 10U 才给申请 KYC ，就是钱到了才开申请，申请不过又要把钱转走，巨恶心 可以绑定国内手机卡，好像用的是护照 KYC 的，有点忘了，也可能身份证就可以 说是可以订阅 AI ，因为我开了几张卡订阅了，暂时不需要开新号，所以没测 可以微信扫码支付 对新加坡金融有点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234309#reply17
+
+---
+
+#### 8512. [V2EX] 中转站排雷，个人已经被坑，经验分享
+
+**问题描述 / Problem Description**:
+首先被坑是我自己没办法用官方渠道，国内的因为能力问题确实不大好用。所以只能用中转站。 本人也用了少说 8、9 个中转站了。说出 2 个大雷，大家千万小心别用。 注意我不是推广，是让大家避雷，下面的是我用了被坑的。 1、 https://opusrelay.com/ 这家刚刚开业的时候冲了 100，然后用着还可以，后来开始掺水，回复的话数就是 deepseek 一毛一样，确定掺水了，然后找客服，我跟客服沟通的过程，我没爆脏话，理智沟通，客服基本不回，然后被拉黑。（他家最少起充 100 元），以后注意，最少 100 元充值的中转千万别用！ 2、 https://www.cun.ai/ （他家的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234306#reply20
+
+---
+
+#### 8513. [V2EX] 分享一段独立开发的经历
+
+**问题描述 / Problem Description**:
+前情提要： https://www.v2ex.com/t/1231668 有开发 browser agent 这个想法的时候，是想做一个细分领域的工具，做具体的细分领域工具之前要先把外围的一些通用能力做好，从技术选型到具体实现，耗费了我大量的精力。 最开始 vibe 的时候是基于自己过往的编程经验以及一些 spec 开源项目加持，就让 codex 和 Claudecode 开启目标模式，最后在 review 代码的时候发现很多功能实现都是点到为止，薄薄一层，甚至有些方向性的问题，这也浪费大量时间精力和 token ，很多次推倒重来，后来我学会来做规划，拆分目标，不被带偏，那时候真的很上头，凌晨
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234294#reply4
+
+---
+
+#### 8514. [V2EX] AI 开始让人停止思考
+
+**问题描述 / Problem Description**:
+1. 同事 1：我问他 xx 怎么设计的，等 2 分钟之后，给我发来一段 AI 回复，我指出了这样设计的问题，并反问他几个问题，过了一会又给我回一段 AI 回复..... 2. 同事 2：开发智能体，不用框架手戳，他不知道缓存 token 怎么来的，AI 给他设计了一个代码滑动窗口传递上下文，长度为 20 次对话，上线后 token 费用哗啦啦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234293#reply30
+
+---
+
+#### 8515. [V2EX] 可恶的 tibo。重置不带 team。之前 openai 确认是疏忽遗漏。这次又来。真是恶心。
+
+**问题描述 / Problem Description**:
+之前 7m/8m 重置的时候就不带 team 。后面论坛有人讨论。核实了说是漏了。补发了。地址： https://community.openai.com/t/chatgpt-business-account-did-not-receive-the-codex-8m-user-hard-reset/1387009?page=2&utm_source=chatgpt.com https://community.openai.com/t/chatgpt-business-account-did-not-receive-the-codex-15m-user-hard-reset/1390208?ut
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234288#reply0
+
+---
+
+#### 8516. [V2EX] 独立开发接单上瘾~~~
+
+**问题描述 / Problem Description**:
+继上一次（参考： https://www.v2ex.com/t/1234000 ）误打误撞接了个无本获利的开发单后，已经没有心思开发自己的产品了，天天想的都是在哪里接单，如何和客户聊需求，如何让客户掏钱的事情。 回想以前每天只顾自己埋头开发产品，然后沉浸在自我感动的产品大卖虚幻里，是真的好傻好可笑。实际上吭哧吭哧做了好几月做出来，宣传却没人理，好不容易攒下几十个用户，实际上都是白嫖用户，只要一收费就跑。 这个月又接了 2 单，一个 3000 ，一个 6000 的活。同时总结了以下接单技巧： 客户不懂你用什么框架、工作量有多少，他们只关心这个东西能不能帮他赚钱、省事。越能帮他们赚钱或者省事，他们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234253#reply10
 
 ---

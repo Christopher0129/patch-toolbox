@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3107**
+**总计条目 / Total entries: 3125**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -46336,5 +46336,221 @@ Multiple vulnerabilities have been found in FreeType, one of which includes info
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-02
+
+---
+
+#### 3108. CVE-2026-56657 - code.gitea.io/gitea: Gitea: Denial of Service in SSH Key Parser
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] code.gitea.io/gitea: Gitea: Denial of Service in SSH Key Parser. Bugzilla: 2515479
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515479
+
+---
+
+#### 3109. CVE-2026-66804 - console: console: authenticated SSRF via /ansibletower allows arbitrary host…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] console: console: authenticated SSRF via /ansibletower allows arbitrary host access with full response disclosure. Bugzilla: 2508665
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2508665
+
+---
+
+#### 3110. CVE-2026-73585 - sblim-cmpi-base: Insecure temporary file creation in sblim-cmpi-base provider…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-cmpi-base: Insecure temporary file creation in sblim-cmpi-base provider registration scripts allows local symlink attack. Bugzilla: 2462235
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462235
+
+---
+
+#### 3111. CVE-2026-73584 - sblim-sfcb: sblim-sfcb: Privileged file corruption and denial of service via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-sfcb: sblim-sfcb: Privileged file corruption and denial of service via insecure temporary file handling. Bugzilla: 2462721
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462721
+
+---
+
+#### 3112. CVE-2026-73583 - sblim-sfcb: Unsafe deserialization in sblim-sfcb provider-manager IPC allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] sblim-sfcb: Unsafe deserialization in sblim-sfcb provider-manager IPC allows out-of-bounds memory access via malformed OperationHdr. Bugzilla: 2462126
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462126
+
+---
+
+#### 3113. CVE-2026-67986 - amazing_print: amazing_print: Arbitrary code execution via Ruby code injection in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] amazing_print: amazing_print: Arbitrary code execution via Ruby code injection in AwesomeMethodArray#grep. Bugzilla: 2515343
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515343
+
+---
+
+#### 3114. CVE-2026-68454 - kernel: KVM: s390: pci: Fix handling of AIF enable without AISB
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: s390: pci: Fix handling of AIF enable without AISB. Bugzilla: 2515349
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515349
+
+---
+
+#### 3115. CVE-2026-68453 - kernel: s390/zcrypt: Fix buffer over-read in cca_cipher2protkey
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Fix buffer over-read in cca_cipher2protkey. Bugzilla: 2515350
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515350
+
+---
+
+#### 3116. CVE-2026-68452 - kernel: s390/zcrypt: Validate length for CCA AES cipher key requests
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Validate length for CCA AES cipher key requests. Bugzilla: 2515351
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515351
+
+---
+
+#### 3117. CVE-2026-68451 - kernel: s390/zcrypt: Validate length for CCA ECC private key requests
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/zcrypt: Validate length for CCA ECC private key requests. Bugzilla: 2515353
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515353
+
+---
+
+#### 3118. CVE-2026-46382 - mrbs: Meeting Room Booking System: Server-Side Request Forgery in import…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] mrbs: Meeting Room Booking System: Server-Side Request Forgery in import functionality. Bugzilla: 2515026
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515026
+
+---
+
+#### 3119. [Gentoo] GLSA 202608-09: Bubblewrap: Root privilege escalation
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in Bubblewrap that would allow root privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-09
+
+---
+
+#### 3120. [Gentoo] GLSA 202608-08: libinput: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in libinput, the worst of which could result in privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-08
+
+---
+
+#### 3121. [Gentoo] GLSA 202608-07: Exim: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Exim, the worst of which allows arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-07
+
+---
+
+#### 3122. [Gentoo] GLSA 202608-06: Flatpak: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Flatpak, the worst of which allows sandbox escape.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-06
+
+---
+
+#### 3123. [Gentoo] GLSA 202608-05: Apache HTTPD: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Apache HTTPD, the worst of which could result in remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-05
+
+---
+
+#### 3124. [Gentoo] GLSA 202608-04: Dnsmasq: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Dnsmasq, one of which includes remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-04
+
+---
+
+#### 3125. [Gentoo] GLSA 202608-03: rsync: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in rsync, the worst of which could result in privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-03
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8822**
+**总计条目 / Total entries: 8860**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -122657,5 +122657,499 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234160#reply10
+
+---
+
+#### 8823. CA-certificates with own certificates
+
+**问题描述 / Problem Description**:
+Tags: debian, openssl, certificates | Score: 1 | Views: 29 | Answers: 1 | Created: 2026-08-14
+
+**解决方案 / Solution**:
+You should use update-ca-certificates to do this instead. Place your certificates in /usr/local/share/ca-certificates/ then run the above command (as root). That will automatically manage the certificates in /etc/ssl/certs/ for you, even after updates. See the man page.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807031/ca-certificates-with-own-certificates
+
+---
+
+#### 8824. Epic Games Store Will Support Linux "Soon"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vo190f/epic_games_store_will_support_linux_soon/
+
+---
+
+#### 8825. just made it to Flathub
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vodgrr/just_made_it_to_flathub/
+
+---
+
+#### 8826. RustDesk now supports unattended remote access on Wayland, including the login screen and multi-monitor setups
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1voba2b/rustdesk_now_supports_unattended_remote_access_on/
+
+---
+
+#### 8827. Alternatives to VS Code that aren't slop factories?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1voe9ti/alternatives_to_vs_code_that_arent_slop_factories/
+
+---
+
+#### 8828. Number of Linux Distributions Actively Under Development: 474
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1voipy0/number_of_linux_distributions_actively_under/
+
+---
+
+#### 8829. Unlocking Encrypted Linux With a YubiKey
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vo3t0o/unlocking_encrypted_linux_with_a_yubikey/
+
+---
+
+#### 8830. Why and how the Austrian Military moved to LibreOffice (Part 2)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnz8vg/why_and_how_the_austrian_military_moved_to/
+
+---
+
+#### 8831. Intel XPU Manager 2.1 Released For Monitoring Arc Pro Graphics On Windows/Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vo9la0/intel_xpu_manager_21_released_for_monitoring_arc/
+
+---
+
+#### 8832. How Tailscale helped find the SQLite WAL-Reset bug
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vo6cdc/how_tailscale_helped_find_the_sqlite_walreset_bug/
+
+---
+
+#### 8833. A new stack for GNOME system components | Sebastian Wick @ GUADEC 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnvdrq/a_new_stack_for_gnome_system_components_sebastian/
+
+---
+
+#### 8834. BashStyle-NG 11.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1voh3v3/bashstyleng_113/
+
+---
+
+#### 8835. Tried cpak (new OCI-based package format) Interesting alternative to Flatpak
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnyfvd/tried_cpak_new_ocibased_package_format/
+
+---
+
+#### 8836. Linux gaming is great for low bandwidth!!!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vnu5at/linux_gaming_is_great_for_low_bandwidth/
+
+---
+
+#### 8837. i created a systemd service to monitor the battery .
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vocd9f/i_created_a_systemd_service_to_monitor_the_battery/
+
+---
+
+#### 8838. Why can't computer manufacturers or Linux distribution developers agree with each other?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vo2v2x/why_cant_computer_manufacturers_or_linux/
+
+---
+
+#### 8839. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply105
+
+---
+
+#### 8840. [V2EX] Linux 输入法求助
+
+**问题描述 / Problem Description**:
+环境：Debian 13 + GNOME Wayland 现象：fcitx5-pinyin 稳定，中州韵+万象 间歇性切不出中文、候选框消失、输入直接出英文，重启中州韵也无法解决。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229500#reply6
+
+---
+
+#### 8841. [V2EX] 记录一下人生第一个订阅站
+
+**问题描述 / Problem Description**:
+人生第一个订阅站上线，记录一下。 就是不知道有没有机会能开单。 这个也算是人生第一个用心做的产品，虽然还是很烂，但是体验了从 0~1 把一个产品做出来的过程。 有了这个感受和经验，相信下一个产品会做得更好。 要是能出单，完成商业闭环，无疑会给我巨大鼓励和信心。 给自己打打气，加油💪 https://aiclotheschanger.io/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234509#reply1
+
+---
+
+#### 8842. [V2EX] 请问在云端部署 AI Agent，是选择国内服务器还是国外服务器？
+
+**问题描述 / Problem Description**:
+如题，请问在云端部署 AI Agent ，是选择国内服务器还是国外服务器？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234486#reply2
+
+---
+
+#### 8843. [V2EX] 没想到我也走到了仲裁的道路上
+
+**问题描述 / Problem Description**:
+昨天：2026 年 8 月 13 号，接到人力通知，说我被裁员了，和我谈话，说补偿尽公司最大能力给到 N 我没有同意 然后就逼着我做交接，我心想那就交接呗，反正我这的东西，同事手里也有，我不交接他们找别人也能拿到。 补偿的主张 2N ，公司不同意，然后公司副总就拉个群，和我表明观点，肯定给不了。那就仲裁呗 看到公司对仲裁一点也不在乎，这怎么办？ 我准备了打卡记录，钉钉聊天的截图，银行流水等等的证据，不知道有没有用，有仲裁过的兄弟给点意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234453#reply48
+
+---
+
+#### 8844. [V2EX] 目前国内价格合适,能用的开发模型有哪些.
+
+**问题描述 / Problem Description**:
+这几天被 gpt5.6 搞的心态爆炸. 各种 bug,不按规范来. 一问就是“你说的对,我马上改”. token 消耗又极快,plus 周额度基本也就一天. 想想还不如直接买国内模型,多写点约束也不是不能用.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234407#reply21
+
+---
+
+#### 8845. [V2EX] GLM5.3 来了，有真实订阅智谱官网的小伙伴吗，速度怎么样
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234400#reply18
+
+---
+
+#### 8846. [V2EX] 有用过 cloudflare agents 生态的佬吗
+
+**问题描述 / Problem Description**:
+全家桶好像挺方便，还带 browser run 不用自己搭 browser use 。 有没有佬体验过实际上生产环境如何？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234399#reply3
+
+---
+
+#### 8847. [V2EX] 参与了 Deepseek Harness 的内测，写了一篇参与体验，欢迎讨论
+
+**问题描述 / Problem Description**:
+博文地址： https://digua.moe/posts/20260813-dsh.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234396#reply21
+
+---
+
+#### 8848. [V2EX] 想知道你们手头的 AI 项目最多烧了多少 B 的 token？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234394#reply1
+
+---
+
+#### 8849. [V2EX] dsh 内测人员路过，讲一下心路历程
+
+**问题描述 / Problem Description**:
+第一就是老中青三代齐聚，老登多刚 18 岁的二次元小妹妹也有 第二就是 deepseek 加班好猛，谁说不加班的，高薪也不好赚啊 第三就是 dsh 真的蛮好用的，配合 deepseek 4 flash 真的指哪打哪 问题就是内测期间 dsh 经常大改，然后插件很容易全爆炸，跟着屁股改有点累 还有就是内测群氛围是真好，内鬼也是真多，最后几天每天都有人被✈️出去 最后宣传下我内测期间写的 dsh 学习资料： [点击进入 DSH Find]( https://dshfind.com/zh ) 还有 https://github.com/hikariming/dshfind 除了论文解读外，我人工把自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234390#reply20
+
+---
+
+#### 8850. [V2EX] 大家有推荐的去 AI 味 skill 吗
+
+**问题描述 / Problem Description**:
+在做项目， claude design + taste skill 做出来的东西还是 AI 味十足，然后使用了一个去 AI 味的 skill ，仍觉得差点意思，大家有过这类 skill 吗，有什么推荐的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234376#reply24
+
+---
+
+#### 8851. [V2EX] GLM 5.3 也来了， DeepSWE 跑分 66.9，后训练有说法啊
+
+**问题描述 / Problem Description**:
+后训练有点说法啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234368#reply10
+
+---
+
+#### 8852. [V2EX] 求推荐快递查询 API 接口
+
+**问题描述 / Problem Description**:
+自己开发一个小工具，需要接入快递查询 API 来确定快递的签收时间（主要是 EMS ）。 目前在使用 apispace 的，但是它的流量包是 88 元一年 1 万次，没有按量付费的模式。我一年只需要查询两三千次，大家有没有其他便宜好用的接口推荐呀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234367#reply14
+
+---
+
+#### 8853. [V2EX] GLM 5.3 来了
+
+**问题描述 / Problem Description**:
+对比 DeepSeek 涨价，智谱是不是又从没法看 -> 很能打了 700B 比肩 Fable5 （部分指标），国产模型的后训练还能多强，要是 K3 级别的参数甚至更大参数再后训练一下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234356#reply4
+
+---
+
+#### 8854. [V2EX] 咋一晚上就出现了这么多 DeepSeek Harness 的插件
+
+**问题描述 / Problem Description**:
+咋一晚上就出现了这么多 DeepSeek Harness 的插件，晚上都不睡觉开发的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234352#reply1
+
+---
+
+#### 8855. [V2EX] 可以下线 Nexus 了，纯开源可平替 Nexus 的 kkRepo v0.8.0 发布，新增 Conda、APT/Debian、 Conan 2 仓库支持
+
+**问题描述 / Problem Description**:
+kkRepo 是什么？ kkRepo 是一款社区驱动、完全开源的自托管制品仓库，旨在解决 Sonatype Nexus 社区版的各类限制与痛点，为社区提供开放、可靠且可持续演进的制品管理方案。目前已支持 Maven, npm, PyPI, Go, Helm, Cargo/Rust, Dart/Pub, Composer/PHP, Terraform, Swift Package Registry, Ansible Galaxy, Docker/OCI, NuGet, RubyGems, Yum, Raw 等制品格式。 https://github.com/klboke/kkRepo 功能特性
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234349#reply1
+
+---
+
+#### 8856. [V2EX] 云服务器部署 claude self-host 的最佳方案是什么
+
+**问题描述 / Problem Description**:
+现在 claude 有了 self-host 模式，云托管其实是很爽的模式。 我的服务都在 aliyun ，如果开一个 aliyun 的海外机器，我觉得 claude 也会屏蔽，现在不屏蔽我也担心封号。 所以有什么好的虚拟机选择吗。 还有一种方案就是国内虚拟机加 vpn 。 我也没想好用哪个方案更稳妥。 ---- 顺便一个小问题，桌面 app 版最近更新后，每次启动服务做测试时，claude 总要询问我是否允许，这是应用层拦截的，我也没找到取消询问的办法。这玩意太烦人了，没法完全自主完成全部操作了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234344#reply1
+
+---
+
+#### 8857. [V2EX] `[DeepSeek Harness] 中文速查 + 踩坑：刚发布的开源 Claude Code 替代品，官方文档还是空的`
+
+**问题描述 / Problem Description**:
+DeepSeek 8/13 深夜发了首款 Agent 产品 Harness （ v0.1 开发者预览，MIT 开源），直接对标 Claude Code / Codex 。 我核对了 npm 官方包 @deepseek-ai/dsh （ 0.1.0-rc.6 ，14 小时前公开），目前 GitHub README 正文还是空的文件树——典型的文档真空期。先把确定能跑的命令整理出来，求各位一起补全： npx @deepseek-ai/dsh web # 启动 Web UI dsh --profile headless "跑测试" # 无头模式，适合 CI dsh --dump-config # 不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234341#reply0
+
+---
+
+#### 8858. [V2EX] AI 成了背黑锅的，跟当年 CSDN/stackoverflow 一模一样
+
+**问题描述 / Problem Description**:
+首先说说替垃圾程序员背的锅。以前 CSDN/stackoverflow 火的时候，它们最大的作用之一就是让程序员直接拷贝粘贴代码。有的程序员本身就水平不行，或者说得更直接一点，态度不行，拷贝来的代码不当作自己的产出，缺乏责任心，出了问题就来一句这是从哪哪拷来的，好像不关我的事。这种程序员直接开掉就行了。 这个现象在 AI 时代本质一模一样，同样不是自己思考自己写出来的代码，同样是不负责任的程序员，这时候凭什么 AI 就要背锅？错都在人。程序员只要是带着正常的职业操守，就不该被 AI 牵着鼻子走。不管你 AI 生成速度多快，我做事就要按照我的节奏来，你 AI 只是个工具。 其次说说替垃圾管理层背
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234340#reply1
+
+---
+
+#### 8859. [V2EX] google 是改了什么检测策略了吗， gemini 和 youtube 都有点问题
+
+**问题描述 / Problem Description**:
+gemini 直接提示该地区不可用 youtube 提示 premium 会员在该地区部分不可用，但是还能看 其他墙外网站都正常使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234336#reply13
+
+---
+
+#### 8860. [V2EX] Vibe Coding 了一个自己的主页
+
+**问题描述 / Problem Description**:
+https://www.wanweishiyi.com/ Vibe Coding 了一个自己的主页，欢迎访问 这个网站的想法，来源于我之前 Vide Coding 的一个咨询类工具，每天从 ProductHunt 等网站 API 获取热度高的内容，然后扔给 DeepSeek 帮我筛选有价值的，最后通过飞书 web hook 发给我自己飞书，部署在服务器上定时跑。 独乐乐不如众乐乐，就想起来搞一个自己的主页，在没有 AI 的年代，开发部署一个自己的主页太耗时耗力，现在可太轻松了。 有什么建议可以留言，我还在完善，玩的开心。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234328#reply15
 
 ---
