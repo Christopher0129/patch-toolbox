@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3125**
+**总计条目 / Total entries: 3148**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -46552,5 +46552,281 @@ Multiple vulnerabilities have been found in rsync, the worst of which could resu
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-03
+
+---
+
+#### 3126. CVE-2026-66807 - console: console: potential XSS via dangerouslySetInnerHTML with unescaped…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] console: console: potential XSS via dangerouslySetInnerHTML with unescaped resource name in getCodeSpan. Bugzilla: 2509504
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509504
+
+---
+
+#### 3127. CVE-2026-19879 - io.undertow/undertow: Undertow: HTTP response header integrity issue due to…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] io.undertow/undertow: Undertow: HTTP response header integrity issue due to character truncation. Bugzilla: 2516038
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516038
+
+---
+
+#### 3128. CVE-2026-74240 - quay: JWT claim validation bypasses in Quay federated robot and SSO authentication
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: JWT claim validation bypasses in Quay federated robot and SSO authentication. Bugzilla: 2516139
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516139
+
+---
+
+#### 3129. CVE-2026-74242 - quay: Repository notification UUID IDOR in Quay API
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: Repository notification UUID IDOR in Quay API. Bugzilla: 2516140
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516140
+
+---
+
+#### 3130. CVE-2026-74241 - quay: LDAP referral filter injection in Quay external LDAP authentication
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: LDAP referral filter injection in Quay external LDAP authentication. Bugzilla: 2516141
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516141
+
+---
+
+#### 3131. CVE-2026-74243 - quay: Unauthenticated secscan notification endpoint in Quay when PSK is unset
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: Unauthenticated secscan notification endpoint in Quay when PSK is unset. Bugzilla: 2516142
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516142
+
+---
+
+#### 3132. CVE-2026-74244 - quay: Stripe webhook accepts forged events without signature verification in Quay
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: Stripe webhook accepts forged events without signature verification in Quay. Bugzilla: 2516143
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516143
+
+---
+
+#### 3133. CVE-2026-74247 - quay: SSRF via build archive_url in Quay build API
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: SSRF via build archive_url in Quay build API. Bugzilla: 2516144
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516144
+
+---
+
+#### 3134. CVE-2026-74245 - quay: Unauthenticated exported logs download in Quay
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] quay: Unauthenticated exported logs download in Quay. Bugzilla: 2516145
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516145
+
+---
+
+#### 3135. CVE-2026-73417 - jupyterlab: JupyterLab: Cross-site scripting (XSS) allows arbitrary code execution
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] jupyterlab: JupyterLab: Cross-site scripting (XSS) allows arbitrary code execution. Bugzilla: 2515831
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515831
+
+---
+
+#### 3136. CVE-2026-73416 - jupyterlab: jupyterlab: Extension blocklist bypass via weak package-name…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jupyterlab: jupyterlab: Extension blocklist bypass via weak package-name canonicalization. Bugzilla: 2515822
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515822
+
+---
+
+#### 3137. CVE-2026-73428 - trix: action_text-trix: Trix: Stored Cross-Site Scripting via HTML paste allows…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] trix: action_text-trix: Trix: Stored Cross-Site Scripting via HTML paste allows arbitrary code execution.. Bugzilla: 2515813
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515813
+
+---
+
+#### 3138. CVE-2026-56860 - net/url: golang: golang net/url: Denial of Service from quadratic complexity in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] net/url: golang: golang net/url: Denial of Service from quadratic complexity in path resolution. Bugzilla: 2515820
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515820
+
+---
+
+#### 3139. CVE-2026-56853 - net/http: golang: Go net/http: Unencrypted HTTP/2 connections vulnerable to Denial…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] net/http: golang: Go net/http: Unencrypted HTTP/2 connections vulnerable to Denial of Service. Bugzilla: 2515827
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515827
+
+---
+
+#### 3140. CVE-2026-56858 - html/template: golang: Go html/template: Cross-Site Scripting via pathological…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] html/template: golang: Go html/template: Cross-Site Scripting via pathological input. Bugzilla: 2515838
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515838
+
+---
+
+#### 3141. CVE-2026-56862 - crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] crypto/tls: golang: Golang crypto/tls: Denial of Service via indefinite KeyUpdate messages. Bugzilla: 2515839
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515839
+
+---
+
+#### 3142. CVE-2026-33818 - encoding/asn1: golang: Go encoding/asn1: Denial of Service via excessive recursion…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] encoding/asn1: golang: Go encoding/asn1: Denial of Service via excessive recursion in Unmarshal. Bugzilla: 2515815
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515815
+
+---
+
+#### 3143. CVE-2026-56859 - encoding/xml: golang: Go: Denial of Service via XML decoding recursion depth issue
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] encoding/xml: golang: Go: Denial of Service via XML decoding recursion depth issue. Bugzilla: 2515840
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515840
+
+---
+
+#### 3144. CVE-2026-73480 - github.com/dundee/gdu: gdu: Terminal Injection via Unstripped Escape Sequences
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/dundee/gdu: gdu: Terminal Injection via Unstripped Escape Sequences. Bugzilla: 2515738
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515738
+
+---
+
+#### 3145. CVE-2026-45774 - compliance-trestle: compliance-trestle: Arbitrary file read via path traversal in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] compliance-trestle: compliance-trestle: Arbitrary file read via path traversal in profile import. Bugzilla: 2515612
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515612
+
+---
+
+#### 3146. [Gentoo] GLSA 202608-12: Portage: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Portage.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-12
+
+---
+
+#### 3147. [Gentoo] GLSA 202608-11: haveged: Privilege escalation
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in haveged which could allow local privilege escalation
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-11
+
+---
+
+#### 3148. [Gentoo] GLSA 202608-10: HTTP-Daemon: Improper header handling
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability was found in HTTP-Daemon allowing header manipulation or filter bypass.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-10
 
 ---

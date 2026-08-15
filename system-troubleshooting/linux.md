@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8860**
+**总计条目 / Total entries: 8898**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -123151,5 +123151,499 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234328#reply15
+
+---
+
+#### 8861. Why is there no form of command substitution that runs the command in-shell?
+
+**问题描述 / Problem Description**:
+Tags: bash, command-substitution | Score: 9 | Views: 793 | Answers: 2 | Created: 2026-08-01
+
+**解决方案 / Solution**:
+There is. From the announcement for Bash 5.3 (from July 5 2025, a little over a year ago): There is a new form of command substitution that executes the command in the current shell execution context. Two forms are implemented: one that reads the command substitution's output and another that expects to find the result in the REPLY shell variable when the command substitution completes. And from the documentation : There is an alternate form of command substitution: ${c command; } which executes command in the current execution environment and captures its output, again with trailing newlines removed. The character c following the open brace must be a space, tab, newline, or ‘ | ’, and the close brace must be in a position where a reserved word may appear (i.e., preceded by a command terminator such as semicolon). Bash allows the close brace to be joined to the remaining characters in the word without being followed by a shell metacharacter as a reserved word would usually require. Any side effects of command take effect immediately in the current execution environment and persist in the current environment after the command completes (e.g., the exit builtin exits the shell). Example: % bash -c 'echo "${ a=$BASH_VERSION; date;}"; declare -p a' Sun 2 Aug 01:24:13 JST 2026 declare -- a="5.3.15(1)-release"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806883/why-is-there-no-form-of-command-substitution-that-runs-the-command-in-shell
+
+---
+
+#### 8862. Find common part of filenames and group those files together in new directory
+
+**问题描述 / Problem Description**:
+Tags: bash, shell-script | Score: 4 | Views: 294 | Answers: 3 | Created: 2026-08-12
+
+**解决方案 / Solution**:
+Following your .nfo -based strategy: for file in ./*.nfo; do base="${file%.nfo}" mkdir -p "$base" && echo mv -i "$base"?* "$base"/ done Remove the echo once you’re satisfied with the result. Using mv -i avoids losing files in case of errors (or pre-existing copies in the target directory). Specifying "$base"?* as the glob for files to move matches files starting with the common name followed by at least one character, which excludes the directory that’s just been created and avoids errors from trying to move the directory inside itself. This works for any scheme where a .nfo file matches the common prefix, with no other matching common prefix; in your updated question, it handles both movies. If you do have entries where one set of files has a common prefix matching the start of another set of files’ common prefix, you can handle it as follows: shopt -s nullglob # shopt for bash; use set -o nullglob in zsh or yash for file in ./*.nfo; do base="${file%.nfo}" for c in "$base"?*.nfo; do printf>&2 '%s\n' "Conflict on $base, skipping" continue 2 fi mkdir -p "$base" && for s in "$base"?*; do [ -f "$s" ] && mv -i "$s" "$base"/; done done If a conflict arises, the shorter prefix will be skipped; you’d need to run the script again to handle it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807000/find-common-part-of-filenames-and-group-those-files-together-in-new-directory
+
+---
+
+#### 8863. Open new xterm window with different PS1
+
+**问题描述 / Problem Description**:
+Tags: bash, xterm | Score: 3 | Views: 339 | Answers: 2 | Created: 2026-07-26
+
+**解决方案 / Solution**:
+bash documentation quite clearly says: If the -c option is present, then commands are read from the first non-option argument command_string . So, bash executes the command export PS1=foo and terminates. bash will not assign PS1 from the environment, so there is no point in exporting it. What you can do is using some environment variable to set PS1 . Like $ tail -n 3 ~/.bashrc if [ -n "$MY_BASH_PROMPT" ]; then PS1="$MY_BASH_PROMPT" fi $ and $ xterm -e "export MY_BASH_PROMPT='PROMPT1> '; $SHELL" xterm -e "export MY_BASH_PROMPT='PROMPT2> '; $SHELL"
+
+**参考链接 / References**:
+- https://askubuntu.com/questions/1568630/open-new-xterm-window-with-different-ps1
+
+---
+
+#### 8864. Why does sort command not work with command substitution using ` (backtick)
+
+**问题描述 / Problem Description**:
+Tags: bash, command-substitution, syntax | Score: 2 | Views: 626 | Answers: 2 | Created: 2026-08-03
+
+**解决方案 / Solution**:
+Command substitution, more commonly done with $(...) nowadays, substitutes the text of the substitution with the output of the command in the substitution. In your case, the output of the sudo du command will therefore be inserted in place of the substitution at that point in the command. (Since the substitution is unquoted, it will then be split into words on spaces, tabs, and newlines, and each word that contains filename globbing characters would undergo filename generation, possibly generating more words. The collection of words will finally be inserted in place of the original substitution, delimited by space characters.) This means that if the sudo du command outputs something like 16K /usr/share/applications 16K /usr/share/fonts 16K /usr/share/metainfo 16K /usr/share/udhcpc [...] ... then that the sort command will try to execute sort --human-numeric-sort - 16K /usr/share/applications 16K /usr/share/fonts ... ... and that means trying to sort a file called 16K which can't be found in the current directory. Hence the error message. When you want to sort the output of sudo du , pass it to sort via a pipe instead, because sort can only be used for sorting lines read from files or via pipes, etc., not for sorting data given as arguments on the utility's command line. sudo du /usr/share --max-depth=1 --total --human-readable | sort --human-numeric-sort A command substitution is the wrong tool for the job of providing input for sort . The Bash shell also provides process substitutions. A process substitution can be used where a file argument is expected: sort --human-numeric-sort <( sudo du /usr/share --max-depth=1 --total --human-readable ) This uses a <(...) process substitution, which the shell will replace with a pathname from which the sort utility can read the standard output stream of the given command. With >(...) you do the same, but the utility is expected to write to the pathname and the command in the substation will be able to read the written data via its standard input stream.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806899/why-does-sort-command-not-work-with-command-substitution-using-backtick
+
+---
+
+#### 8865. Terminal file manager nnn v5.3 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vp4est/terminal_file_manager_nnn_v53_released/
+
+---
+
+#### 8866. Debian has begun voting on the future of AI/LLM contributions.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vooifz/debian_has_begun_voting_on_the_future_of_aillm/
+
+---
+
+#### 8867. Possible Linux logo submissions from 1996 competition
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vovk4y/possible_linux_logo_submissions_from_1996/
+
+---
+
+#### 8868. #262 Minor Major Update – This Week in GNOME
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vp3wj7/262_minor_major_update_this_week_in_gnome/
+
+---
+
+#### 8869. Klisi - a GTK4/Adwaita callgrind profile viewer and generator
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vp8hbt/klisi_a_gtk4adwaita_callgrind_profile_viewer_and/
+
+---
+
+#### 8870. Is ubuntu touch usable in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vp7qh8/is_ubuntu_touch_usable_in_2026/
+
+---
+
+#### 8871. State of GNOME OS | Abderrahim Kitouni @ GUADEC 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vonpfp/state_of_gnome_os_abderrahim_kitouni_guadec_2026/
+
+---
+
+#### 8872. thought id share my desktop setup fedora KDE 44
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpf86y/thought_id_share_my_desktop_setup_fedora_kde_44/
+
+---
+
+#### 8873. are there any good alternatives for screen studio on linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vot6br/are_there_any_good_alternatives_for_screen_studio/
+
+---
+
+#### 8874. Made a small utility to mirror KDE Plasma notifications to additional monitors on Wayland
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vomrlw/made_a_small_utility_to_mirror_kde_plasma/
+
+---
+
+#### 8875. Fill in the blanks: Linux is ___.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpfguq/fill_in_the_blanks_linux_is/
+
+---
+
+#### 8876. Looking for testers for my linux system!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpcmfn/looking_for_testers_for_my_linux_system/
+
+---
+
+#### 8877. Syne v3 with inbuilt docker manager
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vopjfr/syne_v3_with_inbuilt_docker_manager/
+
+---
+
+#### 8878. [V2EX] 多步骤 MCP 的 token 损耗，可能主要来自每一步的模型重入
+
+**问题描述 / Problem Description**:
+很多 MCP 演示只有一次工具调用；真实任务更像：创建项目 → 读取项目 ID → 导入素材 → 把 clip ID 交给下一步 → 导出 → 交付。 普通 agent 每完成一步，都要把结果带回模型，再让模型把 ID 填进下一次调用。Tura 的 command_run Macro 想解决的是这段“交接”：一次描述依赖图，前一步成功产生的变量给后一步在运行时解析；没有依赖的命令可以一起执行。 公开的电商广告工作流里，两边都通过同样 5 项检查、交付相同结果。Tura Direct 用 3 次模型请求，对照为 11 次；总 token 是 56,372 对 262,915 （少 78.6%）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234701#reply0
+
+---
+
+#### 8879. [V2EX] AI 开发，框架的作用大还是模型的作用大
+
+**问题描述 / Problem Description**:
+自身 还比较原始，半古法半 AI 1 先让 AI 写框架 2 写需要的工具类 3 挨个补全各个模块 4 补测试用例 这里面有不对的就让 AI 重新梭哈该步骤 现状 AI 开发框架更新的越来越复杂 隔段时间，就能看到有人发新的 AI 开发工作流，动辄 2~3 个模型，越来越复杂的约束文件 疑惑 如果框架起到关键作用，那随着框架的更迭，可以适配的模型等级应该越来越低 但实际看到的是对模型要求越来越高，低于最新模型 2-3 个版本的老模型，快要被开除 AI 籍了 所以 AI 开发框架到底能占多少比重，是有底层支持的有效框架，还是一个不断打补丁的优化包 总结 当前这套古法 AI 工作流还算稳定，当然没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234699#reply4
+
+---
+
+#### 8880. [V2EX] 给 C++构建工具优化了一下, 在 module 项目构建上速度比 CMake 快挺多的 (x2~200 on Linux )
+
+**问题描述 / Problem Description**:
+欢迎对 C++ 模块 和 最新特性感兴趣的朋友, 在自己硬件和 OS 环境下看看能快多少, 并反馈数据给我。 https://github.com/mcpp-community/mcpp/issues/428 下一步打算再优化一下 Windows 上的表现。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234698#reply0
+
+---
+
+#### 8881. [V2EX] 跟着 DeepSeek 学习驾驭 AI 开发
+
+**问题描述 / Problem Description**:
+https://github.com/CY-Christin/learn-ai-dev-from-deepseek 让 Fable5 看了一下 dsh 的完整 commit 记录，跟着 DeepSeek 学习一下如何驾驭 AI 开发而不会散架的。dsh 可能是 目前公开可考的、规模最大的 AI 驱动开发实践样本 。 而且里面有个很有意思的东西 We are DeepSeek — do not ration real-API tests. 直译就是，我们是 DeepSeek——别省真实 API 测试。 有钱真的可以为所欲为.jpg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234695#reply0
+
+---
+
+#### 8882. [V2EX] [讨论] 各种 agent 的联网搜索都是怎么实现的？
+
+**问题描述 / Problem Description**:
+肯定不是浏览器 cdp 。 如果是类似于爬虫，会被拦截吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234682#reply8
+
+---
+
+#### 8883. [V2EX] 看新闻 成都 OPC 社区开园
+
+**问题描述 / Problem Description**:
+RT ，普通人，程序员如何找准自己的定位？ 希望未来自己也有机会成为 OPC https://finance.sina.com.cn/roll/2026-08-14/doc-ininhnxr9415971.shtml https://www.opc.community/city/chengdu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234680#reply2
+
+---
+
+#### 8884. [V2EX] DeepSeek Harness 部署指南
+
+**问题描述 / Problem Description**:
+这份指南带你在一台 Mac 上完成 DeepSeek Harness 的本地启动、模型配置、工作区选择和最小对话验证。完成后，你会得到一个运行在 http://127.0.0.1:3080 的本地 Web UI ，并能让 Harness 在指定工作区内处理文件任务。 一、准备工作 - 一台已安装 Node.js 与 npm 的 Mac ； - 可访问 DeepSeek API 开放平台的账号； - 一个 DeepSeek API Key ； - 一个专门用于教学或项目的本地工作目录。 安全提醒：API Key 相当于调用服务的凭据。完整 Key 通常只在创建时显示一次，请单独保存，不要发给他人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234674#reply2
+
+---
+
+#### 8885. [V2EX] 爆肝一下午，整了个桌面版 DeepSeek Harness，你不用再装 Node.js 了
+
+**问题描述 / Problem Description**:
+爆肝了一下午把 DeepSeek Harness 做了个轻量桌面壳子，开源在 GitHub： https://github.com/qufei1993/dsh-desktop 原则 “不改 DeepSeek Harness 本体内容”，只做桌面端包装；默认启动直接打开官方的 DeepSeek Harness 页面。也就是说，你进来看到的还是原生态界面。 另外做了两个实用点：一是内置 Node.js 运行时，解决“没装/版本不一致”导致的麻烦；二是做了版本管理和切换（可选更新到新版本、也可保留旧版本），让桌面端用起来更可控。 目前支持 macOS + Windows ，目标就是把“网页打开+命令
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234671#reply7
+
+---
+
+#### 8886. [V2EX] Memoir :把记忆写在本地
+
+**问题描述 / Problem Description**:
+把记忆写在本地 GitHub： https://github.com/Memoir-Studio/Memoir 写笔记的工具越来越多，但大多绕不开账号、云同步、专有格式。 我只是单纯想要一个东西：直接打开本地文件夹，用普通 Markdown 文件写，同时界面还要好看一点。 于是做了 Memoir 。 打开一个装着 .md / .mdx 的文件夹，就能有资料库、编辑器和实时预览。没有账号，笔记永远是你磁盘上的普通文件，随时可以用 git 或 VS Code 打开。 核心特点 Markdown + MDX ：GFM 、KaTeX 、Mermaid 、任务列表，以及内置 Callout / Card
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234666#reply3
+
+---
+
+#### 8887. [V2EX] 分享一个操作路径，可以不用捣鼓 figma 来制作切割风格的商店预览图
+
+**问题描述 / Problem Description**:
+只需要准备截图，然后到 shots.so 这类的 mockup 网站，做一张方形的渲染图，然后交给 Codex： 帮我把每张图切割成两份 1320×2868 的 jpeg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234646#reply1
+
+---
+
+#### 8888. [V2EX] 大家在开发时用的 Agent 记忆管理插件有哪些？可以推荐一下吗？
+
+**问题描述 / Problem Description**:
+我自己之前用的是 agentmemory，感觉还行，比较好的一点是，可以跨 agent 和项目，虽然可以不用特意管理，但目前看自动记忆还是够用的，就是觉得有时候不够细致。 昨天弄了 DSH 后，安装了 Memory Evolve https://github.com/csyangwen/dsh-memory-evolve，设计的也不错，每个对话需要记住什么或者怎么记都是可以设置的，很灵活，不知道大家有没有其他推荐的？多谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234631#reply2
+
+---
+
+#### 8889. [V2EX] AI 写的 wolweb 分享给大家
+
+**问题描述 / Problem Description**:
+因没找到符合自己要求的 wol 应用，用 AI 写了个，很满意，分享给大家 我的要求其实也不多，应该要部署到软路由上，实现简单，方便管理，手机方便使用 https://github.com/maskyer/wolweb
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234620#reply0
+
+---
+
+#### 8890. [V2EX] 给我的浏览器终端增加了局域网内互联的功能
+
+**问题描述 / Problem Description**:
+闲的没事用 AI 搓的，地址是： https://mabbs.github.io/linux/ 效果如图所示：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234617#reply9
+
+---
+
+#### 8891. [V2EX] 小学生开发“班级宠物园”，一个月爆卖 40 万🔥
+
+**问题描述 / Problem Description**:
+油管上看到采访一个开发者，只有小学五年级学历，独立开发“班级宠物园”，30 天收入 40 万。开发者介绍几乎没啥成本，就几千块的服务器，加上 AI 编程的费用。 https://www.youtube.com/watch?v=jdE_ujwZGvA 找了一下那个网站： https://bjcwy.cjgsup.com 这是像一个月卖 40 万的网站？还是真吹牛不上税啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234604#reply10
+
+---
+
+#### 8892. [V2EX] DeepSeek Harness 安装问题
+
+**问题描述 / Problem Description**:
+在服务器上安装遇到的问题 内存 1G 无法安装，报错达到内存上限，找了台 2G 的才可以 可能是因为 arm 架构的问题，中间提示需要编译 node-pty 等。 还要 approve-scripts 相关包 安装体验远不如 Claude Code
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234597#reply4
+
+---
+
+#### 8893. [V2EX] 大家日常怎么用 Claude Code/Codex 或者其他的 Harness 工具？
+
+**问题描述 / Problem Description**:
+先说说我自己的，抛砖引玉，也想听听大家的方案，看看有哪些可以借鉴的。 整体来说就是：CC CLI + tmux + 多项目管理 在 tmux session 里，我通常每个 window 分配一个项目，(这里的项目有时候是一个代码仓库，有可能是其他的。我会把一些常规性的分类成不同的 project ，然后每个 project 会有一个目录。） 大多数时候，我会同时管理 2 到 3 个项目。我会保持常用的项目的 window 一直打开，这样就能随时切换回任何需要处理的项目。 为什么用 tmux ？ 第一个原因是，我可以选择任何终端，因为它不依赖于终端。 第二个原因是，我可以远程访问——比如，在手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234584#reply6
+
+---
+
+#### 8894. [V2EX] [吐槽] OpenCode 惊现 两年虫 大 bug，线上业务几千个会话在同一时间一起炸了...
+
+**问题描述 / Problem Description**:
+我司有一个在线对话+开发的平台，是基于 opencode acp 实现的。 昨天晚上刚准备下班，就看到业务群里有一大波反馈，说对话消息不回复了，但创建新的会话就能恢复正常。与此同时我本地的 opencode 开发任务似乎也不回复了。 仔细排查了半天容器日志和 opencode 会话日志，发现是 opencode 在七点之后生成的 message ID 竟然比之前小，ID 生成器轮转了，而 opencode 的 message.latest() 是基于最大的 message ID 来找的。这就导致新消息发出去之后，获取的最新用户消息仍然是七点前的消息，导致对话不能正常工作了。。 结合代码发现确实
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234574#reply16
+
+---
+
+#### 8895. [V2EX] 突然灵光一个点子，想做一款浏览器插件，本来可以立即 Coding，但止住了，各位一起讨论讨论引发的一些想法
+
+**问题描述 / Problem Description**:
+先说点子：平时经常用 Claude Code CLI ，Codex CLI ，Pi Agent ，Gemini CLI ，在安装或者更新的时候，基本到官网那里去，复制一下命令，然后回到电脑，打开终端，粘贴命令，回车运行。 现在有没有一款浏览器插件，能识别网页一些需要电脑终端跑起来的命令(就不是只有上面的举例了)，很多网页的做法都是给复制命令，有没有一款插件能够连通电脑终端，然后识别到网页有可以跑的命令后，有个 run 按钮，一键就能调用电脑终端跑起来。 讨论讨论： 1 、AI 时代，有想法之后，可能马上借助 AI 进行 Coding ，先把想法实现了再说。 (作为一名老牌程序员，我自己是有一个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234535#reply78
+
+---
+
+#### 8896. [V2EX] 做一个思想实验，如果 dsh 没有打着 deepseek 的旗号
+
+**问题描述 / Problem Description**:
+而是一个名不见经传的个人开发者推出的，你怎么评价它
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234524#reply29
+
+---
+
+#### 8897. [V2EX] 把 codex 桌面端的批注功能移植到 deekseep harness 生态
+
+**问题描述 / Problem Description**:
+https://github.com/AHGGG/dsh-side-chat 平时使用的时候，感觉 codex desktop 的选中文本批注、追问细节、在旁边展开一个 fork 的会话继续对话这个功能非常好用。 于是给移植到了 dsh 生态中，欢迎各位大佬使用~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234523#reply2
+
+---
+
+#### 8898. UVC Simulated Webcam Not Recognized as USB Device on Raspberry Pi Zero 2W
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, usb, raspberry-pi, v4l2loopback | Score: 2 | Views: 472 | Answers: 1 | Created: 2024-12-08
+
+**解决方案 / Solution**:
+On RPi5, the Raspian camera software couldn't detect a cheap AliExpress handheld digital microscope camera, but VLC had no problem. Open the menu, File > Open Capture Device... , set it to /dev/video0 and it worked.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787842/uvc-simulated-webcam-not-recognized-as-usb-device-on-raspberry-pi-zero-2w
 
 ---

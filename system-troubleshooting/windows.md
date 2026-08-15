@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9570**
+**总计条目 / Total entries: 9614**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -130331,5 +130331,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234313#reply0
+
+---
+
+#### 9571. Bluetooth function disappeared Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpe945/bluetooth_function_disappeared_windows_11/
+
+---
+
+#### 9572. Does anyone know a cause for this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpaiua/does_anyone_know_a_cause_for_this/
+
+---
+
+#### 9573. Annoying ass keyboard problems
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpf3iw/annoying_ass_keyboard_problems/
+
+---
+
+#### 9574. I have no idea whats happening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpeqje/i_have_no_idea_whats_happening/
+
+---
+
+#### 9575. Mouse causes laptop freezes - then I can't turn off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpcdzn/mouse_causes_laptop_freezes_then_i_cant_turn_off/
+
+---
+
+#### 9576. Computer acting as if I have clicked middle mouse button.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpc863/computer_acting_as_if_i_have_clicked_middle_mouse/
+
+---
+
+#### 9577. Is the windows.old folder included in Cloud backups from reinstall?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpf9el/is_the_windowsold_folder_included_in_cloud/
+
+---
+
+#### 9578. Laptop turned off, now there’s a clicking noise when i plug it in and it won’t turn on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpet5l/laptop_turned_off_now_theres_a_clicking_noise/
+
+---
+
+#### 9579. Wifi keep disconnecting and connecting yet I can't access to the Internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpeooi/wifi_keep_disconnecting_and_connecting_yet_i_cant/
+
+---
+
+#### 9580. Phantom Connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpbfpj/phantom_connection/
+
+---
+
+#### 9581. RTX 5070 Ti black screen/LiveKernelEvent - Code 1b8.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpbaa5/rtx_5070_ti_black_screenlivekernelevent_code_1b8/
+
+---
+
+#### 9582. Can't change the language completely on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpe9b3/cant_change_the_language_completely_on_windows_11/
+
+---
+
+#### 9583. Acer Nitro 5 Laptop Ram Shield SCREW rounded/stripped
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpdqxy/acer_nitro_5_laptop_ram_shield_screw/
+
+---
+
+#### 9584. hello can someone help me i need help for my samsung a50
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpdlau/hello_can_someone_help_me_i_need_help_for_my/
+
+---
+
+#### 9585. Audio drivers not working for some reason
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpdj3t/audio_drivers_not_working_for_some_reason/
+
+---
+
+#### 9586. Brother HL-L2370DW prints test page and Chrome, but not from Edge browser.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpdffe/brother_hll2370dw_prints_test_page_and_chrome_but/
+
+---
+
+#### 9587. Windows system notification sounds sound hollow/spatial, but normal media files sound fine?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpd9xg/windows_system_notification_sounds_sound/
+
+---
+
+#### 9588. bluetooth randomly disconnects on windows 11 laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpcyww/bluetooth_randomly_disconnects_on_windows_11/
+
+---
+
+#### 9589. İ have purple Line in mu laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpchee/i_have_purple_line_in_mu_laptop/
+
+---
+
+#### 9590. RTX 5070 Ti – Black screens / LiveKernelEvent 141 when enabling DLSS Ray Reconstruction in Cyberpunk 2077
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpbua7/rtx_5070_ti_black_screens_livekernelevent_141/
+
+---
+
+#### 9591. Internet speed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vp86ks/internet_speed/
+
+---
+
+#### 9592. Connecting phone and tablet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpb0jz/connecting_phone_and_tablet/
+
+---
+
+#### 9593. [HELP] My Telegram isn't letting me download media.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpavon/help_my_telegram_isnt_letting_me_download_media/
+
+---
+
+#### 9594. Phone To Hdmi to tv
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpatnd/phone_to_hdmi_to_tv/
+
+---
+
+#### 9595. [V2EX] 移动手机号预销户恢复的话，有办法异地办理吗
+
+**问题描述 / Problem Description**:
+楼主最近才发现之前上学时候办的校园卡因为欠费进入预销户状态了，但是还有账号绑定着这个手机号，问了移动客服，说是如果要恢复，在 90 天内要去归属地才能恢复。 话说有什么办法可以异地恢复吗？不太理解为什么到现在了这种事情还一定要到归属地才能办。 各位老哥这种情况吗？可以申请线上，或者至少是同省异地的线下办理吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234703#reply0
+
+---
+
+#### 9596. [V2EX] 如何批量高精度识别图片内容
+
+**问题描述 / Problem Description**:
+如何批量高精度识别图片内容？ 最好可以本地部署模型支持，如果有在线的形式也可以接受。 大概 60 万张图片，报价 10w ，有搞头吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234673#reply2
+
+---
+
+#### 9597. [V2EX] zcode 中的 zai-mcp-server 这个识别图片很慢，有更快识别图片的解决方案吗？
+
+**问题描述 / Problem Description**:
+glm 模型还是很不错的，但是识别图片需要调用视觉 mcp 才可以，但是官方提供的这个识别 mcp 好慢啊，有没有更好的识别方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234662#reply2
+
+---
+
+#### 9598. [V2EX] 剪映得配音 有对应得开放接口吗 我看了火山得也没有呀
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234655#reply1
+
+---
+
+#### 9599. [V2EX] cc +ds v4 flash 为嘛比 dsh +ds v4 flash 聪明那么多？
+
+**问题描述 / Problem Description**:
+尝鲜装了 dsh。 同样的需求，在 cc 上很快能弄好， 然后在 dsh 一直在问问问。 用的都是 V2EX 的 ds v4 flash。 怎么回事，是哪里没配好么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234644#reply7
+
+---
+
+#### 9600. [V2EX] Discourse 开启 S3/R2 存储后， JS 静态文件全部 404 了？
+
+**问题描述 / Problem Description**:
+最近尝试搭建了个 Discourse 的论坛： SySec ，在静态资源的配置上遇到点问题。 原本是想接入 Cloudflare 的 R2 对象存储，专门用来存放用户上传的图片和附件。结果在 app.yml 里配完 S3 相关的环境变量并 rebuild 后，前端页面直接打不开了。 F12 看了一下网络请求，发现不仅是用户上传的附件，连系统自带的 JS 和 CSS 等核心静态资源，也全部被自动重定向到 R2 的域名下进行拉取，导致报 404 错误。 相关的报错信息如下： Request URL: https://assets.sysec.cc/assets/br/plugins/chat_ma
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234641#reply2
+
+---
+
+#### 9601. [V2EX] 最近 deepseek 和 gemini 不行了呢？
+
+**问题描述 / Problem Description**:
+我日常就是问些简单问题 写一些 python 脚本 最近备考在职研 会有一些题目和写作类的提问 最近发现这俩经常偷懒回答而且居然还会出错。 当然这俩我用的网页版 gpt 有限制很少用 gemini 我还上车开的 pro 是不是要开会员或者 api 调用使用会好点？ 请问现在哪个 ai 比较适合我这需求的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234619#reply3
+
+---
+
+#### 9602. [V2EX] 大家是怎么判断 AI 写的代码是正确的？有验收标准吗？
+
+**问题描述 / Problem Description**:
+如题 我最近也是在用 AI 写 nodejs ，但是遇到一些问题，先举例子。 1 、第一个 CRC32 的函数实现 function crc32(buf, init = 0xffffffff) { // 预生成表（全局只初始化一次） if (!crc32.table) { const table = new Uint32Array(256) for (let i = 0; i < 256; i++) { let crc = i for (let j = 0; j < 8; j++) { crc = (crc >>> 1) ^ (crc & 1 ? 0xedb88320 : 0) } table
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234599#reply2
+
+---
+
+#### 9603. [V2EX] 1818 黄金眼看到一个骗子八年了还在活跃，上新闻都成连续剧了。法律对这种经济纠纷老赖真没办法吗
+
+**问题描述 / Problem Description**:
+1818 黄金眼看到一个骗子八年了还在活跃，上新闻都成连续剧了。法律对这种经济纠纷老赖真没办法吗 2018 年新闻： https://www.bilibili.com/video/BV1js411A7fg/?spm_id_from=333.1391.0.0&vd_source=99b9b9134ac29b23b9630bb1ecca6e25 2026 年新闻： https://www.bilibili.com/video/BV1Jc3X6kEj3/?spm_id_from=333.1391.0.0&vd_source=99b9b9134ac29b23b9630bb1ecca6e25 两条新闻应
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234594#reply9
+
+---
+
+#### 9604. [V2EX] cursor 在 window 上生成的中文乱码
+
+**问题描述 / Problem Description**:
+老烦人了， 本事好好的，稍微让它改下，文件所有中文都乱码了。 求个解决方案
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234590#reply1
+
+---
+
+#### 9605. [V2EX] 《欢迎来龙餐馆》有必要看 IMAX 吗？
+
+**问题描述 / Problem Description**:
+有没有看过 imax 的老哥来说说？好像有画幅变化？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234582#reply1
+
+---
+
+#### 9606. [V2EX] 有人知道 https://claudeonline.top/list 这个镜像的充值地址吗
+
+**问题描述 / Problem Description**:
+1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234573#reply0
+
+---
+
+#### 9607. [V2EX] 罗技的静音鼠标怎么越做越差了？有国产平替吗？
+
+**问题描述 / Problem Description**:
+静音鼠标爱好者，办公室里不喜欢鼠标点击咔哒咔哒的声音。 原来一直用的款是罗技 M590 （已停产），gpt 查了一下说后续改款是 M650 ，结果买回来感觉完全不是一个东西。 握持手感类似，好评 按键削减很厉害，原先 M590 是有侧面 2 按键+鼠标中键靠左/靠右拨动，这四个扩展按键的，现在只剩侧键了，中键改成联动逻辑，我很不喜欢。 问下万能的 v 友，不知道还有没有其他平替款，要求是分应用能设置四个扩展按键绑定任意键盘快捷键。 我现在不能鼠标直接点按 ctrl+W / ctrl+T 之类的快捷键的话，感觉浏览器使用效率都滴了一大截 （另外我感觉罗技品控也变拉了，长按左键会有中断的情况）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234569#reply21
+
+---
+
+#### 9608. [V2EX] 讨论点不一样的,你更倾向于使用不同 ai 使用各种不同的 harness, 还是一个 harness 接入不同 ai?为什么?
+
+**问题描述 / Problem Description**:
+例如: deepseek+dsh | kimi+kimicode | glm+zcode 或者: codex+gpt|ds|kimi|glm | opencode+ds|kimi|glm 你们更喜欢哪一种?都出于什么样的考虑?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234552#reply9
+
+---
+
+#### 9609. [V2EX] 我想了解下，目前国产大模型，有哪些可以媲美 codex 和 claude 的？
+
+**问题描述 / Problem Description**:
+之前主要用 100$的 claude 月订阅，感觉还是太贵了，不想定了 也用了 20$的 codex 月订阅，好用是好用，就是经常额度不够 所以我想了解下国产的 平替 有哪些好用的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234551#reply4
+
+---
+
+#### 9610. [V2EX] 求教， iOS app 出海问题
+
+**问题描述 / Problem Description**:
+想在空闲时间 vibe coding 一个 ios 的 app ，因为没有经验，所以有几个问题想请教一下： 1 、界面是否好看，会影响上架的审核吗？是否需要找一个 ui 设计师设计一下，或者有没有什么 ai 工具可以直接出设计图。 2 、上架之前，需要申请商标或者软著吗？如果不申请，后续会不会有问题？ 3 、还有什么大家遇到的要注意的坑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234539#reply5
+
+---
+
+#### 9611. [V2EX] 个人开发，选哪个性价比更高？
+
+**问题描述 / Problem Description**:
+个人开发一些 app 或者小游戏，哪个 AI 工具性价比更合适？ 大家用下来，推荐哪个？ Claude code ，Codex ？国内有也不错的吗？ 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234528#reply24
+
+---
+
+#### 9612. [V2EX] 有没有免费在线设计海报的网站
+
+**问题描述 / Problem Description**:
+试过 ai ，可能提示词不对，做出来效果很差 以前用过易企秀，canva ，都需要付费导出，有没有模版多效果还不错的免费平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234527#reply1
+
+---
+
+#### 9613. [V2EX] 几时钱也跟风买了一个 gemini pro，只能在网页用？
+
+**问题描述 / Problem Description**:
+以前部署过 cpa 的，感觉很容易被风控。是不是只剩下在网页中使用了？反代会不会也封？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234494#reply6
+
+---
+
+#### 9614. [V2EX] 甲骨文春川是不是无法降配了
+
+**问题描述 / Problem Description**:
+想要升级，已经绑卡成功，但升级时候出现错误：“ 發生錯誤 嘗試升級您的帳戶時發生錯誤。請再試一次，或聯絡 Oracle 全球業務代表。” 这个是五年的老号了，所以不可能重建注册时候的环境。。 想要去降配，显示没有项目可供显示，是不是现在春川没有资源可以选择了。。 现在用的是 4cpu24g ，难道只能停机或删机了吗。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234473#reply6
 
 ---

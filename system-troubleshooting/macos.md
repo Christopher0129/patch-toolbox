@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8516**
+**总计条目 / Total entries: 8565**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -115008,5 +115008,642 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234253#reply10
+
+---
+
+#### 8517. Safari address bar overwrites/replaces typed text with unrelated History/Bookmark entry mid-typing
+
+**问题描述 / Problem Description**:
+Tags: macos, safari, search | Score: 5 | Views: 327 | Answers: 1 | Created: 2026-08-09
+
+**解决方案 / Solution**:
+I would make a new user on the Mac and then change the search engine to Duck Duck Go and disable every check mark here: Then test in a new private window, then once you are happy with private browsing, test a little in non-private browser sessions. Hopefully you can identify if there's a problem / bug in your specific version of Safari and MacOS to either your choice of search engine or your main user account. I can't reproduce your issue on macOS 26.2.1 (25G76) and Safari Version 26.6 (21624.4.5.11.5) but I have seen this happen from time to time and had to change settings and disable some pre-loads in the past. I have not seen this for quite some time with the Duck Duck Go engine or any of the settings you could enable in the above image, I just generally prefer the settings I show since I too don't want my address bar to think for me and guess wrongly far more often than the rare occasion it can speed up my searching. % sw_vers ProductName: macOS ProductVersion: 26.6.1 BuildVersion: 25G76
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486891/safari-address-bar-overwrites-replaces-typed-text-with-unrelated-history-bookmar
+
+---
+
+#### 8518. 2nd Monitor not recognized after 26.5.2 update
+
+**问题描述 / Problem Description**:
+Tags: macos, display | Score: 2 | Views: 322 | Answers: 1 | Created: 2026-08-05
+
+**解决方案 / Solution**:
+Fixed with macOS 26.6 update! Thanks @Barmar for your suggestion.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486865/2nd-monitor-not-recognized-after-26-5-2-update
+
+---
+
+#### 8519. how do I always change ^f to right arrow? (Need to bypass Outlook)
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, mapping | Score: 1 | Views: 76 | Answers: 2 | Created: 2026-08-02
+
+**解决方案 / Solution**:
+I've got this working now with https://karabiner-elements.pqrs.org/ which seems fairly secure. I paste below the code that fixes ^b in stack exchange (in chrome) which I got from gemini. If anyone knows something wrong or dangerous with this solution or a better one, I'd still love to know. { "description": "Remap Ctrl+B to Left Arrow in Google Chrome", "manipulators": [ { "conditions": [ { "bundle_identifiers": [ "^com\\.google\\.Chrome$" ], "type": "frontmost_application_if" } ], "from": { "key_code": "b", "modifiers": { "mandatory": ["right_control"], "optional": ["caps_lock"] } }, "to": [{ "key_code": "left_arrow" }], "type": "basic" }, { "conditions": [ { "bundle_identifiers": [ "^com\\.google\\.Chrome$" ], "type": "frontmost_application_if" } ], "from": { "key_code": "b", "modifiers": { "mandatory": ["left_control"], "optional": ["caps_lock"] } }, "to": [{ "key_code": "left_arrow" }], "type": "basic" } ] }
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486847/how-do-i-always-change-f-to-right-arrow-need-to-bypass-outlook
+
+---
+
+#### 8520. The Mac has always lacked that perfect Simple-but-Deep Image Editing Tool, so we made one: DrawSimple, out now and FREE (to keep forever) until August 19!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp1av1/the_mac_has_always_lacked_that_perfect/
+
+---
+
+#### 8521. Drag and drop behavior
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpd6c0/drag_and_drop_behavior/
+
+---
+
+#### 8522. docktor update: AirPods + Logi batteries next to the Dock, plus CPU/RAM and a less painful first launch
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp6y5t/docktor_update_airpods_logi_batteries_next_to_the/
+
+---
+
+#### 8523. MacBat: battery time remaining is back, plus a smarter way to keep your Mac cool
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp6cq2/macbat_battery_time_remaining_is_back_plus_a/
+
+---
+
+#### 8524. Getting data from Time Machine Backups
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp4wdm/getting_data_from_time_machine_backups/
+
+---
+
+#### 8525. ‎Coast FIRE: Track runway, FIRE number, net worth, $ amount, and other metrics from the Mac menu bar with on-device security and privacy.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpb9o1/coast_fire_track_runway_fire_number_net_worth/
+
+---
+
+#### 8526. Imark: a free, open source Markdown viewer for Mac with a Quick Look extension and assistant skill
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp0nee/imark_a_free_open_source_markdown_viewer_for_mac/
+
+---
+
+#### 8527. completely free game-clipping software for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpfmgs/completely_free_gameclipping_software_for_macos/
+
+---
+
+#### 8528. Android Connectivity with MacOS - ConnectMyDroid - Pre Launch Review
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpf9fz/android_connectivity_with_macos_connectmydroid/
+
+---
+
+#### 8529. I built a native Mac app that runs real Wallpaper Engine scenes, and they react to your music (solo dev)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpf6au/i_built_a_native_mac_app_that_runs_real_wallpaper/
+
+---
+
+#### 8530. MacBook virus? search engine changed to bing?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpf3ca/macbook_virus_search_engine_changed_to_bing/
+
+---
+
+#### 8531. I made a free automatic window-centering utility for MacBook Neo/macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpe5h9/i_made_a_free_automatic_windowcentering_utility/
+
+---
+
+#### 8532. Unable to free up space in the Photos app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpe25h/unable_to_free_up_space_in_the_photos_app/
+
+---
+
+#### 8533. Click Into Active Window
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpdbpk/click_into_active_window/
+
+---
+
+#### 8534. Why does macOS Finder not show thumbnail previevs when searching a network volume?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vozrqj/why_does_macos_finder_not_show_thumbnail_previevs/
+
+---
+
+#### 8535. 256GB Studio - local llm stack update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp66bz/256gb_studio_local_llm_stack_update/
+
+---
+
+#### 8536. Double sided print function for Mac devices!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpala8/double_sided_print_function_for_mac_devices/
+
+---
+
+#### 8537. Gramola: your whole music library, at the edge of your screen!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vonp60/gramola_your_whole_music_library_at_the_edge_of/
+
+---
+
+#### 8538. QNP — a lightweight notepad built specifically for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpacd1/qnp_a_lightweight_notepad_built_specifically_for/
+
+---
+
+#### 8539. Why is Mac Mail inbox unread message count sometimes inaccurate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp4axl/why_is_mac_mail_inbox_unread_message_count/
+
+---
+
+#### 8540. I kept reopening Maps to check the same commute, so I put the ETA in my Mac menu bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp83iy/i_kept_reopening_maps_to_check_the_same_commute/
+
+---
+
+#### 8541. Music.app taking hours to load new library.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp6cqa/musicapp_taking_hours_to_load_new_library/
+
+---
+
+#### 8542. Lucena: Chess Analysis for Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpbwd2/lucena_chess_analysis_for_mac/
+
+---
+
+#### 8543. [App Saturday] Store Screenshots: A Developer Tool to create screenshots for the App Store
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vp3o9b/app_saturday_store_screenshots_a_developer_tool/
+
+---
+
+#### 8544. [V2EX] 张小聋给我整乐了
+
+**问题描述 / Problem Description**:
+等了大半年，iOS 微信的深色图标还是遥遥无期。没办法，深色模式下只好委屈其他 App ，陪着微信一起“亮”。 结果今天更新了一下 macOS 微信，好家伙，原本还是黑色的图标，也特娘给我整亮了…… 微信：深色模式可以有，但图标必须亮。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234704#reply0
+
+---
+
+#### 8545. [V2EX] macOS 自写的第三方计算器小工具
+
+**问题描述 / Problem Description**:
+前言 之前在 Windows 上一直用一款特别轻量的第三方计算器，最近一年主力换到 macOS ，但那款计算器没有 Mac 版本，App Store 和第三方也都没找到合适的替代品。日常又大量依赖计算器，索性花了两周时间，用纯 Swift 自己写了一个。最终打包只有 2.4MB ，代码量很小，但功能一点没砍。 特性 38 位高精度 — Decimal 引擎 三种计算模式 — 基础 / 科学 / 程序员（三角、对数、阶乘、排列组合、质因数分解、进制转换、位运算） 方程求解 — 牛顿法迭代 单位 & 货币转换 — 16 类单位 + 多源汇率缓存 + 中文大写金额 全生态集成 — 灵动岛 / Int
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234639#reply1
+
+---
+
+#### 8546. [V2EX] UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？
+
+**问题描述 / Problem Description**:
+mac 远程 mac ，VNC 可以 ⌘+Q 关闭远程桌面上的 App ，到 UU 这里每次 ⌘+Q 都是把 UU 远程自己关掉，真绷不住了。 问了 AI 可以在系统设置 → 键盘 → 键盘快捷键 → App 快捷键，把关闭 App 的快捷键从 ⌘+Q 改成别的快捷键。 改完快捷键 ⌘+Q 就没任何反应了，不会关闭 UU ，远程桌面也不会关闭 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234271#reply7
+
+---
+
+#### 8547. [V2EX] 后台关闭程序和自动刷新
+
+**问题描述 / Problem Description**:
+你们平时会手动关闭后台 app 吗？换机转移数据时最好关，不然传数据慢，但日常开关区别大不大呢？ 自动刷新是开还是关？开关感觉使用 app 上似乎没区别.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234636#reply4
+
+---
+
+#### 8548. [V2EX] WLOC 改定位「好像」在 iOS27 beta5 失效了
+
+**问题描述 / Problem Description**:
+之前版本成功，现在同样的步骤无效，定位依然是真实位置。 目前网络上的教程都是几周之前的，如有新的有效教程，欢迎回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234568#reply8
+
+---
+
+#### 8549. [V2EX] 如何禁用照片下载时自动创建相簿
+
+**问题描述 / Problem Description**:
+从微信、抖音等其他 app 下载的照片会自动创建一个相簿，如何只下载照片不创建相簿呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234442#reply2
+
+---
+
+#### 8550. [V2EX] 升级 ios26.6 掉电池健康度
+
+**问题描述 / Problem Description**:
+升级到 ios26.6 降电池健康度了。之前 ios26.5.1 还是 100% （忘记截图了） 上周升级完发现少了 2%看着难受死了。不知道是显示问题还是真的掉了 你们升级完掉了吗？ https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814141106-10-278.SXjPpj https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814140855-9-278.SXjKPq
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234375#reply12
+
+---
+
+#### 8551. [V2EX] 看见有人说 m1pro 的 mbp,我想说,当初多花 3000 买的 32g 还是很香啊
+
+**问题描述 / Problem Description**:
+我买的官翻的,当初好像是 13800 分了 24 免息买的. 感觉现在用起来还是很丝滑. 系统是 26.5.1 . 刚去苹果官网查了一下最新的处理是 m5 了. 不觉感叹时间真快 搜了一下 m5pro 比 m1pro 提升 约 61%.但是估计实际体验差别不大吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233999#reply60
+
+---
+
+#### 8552. [V2EX] iOS 上有没有办法连接 WiFi 的时候让特定 app 走手机流量？
+
+**问题描述 / Problem Description**:
+不想被公司的路由机记录下来，完全不用公司 WiFi 传文件也麻烦，每次都是手动打开关闭，如果可以分流就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233437#reply18
+
+---
+
+#### 8553. [V2EX] 吐槽一下 DeepSeek
+
+**问题描述 / Problem Description**:
+https://github.com/deepseek-ai/deepseek-harness/commit/86d5dd438437fbc7b5b1e57d97ccc03d8fbd3eb4 一直是 DeepSeek 的自来水， 从 2.5 时代就一直在网上安利 这一波的操作让我有些失望，一盘没做好的菜就端上桌了 没有在官网有任何说明， 倒是自己的 agent 产品”偷偷“对齐了一波 这不纯纯为难做产品的打工人吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234688#reply3
+
+---
+
+#### 8554. [V2EX] 有一个 lao1.me 社区突然爆火，你怎么看？
+
+**问题描述 / Problem Description**:
+rm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234653#reply0
+
+---
+
+#### 8555. [V2EX] 追觅大家电解散
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234645#reply4
+
+---
+
+#### 8556. [V2EX] 关于 AI 的一点感想
+
+**问题描述 / Problem Description**:
+几年前，我曾参加阿里的实习招聘在线笔试（算法题），其中一道题目，我猜到是用动态规划，但死活写不出递推式。交卷前，我用手机拍下了题目（没作弊，拍完就交卷了，当时只是想留到以后思考，不然题目太长记不住）。 几年后的现在，我在照片库里偶然间发现了这张照片，思考了一下仍然没有思路，然后把这张图丢给 GPT ，让它给出解答，结果不到一分钟它就做出来了。注意，这题在网上搜不到（ GPT 自己说的），因此解答是 GPT 靠自身推理出来的。它不仅给出了标准解答（用的动态规划，时间复杂度 O(n^2)），还作了进一步优化，把时间复杂度降到了 O(n)。标准解答我还能看懂，最优解答我真是看不来了（或者说这辈子想不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234623#reply0
+
+---
+
+#### 8557. [V2EX] DSH 不同模式下 V4 Pro + Max 制作小游戏的真实效果
+
+**问题描述 / Problem Description**:
+看到很多平台都在聊 dsh 搭配 v4 pro (with max reasoning effort) 正式版使用时，不同的模式间思维链和产品效果存在较大差异，于是花了 20 多块实测了几轮较简单的任务，也搭配 Pi Native 模式作为对照，供参考。 测试除 Pi 对照之外，都在 DSH 中使用 DeepSeek V4 Pro max 推理强度进行。Prompt:“复刻超级马里奥” 实测效果： https://deepseek-v4-harness.pages.dev/ 个人看来，“We need” “Let me” 这两种思维链间的差异确实挺大的（链接里标准模式和 Pi 对照组里的有些简
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234586#reply3
+
+---
+
+#### 8558. [V2EX] 一章有意思的图，真有人找不到这么明显的东西吗？
+
+**问题描述 / Problem Description**:
+请找出这张图中正方形图片中绿色的六边形 说真的按理说这个应该一眼就能看出来了，但是我问了几个我的同事，都说没看出来，还有个人花了一两分钟仔仔细细看了一遍，说没找出来，我还问了问其他朋友 真的不能一眼看出来吗？ 结果两极分化: 看得出来的人一眼就能看出来，还以为我在侮辱他的智商 看不出来的人要找半天，最后都找不出来什么意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234534#reply36
+
+---
+
+#### 8559. [V2EX] [开源]让 Codex 直接用 Kimi K3 的 Responses API 适配层
+
+**问题描述 / Problem Description**:
+我写了一个把 OpenAI Responses API 转成 Kimi Coding 的 Anthropic Messages API 的工具，欢迎大家使用。 原因：new-api 协议转换不好用，sub2api 转换 Responses-> Messages 的也不好使，给 sub2api 提 PR 也没什么反馈，也不想自己维护 fork 。干脆自己写个转换服务得了。 代码是 kimi3 在 codex 中写的，自己也在用，kimi code 套餐明年七月到期前我应该会维护。 镜像： ghcr.io/jianyun8023/kimi-responses-adapter:latest 仓库：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234505#reply11
+
+---
+
+#### 8560. [V2EX] 抖音上刷到的一个关于男女对立的有意思的视频
+
+**问题描述 / Problem Description**:
+视频内容大概讲的是，要是一个女的是大户人家的小姐亦或是什么公主，那么嫁给下人，叫下嫁，叫吃苦，但是一个普通人家的女生，嫁给同样是普通人家的男生，这叫门当户对，不存在下嫁和陪吃苦的情况。 要是以前我估计就划走了，但是这两年，我老婆已经对我表达出这种意思了，原话是，怎么嫁给我这个穷逼，跟我过的什么苦日子😂。 原本，我小时候衣食无忧，游戏机、玩具、电脑，想买啥就买啥，她小时候连学费都交不起，每次都要被老师催，还要去后面罚站，结果跟我在一起之后，却变成了跟我吃苦，今天有点钻牛角尖，也可能是有点难以忍受了吧，这事情让我整个下午一直耿耿于怀。 刚开始她不是这样的人，最初我们刚结婚的时候，就是开着一辆不到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234464#reply3
+
+---
+
+#### 8561. [V2EX] 小米 17 把这次西班牙日食 P 成了月食
+
+**问题描述 / Problem Description**:
+https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil 法语网页，开自动翻译看 哈哈哈哈哈哈哈大乐子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234445#reply4
+
+---
+
+#### 8562. [V2EX] 七夕快到了想收/收过什么礼物
+
+**问题描述 / Problem Description**:
+收到过滑雪镜、户外音响、徒步装备等等，还是挺多的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234388#reply1
+
+---
+
+#### 8563. [V2EX] 中转站排雷，个人已经被坑，经验分享
+
+**问题描述 / Problem Description**:
+首先被坑是我自己没办法用官方渠道，国内的因为能力问题确实不大好用。所以只能用中转站。 本人也用了少说 8、9 个中转站了。说出 2 个大雷，大家千万小心别用。 注意我不是推广，是让大家避雷，下面的是我用了被坑的。 1、 https://opusrelay.com/ 这家刚刚开业的时候冲了 100，然后用着还可以，后来开始掺水，回复的话数就是 deepseek 一毛一样，确定掺水了，然后找客服，我跟客服沟通的过程，我没爆脏话，理智沟通，客服基本不回，然后被拉黑。（他家最少起充 100 元），以后注意，最少 100 元充值的中转千万别用！ 2、 https://www.cun.ai/ （他家的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234306#reply21
+
+---
+
+#### 8564. on macOS 15 I want to reconcile du and df command results to assess my remaining space for files
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, filesystem | Score: 0 | Views: 49 | Answers: 1 | Created: 2026-08-11
+
+**解决方案 / Solution**:
+df is not reliable with APFS if you are trying to check space utilization for your files. To check space utilization I typically run these commands. diskutil apfs list Will list all the disks and virtual containers in your storage. Data is the one that holds your user files. diskutil info / Will show your "Macintosh HD" (or whatever name your Mac shows for the drive where it's installed), and it may correspond better with what System Settings might tell you. You may also replace / with another mount-point the df or mount commands show you — for example, diskutil info /System/Volumes/Data — and DiskUtil will print detailed information about that "disk". If SIP (System Integrity Protection) is enabled on your system, I don't think you will ever be able to traverse the protected folders — hence "Operation Not Permitted" — on du , even with sudo .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486902/on-macos-15-i-want-to-reconcile-du-and-df-command-results-to-assess-my-remaining
+
+---
+
+#### 8565. How to make LocalSend transfer files from Mac to Android devices?
+
+**问题描述 / Problem Description**:
+Tags: macos, file-transfer | Score: 0 | Views: 34 | Answers: 1 | Created: 2026-08-10
+
+**解决方案 / Solution**:
+I updated my Mac to the latest beta version of Golden Gate (Public Beta 4), and after updating a popup asking permission to scan devices in local network appeared. I clicked Allow and LocalSend was able to detect my Android device. Problem solved!
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486898/how-to-make-localsend-transfer-files-from-mac-to-android-devices
 
 ---
