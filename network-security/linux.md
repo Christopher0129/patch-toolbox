@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3148**
+**总计条目 / Total entries: 3149**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -46828,5 +46828,17 @@ A vulnerability was found in HTTP-Daemon allowing header manipulation or filter 
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-10
+
+---
+
+#### 3149. [Gentoo] GLSA 202608-13: NTFS-3G: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in NTFS-3G, the worst of which could result in privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-13
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8898**
+**总计条目 / Total entries: 8937**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -123645,5 +123645,512 @@ On RPi5, the Raspian camera software couldn't detect a cheap AliExpress handheld
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/787842/uvc-simulated-webcam-not-recognized-as-usb-device-on-raspberry-pi-zero-2w
+
+---
+
+#### 8899. Ubuntu is growing faster on Windows 11 than on native Linux PCs, says Canonical
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpxdcf/ubuntu_is_growing_faster_on_windows_11_than_on/
+
+---
+
+#### 8900. Back when it was more efficient to distribute cds worldwife than serve the software for download:)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vptodm/back_when_it_was_more_efficient_to_distribute_cds/
+
+---
+
+#### 8901. GIMP Development Update (August 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq7od9/gimp_development_update_august_2026/
+
+---
+
+#### 8902. Towards a Local-First Desktop | Julian Sparber & Tobias Bernard @ GUADEC 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq4uat/towards_a_localfirst_desktop_julian_sparber/
+
+---
+
+#### 8903. Yazi (terminal file manager) v26.8.15
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpr5c2/yazi_terminal_file_manager_v26815/
+
+---
+
+#### 8904. GIMP Development Update, August 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq96qx/gimp_development_update_august_2026/
+
+---
+
+#### 8905. #40262 Excessive IO caused by systemd-journald
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpg1q2/40262_excessive_io_caused_by_systemdjournald/
+
+---
+
+#### 8906. I got a real Linux kernel running as a userspace process on Android — no root, no KVM. Docker runs inside it. (UML ARM64)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpyf4o/i_got_a_real_linux_kernel_running_as_a_userspace/
+
+---
+
+#### 8907. Koboldcpp v1.119 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpzy89/koboldcpp_v1119_released/
+
+---
+
+#### 8908. Looking for an AFWall+-like application firewall for Linux (per-app LAN/Internet control)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpsodi/looking_for_an_afwalllike_application_firewall/
+
+---
+
+#### 8909. dskDitto v 0.6.1 release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpvmwq/dskditto_v_061_release/
+
+---
+
+#### 8910. Mounting an SMB Share - With Tailscale
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq15lp/mounting_an_smb_share_with_tailscale/
+
+---
+
+#### 8911. SavvyNik voice cadence
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq2syk/savvynik_voice_cadence/
+
+---
+
+#### 8912. Unixy LLM Client using Git to store converastions, instead SQLite
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq10yt/unixy_llm_client_using_git_to_store_converastions/
+
+---
+
+#### 8913. Y'all are asking about battery health. Meanwhile my Armor 28 is diagnosing cows
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq25s7/yall_are_asking_about_battery_health_meanwhile_my/
+
+---
+
+#### 8914. Any criticism toward cachyos?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vpthyd/any_criticism_toward_cachyos/
+
+---
+
+#### 8915. What if Linux’s biggest advantage over Windows and macOS turns out to be AI agents?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vq0gag/what_if_linuxs_biggest_advantage_over_windows_and/
+
+---
+
+#### 8916. [V2EX] RustDesk 现已支持 Wayland 无人值守远程访问
+
+**问题描述 / Problem Description**:
+[RustDesk now supports true unattended remote access on Wayland | Hacker News]( https://news.ycombinator.com/item?id=49300759 ) [Unattended Remote Access on Wayland with RustDesk — RustDesk]( https://rustdesk.com/blog/unattended-remote-access-wayland/ )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234773#reply5
+
+---
+
+#### 8917. [V2EX] 大家在什么场景下还打算使用涨价后的 DeepSeek？
+
+**问题描述 / Problem Description**:
+单论 API 价格，GPT 5.6 luna 的价格整体比 DeepSeek v4 flash 波峰便宜、波谷贵，同时性能上还有优势并支持多模态。 同时 GPT 有比例非常夸张的订阅，20 刀的 plus 如果个人只用 luna ，几乎不可能用完，而 DeepSeek 完全找不到有类似性价比的订阅。 现在 DeepSeek 剩下的优势区间大概是企业用户（无法使用订阅）+ 波谷时段？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234833#reply2
+
+---
+
+#### 8918. [V2EX] 在动手开发前，应该先找到已经在赚钱的产品。于是我做了这款产品...
+
+**问题描述 / Problem Description**:
+各位大佬 我最近做了一个面向开发者找产品方向的小工具，也是我自己一直在用的找产品方向的一个思路，这次我把它工具化了，分享出来请各位大佬给点意见 访问地址是 👉 https://buildorskip.dev/zh/r/BOS-2C68X7F7 （通过该链接可享 30% 的优惠） 之所以做这个工具，是因为我自己在找新项目方向的时候，经常遇到一个问题： 1.网上看起来很不错的产品，但到底有没有人在付钱 2.到底有哪些产品在赚钱 3.哪些产品在持续稳定的赚钱 4.哪些产品订单突然爆发 5.哪些新产品在赚钱 所以做了 Build or Skip 。 我的想法很简单： 与其从 0 开始猜用户会不会付钱，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234828#reply0
+
+---
+
+#### 8919. [V2EX] grok4.6 中文回复和英文回复的速度不一样，英文回复的吐字更快
+
+**问题描述 / Problem Description**:
+看到 v 站里不少人都说 grok4.6 速度快，但我在 cursor 里面使用 grok （非 fast ），感觉就比 gpt5.6 快一点，差不太多。 突发奇想，使用英文提问，发现 grok thinking 的吐字速度快了不少。没法量化，体感是有 20%-30%的提升。 同样的问题，codex gpt5.6sol high ，无论中文还是英文，基本一样。 不知道是不是错觉，有 cursor 订阅的 v 友可以尝试一波。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234827#reply3
+
+---
+
+#### 8920. [V2EX] codex 浏览器插件平替 open-web-bridge，可在 opencode 等 harness 中无缝接入
+
+**问题描述 / Problem Description**:
+open-web-bridge 是一个给 opencode 这类 harness 补上浏览器能力的 CLI 工具。 能力上和 codex 自带的 chrome 插件对齐，另外多了几样它没有的。因为是野生插件，可以提供一些正规插件不能做的事情，也更好 DIY 。 为啥需要这个呢？ 一是 opencode 这类工具官方不提供这个能力。二是 playwright 这种路线会丢登录态。三是解决风控问题。playwright 那类方案不只是没有登录态，更严重的是会明显吃到更强的风控。 从我自己的使用体验出发，即使是 cloakbrowser 、camoufox 这种专门做反检测的浏览器， 效果也不如直接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234823#reply0
+
+---
+
+#### 8921. [V2EX] 寄了， Opencode go v4flash 额度缩水 88%，双倍也结束了
+
+**问题描述 / Problem Description**:
+完了，原本当 codingplan 用，现在 coding plan 彻底没落
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234822#reply8
+
+---
+
+#### 8922. [V2EX] 把 DSH（DeepSeek Harness）部署到服务器：手机、电脑实时同步，云端开发
+
+**问题描述 / Problem Description**:
+适用场景：你有一台服务器，想把 DeepSeek Harness 的浏览器界面（ Web GUI ）跑在上面，让家里的电脑、公司的电脑、甚至手机浏览器都能登录使用，用 AI 帮你写代码、跑任务。本文基于 DSH 0.1.0-rc.6 + Ubuntu 22.04/24.04 + nginx + pm2 的实际部署经验整理。 为什么需要服务器 + 反代 DSH 的 Web 界面（ dsh --profile web ）默认只监听 127.0.0.1:3080 ，而且出于安全考虑**禁止 --host 0.0.0.0 **（ CLI 直接报错：防止把远程代码执行能力暴露到公网）。所以正确姿势是：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234815#reply0
+
+---
+
+#### 8923. [V2EX] 装 DSH 插件时发现疑似后门，于是我连夜手搓两个 Plugins ,欢迎大佬提提意见
+
+**问题描述 / Problem Description**:
+3 天，GitHub 上冒出了 5000+ 个带 DSH 标签的仓库 里面混着大量插件 已经不是人能浏览完的信息量了 但我最开始，并不是想做插件目录 我只是遇到了一个很小的问题 DSH 每开一个新会话，就像失忆了一次 这个项目明明用 Bun 它还是会先跑 npm 昨天踩过的坑 今天再踩一遍 所以我想找一个插件 让它记住，这个项目里什么命令成功过 什么命令一定会失败 安装前，我顺手翻了下源码 然后看见了一段很不对劲的逻辑 它会读本地凭据 会拿环境变量 还会把数据发到外部地址 文档里一个字都没写 它是不是故意留下的后门，还需要继续确认 但那一刻，我还是后背发凉 因为装插件，不只是“多一个功能” 等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234812#reply2
+
+---
+
+#### 8924. [V2EX] 想问问朋友们现在都是用的什么 Coding Agent？
+
+**问题描述 / Problem Description**:
+我目前一直都在使用 Claude Code ，虽然电脑上也安装了 Codex ，但是 Codex 一直没跑通，因为我都是本地 Ollama 提供的接口，每次跑的时候都会提示 metadata 的相关警告，虽然不影响使用，但总觉得不舒服。另外 Codex 还有什么沙箱模式，我也没去深究。相反使用 Claude Code 还挺便捷的，用 ccSwitch 配置好接口就行。 但是 Claude Code 貌似对大陆不太友好，听说还会启用水印？会让人感觉心里不舒服，加上最近出了很多新的 Coding Agent ，还包括国产的 Zcode 、Kimi Code ，亦或是 DeepSeek 的 Harn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234794#reply11
+
+---
+
+#### 8925. [V2EX] 下半年软考开始报名了，准备报高架，求分享备考经验
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234792#reply8
+
+---
+
+#### 8926. [V2EX] 关于我用量化模型做的全网基金筛选与组合策略的工具；收集各方意见后，上线 v1.1 版本！
+
+**问题描述 / Problem Description**:
+收集了各方的意见，v1.1 版本主要加入了相似基金推荐和基金对比功能，另外也做了无数项各类的优化 PS：由于使用了 sw 做了深度缓存，网站更新是异步的，老用户可能会访问到旧版本，多刷新几次就好了 以下附工具介绍： 大家是不是在买基金时，同类基金一搜就是一堆？ 短期收益排行榜每天变化，回撤、波动、持仓和长期表现却常常被淹没在信息里。面对这样的市场，客观的选购一款基金变得极为困难。 为此，我用无数心血打磨了一款基金投资的工具类网站，它想做的，是把基金筛选、组合配置和长期跟踪，整理成一套更简单、更透明、也更容易复核的研究工具。 主要功能如下： 智能组合 ：通过算法按不同风险偏好理解组合基金； 优质
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234778#reply0
+
+---
+
+#### 8927. [V2EX] 中文圈子搜索还是得要 Bing
+
+**问题描述 / Problem Description**:
+刚发布的 DeepSeek Harness ，在两个搜索引擎下的表现，DSH 算得上是中文互联网很火的词汇了 （谷歌 IP 未送中，为新加坡 IP ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234777#reply6
+
+---
+
+#### 8928. [V2EX] 跑跑卡丁车网页版
+
+**问题描述 / Problem Description**:
+这两天继续在写 d3d9 - webgpu proxy ，现在跑跑卡丁车也能在网页上跑了 https://retrogaming.dpdns.org/game.html?id=kartrider&v8ft=1 视频展示：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234766#reply25
+
+---
+
+#### 8929. [V2EX] 有什么办法把复印件和扫描件的内容提取出来吗？
+
+**问题描述 / Problem Description**:
+有哪家 ai 的 ocr 强大的吗？或者是哪个插件和库强大的？我想把扫描文件和复印文件，使用 ocr 把文件的内容提取出来，主流的 ai 我都试了下，我发现老是不理想。有更好的办法吗？提高精准度提取的方案。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234753#reply42
+
+---
+
+#### 8930. [V2EX] 如何无缝丝滑切换使用 Codex 和 DeepSeek
+
+**问题描述 / Problem Description**:
+Codex 不太够用了， 想用 deepseek 作为补充 最佳实践是怎么样的？ 求助🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234734#reply21
+
+---
+
+#### 8931. [V2EX] dsh + deepseek pro 前端能力感觉还行了，让他生成一个 macos 的前端页面
+
+**问题描述 / Problem Description**:
+https://drop-95290a61-5c4.cumbersome-message-157.workers.dev/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234724#reply14
+
+---
+
+#### 8932. [V2EX] 多步骤 MCP 的 token 损耗，可能主要来自每一步的模型重入
+
+**问题描述 / Problem Description**:
+很多 MCP 演示只有一次工具调用；真实任务更像：创建项目 → 读取项目 ID → 导入素材 → 把 clip ID 交给下一步 → 导出 → 交付。 普通 agent 每完成一步，都要把结果带回模型，再让模型把 ID 填进下一次调用。Tura 的 command_run Macro 想解决的是这段“交接”：一次描述依赖图，前一步成功产生的变量给后一步在运行时解析；没有依赖的命令可以一起执行。 公开的电商广告工作流里，两边都通过同样 5 项检查、交付相同结果。Tura Direct 用 3 次模型请求，对照为 11 次；总 token 是 56,372 对 262,915 （少 78.6%）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234701#reply4
+
+---
+
+#### 8933. [V2EX] AI 开发，框架的作用大还是模型的作用大
+
+**问题描述 / Problem Description**:
+自身 还比较原始，半古法半 AI 1 先让 AI 写框架 2 写需要的工具类 3 挨个补全各个模块 4 补测试用例 这里面有不对的就让 AI 重新梭哈该步骤 现状 AI 开发框架更新的越来越复杂 隔段时间，就能看到有人发新的 AI 开发工作流，动辄 2~3 个模型，越来越复杂的约束文件 疑惑 如果框架起到关键作用，那随着框架的更迭，可以适配的模型等级应该越来越低 但实际看到的是对模型要求越来越高，低于最新模型 2-3 个版本的老模型，快要被开除 AI 籍了 所以 AI 开发框架到底能占多少比重，是有底层支持的有效框架，还是一个不断打补丁的优化包 总结 当前这套古法 AI 工作流还算稳定，当然没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234699#reply10
+
+---
+
+#### 8934. [V2EX] 跟着 DeepSeek 学习驾驭 AI 开发
+
+**问题描述 / Problem Description**:
+https://github.com/CY-Christin/learn-ai-dev-from-deepseek 让 Fable5 看了一下 dsh 的完整 commit 记录，跟着 DeepSeek 学习一下如何驾驭 AI 开发而不会散架的。dsh 可能是 目前公开可考的、规模最大的 AI 驱动开发实践样本 。 而且里面有个很有意思的东西 We are DeepSeek — do not ration real-API tests. 直译就是，我们是 DeepSeek——别省真实 API 测试。 有钱真的可以为所欲为.jpg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234695#reply3
+
+---
+
+#### 8935. [V2EX] [讨论] 各种 agent 的联网搜索都是怎么实现的？
+
+**问题描述 / Problem Description**:
+肯定不是浏览器 cdp 。 如果是类似于爬虫，会被拦截吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234682#reply9
+
+---
+
+#### 8936. Security updates from Unstable on Testing
+
+**问题描述 / Problem Description**:
+Tags: debian, security | Score: 1 | Views: 61 | Answers: 1 | Created: 2026-08-15
+
+**解决方案 / Solution**:
+The recommended way to do this is to set your system up as follows: make sure the default release is testing: APT::Default-Release "testing"; in an apt configuration file add unstable to your repository configuration pin unstable to a low value, so unstable versions are never chosen by default over testing versions: Package: * Pin: release a=unstable Pin-Priority: 50 periodically run debsecan , looking for vulnerabilities with fixes in unstable: debsecan --suite=sid --only-fixed upgrade the packages found by debsecan to the versions available in unstable. The debian-hybrid repository provides a set of scripts to help set this up. I’ve reviewed the repository in its current state and it is safe to use with the following caveat: it will overwrite your /etc/apt/sources.list with its own. The sources.list file in the repository configures sources for testing, testing-security, and unstable; if your own sources.list includes anything else, make sure to copy it somewhere else first. You may also need to fix your setup after installation if you’ve configured any of the Debian repositories using the new “Deb822” sources format. You may want to back up /etc/apt before installation (in addition to your regular backups, hopefully), or better yet, install etckeeper so that changes to /etc are tracked. Once the contents of the repository have been installed (following the instructions in README.md ), debsecan will run every time apt update runs, and configure pin priorities so that you get fixed packages from unstable. The behaviour can be controlled with enable-unstable-updates.sh and disable-unstable-updates.sh , to respectively enable updates from unstable and disable them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807041/security-updates-from-unstable-on-testing
+
+---
+
+#### 8937. How to conditionally avoid Gtkmm 4?
+
+**问题描述 / Problem Description**:
+Tags: linux, gtk, c++ | Score: 0 | Views: 47 | Answers: 1 | Created: 2026-08-15
+
+**解决方案 / Solution**:
+The RefPerSys website is a fair bit cryptic on what a UI to it should actually do. It's generally non-sensibly oscillating between extremely "high-level" goals like "artificial general intelligence" and extremely nitty-gritty implementation details that nobody should even wonder about in the 2020s, like "UTF-8 encoded strings". So I'm having a hard time actually reviewing the website for any quantifiable design approach; the linked refpersys-design.pdf is anything but a design document; it does the same, but even less focused on what it's currently describing. You say it's an "inference engine", but to me the whole design document suggests instead it's an unspecific multithreaded actor model runtime with a loose data model and no specific in- and output, not an inference platform. Anyways, that's besides the point; I think if the project wants to onboard developers, it needs to try and do better about describing what it actually wants to do, for whom, for what purpose. And then it needs to shunt out the type documentation to a small generated part in the API documentation, not to the front page. I can hence only take guesses, after trying for 30 minutes straight reading of homepage and the design document, to identify what it currently is, what it tries to become, and what someone years ago decided it should do (a lot of which I can only react to with "no, that's a stupid design idea; don't do that"). All I know for sure now is that it's a "risky research project" which "iteratively identifies goals", "it should become a quine", "metaprogramming is important", and so on. Things that don't matter to its user: it seems to be about the process of developing it, not about using it; which is fine! But: to my best understanding it's only serving the needs of its own authors and hence doesn't actually need any GUI adaptivity . It needs only the UI its authors use, because nobody but the authors would be interested in it, since it can't bring itself to state any functionality it wants to enable. But to me all this seems that you should simply write it as a library with a clean API, to be used from a GUI (especially: an IDE). Do not intermingle GUI code with the "interesting parts". The more you mix these things, the less useful and reusable your code becomes. So, instead of thinking about using gtkmm from RefPerSys, do the opposite: make RefPerSys easy to use from any UI-aiming environment. There seems to be a "RefPerSys process": in any UI paradigm, that's the first that needs to die; you need a lifetime-controlling event loop defined by your UI toolkit. So, first thing: RefPerSys needs to become a library itself. Your question reads as if RefPerSys is somehow mixing the (non-graphical) user interface with the internal logic already, and no matter what you do with gtkmm, you first need to revert that entanglement. Your system's full "logical" functionality needs to be in a library, and your command line, TUI and GUI interfaces need to interact with that. Only then will you be able to even add a GUI to this without running into problems all the time. Having read the ideas on the website you linked to: The project should altogether drop the idea of developing your own IDE. People don't want to learn yet another IDE that's invariably worse for them than their already existing favority IDE. Full stop. You're not going to help anyone with that. People want to get a plugin for their (neo)vim, emacs, VS Code or Eclipse, or maybe IntelliJ/JetBrains IDE, depending on hte field they're operating in. None of what you describe even remotely suggests you need an IDE of your own. So don't write one, but instead just make your system (whatever it does) available as a library, and write a thin plugin for your own favorite IDE (which might be emacs?). GNU emacs 32 is able (on Linux) to conditionally use GTK, that is to avoid using GTK (and XOpenDisplay) with its -nw program option. emacs simply builds different binaries for the different graphical backends (no window, pgtk, …). This is the opposite of "conditional usage". It's hard, compiled-in or not, functionality, with thousands of lines of code replication and the worst-maintained parts of the emcas tree, I'm afraid. So, emacs is a rather hm, bad example for what you want to achieve, because GNU emacs (and derivates) has literally more than 40 years of baggage , and hence a lot of code duplication, and simply code that gets "removed" via configuration and preprocessor statements. I tried working on emacs graphical code a bit, and let me tell you: no fun. This is not a route you want to take.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807042/how-to-conditionally-avoid-gtkmm-4
 
 ---

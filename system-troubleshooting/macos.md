@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8565**
+**总计条目 / Total entries: 8607**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -115645,5 +115645,551 @@ I updated my Mac to the latest beta version of Golden Gate (Public Beta 4), and 
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486898/how-to-make-localsend-transfer-files-from-mac-to-android-devices
+
+---
+
+#### 8566. Excuse me Apple what is this.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq321l/excuse_me_apple_what_is_this/
+
+---
+
+#### 8567. Been experimenting with making macOS wallpapers respond to sound
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpuiae/been_experimenting_with_making_macos_wallpapers/
+
+---
+
+#### 8568. Homescreen MenuBar apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpv9k1/homescreen_menubar_apps/
+
+---
+
+#### 8569. MacOS takes up huge amount of storage space while system data is fairly low, what to do?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpqgky/macos_takes_up_huge_amount_of_storage_space_while/
+
+---
+
+#### 8570. Selecting files in photo app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq7eur/selecting_files_in_photo_app/
+
+---
+
+#### 8571. the Dye era cast such a huge blight on apple design
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vps80n/the_dye_era_cast_such_a_huge_blight_on_apple/
+
+---
+
+#### 8572. APFS volume corrupted and won't mount — 175 GB of data still detected
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq6ct4/apfs_volume_corrupted_and_wont_mount_175_gb_of/
+
+---
+
+#### 8573. MediaMate now supports MacOS 27 Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq9xem/mediamate_now_supports_macos_27_golden_gate/
+
+---
+
+#### 8574. Info about migration assistant
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq7gpa/info_about_migration_assistant/
+
+---
+
+#### 8575. Discord Keeps Asking for TouchID/Password while updating?? NEED HELP
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq66l4/discord_keeps_asking_for_touchidpassword_while/
+
+---
+
+#### 8576. My first MacBook — what should I do first?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq4z57/my_first_macbook_what_should_i_do_first/
+
+---
+
+#### 8577. Aerial for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq1x3b/aerial_for_macos/
+
+---
+
+#### 8578. How to tile windows like this [Aerospace]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpvyye/how_to_tile_windows_like_this_aerospace/
+
+---
+
+#### 8579. One-click to copy all browsers tabs as a list of URLs?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpv4mx/oneclick_to_copy_all_browsers_tabs_as_a_list_of/
+
+---
+
+#### 8580. Razer Viper V4 Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpr8z9/razer_viper_v4_pro/
+
+---
+
+#### 8581. Stay on Sequoia/ upgrade to Tahoe/ wait for Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq7rei/stay_on_sequoia_upgrade_to_tahoe_wait_for_golden/
+
+---
+
+#### 8582. I think a unique predicament
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpvdiy/i_think_a_unique_predicament/
+
+---
+
+#### 8583. macOS Tahoe vs Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vptuco/macos_tahoe_vs_sequoia/
+
+---
+
+#### 8584. Im so done... I've tried everything
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vq8tgh/im_so_done_ive_tried_everything/
+
+---
+
+#### 8585. Fake GoogleUpdater login item?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpwmj6/fake_googleupdater_login_item/
+
+---
+
+#### 8586. What's the philosophy behind showing apps that aren't closed but without windows in the app switcher? (Cmd + Tab)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vpvw3i/whats_the_philosophy_behind_showing_apps_that/
+
+---
+
+#### 8587. [V2EX] 有沒有辦法安裝舊版本的 MONOKAKIDO Dictionaries？
+
+**问题描述 / Problem Description**:
+裝了一個同名的 Dictionaries 軟件，移到 Application 文件夾後物書堂的 Dictionaries 被替換了，Time Machine 沒備份，App Store 裡新的 Dictionaries 界面難看到沒辦法用。系統是 macOS Ventura ，軟件是 2023 還是 2024 就沒更新過了，不知道版本號。有啥辦法能裝回老版本的物書堂 Dictionaries 嗎？謝謝。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234715#reply1
+
+---
+
+#### 8588. [V2EX] UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？
+
+**问题描述 / Problem Description**:
+mac 远程 mac ，VNC 可以 ⌘+Q 关闭远程桌面上的 App ，到 UU 这里每次 ⌘+Q 都是把 UU 远程自己关掉，真绷不住了。 问了 AI 可以在系统设置 → 键盘 → 键盘快捷键 → App 快捷键，把关闭 App 的快捷键从 ⌘+Q 改成别的快捷键。 改完快捷键 ⌘+Q 就没任何反应了，不会关闭 UU ，远程桌面也不会关闭 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234271#reply8
+
+---
+
+#### 8589. [V2EX] iPhone 18 Pro 想买首发 想买非国行版本 有什么渠道吗？
+
+**问题描述 / Problem Description**:
+就算是香港 肉身跑一趟的车票价格都还挺贵的 暂时没有去旅游的打算 所以不考虑顺路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234749#reply22
+
+---
+
+#### 8590. [V2EX] 后台关闭程序和自动刷新
+
+**问题描述 / Problem Description**:
+你们平时会手动关闭后台 app 吗？换机转移数据时最好关，不然传数据慢，但日常开关区别大不大呢？ 自动刷新是开还是关？开关感觉使用 app 上似乎没区别.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234636#reply6
+
+---
+
+#### 8591. [V2EX] WLOC 改定位「好像」在 iOS27 beta5 失效了
+
+**问题描述 / Problem Description**:
+之前版本成功，现在同样的步骤无效，定位依然是真实位置。 目前网络上的教程都是几周之前的，如有新的有效教程，欢迎回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234568#reply9
+
+---
+
+#### 8592. [V2EX] 升级 ios26.6 掉电池健康度
+
+**问题描述 / Problem Description**:
+升级到 ios26.6 降电池健康度了。之前 ios26.5.1 还是 100% （忘记截图了） 上周升级完发现少了 2%看着难受死了。不知道是显示问题还是真的掉了 你们升级完掉了吗？ https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814141106-10-278.SXjPpj https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814140855-9-278.SXjKPq
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234375#reply13
+
+---
+
+#### 8593. [V2EX] claude 网页大家可以正常打开吗 9 月 17 号 5:53
+
+**问题描述 / Problem Description**:
+我的好像都挂了，不知道是 claude 的问题还是我账号的问题 你们的正常吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234836#reply3
+
+---
+
+#### 8594. [V2EX] 分享一下自己写的奇幻小说 筑梦细雨
+
+**问题描述 / Problem Description**:
+奇幻风格, 其中有各种刻板印象, 包括但不限于南特位于巴黎北部, 克苏鲁神话, 请神上身, 赌博等 大约写了 1/3, 但是因为跨度有些长了, 有些设定记不太清楚可能前后矛盾. 存在 ai 润色(仅修复标点或语病, 未参与剧情正文) https://www.icey.one/notes/%E7%AD%91%E6%A2%A6%E7%BB%86%E9%9B%A8-20260815.pdf
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234831#reply1
+
+---
+
+#### 8595. [V2EX] 990 刀买一年 grok heavy+cursor Ultra+x premium+
+
+**问题描述 / Problem Description**:
+先去 https://grok.com/supergrok/targeted-offer/email-supergrok-50-off-2mo 买一个月 supergrok 一个月 $15.00 然后马上访问 https://grok.com/supergrok/targeted-offer/email-supergrok-67-off-3mo 就有三个月的 99 刀 heavy 了，下单扣款 $83.98 然后 https://grok.com/?_s=billing 切换到年付，再补$891.02 可以买一年，然后再去 https://cursor.com/dashboard/member
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234820#reply7
+
+---
+
+#### 8596. [V2EX] 昆虫爱好者的福音
+
+**问题描述 / Problem Description**:
+发现一个神仙作品：可交互的 3D 昆虫图鉴 🐞 63 种昆虫，14 个目，全部由代码实时生成——仓库里一个模型文件都没有。旋转、缩放、点标注，就能看清每只虫的身体构造、生活史和生态角色。 本体： https://github.com/xr843/insect-world 🔗 https://insect-world.pages.dev
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234816#reply1
+
+---
+
+#### 8597. [V2EX] 黑洞测试效果 deepseek v4 pro + max 推理强度
+
+**问题描述 / Problem Description**:
+提示词: ==== 你是一名资深 Three.js/WebGL/GLSL 图形工程师,兼具广义相对论数值模拟背景。请从零制作全屏交互网站「 GARGANTUA-KN — Kerr–Newman Black Hole Raytracer 」,使用原生 HTML/CSS/JavaScript 、ES Modules 与本地 Three.js,实现无需构建、可由静态服务器运行的完整项目。 [物理核心 — 禁止伪造] - 主体必须由全屏 Fragment Shader 在 Kerr–Newman 时空(Boyer–Lindquist 坐标,度规参数 M 、自旋 a 、电荷 Q)中实时积分零测地线;优先
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234793#reply0
+
+---
+
+#### 8598. [V2EX] DSH (DeepSeek Harness) 插件已经 3000+ 了，分享一个可搜索的插件导航
+
+**问题描述 / Problem Description**:
+背景 DeepSeek Harness （ dsh ） 8 月 13 日 发布 3 天后，社区插件增长得非常快。 DSH 本身既是可以直接使用的 Coding Agent （支持 Web 和 headless ），底层也是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI ，甚至 Agent Loop 都可以由插件扩展或替换。 DSH Plugin 目录 dsh-plugin 是一个社区维护的 DSH 插件精选列表。 截至 8 月 16 日，列表已经收录 3000+ 个插件 ，分为官方插件的 9 个分类： Model （ 173 ） Tools （ 1087 ） Skills （ 28
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234767#reply0
+
+---
+
+#### 8599. [V2EX] 鹈鹕测试效果 deepseek v4 pro + max 推理强度
+
+**问题描述 / Problem Description**:
+凑凑热闹，我也来玩一下，欢迎大佬们一起交流交流 提示词: 创建一个 HTML ，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画，放到当前目录，你不需要任何测试 模型信息: deepseek v4 pro 推理强度: max agent 工具: dsh 0.1.0-rc.6 + 极简插件 费用消耗： 生成效果: 网页本身是无声的，让 deepseek 生成 mp4 时，它自己配上了音乐。 https://i.imgur.com/OM5L3mY.mp4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234765#reply2
+
+---
+
+#### 8600. [V2EX] 吐槽一下 DeepSeek
+
+**问题描述 / Problem Description**:
+https://github.com/deepseek-ai/deepseek-harness/commit/86d5dd438437fbc7b5b1e57d97ccc03d8fbd3eb4 一直是 DeepSeek 的自来水， 从 2.5 时代就一直在网上安利 这一波的操作让我有些失望，一盘没做好的菜就端上桌了 没有在官网有任何说明， 倒是自己的 agent 产品”偷偷“对齐了一波 这不纯纯为难做产品的打工人吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234688#reply12
+
+---
+
+#### 8601. [V2EX] 有一个 lao1.me 社区突然爆火，你怎么看？
+
+**问题描述 / Problem Description**:
+rm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234653#reply2
+
+---
+
+#### 8602. [V2EX] 追觅大家电解散
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234645#reply7
+
+---
+
+#### 8603. [V2EX] 关于 AI 的一点感想
+
+**问题描述 / Problem Description**:
+几年前，我曾参加阿里的实习招聘在线笔试（算法题），其中一道题目，我猜到是用动态规划，但死活写不出递推式。交卷前，我用手机拍下了题目（没作弊，拍完就交卷了，当时只是想留到以后思考，不然题目太长记不住）。 几年后的现在，我在照片库里偶然间发现了这张照片，思考了一下仍然没有思路，然后把这张图丢给 GPT ，让它给出解答，结果不到一分钟它就做出来了。注意，这题在网上搜不到（ GPT 自己说的），因此解答是 GPT 靠自身推理出来的。它不仅给出了标准解答（用的动态规划，时间复杂度 O(n^2)），还作了进一步优化，把时间复杂度降到了 O(n)。标准解答我还能看懂，最优解答我真是看不来了（或者说这辈子想不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234623#reply1
+
+---
+
+#### 8604. [V2EX] 一章有意思的图，真有人找不到这么明显的东西吗？
+
+**问题描述 / Problem Description**:
+请找出这张图中正方形图片中绿色的六边形 说真的按理说这个应该一眼就能看出来了，但是我问了几个我的同事，都说没看出来，还有个人花了一两分钟仔仔细细看了一遍，说没找出来，我还问了问其他朋友 真的不能一眼看出来吗？ 结果两极分化: 看得出来的人一眼就能看出来，还以为我在侮辱他的智商 看不出来的人要找半天，最后都找不出来什么意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234534#reply38
+
+---
+
+#### 8605. [V2EX] 整理了一份 DeepSeek Harness (dsh) 插件精选列表，目前收录 270 个插件
+
+**问题描述 / Problem Description**:
+背景 DeepSeek Harness （ dsh ）是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent （ Web / headless 两种形态），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI 、乃至 Agent Loop 本身都是插件。 插件既能扩展官方 Coding Agent ，也能替换核心部件，甚至组装出完全不同的东西。 这个列表是什么 awesome-dsh-plugin 是社区维护的插件精选列表，收录的都是可通过 dsh plugin add 安装的插件（均声明了 dsh.bundle manifest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234499#reply1
+
+---
+
+#### 8606. [V2EX] 抖音上刷到的一个关于男女对立的有意思的视频
+
+**问题描述 / Problem Description**:
+视频内容大概讲的是，要是一个女的是大户人家的小姐亦或是什么公主，那么嫁给下人，叫下嫁，叫吃苦，但是一个普通人家的女生，嫁给同样是普通人家的男生，这叫门当户对，不存在下嫁和陪吃苦的情况。 要是以前我估计就划走了，但是这两年，我老婆已经对我表达出这种意思了，原话是，怎么嫁给我这个穷逼，跟我过的什么苦日子😂。 原本，我小时候衣食无忧，游戏机、玩具、电脑，想买啥就买啥，她小时候连学费都交不起，每次都要被老师催，还要去后面罚站，结果跟我在一起之后，却变成了跟我吃苦，今天有点钻牛角尖，也可能是有点难以忍受了吧，这事情让我整个下午一直耿耿于怀。 刚开始她不是这样的人，最初我们刚结婚的时候，就是开着一辆不到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234464#reply4
+
+---
+
+#### 8607. [V2EX] 小米 17 把这次西班牙日食 P 成了月食
+
+**问题描述 / Problem Description**:
+https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil 法语网页，开自动翻译看 哈哈哈哈哈哈哈大乐子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234445#reply5
 
 ---

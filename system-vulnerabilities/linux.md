@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2845**
+**总计条目 / Total entries: 2846**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -51727,5 +51727,72 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2515612
+
+---
+
+#### 2846. CVE-2026-72193
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ntfs3: cap RESTART_TABLE free-chain walker at rt->used
+
+A crafted NTFS3 disk image triggers an in-kernel infinite loop at
+mount time, hanging the mounting thread and firing the soft-lockup
+watchdog within ~22s on multi-CPU hosts (panic with
+kernel.softlockup_panic=1).  The bug is reachable from desktop USB
+auto-mount on distributions where udisks2 routes the NTFS signature
+to the in-tree ntfs3 driver (Arch family and an increasing fraction
+of Fedora / openSUSE / RHEL deployments); CAP_SYS_ADMIN-class manual
+mount elsewhere.
+
+check_rstbl()'s second walker iterates the free-entry singly-linked
+list headed by rt->first_free with no upper bound on iteration count:
+
+  for (off = ff; off;) {
+      if (off == RESTART_ENTRY_ALLOCATED)
+          return false;
+      off = le32_to_cpu(*(__le32 *)Add2Ptr(rt, off));
+      if (off > ts - sizeof(__le32))
+          return false;
+  }
+
+The existing guards cover three exits: end-of-list (off == 0), the
+in-use marker (off == RESTART_ENTRY_ALLOCATED), and out-of-bounds
+(off > ts - sizeof(__le32)).  None of the three prevents an
+in-bounds cycle.
+
+A crafted on-disk RESTART_TABLE whose free chain contains a
+self-loop or A->B->A cycle whose offsets satisfy:
+
+  - in range [sizeof(struct RESTART_TABLE), ts - sizeof(__le32)]
+  - (off - sizeof(struct RESTART_TABLE)) % rsize == 0
+
+passes all existing guards and spins the mount-time thread forever.
+Reproduced in UML by hand-forging a 2 MB NTFS3 image whose journal
+RESTART_TABLE first_free = 0x18 and whose entry at offset 0x18
+stores 0x18 as its next pointer; mount of the forged image with
+the in-tree ntfs3 driver never returns.
+
+Bound the walker by rt->used.  Each entry on a legitimate free
+chain is unique, and the total slot count is ne = le16_to_cpu
+(rt->used).  A traversal that visits more than ne slots is by
+construction malformed; reject it as a corrupt RESTART_TABLE.
+
+After this patch, mount of the forged image returns with -EINVAL
+and a log_replay failure message, and mkntfs-produced legitimate
+images mount cleanly (verified in the same UML harness).
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0fad25687d4d3fa1fdd313d31b9cb5817c425029.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0fad25687d4d3fa1fdd313d31b9cb5817c425029
+- https://git.kernel.org/stable/c/29b86dbe88cbbef53bb9aaec2e279359f8c450f8
+- https://git.kernel.org/stable/c/7972df425687daa70d971fe6ed415e78683133dd
+- https://git.kernel.org/stable/c/7ac4c86915c24c208a0f0611b71d9676686fe756
+- https://git.kernel.org/stable/c/8128bec895075253c779d67afdc90ae513265fca
 
 ---

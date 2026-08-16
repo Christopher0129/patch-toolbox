@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9614**
+**总计条目 / Total entries: 9658**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -130903,5 +130903,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234473#reply6
+
+---
+
+#### 9615. Intern Deleted Company Azure Resource Group
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vph29y/intern_deleted_company_azure_resource_group/
+
+---
+
+#### 9616. Wasser auf PC geschüttet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq94yn/wasser_auf_pc_geschüttet/
+
+---
+
+#### 9617. BIOS Won’t pop up.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq27yq/bios_wont_pop_up/
+
+---
+
+#### 9618. random PC shutdowns
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq7j3v/random_pc_shutdowns/
+
+---
+
+#### 9619. Issues about converting MBR to GPT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq73my/issues_about_converting_mbr_to_gpt/
+
+---
+
+#### 9620. Keyboard problems.(Lenovo model number loq 15arp9)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq5vm3/keyboard_problemslenovo_model_number_loq_15arp9/
+
+---
+
+#### 9621. Satisfactory and other Unreal Engine games crashing on Ultra settings with EXCEPTION_ACCESS_VIOLATION
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq5rl0/satisfactory_and_other_unreal_engine_games/
+
+---
+
+#### 9622. A random Chromium app opened after pc launch with pages named in weird numbers despite not having Chrome installed on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq23i1/a_random_chromium_app_opened_after_pc_launch_with/
+
+---
+
+#### 9623. Windows 11 Clean Install - Dell Optiplex
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq53fx/windows_11_clean_install_dell_optiplex/
+
+---
+
+#### 9624. Need Help With Memory Management BSODs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq183a/need_help_with_memory_management_bsods/
+
+---
+
+#### 9625. Accessing data/data
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq9pah/accessing_datadata/
+
+---
+
+#### 9626. Colors seem messed up after laying hand on keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq9lsq/colors_seem_messed_up_after_laying_hand_on/
+
+---
+
+#### 9627. Wireless earphones don't work on pc but work anywhere else
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq9jl0/wireless_earphones_dont_work_on_pc_but_work/
+
+---
+
+#### 9628. My monitor won’t show up at all
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq97sk/my_monitor_wont_show_up_at_all/
+
+---
+
+#### 9629. win32kbase.sys BSOD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq90gf/win32kbasesys_bsod/
+
+---
+
+#### 9630. Drawing tablet screen not lighting up.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq8ffj/drawing_tablet_screen_not_lighting_up/
+
+---
+
+#### 9631. PHONE FLICKERING TURNED WHITE SCREEN
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq8ew2/phone_flickering_turned_white_screen/
+
+---
+
+#### 9632. Having Vsync turned and a FPS cap turned on makes performance on my PC feel worse. How can I trouble shoot why?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vpwyj7/having_vsync_turned_and_a_fps_cap_turned_on_makes/
+
+---
+
+#### 9633. Can't type "[" on my keyboard. Need help.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq87f5/cant_type_on_my_keyboard_need_help/
+
+---
+
+#### 9634. Windows 11 screenshots and recordings look blurry and washed out, while the actual game looks normal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq7xzf/windows_11_screenshots_and_recordings_look_blurry/
+
+---
+
+#### 9635. Lower End Laptop - CPU Usage Problems while watching streams in any browser
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq23k7/lower_end_laptop_cpu_usage_problems_while/
+
+---
+
+#### 9636. New ASUS TUF VG27AQL5A monitor shows “No Signal” when I power it off and on, and I have to restart my pc to get the signal back. I am using DisplayPort
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq7ton/new_asus_tuf_vg27aql5a_monitor_shows_no_signal/
+
+---
+
+#### 9637. My gpu rpm ain’t working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq7svy/my_gpu_rpm_aint_working/
+
+---
+
+#### 9638. Fuser dichen 505 problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vq7kmr/fuser_dichen_505_problem/
+
+---
+
+#### 9639. [V2EX] Gluestick - 比 Scoop 更快、更好用的包管理器
+
+**问题描述 / Problem Description**:
+社区有人总结的比较准确：Scoop 最适合管理 FOSS 开源免费软件。Gluestick ( https://gluestick.sh ) 的目标：更接近 Nix/Homebrew bundle 的 Windows 环境管理层。 主要特性 使用 Scoop bucket 与 manifest ，无需迁移现有软件库，extras 、versions 等 bucket 即装即用 零开销 shim 集成，命令行工具即装即用，无需手动改环境变量 多版本管理 / 版本切换 / 版本锁定与解锁 文件按 SHA-256 存入内容寻址存储，安装时 hardlink 链接，同版本重装瞬间完成 HTTP/2 多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234713#reply8
+
+---
+
+#### 9640. [V2EX] claude 网页大家可以正常打开吗 9 月 17 号 5:53
+
+**问题描述 / Problem Description**:
+我的好像都挂了，不知道是 claude 的问题还是我账号的问题 你们的正常吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234836#reply2
+
+---
+
+#### 9641. [V2EX] 有没有知道的小伙伴，美国号码 t-mobile 3 刀套餐的问题，在国内是开启了 wifi calling，收短信额外扣我 0.1 美刀，但我 3 美刀套餐里有 30 点额度可以用，然后一些 APP 好像收不到短信？有了解的不。。。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234834#reply0
+
+---
+
+#### 9642. [V2EX] 没想到我也遇到了楼上夜里的噪音
+
+**问题描述 / Problem Description**:
+首先谴责这垃圾高层楼板真薄啊，说话声音一清二楚 楼上是租出去了，住的应该是年轻人，从十点开始拖拉椅子、关门、讲话、冲马桶、各种奇怪噪音就一直不停歇， 上次凌晨两点多把我吵醒，昨天凌晨几点钟当当当把我敲醒， 联系了两次物业，物业通知了业主，现在还是这样噪音很大， 目前我还没联系楼上业主和租客， 不知道接下来怎么办了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234821#reply4
+
+---
+
+#### 9643. [V2EX] 和多号暂停放号了， V 友们现在有什么做平替
+
+**问题描述 / Problem Description**:
+你们的城市和多号还有号吗，还有没有类似的虚拟号码可以申请啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234819#reply2
+
+---
+
+#### 9644. [V2EX] 有没有家庭语音 AI 助手
+
+**问题描述 / Problem Description**:
+懒得自己写了，问下大家有没有满足如下功能的现成能用的产品 差不多类似于把小爱同学加入 codex ，或者类似于贾维斯 语音转文字 文字输入给 AI AI 返回结果并播放出来 在同一个上下文多次对话 长期记忆持久化且可恢复历史对话 AI 模型可配置 可部署在本地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234809#reply2
+
+---
+
+#### 9645. [V2EX] Claude 是不是相比于别的 ai 更加合规一点，让它拉取一个自动化签到的库都不肯干
+
+**问题描述 / Problem Description**:
+我之前都是用的 Gemini ，刚开始用 Claude 就感觉它有点过度敏感了，还是说需要哪里设置解除一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234787#reply3
+
+---
+
+#### 9646. [V2EX] 目前还有哪些模型没有道德审查？或者约束比较宽松的？
+
+**问题描述 / Problem Description**:
+谢谢，国产的或者国外的都行。 还有就是，本地部署的话，没有道德审查的模型，推荐哪个？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234779#reply2
+
+---
+
+#### 9647. [V2EX] 请教安卓有没有适配蓝牙键盘输入的输入法
+
+**问题描述 / Problem Description**:
+我有非常多的移动办公写文字的场景，除了平时远程连接家里电脑，有时候还会直接用手机写一些文字。但是连接键盘的时候打字体验就很差，现在很多新出的语音输入法本身都不支持不兼容键盘输入操作，我一开始以为这个体验是跟随安卓系统的，结果发现其实是跟随输入法。 目前试了一下主流的主打语音输入的输入法，例如微信输入法、豆包输入法、千问输入法，对蓝牙键盘适配都很差甚至没有做兼容 然后目前唯一稍微可以用的，只有百度输入法。但是也是有各种大大小小的 bug 。 所以想看大家有没有好的输入法推荐。 或者大家在移动办公场景，特别是需要用手机处理文字工作的时候，有没有什么技巧可以分享看看，谢谢🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234771#reply1
+
+---
+
+#### 9648. [V2EX] SuperGrok Heavy 值得入手吗？ Codex 还有 2 天到期～ 想换 老铁们说说体验～
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234769#reply10
+
+---
+
+#### 9649. [V2EX] 2026 年 8 月， 65 寸电视综合水平和性价比来看有推荐的吗？
+
+**问题描述 / Problem Description**:
+家里老人要换台电视，价格 3500 以内吧， 老人看电视时间比年轻人比较多点，但要求没有那么高， 我太久没有关注电视，不知道怎么选了，有最近买电视给点建议吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234768#reply14
+
+---
+
+#### 9650. [V2EX] 搜狐新闻有那么好？
+
+**问题描述 / Problem Description**:
+我本来以为已经半死不活的了， 刚才应用卡商店看到搜狐新闻竟然排到 第一是今日头条，这个可以理解。 网易新闻还在搜狐新闻的后面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234762#reply11
+
+---
+
+#### 9651. [V2EX] claude 被封了 3 个号了
+
+**问题描述 / Problem Description**:
+目前用下来还是 Claude 中肯些， 但一直被封号，无解了。 gpt 回复有些水
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234761#reply0
+
+---
+
+#### 9652. [V2EX] Dota2 快速模式有哪些强势英雄组合
+
+**问题描述 / Problem Description**:
+好几年不玩了，现在找到了几个朋友周末组个三人局，只能打打快速模式了， 请各位刀斯林推荐快速模式的无脑强势英雄。 谢谢大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234742#reply5
+
+---
+
+#### 9653. [V2EX] 2026 剃须刀求推荐
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234735#reply46
+
+---
+
+#### 9654. [V2EX] chatgpt 的 github plugin sync 不好用了，怎么回事
+
+**问题描述 / Problem Description**:
+前天还可以在 chatgpt 的 github plugin 中 sync repository ，重装 plugin 之后 sync 的选项没了，是功能取消了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234733#reply0
+
+---
+
+#### 9655. [V2EX] 做了个免费的文字转手写网站，但 Chrome 下画布白屏， Edge 正常，求帮忙测试
+
+**问题描述 / Problem Description**:
+我做了一个纯客户端的小免费工具，能把文字渲染成逼真的手写体图片。在 Edge 上工作正常，但在 Chrome 中，画布有时会在渲染或下载图片时完全变白，只能刷新页面。 我已经卡在这个问题上好一阵子了，很想听听大家的调试思路或建议。有没有人遇到过类似的 Canvas 2D 在 Chrome 中的问题？ 网站是： https://ai-handwriting.com （无需注册。输入文本量大时候似乎容易触发 bug 。） 任何思路、诊断方法甚至大胆猜测都非常有帮助，提前感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234721#reply0
+
+---
+
+#### 9656. [V2EX] 移动手机号预销户恢复的话，有办法异地办理吗
+
+**问题描述 / Problem Description**:
+楼主最近才发现之前上学时候办的校园卡因为欠费进入预销户状态了，但是还有账号绑定着这个手机号，问了移动客服，说是如果要恢复，在 90 天内要去归属地才能恢复。 话说有什么办法可以异地恢复吗？不太理解为什么到现在了这种事情还一定要到归属地才能办。 各位老哥这种情况吗？可以申请线上，或者至少是同省异地的线下办理吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234703#reply2
+
+---
+
+#### 9657. [V2EX] 如何批量高精度识别图片内容
+
+**问题描述 / Problem Description**:
+如何批量高精度识别图片内容？ 最好可以本地部署模型支持，如果有在线的形式也可以接受。 大概 60 万张图片，报价 10w ，有搞头吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234673#reply5
+
+---
+
+#### 9658. [V2EX] 剪映得配音 有对应得开放接口吗 我看了火山得也没有呀
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234655#reply2
 
 ---
