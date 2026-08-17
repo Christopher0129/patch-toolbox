@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 931**
+**总计条目 / Total entries: 942**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13664,5 +13664,137 @@ Freed by task 454 on cpu 2 at 285.217112s:
 - https://git.kernel.org/stable/c/b1a719b3c4359ef731646fb7c7844e53dddbda72
 - https://git.kernel.org/stable/c/dbd935a9e056545721bc4e9ce518c775d787b21e
 - https://git.kernel.org/stable/c/dfc8373893b1876bb367700eac9d776316dabd96
+
+---
+
+#### 932. [dos] NanaZip 6.5  -  DoS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] NanaZip 6.5 - DoS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52652
+
+---
+
+#### 933. [webapps] flyto_core 2.26.7 - Server-Side Request Forgery
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] flyto_core 2.26.7 - Server-Side Request Forgery
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52651
+
+---
+
+#### 934. [webapps] Probo 0.222.2 -  IDOR
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Probo 0.222.2 - IDOR
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52650
+
+---
+
+#### 935. [webapps] webpack_devserver 5.2.5 -  CSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] webpack_devserver 5.2.5 - CSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52649
+
+---
+
+#### 936. [remote] phpSysInfo 3.4.5 - IP Allowlist Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] phpSysInfo 3.4.5 - IP Allowlist Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52648
+
+---
+
+#### 937. [dos] Nmap  7.99  - Extension Header Integer Underflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Nmap 7.99 - Extension Header Integer Underflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52647
+
+---
+
+#### 938. [webapps] Duplicati 2.2.0.3 - JWT Signing Key Leak
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Duplicati 2.2.0.3 - JWT Signing Key Leak
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52646
+
+---
+
+#### 939. [webapps] Joomla JCE_2.9.15 - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Joomla JCE_2.9.15 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52645
+
+---
+
+#### 940. [remote] ipTIME A3004T  - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ipTIME A3004T - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52644
+
+---
+
+#### 941. [remote] D-Link DNS_340L - OS Command Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] D-Link DNS_340L - OS Command Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52643
+
+---
+
+#### 942. [webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52642
 
 ---

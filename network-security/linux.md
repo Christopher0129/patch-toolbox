@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3149**
+**总计条目 / Total entries: 3172**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -46840,5 +46840,281 @@ Multiple vulnerabilities have been found in NTFS-3G, the worst of which could re
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-13
+
+---
+
+#### 3150. CVE-2026-15218 - models-as-a-service: Red Hat OpenShift AI: maas-api and maas-controller…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] models-as-a-service: Red Hat OpenShift AI: maas-api and maas-controller ServiceAccounts with excessive permissions lead to privilege escalation. Bugzilla: 2498426
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498426
+
+---
+
+#### 3151. CVE-2026-19970 - assimp: Assimp: Remote heap-based buffer overflow vulnerability
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Remote heap-based buffer overflow vulnerability. Bugzilla: 2517292
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517292
+
+---
+
+#### 3152. CVE-2026-19969 - assimp: Assimp: Buffer overflow in 3DGS MDL7 model processing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Buffer overflow in 3DGS MDL7 model processing. Bugzilla: 2517289
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517289
+
+---
+
+#### 3153. CVE-2026-19967 - assimp: Assimp: Heap-based buffer overflow in file decompression
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Heap-based buffer overflow in file decompression. Bugzilla: 2517288
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517288
+
+---
+
+#### 3154. CVE-2026-72428 - kernel: bpf: Fix stack slot index in nospec checks
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Fix stack slot index in nospec checks. Bugzilla: 2516226
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516226
+
+---
+
+#### 3155. CVE-2026-72245 - kernel: gpu: host1x: Fix device reference leak in host1x_device_parse_dt() error…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: gpu: host1x: Fix device reference leak in host1x_device_parse_dt() error path. Bugzilla: 2516227
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516227
+
+---
+
+#### 3156. CVE-2026-72403 - kernel: ALSA: FCP: Fix NULL pointer dereference in interface lookup
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ALSA: FCP: Fix NULL pointer dereference in interface lookup. Bugzilla: 2516228
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516228
+
+---
+
+#### 3157. CVE-2026-72190 - kernel: ntfs: fix mrec_lock ABBA deadlock in rename
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ntfs: fix mrec_lock ABBA deadlock in rename. Bugzilla: 2516229
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516229
+
+---
+
+#### 3158. CVE-2026-72292 - kernel: KVM: s390: Initialize KVM_S390_GET_CMMA_BITS memory
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: s390: Initialize KVM_S390_GET_CMMA_BITS memory. Bugzilla: 2516230
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516230
+
+---
+
+#### 3159. CVE-2026-72454 - kernel: i3c: mipi-i3c-hci: Fix race in i3c_hci_addr_to_dev()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: i3c: mipi-i3c-hci: Fix race in i3c_hci_addr_to_dev(). Bugzilla: 2516231
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516231
+
+---
+
+#### 3160. CVE-2026-72025 - kernel: s390/monwriter: Reject buffer reuse with different data length
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/monwriter: Reject buffer reuse with different data length. Bugzilla: 2516232
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516232
+
+---
+
+#### 3161. CVE-2026-72310 - kernel: smb: client: fix overflow in passthrough ioctl bounds check
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: smb: client: fix overflow in passthrough ioctl bounds check. Bugzilla: 2516233
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516233
+
+---
+
+#### 3162. CVE-2026-72396 - kernel: hwmon: adm1275: Prevent reading uninitialized stack
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: hwmon: adm1275: Prevent reading uninitialized stack. Bugzilla: 2516234
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516234
+
+---
+
+#### 3163. CVE-2026-72042 - kernel: ipmi: Fix user refcount underflow in event delivery
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipmi: Fix user refcount underflow in event delivery. Bugzilla: 2516235
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516235
+
+---
+
+#### 3164. CVE-2026-72305 - kernel: VDUSE: avoid leaking information to userspace
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: VDUSE: avoid leaking information to userspace. Bugzilla: 2516236
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516236
+
+---
+
+#### 3165. CVE-2026-63650 - openvpn: mbedtls: OpenVPN: User misidentification via ignored X.509 identity field
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: mbedtls: OpenVPN: User misidentification via ignored X.509 identity field. Bugzilla: 2516214
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516214
+
+---
+
+#### 3166. CVE-2026-63649 - openvpn: OpenVPN: Privilege escalation via arbitrary configuration file loading
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Privilege escalation via arbitrary configuration file loading. Bugzilla: 2516213
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516213
+
+---
+
+#### 3167. [Ubuntu] USN-8640-1: Engrampa vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Engrampa incorrectly handled symbolic links when extracting certain archives. An attacker could possibly use this issue to write arbitrary files and execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8640-1
+
+---
+
+#### 3168. [Ubuntu] USN-8631-4: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8631-4
+
+---
+
+#### 3169. [Ubuntu] USN-8629-2: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-2026-46331, CVE-2026-52924, CVE-20
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8629-2
+
+---
+
+#### 3170. [Gentoo] GLSA 202608-16: nginx: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in nginx, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-16
+
+---
+
+#### 3171. [Gentoo] GLSA 202608-15: PostgreSQL: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in PostgreSQL, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-15
+
+---
+
+#### 3172. [Gentoo] GLSA 202608-14: X.Org X server, XWayland: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in X.Org X server, XWayland.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-14
 
 ---

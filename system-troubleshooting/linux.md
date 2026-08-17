@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8937**
+**总计条目 / Total entries: 9029**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -124152,5 +124152,1201 @@ The RefPerSys website is a fair bit cryptic on what a UI to it should actually d
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/807042/how-to-conditionally-avoid-gtkmm-4
+
+---
+
+#### 8938. Security updates from Debian Unstable on Testing
+
+**问题描述 / Problem Description**:
+Tags: debian, security | Score: 3 | Views: 209 | Answers: 1 | Created: 2026-08-15
+
+**解决方案 / Solution**:
+The recommended way to do this is to set your system up as follows: make sure the default release is testing: APT::Default-Release "testing"; in an apt configuration file add unstable to your repository configuration pin unstable to a low value, so unstable versions are never chosen by default over testing versions: Package: * Pin: release a=unstable Pin-Priority: 50 periodically run debsecan , looking for vulnerabilities with fixes in unstable: debsecan --suite=sid --only-fixed upgrade the packages found by debsecan to the versions available in unstable. The debian-hybrid repository provides a set of scripts to help set this up. I’ve reviewed the repository in its current state and it is safe to use with the following caveat: it will overwrite your /etc/apt/sources.list with its own. The sources.list file in the repository configures sources for testing, testing-security, and unstable; if your own sources.list includes anything else, make sure to copy it somewhere else first. You may also need to fix your setup after installation if you’ve configured any of the Debian repositories using the new “Deb822” sources format. You may want to back up /etc/apt before installation (in addition to your regular backups, hopefully), or better yet, install etckeeper so that changes to /etc are tracked. Once the contents of the repository have been installed (following the instructions in README.md ), debsecan will run every time apt update runs, and configure pin priorities so that you get fixed packages from unstable. The behaviour can be controlled with enable-unstable-updates.sh and disable-unstable-updates.sh , to respectively enable updates from unstable and disable them.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807041/security-updates-from-debian-unstable-on-testing
+
+---
+
+#### 8939. i scraped the entire r/unixporn and made it filterable by distro, WM, and colorscheme
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqkyia/i_scraped_the_entire_runixporn_and_made_it/
+
+---
+
+#### 8940. Linux 7.2 changelog. The new release adds: a better CPU cache awareness to the task scheduler; a fairer job scheduler for GPU jobs; support for USB4STREAM; better memory reclaiming and faster swapping; better Btrfs performance; new DM target for storage with inline encryption, and more
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vr1mxv/linux_72_changelog_the_new_release_adds_a_better/
+
+---
+
+#### 8941. Con Kolivas Revives "-ck" Patches & MuQSS To Improve Linux Desktop Responsiveness
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqr7ny/con_kolivas_revives_ck_patches_muqss_to_improve/
+
+---
+
+#### 8942. Linux kernel 7.2 has been released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqc9wk/linux_kernel_72_has_been_released/
+
+---
+
+#### 8943. Please participate in a survey about LibreOffice Base - Design Community Blog
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vr67eb/please_participate_in_a_survey_about_libreoffice/
+
+---
+
+#### 8944. The 7.2 kernel has been released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqbm36/the_72_kernel_has_been_released/
+
+---
+
+#### 8945. Running T2 Ubuntu on Macbook Pro 2019 16.1 (a2141) is the best thing ever
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqzk5l/running_t2_ubuntu_on_macbook_pro_2019_161_a2141/
+
+---
+
+#### 8946. Debian turns 33!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqae7h/debian_turns_33/
+
+---
+
+#### 8947. Android 2.0 Eclair Running on a New Nintendo 3DS XL
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqasq3/android_20_eclair_running_on_a_new_nintendo_3ds_xl/
+
+---
+
+#### 8948. Embedded Linux at a bill payment office
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vr5r0b/embedded_linux_at_a_bill_payment_office/
+
+---
+
+#### 8949. dskDitto v0.6.2 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqqkex/dskditto_v062_released/
+
+---
+
+#### 8950. Linux Ubuntu not loading on my Dell laptop.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vr4u3j/linux_ubuntu_not_loading_on_my_dell_laptop/
+
+---
+
+#### 8951. Adding Vim mode to Rofi (the system launcher)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vqmd5x/adding_vim_mode_to_rofi_the_system_launcher/
+
+---
+
+#### 8952. [V2EX] RustDesk 现已支持 Wayland 无人值守远程访问
+
+**问题描述 / Problem Description**:
+[RustDesk now supports true unattended remote access on Wayland | Hacker News]( https://news.ycombinator.com/item?id=49300759 ) [Unattended Remote Access on Wayland with RustDesk — RustDesk]( https://rustdesk.com/blog/unattended-remote-access-wayland/ )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234773#reply6
+
+---
+
+#### 8953. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply107
+
+---
+
+#### 8954. [V2EX] 市面上的智能家居产品怎么都没带声音和灯光检测的，想做一个了。
+
+**问题描述 / Problem Description**:
+看了一圈传感器价格，发现还不便宜。问一下 v 友：如果有一个 299-349 的小设备放在卧室里，每晚告诉你 CO₂、温湿度、光线和噪声，并告诉你卧室环境哪里可能影响睡眠，你会买吗？ 如果需要的人多了，感觉我们可以一起开源搞搞硬件和软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235105#reply4
+
+---
+
+#### 8955. [V2EX] token 经济来了吗
+
+**问题描述 / Problem Description**:
+假如有企业园区资源，怎么通过卖 token 赚钱，园区各类企业都有，如果能说通政府产促部门，如何一手 token 一手企业 赚中间商的钱？有感兴趣的 v 友吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235090#reply4
+
+---
+
+#### 8956. [V2EX] 半夜睡不着吐槽一下，不知道为啥越来越写不出提示词了
+
+**问题描述 / Problem Description**:
+对着上下文干瞪眼，感觉没有灵感。 还有很多额度很多 token 。但是没有灵感了😭 这是为什么？我知道要让 ai 做什么，但是为什么我觉得提示词需要更多灵感才能写出来呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235150#reply0
+
+---
+
+#### 8957. [V2EX] 👎 谁再 TMD 推模型 qwen3.7-flash 我就跟谁急
+
+**问题描述 / Problem Description**:
+不知道听了谁的瞎 BB 在 dv4f 价格大幅上涨之际，充值了某些人推荐的 qwen3.7-flash ，使用不到一天真 TMD 后悔，就没见过这种 LJ 的大模型； 1️⃣ 接入 hermes 后原来的设置他不遵守一概按照它内置的 SB 流程干活；包括但不限于： 如果你有自己的技能沉淀规范和流程，不好意思他忽略...... 如果你有自己的代码同步机制以及一键脚本并且配置在 hermes 里，不好意思它会自己敲命令一条条的来...... 如果你有以前喂给 hermes 的个性化信息，不好意思它一概看不见...... 如果你有其他的个性化机制，不好意思它一概不管，就算你强制它学习一次，这个白痴也
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235146#reply5
+
+---
+
+#### 8958. [V2EX] 有没有人需要 Codex 获得 1,000 额度的邀请,有 3 个名额，需要的留下邮箱
+
+**问题描述 / Problem Description**:
+有 3 个名额，需要的留下邮箱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235140#reply1
+
+---
+
+#### 8959. [V2EX] Github 崩了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235133#reply1
+
+---
+
+#### 8960. [V2EX] Agent Team 实践(一): 如何构建跨 Harness 的统一 Runtime
+
+**问题描述 / Problem Description**:
+这是一个系列文章，大概六篇，讨论的是我的开源项目 Pragma 在构建多 Agent 系统过程中遇到的六个核心问题。从一个长期运行的 Agent 系统需要具备的工程能力出发：执行环境如何替换，上下文如何组织，多个专家如何协作，经验如何积累，复杂任务如何组合，以及整套工作方式如何成为可以版本化和分享的资产。欢迎下载体验、star 、fork 和提交 PR 原文链接： Agent Team 实践(一): 如何构建跨 Harness 的统一 Runtime
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235129#reply1
+
+---
+
+#### 8961. [V2EX] 调教 AI 开发了小游戏《硕博矿工》，在科研矿山里挖出毕业之路
+
+**问题描述 / Problem Description**:
+最近和对象玩起了经典的老游戏《黄金矿工》，双人版的也很好玩，主要是操作简单，就是挖就完事了，一个键就能解决。玩黄金矿工的时候，看那两个小老头就想到了自己，今我何功德，不去挖煤矿。 其实大部分硕博都是和这两老头一样，同是天涯沦落人，相逢何必曾相识。如果这两老头是个体户，大部分硕博还不如这两小老头有钱，毕竟人家能挖黄金，我们只能假装高级去挖狗屎课题。想着想着，硕博版的黄金矿工由此诞生。 今天在博客站里收到一个反馈，说考虑一下单身狗的 tag 。确实应该好好考虑一下，毕竟我身边确实有一些快三十的高学历母胎单身狗。 欢迎大家摸鱼的时候来耍，也欢迎提出宝贵的意见。 硕博矿工（理工版）·学术矿山-用一根学
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235128#reply0
+
+---
+
+#### 8962. [V2EX] 有没有人需要 Codex 获得 1,000 额度的邀请
+
+**问题描述 / Problem Description**:
+有 3 个名额，需要的留下邮箱，@可以用#代替 至于手机号验证需要自行解决
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235126#reply9
+
+---
+
+#### 8963. [V2EX] GitHub 崩了，为什么给我看这匹粉红色的马
+
+**问题描述 / Problem Description**:
+别家宕机：系统繁忙，请稍后再试。🔧 GitHub 宕机：放一匹精神状态比你还差的粉红马出来，还特意配了根角。 甭管修不修得好，这波品牌辨识度是拉满了🦄 🌸🐔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235123#reply0
+
+---
+
+#### 8964. [V2EX] hy3 真垃圾
+
+**问题描述 / Problem Description**:
+看免费，就用了一下，气笑了，git 都玩不明白😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235119#reply0
+
+---
+
+#### 8965. [V2EX] 做了一个 Agent team 协作的 IM
+
+**问题描述 / Problem Description**:
+之前看 raft 项目的几篇 blog,然后就想自己做一个 copycat 出来,这段时间断断续续的花了一些精力来搞这个,目前大概功能都实现( 抄袭 )出来了,目前实现还是比较粗糙,但是基本的功能都可用了,让 Agent 一起玩狼人杀还是没问题的. Github 地址在这 https://github.com/Ranxy/laelia 做了比较多的 IAM 权限管理相关的适配,适合部署给团队使用. 目前做了 claude,codex 和 pi 的支持,其中 pi 作为 embed 的内容集成在应用里面了,可以直接输入 apikey 使用. 常用的功能如 markdown,html 的渲染和评论
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235093#reply1
+
+---
+
+#### 8966. [V2EX] 关于识别原型图的方案有哪些值得推荐的？
+
+**问题描述 / Problem Description**:
+RT ，想了解下大家对于需求原型图这块是如何处理的，我们公司的原型大部分是图片，如何优雅的喂给大模型。目前手头可以畅玩的模型不包含多模态的处理，如果有啥性价比较高或者可以暂时白嫖的方案可以推荐下，感谢各位大佬了 ORZ
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235063#reply0
+
+---
+
+#### 8967. [V2EX] 请教一下， DSH（DeepSeek Harness）可以理解为一个开源的 AI Agent 框架吗？
+
+**问题描述 / Problem Description**:
+最近在看 DSH 的插件生态，对它的定位有点好奇，想请教一下大家的理解。 在这个仓库看了很多插件： https://github.com/awesome-dsh-plugin/awesome-dsh-plugin 我的理解是：DSH 类似于一个开源的可运行 AI 智能体框架，而插件生态则是它的核心扩展方式。这种开源方式是不是可以让 DSH 实现成一个 AI 系统，类似 Android 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235060#reply3
+
+---
+
+#### 8968. [V2EX] Grok Bot 免费 8 核 16G 机器实测， 开各种 agent 和 vnc / ssh / web
+
+**问题描述 / Problem Description**:
+昨天的车: 1000 美金包年，cursor 最顶级，Grok 最顶级。推特最顶级会员，然后还有一个 Grok bot 的 8G 内存、16 核的不关机容器 Grok Bot 聊天让他组网，给连接，让他开 SSH 和 VNC 配置. 配置: 8 核 16G 126G 磁盘 测速和跑 Agent: 4G 下行 、1G 上行 移动端访问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235049#reply16
+
+---
+
+#### 8969. [V2EX] Pi 是一个 coding Agent 吗?写代码比起 codex 和 claude code 有什么优势么?
+
+**问题描述 / Problem Description**:
+有没有大佬用过 Pi 来写代码,使用的体验怎么样么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235048#reply2
+
+---
+
+#### 8970. [V2EX] 亲测 deepseek-v4-pro 大约涨到之前的 3 倍
+
+**问题描述 / Problem Description**:
+找了之前几天 token 总量和命中缓存比例都差不多的对比了一下,差不多变成 3 倍了,这样下去我平时一天得 40 块钱,忙的时候一天 150,不得不考虑 coding plan 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235037#reply8
+
+---
+
+#### 8971. [V2EX] 想弄个 vps 搞中转站用，有没有推荐的 什么价格
+
+**问题描述 / Problem Description**:
+先说：不要说不能干了，已确定要干 需求：要个美西的 VPS ，价格 15$-30$/月 求大哥推荐，我试过 ovh ，要认证，我没护照/当时的地址也是乱生成的美国地址，肯定不行了 DMIT 直接没货了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235033#reply21
+
+---
+
+#### 8972. [V2EX] 现在哪家模型性价比最高
+
+**问题描述 / Problem Description**:
+经过这次的 deepseek 涨价，现在他还有性价比吗？综合来说现在你们认为性价比最高的前三家模型服务是哪三家呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234982#reply16
+
+---
+
+#### 8973. [V2EX] qwen3.8 27B 被低估了
+
+**问题描述 / Problem Description**:
+qwen3.8 27B 完全被低估了，讨论度不高。 如果有人在年初跟我讲，可以用两张 3090 本地部署一个超越当时最强的 opus4.5 几代的模型，我会觉得是痴人说梦。 感觉 qwen3.8 完全可以加入穿越者套餐了，穿越之自带太阳能发电板+本地部署 qwen3.8 27B 的硬件设备，再造人类文明完全不是问题吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234978#reply33
+
+---
+
+#### 8974. [V2EX] 记录两个 WIN11 下使用 mingw-make 碰到的离谱环境错误
+
+**问题描述 / Problem Description**:
+1. mingw32-make.exe: *** INTERNAL: readdir: Invalid argument 该错误没有找到具体的根因, 只知道解决方案: 修改环境变量, 删除或者将 Microsoft Store 的环境变量移动到最后 2. CreateProcess(xxx.bat, xxx.bat, ...) failed. mingw32-make.exe 在 WIN11 上执行 gcc 命令的时候, 会将 gcc 命令封装成一个 bat 脚本执行; 当时非常迷惑的原因是: 手动调用 cmd, 并在 cmd 中执行该 bat 脚本, 执行正常, 一旦涉及到使用 Makefi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234970#reply8
+
+---
+
+#### 8975. [V2EX] opencode go 的 deepseek 涨价并缩减了用量
+
+**问题描述 / Problem Description**:
+昨晚用量直接跑完了 今早又注册了一个号，没跑几轮用了 3 刀，总用量 15% 差点没给我气笑了 我用的是 deepseek flash 啊，flash 什么时候那么高贵了？ 60 刀额度变 15 刀 算了下波谷大概只有之前的 10%，波峰大概只有 5% 要是额度不变我也不说什么了，涨价 3-6 倍还是能接受的，大不了开两个 go 接 CPA 现在能做的居然只能祈祷了吗...笑 这样真还不如开 gpt plus+luna...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234926#reply42
+
+---
+
+#### 8976. "no dependency information found for /lib/libz.so.1" when building sudo from source
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, dpkg | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804825/no-dependency-information-found-for-lib-libz-so-1-when-building-sudo-from-sou
+
+---
+
+#### 8977. How to rotate Mullvad VPN IP in KDE Network Manager?
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, networkmanager, vpn, wireguard | Score: 0 | Views: 154 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804619/how-to-rotate-mullvad-vpn-ip-in-kde-network-manager
+
+---
+
+#### 8978. How to setup bridge with netplan / systemd-networkd?
+
+**问题描述 / Problem Description**:
+Tags: debian, bridge, systemd-networkd, netplan | Score: 0 | Views: 177 | Answers: 1 | Created: 2026-02-20
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804605/how-to-setup-bridge-with-netplan-systemd-networkd
+
+---
+
+#### 8979. Uninstall Jupyter
+
+**问题描述 / Problem Description**:
+Tags: linux, pip, jupyter | Score: 0 | Views: 187 | Answers: 1 | Created: 2025-07-11
+
+**解决方案 / Solution**:
+Since you installed using sudo pip3 install --break-system-packages jupyter the appropriate command to uninstall Jupyter is sudo pip3 uninstall jupyter
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797838/uninstall-jupyter
+
+---
+
+#### 8980. ext4 block allocation
+
+**问题描述 / Problem Description**:
+Tags: linux, ext4 | Score: 0 | Views: 175 | Answers: 1 | Created: 2025-06-27
+
+**解决方案 / Solution**:
+The jump in size is pretty easy to explain; the original size of 1024 doesn't have room for all 4 of your 250-char files. I can show it visually by following along with your steps to create the first 3 files: ❯ fallocate -l 100MiB /tmp/example-ext4.img ❯ mkfs.ext4 /tmp/example-ext4.img mke2fs 1.47.2 (1-Jan-2025) Discarding device blocks: done Creating filesystem with 102400 1k blocks and 25584 inodes Filesystem UUID: ee186728-dbf9-4e3c-9c97-d85ce2ad1828 Superblock backups stored on blocks: 8193, 24577, 40961, 57345, 73729 Allocating group tables: done Writing inode tables: done Creating journal (4096 blocks): done Writing superblocks and filesystem accounting information: done ❯ mkdir /tmp/example-ext4 ❯ sudo mount -o loop /tmp/example-ext4.img /tmp/example-ext4 ❯ sudo rmdir /tmp/example-ext4/lost+found ❯ sudo bash -c '> /tmp/example-ext4/"$(printf -- \'a%.0s\' {1..249})1"' ❯ sudo bash -c '> /tmp/example-ext4/"$(printf -- \'a%.0s\' {1..249})2"' ❯ sudo bash -c '> /tmp/example-ext4/"$(printf -- \'a%.0s\' {1..249})3"' ❯ ls -l /tmp/example-ext4 total 0 -rw-r--r-- 1 root root 0 Jun 27 16:02 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1 -rw-r--r-- 1 root root 0 Jun 27 16:02 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa2 -rw-r--r-- 1 root root 0 Jun 27 16:02 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa3 ❯ sudo umount /tmp/example-ext4 ❯ debugfs /tmp/example-ext4.img -R 'stat /' | cat - debugfs 1.47.2 (1-Jan-2025) Inode: 2 Type: directory Mode: 0755 Flags: 0x80000 Generation: 0 Version: 0x00000000:00000004 User: 0 Group: 0 Project: 0 Size: 1024 File ACL: 0 Links: 2 Blockcount: 2 Fragment: Address: 0 Number: 0 Size: 0 ctime: 0x685f2300:59fa6e14 -- Fri Jun 27 16:02:24 2025 atime: 0x685f2311:70d93264 -- Fri Jun 27 16:02:41 2025 mtime: 0x685f2300:59fa6e14 -- Fri Jun 27 16:02:24 2025 crtime: 0x685f22be:00000000 -- Fri Jun 27 16:01:18 2025 Size of extra inode fields: 32 Inode checksum: 0x68e8aa9e EXTENTS: (0):6681 ❯ debugfs /tmp/example-ext4.img -R 'cat /' | hexdump -C --no-squeezing debugfs 1.47.2 (1-Jan-2025) 00000000 02 00 00 00 0c 00 01 02 2e 00 00 00 02 00 00 00 |................| 00000010 0c 00 02 02 2e 2e 00 00 0b 00 00 00 04 01 fa 01 |................| 00000020 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000030 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000040 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000050 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000060 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000070 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000080 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000090 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000a0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000b0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000c0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000d0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000e0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000000f0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000100 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000110 61 61 61 61 61 61 61 61 61 31 00 00 0d 00 00 00 |aaaaaaaaa1......| 00000120 04 01 fa 01 61 61 61 61 61 61 61 61 61 61 61 61 |....aaaaaaaaaaaa| 00000130 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000140 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000150 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000160 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000170 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000180 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000190 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001a0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001b0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001c0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001d0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001e0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000001f0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000200 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000210 61 61 61 61 61 61 61 61 61 61 61 61 61 32 00 00 |aaaaaaaaaaaaa2..| 00000220 0e 00 00 00 d4 01 fa 01 61 61 61 61 61 61 61 61 |........aaaaaaaa| 00000230 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000240 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000250 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000260 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000270 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000280 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000290 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002a0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002b0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002c0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002d0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002e0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 000002f0 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000300 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000310 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 |aaaaaaaaaaaaaaaa| 00000320 61 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |a3..............| 00000330 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000340 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000350 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000360 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000370 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000380 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 00000390 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................| 000003f0 00 00 00 00 00 00 00 00 0c 00 00 de 40 3d fa 53 |............@=.S| 00000400 You can sort of see visually there that there isn't enough room, but counting up the 00 bytes in the open space at the end I get 0x3f8 - 0x322 = 214 bytes; not enough for another 250-char filename even if it didn't have to store anything else (and you can sort of see there's a bit of other stuff in between the filenames) Explaining the layout of an ext4 directory is beyond the scope of this answer, although you can read more about it in https://docs.kernel.org/filesystems/ext4/dynamic.html#directory-entries . I just wanted to show that it is possible to look at the representation of the file directly, if you want to dig in deeper.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797464/ext4-block-allocation
+
+---
+
+#### 8981. Run md5sum parallel with a Spinner or Progressbar
+
+**问题描述 / Problem Description**:
+Tags: linux, xargs | Score: 0 | Views: 174 | Answers: 1 | Created: 2025-06-27
+
+**解决方案 / Solution**:
+I wrote a tool called forkrun that parallelizes running code in the same way as xargs -P does, but it is pure bash. Its speed is comparable to the equivalent xargs command (the latest "in development" version is about 20% faster than xargs for checksumming a bunch of small files on a ramdisk . because forkrun is natively bash, you can do a few nifty things with it, like parallelizing functions. try this # source forkrun source /path/to/forkrun.bash # get list of files / total number of files to checksum mapfile -t -d '' F < <(printf '%s\0' /path/to/input/dir/*) numFiles=${#F[@]} # define function to have forkrun run in parallel runFunc() { # compute md5sum for current batch of files and append output to md5sum.txt file md5sum "$@" >> /path/to/output/dir/md5sum.txt # print how many files we just checksummed to stdout echo "$#" } # pipe null-seperated file list to forkrun, then accumulate output to see how many files have been checksummed and printf '%s\0' "${F[@]}" | forkrun -z runFunc | { count=0 while read -r nn; do (( count += nn )) (( pDone = 100 * count / numFiles )) printf '\rPROGRESS: %s of %s files ( %s%% )' "$count" "$numFiles" "$pDone" done }
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797439/run-md5sum-parallel-with-a-spinner-or-progressbar
+
+---
+
+#### 8982. bbe combine 2 files using blocks
+
+**问题描述 / Problem Description**:
+Tags: linux, files, merge | Score: 0 | Views: 143 | Answers: 1 | Created: 2025-06-26
+
+**解决方案 / Solution**:
+You're underdefining what you want to do in case either of your input files reaches the end. But assuming you have an idea of that: Really sounds like a job for about 10 lines of Python (or C, or rust, or really your programming language of choice). Wouldn't try to do this through invoking an external tool like bbe , to be honest. with ( open("nand", "rb") as nand, open("spare", "rb") as spare, open("out.bin", "wb") as out_f, ): while True: data = nand.read(WHATEVER_NUMBER_OF_BYTES) if len(data) == WHATEVER_NUMBER_OF_BYTES: out_f.write(data) else: break # same for spare here # … That's it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797417/bbe-combine-2-files-using-blocks
+
+---
+
+#### 8983. I have tried to install Howdy (practically Linux's Windows Hello). However, it seems like pypy3 failed to execute or something
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, command-line | Score: 0 | Views: 530 | Answers: 2 | Created: 2025-06-23
+
+**解决方案 / Solution**:
+I 100% agree with waltinator. However, Howdy 's readme says: Fedora 41 removed support for Python2, but at this point in time Howdy still depends on it Yeah, sorry, Howdy depends on a python version that most Linux distros do not support anymore. It's not quite clear why that development decision was made (at the point that Howdy's development was started, Python 3 was already the standard and Python2 already long deprecated / dead). So, the installations instructions you're following will not work on any modern Linux. I'd say not supporting Python3 PAM simply is a blocker for an authentication agent, so, I'd call this software, today, not useful for you as end-user. Sorry. The bug tracker is full of cases where things don't work because Howdy is still stuck with Python 2, and the rest of the world moved on.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797324/i-have-tried-to-install-howdy-practically-linuxs-windows-hello-however-it-s
+
+---
+
+#### 8984. How hid-generic driver catch the event from the mouse device
+
+**问题描述 / Problem Description**:
+Tags: linux, kernel, drivers, testing | Score: 0 | Views: 177 | Answers: 1 | Created: 2025-06-23
+
+**解决方案 / Solution**:
+How does the hid-generic driver report the behavior from the mouse to the kernel? Not at all. This is just the generic HID driver. Are you perhaps confusing this with hiddev.c from the usbhid directory? What is the actual purpose of the raw_event function within the driver code? Is it necessary to have when implementing the device driver? this function doesn't appear in hid-generic.c. Maybe you want to ask this in a new question. What would you recommend to set up a test environment for the HID device in order to make sure it functions correctly on a Raspberry Pi? Any tools used for testing in the industrial environment for the HID device driver? Two things: for pure software testing, you would probably take the C file as you would use it as a driver (module or in-tree, but probably as module), and include it into a software test fixture, to run unit tests on your specific things. How you do that very much depends on your driver design. My guess is you shouldn't be implementing a kernel-mode driver at all and deal with most things in userland software (libuv?), but that only makes sense if your HID device is kind of similar to existing devices. for hardware-in-the-loop-testing: Well, obviously, you will have to build a mechanical apparatus that exercises your input device, and then check that your Linux kernel driver does exactly what you want (hint: VMs are your friend). What you test with that, and to which degree, depends on the kind of HID you're building, and the kind of investment to quality you need to make for its use case. A pushbutton on a beverage vending machine probably needs different testing than the touchscreen controlling your manned space flight rocket or the steering wheel of your car.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797318/how-hid-generic-driver-catch-the-event-from-the-mouse-device
+
+---
+
+#### 8985. Rename a set of files according to a specific scheme, with rename back option
+
+**问题描述 / Problem Description**:
+Tags: linux, shell-script, awk, scripting, rename | Score: 0 | Views: 277 | Answers: 5 | Created: 2025-06-20
+
+**解决方案 / Solution**:
+In zsh, you could do: #! /bin/zsh - set -o extendedglob typeset -A map=() pad=() # loop over files ordered (descending) by number of digits in their name for f in *(NnOe['REPLY=${#REPLY//[^0-9]}']); do if [[ $f = (#b)(file<->).(<->)(-rvr|) ]]; then # record padding length on first of a given "package" p=${pad[$match[1]]=$#match[2]} new=${map[$match[1]]=$( </dev/urandom tr -cd a-zA-Z0-9 | head -c $(shuf -i 8-32 -n 1) )}.part${(pl[$p][0])match[2]}.rar mv -i -- $f $new && print -r "mv -i -- ${(qq)new} ${(qq)f}" fi done > rename-back Which renames the files and generates a rename-back script that you can run to restore the original file names.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797215/rename-a-set-of-files-according-to-a-specific-scheme-with-rename-back-option
+
+---
+
+#### 8986. How do I write a rsyslog.d rule to send lines to a file?
+
+**问题描述 / Problem Description**:
+Tags: linux, rsyslog | Score: 0 | Views: 234 | Answers: 2 | Created: 2025-06-13
+
+**解决方案 / Solution**:
+As mentioned in the comments, rsyslog only loads files ending in .conf from /etc/rsyslog.d/ . Because your file ends with .sh , it never got loaded. You can verify this in /etc/rsyslog.conf (last line in a default configuration): # # Include all config files in /etc/rsyslog.d/ # $IncludeConfig /etc/rsyslog.d/*.conf Apart from that, your rule seems fine - renaming /etc/rsyslog.d/foo.sh to /etc/rsyslog.d/foo.conf should make rsyslog load it. Also, as mentioned in the answer by @waltinator, you need to restart rsyslog to apply the changes: sudo systemctl restart rsyslog.service
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797019/how-do-i-write-a-rsyslog-d-rule-to-send-lines-to-a-file
+
+---
+
+#### 8987. Is there any advantage to changing process priorities using a kernel module instead of nice / chrt?
+
+**问题描述 / Problem Description**:
+Tags: linux, process, kernel-modules, scheduling, priority | Score: 0 | Views: 204 | Answers: 1 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+I'm assuming you're talking about Linux, because I know chrt only from there. Have you encountered cases where a kernel module offered more control or precision in setting scheduling parameters than user-space methods? Yeah, the cgroups v2 (which is part of the kernel, I'm not sure whether this is what you meant with "module", but my guess is "a control instance in the kernel, not in userspace") cpu controller, and cpuset controller are pretty much more useful than nice and setting realtime prios on processes; for example they allow for defining the share of CPU that a whole group of processes can get, instead of just allowing to rank processes according to an integer value with very little granularity, as nice ness allows you to do. Frankly, with cgroups v2's cpu kernel-side controller and its nice integration with userland tools, I've not used nice in a long time – "deprioritizing" individual processes is never what I want, if anything, I want to make a group of processes be constrained, and increasing "prioritizing" critical services is something I basically never have to care about. chrt is orthogonal to this, and changes the only variables in the default Linux scheduler w.r.t. to its "scheduling-guarantee" RT aspect.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796812/is-there-any-advantage-to-changing-process-priorities-using-a-kernel-module-inst
+
+---
+
+#### 8988. Reset Python and QT5 installation for programming GUI in Python-QT
+
+**问题描述 / Problem Description**:
+Tags: linux, python, qt | Score: 0 | Views: 165 | Answers: 1 | Created: 2025-06-06
+
+**解决方案 / Solution**:
+With help from this page: https://askubuntu.com/questions/1426139/error-cannot-uninstall-pyqt5-5-15-6-record-file-not-found-hint-the-package-w (Thanks to https://askubuntu.com/users/571173/s-k ) Which I tried unlucky weeks before, but with a few changes, it worked now. sudo su pip3 uninstall PyQt5-sip==12.7.2 apt remove PyQt5 apt remove python3-PyQt5 python -m pip uninstall PyQt5==5.14.1 python3.13 -m pip uninstall PyQt5==5.14.1 pip3 uninstall PyQtWebEngine apt-get autoremove --purge python3-pyqt5 rm -rf /usr/local/lib/python3.10/dist-packages/PyQt5* sudo -H pip3 install -U PyQt5 sudo -H pip3 uninstall -U PyQt5 exit as user: sudo apt install git-cola git-cola works again. And I can start building Qt5-GUI and programming in PyQt5 (in venv environment !).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796712/reset-python-and-qt5-installation-for-programming-gui-in-python-qt
+
+---
+
+#### 8989. Btrfs can see only half of the disk, bug or feature?
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, kernel, btrfs | Score: 0 | Views: 183 | Answers: 2 | Created: 2025-05-31
+
+**解决方案 / Solution**:
+I could solve the problem, and I know, how to avoid it in future, but I still have only a partial answer. In my opinion, it might be a bug, or more likely I would call it as an unexpected behavior of the default data structures. Btrfs looks having a strong focus on raid support and on metadata duplication, and it seems really duplicating things, even on a single partition, by default. It is clearly not how it should work by default. The solution is a rebalancing of the partition, right after its format, with the command btrfs balance start -f -v -dconvert=single -mconvert=single -sconvert=single /mount/point This command can be executed without unmounting, even on a used partition, but so it will be really slow (it was 3 days on a HDD with 4 TB data). The problem would probably not appear if I do not use mixed data+metadata blocks, but I just love flexibility.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796490/btrfs-can-see-only-half-of-the-disk-bug-or-feature
+
+---
+
+#### 8990. Linux: Can I make a file unreadable by a user but readable by a script being run by that same user?
+
+**问题描述 / Problem Description**:
+Tags: linux, permissions, python | Score: 0 | Views: 323 | Answers: 5 | Created: 2025-05-30
+
+**解决方案 / Solution**:
+No, not really: your user "the human" doesn't access the file, it's processes that are run with your user's id. And a script is just executed a process under the executing user's id. The only solution here would be a process running as a different user (e.g. a system daemon) that your user's processes might connect to, send unencrypted data to and get encrypted data back. However: What you describe sounds a lot like you actually want asymmetric cryptography, but aren't aware of it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796435/linux-can-i-make-a-file-unreadable-by-a-user-but-readable-by-a-script-being-run
+
+---
+
+#### 8991. samba home folder unable to list, create or edit files and folders
+
+**问题描述 / Problem Description**:
+Tags: linux, samba, selinux, samba4 | Score: 0 | Views: 322 | Answers: 1 | Created: 2025-05-27
+
+**解决方案 / Solution**:
+Very strangely, I was able to fix using this code: I am not sure how is this working.... [homes] comment = Home Directories valid users = %S, %D%w%S read only = No browseable = yes path = /home/%S create mask = 664 force create mode = 664 #reverse of mask directory mask = 775 force directory mode = 775 now files and folder show correct permissions... -rw-rw-r--. 1 sar sar 10 May 27 04:54 hjui89.txt drwxrwsr-x. 2 sar sar 4096 May 27 04:54 ty678 OS is rocky 9. If I omit any mask or mode line the permissions get messed up.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/796312/samba-home-folder-unable-to-list-create-or-edit-files-and-folders
+
+---
+
+#### 8992. Kodi on Ubuntu Studio filled disk, somewhere?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, disk-usage, kodi | Score: 0 | Views: 115 | Answers: 1 | Created: 2025-02-26
+
+**解决方案 / Solution**:
+Found the problem and it wasn't Kodi's fault; self-inflicted wounds, specifically mount mistake and backup misconfiguration. Documented below is how I pursued it and what I found, just so folks can see my debugging process: Since I had run out of disk space in which to hold and sort output of du / and lsof it was a bit hard to analyze the results; I could grep them but didn't have space in disk to sort them. However, the Emacs editor can do some in-memory sorting, and a combination of that and some programmed editing convinced me that the problem wasn't something like huge files still being held open. I rebooted into a "live" session on my install media and investigated from there. Mounted the /dev/sda2 partition (my usual root filesystem) as /mnt/tmp and ran file system check against it. (Reminder, never run fsck against a file system which is actually in use, and certainly not against the one you booted from!) fsck reported no errors, so whatever was consuming space seemed to be legitimate files. The question was where and why. Since I had space in the live environment for the scratch file, I could run ``du /mnt/tmp | sort -n` to get cumulative disk consumption by directory. Looked at the highest users, and there it was: The directory where I normally mounted my backup drive (but hadn't done so in the live session) was reporting hundreds of gigabytes if data when, without the filesystem mounted, it should have been empty. My error was that my backup program ( dsnapshot ) have been configured to copy file system changes to a subdirectory at the mount point. But unlike windows, Linux does not actually mount USB drives by default. There are some conditions under which the gui "magically" mounts whatever was previously mounted, but that wasn't happening for the backup tool running as a background cron job. As a result, the backup was happening to the actual directory at the mount point rather than to another driver's filesystem mounted there... And so was copying the root file system's contents into a directory inside the root file system, with the obvious consequences of almost immediately filling the disc with those misplaced copies. I haven't picked this up when I had tested backup because I hadn't rebooted since I last manually mounted the backup disc, and the copying went where it was supposed to go. But the first time I rebooted, that mount was no longer present with the effects mentioned above. Some of the documentation for rsnapshot actually mentions this hazard in backing up to a USB file system; the copy I found happens to be at https://wiki.archlinux.irg/title/Rsnapshot but I'm sure this can be found in the Ubuntu docs or in those for the rsnapshot git project. Basically they involve first editing the /etc/fstab file so the drive can be automatically mounted, then altering the backup tool's `/etc/systems/system/rsnapshot@.service file so that mount occurs before the backup process begins copying files. They also recommended specifying the backup's target directory using the file system UUID, to make sure that what is mounted at that directory really is the file system you want to copy into. That would have helped prevent the misplaced backups when the mount hadn't occurred. I am applying those changes now, of course. I haven't yet fully tested them, but they make sense as an explanation of what I did wrong and how to do it right. I'll try to remember to update this after complete confirmation of the fix. ("Did you plug it in and turn it on?" Oops. Obvious in retrospect. Experience is that which enables us to recognize a mistake when we have just made it again.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791674/kodi-on-ubuntu-studio-filled-disk-somewhere
+
+---
+
+#### 8993. Rsnapshot backup - how does it handle data?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, rsync, backup, rsnapshot | Score: 0 | Views: 116 | Answers: 1 | Created: 2025-02-24
+
+**解决方案 / Solution**:
+what you have is normal. You need to read the rsnapshot documentation of how it works it is described in there. It makes use of hard links when doing the incremental backup, which you apparently have set up given daily.0 and 1 and 2 . When the files don't change it's a hard link in the other daily.? folders to where the original is, as they migrate to daily.? and weekly.? ... however you have it configured with the retain statement(s). https://www.cyberciti.biz/faq/linux-unix-apple-osx-bsd-rsync-copy-hard-links/ also be aware of the rsync_long_args --delete which will delete the files off the backup if they are deleted at the source, which kind of deletes the purpose of the backup if you are expecting it to protect against accidental deletion for example, in which case you would want to edit and remove the --delete from rsync_long_args .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791545/rsnapshot-backup-how-does-it-handle-data
+
+---
+
+#### 8994. ubuntu arp problem with who-has x.x.x.x tell y.y.y.y
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, routing, forwarding, arp, packet | Score: 0 | Views: 276 | Answers: 2 | Created: 2025-02-19
+
+**解决方案 / Solution**:
+I think you are saying you have 2 or 3 logical machines, with routing. I think you are showing a tcpdump from the firewall VM. What it is showing is that a ping is sent to an external address. The external address sends an ARP request back. Nothing replies to the ARP request. The ping response is never sent. In think the firewall is blocking the ARP request. Actually, it is hard to make out because you haven't provided full configuration. We know there are 2/3 machines and 3/5 network interfaces, and we have 1 address, and no explicit information as to where we are seeing the tcpdump.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791287/ubuntu-arp-problem-with-who-has-x-x-x-x-tell-y-y-y-y
+
+---
+
+#### 8995. Does a load of 41.20 (!?) suggest a hardware failure?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mysql, gitlab | Score: 0 | Views: 128 | Answers: 1 | Created: 2025-02-17
+
+**解决方案 / Solution**:
+A load of 42 does not suggest hardware problems. It suggests many runaway programs. In general, load is the average number of programs in state "R" or running. You have two of those. But some other states have been known to also produce load. I find that sometimes suspended programs (T) wind up counting, and one can easily have many of those. I'm not sure of the specifics here, and it may be kernel specific. It may be that the "D" state programs count as well ... they are typically waiting on disk or filesystem I/O, and you have a number, I suspect that a multi-threaded program could count as multiple points of load. I am not sure if containers with separate process space will count to visible load, but I would expect it to. There could be malware that is hiding itself from ps and top . There could be ephemeral processes making load. As for how to work it out? Stop things one at a time and see if the load changes, remembering that the load is an average so you have to wait for it. You might also reboot to known good software and validate the system. One thing I often do for something like this is: $ ps ax >ps1 $ ps ax >ps2 $ ps ax >ps3 $ diff3 ps1 ps2 ps3 wait a second or two between the ps es. Anything that shows changed should be investigated.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791147/does-a-load-of-41-20-suggest-a-hardware-failure
+
+---
+
+#### 8996. Replicate key binding
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, keyboard-shortcuts | Score: 0 | Views: 69 | Answers: 1 | Created: 2025-02-14
+
+**解决方案 / Solution**:
+The functionality is available in Ubuntu's default GNOME desktop environment (probably the same as what Debian 10 uses), but from what I recall, by default it uses the Super (aka Windows logo) key instead of the Alt key. (The idea is that Alt is for apps – because e.g. Alt+dragging a file has its own meaning – while Super is for the OS or window manager.) If you want to change it back to Alt, that's an option in gnome-tweak-tool or dconf-editor . Sorry, I don't remember where exactly, though this older post might still be correct: https://superuser.com/a/670497/1686
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/791061/replicate-key-binding
+
+---
+
+#### 8997. Unable to install Erlang for RabbitMQ on PopOS
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, pop-os | Score: 0 | Views: 311 | Answers: 1 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+The solution was to install erlang dependencies that are part of the 1:24.2.1+dfsg-1ubuntu0.1 release by running sudo apt install 'erlang-*'=1:24.2.1+dfsg-1ubuntu0.1 sudo apt install erlang=1:24.2.1+dfsg-1ubuntu0.1 This will install all erlang from that release. All erlang packages from that release depends on libc6 version 2.34 and above and my system is at 2.34 making it perfect. Then I need to install erlang itself. Then I can install rabbitmq with this command: sudo apt install rabbitmq-server=3.9.13-1ubuntu0.22.04.2 The releases such as 3.9.13-1ubuntu0.2 are taken directly from the ubuntu package repository . I just had to filter for pacakges in the Jammy Jellyfish release.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790950/unable-to-install-erlang-for-rabbitmq-on-popos
+
+---
+
+#### 8998. "Permission Denied" when trying to use an externally launched virtiofsd with libvirt on Ubuntu LTS 24.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, libvirt, apparmor | Score: 0 | Views: 985 | Answers: 1 | Created: 2025-02-07
+
+**解决方案 / Solution**:
+If standard Unix permissions aren't solving permissions issues, it's possible your distribution's sandboxing system is a culprit. Ubuntu uses AppArmor to sandbox processes (RedHat uses SELinux), to ensure they're only accessing resources as expected. On Ubuntu LTS 24.04, this applies to qemu processes run by libvirt, and there's a suite of apparmor rules for the various components of libvirt, such as qemu. Ensure the external socket you want qemu-by-libvirt to use is allowed in the AppArmor rules, by creating a file in /etc/apparmor.d/abstractions/libvirt-qemu.d/ (possibly creating that final directory if it doesn't exist) with contents like: /run/my-virtiofs.sock rw, (trailing comma is important) Update with the appropriate path to the socket path you used in the external virtiofsd invocation and defined in the VM's libvirt XML config. Depending on the Ubuntu generation you're using, refer to the existing libvirt AppArmor configs for more information on where exactly to add your rules, such as /etc/apparmor.d/libvirt/TEMPLATE.qemu , which refers to /etc/apparmor.d/abstractions/libvirt-qemu . In my case, the latter includes a directive to use further customizations in /etc/apparmor.d/abstractions/libvirt-qemu.d/ , so that's where I created the new rule.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790744/permission-denied-when-trying-to-use-an-externally-launched-virtiofsd-with-lib
+
+---
+
+#### 8999. packagekit.service - where's the timer?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, cron | Score: 0 | Views: 474 | Answers: 1 | Created: 2025-02-06
+
+**解决方案 / Solution**:
+systemctl list-timers does not take a service name as parameter. It only supports filtering by the UNIT column – not by the ACTIVATES column. Use systemctl status packagekit and look for "TriggeredBy" instead. But PackageKit is not a service that would make sense to be directly activated by a timer, because it does nothing on its own. Instead, a client like pkcon needs to ask it to do some specific operation. So what is more likely to happen is that a) you have a timer – or a traditional cron job – that runs pkcon , which attempts to contact PackageKit, and the service gets started by D-Bus "on demand" activation; or b) you have a second service that runs continuously and contacts PackageKit every hour, which again causes D-Bus on-demand activation to start the service being contacted. (My own guess would be "GNOME Software", which might be running as a user-level service rather than a system service.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790686/packagekit-service-wheres-the-timer
+
+---
+
+#### 9000. Installing protonmail-bridge. Ubunto 24.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, command-line | Score: 0 | Views: 370 | Answers: 1 | Created: 2025-02-06
+
+**解决方案 / Solution**:
+It’s best to use apt to install packages, even from downloaded package files, because it will resolve dependencies for you: sudo apt install ./protonmail-bridge_3.16.0-1_amd64.deb
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790650/installing-protonmail-bridge-ubunto-24-04
+
+---
+
+#### 9001. how can I change device product name printed in dmidecode command?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, dmidecode | Score: 0 | Views: 511 | Answers: 1 | Created: 2025-02-04
+
+**解决方案 / Solution**:
+If the application relies only on dmidecode to get its information, you could replace it with a script that outputs the information from the old system.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790581/how-can-i-change-device-product-name-printed-in-dmidecode-command
+
+---
+
+#### 9002. How to find out the reason of gpe10 CPU spikes every ~10 seconds
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, cpu | Score: 0 | Views: 137 | Answers: 1 | Created: 2025-02-01
+
+**解决方案 / Solution**:
+You can get a list of all programs being started, with a timestamp, using execsnoop -T from the BPF Compiler Collection tools, which seem to be availabe in Ubuntu under the package name bpfcc-tools . See man execsnoop , and the example . This will not help if no new program is being created because of the interrupt, and it is just waking up some daemon, but there are about 100 different inspection tools in the package, so you might find one that is more appropriate.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790436/how-to-find-out-the-reason-of-gpe10-cpu-spikes-every-10-seconds
+
+---
+
+#### 9003. Install PHP 5.4 on Ubuntu 22.04 or Debian 12
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, php | Score: 0 | Views: 1116 | Answers: 1 | Created: 2025-01-31
+
+**解决方案 / Solution**:
+As far as I remember, OpenSSL disabled support of SSLv3 since OpenSSL 1.1 version. And for this reason modern Linux-based operating systems have troubles to compile old PHP versions. So, looks like the only option is to compile and install an older version of OpenSSL in a custom directory. For example OpenSSL 1.0.2u that supports SSLv3. But guys from Olvy Cloud shared guide recently: How to compile PHP 5.3, 5.4 and 5.5 versions on Debian 10/11/12 and Ubuntu 20.04/22.04, with compiling dependencies like OpenSSL 1.0.2u, c-client, Curl 7.88 as well. I needed to compile PHP 5.3 on my Ubuntu 20.04 - and this guide helped me to do it successfully.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790399/install-php-5-4-on-ubuntu-22-04-or-debian-12
+
+---
+
+#### 9004. Suggestions on Linux distro that allows updates ot C++ to latest compiler releases
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, package-management, compiling, gcc, version | Score: 0 | Views: 870 | Answers: 2 | Created: 2025-01-29
+
+**解决方案 / Solution**:
+I am currently using Ubuntu 22.04 but frustrated that I can't load the latest {something} First step: You're using Ubuntu 22.04, which is already the old long-term stable releas of Ubuntu. The immediate first thing you should do before even considering switching distro is updating yours; to 24.04, specifically. If you feel the need to install very recent software more often, you won't benefit from long-term supported distro releases, so the most recent version of Ubuntu (as of now, 24.10, soon 25.04) and biannual updates would serve you better (or one of the even more fast-moving distros, like Fedora, or even rolling release distros). That instantly makes sudo apt install gcc-14 g++-14 gfortran-14 (depending on whether you need C, C++ and/or Fortran compilers) give you gcc 14.2.0; beautifully installed side-by-side with any other Ubuntu-installed gcc version, selectable by specifying the compiler to be gcc-14 instead of gcc for the programs you want to compile. I did build a cross-compiler once. It kept crashing my system during the build. Your system crashing when you tried to build a bleeding-edge compiler from source has nothing to do with the distro being incompatible with that compiler. It honestly sounds like a hardware stability issue! It's a pretty normal thing to compile a modern compiler on an older platform – after all, someone has to do that to develop that newer compiler, right? In the case of GCC, it's (last time I checked) sufficient to specify a --prefix=/path/to/prefix --with-local-prefix=/path/to/prefix at the ./configure step, into which the newly compiled compiler suite would be installed when you make; sudo make install . Then, a simple export LD_LIBRARY_PATH=/path/to/prefix/lib64:${LD_LIBRARY_PATH} and export PATH=/path/to/prefix/bin:${PATH} is what it takes to then make use of this compiler. Other than that, often you can just actually get the newer compilers packaged for your distro, either from additional package repositories, or through backporting them. gcc-15 is, unsurprisingly due to the lack of existence of the 15. release of GCC yet, not available on any Ubuntu version, but chances are not bad it would appear in the backports repository for the current Ubuntu LTS release, i.e., of Ubuntu 24.04.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790281/suggestions-on-linux-distro-that-allows-updates-ot-c-to-latest-compiler-releas
+
+---
+
+#### 9005. google-chrome.desktop: ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, chrome, freedesktop | Score: 0 | Views: 320 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+As a guess I would say that Chrome is sitting idle, tries to turn off the idle, and fails for the exact reason the log is stating: org.freedesktop.DBus.Error.NotSupported , which leads us to the: Idle Inhibition Service Draft . This may need to be reported to the Chrome developers...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790232/google-chrome-desktop-errorobject-proxy-cc576-failed-to-call-method-org-fr
+
+---
+
+#### 9006. Many versions of the linux-headers package installed
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, package-management, linux-headers | Score: 0 | Views: 416 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+It is quite common to see multiple versions of the same package in Ubuntu, especially when dealing with kernel-related headers and packages. The presence of multiple versions of the linux-headers package is likely due to different kernel versions installed on your system. Each kernel version has its own set of headers. You should note the following: Which one is actually being used: The version that is actually being used corresponds to the kernel version that is currently running. You can check the kernel version that is currently running with the command: uname -r Then, match this version with the headers package to see which one is in use. Different formats: The different formats you see (e.g., linux-gcp-X.Z-headers-X.Y.Z-ABCD and linux-headers-X.Y.Z-VHCJ-gcp ) are probably due to different naming conventions or specific patches applied to the kernel. The gcp suffix indicates that these headers are optimized for Google Cloud Platform. The cleaner linux-headers-gcp format is likely the generic version of the headers package that does not include specific patches or optimizations.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790210/many-versions-of-the-linux-headers-package-installed
+
+---
+
+#### 9007. I need to run script on remote server which require root access using sshpass and its failing
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, scripting, remote | Score: 0 | Views: 219 | Answers: 1 | Created: 2025-01-26
+
+**解决方案 / Solution**:
+It is bad practice to write passwords into scripts. Instead you should use ssh-keys . The following steps describe how to use a new ssh-key to only run this command without a password and without altering the way you access an interactive shell on the host: Allow ssh keys for authentication and generate a new ssh-key. Install pv.sh to e.g. /usr/local/bin/pv.sh and don't allow to modify it. Allow the owner of the key to run the command without password: You can allow password less sudo /usr/local/bin/pv.sh for user . Add to your sudoers file: user ALL=NOPASSWD: /usr/local/bin/pv.sh Or allow root login and restrict the key Add to your .authorized_keys : command="/usr/local/bin/pv.sh" <ssh-key>
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790145/i-need-to-run-script-on-remote-server-which-require-root-access-using-sshpass-an
+
+---
+
+#### 9008. New Lenovo laptop ships with non-upgradeable Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, dist-upgrade | Score: 0 | Views: 658 | Answers: 1 | Created: 2025-01-24
+
+**解决方案 / Solution**:
+Without a detailed examination of what is in the lenovo repository, it's difficult to know what the consequences will be of the following. Before upgrading, you should research Lenovo's website to see if they support Ubuntu 24.04, and if they have a repo for 24.04. What you are using is a "local" repo with all the files on your machine -- it would be better to switch to a network repo if there is one. To upgrade, you can disable the lenovo repo by either renaming the lenovo repo files or editing them and commenting everything out. If you found a lenovo repo for Ubuntu 24.04, you can replace your repo files with that instead. Then run apt-update and do-release-upgrade again. Things installed from the repo will not be upgraded, and things they depend on won't be removed, and there might be conflicts with new things, but that's another issue. During the upgrade, it may disable some third party repos including the lenovo repo. You should examine all your repos in /etc/apt/sources.list.d and check if third party repos are disabled by editing them, uncommenting repos that were disabled during the upgrade, and editing the URLs to upgrade the version (change jammy to noble, 22 to 24). Then run apt update/upgrade to pull in any third party updates. If third party updates were causing old packages to be retained, this upgrade may then allow them to be released with apt autoremove. If you don't find an updated Lenovo repo, the consequences of upgrading may include package conflicts, retained old packages, and if you remove conflicting lenovo packages, substandard device support, reduced keyboard functionality, possibly reduced power saving features, and others. None of this is certain without examining the packages involved. Just because your laptop shipped with a static local file repo for Ubuntu 22.04 doesn't mean you are stuck on 22.04 or that Lenovo doesn't support your laptop on Ubuntu 24.04. You need to check their website to answer that question.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/790096/new-lenovo-laptop-ships-with-non-upgradeable-ubuntu-22-04
+
+---
+
+#### 9009. Is it possible that some versions of Ubuntu are affected from different vulnerabilities with respect to the respective upstream Debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, ubuntu, rsync, repository, vulnerability | Score: 0 | Views: 126 | Answers: 1 | Created: 2025-01-22
+
+**解决方案 / Solution**:
+Most packages in Ubuntu and Debian are identical, but a given Ubuntu release doesn’t descend from a given Debian release so there’s no general rule allowing vulnerability information to be matched from one to the other. To understand this specific instance, you need to compare the vulnerabilities listed in the various announcements. The Debian micronews announcement you’re referring to is specifically about CVE-2024-12084, whereas the Ubuntu announcement covers a number of rsync vulnerabilities. As mentioned in the Ubuntu announcement, CVE-2024-12084 only affects version 3.2.7 and later, and the Debian security tracker for that vulnerability correctly identifies the various versions. Since you’re looking at Debian 11 (as the best-available proxy for the effort required to maintain Debian 9, I imagine), note that rsync has received a number of security updates there (see the corresponding changelog ). rsync is still supported in Debian 9 through ELTS , and has been updated to address the recent vulnerabilities (with a followup to fix regressions ). See also Security repo for Debian stretch not working anymore .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789974/is-it-possible-that-some-versions-of-ubuntu-are-affected-from-different-vulnerab
+
+---
+
+#### 9010. Why did I got jq: 1 compile error?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, jq, kubernetes | Score: 0 | Views: 299 | Answers: 1 | Created: 2025-01-20
+
+**解决方案 / Solution**:
+Your jq expression, with extra whitespace inserted for readability: [ flatten | .[].pods[].volume[]? | select(has("pvcRef")) { name: .pvcRef.name, capacityBytes, usedBytes, availableBytes, percentageUsed: (.usedBytes / .capacityBytes * 100) } ] What's missing is a pipe symbol after the select() stage of the filter. Inserting it makes it syntactically correct: [ flatten | .[].pods[].volume[]? | select(has("pvcRef")) | { name: .pvcRef.name, capacityBytes, usedBytes, availableBytes, percentageUsed: (.usedBytes / .capacityBytes * 100) } ] Whether the expression is correct in all other senses is unknown, as I don't know what the input is expected to look like. The text quoted in the question isn't JSON, so jq wouldn't be able to apply the expression to it directly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789892/why-did-i-got-jq-1-compile-error
+
+---
+
+#### 9011. freeciv in lsof output
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, lsof | Score: 0 | Views: 61 | Answers: 1 | Created: 2025-01-17
+
+**解决方案 / Solution**:
+lsof tries to match port with a service name specified in /etc/services: $ grep freeciv /etc/services freeciv 5556/tcp rptp # Freeciv gameplay Use -P option to prevent that: -P inhibits the conversion of port numbers to port names for network files. Inhibiting the conversion may make lsof run a little faster. It is also useful when port name lookup is not working properly.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789752/freeciv-in-lsof-output
+
+---
+
+#### 9012. Why my Ubuntu installation fails? restarts to initramfs
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, boot | Score: 0 | Views: 122 | Answers: 1 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+You need to increase your EFI partition, a 5Mib isn't sufficient for dualbooting. Increase the EFI partition to 500 Mib. Archlinux wiki Note: It is possible to use a smaller partition, but mind the potential compatibility issues: For early and/or buggy UEFI implementations the size of at least 512 MiB might be needed. 1 If you plan to mount the partition to /boot and will not install more than one kernel, then 400 MiB will be sufficient. When dual booting with Windows, the size should be at least 300 MiB for drives with a 4096 logical sector size (Advanced Format 4Kn drives)[2] or at least 100 MiB otherwise.[3] To ensure the partition can be formatted to FAT32, it should be at least 36 MiB on drives with 512 byte logical sector size and 260 MiB on drives with 4096 logical sector size.[4] If none of these are relevant issues, the partition size can be as small as 2 MiB, in which case it could house nothing more than a boot loader.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789572/why-my-ubuntu-installation-fails-restarts-to-initramfs
+
+---
+
+#### 9013. How to umount USB?/dev/sda is already mounted
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mount | Score: 0 | Views: 1192 | Answers: 1 | Created: 2025-01-14
+
+**解决方案 / Solution**:
+If you look at your question you'll already see the problem you're missing: /dev/sda isn't mounted. /dev/sda1 , the first partition on /dev/sda is . Ventoy, whatever it is, refuses to monkey around with the disk while a partition on it is still mounted. Unmount /dev/sda1 either via the umount command or by doing it via the file manager, and the script should work fine. (I'm saying "should" because it's a bash script and I make absolutely no guarantees about anything else that might be in there).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789546/how-to-umount-usb-dev-sda-is-already-mounted
+
+---
+
+#### 9014. WiFi Not working in Ubuntu 22.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, wifi, drivers, hp | Score: 0 | Views: 358 | Answers: 1 | Created: 2025-01-12
+
+**解决方案 / Solution**:
+The driver is available from universe repository: rtl8821ce-dkms sudo add-apt-repository universe sudo apt update sudo apt install dkms rtl8821ce-dkms Add only blacklist rtw88_8821ce to your blacklist file. Reloading the driver: sudo modprobe -rv rtw_8821ce sudo modprobe -v rtw_8821ce See the outpout of lspci -knn |grep -i net -A3 to know which kernel driver is already in use. Unload other driver than rtw_8821ce .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789442/wifi-not-working-in-ubuntu-22-04
+
+---
+
+#### 9015. What L3-protocols do Linux implemented over IPv6?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, networking, ipv6 | Score: 0 | Views: 134 | Answers: 1 | Created: 2025-01-09
+
+**解决方案 / Solution**:
+I suspect you did not have the necessary kernel modules loaded, or you're running a kernel which had those features compiled out. It looks like the ip6_tunnel module is where the "raw IP6-in-IP6" (protocol 41) tunnel type is implemented. (The IP6-in-IP4 equivalent, which Linux calls sit , is indeed much more commonly used.) Typically, creating an 'ip6tnl' tunnel interface would cause the module to be automatically loaded – this "on demand" mechanism works because without a tunnel interface the kernel isn't going to accept such tunneled packet regardless. For generic anyIP-in-anyIP tunneling one would usually use GRE (protocol 47), which is also definitely supported by all Linux versions – but likewise available as a module ( ip6_gre ) on most distributions, autoloaded when you create a 'gre' or 'ip6gre' type tunnel interface. Linux also supports ESP (protocol 50) and AH (protocol 51) as part of its IPsec implementation; those would be loaded when an IPsec transform is set up by something like strongSwan. Similarly, there are several rarely-used transport protocols such as SCTP (protocol 132) or DCCP (protocol 33) which aren't loaded into the kernel because hardly anything uses them on a typical desktop PC. Opening a SCTP socket would trigger module loading and would make the kernel start recognizing protocol 132 packets. A few other protocols, such as OSPF (protocol 89), are handled by userspace (Bird or FRR ospfd) opening a SOCK_RAW socket with the desired IPPROTO_* value.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789274/what-l3-protocols-do-linux-implemented-over-ipv6
+
+---
+
+#### 9016. any opensource software to create virtual tape library
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, centos, software-rec, tape | Score: 0 | Views: 1306 | Answers: 2 | Created: 2025-01-08
+
+**解决方案 / Solution**:
+As mentioned, there is mhvtl. It can be installed on either CentOS or Ubuntu. As an example: https://github.com/markh794/mhvtl/issues/80 As another option, there is StarWind VTL. It is not open-source, however, has a free version. https://www.starwindsoftware.com/starwind-virtual-tape-library-free
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789256/any-opensource-software-to-create-virtual-tape-library
+
+---
+
+#### 9017. Does the presence of a .ssh directory force remote access via Public key authentication?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, raspberry-pi, key-authentication | Score: 0 | Views: 73 | Answers: 1 | Created: 2025-01-08
+
+**解决方案 / Solution**:
+To disable password authentication, the SSH server needs to have PasswordAuthentication no in its configuration, usually in /etc/ssh/sshd_config . The existence of an .ssh directory in a user's home directory does not mean anything, nor does the existence of an authorized_keys file in that directory. In particular, it does not force the use of key-based authentication, nor does it prevent or enable password-based authentication. If password authentication is disabled, then the SSH server will, by default, look in ~/.ssh/authorized_keys for authorized keys, provided that the .ssh directory and the file have the appropriate permissions ( 0700 for the directory and 0600 for the file).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789224/does-the-presence-of-a-ssh-directory-force-remote-access-via-public-key-authent
+
+---
+
+#### 9018. mDNS hostname from other device gets assigned local
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, dns, hostname, host-name-resolution, mdns | Score: 0 | Views: 201 | Answers: 1 | Created: 2025-01-04
+
+**解决方案 / Solution**:
+The code finds the "default network interface" of the ESP32 device based on routing parameters, then uses its IP address and the configured hostname to announce the presence of the device and the availability of its HTTP service over mDNS. The code to find the "default network interface" is pretty simple, and my guess would be that if there is no default gateway configured on the ESP32 device, the code could accidentally pick the 127.0.0.1 loopback interface as the "default", and the system would end up claiming it's at that address. So: make sure the ESP32 device actually gets configured with a sensible default gateway value. If the device is in a closed network that has no real route to the internet, use the IP address of the Ubuntu PC as the fake "default gateway" for the ESP32. You don't need to anything special at the Ubuntu PC: the purpose of this is just to ensure the code you pasted sees a "default gateway" associated with the ESP32's physical network interface, and so will pick its IP address to announce over mDNS, rather than 127.0.0.1.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/789085/mdns-hostname-from-other-device-gets-assigned-local
+
+---
+
+#### 9019. Restart certain services after upgrading specific packages
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, unattended-upgrades | Score: 0 | Views: 744 | Answers: 2 | Created: 2024-12-29
+
+**解决方案 / Solution**:
+apt has a few hooks which can be used before and after it runs dpkg , and some of those are given the list of packages about to be processed. See How to get package name in apt hooks? for more information and links to references, and this answer to How can I run a script after a specific package is upgraded? for a detailed example. Essentially, you’d write a script processing a list of packages given on its standard input, and configure it using DPkg::Pre-Install-Pkg in apt ’s configuration.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788845/restart-certain-services-after-upgrading-specific-packages
+
+---
+
+#### 9020. Is it possible to change from a LVM + Raid 1 setup to LVM on a live system?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, lvm, mdadm | Score: 0 | Views: 227 | Answers: 1 | Created: 2024-12-25
+
+**解决方案 / Solution**:
+I mean even theoretically, this must not be a problem: The whole point of RAID 1 is that if one disk fails, the other disk can function alone. So, worst case: you just remove one physical store, the RAID 1 is "degraded" (i.e., there's no mirroring, but then you go ahead, and just copy its content to a new LVM volume on the space formerly used by the mirror. Then you remove the original RAID1, and use the freed space to extend your LVM volume. I'm not sure what exactly you mean with RAID1+lvm. If that happens to be lvmraid (see man lvmraid ): The more elegant way (and what I'd recommend to avoid a full-disk copy) is to convert the lvmraid 1 to linear: lvconvert -m0 my_volume_group/my_volume -m is for "number of mirrors". Setting it to 0 means removing the mirroring altogether. Afterwards, you'll want to lvresize -l 100%FREE -r my_volume_group/my_volume to use the freed space for your volume. Serious question though: A while ago you thought your Kafka instance was so important that you wanted to have full failover in case of a storage device fail, now you can't even afford larger SSDs. That doesn't sound like a consistent development strategy. Are you sure this is the way to go? Will you regret this decision soon? I'd argue that RAID1 is almost never a good idea to begin with: you get the "slowest writer defines highest possible speed at any given moment" problem, and your system won't even notice if the two copies disagree due to, say, one experiencing a bitflip; and even if the system somehow noticed the discrepancy (it doesn't), there would be no way of knowing which copy is right. So, IMHO, RAID1 with two disks only makes sense atop of integrity-checked volumes! So, the layering would be physical storage under a dm-integrity layer under an LVM RAID. (Much easier would be to use ZFS with zraid and data checksums, that would actually do the check whether all data read is correct.) And even then, with two identical SSDs with identical data load, chances are that if one fails, the other is already likely to be close to failing, so, you need to be darn fast at replacing that failed SSD. Kafka itself brings replication; that might be the solution here: instead of mirroring the storage within one machine, you have two machines, and set the replication factor of all topics to 2.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/788681/is-it-possible-to-change-from-a-lvm-raid-1-setup-to-lvm-on-a-live-system
+
+---
+
+#### 9021. Installing Ubuntu version 18.04 (i.e. prior to 20.04 and so on) throws errors
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, linux-kernel | Score: 0 | Views: 234 | Answers: 1 | Created: 2024-12-08
+
+**解决方案 / Solution**:
+This is an issue with ubuntu live usb versions before 19. It happens when you try to make a live usb with persistence in rufus. Set "persistent partition size" to 0 and it should work.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787812/installing-ubuntu-version-18-04-i-e-prior-to-20-04-and-so-on-throws-errors
+
+---
+
+#### 9022. Nvidia GPU doesn't work on any distribution
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nvidia, thinkpad | Score: 0 | Views: 231 | Answers: 1 | Created: 2024-12-06
+
+**解决方案 / Solution**:
+You may want to try official Nvidia drivers, available for your card here . Download option gets and installation script that you should run. I advice to read the script first, or at least run it with the --help parameter.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787751/nvidia-gpu-doesnt-work-on-any-distribution
+
+---
+
+#### 9023. apt-btrfs-snapshot isn't supported despite using btrfs
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, btrfs, snapshot, kde-neon | Score: 0 | Views: 169 | Answers: 1 | Created: 2024-11-25
+
+**解决方案 / Solution**:
+I found the reason: UUID=5478d0cc-e982-4347-a7e1-040d1c432850 / btrfs subvol=@,space_cache=v2,compress=zstd:3,defaults 0 1 By default (and originally), the option is subvol=/@ . Changing it to subvol=@ solved it! This pointed me to the cause in /usr/lib/python3/dist-packages/apt_btrfs_snapshot.py : def _get_supported_btrfs_root_fstab_entry(self): """ return the supported btrfs root FstabEntry or None """ for entry in self.fstab: if ( entry.mountpoint == "/" and entry.fstype == "btrfs" and "subvol=@" in entry.options): return entry return None
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787156/apt-btrfs-snapshot-isnt-supported-despite-using-btrfs
+
+---
+
+#### 9024. Install software on User1 and use it on User2
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, software-installation, dependencies | Score: 0 | Views: 656 | Answers: 1 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+For anything that is available as a package in your repositories, simply install with sudo apt install package1 package2 ... packageN All users will have access to what the packages install, and cannot change them without root access. If you also need to install specific binaries, the details depend on how these are distributed. If they come as precompiled binaries and simply need to be copied somewhere, then copy them to /usr/local/bin . You could use any directory that is in your user's PATH variable, but /usr/local/bin is the normal location for such binaries. See the Linux Filesystem Hierarchy : The /usr/local hierarchy is for use by the system administrator when installing software locally. It needs to be safe from being overwritten when the system software is updated. It may be used for programs and data that are shareable amongst a group of hosts, but not found in /usr. Locally installed software must be placed within /usr/local rather than /usr unless it is being installed to replace or upgrade software in /usr. If you download source code and compile it yourself, it will probably come with an install script. Usually, the proceeedure is: Extract the files from the source tarball. Something like tar xvzf someDomeCode.tar.gz cd into the directory the command above created where the files will be and run ./configure . Run make to compile. Run sudo make install to install the various bits and pieces to the right place (the configure script above should have determined what the right place is). Now, again, the tools should be available to all users. I am guessing that for zlib and hdf5 , you want to install them so that other tools can be compiled using them, so you want the -dev versions of the packages: sudo apt install zlib1g-dev libhdf5-dev
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/787003/install-software-on-user1-and-use-it-on-user2
+
+---
+
+#### 9025. Unable to get USB Serial path/connection on Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, serial-port, ttyusb | Score: 0 | Views: 396 | Answers: 1 | Created: 2024-11-20
+
+**解决方案 / Solution**:
+Note that the lsusb does not display any vendor/product information for the device. Since you know it should be an USB-Serial device, that probably means the device manufacturer has configured the USB-Serial converter chip with a custom vendor/product ID. Searching for the ID values in the USB ID Repository indicates the vendor ID 18ef is associated with ELV Elektronik AG . Googling for "ELV Elektronik" and the iProduct string "EWD 100" mentioned in the lsusb -v listing for the device brought me here: https://de.elv.com/p/elv-bausatz-elektronische-widerstandsdekade-ewd-100-P130476/?itemId=130476 Is this the device you're trying to get working? Loading the Windows driver package and inspecting the slabvcp.inf file inside it confirms that the driver is indeed for a Silicon Laboratories CP210x serial converter. So you'll need to teach the Linux cp210x module a new vendor/device ID pair to recognize. Fortunately, there is a system for that. To test if the theory is correct, first run sudo modprobe cp210x , and then this command: echo "18ef e026" | sudo tee /sys/bus/usb-serial/drivers/cp210x/new_id >/dev/null This tells the cp210x serial converter module to assume any USB device with that vendor/product ID pair is actually a Silicon Laboratories CP210x serial converter. That should allow the module to recognize the device and present a /dev/ttyUSB* device for it. If you can see the device, keep on reading. The modprobe command and the addition of the ID are non-persistent: you would have to re-enter these commands after each reboot. To make this configuration persistent, you should create a file named /etc/modprobe.d/ewd-100.conf (you can name it anything you want, the filename just needs to have the .conf suffix), with the following contents: alias usb:v18EFpE026d*dc*dsc*dp*ic*isc*ip*in* cp210x install cp210x /sbin/modprobe -i cp210x; /bin/echo '18ef e026' >>/sys/bus/usb-serial/drivers/cp210x/new_id The first line tells the kernel module autoloading mechanism to load the cp210x module whenever a USB device with that vendor/product ID pair is detected; the second line automates the command to feed the new IDs to the module itself after it's loaded. After adding these settings and rebooting (or running sudo depmod ), the system should now auto-detect the device and present a /dev/ttyUSB* device for it as soon as you plug it in.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786946/unable-to-get-usb-serial-path-connection-on-ubuntu
+
+---
+
+#### 9026. mysqldump fails constantly - ubuntu 20.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mysql | Score: 0 | Views: 395 | Answers: 2 | Created: 2024-11-20
+
+**解决方案 / Solution**:
+thanks for your replies, yes, it worked before, we use InnoDB, what worked was Set innodb_force_recovery to 1 (either in your custom .cnf or set in the DB command line): SET GLOBAL innodb_force_recovery = 1; This helped in recovering from InnoDB corruption and allowed to perform the dump. After dump is complete, reset innodb_force_recovery, Reset innodb_force_recovery to 0: mysql> SET GLOBAL innodb_force_recovery = 0; In /etc/mysql/, your custom *.cnf: innodb_force_recovery = 0 # Provide help in recovering from InnoDB corruption and might allow you to perform mysql dump If you don't reset, you could receive other errors, not being able to login etc. Preferred is set from mysql commandline mysql> SET GLOBAL innodb_force_recovery = 0; Or in your dump script, bash etc.: # mysql --defaults-extra-file="$your_mysql_password_cfg" -e "SET GLOBAL innodb_force_recovery = 0;" Other values which might improve performance and tuning related to mysql dumps, advised on other sites etc.: [mysqld] innodb_buffer_pool_size = 45GB # 70-80% of total RAM max_allowed_packet= 2G # max_allowed_packet - max size 2GB wait_timeout = 28800 interactive_timeout = 28800 net_read_timeout = 1200 # 20 minutes net_write_timeout= 1200 # 20 minutes net_buffer_length = 64K [mysqldump] # max_allowed_packet - largest allowed value (2GB) max_allowed_packet = 2G
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/786926/mysqldump-fails-constantly-ubuntu-20-04
+
+---
+
+#### 9027. How to free space on boot partition on Debian if deleting kernels is not enough for fixing kernel upgrade?
+
+**问题描述 / Problem Description**:
+Tags: debian, linux-kernel, boot, upgrade | Score: -1 | Views: 509 | Answers: 2 | Created: 2026-03-25
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/805143/how-to-free-space-on-boot-partition-on-debian-if-deleting-kernels-is-not-enough
+
+---
+
+#### 9028. How to fix "Error: Cannot find module 'node:path'" error that displays when opening a terminal window?
+
+**问题描述 / Problem Description**:
+Tags: debian, node.js, npm | Score: -1 | Views: 371 | Answers: 1 | Created: 2026-03-05
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804849/how-to-fix-error-cannot-find-module-nodepath-error-that-displays-when-open
+
+---
+
+#### 9029. How do I thoroughly wipe a corrupted drive and reformat on Debian?
+
+**问题描述 / Problem Description**:
+Tags: linux, partition, windows, hard-disk, gpt | Score: -1 | Views: 774 | Answers: 1 | Created: 2025-07-03
+
+**解决方案 / Solution**:
+You've overwritten the partition table by formatting the entire disk ( /dev/sdc ), rather than just the first partition ( /dev/sdc1 ) If there's no important data on the drive, then just start over from scratch, delete and create a new partition table, create the partition, and then format the partition , NOT the entire drive: sudo mkfs.exfat -n 4tbBackup /dev/sdc1 If there IS important data on the drive, copy it somewhere else first (e.g. with cp -a or rsync or tar , perhaps even with a Dos/Windows-compatible archiving tool like zip or 7z ) then recreate the partition table and format the first partition as above, then restore the data back to the new partition.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797620/how-do-i-thoroughly-wipe-a-corrupted-drive-and-reformat-on-debian
 
 ---

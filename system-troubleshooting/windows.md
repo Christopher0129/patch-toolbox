@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9658**
+**总计条目 / Total entries: 9704**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -131475,5 +131475,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234655#reply2
+
+---
+
+#### 9659. Even with a UPS my electricity is frying every PSU I buy.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vqzmfc/even_with_a_ups_my_electricity_is_frying_every/
+
+---
+
+#### 9660. Spyware on my iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5u3w/spyware_on_my_iphone/
+
+---
+
+#### 9661. how to know if my ssd's actually dead and not just disloged?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr0mww/how_to_know_if_my_ssds_actually_dead_and_not_just/
+
+---
+
+#### 9662. My system might be compromised, not sure what to do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vqzx65/my_system_might_be_compromised_not_sure_what_to_do/
+
+---
+
+#### 9663. Trying to figure out why all browsers are slow to load on my Windows PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr36zd/trying_to_figure_out_why_all_browsers_are_slow_to/
+
+---
+
+#### 9664. Issue regarding re-/disconection on bluetooth devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vqshz8/issue_regarding_redisconection_on_bluetooth/
+
+---
+
+#### 9665. Laptop programs have lost access to internet.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr6dux/laptop_programs_have_lost_access_to_internet/
+
+---
+
+#### 9666. Help identify jarring sound playing randomly in Windows 11 (Audio link inside)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr6bck/help_identify_jarring_sound_playing_randomly_in/
+
+---
+
+#### 9667. windows 11 makes error sound like every 40 minutes and sometimes it switches me out of the application I'm currently using like pressing Alt+Tab
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr63qz/windows_11_makes_error_sound_like_every_40/
+
+---
+
+#### 9668. Missing Windows Drive Formation, what do I do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5zey/missing_windows_drive_formation_what_do_i_do/
+
+---
+
+#### 9669. attack shark x11 dongle not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5ugv/attack_shark_x11_dongle_not_working/
+
+---
+
+#### 9670. cant update my bios
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5tl3/cant_update_my_bios/
+
+---
+
+#### 9671. Desktop not booting properly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5o60/desktop_not_booting_properly/
+
+---
+
+#### 9672. “Secured, can’t connect to this network”
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr5ijs/secured_cant_connect_to_this_network/
+
+---
+
+#### 9673. Can a burnt DVD+R disk play on a playstation?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vqvd73/can_a_burnt_dvdr_disk_play_on_a_playstation/
+
+---
+
+#### 9674. What can this mean?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr51vl/what_can_this_mean/
+
+---
+
+#### 9675. SSD connection disappears and PC restarts then boots into BIOS despite the SSD being detected before the first boot sequence
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4v51/ssd_connection_disappears_and_pc_restarts_then/
+
+---
+
+#### 9676. Bios problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4sao/bios_problem/
+
+---
+
+#### 9677. Issues with Miracast on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4rth/issues_with_miracast_on_windows_11/
+
+---
+
+#### 9678. Wifi issues on singular device seemingly after Windows Update.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vquuor/wifi_issues_on_singular_device_seemingly_after/
+
+---
+
+#### 9679. Pc reset not working no matter what!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4qar/pc_reset_not_working_no_matter_what/
+
+---
+
+#### 9680. RAID Enclosure not appearing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4oyy/raid_enclosure_not_appearing/
+
+---
+
+#### 9681. Windows 11 BSOD IRQL_NOT_LESS_OR_EQUAL
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr4o21/windows_11_bsod_irql_not_less_or_equal/
+
+---
+
+#### 9682. Ping speed varies from 12 - 32,999ms… WiFi unusable, provider blames cables?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vr469n/ping_speed_varies_from_12_32999ms_wifi_unusable/
+
+---
+
+#### 9683. [V2EX] Codex 登录问题，提示 Sign-in could not be completed
+
+**问题描述 / Problem Description**:
+不管是 codex 桌面版还是 VScode 的插件，选择 chatgpt 登录跳转之后都提示这个： 提示如下： Sign-in could not be completed Token exchange failed: error sending request for url ( https://auth.openai.com/oauth/token ) Error code token_exchange_failed Details Token exchange failed: error sending request for url ( https://auth.openai.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235151#reply2
+
+---
+
+#### 9684. [V2EX] 发现$v2ex 被盗了，助记词泄漏
+
+**问题描述 / Problem Description**:
+今天登陆 V2EX ，发现说我的代币没了，助记词没放多少钱，之前拍过，上传过 iCloud 和夸克网盘，看了一下是一个月前就被动了，但是我这个钱包 2 年没动过，存放 V2EX 代币的帐户是里面的子钱包。 这是 iCloud 还是夸克网盘的审核员看到了？大意了觉得小钱包就没太在意。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235149#reply2
+
+---
+
+#### 9685. [V2EX] 很神奇， cursor 怎么还有 50%优惠
+
+**问题描述 / Problem Description**:
+在淘宝买的账号，付款时间是昨天，100 美金 。是在什么地方还有邀请链接能半价付？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235118#reply3
+
+---
+
+#### 9686. [V2EX] 市面上的智能家居产品怎么都没带声音和灯光检测的，想做一个了。
+
+**问题描述 / Problem Description**:
+看了一圈传感器价格，发现还不便宜。问一下 v 友：如果有一个 299-349 的小设备放在卧室里，每晚告诉你 CO₂、温湿度、光线和噪声，并告诉你卧室环境哪里可能影响睡眠，你会买吗？ 如果需要的人多了，感觉我们可以一起开源搞搞硬件和软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235105#reply3
+
+---
+
+#### 9687. [V2EX] 那个银行信用卡可以提供地址证明呢.英文的?
+
+**问题描述 / Problem Description**:
+a utility bill or bank statement from your country of residence 最近 3 个月的.英文的,招行信用卡有吗.,水电煤好像都是网上交,怎么搞发票?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235100#reply3
+
+---
+
+#### 9688. [V2EX] 本地部署用啥现在？ LLMstudio， VLLM， SGLANG
+
+**问题描述 / Problem Description**:
+哪个好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235092#reply0
+
+---
+
+#### 9689. [V2EX] token 经济来了吗
+
+**问题描述 / Problem Description**:
+假如有企业园区资源，怎么通过卖 token 赚钱，园区各类企业都有，如果能说通政府产促部门，如何一手 token 一手企业 赚中间商的钱？有感兴趣的 v 友吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235090#reply3
+
+---
+
+#### 9690. [V2EX] 现在的 com 域名怎么这么贵了
+
+**问题描述 / Problem Description**:
+看了一下普遍都要 20 美元左右了，印象中还是 10 美元左右的，什么时候涨价这么多了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235089#reply9
+
+---
+
+#### 9691. [V2EX] 返利软件报税有人搞过吗
+
+**问题描述 / Problem Description**:
+陆续每个月大概有 500 元左右京粉等软件返利，不知道明年报税会不会有什么影响，有无知道的 v 友说说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235084#reply11
+
+---
+
+#### 9692. [V2EX] deepseek 为什么没有 ICP 备案号
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235083#reply1
+
+---
+
+#### 9693. [V2EX] 请教, 如何相对可靠地约束 Agent/LLM 处理或者输出内容时"不丢语义+文字最少"?
+
+**问题描述 / Problem Description**:
+当前状态, Agent/LLM 输出的内容都偏累赘,尤其是非代码类内容输出,它总是尝试解释更多. 是否有可靠的方法约束 Agent/LLM 尽可能做到"不丢语义+文字最少+最短篇幅"? 就非代码内容来说: 最短篇幅, 可以强制要求输出内容优先以表格形式,大概就是当前最的文字组织方式了. 不丢语义+最少文字, 好像是有上限的, Agent/LLM 能把 1000 字的水文压到 100 字,然后就不太愿意再精简了. 关于代码: 我觉得代码的水平进步太多太明显了, 得益于 Agent/LLM 本身的能力增强,也得益于"lint + format"工具. 目标明确 + "lint + format"工
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235081#reply9
+
+---
+
+#### 9694. [V2EX] 我有个问题， AI 做算术题是计算的，还是推理得出的？
+
+**问题描述 / Problem Description**:
+比如说 123412345.88* 1212993.01 这样随机 2 个数相乘。 它是分析后认为是乘法题，然后用乘法算法进行计算的，还是直接推导得出的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235080#reply2
+
+---
+
+#### 9695. [V2EX] 万坛，求推荐 BD-R, DVD-RW 的光驱
+
+**问题描述 / Problem Description**:
+背景：购入了《超时空辉夜姬》的 BD ，但是手头并没有设备能播放它。想入个新光驱，替换掉手里的绿联 DVD 光驱。搜了搜 B 站推荐视频也都感觉不靠谱，也没什么很好的新人入坑帖子/教程，故来求助。 需求： 必须是 USB 光驱，不要 SATA ，过于笨重转接复杂 需要支持 BD-R 全区播放 支持 CD/DVD 刻录，有时候要刻一些 DVD 数据盘 预算在 300-500 左右 如果支持 UHD 播放就更棒了。 感觉这个圈子参考资料很少啊，有些死气沉沉的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235079#reply2
+
+---
+
+#### 9696. [V2EX] 并夕夕 APP 端是否增加了防止划走功能？
+
+**问题描述 / Problem Description**:
+打开并夕夕 APP ，从底部向上划走，会划不动，多滑几次就可以划走了，然后再划就好坏走，等过一段时间又重置成不好划走的模式，测试设备是 iPhone16promax ，其他设备还没试过
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235071#reply14
+
+---
+
+#### 9697. [V2EX] 个人如何低成本做 AI 短视频
+
+**问题描述 / Problem Description**:
+最近想试试 ai 短视频，但是这 seedance2 成本太高了呀。 各位彦祖、亦非们，有无 API 渠道或者其他方式，可以推荐推荐呀🙏🙏🙏。 小弟要是起号成了，包答谢的🙇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235070#reply0
+
+---
+
+#### 9698. [V2EX] 各位大佬，身边去德国工作的人多吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235066#reply4
+
+---
+
+#### 9699. [V2EX] 求一个购买菲律宾的礼品卡平台
+
+**问题描述 / Problem Description**:
+可以使用支付宝支付的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235064#reply0
+
+---
+
+#### 9700. [V2EX] 15 年工作经验，一面过了去参加二面要求写 c++基础笔试题，要你会怎么办
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235051#reply5
+
+---
+
+#### 9701. [V2EX] codex 有几天没重置了，现在到收割我们的时候了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235050#reply2
+
+---
+
+#### 9702. [V2EX] 快手校招要求上传近 6 个月 ai 对话记录
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235047#reply32
+
+---
+
+#### 9703. My mouse (Onn. Gaming Mouse) has been working fine but the sensor has started to falter on and off and now it wont detect?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, mouse, wireless-mouse, sensors | Score: 0 | Views: 69 | Answers: 1 | Created: 2026-08-09
+
+**解决方案 / Solution**:
+The fact that clicks and scrolling still work while movement completely dies actually narrows this down quite a bit. The buttons and wheel are handled directly by the mouse controller, while motion comes from a separate subsystem, the little optical sensor underneath that’s constantly taking images of the surface. Since it behaves the same way on two different computers, that pretty much rules out the USB connection, OS and drivers. That’s also why reinstalling drivers didn’t change anything. The problem is much more likely on the sensor side, not with anything the PC is talking to. Before declaring the mouse dead, I’d check three things: Look underneath while moving it and if there’s no visible illumination, that’s worth noting. Some mice use IR, so you might not see it with your eyes, but a phone camera will often pick it up. If the illumination LED has actually died, the sensor is basically trying to image a dark surface. Clean around the sensor lens and get into the little lens recess properly. A single hair or bit of dust across the aperture can completely kill tracking while leaving every other function working normally. Pay attention to how it failed, because The "worked intermittently for a while, then stopped completely" progression is pretty typical of a cracked solder joint or a failing illumination LED. While moving the mouse, gently press on the shell directly above the sensor. If tracking flickers back when you do that, that’s a pretty strong clue that you’ve found a hardware fault. If none of that brings it back, I’d assume the sensor assembly itself has failed. On a cheap mouse, that usually means replacement rather than repair.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939569/my-mouse-onn-gaming-mouse-has-been-working-fine-but-the-sensor-has-started-to
+
+---
+
+#### 9704. Force windows to use a faster network connection for network shares (SMB)
+
+**问题描述 / Problem Description**:
+Tags: windows, networking | Score: 2 | Views: 145 | Answers: 2 | Created: 2026-08-17
+
+**解决方案 / Solution**:
+After a couple hours of debugging I have correctly (I think) identified the root cause and 2 potential solutions, 1 on either side of the link. Presumptions: My primary method of testing (and usage) was copying files to and from the network shares. Aka using SMB. Ultimately the iperf test proves that this is not a NETWORK LINK issue. That leaves us with 2 other potential causes: Routing SMB itself Like I said in OP, I tested manually adding a route, which had no effect. I am not a not a networking whiz, so this is a little out of my depth and I lack the knowledge to verify how the route is working. But assuming nothing broke means it was working, that eliminates routing as the culprit. This leaves SMB itself. I went through dozens of commands, but I'll only post what ultimately yielded results. SMB has a feature called Multichannel. It's on by default in the versions of samba and windows I have. While I can't use it to aggregate my connections (apparently a server-only feature), apparently it functions as failover / high reliability. (Hence it using the other connection if I disable the 1st one.) Get-SmbMultichannelConnection = Server Name Selected Client IP Server IP Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable ----------- -------- --------- --------- ---------------------- ---------------------- ------------------ ------------------- 192.168.10.5 True 192.168.0.2 192.168.0.5 4 3 False False So even tho the share is mapped with the IP of the fast connection, SMB does its own path discovery and is choosing the wrong connection. Why tho? Eventually we land on the following command providing the critical clue: Get-SmbMultichannelConnection -ServerName "192.168.10.5" | Format-List * = SmbInstance : Default ClientInterfaceFriendlyName : Realtek 2.5G ClientInterfaceIndex : 9 ClientIpAddress : 192.168.10.2 ClientLinkSpeed : 100000000 ClientRdmaCapable : False ClientRSSCapable : False CurrentChannels : 0 Failed : False FailureCount : 0 MaxChannels : 1 Selected : True ServerInterfaceIndex : 2 ServerIpAddress : 192.168.10.5 ServerLinkSpeed : 100000000 ServerName : 192.168.10.5 ServerRdmaCapable : False ServerRSSCapable : True PSComputerName : If you count the 0's you'll notice that's actually 100M. So technically SMB is doing the correct thing and choosing the higher bandwidth connection - only based on faulty data. But why is the data faulty? Well, google's dumb AI overview thing actually made itself useful for once. It worded the answer well, so here's the relevant bit: The underlying problem is that Windows relies on the remote server's SMB implementation (such as Samba on TrueNAS/Unraid or Synology DSM) to negotiate and declare the interface specs. The original source is https://linustechtips.com/topic/864034-problem-setting-up-samba-multichannel-connection-and-achieving-2gbit-trasnfers/ This gives us 2 possible solutions on either end: 1. Client side (windows) Force SMB to use the faster link manually, regardless of what it thinks by using a constraint: New-SmbMultichannelConstraint -ServerName "192.168.10.5" -InterfaceIndex 9 -Force 2. Server side (linux/samba) Have the server correctly advertise the link speed. /etc/samba/smb.conf ↓ interfaces = "eno1;capability=RSS" , "enp4s0;speed=2500000000,capability=RSS" P.S. Technically disabling SMB multi-channel can probably count as a 3rd solution, tho I have not tested it. (I tested the other 2.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939747/force-windows-to-use-a-faster-network-connection-for-network-shares-smb
 
 ---

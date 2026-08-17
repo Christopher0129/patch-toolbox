@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8607**
+**总计条目 / Total entries: 8653**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -116191,5 +116191,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234445#reply5
+
+---
+
+#### 8608. Apple has updated the traffic light buttons in macOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr08s2/apple_has_updated_the_traffic_light_buttons_in/
+
+---
+
+#### 8609. What’s your opinion on this wallpaper
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqwtpd/whats_your_opinion_on_this_wallpaper/
+
+---
+
+#### 8610. macOS 26.6.2 is now available
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqzfoe/macos_2662_is_now_available/
+
+---
+
+#### 8611. Memories of Tiger
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqxzxx/memories_of_tiger/
+
+---
+
+#### 8612. New MS Office Design?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqne8t/new_ms_office_design/
+
+---
+
+#### 8613. MacOS Sonoma 14.8.9 and Sequoia 15.7.9 security update (August 6th 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr218a/macos_sonoma_1489_and_sequoia_1579_security/
+
+---
+
+#### 8614. Looking for a mouse ("radial" menu) and trackpad based window management tool. Do none offer both?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr58ts/looking_for_a_mouse_radial_menu_and_trackpad/
+
+---
+
+#### 8615. upgraded sequoia to last version 15.7.9, then I have a bug when I open a PDF document it always opens it behind and when using F3 it won't bring it to the front unless I go to windows (chrome) and select "bring all to front"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr3kw4/upgraded_sequoia_to_last_version_1579_then_i_have/
+
+---
+
+#### 8616. Is Tahoe better than Sequoia on MacBook Pro M1?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr2r9f/is_tahoe_better_than_sequoia_on_macbook_pro_m1/
+
+---
+
+#### 8617. What a Monterey (wallpaper) on my Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr620u/what_a_monterey_wallpaper_on_my_mac/
+
+---
+
+#### 8618. Unable to sign in to Apple Account after updating to 26.6.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqthcn/unable_to_sign_in_to_apple_account_after_updating/
+
+---
+
+#### 8619. Safari constantly loses site icons
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqpyz7/safari_constantly_loses_site_icons/
+
+---
+
+#### 8620. Many months after Apple Creator Studio released. What are people's thoughts?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqy440/many_months_after_apple_creator_studio_released/
+
+---
+
+#### 8621. Tons of glitches with Wallpaper settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqx46q/tons_of_glitches_with_wallpaper_settings/
+
+---
+
+#### 8622. What Mac should I buy and where from?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqskgq/what_mac_should_i_buy_and_where_from/
+
+---
+
+#### 8623. CRD MacBook → Mac Mini: Control + Arrow won’t switch Spaces
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqrhil/crd_macbook_mac_mini_control_arrow_wont_switch/
+
+---
+
+#### 8624. I built Levl because macOS still has no per-app volume mixer - it also adapts for calls and headphones
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqzdr3/i_built_levl_because_macos_still_has_no_perapp/
+
+---
+
+#### 8625. A custom set of terminal functions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqbkoo/a_custom_set_of_terminal_functions/
+
+---
+
+#### 8626. Apple changed the T&C's of the podcast app and hijacked my data of downloaded podcasts. I want them back.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vqsswr/apple_changed_the_tcs_of_the_podcast_app_and/
+
+---
+
+#### 8627. [V2EX] 继 LaunchX 融入 claude/codex 快捷切换功能之后，新增了一个功能「股票」
+
+**问题描述 / Problem Description**:
+小韭菜今年入市，最近在研究一些策略，回看一些股票数据的时候有点麻烦，桌面版同花顺我试着用了，老是误点一些东西，就很烦，索性周末两天用 glm-5.3 把这个功能融入到我的 LaunchX 中，这样我以后回看某个股票近期数据的时候就比较方便。 顺带，把 AI 分析也一并融入了进去，效果如下： 功能-股票 AI 分析.gif 设置界面中，自定义自己的 AI 模型，我试了一下，调用 DeepSeekv4f ，一次 2 分钱，还行。 后续有可能会加入多只股票对比 AI 分析的功能，目前这个我还是在 Marvis 中使用，感觉也挺好。 最后还通过 glm-5.3 把之前 LaunchX 网站优化了一下，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234838#reply0
+
+---
+
+#### 8628. [V2EX] 美区 id 是主力，刚买港版 iPhone 17pm 有三问
+
+**问题描述 / Problem Description**:
+刚买港版 iphone ，买 mbp 的时候只注册了一个美区 id ，现在刚开始用手机，需要一个国区 id 来下载一些外区没有的软件，有以下三个问题需要问下。 1 、国区：中国大陆的 Apple 账户必须与一个经验证的中国电话号码相关联。 这里填的 86 手机号 已经在注册美区的时候使用了，这里可以也用这个大陆 86 手机号吗 2 、国区邮箱你们通常用 gmail 还是 qq 一类的 3 、美区账号因为无法解决支付的问题，mbp 中 shadowrocket 是用共享账号登陆下载的，现在手机上也遇到这个问题，但是不像使用共享账号，以免带来锁机及隐私泄漏的风险，有没有更好的方式？购买礼品卡？目前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235067#reply10
+
+---
+
+#### 8629. [V2EX] 我记得以前 apple watch 微信语音电话会震动，是我记错了吗
+
+**问题描述 / Problem Description**:
+以前是国行 s7 ，现在换了美版的 s10 手表设置了静音模式 亲测电话会正常震动，微信消息正常通知震动，语音电话无任何通知。 是我设置问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234962#reply2
+
+---
+
+#### 8630. [V2EX] mtcgame 这么坑人的嘛，付了款不发货
+
+**问题描述 / Problem Description**:
+如题，想冲个土区礼品卡，mtcgame 付款成功，然后不发卡密，状态显示 kyc ，但是又找不到任何 kyc 的入口，有人碰到这种问题吗？我就只是想给 gpt 冲个值怎么这么难啊，贵就算了还不给我发货，坑人啊😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234937#reply9
+
+---
+
+#### 8631. [V2EX] iPhone 18 Pro 想买首发 想买非国行版本 有什么渠道吗？
+
+**问题描述 / Problem Description**:
+就算是香港 肉身跑一趟的车票价格都还挺贵的 暂时没有去旅游的打算 所以不考虑顺路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234749#reply28
+
+---
+
+#### 8632. [V2EX] 升级 ios26.6 掉电池健康度
+
+**问题描述 / Problem Description**:
+升级到 ios26.6 降电池健康度了。之前 ios26.5.1 还是 100% （忘记截图了） 上周升级完发现少了 2%看着难受死了。不知道是显示问题还是真的掉了 你们升级完掉了吗？ https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814141106-10-278.SXjPpj https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814140855-9-278.SXjKPq
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234375#reply14
+
+---
+
+#### 8633. [V2EX] 看见有人说 m1pro 的 mbp,我想说,当初多花 3000 买的 32g 还是很香啊
+
+**问题描述 / Problem Description**:
+我买的官翻的,当初好像是 13800 分了 24 免息买的. 感觉现在用起来还是很丝滑. 系统是 26.5.1 . 刚去苹果官网查了一下最新的处理是 m5 了. 不觉感叹时间真快 搜了一下 m5pro 比 m1pro 提升 约 61%.但是估计实际体验差别不大吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233999#reply62
+
+---
+
+#### 8634. [V2EX] 研究了一下 local.ai
+
+**问题描述 / Problem Description**:
+刚刚看都在接力 https://local.ai/yeyuanxinyi/invite 注册看了一下，貌似是一个针对本地人工智能，基于设备推荐合适大模型的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235143#reply0
+
+---
+
+#### 8635. [V2EX] 动画电影《牛来》导演信雨萌专访
+
+**问题描述 / Problem Description**:
+大概内容：片尾曲真不错，有点淡淡的，想起了让我们一起划起双桨 导演信雨萌：92 年生大连人，原做装修/景观设计，2021 年因热爱跨界做动画，5 年几乎一人完成 86 分钟动画电影。非科班，无团队，无投资，无 AI——纯手工一帧一帧做的。 母亲孙丽芳是整个故事最感人的部分：国企普通职员，从未学过音乐却自学完成了全部配乐和片尾曲《雨后清风有香》的词曲创作及演唱，还深度参与编剧讨论、包办女性角色配音、后期帮忙处理事务。信雨萌说能做成这事"命好占了 99.9%"。 https://www.bilibili.com/video/BV1JQbe6qEpF/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235139#reply1
+
+---
+
+#### 8636. [V2EX] DSH 插件导航站，每条安装命令都测试跑了一遍～
+
+**问题描述 / Problem Description**:
+做了个 DSH 插件导航。跟已有的几个只有一条不一样：每条 dsh plugin add 命令，我都真的跑过。 自己每个插件开一个一次性容器装一遍，跑了 1793 次。 第一个照出来的是自己的问题。851 条声明了 npm 包的收录里，412 条是坏的： 362 个包在 registry 上根本不存在，作者只是在 package.json 里写了个名字，我们把「写了名字」当成了「发布了」。 50 个存在但属于别人。fork 会原样继承上游的 package.json ，所以 fork 页面上印的是上游的命令，装下去拿到的是别人的代码。 已经全部修掉，回退到 github 安装。现在每张卡片的命
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235115#reply0
+
+---
+
+#### 8637. [V2EX] 推荐一个时长 1 小时 53 分钟的 AI 电影《出马仙镇东北》
+
+**问题描述 / Problem Description**:
+这个电影是目前我看过的，在时长、特效、剧本、配乐、故事情节、甚至情怀方面都独步各种 AI 视频的电影。 个人最喜欢的是剧本（故事本身）非常出色，尽管在运镜方面还有不少缺点，但故事本身的精彩可以压过这个不足。 第二喜欢的是配乐，真的很民族，很传统，又很出色，仿佛天生为东北故事而生。 最后诸仙家大战晴明，将故事腿上高潮。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235077#reply5
+
+---
+
+#### 8638. [V2EX] 继续跪求大佬蹭我们的桌面工作台，高速 GPT5.5、5.6， V 站注册用户已过百，现在充值返回加码
+
+**问题描述 / Problem Description**:
+高速 GPT5.5 、GPT5.6 、Claude ，回帖送 20 刀 现在在推广阶段，背靠上市公司，非小型中转站，只求更多用户体验、反馈工作台 APP 。 只要持续产生使用量的，积分其实一直会重置（通过积分自动充值） 软件下载： https://code.phanthy.com/work?source=v2ex&utm_source=v2ex&utm_medium=community&utm_campaign=token_factory_2026_r2&utm_content=v2ex_f0_launch_20260817_01&content_code=v2ex_f0_launch_202
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235076#reply0
+
+---
+
+#### 8639. [V2EX] 半年用了 7 款 AI 编程 CLI，整理了一篇使用对比
+
+**问题描述 / Problem Description**:
+这半年把 Claude Code 、Codex CLI 、opencode 、pi 、omp 、Grok Build 、DeepSeek Harness 都装了一遍认真用，整理成一篇对比文章： https://www.myaiexp.com/zh/insights/ai-coding-cli-comparison 核心结论就两条： 1. 工具没有好坏，只有合不合适，让一个工具干所有活是最大的浪费； 2. 模型再强，干活也要有监督，最好还是独立第三方。 我现在的分工：Claude Code 写主力，Codex 攻坚 + CR ，pi 管小改动的快速检查，omp 审复杂 PR （--advisor
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235065#reply3
+
+---
+
+#### 8640. [V2EX] 我们还在讨论“牛来”会不会驱逐良币，别人都靠“牛来”赚了十几个 W 了
+
+**问题描述 / Problem Description**:
+据说有的 3D 打印农场，打印牛来的模型，都已经赚了不少钱了，这速度也太快了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235053#reply2
+
+---
+
+#### 8641. [V2EX] 美亚 买礼品卡被封了。怎么申诉？
+
+**问题描述 / Problem Description**:
+英语不好，有没有邮件可以申诉的？ 找了好几个都是 no-replay
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235045#reply7
+
+---
+
+#### 8642. [V2EX] 电商把商品的多样性都给打击无了
+
+**问题描述 / Problem Description**:
+各大电商平台搜充电宝，手机壳之类的，反反复复都是那几个品类。之前的充电宝丢了，我想买个 5000 的小充电宝，各个平台翻了几十页竟毫无类似的产品，要么就是缺货状态。 这玩意的根源就在于电商绑定了工厂，你想卖货自己开模，那成本很高，量上不去绝对赔钱到哭。但你卖工厂的货，不但不用压货，卖不了的工厂还可以回收。这导致几乎没人去开模做新的产品了。 纯吐槽一下，之前都是商品经济把手工艺品给冲击没落了，感觉电商已经把个性需求也冲击没落了，怕以后就是品牌方，工厂方，平台方三分消费者天下的格局了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235042#reply26
+
+---
+
+#### 8643. [V2EX] AI 给我尝试的勇气——是“我还没学会”，而不是“我不会”
+
+**问题描述 / Problem Description**:
+应该是今年初吧，关掉了持续运行 16 年的 minecraft 服务器 开服的时候还是一群初高中生，到现在有些朋友的小孩都能站起来了 关掉的原因是没精力去维护了 前几天看到野兽先生的一个视频，也是讲 minecraft 的，心血来潮之下打算重启了 以前装 mod 心惊胆战，装好这个崩那个（不过那是 forge 还没出的事情了） 以前想要点什么功能需要自费请人定制 以前有好多好多的想法… 当然了，现在虽然不再为了服务器费用那么发愁，以前觉得几百块天塌了 现在觉得就是几顿饭钱。 现在有了 AI 之后，什么都敢做了 唯一还缺的就是年轻时的精力和大把的时间了 :P 结果到头来还是缺，哈哈哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235020#reply0
+
+---
+
+#### 8644. [V2EX] 个人程序开发运营过程分享
+
+**问题描述 / Problem Description**:
+过程 我自己开发了 web 和小程序,分享些个人经验给大家。 为了避免推广嫌疑,就不发具体链接了。 必须抢先市场! 我有血一样的教训。 背景: "洛克王国世界"是一个手游,里面有个"远行商人"4 小时刷新一次物资。 偶尔会出现超稀有物资,如果出现了,发送通知。 这是一个非常的痛点需求,非常多人想要。 我做了一个邮件通知, 5-29 我在 nga 发帖,瞬间引爆,当天就有 500+邮件订阅。 其实大家都不喜欢邮件的,奈何这直击痛点啊。 现在已经从 950 人订阅降到 850 人了。 在 7-24,我开发了小程序版本,再次发帖:没人! 有个老哥一直做先发内容,帖子流量简直好到爆。 如果我是在 5-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235009#reply13
+
+---
+
+#### 8645. [V2EX] [开源] 写了个纯 Swift 原生的 macOS 文件默认打开方式批量管理工具： DutiGUI
+
+**问题描述 / Problem Description**:
+平时换主力编辑器（比如从 VS Code 换到 Cursor / Zed ）或者配新 Mac 时，改默认打开方式总要一个个右键设置，比较繁琐；直接用 duti 命令查 Bundle ID 语法又略显麻烦。 写了个纯原生的 macOS 小工具 DutiGUI ，把常见代码与文件类型的打开方式批量修改做成了可视化的一键操作。 ✨ 几个特点： 100% 纯 Swift 原生 ：基于 AppKit & CoreServices ，零 Electron 套壳，体积小启动快； 零依赖开箱即用 ：已内置独立执行引擎，用户无需手动安装 Homebrew 或外部依赖； 自动检索应用 ：自动扫描系统已安装 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235005#reply0
+
+---
+
+#### 8646. [V2EX] 本来想补仓点沪深 老婆逼我买金条不补仓基金
+
+**问题描述 / Problem Description**:
+今年单位年终奖发得还行，本来想补仓点沪深 300 指数基金，结果老婆刷抖音看到金价涨得猛，非要去银行买金条。我看了下招行的金价，确实比年初高了不少，但总觉得现在追高有点慌。她一句话怼回来：你那基金天天绿，黄金至少是硬的。想想也是，去年定投的易方达消费行业，到现在还套着十几个点，真没啥底气反驳。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234989#reply14
+
+---
+
+#### 8647. [V2EX] Spec Coding 保姆级教程 这个教程真的很棒
+
+**问题描述 / Problem Description**:
+以前直接想到需求就跟 AI 说 前段时间看了这篇文章 真的非常有收获 教程网址： aHR0cHM6Ly9kb2NzLmJpZ21vZGVsLmNuL2NuL2NvZGluZy1wbGFuL2Jlc3QtcHJhY3RpY2Uvc3BlYy1raXQ= 请使用 base64 解码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234988#reply0
+
+---
+
+#### 8648. [V2EX] 终于让 Windows 分应用记住我上次使用的输入法了
+
+**问题描述 / Problem Description**:
+想要这种设置：shell 使用英文，切换到浏览器使用中文，再次切回 shell 还是英文，并且只有一种切换语言的快捷键 step1：时间和语音》语言区域》语言 留下英文和微软拼音两个输入法 step2：切换到中文输入法 右下角输入法 [中] 右键》设置》常规》默认模式》切换到中文 step3：回到上一级菜单》按键》模式切换 中把所有的中/英模式切换都取消勾选 step4： 时间和语音》输入》高级键盘设置》切换输入法 勾选允许我为每个应用窗口使用不同输入法 step5： 同级菜单下选择 输入语言热键》选中 在输入语言之间》点击更改按键顺序，把切换输入语言 选一个（我选择 alt+空格），切换键盘
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234958#reply17
+
+---
+
+#### 8649. [V2EX] Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？
+
+**问题描述 / Problem Description**:
+https://github.com/agalwood/Motrix
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234920#reply1
+
+---
+
+#### 8650. [V2EX] 如何最大化 Claude Code Session 的价值
+
+**问题描述 / Problem Description**:
+这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234919#reply0
+
+---
+
+#### 8651. [V2EX] 中国古建测试效果 deepseek v4 pro + max 推理强度
+
+**问题描述 / Problem Description**:
+提示词: ```text 请创建一个可运行的 3D 体素（ Voxel ）风格中国古典建筑群场景，用 Three.js 实现， 浏览器打开即可观看，风格类似 Minecraft 体素块拼接。 [场景要求] 1. 建筑群至少 5 座建筑，主次关系明确： - 主殿：体量最大，位于中轴线核心位置 - 配殿：对称分布于主殿两侧 - 山门：位于场地前端入口 - 宝塔或钟鼓楼 1-2 座 2. 空间布局： - 建筑间距合理（体素比例下足以容纳道路与庭院） - 有明确的道路动线连接：山门 → 庭院 → 主殿 - 整体呈中轴对称的院落布局 3. 建筑风格（中式古典）： - 屋顶：飞檐翘角，含歇山顶/庑殿顶/攒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234909#reply0
+
+---
+
+#### 8652. [V2EX] 我了个豆 周末带娃去 Meland 发现。。。
+
+**问题描述 / Problem Description**:
+我就日常带着耳机看看 B 站视频 或者刷刷抖音平时，毕竟娃要玩好久。。 然后边是看了一眼 边上的老哥 居然是一个平板在用 workbuddy... 我用了那么久的 codex gpt 还真没用过 workbuddy 。。。 果然是 AI 无处不在了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234846#reply5
+
+---
+
+#### 8653. [V2EX] 我的农场终于集齐星火、月光 2 件套了
+
+**问题描述 / Problem Description**:
+还别说，还挺好看的。最近感觉玩农场有点上头了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234845#reply6
 
 ---

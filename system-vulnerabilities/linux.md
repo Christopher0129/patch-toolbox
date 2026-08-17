@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2846**
+**总计条目 / Total entries: 2914**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -51794,5 +51794,1281 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0fad25687d4d3fa
 - https://git.kernel.org/stable/c/7972df425687daa70d971fe6ed415e78683133dd
 - https://git.kernel.org/stable/c/7ac4c86915c24c208a0f0611b71d9676686fe756
 - https://git.kernel.org/stable/c/8128bec895075253c779d67afdc90ae513265fca
+
+---
+
+#### 2847. CVE-2026-15218 - models-as-a-service: Red Hat OpenShift AI: maas-api and maas-controller…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] models-as-a-service: Red Hat OpenShift AI: maas-api and maas-controller ServiceAccounts with excessive permissions lead to privilege escalation. Bugzilla: 2498426
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2498426
+
+---
+
+#### 2848. CVE-2026-19970 - assimp: Assimp: Remote heap-based buffer overflow vulnerability
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Remote heap-based buffer overflow vulnerability. Bugzilla: 2517292
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517292
+
+---
+
+#### 2849. CVE-2026-19969 - assimp: Assimp: Buffer overflow in 3DGS MDL7 model processing
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Buffer overflow in 3DGS MDL7 model processing. Bugzilla: 2517289
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517289
+
+---
+
+#### 2850. CVE-2026-19967 - assimp: Assimp: Heap-based buffer overflow in file decompression
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Heap-based buffer overflow in file decompression. Bugzilla: 2517288
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517288
+
+---
+
+#### 2851. CVE-2026-72428 - kernel: bpf: Fix stack slot index in nospec checks
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Fix stack slot index in nospec checks. Bugzilla: 2516226
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516226
+
+---
+
+#### 2852. CVE-2026-72245 - kernel: gpu: host1x: Fix device reference leak in host1x_device_parse_dt() error…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: gpu: host1x: Fix device reference leak in host1x_device_parse_dt() error path. Bugzilla: 2516227
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516227
+
+---
+
+#### 2853. CVE-2026-72403 - kernel: ALSA: FCP: Fix NULL pointer dereference in interface lookup
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ALSA: FCP: Fix NULL pointer dereference in interface lookup. Bugzilla: 2516228
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516228
+
+---
+
+#### 2854. CVE-2026-72190 - kernel: ntfs: fix mrec_lock ABBA deadlock in rename
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ntfs: fix mrec_lock ABBA deadlock in rename. Bugzilla: 2516229
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516229
+
+---
+
+#### 2855. CVE-2026-72292 - kernel: KVM: s390: Initialize KVM_S390_GET_CMMA_BITS memory
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: s390: Initialize KVM_S390_GET_CMMA_BITS memory. Bugzilla: 2516230
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516230
+
+---
+
+#### 2856. CVE-2026-72454 - kernel: i3c: mipi-i3c-hci: Fix race in i3c_hci_addr_to_dev()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: i3c: mipi-i3c-hci: Fix race in i3c_hci_addr_to_dev(). Bugzilla: 2516231
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516231
+
+---
+
+#### 2857. CVE-2026-72025 - kernel: s390/monwriter: Reject buffer reuse with different data length
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/monwriter: Reject buffer reuse with different data length. Bugzilla: 2516232
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516232
+
+---
+
+#### 2858. CVE-2026-72310 - kernel: smb: client: fix overflow in passthrough ioctl bounds check
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: smb: client: fix overflow in passthrough ioctl bounds check. Bugzilla: 2516233
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516233
+
+---
+
+#### 2859. CVE-2026-72396 - kernel: hwmon: adm1275: Prevent reading uninitialized stack
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: hwmon: adm1275: Prevent reading uninitialized stack. Bugzilla: 2516234
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516234
+
+---
+
+#### 2860. CVE-2026-72042 - kernel: ipmi: Fix user refcount underflow in event delivery
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ipmi: Fix user refcount underflow in event delivery. Bugzilla: 2516235
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516235
+
+---
+
+#### 2861. CVE-2026-72305 - kernel: VDUSE: avoid leaking information to userspace
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: VDUSE: avoid leaking information to userspace. Bugzilla: 2516236
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516236
+
+---
+
+#### 2862. CVE-2026-63650 - openvpn: mbedtls: OpenVPN: User misidentification via ignored X.509 identity field
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: mbedtls: OpenVPN: User misidentification via ignored X.509 identity field. Bugzilla: 2516214
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516214
+
+---
+
+#### 2863. CVE-2026-63649 - openvpn: OpenVPN: Privilege escalation via arbitrary configuration file loading
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Privilege escalation via arbitrary configuration file loading. Bugzilla: 2516213
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2516213
+
+---
+
+#### 2864. [Ubuntu] USN-8640-1: Engrampa vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Engrampa incorrectly handled symbolic links when extracting certain archives. An attacker could possibly use this issue to write arbitrary files and execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8640-1
+
+---
+
+#### 2865. [Ubuntu] USN-8631-4: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8631-4
+
+---
+
+#### 2866. [Ubuntu] USN-8629-2: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-2026-46331, CVE-2026-52924, CVE-20
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8629-2
+
+---
+
+#### 2867. CVE-2004-0626
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: gentoo:linux, linux:linux_kernel, suse:suse_linux, conectiva:linux
+
+**漏洞描述 / Description**:
+The tcp_find_option function of the netfilter subsystem in Linux kernel 2.6, when using iptables and TCP options rules, allows remote attackers to cause a denial of service (CPU consumption by infinite loop) via a large option length that produces a negative integer after a casting operation to the char type.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000852.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000852
+- http://lwn.net/Articles/91964/
+- http://marc.info/?l=bugtraq&m=108861141304495&w=2
+- http://www.gentoo.org/security/en/glsa/glsa-200407-12.xml
+- http://www.novell.com/linux/security/advisories/2004_20_kernel.html
+
+---
+
+#### 2868. CVE-2004-1333
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:linux, redhat:fedora_core
+
+**漏洞描述 / Description**:
+Integer overflow in the vc_resize function in the Linux kernel 2.4 and 2.6 before 2.6.10 allows local users to cause a denial of service (kernel crash) via a short new screen value, which leads to a buffer overflow.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17826.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17826
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2869. CVE-2004-1334
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:linux, redhat:fedora_core
+
+**漏洞描述 / Description**:
+Integer overflow in the ip_options_get function in the Linux kernel before 2.6.10 allows local users to cause a denial of service (kernel crash) via a cmsg_len that contains a -1, which leads to a buffer overflow.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110383108211524&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110383108211524&w=2
+- http://www.guninski.com/where_do_you_want_billg_to_go_today_2.html
+- http://www.securityfocus.com/bid/11956
+- http://www.securitytrap.com/mail/full-disclosure/2004/Dec/0323.html
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18522
+
+---
+
+#### 2870. CVE-2004-1335
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:linux, redhat:fedora_core
+
+**漏洞描述 / Description**:
+Memory leak in the ip_options_get function in the Linux kernel before 2.6.10 allows local users to cause a denial of service (memory consumption) by repeatedly calling the ip_cmsg_send function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110383108211524&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110383108211524&w=2
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+- http://www.debian.org/security/2006/dsa-1067
+
+---
+
+#### 2871. CVE-2004-1374
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: netbsd:netbsd
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in NetBSD kernel may allow local users to execute arbitrary code and gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://gleg.net/advisory_netbsd2.shtml.
+
+**参考链接 / References**:
+- http://gleg.net/advisory_netbsd2.shtml
+- http://gleg.net/advisory_netbsd2.shtml
+
+---
+
+#### 2872. CVE-2004-0685
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:enterprise_linux, trustix:secure_linux, redhat:enterprise_linux_desktop
+
+**漏洞描述 / Description**:
+Certain USB drivers in the Linux 2.4 kernel use the copy_to_user function on uninitialized structures, which could allow local users to obtain sensitive information by reading memory that was not cleared from previous usage.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=127921.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=127921
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2873. CVE-2004-0814
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+Multiple race conditions in the terminal layer in Linux 2.4.x, and 2.6.x before 2.6.9, allow (1) local users to obtain portions of kernel data via a TIOCSETD ioctl call to a terminal interface that is being accessed by another thread, or (2) remote attackers to cause a denial of service (panic) by switching from console to PPP line discipline, then quickly sending data that is received during the switch.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=131672.
+
+**参考链接 / References**:
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=131672
+- http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=133110
+- http://marc.info/?l=bugtraq&m=110306397320336&w=2
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:022
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+
+---
+
+#### 2874. CVE-2004-1305
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: nortel:symposium_web_client, nortel:symposium_tapi_service_provider, microsoft:windows_2000, microsoft:windows_nt, microsoft:windows_xp
+
+**漏洞描述 / Description**:
+The Windows Animated Cursor (ANI) capability in Windows NT, Windows 2000 through SP4, Windows XP through SP1, and Windows 2003 allow remote attackers to cause a denial of service via (1) the frame number set to zero, which causes an invalid memory address to be used and leads to a kernel crash, or (2) the rate number set to zero, which leads to resource exhaustion and hang.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110382854111833&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110382854111833&w=2
+- http://www.kb.cert.org/vuls/id/177584
+- http://www.kb.cert.org/vuls/id/697136
+- http://www.us-cert.gov/cas/techalerts/TA05-012A.html
+- http://www.xfocus.net/flashsky/icoExp/
+
+---
+
+#### 2875. CVE-2004-1337
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: ubuntu:ubuntu_linux, gnu:realtime_linux_security_module, conectiva:linux
+
+**漏洞描述 / Description**:
+The POSIX Capability Linux Security Module (LSM) for Linux kernel 2.6 does not properly handle the credentials of a process that is launched before the module is loaded, which allows local users to gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://marc.info/?l=bugtraq&m=110384535113035&w=2
+- http://www.securityfocus.com/bid/12093
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18673
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+
+---
+
+#### 2876. CVE-2004-0138
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+The ELF loader in Linux kernel 2.4 before 2.4.25 allows local users to cause a denial of service (crash) via a crafted ELF file with an interpreter with an invalid arch (architecture), which triggers a BUG() when an invalid VMA is unmapped.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://kernel.debian.net/debian/pool/main/kernel-source-2.4.17/kernel-source-2.4.17_2.4.17-1woody4_ia64.changes.
+
+**参考链接 / References**:
+- http://kernel.debian.net/debian/pool/main/kernel-source-2.4.17/kernel-source-2.4.17_2.4.17-1woody4_ia64.changes
+- http://kernel.org/pub/linux/kernel/v2.4/ChangeLog-2.4.25
+- http://linux.bkbits.net:8080/linux-2.4/cset%404021346f79nBb-4X_usRikR3Iyb4Vg
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+
+---
+
+#### 2877. CVE-2004-0919
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: freebsd:freebsd
+
+**漏洞描述 / Description**:
+The syscons CONS_SCRSHOT ioctl in FreeBSD 5.x allows local users to read arbitrary kernel memory via (1) negative coordinates or (2) large coordinates.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:15.syscons.asc.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:15.syscons.asc
+- http://secunia.com/advisories/12722
+- http://www.kb.cert.org/vuls/id/969078
+- http://www.securityfocus.com/bid/11321
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17584
+
+---
+
+#### 2878. CVE-2004-0997
+
+**严重程度 / Severity**: N/A | CVSS: 4.6
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in the ptrace MIPS assembly code in Linux kernel 2.4 before 2.4.17 allows local users to gain privileges via unknown vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://kernel.debian.net/debian/pool/main/kernel-source-2.4.17/kernel-source-2.4.17_2.4.17-1woody4_ia64.changes.
+
+**参考链接 / References**:
+- http://kernel.debian.net/debian/pool/main/kernel-source-2.4.17/kernel-source-2.4.17_2.4.17-1woody4_ia64.changes
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2879. CVE-2004-1017
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Multiple "overflows" in the io_edgeport driver for Linux kernel 2.4.x have unknown impact and unknown attack vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/19374.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/19374
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2880. CVE-2004-1767
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: sun:solaris, sun:sunos
+
+**漏洞描述 / Description**:
+The kernel in Solaris 2.6, 7, 8, and 9 allows local users to gain privileges by loading arbitrary loadable kernel modules (LKM), possibly involving the modload function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://sunsolve.sun.com/search/document.do?assetkey=1-26-57479-1.
+
+**参考链接 / References**:
+- http://sunsolve.sun.com/search/document.do?assetkey=1-26-57479-1
+- http://www.kb.cert.org/vuls/id/702526
+- http://www.securityfocus.com/bid/9477
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/14917
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A4532
+
+---
+
+#### 2881. CVE-2004-2013
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Integer overflow in the SCTP_SOCKOPT_DEBUG_NAME SCTP socket option in socket.c in the Linux kernel 2.4.25 and earlier allows local users to execute arbitrary code via an optlen value of -1, which causes kmalloc to allocate 0 bytes of memory.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2004-05/0091.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2004-05/0091.html
+- http://lists.netsys.com/pipermail/full-disclosure/2004-May/021223.html
+- http://marc.info/?l=bugtraq&m=108456230815842&w=2
+- http://www.securityfocus.com/bid/10326
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/16117
+
+---
+
+#### 2882. CVE-2004-2302
+
+**严重程度 / Severity**: N/A | CVSS: 2.6
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Race condition in the sysfs_read_file and sysfs_write_file functions in Linux kernel before 2.6.10 allows local users to read kernel memory and cause a denial of service (crash) via large offsets in sysfs files.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://kernel.org/pub/linux/kernel/people/akpm/patches/2.6/2.6.10-rc1/2.6.10-rc1-mm1/broken-out/fix-race-in-sysfs_read_file-and-sysfs_write_file.patch.
+
+**参考链接 / References**:
+- http://kernel.org/pub/linux/kernel/people/akpm/patches/2.6/2.6.10-rc1/2.6.10-rc1-mm1/broken-out/fix-race-in-sysfs_read_file-and-sysfs_write_file.patch
+- http://linux.bkbits.net:8080/linux-2.6/cset%404186a4deVoR88JjTwMa3ZnIp-_YJsA
+- http://secunia.com/advisories/17826
+- http://secunia.com/advisories/18056
+- http://www.debian.org/security/2005/dsa-922
+
+---
+
+#### 2883. CVE-2004-2339
+
+**严重程度 / Severity**: HIGH | CVSS: 8.4
+**受影响产品 / Affected Products**: microsoft:windows_2000, microsoft:windows_2003_server, microsoft:windows_xp
+
+**漏洞描述 / Description**:
+Microsoft Windows 2000, XP, and possibly 2003 allows local users with the SeDebugPrivilege privilege to execute arbitrary code as kernel and read or write kernel memory via the NtSystemDebugControl function, which does not verify its pointer arguments.  Note: this issue has been disputed, since Administrator privileges are typically required to exploit this issue, thus privilege boundaries are not crossed
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2004-02/0529.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2004-02/0529.html
+- http://archives.neohapsis.com/archives/bugtraq/2004-02/0530.html
+- http://www.securityfocus.com/archive/1/354392
+- http://www.securitytracker.com/id?1009128
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/15263
+
+---
+
+#### 2884. CVE-2004-2536
+
+**严重程度 / Severity**: N/A | CVSS: 7.5
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+The exit_thread function (process.c) in Linux kernel 2.6 through 2.6.5 does not invalidate the per-TSS io_bitmap pointers if a process obtains IO access permissions from the ioperm function but does not drop those permissions when it exits, which allows other processes to access the per-TSS pointers, access restricted memory locations, and possibly gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/11577.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/11577
+- http://www.kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.6
+- http://www.osvdb.org/5997
+- http://www.securityfocus.com/bid/10302
+- http://www.ussg.iu.edu/hypermail/linux/kernel/0405.0/1242.html
+
+---
+
+#### 2885. CVE-2004-2607
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+A numeric casting discrepancy in sdla_xfer in Linux kernel 2.6.x up to 2.6.5 and 2.4 up to 2.4.29-rc1 allows local users to read portions of kernel memory via a large len argument, which is received as an int but cast to a short, which prevents a read loop from filling a buffer.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18977.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18977
+- http://secunia.com/advisories/19369
+- http://www.debian.org/security/2006/dsa-1018
+- http://www.mandriva.com/security/advisories?name=MDKSA-2006:072
+- http://www.securityfocus.com/bid/16759
+
+---
+
+#### 2886. CVE-2004-2613
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: vserver:linux-vserver
+
+**漏洞描述 / Description**:
+Unspecified vulnerability in procfs in the Linux-VServer stable branch for the 2.4 kernel before 1.23 and Linux-VServer development branch for the 2.4 kernel before 1.3.5 has unspecified impact and attack vectors, related to "write access to specific proc entries from a vserver context", a different vulnerability than CVE-2004-2408.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux-vserver.org/ChangeLog.
+
+**参考链接 / References**:
+- http://linux-vserver.org/ChangeLog
+- http://list.linux-vserver.org/archive/vserver/msg05824.html
+- http://www.osvdb.org/7586
+- http://linux-vserver.org/ChangeLog
+- http://list.linux-vserver.org/archive/vserver/msg05824.html
+
+---
+
+#### 2887. CVE-2004-2660
+
+**严重程度 / Severity**: N/A | CVSS: 4.9
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Memory leak in direct-io.c in Linux kernel 2.6.x before 2.6.10 allows local users to cause a denial of service (memory consumption) via certain O_DIRECT (direct IO) write requests.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.6/cset%404182a613oVsK0-8eCWpyYFrUf8rhLA.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%404182a613oVsK0-8eCWpyYFrUf8rhLA
+- http://secunia.com/advisories/21605
+- http://secunia.com/advisories/22093
+- http://secunia.com/advisories/22174
+- http://support.avaya.com/elmodocs2/security/ASA-2006-203.htm
+
+---
+
+#### 2888. CVE-2004-2686
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: sun:solaris, sun:sunos
+
+**漏洞描述 / Description**:
+Directory traversal vulnerability in the vfs_getvfssw function in Solaris 2.6, 7, 8, and 9 allows local users to load arbitrary kernel modules via crafted (1) mount or (2) sysfs system calls.  NOTE: this might be the same issue as CVE-2004-1767, but there are insufficient details to be sure.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://seclists.org/bugtraq/2004/Apr/0081.html.
+
+**参考链接 / References**:
+- http://seclists.org/bugtraq/2004/Apr/0081.html
+- http://securitytracker.com/id?1008833
+- http://www.derkeiler.com/Mailing-Lists/Full-Disclosure/2004-04/0297.html
+- http://www.immunitysec.com/downloads/solaris_kernel_vfs.sxw.pdf
+- http://www.securityfocus.com/bid/9962
+
+---
+
+#### 2889. CVE-2004-2731
+
+**严重程度 / Severity**: N/A | CVSS: 4.4
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Multiple integer overflows in Sbus PROM driver (drivers/sbus/char/openprom.c) for the Linux kernel 2.4.x up to 2.4.27, 2.6.x up to 2.6.7, and possibly later versions, allow local users to execute arbitrary code by specifying (1) a small buffer size to the copyin_string function or (2) a negative buffer size to the copyin function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://archives.neohapsis.com/archives/bugtraq/2004-06/0463.html.
+
+**参考链接 / References**:
+- http://archives.neohapsis.com/archives/bugtraq/2004-06/0463.html
+- http://secunia.com/advisories/11981
+- http://secunia.com/advisories/29058
+- http://securitytracker.com/id?1010617
+- http://www.debian.org/security/2008/dsa-1503
+
+---
+
+#### 2890. CVE-2004-0139
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: sgi:irix
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the bsd.a kernel networking for SGI IRIX 6.5.22 through 6.5.25, and possibly earlier versions, in which "t_unbind changes t_bind's behavior," has unknown impact and attack vectors.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20040905-01-P.asc.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20040905-01-P.asc
+- http://secunia.com/advisories/12682
+- http://www.securityfocus.com/bid/11276
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/17547
+- ftp://patches.sgi.com/support/free/security/advisories/20040905-01-P.asc
+
+---
+
+#### 2891. CVE-2004-0883
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, ubuntu:ubuntu_linux, redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities in the samba filesystem (smbfs) in Linux kernel 2.4 and 2.6 allow remote samba servers to cause a denial of service (crash) or gain sensitive information from kernel memory via a samba server (1) returning more data than requested to the smb_proc_read function, (2) returning a data offset from outside the samba packet to the smb_proc_readX function, (3) sending a certain TRANS2 fragmented packet to the smb_receive_trans2 function, (4) sending a samba packet with a certain header size to the smb_proc_readX_data function, or (5) sending a certain packet based offset for the data in a packet to the smb_receive_trans2 function.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110072140811965&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110072140811965&w=2
+- http://marc.info/?l=bugtraq&m=110082989725345&w=2
+- http://secunia.com/advisories/13232/
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+
+---
+
+#### 2892. CVE-2004-0893
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: microsoft:windows_nt, microsoft:windows_2000, microsoft:windows_2003_server, microsoft:windows_xp
+
+**漏洞描述 / Description**:
+The Local Procedure Call (LPC) interface of the Windows Kernel for Windows NT 4.0, Windows 2000, Windows XP, and Windows Server 2003 does not properly validate the lengths of messages sent to the LPC port, which allows local users to gain privileges, aka "Windows Kernel Vulnerability."
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://docs.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-044.
+
+**参考链接 / References**:
+- https://docs.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-044
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18339
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1321
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1561
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1581
+
+---
+
+#### 2893. CVE-2004-0949
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, ubuntu:ubuntu_linux, redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The smb_recv_trans2 function call in the samba filesystem (smbfs) in Linux kernel 2.4 and 2.6 does not properly handle the re-assembly of fragmented packets correctly, which could allow remote samba servers to (1) read arbitrary kernel information or (2) raise a counter value to an arbitrary number by sending the first part of the fragmented packet multiple times.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110072140811965&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110072140811965&w=2
+- http://secunia.com/advisories/13232/
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+
+---
+
+#### 2894. CVE-2004-1016
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+The scm_send function in the scm layer for Linux kernel 2.4.x up to 2.4.28, and 2.6.x up to 2.6.9, allows local users to cause a denial of service (system hang) via crafted auxiliary messages that are passed to the sendmsg function, which causes a deadlock condition.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://isec.pl/vulnerabilities/isec-0019-scm.txt.
+
+**参考链接 / References**:
+- http://isec.pl/vulnerabilities/isec-0019-scm.txt
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2895. CVE-2004-1056
+
+**严重程度 / Severity**: N/A | CVSS: 6.4
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+Direct Rendering Manager (DRM) driver in Linux kernel 2.6 does not properly check the DMA lock, which could allow remote attackers or local users to cause a denial of service (X Server crash) and possibly modify the video output.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/17002.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/17002
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.redhat.com/support/errata/RHSA-2005-529.html
+- http://www.redhat.com/support/errata/RHSA-2005-551.html
+- http://www.redhat.com/support/errata/RHSA-2005-663.html
+
+---
+
+#### 2896. CVE-2004-1058
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+Race condition in Linux kernel 2.6 allows local users to read the environment variables of another process that is still spawning via /proc/.../cmdline.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://lists.suse.de/archive/suse-security-announce/2006-Feb/0010.html
+- http://secunia.com/advisories/18684
+- http://secunia.com/advisories/19038
+- http://secunia.com/advisories/19369
+
+---
+
+#### 2897. CVE-2004-1066
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: freebsd:freebsd
+
+**漏洞描述 / Description**:
+The cmdline pseudofiles in (1) procfs on FreeBSD 4.8 through 5.3, and (2) linprocfs on FreeBSD 5.x through 5.3, do not properly validate a process argument vector, which allows local users to cause a denial of service (panic) or read portions of kernel memory.  NOTE: this candidate might be SPLIT into 2 separate items in the future.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:17.procfs.asc.
+
+**参考链接 / References**:
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:17.procfs.asc
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18321
+- ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:17.procfs.asc
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18321
+
+---
+
+#### 2898. CVE-2004-1070
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, turbolinux:turbolinux_server, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The load_elf_binary function in the binfmt_elf loader (binfmt_elf.c) in Linux kernel 2.4.x up to 2.4.27, and 2.6.x up to 2.6.8, does not properly check return values from calls to the kernel_read function, which may allow local users to modify sensitive memory in a setuid program and execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://secunia.com/advisories/19607
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+
+---
+
+#### 2899. CVE-2004-1071
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, turbolinux:turbolinux_server, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The binfmt_elf loader (binfmt_elf.c) in Linux kernel 2.4.x up to 2.4.27, and 2.6.x up to 2.6.8, does not properly handle a failed call to the mmap function, which causes an incorrect mapped image and may allow local users to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://secunia.com/advisories/19607
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+
+---
+
+#### 2900. CVE-2004-1072
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, turbolinux:turbolinux_server, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The binfmt_elf loader (binfmt_elf.c) in Linux kernel 2.4.x up to 2.4.27, and 2.6.x up to 2.6.8, may create an interpreter name string that is not NULL terminated, which could cause strings longer than PATH_MAX to be used, leading to buffer overflows that allow local users to cause a denial of service (hang) and possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U.
+
+**参考链接 / References**:
+- ftp://patches.sgi.com/support/free/security/advisories/20060402-01-U
+- http://secunia.com/advisories/19607
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+
+---
+
+#### 2901. CVE-2004-1073
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, turbolinux:turbolinux_server, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The open_exec function in the execve functionality (exec.c) in Linux kernel 2.4.x up to 2.4.27, and 2.6.x up to 2.6.8, allows local users to read non-readable ELF binaries by using the interpreter (PT_INTERP) functionality.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18684.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18684
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+
+---
+
+#### 2902. CVE-2004-1074
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: trustix:secure_linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, turbolinux:turbolinux_server, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The binfmt functionality in the Linux kernel, when "memory overcommit" is enabled, allows local users to cause a denial of service (kernel oops) via a malformed a.out binary.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://marc.info/?l=bugtraq&m=110322596918807&w=2
+- http://marc.info/?l=linux-kernel&m=110021173607372&w=2
+- http://secunia.com/advisories/20162
+- http://secunia.com/advisories/20163
+
+---
+
+#### 2903. CVE-2004-1137
+
+**严重程度 / Severity**: N/A | CVSS: 10.0
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities in the IGMP functionality for Linux kernel 2.4.22 to 2.4.28, and 2.6.x to 2.6.9, allow local and remote attackers to cause a denial of service or execute arbitrary code via (1) the ip_mc_source function, which decrements a counter to -1, or (2) the igmp_marksources function, which does not properly validate IGMP message parameters and performs an out-of-bounds read.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://isec.pl/vulnerabilities/isec-0018-igmp.txt
+- http://marc.info/?l=bugtraq&m=110306397320336&w=2
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:022
+- http://www.novell.com/linux/security/advisories/2004_44_kernel.html
+
+---
+
+#### 2904. CVE-2004-1151
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: linux:linux_kernel, ubuntu:ubuntu_linux
+
+**漏洞描述 / Description**:
+Multiple buffer overflows in the (1) sys32_ni_syscall and (2) sys32_vm86_warning functions in sys_ia32.c for Linux 2.6.x may allow local attackers to modify kernel memory and gain privileges.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.6/cset%401.2079.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%401.2079
+- http://linux.bkbits.net:8080/linux-2.6/gnupatch%4041ae6af1cR3mJYlW6D8EHxCKSxuJiQ
+- http://marc.info/?l=bugtraq&m=110306397320336&w=2
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:022
+- http://www.novell.com/linux/security/advisories/2004_44_kernel.html
+
+---
+
+#### 2905. CVE-2004-1193
+
+**严重程度 / Severity**: N/A | CVSS: 6.6
+**受影响产品 / Affected Products**: prevx:prevx_home
+
+**漏洞描述 / Description**:
+Prevx Home 1.0 allows local users with administrator privileges to bypass the intrusion prevention features by directly writing to \device\physicalmemory, which restores the running kernel's original SDT ServiceTable.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://marc.info/?l=bugtraq&m=110118902823639&w=2.
+
+**参考链接 / References**:
+- http://marc.info/?l=bugtraq&m=110118902823639&w=2
+- http://marc.info/?l=bugtraq&m=110138413816367&w=2
+- http://securitytracker.com/id?1012294
+- https://exchange.xforce.ibmcloud.com/vulnerabilities/18195
+- http://marc.info/?l=bugtraq&m=110118902823639&w=2
+
+---
+
+#### 2906. CVE-2004-1057
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: linux:linux_kernel, redhat:enterprise_linux
+
+**漏洞描述 / Description**:
+Multiple drivers in Linux kernel 2.4.19 and earlier do not properly mark memory with the VM_IO flag, which causes incorrect reference counts and may lead to a denial of service (kernel panic) when accessing freed kernel pages.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/18562.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/18562
+- http://www.kernel.org/pub/linux/kernel/people/andrea/kernels/v2.4/2.4.23aa3/00_VM_IO-4
+- http://www.redhat.com/support/errata/RHSA-2005-016.html
+- http://www.redhat.com/support/errata/RHSA-2005-017.html
+- http://www.redhat.com/support/errata/RHSA-2006-0140.html
+
+---
+
+#### 2907. CVE-2005-0937
+
+**严重程度 / Severity**: N/A | CVSS: 1.2
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Some futex functions in futex.c for Linux kernel 2.6.x perform get_user calls while holding the mmap_sem semaphore, which could allow local users to cause a deadlock condition in do_page_fault by triggering get_user faults while another thread is executing mmap or other functions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.6/cset%40421cfc11zFsK9gxvSJ2t__FCmuUd3Q.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%40421cfc11zFsK9gxvSJ2t__FCmuUd3Q
+- http://lkml.org/lkml/2005/2/22/123
+- http://www.redhat.com/support/errata/RHSA-2005-420.html
+- http://www.securityfocus.com/archive/1/427980/100/0/threaded
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10037
+
+---
+
+#### 2908. CVE-2005-0178
+
+**严重程度 / Severity**: N/A | CVSS: 6.2
+**受影响产品 / Affected Products**: linux:linux_kernel, vserver:linux-vserver, netkit:linux_netkit
+
+**漏洞描述 / Description**:
+Race condition in the setsid function in Linux before 2.6.8.1 allows local users to cause a denial of service (crash) and possibly access portions of kernel memory, related to TTY changes, locking, and semaphores.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://linux.bkbits.net:8080/linux-2.6/cset%4041ddda70CWJb5nNL71T4MOlG2sMG8A
+- http://marc.info/?l=full-disclosure&m=110846102231365&w=2
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.securityfocus.com/bid/12598
+
+---
+
+#### 2909. CVE-2005-0179
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Linux kernel 2.4.x and 2.6.x allows local users to cause a denial of service (CPU and memory consumption) and bypass RLIM_MEMLOCK limits via the mlockall call.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030660.html
+- http://secunia.com/advisories/17002
+- http://www.redhat.com/support/errata/RHSA-2005-092.html
+- http://www.redhat.com/support/errata/RHSA-2005-663.html
+
+---
+
+#### 2910. CVE-2005-0180
+
+**严重程度 / Severity**: N/A | CVSS: 3.6
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Multiple integer signedness errors in the sg_scsi_ioctl function in scsi_ioctl.c for Linux 2.6.x allow local users to read or modify kernel memory via negative integers in arguments to the scsi ioctl, which bypass a maximum length check before calling the copy_from_user and copy_to_user functions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/index.php?id=a&anuncio=000930
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-January/030660.html
+- http://secunia.com/advisories/17826
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:218
+- http://www.mandriva.com/security/advisories?name=MDKSA-2005:219
+
+---
+
+#### 2911. CVE-2005-0736
+
+**严重程度 / Severity**: N/A | CVSS: 2.1
+**受影响产品 / Affected Products**: conectiva:linux, redhat:enterprise_linux_desktop, redhat:enterprise_linux, linux:linux_kernel, redhat:fedora_core
+
+**漏洞描述 / Description**:
+Integer overflow in sys_epoll_wait in eventpoll.c for Linux kernel 2.6 to 2.6.11 allows local users to overwrite kernel memory via a large number of events.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://linux.bkbits.net:8080/linux-2.6/cset%40422dd06a1p5PsyFhoGAJseinjEq3ew?nav=index.html%7CChangeSet%40-1d.
+
+**参考链接 / References**:
+- http://linux.bkbits.net:8080/linux-2.6/cset%40422dd06a1p5PsyFhoGAJseinjEq3ew?nav=index.html%7CChangeSet%40-1d
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-March/032314.html
+- http://www.novell.com/linux/security/advisories/2005_18_kernel.html
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+
+---
+
+#### 2912. CVE-2005-0384
+
+**严重程度 / Severity**: N/A | CVSS: 5.0
+**受影响产品 / Affected Products**: ubuntu:ubuntu_linux, redhat:enterprise_linux, suse:suse_linux, trustix:secure_linux
+
+**漏洞描述 / Description**:
+Unknown vulnerability in the PPP driver for the Linux kernel 2.6.8.1 allows remote attackers to cause a denial of service (kernel crash) via a pppd client.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://secunia.com/advisories/20163.
+
+**参考链接 / References**:
+- http://secunia.com/advisories/20163
+- http://secunia.com/advisories/20202
+- http://secunia.com/advisories/20338
+- http://www.debian.org/security/2006/dsa-1067
+- http://www.debian.org/security/2006/dsa-1069
+
+---
+
+#### 2913. CVE-2005-0767
+
+**严重程度 / Severity**: N/A | CVSS: 6.9
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+Race condition in the Radeon DRI driver for Linux kernel 2.6.8.1 allows local users with DRI privileges to execute arbitrary code as root.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000945.
+
+**参考链接 / References**:
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000945
+- http://www.redhat.com/support/errata/RHSA-2005-366.html
+- https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10431
+- https://usn.ubuntu.com/95-1/
+- http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000945
+
+---
+
+#### 2914. CVE-2005-0750
+
+**严重程度 / Severity**: N/A | CVSS: 7.2
+**受影响产品 / Affected Products**: conectiva:linux, redhat:enterprise_linux_desktop, ubuntu:ubuntu_linux, redhat:enterprise_linux, linux:linux_kernel
+
+**漏洞描述 / Description**:
+The bluez_sock_create function in the Bluetooth stack for Linux kernel 2.4.6 through 2.4.30-rc1 and 2.6 through 2.6.11.5 allows local users to gain privileges via (1) socket or (2) socketpair call with a negative protocol value.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclosure/2005-March/032913.html.
+
+**参考链接 / References**:
+- http://lists.grok.org.uk/pipermail/full-disclosure/2005-March/032913.html
+- http://marc.info/?l=bugtraq&m=111204562102633&w=2
+- http://www.redhat.com/support/errata/RHSA-2005-283.html
+- http://www.redhat.com/support/errata/RHSA-2005-284.html
+- http://www.redhat.com/support/errata/RHSA-2005-293.html
 
 ---
