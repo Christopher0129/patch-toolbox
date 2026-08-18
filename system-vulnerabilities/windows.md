@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1130**
+**总计条目 / Total entries: 1131**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -18111,5 +18111,21 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/384a4b2fef9ffe5
 - https://git.kernel.org/stable/c/b1a719b3c4359ef731646fb7c7844e53dddbda72
 - https://git.kernel.org/stable/c/dbd935a9e056545721bc4e9ce518c775d787b21e
 - https://git.kernel.org/stable/c/dfc8373893b1876bb367700eac9d776316dabd96
+
+---
+
+#### 1131. [Microsoft] CVE-2026-24301 - Microsoft Copilot Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Copilot
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper neutralization of special elements used in a command ('command injection') in Microsoft Copilot allows an unauthorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-24301
 
 ---

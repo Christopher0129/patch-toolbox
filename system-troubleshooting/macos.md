@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8653**
+**总计条目 / Total entries: 8710**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -116789,5 +116789,746 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1234845#reply6
+
+---
+
+#### 8654. Strange Centauri and FTABHarvest files in /tmp folder
+
+**问题描述 / Problem Description**:
+Tags: macos, tahoe | Score: 1 | Views: 151 | Answers: 2 | Created: 2026-07-14
+
+**解决方案 / Solution**:
+These files appear to be part of Apple's operating system. FTABHarvest Based on a GitHub code search for FTABHarvest , it appears this name is associated with Apple's logd and bluetoothd processes. The file entitlements/20C65__iPhone11,2_4_6/usr/sbin/bluetoothd.xml contains: <string>/tmp/FTABHarvest/</string> </array> <array> <array> <string>systemgroup.com.apple.logd_helper.FTABHarvest</string> <string>systemgroup.com.apple.bluetooth</string> Centauri The second file, /tmp/Centauri/wifi-assert-strings.bin , also appears to be part of Apple's Wifi implementation. With the codename also being used for a private framework: /System/Library/PrivateFrameworks/CentauriBooter.framework .
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486754/strange-centauri-and-ftabharvest-files-in-tmp-folder
+
+---
+
+#### 8655. How am I supposed to use the search function in Apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrc9j5/how_am_i_supposed_to_use_the_search_function_in/
+
+---
+
+#### 8656. Window management from hell
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrssuv/window_management_from_hell/
+
+---
+
+#### 8657. Free VNC viewer to connect to MacOS from Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrsumh/free_vnc_viewer_to_connect_to_macos_from_windows/
+
+---
+
+#### 8658. downloading macos high sierra bootable installer
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs0p8k/downloading_macos_high_sierra_bootable_installer/
+
+---
+
+#### 8659. Apple Intelligence takes 10GB even while Disabled
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vr9uyc/apple_intelligence_takes_10gb_even_while_disabled/
+
+---
+
+#### 8660. High Myopia High Astigmatism: How do you handle 4K monitors and macOS scaling?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrtt5z/high_myopia_high_astigmatism_how_do_you_handle_4k/
+
+---
+
+#### 8661. lines randomly appeared on my screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs3m26/lines_randomly_appeared_on_my_screen/
+
+---
+
+#### 8662. Best virtual machine for Macbook Pro M4? (software engineering student)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs3lvc/best_virtual_machine_for_macbook_pro_m4_software/
+
+---
+
+#### 8663. How do I download Microsoft Word and the rest of Office 365 (PowerPoint & Excel) on my Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs1yj8/how_do_i_download_microsoft_word_and_the_rest_of/
+
+---
+
+#### 8664. macOS Tahoe – Disable the Volume/Brightness Notification
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs1697/macos_tahoe_disable_the_volumebrightness/
+
+---
+
+#### 8665. Bluetooth mice
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs0pik/bluetooth_mice/
+
+---
+
+#### 8666. Mac OS Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrk1zz/mac_os_golden_gate/
+
+---
+
+#### 8667. Two Macs, same macOS — only one shows the Apple ID sign-in screen during Setup Assistant. Why?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrwl59/two_macs_same_macos_only_one_shows_the_apple_id/
+
+---
+
+#### 8668. Windows user struggling to efficiently multitask across multiple monitors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrksq3/windows_user_struggling_to_efficiently_multitask/
+
+---
+
+#### 8669. XProtect - there is no UI, no actions yet it seems to miss things (Tahoe)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrvoq2/xprotect_there_is_no_ui_no_actions_yet_it_seems/
+
+---
+
+#### 8670. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrublt/removed_by_reddit/
+
+---
+
+#### 8671. If I backup my new Mac to the cloud, and reset the Mac completely, will it get rid of the software bugs brought from my old Mac from my backup disk?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrrk7e/if_i_backup_my_new_mac_to_the_cloud_and_reset_the/
+
+---
+
+#### 8672. Macbook Pro 16'' 2019: Sequoia or Tahoe?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrrjox/macbook_pro_16_2019_sequoia_or_tahoe/
+
+---
+
+#### 8673. Anql — notes and calculations in one place
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrqn2l/anql_notes_and_calculations_in_one_place/
+
+---
+
+#### 8674. Can’t login
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrq33s/cant_login/
+
+---
+
+#### 8675. Do you think I should update?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vs3kw1/do_you_think_i_should_update/
+
+---
+
+#### 8676. Help setting up BetterTouchTool for Logitech mouse
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vrozss/help_setting_up_bettertouchtool_for_logitech_mouse/
+
+---
+
+#### 8677. [V2EX] vibe coding 了一个 macos26 的 launchpad
+
+**问题描述 / Problem Description**:
+几乎都是 deepseek 完成的，部分由 cursor 完成。 目前的状态是能用，支持快捷键唤出、四指捏合和开机自启动，只在自己电脑上测试过。 后续再考虑文件夹和拖拽部分的交互。 放个 github 地址： aHR0cHM6Ly9naXRodWIuY29tL2NjZHl5L1JsYXVuY2g= 来个预览图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235410#reply1
+
+---
+
+#### 8678. [V2EX] mac 用 clion git 文件变化异常
+
+**问题描述 / Problem Description**:
+mac 用 clion 几乎所有的文件 h cpp 文件在 idea 会被识别 git 有变化 但实际上并没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235229#reply8
+
+---
+
+#### 8679. [V2EX] macOS 自写的第三方计算器小工具
+
+**问题描述 / Problem Description**:
+前言 之前在 Windows 上一直用一款特别轻量的第三方计算器，最近一年主力换到 macOS ，但那款计算器没有 Mac 版本，App Store 和第三方也都没找到合适的替代品。日常又大量依赖计算器，索性花了两周时间，用纯 Swift 自己写了一个。最终打包只有 2.4MB ，代码量很小，但功能一点没砍。 特性 38 位高精度 — Decimal 引擎 三种计算模式 — 基础 / 科学 / 程序员（三角、对数、阶乘、排列组合、质因数分解、进制转换、位运算） 方程求解 — 牛顿法迭代 单位 & 货币转换 — 16 类单位 + 多源汇率缓存 + 中文大写金额 全生态集成 — 灵动岛 / Int
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234639#reply2
+
+---
+
+#### 8680. [V2EX] macOS 版微信又开始喂 shi 了。。。
+
+**问题描述 / Problem Description**:
+鼠标移到输入框，就出现「按住鼠标 语音输入文字」。。。疯了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234207#reply14
+
+---
+
+#### 8681. [V2EX] gfxCardStatus 更新
+
+**问题描述 / Problem Description**:
+我的笔记本很老，2013 early 15" Macbook Pro 。用 OpenCore Legacy Patcher 更新到 macOS 15.7.8 。结果风扇一直拼命转，太吵了，温度也很高。就想用 gfxCardStatus ，一直用独立显卡，会不会好一点。原版本还是 5 、6 年前的，估计不能在 macOS 15 上跑了。于是用 deepseek flash 把代码升级了，现在可以在 macOS 15 上跑，能用，好像也没什么改善。 需要的可以到下面的链接下载。 https://github.com/lylehust/gfxCardStatus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233395#reply2
+
+---
+
+#### 8682. [V2EX] Apple Intelligence 已配置对涩涩图的安全过滤条件
+
+**问题描述 / Problem Description**:
+更新到最近发布的 Developer Beta 后， 目测比较明显的涩涩图（全裸）已经无法激活“扩图”和“构图”功能。 对于不太明显的涩涩图（露点）在使用“扩图”或“构图”功能时， 会被安全过滤条件拦截，提示：“扩图时出错。请稍后再试。”或“安全过滤条件已应用。” 推估 Apple 已经在端侧和云端都加强了安全过滤。 以上纯学术测试完毕。 下面是纯学术探讨， 比如你在纯学术鉴赏照片时，觉得摄淫师拍摄角度不符合预期，或者更偏好“蟑螂视角”之类的特殊嗜好，那 Apple Intelligence 的构图功能调整起来可以说是非常便利。 感觉，第三方 APP 的商机要来了(🐶～)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235409#reply0
+
+---
+
+#### 8683. [V2EX] 制作了一个 AltStore 软件源： AltGallery 欢迎大家来试试
+
+**问题描述 / Problem Description**:
+sidestore 配合 livecontainer 可以在没有电脑的情况下安装各种 ipa 了。不过很多 App 只在 GitHub Release 里放 ipa ，没有对应的源，更新起来挺不方便的。 所以用 Claude 做了这个项目 https://github.com/bebound/AltGallery , 收集了一些常用的软件，生成软件源，定时更新版本。 点 Add AltSource 就能订阅到 SideStore/LiveContainer/AltStore 了 如果有还没收录的软件，欢迎告诉我，我来加进去～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235329#reply4
+
+---
+
+#### 8684. [V2EX] 请教，之前准备搞 gpt，买了几张 200 的美区礼品卡，没用完怎么变现啊？
+
+**问题描述 / Problem Description**:
+还有两个兑换码没充到账户中，怎么安全变现啊，某鱼又怕买家兑换了退货，毕竟金额这么大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235230#reply20
+
+---
+
+#### 8685. [V2EX] ios 上面有没有支持设置 socks 代理的浏览器?
+
+**问题描述 / Problem Description**:
+求大佬推荐, 我有的时候不想使用 vpn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235212#reply7
+
+---
+
+#### 8686. [V2EX] 升级 27 beta6 微信输入法又用不了
+
+**问题描述 / Problem Description**:
+上个版本直接导致 ui 界面卡死，微信输入法升级一次版本后之后好了，现在升级到 beta6 ，这神奇微信输入法又直接无响应了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235167#reply11
+
+---
+
+#### 8687. [V2EX] Surge for MAC V6 版本(最新版) 新开找三位车友,价格 135 买断.
+
+**问题描述 / Problem Description**:
+8 月 18 号购买，订阅一年。之后续订看更新功能一起商量。 联系绿色;X05vdF9Gb3VuZC00LTAtNA== (Base64 解码- https://tool.chinaz.com/tools/base64.aspx )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235157#reply1
+
+---
+
+#### 8688. [V2EX] 美区 id 是主力，刚买港版 iPhone 17pm 有三问
+
+**问题描述 / Problem Description**:
+刚买港版 iphone ，买 mbp 的时候只注册了一个美区 id ，现在刚开始用手机，需要一个国区 id 来下载一些外区没有的软件，有以下三个问题需要问下。 1 、国区：中国大陆的 Apple 账户必须与一个经验证的中国电话号码相关联。 这里填的 86 手机号 已经在注册美区的时候使用了，这里可以也用这个大陆 86 手机号吗 2 、国区邮箱你们通常用 gmail 还是 qq 一类的 3 、美区账号因为无法解决支付的问题，mbp 中 shadowrocket 是用共享账号登陆下载的，现在手机上也遇到这个问题，但是不像使用共享账号，以免带来锁机及隐私泄漏的风险，有没有更好的方式？购买礼品卡？目前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235067#reply14
+
+---
+
+#### 8689. [V2EX] 我记得以前 apple watch 微信语音电话会震动，是我记错了吗
+
+**问题描述 / Problem Description**:
+以前是国行 s7 ，现在换了美版的 s10 手表设置了静音模式 亲测电话会正常震动，微信消息正常通知震动，语音电话无任何通知。 是我设置问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234962#reply5
+
+---
+
+#### 8690. [V2EX] mtcgame 这么坑人的嘛，付了款不发货
+
+**问题描述 / Problem Description**:
+如题，想冲个土区礼品卡，mtcgame 付款成功，然后不发卡密，状态显示 kyc ，但是又找不到任何 kyc 的入口，有人碰到这种问题吗？我就只是想给 gpt 冲个值怎么这么难啊，贵就算了还不给我发货，坑人啊😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234937#reply10
+
+---
+
+#### 8691. [V2EX] WLOC 改定位「好像」在 iOS27 beta5 失效了
+
+**问题描述 / Problem Description**:
+之前版本成功，现在同样的步骤无效，定位依然是真实位置。 目前网络上的教程都是几周之前的，如有新的有效教程，欢迎回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234568#reply11
+
+---
+
+#### 8692. [V2EX] 升级 ios26.6 掉电池健康度
+
+**问题描述 / Problem Description**:
+升级到 ios26.6 降电池健康度了。之前 ios26.5.1 还是 100% （忘记截图了） 上周升级完发现少了 2%看着难受死了。不知道是显示问题还是真的掉了 你们升级完掉了吗？ https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814141106-10-278.SXjPpj https://imgur.la/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-20260814140855-9-278.SXjKPq
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234375#reply15
+
+---
+
+#### 8693. [V2EX] Codex 1000 额度邀请 来几个邮箱呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235421#reply4
+
+---
+
+#### 8694. [V2EX] 知乎现在不给评论：塔拳一体 了啊？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235380#reply0
+
+---
+
+#### 8695. [V2EX] Codex 计划模式生成的计划被翻译成套餐了
+
+**问题描述 / Problem Description**:
+看了半天没看明白这个套餐是啥意思，感觉是类似 subscription plan ，把 plan 翻译成套餐了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235361#reply1
+
+---
+
+#### 8696. [V2EX] 分享一个减少 GPT 输出的「AI 味」的 Skill（纯手写）
+
+**问题描述 / Problem Description**:
+如题，我发现 GPT 5.6 Sol 说话还是经常有一股子 AI 味。所以写了这个 Skill： https://github.com/w568w/stop-slop-cn 纯天然手写，0 AI 添加。 安装方式 npx skills add https://github.com/w568w/stop-slop-cn 其他方式见 README 。 效果预览 使用前（特别喜欢不停换行，列一些没有意义的列表，分一大堆小标题）： 2. 为什么说它是“男性社区” 酷安用户明显偏男性，内容也更接近男性兴趣： - 数码； - 游戏； - 摄影； - 健身； - 装备； 不是那种小红书的精致生活、消费种草，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235318#reply0
+
+---
+
+#### 8697. [V2EX] a➗也 bug 了?猛猛蹬了一整天 opus5,用量就涨了 3 个点
+
+**问题描述 / Problem Description**:
+从早上 8 点开始一直在 3 个项目不持续猛猛跑几乎没停,按照以往经验早该 429 了,一看用了就涨了百分之 3
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235315#reply1
+
+---
+
+#### 8698. [V2EX] 关于电影审查说两句
+
+**问题描述 / Problem Description**:
+仅限于普通影片，不包括重大题材影片 拿着剧本备案（属地备案、属地审查） 备案后开机、制作 然后是内容审查 最后是技术审查 审查完了给龙标
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235308#reply0
+
+---
+
+#### 8699. [V2EX] V 友们 AI 编程都用的啥组合啊？晒一晒
+
+**问题描述 / Problem Description**:
+我大部分用的是 claude code + deepseek/kimi ， 看看大家的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235302#reply11
+
+---
+
+#### 8700. [V2EX] 推荐一个网站上传 PDF 简历并在线分享链接
+
+**问题描述 / Problem Description**:
+一、引言：为什么需要在线分享简历？ 在当今的求职和商务合作中，一份精心准备的 PDF 简历是展示个人能力的关键。然而，通过邮件附件发送简历存在诸多不便：文件可能被拦截、格式可能错乱、且无法追踪查看状态。在线分享简历链接则能完美解决这些问题，它允许你： 即时分享：生成一个永久链接，一键发送给招聘方或合作伙伴。 保护隐私：可设置密码、有效期和下载权限，控制谁可以查看。 追踪分析（部分平台）：了解简历被谁、在何时查看过。 保持格式：确保对方在任何设备上看到的都是你精心排版的原始效果。 本文将详细介绍从上传 PDF 简历到生成可分享链接的全过程。 二、准备工作：制作一份合格的 PDF 简历 在上传之前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235293#reply7
+
+---
+
+#### 8701. [V2EX] 活这么久，第一次知道湿度对体感温度的影响
+
+**问题描述 / Problem Description**:
+之前在老家东北，冷或者热都只是看温度，后来去了江苏和上海也是一样，只看温度来判断体感温度。 今年 3 月买了电子温度计之后，上面有显示温度和湿度，接着在夏天开空调前后，发现温度计上的温度差距不大，但是湿度从 80%多一路降低到 40 多 50 多，这时候明显能感觉，体感温度上凉快了许多，哪怕温度就只差了一两度，这时候还是更相信温度。 直到前段时间因为台风，天气变凉快了许多，就关了空调，但是这两天温度又上升了，看温度计显示的是 30 度上下，这跟之前 7 月份热得不行需要开空调时期的温度是一样的，唯一区别就是现在的湿度只有 50 多 60 多，而那时候是 80 多，这时候我才确信，湿度对体感温度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235277#reply24
+
+---
+
+#### 8702. [V2EX] 花了 8 个小时，精选了 500 个 dsh plugins
+
+**问题描述 / Problem Description**:
+是兄弟来点我， dsh asewome top 500 ，我是渣渣辉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235267#reply0
+
+---
+
+#### 8703. [V2EX] 《牛来》，螺蛳粉，臭屁醋，乔布斯
+
+**问题描述 / Problem Description**:
+最近几天每次回家老远都闻到一股屎臭儿，回到家里了还是有，房间找了个遍。 问老婆才知道小区门口开了一家"臭屁醋"管子，佛山三水的特色。 刷到 v 友的《牛来》帖子，气不打一处来: 大粪味儿的螺蛳粉有人趋之若鹜， 拉屎味儿的臭屁醋买单的也不少。 这 tm 也算乔布斯培养用户习惯的经典案例吧。 受不了，实在受不了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235252#reply12
+
+---
+
+#### 8704. [V2EX] 我又来种草了，推荐电动车/电摩都从铅酸电池换成锂电池
+
+**问题描述 / Problem Description**:
+前端时间把用了三年的电动车的铅酸电池换成了锂电池，走的抖音团购的优惠换的比亚迪 64V24AH 的磷酸铁锂大单体电池（网上说小哈也不错，也可以考虑，但是我附近比亚迪门店最近），还是装在原脚踏下的电池仓里，无损改装。使用了半个月，循环 4 次，后悔换晚了，好处如下： 1.新电池比之前的电池轻了一二十斤，整车重量轻了，操控性明显变好，且底盘可能因为车轻了，离地距离也高了，通过性更好？ 2.新电池动力输出明显更稳定更足，提速比之前快很多，超车更方便了，而且从满电到快用完，动力输出基本无衰减。 3.满电续航差不多 80 公里，上下班通勤单程 10 公里+中午吃饭，三天一冲即可。之前铅酸到后期只能跑 3
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235236#reply55
+
+---
+
+#### 8705. [V2EX] 突然发现 codex invite 额度好像不是固定的，我的两个号都是 plus 一个给 1000 一个给 250
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235233#reply0
+
+---
+
+#### 8706. [V2EX] 分享一个自用的开源休息提醒 Neko(安装包 <10M)
+
+**问题描述 / Problem Description**:
+Neko 中文 · English 优雅的桌面休息提醒 — 适用于 macOS 、Windows 和 Linux 。 定时休息、智能重置与专注提醒；设置和数据均保存在本地。 截图 休息与今日状态 休息节奏、稍后提醒选项，以及当天完成情况一目了然。 外观与休息预览 在设置中调整外观，并即时查看休息弹窗效果。 下载安装 从 夸克网盘下载 Neko 安装包 ，按你的系统选择对应文件。 平台 安装方式 macOS 打开对应芯片的 DMG ，将 Neko 拖入「应用程序」 Windows 运行安装程序，随后从开始菜单或桌面快捷方式启动 Linux AppImage 添加执行权限后运行，或安装 .deb
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235210#reply0
+
+---
+
+#### 8707. [V2EX] 我去，发现个好玩的，现在病毒木马都开始开源提示词了？
+
+**问题描述 / Problem Description**:
+不开源源码，但是开源木马提示词 原帖在： https://forum.0x00sec.org/t/prompt-only-kernel-specs-no-source-notes-from-a-blind-agent-eval/771 这是国外黑客论坛的帖子，我下载提示词试了试，linux 上好像可以,gpt 1 分钟不到就出来了。只不过不是远程操控，也没有传播能力，是内核方面的，通过内核进行隐匿，算是内核增强？ windows 版本的我没尝试，没这个条件,有没有佬有条件可以试试的？ 以后开源是不是都开始走提示词路线了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235156#reply4
+
+---
+
+#### 8708. [V2EX] 研究了一下 local.ai
+
+**问题描述 / Problem Description**:
+刚刚看都在接力 https://local.ai/yeyuanxinyi/invite 注册看了一下，貌似是一个针对本地人工智能，基于设备推荐合适大模型的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235143#reply1
+
+---
+
+#### 8709. [V2EX] 动画电影《牛来》导演信雨萌专访
+
+**问题描述 / Problem Description**:
+大概内容：片尾曲真不错，有点淡淡的，想起了让我们一起划起双桨 导演信雨萌：92 年生大连人，原做装修/景观设计，2021 年因热爱跨界做动画，5 年几乎一人完成 86 分钟动画电影。非科班，无团队，无投资，无 AI——纯手工一帧一帧做的。 母亲孙丽芳是整个故事最感人的部分：国企普通职员，从未学过音乐却自学完成了全部配乐和片尾曲《雨后清风有香》的词曲创作及演唱，还深度参与编剧讨论、包办女性角色配音、后期帮忙处理事务。信雨萌说能做成这事"命好占了 99.9%"。 https://www.bilibili.com/video/BV1JQbe6qEpF/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235139#reply2
+
+---
+
+#### 8710. How to fix GIMP not working on macOS 27 beta?
+
+**问题描述 / Problem Description**:
+Tags: macos, beta | Score: -3 | Views: 77 | Answers: 2 | Created: 2026-08-07
+
+**解决方案 / Solution**:
+You are using a beta version of the next version of macOS, issues like this are to be expected. Report the issue to Apple (via the Feedback Assistant), and to the developer of that application.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486880/how-to-fix-gimp-not-working-on-macos-27-beta
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9704**
+**总计条目 / Total entries: 9748**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -132073,5 +132073,577 @@ After a couple hours of debugging I have correctly (I think) identified the root
 
 **参考链接 / References**:
 - https://superuser.com/questions/1939747/force-windows-to-use-a-faster-network-connection-for-network-shares-smb
+
+---
+
+#### 9705. Cannot perform a Windows Scan. It throws an error every time I try to do a Windows Scan on my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrk93j/cannot_perform_a_windows_scan_it_throws_an_error/
+
+---
+
+#### 9706. What WiFi speeds do 2 people WFH need?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs1k83/what_wifi_speeds_do_2_people_wfh_need/
+
+---
+
+#### 9707. Windows Defender Scan not working on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs0hy0/windows_defender_scan_not_working_on_windows_11/
+
+---
+
+#### 9708. Can shutdown but not reboot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrs2wu/can_shutdown_but_not_reboot/
+
+---
+
+#### 9709. My pc is stuttering like crazy and everything is slow
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrrsjt/my_pc_is_stuttering_like_crazy_and_everything_is/
+
+---
+
+#### 9710. Aerosol sunscreen leaked into my laptop display 48+ hours ago. Is it safe to keep using?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vry3dm/aerosol_sunscreen_leaked_into_my_laptop_display/
+
+---
+
+#### 9711. Laptop black screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs3gkb/laptop_black_screen/
+
+---
+
+#### 9712. Issue with bios/security boot..
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs3flv/issue_with_biossecurity_boot/
+
+---
+
+#### 9713. Boot manager has been blocked by the current security policy
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs37fw/boot_manager_has_been_blocked_by_the_current/
+
+---
+
+#### 9714. is my attenuation down stream actually 60db ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs34km/is_my_attenuation_down_stream_actually_60db/
+
+---
+
+#### 9715. Can someone help me with this audio bug/driver issue/hardware or whatever this is?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs31ze/can_someone_help_me_with_this_audio_bugdriver/
+
+---
+
+#### 9716. Rode podmic
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs2wnh/rode_podmic/
+
+---
+
+#### 9717. Suddenly having trouble importing photos from a camera
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrov5v/suddenly_having_trouble_importing_photos_from_a/
+
+---
+
+#### 9718. Maybe a Failing CPU?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs189l/maybe_a_failing_cpu/
+
+---
+
+#### 9719. Wifi isn’t working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs0dwj/wifi_isnt_working/
+
+---
+
+#### 9720. I need some help please anyone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs0cth/i_need_some_help_please_anyone/
+
+---
+
+#### 9721. My microphone dissapeared form windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs0cpx/my_microphone_dissapeared_form_windows/
+
+---
+
+#### 9722. Weird reoccurring display glitch
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs0c64/weird_reoccurring_display_glitch/
+
+---
+
+#### 9723. My new PlayStation 5 controller keeps disconnecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs06xt/my_new_playstation_5_controller_keeps/
+
+---
+
+#### 9724. "Forza Horizon 6 not working on AMD Radeon RX 580 8GB".
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs06gv/forza_horizon_6_not_working_on_amd_radeon_rx_580/
+
+---
+
+#### 9725. My phone keeps randomly powering off and on and idk why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vs04vf/my_phone_keeps_randomly_powering_off_and_on_and/
+
+---
+
+#### 9726. MBR to GPT?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrzsq9/mbr_to_gpt/
+
+---
+
+#### 9727. Pc audio won’t play sound through my headphones
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrzmm3/pc_audio_wont_play_sound_through_my_headphones/
+
+---
+
+#### 9728. Need help setting up live stream
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vrzjcs/need_help_setting_up_live_stream/
+
+---
+
+#### 9729. [V2EX] 上班族推荐个午休小枕头
+
+**问题描述 / Problem Description**:
+1.没有固定工位,所以能收纳放进双肩包随身携带 2.使用场景:办公室/大巴为主
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235433#reply1
+
+---
+
+#### 9730. [V2EX] Hermes Agent 多用户 / Multi-tenant 应该怎么设计？一个实例服务多个用户可行吗？
+
+**问题描述 / Problem Description**:
+最近在研究 Hermes Agent ，准备把它作为一个多用户应用的 Agent runtime ，想请教一下熟悉 Hermes / MCP / Agent 架构的朋友。 我的需求比较简单： 多个用户使用同一套 AI 能力，例如： 相同的 system prompt 相同的模型 公共 Skills 公共 MCP Web Search 公共知识库 但是每个用户必须拥有独立的： conversation/session long-term memory user profile/preferences reminders / cron jobs private data MCP credentia
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235423#reply0
+
+---
+
+#### 9731. [V2EX] 请推荐个经久耐用、功率低、噪音低的 USB 桌面小风扇吧
+
+**问题描述 / Problem Description**:
+考虑在桌面养点小热带植物，要高湿、通气。高湿好说。高湿不通气就易长霉菌。现在在考虑加个小风扇，在边上吹风。 需求如下： 1. 经久耐用。整个夏季肯定不间断运行。春秋两季估计也得至少间断运行 。 之前买过几个 USB 风扇，给小主机降温。夏天还没过完，几个 USB 风扇全停摆了。 2. 低功率。重点是扰动空气造成空气流动，降温不降温没那么重要。 3. 噪音小、体积小。最好放在那就忘了。 是否 USB 不不重要。符合其它要求的话，直插电源也可以。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235406#reply14
+
+---
+
+#### 9732. [V2EX] 距离 token 变成货币还有多久？
+
+**问题描述 / Problem Description**:
+既然德州可以用 token ，那不是万物皆可 token 交易
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235374#reply7
+
+---
+
+#### 9733. [V2EX] 为什么 chatgpt.com 网页版用不了
+
+**问题描述 / Problem Description**:
+因为没有手机接受短信，无法使用免费的 codex ，我想使用 chatgpt.com ，但是浏览器打开之后，无法提交问题。一致卡着 这个怎么解决？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235371#reply2
+
+---
+
+#### 9734. [V2EX] 有没有免费的大模型 api 服务？哪些公司有免费的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235360#reply3
+
+---
+
+#### 9735. [V2EX] 刚买了一个域名： wuai.you，适合做个什么网站，求建议
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235359#reply7
+
+---
+
+#### 9736. [V2EX] Giffgaff 有最近几天携转成功 V 友吗?
+
+**问题描述 / Problem Description**:
+看了一大圈携号转网的教程，很多都是近期失效了，卡需要在国外激活。 唯一找到一个第三方代理的 CTExcel ，能在国内使用,价格又太高，半年 200 多。 如果目前没有合适的渠道，有没有能平替的新卡,可接受贵一点. 以前办理的新西兰的 skinny ，现在也找不到渠道办理了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235354#reply0
+
+---
+
+#### 9737. [V2EX] 中文输入法时，按下“/？”变成“、”？
+
+**问题描述 / Problem Description**:
+上个月看到有个评测微信输入法说微信输入有个严重功能缺失，就是说的这个问题，看的时候微信还没有这个功能，后来发现更新了博主说的这个设置选项，我好奇这到底是啥，从来没发现有过这个问题，我看到就无脑勾选上了，一度以为是自己问题，可能以前没注意到。 勾选了之后，我发现很多时候我确实需要输入 “/” ，然后总是变成 “、” 了，我还需要切回英文，我还以为可能这就是正确的用法，这时候我还没意识到我原本是怎么输入的“、”。 直到用了两周，中文打字的时候肌肉记忆打了“、”，我才发现我傻了，我一直是用的“回车”上面的 “\|” 打的 “、”。 神奇的一幕出现了，那个视频博主，他是不知道 “\|” 键是 “、”？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235352#reply0
+
+---
+
+#### 9738. [V2EX] 月底要去香港玩 4 天，有什么比在大陆有性价比的商品可以买呢
+
+**问题描述 / Problem Description**:
+第一天落地，第二、三天在迪士尼，第四天回。 能够买的时间就是刚到和走的时候，所以请教一下，去了直接买
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235349#reply11
+
+---
+
+#### 9739. [V2EX] 坚持就会胜利？对嘛
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235347#reply15
+
+---
+
+#### 9740. [V2EX] 代码以外， codex 有没有什么好玩好用的 skill
+
+**问题描述 / Problem Description**:
+代码相关的也行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235336#reply0
+
+---
+
+#### 9741. [V2EX] 闲鱼上 1password 100 多 4 年的家庭版账号哪来的？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235334#reply6
+
+---
+
+#### 9742. [V2EX] 什么原因在阻挡你辞职？
+
+**问题描述 / Problem Description**:
+近期辞职的心情达到了高峰，但是房贷（即将交房），房租，育儿... 真真实实的金钱成本压在身上，虽然有副业在做，但是还是想要一个底薪的稳定收入源
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235325#reply1
+
+---
+
+#### 9743. [V2EX] 你会拼魔方吗？
+
+**问题描述 / Problem Description**:
+小朋友想玩，想来自己小时候就是瞎转，去 B 站学了，其实就是背公式，想来程序员们大家应该都知道是有公式，不过真的会拼的朋友多吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235322#reply26
+
+---
+
+#### 9744. [V2EX] 隐私备份问题
+
+**问题描述 / Problem Description**:
+对于极其私密的照片视频，大家有什么好的备份方式？ 有 NAS 和网盘，都有点不放心，目前只放在手机照片的已隐藏中
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235301#reply7
+
+---
+
+#### 9745. [V2EX] 太艰难了，耗时 90 天，终于把抄袭我 APP 的投诉下架了。
+
+**问题描述 / Problem Description**:
+维权路漫漫，可恶的 App 用了和我高度相似的图标和名称抢先上架，好在平时我都有留存证据，借此机会还把美术作品都去申请了著作权。给各位独立开发者提提醒，软著、著作权这种能早申请就早申请。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235296#reply1
+
+---
+
+#### 9746. [V2EX] X 或者说推特的 premium 怎么购买？我尝试了下，国内的 visa 信用卡都被禁用了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235290#reply2
+
+---
+
+#### 9747. [V2EX] 菲律宾 apple store 卡
+
+**问题描述 / Problem Description**:
+送人了，有要的自取。 Apple Store Gift Card Amount: ₱ 1,000 Valid In Philippines PIN: YGNY WNNF HWNY TRHC Gift Card Number: 63 9382 9761 0940 6108
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235288#reply2
+
+---
+
+#### 9748. [V2EX] kimi k3 用 kimi code 还是 claude code？
+
+**问题描述 / Problem Description**:
+有没有人测试过，用他家官方 harness 效果会更好吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235287#reply0
 
 ---

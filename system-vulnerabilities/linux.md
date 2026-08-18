@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2914**
+**总计条目 / Total entries: 2936**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -53070,5 +53070,357 @@ Apply patch from vendor. Monitor http://lists.grok.org.uk/pipermail/full-disclos
 - http://www.redhat.com/support/errata/RHSA-2005-283.html
 - http://www.redhat.com/support/errata/RHSA-2005-284.html
 - http://www.redhat.com/support/errata/RHSA-2005-293.html
+
+---
+
+#### 2915. CVE-2026-34398 - FreeCAD: FreeCAD: Arbitrary Code Execution via malicious BIM project template
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeCAD: FreeCAD: Arbitrary Code Execution via malicious BIM project template. Bugzilla: 2517633
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517633
+
+---
+
+#### 2916. CVE-2026-34789 - FreeCAD: FreeCAD: Arbitrary code execution via crafted document restoration
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeCAD: FreeCAD: Arbitrary code execution via crafted document restoration. Bugzilla: 2517629
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517629
+
+---
+
+#### 2917. CVE-2026-66795 - managedcluster-import-controller: managedcluster-import-controller: CSR…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] managedcluster-import-controller: managedcluster-import-controller: CSR auto-approver does not validate certificate Subject, signerName, or requester identity. Bugzilla: 2507540
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507540
+
+---
+
+#### 2918. CVE-2026-70495 - search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups shared across 4 pods grants hub system:masters. Bugzilla: 2511031
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511031
+
+---
+
+#### 2919. CVE-2026-71472 - acm-search-v2-rhel9: search-v2-operator: Shell-command and SQL injection in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: Shell-command and SQL injection in postgresql-start.sh via CR-supplied WORK_MEM. Bugzilla: 2512151
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512151
+
+---
+
+#### 2920. CVE-2026-66792 - multicloud-operators-subscription: multicloud-operators-subscription:…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] multicloud-operators-subscription: multicloud-operators-subscription: IsClusterAdmin() trusts user-settable annotations on managed clusters. Bugzilla: 2507537
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507537
+
+---
+
+#### 2921. CVE-2026-19999 - assimp: Assimp: Remote buffer overflow allows information disclosure or denial of…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Remote buffer overflow allows information disclosure or denial of service. Bugzilla: 2517330
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517330
+
+---
+
+#### 2922. CVE-2026-19968 - assimp: Assimp: Denial of service via heap-based buffer overflow in 3DGS MDL7…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Denial of service via heap-based buffer overflow in 3DGS MDL7 Model Parser. Bugzilla: 2517287
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517287
+
+---
+
+#### 2923. CVE-2026-74579 - kernel: netfilter: nft_payload: fix mask build for partial field offload
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nft_payload: fix mask build for partial field offload. Bugzilla: 2517319
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517319
+
+---
+
+#### 2924. CVE-2026-74797 - github.com/opentofu/opentofu: OpenTofu: Denial of Service via malicious zip…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Denial of Service via malicious zip archives. Bugzilla: 2517222
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517222
+
+---
+
+#### 2925. CVE-2026-74796 - github.com/opentofu/opentofu: OpenTofu: Arbitrary file write via symlink following…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Arbitrary file write via symlink following path traversal. Bugzilla: 2517217
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517217
+
+---
+
+#### 2926. CVE-2024-58375 - github.com/opentofu/opentofu: OpenTofu: Sensitive information disclosure via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Sensitive information disclosure via static evaluation. Bugzilla: 2517223
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517223
+
+---
+
+#### 2927. CVE-2026-74578 - kernel: crypto: algif_skcipher - force synchronous processing on trees without…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: crypto: algif_skcipher - force synchronous processing on trees without ctx->state. Bugzilla: 2517196
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517196
+
+---
+
+#### 2928. [Ubuntu] USN-8630-3: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8630-3
+
+---
+
+#### 2929. [Ubuntu] USN-8636-2: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Media drivers; - Network drivers; - Mellanox network drivers; - Texas Instruments network drivers; - NVME drivers; - File systems infrastructure; - SMB network file system; - I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8636-2
+
+---
+
+#### 2930. [Ubuntu] USN-8629-3: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-2026-46331, CVE-2026-52924, CVE-20
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8629-3
+
+---
+
+#### 2931. [Ubuntu] USN-8646-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - Netfilter; - SCTP protocol; (CVE-2026-52914, CVE-2026-53002, CVE-2026-53043, CVE-2026-53224, CVE-2026-53246, CVE-2026-53309)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8646-1
+
+---
+
+#### 2932. [Ubuntu] USN-8645-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8645-1
+
+---
+
+#### 2933. [Ubuntu] USN-8644-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - File systems infrastructure; - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - SCTP protocol; - TIPC protocol; (CVE-2026-43071, CVE-2026-52914, CVE-2026-52993, CVE-2026-53043, CVE-2026-53224, CVE-2026-53246, CVE-
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8644-1
+
+---
+
+#### 2934. [Ubuntu] USN-8643-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-53247, CVE-2026-64531)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8643-1
+
+---
+
+#### 2935. [Ubuntu] USN-8642-1: c3p0 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that c3p0 was vulnerable to remote code execution via maliciously crafted serialized objects and JNDI references. An attacker could use this to execute arbitrary code, bypass security restrictions, or cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8642-1
+
+---
+
+#### 2936. [Ubuntu] USN-8639-1: libpng vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Patrick Keshishian discovered that libpng incorrectly handled certain text chunks. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 16.04 LTS. (CVE-2016-10087) It was discovered that libpng incorrectly handled certain malformed images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 18.04
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8639-1
 
 ---

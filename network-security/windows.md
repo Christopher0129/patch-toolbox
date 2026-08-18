@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 942**
+**总计条目 / Total entries: 947**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13796,5 +13796,65 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52642
+
+---
+
+#### 943. [remote] PCMan 2.0.7 - Buffer Overflow
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] PCMan 2.0.7 - Buffer Overflow
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52657
+
+---
+
+#### 944. [dos] NanaZip 6.5  - DoS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] NanaZip 6.5 - DoS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52656
+
+---
+
+#### 945. [webapps] flyto-core 2.26.7 - Arbitrary File Write
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] flyto-core 2.26.7 - Arbitrary File Write
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52655
+
+---
+
+#### 946. [webapps] Nodemailer 9.0.0 - File Read/ SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Nodemailer 9.0.0 - File Read/ SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52654
+
+---
+
+#### 947. [webapps] Linuxfabrik monitoring_plugins_6.0.0 - SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linuxfabrik monitoring_plugins_6.0.0 - SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52653
 
 ---

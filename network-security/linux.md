@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3172**
+**总计条目 / Total entries: 3195**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -47116,5 +47116,333 @@ Multiple vulnerabilities have been found in X.Org X server, XWayland.
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-14
+
+---
+
+#### 3173. CVE-2026-34398 - FreeCAD: FreeCAD: Arbitrary Code Execution via malicious BIM project template
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeCAD: FreeCAD: Arbitrary Code Execution via malicious BIM project template. Bugzilla: 2517633
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517633
+
+---
+
+#### 3174. CVE-2026-34789 - FreeCAD: FreeCAD: Arbitrary code execution via crafted document restoration
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeCAD: FreeCAD: Arbitrary code execution via crafted document restoration. Bugzilla: 2517629
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517629
+
+---
+
+#### 3175. CVE-2026-66795 - managedcluster-import-controller: managedcluster-import-controller: CSR…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] managedcluster-import-controller: managedcluster-import-controller: CSR auto-approver does not validate certificate Subject, signerName, or requester identity. Bugzilla: 2507540
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507540
+
+---
+
+#### 3176. CVE-2026-70495 - search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups shared across 4 pods grants hub system:masters. Bugzilla: 2511031
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511031
+
+---
+
+#### 3177. CVE-2026-71472 - acm-search-v2-rhel9: search-v2-operator: Shell-command and SQL injection in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: Shell-command and SQL injection in postgresql-start.sh via CR-supplied WORK_MEM. Bugzilla: 2512151
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512151
+
+---
+
+#### 3178. CVE-2026-66792 - multicloud-operators-subscription: multicloud-operators-subscription:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] multicloud-operators-subscription: multicloud-operators-subscription: IsClusterAdmin() trusts user-settable annotations on managed clusters. Bugzilla: 2507537
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507537
+
+---
+
+#### 3179. CVE-2026-19999 - assimp: Assimp: Remote buffer overflow allows information disclosure or denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Remote buffer overflow allows information disclosure or denial of service. Bugzilla: 2517330
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517330
+
+---
+
+#### 3180. CVE-2026-19968 - assimp: Assimp: Denial of service via heap-based buffer overflow in 3DGS MDL7…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] assimp: Assimp: Denial of service via heap-based buffer overflow in 3DGS MDL7 Model Parser. Bugzilla: 2517287
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517287
+
+---
+
+#### 3181. CVE-2026-74579 - kernel: netfilter: nft_payload: fix mask build for partial field offload
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nft_payload: fix mask build for partial field offload. Bugzilla: 2517319
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517319
+
+---
+
+#### 3182. CVE-2026-74797 - github.com/opentofu/opentofu: OpenTofu: Denial of Service via malicious zip…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Denial of Service via malicious zip archives. Bugzilla: 2517222
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517222
+
+---
+
+#### 3183. CVE-2026-74796 - github.com/opentofu/opentofu: OpenTofu: Arbitrary file write via symlink following…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Arbitrary file write via symlink following path traversal. Bugzilla: 2517217
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517217
+
+---
+
+#### 3184. CVE-2024-58375 - github.com/opentofu/opentofu: OpenTofu: Sensitive information disclosure via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/opentofu/opentofu: OpenTofu: Sensitive information disclosure via static evaluation. Bugzilla: 2517223
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517223
+
+---
+
+#### 3185. CVE-2026-74578 - kernel: crypto: algif_skcipher - force synchronous processing on trees without…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: crypto: algif_skcipher - force synchronous processing on trees without ctx->state. Bugzilla: 2517196
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517196
+
+---
+
+#### 3186. [Ubuntu] USN-8630-3: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8630-3
+
+---
+
+#### 3187. [Ubuntu] USN-8636-2: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Media drivers; - Network drivers; - Mellanox network drivers; - Texas Instruments network drivers; - NVME drivers; - File systems infrastructure; - SMB network file system; - I
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8636-2
+
+---
+
+#### 3188. [Ubuntu] USN-8629-3: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Network traffic control; - IPv4 networking; - IPv6 networking; - Netfilter; - RxRPC session sockets; - SCTP protocol; (CVE-2026-46331, CVE-2026-52924, CVE-20
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8629-3
+
+---
+
+#### 3189. [Ubuntu] USN-8646-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - Netfilter; - SCTP protocol; (CVE-2026-52914, CVE-2026-53002, CVE-2026-53043, CVE-2026-53224, CVE-2026-53246, CVE-2026-53309)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8646-1
+
+---
+
+#### 3190. [Ubuntu] USN-8645-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8645-1
+
+---
+
+#### 3191. [Ubuntu] USN-8644-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - File systems infrastructure; - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - SCTP protocol; - TIPC protocol; (CVE-2026-43071, CVE-2026-52914, CVE-2026-52993, CVE-2026-53043, CVE-2026-53224, CVE-2026-53246, CVE-
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8644-1
+
+---
+
+#### 3192. [Ubuntu] USN-8643-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-53247, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8643-1
+
+---
+
+#### 3193. [Ubuntu] USN-8642-1: c3p0 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that c3p0 was vulnerable to remote code execution via maliciously crafted serialized objects and JNDI references. An attacker could use this to execute arbitrary code, bypass security restrictions, or cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8642-1
+
+---
+
+#### 3194. [Ubuntu] USN-8639-1: libpng vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Patrick Keshishian discovered that libpng incorrectly handled certain text chunks. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 16.04 LTS. (CVE-2016-10087) It was discovered that libpng incorrectly handled certain malformed images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 18.04
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8639-1
+
+---
+
+#### 3195. CVE-2026-72193
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+ntfs3: cap RESTART_TABLE free-chain walker at rt->used
+
+A crafted NTFS3 disk image triggers an in-kernel infinite loop at
+mount time, hanging the mounting thread and firing the soft-lockup
+watchdog within ~22s on multi-CPU hosts (panic with
+kernel.softlockup_panic=1).  The bug is reachable from desktop USB
+auto-mount on distributions where udisks2 routes the NTFS signature
+to the in-tree ntfs3 driver (Arch family and an increasing fraction
+of Fedora / openSUSE / RHEL deployments); CAP_SYS_ADMIN-class manual
+mount elsewhere.
+
+check_rstbl()'s second walker iterates the free-entry singly-linked
+list headed by rt->first_free with no upper bound on iteration count:
+
+  for (off = ff; off;) {
+      if (off == RESTART_ENTRY_ALLOCATED)
+          return false;
+      off = le32_to_cpu(*(__le32 *)Add2Ptr(rt, off));
+      if (off > ts - sizeof(__le32))
+          return false;
+  }
+
+The existing guards cover three exits: end-of-list (off == 0), the
+in-use marker (off == RESTART_ENTRY_ALLOCATED), and out-of-bounds
+(off > ts - sizeof(__le32)).  None of the three prevents an
+in-bounds cycle.
+
+A crafted on-disk RESTART_TABLE whose free chain contains a
+self-loop or A->B->A cycle whose offsets satisfy:
+
+  - in range [sizeof(struct RESTART_TABLE), ts - sizeof(__le32)]
+  - (off - sizeof(struct RESTART_TABLE)) % rsize == 0
+
+passes all existing guards and spins the mount-time thread forever.
+Reproduced in UML by hand-forging a 2 MB NTFS3 image whose journal
+RESTART_TABLE first_free = 0x18 and whose entry at offset 0x18
+stores 0x18 as its next pointer; mount of the forged image with
+the in-tree ntfs3 driver never returns.
+
+Bound the walker by rt->used.  Each entry on a legitimate free
+chain is unique, and the total slot count is ne = le16_to_cpu
+(rt->used).  A traversal that visits more than ne slots is by
+construction malformed; reject it as a corrupt RESTART_TABLE.
+
+After this patch, mount of the forged image returns with -EINVAL
+and a log_replay failure message, and mkntfs-produced legitimate
+images mount cleanly (verified in the same UML harness).
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0fad25687d4d3fa1fdd313d31b9cb5817c425029
+- https://git.kernel.org/stable/c/29b86dbe88cbbef53bb9aaec2e279359f8c450f8
+- https://git.kernel.org/stable/c/7972df425687daa70d971fe6ed415e78683133dd
+- https://git.kernel.org/stable/c/7ac4c86915c24c208a0f0611b71d9676686fe756
+- https://git.kernel.org/stable/c/8128bec895075253c779d67afdc90ae513265fca
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9029**
+**总计条目 / Total entries: 9089**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -125348,5 +125348,785 @@ You've overwritten the partition table by formatting the entire disk ( /dev/sdc 
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/797620/how-do-i-thoroughly-wipe-a-corrupted-drive-and-reformat-on-debian
+
+---
+
+#### 9030. Intel Enables Buffer Compression For Better Gaming Performance With DXVK
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrsndf/intel_enables_buffer_compression_for_better/
+
+---
+
+#### 9031. Con Kolivas released a Linux kernel patchset after 10 years of exile
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrg6y6/con_kolivas_released_a_linux_kernel_patchset/
+
+---
+
+#### 9032. Linux 7.3 to land initial code improving vRAM management, more improvements coming
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrdtir/linux_73_to_land_initial_code_improving_vram/
+
+---
+
+#### 9033. How the TLB makes virtual memory fast on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrs7ag/how_the_tlb_makes_virtual_memory_fast_on_linux/
+
+---
+
+#### 9034. GitHub - ksokolowski/astral-hwmon: Per-pin 12VHPWR monitoring for ASUS ROG Astral cards as standard Linux hwmon sensors, plus astral-guard
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrsihb/github_ksokolowskiastralhwmon_perpin_12vhpwr/
+
+---
+
+#### 9035. Forking Paldo OS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrm097/forking_paldo_os/
+
+---
+
+#### 9036. With USB4STREAM support merged into Linux 7.2 (soon to be released) are there any inference runtimes/projects that make use of it already?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrng0l/with_usb4stream_support_merged_into_linux_72_soon/
+
+---
+
+#### 9037. lumen: a zero-config TUI for exploring JSON/logfmt logs - pipe anything in and it autocompletes your log fields
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrx3hl/lumen_a_zeroconfig_tui_for_exploring_jsonlogfmt/
+
+---
+
+#### 9038. What are your hidden gems Linux distros? I'll start
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrqh8d/what_are_your_hidden_gems_linux_distros_ill_start/
+
+---
+
+#### 9039. Devs, why do you provide Linux support for your apps?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vrnb9k/devs_why_do_you_provide_linux_support_for_your/
+
+---
+
+#### 9040. Patch Tuesday Megathread - (August 11, 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vliawb/patch_tuesday_megathread_august_11_2026/
+
+---
+
+#### 9041. Weekly 'I made a useful thing' Thread - August 14, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vo1089/weekly_i_made_a_useful_thing_thread_august_14_2026/
+
+---
+
+#### 9042. M365 outage?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrtkto/m365_outage/
+
+---
+
+#### 9043. What it takes to be true Sysadmin?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vs00hh/what_it_takes_to_be_true_sysadmin/
+
+---
+
+#### 9044. RIP - My last pet server. Provisioned: April 9, 2014. Uptime: 3,065 days. CentOS 6. Older than the iPhone 6.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrctec/rip_my_last_pet_server_provisioned_april_9_2014/
+
+---
+
+#### 9045. Email "Floods"
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrww2l/email_floods/
+
+---
+
+#### 9046. Learning Microsoft 365 / Entra ID / Intune / SharePoint for free — is it possible?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrmfry/learning_microsoft_365_entra_id_intune_sharepoint/
+
+---
+
+#### 9047. SMS/Voice retirement scope
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vry81e/smsvoice_retirement_scope/
+
+---
+
+#### 9048. Do you actually see MacBooks used for SysAdmin work in real offices?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vratsc/do_you_actually_see_macbooks_used_for_sysadmin/
+
+---
+
+#### 9049. Cisco Duo - experiences?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vry52p/cisco_duo_experiences/
+
+---
+
+#### 9050. How to handle a mixed network?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrsjum/how_to_handle_a_mixed_network/
+
+---
+
+#### 9051. Well, I bombed my interview
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vr6rqf/well_i_bombed_my_interview/
+
+---
+
+#### 9052. Office 365 license on RDSH
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrq9uu/office_365_license_on_rdsh/
+
+---
+
+#### 9053. RDP to Entra Joined with local credentials
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrscro/rdp_to_entra_joined_with_local_credentials/
+
+---
+
+#### 9054. Entra ID Backups
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrw091/entra_id_backups/
+
+---
+
+#### 9055. How are your current delivery/lead times from the big hardware manufacturers? (DELL, HP, Cisco,..)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrnlzp/how_are_your_current_deliverylead_times_from_the/
+
+---
+
+#### 9056. DR Solutions?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vs17yx/dr_solutions/
+
+---
+
+#### 9057. Apple Business Manager Issues, not able to sign in
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vry536/apple_business_manager_issues_not_able_to_sign_in/
+
+---
+
+#### 9058. Gmail blocked low reputation 550-5.7.1 after SPF fail
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrkrea/gmail_blocked_low_reputation_550571_after_spf_fail/
+
+---
+
+#### 9059. Do big corporations actually use Purview to detect profanity?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vr6t47/do_big_corporations_actually_use_purview_to/
+
+---
+
+#### 9060. Anyone seeing issues with OneDrive known folder sync? (Intune-managed devices)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vs08iz/anyone_seeing_issues_with_onedrive_known_folder/
+
+---
+
+#### 9061. Defender Scans Failing - Anyone Else?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrtiej/defender_scans_failing_anyone_else/
+
+---
+
+#### 9062. Freshdesk ticketing no longer free - alternatives?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vrm0yv/freshdesk_ticketing_no_longer_free_alternatives/
+
+---
+
+#### 9063. laptop shelf
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vromug/laptop_shelf/
+
+---
+
+#### 9064. On-premise to Azure SOA
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vs3is6/onpremise_to_azure_soa/
+
+---
+
+#### 9065. [V2EX] 借助语音大模型，实现 Linux 下的语音输入，邀请 Linux 桌面用户试试
+
+**问题描述 / Problem Description**:
+起因是昨天下午看到 IT 之家这个新闻： 识别、合成、实时交互全球第一，Qwen-Audio-3.0 系列语音模型上线阿里千问 AI 平台 https://www.ithome.com/0/990/679.htm 于是我搞了一套适用于大部分 linux 发行版和桌面环境的流程。平台送了 36000s （有效期 3 个月），到期后的话，我看了一下价格是每秒 0.00022 元 代码开源在 这里 截图如下，邀请用 linux 桌面的朋友们来试试。有用的话留个⭐呀。这套 flow 个人感觉在 linux 桌面环境很轻量，以后更换模型也很简单，稍微适配一下就可以了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235328#reply5
+
+---
+
+#### 9066. [V2EX] MiniDebConf 北京 (Beijing) 2026 报名已开放： 2026-10-24 中科院软件所
+
+**问题描述 / Problem Description**:
+转发消息来自 https://lists.debian.org/debian-chinese-gb/2026/08/msg00000.html MiniDebConf 是 Debian 项目成员组织的本地会议，是小型、地方性的 Debian 开发者与用户的聚会。 我们将于 2026 年 10 月 24 日在中国科学院软件研究所举办 MiniDebConf 北京 2026 。 时间：2026 年 10 月 24 日（星期六） 10:00 - 18:00 地点：北京市海淀区中关村南四街 4 号 中国科学院软件研究所 5 号楼四层大报告厅 参会报名现已开放。您可以使用 Salsa 账号注册并登录会议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235184#reply0
+
+---
+
+#### 9067. [V2EX] Grok4.6 真的好用
+
+**问题描述 / Problem Description**:
+最近深度体验了几天，又快又准，目前帮我实现了非常多的功能，这些功能能中就一个 BUG 。 比 GPT5.6 之前的模型准确度提升很多。 Cursor 套餐中 Grok4.6 的量也很多。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235434#reply7
+
+---
+
+#### 9068. [V2EX] 做了一个数据库管理软件 DBNova，刚刚发布了 beta.3
+
+**问题描述 / Problem Description**:
+支持多种 SQL 数据库，以及 MongoDB 和 Redis 。 目前支持 Windows.x64 、Linux.x64 和 Macos.Arm64 。 对 SQL 语法和注释做了一点点扩展，可以实现 SQL 的参数化复用。 文档 如果你可以使用 Typescript 的话，就更好了。DBNova 不仅可以通过 ts 和数据库交互，还可以将数据库的 结构生成 d.ts ，然后注入到 Monaco Editor 中。SQL Builder 也是自己实现的，github aghsorm 。 基于 Wails 构建，尽管安装包不大，执行的时候还是需要依赖系统的 webkit 。但是基于 我在虚拟机
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235432#reply0
+
+---
+
+#### 9069. [V2EX] 肝了一个周末，给 WorkBuddy 写了个领积分的小工具
+
+**问题描述 / Problem Description**:
+肝（盯着 AI ）了一个周末，给 WorkBuddy 写了个小工具 起因穷：用家人手机注册了好几个 WorkBuddy 账号，每天都能领免费积分，但 每次切换账号都要重新扫码登录 ，太折磨人了。 于是搞了个多账号切换器——面板里点一下就切，不用再扫码；而且每天会自动把各账号的免费 100 积分领掉，纯白嫖（ bushi ）。 顺手还做了几件事： 毛玻璃主题 ：给 WorkBuddy 换了一身毛玻璃皮肤，深色底 + 半透明模糊，代码块、聊天组件都能透出背景图，看着舒服不少 暂存提示词 ：这是我最想要的功能。我经常冒出些想法想塞给 AI ，但不想打断它正在跑的任务，也不想让提示词排进队列里被自动发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235429#reply0
+
+---
+
+#### 9070. [V2EX] 想买个 2 手的水果 13mini 来专门接码和 2FA
+
+**问题描述 / Problem Description**:
+看了眼咸鱼好多电池 90%+的，真有这么多的电池能维持这么好吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235427#reply1
+
+---
+
+#### 9071. [V2EX] 这样的外包你们会怎么报价和排期
+
+**问题描述 / Problem Description**:
+是一家医疗器械经销商，像是刚成立的。没有具体的需求文档，只有这个功能说明。 对接的老板找的他朋友出的功能说明书，直接用豆包写的。 他朋友觉得这个用 AI 搞下很快的，都不用一个月，感觉他们的预算只有两三万吧。 聊完我就感觉不行了，因为对方的认知里，就是 AI 搞搞很快的。 我觉得这个得驻场开发，不断沟通需求。 我的报价 8 万，40 天，驻场开发。 最后他们否定了，我也不想问具体原因了。 要是你们接到这种单子，会怎么报价和排期。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235424#reply10
+
+---
+
+#### 9072. [V2EX] 怎么让用户自愿升级浏览器，少扛几年兼容成本
+
+**问题描述 / Problem Description**:
+为旧内核养 polyfill 、关新语法，才是前端里最贵的长期税。用户通常不知道自己的浏览器已经过时，强跳下载页又像在赶人。 我做了个可以嵌在自己站点里的接口，不用把用户转到我这边。前端直接 fetch ，用访客 User-Agent 查这个版本还匹配多少已知 CVE ，在你自己的页面上提一句就行。 const res = await fetch("https://ismybrowsersafe.org/api/v1/lookup"); const data = await res.json(); if (data.ok && data.count > 0) { // 例如：当前浏览器可能仍受
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235420#reply20
+
+---
+
+#### 9073. [V2EX] 我们搞了个 Claude Code 防封的工具，内部用了两周多，从来没出现问题
+
+**问题描述 / Problem Description**:
+🙋 谁有兴趣？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235416#reply1
+
+---
+
+#### 9074. [V2EX] 免费开源一个独立 Git 管理工具 🐱
+
+**问题描述 / Problem Description**:
+https://github.com/Bavoch/hello-gitty 免费开源 Git 管理工具 —— Hello Gitty 🐱 已上线！ 同时支持 windows 和 mac 版本。 现在很多 AI Coding 工具本身并没有完善的 Git 管理能力，为了提交代码、回退版本，经常需要打开庞大的 VSCode 等 IDE 工具，显然不够优雅。Lazygit 这种虽然也能用，但终端操作，用起来不够方便，也没有 AI 提交评论功能。 所以我更希望有一个独立、轻量的 Git 工具，顺带还能统计项目情况和管理运行端口。 于是就做了 Hello Gitty ，这是一个使用 AI 开发，并面向
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235407#reply3
+
+---
+
+#### 9075. [V2EX] Agent Harness 会不会也迎来自己的「Debian 时刻」？
+
+**问题描述 / Problem Description**:
+最近一段时间，我一直在思考一个问题： Agent Harness 会不会也需要自己的“发行版”？ Linux 内核提供了核心能力，但大多数人真正安装和使用的是 Debian 、Ubuntu 这样的发行版。发行版不仅打包内核，还负责默认组件、依赖关系、安装升级、兼容策略，以及一套相对稳定的使用体验。 我觉得 Agent Harness 可能也会经历类似的阶段。 DeepSeek Harness 提供了一个很有意思的基础：agent loop 、tools 、skills 、plugins 、MCP ，以及“everything is a plugin”的扩展模型。 但从一个可扩展的 harnes
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235404#reply1
+
+---
+
+#### 9076. [V2EX] 你们开始掉头发了吗
+
+**问题描述 / Problem Description**:
+最近发现自己有点白头发，然后头发少了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235400#reply3
+
+---
+
+#### 9077. [V2EX] Linux desktop 问题
+
+**问题描述 / Problem Description**:
+大家 linux desktop 用的哪个系统。我是用的 ubuntu22 ，感觉用户基数大，出问题，方案多一点。想当年面试被问到用什么 linux release ，我说 ubuntu ，好像被面试官鄙视了。 今天遇到一个问题，具体是在 vs code 里面打开一个文件所在的文件夹，发现 ubuntu 不会弹出文件夹。咨询了下 ai ，接着换成了 kde 。装了 kde 。出现了多个问题，devcontainer 出了点问题（补充了下.ssh 的映射才修复），vs code 的 merge window 无法展示。感觉是不是 ubuntu 兼容性最好的还是 gnome 是吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235398#reply12
+
+---
+
+#### 9078. [V2EX] 公司每个月提供多少额度的 token 算是合理的？
+
+**问题描述 / Problem Description**:
+刚到 8 月中，token 额度不够，心慌了！这个月花了 600 刀，还剩一点点额度！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235395#reply14
+
+---
+
+#### 9079. [V2EX] 做了一个纯视觉路线的解析功能，不知道有没有搞头？
+
+**问题描述 / Problem Description**:
+现在的 agent 解析文件，大都是先把文档解析成文字，再让 Agent 阅读解析结果。就像 PAGE-INDEX 、MinerU 等方案一样，走的都是这条路。 但在实际处理各类手册、方案、研报、图纸和复杂表格时，我发现了一个 bug：它的解析不是 100%准确的，尤其是面对复杂的扫描件、又宽又密的表格、千奇百怪的排版、还有各种零碎的印章、批注、图片和跨页内容等，再好的解析方法也一定会出错。而一旦出错，这些错误会持续停留在数据库（知识库）中被 Agent 反复消费。就算再怎么训练解析模型，对于真实的复杂场景来说，边际收益已经趋近于 0 。 这么说吧，现在主要的提取器都在想尽办法给文件画素描，那
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235394#reply0
+
+---
+
+#### 9080. [V2EX] 2026 年 8 月，目前使用 AI 进行 3D 建模最好的方式是什么？
+
+**问题描述 / Problem Description**:
+由于 Token 烧不完，于是我闲着没事，使用 Codex 把自己喜欢的动画人物生成了转面图： 正面，侧面、背面，每隔 45°转一下。 然后我想着把这些图，使用工具转成 3D 建模，可以使用拓竹打印机打印出来。 问了 ChatGPT ，AI 给我推荐了一下几个网站： https://www.meshy.ai/ https://www.tripo3d.ai/ https://3d.hunyuan.tencent.com/ 由于没有接触过 3D 建模这块，完全不懂。 请教一下，除了这些还有推荐的工具、网站吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235391#reply3
+
+---
+
+#### 9081. [V2EX] ds 大涨下，还是上车了 codex plus
+
+**问题描述 / Problem Description**:
+ds 涨价前在用 claude code 接入 ds v4 flash 来完成日常一些 crud 任务，一天用 2-3 块钱。涨价后昨天没怎么写代码，问了些简单问题就用了 600 万 Token ，一看已经烧了 2.5 块，人麻了要是按照正常开发强度，flash 涨价幅度 5 倍，一天不得 10 多块。 决定还是开 codex plus ，今天花了上午两小时时间折腾订阅，成功订阅上 plus 。方法大概是电脑装个 mumu 安卓模拟器，挂全局梯子后安装 Play 商店，然后自己 Google 帐号转美区，再用美区地址加国内 Visa 信用卡成功支付。这样就不需要买 apple 礼品卡，也不用安
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235356#reply17
+
+---
+
+#### 9082. [V2EX] 现在用 ai 辅助编程就跟吸毒了一样
+
+**问题描述 / Problem Description**:
+已经完全停不下来了，昨天用 deepseek 官方 api 一天就花了 56 块钱，还是用的 flash 今天登录看了一眼余额就剩几毛钱了。赶紧停下来，换成了 opencode go 结果今天一天下来，每周用量 49% 每月用量 24% 意味着明天就到上限了…… 感觉真的要用中转站了……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235345#reply3
+
+---
+
+#### 9083. [V2EX] 什么时候 github 能直接捐 token 给自己喜欢的项目
+
+**问题描述 / Problem Description**:
+有时候看到自己很喜欢的项目，想要支持作者，但是自己没有能力提交符合规范的 pr ，但是又确实希望能够对项目做出帮助。 什么时候 github 可以直接购买 token 捐助给自己想要支持的项目就好了 （以上均为胡言乱语，不要认真（
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235339#reply11
+
+---
+
+#### 9084. [V2EX] 求助， Codex 怎么加速登啊。 感知上太慢了，到底你们都咋登完的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235330#reply16
+
+---
+
+#### 9085. [V2EX] 我用 TypeScript 做了一个 iCloud Calendar MCP，让 AI 真正管理你的日历
+
+**问题描述 / Problem Description**:
+我用 TypeScript 做了一个 iCloud Calendar MCP AI 已经可以写代码、查资料和管理文件，现在它也可以管理你的 iCloud 日历。 最近我开源了 iCloud Calendar MCP ：一个使用 TypeScript 开发、通过 CalDAV 连接 Apple iCloud Calendar 的 MCP Server 。 GitHub： https://github.com/IceyWu/icloud-calendar-mcp npm： https://www.npmjs.com/package/icloud-calendar-mcp 它能做什么 接入支持 MC
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235320#reply0
+
+---
+
+#### 9086. [V2EX] 大家有被 openai 制裁了吗？
+
+**问题描述 / Problem Description**:
+pro 的额度降成了 plus ，plus 的 7d 降成了 5h ，一下没法用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235305#reply7
+
+---
+
+#### 9087. USB Mouse throubles - psmouse didn't managed both services
+
+**问题描述 / Problem Description**:
+Tags: debian, drivers, usb, mouse | Score: 1 | Views: 46 | Answers: 1 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+Ok, its been a long time but put this grub code line solves my problem: GRUB_CMDLINE_LINUX_DEFAULT="quiet pcie-aspm=off" into /etc/default/grub and make a grub-update. Disabling this feature works to my older mouse 'Genius'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804137/usb-mouse-throubles-psmouse-didnt-managed-both-services
+
+---
+
+#### 9088. Why does my laptop Dell XPS 15 9570 shut down instead of sleeping?
+
+**问题描述 / Problem Description**:
+Tags: debian, power-management, suspend | Score: 0 | Views: 21 | Answers: 2 | Created: 2026-08-18
+
+**解决方案 / Solution**:
+You just have to edit the /etc/default/grub file: sudo nano /etc/default/grub Look up the line where it says: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" and change it to: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_sleep=nonvs" Save the file and close editor. Update the GRUB menu: sudo update-grub Reboot and enjoy! Acknowledgments to Felipe Hummel at https://askubuntu.com/questions/67130/sony-vaio-fw350-reboots-instead-of-waking-up-after-sleep-suspend
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807087/why-does-my-laptop-dell-xps-15-9570-shut-down-instead-of-sleeping
+
+---
+
+#### 9089. Restore graphics configuration in Debian
+
+**问题描述 / Problem Description**:
+Tags: debian, graphics, thinkpad, mate-desktop, lightdm | Score: 0 | Views: 80 | Answers: 1 | Created: 2026-07-26
+
+**解决方案 / Solution**:
+Finally I fixed it! Thanks to the comments and some more external guidance, the problem was reduced to my user's environment, nothing related to kernel or hardware. tl;dr: remove ~/.cache dir Solution I moved all .config and .cache to a backup dir. I kept moving back in batches of 4-8 dirs from .config-bak to .config , restarting the desktop session and trying glxgears again in each step. At the end, no restoring of .config/something broke my setup again, so I guess it was something in .cache that misteriously poisoned everything. To the fellow future netizens happening to hop down to this post, I recommend trying to delete this directory, as it's actually harmless to do so and can pile up some disk space. Other things I tried before I created another user in my laptop, and glxgears work there, so all the other apps that use hardware acceleration worked too. The difference between the env output was irrelevant (some temporal numbers, and some dev configs like pyenv things), no LIBGL related stuff. Also, the ~/.Xauthority file I could remove it and restart the session and nothing changed.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806822/restore-graphics-configuration-in-debian
 
 ---
