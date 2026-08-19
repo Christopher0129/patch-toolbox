@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9748**
+**总计条目 / Total entries: 9795**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -132645,5 +132645,616 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1235287#reply0
+
+---
+
+#### 9749. my c drive fills up everyday (pls help)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vssm6r/my_c_drive_fills_up_everyday_pls_help/
+
+---
+
+#### 9750. My pc shuts down as soon as I launch a video game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsybwe/my_pc_shuts_down_as_soon_as_i_launch_a_video_game/
+
+---
+
+#### 9751. Can I use a 12v/1.25a adapter for something that says the output is 12v/2a?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsrrtg/can_i_use_a_12v125a_adapter_for_something_that/
+
+---
+
+#### 9752. HDMI splitter causing issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsxg2s/hdmi_splitter_causing_issues/
+
+---
+
+#### 9753. Bug Marvel Rivals
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vspipo/bug_marvel_rivals/
+
+---
+
+#### 9754. Five M [Help] Failed to verify the signature of the elevation helper
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsupjb/five_m_help_failed_to_verify_the_signature_of_the/
+
+---
+
+#### 9755. iPad Pro m4
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vt0lre/ipad_pro_m4/
+
+---
+
+#### 9756. Got Fished, multiple Remote Access Apps on Computer , What Now?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vt0irh/got_fished_multiple_remote_access_apps_on/
+
+---
+
+#### 9757. HP Pavilion Gaming 16 suddenly goes to max fan speed and makes a grinding noise
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vt06b4/hp_pavilion_gaming_16_suddenly_goes_to_max_fan/
+
+---
+
+#### 9758. Laggy PC on startup - seems to be GPU related
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszwtd/laggy_pc_on_startup_seems_to_be_gpu_related/
+
+---
+
+#### 9759. maps app taking up 30 gb, can’t delete
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsztl5/maps_app_taking_up_30_gb_cant_delete/
+
+---
+
+#### 9760. Random freezing/churning (?) noise
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszpob/random_freezingchurning_noise/
+
+---
+
+#### 9761. i5-10400F reaching 100°C with only 50% CPU usage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsznm6/i510400f_reaching_100c_with_only_50_cpu_usage/
+
+---
+
+#### 9762. Fanxiang 1TB NVMe SSD not detected in Windows (probe error -25 in Linux) Dead or fixable?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszm9t/fanxiang_1tb_nvme_ssd_not_detected_in_windows/
+
+---
+
+#### 9763. PC Has Lost Most Functions, Not Sure How to Fix It
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszhmg/pc_has_lost_most_functions_not_sure_how_to_fix_it/
+
+---
+
+#### 9764. Ramen water spilt- what's the shortest time til I can use?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszhhu/ramen_water_spilt_whats_the_shortest_time_til_i/
+
+---
+
+#### 9765. DPC WATCHDOG VIOLATION
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsmwrl/dpc_watchdog_violation/
+
+---
+
+#### 9766. Using an A/V receiver for audio ONLY makes a second monitor appear
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszeun/using_an_av_receiver_for_audio_only_makes_a/
+
+---
+
+#### 9767. Help with new replacement oem remote for my Samsung TV
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszd8g/help_with_new_replacement_oem_remote_for_my/
+
+---
+
+#### 9768. Your rendering device has been lost, application closing error on Overwatch.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vszbr0/your_rendering_device_has_been_lost_application/
+
+---
+
+#### 9769. Is my GPU dying? Please help me figure it out! FPS DROPPING
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsz9by/is_my_gpu_dying_please_help_me_figure_it_out_fps/
+
+---
+
+#### 9770. Pc monitor and keyboard not turning on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsz856/pc_monitor_and_keyboard_not_turning_on/
+
+---
+
+#### 9771. My Wi-Fi/Ethernet isn't working(pls i need help)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsz61k/my_wifiethernet_isnt_workingpls_i_need_help/
+
+---
+
+#### 9772. Steam game keeps crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vsozjz/steam_game_keeps_crashing/
+
+---
+
+#### 9773. [V2EX] 微软正在开发基于 snaplayout 的工作区功能。
+
+**问题描述 / Problem Description**:
+前情提要 如果有人用过 power toys 中的工作区功能，应该知道它并不是基于 window 原生 snap layout(也就是 win+z 或者是拖拽窗口到顶部出现的布局栏)实现的，而是单纯的通过坐标的位置复现。 而 lz 前两天想要找一个通过 snaplayout 实现的工作区软件，发现并没有，问了一下 codex 是因为微软没有公开这个功能的接口。然后我用 codex 逆向找到了这个接口，叫 WindowsUdk.UI.Shell.SnapLayoutManager 。位置是在 C:\Windows\System32\windowsudk.shellcommon.dll 里。在这里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235717#reply2
+
+---
+
+#### 9774. [V2EX] Windows“快速启动”不工作——混合关闭已被磁盘检查请求覆盖。系统将改为执行完全关闭。
+
+**问题描述 / Problem Description**:
+事件：100 ，Wininit 混合关闭已被磁盘检查请求覆盖。系统将改为执行完全关闭。 修复方法： 1 、启动 “命令提示符” 。 2 、执行以下命令，找出“ 已损坏 ”的磁盘（驱动器号） fsutil dirty query C: fsutil dirty query D: fsutil dirty query E: fsutil dirty query F: … 如果都输出“ 没有损坏 ”。则可能是 EFI 磁盘 （分区/驱动器号） 损坏 。 3 、将 EFI 分区 ，挂载到 Z 盘 （驱动器号） mountvol Z: /S 4 、查询 Z 盘 （ EFI 分区）状态 fsutil di
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235705#reply0
+
+---
+
+#### 9775. [V2EX] 京东店卖的哪些 FPP 零售彩盒 靠谱吗。
+
+**问题描述 / Problem Description**:
+是大量采购然后分发出来的吗？ 有懂这行门道的吗？ 价格有 100 多（电子 key ） 300 多（给 FPP 彩盒一个硬纸板 key+一个安装 U 盘） 这种能绑定到微软账户吗？后续换电脑（所有硬件都换的那种，整个就是换电脑）能通过微软账号更换激活机器吗 但是我搜了一下，好像 2012 年前后大陆就停售 FPP 彩盒这东西了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235459#reply0
+
+---
+
+#### 9776. [V2EX] 关于使用 AI 进行开发的问题，最近使用 AI 开发了很多全新的项目，问下大家在使用 AI 开发的过程中需要人工 Approve 的地方多吗？用 AI 写全新项目都是什么流程或者使用什么工具？
+
+**问题描述 / Problem Description**:
+我先说下我现在的流程，基本就是使用 skill 生成各种项目文档，然后根据文档生成项目开发的阶段性文档。 然后使用这些文档开始开发，如果是小型项目还挺便捷，因为可能一两天就搞定了。 但是对于中大型项目，感觉需要人工介入的次数有点多了，很多时候有异常出现，或者突然发现文档有点问题。 另外 AI 搞个中大型项目得多少钱呢，之前写写小项目，可能也就几十就搞定了，最近搞得一个项目，不知道是不是 上下文太长了，基本开发一个需求就得花掉小几十。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235731#reply0
+
+---
+
+#### 9777. [V2EX] 今天看到一个政务中心的网络，使用 114yun.net 的二级子域名，这个是不是 zw 专用的？
+
+**问题描述 / Problem Description**:
+问豆包说 114yun.net 是提供子域名服务的，又打不开 这个 114yun.net 的二级子域名，这个是不是政务专用的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235726#reply1
+
+---
+
+#### 9778. [V2EX] 你们洗澡用凉水吗？
+
+**问题描述 / Problem Description**:
+发现凉水洗澡非常爽，坚持挺长时间了。运动过后（跑步等）洗个凉水澡非常爽，而且也有助于身体恢复。也有人泡冰桶，但有点浪费水和冰，没试过。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235695#reply16
+
+---
+
+#### 9779. [V2EX] 海外手机卡
+
+**问题描述 / Problem Description**:
+gg 卡不行了，现在大伙在用什么海外卡做替代。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235687#reply1
+
+---
+
+#### 9780. [V2EX] 各位彦祖，我主机这个配置单出二手什么价格合适
+
+**问题描述 / Problem Description**:
+微星 B760M 背插主板 CPU i7-12700KF 显卡 微星 万图师 GeForce RTX 4070 Super 12G 电源 微星 MAG A1000GL 金牌一千瓦 硬盘 宏基掠夺者 2TB NVME pcie 4.0 读速 7200M 内存 海盗船 32G ddr5 6000 * 1 水冷 利民 带监视器 机箱 笨牛 N25 背插机箱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235681#reply0
+
+---
+
+#### 9781. [V2EX] AI 时代你们还加班吗？
+
+**问题描述 / Problem Description**:
+我没怎么加过班，现在有了 AI 感觉开发更加不用加班了，如果有加班是因为什么而加班的呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235680#reply8
+
+---
+
+#### 9782. [V2EX] 求助：电动自定车怎么选
+
+**问题描述 / Problem Description**:
+检索站内近一个月的帖子，仅有一个讨论，没能得到更好的结果。 线下购买又不知怎么选比较好，故发帖求推荐合适的电动自行车。 期望： 电自，非电摩 可以解除限速 通勤 30km ，期望续航能在 50km+
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235667#reply1
+
+---
+
+#### 9783. [V2EX] 买了个京东自营的华帝油烟机，怎么维权
+
+**问题描述 / Problem Description**:
+23 年 10 月买了一台 3000 元的华帝油烟机 2025 年底发现偶尔无法开启，发现质保期只有 1 年（真坑），联系华帝售后，维修也是外包机构，不是很想修了。 京东客服给出意见是也收到了很多质量投诉， 京东给出的方案是扣除商家信誉分 6 分，从商家保证金扣除 200 元补偿给我 。 ---- 想问下 V 友们， 京东的商家信誉分扣除严重吗 我不想要这 200 元，我要京东华帝死
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235648#reply8
+
+---
+
+#### 9784. [V2EX] 腾讯 Hy3 到底什么水平？
+
+**问题描述 / Problem Description**:
+WorkBuddy 中 Hy3 免费了那么久，实际能力表现怎么样呢？腾讯有在好好做模型吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235638#reply16
+
+---
+
+#### 9785. [V2EX] 有没有用过 AI 写小说的老哥分享下的
+
+**问题描述 / Problem Description**:
+有搞头吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235631#reply2
+
+---
+
+#### 9786. [V2EX] 在这个 AI 浪潮下，怎么还有很多垃圾业务没被淘汰？
+
+**问题描述 / Problem Description**:
+就比如说代办信贷吧，这种业务就是主打一个信息差，看谁不会去银行信贷。他们跟你去办理，还收取个高额手续费。 而且电销的套路就两种，1 是伪装银行房贷的，2 是伪装熟人之前帮你贷款的。 而在这个网贷遍地，AI 遍地的时代。真正有需求的人早就精准定位，也不需要人工一个个用骗的手段打电话。但这种垃圾业务，至今还非常猖獗。本人几乎每天都会接到。 我就百思不得其解了，现在这个时代这种业务为啥还有，而且还那么多！难道不应该被网贷和 AI 淘汰？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235630#reply1
+
+---
+
+#### 9787. [V2EX] codex 两个人共用可以吗，会不会被封都用一个节点
+
+**问题描述 / Problem Description**:
+codex 两个人共用可以吗，都用一个节点会不会被封
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235623#reply4
+
+---
+
+#### 9788. [V2EX] 关于程序员用 AI 发现一件吊诡的事情
+
+**问题描述 / Problem Description**:
+对于很多程序员来说 自从 AI 时代来了后 - 岗位是收缩的 - 工资是不变的 - 任务量是增加的 - 技能是荒废的 - token 是自费的 只有当老板的赚钱？？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235622#reply7
+
+---
+
+#### 9789. [V2EX] 股票你们有好的龙虎榜网站吗,现在信息太多了都看不过来.
+
+**问题描述 / Problem Description**:
+只关注今天的龙虎即可,其它的详细的可以找其它渠道看.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235618#reply0
+
+---
+
+#### 9790. [V2EX] 关于合力租算力搭建大模型
+
+**问题描述 / Problem Description**:
+RT,几个人一起出资租好点的算力然后部署开源大模型（ Qwen,h3,deepseek 等），做成一个接口访问是不是比订阅更划算？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235609#reply12
+
+---
+
+#### 9791. [V2EX] 求便宜好用 vibe coding 麦克风
+
+**问题描述 / Problem Description**:
+觉得阐述的时候打字还是太慢了，想着用语音输入会快些，求推荐便宜好用的麦克风，方便语音转文字使用。 之前看到别人在用 60+小米遥控器 Pro2 之类的做麦克风，配合开源软件使用，但是我没太明白它的原理，我花 20 几块钱搞那种类似网吧、或者是会议室那种简单的麦克风不是也可以吗？麦克风能识别就行了不是吗？之前遇到 2.5mm 不太好识别的情况，我换个 usb 接口的是否就可以避免了驱动问题？还有比较热门的就是那种 3 、4 个按键的语音键盘，但是成本下来也要 200+。 我也知道贵有贵的好处，但是我这边只要能正常拾音即可，越便宜越好，先谢过有经验的小伙伴了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235598#reply9
+
+---
+
+#### 9792. [V2EX] 医保报销降低，有没有好的日常看病可以报销的保险推荐？
+
+**问题描述 / Problem Description**:
+如题，目前去公立医院，一看只报销几块钱，问了收银的，她说最近报销比例调整了。 结果没好，然后去私立看，开了药+针水 就 500+（不过最后好了），有点遭不住，V 友有没有日常看病也能适当报销的保险推荐？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235589#reply4
+
+---
+
+#### 9793. [V2EX] codingplan 套餐方案
+
+**问题描述 / Problem Description**:
+RT ，大概日常写和维护 4-5 个软件项目，不算复杂，就是生物分析软件那样的，加上平时写一些小脚本跑分析，请问买什么套餐比较划算？我觉得 chatglm5.2+ds4flash 就够用了。目前的想法是，OpenCode Go+OpenRouter10 美元白嫖免费模型+zai 的 lite 订阅，zai 的订阅经常用超所以需要补充一下。请问站里有什么更好的建议吗？实测涨价之前的 DeepSeek 每个月按量付费至少用 200 元的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235582#reply12
+
+---
+
+#### 9794. [V2EX] 大佬帮我看看是我号废了吗？
+
+**问题描述 / Problem Description**:
+之前每个月都能扣款续费，买别的东西也正常。这两天买点数和续费都是“待处理”。我付款绑的是 PayPal ，去 PayPal 里也没看到交易记录，看来是卡在 Apple 这里的。有没有懂的大佬指点下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235555#reply0
+
+---
+
+#### 9795. [V2EX] 今天我的生日
+
+**问题描述 / Problem Description**:
+求祝福
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235554#reply6
 
 ---

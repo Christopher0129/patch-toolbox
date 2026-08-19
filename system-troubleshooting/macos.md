@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8710**
+**总计条目 / Total entries: 8764**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -117530,5 +117530,707 @@ You are using a beta version of the next version of macOS, issues like this are 
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486880/how-to-fix-gimp-not-working-on-macos-27-beta
+
+---
+
+#### 8711. They weren’t lying about MacBook batteries
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsiv8j/they_werent_lying_about_macbook_batteries/
+
+---
+
+#### 8712. Move "Applications" to left of Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vshice/move_applications_to_left_of_finder/
+
+---
+
+#### 8713. “Homemade” aqua screensaver
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsle3z/homemade_aqua_screensaver/
+
+---
+
+#### 8714. Thoughts on These wallpaper Designs?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsdyzm/thoughts_on_these_wallpaper_designs/
+
+---
+
+#### 8715. lol why does google chrome want access to my local network so bad
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsuw6m/lol_why_does_google_chrome_want_access_to_my/
+
+---
+
+#### 8716. Do you also cringe when you try to use Excel on Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vscng8/do_you_also_cringe_when_you_try_to_use_excel_on/
+
+---
+
+#### 8717. MacOS Retro Wallpapers
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vstrns/macos_retro_wallpapers/
+
+---
+
+#### 8718. How do I stop my wallpaper from blurring?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsqgfe/how_do_i_stop_my_wallpaper_from_blurring/
+
+---
+
+#### 8719. icloud, freeing space, downloading pics and pics quality/info
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsp50n/icloud_freeing_space_downloading_pics_and_pics/
+
+---
+
+#### 8720. Dictation Issue 26.6.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsto6b/dictation_issue_2662/
+
+---
+
+#### 8721. My storage is full and I have 150 gbs of System Data. What can I do to lower the amount of storage used by system data on my 2020 Macbook Air (on Sonoma)?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsseqp/my_storage_is_full_and_i_have_150_gbs_of_system/
+
+---
+
+#### 8722. calculator needs a bit of RAM
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsrykn/calculator_needs_a_bit_of_ram/
+
+---
+
+#### 8723. MacOS + Dropbox external SSD problems
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsr8wi/macos_dropbox_external_ssd_problems/
+
+---
+
+#### 8724. Trash Icon -- jab at Microsoft?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vt0oru/trash_icon_jab_at_microsoft/
+
+---
+
+#### 8725. Issues with USB on Tahoe 26.6
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vslza4/issues_with_usb_on_tahoe_266/
+
+---
+
+#### 8726. How to make bolding text Cmd + N, instead of Cmd + B? Alternatively, how to disable Cmd + N opening new windows?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsl67t/how_to_make_bolding_text_cmd_n_instead_of_cmd_b/
+
+---
+
+#### 8727. Youtube issue in Brave
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vswidl/youtube_issue_in_brave/
+
+---
+
+#### 8728. Best way to edit key binds to closer mimic Linux/Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsq1hx/best_way_to_edit_key_binds_to_closer_mimic/
+
+---
+
+#### 8729. How Do I Keep My MacBook Pro M1 Display On While It's Locked and Plugged In?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vsitr0/how_do_i_keep_my_macbook_pro_m1_display_on_while/
+
+---
+
+#### 8730. Switch between windows of the same app on different desktops with shortcut
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vshd9w/switch_between_windows_of_the_same_app_on/
+
+---
+
+#### 8731. What causes this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vscu9s/what_causes_this/
+
+---
+
+#### 8732. [V2EX] MacOS27 beta6 访达左上角的[红黄绿]按钮掉色
+
+**问题描述 / Problem Description**:
+昨天更新到 beta6 ，我发现访达[红黄绿]按钮有点掉色 浅色页面的 header 有种被风吹日晒了很久的感觉 https://app.screencast.com/JQI3ooe5Ifpdj
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235494#reply5
+
+---
+
+#### 8733. [V2EX] 避雷 APP => Dynamic Wallpaper，永久强行转订阅
+
+**问题描述 / Problem Description**:
+Dynamic Wallpaper 这款 APP ，用途是动态壁纸 刚买 mac book 的时候，买的第一款 app ，本身是付费购买 前段时间更新后，突然从买断，强行转换为订阅 恢复购买点了没用，发出来让大家避雷一下 同时请问一下老哥们，macOS 上有啥好的动态壁纸 APP 推荐吗 可惜 macOS 没有 steam 上的 Wallpaper Enginee
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235470#reply16
+
+---
+
+#### 8734. [V2EX] word，拖动鼠标无法选择文本
+
+**问题描述 / Problem Description**:
+macos 上的 word ，拖动鼠标无法选择文本，插了 ai 也没搞明白问题在哪里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235444#reply2
+
+---
+
+#### 8735. [V2EX] vibe coding 了一个 macos26 的 launchpad
+
+**问题描述 / Problem Description**:
+几乎都是 deepseek 完成的，部分由 cursor 完成。 目前的状态是能用，支持快捷键唤出、四指捏合和开机自启动，只在自己电脑上测试过。 后续再考虑文件夹和拖拽部分的交互。 放个 github 地址： aHR0cHM6Ly9naXRodWIuY29tL2NjZHl5L1JsYXVuY2g= 来个预览图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235410#reply5
+
+---
+
+#### 8736. [V2EX] mac 用 clion git 文件变化异常
+
+**问题描述 / Problem Description**:
+mac 用 clion 几乎所有的文件 h cpp 文件在 idea 会被识别 git 有变化 但实际上并没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235229#reply9
+
+---
+
+#### 8737. [V2EX] UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？
+
+**问题描述 / Problem Description**:
+mac 远程 mac ，VNC 可以 ⌘+Q 关闭远程桌面上的 App ，到 UU 这里每次 ⌘+Q 都是把 UU 远程自己关掉，真绷不住了。 问了 AI 可以在系统设置 → 键盘 → 键盘快捷键 → App 快捷键，把关闭 App 的快捷键从 ⌘+Q 改成别的快捷键。 改完快捷键 ⌘+Q 就没任何反应了，不会关闭 UU ，远程桌面也不会关闭 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234271#reply9
+
+---
+
+#### 8738. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply140
+
+---
+
+#### 8739. [V2EX] V2 有专门讨论 Apple 的微信群吗？
+
+**问题描述 / Problem Description**:
+如题，V2 有专门讨论 Apple 的群吗？有一定活跃度，又不那么活跃的微信群。 求加。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235594#reply2
+
+---
+
+#### 8740. [V2EX] 手搓了个按应用自动切换输入法的小工具
+
+**问题描述 / Problem Description**:
+之前一直使用自动切换输入法，无奈要收费，一直都是开发 toB 后台系统，第一次开发自用 app ，欢迎体验提 issue AutoSwitchInput AutoSwitchInput 按应用自动切换 macOS 输入法的菜单栏小工具。 简介 AutoSwitchInput 是一个纯原生的 macOS 菜单栏应用。当你在不同 App 之间切换时，它会按照预设规则自动把输入法切到对应状态：比如终端类应用一律用英文（ ABC ），微信这类聊天应用自动切到中文拼音。告别反复手动切换输入法的烦恼。 功能特性 按应用自动切换 — 监听前台 App 切换，80ms 防抖后匹配规则并切换输入法。 规则化管理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235503#reply2
+
+---
+
+#### 8741. [V2EX] 忍不住想吐槽一下 AirDrop，体验有时候真的一言难尽
+
+**问题描述 / Problem Description**:
+稳定的时候体验很好，但是经常抽风，要么找不到设备，要么找到了设备又一直发不出去，一直显示等待中。。。。。技术实现上这么复杂且困难吗，这个 bug 修了这么多年了都修不好，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235473#reply29
+
+---
+
+#### 8742. [V2EX] 制作了一个 AltStore 软件源： AltGallery 欢迎大家来试试
+
+**问题描述 / Problem Description**:
+sidestore 配合 livecontainer 可以在没有电脑的情况下安装各种 ipa 了。不过很多 App 只在 GitHub Release 里放 ipa ，没有对应的源，更新起来挺不方便的。 所以用 Claude 做了这个项目 https://github.com/bebound/AltGallery , 收集了一些常用的软件，生成软件源，定时更新版本。 点 Add AltSource 就能订阅到 SideStore/LiveContainer/AltStore 了 如果有还没收录的软件，欢迎告诉我，我来加进去～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235329#reply11
+
+---
+
+#### 8743. [V2EX] 请教，之前准备搞 gpt，买了几张 200 的美区礼品卡，没用完怎么变现啊？
+
+**问题描述 / Problem Description**:
+还有两个兑换码没充到账户中，怎么安全变现啊，某鱼又怕买家兑换了退货，毕竟金额这么大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235230#reply27
+
+---
+
+#### 8744. [V2EX] 升级 27 beta6 微信输入法又用不了
+
+**问题描述 / Problem Description**:
+上个版本直接导致 ui 界面卡死，微信输入法升级一次版本后之后好了，现在升级到 beta6 ，这神奇微信输入法又直接无响应了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235167#reply12
+
+---
+
+#### 8745. [V2EX] iPhone 18 Pro 想买首发 想买非国行版本 有什么渠道吗？
+
+**问题描述 / Problem Description**:
+就算是香港 肉身跑一趟的车票价格都还挺贵的 暂时没有去旅游的打算 所以不考虑顺路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234749#reply29
+
+---
+
+#### 8746. [V2EX] 115 又出长期版了， 1999 元
+
+**问题描述 / Problem Description**:
+https://115.com/77 抖音商城 1999 元 长期版，应该就是永久？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235716#reply2
+
+---
+
+#### 8747. [V2EX] 搓了一个 dsh 插件，用于统计会话的 Token 费用消耗明细
+
+**问题描述 / Problem Description**:
+dsh 插件：Token 计费明细 大家好，最近在使用 dsh 感觉挺好玩的，我发现一个比较实际的问题： 模型请求越来越多，但很难在当前会话里快速知道： 这次请求大概花了多少钱？ 当前会话累计费用是多少？ 哪些 Token 命中了缓存？ 不同模型、不同阶段的费用如何比较？ 重启 dsh 之后，历史费用还能不能保留？ 所以我做了一个本地插件：dsh-cost-meter 。 项目地址： https://github.com/uruana33/dsh-cost-meter npm： https://www.npmjs.com/package/@mymeter/dsh-cost-meter 它能做什
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235708#reply1
+
+---
+
+#### 8748. [V2EX] 小红书也发模型了，可白嫖，不知道什么水平
+
+**问题描述 / Problem Description**:
+发布： https://www.xiaohongshu.com/explore/6a8570a2000000003300b9e3 平台： https://dots.ai/platform
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235703#reply1
+
+---
+
+#### 8749. [V2EX] 面向 OpenWrt / ImmortalWrt 的 Wi‑Fi Calling + Apple WLOC 一体化网关
+
+**问题描述 / Problem Description**:
+Wi‑Fi Calling + Location Gateway 将两个服务组织在同一台路由器上： Wi‑Fi Calling Gateway 为指定局域网设备选择 sing-box 节点，并保持 UDP 500/4500 的 ePDG/IPsec 通道独立运行。 WLOC 服务只处理指定测试设备发往 Apple WLOC 主机的 TCP 443 流量；自动模式根据该设备绑定节点的出口 IP 解析目标地区，手动模式使用管理员选择的坐标。 LuCI 界面提供节点、设备策略、自动/手动位置、证书安装、运行状态和脱敏日志入口。 项目的核心边界是”独立、精确、可回退”：WLOC 使用自己的进程、UCI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235676#reply0
+
+---
+
+#### 8750. [V2EX] qq 农村，一不小心打开了，原来我兜里还有两百来万
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235674#reply0
+
+---
+
+#### 8751. [V2EX] 清源：按关注点筛公开资讯，内测申请开放
+
+**问题描述 / Problem Description**:
+朋友在做的「清源」，马上开内测。 每天刷 B 站、公众号、知乎、专栏，收藏一堆，真正看完的没几条。清源就是帮你盯这些来源：把常看的博主、公众号、博客、RSS 等丢进去，用平常话写下关心什么，它先筛再送，只推新增、相关的，每条都能点回原文。整理完会推送到邮箱，也可以接到微信、钉钉、飞书这些你本来就不会错过的地方。 现在申请: https://clarity.qwld.cn
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235650#reply0
+
+---
+
+#### 8752. [V2EX] 是不是过了 35 对什么都不感兴趣了
+
+**问题描述 / Problem Description**:
+包括女人和💰。欲买桂花同载酒，终不似少年游。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235640#reply47
+
+---
+
+#### 8753. [V2EX] Giffgaff 卡又复活了
+
+**问题描述 / Problem Description**:
+昨晚我收到 Giffgaff 的邮件，说之前封掉的卡又恢复了，还送了 £10 。 Your service was recently disconnected in error. We’re really sorry for the mistake and any inconvenience it caused. We’re currently in the process of restoring your account, and your service will be fully restored in the next few days. You might need to rest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235529#reply47
+
+---
+
+#### 8754. [V2EX] 腾讯 workbuddy hy3 限时免费法有上限？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235517#reply2
+
+---
+
+#### 8755. [V2EX] 才发现 mac 的微信，红绿灯是假的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235492#reply15
+
+---
+
+#### 8756. [V2EX] 发现了一个好用的开源跨平台 airdrop 项目
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/spieglt/FlyingCarpet 支持：windows ，android ，ios ，mac ，linux
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235451#reply0
+
+---
+
+#### 8757. [V2EX] Codex 计划模式生成的计划被翻译成套餐了
+
+**问题描述 / Problem Description**:
+看了半天没看明白这个套餐是啥意思，感觉是类似 subscription plan ，把 plan 翻译成套餐了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235361#reply2
+
+---
+
+#### 8758. [V2EX] 分享一个减少 GPT 输出的「AI 味」的 Skill（纯手写）
+
+**问题描述 / Problem Description**:
+如题，我发现 GPT 5.6 Sol 说话还是经常有一股子 AI 味。所以写了这个 Skill： https://github.com/w568w/stop-slop-cn 纯天然手写，0 AI 添加。 安装方式 npx skills add https://github.com/w568w/stop-slop-cn 其他方式见 README 。 效果预览 使用前（特别喜欢不停换行，列一些没有意义的列表，分一大堆小标题）： 2. 为什么说它是“男性社区” 酷安用户明显偏男性，内容也更接近男性兴趣： - 数码； - 游戏； - 摄影； - 健身； - 装备； 不是那种小红书的精致生活、消费种草，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235318#reply1
+
+---
+
+#### 8759. [V2EX] 关于电影审查说两句
+
+**问题描述 / Problem Description**:
+仅限于普通影片，不包括重大题材影片 拿着剧本备案（属地备案、属地审查） 备案后开机、制作 然后是内容审查 最后是技术审查 审查完了给龙标
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235308#reply1
+
+---
+
+#### 8760. [V2EX] V 友们 AI 编程都用的啥组合啊？晒一晒
+
+**问题描述 / Problem Description**:
+我大部分用的是 claude code + deepseek/kimi ， 看看大家的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235302#reply16
+
+---
+
+#### 8761. [V2EX] 推荐一个网站上传 PDF 简历并在线分享链接
+
+**问题描述 / Problem Description**:
+一、引言：为什么需要在线分享简历？ 在当今的求职和商务合作中，一份精心准备的 PDF 简历是展示个人能力的关键。然而，通过邮件附件发送简历存在诸多不便：文件可能被拦截、格式可能错乱、且无法追踪查看状态。在线分享简历链接则能完美解决这些问题，它允许你： 即时分享：生成一个永久链接，一键发送给招聘方或合作伙伴。 保护隐私：可设置密码、有效期和下载权限，控制谁可以查看。 追踪分析（部分平台）：了解简历被谁、在何时查看过。 保持格式：确保对方在任何设备上看到的都是你精心排版的原始效果。 本文将详细介绍从上传 PDF 简历到生成可分享链接的全过程。 二、准备工作：制作一份合格的 PDF 简历 在上传之前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235293#reply8
+
+---
+
+#### 8762. [V2EX] 活这么久，第一次知道湿度对体感温度的影响
+
+**问题描述 / Problem Description**:
+之前在老家东北，冷或者热都只是看温度，后来去了江苏和上海也是一样，只看温度来判断体感温度。 今年 3 月买了电子温度计之后，上面有显示温度和湿度，接着在夏天开空调前后，发现温度计上的温度差距不大，但是湿度从 80%多一路降低到 40 多 50 多，这时候明显能感觉，体感温度上凉快了许多，哪怕温度就只差了一两度，这时候还是更相信温度。 直到前段时间因为台风，天气变凉快了许多，就关了空调，但是这两天温度又上升了，看温度计显示的是 30 度上下，这跟之前 7 月份热得不行需要开空调时期的温度是一样的，唯一区别就是现在的湿度只有 50 多 60 多，而那时候是 80 多，这时候我才确信，湿度对体感温度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235277#reply27
+
+---
+
+#### 8763. [V2EX] 花了 8 个小时，精选了 500 个 dsh plugins
+
+**问题描述 / Problem Description**:
+是兄弟来点我， dsh asewome top 500 ，我是渣渣辉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235267#reply1
+
+---
+
+#### 8764. Command line equivalent to info in "Force Quit" dialog on MacOS?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 0 | Views: 21 | Answers: 1 | Created: 2026-08-19
+
+**解决方案 / Solution**:
+The challenge here is that ps works on Unix level and doesn't know about applications as such. If you want to focus on applications, something like ps aux | grep 'Applications/.*\.app' | cut -w -f 2,11 might help, but this will also list helper applications etc. not visible in the Force Quit dialog, and several lines for browsers which spawn separate processes for tabs/tab groups.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486943/command-line-equivalent-to-info-in-force-quit-dialog-on-macos
 
 ---

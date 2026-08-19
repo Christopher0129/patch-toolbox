@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3195**
+**总计条目 / Total entries: 3222**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -47444,5 +47444,329 @@ images mount cleanly (verified in the same UML harness).
 - https://git.kernel.org/stable/c/7972df425687daa70d971fe6ed415e78683133dd
 - https://git.kernel.org/stable/c/7ac4c86915c24c208a0f0611b71d9676686fe756
 - https://git.kernel.org/stable/c/8128bec895075253c779d67afdc90ae513265fca
+
+---
+
+#### 3196. CVE-2026-75900 - swtpm: swtpm: Out-of-bounds read in SWTPM_NVRAM_CheckHeader due to sizeof(pointer)…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] swtpm: swtpm: Out-of-bounds read in SWTPM_NVRAM_CheckHeader due to sizeof(pointer) vs sizeof(struct) mismatch. Bugzilla: 2517910
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517910
+
+---
+
+#### 3197. CVE-2026-76038 - chromium-browser: v8: V8: Remote code execution via type confusion in crafted HTML.
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: v8: V8: Remote code execution via type confusion in crafted HTML.. Bugzilla: 2518262
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518262
+
+---
+
+#### 3198. CVE-2026-76041 - chromium-browser: Chromium: Information leak allows web origin policy bypass
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Information leak allows web origin policy bypass. Bugzilla: 2518263
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518263
+
+---
+
+#### 3199. CVE-2026-76047 - chromium-browser: Chromium-browser: Arbitrary code execution via type confusion in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium-browser: Arbitrary code execution via type confusion in V8. Bugzilla: 2518275
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518275
+
+---
+
+#### 3200. CVE-2026-76042 - chromium-browser: Google Chrome: Information disclosure via uninitialized resource…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Information disclosure via uninitialized resource in GPU. Bugzilla: 2518271
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518271
+
+---
+
+#### 3201. CVE-2026-76043 - chromium-browser: v8: Google Chrome V8: Arbitrary code execution via incorrect…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: v8: Google Chrome V8: Arbitrary code execution via incorrect calculation in HTML processing. Bugzilla: 2518273
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518273
+
+---
+
+#### 3202. CVE-2026-76039 - chromium-browser: Chromium: Information disclosure via incorrect reference…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Information disclosure via incorrect reference resolution. Bugzilla: 2518266
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518266
+
+---
+
+#### 3203. CVE-2026-76040 - chromium-browser: chromium-browser: Arbitrary code execution via use-after-free…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Arbitrary code execution via use-after-free vulnerability. Bugzilla: 2518272
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518272
+
+---
+
+#### 3204. CVE-2026-76037 - chromium-browser: Google Chrome: Arbitrary Code Execution via Link Following
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Arbitrary Code Execution via Link Following. Bugzilla: 2518261
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518261
+
+---
+
+#### 3205. CVE-2026-76044 - chromium-browser: Google Chrome: Arbitrary code execution due to a race condition…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Arbitrary code execution due to a race condition in USB. Bugzilla: 2518264
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518264
+
+---
+
+#### 3206. CVE-2026-76033 - chromium-browser: Google Chrome: Site isolation bypass due to inappropriate CORS…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Site isolation bypass due to inappropriate CORS implementation. Bugzilla: 2518270
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518270
+
+---
+
+#### 3207. CVE-2026-76036 - chromium-browser: Dawn in Google Chrome: Arbitrary code execution via crafted HTML…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Dawn in Google Chrome: Arbitrary code execution via crafted HTML page. Bugzilla: 2518267
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518267
+
+---
+
+#### 3208. CVE-2026-15571 - keycloak-services: keycloak-services: Predictable account-linking hash enables…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Predictable account-linking hash enables account takeover via malicious OIDC client. Bugzilla: 2499591
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499591
+
+---
+
+#### 3209. CVE-2026-66780 - submariner-operator: submariner-operator: flat broker trust model grants every…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: flat broker trust model grants every spoke full CRUD on all endpoints, secrets, and endpointslices in broker namespace. Bugzilla: 2507524
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507524
+
+---
+
+#### 3210. CVE-2026-66781 - submariner-operator: submariner-operator: IPsec PSK stored cleartext in Submariner…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: IPsec PSK stored cleartext in Submariner CR spec. Bugzilla: 2507526
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507526
+
+---
+
+#### 3211. CVE-2026-66782 - submariner-operator: submariner-operator: broker API bearer token stored cleartext…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: broker API bearer token stored cleartext in CR spec. Bugzilla: 2507527
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507527
+
+---
+
+#### 3212. CVE-2026-66783 - submariner-operator: submariner-operator: arbitrary image override enables…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: arbitrary image override enables privileged code execution on every node. Bugzilla: 2507528
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507528
+
+---
+
+#### 3213. CVE-2026-75924 - managed-serviceaccount: managed-serviceaccount: Hub addon-manager ClusterRole…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] managed-serviceaccount: managed-serviceaccount: Hub addon-manager ClusterRole grants cluster-wide Secret read/write and CSR approval. Bugzilla: 2515720
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515720
+
+---
+
+#### 3214. CVE-2026-71365 - awx: webhook status callback SSRF leaks the Git PAT
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] awx: webhook status callback SSRF leaks the Git PAT. Bugzilla: 2511901
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511901
+
+---
+
+#### 3215. CVE-2026-73834 - must-gather: must-gather: embedded Secret data in ACM wrapper CRs collected…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] must-gather: must-gather: embedded Secret data in ACM wrapper CRs collected without redaction. Bugzilla: 2517904
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517904
+
+---
+
+#### 3216. [Ubuntu] USN-8563-4: nginx regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8563-3 fixed a vulnerability in nginx. The fix introduced a regression in certain environments. This update reverts the fix for CVE-2026-42533 pending further investigation. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain map directives using regex matching and capture variables. A remote attacker could use this issue to c
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8563-4
+
+---
+
+#### 3217. [Ubuntu] USN-8651-1: curl vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly handled reusing connections when the origin changed between transfers. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8651-1
+
+---
+
+#### 3218. [Ubuntu] USN-8650-1: Cap'n Proto vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Chanho Kim and Jihyeok Han discovered that Cap'n Proto incorrectly handled negative Content-Length values or excessively large chunk sizes when processing HTTP messages. An attacker could possibly use these issues to cause HTTP messages to be interpreted inconsistently, resulting in HTTP request or response smuggling. (CVE-2026-32239, CVE-2026-32240)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8650-1
+
+---
+
+#### 3219. [Ubuntu] USN-8649-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libheif had an integer underflow in the Fraction constructor when a clap transform was applied twice. An attacker could possibly use this issue to cause libheif to crash, resulting in a denial of service. (CVE-2026-62289) It was discovered that libheif had an out-of-bounds read in uncompressed tile range slicing. An attacker could possibly use this issue to cause libheif to
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8649-1
+
+---
+
+#### 3220. [Ubuntu] USN-8648-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Bind incorrectly accepted NSEC3 records whose signer name did not match the owning zone. A remote attacker could possibly use this issue to perform NSEC3 impersonation attacks, bypassing DNSSEC validation. (CVE-2026-10723) It was discovered that Bind incorrectly handled Key Records using the PRIVATEDNS algorithm. A remote attacker could possibly use this issue to cause Bind
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8648-1
+
+---
+
+#### 3221. [Ubuntu] USN-8093-2: libssh vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8093-1 fixed a vulnerability in libssh. This update provides the corresponsing fix for Ubuntu 26.04 LTS. Original advisory details: It was discovered that libssh incorrectly performed bounds checking when processing SFTP extensions. If a client application queried extension data out of bounds, it could cause the application to crash, resulting in a denial of service, or exhibit unintended beha
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8093-2
+
+---
+
+#### 3222. [Ubuntu] USN-8113-2: LibTIFF vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN 8113-1 fixed vulnerabilities in tiff. This update provides the corresponding fixes for Ubuntu 26.04 LTS. Original advisory details: It was discovered that LibTIFF did not properly handle memory when processing certain images. An attacker could possibly use this issue to cause LibTIFF to crash, resulting in a denial of service. (CVE-2025-61143) It was discovered that LibTIFF did not properly ha
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8113-2
 
 ---

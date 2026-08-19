@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2936**
+**总计条目 / Total entries: 2963**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -53422,5 +53422,437 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8639-1
+
+---
+
+#### 2937. CVE-2026-75900 - swtpm: swtpm: Out-of-bounds read in SWTPM_NVRAM_CheckHeader due to sizeof(pointer)…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] swtpm: swtpm: Out-of-bounds read in SWTPM_NVRAM_CheckHeader due to sizeof(pointer) vs sizeof(struct) mismatch. Bugzilla: 2517910
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517910
+
+---
+
+#### 2938. CVE-2026-76038 - chromium-browser: v8: V8: Remote code execution via type confusion in crafted HTML.
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: v8: V8: Remote code execution via type confusion in crafted HTML.. Bugzilla: 2518262
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518262
+
+---
+
+#### 2939. CVE-2026-76041 - chromium-browser: Chromium: Information leak allows web origin policy bypass
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Information leak allows web origin policy bypass. Bugzilla: 2518263
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518263
+
+---
+
+#### 2940. CVE-2026-76047 - chromium-browser: Chromium-browser: Arbitrary code execution via type confusion in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium-browser: Arbitrary code execution via type confusion in V8. Bugzilla: 2518275
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518275
+
+---
+
+#### 2941. CVE-2026-76042 - chromium-browser: Google Chrome: Information disclosure via uninitialized resource…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Information disclosure via uninitialized resource in GPU. Bugzilla: 2518271
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518271
+
+---
+
+#### 2942. CVE-2026-76043 - chromium-browser: v8: Google Chrome V8: Arbitrary code execution via incorrect…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: v8: Google Chrome V8: Arbitrary code execution via incorrect calculation in HTML processing. Bugzilla: 2518273
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518273
+
+---
+
+#### 2943. CVE-2026-76039 - chromium-browser: Chromium: Information disclosure via incorrect reference…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Information disclosure via incorrect reference resolution. Bugzilla: 2518266
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518266
+
+---
+
+#### 2944. CVE-2026-76040 - chromium-browser: chromium-browser: Arbitrary code execution via use-after-free…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Arbitrary code execution via use-after-free vulnerability. Bugzilla: 2518272
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518272
+
+---
+
+#### 2945. CVE-2026-76037 - chromium-browser: Google Chrome: Arbitrary Code Execution via Link Following
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Arbitrary Code Execution via Link Following. Bugzilla: 2518261
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518261
+
+---
+
+#### 2946. CVE-2026-76044 - chromium-browser: Google Chrome: Arbitrary code execution due to a race condition…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Arbitrary code execution due to a race condition in USB. Bugzilla: 2518264
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518264
+
+---
+
+#### 2947. CVE-2026-76033 - chromium-browser: Google Chrome: Site isolation bypass due to inappropriate CORS…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Site isolation bypass due to inappropriate CORS implementation. Bugzilla: 2518270
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518270
+
+---
+
+#### 2948. CVE-2026-76036 - chromium-browser: Dawn in Google Chrome: Arbitrary code execution via crafted HTML…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Dawn in Google Chrome: Arbitrary code execution via crafted HTML page. Bugzilla: 2518267
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518267
+
+---
+
+#### 2949. CVE-2026-15571 - keycloak-services: keycloak-services: Predictable account-linking hash enables…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Predictable account-linking hash enables account takeover via malicious OIDC client. Bugzilla: 2499591
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2499591
+
+---
+
+#### 2950. CVE-2026-66780 - submariner-operator: submariner-operator: flat broker trust model grants every…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: flat broker trust model grants every spoke full CRUD on all endpoints, secrets, and endpointslices in broker namespace. Bugzilla: 2507524
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507524
+
+---
+
+#### 2951. CVE-2026-66781 - submariner-operator: submariner-operator: IPsec PSK stored cleartext in Submariner…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: IPsec PSK stored cleartext in Submariner CR spec. Bugzilla: 2507526
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507526
+
+---
+
+#### 2952. CVE-2026-66782 - submariner-operator: submariner-operator: broker API bearer token stored cleartext…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: broker API bearer token stored cleartext in CR spec. Bugzilla: 2507527
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507527
+
+---
+
+#### 2953. CVE-2026-66783 - submariner-operator: submariner-operator: arbitrary image override enables…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] submariner-operator: submariner-operator: arbitrary image override enables privileged code execution on every node. Bugzilla: 2507528
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507528
+
+---
+
+#### 2954. CVE-2026-75924 - managed-serviceaccount: managed-serviceaccount: Hub addon-manager ClusterRole…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] managed-serviceaccount: managed-serviceaccount: Hub addon-manager ClusterRole grants cluster-wide Secret read/write and CSR approval. Bugzilla: 2515720
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515720
+
+---
+
+#### 2955. CVE-2026-71365 - awx: webhook status callback SSRF leaks the Git PAT
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] awx: webhook status callback SSRF leaks the Git PAT. Bugzilla: 2511901
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511901
+
+---
+
+#### 2956. CVE-2026-73834 - must-gather: must-gather: embedded Secret data in ACM wrapper CRs collected…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] must-gather: must-gather: embedded Secret data in ACM wrapper CRs collected without redaction. Bugzilla: 2517904
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517904
+
+---
+
+#### 2957. [Ubuntu] USN-8563-4: nginx regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8563-3 fixed a vulnerability in nginx. The fix introduced a regression in certain environments. This update reverts the fix for CVE-2026-42533 pending further investigation. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain map directives using regex matching and capture variables. A remote attacker could use this issue to c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8563-4
+
+---
+
+#### 2958. [Ubuntu] USN-8651-1: curl vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that curl incorrectly handled reusing connections when the origin changed between transfers. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8651-1
+
+---
+
+#### 2959. [Ubuntu] USN-8650-1: Cap'n Proto vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Chanho Kim and Jihyeok Han discovered that Cap'n Proto incorrectly handled negative Content-Length values or excessively large chunk sizes when processing HTTP messages. An attacker could possibly use these issues to cause HTTP messages to be interpreted inconsistently, resulting in HTTP request or response smuggling. (CVE-2026-32239, CVE-2026-32240)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8650-1
+
+---
+
+#### 2960. [Ubuntu] USN-8649-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libheif had an integer underflow in the Fraction constructor when a clap transform was applied twice. An attacker could possibly use this issue to cause libheif to crash, resulting in a denial of service. (CVE-2026-62289) It was discovered that libheif had an out-of-bounds read in uncompressed tile range slicing. An attacker could possibly use this issue to cause libheif to
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8649-1
+
+---
+
+#### 2961. [Ubuntu] USN-8648-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Bind incorrectly accepted NSEC3 records whose signer name did not match the owning zone. A remote attacker could possibly use this issue to perform NSEC3 impersonation attacks, bypassing DNSSEC validation. (CVE-2026-10723) It was discovered that Bind incorrectly handled Key Records using the PRIVATEDNS algorithm. A remote attacker could possibly use this issue to cause Bind
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8648-1
+
+---
+
+#### 2962. [Ubuntu] USN-8093-2: libssh vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8093-1 fixed a vulnerability in libssh. This update provides the corresponsing fix for Ubuntu 26.04 LTS. Original advisory details: It was discovered that libssh incorrectly performed bounds checking when processing SFTP extensions. If a client application queried extension data out of bounds, it could cause the application to crash, resulting in a denial of service, or exhibit unintended beha
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8093-2
+
+---
+
+#### 2963. [Ubuntu] USN-8113-2: LibTIFF vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN 8113-1 fixed vulnerabilities in tiff. This update provides the corresponding fixes for Ubuntu 26.04 LTS. Original advisory details: It was discovered that LibTIFF did not properly handle memory when processing certain images. An attacker could possibly use this issue to cause LibTIFF to crash, resulting in a denial of service. (CVE-2025-61143) It was discovered that LibTIFF did not properly ha
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8113-2
 
 ---

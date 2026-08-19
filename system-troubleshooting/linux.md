@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9089**
+**总计条目 / Total entries: 9122**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -126128,5 +126128,434 @@ Finally I fixed it! Thanks to the comments and some more external guidance, the 
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806822/restore-graphics-configuration-in-debian
+
+---
+
+#### 9090. A 25-year-old Brazilian video patent just expired, ending a lingering legal headache for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vskg4h/a_25yearold_brazilian_video_patent_just_expired/
+
+---
+
+#### 9091. After Europe ditched Windows, China follows suit with its own home-grown Linux distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vscpit/after_europe_ditched_windows_china_follows_suit/
+
+---
+
+#### 9092. Fix for Random Freezing on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vszk4r/fix_for_random_freezing_on_linux/
+
+---
+
+#### 9093. GTK 4 Android — Unofficial and test demo builds of GTK applications on Android
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vs8wg6/gtk_4_android_unofficial_and_test_demo_builds_of/
+
+---
+
+#### 9094. Meloville - Open source music player for linux that doesn't look 20 years old
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vs9w2q/meloville_open_source_music_player_for_linux_that/
+
+---
+
+#### 9095. g7ctl Updated - Big Update for the Linux G7 Pro app
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vsog5z/g7ctl_updated_big_update_for_the_linux_g7_pro_app/
+
+---
+
+#### 9096. CCDRL - Codec Converter for Davinci Resolve on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vswuc4/ccdrl_codec_converter_for_davinci_resolve_on_linux/
+
+---
+
+#### 9097. My lightweight setup
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vt06st/my_lightweight_setup/
+
+---
+
+#### 9098. Tuba 0.11.0 released – Browse the Fediverse
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vs9b9o/tuba_0110_released_browse_the_fediverse/
+
+---
+
+#### 9099. Printing: wide format and model-specific drivers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vs69mg/printing_wide_format_and_modelspecific_drivers/
+
+---
+
+#### 9100. [V2EX] 借助语音大模型，实现 Linux 下的语音输入，邀请 Linux 桌面用户试试
+
+**问题描述 / Problem Description**:
+起因是昨天下午看到 IT 之家这个新闻： 识别、合成、实时交互全球第一，Qwen-Audio-3.0 系列语音模型上线阿里千问 AI 平台 https://www.ithome.com/0/990/679.htm 于是我搞了一套适用于大部分 linux 发行版和桌面环境的流程。平台送了 36000s （有效期 3 个月），到期后的话，我看了一下价格是每秒 0.00022 元 代码开源在 这里 截图如下，邀请用 linux 桌面的朋友们来试试。有用的话留个⭐呀。这套 flow 个人感觉在 linux 桌面环境很轻量，以后更换模型也很简单，稍微适配一下就可以了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235328#reply14
+
+---
+
+#### 9101. [V2EX] Picot（Pi agent GUI）
+
+**问题描述 / Problem Description**:
+https://github.com/shixin-guo/picot Local Codex-style desktop GUI for the Pi coding agent 最近一直在自己写自己的 agent harness 玩一玩 PI 的生态和 和扩展 实在太活跃了 基本想做什么社区搜一下都有了 最近正式发布 apple mac 认证了 不需要 手动修改安全配置了 新的 skills 管理 新的 terminal 集成 git 管理 文件预览 管理 @ file /{skill_name} 调用 skill 以及 beta 版本的 telegram 集成 mobile 局域网同步 一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235736#reply0
+
+---
+
+#### 9102. [V2EX] outlook 居然收不到邮件了
+
+**问题描述 / Problem Description**:
+outlook 之前一直使用的好好的，都正常收发邮件，但是突然有一天，有人给我发邮件，我一直收不到，对方也说收不到我发的邮件，之前我从来没遇到过。对方的邮箱是自建的。这是啥情况？是他自建邮箱的问题吗？还是说 outlook 是不是很垃圾哦？垃圾箱我看了没有的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235733#reply7
+
+---
+
+#### 9103. [V2EX] Hugo 实现页面加密
+
+**问题描述 / Problem Description**:
+https://blog.dejavu.moe/posts/hugo-protected-leaf-bundle-encryption/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235722#reply0
+
+---
+
+#### 9104. [V2EX] 有人知道为什么 ios 上后台唤起微信，那个摄像头的绿灯经常会亮起来，是它在偷拍吗？
+
+**问题描述 / Problem Description**:
+也不是一直会出来，好像是过段时间会有，有知道的同学可以分享下吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235685#reply4
+
+---
+
+#### 9105. [V2EX] [DSH 插件分享] 全网最像 Codex 的 DeepSeek Harness 体验增强套件！
+
+**问题描述 / Problem Description**:
+DSH Codex 生态：全网最像 Codex 的 DeepSeek Harness 体验增强套件 以 dsh-codex-ui 为核心，六大插件协同，只为一件事，让 DeepSeek Harness 用起来像 Codex 一样顺手。 一句话定位 DSH Codex 生态 是一套面向 DeepSeek Harness （ DSH ）的社区插件矩阵，通过官方公开插槽重构界面、补齐能力、扩展场景，在不修改宿主源码和会话数据的前提下，把 DSH 升级为一个拥有 Codex 级交互体验、多端 IM 接入、定时自动化、Skills 可视化管理、归档会话管理和 271 位专家智能体的完整 AI 工作平台。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235683#reply0
+
+---
+
+#### 9106. [V2EX] 20 天 2 折国内模型，可在 workbuddy 中使用， 90%的情况稳定，作为补充通道，算不算便宜
+
+**问题描述 / Problem Description**:
+发现一个中转站，2 折官网价可以用 8 个模型，K3 、glm 也在其中，不过 glm 、K3 不是完全稳定，其他的豆包、mininmax 都有，算便宜不？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235663#reply2
+
+---
+
+#### 9107. [V2EX] 生图中转站
+
+**问题描述 / Problem Description**:
+有没有稳定的 images-2 生图中转站 最近想用用看，求推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235654#reply11
+
+---
+
+#### 9108. [V2EX] 做了一个极简化的 deepseek harness 移动端适配插件
+
+**问题描述 / Problem Description**:
+极简的移动端 uiux 优化，整合了认证网关+pwa ，可以经反代进行安全的远程交互，便捷的安装为 app ，在手机端获得原生 app 般的使用体验。 同时也对部分热门插件进行了移动端的适配，欢迎试用、提 issue/pr 。 https://github.com/KyoMio/dsh-zen-remote
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235646#reply1
+
+---
+
+#### 9109. [V2EX] 报名了！报名了！跪求系统规划与管理师相关教程。
+
+**问题描述 / Problem Description**:
+已经上车，自古华山一条路。必须拼一把。 这里跪求各位兄弟提供点最新的培训教程和论文、案例要点什么的。谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235644#reply0
+
+---
+
+#### 9110. [V2EX] Java 转 c 怎么样
+
+**问题描述 / Problem Description**:
+没做过 c 的项目，但是感觉做 c 的，系统设计都比 java 的更有艺术美学。 因为 java 我也没有上过大平台，我知道有能够把 java 写的项目设计的很好的。但是太多人。 我想准备把 valkey 的源码学懂，有没有有经验的给点建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235624#reply22
+
+---
+
+#### 9111. [V2EX] 给 OpenClaw AI 助手一个「家」：一个从事故里长出来的开源项目
+
+**问题描述 / Problem Description**:
+你有没有想过，你的 AI 助手每次醒来，都是「失忆」的？ 这不是比喻。以 OpenClaw 这类个人 AI 智能体为例，它每次会话都是全新启动——不主动去读文件的话，它不记得昨天跟你聊了什么，不知道自己的工作目录长什么样，甚至不知道自己该把文件放哪。 像一个每天清晨被格式化的人，靠着一张纸条重新认识世界。 我是 dtsola ，一个 IT 解决方案架构师，也是一人公司实践者。过去几个月，我一直让 7 个这样的 AI 助手帮我干活：写文章的、画图的、发公众号的、管知识库的、做 PPT 的……它们各自有分工，像一支小小的远程团队。团队听起来很美好，但很长一段时间里，它们住在一个「毛坯房」里。 毛坯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235611#reply0
+
+---
+
+#### 9112. [V2EX] 避坑提醒： CodePass ( code-pass.dev ) 随意改变买卖合同，订阅用户真的需要注意。
+
+**问题描述 / Problem Description**:
+记得 6 月底或者 7 月购买订阅时，宣传的是： Composer / Auto 无限使用 大家付费买的，不只是一个账号有效期，而是这个核心权益。 结果七月份 订阅周期还没结束，规则直接变了： 原来： Composer / Auto 无限使用 订阅期内变更： 有额度限制、有上限、用完受限 甚至剩余的 20-10% 高级额度也开始限速!!!!!! 不让用????? 这是什么概念？ 简单说就是： 用户付款的时候买的是“无限套餐”，服务用到一半，平台告诉你： “不好意思，现在升级规则了，之前的无限不算了。” 未来新套餐怎么调整，这是平台自己的商业决策。 但问题是： ** 已经付费、正在有效期内的订阅
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235581#reply3
+
+---
+
+#### 9113. [V2EX] 旧会话越聊越笨，新会话又得重讲？我给 Matt Pocock Skill 炼了套《影分身之术》：本体想清楚，分身写代码，完事回来汇报 ——大厂 Agent 开发技术分享
+
+**问题描述 / Problem Description**:
+先跟大家聊下背景 平时写代码，不管你用 Codex 、Cursor 、Claude Code 还是别的 Agent ，基本都是在一个会话里聊问题、聊需求、聊项目背景。你告诉它怎么做，有什么注意点，把你知道的上下文都交给它。等双方把需求和方案确认下来，再让它开始写代码、做实施。 一般都是这样一个流程。 这样聊出来的内容其实非常有价值。里面有项目背景、有用户真正想要什么、有已经做过的取舍，也有那些看起来没写进需求、但做错了就会跑偏的细节。 问题是，后面还一直在同一个会话里写代码。文件内容、搜索结果、命令输出、测试日志会不断往里塞，会话越来越长，也会不断压缩。每压一次，前面聊过的东西都会占一部分上下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235560#reply1
+
+---
+
+#### 9114. [V2EX] cursor 和 glm 如何选呢
+
+**问题描述 / Problem Description**:
+准备和老板沟通买 token ，现在纠结 glm 还是 cursor ，有没有大佬推荐下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235549#reply20
+
+---
+
+#### 9115. [V2EX] [DSH 插件] dsh-ears — 自带大模型润色的 DSH 语音输入插件，给 DSH 加一对耳朵
+
+**问题描述 / Problem Description**:
+dsh-ears — 给 DeepSeek 加一对耳朵 写了个 dsh 的语音输入插件 dsh-ears 使用 ASR 模型进行语音转写，还能用 dsh 里已经接好的模型自动润色——去口头禅、修错字、把口语整理甚至自定义系统提示词 演示 安装 dsh plugin --profile web add dsh-ears GitHub： https://github.com/WizisCool/dsh-ears 一行搞定，刷新页面输入框旁边就多了个麦克风。 识别后端 目前支持的识别后端，欢迎提 PR 扩展更多后端 Groq — 免费 阿里云百炼 — 原生 DashScope API 调用，有免费额
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235546#reply0
+
+---
+
+#### 9116. [V2EX] [开源] FutureOS：用 Rust 写了一个通用 AI Agent——终端、桌面、手机、飞书钉钉，同一个后端
+
+**问题描述 / Problem Description**:
+先一句话说清是什么 FutureOS 是一个开源的通用 AI Agent：一个跑在本地的 Rust gRPC 后端，同时驱动终端 TUI 、桌面应用、移动端（ Android/iOS ）、CLI 和 IM 机器人（飞书/钉钉）。同一个 Agent ，同一份会话和记忆，跟着你走。 GitHub: https://github.com/futuregene/future-os 为什么做它 Coding agent 长在终端里，个人助理长在聊天软件里，而我的工作场景两边都有：在终端里让它干活，出门后想在手机上刷一下进度，晚上跑长任务，早上想在飞书里收它的交付物。维护两套 Agent 太蠢了，所以写了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235540#reply1
+
+---
+
+#### 9117. [V2EX] Plato：面向企业的 ai coding 框架
+
+**问题描述 / Problem Description**:
+现在已经有很多 AI coding 框架了。面向绿地项目的 GSD 、Superpowers ，Brownfield-leaning 的 grill-with-docs ，还有真正面向棕地项目的 OpenSpec 。那么，是不是我们已经没有必要再发明新的框架了？ AI 编程的困境 巨型 PR 每天都要面对同事创建的巨型 PR 。问了同事，其实他也不知道这个代码在写什么。最后只好草草地点了 approve 。 假阴性单元测试 项目的代码慢慢地开始变得不可控，大家已经不知道哪些逻辑在哪些文件里面。所以出了 bug 也不知道怎么修复，只能让 AI 来修复。但是 AI 可能会把你大量的代码重写，然后宣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235539#reply3
+
+---
+
+#### 9118. [V2EX] DeepSeek Harness 体验有感
+
+**问题描述 / Problem Description**:
+体验完 DeepSeek Harness ，我为何果断叫停开发两年的客户端？ 1. 背景：两年心血，一朝叫停 核心研发会议决定： 停掉现有客户端开发 ，全面迁移至 DeepSeek Harness （ DSH ）。 该项目已持续开发两年，近期刚完成两个多月的重构。 2. 什么是 Harness ？ 本义 ：马具，套在马身上传递力量的工具。 AI 语境 ：大模型 = 马（只有“力气”），Harness = 马具（赋予工具调用、循环控制、权限管理、记忆持久化等能力）。 DeepSeek Harness 是一个 承载并驱动智能体的运行时框架/底座 。 3. 从漠视到震撼：亲测 DSH 的转折 起初不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235536#reply2
+
+---
+
+#### 9119. [V2EX] 你们的代码提交 Webhook 通知都是什么样式的？
+
+**问题描述 / Problem Description**:
+最近在优化飞书的代码提交通知卡片的样式，想吸纳一下你们的优秀案例，怎么设计才最直观、最实用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235490#reply7
+
+---
+
+#### 9120. [V2EX] AI Coding 时代作为面试官已经不会面试开发了
+
+**问题描述 / Problem Description**:
+这几年 AI Coding 盛行之后，给公司面试候选人成了一个比较难的点，刚毕业的学生基本失去了手写代码的能力，并且对一些基础原理也不知道。项目基本都是让 AI 写的，自己就是动动嘴皮子，调试能力也没有，出了问题就是让 AI 解决，而且最近几年收到的简历项目大多是 XXAgent,看着高大上，实际完全没什么用。纯胡编乱造。牛头不对马嘴 我知道 v 站上有不少 AI Coding 疯狂的拥趸者，认为现在这个时代手写代码就是傻 X ，AI 能力无敌强。本人并不反对使用 AI 进行开发，本人开发也使用 AI,但是作为一个十几年开发经验的中老程序员，能给 AI 兜兜底，哪些地方是必须要踩刹车还是知道的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235472#reply81
+
+---
+
+#### 9121. My laptop Dell XPS 15 9570 shuts down instead of sleeping after inactivity. How can I fix it?
+
+**问题描述 / Problem Description**:
+Tags: debian, power-management, suspend | Score: 1 | Views: 75 | Answers: 1 | Created: 2026-08-18
+
+**解决方案 / Solution**:
+I have the suspicion, that the computer goes into sleep mode and then doesn’t wake up again. The sleep issue where it doesn’t wake up again unless you do a hard shutdown. Is a very old and well-known bug affecting many laptops, without going into detail about whether it’s caused by the driver, the hardware, or something else. If that’s the case, you can try the following to prevent it from going to sleep. If you don't want the laptop went to sleep or if you closed the lid, or low-power mode for continuous operation of clients or servers... Edit and uncomment this lines in /etc/systemd/logind.conf HandleLidSwitch=ignore HandleLidSwitchExternalPower=ignore HandleLidSwitchDocked=ignore Restart with : systemctl restart systemd-logind logind.conf(5) — Linux manual page Disable screen blanking on text console Otherwise, there are further solutions in this posts: Keep the PC in low power, but not sleeping, disable sleep, disable suspend, disable lid close, disable monitor sleep How do I stop my Ubuntu desktop computer from "sleeping" when nobody is logged in?
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807087/my-laptop-dell-xps-15-9570-shuts-down-instead-of-sleeping-after-inactivity-how
+
+---
+
+#### 9122. USB Mouse troubles - psmouse didn't manage both services
+
+**问题描述 / Problem Description**:
+Tags: debian, drivers, usb, mouse | Score: 1 | Views: 52 | Answers: 2 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+Ok, its been a long time but put this grub code line solves my problem: GRUB_CMDLINE_LINUX_DEFAULT="quiet pcie-aspm=off" into /etc/default/grub and make a grub-update. Disabling this feature works to my older mouse 'Genius'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804137/usb-mouse-troubles-psmouse-didnt-manage-both-services
 
 ---
