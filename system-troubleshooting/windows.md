@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9795**
+**总计条目 / Total entries: 9839**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -133256,5 +133256,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1235554#reply6
+
+---
+
+#### 9796. BLUETOOTH DISSAPEARS COMPLETELY
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtul00/bluetooth_dissapears_completely/
+
+---
+
+#### 9797. Shutdown issues with MSI laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtv45x/shutdown_issues_with_msi_laptop/
+
+---
+
+#### 9798. Anything i download says 'Failed - Virus detected' and doesnt download, even pngs i make
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtr2fq/anything_i_download_says_failed_virus_detected/
+
+---
+
+#### 9799. Computer boots into BIOS on clean boot, yet if I save the BIOS configuration it works just fine
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vttm13/computer_boots_into_bios_on_clean_boot_yet_if_i/
+
+---
+
+#### 9800. "Windows Hotspot Problem"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vts0e4/windows_hotspot_problem/
+
+---
+
+#### 9801. Write/Read restriction in external drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtxhyv/writeread_restriction_in_external_drive/
+
+---
+
+#### 9802. How can I tell how far along my iPad restoration is?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtx9vd/how_can_i_tell_how_far_along_my_ipad_restoration/
+
+---
+
+#### 9803. Nioh 3: Major Graphics issue on 5080. HELP !!!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtx7p2/nioh_3_major_graphics_issue_on_5080_help/
+
+---
+
+#### 9804. Burning Cd's for the first time and it won't work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwwiv/burning_cds_for_the_first_time_and_it_wont_work/
+
+---
+
+#### 9805. Not Quite Sure What’s Up With My PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwsbj/not_quite_sure_whats_up_with_my_pc/
+
+---
+
+#### 9806. WD 5TB external HDD showing Caution, C5 = 2. Need advice.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwls8/wd_5tb_external_hdd_showing_caution_c5_2_need/
+
+---
+
+#### 9807. Bought new PC. Whenever I run game, it doesn’t open and Task Manager Freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwkzq/bought_new_pc_whenever_i_run_game_it_doesnt_open/
+
+---
+
+#### 9808. Windows 11 install loop error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwizo/windows_11_install_loop_error/
+
+---
+
+#### 9809. DLSS Frame Gen Any Version Above 3.7.10 Stutters - Hardware / Software Issue ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtq5fg/dlss_frame_gen_any_version_above_3710_stutters/
+
+---
+
+#### 9810. USB overload
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtwc4g/usb_overload/
+
+---
+
+#### 9811. RTX 4060 Ti severe system/mouse input lag/delay ONLY while streaming or sharing screen (Fixed by launching/closing a fullscreen game?)RTX 4060 Ti severe system/mouse input lag/delay ONLY while streaming or sharing screen (Fixed by launching/closing a fullscreen game?)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtptv2/rtx_4060_ti_severe_systemmouse_input_lagdelay/
+
+---
+
+#### 9812. Struggling to connect Soundbar to PS5.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtw3jw/struggling_to_connect_soundbar_to_ps5/
+
+---
+
+#### 9813. Microsoft Defender keeps finding the same "trojan", repeats every minute even though its blocked.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtw3ix/microsoft_defender_keeps_finding_the_same_trojan/
+
+---
+
+#### 9814. How to find a "pure HBA" controller for my dumb SAS harddrive purchase?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtvur3/how_to_find_a_pure_hba_controller_for_my_dumb_sas/
+
+---
+
+#### 9815. How to fix this? OpenGl issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtvbni/how_to_fix_this_opengl_issue/
+
+---
+
+#### 9816. Amplifier constantly switching input
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtv6a3/amplifier_constantly_switching_input/
+
+---
+
+#### 9817. NVMe SSD detected in BIOS but invisible during Windows 11 installation / Diskpart — ASUS TUF FA506QM (Ryzen 7 5800H)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtv1k9/nvme_ssd_detected_in_bios_but_invisible_during/
+
+---
+
+#### 9818. My laptop starts to a blue screen saying “Automatic Repair - Your PC did not start correctly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtv119/my_laptop_starts_to_a_blue_screen_saying/
+
+---
+
+#### 9819. Constant ping spikes for about a month. (20-3200 pinging 1.1.1.1)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vtnlhf/constant_ping_spikes_for_about_a_month_203200/
+
+---
+
+#### 9820. [V2EX] AI 图片增强一般用哪些模型 API？开源模型自部署效果如何？
+
+**问题描述 / Problem Description**:
+最近在做一个 image enhancer ，目前主要关注图片放大、去噪、修复和细节增强。 想请教一下有相关经验的朋友： 这类产品一般会接哪些模型或第三方 API ？ Real-ESRGAN 、SwinIR 、SUPIR 等开源模型适合商用自部署吗？ 自部署在效果、显存占用和推理成本方面，与调用 API 相比差距大不大？ 欢迎分享实际踩坑经验，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236007#reply0
+
+---
+
+#### 9821. [V2EX] 公司开的 ChatGPT 和 Claude，管理员能看到员工的对话记录吗？
+
+**问题描述 / Problem Description**:
+最近公司给每个员工都开了 ChatGPT Team 和 Claude Team Standard 。 我目前了解到的是，这类企业/团队版账号的管理员一般看不到员工具体的 Prompt 或对话内容。 不过我不太确定实际情况是不是这样，想问下有没有用过 ChatGPT Team / Claude Team ，或者自己管理过企业账号的大佬，可以分享一下实际情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236003#reply1
+
+---
+
+#### 9822. [V2EX] 遥测 这个词曾经常用吗？似乎 AI 这一波导致这个词频繁出现？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235985#reply13
+
+---
+
+#### 9823. [V2EX] 大家有没有海外号码的需求，都是怎么搞定的？
+
+**问题描述 / Problem Description**:
+今天使用 Codex 突然弹出来需要号码验证，以前有同学在海外的时候找她借了号码验证，现在她回国了，我突然发现我没有渠道可以搞定海外号码，大家有遇到需要海外号码的情况过吗，都怎么搞定的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235978#reply8
+
+---
+
+#### 9824. [V2EX] 有没有好用的家用打印机推荐
+
+**问题描述 / Problem Description**:
+天天看文档、看方案，眼睛很累，有时候我也不想一直坐在办公桌前。 平时文档散落在各个文件夹，想临时找来看到处翻也不方便。 有 V 友推荐家用打印机吗？最好不占地方，要多小有多小，黑白色就行。 另外，纸张费用大概是什么水平，完全没有经验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235958#reply14
+
+---
+
+#### 9825. [V2EX] 求助！想复活我的小米 5，现在有什么地方可以维修这种旧机型吗？
+
+**问题描述 / Problem Description**:
+主要想看看高中时候的照片和微信记录啥的了，但是好像当时 18 、19 年无法开机到现在都没碰过了。有没有什么地方可以修复老机型又不丢数据的？非常重要，感谢感谢🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235953#reply0
+
+---
+
+#### 9826. [V2EX] 各位大佬， traework 网页版每日签到的位置在哪里呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235951#reply0
+
+---
+
+#### 9827. [V2EX] 有没有觉得微信这个点链接在右侧打开的设计很傻 X ？
+
+**问题描述 / Problem Description**:
+又显示不全 做不到自适应，以前的弹窗不是挺好的吗！ 第一次感觉微信很傻 X ，跟山寨厂商做的产品似的，巨傻逼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235947#reply3
+
+---
+
+#### 9828. [V2EX] Apple 账号还会被封？
+
+**问题描述 / Problem Description**:
+前两个月用 gmail 注册了一个日区 Apple 账号，然后托人线下去便利店购买日本礼品卡充值（不存在黑卡情况），用于订阅 chatGPT 和 Claude ，之前用得好好的，前两天提示 [您的帐户已在媒体和购买中被禁用] ，我尝试重新激活，激活失败，无奈找客服，客服回复我 [账号已封禁，且无法解封，也无法透露被封原因] 这是什么情况，我能接受 chatGPT 和 Claude 封禁，无法接受 Apple 被封禁，而且还不能解封，大家有遇到这种情况吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235938#reply6
+
+---
+
+#### 9829. [V2EX] 我也想做社区，做什么类型好？
+
+**问题描述 / Problem Description**:
+我也想做社区，做什么类型好？做哪种有前途？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235926#reply1
+
+---
+
+#### 9830. [V2EX] 请教一下有没有人用 GLM5.3
+
+**问题描述 / Problem Description**:
+最近 claude 被封了，想换个模型，下载了 zcode 想体验一下，看着送了 300w 的 token ，用起来发现根本用不了，一直报： 当前系统繁忙，当前自动重试已达到最大次数，请稍后再试或升级账户。 问一下开通了 code plan 的朋友也会一直这样吗？是算力不够?还是单纯的针对体验用户不给通道用？（那送这体验干嘛，玩不起。。）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235922#reply14
+
+---
+
+#### 9831. [V2EX] 关于最近面试的一些感受
+
+**问题描述 / Problem Description**:
+最新组内伙伴离职，要补位，陆续技术面了快 10 位大佬了，有几点体会 1 、简历注水要适度，特别是岗位明确要求或者体现的，不然问的深一点嗡嗡唧唧的，双方对不上线都难受；这 2 周几乎每份简历上都有将“参与、了解”误导为“主导、精通”注水描述，导致这边看到简历很惊喜，以为稳了，聊几句聊不下去；公司为了口碑，要求至少聊满 20 分钟才能结束，只能继续尬聊； 2 、尽量不要线上面试，特别是骑驴找马的同学，拿手机和耳机在户外，对方会议室的终端设备听着很难受，双方的实力都难以发挥；实在不行，预订个安静的会议室；最好是 face2face ，来一场酣畅淋漓的对话； 3 、礼貌、克制；但遇到不懂事的面试官，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235918#reply3
+
+---
+
+#### 9832. [V2EX] 2026 年社保基数都调整了，今年养老金涨幅多少？
+
+**问题描述 / Problem Description**:
+今年社保基数都调整了，今年养老金涨幅多少？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235916#reply0
+
+---
+
+#### 9833. [V2EX] 想了解下, 在写代码这个事情上, 还有哪些事是 AI 解决不了的
+
+**问题描述 / Problem Description**:
+就我目前的工作内容, 还没碰到过 AI 解决不了的问题, 有没有大佬能给我开开眼, 有啥工作内容(仅限写代码)是 AI 还解决不了的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235906#reply10
+
+---
+
+#### 9834. [V2EX] 不小心订阅了外国公司的年付套餐，怎么退款？
+
+**问题描述 / Problem Description**:
+我最近有需求需要制作 PPT ，我就找到了 skywork.ai ，也就是这个网站： https://skywork.ai/project/new?from=home&skill_id=102&scid=slide 主要是可以通过文字来输出 PPT 的，我原本只是想要订阅月付的，结果订阅了自动付费之后才发现是年付，由于我支付宝设置了自动扣款，扣完了款我才后知后觉 我第一时间找他们的官方邮箱反馈了，得到的答复是不给退款 我没有使用他们的任何功能，我充值之后就什么都没做了，后续我还联系了支付宝客服，但是支付宝客服也说这个取决于商家是否同意退款，他们只能帮我做申请反馈，并且要最晚七个工作日之后给我答
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235904#reply15
+
+---
+
+#### 9835. [V2EX] 业余时间想做点网站产品，不知道做什么，征求贴
+
+**问题描述 / Problem Description**:
+AI 用的也熟练了，目前还能好点 V2 的额度，还有一些其他的额度，基本不用花钱。 业余也有时间。 希望不是程序员三件套，而且对大家有点帮助的产品。不论是工作还是生活上。 希望大家有缺什么的，可以说出来，我根据自己的水平评估能不能做。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235897#reply3
+
+---
+
+#### 9836. [V2EX] 寻思装个穿墙的排气扇，不知道效果怎么样？
+
+**问题描述 / Problem Description**:
+屋里通风不太好，想来想去找到了这种穿墙排气扇，不知道效果怎么样，请问有体验过的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235893#reply16
+
+---
+
+#### 9837. [V2EX] AI 的对话模式和智能体+skill 模式在输出结果上有什么不同
+
+**问题描述 / Problem Description**:
+前提同样的模型 加不加 skill 有多大区别
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235891#reply0
+
+---
+
+#### 9838. [V2EX] 如果给公司搭建的智能体会记录所有会话数据，会被人骂吗？
+
+**问题描述 / Problem Description**:
+前面看到了这个帖子： https://v2ex.com/t/1235773 评论大部分是骂的，想到自己要给公司搭建智能体，会记录所有会话数据用于知识沉淀和会话数据，不知道真的上线后会不会被同事骂死，当然我也会考虑到同事们的隐私问题，会做以下限制： 1.会话会区分普通会话和隐私会话，隐私会话不会记录在库 2.不强制要求使用公司智能体，工作就用公司智能体，生活可以自己用豆包、DeepSeek 等等 3.数据库虽然会记录所有会话数据，但是实际原始会话内容不会公开，不显示时间线，只会显示概要，以及做数据分析 4.会统计每个人 AI 使用频率、消耗，但是是一个范围，不会定位到具体时间 5.如果涉及到桌面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235885#reply21
+
+---
+
+#### 9839. [V2EX] 求探讨此类 ai 陪聊软件的可行性
+
+**问题描述 / Problem Description**:
+我的疑问 1 是为啥这种产品还没有出现（至少我让 ai 检索了没有完全一致的，类似的当然有），疑问 2 是想知道这种产品的受众，如果站在大家的视角会不会使用； 剧本可能来自当代短剧洗稿， 下面是我让 ai 给我的分析（我个人的解释就是穿书、沉浸式角色扮演）： 如果严格按你定义的产品来看——固定主线、用户本人入戏、自由输入、AI 角色即时回应，但剧情仍被作者强制推进——那它的用户其实不会和“纯 AI 陪伴用户”完全重合，更像是从短剧用户、网文用户、乙游用户、角色扮演用户四个池子里交叉出来的一批人。 我先给你一句最核心的判断：它的最大用户群，不是“孤独所以找 AI 聊天的人”，而是“本来就爱看情绪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235882#reply10
 
 ---

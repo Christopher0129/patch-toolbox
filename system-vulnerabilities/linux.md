@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 2963**
+**总计条目 / Total entries: 2984**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -53854,5 +53854,341 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8113-2
+
+---
+
+#### 2964. CVE-2026-76827 - search-indexer: search-indexer: UPDATE/DELETE operations not scoped to caller's…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] search-indexer: search-indexer: UPDATE/DELETE operations not scoped to caller's cluster (cross-tenant data tampering). Bugzilla: 2519896
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519896
+
+---
+
+#### 2965. CVE-2026-76139 - acm-operator-bundle: acm-operator-bundle: Bundle build execs unpinned…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] acm-operator-bundle: acm-operator-bundle: Bundle build execs unpinned stolostron/release@master with full build credentials. Bugzilla: 2519852
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519852
+
+---
+
+#### 2966. CVE-2026-75569 - mce-operator-bundle: mce-operator-bundle: Bundle-generation business logic fetched…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mce-operator-bundle: mce-operator-bundle: Bundle-generation business logic fetched from mutable stolostron/release@master. Bugzilla: 2519849
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519849
+
+---
+
+#### 2967. CVE-2026-50152 - ceph: ceph: MON subscription handler exposes config-key store to low-privilege…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: MON subscription handler exposes config-key store to low-privilege CephX users. Bugzilla: 2519423
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519423
+
+---
+
+#### 2968. CVE-2026-54330 - ceph: ceph: RGW SigV4 verifier allows attachment of arbitrary unsigned x-amz-*…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: RGW SigV4 verifier allows attachment of arbitrary unsigned x-amz-* headers leading to privilege escalation. Bugzilla: 2519428
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519428
+
+---
+
+#### 2969. CVE-2026-39944 - ceph: ceph: RGW STS session tokens vulnerable to CBC bit-flip attack enabling…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: RGW STS session tokens vulnerable to CBC bit-flip attack enabling admin privilege escalation. Bugzilla: 2519431
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519431
+
+---
+
+#### 2970. CVE-2026-63117 - FreeRDP: FreeRDP: Denial of Service via ADPCM frame size calculation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Denial of Service via ADPCM frame size calculation. Bugzilla: 2519821
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519821
+
+---
+
+#### 2971. CVE-2026-18874 - volsync-addon-controller: volsync-addon-controller: annotation values rendered…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] volsync-addon-controller: volsync-addon-controller: annotation values rendered into YAML via text/template without escaping allows YAML injection into Subscription. Bugzilla: 2511115
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511115
+
+---
+
+#### 2972. CVE-2026-70496 - search-v2-operator: search-v2-operator: operator ClusterRole is cluster-admin…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] search-v2-operator: search-v2-operator: operator ClusterRole is cluster-admin equivalent via impersonate, RBAC write, CSR approve, and ManifestWork. Bugzilla: 2511032
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511032
+
+---
+
+#### 2973. CVE-2026-71470 - acm-search-v2-rhel9: search-v2-operator: Search CR imageOverride/arguments/envVar…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: Search CR imageOverride/arguments/envVar flow unsanitized into pods running impersonating SA. Bugzilla: 2512149
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512149
+
+---
+
+#### 2974. CVE-2026-76231 - renovate: Renovate: Arbitrary command execution via unsanitized dependency names
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary command execution via unsanitized dependency names. Bugzilla: 2519628
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519628
+
+---
+
+#### 2975. CVE-2026-76228 - renovate: Renovate: Arbitrary Code Execution via malicious Gradle Wrapper…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary Code Execution via malicious Gradle Wrapper properties. Bugzilla: 2519617
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519617
+
+---
+
+#### 2976. CVE-2026-76229 - renovate: Renovate: Arbitrary Command Injection via kustomize manager
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary Command Injection via kustomize manager. Bugzilla: 2519627
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519627
+
+---
+
+#### 2977. CVE-2020-37267 - renovate: Renovate: Information disclosure via unredacted logging of authorization…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Information disclosure via unredacted logging of authorization tokens. Bugzilla: 2519611
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519611
+
+---
+
+#### 2978. CVE-2026-66794 - cluster-proxy-addon: cluster-proxy-addon: unauthenticated SSRF to arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cluster-proxy-addon: cluster-proxy-addon: unauthenticated SSRF to arbitrary managed-cluster services via public Route. Bugzilla: 2507539
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507539
+
+---
+
+#### 2979. CVE-2026-43961 - vim: Vimscript injection via unescaped filename in netrw s:NetrwMarkFile()…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vim: Vimscript injection via unescaped filename in netrw s:NetrwMarkFile() filter() expression allows arbitrary code execution. Bugzilla: 2460434
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460434
+
+---
+
+#### 2980. CVE-2026-76235 - cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via CockpitLang cookie in send_login_html. Bugzilla: 2519497
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519497
+
+---
+
+#### 2981. [Ubuntu] USN-8643-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-53247, CVE-2026-64531)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8643-2
+
+---
+
+#### 2982. [Ubuntu] USN-8656-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8656-1
+
+---
+
+#### 2983. [Ubuntu] USN-8654-1: Netty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Netty did not properly handle malformed HTTP/2 control frames. An attacker could use this to cause a denial of service via resource exhaustion. This issue only affects Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-55163) It was discovered that Netty did not properly validate the request URI for line-break characters. An attacker could
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8654-1
+
+---
+
+#### 2984. [Ubuntu] USN-8653-1: PostgreSQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PostgreSQL incorrectly handled COPY FROM STDIN when an early failure occurred. An authenticated user could possibly use this issue to execute arbitrary SQL commands. (CVE-2026-6464) It was discovered that PostgreSQL incorrectly reset extended statistics ownership during ALTER TABLE ALTER TYPE operations. An attacker could possibly use this issue to obtain sensitive informati
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8653-1
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8764**
+**总计条目 / Total entries: 8820**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -118232,5 +118232,733 @@ The challenge here is that ps works on Unix level and doesn't know about applica
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486943/command-line-equivalent-to-info-in-force-quit-dialog-on-macos
+
+---
+
+#### 8765. macOS 27 DB6 is making me even more creative
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vthtxz/macos_27_db6_is_making_me_even_more_creative/
+
+---
+
+#### 8766. Pages vs Word
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtvrkc/pages_vs_word/
+
+---
+
+#### 8767. Google Earth Pro Replacement for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtvkbg/google_earth_pro_replacement_for_macos/
+
+---
+
+#### 8768. Before you panic about a process in Activity Monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtw56i/before_you_panic_about_a_process_in_activity/
+
+---
+
+#### 8769. Is there a way to make Finder always open folders collapsed in List View?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtqte2/is_there_a_way_to_make_finder_always_open_folders/
+
+---
+
+#### 8770. Why is there no clear version for the download icon?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtlg0u/why_is_there_no_clear_version_for_the_download/
+
+---
+
+#### 8771. Does this even look like macOS anymore?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtahcg/does_this_even_look_like_macos_anymore/
+
+---
+
+#### 8772. MetalTerm - a native macOS terminal powered by Rust + Metal
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtcwir/metalterm_a_native_macos_terminal_powered_by_rust/
+
+---
+
+#### 8773. Video player for mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtuntv/video_player_for_mac/
+
+---
+
+#### 8774. Sidecar: The Perfect Solution for Extra Screen Space on MacBooks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtwhoh/sidecar_the_perfect_solution_for_extra_screen/
+
+---
+
+#### 8775. I made another set of MacOS Tahoe Folders.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtsjel/i_made_another_set_of_macos_tahoe_folders/
+
+---
+
+#### 8776. Is it possible to install large App Store games with in-game downloads to external drives?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vttg8s/is_it_possible_to_install_large_app_store_games/
+
+---
+
+#### 8777. Suggest duplicate photo finder for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtme91/suggest_duplicate_photo_finder_for_macos/
+
+---
+
+#### 8778. iPhone/iPad apps won't download on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtkk5a/iphoneipad_apps_wont_download_on_mac/
+
+---
+
+#### 8779. How to get Continuity/HandOff/Iphone Mirroring working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtw9ek/how_to_get_continuityhandoffiphone_mirroring/
+
+---
+
+#### 8780. Help me understand display scaling
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vttsnv/help_me_understand_display_scaling/
+
+---
+
+#### 8781. Mac wakes up immediately after going to sleep? - My solution.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vteppg/mac_wakes_up_immediately_after_going_to_sleep_my/
+
+---
+
+#### 8782. Problem with apple mail and vpn from malewarebytes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtspud/problem_with_apple_mail_and_vpn_from_malewarebytes/
+
+---
+
+#### 8783. Why don’t iPhone Timer Live Activities appear in the macOS menu bar?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtljq7/why_dont_iphone_timer_live_activities_appear_in/
+
+---
+
+#### 8784. Is there an Application that reviews the "open with" setting for every file extension and sets it to something sensible or default?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vthodv/is_there_an_application_that_reviews_the_open/
+
+---
+
+#### 8785. Sidecar doesn't work after updating to macos 26.6.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtm40s/sidecar_doesnt_work_after_updating_to_macos_2662/
+
+---
+
+#### 8786. Why do people use other than Spotlight?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtcnpy/why_do_people_use_other_than_spotlight/
+
+---
+
+#### 8787. 26.6.2 upgrade "stuck"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtm0ma/2662_upgrade_stuck/
+
+---
+
+#### 8788. [V2EX] MacOS27 beta6 访达左上角的[红黄绿]按钮掉色
+
+**问题描述 / Problem Description**:
+昨天更新到 beta6 ，我发现访达[红黄绿]按钮有点掉色 浅色页面的 header 有种被风吹日晒了很久的感觉 https://app.screencast.com/JQI3ooe5Ifpdj
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235494#reply6
+
+---
+
+#### 8789. [V2EX] 避雷 APP => Dynamic Wallpaper，永久强行转订阅
+
+**问题描述 / Problem Description**:
+Dynamic Wallpaper 这款 APP ，用途是动态壁纸 刚买 mac book 的时候，买的第一款 app ，本身是付费购买 前段时间更新后，突然从买断，强行转换为订阅 恢复购买点了没用，发出来让大家避雷一下 同时请问一下老哥们，macOS 上有啥好的动态壁纸 APP 推荐吗 可惜 macOS 没有 steam 上的 Wallpaper Enginee
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235470#reply27
+
+---
+
+#### 8790. [V2EX] word，拖动鼠标无法选择文本
+
+**问题描述 / Problem Description**:
+macos 上的 word ，拖动鼠标无法选择文本，插了 ai 也没搞明白问题在哪里
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235444#reply4
+
+---
+
+#### 8791. [V2EX] vibe coding 了一个 macos26 的 launchpad
+
+**问题描述 / Problem Description**:
+几乎都是 deepseek 完成的，部分由 cursor 完成。 目前的状态是能用，支持快捷键唤出、四指捏合和开机自启动，只在自己电脑上测试过。 后续再考虑文件夹和拖拽部分的交互。 放个 github 地址： aHR0cHM6Ly9naXRodWIuY29tL2NjZHl5L1JsYXVuY2g= 来个预览图：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235410#reply6
+
+---
+
+#### 8792. [V2EX] 终于看到 V2 有人发 mac 不好用了....我一直以为只有我觉得难用
+
+**问题描述 / Problem Description**:
+看了一下整个评论区，给我的感觉好像就是要用 Mac ，你得去看官网的教程，你得去了解各种插件，各种快捷方式，然后你还得熟悉使用触摸板。但是想想最早小时候接触 win ，好像没有那么多东西要学习的...像是自来熟一样，根本就不需要学习，拿起鼠标键盘就能用了，不知道各位有没有类似的感触？ 然后就是，国区账号非常不友好，想下一个东西，就是搜不到，之前为了连远程桌面下 Windows APP 就得切外区账户，除此之外别无其他安装方式，好多东西没有提供 dmg 安装包....像微软这边，就只需要把区域切成美国就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1232881#reply141
+
+---
+
+#### 8793. [V2EX] apple music 使用 Android 设备订阅会不会更好？
+
+**问题描述 / Problem Description**:
+当前因为要用 ai 所以设备账号弄成了美区，但是 apple music 无法使用，单独在 iPhone 订阅太贵了貌似 11 美刀，因为当前已经有 icloud 家庭组跟家里人用所以找别人家庭组拼车应该也不行。刚刚打开我的三星手机，是可以在 google play 订阅的，因为我是台区价格 165 台币，好像很划算？有人永类似方式吗？在 Android 的订阅在 iPhone 可以正常用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235854#reply2
+
+---
+
+#### 8794. [V2EX] iCloud 为啥不加个 512G 或者 1TB 的档位呢
+
+**问题描述 / Problem Description**:
+200G 不够用，2TB 又太多了加个贵了，中间加一档果断就开了。现在用的 200G ， 视频都同步到 OneDrive 后就从本机删除了，总共才用了 200 多 G ，要是有 512G 完全够用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235840#reply31
+
+---
+
+#### 8795. [V2EX] MacBook Pro M1Pro（16G）升级 macOS Golden Gate Public Beta 后成重生了！
+
+**问题描述 / Problem Description**:
+如题，流畅的飞起啊，不想换电脑了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235796#reply3
+
+---
+
+#### 8796. [V2EX] 想买 iPad Pro M5 13 寸，该怎么买？
+
+**问题描述 / Problem Description**:
+心里还是希望有个 16gb 战未来，存储空间无所谓，因为有 115 永 v 和 nas ，不需要在本地放影音文件，照片有 iCloudz 。 目前国行涨价涨的太离谱，pdd 百亿补贴都要 11300 起步。 美版没有保修还是拆的，也没有保修。 京东有个自营拍拍二手，买资源机，大存储空间版本折扣比较多。 兄弟们我该咋办
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235743#reply88
+
+---
+
+#### 8797. [V2EX] 出售一张香港 Apple Store 礼品卡
+
+**问题描述 / Problem Description**:
+原价 200 港币的 Apple Store 礼品卡 ，现 150 RMB 出 注意 是 Apple Store 礼品卡，不是 App Store 只能用于港区的商店买硬件设备或用作折抵 。 不可用在 App Store 买软件。 有意联系我 MTg1NjU4MDMyNDA=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235739#reply3
+
+---
+
+#### 8798. [V2EX] V2 有专门讨论 Apple 的微信群吗？
+
+**问题描述 / Problem Description**:
+如题，V2 有专门讨论 Apple 的群吗？有一定活跃度，又不那么活跃的微信群。 求加。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235594#reply5
+
+---
+
+#### 8799. [V2EX] 忍不住想吐槽一下 AirDrop，体验有时候真的一言难尽
+
+**问题描述 / Problem Description**:
+稳定的时候体验很好，但是经常抽风，要么找不到设备，要么找到了设备又一直发不出去，一直显示等待中。。。。。技术实现上这么复杂且困难吗，这个 bug 修了这么多年了都修不好，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235473#reply31
+
+---
+
+#### 8800. [V2EX] Apple Intelligence 已配置对涩涩图的安全过滤条件
+
+**问题描述 / Problem Description**:
+更新到最近发布的 Developer Beta 后， 目测比较明显的涩涩图（全裸）已经无法激活“扩图”和“构图”功能。 对于不太明显的涩涩图（露点）在使用“扩图”或“构图”功能时， 会被安全过滤条件拦截，提示：“扩图时出错。请稍后再试。”或“安全过滤条件已应用。” 推估 Apple 已经在端侧和云端都加强了安全过滤。 以上纯学术测试完毕。 下面是纯学术探讨， 比如你在纯学术鉴赏照片时，觉得摄淫师拍摄角度不符合预期，或者更偏好“蟑螂视角”之类的特殊嗜好，那 Apple Intelligence 的构图功能调整起来可以说是非常便利。 感觉，第三方 APP 的商机要来了(🐶～)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235409#reply2
+
+---
+
+#### 8801. [V2EX] 制作了一个 AltStore 软件源： AltGallery 欢迎大家来试试
+
+**问题描述 / Problem Description**:
+sidestore 配合 livecontainer 可以在没有电脑的情况下安装各种 ipa 了。不过很多 App 只在 GitHub Release 里放 ipa ，没有对应的源，更新起来挺不方便的。 所以用 Claude 做了这个项目 https://github.com/bebound/AltGallery , 收集了一些常用的软件，生成软件源，定时更新版本。 点 Add AltSource 就能订阅到 SideStore/LiveContainer/AltStore 了 如果有还没收录的软件，欢迎告诉我，我来加进去～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235329#reply13
+
+---
+
+#### 8802. [V2EX] 请教，之前准备搞 gpt，买了几张 200 的美区礼品卡，没用完怎么变现啊？
+
+**问题描述 / Problem Description**:
+还有两个兑换码没充到账户中，怎么安全变现啊，某鱼又怕买家兑换了退货，毕竟金额这么大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235230#reply29
+
+---
+
+#### 8803. [V2EX] 美区 id 是主力，刚买港版 iPhone 17pm 有三问
+
+**问题描述 / Problem Description**:
+刚买港版 iphone ，买 mbp 的时候只注册了一个美区 id ，现在刚开始用手机，需要一个国区 id 来下载一些外区没有的软件，有以下三个问题需要问下。 1 、国区：中国大陆的 Apple 账户必须与一个经验证的中国电话号码相关联。 这里填的 86 手机号 已经在注册美区的时候使用了，这里可以也用这个大陆 86 手机号吗 2 、国区邮箱你们通常用 gmail 还是 qq 一类的 3 、美区账号因为无法解决支付的问题，mbp 中 shadowrocket 是用共享账号登陆下载的，现在手机上也遇到这个问题，但是不像使用共享账号，以免带来锁机及隐私泄漏的风险，有没有更好的方式？购买礼品卡？目前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235067#reply21
+
+---
+
+#### 8804. [V2EX] 我记得以前 apple watch 微信语音电话会震动，是我记错了吗
+
+**问题描述 / Problem Description**:
+以前是国行 s7 ，现在换了美版的 s10 手表设置了静音模式 亲测电话会正常震动，微信消息正常通知震动，语音电话无任何通知。 是我设置问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234962#reply7
+
+---
+
+#### 8805. [V2EX] mtcgame 这么坑人的嘛，付了款不发货
+
+**问题描述 / Problem Description**:
+如题，想冲个土区礼品卡，mtcgame 付款成功，然后不发卡密，状态显示 kyc ，但是又找不到任何 kyc 的入口，有人碰到这种问题吗？我就只是想给 gpt 冲个值怎么这么难啊，贵就算了还不给我发货，坑人啊😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234937#reply11
+
+---
+
+#### 8806. [V2EX] AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint (速卖通在后台运行无声的 WebAudio 指纹识别，会破坏蓝牙多点连接）
+
+**问题描述 / Problem Description**:
+AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint 今天 hacker news 上面的火贴 速卖通在后台运行无声的 WebAudio 指纹识别，会破坏蓝牙多点连接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236018#reply0
+
+---
+
+#### 8807. [V2EX] 赛博空城计-banner 展示
+
+**问题描述 / Problem Description**:
+恒大空城计大门 ascii 字符画，拿去做 banner🤪 ========================================================================== \ ____________________________________________________________________ / \ ____ ____ ____ ____ / \ | |___| |____________________________| |___| | / =======================|----|___|----| |----|__
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235981#reply0
+
+---
+
+#### 8808. [V2EX] [开源自荐] PicLite 图轻：开源跨平台本地图片动图压缩工具，智能择优压缩，本地文件夹监控，强大自定义悬浮窗
+
+**问题描述 / Problem Description**:
+用 chatGPT 开发了一个月做出来的东西。主要自用。同时分享给自媒体工作人员和开发人员。 说来惭愧，更新了几十个版本，用废两个 chatGPT 账号，才搞出来现在这样子。希望能帮助到大家 下面开始介绍： PicLite 图轻 PicLite 图轻：开源跨平台本地图片动图压缩工具，智能择优压缩，本地文件夹监控，强大自定义悬浮窗。自动图片格式转换，批量压缩，添加水印，上传图床。支持 Windows 、macOS 、Linux 与可自托管 Web 端。 帮助自媒体工作人员和开发人员提升工作效率 主要能力 JPEG 、PNG 、WebP 、GIF 导入、转换、压缩与等比例缩放 默认自动比较候选格式
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235969#reply0
+
+---
+
+#### 8809. [V2EX] AI 工作台，纯血的 GPT5.5、5.6、Claude， V 站注册用户已过百，留贴即送 20 刀积分
+
+**问题描述 / Problem Description**:
+高速 GPT5.5 、GPT5.6 、Claude ，回帖送 20 刀 现在在推广阶段，背靠上市公司，非小型中转站，只求更多用户体验、反馈工作台 APP 。 只要持续产生使用量的，积分其实一直会重置（通过积分自动充值） 软件下载： https://code.phanthy.com/work?source=v2ex&utm_source=v2ex&utm_medium=community&utm_campaign=token_factory_2026_r2&utm_content=v2ex_f0_launch_20260820_01&content_code=v2ex_f0_launch_202
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235939#reply0
+
+---
+
+#### 8810. [V2EX] GPT 今天更新之后消耗速度名明显变快了
+
+**问题描述 / Problem Description**:
+上午 11 点账户自然重置，到现在 16：48 ，已经只剩下 70%了 CC swtich 显示今天消耗了 3.21 亿 token
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235932#reply6
+
+---
+
+#### 8811. [V2EX] 可能很快就能实现 token 自由了
+
+**问题描述 / Problem Description**:
+qwen3.8 开源，性能比肩 opus4.6 ，之后出现几百个版本。 目前量化版本从 1bit 到 16bit ，最低 8G 内存 mac 即可运行 想要获得不错的体验建议 3080 以上显卡 传送门： https://huggingface.co/unsloth/Qwen3.8-27B-GGUF 🎉 16G 丐版 M1 部署 Qwen 3.8-27B 实测报告： 不出意外，打字机效果，不过智商还可以😄 📊 实测配置与数据 设备：MacBook Pro （ M1 / 16GB ） 模型：Qwen3.8-27B （ UD-Q2_K_XL ，9.15GB ） GPU：全层 Metal 卸载 内存
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235880#reply15
+
+---
+
+#### 8812. [V2EX] giffgaff 也不靠谱，手机号被注销了
+
+**问题描述 / Problem Description**:
+您好 Khazan ， 经审查您的账户使用情况，我们决定终止为您提供的服务（针对尾号为 7355 的手机号码）。根据我们的服务条款，我们的服务主要供英国境内使用，漫游功能仅适用于短期出行。鉴于您的使用记录显示您在英国境外进行了长期或永久性的使用，您的账户已不再符合该服务的使用条件。因此，我们将很快停止向您提供服务，相关网络访问权限也将随之终止。 请注意，这是我们就此事做出的最终决定。 感谢您的理解与支持。 giffgaff 团队 给有需求的人提个醒，不要钱打了水漂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235828#reply5
+
+---
+
+#### 8813. [V2EX] 准备导出群聊记录，才发现何其难也
+
+**问题描述 / Problem Description**:
+我只是想保存跟客户的交互记录避免以后牵扯，找了大半圈居然找不到，感谢跨国巨头这么保护我的隐私，唉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235823#reply7
+
+---
+
+#### 8814. [V2EX] 看 V 友发的关于噪音的贴有感，买房/租房一定不要只是白天去看看就定下来
+
+**问题描述 / Problem Description**:
+看到有 V 友分析自己被住房噪音困扰的帖子，也想分享一下我的经历，供各位 V 友参考避坑。 节约时间，经验教训总结放在最前面 租房子买房子要考虑通勤问题，最好在定下来之前早晚高峰去观察一下该房子的通勤情况，工作日或者周末的白天会有明显偏差 租房子买房子要考虑夜间环境声音，最好定下来之前晚上过去在楼下坐着看看观察下，是否车流量比较大比较吵，是否有跳广场舞的，是否有烧烤夜市的 租房子买房子最好试试提前试试房子隔音效果，比如两个人一起去，关上门一个人在走廊里面放歌或者跺脚等，可以一定程度测试隔音效果，有可能的话约中介晚上去看房，实地感受晚上的噪音情况 毕业后参加工作租的第一套房 我记得看房的时候是工
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235788#reply0
+
+---
+
+#### 8815. [V2EX] 把储藏间整理出来的纸箱瓶子打包运到公司给保洁阿姨
+
+**问题描述 / Problem Description**:
+小区附近的废品收购都太黑了，就把储藏间整理出来的纸箱瓶子打包运到公司给保洁阿姨了，保洁阿姨很开心隔天给我带了苹果玉米和蛋糕。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235787#reply9
+
+---
+
+#### 8816. [V2EX] 搓了一个 dsh 插件，用于统计会话的 Token 费用消耗明细
+
+**问题描述 / Problem Description**:
+dsh 插件：Token 计费明细 大家好，最近在使用 dsh 感觉挺好玩的，我发现一个比较实际的问题： 模型请求越来越多，但很难在当前会话里快速知道： 这次请求大概花了多少钱？ 当前会话累计费用是多少？ 哪些 Token 命中了缓存？ 不同模型、不同阶段的费用如何比较？ 重启 dsh 之后，历史费用还能不能保留？ 所以我做了一个本地插件：dsh-cost-meter 。 项目地址： https://github.com/uruana33/dsh-cost-meter npm： https://www.npmjs.com/package/@mymeter/dsh-cost-meter 它能做什
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235708#reply4
+
+---
+
+#### 8817. [V2EX] 小红书也发模型了，可白嫖，不知道什么水平
+
+**问题描述 / Problem Description**:
+发布： https://www.xiaohongshu.com/explore/6a8570a2000000003300b9e3 平台： https://dots.ai/platform
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235703#reply2
+
+---
+
+#### 8818. [V2EX] 面向 OpenWrt / ImmortalWrt 的 Wi‑Fi Calling + Apple WLOC 一体化网关
+
+**问题描述 / Problem Description**:
+Wi‑Fi Calling + Location Gateway 将两个服务组织在同一台路由器上： Wi‑Fi Calling Gateway 为指定局域网设备选择 sing-box 节点，并保持 UDP 500/4500 的 ePDG/IPsec 通道独立运行。 WLOC 服务只处理指定测试设备发往 Apple WLOC 主机的 TCP 443 流量；自动模式根据该设备绑定节点的出口 IP 解析目标地区，手动模式使用管理员选择的坐标。 LuCI 界面提供节点、设备策略、自动/手动位置、证书安装、运行状态和脱敏日志入口。 项目的核心边界是”独立、精确、可回退”：WLOC 使用自己的进程、UCI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235676#reply1
+
+---
+
+#### 8819. [V2EX] Giffgaff 卡又复活了
+
+**问题描述 / Problem Description**:
+昨晚我收到 Giffgaff 的邮件，说之前封掉的卡又恢复了，还送了 £10 。 Your service was recently disconnected in error. We’re really sorry for the mistake and any inconvenience it caused. We’re currently in the process of restoring your account, and your service will be fully restored in the next few days. You might need to rest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235529#reply58
+
+---
+
+#### 8820. Universal Clipboard works iPhone → Mac but not Mac → iPhone, while AirDrop works both ways
+
+**问题描述 / Problem Description**:
+Tags: macos, bluetooth, copy-paste, continuity | Score: -2 | Views: 27 | Answers: 1 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+The Mac was transmitting nothing, despite bluetoothd reporting success. The fix: sudo killall bluetoothd It respawns via launchd in about two seconds. In my case bluetoothd had been up 14 days while every other Continuity daemon had been restarted during debugging. Here is how to confirm that this is your problem. The trap: bluetoothd reports success while delivering nothing This is the reason it took so long. With the fault fully present, the entire transmit chain on the Mac logs clean: useractivityd UPDATEADVERTISEMENT: choose to advertise (<uuid>) useractivityd ADVERTISING:$… pb-1 … opts={ UAPasteboardAvailable = 1; UAPasteboardVersionBit = 1; } sharingd IDSContinuity didStartAdvertisingOfType sharingd Nearby start advertising … type 16 … connectable 1 bluetoothd Started to advertise for type 16 with error (null) bluetoothd Starting Connectable advertisement instance 0 / 1 … type 16 is the Handoff advertisement in this trace. No error, no rejection, no advertising-slot exhaustion. UAPasteboardAvailable = 1 means the Mac is genuinely offering its clipboard, and the pb-0 / pb-1 version bit flips correctly on each copy. On this evidence I marked the Bluetooth layer healthy and went looking elsewhere. That was the costly mistake. "Advertising started" only proves the request was accepted. It does not prove the radio transmitted anything. For a radio or transport layer, the only trustworthy evidence is confirmation at the receiver. A corollary worth internalising: bluetoothd runs as root , so plain killall bluetoothd fails with No matching processes belonging to you were found , and launchctl kickstart is blocked by SIP. It was therefore the one component in the stack that quietly stayed stale while everything around it was cycled. A layer you cannot easily restart deserves more suspicion, not less. How to confirm it, from the receiver side Read the iPhone's own log from the Mac. Note that log stream has no --device flag, and devicectl requires full Xcode — Command Line Tools alone will not do. brew install libimobiledevice idevice_id -l # UDID; empty means not connected, or not trusted yet ideviceinfo -k ProductVersion # also confirms pairing worked nohup idevicesyslog -o /tmp/ios.log >/dev/null 2>&1 & disown Then press ⌘C by hand on the Mac and count reception events on the iPhone: grep -icE 'Received Ad|decrypted advertisement|activityScanner|rawAdvertisementData' /tmp/ios.log My before/after, same command, same conditions: iPhone reception events broken, across 4 separate captures 0 after sudo killall bluetoothd 208 Working output looks like: sharingd(CoreUtils)[…] NearbyInfo received activity level: 0xb after decryption While broken, the iPhone was demonstrably listening — its useractivityd logged setScanningForTypes:{( UAReceiverScanTypeUserActivity, UAReceiverScanTypeClipboard )} with useractive: yes — and still received nothing. Transmitter says sent, receiver says nothing arrived. That pins the fault to the radio layer. Gotchas when reproducing this Test with a real ⌘C. A scripted pbcopy does not count: macOS suspends Handoff advertising while the user is HID-idle, logging IDLE: … useractive: no → shouldSuspendAdvertising == YES . Testing with pbcopy while idle manufactures a convincing false "the advertiser is dead" result. Check idle first: ioreg -c IOHIDSystem | grep HIDIdleTime (nanoseconds). eligible=NO on a com.apple.continuitypasteboard item is normal . It means no app can continue that activity, and it coexists with successful advertising. In zsh, log is a shell builtin . log show … dies with (eval):log:1: too many arguments , and piped into grep with stderr suppressed it returns nothing at all — which reads exactly like "the daemon is silent". Use /usr/bin/log . I nearly diagnosed dead daemons on the strength of that. log show only reads persisted messages, so info / debug are usually absent even with --info --debug . Use log stream to see them live. idevicesyslog dies with its parent shell — hence nohup … & disown . timeout does not exist on macOS. Use cmd & P=$!; sleep N; kill $P . idevicesyslog relays a subset of the unified log. For proof rather than strong evidence, use idevicesyslog archive /tmp/ios.logarchive then log show --archive /tmp/ios.logarchive . Diagnostic shortcut Before any of the above, just compare daemon uptimes. An outlier is the suspect: for p in useractivityd sharingd rapportd identityservicesd bluetoothd; do P=$(pgrep -x $p | head -1); [ -z "$P" ] && P=$(pgrep -f "Agents/$p" | head -1) printf '%-19s %s\n' "$p" "$(ps -o lstart= -p ${P:-0} 2>/dev/null)" done In my case bluetoothd was 14 days older than everything else. Full reset, ordered by how hard each is to reach killall useractivityd sharingd rapportd # user-owned, no sudo sudo killall bluetoothd # root-owned — the one that hides Then confirm every daemon actually came back with a new PID before believing anything. Restart requests can silently no-op — launchctl kickstart returns 150: Operation not permitted while System Integrity Protection is engaged and leaves the PID untouched. Restarting bluetoothd briefly disconnects connected Bluetooth devices; they reconnect on their own. A laptop's built-in keyboard and trackpad do not go through bluetoothd , so you will not lose input. Check what is actually connected with system_profiler SPBluetoothDataType — and note when parsing it that a pattern matching Connected: will also match Not Connected: . I deliberately leave identityservicesd out of the default reset: it briefly drops iMessage and FaceTime and was never implicated. Caveats This is one confirmed case, not a general law. What I can state with evidence: the Mac's Handoff advertisements were not reaching the iPhone, every software layer reported success, and restarting bluetoothd fixed it immediately and durably, with the receiver-side event count going from 0 to 208 across the change. I did not establish why bluetoothd degraded. Long uptime is correlated, not proven causal. If you hit this and sudo killall bluetoothd fixes it, that data point is worth adding wherever you found this.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486949/universal-clipboard-works-iphone-%e2%86%92-mac-but-not-mac-%e2%86%92-iphone-while-airdrop-works
 
 ---

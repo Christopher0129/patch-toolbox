@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3222**
+**总计条目 / Total entries: 3247**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -47768,5 +47768,305 @@ USN 8113-1 fixed vulnerabilities in tiff. This update provides the corresponding
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8113-2
+
+---
+
+#### 3223. CVE-2026-76827 - search-indexer: search-indexer: UPDATE/DELETE operations not scoped to caller's…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] search-indexer: search-indexer: UPDATE/DELETE operations not scoped to caller's cluster (cross-tenant data tampering). Bugzilla: 2519896
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519896
+
+---
+
+#### 3224. CVE-2026-76139 - acm-operator-bundle: acm-operator-bundle: Bundle build execs unpinned…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-operator-bundle: acm-operator-bundle: Bundle build execs unpinned stolostron/release@master with full build credentials. Bugzilla: 2519852
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519852
+
+---
+
+#### 3225. CVE-2026-75569 - mce-operator-bundle: mce-operator-bundle: Bundle-generation business logic fetched…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] mce-operator-bundle: mce-operator-bundle: Bundle-generation business logic fetched from mutable stolostron/release@master. Bugzilla: 2519849
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519849
+
+---
+
+#### 3226. CVE-2026-50152 - ceph: ceph: MON subscription handler exposes config-key store to low-privilege…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: MON subscription handler exposes config-key store to low-privilege CephX users. Bugzilla: 2519423
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519423
+
+---
+
+#### 3227. CVE-2026-54330 - ceph: ceph: RGW SigV4 verifier allows attachment of arbitrary unsigned x-amz-*…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: RGW SigV4 verifier allows attachment of arbitrary unsigned x-amz-* headers leading to privilege escalation. Bugzilla: 2519428
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519428
+
+---
+
+#### 3228. CVE-2026-39944 - ceph: ceph: RGW STS session tokens vulnerable to CBC bit-flip attack enabling…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ceph: ceph: RGW STS session tokens vulnerable to CBC bit-flip attack enabling admin privilege escalation. Bugzilla: 2519431
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519431
+
+---
+
+#### 3229. CVE-2026-63117 - FreeRDP: FreeRDP: Denial of Service via ADPCM frame size calculation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Denial of Service via ADPCM frame size calculation. Bugzilla: 2519821
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519821
+
+---
+
+#### 3230. CVE-2026-18874 - volsync-addon-controller: volsync-addon-controller: annotation values rendered…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] volsync-addon-controller: volsync-addon-controller: annotation values rendered into YAML via text/template without escaping allows YAML injection into Subscription. Bugzilla: 2511115
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511115
+
+---
+
+#### 3231. CVE-2026-70496 - search-v2-operator: search-v2-operator: operator ClusterRole is cluster-admin…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] search-v2-operator: search-v2-operator: operator ClusterRole is cluster-admin equivalent via impersonate, RBAC write, CSR approve, and ManifestWork. Bugzilla: 2511032
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511032
+
+---
+
+#### 3232. CVE-2026-71470 - acm-search-v2-rhel9: search-v2-operator: Search CR imageOverride/arguments/envVar…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] acm-search-v2-rhel9: search-v2-operator: Search CR imageOverride/arguments/envVar flow unsanitized into pods running impersonating SA. Bugzilla: 2512149
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2512149
+
+---
+
+#### 3233. CVE-2026-76231 - renovate: Renovate: Arbitrary command execution via unsanitized dependency names
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary command execution via unsanitized dependency names. Bugzilla: 2519628
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519628
+
+---
+
+#### 3234. CVE-2026-76228 - renovate: Renovate: Arbitrary Code Execution via malicious Gradle Wrapper…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary Code Execution via malicious Gradle Wrapper properties. Bugzilla: 2519617
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519617
+
+---
+
+#### 3235. CVE-2026-76229 - renovate: Renovate: Arbitrary Command Injection via kustomize manager
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Arbitrary Command Injection via kustomize manager. Bugzilla: 2519627
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519627
+
+---
+
+#### 3236. CVE-2020-37267 - renovate: Renovate: Information disclosure via unredacted logging of authorization…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: Renovate: Information disclosure via unredacted logging of authorization tokens. Bugzilla: 2519611
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519611
+
+---
+
+#### 3237. CVE-2026-66794 - cluster-proxy-addon: cluster-proxy-addon: unauthenticated SSRF to arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] cluster-proxy-addon: cluster-proxy-addon: unauthenticated SSRF to arbitrary managed-cluster services via public Route. Bugzilla: 2507539
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507539
+
+---
+
+#### 3238. CVE-2026-43961 - vim: Vimscript injection via unescaped filename in netrw s:NetrwMarkFile()…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] vim: Vimscript injection via unescaped filename in netrw s:NetrwMarkFile() filter() expression allows arbitrary code execution. Bugzilla: 2460434
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2460434
+
+---
+
+#### 3239. CVE-2026-76235 - cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cockpit-ws: cockpit: cockpit-ws: unauthenticated remote memory leak via CockpitLang cookie in send_login_html. Bugzilla: 2519497
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519497
+
+---
+
+#### 3240. [Ubuntu] USN-8643-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-53247, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8643-2
+
+---
+
+#### 3241. [Ubuntu] USN-8656-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8656-1
+
+---
+
+#### 3242. [Ubuntu] USN-8654-1: Netty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Netty did not properly handle malformed HTTP/2 control frames. An attacker could use this to cause a denial of service via resource exhaustion. This issue only affects Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-55163) It was discovered that Netty did not properly validate the request URI for line-break characters. An attacker could
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8654-1
+
+---
+
+#### 3243. [Ubuntu] USN-8653-1: PostgreSQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PostgreSQL incorrectly handled COPY FROM STDIN when an early failure occurred. An authenticated user could possibly use this issue to execute arbitrary SQL commands. (CVE-2026-6464) It was discovered that PostgreSQL incorrectly reset extended statistics ownership during ALTER TABLE ALTER TYPE operations. An attacker could possibly use this issue to obtain sensitive informati
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8653-1
+
+---
+
+#### 3244. [Gentoo] GLSA 202608-20: acl, attr: Multiple vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in acl and attr, the worst of which could lead to local privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-20
+
+---
+
+#### 3245. [Gentoo] GLSA 202608-19: quickjs-ng: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in quickjs-ng, the worst of which could result in arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-19
+
+---
+
+#### 3246. [Gentoo] GLSA 202608-18: GNU Emacs: Arbitrary code execution
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in GNU Emacs which could lead to arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-18
+
+---
+
+#### 3247. [Gentoo] GLSA 202608-17: libssh2: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in libssh2, the worst of which could result in remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-17
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1131**
+**总计条目 / Total entries: 1151**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -18127,5 +18127,325 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-24301
+
+---
+
+#### 1132. [Microsoft] CVE-2026-70105 - Microsoft Word Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Word
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper input validation in Microsoft Office Word allows an unauthorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70105
+
+---
+
+#### 1133. [Microsoft] CVE-2026-69855 - Microsoft Copilot in Azure Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Copilot in Azure
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Microsoft Copilot in Azure allows an authorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69855
+
+---
+
+#### 1134. [Microsoft] CVE-2026-69543 - Azure Virtual Machines Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Virtual Machines
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Azure Virtual Machines allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69543
+
+---
+
+#### 1135. [Microsoft] CVE-2026-69558 - Microsoft Partner Center Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Partner Center
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Authorization bypass through user-controlled key in Microsoft Partner Center allows an unauthorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69558
+
+---
+
+#### 1136. [Microsoft] CVE-2026-69555 - Azure Arc Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Arc
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Incorrect authorization in Azure Arc allows an unauthorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69555
+
+---
+
+#### 1137. [Microsoft] CVE-2026-69400 - Azure Logic Apps Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Logic Apps
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69400
+
+---
+
+#### 1138. [Microsoft] CVE-2026-69419 - Azure Data Manager for Energy Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Data Manager for Energy
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Integer overflow or wraparound in Azure Data Manager for Energy allows an authorized attacker to execute code over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69419
+
+---
+
+#### 1139. [Microsoft] CVE-2026-68782 - Azure SQL Database Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure SQL Database
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper neutralization of special elements used in an sql command ('sql injection') in Azure SQL Database allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-68782
+
+---
+
+#### 1140. [Microsoft] CVE-2026-66800 - Azure Data Factory Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Data Factory
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Azure Data Factory allows an unauthorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-66800
+
+---
+
+#### 1141. [Microsoft] CVE-2026-66309 - Azure SQL Database Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure SQL Database
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper access control in Azure SQL Database allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-66309
+
+---
+
+#### 1142. [Microsoft] CVE-2026-65816 - Azure Arc Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Arc
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Use of incorrectly-resolved name or reference in Azure Arc allows an unauthorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-65816
+
+---
+
+#### 1143. [Microsoft] CVE-2026-63509 - Microsoft Fabric Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Fabric
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Relative path traversal in Microsoft Fabric allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-63509
+
+---
+
+#### 1144. [Microsoft] CVE-2026-65770 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Managed Instance for Apache Cassandra
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper neutralization of argument delimiters in a command ('argument injection') in Azure Managed Instance for Apache Cassandra allows an unauthorized attacker to execute code over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-65770
+
+---
+
+#### 1145. [Microsoft] CVE-2026-55013 - Windows Remote Help Defense Spoofing Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Remote Help Defense
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Uncontrolled search path element in Windows Remote Help Defense allows an authorized attacker to perform spoofing locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-55013
+
+---
+
+#### 1146. [Microsoft] CVE-2026-55015 - Microsoft Remote Help Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Remote Help
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Uncontrolled search path element in Windows Remote Help allows an authorized attacker to deny service locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-55015
+
+---
+
+#### 1147. [Microsoft] CVE-2026-69836 - Microsoft Entra ID Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Entra ID
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69836
+
+---
+
+#### 1148. [Microsoft] CVE-2026-69851 - Microsoft Entra ID Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Active Directory
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Azure Active Directory allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69851
+
+---
+
+#### 1149. [Microsoft] CVE-2026-69519 - Azure Stack HCI Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure Stack HCI
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Observable response discrepancy in Azure Stack HCI allows an unauthorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69519
+
+---
+
+#### 1150. [Microsoft] CVE-2026-68789 - Azure SQL Database Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Azure SQL Database
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Improper neutralization of special elements used in an sql command ('sql injection') in Azure SQL Database allows an authorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-68789
+
+---
+
+#### 1151. [Microsoft] CVE-2026-65801 - Microsoft Exchange Online Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Microsoft Exchange Online
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Microsoft Exchange Online allows an unauthorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-65801
 
 ---

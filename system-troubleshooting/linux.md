@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9122**
+**总计条目 / Total entries: 9184**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -126557,5 +126557,811 @@ Ok, its been a long time but put this grub code line solves my problem: GRUB_CMD
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/804137/usb-mouse-troubles-psmouse-didnt-manage-both-services
+
+---
+
+#### 9123. PINE64 hits pause on Linux devices due to RAM and eMMC shortage/high prices
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtofe0/pine64_hits_pause_on_linux_devices_due_to_ram_and/
+
+---
+
+#### 9124. X.Org Server 26.1 RC1 Prepares For First Feature Release In Five Years
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vto4jw/xorg_server_261_rc1_prepares_for_first_feature/
+
+---
+
+#### 9125. I'm experimenting with adding native Windows PE execution to Linux — (Project Tawi)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtsjhg/im_experimenting_with_adding_native_windows_pe/
+
+---
+
+#### 9126. I just switched to Linux mint from windows, and it somehow fixed my headphones
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtiu95/i_just_switched_to_linux_mint_from_windows_and_it/
+
+---
+
+#### 9127. Supply chain attack on arrayref
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtt7e0/supply_chain_attack_on_arrayref/
+
+---
+
+#### 9128. XWayland 26.1 RC1 Released With Many New Features
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vto6nt/xwayland_261_rc1_released_with_many_new_features/
+
+---
+
+#### 9129. New AMD low-power core & unified Intel/AMD CPU core type handling in Linux 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtm7ag/new_amd_lowpower_core_unified_intelamd_cpu_core/
+
+---
+
+#### 9130. Linux 7.3 Deprecates Many Older 32-bit ARM Platforms, Orphans Hundreds Of Drivers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vt372a/linux_73_deprecates_many_older_32bit_arm/
+
+---
+
+#### 9131. Btrfs Ready With More Performance Improvements For Linux 7.3: Some ~3x To ~5x Wins
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vt35zl/btrfs_ready_with_more_performance_improvements/
+
+---
+
+#### 9132. What has gotten into me
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtx3bl/what_has_gotten_into_me/
+
+---
+
+#### 9133. KDE Gear 26.08 is out and brings new features and improvements to Dolphin, Konsole, Kdenlive and Okular, among many other apps
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtd9cf/kde_gear_2608_is_out_and_brings_new_features_and/
+
+---
+
+#### 9134. IOmap Improvement For Linux 7.3 Takes EXT4 & XFS Performance Further
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vt38ej/iomap_improvement_for_linux_73_takes_ext4_xfs/
+
+---
+
+#### 9135. LEMON: A universal eBPF-based volatile memory acquisition tool for modern android devices and hardened linux systems
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtfswr/lemon_a_universal_ebpfbased_volatile_memory/
+
+---
+
+#### 9136. Forking Paldo OS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtsvdv/forking_paldo_os/
+
+---
+
+#### 9137. OperaGX Official
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vtu5is/operagx_official/
+
+---
+
+#### 9138. Mouse speed problems
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtrkuv/mouse_speed_problems/
+
+---
+
+#### 9139. How to install Nvidia drivers on Debian
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtpd4n/how_to_install_nvidia_drivers_on_debian/
+
+---
+
+#### 9140. Need help installing Linux on new Lenovo Ideapad Slim 5
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtrew3/need_help_installing_linux_on_new_lenovo_ideapad/
+
+---
+
+#### 9141. Signal strength issue on mt7922.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtv4dg/signal_strength_issue_on_mt7922/
+
+---
+
+#### 9142. Tips and tricks to use on Fedora
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtx8r8/tips_and_tricks_to_use_on_fedora/
+
+---
+
+#### 9143. I want to try linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtwwu0/i_want_to_try_linux/
+
+---
+
+#### 9144. All games are stuttering from Micro Stutter on Bazzite Linux OS
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtg1fu/all_games_are_stuttering_from_micro_stutter_on/
+
+---
+
+#### 9145. How to shrink windows partition size and increase ubuntus size?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtitm5/how_to_shrink_windows_partition_size_and_increase/
+
+---
+
+#### 9146. help i cant type anything with shift, control, alt, or super outside of discord and certain apps
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtf9ux/help_i_cant_type_anything_with_shift_control_alt/
+
+---
+
+#### 9147. Linux Mint's Software manager randomly started displaying an error for not having internet
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vti9vb/linux_mints_software_manager_randomly_started/
+
+---
+
+#### 9148. Linux media (mini) machine advice mini
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtrh6l/linux_media_mini_machine_advice_mini/
+
+---
+
+#### 9149. Running Word on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt4v5p/running_word_on_linux/
+
+---
+
+#### 9150. Problems installing linux mint on my Thinkpad T570
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtfa5f/problems_installing_linux_mint_on_my_thinkpad_t570/
+
+---
+
+#### 9151. Little task timer app I made
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtouuy/little_task_timer_app_i_made/
+
+---
+
+#### 9152. Systemd has broken.
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt4ndm/systemd_has_broken/
+
+---
+
+#### 9153. Replacing ChromeOS With Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt27ix/replacing_chromeos_with_linux/
+
+---
+
+#### 9154. Building my own Kernel problem whitps2 driver keyborad can't write on shell
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtkxq1/building_my_own_kernel_problem_whitps2_driver/
+
+---
+
+#### 9155. Would Linux help reduce my RAM usage?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt6sfr/would_linux_help_reduce_my_ram_usage/
+
+---
+
+#### 9156. Disabling mouse acceleration on GNOME login screen
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vthq0g/disabling_mouse_acceleration_on_gnome_login_screen/
+
+---
+
+#### 9157. Nintendo Switch Pro controller problems on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vth4ku/nintendo_switch_pro_controller_problems_on_linux/
+
+---
+
+#### 9158. How?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt8b1q/how/
+
+---
+
+#### 9159. Is anyone having the same issue as I do?
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vtfvrr/is_anyone_having_the_same_issue_as_i_do/
+
+---
+
+#### 9160. What is the state of Nvidia on linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux4noobs discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux4noobs/comments/1vt357o/what_is_the_state_of_nvidia_on_linux/
+
+---
+
+#### 9161. [V2EX] Grok-Bot Linux 原生 0.20.0 版本
+
+**问题描述 / Problem Description**:
+Arch 上可以用官方 Grok Bot Linux 客户端了（需 SuperGrok Heavy / Cursor Ultra / Cursor Teams Premium ）： https://aur.archlinux.org/packages/grok-bot-bin yay -S grok-bot-bin 这是 Cursor 自己的 0.20.0 .deb ，不是社区从 Windows 版移植的。文档虽然写不支持 Linux ，但是可以下载 这是下载链接： https://downloads.cursor.com/grokbot/stable/ca2c2b6f79b6130a4822
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235888#reply1
+
+---
+
+#### 9162. [V2EX] 借助语音大模型，实现 Linux 下的语音输入，邀请 Linux 桌面用户试试
+
+**问题描述 / Problem Description**:
+起因是昨天下午看到 IT 之家这个新闻： 识别、合成、实时交互全球第一，Qwen-Audio-3.0 系列语音模型上线阿里千问 AI 平台 https://www.ithome.com/0/990/679.htm 于是我搞了一套适用于大部分 linux 发行版和桌面环境的流程。平台送了 36000s （有效期 3 个月），到期后的话，我看了一下价格是每秒 0.00022 元 代码开源在 这里 截图如下，邀请用 linux 桌面的朋友们来试试。有用的话留个⭐呀。这套 flow 个人感觉在 linux 桌面环境很轻量，以后更换模型也很简单，稍微适配一下就可以了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235328#reply21
+
+---
+
+#### 9163. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply109
+
+---
+
+#### 9164. [V2EX] GPT 降智变成 5.5mini 了，下午还好好的，手机上没事
+
+**问题描述 / Problem Description**:
+如题，Claude 都没事 落地 qqpw 的独享家宽。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236016#reply2
+
+---
+
+#### 9165. [V2EX] x 的吐槽
+
+**问题描述 / Problem Description**:
+吐槽过很多次了 例如那破输入法 例如 140 刚才吐槽了下 ai 大概意思说 平时防贼一样 所谓核心代码 git 各种权限申请 代码要求保护安全 结果代码所有者 又各种 ai 审核 生成 真是很魔幻 emmm x 就来了个 验证你为真人 使用手机相机扫描二维码继续。 xswl ，，， emm 真的各种 列表里面大概包括了所有头部吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236011#reply0
+
+---
+
+#### 9166. [V2EX] 刚开通了 Claude Pro 就遇到身份认证，啥模型都用不了，有解吗？
+
+**问题描述 / Problem Description**:
+好久没用 Claude 了，之前的账号都被封了。今天刚注册了个新账号，开通了 Claude Pro 订阅，结果遇到了身份认证的问题，任何模型都没法用😭 大家有什么低成本的解决办法吗？ API Error: 400 Identity verification is required to continue.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236010#reply1
+
+---
+
+#### 9167. [V2EX] SDD 驱动开发的问题.
+
+**问题描述 / Problem Description**:
+是不是说, plan 之前是需要人工 review 的, task 就不需要了, 如果全部需要 review 那工作量真的挺大的. ​第二个问题是,如果 AI 生成的代码, 有一些小地方不符合我的需求, 我会选择和 AI 聊天的方式修改局部代码, 但是这样就和 spec 不符合了, 那怎么办? 需要 spec 同步吗? 如果需要, 那又是工作量了, 且没必要, 如果不需要, spec 和代码就不是一一对应的了. 怎么处理? 那我岂不是可以认为, spec 只是针对当前功能的修改, 改完了, 并不需要留存 spec 文档, 如果不需要留存, 那又和 spec 的本意相违背了. ​第三个问题是,
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235993#reply1
+
+---
+
+#### 9168. [V2EX] ChatGPT 桌面版 邀请
+
+**问题描述 / Problem Description**:
+每邀请一人可获 500 个额度。 需要的留下邮箱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235991#reply0
+
+---
+
+#### 9169. [V2EX] 怎么防止别人把客户端反编译后配上他自己的 server(计费)？
+
+**问题描述 / Problem Description**:
+怎么防止 pyside6 的客户端被反编译呢？ 用 使用 Nuitka 或 Cython 编译 ？ 这种方式的反编译难度有多大呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235974#reply12
+
+---
+
+#### 9170. [V2EX] 跑路了，兄弟们。
+
+**问题描述 / Problem Description**:
+OP 本是一个转行 JAVA 外包， 这公司待了快三年也是转内无望。 寻思趁着还没到三十出去搏一搏。 不知道能不能找到工作， 但就算再去外包混口饭吃应该饿不死。 再大不了转行干别的，总有饭吃吧。 填词一首送自己和同事： 《鹊桥仙》 劲风成响，密云遮幕，向晚又添骤雨。 佳期应有鹊桥仙，举目望、浑无星处。 几经寒暑，今宵作别，哪晓明朝何去？ 不知檐滴几时休，待云散、繁星如故。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235971#reply16
+
+---
+
+#### 9171. [V2EX] codex 500 Credits，符合条件的留邮箱
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235964#reply0
+
+---
+
+#### 9172. [V2EX] 中转站， 175 刀额度，赶紧撸
+
+**问题描述 / Problem Description**:
+通过邀请链接，使用 GitHub （ 1 年以上）注册，175 刀额度，每天签到 25 刀 忙的时候容易中断，一直继续，继续，继续 base64 链接:aHR0cHM6Ly9hZ2VudHJvdXRlci5vcmcvcmVnaXN0ZXI/YWZmPTkxYmM=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235956#reply2
+
+---
+
+#### 9173. [V2EX] Tibo 的重置策略是复杂的
+
+**问题描述 / Problem Description**:
+有“外卖大战”的真撒钱的因素在，之前有连续一周的几乎天天重置。 也有“朝三暮四”的耍猴因素在(譬如几次三番和重置卡过期时间以及很多账号的自然重置时间重合)。当然了，重置卡本身也算是营销+福利的一部分。 不单单是很多人说的什么“升米恩斗米仇”。 就是普通的商业行为，没有恩啊仇啊之类的，总而言之，别让他们一家独大，不爽了就“叛逃”。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235936#reply1
+
+---
+
+#### 9174. [V2EX] PC 软件的滚动条
+
+**问题描述 / Problem Description**:
+PC 软件的滚动条，太细了，不利于操作啊。 并且，很多软件会主动隐藏滚动条，鼠标悬停才显示。 日常，我也希望知道当前在哪个进度位置。隐藏后，看不到进度了。 我知道浏览器都有插件或扩展，比如 Custom Scrollbars ，可以自定义滚动条粗细。 但是，我用到的一些非浏览器的软件，其滚动条就不好定制了。 我用的 win10 ，系统自带的，滚动条也很细。 像国外，有不少运动，比如 请停止杀死游戏 ，不知道有没有啥运动，来抵制这种 PC 软件的滚动条变细 。 我发现，很多软件开发者，压根不在乎这点，比如我今天下载了一个 rss 阅读器， Clip.exe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235934#reply0
+
+---
+
+#### 9175. [V2EX] 1m 上下文感觉面对 agent 还是少了？预测下接下来哪家会先出真*2m 上下文？
+
+**问题描述 / Problem Description**:
+不是那种跑 30%就开始降性能的那种模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235921#reply22
+
+---
+
+#### 9176. [V2EX] 「听记」v1.3.0 版本更新，新增“速记”功能 - 好看好用的 AI 录音软件
+
+**问题描述 / Problem Description**:
+「听记」是一款 AI 录音软件，有强大的 AI 功能，例如：AI 分段总结，AI 摘要分析，AI 思维导图，AI 待办分析等等 全新加入 AI 「速记」功能：无需创建录音，按住即可说话，松开后自动将内容整理成笔记、待办或计划。录音过程中可以实时看到识别状态，原始内容也会自动保存 同时，我们优化了移动端录音、任务、日程和记录页面的布局，让功能入口更清晰，操作更顺手，查看内容也更加直观 欢迎进入官方下载体验： https://www.lingerx.cn/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235920#reply0
+
+---
+
+#### 9177. [V2EX] 各位写代码的时候，遇到过哪些奇巧淫技，或是自己写过什么骚操作？
+
+**问题描述 / Problem Description**:
+爱折腾代码的人，应该多多少少都会琢磨点语法糖、冷门技巧，甚至一些意想不到的彩蛋，不一定工程最佳实践，但很巧妙 例 1 我之前贴的 GitHub 404 page 短链接操作： https://www.v2ex.com/t/1105845 ，评论区也补充了类似的操作部署 CF 的，也挺有意思 例 2 最近用 Vibe Coding 撸一个服务，先是做了个健康检查接口。一开始用 query 参数格式化为 json 还是人类可读的 format ，总觉得堆在 url 里观感很难受（强迫症发作）。 本来可以用 GET/POST 区分逻辑，或者继续靠 Query 做分支，后来在 ai 提示下把参数挪到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235905#reply12
+
+---
+
+#### 9178. [V2EX] 多 codex 账号用什么工具聚合
+
+**问题描述 / Problem Description**:
+看各位用的工具和截图似乎都不太一样 求推荐 稳妥吗，已知情况下是否有封号风险
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235901#reply5
+
+---
+
+#### 9179. [V2EX] Codex 1000 以及 500 credits 的邀请额度
+
+**问题描述 / Problem Description**:
+有 3 个 1000 以及 3 个 500 的邀请额度，需要的留邮箱。不介意 500credits 的话可以说明一下。 请注意： 1.在过去 2 个月内不得使用过 ChatGPT 桌面版。 2.如果你是新用户，可能会涉及到绑定手机号的情况。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235900#reply0
+
+---
+
+#### 9180. [V2EX] codex 500 符合条件的来
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235889#reply0
+
+---
+
+#### 9181. [V2EX] 我的 DeepSeek 思考过程中经常跑偏，你们也是这样吗？
+
+**问题描述 / Problem Description**:
+我的 DeepSeek 思考过程中经常跑偏，类似这种： 让我想想，我应该 xxx 不对！我还需要 xxxx （开始跑偏） 等等！也许还可以 xxxx （又跑偏了） . . . 啊！我忽略了 xxx （回到正轨了） 虽然跑偏几次后大部分情况下还是能回到正轨上，但是感觉中间的跑偏过程中浪费了不少 token ，你们也是这样吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235881#reply8
+
+---
+
+#### 9182. [V2EX] Meows 1.0.154：加了张世界地图，终端里的 IP / 域名也能直接点开查了
+
+**问题描述 / Problem Description**:
+之前在 V2EX 发过几篇 Meows 的开发记录， 上一份完整介绍和常见问答 在这里。没看过也不影响，简单说就是：Meows 是 Android 上的 SSH 服务器监控 App ，填个 SSH 地址和凭据就能看 CPU / 内存 / 磁盘 / 网络这些，服务器端不用再装 agent 。 8 月 17 日推了 1.0.154 。这版最显眼的是世界地图，其他改动主要在 Meows Lens 、Linux 指标采集、网络切换和私有备份。 写这篇时 Google Play 已经更新到随后发布的 1.0.155 ，不过这篇还是想聊 1.0.153 → 1.0.154 这次变化。 先放最显眼的：世界地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235870#reply0
+
+---
+
+#### 9183. [V2EX] 这个月还有 3 个 codex 500 额度 有需要的大佬留邮箱
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235869#reply12
+
+---
+
+#### 9184. How do I set WSL to use the color scheme for Git Bash?
+
+**问题描述 / Problem Description**:
+Tags: shell, vim, ls, colors, windows-subsystem-for-linux | Score: 1 | Views: 155 | Answers: 1 | Created: 2026-08-18
+
+**解决方案 / Solution**:
+However, after nearly a decade of Git Bash, the default color scheme of WSL is terrible, in my firm opinion Neither of those really has a color scheme. Both rely on a terminal emulator to "host" them, and both start with output that only uses the terminal's 16-color mode and not anything fancier, therefore both rely on the terminal emulator's color scheme rather than their own. Where do I go to get the color scheme used for ls in Git Bash? Your terminal emulator. The default theme of ls only uses the "basic" 16 color palette , which is defined by the terminal that renders it – the output of ls only requests "blue" but doesn't specify anything about the shade of blue (other than "light/bold" or "not light/bold")… in fact, more accurately, it requests "color #4" which hopefully is some sort of blue. $ printf '\e[34mThis is blue, \e[1;34mbold blue, \e[;94mnon-bold light blue\e[m\n' Depending on what you chose when installing Git for Windows, your Git Bash might use a) traditionally its own "MinTTY", b) the Windows traditional console "conhost", c) the newer "Windows Terminal" app. Each has its own default basic palette and its own method of configuring it (Windows Terminal actually comes with a whole bunch of color schemes built in). Although, all of those terminals now also support 256-color codes, so if you prefer, you can make ls output those instead. (They may still vary from terminal to terminal but are generally somewhat accurate as a 6x6x6 cube.) What color code to use for which file types is customizable through LS_COLORS – usually by using the dircolors tool to generate the right value from an easier-to-edit config. $ eval "$(dircolors ~/.dotfiles/dircolors.conf)" $ echo $LS_COLORS (Most of the above terminals also support "true color" mode where the program can directly request exact RGB values, and you can use that from dircolors as well.) Still, many programs will continue to use the 16-color palette, so your terminal's settings are where you should start. Where do I go to get the color scheme used for vi vi does not support colors. If you're on a Linux distro that has aliased vi to vim , then Vim's default colorscheme also uses the terminal's basic 16 colors only, so, same answer as before. Vim comes with some :color schemes that support 256-color mode, assuming it's aware of the terminal supporting that mode ( :set t_Co=256 if not auto-detected), e.g. :color slate (defined in /usr/share/vim/[somewhere]/colors/slate.vim ). There are plenty more, some even make use of truecolor mode ( :set tgc ). Neovim or nvim used to be the same as Vim, but has recently started using its own colorscheme that I think uses the 256-color mode. You can find it in runtime/colors/default.vim . Or you can use the same :color as in Vim to switch to another colorscheme. (Within Neovim, :color vim is the "traditional Vim" appearance with the 16-color-palette; and vice versa, Neovim's color scheme is called :color novum in Vim.) and its respective netrw in Git Bash? Vim's netrw plugin does not have any specific color configuration of its own. Its job is to fetch files via SFTP, not to change anything about the appearance. Where do I go to get the color scheme used for the basic terminal in Git Bash? There are at least three different terminals that Git Bash (and for that matter WSL) can use. If you're using MinTTY or Conhost (Windows Console), click the window's "system menu" (the window icon in the top-left corner) to find the settings. If you're using Windows Terminal, Ctrl-, opens its settings.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807085/how-do-i-set-wsl-to-use-the-color-scheme-for-git-bash
 
 ---
