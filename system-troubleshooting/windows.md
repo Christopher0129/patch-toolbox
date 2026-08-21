@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9839**
+**总计条目 / Total entries: 9889**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -133828,5 +133828,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1235882#reply10
+
+---
+
+#### 9840. Force Windows to use a faster network connection for network shares (SMB)
+
+**问题描述 / Problem Description**:
+Tags: windows, networking | Score: 12 | Views: 1199 | Answers: 2 | Created: 2026-08-17
+
+**解决方案 / Solution**:
+After a couple hours of debugging I have correctly (I think) identified the root cause and two potential solutions, one on either side of the link. Presumptions: My primary method of testing (and usage) was copying files to and from the network shares. Aka using SMB. Ultimately the Iperf test proves that this is not a NETWORK LINK issue. That leaves us with two other potential causes: Routing SMB itself Like I said in the OP, I tested manually adding a route, which didn't have any effect. I am not a not a networking whiz, so this is a little out of my depth, and I lack the knowledge to verify how the route is working. But assuming nothing broke means it was working, that eliminates routing as the culprit. This leaves SMB itself. I went through dozens of commands, but I'll only post what ultimately yielded results. SMB has a feature called Multichannel. It's on by default in the versions of Samba and Windows I have. While I can't use it to aggregate my connections (apparently a server-only feature), apparently it functions as failover / high reliability. (Hence it using the other connection if I disable the first one.) Get-SmbMultichannelConnection = Server Name Selected Client IP Server IP Client Interface Index Server Interface Index Client RSS Capable Client RDMA Capable ----------- -------- --------- --------- ---------------------- ---------------------- ------------------ ------------------- 192.168.10.5 True 192.168.0.2 192.168.0.5 4 3 False False So even tho the share is mapped with the IP of the fast connection, SMB does its own path discovery and is choosing the wrong connection. Why though? Eventually we land on the following command providing the critical clue: Get-SmbMultichannelConnection -ServerName "192.168.10.5" | Format-List * = SmbInstance : Default ClientInterfaceFriendlyName : Realtek 2.5G ClientInterfaceIndex : 9 ClientIpAddress : 192.168.10.2 ClientLinkSpeed : 100000000 ClientRdmaCapable : False ClientRSSCapable : False CurrentChannels : 0 Failed : False FailureCount : 0 MaxChannels : 1 Selected : True ServerInterfaceIndex : 2 ServerIpAddress : 192.168.10.5 ServerLinkSpeed : 100000000 ServerName : 192.168.10.5 ServerRdmaCapable : False ServerRSSCapable : True PSComputerName : If you count the 0's you'll notice that's actually 100M. So technically SMB is doing the correct thing and choosing the higher bandwidth connection - only based on faulty data. But why is the data faulty? Well, Google's dumb AI overview thing actually made itself useful for once. It worded the answer well, so here's the relevant bit: The underlying problem is that Windows relies on the remote server's SMB implementation (such as Samba on TrueNAS/Unraid or Synology DSM) to negotiate and declare the interface specs. The original source is https://linustechtips.com/topic/864034-problem-setting-up-samba-multichannel-connection-and-achieving-2gbit-trasnfers/ This gives us two possible solutions on either end: 1. Client side (Windows) Force SMB to use the faster link manually, regardless of what it thinks by using a constraint: New-SmbMultichannelConstraint -ServerName "192.168.10.5" -InterfaceIndex 9 -Force 2. Server side (Linux/Samba) Have the server correctly advertise the link speed. /etc/samba/smb.conf ↓ interfaces = "eno1;capability=RSS" , "enp4s0;speed=2500000000,capability=RSS" P.S.: Technically, disabling SMB multi-channel can probably count as a third solution, though I have not tested it. (I tested the other two.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939747/force-windows-to-use-a-faster-network-connection-for-network-shares-smb
+
+---
+
+#### 9841. Terminating firstly script file execution, then terminal application using only one Linux exit command
+
+**问题描述 / Problem Description**:
+Tags: linux, windows, command-line, debian, android | Score: 2 | Views: 1063 | Answers: 3 | Created: 2026-08-17
+
+**解决方案 / Solution**:
+This is a bad pattern, you would probably not want to do this. Windows treats batch scripts differently, which leads to some inconsistent behavior. For example, consider the following foo.bat : echo Hello REM Run bar bar echo Bye If bar is a normal program ( bar.exe ), then foo will always print Bye . But if bar is a batch script ( bar.bat ), which the caller may not even know if it will be, an exit inside bar.bat will finish foo.bat as well. You could avoid that by doing call bar instead, but that breaks the ability of simply calling bar . Additionally, if a Windows program is marked as console program, a console window will automatically be allocated and shown for it if it was not run from one. And if it is marked as a GUI program, it will automatically detach from the console. ‪ In contrast, in Linux you don't have such difference. All programs called from a shell script¹ block the execution of the next command (you can add a final & should you want to run them in the background), and it doesn't matter whether they are an ELF binary, a shell script, a perl script, a python script or a .NET program, they are all treated the same. No console is opened for them automatically, and it is in fact quite normal that if you run a graphical program from a console it may print some debugging information/warnings there that you would otherwise not see. While the answer by Eugene of killing your parent may work in some cases, that seems the wrong approach. If a user opens a terminal emulator, then runs a program, when the program finishes it should leave the user in the same terminal from which it was run, not killing their parent. That would be akin to Microsoft Word deciding to shut down your computer when you close the text processor. Moreover, that will not always work as you expect. The parent you are attempting to kill may be ignoring the TERM signal (since they are not expecting to receive signals while another process is in foreground), it may leave the terminal showing a crashed shell (note that in Linux GUI you have a terminal emulator, and a inside you run the shell, which would be the parent of your script), you could be unexpectedly closing unrelated programs (e.g. the user opened a web browser from the same terminal from which it then runs your script, on finishing your script it kill the terminal and the browser dies as well), and if the user specified multiple commands in sequence (for example, ./yourscript; date; zenity --info --text="The program finished" ) you would be obliterating them them as well. In fact, the user would likely be wondering were the terminal with your script is. ‪ I suspect your actual problem is that you want a new terminal to open when your script is run from the GUI, and that window to close when it finishes. But the proper solution would be to pass the right options to the emulator so that the terminal emulator that opens in that case closes automatically when the client finishes, not anything done in the script itself. ‪ ‪ ¹ Being pedantic, we should probably talk about the POSIX Shell Command Language https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939745/terminating-firstly-script-file-execution-then-terminal-application-using-only
+
+---
+
+#### 9842. How to search only local programs and files in Windows 11 search bar?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, start-menu, file-search, start | Score: 1 | Views: 51 | Answers: 1 | Created: 2026-08-16
+
+**解决方案 / Solution**:
+The "Find my files" setting controls the indexing scope , not web results. To remove web results from the Start menu search, you need a separate toggle: Settings > Privacy & security > Search permissions > Web search Turn off "Show web results in search" (or "Search box in taskbar" on some builds). This suppresses Bing results from the search flyout. If the toggle is missing or doesn't stick, use the registry: Open regedit and navigate to: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search Set (or create as DWORD) BingSearchEnabled = 0 Also set CortanaConsent = 0 in the same key Sign out and back in (or restart Explorer via Task Manager) On Windows 11 Pro or Enterprise you can also use Group Policy: User Configuration > Administrative Templates > Windows Components > Search > "Don't search the web or display web results in Search" - set to Enabled. Note: Microsoft has re-enabled web search in some cumulative updates by resetting these values. If results reappear after an update, repeat the registry step.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939733/how-to-search-only-local-programs-and-files-in-windows-11-search-bar
+
+---
+
+#### 9843. How can I identify whether a Windows DNS issue is caused by local caching or the DNS server?
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, powershell, dns, nslookup | Score: 0 | Views: 32 | Answers: 1 | Created: 2026-08-21
+
+**解决方案 / Solution**:
+Use Wireshark (or other packet capture tools) to monitor the traffic to your current DNS server. The browser's displayed error code doesn't always match the actual result. Set the capture filter to port 53 and let it sit in background. (Windows has built-in packet capture now, but not really analysis. You'd still export the capture results from .etl to a .pcap file and use Wireshark or some other app to analyze them. So might as well use Wireshark directly.) If you see a SERVFAIL it typically means your caching server couldn't reach its upstream or the authoritative servers. (Could also be a DNSSEC validation failure.) Some DNS server software support DNS EDE which adds a more specific error subcode within the 'OPT' record. If there's If you're using BIND as the recursive server, raise its "max-recursion-queries" parameter. It's a little bit too low for some domains. (Deeply chained NS delegations, plus DNSSEC validation queries if that's enabled, adds up.) When a failure occurs, try to bypass caching and point nslookup at your cache's upstream server to check if that responds. If your DNS server doesn't have another upstream but directly talks to authoritative servers, dnstracer will make it easier, though you can still make NS queries with nslookup.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939843/how-can-i-identify-whether-a-windows-dns-issue-is-caused-by-local-caching-or-the
+
+---
+
+#### 9844. Is there a way to connect to multiple Windows Servers (RDP) simultaneously?
+
+**问题描述 / Problem Description**:
+Tags: windows, remote-desktop | Score: 0 | Views: 46 | Answers: 2 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+Yes, literally just open the Remote Desktop Connection app twice. Start one connection, then minimize the Remote Desktop window if it's full-screen, then open the client again (middle-click the taskbar button or run mstsc.exe ) to start the second connection. Repeat as needed. You can script mstsc /v:ADDRESS to quickly connect to one host after another. There are many RDP-compatible products (e.g. Devolutions RDM, RoyalTS, mRemoteNG, Microsoft's own now-obsolete RDCMan, probably 5-6 others) which make this a bit easier by giving you a tabbed view and server bookmarks.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939816/is-there-a-way-to-connect-to-multiple-windows-servers-rdp-simultaneously
+
+---
+
+#### 9845. Why does my internet not work after update Windows 11 Pro to 25H2?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11-25h2 | Score: 0 | Views: 72 | Answers: 1 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+At this point, you've tried most things to diagnose and remedy the issue. A few more things to try, after you make a complete drive image , lest something go awry: Ideally, if you have a recent drive image from just before that attempted update, restore it . That is by far the fastest and safest way to resolve the issue. Then rethink updating Windows. Somehow, the user profile might have been damaged in the update. Easy test: create a new user with admin rights and test if that user can connect. If so, then you'll need to transfer to a new user profile, which is a bit of a nuisance. There are various tutorials for doing so, such as at Windows Report and The Windows Club . Windows OS itself, or some drivers, might have been damaged. Reinstall Windows. Create Windows 11 Installation Media from the Microsoft site, and use that to reinstall Windows 11 Pro, keeping files and data. My experience has been this is fairly straightforward, keeps your profile, apps and data, and takes less than an hour. Finally, if MS has introduced some bug in that version of Windows download an older version of Windows 11 and install it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939815/why-does-my-internet-not-work-after-update-windows-11-pro-to-25h2
+
+---
+
+#### 9846. What kind of very small SSD should I get that's reliable and not super expensive?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusw4t/what_kind_of_very_small_ssd_should_i_get_thats/
+
+---
+
+#### 9847. Flickering issue on my monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vurjgc/flickering_issue_on_my_monitor/
+
+---
+
+#### 9848. I enabled secure boot on my laptop and now it wont boot back up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vulmu4/i_enabled_secure_boot_on_my_laptop_and_now_it/
+
+---
+
+#### 9849. Blank folder referring to the parent folder
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuujor/blank_folder_referring_to_the_parent_folder/
+
+---
+
+#### 9850. my left arrow key won't work unless I'm holding down the shift key
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuuikm/my_left_arrow_key_wont_work_unless_im_holding/
+
+---
+
+#### 9851. PC not working well. Need it ready before Aug 22nd at 11am
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuui8v/pc_not_working_well_need_it_ready_before_aug_22nd/
+
+---
+
+#### 9852. ASUS ROG Strix / RTX 5070 Ti Laptop – WHEA PCIe errors, repeated VIDEO_TDR_FAILURE and hard resets. Hardware issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuuhpd/asus_rog_strix_rtx_5070_ti_laptop_whea_pcie/
+
+---
+
+#### 9853. Autosave or somehow hacked?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuufmt/autosave_or_somehow_hacked/
+
+---
+
+#### 9854. PC won’t boot with both RAM sticks anymore
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vuu9rq/pc_wont_boot_with_both_ram_sticks_anymore/
+
+---
+
+#### 9855. nvidia geforce 8400 gs how do I stop it from screen tearing on Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vutzq1/nvidia_geforce_8400_gs_how_do_i_stop_it_from/
+
+---
+
+#### 9856. Please, PLEASE tell me how to get rid of Microsoft Gameinput
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vutpsa/please_please_tell_me_how_to_get_rid_of_microsoft/
+
+---
+
+#### 9857. Hipstreet tablet data transfer?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vutolx/hipstreet_tablet_data_transfer/
+
+---
+
+#### 9858. Graphics Tear, Pc Freezes then restarts
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vutnox/graphics_tear_pc_freezes_then_restarts/
+
+---
+
+#### 9859. webcam not connecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vutb73/webcam_not_connecting/
+
+---
+
+#### 9860. Laptop fan connector port seems faulty; can I replace it? (ASUS TUF A15 FA506QM)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vut411/laptop_fan_connector_port_seems_faulty_can_i/
+
+---
+
+#### 9861. Monitor no video input after moving
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusyas/monitor_no_video_input_after_moving/
+
+---
+
+#### 9862. How to prevent scam calls!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusxx0/how_to_prevent_scam_calls/
+
+---
+
+#### 9863. PC Freezes and Reboots During Gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vustb3/pc_freezes_and_reboots_during_gaming/
+
+---
+
+#### 9864. My PC monitor, my mouse, and my keyboard won’t turn on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusp7h/my_pc_monitor_my_mouse_and_my_keyboard_wont_turn/
+
+---
+
+#### 9865. Possibly faulty gpu ? need help trouble shooting/fixing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusp2i/possibly_faulty_gpu_need_help_trouble/
+
+---
+
+#### 9866. laptop won't POST after BIOS update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusoy0/laptop_wont_post_after_bios_update/
+
+---
+
+#### 9867. Advantech MIO-5152J-U6A1 completely ignores BIOS/Boot Menu keys – BIOS is not password protected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusn31/advantech_mio5152ju6a1_completely_ignores/
+
+---
+
+#### 9868. My audio no longer works through my monitors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusj54/my_audio_no_longer_works_through_my_monitors/
+
+---
+
+#### 9869. MEMORY INTEGRITY SHUTTING IT SELF OFF AUTOMATICALLY AFTER RESTART
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vusiha/memory_integrity_shutting_it_self_off/
+
+---
+
+#### 9870. [V2EX] 扫拖机器人 哪款比较好？
+
+**问题描述 / Problem Description**:
+不想自己打扫卫生了，想搞一个扫地拖地机器人，滚筒+上下水方案的，款式太多，哪个比较好啊，有懂的推荐一下吗？ 价格 2000 多的，能打扫干净的，基台最好也能自己处理干净的，房子 50 多平米。谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236328#reply0
+
+---
+
+#### 9871. [V2EX] 求推荐 MP3：开机自动连接上次配对过的蓝牙耳机
+
+**问题描述 / Problem Description**:
+注意：开机自动连接上次配对过的蓝牙耳机，不需要每次重新连接，这点很重要，太多蓝牙 MP3 需要每次手动连接，如同鞋里的沙子让人烦躁。 另外，最好内置扬声器，这样在无人的时候就不用耳机了。 再补充一下：如果是物理按键而不是触摸按键，那就更好了！ 谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236325#reply2
+
+---
+
+#### 9872. [V2EX] 有没有人感觉 vibe coding 的时候电脑很卡？
+
+**问题描述 / Problem Description**:
+我的 CPU 是 14600k ，96g 的 ddr4 内存，显卡 2080ti 22g 加核显，就感觉 codex 跑的好吃力，换 mac 会好一点吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236319#reply10
+
+---
+
+#### 9873. [V2EX] Cursor 和 Claude、ChatGPT 官方有什么区别？
+
+**问题描述 / Problem Description**:
+Cursor 也可以调用 Claude 、ChatGPT 大模型，不限制国内使用，还支持支付宝订阅，那和官方有区别吗，还是说同等 token 用量，相对于官方套餐 Cursor 会贵很多？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236295#reply0
+
+---
+
+#### 9874. [V2EX] 用哪个 emoji 代表 AI 呢？
+
+**问题描述 / Problem Description**:
+AI 自己说用 🤖🧠💻⚙️🔮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236292#reply4
+
+---
+
+#### 9875. [V2EX] 发现一个支持全平台的 Clash Plus，怎么很少见到讨论？
+
+**问题描述 / Problem Description**:
+我看支持全平台，支持全部主流代理协议，免费，无广，界面也挺好看，说是基于 mihomo 核心，但相关介绍很少呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236291#reply6
+
+---
+
+#### 9876. [V2EX] cursor pro 和 codex plus 哪个量大
+
+**问题描述 / Problem Description**:
+不算重置，然后用 sol high 和 grok high 对比，哪个量大。看 reddit 说 cursor 能有 3B 左右？我看了我这两周基本上 codex 差不多 3-4 亿(不过有部分是 luna max)，一个月加起来 1.2-1.5B 之间。有没有有用过的，cursor 纯粹 grok high 能有 3B 左右吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236284#reply2
+
+---
+
+#### 9877. [V2EX] 除了官方订阅，还有什么稳定使用 Claude 模型的方法吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236282#reply0
+
+---
+
+#### 9878. [V2EX] 有咩有 HumanLLMs？
+
+**问题描述 / Problem Description**:
+所有社群里跑个 bot ，作为 boardcast ，人类通过 agent 跑 plan ，接入这个 humanllms 。 比如做一个 xxoo 的东西，目标生成一个结构化开发文档。 agent 的 user 只要给一个 simple prompt ，就能通过社群跑出很多 branch （比如 v2ex-bot 负责一个，reddit-bot 负责一个。） 人类理解人类发散性思维更容易实现聚合。 agent 后面跑一个 grill-me ，让 bot 不断的通过 HumanLLMs 询问社区，生成清晰的 spec ，然后扔给 tdd 开跑。 跑完继续扔社区 demo 之类，让社区做审核。 这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236268#reply0
+
+---
+
+#### 9879. [V2EX] 有大佬知道游戏公会公司是怎么做的吗？
+
+**问题描述 / Problem Description**:
+我们公司的游戏有十几个公会在推广，他们哪些公会一天都能产生几万到十几万美金的流水哦，不知道这些公会是怎么找到玩家的呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236265#reply0
+
+---
+
+#### 9880. [V2EX] 请问向境内外国人提供国际联网技术支持有风险吗？
+
+**问题描述 / Problem Description**:
+境内外国人当然可以使用 sim 卡漫游上网。但是想用电脑通过本地运营商网络进行国际联网。 如果你提供技术支持帮助他在境内通过本地运营商网络进行国际联网，会有风险吗？ 还是说收钱就有风险，不收钱就没有？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236259#reply0
+
+---
+
+#### 9881. [V2EX] 如果 Apple 账号商店被永久封禁，原本用 Apple 订阅 ChatGPT 和 Claude 还能换其他 Apple 账号订阅吗？
+
+**问题描述 / Problem Description**:
+苹果客服告诉我，Apple 账号商店被永久封禁，ChatGPT 和 Claude 没办法取消关联，也无法换其他 Apple 账号重新订阅，也要重新注册账号，是这样子的吗？ 如果是这样子，那我就充礼品卡，得先去注册稳定的账号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236254#reply2
+
+---
+
+#### 9882. [V2EX] 我们这个论坛如何发带图片的帖子
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236249#reply3
+
+---
+
+#### 9883. [V2EX] 话说，如果用 ai 做一个游戏，有什么经验吗
+
+**问题描述 / Problem Description**:
+rt ，想尝试做一个开放世界探索游戏，玩法多样。最近奥德赛出来了嘛，所以就跟着 b 站的视频看了奥德赛的解说，然后感觉止不住，又看了伊利亚特，又没止住，现在看了古希腊，古罗马的一些神话传说和故事/历史，之前小时候看奥林匹斯星传，一直觉得古希腊是个神奇的地方，现在看了这些故事，感觉确实很有意思，尤其是罗马，在公元前几百年就可以出现类似现代社会文明，现在 ai 这么发达，所以想了解一下 比如 cocos creator ，或者是 比较庞大的类似 unity 之类的引擎，通过 ai 的参与，来协同做出来一个游戏这样。比如说 游戏贴图，有什么推荐的吗，自己搞个 comfyui 吗，哪些出的贴图质量很高
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236247#reply3
+
+---
+
+#### 9884. [V2EX] ds 视觉模型来了
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/UGMfvPMwBIB4oFYZZejekA 在纯文本能力（ Agent 、推理、世界知识等）方面，DeepSeek-V4-Flash-Vision-Exp 与 DeepSeek-V4-Flash 正式版持平 在需要视觉理解的 Agent Benchmark 上，DeepSeek-V4-Flash-Vision-Exp 相比 DeepSeek-V4-Flash 实现了大幅跃升，多模态 Agent 能力已接近 Opus-4.8 。 在 API 服务中，图片会转换成 token 后按 token 计费，一张图片最多占 384 tokens ，计
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236246#reply6
+
+---
+
+#### 9885. [V2EX] 做自媒体真的会速成嘛？极高的耐心以及时间的积累？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236245#reply6
+
+---
+
+#### 9886. [V2EX] 有没有雅思 IELTS 的网课
+
+**问题描述 / Problem Description**:
+比较感兴趣 想试试能考到多少 目前个人在学习感觉效果不是很好 目标 6.5 我个人时间是周末 每天 7 点以后 有老哥报名过这种吗 效果如何 费用多少
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236243#reply0
+
+---
+
+#### 9887. [V2EX] 闲鱼上国外的手机是怎么不拆封运到国内的
+
+**问题描述 / Problem Description**:
+想买个 pixel 11,之前都是美国官网转运的，今年不想折腾了，想直接闲鱼买个，看好多卖家都宣称带包装且未拆封，而且价格也比官方价+税便宜，这两天东西就到国内了，想问下这些卖家是怎么把这么多货弄进来的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236242#reply14
+
+---
+
+#### 9888. [V2EX] 有什么好的枕头推荐么
+
+**问题描述 / Problem Description**:
+感觉枕头总是不舒服，大家有什么好的枕头推荐么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236238#reply15
+
+---
+
+#### 9889. [V2EX] 吐槽一下 GPT5.6
+
+**问题描述 / Problem Description**:
+我让它做一盘西红柿炒蛋，它思考完往里还加了东坡肉。 我说有必要加东坡肉吗?它说你说得对，然后把东坡肉去掉。 我说好，你提 PR 吧。 再一看，它 PR 写着「西红柿炒蛋(无东坡肉)」并且注释里会写一大堆为什么本道菜不需要加东坡肉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236235#reply4
 
 ---

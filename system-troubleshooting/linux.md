@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9184**
+**总计条目 / Total entries: 9218**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -127363,5 +127363,447 @@ However, after nearly a decade of Git Bash, the default color scheme of WSL is t
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/807085/how-do-i-set-wsl-to-use-the-color-scheme-for-git-bash
+
+---
+
+#### 9185. Linus Torvalds uses AI to debug an Intel GPU driver bug
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vu7aw9/linus_torvalds_uses_ai_to_debug_an_intel_gpu/
+
+---
+
+#### 9186. Omacom Foundation launches with $8 million
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vukz3b/omacom_foundation_launches_with_8_million/
+
+---
+
+#### 9187. Intel Mesa Linux Drivers Now Treating Nova Lake S / U / H / HX As Stable
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vunbp4/intel_mesa_linux_drivers_now_treating_nova_lake_s/
+
+---
+
+#### 9188. Bazzite's Biggest Update - Deck 44 has Launched & Happy Birthday to Universal Blue!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuc05i/bazzites_biggest_update_deck_44_has_launched/
+
+---
+
+#### 9189. Arch Linux Community now has a Fluxer server
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuk3k8/arch_linux_community_now_has_a_fluxer_server/
+
+---
+
+#### 9190. Window Manager project
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuskqe/window_manager_project/
+
+---
+
+#### 9191. A tale as old as time
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vumnlt/a_tale_as_old_as_time/
+
+---
+
+#### 9192. Install GPU Screen Recorder on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuk7pw/install_gpu_screen_recorder_on_linux/
+
+---
+
+#### 9193. Btrfs Snapshot Integration in KDE | Bharadwaj Raju
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vu66il/btrfs_snapshot_integration_in_kde_bharadwaj_raju/
+
+---
+
+#### 9194. Logitech peripherals app on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vubmh8/logitech_peripherals_app_on_linux/
+
+---
+
+#### 9195. How hard would it be to make or modify a distro so it uses multiple passwords or even asymmetric keys to gain root access?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuq2zi/how_hard_would_it_be_to_make_or_modify_a_distro/
+
+---
+
+#### 9196. Stupid Idea: Utilise Intel CPU E-Cores for System only
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuryi1/stupid_idea_utilise_intel_cpu_ecores_for_system/
+
+---
+
+#### 9197. StreamController Newest Plugins
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vu1ach/streamcontroller_newest_plugins/
+
+---
+
+#### 9198. A dose of highly concentrated optimism: Development/X12
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vui1ne/a_dose_of_highly_concentrated_optimism/
+
+---
+
+#### 9199. [V2EX] geek-five-layer-throttling-stack
+
+**问题描述 / Problem Description**:
+Five Layers of Chrome's Tab Throttling, and a Fix for Each Here's a bug report every scraping engineer meets eventually: "The scraper gets 20 items from an infinite-scroll feed, then stops. Works fine when I watch the tab. Broken when it's in the background." The usual responses — add waits, add scr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236316#reply0
+
+---
+
+#### 9200. [V2EX] 因为 Tibo 不让用 sub2api，所以我给 Zed 里的 Codex 加了行级代码 Review
+
+**问题描述 / Problem Description**:
+平时使用 sub2api 反代模型在 cursor 用自己的模型，但是现在用 sub2api 会减少额度，又想开发时用自己订阅的 gpt，还想自己决定每一行代码的改动 之前在用 zed 时就知道可以调 codex 来使用，但是后面不支持外部 agent 的 single_file_review 就不怎么用了 研究了一下，使用 acp adapter 监听 codex app-server 的 fileChange 事件来实现 原理: Zed <── ACP ──> codex-acp <── JSON-RPC ──> Codex App Server │ └── fileChange ├──
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236313#reply0
+
+---
+
+#### 9201. [V2EX] Magpie：一个尊重隐私的本地全文+语义+图片搜索启动器
+
+**问题描述 / Problem Description**:
+magpie：本地优先的 Spotlight 式启动器，找回你 star 过就忘的项目、存过就丢的文件和书签 不知道大家有没有同感： GitHub 上 star 了上千个项目，真要用的时候想不起名字，GitHub 自带的 star 搜索只搜标题描述，形同虚设 截图和图片存了一堆，只记得画面内容，不记得文件名 书签埋在浏览器文件夹树里，比重新 Google 一遍还难找 我做了个小工具解决这件事： magpie ，一个开源（ MIT ）的桌面启动器， Alt+Space 唤出一个搜索框，检索三类你「存过就忘」的东西。 仓库： https://github.com/newdee/magpie 能搜什
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236302#reply0
+
+---
+
+#### 9202. [V2EX] codex 又要重置了！
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236300#reply6
+
+---
+
+#### 9203. [V2EX] 没有之一，全网最像 Codex 的 DeepSeek Harnes Desktop，原生支持多模态！
+
+**问题描述 / Problem Description**:
+没有之一，全网最像 Codex 的 DeepSeek Harnes Desktop ，精心打磨 N 天！！！ 已升级到 DeepSeek Harness 0.1.1-rc.1 ，DeepSeek 也有自己的原生多模态了！！！ 内置 DSH 适配器已接入实验性视觉模型 deepseek-v4-flash-vision-exp ，支持文本和图片输入。分析截图、图片或文档时可直接选择该模型 https://github.com/MichengAI/dsh-codex-desktop 也可以单独使用 UI 插件 https://github.com/MichengAI/dsh-codex-ui
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236299#reply1
+
+---
+
+#### 9204. [V2EX] geek-trusted-wheel-events
+
+**问题描述 / Problem Description**:
+Scroll Events Even the Page Can't Tell Are Fake Modern infinite-scroll pages don't load their feed because you asked nicely. Many of them check event.isTrusted on scroll events — the browser-set flag that distinguishes input originating from an actual user (OS input pipeline) from input synthesized
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236297#reply0
+
+---
+
+#### 9205. [V2EX] Codex 1000 credits 邀请名额，这月还剩 2 个，符合要求的留邮箱
+
+**问题描述 / Problem Description**:
+避免浪费各位时间，请注意资格要求是： 过去 2 月没有使用过 chatgpt/codex 桌面端 没有被其他人邀请过 如果你是新号注册，有可能需要用外区手机号收验证码 最后要打开 chatgpt 桌面端发送任意一条对话，你和我才能成功拿到 1000 credits （相当于给你账户充值 40 刀额度) PS：刚刷到 X 上，tibo 今天即将赠送 1 次重置次数（可以存起来以后再用）。 https://x.com/thsottiaux/status/2090766694897619318
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236287#reply5
+
+---
+
+#### 9206. [V2EX] geek-csp-sandbox-eval
+
+**问题描述 / Problem Description**:
+Running LLM-Generated Code in a Chrome Extension: An MV3 CSP Adventure Chrome Manifest V3 has one commandment above all others: thou shalt not eval . No new Function , no dynamic code strings, anywhere in an extension's privileged contexts. The policy killed a generation of extensions and made MV3 m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236286#reply0
+
+---
+
+#### 9207. [V2EX] 感觉最近 claude code 的 token 消耗快了好多，不知道为啥
+
+**问题描述 / Problem Description**:
+跟前一个月差不多的工作量，这个月，重置了三天，max20 已经用了 75%，之前基本还能剩 50%+，不知道为啥，感觉 token 消耗贼快，是我自己的用法有问题吗，难受了，一个 200 刀都不够用了，而且好像官方还增加了 50%额度，活动结束可能更不够用了 基本都是用 opus5 ，fable 都不怎么用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236285#reply4
+
+---
+
+#### 9208. [V2EX] enthusiast-real-browser-antibot
+
+**问题描述 / Problem Description**:
+The Cheapest Anti-Bot Bypass Is a Real Browser The web scraping industry spends enormous energy making automated browsers look human: fingerprint spoofers, residential proxy pools, CAPTCHA solvers, per-site choreography scripts. It's a multi-million-dollar arms race — and Scrapewright sidesteps most
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236275#reply0
+
+---
+
+#### 9209. [V2EX] Tibo 直接说不支持中转站
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236267#reply11
+
+---
+
+#### 9210. [V2EX] 寻找志同道合的猿友，一起折腾点有意思的东西！
+
+**问题描述 / Problem Description**:
+想认识一些真正喜欢技术、喜欢折腾、脑子里经常冒出各种想法的猿友。 不一定非要上来就创业，也不一定一开始就考虑怎么赚钱。 可以从一个很简单的想法开始： “这个东西好像挺有意思，要不我们一起把它做出来？” 可能是一个 AI 小工具，一个开源项目，一个解决生活中某个痛点的软件，也可能只是某天突然冒出来的一个奇怪但有趣的创意。 一个人的时间、技术和思路终究有限，但一群不同方向的人凑在一起，可能就会产生一些意想不到的东西。 所以想找一些志同道合的朋友： 有想法的，可以拿出来一起聊； 懂技术的，可以一起研究怎么实现； 懂产品、设计、运营的，也欢迎一起碰撞； 暂时什么都没有，但喜欢折腾、愿意参与，也一样欢迎
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236263#reply2
+
+---
+
+#### 9211. [V2EX] deepseek-v4-flash-vision-exp 出了大家怎么看
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236241#reply15
+
+---
+
+#### 9212. [V2EX] 在这个独属于 ai 的时代，我终究是被裁员了。
+
+**问题描述 / Problem Description**:
+前言 依稀记得从 2025 年 12 月开始，中文互联网开始出现铺天盖地的大力鼓吹 ai 的话题，这波话题也成功破圈了，我们公司也不例外，高层看到了这些信息后，就开始让我们多用 ai 来提效。 一转眼到了今年（ 2026 年） 3 月份，领导开始让我们借助 ai 的力量转全栈了，现有的前端学后端，后端学前端。一人干一个项目，进而提升效率为公司带来更多的收益。 被裁 再后来，就按照这个节奏去开发了，以前一起从事过的同事以及社区认识的程序员，他们也都全栈了，干不了的就被裁员了，ai 提升效率的同时，工作量提升了，每天也更累了。唯独收入保持不变。 时间来到昨天（ 8 月 20 日），领导突然喊我去小
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236240#reply36
+
+---
+
+#### 9213. [V2EX] AI 优化代码以后一定要测试啊
+
+**问题描述 / Problem Description**:
+不要弄巧成拙。本来错的好好的，非要纠正，结果没有考虑和第三方的对接。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236236#reply1
+
+---
+
+#### 9214. [V2EX] 2026 数博会“贵客松”求组队！有没有入选 8 月 27 日贵客松活动的 V 友？
+
+**问题描述 / Problem Description**:
+贵州省 2026 大数据博览会的官方配套比赛 15 万奖金池｜数博会官方「贵客松」正式招募！ https://mp.weixin.qq.com/s/OOYpNcNpc13hzUNjvILOhg?scene=1 我这边已经入选了，我计划做一个“AI 财会做账”的项目，从零做起，主要就是为了参加这个比赛。 V 友的质量比较高嘛，看看这里能不能找到队员，希望找 2 个队友，一个精通会计，一个懂代码。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236227#reply5
+
+---
+
+#### 9215. [V2EX] Deepseek flash API 上线视觉模式
+
+**问题描述 / Problem Description**:
+模型名目前是 deepseek-v4-flash-vision-exp ，大家可以 z 切换测试。 有人说发了图片后面的聊天记录就都是 0 缓存，这个还没测试，不知道真实情况。 实际识别了几张图，准确率有点低，不知道是不是我的问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236224#reply2
+
+---
+
+#### 9216. [V2EX] 智谱新模型 GLM-5.3V Turbo 马上要来了吗？
+
+**问题描述 / Problem Description**:
+群里传的很火 多模态 如果是真的话，那智谱的大模型的短板就补全了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236215#reply4
+
+---
+
+#### 9217. [V2EX] （2026-08-21）目前国内各家 DeepSeek V4 Flash 0731 的费用对比
+
+**问题描述 / Problem Description**:
+目前国内各家运行 DeepSeek V4 Flash 0731 的费用对比。对比方式： 按照 200M 输入，10M 输出，输入缓存命中率 90% 计算总价。 这是故意往多了算，因为一般情况下输入 200M 时，输出会比这个少，命中率会比这个高。往多了算是为了方便给预算留点余地。 下面的单价都以 "元/百万 tokens" 为单位。如果存在闲时忙时不同价格，只取忙时。 对比结果： 渠道 输入价格 命中价格 输出价格 总费用 官网（忙时） 3 0.1 9 168 百度/阿里/超算互联网 3 0.3 9 204 字节 3 0.1 9 168 快手 1 0.2 2 76 总结出来就是： 百度、阿里和
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236213#reply5
+
+---
+
+#### 9218. [V2EX] 写了个 eBPF 流量可视化工具(生产目前在跑)
+
+**问题描述 / Problem Description**:
+旁路挂在交换机镜像口上，支持多网卡，不侵入业务链路，单个二进制文件跑起来就是一整套系统（ Web 控制台 + eBPF 采集 + 存储查询） GitHub : https://github.com/xxddpac/netra 这两天刚好在真实的 20Gbps 专线上部署验证： 两块物理网卡各自独立接镜像流量（两台核心交换机分别镜像到同一台服务器的两个物理口，共享同一份 eBPF map ） 抓取峰值流量 10.1Gbps / 160 万 pps （毫无压力，无丢包） 40 核机器上，netra 进程稳定占用约 1.2 个核（约 3%） 存储用 DuckDB ，流量历史按小时封存 Parquet
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236197#reply8
 
 ---

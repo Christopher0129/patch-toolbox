@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8820**
+**总计条目 / Total entries: 8870**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -118960,5 +118960,655 @@ The Mac was transmitting nothing, despite bluetoothd reporting success. The fix:
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486949/universal-clipboard-works-iphone-%e2%86%92-mac-but-not-mac-%e2%86%92-iphone-while-airdrop-works
+
+---
+
+#### 8821. Why is macOS choosing 1080p as Default on my 1440p monitor?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vuqxb8/why_is_macos_choosing_1080p_as_default_on_my/
+
+---
+
+#### 8822. free vpn for mac: still worth it if you're already on icloud private relay
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vupp0b/free_vpn_for_mac_still_worth_it_if_youre_already/
+
+---
+
+#### 8823. What app should I use to password protect a zip folder in my macbook pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vukgb6/what_app_should_i_use_to_password_protect_a_zip/
+
+---
+
+#### 8824. How to get MacOS to auto crop screensavers?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vut3s1/how_to_get_macos_to_auto_crop_screensavers/
+
+---
+
+#### 8825. system data issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vuo757/system_data_issue/
+
+---
+
+#### 8826. OS 26.6 Screen Recordings Not Saving
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vunbss/os_266_screen_recordings_not_saving/
+
+---
+
+#### 8827. Why Can't My MacBook Ever Find The File Or Folder I Search For?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vtydxh/why_cant_my_macbook_ever_find_the_file_or_folder/
+
+---
+
+#### 8828. What happened listed search results in calendar?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vule1u/what_happened_listed_search_results_in_calendar/
+
+---
+
+#### 8829. Scrolling speed problem with external third party mouse
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vufg3a/scrolling_speed_problem_with_external_third_party/
+
+---
+
+#### 8830. Why do my files dissappear from my external HDD after they were copied successfully
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vujrpc/why_do_my_files_dissappear_from_my_external_hdd/
+
+---
+
+#### 8831. macos rice / tile manager
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vuhmkl/macos_rice_tile_manager/
+
+---
+
+#### 8832. Built a simple Shortcut to spam my favourite emoji. Feeling happy now. = D
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vu6bmp/built_a_simple_shortcut_to_spam_my_favourite/
+
+---
+
+#### 8833. Appstore not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vudoty/appstore_not_working/
+
+---
+
+#### 8834. macbook's internal speakers won't play
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vudlh4/macbooks_internal_speakers_wont_play/
+
+---
+
+#### 8835. 96GB "Documents" on M4 Air (256GB) even after clearing caches — storage completely full & apps crashing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vu010t/96gb_documents_on_m4_air_256gb_even_after/
+
+---
+
+#### 8836. Have I gotten viruses on my mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vupv20/have_i_gotten_viruses_on_my_mac/
+
+---
+
+#### 8837. MacOS’ inability to use FileVault and automatic login after power failure is why the Mac Mini will never be a viable home server solution.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vusp44/macos_inability_to_use_filevault_and_automatic/
+
+---
+
+#### 8838. [V2EX] MAC 微信现在可以看到群成员的备注啦！
+
+**问题描述 / Problem Description**:
+想要这个功能很多很多年，今天突然发现小区群里的一个用户的昵称好眼熟，跟我刚刚手机上备注的一模一样！ 于是研究了一下，惊喜来的太突然了，确认：Mac 微信可以看到手机上给微信群成员做的备注昵称了！ 以前：手机上可以给群里未加好友的成员写备注且能在对话中看到的是备注信息，但是，电脑上微信对话里看到的还是发言用户自己的昵称。 现在：电脑上微信里看到的也是你手机上给对方写的备注了。 注：之前做过的备注不会自动同步，需要你在手机上重新给对方更新一下备注。 附：给微信反馈留的言，无人回应。。。。 希望 mac 版微信支持给群中成员加备注。（手机版本已经支持的呀） 4 月 23 日 我想要 希望 mac 版
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236102#reply5
+
+---
+
+#### 8839. [V2EX] iMessage 奇怪 bug
+
+**问题描述 / Problem Description**:
+设备：iPhone16 Pro 港行 apple ID：美区 问题表现： 用自己邮箱地址/icloud 邮箱地址和部分国区 ID 的好友发 iMessage 会提示无法送达，重试变成绿色气泡，但朋友依旧没有收到。必须要把 conversation line 换成手机号也就是用手机号和朋友发 iMessage 就正常 不是和所有国区 ID 的朋友都会出现上述 bug ，复现情况不确定 用邮箱地址和和其他美区 ID 的朋友发 iMessage 正常 试过把自己的美区 ID iMessage 关了又开、勾选邮箱地址收发 iMessage ；国区 ID iMessage 关了又开、勾选邮箱收发 iMe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236288#reply2
+
+---
+
+#### 8840. [V2EX] oyunfor 又可以币安支付了
+
+**问题描述 / Problem Description**:
+gpt 土耳其续费，上个月发现 oyunfor 不能用币安了，翻了之前的帖子，最后在 seagm 冲了 500 里拉，这个月又要充值，seagm 看了一下，500 里拉要 93.52RMB,又去 oyunfor 看了下，又支持币安支付了！只要 71.40RMB ，能省二十多块钱！ 话说，本想一次多充一些，又怕 gpt 突然从 499 涨到 999 ，想请问一下，土区还有什么便宜常用的低价可订阅或者内购的东西吗？如果有兜底消费的东西，我就一次多冲一些，免得后面 oyunfor 又抽风不让充。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236221#reply1
+
+---
+
+#### 8841. [V2EX] Apple VR 团队裁员
+
+**问题描述 / Problem Description**:
+https://appleinsider.com/articles/26/08/20/layoffs-in-apples-vision-products-group-prove-slow-progress-in-spatial-computing cook 的 vision pro 要人走茶凉？ 搞了这么多年，连个好一点消费级的 vr 摄影机都没见到，果子生态内只能 iPhone 拍点简单照片。生态外也就全景相机魔改 vr180 能玩一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236217#reply3
+
+---
+
+#### 8842. [V2EX] iOS 有什么适配 Liquid Glass 的三方输入法嘛
+
+**问题描述 / Problem Description**:
+原生的词库确实有点难用了，想换换别的三方试试，但是原生的输入法，Liquid glass 效果又很喜欢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236202#reply1
+
+---
+
+#### 8843. [V2EX] 自用好用的 MAC 清理工具
+
+**问题描述 / Problem Description**:
+支持 intel 和 M 系列芯片 https://pan.xunlei.com/s/VP-XK8iuUscodBE5XkFmN_0LA1# 大家自取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236101#reply3
+
+---
+
+#### 8844. [V2EX] iPhone 公测版系统更换电池会用不了吗
+
+**问题描述 / Problem Description**:
+想要换个电池，又怕公测版系统会有什么问题，有没有换过的大佬解答一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236091#reply6
+
+---
+
+#### 8845. [V2EX] 苹果 9 月初 iphone18 发布会， iphone17 会降价？
+
+**问题描述 / Problem Description**:
+手持 iphone11 ，有点顶不住了。 现在纠结的是等 iphone18 发布后买 iphone17 还是直接入手？ 另外给家人买手机用过国补了，是不是需要找其它今年不换机的人用下国补名额？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236071#reply48
+
+---
+
+#### 8846. [V2EX] apple music 使用 Android 设备订阅会不会更好？
+
+**问题描述 / Problem Description**:
+当前因为要用 ai 所以设备账号弄成了美区，但是 apple music 无法使用，单独在 iPhone 订阅太贵了貌似 11 美刀，因为当前已经有 icloud 家庭组跟家里人用所以找别人家庭组拼车应该也不行。刚刚打开我的三星手机，是可以在 google play 订阅的，因为我是台区价格 165 台币，好像很划算？有人永类似方式吗？在 Android 的订阅在 iPhone 可以正常用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235854#reply6
+
+---
+
+#### 8847. [V2EX] iCloud 为啥不加个 512G 或者 1TB 的档位呢
+
+**问题描述 / Problem Description**:
+200G 不够用，2TB 又太多了加个贵了，中间加一档果断就开了。现在用的 200G ， 视频都同步到 OneDrive 后就从本机删除了，总共才用了 200 多 G ，要是有 512G 完全够用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235840#reply47
+
+---
+
+#### 8848. [V2EX] MacBook Pro M1Pro（16G）升级 macOS Golden Gate Public Beta 后成重生了！
+
+**问题描述 / Problem Description**:
+如题，流畅的飞起啊，不想换电脑了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235796#reply6
+
+---
+
+#### 8849. [V2EX] 想买 iPad Pro M5 13 寸，该怎么买？
+
+**问题描述 / Problem Description**:
+心里还是希望有个 16gb 战未来，存储空间无所谓，因为有 115 永 v 和 nas ，不需要在本地放影音文件，照片有 iCloudz 。 目前国行涨价涨的太离谱，pdd 百亿补贴都要 11300 起步。 美版没有保修还是拆的，也没有保修。 京东有个自营拍拍二手，买资源机，大存储空间版本折扣比较多。 兄弟们我该咋办
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235743#reply95
+
+---
+
+#### 8850. [V2EX] V2 有专门讨论 Apple 的微信群吗？
+
+**问题描述 / Problem Description**:
+如题，V2 有专门讨论 Apple 的群吗？有一定活跃度，又不那么活跃的微信群。 求加。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235594#reply8
+
+---
+
+#### 8851. [V2EX] 忍不住想吐槽一下 AirDrop，体验有时候真的一言难尽
+
+**问题描述 / Problem Description**:
+稳定的时候体验很好，但是经常抽风，要么找不到设备，要么找到了设备又一直发不出去，一直显示等待中。。。。。技术实现上这么复杂且困难吗，这个 bug 修了这么多年了都修不好，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235473#reply33
+
+---
+
+#### 8852. [V2EX] 制作了一个 AltStore 软件源： AltGallery 欢迎大家来试试
+
+**问题描述 / Problem Description**:
+sidestore 配合 livecontainer 可以在没有电脑的情况下安装各种 ipa 了。不过很多 App 只在 GitHub Release 里放 ipa ，没有对应的源，更新起来挺不方便的。 所以用 Claude 做了这个项目 https://github.com/bebound/AltGallery , 收集了一些常用的软件，生成软件源，定时更新版本。 点 Add AltSource 就能订阅到 SideStore/LiveContainer/AltStore 了 如果有还没收录的软件，欢迎告诉我，我来加进去～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235329#reply14
+
+---
+
+#### 8853. [V2EX] ZCode 第二轮周末 100M Token 活动开启
+
+**问题描述 / Problem Description**:
+ZAI 发帖表示第二轮 Weekend Build 活动从北京时间 08/22 00:00 开始到 08/24 09:00 结束，本轮共发出 50000 份 100M GLM-5.3 Token 额度 速度抢啊 我已经抢到了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236314#reply1
+
+---
+
+#### 8854. [V2EX] Tibo:今天，我们将向所有 Codex 和 ChatGPT Work 用户发放一次 BANKED 重置次数（可以蹭了？？）
+
+**问题描述 / Problem Description**:
+https://x.com/thsottiaux/status/2090766694897619318
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236298#reply0
+
+---
+
+#### 8855. [V2EX] 多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp 已上线 DeepSeek API 平台
+
+**问题描述 / Problem Description**:
+多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp 已上线 DeepSeek API 平台，支持 Chat Completions 、Messages 、Responses 三种格式调用，欢迎测试和反馈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236278#reply0
+
+---
+
+#### 8856. [V2EX] dsh 使用一周后的体验，还不是生产力 但很好玩。另外我感觉 tibo 急了
+
+**问题描述 / Problem Description**:
+看到消息说 codex 开源，有人说是冲着 dsh 来的。 这个判断对，也不完全对。Codex 早就开源了，但 DSH 发布 6 天后，官方又专门发文强调 Codex 是一个 Harness 平台。至少从时间点和宣传口径来看，多少是有点针锋相对的意思。 再说回 DSH 本身，只能说确实很猛：几天就超过了 100k star 。 我在几个开发群里潜水了一周，感觉大家对它的评价基本是： 好玩，但容易崩；能做东西，但不敢维护 。 我自己就搓过一个自动审批插件，可以调用其他模型进行审核，并在通过后自动放行。结果就在刚才，DSH 更新到 0.1.1 rc1 ，插件直接被扬了。为了增加兼容性，我当时用的全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236266#reply3
+
+---
+
+#### 8857. [V2EX] 多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。
+
+**问题描述 / Problem Description**:
+多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。 我的意思是，要让真正对产品负责、懂产品的那个人去指挥 AI 写代码，而不是还在用传统的分工，觉得程序员懂代码，就还在依赖程序员去指挥 AI 写代码。 当然，如果是一个懂产品，能够对产品负责的程序员来做，那就没问题了。 但这意味着产品经理的时代到来了吗？ 我觉得不一定，因为部分产品经理也不一定真的懂产品。 传统的分工正在模糊，现在每个人都可以有产品能力、设计能力、开发能力了，所以超级个体，我觉得会增多。 这里使用“超级个体”这个称呼，只是为了让大家一眼能看懂，不代表目前大家眼里的超级个体，跟我描述的这个是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236256#reply23
+
+---
+
+#### 8858. [V2EX] 分享 Clash Verge 小配置： Google / Gemini 独立线路分流
+
+**问题描述 / Problem Description**:
+最近 gemini 对线路卡的很严，我自己手头美国的线路都送中了，发现韩国的可以，但 cc 又得走美国线路，之前对 clash verge 都是比较浅使用，正好研究了下，脚本分享给需要的朋友。 function main(config, profileName) { config.rules = config.rules || []; // 移除旧的 google 规则 config.rules = config.rules.filter(r => !r.toLowerCase().includes('google')); // 在最前面添加新的 google 规则 config.rules.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236251#reply0
+
+---
+
+#### 8859. [V2EX] 阿里发布了 Qwen-UI-Agent，号称让模型真正“会用”每一块屏幕
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/xjKcjN2W82eNcb0lSrP6yQ 看演示效果还是很牛逼的，就是不知道 token 消耗有多大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236250#reply0
+
+---
+
+#### 8860. [V2EX] 现在国产的 8B 模型都这么强了？
+
+**问题描述 / Problem Description**:
+商汤今天凌晨开源了 SenseNova U1.5 Lite 的正式版，说实话看了还挺震惊的，现在国产开源模型真的比想象中要好挺多，先放链接： GitHub： https://github.com/OpenSenseNova/SenseNova-U1 Hugging Face： https://huggingface.co/collections/sensenova/sensenova-u15 SenseNova Studio ，可以在线体验： https://unify.light-ai.top/ TL;DR 这次主要更新了： 3-4k 字符超长复杂指令遵循：能一次理解更长、更复杂的要求，同时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236244#reply0
+
+---
+
+#### 8861. [V2EX] 录视频总讲不好？ vibe 了一个录制提纲引导工具 DemoCue
+
+**问题描述 / Problem Description**:
+背景 做产品演示、录教程，或者准备一段技术分享时，我常遇到同一个问题：内容其实已经想清楚了，但一打开录屏就容易失去节奏。 要么开头铺垫太长，进入重点时已经忘记下一段；要么在窗口和笔记之间来回切换，既影响录制画面，也打断讲述状态。 所以我做了 DemoCue：一款面向 macOS 视频创作者的 AI 录制提纲引导工具。 只做一个简单的引导提纲 下载地址： https://github.com/my19940202/record-float-bar 官网： https://democue.aizeten.me/ 很多录制场景真正需要的是一个轻量的“路标”： 当前章节的目标是什么？ 这一段要解释哪些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236237#reply0
+
+---
+
+#### 8862. [V2EX] 小红书大模型开源， API 限时免费，登录 dots.ai 开放平台，即可注册 API，限时免费调用 dots3-note preview 模型。
+
+**问题描述 / Problem Description**:
+https://dots.ai/platform/apikeys
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236216#reply7
+
+---
+
+#### 8863. [V2EX] 起诉南山必胜客，第 1 步就被卡脖子了
+
+**问题描述 / Problem Description**:
+微信遇到问题 和张小龙的客服无效沟通 N 轮后 我决定直接起诉南山必胜客 不赌能赢，只想和他们当面 battle 下 想着有 AI 助力 我自助发起诉讼应该是没问题的 结果第 1 步就被卡脖子了 在人民法院小程序提交了审判立案申请 接下来等 7 天查看立案审核结果 结果这一等就是一个月 案件一直处于待审核状态 完全没有动静 据中国《民事诉讼法》和《行政诉讼法》的规定，人民法院在收到起诉状或口头起诉后，应当在 7 日内 进行审查并作出处理：符合条件的予以立案；不符合条件的裁定不予受理；材料不全的会一次性告知补正或转由相关程序处理。 打 12368 进行咨询敦促 结果打了好久打不通 好久才有人接通
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236178#reply3
+
+---
+
+#### 8864. [V2EX] 分享一个酷狗音乐会员会员便宜的方法
+
+**问题描述 / Problem Description**:
+下载 酷狗免费版 ，可以 2.5 连续包月开通会员。能听高品质音乐还没有广告。还能同步 酷狗概念版 版的收藏的歌曲和专辑。 当然有一个缺点就是歌手页面只有不能选专辑去播放，只能按热度去播放。我是先在酷狗概念版收藏专辑再去免费版里播放。这样一年就是 30 会员。应该没有更便宜的付费会员了吧。 顺便吐槽一下 applemusic 的安卓端做的太垃圾了。各种卡顿播放列表缓存异常。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236152#reply2
+
+---
+
+#### 8865. [V2EX] 智谱 GLM 的 ZCode 感觉有点坑，接入 opencode go 的 muse-spark-1.2-contributor 不能设置思考强度
+
+**问题描述 / Problem Description**:
+想把 opencode go 的 muse-spark-1.2-contributor 接进去试试，结果发现无法设置思考强度。 手动改配置也没用。翻了翻文档才发现 手动加入的其他字段（如 reasoning_effort 、vl_high_resolution_images ）不会写入请求体，也不会有报错提示。 还有一点就是 muse-spark-1.2-contributor 是支持 response 的，但是在 ZCode 中接入后使用 response 会提示 连接失败：Error from provider (Console Go): Upstream request failed:
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236078#reply0
+
+---
+
+#### 8866. [V2EX] 发现大模型都是聪明的小朋友，稍微玩个心眼就上当了， GPT5.6 和 Grok4.6 都这样。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236075#reply12
+
+---
+
+#### 8867. [V2EX] cursor 又送了我 50 刀
+
+**问题描述 / Problem Description**:
+Here's $50 to try Cursor Grok 4.6 Cursor Grok 4.6 landed last week. On the hardest coding and knowledge-work benches, it performs on par with today’s top models like GPT-5.6 Sol (see the scores). Last cycle, 85% of your usage went to third-party models, which usually cost more per task. Grok 4.6 del
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236062#reply0
+
+---
+
+#### 8868. [V2EX] 网络大神搞出来的 queqiao
+
+**问题描述 / Problem Description**:
+就是之前很火的李博杰 https://github.com/bojieli/queqiao 从原理上看比现有的方案做了很多有针对性的优化。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236033#reply9
+
+---
+
+#### 8869. [V2EX] AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint (速卖通在后台运行无声的 WebAudio 指纹识别，会破坏蓝牙多点连接）
+
+**问题描述 / Problem Description**:
+AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint 今天 hacker news 上面的火贴 速卖通在后台运行无声的 WebAudio 指纹识别，会破坏蓝牙多点连接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236018#reply2
+
+---
+
+#### 8870. [V2EX] AI 工作台，纯血的 GPT5.5、5.6、Claude， V 站注册用户已过百，留贴即送 20 刀积分
+
+**问题描述 / Problem Description**:
+高速 GPT5.5 、GPT5.6 、Claude ，回帖送 20 刀 现在在推广阶段，背靠上市公司，非小型中转站，只求更多用户体验、反馈工作台 APP 。 只要持续产生使用量的，积分其实一直会重置（通过积分自动充值） 软件下载： https://code.phanthy.com/work?source=v2ex&utm_source=v2ex&utm_medium=community&utm_campaign=token_factory_2026_r2&utm_content=v2ex_f0_launch_20260820_01&content_code=v2ex_f0_launch_202
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235939#reply3
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3247**
+**总计条目 / Total entries: 3277**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -48068,5 +48068,365 @@ Multiple vulnerabilities have been found in libssh2, the worst of which could re
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-17
+
+---
+
+#### 3248. CVE-2026-77682 - epiphany: epiphany: JavaScript code injection in autofill via unsanitized CSS…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] epiphany: epiphany: JavaScript code injection in autofill via unsanitized CSS selector from element id. Bugzilla: 2520893
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520893
+
+---
+
+#### 3249. CVE-2026-77648 - glance: OpenStack Glance: Server-Side Request Forgery allows internal URL access…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] glance: OpenStack Glance: Server-Side Request Forgery allows internal URL access by administrators. Bugzilla: 2520853
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520853
+
+---
+
+#### 3250. CVE-2026-66785 - submariner: submariner: unvalidated Endpoint.Spec.Subnets propagated into…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] submariner: submariner: unvalidated Endpoint.Spec.Subnets propagated into WireGuard AllowedIPs / IPsec enables traffic hijack. Bugzilla: 2507530
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507530
+
+---
+
+#### 3251. CVE-2026-66787 - lighthouse: lighthouse: cross-cluster DNS spoofing via unvalidated EndpointSlice…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] lighthouse: lighthouse: cross-cluster DNS spoofing via unvalidated EndpointSlice and ServiceImport IPs. Bugzilla: 2507532
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507532
+
+---
+
+#### 3252. CVE-2026-66788 - lighthouse: lighthouse: arbitrary local-namespace injection via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] lighthouse: lighthouse: arbitrary local-namespace injection via attacker-controlled LabelSourceNamespace. Bugzilla: 2507533
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507533
+
+---
+
+#### 3253. CVE-2026-77176 - kata-containers: Insufficient validation of CreateContainer mount and storage…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kata-containers: Insufficient validation of CreateContainer mount and storage rules in genpolicy. Bugzilla: 2517502
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517502
+
+---
+
+#### 3254. CVE-2026-13097 - ipa: Privilege escalation via krbCanonicalName manipulation due to realm-unaware…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: Privilege escalation via krbCanonicalName manipulation due to realm-unaware uniqueness enforcement in FreeIPA LDAP datastore. Bugzilla: 2515974
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515974
+
+---
+
+#### 3255. CVE-2026-73199 - ipa: FreeIPA: NULL Pointer Dereference in `ipa-enrollment` Extended Operation…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: FreeIPA: NULL Pointer Dereference in `ipa-enrollment` Extended Operation (`JOIN_OID`) via Missing Request Value. Bugzilla: 2471741
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2471741
+
+---
+
+#### 3256. CVE-2026-73198 - ipa: FreeIPA: Unauthenticated DoS in `/ipa/i18n_messages` via Unbounded Request…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: FreeIPA: Unauthenticated DoS in `/ipa/i18n_messages` via Unbounded Request Body Read. Bugzilla: 2472960
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2472960
+
+---
+
+#### 3257. CVE-2026-73197 - ipa: FreeIPA: Unauthenticated DoS in `/ipa/migration/migration.py` via Unbounded…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: FreeIPA: Unauthenticated DoS in `/ipa/migration/migration.py` via Unbounded Request Body Read. Bugzilla: 2474697
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2474697
+
+---
+
+#### 3258. CVE-2026-73196 - ipa: FreeIPA: Authenticated DoS in `otptoken-add` via unbounded OTP key…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: FreeIPA: Authenticated DoS in `otptoken-add` via unbounded OTP key decoding/re-encoding. Bugzilla: 2474712
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2474712
+
+---
+
+#### 3259. CVE-2026-11861 - FreeIPA: idm: ipa: FreeIPA: Obtaining TGS with impersonating cname through trust…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPA: idm: ipa: FreeIPA: Obtaining TGS with impersonating cname through trust relationships. Bugzilla: 2487472
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2487472
+
+---
+
+#### 3260. CVE-2026-28984 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2520315
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520315
+
+---
+
+#### 3261. CVE-2026-43804 - webkitgtk: Visiting a website may lead to an app denial-of-service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Visiting a website may lead to an app denial-of-service. Bugzilla: 2520316
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520316
+
+---
+
+#### 3262. CVE-2026-64713 - webkitgtk: Websites may know if the user has visited a given link
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Websites may know if the user has visited a given link. Bugzilla: 2520317
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520317
+
+---
+
+#### 3263. CVE-2026-64719 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2520318
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520318
+
+---
+
+#### 3264. CVE-2026-64728 - webkitgtk: Maliciously crafted web content may violate iframe sandboxing policy
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Maliciously crafted web content may violate iframe sandboxing policy. Bugzilla: 2520319
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520319
+
+---
+
+#### 3265. CVE-2026-64787 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected process termination. Bugzilla: 2520320
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520320
+
+---
+
+#### 3266. CVE-2026-64730 - webkitgtk: Visiting a website that frames malicious content may lead to UI spoofing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Visiting a website that frames malicious content may lead to UI spoofing. Bugzilla: 2520321
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520321
+
+---
+
+#### 3267. CVE-2026-64757 - webkitgtk: Processing maliciously crafted web content may lead to an unexpected…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: Processing maliciously crafted web content may lead to an unexpected Safari crash. Bugzilla: 2520322
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520322
+
+---
+
+#### 3268. [Ubuntu] USN-8669-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Foo-over-UDP (FOU); - ARM64 architecture; - x86 architecture; - Block layer subsystem; - Drivers core; - Null block device driver; - Bluetooth drivers; - Counter interface drivers; - DMA engine subsystem; - DPLL subsys
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8669-1
+
+---
+
+#### 3269. [Ubuntu] USN-8643-3: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network drivers; - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-53247, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8643-3
+
+---
+
+#### 3270. [Ubuntu] USN-8659-2: Linux kernel (HWE) vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch;
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8659-2
+
+---
+
+#### 3271. [Ubuntu] USN-8668-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Maxim Suhanov discovered that the NTFS file system implementation in the Linux kernel did not properly validate file name length in certain situations, leading to an out-of-bounds read. An attacker could use this to construct a malicious NTFS image that, when mounted and operated on, could expose sensitive information (kernel memory). (CVE-2023-45896) It was discovered that some AMD processors did
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8668-1
+
+---
+
+#### 3272. [Ubuntu] USN-8667-1: Linux kernel (KVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8667-1
+
+---
+
+#### 3273. [Ubuntu] USN-8662-2: Linux kernel (FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - Cryptographic API; - InfiniBand drivers; - Media drivers; - STMicroelectronics network drivers; - Network drivers; - Ext4 file system; - IPv4 networking; - TCP network protocol; - Locking primitives
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8662-2
+
+---
+
+#### 3274. [Ubuntu] USN-8665-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly clear data in the floating point divider unit during speculative execution. A local attacker could use this to expose sensitive information. (CVE-2025-54505) It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8665-1
+
+---
+
+#### 3275. [Ubuntu] USN-8664-1: Linux kernel (NVIDIA BaseOS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD Zen 2 processors did not properly isolate shared resources in the operation cache. A local attacker could possibly use this issue to corrupt instructions executed at a higher privilege level, resulting in privilege escalation. (CVE-2025-54518) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8664-1
+
+---
+
+#### 3276. [Ubuntu] USN-8658-2: Linux kernel (IBM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8658-2
+
+---
+
+#### 3277. [Ubuntu] USN-8661-2: Linux kernel (Low Latency) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8661-2
 
 ---
