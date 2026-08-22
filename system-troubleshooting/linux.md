@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9218**
+**总计条目 / Total entries: 9252**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -127805,5 +127805,447 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236197#reply8
+
+---
+
+#### 9219. "Old" Linux user vs. "New" Linux user.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvd2es/old_linux_user_vs_new_linux_user/
+
+---
+
+#### 9220. Release Proton 11.0-2 · ValveSoftware/Proton
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vv6mop/release_proton_1102_valvesoftwareproton/
+
+---
+
+#### 9221. AMD RDNA 4m Firmware Published For Linux Ahead Of Launch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvbzk1/amd_rdna_4m_firmware_published_for_linux_ahead_of/
+
+---
+
+#### 9222. LATEST CSP IS INDEED VIABLE NOW!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvc7jt/latest_csp_is_indeed_viable_now/
+
+---
+
+#### 9223. Linux OS for Gamepads / Controller - LXB (Alfa)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvgpao/linux_os_for_gamepads_controller_lxb_alfa/
+
+---
+
+#### 9224. Energy consumption graphed in your terminal - energygraph 1.3 gets dGPU support.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvk3vp/energy_consumption_graphed_in_your_terminal/
+
+---
+
+#### 9225. This Week in Plasma: UI and Performance Improvements
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vv263x/this_week_in_plasma_ui_and_performance/
+
+---
+
+#### 9226. What are the worst distro-specific problems you have faced?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vv7ou2/what_are_the_worst_distrospecific_problems_you/
+
+---
+
+#### 9227. How to manage and backup gpg keys?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvb8u0/how_to_manage_and_backup_gpg_keys/
+
+---
+
+#### 9228. Made this useless script to show continuous compiler logs for no reason feel free to check it out
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vuyeko/made_this_useless_script_to_show_continuous/
+
+---
+
+#### 9229. Material Decoration with LIM introduces pixel-perfect buttons, Window-Specific Overrides and Fuzzy Search
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvisb7/material_decoration_with_lim_introduces/
+
+---
+
+#### 9230. https://mainstreamos.org/#home
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvnqrd/httpsmainstreamosorghome/
+
+---
+
+#### 9231. Quickshare client for linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvh5f2/quickshare_client_for_linux/
+
+---
+
+#### 9232. Kernel selection at boot
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvgesm/kernel_selection_at_boot/
+
+---
+
+#### 9233. [V2EX] Windows 下 Agents 并行开发的环境配置建议
+
+**问题描述 / Problem Description**:
+很多人说使用 AI 辅助开发，无脑选 mac ，其中 AI 应用的功能是一方面，还有些系统底层的原因没有多少人提到，本文从 AI 辅助并行开发角度进行分析分享，只要不是单仓单分支单线程开发的新手，都可以了解下。 git 的多人合作机制基于 commit ，我们可以理解 commit 是一次差异快照，描述了本次提交修改了哪些内容，如果两个 commit 对同一个文件的内容修改产生重合即会产生冲突，冲突是阻碍并行开发的原因。 为避免冲突，人在协作时分了 origin 仓，fork 仓，不同仓下有独立 main 分支，feature 分支，fix 分支等。以往对单人来说同一时刻只需要单仓单分支即可满
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236495#reply0
+
+---
+
+#### 9234. [V2EX] xixu-me/xget 404 了？
+
+**问题描述 / Problem Description**:
+https://github.com/xixu-me/xget 还想下载一下 huggingface 的模型来着
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236489#reply2
+
+---
+
+#### 9235. [V2EX] Bun 1.4 发布了，有人关心吗？
+
+**问题描述 / Problem Description**:
+https://bun.com/blog/bun-v1.4 被 Claude 收购后的首个版本，利用 AI 从 Zig 重构到 Rust "它将空闲 CPU 使用率降低 5 倍，内存使用率降低最多 35%，在 Linux 上启动速度提升 50%"
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236482#reply7
+
+---
+
+#### 9236. [V2EX] Codex Desktop 第三方中转生图修复 附 Win/macOS 一键修复脚本
+
+**问题描述 / Problem Description**:
+在 macOS 和 Windows 上修复 Codex Desktop 自定义 OpenAI 兼容 provider 的内置 image_gen 调用，让支持工具调用的对话模型通过中转使用 gpt-image-2 生成图片。 https://github.com/xianyu110/codex-imagegen-relay-fix
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236480#reply0
+
+---
+
+#### 9237. [V2EX] 最近在用 AI 编程学习逆向工程，但是 AI 很多时候不太配合，提示触发风险操作
+
+**问题描述 / Problem Description**:
+我用的 Cursor, 基本 A 社的和 openai 的都会遇到风控，老马的 grok 不会风控，但是能力不太给力，大家有啥方式能绕过风险提示吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236478#reply4
+
+---
+
+#### 9238. [V2EX] 请问 kiro 中的 claude 量大不大，和 codex 比，写 go 的效果如何，买哪一档会员比较合适
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236475#reply0
+
+---
+
+#### 9239. [V2EX] 感觉 Vibe Coding 时代， Windows 系统要凉了
+
+**问题描述 / Problem Description**:
+起因是感觉 Windows 系统太难受了。不管是什么模型，codex ，claude ，DeepSeek 都有反复死磕命令行，都不知道这几个月会浪费我多少 token ； 1.各位是否有同感呢？ 2.有必要更换 Mac 吗，如果有，大家有什么推荐吗? 但是这个时间点买电脑又贵，有没有便宜的推荐，这种不需要很多的性能吧，没用过 Mac 系统，请教各位大佬 最近接了几个大项目，都赶在一起了，看他死磕，感觉难受
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236462#reply34
+
+---
+
+#### 9240. [V2EX] Ox Alpha 公益模型，最近讨论挺火的模型，据说挺强，大家可以试试。
+
+**问题描述 / Problem Description**:
+Ox Alpha 公益模型 Url： https://api.aitokensflux.com/v1 Key：sk-PfYs8gbauzhOBspLC3PepShoN6C0h12AWVateHYzRX3BeHjR Models：ox-alpha
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236455#reply0
+
+---
+
+#### 9241. [V2EX] grok 变得这么傻缺，应该是蒸馏 codex 了
+
+**问题描述 / Problem Description**:
+虽然代码能力强了，但是脑子变傻逼了。犯的傻逼问题跟 codex 如出一辙，特有的理解不了任务。比如我要创建一个网站页面，这逼模型他就要在页面文案里写“这是一个网站页面”。我让他面对用户，而不是开发者写文案，他就会写“这是一个面对用户的网站页面”。 以前的 grok 是个百无禁忌，不自我设限，想象力很强很聪明的模型，现在也变成这蠢样了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236442#reply9
+
+---
+
+#### 9242. [V2EX] Codex 500 credits 3 个邀请名额
+
+**问题描述 / Problem Description**:
+需要的留邮箱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236432#reply3
+
+---
+
+#### 9243. [V2EX] 做了一个量化程序，可以看持仓，新闻复盘，账户复盘，明日优选，订阅交易信号，免费送一波订阅会员
+
+**问题描述 / Problem Description**:
+仅限手机号登录，登录之后自动送 10 天会员。当然是模拟盘，数据仅供参考。不保证盈亏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236431#reply6
+
+---
+
+#### 9244. [V2EX] 有没有颈椎病脖子歪的病友分享下治疗经验呢
+
+**问题描述 / Problem Description**:
+从事这个职业加上才上班那几年空闲时间全都用来打 dota ，很难不得颈椎病的。从七八年前就经常脖子疼，21 年那会犯病第一次去尝试了按摩，师傅说我脖子都歪了，我对着镜子看确实肩颈不对称了，联想到每次剪发的时候理发师过一会就要转下我的头，可能很早就歪了，推拿作用有限还比较贵后面就停了。去年才知道社区医院也能推拿还给报销，就又开始去了，去了几个社区卫生服务中心试过也是推拿那一套感觉不起作用，直到后面去的一个医院大夫是针灸，推拿，正骨一套。那个正骨太有作用了，弄完脖子太舒服了，就像脖子上绑的沙袋被拿掉了，师傅治疗之前看了下也说我脖子歪的厉害了，正骨时弄一下就看下脖子曲线来回调直到弄正了。但是过几天脖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236428#reply9
+
+---
+
+#### 9245. [V2EX] commandcode 的额度是假的？一周没到， 周额度还剩 41%， 月度限制就只剩下 20%了， 这是什么奇葩算法？
+
+**问题描述 / Problem Description**:
+一周没到， 周额度还剩 41%， 月度限制就只剩下 20%了， 这是什么奇葩算法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236401#reply1
+
+---
+
+#### 9246. [V2EX] 2026 AI Image Generation API Comparison: GPT Image 2 vs Gemini Image vs Qwen Image 3 vs FLUX.2
+
+**问题描述 / Problem Description**:
+Most image model comparisons follow the same pattern: put four vendor samples next to each other, pick a winner, and call it a day. That does not help much when you are choosing an API. The annoying questions come later. Can I change one region without touching the rest? How many references can I se
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236397#reply0
+
+---
+
+#### 9247. [V2EX] 目前拥有 token 的资源，中转站这个事情到底能不能做？
+
+**问题描述 / Problem Description**:
+1 、现在拥有 token 的资源 2 、如果做到国内不用🪜，也很方便的可以使用 Claude ，（接口） 3 、不分资源也有价格优势，那中转站这个事情到底还能做吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236395#reply4
+
+---
+
+#### 9248. [V2EX] 你们开梯子会有反诈中心的电话打来吗
+
+**问题描述 / Problem Description**:
+国产手机，开梯子会有反诈中心 96110 电话打来吗，如何预防呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236394#reply92
+
+---
+
+#### 9249. [V2EX] 最近服务器负载一直下不来，经常到 100%，结果发现是各大 AI 厂商的机器人爬虫,疯狂请求我的网站
+
+**问题描述 / Problem Description**:
+从上周开始，我上线了一个小网站，需要一个关键字来搜索内容，结果被 chagptbot,claudebot,谷歌，还有 meta facebook 的这些机器人 疯狂提交参数，然后读取返回结果，我一直以为是中病毒了，结果今天一看网站日志，我去。 全是 ＂ Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)＂ Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236386#reply7
+
+---
+
+#### 9250. [V2EX] 关于程序员与 ai 的协作关系之我见-到底是谁是司机谁是乘客
+
+**问题描述 / Problem Description**:
+如果你只需要一个“可以用的”软件，那我觉得全程 vibecoding 没问题 但是如果真的要上生产环境，一个 bug 会有影响成千上万的用户，对公司造成巨额损失，你确定你还要采取黑盒编程的方案。 我理解对大部分付费软件，必须保证可控，不然如何做到对用户负责呢 举个例子： 从 A 地到 B 地，你可以买张机票、上飞机就睡，驾驶员会负责把你送到。但企业级开发不是这种情况： 工程师更像驾驶员，开着一辆自己改装的车，去一个也许从没人去过的地方。 乘客可以睡，驾驶员不能睡：路线必须自己规划，每个岔口必须自己决定。 让 AI 当驾驶员、自己当乘客，对企业开发我觉得是可怕的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236368#reply23
+
+---
+
+#### 9251. [V2EX] codex 发重置卡都收到了吗
+
+**问题描述 / Problem Description**:
+怎么我的几个 pro 都没收到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236364#reply18
+
+---
+
+#### 9252. [V2EX] 分享一个 免费的 Chrome 临时邮箱插件： MaskBox，注册网站不再暴露真实邮箱
+
+**问题描述 / Problem Description**:
+最近做了一个 Chrome 插件：MaskBox —— Temp Mail 。 Chrome 地址： https://chromewebstore.google.com/detail/maskbox-%E2%80%94-temp-mail/bikpndlkjdbkfflmpfjaeaglmmjmkemc 主要解决一个比较常见的小问题： 很多网站注册、下载资料、试用 SaaS ，都要求填写邮箱。 但： 不想暴露自己的主邮箱 不想后续收到一堆营销邮件 不想为了一个验证码注册新邮箱 这时候临时邮箱会比较方便。 MaskBox 可以直接在浏览器里生成临时邮箱，用完即弃。 使用场景： 注册陌生网站 获取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236363#reply2
 
 ---

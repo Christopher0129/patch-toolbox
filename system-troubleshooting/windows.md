@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9889**
+**总计条目 / Total entries: 9934**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -134478,5 +134478,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236235#reply4
+
+---
+
+#### 9890. Microsoft Metadata Tags No Long Appear In Windows Explorer
+
+**问题描述 / Problem Description**:
+Tags: windows, video, metadata, exiftool | Score: 1 | Views: 65 | Answers: 2 | Created: 2026-08-22
+
+**解决方案 / Solution**:
+@Eugene U. I'm working on this very issue right now with some family MP4 files. I was able to record multiple separate tags in the xmp-dc:Subject field. That worked - thank you. However, the values do not appear in Windows 11 File Explorer Tags attribute - neither in the Details window nor when you add "Tags" as a directory column.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939865/microsoft-metadata-tags-no-long-appear-in-windows-explorer
+
+---
+
+#### 9891. Bulk read→unread reversion in New Outlook for Windows — 4 months, 2 vendor cases, no root cause. What am I missing?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvoikq/bulk_readunread_reversion_in_new_outlook_for/
+
+---
+
+#### 9892. External HDD just stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvnmab/external_hdd_just_stopped_working/
+
+---
+
+#### 9893. Ryzen 7 5800X3D + B450: audio crackling at DDR4-3200, completely gone at 3000
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvm1n5/ryzen_7_5800x3d_b450_audio_crackling_at_ddr43200/
+
+---
+
+#### 9894. Should I replace laptop charger after high voltage issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvlgm9/should_i_replace_laptop_charger_after_high/
+
+---
+
+#### 9895. MacOs Wi-Fi Network Categorisation
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvdpry/macos_wifi_network_categorisation/
+
+---
+
+#### 9896. Remote desktop to a laptop/pc in another country
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vv9qi2/remote_desktop_to_a_laptoppc_in_another_country/
+
+---
+
+#### 9897. Windows 11 search bar stuck in loading
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvkf7k/windows_11_search_bar_stuck_in_loading/
+
+---
+
+#### 9898. RTX 5060 showing issues with event ID 153 & 14 what can I'd to to resolve this
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvpqr7/rtx_5060_showing_issues_with_event_id_153_14_what/
+
+---
+
+#### 9899. Monitor Displays Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvpgp1/monitor_displays_issue/
+
+---
+
+#### 9900. PC blue screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvpbzg/pc_blue_screen/
+
+---
+
+#### 9901. Low disk drive on a newly repaired laptop ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvpag4/low_disk_drive_on_a_newly_repaired_laptop/
+
+---
+
+#### 9902. Phillips TV Model number 55PUL7552/F7 E has word overlay footer stuck on bottom left of screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvp400/phillips_tv_model_number_55pul7552f7_e_has_word/
+
+---
+
+#### 9903. Computer Keeps Crashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvp16z/computer_keeps_crashing/
+
+---
+
+#### 9904. Trying to join my Switch Lite's Minecraft world on my Xbox One, I've tried everything and still recieving error codes blaze and nethernet (sorry if flair is wrong)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvp10e/trying_to_join_my_switch_lites_minecraft_world_on/
+
+---
+
+#### 9905. 'Press ESC in 1 seconds to skip startup.nsh, any other key to continue.' issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvozs2/press_esc_in_1_seconds_to_skip_startupnsh_any/
+
+---
+
+#### 9906. GPU and iGPU stopped
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvoxgi/gpu_and_igpu_stopped/
+
+---
+
+#### 9907. Excel “you’re all set” pop-up window won’t disappear and I can’t access my unsaved document
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvowdf/excel_youre_all_set_popup_window_wont_disappear/
+
+---
+
+#### 9908. Trouble with installing drivers during Windows setup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvoin2/trouble_with_installing_drivers_during_windows/
+
+---
+
+#### 9909. Powerpoint corrupted my SSD?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvoef1/powerpoint_corrupted_my_ssd/
+
+---
+
+#### 9910. Headset gets audio but mic doesn't work on my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvodme/headset_gets_audio_but_mic_doesnt_work_on_my_pc/
+
+---
+
+#### 9911. Drive C sometimes automatically consume a large space
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvo7jq/drive_c_sometimes_automatically_consume_a_large/
+
+---
+
+#### 9912. Mac Book kitty litter Cleaning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvo5h5/mac_book_kitty_litter_cleaning/
+
+---
+
+#### 9913. How to Transfer All Data from Gaming Laptop with Two SSD's to Desktop PC?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvo19t/how_to_transfer_all_data_from_gaming_laptop_with/
+
+---
+
+#### 9914. Nvidia overlay automatically turns itself on when booting computer.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vvnvp6/nvidia_overlay_automatically_turns_itself_on_when/
+
+---
+
+#### 9915. [V2EX] 客户托管 2696v4 128g v100 32g*2 跑生图模型 性能咋样？
+
+**问题描述 / Problem Description**:
+客户需要托管 正好顺便让我采购 这套配置个人折腾玩生图模型 性能咋样 够用吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236497#reply0
+
+---
+
+#### 9916. [V2EX] v 站签到系统好像有点问题，凌晨有时候不能自动签到，不知道什么原因。
+
+**问题描述 / Problem Description**:
+站务大佬可以帮忙改一下么？一般都是凌晨有时间，现在不能签到，导致金币不能自动领取，攒邀请码的日子变得遥遥无期
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236487#reply4
+
+---
+
+#### 9917. [V2EX] 你们的 codex 桌面端可以用 GPT-5.6-SOL PRO 模型吗？
+
+**问题描述 / Problem Description**:
+网页端可以选择 pro 但是桌面端最多到 Ultra High
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236479#reply0
+
+---
+
+#### 9918. [V2EX] 分享一款神器级别的蓝牙 MP3
+
+**问题描述 / Problem Description**:
+以前我是用蓝牙发射器，把 MP3 的信号发给蓝牙耳机，但这个发射器连接蓝牙耳机很不稳定，有时候秒连，有时候 5 分钟以上，让我非常崩溃。 6 年了，我终于找到了， 1 、蓝牙 2 、自动连接上一次连接过的蓝牙耳机/音响 3 、物理按键 4 、内置喇叭 5 、3.5mm 耳机孔 神器！！！ 很开心，分享给和我一样小众需求的人（练习英语听力/口语，不想手机不离身，不想使用有线耳机配合 MP3 ） ODEJOI 32GB MP3 Player with Bluetooth 5.3 Auto Reconnect & Built-in Speaker | 40H Playback, Only 1.3 o
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236471#reply1
+
+---
+
+#### 9919. [V2EX] 还有类似 ries.ai 这样的在中文里面安插英文单词的 app 吗
+
+**问题描述 / Problem Description**:
+之前作者自荐过 https://www.v2ex.com/t/1175448?p=4 购买了会员后,作者忽然大版本更新后 ios 版本的 app 变成了一个奇怪的 app.每天一句英文句子....作者邮箱也联系不了. 还有类似 ries.ai 这样的在中文里面安插英文单词的 app 吗?我还挺需要的. 比如上传一本 txt,epub,把里面部分单词改成英文,看小说学英语两不误
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236460#reply1
+
+---
+
+#### 9920. [V2EX] AI 证伪 Yau-Tian-Donaldson 猜想，这是准菲尔兹级别的成果吗？
+
+**问题描述 / Problem Description**:
+我是从 https://www.bilibili.com/video/BV17b8z6QE6K 看到的 up 似乎在视频里，隐晦地表达了他觉得这是准菲尔兹级别的成果。 但是不懂数学，有没有大佬来说说看这个到底厉害在哪里？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236453#reply3
+
+---
+
+#### 9921. [V2EX] 请问非智能手表的皮质表带有没有推荐的？ 淘宝找了一个戴了半年就开裂的，想买根质量好的戴久一点
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236450#reply0
+
+---
+
+#### 9922. [V2EX] 请问二手 MacBook 有没有推荐的店铺及型号推荐？
+
+**问题描述 / Problem Description**:
+各位大佬，现在手头笔记本电脑联想的 Yoga14s,用了快 5 年了，想换笔记本电脑，但是今年笔记本涨价太厉害了，而且这些年一直用的 Windows ，想试下苹果的系统，有没有靠谱的二手 Macbook 笔记本店铺推荐？现在推荐哪款型号？预算 6K 以下，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236446#reply0
+
+---
+
+#### 9923. [V2EX] 我的 giffgaff 解封了,还送了我 10 欧的额度
+
+**问题描述 / Problem Description**:
+收到一封 gg 的邮件，目前送的 10 欧也生效了，之前我自己充的 10 欧全都捐了： Hi Fan, Your service was recently disconnected in error. We’re really sorry for the mistake and any inconvenience it caused. We’re currently in the process of restoring your account, and your service will be fully restored in the next few days. You might n
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236444#reply4
+
+---
+
+#### 9924. [V2EX] 自己捣鼓了一套 [爬宠智能温湿度控温箱] ，成本到了 500+，有商业价值或迭代必要吗？
+
+**问题描述 / Problem Description**:
+各位大佬好！ 最近因为自己养爬宠，觉得日常维持温湿度、保温太繁琐，就利用业余时间捣鼓出了一套相对智能的硬件与控制系统。目前原型机已经测试跑通，但走到进一步迭代阶段有点迷茫，想请教一下大家的看法。 一、 目前进度与成果 硬件集成： 基于开发板做了一套测试样机，集成了温湿度传感器、OLED 显示屏、排风扇、加热垫、喷雾模块。 软件/控制： 小程序已开发完毕。 支持： 1.自动化： 根据温湿度自动开启排风扇、自动喷雾降温；达到温度阈值自动升/降温。 2.双模控制： 支持微信小程序自主控制，同时支持在线与离线控制模式。 3.成本情况： 目前单套物料/测试样机成本在 500 元左右。 二、 市场调研情况
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236441#reply6
+
+---
+
+#### 9925. [V2EX] 求推荐 macOS 中值得使用的软件
+
+**问题描述 / Problem Description**:
+最近刚入手第一台 macmini4 ，第一次用 macOS ，不知道有啥好用的软件，麻烦路过的彦祖/亦菲推荐下谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236429#reply8
+
+---
+
+#### 9926. [V2EX] 招商的 Mastercard 全币种信用卡可以订阅 claude pro 吗
+
+**问题描述 / Problem Description**:
+claude pro 被封了，请教 v 友，有 v 友用招商 Mastercard 全币种信用卡 订阅 claude pro 吗？会不会封号？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236422#reply3
+
+---
+
+#### 9927. [V2EX] 大佬们好，我这个账号是几年前用谷歌邮箱注册的，怎么更改密码呢？
+
+**问题描述 / Problem Description**:
+因为想用 app 登录账号，没有邮箱登录选项，只能账号密码，当时记得没有设置密码，现在也更改不了密码，只能谷歌登录账户，请问如何更改密码呢？账户设置那边密码空起来也更改不了呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236421#reply1
+
+---
+
+#### 9928. [V2EX] google ai pro 各位都用来干嘛
+
+**问题描述 / Problem Description**:
+最近 google 的学生会员又复活了，领了之后不知道可以用来干嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236415#reply6
+
+---
+
+#### 9929. [V2EX] BAT，这个 B，记得当初还是百度，现在应该是字节了吧？这种转变是什么时候开始的呢？如何而发生的呢？又何以至此呢？
+
+**问题描述 / Problem Description**:
+希望大家赐教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236403#reply19
+
+---
+
+#### 9930. [V2EX] DeepSeek 计价办法中周末全天属于空闲吗？
+
+**问题描述 / Problem Description**:
+官方文档没有关于工作日、周末之类的表述，但不少文章提到了，表达却有些矛盾，请佬们帮澄清一下。刚用了一会儿，体感很贵，应该没用空闲价格结算。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236400#reply3
+
+---
+
+#### 9931. [V2EX] 这类长文帖子是 AI 发的么？还是单纯的广告贴？又或者是 AI 来发的广告贴？以后都会这样么？
+
+**问题描述 / Problem Description**:
+今天有一会看到了 (迁到 DeepSeek Harness 后，我发现开发团队可以裁掉了)[ https://www.v2ex.com/t/1236307 ] 这个帖子 作者 wolfhts (member #73434, 2014 注册, 自述「某 app 作者」) 好像这位带佬同一账号 3 天内在同一节点连发 3 篇主题,构成「轰炸」: 体验完 DeepSeek Harness ，我打算放弃开发了两年的客户端 基于 Deepseek Harness 的即我客户端 3.0 发布在即，谈点想法。 迁到 DeepSeek Harness 后，我发现开发团队可以裁掉了 最开始我见识少，不知道这种常
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236390#reply5
+
+---
+
+#### 9932. [V2EX] 想用 gemini 3.1 tts， api key 怎么搞便宜点啊？
+
+**问题描述 / Problem Description**:
+如题 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236377#reply2
+
+---
+
+#### 9933. [V2EX] 兄弟们， Claude Design 现在不占用额度了？
+
+**问题描述 / Problem Description**:
+今天到目前为止，我的 usage 已经用完了，但是 design 依旧能猛猛蹬，我记得上个月还是会占用额度的，这是最近放开了？还是 Bug?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236374#reply2
+
+---
+
+#### 9934. [V2EX] 一加手机 自带的语音识别以及字幕翻译有 120 分钟限制
+
+**问题描述 / Problem Description**:
+一家手机提供的视频字幕和字幕翻译都很好用的，但是有 120 分钟的限制 有什么可以替代的吗？ PC 上的也可以，英语视频自己看真的很费劲
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236371#reply0
 
 ---

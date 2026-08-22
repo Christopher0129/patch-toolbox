@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3011**
+**总计条目 / Total entries: 3026**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -54622,5 +54622,245 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8665-1
+
+---
+
+#### 3012. CVE-2026-66786 - submariner: submariner: ipsec.conf stanza injection via remote-supplied CableName…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] submariner: submariner: ipsec.conf stanza injection via remote-supplied CableName and Subnets. Bugzilla: 2507531
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507531
+
+---
+
+#### 3013. CVE-2026-74581 - kernel: net: ipv6: use-after-free in fib6_rule_suppress due to stale res->rt6…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ipv6: use-after-free in fib6_rule_suppress due to stale res->rt6 pointer. Bugzilla: 2520980
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520980
+
+---
+
+#### 3014. CVE-2026-74583 - kernel: net/sched: cls_route: fix fastmap use-after-free on filter
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: cls_route: fix fastmap use-after-free on filter. Bugzilla: 2521054
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521054
+
+---
+
+#### 3015. CVE-2026-74580 - kernel: vhost: reset the vring metadata cache on vring reconfiguration
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vhost: reset the vring metadata cache on vring reconfiguration. Bugzilla: 2521055
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521055
+
+---
+
+#### 3016. CVE-2026-74582 - kernel: packet: use consistent hard_header_len in non-ring send paths
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: packet: use consistent hard_header_len in non-ring send paths. Bugzilla: 2521057
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521057
+
+---
+
+#### 3017. CVE-2026-18309 - gimp: GIMP: Remote Code Execution via APNG file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via APNG file parsing integer overflow. Bugzilla: 2520559
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520559
+
+---
+
+#### 3018. CVE-2026-18308 - gimp: GIMP: Remote Code Execution via TIF File Parsing Integer Overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via TIF File Parsing Integer Overflow. Bugzilla: 2520576
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520576
+
+---
+
+#### 3019. CVE-2026-18307 - gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow. Bugzilla: 2520594
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520594
+
+---
+
+#### 3020. CVE-2026-18306 - gimp: GIMP: Remote Code Execution via SGI File Parsing Integer Overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via SGI File Parsing Integer Overflow. Bugzilla: 2520591
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520591
+
+---
+
+#### 3021. CVE-2026-18305 - gimp: GIMP: Remote Code Execution via TIF file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via TIF file parsing integer overflow. Bugzilla: 2520582
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520582
+
+---
+
+#### 3022. CVE-2026-18304 - gimp: GIMP: Arbitrary code execution via crafted TIF file parsing
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Arbitrary code execution via crafted TIF file parsing. Bugzilla: 2520560
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520560
+
+---
+
+#### 3023. CVE-2026-18303 - gimp: GIMP: Remote code execution via TIF file parsing vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing vulnerability. Bugzilla: 2520583
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520583
+
+---
+
+#### 3024. CVE-2026-18302 - gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow. Bugzilla: 2520579
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520579
+
+---
+
+#### 3025. CVE-2026-18301 - gimp: GIMP: Remote code execution via PSD file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via PSD file parsing integer overflow. Bugzilla: 2520561
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520561
+
+---
+
+#### 3026. CVE-2026-18300 - gimp: gegl: GIMP: Remote code execution via integer overflow in HDR file parsing
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: gegl: GIMP: Remote code execution via integer overflow in HDR file parsing. Bugzilla: 2520587
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520587
 
 ---

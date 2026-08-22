@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8870**
+**总计条目 / Total entries: 8920**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -119610,5 +119610,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1235939#reply3
+
+---
+
+#### 8871. Can we please stop with the «I built…»
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvoi9n/can_we_please_stop_with_the_i_built/
+
+---
+
+#### 8872. I built a native local AI app for Intel Macs with AMD GPUs... two months later, the RX 6700 XT is matching M4 Max generation speed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvjxm8/i_built_a_native_local_ai_app_for_intel_macs_with/
+
+---
+
+#### 8873. Install Chrome Extensions in Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vv8an8/install_chrome_extensions_in_safari/
+
+---
+
+#### 8874. Automator vs Shortcuts: is it me or the first is way better?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvgzuy/automator_vs_shortcuts_is_it_me_or_the_first_is/
+
+---
+
+#### 8875. I made an macOS/iOS noise app that generates sounds mathematically (no audio loops, only around 10mb). Inspired by my son’s ADHD needs
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvl55y/i_made_an_macosios_noise_app_that_generates/
+
+---
+
+#### 8876. Part3D is available for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvji4c/part3d_is_available_for_macos/
+
+---
+
+#### 8877. AudioRoute: system audio into any app or DAW in two clicks, no aggregate device, no routing changes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvc5l0/audioroute_system_audio_into_any_app_or_daw_in/
+
+---
+
+#### 8878. Issues with Finder, Word and Logic Pro when opening saved files and saving new ones
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvpg8f/issues_with_finder_word_and_logic_pro_when/
+
+---
+
+#### 8879. window manager with a sidebar (open source)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvp2ae/window_manager_with_a_sidebar_open_source/
+
+---
+
+#### 8880. Introductory videos to MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvp0se/introductory_videos_to_macos/
+
+---
+
+#### 8881. permission problems: can't save new files, don't have write permission.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvirej/permission_problems_cant_save_new_files_dont_have/
+
+---
+
+#### 8882. Automatically close an app after it has been open a set amount of time?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvnla4/automatically_close_an_app_after_it_has_been_open/
+
+---
+
+#### 8883. [Solved] Make the Home and End keys jump to the beginning/end of a line on Mac (Free App)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vveffp/solved_make_the_home_and_end_keys_jump_to_the/
+
+---
+
+#### 8884. Photo Developer
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvn3af/photo_developer/
+
+---
+
+#### 8885. Question about Time Machine back up to new m4 iMac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvn1tf/question_about_time_machine_back_up_to_new_m4_imac/
+
+---
+
+#### 8886. MinkNote - A Saturday update: linking notes and shaping what’s next
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvavgm/minknote_a_saturday_update_linking_notes_and/
+
+---
+
+#### 8887. stuck on Activate Mac during Recovery Assistant (macbook pro 13" M2)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vv32ha/stuck_on_activate_mac_during_recovery_assistant/
+
+---
+
+#### 8888. Powerful and lightweight ZIP / archive manager for MacOS in Swift
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvk0w4/powerful_and_lightweight_zip_archive_manager_for/
+
+---
+
+#### 8889. PoRaBar - Podcasts & Radio
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvjnho/porabar_podcasts_radio/
+
+---
+
+#### 8890. ClipSync — Seamless file transfer & clipboard sync between Mac and Android
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vv2nb2/clipsync_seamless_file_transfer_clipboard_sync/
+
+---
+
+#### 8891. How do you trace a hot development workload back to the app that caused it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvhd2q/how_do_you_trace_a_hot_development_workload_back/
+
+---
+
+#### 8892. Aion: Diary as Instrument
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvbumh/aion_diary_as_instrument/
+
+---
+
+#### 8893. I have worked on this browser for more than 2 years. It's written from scratch and now I would like to make it available in public
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvh78u/i_have_worked_on_this_browser_for_more_than_2/
+
+---
+
+#### 8894. Question on ConnectMeNow SMB Share Mounts
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvg963/question_on_connectmenow_smb_share_mounts/
+
+---
+
+#### 8895. [V2EX] 快捷方式里的“方向锁定”里的“切换”和“开关”有什么区别？
+
+**问题描述 / Problem Description**:
+iOS 27 PB6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236409#reply0
+
+---
+
+#### 8896. [V2EX] 哪个牌子的苹果充电线好用，不想买原装的了
+
+**问题描述 / Problem Description**:
+最好是能快充的，还有充电头，朋友们有啥推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236361#reply20
+
+---
+
+#### 8897. [V2EX] [送码] 做了一个 Apple tv 上的小红书 Rouge
+
+**问题描述 / Problem Description**:
+Apple tv 上已经可以刷 B 站、抖音了，还缺少一个小红书，毕竟现在看小红书视频的时间已经超过了 B 站和抖音，自己有需求于是做了一款 tv OS 端的小红书 APP 。目标场景在沙发上刷起 Apple tv 就不想拿手机来看，看久了电影电视剧长视频想刷一刷社交媒体和短视频放松一下。 核心功能： 浏览小红书推荐瀑布流 浏览小红书笔记图文和评论 独立的视频页签，专门沉浸式播放视频流 查看个人主页，笔记、点赞、收藏 支持多帐号登录切换 目前已经发布到 appstore 直接搜索名称 Rouge 或者通过 商店链接 下载，目前早期版本售价：2$，后续功能完善后可能会涨价。 同时欢迎大家加入 T
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236360#reply35
+
+---
+
+#### 8898. [V2EX] iMessage 奇怪 bug
+
+**问题描述 / Problem Description**:
+设备：iPhone16 Pro 港行 apple ID：美区 问题表现： 用自己邮箱地址/icloud 邮箱地址和部分国区 ID 的好友发 iMessage 会提示无法送达，重试变成绿色气泡，但朋友依旧没有收到。必须要把 conversation line 换成手机号也就是用手机号和朋友发 iMessage 就正常 不是和所有国区 ID 的朋友都会出现上述 bug ，复现情况不确定 用邮箱地址和和其他美区 ID 的朋友发 iMessage 正常 试过把自己的美区 ID iMessage 关了又开、勾选邮箱地址收发 iMessage ；国区 ID iMessage 关了又开、勾选邮箱收发 iMe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236288#reply4
+
+---
+
+#### 8899. [V2EX] Apple VR 团队裁员
+
+**问题描述 / Problem Description**:
+https://appleinsider.com/articles/26/08/20/layoffs-in-apples-vision-products-group-prove-slow-progress-in-spatial-computing cook 的 vision pro 要人走茶凉？ 搞了这么多年，连个好一点消费级的 vr 摄影机都没见到，果子生态内只能 iPhone 拍点简单照片。生态外也就全景相机魔改 vr180 能玩一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236217#reply4
+
+---
+
+#### 8900. [V2EX] 自用好用的 MAC 清理工具
+
+**问题描述 / Problem Description**:
+支持 intel 和 M 系列芯片 https://pan.xunlei.com/s/VP-XK8iuUscodBE5XkFmN_0LA1# 大家自取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236101#reply5
+
+---
+
+#### 8901. [V2EX] 苹果 9 月初 iphone18 发布会， iphone17 会降价？
+
+**问题描述 / Problem Description**:
+手持 iphone11 ，有点顶不住了。 现在纠结的是等 iphone18 发布后买 iphone17 还是直接入手？ 另外给家人买手机用过国补了，是不是需要找其它今年不换机的人用下国补名额？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236071#reply59
+
+---
+
+#### 8902. [V2EX] iCloud 为啥不加个 512G 或者 1TB 的档位呢
+
+**问题描述 / Problem Description**:
+200G 不够用，2TB 又太多了加个贵了，中间加一档果断就开了。现在用的 200G ， 视频都同步到 OneDrive 后就从本机删除了，总共才用了 200 多 G ，要是有 512G 完全够用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235840#reply48
+
+---
+
+#### 8903. [V2EX] 手搓了个按应用自动切换输入法的小工具
+
+**问题描述 / Problem Description**:
+之前一直使用自动切换输入法，无奈要收费，一直都是开发 toB 后台系统，第一次开发自用 app ，欢迎体验提 issue AutoSwitchInput AutoSwitchInput 按应用自动切换 macOS 输入法的菜单栏小工具。 简介 AutoSwitchInput 是一个纯原生的 macOS 菜单栏应用。当你在不同 App 之间切换时，它会按照预设规则自动把输入法切到对应状态：比如终端类应用一律用英文（ ABC ），微信这类聊天应用自动切到中文拼音。告别反复手动切换输入法的烦恼。 功能特性 按应用自动切换 — 监听前台 App 切换，80ms 防抖后匹配规则并切换输入法。 规则化管理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235503#reply4
+
+---
+
+#### 8904. [V2EX] 制作了一个 AltStore 软件源： AltGallery 欢迎大家来试试
+
+**问题描述 / Problem Description**:
+sidestore 配合 livecontainer 可以在没有电脑的情况下安装各种 ipa 了。不过很多 App 只在 GitHub Release 里放 ipa ，没有对应的源，更新起来挺不方便的。 所以用 Claude 做了这个项目 https://github.com/bebound/AltGallery , 收集了一些常用的软件，生成软件源，定时更新版本。 点 Add AltSource 就能订阅到 SideStore/LiveContainer/AltStore 了 如果有还没收录的软件，欢迎告诉我，我来加进去～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235329#reply16
+
+---
+
+#### 8905. [V2EX] 发现了一个输入法加上了实时背单词的功能，很激动😂
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236492#reply2
+
+---
+
+#### 8906. [V2EX] 虽说酒神不怕巷子深，但是好东西还是希望更多的人知道
+
+**问题描述 / Problem Description**:
+我自己 vibe coding 做的小程序，提供免费的微信/邮件/短信/电话提醒 可以支持待办，生日，倒计时，周期性等各种常见方式的提醒，比闹钟之类的软件要好用 如果你觉得不错，欢迎推荐给身边的朋友 微信小程序：叮叮提醒 欢迎提建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236468#reply0
+
+---
+
+#### 8907. [V2EX] 我制作了一个应用程序比较网站，你可以参考一下。
+
+**问题描述 / Problem Description**:
+V2EX 的各位，大家好吗？抱歉这么久没露面。其实，之前我使用的 AI 翻译导致了误解，让中文圈的朋友们感到不快，所以我决定暂时保持距离冷静一下，并听取建议，改用 Google 翻译来进行直译，不再依赖之前的 AI 翻译方式。我制作了一个应用对比网站，用来介绍那些通过“Vibe Coding”开发的应用，如果大家能参考一下，我会非常高兴。 https://killersaca.github.io/Privacy-Policy/compare.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236408#reply6
+
+---
+
+#### 8908. [V2EX] 美区 PayPal 支持在国内扫码支付，但测试依旧不行
+
+**问题描述 / Problem Description**:
+美区 PayPal 、里面有余额，扫商家微信收款码后提示“请选择其它付款方式 您账户无法使用此付款方式。”
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236382#reply0
+
+---
+
+#### 8909. [V2EX] 关于一个老哥帖子里认为的程序员指挥 ai 是弯路的话题下我的看法
+
+**问题描述 / Problem Description**:
+由于我注册时间不够 270 天，没办法在原帖下面评论，于是新开一帖记录一下自己的思考过程， 如果有缘听到其他朋友的想法就更好了。 又因为发帖出现了几次 270 ，查了一下，可能是因为我关键词命中某些规则的问题，下面的是我将一些词修改了表达后的版本。 我认为我先知道自己不知道，是知道的前提；经过奥卡姆剃刀之后还留下来的信念，才更可能有意义。 原帖在这里： https://www.v2ex.com/t/1236256 原楼主 @ qiayue 的观点大致是：多年后回头看，让程序员指挥 ai 写代码，可能是我们人类走过的一段弯路，应该让真正懂产品、对产品负责的人来指挥 ai 。下面用“原楼主”指代祂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236380#reply15
+
+---
+
+#### 8910. [V2EX] Openai 成功打击中转站 MVP 结算画面
+
+**问题描述 / Problem Description**:
+429😭429😭429😭 https://www.bilibili.com/video/BV11p8C63EHu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236379#reply1
+
+---
+
+#### 8911. [V2EX] 坐标扬州 租了个 36 平人才公寓当个人工作室 1150/月 价格贵么？
+
+**问题描述 / Problem Description**:
+如题 不习惯在家里呆着 总感觉不自在 租了一个 36 平人才公寓当个人工作室用 水 3.5/吨 电 0.6 热水 35/吨 公寓 24 小时热水 这个价格感觉如何 以前没有租过房子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236375#reply6
+
+---
+
+#### 8912. [V2EX] 翻新了持续开 13 年的 MC 服务器
+
+**问题描述 / Problem Description**:
+抬出 2017 年发的宣传贴，回过头看 不忘初心 https://mc.zariba.net/d/52 （ MCBBS 倒了，其他地方的宣传贴也没了） 前情提要： https://v2ex.com/t/1235020 我以为已经电子 ED ，玩不进去了。没想到找回了小时候的那种感觉，画面还是哪个画面，不变的是我可以开光影了。 目前日均 10+在线，如果想回味下原版生存，可以来看看~ 4c8g 的小鸡，再多也塞不下了 新版本目前是仅白名单验证，26.2 ，服务器地址是 bWMuemFyaWJhLm5ldA==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236373#reply5
+
+---
+
+#### 8913. [V2EX] giffgiff 求饶了.解封并送了十镑
+
+**问题描述 / Problem Description**:
+账号捐款完还剩 0.3. 之后捐完一直关机没有开机过,甚至不知道什么时候封的. 看他这说法不排除下一次封的可能性啊,继续捐?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236369#reply14
+
+---
+
+#### 8914. [V2EX] X 上一个网站 53 小时赚了 12 万$
+
+**问题描述 / Problem Description**:
+一个竞标出价争排名的网站在 X 火了， https://outbid.lol , 出价的人太疯狂了。 我也写了一个 https://bidking.lol 凑凑热闹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236350#reply13
+
+---
+
+#### 8915. [V2EX] giffgaff 已经发解封邮件过来了
+
+**问题描述 / Problem Description**:
+如题，还多送了 10 欧。不知道以后还会不会封号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236346#reply26
+
+---
+
+#### 8916. [V2EX] Tibo:今天，我们将向所有 Codex 和 ChatGPT Work 用户发放一次 BANKED 重置次数（可以蹭了？？）
+
+**问题描述 / Problem Description**:
+https://x.com/thsottiaux/status/2090766694897619318
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236298#reply1
+
+---
+
+#### 8917. [V2EX] 多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。
+
+**问题描述 / Problem Description**:
+多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。 我的意思是，要让真正对产品负责、懂产品的那个人去指挥 AI 写代码，而不是还在用传统的分工，觉得程序员懂代码，就还在依赖程序员去指挥 AI 写代码。 当然，如果是一个懂产品，能够对产品负责的程序员来做，那就没问题了。 但这意味着产品经理的时代到来了吗？ 我觉得不一定，因为部分产品经理也不一定真的懂产品。 传统的分工正在模糊，现在每个人都可以有产品能力、设计能力、开发能力了，所以超级个体，我觉得会增多。 这里使用“超级个体”这个称呼，只是为了让大家一眼能看懂，不代表目前大家眼里的超级个体，跟我描述的这个是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236256#reply41
+
+---
+
+#### 8918. [V2EX] 分享 Clash Verge 小配置： Google / Gemini 独立线路分流
+
+**问题描述 / Problem Description**:
+最近 gemini 对线路卡的很严，我自己手头美国的线路都送中了，发现韩国的可以，但 cc 又得走美国线路，之前对 clash verge 都是比较浅使用，正好研究了下，脚本分享给需要的朋友。 function main(config, profileName) { config.rules = config.rules || []; // 移除旧的 google 规则 config.rules = config.rules.filter(r => !r.toLowerCase().includes('google')); // 在最前面添加新的 google 规则 config.rules.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236251#reply1
+
+---
+
+#### 8919. [V2EX] 阿里发布了 Qwen-UI-Agent，号称让模型真正“会用”每一块屏幕
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/xjKcjN2W82eNcb0lSrP6yQ 看演示效果还是很牛逼的，就是不知道 token 消耗有多大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236250#reply1
+
+---
+
+#### 8920. [V2EX] 现在国产的 8B 模型都这么强了？
+
+**问题描述 / Problem Description**:
+商汤今天凌晨开源了 SenseNova U1.5 Lite 的正式版，说实话看了还挺震惊的，现在国产开源模型真的比想象中要好挺多，先放链接： GitHub： https://github.com/OpenSenseNova/SenseNova-U1 Hugging Face： https://huggingface.co/collections/sensenova/sensenova-u15 SenseNova Studio ，可以在线体验： https://unify.light-ai.top/ TL;DR 这次主要更新了： 3-4k 字符超长复杂指令遵循：能一次理解更长、更复杂的要求，同时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236244#reply1
 
 ---

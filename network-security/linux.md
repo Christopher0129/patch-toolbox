@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3277**
+**总计条目 / Total entries: 3297**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -48428,5 +48428,388 @@ Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi impl
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8661-2
+
+---
+
+#### 3278. CVE-2026-66786 - submariner: submariner: ipsec.conf stanza injection via remote-supplied CableName…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] submariner: submariner: ipsec.conf stanza injection via remote-supplied CableName and Subnets. Bugzilla: 2507531
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507531
+
+---
+
+#### 3279. CVE-2026-74581 - kernel: net: ipv6: use-after-free in fib6_rule_suppress due to stale res->rt6…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ipv6: use-after-free in fib6_rule_suppress due to stale res->rt6 pointer. Bugzilla: 2520980
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520980
+
+---
+
+#### 3280. CVE-2026-74583 - kernel: net/sched: cls_route: fix fastmap use-after-free on filter
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: cls_route: fix fastmap use-after-free on filter. Bugzilla: 2521054
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521054
+
+---
+
+#### 3281. CVE-2026-74580 - kernel: vhost: reset the vring metadata cache on vring reconfiguration
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vhost: reset the vring metadata cache on vring reconfiguration. Bugzilla: 2521055
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521055
+
+---
+
+#### 3282. CVE-2026-74582 - kernel: packet: use consistent hard_header_len in non-ring send paths
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: packet: use consistent hard_header_len in non-ring send paths. Bugzilla: 2521057
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521057
+
+---
+
+#### 3283. CVE-2026-18309 - gimp: GIMP: Remote Code Execution via APNG file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via APNG file parsing integer overflow. Bugzilla: 2520559
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520559
+
+---
+
+#### 3284. CVE-2026-18308 - gimp: GIMP: Remote Code Execution via TIF File Parsing Integer Overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via TIF File Parsing Integer Overflow. Bugzilla: 2520576
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520576
+
+---
+
+#### 3285. CVE-2026-18307 - gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow. Bugzilla: 2520594
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520594
+
+---
+
+#### 3286. CVE-2026-18306 - gimp: GIMP: Remote Code Execution via SGI File Parsing Integer Overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via SGI File Parsing Integer Overflow. Bugzilla: 2520591
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520591
+
+---
+
+#### 3287. CVE-2026-18305 - gimp: GIMP: Remote Code Execution via TIF file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote Code Execution via TIF file parsing integer overflow. Bugzilla: 2520582
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520582
+
+---
+
+#### 3288. CVE-2026-18304 - gimp: GIMP: Arbitrary code execution via crafted TIF file parsing
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Arbitrary code execution via crafted TIF file parsing. Bugzilla: 2520560
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520560
+
+---
+
+#### 3289. CVE-2026-18303 - gimp: GIMP: Remote code execution via TIF file parsing vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing vulnerability. Bugzilla: 2520583
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520583
+
+---
+
+#### 3290. CVE-2026-18302 - gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via TIF file parsing heap-based buffer overflow. Bugzilla: 2520579
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520579
+
+---
+
+#### 3291. CVE-2026-18301 - gimp: GIMP: Remote code execution via PSD file parsing integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: GIMP: Remote code execution via PSD file parsing integer overflow. Bugzilla: 2520561
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520561
+
+---
+
+#### 3292. CVE-2026-18300 - gimp: gegl: GIMP: Remote code execution via integer overflow in HDR file parsing
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] gimp: gegl: GIMP: Remote code execution via integer overflow in HDR file parsing. Bugzilla: 2520587
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520587
+
+---
+
+#### 3293. CVE-2026-41861
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.2
+
+**漏洞描述 / Description**:
+Path Traversal in BOSH-Ecosystem / BOSH allows an IaaS-metadata attacker to make the agent write a root-owned file with partially attacker-controlled body to any path ending in .network, and create any missing parent directories with mode 0777 via network Alias on Ubuntu.
+
+
+
+Affected versions: BOSH agent < v2.847.0 (jammy <= v1.1202, or noble <= v1.364). Lower bound unspecified in advisory ("All bosh agent versions").
+
+**参考链接 / References**:
+- https://www.cloudfoundry.org/blog/cve-2026-41861-arbitrary-root-file-write-via-path-traversal-in-bosh-agent/
+
+---
+
+#### 3294. CVE-2026-68377
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+net/sched: act_tunnel_key: Defer dst_release to RCU callback
+
+Fix a race-condition use-after-free in tunnel_key_release_params().
+
+The function releases the metadata_dst of the old params synchronously
+via dst_release() while deferring the params struct free with
+kfree_rcu(). A concurrent tunnel_key_act() reader on the datapath may
+still hold the old params pointer (under rcu_read_lock_bh) and proceed
+to call dst_clone(¶ms->tcft_enc_metadata->dst) after the writer's
+dst_release has already pushed the dst's rcuref to RCUREF_DEAD.
+
+zdi-disclosures@trendmicro.com produced a poc which i (and Victor) verified
+that KASAN reports:
+
+==================================================================
+BUG: KASAN: slab-use-after-free in instrument_atomic_read_write include/linux/instrumented.h:112
+BUG: KASAN: slab-use-after-free in atomic_sub_return_release include/linux/atomic/atomic-instrumented.h:326
+BUG: KASAN: slab-use-after-free in __rcuref_put include/linux/rcuref.h:109
+BUG: KASAN: slab-use-after-free in rcuref_put include/linux/rcuref.h:173
+BUG: KASAN: slab-use-after-free in dst_release+0x5b/0x370 net/core/dst.c:168
+Write of size 4 at addr ffff88806158de40 by task poc/9388
+
+CPU: 0 UID: 0 PID: 9388 Comm: poc Tainted: G        W           7.1.0-rc7 #7 PREEMPT(lazy)
+Tainted: [W]=WARN
+Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <TASK>
+ __dump_stack lib/dump_stack.c:94
+ dump_stack_lvl+0x100/0x190 lib/dump_stack.c:120
+ print_address_description mm/kasan/report.c:378
+ print_report+0x139/0x4ad mm/kasan/report.c:482
+ kasan_report+0xe4/0x1d0 mm/kasan/report.c:595
+ check_region_inline mm/kasan/generic.c:186
+ kasan_check_range+0x125/0x200 mm/kasan/generic.c:200
+ instrument_atomic_read_write include/linux/instrumented.h:112
+ atomic_sub_return_release include/linux/atomic/atomic-instrumented.h:326
+ __rcuref_put include/linux/rcuref.h:109
+ rcuref_put include/linux/rcuref.h:173
+ dst_release+0x5b/0x370 net/core/dst.c:168
+ refdst_drop include/net/dst.h:272
+ skb_dst_drop include/net/dst.h:284
+ skb_release_head_state+0x293/0x400 net/core/skbuff.c:1163
+ skb_release_all net/core/skbuff.c:1187
+[..]
+Allocated by task 9391:
+ kasan_save_stack+0x30/0x50 mm/kasan/common.c:57
+ kasan_save_track+0x14/0x30 mm/kasan/common.c:78
+ poison_kmalloc_redzone mm/kasan/common.c:398
+ __kasan_kmalloc+0x9a/0xb0 mm/kasan/common.c:415
+ kasan_kmalloc include/linux/kasan.h:263
+ __do_kmalloc_node mm/slub.c:5296
+ __kmalloc_noprof+0x2f1/0x830 mm/slub.c:5308
+ kmalloc_noprof include/linux/slab.h:954
+ kzalloc_noprof include/linux/slab.h:1188
+ offload_action_alloc+0x2f/0x130 net/core/flow_offload.c:35
+ tcf_action_offload_add_ex+0x1ba/0x880 net/sched/act_api.c:258
+ tcf_action_offload_add net/sched/act_api.c:293
+ tcf_action_init+0x66e/0xa20 net/sched/act_api.c:1547
+ tcf_action_add+0xf6/0x5d0 net/sched/act_api.c:2101
+[..]
+Freed by task 9391:
+ kasan_save_stack+0x30/0x50 mm/kasan/common.c:57
+ kasan_save_track+0x14/0x30 mm/kasan/common.c:78
+ kasan_save_free_info+0x3b/0x70 mm/kasan/generic.c:584
+ poison_slab_object mm/kasan/common.c:253
+ __kasan_slab_free+0x6b/0x90 mm/kasan/common.c:285
+ kasan_slab_free include/linux/kasan.h:235
+ slab_free_hook mm/slub.c:2689
+ slab_free mm/slub.c:6251
+ kfree+0x21f/0x6b0 mm/slub.c:6566
+ tcf_action_offload_add_ex+0x4ad/0x880 net/sched/act_api.c:284
+ tcf_action_offload_add net/sched/act_api.c:293
+ tcf_action_init+0x66e/0xa20 net/sched/act_api.c:1547
+ tcf_action_add+0xf6/0x5d0 net/sched/act_api.c:2101
+
+The buggy address belongs to the object at ffff88806158de00
+ which belongs to the cache kmalloc-256 of size 256
+The buggy address is located 64 bytes inside of
+ freed 256-byte region [ffff88806158de00, ffff88806158df00)
+
+The buggy address belongs to the physical page:
+page: refcount:0 mapcount:0 mapping:0000000000000000 index:0xffff88806158d600 pfn:0x6158c
+head: order:1 mapcount:0 entire_map
+---truncated---
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2200a00ff247f70f5dcdb4e6f14b0d48ddac5467
+- https://git.kernel.org/stable/c/2791a501da508b704a617b4dba29db54a65bc9f7
+- https://git.kernel.org/stable/c/389d03992dabb80488228e8119b9dd6d0f58e1a6
+- https://git.kernel.org/stable/c/531dbb5bb98e52ad26be7e90f9f8bec707c5bd0e
+- https://git.kernel.org/stable/c/676ad6aa7cec89a08d2a5ce3cd5959e313f29733
+
+---
+
+#### 3295. CVE-2026-74517
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: x86: Cancel delayed I/O APIC EOI handling before destroying vCPUs
+
+Cancel (and flush) the I/O APIC's delayed EOI handling work during the
+"pre VM destroy" phase, before vCPUs are destroyed, as processing the EOI
+broadcast will inject another IRQ if the line is asserted, i.e. will try
+to deliver an IRQ to the target vCPU(s).  Canceling the work after vCPUs
+are destroyed leads to UAF if the delayed work is processed after vCPUs are
+destroyed.
+
+  BUG: KASAN: slab-use-after-free in __kvm_irq_delivery_to_apic_fast+0x9bf/0xa20 arch/x86/kvm/lapic.c:1250
+  Read of size 8 at addr ffff8880499abea0 by task kworker/1:2/1218
+
+  CPU: 1 UID: 0 PID: 1218 Comm: kworker/1:2 Not tainted 7.1.0-rc7 #5 PREEMPT(lazy)
+  Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  Workqueue: events kvm_ioapic_eoi_inject_work
+  Call Trace:
+   <TASK>
+   __dump_stack lib/dump_stack.c:94
+   dump_stack_lvl+0x100/0x190 lib/dump_stack.c:120
+   print_address_description mm/kasan/report.c:378
+   print_report+0x139/0x4ad mm/kasan/report.c:482
+   kasan_report+0xe4/0x1d0 mm/kasan/report.c:595
+   __kvm_irq_delivery_to_apic_fast+0x9bf/0xa20 arch/x86/kvm/lapic.c:1250
+   __kvm_irq_delivery_to_apic+0xd8/0xbf0 arch/x86/kvm/lapic.c:1345
+   kvm_irq_delivery_to_apic arch/x86/kvm/lapic.h:129
+   ioapic_service+0x308/0x590 arch/x86/kvm/ioapic.c:492
+   kvm_ioapic_eoi_inject_work+0x13c/0x190 arch/x86/kvm/ioapic.c:532
+   process_one_work+0xa59/0x19a0 kernel/workqueue.c:3314
+   process_scheduled_works kernel/workqueue.c:3397
+   worker_thread+0x5eb/0xe50 kernel/workqueue.c:3478
+   kthread+0x370/0x450 kernel/kthread.c:436
+   ret_from_fork+0x72b/0xd30 arch/x86/kernel/process.c:158
+   ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:245
+   </TASK>
+
+Note, the VM is unreachable once kvm_destroy_vm() starts, and scheduling
+new work via kvm_ioapic_send_eoi() can only be done via KVM_RUN, i.e.
+requires a live vCPU.
+
+Alternatively, KVM could simply destroy the I/O APIC during the "pre" phase
+of VM destruction, but that gets more than a bit sketchy as KVM expects the
+I/O APIC to exist if ioapic_in_kernel() is true, and nested virtualization
+in particular has a bad habit of touching VM-scope state during vCPU
+destruction.  E.g. attempting to free the PIC during the pre phase would
+lead to a NULL pointer dereference in kvm_cpu_has_extint(), and it's not
+hard to imagine the I/O APIC having a similar flaw.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/9910e835580fef3bef53b70241dd00c4bffad693
+- https://git.kernel.org/stable/c/ed56a6b58222f9c1f4115a0bd2788dd6ed6022e2
+
+---
+
+#### 3296. CVE-2026-61897
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+An Ubuntu-specific patch to AccountsService before 23.13.9-8ubuntu7 only partially drops privileges before launching language helper scripts. It changes the effective UID/GID to the target user but leaves the real UID as 0 (root). A shell spawned by a helper script inherits ruid=0 and may reset its effective UID to root, enabling local privilege escalation.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985
+- https://ubuntu.com/security/CVE-2026-61897
+
+---
+
+#### 3297. CVE-2026-61898
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) shipped with accountsservice before 23.13.9-8ubuntu7 treat the user-controlled LANGUAGE entry in ~/.pam_environment as trusted input. The value is interpolated unescaped into a GNU sed replacement expression, allowing an attacker to inject a sed 'e' flag and arbitrary shell commands that execute with the privileges of the AccountsService helper process (real UID 0) via the SetLanguage D-Bus method.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985
+- https://ubuntu.com/security/CVE-2026-61898
 
 ---
