@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3297**
+**总计条目 / Total entries: 3298**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -48811,5 +48811,17 @@ The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) s
 **参考链接 / References**:
 - https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985
 - https://ubuntu.com/security/CVE-2026-61898
+
+---
+
+#### 3298. CVE-2026-43678 - swift-nio: swift-nio: Denial of Service via specially crafted WebSocket frame
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] swift-nio: swift-nio: Denial of Service via specially crafted WebSocket frame. Bugzilla: 2520715
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2520715
 
 ---

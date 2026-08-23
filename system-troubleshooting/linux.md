@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9252**
+**总计条目 / Total entries: 9485**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -128247,5 +128247,3034 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236363#reply2
+
+---
+
+#### 9253. Is really August 25th is Linux's birthday? I want to celebrate so.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwhpas/is_really_august_25th_is_linuxs_birthday_i_want/
+
+---
+
+#### 9254. ReactOS Merges Support For Job Objects As Step To Running Modern Windows Apps
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwdrnm/reactos_merges_support_for_job_objects_as_step_to/
+
+---
+
+#### 9255. Linux 7.3 better protects against buggy EFI firmware taking down the rest of user-space
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwgbn1/linux_73_better_protects_against_buggy_efi/
+
+---
+
+#### 9256. Longtime Linux CIFS/SMB3 Maintainer Passes Away
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvvc46/longtime_linux_cifssmb3_maintainer_passes_away/
+
+---
+
+#### 9257. CAD options
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwdec3/cad_options/
+
+---
+
+#### 9258. My keyboard had some undocumented feature reports, so I mapped them out and made a little config app for it.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwhrd6/my_keyboard_had_some_undocumented_feature_reports/
+
+---
+
+#### 9259. RakuOS: Hybrid Linux Distro among Immutable/Atomic and Traditional Linux Distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vw7agv/rakuos_hybrid_linux_distro_among_immutableatomic/
+
+---
+
+#### 9260. Tap to Authenticate: NFC YubiKeys on Linux :: Terminal Thoughts
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvvqsr/tap_to_authenticate_nfc_yubikeys_on_linux/
+
+---
+
+#### 9261. Do you run the same Linux distro on both your desktop PC and laptop, or do you use different ones?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vvtixm/do_you_run_the_same_linux_distro_on_both_your/
+
+---
+
+#### 9262. Making the Logitech G915 G1-5 keys work using libratbag
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwebc5/making_the_logitech_g915_g15_keys_work_using/
+
+---
+
+#### 9263. I made an NVIDIA Broadcast(Voice) alternative for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vw014q/i_made_an_nvidia_broadcastvoice_alternative_for/
+
+---
+
+#### 9264. vt-cli - A Virus Total CLI tool
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vw75gb/vtcli_a_virus_total_cli_tool/
+
+---
+
+#### 9265. my ubuntu server using less resource than your gentoo/arch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwhfav/my_ubuntu_server_using_less_resource_than_your/
+
+---
+
+#### 9266. Weekly 'I made a useful thing' Thread - August 21, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vu9x4u/weekly_i_made_a_useful_thing_thread_august_21_2026/
+
+---
+
+#### 9267. Microsoft dropped a CVSS 10.0 Entra ID RCE, said it was exploited, then walked that back a day later. No customer patch.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwibli/microsoft_dropped_a_cvss_100_entra_id_rce_said_it/
+
+---
+
+#### 9268. Anyone here learning Active Directory?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwcydj/anyone_here_learning_active_directory/
+
+---
+
+#### 9269. Internal .local domains returning SERVFAIL via local resolver, but work when queried directly. Do I need to configure every VM?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw2bo7/internal_local_domains_returning_servfail_via/
+
+---
+
+#### 9270. IT best practices material and tips n tricks
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw76zg/it_best_practices_material_and_tips_n_tricks/
+
+---
+
+#### 9271. VPN Server 250km away wont come back online: pour one out for me
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vvfb7y/vpn_server_250km_away_wont_come_back_online_pour/
+
+---
+
+#### 9272. Tandberg RDXusb cable
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwfdhn/tandberg_rdxusb_cable/
+
+---
+
+#### 9273. Management pc at remote sites
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw28y8/management_pc_at_remote_sites/
+
+---
+
+#### 9274. Advice for securing entry-level IT roles in the UK?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwip8z/advice_for_securing_entrylevel_it_roles_in_the_uk/
+
+---
+
+#### 9275. Data sovereignty and 3rd party
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwjght/data_sovereignty_and_3rd_party/
+
+---
+
+#### 9276. Migrated domain from IMAP server to M365 and Outlook won't play
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vwi1yy/migrated_domain_from_imap_server_to_m365_and/
+
+---
+
+#### 9277. Getting LifeGuard Patch for Zebra MC18
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw849x/getting_lifeguard_patch_for_zebra_mc18/
+
+---
+
+#### 9278. does anyone still use thin clients?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vvbdzl/does_anyone_still_use_thin_clients/
+
+---
+
+#### 9279. Not sure what needs to be done
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw09mi/not_sure_what_needs_to_be_done/
+
+---
+
+#### 9280. Taskbar completely dissapears after attempt to download 25H2 update to Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw5ejp/taskbar_completely_dissapears_after_attempt_to/
+
+---
+
+#### 9281. Security+ and sc-200?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vvtt3y/security_and_sc200/
+
+---
+
+#### 9282. Re-enabling a disabled account can cause an unexpected Teams membership issue.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vv9qe8/reenabling_a_disabled_account_can_cause_an/
+
+---
+
+#### 9283. Dell is out of their minds.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vuts15/dell_is_out_of_their_minds/
+
+---
+
+#### 9284. Practical lessons from running dedicated nearshore/offshore development teams
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vw2oig/practical_lessons_from_running_dedicated/
+
+---
+
+#### 9285. Win 11 VDI not Updating
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vvgyxz/win_11_vdi_not_updating/
+
+---
+
+#### 9286. Adobe Licensing Specialist Asking Us to Delete Unlicensed Users
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vujyjg/adobe_licensing_specialist_asking_us_to_delete/
+
+---
+
+#### 9287. Blocking virtual browsers? (Browser in browser attack)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vvb6u5/blocking_virtual_browsers_browser_in_browser/
+
+---
+
+#### 9288. when did hp field techs just start showing up with no notice
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vuvg7f/when_did_hp_field_techs_just_start_showing_up/
+
+---
+
+#### 9289. Lenovo L14 gen 6 driver network problem
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vv7aee/lenovo_l14_gen_6_driver_network_problem/
+
+---
+
+#### 9290. [V2EX] 《铜豌豆 Linux 》12.15.1 版本发布
+
+**问题描述 / Problem Description**:
+https://www.atzlinux.com/News/2026/20260822.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236561#reply0
+
+---
+
+#### 9291. [V2EX] MiniDebConf 北京 (Beijing) 2026 报名已开放： 2026-10-24 中科院软件所
+
+**问题描述 / Problem Description**:
+转发消息来自 https://lists.debian.org/debian-chinese-gb/2026/08/msg00000.html MiniDebConf 是 Debian 项目成员组织的本地会议，是小型、地方性的 Debian 开发者与用户的聚会。 我们将于 2026 年 10 月 24 日在中国科学院软件研究所举办 MiniDebConf 北京 2026 。 时间：2026 年 10 月 24 日（星期六） 10:00 - 18:00 地点：北京市海淀区中关村南四街 4 号 中国科学院软件研究所 5 号楼四层大报告厅 参会报名现已开放。您可以使用 Salsa 账号注册并登录会议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235184#reply1
+
+---
+
+#### 9292. [V2EX] debian13 有必要升级吗？感觉 12 还能坚持好几年
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1190787#reply5
+
+---
+
+#### 9293. [V2EX] Debian 龙芯 移植进度
+
+**问题描述 / Problem Description**:
+base-files_14_loong64.changes ACCEPTED into unstable Debian FTP Masters dpkg_1.22.21_loong64.changes ACCEPTED into unstable Debian FTP Masters make-dfsg_4.4.1-3_loong64.changes ACCEPTED into unstable Debian FTP Masters binutils_2.45.50.20251209-1_loong64.changes ACCEPTED into unstable Debian FTP Mas
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1178918#reply5
+
+---
+
+#### 9294. [V2EX] 大家有 gpt5.6 破甲逆向 web 工具吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236644#reply0
+
+---
+
+#### 9295. [V2EX] 多协议转换、智能 Key 调度与可观测 AI 网关
+
+**问题描述 / Problem Description**:
+自己开发的，原则上可以接任何上下游的本地代理，开源 https://github.com/aipayim/codex-proxy ，如果好用，给个🌟
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236639#reply0
+
+---
+
+#### 9296. [V2EX] 神秘的 Ox Alpha（中文圈昵称“牛来”）究竟是何方神圣...
+
+**问题描述 / Problem Description**:
+根据各个使用者对于模型输出特征的深挖，很多人相信它是属于 GLM 家族的另一个多模态模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236628#reply3
+
+---
+
+#### 9297. [V2EX] 求 codex 月付中转
+
+**问题描述 / Problem Description**:
+之前一直使用 rawchat 月付的中转站，用的是每天 100 刀的，求一个月付的中转站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236620#reply2
+
+---
+
+#### 9298. [V2EX] 如何快速判断一个 HTTP 代理是否真的可用？
+
+**问题描述 / Problem Description**:
+如何快速判断一个 HTTP 代理是否真的可用？ 拿到一个 HTTP 代理之后，很多人第一反应是测试 IP 和端口能不能连接。 但从实际使用角度来说， 端口能连通，并不代表代理真的可用。 一个正常工作的 HTTP/HTTPS 代理，还需要能够成功转发请求、访问目标服务器，并返回有效的 HTTP 响应。 IPIN.IO 的 HTTP Proxy Test 就是一个用于快速完成这类检查的在线工具。 👉 https://ipin.io/zh/http_proxy_test 一个代理应该检查哪些数据？ 实际测试代理时，可以重点关注几个指标： 代理状态 最直接的指标。测试成功说明代理当前能够完成网络请求；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236588#reply1
+
+---
+
+#### 9299. [V2EX] 大家现在日常/办公中，语音输入占比大概有多少？
+
+**问题描述 / Problem Description**:
+大概 7 个月前，我做了一个预言，说 1 年之后语音输入将会成为主流，现在半年都过去了，我说一下我现在情况 不得不说，现在语音转文字准确率越来越高，所以现在在手机上几乎不怎么打字了（除非敲一些命令），各种聊天 发帖子 或者是 跟 agent 协同等，基本上都是靠语音转文字来输入了 电脑上也是如此，基本上 80 ～ 90% 的场景吧，都是语音转文字来进行输入 办公场景可能会稍低一些，有时候不方便说的还是靠打字，大部分情况下都还好。 想看看大家的占比是怎么样的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236583#reply67
+
+---
+
+#### 9300. [V2EX] 你们都是怎么给 AI 喂前端的？
+
+**问题描述 / Problem Description**:
+是直接把网址给他们？ 还是图形给他们？ 还是怎么样呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236579#reply3
+
+---
+
+#### 9301. [V2EX] 国外有啥跟 deepseek 的性能，价格差不多的 LLM，并且不限制用户国籍的吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236578#reply2
+
+---
+
+#### 9302. [V2EX] 我把我的 CMSPRO 做成 这样 ，可以不使用 IDE 进行开发和调整了。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236576#reply1
+
+---
+
+#### 9303. [V2EX] 每个用过 DeepSeek Harness 的人都会觉得 DSH 很先进吧？
+
+**问题描述 / Problem Description**:
+我用了半小时，装了 im 插件，使用 web profile 就成了网页版 OpenClaw 。 装了桌面版，装个新的 UI ，就成了 Claude Code/Codex 。 这个东西定制起来太有可玩性了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236570#reply31
+
+---
+
+#### 9304. [V2EX] 工作十多年后重新做 Windows 开发，我用 C++20 和 Codex 写了一个轻量级原生框架 MWFL
+
+**问题描述 / Problem Description**:
+大家好，最近做了一个原生 Windows 开发框架，叫做 MWFL （ Modern Windows Foundation Layer ） ，想在这里简单分享一下它的来历。 我刚毕业时做的就是 Windows 桌面程序开发。当时用过 Qt 、MFC ，也用过 WTL 。 如果追求轻量，比如需要把程序放进 U 盘或光盘里直接运行，尽量减少依赖并控制程序体积，当时我通常会选择 WTL ；如果不太在意依赖和安装包大小，则会考虑 MFC 或 Qt 。我也接触过 DuiLib 一类相对轻量的方案，但整体开发体验始终没有特别满意。 后来十多年里，我的工作重心转到了移动端，基本没有再系统地做 Windows
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236554#reply6
+
+---
+
+#### 9305. [V2EX] SpaceXAI(xAI) 现已终止 SuperGrok Heavy 计划免费获取 Cursor Ultra 活动
+
+**问题描述 / Problem Description**:
+之前获取的不受影响，新用户无法再通过 SuperGrok Heavy 免费获取 Cursor Ultra 。 依旧没有任何通知，没有任何邮件，没有任何官方通告，社交媒体依旧装死。 非常「 xAI 」, 已经不是第一次有这种事情了: https://www.v2ex.com/t/1233657
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236548#reply4
+
+---
+
+#### 9306. [V2EX] Antigravity 支持远程控制了
+
+**问题描述 / Problem Description**:
+Antigravity 桌面版支持远程控制了，在设置 - App 里开启 Remote Control ，然后浏览器访问 https://antigravity.google.com/ 即可登录同一账号。 登录后的界面和本地 Antigravity 完全一样，可以自由操控。 还可以在别的机器上安装 Remote Control headless daemon ，在自己电脑上远程控制。 版本：2.9.1 文档： https://antigravity.google/docs/remote-control 博客： https://antigravity.google/blog/remote-con
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236519#reply17
+
+---
+
+#### 9307. [V2EX] AI 使编程廉价还是成了少数从业者获取更多利益的工具？
+
+**问题描述 / Problem Description**:
+矛盾点 1: AI 降低了编程门槛使得这个行业廉价化。但 AI 提效本身会促使工作价值提高； 矛盾点 2: AI 使得人人都可以成为程序员，但同时也导致了大量的人肉程序员的毕业。 所以 AI 使得编程更便宜了呢？还是成为了让更少一部分人获取更多利益的工具？感觉很矛盾啊！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236510#reply6
+
+---
+
+#### 9308. [V2EX] 你有 token 用量和上下文焦虑吗？
+
+**问题描述 / Problem Description**:
+公司给的 200 美金 token 用量都不够用，不到半月就蹬完了。自己买了个第三方 subapi 混着用。gpt-5.6sol 很快就满了，我会经常登陆后台看下用量🤣。 开发时都会看下上下文窗口占用情况，参照写了一个 dsh 用量显示插件，也算缓解自己的用量焦虑了，效果大概下面的样子。 有需要的自己可以用 dsh 命令添加 dsh plugin --profile web add dsh-plugin-model-usage-meter
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236509#reply20
+
+---
+
+#### 9309. [V2EX] xixu-me/xget 404 了？
+
+**问题描述 / Problem Description**:
+https://github.com/xixu-me/xget 还想下载一下 huggingface 的模型来着
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236489#reply3
+
+---
+
+#### 9310. [V2EX] Bun 1.4 发布了，有人关心吗？
+
+**问题描述 / Problem Description**:
+https://bun.com/blog/bun-v1.4 被 Claude 收购后的首个版本，利用 AI 从 Zig 重构到 Rust "它将空闲 CPU 使用率降低 5 倍，内存使用率降低最多 35%，在 Linux 上启动速度提升 50%"
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236482#reply27
+
+---
+
+#### 9311. [V2EX] 最近在用 AI 编程学习逆向工程，但是 AI 很多时候不太配合，提示触发风险操作
+
+**问题描述 / Problem Description**:
+我用的 Cursor, 基本 A 社的和 openai 的都会遇到风控，老马的 grok 不会风控，但是能力不太给力，大家有啥方式能绕过风险提示吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236478#reply7
+
+---
+
+#### 9312. Where is some os logs in Debian 12
+
+**问题描述 / Problem Description**:
+Tags: debian, log-files, rsyslog, syslog, debian-bookworm | Score: 26 | Views: 95804 | Answers: 2 | Created: 2023-11-28
+
+**解决方案 / Solution**:
+In Debian 12, the traditional syslog system has been replaced with systemd-journald. This means that the old log files like syslog , messages , auth.log are no longer used. Instead, all system logs are now stored in a centralized journal, which is accessible using the journalctl command. To view the system logs, you can use the following command: journalctl This will display all of the logs in the journal. You can also filter the logs by using options like -p (priority) and -u (unit). For example, to view only the logs from the syslog unit, you would use the following command: journalctl -u syslog You can also specify a start and end time for the logs you want to view. For example, to view the logs from the past hour, you would use the following command: journalctl --since "1 hour ago"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148725/where-is-some-os-logs-in-debian-12
+
+---
+
+#### 9313. How can I configure my DNS settings on Debian 12?
+
+**问题描述 / Problem Description**:
+Tags: domain-name-system, debian, nameserver, resolv.conf, debian-bookworm | Score: 26 | Views: 212505 | Answers: 5 | Created: 2023-10-07
+
+**解决方案 / Solution**:
+Use the systemd-resolved stub resolver that is mentioned in your /etc/resolv.conf : Add the DNS servers to /etc/systemd/resolved.conf : [Resolve] DNS=1.1.1.1 8.8.8.8 restart systemd-resolved systemctl restart systemd-resolved Check your settings with resolvectl status : $ resolvectl status Global Protocols: -LLMNR +mDNS -DNSOverTLS DNSSEC=no/unsupported resolv.conf mode: stub Current DNS Server: 1.1.1.1 DNS Servers: 1.1.1.1 8.8.8.8 DNS Domain: your.search.domain Link 2 (ens3) ... Read man systemd-resolved This is the stub resolver mentioned in your /etc/resolve.conf . In this man page you can read why you shouldn't edit /etc/resolv.conf and why it's a symbolic link etc. There is also a man page for the configuration file of this stub resolver: man resolved.conf .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145358/how-can-i-configure-my-dns-settings-on-debian-12
+
+---
+
+#### 9314. What could explain unknown I/O on new 16TB HDD on a Debian server?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, kernel, io, hdd | Score: 19 | Views: 3038 | Answers: 2 | Created: 2024-02-12
+
+**解决方案 / Solution**:
+The background IO load you noticed is due to ext4 deferred inode table allocation. From mke2fs man page: lazy_itable_init[= <0 to disable, 1 to enable>] If enabled and the uninit_bg feature is enabled, the inode table will not be fully initialized by mke2fs. This speeds up file system initialization noticeably, but it requires the kernel to finish initializing the file system in the background when the file system is first mounted. If the option value is omitted, it defaults to 1 to enable lazy inode table zeroing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153466/what-could-explain-unknown-i-o-on-new-16tb-hdd-on-a-debian-server
+
+---
+
+#### 9315. How can I use a legacy ssh-rsa key on CentOS 9 Stream?
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh | Score: 11 | Views: 36828 | Answers: 5 | Created: 2022-03-11
+
+**解决方案 / Solution**:
+Found an answer, courtesy of a similar issue somebody else had on the Red Hat Bugzilla. The issue is caused by the deprecation of SHA1. You can work around this by setting a crypto policy of DEFAULT:SHA1 (to only re-enable SHA-1) or LEGACY (for compatibility with even older things) following the instructions here . The command is: update-crypto-policies --set DEFAULT:SHA1 or update-crypto-policies --set LEGACY Before running, review the linked page because LEGACY does enable some quite old crypto settings, which might be too insecure for your use-case.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1095898/how-can-i-use-a-legacy-ssh-rsa-key-on-centos-9-stream
+
+---
+
+#### 9316. squid and caching of dnf/yum downloads
+
+**问题描述 / Problem Description**:
+Tags: centos, squid, fedora | Score: 8 | Views: 4241 | Answers: 2 | Created: 2017-03-09
+
+**解决方案 / Solution**:
+Answering my own question. Found out that squid has support for handling this kind of problem with the storeid_file_rewrite script. The only tricky thing is to get a valid list of urls, which represent the same repositories. Seems to work fine so far. Added to squid.conf the following store_id_program /usr/lib64/squid/storeid_file_rewrite /etc/squid/fedora.db store_id_access allow localnet store_id_access deny all To get the content for the fedora.db (caching fedora 25 at this point in time) is some trickery with getting the urls from the mirrorlist basearch="x86_64" releasever=25 mirrorlist="https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearc curl -s "$mirrorlist" >tmp.db You need to convert the "url" in the "tmp.db" result into the format explained here http://wiki.squid-cache.org/Features/StoreID/DB . This can possibly automated (Any volunteers?) Then you get something like this as "fedora.db", which is used in squid.conf above. ^http:\/\/ftp\.halifax\.rwth-aachen\.de\/fedora\/linux\/releases\/25\/Everything\/(x86_64\/[a-zA-Z0-9\-\_\.\/]+rpm)$ http://repo.mirrors.squid.internal/fedora/25/$1 ^http:\/\/mirror2\.hs-esslingen\.de\/fedora\/linux\/releases\/25\/Everything\/(x86_64\/[a-zA-Z0-9\-\_\.\/]+rpm)$ http://repo.mirrors.squid.internal/fedora/25/$1 ^http:\/\/fedora\.tu-chemnitz\.de\/pub\/linux\/fedora\/linux\/releases\/25\/Everything\/(x86_64\/[a-zA-Z0-9\-\_\.\/]+rpm)$ http://repo.mirrors.squid.internal/fedora/25/$1 ... much more EDIT: Alternative, a more dangerous path, but maybe also sufficient, a more global pattern matching like this: \/fedora\/linux\/releases\/([0-9]+)\/Everything/x86_64\/(.*)$ http://repo.mirrors.squid.internal/fedora/releases/$1/$2 \/fedora\/linux\/updates\/([0-9]+)\/x86_64\/(.*)$ http://repo.mirrors.squid.internal/fedora/updates/$1/$2 Sources : http://wiki.squid-cache.org/Features/StoreID http://wiki.squid-cache.org/Features/StoreID/DB
+
+**参考链接 / References**:
+- https://serverfault.com/questions/837291/squid-and-caching-of-dnf-yum-downloads
+
+---
+
+#### 9317. VLAN not working anymore, Debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, linux-networking, vlan, debian-trixie | Score: 7 | Views: 738 | Answers: 1 | Created: 2026-06-30
+
+**解决方案 / Solution**:
+I'd quit chasing the VLAN for a minute and focus on the first thing that's blowing up, which is Address already assigned , as that’s your smoking gun! It looks like ifupdown is eating dirt while bringing up ens1 , so it never gets to spawning ens1.99 , and that’s where I'd put my money. I'd check for: auto and allow-hotplug both trying to own ens1 , so I'd ditch allow-hotplug on a server. Something else is preloading the IP before networking.service runs. A stale /run/network/ifstate* . vlan_raw_device vs vlan-raw-device , and I’d use the latter. The bottom line is, the VLAN itself feels like a red herring. If the parent interface faceplants during bring-up, the VLAN is never even in the fight.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199365/vlan-not-working-anymore-debian-13
+
+---
+
+#### 9318. How to ensure that SSH drops the connection after 8 hours of no typing?
+
+**问题描述 / Problem Description**:
+Tags: ssh, debian | Score: 7 | Views: 7430 | Answers: 1 | Created: 2024-07-21
+
+**解决方案 / Solution**:
+OpenSSH sshd_config Correct configuration keywords since OpenSSH 9.2 (Debian 12) The OpenSSH 9.2 (Feb 2, 2023) introduced new features for inactive sessions. sshd(8): add support for channel inactivity timeouts via a new sshd_config(5) ChannelTimeout directive. This allows channels that have not seen traffic in a configurable interval to be automatically closed. Different timeouts may be applied to session, X11, agent and TCP forwarding channels. sshd(8): add a sshd_config UnusedConnectionTimeout option to terminate client connections that have no open channels for a length of time. This complements the ChannelTimeout option above. For the eight hours in this question, e.g., ChannelTimeout *=8h UnusedConnectionTimeout 1m Where: The *=8h monitors all channels separately. If you want activity on any channel to reset the timeout, use the special keyword global=8h . The UnusedConnectionTimeout is set to one minute in order to terminate the connection shortly after the last channel has been closed. For OpenSSH < 9.2 that has to be done by other means. The used configuration keywords are for unresponsive sessions The ClientAliveInterval does not monitor for inactivity but whether the client is still responsive . Sets a timeout interval in seconds after which if no data has been received from the client, sshd(8) will send a message through the encrypted channel to request a response from the client . The default is 0, indicating that these messages will not be sent to the client. The documentation for ClientAliveCountMax may help in understanding this: If ClientAliveInterval is set to 15, and ClientAliveCountMax is left at the default, unresponsive SSH clients will be disconnected after approximately 45 seconds. Setting a zero ClientAliveCountMax disables connection termination. 📜 A historical note: Before OpenSSH 8.2 (Feb 14, 2020) the ClientAliveCountMax worked differently with 0 , having the side effect that it could have been used for terminating idle connections. From the changelog: Bugfixes sshd(8): make ClientAliveCountMax=0 have sensible semantics: it will now disable connection killing entirely rather than the current behaviour of instantly killing the connection after the first liveness test regardless of success. bz2627 ⚠️ Yet, this misleading instruction has been repeated all over the Internet : Geeks for Geeks : Disconnecting Inactive SSH Connections in Linux Vivek Gite on nixCraft : Linux / UNIX Automatically Logout BASH / TCSH / SSH Users After a Period of Inactivity Hayden James on Linuxblog.io : How to Kill Inactive SSH Sessions KGIII on Linux Tips : Disable Inactive SSH Sessions Aaron Kili on Techmint : How to Disconnect Inactive or Idle SSH Connections in Linux Satish Kumar on Tutorials Point : How to Disconnect Inactive or Idle SSH Connections in Linux? Of these, only Gite had the ClientAliveCountMax=0 that could have worked before 2020, but does this count? After all, the article was likely written in 2021... Makes me wonder does anyone read the documentation or are they busy copy-pasting other's blog posts. 🤦‍♂️ In-depth discussion on alternatives Scripting – be careful you detect inactivity correctly Hayden James gives an example for Automating the Process with a script . However, using that script is dangerous as it could kill SSH sessions that are in active use. The script gets the "idle time" from ps -eo pid,etimes,comm where the etimes does not show the idle time of the process but the total time it has been running. From ps(1) : STANDARD FORMAT SPECIFIERS CODE HEADER DESCRIPTION etimes ELAPSED elapsed time since the process was started, in seconds. Satish Kumar suggests using who for list of active users and the fifth column of w -h for detecting inactivity. However, this script also has some flaws: The fifth column does not contain the seconds as an integer, but a string value like 2.00s , 7:51m or 5days . The [[ "$idle" -gt "1800" ]]; does not parse that correctly. If the comparison was possible, the script would kill all processes of the user... ...in case the users has not typed anything in any of the sessions. ...including terminal multiplexer s ( screen , tmux ) and other processes that are intended to live outside an active SSH session. The detection of the inactivity should be way more precise, as well as the selection of the process to be killed. This approach could work: Take the sessions directly from the second column of who . Use stat to get the last access time of the TTY device (see answer from Celada ). who -s | awk '{ print $2 }' | (cd /dev && xargs stat -c '%n %U %X') That can be directly converted to age in seconds: who -s | awk '{ print $2 }' | (cd /dev && xargs stat -c '%n %U %X') \ | awk '{ print $1"\t"$2"\t"'"$(date +%s)"'-$3 }' Use pgrep to find sshd processes for the TTYs, or pkill to kill them. user=$(echo "$line" | awk '{print $1}') tty=$(echo "$line" | awk '{print $2}') age=$(echo "$line" | awk '{print $3}') pgrep -f "sshd: ${user}@${tty}" All put together (more complete find-inactive-ssh-sessions.sh in oh2fih/ Misc-Scripts ): #!/bin/bash MAX_IDLE=28800 # default 8 hours KILL=0 # set 1 to kill instead of list # Get TTYs with the seconds since the last access time TTYS=$( who -s \ | awk '{ print $2 }' \ | grep -ve "^:" ) if [ "$TTYS" = "" ]; then exit 0 fi TTY_AGES=$( echo "$TTYS" \ | (cd /dev && xargs stat -c '%U %n %X') \ | awk '{ print $1"\t"$2"\t"'"$(date +%s)"'-$3 }' ) # Get sshd processes of the TTYs; list or kill while IFS= read -r line ; do user=$(echo $line | awk '{print $1'}) tty=$(echo $line | awk '{print $2'}) age=$(echo $line | awk '{print $3'}) if (( $age > $MAX_IDLE )); then if (( KILL == 1 )); then pkill -f "sshd: ${user}@${tty}" else pgrep -f -a "sshd: ${user}@${tty}" fi fi done <<< "$TTY_AGES" Built-in features in shells As Vivek Gite mentions, shells have features for automatically logging the user out after a period of inactivity. These might work if there is no need to enforce the logout, as the user is able to change these settings. TMOUT environment variable for bash , zsh & ksh . export TMOUT=28800 autologout setting in tcsh & csh . set -r autologout 28800 If you configure these through, e.g., /etc/profile.d/ , they affect all sessions. However, you could use features in sshd_config to configure them, too: SetEnv & ForceCommand . E.g., SetEnv TMOUT=28800 Match Group cshusers ForceCommand set -r autologout 28800 Where does the recommendation come from? The advice is likely based on, e.g., NIST 800-171 Revision 2 : 3.1.11 Terminate (automatically) a user session after a defined condition. DISCUSSION This requirement addresses the termination of user-initiated logical sessions in contrast to the termination of network connections that are associated with communications sessions (i.e., disconnecting from the network). A logical session (for local, network, and remote access) is initiated whenever a user (or process acting on behalf of a user) accesses an organizational system. Such user sessions can be terminated (and thus terminate user access) without terminating network sessions. Session termination terminates all processes associated with a user’s logical session except those processes that are specifically created by the user (i.e., session owner) to continue after the session is terminated. Conditions or trigger events requiring automatic session termination can include organization-defined periods of user inactivity, targeted responses to certain types of incidents, and time-of-day restrictions on system use. You should decide which one is more important for you: preventing someone from using the connection without permission or the reliability of management connections. Could the unauthorized use be prevented by other means? E.g., could the SSH connections be limited only to company computers, and could the company computers be forced to be locked on inactivity?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162826/how-to-ensure-that-ssh-drops-the-connection-after-8-hours-of-no-typing
+
+---
+
+#### 9319. Linux LVM - PVID last seen on
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, lvm | Score: 7 | Views: 14973 | Answers: 3 | Created: 2022-02-09
+
+**解决方案 / Solution**:
+While awaiting a fix this can be bypassed by setting use_devicesfile=0 inside of /etc/lvm/lvm.conf For more information on this issue you can see the BugZilla report here: https://bugzilla.redhat.com/show_bug.cgi?id=1965941
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093110/linux-lvm-pvid-last-seen-on
+
+---
+
+#### 9320. Debian 12 Package 'ttf-mscorefonts-installer' has no installation candidate
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, docker | Score: 6 | Views: 11920 | Answers: 1 | Created: 2023-12-15
+
+**解决方案 / Solution**:
+This command does not work: add-apt-repository 'http://deb.debian.org/debian bullseye main contrib non-free' I don't know why, IMO it should, but it does not add the desired sections. Not even with the correct codename (Debian 12 is bookworm, not bullseye). Maybe a bug, it only adds an empty file in /etc/apt/sources.list.d/ . You can use the following command instead: echo "deb http://deb.debian.org/debian bookworm contrib non-free" > /etc/apt/sources.list.d/contrib.list Afterwards the installation works. Bonus: You don't even need the software-properties-common and all it's dependencies only to add a single line file, reducing your image size by 130 MB.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1149826/debian-12-package-ttf-mscorefonts-installer-has-no-installation-candidate
+
+---
+
+#### 9321. Can I make md (Linux software RAID) more fault tolerant?
+
+**问题描述 / Problem Description**:
+Tags: debian, raid, hard-drive, software-raid | Score: 6 | Views: 2500 | Answers: 3 | Created: 2023-11-15
+
+**解决方案 / Solution**:
+When you do a backup, you read a lot of data. Probably the drive returns read errors, and is dropped for that reason. This may only happen for some specific area of the drive, which is not normally read. The problem is that the drive is not reliable. You should replace the drive, not attempt to make MD accept it. MD drops it for a reason - it's not trustworthy.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1147915/can-i-make-md-linux-software-raid-more-fault-tolerant
+
+---
+
+#### 9322. Mail is not getting through to gmail
+
+**问题描述 / Problem Description**:
+Tags: centos, email-server | Score: 6 | Views: 2040 | Answers: 1 | Created: 2022-08-09
+
+**解决方案 / Solution**:
+As you can see from Google’s diagnostic, you are using IPv6 to send the mail. Using dig +short mail.myclearmargin.com. aaaa to look for your AAAA records, I’m not getting any addresses. This might well be the problem. Set up the necessary AAAA record (IP address 2a02:c206:2061:6136::1) or configure your MTA to use IPv4 only. Also: your SPF record, too, only allows IPv4 senders: $ spftrace myclearmargin.com 2a02:c206:2061:6136::1 myclearmargin.com │ "v=spf1 ip4:194.163.151.74 -all" ├── ip4:194.163.151.74 not-match └── all match result=fail fail
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107787/mail-is-not-getting-through-to-gmail
+
+---
+
+#### 9323. sshd.service: Got notification message from PID, but reception only permitted for main PID
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora | Score: 6 | Views: 11906 | Answers: 1 | Created: 2017-03-01
+
+**解决方案 / Solution**:
+This is a known bug in OpenSSH package in Fedora 25. To the background, the SD_NOTIFY was implemented recently (to allow systemd to follow the service status), but the notification is send wrongly also from the per-user processes, which causes this message from systemd. The fix is already prepared and testing build is available in the bug comments. I will fix that soon as mentioned in the comments. Sorry for the noise.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/835748/sshd-service-got-notification-message-from-pid-but-reception-only-permitted-fo
+
+---
+
+#### 9324. Debian 12: can't get ClamAV to listen on TCP 3310
+
+**问题描述 / Problem Description**:
+Tags: debian, clamav, debian-bookworm | Score: 5 | Views: 5356 | Answers: 3 | Created: 2023-12-16
+
+**解决方案 / Solution**:
+I just found the error myself: The file tcp-socket.conf containing [Socket] ListenStream=3310 must be stored in /etc/systemd/system/clamav-daemon.socket.d and not in /etc/systemd/system/clamav-daemon.service.d It is working now! I found the error using journalctl -u clamav-daemon which included the warning /etc/systemd/system/clamav-daemon.service.d/tcp-socket.conf:1: Unknown section 'Socket'. Ignoring.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1149901/debian-12-cant-get-clamav-to-listen-on-tcp-3310
+
+---
+
+#### 9325. Not able to backup of postgres DB from DBeaver
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, centos, postgresql, database, database-backup | Score: 5 | Views: 25965 | Answers: 1 | Created: 2022-05-19
+
+**解决方案 / Solution**:
+I did search and solution is like "which postgres-> and put result of it in it" Not on Ubuntu. which postgres will typically print nothing. The command that DBeaver wants are pg_dump to create backups, and pg_restore to restore. These commands can be installed with sudo apt install postgresql-client . Then in DBeaver, go to Database->Driver Manager, choose "PostgreSQL" then "Edit" then navigate to the "Native Client" tab, then "Add Home" and choose /usr/bin as the location, since it's where pg_dump and pg_restore are installed. Alternatively, you may choose /usr/lib/postgresql/<version>/bin where <version> is your PostgreSQL version, if you have several versions installed and the automatic selection by /usr/bin/pg_dump doesn't work for you.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101295/not-able-to-backup-of-postgres-db-from-dbeaver
+
+---
+
+#### 9326. Failing to run yum update in CentOS 8
+
+**问题描述 / Problem Description**:
+Tags: centos, yum, centos8 | Score: 5 | Views: 27269 | Answers: 2 | Created: 2022-02-16
+
+**解决方案 / Solution**:
+The infra that is behind vault.centos.org will likely always going to be flaky. RedHat has very little motivation to support it. It is for archived community version of their primary OS, the very same community version that was made EOL in favor of CentOS Stream. As detailed here , you may want to use vault.epel.cloud which is more reliable. sed -i 's|baseurl=http://vault.centos.org|baseurl=http://vault.epel.cloud|g' /etc/yum.repos.d/CentOS-Linux-*
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093922/failing-to-run-yum-update-in-centos-8
+
+---
+
+#### 9327. Why is SSH disconnecting with 'ssh_dispatch_run_fatal: Connection to x.x.x.x port 2020: Connection corrupted'?
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, mac-osx | Score: 5 | Views: 66467 | Answers: 4 | Created: 2022-02-11
+
+**解决方案 / Solution**:
+This is most likely disconnection issue, I am not sure which version you are using if you check the ssh code base it's says: ssh will return SSH_ERR_CONN_CORRUPT mostly due to sshpkt_disconnect. Now question is how you can keep your connection alive, we have multiple ways one way "milenao" already shared but before changing setting please read the effect first. Other way is run kind of tunnel to send any kind of traffic so service think connection is active such as you can send ping, date, watch, sleep after some frequency according to your need. Update : With above logs what I can say your connection is not alive and connection close has been initiated this is same what we are predicting. /* The connection has been terminated. */ ssh_packet_get_bytes(ssh, &ibytes, &obytes); verbose("Transferred: sent %llu, received %llu bytes", (unsigned long long)obytes, (unsigned long long)ibytes); verbose("Closing connection to %.500s port %d", remote_ip, remote_port);
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093377/why-is-ssh-disconnecting-with-ssh-dispatch-run-fatal-connection-to-x-x-x-x-por
+
+---
+
+#### 9328. Debian create persistent network bridge
+
+**问题描述 / Problem Description**:
+Tags: networking, debian, linux-networking, bridge, libvirt | Score: 4 | Views: 8939 | Answers: 2 | Created: 2024-02-16
+
+**解决方案 / Solution**:
+You have to give an option so the bridge plugin that is provided as /etc/network/if-pre-up.d/bridge by installing the package bridge-utils activates. The main command it provides brctl is of no use (superseded by ip link + bridge ), but the plugin does matter. Without a bridge-related option, the system has no way to understand a bridge has to be created. So if using the package ifupdown (rather than ifupdown2 or ifupdown-ng ): apt install bridge-utils Then the simplest option for this is to tell it there is no bridge port. Add this option: bridge_ports none which will now activate the plugin and create a bridge and as requested with the special keyword none will not attach any interface as bridge port to it. Remarks: there is one default route to be used at the same time gateway 10.1.0.1 is probably a mistake: if you already have an other default route on the system (also with metric 0), this will make the result fail. This is especially true when designating oneself as the gateway. Remove it first (as I did below), and ponder adding it again later. a bridge without bridge port is in operstate DOWN ... on any recent system running a recent systemd such as Debian 11 or 12. As described for example in this Q/A with the cause described for example in my answer in this Q/A . This can cause a few issues for IPv6, but usually none for IPv4. The configuration becomes: auto vm-bridge iface vm-bridge inet static address 10.1.0.1 broadcast 10.1.0.3 netmask 255.255.255.252 # gateway 10.1.0.1 bridge_ports none
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153694/debian-create-persistent-network-bridge
+
+---
+
+#### 9329. Leapp always fails upgrade: more space needed
+
+**问题描述 / Problem Description**:
+Tags: centos, upgrade | Score: 4 | Views: 7864 | Answers: 2 | Created: 2023-03-27
+
+**解决方案 / Solution**:
+I ran into similar issues, in my case I tried setting the export LEAPP_OVL_SIZE parameter etc, but in the end it was the filesystem mounted on /var/lib that was not large enough. The / filesystem had > 25Gb of free space so I did the following: First: cd /var/lib mv leapp / ln -s /leapp This way, using a symbolic link, /var/lib/leapp was large enough to be able to upgrade my system.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1127248/leapp-always-fails-upgrade-more-space-needed
+
+---
+
+#### 9330. Passive FTP not working properly
+
+**问题描述 / Problem Description**:
+Tags: iptables, fedora, vsftpd | Score: 4 | Views: 8402 | Answers: 2 | Created: 2017-06-08
+
+**解决方案 / Solution**:
+Is the FTP server you are connecting to on the other side of a NAT router? I see 192.168. in your IP there so there is a private network involved. You've got a pretty open iptables setup, so I don't think that's the issue (though you could try flushing the tables and seeing if that makes any difference). Passive FTP requires the FTP server to make a new connection back to your FTP client ( see here for a more detailed description of passive FTP ), so this new return connection will more than likely fail to get back through a NAT router. There is an FTP module for IPTables which I think deals with this, but if NAT is involved, I'd just use active FTP (or as other comment says - use something else altogether if possible). The IPTables you've shown is your for FTP client, not a router of some sort, correct?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/854534/passive-ftp-not-working-properly
+
+---
+
+#### 9331. Docker for Debian on a VMware ESXi VM frequently crashes
+
+**问题描述 / Problem Description**:
+Tags: debian, docker, vmware-esxi, vmware-vsphere, server-crashes | Score: 3 | Views: 800 | Answers: 1 | Created: 2024-04-05
+
+**解决方案 / Solution**:
+OP here. Our setup is: physical box runs ESXi > has a VM for Debian/Docker > has a container for nginx. I originally misunderstood @GeraldSchneider's comment - I thought he meant to uninstall Gnome Desktop (maybe he did too), but in fact uninstalling Docker Desktop makes total sense now, in hindsight. Thanks goes to @AB's comments for pointing out that: Two distinct installation options exist: Docker Desktop + Docker Engine Unlike Docker Engine, Docker Desktop runs inside a VM via QEMU within the Debian VM, causing nested virtualisation - which causes the host VM to crash frequently! I abandoned the original install and reinstalled Debian from scratch, following these guides: Docker Docs > Install Docker Engine on Debian Docker Docs > Linux Post-Installation Specifically, configuring the default logging driver I also switched to KDE, now that Gnome-related things aren't needed by Docker Desktop. Only time will tell, but it seems to be a lot snappier in response times and no crashes (yet)!! Edit 8 months later: it’s been performing like a dream ever since! 🥳 See also (but do NOT follow the guides): Docker Docs > Install Docker Desktop on Linux - which states in several places: Docker Desktop on Linux runs a Virtual Machine (VM) Docker Docs > FAQs for Docker Desktop for Linux > Why does Docker Desktop for Linux run a VM? Docker Docs > Install Docker Desktop on Debian
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157424/docker-for-debian-on-a-vmware-esxi-vm-frequently-crashes
+
+---
+
+#### 9332. OpenVPN Revoke a certificate without the CRT file with Easy RSA
+
+**问题描述 / Problem Description**:
+Tags: debian, vpn, openvpn, openssl, certificate-authority | Score: 3 | Views: 3119 | Answers: 1 | Created: 2023-10-09
+
+**解决方案 / Solution**:
+Let me explain why EasyRSA needs a certificate file: it needs a certificate serial number to identify which certificate to revoke. CN is not unique, but serial is. If you see index.txt file, look into it: it's just a text file with easy to understand structure . It's a tab-separated table, one certificate per line. V<tab>yymmddHHMMSSZ<tab><tab>serial<tab>DN R<tab>yymmddHHMMSSZ<tab>yymmddHHMMSSZ<tab>serial<tab>DN ... First field is Validity , either V for valid or R for revoked. Then two fields with timestamps: first is always filled, it's the moment of expiration , and second is empty for valid certificates, and only filled for revoked — it's the moment of revocation. (Notice there are two consecutive tabs for valid certs, the "field" is between them.) Year is two-digit (without the century), and the timestamps are in UTC (Z means Zulu). All the "revoke" action does is to change to "R" and add the revocation date, then it signs a new version of CRL. So, you locate a line with your certificate in that file and do those changes manually. Then regenerate a CRL: openssl ca -gencrl -out ca.crl -config openssl.cnf You can also revert a certificate from being revoked back into valid state this way. In addition to <commonName>.crt EasyRSA often stores also a set of files in the form <serialNumber>.pem (at least, so does EasyRSA v2). These are the same certificates. You can use these to revoke too — just copy a pem file into name.crt and revoke name. Refer to index.txt to relate CNs and serials. You can also view the decoded certificate by executing openssl x509 -in <file> -noout -text . Notice that from security standpoint you need to regenerate the CA and recreate all certificates . This is because old admin had an access to the private key of your CA; this means, he might be still possess the CA and so able to issue valid certificates without even your knowledge. Your VPN is compromised until you do that!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145517/openvpn-revoke-a-certificate-without-the-crt-file-with-easy-rsa
+
+---
+
+#### 9333. Install nodejs 20 on Debian Bullseye in Docker
+
+**问题描述 / Problem Description**:
+Tags: debian, docker, node.js, debian-bullseye | Score: 3 | Views: 7705 | Answers: 1 | Created: 2023-10-04
+
+**解决方案 / Solution**:
+The problem is that curl and gpg are not installed on the default debian image, so the command to download the signing key fails and the repository is invalid. Install the necessary packages before running that command: apt-get update; apt-get install curl gpg -y; \ mkdir -p /etc/apt/keyrings; \ curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg; \ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list; \ apt-get update && apt-get install -y nodejs;
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145095/install-nodejs-20-on-debian-bullseye-in-docker
+
+---
+
+#### 9334. Why does xinetd try to close file descriptors on startup?
+
+**问题描述 / Problem Description**:
+Tags: centos, docker, xinetd, rocky-linux, file-descriptors | Score: 3 | Views: 517 | Answers: 1 | Created: 2023-02-15
+
+**解决方案 / Solution**:
+Many traditional daemons do this, as part of their "daemonization" sequence which is meant to avoid inheriting anything from a user's environment, as traditionally (before IPC-oriented init systems such as systemd or Upstart became popular) the administrator would just directly run an /etc/rc.d script from an interactive session, and sometimes would just directly start the daemon binary – which is then supposed to fork/double-fork, re-open stdin/out/err, shake off any controlling ttys, write its own pidfile, and so on. For example, an old /etc/rc.d/inetd might have been as simple as this: case $1 in start) echo -n "Starting inetd..." /sbin/inetd echo "done." [...] But there is no cross-platform method for determining which file descriptors are open. Some Unixes have a syscall such as closefrom(), others allow the process to iterate over /proc/self/fd/[0-9], but some don't have anything better than iterating from 3 all the way to the current RLIMIT_NOFILE value and blindly trying to every possible FD. The latter is what xinetd does, with the assumption that its NOFILE limit will be somewhere around 1k to 4k at most. (Which was generally the case 20-30 years ago when its startup code was written – it hasn't been changed much since then.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122940/why-does-xinetd-try-to-close-file-descriptors-on-startup
+
+---
+
+#### 9335. How to recover from the GRUB losing its entries and faced with only "grub> _" at boot?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, redhat, grub, grub2 | Score: 3 | Views: 4355 | Answers: 1 | Created: 2022-06-17
+
+**解决方案 / Solution**:
+It turns out that the key to resolve this issue in the context of a Linode server was to disable GRUB_ENABLE_BLSCFG and rerun grub2-mkconfig , eg: $ nano /etc/default/grub ### set: GRUB_ENABLE_BLSCFG=false $ grub2-mkconfig -o /boot/grub2/grub.cfg Generating grub configuration file ... Found linux image: /boot/vmlinuz-4.18.0-372.9.1.el8.x86_64 Found initrd image: /boot/initramfs-4.18.0-372.9.1.el8.x86_64.img Found linux image: /boot/vmlinuz-0-rescue-4f09fa5fdd3642fa85221d7c11370603 Found initrd image: /boot/initramfs-0-rescue-4f09fa5fdd3642fa85221d7c11370603.img done
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103555/how-to-recover-from-the-grub-losing-its-entries-and-faced-with-only-grub-at
+
+---
+
+#### 9336. How do I update a very old CentOS release (6.2) where yum won't work at all because of outdated openssl certificates?
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, centos6, yum, rhel6 | Score: 3 | Views: 8960 | Answers: 2 | Created: 2022-02-11
+
+**解决方案 / Solution**:
+Most likely the certificate is not the problem but the supported TLS versions of the used SSL/TLS library. vault.centos.org for example is TLS1.2 only and your OS by default only supports TLS 1.0. Therefore even disabling certificate checking won't help as the error is on protocol level. I see two possible solutions: Dowload the rpm packages of yum and it's dependencies manually on a different computer transfer them e.g. via USB Stick to the CentOS machine and there manually install them If you have a second PC in your network with a newer OS install mitmproxy on it and on the CentOS machine use it as proxy. Install the mitmproxy root CA certificate or disable certificate checking. Mitmproxy should be able to translate the TLS versions so that yum can again connect to an update server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093403/how-do-i-update-a-very-old-centos-release-6-2-where-yum-wont-work-at-all-beca
+
+---
+
+#### 9337. Network stop working after adding bridge interface
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, linux-networking, fedora, bridge | Score: 3 | Views: 10515 | Answers: 2 | Created: 2017-08-11
+
+**解决方案 / Solution**:
+When you add your ethernet interface to your bridge, you need to move your ipv4 settings from your eth0 to br0 as well. So, first clear eth0 settings and then give your ipv4/6 addresses/gateway/etc to your br0. Personally I find it convenient to use NetworkManager's GUI (or TUI) to do this task.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/868189/network-stop-working-after-adding-bridge-interface
+
+---
+
+#### 9338. Have Kickstart automatically generate a root password on install
+
+**问题描述 / Problem Description**:
+Tags: centos, fedora, kickstart, anaconda | Score: 3 | Views: 1265 | Answers: 1 | Created: 2017-06-24
+
+**解决方案 / Solution**:
+what I do in this situation is generate a 100char long string and then strip randomly out of it from the beginning and the end and then just grab the first X (15 in my case) chars [...kickstart...] %post HOWLONG=15 ## the number of characters NEWPW=$(< /dev/urandom tr -dc A-Za-z0-9 | head -c100 | head -c$((20+($RANDOM%20))) | tail -c$((20+($RANDOM%20))) | head -c${HOWLONG}); echo "${NEWPW}" | passwd --stdin root [... rest of the %post block ...] %end [...kickstart...]
+
+**参考链接 / References**:
+- https://serverfault.com/questions/857713/have-kickstart-automatically-generate-a-root-password-on-install
+
+---
+
+#### 9339. Debsecan showing deprecated linux-libc-dev
+
+**问题描述 / Problem Description**:
+Tags: debian, cve | Score: 2 | Views: 1284 | Answers: 1 | Created: 2024-07-06
+
+**解决方案 / Solution**:
+CAVEATS section of man 1 debsecan says the following: Much like the official Debian security advisories, debsecan's vulnerability tracking is mostly based on source packages. This can be confusing because tools like dpkg only display binary package names. Therefore, debsecan displays the more familiar binary package names. This has the unfortunate effect that all binary packages (including packages containing only documentation, for example) are flagged as vulnerable, and not only those packages which actually contain the vulnerable code. In your case, the package linux-libc-dev (containing Linux kernel C headers) has the corresponding source package linux (kernel itself) so all kernel CVEs are reported against the linux-libc-dev package. See the full list of CVEs for linux package. The linux-libc-dev package doesn't have these vulnerabilities itself. Please note that you need to have the same version of linux-libc-dev as the kernel your system is running.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162096/debsecan-showing-deprecated-linux-libc-dev
+
+---
+
+#### 9340. Linux server: apt-get update "Could not get lock" error
+
+**问题描述 / Problem Description**:
+Tags: linux, ssh, debian, google-compute-engine, apt | Score: 2 | Views: 3337 | Answers: 2 | Created: 2024-03-16
+
+**解决方案 / Solution**:
+root 2306449 0.0 0.0 2576 924 ? Ss Mar12 0:00 /bin/sh /usr/lib/apt/apt.systemd.daily update This is a daily process that updates repositories. Killing it should be fine; a apt update should fix lingering issues. Furthermore, wait ten minutes and try again should also work, as apt update should not take a terribly long time.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1156361/linux-server-apt-get-update-could-not-get-lock-error
+
+---
+
+#### 9341. Remounting tmpfs with a different size during boot
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, mount, fstab, tmpfs | Score: 2 | Views: 711 | Answers: 1 | Created: 2024-01-03
+
+**解决方案 / Solution**:
+I have a default entry [for /tmp ] in /etc/fstab which is being overwritten by the generator. Afterwards I'm executing sudo -o remount /tmp to remount the tmpfs with the correct size. This seems to work sometimes, but other times the remount fails with the following error: not mounted or bad option . I suppose this is a timing problem. One approach is to ensure that your generator only runs when /tmp is already mounted. You can use the RequiresMountsFor= dependency for that in your systemd unit file of the service unit : [Unit] RequiresMountsFor=/tmp ... An alternative is to set the default/placeholder /tmp entry in /etc/fstab with the noauto flag and then explicitly mount /tmp only after your generator has set the desired size. i.e. run a mount command where you current use remount. And a third alternative is to completely do away with the /tmp entry in /etc/fstab and have your generator script generate and execute a systemd-mount [OPTIONS...] --tmpfs [NAME] WHERE command line to mount /tmp as tmpfs.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150825/remounting-tmpfs-with-a-different-size-during-boot
+
+---
+
+#### 9342. How to restart openssl on debian
+
+**问题描述 / Problem Description**:
+Tags: debian, openssl | Score: 2 | Views: 16189 | Answers: 2 | Created: 2023-10-05
+
+**解决方案 / Solution**:
+openssl is command line tool and library. There is no daemon to restart. On next execution of openssl or program which use openssl library the config will be read. If it is involved web server you will need to restart it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145226/how-to-restart-openssl-on-debian
+
+---
+
+#### 9343. Many segfaults, RAM failing?
+
+**问题描述 / Problem Description**:
+Tags: debian, memory, hardware, proxmox, segmentation-fault | Score: 2 | Views: 4514 | Answers: 1 | Created: 2023-09-27
+
+**解决方案 / Solution**:
+Virtual memory does not work like that. Each process has their own address space for all their stuff including instruction pointer (ip) and stack pointer (sp). Much more likely this is a memory management issue in low level code. Although not impossible to also have hardware memory faults. Get crash dumps when this occurs and look at them with a C debugger. From libcoreclr.so library and the .NET cmdline .NET applications are involved, naturally. Apparently Microsoft has specific advice and tooling, see their docs on Analyze dumps on Linux . Configure saving dump files, as in with environment variables . DOTNET_DbgEnableMiniDump=1 and DOTNET_EnableCrashReport=1 seem useful for example. Also be aware your OS distro might have its own crash dump handling, I'm unclear how they interact. Load the crash dump into LLDB as in the docs. lldb --core <dump-file> <host-program> Then try their sos debugger extension . As usual when you aren't familiar with a program, a stack trace is helpful to narrow the search. sos CLRStack for the managed code and sos DumpStack for all code. Collect version information for every dotnet runtime installed or bundled with applications. Install different versions and confirm if they are affected, such as upgrading to the latest of the major version in use. Or downgrading to any versions that worked before. Microsoft claims you can get .NET help via support channels . Although debugging what exactly is going on might take someone who hacks on the runtime. Once you have the affected functions, consider running it by Stack Overflow or the dotnet issue tracker. For crashes that are not dotnet, with a dump you can still attach a debugger like lldb. At least a backtrace would be useful, to see if any patterns emerge from the code. Note that software faults could be either in the source code, a bug in some memory management. Or could be corrupted, some bits got flipped in your copy and its doing bad things. Verify the integrity of your installed software. Consider building another host like this with exactly the same software packages, verifying the signatures of the repo, and see if you can reproduce the problem. In parallel to the software fault investigation, you may wish to continue to investigate hardware faults. If after replacing memory and CPU and the main board and you still get faults, either you haven't found the faulting component, you are the most unlucky person and were shipped new faulty hardware, your physical environment is super hostile, or something else. This is still a very broad investigation, all we can tell from what you shared is that some programs crashed. RAM modules transfer huge amounts of data constantly, with a vanishingly small error rate. A problem where the OS runs mostly normally but programs crash sometimes will be very tricky to root cause. Memory errors require ECC RAM to diagnose with certainty, get hardware with it. Intel and others segment their products, its usually only on server boxes, unfortunately. Maybe start with a micro server, a tiny tower that could serve a variety of test purposes, starting with reproducing this fault on a different box with reliability features. If you do get ECC RAM and other RAS hardware, of course there will be software to collect and report faults. On Linux, rasdaemon is the current trendy tool. Eventually replace all the hardware if you still have doubts that it could be hardware. In professional scenarios, the hardware is inexpensive relative to the applications going down. With such service contracts you will not get much argument with replacing parts. Power supply in particular, replace that. Check the quality of the utility power, such as with a good UPS. All of this is a lot of words to say very few possible faults can be excluded based on what you have provided. Be prepared for a deep investigation to find root cause.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144543/many-segfaults-ram-failing
+
+---
+
+#### 9344. Redhat phantom out of memory issues
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, java | Score: 2 | Views: 1837 | Answers: 2 | Created: 2023-02-09
+
+**解决方案 / Solution**:
+When you say "we upped it from 128GB to 192GB and it hasn't solved the problem" what do you mean? The JVM heap space? The RHEL VM? Also what do you mean by "our monitoring takes a reading?" Is your monitoring looking at Java heap memory or system memory? Is it possible to get OOM with plenty of ram available? Sure. The most common cause is that "plenty of RAM is available" but not of the right kind. e.g. you have RAM on the server, but the Java process isn't configured to use it. Or you have RAM available in the Java heap, but the Java application needs stack memory instead of heap memory. Or perm memory. Or off heap memory. There are some other edge cases where you can get an OOM error even with the above, but those are pretty rare. Most likely it is that you are adding the wrong kind of memory. If I were to debug my first steps would be: What exactly is the OOM error and where are you seeing it? Looking at the JVM startup flags (and potentially the config of the application, depending on what kind of application it is). Enabling GC logging in the application. EDIT IN RESPONSE TO STACK TRACE: Well, it looks like my "there are some other edge cases" comment was prophetic. I agree with Philipp Wendler's comment that this is a duplicate of https://stackoverflow.com/q/16789288/396730 . You aren't actually running out of memory, you are running out of threads. You can look here : https://access.redhat.com/solutions/1420363 for how to increase the number of threads (short version: update /proc/sys/kernel/threads-max ). But as is discussed on the linked Stack Overflow post, you probably need to fix your application rather than just bump the limit. Any application using more than the default maximum number of threads is probably leaking threads. (And if they aren't it's definitely being wasteful of threads.) Especially if you say that they aren't being flooded with requests.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122369/redhat-phantom-out-of-memory-issues
+
+---
+
+#### 9345. how and why container and its image is getting deleted automatically?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, docker, java | Score: 2 | Views: 992 | Answers: 1 | Created: 2023-01-02
+
+**解决方案 / Solution**:
+Verify whether your system has any restrictions on the number of containers that can be produced and whether such restrictions have been achieved.Examine the system to see if there are any memory or resource restrictions that might be causing the container to be removed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1119259/how-and-why-container-and-its-image-is-getting-deleted-automatically
+
+---
+
+#### 9346. Extend /var partition on Centos Stream 8
+
+**问题描述 / Problem Description**:
+Tags: centos, docker, filesystems, lvm, partition | Score: 2 | Views: 1368 | Answers: 3 | Created: 2022-12-15
+
+**解决方案 / Solution**:
+No. Actually, most of the space in the system is always used by /var where normally var iable data lives — databases, Docker, logs, and so on, while Linux's / , rarely uses more than 10 GiB of space, when the system is properly managed. Not only your LVM is suboptimal: I'd fit the whole Debian installation with some services into the space you wasted in your ESP and /boot . (I had a habit of creating VMs with 4GiB allocated for the system. More than enough.) So well, the best solution would be to reduce your oversized root file system, but that couldn't be done online. You need to boot some rescue media, activate your VG and then reduce the file system and the logical volume and that could consume substantial time, considering the size of the partition. Also it is possible to mess things. If you're in hurry, you can make a twist: make some directory in root, move the Docker data into it and bind-mount it back into where Docker data live in var. You need to stop Docker and all containers for the time being. Something like this: systemctl stop docker.service mkdir /var-lib-docker mv /var/lib/docker/* /var-lib-docker mount --bind /var-lib-docker /var/lib/docker systemctl start docker.service That way, the Docker will use the space on the oversized root file system, while being available at the usual location. In the /etc/fstab you need to add the following entry, so this configuration will survive reboot: /var-lib-docker /var/lib/docker none bind 0 0 But remember this is quite ugly hack which can buy you some time but also bring some problems, so look for the opportunity to reclaim space from the root and allocating it to /var properly. And let this be the lesson: never allocate all avaliable space from the beginning. Leave some (most) of it unallocated. You can always easily add the space and do that online, while it is very hard, time consuming and error prone to reclaim it, and that requires downtime. It is best to manage the space so you never need to reclaim it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118096/extend-var-partition-on-centos-stream-8
+
+---
+
+#### 9347. MariaDB - Contiunes to use more memory
+
+**问题描述 / Problem Description**:
+Tags: centos, mysql, memory, mariadb | Score: 2 | Views: 261 | Answers: 1 | Created: 2022-11-16
+
+**解决方案 / Solution**:
+Possible causes of memory utilization, We usually see balanced counts on com_perpare_sql, com_execute_sql and com_dealloc_sql. In your show global status com_dealloc_sql (close) was missed 151,033 times meaning resources were not released in 36 days. We usually see balanced counts on com_stmt_prepare, com_stmt_execute and com_stmt_close. In your show global status, com_stmt_close was missed 373.474 times meaning resources were not released in 36 days. There were 68,677 aborted_clients events counted 78 rate per hour that could be contributing to observation. com_rollback count of 117,323 averaging a rollback every 27 seconds can sometimes be prevented. rollback processing is resource intensive. Search for 'how to avoid mysql rollback'. View profile for contact info, please. Many Global Variables could be adjusted to improve performance.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115803/mariadb-contiunes-to-use-more-memory
+
+---
+
+#### 9348. Fix kernel issues in rescue mode
+
+**问题描述 / Problem Description**:
+Tags: centos, boot, kernel, upgrade, grub2 | Score: 2 | Views: 1569 | Answers: 1 | Created: 2022-11-14
+
+**解决方案 / Solution**:
+I am not 100% sure what is failing but in our /boot/grub2/grub.cfg , the first menu entry is the rescue mode entry. We ran a grub2-mkconfig -o /boot/grub2/grub.cfg adtbefore reboot and didn't have issues. Still looking into this as it has affected a few other servers but wanted to give you a workaround for future.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115590/fix-kernel-issues-in-rescue-mode
+
+---
+
+#### 9349. Centos7 machine refusing connection to port
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, linux-networking | Score: 2 | Views: 4394 | Answers: 1 | Created: 2022-10-05
+
+**解决方案 / Solution**:
+Your service that is listening on port 8245 is probably not listening on all addresses, maybe only localhost. You can confirm by running netstat -l on the Centos server and checking for the local address with port 8245 and state LISTEN.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112347/centos7-machine-refusing-connection-to-port
+
+---
+
+#### 9350. Install QEMU for Docker Buildx on Rocky Linux 8
+
+**问题描述 / Problem Description**:
+Tags: centos, docker, redhat, rocky-linux | Score: 2 | Views: 2231 | Answers: 1 | Created: 2022-08-19
+
+**解决方案 / Solution**:
+Install the Fedora 28 qemu-user-static package: The following instructions will download the Fedora 28 GPG key and RPMs needed to load qemu, then import the GPG key and install the RPMs: mkdir qemu-rpms; cd qemu-rpms wget https://src.fedoraproject.org/rpms/fedora-repos/raw/rawhide/f/RPM-GPG-KEY-fedora-28-primary wget https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/28/Everything/x86_64/os/Packages/q/qemu-user-static-2.11.1-2.fc28.x86_64.rpm wget https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/28/Everything/x86_64/os/Packages/q/qemu-common-2.11.1-2.fc28.x86_64.rpm wget https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/28/Everything/x86_64/os/Packages/c/capstone-3.0.4-14.fc28.x86_64.rpm sudo rpm --import RPM-GPG-KEY-fedora-28-primary sudo yum remove qemu-kvm-common sudo yum install *.rpm when you are done you can safely remote the qemu-rpms folder. Technically, I don't know if this works on Rocky 8 – but on RHEL8 this definitely works.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108575/install-qemu-for-docker-buildx-on-rocky-linux-8
+
+---
+
+#### 9351. how to add tomcat to tomcat.service for systemctl startup
+
+**问题描述 / Problem Description**:
+Tags: centos, tomcat | Score: 2 | Views: 23800 | Answers: 2 | Created: 2022-07-14
+
+**解决方案 / Solution**:
+Create a template service unit file at /etc/systemd/system/tomcat@.service: [Unit] Description=Tomcat - instance %i After=syslog.target network.target [Service] Type=forking User=tomcat Group=tomcat WorkingDirectory=/var/tomcat/%i Environment="JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/" Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom" Environment="CATALINA_PID=/var/tomcat/%i/run/tomcat.pid" Environment="CATALINA_BASE=/var/tomcat/%i/" Environment="CATALINA_HOME=/opt/tomcat/" Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC" ExecStart=/opt/tomcat/bin/startup.sh ExecStop=/opt/tomcat/bin/shutdown.sh #RestartSec=10 #Restart=always [Install] WantedBy=multi-user.target systemctl daemon-reload systemctl enable tomcat@foo.service systemctl start tomcat@foo.service
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1105633/how-to-add-tomcat-to-tomcat-service-for-systemctl-startup
+
+---
+
+#### 9352. Mapping Linux users/groups to Windows 2019 NFS Share
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, nfs, windows-server-2019, centos8 | Score: 2 | Views: 5800 | Answers: 2 | Created: 2022-06-17
+
+**解决方案 / Solution**:
+I had the same issue and was struggling with it since a log time... Now I intigrated Linux server with AD. Managing all files and directory level permissions from Windows the application user accessing files from windows NFS share is an AD authenticated user.. Above procedure still working for me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103557/mapping-linux-users-groups-to-windows-2019-nfs-share
+
+---
+
+#### 9353. Postfix / OpenDKIM config on Centos8
+
+**问题描述 / Problem Description**:
+Tags: centos, postfix, opendkim | Score: 2 | Views: 363 | Answers: 1 | Created: 2022-05-30
+
+**解决方案 / Solution**:
+You have the common configuration for dovecot, putting the socket at /var/spool/postfix/private/auth . Since your SASL provider is Dovecot ( smtpd_sasl_type = dovecot ), Postfix is looking for a socket file in its chroot directory. You have to specify a relative path. This would usually be smtpd_sasl_path=private/auth . But your configuration shows this as unchanged from default smtpd_sasl_path=smtpd , hence the error "Connect to smtpd failed". This could not have worked. If that worked before.. compare against backups, or check your main.cf file for deleted or mangled lines around the smtpd_sasl_* settings. If there was an obvious syntax error in your main.cf file, Postfix would print a warning on startup, so a restart might help pinpoint. Having auth-related problems disturb (non-authenticating) incoming mail could have been avoided , if you had set smtpd_sasl_auth_enable=yes only for the services that need them, in master.cf , instead of globally in main.cf . Usually that would be below the service configurations for ports smtps or submission , as you will find in common configuration recommendations . Changing unknown_hostname_reject_code and similar settings is explicitly advised against in Postfix documentation "unless you have a complete understanding of RFC 5321". Even if you do have a reason to change these for specific mail submissions, it is unlikely a good idea for receiving mail from the general internet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102088/postfix-opendkim-config-on-centos8
+
+---
+
+#### 9354. How to enable http/2 from a Centos Package/yum?
+
+**问题描述 / Problem Description**:
+Tags: centos, apache-2.4, centos7 | Score: 2 | Views: 10477 | Answers: 2 | Created: 2022-04-17
+
+**解决方案 / Solution**:
+CentOS7 by default is stuck with Apache httpd 2.4.6 which doesn't provide the mod_http2.so module to implement HTTP/2. Here's how to do with supported software and without recompilation: enable the Software Collections Repository These are supported additional packages including newer versions of existing packages. They install in a separate directory (usually /opt/rh ) so they won't clash with the original version. This also means there's a bit more effort to use some of their features. yum install centos-release-scl This will install a new repository with the additional packages Install httpd24 yum install httpd24 which mostly will pull the actual package httpd24-httpd and more importantly for this answer, will pull in turn httpd24-libnghttp2 : A library implementing the HTTP/2 protocol. configure the newer installation in its own configuration directories Like many SCL packages, this package is intended to be installed without clashing with the package it's replacing, rather than updating it. Most of the configuration files usually found in /etc/httpd are now found in /opt/rh/httpd24/root/etc/httpd . So please copy and adapt (if there are some absolute directory references in configurations etc.) the settings over the new place: /opt/rh/httpd24/root/etc/httpd This version comes with HTTP/2 enabled: # grep -r http2 /opt/rh/httpd24/root/etc/httpd/ /opt/rh/httpd24/root/etc/httpd/conf.modules.d/00-base.conf:LoadModule http2_module modules/mod_http2.so verify syntax etc. This is part of SCL peculiarities. One must run preparatory commands to use the correct path and libraries for the added components. Interactively (but a non-interactive command could be run immediately instead): # scl enable httpd24 -- bash -l The new shell inherits additional environment: # printenv |grep /opt/rh MANPATH=/opt/rh/httpd24/root/usr/share/man: LIBRARY_PATH=/opt/rh/httpd24/root/usr/lib64 LD_LIBRARY_PATH=/opt/rh/httpd24/root/usr/lib64 PATH=/opt/rh/httpd24/root/usr/bin:/opt/rh/httpd24/root/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/bin PKG_CONFIG_PATH=/opt/rh/httpd24/root/usr/lib64/pkgconfig and can now run commands like: # httpd -v Server version: Apache/2.4.34 (Red Hat) Server built: Feb 1 2022 14:11:48 Switch the service over systemd services are already made to use this new environment, so nothing related to the previous bullet is needed here systemctl disable --now httpd systemctl enable --now httpd24-httpd
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098821/how-to-enable-http-2-from-a-centos-package-yum
+
+---
+
+#### 9355. CentOS 9 Stream - errors doing yum update
+
+**问题描述 / Problem Description**:
+Tags: centos, yum, centos8 | Score: 2 | Views: 17847 | Answers: 3 | Created: 2022-02-15
+
+**解决方案 / Solution**:
+baseos CentOS Stream 9 - BaseOS epel Extra Packages for Enterprise Linux 7 - x86_64 extras-common CentOS Stream 9 - Extras packages You are using old EPEL (and "remi") for EL-7 while you are running EL-9 You need to remove epel-release and remi-release and install the proper versions.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093783/centos-9-stream-errors-doing-yum-update
+
+---
+
+#### 9356. Issues installing Cent OS 7 + Zen 3 5800x
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, installation | Score: 2 | Views: 1441 | Answers: 1 | Created: 2022-02-14
+
+**解决方案 / Solution**:
+As discussed in a centos forum thread , it seems that AMD Ryzen 5000 series and up CPUs are not and will never be supported by centos 7. As this is the last point release for centos, you will have to try your luck with an other linux distribution on your recent machine. Note that according to this thread, the centos 8 development release does not support your CPU either (but I actually did not try myself).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093659/issues-installing-cent-os-7-zen-3-5800x
+
+---
+
+#### 9357. Smartd unable to send mail
+
+**问题描述 / Problem Description**:
+Tags: centos, msmtp, smartmontools | Score: 2 | Views: 1576 | Answers: 1 | Created: 2022-02-05
+
+**解决方案 / Solution**:
+send-mail: cannot connect to smtp.gmail.com, port 587: Permission denied send-mail: could not send mail (account default from /etc/msmtprc) This is probably an authentication problem, check your credentials in your /etc/msmtprc . send-mail: cannot log to /var/log/msmtp.log: cannot open: Permission denied It could be AppArmor forbidding to log to /var/log/msmtp.log . I don't know about CentOS, but you might want to take a look at this AskUbuntu question anyway. On Ubuntu there is a default AppArmor profile that only allows logging to /var/log/msmtp (without the .log extention). Or you can try with syslog LOG_MAIL (which should log to /var/log/mail.log ) instead of logfile /var/log/msmtp.log in your msmtprc, as suggested here .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1092733/smartd-unable-to-send-mail
+
+---
+
+#### 9358. how to switch docker runtime between runc and oci
+
+**问题描述 / Problem Description**:
+Tags: docker, fedora | Score: 2 | Views: 6186 | Answers: 2 | Created: 2017-07-24
+
+**解决方案 / Solution**:
+This is how I changed the default runtime from runc to crun on Ubuntu. Simply edit ~/.config/docker/daemon.json , and add crun to the list of runtimes, then set crun to be the default runtime. { "default-runtime": "crun", "runtimes": { "crun": { "path": "/usr/bin/crun" } } } Now restart docker service ( systemctl restart --user docker ) Note: If you are not running docker in rootless mode, you will need to instead edit /etc/docker/daemon.json . Sources https://github.com/containers/crun/issues/37
+
+**参考链接 / References**:
+- https://serverfault.com/questions/864836/how-to-switch-docker-runtime-between-runc-and-oci
+
+---
+
+#### 9359. Fedora install from hell - any ideas on what to try?
+
+**问题描述 / Problem Description**:
+Tags: fedora | Score: 2 | Views: 536 | Answers: 1 | Created: 2017-06-23
+
+**解决方案 / Solution**:
+Well, while I never got it to work in UEFI, I got it to work in legacy, and thatðs good enough. I had to pass the "inst.gpt" option to anaconda on boot. add 2MB grub boot partitions as sdX1 within anaconda (not after). Anaconda still crashed three times during the install, but on the fourth it went through. I still don't have net access (been working on that), but whatever.... if I can't resolve it I can use an addon card.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/857613/fedora-install-from-hell-any-ideas-on-what-to-try
+
+---
+
+#### 9360. Connection reset/closed by server after SSH2_MSG_KEXINIT sent in SSH
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora | Score: 2 | Views: 16913 | Answers: 3 | Created: 2017-06-13
+
+**解决方案 / Solution**:
+For visibility, the link on the comment by @Jakuje solved it for me. Reset the MTU size to 576: ifconfig eth0 mtu 576 Doing it only on the host running the ssh server worked for me, but the link suggests doing it on both server and client.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/855416/connection-reset-closed-by-server-after-ssh2-msg-kexinit-sent-in-ssh
+
+---
+
+#### 9361. How to reconfigure /dev/mapper space?
+
+**问题描述 / Problem Description**:
+Tags: linux, fedora | Score: 2 | Views: 5795 | Answers: 1 | Created: 2017-05-08
+
+**解决方案 / Solution**:
+The /dev/mapper/* devices are used for more advanced things like LVM dm-crypt and other advanced block devices. Given the naming of the devices I would bet your system is using LVM, and has a volume group named fedora , and two logical volumes root , and home . You can verify you are using LVM by looking at the output of pvs , vgs , and lvs these list the physical volumes, volume groups, and logical volumes. Shrinking a logical volume is pretty tricky to do safely. But, since fedora-home is only use 1.1GB of storage you could make a backup of the data from home into another directory under your root filesystem. Then unmount and remove the home logical volume. After that, you could expand the root logical volume and filesystem. If you want, you could also re-create another home logical volume. When using LVM, you really should only allocate space to volumes as needed. So after making removing, and recreating a small home, and expanding the root volume, you should leave some free space, don't allocate everything to one or the other. Only allocate what you need, that way you could expand either as needed. LVM HoWTO http://tldp.org/HOWTO/LVM-HOWTO/ As always, before you change things too much it is always a good idea to verify that you have good backups. It is also a good idea to play around with LVM in a test VM or something first. That way are sure the commands you plan on using are the correct ones.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/848914/how-to-reconfigure-dev-mapper-space
+
+---
+
+#### 9362. User sessions are not ended
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, systemd | Score: 2 | Views: 2349 | Answers: 1 | Created: 2017-05-04
+
+**解决方案 / Solution**:
+You may want to have a look at ClientAliveInterval setting in sshd_config on the server side. With a value different from 0, this should close disconnected sessions after a given amount of time. (see also ClientAliveCountMax ) man sshd_config will give you more informations about these settings.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/848194/user-sessions-are-not-ended
+
+---
+
+#### 9363. How to downgrade from php 7 to 5.6 on Fedora 25
+
+**问题描述 / Problem Description**:
+Tags: php, fedora, downgrade | Score: 2 | Views: 13414 | Answers: 1 | Created: 2017-02-27
+
+**解决方案 / Solution**:
+This is how Software Collections are designed: parallel installation without altering base system and allow multiple versions. So /usr/bin/php is not provided on purpose. You can read My PHP Workstation . For mod_php (apache module), if you can remove "php" (base package) and install " php56-php " (which is missing in your list), it will work out of the box. If you can't remove "php", you can disable its LoadModule directive (/etc/httpd/conf.modules.d/15-php.conf), so the php5 module will be loaded (/etc/httpd/conf.modules.d/10-php56-php.conf). For FPM (FastCgi server), when php56-php-fpm service runs you only have to adapt the path to the socket in webserver configuration (apache, nginx or lighttpd) For CLI , you can use the module command (and most applications will find php and related commands in the PATH) $ module load php56 $ php -v PHP 5.6.30 (cli) (built: Jan 20 2017 17:58:52) And if you really want a single version, you can create the symlink, it will work: $ ln -s /opt/remi/php56/root/usr/bin/php /usr/bin/php $ php -v PHP 5.6.30 (cli) (built: Jan 20 2017 17:58:52)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/835277/how-to-downgrade-from-php-7-to-5-6-on-fedora-25
+
+---
+
+#### 9364. Creating postgres tablespace permission denied even though owned by postgres
+
+**问题描述 / Problem Description**:
+Tags: linux, postgresql, database, fedora | Score: 2 | Views: 8070 | Answers: 2 | Created: 2017-01-28
+
+**解决方案 / Solution**:
+You have SELinux enabled, and have missed that it is blocking this. You can see the log entries in the audit log /var/log/audit/audit.log . The easiest way to resolve the problem is to use the default data directory location, /var/lib/pgsql and to not try to override it. Rather, mount your storage at this location.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/829110/creating-postgres-tablespace-permission-denied-even-though-owned-by-postgres
+
+---
+
+#### 9365. N: Missing Signed-By in the sources.list(5) entry for 'mirror+file:/etc/apt/mirrors/debian.list'
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 1 | Views: 1238 | Answers: 1 | Created: 2025-11-19
+
+**解决方案 / Solution**:
+The Signed-By configuration is useful to pass apt-secure verification. Since Debian GNU/Linux trixie, you can edit this file /etc/apt/sources.list.d/debian.sources . And double-check to have this specific trusted keyring: Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg Example result, see the new line added about Signed-By : Types: deb deb-src URIs: mirror+file:///etc/apt/mirrors/debian.list Suites: trixie trixie-updates Components: main Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg Sources: https://www.debian.org/releases/trixie/release-notes/upgrading.html#adding-apt-internet-sources https://wiki.debian.org/SourcesList
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195988/n-missing-signed-by-in-the-sources-list5-entry-for-mirrorfile-etc-apt-mirr
+
+---
+
+#### 9366. unattended-upgrades breaking java processes
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, java, unattended-upgrades | Score: 1 | Views: 1060 | Answers: 2 | Created: 2024-11-13
+
+**解决方案 / Solution**:
+What Ubuntu version do you have? Ubuntu 24.04 has an elaborate system of scanning for outdated library use and restart any process that uses a replaced library. See the announcement needrestart changes in Ubuntu 24.04: service restarts . It's a feature I actually turn off on occasion (by commenting out the line in /etc/apt/apt.conf.d/99needrestart ) because of its aggressiveness. The funny thing is, I don't think this works for Java runtime environments and processes that uses it. This is something that may warrant some actual discussion with Ubuntu. And yes, package pinning holds back updates, including security updates.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167747/unattended-upgrades-breaking-java-processes
+
+---
+
+#### 9367. How to configure ipv6 with NO prefix delegation
+
+**问题描述 / Problem Description**:
+Tags: debian, ipv6, dhcpv6, radvd, ndp | Score: 1 | Views: 785 | Answers: 1 | Created: 2024-07-25
+
+**解决方案 / Solution**:
+Your ISP is using 240e:473:620:140c::/64 on the WAN side of your Debian router. You are then trying to use the same prefix, 240e:473:620:140c::/64, on the LAN side of this router. This is not a workable configuration. You need to use a different prefix on the LAN side. As it stands, your ISP has effectively given you a single /128, so the only workable configuration is to use IPv6 ULAs on the LAN (use a /48 or /64 from fd00::/8 on the LAN), and use many-to-one NAT66 on the router so that all internet-bound packets have source IPv6 address 240e:473:620:140c:10f8:8d5a:c303:7640 (that of your router's WAN interface), This is identical to the way in which NAT(44) is commonly used in IPv4 networks, with the ULA range taking the role of RFC1918 address space. What you should do in this situation is tell your ISP to get their act together and delegate you a prefix like they're supposed to.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163064/how-to-configure-ipv6-with-no-prefix-delegation
+
+---
+
+#### 9368. Stop debian from permitting all remaining space being used and bricking
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, filesystems | Score: 1 | Views: 302 | Answers: 2 | Created: 2024-07-23
+
+**解决方案 / Solution**:
+Reserved space is reserved for root, so only root can fill it. The idea is to run as little as possible as root, so that there's always space left for root to login. Another fix for you is to move things to other partitions, e.g. have /var and /usr as separate partitions, to ensure that the system can boot. Apart from that there's not a whole lot you can do; full disk is full disk, and it doesn't matter to the process attempting to write why the write is blocked - it will fail either way.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162937/stop-debian-from-permitting-all-remaining-space-being-used-and-bricking
+
+---
+
+#### 9369. How do I enable Google Authenticator (TOTP) with SSH keys with a passphrase on Debian 12?
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh-keys, google-authenticator, passphrase | Score: 1 | Views: 903 | Answers: 1 | Created: 2024-07-08
+
+**解决方案 / Solution**:
+I ran google-authenticator when logged in as the root user. I should've run it as my normal user account instead.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162163/how-do-i-enable-google-authenticator-totp-with-ssh-keys-with-a-passphrase-on-d
+
+---
+
+#### 9370. Systemd CPUQuota for User Slice not working
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, resource-management | Score: 1 | Views: 1159 | Answers: 1 | Created: 2024-07-01
+
+**解决方案 / Solution**:
+Default CPU Accounting was not turned on. This was discovered by systemctl show -p DefaultCPUAccounting DefaultCPUAccounting=no This basically stops systemd from enforcing the user slice configuration of CPUQuota placed in /etc/systemd/system/user-.slice.d/50-CPUQuota.conf of all login nodes. To enable DefaultCPUAccounting, the option was uncommented in /etc/systemd/system.conf to DefaultCPUAccounting=yes Followed by systemctl daemon-reload Now, it works properly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161844/systemd-cpuquota-for-user-slice-not-working
+
+---
+
+#### 9371. AH00170: caught SIGWINCH, shutting down gracefully
+
+**问题描述 / Problem Description**:
+Tags: linux, nginx, debian, apache-2.4, apache2 | Score: 1 | Views: 7373 | Answers: 1 | Created: 2024-05-22
+
+**解决方案 / Solution**:
+SIGWINCH and "graceful kill" implies that something was asking httpd to shutdown (this is not what SIGWINCH was originally intended for - Apache re-purposed it for this). I'm guessing you already checked uptime to verify that only httpd was stopping? Exactly what that was triggering the stop should be known from your logs. /var/log/cron.log and /var/log/syslog would be a good starting point.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159782/ah00170-caught-sigwinch-shutting-down-gracefully
+
+---
+
+#### 9372. How to use iptables to forward a loopback IP to an external ip address?
+
+**问题描述 / Problem Description**:
+Tags: debian, iptables | Score: 1 | Views: 341 | Answers: 1 | Created: 2024-05-16
+
+**解决方案 / Solution**:
+Found the solution with the help of Tom Yan. I had to add iptables -A INPUT -p tcp -m tcp --dport $port -j ACCEPT as well as sysctl -w net.ipv4.conf.all.route_localnet=1
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1159525/how-to-use-iptables-to-forward-a-loopback-ip-to-an-external-ip-address
+
+---
+
+#### 9373. Systemd user timer lost on reboot
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd | Score: 1 | Views: 1354 | Answers: 2 | Created: 2024-04-27
+
+**解决方案 / Solution**:
+To fix this, ensure that the systemd-user service is enabled and started: systemctl enable systemd-user systemctl start systemd-user This service is responsible for managing user systemd services and timers. Additionally, make sure that the lingering option is enabled for your user: loginctl show-user <username> | grep Lingering If it's not enabled, you can enable it with: loginctl enable-linger <username> After making these changes, re-enable your timers and double check that they persist after a reboot. If you continue to experience these strange issues, examine the Systemd logs for any errors or warnings related to your timers or user services. Edit for asker Thanks for letting me know in the comments! The absence of the systemd-user service is a key clue. Try enabling the user systemd manager service to start automatically on boot: systemctl enable user@$(whoami) Obviously replacing whoami with your actual user name. If this also doesn't work, I’d also try checking the user systemd manager logs: journalctl -u user@$(whoami) Remember that user systemd services and timers are stored in ~/.config/systemd/user/ , so make sure that your user timers are located in this directory and have the correct ownership and permissions. Second Edit I think the error message "The unit files have no installation config" indicates that the user@1000.service file is not meant to be enabled or started directly. Because the service is already started on boot, and there are no errors in the user journal, you were right, I think the issue might be related to the timers themselves, like you said. Firstly verify that the timer files are located in ~/.config/systemd/user/ and have the correct ownership and permissions. Check the timer files for any little typos, which sounds like stupid advice, but actually a lot of the time this is a common reason for things not working, as code and commands must be so exact, one little typo could stuff it up. Also run: systemctl --user status <timer_name>.timer to check their status. If everything looks correct, let’s look at bit deeper into the timer activation process. Try running systemd-analyze plot > boot.html (as the user) and inspect the graphical boot chart to see if there are any issues or delays around the time the timers should be starting. Seeing as this issue is a bit strange, there are many different issues that could be causing it, so you’ll just have to keep trying and trying until it’s fixed- because here’s the thing- every computer problem, no matter how hard, is fixable. Ok, maybe not every computer problem, but I’m sure this one is!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1158589/systemd-user-timer-lost-on-reboot
+
+---
+
+#### 9374. Local WireGuard responing to a SSH TCP SYN to a wrong interface
+
+**问题描述 / Problem Description**:
+Tags: debian, iptables, routing, tcp, wireguard | Score: 1 | Views: 230 | Answers: 1 | Created: 2024-04-09
+
+**解决方案 / Solution**:
+The solution was the question was: # Mark incoming SYN packets and save the mark in the connection iptables -t mangle -A PREROUTING -p tcp --syn -j CONNMARK --set-mark 1 # Restore the mark to outgoing SYN,ACK packets iptables -t mangle -A OUTPUT -p tcp --tcp-flags SYN,ACK SYN,ACK -j CONNMARK --restore-mark ip rule add fwmark 1 table 100 ip route add default dev ino1 table 100
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1157653/local-wireguard-responing-to-a-ssh-tcp-syn-to-a-wrong-interface
+
+---
+
+#### 9375. Running wg-quick up wg0 is altering my /etc/wireguard/wg0.conf file
+
+**问题描述 / Problem Description**:
+Tags: debian, vpn, openvpn, vps, wireguard | Score: 1 | Views: 6195 | Answers: 1 | Created: 2024-03-02
+
+**解决方案 / Solution**:
+SaveConfig = true SaveConfig — if set to `true', the configuration is saved from the current state of the interface upon shutdown. Any changes made to the configuration file before the interface is removed will therefore be overwritten. Taken from man wg-quick . Remove that line.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155576/running-wg-quick-up-wg0-is-altering-my-etc-wireguard-wg0-conf-file
+
+---
+
+#### 9376. Isolated bridge in Debian
+
+**问题描述 / Problem Description**:
+Tags: networking, debian, bridge | Score: 1 | Views: 460 | Answers: 1 | Created: 2024-02-27
+
+**解决方案 / Solution**:
+Just apt install ebtables and add those commands into the up (or post-up , its alias) into the corresponding interface definition: iface br0 inet static bridge-ports eth0 ... ... up ebtables -P FORWARD DROP up ebtables -F FORWARD up ebtables -A FORWARD -i eth0 -j ACCEPT # let the traffic flow from uplink to any ports up ebtables -A FORWARD -o eth0 -j ACCEPT # let the traffic flow from any ports to uplink It might be worth splitting the per-interface parts out to these interface's definitions. If there is many rules, you can collect them into a script and call that script from the post-up action instead. Or, you can also use netfilter-persistent or other firewall manager that supports saving and restoring the ebtables rules, and manage the firewall out of interfaces file. There will be no errors even if the interface still doesn't exists during the ruleset loading (or command invocation), the rule will not be removed when the interface gets deleted for whatever reason, and it will work once there appears an interface with the declared name. So it's safe. I'd actually prefer this way of managing it. It's worth noting that Proxmox VE has a Web GUI that manages this for its VMs and containers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1155349/isolated-bridge-in-debian
+
+---
+
+#### 9377. Can I rely on `curl` being installed on Debian/Ubuntu? How could I find out?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, apt, dependencies, defaults | Score: 1 | Views: 5550 | Answers: 3 | Created: 2024-02-19
+
+**解决方案 / Solution**:
+We Usually do not code for you, as it might easy with some research. However, since i already have something prepared in the past i have something for you: 1. Only Check #!/bin/bash # Check if the curl package is installed if dpkg -l | grep -q "curl"; then echo "curl is installed." else echo "curl is not installed." fi 2. Auto install #!/bin/bash # Check if the curl package is installed if dpkg -l | grep -q "curl"; then echo "curl is installed." else echo "curl is not installed." sudo apt-get update && sudo apt-get install curl fi 3. Ask for installation #!/bin/bash # Check if the curl package is installed if dpkg -l | grep -q "curl"; then echo "curl is installed." else echo "curl is not installed." read -p "Do you want to install curl? (y/n): " choice if [ "$choice" = "y" ]; then sudo apt-get update sudo apt-get install curl fi fi i think you get now the idea. Can you rely on curl being available? It Depends. For scripting, always consider, if a minimalist system is installed, I would run another round to check a requirement, and then implement the thing.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153864/can-i-rely-on-curl-being-installed-on-debian-ubuntu-how-could-i-find-out
+
+---
+
+#### 9378. Move DRBD device to different underlying device without need of re-sync?
+
+**问题描述 / Problem Description**:
+Tags: debian, drbd, luks | Score: 1 | Views: 278 | Answers: 1 | Created: 2024-02-16
+
+**解决方案 / Solution**:
+I just realized I had it wrong in mind. DRBD is below the enrcypted layer. The correct order is as follows: VirtIO disk (*.img) on QNAP virtualization Used as /dev/vdb inside the Debian VM On top of vdb there is the DRBD device Above then there is a LUKS-encryption layer finally, filesystem is btrfs So there is no change to do it without full resync because the existing data is stored encrypted on the DRBD. I can easily remove the encrpyted layer threough btrfs operations. But it will write in any case the data new to the drbd device leading close to a full resync. Damn....
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1153737/move-drbd-device-to-different-underlying-device-without-need-of-re-sync
+
+---
+
+#### 9379. Debian NFS Kerbereos (MIT) Mounts and grants share but permissions are messed up
+
+**问题描述 / Problem Description**:
+Tags: debian, nfs, kerberos | Score: 1 | Views: 421 | Answers: 1 | Created: 2023-12-26
+
+**解决方案 / Solution**:
+addprinc -randkey philip/client.mydomain.net@MYDOMAIN.NET The default mapping of Kerberos principals to Unix accounts only knows about 1-component principal names; i.e. the server knows how to map philip@MYDOMAIN.NET to your Unix account philip , but it doesn't have built-in support 1 for principals that use instances – so the principal gets mapped to nobody instead. In general, don't use instance principals for user accounts unless you know you specifically want to. In most cases, philip@MYDOMAIN.NET is what you should've created for the user account (and, typically, used a regular password instead of a keytab). But if you do need user principals with an instance name, then you'll need to define mapping rules for them. (And unlike service principals, there is no special meaning in using a FQDN for a user account's instance, except in some custom setups. More commonly the instance for a user principal would be something like philip/admin or /cron – an arbitrary string rather than a host name.) Authentication in NFS happens at the SunRPC layer, so the principal→username translation works separately from 'idmapd' (which is only for username⇆UID translation and only used for NFS "payload" such as the UID/GID shown in ls -l ); instead, the translation is done in 'gssproxy' (or the older 'rpc.svcgssd') according to standard libkrb5 mapping rules defined in /etc/krb5.conf . So if you must use user principals with instances, that would look like this for MIT Kerberos: [realms] MYDOMAIN.NET = { # Example rule for the "/admin" instance -> "root" user auth_to_local = RULE:[2:$1;$2@$0](.*;admin@MYDOMAIN\.NET$)s/.*/root/ # Example rule for any instance -> 1st component auth_to_local = RULE:[2:$1;$2@$0](.*@MYDOMAIN\.NET$)s/;.*@.*$// auth_to_local = DEFAULT } (...meaning "if principal has 2 components, then combine them into ' $1;$2@$0 ' and match against the regex / .*@MYDOMAIN\.NET$ /; if match, then do a regex replacement / @.*$ / with ' ' and the result is the username".) You can use the k5userok.c example tool to test the rules. This will cover not only NFS, but also SSH and most other Kerberos-based services (anything that uses the gss_localname() or krb5_aname_to_localname() functions). One issue with host-based instances is that you'll need a generic rule that'll inevitably also apply to service principals, e.g. every one 'host/foo.example.com' will now be mapped to the user 'host'. 1 (It might be because Kerberos cannot easily distinguish user principals with an instance from service principals that use the exact same syntax – or perhaps the usage of instanced user principals almost always goes together with a non -default mapping of some kind.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1150398/debian-nfs-kerbereos-mit-mounts-and-grants-share-but-permissions-are-messed-up
+
+---
+
+#### 9380. Logrotate in Debian 12
+
+**问题描述 / Problem Description**:
+Tags: nginx, debian, logrotate, journal | Score: 1 | Views: 6288 | Answers: 2 | Created: 2023-11-30
+
+**解决方案 / Solution**:
+apt install nginx logrotate nginx ships with an example logrotate config dropped in. Even if it was not included, this is a very popular application and there are any number of articles posted for how to rotate its log files. Package managers sometimes don't have strong dependencies on shared utility programs. In this case, every application with log files, and logrotate. Allows choice: not everyone will use it, and some will be surprised if it is on by default. Of course, it is easy to ask for it by name: install both packages in your automation for setting up a http server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148901/logrotate-in-debian-12
+
+---
+
+#### 9381. servers unusable after boot...piix4_smbus SMBus Host Controller has stopped loading during boot, Debian Testing, various kernels
+
+**问题描述 / Problem Description**:
+Tags: debian, kernel, drivers | Score: 1 | Views: 453 | Answers: 1 | Created: 2023-11-22
+
+**解决方案 / Solution**:
+After several days more research and testing I found that the problem has nothing to do with the debian switch to a merged-/usr system. A few months ago we switched from initramfs-tools to tiny-initramfs because of a package conflict. However, we never actually tested tiny-imitramfs AND it was creating initfamfs.img files that lacked the missing drivers which could very well be a config problem on our part. Anyway, we finally managed to fix this by booting the dead servers with a live flash drive, mounting the dead server raid into a chroot environment, switching the dead server back to initramfs-tools (the package conflict is gone now) and then rebuilding the initramfs.img files. A good description of the process is in the debian wiki at https://wiki.debian.org/RescueLive
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1148389/servers-unusable-after-boot-piix4-smbus-smbus-host-controller-has-stopped-load
+
+---
+
+#### 9382. Make Wine and Mono command-line invocations play well together on Debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, mono, wine | Score: 1 | Views: 501 | Answers: 1 | Created: 2023-10-10
+
+**解决方案 / Solution**:
+The current /usr/lib/cli/binfmt-detector-cli has a bug and classifies most PE32+ binaries as "CLR" (i.e., for Mono). Before May 2022 the classifier has a bug where all PE32+ binaries were classified as native. See https://github.com/mono/linux-packaging-mono/pull/38 . Fixing the classifier to correctly classify PE32+ binaries as CLR or not fixes my problem (the rest of the Wine/Mono stack and the wine-binfmt all work as intended).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145629/make-wine-and-mono-command-line-invocations-play-well-together-on-debian
+
+---
+
+#### 9383. Missing binaries hv_get_dhcp_info and hv_get_dns_info
+
+**问题描述 / Problem Description**:
+Tags: debian, hyper-v | Score: 1 | Views: 1331 | Answers: 1 | Created: 2023-10-09
+
+**解决方案 / Solution**:
+So I found the answer eventually - these are just shell scripts and can be found on github here: https://github.com/torvalds/linux/tree/master/tools/hv
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145467/missing-binaries-hv-get-dhcp-info-and-hv-get-dns-info
+
+---
+
+#### 9384. Debian - Wireguard Forces Real Time Kernel
+
+**问题描述 / Problem Description**:
+Tags: debian, linux-kernel, wireguard, realtime | Score: 1 | Views: 1284 | Answers: 1 | Created: 2023-10-08
+
+**解决方案 / Solution**:
+download wireguard, wireguard-tools and resolvconf. extract all from wireguard, in directory wg, put control (but delete md5sums) in folder with name DEBIAN, edit control Depends: wireguard-tools (>= 1.0.20210914-1), resolvconf save, exit one directory up (so can list 2 folders: DEBIAN and usr) and compress new wireguard package: dpkg-deb -b -z9 -Zxz -Sextreme . ../wireguard.deb new package is one folder up...when install it will not ask for stupid kernel (but installed kernel must be > or = 5.6)... if you want client only, install only wireguard-tools and resolvconf, i tested on debian bookworm with kernel 5.10 - work fine
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1145445/debian-wireguard-forces-real-time-kernel
+
+---
+
+#### 9385. UFW firewall deny incoming connections except for one ip
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, firewall, port, ufw | Score: 1 | Views: 1724 | Answers: 1 | Created: 2023-10-01
+
+**解决方案 / Solution**:
+You can try use ufw allow from 172.19.0.2 to any port 6677 But as far as I know, whenever you launch the docker container it runs on a different IP unless you fix the IP.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1144871/ufw-firewall-deny-incoming-connections-except-for-one-ip
+
+---
+
+#### 9386. Exim, Debian 12 (bookworm): Tainted '..Maildir/' (file or directory name for maildir_local_delivery transport) not permitted
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, exim, debian-bookworm | Score: 1 | Views: 799 | Answers: 1 | Created: 2023-09-18
+
+**解决方案 / Solution**:
+I think you just need to replace directory = /home/${local_part}/Maildir/ with directory = /home/${local_part_data}/Maildir/ At least that is the first thing I found on https://mox.sh/sysadmin/tainted-filename-errors-in-exim-4.94/ that fits to your config
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1143971/exim-debian-12-bookworm-tainted-maildir-file-or-directory-name-for-mai
+
+---
+
+#### 9387. High process memory usage (VmRSS) on rocky 8 vs. centos 7.7 for essentially everything
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, memory-usage, rocky-linux | Score: 1 | Views: 1753 | Answers: 1 | Created: 2023-04-14
+
+**解决方案 / Solution**:
+you could try running sysctl -a on both systems to find what's different. look for settings related to vm.swappiness , vm.dirty_background_ratio , and vm.overcommit_memory , etc. etc. You might also want to check your httpd, nginx, and postgres config files to see if the defaults might have changed. Also check for any extra packages that could have installed on rocky Linux 8 that are using more memory. For example, with Apache/Nginx, make sure to check the number of worker processes/threads to match the available hardware resources. Having too many workers can cause issues with memory usage. if all else fails, you could try profiling the memory usage of said processes using something like the Valgrind tool 'Massif' to profile heap memory usage. But that's a whole other can of worms.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1128698/high-process-memory-usage-vmrss-on-rocky-8-vs-centos-7-7-for-essentially-ever
+
+---
+
+#### 9388. How to diagnose out of space errors?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ssh, disk-space-utilization | Score: 1 | Views: 833 | Answers: 2 | Created: 2023-03-09
+
+**解决方案 / Solution**:
+This is not a full solution but just a possible direction to investigate in case of similar errors (I think the OP must have found a solution by now, but others may end up here with similar problems). The message Error "..." while writing config could originate from libpam-google-authenticator (see here ). For example, if the grace_period option is defined, the PAM module requires some free space to store the IP address and timestamp of the last login. See here for more information. It may be worth checking if the system is indeed running out of space (possibly even just in the location where this PAM module saves its information) or if something else is seen by this PAM module as an out-of-space problem.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125771/how-to-diagnose-out-of-space-errors
+
+---
+
+#### 9389. Emails delivered, but no where to be found
+
+**问题描述 / Problem Description**:
+Tags: centos, email, postfix, dovecot | Score: 1 | Views: 855 | Answers: 1 | Created: 2023-03-07
+
+**解决方案 / Solution**:
+You're hunting a ghost. The line "... status=sent (delivered via plesk_virtual service) ..." in your maillog is only logged when Plesk has for sure delivered the mail to a mailbox. It absolutely must be in that mailbox. If you do not find it there, another software, such as a client filter rule or download-and-remove-afterwards is removing it after it was delivered. Your log also does not include any SpamAssassin lines, so SA is not processing the mail.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1125555/emails-delivered-but-no-where-to-be-found
+
+---
+
+#### 9390. netbooting CentOS via PXE and UEFI : unable to mount root over nfs -- failed to switch root path /sysroot
+
+**问题描述 / Problem Description**:
+Tags: centos, nfs, pxe-boot, uefi, netboot | Score: 1 | Views: 1037 | Answers: 1 | Created: 2023-02-06
+
+**解决方案 / Solution**:
+The rockylinux team pointed in the right direction. For pxeboot, one needs to use pxeboot/vmlinux and pxeboot/initrd.img files found on the ISO's or dl.rockylinux.org/pub/rocky/9/BaseOS.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1122071/netbooting-centos-via-pxe-and-uefi-unable-to-mount-root-over-nfs-failed-to
+
+---
+
+#### 9391. mysqldump on mariadb 10.2.44 CentOS 7 does not work, but mysql does
+
+**问题描述 / Problem Description**:
+Tags: centos, mariadb | Score: 1 | Views: 507 | Answers: 1 | Created: 2022-12-25
+
+**解决方案 / Solution**:
+The problem turned out to be that mysqldump needed --ssl to function properly.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1118804/mysqldump-on-mariadb-10-2-44-centos-7-does-not-work-but-mysql-does
+
+---
+
+#### 9392. Make ip route add and ip rule add commands persistent on startup
+
+**问题描述 / Problem Description**:
+Tags: centos, linux-networking | Score: 1 | Views: 9596 | Answers: 2 | Created: 2022-12-03
+
+**解决方案 / Solution**:
+RHEL 8 and later -- and all derived distributions, like CentOS and AlmaLinux -- no longer use the legacy /etc/sysconfig/network-scripts directory. The correct solution is to modify the NetworkManager configuration. NetworkManager can add both static routes and policy routing rules. There is some relevant documentation here . On a default CentOS 8(stream) install, my NetworkManager configuration looks like this: [root@localhost ~]# nmcli c show NAME UUID TYPE DEVICE System eth0 5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03 ethernet eth0 If I want to add a policy route to eth0 , I would do something like this: nmcli c mod 'System eth0' \ ipv4.addresses 10.0.0.10/24 \ ipv4.routes '0.0.0.0/0 10.0.0.1 table=1' \ ipv4.route-rules 'priority 100 from 10.0.0.0/24 table 1' In this example I'm adding a static ip addresses that is different from the one that gets assigned dynamically using DHCP; this may not be necessary in your situation depending on what your local configuration looks like. After restarting the interface: nmcli c down 'System eth0'; nmcli c up 'System eth0' I now have: [root@localhost ~]# ip addr show eth0 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000 link/ether 52:54:00:c1:f0:62 brd ff:ff:ff:ff:ff:ff inet 10.0.0.10/24 brd 10.0.0.255 scope global noprefixroute eth0 valid_lft forever preferred_lft forever inet 192.168.122.164/24 brd 192.168.122.255 scope global dynamic noprefixroute eth0 valid_lft 3505sec preferred_lft 3505sec inet6 fe80::5054:ff:fec1:f062/64 scope link valid_lft forever preferred_lft forever [root@localhost ~]# ip rule show 0: from all lookup local 100: from 10.0.0.0/24 lookup 1 32766: from all lookup main 32767: from all lookup default [root@localhost ~]# ip route show table 1 default via 10.0.0.1 dev eth0 proto static metric 100 10.0.0.1 dev eth0 proto static scope link metric 100
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1117223/make-ip-route-add-and-ip-rule-add-commands-persistent-on-startup
+
+---
+
+#### 9393. How to configure a system wide proxy for php file_get_contents on CentOS?
+
+**问题描述 / Problem Description**:
+Tags: centos, php, proxy, mod-proxy, http-proxy | Score: 1 | Views: 1785 | Answers: 1 | Created: 2022-11-15
+
+**解决方案 / Solution**:
+file_get_contents requires manual context setup, either as shown, or by calling stream_context_set_default with proxy settings. However, many PHP applications use libcurl , which makes use of common proxy environment variables. To set them up, create a drop-in in /etc/php/7.4/fpm/pool.d/www-env.conf (for PHP 7.4 on Debian, please adjust for CentOS): env[ALL_PROXY]=http://localhost:3128/ env[NO_PROXY]=*.excluded.tld
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1115758/how-to-configure-a-system-wide-proxy-for-php-file-get-contents-on-centos
+
+---
+
+#### 9394. CentOS 7 - upgrade PHP version from 7.2 to 8
+
+**问题描述 / Problem Description**:
+Tags: nginx, centos, php, php-fpm | Score: 1 | Views: 4178 | Answers: 1 | Created: 2022-10-28
+
+**解决方案 / Solution**:
+/etc/opt/remi/php72 Looks like you have installed multiple version of PHP. fastcgi_pass 127.0.0.1:9072; This is the listen socket defined in the FPM configuration file for PHP 7.2 (in /etc/opt/remi/php72/php-fpm.d) Simply change this to the one defined in the FPM configuration file for PHP 8.0 (see /etc/php-fpm.d) You have to start (if not yet used) the FPM 8.0 service (probably "php-fpm") You can also stop (if not used anymore) the FPM 7.2 service (probably "php72-php-fpm"). If you don't need PHP 7.2 anymore you can also uninstall it dnf remove 'php72*' Reminders: for a proper repository configuration, follow the wizard instruction CentOS 7 is old and close to its end of life (June 2024), I recommend a modern version (EL-8 or EL-9) especially to run modern software such as PHP 8.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1114237/centos-7-upgrade-php-version-from-7-2-to-8
+
+---
+
+#### 9395. Error opening terminal: unknown when executing nano
+
+**问题描述 / Problem Description**:
+Tags: centos, ssh, nano | Score: 1 | Views: 7580 | Answers: 1 | Created: 2022-10-24
+
+**解决方案 / Solution**:
+Looks like you need to set the TERM environment variable. That tells nano how to run within the Termius environment i.e. it encodes what capabilities Termius has. export TERM="xterm" Should work for you, although you could also try export TERM="xterm-256color" or experiment with other values from terminfo . Add this line to ~/.profile (you might have to create that file) if you want to avoid having to run it every time you log in and want to use nano.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1113858/error-opening-terminal-unknown-when-executing-nano
+
+---
+
+#### 9396. I need to redirect http to https connection with nginx on rest service and need to test it on postman or soapui
+
+**问题描述 / Problem Description**:
+Tags: nginx, centos, https, http | Score: 1 | Views: 503 | Answers: 1 | Created: 2022-10-04
+
+**解决方案 / Solution**:
+First of all you need to remove the configuration codes after include /etc/nginx/conf.d/*.conf; Note: The example below using Ubuntu 20.04 LTS Go to /etc/nginx/sites-available and create a new file myapp01 and put your configuration there. cd /etc/nginx/sites-available sudo vi myapp01 Refer below snippet: upstream appname-server { server 127.0.0.1:8080; } server { root /var/www/html; # Add index.php to the list if you are using PHP index index.html index.htm index.nginx-debian.html; server_name appname.com; access_log /var/log/nginx/appname-access.log; error_log /var/log/nginx/appname-error.log; location / { proxy_pass http://appname-server; proxy_http_version 1.1; proxy_set_header X-Forwarded-Host $host; proxy_set_header X-Forwarded-Server $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header Host $http_host; proxy_set_header X-Forwarded-Proto $scheme; proxy_read_timeout 5m; proxy_send_timeout 5m; } listen 443 ssl; ssl_certificate /path/to/your/ssl/cert.pem; ssl_certificate_key /path/to/your/ssl/cert_key.pem; } server { if ($host = appname.com) { return 301 https://$host$request_uri; } server_name appname.com; listen 80; return 404; } Don't for get to add include /etc/nginx/sites-enabled/*; in nginx.conf . (Thanks to Drifter104 for notifying) http { ## # Basic Settings ## sendfile on; tcp_nopush on; tcp_nodelay on; keepalive_timeout 65; types_hash_max_size 2048; include /etc/nginx/mime.types; default_type application/octet-stream; ## # SSL Settings ## ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE ssl_prefer_server_ciphers on; ## # Logging Settings ## access_log /var/log/nginx/access.log; error_log /var/log/nginx/error.log; ## # Gzip Settings ## gzip on; ## # Virtual Host Configs ## include /etc/nginx/conf.d/*.conf; include /etc/nginx/sites-enabled/*; } Next, go to /etc/nginx/sites-enabled and create symbolic links for myapp01 , refer instructions below. Go to sites-enabled cd /etc/nginx/sites-enabled/ Create symbolic links for myapp01 ln -s /etc/nginx/sites-available/myapp01 . After that, test your nginx configuration using sudo nginx -t . If everything is successful, proceed to step 5. Reload nginx sudo systemctl reload nginx Hope it helps you, cheers.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1112206/i-need-to-redirect-http-to-https-connection-with-nginx-on-rest-service-and-need
+
+---
+
+#### 9397. CentOS 6 : Group descriptors corrupted
+
+**问题描述 / Problem Description**:
+Tags: linux, centos | Score: 1 | Views: 473 | Answers: 1 | Created: 2022-09-19
+
+**解决方案 / Solution**:
+It depend on how you are using corrupted file system, you may need to run fsck to fix these error and for that you need to unmount the related mount point. So you don't have to take complete system offline until issue is with / mount point (Or OS filesystem related).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1111015/centos-6-group-descriptors-corrupted
+
+---
+
+#### 9398. Using both baseurl and mirrorlist in yum.repo
+
+**问题描述 / Problem Description**:
+Tags: centos, yum, repository, nexus | Score: 1 | Views: 3874 | Answers: 1 | Created: 2022-09-15
+
+**解决方案 / Solution**:
+mirrorlist is just to give you more alternatives to download packages, from doc. mirrorlist Specifies a URL to a file containing a list of baseurls. This can be used instead of or with the baseurl option. Substitution variables, described below, can be used with this option. As a special hack is the mirrorlist URL contains the word "metalink" then the value of mirrorlist is copied to metalink (if metalink is not set). So you can put same baseurl in top of the mirrorlist and survive only with mirrorlist incase some packages are not part of baseurl url. Edit 1: You can try baseurl and failovermethod=priority combination, add urls based in priority you want in similar sequence. failovermethod It can be 'roundrobin' or 'priority'. 'roundrobin' randomly selects a URL from the list of URLs to start and then if it failes to contact the selected server it proceed with another selected similarly. 'priority' starts from the first one listed in baseurl and if it fails to contact the server, it continues sequentially with the next in the list. If not specified, the default is 'priority'.It can be 'roundrobin' or 'priority'. 'roundrobin' You can give multiple baseurl like below, baseurl=http://<service_node>/install/centos7.5/x86_64 http://<master_node>/install/centos7.5/x86_64
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110798/using-both-baseurl-and-mirrorlist-in-yum-repo
+
+---
+
+#### 9399. executing a command without password prompt or root
+
+**问题描述 / Problem Description**:
+Tags: centos, permissions, file-permissions, rhel8, minikube | Score: 1 | Views: 919 | Answers: 1 | Created: 2022-09-09
+
+**解决方案 / Solution**:
+For Linux minikube tunnel uses hard-coded sudo under-the-hood , as such you won't get around visudo / adjusting sudoers . I think you already found what the minikube docs say on avoiding password prompts and want something more granular than giving access to sudo ip . /etc/sudoers can configure sudo quite granular, you can also allow password-less sudo for specific commands only: username ALL=(ALL) NOPASSWD: /usr/bin/ip route add 10.96.0.0/12 via 192.168.64.194 the 10.96.0.0/12 is the cluster's service CIDR here the default and most likely also yours, otherwise check this SO . the 192.168.64.194 is your minikube ip I unfortunately cannot test this right now, but maybe it is you worth a try :)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1110340/executing-a-command-without-password-prompt-or-root
+
+---
+
+#### 9400. CentOS 7 - Not Getting IP Address After Reboot
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7 | Score: 1 | Views: 4597 | Answers: 1 | Created: 2022-08-23
+
+**解决方案 / Solution**:
+Edit your interface config file /etc/sysconfig/network-scripts/ifcfg-ethX Make sure config is similar to below. DEVICE=ethX BOOTPROTO=dhcp ONBOOT=yes I Guess BOOTPROTO=dhcp might be missing. Please feel free to update question if doesn't work
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1108922/centos-7-not-getting-ip-address-after-reboot
+
+---
+
+#### 9401. Installing podman on Amazon Linux 2
+
+**问题描述 / Problem Description**:
+Tags: centos, amazon-linux-2, podman | Score: 1 | Views: 5843 | Answers: 1 | Created: 2022-08-10
+
+**解决方案 / Solution**:
+https://github.com/containers/podman/issues/8888 appears to be very germane as another user from January 2021 had the same problem. This repository may work instead, but the podman version is much older: https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable:/old_podman/CentOS_7/ That OpenSuse build output shows that Centos 7 builds are disabled, and https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/CentOS_7/ shows no podman rpms in any of it's subdirectories. It looks like the podman install instructions used to contain the steps you mention, but Amazon Linux 2 installation documentation was removed by this commit which refers to this blog post: https://podman.io/blogs/2021/03/02/podman-support-for-older-distros.html For support of fast-moving projects, it's usually best to use as modern an OS as you can support. RHEL8 seems to work well for me.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1107821/installing-podman-on-amazon-linux-2
+
+---
+
+#### 9402. Limit number of CPU cores in bare metal server
+
+**问题描述 / Problem Description**:
+Tags: centos, virtualization, hyper-v, hypervisor, bare-metal | Score: 1 | Views: 713 | Answers: 1 | Created: 2022-07-21
+
+**解决方案 / Solution**:
+On the bare metal CentOS 7 machine, you can use the nr_cpus kernel boot parameter. From the docs: nr_cpus= [SMP] Maximum number of processors that an SMP kernel could support. Alternatively, you can use cgroups or the cpulimit tool for limiting the CPU time available to specific user-space programs.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1106185/limit-number-of-cpu-cores-in-bare-metal-server
+
+---
+
+#### 9403. FreeIPA migrate the current NFSv4 storing home directories to another server
+
+**问题描述 / Problem Description**:
+Tags: centos, redhat, nfs, kerberos, freeipa | Score: 1 | Views: 228 | Answers: 1 | Created: 2022-06-13
+
+**解决方案 / Solution**:
+Technically, just copying thenfilws and spinning a new NFS server should be sufficient. You will need to add keytab file for the new server and configure sssd to use LDAP server running on FreeIPA to enforce krb5 authentication and proper user mapping. Anr of course ti updates mount option on the clients to use the new server.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1103163/freeipa-migrate-the-current-nfsv4-storing-home-directories-to-another-server
+
+---
+
+#### 9404. How to configure rsyslog to send multiple logs to a remote server and save them as individual files?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, logging, rsyslog | Score: 1 | Views: 16147 | Answers: 1 | Created: 2022-06-07
+
+**解决方案 / Solution**:
+(Trivial answer, but I can't comment yet) You may try more tagging https://www.gilesorr.ca/blog/rsyslog-intermediate-local.html or see Filter Conditions: https://www.rsyslog.com/doc/master/configuration/filters.html
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1102650/how-to-configure-rsyslog-to-send-multiple-logs-to-a-remote-server-and-save-them
+
+---
+
+#### 9405. fail2ban not creating jails in CentOS
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, fail2ban, asterisk | Score: 1 | Views: 945 | Answers: 1 | Created: 2022-05-27
+
+**解决方案 / Solution**:
+The jail isn't started because files inside jail.d must end with either .local or .conf . So rename your asterisk.full to, say, asterisk.conf . Also don't use both jail.local and jail.d/* files at the same time for a particular jail; either use one or the other. In this case just remove the jail.local file. Remove from asterisk.conf any redundant parts and include only parameters which will hold custom non-standard values (parameters that are omitted will be taken from the defaults in jail.conf , which should stay untouched). [asterisk] backend = polling enabled = true logpath = /var/log/asterisk/full maxretry = 3 findtime = 1200 bantime = 600 Rename your asterisk-full.conf inside filter.d folder to asterisk.conf (this isn't necessary but you'd have to provide the filter parameter in jail.d/asterisk.conf with that value, otherwise it defaults to the jail's name, in this case just asterisk ). Check if parameters have values that indeed meet your criteria (for example if backend is polling, or if logpath has the correct path, etc). Restart fail2ban and check its status, then the new jail should be listed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101909/fail2ban-not-creating-jails-in-centos
+
+---
+
+#### 9406. On RHEL/CentOS/Oracle Linux installer Software Selection screen, what do the packages/environments actually install?
+
+**问题描述 / Problem Description**:
+Tags: centos, rhel8, oracle-linux | Score: 1 | Views: 3265 | Answers: 1 | Created: 2022-05-25
+
+**解决方案 / Solution**:
+You're going to need a working RHEL system to check what's actually inside these "environments". You can use docker run --rm -it oraclelinux:8 to run the commands below. These map to "package groups" in dnf. You can list all available groups with dnf group list : # dnf group list Failed to set locale, defaulting to C.UTF-8 Last metadata expiration check: 1:09:51 ago on Wed May 25 09:37:23 2022. Available Environment Groups: Server with GUI Server Workstation Custom Operating System Virtualization Host Installed Environment Groups: Minimal Install Available Groups: PostgreSQL Database Server 14 PGDG PostgreSQL Database Server 13 PGDG PostgreSQL Database Server 12 PGDG PostgreSQL Database Server 11 PGDG PostgreSQL Database Server 10 PGDG Legacy UNIX Compatibility Container Management Development Tools .NET Core Development Graphical Administration Tools Headless Management Network Servers RPM Development Tools Scientific Support Security Tools Smart Card Support System Tools You will see the same names as in the installer GUI, plus some more. So you want to know what's inside the Minimal Install? Use dnf group info : # dnf group info 'Minimal Install' Failed to set locale, defaulting to C.UTF-8 Last metadata expiration check: 1:11:11 ago on Wed May 25 09:37:23 2022. Environment Group: Minimal Install Description: Basic functionality. Mandatory Groups: Core Optional Groups: Guest Agents Standard Alright, so what's installed if you select the standard group? dnf group info again: # dnf group info 'Standard' Failed to set locale, defaulting to C.UTF-8 Last metadata expiration check: 1:12:50 ago on Wed May 25 09:37:23 2022. Group: Standard Description: The standard installation of Oracle Linux. Mandatory Packages: acl at attr bc cpio crontabs cyrus-sasl-plain dbus ed file iptstate irqbalance logrotate lsof mcelog microcode_ctl net-tools oraclelinux-release pciutils psacct quota redhat-release rsyslog-gnutls rsyslog-gssapi rsyslog-relp sudo symlinks systemd-udev tar tree util-linux-user Default Packages: bash-completion blktrace bpftool bzip2 chrony cockpit cryptsetup dnf-plugin-spacewalk dos2unix dosfstools ethtool fprintd-pam gnupg2 kmod-kvdo ledmon libstoragemgmt lvm2 mailcap man-pages mdadm mlocate mtr nano nmap-ncat nvme-cli pinfo plymouth realmd rhn-client-tools rhn-setup rhnlib rhnsd rsync smartmontools sos sssd strace tcpdump teamd time unzip usbutils vdo vim-enhanced virt-what wget which words xfsdump zip Optional Packages: cifs-utils cockpit-doc fwupd fwupdate ima-evm-utils nfs-utils nvmetcli traceroute vdo-support zsh And what would be installed if you don't check any boxes? The Core package: # dnf group info 'Core' Failed to set locale, defaulting to C.UTF-8 Last metadata expiration check: 1:13:43 ago on Wed May 25 09:37:23 2022. Group: Core Description: Smallest possible installation Mandatory Packages: NetworkManager audit basesystem bash bcache-tools btrfs-progs coreutils cronie curl dnf dnf-plugin-spacewalk e2fsprogs filesystem firewalld glibc grubby hostname initscripts iproute iprutils iputils irqbalance kbd kernel-uek kexec-tools less libzstd man-db ncurses nvme-cli nvmetcli openssh-clients openssh-server oraclelinux-release-el8 parted passwd plymouth policycoreutils procps-ng rhn-client-tools rhn-setup rhnlib rhnsd rootfiles rpm rsyslog selinux-policy-targeted setup shadow-utils sssd-common sssd-kcm sudo systemd tuned util-linux vim-minimal xfsprogs yum Default Packages: NetworkManager-team NetworkManager-tui authselect biosdevname dnf-plugins-core dracut-config-rescue iwl100-firmware iwl1000-firmware iwl105-firmware iwl135-firmware iwl2000-firmware iwl2030-firmware iwl3160-firmware iwl5000-firmware iwl5150-firmware iwl6000-firmware iwl6000g2a-firmware iwl6050-firmware iwl7260-firmware kernel-tools libsysfs linux-firmware lshw lsscsi microcode_ctl prefixdevname sg3_utils sg3_utils-libs Optional Packages: dracut-config-generic dracut-network initial-setup ocfs2-tools oracle-database-preinstall-21c rdma-core selinux-policy-mls tboot Good news - you can expect openssh-server in the minimal install, which is what I wanted to check.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1101756/on-rhel-centos-oracle-linux-installer-software-selection-screen-what-do-the-pac
+
+---
+
+#### 9407. Linux centos firewall commands not found
+
+**问题描述 / Problem Description**:
+Tags: centos, firewalld | Score: 1 | Views: 5570 | Answers: 2 | Created: 2022-05-15
+
+**解决方案 / Solution**:
+Did you try firewall-cmd instead? Also, there should be a space in between the program and any flags. Your commands are just incorrect/malformed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1100977/linux-centos-firewall-commands-not-found
+
+---
+
+#### 9408. Where can I set additional conf files for NetworkManager
+
+**问题描述 / Problem Description**:
+Tags: networking, centos, linode, networkmanager | Score: 1 | Views: 239 | Answers: 1 | Created: 2022-05-03
+
+**解决方案 / Solution**:
+Not really. NetworkManager profiles are one unity of settings, you cannot define parts (the zone) somewhere else. Exceptions are, that some properties support "global connection defaults" which can be configured in NetworkManager.conf , as documented in man NetworkManager.conf . However, that does not work for the zone. You can clone the profile and use that one instead ( nmcli connection clone OLD NEW ). The problem is, if the old profile changes, you'll miss those changes. Otherwise, maybe have another service running after ifcfg-eth0 gets rewritten, to update the profile once again. I'd guess, this is done by a systemd service, so you could add your script After= that.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1100033/where-can-i-set-additional-conf-files-for-networkmanager
+
+---
+
+#### 9409. Stopping DRBD so I can run some tests with a VM
+
+**问题描述 / Problem Description**:
+Tags: centos, cluster, drbd | Score: 1 | Views: 1097 | Answers: 1 | Created: 2022-04-13
+
+**解决方案 / Solution**:
+As you explained in an above comment. All the VM's root volumes are stored as image files in the filesystem mounted at /systems . In order to safely fail this over to the peer system you would need to stop access to this filesystem (stop all VMs) and unmount it first. This lumps all the VMs together, and makes it so you would need to failover all VMs. One option, which is generally not advised would be to disconnect the DRBD nodes and manually cause a split-brain. Essentially both nodes would be primary at the same time, and thus cause data-divergence which you will need to manually resolve to reconnect them. I would first verify your DRBD configuration doesn't include any automatic split-brain recovery options . The procedure should be similar to the below. Use caution here particularly with the --discard-my-data command. Running these from the wrong node could be disastrous. ## From the secondary node # drbdadm disconnect systems # drbdadm primary systems ## Verify irsc is stopped on the peer # virsh start irsc ## Do whatever testing you need # virsh stop irsc # drbdadm secondary systems # drbdacm connect systems --discard-my-data
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098546/stopping-drbd-so-i-can-run-some-tests-with-a-vm
+
+---
+
+#### 9410. Docker can't pull images behind proxy server
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, docker, proxy, https | Score: 1 | Views: 13105 | Answers: 2 | Created: 2022-04-12
+
+**解决方案 / Solution**:
+Environment="HTTP_PROXY=http://10.330.100.100:3128/" Environment="HTTPS_PROXY=https://10.330.100.100:3128/" ^ ^^^^ Here you configure your proxy server to available over plain HTTP and HTTPS on the same port . That is extremely unlikely to be the case. Either your proxy server is configured with its own TLS certificate and will listen on different ports for http and https. Or, and that is usually the case, the proxy server only supports plain http connections and requests to HTTPS resources will still need to use plain HTTP to make the connection to the proxy server. (Once connected to the proxy the client will use the CONNECT method to establish a TLS connection via the proxy to the webserver which creates an end-to-end encrypted channel.) In other words: you probably need to change the HTTPS_PROXY variable to: Environment="HTTPS_PROXY=http://10.330.100.100:3128/" When you're required to use a proxy, that often means that also TLS traffic is controlled. You may need to install and enable your organisations CA certificate. When you're required to use a proxy, that means that others in your organisation are required to do the same. That means that you (or rather your proxy server, will very quickly run into the docker rate limiting. See: https://docs.docker.com/docker-hub/download-rate-limit/
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1098424/docker-cant-pull-images-behind-proxy-server
+
+---
+
+#### 9411. why /var/log/maillog is empty in centos8?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, sendmail | Score: 1 | Views: 4284 | Answers: 1 | Created: 2022-02-28
+
+**解决方案 / Solution**:
+It is possible that your logs now goes to journal, check them like so journalctl -u postfix , but also check your folder permissions sudo chmod a+w /var/log/mail* and don't forget to do a restart sudo service rsyslog restart
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1094920/why-var-log-maillog-is-empty-in-centos8
+
+---
+
+#### 9412. Unable to change SSH port on Almalinux/CentOS 8 with selinux present
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, ssh, selinux, centos8 | Score: 1 | Views: 2807 | Answers: 1 | Created: 2022-02-25
+
+**解决方案 / Solution**:
+Port 23498 Port 22 instead of Port 23498 Edit: It seems firewalld was running as well as ufw. Having that unconfigured meant my ports were getting blocked.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1094791/unable-to-change-ssh-port-on-almalinux-centos-8-with-selinux-present
+
+---
+
+#### 9413. CentOS 8 upgade - How to resolve Warning: failed loading '/etc/yum.repos.d/CentOS-AppStream.repo', skipping
+
+**问题描述 / Problem Description**:
+Tags: centos, centos8 | Score: 1 | Views: 29650 | Answers: 2 | Created: 2022-02-08
+
+**解决方案 / Solution**:
+Switch from CentOS 8 to Stream 8 instructions are buried under a few clicks on the download page # Converting from CentOS Linux 8 to CentOS Stream 8 dnf --disablerepo '*' --enablerepo extras swap centos-linux-repos centos-stream-repos dnf distro-sync Upgrade transaction can work while not being completely up to date. Do not enable vault, which is for archival only. Leaving it installed encourages the bad practice of using end of life software. Apparently extras repo survives for 8 and there is where release packages for Stream (and SIGs) live.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1093046/centos-8-upgade-how-to-resolve-warning-failed-loading-etc-yum-repos-d-cento
+
+---
+
+#### 9414. Library Won't Update
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, rpm, update, library | Score: 1 | Views: 442 | Answers: 3 | Created: 2022-02-07
+
+**解决方案 / Solution**:
+The RPM you are trying to install is a SRPM (hence the .src in its filename) - it contains the sources for the package you want to upgrade. You need to compile it first for your target system. Use mock to do that. Take great care of not breaking other things if you introduce a newer version of a system lib provided by CentOS. Consider upgrading to EL8 (e.g. Rocky Linux, Alma Linux, or CentOS 8 Stream), you likely save yourself from headaches.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1092902/library-wont-update
+
+---
+
+#### 9415. How to update CentOS 8?
+
+**问题描述 / Problem Description**:
+Tags: centos, amazon-web-services | Score: 1 | Views: 5302 | Answers: 1 | Created: 2022-01-31
+
+**解决方案 / Solution**:
+The URL should be http://mirrorlist.centos.org/?release=8-stream&arch=x86_64&repo=AppStream&infra=ec2 , specifically with 8-stream as the release. There's some other instructions on swapping from non-stream to stream on the official pages here: https://www.centos.org/centos-stream/ Also note that if you're using AWS, then you may want to make use of building AMIs to provide stable images to your environment based on stream. It's easy enough to set up a pipeline to build a base image each week that can then be used for testing and deployment. This can mitigate some of the 'risk' with using a stream-based release.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091737/how-to-update-centos-8
+
+---
+
+#### 9416. CentOS7 sets time to +8h in the night: [systemd] Time has been changed
+
+**问题描述 / Problem Description**:
+Tags: centos, centos7, systemd | Score: 1 | Views: 214 | Answers: 1 | Created: 2022-01-28
+
+**解决方案 / Solution**:
+I fixed it. The problem was an incorrect time on the VMWare hypervisor. On every Veeam-backup-run the VM got the faulty time information, as the VMware-tools fetched the wrong time from the ESXi.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1091429/centos7-sets-time-to-8h-in-the-night-systemd-time-has-been-changed
+
+---
+
+#### 9417. Getting 503 with apache proxy_fcgi_module [SOLVED]
+
+**问题描述 / Problem Description**:
+Tags: centos, apache-2.4, php-fpm, 503-error, mod-proxy-fcgi | Score: 1 | Views: 25949 | Answers: 2 | Created: 2022-01-20
+
+**解决方案 / Solution**:
+The error message (111)Connection refused: AH00957: FCGI: attempt to connect to [::]:8000 (*) failed indicates that your Apache is attempting to connect to a backend on a TCP port 8000 while your PHP-FPM is listening on a unix socket /run/php-fpm/www.sock . You probably forgot to restart Apache.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1090658/getting-503-with-apache-proxy-fcgi-module-solved
+
+---
+
+#### 9418. 403 forbidden in httpd on Fedora 27
+
+**问题描述 / Problem Description**:
+Tags: httpd, fedora, httpd.conf | Score: 1 | Views: 3691 | Answers: 1 | Created: 2017-11-17
+
+**解决方案 / Solution**:
+According your error from, solution is easy. Just do a chmod +x on your user dir, and restart Apache.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/883964/403-forbidden-in-httpd-on-fedora-27
+
+---
+
+#### 9419. In Fedora, how can I see a log of mounts to Samba shares made by clients?
+
+**问题描述 / Problem Description**:
+Tags: linux, samba, fedora, mount | Score: 1 | Views: 1118 | Answers: 1 | Created: 2017-11-14
+
+**解决方案 / Solution**:
+Samba logs incoming connections. sudo smbstatus -v at the comand line gives a report of those connections
+
+**参考链接 / References**:
+- https://serverfault.com/questions/883440/in-fedora-how-can-i-see-a-log-of-mounts-to-samba-shares-made-by-clients
+
+---
+
+#### 9420. 'https_log_t policy' of SELinux is not taken into effect
+
+**问题描述 / Problem Description**:
+Tags: apache-2.4, httpd, fedora, selinux | Score: 1 | Views: 1781 | Answers: 2 | Created: 2017-10-01
+
+**解决方案 / Solution**:
+I found out the issue was that the two log files specified in the vhost configuration was not created, and it seems that httpd does not have the power to create it somehow . So I created an empty error_log and requests_log in /var/www/html/mywebsite1.com/log/ , re-did the $ semanage ... and $ restorecon ... commands, to get the correct output: . Relabeled /var/www/html/mywebsite1.com/log from unconfined_u:object_r:httpd_sys_content_t:s0 to unconfined_u:object_r:httpd_log_t:s0 Relabeled /var/www/html/mywebsite1.com/log/error_log from unconfined_u:object_r:httpd_sys_content_t:s0 to unconfined_u:object_r:httpd_log_t:s0 Relabeled /var/www/html/mywebsite1.com/log/requests_log from unconfined_u:object_r:httpd_sys_content_t:s0 to unconfined_u:object_r:httpd_log_t:s0 And after a httpd restart, it all worked! The site is back to accessible, and those log files are keeping logs now.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/876347/https-log-t-policy-of-selinux-is-not-taken-into-effect
+
+---
+
+#### 9421. Linux: reshare a samba share
+
+**问题描述 / Problem Description**:
+Tags: linux, linux-networking, samba, fedora | Score: 1 | Views: 1960 | Answers: 2 | Created: 2017-07-19
+
+**解决方案 / Solution**:
+While it may be possible, it certainly isn't advisable. You should really put Lunux-2 on the internal network, then put a router between that network and your external network. You can find some reasonable used Cisco gear for sale most anywhere online. Then set up a split horizon DNS config that will allow that Linux-2 box to be seen from both outside and inside. A bit more complex, yes. But much more secure and probably more reliable too!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/863054/linux-reshare-a-samba-share
+
+---
+
+#### 9422. Cannot mount a drive as read-write Fedora 26
+
+**问题描述 / Problem Description**:
+Tags: fedora, fstab | Score: 1 | Views: 956 | Answers: 1 | Created: 2017-07-17
+
+**解决方案 / Solution**:
+The dmesg output shows some you're having (physical) link layer problems. From Libata error messages : RecovData : Data integrity error occurred, but the interface recovered 10B8B : 10b to 8b decoding error occurred Handshk : R_ERR handshake response received in response to frame transmission ... and this during a write command ( WRITE FPDMA QUEUED ). After this the kernel decides disabling writing to this disk, hence your read-only experience... This learns us that the issue at hand is most likely not caused by your Fedora upgrade (as basically the same kernels are used). You need to look to the hardware... Possible causes: misconfigured BIOS broken ATA cable / connector disk broken I would propose the following, easiest first : do a BIOS reset to factory defaults use another data and power cable to the disk try the disk in another system to see if it works there buy new disk and get over it Good luck...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/862647/cannot-mount-a-drive-as-read-write-fedora-26
+
+---
+
+#### 9423. fail2ban errors on Fedora 25: WARNING Mutliline regex set for jail '%s' but maxlines not greater than 1, ERROR No 'host' group in '<mdre-<mode>>'
+
+**问题描述 / Problem Description**:
+Tags: fedora, fail2ban | Score: 1 | Views: 439 | Answers: 1 | Created: 2017-07-10
+
+**解决方案 / Solution**:
+Looks like I used a sshd.conf file from the newer 0.10 Fail2ban, which is not 100% compatible . This is the correct version for 0.95.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/861303/fail2ban-errors-on-fedora-25-warning-mutliline-regex-set-for-jail-s-but-maxl
+
+---
+
+#### 9424. Cannot connect to Virtual mySQL server running on Fedora 25
+
+**问题描述 / Problem Description**:
+Tags: mysql, virtualbox, fedora | Score: 1 | Views: 756 | Answers: 2 | Created: 2017-05-05
+
+**解决方案 / Solution**:
+The "cannot connect to mysql database (10060)" indicates it's not an authentication problem. Try nc -v mysqlserver_ip_address 3306 . It should say 'Ncat: Connected to ...' If it does, that means you've got a TCP connection, so the problem is in mysql or the workbench. If it says something else, the network stuff is broken or the server isn't listening on that port. I suspect you've got a firewall dropping your packets. A long pause usually indicates dropped packets, rather than a rejected connection. If you connect to a non-firewalled but non-open port, the server will send you a rejection pretty quickly. The vast majority of the time, if the connection times out it's because something is dropping the packets on the floor, rather than politely rejecting them (politeness being pretty silly when dealing with people portscanning your box). This is something firewalls often do. So, it's most likely a firewall thing. You say you ran iptables -A .... , that would put your new line at the end of the rules, which means it probably won't be used because there's probably a default -j DROP rule that was at the end before you added that rule. Also, iptables-save should just print out the config to stdout and not actually save the firewall config in the right place. Try iptables -L to see if the ordering is wrong. If it is, you can play around with -I . An easier way to do it though, is do iptables-save > some_temp_file , then edit some_temp_file, and then run iptables-restore < some_temp_file . If you do get the firewall working the way you want, do iptables-save > /etc/wherever_it_goes . On fedora/redhat/centos that would be iptables save > /etc/sysconfig/iptables .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/848493/cannot-connect-to-virtual-mysql-server-running-on-fedora-25
+
+---
+
+#### 9425. Fedora Server 25 firewall issue. Ports 22, 80, 443 blocked at each boot, have to stop firewalld
+
+**问题描述 / Problem Description**:
+Tags: fedora, saltstack, nextcloud | Score: 1 | Views: 1100 | Answers: 2 | Created: 2017-04-12
+
+**解决方案 / Solution**:
+I don't know SaltStack, but you should be able to permanently open the required ports via firewall-cmd . For example, to permanently open ssh , try the following: firewall-cmd --add-service=ssh; firewall-cmd --add-service=ssh --permanent For enabling ICMP and the other services: firewall-cmd --remove-icmp-block=echo-request firewall-cmd --remove-icmp-block=echo-request --permanent firewall-cmd --remove-icmp-block=echo-reply firewall-cmd --remove-icmp-block=echo-reply --permanent firewall-cmd --add-service=http firewall-cmd --add-service=http --permanent firewall-cmd --add-service=https firewall-cmd --add-service=https --permanent firewall-cmd --add-port=9090/tcp firewall-cmd --add-port=9090/tcp --permanent I suggest you to first try without the permanent rules. If all works correctly, you can issue the permanent rules and reboot the machine.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/844229/fedora-server-25-firewall-issue-ports-22-80-443-blocked-at-each-boot-have-to
+
+---
+
+#### 9426. SSH keys fail for Fedora 25
+
+**问题描述 / Problem Description**:
+Tags: ssh, fedora, selinux | Score: 1 | Views: 1068 | Answers: 2 | Created: 2017-04-11
+
+**解决方案 / Solution**:
+The public key authentication is not used in the attached log. Can't be the public key authentication disabled in client configuration or priorities of authentication methods modified that the publickey authentication is not used?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/843948/ssh-keys-fail-for-fedora-25
+
+---
+
+#### 9427. Which KVM supported OS to use for latest fedora?
+
+**问题描述 / Problem Description**:
+Tags: linux, centos, kvm-virtualization, fedora | Score: 1 | Views: 64 | Answers: 1 | Created: 2017-03-24
+
+**解决方案 / Solution**:
+I would just use the latest Fedora option - Fedora 23.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/840390/which-kvm-supported-os-to-use-for-latest-fedora
+
+---
+
+#### 9428. NFS user mapping where user is AD authenticated, but NFS server user local accounts
+
+**问题描述 / Problem Description**:
+Tags: active-directory, fedora, nfs4 | Score: 1 | Views: 4422 | Answers: 2 | Created: 2017-03-08
+
+**解决方案 / Solution**:
+By default, if mount is not using auth_gss, client and server use numeric UIDs on the wire. To enforce string principals you need to echo N > /sys/module/nfs/parameters/nfs4_disable_idmapping and echo N > /sys/module/nfsd/parameters/nfs4_disable_idmapping on the client and server, NOTICE, on the server it's /sys/module/nfsd . to make it permanent, add this to /etc/modprobe.d/nfs.conf: echo "options nfs nfs4_disable_idmapping=0" > /etc/modprobe.d/nfs.conf and echo "options nfsd nfs4_disable_idmapping=0" > /etc/modprobe.d/nfsd.conf
+
+**参考链接 / References**:
+- https://serverfault.com/questions/837038/nfs-user-mapping-where-user-is-ad-authenticated-but-nfs-server-user-local-accou
+
+---
+
+#### 9429. Debian trixie libpg5 missing PGchangePassword?
+
+**问题描述 / Problem Description**:
+Tags: debian, postgresql, debian-trixie | Score: 0 | Views: 197 | Answers: 1 | Created: 2026-04-20
+
+**解决方案 / Solution**:
+The function is called PQchangePassword (and the library is called libpq5).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198765/debian-trixie-libpg5-missing-pgchangepassword
+
+---
+
+#### 9430. How can I add contrib repo to Debian via cloud-init?
+
+**问题描述 / Problem Description**:
+Tags: debian, virtualization, cloud-init | Score: 0 | Views: 90 | Answers: 1 | Created: 2026-04-11
+
+**解决方案 / Solution**:
+Try to fill at least both the apt.source_list and apt.primary : #cloud-config ... apt: primary: - arches: [ default ] uri: http://debian.org/debian sources_list: | deb $MIRROR $RELEASE main contrib It should leads to deletion of /etc/apt/sources.list and creation of /etc/apt/sources.list.d/debian.sources file of deb822 format.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198709/how-can-i-add-contrib-repo-to-debian-via-cloud-init
+
+---
+
+#### 9431. How to go about debugging Pleroma federation issues?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, ssl | Score: 0 | Views: 192 | Answers: 1 | Created: 2026-02-03
+
+**解决方案 / Solution**:
+I still don't fully know how to debug this, but I finally overcame the problems by re-compiling. (I tried that multiple times before, but I obviously never cleaned the dependencies, so something there probably didn't get compiled for the right version?) After asking around on IRC and checking the correct versions (Elixir 1.18.3 and Erlang/OTP 27 erts-15.2.7 in my case) I could clean the dependencies and re-compiling afterwards solved the problems. Or how 'phnt' in IRC put it: Those [versions] are fine. You can try to rebuild the Pleroma source including dependencies from scratch. Stop the Pleroma service, switch to the pleroma user and directory where the source is and run: mix deps.clean --all mix deps.get mix compile After it finished, you can start the Pleroma service back up. If you've updated from Elixir 1.17 to Elixir 1.18, it's possible something didn't get recompiled even though it should. (The failing function is from an Erlang dependency.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198028/how-to-go-about-debugging-pleroma-federation-issues
+
+---
+
+#### 9432. ssh_host_dsa_key is not present on debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh-keys | Score: 0 | Views: 341 | Answers: 3 | Created: 2026-01-27
+
+**解决方案 / Solution**:
+From the changelog: openssh (1:9.8p1-1) unstable; urgency=medium ... * Stop generating DSA host key. ... -- Colin Watson <x@x> Wed, 31 Jul 2024 17:16:04 +0100
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197949/ssh-host-dsa-key-is-not-present-on-debian-13
+
+---
+
+#### 9433. I need some input on how Debian 13 /tmp directory using tmpfs file system works
+
+**问题描述 / Problem Description**:
+Tags: debian, swap, tmpfs | Score: 0 | Views: 753 | Answers: 1 | Created: 2025-12-25
+
+**解决方案 / Solution**:
+I noticed that on my 16 GB RAM Acer laptop, Debian 13 has set aside 50% of ram for /tmp usage It has not. You're assuming tmpfs works like a RAM disk and permanently occupies the space. It doesn't work like that; tmpfs only allocates space individually for the files stored within, and the set "size" of a tmpfs is the maximum it can occupy, not the minimum. so I modified the default 50% to 1 GiB after writing 1 GB it failed with a message that it ran out of space Now, does anyone have an explanation of this ? It ran out of space after 1 GB literally because you've set the limit to 1 GB. It would appear it should transparently spill over into the swap area which is configured as 32GB on an LVM2 volume. Tmpfs would do that if it was still within the set limit but had no more physical RAM to store the data in. But in your case it reached the maximum capacity before it ran out of physical RAM, so there never was any need for it to spill into swap. It can still be pushed out to swap if some process actively needs RAM, much like an idle process gets pushed out to swap.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1197491/i-need-some-input-on-how-debian-13-tmp-directory-using-tmpfs-file-system-works
+
+---
+
+#### 9434. Copyparty Can't Hash Passwords
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, linux-networking, network-share, cors | Score: 0 | Views: 579 | Answers: 1 | Created: 2025-11-15
+
+**解决方案 / Solution**:
+Install argon2 through python and not apt. pip3 install --user argon2-cffi --break-system-packages
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195907/copyparty-cant-hash-passwords
+
+---
+
+#### 9435. Upgrade / Update an older Debian System (Desktop)
+
+**问题描述 / Problem Description**:
+Tags: debian, update, upgrade, maintenance, wiki | Score: 0 | Views: 188 | Answers: 1 | Created: 2025-11-03
+
+**解决方案 / Solution**:
+Older releases are kept in the Debian archive . These can be used to upgrade 10 (buster) to 11 (bullseye), then the upgrade to 12 (bookworm) can be done with the normal archive mirrors. The biggest difficulty is that the signatures on these have expired a while ago.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195731/upgrade-update-an-older-debian-system-desktop
+
+---
+
+#### 9436. Why is there an entry in `add-apt-repository -L` that isn't in /etc/apt/sources.list in Debian 12? discrepancy
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 0 | Views: 143 | Answers: 2 | Created: 2025-10-14
+
+**解决方案 / Solution**:
+In apt like in many other tools, the configuration is no longer in a single configuration file, but that main configuration file (or hardcoded in the tool itself) allows additional configuration snippets to get included from one or more subdirectories. I don’t have a Debian system at hand but I imagine a /etc/apt/sources.list.d/ directory or similar contains a configuration snippet for that repo. Usually the main configuration file has an explicit Include or similar directive that includes snippets from that specific directory, possibly with a filter to only include files that conform to a naming convention and/or have a specific extension. The idea is that rather than having to merge config changes in a single file, which can be complicated to automate, you and your configuration management tooling can deploy multiple files, each with a specific purpose. Those are more easily updated and/or removed than parsing a single file.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193400/why-is-there-an-entry-in-add-apt-repository-l-that-isnt-in-etc-apt-sources
+
+---
+
+#### 9437. SSHD drops connection after first successful login
+
+**问题描述 / Problem Description**:
+Tags: ssh, debian, ufw | Score: 0 | Views: 146 | Answers: 1 | Created: 2025-10-12
+
+**解决方案 / Solution**:
+Ok, after staring on the screen for a loooong time, I saw PerSourceMaxStartups 1 in my sshd-config 🤦. So I fixed it and it works as expected.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193360/sshd-drops-connection-after-first-successful-login
+
+---
+
+#### 9438. How to configure Postfix for multiple sending options
+
+**问题描述 / Problem Description**:
+Tags: debian, postfix | Score: 0 | Views: 173 | Answers: 1 | Created: 2025-10-06
+
+**解决方案 / Solution**:
+Can/Should I choose both? I would just need to change the smtp server in the phpmailer configuration to use one option or the other. No. If you're just going to change the SMTP server in phpmailer, then you're not going to use Postfix anymore, therefore there's no need to integrate Postfix with Gmail. Also, how do I do it? Do I run postfix twice? Will it hold both options in its configuration file? It won't. That's not impossible, but it would require a way of telling Postfix when to use one option or the other. (For example, it's possible to configure this kind of routing based on the "From" address.) (Changing the SMTP server in phpmailer doesn't tell Postfix anything – it bypasses Postfix. Postfix is your local SMTP server.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193242/how-to-configure-postfix-for-multiple-sending-options
+
+---
+
+#### 9439. Debian 12 - logs in or not in journald (nginx, postfix)
+
+**问题描述 / Problem Description**:
+Tags: debian, journald | Score: 0 | Views: 287 | Answers: 1 | Created: 2025-10-02
+
+**解决方案 / Solution**:
+Too long for a comment In general journald captures events from systemd service units that generate standard output and standard error and classic syslog events get collected. In general applications/services/daemons that are configured to log to files implicitly don’t duplicate the same events to syslog nor as standard (error) output. That is usually the case for web servers like nginx that are configured to log to log file(s). You’ll probably need to reconfigure postfix to not log to syslog and/or stdout. I don’t have a Debian system at hand to check but that maybe requires changing the start up command line arguments that systemd uses to start Postfix, or you need to change the postfix configuration file(s).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193157/debian-12-logs-in-or-not-in-journald-nginx-postfix
+
+---
+
+#### 9440. Debian 13 "Trixie": Sendmail install triggers "No module named 'debpython.version'"
+
+**问题描述 / Problem Description**:
+Tags: debian, python, sendmail, apt | Score: 0 | Views: 383 | Answers: 1 | Created: 2025-10-02
+
+**解决方案 / Solution**:
+With zero answers and very little interest, I ended up biting the bullet and wiping disks. I still don't know what did this, but it appears it was only a problem for me, and the best answer was to reinstall, this time with the Debian 13 installer rather than starting from the KDE live disk.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193152/debian-13-trixie-sendmail-install-triggers-no-module-named-debpython-versio
+
+---
+
+#### 9441. After upgrading Debian 9 → 12, sssd.service runs but sockets show failed
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, security, sssd | Score: 0 | Views: 824 | Answers: 1 | Created: 2025-09-03
+
+**解决方案 / Solution**:
+The .socket units will fail because the corresponding services are already running as children of the main sssd process within sssd.service, and therefore have already bound the sockets directly. You need to remove each of the modules from [sssd] services = if you want to run it as a separate socket-activated process. (I've only had negative experiences trying to run 'pam' or 'nss' modules socket-activated. They hardly save any resources, they add a startup delay, and they used to fail to start when needed the most.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1191584/after-upgrading-debian-9-%e2%86%92-12-sssd-service-runs-but-sockets-show-failed
+
+---
+
+#### 9442. Could not increase number of max_open_files to more than 32768 in MariaDB 10.5.29 after upgrading from Debian 10 (buster) to Debian 11 (bullseye)
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, mariadb, upgrade, debian-bullseye | Score: 0 | Views: 792 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+To fix the "[Warning] Could not increase number of max_open_files to more than 32768" warning I got suggestion from website: https://linuxblog.io/could-not-increase-number-of-max_open_files-to-more-than/ We have to find the LimitNOFILE=32768 setting and increase it. In Debian 11 you will find a LimitNOFILE=32768 line in /etc/systemd/system/mysqld.service and /lib/systemd/system/mariadb.service: nano /etc/systemd/system/mysqld.service nano /lib/systemd/system/mariadb.service Warning! Don't make changes in /lib/systemd/system/mariadb.service directly, instead override it in /etc/systemd/system/mariadb.service.d/override.conf. I made a oneliner to create the missing directories and create the override.conf file and append the required content: sudo mkdir -p /etc/systemd/system/mariadb.service.d/ && echo -e '[Service]\n# Number of files limit. previously [mysqld_safe] open-files-limit\nLimitNOFILE=100000' >> /etc/systemd/system/mariadb.service.d/override.conf You can check the result here: sudo nano /etc/systemd/system/mariadb.service.d/override.conf The other way to check/edit the override.conf file: sudo systemctl edit mysql You need to reload the systemctl daemon to get the new setting into work: sudo systemctl daemon-reload Restart MariaDB service: sudo systemctl restart mariadb.service Now check if the override.conf file is loaded when the MariaDB was started: sudo systemctl status mariadb.service ● mariadb.service - MariaDB 10.5.29 database server Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled) Drop-In: /etc/systemd/system/mariadb.service.d └─override.conf Active: active (running) since Wed 2025-08-27 13:24:53 CEST; 5s ago You can see the └─override.conf is active now. The "[Warning] Could not increase number of max_open_files to more than 32768" went away. SUCCESS!!!
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190975/could-not-increase-number-of-max-open-files-to-more-than-32768-in-mariadb-10-5-2
+
+---
+
+#### 9443. MariaDB 10.5.29 database server is not starting after upgrading from Debian 10 (buster) to Debian 11 (bullseye)
+
+**问题描述 / Problem Description**:
+Tags: debian, service, mariadb, upgrade, debian-bullseye | Score: 0 | Views: 195 | Answers: 1 | Created: 2025-08-27
+
+**解决方案 / Solution**:
+I disabled SSL certificates by commenting the related lines in /etc/mysql/mariadb.conf.d/50-server.cnf: # ssl-ca=/etc/mysql/cacert.pem # ssl-cert=/etc/mysql/server-cert.pem # ssl-key=/etc/mysql/server-key.pem # ssl=on No more errors after restart: tail -f /var/log/mysql/error.log 2025-08-27 11:42:39 0 [Note] Plugin 'FEEDBACK' is disabled. 2025-08-27 11:42:39 0 [Note] InnoDB: Buffer pool(s) load completed at 250827 11:42:39 2025-08-27 11:42:39 0 [Note] Server socket created on IP: '127.0.0.1'. 2025-08-27 11:42:39 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine 2025-08-27 11:42:39 0 [Note] Reading of all Master_info entries succeeded 2025-08-27 11:42:39 0 [Note] Added new Master_info '' to hash table 2025-08-27 11:42:39 0 [Note] /usr/sbin/mariadbd: ready for connections. Version: '10.5.29-MariaDB-0+deb11u1' socket: '/var/run/mysqld/mysqld.sock' port: 3306 Debian 11 Now the MariaDB 10.5.29 database server starts successfully: systemctl status mariadb.service ● mariadb.service - MariaDB 10.5.29 database server Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled) Drop-In: /etc/systemd/system/mariadb.service.d └─override.conf Active: active (running) since Wed 2025-08-27 11:42:39 CEST; 10min ago
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190969/mariadb-10-5-29-database-server-is-not-starting-after-upgrading-from-debian-10
+
+---
+
+#### 9444. Many old kernel packages not being autoremoved
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, linux-kernel, packaging | Score: 0 | Views: 267 | Answers: 2 | Created: 2025-08-10
+
+**解决方案 / Solution**:
+These are removed, but are in "configuration files remain" state, costing a few kilobytes each. Usually I clean these up in aptitude by going to the "Not installed packages" line and pressing the _ key to purge the configuration files of all uninstalled packages.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190363/many-old-kernel-packages-not-being-autoremoved
+
+---
+
+#### 9445. Direct outbound traffic through a Wireguard VPN tunnel but keep receiving inbound on the physical interface
+
+**问题描述 / Problem Description**:
+Tags: debian, vpn, wireguard | Score: 0 | Views: 293 | Answers: 1 | Created: 2025-07-13
+
+**解决方案 / Solution**:
+What you need is called policy routing. If you use wg-quick , just set the Table option to any value, e.g. Table = 300 . It will add the routes only to that table, without affecting any main routing rules (it also does not add ip rule s). Next you need to add ip rule manually, to use Wireguard table for the interfaces/addresses you're interested in routing over the VPN.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1189036/direct-outbound-traffic-through-a-wireguard-vpn-tunnel-but-keep-receiving-inboun
+
+---
+
+#### 9446. Why do disks used in RAID change names every boot?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, mdadm, software-raid | Score: 0 | Views: 175 | Answers: 2 | Created: 2025-06-24
+
+**解决方案 / Solution**:
+Names like /dev/sdX are not stable as the result of asynchronous SCSI scanning feature in Linux. So yes, you shouldn't rely on them. Make a habit of using /dev/disk/by-id links and so on. I don't know where the physical id: N and disk:N are coming from in lshw , but I know that ses (SCSI Enclosure Services) driver exposes certain attributes in sysfs , and that includes disk slot number, too. In principle it's possible to interpret it by hand by exploring the /sys contents, it's not hard at all, but there's encled helper utility that could do it for you. It lets you to control locate LEDs and observe which disk is in which slot. Then, there's always "poor man's" method, that is, observing activity LEDs, possibly running guaranteed activity against known-good drives (e.g. read them, dd if=/dev/sdGOOD of=/dev/zero ), to identify the bad one which LED doesn't blink. Finally, right, it helps to put a little stickers on top of the enclosure levers, where you write the S/N of the disk inside. It's way more helpful than those stupid default 2TB SATA which HP puts on.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1187128/why-do-disks-used-in-raid-change-names-every-boot
+
+---
+
+#### 9447. CRON_DAILY_RUN in the rkhunter configuration file
+
+**问题描述 / Problem Description**:
+Tags: debian, cron, rkhunter | Score: 0 | Views: 144 | Answers: 1 | Created: 2025-06-08
+
+**解决方案 / Solution**:
+No, the sample scripts in the package are using system cron. /etc/default/rkhunter comments give a hint that it is "sourced by /etc/cron.*/rkhunter and /etc/apt/apt.conf.d/90rkhunter" /etc/cron.daily/rkhunter is a script that runs it, and /etc/cron.weekly/rkhunter updates the definitions. These may work for you as-is. If you instead wished to change the command line or schedule, remove these. Replace them with drop in files in /etc/cron.d (man 5 crontab), systemd timers, or however else you want to schedule.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185431/cron-daily-run-in-the-rkhunter-configuration-file
+
+---
+
+#### 9448. NTP client on LAN does not succeed ntpdate-debian
+
+**问题描述 / Problem Description**:
+Tags: debian, ntp, ntpdate | Score: 0 | Views: 869 | Answers: 1 | Created: 2025-05-22
+
+**解决方案 / Solution**:
+It me it looks like the server configuration uses a default accces control list that restricts access noquery and by default sends any and all unwanted clients a "kiss of death" packet to get them to back off kod : restrict default kod nomodify nopeer noquery limited and then the policy is relaxed a bit and to (only) allow unrestricted access from localhost: restrict 127.0.0.1 restrict ::1 You typically need to add your own network(s) to the access control list and explicitly grant them access by appending for example restrict 192.0.2.0 netmask 255.255.255.0 nomodify which should grant "read only" access to to your NTP service from the 192.0.2.0/24 subnet.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184184/ntp-client-on-lan-does-not-succeed-ntpdate-debian
+
+---
+
+#### 9449. Debian Mail server + Rspamd not sending or receiving mails anymore. Maybe Spamhaus issue?
+
+**问题描述 / Problem Description**:
+Tags: debian, postfix, dovecot, rspamd, spamhaus | Score: 0 | Views: 180 | Answers: 1 | Created: 2025-05-17
+
+**解决方案 / Solution**:
+It sounds like there may be a configuration issue or a block from Spamhaus affecting your mail server. I recommend checking your logs for any specific error messages and verifying your DNS settings. Additionally, ensure that your IP isn't blacklisted on Spamhaus. If the problem persists, consider reviewing your Rspamd settings or reaching out to your ISP for further assistance.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181620/debian-mail-server-rspamd-not-sending-or-receiving-mails-anymore-maybe-spamha
+
+---
+
+#### 9450. apt shows GitLab package upgrade to same version but with amd64 suffix
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, debian, apt, upgrade, gitlab | Score: 0 | Views: 165 | Answers: 1 | Created: 2025-05-16
+
+**解决方案 / Solution**:
+Before the upgrade, you had the package installed from a repository for jammy , but now your gitlab_gitlab-ce.list points to a different repository, for noble . Both repositories contain a package gitlab-ce , but these packages are different, with different content, different URLs, different sizes and checksums, compiled for different systems. When you changed the gitlab repository from jammy to noble , apt is unable to match the locally installed gitlab-ce package to any remote repository and gives it priority 100 while the package from the noble repository gets priority 500 and is candidate for upgrade (see section APT's Default Priority Assignments in man 5 apt_preferences ). You can see priorities in the apt policy gitlab-ce output: gitlab-ce: Installed: 18.0.0-ce.0 Candidate: 18.0.0-ce.0 Version table: 18.0.0-ce.0 500 500 https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu noble/main amd64 Packages *** 18.0.0-ce.0 100 100 /var/lib/dpkg/status To avoid upgrade, either revert back to jammy repository in your gitlab_gitlab-ce.list and you'll see the following priorities: gitlab-ce: Installed: 18.0.0-ce.0 Candidate: 18.0.0-ce.0 Version table: *** 18.0.0-ce.0 500 500 https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu jammy/main amd64 Packages 100 /var/lib/dpkg/status Or you can pin the package: Package: gitlab-ce Pin: release a=now Pin-Priority: 1000 and get the following priorities gitlab-ce: Installed: 18.0.0-ce.0 Candidate: 18.0.0-ce.0 Version table: 18.0.0-ce.0 500 500 https://packages.gitlab.com/gitlab/gitlab-ce/ubuntu noble/main amd64 Packages *** 18.0.0-ce.0 1000 100 /var/lib/dpkg/status
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181438/apt-shows-gitlab-package-upgrade-to-same-version-but-with-amd64-suffix
+
+---
+
+#### 9451. Setup port forwarding/nat with nftables
+
+**问题描述 / Problem Description**:
+Tags: debian, iptables, proxmox, nftables | Score: 0 | Views: 798 | Answers: 1 | Created: 2025-05-15
+
+**解决方案 / Solution**:
+Fixed with the following config: nano /etc/nftables.conf #!/usr/sbin/nft -f flush ruleset table inet filter { chain input { type filter hook input priority filter; } chain forward { type filter hook forward priority filter; } chain output { type filter hook output priority filter; } } table ip nat { chain prerouting { type nat hook prerouting priority 0; policy accept; # DNAT van host-poort 80/TCP naar VM iifname "vmbr0" tcp dport 80 dnat to 192.168.2.2:80 # DNAT van host-poort 51800/UDP naar VM iifname "vmbr0" udp dport 51800 dnat to 192.168.2.2:51800 } chain postrouting { type nat hook postrouting priority 100; policy accept; # SNAT (masquerade) zodat de VM-traffic correct terug kan komen oifname "vmbr1" masquerade } }
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181405/setup-port-forwarding-nat-with-nftables
+
+---
+
+#### 9452. NAT is not working properly
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, iptables, linux-networking, interface | Score: 0 | Views: 212 | Answers: 1 | Created: 2025-05-09
+
+**解决方案 / Solution**:
+You ping request is sent correctly, due to iptables passing the packet to MASQUERADE that then modifies packet, then the outbound interfaces handles the packet as normal. As iptables is called postrouting, no "routing" occurs between the two interfaces. However on the return trip, the packets is modified on return by iptables passing the packet to MASQUERADE, and the dst ip address being changed. The packets is then put back in the queue of the original interface for routing to occur. I am assuming the enabling the Proxmox Firewall is causing the packet to go through the localhost/local subnet, and the packet is therefore not routed. To fix this issue try: sysctl net.ipv4.conf.all.route_localnet=1 I would also enable net.ipv4.conf.all.accept_local with sysctl net.ipv4.conf.all.accept_local=1 this will enable routing to and from 127/8 for all interfaces, you can enable this option for only the interfaces you want, however for testing I would enable it for all to confirm the fix. if this fix does not work, please post the output from "ip rules" to confirm there is no custom route tables that proxmox adds.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180955/nat-is-not-working-properly
+
+---
+
+#### 9453. Is there an way to sync user accounts, packages & conda envs across computers?
+
+**问题描述 / Problem Description**:
+Tags: debian, ldap, ansible, ceph, slurm | Score: 0 | Views: 132 | Answers: 1 | Created: 2025-04-21
+
+**解决方案 / Solution**:
+Multiple ways exist to provide a consistent environment across a cluster. Regarding software package management, you mentioned numpy and obviously this implies python. Find out if the Debian packages are sufficient for your use case. If so, sure use that. Install Python modules needed by everyone, and maybe create system level venvs for common variants. Use of the operating system distro's package can be simple and familiar. Downsides, these packages don't really support being relocated to a different path, and for stable distos the version is not updated frequently. But maybe your users need different Python versions, compilers, GPU libraries, other non-Python languages, environment differences of any kind. conda comes up as a package manager as it has been used for this kind of thing, packaging python installs and not just venvs. In particular, conda environments can install parallel versions without conflicting, from a remote repository. From an application specific environment perspective, it may seem strange to install Python modules to system python or a generic venv rather than a dedicated one. Presumably numpy is a common dependency, maybe the GPU software is annoying to install. So might as well have it there already, with no need to prepare an environment in a user job. Maybe you trust users to set up venvs for their software. If so, your shared home directories are the logical place to store them. This shared home could also serve as the place for job storage so all the nodes can access it, but does not have to be. Job scripts using a "module" command to add installed software to $PATH are probably using Lmod . It looks fancy. Certainly capable of selecting from Python options, whether conda, venv, or system. venvs do not have to be the container to hold an application, just run the binary you want. Users, you will need consistent uids and gids for slurm, and for your sanity in general for who is who. Automate user creation, and provide a numeric ID so it is the same everywhere. Or setup central auth for nodes, to some user directory. A general purpose automation tool to do things to multiple nodes at once will be useful. For example, Ansible can install software onto nodes including from bootstrap, and ensure user have their assigned uids. On a homogeneous cluster like this, every user with the privileges to install system software or create users needs to be trusted to keep things consistent. In other words, trusted to use the automation you have selected. Possibly at your organization you implement separation of roles. Users request a specific Python build, or Perl or something, and a cluster administrator puts it everywhere with an Ansible playbook wrapping apt or conda. Then the users, on a login node, create a venv from that, with the rest of the job's software, and define their own Lmod module for ease of loading this environment. Several examples exist of using the type of HPC environment I am outlining, often in academia. Remember that they have built their own system from modular components. It would not be wrong if they instead had NFS shares for storage, nix as a package manager, some simple shell scripts to find the installed software, and also slurm for job scheduler. Just different.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179559/is-there-an-way-to-sync-user-accounts-packages-conda-envs-across-computers
+
+---
+
+#### 9454. Npm run build for NextJS app runs out of memory on new Lightsail server but works fine on old one
+
+**问题描述 / Problem Description**:
+Tags: debian, node.js, bitnami, amazon-lightsail, outofmemoryerror | Score: 0 | Views: 239 | Answers: 1 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+I ended up just building the app on my own computer (where it works) and then writing a script to deploy it to the Debian server. This is a solution that I've seen other people settle for, but I was hoping to find an actual solution to why the build didn't work on the server, which is why I didn't do it until I got impatient.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178804/npm-run-build-for-nextjs-app-runs-out-of-memory-on-new-lightsail-server-but-work
+
+---
+
+#### 9455. Cannot reach Debian virtual machine with web server running in Hyper-V guest from host or another guest
+
+**问题描述 / Problem Description**:
+Tags: debian, firewall, linux-networking, virtual-machines, hyper-v | Score: 0 | Views: 200 | Answers: 1 | Created: 2025-04-09
+
+**解决方案 / Solution**:
+Solved I'm newbie in linux and everywhere I've found references to iptables and ufw, but happened to be other firewall service firewalld, stopping that started to work. systemctl stop firewalld To allow port 80 in firewalld: firewall-cmd --permanent --add-service=http --add-service=https firewall-cmd --reload firewall-cmd --state
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178782/cannot-reach-debian-virtual-machine-with-web-server-running-in-hyper-v-guest-fro
+
+---
+
+#### 9456. Filesystem got unmounted after full OS drive on OpenMediaVault7 (Debian 12)
+
+**问题描述 / Problem Description**:
+Tags: debian, raid, filesystems, ssd, openmediavault | Score: 0 | Views: 208 | Answers: 1 | Created: 2025-04-05
+
+**解决方案 / Solution**:
+Depends on your definition of cooked. Your MD volume is now an empty ext4 filesystem; running mkfs.ext4 and confirming that you wanted the existing btrfs filesystem overwritten pretty much assured that. You do have your 2.3TB data volume still, just there is now nothing recoverable on it. Your 57.5G OS volume has not been touched through all of this, which is why you can still boot. And I'd guess that your OS drive is also the one that you're seeing on the Windows file share.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178263/filesystem-got-unmounted-after-full-os-drive-on-openmediavault7-debian-12
+
+---
+
+#### 9457. How to set up git-http-backend with appropriate permissions to make repos also accessible via SSH
+
+**问题描述 / Problem Description**:
+Tags: ssh, debian, http, apache2, git | Score: 0 | Views: 722 | Answers: 1 | Created: 2025-04-02
+
+**解决方案 / Solution**:
+"dubious ownership" can be bypassed via ~/.config/git/config . Configure Apache with SetEnv HOME /srv/http or something similar, so that the CGI scripts would inherit that, then place the [safe] configuration in that user's Git config file. fcgiwrap could potentially be used to run the Git CGI handler under a different account than the Apache process. Usually fcgiwrap is used with Nginx, but I don't think there is anything stopping Apache from talking to it as well. Some distributions provide mod_suexec as part of Apache, which adds SuexecUserGroup and similar settings which could be set per-vhost.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178122/how-to-set-up-git-http-backend-with-appropriate-permissions-to-make-repos-also-a
+
+---
+
+#### 9458. Debian - modern way to run script for any user that connect to ssh
+
+**问题描述 / Problem Description**:
+Tags: ssh, debian, security | Score: 0 | Views: 147 | Answers: 1 | Created: 2025-03-18
+
+**解决方案 / Solution**:
+Use the pam_script module in the /etc/pam.d/sshd file with a onauth script. auth required pam-script.so onauth=/path/to/script https://github.com/jeroennijhof/pam_script/tree/master
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1175609/debian-modern-way-to-run-script-for-any-user-that-connect-to-ssh
+
+---
+
+#### 9459. Server Debian 12 failing to install proxmox
+
+**问题描述 / Problem Description**:
+Tags: debian, hp-proliant, proxmox | Score: 0 | Views: 292 | Answers: 1 | Created: 2025-03-02
+
+**解决方案 / Solution**:
+Hi @Bravo and @Nikita, The terminal input and output are as follows, and now it is working properly. The only thing I did was shut down the server and restart it today. @Gerald Schneider thank you for editing. debian:~# cat /etc/network/interfaces source /etc/network/interfaces.d/* auto lo iface lo inet loopback allow-hotplug ens2f0 iface ens2f0 inet static address 192.168.0.200/24 gateway 192.168.0.1 dns-nameservers 192.168.0.1 $ systemctl status networking.service networking.service - Raise network interfaces Loaded: loaded (/lib/systemd/system/networking.service; enabled; preset: enabled) Active: active (exited) since Mon 2025-03-03 16:14:26 WET; 12min ago Docs: man:interfaces(5) Process: 493 ExecStart=/sbin/ifup -a --read-environment (code=exited, status=0/SUCCESS) Main PID: 617 ExecStart=/bin/sh -c [ -f /run/network/restart-hotplug ]; then /sbin/ifup -a (code=exited, status=0/SUCCESS) CPU: 38ms $ ip route show default via 192.168.0.1 dev ens2f0 onlink 192.168.0.0/24 dev ens2f0 proto kernel scope link src 192.168.0.200 $ ip a show ens2f0 ens2f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000 link/ether a0:36:9f:7f:70:34 brd ff:ff:ff:ff:ff:ff altname enp7s0f0 inet 192.168.0.200/24 brd 192.168.0.255 scope global ens2f0 valid_lft forever preferred_lft forever inet6 fe80::a236:9fff:fe9f:7034/64 scope link valid_lft forever preferred_lft forever
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174058/server-debian-12-failing-to-install-proxmox
+
+---
+
+#### 9460. JournalD starting and killing loop on first boot
+
+**问题描述 / Problem Description**:
+Tags: debian, boot, journald | Score: 0 | Views: 848 | Answers: 1 | Created: 2025-03-01
+
+**解决方案 / Solution**:
+Bit late, but if you are having this issue, specially on a gaming build / laptop the issue could be graphics driver. To check this follow the steps below. At the GRUB menu, select your Debian option and press 'e' to edit the boot parameters. Find the line starting with linux. At the end of that line, add nomodeset. Press Ctrl+X or F10 to boot. If the error goes away, then that means it is graphic driver / card related issue. To fix it, I did the following. In the /etc/apt/sources.list file, I added / uncommented following: deb http://deb.debian.org/debian/ bookworm main non-free non-free-firmware deb-src http://deb.debian.org/debian/ bookworm main non-free non-free-firmware deb http://security.debian.org/debian-security/ bookworm-security main non-free non-free-firmware deb-src http://security.debian.org/debian-security/ bookworm-security main non-free non-free-firmware deb http://deb.debian.org/debian/ bookworm-updates main non-free non-free-firmware deb-src http://deb.debian.org/debian/ bookworm-updates main non-free non-free-firmware Then I ran: sudo apt update sudo apt install nvidia-driver Then reboot.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173892/journald-starting-and-killing-loop-on-first-boot
+
+---
+
+#### 9461. Dovecot locking with Maildir - VOLATILEDIR
+
+**问题描述 / Problem Description**:
+Tags: debian, dovecot | Score: 0 | Views: 250 | Answers: 1 | Created: 2025-03-01
+
+**解决方案 / Solution**:
+I mitigated this by now creating a user based diretory at top level so every user has its own directory for locking: mail_location = maildir:~/Maildir:VOLATILEDIR=/dev/shm/dovecot-%2.256Nu/%u Still, in my eyes it does not make sense. Did I miss a configuration setting for Dovecot? Why am I the first who noticed this? Or is there a bug report somehwere? Did not find anything...
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173887/dovecot-locking-with-maildir-volatiledir
+
+---
+
+#### 9462. Debian remote server missing libc
+
+**问题描述 / Problem Description**:
+Tags: debian | Score: 0 | Views: 220 | Answers: 2 | Created: 2025-02-20
+
+**解决方案 / Solution**:
+The recommended upgrade path is buster to bullseye to bookworm. You've skipped a version, which means that the upgrade path is not tested. At this stage, your best bet is probably to either re-install, or chroot into your system, and figure out what libraries apt-get needs to function, and copy these manually from a system with the correct versions of software. You risk that this approach is not possible - because worst case you may have dpkg relying on different libraries from apt-get - which will place you in a bind. Copying library and executable piece by piece will be a puzzle where you generally will have to try apt-get , see what fails, and attempt to figure out why. It's not easy way out.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173326/debian-remote-server-missing-libc
+
+---
+
+#### 9463. web server can't be accessed from outside the server
+
+**问题描述 / Problem Description**:
+Tags: nginx, debian, apache2, web-hosting, hetzner | Score: 0 | Views: 609 | Answers: 1 | Created: 2025-01-03
+
+**解决方案 / Solution**:
+Only SSH seems accessible from the outside (within ports ≥1000). $ nmap static.76.42.203.116.clients.your-server.de -Pn Starting Nmap 7.93 ( https://nmap.org ) at 2025-01-03 18:41 EET Nmap scan report for static.76.42.203.116.clients.your-server.de (116.203.42.76) Host is up (0.050s latency). Not shown: 999 filtered tcp ports (no-response) PORT STATE SERVICE 22/tcp open ssh Nmap done: 1 IP address (1 host up) scanned in 9.04 seconds As you wrote your internal firewall has these ports open, this is likely an issue with an external firewall; Hetzner Online's stateless firewall .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169748/web-server-cant-be-accessed-from-outside-the-server
+
+---
+
+#### 9464. Nginx works on port 81 but not 80
+
+**问题描述 / Problem Description**:
+Tags: nginx, debian, raspbian | Score: 0 | Views: 223 | Answers: 1 | Created: 2025-01-03
+
+**解决方案 / Solution**:
+Figured it out. Though very strange that it does not appear on netstat. K3s comes with a traefik load balancer enabled. removing it solves the issue.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169744/nginx-works-on-port-81-but-not-80
+
+---
+
+#### 9465. Xen guest with static IP and masquerading with nftables
+
+**问题描述 / Problem Description**:
+Tags: debian, linux-networking, xen, bridge, nftables | Score: 0 | Views: 221 | Answers: 1 | Created: 2024-12-29
+
+**解决方案 / Solution**:
+If the VIF representing the VM guest is supposed to be in the bridge, then NAT on the VM host is irrelevant as it communicates directly via the bridge and doesn't even use the host as a gateway. But from comments, it seems that Xen doesn't put the VIF in the bridge as it should. Do that manually using ip link set <vif_name> master xenbr0 . My guess is that Xen ignores your entire vif = configuration because of the ip= parameter which shouldn't be there – I couldn't find it in documentation, and indeed it doesn't even make sense for ip= to exist because the hypervisor only has control over the guest's MAC address (which is emulated hardware) but not over the guest's IP address (which is something that the guest decides in software). Initial answer written last week: The setup you have is a mix of several contradictory configurations. In particular you have a mix of "bridged" and "routed" setup: If enp2s0 is part of the bridge, then effectively the VM is directly connected to the same LAN as the host is (at Ethernet level) – it'll directly talk to the physical LAN gateway at 10.56.0.1, and so on. But if the VM is configured to use 10.56.0.1 as its gateway (taking the shortcut through the bridge)... that means it won't use 10.56.0.191 (the host PC) as its gateway, and therefore its traffic won't go through the host's IP processing, including any nftables NAT rules. Not that NAT would be needed, anyway – both NAT and proxy-ARP would also be completely unnecessary in this setup. Proxy-ARP is redundant because the bridge already forwards the real ARP requests/responses straight to the VM, so there's no need for the host to answer on its behalf; NAT is redundant because both addresess are within the same subnet, so the gateway already knows a route to the VM's real address anyway (again, straight through the bridge). So if you want a bridged setup where the VM is a full member of the physical LAN, the first thing to do would be to disable proxy-ARP again and make sure that the physical router correctly learns the VM's real MAC address (usually ARP cache entries expire after a short while). The second thing – if you're doing this on some corporate LAN – would be to contact whoever manages the network. On the other hand, if a routed setup with NAT is desired (in order to hide the VM's existence from the physical LAN), then enp2s0 shouldn't be part of the bridge at all. Instead, enp2s0 and xenbr0 should be two separate interfaces with separate IP configurations – and more importantly, with non-overlapping IP subnets. For example, since the LAN uses 10.56.0.0/16, you might use 192.168.44.0/24 for your Xen network, and the VM would be configured to use the host (e.g. 192.168.44.1) as its gateway. Since routing is implicit, it also has to be enabled system-wide via /etc/sysctl.conf on the host system ( net.ipv4.conf.all.forwarding=1 ). (Technically speaking, if the bridge only ever contains just this single VM, then the bridge overall is redundant; routing can be done directly between enp2s0 and the individual interface representing the VM. Still, using a bridge makes several other things more convenient.)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1169597/xen-guest-with-static-ip-and-masquerading-with-nftables
+
+---
+
+#### 9466. Syn Flood Attack
+
+**问题描述 / Problem Description**:
+Tags: apache-2.2, debian, php-fpm, ufw | Score: 0 | Views: 510 | Answers: 2 | Created: 2024-12-06
+
+**解决方案 / Solution**:
+Until Apache receives the HTTP request, it's not going to wake up PHP. If you're seeing an impact on your PHP processes, then this is not a syn flood. More likely that all the Apache slots are used up and you are seeing backed up connections. I was thinking of putting UFW in the Fail2Ban table Not quite sure what you are saying here. If your firewall is logging that it is blocking connections, what do you gain by using fail2ban to block the connection which are already being blocked? If you can profile the attack either from the logs alone or from PHP code injected in your pages, then it does make a lot of sense to use this data as a feed for fail2ban.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168600/syn-flood-attack
+
+---
+
+#### 9467. Systemd CPUQuota is not working after sudo interactive login
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, cgroup, resource-management | Score: 0 | Views: 101 | Answers: 1 | Created: 2024-11-26
+
+**解决方案 / Solution**:
+I've found a solution. You should implement some kind of a user service wrapper around the slice file. Just like it's done here . After that everything works as expected.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168179/systemd-cpuquota-is-not-working-after-sudo-interactive-login
+
+---
+
+#### 9468. Server ran out of space, is it safe to delete `/tmp/drill`?
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, storage | Score: 0 | Views: 97 | Answers: 1 | Created: 2024-11-21
+
+**解决方案 / Solution**:
+You can check with if any process still writes to those files. lsof /tmp/drill/profiles/*.sys.drill If you're unsure if you need these files or not, you can always move them to another partiton.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1168009/server-ran-out-of-space-is-it-safe-to-delete-tmp-drill
+
+---
+
+#### 9469. installer all the hard drives show up and I see no way to Deselect them
+
+**问题描述 / Problem Description**:
+Tags: debian, installation | Score: 0 | Views: 299 | Answers: 1 | Created: 2024-11-09
+
+**解决方案 / Solution**:
+The installer is working exactly as it is designed. It allows one to select a drive to which to install the OS. It doesn't have an option to choose disks to which one doesn't want to install it. It will indicate the drive that has been selected afterwards. If you are concerned, then disconnect all of the drives to which you don't want to install Debian so that there is only one available. That will completely eliminate any possibility of accidentally installing to a drive that you don't want. Otherwise, just select the drive to which you want to install it and proceed.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167604/installer-all-the-hard-drives-show-up-and-i-see-no-way-to-deselect-them
+
+---
+
+#### 9470. dmidecode Displays Incorrect Processor Manufacturer and Version on Debian 12 Guest Running on KVM with RHEL 9.4 Host, but Works Correctly on Hyper-V
+
+**问题描述 / Problem Description**:
+Tags: debian, redhat, hyper-v, kvm-virtualization, dmidecode | Score: 0 | Views: 824 | Answers: 2 | Created: 2024-10-16
+
+**解决方案 / Solution**:
+If the guest boots, and you have no specific requirements to care about the exact machine, this is probably fine and no action is required. dmidecode is correct, the host is Red Hat virtual hardware, in other words your VM host. The hardware is whatever qemu wants it to be, and isolation of guests is a security feature, so these interfaces are not going to represent physical hardware. Boot Linux on physical hardware sometime and compare, it may have hardware vendors and system information. RHEL has a few patches to qemu-kvm with changes. Beyond branding in the descriptions, RHEL maintains some versioned machine types. Usually you do not care about the exact qemu and kernel version of your VM hosts, at say RHEL 9.4. Processor instruction set and other hardware features are usually backwards compatible quite far back.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166677/dmidecode-displays-incorrect-processor-manufacturer-and-version-on-debian-12-gue
+
+---
+
+#### 9471. Specify Log (journal) source of systemd service
+
+**问题描述 / Problem Description**:
+Tags: debian, logging, systemd, unattended-upgrades | Score: 0 | Views: 206 | Answers: 1 | Created: 2024-10-10
+
+**解决方案 / Solution**:
+Journalctl doesn't support importing files. You would need a separate service that does tail -F on the log file (and has its stdout logged to the journal). [Service] Type=exec ExecStart=stdbuf -o0 tail -F /var/log/whatever.log SyslogIdentifier=upgrades You'll need to use either journalctl -t upgrades (by syslog identifier) or journalctl -u the-forwarder – not journalctl -u unattended-upgrades – to view such logs. There is a possibility to add the OBJECT_UNIT= property to the messages so that they would show up in journalctl -u unattended-upgrades despite being logged by a different unit; but not via stdout logging – maybe through systemd-cat but likely only through a custom wrapper.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166429/specify-log-journal-source-of-systemd-service
+
+---
+
+#### 9472. My nftables firewall allows ipv6 input on specified ports for a short while, but then blocks
+
+**问题描述 / Problem Description**:
+Tags: debian, ipv6, nftables, port-443, port-80 | Score: 0 | Views: 898 | Answers: 2 | Created: 2024-10-07
+
+**解决方案 / Solution**:
+The problem is insufficient access for ICMP on the output side. Not something I expected to give problems for input. But that's my lack of sufficient understanding of IPv6. For IPv6, routing relies on ICMP communications, unlike IPv4 which uses ARP. Copying the ICMP line from the input chain to the output chain fixes the problem. I'm not certain if the list of types is ideal, but it is enough to get things working.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166284/my-nftables-firewall-allows-ipv6-input-on-specified-ports-for-a-short-while-but
+
+---
+
+#### 9473. Freebsd PF firewall problems
+
+**问题描述 / Problem Description**:
+Tags: debian, nat, freebsd, proxmox, pf | Score: 0 | Views: 107 | Answers: 1 | Created: 2024-10-01
+
+**解决方案 / Solution**:
+So, basically, it's your dedicated server with proxmox that has all the true connectivity, and what you're calling "firewall" is just a mere VM with some virtual adapters without native links. For simplicity, you shouldn't use the VM inside proxmox as a firewall and a gateway (technically you can, yes, but you're lacking some serious skills, thus this will overcomplicate things) but rather configure your proxmox as a gateway (which it already is) with NAT.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1166003/freebsd-pf-firewall-problems
+
+---
+
+#### 9474. BIND 9 DNSSEC Key Folder Permission
+
+**问题描述 / Problem Description**:
+Tags: debian, bind, dns-hosting, dnssec, authoritative | Score: 0 | Views: 399 | Answers: 1 | Created: 2024-09-23
+
+**解决方案 / Solution**:
+I found the problem, AppArmor blocked the creation of new files to the user "named". This is the AppArmor profile for the user named: # vi /etc/apparmor.d/local/usr.sbin.named Allow Read, Write and Link (link is not necessary) /etc/bind/zones/* lrw, /etc/bind/keys/* lrw, And reload the AppArmor profile # apparmor_parser -r /etc/apparmor.d/usr.sbin.named I hope it can be useful even if trivial. P.S. I changed the owner of keys folder to bind:bind
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165619/bind-9-dnssec-key-folder-permission
+
+---
+
+#### 9475. Debian 12 crashes randomly as a KVM host
+
+**问题描述 / Problem Description**:
+Tags: debian, kvm-virtualization, crash | Score: 0 | Views: 857 | Answers: 1 | Created: 2024-09-19
+
+**解决方案 / Solution**:
+The Debian VM host is the one with the symptoms of rebooting mysteriously. Investigate what could have caused it to crash. Check for hardware errors, ECC memory and similar. On Linux use rasdaemon . Configure remote syslog logging to a different host, on both VM hosts and VM gusts. Messages sent over IP have a chance of being sent even if they might fail to be committed to local storage. Naturally this would need to be different hardware than the Debian server. Configure Linux kernel to crash dump (Ubuntu documentation, Debian should be similar). Like a crashed program dump, but the operating system. Consider enabling remote kdump, to transfer it out via ssh. With a copy of the exact kernel version used and this dump, you can do debugger things. Most basic being bt to get a backtrace. So far this is just categories of things to look at. You still need to identify possible root causes and track them down. When the Debian hosts crashes again, find that exact time in logs. Work backwards from each boot and examine the very last messages logged before the problem. Probably a kernel panic would log quite different messages compared to a planned shutdown. Examine the dump file, to check it did crash, and what was on CPU in a debugger. Several categories of problems are possible: Hardware fault, fixed by replacing problem component. Operating system fault, so Linux crashed. Find which subsystem is involved, from panic message and dump. Application crash. Probably on the VM host given the server is rebooting symptoms you describe. However also check logs in guest around the problem time, to see what if anything was happening then.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165441/debian-12-crashes-randomly-as-a-kvm-host
+
+---
+
+#### 9476. Error 403 Forbidden on localhost when accessing custom directory on Debian 12
+
+**问题描述 / Problem Description**:
+Tags: debian, apache2, localhost | Score: 0 | Views: 1592 | Answers: 1 | Created: 2024-08-26
+
+**解决方案 / Solution**:
+The 403 Forbidden error is due to the user "www-data" not having access/not being owner of the directory. I changed it with: sudo chown -R www-data:www-data /home/user1/pwl and at first glance, it worked. Localhost opened the sample index.html file. However, the user (kay) now cannot access the pwl. I tried adding kay to the www-data group, like: sudo chown -R kay:www-data /home/user1/pwl sudo usermod -a -G www-data kay and vice versa, but I still can't access the folder w dolphin and the localhost link both. I found this blog abt linux file permissions ( https://www.pluralsight.com/blog/it-ops/linux-file-permissions ) and ran chmod ugo+rwx /home/user1/pwl to give rwx perms to everyone. Now I can access the folder as user and through the localhost link. I don't know if this is the best answer, but this worked for me. EDIT : after all that, I ran the commands mentioned by symcbean, chmod -R g+rwx /home/user1/pwl chmod -R go-w /home/user1/pwl , And all is well now.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164332/error-403-forbidden-on-localhost-when-accessing-custom-directory-on-debian-12
+
+---
+
+#### 9477. `Error: conflict: User *** already exists` even when the user is not registered
+
+**问题描述 / Problem Description**:
+Tags: debian, ejabberd | Score: 0 | Views: 174 | Answers: 1 | Created: 2024-08-25
+
+**解决方案 / Solution**:
+It turns out that the problem was in the table permissions. When I replaced the permissions of all tables in the ejabberd database with this command: grant select, update, insert, delete on <table name> to ejabberd; Everything worked as it should.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164318/error-conflict-user-already-exists-even-when-the-user-is-not-registered
+
+---
+
+#### 9478. Not able to get MariaDB error logs on a freshly installed Debian 12 server
+
+**问题描述 / Problem Description**:
+Tags: debian, mariadb | Score: 0 | Views: 1416 | Answers: 1 | Created: 2024-08-03
+
+**解决方案 / Solution**:
+To start with, unless you have created the directory /var/log/mysql and uncommented and the logs in the conf file at /etc/mysql/mariadb.conf.d/50-server.cnf , they will not exist. First, create the directory and set the owner and permissions. This is assuming that the daemon/service is running as the default of mysql. mkdir /var/log/mysql chown mysql:mysql /var/log/mysql chmod 2750 /var/log/mysql These steps are in the conf file but I have included them here to be more direct. The line in the conf file that sets the location of the error log is commented out. You will need to uncomment it so that it appears as: log_error = /var/log/mysql/error.log Keep in mind that you can also set a different directory and file as the location of the logs such as /var/log/mariadb and do the above but I am keeping it simple here. Lastly, restart the mariadb daemon with systemctl restart mariadb and you will see that the error log file exists in the location in the conf file. You will also see that the command show global variables like 'log_error'; in the MariaDB console outputs the following: +---------------+--------------------------+ | Variable_name | Value | +---------------+--------------------------+ | log_error | /var/log/mysql/error.log | +---------------+--------------------------+ 1 row in set (0.001 sec)
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163454/not-able-to-get-mariadb-error-logs-on-a-freshly-installed-debian-12-server
+
+---
+
+#### 9479. IPv4 packets coming from the VPN interface are sent back correctly, but not IPv6
+
+**问题描述 / Problem Description**:
+Tags: debian, routing, ipv6, wireguard | Score: 0 | Views: 285 | Answers: 2 | Created: 2024-08-01
+
+**解决方案 / Solution**:
+Assign the VPN different addresses outside the server's existing nets. Especially different from any on link /64s going through say an Ethernet. A good hosting provider will route multiple never-used /64s to your host on request, say a /56. You then can set an entire /64 for VPN addresses. As public IP addresses, they can access the internet, if allowed by firewalls. A less good hosting provider will only provide additional on link prefixes. Their gateway will assume it can do NDP over Ethernet when really it needs to be routed through your server via wg. Do your own NDP replies as a hack to make this work, like with ndpresponder program. If internet access is not required, consider generating ULA addresses for the purpose of VPN addresses. Visit here for a ULA prefix just for you. The address space is so large every person on the planet could be issued thousands of /48, vastly bigger, and maybe then the utilization would be noticeable. New subnets for every purpose is the simpler IPv6 way of doing things.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163370/ipv4-packets-coming-from-the-vpn-interface-are-sent-back-correctly-but-not-ipv6
+
+---
+
+#### 9480. Configuring ISC DHCP-server on Debian
+
+**问题描述 / Problem Description**:
+Tags: debian, isc-dhcp | Score: 0 | Views: 2106 | Answers: 1 | Created: 2024-07-26
+
+**解决方案 / Solution**:
+There was an error in the interfaces definition.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163106/configuring-isc-dhcp-server-on-debian
+
+---
+
+#### 9481. Sending of the message failed - Insufficient system storage
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, email, postfix, sendmail | Score: 0 | Views: 455 | Answers: 1 | Created: 2024-07-12
+
+**解决方案 / Solution**:
+Ensure that your mail server has enough disk space available. You can check disk space using the following command: df -h
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162463/sending-of-the-message-failed-insufficient-system-storage
+
+---
+
+#### 9482. How do I install python into debian bookworm?
+
+**问题描述 / Problem Description**:
+Tags: debian, docker | Score: 0 | Views: 1401 | Answers: 1 | Created: 2024-07-10
+
+**解决方案 / Solution**:
+python is reserved for Python 2.x, while all Python 3 scripts are expected to use python3 . Try running python3 , not python .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162302/how-do-i-install-python-into-debian-bookworm
+
+---
+
+#### 9483. Postfix does not work with SMTP authentication
+
+**问题描述 / Problem Description**:
+Tags: linux, debian, postfix | Score: 0 | Views: 335 | Answers: 1 | Created: 2024-07-08
+
+**解决方案 / Solution**:
+(this is mostly comment but space/formatting limited) my company now requires smtp user/password. It would appear that you are trying to configure a satellite host to connect to a relay which now requires authentication (it would have been nice if you had stated this). Obvious things to try are: Escape the @ in the username Omit "@emaildomain.com" from the username Add a record in /etc/hosts for emaildomain.com emaildomain.com is not a DNS zone and you cant resolve it Your postfix logs are explicitly stating it CAN resolve it. And you have not addressed this in your post. This casts some doubt on your methodology.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162172/postfix-does-not-work-with-smtp-authentication
+
+---
+
+#### 9484. Can't transfer file via tftp, ERROR - Failed to open file 'file' on server
+
+**问题描述 / Problem Description**:
+Tags: networking, debian, firewall, tftp | Score: 0 | Views: 798 | Answers: 1 | Created: 2024-06-24
+
+**解决方案 / Solution**:
+The issue is resolved. The solution was to use a public IP address of computer for tftp write, not private IP address.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161451/cant-transfer-file-via-tftp-error-failed-to-open-file-file-on-server
+
+---
+
+#### 9485. Why do I have to change the password from sudo user to access root?
+
+**问题描述 / Problem Description**:
+Tags: debian | Score: 0 | Views: 112 | Answers: 1 | Created: 2024-06-22
+
+**解决方案 / Solution**:
+You are attempting to do very wrong thing. We won't help you to do that here (think: we won't help you to aim the gun into your foot to shoot). Rather, I'd better describe the way you should be managing Linux system. Don't work as root. In particular, never allow obtaining a root shell directly from the network , especially with password, e.g. via SSH. Locally, use sudo , doas or similar frameworks. But resist the temptation even to create users that can sudo any command, that's too overpowered, especially for automated tasks. Each such user is a breach in a security. Define the roles for your users and only allow their sudo to run minimally needed set for that role. Remote automation tools can use it too; for instance, learn how to become with Ansible. If you create local automated tasks that use sudo , they are likely to run very specific commands that are well known beforehand; for such tasks, you create dedicated files in /etc/sudoers.d/ which permit exactly that command to be run. It may grow info a few dozens of such individually permitted commands; that's normal, this is how it should be. Don't try to "optimize" that or "ease" the management by permitting everything to a some "super sudoer"; that's no better that working as root and should be avoided for the same reason. There is a valid use of root over SSH, like backups and other automated actions. You setup limited root SSH access for that using SSH keys. But first you need to reset sshd_config to the default value of PermitRootLogin prohibit-password . It's made default for a good reason. Then you put keys into /root/.ssh/authorized_keys , but restrict their capabilities (and thus limit the damage one can incur if the corresponding private key is leaked). The correct way is to use restrict and then specify allowed action for that key (e.g. forced command, enabled forwarding, etc.). See man authorized_keys for the details, and ask another question, dedicated to setting up some particular key for some concrete problem. This is the valid best practice of setting up SSH and privilege escalation.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1161367/why-do-i-have-to-change-the-password-from-sudo-user-to-access-root
 
 ---

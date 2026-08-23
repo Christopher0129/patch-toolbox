@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8920**
+**总计条目 / Total entries: 8960**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120260,5 +120260,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236244#reply1
+
+---
+
+#### 8921. Does disabling an app in "Allow Background Activity" apply system-wide or per-user?
+
+**问题描述 / Problem Description**:
+Tags: macos, system-settings, login-items | Score: 1 | Views: 109 | Answers: 2 | Created: 2026-08-22
+
+**解决方案 / Solution**:
+Whether the change applies system-wide or per-user depends entirely on how the application installed its background process. macOS categorizes background tasks into a few different types, primarily User Agents and System Daemons . Here is how the toggle affects them: Per-User (Launch Agents) If the application installs a background process designed to run only when a user logs in (typically stored in ~/Library/LaunchAgents or as an agent in /Library/LaunchAgents ), toggling it off in System Settings will only affect the currently logged-in user . Other users will still have the background process running on their profiles unless they individually toggle it off in their own System Settings. System-Wide (Launch Daemons) If the application requires a background process to run at the system level—meaning it runs in the background even when no one is logged in (typically stored in /Library/LaunchDaemons )—disabling it will affect the entire device system-wide . Note: Because modifying system-wide daemons affects all users, macOS will typically prompt you to enter your administrator password or use Touch ID when you attempt to toggle off a system-level background item. If you aren't prompted for an admin password when flipping the switch, it is almost certainly a per-user change.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486959/does-disabling-an-app-in-allow-background-activity-apply-system-wide-or-per-us
+
+---
+
+#### 8922. With native 80% charge limits now on macOS, what’s the point of AlDente? What makes it worth keeping around?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw4imr/with_native_80_charge_limits_now_on_macos_whats/
+
+---
+
+#### 8923. Lack of a good PDF takeoff tool for macOS (like Bluebeam) – so I started building a free open-source native app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwc3m1/lack_of_a_good_pdf_takeoff_tool_for_macos_like/
+
+---
+
+#### 8924. Wrong Finder icon in tips.app text? (Tahoe - 26.6.2)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw48rm/wrong_finder_icon_in_tipsapp_text_tahoe_2662/
+
+---
+
+#### 8925. Is this Mission Control behavior normal?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwiru9/is_this_mission_control_behavior_normal/
+
+---
+
+#### 8926. Notification trigger for Shortcuts on Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwifmk/notification_trigger_for_shortcuts_on_mac/
+
+---
+
+#### 8927. Problem while updating from Mojave to Ventura - Mac retina 2019
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwhouy/problem_while_updating_from_mojave_to_ventura_mac/
+
+---
+
+#### 8928. Every time I login into iMessage I get logged out instantly
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwgspm/every_time_i_login_into_imessage_i_get_logged_out/
+
+---
+
+#### 8929. Trouble with mouse clicks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw7s52/trouble_with_mouse_clicks/
+
+---
+
+#### 8930. How to delete / clean
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwj8yh/how_to_delete_clean/
+
+---
+
+#### 8931. Open new instance - spotlight search or alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwarng/open_new_instance_spotlight_search_or_alternatives/
+
+---
+
+#### 8932. ALL my files are suddenly multiplied
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwflra/all_my_files_are_suddenly_multiplied/
+
+---
+
+#### 8933. Debating a Mac for Uni and Beyond
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwiakf/debating_a_mac_for_uni_and_beyond/
+
+---
+
+#### 8934. CHROME ICON BUG
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw6b6x/chrome_icon_bug/
+
+---
+
+#### 8935. Anybody else fed up with this or just me?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwk430/anybody_else_fed_up_with_this_or_just_me/
+
+---
+
+#### 8936. FaceTime keeps lowering my background volume and I can't stop it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwc3vl/facetime_keeps_lowering_my_background_volume_and/
+
+---
+
+#### 8937. Do you have this kind of glitch in Safari?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw1ot2/do_you_have_this_kind_of_glitch_in_safari/
+
+---
+
+#### 8938. How to change icons of system apps ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw16xm/how_to_change_icons_of_system_apps/
+
+---
+
+#### 8939. Why photos are taking a lot of space?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vw21k8/why_photos_are_taking_a_lot_of_space/
+
+---
+
+#### 8940. Is the website version of keka safe to download?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vvx4b2/is_the_website_version_of_keka_safe_to_download/
+
+---
+
+#### 8941. [V2EX] mac 用 clion git 文件变化异常
+
+**问题描述 / Problem Description**:
+mac 用 clion 几乎所有的文件 h cpp 文件在 idea 会被识别 git 有变化 但实际上并没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235229#reply10
+
+---
+
+#### 8942. [V2EX] iPhone 14 Pro 打算换电池给老人家用，求推荐电池。
+
+**问题描述 / Problem Description**:
+官方的实在贵，而且也有人反映，换了也不能完全满血回到新机的情况，求大家推荐一下第三方。 淘宝水很深，原装拆机电价格低的 100%假的（售价 200 以内，宣称 100%循环）。有卖 300 往上的，也不敢保证是卖 200 以内的货，鱼龙混杂很头疼。 第三方品牌，普遍反映就是不耐用，刚换上没什么问题，时间长了（半年左右）电量下降得很快，还有不少异常发热的报告。 至于魔改、原排线换电芯之类的，不想尝试，对手艺要求比较高，而且锁容，感觉不是什么好的选择，请问大家换什么电池？谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236598#reply0
+
+---
+
+#### 8943. [V2EX] iPhone 18 系列日版港版会去掉 sim 实体卡槽吗
+
+**问题描述 / Problem Description**:
+rt ，准备年底入手一个 iPhone 18 Pro 日版或者港版
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236594#reply4
+
+---
+
+#### 8944. [V2EX] 很多过去认为在 apple 上不可能的实现的事现在都实现了
+
+**问题描述 / Problem Description**:
+以前大家都认为 * iOS 绝对不可能开放通话录音，因为这在很多国家是违法的。结果现在可以了。 * carplay 绝对不可能看视频，因为这是危及行车安全的。结果 WWDC26 上也说可以了。 下一个不可能到可能的功能会是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236556#reply30
+
+---
+
+#### 8945. [V2EX] 快捷方式里的“方向锁定”里的“切换”和“开关”有什么区别？
+
+**问题描述 / Problem Description**:
+iOS 27 PB6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236409#reply2
+
+---
+
+#### 8946. [V2EX] 哪个牌子的苹果充电线好用，不想买原装的了
+
+**问题描述 / Problem Description**:
+最好是能快充的，还有充电头，朋友们有啥推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236361#reply26
+
+---
+
+#### 8947. [V2EX] [送码] 做了一个 Apple tv 上的小红书 Rouge
+
+**问题描述 / Problem Description**:
+Apple tv 上已经可以刷 B 站、抖音了，还缺少一个小红书，毕竟现在看小红书视频的时间已经超过了 B 站和抖音，自己有需求于是做了一款 tv OS 端的小红书 APP 。目标场景在沙发上刷起 Apple tv 就不想拿手机来看，看久了电影电视剧长视频想刷一刷社交媒体和短视频放松一下。 核心功能： 浏览小红书推荐瀑布流 浏览小红书笔记图文和评论 独立的视频页签，专门沉浸式播放视频流 查看个人主页，笔记、点赞、收藏 支持多帐号登录切换 目前已经发布到 appstore 直接搜索名称 Rouge 或者通过 商店链接 下载，目前早期版本售价：2$，后续功能完善后可能会涨价。 同时欢迎大家加入 T
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236360#reply51
+
+---
+
+#### 8948. [V2EX] oyunfor 又可以币安支付了
+
+**问题描述 / Problem Description**:
+gpt 土耳其续费，上个月发现 oyunfor 不能用币安了，翻了之前的帖子，最后在 seagm 冲了 500 里拉，这个月又要充值，seagm 看了一下，500 里拉要 93.52RMB,又去 oyunfor 看了下，又支持币安支付了！只要 71.40RMB ，能省二十多块钱！ 话说，本想一次多充一些，又怕 gpt 突然从 499 涨到 999 ，想请问一下，土区还有什么便宜常用的低价可订阅或者内购的东西吗？如果有兜底消费的东西，我就一次多冲一些，免得后面 oyunfor 又抽风不让充。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236221#reply2
+
+---
+
+#### 8949. [V2EX] Apple VR 团队裁员
+
+**问题描述 / Problem Description**:
+https://appleinsider.com/articles/26/08/20/layoffs-in-apples-vision-products-group-prove-slow-progress-in-spatial-computing cook 的 vision pro 要人走茶凉？ 搞了这么多年，连个好一点消费级的 vr 摄影机都没见到，果子生态内只能 iPhone 拍点简单照片。生态外也就全景相机魔改 vr180 能玩一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236217#reply6
+
+---
+
+#### 8950. [V2EX] 苹果 9 月初 iphone18 发布会， iphone17 会降价？
+
+**问题描述 / Problem Description**:
+手持 iphone11 ，有点顶不住了。 现在纠结的是等 iphone18 发布后买 iphone17 还是直接入手？ 另外给家人买手机用过国补了，是不是需要找其它今年不换机的人用下国补名额？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236071#reply61
+
+---
+
+#### 8951. [V2EX] 智谱免费一个月龙虾,快来养虾！
+
+**问题描述 / Problem Description**:
+智谱免费一个月龙虾,快来养虾！ 注册免费 26000 积分,价值 109 元，有效期 30 天,还有 3 小时结束 中国站 #( https://autoclaw.zhipuai.cn ) 国际站#( https://autoclaw.z.ai ) https://zhipu-ai.feishu.cn/docx/Z34TdfAhZoBUPExSgE7cWuX5nH6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236645#reply1
+
+---
+
+#### 8952. [V2EX] 我们做了一个 AI 帮你找人的产品，最后发现全靠人工
+
+**问题描述 / Problem Description**:
+我们做了一个 AI 帮你找人的产品，最后发现全靠人工 我们做的是一款用 AI 帮人找人、匹配和自动沟通的产品“连连 AI”。 一开始，我们把希望全部寄托在 AI 身上。 用户发布需求，AI 自动理解；理解完以后，AI 再从用户池里寻找合适的人，最后让双方的 Agent 自动沟通。 但产品真正运行起来以后，我们发现了一件很尴尬的事情：只靠 AI ，根本不行。根本没法实现功能的闭环。 AI 可以完成匹配，但它不一定能完成一次真正有效的对接。 所以最后，我们还是决定自己上。 1.做了一个 AI 产品，我却开始干最脏最累的活 现在只要有人发布需求，我就会自己去看他到底想找什么，再去用户池里寻找可能合适
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236641#reply0
+
+---
+
+#### 8953. [V2EX] 写在 XR 眼镜可能爆发前夜
+
+**问题描述 / Problem Description**:
+XR 眼镜的确正站在爆发前夜，这背后是产品形态、AI 技术、市场数据和巨头入局等多个信号的同时共振。 简单来说，XR 眼镜正在从“笨重的头显”进化为“日常佩戴的下一代个人计算平台”。 🚀 爆发前的几个关键信号 形态大变：从“头盔”变“眼镜” 过去 XR 不温不火，笨重是核心痛点之一。但现在重量已降至 95 克以内（如 XREAL AURA ），接近普通太阳镜。非常重要，可能说最重要的改变 硬件成熟：解决“应用荒” 过去买来吃灰，现在 XREAL AURA 等新品通过接入 Android XR 生态，开箱即可使用数百万款安卓应用，彻底解决了内容匮乏问题。 AI 加持：真·智能助理 深度集成 Ge
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236635#reply0
+
+---
+
+#### 8954. [V2EX] 分享一个有经济学人中文翻译的外刊网站
+
+**问题描述 / Problem Description**:
+平时喜欢看外刊，尤其是经济学人(The Economist)杂志，周六下载好 epub 文件，然后整本翻译，再发送到 kindle 阅读。 使用 deepseek v4 flash 涨价前大概 1 元/本，涨价后大概 2 元/本。有没有便宜点的翻译模型推荐？ 最近发现一个提供经济学人中文翻译的外刊网站，大概 5 元/月，比自己翻译划算，推荐给有需要 v 友。 🔗 传送门： 经济学人中文翻译网站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236585#reply5
+
+---
+
+#### 8955. [V2EX] outbring 支持提交 Product 了
+
+**问题描述 / Problem Description**:
+今天发现 outbring 支持免费提交产品了，有排名机制 这站已经掌握了流量密码啊 顺带附上我的，欢迎查看 https://outbring.lol/@pastepaw-com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236517#reply9
+
+---
+
+#### 8956. [V2EX] 发现了一个输入法加上了实时背单词的功能，很激动😂
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236492#reply8
+
+---
+
+#### 8957. [V2EX] giffgiff 求饶了.解封并送了十镑
+
+**问题描述 / Problem Description**:
+账号捐款完还剩 0.3. 之后捐完一直关机没有开机过,甚至不知道什么时候封的. 看他这说法不排除下一次封的可能性啊,继续捐?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236369#reply15
+
+---
+
+#### 8958. [V2EX] X 上一个网站 53 小时赚了 12 万$
+
+**问题描述 / Problem Description**:
+一个竞标出价争排名的网站在 X 火了， https://outbid.lol , 出价的人太疯狂了。 我也写了一个 https://bidking.lol 凑凑热闹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236350#reply16
+
+---
+
+#### 8959. [V2EX] giffgaff 已经发解封邮件过来了
+
+**问题描述 / Problem Description**:
+如题，还多送了 10 欧。不知道以后还会不会封号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236346#reply28
+
+---
+
+#### 8960. [V2EX] 多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。
+
+**问题描述 / Problem Description**:
+多年后回想起来，人们可能会发现，让程序员指挥 AI 写代码，可能是我们人类走过的一段弯路。 我的意思是，要让真正对产品负责、懂产品的那个人去指挥 AI 写代码，而不是还在用传统的分工，觉得程序员懂代码，就还在依赖程序员去指挥 AI 写代码。 当然，如果是一个懂产品，能够对产品负责的程序员来做，那就没问题了。 但这意味着产品经理的时代到来了吗？ 我觉得不一定，因为部分产品经理也不一定真的懂产品。 传统的分工正在模糊，现在每个人都可以有产品能力、设计能力、开发能力了，所以超级个体，我觉得会增多。 这里使用“超级个体”这个称呼，只是为了让大家一眼能看懂，不代表目前大家眼里的超级个体，跟我描述的这个是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236256#reply43
 
 ---

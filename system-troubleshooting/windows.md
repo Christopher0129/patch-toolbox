@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9934**
+**总计条目 / Total entries: 9978**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -135063,5 +135063,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236371#reply0
+
+---
+
+#### 9935. Ethernet too big
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwjutj/ethernet_too_big/
+
+---
+
+#### 9936. Monitors going black mid match or any type of game. NEW TO PC.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwaxia/monitors_going_black_mid_match_or_any_type_of/
+
+---
+
+#### 9937. Chrome OS Recovery Help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwk4xm/chrome_os_recovery_help/
+
+---
+
+#### 9938. Speed question about cloning a hard drive to an sdd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwbwfg/speed_question_about_cloning_a_hard_drive_to_an/
+
+---
+
+#### 9939. Rx 580 xfx came back to life for a day
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwjmeq/rx_580_xfx_came_back_to_life_for_a_day/
+
+---
+
+#### 9940. Help!My iPod Touch 1G With jailbreak cannot conect to wifi and i tried to connect to old router and nothing,i tried to put the let's encrypt certificate and The AI is not helping
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwimwz/helpmy_ipod_touch_1g_with_jailbreak_cannot_conect/
+
+---
+
+#### 9941. Gpu usage too low
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwezgl/gpu_usage_too_low/
+
+---
+
+#### 9942. Gaming Laptop just went blank mid gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwfnz3/gaming_laptop_just_went_blank_mid_gaming/
+
+---
+
+#### 9943. Webcam works in Discord but not Camera app/browsers after factory reset — flickers on/off, 0xA00F... errors, USB power fix didn't help (Acer Aspire 5 A515-57, i7-1255U)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwkdkp/webcam_works_in_discord_but_not_camera/
+
+---
+
+#### 9944. every time I try to log into something it gets rerouted to my school login
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwkac9/every_time_i_try_to_log_into_something_it_gets/
+
+---
+
+#### 9945. Mixing Ram
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwjy9y/mixing_ram/
+
+---
+
+#### 9946. Whether to use Easymesh or not with TP Link router & extender
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwjgt6/whether_to_use_easymesh_or_not_with_tp_link/
+
+---
+
+#### 9947. hey i just got this ssd a year ago and randomly when im watching youtube or calling someone on discord my pc it starts to go from 0-100 insantly, ive tried everything. sysmain, disabling the windows defender, every little thing. and it still happens everyday. and when it starts it doesnt stop.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwj8jy/hey_i_just_got_this_ssd_a_year_ago_and_randomly/
+
+---
+
+#### 9948. Troubles getting windows 11 installed on a fresh laptop due to either security validation issues or no os found
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwj5nj/troubles_getting_windows_11_installed_on_a_fresh/
+
+---
+
+#### 9949. PC randomly restarting waking up from sleep
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwj2sr/pc_randomly_restarting_waking_up_from_sleep/
+
+---
+
+#### 9950. Why my Laptop hp 840 g3 doesn't power
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwj22z/why_my_laptop_hp_840_g3_doesnt_power/
+
+---
+
+#### 9951. Weird Monitor Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwj0u2/weird_monitor_issue/
+
+---
+
+#### 9952. VG27AQ1A power cycling / flickering for 10 minutes on cold boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwiy19/vg27aq1a_power_cycling_flickering_for_10_minutes/
+
+---
+
+#### 9953. PC case front fans stopped working but RGBLEDs not!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwixaj/pc_case_front_fans_stopped_working_but_rgbleds_not/
+
+---
+
+#### 9954. Drawing tablet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwiryw/drawing_tablet/
+
+---
+
+#### 9955. Virus attacked Hard Drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vw5jrm/virus_attacked_hard_drive/
+
+---
+
+#### 9956. Rhythmic tock noise on Western Digital Red Plus NAS HDDs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwcnc6/rhythmic_tock_noise_on_western_digital_red_plus/
+
+---
+
+#### 9957. Computer going to black screen with monitor showing no input
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwie70/computer_going_to_black_screen_with_monitor/
+
+---
+
+#### 9958. Monitor Cursor Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwi51d/monitor_cursor_issue/
+
+---
+
+#### 9959. [V2EX] 二手 Mac Mini 怎么验机？
+
+**问题描述 / Problem Description**:
+Mac Mini 怎么验机？想找机构平台的，但是发现验货宝不支持 Mac Mini...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236632#reply0
+
+---
+
+#### 9960. [V2EX] 有什么好的提示词或方法来验证中转站给 deepseekv4 是不是正式版？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236629#reply4
+
+---
+
+#### 9961. [V2EX] Ox Alpha Free 是什么模型？
+
+**问题描述 / Problem Description**:
+opencode 上看到了一个限时 免费的模型 Ox Alpha Free 有 v 友试用过吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236624#reply14
+
+---
+
+#### 9962. [V2EX] 杭州有朋友推荐一下， 2070 显卡靠谱维修商吗？
+
+**问题描述 / Problem Description**:
+我的显卡显存坏了，我看了一下正常二手价也就 750~1000 （本来不准备修），但是现在显卡价格比较美丽，就想算了还是修一下，大家有推荐的维修地点吗？我看 b 站几个知名 up 都不修这么低端的显卡了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236618#reply0
+
+---
+
+#### 9963. [V2EX] 大家评价一台服务器资源是否健康时，会比较在意负载(load 1min)不？
+
+**问题描述 / Problem Description**:
+是这样我们生产环境 Java 业务主要跑在 K8s 上，一台 node 24 核 48 线程的机器大概跑 50 个左右的 Pod ，平时 cpu 利用率在 60 到 70 ，但是负载有时候很高(100 到 150)，领导认为负载比较高，要优化，但是我看 CPU 是够的，并且服务也没有变慢。用 vmstat 定位了一下负载高仅为 R 状态线程多，并不是 D 状态线程多，但是不是很好找到到底是哪个业务 Pod 导致的这个问题。所以请问一下:1 负载是不是一个判断资源利用率的强指标 2 如果是怎么能找到到底是谁导致的负载高？ btw:内核是 3.10 和 4.19 两种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236615#reply0
+
+---
+
+#### 9964. [V2EX] gemini 网页怎么了？
+
+**问题描述 / Problem Description**:
+刚才打开突然提示证书错误 [url= https://imgchr.com/i/pnSlzBF ][img] https://s41.ax1x.com/2026/08/23/pnSlzBF.jpg [/img][/url] 图片链接 https://imgchr.com/i/pnSlzBF
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236610#reply2
+
+---
+
+#### 9965. [V2EX] 现在大陆是不是已经没有办法申请 google 帐号了？
+
+**问题描述 / Problem Description**:
+前两天申请了一帐号，先是要电话号码，输入了大陆移动的。然后“风控”触发了。我写了邮件，解封了。 但是 gemini 还是用不了。一直在重定向什么“获取创意灵感，提升工作效率，轻松对话，让 Google AI 帮你写作、规划、学习或处理其他事务”，点击 “Gemini”后，就变成了“出了点问题...” 完全无法使用。这是怎么回事？ 使用我 10 年前的 google 老帐号，就可以登录后使用 gemini，同一台电脑，chrome 浏览器。 edge 我也试过，一样的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236609#reply4
+
+---
+
+#### 9966. [V2EX] AI 创业者每天怎么发现值得做的方向？信息太多了想听听你的经验
+
+**问题描述 / Problem Description**:
+1.你平时怎么找创业想法？ 2.一周花多少时间看 AI 趋势？ 3.哪些信息源最有价值？ 4.有没有遇到过： “发现太晚，别人已经做了”的情况？ 5.如果每天有人整理 3 个机会，你会看吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236608#reply5
+
+---
+
+#### 9967. [V2EX] 请教中小企业终端安全管理软件选型？
+
+**问题描述 / Problem Description**:
+近期公司在做终端安全管理软件的选型，目前规模大概是七八十台的样子。重点是威胁防护 + 终端管控，最好可以按需开 DLP 功能。目前在以下范围内考虑选型： 火绒企业版 360 安全云 奇安信天守 天擎和深信服感觉应该是比较贵，预算比较有限就不考虑了。 有没有实际部署过的 IT ，或者公司里实际有用到相关产品的同学，说说看法和坑，以及如果有相关报价也可以给出来参考下。 比如火绒的查杀能力比较拉跨，天擎据说优化比较烂？ 以及是否还有其它类似产品推荐的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236606#reply6
+
+---
+
+#### 9968. [V2EX] 语法检查、润色
+
+**问题描述 / Problem Description**:
+https://refine.sh/zh 这个 app 挺好用的，用于语法检查、润色，有类似开源的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236603#reply0
+
+---
+
+#### 9969. [V2EX] 想问下大家，海外测评站有没有前景
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236595#reply3
+
+---
+
+#### 9970. [V2EX] 现在做了 DSH 插件可以提交到哪些站点？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236587#reply2
+
+---
+
+#### 9971. [V2EX] 没事想折腾做个小型公益 CDN 5-6 个 BGP 节点物理机 感觉咋样 不为赚钱 就为了折腾
+
+**问题描述 / Problem Description**:
+正好自己是做 IDC 的 搞个公益 CDN 玩玩 不知道需求咋样 反正手里机器多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236581#reply0
+
+---
+
+#### 9972. [V2EX] 大家的 Vibe coding 项目都是怎么清理无用代码的
+
+**问题描述 / Problem Description**:
+vibe coding 由于产出太快了，所以会导致有大量冗余的，甚至是无用的代码。 这些代码躺在项目里造成信息冗余，而且会隐形地导致 code agent 的上下文臃肿误导，进而丢失注意力。 大家现在都是怎么清理这些无用代码的？尝试过笼统地让 agent 来清理，效果都不太好。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236569#reply8
+
+---
+
+#### 9973. [V2EX] chatgpt: 你的请求过于频繁。为保障数据安全，我们已暂时限制你访问对话记录。
+
+**问题描述 / Problem Description**:
+事实上不光是限制了"访问对话记录"，就连模型也降智至最低了。 出问题前，正在用 codex app ，周额度还有 90% ip 干净，同网络环境下的 claude/gemini 都没问题。 有人遇到过么？持续小 1 天了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236565#reply4
+
+---
+
+#### 9974. [V2EX] 你们 vibe coding 的时候更喜欢用 TUI 还是 GUI ?
+
+**问题描述 / Problem Description**:
+你们氛围编程是喜欢用 tui 还是 gui ，或者哪种模式更有优势一些呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236538#reply34
+
+---
+
+#### 9975. [V2EX] 2026 年键盘求推荐
+
+**问题描述 / Problem Description**:
+用了十年的 HHKB ，最近时不时有各种小问题，大家有推荐的键盘么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236534#reply46
+
+---
+
+#### 9976. [V2EX] 关于楼上渗水到楼下的问题，请友友们提供一些建议。
+
+**问题描述 / Problem Description**:
+首先，我是楼上的住户。 楼下住户最近装修，拆了吊顶后发现楼上卫生间淋浴间地漏附近有水渗下去，周围有明显被水浸泡的痕迹。 昨天咸鱼找师傅过来看了一下，给我一个方案。似乎是用一种液体胶水混合水之后覆盖在瓷砖上，然后让液体顺着有缝隙的地方流进去，等到干固之后就能够把缝隙填充，解决渗水的问题。 不知道这个方案是不现在比较主流的一种方法，关于费用，他报价在 2000 元左右。 友友们有没有过类似的经历呀？ 关于这个价格和方案靠谱吗？ 拍的一张图片
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236528#reply37
+
+---
+
+#### 9977. [V2EX] 想换一个智能锁 老铁们推荐哪个品牌型号的？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236527#reply3
+
+---
+
+#### 9978. [V2EX] 现在哪个平台还有免费的 deepseek api？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236521#reply2
 
 ---
