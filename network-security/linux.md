@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3298**
+**总计条目 / Total entries: 3322**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -48823,5 +48823,293 @@ The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) s
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2520715
+
+---
+
+#### 3299. CVE-2026-78323 - jss: jss: JSSTrustManager does not verify NSS trust flags on CA certificates
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jss: jss: JSSTrustManager does not verify NSS trust flags on CA certificates. Bugzilla: 2521775
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521775
+
+---
+
+#### 3300. CVE-2026-74584 - kernel: RDMA/bnxt_re: zero shared page before exposing to userspace
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: RDMA/bnxt_re: zero shared page before exposing to userspace. Bugzilla: 2521352
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521352
+
+---
+
+#### 3301. CVE-2026-74595 - kernel: fscrypt: use the mount idmap for the owner check in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy(). Bugzilla: 2521355
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521355
+
+---
+
+#### 3302. CVE-2026-74607 - kernel: KVM: SVM: Serialize accesses to the owner and mirror list with separate…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: KVM: SVM: Serialize accesses to the owner and mirror list with separate lock. Bugzilla: 2521356
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521356
+
+---
+
+#### 3303. CVE-2026-74625 - kernel: netfilter: bridge: release template ct on non-IP path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: bridge: release template ct on non-IP path. Bugzilla: 2521357
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521357
+
+---
+
+#### 3304. CVE-2026-74638 - kernel: drm/v3d: Serialize the scheduler timeout handlers
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/v3d: Serialize the scheduler timeout handlers. Bugzilla: 2521358
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521358
+
+---
+
+#### 3305. CVE-2026-74729 - kernel: soc: aspeed: lpc-snoop: Fix usercopy overflow in snoop_file_read
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: soc: aspeed: lpc-snoop: Fix usercopy overflow in snoop_file_read. Bugzilla: 2521359
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521359
+
+---
+
+#### 3306. CVE-2026-74730 - kernel: NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: NFS: Pin the 'struct nfs_server' during a FREE_STATEID call. Bugzilla: 2521360
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521360
+
+---
+
+#### 3307. CVE-2026-74664 - kernel: net: openvswitch: reallocate update replies for mismatched IDs
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: openvswitch: reallocate update replies for mismatched IDs. Bugzilla: 2521361
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521361
+
+---
+
+#### 3308. CVE-2026-74677 - kernel: net: usb: ipheth: fix carrier_work UAF on disconnect
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: usb: ipheth: fix carrier_work UAF on disconnect. Bugzilla: 2521362
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521362
+
+---
+
+#### 3309. CVE-2026-74666 - kernel: packet: synchronize pressure clearing with ring reconfiguration
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: packet: synchronize pressure clearing with ring reconfiguration. Bugzilla: 2521363
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521363
+
+---
+
+#### 3310. CVE-2026-74683 - kernel: Input: evdev - sanitize event type index when fetching event masks
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Input: evdev - sanitize event type index when fetching event masks. Bugzilla: 2521364
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521364
+
+---
+
+#### 3311. CVE-2026-74624 - kernel: netfilter: nf_conntrack: defer invalid log until after unlock
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nf_conntrack: defer invalid log until after unlock. Bugzilla: 2521365
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521365
+
+---
+
+#### 3312. CVE-2026-74700 - kernel: net/sched: cls_api: Always acquire rtnl_lock when destroying locked…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/sched: cls_api: Always acquire rtnl_lock when destroying locked classifiers. Bugzilla: 2521366
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521366
+
+---
+
+#### 3313. CVE-2026-74668 - kernel: packet: use consistent hard_header_len in TX_RING send path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: packet: use consistent hard_header_len in TX_RING send path. Bugzilla: 2521367
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521367
+
+---
+
+#### 3314. CVE-2026-74712 - kernel: vdpa/mlx5: Fix buffer length in create_direct_keys()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: vdpa/mlx5: Fix buffer length in create_direct_keys(). Bugzilla: 2521368
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521368
+
+---
+
+#### 3315. CVE-2026-74715 - kernel: bpf: Fix netns reference imbalance in conntrack kfuncs
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: bpf: Fix netns reference imbalance in conntrack kfuncs. Bugzilla: 2521369
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521369
+
+---
+
+#### 3316. CVE-2026-74599 - kernel: mm/ptdump: always stabilise against page table freeing using init_mm
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/ptdump: always stabilise against page table freeing using init_mm. Bugzilla: 2521370
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521370
+
+---
+
+#### 3317. CVE-2026-74632 - kernel: mm/huge_memory: fix huge_zero_pfn race
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/huge_memory: fix huge_zero_pfn race. Bugzilla: 2521371
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521371
+
+---
+
+#### 3318. CVE-2026-74606 - kernel: eventfs: Fix use-after-free in eventfs_remove_rec()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: eventfs: Fix use-after-free in eventfs_remove_rec(). Bugzilla: 2521372
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521372
+
+---
+
+#### 3319. [Ubuntu] USN-8671-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Adrian Junge was discovered that FFmpeg incorrectly handled certain media files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-66036, CVE-2026-66039) Adrian Junge discovered that FFmpeg incorrectly handled certain media files. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-66038)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8671-1
+
+---
+
+#### 3320. [Ubuntu] USN-8670-1: curl vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Joshua Rogers discovered that curl incorrectly handled reusing connections when client certificate settings changed. This could result in the wrong client certificates being used, contrary to expectations.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8670-1
+
+---
+
+#### 3321. [Gentoo] GLSA 202608-22: needrestart: Multiple vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been discovered in needrestart, the worst of which allowing root privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-22
+
+---
+
+#### 3322. [Gentoo] GLSA 202608-21: GNU Emacs: Arbitrary code execution
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in GNU Emacs allowing arbitrary code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-21
 
 ---

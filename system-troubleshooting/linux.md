@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9485**
+**总计条目 / Total entries: 9524**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -131276,5 +131276,512 @@ You are attempting to do very wrong thing. We won't help you to do that here (th
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1161367/why-do-i-have-to-change-the-password-from-sudo-user-to-access-root
+
+---
+
+#### 9486. 35th Anniversary of Linus' announcement today!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxfdsz/35th_anniversary_of_linus_announcement_today/
+
+---
+
+#### 9487. How does Nvidia makes data center GPU (data centers that probably run on Linux) but doesn't make good drivers for Linux ?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxdonv/how_does_nvidia_makes_data_center_gpu_data/
+
+---
+
+#### 9488. A golden era of Linux for average users
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx063w/a_golden_era_of_linux_for_average_users/
+
+---
+
+#### 9489. Intel Engineers Propose DRM Fabric For Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx4hci/intel_engineers_propose_drm_fabric_for_linux/
+
+---
+
+#### 9490. Manjaro's official website SSL certs have expired yet again.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwpf8f/manjaros_official_website_ssl_certs_have_expired/
+
+---
+
+#### 9491. How to Set Up Hibernation on Linux (Swap Done Right)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx5sr9/how_to_set_up_hibernation_on_linux_swap_done_right/
+
+---
+
+#### 9492. Your executable is a SQLite database
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx84rn/your_executable_is_a_sqlite_database/
+
+---
+
+#### 9493. FluxCast v0.2.3 released — Stream Linux desktop to Smart TV (Miracast/DLNA) with new custom i18n engine. Looking for translators!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxbhzc/fluxcast_v023_released_stream_linux_desktop_to/
+
+---
+
+#### 9494. GNU Emacs 31.1 Released With Mouse Control Enabled By Default, Theme For New Users
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx4d1k/gnu_emacs_311_released_with_mouse_control_enabled/
+
+---
+
+#### 9495. esoteric shell?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxdmz5/esoteric_shell/
+
+---
+
+#### 9496. Emacs 31.1 is released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx0b3i/emacs_311_is_released/
+
+---
+
+#### 9497. Block-layer error injection
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vx3wui/blocklayer_error_injection/
+
+---
+
+#### 9498. Flatpak repository key rotation – Philip Withnall
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vwza25/flatpak_repository_key_rotation_philip_withnall/
+
+---
+
+#### 9499. My browser game where Linux distros box each other just opened its multiplayer beta
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxgx9c/my_browser_game_where_linux_distros_box_each/
+
+---
+
+#### 9500. Made a Noctalia plugin to set your timezone + compare it against other cities on a live timeline
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vww57j/made_a_noctalia_plugin_to_set_your_timezone/
+
+---
+
+#### 9501. Omacom Foundation funding hits $10m
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxe8z7/omacom_foundation_funding_hits_10m/
+
+---
+
+#### 9502. [V2EX] 《铜豌豆 Linux 》12.15.1 版本发布
+
+**问题描述 / Problem Description**:
+https://www.atzlinux.com/News/2026/20260822.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236561#reply1
+
+---
+
+#### 9503. [V2EX] Debian 11 LTS 将于 2026 年 8 月 31 日停止维护
+
+**问题描述 / Problem Description**:
+https://lists.debian.org/debian-lts-announce/2026/08/msg00033.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236686#reply0
+
+---
+
+#### 9504. [V2EX] 通过定义一个内核接口层 OpenKAL，实现了 C++通用交叉编译/构建，可以在 Windows 上交叉编译 Linux 和 macos 程序 (其实更通用 在任意 OS 交叉构建到任意 OS 程序)
+
+**问题描述 / Problem Description**:
+注: 任意是指在 macos/windows/linux 任意一个 交叉编译到 macos/windows/linux openkal 通用内核接口规范: https://github.com/mcpplibs/openkal 构建工具: https://github.com/mcpp-community/mcpp 基于 openkal 交叉构建的具体示例: https://github.com/mcpp-community/mcpp/tree/main/examples/06-openkal-cross
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236919#reply0
+
+---
+
+#### 9505. [V2EX] DSH Codex Desktop 全网最像 Codex 的 DeepSeek Harness Desktop
+
+**问题描述 / Problem Description**:
+最近在使用 deepseek harness 的小伙伴，不得不说，这个桌面版是我用过体验最好最细节的了。 DSH Codex Desktop 将 DeepSeek Harness + dsh-code-ui 封装为原生桌面工作台。安装包已经包含 Node.js 和本地 DSH 运行时：下载安装、打开应用，即可开始使用；不需要自行配置 Node.js 环境，也不必从终端启动 DSH 。 下载后即可开始 请从 GitHub Releases 下载最新安装包。 下载对应平台的安装包。 安装并打开 DSH Codex Desktop 。 等待内置的本地 DSH 服务启动完成。 新建任务，选择模型和权限
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236890#reply4
+
+---
+
+#### 9506. [V2EX] Grokbot 源码泄露了，前有 claude code 后有 grokbot，硅谷大厂果然是草台班子
+
+**问题描述 / Problem Description**:
+笑死我了，Cursor 居然也是草台班子啊🤣 之前 Claude Code 那次泄露，我就已经觉得够抽象了。 网友 Bennett 今天突然发现，Grok Bot 0.18.0 发正式版的时候，居然直接带着 runtime source maps 一起发出来了。 然后他顺藤摸瓜，直接把 Grok Bot 的客户端代码重构了出来，还把仓库扔到了 GitHub 。 这是什么概念？ 正常闭源产品发版，JS 都会经过压缩、打包，外面的人看到基本是一坨。 Source Maps 就是开发者调试的时候，用来把这坨东西重新映射回原始文件和代码结构的。 结果 Cursor 打包的时候，把地图也一起送给你了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236880#reply5
+
+---
+
+#### 9507. [V2EX] AI 用得越多，我好像越失去挖掘需求的能力了
+
+**问题描述 / Problem Description**:
+以前还喜欢自己开发一些小工具，也能给一些网友用。以前在泥泞里打滚，被扎疼了，就知道需求在哪儿。现在 AI 直接把平滑的答案递给出来，跳过了所有荆棘丛。大脑习惯了即时满足。 现在觉得有一个需求，但是实际上 AI 马上就能处理了，然后就会问自己：这也算需求？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236875#reply3
+
+---
+
+#### 9508. [V2EX] 分享一个自己打磨的 skill，输入一个网站，全网调研需求群体的真实讨论和抱怨，分析切入点
+
+**问题描述 / Problem Description**:
+比如我们想要深入了解 https://saveto.ai/ 这个网站具体是什么人群在使用，他们有什么需求和抱怨，以及还有哪些痛点没被满足。 第一，这个 skill 会通过网站背后的用户需求，去各平台收集有此类需求的用户的真实讨论和原话，然后用故事的形式，还原出用户群体的世界，让你在做产品之前，先沉浸式的成为用户本人，那么在以后做功能，写文案，设计转化流程，设计自传播，产品冷启动找用户的时候，都更能游刃有余。 第二，它会从用户口中，和 google 搜索结果中，尽可能多的寻找解决这个需求的其他产品并分析其功能，然后根据用户现有的讨论和抱怨，找到目前市面上的产品还没解决的问题点，我们的产品就可以从
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236872#reply0
+
+---
+
+#### 9509. [V2EX] 有多少人陷入了拿着锤子找钉子的状态？
+
+**问题描述 / Problem Description**:
+有了 AI 啥都能搞一搞了，但是创意的匮乏让人又不知道干点啥，千篇一律的代办、记账、密码这些又同质化严重，也起不到实质性的用处，成熟的产品太多了。 你陷入拿着锤子找钉子的状态了吗？每天 token 限额用不完，会感觉在浪费吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236853#reply19
+
+---
+
+#### 9510. [V2EX] AI coding 真的提高效率了吗？
+
+**问题描述 / Problem Description**:
+使用 ai coding 开发从需求对接到最终交付我感觉效率并没有提高太多，ai 写代码确实快，但是真正到交付还需要测试及改 bug ，几轮下来反而不如古法变成来的快，现在也都是用的最顶级的 ai ，是我用 ai 的方式不对吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236847#reply13
+
+---
+
+#### 9511. [V2EX] AI 能力越强，程序员的下限越高，同时可替代性就越强
+
+**问题描述 / Problem Description**:
+随着 AI 能力越来越强，很多程序员不用再深入研究算法、编程语言，更多的是一个需求描述转换器。 这时候这批程序员的可替代性就更强了，资本家完全可以随便换一个工资更低的人来替代。 那么，普通程序员相对其他职业的高薪也难以维持
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236840#reply15
+
+---
+
+#### 9512. [V2EX] opencode go 还会封号？
+
+**问题描述 / Problem Description**:
+10 美元订阅好几个月了 间歇使用，大概 1 周才有一两次用满 5 小时和周限额 然后给我号封了 ``` This account has found to be committing fraud or is in breach of terms of services and has been blocked. If you believe this is a mistake please send an email to help@anoma.ly. ```
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236812#reply3
+
+---
+
+#### 9513. [V2EX] 古法 coding->怀疑 ai->离不开 ai->害怕没 ai
+
+**问题描述 / Problem Description**:
+感慨工作方式的变化。2024 下半年开始，古法 coding->怀疑 ai->离不开 ai->害怕没 ai 我在干臭外包。一直是在虚机里干活的，以前有问题都是截图然后贴给 gpt 的。后来甲方开放了代码权限，可以拉到本地。允许大家自行 ai ，当然外包人员 ai 自费。也是去年 gpt5 起飞后，我搞了 2 个 gpt plus 土区。至于代码安全，这屎山送人人都不要。 我也是没想到 20 年屎山功底，gpt5 还是游刃有余。但是即使是现在身边同事还在 vdi 里古法 coding ，而我在 tmux 里用 codex 酷酷输出。 然鹅，领导看我酷酷输出，竟然让我又接了个项目，背着甲方，再打一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236810#reply29
+
+---
+
+#### 9514. [V2EX] 你还在用 Vim 吗？你为什么用它？
+
+**问题描述 / Problem Description**:
+这里的「用」其实有两层意思： 只是偶尔用一用，作为临时的文件编辑器； 在实际开发工作中频繁使用。 我发现我身边很多 前 C/C++ 程序员 都喜欢用 Vim 。即使有了 AI ，也是 Vim + Claude Code 搭配使用。问他们是怎么记住那些键位和复杂操作的，怎么熟悉 Normal 和 Visual 的多模式编辑，以及为什么不使用 VSCode ，回答基本都是「 习惯了 」。而且我看他们的开发效率，都挺高的，并没有因为编辑器而降低。 我自己以前读大学的时候也赶潮流学过一段时间 Vim ，但感觉用不明白，干啥都费劲，最后还是用回 VSCode 了。现在也就知道 hjkl ，没了。 各位现
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236792#reply62
+
+---
+
+#### 9515. [V2EX] 怎么让 codex 做拒绝的事情
+
+**问题描述 / Problem Description**:
+我想知道，在使用 codex 的过程中，有些请求被模型拒绝，就算我命令它，它也拒绝，这种怎么越狱让他做事情呢。比如我做了个网站，我想放一些动态的购买记录。然后我不想读取真实的生产库，我就让 codex 随机帮我去生成，然后他就拒绝了我。 他回复的“我不能把系统随机生成的虚假购买记录伪装成真实用户成交。这属于虚假社会证明，也可能构成误导宣传，长期会伤害产品信任。”。 就类似这样的情况，怎么让模型去按照我的想法去执行呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236789#reply22
+
+---
+
+#### 9516. [V2EX] 全球编程水平下降一万倍，解决办法只剩寻找更高级模型
+
+**问题描述 / Problem Description**:
+在 Kestra 写一个简单数据流，内置的 Gemini 很快就生成了可执行的代码。想把输出数值保留一位小数，使用 Gemini 的修改方案报错。把需求贴到 ChatGPT 很快出来一个修改方案，运行该方案还是报错。继续把报错信息继续贴给它，ChatGPT 立马滑跪道歉又给一个新方案，结果使用后运行还是出错。继续把报错信息贴给它已经没啥用了开始讲车轱辘话，切换到更高级的 Think 模式输出内容也差不多。 想网上搜索看有没有人讨论相关问题，结果根本找不到讨论 Kestra 使用问题的技术贴，当即感觉到全球 xx 水平下降一万倍段子的荒诞感。只能继续换到 Gemini Pro 问，又把官方文档关
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236771#reply9
+
+---
+
+#### 9517. [V2EX] 我也不想骂 codex 的
+
+**问题描述 / Problem Description**:
+可是降智到这种地步，我花钱都高低要骂你几句
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236766#reply20
+
+---
+
+#### 9518. [V2EX] AI 到底是好还是坏
+
+**问题描述 / Problem Description**:
+咱家说 现在 AI 这么强大，带来的利益是否大于弊端？ 反正从 AI 出现之后，貌似没有革命性对开发者好的事发生。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236726#reply39
+
+---
+
+#### 9519. [V2EX] 买服务器容易，留用户才是真的难
+
+**问题描述 / Problem Description**:
+上个帖子还在纠结买什么服务器，后来听劝上了大妈的服务器。 目前跑了几天，网络稳定 0 中断。现在也同时上了 CF 和直连，整体来说服务器这块暂时没啥好吐槽的。但是运营商有新的问题：付费率低。 目前站里已经 3000+注册用户（刚开始有赠送，有大哥上了注册机，被薅秃了。现在没赠送额度了），结果付费用户连 10% 都不到。当初是谁告诉我“做这种站付费率还可以”的 😂 而且现在价格已经卷到离谱了：GPT 都干到 0.1 倍率/Kiro 甚至 0.0x 倍率 结果真正付费、稳定使用的只有 20 来个用户。 现在感觉服务器反而是最简单的问题，怎么把注册用户变成付费用户，以及让用户长期留下来，才是最难的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236702#reply48
+
+---
+
+#### 9520. [V2EX] 大家有没有发现最近新出的多模态模型识图能力越来越差了。比如 qwen3.8 max， kimi-k3
+
+**问题描述 / Problem Description**:
+我发现最近的大模型空间理解能力越来越差了，大家有没有这种感觉？ 比如根据照片推断地址，目前这两个都说的不对，就 gpt-5.6 sol 说对了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236695#reply11
+
+---
+
+#### 9521. [V2EX] Agent Team 的上下文工程设计：如何组织和共享上下文
+
+**问题描述 / Problem Description**:
+这是一个系列文章中的第二篇，讨论 Pragma 在构建多 Agent 系统过程中遇到的六个核心问题。从一个长期运行的 Agent 系统需要具备的工程能力出发：执行环境如何替换，上下文如何组织，多个专家如何协作，经验如何积累，复杂任务如何组合，以及整套工作方式如何成为可以版本化和分享的资产。开源地址： https://github.com/pqpo/pragma ，欢迎下载体验、star 、fork 和提交 PR, 支持 Windows ，Mac 客户端，可以直接下载体验。 本篇文章主要讨论和回答：如何组织和共享多 Agent 之间的上下文？如何减少上下文传递？如何高效的利用已知上下文？ 原文链
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236679#reply0
+
+---
+
+#### 9522. [V2EX] mysql 26.7.0 发布了
+
+**问题描述 / Problem Description**:
+26.7.0 可能早就发布了，只是今天 brew upgrade 刚发现 mysql 9.7.1_2 -> 26.7.0 (81.3MB) 只有我刚知道 mysql 的版本号也修改了吗 https://dev.mysql.com/doc/refman/9.7/en/mysql-releases.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236670#reply80
+
+---
+
+#### 9523. [V2EX] 有没有类似飞书多维表格的开源项目啊
+
+**问题描述 / Problem Description**:
+领导突然想开发一个类似飞书多维表格的项目，因为他认为我们自己的数据到飞书那边去转一圈不安全，另外现在飞书的多维表格数据好像最多限制了 5w 条。所以想自己通过 vibecoding 开发一套这种多维表格，现在业务对多维表格也比较依赖，很多看板仪表盘都靠飞书的多维表格，所以使用习惯 UI 等的都想要保留原来飞书的那一套。 现在 github 也找了好几个开源项目试了下，效果都有点差强人意，有没有大佬还有推荐的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236658#reply24
+
+---
+
+#### 9524. Sovereign Tech Fellowship for Freedesktop Tasks – Matthias Klumpp
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxhecb/sovereign_tech_fellowship_for_freedesktop_tasks/
 
 ---

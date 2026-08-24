@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9978**
+**总计条目 / Total entries: 10054**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -135635,5 +135635,993 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236521#reply2
+
+---
+
+#### 9979. How can I fix or otherwise automate a workaround for this Bluetooth connectivity issue on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, bluetooth, device-manager | Score: 2 | Views: 157 | Answers: 1 | Created: 2026-08-23
+
+**解决方案 / Solution**:
+I'll leave scripting and running this as a service as an exercise to the reader (aka... I'll update it later when I work out how to if someone else hasn't - maybe run this as a scheduled task on boot) but you can use pnputil for the removal of the driver and rescanning There's a full reference for pnputil here You need the device ID for the hardware. While in theory you can get this from pnputil - you're doing this from device manager right now and I'll use that. Get the Matching device ID for the device in question. I'm using a spare USB adaptor (in case I break something) - but it should be the same for a PCI device. This is assuming the Device ID does not change In an administrator powershell window run pnputil.exe /remove-device /deviceid "USB\VID_148F&PID_5370" You might be able to use other matching criteria to remove the device but this is what I tested pnputil /scan-devices Should force a rescan.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939892/how-can-i-fix-or-otherwise-automate-a-workaround-for-this-bluetooth-connectivity
+
+---
+
+#### 9980. Why has Windows 11 language switching stopped working?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, language, input-languages | Score: 0 | Views: 71 | Answers: 1 | Created: 2026-08-22
+
+**解决方案 / Solution**:
+The symptom - language bar freezing on "ENG US" instead of "ENG" - typically means ctfmon.exe (the Text Services Framework loader that drives input switching) has crashed or hung. The "ENG US" label is the raw keyboard layout ID ( 00000409 , United States) surfacing directly, which happens when TSF stops managing the input session. Immediate fix: restart ctfmon.exe In PowerShell: taskkill /f /im ctfmon.exe; Start-Process ctfmon.exe After that, Alt+Shift / Win+Space should work again without rearranging languages in Settings. Make it permanent: ctfmon.exe can exit on its own if it is not in the startup list. Add it: Win+R → shell:startup Create a shortcut there pointing to C:\Windows\System32\ctfmon.exe . Or add the registry run key directly: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v ctfmon /t REG_SZ /d "C:\Windows\System32\ctfmon.exe" /f If it keeps recurring: go to Settings -> Time & Language -> Typing -> Advanced keyboard settings and turn off "Let me use a different input method for each app window". This forces a single shared input context and avoids some race conditions in ctfmon. Your HKCU\Keyboard Layout\Toggle key being empty is normal - Windows uses its default hotkeys when no values are set there.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939875/why-has-windows-11-language-switching-stopped-working
+
+---
+
+#### 9981. PC Got Hacked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vx5ni6/pc_got_hacked/
+
+---
+
+#### 9982. Unsupported GPU for FH6
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxatmn/unsupported_gpu_for_fh6/
+
+---
+
+#### 9983. PC got hacked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxb00g/pc_got_hacked/
+
+---
+
+#### 9984. SMARTBOARD SETUP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxargq/smartboard_setup/
+
+---
+
+#### 9985. SOS a build I have made for a friend 1-2 years ago is flatlining!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxgtkx/sos_a_build_i_have_made_for_a_friend_12_years_ago/
+
+---
+
+#### 9986. Clean reinstalling windows 11 on new SSD without a USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxahyj/clean_reinstalling_windows_11_on_new_ssd_without/
+
+---
+
+#### 9987. Zenbook Duo docked keyboard freezing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxgozr/zenbook_duo_docked_keyboard_freezing/
+
+---
+
+#### 9988. Virus detected but i cant do anything about it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vx9xby/virus_detected_but_i_cant_do_anything_about_it/
+
+---
+
+#### 9989. Applications wont load Iphone 15
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxg8t7/applications_wont_load_iphone_15/
+
+---
+
+#### 9990. ASUS TUF A15 charger tip snapped off inside the charging port – safe to remove? Do I need a whole new charger?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxfwyn/asus_tuf_a15_charger_tip_snapped_off_inside_the/
+
+---
+
+#### 9991. My iClever-BTH12 headphones are not working on one end while a video is playing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxfw2i/my_icleverbth12_headphones_are_not_working_on_one/
+
+---
+
+#### 9992. Hypervisor error 0x20001
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxfmf4/hypervisor_error_0x20001/
+
+---
+
+#### 9993. Constant Blue screens and game crashes happening all the time.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxfiap/constant_blue_screens_and_game_crashes_happening/
+
+---
+
+#### 9994. Laptop won’t boot up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxfgg4/laptop_wont_boot_up/
+
+---
+
+#### 9995. new "full fibre" internet, landline stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vx92c0/new_full_fibre_internet_landline_stopped_working/
+
+---
+
+#### 9996. "Hey Google" command not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxffzc/hey_google_command_not_working/
+
+---
+
+#### 9997. Disk problems and i'm not sure what to do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxf3x5/disk_problems_and_im_not_sure_what_to_do/
+
+---
+
+#### 9998. Stopping scam calls on work phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxf2cd/stopping_scam_calls_on_work_phone/
+
+---
+
+#### 9999. Advanced Logging/Monitoring for a Crash
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxez71/advanced_loggingmonitoring_for_a_crash/
+
+---
+
+#### 10000. Video memory internal error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxez0p/video_memory_internal_error/
+
+---
+
+#### 10001. Windows 11 attestation error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxeuqd/windows_11_attestation_error/
+
+---
+
+#### 10002. My computer's fan makes a noise after I sent it to computer technician
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxeu2s/my_computers_fan_makes_a_noise_after_i_sent_it_to/
+
+---
+
+#### 10003. Folks, desperately need help | Lost MacBook Air keeps pinging the EXACT same location for 2+ days | is there any way to physically locate it using Bluetooth?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vwv3lt/folks_desperately_need_help_lost_macbook_air/
+
+---
+
+#### 10004. EasyAntiCheat Error — CreateFile *FOR READ* failed with 32
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxepjv/easyanticheat_error_createfile_for_read_failed/
+
+---
+
+#### 10005. [V2EX] dito 想从小白卡换到 esim 设备，怎么处理
+
+**问题描述 / Problem Description**:
+RT 有没换过的朋友
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236924#reply0
+
+---
+
+#### 10006. [V2EX] 如何在新加坡设置远程端，无痛使用 claude code
+
+**问题描述 / Problem Description**:
+我最近准备去趟新加坡走亲戚 我怎么才能 长期 在新加坡设置远程终端 无痛使用 cc ？请教下 比如我带一台废弃笔记本，放在新加坡常开吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236922#reply1
+
+---
+
+#### 10007. [V2EX] 关于 docker desktop，遇到一个很奇怪的问题
+
+**问题描述 / Problem Description**:
+win10 上的 docker desktop ，没有启动任何容器。但是 vmmem 会疯狂吃 cpu ，一直维持在 10%以上。 尝试关闭 Enable Scout image analysis 选项后，正常了，cpu 占用降到了 1%以下。 这很奇怪啊，我又没有开 backgroup scout SBOM indexing ， 按理说不会在后台跑的，太奇怪了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236921#reply0
+
+---
+
+#### 10008. [V2EX] codex 开始清退 sub2api 用户了吗?
+
+**问题描述 / Problem Description**:
+自己的账户,使用 sub2api,分给了几个同事一起用,20x 的蹬太猛了估计,刚刚收到封禁邮件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236911#reply4
+
+---
+
+#### 10009. [V2EX] 如何看待七夕结婚人数大幅下降
+
+**问题描述 / Problem Description**:
+多个省份下降超过 40%以上，谈谈你的看法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236909#reply9
+
+---
+
+#### 10010. [V2EX] 今年养老金没涨大家关注了吗？
+
+**问题描述 / Problem Description**:
+今天去领退休工资发现没涨。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236896#reply9
+
+---
+
+#### 10011. [V2EX] 水费严重异常应该如何处理呢？
+
+**问题描述 / Problem Description**:
+事情是这样的，6 月份之前水费一直正常，6 月份的水费突然飚到两百多，意味着用了 80 多吨水。叫了物业上门排查，水表是正常的，也没有隐藏漏水点，我好几次去看了水表转速感觉也是正常的。7 月份水费又是正常的。 唯一的异常情况：6 月 1 号那天物业通知水管破了停水修水管。 当前小区的水务是由物业全权掌管的，我打电话给管辖地水务局让我找物业，没提供什么实质性帮助。然后我就去物业沟通，他们咬死说不是他们的问题，说整个小区就只有我们一户这样。 我该如何处理啊？不能吃这个哑巴亏吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236895#reply8
+
+---
+
+#### 10012. [V2EX] 关于游戏小圈子的强制改名,是我敏感了吗?
+
+**问题描述 / Problem Description**:
+今天进了两个微信游戏群,微信群主都强制群员改成 游戏 id + 游戏名称 。 而微信群主原话: 连名字都不愿意改的人,默认都不玩了,会踢掉。 我名字本来就是 游戏 id + 游戏名称 但是我还是主动退了。 因为我心理问题:我可以主动,但你不能强制。 微信群主 很想把群做起来,拉 10 个人给￥ 8.8 。 有人进来,群主就立即发图欢迎。 这样管理,留下都是一批高质量的活跃的玩家。 似乎这种强制绑定隐私的,群活跃度都很不错。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236891#reply14
+
+---
+
+#### 10013. [V2EX] 工作抉择秋招问题
+
+**问题描述 / Problem Description**:
+请问前辈们，小弟是等离子物理的，马上秋招了，看着私企给的钱多，但是央企福利多钱少。国央企也是合同制现在统一不给编制了。想请前辈们给些建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236881#reply3
+
+---
+
+#### 10014. [V2EX] AI 到底会不会针对机场 ip 降智？
+
+**问题描述 / Problem Description**:
+现在用 dmit ，但是某些场景还是不如奶昔快。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236867#reply0
+
+---
+
+#### 10015. [V2EX] 日经贴，三十出头的大佬们，你们有转行成功的吗？
+
+**问题描述 / Problem Description**:
+身份证 95 年，工作一直让出远差，见不到老婆和 1 岁多的女儿，每天都非常非常煎熬，感觉现在不是孩子离不开自己，而是自己离不开孩子。另外我妈在看娃，只留我老婆和我妈在一块，后面很多矛盾是不可避免的，导致现在一到出差地方就 PTSD ，整个人很颓。 然后因为是小公司，出去干活人手又不够，得同时担任项目经理、开发经理，甚至还需要做类似商务的沟通工作，加班不断，整的人身心俱疲。想辞去工作，但又被现在的行情吓到一点不敢动，本身能力不强、学历也差。 想问问各位，你们到 30 出头，都还继续干这个吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236863#reply0
+
+---
+
+#### 10016. [V2EX] 有没有好用的 ds 检测器？
+
+**问题描述 / Problem Description**:
+或者多模型检测器，我看到有 gpt 的。但是 ds 估计也有假的吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236861#reply1
+
+---
+
+#### 10017. [V2EX] 你们今天的梯子稳定吗？
+
+**问题描述 / Problem Description**:
+我 lightnode 还有 aws lightsail 两个日本节点，用的 trojan+websocket 服务，都时不时的就断掉了，之前一直挺稳定的，你们的稳定吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236849#reply8
+
+---
+
+#### 10018. [V2EX] 大佬们有推荐北京笔记本电脑维修
+
+**问题描述 / Problem Description**:
+某天下午正在开会，突然电脑死机，我就尝试 10 秒关机，关机后无法开机。然后就发现一个问题只有温度下来后才可以启动，也就是冷启动，但是启动后过几秒就会花屏卡机。有没有大佬推荐北京本地修电脑的博主或者店铺吗，邮寄靠谱的也可以。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236843#reply8
+
+---
+
+#### 10019. [V2EX] 最近怎么没有每日一龟了？
+
+**问题描述 / Problem Description**:
+是八月没有节假日雨水多，不方便搞爱恨情仇吗？诚心发问
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236837#reply13
+
+---
+
+#### 10020. [V2EX] 看了十几年的网络小说,最近闲着无聊也想写一个,鼓捣了一下大纲,结果一打开码字软件脑袋空空的
+
+**问题描述 / Problem Description**:
+鼓捣了三天的大纲,知道了自己要写个什么故事,但是真要下笔的时候,不知道细节怎么填充了,角色成长的推动也没啥好思路.花了四五个小时就憋出来 4000 字, 还是看小说爽,写小说是真的折磨人.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236836#reply9
+
+---
+
+#### 10021. [V2EX] 小米车机的 AI 3d 萌宠 自己有办法实现类似功能吗，不知道用的什么 ai 模型
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236825#reply4
+
+---
+
+#### 10022. [V2EX] 项目代码定期审计方案
+
+**问题描述 / Problem Description**:
+有没有什么比较好的方案，定期通过多个 ai 对项目代码审计 包括检查代码 bug 、安全性
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236816#reply2
+
+---
+
+#### 10023. [V2EX] [求助] M4 MacBook Air 外接双 120Hz 显示器，妙控板滑动卡顿/掉帧
+
+**问题描述 / Problem Description**:
+设备环境： 主机：MacBook Air M4 (24G + 512G) 外设：USB-C 接口 Magic Trackpad 触控板 副屏 1：AOC 24 寸 1080P @ 120Hz （通过 Type-C 拓展坞转 HDMI 连接） 副屏 2：DELL 27 寸 S2725QC 4K @ 120Hz （ Type-C 一线连直插 Mac ） 最近买了一个妙控板 trackpad usbc 接口。发现无论是在 aoc 还是在 dell 上下滑动都卡卡的，很不顺滑。但是在 mac 本身屏幕就很顺滑 做过以下尝试： 附送的 5Gbps c-c 线换雷电 4 线 dell osd 菜单内将 U
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236814#reply2
+
+---
+
+#### 10024. [V2EX] deepseek 涨价后，还有哪些实惠的 coding plan 补充 claude code
+
+**问题描述 / Problem Description**:
+claude code 开了 pro ，公司有 qoder kimi ，有一定的额度，在公司够用，自己的 claude code 不够用。 现在 deepseek 的价格太贵了，用不起，有性价比高点的 plan 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236807#reply10
+
+---
+
+#### 10025. Why does my computer have 1TB storage but can't access it?
+
+**问题描述 / Problem Description**:
+Tags: windows, partitioning, disk-space | Score: -1 | Views: 153 | Answers: 2 | Created: 2026-08-18
+
+**解决方案 / Solution**:
+So, with a bit of digging, I'm guessing your thinkpad yoga's approximately 2015 era and came with a 16gb cache drive (which is being detected as a regular drive), and a 1tb HDD or SSD. You have the OS installed to the 16gb drive and the 1tb drive has a 512 mb and rest of 1tb linux partition. So - essentially the thing to do here is to boot into windows and clear the drive with diskpart then select disk 0 then clean if memory serves, and reinstall windows to the correct drive. 16gb is too small for relatively modern windows, even windows 10 - so you want it on the 1tb disk. If you want to 'just' use it, you can, instead of reinstalling, right click and initialise the drive from disk manager.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939761/why-does-my-computer-have-1tb-storage-but-cant-access-it
+
+---
+
+#### 10026. Why does my Windows 11 notebook sometimes swaps to integrated GPU only?
+
+**问题描述 / Problem Description**:
+Tags: laptop, windows-11, gpu, integrated-graphics | Score: -1 | Views: 80 | Answers: 1 | Created: 2026-08-11
+
+**解决方案 / Solution**:
+General first steps, some of which you've already done: Install the latest system firmware and drivers. Confirm UEFI/BIOS settings. Reset to Default, configure back to your needed settings. Update OS and all relevant patches. If the issue continues after doing all that, you have a hardware issue and you will need to contact Dell support (if there is a warranty, or if you're willing to pay for any required service).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939601/why-does-my-windows-11-notebook-sometimes-swaps-to-integrated-gpu-only
+
+---
+
+#### 10027. Why does my PC only partially detect Ethernet, Network bug on Windows 11 and Ubuntu 24.04 (ping General failure, only Google loads, Ubuntu offline)?
+
+**问题描述 / Problem Description**:
+Tags: networking, ubuntu, wireless-networking, router, windows-11 | Score: -1 | Views: 116 | Answers: 1 | Created: 2026-07-14
+
+**解决方案 / Solution**:
+Given that this is impacting both OSes, this is unlikely to be a driver issue. While DavidGo says it is not a Router issue, it is probably worthwhile connecting to a different internet router just to see. Assuming this IS an issue local to your computer, and knowing it is not a driver issue, that leaves you with the following steps: Update all possible system firmware. This will include BIOS/UEFI but should include any other available firmware updates for all your system components, especially mainboard components and your NIC. Reset your system firmware to defaults, then reconfigure to any required settings. Connect and use a USB NIC dongle. These are cheap and easy to use.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939042/why-does-my-pc-only-partially-detect-ethernet-network-bug-on-windows-11-and-ubu
+
+---
+
+#### 10028. Since Windows doesn't do "everything is a file" like Linux, what things in Windows _are_ files?
+
+**问题描述 / Problem Description**:
+Tags: windows, ntfs, files-folders | Score: -2 | Views: 124 | Answers: 2 | Created: 2026-07-23
+
+**解决方案 / Solution**:
+"Everything is a file" is less true on Windows, but some things are still files. (And also it's not quite true on Linux either – "everything is a file descriptor " might be more appropriate; Linux has many syscalls that give FDs without opening a path. Bell Labs' Plan 9 is where everything truly is a file.) Devices and drivers in Windows are accessible like "files", they're just outside the regular files namespace. (That is, where Linux has / containing actual files and then carves out /dev , /proc for special things, Windows does the opposite – the object tree starts virtual, and the "real" filesystems are only a part of that, alongside things like device nodes, Registry keys, and even things like mutexes or semaphores. For example, the equivalent of /dev/null on Windows is \Device\Null in the kernel, or as it is seen to Win32 apps, \\?\GLOBALROOT\Device\Null . (It also has a legacy DOS-era alias NUL or NUL: .) Similarly, a physical drive like /dev/sda is \Device\Harddisk2\Partition0 aka \Global??\PhysicalDrive2 to NT API programs, aka \\.\PhysicalDrive2 to Win32 programs. Download WinObj or WinObjEx to browse the object hierarchy. Regarding pipes: Those aren't filesystem objects because their implementation exists within a special "pipefs" filesystem, which is not entirely unlike Linux having efivarfs, hugetlbfs, etc. Quite a few things in Windows are implemented as self-contained drivers, e.g. when programs create IP sockets, they do so by talking to the "afd" driver via \Device\Afd or the TCP driver via \Device\Tcpip – not through dedicated syscalls, as far as I know. (So in this particular case, Windows is actually more "everything is a file" than Linux's sockets API is – closer to Plan9, where TCP/IP connections are also done this way.) Tools like SysInformer can show you what file handles a process has open (like Linux lsof ), and among regular files you'll usually see a process having handles to \Device\Tcpip and several other drivers.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939242/since-windows-doesnt-do-everything-is-a-file-like-linux-what-things-in-windo
+
+---
+
+#### 10029. How do I know if my pc still has an infostealer
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vxhlpf/how_do_i_know_if_my_pc_still_has_an_infostealer/
+
+---
+
+#### 10030. Intel Details Xeon 7 "Diamond Rapids" Package Design at HOT CHIPS
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxcrn1/intel_details_xeon_7_diamond_rapids_package/
+
+---
+
+#### 10031. Xiaomi claims that the new XRING O3 has achieved a whopping 5,228,014 points on AnTuTu Benchmark, which would put it on the highest scoring chip on AnTuTu as of now and the first mobile chip to cross 5M points on AnTuTu
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vx6xrm/xiaomi_claims_that_the_new_xring_o3_has_achieved/
+
+---
+
+#### 10032. Intel Details "Crescent Island" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxfkg7/intel_details_crescent_island_graphics_32_xe3p/
+
+---
+
+#### 10033. Enthusiast mods GTX 1080 Ti with a dual-tower CPU cooler, sees up to 32°C reduction in temps — Mod yields 30W power savings and 9% higher FPS
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwslp3/enthusiast_mods_gtx_1080_ti_with_a_dualtower_cpu/
+
+---
+
+#### 10034. Raptor 3D-DRAM combines 32GB capacity with over 100 TB/s bandwidth
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwx24i/raptor_3ddram_combines_32gb_capacity_with_over/
+
+---
+
+#### 10035. Geekerwan | Xiaomi XRING O3 First Look: This Chip Is Alien Tech!
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vx2b90/geekerwan_xiaomi_xring_o3_first_look_this_chip_is/
+
+---
+
+#### 10036. Xiaomi launches Xring O3 chip with LPDDR6 support and industry leading performance, partners with TSMC for production
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwxb0h/xiaomi_launches_xring_o3_chip_with_lpddr6_support/
+
+---
+
+#### 10037. Xiaomi unveils its 3nm Xring O3 flagship SoC, coming in Sept. with Xiaomi 18 Fold; it features an 133mm² die area (without baseband), a CPU with 2+4+4 Armv9.3-A cores of up to 4.35GHz, a 16-core GPU, a 200 TOPS NPU optimized for MiMo local LLMs, LPDDR6 support, and a claimed 5M+ Antutu V11 score
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vx0g15/xiaomi_unveils_its_3nm_xring_o3_flagship_soc/
+
+---
+
+#### 10038. IBM Z and LinuxONE Dual-ISA Processor and AI Acceleration at Hot Chips 2026
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxgsp8/ibm_z_and_linuxone_dualisa_processor_and_ai/
+
+---
+
+#### 10039. [Chips and Cheese] Hot Chips 2026: Intel’s Wildcat Lake
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxgcx4/chips_and_cheese_hot_chips_2026_intels_wildcat/
+
+---
+
+#### 10040. Fujitsu's Arm-based Monaka Data Center CPU at Hot Chips 2026
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxh3o3/fujitsus_armbased_monaka_data_center_cpu_at_hot/
+
+---
+
+#### 10041. Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vxg4uw/hot_chips_2026_sk_hynix_pushes_hybrid_bonding_to/
+
+---
+
+#### 10042. AMD claws back ground against Intel in the CPU market in Q2 2026, climbs to 34.9% share in desktop CPUs (+2.7%) and 34.5% in servers (+7.3%)
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vw55ui/amd_claws_back_ground_against_intel_in_the_cpu/
+
+---
+
+#### 10043. [Chips and Cheese] Hot Chips 2026: Samsung and HBM Base Die Opportunities
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwntyy/chips_and_cheese_hot_chips_2026_samsung_and_hbm/
+
+---
+
+#### 10044. [ServeTheHome] d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwnuz5/servethehome_dmatrix_raptor_3ddram_accelerator/
+
+---
+
+#### 10045. Samsung's Exynos 2700 Beats Qualcomm's Next Chip in In-House Tests
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vwaheq/samsungs_exynos_2700_beats_qualcomms_next_chip_in/
+
+---
+
+#### 10046. Google reportedly taps AMD to design next-generation TPU — hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vvuzvb/google_reportedly_taps_amd_to_design/
+
+---
+
+#### 10047. HP launches budget $499 laptop with OLED and Snapdragon X
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vvm10l/hp_launches_budget_499_laptop_with_oled_and/
+
+---
+
+#### 10048. Redmibook 16 2025 Everyday review: Great laptop for a good price!
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vw8m5y/redmibook_16_2025_everyday_review_great_laptop/
+
+---
+
+#### 10049. HUB - Radeon RX 9070 XT vs. GeForce RTX 5070, 52 Game Benchmark @ 1440p & 4K (2026 Update)
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vv9t7j/hub_radeon_rx_9070_xt_vs_geforce_rtx_5070_52_game/
+
+---
+
+#### 10050. U.S. preparing to force Netherlands to ban ASML from selling to China | NL Times
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vuz7v0/us_preparing_to_force_netherlands_to_ban_asml/
+
+---
+
+#### 10051. ASRock Steel Legend SL-1200P power supply review: Combines genuine Platinum efficiency with a winning stand-out design
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vvaue6/asrock_steel_legend_sl1200p_power_supply_review/
+
+---
+
+#### 10052. CXMT planned to use stolen Samsung IP to develop its DRAM, court hears — former Samsung engineer who jumped to Chinese memory maker now behind bars
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vutu0b/cxmt_planned_to_use_stolen_samsung_ip_to_develop/
+
+---
+
+#### 10053. TSMC has successfully developed a chip built on a 1.6-nanometer process, mas production, slated for the fourth quarter, is expected to proceed smoothly
+
+**问题描述 / Problem Description**:
+Reddit r/hardware discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/hardware/comments/1vuc7ux/tsmc_has_successfully_developed_a_chip_built_on_a/
+
+---
+
+#### 10054. Why can’t I rename folders on a Windows 11 fresh install?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, files-folders | Score: 0 | Views: 643 | Answers: 1 | Created: 2026-01-05
+
+**解决方案 / Solution**:
+Completely replacing the following registry key should resolve the error. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions The following REG file has the default settings: W11_folder_descriptions.reg (zipped) However, it must be imported as TrustedInstaller; otherwise, the access denied error will occur. Note: Please create a System Restore Point before doing the above. Reference: Fix: Cannot Rename or Move Folders - The File or folder does not exist
+
+**参考链接 / References**:
+- https://superuser.com/questions/1933295/why-can-t-i-rename-folders-on-a-windows-11-fresh-install
 
 ---

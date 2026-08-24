@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 8960**
+**总计条目 / Total entries: 9016**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -120780,5 +120780,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236256#reply43
+
+---
+
+#### 8961. MacOS built in apps are actually great
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx5kdn/macos_built_in_apps_are_actually_great/
+
+---
+
+#### 8962. Make certain external displays never show dock?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx6pgr/make_certain_external_displays_never_show_dock/
+
+---
+
+#### 8963. How can I see more info about what is being transferred to where?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwmb2x/how_can_i_see_more_info_about_what_is_being/
+
+---
+
+#### 8964. Best approach to recording long video & audio calls?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxhdwi/best_approach_to_recording_long_video_audio_calls/
+
+---
+
+#### 8965. How can I record computer audio on macOS for hours while keeping the file size as small as possible?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx7d8r/how_can_i_record_computer_audio_on_macos_for/
+
+---
+
+#### 8966. Can’t connect to college internet
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxh3wb/cant_connect_to_college_internet/
+
+---
+
+#### 8967. What are your favorite OS settings people might not know?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxg7op/what_are_your_favorite_os_settings_people_might/
+
+---
+
+#### 8968. OS mail not sending attachments
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx99qq/os_mail_not_sending_attachments/
+
+---
+
+#### 8969. This is such a useful feature to add a page to a PDF. Click the plus icon in the bottom left corner of any sidebar page except the Contact Sheet.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx99fw/this_is_such_a_useful_feature_to_add_a_page_to_a/
+
+---
+
+#### 8970. MacBook keeps disabling the USB-C Docking Station that's charging it because of "high power usage"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vww76x/macbook_keeps_disabling_the_usbc_docking_station/
+
+---
+
+#### 8971. Minimalistic kanban?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxeh8w/minimalistic_kanban/
+
+---
+
+#### 8972. Yahoo Mail problems with macOS Mail
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx9oy5/yahoo_mail_problems_with_macos_mail/
+
+---
+
+#### 8973. Sequoia or Sonoma, which one is better for MBP 2019 16"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx2goy/sequoia_or_sonoma_which_one_is_better_for_mbp/
+
+---
+
+#### 8974. MacBook Air M4: System taking 135/245 GB of storage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwsuki/macbook_air_m4_system_taking_135245_gb_of_storage/
+
+---
+
+#### 8975. does icloud private relay make a free vpn pointless on mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx9tiw/does_icloud_private_relay_make_a_free_vpn/
+
+---
+
+#### 8976. Fix Git Issue in MacOS 26.6.1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxddi3/fix_git_issue_in_macos_2661/
+
+---
+
+#### 8977. NAM Rig standalone app & DAW using plugin keep nagging me for keychain access.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx1toz/nam_rig_standalone_app_daw_using_plugin_keep/
+
+---
+
+#### 8978. How do I pin an app or window in Stage Manager?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vx0war/how_do_i_pin_an_app_or_window_in_stage_manager/
+
+---
+
+#### 8979. Need help pls (im new to reddit btw)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwybji/need_help_pls_im_new_to_reddit_btw/
+
+---
+
+#### 8980. Mic works on web client, but NOT on Mac desktop app (Permissions already granted)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vwr2cw/mic_works_on_web_client_but_not_on_mac_desktop/
+
+---
+
+#### 8981. Best way to debloat MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxaru2/best_way_to_debloat_macos/
+
+---
+
+#### 8982. [V2EX] Mac mini 用了三年，日均写入 600GB，请问有异常吗
+
+**问题描述 / Problem Description**:
+开机时间 110 天左右，写入 55TB 最近一次开机 6 天，写入 2.46TB 活动监视器截图如下 我是 512G 的 m2pro mac mini ，16G 内存。 感谢回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236897#reply5
+
+---
+
+#### 8983. [V2EX] 微信你能不能不要给正常人喂精神病药物？💊
+
+**问题描述 / Problem Description**:
+微信一个正常人是不会不小小按到 Command+Q 的，长按才能退出？不如我给你一个更好的💡idea ，看个 30 秒广告才能退出好不好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236701#reply23
+
+---
+
+#### 8984. [V2EX] 你们的 Macbook 都是怎么清理的。
+
+**问题描述 / Problem Description**:
+主要是 B 面和 C 面，AD 面好清理。 C 面屏幕找不到什么好的擦的方式，我现在是拿的一个眼睛布擦拭的，但是有些地方需要带点水才能擦掉。 带水了过后又会留下水渍这种，又需要纸巾去慢慢擦一遍，虽然能擦干净但是比较麻烦了。 B 面键盘还好，水渍不明显，看不出来，但是键盘的缝里面会留下一些小颗粒之类的东西，这种咋清理的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236906#reply5
+
+---
+
+#### 8985. [V2EX] 1Password 绝版 10 人家庭车
+
+**问题描述 / Problem Description**:
+1Password 长期优惠绝版家庭套餐 10 人下车一位！有需要的么？每人每年 6 美元约合 41 人民币！今天刚续费一年！需要的联系头像中电报！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236898#reply0
+
+---
+
+#### 8986. [V2EX] 如果你跟我一样想保存没有标题的书签在 Safari 里面
+
+**问题描述 / Problem Description**:
+hello 分享我的没有任何技术含量的分享 每天一个 Safari 小技巧 通过更改 user-agent 屏蔽 safari 内 Google 搜索的推广 介绍 不知道我什么时候养成的习惯, 就是自己的熟悉网站我只想要图标, 不要有标题; 可是 Safari 并不支持这样保存书签; aswas: Firefox 保存无标题的书签,到处 html 文件之后导入至 Safari; asis: 写一个 html 文件直接导入 Safari; 链接 直接制作 github
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236888#reply0
+
+---
+
+#### 8987. [V2EX] ios 有没有可以查看相关手机号所有快递的程序或者小插件
+
+**问题描述 / Problem Description**:
+类似 oppo 或者华为手机里，有个卡片可以获取本手机号的所有目前快递的信息，感觉很方便，不知道 ios 有没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236693#reply12
+
+---
+
+#### 8988. [V2EX] Apple Music 可以自动列表循环吗？
+
+**问题描述 / Problem Description**:
+比如播放一个有 10 首歌的专辑，如果不手动打开列表循环那么播完此专辑就会播放推荐的音乐，然而这次手动打开了列表循环，切换过歌单或者专辑后，再次播放此专辑还需要手动打开列表循环
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236673#reply0
+
+---
+
+#### 8989. [V2EX] iPhone 18 系列日版港版会去掉 sim 实体卡槽吗
+
+**问题描述 / Problem Description**:
+rt ，准备年底入手一个 iPhone 18 Pro 日版或者港版
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236594#reply6
+
+---
+
+#### 8990. [V2EX] 很多过去认为在 apple 上不可能的实现的事现在都实现了
+
+**问题描述 / Problem Description**:
+以前大家都认为 * iOS 绝对不可能开放通话录音，因为这在很多国家是违法的。结果现在可以了。 * carplay 绝对不可能看视频，因为这是危及行车安全的。结果 WWDC26 上也说可以了。 下一个不可能到可能的功能会是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236556#reply58
+
+---
+
+#### 8991. [V2EX] 哪个牌子的苹果充电线好用，不想买原装的了
+
+**问题描述 / Problem Description**:
+最好是能快充的，还有充电头，朋友们有啥推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236361#reply32
+
+---
+
+#### 8992. [V2EX] [送码] 做了一个 Apple tv 上的小红书 Rouge
+
+**问题描述 / Problem Description**:
+Apple tv 上已经可以刷 B 站、抖音了，还缺少一个小红书，毕竟现在看小红书视频的时间已经超过了 B 站和抖音，自己有需求于是做了一款 tv OS 端的小红书 APP 。目标场景在沙发上刷起 Apple tv 就不想拿手机来看，看久了电影电视剧长视频想刷一刷社交媒体和短视频放松一下。 核心功能： 浏览小红书推荐瀑布流 浏览小红书笔记图文和评论 独立的视频页签，专门沉浸式播放视频流 查看个人主页，笔记、点赞、收藏 支持多帐号登录切换 目前已经发布到 appstore 直接搜索名称 Rouge 或者通过 商店链接 下载，目前早期版本售价：2$，后续功能完善后可能会涨价。 同时欢迎大家加入 T
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236360#reply61
+
+---
+
+#### 8993. [V2EX] iMessage 奇怪 bug
+
+**问题描述 / Problem Description**:
+设备：iPhone16 Pro 港行 apple ID：美区 问题表现： 用自己邮箱地址/icloud 邮箱地址和部分国区 ID 的好友发 iMessage 会提示无法送达，重试变成绿色气泡，但朋友依旧没有收到。必须要把 conversation line 换成手机号也就是用手机号和朋友发 iMessage 就正常 不是和所有国区 ID 的朋友都会出现上述 bug ，复现情况不确定 用邮箱地址和和其他美区 ID 的朋友发 iMessage 正常 试过把自己的美区 ID iMessage 关了又开、勾选邮箱地址收发 iMessage ；国区 ID iMessage 关了又开、勾选邮箱收发 iMe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236288#reply6
+
+---
+
+#### 8994. [V2EX] oyunfor 又可以币安支付了
+
+**问题描述 / Problem Description**:
+gpt 土耳其续费，上个月发现 oyunfor 不能用币安了，翻了之前的帖子，最后在 seagm 冲了 500 里拉，这个月又要充值，seagm 看了一下，500 里拉要 93.52RMB,又去 oyunfor 看了下，又支持币安支付了！只要 71.40RMB ，能省二十多块钱！ 话说，本想一次多充一些，又怕 gpt 突然从 499 涨到 999 ，想请问一下，土区还有什么便宜常用的低价可订阅或者内购的东西吗？如果有兜底消费的东西，我就一次多冲一些，免得后面 oyunfor 又抽风不让充。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236221#reply3
+
+---
+
+#### 8995. [V2EX] Apple VR 团队裁员
+
+**问题描述 / Problem Description**:
+https://appleinsider.com/articles/26/08/20/layoffs-in-apples-vision-products-group-prove-slow-progress-in-spatial-computing cook 的 vision pro 要人走茶凉？ 搞了这么多年，连个好一点消费级的 vr 摄影机都没见到，果子生态内只能 iPhone 拍点简单照片。生态外也就全景相机魔改 vr180 能玩一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236217#reply9
+
+---
+
+#### 8996. [V2EX] 自用好用的 MAC 清理工具
+
+**问题描述 / Problem Description**:
+支持 intel 和 M 系列芯片 https://pan.xunlei.com/s/VP-XK8iuUscodBE5XkFmN_0LA1# 大家自取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236101#reply7
+
+---
+
+#### 8997. [V2EX] 苹果 9 月初 iphone18 发布会， iphone17 会降价？
+
+**问题描述 / Problem Description**:
+手持 iphone11 ，有点顶不住了。 现在纠结的是等 iphone18 发布后买 iphone17 还是直接入手？ 另外给家人买手机用过国补了，是不是需要找其它今年不换机的人用下国补名额？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236071#reply66
+
+---
+
+#### 8998. [V2EX] Openai 成功打击中转站 MVP 结算画面（新链接）
+
+**问题描述 / Problem Description**:
+429😭429😭429😭 https://www.bilibili.com/video/BV1ra8C6NE4Y/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236926#reply0
+
+---
+
+#### 8999. [V2EX] 订阅猫猫云后才发现，没有订阅链接了，只能使用它自己的套壳 flcloud app
+
+**问题描述 / Problem Description**:
+于是我就试试用 google antigravity 去套壳 app 提取订阅信息， 20 分钟搞定， 有 ai 后，真是网络生活不一样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236901#reply3
+
+---
+
+#### 9000. [V2EX] 以前看论坛都是各种软件行业分享，现在都是 AI 了
+
+**问题描述 / Problem Description**:
+以前看论坛都是各种软件行业分享，现在一眼看过去 90%都是 AI 了，时代变了，工作习惯也变了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236894#reply1
+
+---
+
+#### 9001. [V2EX] 剪映的这个包名故意的吗,哈哈: 锟斤拷映专业锟斤拷
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236850#reply10
+
+---
+
+#### 9002. [V2EX] 用过企业网银和海外银行，我只能说我爱这魔幻的世界
+
+**问题描述 / Problem Description**:
+刚看到有 v 友吐槽香港汇丰的网银，深有体会： https://v2ex.com/t/1236750 就像代码一样，在各种屎山上精雕细刻；不断的打补丁，然后兼容性一坨 从我个人的角度上来说，网银的易用程度是 国内网银 > 国内企业网银 >= 汇丰网银 > 汇丰企业网银 >= 小马/巴克莱 用过早期的 12306 ，那也是一坨。后面翻新之后好多了。 另外沉痛悼念我的小马卡，里面还有一百多镑钱 但是卡过期之后以没有续期为由把账号 ban 了；人工是找不到的，柜台是讲不清楚的 差点跑题了，我感觉国内网银没啥问题 国内企业网银：权限没给够，要偶尔去柜台 汇丰网银： 查账搞不清楚 添加收款人要等 app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236821#reply0
+
+---
+
+#### 9003. [V2EX] 明天凌晨，腾讯云一大波域名开始涨价，第一次发现域名续费可以如此实惠
+
+**问题描述 / Problem Description**:
+[域名注册] 2026 域名价格调整公告 https://cloud.tencent.com/announce/detail/2430 站内搜索半天续费优惠，无果，老老实实原价续费了 2 年。 最后经提醒原来可以在某鱼或者某多搜索 [${服务商}域名续费] 亲测手上十几个域名全部拿到了 6-75 折续费价格。 下单后加入代理商的关联账号即可，这可比到处难找的优惠券来的方便得多。 为了避免广告嫌疑，不提供任何商家信息，仅分享优惠续费路子。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236820#reply2
+
+---
+
+#### 9004. [V2EX] 做了一个统一查看 Codex、Claude Code 和 Gemini CLI 本地会话的小工具
+
+**问题描述 / Problem Description**:
+平时会在不同环境里使用 Codex 、Claude Code 。用久之后发现，各个工具的会话记录分散在不同目录，格式也不统一。 有时候想找回之前讨论过的问题、执行过的命令或者某段上下文，需要分别打开不同工具翻记录，比较麻烦。 所以最近做了一个 AllSessions ，主要是解决自己的这个需求： 统一查看 Codex 、Claude Code 和 Gemini CLI 的本地会话 按来源、Provider 、项目、日期等条件搜索和筛选 给会话添加收藏、标签和备注 支持 Markdown / JSON 导出 数据保留在本地，不需要上传会话内容 使用 Rust + Tauri ，跨平台支持 目前还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236815#reply0
+
+---
+
+#### 9005. [V2EX] 推荐一个高质量的开源 Agent 技能集（含 SEO 自动化发外链工作流）
+
+**问题描述 / Problem Description**:
+今天在社区里看到大佬开源了一个非常硬核的 Agent 技能集项目： Ce-Legend/ce-legend-skills ，专门收集那些“能触发、能执行、能验证、能复用”的工作流。 感觉对做独立开发、出海做站或者需要搞 SEO 的朋友特别有帮助，搬运过来分享给大家。 里面目前有两个非常亮眼的 Skill ，可以直接配合 Codex 、Claude Code 或 OpenClaw 等 Agent 使用： 1. submit-backlinks (SEO 全自动外链工作流) 这是一个从发现、甄别、登录提交到证据记录的完整流程。 亮点 ：第一次先把带登录态的 Semrush 或 Ahrefs 打开，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236803#reply0
+
+---
+
+#### 9006. [V2EX] 申请 OpenAI 免费 6 个月 ChatGPT 的，来晒项目互关一波
+
+**问题描述 / Problem Description**:
+项目大家都知道，就不重复介绍了（不知道的自行搜索 “Codex for Open Source”）。 发这帖子的唯一目的：让准备申请或已申请的朋友，集中晒出自己的开源项目，大家互相关注、互相 Star 、互相交流填表经验。 开源项目没有硬性指标也能申请，但如果有一定的社区热度（比如 Star 、贡献者、Issue 活跃度），审核时肯定更有说服力。既然官方没设门槛，那我们自己抱团取暖，互相增加一点 visibility 总没坏处。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236788#reply3
+
+---
+
+#### 9007. [V2EX] codex 又重置了！ 继续蹬
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236678#reply0
+
+---
+
+#### 9008. [V2EX] 用小米这款显示器的注意，周六晚上烧了.
+
+**问题描述 / Problem Description**:
+小米 Redmi 27 英寸显示器 4K 超清 内置电源。之前 1499 买的。 显示器是 23 年年底买的，周六晚上睡觉前突然房子里面充满一股烧焦的味道，找了很久，最后发现显示器在冒烟，赶紧拔掉插头。第二天我差了小红书，发现并非案例啊，一般在 1 年到 2 年左右很多出现这个问题，有人说设计缺陷，电源内置导致散热不行，并且新的小米显示器电源都开始外置了，不知道真假。 目前显示器已经扔给京东售后了，我问了怎么解决，京东说他们也只能给小米售后。我说你们如果维修，不解决这个缺陷我也不敢用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236662#reply179
+
+---
+
+#### 9009. [V2EX] 体重秤
+
+**问题描述 / Problem Description**:
+当你站在体重秤上时，指针指向的绝大部分重量，并不是某种静态物质的堆砌，而是无数胶子和夸克在飞速交织与束缚时，被强力扣留在微观空间内所展示出的动态能量综合。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236653#reply5
+
+---
+
+#### 9010. [V2EX] 尼玛！差点数据"上云"！客户托管的服务器电源烧了！
+
+**问题描述 / Problem Description**:
+尼玛 大半夜客户说 CPU 温度 95 度 我喊技术一看 他托管的机器直接差点 BOOM
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236651#reply4
+
+---
+
+#### 9011. [V2EX] 智谱免费一个月龙虾,快来养虾！
+
+**问题描述 / Problem Description**:
+智谱免费一个月龙虾,快来养虾！ 注册免费 26000 积分,价值 109 元，有效期 30 天,还有 3 小时结束 中国站 #( https://autoclaw.zhipuai.cn ) 国际站#( https://autoclaw.z.ai ) https://zhipu-ai.feishu.cn/docx/Z34TdfAhZoBUPExSgE7cWuX5nH6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236645#reply4
+
+---
+
+#### 9012. [V2EX] 我们做了一个 AI 帮你找人的产品，最后发现全靠人工
+
+**问题描述 / Problem Description**:
+我们做了一个 AI 帮你找人的产品，最后发现全靠人工 我们做的是一款用 AI 帮人找人、匹配和自动沟通的产品“连连 AI”。 一开始，我们把希望全部寄托在 AI 身上。 用户发布需求，AI 自动理解；理解完以后，AI 再从用户池里寻找合适的人，最后让双方的 Agent 自动沟通。 但产品真正运行起来以后，我们发现了一件很尴尬的事情：只靠 AI ，根本不行。根本没法实现功能的闭环。 AI 可以完成匹配，但它不一定能完成一次真正有效的对接。 所以最后，我们还是决定自己上。 1.做了一个 AI 产品，我却开始干最脏最累的活 现在只要有人发布需求，我就会自己去看他到底想找什么，再去用户池里寻找可能合适
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236641#reply1
+
+---
+
+#### 9013. [V2EX] 写在 XR 眼镜可能爆发前夜
+
+**问题描述 / Problem Description**:
+XR 眼镜的确正站在爆发前夜，这背后是产品形态、AI 技术、市场数据和巨头入局等多个信号的同时共振。 简单来说，XR 眼镜正在从“笨重的头显”进化为“日常佩戴的下一代个人计算平台”。 🚀 爆发前的几个关键信号 形态大变：从“头盔”变“眼镜” 过去 XR 不温不火，笨重是核心痛点之一。但现在重量已降至 95 克以内（如 XREAL AURA ），接近普通太阳镜。非常重要，可能说最重要的改变 硬件成熟：解决“应用荒” 过去买来吃灰，现在 XREAL AURA 等新品通过接入 Android XR 生态，开箱即可使用数百万款安卓应用，彻底解决了内容匮乏问题。 AI 加持：真·智能助理 深度集成 Ge
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236635#reply4
+
+---
+
+#### 9014. [V2EX] 分享一个有经济学人中文翻译的外刊网站
+
+**问题描述 / Problem Description**:
+平时喜欢看外刊，尤其是经济学人(The Economist)杂志，周六下载好 epub 文件，然后整本翻译，再发送到 kindle 阅读。 使用 deepseek v4 flash 涨价前大概 1 元/本，涨价后大概 2 元/本。有没有便宜点的翻译模型推荐？ 最近发现一个提供经济学人中文翻译的外刊网站，大概 5 元/月，比自己翻译划算，推荐给有需要 v 友。 🔗 传送门： 经济学人中文翻译网站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236585#reply6
+
+---
+
+#### 9015. How to migrate iCloud data and Photos library to another user's Apple ID?
+
+**问题描述 / Problem Description**:
+Tags: macos, icloud, photos, apple-account, family-sharing | Score: 3 | Views: 197 | Answers: 1 | Created: 2026-08-23
+
+**解决方案 / Solution**:
+There is no "one-click transfer" for Apple IDs, but you can migrate the data manually Apple accounts cannot be merged, and ownership/subscriptions cannot be transferred directly. However, since you currently have local access to the Mac and your father's account, you can migrate everything over to your mother's Apple ID cleanly. Step 1: Upgrade Your Mother's iCloud Storage First Before touching any data: Log into your mother's Apple ID (on her device or via appleid.apple.com /iCloud settings). Purchase the necessary iCloud+ storage tier directly on her account so she has enough quota to receive the Photos library and files. Step 2: Migrate the Photos Library (Avoiding Local Storage Bottlenecks) Since the internal drive cannot hold two full libraries: Ensure originals are downloaded: In your father’s user account, open Photos app. Go to Photos → Settings (Preferences) → iCloud and select Download Originals to this Mac . Wait until the sync status at the bottom of the Library tab shows Updated Just Now . Move/Back up to an External Drive (Optional but recommended): Connect an external SSD/HDD (formatted as APFS or Mac OS Extended). Copy the Photos Library.photoslibrary file from ~/Pictures/ to the external drive as a safety backup. Switch the Library to Your Mother's Account: Sign out of iCloud Photos in the Photos preferences on the Mac. Sign into your mother’s Apple ID on the Mac. In Photos → Settings → General , click Use as System Photo Library . In Photos → Settings → iCloud , check iCloud Photos . macOS will upload and merge the existing local library into her newly upgraded iCloud account. Step 3: Migrate Contacts, Calendars, Notes, and iCloud Drive On the Mac, go to System Settings → Apple ID (or System Preferences → Apple ID). Click Sign Out of your father’s Apple ID. macOS will ask: Do you want to keep a copy of your iCloud data on this Mac? Select all checkboxes (Contacts, Calendars, Reminders, Notes, Keychain, etc.) and click Keep a Copy . Sign in with your mother’s Apple ID. When prompted, choose to Merge the local data with her iCloud account. For iCloud Drive documents , manually move the files from your father's iCloud Drive folder into your mother's local user directory or directly into her newly connected iCloud Drive. Step 4: Reconfigure Family Sharing If your father was the Family Organizer , that group cannot be transferred to a new owner. Disband/leave the old family group and have your mother (or yourself) set up a new Family Sharing group , re-inviting family members and sharing the new iCloud+ storage plan and subscriptions. Alternative / Official Route: Apple Digital Legacy If you encounter password/2FA lockouts or want an official data archive: Apple allows next of kin to request access or account deletion via digital-legacy.apple.com by submitting a death certificate and required legal documentation.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486969/how-to-migrate-icloud-data-and-photos-library-to-another-users-apple-id
+
+---
+
+#### 9016. [V2EX] 你们的 Macbook 都是怎么清理的。
+
+**问题描述 / Problem Description**:
+主要是 B 面和 C 面，AD 面好清理。 C 面屏幕找不到什么好的擦的方式，我现在是拿的一个眼睛布擦拭的，但是有些地方需要带点水才能擦掉。 带水了过后又会留下水渍这种，又需要纸巾去慢慢擦一遍，虽然能擦干净但是比较麻烦了。 B 面键盘还好，水渍不明显，看不出来，但是键盘的缝里面会留下一些小颗粒之类的东西，这种咋清理的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236906#reply6
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1164**
+**总计条目 / Total entries: 1179**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -18655,5 +18655,245 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-69502
+
+---
+
+#### 1165. [Microsoft] CVE-2026-70461 - rsync 3.2.5 < 3.5.0 Heap Out-of-Bounds Write via files-from Entry
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70461
+
+---
+
+#### 1166. [Microsoft] CVE-2026-70458 - rsync 3.0.0 < 3.5.0 Out-of-Bounds Write via FLAG_HLINKED Handling
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70458
+
+---
+
+#### 1167. [Microsoft] CVE-2026-19487 - Perl versions from 5.9.4 before 5.41.9 produce incorrect regular expression match results when a stale failure flag ends the Aho-Corasick prescan early in S_find_byclass
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-19487
+
+---
+
+#### 1168. [Microsoft] CVE-2026-73071 - Vim: Use-after-free in JSON Decoding
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-73071
+
+---
+
+#### 1169. [Microsoft] CVE-2026-73075 - Vim: Out-of-bounds Access in Popup Opacity Handling
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-73075
+
+---
+
+#### 1170. [Microsoft] CVE-2026-72693 - Kbd: local privilege escalation in openvt via incorrect process owner verification allowing passwordless root login
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-72693
+
+---
+
+#### 1171. [Microsoft] CVE-2026-73500 - etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-73500
+
+---
+
+#### 1172. [Microsoft] CVE-2026-70457 - rsync 3.2.3 < 3.5.0 Out-of-Bounds Write via parse_size_arg()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70457
+
+---
+
+#### 1173. [Microsoft] CVE-2026-70456 - rsync 3.0.1 < 3.5.0 Heap Out-of-Bounds Write via read_args()
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70456
+
+---
+
+#### 1174. [Microsoft] CVE-2026-70462 - rsync 3.1.0 < 3.5.0 Signed Integer Overflow via MSG_IO_TIMEOUT
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70462
+
+---
+
+#### 1175. [Microsoft] CVE-2026-70459 - rsync 3.0.0 < 3.5.0 Daemon Crash via Malformed File List Entry
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70459
+
+---
+
+#### 1176. [Microsoft] CVE-2026-70460 - rsync 2.3.3 < 3.5.0 Path Traversal via --partial-dir/--backup-dir Symlink
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70460
+
+---
+
+#### 1177. [Microsoft] CVE-2026-70455 - rsync 3.4.2 < 3.5.0 DoS via --zt Zstandard Compression Thread Exhaustion
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70455
+
+---
+
+#### 1178. [Microsoft] CVE-2026-70452 - rsync 3.1.0 < 3.5.0 Access Control Bypass via DNS Resolution Failure
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70452
+
+---
+
+#### 1179. [Microsoft] CVE-2026-70464 - rsync 2.0.0 < 3.5.0 Connection Slot Exhaustion DoS via Handshake Stall
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-70464
 
 ---
