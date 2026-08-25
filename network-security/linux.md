@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3322**
+**总计条目 / Total entries: 3343**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -49111,5 +49111,257 @@ A vulnerability has been discovered in GNU Emacs allowing arbitrary code executi
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-21
+
+---
+
+#### 3323. CVE-2026-77117 - glibc: Non-progress DoS in SHIFT_JISX0213 ->
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: Non-progress DoS in SHIFT_JISX0213 ->. Bugzilla: 2523274
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+
+---
+
+#### 3324. CVE-2026-19499 - glibc: Buffer Overflow in strfmon right-justification padding
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: Buffer Overflow in strfmon right-justification padding. Bugzilla: 2523258
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523258
+
+---
+
+#### 3325. CVE-2026-19542 - glibc: Fix out-of-bounds array write in tdelete
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: Fix out-of-bounds array write in tdelete. Bugzilla: 2523249
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523249
+
+---
+
+#### 3326. CVE-2026-17113 - cri-o: CRI-O: unvalidated image env var causes daemon crash
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cri-o: CRI-O: unvalidated image env var causes daemon crash. Bugzilla: 2506872
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2506872
+
+---
+
+#### 3327. CVE-2026-19685 - NetworkManager: NetworkManager: 802-1x ca-path and phase2-ca-path bypass…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] NetworkManager: NetworkManager: 802-1x ca-path and phase2-ca-path bypass private_user restriction, allowing WPA-Enterprise server validation bypass (incomplete fix for CVE-2025-9615). Bugzilla: 2515042
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515042
+
+---
+
+#### 3328. CVE-2026-71366 - awx: notification backends allow SSRF and credential leakage
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] awx: notification backends allow SSRF and credential leakage. Bugzilla: 2511902
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511902
+
+---
+
+#### 3329. CVE-2026-71364 - awx: project archive extraction allows path traversal file writes
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] awx: project archive extraction allows path traversal file writes. Bugzilla: 2511900
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511900
+
+---
+
+#### 3330. CVE-2026-78701 - 389-ds-base: 389-ds-base: CVE-2026-11610 incomplete fix may introduce a…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: CVE-2026-11610 incomplete fix may introduce a connection-stall DoS. Bugzilla: 2523232
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523232
+
+---
+
+#### 3331. CVE-2026-10582 - hugo: github.com/gohugoio/hugo: Hugo: Server-Side Request Forgery (SSRF) leading…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] hugo: github.com/gohugoio/hugo: Hugo: Server-Side Request Forgery (SSRF) leading to information disclosure.. Bugzilla: 2521803
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521803
+
+---
+
+#### 3332. CVE-2026-78161 - libwebsockets: libwebsockets: Out-of-bounds write in LECP CBOR Recording
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libwebsockets: libwebsockets: Out-of-bounds write in LECP CBOR Recording. Bugzilla: 2521703
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521703
+
+---
+
+#### 3333. CVE-2026-78322 - file-roller: file-roller: stack buffer overflow in parse_progress_line for 7z and…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] file-roller: file-roller: stack buffer overflow in parse_progress_line for 7z and RAR handlers. Bugzilla: 2521767
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521767
+
+---
+
+#### 3334. CVE-2026-78367 - rpm: rpmbuild getTarSpec() crafted tar member name → macro injection
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rpm: rpmbuild getTarSpec() crafted tar member name → macro injection. Bugzilla: 2521857
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521857
+
+---
+
+#### 3335. CVE-2026-78376 - webkitgtk: use-after-free of JSCValue function parameters
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] webkitgtk: use-after-free of JSCValue function parameters. Bugzilla: 2521858
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521858
+
+---
+
+#### 3336. [Ubuntu] USN-8666-2: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8666-2
+
+---
+
+#### 3337. [Ubuntu] USN-8630-5: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - InfiniBand drivers; - Network drivers; - Mellanox network drivers; - File systems infrastructure; - IPv4 networking; - Network traffic control; - TCP network protocol; - B.A.T.M.A.N. meshing protoco
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8630-5
+
+---
+
+#### 3338. [Ubuntu] USN-8658-3: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8658-3
+
+---
+
+#### 3339. [Ubuntu] USN-8659-3: Linux kernel (Azure) vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch;
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8659-3
+
+---
+
+#### 3340. [Ubuntu] USN-8678-1: OpenSSL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSL incorrectly handled the QUIC server incoming channel queue. A remote attacker could possibly use this issue to cause OpenSSL to use excessive resources, leading to a denial of service. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-14456) It was discovered that OpenSSL incorrectly handled signature algorithm selection when using Raw Public Keys. A remote attack
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8678-1
+
+---
+
+#### 3341. [Ubuntu] USN-8670-2: curl vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8670-1 fixed a vulnerability in curl. This update provides the corresponding update for Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. Original advisory details: Joshua Rogers discovered that curl incorrectly handled reusing connections when client certificate settings changed. This could result in the wrong client certificates being used, contrary to expectations.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8670-2
+
+---
+
+#### 3342. [Ubuntu] USN-8675-1: Perl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Perl incorrectly handled short source addresses in the Socket module. An attacker could possibly use this issue to trigger an out-of-bounds heap read, resulting in information disclosure. (CVE-2026-12087) It was discovered that Perl incorrectly handled regular expressions containing a large number of fixed string alternatives. An attacker could possibly use this issue to cau
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8675-1
+
+---
+
+#### 3343. [Gentoo] GLSA 202608-23: Incus: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in incus, the worst of which could result in privilege escalation.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-23
 
 ---

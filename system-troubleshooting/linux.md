@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9524**
+**总计条目 / Total entries: 9555**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -131783,5 +131783,408 @@ See Reddit thread for community solutions and troubleshooting steps.
 
 **参考链接 / References**:
 - https://www.reddit.com/r/linux/comments/1vxhecb/sovereign_tech_fellowship_for_freedesktop_tasks/
+
+---
+
+#### 9525. How to disable/enable a USB webcamera on linux at the bus level?
+
+**问题描述 / Problem Description**:
+Tags: fedora, usb-device, camera | Score: 1 | Views: 64 | Answers: 1 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+To disconnect and reconnect a USB device, you can unbind and rebind the parent xHCI Host Controller: Find your webcam in lsusb Find its root_hub in lsusb -t Find the root_hub's iSerial e.g. 1234:56:7a in lsusb -v sudo bash -c 'x="1234:56:7a" ; cd /sys/bus/pci/drivers/xhci_hcd ; echo "$x" > unbind ; sleep 3 ; echo "$x" > bind' Note this also reconnects nearby devices on the same hub.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807106/how-to-disable-enable-a-usb-webcamera-on-linux-at-the-bus-level
+
+---
+
+#### 9526. Happy 35th Birthday Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxrqbj/happy_35th_birthday_linux/
+
+---
+
+#### 9527. Today, Linux marks its 35th birthday!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxtpgq/today_linux_marks_its_35th_birthday/
+
+---
+
+#### 9528. PSA: do not run sudo su inside a tmux window!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vydtpj/psa_do_not_run_sudo_su_inside_a_tmux_window/
+
+---
+
+#### 9529. Linux 7.3 Device Mapper Sees Many Fixes, Including Code Cleanups By Claude Opus
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vy07cm/linux_73_device_mapper_sees_many_fixes_including/
+
+---
+
+#### 9530. I wonder how much Steam devices and Microsoft's blunders influenced more people to migrate to Linux.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vy3avz/i_wonder_how_much_steam_devices_and_microsofts/
+
+---
+
+#### 9531. Who else would love proper RDP support in Gnome? It's so close, go give a thumbs up.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxqlks/who_else_would_love_proper_rdp_support_in_gnome/
+
+---
+
+#### 9532. What’s Happening In KDE Remote Desktop – Improved Unattended Mode and More
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxs5y1/whats_happening_in_kde_remote_desktop_improved/
+
+---
+
+#### 9533. KUDU - Easily manage VMs on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxwtxk/kudu_easily_manage_vms_on_linux/
+
+---
+
+#### 9534. CVE-2026-73570: Zimbra SNMP/logwatch RCE exploited in the wild, malware persists via /dev/shm and zimbra cron
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vxxfiu/cve202673570_zimbra_snmplogwatch_rce_exploited_in/
+
+---
+
+#### 9535. [V2EX] 寻求一个网络解决方案
+
+**问题描述 / Problem Description**:
+背景: 公司的网络环境下已经不允许安装任何代理类 app,电脑安装了飞连,会定期扫描,但是不可避免需要访问境外网站. 现状: 家里的 Mac 7*24 开机并运行了 surge,我想将 mac 作为代理接管公司电脑的境外流量,但不知道怎么做. 装了 tailscale,自己琢磨了一下也没成功: 家里和公司都安装了 tailscale,并且家里设为了 exit node ，公司电脑的 tailscale 指定家里的电脑为 exit node 了。但弄完以后公司电脑连百度都打不开了。 可付费求方案。 wx:aW1tcnllZQ==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237120#reply23
+
+---
+
+#### 9536. [V2EX] 太感动了，硬着头皮推广自己 vibe 的项目毫无头绪的时候
+
+**问题描述 / Problem Description**:
+遇到一位大佬，从我谜语般的 README 里推敲出项目用法，帮我修 bug ，提 PR ，提建议，和各种反馈。。 在我陷入轻微自我怀疑时候鼓励我，告诉我我做的东西不是垃圾。。 他真的我哭死😭 遇到这样的用户我真的上辈子拯救银河系了😭，没有大佬我可怎么活啊😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237213#reply2
+
+---
+
+#### 9537. [V2EX] Agent 开发时代，你们还在做 Code Rview 吗？
+
+**问题描述 / Problem Description**:
+大家目前都是 codex 、claude code 等 Agent 逻辑一把梭，现在大家内部还有 Code review 吗？ 大家的团队都是如何保证工程质量的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237209#reply8
+
+---
+
+#### 9538. [V2EX] codex 刚用的重置卡（仅仅用了 10%），结果又被重置了，我这重置卡浪费了😰
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237186#reply2
+
+---
+
+#### 9539. [V2EX] AI 时代，如何学习 C 语言？
+
+**问题描述 / Problem Description**:
+作为一名学生，还是用以前的 Visual studio ？还是用 visual studio code ？有没有优雅的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237179#reply8
+
+---
+
+#### 9540. [V2EX] 微软又是生什么大病了 edge 更新后一直询问设置为默认 pdf 阅读器
+
+**问题描述 / Problem Description**:
+你一个浏览器询问默认浏览器还能理解, 结果最近一直在顶部弹出询问设置为默认 pdf 阅读器关了还弹太恶心了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237162#reply3
+
+---
+
+#### 9541. [V2EX] 我又做了一份 AI 顶会论文数据集，可喂给 agent 做技术选型，需要自取
+
+**问题描述 / Problem Description**:
+上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇，没想到还挺受欢迎的👉 https://www.v2ex.com/t/1229793?p=1#reply9 ，还有老哥问我啥时候更新。所以今天我又来了。 这次我整理了 2024 年的四大 AI 顶会论文，总共 9817 篇。在等更新的各位可以自取啦👉 https://huggingface.co/datasets/JensCS/top-ml-conference-papers-2024 这次收录的论文来自四场 AI 顶会： - NeurIPS 2024：3960 篇 - CVPR 2024：2692 篇 - ICLR 2024
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237157#reply1
+
+---
+
+#### 9542. [V2EX] 2026 年 8 月底 opencode go 套餐中的 Deepseek 是不是也和官方一样，每天有高低峰谷期？
+
+**问题描述 / Problem Description**:
+我想续费，是不是也要省着点用？现在据说额度减少了，而且 ds 质量不如官方 ds 性能？ 顺便想问一下各位大佬，如果一个套餐里边的额度不够的话，怎么解决这个问题？比如说五小时额度用完了，怎么办？活还要接着干，不能等 5 个小时以后再接着用啊。或者说一个星期的额度用完了怎么办？如果开多个账号，感觉有时候用不完，又很浪费。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237154#reply5
+
+---
+
+#### 9543. [V2EX] 闲来无事做了个能在浏览器中运行的梯子
+
+**问题描述 / Problem Description**:
+闲的没事用 AI 搓的，地址是： https://mabbs.github.io/linux/ 用法：在控制台输入： switchToVless("wss://domain:port/path/", "UUID") 就可以将终端的网络切换到这个梯子的网络了，需要梯子的协议为 WSS+VLESS ，并且 TLS 证书有效 效果如图所示：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237147#reply8
+
+---
+
+#### 9544. [V2EX] 那种电商客服智能体，设计师智能体，是如何实现的
+
+**问题描述 / Problem Description**:
+那种电商客服智能体，设计师智能体，是如何实现的。 最近公司要做一个电商投流智能，不知道如何入手。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237141#reply8
+
+---
+
+#### 9545. [V2EX] grok 用户目前都在用什么编程工具？
+
+**问题描述 / Problem Description**:
+RT ，今天刚入坑 supergrok ，现在用 codex 发现自动压缩上下文直接卡死，大家都在用啥？ opencode ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237121#reply22
+
+---
+
+#### 9546. [V2EX] 有没有感觉自从用 ai coding 后几乎不会进入心流状态了
+
+**问题描述 / Problem Description**:
+用 ai 后并行开发越来越多,纯 vibe 几乎不需要了解细节,也不做太多设计,但一直在动脑子,还很烦躁.脑雾感很重,一片混乱 自己写代码好歹会进入心流,也没那么累偶尔还挺爽
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237107#reply22
+
+---
+
+#### 9547. [V2EX] Ubuntu26 一键安装搜狗输入法
+
+**问题描述 / Problem Description**:
+因为改成了 Wayland ，ubuntu 的中文输入法变得很难使用。 现在移植了 openkylin 的搜狗输入法，重新打了一个整合 deb 包，方便 ubuntu26 用户使用，一键安装。 代码仓库： https://github.com/sunxfancy/sogou-ng-fcitx5-ubuntu 下载链接： https://github.com/sunxfancy/sogou-ng-fcitx5-ubuntu/releases/download/v10.0.9.0.6-ubuntu2/sogou-ime-ng-fcitx5-ubuntu_10.0.9.0.6-20231128000
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237102#reply1
+
+---
+
+#### 9548. [V2EX] 让 claude 写了个与 single flight 对应的 batch flight
+
+**问题描述 / Problem Description**:
+sonnet 5 ，只搞了 golang 版本。三次提示词，简单 review 了下，应该是 ok 了。 仓库： https://github.com/lesismal/batchflight 第一次提示词： batch flight 背景 关于 single flight 社区已有 single flight 算法，通常是并发的上游对下游的调用时，合并成单个对下游的调用（比如数据库、缓存等基础设施）、返回相同的结果给上游，减轻对下游的压力。 single flight 实现，主要是简单等待，因为是上游大量并发请求、并且下游的操作可能是数据层、耗时久，高并发时段的热点接口能够较多地对多个并发请
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237097#reply0
+
+---
+
+#### 9549. [V2EX] sdd 还流行吗
+
+**问题描述 / Problem Description**:
+看前面说，speckit 之类的 sdd 开发，把维护代码改成了维护 spec
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237096#reply2
+
+---
+
+#### 9550. [V2EX] 开源 9 张 Agent Skills 榜单，挑选出 Best Skills
+
+**问题描述 / Problem Description**:
+虽然大部分 Skills 由自己编写，但看看别人写的 Skills 也备受启发。 仓库 👉： github.com/LinklyAI/best-skills 这个仓库综合了 skills.sh ,clawhub,skillshub,X,bluesky,hacknews,GitHub 等的数据，每日统计一次，计算出 9 个 top 100 Skills 榜单： 榜单 排名依据 best-100 综合安装价值评分（流行度 + 增长势头 + 话题热度 + 维护状况 + 可信度） top-installs 安装量最高，合并所有生态系统 trending-7d 过去 7 天内增长最快 social-bu
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237073#reply3
+
+---
+
+#### 9551. [V2EX] 新版 Codex 报错 401 Unauthorized: ("code":"API_KEY_REQUIRE）修复办法
+
+**问题描述 / Problem Description**:
+因为新版本不再允许自定义 Provider 在 requires_openai_auth=false 时自动继承 auth.json 鉴权。 手动修改配置文件 macOS：~/.codex/config.toml Windows：%USERPROFILE%.codex\config.toml 找到这一行： requires_openai_auth = true （将原先的 false 改为 true 即可正常使用）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237065#reply6
+
+---
+
+#### 9552. [V2EX] 你们有对所有 AI 建立一套公共的统一规范吗？
+
+**问题描述 / Problem Description**:
+假如说实际使用中可能用到多个 AI ，比如说 Claude 、Codex 、WorkBuddy 等，你们有对所有 AI 建立一套公共的统一规范吗，比如说哪些 AI 可以做，不用找我确认，哪些严禁禁止 AI 操作； AI 工具类只要下载一次，统一路径，不同 AI 不要重复下载；个人使用 AI 习惯等等。 我是今天在对一个项目进行 AI 编程前期规范，突然意识到可以建立一套 AI 公共的统一规范
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237053#reply25
+
+---
+
+#### 9553. [V2EX] 求问：如何支付菲律宾区 ChatGPT Pro 20x
+
+**问题描述 / Problem Description**:
+明天开始 plus 就要有 5h 限制了，没法保证连贯使用了，所以后面是打算两三个人拼一个菲律宾区的 Pro 20x 。 现在到了支付这步有点不知所措： 1 ） X 上的酱紫表的 starryblu 卡支付教程。但是本人没有港卡，人民币充值到 starryblu 损耗太高。 2 ） U 卡，只有 Bybit 的 AU 卡，网上的教程是用 EU 卡的，AU 能不能成功不太清楚。有看到申请其他 U 卡支付的教程，还没尝试。 3 ） GPT 的支付界面显示支持 Apple Pay 和 Google Pay ，不太清楚这两个支付有什么限制 所以想问一下大家基于以上的现状，最佳的支付路径是什么。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237051#reply7
+
+---
+
+#### 9554. [V2EX] 泰国的梯子用什么 好贵啊
+
+**问题描述 / Problem Description**:
+泰国的梯子用什么 好贵啊 求推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237026#reply11
+
+---
+
+#### 9555. [V2EX] 用 AI 自动化回复女友，被发现了怎么办
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237024#reply5
 
 ---

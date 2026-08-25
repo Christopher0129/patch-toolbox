@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10054**
+**总计条目 / Total entries: 10099**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -136623,5 +136623,590 @@ Completely replacing the following registry key should resolve the error. HKEY_L
 
 **参考链接 / References**:
 - https://superuser.com/questions/1933295/why-can-t-i-rename-folders-on-a-windows-11-fresh-install
+
+---
+
+#### 10055. My computer is receiving slower internet than any device and it's not my computers fault
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyaywn/my_computer_is_receiving_slower_internet_than_any/
+
+---
+
+#### 10056. Teacher at wit’s end with iPad
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyd2ih/teacher_at_wits_end_with_ipad/
+
+---
+
+#### 10057. Font colors changing to lighter/darker variants in Microsoft Word?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vycyjm/font_colors_changing_to_lighterdarker_variants_in/
+
+---
+
+#### 10058. Monitor blinks on and off for several minutes on startup.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vycik8/monitor_blinks_on_and_off_for_several_minutes_on/
+
+---
+
+#### 10059. BSOD - Critical process died, SFC Scannow / DISM not working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy7ict/bsod_critical_process_died_sfc_scannow_dism_not/
+
+---
+
+#### 10060. WiFi test are good but when I play games have horrible connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy4eb8/wifi_test_are_good_but_when_i_play_games_have/
+
+---
+
+#### 10061. My iPhone calendar deleted itself
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy3bhq/my_iphone_calendar_deleted_itself/
+
+---
+
+#### 10062. About intel graphics command centre video settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyergd/about_intel_graphics_command_centre_video_settings/
+
+---
+
+#### 10063. pc shuts itself off randomly.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyer5l/pc_shuts_itself_off_randomly/
+
+---
+
+#### 10064. Shortcut For an App in the Hidden Windowsapp Folder Reverts to Old Icon in Taskbar
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyee9u/shortcut_for_an_app_in_the_hidden_windowsapp/
+
+---
+
+#### 10065. WD120EFGX hard drive not recognized by Win 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy848p/wd120efgx_hard_drive_not_recognized_by_win_11/
+
+---
+
+#### 10066. Do I need an adapter to used the USB power in or HDMI out on a British computer in the US
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy82gd/do_i_need_an_adapter_to_used_the_usb_power_in_or/
+
+---
+
+#### 10067. VR headset not able to find WiFi signal
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vye8v0/vr_headset_not_able_to_find_wifi_signal/
+
+---
+
+#### 10068. Network Driver Install
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vye7ek/network_driver_install/
+
+---
+
+#### 10069. Legion 5 15AHP10 RTX 5060 — black screen/freezes after Win + L
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vye2ac/legion_5_15ahp10_rtx_5060_black_screenfreezes/
+
+---
+
+#### 10070. When I play Fortnite and Rocket League on my brand new PC I get bad Packet Loss but only those games it seems, why and how do I fix this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vye02o/when_i_play_fortnite_and_rocket_league_on_my/
+
+---
+
+#### 10071. PC won't boot - machine check exception and notskrnl.exe errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vydqke/pc_wont_boot_machine_check_exception_and/
+
+---
+
+#### 10072. Unexpected shutdown
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vydomg/unexpected_shutdown/
+
+---
+
+#### 10073. Loss of sound windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vydd55/loss_of_sound_windows_11/
+
+---
+
+#### 10074. Keyboard keys randomly assigned to different functions
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vy6p9h/keyboard_keys_randomly_assigned_to_different/
+
+---
+
+#### 10075. Motherboard USB ports malfunction after cleaning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyd1mo/motherboard_usb_ports_malfunction_after_cleaning/
+
+---
+
+#### 10076. My games keep crashing with nvlddmkm error report being generated in Event Viewer. Despite multiple DDU reinstalls with full purges and even taking out and plugging in my GPU physically. See post description for full event viewer report.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vycyd6/my_games_keep_crashing_with_nvlddmkm_error_report/
+
+---
+
+#### 10077. My Elite Controller light won't activate nor is the controller responding despite being plugged in.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vycxfs/my_elite_controller_light_wont_activate_nor_is/
+
+---
+
+#### 10078. Rainbow Six Siege crash my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vycx08/rainbow_six_siege_crash_my_pc/
+
+---
+
+#### 10079. [V2EX] 有没有好用的笔记本推荐
+
+**问题描述 / Problem Description**:
+最近内存涨价好厉害，想换个笔记本，发现跟几年前行情完全不一样了。所以征求一下懂行老哥的意见。 笔记本主要是买来办公用的，因为要搞 AI 所以最好至少有 32G 吧；系统运行流畅，主要是 AI 能运行良好；还有就是我偶尔会用下 PS 或者剪辑去做点演示啥的，所以屏幕最好有 15 寸，质量好一点，对眼睛友好一点；整体没有大 Bug ，起码能支撑我使用 5 年+。 以上基本是刚需要求。还有一些是我想要的，但优先级第二吧： 一是散热问题，那当然是越强越好，因为我现在这台好容易发热；二是轻薄，因为我偶尔可能会带出去，但频次不高，看情况取舍吧；三是内存扩展性，这个有当然最好，但还是看情况吧。 最后，我现在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237207#reply2
+
+---
+
+#### 10080. [V2EX] 现在千元 4k 显示器有什么推荐的
+
+**问题描述 / Problem Description**:
+看了一圈感觉还是红米，但 27 寸的，办公系列还是 60Hz 刷新率，是不是买电竞系列的高刷要好一些？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237200#reply0
+
+---
+
+#### 10081. [V2EX] 现在还能出国吗？直接收到了电话
+
+**问题描述 / Problem Description**:
+4 月份度蜜月去了泰国普吉。 今天 8 月 25 号收到了 PLA 的电话，问我是不是 4 月去泰国了，需要我出示是去泰国玩的，而不是去干其他事的证明。 然后我就问如何证明你是 PLA 人员(因为是他工作电话打过来的，看起来像普通电话)，然后我叫他用官方电话打给我，结果还真的用了反诈中心的电话打给了我。 最后还生气了，问我到底提不提供，不愿意证明，他说他如实上报就行了 鼠鼠害怕银行卡和手机号被封，于是提供了出去玩的部分照片和纳税记录 现在这国还能出吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237153#reply5
+
+---
+
+#### 10082. [V2EX] Starryblu 借记卡一直在排队中 等了快 3 个月 有办法加快速度开卡么？
+
+**问题描述 / Problem Description**:
+自己注册的 Starryblu 要一直等 通过 aff 注册的 开卡会快点 注册的时候 也没说使用别人的 aff 可以快速开卡呀～～ 有老铁跟我一样的情况么？等了几个月借记卡还在排队中...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237140#reply2
+
+---
+
+#### 10083. [V2EX] 人造子宫会在一个怎样的契机下被推出来呢？
+
+**问题描述 / Problem Description**:
+感觉很多 男女 对立问题的根本都是 生育这个事件所带来的。 女性揪住这个点不放，男性也无法完全不承认生育对女性身体、心理、事业等方面的影响。 客观上来说整个社会也确实需要面对物质和精神极大丰富的背景下低生育欲望的结构性问题。 推动这个事情感觉伦理上面临的压力太大了，除非整个社会出现结构性、系统性甚至生理性的生育困难
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237137#reply33
+
+---
+
+#### 10084. [V2EX] [技术探讨] 如何稳定 aigc 内容的生成质量
+
+**问题描述 / Problem Description**:
+背景 小弟在做 ai 生成短视频的工作, 简单来说就是写画面描述脚本, 生成视频去投放. 目前投放了几百篇了, 效果有好有坏(坏居多, 好的只有 20%). 生成方法: 写个 prompt, 让 ai 生成, 然后再人工交互微调. 并且需要不断"抽卡", 直至运营满意. 思考 ai 生成的内容有概率能成为爆款, 就说明 ai 是有这个能力的, 只是需要更好的引导, 才能稳定生产 设想 目前有几百篇线上数据(点击率, 完播率, 转换率等等), 我希望利用这些, 去优化 prompt, 但是不知道怎么做比较好, 大家有什么好的经验可以相互交流一下~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237131#reply0
+
+---
+
+#### 10085. [V2EX] 怎样快速让 agent 读懂陌生代码项目
+
+**问题描述 / Problem Description**:
+大佬们，让 agent 阅读一个陌生的项目的最佳实践有哪些鸭，要速度快和省 token ，方便二次开发的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237127#reply3
+
+---
+
+#### 10086. [V2EX] 大佬们有没有什么上班摸鱼的好工具或者好网站
+
+**问题描述 / Problem Description**:
+平时除了 v 站主要就刷知乎，别的不知道刷什么。我最近在用个浏览器插件网页控制大师，在 edge 和 firefox 插件商城都有。一方面用来隐藏知乎图片防止老板偷窥，另一方面用它里面的标签伪装的功能用来修改浏览器标签页的图标和标题，比如伪装成 github 。 想知道还有没有类似的插件或者有意思的网站，最好文字多的，方便摸鱼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237126#reply0
+
+---
+
+#### 10087. [V2EX] 请教一个问题，一个美区 apple ID，可以给 2 个 ChatGPT 充值 plus 会员吗？
+
+**问题描述 / Problem Description**:
+美区 apple ID ，礼品卡充值，我担心会不会导致封号，有知道的小伙伴跟我说一下，谢谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237125#reply4
+
+---
+
+#### 10088. [V2EX] grok 4.6 写代码牛起来了?
+
+**问题描述 / Problem Description**:
+最近一周, cursor 里面用了 grok 4.6 xhigh fast, 干小活又好又快, 去看了几个主流的评价, 发现评分很高, 很复杂的项目暂时没有尝试, 还是 GPT-5.6 sol high / opus 5 medium, review 代码都需要很久, 大家体感如何
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237124#reply7
+
+---
+
+#### 10089. [V2EX] 寻求一个网络解决方案
+
+**问题描述 / Problem Description**:
+背景: 公司的网络环境下已经不允许安装任何代理类 app,电脑安装了飞连,会定期扫描,但是不可避免需要访问境外网站. 现状: 家里的 Mac 7*24 开机并运行了 surge,我想将 mac 作为代理接管公司电脑的境外流量,但不知道怎么做. 装了 tailscale,自己琢磨了一下也没成功: 家里和公司都安装了 tailscale,并且家里设为了 exit node ，公司电脑的 tailscale 指定家里的电脑为 exit node 了。但弄完以后公司电脑连百度都打不开了。 可付费求方案。 wx:aW1tcnllZQ==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237120#reply22
+
+---
+
+#### 10090. [V2EX] 城商行 VS 北京程序员
+
+**问题描述 / Problem Description**:
+万能的 V 友，帮忙做一下决策 现在 base 北京年收入到手算公积金 30 左右，拿到一家城商行总行（三线）打听不到具体的薪资，保守一点一年到手（算公积金） 14 左右也全都算上，但也有说 17-18 的，也有说 12-13 的，我取得中位数，离老家 500 公里左右，北京离家 300 公里左右？ 现在 27 岁，女朋友说无所谓，但感觉工资确实有点少，我过去稳定了之后可能她也过去了，目前北京这份工作加班频率不高，但是裁员有没有，也说不太准。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237119#reply10
+
+---
+
+#### 10091. [V2EX] vibe coding 的时候，你们在干啥
+
+**问题描述 / Problem Description**:
+之前还看看代码的，现在真是懒得看了。 论坛刷烂了，群也都看完了。不知道干啥。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237109#reply3
+
+---
+
+#### 10092. [V2EX] 死了么 APP 一点动静也没有了？
+
+**问题描述 / Problem Description**:
+死了么 APP 一点动静也没有了,官网都查不到，之前跟风上架的还有多少活着的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237104#reply3
+
+---
+
+#### 10093. [V2EX] 突然多了 50w，这笔钱单纯理财可以用来干什么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237100#reply36
+
+---
+
+#### 10094. [V2EX] chatgpt 不能导出数据吗？
+
+**问题描述 / Problem Description**:
+我想导出 chatgpt 网页版的对话数据，关闭了浏览器插件，通过了输入密码、输入二次验证码（ Google 身份验证器），但没有提示导出成功之类，也收不到邮件，而是直接刷新回到 https://chatgpt.com/#settings/DataControls 页面了，不知怎么回事，有朋友碰到过吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237098#reply1
+
+---
+
+#### 10095. [V2EX] 有没有 flutter 的大手子
+
+**问题描述 / Problem Description**:
+我自己很小的 windows 打开要 2-3 秒 测算不在 flutter 端 在拉起引擎阶段 reqable 秒开 有什么优化的方向吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237094#reply0
+
+---
+
+#### 10096. [V2EX] 到底什么才是使用 gpt-5.6-sol 对的姿势？
+
+**问题描述 / Problem Description**:
+只是把一个过程提炼成 skill ，然后考虑了巨复杂的边界场景，起了好几个 subagent 。 最后结论： 66/66 单元测试通过，Python 编译、14 个 JSON 文件解析及全部公共 --help 均通过 。 换成 claude code 就快很多，唰唰唰就写完了，不是说 gpt-5.6-sol 不好，而是想太多，安装了 ponytail 也不太好使，superpower 更拉胯，一个简单的开发任务能跑一天 😵‍💫。 目前已经干掉了所有的 skill ，就安装了一个 ponytail ，还是慢！啰嗦！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237091#reply7
+
+---
+
+#### 10097. [V2EX] 随便问问
+
+**问题描述 / Problem Description**:
+上次 linux.do GitHub 用户邀请注册注册了下，怎么现在登录已经挂了？ 不过上面都是机场和中转，有啥好玩的玩意？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237088#reply1
+
+---
+
+#### 10098. [V2EX] outbid 国内有做的吗？
+
+**问题描述 / Problem Description**:
+感觉 outbid 在外网各种营销驱动，国内悄默声的在做吗？ https://rankbang.top/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237086#reply1
+
+---
+
+#### 10099. Why are videos very slow to open with VLC 3.0.23 in Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, windows-11, vlc-media-player | Score: 8 | Views: 5420 | Answers: 3 | Created: 2026-03-20
+
+**解决方案 / Solution**:
+Try downgrading to an earlier version of VLC. I downgraded back to 3.0.22 (just download the exe file and run it). And now the problem is gone (videos once again almost always start within 1s). Notes Of course, this is far from an ideal solution, but it worked for me without too much work. See also this full list of all versions of VLC. Others have reported the same problem: e.g. at this Videolan forum discussion , this Reddit VLC forum discussion . Other suggested fixes (that I didn't try) At the Videolan forum discussion, one developer Steve Lhomme suggests this fix: take just libqt_plugin.dll from 3.0.21 and put it in the 3.0.23 folder (I didn't try the above fix. And, OP there tried it and it didn't work.) Another fix suggested by Steve Lhomme was this: do you have a plugins.dat file in C:\Program Files\VideoLAN\VLC\plugins (default path for a 64-bit version) ? It is (re)generated by the installer. If you just drop the .zip content in one place you won't have to this file. But you can generate it by calling vlc-cache-gen.exe "C:\Program Files\VideoLAN\VLC\plugins" with admin rights. In non protected folders you can just drag & drop the plugins folder on vlc-cache-gen.exe. (I didn't try the above fix. But, OP there tried it and it worked for him.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1936009/why-are-videos-very-slow-to-open-with-vlc-3-0-23-in-windows-11
 
 ---

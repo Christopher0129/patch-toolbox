@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9016**
+**总计条目 / Total entries: 9078**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -121508,5 +121508,811 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236906#reply6
+
+---
+
+#### 9017. I just don't understand Liquid Glass
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxsunn/i_just_dont_understand_liquid_glass/
+
+---
+
+#### 9018. Architectural flaw in macOS Settings: Why we need a true master switch for non-fundamental features (Focus mode example)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxt656/architectural_flaw_in_macos_settings_why_we_need/
+
+---
+
+#### 9019. Speakers popping after updating to 15.7.9, anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vye963/speakers_popping_after_updating_to_1579_anyone/
+
+---
+
+#### 9020. [Discussion] 5K @ 120Hz+ is finally here: LG 27GM950B-B vs. ASUS XG27JCG vs. Samsung OLED G8 (G80SD). Best all-rounder for Mac & Consoles?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy3ylj/discussion_5k_120hz_is_finally_here_lg_27gm950bb/
+
+---
+
+#### 9021. Need help recovering backup file of iPhone
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vycyem/need_help_recovering_backup_file_of_iphone/
+
+---
+
+#### 9022. Airdrop to myself
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy915g/airdrop_to_myself/
+
+---
+
+#### 9023. Notification Centre not accessible during downtime
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy5y2z/notification_centre_not_accessible_during_downtime/
+
+---
+
+#### 9024. Safari: can't copy link of Facebook post
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy4b6q/safari_cant_copy_link_of_facebook_post/
+
+---
+
+#### 9025. Hi-Res screenshots?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy9p43/hires_screenshots/
+
+---
+
+#### 9026. Is SpaceJump worth it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy2mqa/is_spacejump_worth_it/
+
+---
+
+#### 9027. Anyone with a Mac running 10.14 or older?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy2egi/anyone_with_a_mac_running_1014_or_older/
+
+---
+
+#### 9028. Screen-sharing to Chrome Extensions (Honorlock) Cause Mouse to Lag
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy2024/screensharing_to_chrome_extensions_honorlock/
+
+---
+
+#### 9029. “This file isn’t compatible with QuickTime Player”
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy1w85/this_file_isnt_compatible_with_quicktime_player/
+
+---
+
+#### 9030. Safari keeps crashing without notice
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy0gdn/safari_keeps_crashing_without_notice/
+
+---
+
+#### 9031. Why is the Photos app not detecting duplicate video's?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxvdqb/why_is_the_photos_app_not_detecting_duplicate/
+
+---
+
+#### 9032. Copying and pasting (Universal Clipboard) suddenly stopped working between Mac (M1, 2021) and iPhone (Pro Max 15) all on latest versions of MacOS.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxyf82/copying_and_pasting_universal_clipboard_suddenly/
+
+---
+
+#### 9033. Is this normal? Almost 80GB just for System Data?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxyiq8/is_this_normal_almost_80gb_just_for_system_data/
+
+---
+
+#### 9034. MagSafe charging issue M3
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxqjij/magsafe_charging_issue_m3/
+
+---
+
+#### 9035. If someone makes Windows Snipping Tool alternative to MacOS I will get you a beer.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vy928b/if_someone_makes_windows_snipping_tool/
+
+---
+
+#### 9036. this shit is actually pissing me off. Doesn't charge when its off which loops endlessly until it gets enough power to turn on. How to fix.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxtxyz/this_shit_is_actually_pissing_me_off_doesnt/
+
+---
+
+#### 9037. My MacOS just shut down with a full battery and I can’t turn it back on.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxlyj2/my_macos_just_shut_down_with_a_full_battery_and_i/
+
+---
+
+#### 9038. For Boot Camp, how much storage is recommended?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vxqhww/for_boot_camp_how_much_storage_is_recommended/
+
+---
+
+#### 9039. [V2EX] AI Textile Designer for Seamless Fabric Patterns
+
+**问题描述 / Problem Description**:
+https://textilegen.com/ Create textile patterns from ideas, sketches, and fabric images. Develop repeats, colorways, and product previews in one workspace. Turn any fabric reference into a reusable pattern. Extract clean artwork from garments, fabric photos, or references, then build a repeat that i
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237163#reply0
+
+---
+
+#### 9040. [V2EX] TOP 性价比 mac computer 购买咨询
+
+**问题描述 / Problem Description**:
+背景： 给亲戚(大表姐)购买电脑，使用场景： a. 现在及以后也不会玩游戏 b. 看看网页+简单办公使用 c. 有小孩子快要上初中，可能也会简单用一用 d. 会使用 windows ，有 iPhone 和 ipad ，还没有使用过 macos 系统 限制： i. 不会自行修电脑，电脑硬件知识储备是零。电脑不坏最好，坏了只能去维修店割肉。 j. 穷，得最高性价比。能 3k 搞定就绝不花 3.1k 。 预期： 打算购买 3 月份的 apple neo MacBook 。 咨询： 是否有其他的推荐？或者您是否愿意割羊毛出售自己的二手电脑（别坑我, tg: @hai_lv_tg ）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237058#reply15
+
+---
+
+#### 9041. [V2EX] LaunchOS 评测：把被苹果砍掉的 Launchpad，重新带回 macOS 26
+
+**问题描述 / Problem Description**:
+以前大家嫌 Launchpad 不好用，觉得它不过是把 Applications 文件夹里的应用铺成一个大网格，像 iOS 的主界面一样占满整个屏幕。结果 Apple 在 macOS 26 里真把它删了，换成了一款叫“App”的应用——很多人（包括我自己）反而开始怀念它了。 原因很简单：有些人靠视觉记忆工作，记住一个图标的位置比在 Spotlight 里敲名字快得多。我自己每换一台新 Mac ，都要花半个小时把应用按老样子重新排列进 Launchpad 。失去了 Launchpad 之后难受了几周，直到第三方解决方案陆续出现。 其中有一款从发布之初就备受关注—— LaunchOS ，来自 Re
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237011#reply10
+
+---
+
+#### 9042. [V2EX] Mac mini 用了三年，日均写入 600GB，请问有异常吗
+
+**问题描述 / Problem Description**:
+开机时间 110 天左右，写入 55TB 最近一次开机 6 天，写入 2.46TB 活动监视器截图如下 我是 512G 的 m2pro mac mini ，16G 内存。 感谢回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236897#reply11
+
+---
+
+#### 9043. [V2EX] 微信你能不能不要给正常人喂精神病药物？💊
+
+**问题描述 / Problem Description**:
+微信一个正常人是不会不小小按到 Command+Q 的，长按才能退出？不如我给你一个更好的💡idea ，看个 30 秒广告才能退出好不好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236701#reply24
+
+---
+
+#### 9044. [V2EX] UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？
+
+**问题描述 / Problem Description**:
+mac 远程 mac ，VNC 可以 ⌘+Q 关闭远程桌面上的 App ，到 UU 这里每次 ⌘+Q 都是把 UU 远程自己关掉，真绷不住了。 问了 AI 可以在系统设置 → 键盘 → 键盘快捷键 → App 快捷键，把关闭 App 的快捷键从 ⌘+Q 改成别的快捷键。 改完快捷键 ⌘+Q 就没任何反应了，不会关闭 UU ，远程桌面也不会关闭 App
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234271#reply10
+
+---
+
+#### 9045. [V2EX] 卧槽，苹果上新了，更新了 Mac mini6 和 Mac mini5 Pro
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237192#reply3
+
+---
+
+#### 9046. [V2EX] 新 mac 发布，哪一款值得抢一下好出手 ？
+
+**问题描述 / Problem Description**:
+m6 macmini 还是 256g 起步，macbook air 都 512 起步了，真的不会自己用。哪一款值得抢购再转手卖掉？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237181#reply0
+
+---
+
+#### 9047. [V2EX] 苹果发布 2nm 芯片 M6 与 M5 Ultra， Mac mini 和 Studio 更新
+
+**问题描述 / Problem Description**:
+苹果发布了首款 2 纳米芯片 M6 和 M5 Ultra 。 Mac mini 已经开启预购，9 月 22 日开卖。这次分两档，M6 版 899 美元起，配 12 核 CPU 和 12 核 GPU ，带双 16 核神经引擎。M5 Pro 版 1699 美元起，提供两个带 16 核神经引擎的选项，内存选项更高。 页面介绍 M6 和 M5 Pro 让所有操作感觉格外灵敏。Mac mini 首次在 GPU 中加入神经加速器，用来加快各种 AI 任务。 目前国行网页还没更新。 Mac Studio 更新了 M5 Max 和 M5 Ultra 。苹果称 M5 Max 和 M5 Ultra 是苹果迄今最强
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237172#reply8
+
+---
+
+#### 9048. [V2EX] New Mac mini, featuring M6 and M5 Pro
+
+**问题描述 / Problem Description**:
+这就发了 https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/ 好像就涨了$100 ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237171#reply3
+
+---
+
+#### 9049. [V2EX] 今年新苹果发布会， OS 27 有没有希望把 iPhone Air 这个弱智 esim 限制给解除
+
+**问题描述 / Problem Description**:
+去年 11 月买的，当时没研究明白这个 esim 规则 我的情况是，常年出国旅游，买的国行 Air ，并且注册了两张国内卡 于是我每次出国都得注销一张国内卡，然后回国第一时间去营业厅补办，可能还要花 5 块钱。真鸡巴给我恶心完了 未来还有没有希望？ 这 esim 是真的整的比实体还麻烦了 工信部这些司马老登，鸡毛不懂就知道这卡那卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237112#reply21
+
+---
+
+#### 9050. [V2EX] Apple music 账号登陆失败问题
+
+**问题描述 / Problem Description**:
+美区账号，订阅 Apple music Windows apple music, Android apple music 今天打开时 提示没有订阅，重新登陆账号（账号密码正确）一直重复让输入密码 登陆 https://account.apple.com/ 查看，订阅还正常有 这是什么问题呀，有遇到过的么，如何解决。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237089#reply1
+
+---
+
+#### 9051. [V2EX] 有没有觉得 App Store Connect 超级难用的？
+
+**问题描述 / Problem Description**:
+发布公司产品，每次在 App Store Connect 上都要折腾半天，还死慢死慢的。V 友们有同感的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236990#reply9
+
+---
+
+#### 9052. [V2EX] 1Password 绝版 10 人家庭车
+
+**问题描述 / Problem Description**:
+1Password 长期优惠绝版家庭套餐 10 人下车一位！有需要的么？每人每年 6 美元约合 41 人民币！今天刚续费一年！需要的联系头像中电报！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236898#reply1
+
+---
+
+#### 9053. [V2EX] ios 有没有可以查看相关手机号所有快递的程序或者小插件
+
+**问题描述 / Problem Description**:
+类似 oppo 或者华为手机里，有个卡片可以获取本手机号的所有目前快递的信息，感觉很方便，不知道 ios 有没有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236693#reply14
+
+---
+
+#### 9054. [V2EX] iPhone 18 系列日版港版会去掉 sim 实体卡槽吗
+
+**问题描述 / Problem Description**:
+rt ，准备年底入手一个 iPhone 18 Pro 日版或者港版
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236594#reply8
+
+---
+
+#### 9055. [V2EX] 很多过去认为在 apple 上不可能的实现的事现在都实现了
+
+**问题描述 / Problem Description**:
+以前大家都认为 * iOS 绝对不可能开放通话录音，因为这在很多国家是违法的。结果现在可以了。 * carplay 绝对不可能看视频，因为这是危及行车安全的。结果 WWDC26 上也说可以了。 下一个不可能到可能的功能会是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236556#reply68
+
+---
+
+#### 9056. [V2EX] 快捷方式里的“方向锁定”里的“切换”和“开关”有什么区别？
+
+**问题描述 / Problem Description**:
+iOS 27 PB6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236409#reply3
+
+---
+
+#### 9057. [V2EX] 哪个牌子的苹果充电线好用，不想买原装的了
+
+**问题描述 / Problem Description**:
+最好是能快充的，还有充电头，朋友们有啥推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236361#reply34
+
+---
+
+#### 9058. [V2EX] oyunfor 又可以币安支付了
+
+**问题描述 / Problem Description**:
+gpt 土耳其续费，上个月发现 oyunfor 不能用币安了，翻了之前的帖子，最后在 seagm 冲了 500 里拉，这个月又要充值，seagm 看了一下，500 里拉要 93.52RMB,又去 oyunfor 看了下，又支持币安支付了！只要 71.40RMB ，能省二十多块钱！ 话说，本想一次多充一些，又怕 gpt 突然从 499 涨到 999 ，想请问一下，土区还有什么便宜常用的低价可订阅或者内购的东西吗？如果有兜底消费的东西，我就一次多冲一些，免得后面 oyunfor 又抽风不让充。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236221#reply4
+
+---
+
+#### 9059. [V2EX] Apple VR 团队裁员
+
+**问题描述 / Problem Description**:
+https://appleinsider.com/articles/26/08/20/layoffs-in-apples-vision-products-group-prove-slow-progress-in-spatial-computing cook 的 vision pro 要人走茶凉？ 搞了这么多年，连个好一点消费级的 vr 摄影机都没见到，果子生态内只能 iPhone 拍点简单照片。生态外也就全景相机魔改 vr180 能玩一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236217#reply10
+
+---
+
+#### 9060. [V2EX] stealth/ox-alpha 牛来模型使用感受
+
+**问题描述 / Problem Description**:
+这两天重度尝试使用了一下神秘的牛来模型，整体感觉其实还不错的，通过 claude code 执行长任务没啥大问题，最终的产出也相对符合预期，虽然在难任务上不及 gpt5.6 sol 和 opus5 ，但是可以感受到也是一个相当不错的模型了。 听说是智谱的模型，期待能够尽早揭开神秘面纱。 邀请注册有奖励： https://y-api.bestvirtualgoods.com/zh/login?aff=DNTXWYCU
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237201#reply0
+
+---
+
+#### 9061. [V2EX] 卧槽 codex 又重置了 而且加了 5 小时限制
+
+**问题描述 / Problem Description**:
+刚刚发现重置的，关键的是加了 5 小时限制。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237193#reply0
+
+---
+
+#### 9062. [V2EX] 毛利率 87%， BOSS 直聘赚翻了，但我们却越来越难找工作
+
+**问题描述 / Problem Description**:
+刚看了一下 BOSS 直聘最新一季度的财报数据，有几个数据值得注意：毛利率高达 86.97%， 移动端 MAU 破 7,020 万，而同期付费企业客户数是 720 万，算下来求职者和付费企业的比例接近 10:1 。 内卷的最大赢家竟是一个招聘网站，吃到了所谓的“人才红利”。 来源
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237178#reply5
+
+---
+
+#### 9063. [V2EX] 新款 Mac Mini 来了， 现搭载 M6 或 M5 Pro
+
+**问题描述 / Problem Description**:
+新款 Mac Mini 来了， 现搭载 M6 或 M5 Pro https://www.apple.com.cn/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237174#reply3
+
+---
+
+#### 9064. [V2EX] 语言学习 - 日本人是如何学英语的
+
+**问题描述 / Problem Description**:
+背景 今天跟 AI 的闲聊，注意到日本的认知基础措施极佳。 中国里面受审查之类的影响，一本书要出来的周期什么的很长。 总之，中国境内要接触到高质量信息，不方便。 小红书的那些内容，大量重包装而轻逻辑。没有东西。 总给我一种，我们这片土地的认知基础措施很差的感觉。 一般人们的认知、素养可能会下限很低的感觉也不由得生出来了一些。 日本那里没有防火墙。 总之，那里的人基础认知、取得高质量信息的方便程度，远高于中国。 一个长期能取得高质量信息的地方，还有劳动法能起效的安全地方。 我觉得这里面，如果有人想当极客，有个安全的盾（低工资+996 、35 岁），还有锋利的剑（可合法取得高质量信息），上限很可能
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237165#reply7
+
+---
+
+#### 9065. [V2EX] 背单词时，请把这个单词放回它出现的地方——推荐两套原句法背单词的工具
+
+**问题描述 / Problem Description**:
+从“映射法”背单词说起 阅前说明与利益相关：本文讨论如何借助读过的原句和当时的阅读语境理解、复习单词，并介绍两种实现方式：一种是在桌面端使用 Anki 、ODH 与 Antimoon 模板，这套组合是开源免费的；另一种是我开发的闪卡词典 闪卡词典。两种方式在平台、词典来源和卡片自由度上各有取舍，读者可以根据自己的设备和使用习惯选择。本文理念很大一部分来源于博主“你家老黄”，推荐大家去阅读一下他的博客中的文章。 很多背单词软件，其核心理念都是基于下面这种简单的结构： abandon → 放弃 deliberate → 故意的 surplus → 多余的 看到英文，回忆对应的中文释义，能回忆起来，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237156#reply2
+
+---
+
+#### 9066. [V2EX] 我终于找到了缓解失眠的方法，亲测有效，立竿见影
+
+**问题描述 / Problem Description**:
+就是有点费钱。睡前喝三两茅台，延长睡眠俩小时。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237150#reply0
+
+---
+
+#### 9067. [V2EX] 有趣的二维生成器：一棵 3D 树
+
+**问题描述 / Problem Description**:
+https://x.com/Manixh02/status/2092158857032433869 https://tree.icqr.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237144#reply0
+
+---
+
+#### 9068. [V2EX] 3 个 plus 号都给杀了
+
+**问题描述 / Problem Description**:
+很无奈... 昨天 tibo 才说不支持 sub2api ，今天一看 3 个号都没了 正价 ios 充，用了差不多小半年，而且都是独立住宅 ip 最惨的是网页版的记忆和会话都找不回来了 我现在是想明白了，oai 和 A\都是一路的 只是之前 oai 相对温和，现在杀的是反代，后面可能杀的就是国内使用。 只要垄断了准没有好事，竞争才能给消费者选择
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237143#reply9
+
+---
+
+#### 9069. [V2EX] [自荐] PhotoLoci 更新：基础功能免费，高级功能买断
+
+**问题描述 / Problem Description**:
+大家好，我是 PhotoLoci 的开发者。 PhotoLoci 是一款 iOS 照片地图 App ，可以按照拍摄地点在地图上浏览照片，重新发现自己去过的地方和留下的回忆。 最近发布了一次较大的更新： 新增了许多功能 优化了性能和交互，照片浏览更加流畅 基础功能现在可以免费使用 高级功能采用一次性买断，没有订阅 此前下载过的老用户会自动解锁全部高级功能，无需再次付费 这次调整主要是希望大家可以先免费体验完整的核心功能，觉得好用再决定是否购买。对于早期下载和支持过 PhotoLoci 的用户，则直接保留全部功能作为感谢。 App Store： https://apps.apple.com/app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237115#reply0
+
+---
+
+#### 9070. [V2EX] 有人关注这个在 iPad 上运行 macOS 的项目吗？
+
+**问题描述 / Problem Description**:
+Virtual Mac on iPad ， https://github.com/nfzerox/VirtualMacOniPad 眼看这个项目火起来，手上的 18 款 iPad Pro 反正也准备出了。去海鲜市场淘了一台 16.2 的 M2 2TB iPad Pro ，不知道真实体验怎么样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237080#reply2
+
+---
+
+#### 9071. [V2EX] Kimi 套餐内的 Code Plane 高峰时间段慢到几乎不可用
+
+**问题描述 / Problem Description**:
+上午 9 点到 11 点，下午 2 点到 5 点，体验非常糟糕，首字要等十几秒样子，Token 速度在 12-20 t/s 样子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237072#reply0
+
+---
+
+#### 9072. [V2EX] 豆包工作的 ui 和 codex 也太像了吧
+
+**问题描述 / Problem Description**:
+看了豆包工作介绍，感觉直接复制过去了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237066#reply1
+
+---
+
+#### 9073. [V2EX] 分享一个 Windows11 中的设计小巧思
+
+**问题描述 / Problem Description**:
+在 Windows11 的资源管理器中，右键菜单 新建 的时候你会发现一级菜单和二级菜单的位置是错开的： 那么就会有这么一个有趣的现象：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237064#reply17
+
+---
+
+#### 9074. [V2EX] 献给所有开发者的工具 Fan3D [送终身会员]
+
+**问题描述 / Problem Description**:
+hi ，各位 v 友下午好。 Fan3D 是一个专门为独立开发者和产品设计师打造的创意 3D 视频制作工作台。 我从传统视频录制软件 Screen Studio 和老牌 Mockup 制作工具 Rotato 吸取灵感将创意操作与 AI 结合开发了这款应用。 我将所有的 GUI 操作抽象成了 49 个标准的 Application use case 工具集以通过 mcp 的形式开放给本地 AI 助手调用，你不仅可以在类似 Codex 这类桌面端应用以最标准最新的插件开发协议开发的插件接入调用 Fan3d 进行视频制作，还可以直接在 Fan3d 应用内部调用本地 AI 助手 ，这是一种取巧的方式，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237033#reply4
+
+---
+
+#### 9075. [V2EX] 公网部署 deepseek harness 行为的猜测和提醒
+
+**问题描述 / Problem Description**:
+估计有人已经将 dsh 部署在 vps 这类有公网的服务器上了，虽然原版严格限制 127.0.0.1 地址，但仍可通过反代或其他方式实现远程访问。如果没有增加鉴权或者认证措施，那就是一个裸奔的 dsh 网页。我猜会有这样顾头不顾腚的情况，给大家作个提醒吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237029#reply7
+
+---
+
+#### 9076. [V2EX] skinny 大规模封号了，实体卡也封了
+
+**问题描述 / Problem Description**:
+我刚买的卡啊，还不到一个月
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237007#reply10
+
+---
+
+#### 9077. [V2EX] 发现了最好的助眠药物
+
+**问题描述 / Problem Description**:
+上周出差执行一周 换床不适应+同事突发甲流+项目执行工作繁重+压力太大皮质醇爆表 每日平均睡眠低至 4-5 小时 每天 2-3 杯咖啡顶着才不至于崩溃 周五执行结束，周五和周六晚上依然是 4 小时睡眠 人都快疯了 周日突发荨麻疹，无奈之下吃了一颗盐酸左西替利嗪 好嘛，直接开启嗜睡模式 周日中午 11 点半吃上药 下午一直在景点之间骑车，当时还没啥感觉 最后一个景点逛完，吃了顿钵钵鸡打车回酒店 从上了网约车，就开启了睡眠模式 钵钵鸡到酒店，睡了 20 分钟 酒店到机场睡了一路，70 分钟 机场候机，坐下就睡，又睡了 40 分钟，差点错过登机 上了飞机坐下又开始睡，飞了 150 分钟，中间就清醒了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236961#reply110
+
+---
+
+#### 9078. [V2EX] xyz 域名要涨价了
+
+**问题描述 / Problem Description**:
+早上看到 NameSilo 发来的新邮件，部分内容如下： Renewal of .XYZ domains is going up to $17.29 USD per domain. Transfer of .XYZ domains is going up to $14.75 USD per domain. Timelines: The price update will take effect on August 25, 2026. 然后赶紧登上去看了一下，直接续满了。 打算继续使用 XYZ 域名的 V 友们记得今天续费啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236934#reply56
 
 ---
