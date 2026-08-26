@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10099**
+**总计条目 / Total entries: 10143**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -137208,5 +137208,577 @@ Try downgrading to an earlier version of VLC. I downgraded back to 3.0.22 (just 
 
 **参考链接 / References**:
 - https://superuser.com/questions/1936009/why-are-videos-very-slow-to-open-with-vlc-3-0-23-in-windows-11
+
+---
+
+#### 10100. SSD SATA died, but why?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz6yd3/ssd_sata_died_but_why/
+
+---
+
+#### 10101. ASUS PN64-E1 — BIOS won't save any settings (except date/time), can't boot from either SSD or UEFI USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzak0f/asus_pn64e1_bios_wont_save_any_settings_except/
+
+---
+
+#### 10102. Laptop won't connect to WiFi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzai2i/laptop_wont_connect_to_wifi/
+
+---
+
+#### 10103. Issue with old video files
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vyy7t0/issue_with_old_video_files/
+
+---
+
+#### 10104. Failing PSU symptoms ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz897j/failing_psu_symptoms/
+
+---
+
+#### 10105. ROG STRIX 3080 OC V2 10GB re-paste and hotspot temperatures
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz61tr/rog_strix_3080_oc_v2_10gb_repaste_and_hotspot/
+
+---
+
+#### 10106. crystal uancher question
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzb4tn/crystal_uancher_question/
+
+---
+
+#### 10107. Maps keeps showing me spots I have marked as hidden - why?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzaki5/maps_keeps_showing_me_spots_i_have_marked_as/
+
+---
+
+#### 10108. Random Shortcut Input issues keys not working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vza9j5/random_shortcut_input_issues_keys_not_working/
+
+---
+
+#### 10109. Corrupted original boot drive after cloning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vza93b/corrupted_original_boot_drive_after_cloning/
+
+---
+
+#### 10110. Fire TV remote isn’t letting me search with Alexa
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vza3nt/fire_tv_remote_isnt_letting_me_search_with_alexa/
+
+---
+
+#### 10111. D key overriding A key
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9s98/d_key_overriding_a_key/
+
+---
+
+#### 10112. How to disable Google Chrome from saving tabs on Android after I've closed them?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9rfr/how_to_disable_google_chrome_from_saving_tabs_on/
+
+---
+
+#### 10113. Unable to download Nvidia graphics driver
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9q97/unable_to_download_nvidia_graphics_driver/
+
+---
+
+#### 10114. Gateway laptop battery drains within 30 minutes, report seems fine
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9p28/gateway_laptop_battery_drains_within_30_minutes/
+
+---
+
+#### 10115. my mouse stops working when I connect to the 5ghz wifi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9jel/my_mouse_stops_working_when_i_connect_to_the_5ghz/
+
+---
+
+#### 10116. Honeywell px45 industrial printer issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9fj9/honeywell_px45_industrial_printer_issue/
+
+---
+
+#### 10117. locked in game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9cm1/locked_in_game/
+
+---
+
+#### 10118. How to make my tabs stay visible again when my cursor isn’t on them
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz9bbj/how_to_make_my_tabs_stay_visible_again_when_my/
+
+---
+
+#### 10119. phone not registering earphones, but works fine with another pair of the exact same earphones.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz98yr/phone_not_registering_earphones_but_works_fine/
+
+---
+
+#### 10120. NVME SSD Dissapearing from bios after crash and coming back with corrupted Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz97cr/nvme_ssd_dissapearing_from_bios_after_crash_and/
+
+---
+
+#### 10121. What are some common mistakes people make with Internet set ups that can cause issues?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz8zkf/what_are_some_common_mistakes_people_make_with/
+
+---
+
+#### 10122. Intel AX211: all Wi-Fi networks disappear for 20–30 seconds, WLAN report says driver disconnected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz8xas/intel_ax211_all_wifi_networks_disappear_for_2030/
+
+---
+
+#### 10123. My PC shuts off randomly 😭 Plz help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vz8suy/my_pc_shuts_off_randomly_plz_help/
+
+---
+
+#### 10124. [V2EX] 10 人以内小团队，代理和终端管理方案
+
+**问题描述 / Problem Description**:
+帮朋友问一个问题，10 人以内的小团队在 IT 方面有以下需求： 1. 统一的代理（用于跨境电商运营、AI 等） 2. 终端管理（防止出现资料外泄事件等） 有什么比较好的选型吗？第一个需求是 P0 ，第二个需求是 P1 。 我知道飞连好像可以同时满足两个，但是 10 人以内的团队感觉（价格）不一定适合。 surge team 可以满足第一个，但是现在好像已经不能注册了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237490#reply0
+
+---
+
+#### 10125. [V2EX] 建了一个独立出海交流群，感兴趣的大佬欢迎交流
+
+**问题描述 / Problem Description**:
+主要是一群独立开发者/设计师出海搞钱的地方，聊聊 SEO 、产品、变现、工具开发这些事。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237486#reply1
+
+---
+
+#### 10126. [V2EX] 牛来模型官方身份亮相，国产牛皮
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/O7RCVME1Kut-Z2oFYhgrkw 320B 总参数，能力超过 GLM-5.2 ，在全球权威的 Artificial Analysis Intelligence Index （ AA 综合智能指数）中取得 57 分，进入全球前沿模型能力区间，与 Anthropic 最受欢迎的模型 Claude Opus 4.8 得分持平。在自研 Z.ai Code Bench 体感评估中，其编程表现与 Claude Opus 4.8 相当。 定价为 GLM-5.3 的 1/10 ，限时折扣内为 GLM-5.3 的 1/20 ，为 Opus 4.8
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237485#reply8
+
+---
+
+#### 10127. [V2EX] Nvidia 128G 的那个小盒子用哪个模型好？
+
+**问题描述 / Problem Description**:
+试了最新出的 Qwen3.8-27B ，吐字很慢，4token/s 。 试了 Qwen3.6-35B-A3B ，质量感觉不行，幻觉有些严重。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237461#reply2
+
+---
+
+#### 10128. [V2EX] 想做一个模型对比和评测网站，大家最希望它测什么？
+
+**问题描述 / Problem Description**:
+大家好，我们最近在考虑做一个面向 AI 中转站的模型对比和评测网站。 现在市面上的中转站越来越多，各家的线路、价格、倍率和使用规则也不太一样。很多信息只看宣传页面很难判断，往往要实际充值、连续使用一段时间后，才能知道高峰期稳不稳定、响应速度怎么样、扣费是否清楚。 所以我们想尝试做一个相对公开、持续更新的评测网站，让大家在选择和充值之前，能先看到一些真实的测试数据，也能对比不同模型在真实使用场景下的输出效果。 目前初步想到的评测方向包括： 稳定性：请求成功率、超时率、429/5xx 错误率、高峰期表现 响应速度：首 Token 延迟、完整响应时间、输出速度 价格与扣费：公开价格、实际扣费、Tok
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237452#reply0
+
+---
+
+#### 10129. [V2EX] 20x 的拼车 和中转相比，哪个划算？
+
+**问题描述 / Problem Description**:
+穷鬼没上过正价车，只用过中转。 20x 的正价 相当于中转几折呢？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237449#reply4
+
+---
+
+#### 10130. [V2EX] 西藏泥石流 看了下视频 威力太大了 今年的极端天气太多 大家安好就美好
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237444#reply2
+
+---
+
+#### 10131. [V2EX] 合肥有没有靠谱的装修团队推荐
+
+**问题描述 / Problem Description**:
+最近要装修了，合肥有没有靠谱的团队推荐做半包 看了这么多，觉得装修的坑太多了，而我的要求又有点高
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237438#reply0
+
+---
+
+#### 10132. [V2EX] 国内 token 套餐对比按量折扣对比
+
+**问题描述 / Problem Description**:
+包括国内主流的腾讯云、火山云等，欢迎大家补充，也可以分享坑点，比如按量调用有折扣，tokenplan 不计缓存等 比如阿里云 100 积分=1 元 team 版分类 价格（每月/元） 对应积分 折扣率 标准坐席 198 25,000 0.792 高级坐席 698 100,000 0.698 尊享坐席 1,398 250,000 0.5592 Token Plan 团队版 - 共享用量包 5000 625,000 0.8
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237436#reply0
+
+---
+
+#### 10133. [V2EX] 建了个小网站，提供域名邮箱服务
+
+**问题描述 / Problem Description**:
+现在好像国内提供域名邮箱的服务商要求越来越严了。 圈子里玩域名的多，就建了个小网站，提供域名邮箱服务。 不知道有没有搞头 ^_^ 目前处于内测阶段,如果有兴趣可以来看看哟！ https://ab.cd
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237433#reply3
+
+---
+
+#### 10134. [V2EX] 针对 AI 可调用的秘钥管理器推荐
+
+**问题描述 / Problem Description**:
+目前秘钥还是裸奔状态，感觉不靠谱，大家推荐有什么，是选择开源的 Infisical 私有化部署储存，还是选择商业付费 1Password 储存在云端？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237432#reply2
+
+---
+
+#### 10135. [V2EX] Cursor 的 500 次老套餐改了规则后，大家现在怎么用的？
+
+**问题描述 / Problem Description**:
+对这个问题，大家有好的实践吗？ 我看现在能用的最高的模型就是 Opus 4.6 Max 了，除此之外，好像也没有好用的模型了，500 次用完之后的 free 模型感觉都很拉垮。我上个月和这个月都没怎么用，我都不知道该怎么消耗它的 token 了。按次我倾向于给他一个很长的任务，让他自己直接干完这种，避免反复跟他对话。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237422#reply4
+
+---
+
+#### 10136. [V2EX] 各位婚前有没有焦虑过
+
+**问题描述 / Problem Description**:
+突然回头发现已经到这一步了 有种很复杂的情绪和不真实感
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237419#reply26
+
+---
+
+#### 10137. [V2EX] 现阶段买个 supergrok plus 年付值不值？
+
+**问题描述 / Problem Description**:
+年付能省两个月订阅费，一年下来一千刀。有没有重度用户说说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237407#reply13
+
+---
+
+#### 10138. [V2EX] 1
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237405#reply0
+
+---
+
+#### 10139. [V2EX] 如果做个网站，收集不同网站的 google search console 和 google analytics 的曲线，有需求吗？
+
+**问题描述 / Problem Description**:
+最近在做网站，但是流量来得慢。 想看大佬们的 google search console 和 google analytics 增长曲线，这对于一个新手来说是一个很大的参考。 如果做个网站，让大家展示 google search console 和 google analytics 的曲线。 你是大佬，你会愿意展示吗？帮助新手吗？辅助新手持续成长。 你是新手，你会愿意去看吗？如果是我，我会愿意，这是一个标杆来参考。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237399#reply2
+
+---
+
+#### 10140. [V2EX] 最近做了一个比较小的工具： WebGPU Stress
+
+**问题描述 / Problem Description**:
+https://webgpustress.com/ 起因是有时候只是想快速看看 GPU 在持续负载下稳不稳定，但为了这个去装 FurMark 、监控软件感觉有点重。 所以做成了纯浏览器版本，打开网页就能跑。 目前主要可以看： Average FPS 1% Low FPS Frame Time Drop Frame Ratio Stability Score 比较适合跑几分钟看看持续负载之后 FPS 有没有明显下降，尤其是笔记本散热、驱动更新前后这种场景。 当然浏览器拿不到 GPU 温度、功耗、频率这些硬件数据，所以定位不是替代 FurMark / GPU-Z ，而是做一个比较轻量的 first
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237398#reply0
+
+---
+
+#### 10141. [V2EX] 和居民医疗保险搭配的最好的医疗商业险是啥，求推荐，是百万医疗类吗，还有哪些可选的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237375#reply1
+
+---
+
+#### 10142. [V2EX] 有免费看影视剧的电视 app 吗
+
+**问题描述 / Problem Description**:
+各位，有免费看影视剧的电视 app 推荐吗，特别是能看国外影视剧的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237354#reply2
+
+---
+
+#### 10143. [V2EX] V 友推荐的洛斐 flow2 mac，发现两个按键有问题
+
+**问题描述 / Problem Description**:
+caps 按键，我习惯了长按切换大小写，短按切换上一个输入法。 结果这个 flow2 for mac ，短按和长按，都是一样的，而且同时触发切换大小写和输入法。 以及这个 Fn 按键，也根本不能用作系统快捷输入法。 https://cleanshot.com/share/mnhX9WRC
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237346#reply0
 
 ---

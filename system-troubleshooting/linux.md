@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9555**
+**总计条目 / Total entries: 9586**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -132186,5 +132186,408 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237024#reply5
+
+---
+
+#### 9556. LibreOffice 26.8 brings professional typography, deeper support for the world's writing systems, and no artificial intelligence
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vyuih9/libreoffice_268_brings_professional_typography/
+
+---
+
+#### 9557. Interesting hypothesis on why people are harder on Linux than Mac OS for being different, courtesy of my tech-illiterate (but pretty darn smart) mother.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vyzutt/interesting_hypothesis_on_why_people_are_harder/
+
+---
+
+#### 9558. Google engineers are experimentally adding Flatpak packaging support to Chrome/Chromium on Linux to test restricted sandboxing and XDG portals, without yet committing to official support.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vypqqk/google_engineers_are_experimentally_adding/
+
+---
+
+#### 9559. Nouveau Panel Alpha Release | Rust + FLTK
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vz2zjh/nouveau_panel_alpha_release_rust_fltk/
+
+---
+
+#### 9560. [ANN] qpwgraph v1.0.4 - A Mid-Summer'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vz2ka8/ann_qpwgraph_v104_a_midsummer26_release/
+
+---
+
+#### 9561. Progress Report: Linux 7.2 - Asahi Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vzbi5k/progress_report_linux_72_asahi_linux/
+
+---
+
+#### 9562. 66 0.9.x is out: the init system/service manager is now fully independent (no more skalibs, s6 or execline at build time), and it gained an event system
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vyrx16/66_09x_is_out_the_init_systemservice_manager_is/
+
+---
+
+#### 9563. MT7902 / mt7921e: severe download packet loss and low throughput under load on Fedora 44
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vz2fjm/mt7902_mt7921e_severe_download_packet_loss_and/
+
+---
+
+#### 9564. FIDO2 + SSH + Android chroot — creating one of the most secure SSH setups possible. Here’s how (and why it shouldn’t be possible)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vypzaw/fido2_ssh_android_chroot_creating_one_of_the_most/
+
+---
+
+#### 9565. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply49
+
+---
+
+#### 9566. [V2EX] 强烈推荐一款性价比极高的 Linux 本搞 vibe coding
+
+**问题描述 / Problem Description**:
+Linux 笔记本这里讨论过很多次，我自己都多次发帖，我也前后用过折腾过一二十个笔记本， 60% Apple, 30% Thinkpad X1C/T 系列 10% 杂牌甚至 PAD/Surface 系列 多多少少都有不满意的对方，大部分是兼容问题，电池问题，驱动问题，启动问题，稳定问题。 由于目前我自己主要用 AI 来写一些小项目，所以主要考虑轻便，续航高，性能无所谓，由于 M 芯片支持不是太友好，要不然 M 芯片应该是首选。 后来我研究发现 12 寸的 Macbook+Omarchy 是极品配置 我以前定制过一台 12 寸的，好像 1.2w 买的，用了半年不习惯（那个时候觉得性能不行发热）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227981#reply35
+
+---
+
+#### 9567. [V2EX] 公司搞 AI 案例大赛，有什么灵感嘛兄弟们
+
+**问题描述 / Problem Description**:
+最近搞了个 AI 提效大赛，每个组要出一套案例，大老板还要看 平时 JAVA 开发那套东西弄上去，估计都过不了初审 求求兄弟们给点灵感，救救了 orz
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237500#reply2
+
+---
+
+#### 9568. [V2EX] 新的开源项目，快速制作好看的 PPT，网页可编辑，可导出 pptx
+
+**问题描述 / Problem Description**:
+项目链接： https://github.com/seekskyworld/CreatPPT 让 Agent 阅读后，即可快速制作
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237483#reply1
+
+---
+
+#### 9569. [V2EX] 官宣 Ox-Alpha 是智谱 GLM-5.3-Flash
+
+**问题描述 / Problem Description**:
+GLM-5.3-Flash 定价为 GLM-5.3 的 1/10 ，限时折扣内为 GLM-5.3 的 1/20 ，为 Opus 4.8 的 1/40
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237480#reply9
+
+---
+
+#### 9570. [V2EX] 飞书搞这么多"豆包 xxx", 疯了么
+
+**问题描述 / Problem Description**:
+两个侧边栏+2 个聊天框 删不掉,也隐藏不了. 一个每年要花钱才能使用的办公软件, 这是要送客?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237426#reply12
+
+---
+
+#### 9571. [V2EX] vibe 了一个 AI 斗法平台
+
+**问题描述 / Problem Description**:
+目前还不知道效果如何，请大佬们帮忙看看有没有需要改进的地方。 尤其是策略这块，我让 AI 思考设计的。但是不知道有没有真正的实现更聪明的 AI 能够设计出更强的策略。 https://vibewar.net/zh
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237413#reply0
+
+---
+
+#### 9572. [V2EX] 开源一个和 modern-go-guidelines / modern-web-guidance 互补的多语言开发规范
+
+**问题描述 / Problem Description**:
+最近 vibe 了一个开源项目： Modern Code Guidelines https://github.com/zcyc/modern-code-guidelines 它面向 Codex 、Cursor 和 Claude Code ，提供五种语言的版本感知开发规范： Java JavaScript TypeScript Python C# 项目会先读取实际项目声明的语言、编译器或运行时版本，再应用对应版本可用的规则。每种语言都记录了官方规范、版本发布说明、编译器文档和标准库文档来源。 它和两个项目是互补关系，而不是替代关系： modern-go-guidelines 专注 Go ； mo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237402#reply0
+
+---
+
+#### 9573. [V2EX] sol xhigh 的运行速度怎么会这么慢。。
+
+**问题描述 / Problem Description**:
+随便跑一个任务都要半小时起步。。每次边界测试都做的很多。有没有大佬知道怎么解决，claude 太容易封了，然后 grok 4.6 水平还可以但是还是比不上顶级的模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237400#reply14
+
+---
+
+#### 9574. [V2EX] WPS 格式越来越多，但是这个封闭格式却没有可靠的在线预览可用
+
+**问题描述 / Problem Description**:
+最近在搞一个内部用的程序开发，因为单位里近几年用 wps 和 et 格式的文件越来越多，所以不得不考虑兼容 wps 和 et 格式的在线预览问题。 找遍全网也没发现可靠的在线预览可用，官方倒是有一个开放平台，但是一方面一定要走官方的平台才行，不能做到纯前端渲染，而且还要花钱，还是先充值后扣费，我们领导是非常抠的，不可能同意预览个文档还要花钱这种事。 没办法，只好用 pywpsrpc 调用服务器上的 linux 桌面版把所有 wps 和 et 格式的文件都转成 pdf 格式，再使用 pdf.js 做在线预览。不仅要额外保存 pdf 格式的文件，文件处理的管线也变长了，很烦躁。 无法理解 WPS
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237389#reply23
+
+---
+
+#### 9575. [V2EX] 有做过 PCA 降到二维数据散点图的嘛？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237386#reply10
+
+---
+
+#### 9576. [V2EX] 证书的价格为啥相差这么大？
+
+**问题描述 / Problem Description**:
+DV 证书，公司用，一般是在云平台与服务器一起付费买，基本一年一千多元，但老是有销售人员通过各种渠道到公司推销，电话推销。也就几百块一年甚至更低。还口口声声说他们是厂家才这么便宜，云厂不是厂家之类的云云。 这当中有什么样的风险与猫腻啊。主要讨论付费产品，免费的就算啦。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237377#reply24
+
+---
+
+#### 9577. [V2EX] 裂开了，自己申请软著， 29 天了还是待受理状态
+
+**问题描述 / Problem Description**:
+这效率也太低下了吧？ 如果受理后再有问题 - 打回 - 修改 - 再提交，这么一折腾不得半年才能搞定软著？想上架国内安卓商店，时间成本也太高了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237376#reply45
+
+---
+
+#### 9578. [V2EX] openai pro 20x 车队发车
+
+**问题描述 / Problem Description**:
+暂定五人以内，主要是我一个人用不完 一人 250 块包月，欢迎联系 MTUwMTA3MzY1MDY=
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237372#reply4
+
+---
+
+#### 9579. [V2EX] 智能体和 agent 有什么分别， agent 开发到底是什么
+
+**问题描述 / Problem Description**:
+老在这里听到转行 agent 开发， 意思是开发一个 claude code 或者 codex ？ 那為什麼不用現成的 codex
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237369#reply3
+
+---
+
+#### 9580. [V2EX] 好奇大家用的是中转多还是 gpt 订阅更多
+
+**问题描述 / Problem Description**:
+我之前用的 gpt 官方订阅，后来换成中转了 我身边的同事最近都在订阅 gpt 账号，而我还在用着中转 api ，搭配 cc swith+codex 使用 很好奇，大家用的是中转多还是 gpt 订阅更多呢？ 因为目前我用的中转感受不到有啥太大的差距，codex 搭配各种技能依然可以做 ppt 做视频写代码等，一个月大概消耗 100 块吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237361#reply23
+
+---
+
+#### 9581. [V2EX] open-rec 全栈推荐系统升级版
+
+**问题描述 / Problem Description**:
+项目地址： https://github.com/open-rec 其实早先已经在这里发过帖子了，但是当时只有后端引擎的支持没有 ui 支撑，可能看起来很枯燥并且上手不够友好，现在增加了 web 演示和管控支持，希望能更方便大家交流学习~ 演示 demo： 管控功能： 召回索引切换 offline DAG 管理 模型管理 AB 实验 监控
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237347#reply1
+
+---
+
+#### 9582. [V2EX] 做了个边角料， AI 应用独立代理，不走全局
+
+**问题描述 / Problem Description**:
+自动发现已安装的 ChatGPT 、Cursor 、Claude 、Antigravity 和 Antigravity IDE 。 为每个应用新增独立的 应用名-Proxy 桌面及开始菜单快捷方式，不覆盖原应用图标。 https://github.com/wh054/EasyAgentProxy 不喜欢全局代理的可以带走，欢迎品鉴
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237324#reply1
+
+---
+
+#### 9583. [V2EX] 我把 MacBook 刘海变成了 AI agent 的工头，现在完全开源 [全部源码] ， MIT。
+
+**问题描述 / Problem Description**:
+我把 MacBook 刘海变成了 AI agent 的工头，现在完全开源 [全部源码] ，MIT 。 它不只是让你看见 AI agent 在干嘛 —— 它盯着它有没有真的把活干完：从你的原话里拆出要点，它说做完了就拿真实 git diff 去对。是一个真正的 [会话观察者] 原生 Swift ，零依赖，530 个测试。欢迎共创 👉 github.com/gulugulu-cn/vibe-foreman 我们的项目管理软件新增了密钥管理。使用应用启动后可以保证提交代码和使用统一管理。避免 ai 读取密钥和提交密钥
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237319#reply0
+
+---
+
+#### 9584. [V2EX] 32G 显存 Qwen3.8-27B-GGUF 配置分享
+
+**问题描述 / Problem Description**:
+本文使用 V100-SXM2-16GB 双卡运行： 起始配置 基础配置从 UD-IQ4_XS + 256k context + Q4 KV + mmproj 开始 这个配置是我感觉目前最理想的配置： 能跑满 256k 上下文，真正可以用在编码/生产场景了 prefill 速度在 300-400tok/s ，decode 速度在 30-60tok/s 默认就是 4 并发，再往上调意义不大，4 并发的 decode 就只剩 10tok/s 了 所以可以从这个配置开始，进行微调 services: qwen3.8-27b: image: ghcr.io/ggml-org/llama.cpp:serv
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237309#reply37
+
+---
+
+#### 9585. [V2EX] 千问办公和豆包办公都不咋滴
+
+**问题描述 / Problem Description**:
+最近阿里宣布整合 AI 产品到千问办公，字节也是整合自己扣子，traework 到豆包办公。 这两从软件到官网都透露出不成熟，至少设计的都不好看。 豆包办公的 logo 就不好看，不像 3D ，又不像 2D 。 软件看不出和标准版豆包有啥区别，界面也没 traework 好看。 官网也不好看，很简陋，为什么不学学千问 AI 平台（从阿里云剥离出来，专门服务大模型业务）。 千问办公的风格就是字很小，有时候还很糊，挤在一起，官网也是这样。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237302#reply2
+
+---
+
+#### 9586. [V2EX] 长对话模型上下文暴增，如何压缩上下文？
+
+**问题描述 / Problem Description**:
+基于单一长需求持续对话，模型上下文很容易跑到几十万 Token 。 背景： 模型：DeepSeek V4 Pro （ 1M 上下文） 不限额不考虑费用（公司报销），也不在乎延迟， 只追求最高质量的回复与代码准确率 。 疑问： 压缩时机： 按比例固定压缩，比如上下文到达 50%主动压缩？ 压缩方式： OpenCode 的 /compact 指令是否靠谱？会丢失关键信息吗？ 替代方案： 如果不压缩上下文，是自己拆分任务吗？有合适的工具或流程吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237292#reply11
 
 ---

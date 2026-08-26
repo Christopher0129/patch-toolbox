@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3069**
+**总计条目 / Total entries: 3091**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -55550,5 +55550,357 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8675-1
+
+---
+
+#### 3070. CVE-2026-79654 - ketello: Katello Content View History API Cross-Organization Authorization Bypass
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ketello: Katello Content View History API Cross-Organization Authorization Bypass. Bugzilla: 2523348
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523348
+
+---
+
+#### 3071. CVE-2026-63075 - openssl: QUIC ACK-only packet retention can cause memory exhaustion
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: QUIC ACK-only packet retention can cause memory exhaustion. Bugzilla: 2517570
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517570
+
+---
+
+#### 3072. CVE-2026-80182 - keystone: keystone: Delegated token scope restrictions not consistently enforced…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keystone: keystone: Delegated token scope restrictions not consistently enforced across trust, OAuth1, and application credential endpoints. Bugzilla: 2517801
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517801
+
+---
+
+#### 3073. CVE-2026-80184 - keystone: keystone: Application credential tokens can escape project scope via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keystone: keystone: Application credential tokens can escape project scope via token-method reauthentication. Bugzilla: 2517802
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517802
+
+---
+
+#### 3074. CVE-2026-78360 - anitya: anitya: missing authorization check in delete_user allows any…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] anitya: anitya: missing authorization check in delete_user allows any authenticated user to delete arbitrary users. Bugzilla: 2521819
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521819
+
+---
+
+#### 3075. CVE-2026-79717 - galaxy_ng: galaxy_ng: blind SSRF via namespace avatar_url with no private-address…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] galaxy_ng: galaxy_ng: blind SSRF via namespace avatar_url with no private-address restriction. Bugzilla: 2523431
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523431
+
+---
+
+#### 3076. CVE-2026-59183 - openexr: OpenEXR: Integer Overflow Vulnerability Leading to Application Crash
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openexr: OpenEXR: Integer Overflow Vulnerability Leading to Application Crash. Bugzilla: 2523187
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523187
+
+---
+
+#### 3077. CVE-2026-55373 - openexr: OpenEXR: Denial of Service via infinite loop in sample count processing.
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openexr: OpenEXR: Denial of Service via infinite loop in sample count processing.. Bugzilla: 2523181
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523181
+
+---
+
+#### 3078. CVE-2026-55371 - openexr: OpenEXR: Denial of Service via NULL pointer dereference in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openexr: OpenEXR: Denial of Service via NULL pointer dereference in exr_attr_set_bytes(). Bugzilla: 2523180
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523180
+
+---
+
+#### 3079. CVE-2026-55059 - OpenEXR: OpenEXR: Heap out-of-bounds write leads to denial of service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenEXR: OpenEXR: Heap out-of-bounds write leads to denial of service. Bugzilla: 2523179
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523179
+
+---
+
+#### 3080. CVE-2026-54920 - openexr: OpenEXR: Denial of Service via crafted HTJ2K-compressed EXR file
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openexr: OpenEXR: Denial of Service via crafted HTJ2K-compressed EXR file. Bugzilla: 2523178
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523178
+
+---
+
+#### 3081. CVE-2026-18798 - openssl: QUIC server may trigger double free when processing INITIAL packet
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: QUIC server may trigger double free when processing INITIAL packet. Bugzilla: 2517559
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517559
+
+---
+
+#### 3082. CVE-2026-63072 - openssl: heap buffer overflow in CMS key unwrapping
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: heap buffer overflow in CMS key unwrapping. Bugzilla: 2517560
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517560
+
+---
+
+#### 3083. CVE-2026-63076 - openssl: invalid pointer dereference in CMP server via crafted protectionAlg
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: invalid pointer dereference in CMP server via crafted protectionAlg. Bugzilla: 2517561
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517561
+
+---
+
+#### 3084. CVE-2026-14457 - openssl: RPK server signature algorithm selection can dereference a missing…
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: RPK server signature algorithm selection can dereference a missing certificate. Bugzilla: 2517562
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517562
+
+---
+
+#### 3085. CVE-2026-54874 - openssl: excessive memory use buffering DTLS records for a future epoch
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: excessive memory use buffering DTLS records for a future epoch. Bugzilla: 2517564
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517564
+
+---
+
+#### 3086. CVE-2026-63073 - openssl: untrusted sender DN used as format string in CMP response validation
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openssl: untrusted sender DN used as format string in CMP response validation. Bugzilla: 2517565
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517565
+
+---
+
+#### 3087. [Ubuntu] USN-8682-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Vitaly Simonovich discovered that Bind could exhaust memory during GSS-API TKEY negotiation. A remote attacker could possibly use this issue to cause Bind to use excessive resources, leading to a denial of service. (CVE-2026-3039) Shuhan Zhang discovered that Bind incorrectly handled self-pointed glue records. A remote attacker could possibly use this issue to use Bind in denial of service amplifi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8682-1
+
+---
+
+#### 3088. [Ubuntu] USN-8681-1: OpenJDK 25 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the JSSE component of OpenJDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-46968) It was discovered that the JSSE component of OpenJDK 25 did not correctly authorize users. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-46917) It was discovered tha
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8681-1
+
+---
+
+#### 3089. [Ubuntu] USN-8659-4: Linux kernel (Oracle) vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch;
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8659-4
+
+---
+
+#### 3090. [Ubuntu] USN-8680-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Adrian Junge discovered that FFmpeg incorrectly handled certain subtitle data. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-70628) Adrian Junge discovered that FFmpeg incorrectly handled certain video files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8680-1
+
+---
+
+#### 3091. [Ubuntu] USN-8679-1: Vim vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Vim incorrectly handled certain tags files. An attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8679-1
 
 ---

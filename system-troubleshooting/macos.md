@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9078**
+**总计条目 / Total entries: 9118**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -122314,5 +122314,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1236934#reply56
+
+---
+
+#### 9079. [V2EX] TOP 性价比 mac computer 购买咨询
+
+**问题描述 / Problem Description**:
+背景： 给亲戚(大表姐)购买电脑，使用场景： a. 现在及以后也不会玩游戏 b. 看看网页+简单办公使用 c. 有小孩子快要上初中，可能也会简单用一用 d. 会使用 windows ，有 iPhone 和 ipad ，还没有使用过 macos 系统 限制： i. 不会自行修电脑，电脑硬件知识储备是零。电脑不坏最好，坏了只能去维修店割肉。 j. 穷，得最高性价比。能 3k 搞定就绝不花 3.1k 。 预期： 打算购买 3 月份的 apple neo MacBook 。 咨询： 是否有其他的推荐？或者您是否愿意割羊毛出售自己的二手电脑（别坑我, tg: @hai_lv_tg ）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237058#reply16
+
+---
+
+#### 9080. [V2EX] LaunchOS 评测：把被苹果砍掉的 Launchpad，重新带回 macOS 26
+
+**问题描述 / Problem Description**:
+以前大家嫌 Launchpad 不好用，觉得它不过是把 Applications 文件夹里的应用铺成一个大网格，像 iOS 的主界面一样占满整个屏幕。结果 Apple 在 macOS 26 里真把它删了，换成了一款叫“App”的应用——很多人（包括我自己）反而开始怀念它了。 原因很简单：有些人靠视觉记忆工作，记住一个图标的位置比在 Spotlight 里敲名字快得多。我自己每换一台新 Mac ，都要花半个小时把应用按老样子重新排列进 Launchpad 。失去了 Launchpad 之后难受了几周，直到第三方解决方案陆续出现。 其中有一款从发布之初就备受关注—— LaunchOS ，来自 Re
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237011#reply21
+
+---
+
+#### 9081. [V2EX] Mac mini 用了三年，日均写入 600GB，请问有异常吗
+
+**问题描述 / Problem Description**:
+开机时间 110 天左右，写入 55TB 最近一次开机 6 天，写入 2.46TB 活动监视器截图如下 我是 512G 的 m2pro mac mini ，16G 内存。 感谢回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236897#reply15
+
+---
+
+#### 9082. [V2EX] 微信你能不能不要给正常人喂精神病药物？💊
+
+**问题描述 / Problem Description**:
+微信一个正常人是不会不小小按到 Command+Q 的，长按才能退出？不如我给你一个更好的💡idea ，看个 30 秒广告才能退出好不好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236701#reply26
+
+---
+
+#### 9083. [V2EX] 你键盘上的 numLock 在 mac 上终于有救了
+
+**问题描述 / Problem Description**:
+跟风搞了个 mac mini 。连上我心爱的全尺寸，非 mac 键盘，妈呀，小键盘上的 numlock 键不管用！小键盘只能输入数字。 使用小键盘上的箭头是我几十年使用 windows 的肌肉记忆，改是真难。 查了下网上，11 年前就有人在问怎么办，居然到现在也没解决方案。 是的，经典的 numlock 和 scroll lock 灯也点不亮。新键盘感觉跟坏了似的。 找不到解决方案就自己做，这不做出来了，体验完美！ https://numlockled.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237499#reply0
+
+---
+
+#### 9084. [V2EX] iPhone Ultra 预计多少钱起步，老婆已经开始讨了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237460#reply4
+
+---
+
+#### 9085. [V2EX] 最先受到新款 Mac Studio 冲击的会是哪个产品，后续如何？
+
+**问题描述 / Problem Description**:
+个人认为是 DGX Spark ，这款产品的带宽砍的实在是有点狠。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237443#reply4
+
+---
+
+#### 9086. [V2EX] 非国区 Apple id 无法下载抖音的解决办法
+
+**问题描述 / Problem Description**:
+如果 Apple id 不在国区，且 Apple 分流规则全局不是 DIRECT 的前提下，更新抖音是会提示： app not available this app is unvailable in the country or region you're in 解决办法是，把下面这个分流规则加到你的规则中，抖音可以顺畅更新 DOMAIN, downloaddispatch.itunes.apple.com , DIRECT
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237417#reply0
+
+---
+
+#### 9087. [V2EX] 要来了，要来了，苹果 18 系列，九月九号开发布会
+
+**问题描述 / Problem Description**:
+不知道各位大佬有没有换机的打算，准备换那个型号的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237359#reply15
+
+---
+
+#### 9088. [V2EX] 新款 mac mini 发布了， 我买了个抛光布
+
+**问题描述 / Problem Description**:
+之前的 145 价格嫌贵，69 块觉得可以接受，笑死，于是入了，刚刚收到短信，已发货，明天送到，到时候看看怎么样的效果，主要是给我的 16 寸 2022 年买入的 macbook pro m1 用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237358#reply16
+
+---
+
+#### 9089. [V2EX] Mac Mini M6 价格将近 7K, iMac M6 是否有性价比
+
+**问题描述 / Problem Description**:
+纯丐版玩家，打算入手一个新的看视频，今年是否应该考虑 iMac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237303#reply5
+
+---
+
+#### 9090. [V2EX] [送码] Pooka，一款 macOS 快速启动 App
+
+**问题描述 / Problem Description**:
+快捷键呼出面板，鼠标悬停，松开按键即可快速打开 App 。 支持多种呼出方式，支持首字母快速检索 希望能找到有此类需求的 v 友。 兑换码 30 个奉上 KE6KHL6E6HFFPTTPYA 6NN4AMH6N6NNLXYJAE 4J6A87TRY66L6343JY 7688Y4YT3XTH8WAMTR P67YLXALWRF6AJPR6N EMKYJH8Y3AKAEARWYL X66W8H6Y7FLJ7ENY87 K4ELEMEWRH4WL7AL8F TWE4MNX3RLREA7PRRE AAA4AYTWT66M36M4HA TTJ748LM836ELT6ETY P6WT4RLTTPYN8P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237285#reply59
+
+---
+
+#### 9091. [V2EX] 关于 Apple ID 切换区域后，遇到 iCloud 订阅问题。
+
+**问题描述 / Problem Description**:
+各位大佬求助一下～ 问题描述：一开始我的 Apple ID 是港区，正常订阅港区的 iCloud+50G 的，每个月 8 块港币。因为想使用 Apple one ，所以把 iCloud+订阅给取消掉。港区 iCloud+是每个月的 4 号自动扣款，我是在 7 月 28 日取消了港区订阅，也有收到 Apple services 的退款。取消订阅之后，修改 Apple ID 账户地区，转到马来西亚，并且加入现在在使用的家庭组使用 Apple one 服务。在使用不久后，我的 Apple ID 的「付款与配送」页面提醒我有一个未支付的 iCloud+港区订单，马来西亚的支付方式不能支付。 解决措施：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237264#reply1
+
+---
+
+#### 9092. [V2EX] Apple 秋季发布会将于 9 月 8 日凌晨 1 点召开
+
+**问题描述 / Problem Description**:
+据悉，苹果已向多家媒体发送邀请函，将于太平洋时间 9 月 8 日上午 10 点（北京时间 9 月 9 日凌晨 1 点）举办新品发布会，有望推出 iPhone 18 Pro、iPhone 18 Pro Max 以及苹果首款折叠手机（上市后预估名为 iPhone Ultra）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237243#reply2
+
+---
+
+#### 9093. [V2EX] macmini 出来了买什么配置呢？
+
+**问题描述 / Problem Description**:
+M6 是不是没啥提升啊？ M5pro 48G 1T 版本怎么样？跑本地大模型效果如何？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237240#reply62
+
+---
+
+#### 9094. [V2EX] Mac mini M6 国行起售价 6999
+
+**问题描述 / Problem Description**:
+https://www.apple.com.cn/shop/buy-mac/mac-mini 消费电子成理财产品了（老人地铁手机.gif)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237235#reply31
+
+---
+
+#### 9095. [V2EX] 卧槽，苹果上新了，更新了 Mac mini6 和 Mac mini5 Pro
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237192#reply9
+
+---
+
+#### 9096. [V2EX] 苹果发布 2nm 芯片 M6 与 M5 Ultra， Mac mini 和 Studio 更新
+
+**问题描述 / Problem Description**:
+苹果发布了首款 2 纳米芯片 M6 和 M5 Ultra 。 Mac mini 已经开启预购，9 月 22 日开卖。这次分两档，M6 版 899 美元起，配 12 核 CPU 和 12 核 GPU ，带双 16 核神经引擎。M5 Pro 版 1699 美元起，提供两个带 16 核神经引擎的选项，内存选项更高。 页面介绍 M6 和 M5 Pro 让所有操作感觉格外灵敏。Mac mini 首次在 GPU 中加入神经加速器，用来加快各种 AI 任务。 目前国行网页还没更新。 Mac Studio 更新了 M5 Max 和 M5 Ultra 。苹果称 M5 Max 和 M5 Ultra 是苹果迄今最强
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237172#reply9
+
+---
+
+#### 9097. [V2EX] 今年新苹果发布会， OS 27 有没有希望把 iPhone Air 这个弱智 esim 限制给解除
+
+**问题描述 / Problem Description**:
+去年 11 月买的，当时没研究明白这个 esim 规则 我的情况是，常年出国旅游，买的国行 Air ，并且注册了两张国内卡 于是我每次出国都得注销一张国内卡，然后回国第一时间去营业厅补办，可能还要花 5 块钱。真鸡巴给我恶心完了 未来还有没有希望？ 这 esim 是真的整的比实体还麻烦了 工信部这些司马老登，鸡毛不懂就知道这卡那卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237112#reply34
+
+---
+
+#### 9098. [V2EX] 1Password 绝版 10 人家庭车
+
+**问题描述 / Problem Description**:
+1Password 长期优惠绝版家庭套餐 10 人下车一位！有需要的么？每人每年 6 美元约合 41 人民币！今天刚续费一年！需要的联系头像中电报！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236898#reply5
+
+---
+
+#### 9099. [V2EX] 歌词总是快半拍或慢半拍，怎么调回来？
+
+**问题描述 / Problem Description**:
+有歌词，不等于歌词一定能跟上歌。 有时人声还没唱到，下一句已经亮了；有时一句都快唱完，歌词才慢吞吞地跟上。重新找一份歌词当然可以，但如果只是固定快了半秒或慢了一秒，先调时间偏移更省事。 静听 2.3.0 可以单独保存一首歌的歌词偏移。你不需要修改 LRC 文件里的每个时间标签，只要判断歌词是早了还是晚了，再把整条时间轴往前或往后挪一点。 先别急着点加减，判断歌词是早了还是晚了 最容易弄反的就是这一步。 如果歌词先亮，人声过一会儿才唱到，说明歌词出现得太早，需要选“− 延后”。 如果人声已经唱出来，歌词才亮，说明歌词来晚了，需要选“+ 提前”。 可以记成一句话： + 把歌词往前赶， − 让歌词晚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237487#reply1
+
+---
+
+#### 9100. [V2EX] 做了个 AI Agent 插件自动聚合目录（DeepSeek Harness + Codex）
+
+**问题描述 / Problem Description**:
+DeepSeek Harness (dsh) 开源一周 183k stars ，插件生态爆发但发现机制只有 GitHub topic （ 10,000+ 仓库），没法用。 做了一个自动聚合目录： 150 个 dsh 插件 + 200 个 Codex 插件，按 GitHub stars 排序 每天 cron 自动拉最新数据，有变化才重新部署 120 个静态页面，零 JS 框架负担，带 llms.txt Cloudflare Pages 免费托管 地址： https://agentplugins-2v1.pages.dev/ 数据管道：GitHub API 搜 topic:dsh-plugin 按
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237475#reply0
+
+---
+
+#### 9101. [V2EX] 和 MikroTik 官方沟通后，我理解了什么叫好的开发者氛围
+
+**问题描述 / Problem Description**:
+这次和 MikroTik 官方技术支持沟通，确实让我感受到一种很舒服的开发者氛围。 遇到问题之后，没有一句“无法复现”就把用户打发掉，也没有反复怀疑是不是配置问题。工程师会认真看现象、自己搭环境复现，复现出来以后直接承认：问题确实存在，目前还没有修复，但后续会尝试解决。 其实开发者最怕的从来不是软件有 Bug 。 任何复杂的软件都会有 Bug ，真正拉开差距的，是面对 Bug 时的态度。 能够复现就承认，暂时解决不了就明确告诉你，没有发布日期就直接说没有，而不是推诿、绕圈、甩锅给用户。用户提供的日志、测试结果和排查过程，也会被当成有价值的信息认真对待。 这种沟通方式会让人感觉：用户和开发者是在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237469#reply3
+
+---
+
+#### 9102. [V2EX] claude 关闭了， LemonMonitor 却在请求 claude.ai
+
+**问题描述 / Problem Description**:
+mac 系统 刚才想更换个网络，就把 claude 全关了 在网了监控中想看看是否存在一些 claude 链接没关闭的。 结果发现有个请求几秒发送一次，但是我的 claude 都关闭了。 我让 codex 帮我排查发现， 戏剧性的来了，我把下面结论发送到某 do ，结果，结果被举报了删除了 ： 已定位： LemonMonitor.850 是「腾讯柠檬清理（ Tencent Lemon Cleaner ）」的状态栏后台组件，不是 Claude 。它负责状态栏监控、网速/内存/磁盘等功能，通常会随登录常驻运行。 你的 Claude 请求实际是： LemonMonitor → downloads.c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237445#reply4
+
+---
+
+#### 9103. [V2EX] 韩国可爱风格照片生成
+
+**问题描述 / Problem Description**:
+使用说明：打开网址，然后点击生成，然后上传图片等待 网址： https://chatgpt.com/g/g-6a5007a 719948191add3cf261499f4ea-b biddulbbaeddul-gongbang-by-gy eouljagga-hansijeog-gonggae 效果图在 1 楼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237416#reply2
+
+---
+
+#### 9104. [V2EX] 摩拜单车之前充 299 押金没退的可以去尝试退下
+
+**问题描述 / Problem Description**:
+反馈： 摩拜共享单车以前冲直过 299 押金没退的 可以退了，路径👇 美团 -首页-更多服务-骑车-我的-设置-押金
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237409#reply10
+
+---
+
+#### 9105. [V2EX] 抽空开发了一款类角色扮演的小程序，欢迎来玩，可陶冶个人情操噢
+
+**问题描述 / Problem Description**:
+如题，由于软著审核进度缓慢且非常严格问题，app 尚未上线，最近上线了微信小程序，智者来也——与历史上最具智慧的人交友和对话。在这里，中华历史上最具智慧的先贤触手可及。与他们畅聊人生、诗词与思想，聆听跨越千年的回响。wx 小程序码:#小程序://智者来也/KUotTHm4IjndqpA
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237408#reply0
+
+---
+
+#### 9106. [V2EX] 突然发现自己的账户余额出现了 0.1 铜
+
+**问题描述 / Problem Description**:
+一直以为 V 站账户系统最小单位是 1 铜 很好奇为什么会这么有零有整的 然后看了下账户余额变化 发现不同字数的回帖消耗的铜币数量是不同的 未被降权的账号，正常回复一条是 5 铜 创建了长度为 1102 个字符的回复，消耗的铜币是 11.02 铜 很是有点意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237380#reply0
+
+---
+
+#### 9107. [V2EX] 在 Win 下 Alt 键大多数情况下就相当于 ESC 键
+
+**问题描述 / Problem Description**:
+在绝大多数情况下，按 alt 键就相当于按 ESC 键的同样的效果，例如鼠标右键展开菜单，可以按 alt 键达到和按 esc 键一样的撤销操作，关闭菜单效果。利用这一特性，很多需要按 esc 键的时候，可以更快更轻松的大拇指轻压 alt 键实现同样效果。 ESC 键更快捷的平替，底部的两个 Alt 键
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237345#reply0
+
+---
+
+#### 9108. [V2EX] 语音输入法还有很多进步空间.
+
+**问题描述 / Problem Description**:
+这两天玩语音输入法,用的很爽，但是有一些小问题。比如，在中英文混合输入的时候，明显感觉英文的识别能力差很多。然后就是标点符号使用的也不是很正确。尤其是在你长时间停顿的情况下，它会自动给你打上一个逗号。我现在使用的是豆包语音输入法。 test: Defi llama、 defi swap、 get up、 markdown 我刚才输入的这些英文单词，其中就错在了两个。迪拜 llama 应该是一个词语，然后 get up 我说的是 get hub，可能这个就是我说的问题了。 说明: 我尝试说了三次 GitHub，但是都没有识别成功。这也说明在单次使用单个单词的时候，还是出错率很高的，无法正确识别一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237331#reply8
+
+---
+
+#### 9109. [V2EX] codex 小刘鸭 pet
+
+**问题描述 / Problem Description**:
+一只梨形身材、嘴硬又俏皮的小刘鸭，正式入驻你的 Codex 。 在这个大佬的作品（ https://linux.do/t/topic/2637728 ）基础上进行的优化，大佬的作品没有处理好图像对齐问题，导致动画会横向漂移，我优化了一下。 通过网盘分享的文件：xiaoliuya_final.zip 链接: https://pan.baidu.com/s/135jXdOFT2vzcanIX18Dy4w?pwd=kga5 提取码: kga5 复制这段内容后打开百度网盘手机 App ，操作更方便哦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237315#reply0
+
+---
+
+#### 9110. [V2EX] 豆包输入法有跨设备了
+
+**问题描述 / Problem Description**:
+群里看到的，应该是内测版吧？又少一个用微信输入法的理由
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237310#reply9
+
+---
+
+#### 9111. [V2EX] producthunt 和 git trending 每天看下来有点审美疲劳了，都是 AI
+
+**问题描述 / Problem Description**:
+看来看去都是 AI 相关的，点进去的东西 AI 味道也很重。产品向审美疲劳了，UI 向审美更疲劳了。 大家有看到一些比较惊艳的东西吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237261#reply1
+
+---
+
+#### 9112. [V2EX] 最近 vibe 了一些网站，冷启动不知道往哪提外链，求分享
+
+**问题描述 / Problem Description**:
+最近 vibe 了几个网站，开发倒是越来越快，但上线之后才发现， 冷启动比开发更头疼 。 新站基本没自然流量，所以最近开始集中收集外链渠道。 目前找到几个比较方便的合集 / 工具： https://github.com/flaqai/backlink_skills https://www.lxx.ai/backlinks （社群分享，兑换码： GEFEI ） https://blinklib.com/zh/backlink-resources https://backlinkpilot.com/ 我自己目前比较关注的高权重渠道有： 导航 / 产品站： Product Hunt 、Alterna
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237252#reply1
+
+---
+
+#### 9113. [V2EX] stealth/ox-alpha 牛来模型使用感受
+
+**问题描述 / Problem Description**:
+这两天重度尝试使用了一下神秘的牛来模型，整体感觉其实还不错的，通过 claude code 执行长任务没啥大问题，最终的产出也相对符合预期，虽然在难任务上不及 gpt5.6 sol 和 opus5 ，但是可以感受到也是一个相当不错的模型了。 听说是智谱的模型，期待能够尽早揭开神秘面纱。 邀请注册有奖励： https://y-api.bestvirtualgoods.com/zh/login?aff=DNTXWYCU
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237201#reply1
+
+---
+
+#### 9114. [V2EX] 卧槽 codex 又重置了 而且加了 5 小时限制
+
+**问题描述 / Problem Description**:
+刚刚发现重置的，关键的是加了 5 小时限制。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237193#reply3
+
+---
+
+#### 9115. [V2EX] 毛利率 87%， BOSS 直聘赚翻了，但我们却越来越难找工作
+
+**问题描述 / Problem Description**:
+刚看了一下 BOSS 直聘最新一季度的财报数据，有几个数据值得注意：毛利率高达 86.97%， 移动端 MAU 破 7,020 万，而同期付费企业客户数是 720 万，算下来求职者和付费企业的比例接近 10:1 。 内卷的最大赢家竟是一个招聘网站，吃到了所谓的“人才红利”。 来源
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237178#reply12
+
+---
+
+#### 9116. [V2EX] 新款 Mac Mini 来了， 现搭载 M6 或 M5 Pro
+
+**问题描述 / Problem Description**:
+新款 Mac Mini 来了， 现搭载 M6 或 M5 Pro https://www.apple.com.cn/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237174#reply5
+
+---
+
+#### 9117. [V2EX] 语言学习 - 日本人是如何学英语的
+
+**问题描述 / Problem Description**:
+背景 今天跟 AI 的闲聊，注意到日本的认知基础措施极佳。 中国里面受审查之类的影响，一本书要出来的周期什么的很长。 总之，中国境内要接触到高质量信息，不方便。 小红书的那些内容，大量重包装而轻逻辑。没有东西。 总给我一种，我们这片土地的认知基础措施很差的感觉。 一般人们的认知、素养可能会下限很低的感觉也不由得生出来了一些。 日本那里没有防火墙。 总之，那里的人基础认知、取得高质量信息的方便程度，远高于中国。 一个长期能取得高质量信息的地方，还有劳动法能起效的安全地方。 我觉得这里面，如果有人想当极客，有个安全的盾（低工资+996 、35 岁），还有锋利的剑（可合法取得高质量信息），上限很可能
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237165#reply23
+
+---
+
+#### 9118. [V2EX] 我终于找到了缓解失眠的方法，亲测有效，立竿见影
+
+**问题描述 / Problem Description**:
+就是有点费钱。睡前喝三两茅台，延长睡眠俩小时。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237150#reply4
 
 ---
