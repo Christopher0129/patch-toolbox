@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9118**
+**总计条目 / Total entries: 9180**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -122834,5 +122834,811 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237150#reply4
+
+---
+
+#### 9119. Apple/MacOS desperately has to step up their resolution scaling and monitor support for Mac Mini and Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzpdds/applemacos_desperately_has_to_step_up_their/
+
+---
+
+#### 9120. Still reminiscing about Mavericks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzvqua/still_reminiscing_about_mavericks/
+
+---
+
+#### 9121. Just realized that Siri AI can see what's on your screen without you explicitly sharing it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzqkw2/just_realized_that_siri_ai_can_see_whats_on_your/
+
+---
+
+#### 9122. Is a scam staring me in the face or am overreacting?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzudr3/is_a_scam_staring_me_in_the_face_or_am/
+
+---
+
+#### 9123. "sysmond" has malware?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzxwxc/sysmond_has_malware/
+
+---
+
+#### 9124. This iMac in my college library
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzw0lp/this_imac_in_my_college_library/
+
+---
+
+#### 9125. SOLVED: exFAT folders missing/empty on macOS + “Invalid argument,” but files work in Windows — bypassing Apple’s exFAT driver fixed it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzl7ym/solved_exfat_folders_missingempty_on_macos/
+
+---
+
+#### 9126. Apple Event Announced for September 9: 'Surprise and Shine'
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vz4re9/apple_event_announced_for_september_9_surprise/
+
+---
+
+#### 9127. PDFs rarely open in Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzuidn/pdfs_rarely_open_in_safari/
+
+---
+
+#### 9128. Leveraging asymmetric cores and the new M6, 3 types of cores!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzl378/leveraging_asymmetric_cores_and_the_new_m6_3/
+
+---
+
+#### 9129. 26.6.2 dark wake error
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzyb7i/2662_dark_wake_error/
+
+---
+
+#### 9130. Is there any way to programatically change wallpapers?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzrfd3/is_there_any_way_to_programatically_change/
+
+---
+
+#### 9131. Apps won't open
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzoqej/apps_wont_open/
+
+---
+
+#### 9132. Any way to make Spotlight useful?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzrzx5/any_way_to_make_spotlight_useful/
+
+---
+
+#### 9133. Wallpapers like iPhone creates
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzqgtp/wallpapers_like_iphone_creates/
+
+---
+
+#### 9134. Recently bought a macbook air m3
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzp29l/recently_bought_a_macbook_air_m3/
+
+---
+
+#### 9135. How can I switch apps on Google Remote Desktop on macos if moving the mouse to the bottom is captured by local machine? Using a regular mouse and keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzoxif/how_can_i_switch_apps_on_google_remote_desktop_on/
+
+---
+
+#### 9136. Any way to download Sequoia 15.6 specifically?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzvuaq/any_way_to_download_sequoia_156_specifically/
+
+---
+
+#### 9137. Golden Gate and Improved Monitor Colors
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzo9xy/golden_gate_and_improved_monitor_colors/
+
+---
+
+#### 9138. What can't Apple be consistent with closing their own software?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vz3e9q/what_cant_apple_be_consistent_with_closing_their/
+
+---
+
+#### 9139. MacOS closing window behavior issue?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzmgvj/macos_closing_window_behavior_issue/
+
+---
+
+#### 9140. SSDs on all night?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzlpzr/ssds_on_all_night/
+
+---
+
+#### 9141. Close Anydesk when pressing the close button.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzqict/close_anydesk_when_pressing_the_close_button/
+
+---
+
+#### 9142. macOS Tahoe 26.6.2..
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzyrh8/macos_tahoe_2662/
+
+---
+
+#### 9143. Anyone from a Windows background? I still hate MacOS after having used it for over half a year
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1vzz6k2/anyone_from_a_windows_background_i_still_hate/
+
+---
+
+#### 9144. [V2EX] TOP 性价比 mac computer 购买咨询
+
+**问题描述 / Problem Description**:
+背景： 给亲戚(大表姐)购买电脑，使用场景： a. 现在及以后也不会玩游戏 b. 看看网页+简单办公使用 c. 有小孩子快要上初中，可能也会简单用一用 d. 会使用 windows ，有 iPhone 和 ipad ，还没有使用过 macos 系统 限制： i. 不会自行修电脑，电脑硬件知识储备是零。电脑不坏最好，坏了只能去维修店割肉。 j. 穷，得最高性价比。能 3k 搞定就绝不花 3.1k 。 预期： 打算购买 3 月份的 apple neo MacBook 。 咨询： 是否有其他的推荐？或者您是否愿意割羊毛出售自己的二手电脑（别坑我, tg: @hai_lv_tg ）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237058#reply17
+
+---
+
+#### 9145. [V2EX] LaunchOS 评测：把被苹果砍掉的 Launchpad，重新带回 macOS 26
+
+**问题描述 / Problem Description**:
+以前大家嫌 Launchpad 不好用，觉得它不过是把 Applications 文件夹里的应用铺成一个大网格，像 iOS 的主界面一样占满整个屏幕。结果 Apple 在 macOS 26 里真把它删了，换成了一款叫“App”的应用——很多人（包括我自己）反而开始怀念它了。 原因很简单：有些人靠视觉记忆工作，记住一个图标的位置比在 Spotlight 里敲名字快得多。我自己每换一台新 Mac ，都要花半个小时把应用按老样子重新排列进 Launchpad 。失去了 Launchpad 之后难受了几周，直到第三方解决方案陆续出现。 其中有一款从发布之初就备受关注—— LaunchOS ，来自 Re
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237011#reply23
+
+---
+
+#### 9146. [V2EX] Mac Studio 苹果刀法精准
+
+**问题描述 / Problem Description**:
+苹果这次备货挺足的，就是发货时间比较长。 选 M5 MAX 128G 的用户占比应该会比较多，算是性价比高的一款。 Mac Studio 刀法精准，M5 MAX 最高给到 128g ，M5 Ultra 给你 96g ，不给 128g 让你感觉很鸡肋，直接跳到 256g ，跨度大。就赌你在不想选低一个档的芯片跟内存带宽情况下，咬牙上 256g 要漫长等待了，10 月 24 日才发货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237731#reply0
+
+---
+
+#### 9147. [V2EX] 上周五美区买了个 apple 礼品卡，到现在也没收到
+
+**问题描述 / Problem Description**:
+上周五在美区买了个礼品卡，收卡邮箱域名不小心拼错了 gmail 拼成了 gamil 然后联系销售客服修改正确邮箱并发送。周日、周二和昨天分别联系了 3 次，都说已修正 24H 会发出。到现在还没收到。。。 是不是没戏了，有大佬懂的嘛😂 就怪自己手输错误 唉。。还好只有$20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237659#reply17
+
+---
+
+#### 9148. [V2EX] 9 月苹果新机价格一览
+
+**问题描述 / Problem Description**:
+图片来自群友提供，仅供参考，不得不说今年涨价太严重，非常的溢价了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237650#reply7
+
+---
+
+#### 9149. [V2EX] 有买了 24g 内存后悔的吗
+
+**问题描述 / Problem Description**:
+PO 还没买，目前纠结于 24g 内存和 48g 内存。网上一搜从 16g 够用到 64g 才够什么答案都有。那我反过来问，有人买了 24g 内存但后悔没买更多吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237641#reply85
+
+---
+
+#### 9150. [V2EX] iPhone12 在 Applestore 新换的电池要不要升级 iOS27 beta7？
+
+**问题描述 / Problem Description**:
+现在是 26.6.1 听说 iOS27 优化不少，想赶紧逃离 iOS26
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237622#reply21
+
+---
+
+#### 9151. [V2EX] iPhone 上好用的软件分享
+
+**问题描述 / Problem Description**:
+前情提要：/t/1236071 刚换了 iphone 17 promax ，之前 iphone11 128G ，动不动，就自动卸载软件保存到云端（磁盘空间不够。） 现在空间够，想请教各位，有没有一些好用的软件，我先列下我当前安装的软件。 小火箭 X tg facebook 微信 无边记 极客时间 熊猫吃短信 飞书 什么值得买 银行类 APP 同花顺 网易云音乐 滴滴 雅迪智行 欢迎各位补充和推荐。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237614#reply9
+
+---
+
+#### 9152. [V2EX] mac-studio M5 Max36G+512G 丐版没有什么性价比啊，一直是可以预定的状态
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237568#reply5
+
+---
+
+#### 9153. [V2EX] 苹果新系列价格出来了，差不多就是这样了。你们觉得如何？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237540#reply28
+
+---
+
+#### 9154. [V2EX] Mac Studio M3 Ultra 这下该降价了吧
+
+**问题描述 / Problem Description**:
+看淘宝上 256G 的目前最便宜的都要 8.5 万，现在新的 M5 Ultra 9 万不到，性能至少有 30-50% 的提升，这个倒挂应该很快就要没了。 官网目前要 10-12 周发货，得到 11 月下旬才能到货了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237536#reply0
+
+---
+
+#### 9155. [V2EX] 兄弟们，预测下今年的 18P 和 18PM 首发会好抢一些吗？有折叠分流
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237526#reply34
+
+---
+
+#### 9156. [V2EX] 兄弟们都预定了什么配置的新 mac
+
+**问题描述 / Problem Description**:
+预定了 mac mini m6 ，32+1T+10G 网口，14499
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237511#reply98
+
+---
+
+#### 9157. [V2EX] 你键盘上的 numLock 在 mac 上终于有救了
+
+**问题描述 / Problem Description**:
+跟风搞了个 mac mini 。连上我心爱的全尺寸，非 mac 键盘，妈呀，小键盘上的 numlock 键不管用！小键盘只能输入数字。 使用小键盘上的箭头是我几十年使用 windows 的肌肉记忆，改是真难。 查了下网上，11 年前就有人在问怎么办，居然到现在也没解决方案。 是的，经典的 numlock 和 scroll lock 灯也点不亮。新键盘感觉跟坏了似的。 找不到解决方案就自己做，这不做出来了，体验完美！ https://numlockled.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237499#reply4
+
+---
+
+#### 9158. [V2EX] iPhone Ultra 预计多少钱起步，老婆已经开始讨了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237460#reply17
+
+---
+
+#### 9159. [V2EX] 最先受到新款 Mac Studio 冲击的会是哪个产品，后续如何？
+
+**问题描述 / Problem Description**:
+个人认为是 DGX Spark ，这款产品的带宽砍的实在是有点狠。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237443#reply9
+
+---
+
+#### 9160. [V2EX] 要来了，要来了，苹果 18 系列，九月九号开发布会
+
+**问题描述 / Problem Description**:
+不知道各位大佬有没有换机的打算，准备换那个型号的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237359#reply32
+
+---
+
+#### 9161. [V2EX] 新款 mac mini 发布了， 我买了个抛光布
+
+**问题描述 / Problem Description**:
+之前的 145 价格嫌贵，69 块觉得可以接受，笑死，于是入了，刚刚收到短信，已发货，明天送到，到时候看看怎么样的效果，主要是给我的 16 寸 2022 年买入的 macbook pro m1 用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237358#reply18
+
+---
+
+#### 9162. [V2EX] Mac Mini M6 价格将近 7K, iMac M6 是否有性价比
+
+**问题描述 / Problem Description**:
+纯丐版玩家，打算入手一个新的看视频，今年是否应该考虑 iMac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237303#reply8
+
+---
+
+#### 9163. [V2EX] [送码] Pooka，一款 macOS 快速启动 App
+
+**问题描述 / Problem Description**:
+快捷键呼出面板，鼠标悬停，松开按键即可快速打开 App 。 支持多种呼出方式，支持首字母快速检索 希望能找到有此类需求的 v 友。 兑换码 30 个奉上 KE6KHL6E6HFFPTTPYA 6NN4AMH6N6NNLXYJAE 4J6A87TRY66L6343JY 7688Y4YT3XTH8WAMTR P67YLXALWRF6AJPR6N EMKYJH8Y3AKAEARWYL X66W8H6Y7FLJ7ENY87 K4ELEMEWRH4WL7AL8F TWE4MNX3RLREA7PRRE AAA4AYTWT66M36M4HA TTJ748LM836ELT6ETY P6WT4RLTTPYN8P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237285#reply65
+
+---
+
+#### 9164. [V2EX] 准备给家里小猫换猫粮，大家有没有推荐
+
+**问题描述 / Problem Description**:
+我家猫六岁，从小吃的麦富迪 barf 当主粮，各种品牌的猫粮都会买来掺一起喂 最近打算换一下主粮，搜出来一堆广，问问大家的小猫都吃什么 有主食猫饭什么的也可以推荐一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237618#reply40
+
+---
+
+#### 9165. [V2EX] 年少不可得之物终将困其一生
+
+**问题描述 / Problem Description**:
+好久没见到 X 的流量这么高的刷屏，孙割也有被割的一天！ ps:Anthropic 的估值还是太低了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237745#reply0
+
+---
+
+#### 9166. [V2EX] 卧槽 正在使劲蹬 codex 又重置了
+
+**问题描述 / Problem Description**:
+整体才用了 50%，刚刚一看，又重置了。啥情况，这几天怎么总时重置，不过有一点挺好，就是这几天都是使劲猛蹬。 主要是优化 skill 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237744#reply0
+
+---
+
+#### 9167. [V2EX] 免费模型汇总
+
+**问题描述 / Problem Description**:
+汇总一下免费模型： Empero （德国实验室，两个都能打） 这是这两天 X 上提得最多的。 站点： https://free.empero.org Base URL： https://free.empero.org/v1 Key：随便填，常用 free 模型：glm-5.3-flash 、qwen3.8-flash （就是 Flash-Next ） 注意：prompt 和回复会记下来（ IP 哈希），用来训他们自己的开源模型。别丢隐私。忙的时候容易 503 ，重试就行。 AIHubMix 站点： https://aihubmix.com/models?q=free Base URL： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237723#reply2
+
+---
+
+#### 9168. [V2EX] 本·拉登 被 Jellyfin 的放到 Cast & Crew 列表里了
+
+**问题描述 / Problem Description**:
+用 Jellyfin 管理《 American Manhunt: Osama bin Laden 》这部 Netflix 纪录片，看到本·拉登出现在 Cast & Crew 里突然有点绷不住，这不对吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237711#reply2
+
+---
+
+#### 9169. [V2EX] 非常简洁的找书聚合平台
+
+**问题描述 / Problem Description**:
+全网搜书搜到崩溃还找不到想要的？ EBOOK ETC ，电子书聚合神器。 这仓库直接把微信读书、京东读书、喜马拉雅的热门内容全给你码一块了，小说、经管、心理、技术各领域都覆盖了。Kindle 、手机、平板通吃，省去转格式的麻烦。 epub 、mobi 、azw3 三种格式全齐， 分类也够细，找书不用翻半天。 🔗 https://github.com/jbiaojerry/ebook-treasure-chest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237703#reply2
+
+---
+
+#### 9170. [V2EX] 公司引入扫地机器人了
+
+**问题描述 / Problem Description**:
+刚才去接水, 发现新装了 2 台普渡 AI 扫地机器人 我们这一层本来有 3 个阿姨打扫卫生 机器人已经开始上岗接替了 ！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237683#reply5
+
+---
+
+#### 9171. [V2EX] 兄弟们加油蹬起来，明天 codex 有可能重置
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237633#reply1
+
+---
+
+#### 9172. [V2EX] 分享下我发送大量通知的过程
+
+**问题描述 / Problem Description**:
+背景 游戏刷新了商品,出现某些商品,通知用户。 邮件 蛋痛的:发件人速率和频次限制。 最多的话:一次 800 封,一天 3200 封。 自建邮局 腾讯云文档： 请确保 TCP 25 端口仅用于连接第三方 SMTP 服务器，并从第三方 SMTP 服务器外发邮件。如发现您直接通过云服务器使用 SMTP 协议发送邮件，腾讯云有权永久封禁 TCP 25 端口，并不再提供相关服务。 是否会进入厂商的垃圾箱? 更严重的,是否可能直接被邮件厂商拒绝? 还需要买 PTR 反向解析 (￥ 300/年),才能解封 25 端。 因此,我没考虑这个了。 腾讯云文档: https://cloud.tencent.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237586#reply7
+
+---
+
+#### 9173. [V2EX] 竖图秒变横屏，网页端刷抖音照片不再“扭脖子”
+
+**问题描述 / Problem Description**:
+我习惯在抖音分享 9：16 的竖版摄影作品，手机横屏看刚刚好，但到了电脑网页端，图片却立着不动——除非把显示器竖过来。 于是做了这个小插件：点击一下，图片旋转 90°，横过来展示，其他功能完全不受影响。 功能极简，只解决一个痛点：让网页端的竖图浏览更舒服。如果你也有同样的小困扰，欢迎试试；有更好的想法，也欢迎 V 友随时交流。 效果展示： 旋转前 https://imgur.com/hHZJbLo 旋转后 https://imgur.com/xMOxT38 GitHub 地址： https://github.com/Charcliu/douyin-chrome-extension
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237584#reply0
+
+---
+
+#### 9174. [V2EX] 朋友母亲,三十分钟,从正常人到植物人,只因为头疼
+
+**问题描述 / Problem Description**:
+身边朋友 大半夜发来消息 说母亲成植物人了,我和几个好朋友赶过去，简单聊了几句,发现起初就是头疼,过了一会就呕吐,十分钟不到,休克了., 送到医院二十分钟 医生说大概率植物人了，抢救三四个小时命保住了,医生说看七天恢复期 ，结果后面过了一个星期问了一嘴.已经办完葬礼了..很可怕。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237583#reply8
+
+---
+
+#### 9175. [V2EX] OpenCEO：企业用 AI 取代程序员？现在程序员可以用 AI 取代老板了
+
+**问题描述 / Problem Description**:
+https://github.com/SenteLabsAI/OpenExecutive Hacker News 的讨论： https://news.ycombinator.com/item?id=49458418
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237575#reply0
+
+---
+
+#### 9176. [V2EX] 歌词总是快半拍或慢半拍，怎么调回来？
+
+**问题描述 / Problem Description**:
+有歌词，不等于歌词一定能跟上歌。 有时人声还没唱到，下一句已经亮了；有时一句都快唱完，歌词才慢吞吞地跟上。重新找一份歌词当然可以，但如果只是固定快了半秒或慢了一秒，先调时间偏移更省事。 静听 2.3.0 可以单独保存一首歌的歌词偏移。你不需要修改 LRC 文件里的每个时间标签，只要判断歌词是早了还是晚了，再把整条时间轴往前或往后挪一点。 先别急着点加减，判断歌词是早了还是晚了 最容易弄反的就是这一步。 如果歌词先亮，人声过一会儿才唱到，说明歌词出现得太早，需要选“− 延后”。 如果人声已经唱出来，歌词才亮，说明歌词来晚了，需要选“+ 提前”。 可以记成一句话： + 把歌词往前赶， − 让歌词晚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237487#reply4
+
+---
+
+#### 9177. [V2EX] 做了个 AI Agent 插件自动聚合目录（DeepSeek Harness + Codex）
+
+**问题描述 / Problem Description**:
+DeepSeek Harness (dsh) 开源一周 183k stars ，插件生态爆发但发现机制只有 GitHub topic （ 10,000+ 仓库），没法用。 做了一个自动聚合目录： 150 个 dsh 插件 + 200 个 Codex 插件，按 GitHub stars 排序 每天 cron 自动拉最新数据，有变化才重新部署 120 个静态页面，零 JS 框架负担，带 llms.txt Cloudflare Pages 免费托管 地址： https://agentplugins-2v1.pages.dev/ 数据管道：GitHub API 搜 topic:dsh-plugin 按
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237475#reply1
+
+---
+
+#### 9178. [V2EX] 和 MikroTik 官方沟通后，我理解了什么叫好的开发者氛围
+
+**问题描述 / Problem Description**:
+这次和 MikroTik 官方技术支持沟通，确实让我感受到一种很舒服的开发者氛围。 遇到问题之后，没有一句“无法复现”就把用户打发掉，也没有反复怀疑是不是配置问题。工程师会认真看现象、自己搭环境复现，复现出来以后直接承认：问题确实存在，目前还没有修复，但后续会尝试解决。 其实开发者最怕的从来不是软件有 Bug 。 任何复杂的软件都会有 Bug ，真正拉开差距的，是面对 Bug 时的态度。 能够复现就承认，暂时解决不了就明确告诉你，没有发布日期就直接说没有，而不是推诿、绕圈、甩锅给用户。用户提供的日志、测试结果和排查过程，也会被当成有价值的信息认真对待。 这种沟通方式会让人感觉：用户和开发者是在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237469#reply5
+
+---
+
+#### 9179. [V2EX] 韩国可爱风格照片生成
+
+**问题描述 / Problem Description**:
+使用说明：打开网址，然后点击生成，然后上传图片等待 网址： https://chatgpt.com/g/g-6a5007a 719948191add3cf261499f4ea-b biddulbbaeddul-gongbang-by-gy eouljagga-hansijeog-gonggae 效果图在 1 楼
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237416#reply7
+
+---
+
+#### 9180. [V2EX] 摩拜单车之前充 299 押金没退的可以去尝试退下
+
+**问题描述 / Problem Description**:
+反馈： 摩拜共享单车以前冲直过 299 押金没退的 可以退了，路径👇 美团 -首页-更多服务-骑车-我的-设置-押金
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237409#reply14
 
 ---

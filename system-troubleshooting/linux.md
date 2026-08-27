@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9586**
+**总计条目 / Total entries: 9636**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -132589,5 +132589,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237292#reply11
+
+---
+
+#### 9587. Requests are being sent to root servers
+
+**问题描述 / Problem Description**:
+Tags: fedora, dns, resolv.conf | Score: 1 | Views: 62 | Answers: 1 | Created: 2026-08-24
+
+**解决方案 / Solution**:
+Since Fedora 33, the default DNS resolver in Fedora has been systemd-resolved , which means /etc/resolv.conf has lost most of its importance. It basically only sets the default DNS server for tools like nslookup , host and dig which don't use the glibc resolver interface but instead make their own DNS queries independently (e.g. in order to be useful as diagnostic tools for DNS). The fact that /etc/systemd/resolved.conf exists on your system, even fully commented out, strongly suggests that systemd-resolved is actually in use by default. If the hosts: line of /etc/nsswitch.conf contains the word resolve before the classic keyword dns , then all DNS queries submitted through the glibc resolver interface will completely bypass the classic resolv.conf mechanism and will go straight to systemd-resolved whenever it is running. So, in a system with systemd-resolved in the common default configuration, the new rule is: forget /etc/resolv.conf . It is now effectively obsolete. Instead, you should use the resolvectl status command to see the real DNS resolver settings. Depending on whether you use NetworkManager (or something similar) or not, systemd-resolved is probably integrated with either NetworkManager or your DHCP client. If any of these sources of network configuration information are indicating the DNS resolver servers to use, then systemd-resolved will probably be using them. If not, systemd-resolved may use some built-in default DNS server setting.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807156/requests-are-being-sent-to-root-servers
+
+---
+
+#### 9588. This is Alyssa Resenzweig. She reverse-engineered Apple's M1 GPU with no public documentation and also developed an open-source Linux driver.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vzvzwl/this_is_alyssa_resenzweig_she_reverseengineered/
+
+---
+
+#### 9589. One amazing feature of Windows that Linux has NEVER had: the dynamically color-changing, inverted mouse cursor
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vzyf3h/one_amazing_feature_of_windows_that_linux_has/
+
+---
+
+#### 9590. Quick review on modern Linux distros
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1vzzvgk/quick_review_on_modern_linux_distros/
+
+---
+
+#### 9591. Coderabbit pledges over $10M for open source software including bun, langflow, nuxt, vue, linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w000n1/coderabbit_pledges_over_10m_for_open_source/
+
+---
+
+#### 9592. Thickheaded Thursday - August 27, 2026
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzpnkj/thickheaded_thursday_august_27_2026/
+
+---
+
+#### 9593. The recruiter wrote back to me after I responded to her rejection.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzsg5d/the_recruiter_wrote_back_to_me_after_i_responded/
+
+---
+
+#### 9594. Anyone else feel like AI has taken the sport out of our profession?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzqyp6/anyone_else_feel_like_ai_has_taken_the_sport_out/
+
+---
+
+#### 9595. I finally have a major story to tell
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vztu7v/i_finally_have_a_major_story_to_tell/
+
+---
+
+#### 9596. Anyone Else Having Trouble Keeping Up?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzvsjq/anyone_else_having_trouble_keeping_up/
+
+---
+
+#### 9597. Papercut servers open to the internet under attack.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzuca7/papercut_servers_open_to_the_internet_under_attack/
+
+---
+
+#### 9598. Microsoft Entra Passkey campaign in Sept, but should be in Dec. - MC1450134
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w05g5s/microsoft_entra_passkey_campaign_in_sept_but/
+
+---
+
+#### 9599. Microsoft 365 Roadmap is now the "AI at Work Roadmap," and it'll include all AI-related updates. Who comes up with these stupid decisions?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzwcoo/microsoft_365_roadmap_is_now_the_ai_at_work/
+
+---
+
+#### 9600. KnowBe4 alternatives
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w056nl/knowbe4_alternatives/
+
+---
+
+#### 9601. 25 y/o Sysadmin trying to bring stability with certifications
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzwc5h/25_yo_sysadmin_trying_to_bring_stability_with/
+
+---
+
+#### 9602. Papercut MF/NG Under Active Exploitation
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzopmm/papercut_mfng_under_active_exploitation/
+
+---
+
+#### 9603. small IT team struggling with a broken laptop in another country
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w00uwh/small_it_team_struggling_with_a_broken_laptop_in/
+
+---
+
+#### 9604. small IT documentation tools
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzpp8p/small_it_documentation_tools/
+
+---
+
+#### 9605. Gpupdate equivalent for Intune policies?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vztka3/gpupdate_equivalent_for_intune_policies/
+
+---
+
+#### 9606. Server Prices are insane now - 128k for a decwnt VM host.
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vywlej/server_prices_are_insane_now_128k_for_a_decwnt_vm/
+
+---
+
+#### 9607. Azure - PostgreSQL Versions (Extended Support)
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w049od/azure_postgresql_versions_extended_support/
+
+---
+
+#### 9608. How to handle this request regarding backing up robot controllers?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w06a38/how_to_handle_this_request_regarding_backing_up/
+
+---
+
+#### 9609. What's the first thing you automate before putting a new server into production?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzzp9b/whats_the_first_thing_you_automate_before_putting/
+
+---
+
+#### 9610. Username conventions and limitations mean that one of my users will end up with an offensive username. Should I change it or leave it as is?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vz4pjl/username_conventions_and_limitations_mean_that/
+
+---
+
+#### 9611. Last day at IT company - I'm a VP of Sales - Helped solve a ticket: It was DNS
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vz6pic/last_day_at_it_company_im_a_vp_of_sales_helped/
+
+---
+
+#### 9612. Is oracle cloud free tier over?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzrp3k/is_oracle_cloud_free_tier_over/
+
+---
+
+#### 9613. MCP Gateways
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1w02cfw/mcp_gateways/
+
+---
+
+#### 9614. M365 primary tenant with a Google Workspace subsidiary, full migration vs. hybrid vs. third-party MDM? Advice for solo IT ops
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzzgod/m365_primary_tenant_with_a_google_workspace/
+
+---
+
+#### 9615. How do you deal with passive aggressive users?
+
+**问题描述 / Problem Description**:
+Reddit r/sysadmin discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/sysadmin/comments/1vzai3b/how_do_you_deal_with_passive_aggressive_users/
+
+---
+
+#### 9616. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply72
+
+---
+
+#### 9617. [V2EX] 现在 codex 额度用尽后，会有免费的 Luna Reverse 用了，独立额度
+
+**问题描述 / Problem Description**:
+OPENAI 还是还是良心啊，用完 sol ，还有 Luna xhigh 可以爽用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237720#reply6
+
+---
+
+#### 9618. [V2EX] 有人有遇到 gpt 启动不了的 bug 吗
+
+**问题描述 / Problem Description**:
+ChatGPT failed to start.Unable to locate the Codex CLI binary.Set CODEX_CLI_PATH or ensure the Electron resources include bin/codex.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237716#reply1
+
+---
+
+#### 9619. [V2EX] 大家独立开发的 App 服务端都部署在哪里
+
+**问题描述 / Problem Description**:
+不复杂的 App 所有基础设施都用 cloudflare 可行吗？有什么需要注意的？整个服务端都放上面。有什么坑吗？ 目前不考虑国内市场，仅考虑海外。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237712#reply4
+
+---
+
+#### 9620. [V2EX] 在 clash 里加入了一点 dae 的成分
+
+**问题描述 / Problem Description**:
+之前说过我魔改了一个 rust 写的代理 clash-rs 和使用这个代理的 op 插件 nikki-rs 最近突发奇想把 dae 和 clash 进行一个有机的融合，在 clash 里加入了一点 dae 的成分 基本就是参考 honk 和 dae 把 ebpf 那套照搬了过来，给 clash-rs 做了一个 ebpf 入站，可以理解为另一种实现的 tun 模式，部分替代防火墙的功能，不用搞防火墙规则进行转发，注入内核的钩子会自动进行拦截放行的操作。 将 dae 那套内核里复杂的选路过程进行了简化，只关注直连流量的动态绕过，大概流程就是 劫持到 dns 请求->对域名进行预选路->直连->将解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237697#reply0
+
+---
+
+#### 9621. [V2EX] eBPF 流量工具更新，加了 DPI 深度检测
+
+**问题描述 / Problem Description**:
+之前发过一版（[ https://www.v2ex.com/t/1236197 ]），这周主要加了这两块功能： DPI 内容特征识别：对 TLS / SSH / FTP / SMTP / POP3 / IMAP / MySQL / PostgreSQL / MongoDB / Redis / RDP / VNC / AMQP / gRPC 这十几种协议做了基于真实流量内容的识别， eBPF 里抓每条流最早的几个包发到用户态做协议特征匹配，不再单一的依赖 IANA 注册的端口映射。 Kafka 写入压测优化：将 ebpf 采集的全量数据推送到队列供下游消费使用，可对接 Grafana 按照自己喜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237688#reply3
+
+---
+
+#### 9622. [V2EX] grok 4.6 没有之前耐踩了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237679#reply3
+
+---
+
+#### 9623. [V2EX] Luna Max 有这么强吗？
+
+**问题描述 / Problem Description**:
+为什么大家对 Luna Max 的评价这么高呢？写代码能用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237670#reply19
+
+---
+
+#### 9624. [V2EX] 最近研究了一下 pc 微信 hook，分享下成果
+
+**问题描述 / Problem Description**:
+之前一直白嫖，现在找不到免费的了，无奈自己写了一个 版本：3.9.12.56 实现消息接收、图片解密、语音落盘、消息发送 https://github.com/hero0913/wxhook
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237669#reply12
+
+---
+
+#### 9625. [V2EX] FDE 岗位，有懂的大佬吗，有申请的必要吗？
+
+**问题描述 / Problem Description**:
+部门在招聘借调到市场一线做 FDE 的，是不是坑啊？ 我在想有这样一段经历，之后跳槽会不会有优势？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237657#reply10
+
+---
+
+#### 9626. [V2EX] AI 开发开始陷入迷惘中
+
+**问题描述 / Problem Description**:
+之前写几个小工具还是比较成功的 这个月尝试这写我之前一直想做但是没做的一个数据治理的工具，涉及到很多组件，写到了好几个版本，现在代码大概有 20w 行。每个迭代都基本上让 codex 设计了各种测试计划，自动测试脚本，然后交给 workbuddy 来做测试，测试出 bug 再迭代回归，文档也很全面。 这期间也做了简单的人工复测，但是还是没有让我安下心来，现在开始陷入迷惘了，软件到底是什么样子也没有底，我也没有心情找测试团队完整的按照流程走下来，估计他们拿到了以后也是各种 ai 工具来应付，最终的软件质量心理确实没谱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237637#reply27
+
+---
+
+#### 9627. [V2EX] Google Play Gift Card 无法兑换
+
+**问题描述 / Problem Description**:
+买了 20 刀的无法兑换，网上查了下，结论基本是： 下次别买了。 有没有大佬有方法？（亲自去美国这个方案不太行）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237626#reply3
+
+---
+
+#### 9628. [V2EX] GPT 5.6-Sol 烂完了
+
+**问题描述 / Problem Description**:
+连续两天了，多问两个问题就会出现 stream disconnected before completion: error sending request for url ( https://chatgpt.com/backend-api/codex/responses ) 这个报错。 估计日活突破 2000 万算力不够用了，AI 就是时代最大的陷阱，想要赚钱就要多揽用户，揽的用户越多算力越不够，算力不够就要加钱搞算力中心加强算力，死循环了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237608#reply56
+
+---
+
+#### 9629. [V2EX] glm5.3 在 zcode 和 claudecode 里哪个强
+
+**问题描述 / Problem Description**:
+据说在 zcode 里额度会变多 但是不知道实际用起来除了额度差异之外 哪个好用点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237581#reply0
+
+---
+
+#### 9630. [V2EX] Qoder 国内版给的额度是真慷慨
+
+**问题描述 / Problem Description**:
+又有一个免费福利可以薅了😂 Qoder CN 中国版高校计划上线：高校学生可免费领取 1 个月专业版 Pro ！ 支持 Qwen3.8 、GLM-5.3 、DeepSeek-V4 等多款模型。 领取流程很简单： 1️⃣ 进入阿里云云工开物 university.aliyun.com 完成支付宝学生认证，领取 300 元学生代金券。 2️⃣ 进入 [学生权益] 找到 Qoder CN 学生专享活动，选择 个人专业版 Pro / 1 个月，下单时会自动用代金券抵扣。 3️⃣ 打开 Qoder CN 使用下单时的阿里云账号登录，权益即可生效。 ⚠️ 注意： 学生认证、领券、下单、登录 Qoder C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237576#reply14
+
+---
+
+#### 9631. [V2EX] 今天 cursor 在 BJ 使用不了了，一直提示重新连接，换了外地的手机热点后就正常了
+
+**问题描述 / Problem Description**:
+有人遇到类似问题吗，是 BJ 网络限制了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237559#reply28
+
+---
+
+#### 9632. [V2EX] 免费开源的 Mac 原生 SwiftUI+Metal 加速的 SSH 终端 1.9.0 版本发布
+
+**问题描述 / Problem Description**:
+AI 辅助 SFTP 拖拽上传下载 docker 容器管理 工作空间公私分离 https://github.com/xinghelee/Berth
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237557#reply1
+
+---
+
+#### 9633. [V2EX] 讲下我自己申请软著和商标的经历
+
+**问题描述 / Problem Description**:
+刚才看见有大佬说自己申请软著一直待受理，就讲下自己的经历。 自己申请软件著作权 我第一次申请软件著作权，好像也是几年前在某平台找人申请的，好像也是几百块吧？后面申请是在淘宝或者拼多多上找商家申请的，比起几年前便宜很多了。 去年我第一次自己申请软件著作权，是因为朋友开发了一个 AI 软件著作权材料的平台，他给我送积分，够我生成 10 来个软件著作权的材料了。想着反正免费的，我就用他平台生成的材料试了下，材料通过 AI 生成之后会有很多文件直接下载，这个是我们申请需要的。 由于软件著作权我是第一次自己折腾，中间有 2 次没搞明白让补正资料的，这 2 次分别是： 软件的版本号我写错了，在申请的时候标
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237554#reply8
+
+---
+
+#### 9634. [V2EX] web search 和 图片理解
+
+**问题描述 / Problem Description**:
+现在有那种路由、网关、代理项目 实现把 web search 请求路由到原生支持 web search 的模型 实现把图片理解代理路由到原生支持图片理解的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237523#reply17
+
+---
+
+#### 9635. [V2EX] （2026-08-27）最近集中发布的高性价比 flash 模型
+
+**问题描述 / Problem Description**:
+最近接连出现两个高性价比的 -flash 模型，价格也非常亲民。 一个是之前的神秘“牛来”模型，现已正式确认是 GLM-5.3-Flash 。文档页面 https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash 价格页面 https://bigmodel.cn/pricing 原价输入 0.8 元，输出 2.8 元，缓存命中 0.23 元，限时五折，但是请求量太大现在根本没办法用。 然后是阿里的 qwen3.8-flash 。文档页面 https://www.qianwenai.com/models/qwen3.8-flash 输入 1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237519#reply21
+
+---
+
+#### 9636. [V2EX] 为什么用不了 muse spark contributor, 是因为我的 ip 不够纯净吗？
+
+**问题描述 / Problem Description**:
+目前它的额度够，但是我遇到 500 错误。不知道什么原因，opencode go 账户中开启了使用训练数据的模型也不行。IP 虽然是机房，但风控值是 22%，共享人数 1-10 。非得上住宅 iP 吗？ 还是说可能有其他原因，我本地是 v2rayn,TUN 模式。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237518#reply5
 
 ---

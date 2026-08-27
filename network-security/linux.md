@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3369**
+**总计条目 / Total entries: 3397**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -49675,5 +49675,341 @@ Multiple vulnerabilities have been found in DTrace, the worst of which could all
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-24
+
+---
+
+#### 3370. CVE-2026-74749 - kernel: rseq: Prevent hard lockup on granted time slice extension
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: rseq: Prevent hard lockup on granted time slice extension. Bugzilla: 2524421
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524421
+
+---
+
+#### 3371. CVE-2026-80537 - kernel: xfs: fix off-by-one in rtrefcount btree root level validation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: fix off-by-one in rtrefcount btree root level validation. Bugzilla: 2524432
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524432
+
+---
+
+#### 3372. CVE-2026-80529 - kernel: xfs: don't swallow dquot recovery verification errors
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: don't swallow dquot recovery verification errors. Bugzilla: 2524444
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524444
+
+---
+
+#### 3373. CVE-2026-80531 - kernel: xfs: avoid UAF on sc->tempip in xrep_tempfile_create
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: avoid UAF on sc->tempip in xrep_tempfile_create. Bugzilla: 2524451
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524451
+
+---
+
+#### 3374. CVE-2026-80538 - kernel: xfs: propagate errors from xfs_rtginode_load
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: propagate errors from xfs_rtginode_load. Bugzilla: 2524453
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524453
+
+---
+
+#### 3375. CVE-2026-80535 - kernel: xfs: don't double-lock when deleting a self-referential directory
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: don't double-lock when deleting a self-referential directory. Bugzilla: 2524467
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524467
+
+---
+
+#### 3376. CVE-2026-80533 - kernel: xfs: don't walk off the end of a null sc->sa.agi_bp in AGI repair
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: don't walk off the end of a null sc->sa.agi_bp in AGI repair. Bugzilla: 2524486
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524486
+
+---
+
+#### 3377. CVE-2026-80532 - kernel: xfs: fix another iunlink infinite loop bug in online fsck
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: fix another iunlink infinite loop bug in online fsck. Bugzilla: 2524489
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524489
+
+---
+
+#### 3378. CVE-2026-80530 - kernel: xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN. Bugzilla: 2524492
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524492
+
+---
+
+#### 3379. CVE-2026-80536 - kernel: xfs: bounds-check buffer log item's dirty bitmap
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: bounds-check buffer log item's dirty bitmap. Bugzilla: 2524501
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524501
+
+---
+
+#### 3380. CVE-2026-80534 - kernel: xfs: fix ilock leak on error in xfs_dq_get_next_id
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: xfs: fix ilock leak on error in xfs_dq_get_next_id. Bugzilla: 2524514
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524514
+
+---
+
+#### 3381. CVE-2026-80158 - ansible-collection-community-general: community.general: ipa_getkeytab does not…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ansible-collection-community-general: community.general: ipa_getkeytab does not set no_log on the bind_pw parameter, disclosing the IPA bind password in logs and process listings. Bugzilla: 2524651
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524651
+
+---
+
+#### 3382. CVE-2026-79258 - chromium-browser: Google Chrome WebXR: Information disclosure via incorrect…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome WebXR: Information disclosure via incorrect authorization. Bugzilla: 2524064
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524064
+
+---
+
+#### 3383. CVE-2026-79269 - chromium-browser: Chromium: Web origin policy bypass via uninitialized resource in…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Chromium: Web origin policy bypass via uninitialized resource in ANGLE. Bugzilla: 2524059
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524059
+
+---
+
+#### 3384. CVE-2026-79276 - chromium-browser: Google Chrome: Privilege management bypass via crafted HTML page
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: Google Chrome: Privilege management bypass via crafted HTML page. Bugzilla: 2523887
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523887
+
+---
+
+#### 3385. CVE-2026-16599 - wget: wget: Denial of Service via crafted FTP OPIE/S-KEY authentication challenge
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] wget: wget: Denial of Service via crafted FTP OPIE/S-KEY authentication challenge. Bugzilla: 2523509
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523509
+
+---
+
+#### 3386. [Ubuntu] USN-8666-3: Linux kernel (GCP FIPS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8666-3
+
+---
+
+#### 3387. [Ubuntu] USN-8644-3: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - File systems infrastructure; - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - SCTP protocol; - TIPC protocol; (CVE-2026-43071, CVE-2026-52914, CVE-2026-52993, CVE-2026-53043, CVE-2026-53224, CVE-2026-53246, CVE-
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8644-3
+
+---
+
+#### 3388. [Ubuntu] USN-8658-4: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Open vSwitch; - SCTP protocol; (CVE-2026-53224, CVE-2026-53246, CVE-2026-64531)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8658-4
+
+---
+
+#### 3389. [Ubuntu] USN-8688-1: PAM vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Juthawong Naisanguansee discovered that PAM incorrectly cleared failed login attempt records when certain services invoked the account phase without first performing authentication. An attacker could possibly use this issue to reset failed login counters, resulting in authentication lockout restrictions being bypassed.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8688-1
+
+---
+
+#### 3390. [Ubuntu] USN-8687-1: p11-kit vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that p11-kit incorrectly handled certain RPC messages. A local attacker could use this issue to cause p11-kit to crash, resulting in a denial of service. (CVE-2026-13757) It was discovered that p11-kit incorrectly handled nested attribute decoding on 32-bit systems. A local attacker could use this issue to cause p11-kit to crash, resulting in a denial of service. (CVE-2026-18938)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8687-1
+
+---
+
+#### 3391. [Ubuntu] USN-8686-1: openCryptoki vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that primitive decoders in openCryptoki produced integer underflows when the encoded length was zero. An attacker could possibly use this issue to trigger out-of-bounds reads. (CVE-2026-40253) It was discovered that openCryptoki incorrectly handled symlinks. An attacker in the token-group could possibly use this issue to achieve privilege escalation or access sensitive informatio
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8686-1
+
+---
+
+#### 3392. [Ubuntu] USN-8684-1: Perl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Perl incorrectly handled certain arguments to Socket and pack/unpack functions. An attacker could possibly use this issue to read sensitive information from memory. (CVE-2026-12087, CVE-2026-57432) It was discovered that Perl incorrectly handled regular expressions with a large number of alternation branches. An attacker could possibly use this issue to cause incorrect match
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8684-1
+
+---
+
+#### 3393. [Ubuntu] LSN-0121-1: Kernel Live Patch Security Notice
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved: ksmbd: ipc: fix use-after-free in ipc_msg_send_request ipc_msg_send_request() waits for a generic netlink reply using an ipc_msg_table_entry on the stack. In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix use-after-free of share_conf in compound request smb2_get_ksmbd_tcon() reuses work->tcon in compou
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/LSN-0121-1
+
+---
+
+#### 3394. [Gentoo] GLSA 202608-31: Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge, Opera, and Vivaldi.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-31
+
+---
+
+#### 3395. [Gentoo] GLSA 202608-30: OpenRGB: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in OpenRGB, allowing root remote command execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-30
+
+---
+
+#### 3396. [Gentoo] GLSA 202608-29: Chromium, Google Chrome, Microsoft Edge, Opera: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge, and Opera.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-29
+
+---
+
+#### 3397. [Gentoo] GLSA 202608-28: Chromium, Google Chrome, Microsoft Edge. Opera: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge. Opera.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-28
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10143**
+**总计条目 / Total entries: 10188**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -137780,5 +137780,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237346#reply0
+
+---
+
+#### 10144. How are file details handled in Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, filesystems, file-management, metadata | Score: 0 | Views: 55 | Answers: 1 | Created: 2026-08-27
+
+**解决方案 / Solution**:
+Some file-formats (like a DLL or EXE) have internal version numbers (and other meta-data), others simply don't (e.g. PDB). In most cases meta-data (like a version number) can only be updated by recreating that file, using a different number (in case of a DLL or EXE file, that would mean re-compiling/linking). Editing the file itself using a binary editor to change the version number might in some cases be possible, but in general not. Renaming a file doesn't change the content. A DLL is not magically becoming a PDB file just by changing the extension. FileExplorer in Windows trusts the file-extension to be correct. When you call it a PDB it treats the file as a PDB and simply doesn't show you the version-number in the details, because it "knows" that PDB files don't have a version-number anyway. It won't even try. (Try it the other way around. Take a real PDB and call it a DLL. File Explorer thinks the meta-data is not filled, because it can't find the meta-data it expects to find in a real DLL.) Anyway, version-numbers on PDB files make little sense anyway. They don't exist in isolation. They are part of a software-project (and only make sense in the context of that project) and match the version of that project. (Think of it like this: The metadata for the PDB is provided on a higher level by the project.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939959/how-are-file-details-handled-in-windows
+
+---
+
+#### 10145. Local technician modified my Acer laptop’s charging port without my consent. What should I do? I need advice from people who know laptops/repairing because I'm honestly at a loss right now.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzz8bo/local_technician_modified_my_acer_laptops/
+
+---
+
+#### 10146. Low fps in CS2 on RX9070XT + 9800X3D
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzu43c/low_fps_in_cs2_on_rx9070xt_9800x3d/
+
+---
+
+#### 10147. Computer not playing dvds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05uer/computer_not_playing_dvds/
+
+---
+
+#### 10148. Glue stuck in screw of laptop base
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05a4n/glue_stuck_in_screw_of_laptop_base/
+
+---
+
+#### 10149. Gaming Laptop Unusable on Battery After Drive Update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w081lb/gaming_laptop_unusable_on_battery_after_drive/
+
+---
+
+#### 10150. [Win 11 Pro][25H2][10.0.26200.9168] SecHealthUI.Exe Hanging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w07vd0/win_11_pro25h2100262009168_sechealthuiexe_hanging/
+
+---
+
+#### 10151. My wifi says "connected, secured" but does not work after turning on my laptop.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w07ubr/my_wifi_says_connected_secured_but_does_not_work/
+
+---
+
+#### 10152. A weird problem with my gpu, black screen underload
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzxx03/a_weird_problem_with_my_gpu_black_screen_underload/
+
+---
+
+#### 10153. Laptop screen got water in it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w07jc6/laptop_screen_got_water_in_it/
+
+---
+
+#### 10154. Found this mis device on my Bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w07h5q/found_this_mis_device_on_my_bluetooth/
+
+---
+
+#### 10155. No Headset Microphone Option Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w079wh/no_headset_microphone_option_windows_11/
+
+---
+
+#### 10156. Motherboard has DRAM light flashing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w075je/motherboard_has_dram_light_flashing/
+
+---
+
+#### 10157. RAM upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w072ug/ram_upgrade/
+
+---
+
+#### 10158. i need help with some weird black lines on my screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06v1d/i_need_help_with_some_weird_black_lines_on_my/
+
+---
+
+#### 10159. laptop wont turn on without being plugged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06q0v/laptop_wont_turn_on_without_being_plugged_in/
+
+---
+
+#### 10160. Corrupted Krita file - Please help!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06icz/corrupted_krita_file_please_help/
+
+---
+
+#### 10161. My Type C earphone audio is acting really weird only on my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06fn3/my_type_c_earphone_audio_is_acting_really_weird/
+
+---
+
+#### 10162. WhatsApp failing to connect only on home Wi-Fi [Motorola Edge 50 neo]
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06ec5/whatsapp_failing_to_connect_only_on_home_wifi/
+
+---
+
+#### 10163. Hard drive disk crashs
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w06boq/hard_drive_disk_crashs/
+
+---
+
+#### 10164. Help securing my computer after getting hacked this morning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05x6k/help_securing_my_computer_after_getting_hacked/
+
+---
+
+#### 10165. How do i fix ping spikes?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05t51/how_do_i_fix_ping_spikes/
+
+---
+
+#### 10166. Is my GPU cooked?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05ruo/is_my_gpu_cooked/
+
+---
+
+#### 10167. USB 3.0 ISSUES
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1vzz8qv/usb_30_issues/
+
+---
+
+#### 10168. Windows 11 – Mouse cursor leaving fullscreen games and moving to second monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w05jie/windows_11_mouse_cursor_leaving_fullscreen_games/
+
+---
+
+#### 10169. [V2EX] Codex 选择官方 plus 会员，还是 CC+API 使用成本对比
+
+**问题描述 / Problem Description**:
+首次选择了国内一个小的中转站，倍率很低，大约 0.2X 的样子，用了两周，感觉反应很慢，以为是中转站原因，换了 AIHubMix ，充值$5,不到一个 1 个小时就没 Token 了。。。真心震惊我了。。。 现在在用 plus 会员，感觉比中转响应要快 但是我的使用强度并不高，该如何选择？用 CC+API 可以根据使用强度收费，但是用了 AIHubMix 感觉 Token 消耗也太快了，是我使用的问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237733#reply2
+
+---
+
+#### 10170. [V2EX] 骑缝章,电子合同的时候可以用一用.功能单一,本地部署使用。
+
+**问题描述 / Problem Description**:
+没啥特别的，感觉找在线都收钱, 挺麻烦的。 项目地址: https://github.com/foxgaudi/pdf-seal-stamp 不用 Star,有人能用的上就行。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237727#reply0
+
+---
+
+#### 10171. [V2EX] 求助： chatgpt plus 好像有四个月学生优惠？
+
+**问题描述 / Problem Description**:
+rt ，在 X 上看到这个帖子 https://x.com/ariskaa_ai/status/2092826537519456464?s=20 说是 chatgptplus 可以免费领四个月，这个活动大家知道吗还是早就有了 然后我登上 gpt 看了一下，但是我点上面那个蓝色的领取学生优惠链接跳转不了 于是我点了帖子中的蓝链 https://chatgpt.com/students/verify?campaign=students_2026 有知道这个的 v 友吗，怎么弄到有效的学生身份和教育邮箱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237724#reply0
+
+---
+
+#### 10172. [V2EX] 划拨性质的房子是否真的没不掉了？家里已经到了非常困难的程度，算是和各位抱怨抱怨也问问建议吧。
+
+**问题描述 / Problem Description**:
+家里一套房处理问题，想听听大家的建议 各位 V 友好，想请教一下大家关于家里房子的事情。 我家在云南一个小县城有一套房子，位置还可以，周边配套比较完善，挨着幼儿园、初中、高中、小学，还有公园和景点，生活便利。 房子情况： 四层（包含顶层阳台） 10 室 1 厅 1 厨 2 卫 占地约 357 平方米 家里目前有两套房 现在家里的经济压力比较大，有一些外债，母亲身体也不好，我自己也快结婚了，所以一直想把这个资产盘活，减轻家庭压力。 我的想法是： 方案一：出售 之前考虑过直接卖掉，价格大概 80 万左右。 但是因为一些税费和交易成本，可能最终到手会少很多。我粗略估计可能需要承担接近 20 万左右的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237718#reply5
+
+---
+
+#### 10173. [V2EX] 安克 140w 充电头输出 0w
+
+**问题描述 / Problem Description**:
+旧题重捞： https://www.v2ex.com/t/1207536 当时发帖很久后才注意到不在问与答里被沉了，以及附上一些新情况。 在卧室里： A 插座配合 A 插排，B 插座配合 B 插排 安克 140w 插在 AA 上，会出现刚开始正常输出，几分钟后输出变为 0w 但是设备显示充电。出现问题时同插孔反复插拔安克充电头可复现问题，更换插孔问题有概率被解决。诡异的是 AA 上的其他供电是没明显问题的。 安克 140w 插在 BB 上时，在 BB 上工作时间较短，但是在插上的时间里非常稳定没有问题。 前几天在宾馆里持续用安克 140w 十多天没有拔掉，一直没有出现这个问题。后续在朋友家里住
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237710#reply0
+
+---
+
+#### 10174. [V2EX] Grok Bot 能用来做啥？
+
+**问题描述 / Problem Description**:
+已经有资格访问了，但是实在没想出使用场景 平常都是在本机使用 Grok Build 写代码，好像真的没什么需要长时间运行的任务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237707#reply2
+
+---
+
+#### 10175. [V2EX] 公司要实行全额缴纳社保公积金，超出部分要 2、8 分，我要承担 80%。工资只能到手一半
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237700#reply13
+
+---
+
+#### 10176. [V2EX] 又想装壁挂新风机了，有装的来说说体验。
+
+**问题描述 / Problem Description**:
+一年前就想装，但是又出去工作了，所以又闲置了一年。我家是住在铁路加高架的交界处，灰尘非常的多，然后又是高层。开窗体验很差。 噪音加灰尘双重 Buff ，所以平时晚上很少开窗，也就是白天固定时间开窗通风一下。原来打算卖房了，但是现在的房价大家都懂。几天又刷到了很多壁挂新风的视频，忍不住又想种草。我的房子是边户，打孔基本上不会和邻居有什么交集。 现在壁挂新风机热度完全没有。网上一搜，一水的智商税。说空气净化器都能 diy ，什么几百块的东西卖几千，小米也不生产新机了现在的牌子什么土豆，果麦都没听过。 我的目标就是完全不开窗(理论上，窗户不封死哈），去掉不需要的新风机的卫生间和厨房，实际面积可能有
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237698#reply5
+
+---
+
+#### 10177. [V2EX] 送码涨了曝光，但把自己后路堵死了——独立开发者推广踩坑实录，来讨教几个问题
+
+**问题描述 / Problem Description**:
+写这个不是为了推广，纯粹是想请教。 独立开了个 macOS 图片压缩工具，这一个月陆续在几个平台发了发布/推广的内容。 折腾下来遇到不少问题： 1 、producthunt 这类发布平台，几乎都是按拉票数排名，效果约等于无。 2 、v2 上[送码]引流效果平平，还送是的永久版。 3 、[送码]活动意外被免限博主推荐，500 个很快领完而工具平台没通知，等注意到时热度已经下去了。 因为送的是永久版，除非有大功能升级不然后续针对这批的用户营销也被自己堵了。 一路下来收益 0 ，走一步撞一步，特想请教几的问题： A 、功能垂直，同质化竞品。app20+,网站类更多 竞品多且更新积极 = 有真实需求？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237696#reply10
+
+---
+
+#### 10178. [V2EX] GLM-5.3，免费 token 来啦，新用户可领
+
+**问题描述 / Problem Description**:
+我正在智谱大模型开放平台 BigModel.cn 上打造 AI 应用，智谱新一代旗舰模型 GLM-5.3 已上线， 在推理、代码、智能体综合能力达到开源模型 SOTA 水平，通过我的邀请链接注册即可获得 2000 万 Tokens 大礼包，期待和你一起在 BigModel 上畅享卓越模型能力。链接： https://www.bigmodel.cn/invite?icode=azChQsvpahH5LXTlDxrUiA%3D%3D
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237691#reply0
+
+---
+
+#### 10179. [V2EX] 当你把日常所思发出来，活跃点，就会被说是骗金币的...这？
+
+**问题描述 / Problem Description**:
+仅仅习惯把日常突然想到的问题发出来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237687#reply0
+
+---
+
+#### 10180. [V2EX] 有低成本获取网站 traffic 数据的 API？
+
+**问题描述 / Problem Description**:
+https://bataitools.com/ 需要加入一些流量统计数据 每月访问量、停留时间 等等 ，类似 aitdk 、Similarweb 、Ahrefs 提供的 API 能够获取的 traffic 数据。 我需要 API ，有哪位兄弟有类似 API 的产品，麻烦发一下，也可以互换（不过我的流量低，互换会吃亏哈），如果有按量计费的也可以，按月计费的不要哈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237681#reply0
+
+---
+
+#### 10181. [V2EX] 准备从北京回老家了，和领导提了，但是要等公司有裁员名额。现在的状态就是到点就走，也没那么多心思在工作上，兄弟们给个建议现阶段更应该做什么。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237677#reply3
+
+---
+
+#### 10182. [V2EX] 2026 年 9 月的现在，买 32G 内存的 win 牛马本， 4000 块钱还收得到吗？
+
+**问题描述 / Problem Description**:
+RT ，op 本人手里的 MacBook air m1 16+512G 已经服役了 6 年了，现在多开跑开发，gui 的 agent 根本不敢用，天天卡得批爆...想先收一个用个一两年，等后面降价了买个好的。求站里诸位大佬的建议，唉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237674#reply5
+
+---
+
+#### 10183. [V2EX] 求推荐舒服的板凳
+
+**问题描述 / Problem Description**:
+客厅打算建个学习桌，面对面 4 个板凳，有没有舒服的板凳，久坐不累的，不要电脑椅，500 左右的，大家有遇到的可以推荐的板凳吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237665#reply0
+
+---
+
+#### 10184. [V2EX] 德芙巧克力七夕文案暴雷😂
+
+**问题描述 / Problem Description**:
+宣传文案差不多就是：“想要德芙七夕礼盒，结果男朋友不愿买，在抖音上分享给了暧昧对象，结果暧昧对象驾车 2 个多小时送了过来”。 这文案实在是逆天，有没有在这大厂宣传部工作的 V 友，真的这么逆天吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237663#reply0
+
+---
+
+#### 10185. [V2EX] Codex 今天是怎么了，账号一直被退出
+
+**问题描述 / Problem Description**:
+反反复复被退出好多次了，有同样情况的吗？ 貌似也不是 VPN 的问题，切换很多节点都这样，难道 Codex 也开始封禁账号了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237654#reply1
+
+---
+
+#### 10186. [V2EX] 最近有点迷茫焦虑 不知道该怎么选择了
+
+**问题描述 / Problem Description**:
+我在思考有执行力的人 能干活的人不管是在原来有 ai 还是现在没 ai 的时候 哪个更占优势 我今年刚大学毕业 我认为自己虽然能力并没有很强的情况下 但是我能用自己掌握的知识解决大部分问题 我把这个定义为能干活的人 就是我认为在企业中 可能目前不管大厂还是私企 大部分是有一部分 更擅长摸鱼的人 里面有多重原因 可能对于刚上岗的人来说是在学习在摸索干不了多少活 对已经工作的人来说 是只完成份内的工作就好 我是从小学初中就算是技术爱好者 当时自学 e 语言 后面又通过 minecraft 学着调 gamma 提升亮度 改配置文件 一步一步到 内网映射 到环境变量配置 服务端配置 插件配置 到后面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237642#reply10
+
+---
+
+#### 10187. [V2EX] 做自媒体好难？一直在推翻自己的状态？如何破局
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237625#reply10
+
+---
+
+#### 10188. [V2EX] 准备给家里小猫换猫粮，大家有没有推荐
+
+**问题描述 / Problem Description**:
+我家猫六岁，从小吃的麦富迪 barf 当主粮，各种品牌的猫粮都会买来掺一起喂 最近打算换一下主粮，搜出来一堆广，问问大家的小猫都吃什么 有主食猫饭什么的也可以推荐一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237618#reply39
 
 ---
