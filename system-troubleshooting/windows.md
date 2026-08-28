@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10188**
+**总计条目 / Total entries: 10233**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -138365,5 +138365,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237618#reply39
+
+---
+
+#### 10189. WD external hard disk - Crystal Disk Info says: CAUTION
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0w0g9/wd_external_hard_disk_crystal_disk_info_says/
+
+---
+
+#### 10190. PC booting up went from 15 seconds to 10+ minutes. After I log in, all my monitors go black and only the mouse cursor is visible. Displays come back by restarting the Windows explorer but PC continues to run extremely slowly, basically unusable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w136g4/pc_booting_up_went_from_15_seconds_to_10_minutes/
+
+---
+
+#### 10191. M.2 Drive dissapearing HELP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w13ait/m2_drive_dissapearing_help/
+
+---
+
+#### 10192. [Ubuntu/Tuxedo] Kernel Panic: Update from 7.0.0-108029 to 7.0.0-110030 - DKMS-Compile-Error: nvidia-580.126.09 and v4l2loopback-0.12.7.make
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w12typ/ubuntutuxedo_kernel_panic_update_from_700108029/
+
+---
+
+#### 10193. PC shutting down after 5 mins of playing game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0wch8/pc_shutting_down_after_5_mins_of_playing_game/
+
+---
+
+#### 10194. iPad Gen 2 (2011) iOS 9.3.5: Podcast app stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0zru8/ipad_gen_2_2011_ios_935_podcast_app_stopped/
+
+---
+
+#### 10195. .NET Framework Error
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0vkyo/net_framework_error/
+
+---
+
+#### 10196. Headphones with a staticic sound in the left ear. Is this a defect and should I return it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0vjip/headphones_with_a_staticic_sound_in_the_left_ear/
+
+---
+
+#### 10197. Monitor turns off randomly need to reboot whole pc to turn back on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0yg5y/monitor_turns_off_randomly_need_to_reboot_whole/
+
+---
+
+#### 10198. Some random PC issues.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0ych4/some_random_pc_issues/
+
+---
+
+#### 10199. Formatting external ssd that has windows 11 in it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w148br/formatting_external_ssd_that_has_windows_11_in_it/
+
+---
+
+#### 10200. CMD popped up and immediately disappeared on my new PC after connecting to the internet for the first time
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w147kj/cmd_popped_up_and_immediately_disappeared_on_my/
+
+---
+
+#### 10201. Nvidia Image Sharpening Not Being applied
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w139ba/nvidia_image_sharpening_not_being_applied/
+
+---
+
+#### 10202. Mobo has 1 case fan header and it has stopped working.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w134hj/mobo_has_1_case_fan_header_and_it_has_stopped/
+
+---
+
+#### 10203. Keyboard Issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w132ri/keyboard_issue/
+
+---
+
+#### 10204. SSD shows up as unformatted when there is data on it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w131gb/ssd_shows_up_as_unformatted_when_there_is_data_on/
+
+---
+
+#### 10205. Laptop not connecting to my wifi specifically
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w12ygf/laptop_not_connecting_to_my_wifi_specifically/
+
+---
+
+#### 10206. Random PC freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w0wt76/random_pc_freezes/
+
+---
+
+#### 10207. IP configuration failure
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w12mri/ip_configuration_failure/
+
+---
+
+#### 10208. System is resetting while trying to install fresh copy of Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w12ltx/system_is_resetting_while_trying_to_install_fresh/
+
+---
+
+#### 10209. Follow-Up: Dog Ran Into My PC While Gaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w12hjo/followup_dog_ran_into_my_pc_while_gaming/
+
+---
+
+#### 10210. I suddenly lost nearly 6 GB of storage
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w11q7d/i_suddenly_lost_nearly_6_gb_of_storage/
+
+---
+
+#### 10211. I bought what I thought was a new tv and it had someone’s details in it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w11q00/i_bought_what_i_thought_was_a_new_tv_and_it_had/
+
+---
+
+#### 10212. Mouse Cursor Glitch After Windows Update and DISM Scan
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w11l6t/mouse_cursor_glitch_after_windows_update_and_dism/
+
+---
+
+#### 10213. [V2EX] 求教如何付费 claude
+
+**问题描述 / Problem Description**:
+手上有 招行 visa ，gg 卡，另外还有一个美区虚拟号。 注册 google pay 要验证 sg 或 us 手机号， 所以要如何嗑药 A ％
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237989#reply1
+
+---
+
+#### 10214. [V2EX] rpa 软件哪个好？影刀和 uibot 咋样
+
+**问题描述 / Problem Description**:
+如题，求老哥推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237983#reply0
+
+---
+
+#### 10215. [V2EX] glm5.3-flash 思考了 20 分钟正常吗？
+
+**问题描述 / Problem Description**:
+如图，一句话让它做个小游戏。用的 zcode + 官方模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237977#reply2
+
+---
+
+#### 10216. [V2EX] 恒大跑了，我做了一个恒大房产金额统计表，看看有多少人买了恒大的烂尾楼
+
+**问题描述 / Problem Description**:
+点击链接进去，买过的朋友可以去提交一下。 https://lao1.me/hengda_amount
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237969#reply0
+
+---
+
+#### 10217. [V2EX] 职场新人处理同事关系请教
+
+**问题描述 / Problem Description**:
+校招入职一段时间，最近发现一个同事 A 经常不回消息，甚至不读。他也是今年的校招生，但来公司的时间比我早半年，因为工作需要有时候要跟他核对一些问题，但每次发送过去消息他都长时间不读，有时候甚至好几天消息还是显示未读的状态，应该是跟微信一样不用点开聊天框就能看到部分消息，然后他就不点开读，也不回复。不是一次两次这样了，纯纯恶心人，但有时候还要跟他一起干活，不得不打交道，但确实又很恶心人。另外，我们组第三个校招生都入职三四个月了，A 甚至不知道他叫啥，但我观察他跟我们组长还挺熟，甚至是有些谄媚，有一次跟组长聊天组长还夸他情商高，所以他也并不是一个内向的人。但因为工作需要，又不得不跟他沟通，真不知道
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237966#reply17
+
+---
+
+#### 10218. [V2EX] 怎么部署一个自己的 AI 问书功能，有些书微信读书没有
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237964#reply0
+
+---
+
+#### 10219. [V2EX] 求教各位大佬，现在 curosr 和 grok heavy 最便宜的订阅方式是什么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237962#reply0
+
+---
+
+#### 10220. [V2EX] 🚨 有使用 Zeabur 用户请注意：发生安全事件，环境变量泄露，尽快进行密钥轮换
+
+**问题描述 / Problem Description**:
+今天收到 Zeabur 邮件，说有机密信息泄露导致 stripe 的密钥存在泄露风险。 结果 Stripe 还没换完 key ，OpenRouter 那边余额告警及自动充值邮件就到了。。。 看了下 log 发现被人拿 zeabur 上的 sk 盗刷了，每个被泄露的密钥都在跑 opus ，烧钱...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237943#reply3
+
+---
+
+#### 10221. [V2EX] AI 完全接管编码的时代，再也没有人写博客了
+
+**问题描述 / Problem Description**:
+我从前端入行编码，那时候如果碰到了十分难以解决的问题，经过几个小时或者几天奋战研究、关闭几十个的标签页解决问题的时候，往往都会写一篇博客来记录这次遇到的问题。遇到了什么问题、如何解决的。 这个习惯一直到 chatgpt web 上线就再也没写过了。有什么问题直接复制给 ai ，再把 ai 的答案复制给程序反复测试，我从思考者变成了搬运工。 在 2026 年的今天 Agent 越来越强，从以前我还需要分析客户的需求转换为代码需求再进行开发到现在已经可以直接转发客户的需求给 ai 了，从搬运工变成了 AI 传话员。 此时感觉写博客已经变得没有意义。 感觉 AI 越强，新的知识产出越少，真正学习提升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237927#reply11
+
+---
+
+#### 10222. [V2EX] 请问现在买 supergrok heavy 能免费用 cursor ultra 吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237926#reply4
+
+---
+
+#### 10223. [V2EX] 大家现在每个月，会在冲动消费上花掉多少钱
+
+**问题描述 / Problem Description**:
+不知道有没有人和我一样，明明东西不是刚需，刷短视频、逛论坛看着看着就下单了。 买回来大部分闲置，放着落灰，事后又后悔。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237923#reply13
+
+---
+
+#### 10224. [V2EX] 银行、证券类公司，堡垒机不让用 Chat GPT、Codex、Cursor、Antigravity 等软件，怎么破？
+
+**问题描述 / Problem Description**:
+防护是微步在线（ ThreatBook ） 说是只让用 trea 、qcoder 国内这批，那还玩个蛋
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237921#reply13
+
+---
+
+#### 10225. [V2EX] 一个人周末有哪些消遣娱乐活动
+
+**问题描述 / Problem Description**:
+除了做饭吃饭不想一个人呆在家。 胡子刮破了没办法去游泳，之前在外面打王者现在也已经卸载。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237914#reply30
+
+---
+
+#### 10226. [V2EX] 有没有什么帮助筛查照片质量的应用或者 cli ?
+
+**问题描述 / Problem Description**:
+人物表情 构图 背景风景 虚焦 闭眼？ 每次拍照一大堆 人肉选片很艰难
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237908#reply2
+
+---
+
+#### 10227. [V2EX] 兄弟们有知道 Claude 怎么避免封号吗？
+
+**问题描述 / Problem Description**:
+被封了好几个了，有没有大神能分享怎么避免 claude 封号。真心跪求！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237898#reply16
+
+---
+
+#### 10228. [V2EX] 耳机听摇滚不爽
+
+**问题描述 / Problem Description**:
+办公室，日常带 airpods 2 代，不耽误跟其他人交流； 不忙没啥交流的时候我就呆 airpods pro2 代； 听个摇滚提提神，声音小了感觉闷闷的，听着都憋屈，声音大了耳朵又受不了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237891#reply8
+
+---
+
+#### 10229. [V2EX] 想做一个基于公司内部差旅系统的 agent 助手,技术栈怎么选型
+
+**问题描述 / Problem Description**:
+目前语言都是 java,框架我看就是 SpringAI,想问下目前主流是什么语言和框架?python?ts?框架 langchain 和 langgraph 吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237890#reply1
+
+---
+
+#### 10230. [V2EX] 有什么适合边上班边玩的游戏
+
+**问题描述 / Problem Description**:
+简单点点，自动挂机，但是让人上瘾
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237886#reply2
+
+---
+
+#### 10231. [V2EX] spec 编程有没有最佳实践？
+
+**问题描述 / Problem Description**:
+请教下各位： 1.spec 编程有没有最佳实践？ GitHub Spec Kit OpenSpec 2.codex 有 plan 模式，是否还需要 spec 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237884#reply0
+
+---
+
+#### 10232. [V2EX] 体检查出室性早搏，想买块智能手表辅助监测，老铁们有推荐吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237874#reply6
+
+---
+
+#### 10233. Route traffic between two servers on specific NIC
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-firewall | Score: -1 | Views: 52 | Answers: 1 | Created: 2026-08-12
+
+**解决方案 / Solution**:
+Question1: Would a route command do this? Assuming the Interface ID's above, what route commands on each server do I need to make this work? With your current setup it is probably possible but really really not recommended. One of those things that look like "if it works it's fine" but will cause several kinds of headaches in the future. In particular I don't trust Windows to keep the 1G link "preferred" in general (the interface order seems like it tends to change) so you might find the servers trying to reach other 1G subnet hosts through the 10G link (and of course finding nothing there), and other similar issues. So if at all possible, you should avoid having interfaces with overlapping subnets, and configure the 10G link with a dedicated IP prefix (either IPv4 or IPv6), and then you can add extra routes to have the "1G" address traffic go through the 10G link as well. For example, if you had: Server 1: Gbit NIC: 192.168.0.236 / 24, gateway 192.168.0.1 Tengig NIC: 192.168.7.1 / 30 (mask 255.255.255.252) Server 2: Gbit NIC: 192.168.0.237 / 24, gateway 192.168.0.1 Tengig NIC: 192.168.7.2 / 30 (mask 255.255.255.252) then I believe you could do: Server1> route [-p] add 192.168.0.237/32 192.168.7.2 Server2> route [-p] add 192.168.0.236/32 192.168.7.1 to route the individual addresses through 10G – without even needing to care about the specific interface IDs. (Although I think you might also need to set the netsh "host model" knob to "weak"?) Non-Windows hosts have it slightly simpler as they generally support configuring an interface's address as a /32 (i.e. 255.255.255.255 netmask), indicating that it has no subnet. That would allow simply re-using the 1G subnet addresses for the 10G direct link with a bit less risk. (In this situation, address overlap isn't the problem, but subnet overlap is.) Question2: If I want to team the two 10G NICs on each server and then connect directly, can I simply apply the same route commands with the corresponding change in Interface ID#s? As far as IP is concerned, a team or bond interface works exactly like a regular Ethernet interface. Will this get me a noticeable speed improvement - 20G? AFAIK this depends on the team mode; some may give 20G but some may only give 2x10G (i.e. any single TCP connection can only make use of a single link's speed). I'm not sure what modes Windows has.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199655/route-traffic-between-two-servers-on-specific-nic
 
 ---

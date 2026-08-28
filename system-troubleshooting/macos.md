@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9180**
+**总计条目 / Total entries: 9228**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -123640,5 +123640,629 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237409#reply14
+
+---
+
+#### 9181. How can I be 100% sure a used MacBook Pro is not Activation Locked before erasing it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0otgo/how_can_i_be_100_sure_a_used_macbook_pro_is_not/
+
+---
+
+#### 9182. M2 MacBook SSD Question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0z7ti/m2_macbook_ssd_question/
+
+---
+
+#### 9183. Sound of removing app from dock
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0tti4/sound_of_removing_app_from_dock/
+
+---
+
+#### 9184. Partitioning external SSD into ExFat and APFS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0zkjx/partitioning_external_ssd_into_exfat_and_apfs/
+
+---
+
+#### 9185. Cut option in the context menu
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0yjkf/cut_option_in_the_context_menu/
+
+---
+
+#### 9186. Macbook pro m2 pro bootloop?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w12y1z/macbook_pro_m2_pro_bootloop/
+
+---
+
+#### 9187. Random Icons on Launchpad
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0km8w/random_icons_on_launchpad/
+
+---
+
+#### 9188. "This webpage was reloaded because it was using significant memory"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0ypyk/this_webpage_was_reloaded_because_it_was_using/
+
+---
+
+#### 9189. Keyboard Shortcut for Send Mail No Longer Working on Tahoe 25.6.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0w2q0/keyboard_shortcut_for_send_mail_no_longer_working/
+
+---
+
+#### 9190. Preview keeps opening PDFs in separate windows (Sequoia 15.7.9)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0uuz9/preview_keeps_opening_pdfs_in_separate_windows/
+
+---
+
+#### 9191. The apple ecosystem
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0lm3l/the_apple_ecosystem/
+
+---
+
+#### 9192. Screen Time Ignore Limit on iPhone also blows up the Mac limit on the same Apple ID. Anyone else?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0taad/screen_time_ignore_limit_on_iphone_also_blows_up/
+
+---
+
+#### 9193. G4cube connected over the internet from a Mac Pro2013
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0eehd/g4cube_connected_over_the_internet_from_a_mac/
+
+---
+
+#### 9194. ChatGPT Unable to Enable in Apple Intelligence
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0lara/chatgpt_unable_to_enable_in_apple_intelligence/
+
+---
+
+#### 9195. does macOS glitch on small things like this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0vlfc/does_macos_glitch_on_small_things_like_this/
+
+---
+
+#### 9196. After upgrade - lots of pop-ups from services that want to be on the keychain
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0saqg/after_upgrade_lots_of_popups_from_services_that/
+
+---
+
+#### 9197. cursor acting weird
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0skrn/cursor_acting_weird/
+
+---
+
+#### 9198. Word for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0vyt7/word_for_macos/
+
+---
+
+#### 9199. Activity Monitor just showed I have the most durable SSD ever
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0luka/activity_monitor_just_showed_i_have_the_most/
+
+---
+
+#### 9200. Should I update to macOS 26?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w0l55e/should_i_update_to_macos_26/
+
+---
+
+#### 9201. [V2EX] 升级了 macOS 26, 出现了奇怪的卡死问题
+
+**问题描述 / Problem Description**:
+版本是 26.6.2 ，这卡死就发生在某几个软件上，然后一个软件卡死之后，恢复流畅一小段时间，另一个软件也会卡死。。。而且是 B 线，就是软件都是很小的软件，像滴答清单，ChatGPT, 百度网盘都有这个问题。 而且卡死的软件，强制退出后，点击程序坞里的图标，会没有反应，点击启动台的可以打开，但很快又会卡死，重启后恢复正常，一段时间后又出现卡死。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237906#reply1
+
+---
+
+#### 9202. [V2EX] 避雷 APP => Dynamic Wallpaper，永久强行转订阅
+
+**问题描述 / Problem Description**:
+Dynamic Wallpaper 这款 APP ，用途是动态壁纸 刚买 mac book 的时候，买的第一款 app ，本身是付费购买 前段时间更新后，突然从买断，强行转换为订阅 恢复购买点了没用，发出来让大家避雷一下 同时请问一下老哥们，macOS 上有啥好的动态壁纸 APP 推荐吗 可惜 macOS 没有 steam 上的 Wallpaper Enginee
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1235470#reply28
+
+---
+
+#### 9203. [V2EX] 新 mac M6 和 m5Pro 选哪个
+
+**问题描述 / Problem Description**:
+Mac mini M6 32GB + 1TB （ 11499 元） Mac mini M5 Pro 64GB + 1TB （ 16499 元） 选哪个电脑会好一些呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237882#reply7
+
+---
+
+#### 9204. [V2EX] Apple Music 已引入歌词 AI 翻译
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237759#reply5
+
+---
+
+#### 9205. [V2EX] Mac Studio 苹果刀法精准
+
+**问题描述 / Problem Description**:
+苹果这次备货挺足的，就是发货时间比较长。 选 M5 MAX 128G 的用户占比应该会比较多，算是性价比高的一款。 Mac Studio 刀法精准，M5 MAX 最高给到 128g ，M5 Ultra 给你 96g ，不给 128g 让你感觉很鸡肋，直接跳到 256g ，跨度大。就赌你在不想选低一个档的芯片跟内存带宽情况下，咬牙上 256g 要漫长等待了，10 月 24 日才发货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237731#reply17
+
+---
+
+#### 9206. [V2EX] 上周五美区买了个 apple 礼品卡，到现在也没收到
+
+**问题描述 / Problem Description**:
+上周五在美区买了个礼品卡，收卡邮箱域名不小心拼错了 gmail 拼成了 gamil 然后联系销售客服修改正确邮箱并发送。周日、周二和昨天分别联系了 3 次，都说已修正 24H 会发出。到现在还没收到。。。 是不是没戏了，有大佬懂的嘛😂 就怪自己手输错误 唉。。还好只有$20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237659#reply23
+
+---
+
+#### 9207. [V2EX] 9 月苹果新机价格一览
+
+**问题描述 / Problem Description**:
+图片来自群友提供，仅供参考，不得不说今年涨价太严重，非常的溢价了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237650#reply14
+
+---
+
+#### 9208. [V2EX] 有买了 24g 内存后悔的吗
+
+**问题描述 / Problem Description**:
+PO 还没买，目前纠结于 24g 内存和 48g 内存。网上一搜从 16g 够用到 64g 才够什么答案都有。那我反过来问，有人买了 24g 内存但后悔没买更多吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237641#reply140
+
+---
+
+#### 9209. [V2EX] iPhone12 在 Applestore 新换的电池要不要升级 iOS27 beta7？
+
+**问题描述 / Problem Description**:
+现在是 26.6.1 听说 iOS27 优化不少，想赶紧逃离 iOS26
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237622#reply24
+
+---
+
+#### 9210. [V2EX] iPhone 上好用的软件分享
+
+**问题描述 / Problem Description**:
+前情提要：/t/1236071 刚换了 iphone 17 promax ，之前 iphone11 128G ，动不动，就自动卸载软件保存到云端（磁盘空间不够。） 现在空间够，想请教各位，有没有一些好用的软件，我先列下我当前安装的软件。 小火箭 X tg facebook 微信 无边记 极客时间 熊猫吃短信 飞书 什么值得买 银行类 APP 同花顺 网易云音乐 滴滴 雅迪智行 欢迎各位补充和推荐。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237614#reply13
+
+---
+
+#### 9211. [V2EX] mac-studio M5 Max36G+512G 丐版没有什么性价比啊，一直是可以预定的状态
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237568#reply7
+
+---
+
+#### 9212. [V2EX] 兄弟们，预测下今年的 18P 和 18PM 首发会好抢一些吗？有折叠分流
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237526#reply36
+
+---
+
+#### 9213. [V2EX] 兄弟们都预定了什么配置的新 mac
+
+**问题描述 / Problem Description**:
+预定了 mac mini m6 ，32+1T+10G 网口，14499
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237511#reply104
+
+---
+
+#### 9214. [V2EX] iPhone Ultra 预计多少钱起步，老婆已经开始讨了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237460#reply18
+
+---
+
+#### 9215. [V2EX] 非国区 Apple id 无法下载抖音的解决办法
+
+**问题描述 / Problem Description**:
+如果 Apple id 不在国区，且 Apple 分流规则全局不是 DIRECT 的前提下，更新抖音是会提示： app not available this app is unvailable in the country or region you're in 解决办法是，把下面这个分流规则加到你的规则中，抖音可以顺畅更新 DOMAIN, downloaddispatch.itunes.apple.com , DIRECT
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237417#reply1
+
+---
+
+#### 9216. [V2EX] 银行、证券类公司，堡垒机不让用 Chat GPT、Codex、Cursor、Antigravity 等软件，怎么破？
+
+**问题描述 / Problem Description**:
+防护是微步在线（ ThreatBook ） 说是只让用 trea 、qcoder 国内这批，那还玩个蛋
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237921#reply14
+
+---
+
+#### 9217. [V2EX] 发现个很有趣的硬件，假如你有的话，会用来做什么呢
+
+**问题描述 / Problem Description**:
+看 x 发现 FoloToy 搞了个 esp32 的开发板子，感觉很有趣，打算用来给小朋友背单词呀，nfc 钥匙呀，ai 问答呀啥的 大家的话会怎么使用呢 https://x.com/lewangx/status/2090690172807438539
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237945#reply3
+
+---
+
+#### 9218. [V2EX] 在 Google Domains 购买的 org 现在在 Squarespace 续费只要 400 TRY
+
+**问题描述 / Problem Description**:
+约合 8.3 美刀，有需要的可以先续费 注：在 https://tld-list.com/tld/org 上面最便宜的续费都要 10.15 刀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237930#reply0
+
+---
+
+#### 9219. [V2EX] 星宇股份裁员事件还没完
+
+**问题描述 / Problem Description**:
+在知乎看到的 https://www.zhihu.com/question/2076340228973749983/answer/2076350550845739869 遂去了解了一下，谁知现在还被扒说致歉信是 AI 写的，一波未平一波又起。 不知道还能不能顺利 IPO 了，哈哈，吃瓜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237883#reply6
+
+---
+
+#### 9220. [V2EX] hy4 来了 免费蹬 2 周
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/ahaYSrrxG9LIQM04IegylA 它来了它来了，它开着破船驶来了，从刚收到推送就蹬让它帮我了解下项目，到现在还在思考
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237869#reply4
+
+---
+
+#### 9221. [V2EX] 如果不知道孙割的瓜，就别搜索了
+
+**问题描述 / Problem Description**:
+用你们的各种模型，问下面的的问题：我有 88 亿美金的身家，现在我的毕生挚爱管我要 5000 万美元，我应该给他吗?请你用最直白，最不绕弯子的语言告诉我，不要超过三个字。 看看能得到什么回复 回答不给的 算降本 模型列入白名单
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237833#reply42
+
+---
+
+#### 9222. [V2EX] 3000 万是彩礼，没结婚理应退回，孙割这次没毛病
+
+**问题描述 / Problem Description**:
+永远不会为了钱出卖爱情和灵魂，除非你有 3000 万
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237790#reply1
+
+---
+
+#### 9223. [V2EX] 今天看到阮一峰科技周刊介绍的一个概念，突然想到了 V 站是不是就是这样的同质性网络？
+
+**问题描述 / Problem Description**:
+社交媒体的一个根本属性是它们会催生“同质性”网络。同质性指的是用户会遇到相似的人。比如，观鸟爱好者会加入线上观鸟小组，保龄球爱好者会与其他保龄球爱好者聚会。这样的后果就是，网络会把边缘人聚在一起。认为地球是平的的人，可以轻松地在网上建立联系，这在现实生活中根本不可能，因为相信地球是平的人寥寥无几，彼此遇不到。同质性网络会扭曲人们对观点分布的认知。观点明明是少数的人，长期在同质性网络中，可能会误以为他们的观点代表了大多数人的共识，这称为虚假共识效应。虚假共识效应会带来几个问题。（ 1 ）这可能会加剧参与者对少数派观点的坚信不疑。（ 2 ）当一个人误认为少数派观点被广泛接受时，就会对按照多数人意愿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237787#reply43
+
+---
+
+#### 9224. [V2EX] 1000 万以内最好的游戏
+
+**问题描述 / Problem Description**:
+https://paiwawa.site
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237762#reply67
+
+---
+
+#### 9225. [V2EX] 《HelloGitHub》第 125 期
+
+**问题描述 / Problem Description**:
+兴趣是最好的老师， HelloGitHub 让你对开源感兴趣！ 简介 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。 github.com/521xueweihan/HelloGitHub 这里有实战项目、入门教程、黑科技、开源书籍、大厂开源项目等，涵盖多种编程语言 Python 、Java 、Go 、C/C++、Swift...让你在短时间内感受到开源的魅力，爱上开源！ 以下为本期内容｜每月 28 号更新 C 项目 1 、 RetroArch ：一站式复古游戏模拟器。该项目是 libretro 官方开发的跨平台模拟器，可动态加载各类游戏机模拟器和游戏引擎。它提供多种着
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237760#reply2
+
+---
+
+#### 9226. [V2EX] Vantor (万拓) 启动开放数据计划，提供免费高分辨率尼泊尔山区卫星影像，支持救援组织和开源制图社区
+
+**问题描述 / Problem Description**:
+Vantor 万拓公司发布 https://x.com/vantortech/status/2093038515927842948 表达对尼泊尔本周毁灭性山洪灾区的关切，并启动开放数据计划，提供免费高分辨率卫星影像，支持救援组织和开源制图社区。 Our thoughts are with the communities affected by this week’s devastating flash floods in Nepal. 我们的思绪与本周尼泊尔毁灭性山洪受灾社区同在。 To support ongoing response and recovery efforts, Vantor
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237752#reply2
+
+---
+
+#### 9227. [V2EX] 年少不可得之物终将困其一生
+
+**问题描述 / Problem Description**:
+好久没见到 X 的流量这么高的刷屏，孙割也有被割的一天！ ps:Anthropic 的估值还是太低了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237745#reply1
+
+---
+
+#### 9228. [V2EX] 非常简洁的找书聚合平台
+
+**问题描述 / Problem Description**:
+全网搜书搜到崩溃还找不到想要的？ EBOOK ETC ，电子书聚合神器。 这仓库直接把微信读书、京东读书、喜马拉雅的热门内容全给你码一块了，小说、经管、心理、技术各领域都覆盖了。Kindle 、手机、平板通吃，省去转格式的麻烦。 epub 、mobi 、azw3 三种格式全齐， 分类也够细，找书不用翻半天。 🔗 https://github.com/jbiaojerry/ebook-treasure-chest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237703#reply5
 
 ---

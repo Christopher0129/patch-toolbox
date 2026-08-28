@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9636**
+**总计条目 / Total entries: 9705**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -133239,5 +133239,902 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237518#reply5
+
+---
+
+#### 9637. postmarketOS Linux booted on iPhone 6S
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0vkmn/postmarketos_linux_booted_on_iphone_6s/
+
+---
+
+#### 9638. I missed CrystalDiskInfo on Linux, so I built LinDiskInfo for Arch Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w12vnu/i_missed_crystaldiskinfo_on_linux_so_i_built/
+
+---
+
+#### 9639. 8BitDo announce 'Ultimate Software Online' to update controllers in your browser to help Linux gamers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0lxdh/8bitdo_announce_ultimate_software_online_to/
+
+---
+
+#### 9640. Artix Linux drops support for XLibre
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0nefl/artix_linux_drops_support_for_xlibre/
+
+---
+
+#### 9641. Am I the only one who set up their browsers' download folder to /tmp?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0v5il/am_i_the_only_one_who_set_up_their_browsers/
+
+---
+
+#### 9642. Greg K-H (@gregkh@social.kernel.org): CVEs fixed per Kernel Release over time
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0zdmt/greg_kh_gregkhsocialkernelorg_cves_fixed_per/
+
+---
+
+#### 9643. Patches Provide For Much Faster In-Kernel Zstd Due To Embarrassingly Bad Inefficiency
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0s5cb/patches_provide_for_much_faster_inkernel_zstd_due/
+
+---
+
+#### 9644. IBM Remote Supervisor Adapter Driver Removed for Linux 7.3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0ryv9/ibm_remote_supervisor_adapter_driver_removed_for/
+
+---
+
+#### 9645. Antiquity Theme <3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0myfh/antiquity_theme_3/
+
+---
+
+#### 9646. Announcing €500K Sovereign Tech Agency Investment in Flatpak
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0c8rq/announcing_500k_sovereign_tech_agency_investment/
+
+---
+
+#### 9647. How did you first get introduced to linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0cnrj/how_did_you_first_get_introduced_to_linux/
+
+---
+
+#### 9648. Finally fully using Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0i0wj/finally_fully_using_linux/
+
+---
+
+#### 9649. Important changes to lsfg-vk (lossless scaling for Linux) and 2.0.0 release candidate
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0cvmq/important_changes_to_lsfgvk_lossless_scaling_for/
+
+---
+
+#### 9650. atlas.nvim - PR reviews and issues inside Neovim
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0xv0t/atlasnvim_pr_reviews_and_issues_inside_neovim/
+
+---
+
+#### 9651. word-sys's PDF Editor v1.10 Flatpak and Feature Update Development Stage 1 Demonstration
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0p3y1/wordsyss_pdf_editor_v110_flatpak_and_feature/
+
+---
+
+#### 9652. minimal note apps?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0jjpq/minimal_note_apps/
+
+---
+
+#### 9653. Packman to be discontinued - hopefully not
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w13yj6/packman_to_be_discontinued_hopefully_not/
+
+---
+
+#### 9654. Looking for feedback on weather widget
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0uy6m/looking_for_feedback_on_weather_widget/
+
+---
+
+#### 9655. Made a Linux Distro using LFS/BLFS , suggest package managers for it bc I am stuck at this part, it works great tbh.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0zsmb/made_a_linux_distro_using_lfsblfs_suggest_package/
+
+---
+
+#### 9656. Linux kernel in the mind | explorar.dev (formerly reverser.dev)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0jc0i/linux_kernel_in_the_mind_explorardev_formerly/
+
+---
+
+#### 9657. Is it only me...?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w12aai/is_it_only_me/
+
+---
+
+#### 9658. SCRCPY-AUTOSTART now supports Ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0ic94/scrcpyautostart_now_supports_ubuntu/
+
+---
+
+#### 9659. And we still manage to get stuck in it to this day
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w0q70c/and_we_still_manage_to_get_stuck_in_it_to_this_day/
+
+---
+
+#### 9660. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply73
+
+---
+
+#### 9661. [V2EX] 强烈推荐一款性价比极高的 Linux 本搞 vibe coding
+
+**问题描述 / Problem Description**:
+Linux 笔记本这里讨论过很多次，我自己都多次发帖，我也前后用过折腾过一二十个笔记本， 60% Apple, 30% Thinkpad X1C/T 系列 10% 杂牌甚至 PAD/Surface 系列 多多少少都有不满意的对方，大部分是兼容问题，电池问题，驱动问题，启动问题，稳定问题。 由于目前我自己主要用 AI 来写一些小项目，所以主要考虑轻便，续航高，性能无所谓，由于 M 芯片支持不是太友好，要不然 M 芯片应该是首选。 后来我研究发现 12 寸的 Macbook+Omarchy 是极品配置 我以前定制过一台 12 寸的，好像 1.2w 买的，用了半年不习惯（那个时候觉得性能不行发热）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1227981#reply36
+
+---
+
+#### 9662. [V2EX] 留学生帮忙订 claude20x
+
+**问题描述 / Problem Description**:
+用一个月都不会封，完全美国真实用户环境下用真卡订阅，有需要联系 q132 ，6867 ，515
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237992#reply0
+
+---
+
+#### 9663. [V2EX] 公司不让装 Navicat 了，就自己写了一个数据库客户端
+
+**问题描述 / Problem Description**:
+写代码十几年了。之前也给孩子们做过几个 Android 小应用，背单词、练口算那种，他们用得还行。 但那些说到底还是「给别人用」。 DataZen 是我第一次想只为自己做一个软件。 起因很现实：公司合规不让装 Navicat 了。DBeaver 能用，但日常用起来总觉得差点意思。正好赶上 vibe coding 这股风，心想不如自己试一把，看能不能做出一个 真正工业级、能天天拿来干活 的数据库客户端。 不是玩票，也不是 demo 。就是给自己用。 两个具体痛点 1. 查线上问题，经常要串好几张表，还跨库 处理投诉、排查线上问题，流程大概是这样： 先查表 A ，拿到某个 ID 或状态 用这个值去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237986#reply7
+
+---
+
+#### 9664. [V2EX] 今天 Win11 更新 KB5120998 会引起鼠标指针变大和壁纸变黑
+
+**问题描述 / Problem Description**:
+不知道有没有碰到的。 https://github.com/Arcadeq/windows-cursor-scheme-fix 暂时可以用这个脚本修复或者直接卸载 KB5120998 更新
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237975#reply15
+
+---
+
+#### 9665. [V2EX] 毒瘾犯了, 又续费了 200 美金 claude
+
+**问题描述 / Problem Description**:
+工厂老板毒瘾犯了, 今天又续费了 200 美刀套餐, 我正好也用一下, 挺爽. 参考 https://v2ex.com/t/1232590?p=1#reply55 好消息是他的程序快完成了, 和他想要的基本一样, 他感觉到太满意了, 钱花的真值.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237968#reply2
+
+---
+
+#### 9666. [V2EX] 有没有主职业是其他行业,副职业是程序员的?
+
+**问题描述 / Problem Description**:
+呃,我主职业是 装修方面的设计师,还开了个家具厂. 然后会 php+mysql 那一块,十年前用 php 接单做过几百个企业网站. 后来做了个家具的网站,结果家具的业务量还挺大把给我代工的家具厂撑得满负荷运转. 他们厂里的师傅给我说,你干脆自己开个厂得了,我们跟你干. 加上 15 年的时候手机 app 这些起来了,就干脆开了个家具厂,没做网站了. 现在感觉房地产不太行了,一直想自己能做个 APP. 在自学 Go+Vue,发现网上说几天就学会了...我怎么自学了几个月还不会. 可能是白天盯着装修工地,晚上拖着疲惫的身体回到家,家里还有小孩.就想改天在听课吧,我在学 imooc 的 https:/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237965#reply10
+
+---
+
+#### 9667. [V2EX] 分享一个体验 Omarchy 的快速的方式（macOS M 系列芯片）
+
+**问题描述 / Problem Description**:
+最近我想体验一下 Omarchy ，但是我的电脑是 macOS 的 M5 ，然后发现 Omarchy 就没有提供 M 芯片的 iso 文件，最后我自己想办法直接从 arch 系统安装虚拟机，安装完之后再手动去安装那些组件，虽然搞定了，但非常麻烦 然后这两天我在网上找到了一个叫 Try Omarchy 的项目，是国外的一个老哥搞的（利益无关）。它提供的是一个 DMG 包，像安装 APP 一样直接安装。安装完之后就可以直接打开，只需要输入个用户名和密码，hostname 之类的，就可以直接用了。 而且它有 GPU 加速，我自己用起来还挺流畅的。如果大家想尝鲜的话，推荐一试。这个成本非常低直接下载下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237960#reply3
+
+---
+
+#### 9668. [V2EX] Kimi ¥199 vs Ollama Pro： K3 额度实测
+
+**问题描述 / Problem Description**:
+控制变量：相同 CLIProxyAPI 、相同请求、 high 推理、单并发、无缓存、无重试、关闭超额付费。 指标 Kimi K3 1M Kimi K3-256K Ollama Pro K3 月费 ¥199 ¥199 $20 数据来源 实测 半费率推算 实测 5 小时工作单元 24 约 48 19 5 小时成功请求 72 约 144 57 5 小时输入量 218 万 tokens 约 436 万 173 万 tokens 5 小时池占周额度 20% 预计 20% 约 18% 每周 5 小时池 5 个 5 个 约 5.56 个 每周工作单元 120 约 240 约 105.6 平均每月工作单元
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237940#reply6
+
+---
+
+#### 9669. [V2EX] 第一个版本勉强可用的 Postman 替代品，跨平台、GPUI、占用少、不需要账号登录
+
+**问题描述 / Problem Description**:
+第一个版本：勉强可用的 Postman 替代品，跨平台、GPUI 、占用少、不需要账号登录 最近用 Rust 和 GPUI 搓了一个原生跨平台 HTTP 客户端： Postman GPUI 。 项目地址： github.com/847850277/postman-gpui 做这个项目的原因很简单：我想要一个打开就能发送 HTTP 请求、不需要注册账号、不依赖云端工作区，同时资源占用相对克制的本地工具。 它不是要在第一个版本里完整复刻 Postman 。目前只能算“勉强可用”，但常用的请求调试骨架已经基本齐了。 目前能做什么 支持 GET 、POST 、PUT 、PATCH 、DELETE 、H
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237928#reply7
+
+---
+
+#### 9670. [V2EX] 有人居然会代入孙割的视角，我也是服了！？
+
+**问题描述 / Problem Description**:
+很神奇的是有人居然把孙割和码农划为一类，然后代入码农的视角 太特么的神奇了，好好搬砖吧，大哥们。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237900#reply1
+
+---
+
+#### 9671. [V2EX] 想看看各位使用 Pi 的姿势
+
+**问题描述 / Problem Description**:
+刚从 codex 转到 Pi ，感觉非常好 迅速、精准、简洁、可控 目前只加了 Ponytail 、web-access 和 multi-skills 几个插件 不过之前一直用 ChatGPT 的客户端，用惯了 GUI 这一下切到 TUI ，还是有些许不习惯 特别是输入，现在基本上一言不合就 Ctrl+G 开 VS Code 来编辑 试用了一下 @ agegr /pi-web ，完成度还偏低 向看看各位使用 Pi 的姿势 不管是 TUI 改善还是好用的 GUI 或者各类插件推荐 请狠狠砸向我，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237896#reply23
+
+---
+
+#### 9672. [V2EX] 把千万级 Google Ads 标题的模糊查询从 6 秒压到 0.6 秒，我做了什么？
+
+**问题描述 / Problem Description**:
+发布摘要：SiteData 原来一次 Google Ads 标题模糊查询最快也要约 6 秒，我最后把搜索层换成 Manticore ，把查询压到约 0.6 秒，也让免费的 Ads 投放站点数从手动触发变成可以自然展示。 大家好，我是饭特稀。 最近给 SiteData 做了一次性能优化。 这次优化不是为了让页面看起来更快一点，而是为了解决一个非常具体的问题： 千万级以上 Google Ads 标题和关键词数据，怎么做到可以实时模糊查询？ 其实之前这个功能已经有了。 比如你在 Google 搜索一个关键词，SiteData 插件会在搜索结果页里显示这个关键词最近 4 周大概有多少家网站在投放相关广
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237893#reply0
+
+---
+
+#### 9673. [V2EX] 先编译再检索：一个不用 embedding 的开源知识库
+
+**问题描述 / Problem Description**:
+市面上大多数「知识库问答」工具的套路都差不多：把文档切块、算 embedding 、塞进向量库，提问时按相似度召回若干碎片喂给 LLM 。KaaS 做了两个和主流不太一样的选择： 先编译再检索 ：不直接对原始碎片做 RAG 。先用 LLM 把散乱内容编译成一篇篇结构化的 Markdown Wiki 文章，再在这上面做检索。 不用 embedding ：检索阶段没有向量库、没有相似度计算。文章目录直接喂给 LLM ，让它像人翻目录一样选页、读全文。 这篇讲整套系统的骨架和几个关键取舍，单个机制的细节留给后续文章。 解决什么问题 KaaS 最初是我们内部的一个工具。知识散落在文档、会议、邮件里，每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237892#reply3
+
+---
+
+#### 9674. [V2EX] 做 AI 产品不要闭门造車，要到群众中去
+
+**问题描述 / Problem Description**:
+最近骨折修养，发现在其他行业中 AI 触达还是比较少，非技术人平时用的最多的就是豆包，说句话就能办了，比如生成个图片、问下怎么做饭，没有什么高深的技术，不会说什么 DeepSeek 、GPT ，但实打实的用户需求。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237887#reply10
+
+---
+
+#### 9675. [V2EX] 只有 33 个 star 的 Agent 客户端被 OpenAI 送 1200 美元，我们是怎么做到的？
+
+**问题描述 / Problem Description**:
+距离上次在 V2EX 分享我们的项目已经过了快 3 个月了。 在上周，我们维护的开源项目 diodeme/Gold-Band 通过了 openai 的开源开发者活动，获得了 openai 赠送给我们的 价值 1200 美元的六个月 gpt pro 20x 会员 。很多社群的朋友好奇为什么我们项目 只有 33 个 star 也能被选中 ，于是我准备专门写一篇帖子，向大家 重新介绍下我们的项目 ，并在文末分享下我申请开源活动时是怎么填的。 产品介绍 github 地址： https://github.com/diodeme/Gold-Band 一句话介绍我们的项目： 一个跨端的桌面客户端。 以 A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237880#reply13
+
+---
+
+#### 9676. [V2EX] 想请教下：有没有轻量实时的视听融合方案，判断目标方位是否有人说话？
+
+**问题描述 / Problem Description**:
+大家好，想请教一个实时视听判断的问题。 目前自己搭了一套阵列麦克风，可以做一定程度的波束拾音和声源方向估计。但现在遇到的问题是：即使声音方向和画面中的人物对上了，也无法确认这个声音确实是他发出的，反射声或附近声源也可能造成误判。 所以想增加视觉嘴型判断，通过 MediaPipe 获取嘴部关键点，再结合 VAD 、DOA 和人物位置，判断目标方位的人是否真的在说话。 之前了解过 Light-ASD 、TalkNet 、SyncNet 等方案，但这些方案都只能用于后处理，计算量也比较大，无法直接接入实时链路。 想请教大家： 1. 这个方向是否合理？ 2. 有没有成熟的轻量流式模型或开源方案？ 3.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237873#reply2
+
+---
+
+#### 9677. [V2EX] Linux .do 这注册流程属实给我整不会了
+
+**问题描述 / Problem Description**:
+linux.do 这注册流程属实给我整不会了 被 linux.do 折腾麻了，简单记录一下。 之前开放注册的时候，按要求写了好几篇小作文，愣是没过。 后来终于等到 GitHub 超过 6 年可以注册，寻思这回总行了吧。 结果注册的时候还得来回切梯子，折腾半天终于注册成功。 然后…… 一周没登录，账号没了。 好家伙。 前面写小作文、等开放条件、折腾网络，层层闯关，好不容易进去了，结果因为一周没登录直接收回。 我现在有点分不清这是在注册技术社区，还是在参加什么限时资格考试。 防机器人、防滥用我能理解，毕竟站长也有自己的考虑。 但普通用户的体验就是： 注册比考研难，保号比注册还难。 本来就是想进去看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237867#reply6
+
+---
+
+#### 9678. [V2EX] 用 Ai 写了个大 V 站的换肤油猴脚本，经常摸鱼的兄弟可以试一下，哈哈哈
+
+**问题描述 / Problem Description**:
+用 Ai 写了个大 V 站的换肤油猴脚本，经常摸鱼的兄弟可以试一下，哈哈哈 https://github.com/wanlinqiang/v2ex-vscode
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237851#reply5
+
+---
+
+#### 9679. [V2EX] AI 时代破解这么容易，那像有道/欧陆词典之类的软件怎么办？逻辑功能都是本地运行的，不需要服务器
+
+**问题描述 / Problem Description**:
+1 这些软件蔚来还能收到钱吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237844#reply23
+
+---
+
+#### 9680. [V2EX] 实在顶不住了,准备去香港买个 rtx 4090/24G 显卡
+
+**问题描述 / Problem Description**:
+各位有什么建议吗? 香港哪里比较好点?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237843#reply38
+
+---
+
+#### 9681. [V2EX] 国内的 Qoder、CodeBuddy、Trae CN 哪个好用点
+
+**问题描述 / Problem Description**:
+目前给团队开的是 cursor 企业版 premium 席位，额外的按量付费人均每月接近 2000 刀 成本有点太高了，codex 国内企业版开不了，只能在国内这几个里企业版选选。 问下大家这几个哪个好用点？ 另外问下 Qoder 里的极致是 opus 这些模型吗？ 或者有没有别的方案，企业版是刚需
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237834#reply21
+
+---
+
+#### 9682. How do I make cpu scheduler more conservative by default
+
+**问题描述 / Problem Description**:
+Tags: linux, cpu, fan | Score: 0 | Views: 16 | Answers: 2 | Created: 2026-08-28
+
+**解决方案 / Solution**:
+Just do nothing. Your "5.5 GHz max clock speed" is misleading, and probably a turbo speed that gets selected for very short (micro to milliseconds) burst of high load when CPU cores are neither limited by waiting for RAM or other cores, nor thermally limited. All relevant modern Linux distros ship configurations that usually "just do the right thing" for desktop usage. The symptoms you describe are exactly what you get by trying to smarter; you're probably now using more power for the same performance by going back to the more rigid old ondemand governor. Don't do that; stick with a sensible, distribution kernel and its defaults. idle around 1 GHz and only go to around the 5 under heavy load so I don't have to listen to this fan all the time mostly. The things your CPU does take nano- to microseconds. The usual method to safe power on average is to called " race to sleep ", i.e., you clock a CPU core high while there's work to do, and do that relatively aggressively. After the work then is done, put CPU cores to sleep, at which point their nominal clock rate doesn't matter much, as most of their circuitry is not connected to said clock. The time scales it takes for a slab of metal to get hot and hence the fan having to do anything are huge compared to the "burstiness" of compute workloads, and the times it takes to go to sleep and come back for CPU cores. So, your wish, while it does sound reasonable is probably not a good way to actually avoid having the fan spin up. You can of course hard limit overall performance, allowing you to reduce core voltage, so that even during the periods work is done less power is spent, but that means a complete CPU system and its support electronics have to be active for longer, because the work just takes time to get done. So, in most cases, you get, if any, little gain in power saved and thus in heat not produced, while you take a severe hit in performance. You typically avoid that, unless you really are power-limited (i.e., on a rapidly discharging battery).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807201/how-do-i-make-cpu-scheduler-more-conservative-by-default
+
+---
+
+#### 9683. "Error: syntax error, unexpected include, expecting end of file or newline or semicolon" in /etc/nftables.conf?
+
+**问题描述 / Problem Description**:
+Tags: debian, firewall, nftables | Score: 0 | Views: 42 | Answers: 2 | Created: 2026-08-26
+
+**解决方案 / Solution**:
+Most likely it is something in your included files. I cannot reproduce it. andrei@tumbleweed:~> cat nft.conf include "./file1" include "./file2" andrei@tumbleweed:~> nft -f nft.conf andrei@tumbleweed:~> The formal syntax also allows it: common_block : INCLUDE QUOTED_STRING stmt_separator stmt_separator : NEWLINE | SEMICOLON ; So NEWLINE terminates the include statement itself. But the content of the file is included verbatim and if it is not properly terminated you get an error. andrei@tumbleweed:~> cat file1 table inet filter { andrei@tumbleweed:~> nft -f nft.conf nft.conf:3:1-1: Error: syntax error, unexpected end of file include "./file2" ^ andrei@tumbleweed:~>
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807179/error-syntax-error-unexpected-include-expecting-end-of-file-or-newline-or-se
+
+---
+
+#### 9684. how to compile a Qt6 open source application on Linux with GNU make
+
+**问题描述 / Problem Description**:
+Tags: debian, qt, gnu-make | Score: 0 | Views: 75 | Answers: 1 | Created: 2026-02-16
+
+**解决方案 / Solution**:
+I want to compile a Qt6 open source application (a single file see tools/qt6refpersys.cc) using specifically GNU make (4.4, with GNU guile extension). make q6refpersys that's it; I just looked into GNUmakefile (which is one of the names Makefiles can take for GNU make ) and there was a target defined that contains that exact C++ source file you're referring to. Note that this will pull in dependent targets – the MOC file (that's a Qt specialty), and you will need to have all the build dependencies noted in Q6REFPERSYS_PACKAGES installed: q6refpersys: tools/q6refpersys.cc _q6refpersys-moc.cc |GNUmakefile $(CXX) -rdynamic -fPIE -fPIC -g -O $(CXXFLAGS) -DGITID='"$(GIT_ID)"' \ $(shell pkg-config --cflags $(Q6REFPERSYS_PACKAGES)) $< \ $(shell pkg-config --libs $(Q6REFPERSYS_PACKAGES)) -o $@ _q6refpersys-moc.cc: q6refpersys.cc |GNUmakefile $(REFPERSYS_QT6MOC) -DGITID='"$(GIT_ID)"' q6refpersys.cc > $@
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804518/how-to-compile-a-qt6-open-source-application-on-linux-with-gnu-make
+
+---
+
+#### 9685. ESC only works with shift+esc
+
+**问题描述 / Problem Description**:
+Tags: debian, kde, keyboard | Score: 0 | Views: 110 | Answers: 1 | Created: 2026-02-15
+
+**解决方案 / Solution**:
+Seems like the default weather widget on the desktop added a shortcut on esc catching every esc signal. For some reason the shortcut wasn't shown in the settings. Found the shortcut in ~/.config/kglobalshortcutsrc . Thanks for the help Stéphane Chazelas. Edit: After a bit of research, it seems as if I somehow clicked on the widget's shortcut config and then pressed esc to escape the config -- then forgetting I ever went there to configure something.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804481/esc-only-works-with-shiftesc
+
+---
+
+#### 9686. How to add new icons to Tango icon theme in my computer?
+
+**问题描述 / Problem Description**:
+Tags: debian, xfce, desktop-environment, theme, icons | Score: 0 | Views: 74 | Answers: 1 | Created: 2026-02-08
+
+**解决方案 / Solution**:
+The icon theme spec used by XFCE and most other desktop environments indicates that application icons should go in various directories underneath /usr/share/icons/tango . If your icons are for applications, stick them in their 48x48/apps directories and so on. Depending on the theme file index.theme , the directories might be named 48/apps or 48x48/apps and so on, but that will also be obvious by the directories that already exist. /usr/share is supposed to be for system-provided contents such as packages. Check if you can place your user-supplied theme components to ~/.local/share/icons/Tango/48/apps , before taking the next step. Once all the files are in place that you want, run sudo gtk-update-icon-cache /usr/share/icons/tango And re-run for any user-supplied top-level icon theme directory names you modified, e.g. gtk-update-icon-cache ~/.local/share/icons/tango If programs do not show new icons, try restarting the affected applications. If necessary, log out, and try again. Or even reboot.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804330/how-to-add-new-icons-to-tango-icon-theme-in-my-computer
+
+---
+
+#### 9687. How can you compare two initrd images that aren't built to be reproducible?
+
+**问题描述 / Problem Description**:
+Tags: debian, initramfs | Score: 0 | Views: 78 | Answers: 2 | Created: 2026-02-05
+
+**解决方案 / Solution**:
+Here is one method which uses the tool lsinitramfs -l this ignores the dates and provides the output to diff . This only checks file listings, with filesizes NOT hashes. #!/bin/bash set -euo pipefail if [[ $# -ne 2 ]]; then echo "Usage: $0 <initramfs1> <initramfs2>" >&2 exit 1 fi archive1="$1" archive2="$2" for f in "$archive1" "$archive2"; do if [[ ! -f "$f" ]]; then echo "Error: '$f' not found" >&2 exit 1 fi done # Extract metadata and remove timestamp columns (month, day, time/year) # lsinitramfs -l output: mode links owner group size month day time/year filename # We keep: mode, links, owner, group, size, filename (columns 1-5 and 9+) extract_metadata() { lsinitramfs -l "$1" 2>/dev/null | awk '{ printf "%s %s %s %s %s ", $1, $2, $3, $4, $5 for (i = 9; i <= NF; i++) { printf "%s", $i if (i < NF) printf " " } print "" }' | sort } diff <(extract_metadata "$archive1") <(extract_metadata "$archive2")
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804275/how-can-you-compare-two-initrd-images-that-arent-built-to-be-reproducible
+
+---
+
+#### 9688. Trouble with tkinter when installing Python via a version manger (pyenv) on Debian
+
+**问题描述 / Problem Description**:
+Tags: debian, python | Score: 0 | Views: 279 | Answers: 1 | Created: 2026-01-31
+
+**解决方案 / Solution**:
+The whole point of pyenv and other python env shenanigans is to isolate a python interpreter and its libraries and everything else in its environment from the host operating system. What this means is that you need to compile tkinter (packaged in Debian as python3-tk ) for whatever version of python you're using and make sure it's accessible in the isolated environment. You should also ask yourself: "Is there any particular reason why you need to use a different version of python3 rather than the debian packaged version?" And if the answer is "No", then use the debian packaged python.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/804136/trouble-with-tkinter-when-installing-python-via-a-version-manger-pyenv-on-debi
+
+---
+
+#### 9689. Share Brother scanner over local network for driverless scanning
+
+**问题描述 / Problem Description**:
+Tags: debian, scanner, sane, brother | Score: 0 | Views: 147 | Answers: 1 | Created: 2026-01-17
+
+**解决方案 / Solution**:
+Using AirSane did the trick. USB connected scanner can now be shared through the AirScan protocol
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803854/share-brother-scanner-over-local-network-for-driverless-scanning
+
+---
+
+#### 9690. nmcli will not down the interface
+
+**问题描述 / Problem Description**:
+Tags: debian, network-interface, nmcli | Score: 0 | Views: 142 | Answers: 1 | Created: 2026-01-17
+
+**解决方案 / Solution**:
+"down" means different things in different contexts. The "UP" in ip link tells you something about whether the card's hardware has detected a physical link on the ethernet layer and is actively keeping things such that the other end also detects itself as Ethernet device. nmcli connection 's "up" means that there's a communication link , typically IP-based and thus higher-level. NetworkManager "connections" are not the same as Linux "interfaces"! The fact that interface is "UP" is a requirement for NetworkManager (or anything else) to use the interface to establish a connection. It's not the same as functional communication! So, there's only a confusion of terms here. Everything is working as expected.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803832/nmcli-will-not-down-the-interface
+
+---
+
+#### 9691. How to discover what 'Storage' setting is being used by `journald`?
+
+**问题描述 / Problem Description**:
+Tags: debian, raspberry-pi, systemd-journald | Score: 0 | Views: 216 | Answers: 1 | Created: 2026-01-13
+
+**解决方案 / Solution**:
+Is there not a straightforward method to determine the Storage setting... something I could use in a small script? There isn't. Other systemd services like logind do support being interrogated for their live configuration via IPC (D-Bus or Varlink), but journald currently doesn't; it avoids D-Bus and its exposed Varlink interfaces are so far write-only. As far as I can see there is also no equivalent to foobard --print-config that some other software has. For future reference: varlinkctl introspect /run/systemd/journal/io.systemd.journal There are no "generic" offline-scripting tools because at syntax level it's unfortunately impossible to tell, in systemd's chosen config format, whether Foo=bar is a simple assignment or a list assignment (like ExecStart taking multiple values for example)… and the storage location can actually change on the fly – that is, the system always uses volatile storage until /var/log is mounted and journalctl --flush is used to tell it "you can start using persistent now", and on shutdown journalctl --relinquish-var does the opposite, all without actually changing config files. I do not understand the need for so many different locations for storing what seems to be a rather simple configuration parameter Generally there are only two: one for the distribution, and one for the end user (system admin), those being /usr/lib and /etc respectively. Unfortunately, "the distribution" is not a singular entity and consists of e.g. the upstream Debian systemd packagers and the downstream Raspbian integrators, and similarly "the sysadmin" is not a single entity and consists of a human and a raspi-config shell script acting on their behalf. That's how you end up with four, five files. higher numbers translate to higher priority Not exactly. Numbers are used for convenience, but it's the ASCII order that translates to priority (i.e. if you were to combine file names from both locations and pipe them through LC_ALL=C sort ). It just happens here that - sorts before 9 so it still works out with three digits. I can't help but wonder how something like this becomes a part of Linux?? The need to automatically deploy partial configs without having to either a) overwrite the whole config or b) blindly awk or sed the existing config into compliance. (As well as every project rolling its own config syntax, so as much as projects like Augeas try to make it unified, they just can't catch up.) For example, that's why you have multiple discrete init scripts in /etc/rc3.d/<numbers>* instead of always editing a single /etc/rc – so that packages could deploy their own additions. (Likewise /etc/apt/sources.list.d/ and /etc/cron.d/ and /etc/network/interfaces.d/ and many other things from the 1990s if not earlier.) Yours is also a direct example of that. The system allows your distribution to deploy a completely stock Debian systemd-journald and then overlay the distribution's own "rpi-volatile-storage.conf" preferences, without having to outright patch the systemd package or do messy stuff in a post_install script. (The same goes for the end-user raspi-config tool, which can put its garbage in a separate file instead of needing to directly edit the "main" journald.conf – possibly losing structure like user comments, like such attempts generally end up doing.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803711/how-to-discover-what-storage-setting-is-being-used-by-journald
+
+---
+
+#### 9692. Automatic debian installation with startup script at the end
+
+**问题描述 / Problem Description**:
+Tags: shell-script, debian, debian-installer, autostart, preseed | Score: 0 | Views: 321 | Answers: 2 | Created: 2026-01-04
+
+**解决方案 / Solution**:
+Sure, let me provide you this snippet, in your preseed.cfg file add this section: ############################ ### FIRST BOOT SCRIPT (ECHO SAFE) ############################ d-i preseed/late_command string \ in-target sh -c ' \ echo "#!/bin/bash" > /root/firstboot.sh; \ echo "set -e" >> /root/firstboot.sh; \ echo "" >> /root/firstboot.sh; \ echo "LOG=/root/firstboot.log" >> /root/firstboot.sh; \ echo "echo \"[firstboot] started\" >> \"\$LOG\"" >> /root/firstboot.sh; \ echo "" >> /root/firstboot.sh; \ echo "if grep -qi \"^[#[:space:]]*PermitRootLogin\" /etc/ssh/sshd_config; then" >> /root/firstboot.sh; \ echo " sed -i \"s/^[#[:space:]]*PermitRootLogin.*/PermitRootLogin yes/\" /etc/ssh/sshd_config" >> /root/firstboot.sh; \ echo "else" >> /root/firstboot.sh; \ echo " echo \"PermitRootLogin yes\" >> /etc/ssh/sshd_config" >> /root/firstboot.sh; \ echo "fi" >> /root/firstboot.sh; \ echo "" >> /root/firstboot.sh; \ echo "systemctl reload ssh || systemctl restart ssh || true" >> /root/firstboot.sh; \ echo "" >> /root/firstboot.sh; \ echo "echo \"[firstboot] finished\" >> \"\$LOG\"" >> /root/firstboot.sh; \ echo "echo done > /root/firstboot.done" >> /root/firstboot.sh; \ echo "" >> /root/firstboot.sh; \ echo "systemctl disable firstboot.service || true" >> /root/firstboot.sh; \ echo "rm -f /etc/systemd/system/firstboot.service" >> /root/firstboot.sh; \ #echo "rm -f /root/firstboot.sh" >> /root/firstboot.sh; \ echo "exit 0" >> /root/firstboot.sh; \ chmod 700 /root/firstboot.sh' || true; \ in-target sh -c ' \ echo "[Unit]" > /etc/systemd/system/firstboot.service; \ echo "Description=First boot post install script" >> /etc/systemd/system/firstboot.service; \ echo "After=network-online.target" >> /etc/systemd/system/firstboot.service; \ echo "Wants=network-online.target" >> /etc/systemd/system/firstboot.service; \ echo "" >> /etc/systemd/system/firstboot.service; \ echo "[Service]" >> /etc/systemd/system/firstboot.service; \ echo "Type=oneshot" >> /etc/systemd/system/firstboot.service; \ echo "ExecStart=/root/firstboot.sh" >> /etc/systemd/system/firstboot.service; \ echo "RemainAfterExit=yes" >> /etc/systemd/system/firstboot.service; \ echo "" >> /etc/systemd/system/firstboot.service; \ echo "[Install]" >> /etc/systemd/system/firstboot.service; \ echo "WantedBy=multi-user.target" >> /etc/systemd/system/firstboot.service' || true; \ in-target systemctl daemon-reexec || true; \ in-target systemctl enable firstboot.service || true I have commented the rm -f /root/firstboot.sh line so that is possible to review the created script after the installation, feel free to uncomment the line in order to delete it at the end.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803500/automatic-debian-installation-with-startup-script-at-the-end
+
+---
+
+#### 9693. idevicerestore: "Device failed to enter restore mode"
+
+**问题描述 / Problem Description**:
+Tags: debian, macos, libimobiledevice | Score: 0 | Views: 626 | Answers: 1 | Created: 2025-12-31
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803413/idevicerestore-device-failed-to-enter-restore-mode
+
+---
+
+#### 9694. No 5.1 sound after update to debian trixie
+
+**问题描述 / Problem Description**:
+Tags: debian, audio, pulseaudio, alsa, pipewire | Score: 0 | Views: 359 | Answers: 1 | Created: 2025-12-28
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803361/no-5-1-sound-after-update-to-debian-trixie
+
+---
+
+#### 9695. Trying to reinstall Steam via the official Debian documentation gets 'Warning: An error occurred during the signature verification [...]'
+
+**问题描述 / Problem Description**:
+Tags: debian, steam, signature | Score: 0 | Views: 514 | Answers: 1 | Created: 2025-12-23
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803261/trying-to-reinstall-steam-via-the-official-debian-documentation-gets-warning-a
+
+---
+
+#### 9696. New Debian system: apt can’t find ufw
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, ufw | Score: 0 | Views: 362 | Answers: 1 | Created: 2025-12-21
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803193/new-debian-system-apt-can-t-find-ufw
+
+---
+
+#### 9697. Using a BeagleBone Black as a read only USB-Mass Storage
+
+**问题描述 / Problem Description**:
+Tags: debian, storage, readonly, beagleboneblack | Score: 0 | Views: 129 | Answers: 1 | Created: 2025-12-19
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/803134/using-a-beaglebone-black-as-a-read-only-usb-mass-storage
+
+---
+
+#### 9698. 'journald' log file sizes remain unchanged
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd-journald | Score: 0 | Views: 248 | Answers: 2 | Created: 2025-12-08
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801911/journald-log-file-sizes-remain-unchanged
+
+---
+
+#### 9699. Controlling wifi power save
+
+**问题描述 / Problem Description**:
+Tags: debian, ssh, wifi, power-management | Score: 0 | Views: 557 | Answers: 1 | Created: 2025-11-28
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801706/controlling-wifi-power-save
+
+---
+
+#### 9700. Debian 13 switch to Nvidia proprietary drivers
+
+**问题描述 / Problem Description**:
+Tags: debian, drivers, nvidia | Score: 0 | Views: 2472 | Answers: 1 | Created: 2025-11-27
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801672/debian-13-switch-to-nvidia-proprietary-drivers
+
+---
+
+#### 9701. VLC notification speech bubble popups look bad and old - how to make it use KDE Plasma notifications?
+
+**问题描述 / Problem Description**:
+Tags: debian, vlc, notifications | Score: 0 | Views: 128 | Answers: 1 | Created: 2025-11-27
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801664/vlc-notification-speech-bubble-popups-look-bad-and-old-how-to-make-it-use-kde
+
+---
+
+#### 9702. No sound after upgrade to Debian 13 with KDE - how to get audio?
+
+**问题描述 / Problem Description**:
+Tags: debian, audio, pipewire | Score: 0 | Views: 2051 | Answers: 1 | Created: 2025-11-26
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801619/no-sound-after-upgrade-to-debian-13-with-kde-how-to-get-audio
+
+---
+
+#### 9703. How to disable autostarting of conmon?
+
+**问题描述 / Problem Description**:
+Tags: debian, container, podman, autostart | Score: 0 | Views: 222 | Answers: 2 | Created: 2025-11-25
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801601/how-to-disable-autostarting-of-conmon
+
+---
+
+#### 9704. Debian 13: localsearch (indexing service) is not indexing smb share on a Synology NAS mounted via the /etc/fstab file
+
+**问题描述 / Problem Description**:
+Tags: debian, cifs, smb, synology | Score: 0 | Views: 229 | Answers: 1 | Created: 2025-11-22
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801533/debian-13-localsearch-indexing-service-is-not-indexing-smb-share-on-a-synolog
+
+---
+
+#### 9705. Debian as client to several different (!) LDAP servers using LDAP/NSS / nss-pam-ldapd
+
+**问题描述 / Problem Description**:
+Tags: debian, ldap, nsswitch | Score: 0 | Views: 79 | Answers: 1 | Created: 2025-11-20
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801477/debian-as-client-to-several-different-ldap-servers-using-ldap-nss-nss-pam
 
 ---

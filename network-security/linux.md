@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3397**
+**总计条目 / Total entries: 3416**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -50011,5 +50011,233 @@ Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft E
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-28
+
+---
+
+#### 3398. CVE-2026-80489 - glibc: Non-progress DoS in SHIFT_JISX0213 -> UCS-4 conversion state
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: Non-progress DoS in SHIFT_JISX0213 -> UCS-4 conversion state. Bugzilla: 2524870
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+
+---
+
+#### 3399. CVE-2026-81893 - gdk-pixbuf: gdk-pixbuf: invalid write in JPEG ICC profile parser on error recovery
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gdk-pixbuf: gdk-pixbuf: invalid write in JPEG ICC profile parser on error recovery. Bugzilla: 2524834
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524834
+
+---
+
+#### 3400. CVE-2026-81658 - foreman: Cross-tenant disclosure of template revisions via unauthorized audit…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] foreman: Cross-tenant disclosure of template revisions via unauthorized audit lookup. Bugzilla: 2524899
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524899
+
+---
+
+#### 3401. CVE-2026-81668 - rubygem-katello: Cross-tenant Content View Filter rule access and modification via…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rubygem-katello: Cross-tenant Content View Filter rule access and modification via unauthorized parent filter lookup. Bugzilla: 2524928
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524928
+
+---
+
+#### 3402. CVE-2026-38350 - ffmpeg: FFmpeg: Integer overflow leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Integer overflow leads to Denial of Service. Bugzilla: 2525313
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525313
+
+---
+
+#### 3403. CVE-2026-38347 - ffmpeg: FFmpeg: Heap overflow vulnerability leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Heap overflow vulnerability leads to Denial of Service. Bugzilla: 2525314
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525314
+
+---
+
+#### 3404. CVE-2026-38348 - ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow. Bugzilla: 2525315
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525315
+
+---
+
+#### 3405. CVE-2026-38343 - ffmpeg: FFmpeg: Denial of Service via integer overflow in video scaling
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via integer overflow in video scaling. Bugzilla: 2525320
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525320
+
+---
+
+#### 3406. CVE-2026-38345 - ffmpeg: FFmpeg: Denial of Service via division-by-zero vulnerability in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via division-by-zero vulnerability in `ff_sws_init_single_context` function.. Bugzilla: 2525325
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525325
+
+---
+
+#### 3407. CVE-2026-38346 - ffmpeg: FFmpeg: Denial of Service via crafted video file due to integer overflow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted video file due to integer overflow. Bugzilla: 2525326
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525326
+
+---
+
+#### 3408. CVE-2026-38349 - ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow. Bugzilla: 2525327
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525327
+
+---
+
+#### 3409. CVE-2026-38344 - ffmpeg: FFmpeg: Denial of Service via crafted video file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted video file. Bugzilla: 2525330
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525330
+
+---
+
+#### 3410. CVE-2026-80206 - nltk: NLTK: Denial of Service vulnerability in tgrep module
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Denial of Service vulnerability in tgrep module. Bugzilla: 2524336
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524336
+
+---
+
+#### 3411. CVE-2026-80205 - nltk: NLTK: Denial of Service via unvalidated regular expressions
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Denial of Service via unvalidated regular expressions. Bugzilla: 2524331
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524331
+
+---
+
+#### 3412. CVE-2026-78002 - rsyslog: rsyslog: Denial of service via heap buffer overflow in RainerScript…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] rsyslog: rsyslog: Denial of service via heap buffer overflow in RainerScript replace() function. Bugzilla: 2521135
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521135
+
+---
+
+#### 3413. CVE-2026-80179 - jwcrypto: jwcrypto: Denial of Service via malformed JWE tokens
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] jwcrypto: jwcrypto: Denial of Service via malformed JWE tokens. Bugzilla: 2524147
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524147
+
+---
+
+#### 3414. CVE-2026-80524 - kernel: optee: ffa: Add NULL check in optee_ffa_lend_protmem
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: optee: ffa: Add NULL check in optee_ffa_lend_protmem. Bugzilla: 2524417
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524417
+
+---
+
+#### 3415. CVE-2026-80554 - kernel: s390/vfio_ccw: Limit the number of channel program segments
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/vfio_ccw: Limit the number of channel program segments. Bugzilla: 2524419
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524419
+
+---
+
+#### 3416. CVE-2026-80547 - kernel: s390/vfio_ccw: Implement a crw lock
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/vfio_ccw: Implement a crw lock. Bugzilla: 2524420
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524420
 
 ---

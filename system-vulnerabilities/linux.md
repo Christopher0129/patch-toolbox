@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3115**
+**总计条目 / Total entries: 3134**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -56286,5 +56286,309 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/LSN-0121-1
+
+---
+
+#### 3116. CVE-2026-80489 - glibc: Non-progress DoS in SHIFT_JISX0213 -> UCS-4 conversion state
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: Non-progress DoS in SHIFT_JISX0213 -> UCS-4 conversion state. Bugzilla: 2524870
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+
+---
+
+#### 3117. CVE-2026-81893 - gdk-pixbuf: gdk-pixbuf: invalid write in JPEG ICC profile parser on error recovery
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gdk-pixbuf: gdk-pixbuf: invalid write in JPEG ICC profile parser on error recovery. Bugzilla: 2524834
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524834
+
+---
+
+#### 3118. CVE-2026-81658 - foreman: Cross-tenant disclosure of template revisions via unauthorized audit…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] foreman: Cross-tenant disclosure of template revisions via unauthorized audit lookup. Bugzilla: 2524899
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524899
+
+---
+
+#### 3119. CVE-2026-81668 - rubygem-katello: Cross-tenant Content View Filter rule access and modification via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rubygem-katello: Cross-tenant Content View Filter rule access and modification via unauthorized parent filter lookup. Bugzilla: 2524928
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524928
+
+---
+
+#### 3120. CVE-2026-38350 - ffmpeg: FFmpeg: Integer overflow leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Integer overflow leads to Denial of Service. Bugzilla: 2525313
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525313
+
+---
+
+#### 3121. CVE-2026-38347 - ffmpeg: FFmpeg: Heap overflow vulnerability leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Heap overflow vulnerability leads to Denial of Service. Bugzilla: 2525314
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525314
+
+---
+
+#### 3122. CVE-2026-38348 - ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow. Bugzilla: 2525315
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525315
+
+---
+
+#### 3123. CVE-2026-38343 - ffmpeg: FFmpeg: Denial of Service via integer overflow in video scaling
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via integer overflow in video scaling. Bugzilla: 2525320
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525320
+
+---
+
+#### 3124. CVE-2026-38345 - ffmpeg: FFmpeg: Denial of Service via division-by-zero vulnerability in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via division-by-zero vulnerability in `ff_sws_init_single_context` function.. Bugzilla: 2525325
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525325
+
+---
+
+#### 3125. CVE-2026-38346 - ffmpeg: FFmpeg: Denial of Service via crafted video file due to integer overflow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted video file due to integer overflow. Bugzilla: 2525326
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525326
+
+---
+
+#### 3126. CVE-2026-38349 - ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted image file due to integer overflow. Bugzilla: 2525327
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525327
+
+---
+
+#### 3127. CVE-2026-38344 - ffmpeg: FFmpeg: Denial of Service via crafted video file
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: FFmpeg: Denial of Service via crafted video file. Bugzilla: 2525330
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525330
+
+---
+
+#### 3128. CVE-2026-80206 - nltk: NLTK: Denial of Service vulnerability in tgrep module
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Denial of Service vulnerability in tgrep module. Bugzilla: 2524336
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524336
+
+---
+
+#### 3129. CVE-2026-80205 - nltk: NLTK: Denial of Service via unvalidated regular expressions
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nltk: NLTK: Denial of Service via unvalidated regular expressions. Bugzilla: 2524331
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524331
+
+---
+
+#### 3130. CVE-2026-78002 - rsyslog: rsyslog: Denial of service via heap buffer overflow in RainerScript…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rsyslog: rsyslog: Denial of service via heap buffer overflow in RainerScript replace() function. Bugzilla: 2521135
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521135
+
+---
+
+#### 3131. CVE-2026-80179 - jwcrypto: jwcrypto: Denial of Service via malformed JWE tokens
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] jwcrypto: jwcrypto: Denial of Service via malformed JWE tokens. Bugzilla: 2524147
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524147
+
+---
+
+#### 3132. CVE-2026-80524 - kernel: optee: ffa: Add NULL check in optee_ffa_lend_protmem
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: optee: ffa: Add NULL check in optee_ffa_lend_protmem. Bugzilla: 2524417
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524417
+
+---
+
+#### 3133. CVE-2026-80554 - kernel: s390/vfio_ccw: Limit the number of channel program segments
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/vfio_ccw: Limit the number of channel program segments. Bugzilla: 2524419
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524419
+
+---
+
+#### 3134. CVE-2026-80547 - kernel: s390/vfio_ccw: Implement a crw lock
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: s390/vfio_ccw: Implement a crw lock. Bugzilla: 2524420
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524420
 
 ---

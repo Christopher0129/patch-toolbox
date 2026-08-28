@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1179**
+**总计条目 / Total entries: 1199**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -18895,5 +18895,325 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-70464
+
+---
+
+#### 1180. [Microsoft] CVE-2026-79236 - Chromium: CVE-2026-79236 Type confusion in V8
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79236
+
+---
+
+#### 1181. [Microsoft] CVE-2026-79214 - Chromium: CVE-2026-79214 Improper input validation in Preload
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79214
+
+---
+
+#### 1182. [Microsoft] CVE-2026-79291 - Chromium: CVE-2026-79291 Information leak in CSS
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79291
+
+---
+
+#### 1183. [Microsoft] CVE-2026-79094 - Chromium: CVE-2026-79094 Race condition in Workers
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79094
+
+---
+
+#### 1184. [Microsoft] CVE-2026-79290 - Chromium: CVE-2026-79290 Use after free in Aura
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79290
+
+---
+
+#### 1185. [Microsoft] CVE-2026-79270 - Chromium: CVE-2026-79270 Uninitialized resource in ANGLE
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79270
+
+---
+
+#### 1186. [Microsoft] CVE-2026-79242 - Chromium: CVE-2026-79242 Observable discrepancy in HTML
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79242
+
+---
+
+#### 1187. [Microsoft] CVE-2026-79054 - Chromium: CVE-2026-79054 Use after free in Chromecast
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79054
+
+---
+
+#### 1188. [Microsoft] CVE-2026-79231 - Chromium: CVE-2026-79231 Buffer overflow in Media
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79231
+
+---
+
+#### 1189. [Microsoft] CVE-2026-79089 - Chromium: CVE-2026-79089 Race condition in Transactions Platform
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79089
+
+---
+
+#### 1190. [Microsoft] CVE-2026-79230 - Chromium: CVE-2026-79230 Improper input validation in ANGLE
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79230
+
+---
+
+#### 1191. [Microsoft] CVE-2026-79088 - Chromium: CVE-2026-79088 Incorrect authorization in FileSystem
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79088
+
+---
+
+#### 1192. [Microsoft] CVE-2026-78991 - Chromium: CVE-2026-78991 Race condition in WebProtect
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-78991
+
+---
+
+#### 1193. [Microsoft] CVE-2026-79229 - Chromium: CVE-2026-79229 Uninitialized resource in ANGLE
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79229
+
+---
+
+#### 1194. [Microsoft] CVE-2026-78990 - Chromium: CVE-2026-78990 Use after free in Compositing
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-78990
+
+---
+
+#### 1195. [Microsoft] CVE-2026-79228 - Chromium: CVE-2026-79228 Incorrect authorization in SiteIsolation
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79228
+
+---
+
+#### 1196. [Microsoft] CVE-2026-78989 - Chromium: CVE-2026-78989 Out of bounds read in ANGLE
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-78989
+
+---
+
+#### 1197. [Microsoft] CVE-2026-78987 - Chromium: CVE-2026-78987 Information leak in Canvas
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-78987
+
+---
+
+#### 1198. [Microsoft] CVE-2026-79227 - Chromium: CVE-2026-79227 Type confusion in DevTools
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79227
+
+---
+
+#### 1199. [Microsoft] CVE-2026-79120 - Chromium: CVE-2026-79120 Uninitialized resource in ANGLE
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome.  Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-79120
 
 ---
