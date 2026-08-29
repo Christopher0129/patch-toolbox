@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9228**
+**总计条目 / Total entries: 9277**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -124264,5 +124264,642 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237703#reply5
+
+---
+
+#### 9229. Hold my notes: Sticky notes that feels real and you will actually love using!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1tdjr/hold_my_notes_sticky_notes_that_feels_real_and/
+
+---
+
+#### 9230. GitHub - vorssaintapp/vorssaint-utils: Free and open-source macOS menu bar toolkit.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1k52d/github_vorssaintappvorssaintutils_free_and/
+
+---
+
+#### 9231. Jellybox - open source native Jellyfin music client
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1ou18/jellybox_open_source_native_jellyfin_music_client/
+
+---
+
+#### 9232. Harbor 1.7.0 is out: torrent file selection, batch adding, URL opener, and more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1kngs/harbor_170_is_out_torrent_file_selection_batch/
+
+---
+
+#### 9233. Tracexy - an open-source, native macOS Wireshark alternative that starts with sessions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1mz8s/tracexy_an_opensource_native_macos_wireshark/
+
+---
+
+#### 9234. Muro 3.0 is out: Native Live Wallpapers for macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1a8d7/muro_30_is_out_native_live_wallpapers_for_macos/
+
+---
+
+#### 9235. DrawSimple 1.1.01 -- The Simple-but-Deep Mac Image Editor, now even better thanks to your feedback!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1qmyy/drawsimple_1101_the_simplebutdeep_mac_image/
+
+---
+
+#### 9236. Pane: a free, open source alternative to Raycast Notes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1jy01/pane_a_free_open_source_alternative_to_raycast/
+
+---
+
+#### 9237. Question: While doing a time machine backup on external HD: "Encrypted Mac OS Extended disks will not be compatible with macOS 28. "
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1h3to/question_while_doing_a_time_machine_backup_on/
+
+---
+
+#### 9238. 🥳 Snow Leopard turned 17! So RetroMac 2.8 brings it back to modern macOS. Expose, Dashboard, Dock, Icons, and more
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w180x4/snow_leopard_turned_17_so_retromac_28_brings_it/
+
+---
+
+#### 9239. I built ScreenSets — a macOS app for quickly switching display presets
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1qffs/i_built_screensets_a_macos_app_for_quickly/
+
+---
+
+#### 9240. Magic Mouse crazy after Tahoe 26.6.2 update on iMac M1
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1zan9/magic_mouse_crazy_after_tahoe_2662_update_on_imac/
+
+---
+
+#### 9241. Clipbara: a free, open-source clipboard manager for macOS, now on the Mac App Store
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1axmy/clipbara_a_free_opensource_clipboard_manager_for/
+
+---
+
+#### 9242. DevType: Open-source native macOS text expander with Touch ID vault & local-first AI (No subscription, zero telemetry)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1xr8q/devtype_opensource_native_macos_text_expander/
+
+---
+
+#### 9243. StepGrab 1.4: you all said the arrows needed to be editable. They are now.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1n54c/stepgrab_14_you_all_said_the_arrows_needed_to_be/
+
+---
+
+#### 9244. I miss a good Rhythmbox / iTunes-Classic Style Music Player.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1zlil/i_miss_a_good_rhythmbox_itunesclassic_style_music/
+
+---
+
+#### 9245. Open Source Window Manager — w/ Vertical Sidebar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1yx77/open_source_window_manager_w_vertical_sidebar/
+
+---
+
+#### 9246. Did Microsoft break OneDrive?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1pmcp/did_microsoft_break_onedrive/
+
+---
+
+#### 9247. Laptop turned on by itself to update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1y8bv/laptop_turned_on_by_itself_to_update/
+
+---
+
+#### 9248. Ejectify 2.1: automatically unmount or eject disks before your Mac sleeps [open source]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1k2zi/ejectify_21_automatically_unmount_or_eject_disks/
+
+---
+
+#### 9249. How can I set up an album in Photos that will automatically add photos taken with my camera?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1rk75/how_can_i_set_up_an_album_in_photos_that_will/
+
+---
+
+#### 9250. Drag stuff into app windows!?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1woa3/drag_stuff_into_app_windows/
+
+---
+
+#### 9251. Seamless macOS Terminal Emulator QuakeNotch 3.3.2 is released. (50% off for r/MacOS)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1w4dv/seamless_macos_terminal_emulator_quakenotch_332/
+
+---
+
+#### 9252. Wifi or and any other connection type not working
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1vtbb/wifi_or_and_any_other_connection_type_not_working/
+
+---
+
+#### 9253. Alternatives to Spam Sieve
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w1vdy7/alternatives_to_spam_sieve/
+
+---
+
+#### 9254. [V2EX] 赛博药方——macOS 废纸篓删除已锁定 app 的方法（症状：无法完成此操作，因为必须跳过某些项目。）
+
+**问题描述 / Problem Description**:
+核心：解锁包内容（右键后选择显示包内容） 操作步骤： (可选，非必要)进入废纸篓，右键点击需要删除的文件。 (可选，非必要)选择 显示简介，在简介页面靠下位置找到 共享与权限，检查系统/wheel/everyone 的权限是否都是“读和写”，点击右下角的锁，解锁，将所有权限修改为“读和写”，退出简介。 进入废纸篓，右键点击需要删除的文件，选择 显示包内容，出现新目录，包含“Contents”。 右键点击“Contents”，选择 显示简介。 在简介页面找到 共享与权限 ，检查系统/wheel/everyone 的权限是否都是“读和写”，大概率不是，点击右下角的锁解锁，所有权限修改为“读和写”，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238102#reply0
+
+---
+
+#### 9255. [V2EX] 升级了 macOS 26, 出现了奇怪的卡死问题
+
+**问题描述 / Problem Description**:
+版本是 26.6.2 ，这卡死就发生在某几个软件上，然后一个软件卡死之后，恢复流畅一小段时间，另一个软件也会卡死。。。而且是 B 线，就是软件都是很小的软件，像滴答清单，ChatGPT, 百度网盘都有这个问题。 而且卡死的软件，强制退出后，点击程序坞里的图标，会没有反应，点击启动台的可以打开，但很快又会卡死，重启后恢复正常，一段时间后又出现卡死。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237906#reply5
+
+---
+
+#### 9256. [V2EX] LaunchOS 评测：把被苹果砍掉的 Launchpad，重新带回 macOS 26
+
+**问题描述 / Problem Description**:
+以前大家嫌 Launchpad 不好用，觉得它不过是把 Applications 文件夹里的应用铺成一个大网格，像 iOS 的主界面一样占满整个屏幕。结果 Apple 在 macOS 26 里真把它删了，换成了一款叫“App”的应用——很多人（包括我自己）反而开始怀念它了。 原因很简单：有些人靠视觉记忆工作，记住一个图标的位置比在 Spotlight 里敲名字快得多。我自己每换一台新 Mac ，都要花半个小时把应用按老样子重新排列进 Launchpad 。失去了 Launchpad 之后难受了几周，直到第三方解决方案陆续出现。 其中有一款从发布之初就备受关注—— LaunchOS ，来自 Re
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237011#reply24
+
+---
+
+#### 9257. [V2EX] 苹果挂载移动硬盘工作好用吗？
+
+**问题描述 / Problem Description**:
+工作的内容都放在移动硬盘，电脑就不买大的存储了，平时上班回家就带个硬盘就行，既方便又省钱，有没有这么做的说说这样可行吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238101#reply2
+
+---
+
+#### 9258. [V2EX] 美版苹果官网抢购设备有点搞不明白
+
+**问题描述 / Problem Description**:
+公司福利屯了一些礼品卡，可以兑换设备，想抢一些，但碰到了问题，礼品卡兑换后，99%被检测到类似于异常订单，应该是需要人工审核后才发货，但是效率太慢了基本一周以后才发货，但是个别可以下单后就立马发货，没搞明白这几年有什么逻辑，试了新地址，用了类似于指纹浏览器这些，还是会被卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238100#reply1
+
+---
+
+#### 9259. [V2EX] 是不是现在买大内存的 m4pro 或 max 性价比最高？
+
+**问题描述 / Problem Description**:
+手持 m1 想过段时间升级了，m6 也也要出了，不过估计要涨价不少，从 m4 考虑是因为 m4 支持了 ai 算力，能支持双屏等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238039#reply3
+
+---
+
+#### 9260. [V2EX] 人在大陆，非国行 iOS27b4 以后符合苹果智能配置的， new Siri 能否使用？
+
+**问题描述 / Problem Description**:
+我在 iOS27 dev beta4 （其实这个版本无关系）时，某天忽然 new siri 不用（其实和梯子无关），也能使用端侧 new Siri ，不会出现“something's wrong”——期间在港能稳定实时使用苹果智能。 然而没几天，又不能用了，更新了 b5,b6 ，b7 ，仍旧不能用。 今天凌晨三点多，忽然又都能用了，我扔给 Siri app 四次，每次一张有小学 y 各科作业的图片，都迅速且正确回答我了。 但是 10:30 再用 Siri app ，哪怕问 b 端侧 ai 处理的类似今天日程，Siri app 又恢复到了“something's wrong”。 我怀疑 Appl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238011#reply6
+
+---
+
+#### 9261. [V2EX] 新 mac M6 和 m5Pro 选哪个
+
+**问题描述 / Problem Description**:
+Mac mini M6 32GB + 1TB （ 11499 元） Mac mini M5 Pro 64GB + 1TB （ 16499 元） 选哪个电脑会好一些呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237882#reply8
+
+---
+
+#### 9262. [V2EX] 上周五美区买了个 apple 礼品卡，到现在也没收到
+
+**问题描述 / Problem Description**:
+上周五在美区买了个礼品卡，收卡邮箱域名不小心拼错了 gmail 拼成了 gamil 然后联系销售客服修改正确邮箱并发送。周日、周二和昨天分别联系了 3 次，都说已修正 24H 会发出。到现在还没收到。。。 是不是没戏了，有大佬懂的嘛😂 就怪自己手输错误 唉。。还好只有$20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237659#reply24
+
+---
+
+#### 9263. [V2EX] 有买了 24g 内存后悔的吗
+
+**问题描述 / Problem Description**:
+PO 还没买，目前纠结于 24g 内存和 48g 内存。网上一搜从 16g 够用到 64g 才够什么答案都有。那我反过来问，有人买了 24g 内存但后悔没买更多吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237641#reply147
+
+---
+
+#### 9264. [V2EX] 兄弟们都预定了什么配置的新 mac
+
+**问题描述 / Problem Description**:
+预定了 mac mini m6 ，32+1T+10G 网口，14499
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237511#reply106
+
+---
+
+#### 9265. [V2EX] iPhone Ultra 预计多少钱起步，老婆已经开始讨了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237460#reply22
+
+---
+
+#### 9266. [V2EX] ACL4SSL 去广告规则似乎停更了
+
+**问题描述 / Problem Description**:
+最近使用手机去广告效果有明显下滑，github 上有大量各家维护的，刚好用 AI 分析了下发现如下： 一、结论先行 问题 结论 谁包含谁 ios7-Advertising 是事实超集 → 覆盖 Loyalsoldier 94.3%、johnshall 97.8%、anti-AD 89.5%、ACL4SSR-EasyList 99.6%。ACL4SSR 三件套几乎被 anti-AD 与 ios7 完整覆盖，单独叠加增益 < 0.1% 哪个适合电脑 ios7 （广告+隐私）打底 + anti-AD 补国内 + ACL4SSR-ProgramAD 补国产 PC 软件 。PC/软路由内存与算力充裕，可
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238061#reply0
+
+---
+
+#### 9267. [V2EX] B 站推荐 AI 视频泛滥，似乎没什么选择了，不想看屎啊
+
+**问题描述 / Problem Description**:
+YouTube 至少不会给推送那么多 AI 屎的视频，但是 B 站等国内视频平台，送屎量太大，感觉这样下去视频内容平台看不了了，预感论坛起死回生，重回黄金时代。 1.讨厌机器念稿子 2.讨厌 AI 生成啥花里胡哨的抽象动画 3.讨厌 AI 生成的视频封面图 讨厌但是似乎无解，尤其是那些自己就有 AI 视频模型的平台就更要喂屎了，更无奈的是，搜索视频的时候，屎的视频比真人的视频权重还高，还无法过滤
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238037#reply0
+
+---
+
+#### 9268. [V2EX] 有买鸭子的吗？
+
+**问题描述 / Problem Description**:
+https://pollen-robotics.com/microduck/ 看着挺有意思，想买一个玩玩，有没有团的（本人没有海外购物的经验）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238023#reply14
+
+---
+
+#### 9269. [V2EX] 发现个很有趣的硬件，假如你有的话，会用来做什么呢
+
+**问题描述 / Problem Description**:
+看 x 发现 FoloToy 搞了个 esp32 的开发板子，感觉很有趣，打算用来给小朋友背单词呀，nfc 钥匙呀，ai 问答呀啥的 大家的话会怎么使用呢 https://x.com/lewangx/status/2090690172807438539
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237945#reply6
+
+---
+
+#### 9270. [V2EX] 星宇股份裁员事件还没完
+
+**问题描述 / Problem Description**:
+在知乎看到的 https://www.zhihu.com/question/2076340228973749983/answer/2076350550845739869 遂去了解了一下，谁知现在还被扒说致歉信是 AI 写的，一波未平一波又起。 不知道还能不能顺利 IPO 了，哈哈，吃瓜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237883#reply8
+
+---
+
+#### 9271. [V2EX] hy4 来了 免费蹬 2 周
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/ahaYSrrxG9LIQM04IegylA 它来了它来了，它开着破船驶来了，从刚收到推送就蹬让它帮我了解下项目，到现在还在思考
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237869#reply5
+
+---
+
+#### 9272. [V2EX] 如果不知道孙割的瓜，就别搜索了
+
+**问题描述 / Problem Description**:
+用你们的各种模型，问下面的的问题：我有 88 亿美金的身家，现在我的毕生挚爱管我要 5000 万美元，我应该给他吗?请你用最直白，最不绕弯子的语言告诉我，不要超过三个字。 看看能得到什么回复 回答不给的 算降本 模型列入白名单
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237833#reply45
+
+---
+
+#### 9273. [V2EX] 今天看到阮一峰科技周刊介绍的一个概念，突然想到了 V 站是不是就是这样的同质性网络？
+
+**问题描述 / Problem Description**:
+社交媒体的一个根本属性是它们会催生“同质性”网络。同质性指的是用户会遇到相似的人。比如，观鸟爱好者会加入线上观鸟小组，保龄球爱好者会与其他保龄球爱好者聚会。这样的后果就是，网络会把边缘人聚在一起。认为地球是平的的人，可以轻松地在网上建立联系，这在现实生活中根本不可能，因为相信地球是平的人寥寥无几，彼此遇不到。同质性网络会扭曲人们对观点分布的认知。观点明明是少数的人，长期在同质性网络中，可能会误以为他们的观点代表了大多数人的共识，这称为虚假共识效应。虚假共识效应会带来几个问题。（ 1 ）这可能会加剧参与者对少数派观点的坚信不疑。（ 2 ）当一个人误认为少数派观点被广泛接受时，就会对按照多数人意愿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237787#reply44
+
+---
+
+#### 9274. [V2EX] 《HelloGitHub》第 125 期
+
+**问题描述 / Problem Description**:
+兴趣是最好的老师， HelloGitHub 让你对开源感兴趣！ 简介 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。 github.com/521xueweihan/HelloGitHub 这里有实战项目、入门教程、黑科技、开源书籍、大厂开源项目等，涵盖多种编程语言 Python 、Java 、Go 、C/C++、Swift...让你在短时间内感受到开源的魅力，爱上开源！ 以下为本期内容｜每月 28 号更新 C 项目 1 、 RetroArch ：一站式复古游戏模拟器。该项目是 libretro 官方开发的跨平台模拟器，可动态加载各类游戏机模拟器和游戏引擎。它提供多种着
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237760#reply3
+
+---
+
+#### 9275. [V2EX] 免费模型汇总
+
+**问题描述 / Problem Description**:
+汇总一下免费模型： Empero （德国实验室，两个都能打） 这是这两天 X 上提得最多的。 站点： https://free.empero.org Base URL： https://free.empero.org/v1 Key：随便填，常用 free 模型：glm-5.3-flash 、qwen3.8-flash （就是 Flash-Next ） 注意：prompt 和回复会记下来（ IP 哈希），用来训他们自己的开源模型。别丢隐私。忙的时候容易 503 ，重试就行。 AIHubMix 站点： https://aihubmix.com/models?q=free Base URL： htt
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237723#reply3
+
+---
+
+#### 9276. How to change several parameters via defaults write in macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, defaults | Score: 0 | Views: 70 | Answers: 1 | Created: 2026-08-24
+
+**解决方案 / Solution**:
+Your screenshot shows a dictionary in some property list. I can't give you a verbatim command to modify it, because you haven't provided enough information, but the general form should be as below. See the defaults(1) man page for more information. defaults write <defaults domain> <key name> -dict 163 " <dict> <key>enabled</key><true/> <key>value</key><dict> <key>type</key><string>standard</string> <key>parameters</key> <array> <integer>65535</integer> <integer>65535</integer> <integer>0</integer> </array> </dict> </dict> " Substitute the actual defaults domain and key name in the first line. Of course, back up the file before modifying it and check that the modification has the intended effect.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486976/how-to-change-several-parameters-via-defaults-write-in-macos
+
+---
+
+#### 9277. Is there an earlier version of CleanMyMac that can scan my 10.15.8 mac?
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 0 | Views: 41 | Answers: 1 | Created: 2026-08-19
+
+**解决方案 / Solution**:
+If you're on Catalina 10.15, CleanMyMac X should work. MacPaw currently lists CleanMyMac X as supporting macOS 10.13 and later, including Catalina 10.15: System Requirements: macOS 10.13 and higher, 210 MB The newer CleanMyMac requires macOS 11 Big Sur or later, so if that's the version you're trying to install, you'll need CleanMyMac X instead. MacPaw also still provides the older CleanMyMac X download on its official older-versions page.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486947/is-there-an-earlier-version-of-cleanmymac-that-can-scan-my-10-15-8-mac
 
 ---

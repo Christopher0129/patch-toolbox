@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3416**
+**总计条目 / Total entries: 3420**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -50239,5 +50239,53 @@ Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft E
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2524420
+
+---
+
+#### 3417. CVE-2026-56854 - golang.org/x/crypto/ssh: golang.org/x/crypto/ssh: Authentication bypass due to…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] golang.org/x/crypto/ssh: golang.org/x/crypto/ssh: Authentication bypass due to unenforced source-address restrictions. Bugzilla: 2525639
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525639
+
+---
+
+#### 3418. CVE-2026-82327 - libsolv: libsolv: out-of-bounds write in repo_write() via unvalidated directory id…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libsolv: libsolv: out-of-bounds write in repo_write() via unvalidated directory id from vertical/paged .solv filelist data. Bugzilla: 2525602
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525602
+
+---
+
+#### 3419. [Gentoo] GLSA 202608-33: Freenet: Deanonymization Vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in Freenet, where an XSS vulnerability could lead to deanonymization.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-33
+
+---
+
+#### 3420. [Gentoo] GLSA 202608-32: Tor: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Tor, the worst of which could allow remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-32
 
 ---

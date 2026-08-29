@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9705**
+**总计条目 / Total entries: 9739**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -134136,5 +134136,447 @@ Refer to the original page for detailed solutions and community answers.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/801477/debian-as-client-to-several-different-ldap-servers-using-ldap-nss-nss-pam
+
+---
+
+#### 9706. Introducing ReactOS 0.4.16
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1v5fb/introducing_reactos_0416/
+
+---
+
+#### 9707. Audacious into Winamp
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1mlf3/audacious_into_winamp/
+
+---
+
+#### 9708. California Passes AB-1856 For Open-Source Relief Over Age Verification
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1tgtf/california_passes_ab1856_for_opensource_relief/
+
+---
+
+#### 9709. Linux Commands Cheatsheet!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1rn66/linux_commands_cheatsheet/
+
+---
+
+#### 9710. The playstation finally running kernel 2.4.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w16awe/the_playstation_finally_running_kernel_240/
+
+---
+
+#### 9711. ipad mini1(apple A5) running linux on custom iBEC. No XNU. Custom IRQ driver
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1wcnf/ipad_mini1apple_a5_running_linux_on_custom_ibec/
+
+---
+
+#### 9712. Debian Votes To Allow "Responsible Use Of Generative AI"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w18u7l/debian_votes_to_allow_responsible_use_of/
+
+---
+
+#### 9713. Check out this VST player to run Windows and Linux VSTs all on Linux and in one place!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1notn/check_out_this_vst_player_to_run_windows_and/
+
+---
+
+#### 9714. Debian Not banning AI - Proposal 5: Responsible Use of Generative AI wins GR vote
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w17h02/debian_not_banning_ai_proposal_5_responsible_use/
+
+---
+
+#### 9715. Surface Pro 7 Linux touchscreen browsing feels way better after these tweaks
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1uvtf/surface_pro_7_linux_touchscreen_browsing_feels/
+
+---
+
+#### 9716. Why is there a correlation between Linux usage and chest pain?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1zkdy/why_is_there_a_correlation_between_linux_usage/
+
+---
+
+#### 9717. Meet the Board!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1p5nt/meet_the_board/
+
+---
+
+#### 9718. Yanklog — a local, encrypted, keyboard-first clipboard history manager for Linux (open source, MIT)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1o5kp/yanklog_a_local_encrypted_keyboardfirst_clipboard/
+
+---
+
+#### 9719. BootPrep 2.0: Making Snapper Rollbacks Bootable on Debian and Arch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1goc1/bootprep_20_making_snapper_rollbacks_bootable_on/
+
+---
+
+#### 9720. Mainstream OS misses the point
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w1mwyq/mainstream_os_misses_the_point/
+
+---
+
+#### 9721. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply74
+
+---
+
+#### 9722. [V2EX] 独立做了一个 Mac 语音输入工具，终于有了第一个付费用户，却高兴不起来了
+
+**问题描述 / Problem Description**:
+先自报家门，我做了一个 Mac AI 语音输入工具，叫 Openbroca ，官网是 openbroca.com 。 今天终于收到了第一个真实付费用户。 我原本以为自己会很开心，可能会截图纪念，或者找朋友喝一杯。真正看到订单的时候，我只是盯着后台确认了几遍，然后长出了一口气。 第一笔收入当然值得记录，可我心里更多的感觉是累。 Openbroca 最早来源于我自己的需求。我在 Mac 上写邮件、文档和长消息时，经常觉得思考速度比打字快很多。普通语音输入又会保留大量停顿、重复和口头语，最后还要重新修改一遍。 所以我做了 Openbroca 。 按下快捷键直接说话，它会把自然口述整理成清晰文字，再写
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238099#reply9
+
+---
+
+#### 9723. [V2EX] 1stformations 不支持大陆地区后，大家怎么注册英国公司？
+
+**问题描述 / Problem Description**:
+rt 。 最近在考虑设立海外公司的问题，最终属意英国。检索了一下发现 1stformations 不支持大陆地区注册了，请问大家有没有新的办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238098#reply1
+
+---
+
+#### 9724. [V2EX] AI 时代，软件已经不值钱了
+
+**问题描述 / Problem Description**:
+纯软件很难建立起优势了，包括个人和企业
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238096#reply16
+
+---
+
+#### 9725. [V2EX] 免费，开源， V2EX Android 客户端首个正式版本， Kotlin + Jetpack Compose 构建。
+
+**问题描述 / Problem Description**:
+在被苹果审核教育一番之后以及 V 友的邀请之下做了安卓版本 Kotlin + Jetpack Compose 全原生构建 凭据加密存储（ Android Keystore + EncryptedSharedPreferences ） 支持折叠屏，内外屏无缝切换 站内完成全部互动 —— 回复、发帖、收藏，@ 补全、通知直达 分享为卡片 —— 一键生成带二维码的话题图片卡 GitHub： https://github.com/xinghelee/v2ex-android GitHub： https://github.com/xinghelee/v2ex-android
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238073#reply23
+
+---
+
+#### 9726. [V2EX] libcr 项目组 crRequest 1.9.6 上架微软应用商店， 免费版的 postman，无需登录
+
+**问题描述 / Problem Description**:
+微软商店下载： https://apps.microsoft.com/store/detail/9PF8DDGLD2JH?cid=DevShareMCLPCS Linux 版 下载: https://github.com/libcr/crRequest/releases 1.9.6 修复 SSH 终端登录问题，优化 Hash 工具，添加 DNS over HTTPS 测试工具，新增 Crashpad 支持 crRequest 是一款 C++开发的跨平台工具客户端 基于源代码 chromium 150.0.7871.91 1. 使用 chromium UI 框架设计跨平台应用界面，实现多平台一致
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238049#reply0
+
+---
+
+#### 9727. [V2EX] 国内的 qoder cli 和 codebuddy cli 怎么选？都是接 ds 的情况下
+
+**问题描述 / Problem Description**:
+如题 之前一直用 claude code ，但是集团排查禁止使用了，只能寻找国内平替，目前看了 qoder cli 和 codebuddy cli ，感觉两者都没有太明显的优劣势。有用过的同学说说体验么？ ps：公司不给 codeplan ，但是给了些 ds 的额度，所以只能选择接 ds 进行使用。主要考虑 Java 软件开发方向。 平时用的 IDEA 比较多，目前不太想直接从 IDEA 转到他们的 IDE 版，所以还是优先考虑 CLI 版本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238009#reply22
+
+---
+
+#### 9728. [V2EX] 做了个翻译中文提示词的小工具
+
+**问题描述 / Problem Description**:
+主要功能是将中文提示词同时转换为： - 忠于原意的英文直译 - 更适合大模型理解的英文 Prompt 目的是减少中英文表达偏差，也降低仅因输入语言而被误判为特定地区用户的风险(你懂的) 开源、轻量，可配置自己的模型 API 。 https://github.com/gOODiDEA2002/lighttrans
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238005#reply0
+
+---
+
+#### 9729. [V2EX] 公司不让装 Navicat 了，就自己写了一个数据库客户端
+
+**问题描述 / Problem Description**:
+写代码十几年了。之前也给孩子们做过几个 Android 小应用，背单词、练口算那种，他们用得还行。 但那些说到底还是「给别人用」。 DataZen 是我第一次想只为自己做一个软件。 起因很现实：公司合规不让装 Navicat 了。DBeaver 能用，但日常用起来总觉得差点意思。正好赶上 vibe coding 这股风，心想不如自己试一把，看能不能做出一个 真正工业级、能天天拿来干活 的数据库客户端。 不是玩票，也不是 demo 。就是给自己用。 两个具体痛点 1. 查线上问题，经常要串好几张表，还跨库 处理投诉、排查线上问题，流程大概是这样： 先查表 A ，拿到某个 ID 或状态 用这个值去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237986#reply40
+
+---
+
+#### 9730. [V2EX] 今天 Win11 更新 KB5120998 会引起鼠标指针变大和壁纸变黑
+
+**问题描述 / Problem Description**:
+不知道有没有碰到的。 https://github.com/Arcadeq/windows-cursor-scheme-fix 暂时可以用这个脚本修复或者直接卸载 KB5120998 更新
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237975#reply29
+
+---
+
+#### 9731. [V2EX] 毒瘾犯了, 又续费了 200 美金 claude
+
+**问题描述 / Problem Description**:
+工厂老板毒瘾犯了, 今天又续费了 200 美刀套餐, 我正好也用一下, 挺爽. 参考 https://v2ex.com/t/1232590?p=1#reply55 好消息是他的程序快完成了, 和他想要的基本一样, 他感觉到太满意了, 钱花的真值.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237968#reply6
+
+---
+
+#### 9732. [V2EX] 分享一个体验 Omarchy 的快速的方式（macOS M 系列芯片）
+
+**问题描述 / Problem Description**:
+最近我想体验一下 Omarchy ，但是我的电脑是 macOS 的 M5 ，然后发现 Omarchy 就没有提供 M 芯片的 iso 文件，最后我自己想办法直接从 arch 系统安装虚拟机，安装完之后再手动去安装那些组件，虽然搞定了，但非常麻烦 然后这两天我在网上找到了一个叫 Try Omarchy 的项目，是国外的一个老哥搞的（利益无关）。它提供的是一个 DMG 包，像安装 APP 一样直接安装。安装完之后就可以直接打开，只需要输入个用户名和密码，hostname 之类的，就可以直接用了。 而且它有 GPU 加速，我自己用起来还挺流畅的。如果大家想尝鲜的话，推荐一试。这个成本非常低直接下载下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237960#reply6
+
+---
+
+#### 9733. [V2EX] Kimi ¥199 vs Ollama Pro： K3 额度实测
+
+**问题描述 / Problem Description**:
+控制变量：相同 CLIProxyAPI 、相同请求、 high 推理、单并发、无缓存、无重试、关闭超额付费。 指标 Kimi K3 1M Kimi K3-256K Ollama Pro K3 月费 ¥199 ¥199 $20 数据来源 实测 半费率推算 实测 5 小时工作单元 24 约 48 19 5 小时成功请求 72 约 144 57 5 小时输入量 218 万 tokens 约 436 万 173 万 tokens 5 小时池占周额度 20% 预计 20% 约 18% 每周 5 小时池 5 个 5 个 约 5.56 个 每周工作单元 120 约 240 约 105.6 平均每月工作单元
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237940#reply8
+
+---
+
+#### 9734. [V2EX] 第一个版本勉强可用的 Postman 替代品，跨平台、GPUI、占用少、不需要账号登录
+
+**问题描述 / Problem Description**:
+第一个版本：勉强可用的 Postman 替代品，跨平台、GPUI 、占用少、不需要账号登录 最近用 Rust 和 GPUI 搓了一个原生跨平台 HTTP 客户端： Postman GPUI 。 项目地址： github.com/847850277/postman-gpui 做这个项目的原因很简单：我想要一个打开就能发送 HTTP 请求、不需要注册账号、不依赖云端工作区，同时资源占用相对克制的本地工具。 它不是要在第一个版本里完整复刻 Postman 。目前只能算“勉强可用”，但常用的请求调试骨架已经基本齐了。 目前能做什么 支持 GET 、POST 、PUT 、PATCH 、DELETE 、H
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237928#reply13
+
+---
+
+#### 9735. [V2EX] 想看看各位使用 Pi 的姿势
+
+**问题描述 / Problem Description**:
+刚从 codex 转到 Pi ，感觉非常好 迅速、精准、简洁、可控 目前只加了 Ponytail 、web-access 和 multi-skills 几个插件 不过之前一直用 ChatGPT 的客户端，用惯了 GUI 这一下切到 TUI ，还是有些许不习惯 特别是输入，现在基本上一言不合就 Ctrl+G 开 VS Code 来编辑 试用了一下 @ agegr /pi-web ，完成度还偏低 向看看各位使用 Pi 的姿势 不管是 TUI 改善还是好用的 GUI 或者各类插件推荐 请狠狠砸向我，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237896#reply53
+
+---
+
+#### 9736. [V2EX] 先编译再检索：一个不用 embedding 的开源知识库
+
+**问题描述 / Problem Description**:
+市面上大多数「知识库问答」工具的套路都差不多：把文档切块、算 embedding 、塞进向量库，提问时按相似度召回若干碎片喂给 LLM 。KaaS 做了两个和主流不太一样的选择： 先编译再检索 ：不直接对原始碎片做 RAG 。先用 LLM 把散乱内容编译成一篇篇结构化的 Markdown Wiki 文章，再在这上面做检索。 不用 embedding ：检索阶段没有向量库、没有相似度计算。文章目录直接喂给 LLM ，让它像人翻目录一样选页、读全文。 这篇讲整套系统的骨架和几个关键取舍，单个机制的细节留给后续文章。 解决什么问题 KaaS 最初是我们内部的一个工具。知识散落在文档、会议、邮件里，每
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237892#reply5
+
+---
+
+#### 9737. [V2EX] 做 AI 产品不要闭门造車，要到群众中去
+
+**问题描述 / Problem Description**:
+最近骨折修养，发现在其他行业中 AI 触达还是比较少，非技术人平时用的最多的就是豆包，说句话就能办了，比如生成个图片、问下怎么做饭，没有什么高深的技术，不会说什么 DeepSeek 、GPT ，但实打实的用户需求。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237887#reply12
+
+---
+
+#### 9738. [V2EX] 只有 33 个 star 的 Agent 客户端被 OpenAI 送 1200 美元，我们是怎么做到的？
+
+**问题描述 / Problem Description**:
+距离上次在 V2EX 分享我们的项目已经过了快 3 个月了。 在上周，我们维护的开源项目 diodeme/Gold-Band 通过了 openai 的开源开发者活动，获得了 openai 赠送给我们的 价值 1200 美元的六个月 gpt pro 20x 会员 。很多社群的朋友好奇为什么我们项目 只有 33 个 star 也能被选中 ，于是我准备专门写一篇帖子，向大家 重新介绍下我们的项目 ，并在文末分享下我申请开源活动时是怎么填的。 产品介绍 github 地址： https://github.com/diodeme/Gold-Band 一句话介绍我们的项目： 一个跨端的桌面客户端。 以 A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237880#reply16
+
+---
+
+#### 9739. [V2EX] 用 Ai 写了个大 V 站的换肤油猴脚本，经常摸鱼的兄弟可以试一下，哈哈哈
+
+**问题描述 / Problem Description**:
+用 Ai 写了个大 V 站的换肤油猴脚本，经常摸鱼的兄弟可以试一下，哈哈哈 https://github.com/wanlinqiang/v2ex-vscode
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237851#reply6
 
 ---

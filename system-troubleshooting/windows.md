@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10233**
+**总计条目 / Total entries: 10275**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -138950,5 +138950,551 @@ Question1: Would a route command do this? Assuming the Interface ID's above, wha
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1199655/route-traffic-between-two-servers-on-specific-nic
+
+---
+
+#### 10234. Question about external Hard Drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xwtx/question_about_external_hard_drive/
+
+---
+
+#### 10235. SSD Problems
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1whvc/ssd_problems/
+
+---
+
+#### 10236. My laptop is mocking me (although maybe it's just windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1m31t/my_laptop_is_mocking_me_although_maybe_its_just/
+
+---
+
+#### 10237. PC hard resets when booting Windows OR Ubuntu, but BIOS and MemTest86 are completely stable — Ryzen 5 5500 / ASUS B550
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1y8n0/pc_hard_resets_when_booting_windows_or_ubuntu_but/
+
+---
+
+#### 10238. only ram leds are lighting up :((
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1w882/only_ram_leds_are_lighting_up/
+
+---
+
+#### 10239. Cant get windows to activate on upgraded PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1ssbc/cant_get_windows_to_activate_on_upgraded_pc/
+
+---
+
+#### 10240. Screen size problems in w11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1z49s/screen_size_problems_in_w11/
+
+---
+
+#### 10241. Cursor Blinking and then turning into the default one.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1z1x7/cursor_blinking_and_then_turning_into_the_default/
+
+---
+
+#### 10242. Occasional lag due to high GPU usage?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1yrhk/occasional_lag_due_to_high_gpu_usage/
+
+---
+
+#### 10243. Error running steam via wine wrapper
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1ycoc/error_running_steam_via_wine_wrapper/
+
+---
+
+#### 10244. Everything keeps crashing randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1y91a/everything_keeps_crashing_randomly/
+
+---
+
+#### 10245. Factory Resetting laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1y0i8/factory_resetting_laptop/
+
+---
+
+#### 10246. PC keeps freezing and never unfreezing, even before windows loads, not turning on, and giving bsods.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xz94/pc_keeps_freezing_and_never_unfreezing_even/
+
+---
+
+#### 10247. Laptop Camera (HP TrueVision HD Camera) showing a green screen when accessing meetings from my browser
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xn9o/laptop_camera_hp_truevision_hd_camera_showing_a/
+
+---
+
+#### 10248. Wifi connection strength changes randomly whenever computer starts.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xivl/wifi_connection_strength_changes_randomly/
+
+---
+
+#### 10249. Persistent Hardware Cursor glitch after playing Dave the Diver — Theory & Fix (Need technical breakdown)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xius/persistent_hardware_cursor_glitch_after_playing/
+
+---
+
+#### 10250. Settings app won’t open (windows 11)(laptop)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xe7g/settings_app_wont_open_windows_11laptop/
+
+---
+
+#### 10251. Updating iPhone 15 to iOS 26
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xbte/updating_iphone_15_to_ios_26/
+
+---
+
+#### 10252. Rubberbanding and desync in all online games. Internet provider says no issue with connectivity.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1xa1e/rubberbanding_and_desync_in_all_online_games/
+
+---
+
+#### 10253. Monitor flickers, darkens, resolution drops and contrast increases
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1wynh/monitor_flickers_darkens_resolution_drops_and/
+
+---
+
+#### 10254. Macbook lag
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1ww2z/macbook_lag/
+
+---
+
+#### 10255. Fake Bluetooth 5 transmitter?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1wvyc/fake_bluetooth_5_transmitter/
+
+---
+
+#### 10256. Nvidia driver 616.56 weird issue, anyone else ?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1wv3r/nvidia_driver_61656_weird_issue_anyone_else/
+
+---
+
+#### 10257. Xiaomi TV Box S (3.gen) HDMI CEC does not work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w1wu0i/xiaomi_tv_box_s_3gen_hdmi_cec_does_not_work/
+
+---
+
+#### 10258. [V2EX] 大学生有点迷茫，希望各位大佬给一下自己的见解
+
+**问题描述 / Problem Description**:
+大佬们好我现在是一个二本大四的学生，刚开学，然后我学的 java ，感觉学的也不咋地，之前在抖音直播认识了一个十年开发，给我说了学习路线，然后跟着学习，开始学习了 java 基础，jdbc ，servlet ，学完之后 ai 生成了个类似 mvc 的框架，看了看源码，之后学了 SSM,springboot ，springai 。vue2,vue3,ts 前端那些不太熟练，然后 springcloud 大概看了一遍但是没有去敲，敲了苍穹外卖和黑马点评，之后又学了 ai 开发 claudecode ，codex 之类的，新出的大模型一直都有关注。在暑假的时候进了一个公司，这个应该是中厂，全国很多地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238095#reply0
+
+---
+
+#### 10259. [V2EX] 装修被骗，有法律 v 友吗？
+
+**问题描述 / Problem Description**:
+杭州临安，临时加各种增项，说预算不合理。 违约要交百分之 10 ，看了一下合同 也是经典的踩坑，有踩过坑的 v 友吗？ 正规的手段搞不过，看看能不能找到点 非正规 的手段 准备找找有没有专门收黑钱的那种黑户无赖选手，不知道在哪找渠道
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238077#reply4
+
+---
+
+#### 10260. [V2EX] 在这个产品爆炸的年代，未来产品会以什么形式存在
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238065#reply5
+
+---
+
+#### 10261. [V2EX] 做什么生意可以日入 300 呢
+
+**问题描述 / Problem Description**:
+大家都在说月入几万几万的，年入千万之类的话题，我就想一个普通人，怎么日入 300 元。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238062#reply0
+
+---
+
+#### 10262. [V2EX] 支持命令行操作开和关的电源市面上有吗？
+
+**问题描述 / Problem Description**:
+配合 AI 使用，AI debug 经常要重启硬件。所以需要搞一个支持命令行操作开和关的电源，市面上有吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238058#reply13
+
+---
+
+#### 10263. [V2EX] Otterflow：对话只是一个开始
+
+**问题描述 / Problem Description**:
+通用大模型发展到今天，我们发现 agent ，已经可以解决了大部分场景的能力，在通用的场景下，通用的模型仅通过对话而不需要帮助你关注过程，就能得到一个完整接近符合你预期的一个结果，这种感觉近乎于“造神”。 但是这只是 AI 发展到现在的第一步！ “‘对话模式’不是 AI 交互的最优解～！” 这个是我们思考并提出来一个观点，无论是什么领域，完整的一条属于自己垂类领域的 workflow 和 AI 的交互都有一套自己的标准，它不仅仅只是聊天，更是对于自己领域的整理、管理与沉淀。 每个行业都有自己的工作流程。做科研的、做设计的、做开发的，流程完全不同，需要看到的东西也完全不同。但不管哪个行业，应该都
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238055#reply0
+
+---
+
+#### 10264. [V2EX] 为啥几家免费 AI 会不约而同答错呢？
+
+**问题描述 / Problem Description**:
+测试的 AI Kimi 快速，进阶思考（可能部分降级到了快速） 元宝的 DeepSeek 的深度思考 千问的思考研究 Gemini Flash-Lite 问题 Power BI 的 DAX 公式里，怎样计算 Data 表 Customer 列有多少个客户？ 我要计算的是不重复且非空值的客户数 结果 以上三个都回答用 DISTINCTCOUNT()函数，并且第一次回答都告诉我这个函数会 排除空值 ，所以不需要额外处理。质疑之后，元宝和千问认错，Kimi 还继续嘴硬，甚至编造官方文档引文： 继续叫它提供这段引文的出处才认错。 疑惑 因为这是个非常基础的问题，所以期待是即使是免费快速模式不查外部资料
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238051#reply10
+
+---
+
+#### 10265. [V2EX] 你们 gpt Windows 桌面客户端多久提示升级一次啊
+
+**问题描述 / Problem Description**:
+为什么我的平均两三天就会提示要升级，升级完感觉也没什么区别，真的更新的这么快吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238038#reply4
+
+---
+
+#### 10266. [V2EX] 新增 NAS,求大佬给个馒头的邀请
+
+**问题描述 / Problem Description**:
+家里新增 一台 NAS(群晖，16T)，有 V4 、V6 公网， 希望大佬能给个馒头的邀请！ 我会好好珍惜机会 ，保证不玩死。 邮箱： admin@yaobai.cc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238036#reply6
+
+---
+
+#### 10267. [V2EX] 所有程序员都用 AI 的话，那以后怎么判断能力的高低？
+
+**问题描述 / Problem Description**:
+面试的时候还会问八股文吗？是不是更看重学历背景了？性格好，擅于言辞的人是不是更容易面试成功？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238034#reply29
+
+---
+
+#### 10268. [V2EX] 你们说，用多了 AI，会不会得类似 2077 的赛博精神病
+
+**问题描述 / Problem Description**:
+如题，好像已经有一些相关的调查研究了。 大家的感觉呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238022#reply12
+
+---
+
+#### 10269. [V2EX] 现在哪个统一看 AI 额度进度和更新的软件好用？
+
+**问题描述 / Problem Description**:
+需要看 supergrok 、grok bot 、ChatGPT 。 或者有没有老板自己做的，想用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238020#reply4
+
+---
+
+#### 10270. [V2EX] 阿里云代理这么便宜？
+
+**问题描述 / Problem Description**:
+今天公司想新采购一些数据库和服务器。于是去找了各个代理或者阿里云售前。 其中一个报价大概在 7-8 折， 但是另外一个报价惊呆我了 只有 2 折多一点 不过说的是必须先关联他们的企业，后期交易自行在后台操作，不再经过他们 想问下这种异常低的价格，然后又说在阿里云官方后台操作的 ，有什么坑么？ （当然大概率不会选择这个，因为便宜的不太正常）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238012#reply20
+
+---
+
+#### 10271. [V2EX] 求教如何付费 claude
+
+**问题描述 / Problem Description**:
+手上有 招行 visa ，gg 卡，另外还有一个美区虚拟号。 注册 google pay 要验证 sg 或 us 手机号， 所以要如何嗑药 A ％
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237989#reply4
+
+---
+
+#### 10272. [V2EX] glm5.3-flash 思考了 20 分钟正常吗？
+
+**问题描述 / Problem Description**:
+如图，一句话让它做个小游戏。用的 zcode + 官方模型。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237977#reply3
+
+---
+
+#### 10273. [V2EX] 怎么部署一个自己的 AI 问书功能，有些书微信读书没有
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237964#reply1
+
+---
+
+#### 10274. [V2EX] 求教各位大佬，现在 curosr 和 grok heavy 最便宜的订阅方式是什么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237962#reply1
+
+---
+
+#### 10275. [V2EX] AI 完全接管编码的时代，再也没有人写博客了
+
+**问题描述 / Problem Description**:
+我从前端入行编码，那时候如果碰到了十分难以解决的问题，经过几个小时或者几天奋战研究、关闭几十个的标签页解决问题的时候，往往都会写一篇博客来记录这次遇到的问题。遇到了什么问题、如何解决的。 这个习惯一直到 chatgpt web 上线就再也没写过了。有什么问题直接复制给 ai ，再把 ai 的答案复制给程序反复测试，我从思考者变成了搬运工。 在 2026 年的今天 Agent 越来越强，从以前我还需要分析客户的需求转换为代码需求再进行开发到现在已经可以直接转发客户的需求给 ai 了，从搬运工变成了 AI 传话员。 此时感觉写博客已经变得没有意义。 感觉 AI 越强，新的知识产出越少，真正学习提升
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237927#reply13
 
 ---
