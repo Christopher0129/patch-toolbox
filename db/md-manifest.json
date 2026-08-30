@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T22:25:21.928875+00:00",
+  "generated_at": "2026-08-30T22:49:47.795509+00:00",
   "files": [
     {
       "path": "network-security/index.md",
@@ -48,23 +48,23 @@
     },
     {
       "path": "system-troubleshooting/linux.md",
-      "size_bytes": 7731263,
+      "size_bytes": 7748336,
       "first_line": "# Linux 系统故障知识库 | Linux Troubleshooting"
     },
     {
       "path": "system-troubleshooting/macos.md",
-      "size_bytes": 5392906,
+      "size_bytes": 5413561,
       "first_line": "# Macos 系统故障知识库 | Macos Troubleshooting"
     },
     {
       "path": "system-troubleshooting/windows.md",
-      "size_bytes": 5480090,
+      "size_bytes": 5498874,
       "first_line": "# Windows 系统故障知识库 | Windows Troubleshooting"
     }
   ],
   "entry_counts": {
     "network-security": 5478,
     "system-vulnerabilities": 5416,
-    "system-troubleshooting": 29291
+    "system-troubleshooting": 29408
   }
 }

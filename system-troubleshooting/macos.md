@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9277**
+**总计条目 / Total entries: 9319**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -124901,5 +124901,551 @@ If you're on Catalina 10.15, CleanMyMac X should work. MacPaw currently lists Cl
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486947/is-there-an-earlier-version-of-cleanmymac-that-can-scan-my-10-15-8-mac
+
+---
+
+#### 9278. "I got bored with X, so I built Y" Developer Saturdays in a nutshell.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2r2so/i_got_bored_with_x_so_i_built_y_developer/
+
+---
+
+#### 9279. Os version
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2moke/os_version/
+
+---
+
+#### 9280. Re-adding Yahoo Mail to Mail App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2lwxu/readding_yahoo_mail_to_mail_app/
+
+---
+
+#### 9281. How do I get the password tab back into Safari?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2uiif/how_do_i_get_the_password_tab_back_into_safari/
+
+---
+
+#### 9282. Any ways to preview folders as on Windows?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2807l/any_ways_to_preview_folders_as_on_windows/
+
+---
+
+#### 9283. Is there a way of disabling notifications automatically when I am watching a video in fullscreen through Firefox?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2tr0s/is_there_a_way_of_disabling_notifications/
+
+---
+
+#### 9284. Safari start page favorites... sometimes generic folders, sometimes icons
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2sjt6/safari_start_page_favorites_sometimes_generic/
+
+---
+
+#### 9285. Antigravity causing overheating
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2gjuu/antigravity_causing_overheating/
+
+---
+
+#### 9286. Question about downloading
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2p1se/question_about_downloading/
+
+---
+
+#### 9287. Looking for a way to have text read aloud on macOS without a subscription
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2o2gq/looking_for_a_way_to_have_text_read_aloud_on/
+
+---
+
+#### 9288. Finder in screen time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2fkxo/finder_in_screen_time/
+
+---
+
+#### 9289. Two different Pages app icons suddenly appeared in my Dock. Why?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2csu8/two_different_pages_app_icons_suddenly_appeared/
+
+---
+
+#### 9290. Unable to upgrade from macOS Catalina to Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2elfn/unable_to_upgrade_from_macos_catalina_to_sequoia/
+
+---
+
+#### 9291. Spotlight search issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2dulq/spotlight_search_issue/
+
+---
+
+#### 9292. Genuine Developer Related Question
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w23u69/genuine_developer_related_question/
+
+---
+
+#### 9293. What if Mac OS X 10.4 Tiger met Liquid Glass? 💧🐯
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2mhkg/what_if_mac_os_x_104_tiger_met_liquid_glass/
+
+---
+
+#### 9294. I built a simple Mac app for converting and optimizing images for websites
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w2r1i5/i_built_a_simple_mac_app_for_converting_and/
+
+---
+
+#### 9295. [V2EX] 我做了一个更懂中文日期的 macOS 菜单栏日历：白纸日历
+
+**问题描述 / Problem Description**:
+V2EX 的朋友们好，我是「白纸日历」的开发者。 它目前免费、无广告，也有用户反馈它的界面和功能比 macOS 自带日历更好用。 我把它定位成一款为中国用户定制的中文日历，把农历、节气、节假日、调休和日程放进 Mac 菜单栏。 我做这个应用的原因很简单：在 Mac 上，我每天都会确认几次日期、星期、农历、调休和当天安排。可是这些信息分散在菜单栏、系统日历、提醒事项和节假日网页里。为了回答一个很小的问题，往往要连续打开几个地方。 于是我做了「白纸日历」：让它安静地待在菜单栏，需要时点一下，今天是什么日子、这个月怎么放假、接下来有什么安排，尽量在一个面板里看完。 利益相关：我是白纸日历的开发者。应
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238172#reply4
+
+---
+
+#### 9296. [V2EX] macOS 27 修复了 26 全屏时终端标签栏巨丑的问题吗？
+
+**问题描述 / Problem Description**:
+macOS 15 全屏的时候，终端的标签栏还挺紧凑好看的 结果 macOS 26 全屏的时候，终端的标签栏也太丑了 不知道 macOS27 有没有改回来？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238112#reply1
+
+---
+
+#### 9297. [V2EX] 想给 Apple Watch 再添置一个充电器，不知道这种充电器是否靠谱
+
+**问题描述 / Problem Description**:
+就像这张图里的这种，没有线，只有无线充电底座本身的那种。 https://img.cdn1.vip/i/6a94520d6b14d_1788105229.webp 目前原装的充电线已经被我固定在桌搭里了，想着出远门的时候肯定还是需要手表的充电器的，而且原装的这条，从桌搭上拆下来还是比较麻烦的，想着弄一个便携的，放在包里放着。 如果不妥的话，那就只能买官方的了，或者是说有别的好选择也可以推荐一下，感激不尽。 目前手上的是 S11 ，国行的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238239#reply3
+
+---
+
+#### 9298. [V2EX] 小孩子照片多，听人劝，吃饱饭，做了如下部署
+
+**问题描述 / Problem Description**:
+前期发过帖子，很多人给意见，综合我的需求和条件，做了以下部署，还算优雅，各位还有更优雅的方案吗？ https://www.v2ex.com/t/1230534?p=1#reply61 **iPhone → iCloud → icloudpd → DXP2800 黑群晖 → Immich** - **iCloud**：iPhone 云端照片同步 - **icloudpd**：自动下载原始照片到 NAS - **Immich**：只读管理照片、人脸识别、智能搜索 - **DXP2800**：N100 + RR 黑群晖，提供存储及硬件加速 **iCloud 管云端，icloudpd 管备份，Immi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238207#reply8
+
+---
+
+#### 9299. [V2EX] VEX 更新 4.6 后一直在”正在验证购买状态”
+
+**问题描述 / Problem Description**:
+输入密码验证后又说暂时无法验证，一直在循环套娃验证……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238184#reply15
+
+---
+
+#### 9300. [V2EX] iPhone 上用 Gmail 还是邮件 App
+
+**问题描述 / Problem Description**:
+大家 iPHone 上用的是苹果自己的“邮件”还是谷歌的 Gmail App 呢？还是直接用浏览器登陆呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238151#reply42
+
+---
+
+#### 9301. [V2EX] 苹果挂载移动硬盘工作好用吗？
+
+**问题描述 / Problem Description**:
+工作的内容都放在移动硬盘，电脑就不买大的存储了，平时上班回家就带个硬盘就行，既方便又省钱，有没有这么做的说说这样可行吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238101#reply15
+
+---
+
+#### 9302. [V2EX] 美版苹果官网抢购设备有点搞不明白
+
+**问题描述 / Problem Description**:
+公司福利屯了一些礼品卡，可以兑换设备，想抢一些，但碰到了问题，礼品卡兑换后，99%被检测到类似于异常订单，应该是需要人工审核后才发货，但是效率太慢了基本一周以后才发货，但是个别可以下单后就立马发货，没搞明白这几年有什么逻辑，试了新地址，用了类似于指纹浏览器这些，还是会被卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238100#reply8
+
+---
+
+#### 9303. [V2EX] 是不是现在买大内存的 m4pro 或 max 性价比最高？
+
+**问题描述 / Problem Description**:
+手持 m1 想过段时间升级了，m6 也也要出了，不过估计要涨价不少，从 m4 考虑是因为 m4 支持了 ai 算力，能支持双屏等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238039#reply5
+
+---
+
+#### 9304. [V2EX] 人在大陆，非国行 iOS27b4 以后符合苹果智能配置的， new Siri 能否使用？
+
+**问题描述 / Problem Description**:
+我在 iOS27 dev beta4 （其实这个版本无关系）时，某天忽然 new siri 不用（其实和梯子无关），也能使用端侧 new Siri ，不会出现“something's wrong”——期间在港能稳定实时使用苹果智能。 然而没几天，又不能用了，更新了 b5,b6 ，b7 ，仍旧不能用。 今天凌晨三点多，忽然又都能用了，我扔给 Siri app 四次，每次一张有小学 y 各科作业的图片，都迅速且正确回答我了。 但是 10:30 再用 Siri app ，哪怕问 b 端侧 ai 处理的类似今天日程，Siri app 又恢复到了“something's wrong”。 我怀疑 Appl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238011#reply8
+
+---
+
+#### 9305. [V2EX] 新 mac M6 和 m5Pro 选哪个
+
+**问题描述 / Problem Description**:
+Mac mini M6 32GB + 1TB （ 11499 元） Mac mini M5 Pro 64GB + 1TB （ 16499 元） 选哪个电脑会好一些呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237882#reply9
+
+---
+
+#### 9306. [V2EX] Apple Music 已引入歌词 AI 翻译
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237759#reply6
+
+---
+
+#### 9307. [V2EX] Mac Studio 苹果刀法精准
+
+**问题描述 / Problem Description**:
+苹果这次备货挺足的，就是发货时间比较长。 选 M5 MAX 128G 的用户占比应该会比较多，算是性价比高的一款。 Mac Studio 刀法精准，M5 MAX 最高给到 128g ，M5 Ultra 给你 96g ，不给 128g 让你感觉很鸡肋，直接跳到 256g ，跨度大。就赌你在不想选低一个档的芯片跟内存带宽情况下，咬牙上 256g 要漫长等待了，10 月 24 日才发货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237731#reply20
+
+---
+
+#### 9308. [V2EX] 上周五美区买了个 apple 礼品卡，到现在也没收到
+
+**问题描述 / Problem Description**:
+上周五在美区买了个礼品卡，收卡邮箱域名不小心拼错了 gmail 拼成了 gamil 然后联系销售客服修改正确邮箱并发送。周日、周二和昨天分别联系了 3 次，都说已修正 24H 会发出。到现在还没收到。。。 是不是没戏了，有大佬懂的嘛😂 就怪自己手输错误 唉。。还好只有$20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237659#reply25
+
+---
+
+#### 9309. [V2EX] 9 月苹果新机价格一览
+
+**问题描述 / Problem Description**:
+图片来自群友提供，仅供参考，不得不说今年涨价太严重，非常的溢价了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237650#reply15
+
+---
+
+#### 9310. [V2EX] iPhone 上好用的软件分享
+
+**问题描述 / Problem Description**:
+前情提要：/t/1236071 刚换了 iphone 17 promax ，之前 iphone11 128G ，动不动，就自动卸载软件保存到云端（磁盘空间不够。） 现在空间够，想请教各位，有没有一些好用的软件，我先列下我当前安装的软件。 小火箭 X tg facebook 微信 无边记 极客时间 熊猫吃短信 飞书 什么值得买 银行类 APP 同花顺 网易云音乐 滴滴 雅迪智行 欢迎各位补充和推荐。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237614#reply14
+
+---
+
+#### 9311. [V2EX] 新增 NAS,求大佬给个馒头的邀请
+
+**问题描述 / Problem Description**:
+家里新增 一台 NAS(群晖，16T)，有 V4 、V6 公网， 希望大佬能给个馒头的邀请！ 我会好好珍惜机会 ，保证不玩死。 邮箱： admin@yaobai.cc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238036#reply9
+
+---
+
+#### 9312. [V2EX] [Share] Retirement Benefit Tracker: a free tool for U.S. retirees
+
+**问题描述 / Problem Description**:
+I just launched Retirement Benefit Tracker: https://www.retirementbenefittracker.com/ It is a free, mobile-friendly resource for U.S. older adults who receive—or are preparing to receive—Social Security, SSI, and Medicare, as well as family members helping them navigate retirement benefits. What it
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238196#reply0
+
+---
+
+#### 9313. [V2EX] Zeabur 疑似发生严重数据泄漏，用户记得自查
+
+**问题描述 / Problem Description**:
+目前暗网上有人声称拿到了 Zeabur 的完整数据，并放出了部分源码和数据库 dump 样本供下载验证。 根据发布的内容，泄露范围除了平台源码，还涉及： AWS 、GCP 、Google Workspace 管理权限与 K8s 集群权限 内部 VPN 、GitHub PAT 、Stripe 密钥 Postgres / MongoDB 的数据库 dump 约 612 GB 的客户数据库 此前 Zeabur 官方确认的范围主要是环境变量被读取（包含用户的各类 API Key 和凭据）。如果这次暗网卖家公开的信息属实，受影响的资产可能涵盖了从基础设施、代码仓库到客户底层数据的整体层面。 我也曾经是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238179#reply0
+
+---
+
+#### 9314. [V2EX] 全国劳动者权益保障从夯到拉排名，猜猜谁拉完了。
+
+**问题描述 / Problem Description**:
+转载，原视频在此，值得看一下 https://www.bilibili.com/video/BV1zA4Q6jEeY
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238168#reply11
+
+---
+
+#### 9315. [V2EX] 推荐一把迄今为止最舒服的工学键盘
+
+**问题描述 / Problem Description**:
+[开门见山] 佩锐 perixx 535 PS：只有矮轴，但是可以选择红轴，茶轴，青轴； 另外有 83 键有限款（ 335 ），全尺寸有线款（ 535 ，我买的这把）和全尺寸无线背光款（ 835 ） [前提] 标准指法：工学键盘用的爽一定得标准指法，如果不是那就有的改了 [工学键盘的主观标准] 核心： 拱形：放松小臂，让你像抱着一个大球在打字 大掌托：放松手腕，用多久都不会累 轻松&一定反馈的按键：打字，爽！ 有了这 3 个基础，就是一把优秀的工学键盘 添头： 反方向支脚：抬高手腕，让整个手臂更加放松 [买过的工学键盘] 微软：4000 ，surface ，sculpt 佩锐：413 （薄膜）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238161#reply4
+
+---
+
+#### 9316. [V2EX] B 站推荐 AI 视频泛滥，似乎没什么选择了，不想看屎啊
+
+**问题描述 / Problem Description**:
+YouTube 至少不会给推送那么多 AI 屎的视频，但是 B 站等国内视频平台，送屎量太大，感觉这样下去视频内容平台看不了了，预感论坛起死回生，重回黄金时代。 1.讨厌机器念稿子 2.讨厌 AI 生成啥花里胡哨的抽象动画 3.讨厌 AI 生成的视频封面图 讨厌但是似乎无解，尤其是那些自己就有 AI 视频模型的平台就更要喂屎了，更无奈的是，搜索视频的时候，屎的视频比真人的视频权重还高，还无法过滤
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238037#reply1
+
+---
+
+#### 9317. [V2EX] 有买鸭子的吗？
+
+**问题描述 / Problem Description**:
+https://pollen-robotics.com/microduck/ 看着挺有意思，想买一个玩玩，有没有团的（本人没有海外购物的经验）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238023#reply15
+
+---
+
+#### 9318. [V2EX] 星宇股份裁员事件还没完
+
+**问题描述 / Problem Description**:
+在知乎看到的 https://www.zhihu.com/question/2076340228973749983/answer/2076350550845739869 遂去了解了一下，谁知现在还被扒说致歉信是 AI 写的，一波未平一波又起。 不知道还能不能顺利 IPO 了，哈哈，吃瓜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237883#reply10
+
+---
+
+#### 9319. [V2EX] hy4 来了 免费蹬 2 周
+
+**问题描述 / Problem Description**:
+https://mp.weixin.qq.com/s/ahaYSrrxG9LIQM04IegylA 它来了它来了，它开着破船驶来了，从刚收到推送就蹬让它帮我了解下项目，到现在还在思考
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237869#reply6
 
 ---

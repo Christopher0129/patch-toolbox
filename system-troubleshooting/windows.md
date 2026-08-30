@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10275**
+**总计条目 / Total entries: 10319**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -139496,5 +139496,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237927#reply13
+
+---
+
+#### 10276. How can I recover a previous session / open tabs in Microsoft Edge after reboot?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, bookmarks, microsoft-edge | Score: 0 | Views: 66 | Answers: 1 | Created: 2026-08-29
+
+**解决方案 / Solution**:
+I managed to go through the settings - browsing history (Crtl+H): In my case I opend the side bar and I was able to restore the window with all existing tabs (the window is shown as a collapsible entry, which shows all its tabs if you expand it): In hindsight, hitting CTRL+SHIFT+T might might have worked as well (should open the last session on any Chromium-based browser).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940001/how-can-i-recover-a-previous-session-open-tabs-in-microsoft-edge-after-reboot
+
+---
+
+#### 10277. I need help enabling secure boot on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2tton/i_need_help_enabling_secure_boot_on_windows_11/
+
+---
+
+#### 10278. CPU issue debugging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2n93a/cpu_issue_debugging/
+
+---
+
+#### 10279. Intermittent SATA/AHCI I/O errors causing Event ID 153 disk retries and Event ID 129 controller resets
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2r6hc/intermittent_sataahci_io_errors_causing_event_id/
+
+---
+
+#### 10280. How to burn a dvd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2glff/how_to_burn_a_dvd/
+
+---
+
+#### 10281. Laptop not turning on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2mgs1/laptop_not_turning_on/
+
+---
+
+#### 10282. I dropped my phone on water.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2v5rg/i_dropped_my_phone_on_water/
+
+---
+
+#### 10283. buzzing in my headphones after cleaning thee pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2p9v9/buzzing_in_my_headphones_after_cleaning_thee_pc/
+
+---
+
+#### 10284. Weird event help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2v23j/weird_event_help/
+
+---
+
+#### 10285. Internet Issues- Would Eero Amazon Router fix?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2v1ye/internet_issues_would_eero_amazon_router_fix/
+
+---
+
+#### 10286. HDD carrying sensitive information completely stuck, starting to lose my mind
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2uyw4/hdd_carrying_sensitive_information_completely/
+
+---
+
+#### 10287. K617 HE KEYBOARD light flickering problem
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2ue7d/k617_he_keyboard_light_flickering_problem/
+
+---
+
+#### 10288. How to know if PC wifi card is broken?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2ue2c/how_to_know_if_pc_wifi_card_is_broken/
+
+---
+
+#### 10289. MP3 Player not displaying album folders just a full list of MP3s?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2u4ty/mp3_player_not_displaying_album_folders_just_a/
+
+---
+
+#### 10290. mini PC corrupts usb-sticks and usb-hdds (?)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2ie0i/mini_pc_corrupts_usbsticks_and_usbhdds/
+
+---
+
+#### 10291. USB charger poisoning
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2u3cm/usb_charger_poisoning/
+
+---
+
+#### 10292. Multiple different BSODs, including memory corruption, even after a clean Windows reinstall — what should I suspect?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2tthr/multiple_different_bsods_including_memory/
+
+---
+
+#### 10293. Home network being funky
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2tt4a/home_network_being_funky/
+
+---
+
+#### 10294. PC doesn't post after self-inflicted power outage.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2tfwk/pc_doesnt_post_after_selfinflicted_power_outage/
+
+---
+
+#### 10295. What is wrong with my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2sxwf/what_is_wrong_with_my_laptop/
+
+---
+
+#### 10296. Issue with audio/mic on games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2slga/issue_with_audiomic_on_games/
+
+---
+
+#### 10297. Pc doesn't show video when booting up with 2 monitors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2sjno/pc_doesnt_show_video_when_booting_up_with_2/
+
+---
+
+#### 10298. My RTX5090 is pulling a consistent 602W play Alan Wake 2. Should I be concerned of the health of my card and safety of PC?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2rmzj/my_rtx5090_is_pulling_a_consistent_602w_play_alan/
+
+---
+
+#### 10299. USB ports cause freezes/BSOD on an old laptop, and Ubuntu Live also freezes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2rmyq/usb_ports_cause_freezesbsod_on_an_old_laptop_and/
+
+---
+
+#### 10300. Random hard restarts during gaming (7800x3d / RTX 5070 Ti), traced it to voltage sag on the GPU's 12V-2x6 cable but can't get it apart to check, anyone seen this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w2rhc3/random_hard_restarts_during_gaming_7800x3d_rtx/
+
+---
+
+#### 10301. [V2EX] 十几年了，微软还是没修复资源管理器图标排列的问题
+
+**问题描述 / Problem Description**:
+前段时间做了段时间兼职，重新用回了半个月的 win7 ，又想起了这个让我十几年都如鲠在喉的 bug：微软在新的资源管理器中，整个桌面的图标管理几乎都是混乱的。 印象里是 win8.1 或者是 win10 引入的问题 例如因为删除软件，之前的图标中间空了一个，win7 只需要两次拖动就能补上这个空缺，还不影响顺序 而 windows 10 开始，这么排会直接扰乱图标顺序，我也没找到其他能正确快速排序的方法，只能一列一列的手动拉 再比如对于因为高分辨率屏幕开启了百分比缩放的情况，win11 图标排序经常是错位的，拖动位置和到达的位置经常对不上 而 win7 则是指哪打哪 除了这些，还有什么图标大小
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233590#reply47
+
+---
+
+#### 10302. [V2EX] 华为手机使用 NFC 遇到的问题
+
+**问题描述 / Problem Description**:
+手里一款华为旧手机，用的鸿蒙 3.0 ，在支付宝里面开通了一张 NFC 交通卡，现在每天上下班地铁就用这张卡，体验不错。支付宝时不时的有碰一碰红包，领了后可以去超市使用。问题出现了：使用碰一碰红包支付时，前两次总是跳转到 NFC 交通卡页面，不能自动识别，需重复几次才能自动付款交易成功。。。。。。目前没找到问题原因解决的方法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238252#reply0
+
+---
+
+#### 10303. [V2EX] 有酒店爱好者吗，在深圳怎么便宜住如家水平的酒店
+
+**问题描述 / Problem Description**:
+在宝安住，每天被飞机嗡嗡的搞得睡眠不好，现在和同事合租，周末的时候会跑去酒店住 2 天，无奈一个月住 8 个晚上还是觉得有点贵了。有什么方法方法可以订到便宜点的酒店吗。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238246#reply1
+
+---
+
+#### 10304. [V2EX] gpt 的 plus 模型比普通版实际体验提升如何？
+
+**问题描述 / Problem Description**:
+最近发现 gpt 普通模型专业程度有点降低… plus 模型用起来提升大不大？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238231#reply0
+
+---
+
+#### 10305. [V2EX] 搞好了 EMBY 服务器，算是影视自由了 但是却不知道看什么…… 求推荐
+
+**问题描述 / Problem Description**:
+最喜欢的剧集是 冰与火之歌，钱一段也刷了前传龙族和衍生剧七国王的骑士 最喜欢的电影是《一一》 求推荐能打法时间的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238222#reply3
+
+---
+
+#### 10306. [V2EX] 硬件+vibecoding 有什么好玩的项目 请大家推荐一下
+
+**问题描述 / Problem Description**:
+我先来说一下 比如安卓刷机 AI 很轻松就能搞定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238197#reply3
+
+---
+
+#### 10307. [V2EX] 现在大家认为国产 AI 最强的是哪个？
+
+**问题描述 / Problem Description**:
+想接入自己的网站。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238191#reply3
+
+---
+
+#### 10308. [V2EX] 这两款显示器推荐哪个呀
+
+**问题描述 / Problem Description**:
+想买个 32 寸的显示器 主要用来看看电影，偶尔写写文章啥的，不怎么打游戏。 3000 左右价位的看中了这两款 大佬们帮忙推荐一下 红米 g pro 32u tcl 32c3a pro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238175#reply6
+
+---
+
+#### 10309. [V2EX] Apple Store Claude 退款怎么取消？
+
+**问题描述 / Problem Description**:
+用 Claude + 美区 Apple ID 完成的订阅。一开始在电脑上登录不进去所以点了退款，换了个网之后可以正常登录使用了，该怎么撤销退款请求？如果被退款的话会直接封号吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238171#reply0
+
+---
+
+#### 10310. [V2EX] 感觉 GLM 的实力确实变得很强了！
+
+**问题描述 / Problem Description**:
+模型的差距在缩小了～ 这个世界后面到底会发展成怎么样？ 让我们拭目以待 相关的岗位也开始涌现出来了。 FDE 等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238164#reply1
+
+---
+
+#### 10311. [V2EX] 蚂蚁集团数字科技大模型服务平台有人用过么？
+
+**问题描述 / Problem Description**:
+https://maas.antdigital.com/models x 上说支持国外模型登录后没看到，国内模型倒是都有。Token Plan 最低 ¥29/月 3,750 Credit 每月
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238146#reply0
+
+---
+
+#### 10312. [V2EX] 為什麼北京洛杉磯等城市辦奧運會很成功，而其他城市做不到？
+
+**问题描述 / Problem Description**:
+有個問題，北京和洛杉磯這些城市都辦過奧運會，但是他們都很成功，為什麼其他城市做不到這樣的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238139#reply18
+
+---
+
+#### 10313. [V2EX] 德芙巧克力 求平替
+
+**问题描述 / Problem Description**:
+如题，德芙营销广告也开始两个爹了，话说回来 OPPO 还说自己是机圈德芙，这回双向奔赴了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238124#reply33
+
+---
+
+#### 10314. [V2EX] 有什么能在 android tv 上用的背单词 app 啊
+
+**问题描述 / Problem Description**:
+除了海豚英语还有什么 app 啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238119#reply4
+
+---
+
+#### 10315. [V2EX] 吐槽 coze 之难用
+
+**问题描述 / Problem Description**:
+现在 coze 编程 coze 编程，没看到哪儿能手动创建工作流，是我没找到路径还是完全放弃开发者了吗。 ps：本来做好了 dify ，但是 dify cloud 在国内访问不了。大佬们还有啥推荐的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238116#reply6
+
+---
+
+#### 10316. [V2EX] 在这个产品爆炸的年代，未来产品会以什么形式存在
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238065#reply6
+
+---
+
+#### 10317. [V2EX] 做什么生意可以日入 300 呢
+
+**问题描述 / Problem Description**:
+大家都在说月入几万几万的，年入千万之类的话题，我就想一个普通人，怎么日入 300 元。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238062#reply1
+
+---
+
+#### 10318. [V2EX] 支持命令行操作开和关的电源市面上有吗？
+
+**问题描述 / Problem Description**:
+配合 AI 使用，AI debug 经常要重启硬件。所以需要搞一个支持命令行操作开和关的电源，市面上有吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238058#reply18
+
+---
+
+#### 10319. [V2EX] 为啥几家免费 AI 会不约而同答错呢？
+
+**问题描述 / Problem Description**:
+测试的 AI Kimi 快速，进阶思考（可能部分降级到了快速） 元宝的 DeepSeek 的深度思考 千问的思考研究 Gemini Flash-Lite 问题 Power BI 的 DAX 公式里，怎样计算 Data 表 Customer 列有多少个客户？ 我要计算的是不重复且非空值的客户数 结果 以上三个都回答用 DISTINCTCOUNT()函数，并且第一次回答都告诉我这个函数会 排除空值 ，所以不需要额外处理。质疑之后，元宝和千问认错，Kimi 还继续嘴硬，甚至编造官方文档引文： 继续叫它提供这段引文的出处才认错。 疑惑 因为这是个非常基础的问题，所以期待是即使是免费快速模式不查外部资料
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238051#reply11
 
 ---

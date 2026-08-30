@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9739**
+**总计条目 / Total entries: 9770**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -134578,5 +134578,408 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237851#reply6
+
+---
+
+#### 9740. Well look
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w27oi2/well_look/
+
+---
+
+#### 9741. Why does it feel like Linux is suddenly exploding in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2fznv/why_does_it_feel_like_linux_is_suddenly_exploding/
+
+---
+
+#### 9742. How linux distro provide higher CPU benchmark scores than windows?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2gg8x/how_linux_distro_provide_higher_cpu_benchmark/
+
+---
+
+#### 9743. Haiku R1/beta6 has been released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2rylh/haiku_r1beta6_has_been_released/
+
+---
+
+#### 9744. What happened with the recent Debian vote?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2r6bs/what_happened_with_the_recent_debian_vote/
+
+---
+
+#### 9745. word-sys's PDF Editor v1.10.0-beta1 Feature & Flatpak Update Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2smzv/wordsyss_pdf_editor_v1100beta1_feature_flatpak/
+
+---
+
+#### 9746. Developed Boot Animation focused minimal initramfs , with Rescue Mode
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2flrp/developed_boot_animation_focused_minimal/
+
+---
+
+#### 9747. How the development would change
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2uxx9/how_the_development_would_change/
+
+---
+
+#### 9748. I built a collection of lightweight Bash scripts to manage, optimize, and automate Fedora workstations (fedora-system-tools)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2r57e/i_built_a_collection_of_lightweight_bash_scripts/
+
+---
+
+#### 9749. RamShared v2: Writing a Linux VRAM Block Driver in Rust & C with 8.74 GiB/s PCIe DMA, io_uring/ublk, and 3 Patches on lore.kernel.org
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w22cxh/ramshared_v2_writing_a_linux_vram_block_driver_in/
+
+---
+
+#### 9750. Koboldcpp v1.120 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2c65a/koboldcpp_v1120_released/
+
+---
+
+#### 9751. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply80
+
+---
+
+#### 9752. [V2EX] 5400 元买了张 7900 XTX（24G 显存，新卡带 2 年质保）- 这是真的可以买到吗?
+
+**问题描述 / Problem Description**:
+各位这个价格真的可以买到这个卡吗? https://x.com/wherecall1/status/2094087659149029842
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238247#reply1
+
+---
+
+#### 9753. [V2EX] 想在 aws 上开 claude 账号
+
+**问题描述 / Problem Description**:
+哪位大佬有海外实体，或者有从哪能交点外国友人呢，指点下，台湾朋友应该也行，求助 55555
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238242#reply0
+
+---
+
+#### 9754. [V2EX] XXL-BOOT v2.1.0 发布： React 全新上线 · 全栈 TypeScript · AI+SKILL 驱动开发
+
+**问题描述 / Problem Description**:
+一套仓库，三种模式；一行 SQL ，全栈生成； AI 加持，开箱即用。 本版本是一次承前启后的重大升级，围绕「 前端工程全面 TypeScript 化 」「 React 全新前端版本交付 」「 AI + SKILL 驱动开发 」三大核心亮点展开，让中后台业务开发从此进入 AI 辅助时代。 一、Release Notes （ v2.1.0 · 2026-08-30 ） 1 、 [新增] React 前端版本发布 ：React + Vite + AntDesign + TypeScript 前端工程正式交付，与 Vue 模式共享统一后端 API ，随生产构建并行发布； 2 、 [新增] Vue 前
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238238#reply1
+
+---
+
+#### 9755. [V2EX] 求推荐 北京靠谱的维修 iPhone 手机主板的店铺
+
+**问题描述 / Problem Description**:
+家人的 16 Pro Max 突然黑屏，开不了机，去天才吧检测，插着电不通电流，可能是尾插坏了（连着主板），只能直接换机。 换机需要 6000+，不划算了，想找一家靠谱点的维修一下试试，但是找维修这方面没经验，这行业也挺复杂，求万能的 V 友推荐。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238223#reply7
+
+---
+
+#### 9756. [V2EX] 写的小工具又上阮一峰的周刊了
+
+**问题描述 / Problem Description**:
+之前在 v 站发了一次 /t/1236486 无人问津 以为只有自己有这种特殊的习惯 看到 star 之后 发现还有有不少同好的。 不得不说来自大佬的流量依旧强大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238221#reply16
+
+---
+
+#### 9757. [V2EX] 我是不是太学生思维了
+
+**问题描述 / Problem Description**:
+我是不是太学生思维了 本人双非准大三，上学期 python 大作业做了个小项目，后面暑假打磨了一下( https://rtomc.com/ ) (基本都是 vibe)。最近瞎搞了一个 typst 导出简历玩具 后面准备找实习但是没有想好方向(虽然可能考研，但是更想去社会润润)，想看后端开发，但是 java 传统路线自己没实践没项目，之前参加过一个数据库管理系统的比赛，后面一直在润 github 。有没有大佬指点迷津。 感谢你的聆听，也可以看看我这个项目/网站有没有啥问题，能给个 star 就更好了。( https://github.com/onlynor/vibemeter )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238220#reply8
+
+---
+
+#### 9758. [V2EX] 记一次 GLM 开发严重事故，花了 8 亿 token，买了个教训
+
+**问题描述 / Problem Description**:
+本周末使用 Codex + Trellis + Zcode 新开了一个项目，Codex 负责 brainstorm + prd ，Trellis 负责 Agent 之间的开发衔接，Zcode 负责实际的实现，加上本周末智谱送的 3 亿 token 以及 token plan pro 的额度，感觉本来没啥问题，昨天跑了一天十分的顺，glm5.3 flash 也是比较快，代码也都用 git 管理，只是没有上传到 github 。 结果刚才突然爆出严重事故，它把我的整个上上级文件夹给直接删了，天天号称安全的模型能犯这么低级的错误，丢失的东西也没有用 time machine 备份，恢复不了了， 损失
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238217#reply48
+
+---
+
+#### 9759. [V2EX] App 上架 Apple AppStore，会员只接入支付宝是不是必通不过审核
+
+**问题描述 / Problem Description**:
+App 上架 Apple AppStore ，会员只接入支付宝是不是必通不过审核 我是打算对审核账号隐藏会员支付功能，这样行吗。。大家一般咋搞的，接入 IAP ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238210#reply13
+
+---
+
+#### 9760. [V2EX] Codex 1000 credits 邀请名额又来了
+
+**问题描述 / Problem Description**:
+不知道为啥上周刚发了 3 个邀请，今天一看又可以邀请了： 需要的朋友可以发邮箱，请先确认自己满足下面的条件： 受邀者在过去 2 个月内不得使用过 ChatGPT 桌面版。 受邀人不能已拥有有效的推荐邀请。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238154#reply2
+
+---
+
+#### 9761. [V2EX] 求 100 USD AI 订阅推荐， grok 还是 gemini？
+
+**问题描述 / Problem Description**:
+公司提供的每月报销额度还剩下 100 USD ，想在 grok supergrok plus 和 gemini ultra 里面选一个，哪个比较好？ 背景： 已经订阅了 ChatGPT Max 20 和 Claude Max 5 ，日常开发完全够用了，想再订阅个有多模态能力并且写作能力强的 AI 来写文档。看了下这俩都符合需求，比较纠结。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238150#reply36
+
+---
+
+#### 9762. [V2EX] 关于大模型的过度设计
+
+**问题描述 / Problem Description**:
+目前在高强度使用 GPT 5.6 和 Grok 发现大模型在提出具体的解决方案时，有这样几个特点： 非常倾向于过度设计 为问题引入非必要的复杂度 在实现过程中写一堆测试 我写了一个 Skill ，让大模型围绕以下三个维度“反思”它提出的方案或者观点： 有效性：是否能高质量解决问题 复杂性：是否引入了非必要的复杂度 后果： 是否引入了新的问题 在 Skill 中也定义了大模型提出方案的基线，以及围绕解决方案的排查思路 目前我在多个项目里实测了几天，感觉效果拔群，配合 Matt Pocock 的工作流会更好 欢迎各位大佬们体验： https://github.com/nscTechArt/are-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238140#reply13
+
+---
+
+#### 9763. [V2EX] 租服务器
+
+**问题描述 / Problem Description**:
+各位大佬 哪里有便宜好用的服务器 之前论坛好像有做过广告 没收藏 离职了 找不到工作 自己在家写写代码 自己电脑有点带不动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238117#reply18
+
+---
+
+#### 9764. [V2EX] 1stformations 不支持大陆地区后，大家怎么注册英国公司？
+
+**问题描述 / Problem Description**:
+rt 。 最近在考虑设立海外公司的问题，最终属意英国。检索了一下发现 1stformations 不支持大陆地区注册了，请问大家有没有新的办法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238098#reply3
+
+---
+
+#### 9765. [V2EX] AI 时代，软件已经不值钱了
+
+**问题描述 / Problem Description**:
+纯软件很难建立起优势了，包括个人和企业
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238096#reply76
+
+---
+
+#### 9766. [V2EX] 免费，开源， V2EX Android 客户端首个正式版本， Kotlin + Jetpack Compose 构建。
+
+**问题描述 / Problem Description**:
+在被苹果审核教育一番之后以及 V 友的邀请之下做了安卓版本 Kotlin + Jetpack Compose 全原生构建 凭据加密存储（ Android Keystore + EncryptedSharedPreferences ） 支持折叠屏，内外屏无缝切换 站内完成全部互动 —— 回复、发帖、收藏，@ 补全、通知直达 分享为卡片 —— 一键生成带二维码的话题图片卡 GitHub： https://github.com/xinghelee/v2ex-android GitHub： https://github.com/xinghelee/v2ex-android
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238073#reply32
+
+---
+
+#### 9767. [V2EX] libcr 项目组 crRequest 1.9.6 上架微软应用商店， 免费版的 postman，无需登录
+
+**问题描述 / Problem Description**:
+微软商店下载： https://apps.microsoft.com/store/detail/9PF8DDGLD2JH?cid=DevShareMCLPCS Linux 版 下载: https://github.com/libcr/crRequest/releases 1.9.6 修复 SSH 终端登录问题，优化 Hash 工具，添加 DNS over HTTPS 测试工具，新增 Crashpad 支持 crRequest 是一款 C++开发的跨平台工具客户端 基于源代码 chromium 150.0.7871.91 1. 使用 chromium UI 框架设计跨平台应用界面，实现多平台一致
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238049#reply1
+
+---
+
+#### 9768. [V2EX] 国内的 qoder cli 和 codebuddy cli 怎么选？都是接 ds 的情况下
+
+**问题描述 / Problem Description**:
+如题 之前一直用 claude code ，但是集团排查禁止使用了，只能寻找国内平替，目前看了 qoder cli 和 codebuddy cli ，感觉两者都没有太明显的优劣势。有用过的同学说说体验么？ ps：公司不给 codeplan ，但是给了些 ds 的额度，所以只能选择接 ds 进行使用。主要考虑 Java 软件开发方向。 平时用的 IDEA 比较多，目前不太想直接从 IDEA 转到他们的 IDE 版，所以还是优先考虑 CLI 版本
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238009#reply24
+
+---
+
+#### 9769. [V2EX] 公司不让装 Navicat 了，就自己写了一个数据库客户端
+
+**问题描述 / Problem Description**:
+写代码十几年了。之前也给孩子们做过几个 Android 小应用，背单词、练口算那种，他们用得还行。 但那些说到底还是「给别人用」。 DataZen 是我第一次想只为自己做一个软件。 起因很现实：公司合规不让装 Navicat 了。DBeaver 能用，但日常用起来总觉得差点意思。正好赶上 vibe coding 这股风，心想不如自己试一把，看能不能做出一个 真正工业级、能天天拿来干活 的数据库客户端。 不是玩票，也不是 demo 。就是给自己用。 两个具体痛点 1. 查线上问题，经常要串好几张表，还跨库 处理投诉、排查线上问题，流程大概是这样： 先查表 A ，拿到某个 ID 或状态 用这个值去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237986#reply41
+
+---
+
+#### 9770. [V2EX] 今天 Win11 更新 KB5120998 会引起鼠标指针变大和壁纸变黑
+
+**问题描述 / Problem Description**:
+不知道有没有碰到的。 https://github.com/Arcadeq/windows-cursor-scheme-fix 暂时可以用这个脚本修复或者直接卸载 KB5120998 更新
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237975#reply31
 
 ---
