@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3420**
+**总计条目 / Total entries: 3449**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -50287,5 +50287,353 @@ Multiple vulnerabilities have been found in Tor, the worst of which could allow 
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-32
+
+---
+
+#### 3421. CVE-2026-80725 - kernel: net: gro: properly validate BIG TCP aggregation criteria
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: gro: properly validate BIG TCP aggregation criteria. Bugzilla: 2525861
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525861
+
+---
+
+#### 3422. CVE-2026-80612 - kernel: net: lwtunnel: Drop skb metadata before LWT encapsulation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: lwtunnel: Drop skb metadata before LWT encapsulation. Bugzilla: 2525366
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525366
+
+---
+
+#### 3423. CVE-2026-80673 - kernel: ntfs: bound the look-ahead attribute-list entry in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ntfs: bound the look-ahead attribute-list entry in ntfs_external_attr_find(). Bugzilla: 2525367
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525367
+
+---
+
+#### 3424. CVE-2026-80661 - kernel: ufs: core: tracing: Do not dereference pointers in TP_printk()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ufs: core: tracing: Do not dereference pointers in TP_printk(). Bugzilla: 2525368
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525368
+
+---
+
+#### 3425. CVE-2026-80603 - kernel: netfilter: nf_conntrack_irc: fix parse_dcc() off-by-one OOB read
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: nf_conntrack_irc: fix parse_dcc() off-by-one OOB read. Bugzilla: 2525369
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525369
+
+---
+
+#### 3426. CVE-2026-80677 - kernel: driver core: use READ_ONCE() for dev->driver in dev_has_sync_state()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: driver core: use READ_ONCE() for dev->driver in dev_has_sync_state(). Bugzilla: 2525370
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525370
+
+---
+
+#### 3427. CVE-2026-80718 - kernel: mm/percpu-km: fix bitmap overflow and accounting in pcpu_create_chunk()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: mm/percpu-km: fix bitmap overflow and accounting in pcpu_create_chunk(). Bugzilla: 2525371
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525371
+
+---
+
+#### 3428. CVE-2026-80697 - kernel: erofs: ensure valid f_path for page cache sharing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: erofs: ensure valid f_path for page cache sharing. Bugzilla: 2525372
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525372
+
+---
+
+#### 3429. CVE-2026-80700 - kernel: drm/vmwgfx: validate external BO copy bounds for both stride paths
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/vmwgfx: validate external BO copy bounds for both stride paths. Bugzilla: 2525373
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525373
+
+---
+
+#### 3430. CVE-2026-80664 - kernel: netfilter: xt_nat: reject unsupported target families
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: netfilter: xt_nat: reject unsupported target families. Bugzilla: 2525374
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525374
+
+---
+
+#### 3431. CVE-2026-80689 - kernel: tracing/mmiotrace: Add NULL check for mmio_trace_array in logging functions
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: tracing/mmiotrace: Add NULL check for mmio_trace_array in logging functions. Bugzilla: 2525375
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525375
+
+---
+
+#### 3432. CVE-2026-80694 - kernel: net: ethernet: mtk_eth_soc: pass eth to mtk_handle_irq_rx in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net: ethernet: mtk_eth_soc: pass eth to mtk_handle_irq_rx in poll_controller. Bugzilla: 2525376
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525376
+
+---
+
+#### 3433. CVE-2026-80618 - kernel: drm/amdkfd: Avoid double-unpin of DOORBELL/MMIO BOs on free
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: drm/amdkfd: Avoid double-unpin of DOORBELL/MMIO BOs on free. Bugzilla: 2525378
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525378
+
+---
+
+#### 3434. CVE-2026-80599 - kernel: batman-adv: dat: ensure accessible eth_hdr proto field
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: dat: ensure accessible eth_hdr proto field. Bugzilla: 2525379
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525379
+
+---
+
+#### 3435. CVE-2026-80629 - kernel: octeontx2-af: npc: Fix size of entry2cntr_map
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: octeontx2-af: npc: Fix size of entry2cntr_map. Bugzilla: 2525380
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525380
+
+---
+
+#### 3436. CVE-2026-80667 - kernel: net/mlx5: LAG, MPESW, Fix missing complete() on devcom error
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: net/mlx5: LAG, MPESW, Fix missing complete() on devcom error. Bugzilla: 2525381
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525381
+
+---
+
+#### 3437. CVE-2026-80600 - kernel: batman-adv: dat: acquire ARP hw source only after skb realloc
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: batman-adv: dat: acquire ARP hw source only after skb realloc. Bugzilla: 2525382
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525382
+
+---
+
+#### 3438. CVE-2026-80598 - kernel: ntfs3: fix out-of-bounds read in decompress_lznt
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: ntfs3: fix out-of-bounds read in decompress_lznt. Bugzilla: 2525383
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2525383
+
+---
+
+#### 3439. [Ubuntu] USN-8704-1: GNU cpio vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cpio incorrectly sanitized hard-link targets when extracting tar archives in copy-in mode. If a user or automated system were tricked into extracting a specially crafted tar archive, an attacker could possibly use this issue to create hard links to files outside the extraction directory, even when using the --no-absolute-filenames option. (CVE-2026-66484) It was discovered t
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8704-1
+
+---
+
+#### 3440. [Ubuntu] USN-8705-1: OpenZFS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenZFS incorrectly handled authorization checks for certain ioctl operations on Linux. A local attacker could possibly use this issue to perform pool-administrative operations or access privileged information, resulting in an authorization bypass.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8705-1
+
+---
+
+#### 3441. [Ubuntu] USN-8703-1: WebKitGTK vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the WebKitGTK Web and JavaScript engines. If a user were tricked into viewing a malicious website, a remote attacker could exploit a variety of issues related to web browser security, including cross-site scripting attacks, denial of service attacks, and arbitrary code execution.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8703-1
+
+---
+
+#### 3442. [Ubuntu] USN-8702-1: util-linux vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libblkid in util-linux had a heap use-after-free vulnerability during nested partition probing. An attacker who could present a crafted block device image could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-13595) It was discovered that the mount utility in util-linux had a time-of-check- time-of-use vulnerability when settin
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8702-1
+
+---
+
+#### 3443. [Ubuntu] USN-8701-1: UDisks vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that UDisks did not correctly validate the caller identity when handling the as-user option in the org.freedesktop.UDisks2.Filesystem.Mount() D-Bus method. A local attacker with an active console session could possibly use this issue to mount filesystems on behalf of arbitrary users, including privileged accounts, leading to local privilege escalation.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8701-1
+
+---
+
+#### 3444. [Ubuntu] USN-8678-3: OpenSSL vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8673-1 fixed vulnerabilities in OpenSSL. The update inadvertently left out the fix for CVE-2026-75803 in Ubuntu 26.04 LTS. This update fixes the problem. We apologize for the inconvenience. Original advisory details: It was discovered that OpenSSL incorrectly handled the QUIC server incoming channel queue. A remote attacker could possibly use this issue to cause OpenSSL to use excessive resour
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8678-3
+
+---
+
+#### 3445. [Ubuntu] USN-8700-1: MySQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple security issues were discovered in MySQL. MySQL has been updated to 8.4.11 in Ubuntu 26.04 LTS. Ubuntu 22.04 LTS and Ubuntu 24.04 LTS packages have been updated with backported patches. In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes. Please see the following for more information: https://dev.mysql.com/doc/relnotes/mys
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8700-1
+
+---
+
+#### 3446. [Ubuntu] USN-8699-1: libssh vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh had a stack buffer overflow in its SFTP server when constructing directory listing entries for long filenames. An attacker could possibly use this issue to cause libssh to crash or execute arbitrary code. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-15370) It was discovered that libssh did not correctly handle SSH channel open messages advertising a zero maxim
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8699-1
+
+---
+
+#### 3447. [Ubuntu] USN-8698-1: FreeRDP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to crash, resulting in a denial of service, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8698-1
+
+---
+
+#### 3448. [Ubuntu] USN-8697-1: GNU Core Utilities vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GNU Core Utilities sort had a heap buffer under-read in its begfield() function. A local attacker could possibly use this issue to cause GNU Core Utilities to crash, resulting in a denial of service, or obtain sensitive information. (CVE-2025-5278) It was discovered that GNU Core Utilities uniq had an out-of-bounds read when the -w option was used with crafted multibyte inpu
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8697-1
+
+---
+
+#### 3449. [Gentoo] GLSA 202608-34: Chromium, Google Chrome, Microsoft Edge, Opera: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge, and Opera.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202608-34
 
 ---

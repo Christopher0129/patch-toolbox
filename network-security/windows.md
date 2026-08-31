@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 948**
+**总计条目 / Total entries: 956**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13868,5 +13868,101 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52658
+
+---
+
+#### 949. [webapps] C-MOR  6.0104 - Directory Traversal
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] C-MOR 6.0104 - Directory Traversal
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52666
+
+---
+
+#### 950. [webapps] C-MOR  6.0104 - Cross-Site Scripting (XSS)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] C-MOR 6.0104 - Cross-Site Scripting (XSS)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52665
+
+---
+
+#### 951. [webapps] CubeCart 6.7.4 - SQL injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CubeCart 6.7.4 - SQL injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52664
+
+---
+
+#### 952. [webapps] CubeCart 6.7.4 - SQL
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CubeCart 6.7.4 - SQL
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52663
+
+---
+
+#### 953. [webapps] CubeCart 6.7.4 - Stored XSS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CubeCart 6.7.4 - Stored XSS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52662
+
+---
+
+#### 954. [webapps] CubeCart 6.7.4 - Cross-Site Scripting
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] CubeCart 6.7.4 - Cross-Site Scripting
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52661
+
+---
+
+#### 955. [webapps] Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52660
+
+---
+
+#### 956. [webapps] Langflow  1.8.4 - Path Traversal to Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Langflow 1.8.4 - Path Traversal to Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52659
 
 ---

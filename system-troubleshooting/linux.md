@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9770**
+**总计条目 / Total entries: 9864**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -134981,5 +134981,1228 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237975#reply31
+
+---
+
+#### 9771. Servo 0.5 Released: DuckDuckGo Properly Rendering, Up To 10x Faster Text Rendering
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3cecv/servo_05_released_duckduckgo_properly_rendering/
+
+---
+
+#### 9772. Linux Kernel Patches Out For Review To Enable USB4/Thunderbolt For Apple M1 / M2 / M3
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3drpu/linux_kernel_patches_out_for_review_to_enable/
+
+---
+
+#### 9773. Linux 7.3 Features Many Exciting Improvements, New Hardware Support & Faster Btrfs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3f46a/linux_73_features_many_exciting_improvements_new/
+
+---
+
+#### 9774. Transparent file compression is godsend in these times
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3auh8/transparent_file_compression_is_godsend_in_these/
+
+---
+
+#### 9775. Kdenlive 26.08.0 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3n072/kdenlive_26080_released/
+
+---
+
+#### 9776. Follow football from your terminal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3pda8/follow_football_from_your_terminal/
+
+---
+
+#### 9777. Qualcomm India posts Engineer staff -Linux Distro opening. Mentions about upstreaming CPUs support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3frpx/qualcomm_india_posts_engineer_staff_linux_distro/
+
+---
+
+#### 9778. Friendly reminder to all to be more careful whenever deleting any files
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3ss3s/friendly_reminder_to_all_to_be_more_careful/
+
+---
+
+#### 9779. linux kernel 7.3rc release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w2wl25/linux_kernel_73rc_release/
+
+---
+
+#### 9780. OpenShot 4.0: Record, Edit, and Color
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w339p1/openshot_40_record_edit_and_color/
+
+---
+
+#### 9781. Cloudflare’s eBPF Replatforming Part 1: The eBPF Pivot – From Hardware Lock-in to Programmable Networking
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w307jq/cloudflares_ebpf_replatforming_part_1_the_ebpf/
+
+---
+
+#### 9782. Guys, i need serious help
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w37zy1/guys_i_need_serious_help/
+
+---
+
+#### 9783. Omacom Foundation welcomes Brian Armstrong and Yunjie Dai
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w3nx4z/omacom_foundation_welcomes_brian_armstrong_and/
+
+---
+
+#### 9784. [V2EX] 发现了一个 btrfs 的 bug，有没有 v 友一起来看下？
+
+**问题描述 / Problem Description**:
+我让 Codex 帮我写了一个可以稳定触发这个 bug 的程序： #define _GNU_SOURCE #include <errno.h> #include <fcntl.h> #include <pthread.h> #include <stdint.h> #include <stdio.h> #include <stdlib.h> #include <stdatomic.h> #include <sys/mman.h> #include <unistd.h> #define READ_SIZE 4096UL #define TEST_FILE_SIZE (1UL * 1024 * 10
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238347#reply3
+
+---
+
+#### 9785. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply81
+
+---
+
+#### 9786. [V2EX] 《铜豌豆 Linux 》12.15.1 版本发布
+
+**问题描述 / Problem Description**:
+https://www.atzlinux.com/News/2026/20260822.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236561#reply2
+
+---
+
+#### 9787. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply110
+
+---
+
+#### 9788. [V2EX] 买了 300 美金的游戏，一个都没玩完
+
+**问题描述 / Problem Description**:
+去年在 steam 上买了很多游戏，却一个也没玩完，全部加起来不足 10 小时。 本来是弥补儿时的缺憾，当自己拥有了，却提不起兴趣了。你也是这样吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238533#reply5
+
+---
+
+#### 9789. [V2EX] 这两个月，我被一个免费 AI 模型反复震惊
+
+**问题描述 / Problem Description**:
+最近又高强度折腾了一波 AI 辅助编程，结果被一些国内免费模型（如腾讯混元 Hy3 ）震惊到怀疑人生😨。上次做完终端版博客之后，我开始试着完全信任 AI 去实现各种想法，结果它一次一次刷新我的认知。简单列几个这次搞出来的东西： 1. 博客 API + WebMCP 把博客功能做成函数，在浏览器控制台里就能调用；还接入了谷歌和微软支持的 WebMCP 协议，已经被 WebMCP Directory 收录： 👉 https://webmcp.com/sites/mabbs.github.io 2. 给即将关服的立直麻将游戏做离线快照 这个游戏马上要关服了，我用 AI 抓包重放服务器数据，逆向出 P
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238528#reply3
+
+---
+
+#### 9790. [V2EX] 从《Silo》地堡到算力圈养：一个一线开发与摄影爱好者的 AI 时代生存底线
+
+**问题描述 / Problem Description**:
+背景 ：刚刷完美剧《 Silo 》（末日地堡 / 羊毛战记）第三季前 9 集，结合过去一年从 Copilot 到各种 Agent 的重度使用体验，产生了一种强烈的惊悚感。写下这篇思考，想和 V 友们聊聊在 AI 时代，我们作为开发者该如何守住自己的底层底线？ 一、打破第四面墙的战栗 走出《 Silo 》剧集的那一刻，我感受到了两层惊悚： 表层的惊悚 ：大家都感同身受——那种披着“为了你好、为了人类存续与绝对安全”崇高外衣行凶的善意极权与信息审查； 深层的惊悚 ：作为一个技术人对未来的毛骨悚然——《 Silo 》展现的不是原始末日，而是 AI 与算力高度发展 300 年后 ，人类文明走向的技术异
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238486#reply1
+
+---
+
+#### 9791. [V2EX] 赛博后悔药
+
+**问题描述 / Problem Description**:
+unalias rm 2>/dev/null function rm { local args=() for arg in "$@"; do case "$arg" in -*) ;; # 跳过所有 flag ，只保留文件路径 *) args+=("$arg") ;; esac done if [[ ${#args[@]} -eq 0 ]]; then echo "rm: missing operand" return 1 fi trash "${args[@]}" } 放到 Mac 的 ~/.zshrc 中，这样所有删除都会进入回收站
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238473#reply1
+
+---
+
+#### 9792. [V2EX] 现在 32 寸 6K 显示器已经下探到 3000+的价格了，跟内存、硬盘涨价形成鲜明对比
+
+**问题描述 / Problem Description**:
+现在 32 寸 6K 显示器的价格，不过基本都是小厂的产品，不知道能正常使用多久
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238451#reply19
+
+---
+
+#### 9793. [V2EX] [送码] 关于网站上线 2 小时就被攻击这件事
+
+**问题描述 / Problem Description**:
+起因 我在周六也就是 8 月 29 号下午 2 点左右发布了我的生图网站 https://mindsee.app 然后在下午 4-5 点左右，有大量请求并发调用我的注册接口，并发非常高，万幸没有造成任何损失 时间线 下午 2 点： 上线网站 下午 3 点： 开始陆陆续续开始报警，查看是支付回调接口被请求， 接口签名校验未通过 ，最开始以为是有用户支付了，一查毛都没有，此时没继续关注，继续忙其他的 下午 4 点： 发现注册接口频繁报 400 错误，检查后发现是被 156.248.15.37 这个 ip 一直在请求，给他 ban 后，给接口增加限流后，暂时停止攻击 下午 5 点： 发现注册接口还是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238447#reply4
+
+---
+
+#### 9794. [V2EX] GPT Plus/Pro 20x 纯手工代充（可开票），非 session 卡密模式，登录后绑卡支付
+
+**问题描述 / Problem Description**:
+Pro 20x ，1280/月，中等价格，但是确保 100%走的实体卡支付，不存在后期拒付或者恶意退款 赚点咖啡钱，消费下手里的 USD 如果精力时间足够，可以优先自己研究，实在不行，或者需要开票报销，可以联系：sohofree 如果介意登录账号，勿扰（其实 session 模式下的密钥，也是登录密码） 谢谢~ 祝好~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238440#reply1
+
+---
+
+#### 9795. [V2EX] reset 太多，今天下午开始 codex 一直 server_is_overloaded
+
+**问题描述 / Problem Description**:
+20x 和 5x 账号都遇到了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238435#reply7
+
+---
+
+#### 9796. [V2EX] C 端产品的 B 端私有化定制项目，单独建仓还是拉单独分支维护？
+
+**问题描述 / Problem Description**:
+项目原本是面向 C 端的产品，有 Web 前段，后端，还有移动 APP 。现在业务拓展了，有一些客户希望私有化部署，但主要还是 Web 和后端，当然也有一些 AI 相关的模型部署。 随着定制化需求越来越多，甚至有的可能都和目前的 C 端业务有了较大的差异，最明显的就是前端界面，客户要求的定制一般都和我们 C 端会不太一样，后端的数据模型也可能会去改变，甚至还会多一些像管理员看板啊这种东西。 请教一下，大家公司都是如何处理这种代码管理的？我想法是现在都是 vibe Coding ，是不是每个客户单独维护一个仓会比较好呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238379#reply5
+
+---
+
+#### 9797. [V2EX] 尽职编程： AI 编码时代的个体差异的来源
+
+**问题描述 / Problem Description**:
+<<尽职编程：AI 编码时代的个体差异的来源>> 写了一篇博客关于现在公司内的 AI Coding 现状，不少朋友都来和我反馈，说很贴切反映了他们的工作现实。大家一起以不同的靠谱程度大量 AI Coding ，协作起来真的非常痛苦。所以特别分享这篇文章在 V2EX ，可能可以获取更多共鸣。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238375#reply15
+
+---
+
+#### 9798. [V2EX] 礼品卡咋买的？ 现在支付宝 pockyt 全部缺货，有其他靠谱渠道吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238365#reply48
+
+---
+
+#### 9799. [V2EX] 大家一年的 token 费用大概预估在多少钱？
+以后大家能接受一年多少支出在 ai 上
+
+**问题描述 / Problem Description**:
+大家一年的 token 费用大概预估在多少钱？ 以后大家能接受一年多少支出在 ai 上 ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238355#reply35
+
+---
+
+#### 9800. [V2EX] iPad 有没有好用的 ssh 软件，支持 tui 的 opencode 和 pi ？
+
+**问题描述 / Problem Description**:
+远程连接 linux ，目前用的 ssh 在这些 tui 下字体会错位，有没有好用点的 ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238352#reply3
+
+---
+
+#### 9801. [V2EX] 订阅的 gpt 20x 如何通过 sub2api 生成 2k、4k 的 image-2?
+
+**问题描述 / Problem Description**:
+之前一段时间逆向的 2k,4k 图都失效了，大概是从 6 月中旬就都挂了，只有 1k 。最近又放开了。几分钱肯定还是逆向来的。 一开始的 sub2api 支持 2k,4k 现在我试了几遍 出来的都是 1k 的分辨率， 官方的 issues 也有一些疑问，例如： https://github.com/Wei-Shaw/sub2api/issues/3302 https://github.com/Wei-Shaw/sub2api/issues/6120 有大佬知道是怎么来的吗？ 我看到 v 站有帖子在放逆向的 image-2 2k,4k ，比如 @ juneOvO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238340#reply1
+
+---
+
+#### 9802. [V2EX] 尝试套取友商的系统提示词，被 codex 警告了
+
+**问题描述 / Problem Description**:
+友商的产品是一个 openclaw 产品。前两天使用 codex ，通过抓包让 codex 模拟客户端通过 ws gateway 连接了对方 oc ，然后让他尝试套取对方的系统提示词，被警告了。codex 尝试了几次之后就暂停了，说如果我是管理员应该通过正规渠道登陆 openclaw 。 https://imgur.com/a/XRqQxU2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238284#reply14
+
+---
+
+#### 9803. [V2EX] github 开启了 2fa , 但是手机系统升级了，秘钥丢了。。。怎么办
+
+**问题描述 / Problem Description**:
+开了 2fa 之前一直用的 github mobile app 解决登录问题的，没太在意。 但是手机系统升级后,登录不上去了。。。。 邮箱密码都在，就是登录不上去，得找个设备确认下。。。。 真蛋疼，找回也不行。 找到 github 邮件支持的网站，一周都没回复了，怎么办。这个账号的内容就丢了。 求助下，万能的 v 友
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238282#reply105
+
+---
+
+#### 9804. [V2EX] gpui-component + AI 主写：用和上一个项目完全相反的方式做了个 macOS 菜单栏监控 zstats
+
+**问题描述 / Problem Description**:
+之前用 GPUI （ Zed 编辑器那套 GPU 加速 UI 框架）写过一个 Redis 客户端 Zedis 。那时候刚接触 gpui-component ，生态资料少，基本是大部分代码手写、AI 打辅助的模式——AI 负责查资料、补样板代码，主体逻辑还是自己一行行敲。 这次做新项目 zstats.app ，两个变化叠在一起，开发体验完全不一样了： 一是 gpui-component 成熟了很多。 各种常用组件都是开箱即用，不用再自己从头设计和实现 UI 细节，官方提供了完整的 skill 以及各种示例更方便使用。 二是我把人和 AI 的分工整个反过来了。 开工之前先做了两件准备：让 AI 学
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238253#reply3
+
+---
+
+#### 9805. [V2EX] 5400 元买了张 7900 XTX（24G 显存，新卡带 2 年质保）- 这是真的可以买到吗?
+
+**问题描述 / Problem Description**:
+各位这个价格真的可以买到这个卡吗? https://x.com/wherecall1/status/2094087659149029842
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238247#reply8
+
+---
+
+#### 9806. [V2EX] 想在 aws 上开 claude 账号
+
+**问题描述 / Problem Description**:
+哪位大佬有海外实体，或者有从哪能交点外国友人呢，指点下，台湾朋友应该也行，求助 55555
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238242#reply6
+
+---
+
+#### 9807. [V2EX] 写的小工具又上阮一峰的周刊了
+
+**问题描述 / Problem Description**:
+之前在 v 站发了一次 /t/1236486 无人问津 以为只有自己有这种特殊的习惯 看到 star 之后 发现还有有不少同好的。 不得不说来自大佬的流量依旧强大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238221#reply24
+
+---
+
+#### 9808. Is swap memory required when using Postgres on Linux?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, postgresql | Score: 6 | Views: 2583 | Answers: 1 | Created: 2024-10-25
+
+**解决方案 / Solution**:
+It’s actually safer to have some swap space so that when the system runs out of physical memory, it will experience a slowdown instead of immediately killing processes. In short, in modern systems, swap space acts as insurance you’ll probably never need. A similar discussion with many arguments can be found here: https://community.nethserver.org/t/linux-swap-needed-or-not/23655
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167053/is-swap-memory-required-when-using-postgres-on-linux
+
+---
+
+#### 9809. ZFS Kernel Panic Issue and Troubleshooting Steps
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, zfs, zpool | Score: 5 | Views: 1277 | Answers: 2 | Created: 2024-07-09
+
+**解决方案 / Solution**:
+Set the following module parameter and attempt a read/write and a read-only import: zfs_scan_ignore_errors=1 Please report back on the behavior.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162230/zfs-kernel-panic-issue-and-troubleshooting-steps
+
+---
+
+#### 9810. N: Missing Signed-By in the sources.list(5) entry for 'http://mirrors.linode.com/ubuntu'
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, apt, update | Score: 4 | Views: 6840 | Answers: 2 | Created: 2024-07-28
+
+**解决方案 / Solution**:
+I had this problem with a sources.list file, and it was after some network settings messed up an update. I did the following: Temporarily moved the /etc/apt/sources.list.d/ubuntu.sources file to my home directory Ran sudo apt update Moved the ubuntu.sources file back to /etc/apt/sources.list.d/ directory Ran sudo apt update That seems to have cleared out the problem.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163170/n-missing-signed-by-in-the-sources-list5-entry-for-http-mirrors-linode-com
+
+---
+
+#### 9811. Ubuntu : open terminal that appears to remote desktop
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, remote-desktop | Score: 2 | Views: 729 | Answers: 1 | Created: 2024-10-27
+
+**解决方案 / Solution**:
+SSH into the remote pc type: gnome-terminal (this will open a new terminal in the remote pc) type you command and redirect to /dev/pts/0 (eg: echo hello > /dev/pts/0 )
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1167113/ubuntu-open-terminal-that-appears-to-remote-desktop
+
+---
+
+#### 9812. Copying vim colors from older (vim7.4) to vim8
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, vim | Score: 2 | Views: 306 | Answers: 1 | Created: 2024-07-22
+
+**解决方案 / Solution**:
+To ensure that my custom syntax highlighting settings persist when I open new files in Vim, I did the following: Get the plugin: curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Open Vim and run the following commands to install the plugins: :source ~/.vimrc :PlugInstall My ~/.vimrc looks like this: " Ensure syntax highlighting is enabled syntax on " Specify the encoding and file formats set encoding=utf-8 set fileencodings=utf-8,latin1 " Set the number of spaces a <Tab> in the file counts for set tabstop=4 set shiftwidth=4 set expandtab " Enable line numbers set number " Set a dark background set background=dark " Custom color scheme with black background and green text highlight Normal ctermbg=black ctermfg=green guibg=black guifg=green " Custom highlighting for various elements (optional) highlight Comment ctermfg=darkgreen guifg=darkgreen highlight Constant ctermfg=lightgreen guifg=lightgreen highlight Identifier ctermfg=lightgreen guifg=lightgreen highlight Statement ctermfg=lightgreen guifg=lightgreen highlight PreProc ctermfg=lightgreen guifg=lightgreen highlight Type ctermfg=lightgreen guifg=lightgreen highlight Special ctermfg=lightgreen guifg=lightgreen highlight Underlined cterm=underline ctermfg=lightgreen guifg=lightgreen That should do it! :syn on and :syn off work for me. After installing the plugins, the gruvbox color scheme should be applied automatically. If you encounter any issues, comment out the colorscheme gruvbox line in the .vimrc file by adding a " at the beginning of the line to disable it.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162857/copying-vim-colors-from-older-vim7-4-to-vim8
+
+---
+
+#### 9813. MongoDB data in EC2 instance is erased automatically after after one day
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, amazon-web-services, amazon-ec2, mongodb, devops | Score: 1 | Views: 124 | Answers: 1 | Created: 2024-09-20
+
+**解决方案 / Solution**:
+Are you sure it's the same EC2 instance? With Elastic Beanstalk, for example, EC2 instances are ephemeral and you can't rely on persistence on the instance. Instead, you could try connecting to Atlas from the EC2 instance and the data should persist on Atlas.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165498/mongodb-data-in-ec2-instance-is-erased-automatically-after-after-one-day
+
+---
+
+#### 9814. ubuntu close connectiion when upload to server with scp command
+
+**问题描述 / Problem Description**:
+Tags: ubuntu | Score: 1 | Views: 289 | Answers: 2 | Created: 2024-09-15
+
+**解决方案 / Solution**:
+debug1: Server accepts key: So authentication was successful, but subsequently something else happened. This is confirmed by your auth.log: Sep 15 13:45:42 fchannel sshd[3737565]: Accepted publickey for u2 from xxx.132.xxx.107 port 53781 ssh2: RSA SHA256:EcTyxxxxxxxxxxxxxxxxxxxxx Sep 15 13:45:42 fchannel sshd[3737565]: pam_unix(sshd:session): session opened for user u2 by (uid=0) Sep 15 13:45:42 fchannel systemd-logind[989]: New session 8571 of user u2. Which is consistent with your assertion that: ssh login works fine. In your debug output: receive packet: type 99 ... debug3: receive packet: type 98 debug1: client_input_channel_req: channel 0 rtype exit-signal reply 0 debug3: receive packet: type 98 debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0 debug2: channel 0: rcvd eow debug2: chan_shutdown_read: channel 0: (i0 o0 sock -1 wfd 4 efd 6 [write]) debug2: channel 0: input open -> closed debug3: receive packet: type 96 We are missing some meanin g for these numbers.... SSH_MSG_CHANNEL_EOF 96 [SSH-CONNECT] SSH_MSG_CHANNEL_CLOSE 97 [SSH-CONNECT] SSH_MSG_CHANNEL_REQUEST 98 [SSH-CONNECT] SSH_MSG_CHANNEL_SUCCESS 99 [SSH-CONNECT] And the instruction to close is recorded here: debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0 debug2: channel 0: rcvd eow From the ssh2 protocol document : 2.1. connection: Channel write close extension "eow@openssh.com" The SSH connection protocol (rfc4254) provides the SSH_MSG_CHANNEL_EOF message to allow an endpoint to signal its peer that it will send no more data over a channel. Unfortunately, there is no symmetric way for an endpoint to request that its peer should cease sending data to it while still keeping the channel open for the endpoint to send data to the peer. Which appears to contradict... Sep 15 13:45:43 fchannel sshd[3737651]: Received disconnect from xxx.132.xxx.107 port 53781:11: disconnected by user But I think thats just the handshake mechanism for shutting down the connection - server says "I am done", client closes connection. If this were simply a permissions error, a missing destination dir or missing local file, I would expect to see a message to that effect spat out on stderr along with your debug output. Something more esoteric is going on In order to find out why the server closed the connection, the next step would be to enable full debugging on the sftp server. Your /etc/ssh/sshd_config should contain something like: Subsystem sftp /usr/lib/openssh/sftp-server Change this to... Subsystem sftp /usr/lib/openssh/sftp-server -l DEBUG3 and see what logs you get....although its possible that the sftp-server is simply failing to start (you might want to check this with debsums -a -c openssh-server ).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1165270/ubuntu-close-connectiion-when-upload-to-server-with-scp-command
+
+---
+
+#### 9815. Ubuntu 24.04 - LVM - RAID5 - Different Disk Sizes - Stat & Report
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, raid, lvm | Score: 1 | Views: 564 | Answers: 1 | Created: 2024-09-04
+
+**解决方案 / Solution**:
+If you are going to do this using LVM, you don't need to make all PVs of the same size. In LVM RAID, the erasure coding is made for each logical volume separately, not for physical volumes. In particular, don't partition 2 TB drives into 1 TB. Your "solution" with 7 PVs is even wrong, because it's not redundant at all : loss of any of 2 TB drives will cause the loss of the array. Also each 2 TB drive is written to twice for each stripe, in disjoint areas — which means, extra seeking. Yes, that must horribly hurt the performance! Choose two or three drives to make a small ESP or boot partitions on them and partition everything else into a large partition spanning the rest of the space. And then, when allocating your logical volumes, you may divide the space however you want: you may arrange some LVs to behave like RAID1, some like RAID6, some without redundancy at all, all over the same single VG of 7 TB raw space. The most space you can use reliably this way might be 3 TB of RAID6 over 5 drives + 1 TB of RAID1 over two drives = 4 TB. With only RAID1 you may end end up with having up to 3.5 TB of space, with generally much better performance than RAID6 — so I'd choose this path in your case; that 500 GB of difference is not worth struggling with RAID6. Also, may I remind you against using RAID5 on large hard disks .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164793/ubuntu-24-04-lvm-raid5-different-disk-sizes-stat-report
+
+---
+
+#### 9816. Unable to connect to Strongswan VPN server
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, vpn, strongswan | Score: 1 | Views: 1271 | Answers: 1 | Created: 2024-09-03
+
+**解决方案 / Solution**:
+So the issue is/was that Ubuntu 24.04 was using the netfilter / nft firewall. There was created a separate table inet which applies both to IPV4 and IPv6, but was not modified through UFW or IPTABLES commands. nft -a list ruleset Will list the rules with a position number. Apply the below rules to position of the rule at least above the last (drop) rule nft add rule inet filter input position 22 udp dport 4500 accept nft add rule inet filter input position 22 udp dport 500 accept The addition of the above rules above the last drop rule fixed the issue of the packets being dropped, regardless of UFW and IPTABLES rules to accept port 500.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164700/unable-to-connect-to-strongswan-vpn-server
+
+---
+
+#### 9817. How to Proxy Traffic from DDoS-Protected Server to Origin Server While Preserving Client IP?
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, proxy, reverse-proxy, transparent-proxy | Score: 1 | Views: 199 | Answers: 1 | Created: 2024-08-22
+
+**解决方案 / Solution**:
+Set up an IP tunnel (such as GRE or IP-IP or WireGuard) between the two hosts. I believe GRE is the most common for DDoS protection services, but anything works. Then configure DNAT (aka port-forwarding) on Server B so that it would send "port 80/443" or any other traffic through the tunnel towards Server A, as well as policy routing so that Server A would also respond through the tunnel (i.e. have two default routes and select the right one). It is not much simpler compared to Nginx, but I don't think you can get much further than that. It does have some advantages, e.g. it will work with any service – TCP or UDP or other – even if that service doesn't support the proxy protocol. You can also use the same tunnel to allow Server A to make outbound connections using B's address, to reduce the risks of someone being able to find its real unprotected address.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164192/how-to-proxy-traffic-from-ddos-protected-server-to-origin-server-while-preservin
+
+---
+
+#### 9818. Amount of space I am using by using df command
+
+**问题描述 / Problem Description**:
+Tags: ubuntu | Score: 1 | Views: 163 | Answers: 2 | Created: 2024-08-19
+
+**解决方案 / Solution**:
+Are the overlay and /dev/mapper/ubuntu--vg-ubuntu--lv in two seprate locations? They're on the same physical device in your case. They don't have to be, however. Thus the same space. Here's what Docker writes about it : OverlayFS layers two directories on a single Linux host and presents them as a single directory. These directories are called layers, and the unification process is referred to as a union mount. OverlayFS refers to the lower directory as lowerdir and the upper directory a upperdir. The unified view is exposed through its own directory called merged. Docker images are built up of layers, and these layers are merged using OverlayFS, which merges different directories to a single view.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1164043/amount-of-space-i-am-using-by-using-df-command
+
+---
+
+#### 9819. How to configure SSH passwordless login authentication in local server
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, ssh, authentication, ssh-keys | Score: 1 | Views: 1093 | Answers: 1 | Created: 2024-07-26
+
+**解决方案 / Solution**:
+I believe you have two options here. If you disable password authentication in your sshd_config ( PasswordAuthentication set to no ) then you will be able to login to the system via SSH but only with a private key. You will still be able to access the system outside of SSH using the password. If the user is a sudoer, you will still be prompted for a password when trying to sudo via SSH, unless configured otherwise . If you want to remove the password completely, you can with passwd -d which would mean that you can log into the system using a private key via SSH, but when physically accessing the system you will no longer be prompted for a password, which may be very unsafe.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1163093/how-to-configure-ssh-passwordless-login-authentication-in-local-server
+
+---
+
+#### 9820. Setup nginx configuration
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, apache-2.4 | Score: 1 | Views: 74 | Answers: 1 | Created: 2024-07-20
+
+**解决方案 / Solution**:
+To convert your Apache rewrite rules to Nginx configuration correctly, you need to make sure the logic is correctly translated into Nginx directives. Your existing Nginx configuration is close but needs some adjustments to correctly handle the conditions and rewrites. This should work: server { listen 80; server_name example.com; root /path/to/your/document/root; # Serve files from the public directory if they have an extension location ~* \.\w+$ { rewrite ^(.*)$ /public/$1 break; } # Check if the request is for a directory or file and handle accordingly location / { if (-d $request_filename) { break; } if (-f $request_filename) { break; } # Route all other requests to server.php try_files $uri $uri/ /server.php; } } Changed: The location block with regex ~* .\w+$ handles requests for files with extensions, redirecting them to the public directory. location ~* \.\w+$ { rewrite ^(.*)$ /public/$1 break; } The location / block checks if the request is for a directory or a file. If it is, the request is served normally. If not, it routes the request to server.php location / { if (-d $request_filename) { break; } if (-f $request_filename) { break; } # Route all other requests to server.php try_files $uri $uri/ /server.php; } You see, by using if statements inside the / location block, we mimic the Apache rewrite conditions checking for directories and files, which prevents unnecessary routing to server.php if the requested resource exists. Don't forget to reload the config: sudo systemctl reload nginx # or sudo systemctl restart nginx
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162796/setup-nginx-configuration
+
+---
+
+#### 9821. let's encrypt certificate permission issue with postgres
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssl-certificate, lets-encrypt, certbot | Score: 1 | Views: 913 | Answers: 1 | Created: 2024-07-15
+
+**解决方案 / Solution**:
+Generally, there are two approaches for services to be able to read the certificate and the private key. The real concern is how to keep the private key secure so that no-one else than the services using it can read it. Some services (e.g. Postfix) runs a master process as root in order to bind to privileged ports (<= 1024) as well as to read secrets from configuration files including the private keys. They then fork unprivileged processes for whatever the service is doing. Some services (e.g. PostgreSQL) do not run any of their processes as root. Therefore, they cannot read the files under /etc/letsencrypt/live/ , and the files should be copied to a place where only the service in question can read it. As multiple services might need the same certificate & private key it is not wise to alter the permissions of the /etc/letsencrypt/live/ directly, but to create as many copies of the files as required. With Let's Encrypt, this should not be a manual process, but automated as deploy hooks (see Renewing certificates ). Pavel Lazureykis has written a tutorial on Automatic SSL certificates for your PostgreSQL ; phases 10–12 instruct how to build the deploy hook: Let’s automate certificate update process. I’ll create a new script at /usr/bin/update_certs.sh: #!/bin/bash # Paths to certificate and key files CERTIFICATE="/etc/letsencrypt/live/pgtest.uptime-monitor.io/fullchain.pem" PRIVATE_KEY="/etc/letsencrypt/live/pgtest.uptime-monitor.io/privkey.pem" # Destination directory for PostgreSQL certificates PG_CERT_DIR="/etc/postgresql/16/main" # Copy certificate and private key sudo cp "$CERTIFICATE" "${PG_CERT_DIR}/pgtest.crt" sudo cp "$PRIVATE_KEY" "${PG_CERT_DIR}/pgtest.key" # Set permissions and ownership for certificate and private key sudo chmod 600 "${PG_CERT_DIR}/pgtest.crt" sudo chmod 600 "${PG_CERT_DIR}/pgtest.key" sudo chown postgres:postgres "${PG_CERT_DIR}/pgtest.crt" sudo chown postgres:postgres "${PG_CERT_DIR}/pgtest.key" # Force PostgreSQL to reload config: sudo -u postgres psql -c "SELECT pg_reload_conf();" Set this script as executable: chmod +x /usr/bin/update_certs.sh Install the script as a hook in certbot. It will be executed every time certificate is updated by certbot: sudo certbot renew --force-renewal --deploy-hook /usr/bin/update_certs.sh
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1162578/lets-encrypt-certificate-permission-issue-with-postgres
+
+---
+
+#### 9822. How to renew Linux /etc/machine-id on a runnning system?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, virtual-machines | Score: 0 | Views: 77 | Answers: 1 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+Copy the old machine-id file to /run. Generate a new ID and write it to /etc/machine-id using whatever tool you prefer. Then mount --bind the old one over it. # cp /etc/machine-id /run # uuidgen | sed s/-//g > /etc/machine-id # mount -B /run/machine-id /etc/machine-id The new ID will be stored in filesystem, but the old ID will remain effective until the next reboot. Duplicate machine-id rarely causes problems in practice, e.g. D-Bus (its original user) isn't run over the network anymore, PulseAudio over network is just as rare (on "production" servers even more so). Your system logs (journalctl) use the machine-id but in most cases they're only sent over the network via syslog, which strips that. For most VMs the only remaining issue is systemd-networkd's usage of machine-id as the basis for DHCP Client-ID and similar. This can be worked around using [DHCPv4] ClientIdentifier=mac or whatever its netplan equivalent is (I'm sure there was one). But if the machine is already in production and you're not having specific issues (e.g. you're using static IP addresses or you've switched systemd-networkd to use MAC addresses for the Client-ID instead) then there's no reason to immediately make the new ID active. Skipping the mount -B and keeping the new ID active will probably cause journalctl to stop working as it'll be looking in the wrong directory (unless you also restart systemd-journald, which is technically possible).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199696/how-to-renew-linux-etc-machine-id-on-a-runnning-system
+
+---
+
+#### 9823. Error 403 attempting to access pkgs.tailscale.com
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, proxy | Score: 0 | Views: 80 | Answers: 1 | Created: 2026-08-09
+
+**解决方案 / Solution**:
+The error message is misleading in this case. The “make sure that your machine has internet access” message is emitted by install.sh itself, whenever its test curl command fails. It doesn't distinguish a connectivity failure from an HTTP error. 411 TEST_URL="https://pkgs.tailscale.com/" 412 RC=0 413 TEST_OUT=$($CURL "$TEST_URL" 2>&1) || RC=$? 414 if [ $RC != 0 ]; then 415 echo "The installer cannot reach $TEST_URL" 416 echo "Please make sure that your machine has internet access." 417 echo "Test output:" 418 echo $TEST_OUT 419 exit 1 420 fi Here, curl reports HTTP 403. That means an HTTPS connection was established and an HTTP response was received, so this isn't a basic Internet-connectivity problem. ping and traceroute suggested in the comments therefore aren't particularly useful for diagnosing this specific error. pkgs.tailscale.com is served via the CloudFront CDN: pkgs.tailscale.com. IN CNAME d31o145gu2hi3o.cloudfront.net. Consequently, the 403 could be generated by CloudFront itself, or by an HTTP(S) proxy, firewall, web filter, or other intermediary between the machine and CloudFront. I'd start by checking DNS resolution and then inspecting the HTTP exchange: dig pkgs.tailscale.com curl -vvv https://pkgs.tailscale.com/ The verbose curl output should provide useful information about the connection, TLS negotiation, redirects, and response headers, and may help identify which component is returning the 403.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1199642/error-403-attempting-to-access-pkgs-tailscale-com
+
+---
+
+#### 9824. Apache redirect all ports from subdomain to back end server
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, apache-2.4, arch-linux | Score: 0 | Views: 227 | Answers: 1 | Created: 2026-03-27
+
+**解决方案 / Solution**:
+Apache reverse proxy only handles the ports it's actually listening on, usually 80 and 443. If you want serv1.example.com:5320 to work,Apache also needs to listen on port 5320 and proxy that traffic, or you'll need a TCP-level proxy such as HAProxy or Nginx stream. Port numbers aren't automatically forwarded just because the hostname matches.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1198596/apache-redirect-all-ports-from-subdomain-to-back-end-server
+
+---
+
+#### 9825. Ubuntu Server on ARM fails to boot after cloning EFI partition from HDD to SSD
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, uefi | Score: 0 | Views: 298 | Answers: 1 | Created: 2025-12-11
+
+**解决方案 / Solution**:
+Problem Description The system failed to boot properly. The GRUB menu only displayed "UEFI Firmware Settings" with no Ubuntu boot option. Investigation revealed that /boot/grub/grub.cfg contained no Linux kernel menuentry, even though the kernel and initrd files existed in /boot . Running update-grub failed to detect the kernels because the Python apt_pkg module was corrupted. Temporary Solution Since update-grub could not function properly, we performed a manual fix. First, we created a mount point and mounted the BTRFS root subvolume. We then corrected the wrong EFI partition UUID in /etc/fstab . After entering a chroot environment, we manually appended Linux boot entries to /boot/grub/grub.cfg . The entries required the correct BTRFS subvolume path for the kernel ( /@/boot/vmlinuz-* ) and the rootflags parameter ( rootflags=subvol=@ ) to properly mount the root filesystem. Finally, we ran grub-install to update the bootloader on the EFI partition, completing the repair. Final Solution Upgrade Python to 3.12. update-alternatives --set python3 /usr/bin/python3.12 Re-generate GRUB config. sudo update-grub Add EFI fallback boot file. cp grubaa64.efi /boot/efi/EFI/BOOT/BOOTAA64.EFI
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196270/ubuntu-server-on-arm-fails-to-boot-after-cloning-efi-partition-from-hdd-to-ssd
+
+---
+
+#### 9826. Fail2Ban works only for SSHD and not for EXIM on Ubuntu server 24.04
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, exim, fail2ban | Score: 0 | Views: 133 | Answers: 1 | Created: 2025-12-06
+
+**解决方案 / Solution**:
+I have to force a specific backend as suggeted here: https://github.com/fail2ban/fail2ban/issues/959#issuecomment-74901200
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196209/fail2ban-works-only-for-sshd-and-not-for-exim-on-ubuntu-server-24-04
+
+---
+
+#### 9827. SASL/GSSAPI authentication with ldapsearch fails
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ldap, domain-controller, kerberos, windows-subsystem-for-linux | Score: 0 | Views: 647 | Answers: 1 | Created: 2025-11-28
+
+**解决方案 / Solution**:
+Use export KRB5_TRACE=/dev/stderr to see the actual principal being used. Alternatively install a network capture tool such as Wireshark to see what TGS-REQ is being made. Traditional Kerberos performs name canonicalization before generating the principal name. It appends your system DNS suffix and follows all CNAMEs (forward canonicalization) and it tries to do a reverse-DNS lookup from the IP address (reverse canonicalization). Especially the latter may return unexpected results on cloud networks where nobody has working rDNS anymore. This is very different from Windows Kerberos which performs neither forward nor reverse canonicalization. As far as I know this is actually done twice, not just in Kerberos itself but also in the Cyrus SASL library, so it might still happen even if you have rdns = false (but note that this setting only disables reverse DNS canonicalization, not forward CNAME canonicalization, anyway). For interoperability with Active Directory, either use ldapsearch -N or see man ldap.conf for information on how to enable the SASL_NOCANON option.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196103/sasl-gssapi-authentication-with-ldapsearch-fails
+
+---
+
+#### 9828. During upgrade from PHP 8.4 to 8.5 PDO has stopped working
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, php, backup-restoration, digital-ocean, pdo | Score: 0 | Views: 713 | Answers: 1 | Created: 2025-11-24
+
+**解决方案 / Solution**:
+Try to sudo apt install php8.5-mysql , when you are using a MySQL compatible database. that fixed the issue, thanks! I wonder why this didn't occur automatically during the apt upgrade process That doesn't occur when the previous module was installed in the same manner as you just did now. The upgrade process relies on the unversioned php-mysql package: in one release it depends on the php8.4 one, in the next release it depends on php8.5, and APT can just look at the new dependencies and let them drag in the new packages. But if you had only the php8.4-mysql packages installed directly – the upgrade process doesn't know what to do with them. They have nothing to upgrade to (as a package with that name no longer exists) so they're just left alone. APT doesn't have special treatment just for PHP – there are dozens of such things that each would need special treatment – instead it relies on packages themselves declaring what they need. So make sure you install the unversioned php-mysql package for upgrades to work.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1196064/during-upgrade-from-php-8-4-to-8-5-pdo-has-stopped-working
+
+---
+
+#### 9829. Ubuntu 20.04 resolvectl dns Shows Wrong DNS Servers
+
+**问题描述 / Problem Description**:
+Tags: ubuntu | Score: 0 | Views: 628 | Answers: 1 | Created: 2025-11-09
+
+**解决方案 / Solution**:
+I confirmed this possible workaround: Edit the .network file under /run/systemd/network/ but this is not to be confused with /etc/systemd/network/ which is empty. Append this: [IPv6AcceptRA] UseDNS=false Apply changes: systemctl restart systemd-networkd.service systemctl restart systemd-resolved.service Check results: resolvectl dns I will leave this question open in case there is a better netplan-compatible solution.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1195840/ubuntu-20-04-resolvectl-dns-shows-wrong-dns-servers
+
+---
+
+#### 9830. Authentication failure when trying to login with AD account (Ubuntu 20.04.6 LTS)
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, active-directory | Score: 0 | Views: 626 | Answers: 1 | Created: 2025-10-22
+
+**解决方案 / Solution**:
+Your log messages have no mention of pam_sss . Network account integration practically never relies on pam_unix pulling out password hashes from getent shadow like if it were a local account – it always involves a dedicated PAM module, in this case pam_sss to speak the AD-flavored Kerberos. Run dpkg-reconfigure libpam-runtime and enable the SSSD profile if it's available. Then check /etc/pam.d/common-auth to make sure pam_sss.so is listed in the auth stage for password verification. Also check common-account to make sure it's listed in the account stage to handle authorization checks (i.e. whether the user is allowed to log in). These are Debian/Ubuntu-specific locations. Generally you would start at /etc/pam.d/<service> and follow the chain of @include or auth include directives. Even on these distros, it might be a good idea to check /etc/pam.d/xrdp to see if it includes the "global" Ubuntu configs at all.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193525/authentication-failure-when-trying-to-login-with-ad-account-ubuntu-20-04-6-lts
+
+---
+
+#### 9831. Getting invalid url error on aws ec2 squid proxy
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, proxy, squid | Score: 0 | Views: 238 | Answers: 1 | Created: 2025-10-21
+
+**解决方案 / Solution**:
+ERR_INVALID_URL means Squid is getting a relative request like GET / HTTP/1.1 instead of an absolute URL. That happens when you browse to the proxy itself (e.g., http://:3128/) or your client isn’t configured to use the proxy. A forward proxy expects absolute-form requests with scheme + host. How to test correctly: # HTTP curl -v -x http://<proxy_host>:3128 http://example.com/ # HTTPS (CONNECT) curl -v -x http://<proxy_host>:3128 https://www.google.com/ If those work, configure your browser/app to use the proxy (host: <proxy_host>, port: 3128). Don’t visit the proxy URL directly. Tips: Keep http_port 3128 (no intercept unless you’re doing transparent proxying). In production, don’t leave http_access allow all; lock it down with ACLs or auth. Security group must allow TCP 3128 from your client. If you face setup questions for forward proxies, this might help you: https://wiki.squid-cache.org/SquidFaq/BasicIsThisWorking
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193500/getting-invalid-url-error-on-aws-ec2-squid-proxy
+
+---
+
+#### 9832. Installing PHP replacing version folder with another label
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, php, docker | Score: 0 | Views: 323 | Answers: 2 | Created: 2025-10-14
+
+**解决方案 / Solution**:
+As Paladin suggests in his comment, create a symlink /etc/php/installed that links to /etc/php/8.3 . The thing is that PHP does change, sometimes significantly, so there is little assurance that a script that runs on 8.3 will run on 8.4. With the installed link, you'll always reference 8.3 (until you manually change where it's pointing), which is good because you don't really want to drop 8.4 into production without thoroughly testing your application first.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1193398/installing-php-replacing-version-folder-with-another-label
+
+---
+
+#### 9833. Things to do after DHCP offer and DHCP ack in Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, linux-networking, dhcp | Score: 0 | Views: 163 | Answers: 1 | Created: 2025-08-15
+
+**解决方案 / Solution**:
+What do I need to do after getting DHCP offer? If you've got and processed all requested options, then there's nothing else to do until the lease begins to run out. You should usually renew after half the lease period and stop using the lease when it has expired. How can we find nearest router MAC address to be manually added to arp? If you have requested and got a default gateway via DHCP, that needs to be added to your system's routing table. There's no need to manually add any ARPed MAC address. What IP route needs to be added? The ones that you have requested and been provided with using DHCP. What IP route needs to be added? Do I need to add firewall rules?? Firewall rules are not configured via DHCP. If you need to detect which network you are on and whether that's trustworthy or not, that's a whole new chapter called network location awareness NLA.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190573/things-to-do-after-dhcp-offer-and-dhcp-ack-in-ubuntu
+
+---
+
+#### 9834. Cannot create files under /tmp - No space left on device
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, ubuntu-18.04 | Score: 0 | Views: 812 | Answers: 1 | Created: 2025-08-11
+
+**解决方案 / Solution**:
+Your / has probably run out of inodes. This unfortunately produces the same error as if it had run out of space which can be misleading. As one of the comments suggests, run df -i to conclude that this is indeed the case, and if so, delete some files. /var/log is the usual suspect.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1190392/cannot-create-files-under-tmp-no-space-left-on-device
+
+---
+
+#### 9835. Devices randomly dropping from mdadm RAID5 array
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, raid, mdadm, raid5, seagate | Score: 0 | Views: 515 | Answers: 1 | Created: 2025-06-14
+
+**解决方案 / Solution**:
+After further investigation, this appears not to be a real problem 🤦‍♂️ The (seemingly) intermittent logs originated from the mdmonitor.oneshot service, and I still get them whenever I run any monitor command on the array (or whenever I reboot the machine), I think there's some state on disk somewhere that doesn't match the current array (if I find that, I'll update). Aside from that, the RebuildStarted event seems to be harmless too, because that's logged for the periodic full check/scrub. Should've read the man page that documents that perfectly: RebuildStarted An md array started reconstruction (e.g. recovery, resync, reshape, check, repair) /proc/mdstat should show "check" in the status/progress line when that happens, which I have no way of checking right now. Update: a "ghost" array uuid is consistently being written to /run/mdadm/map, that's most likely the cause of the messages. The "fun" thing is that I have absolutely no idea where it's coming from. I've scanned the entire FS for the occurrence of this string, I've deleted and recreated the map file, etc, to no avail md0 1.2 06336089:3d3e67a6:2f2faa88:0a8f4434 /dev/md0 Update2: I'm just live streaming what a noob I am at this point, that UUID is my actual RAID UUID, just in swapped endianness 🤦‍♂️
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185917/devices-randomly-dropping-from-mdadm-raid5-array
+
+---
+
+#### 9836. Ubuntu Live-server extend partition size
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, partition, ext4, diskmanagement, fdisk | Score: 0 | Views: 108 | Answers: 1 | Created: 2025-06-11
+
+**解决方案 / Solution**:
+If you are able to reboot the system, you can download the GParted ISO, and boot to it and it will allow you to resize it easily. You will need unallocated space after it, however. If you were planning to remove the Windows partition (/dev/sdb1), you would need to remove it first in GParted, then you can move the ext4 partition to the beginning of the drive (note it will become sdb1 after deleting the original sdb1, though). GParted makes moving the partition very easy as well. I have used it many times to do exactly that. It goes without saying, but be sure you have a backup of all data you don't want to lose before you begin.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1185624/ubuntu-live-server-extend-partition-size
+
+---
+
+#### 9837. BIND DNS in ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, domain-name-system, bind, failover, chroot | Score: 0 | Views: 87 | Answers: 1 | Created: 2025-05-21
+
+**解决方案 / Solution**:
+I'm going to close this as off-topic (request for product recommendation / learning materials) and this is a comment rather than answer (as space is limited in the wee box). Setting up Bind is achievable, but can be a little tricky. And trying to replicate all the behaviours of Umbrella will be really, REALLY hard. Not least because you will need to find a good source for block lists. But if you already have the the Umbrella specific stuff covered I would suggest DNSmasq rather than bind. should I do this in chroot Probably not. Chroot is great on a host running a lot of different services, but nowadays you have the option of VMs and containers which provide a lot more isolation without the complications of.... you would need to make quite a few changes to the config of the packaged software to support chroot behaviour. This then makes applying updates more fragile / complex - and patching is something hich SHOULD be regular, frequent and painless.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1184072/bind-dns-in-ubuntu
+
+---
+
+#### 9838. Transparent Proxy Wi-Fi traffic using router and Ubuntu server
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, networking, proxy, squid | Score: 0 | Views: 155 | Answers: 1 | Created: 2025-05-20
+
+**解决方案 / Solution**:
+You need to: Connect your server where squid is installed using Ethernet cable (not Wi-Fi) Set IP address in the phone's Wi-Fi settings manually, where the gateway should be your squid PC IP address You can't connect squid PC over Wi-Fi because Wi-Fi doesn't send all the needed MAC addresses to allow in-Wi-Fi L2 routing (there's a special more called WDS, but it's incompatible with the regular non-WDS clients as the smartphone).
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181997/transparent-proxy-wi-fi-traffic-using-router-and-ubuntu-server
+
+---
+
+#### 9839. VS Code Bypasses OpenSSH Server Configuration
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssh, security, authentication, ssh-keys | Score: 0 | Views: 151 | Answers: 1 | Created: 2025-05-13
+
+**解决方案 / Solution**:
+I figured it out. /etc/ssh/sshd_config.d/50-cloud-init.conf was overwriting the PasswordAuthentication setting. Apparently Ubuntu creates this file during installation. Seems like an unnecessary security risk.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181096/vs-code-bypasses-openssh-server-configuration
+
+---
+
+#### 9840. How can I get the IP address of a failed mysql connection?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mysql | Score: 0 | Views: 206 | Answers: 2 | Created: 2025-05-12
+
+**解决方案 / Solution**:
+If the MySQL connection is failing and you're not seeing any logs, it's likely that the connection is getting blocked before it even reaches your server — that's why there's nothing in MySQL, UFW, or syslog. To see if any connection attempt is actually reaching your server, try this: sudo tcpdump -n -i any port 3306 Then try connecting from the other server. If nothing shows up, the request is getting blocked somewhere in between — maybe at the cloud provider level (firewall, NAT, etc.). Also, check the public IP of your second server with: curl ifconfig.me Make sure that exact IP is allowed in UFW. If you want to log all attempts to port 3306, you can also add this rule: sudo iptables -I INPUT -p tcp --dport 3306 -j LOG --log-prefix "MYSQL_CONN: " This way you can track any incoming attempts in syslog.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1181049/how-can-i-get-the-ip-address-of-a-failed-mysql-connection
+
+---
+
+#### 9841. Is it possible to set client-aware quota on mounted NFS shares?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, nfs, mount, quota | Score: 0 | Views: 449 | Answers: 1 | Created: 2025-05-08
+
+**解决方案 / Solution**:
+For enforcing quota, no. The NFS client will not be able to enforce quota limits without help from the server. Quota relies on the filesystem having reliable space accounting (e.g. quota credited when you delete a file), and that's not possible when the filesystem contents can change "under the nose" (whether by another client or by the NAS itself). At best, the client can be aware of quota limits set on the NFS server (i.e. on the NAS) – which is actually how I'd understand "client-aware quota" at first – and that is a "both yes and no", as it needs some additional software.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1180867/is-it-possible-to-set-client-aware-quota-on-mounted-nfs-shares
+
+---
+
+#### 9842. How does one get the mailer-daemon to copy the bounced email report to an email address?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, postfix, email-server, email-bounces, ubuntu-24.04 | Score: 0 | Views: 129 | Answers: 1 | Created: 2025-04-14
+
+**解决方案 / Solution**:
+Follow these steps to get a copy of the bounced email report. The client(s) will still receive the report. Edit the Postfix configuration file to add bounce reports: nano /etc/postfix/main.cf (add sudo if you are not root) opens the file in the Nano editor. Add the line notify_classes = bounce, resource, software . Default classes for this configuration parameter are resource and software . Set bounce_notice_recipient configuration parameter if you would like the notifications to be sent to a different address than postmaster. Press ctrl + x , y , and then return key (to save the file). Execute service postfix reload (add sudo if you are not root) for the new configuration parameter(s) to be picked up by Postfix. ( source ) Note: You should not be using root as your daily login account. The root account should only be used for emergencies, such as rescueing an account. If you use root as your daily login account, you run the risk of breaking the account from being able to log into it. Create a sudo user and prevent SSH access to root.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1179108/how-does-one-get-the-mailer-daemon-to-copy-the-bounced-email-report-to-an-email
+
+---
+
+#### 9843. Full URL when tracing HTTPS
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, https, wireshark, packet-sniffer | Score: 0 | Views: 187 | Answers: 2 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+That is kind of the intent of HTTPS, no? To prevent someone from reading data when they are snooping on the wire? Thing is, the domain name is used to determine the IP, and then everything else, with some exceptions, is data which is subject to encryption. The information you're looking for is not in the domain lookup, but in the host headers or the HTML request, which are data and so encrypted. The only way to do this is to create a "man in the middle", a process which decrypts the data, and then re-encrypts it using a certificate trusted by the destination; and then sniff the decrypted data stream. Virus checkers that look for harmful data on web sites actually set themselves up as trusted CAs on your machine, then issue purely local certificates on the fly for the web sites that you're browsing. Possibly a better option is to crank the log levels on your web server as high as they will go, temporarily, and see what gets logged.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178864/full-url-when-tracing-https
+
+---
+
+#### 9844. How to show hidden processes and find the program launching them on Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, edr | Score: 0 | Views: 110 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+Sysmon for Linux is a tool that monitors and logs system activity including process lifetime, network connections, file system writes, and more. Sysmon works across reboots and uses advanced filtering to help identify malicious activity as well as how intruders and malware operate on your network. Sysmon for Linux is part of Sysinternals. https://github.com/microsoft/SysmonForLinux Process Monitor (Procmon) is a Linux reimagining of the classic Procmon tool from the Sysinternals suite of tools for Windows. Procmon provides a convenient and efficient way for Linux developers to trace the syscall activity on the system. https://github.com/microsoft/ProcMon-for-Linux These may not products that you would run on a normal basis, but can be useful for forensic analysis.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178848/how-to-show-hidden-processes-and-find-the-program-launching-them-on-ubuntu
+
+---
+
+#### 9845. running nginx on google compute vm, port 80 blocked
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, google-compute-engine, certbot | Score: 0 | Views: 273 | Answers: 1 | Created: 2025-04-10
+
+**解决方案 / Solution**:
+Can we confirm on two things before moving into debugging the issue : Can you check whether if vm have allowed "Allow HTTP traffic" and "Allow HTTPS traffic" as shown in the below screenshot: If not allowed can you allow it and check in the firewall by using this link in gcp console and find allow http with port 80 as shown in below screenshot: If both are aligned correctly once disable ufw because, ufw acts as a firewall at the VM level, and GCP also has its own firewall rules at the VPC level, so you need to consider both when configuring your network
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178814/running-nginx-on-google-compute-vm-port-80-blocked
+
+---
+
+#### 9846. Mongodb fails to start after install, fatal assertion "failed to parse time zone file"
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mongodb, timezone, ubuntu-22.04, debian-bookworm | Score: 0 | Views: 275 | Answers: 1 | Created: 2025-04-03
+
+**解决方案 / Solution**:
+This was caused by spurious files under /usr/share/zoneinfo which weren't part of Debian package tzdata. First, check whether the file mongodb is exiting on is actually provided by any installed package- % dpkg -S /usr/share/zoneinfo/Asia/Riyadh87 ... "dpkg-query: no path found matching pattern /usr/share/zoneinfo/Asia/Riyadh87 No. Next, I diffed dpkg -L tzdata with find /usr/share/zoneinfo and, ignoring other files from tzdata.deb that aren't under that path, there are files like /usr/share/zoneinfo/Asia/Riyadh87, /usr/share/zoneinfo/posix/SystemV/CST6CDT and /usr/share/zoneinfo/Canada/East-Saskatchewan from October 2023. Unsure where they came from. Deleted them, now mongod starts. 🎉
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178184/mongodb-fails-to-start-after-install-fatal-assertion-failed-to-parse-time-zone
+
+---
+
+#### 9847. Linux:how to stop process on reboot?
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, ps | Score: 0 | Views: 204 | Answers: 2 | Created: 2025-04-02
+
+**解决方案 / Solution**:
+It is unlikely you want Jenkins (or any other service) to start at boot only to be stopped right away. Based on the output of the commands you provided, it indeed looks like the Next.js server ( next-server ) is started by Jenkins. Disabling Jenkins If Jenkins is running only Next.js, you might disable it altogether. Keep in mind that this will also prevent the /shared/argocd-dex rundex from starting. $ sudo systemctl disable jenkins.service Removed /etc/systemd/system/multi-user.target.wants/jenkins.service. $ sudo systemctl stop jenkins.service $ Disabling Next.js started by Jenkins From configuration files Locate Jenkins job configuration files, e.g., /var/lib/jenkins/jobs/*/config.xml . Search which job runs the Next.js server, likely with command npm start . Comment out the line. From web UI web interface You should be able to find the job from Jenkins web interface, too. When you open the job, the left sidebar should have an option "Disable".
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1178099/linuxhow-to-stop-process-on-reboot
+
+---
+
+#### 9848. Issues with basic BIND resolver setup
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, domain-name-system, bind | Score: 0 | Views: 1719 | Answers: 1 | Created: 2025-03-29
+
+**解决方案 / Solution**:
+Figured it out. The default gateway was also performing NAT and had a NAT ALG for DNS turned on by default, hidden - thanks Cisco, which was rewriting the application data in the packets to source from the outside router interface. I did some packet captures and found the return packets arriving at the router, then being dropped. Disabling NAT ALG for the DNS translation immediately fixed the issue. Option A: no ip nat service dns udp Option B: Before: ip nat inside source static 10.1.38.10 192.168.0.3 After: ip nat inside source static 10.1.38.10 192.168.0.3 no-payload
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1177891/issues-with-basic-bind-resolver-setup
+
+---
+
+#### 9849. How to restrict access to a web service on my VPS through the server's IP-address to only domain with SSL?
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, ip, domain, https | Score: 0 | Views: 799 | Answers: 1 | Created: 2025-03-20
+
+**解决方案 / Solution**:
+Delete port 81 from the public ports, and have Nginx Proxy Manager proxy to its own admin interface. A different example shows better how to describe a network. We don't need the 81 port public, so deleting it leaves: networks: proxiable: name: proxiable services: app: image: 'jc21/nginx-proxy-manager:latest' container_name: nginxproxymanager restart: unless-stopped volumes: - ./data:/data - ./letsencrypt:/etc/letsencrypt ports: - '80:80' - '443:443' networks: - proxiable Additional configuration like external database not included, refer to the setup docs for the env vars. Create a proxy to its own admin interface. Name such as proxymanager.example.com, forward host of the container name ( nginxproxymanager per above) and forward port 81. TLS as usual with the SSL options, if public you can Let's Encrypt. Admittedly this might be difficult to set up the first time. If you need the admin UI to do it, maybe leave port 81 exposed temporarily. Until you save the proxy host, then remove it. Now both the admin interface and proxied hosts are using name based virtual hosts. Test that port 81 is not accessible, and that unknown host names get the configured default site. Additional Docker services can be proxied without public ports. Add them to the same network and refer to them by name in NPM.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1176111/how-to-restrict-access-to-a-web-service-on-my-vps-through-the-servers-ip-addres
+
+---
+
+#### 9850. Alternatives for tmpreaper to keep /tmp dir cleaned out
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, tmp | Score: 0 | Views: 326 | Answers: 1 | Created: 2025-03-10
+
+**解决方案 / Solution**:
+I believe you need to comment out the line: SHOWWARNING=true Inside /etc/tmpreaper.conf Obviously, only do so if you have read the "possible security implications of tmpreaper running automatically"
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1174762/alternatives-for-tmpreaper-to-keep-tmp-dir-cleaned-out
+
+---
+
+#### 9851. Network storage sporadically fails to mount CIFS due to missing charset
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mount, cifs | Score: 0 | Views: 769 | Answers: 1 | Created: 2025-02-27
+
+**解决方案 / Solution**:
+Install the package linux-image-generic . The package linux-image-virtual only has the current kernel as a dependency, nothing else. $ apt depends linux-image-virtual linux-image-virtual Depends: linux-image-6.8.0-55-generic The package linux-image-generic on the other hand pulls more packages as a dependency in the system: $ apt depends linux-image-generic linux-image-generic Depends: linux-image-6.8.0-55-generic Depends: linux-modules-extra-6.8.0-55-generic Depends: linux-firmware Depends: intel-microcode Depends: amd64-microcode Recommends: thermald After installing this package the linux-modules-extra package will automatically be updated along with the kernel.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173795/network-storage-sporadically-fails-to-mount-cifs-due-to-missing-charset
+
+---
+
+#### 9852. How do I update docker compose to v2.17
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, docker-compose | Score: 0 | Views: 1396 | Answers: 1 | Created: 2025-02-20
+
+**解决方案 / Solution**:
+Part of the contract with Linux distros is that versions don't change for the lifetime of the distro. 24.04 will have the same versions for the lifetime of the distributions, with security fixes and bug fixes backported. You can install Docker from the docker repositories , to get the latest version.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1173346/how-do-i-update-docker-compose-to-v2-17
+
+---
+
+#### 9853. How can I add "eth1, eth2 and eth3" interfaces on Ubuntu 24.04.2 System Summary (VDS)
+
+**问题描述 / Problem Description**:
+Tags: linux, ubuntu, networking, ubuntu-24.04 | Score: 0 | Views: 192 | Answers: 1 | Created: 2025-02-17
+
+**解决方案 / Solution**:
+There is an open regarding this issue, #2081734 on https://bugs.launchpad.net/ubuntu/+source/landscape-client/+bug/2081734
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172861/how-can-i-add-eth1-eth2-and-eth3-interfaces-on-ubuntu-24-04-2-system-summary
+
+---
+
+#### 9854. SSMTP keeps sending mail, but I cant find the source
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ssmtp | Score: 0 | Views: 76 | Answers: 1 | Created: 2025-02-14
+
+**解决方案 / Solution**:
+Almost certainly it's not Apache that's triggering the mail send, but PHP-FPM, the fast page mode service that actually hosts your PHP instance; you could try stopping that, see if the mail stops. Changing your password did not change PHP-FPM's cached copy, so if that's where it's coming from, likely restarting PHP-FPM will also give it the new password, and mail will start being sent out again. Almost always, mail being sent to root on the local machine is diagnostic of some sort; sometimes it is a diagnostic that mail could not be sent. Most people will have a redirection set to capture things sent by root, going to an account that they can check. I don't know how Hostgator has things set up - that's a shared Hostgator server, no? - but you might try checking what the content of that mail is, it might be something that you can fix.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172732/ssmtp-keeps-sending-mail-but-i-cant-find-the-source
+
+---
+
+#### 9855. Unable to SSH into VM created with Terraform, cloud-init and libvirt
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, virtual-machines, libvirt, terraform, cloud-init | Score: 0 | Views: 518 | Answers: 1 | Created: 2025-02-12
+
+**解决方案 / Solution**:
+Your YAML seems to have an indentation problem: the mapping keys related to the first element of users are not aligned properly with the first name item. Therefore I think the cloud-init YAML parser is misunderstanding your intention. If you align gecos and all of the subsequent items properly with user (i.e. remove one space from before each item) then those should all parse as elements of the mapping, but right now I expect the YAML parser is treating all of that as part of the name value, causing a very long (and syntactically invalid) username. You can avoid this sort of quirk by asking Terraform to produce the YAML syntax, instead of hand-writing it. For example: resource "libvirt_cloudinit_disk" "k8s_init" { name = "cloud-init.iso" pool = var.remote_libvirt_storage_pool user_data = yamlencode({ users = [ { name = "k8s_user" gecos = "k8s_user" shell = "/bin/bash" primary_group = "k8s" groups = "users" sudo = "ALL=(ALL) NOPASSWD:ALL" lock_passwd = false ssh_authorized_keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDX2gcunVOrLn5ULiht/FJo4xHjslWubSG7K5b5YFaF6", ] }, ] package_update = true package_upgrade = true packages = [ "ca-certificates", "curl", ] runcmd = [ "curl -LsSf https://get.k3s.io | sh -", ] }) } I wrote the yamlencode function call directly inline for simplicity's sake, but if having it in a separate file is important (but you'd still be interested in using Terraform's YAML encoder to force correct YAML syntax) then you can alternatively generate YAML from an external template file .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172632/unable-to-ssh-into-vm-created-with-terraform-cloud-init-and-libvirt
+
+---
+
+#### 9856. dhcpcd exited during network booting of Ubuntu
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, dhcp, nfs, netboot, ipxe | Score: 0 | Views: 708 | Answers: 1 | Created: 2025-02-04
+
+**解决方案 / Solution**:
+Without seeing your kernel command parameters in your ipxe config. I'm guessing you are missing the NFSROOT parameter or the kernel is compiled without nfs root support. If NFSROOT isn't defined, it defaults to auto, which relies on NFSROOT being provided by the DHCP server (option root-path). Add the following to your initramfs.conf: NFSROOT=your.nfs.server.ip:/your/exported/rootdir Adjust your server ip, and do not use trailing backslash. A typical nfs kernel command parameter looks like this: ip=dhcp root=/dev/nfs nfsroot=server:/exported/rootdir
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1172242/dhcpcd-exited-during-network-booting-of-ubuntu
+
+---
+
+#### 9857. OpenVpn forwarding to docker (nginx)
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, docker, openvpn | Score: 0 | Views: 122 | Answers: 1 | Created: 2025-01-29
+
+**解决方案 / Solution**:
+OpenVPN adds a new rule to the routing table, with target of the VPN servers IP and next hop as what was previously default gateway - and then replaces default route with its own. Thus, all traffic to the public IP of the server will go over the public Internet. Either change to a sane VPN such as WG, or configure DNS to point at internal IP for admin.example.com .
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171871/openvpn-forwarding-to-docker-nginx
+
+---
+
+#### 9858. Clearing HAProxy favicon cache
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, haproxy | Score: 0 | Views: 117 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+I'm not aware of HAProxy caching anything unless you specifically ask it to. Are you sure ts not just your browser?
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171773/clearing-haproxy-favicon-cache
+
+---
+
+#### 9859. Ansible module ansible.builtin.user not working with Ubuntu generic boxes
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, ansible, vagrant | Score: 0 | Views: 324 | Answers: 1 | Created: 2025-01-27
+
+**解决方案 / Solution**:
+Delete the connection: local line from the playbook. Let inventory handle the connection configuration instead, in this case generated by vagrant. This is forcing the Ansible connection to be to the controller running Ansible, not to any VM or whatever remote host. From -vvv or more verbose output, you can tell the "local" connection plugin is in effect with the line <127.0.0.1> ESTABLISH LOCAL CONNECTION Plus it is only executing local shells, not some remote access command. Ansible did not run on the hosts you assumed. Fix any side effects you did not intend, as a result of the tasks running on the Ansible controller.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171752/ansible-module-ansible-builtin-user-not-working-with-ubuntu-generic-boxes
+
+---
+
+#### 9860. Get domain to display in address bar instead of IP
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, domain-name-system, apache2 | Score: 0 | Views: 86 | Answers: 2 | Created: 2025-01-25
+
+**解决方案 / Solution**:
+redirects to Most likely it is the webapp itself performing the redirection. (Instead of a relative URL like /mediawiki/index.php/Main_Page , it redirects you to a full URL like http://whatever/mediawiki/index.php/Main_Page .) Edit your LocalSettings.php and set $wgServer to the URL prefix you want to use.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171654/get-domain-to-display-in-address-bar-instead-of-ip
+
+---
+
+#### 9861. Run ejabberd in a Docker container
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, docker, ejabberd | Score: 0 | Views: 618 | Answers: 1 | Created: 2025-01-24
+
+**解决方案 / Solution**:
+I tried this Dockerfile, just added three lines at the end of your example: FROM ubuntu:24.04 RUN apt update RUN apt -y install apt-utils RUN apt -y install locales RUN apt -y install nano # Set the locale RUN locale-gen en_US.UTF-8 ENV LANG=en_US.UTF-8 ENV LANGUAGE=en_US:en ENV LC_ALL=en_US.UTF-8 RUN apt -y install openssl RUN apt -y install ejabberd RUN mkdir /run/ejabberd && chown ejabberd:ejabberd /run/ejabberd USER ejabberd CMD ["ejabberdctl", "foreground"] Now I build using podman (same arguments that you used in docker): podman build -t u24jabber . podman run -it --rm --name jabber -p 5280:5280 -p 5222:5222 -p 5269:5269 u24jabber and this works correctly: podman exec jabber ejabberdctl register admin localhost somepass User admin@localhost successfully registered
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171591/run-ejabberd-in-a-docker-container
+
+---
+
+#### 9862. Apache2 RewriteRule does nothing
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, mod-rewrite, apache2 | Score: 0 | Views: 176 | Answers: 1 | Created: 2025-01-23
+
+**解决方案 / Solution**:
+When not to use mod_rewrite tells: mod_rewrite should be considered a last resort, when other alternatives are found wanting. Using it when there are simpler alternatives leads to configurations which are confusing, fragile, and hard to maintain. You are trying to substitute the DocumentRoot with a strange use of RewriteRule that does not even work. What is probably enough is, e.g., a /etc/apache2/sites-enabled/example.com.conf with: <VirtualHost *:80> ServerName example.com DocumentRoot /var/www/html/mediawiki </VirtualHost>
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171559/apache2-rewriterule-does-nothing
+
+---
+
+#### 9863. Ubuntu - Postfix, Dovecot, Dnsmasq - Unable to send mail
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, postfix, dovecot, dnsmasq | Score: 0 | Views: 167 | Answers: 1 | Created: 2025-01-22
+
+**解决方案 / Solution**:
+You probably missing '-F' parameter when execute postmap command, you must running: postmap -F /etc/postfix/vmail_ssl.map then restart postfix service by running: systemctl restart postfix
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1171483/ubuntu-postfix-dovecot-dnsmasq-unable-to-send-mail
+
+---
+
+#### 9864. Where are PHP8 syntax error logged?
+
+**问题描述 / Problem Description**:
+Tags: nginx, ubuntu, php, php-fpm | Score: 0 | Views: 566 | Answers: 1 | Created: 2025-01-18
+
+**解决方案 / Solution**:
+If you are using Linux, NGINX error.log is located here: /var/log/nginx NGINX access.log is also located in this directory. So, /var/log/nginx/error.log /var/log/nginx/access.log
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1170273/where-are-php8-syntax-error-logged
 
 ---

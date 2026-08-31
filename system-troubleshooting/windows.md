@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10319**
+**总计条目 / Total entries: 10364**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -140068,5 +140068,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238051#reply11
+
+---
+
+#### 10320. Jittery mouse input after Ram upgrade?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3hxzo/jittery_mouse_input_after_ram_upgrade/
+
+---
+
+#### 10321. WD External HDD (1TB) — Extremely slow file access. Damaged beyond repair?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3r411/wd_external_hdd_1tb_extremely_slow_file_access/
+
+---
+
+#### 10322. Windows 10 to Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3qjlz/windows_10_to_windows_11/
+
+---
+
+#### 10323. Problems with my cable internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3m0ub/problems_with_my_cable_internet/
+
+---
+
+#### 10324. Pc won’t start
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3plt5/pc_wont_start/
+
+---
+
+#### 10325. My laptop suddenly went from 50% to 0% in an instant.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3ex0u/my_laptop_suddenly_went_from_50_to_0_in_an_instant/
+
+---
+
+#### 10326. My new ROG Zephyrus M16 that my brother handed down to me won’t turn on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3snp0/my_new_rog_zephyrus_m16_that_my_brother_handed/
+
+---
+
+#### 10327. pc was hacked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3si6l/pc_was_hacked/
+
+---
+
+#### 10328. Screen glitches violently after minor vibration/shock
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3sc18/screen_glitches_violently_after_minor/
+
+---
+
+#### 10329. Screen tearing and jittery feel on new 240Hz monitor strictly in Apex Legends (Specs: 5700x3d / RTX 5070)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3s989/screen_tearing_and_jittery_feel_on_new_240hz/
+
+---
+
+#### 10330. Why is Windows defender going absolutely mental
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3s19a/why_is_windows_defender_going_absolutely_mental/
+
+---
+
+#### 10331. Please help with connecting mic and caster board to stream
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3l209/please_help_with_connecting_mic_and_caster_board/
+
+---
+
+#### 10332. Set Razer blade 15 rgb to reactive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3rb3n/set_razer_blade_15_rgb_to_reactive/
+
+---
+
+#### 10333. My pc keeps black screening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3r3vc/my_pc_keeps_black_screening/
+
+---
+
+#### 10334. WiFi Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3r377/wifi_issues/
+
+---
+
+#### 10335. Your device run into a problem and couldn't be repaired.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3pv0g/your_device_run_into_a_problem_and_couldnt_be/
+
+---
+
+#### 10336. Can anybody here help with troubleshooting a potential DPC latency issue??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3pa9p/can_anybody_here_help_with_troubleshooting_a/
+
+---
+
+#### 10337. Continue crashouts
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3oyng/continue_crashouts/
+
+---
+
+#### 10338. PC has been crashing since the 26th. I cannot understand what's causing it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3i06r/pc_has_been_crashing_since_the_26th_i_cannot/
+
+---
+
+#### 10339. I'm subscribed to a gmail calendar in Google Calendar and see 10 events, in my Apple Calendar I see 14 events from that calendar. Why is this?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3oo11/im_subscribed_to_a_gmail_calendar_in_google/
+
+---
+
+#### 10340. My laptop screen's upper part is broken
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3oiyw/my_laptop_screens_upper_part_is_broken/
+
+---
+
+#### 10341. Cursor only works when my usb mouse is plugged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3o6h5/cursor_only_works_when_my_usb_mouse_is_plugged_in/
+
+---
+
+#### 10342. TPM Security Warning Keeps Appearing on Every Restart After BIOS Update, Despite TPM Being Enabled in BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3dr0e/tpm_security_warning_keeps_appearing_on_every/
+
+---
+
+#### 10343. Desktop PC randomly fails to enable 1-3 USB ports when booting or exiting sleep. Some combination of monitor/mouse/keyboard don't connect, forcing manual restart. (Windows 11 prebuilt)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w3nyhn/desktop_pc_randomly_fails_to_enable_13_usb_ports/
+
+---
+
+#### 10344. [V2EX] 新发布的 Windows 软件触发 SmartScreen，怎么解决下载全新安装
+
+**问题描述 / Problem Description**:
+最近发布了一款 Windows 桌面软件，安装包已经使用正规代码签名证书签名，但由于软件和证书都是新发布的，目前下载运行时可能会出现 Microsoft Defender SmartScreen 的“Windows 已保护你的电脑”提示。 想请教做过 Windows 软件分发的大佬朋友们： 新证书怎么快速的搞定下载全新安装的,某鱼找了一圈没找到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238302#reply16
+
+---
+
+#### 10345. [V2EX] 买了 300 美金的游戏，一个都没玩完
+
+**问题描述 / Problem Description**:
+去年在 steam 上买了很多游戏，却一个也没玩完，全部加起来不足 10 小时。 本来是弥补儿时的缺憾，当自己拥有了，却提不起兴趣了。你也是这样吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238533#reply4
+
+---
+
+#### 10346. [V2EX] 各个模型之间怎么选择哇
+
+**问题描述 / Problem Description**:
+cc 之前没用过，据说经常封号，不过最近几天我 Mac 和 ios 都下载了，也有在免费额度聊天，我都直接问的天奇怎么样，结果直接定位了我的城市，我还专门问为什么不封我的号，说的是什么对企业端比较严格，个人端不太感冒 codex 这边 8 月开了 plus 爽用，重置了 6 次？还送了一次重置，我每周工作额度大概也就用 20-30%，剩余的额度或者知道重置前，我会直接 sol max 目标模式开启把剩余周额度用完，这样 vibe 也很舒服的。但是最近几天开启了 5 小时限额，这个就没办法使用 sol 了，除非早上 sol 做计划，下午 sol 执行计划，这样就拉的太长了，一周的额度可能要 3-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238518#reply0
+
+---
+
+#### 10347. [V2EX] IBKR 和 Charles Schwab 如何为账户设置多重保险
+
+**问题描述 / Problem Description**:
+刚看了一老哥问 Github 开启了 2FA 以后密钥丢了登不上去了，不禁想起了自己 IBKR 和 Charles Schwab 也存在这个风险，万一手机丢了这两个账户要找回来真的太困难了 目前 IBKR 用的是 IBKEY ，Charles Schwab 用 VIP Access 开了 2FA ，请问各位大佬们这两个有没有什么多重保险和备份方式呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238507#reply2
+
+---
+
+#### 10348. [V2EX] 国区 Apple 账号可以配合美国 LLC 注册美区 apple 开发者组织账号么
+
+**问题描述 / Problem Description**:
+咨询一下各位 apple 开发者。 中国大陆居民 ➕ 国区 apple 账号➕美国 LLC （有邓白氏编码） 注册 apple 开发者（组织账号）这样可行么？ 有必要注册美区 appleid 么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238503#reply1
+
+---
+
+#### 10349. [V2EX] 求推荐稳定的可靠的中转站
+
+**问题描述 / Problem Description**:
+站里实在太多了，但是不知道哪个稳定，希望大家推荐自己用过的，谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238496#reply7
+
+---
+
+#### 10350. [V2EX] gpt plus 正确使用姿势是什么？
+
+**问题描述 / Problem Description**:
+5.6sol 中，最近更新加会 5h 限制后，怎么越来越不经用了，而且还很慢，主职前端开发，平时还大量用 codex 写客户端和后端，各位都是怎么用的啊？真的够用吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238492#reply1
+
+---
+
+#### 10351. [V2EX] 在浏览器里压商品图，把 EXIF 一起弄没了，想问下你们怎么防这种事
+
+**问题描述 / Problem Description**:
+我们做跨境进口，商品图要批量压。一直在浏览器里压，最近才发现压完之后 EXIF 是全没的。拿一张带完整拍摄信息的 JPEG 试了下，Make 、Model 、DateTimeOriginal 、GPS 经纬度加海拔一共 13 个字段，处理完读出来是 0 。 我当时判断错了，还觉得这是好事——商品图带拍摄地 GPS 本来就是隐患，等于顺手解决了。后来才反应过来这事有另一面：需要保留拍摄参数的场景，比如摄影交付的原片，走这条路径就是纯损失，而且丢完没有任何提示。 原因不复杂，浏览器把图解码成像素再重新编码，元数据本来就不跟着像素走。所以这不是某个工具的功能或 bug ，是这条路径的自然结果。我现在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238490#reply4
+
+---
+
+#### 10352. [V2EX] 网宿代理的 openai 的接口挂了，兄弟们有什么靠谱的推荐么？说是 azure 上游的问题
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238488#reply0
+
+---
+
+#### 10353. [V2EX] 家宽供应商 vircs 是咋了？
+
+**问题描述 / Problem Description**:
+品牌更换，IP 被不可抗力因素强制回收，有没有老哥知道内情的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238462#reply2
+
+---
+
+#### 10354. [V2EX] 阿里是不是搞中转站了，有用过的兄弟评价下性价比
+
+**问题描述 / Problem Description**:
+https://maas.antdigital.com/models 不是推广，不是推广，不是推广 有用过的兄弟评价下性价比
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238461#reply5
+
+---
+
+#### 10355. [V2EX] 有办公室升降桌推荐吗？ 又 tm 肛裂出血了。。
+
+**问题描述 / Problem Description**:
+每次我心情不好都会肛裂，太难受了。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238444#reply4
+
+---
+
+#### 10356. [V2EX] 现在上行流量是不是卡得有点厉害
+
+**问题描述 / Problem Description**:
+测试网络是个人宿舍宽带，个人手机流量卡，公司宽带，公司鲲鹏流量卡，就最简单的微信传输文件，上传速度远远低于下载速度，哪怕是图像这种大小的数据都比以前上传要慢很多。 发现这种情况的根本原因是，我们开发经常打包传包给测试人员，最近一段时间很直观的感觉上传应用包速度很慢，稍微留意了一下感知上的确比以前要慢，尤其是微信不还自带视频图像压制技术，都这样子了上传还是明眼的慢，有人有相同体会吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238441#reply1
+
+---
+
+#### 10357. [V2EX] 你们 codex 都是怎么用的？
+
+**问题描述 / Problem Description**:
+我是懒人，Terra/中一把梭，很多时候连会话都懒得新建，只要一个项目里就一个 session 跑到死。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238429#reply13
+
+---
+
+#### 10358. [V2EX] codex 改回 5h 限额后基本无法用了， sol 几下就完了
+
+**问题描述 / Problem Description**:
+之前用 sol xhigh 能用很久，目前 5h limit 回归，使用 sol 只能几次就提示： Selected model is at capacity. Please try a different model. 难道要回退到 luna ？那为什么还要用 codex 。 现在 AI 厂商是不是就一套算力设备 之前没大规模应用 Vibecoding 时，模型演进和 AI 应用还能均衡算力，现在感觉刚发布后跑完分，就急不可耐的将算力投入到下一代升级去了，卖给大家的模型降智限额太严重，很多都无法正常使用了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238424#reply8
+
+---
+
+#### 10359. [V2EX] 万能的 V 友们，求助一下手机插物联网卡被运营商检测到后锁网的破解之法。
+
+**问题描述 / Problem Description**:
+各位万能的 V 友们，现在公司有一个场景，需要手机插入物联网卡，进行园区巡检工作，但是现在运营商好像有一些新的政策或者措施，手机插入物联网卡后，会被远程监测到，然后运营商会给直接锁网。 所以咨询一下各位万能的 V 友们，有没有好的办法或者措施，可以类似于欺骗运营商的检测。 比如：底层刷机？信号拦截？等等 我对这块不太懂，所以咨询一下各位大佬，有没有破解之法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238419#reply5
+
+---
+
+#### 10360. [V2EX] 5.6 sol 动不动就说容量不够了
+
+**问题描述 / Problem Description**:
+OpenAI 的服务器这是爆了吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238413#reply4
+
+---
+
+#### 10361. [V2EX] 土区礼品卡怎么购买？
+
+**问题描述 / Problem Description**:
+只有银联信用卡，除了闲鱼还能怎么购买土区礼品卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238406#reply8
+
+---
+
+#### 10362. [V2EX] 怎么评价，韩国推进“全民 AI”计划，向全体国民免费开放 AI 服务
+
+**问题描述 / Problem Description**:
+https://finance.sina.com.cn/roll/2026-08-30/doc-iniqakft8314951.shtml 韩国科学技术信息通信部推出 All for AI （全民 AI ） 国家级公共 AI 项目，把生成式 AI 视作公共基础设施，面向全国约 5200 万居民提供 免费、无 Token 调用上限 的本土 AI 服务， 2026 年 9 月开启 Beta 公测，年底正式全面上线 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238402#reply29
+
+---
+
+#### 10363. [V2EX] 问个推广问题，我做了一个面向明星粉丝的产品，去哪里推广比较好？
+
+**问题描述 / Problem Description**:
+如题如题，我希望可以找到各个明星的粉丝会的会长之类的，有办法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238387#reply3
+
+---
+
+#### 10364. [V2EX] 请问可以 estk 等这种虚拟 SIM 卡申请国外的手机号码吗？
+
+**问题描述 / Problem Description**:
+由于最近 GG 卡被封了，导致很多绑定的账户都凉了，因此想重新搞一个国外的手机号。 身边有些朋友用的是 tello 或者 t-mobile 的，除了资费外其他的使用评价还不错，但均是通过有 esim 功能的设备自行申请的。我主备两部设备都不支持 esim ，又不想单独购入具有 esim 功能的设备，因此想咨询是否可以使用 estk 或者其他虚拟 SIM 卡自己申请下卡？ 主要想申请美区的卡，不知道老哥们是否有成功的经验可以介绍一下呢！ 如果有详细的操作教程就更好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238380#reply5
 
 ---

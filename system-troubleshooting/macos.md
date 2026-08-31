@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9319**
+**总计条目 / Total entries: 9377**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -125447,5 +125447,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1237869#reply6
+
+---
+
+#### 9320. Unable to update macOS
+
+**问题描述 / Problem Description**:
+Tags: macos | Score: 6 | Views: 364 | Answers: 2 | Created: 2026-08-30
+
+**解决方案 / Solution**:
+You can install the latest available update for macOS 15 (as reported by the output of running softwareupdate -l command), by running the following command line: sudo softwareupdate -iR "macOS Sequoia 15.7.9-24G830" Running the above command line will: Require you to enter the password for your admin account. Will restart your Mac to install the update.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487004/unable-to-update-macos
+
+---
+
+#### 9321. Why does changing a value in com.apple.symbolichotkeys have side effects (changes an unrelated one, too)?
+
+**问题描述 / Problem Description**:
+Tags: macos, plist | Score: 2 | Views: 43 | Answers: 1 | Created: 2026-07-14
+
+**解决方案 / Solution**:
+Using defaults write results in the plist file getting emptied and only the most recent change is written to it. This results in several changed (i.e. back to their defaults) shortcuts after a reboot. I found out that PlistBuddy does not exhibit this behaviour and how to set dictionary parameters using PlistBuddy: How to change several parameters via defaults write in macOS?
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486755/why-does-changing-a-value-in-com-apple-symbolichotkeys-have-side-effects-change
+
+---
+
+#### 9322. How do I type the caret (^) key on a US MacBook keyboard using the German (DE) input source?
+
+**问题描述 / Problem Description**:
+Tags: macos, keyboard, calculator.app, keyboard-layout | Score: 1 | Views: 52 | Answers: 1 | Created: 2026-08-30
+
+**解决方案 / Solution**:
+For the German input source, Option + Shift + 6 followed by Space should generate ^ . (Apple normally does not use Command for special characters, only Option and Option + Shift ) If you are using the input source called German Standard with a US keyboard, I don't think you can make ^ with it. You need the European ISO keyboard with the extra key.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487007/how-do-i-type-the-caret-key-on-a-us-macbook-keyboard-using-the-german-de-i
+
+---
+
+#### 9323. Is there a way to make Google Drive stop installing this shit?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3bt9u/is_there_a_way_to_make_google_drive_stop/
+
+---
+
+#### 9324. Something is MacOS which has been irking me for a while
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3g7nz/something_is_macos_which_has_been_irking_me_for_a/
+
+---
+
+#### 9325. is it feasible to turn this into my main laptop in 2026?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w35i9j/is_it_feasible_to_turn_this_into_my_main_laptop/
+
+---
+
+#### 9326. What do you use Finder tags for?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3nzi6/what_do_you_use_finder_tags_for/
+
+---
+
+#### 9327. Can anyone explain to me why WhatsApp (OSX app) wants (and somehow did, I accepted) screen and systemaudio capture?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3sp0u/can_anyone_explain_to_me_why_whatsapp_osx_app/
+
+---
+
+#### 9328. Is it me or did RAM usage/memory leak improve massively ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3feqv/is_it_me_or_did_ram_usagememory_leak_improve/
+
+---
+
+#### 9329. Downloaded a game and getting this popup
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3bly6/downloaded_a_game_and_getting_this_popup/
+
+---
+
+#### 9330. Full-screen window doesn't gain focus after swiping between Spaces — I have to click it first every time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3e4ct/fullscreen_window_doesnt_gain_focus_after_swiping/
+
+---
+
+#### 9331. Studio Display XDR + M5 Pro MBP (48GB) : weird scrolling stutter at 120Hz?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3j7zk/studio_display_xdr_m5_pro_mbp_48gb_weird/
+
+---
+
+#### 9332. Mac Mini 2011 i7 update to Sequoia 15.7.9 issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3iik5/mac_mini_2011_i7_update_to_sequoia_1579_issues/
+
+---
+
+#### 9333. downloads folder not working the way i want it to lol
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3sery/downloads_folder_not_working_the_way_i_want_it_to/
+
+---
+
+#### 9334. Gmail allowing Apple Mail push only on desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3enjm/gmail_allowing_apple_mail_push_only_on_desktop/
+
+---
+
+#### 9335. MacOS crashing
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3dy8u/macos_crashing/
+
+---
+
+#### 9336. Can't see grey on my macbook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3k4pz/cant_see_grey_on_my_macbook/
+
+---
+
+#### 9337. What's the best way to label who's speaking in a transcript? I tested every option a Mac can run offline
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3d72a/whats_the_best_way_to_label_whos_speaking_in_a/
+
+---
+
+#### 9338. Problems installing El Capitan: this copy can’t be verified
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w38d29/problems_installing_el_capitan_this_copy_cant_be/
+
+---
+
+#### 9339. [Advice Needed] Which M.2 NVMe SSD and enclosure should I get for my MacBook Pro M4 Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w382q1/advice_needed_which_m2_nvme_ssd_and_enclosure/
+
+---
+
+#### 9340. Moving Google Calendar events in Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w345qr/moving_google_calendar_events_in_safari/
+
+---
+
+#### 9341. I wanted a simple disk analyzer for macOS, so I made one - Open Source
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w3hc86/i_wanted_a_simple_disk_analyzer_for_macos_so_i/
+
+---
+
+#### 9342. [V2EX] 在 mac 上创建了一个隐私 dmg 里面存了一些重要的东西但是密码忘了怎么办
+
+**问题描述 / Problem Description**:
+如题： 在 mac 上创建了一个隐私 dmg 里面存了一些重要的东西但是密码忘了怎么办，尝试了很多都解不开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238348#reply5
+
+---
+
+#### 9343. [V2EX] 外接 ntfs 移动硬盘的问题
+
+**问题描述 / Problem Description**:
+外接 ntfs 移动硬盘的问题： 外接 ntfs 格式的移动硬盘，用的是 paragon ntfs ，经常发现在苹果系统用过后在 win 系统 chkdsk 检查会发现错误，是怎么回事? 是不是 paragon 的原音？有更好的推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238339#reply2
+
+---
+
+#### 9344. [V2EX] 我做了一个更懂中文日期的 macOS 菜单栏日历：白纸日历
+
+**问题描述 / Problem Description**:
+V2EX 的朋友们好，我是「白纸日历」的开发者。 它目前免费、无广告，也有用户反馈它的界面和功能比 macOS 自带日历更好用。 我把它定位成一款为中国用户定制的中文日历，把农历、节气、节假日、调休和日程放进 Mac 菜单栏。 我做这个应用的原因很简单：在 Mac 上，我每天都会确认几次日期、星期、农历、调休和当天安排。可是这些信息分散在菜单栏、系统日历、提醒事项和节假日网页里。为了回答一个很小的问题，往往要连续打开几个地方。 于是我做了「白纸日历」：让它安静地待在菜单栏，需要时点一下，今天是什么日子、这个月怎么放假、接下来有什么安排，尽量在一个面板里看完。 利益相关：我是白纸日历的开发者。应
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238172#reply15
+
+---
+
+#### 9345. [V2EX] macOS 27 修复了 26 全屏时终端标签栏巨丑的问题吗？
+
+**问题描述 / Problem Description**:
+macOS 15 全屏的时候，终端的标签栏还挺紧凑好看的 结果 macOS 26 全屏的时候，终端的标签栏也太丑了 不知道 macOS27 有没有改回来？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238112#reply3
+
+---
+
+#### 9346. [V2EX] 升级了 macOS 26, 出现了奇怪的卡死问题
+
+**问题描述 / Problem Description**:
+版本是 26.6.2 ，这卡死就发生在某几个软件上，然后一个软件卡死之后，恢复流畅一小段时间，另一个软件也会卡死。。。而且是 B 线，就是软件都是很小的软件，像滴答清单，ChatGPT, 百度网盘都有这个问题。 而且卡死的软件，强制退出后，点击程序坞里的图标，会没有反应，点击启动台的可以打开，但很快又会卡死，重启后恢复正常，一段时间后又出现卡死。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237906#reply7
+
+---
+
+#### 9347. [V2EX] macOS 27 相比 26 体感上有性能提升吗
+
+**问题描述 / Problem Description**:
+如题, 我是 m4 的 mbp, 想参考下, 要不要升级 27 public beta 主观或者客观的结论都可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238457#reply14
+
+---
+
+#### 9348. [V2EX] 服了， m6 mac mini，起售价都 6999 了，不给个雷电 5 接口，我绿联雷电 5 拓展坞都买好了
+
+**问题描述 / Problem Description**:
+预约了 16+256 ，想体验下雷电 5 接口。发现 m6 版本全是雷电 4 接口的，服了。 雷电 5 ，23 年底出来的把，到现在 mac mini 还是雷电 4 啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238310#reply24
+
+---
+
+#### 9349. [V2EX] MM 鼠标，即使自适应，也要吐槽上下滚动页面、手汗滑动卡涩明显的糟糕体验
+
+**问题描述 / Problem Description**:
+我并非 macOS 新手，MBA 一直外接显示器搭配 Trackpad 使用，体验非常满意。之前参考了 Magic Mouse 帖子中 V 友们的心得（拇指无名指捏住两侧、靠甩动操作、手掌悬空放松等），并依此尝试了一周，但仍有以下两点让我很头疼： 1 、轻握鼠标单指上下滑动网页时，尤其是向下滑动感觉比较生硬，手指也不太舒服。可能是受表面弧度及滑动行程较短的影响，流畅度远不如触控板。 2 、Magic Mouse 表面类似亚克力材质，稍微有点手汗就会明显发涩、难以划动；而在玻璃材质的触控板上则完全没有这种困扰。 不知道面对上述问题，有经验的网友们都是如何看待和解决的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238294#reply19
+
+---
+
+#### 9350. [V2EX] 搞了个 giffgaff，看看会不会封，注册了土区 appstore，买了小火箭， codex 和 cc
+
+**问题描述 / Problem Description**:
+搞了个 giffgaff 前段时间看 v2 上好多说被封的，现在除了 giffgaff 好像也没更好的选择了吧？ 用途：接收验证码，不打电话。 各位大佬有什么推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238293#reply18
+
+---
+
+#### 9351. [V2EX] iOS27 正在优化搜索和 Siri 都快 48 个小时了，多久能好
+
+**问题描述 / Problem Description**:
+感觉它一直优化就一直掉电
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238260#reply10
+
+---
+
+#### 9352. [V2EX] 想给 Apple Watch 再添置一个充电器，不知道这种充电器是否靠谱
+
+**问题描述 / Problem Description**:
+就像这张图里的这种，没有线，只有无线充电底座本身的那种。 https://img.cdn1.vip/i/6a94520d6b14d_1788105229.webp 目前原装的充电线已经被我固定在桌搭里了，想着出远门的时候肯定还是需要手表的充电器的，而且原装的这条，从桌搭上拆下来还是比较麻烦的，想着弄一个便携的，放在包里放着。 如果不妥的话，那就只能买官方的了，或者是说有别的好选择也可以推荐一下，感激不尽。 目前手上的是 S11 ，国行的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238239#reply32
+
+---
+
+#### 9353. [V2EX] 小孩子照片多，听人劝，吃饱饭，做了如下部署
+
+**问题描述 / Problem Description**:
+前期发过帖子，很多人给意见，综合我的需求和条件，做了以下部署，还算优雅，各位还有更优雅的方案吗？ https://www.v2ex.com/t/1230534?p=1#reply61 **iPhone → iCloud → icloudpd → DXP2800 黑群晖 → Immich** - **iCloud**：iPhone 云端照片同步 - **icloudpd**：自动下载原始照片到 NAS - **Immich**：只读管理照片、人脸识别、智能搜索 - **DXP2800**：N100 + RR 黑群晖，提供存储及硬件加速 **iCloud 管云端，icloudpd 管备份，Immi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238207#reply9
+
+---
+
+#### 9354. [V2EX] VEX 更新 4.6 后一直在”正在验证购买状态”
+
+**问题描述 / Problem Description**:
+输入密码验证后又说暂时无法验证，一直在循环套娃验证……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238184#reply22
+
+---
+
+#### 9355. [V2EX] iPhone 上用 Gmail 还是邮件 App
+
+**问题描述 / Problem Description**:
+大家 iPHone 上用的是苹果自己的“邮件”还是谷歌的 Gmail App 呢？还是直接用浏览器登陆呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238151#reply60
+
+---
+
+#### 9356. [V2EX] 苹果挂载移动硬盘工作好用吗？
+
+**问题描述 / Problem Description**:
+工作的内容都放在移动硬盘，电脑就不买大的存储了，平时上班回家就带个硬盘就行，既方便又省钱，有没有这么做的说说这样可行吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238101#reply16
+
+---
+
+#### 9357. [V2EX] 是不是现在买大内存的 m4pro 或 max 性价比最高？
+
+**问题描述 / Problem Description**:
+手持 m1 想过段时间升级了，m6 也也要出了，不过估计要涨价不少，从 m4 考虑是因为 m4 支持了 ai 算力，能支持双屏等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238039#reply6
+
+---
+
+#### 9358. [V2EX] 新 mac M6 和 m5Pro 选哪个
+
+**问题描述 / Problem Description**:
+Mac mini M6 32GB + 1TB （ 11499 元） Mac mini M5 Pro 64GB + 1TB （ 16499 元） 选哪个电脑会好一些呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237882#reply10
+
+---
+
+#### 9359. [V2EX] Apple Music 已引入歌词 AI 翻译
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237759#reply7
+
+---
+
+#### 9360. [V2EX] Mac Studio 苹果刀法精准
+
+**问题描述 / Problem Description**:
+苹果这次备货挺足的，就是发货时间比较长。 选 M5 MAX 128G 的用户占比应该会比较多，算是性价比高的一款。 Mac Studio 刀法精准，M5 MAX 最高给到 128g ，M5 Ultra 给你 96g ，不给 128g 让你感觉很鸡肋，直接跳到 256g ，跨度大。就赌你在不想选低一个档的芯片跟内存带宽情况下，咬牙上 256g 要漫长等待了，10 月 24 日才发货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237731#reply21
+
+---
+
+#### 9361. [V2EX] 有买了 24g 内存后悔的吗
+
+**问题描述 / Problem Description**:
+PO 还没买，目前纠结于 24g 内存和 48g 内存。网上一搜从 16g 够用到 64g 才够什么答案都有。那我反过来问，有人买了 24g 内存但后悔没买更多吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237641#reply148
+
+---
+
+#### 9362. [V2EX] 冒险岛 083
+
+**问题描述 / Problem Description**:
+用闲置服务器开了个冒险岛服务，怀旧玩玩 开源地址： https://github.com/BeiDouMS/BeiDou-docker https://github.com/BeiDouMS/BeiDou-Server/releases 如果你不想搭服务器，那就直接下载客户端（ https://github.com/BeiDouMS/BeiDou-Server/releases/download/1.12/BeiDou-ClientV17.7z ） 解压后编辑 config.ini： ServerIP_Address=nearu.fun 打开客户端进入登陆页面，输入任意账号和至少 6 位密码，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238515#reply3
+
+---
+
+#### 9363. [V2EX] 一个在测试阶段的有趣新论坛
+
+**问题描述 / Problem Description**:
+还在测试阶段，整体还算清新。 https://upsns.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238487#reply0
+
+---
+
+#### 9364. [V2EX] 一款计算退休时间的小工具，大家一起来幽殇呀
+
+**问题描述 / Problem Description**:
+输入存钱目标和存钱计划，就可以算出还要多久就可以退休了 我算出来还有 28 年多，幽殇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238456#reply2
+
+---
+
+#### 9365. [V2EX] 落谱 有点东西啊，歌曲提取谱子的想法终于被他们搞出来了。 https://app.luopu.net
+
+**问题描述 / Problem Description**:
+一直有这个想法，这个是做的最接近我的需求的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238431#reply1
+
+---
+
+#### 9366. [V2EX] 有木有新开 Ultra Paygo 紫卡的老哥，问下现在还会被封吗？
+
+**问题描述 / Problem Description**:
+如题，据说被大面积封了一批，是不是只有 T-Mobile 比较靠谱了，但那个 15 刀转便宜 3 刀套餐有点麻烦。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238408#reply1
+
+---
+
+#### 9367. [V2EX] 重新认识亚里士多德：他究竟是错误很多的科学家，还是现代学科的奠基者？
+
+**问题描述 / Problem Description**:
+我 90 年出生，初中在教材中接触到亚里士多德，印象里，他提出了很多错误的观点，并且我记得比较清楚，考试会考他的诸多错误观点。 所以在很长一段时间，我内心认为，他是一个长期误导了人类的失败科学家。 近年来，我每年都会阅读一些书籍，发现了 近三分之一 的书籍中都直接或者简单提到了亚里士多德，特别是 《影响人类历史进程的 100 名人排行榜》 中，他的排名是 13 ，我才意识到我的感觉有多不靠谱。 他当然有不少被现代科学否定的观点，例如宇宙和运动的部分看法。但他也系统讨论了逻辑、伦理学、政治学、修辞学、诗学、形而上学和生物学。尤其是他的动物观察和分类工作，并不能简单归结为“拍脑袋的错误理论”。现代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238399#reply6
+
+---
+
+#### 9368. [V2EX] 分享几个公益中转站的测试报告，发现大部分都有点“问题”
+
+**问题描述 / Problem Description**:
+主要测试了三个站：JustDoWork 、GoRouter 、columbina 最大的问题就是这几个站的“随机工具参数完整性”都评分十分低，大概率能说明：它可能意味着模型工具调用不稳定，或中转层在协议转换、流式拼接、参数序列化时改写/丢失了内容。尤其是 Agent 、函数调用、支付或自动执行类场景需要谨慎。 报告如下：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238385#reply0
+
+---
+
+#### 9369. [V2EX] 就为了远程 agent 不间断运行尝试了各种新生代终端工具,发现根本没必要换
+
+**问题描述 / Problem Description**:
+为了让远程 AI agent 能一直跑,最近一直在试用新生代终端 orca herdr.需求其实很简单：任务放在服务器上,本地断网合盖关掉终端之后,远程继续干活.下次连回来还能接着看刚才的任务.有必要为了这么简单的需求换自己熟悉的工具吗? 想要的流程无非是： 照常 SSH 登录,进入一个会话,继续启动 agent.SSH 断了,会话和任务留在服务器上继续运行,再次登录,选回原来的会话,继续操作. 这不就是 tmux 吗?确实 tmux+screen+mosh 完全能解决。但是我这种连 screen 命令都得想想的更记不住 tmux 用法了,有时候忘了开 screen 再回来又断了. 问了 ai
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238373#reply0
+
+---
+
+#### 9370. [V2EX] 新的 sing-box MT 图形客户端已上架 App Store
+
+**问题描述 / Problem Description**:
+核心版本 1.14.0 ，终于可以使用最新最热协议的节点了 配置编辑支持高亮和实时检查 工作目录可以在 文件 App 中浏览了，刚测试过是支持指定本地 rule-set 文件的 https://apps.apple.com/app/sing-box-mt/id6785326793 iOS/iPadOS 15.0+
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238356#reply1
+
+---
+
+#### 9371. [V2EX] local.ai 用来选型本地模型
+
+**问题描述 / Problem Description**:
+有点意思，试着用 mbp m5 max 128GB 跑了这些模型，大差不差，step 的确实能够支撑日常 hermes 使用了。 这个 EigenLabs/Qwen3.8-27B-4bit 的 bench 也很有意思，用 autoresearch 提升模型在 mlx 的 throughput 。但是跑了两天，才达到 192.3 。300 多的怎么搞出来的。 https://local.ai/radio/invite
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238345#reply0
+
+---
+
+#### 9372. [V2EX] 公众号排版主题 Skill
+
+**问题描述 / Problem Description**:
+告别使用别人千篇一律的公众号排版主题，通过这个 skill 创建专属你自己的公众号排版主题。 https://github.com/TwinWrite/gzh-beautify-skill 一次完整使用分为两段：先把主题做出来，再拿主题排文章。 描述风格或提供参考图 ↓ 生成主题预览 → 你确认或提出修改 ↓ 主题包入库 ↓ 提供 Markdown → 生成公众号 HTML → 复制到公众号编辑器 主题只需要生产一次。以后排同一系列的文章，可以直接复用，不必每篇重新设计。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238329#reply0
+
+---
+
+#### 9373. [V2EX] 老是忘记提肛怎么办？我想到了喝水提肛法
+
+**问题描述 / Problem Description**:
+每次喝水，边喝边提，喝完再提十个，养成习惯
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238313#reply4
+
+---
+
+#### 9374. [V2EX] 上线了一个整理照片的网站
+
+**问题描述 / Problem Description**:
+支持文件夹/标签管理 颜色分析（颜色搜索还在开发中） 支持 4 种不同的展示方式 可以保存到本地，也可以直接用浏览器存储 我自己有 3w 多张图片，目前用下来不卡顿 后续我想接入 ai ，让用户自己管理 key 。我只提供功能，比如移除背景颜色，扩图啥的。就像沉浸式翻译一样，用自己的 ai key https://organizephotos.app/ 欢迎大家体验试用，提意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238278#reply10
+
+---
+
+#### 9375. [V2EX] 推荐一把迄今为止最舒服的工学键盘
+
+**问题描述 / Problem Description**:
+[开门见山] 佩锐 perixx 535 PS：只有矮轴，但是可以选择红轴，茶轴，青轴； 另外有 83 键有限款（ 335 ），全尺寸有线款（ 535 ，我买的这把）和全尺寸无线背光款（ 835 ） [前提] 标准指法：工学键盘用的爽一定得标准指法，如果不是那就有的改了 [工学键盘的主观标准] 核心： 拱形：放松小臂，让你像抱着一个大球在打字 大掌托：放松手腕，用多久都不会累 轻松&一定反馈的按键：打字，爽！ 有了这 3 个基础，就是一把优秀的工学键盘 添头： 反方向支脚：抬高手腕，让整个手臂更加放松 [买过的工学键盘] 微软：4000 ，surface ，sculpt 佩锐：413 （薄膜）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238161#reply11
+
+---
+
+#### 9376. [V2EX] B 站推荐 AI 视频泛滥，似乎没什么选择了，不想看屎啊
+
+**问题描述 / Problem Description**:
+YouTube 至少不会给推送那么多 AI 屎的视频，但是 B 站等国内视频平台，送屎量太大，感觉这样下去视频内容平台看不了了，预感论坛起死回生，重回黄金时代。 1.讨厌机器念稿子 2.讨厌 AI 生成啥花里胡哨的抽象动画 3.讨厌 AI 生成的视频封面图 讨厌但是似乎无解，尤其是那些自己就有 AI 视频模型的平台就更要喂屎了，更无奈的是，搜索视频的时候，屎的视频比真人的视频权重还高，还无法过滤
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238037#reply2
+
+---
+
+#### 9377. [V2EX] 有买鸭子的吗？
+
+**问题描述 / Problem Description**:
+https://pollen-robotics.com/microduck/ 看着挺有意思，想买一个玩玩，有没有团的（本人没有海外购物的经验）？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238023#reply17
 
 ---
