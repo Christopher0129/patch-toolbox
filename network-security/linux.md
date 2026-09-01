@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3449**
+**总计条目 / Total entries: 3480**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -50635,5 +50635,377 @@ Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft E
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202608-34
+
+---
+
+#### 3450. CVE-2026-82398 - pypdf: pypdf: Denial of Service via inefficient handling of non-whitespace inputs
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via inefficient handling of non-whitespace inputs. Bugzilla: 2526567
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526567
+
+---
+
+#### 3451. CVE-2026-82392 - pnpm: pnpm: Arbitrary Code Execution via Path Traversal
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] pnpm: pnpm: Arbitrary Code Execution via Path Traversal. Bugzilla: 2526555
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526555
+
+---
+
+#### 3452. CVE-2026-78422 - zbus_polkit: zbus_polkit: Privilege escalation via PID reuse due to incorrect…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] zbus_polkit: zbus_polkit: Privilege escalation via PID reuse due to incorrect D-Bus type handling. Bugzilla: 2526327
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526327
+
+---
+
+#### 3453. CVE-2026-75762 - multicluster-global-hub: multicluster-global-hub: Transport-layer MITM: TLS CA…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] multicluster-global-hub: multicluster-global-hub: Transport-layer MITM: TLS CA bundle pulled from unvalidated ConfigMap, `InsecureSkipVerify` fallback. Bugzilla: 2518375
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518375
+
+---
+
+#### 3454. CVE-2026-77849 - grafana-global-hub: grafana-global-hub: Hardcoded Grafana admin credentials (admin…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] grafana-global-hub: grafana-global-hub: Hardcoded Grafana admin credentials (admin / admin) in `pkg/specsyncer`. Bugzilla: 2518332
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518332
+
+---
+
+#### 3455. CVE-2026-80221 - grafana-global-hub: grafana-global-hub: Direct database connection string with…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] grafana-global-hub: grafana-global-hub: Direct database connection string with embedded credentials passed as environment variable. Bugzilla: 2518333
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518333
+
+---
+
+#### 3456. CVE-2026-80220 - postgres-exporter: postgres-exporter: pprof profiling endpoints exposed on…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgres-exporter: postgres-exporter: pprof profiling endpoints exposed on unauthenticated metrics listener. Bugzilla: 2518396
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2518396
+
+---
+
+#### 3457. CVE-2026-76763 - io.smallrye/smallrye-graphql: SmallRye GraphQL: Unauthenticated Denial of Service…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] io.smallrye/smallrye-graphql: SmallRye GraphQL: Unauthenticated Denial of Service via large exponent float literals. Bugzilla: 2519767
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519767
+
+---
+
+#### 3458. CVE-2026-19625 - quarkus-oidc: Quarkus OIDC: Cross-tenant authentication bypass via shared…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] quarkus-oidc: Quarkus OIDC: Cross-tenant authentication bypass via shared token-introspection cache. Bugzilla: 2517693
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517693
+
+---
+
+#### 3459. CVE-2026-12894 - quarkus-qute: io.quarkus.qute.ReflectionValueResolver: Quarkus:Server-Side…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] quarkus-qute: io.quarkus.qute.ReflectionValueResolver: Quarkus:Server-Side Template Injection (SSTI) vulnerability in ReflectionValueResolver of the Quarkus Qute template engine. Bugzilla: 2491319
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2491319
+
+---
+
+#### 3460. CVE-2026-19651 - quarkus-spring-web: quarkus-spring-web: Authorization bypass via URL query string…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] quarkus-spring-web: quarkus-spring-web: Authorization bypass via URL query string manipulation. Bugzilla: 2517694
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517694
+
+---
+
+#### 3461. CVE-2026-82797 - rlottie: rlottie: Denial of Service via uncontrolled recursion with serialized data
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rlottie: rlottie: Denial of Service via uncontrolled recursion with serialized data. Bugzilla: 2526268
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526268
+
+---
+
+#### 3462. CVE-2026-82853 - nodemailer: Nodemailer: SMTP Command Injection allows email spoofing and phishing…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: SMTP Command Injection allows email spoofing and phishing attacks. Bugzilla: 2526197
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526197
+
+---
+
+#### 3463. CVE-2026-82661 - nodemailer: Nodemailer: Header injection via unsanitized list comment fields
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Header injection via unsanitized list comment fields. Bugzilla: 2526186
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526186
+
+---
+
+#### 3464. CVE-2026-82662 - nodemailer: Nodemailer: Information disclosure due to disabled TLS certificate…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Information disclosure due to disabled TLS certificate verification. Bugzilla: 2526199
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526199
+
+---
+
+#### 3465. CVE-2026-82660 - nodemailer: Nodemailer: Information Disclosure via jsonTransport Access Control…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Information Disclosure via jsonTransport Access Control Bypass. Bugzilla: 2526203
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526203
+
+---
+
+#### 3466. CVE-2024-58379 - nodemailer: Nodemailer: Denial of Service via specially crafted emails with data…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Denial of Service via specially crafted emails with data URLs or embedded attachments. Bugzilla: 2526173
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526173
+
+---
+
+#### 3467. CVE-2026-82659 - nodemailer: Nodemailer: Arbitrary file read and Server-Side Request Forgery via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Arbitrary file read and Server-Side Request Forgery via raw option bypass. Bugzilla: 2526190
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526190
+
+---
+
+#### 3468. CVE-2026-82623 - open62541: open62541: Denial of service via use-after-free vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] open62541: open62541: Denial of service via use-after-free vulnerability. Bugzilla: 2526143
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526143
+
+---
+
+#### 3469. CVE-2026-17615 - resteasy-core: RESTeasy SourceProvider remote unauthenticated file read
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] resteasy-core: RESTeasy SourceProvider remote unauthenticated file read. Bugzilla: 2507635
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2507635
+
+---
+
+#### 3470. [Ubuntu] USN-8712-1: pyasn1 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that pyasn1 did not properly bound the size of long-form tag identifiers when parsing BER, CER, or DER encoded data. An attacker could possibly use this issue to cause applications decoding untrusted ASN.1 data to consume excessive CPU resources, resulting in a denial of service. (CVE-2026-59884) It was discovered that pyasn1 processed OBJECT IDENTIFIER and RELATIVE-OID values in
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8712-1
+
+---
+
+#### 3471. [Ubuntu] USN-8711-1: Libgcrypt vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Libgcrypt had a timing-based side-channel flaw in its RSA implementation. A remote attacker could possibly use this issue to obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8711-1
+
+---
+
+#### 3472. [Ubuntu] USN-8688-2: PAM vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8688-1 fixed a vulnerability in PAM. This update provides the corresponding fix for PAM on Ubuntu 26.04 LTS. Original advisory details: Juthawong Naisanguansee discovered that PAM incorrectly cleared failed login attempt records when certain services invoked the account phase without first performing authentication. An attacker could possibly use this issue to reset failed login counters, resu
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8688-2
+
+---
+
+#### 3473. [Ubuntu] USN-8555-2: Ubuntu Advantage Tools (pro client) regression
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8555-1 fixed vulnerabilities in Ubuntu Advantage Tools. On Ubuntu 14.04 LTS only, it was discovered that some machines were unable to enable esm-infra-legacy due to a preemptive apt-helper check. This update fixes the problem. We apologize for the inconvenience. Original advisory details: Bilal Teke discovered that Ubuntu Advantage Tools exposed the Pro bearer token in command-line arguments w
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8555-2
+
+---
+
+#### 3474. [Ubuntu] USN-8710-1: libevent vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Alexis Challande discovered that libevent incorrectly handled certain empty output buffers. An attacker could possibly use this issue to trigger a use-after-free, resulting in a denial of service or arbitrary code execution. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-63381) Rajat Raghav discovered that libevent i
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8710-1
+
+---
+
+#### 3475. [Ubuntu] USN-8709-1: ncurses vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ncurses incorrectly handled specially crafted terminfo database entries. A local attacker could possibly use this issue to cause applications using ncurses to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8709-1
+
+---
+
+#### 3476. [Ubuntu] USN-8708-1: sudo-rs vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that sudo-rs incorrectly handled time-of-check vs time- of-use conditions in sudoedit. A local attacker with permission to edit specific files using sudoedit could use this issue to place files in arbitrary directories, and possibly escalate their privileges. This issue only affected systems configured to grant fine-grained sudoedit file editing permissions, which is not the defa
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8708-1
+
+---
+
+#### 3477. [Ubuntu] USN-8690-1: Pillow vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Pillow did not properly manage memory when processing certain image files. An attacker could possibly use this issue to cause a denial of service or read sensitive data.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8690-1
+
+---
+
+#### 3478. [Ubuntu] USN-8705-2: OpenZFS vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8705-1 fixed vulnerabilities in OpenZFS. This update provides the corresponding fix for OpenZFS on Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that OpenZFS incorrectly handled authorization checks for certain ioctl operations on Linux. A local attacker could possibly use this issue to perform pool-administrative operations or access privileged informatio
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8705-2
+
+---
+
+#### 3479. [Ubuntu] USN-8706-1: zlib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that zlib incorrectly handled negative length parameters in CRC32 combine functions. An attacker could use this issue to cause a denial of service via excessive CPU consumption.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8706-1
+
+---
+
+#### 3480. [Gentoo] GLSA 202609-01: Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge, Opera, and Vivaldi.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202609-01
 
 ---

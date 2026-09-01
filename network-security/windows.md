@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 956**
+**总计条目 / Total entries: 962**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -13964,5 +13964,77 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52659
+
+---
+
+#### 957. [webapps] Wolf CMS 0.8.3.1 - RCE v
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Wolf CMS 0.8.3.1 - RCE v
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52672
+
+---
+
+#### 958. [webapps] Payload CMS 3.72.0 - Blind SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Payload CMS 3.72.0 - Blind SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52671
+
+---
+
+#### 959. [webapps] Bludit CMS - Stored XSS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Bludit CMS - Stored XSS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52670
+
+---
+
+#### 960. [webapps] Grav CMS 2.0.7 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Grav CMS 2.0.7 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52669
+
+---
+
+#### 961. [webapps] miniOrange  5.4.3 - Unauthenticated Auth Bypass
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] miniOrange 5.4.3 - Unauthenticated Auth Bypass
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52668
+
+---
+
+#### 962. [webapps] EasyAppointments  1.5.1 - Blind SQL Injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] EasyAppointments 1.5.1 - Blind SQL Injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52667
 
 ---

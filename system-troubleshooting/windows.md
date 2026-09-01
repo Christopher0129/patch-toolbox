@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10364**
+**总计条目 / Total entries: 10414**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -140653,5 +140653,655 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238380#reply5
+
+---
+
+#### 10365. How can I recover the original working directory of a running Python -m uvicorn main:app --reload process on Windows?
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, powershell, python, process | Score: 1 | Views: 40 | Answers: 1 | Created: 2026-09-01
+
+**解决方案 / Solution**:
+A process can freely change its working directory, and you can determine the current one easily, but not the original one – unless the process has opened files from there, which will then be visible as file handles with absolute paths. (As far as I know they are always resolved to an absolute NT path no matter the input.) Use either SysInternals ProcExp or the similar System Informer (previously Process Hacker) to do this. The current working directory is in the first tab of a process's "Properties", while open handles are in a separate tab.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940054/how-can-i-recover-the-original-working-directory-of-a-running-python-m-uvicorn
+
+---
+
+#### 10366. My PC kept 'freezing' for weeks. I formatted it, swapped the hardware, updated the BIOS... it was a $1 switch inside the mouse (Logitech G502). Here's the full saga to help you.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4pse1/my_pc_kept_freezing_for_weeks_i_formatted_it/
+
+---
+
+#### 10367. Bluetooth is listed as 'off' when it's turned on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4pef4/bluetooth_is_listed_as_off_when_its_turned_on/
+
+---
+
+#### 10368. How can I recover files from a write-protected flash drive?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4csvb/how_can_i_recover_files_from_a_writeprotected/
+
+---
+
+#### 10369. PC suddenly stopped displaying — GPU works in neither PC, CPU/VGA debug lights confusing me
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4odmc/pc_suddenly_stopped_displaying_gpu_works_in/
+
+---
+
+#### 10370. Unable to access Asus Rog Strix x570i bios when booting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4p1td/unable_to_access_asus_rog_strix_x570i_bios_when/
+
+---
+
+#### 10371. Standard horizon Radio won't charge. Model HX380
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4orek/standard_horizon_radio_wont_charge_model_hx380/
+
+---
+
+#### 10372. Really high memory usage on startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4gj0q/really_high_memory_usage_on_startup/
+
+---
+
+#### 10373. What’s the best way of securing my iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4lzyi/whats_the_best_way_of_securing_my_iphone/
+
+---
+
+#### 10374. is this monitor about to fail?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4l19b/is_this_monitor_about_to_fail/
+
+---
+
+#### 10375. Emojis lower quality for some reason
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4ryp8/emojis_lower_quality_for_some_reason/
+
+---
+
+#### 10376. Laptop compromised/hacked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4gxhp/laptop_compromisedhacked/
+
+---
+
+#### 10377. Have a End user when she creates a folder within her H Drive the folder does not show up unless you refresh or exit out of that folder
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4rnag/have_a_end_user_when_she_creates_a_folder_within/
+
+---
+
+#### 10378. MN56 firebat internet issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4kiyl/mn56_firebat_internet_issue/
+
+---
+
+#### 10379. Wi-Fi problem on iPhone 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4rj47/wifi_problem_on_iphone_11/
+
+---
+
+#### 10380. 2016 acer aspire r3 series model no n15w5 Completely dead not charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4rhsu/2016_acer_aspire_r3_series_model_no_n15w5/
+
+---
+
+#### 10381. Just put pc and ran into a Error. Never seen Error Log before
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r9hp/just_put_pc_and_ran_into_a_error_never_seen_error/
+
+---
+
+#### 10382. Trying to finish series on Disney+, but it keeps kicking me out every time I start the episode
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r5q5/trying_to_finish_series_on_disney_but_it_keeps/
+
+---
+
+#### 10383. Razer Naga Trinity mouse causing laptop screen to flash red and sign me out when it gets too close to side of laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r5ho/razer_naga_trinity_mouse_causing_laptop_screen_to/
+
+---
+
+#### 10384. Monitor is detected by windows but the monitor itself does not detect pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r4ty/monitor_is_detected_by_windows_but_the_monitor/
+
+---
+
+#### 10385. Someone who knew my name and last name, changed my user and name on it but it changed in seconds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r3j9/someone_who_knew_my_name_and_last_name_changed_my/
+
+---
+
+#### 10386. how to retrieve different files that were replaced bc they had the same name as new oned
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4r1l0/how_to_retrieve_different_files_that_were/
+
+---
+
+#### 10387. iOS update causing apps to crash
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4q9le/ios_update_causing_apps_to_crash/
+
+---
+
+#### 10388. Need help with motherboard!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4q7x9/need_help_with_motherboard/
+
+---
+
+#### 10389. my pc crashes when i leave my pc idle
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4iyop/my_pc_crashes_when_i_leave_my_pc_idle/
+
+---
+
+#### 10390. [V2EX] Windows 11 Insider Beta 26220.9223 在高分屏下鼠标会异常放大
+
+**问题描述 / Problem Description**:
+已更新的可以通过卸载更新解决，gpt sol 研究了一上午最后还是我灵机一动卸载更新解决的。 因为自带截屏截不到鼠标，所以屏拍了下，凑合看吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238627#reply5
+
+---
+
+#### 10391. [V2EX] 关于黄果短剧的一些想法
+
+**问题描述 / Problem Description**:
+目前外边各大黄色网站已经被 ai 成人短剧霸屏，我就在想，能不能搞一个定制化服务，毕竟年轻人谁没个男神女神的，通过这种方式给客户提供定制化的短剧需求，大家认为这种细分赛道如何？ 另外有意进入本行业或行业经验者欢迎多交流。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238802#reply0
+
+---
+
+#### 10392. [V2EX] 菲律宾的节点有哪些支持的机场？
+
+**问题描述 / Problem Description**:
+想使用虚拟卡给 ChatGPT 充值,但是目前使用的机场节点虽然有菲律宾区，在访问 OpenAI 时会被重新定向到其他节点，导致没法在菲律宾区付款。 V 友们有哪些推荐的机场可以使用的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238798#reply0
+
+---
+
+#### 10393. [V2EX] UU 远程自定义码率设置大于 100 Mbps 实际只跑 10Mbps，自定义码率还不如原画
+
+**问题描述 / Problem Description**:
+局域网内用 UU 远程串流，碰到一个想不通的现象，排查了半天还是没结论，来请教一下。 环境： - 被控端 Windows 11 + AMD RX 7900 XT - 被控端无物理显示器，接 HDMI 欺骗器，实际走 UU 的超级屏（虚拟显示器），3840x2160 @ 144Hz - 控制端 macOS - 同一局域网，UU 浮层显示 UDP LAN / 1ms / 11ms frm. / 0.0% loss 测试内容统一用 webglsamples.org 的 WebGL Aquarium ，满屏鱼群高速运动，被控端本地稳定 120fps 。码率读数取自 UU 自带的网络状态浮层。 实测：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238794#reply2
+
+---
+
+#### 10394. [V2EX] 有移民想法的人还多吗？
+
+**问题描述 / Problem Description**:
+放在十年前，我对移民的想法确实非常强烈，诸如外面机会更多，更容易翻身啥的。然后十年之后，不知道是因为年纪大了还是被新闻洗脑了，一是感觉国内更安全，二是家人朋友都在身边。穷也好富也好，起码是自己熟悉的环境，有各种应对的技巧。或许是因为自己眼光阅历还是有限，已经固化成井底之蛙了吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238792#reply2
+
+---
+
+#### 10395. [V2EX] 分享一个目前可以免费发布内容并带 dofollow 外链的平台： Listium（附实测）
+
+**问题描述 / Problem Description**:
+最近在给自己的 AI 视频工具做 SEO ，我发现了一个可以免费获得 dr 为 55 的 dofollow 外链网站： https://listium.com 。 简单操作步骤 注册 Listium ，点击 New List 填写标题、简介并选择合适分类 使用 Article View ，加入 3 ～ 5 个真正有用的章节 在相关内容中自然提到自己的产品并加入链接 点击 Publish ，确认页面状态是 Live 打开公开页面，检查最终链接和页面收录状态 不建议只建一个空页面放网址。内容越完整，页面对读者越有价值，也越不像纯粹的外链页。 我的实测页面 我写的是一篇“一条视频如何用 AI 做出
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238788#reply0
+
+---
+
+#### 10396. [V2EX] 突然发现家里的宽带竟然有公开固定静态 IPv4
+
+**问题描述 / Problem Description**:
+带宽有点低，300 多 M 。人在美国，这个可以用来做什么?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238764#reply2
+
+---
+
+#### 10397. [V2EX] chatgpt 工作导致 mac 卡死重启
+
+**问题描述 / Problem Description**:
+最近高强度使用 chatgpt ，但是发现不知道为什么 mac 总会出现崩溃重启问题，有人了解原因吗？ ps ，mbp m1 pro ，16g ，1t
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238754#reply0
+
+---
+
+#### 10398. [V2EX] giffgaff 卡还有没有被封的人吗？
+
+**问题描述 / Problem Description**:
+从最早有人反馈被封到现在，我的卡还存活。好奇猜一下，是不是你们都是从 10 欧激活，激活完没再充过钱。我有一次设错流量卡了，把卡里余额用完了，然后又冲了 10 欧，一直用到现在。 会不会是我充过两次钱，导致我一直没被封？如果活到现在都是多次充过钱的，那是不是隔段时间充个钱就能保活了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238740#reply19
+
+---
+
+#### 10399. [V2EX] 求推荐独显笔记本
+
+**问题描述 / Problem Description**:
+侄女作为大一新生马上就读 城乡规划 专业，需要购买一台笔记本，烦请各位彦祖推荐一下合适的机子。 配置要求： 系统支持: win10(64) CPU: intel core i5 十代处理器及以上 内存：32G 及以上 显卡：NVIDIA ，独立显存 4G 及以上 磁盘空间：固态硬盘，500G 及以上 摄像头：1080P ，可清晰分辨人脸五官 非华为、小米等国产本 非苹果笔记本 非轻薄本 预算为 1 万元以内，如果有性价比超高的，预算可提高至 1.5 万。 谢谢各位❤️
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238737#reply12
+
+---
+
+#### 10400. [V2EX] Proxmox VE 7 的身份验证绕过漏洞
+
+**问题描述 / Problem Description**:
+PSA-2026-00043-1：已终止生命周期的 Proxmox VE 7 版本中的身份验证绕过漏洞 受影响版本：libpve-access-control >= 7.0-7 且 < 8.0.4 大致对应于 Proxmox VE 7.0 至 7.4 （自 2024 年 7 月起已停止支持），以及最初版本的 Proxmox VE 8.0 （已停止支持）。为完整起见，之所以也包含后者，是因为修复程序在该版本发布约一个月后才推出。 https://forum.proxmox.com/threads/proxmox-virtual-environment-security-advisories.14
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238736#reply0
+
+---
+
+#### 10401. [V2EX] 兄弟们， opencode go 到期了，现在冲哪个
+
+**问题描述 / Problem Description**:
+量大管饱有啥推荐呀
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238723#reply8
+
+---
+
+#### 10402. [V2EX] 腾讯云轻量机能不能安装 3xui？自用 vless+reality，会不会被 ban？
+
+**问题描述 / Problem Description**:
+想问问腾讯云轻量机能不能安装 3xui ？自用 vless+reality+tcp ，会不会被 ban ？各位不知道有没有尝试过的，存活时间有多久？ 谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238713#reply10
+
+---
+
+#### 10403. [V2EX] 6-8W 的二手 SUV 油车有什么推荐？
+
+**问题描述 / Problem Description**:
+国六车，最近五六年的车都可以，考虑合资
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238710#reply3
+
+---
+
+#### 10404. [V2EX] 家中次子养老问题咨询
+
+**问题描述 / Problem Description**:
+背景 我们是农村家庭，父母现在在老家，我和哥哥都在一线城市工作，我是家中的次子，上面有个哥哥。 我的情况是目前已婚，老婆已怀孕，我和我老婆都上班，经济收入尚可。 我哥已婚 已育有两女， 经济收入也可以 应该比我稍微高一些吧，我嫂子不上班全职带俩娃。 关系 我哥他们家和我父母关系一般，原因有我妈之前给我哥看孩子的婆媳关系的原因，也有我哥本身也不太关心家里的事儿，之前我妈和我说过，我妈给我哥视频，我哥就嫌烦 不愿意听我妈说家里的家常这些。现在我父母和我哥的家庭闹得很僵，除了逢年过节 基本不打视频，我哥基本不了解我父母的近况，自然我父母也很难了解到我哥的近况，不知道具体发生了啥 ，反正现在很不愉快，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238707#reply33
+
+---
+
+#### 10405. [V2EX] 大家来看看我的个人文件夹的文件，猜测安装了什么软件。。。
+
+**问题描述 / Problem Description**:
+12/17/2025 03:13 PM <DIR> ai_completion 03/24/2026 05:44 PM <DIR> .ai_completion 08/29/2024 05:45 PM <DIR> .android 01/28/2026 04:49 PM <DIR> .cache 09/01/2026 12:33 PM <DIR> .cargo 08/08/2026 04:15 PM <DIR> .clipal 03/03/2026 05:07 PM <DIR> .crawl4ai 01/02/2024 05:23 PM <DIR> cursor-tutor 07/13/202
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238704#reply1
+
+---
+
+#### 10406. [V2EX] Vidhub 在 mac 上强制手机扫码登录才能解锁已付费功能，这如何给 Apple 投诉？
+
+**问题描述 / Problem Description**:
+前几年 V2 上看的产品。。当时可能是创业阶段。也就买了 lifetime 会员。开始还挺好。 后来越来越过分，质量不说了。肯定不如 Senplayer,但是过分的是。偶尔就是看个剧，看个视频，播放器也算是付费已经买过的东西，看视频当然是在电脑看了。 结果不停的提示你也要扫码扫码扫码。扫码怎么扫呢？用手机端来扫。可是我平时哪有个手机专门来搞这个。 我也想明白他的动机是什么，但是一定是很多小心思在里面。Senplayer 不会这样。 这如何给 appstore 投诉？到底如何才能让这种小聪明受到惩罚？ 2024 年的还能全退么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238692#reply6
+
+---
+
+#### 10407. [V2EX] mac mini m6 外接硬盘好用吗？有什么缺陷吗？真心求问
+
+**问题描述 / Problem Description**:
+目前就正常开发用，预算有限想买一台 mac mini 16g 的，256g 太小了不够用，但是加到 512g 要贵 1500 。 我发现外接硬盘 1Tb 的三星 990 + 个底座拓展坞也就差不多的价钱。 mac mini 用那种底座拓展坞可以外接 ssd 的好用？有什么缺陷吗？是不是 app 的常用工作流项目文件还是得放在 apple 存储里，硬盘只能放一些媒体文件读写吗？真心求问。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238679#reply0
+
+---
+
+#### 10408. [V2EX] 请问佬们 1Password 有没有什么靠谱长期稳定的优惠购买渠道？
+
+**问题描述 / Problem Description**:
+目前官方太贵了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238673#reply7
+
+---
+
+#### 10409. [V2EX] 有个问题，大家都没有疑问吗 为什么微信的 PC 端不支持，转账和发红包的功能。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238660#reply15
+
+---
+
+#### 10410. [V2EX] 求推荐下置饮水机
+
+**问题描述 / Problem Description**:
+买了几个下置饮水机都不满意，要么做工廉价，一股塑料味，要么操作不方便，语音功能像个傻子，都退掉了。 求 700 以内好用的下置饮水机（省得上下换水不方便），公司用，干净卫生、不滋生细菌、使用方便，不要花里胡哨的语音和按键，实用为主。 求推荐！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238659#reply1
+
+---
+
+#### 10411. How can I navigate to recent files in the Windows 11 Start menu using the keyboard?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, windows-11, start-menu | Score: 1 | Views: 94 | Answers: 1 | Created: 2026-06-17
+
+**解决方案 / Solution**:
+This problem occurs when "Search the web" is the first category after "Best match", so one way to fix it is to get rid of "Search the web", which isn't very useful anyway. From How to Disable Web Search Results on Windows 11 Click the Start button or press the Windows key on your keyboard. Type gpedit and click the top result to open Group Policy Editor. In the Local Group Policy Editor window, navigate to the following path: User Configuration > Administrative Templates > Windows Components > File Explorer Double-click on the Turn off display of recent search entries in the File Explorer search box option. Click the Enabled option, then click OK at the bottom. Exit the Group Policy Editor and restart Windows 11.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938472/how-can-i-navigate-to-recent-files-in-the-windows-11-start-menu-using-the-keyboa
+
+---
+
+#### 10412. Blocking update on iPhone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4spee/blocking_update_on_iphone/
+
+---
+
+#### 10413. MSI MAG B650 White VGA Light
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4sbsm/msi_mag_b650_white_vga_light/
+
+---
+
+#### 10414. Can’t figure out why i’m lagging only on pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w4s36o/cant_figure_out_why_im_lagging_only_on_pc/
 
 ---

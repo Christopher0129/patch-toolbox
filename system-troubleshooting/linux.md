@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9864**
+**总计条目 / Total entries: 9900**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -136204,5 +136204,473 @@ If you are using Linux, NGINX error.log is located here: /var/log/nginx NGINX ac
 
 **参考链接 / References**:
 - https://serverfault.com/questions/1170273/where-are-php8-syntax-error-logged
+
+---
+
+#### 9865. Why does Bash use a file descriptor >=10 on redirection of stdin/stdout/stderr only?
+
+**问题描述 / Problem Description**:
+Tags: linux, bash, io-redirection, file-descriptors | Score: 5 | Views: 161 | Answers: 2 | Created: 2026-09-01
+
+**解决方案 / Solution**:
+That's the way bash simulates file descriptor redirection for builtin commands like test (which run in the same process as the main shell) -- by saving and then restoring the original fds. Saving happens by dup2() 'ing the original fd into some higher fd like 10 and then back. Since fd 3 was not open before the command, bash does not have to save and restore it like the standard fds (0, 1 and 2). It's basically an optimization / kludge, which makes builtin commands feel like regular commands. If test was actually an external program (like /bin/test ), bash would first fork a separate process, do any redirections inside that process (which will not affect the parent), and then just execute the command. But since test runs in the same process, any redirections have to be reverted: you would not expect the stdout of the shell to stay redirected to foo after a command like echo lol > foo ( echo is a bash builtin just like test ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807229/why-does-bash-use-a-file-descriptor-10-on-redirection-of-stdin-stdout-stderr-o
+
+---
+
+#### 9866. Former Intel Engineer Who Was One Of The Clear Linux Architects Is Starting A New Distro
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w49msx/former_intel_engineer_who_was_one_of_the_clear/
+
+---
+
+#### 9867. One of the biggest Linux distros is growing faster thanks to WSL for Windows 11 than it is its own desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w48i7k/one_of_the_biggest_linux_distros_is_growing/
+
+---
+
+#### 9868. Behold a Kobo Libre
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4pxlh/behold_a_kobo_libre/
+
+---
+
+#### 9869. Rui Ueyama: "We are rewriting the mold linker in Rust and adding linker script support... We started this effort to get Linux distros to replace their default linker with mold"
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w46clv/rui_ueyama_we_are_rewriting_the_mold_linker_in/
+
+---
+
+#### 9870. Linux support for using an Apple Silicon Mac itself as a USB-C network device
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w41xdy/linux_support_for_using_an_apple_silicon_mac/
+
+---
+
+#### 9871. Can you turn a PSP into a cyber deck/similar?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4re4n/can_you_turn_a_psp_into_a_cyber_decksimilar/
+
+---
+
+#### 9872. Development News August 2026 · Phosh
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w473zv/development_news_august_2026_phosh/
+
+---
+
+#### 9873. I've been building my own Debian-based distro for a few months to understand how a desktop actually works — 563 MB ISO, 232 MB idle RAM
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4bstf/ive_been_building_my_own_debianbased_distro_for_a/
+
+---
+
+#### 9874. LINUX KEEPS RESTARTING
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4bain/linux_keeps_restarting/
+
+---
+
+#### 9875. Behold: george, a TUI dashboard, or command center
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4h1np/behold_george_a_tui_dashboard_or_command_center/
+
+---
+
+#### 9876. So Even Though Linux Has Gotten Better My Buddy Says it Still isn’t User Friendly And Doesn’t Have Appeal
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4rvb3/so_even_though_linux_has_gotten_better_my_buddy/
+
+---
+
+#### 9877. statcounter os market
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w4auwx/statcounter_os_market/
+
+---
+
+#### 9878. [V2EX] 《铜豌豆 Linux 》12.15.1 版本发布
+
+**问题描述 / Problem Description**:
+https://www.atzlinux.com/News/2026/20260822.htm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1236561#reply3
+
+---
+
+#### 9879. [V2EX] 现在还有人自己配主机跑本地大模型吗?
+
+**问题描述 / Problem Description**:
+因为手头有 3 条 32G 的 DDR5 内存想出掉, 不想咸鱼慢慢卖,也不想卖给贩子, 看看 V2 有没有人正好需要.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238769#reply3
+
+---
+
+#### 9880. [V2EX] windows 10/11 下有哪些匿名(无需国内账号登录)的语音输入法，可以像 ios 语音输入法一样一边说一边出文字？
+
+**问题描述 / Problem Description**:
+微信输入法要登录，不匿名。 讯飞太二了，要说一段，停一下才出文字。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238768#reply1
+
+---
+
+#### 9881. [V2EX] 为什么 AI 在 win 平台天天都在肘击 powershell？🫪
+
+**问题描述 / Problem Description**:
+powershell 如此难用吗，大模型都绷不住🫪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238722#reply32
+
+---
+
+#### 9882. [V2EX] pve7 被曝发现可能存在某种 0 day rce 漏洞
+
+**问题描述 / Problem Description**:
+https://forum.proxmox.com/threads/proxmox-ve-7-is-vulnerable-to-some-type-of-0day-rce-non-auth.186078/ 幸亏看到的早,我跑在公网上的 pve7.4.3 还没中招
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238693#reply4
+
+---
+
+#### 9883. [V2EX] 请教下， 433mhz 的射频设备，有没有现成的网关
+
+**问题描述 / Problem Description**:
+需求是检测门开关，检测的量比较大，所以找了低成本的方案。先碰到一个问题，如下图的门磁，它是使用 433mhz 发射无线信号的，但是市面上的网关大多都不支持，找了半天没有合适的，有没有可以推荐的？或者基于什么硬件可以二开支持 chan-pin-can-shu.png men-ci.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238666#reply4
+
+---
+
+#### 9884. [V2EX] 大家会不会有工作中任务上下文切换到懵逼的情况
+
+**问题描述 / Problem Description**:
+工作中我经常需要处理很多件事情，在不同上下文进行切换时，脑子一恍惚就忘了自己要做什么了 有的事情是要挂后台跑的，但是一下没注意到，等做完其它事情才回来做这个导致处理效率很低；又或者后台任务跑完了，但是没有意识到，导致下一个后台任务没接着继续跑；又或者在几个上下文切换过程中，突然懵了，一段时间忘了自己要干什么，还要回想一下要做什么； 我觉得这些事情不难，而且是大部分可以自动化的，比如修一个 bug ，按照流程无非就是理解 bug ，写代码，编译烧录，自测，提交，评审，修改。其中大多数步骤是可以通过阅读电脑里终端运行的指令，来理解完成与否，完成进度的，我认为这不是一个难的事情，不需要很高智能的 A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238648#reply11
+
+---
+
+#### 9885. [V2EX] 国模 kimi 和 glm 等哪个更划算
+
+**问题描述 / Problem Description**:
+我看 kimi 的 allegro 和 glm 的 pro 差不多，不知道额度差距多少，听说 kimi 额度更少，我做前端的，还是 jsp 配 vue3 老古董了，我现在使用 Cursor60 刀感觉额度凑合，重度就不行了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238644#reply39
+
+---
+
+#### 9886. [V2EX] 最近频繁收到邮件 说赞助你的 github 仓库
+
+**问题描述 / Problem Description**:
+请问这种是诈骗吗？ 个人仓库 有些有几千颗 star ，有些几百，最近频繁收到类似的邮件。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238639#reply7
+
+---
+
+#### 9887. [V2EX] 第一次开发 Obsidian 插件：写了一个 Markdown 表格转置小工具
+
+**问题描述 / Problem Description**:
+昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开发，用于表格转置的插件，希望对你们有用！ 我不想重复写正文了，正文说明就偷懒从 blog 粘贴了过来，对这个工具有想法的可以直接评论区留言: 最近我第一次尝试开发了一款 Obsidian 插件， 项目叫 OB Toolbox ， 昨天晚上已经上架到官方的插件市场，获取方式: 打开 obsidian → 设置 → 第三方插件 → 社区插件市场 → 搜索 md toolbox 后安装 对应的项目地址: obsidian 插件页 | github 主页 目前的话只加入了一个功能： 转置 Markdown 表格 。 为什么要做这个插件 自从把
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238638#reply3
+
+---
+
+#### 9888. [V2EX] 如何面向俄罗斯用户收款
+
+**问题描述 / Problem Description**:
+最近在 Google Play 上架了一款带内购的应用，可能是做了俄语国际化的原因，俄罗斯用户居然占了快 2/5 。但问题来了：俄罗斯用户在 GP 里只能下免费应用，内购和付费下载都走不通。这段时间已经陆陆续续有好几个俄罗斯用户来问怎么买，着实有点尴尬 想问下有没有踩过同一个坑的大佬，这种"俄罗斯用户想付费但 GP 不让付"的情况，大家都怎么解的？求分享经验，感激不尽🙏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238633#reply16
+
+---
+
+#### 9889. [V2EX] 求键盘推荐 [68 键左右]
+
+**问题描述 / Problem Description**:
+目前用的是 vgn v87 ，想换一个小一点的键盘，声音闷一些不太脆，支持无线连接（蓝牙/usb 都可）。 各个平台搜了一圈，大多是广，看迷茫了。 预算 500 以内。谢谢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238621#reply3
+
+---
+
+#### 9890. [V2EX] Deepseek v4 flash fast 是个什么东西？
+
+**问题描述 / Problem Description**:
+今天一看 commandcode 上了个新模型，Deepseek v4 flash fast 加了一个 fast 后缀我就测了一下速度 但是 300t/s 是什么意思？？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238612#reply10
+
+---
+
+#### 9891. [V2EX] 自从上车过 A/和 OpenAI 的百刀套餐后，现在看一些工具软件的价格都觉得不算事儿了
+
+**问题描述 / Problem Description**:
+被 llm 把付费的心疼阈值给拉起来了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238592#reply1
+
+---
+
+#### 9892. [V2EX] 造轮子：交互式终端 ls+cd 工具
+
+**问题描述 / Problem Description**:
+链接： FAST is a Shell Traverser 针对的使用场景是在终端浏览巨大文件夹（目前只测试过~5000 文件）。主要特点： 在超大目录中依然响应迅速：目录会分批扫描并渲染，而不是等待完整扫描结束（所以整个过程中排序会有变动） 避免重复扫描：已访问的目录会连同其指纹信息一起保存，如果目录没有发生变化，就可以直接从缓存中显示，而无需重新完整扫描。 简单过滤：不区分大小写的子字符串匹配。 模糊过滤：在过滤模式下按 <Tab> ，即可从简单匹配切换到模糊匹配。 Shell 集成：目前支持 Bash ，Nushell ，Zsh 相似的工具有 broot 和 walk ，但是它们： 有很
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238576#reply0
+
+---
+
+#### 9893. [V2EX] 安卓 app 没有上架国内任何应用商店，如何使用支付功能呢？
+
+**问题描述 / Problem Description**:
+因为国内上架需要公司，流程复杂，有可能还上架失败，所以有什么可以使用的支付？求大佬推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238567#reply40
+
+---
+
+#### 9894. [V2EX] 请教下现在 app 端语音转文字 sdk 哪个好用些
+
+**问题描述 / Problem Description**:
+我们现在是用的百度的，产品觉得效果不好，又不想去每个 sdk 重新测试一遍。请教下大家实际使用哪家的方案比较好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238563#reply22
+
+---
+
+#### 9895. [V2EX] 存储表结构 RAG 与 Skill 哪个更优？
+
+**问题描述 / Problem Description**:
+最近接到任务尝试使用 qwen3.8 搭建内部数据分析平台，目前还是第一次尝试，离线基础环境已经配置好，我使用 2 年前的过时经验把表结构存到 chromadb ，用 mcp 服务器暴露给 opencode 调用。因为在离线环境，模型无法查阅数据库支持的函数文档，想再去官网 curl 一个文档，分块再存进知识库，顺便问了一下 deepseek ，它建议我把文档与表结构都做成 reference 给模型，说是方便维护且保持文档连续完整。 在我 2 年前的保守想象中，给上下文载入一堆 skill+reference+表结构无疑会撑满，即使对表结构按照业务模块分文件，单个 500+字段的模块也遍地都
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238559#reply13
+
+---
+
+#### 9896. [V2EX] opencode 被封了，也没说原因，有大佬遇见过吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238555#reply15
+
+---
+
+#### 9897. [V2EX] 只有国内注册的公司，海外收款用什么方案好？
+
+**问题描述 / Problem Description**:
+求推荐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238552#reply32
+
+---
+
+#### 9898. [V2EX] Antigravity 报错
+
+**问题描述 / Problem Description**:
+昨天还好好的，今天就不能用了 { "error": { "code": 400, "message": "User location is not supported for the API use.", "status": "FAILED_PRECONDITION" } } 切换了好几个节点还是不行但是上面的 claude4.6 还能用， 账号的地区也是美国， 开了 VPN 也开了 TUN 模式， 主要是昨天还好好的，今天怎么都用不了，也切换了很多节点就是不行，有和我一样的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238542#reply7
+
+---
+
+#### 9899. hdmi audio not working
+
+**问题描述 / Problem Description**:
+Tags: linux, audio, hdmi, pipewire | Score: 0 | Views: 26 | Answers: 1 | Created: 2026-09-01
+
+**解决方案 / Solution**:
+Profil actif : output:analog-stereo+input:analog-stereo You need to switch it to e.g. output:hdmi-stereo+input:analog-stereo or output:hdmi-surround+input:analog-stereo (so that you'd get an HDMI sink instead of the analog one). (If you need pipewire to do stereo downmixing for you, make sure you use a stereo profile instead of a surround one.) You can do it by running e.g.: pactl set-card-profile alsa_card.pci-0000_00_1f.3 output:hdmi-stereo+input:analog-stereo You shouldn't need to manually reroute the audio streams or switch the default sink after that since the analog sink should then be gone and replaced by an HDMI sink. Obviously if you want to get back to analog output you just run pactl set-card-profile with e.g. output:analog-stereo+input:analog-stereo instead. GUI utilities such as pavucontrol should provide you some drop down to switch the card profile as well. (To do it the "native" pipewire way, see e.g. this answer .) P.S. The reason that the extra1/2/3 ones are not what you should choose is because of their shown value of disponible -- apparently you are using (only) périphérique 3 : HDMI 0 at the moment. FWIW, the reason you are not provided with both an analog sink and an HDMI sink at the same time is because the two kinds of output is provide by one same card ( carte 0 ) -- this is not the case on every machine. For example on mine: $ aplay -l **** List of PLAYBACK Hardware Devices **** card 0: Generic [HD-Audio Generic], device 3: HDMI 0 [HDMI 0] Subdevices: 1/1 Subdevice #0: subdevice #0 card 0: Generic [HD-Audio Generic], device 7: HDMI 1 [HDMI 1] Subdevices: 1/1 Subdevice #0: subdevice #0 card 1: Generic_1 [HD-Audio Generic], device 0: ALC257 Analog [ALC257 Analog] Subdevices: 1/1 Subdevice #0: subdevice #0
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807227/hdmi-audio-not-working
+
+---
+
+#### 9900. [V2EX] 为什么 AI 在 win 平台天天都在肘击 powershell？🫪
+
+**问题描述 / Problem Description**:
+powershell 如此难用吗，大模型都绷不住🫪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238722#reply35
 
 ---
