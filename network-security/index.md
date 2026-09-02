@@ -4,14 +4,14 @@
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > This knowledge base aggregates publicly disclosed network security vulnerabilities. Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
 
-**总计条目 / Total entries: 8839**
+**总计条目 / Total entries: 8899**
 
 **🔗 导航 / Navigation**
 
 | 平台 / Platform | 条目数 / Entries | 链接 / Link |
 |---|---|---|
-| Windows | 962 | [windows.md](windows.md) |
-| Linux | 3480 | [linux.md](linux.md) |
+| Windows | 969 | [windows.md](windows.md) |
+| Linux | 3503 | [linux.md](linux.md) |
 | Macos | 1110 | [macos.md](macos.md) |
 
 ---

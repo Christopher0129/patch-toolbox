@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 962**
+**总计条目 / Total entries: 969**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14036,5 +14036,89 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52667
+
+---
+
+#### 963. [dos] EVerest 2025.9.0 - DoS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] EVerest 2025.9.0 - DoS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52679
+
+---
+
+#### 964. [webapps] Bludit CMS  3.20.0 - Reflected Cross-Site Scripting
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Bludit CMS 3.20.0 - Reflected Cross-Site Scripting
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52678
+
+---
+
+#### 965. [webapps] PodcastGenerator 3.2.9 - Stored XSS
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] PodcastGenerator 3.2.9 - Stored XSS
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52677
+
+---
+
+#### 966. [webapps] Ghost_CMS 6.19.0  - Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ghost_CMS 6.19.0 - Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52676
+
+---
+
+#### 967. [webapps] Langflow 1.10.0 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Langflow 1.10.0 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52675
+
+---
+
+#### 968. [hardware] Fullhan FH8626V100 - Multiple Vulnerabilities
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Fullhan FH8626V100 - Multiple Vulnerabilities
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52674
+
+---
+
+#### 969. [webapps] Marimo  0.20.4 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Marimo 0.20.4 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52673
 
 ---

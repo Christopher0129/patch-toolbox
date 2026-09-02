@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10414**
+**总计条目 / Total entries: 10458**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -141303,5 +141303,577 @@ See Reddit thread for community solutions and troubleshooting steps.
 
 **参考链接 / References**:
 - https://www.reddit.com/r/techsupport/comments/1w4s36o/cant_figure_out_why_im_lagging_only_on_pc/
+
+---
+
+#### 10415. Why does Acrobat consume so much memory?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5dewl/why_does_acrobat_consume_so_much_memory/
+
+---
+
+#### 10416. My vizio TV won't mirror from my android phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5o562/my_vizio_tv_wont_mirror_from_my_android_phone/
+
+---
+
+#### 10417. Streaming services lag on wifi, but run fine on vpn
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5k1j7/streaming_services_lag_on_wifi_but_run_fine_on_vpn/
+
+---
+
+#### 10418. My gpu disappeared.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5k2n4/my_gpu_disappeared/
+
+---
+
+#### 10419. PC making noise even while idle
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5jhfk/pc_making_noise_even_while_idle/
+
+---
+
+#### 10420. I can't boot into BIOS!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5jfzh/i_cant_boot_into_bios/
+
+---
+
+#### 10421. 5070ti underperforming by a lot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5p35n/5070ti_underperforming_by_a_lot/
+
+---
+
+#### 10422. Phone files not being displayed on PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5p0yw/phone_files_not_being_displayed_on_pc/
+
+---
+
+#### 10423. Syncing Outlook to iPhone deletes a ton of notes from my Notes app: I am trying out a solution
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5oxj0/syncing_outlook_to_iphone_deletes_a_ton_of_notes/
+
+---
+
+#### 10424. SD card corruption despite ejecting the drive before removing it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5ov5q/sd_card_corruption_despite_ejecting_the_drive/
+
+---
+
+#### 10425. My brand new headset is not recording sound from the mic
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5ou5k/my_brand_new_headset_is_not_recording_sound_from/
+
+---
+
+#### 10426. Is this possible to repair myself?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5oqn8/is_this_possible_to_repair_myself/
+
+---
+
+#### 10427. Im having trouble with my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5om5c/im_having_trouble_with_my_pc/
+
+---
+
+#### 10428. How to update the bios?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5ofvn/how_to_update_the_bios/
+
+---
+
+#### 10429. Is there a way to get a custom bios for HP laptops?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5oeoh/is_there_a_way_to_get_a_custom_bios_for_hp_laptops/
+
+---
+
+#### 10430. PC shuts off every 1-2hrs whilst gaming.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5hzcd/pc_shuts_off_every_12hrs_whilst_gaming/
+
+---
+
+#### 10431. Micro SD Card Not Letting Me Move Files Or Show Itself On My Phone Please Help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5o6lw/micro_sd_card_not_letting_me_move_files_or_show/
+
+---
+
+#### 10432. MS Paint's Copy-Paste altering the image, making it unusable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5o0f4/ms_paints_copypaste_altering_the_image_making_it/
+
+---
+
+#### 10433. PC shuts off when trying to boot Windows 11 USB
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5nz20/pc_shuts_off_when_trying_to_boot_windows_11_usb/
+
+---
+
+#### 10434. GPU driver crash after update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5nx99/gpu_driver_crash_after_update/
+
+---
+
+#### 10435. Tech upgrade options for elderly neighbour afraid of change
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5ncyi/tech_upgrade_options_for_elderly_neighbour_afraid/
+
+---
+
+#### 10436. Can this drive be rescued? Disks start spinning, a few clicks, and nothing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5n9xh/can_this_drive_be_rescued_disks_start_spinning_a/
+
+---
+
+#### 10437. Spilled water on laptop, keyboard not working correctly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5n3du/spilled_water_on_laptop_keyboard_not_working/
+
+---
+
+#### 10438. Powerbank not charging and won't turn on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w5mnjz/powerbank_not_charging_and_wont_turn_on/
+
+---
+
+#### 10439. [V2EX] 有大佬买过 Vibe Key 键盘麦的吗？真能明显提升生产效率/幸福感?
+
+**问题描述 / Problem Description**:
+我是看到了优篮子 AU05, 想试试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239054#reply3
+
+---
+
+#### 10440. [V2EX] 为期一天的 AI 硬件开发培训，会有人参加吗，
+
+**问题描述 / Problem Description**:
+地点：深圳南山西丽 内容：基于通讯协议，利用 Codex 、Claud Code 、国内的 AI 助手 对 AI 硬件进行编程， 硬件包括： 1.拼豆板。 2.录音卡。 3.AI 眼镜。 4.电子吧唧。 5.像素屏。 6.蓝牙跳单。 7.AI 双目。 8.AI 拍学机。 9.AI 学习宝。 时间：周末中的一天，周 6 或是周日。 人数：每期限定 10 人。 费用：199 ，学习完成感觉硬件有帮助，可以成本价购买 1 个。 另外：TypePHP 正式开源第一周：已获得 1.2k Star ，登上 Laravel News 头条 https://github.com/swoole/typephp/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239052#reply3
+
+---
+
+#### 10441. [V2EX] 现在电信连光猫都换了 IP 都不变？
+
+**问题描述 / Problem Description**:
+IP 已经一年多没变化了，重启过很多次都不会变化，然后昨天升级了电信套餐，换了万兆光猫，IP 依然没变化，什么情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239045#reply1
+
+---
+
+#### 10442. [V2EX] 开车是否是个危险的事，开车久了是不是几乎一定会出事故？
+
+**问题描述 / Problem Description**:
+我开车比较谨慎，不分心，及时减速，随时预判，开了几千公里，到现在没出过事故。 此为前提。 但我每次开车，都会遇到两三次差一点就事故的情况， 比如今天，开了三百公里回家，遇到了三次， 一 高速上 我在最左车道，最右车道有一辆车， 我准备变道到中间，看了后视镜，右后方无车。 结果变道一半，发现最右车道的也在变道，车头几乎要擦到我车尾， 我赶紧提速，才避免。 二 还是高速， 三车道，前后左右视野内都没车，我在中间车道，110 车道巡航。 左后方来了辆车， 在超过我的瞬间，突然贴着我车头变道到了中间。 我的车自动减速，从 110 瞬间减到 93 。 三 国道，绿灯， 一辆老年人骑摩托闯红灯，从左到右横
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239044#reply2
+
+---
+
+#### 10443. [V2EX] 有什么能开发票的 Coding Plan 推荐吗？
+
+**问题描述 / Problem Description**:
+最近公司发通知要报销 AI 的订阅费用了，但必须开发票，否则不给报销。 目前用的 Claude Pro 和 GPT Plus 都开不了国内发票，请教各位有什么能开发票的 Coding Plan 吗？ DeepSeek 涨价之后，国模貌似就 GLM 、KIMI 能打一点，这两家值得订阅吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239042#reply0
+
+---
+
+#### 10444. [V2EX] 在 windows 10 里面 有没有 类似 win98 的 超级终端： HyperTerminal ?
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239040#reply0
+
+---
+
+#### 10445. [V2EX] 搭在 github 上的网站突然不能访问了
+
+**问题描述 / Problem Description**:
+就是这个 xxxxx.github.io 的静态网站 之前我是能在国内访问的，但是今天看突然不行了 有什么好的解决办法吗？ 网站内容就是自己的个人简介
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239025#reply6
+
+---
+
+#### 10446. [V2EX] 之前站内有人卖的激活的 skinny 电话卡，现在发现号码被封了。有没有什么解决办法
+
+**问题描述 / Problem Description**:
+RT 我的好多平台都是这个手机号，各大 U 卡平台等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239022#reply5
+
+---
+
+#### 10447. [V2EX] 为啥游戏有重制版，硬件就没有呢，要是诺基亚，黑莓的经典机型，能复刻该多好啊
+
+**问题描述 / Problem Description**:
+如题，而且现在有 ai ，还能把塞班贝拉和黑莓 10 系统改一下支持 flutter 和 react native ，这样软件开发门槛也降低了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239017#reply3
+
+---
+
+#### 10448. [V2EX] AI 能代替培训班吗？
+
+**问题描述 / Problem Description**:
+比较好奇现在 AI 这么强大了，有没有专攻学生学习的 agent 啥的？直接代替现在的培训班。 就我所知很多培训班其实都挺坑的，我们那边一些初中毕业在工地干了几年混不下去的都敢去亲戚的培训班当老师教学生，整个就一家族化的生意，关键貌似还很多家长愿意投大量的钱在里边。 当然这里代替的培训班特指数理化英语语文之类的课堂培训班而不是舞蹈或者其他技能方面的培训班。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239005#reply9
+
+---
+
+#### 10449. [V2EX] 试了一个 AI 室内设计工具，我立马知道我要什么了
+
+**问题描述 / Problem Description**:
+最近在看家里客厅怎么改，收藏夹里已经塞了一堆参考图，但真轮到自己的房间，还是不知道木色、墙面和家具放在一起会是什么感觉。 前几天试了下 DwellShift 。原本以为它只是给房间套个风格滤镜，用下来发现更适合拿来排除方案。 流程比较直接：上传一张能看清完整房间的照片，选室内和房间类型，再挑风格。也可以不用现成风格，直接写自己的要求。我这次写得比较具体，比如保留现在的窗户和地面、木色不要太深、少放装饰，别把房间改得像酒店。 生成的图不一定每个细节都靠谱，但好处是我终于能说清楚哪里不喜欢。以前只能说“感觉不对”，看到图之后就能明确说，木色可以，整体太素，沙发还需要再深一点。这种反馈拿去和家里人讨
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238992#reply0
+
+---
+
+#### 10450. [V2EX] 大家觉得还要多久人类才能永生
+
+**问题描述 / Problem Description**:
+ai 加持了医疗领域的发展，说出你的看法，我想长生不老
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238983#reply51
+
+---
+
+#### 10451. [V2EX] M3 AIR 8G+256 笔记本还能卖多少钱？
+
+**问题描述 / Problem Description**:
+问问，感觉现在有点不够用了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238982#reply0
+
+---
+
+#### 10452. [V2EX] 请问有没有用于产品展示，带管理后台，方便维护的建站系统或网站
+
+**问题描述 / Problem Description**:
+朋友找我帮忙，说他自己的产品官网，想改成带有产品搜索和展示的，多一些交互操作的，目前还是纯静态网页，所以问下广大网友有没有什么推荐，我这边就不需要单独去帮他开发了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238973#reply6
+
+---
+
+#### 10453. [V2EX] 最近有什么好用的 AI 小说工具推荐的吗？
+
+**问题描述 / Problem Description**:
+2026 年了，感觉市面上的 AI 小说工具依然拉跨，写问只要超过 20 章就连亲妈是谁都忘了。真不知道网传的用 AI 写到白金作者是怎么来的，难道都是扩写，大家有没有一个好用的工具？ ps.问了 gpt ，给了几个目标工具，有的不开放给个人，有的架构设计看起来挺屌的，但是效果拉跨。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238969#reply4
+
+---
+
+#### 10454. [V2EX] 马上 40 了，搞代码搞不动了，又不知道能搞啥
+
+**问题描述 / Problem Description**:
+就算吉祥三宝、铁人三项也不是个长久之计。 好惆帐
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238966#reply19
+
+---
+
+#### 10455. [V2EX] 有没有可以生成模特图的 AI，给一件衣服，生成相应的上装图
+
+**问题描述 / Problem Description**:
+我生产衣服，拍模特图挺费钱的，现在在试用的 x 可图 app ，生成的风格不是我想要的。 有没有现成的 ai 可用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238964#reply1
+
+---
+
+#### 10456. [V2EX] GLM 能否平替 gpt plus？
+
+**问题描述 / Problem Description**:
+有用过这两个的老哥评价下他们写代码效果差距大吗？不可抗力不能用海外模型了，需要选一个国内好用的模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238963#reply1
+
+---
+
+#### 10457. [V2EX] 不知道这个话题能不能聊
+
+**问题描述 / Problem Description**:
+五界乱华是真事吗？抖音里视频博主头像都被处理了，公关这么强吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238959#reply15
+
+---
+
+#### 10458. [V2EX] 有小伙伴走过深圳出发环广西自驾吗？
+
+**问题描述 / Problem Description**:
+计划路线，10 天左右，全程大概 2500km 深圳 → 柳州 → 百色 → 崇左 → 防城港 → 北海 → 湛江 → 阳江 → 深圳 重点河池、百色、崇左、防城港边境看看
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238941#reply2
 
 ---

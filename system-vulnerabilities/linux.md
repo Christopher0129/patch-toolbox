@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3194**
+**总计条目 / Total entries: 3217**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -57550,5 +57550,373 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8706-1
+
+---
+
+#### 3195. CVE-2026-84356 - chromium-browser: chromium-browser: UI misrepresentation in FullScreen
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: UI misrepresentation in FullScreen. Bugzilla: 2527180
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527180
+
+---
+
+#### 3196. CVE-2026-84355 - chromium-browser: chromium-browser: Incorrect authorization in Navigation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in Navigation. Bugzilla: 2527160
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527160
+
+---
+
+#### 3197. CVE-2026-84323 - chromium-browser: chromium-browser: Missing authorization in FileSystem
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Missing authorization in FileSystem. Bugzilla: 2527171
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527171
+
+---
+
+#### 3198. CVE-2026-84358 - chromium-browser: chromium-browser: Improper privilege management in Downloads
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper privilege management in Downloads. Bugzilla: 2527174
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527174
+
+---
+
+#### 3199. CVE-2026-84351 - chromium-browser: chromium-browser: Buffer overflow in GPU
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Buffer overflow in GPU. Bugzilla: 2527170
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527170
+
+---
+
+#### 3200. CVE-2026-84349 - chromium-browser: chromium-browser: Use after free in Browser
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in Browser. Bugzilla: 2527162
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527162
+
+---
+
+#### 3201. CVE-2026-84357 - chromium-browser: chromium-browser: Improper input validation in Omnibox
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper input validation in Omnibox. Bugzilla: 2527163
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527163
+
+---
+
+#### 3202. CVE-2026-84359 - chromium-browser: chromium-browser: Information leak in Skia
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Information leak in Skia. Bugzilla: 2527168
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527168
+
+---
+
+#### 3203. CVE-2026-84375 - js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing. Bugzilla: 2527118
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527118
+
+---
+
+#### 3204. CVE-2026-84641 - thunderbird: Thunderbird: Information disclosure via malicious IMAP server response
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] thunderbird: Thunderbird: Information disclosure via malicious IMAP server response. Bugzilla: 2527115
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527115
+
+---
+
+#### 3205. CVE-2026-84373 - vitest: Vitest: Arbitrary File Read via Path Traversal in HMR WebSocket
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vitest: Vitest: Arbitrary File Read via Path Traversal in HMR WebSocket. Bugzilla: 2527102
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527102
+
+---
+
+#### 3206. CVE-2026-84637 - thunderbird: Thunderbird: Arbitrary code execution via malicious calendar…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] thunderbird: Thunderbird: Arbitrary code execution via malicious calendar invitation attachments. Bugzilla: 2527103
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527103
+
+---
+
+#### 3207. CVE-2026-84361 - composer: Composer: Arbitrary code execution via malicious Perforce source URL
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] composer: Composer: Arbitrary code execution via malicious Perforce source URL. Bugzilla: 2527051
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527051
+
+---
+
+#### 3208. CVE-2026-84311 - pypdf: pypdf: Denial of Service via crafted PDF XForm objects
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF XForm objects. Bugzilla: 2527050
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527050
+
+---
+
+#### 3209. CVE-2026-84310 - pypdf: pypdf: Denial of Service via crafted PDF outlines
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF outlines. Bugzilla: 2527049
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527049
+
+---
+
+#### 3210. CVE-2026-84202 - modelscope: ModelScope: Arbitrary code execution via unsafe YAML deserialization
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] modelscope: ModelScope: Arbitrary code execution via unsafe YAML deserialization. Bugzilla: 2526873
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526873
+
+---
+
+#### 3211. CVE-2026-70409 - eldap: eldap: Denial of Service via long LDAP referral URL port
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] eldap: eldap: Denial of Service via long LDAP referral URL port. Bugzilla: 2526853
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526853
+
+---
+
+#### 3212. CVE-2026-83618 - xmldom: xmldom: DocumentType injection bypass via embedded line terminators
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: xmldom: DocumentType injection bypass via embedded line terminators. Bugzilla: 2526855
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526855
+
+---
+
+#### 3213. CVE-2026-83616 - xmldom: xmldom: XML Structure Injection via Unvalidated Processing Instruction…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: xmldom: XML Structure Injection via Unvalidated Processing Instruction Targets. Bugzilla: 2526858
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526858
+
+---
+
+#### 3214. CVE-2026-83615 - xmldom: @xmldom/xmldom: xmldom: Denial of Service via quadratic memory consumption
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: @xmldom/xmldom: xmldom: Denial of Service via quadratic memory consumption. Bugzilla: 2526843
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526843
+
+---
+
+#### 3215. [Ubuntu] USN-8661-4: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8661-4
+
+---
+
+#### 3216. [Ubuntu] USN-8714-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - OCFS2 file system; - SCTP protocol; (CVE-2026-53043, CVE-2026-53224, CVE-2026-53225, CVE-2026-53246, CVE-2026-53309)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8714-1
+
+---
+
+#### 3217. [Ubuntu] USN-8713-1: BioSig vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Mark Bereza and Lilith Wyatt discovered that BioSig incorrectly handled certain crafted input files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-22891, CVE-2026-20777)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8713-1
 
 ---

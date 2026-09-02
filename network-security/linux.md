@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3480**
+**总计条目 / Total entries: 3503**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -51007,5 +51007,281 @@ Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft E
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202609-01
+
+---
+
+#### 3481. CVE-2026-84356 - chromium-browser: chromium-browser: UI misrepresentation in FullScreen
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: UI misrepresentation in FullScreen. Bugzilla: 2527180
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527180
+
+---
+
+#### 3482. CVE-2026-84355 - chromium-browser: chromium-browser: Incorrect authorization in Navigation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in Navigation. Bugzilla: 2527160
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527160
+
+---
+
+#### 3483. CVE-2026-84323 - chromium-browser: chromium-browser: Missing authorization in FileSystem
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Missing authorization in FileSystem. Bugzilla: 2527171
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527171
+
+---
+
+#### 3484. CVE-2026-84358 - chromium-browser: chromium-browser: Improper privilege management in Downloads
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper privilege management in Downloads. Bugzilla: 2527174
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527174
+
+---
+
+#### 3485. CVE-2026-84351 - chromium-browser: chromium-browser: Buffer overflow in GPU
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Buffer overflow in GPU. Bugzilla: 2527170
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527170
+
+---
+
+#### 3486. CVE-2026-84349 - chromium-browser: chromium-browser: Use after free in Browser
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in Browser. Bugzilla: 2527162
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527162
+
+---
+
+#### 3487. CVE-2026-84357 - chromium-browser: chromium-browser: Improper input validation in Omnibox
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper input validation in Omnibox. Bugzilla: 2527163
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527163
+
+---
+
+#### 3488. CVE-2026-84359 - chromium-browser: chromium-browser: Information leak in Skia
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Information leak in Skia. Bugzilla: 2527168
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527168
+
+---
+
+#### 3489. CVE-2026-84375 - js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing. Bugzilla: 2527118
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527118
+
+---
+
+#### 3490. CVE-2026-84641 - thunderbird: Thunderbird: Information disclosure via malicious IMAP server response
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] thunderbird: Thunderbird: Information disclosure via malicious IMAP server response. Bugzilla: 2527115
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527115
+
+---
+
+#### 3491. CVE-2026-84373 - vitest: Vitest: Arbitrary File Read via Path Traversal in HMR WebSocket
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] vitest: Vitest: Arbitrary File Read via Path Traversal in HMR WebSocket. Bugzilla: 2527102
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527102
+
+---
+
+#### 3492. CVE-2026-84637 - thunderbird: Thunderbird: Arbitrary code execution via malicious calendar…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] thunderbird: Thunderbird: Arbitrary code execution via malicious calendar invitation attachments. Bugzilla: 2527103
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527103
+
+---
+
+#### 3493. CVE-2026-84361 - composer: Composer: Arbitrary code execution via malicious Perforce source URL
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] composer: Composer: Arbitrary code execution via malicious Perforce source URL. Bugzilla: 2527051
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527051
+
+---
+
+#### 3494. CVE-2026-84311 - pypdf: pypdf: Denial of Service via crafted PDF XForm objects
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF XForm objects. Bugzilla: 2527050
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527050
+
+---
+
+#### 3495. CVE-2026-84310 - pypdf: pypdf: Denial of Service via crafted PDF outlines
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] pypdf: pypdf: Denial of Service via crafted PDF outlines. Bugzilla: 2527049
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527049
+
+---
+
+#### 3496. CVE-2026-84202 - modelscope: ModelScope: Arbitrary code execution via unsafe YAML deserialization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] modelscope: ModelScope: Arbitrary code execution via unsafe YAML deserialization. Bugzilla: 2526873
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526873
+
+---
+
+#### 3497. CVE-2026-70409 - eldap: eldap: Denial of Service via long LDAP referral URL port
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] eldap: eldap: Denial of Service via long LDAP referral URL port. Bugzilla: 2526853
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526853
+
+---
+
+#### 3498. CVE-2026-83618 - xmldom: xmldom: DocumentType injection bypass via embedded line terminators
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: xmldom: DocumentType injection bypass via embedded line terminators. Bugzilla: 2526855
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526855
+
+---
+
+#### 3499. CVE-2026-83616 - xmldom: xmldom: XML Structure Injection via Unvalidated Processing Instruction…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: xmldom: XML Structure Injection via Unvalidated Processing Instruction Targets. Bugzilla: 2526858
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526858
+
+---
+
+#### 3500. CVE-2026-83615 - xmldom: @xmldom/xmldom: xmldom: Denial of Service via quadratic memory consumption
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] xmldom: @xmldom/xmldom: xmldom: Denial of Service via quadratic memory consumption. Bugzilla: 2526843
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526843
+
+---
+
+#### 3501. [Ubuntu] USN-8661-4: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Siebe Devroe, Héloïse Gollier, and Mathy Vanhoef discovered that the WiFi implementation in the Linux kernel did not properly handle aggregated frames in mesh networks, due to an incorrect fix for CVE-2020-24588. A physically proximate attacker could use this issue to inject packets. (CVE-2025-27558) Several security issues were discovered in the Linux kernel. An attacker could possibly use these
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8661-4
+
+---
+
+#### 3502. [Ubuntu] USN-8714-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - OCFS2 file system; - SCTP protocol; (CVE-2026-53043, CVE-2026-53224, CVE-2026-53225, CVE-2026-53246, CVE-2026-53309)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8714-1
+
+---
+
+#### 3503. [Ubuntu] USN-8713-1: BioSig vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Mark Bereza and Lilith Wyatt discovered that BioSig incorrectly handled certain crafted input files. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-22891, CVE-2026-20777)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8713-1
 
 ---

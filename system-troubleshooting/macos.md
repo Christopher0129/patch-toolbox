@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9429**
+**总计条目 / Total entries: 9491**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -126877,5 +126877,811 @@ See Reddit thread for community solutions and troubleshooting steps.
 
 **参考链接 / References**:
 - https://www.reddit.com/r/MacOS/comments/1w4t01m/startup_too_quick_and_im_having_issues_with/
+
+---
+
+#### 9430. New Mac user here - is it true that simply dragging an app to the trash doesn’t completely remove it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5c5vs/new_mac_user_here_is_it_true_that_simply_dragging/
+
+---
+
+#### 9431. Here's how to allow light website colors in Safari's Tab Bar in dark mode
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w591cl/heres_how_to_allow_light_website_colors_in/
+
+---
+
+#### 9432. The system settings interface feels like a mess, it takes more time than it should finding things
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5978w/the_system_settings_interface_feels_like_a_mess/
+
+---
+
+#### 9433. Water got into my MacBook Pro and now it keeps startup chiming while closed — safe to fly with it?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5p74s/water_got_into_my_macbook_pro_and_now_it_keeps/
+
+---
+
+#### 9434. Washed out HDR on MacOS (LG 27GX704A-B)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5odzj/washed_out_hdr_on_macos_lg_27gx704ab/
+
+---
+
+#### 9435. M2 Macbook struggling with multitasking, not sure if it's expected
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5mpvp/m2_macbook_struggling_with_multitasking_not_sure/
+
+---
+
+#### 9436. Nudge scrolling: sometimes works, sometimes not?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5mhku/nudge_scrolling_sometimes_works_sometimes_not/
+
+---
+
+#### 9437. how can i give my 12 year old mac a good life before i put it out of its misery?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w51yx1/how_can_i_give_my_12_year_old_mac_a_good_life/
+
+---
+
+#### 9438. Tahoe 26.6.2 Responsiveness
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5fiqf/tahoe_2662_responsiveness/
+
+---
+
+#### 9439. How to know what caused this battery drain overnight?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5de4z/how_to_know_what_caused_this_battery_drain/
+
+---
+
+#### 9440. MacBook Air getting hundreds of errors per minute
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5jh05/macbook_air_getting_hundreds_of_errors_per_minute/
+
+---
+
+#### 9441. What exactly is Apple looking to release?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w546w8/what_exactly_is_apple_looking_to_release/
+
+---
+
+#### 9442. Made some custom Steam game icons!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5aq7g/made_some_custom_steam_game_icons/
+
+---
+
+#### 9443. widget wont delete
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5fe3j/widget_wont_delete/
+
+---
+
+#### 9444. How can I download garage band on to my MacBook Pro 2017
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w58wym/how_can_i_download_garage_band_on_to_my_macbook/
+
+---
+
+#### 9445. is setup supposed to take forever??
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w4y9cz/is_setup_supposed_to_take_forever/
+
+---
+
+#### 9446. Storage almost full. Need help with offloading options.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w4wvnd/storage_almost_full_need_help_with_offloading/
+
+---
+
+#### 9447. Something with iCloud Crippling my Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w57k65/something_with_icloud_crippling_my_mac/
+
+---
+
+#### 9448. Switching from intel MBP to M5 MBP what new macOS feature are you”new”
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w4xpx1/switching_from_intel_mbp_to_m5_mbp_what_new_macos/
+
+---
+
+#### 9449. Yersterday I proceeded to command r the mac which put the mvaerick again like a reinstall then I got Mac OS X and tryna install Monterey right now sure, the macOS x don’t have any internet available is slow as fuck and want my Monterey to enjoy my shit again
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5loe6/yersterday_i_proceeded_to_command_r_the_mac_which/
+
+---
+
+#### 9450. How to screenshot while phone mirroring?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w53b8m/how_to_screenshot_while_phone_mirroring/
+
+---
+
+#### 9451. UI/UX wise why did they move Volume HUD to the top right corner instead of leaving it the bottom center? Is it any better?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w54hst/uiux_wise_why_did_they_move_volume_hud_to_the_top/
+
+---
+
+#### 9452. Does anyone know the location of the HDD .icns file?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w57qga/does_anyone_know_the_location_of_the_hdd_icns_file/
+
+---
+
+#### 9453. [V2EX] 有人知道这图片里的软件名字吗？
+
+**问题描述 / Problem Description**:
+有人知道图片里从左到右，第一个，第四个，和最后一个的软件名字吗？ 各位大神
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239019#reply2
+
+---
+
+#### 9454. [V2EX] 给 MAC 的备忘录做了个显示字数的状态栏小软件
+
+**问题描述 / Problem Description**:
+经常在 MAC 上使用备忘录写稿。一直苦于没有字数显示，在某些讲究字数的时候很难受，于是自己用 CodeX 做了个。 https://github.com/gs666/WordCountNotebook 一个只驻留在 macOS 菜单栏的小工具。当 Apple“备忘录”位于前台时，它会读取当前笔记，并在菜单栏显示字数；使用鼠标或键盘选中文字时，会改为显示选中区域的字数，取消选择后自动恢复全文字数。切换到其他应用后会立即停止计时器和内容读取，只监听系统的前台应用切换通知。 构建 ./scripts/ build-app.sh 构建产物位于 dist/ 备忘录字数.app ，可发送给其他 M 芯片
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239018#reply0
+
+---
+
+#### 9455. [V2EX] Mac 上知名截图软件 CleanShot X 付费升级有效期才一年？！
+
+**问题描述 / Problem Description**:
+有点像订阅制，每年收我 130 元，老外的软件好用但真是贵。 尝试几个国内开发的截图软件，体验都不咋地。 我的是支持 2 台 Mac ，如果有老哥想和我一起分担下，可以留个联系方式，价格 65 （以后是否升级再商量）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239007#reply11
+
+---
+
+#### 9456. [V2EX] 发现 aria2c 的服务端差不多就能对付凑合替换 NDM NeatDownloadManager 啊是不是？
+
+**问题描述 / Problem Description**:
+NDM 好些年没更了，并且它也是英特尔 X86 的核心，在 arm 的 Mac 之下，需要转译。 最近也一直在凑合着用，但是最近发现他在访问某些网站的时候，疯狂地在下载点 DAT ，并且还弹窗，受不了了 好在现在有 AI 也方便了，当然也可以用 AI 来魔改一下它的相关东西，但是没想到问了一下，AI 有这种可替代性的 像 aria2c 这种东西，只要一个服务端就可以，平时内存看见只有 7MB 占用.然后下了一个 Chrome 的扩展，算是它的前台界面了。一连接上，前端和后端都解决了. 再找 NDM 的途中,看见了各种大神开发的东西，有 ghost downloader, 好像还有一些个别的,我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238809#reply3
+
+---
+
+#### 9457. [V2EX] 开发机， i7-127k 和 M4 怎么选
+
+**问题描述 / Problem Description**:
+公司提供的机器。 I7 开发机：I7-12700k ，32 ，核显 Mac 开发机：M4 ，24 ，500G 是性能差距不大对吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238655#reply16
+
+---
+
+#### 9458. [V2EX] Stash for Mac 怎么样?
+
+**问题描述 / Problem Description**:
+话说 Stash for Mac 怎么卖这么贵, 与 Clash 系相比有什么独特的优势之处吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238647#reply11
+
+---
+
+#### 9459. [V2EX] LaunchOS 评测：把被苹果砍掉的 Launchpad，重新带回 macOS 26
+
+**问题描述 / Problem Description**:
+以前大家嫌 Launchpad 不好用，觉得它不过是把 Applications 文件夹里的应用铺成一个大网格，像 iOS 的主界面一样占满整个屏幕。结果 Apple 在 macOS 26 里真把它删了，换成了一款叫“App”的应用——很多人（包括我自己）反而开始怀念它了。 原因很简单：有些人靠视觉记忆工作，记住一个图标的位置比在 Spotlight 里敲名字快得多。我自己每换一台新 Mac ，都要花半个小时把应用按老样子重新排列进 Launchpad 。失去了 Launchpad 之后难受了几周，直到第三方解决方案陆续出现。 其中有一款从发布之初就备受关注—— LaunchOS ，来自 Re
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237011#reply26
+
+---
+
+#### 9460. [V2EX] 做了个 Mac 菜单栏备份 App， Keelhaven，开源免费
+
+**问题描述 / Problem Description**:
+用 restic 好几年了，命令行那部分我一直很信任，不信任的是我自己：定时任务不知道 什么时候起就悄悄失败了，我是过了几周才发现的。 所以做了 Keelhaven ，一个 macOS 菜单栏 App 。选文件夹、选目的地、设个频率，剩下的 它自己跑，失败了才出声。 目的地是你自己的：外置硬盘、任何 S3 兼容的桶（ B2 、R2 、Wasabi 、自建 MinIO 都行）、 或者 SFTP 到自己的 NAS 。没有账号系统，没有我的服务器，不发任何遥测——App 里根本 没有能往外发东西的地方。 几个我觉得值得说的点： 备份出来的就是 标准 restic 仓库 。任何一台机器上 restic
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239062#reply0
+
+---
+
+#### 9461. [V2EX] 有人用过 OCLP 给老电脑强制升级 macos 吗
+
+**问题描述 / Problem Description**:
+手里的电脑是 15-inch,2017, 16G 内存，2133MHz 。最新系统版本只支持到 Ventura 13.7.8 网上查到了这个工具，打算试试，有用过的朋友吗，效果咋样?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239038#reply2
+
+---
+
+#### 9462. [V2EX] 有人 App Store 订阅 claude 从 5x 升级到 20x 的吗？会退差价吗
+
+**问题描述 / Problem Description**:
+rt ，fable 5.1 一个任务给我 5h 限额干没了，任务还没干完
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238998#reply2
+
+---
+
+#### 9463. [V2EX] 各位 Apple 的 Inteler 是时候说再见了～
+
+**问题描述 / Problem Description**:
+Apple 通知开发者，要求 macOS 13 及以上的 Mac App Store 通用应用现可弃用 Intel Mac 支持，以简化开发并优化下载与设备占用。弃用后 Intel Mac 不再收到更新，但用户可继续使用最后兼容版本。 来自新 CEO 的关爱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238986#reply11
+
+---
+
+#### 9464. [V2EX] 美区苹果账户如何解封
+
+**问题描述 / Problem Description**:
+apple 账户更新 app 展示“你的账户已在 App store 和 itunes”中被禁用 https://iforgot.apple.com/password/verify/appleid 中输入 apple 账户+验证码，提示“发生错误，无法完成你的请求。请稍后再试。” 有什么解封方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238907#reply9
+
+---
+
+#### 9465. [V2EX] [送码]做了个苹果验机小程序，欢迎 V 友来试用，送十个验机码
+
+**问题描述 / Problem Description**:
+大家好，最近做了一个苹果设备查询小程序，叫 「果知验机助手」 。 支持拍照识别或手动输入序列号、IMEI ，可以查询设备型号、激活保修、机器类型、MDM 、ID 锁、网络锁、黑名单，以及 GSX 维修换机等信息。 小程序刚上线，报告内容和使用体验肯定还有不少需要调整的地方，想请 V 友们来体验一下。哪里看不懂、有没有漏项，或者和其他工具相比哪里做得不好，都欢迎直接提意见。 验机码使用方法 进入 「果知验机助手」小程序 → 我的 → 验机码验机 ，输入下面的验机码后，可以拍照识别或手动填写设备的序列号、IMEI 进行查询。 这次一共准备了 10 个一次性验机码 ，每个码只能使用一次，先到先得。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238787#reply6
+
+---
+
+#### 9466. [V2EX] [求助] iPhone 的 nfc 突然不能用了
+
+**问题描述 / Problem Description**:
+之前一直好好的, 有一天突然不能用了. 设置里的 nfc 开关是灰的, 不能打开. Restart iPhone 也不行. 手机是 iPhone11. 你们遇到过这种情况吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238753#reply4
+
+---
+
+#### 9467. [V2EX] [送码]我开发的 iOS 原生多功能聚合翻译 app 终于上架 App Store 了
+
+**问题描述 / Problem Description**:
+最近开发的一款 iOS 原生翻译 app 终于上架 App Store 了，正式版已经支持了 iOS 18 （未针对 iOS 18 优化 UI ，某些地方看起来可能和 iOS 18 的设计风格不一样，推荐使用 iOS 26 及以上系统），也支持了 iPad 布局，欢迎大家体验 全部地区都上架了，App Store 链接： https://apps.apple.com/cn/app/%E7%BA%AF%E7%B2%B9%E7%BF%BB%E8%AF%91/id6782774881 也可以在国区商店搜索“纯粹翻译”或在外区商店搜索“Crosslate”，本来英文名应该是“PureTranslate
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238694#reply24
+
+---
+
+#### 9468. [V2EX] 发现 macOS FaceTime 比手势耶 ✌️ 会触发画面自动升气球 🎈 特效
+
+**问题描述 / Problem Description**:
+发现 macOS FaceTime 比手势耶 ✌️ 会触发画面自动升气球 🎈 特效，不清楚什么时候就有的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238650#reply5
+
+---
+
+#### 9469. [V2EX] 使用了十四年 IOS 原生输入法， IOS27 的输入法终于快把我逼疯了
+
+**问题描述 / Problem Description**:
+最近打多个词几乎每个都联想错误，以前从没有这种体验，我真的受不了了😭 已下微信和豆包输入法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238591#reply80
+
+---
+
+#### 9470. [V2EX] Magic Mouse 要怎么移动指针？
+
+**问题描述 / Problem Description**:
+用来十多年 Mac 了，不管是触控板还是罗技加功能键，用着都很顺手。 唯独这个鼠标，真是收收放放好几次，就是没找到过顺手姿势。 昨天看到有社友提到，就又翻出来了。不得不说质量是真好，吃灰十几年了，居然和新的一样。 看过好多说 Magic Mouse 好用的帖子、视频。我不否认它各种手势，甚至比触控板手感好。 但是，我就想知道屏幕上那个指针，怎么能舒服的动起来？ 办公最多的场景，选中文档中一段文字，复制粘贴或者修改；选中电子表格某个区域，修改样式。写 ppt ，把素材拖到文档中。 试了各种手势移动屏幕中的指针，不是鼠标不跟手，就是硌手。无奈又把它收起来了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238538#reply13
+
+---
+
+#### 9471. [V2EX] macOS 27 相比 26 体感上有性能提升吗
+
+**问题描述 / Problem Description**:
+如题, 我是 m4 的 mbp, 想参考下, 要不要升级 27 public beta 主观或者客观的结论都可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238457#reply17
+
+---
+
+#### 9472. [V2EX] 搞了个 giffgaff，看看会不会封，注册了土区 appstore，买了小火箭， codex 和 cc
+
+**问题描述 / Problem Description**:
+搞了个 giffgaff 前段时间看 v2 上好多说被封的，现在除了 giffgaff 好像也没更好的选择了吧？ 用途：接收验证码，不打电话。 各位大佬有什么推荐吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238293#reply24
+
+---
+
+#### 9473. [V2EX] 想给 Apple Watch 再添置一个充电器，不知道这种充电器是否靠谱
+
+**问题描述 / Problem Description**:
+就像这张图里的这种，没有线，只有无线充电底座本身的那种。 https://img.cdn1.vip/i/6a94520d6b14d_1788105229.webp 目前原装的充电线已经被我固定在桌搭里了，想着出远门的时候肯定还是需要手表的充电器的，而且原装的这条，从桌搭上拆下来还是比较麻烦的，想着弄一个便携的，放在包里放着。 如果不妥的话，那就只能买官方的了，或者是说有别的好选择也可以推荐一下，感激不尽。 目前手上的是 S11 ，国行的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238239#reply33
+
+---
+
+#### 9474. [V2EX] 小孩子照片多，听人劝，吃饱饭，做了如下部署
+
+**问题描述 / Problem Description**:
+前期发过帖子，很多人给意见，综合我的需求和条件，做了以下部署，还算优雅，各位还有更优雅的方案吗？ https://www.v2ex.com/t/1230534?p=1#reply61 **iPhone → iCloud → icloudpd → DXP2800 黑群晖 → Immich** - **iCloud**：iPhone 云端照片同步 - **icloudpd**：自动下载原始照片到 NAS - **Immich**：只读管理照片、人脸识别、智能搜索 - **DXP2800**：N100 + RR 黑群晖，提供存储及硬件加速 **iCloud 管云端，icloudpd 管备份，Immi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238207#reply23
+
+---
+
+#### 9475. [V2EX] [开源] 💘C × SDL3 × OpenGL，将三股神秘力量聚合在一起！ Bong~ BongoCat!
+
+**问题描述 / Problem Description**:
+去年 12 月份的的时候和佬们分享了我是如何 用纯 C 仅用 100kb 就是实现了 runcat 的 托盘动画 ，同时还支持 自定义 GIF ❗️ 记得刚开始做 Catime 的时候有一个 心结 🥺，就是 纯 C 来做 ui 真的是一种灾难 ， 当时的想法是语言本身的问题，毕竟.... Catime 的第一版 Ui 自然就是跟上个世纪的 老古董 一样丑，是真的丑！ 后续虽然引入了 Windows Common Controls 6.0 带来了些看起来现代的外观，但是 唔~咋说呢，看起来就是稍微 好了那么一点点 ，但是看起来这不依然还是个 老古董 嘛 ，而且在 win10 上这个是没有的，导致
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239049#reply0
+
+---
+
+#### 9476. [V2EX] 是否所有同时带有实体卡槽与 eSIM 的手机都只能将 eSIM 置于 SIM2 的地位？
+
+**问题描述 / Problem Description**:
+是否所有同时带有实体卡槽与 eSIM 的手机都只能将 eSIM 置于 SIM2 的地位，而无法将 eSIM 置于 SIM1 的地位？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239021#reply8
+
+---
+
+#### 9477. [V2EX] 这次真要好好表扬下某东啊
+
+**问题描述 / Problem Description**:
+2020 年自营买了个西门子洗衣机,上个月搬完家,洗衣机脱水异常 想着找西门子官方能售后能靠谱点 直接找西门子维修了, 380 块 换了 3 跟减震,给京东打电话说明情况,还给我补贴了 120 现金 但洗衣机没出一周,再次出现相同故障,这次换了个西门子的人来,看来看去,解决不了.就走了 当天联系西门子客服,京东客服,发故障视频后,第二天我就把洗衣机 100 块出掉了,在拖下去劳神伤财.直接买台新的 第二天也收到京东回复,说帮我要回 380 维修费,退不了就从西门子货款里面扣.其实我没抱太大希望 西门子今天早上才给我回消息,费用无法退还,给我送点小礼品,叫我考虑下??? 后面京东也没联系我,就刚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239015#reply6
+
+---
+
+#### 9478. [V2EX] 自己的多出来的 Token 准备弄个中转站，到时候可以来一波福利。
+
+**问题描述 / Problem Description**:
+Vibe Coding 一年了，尝试了好多家 API ，竟然让我把这个生态玩明白了。终于找到一批性价比高的供应商了，最近买多了后面准备自己搭个 router 对外营业，到时候发一批福利大家来捧场，网站过几天就能上线了。前 100 评论回复的到时候给一些试用额度。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238999#reply4
+
+---
+
+#### 9479. [V2EX] Android 17 以后想要自由安装 APP 可费劲了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238977#reply1
+
+---
+
+#### 9480. [V2EX] 受够了 syncthing-android 的老旧 UI，我用 AI 重构了整个客户端（+10k / -12k）
+
+**问题描述 / Problem Description**:
+大家好，我是 Syncthing 的重度用户，日常用它在手机、电脑和 NAS 之间同步笔记（ Obsidian ）、照片和各种工作文件。 虽然官方版停更后有了优秀的 Syncthing-Fork ，底层和保活做得很扎实，但作为一个颜值强迫症，那个停留在几年前 Android 4.x/5.x 时代的 UI 和交互实在让我有点忍受不了。 于是我决定动手重构一套符合现代 Android 设计语言的全新 UI 。 这次巨量重构并非我一行行手敲几个月，而是我使用 GLM-5.3 Flash 模型 + opencode （感谢基元律动的馈赠）协同完成的。 不仅重写了前端展示与交互层，还借由 AI 的极高吞
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238968#reply0
+
+---
+
+#### 9481. [V2EX] 一个关于 code agent 的观察
+
+**问题描述 / Problem Description**:
+今天逛 trending 突然意识到的，就是这个 built by 里面，基本都是 claude code ，零星的 cursor ，基本看不见 codex 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238934#reply1
+
+---
+
+#### 9482. [V2EX] 做了个 AI 额度重置的监控网站 codexreset.vercel.app，把目前能监控的都监控上了，主要做了两个事情，时区的转换，让重置时间更直观；还让 AI 做了个预测，图
+
+**问题描述 / Problem Description**:
+Codex ，GLM ，Grok ，Grok Bot ，Claude
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238918#reply0
+
+---
+
+#### 9483. [V2EX] 关于我被我老婆白嫖劳动力搞工具站这件事🌚
+
+**问题描述 / Problem Description**:
+媳妇儿体制内的，完全不懂技术，天天问我对着电脑敲的代码能做个啥 我就说，说不定你现在刷的功能就是我写的，她直接一脸震惊：你做的抖音吗？？ 这误会一下就变大了，我赶紧解释说我没这么大本事 😂 后来给她看我做的功能，她看完还问，那是你做的抖音吗？ 我想了想，干脆从零做个站，全部自己写，给她秀上一波 也不做特别复杂的，就做工具站，又简单，又不能花很多钱。 第一个做的经期记录，直接给她用，用完说好用，那你能不能做个美柚给我🥺 一头攮地上。 有了第一个工具，现在是越做越上头，一直想往里面加工具。 现在也攒出来了 20 多个工具：个税、房贷、BMI 、汇率、日期、二维码这些，不过媳妇儿还是爱用预测那个，说
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238900#reply7
+
+---
+
+#### 9484. [V2EX] 开源的 macOS 熄屏待机 App
+
+**问题描述 / Problem Description**:
+一款熄屏但让 macOS 继续保持运行的 App 。 适用场景：挂机下载/降低功耗/远程会话/ChatGPT 远程连接等。 完全免费且开源，enjoy it. https://xyz-ai.app/never-sleep/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238896#reply6
+
+---
+
+#### 9485. [V2EX] 分享一组猫猫壁纸~瑞子联名的 Mind a day 小猫咪
+
+**问题描述 / Problem Description**:
+From 博主：少吃饭多睡觉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238834#reply14
+
+---
+
+#### 9486. [V2EX] 原来网页版 codex 才是满血的 5.6 sol
+
+**问题描述 / Problem Description**:
+应该是 IP 不干净，用的是 5.6 sol ，实际上是 luna 。大半夜的，突然悟了... 网页版 codex 是满血版，让他做好计划到本地用 luna 跑 你不是能掺水吗，那我直接 luna max 好吧... 前情提要： 应该是昨天吧，明明能跑通的流程突然就烂了。然后查了一下，果然给我路由到 luna 比如访问私有仓库，硬说我登录状态失效。但实际上我在记忆、知识库和项目说明里都明确表示这个仓库用密钥登录。codex 愣是看不到，半个钟一直在排错，和不存在的 bug 斗智斗勇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238799#reply2
+
+---
+
+#### 9487. [V2EX] 法律草案征求意见-摩托车友可以去提建议
+
+**问题描述 / Problem Description**:
+道路交通安全法（修订草案）征求意见 http://www.npc.gov.cn/flcaw/ 截止时间为 2026-09-26 想到 开汽车的 骑电瓶车 摩托车的人 有意见的都可以去提 电瓶车 限速 25 是个槽点 但和这个是国标 道交法里则是限速 15 第五十八条 残疾人机动轮椅车、电动自行车在非机动车道内行驶时，最高时速不得超过十五公里。 摩托车 限摩政策一团乱麻 各地标准不一 在一线城市上班 骑摩托车成本高 汽车 没驾照 想不到啥槽点 另外有个槽点 人大网不支持 https 访问 http://www.npc.gov.cn/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238758#reply2
+
+---
+
+#### 9488. [V2EX] 写在女儿上幼儿园第一天
+
+**问题描述 / Problem Description**:
+今天是 9 月 1 日. 放在几年前,我不会关注.但今天是我女儿上幼儿园的第一天,我牵着她的手从大门进入到了教室,这一切对她来说都是新鲜的. 我小心问老师“我要走了,需要给娃打招呼吗？” 老师简单让我说下就好了. 隔着玻璃,我看她似懂非懂听着老师的话,这是我第一次感到要放手. 孩子妈,过会来了电话,问有没有哭。女儿没哭,我倒是眼睛红了. 我回想到女儿刚出生时,我对护士说的第一句话就是“宝宝手指脚指正常吗？” 父母永远希望孩子健健康康， 其它都是锦上添花.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238735#reply6
+
+---
+
+#### 9489. [V2EX] 填个名字，你就能在宇宙里拥有一个专属坐标。
+
+**问题描述 / Problem Description**:
+活动链接： https://science.nasa.gov/mission/roman-space-telescope/adopt-a-pixel/ 可以是中文名字。 NASA 这次真的把浪漫玩到宇宙里了。 罗曼空间望远镜推出了一个叫 “Adopt a Pixel” 的活动。 他们把望远镜未来拍摄的第一批深空图像，拆分成了大约 3 亿个像素点。 而你，可以免费“认领”其中一个。 操作也很简单， 进入活动页面， 填写你的名字和邮箱， 系统就会随机分配一个 专属于你的宇宙像素 ， 还会生成一张带有唯一编号的电子证书。 现在你认领的， 可能看起来只是一个微不足道的小点。 但等到罗曼空间望远镜正式开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238706#reply13
+
+---
+
+#### 9490. [V2EX] 中秋国庆中间只需要请 3 天假就可以凑足 13 天超长假期
+
+**问题描述 / Problem Description**:
+你们计划利用这个假期干点啥
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238569#reply19
+
+---
+
+#### 9491. [V2EX] 这里有一个：躺平计算器
+
+**问题描述 / Problem Description**:
+输入你的资产收益，就能查看税后收益了 🐶 扫这里玩 👇👇👇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238560#reply3
 
 ---

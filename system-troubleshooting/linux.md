@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9900**
+**总计条目 / Total entries: 9933**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -136672,5 +136672,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238722#reply35
+
+---
+
+#### 9901. CERN Transitioning To Debian After Being A Longtime RHEL Institution
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5gmcb/cern_transitioning_to_debian_after_being_a/
+
+---
+
+#### 9902. Paint.NET adds “extremely experimental” Wine/Linux support
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w57pzu/paintnet_adds_extremely_experimental_winelinux/
+
+---
+
+#### 9903. I made a sticker with my label printer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5iaw7/i_made_a_sticker_with_my_label_printer/
+
+---
+
+#### 9904. TERMy - Deterministic Linux Terminal Assistant
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5dbgp/termy_deterministic_linux_terminal_assistant/
+
+---
+
+#### 9905. Why isn't there a compositor agnostic Wayland API for focusing windows?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5j598/why_isnt_there_a_compositor_agnostic_wayland_api/
+
+---
+
+#### 9906. [ANN] Qtractor 1.6.3 - A Late-Summer'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5enrm/ann_qtractor_163_a_latesummer26_release/
+
+---
+
+#### 9907. Intel Updates LLM-Scaler-vLLM Build For vLLM 0.26 & Other Improvements
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w57vpw/intel_updates_llmscalervllm_build_for_vllm_026/
+
+---
+
+#### 9908. Is it fair to say KDE and Gnome have won the distro wars?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5pfpu/is_it_fair_to_say_kde_and_gnome_have_won_the/
+
+---
+
+#### 9909. My new project!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w57n84/my_new_project/
+
+---
+
+#### 9910. Nova Browser v1.1.3: An open-source desktop browser with on-device WebGPU AI, Model Context Protocol (MCP), and zero telemetry
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w599x9/nova_browser_v113_an_opensource_desktop_browser/
+
+---
+
+#### 9911. [V2EX] 旧的安卓手机变服务器
+
+**问题描述 / Problem Description**:
+闲着无聊，让 5.6 sol 评估小米 10Pro 适配 Linux 的可能性，因为 SM8250 有主线内核支持，5.6 sol+grok4.6 通过一晚的努力真把内核跑起来了，只不过其他驱动的适配是很耗时间，就比如 USB 给键盘供电，ai 搞了两天才好，也可能是我没开 Pro Plus 的额度太少了，写 iOS 或者 web Plus 的额度还是很够用的，但是一适配小米手机的驱动，5 小时一会干没了，只能等。目前已经能当一个服务器用了。 ------------------ OS: postmarketOS edge aarch64 Host: Xiaomi Mi 10 Pro Kern
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238894#reply37
+
+---
+
+#### 9912. [V2EX] 求助：有没有无影响检查 /etc/fstab 的可靠方法？
+
+**问题描述 / Problem Description**:
+最近在做一批 Linux 主机的 CVE 漏洞修复，遇到一个比较实际的问题，想请教一下大家有没有成熟的处理方式。 因为很多安全补丁，现在都是涉及到内核级别，安装完成后都需要重启才能真正生效，但是在批量重启主机之前，也遇到了 /etc/fstab 中存在异常配置而无法拉起的情况。 因为如果 /etc/fstab 里存在错误，比如： UUID 或设备路径错误 文件系统类型错误 挂载参数不支持 本地设备不存在 NFS 等网络文件系统不可达 其他只有实际挂载时才会暴露的问题 都有可能导致主机重启后进入救援，或无法拉起 目前想要与大家探讨的是： 希望在 reboot 之前，对 /etc/fstab 做一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1237351#reply82
+
+---
+
+#### 9913. [V2EX] 大家觉得还要多久人类才能永生
+
+**问题描述 / Problem Description**:
+ai 加持了医疗领域的发展，说出你的看法，我想长生不老
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238983#reply52
+
+---
+
+#### 9914. [V2EX] fable 5.1 挺好用的。。。
+
+**问题描述 / Problem Description**:
+最近一个月基本都是大量使用 Opus5 xhigh 和 Grok4.6 xhigh, 就我个人体验来看 Grok4.6 刚开始不错，最近开始有点啰唆，这个是我很烦的，Opus5 整体感觉要比 Grok4.6 略好一点，大多数时候我用 Opus5 做架构 plan ，Grok4.6 开干。 今天用了快十个小时 Fable 5.1 ，我用的 high ，目前体感非常好，速度很快，也不啰唆， 真是人狠话不多。。。棒！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239058#reply3
+
+---
+
+#### 9915. [V2EX] 云服务器特惠
+
+**问题描述 / Problem Description**:
+2C4G5M 带宽 三年 2844 4C8G5M 带宽 三年 3430 4C16G5M 带宽 三年 3902 8C16G5M 带宽 三年 4601 8C32G5M 带宽 三年 5545 16C32G5M 带宽 三年 6943 16C64G5M 带宽 三年 8831 下单链接： https://account.huaweicloud.com/obmgr/invitation/invitation.html?id=c1c84107-e8b0-458f-aeba-f871bffe9a48 可 V jialan91588
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239029#reply2
+
+---
+
+#### 9916. [V2EX] 分享的免费截图工具更新：支持 Windows 和录屏了
+
+**问题描述 / Problem Description**:
+上次分享的截图工具 Clipture 后，按照大家的反馈陆续加了 Windows 版、MP4/GIF 录屏、贴图、截图二次编辑和录制历史预览。 Mac 和 Windows 两个商店也都上架了，还是永久免费、没有广告和水印，所有内容只在本机处理。 有兴趣可以试试： https://clipture.talkape.net > 上次的帖子： https://www.v2ex.com/t/1230821 （之前的帖子貌似不能 append 了） 功能列表： - 窗口、区域、全屏、多窗口截图 - 自动滚动长截图 - MP4 / GIF 区域录制 - 录制暂停、继续及画质配置 - 矩形、圆形、箭头、文字
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239027#reply8
+
+---
+
+#### 9917. [V2EX] [开源] Subpool：面向团队的轻量化 Coding 订阅管理
+
+**问题描述 / Problem Description**:
+项目地址 https://github.com/gesta-run/subpool , 兄弟们，求 Star, tar, ar, r... 背景 最近在做团队内部的 AI 订阅管理，遇到几个比较实际的问题： 团队有多份 Codex 或 API 账号，缺少统一管理入口 不清楚成员的被分配到了哪个账号 账号额度、健康状态和使用情况比较分散 部分成员用量较高时，需要人工切换账号 因此做了 Subpool 。 Subpool 是一个面向团队的轻量化 AI 订阅管理工具。管理员可以接入团队有权使用的 Codex 或 OpenAI-compatible 账号，组成 Pool ，再给成员分配独立 API K
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239013#reply10
+
+---
+
+#### 9918. [V2EX] OAI 这几天还会再重置吗？
+
+**问题描述 / Problem Description**:
+扛不住了，一个任务跑了 5 个小时了还没跑完 已经烧掉了 20x 40% 的周额度了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238990#reply2
+
+---
+
+#### 9919. [V2EX] 通过 CLIProxyAPI 代理 ChatGPT 订阅并给其他 Agent 使用，真的不会被封号吗？
+
+**问题描述 / Problem Description**:
+Tibo 推特上说这种方式是支持的，但还是有看到被封号的。所以来论坛里咨询一下。 目前在用 CLIProxyAPI 代理 Gemini AI 订阅，一直都可以使用，暂未被封号。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238979#reply8
+
+---
+
+#### 9920. [V2EX] 各位大佬推荐一下跨模型规范方案啊
+
+**问题描述 / Problem Description**:
+我现在主要是通过 codex cli 编码 , 有时候可能会因为其他原因换模型, 或者上下文太多了 , 导致每次有些打包方式 ,以及归档等细节需要重新引导 , 有没有什么文件允许 claude codex cursor 等主流都能用的 , 这样我只需要管那个配置就好了, 包括多人协同 , 你们又是怎么解决的啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238974#reply7
+
+---
+
+#### 9921. [V2EX] 5X 的 Codex 一天半烧完了，晒晒我的智障多 agent 工作流
+
+**问题描述 / Problem Description**:
+充了 100 刀 codex 想做点正经东西，结果一天半就没了，项目还卡在半路，越想越亏，来吐槽一下。 我干了个挺蠢的事：一个项目塞了好几个 agent ，产品、测试、运营、后端、桌面端。本来想的是流程正规一点，学大厂那套需求评审测试验收，能少返工。 结果实际流程变成了这样——需求来了先丢给运营 agent 去"调研"，调研完产品 agent 出方案，方案出来测试 agent 要先写测试用例，都齐了后端和桌面端才开始写代码。写完你以为完事了？天真，还要挨个过审：测试审一遍，产品审一遍，UI 审一遍，UX 单独再审一遍。我当时不知道哪根筋搭错，UI 和 UX 还拆成了俩 agent 。 它们审起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238942#reply44
+
+---
+
+#### 9922. [V2EX] 为了解决通勤路上无法听网页的痛点，我开发了这个 app
+
+**问题描述 / Problem Description**:
+内置浏览器：能登录、能记住 Cookie 。就算杀掉进程再开，登录状态还在。 一键朗读：点一下就能抽正文并朗读。它会先预览标题和字数，不喜欢的随时取消。 双语音引擎：自带微软免费音色，也能接你自己的接口。音频会缓存，重新听秒出声。 断点续播：后台锁屏都能放。它记得你听到哪了，下次回来接着读。 这项目用 Flutter 写的，代码全开源在 GitHub 上。不过它也有局限：强反爬的网站可能打不开。而且登录态不会同步系统浏览器。 用了大约 3 小时纯 glm-3.5-flash 写的。我感觉还不错 已开源 https://github.com/huodesheng/tingye
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238938#reply3
+
+---
+
+#### 9923. [V2EX] Cursor/Copilot 的"高级请求"额度， Agent 模式几分钟就能刷完
+
+**问题描述 / Problem Description**:
+最近发现一个坑：Cursor 、GitHub Copilot 这类工具按"高级请求数"计费封顶，单次代码补全消耗很少，但开 Agent 模式（让它自己读文件、跑测试、多轮改代码）时，每一步操作都可能各算一次请求，几分钟就能把平时几天的额度用完，账单上却只显示一个笼统的总数，很难当场意识到消耗速度差这么多。 写了篇拆解，讲清楚为什么 Agent 模式消耗更快、怎么在工具后台核查请求类型细分、怎么根据任务类型选补全模式还是 Agent 模式控制成本： https://ponr.org/articles/ai-coding-agent-request-quota-burn.html 顺便说一句，这是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238928#reply4
+
+---
+
+#### 9924. [V2EX] The 'gpt-5.6-sol' model is not supported when using Codex with a ChatGPT account.
+
+**问题描述 / Problem Description**:
+你们遇到这个了吗？刚才出来的，珍离谱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238890#reply2
+
+---
+
+#### 9925. [V2EX] 数字人开源模型推荐+魔改方案
+
+**问题描述 / Problem Description**:
+ps: 节点有问题，劳烦移动一下。我没找到数字人节点 视频生视频模型 1 、音频到视频 1 分钟视频生成时间 3-10 分钟左右 2 、能跑着，走着说，角度最好能 90 度 3 、可以批量生成 4 、交付源代码.能最后封装到给 api 接口 5 、能支持高清，720P 以上 6 、除了改嘴型，背景文字和画面不改变 7 、嘴巴颜色正常，不过红，牙齿清晰 图生视频 1 、图片生成视频时间 1 分钟视频生成时间 30 分钟以内 2 、能跑着，走着说 3 、可以批量生成 5 、能支持高清，720P 以上 6 、手部动作可以调节 7 、嘴巴颜色正常，不过红，牙齿清晰 目标： 对口型 其实最主要的就是质量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238878#reply8
+
+---
+
+#### 9926. [V2EX] 登录接口防重放攻击怎样设计？
+
+**问题描述 / Problem Description**:
+请教各位大神一个登录接口安全问题。 我们大作业 web 系统 账号密码登录的现有设计：客户端先拉取服务端 RSA 公钥，使用公钥加密用户名密码提交登录接口。 我发现这个只能防止密码明文被抓包窃听，无法防御重放攻击，攻击者捕获加密报文就可以反复重放登录。 所以 ai 调研了几个方案 1. 新增 challenge 接口，登录前获取一次性 challenge ，challenge 和账号密码一起加密，消费即作废； 2. 客户端携带 nonce+timestamp 随请求一起加密，服务端校验时间窗口+redis 校验 nonce 防重复。 想问下线上用户名密码登录场景，哪一种落地更多？ challe
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238877#reply42
+
+---
+
+#### 9927. [V2EX] cursor ultra 能多少人共享用?
+
+**问题描述 / Problem Description**:
+有没有人试过, 会封号吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238874#reply1
+
+---
+
+#### 9928. [V2EX] GPT sol 的上下文长度设置成多少比较合适，默认的 200k 太短了，随便几下就开始合并了， 1m 到后面又有点顾头不顾尾的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238867#reply14
+
+---
+
+#### 9929. [V2EX] 之前在站里发帖问了大家有没有合适的测试工作流或者自动化工具，结果……
+
+**问题描述 / Problem Description**:
+好像没有一个大家都认可、称得上众望所归的方向。评论区给了不少思路，我自己试了几个，但还是有几个点有点纠结。 有佬说让 agent 自己加单元测试就行。但我有个疑惑，就是 agent 自己写的测试，会不会跟它写的代码一起错？相当于裁判下场自己判，全绿也不代表真对，而且有些方向它自己可能压根想不到。这怎么保证测试本身是对的？ 或者把所有功能、历史踩过的坑都落盘成测试，听着最靠谱，但对日常随手搓的小工具来说，维护成本会不会有点高？ 还有佬说该花的小钱避免不掉。所以我也去试了之前问过的那个测试 agent 工具，目前还在用免费额度，还算够用，而且确实省了不少时间和搭测试系统的脑细胞。就是不知道之后量大
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238846#reply11
+
+---
+
+#### 9930. [V2EX] web 请求里发求救信息是什么鬼？
+
+**问题描述 / Problem Description**:
+URL：HELP_ME_ESCAPE_FROM_BELARUS_PLEASE 程序员网络乞讨？诈骗？ {"level":"info","ts":"2026/09/02 09:33:37.435","logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"109.238.140.87","remote_port":"33578","client_ip":"109.238.140.87","proto":"HTTP/1.1","method":"GET","host":"*.*.*.*:80","
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238839#reply3
+
+---
+
+#### 9931. [V2EX] resharper c++最新版大家是怎么破解的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238835#reply10
+
+---
+
+#### 9932. [V2EX] WIndows pwsh MCP 推荐，我已经使用半年，感觉良好
+
+**问题描述 / Problem Description**:
+Github 仓库是这个: ripple ，不是我开发的。 作者前期开发 yotsuda/PowerShell.MCP 这个开发时间更长，名字取得好，所以用的人更多 star 更多，但是有架构性的缺陷(不能执行交互式命令)，所以单独开发了 yotsuda/ripple ，但是没多少人注意到。 在 windows 上边，我自己 codex/agy/claude 都是使用这个 mcp 代替内置 shell 的。 说一下为什么推荐： 持久有状态会话，多次命令调用之间保持相同的 Session 状态，AI 执行命令很方便。 agent 可执行交互式命令，像人一样处理终端输入，不会一直卡住，还可以 Ct
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238833#reply3
+
+---
+
+#### 9933. [V2EX] [分享] 整理了免费的大模型 API 的靠谱渠道,包括 DeepSeek V4， GLM 5.x 等 30+ 模型
+
+**问题描述 / Problem Description**:
+[纯分享，非推广] 整理了免费的大模型 API 的靠谱渠道,包括 DeepSeek V4 ，GLM 5.x 等 30+ 模型: https://github.com/peter123023/awesome-free-llm-api 收录标准 只收能拿 API Key 、通过 endpoint 真调用的接口 只收永久免费 + 明确标注限时免费的 为什么做这个 免费额度信息过时很快,而且「永久免费」经常下季度就没了。这个列表会持续核验、补模型,过期的及时清掉(比如已退役的 GitHub Models 、转付费的渠道都删了)。 欢迎 star,也欢迎把你发现的新免费渠道提 PR 补充进来。 http
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238825#reply6
 
 ---
