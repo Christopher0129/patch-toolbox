@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3503**
+**总计条目 / Total entries: 3532**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -51283,5 +51283,353 @@ Mark Bereza and Lilith Wyatt discovered that BioSig incorrectly handled certain 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8713-1
+
+---
+
+#### 3504. CVE-2026-85150 - gstreamer1-plugins-base: gstreamer: NULL/invalid-pointer dereference in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-base: gstreamer: NULL/invalid-pointer dereference in gst_rtsp_message_parse_auth_credentials() when parsing a crafted Digest Authorization/WWW-Authenticate header. Bugzilla: 2527936
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527936
+
+---
+
+#### 3505. CVE-2026-85089 - FreeRDP: freerdp-proxy: FreeRDP: Information disclosure via uninitialized heap…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: freerdp-proxy: FreeRDP: Information disclosure via uninitialized heap memory in Save Session Info PDU. Bugzilla: 2527811
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527811
+
+---
+
+#### 3506. CVE-2026-85090 - FreeRDP: FreeRDP: Heap Out-of-Bounds Read in AVC444 Chroma Combine
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeRDP: FreeRDP: Heap Out-of-Bounds Read in AVC444 Chroma Combine. Bugzilla: 2527817
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527817
+
+---
+
+#### 3507. CVE-2026-84394 - fast-uri: fast-uri: Host confusion via unbalanced URI brackets can bypass security…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fast-uri: fast-uri: Host confusion via unbalanced URI brackets can bypass security policies. Bugzilla: 2527756
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527756
+
+---
+
+#### 3508. CVE-2026-84292 - fast-uri: fast-uri: Authority Injection via Unvalidated Port Serialization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fast-uri: fast-uri: Authority Injection via Unvalidated Port Serialization. Bugzilla: 2527747
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527747
+
+---
+
+#### 3509. CVE-2026-84382 - httpx2: HTTPX2: Denial of Service via streaming response decompression memory…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] httpx2: HTTPX2: Denial of Service via streaming response decompression memory amplification. Bugzilla: 2527702
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527702
+
+---
+
+#### 3510. CVE-2026-84381 - httpx2: httpcore2: HTTPX2: WebSocket traffic sent in plaintext via SOCKS5 proxy…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] httpx2: httpcore2: HTTPX2: WebSocket traffic sent in plaintext via SOCKS5 proxy due to TLS failure. Bugzilla: 2527704
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527704
+
+---
+
+#### 3511. CVE-2026-84380 - httpx2: HTTPX2: Request Smuggling and Connection Desynchronization via Conflicting…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] httpx2: HTTPX2: Request Smuggling and Connection Desynchronization via Conflicting HTTP Headers. Bugzilla: 2527695
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527695
+
+---
+
+#### 3512. CVE-2026-84379 - httpx2: HTTPX2: Multipart header injection via unvalidated input
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] httpx2: HTTPX2: Multipart header injection via unvalidated input. Bugzilla: 2527696
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527696
+
+---
+
+#### 3513. CVE-2026-84378 - httpx2: HTTPX2: Denial of Service via crafted Server-Sent Events stream
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] httpx2: HTTPX2: Denial of Service via crafted Server-Sent Events stream. Bugzilla: 2527694
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527694
+
+---
+
+#### 3514. CVE-2026-84377 - litellm: LiteLLM: Authenticated Server-Side Request Forgery and credential exposure
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] litellm: LiteLLM: Authenticated Server-Side Request Forgery and credential exposure. Bugzilla: 2527681
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527681
+
+---
+
+#### 3515. CVE-2026-53600 - async-tar: async-tar: Tar entry/content smuggling via PAX extension-header…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] async-tar: async-tar: Tar entry/content smuggling via PAX extension-header desynchronization. Bugzilla: 2527648
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527648
+
+---
+
+#### 3516. CVE-2026-84837 - rpm: Command Injection in `rpmbuild -t*` (`getTarSpec`) via Unescaped Tarball Path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rpm: Command Injection in `rpmbuild -t*` (`getTarSpec`) via Unescaped Tarball Path. Bugzilla: 2478408
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2478408
+
+---
+
+#### 3517. CVE-2026-84838 - rpm: Command injection in rpmuncompress via unescaped filenames passed to popen()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] rpm: Command injection in rpmuncompress via unescaped filenames passed to popen(). Bugzilla: 2462222
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2462222
+
+---
+
+#### 3518. CVE-2026-76594 - advisor-backend: advisor-backend: Unauthenticated /private/import_content/…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] advisor-backend: advisor-backend: Unauthenticated /private/import_content/ endpoint allows global rule-catalogue overwrite. Bugzilla: 2519645
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519645
+
+---
+
+#### 3519. CVE-2026-76595 - advisor-backend: Unsafe YAML deserialization of associate-editable Task playbook…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] advisor-backend: Unsafe YAML deserialization of associate-editable Task playbook (yaml.Loader). Bugzilla: 2519653
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519653
+
+---
+
+#### 3520. CVE-2026-76642 - util-linux: util-linux: failed external mount helper still runs privileged X-mount…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks. Bugzilla: 2521999
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2521999
+
+---
+
+#### 3521. CVE-2026-78408 - util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority. Bugzilla: 2522497
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2522497
+
+---
+
+#### 3522. CVE-2026-78409 - util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks. Bugzilla: 2522607
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+
+---
+
+#### 3523. CVE-2026-78410 - util-linux: util-linux: restricted bind mounts do not pin the source, allowing…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection. Bugzilla: 2522684
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2522684
+
+---
+
+#### 3524. [Ubuntu] USN-8724-1: rabbitmq-c vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the rabbitmq-c command-line tools only accepted credentials on the command line, making them visible to other local users through the process list. An attacker could possibly use this to obtain sensitive credentials. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. (CVE-2023-35789) It was discovered that rabbitmq-c did not
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8724-1
+
+---
+
+#### 3525. [Ubuntu] USN-8720-1: GnuPG vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GnuPG incorrectly validated authentication tag lengths when parsing CMS messages encrypted with AES-GCM. An attacker could possibly use this issue to bypass message integrity checks.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8720-1
+
+---
+
+#### 3526. [Ubuntu] USN-8723-1: SPICE vdagent vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SPICE vdagent had an integer overflow in the buffer size calculation used when writing to the daemon socket. A malicious or compromised SPICE host could possibly use this issue to cause SPICE vdagent to crash, resulting in a denial of service. (CVE-2026-57965) It was discovered that SPICE vdagent did not properly sanitize filenames provided by the SPICE host during file tran
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8723-1
+
+---
+
+#### 3527. [Ubuntu] USN-8722-1: libssh2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled certain SFTP server responses. A remote attacker controlling an SSH server could use this issue to cause libssh2 to crash or possibly execute arbitrary code. (CVE-2026-66032) It was discovered that libssh2 incorrectly handled AES-GCM cipher negotiation. A remote attacker controlling an SSH server could possibly use this issue to cause libssh2 to c
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8722-1
+
+---
+
+#### 3528. [Ubuntu] USN-8719-1: APR-util vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that APR-util incorrectly performed password hash comparisons in a way that was not constant-time. An attacker could possibly use this issue to obtain sensitive information. (CVE-2025-49506) It was discovered that APR-util incorrectly handled recursive XML element quoting. An attacker could possibly use this issue to cause applications using APR-util to crash, resulting in a deni
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8719-1
+
+---
+
+#### 3529. [Ubuntu] USN-8721-1: OpenSSH vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSH's ssh-agent incorrectly handled interactions between agent locking and the session-bind@openssh.com extension. A remote attacker with access to a forwarded agent connection could possibly use this issue to perform operations that should only be available locally, such as adding tokens or using keys. (CVE-2026-73281) It was discovered that OpenSSH's ssh client incorre
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8721-1
+
+---
+
+#### 3530. [Ubuntu] USN-8718-1: SSSD vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SSSD did not properly validate authentication token lengths when processing PAM responder requests. A local attacker could possibly use this issue to cause SSSD to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8718-1
+
+---
+
+#### 3531. [Ubuntu] USN-8716-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FFmpeg incorrectly handled certain crafted media files in the VobSub subtitle demuxer. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-64830) It was discovered that FFmpeg incorrectly handled certain crafted DTS audio streams in the S/PDIF muxer. An attacker could possibly use this issue to cause a denial of service
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8716-1
+
+---
+
+#### 3532. [Ubuntu] USN-8717-1: Apache Tika vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache Tika's ISA-Tab parser incorrectly handled file path resolution. An attacker who could place files in a directory that Tika subsequently parses could use this issue to read arbitrary files accessible to the Tika process and have their contents emitted into the extracted text output.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8717-1
 
 ---

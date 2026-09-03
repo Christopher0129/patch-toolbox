@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 969**
+**总计条目 / Total entries: 971**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14120,5 +14120,29 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52673
+
+---
+
+#### 970. [webapps] FreePBX  17.0.2 - Remote Code Execution (RCE)
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] FreePBX 17.0.2 - Remote Code Execution (RCE)
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52681
+
+---
+
+#### 971. [webapps] Metabase 0.61.0  - Authenticated Remote Code Execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Metabase 0.61.0 - Authenticated Remote Code Execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52680
 
 ---

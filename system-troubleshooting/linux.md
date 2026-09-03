@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9933**
+**总计条目 / Total entries: 9977**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -137101,5 +137101,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238825#reply6
+
+---
+
+#### 9934. How do I make the CPU scheduler more conservative by default?
+
+**问题描述 / Problem Description**:
+Tags: linux, cpu, fan | Score: 1 | Views: 89 | Answers: 3 | Created: 2026-08-28
+
+**解决方案 / Solution**:
+Just do nothing. Your "5.5 GHz max clock speed" is misleading, and probably a turbo speed that gets selected for very short (micro to milliseconds) burst of high load when CPU cores are neither limited by waiting for RAM or other cores, nor thermally limited. All relevant modern Linux distros ship configurations that usually "just do the right thing" for desktop usage. The symptoms you describe are exactly what you get by trying to smarter; you're probably now using more power for the same performance by going back to the more rigid old ondemand governor. Don't do that; stick with a sensible, distribution kernel and its defaults. idle around 1 GHz and only go to around the 5 under heavy load so I don't have to listen to this fan all the time mostly. The things your CPU does take nano- to microseconds. The usual method to safe power on average is to called " race to sleep ", i.e., you clock a CPU core high while there's work to do, and do that relatively aggressively. After the work then is done, put CPU cores to sleep, at which point their nominal clock rate doesn't matter much, as most of their circuitry is not connected to said clock. The time scales it takes for a slab of metal to get hot and hence the fan having to do anything are huge compared to the "burstiness" of compute workloads, and the times it takes to go to sleep and come back for CPU cores. So, your wish, while it does sound reasonable is probably not a good way to actually avoid having the fan spin up. You can of course hard limit overall performance, allowing you to reduce core voltage, so that even during the periods work is done less power is spent, but that means a complete CPU system and its support electronics have to be active for longer, because the work just takes time to get done. So, in most cases, you get, if any, little gain in power saved and thus in heat not produced, while you take a severe hit in performance. You typically avoid that, unless you really are power-limited (i.e., on a rapidly discharging battery).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807201/how-do-i-make-the-cpu-scheduler-more-conservative-by-default
+
+---
+
+#### 9935. Yes, no AI is now a feature
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6dqe0/yes_no_ai_is_now_a_feature/
+
+---
+
+#### 9936. I remade the Windows 2000 shell for linux!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6gvx5/i_remade_the_windows_2000_shell_for_linux/
+
+---
+
+#### 9937. Audacity 4.0 released with Qt6 based UI
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w64jys/audacity_40_released_with_qt6_based_ui/
+
+---
+
+#### 9938. I went to college last week and I think windows just lost the younger generations.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w60umw/i_went_to_college_last_week_and_i_think_windows/
+
+---
+
+#### 9939. Why did Cisco make H.264 proprietary?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6jn1b/why_did_cisco_make_h264_proprietary/
+
+---
+
+#### 9940. Why do you think people say Linux is difficult
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6lmyi/why_do_you_think_people_say_linux_is_difficult/
+
+---
+
+#### 9941. DMS 1.6 "Marble Tabby" Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6f9dx/dms_16_marble_tabby_released/
+
+---
+
+#### 9942. Building New Secure Foundations
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w66d4h/building_new_secure_foundations/
+
+---
+
+#### 9943. NVIDIA-Started Open Secure AI Alliance Moves To The Linux Foundation
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5qk6l/nvidiastarted_open_secure_ai_alliance_moves_to/
+
+---
+
+#### 9944. Dissecting JioPC: Flatpak sandbox breakout, reverse-engineering xrdp session limits, and running a headless remote server on locked-down cloud VDI
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6jme7/dissecting_jiopc_flatpak_sandbox_breakout/
+
+---
+
+#### 9945. Is the Linux mint website slow or what?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6lqh3/is_the_linux_mint_website_slow_or_what/
+
+---
+
+#### 9946. How to force Fast charge for iPhones on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5r8nx/how_to_force_fast_charge_for_iphones_on_linux/
+
+---
+
+#### 9947. OLED Care Daemon for wlroots
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w5v8ui/oled_care_daemon_for_wlroots/
+
+---
+
+#### 9948. Could application-provided memory priorities complement Linux's existing memory management?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w61sxb/could_applicationprovided_memory_priorities/
+
+---
+
+#### 9949. Sonar: A Python-based GUI Wrapper around UGREP for Desktop Search
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6io51/sonar_a_pythonbased_gui_wrapper_around_ugrep_for/
+
+---
+
+#### 9950. Where to get the original Linus Torvalds desktop photo
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6fq3l/where_to_get_the_original_linus_torvalds_desktop/
+
+---
+
+#### 9951. New Amazon Linux 2027
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6jvxc/new_amazon_linux_2027/
+
+---
+
+#### 9952. Omacom Foundation hires kernel developer Krzysztof Wilczyński
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6g6gc/omacom_foundation_hires_kernel_developer/
+
+---
+
+#### 9953. [App Release] Bengal Download Manager 0.2.34
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6408k/app_release_bengal_download_manager_0234/
+
+---
+
+#### 9954. [V2EX] 旧的安卓手机变服务器
+
+**问题描述 / Problem Description**:
+闲着无聊，让 5.6 sol 评估小米 10Pro 适配 Linux 的可能性，因为 SM8250 有主线内核支持，5.6 sol+grok4.6 通过一晚的努力真把内核跑起来了，只不过其他驱动的适配是很耗时间，就比如 USB 给键盘供电，ai 搞了两天才好，也可能是我没开 Pro Plus 的额度太少了，写 iOS 或者 web Plus 的额度还是很够用的，但是一适配小米手机的驱动，5 小时一会干没了，只能等。目前已经能当一个服务器用了。 ------------------ OS: postmarketOS edge aarch64 Host: Xiaomi Mi 10 Pro Kern
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238894#reply49
+
+---
+
+#### 9955. [V2EX] 我怀疑 Ubuntu 自动升级，直接移除了我的 Mongodb 服务器。
+
+**问题描述 / Problem Description**:
+以下是这次事件的完整时间表，结合你服务器日志与当前 Uptime Kuma 监控页面： 🧩 完整时间线复盘 时间 (UTC) 北京时间 事件 说明 2026‑09‑01 14 : 23 : 18 22 : 23 : 18 apt remove mongodb‑org 与 mongodb‑org‑tools 执行 系统自动维护任务（ apt‑daily‑upgrade ）误删 MongoDB 主程序。日志中无 Commandline 字段，确认非人工操作。 2026‑09‑01 14 : 23 – 09‑03 06 : 21 22 : 23 – 14 : 21 MongoDB 进程仍在内存中运行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239321#reply2
+
+---
+
+#### 9956. [V2EX] Ubuntu 26.04.1 发布
+
+**问题描述 / Problem Description**:
+8 月份 Ubuntu26.04.1 发布了。但是现在 24.04 还不能升级。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239183#reply6
+
+---
+
+#### 9957. [V2EX] 做了大半年 Agent 架构，越做越觉得是在「人研究人」
+
+**问题描述 / Problem Description**:
+做 Agent 平台大半年了，最大的感受是：架构本身不难，难的是你要研究的那套东西——人。 我们想做的事情，说穿了就是把人的认知、决策、记忆、协作这些机制抽象出来，做成一套可运行、可控制、可工程化的系统。听着像句漂亮话，落到地上全是硬骨头： 记忆。上下文窗口永远是稀缺资源，我们目前的思路是承认「完整历史不可能常驻」，转而做一个持续提取的过程——把长期交互里的关键事实、偏好、踩过的坑不断蒸馏到有限的 context 界面里。难点不在存，在"什么值得留"和"怎么让它在该出现的时候出现"。 可控性。Agent 越自主越难调试，现在业界的普遍做法是加各种护栏，但护栏多了又回到「精确编排」的老路。这个平
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239330#reply3
+
+---
+
+#### 9958. [V2EX] Claude 服务是挂了吗？ 20 分钟前还在用的
+
+**问题描述 / Problem Description**:
+API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com .
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239324#reply0
+
+---
+
+#### 9959. [V2EX] 一语成美图的 SKILL
+
+**问题描述 / Problem Description**:
+想在文档里配张图，手写 SVG 太费时间，画图工具导出来的东西进不了 git ，Mermaid 又是把排版交给引擎，你说不上话。 svg-diagram 走的是第三条路：你用一句话说要什么图，agent 手写一份 SVG 给你，直接放进 README 或文档站就能用。 下面每张图都是这么来的，附上当时说的那句话。图里全是中文标签，不用额外配字体。 装上 npx skills add bybit-exchange/svg-diagram -g 嫌记不住命令，把这句话丢给你的 agent 也一样： 帮我装一下 svg-diagram skill： https://github.com/bybit-
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239311#reply5
+
+---
+
+#### 9960. [V2EX] 为了让团队里每个人的 AI 之间可以更好的协作和共享业务上下文，我做了一个开源产品
+
+**问题描述 / Problem Description**:
+背景 现在我们的团队里，运营、售后等角色也都在用 AI 辅助解决问题和开发网站，网站用于解决自己的工作中遇到的问题或者团队的问题，或者给外部用户做的功能。 一开始都很好，解放了研发的很多精力，但是紧接着就是： 研发需要帮助团队进行部署， 研发需要授权各种 ak sk 给团队， 非技术人员和 AI 沟通开发网站时，有些技术决策只能求助研发 团队里的每个成员需要给其他人补充自己角色上的业务上下文以帮助他人的 AI 完成工作。 为了解决这些公司里实际存在的问题，我做了一个产品： 解决的问题 让每个成员的 AI 独立完成交付：一名成员——即使不编写代码——从开发到上线所需的 Skill 、MCP 配置
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239308#reply6
+
+---
+
+#### 9961. [V2EX] 预算 1000-1500 帮我推荐一把机械键盘，谢谢大家。
+
+**问题描述 / Problem Description**:
+MacOS ，Windows 都用，75,87 键都行的，不需要矮轴，也不需要便携我是家里用的，唯一要求就是打字舒服，声音好听。 支持改键，要有 F 区。 我现在用的 WACE75 铝坨坨，想换一个更好点的用用。 大伙有更好的推荐吗？预算 1500 内。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239304#reply2
+
+---
+
+#### 9962. [V2EX] 限免:markdown +sheet 工具，方便 md 查看和 csv 不乱码，工作好帮手
+
+**问题描述 / Problem Description**:
+https://github.com/Danny-wp/LightSpace-releases/releases/tag/v0.2.19 平常工作上遇到各种问题，找不到顺手的工具，尤其是 MacBook 没有好用的 sheet 软件，要不就是太臃肿，收费，广告，CSV 乱码丢精度。。MD 文档方便 AI 生成文档查看，方便编辑，可以双屏对比。日常迭代中，自己用起来顺手，还有些问题可能发现不到，希望大家多多反馈~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239303#reply0
+
+---
+
+#### 9963. [V2EX] 如何让多不同模型在同一个 session 中与自己一起讨论问题？
+
+**问题描述 / Problem Description**:
+rt ，平时与 ai 讨论一些问题，但是不同模型会给出不同的建议结果，所以希望能有多个（其实也就 gpt+claude+grok 三个模型）模型一起对问题展开讨论。 例如： @ all 来讨论一下代码佬如何防止秃头 gpt: *** ·· claude: *** .. grok: *** @ gpt 你说说你的想法 gpt: 我觉得 claude 说的有道理，生姜抹头没啥卵用。。。 claude: *** 要求,都能使用订阅用量（ claude 估计不行只能调用 api credit ）,最好是 pi 中可以用，节省一些 token 。 请问目前有这样成熟的项目可以用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239296#reply10
+
+---
+
+#### 9964. [V2EX] 无法使用 google one 怎么解决
+
+**问题描述 / Problem Description**:
+闲鱼上买了那个 gemini pro ，激活链接打开就显示 无法使用 google one 换了 N 个节点都不行 有啥解决方法么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239280#reply7
+
+---
+
+#### 9965. [V2EX] 感觉现在关于 github copilot 的讨论少了，还有人在主力使用的吗？想听听实际体验
+
+**问题描述 / Problem Description**:
+去年 9 月充的 cursor 年付 pro 快到期了，之前的账单日内 auto 不限量供应，现在这部分也要没了。 我现在写代码基本都是 codex 用得多，cursor 反而更多是当编辑器看代码。最近看了下 copilot pro ，$10/月，有 tab 补全，再加$15 的额度，感觉拿来配 codex 好像也够用了。 东西看着挺合适，不过现在关于 copilot 的讨论好像少了很多，想了解下 V 友们还有没有在主力用的。 主要想问下现在补全的速度、准确率怎么样，跟主流差距大不大？如果 agent 主要靠 codex/cc ，再配个编辑器有推荐的组合吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239275#reply33
+
+---
+
+#### 9966. [V2EX] 请大佬们帮我看看毕设项目的规划有无纰漏以及可改进的部分？
+
+**问题描述 / Problem Description**:
+蒟蒻目前网络空间安全本科 急需准备一个项目来应对求职面试、课程大作业、以及毕业设计 qwq 目前的想法是 QNX 系统下的网安相关项目 要能做对抗性验证（是课程大作业的要求，就是分饰两角 红蓝双方你攻我防这种） 向 Kimi 以及 ChatGPT 请教了一下： https://chatgpt.com/share/6a993711-daf8-83ec-bf1b-fdf61c553c3a 目前想看看平台上大佬们的建议！从高中就开始灌注 V2EX 社区了，感觉云集很多优秀的人才……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239269#reply5
+
+---
+
+#### 9967. [V2EX] 对大厂来说， Vibe Coding 是不是伪需求？
+
+**问题描述 / Problem Description**:
+最近感觉字节、淘宝、海外一些大厂频繁出问题，不知道是否和 AI Coding 有关系。 我一直觉得，大厂几千上万研发，瓶颈本来就不是开发速度，而是有没有值得做的业务。Vibe Coding 再快，也不能凭空创造新需求。 而且现在 AI 让前后端边界越来越模糊，一个人其实能做完整功能，但大厂还是习惯把需求拆给很多人。 就像本来一个人整理一根长绳，现在非要剪成 10 段，10 个人各自整理好，最后再接起来。人越多、改得越快，沟通、联调和出错的机会反而越多。 AI 时代，大厂真正该做的也许不是让所有人写得更快，而是重新考虑：一个功能到底需要这么多人吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239257#reply16
+
+---
+
+#### 9968. [V2EX] DeepSeek Harness 能开箱即用吗？
+
+**问题描述 / Problem Description**:
+真正开箱即用地当 Claude Code 替代品使用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239251#reply23
+
+---
+
+#### 9969. [V2EX] [开源] MemAuthority 专门给 Agent 使用的长期记忆工具，解决 Agent 重复摸索和踩坑的痛点
+
+**问题描述 / Problem Description**:
+🔗 项目主页 ： GitHub / iasi777/memauthority 本工具只专注于解决一个主要问题： 踩过的坑不应该再踩一遍，现成的经验总结随取随用 用户 把关：判断哪些信息真正值得长期留下； Agent 执行：理解、检索、归纳、更新与清理记忆； MemAuthority 兜底：保证长期记忆的可靠保存和按需读取，防止多版本相互覆盖、内容错乱、异常中断导致记忆损坏。 提供多 agent 、多平台共用一套记忆的能力 MemAuthority 适合谁 更看重长期记忆质量的用户 你应该经历过以下的不可控感： 不清楚什么内容何时被记下了； 不确定什么时候会进入上下文； 无法确认内容是否已经过时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239250#reply2
+
+---
+
+#### 9970. [V2EX] 分析一个画各种图的 SKILL，更轻更快、美观优雅
+
+**问题描述 / Problem Description**:
+svg-diagram A house style for hand-written SVG diagrams your agent can follow — the layout arithmetic, the colour system, and a zero-dependency linter that proves it did. Install Paste this to your coding agent: Install the svg-diagram skill from https://github.com/bybit-exchange/svg-diagram for me
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239246#reply8
+
+---
+
+#### 9971. [V2EX] What is RSI AI?
+
+**问题描述 / Problem Description**:
+One gateway to leading paid AI models. Quietly cheaper. Same request format. Change the base URL. Compare live model rates on our pricing page before you switch. rsiai.net
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239211#reply1
+
+---
+
+#### 9972. [V2EX] 做了个支持千万级 Keys Redis 桌面客户端，支持 Java 字节码反序列化，求拍
+
+**问题描述 / Problem Description**:
+生产环境的 Redis 经常达到千万级 Key 。很多桌面 GUI 一旦连上这类实例，就会出现界面卡顿、内存持续上涨，甚至进程崩溃。打开成员较多的 Hash / ZSet 时，如果客户端试图一次性拉取全部数据，窗口同样容易失去响应。 基于这类问题，我重新设计了另一套加载与渲染路径的软件 RedisViewer ——一款面向研发调试的本地 Redis 桌面客户端。它的目标是：采用虚拟滚动应对千万级别数据量，并在超大库场景下增加加载确认，避免误操作拖垮客户端。 把「加载」和「渲染」分开处理 不少 Redis GUI 把两件事绑在一起：Key 如何从 Redis 拉取，以及每一行如何绘制到界面上。数
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239206#reply23
+
+---
+
+#### 9973. [V2EX] ChatGPT 桌面端能不能加点声音提示啊
+
+**问题描述 / Problem Description**:
+比如蹬到需要我审批的时候 来个猫娘语音：喵 主人主人 过目批准喵
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239176#reply9
+
+---
+
+#### 9974. [V2EX] 想开发个有点 AI 功能的 App 上架 AppStore，大陆区是否无望了？
+
+**问题描述 / Problem Description**:
+查了下，貌似需要 App 备案、深度合成功能备案等，有说法后者个人几乎没有可能。 怎么感觉这么操蛋呢，对个人开发者太不友好了吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239166#reply3
+
+---
+
+#### 9975. [V2EX] 淘宝的订单服务挂了？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239158#reply3
+
+---
+
+#### 9976. [V2EX] Deepseek 三小时不到就耗了 30 块
+
+**问题描述 / Problem Description**:
+我用 opencode 连 v4 pro （ ds 官网），连之前冲了 50 块（人民币），coding 一会后到控制台一看只剩 20 余一点了。 开发的功能就是在本地爬一些数据，然后在本地写 web ui 渲染出来。 这个花费是正常的吗？想问问大家的情况是怎么样的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239128#reply36
+
+---
+
+#### 9977. .mount has a bad unit file setting, need help with potential syntax error
+
+**问题描述 / Problem Description**:
+Tags: linux, systemd, systemd-unit, s3fs | Score: 0 | Views: 22 | Answers: 1 | Created: 2026-09-03
+
+**解决方案 / Solution**:
+As indicated in man systemd.mount , the unit file name must match the Where= setting. Since you want to mount your file system on /mnt/b2_test , your Where= setting should say Where=/mnt/b2_test , and the unit file should be named mnt-b2_test.mount : $ systemd-escape --suffix=mount -p /mnt/b2_test mnt-b2_test.mount
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807264/mount-has-a-bad-unit-file-setting-need-help-with-potential-syntax-error
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10458**
+**总计条目 / Total entries: 10502**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -141875,5 +141875,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238941#reply2
+
+---
+
+#### 10459. My RTX 5090 is driving me mad
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w63fwu/my_rtx_5090_is_driving_me_mad/
+
+---
+
+#### 10460. Spilt milk on my Mac am I screwed?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6l7ut/spilt_milk_on_my_mac_am_i_screwed/
+
+---
+
+#### 10461. PC semi-crashes(freezes/slows down) randomly after inactivity of at least 10 minutes, problem since making of pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6h53v/pc_semicrashesfreezesslows_down_randomly_after/
+
+---
+
+#### 10462. Pc wont turn on after installing ssd
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6ko3q/pc_wont_turn_on_after_installing_ssd/
+
+---
+
+#### 10463. More a question: Can an ISP purposely screw up your router? I'm having WIFI issues after ISP comes out to 'fix' neighbors internet.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6dj40/more_a_question_can_an_isp_purposely_screw_up/
+
+---
+
+#### 10464. Audio adapter has its own mic?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6ekgy/audio_adapter_has_its_own_mic/
+
+---
+
+#### 10465. PC Shuts Down While Gaming, No Dump File Created, and BIOS Freezes,Keyboard Stops Responding (Less Than 1 Month Old, Second-Hand)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6ct8z/pc_shuts_down_while_gaming_no_dump_file_created/
+
+---
+
+#### 10466. Confused About SAS Cable types
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6lu5b/confused_about_sas_cable_types/
+
+---
+
+#### 10467. Help pairing firestick remote to 65 inch Onn tv
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6lpot/help_pairing_firestick_remote_to_65_inch_onn_tv/
+
+---
+
+#### 10468. Servicing Palit RTX 3090 GameRock
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6loo3/servicing_palit_rtx_3090_gamerock/
+
+---
+
+#### 10469. Don't know if this is the right place, but i need help identifying a error an a app
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6lgv5/dont_know_if_this_is_the_right_place_but_i_need/
+
+---
+
+#### 10470. Failed to install update multiple times.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6laqc/failed_to_install_update_multiple_times/
+
+---
+
+#### 10471. i need help with screensharing on discord and streaming
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6l2p4/i_need_help_with_screensharing_on_discord_and/
+
+---
+
+#### 10472. Background play YouTube Android
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kx85/background_play_youtube_android/
+
+---
+
+#### 10473. Refurbished laptop (Win 11 Home) stuck in startup/update loop.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kvnc/refurbished_laptop_win_11_home_stuck_in/
+
+---
+
+#### 10474. My hp laptop won't show display when turned on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kpco/my_hp_laptop_wont_show_display_when_turned_on/
+
+---
+
+#### 10475. Dell Laptop being crazy slow out of nowhere
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kngz/dell_laptop_being_crazy_slow_out_of_nowhere/
+
+---
+
+#### 10476. Windows 11 breaks all Canon RAW (CR2) images
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kmwq/windows_11_breaks_all_canon_raw_cr2_images/
+
+---
+
+#### 10477. PC gets stuck at every game loading screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kcba/pc_gets_stuck_at_every_game_loading_screen/
+
+---
+
+#### 10478. PC Keeps Shutting Off Randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6kaaf/pc_keeps_shutting_off_randomly/
+
+---
+
+#### 10479. conhost.exe Application Error (0xc0000005 / 0xc0000142) on launching anything Software / Games - In-Place repair didn't fix
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6k9v8/conhostexe_application_error_0xc0000005/
+
+---
+
+#### 10480. My 2080 Super keeps black screening while gaming and I can't figure out what's causing it.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6k9dx/my_2080_super_keeps_black_screening_while_gaming/
+
+---
+
+#### 10481. Windows 11 suddenly has no Wi-Fi option – Realtek 8822BU USB adapter detected for Bluetooth but not Wi-Fi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6jcda/windows_11_suddenly_has_no_wifi_option_realtek/
+
+---
+
+#### 10482. My friends PC shuts off seemingly at random times and sometimes wont be able to boot for several hours afterwards
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w6j2pg/my_friends_pc_shuts_off_seemingly_at_random_times/
+
+---
+
+#### 10483. [V2EX] R2S 跑 OpenClash 老死机，想换机， R4S / R5S / R76S / N100 怎么选？
+
+**问题描述 / Problem Description**:
+现在用的是 R2S ，跑 OpenClash 三天两头死机，各种奇怪的 bug ，也不知道是内存卡的问题还是这机子性能就这样，AnyTLS 能跑，但是跑久了各种各样的 bug 就出来了。 想换一台，目前看了这几个： R4S / R5S：固件比较多，我自己不会编译固件，所以更倾向这两个。 R76S：性价比看着比前面两个高，但看到的固件还不多，怕入手了还得在固件上折腾半天。 J4125 / N100：我就是纯上网用，感觉是不是有点性能溢出了？ 就日常上网这种需求，有哪个更适合吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239357#reply0
+
+---
+
+#### 10484. [V2EX] gpt、claude、gork 今晚都挂了，鉴别中转站的时候到了
+
+**问题描述 / Problem Description**:
+rt ，谁没挂谁尴尬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239346#reply3
+
+---
+
+#### 10485. [V2EX] codex 给全部权限会有大量下载或者上传流量怎么解决?
+
+**问题描述 / Problem Description**:
+之前每次都只给一个文件夹, 用量一切正常 这两天创了 wsl, 权限 yolo, 两天下载了 30g 流量, 同事上传流量居多, 有解决办法吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239343#reply3
+
+---
+
+#### 10486. [V2EX] chatgpt 炸了，以为被封号了
+
+**问题描述 / Problem Description**:
+吓死我了，全部 404 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239342#reply3
+
+---
+
+#### 10487. [V2EX] 刚刚美国绝对出了大事， gpt、claude、grok、gemini 全挂了
+
+**问题描述 / Problem Description**:
+消息灵通的大佬快去打探一下， 都一个小时了 还没恢复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239339#reply30
+
+---
+
+#### 10488. [V2EX] 哪个大模型开发 Solidity / Rust 效果最好？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239326#reply0
+
+---
+
+#### 10489. [V2EX] 把之前的 PDF 编辑器做成了独立站，支持在线编辑和 PDF 转 Word
+
+**问题描述 / Problem Description**:
+之前在 V2EX 分享过一个放在图片工具网站里的 PDF 编辑器。 后来发现 pdf 的需求量很大，所以最近把 PDF 功能单独拆了出来，做成了一个独立网站： https://editpdfly.com/ 目前没有先铺一堆尚未实现的工具页面，只放了两个已经可以实际使用的功能。 在线 PDF 编辑器 首页打开就是编辑器，目前支持： 编辑 PDF 中可选择的原始文字 添加文字和图片 覆盖不需要的区域 移动部分独立图层 导出修改后的 PDF 测试副本 文件打开、预览和编辑过程在浏览器内完成 无需注册，支持不超过 20 MB 的 PDF PDF 转 Word 地址： https://editpdfly
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239320#reply0
+
+---
+
+#### 10490. [V2EX] codex 的浏览器控制，感觉不太好用啊，经常连接中断
+
+**问题描述 / Problem Description**:
+刚开始用 codex ，让 edge 装了浏览器插件，然后让 codex 完成一个简单任务： 去一个音乐论坛，搜索一首歌，找到对应的帖子， 在帖子回复“感谢分享”，然后帖子的隐藏内容就会显示出来。 点击隐藏内容的网盘链接，进入网盘的网页 在网盘页面上点击下载，下载 mp3 到浏览器的下载位置。 然后就发现 codex 的动作很慢，也经常显示连接断开。 然后就换 Chrome 去控制，也是一样。 是哪里不对呀？我刚开始用 codex ，如果是一些本地任务，它倒是工作得不错，比如结合本地文档和网上资料，分析一些问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239309#reply6
+
+---
+
+#### 10491. [V2EX] Trip.com 的低价机票靠谱吗？返程不加价，和航司官网价格差很多？
+
+**问题描述 / Problem Description**:
+最近在看今年国庆去越南的机票，遇到一个不太确定的情况，想问问大家有没有实际买过。 行程大概是： 北京出发，胡志明市到达 2026 年 9 月 25 日出发 2026 年 10 月 5 ～ 8 日之间返回，最晚 10 月 8 日 1 名成人，经济舱 在 Google Flights 上看到过比较低的价格，后来发现很多是「官网组合加价换、三方如 Trip.com 则是+0 元」。比如去程和返程看起来都能买到便宜舱位，但航空公司官网直接查同样日期时，返程会明显加价（+450 到 3000 多不等）。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239302#reply4
+
+---
+
+#### 10492. [V2EX] 这个是什么套路,在淘宝开店测试,
+
+**问题描述 / Problem Description**:
+https://v2ex.com/t/1232720 后续是,听取大家意见,还会是点了发货,但是实际没有发. 然后那个人也一直不收货等多少天自动收.淘宝还压了 10 天就到账了 也就是我随便发了一个产品.这个人花了 100 元拍了.然后也不投诉没收到货 就白给 100 元? 这是啥意思.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239301#reply2
+
+---
+
+#### 10493. [V2EX] 既然现在上架 APP 都这么复杂，会有人开企业号分账吗
+
+**问题描述 / Problem Description**:
+apple Google 国内各个商店，上架 APP 确实麻烦。 vibe coder 这么多，有没有这种需求的呢。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239300#reply0
+
+---
+
+#### 10494. [V2EX] Meta Muse Spark 可用地区检测都会看哪些信息？
+
+**问题描述 / Problem Description**:
+如图所示，使用了美国 IP ，提示所在国家/地区无法使用。 请问各位除了 IP ，Meta 是还会看账号的位置吗，异或是绑定的手机号？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239291#reply3
+
+---
+
+#### 10495. [V2EX] 小红书笔记爆了，如何变现？
+
+**问题描述 / Problem Description**:
+昨晚发了一条小红书笔记，今天早上起来看的时候发现：小红心 99+、粉丝 99+、评论 99+ 目前浏览量 16 万，还在上升 账号的人设是：大龄程序+失业+房贷+两个孩子。 这个账号我会持续做下去 如何变现？懂的兄弟们给点建议，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239284#reply1
+
+---
+
+#### 10496. [V2EX] iOS 微信双账号场景，如何实现“另一个账号有新消息时提醒”？
+
+**问题描述 / Problem Description**:
+有两个微信账号 A / B 。 目前使用场景： iPhone 上微信只能登录一个账号 平时 iPhone 登录 A B 不登录 iPhone 当 B 有人发消息时，我无法知道 我希望收到提醒后，再手动把 iPhone 微信切换到 B 查看和回复 理想流程： iPhone 登录 A ↓ B 收到新私聊消息 ↓ 通过某种方式通知我「 B 有人找你」 ↓ 我打开微信 → 切换到 B → 查看并回复 关键需求 我不需要把 B 的聊天内容同步到 A ，也不需要双开微信。 只需要解决一个问题： B 有新私聊消息时，能不能通过其他设备/服务让我知道？ 可以接受的中间设备包括： iPad Mac / Wind
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239276#reply7
+
+---
+
+#### 10497. [V2EX] 有什么更新频率快比较好的 github 趋势网站吗
+
+**问题描述 / Problem Description**:
+github trending 频率慢一些高星的项目才会上榜、趋势不够明显 之前一直在用 ossinsight ，最近一直都无法访问了 有什么推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239270#reply0
+
+---
+
+#### 10498. [V2EX] www.sbc.gov.sa 无法访问，各位方便帮忙测试下么
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239260#reply0
+
+---
+
+#### 10499. [V2EX] Cloudflare Tunnel 你们怎么用的？
+
+**问题描述 / Problem Description**:
+用了一个多月了，感觉做穿透真香，免费而且还稳定，不过我目前也基本就是 SSH 操作一下家里的机器。 想知道他的上限在哪？比如看看家里 NAS 的电影可行么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239255#reply12
+
+---
+
+#### 10500. [V2EX] chatgpt 官网打不开了？
+
+**问题描述 / Problem Description**:
+codex 和 网页都打不开了。只有我自己这样吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239247#reply4
+
+---
+
+#### 10501. [V2EX] 哪个模型用来查日志查问题比较快
+
+**问题描述 / Problem Description**:
+希望速度快，中等聪明即可，先查日志定位大概问题 尝试了 glm-5.3-flash ，本来以为有"flash"速度会比较快，结果体感不怎么样。 去 artificialanalysis 一看，time per task 速度比 glm-5.3 还慢。。。 看起来 gemini flash / gpt-terra / deepseek v4 flash / 是比较快、比较优的选择？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239244#reply0
+
+---
+
+#### 10502. [V2EX] deepseek 余额莫名其妙被跑光了，被迫弃用账号
+
+**问题描述 / Problem Description**:
+之前这个账户主要就是拿来跑一些小任务，用量一直不大。 结果上个月突然发现余额莫名其妙被跑光了，当时以为可能是 Key 泄露或者哪里忘记关了任务，所以直接把相关的 Key 全删了（ deepseek_auto_key 和 Default ），也就没再管。 没想到这个月又出现了同样的情况，deepseek_auto_key 又被创建了，账户里又产生了消耗。 比较奇怪的是，Key 上个月就已经删除了，按理说不应该再有新的调用。不太确定到底是哪里出了问题，也懒得继续折腾了，目前已经直接弃用这个账户。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239230#reply2
 
 ---

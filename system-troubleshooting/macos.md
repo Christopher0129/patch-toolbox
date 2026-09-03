@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9491**
+**总计条目 / Total entries: 9550**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -127683,5 +127683,772 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238560#reply3
+
+---
+
+#### 9492. Sort icons on the macos26 Desktop by reverse of "Date Created"?
+
+**问题描述 / Problem Description**:
+Tags: macos, finder, desktop | Score: 1 | Views: 35 | Answers: 1 | Created: 2026-08-10
+
+**解决方案 / Solution**:
+This is not currently possible on the actual Desktop in icon view. Finder provides Sort By > Date Created, but it does not expose a control for reversing that order. The Shift and Option keys do not modify it. The sort direction can only be reversed in a Finder window using List view: Open your Desktop folder in Finder. Choose View > as List. Enable the Date Created column if necessary. Click its column heading to switch between ascending and descending order. If the files must remain arranged directly on the Desktop, the available workaround is View > Sort By > None followed by manual positioning. Apple’s documentation likewise describes reversing the order through column headings in List view, but provides only Sort By and Clean Up By for icon view. Disclosure: I used OpenAI Codex to help research Apple’s Finder documentation and draft this answer.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486897/sort-icons-on-the-macos26-desktop-by-reverse-of-date-created
+
+---
+
+#### 9493. Have you tried even smaller window corner radius?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w66wqk/have_you_tried_even_smaller_window_corner_radius/
+
+---
+
+#### 9494. Wallpaper for MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6dzuu/wallpaper_for_macos/
+
+---
+
+#### 9495. Finally succeeded in changing the standard macOS icon.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w5xg65/finally_succeeded_in_changing_the_standard_macos/
+
+---
+
+#### 9496. Is there any better way to jump to a folder in the Mac save window?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w65qhx/is_there_any_better_way_to_jump_to_a_folder_in/
+
+---
+
+#### 9497. Why is mac Keyboard-Driven window management awkward?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6mfnk/why_is_mac_keyboarddriven_window_management/
+
+---
+
+#### 9498. Battery stuck at 100% after macOS update + 80% charge limit ignored
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6ly7l/battery_stuck_at_100_after_macos_update_80_charge/
+
+---
+
+#### 9499. Did the repair guy hack my macbook M3 or did he mess up my LCD?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w67iis/did_the_repair_guy_hack_my_macbook_m3_or_did_he/
+
+---
+
+#### 9500. Saner macOS keybindings with skhd-zig
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6jaqa/saner_macos_keybindings_with_skhdzig/
+
+---
+
+#### 9501. Hotkey to show Airdrop in Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6g9ha/hotkey_to_show_airdrop_in_finder/
+
+---
+
+#### 9502. m2 air upgrade to tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6f3lw/m2_air_upgrade_to_tahoe/
+
+---
+
+#### 9503. "Window Server quit suddenly"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6f1nq/window_server_quit_suddenly/
+
+---
+
+#### 9504. Change default view option in finder?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w654ox/change_default_view_option_in_finder/
+
+---
+
+#### 9505. Detecting the "mdworker_shared" as a malicious file, I am unable to cancel nor move to the trash
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w62g13/detecting_the_mdworker_shared_as_a_malicious_file/
+
+---
+
+#### 9506. Shortcut to create new desktop?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6d0ql/shortcut_to_create_new_desktop/
+
+---
+
+#### 9507. Icon keeps reappearing in menubar on reboot
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6ce1u/icon_keeps_reappearing_in_menubar_on_reboot/
+
+---
+
+#### 9508. Mail - how to insert blank line between numbered / bullet list?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w60rpp/mail_how_to_insert_blank_line_between_numbered/
+
+---
+
+#### 9509. Can I update my Xcode Command line tools to the latest version without updating?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w64fnr/can_i_update_my_xcode_command_line_tools_to_the/
+
+---
+
+#### 9510. OS27 backup options
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6clo2/os27_backup_options/
+
+---
+
+#### 9511. Keyboard issue on my macbook!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w60prb/keyboard_issue_on_my_macbook/
+
+---
+
+#### 9512. Is there any free way to check the health of an external SSD on macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w60pdk/is_there_any_free_way_to_check_the_health_of_an/
+
+---
+
+#### 9513. Why macOS Dictation beeps instead of turning on the mic in any text field (TIP/Solution)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w60001/why_macos_dictation_beeps_instead_of_turning_on/
+
+---
+
+#### 9514. Is it time?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w672ho/is_it_time/
+
+---
+
+#### 9515. [V2EX] 根据大家的反馈 aPaste 又迭代了一轮：本地优先的 macOS 剪贴板， Pinboard + 文件夹同步
+
+**问题描述 / Problem Description**:
+Imgur Imgur 三月在这儿发过一版 aPaste：当时就是自己 Paste 订阅要到期，业余用 SwiftUI 写了个高仿面板。 那帖之后我一直在用、一直在改，现在功能和当时相比已经有了很大的进步了，再来同步一版。 顺便搓了个官网： https://apaste.alliot.tech 这段时间增强的功能： 搜索比翻历史重要 可按类型、日期、来源 App 筛。图片开 OCR 后，图里的字也能搜到。 代码片段、回复模板、地址、品牌色放进彩色 Pinboard ，⌘← / ⌘→ 切换。 清历史时 Pinboard 不会被一起干掉。 填表、迁数据用 Stack ⌘⇧C 连续攒几条，再按顺序一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239316#reply0
+
+---
+
+#### 9516. [V2EX] 记一次 Mac 电脑中招
+
+**问题描述 / Problem Description**:
+时间是上个月，chat 自动给我升级 codex ，一堆提示词找不到了。一生气，把 codex desktop 卸载了，想找 chatgpt classic 装回来。 找到个冷门网站有，估计被挂马了。当时还是搜索结果首页，估计很多人在找。网站一打开，弹出个机器人验证窗口，类 cloudflare 那种。正常 cloudflare 的验证，不是一个 check box 点一下，或者几张照片选一选。它的不太一样。还是仿 Cloudflare 的弹窗，一个 check box 。但是这个选项框直接点不了。页面提示有条命令，让去控制台执行一下。当时脑子抽筋，不知道怎么就执行了。之后框框真能点了。 没一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239155#reply8
+
+---
+
+#### 9517. [V2EX] 有人知道这图片里的软件名字吗？
+
+**问题描述 / Problem Description**:
+有人知道图片里从左到右，第一个，第四个，和最后一个的软件名字吗？ 各位大神
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239019#reply3
+
+---
+
+#### 9518. [V2EX] Mac 上知名截图软件 CleanShot X 付费升级有效期才一年？！
+
+**问题描述 / Problem Description**:
+有点像订阅制，每年收我 130 元，老外的软件好用但真是贵。 尝试几个国内开发的截图软件，体验都不咋地。 我的是支持 2 台 Mac ，如果有老哥想和我一起分担下，可以留个联系方式，价格 65 （以后是否升级再商量）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239007#reply18
+
+---
+
+#### 9519. [V2EX] 发现 aria2c 的服务端差不多就能对付凑合替换 NDM NeatDownloadManager 啊是不是？
+
+**问题描述 / Problem Description**:
+NDM 好些年没更了，并且它也是英特尔 X86 的核心，在 arm 的 Mac 之下，需要转译。 最近也一直在凑合着用，但是最近发现他在访问某些网站的时候，疯狂地在下载点 DAT ，并且还弹窗，受不了了 好在现在有 AI 也方便了，当然也可以用 AI 来魔改一下它的相关东西，但是没想到问了一下，AI 有这种可替代性的 像 aria2c 这种东西，只要一个服务端就可以，平时内存看见只有 7MB 占用.然后下了一个 Chrome 的扩展，算是它的前台界面了。一连接上，前端和后端都解决了. 再找 NDM 的途中,看见了各种大神开发的东西，有 ghost downloader, 好像还有一些个别的,我
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238809#reply4
+
+---
+
+#### 9520. [V2EX] Stash for Mac 怎么样?
+
+**问题描述 / Problem Description**:
+话说 Stash for Mac 怎么卖这么贵, 与 Clash 系相比有什么独特的优势之处吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238647#reply15
+
+---
+
+#### 9521. [V2EX] 我做了一个更懂中文日期的 macOS 菜单栏日历：白纸日历
+
+**问题描述 / Problem Description**:
+V2EX 的朋友们好，我是「白纸日历」的开发者。 它目前免费、无广告，也有用户反馈它的界面和功能比 macOS 自带日历更好用。 我把它定位成一款为中国用户定制的中文日历，把农历、节气、节假日、调休和日程放进 Mac 菜单栏。 我做这个应用的原因很简单：在 Mac 上，我每天都会确认几次日期、星期、农历、调休和当天安排。可是这些信息分散在菜单栏、系统日历、提醒事项和节假日网页里。为了回答一个很小的问题，往往要连续打开几个地方。 于是我做了「白纸日历」：让它安静地待在菜单栏，需要时点一下，今天是什么日子、这个月怎么放假、接下来有什么安排，尽量在一个面板里看完。 利益相关：我是白纸日历的开发者。应
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238172#reply17
+
+---
+
+#### 9522. [V2EX] Mac Performance Monitor v1.7.0
+
+**问题描述 / Problem Description**:
+原生 macOS 性能分析器和日志记录器，常驻菜单栏。它会持续记录 CPU 、内存压力、GPU 、网络、磁盘、电池以及每个进程的使用情况到本地数据库，然后帮助您理解这些数据：趋势、泄漏、压力事件和设备诊断信息。[md]# Mac Performance Monitor 菜单栏概览： 一个紧凑且可配置的条目，实时显示内存压力、CPU 、GPU 、网络、磁盘和电池读数，并配有共享的详细信息面板。 仪表盘：通俗易懂的状态评估、关键指标卡片、带可选时间范围的压力时间轴、内存构成分析以及交换空间（ swap ）趋势。 进程浏览器： 一个实时、可排序、可筛选的进程列表，并附带详细检查器，可查看内存占用、C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239242#reply1
+
+---
+
+#### 9523. [V2EX] 电子产品大涨价，大家还会正常更新数码设备吗？
+
+**问题描述 / Problem Description**:
+如题，原本今年想换套苹果设备，按这个趋势，没个三五万估计入不了丐版套装。打算继续扛两年再说了，不知道大家还会如期给数码产品做更新换代吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239196#reply34
+
+---
+
+#### 9524. [V2EX] MAC Studio M5 Ultra 被延期发货
+
+**问题描述 / Problem Description**:
+原来发货时间是 10 月 24-31 日，现在给延到 12 月 5-19 日。当天开放预订后发现 M5 MAX 版本发货很早，朋友定的 128G 是 9 月 23 到货，，现在被延期我这是个例，还是普遍情况，有知道消息的吗？或也有被延期的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239084#reply30
+
+---
+
+#### 9525. [V2EX] 做了个 Mac 菜单栏备份 App， Keelhaven，开源免费
+
+**问题描述 / Problem Description**:
+用 restic 好几年了，命令行那部分我一直很信任，不信任的是我自己：定时任务不知道 什么时候起就悄悄失败了，我是过了几周才发现的。 所以做了 Keelhaven ，一个 macOS 菜单栏 App 。选文件夹、选目的地、设个频率，剩下的 它自己跑，失败了才出声。 目的地是你自己的：外置硬盘、任何 S3 兼容的桶（ B2 、R2 、Wasabi 、自建 MinIO 都行）、 或者 SFTP 到自己的 NAS 。没有账号系统，没有我的服务器，不发任何遥测——App 里根本 没有能往外发东西的地方。 几个我觉得值得说的点： 备份出来的就是 标准 restic 仓库 。任何一台机器上 restic
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239062#reply2
+
+---
+
+#### 9526. [V2EX] 有人用过 OCLP 给老电脑强制升级 macos 吗
+
+**问题描述 / Problem Description**:
+手里的电脑是 15-inch,2017, 16G 内存，2133MHz 。最新系统版本只支持到 Ventura 13.7.8 网上查到了这个工具，打算试试，有用过的朋友吗，效果咋样?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239038#reply10
+
+---
+
+#### 9527. [V2EX] 有人 App Store 订阅 claude 从 5x 升级到 20x 的吗？会退差价吗
+
+**问题描述 / Problem Description**:
+rt ，fable 5.1 一个任务给我 5h 限额干没了，任务还没干完
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238998#reply5
+
+---
+
+#### 9528. [V2EX] 各位 Apple 的 Inteler 是时候说再见了～
+
+**问题描述 / Problem Description**:
+Apple 通知开发者，要求 macOS 13 及以上的 Mac App Store 通用应用现可弃用 Intel Mac 支持，以简化开发并优化下载与设备占用。弃用后 Intel Mac 不再收到更新，但用户可继续使用最后兼容版本。 来自新 CEO 的关爱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238986#reply14
+
+---
+
+#### 9529. [V2EX] 美区苹果账户如何解封
+
+**问题描述 / Problem Description**:
+apple 账户更新 app 展示“你的账户已在 App store 和 itunes”中被禁用 https://iforgot.apple.com/password/verify/appleid 中输入 apple 账户+验证码，提示“发生错误，无法完成你的请求。请稍后再试。” 有什么解封方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238907#reply11
+
+---
+
+#### 9530. [V2EX] 发现 macOS FaceTime 比手势耶 ✌️ 会触发画面自动升气球 🎈 特效
+
+**问题描述 / Problem Description**:
+发现 macOS FaceTime 比手势耶 ✌️ 会触发画面自动升气球 🎈 特效，不清楚什么时候就有的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238650#reply6
+
+---
+
+#### 9531. [V2EX] 使用了十四年 IOS 原生输入法， IOS27 的输入法终于快把我逼疯了
+
+**问题描述 / Problem Description**:
+最近打多个词几乎每个都联想错误，以前从没有这种体验，我真的受不了了😭 已下微信和豆包输入法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238591#reply82
+
+---
+
+#### 9532. [V2EX] macOS 27 相比 26 体感上有性能提升吗
+
+**问题描述 / Problem Description**:
+如题, 我是 m4 的 mbp, 想参考下, 要不要升级 27 public beta 主观或者客观的结论都可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238457#reply19
+
+---
+
+#### 9533. [V2EX] “线上恋爱主攻中老年男，'我爸充了 9 万'”->女聊天员日赚万元->"定制 AI 手机 598 元/台"
+
+**问题描述 / Problem Description**:
+今天刷到个新闻：《起底线上恋爱交友乱象：围猎中老年男性？“公会”称“有兼职聊天员日赚 1 万”》 “我爸最近每月都在一款社交 App 充值 1 万元到 2 万元，到现在已经充了快 9 万元。”郭峰对时代周报记者抱怨称，“无论怎么劝说都没用，他还是接着往里面充钱。” 时代周报记者调查发现，多个恋爱社交平台都活跃着“兼职聊天员”群体。她们以此为业，形成一条严密的产业链。 各类求职平台充斥着“兼职聊天员”的招募信息，应聘条件相似，通常要求“18-45 岁、只招女生、性格活泼（未成年无法提现分成）”。 招聘方提供的详细“工作介绍”中，承诺每天最高推流 1000 个用户，“平均日收入 300 元至 50
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239331#reply6
+
+---
+
+#### 9534. [V2EX] 我有一个不成熟的想法，可不可以成立一个这样的公司？
+
+**问题描述 / Problem Description**:
+我有一个想法:可不可以类似货拉拉一样，成立一个机构或公司，就是从农民手中收购物美价廉的农产品，然后卖到城市里。 不过呢，首先有一个问题，就是需要了解哪里比较滞销，哪里又即时的需要这些东西，所以我想建立一个网站来促成双方的交流； 然后就是产品是否满足要求，是否以次充好，是否农药超标等，需要建立一个专门的检测机构或者结合当地如有的检测机构去检测，并建立长久的供应商； 根据不同的地区，不同的产品，可以在不同的地区成立多个小公司；当然第一步肯定是从小做起； 总的来说，希望能做成一个像胖东来的公司，能切实的解决农品的问题，说的更好一点，还可以反哺城市； 只是有可能会动了一些人的蛋糕； 有没有志同道合的人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239307#reply8
+
+---
+
+#### 9535. [V2EX] BOSS web 端按控制台，几秒后就给我自动关闭了
+
+**问题描述 / Problem Description**:
+神奇，最近想找工作，想试试一键屏蔽外包的脚本，想找一下自己的 token 结果给我自动关闭了。之前还不会这样。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239306#reply2
+
+---
+
+#### 9536. [V2EX] 在网页端通过 Link(招行双币信用卡) 成功支付 X Premium
+
+**问题描述 / Problem Description**:
+大概一个月以前用的时候，一直失败，询问招行客服是否银行限制了，被告知卡片未被限制。意识到可能是我自己用 RackNerd 搭的梯子的问题。 今天换成了 WGetcloud 的美国结点（我几乎一直使用的是美国结点），尝试支付了一下 X Premium ，成功了。正好，网页版本没有苹果税，还便宜了几块钱。 另外我发现 ChatGPT 、Claude 都能可以使用这个支付方式。但是目前只在 Apple 中订阅过 ChatGPT 和 Claude ，点击订阅的时候，均能显示出 Link 支付方式，不知道能不能在网页上成功订阅。如果能成功订阅，那是不是意味着可以多个账号开通订阅？ Claude 订阅页面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239292#reply1
+
+---
+
+#### 9537. [V2EX] 为什么 pdd 老是买完东西给我推送更便宜的同款...
+
+**问题描述 / Problem Description**:
+39 块钱买了个联想的电推子，还没收到就给我推 37 块钱的同款，虽然两块钱没一点影响，但是心里不得劲啊！ 另外说一下电推子真好用，自己 diy 剃头也挺好玩的，可以完全按照自己想法来，除了后面不太好剃。我觉得买得超级值，好玩好用、一次回本，外观也好看。如果你们购买的话可能不太建议购买联想这款，我拆开看了里面一点防水结构都没做，久了可能电路板会腐蚀，我自己给电路板涂了防水胶。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239281#reply9
+
+---
+
+#### 9538. [V2EX] 陪你慢慢长大
+
+**问题描述 / Problem Description**:
+陪你慢慢长大 2020 年 · 二月 二月，她出生了。 因为疫情的原因，她和妈妈经常在衡水和北京两地奔波。 记得她四个多月的时候，就已经坐着火车来到北京陪我了。 那时候的她还很小，小到可能还不知道，北京和衡水到底有多远，也不知道火车窗外那些不断向后退去的风景意味着什么。 但从那时候开始，我们一家人的生活，就在一次又一次的相聚和分别中慢慢展开了。 2023 年 · 第一次开车，第一次带你去看更远的地方 年初，我们买了一只小猫。 为了把小猫从老家带到北京，我们不能坐火车，只能自己开车。 因为疫情的原因，之前车一直放在老家，这也是我第一次真正开车上高速。 那天记得大概中午一点出发，250 多公里却开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239274#reply1
+
+---
+
+#### 9539. [V2EX] 用 gpt5.6 做副业的一些探讨
+
+**问题描述 / Problem Description**:
+现在的 ai 能力已经非常强大了，工作就是编写好提示词文档，扔给 codex 了 脑子里就开始想别的赚钱路子,下面是我尝试过的项目： 1.开中转站，目前开了一个，收入不稳定，可能是我不太擅长推广，好奇那些做中转站的都是买了自己的服务器吗？ 2.开 gpt 代充，依然收入不稳定，偶尔有一两个客源，最多赚个盒饭钱。 3.做 ai 图片生成网站，参考即梦。 全球收美刀，收入依然不稳定， 严重依赖 seo 流量。 4.做 ai 教培，这个收入目前还算稳定，每个月 7k-1w 的入账。 总结： 做产品，最重要的好像不是产品，而是流量（广告营销、社媒、seo ，开源） 做教培，收入稳定，但不够被动，还是以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239236#reply11
+
+---
+
+#### 9540. [V2EX] 大量印度人资源可授权其 claude/openai 等订阅号 中转站老板看过来
+
+**问题描述 / Problem Description**:
+![]( ) 你提供这种网站 我这边安排印度人上号 订阅成本印度人出 收益分 75%给到印度人即可 目前已经和一家中转站稳定合作 但他们消耗不完 懂的老板来：V:bW9tb2RhcnJy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239209#reply3
+
+---
+
+#### 9541. [V2EX] Gemini 3.8 flash 可用了
+
+**问题描述 / Problem Description**:
+水平咋样不评价。只描述 五个问题，一个 p0 ，两个 p1 ，两个 p2 ，涉及到八个文件一百五十行代码的修改。 重点：在第一轮修改中只有一处语法错误，执行 test 后，自己改好了。这方面比 3.7 要好，3.7 经常第一轮两三个文件有语法错误
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239187#reply2
+
+---
+
+#### 9542. [V2EX] 华为鸿蒙激励活动最后一个月了
+
+**问题描述 / Problem Description**:
+2025 年激励活动获得了 10w 收益 2026 年至今已经获得了 4.8w 收益，还有几万块应该这个月到账的 活动地址： https://developer.huawei.com/consumer/cn/activity/harmonyos-incentive/2026 最后一个月了 今年的活动分析 今年的活动上架非常简单，使用 uniapp 随便上架下，基本上都可以上架成功 今年的主要难点是：400 月活 所以说今年活动适合擅长宣传的人参与
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239159#reply4
+
+---
+
+#### 9543. [V2EX] 如果每个人都有一张 GPU： GPU World 10 万美元征文活动
+
+**问题描述 / Problem Description**:
+“The future is already here, it’s just unevenly distributed.” — William Gibson 在 2040 年。全球拥有相当于 80 亿张 GPU 的算力，每个人都能全年无休地使用一个前沿大模型。这里的“一人一张 GPU”是算力等价物，不要求每个人真的在家里摆一块显卡；主办方给出的参照是“一张 B300 运行当代大模型时的性能”。 会发生什么？ https://2aran.com/articles/research/topics/gpu-world-one-gpu-per-person-writing-contest
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239157#reply0
+
+---
+
+#### 9544. [V2EX] 中国大陆的谷歌账号用不了 AntiGravity，写了一篇小作文给谷歌，还真看。
+
+**问题描述 / Problem Description**:
+只需把地区改成美国加州，就能直接用上 AntiGravity 编辑器，还能最新的 Gemini 3.8 模型，真的香！ 就给谷歌的原因是经常在中国大陆生活，但有美国那边的工作，实在是没有心思去来回折腾。 晚上申请的，第二天早上就转了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239146#reply19
+
+---
+
+#### 9545. [V2EX] Antigravity IDE 没了？ 好像变成 vscode 扩展插件了
+
+**问题描述 / Problem Description**:
+今天想去下一个 antigravity ide 发现点官网下载按钮直接跳转到扩展下载的文档页面了 看了一下我原来的 antigravity ide 最后构建日期是 8 月 17 号
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239144#reply5
+
+---
+
+#### 9546. [V2EX] Muse Spark 1.3 竟然最快能达到 1000tok/s？！
+
+**问题描述 / Problem Description**:
+有人试了 Meta 这个新模型吗？ 不知道是不是我没见识，头一次见到 1000tok/s 的速度，还没用过这么快的模型。 在 Opencode 试用 Muse 新模型，直接起飞，这速度我直接站起来蹬。 『 2 轮 · 32 步| LLM 2m42s · 工具调用 21.1s| 首 token 平均 4.7s · 585 tok/s| 缓存命中 95%|』
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239132#reply3
+
+---
+
+#### 9547. [V2EX] 吐个槽：都 2026 年了 电脑竟然中病毒了
+
+**问题描述 / Problem Description**:
+经过：本想录个 Omarchy 视频分享，想随便找个开源屏幕录制程序让国产 AI 推荐一个👉 https://captura-zh.com.cn/ （警告：钓鱼网站无护甲不要打开！不要打开！）官网看着挺正常，也从来没想过谁嚣张到能把病毒木马直接裸挂网站上，下载双击一下安装程序发现桌面没有程序图标——顿时一惊已经意识到中招了 结果所料，任务管理器查看多出几个 aB8pIM.exe/gubT4QNB.exe 一眼就是病毒的进程，查杀自动重启，尝试安装火绒发现驱动安装报错，强制安装完整个火绒目录竟然被删除了——火绒没装完就直接阵亡了； Windows Defender 无法打开；尝试下载 360 发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239107#reply65
+
+---
+
+#### 9548. [V2EX] 是否所有同时带有实体卡槽与 eSIM 的手机都只能将 eSIM 置于 SIM2 的地位？
+
+**问题描述 / Problem Description**:
+是否所有同时带有实体卡槽与 eSIM 的手机都只能将 eSIM 置于 SIM2 的地位，而无法将 eSIM 置于 SIM1 的地位？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239021#reply11
+
+---
+
+#### 9549. [V2EX] 这次真要好好表扬下某东啊
+
+**问题描述 / Problem Description**:
+2020 年自营买了个西门子洗衣机,上个月搬完家,洗衣机脱水异常 想着找西门子官方能售后能靠谱点 直接找西门子维修了, 380 块 换了 3 跟减震,给京东打电话说明情况,还给我补贴了 120 现金 但洗衣机没出一周,再次出现相同故障,这次换了个西门子的人来,看来看去,解决不了.就走了 当天联系西门子客服,京东客服,发故障视频后,第二天我就把洗衣机 100 块出掉了,在拖下去劳神伤财.直接买台新的 第二天也收到京东回复,说帮我要回 380 维修费,退不了就从西门子货款里面扣.其实我没抱太大希望 西门子今天早上才给我回消息,费用无法退还,给我送点小礼品,叫我考虑下??? 后面京东也没联系我,就刚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239015#reply9
+
+---
+
+#### 9550. [V2EX] 自己的多出来的 Token 准备弄个中转站，到时候可以来一波福利。
+
+**问题描述 / Problem Description**:
+Vibe Coding 一年了，尝试了好多家 API ，竟然让我把这个生态玩明白了。终于找到一批性价比高的供应商了，最近买多了后面准备自己搭个 router 对外营业，到时候发一批福利大家来捧场，网站过几天就能上线了。前 100 评论回复的到时候给一些试用额度。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238999#reply36
 
 ---
