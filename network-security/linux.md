@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3532**
+**总计条目 / Total entries: 3554**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -51631,5 +51631,269 @@ It was discovered that Apache Tika's ISA-Tab parser incorrectly handled file pat
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8717-1
+
+---
+
+#### 3533. CVE-2026-84428 - fastify: fastify: Header validation bypass via incomplete schema case normalization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fastify: fastify: Header validation bypass via incomplete schema case normalization. Bugzilla: 2528468
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528468
+
+---
+
+#### 3534. CVE-2026-84469 - fastify: Fastify: Request validation bypass allows unauthorized operations
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fastify: Fastify: Request validation bypass allows unauthorized operations. Bugzilla: 2528458
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528458
+
+---
+
+#### 3535. CVE-2026-76169 - fastify: fastify: Authentication bypass via malformed URLs
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fastify: fastify: Authentication bypass via malformed URLs. Bugzilla: 2528456
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528456
+
+---
+
+#### 3536. CVE-2026-84504 - fastify: fastify: Unauthorized state changes and data disclosure via request body…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fastify: fastify: Unauthorized state changes and data disclosure via request body replacement. Bugzilla: 2528450
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528450
+
+---
+
+#### 3537. CVE-2026-71198 - openstack-glance: openstack-glance: SSRF via location API missing host validation
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openstack-glance: openstack-glance: SSRF via location API missing host validation. Bugzilla: 2524517
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524517
+
+---
+
+#### 3538. CVE-2026-71197 - openstack-glance: openstack-glance: SSRF blocklist bypass via hostname-to-IP…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openstack-glance: openstack-glance: SSRF blocklist bypass via hostname-to-IP resolution gap in web-download. Bugzilla: 2524518
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524518
+
+---
+
+#### 3539. CVE-2026-81665 - corosync: corosync: heap-based buffer overflow in totempg assembly buffer during…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] corosync: corosync: heap-based buffer overflow in totempg assembly buffer during fragmented message reassembly. Bugzilla: 2524910
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524910
+
+---
+
+#### 3540. CVE-2026-71196 - openstack-glance: openstack-glance: SSRF via web-download import due to empty…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openstack-glance: openstack-glance: SSRF via web-download import due to empty default host filters. Bugzilla: 2524516
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524516
+
+---
+
+#### 3541. CVE-2026-85525 - snowflake-connector-python: github.com/snowflakedb/snowflake-go: snowflake-sdk:…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] snowflake-connector-python: github.com/snowflakedb/snowflake-go: snowflake-sdk: net.snowflake/snowflake-jdbc: Snowflake Drivers: Data interception via improper OCSP response validation. Bugzilla: 2528435
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528435
+
+---
+
+#### 3542. CVE-2026-81666 - corosync: corosync: integer overflow in check_memb_commit_token_sanity may bypass…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] corosync: corosync: integer overflow in check_memb_commit_token_sanity may bypass message length validation on 32-bit systems. Bugzilla: 2524923
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524923
+
+---
+
+#### 3543. CVE-2026-85509 - FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow. Bugzilla: 2528399
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528399
+
+---
+
+#### 3544. CVE-2026-85508 - freeipmi: FreeIPMI: stack-based buffer overflow in ipmi-oem Dell system info…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] freeipmi: FreeIPMI: stack-based buffer overflow in ipmi-oem Dell system info handler. Bugzilla: 2528401
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528401
+
+---
+
+#### 3545. CVE-2026-85507 - FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow. Bugzilla: 2528396
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528396
+
+---
+
+#### 3546. CVE-2026-85506 - FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPMI: FreeIPMI: Arbitrary code execution via stack-based buffer overflow in ipmi-oem. Bugzilla: 2528398
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528398
+
+---
+
+#### 3547. CVE-2026-85505 - FreeIPMI: FreeIPMI: Denial of Service via stack-based buffer over-read in ipmi-oem
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPMI: FreeIPMI: Denial of Service via stack-based buffer over-read in ipmi-oem. Bugzilla: 2528400
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528400
+
+---
+
+#### 3548. CVE-2026-85504 - FreeIPMI: FreeIPMI: Arbitrary code execution via malformed Fujitsu System Event…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] FreeIPMI: FreeIPMI: Arbitrary code execution via malformed Fujitsu System Event Log responses. Bugzilla: 2528390
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528390
+
+---
+
+#### 3549. CVE-2026-85498 - polkit: Regression in CVE-2026-4897 fix (polkit read_cookie()) - stack buffer…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] polkit: Regression in CVE-2026-4897 fix (polkit read_cookie()) - stack buffer underflow. Bugzilla: 2528347
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528347
+
+---
+
+#### 3550. CVE-2026-77465 - toml-node: toml-node: Denial of Service via uncontrolled recursion in TOML parsing
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] toml-node: toml-node: Denial of Service via uncontrolled recursion in TOML parsing. Bugzilla: 2528258
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528258
+
+---
+
+#### 3551. CVE-2026-63376 - toml-node: toml-node: Arbitrary Code Execution via Prototype Pollution in TOML…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] toml-node: toml-node: Arbitrary Code Execution via Prototype Pollution in TOML Parsing. Bugzilla: 2528256
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528256
+
+---
+
+#### 3552. CVE-2026-85063 - csv-parse: node-csv: Prototype pollution via malicious CSV header
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] csv-parse: node-csv: Prototype pollution via malicious CSV header. Bugzilla: 2528257
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528257
+
+---
+
+#### 3553. [Ubuntu] USN-8714-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - OCFS2 file system; - SCTP protocol; (CVE-2026-53043, CVE-2026-53224, CVE-2026-53225, CVE-2026-53246, CVE-2026-53309)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8714-2
+
+---
+
+#### 3554. [Ubuntu] USN-8725-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - NVIDIA Tegra memory controller driver; - File systems infrastructure; - Network file system (NFS) server daemon; - OCFS2 file system; - B.A.T.M.A.N. meshing protocol; - Netfilter; - SCTP protocol; (CVE-2022-50401, CVE-
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8725-1
 
 ---

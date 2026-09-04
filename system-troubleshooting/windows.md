@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10502**
+**总计条目 / Total entries: 10546**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -142447,5 +142447,577 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239230#reply2
+
+---
+
+#### 10503. İs it possible for me to solve my laptop's screen's problem by hitting it so hard?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w71hx3/is_it_possible_for_me_to_solve_my_laptops_screens/
+
+---
+
+#### 10504. HIGH GPU/COU USAGE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7e1p2/high_gpucou_usage/
+
+---
+
+#### 10505. Why is there a burning wax/candle smell?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7h116/why_is_there_a_burning_waxcandle_smell/
+
+---
+
+#### 10506. Screen briefly dims for a few seconds during normal desktop use
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7fz5h/screen_briefly_dims_for_a_few_seconds_during/
+
+---
+
+#### 10507. I can't get my 9070xt to work. Game's keep freezing a minute in to play.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7fyxc/i_cant_get_my_9070xt_to_work_games_keep_freezing/
+
+---
+
+#### 10508. RTX 4070 issues on GOW Ragnarok
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7fw5d/rtx_4070_issues_on_gow_ragnarok/
+
+---
+
+#### 10509. This pops up at the bottom left of my screen when I enable DLSS in games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7fs7s/this_pops_up_at_the_bottom_left_of_my_screen_when/
+
+---
+
+#### 10510. Laptop screen slowly turns black — pressing the screen temporarily fixes it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7f3ml/laptop_screen_slowly_turns_black_pressing_the/
+
+---
+
+#### 10511. All games stuttering until I hold the windows button
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7i4d2/all_games_stuttering_until_i_hold_the_windows/
+
+---
+
+#### 10512. My bluetooth chip on my motherboard no longer works, but Windows 11 keeps reinstalling the driver and messing with my USB bluetooth receiver.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7i2ia/my_bluetooth_chip_on_my_motherboard_no_longer/
+
+---
+
+#### 10513. Keyboard keeps getting hung on a key and DCing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7hvwk/keyboard_keeps_getting_hung_on_a_key_and_dcing/
+
+---
+
+#### 10514. How can I use my SSD only for the operating system?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7hgbz/how_can_i_use_my_ssd_only_for_the_operating_system/
+
+---
+
+#### 10515. keyboard issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7guis/keyboard_issues/
+
+---
+
+#### 10516. PC stuck after trying to use reset this PC option in windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w74e1i/pc_stuck_after_trying_to_use_reset_this_pc_option/
+
+---
+
+#### 10517. Sudden performance drop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7g4c6/sudden_performance_drop/
+
+---
+
+#### 10518. win11 sound not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7g1rt/win11_sound_not_working/
+
+---
+
+#### 10519. installed new cpu cooler and the pc won't display anything on the monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7froz/installed_new_cpu_cooler_and_the_pc_wont_display/
+
+---
+
+#### 10520. Iphone 12s voice/vibration fading away muffling then it comes back and then goes back again
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7frl7/iphone_12s_voicevibration_fading_away_muffling/
+
+---
+
+#### 10521. RTX 5070 Ti — DLSS 6X and Dynamic missing after driver 616.64
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w799nx/rtx_5070_ti_dlss_6x_and_dynamic_missing_after/
+
+---
+
+#### 10522. 2 months troubleshooting on my 5070 TI
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7ffig/2_months_troubleshooting_on_my_5070_ti/
+
+---
+
+#### 10523. NVIDIA Drivers causing issue with PC?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7915o/nvidia_drivers_causing_issue_with_pc/
+
+---
+
+#### 10524. Microsoft family settings
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7ew7e/microsoft_family_settings/
+
+---
+
+#### 10525. File Explorer crashes on every second folder I attempt to rename
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7eo1j/file_explorer_crashes_on_every_second_folder_i/
+
+---
+
+#### 10526. DistributedCOM error 10016 Windows11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7el8t/distributedcom_error_10016_windows11/
+
+---
+
+#### 10527. [V2EX] 求个机场，要求速度要快，价格不要太高的， 500M 带宽这样的就行
+
+**问题描述 / Problem Description**:
+好用的机场太少了，之前用的花云的，但花云现在也很慢了。到期了不想续了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239603#reply3
+
+---
+
+#### 10528. [V2EX] SNI 白名单机制已在福建试验快 4 年之久，为何没有应用国际出口网关在上面
+
+**问题描述 / Problem Description**:
+按道理来说福建那边(比如泉州)的 SNI 白名单机制已经搞了快四年了,但终究还是只在那块地区进行实验,并没有推广到其他省份,而且福建那一块相对来说做外贸的也是非常多的,搞这个白名单会不会误伤很多做外贸的企业吗?还是说这一个的定位主要还是为了反诈? 如果是从我个人的角度来看,正常上网的影响还是比较大的,就是说朋友分享网站过来,不管是国内国外的只要不是在白名单里面的网站都打不开。科学上网来说,只能使用自签证书不然就是 vlessReality 去偷白名单里面的网站,感觉在这个地方想上网真的很难，所以说觉得这个白名单可能是因为怕大量误伤其他正规企业所以并没有推广。有没有懂行的大佬来讲一讲，这个白名单
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239595#reply9
+
+---
+
+#### 10529. [V2EX] 有佬知道有那种薄薄的小票纸，表面还有些反光的，质感很好的是哪款呢？
+
+**问题描述 / Problem Description**:
+看到 Grid Coffee 有在用，或者一些高端的饮品店 想给公司采购一些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239581#reply3
+
+---
+
+#### 10530. [V2EX] 我想问一下 Aegis 和 egis 有什么区别，是不是跟保镖的含义相接近
+
+**问题描述 / Problem Description**:
+如果保镖品类的话，shield ，aegis egis 用哪一个比较好，安保，防护哪个更贴近外国人使用习惯 问豆包 千问和 gemini 真的是都是想反驳的观点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239574#reply0
+
+---
+
+#### 10531. [V2EX] 有没有好的中文科技博客 比如昨晚 gpt6 那么多评测 早上 7 点就能听到
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239563#reply1
+
+---
+
+#### 10532. [V2EX] deepseek harness 这玩意目前还是尽量不要整插件
+
+**问题描述 / Problem Description**:
+蹦的没有道理，重启也无法继续对话了，只能卸载删干净了重装,幸亏不是那个烧钱死循环 bug,感觉要提供外部接口和这玩意隔离开才比较安全稳定
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239549#reply0
+
+---
+
+#### 10533. [V2EX] IOS 版的 V2EX 客户端 app 不能搜索么？没找着放大镜搜索框
+
+**问题描述 / Problem Description**:
+发现在 appstore 可以下载 V2EX 了，立马下载安装登录。发现没有搜索框，不给搜索么？还是我没找着?谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239546#reply9
+
+---
+
+#### 10534. [V2EX] 比亚迪新车海狮 08，怎么都说不如大唐
+
+**问题描述 / Problem Description**:
+看了一圈都说低配不如大唐，这个价格不适合。 我看了下配置感觉差的不多啊，价格和大唐差不多，不过一个 7 座一个 5 座。海狮低配高配只是四驱的差别，而且大唐 7 座，有点多了，这两种车型应该是面向不同用户的吧，一个面向家庭一个面向青年
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239524#reply2
+
+---
+
+#### 10535. [V2EX] 大家平时会用别人的邀请码注册网站或者开户之类的吗
+
+**问题描述 / Problem Description**:
+最近上网老是刷到推荐开卡开户的帖子，用他们的邀请码除了获得平台奖励，还可以获得返现（对方奖励的一部份） 非常好奇这种模式靠不靠谱 好奇大家上次用别人邀请码注册是什么场景，有没有踩过什么坑？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239511#reply1
+
+---
+
+#### 10536. [V2EX] MinMax M3 是怎么敢这么吹的?
+
+**问题描述 / Problem Description**:
+高强度用了一周, 感觉连给 deepseek 提鞋都不配吧. 都 26 年了, 居然还有主流模型基本满足不了正常使用的厂商
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239501#reply7
+
+---
+
+#### 10537. [V2EX] 计划要考今年的在职研究生
+
+**问题描述 / Problem Description**:
+计划考今年的在职研究生，主要还是考虑目前岗位上的需求，有没有交流群，或者有没有哪些前辈考过，有些经验可以借鉴的；交流下；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239484#reply8
+
+---
+
+#### 10538. [V2EX] 请问如何训练识别订单详情页里面的商品、价格、数量、封面图
+
+**问题描述 / Problem Description**:
+如题，如何纯 ios 本地识别这些呢。用 ios 自带的 vision 框架可以 ocr 到 ocr boxes ，但是都是散乱的信息，用正则表达式太机械了。。。如何才能从这些 boxes 中有效的提取出来，不用在线 api 。。纯本地。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239483#reply0
+
+---
+
+#### 10539. [V2EX] 中国的考公考编还能火多久？
+
+**问题描述 / Problem Description**:
+如题，优秀人才都跑去吃公粮了，那么民营企业如何才能发展起来？ 私企的福利什么时候才能跟得上公家的福利？ 考公考编热会一直火下去吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239471#reply82
+
+---
+
+#### 10540. [V2EX] grok4.6 的原则性太强了
+
+**问题描述 / Problem Description**:
+连个星号密码查看器都不给做 换成 composer2.5 来者不拒 嘁哩喀喳就开搞逆向 出了 grok4.5 之后好久没用 composer2.5 了 今天又试了试，体感 composer 和 grok 能力差不多，价格也差不多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239453#reply4
+
+---
+
+#### 10541. [V2EX] 安卓 app 装 300 个，然后再删除，机器前后性能有区别吗
+
+**问题描述 / Problem Description**:
+一次性安装 300 个 app ，每个 app 都允许一堆权限，比如通知发送、访问剪贴板、检测电量等等。 然后再一个个删除，请问手机前后性能会有影响吗？ Windows 应用装多了删除肯定有影响（因为注册表和很多 dll 没删干净）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239451#reply2
+
+---
+
+#### 10542. [V2EX] 《沉浸式翻译》的取代者还有多远到来？
+
+**问题描述 / Problem Description**:
+我知道这肯定需要卓越的工作，但我们会有一个也能算得上 SOTA 的翻译工具吗？当然，最好是开源的 如果有人需要原文链接： https://news.ycombinator.com/item?id=49554643#49557075
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239447#reply0
+
+---
+
+#### 10543. [V2EX] 在不考虑本地部署大模型的情况下，使用 AI agent 办公时如何尽可能确保数据安全？
+
+**问题描述 / Problem Description**:
+老板最近让在公司推广 workbuddy 、千问办公等，帮助普通员工提效。主要基于两点：一是公司现有的 MySQL 业务库，二是钉钉聊天记录和钉钉知识库。数据库还好，做权限管控和数据脱敏都比较方便。问题是基于钉钉聊天记录和知识库中的信息，怎么对文本文档进行脱敏呢？如果不脱敏，是否有限制模型不泄露数据的方法？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239445#reply7
+
+---
+
+#### 10544. [V2EX] 虽然是老话题 但还是想问下
+
+**问题描述 / Problem Description**:
+个人做的产品如何出海 收美刀啊 越简单越好 有人指点下吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239442#reply0
+
+---
+
+#### 10545. [V2EX] 秋天到了，鼻炎又犯了
+
+**问题描述 / Problem Description**:
+各位 v 友，有啥好办法吗，最近半夜起来，打喷嚏，脑壳疼的都睡不好了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239431#reply21
+
+---
+
+#### 10546. [V2EX] ios 如何给桌面的书签图标设置密码？
+
+**问题描述 / Problem Description**:
+ios 如何给桌面的书签图标设置密码？ 例如 iOS 桌面 app 那种的面容解锁或手动密码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239421#reply0
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9977**
+**总计条目 / Total entries: 10033**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -137673,5 +137673,733 @@ As indicated in man systemd.mount , the unit file name must match the Where= set
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/807264/mount-has-a-bad-unit-file-setting-need-help-with-potential-syntax-error
+
+---
+
+#### 9978. Linux 7.4 To Improve Apple Silicon Audio Support & Its "Impossible" Power Management
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w770i4/linux_74_to_improve_apple_silicon_audio_support/
+
+---
+
+#### 9979. is this actually happening? (red is linux)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6w072/is_this_actually_happening_red_is_linux/
+
+---
+
+#### 9980. Fedora 47 Considering Use Of Thin LTO Compiler Optimizations
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w7a2d5/fedora_47_considering_use_of_thin_lto_compiler/
+
+---
+
+#### 9981. A better picture of Linux desktop global marketshare
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6zvz7/a_better_picture_of_linux_desktop_global/
+
+---
+
+#### 9982. Linux kernel book ......bloody well written, too
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6w1l1/linux_kernel_book_bloody_well_written_too/
+
+---
+
+#### 9983. Grml 2026.09 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w7eawm/grml_202609_released/
+
+---
+
+#### 9984. This Month in Ladybird - August 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w7bes6/this_month_in_ladybird_august_2026/
+
+---
+
+#### 9985. Better experience with Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6v64k/better_experience_with_linux/
+
+---
+
+#### 9986. Waveline: An open-source Wave Link alternative for Linux built directly on PipeWire (C++/Qt6)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6wkz2/waveline_an_opensource_wave_link_alternative_for/
+
+---
+
+#### 9987. Why is Quickshell became the de-facto way to create custom shell?, why no body discusses AGS?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6zvem/why_is_quickshell_became_the_defacto_way_to/
+
+---
+
+#### 9988. I built GRUBST: An open-source tool to lock down the GRUB bootloader in 30 seconds with a physical USB rescue key
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w6dg3n/i_built_grubst_an_opensource_tool_to_lock_down/
+
+---
+
+#### 9989. Is there a way to combine mkdir with cd?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w6yy57/is_there_a_way_to_combine_mkdir_with_cd/
+
+---
+
+#### 9990. Used to use Arch, neovim, tiling wm/compositors and the whole nine yards. Now I enjoy the simplicity of Ubuntu. (The advice i would give for a novice me)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w707pg/used_to_use_arch_neovim_tiling_wmcompositors_and/
+
+---
+
+#### 9991. Do skilled/experienced linux users learn a new CLI tool by using the man or --help?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7557v/do_skilledexperienced_linux_users_learn_a_new_cli/
+
+---
+
+#### 9992. i need help deciding what distro to use
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7f94f/i_need_help_deciding_what_distro_to_use/
+
+---
+
+#### 9993. distroo recomendation from endeavor
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7aqsz/distroo_recomendation_from_endeavor/
+
+---
+
+#### 9994. I’m fucking done with windows.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w6tr7t/im_fucking_done_with_windows/
+
+---
+
+#### 9995. Is Linux worth switching to with only 4GB RAM and Intel UHD 610?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7azvl/is_linux_worth_switching_to_with_only_4gb_ram_and/
+
+---
+
+#### 9996. C341A 24c02
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7dupr/c341a_24c02/
+
+---
+
+#### 9997. Wireless wifi option won't connect (Linux mint)
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7c641/wireless_wifi_option_wont_connect_linux_mint/
+
+---
+
+#### 9998. Data drive shows up as Raid1
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7h36x/data_drive_shows_up_as_raid1/
+
+---
+
+#### 9999. All Advanced linux people help me and my younger brother!
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w70nvf/all_advanced_linux_people_help_me_and_my_younger/
+
+---
+
+#### 10000. [Newbie] Would you recommend me buying Thinkpad E16 Gen 3 or a Clevo laptop for Linux?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7giev/newbie_would_you_recommend_me_buying_thinkpad_e16/
+
+---
+
+#### 10001. I deleted my Audit package, requesting help recovering
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7fzmk/i_deleted_my_audit_package_requesting_help/
+
+---
+
+#### 10002. What Sector Size to use for LUK2 encryption
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7fnj5/what_sector_size_to_use_for_luk2_encryption/
+
+---
+
+#### 10003. Vesktop asks to select the same window 3 times before screen share starts xdg-desktop-wlr
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7ffdc/vesktop_asks_to_select_the_same_window_3_times/
+
+---
+
+#### 10004. Switched to fedora a month back, facing some issues...
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7eyo9/switched_to_fedora_a_month_back_facing_some_issues/
+
+---
+
+#### 10005. Just missing 2-3 windows programs.
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7em2e/just_missing_23_windows_programs/
+
+---
+
+#### 10006. Which Distro for a 2 in 1 Laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w711c9/which_distro_for_a_2_in_1_laptop/
+
+---
+
+#### 10007. Steam pop-ups are disappearing
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7e5a1/steam_popups_are_disappearing/
+
+---
+
+#### 10008. RHCSA EX200 PASSED
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7dcyy/rhcsa_ex200_passed/
+
+---
+
+#### 10009. Vesktop VC screensharing and talking at the same time issue
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w7afkj/vesktop_vc_screensharing_and_talking_at_the_same/
+
+---
+
+#### 10010. Waybar or Quickshell?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w79xod/waybar_or_quickshell/
+
+---
+
+#### 10011. Will this effectively downgrade my kernel?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w79ozo/will_this_effectively_downgrade_my_kernel/
+
+---
+
+#### 10012. Webloc files
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w79oxd/webloc_files/
+
+---
+
+#### 10013. Fed up with windows. No-fuss distro for a laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/linuxquestions discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linuxquestions/comments/1w79l5z/fed_up_with_windows_nofuss_distro_for_a_laptop/
+
+---
+
+#### 10014. [V2EX] PowerShell 转义太折腾，让我们改用脚本文件
+
+**问题描述 / Problem Description**:
+😅，看哭十亿 vibe coding 大师
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239609#reply0
+
+---
+
+#### 10015. [V2EX] deepseek-v4-flash 大家有感觉出问题吗？
+
+**问题描述 / Problem Description**:
+我线上产品调的是 deepseek ，平时做开发用 codex ，gpt 额度用完后会拿 deepseek 来顶 所以体感比较明显，大概是从昨天开始，线上突然开始出低级问题，开发用 codex 也是如此甚至一度达到不可用的程度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239608#reply0
+
+---
+
+#### 10016. [V2EX] 40 了被毕业，为了养家糊口决定弄了个浏览器端图片压缩站，求 V 友挑刺
+
+**问题描述 / Problem Description**:
+今年 40+，上半年被毕业了。 在家待了阵子，投出去的简历大多石沉大海——这个年纪，厂里不怎么缺写业务代码的。想明白一件事：与其继续挤那扇快关上的门，不如自己弄点东西，哪怕小。 决定做 出海 SaaS 。理由很朴素：国内流量太贵、太卷，而我英语还行，产品在海外自己能说清。选「图片压缩」这个切入点，是因为它刚需、高频、而且我能做出差异化—— 全程在浏览器里跑，图片不上传服务器 。隐私这个点，海外用户比国内在意得多。 开发过程（踩坑比功能多） 框架定的是 Rust 编译成 WASM 做压缩核心，前端 React + Vite SSG 。真正动手才知道坑有多深，随手记几个： 1. 跨源隔离（ COI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239602#reply0
+
+---
+
+#### 10017. [V2EX] 《财经》8 月刊自己买了国内外主流 Token 套餐，用 OpenCode 把一周额度跑干，发现国内模型比国外还要贵得多（对于个人来说）
+
+**问题描述 / Problem Description**:
+帖子 https://x.com/mylifcc/status/2095723527282291021 报道原文 https://www.163.com/dy/article/L4ILFQL60519DDOA.html 《财经》今年 7 月-8 月订阅了国内外主流 Token 套餐，通过开源智能体框架 OpenCode 重复运行同一项任务（统计谷歌 24 个季度财报中的 10 项财务指标）直至耗尽一周 Token 额度。最终根据周额度估算套餐中实际可用的月额度，并计算 1 亿 Token 均价。 如果只看按量付费的价格，中国的大模型确实便宜；但是如果对比各家的 Token 套餐，结论是国内平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239593#reply9
+
+---
+
+#### 10018. [V2EX] AI 做的 TV 应用，目前算是头 1 个了吧。
+
+**问题描述 / Problem Description**:
+上个月发了个帖子，《没想到小学毕业，也能靠 AI 做出来安卓的 APP 。》 ， 今天在那个基础上，再次利用 AI ，做了个 TV 版， 花了差不多 2 万积分应该有了， 终于做好了了， 没有广告的，可以放心下载尝试的。 tv 下载： https://www.tucao.fun/app/tucao-tv.apk TV 界面 欢迎给意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239579#reply0
+
+---
+
+#### 10019. [V2EX] 我怎么感觉今天的 luna 格外快呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239578#reply0
+
+---
+
+#### 10020. [V2EX] 更新了一下自己给 ChatGPT 使用的 MCP Server
+
+**问题描述 / Problem Description**:
+之前发过自己的 MCP Server ，主要的目的是白嫖 Chat 模式的 Token 。 最近给继续完善了一下，更新了 Computer Use 和 Skill 的兼容，今天用它控制 Blender 建了个模型，然后它自己将模型导入 Bambu Studio 切片打印。等会儿看看模型打印的怎么样，希望别翻车。 用的是 ChatGPT Free 账户，Luna 模型，这真不花一分钱白嫖了（看错了，还是用的 Plus 账户，Sol 模型，登录错账号了）。当然模型是一个简单的海缸藻盒，复杂的估计干不了。 有兴趣的可以看一下： https://github.com/dayearnew/ChatRoo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239576#reply5
+
+---
+
+#### 10021. [V2EX] Scout 是不是一个常用语
+
+**问题描述 / Problem Description**:
+一直用 gpt ，被迫灌输了 scout 的意义：原意侦察，指扫描仓库找出相关代码。 今天 gpt 卡得要死就换成了 deepseek flash 0731 ， 就说了一句“实现 xxx 会有哪些修改点，scout 一下”，结果它在那转了十分钟…… 展开 thinking 一看，一直在找 scout 是什么意思，翻了仓库没有，翻了文档没有，翻了 git log 没有……😂😂 😂大模型也有语言障碍吗，还是说 scout 是 gpt 独特用语
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239571#reply15
+
+---
+
+#### 10022. [V2EX] 关于 Harnes 测评的一些尝试 ， NXS 跑了一遍 FrontierHarness， 30 题通过 22 题，失败的题目花掉了一半成本！
+
+**问题描述 / Problem Description**:
+Runta 最近发布了一个 Coding Agent Harness 评测，名字叫 FrontierHarness Eval 。 他们让同一个 Kimi K3 跑 30 道题，每轮只更换 Agent Harness 。公开结果里，通过率从 50.0% 到 66.7%，每通过一道题的成本从 1.05 美元到 18.34 美元。 看完 发布文章 、任务和逐题结果，差距比我原先预想的大。 FrontierHarness v1.0 选了 30 道题，其中 21 道来自 Terminal-Bench ，9 道来自 DeepSWE 。Runta 测了 9 个 Harness 、12 组配置，一共跑了 36
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239534#reply0
+
+---
+
+#### 10023. [V2EX] 做了一个维护开发进度的 skill
+
+**问题描述 / Problem Description**:
+我在开发的时候经常遇到一个问题：有时突然冒出一个新需求，优先级一插队，之前记着“以后再修”的技术债就慢慢忘掉了。或者休假回来，一时想不起开发到哪了。 于是我想，有没有什么办法能让 agent 知道当前的开发状态——就做了这样一个 skill:通过维护一个 state 文档，记录当前的开发位置。 指令核心就两句： 开工：先读 docs/ STATE.md 。 收工：把 docs/ STATE.md 同步到实际进展。 STATE.md 是单文件状态页，分六节： 节 放什么 GOAL 大方向，一句话(可选——没定过就不写) NOW 现在在干嘛，卡在哪 NEXT 接下来做什么，每条带验收标准 DEBT
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239528#reply2
+
+---
+
+#### 10024. [V2EX] 还记得几年前有个 DogeDoge 搜索不？那阵子很火，现在 ai 时代了，要是它还能复活提供 ai 代理搜索功能多好
+
+**问题描述 / Problem Description**:
+应该也不会被干死了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239527#reply0
+
+---
+
+#### 10025. [V2EX] 牛哇，三大 AI 公司一起崩了，说是黑客攻击？
+
+**问题描述 / Problem Description**:
+刚看到的新闻。9 月 3 日，美国东部时间周四早间，刚坐到工位的美国打工人发现 ChatGPT 用不了了。 换 Claude ，报错。换 Grok ，还是进不去。一个上午，全球最主流的几款 AI 产品，几乎同时躺平。 OpenAI 确认，ChatGPT 和 Codex 出现问题，聊天之外，登录、文件上传、语音模式、搜索这些功能也受波及。 Anthropic 那边在调查 Claude 的错误，xAI 确认 Grok 出现故障、正在排查。Downdetector 上，OpenAI 的故障报告超过 1.2 万份，Claude 约 1200 份，Grok 约 1000 份，Gemini 和 Copil
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239512#reply2
+
+---
+
+#### 10026. [V2EX] llmdoc: 3 亿 ARR 产品都在用的 codebase memory 方案
+
+**问题描述 / Problem Description**:
+标题的说明 标题有一点夸大, 其实应该是 2.9 亿 ARR, 四舍五入其实差不多, 当然了其实是两家公司的两家产品加起来的 ARR 😭 在前司主要负责公司的 AI/Agent 建设, 同时也比较深入的参与了业务的开发, 一些开发上的尤其是 人&人, 人&AI 的协作的痛点感知还是非常清晰的. 我相信我列出的问题肯定不止一个人遇到过: AI 写的代码没有沿用默认的技术框架/方案 需要在 Coding 前不断地输入/纠正 已经有的解决方案/函数/包库没有直接用, 又造了一堆轮子 明明纠正过很多次, 同样的错误在下一次又犯病 使用的 memory 没有版本化管理, 代码回滚/合并了, memory
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239504#reply0
+
+---
+
+#### 10027. [V2EX] 发现 codex 达到 5H 限额会硬截断当前会话了
+
+**问题描述 / Problem Description**:
+我记得以前达到 5H 限额，但是当前会话未完成的话，会继续跑完本次会话的，这很合理也人性化。 后来 5H 取消掉了一段时间，现在加回来以后，我发现达到限额会硬截断当前会话了！ 这太难受了，这样硬生生截断，是不是只能后续再输入“继续”来补全工作，会不会造成混乱，或者降低运行质量呀。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239495#reply7
+
+---
+
+#### 10028. [V2EX] 微软 2FA 应用经常弹窗，提示有人登录我的微软账号。这是账号被灰尘黑了？
+
+**问题描述 / Problem Description**:
+最近手机上的微软 2FA 应用不断弹窗，提示有人尝试登录我的微软账号。白天弹，晚上也弹。改了密码也依旧这样。 有 V 友有类似的情况么？ 1.jpg 2.jpg
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239490#reply5
+
+---
+
+#### 10029. [V2EX] opencode 出新模型了，叫 Omen Alpha，输入输出价格接近 deepseek，速度飞快
+
+**问题描述 / Problem Description**:
+是否多模态和 1m 上下文暂时未知
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239487#reply34
+
+---
+
+#### 10030. [V2EX] codex 的重置卡能多张重叠吗？
+
+**问题描述 / Problem Description**:
+我之前有一张没用，今天 tibo 发推说已经发了新的，但我没有收到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239461#reply5
+
+---
+
+#### 10031. [V2EX] 远程 vibe 有啥方案啊。安卓平板好使吗？
+
+**问题描述 / Problem Description**:
+自己有台游戏本，来回背太重了。换笔记本又太贵了。毕竟现在连代码看都不看了。想着买个平板算了 安卓平板便宜大碗。就是应用离 IOS 差几个档。。不知道现有应用能满足远程 vibe 的需求吗？ 自己有台美西的高配服务器。想着是在服务器上搭建个啥服务，安卓远程连过去就好。 ssh 的话感觉对话不是太方便（自己菜鸡），3389 远程桌面的话稍显卡。最好能是浏览器连过去那种，有这种方案吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239448#reply32
+
+---
+
+#### 10032. [V2EX] 各位老哥都在用哪个中转站
+
+**问题描述 / Problem Description**:
+之前一直用的 opencode go ， 主要用 deepseek 管饱，但是涨价之后发现不够用了， 各位老哥有没有啥推荐的， 有 GPT 、deepseek 、k3 的几个模型就行， claude 用的不多，倒没啥依赖
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239436#reply14
+
+---
+
+#### 10033. [V2EX] codex 主动重置过期时间获取失败
+
+**问题描述 / Problem Description**:
+我以为是 CPA 的问题，结果使用 chatgpt 登录也无法主动重置，额度马上见底了 -。- 难道我要摸鱼等修复。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239424#reply6
 
 ---

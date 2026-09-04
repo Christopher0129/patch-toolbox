@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9550**
+**总计条目 / Total entries: 9596**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -128450,5 +128450,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1238999#reply36
+
+---
+
+#### 9551. This animation bug has existed since the introduction of the ProMotion Macbook Pro's in 2021. Can we please have this fixed already?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7awir/this_animation_bug_has_existed_since_the/
+
+---
+
+#### 9552. Pages memory leak
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7dezv/pages_memory_leak/
+
+---
+
+#### 9553. Current Tahoe Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6plpg/current_tahoe_desktop/
+
+---
+
+#### 9554. What happened to Lulu?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7e3d7/what_happened_to_lulu/
+
+---
+
+#### 9555. Planning to switch from Parallels to UTM
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7auvz/planning_to_switch_from_parallels_to_utm/
+
+---
+
+#### 9556. Mail.app decides to use a different send address from initially chosen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7f8tu/mailapp_decides_to_use_a_different_send_address/
+
+---
+
+#### 9557. macOS issues when connected to a dell docking station, external monitor mouse and keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7gd0p/macos_issues_when_connected_to_a_dell_docking/
+
+---
+
+#### 9558. Window Tiling Manager - Mac OS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7g0zv/window_tiling_manager_mac_os/
+
+---
+
+#### 9559. Imessage keeps deactivating on iphon
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7eo1g/imessage_keeps_deactivating_on_iphon/
+
+---
+
+#### 9560. Help with Routing MacBook Pro 13 (M1) Audio to iPhone for Streaming
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7ebgk/help_with_routing_macbook_pro_13_m1_audio_to/
+
+---
+
+#### 9561. anyone else frustrated about this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7cus4/anyone_else_frustrated_about_this/
+
+---
+
+#### 9562. Journal App cannot insert images
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w76d9i/journal_app_cannot_insert_images/
+
+---
+
+#### 9563. Using Mac for 3 years and still feel like an idiot
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6oblj/using_mac_for_3_years_and_still_feel_like_an_idiot/
+
+---
+
+#### 9564. I just want spotlight to show my apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6tl4c/i_just_want_spotlight_to_show_my_apps/
+
+---
+
+#### 9565. App that creates a systemwide proxy/local VPN
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w77ikh/app_that_creates_a_systemwide_proxylocal_vpn/
+
+---
+
+#### 9566. Please help, is this fixable?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w71g0j/please_help_is_this_fixable/
+
+---
+
+#### 9567. Any way to hide the 'Service Recommended' warning under the battery?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7c0tu/any_way_to_hide_the_service_recommended_warning/
+
+---
+
+#### 9568. How can I remap Command + E to close a window on Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6urhf/how_can_i_remap_command_e_to_close_a_window_on_mac/
+
+---
+
+#### 9569. Privacy & Security Settings
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6sgiz/privacy_security_settings/
+
+---
+
+#### 9570. Macbook air M1 high cpu usage (rant)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w6mu34/macbook_air_m1_high_cpu_usage_rant/
+
+---
+
+#### 9571. What free video compression software do you use? I use Сompresso.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w74p07/what_free_video_compression_software_do_you_use_i/
+
+---
+
+#### 9572. [V2EX] 开发机， i7-127k 和 M4 怎么选
+
+**问题描述 / Problem Description**:
+公司提供的机器。 I7 开发机：I7-12700k ，32 ，核显 Mac 开发机：M4 ，24 ，500G 是性能差距不大对吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238655#reply17
+
+---
+
+#### 9573. [V2EX] 今年的 iPhone 18p 系列和折叠屏的卡槽有什么确定消息吗
+
+**问题描述 / Problem Description**:
+看到有消息说 18p 系列全世界除了中国大陆都要换成全 esim ，然后折叠屏是全世界都没有实体卡槽，这个消息不知道是否真实。在考虑购买港版还是国行，如果港行 18 也确定是纯 esim 的话，那就准备趁港行 17 没涨价赶紧入 17 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239492#reply1
+
+---
+
+#### 9574. [V2EX] 求教贴， MBP 和 Mini 哪个更好一些
+
+**问题描述 / Problem Description**:
+现在正在用的是一个老款的 MBP ，老到不是 M 芯片 远古巨物 16 GB 2133 MHz LPDDR3 2.3 GHz 四核 Intel Core i5 Intel Iris Plus Graphics 655 1536 MB 想换一个新的 MAC 因为真香 主要是开发前端 （后端也要开始学）。 在纠结事 MBP 和 Mini 。 都是一样的配置 24G+1T Mini 有 M6 和 M5Pro 个人倾向于 M5Pro 最近甚至了解了官翻机 能省一分是一分的理念 或者 Mini 挂尿袋是否会经常出问题 还是说等等党永远不亏 等 M6Pro 对 MAC 配置拿不准（同时也有些选择困难症），
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239476#reply22
+
+---
+
+#### 9575. [V2EX] 7 年 setapp 绝版家庭套餐找一人，单账号双 Mac Seat
+
+**问题描述 / Problem Description**:
+19 年的 setapp 老版本家庭套餐，目前空出一个位置。 套餐详情： 双 Mac seat ，独立账号，只是登录用户名用我提供的邮箱地址（因为 25 年 4 月份开始老家庭套餐已经彻底锁死家庭成员），我提供的邮箱只是一个别名，实际通过 cloudflare email routing 直接发送邮件到你的私人邮箱，使用自己的私人邮箱通过 email OTP 登录 付款方式： 有微信群，7.47 刀/季度（原价未加价） 联系方式：c3p5aHMyNDU0Ng==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239401#reply1
+
+---
+
+#### 9576. [V2EX] 想入一台港版或者澳版台版的 iPhone1 卡槽+esim
+
+**问题描述 / Problem Description**:
+有靠谱渠道吗大佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239370#reply11
+
+---
+
+#### 9577. [V2EX] 想入一台 美版有锁 iPhone air
+
+**问题描述 / Problem Description**:
+大家有推荐的购机渠道么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239363#reply20
+
+---
+
+#### 9578. [V2EX] 电子产品大涨价，大家还会正常更新数码设备吗？
+
+**问题描述 / Problem Description**:
+如题，原本今年想换套苹果设备，按这个趋势，没个三五万估计入不了丐版套装。打算继续扛两年再说了，不知道大家还会如期给数码产品做更新换代吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239196#reply48
+
+---
+
+#### 9579. [V2EX] 有人用过 OCLP 给老电脑强制升级 macos 吗
+
+**问题描述 / Problem Description**:
+手里的电脑是 15-inch,2017, 16G 内存，2133MHz 。最新系统版本只支持到 Ventura 13.7.8 网上查到了这个工具，打算试试，有用过的朋友吗，效果咋样?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239038#reply15
+
+---
+
+#### 9580. [V2EX] 使用了十四年 IOS 原生输入法， IOS27 的输入法终于快把我逼疯了
+
+**问题描述 / Problem Description**:
+最近打多个词几乎每个都联想错误，以前从没有这种体验，我真的受不了了😭 已下微信和豆包输入法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238591#reply83
+
+---
+
+#### 9581. [V2EX] [分享创造] 业余时间做了一款 Windows + Android 跨平台影视媒体中心 MIYO，求体验与建议
+
+**问题描述 / Problem Description**:
+各位朋友好， 作为一个长期受够了网页播放器各种压缩画质、格式不兼容（特别是 HEVC/DTS ），以及传统下载软件必须等待 100% 才能看的观影爱好者，我开发了 MIYO 。 MIYO 想解决的核心问题是： 把“资料浏览 → 选源比较 → 边下边播 → 字幕校准 → 原生硬件硬解”完整收纳进一个轻量客户端中 。 核心特性一览： Windows 桌面端 ：基于 Electron 42 + 原生独立 mpv 进程 + libtorrent 2.1 引擎。支持 4K HDR10 、杜比视界色彩映射、DTS-HD 与多音轨切换。 Android 移动端 ：纯原生 Kotlin + Jetpack C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239607#reply0
+
+---
+
+#### 9582. [V2EX] GPT 生产图片提示额度已经消耗完
+
+**问题描述 / Problem Description**:
+ChatGPT 网页端图片生成是不是有 bug ？ 我手机端可以正常生成图片，但网页端一直提示“稍后创建此图像，或升级套餐立即创建”，就是生成不了。 而且我最近基本没怎么用图片生成功能，感觉也不像是额度用完了。 有人遇到一样的问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239599#reply0
+
+---
+
+#### 9583. [V2EX] 从 0 到 1 实现 agent harness 的视频教程，欢迎大家点赞收藏
+
+**问题描述 / Problem Description**:
+我在 b 站开了个坑，打算用 9 期视频从 0 到 1 实现一个 agent harness 。每期视频会落脚于 harness 的一个功能，例如第一期视频就是循环上下文，第二期视频是 harness 工具的实现。每期视频会从原理讲解到代码实现，事无巨细的为大家介绍 harness 的设计。欢迎大家点赞收藏，也欢迎大家提出宝贵的意见或建议，目前已上两期视频，明天更新第 3 期视频。 https://www.bilibili.com/video/BV1aata6UEzA/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239588#reply0
+
+---
+
+#### 9584. [V2EX] 微软真的是大善人
+
+**问题描述 / Problem Description**:
+忘记是什么时候了.从 chrome 浏览器切到了 edge 浏览器. 刚才打开一看 .已经 7w+积分了.自己没有主动做过任何任务. 朋友 n 年前就和我说过这个羊毛.但是由于国内受 pdd 荼毒太久. 对羊毛也有阴影.总感觉积分获取很麻烦.各种冷却,刁钻任务. 今天看着冰冷的 7w 积分 ,陷入了幸福之中, 不知道 v 站上面有没有其他牛人.积分更高一些? 附上 https://rewards.bing.com/welcome?rh=F11A45E5&ref=rafsrchae
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239542#reply20
+
+---
+
+#### 9585. [V2EX] 小米 token plan 的 lite 版本用 pro 模型两天就干了一半的量
+
+**问题描述 / Problem Description**:
+最近开始逐家体验各自的 token plan ，全部都买最低版本，看看对应实际的工作量到底经不经用，这才第一个，就发现两天就用了一半了，小米这个 34 块钱 41e 的 credits ，感觉有点虚啊，还是说 pro 版本，本身消耗就很大 ps：其实还有个点，就是普通的 2.5 非 pro 模型我用的这两天，经常没反应，不知道是不是用的人太多了，不管是 mimo code 还是 opencode ，经常连思考过程都进入不了，之前用 ds flash 基本没有这种问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239535#reply2
+
+---
+
+#### 9586. [V2EX] 这个网页上的类似液态玻璃的效果能获取到 Chrome 上的元素
+
+**问题描述 / Problem Description**:
+https://cleanshot.com/share/4b1y1MP9 不过试了让这个贴近 Chrome 边缘，不会获取到 Chrome 之外的元素。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239503#reply0
+
+---
+
+#### 9587. [V2EX] 最近学游泳，改变了一个刻板印象
+
+**问题描述 / Problem Description**:
+以前总觉得去健身房的都是年轻人，最近学游泳才发现，居然游泳比较多的是大叔，大妈，之前暑假的时候学生比较多，最近暑假结束了，我平时都是上午去游，基本每次都至少有一半是大叔大妈。有些是在学习的，有些是本身就会在锻炼的。 今天在休息的时候听到旁边两人聊天，都是 58 岁的。 改变了我对健身房的刻板印象。 后来想一想也很合理，因为这个年纪的退休的大叔大妈正是有时间，有精力，有钱的时候。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239498#reply17
+
+---
+
+#### 9588. [V2EX] 在 Nous Portal 上使用 Hermes Agent，首次付费月享 15 美元优惠
+
+**问题描述 / Problem Description**:
+Nous Portal 提供数百个模型，享受 20% 折扣，80% 折扣的 GPT-5.6 Luna 和 Luna Pro ，独家免费模型。 在 Nous Portal 上使用 Hermes Agent ，首次付费月享 15 美元优惠 👇 https://portal.nousresearch.com/r/zale-zhong-689e07
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239493#reply0
+
+---
+
+#### 9589. [V2EX] 真的对 gpt-6 astra 充满了期待，认为可以改变许多，除了贵
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239463#reply0
+
+---
+
+#### 9590. [V2EX] 豆包像一个天天网上冲浪的年轻人，其他 ai 怎么都像是没通网的老年人
+
+**问题描述 / Problem Description**:
+在支付宝看到一个猜图游戏，百思不得其解，求助 ai ，结果竟然是最看不上眼的豆包给出了正确的答案，而且一眼就看出了这是一个谐音梗猜图游戏。都是用的网页版，简单对话模式 豆包 gpt DeepSeek 千问 A/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239439#reply7
+
+---
+
+#### 9591. [V2EX] gemini 3.8 flash 真的香，已开通 plan ， 260JP 太超值了，支持国内的 VISA。
+
+**问题描述 / Problem Description**:
+大善人啊。。感恩。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239418#reply8
+
+---
+
+#### 9592. [V2EX] 明确说我不要 GPT Astro 模型， Tibo 有种给我 1 个月的 banked 重置卡
+
+**问题描述 / Problem Description**:
+你 Astro 价格和肥波 5 一样，我为什么用 Astro ？我又不是没有 claude 给我用的理由？ 不过重置卡 我是不嫌弃的 多多益善 对了， 老汉提醒一下， 年轻人注意身体，，连续几天，身体吃不消的 能举起来都费劲：）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239391#reply0
+
+---
+
+#### 9593. [V2EX] “线上恋爱主攻中老年男，'我爸充了 9 万'”->女聊天员日赚万元->"定制 AI 手机 598 元/台"
+
+**问题描述 / Problem Description**:
+今天刷到个新闻：《起底线上恋爱交友乱象：围猎中老年男性？“公会”称“有兼职聊天员日赚 1 万”》 “我爸最近每月都在一款社交 App 充值 1 万元到 2 万元，到现在已经充了快 9 万元。”郭峰对时代周报记者抱怨称，“无论怎么劝说都没用，他还是接着往里面充钱。” 时代周报记者调查发现，多个恋爱社交平台都活跃着“兼职聊天员”群体。她们以此为业，形成一条严密的产业链。 各类求职平台充斥着“兼职聊天员”的招募信息，应聘条件相似，通常要求“18-45 岁、只招女生、性格活泼（未成年无法提现分成）”。 招聘方提供的详细“工作介绍”中，承诺每天最高推流 1000 个用户，“平均日收入 300 元至 50
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239331#reply24
+
+---
+
+#### 9594. [V2EX] 我有一个不成熟的想法，可不可以成立一个这样的公司？
+
+**问题描述 / Problem Description**:
+我有一个想法:可不可以类似货拉拉一样，成立一个机构或公司，就是从农民手中收购物美价廉的农产品，然后卖到城市里。 不过呢，首先有一个问题，就是需要了解哪里比较滞销，哪里又即时的需要这些东西，所以我想建立一个网站来促成双方的交流； 然后就是产品是否满足要求，是否以次充好，是否农药超标等，需要建立一个专门的检测机构或者结合当地如有的检测机构去检测，并建立长久的供应商； 根据不同的地区，不同的产品，可以在不同的地区成立多个小公司；当然第一步肯定是从小做起； 总的来说，希望能做成一个像胖东来的公司，能切实的解决农品的问题，说的更好一点，还可以反哺城市； 只是有可能会动了一些人的蛋糕； 有没有志同道合的人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239307#reply16
+
+---
+
+#### 9595. [V2EX] BOSS web 端按控制台，几秒后就给我自动关闭了
+
+**问题描述 / Problem Description**:
+神奇，最近想找工作，想试试一键屏蔽外包的脚本，想找一下自己的 token 结果给我自动关闭了。之前还不会这样。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239306#reply4
+
+---
+
+#### 9596. [V2EX] 在网页端通过 Link(招行双币信用卡) 成功支付 X Premium
+
+**问题描述 / Problem Description**:
+大概一个月以前用的时候，一直失败，询问招行客服是否银行限制了，被告知卡片未被限制。意识到可能是我自己用 RackNerd 搭的梯子的问题。 今天换成了 WGetcloud 的美国结点（我几乎一直使用的是美国结点），尝试支付了一下 X Premium ，成功了。正好，网页版本没有苹果税，还便宜了几块钱。 另外我发现 ChatGPT 、Claude 都能可以使用这个支付方式。但是目前只在 Apple 中订阅过 ChatGPT 和 Claude ，点击订阅的时候，均能显示出 Link 支付方式，不知道能不能在网页上成功订阅。如果能成功订阅，那是不是意味着可以多个账号开通订阅？ Claude 订阅页面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239292#reply2
 
 ---
