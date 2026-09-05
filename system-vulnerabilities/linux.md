@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3268**
+**总计条目 / Total entries: 3280**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -58734,5 +58734,197 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8725-1
+
+---
+
+#### 3269. CVE-2026-18149 - undici: undici: Denial of Service due to orphaned response body in retry handler
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service due to orphaned response body in retry handler. Bugzilla: 2528802
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528802
+
+---
+
+#### 3270. CVE-2026-18540 - undici: undici: HTTP response splitting via retry interceptor
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: HTTP response splitting via retry interceptor. Bugzilla: 2528783
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528783
+
+---
+
+#### 3271. CVE-2026-19534 - undici: undici: Denial of Service via unrequested WebSocket subprotocol
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unrequested WebSocket subprotocol. Bugzilla: 2528759
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528759
+
+---
+
+#### 3272. CVE-2026-84890 - undici: undici: Denial of Service via unbounded decompression of compressed…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unbounded decompression of compressed responses. Bugzilla: 2528772
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528772
+
+---
+
+#### 3273. CVE-2026-84933 - undici: undici: Cross-user cookie disclosure via Set-Cookie caching
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Cross-user cookie disclosure via Set-Cookie caching. Bugzilla: 2528756
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528756
+
+---
+
+#### 3274. CVE-2026-84947 - undici: Undici: Response truncation and connection termination
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: Undici: Response truncation and connection termination. Bugzilla: 2528754
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528754
+
+---
+
+#### 3275. CVE-2026-84961 - undici: undici: TLS certificate validation bypass in BalancedPool via dropped…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options. Bugzilla: 2528735
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528735
+
+---
+
+#### 3276. CVE-2026-85008 - undici: undici: Integrity failure due to caching of unsafe HTTP method responses
+
+**严重程度 / Severity**: LOW
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Integrity failure due to caching of unsafe HTTP method responses. Bugzilla: 2528747
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528747
+
+---
+
+#### 3277. CVE-2026-85152 - undici: undici: Authentication bypass via cross-origin cache poisoning due to…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Authentication bypass via cross-origin cache poisoning due to missing origin isolation. Bugzilla: 2528717
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528717
+
+---
+
+#### 3278. CVE-2026-85014 - undici: undici: Denial of Service via WebSocketStream unclean close
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via WebSocketStream unclean close. Bugzilla: 2528712
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528712
+
+---
+
+#### 3279. CVE-2026-85024 - undici: undici: Denial of Service via unhandled error in WebSocket…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression. Bugzilla: 2528707
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528707
+
+---
+
+#### 3280. CVE-2026-85730 - smol-toml: smol-toml: Denial of Service via malformed TOML documents
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] smol-toml: smol-toml: Denial of Service via malformed TOML documents. Bugzilla: 2528569
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528569
 
 ---

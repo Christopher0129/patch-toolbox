@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9596**
+**总计条目 / Total entries: 9636**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -129048,5 +129048,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239292#reply2
+
+---
+
+#### 9597. I tried using Chrome for a day, and I'm already regretting my decision
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7wbus/i_tried_using_chrome_for_a_day_and_im_already/
+
+---
+
+#### 9598. Why does this widget not exist?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w857ju/why_does_this_widget_not_exist/
+
+---
+
+#### 9599. Neon Vision Editor 1.6.1 — free, open-source native Mac editor, with Emmet, Focus Mode, and large-file improvements
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7zzss/neon_vision_editor_161_free_opensource_native_mac/
+
+---
+
+#### 9600. Sol, a music player and jukebox app for macOS. Miss the glory days of iTunes? Want a true audiophile music player, with lots of formats and codecs? Navidrome/Subsonic support? Multicolumn and grid navigation? Sol's got you. (Free forever, Pro is a one time unlock with a 14 day trial)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8cprm/sol_a_music_player_and_jukebox_app_for_macos_miss/
+
+---
+
+#### 9601. Trying to get into an OLD mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w86z3z/trying_to_get_into_an_old_mac/
+
+---
+
+#### 9602. Muro 4.0 is out: Native Live Wallpapers for macOS, now on Intel Macs too
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7nx01/muro_40_is_out_native_live_wallpapers_for_macos/
+
+---
+
+#### 9603. I built Defi, a free and open-source scrolling window manager for macOS inspired by Niri
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8c3uw/i_built_defi_a_free_and_opensource_scrolling/
+
+---
+
+#### 9604. I’m building Pasly, a clipboard manager for macOS and iOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8ezy4/im_building_pasly_a_clipboard_manager_for_macos/
+
+---
+
+#### 9605. Kitchen Sink - Private intelligence for your Mac.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8d9qx/kitchen_sink_private_intelligence_for_your_mac/
+
+---
+
+#### 9606. FileUtils 1.7 released
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w83x1i/fileutils_17_released/
+
+---
+
+#### 9607. Burnt circuit
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8crkq/burnt_circuit/
+
+---
+
+#### 9608. Compact Contacts — a private Mac contact manager with a table view, bulk editing, and duplicate merging
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7v72j/compact_contacts_a_private_mac_contact_manager/
+
+---
+
+#### 9609. How to stop Brave Browser Helper (Alerts) popups in macOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w88sdm/how_to_stop_brave_browser_helper_alerts_popups_in/
+
+---
+
+#### 9610. Photo Library Help
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w88qlp/photo_library_help/
+
+---
+
+#### 9611. Looking for rapid, NON-secure hard drive erase app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8888b/looking_for_rapid_nonsecure_hard_drive_erase_app/
+
+---
+
+#### 9612. Screen Capturing/Recording Software Suggestions
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w86vfg/screen_capturingrecording_software_suggestions/
+
+---
+
+#### 9613. trouble display hdr (10 bit) content on an external monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7y0or/trouble_display_hdr_10_bit_content_on_an_external/
+
+---
+
+#### 9614. Misson control opens whenever I try to drag an item to menu bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w82jkz/misson_control_opens_whenever_i_try_to_drag_an/
+
+---
+
+#### 9615. Wait Menu - Native Countdowns | Calendar & iCloud Sync | Widgets
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w82c22/wait_menu_native_countdowns_calendar_icloud_sync/
+
+---
+
+#### 9616. I built OpenClip: A PopClip alternative with 100+ extensions(Free & Open Source)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w820m5/i_built_openclip_a_popclip_alternative_with_100/
+
+---
+
+#### 9617. MacOS 26 - How can I prevent Spotlight from indexing external drives BEFORE plugging them in?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7llxn/macos_26_how_can_i_prevent_spotlight_from/
+
+---
+
+#### 9618. Issues with language switcher
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7x5i8/issues_with_language_switcher/
+
+---
+
+#### 9619. TideGlass: living nature worlds for a second monitor, every one a real simulation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w7t3v2/tideglass_living_nature_worlds_for_a_second/
+
+---
+
+#### 9620. [V2EX] 开发机， i7-127k 和 M4 怎么选
+
+**问题描述 / Problem Description**:
+公司提供的机器。 I7 开发机：I7-12700k ，32 ，核显 Mac 开发机：M4 ，24 ，500G 是性能差距不大对吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238655#reply18
+
+---
+
+#### 9621. [V2EX] 今年的 iPhone 18p 系列和折叠屏的卡槽有什么确定消息吗
+
+**问题描述 / Problem Description**:
+看到有消息说 18p 系列全世界除了中国大陆都要换成全 esim ，然后折叠屏是全世界都没有实体卡槽，这个消息不知道是否真实。在考虑购买港版还是国行，如果港行 18 也确定是纯 esim 的话，那就准备趁港行 17 没涨价赶紧入 17 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239492#reply4
+
+---
+
+#### 9622. [V2EX] 求教贴， MBP 和 Mini 哪个更好一些
+
+**问题描述 / Problem Description**:
+现在正在用的是一个老款的 MBP ，老到不是 M 芯片 远古巨物 16 GB 2133 MHz LPDDR3 2.3 GHz 四核 Intel Core i5 Intel Iris Plus Graphics 655 1536 MB 想换一个新的 MAC 因为真香 主要是开发前端 （后端也要开始学）。 在纠结事 MBP 和 Mini 。 都是一样的配置 24G+1T Mini 有 M6 和 M5Pro 个人倾向于 M5Pro 最近甚至了解了官翻机 能省一分是一分的理念 或者 Mini 挂尿袋是否会经常出问题 还是说等等党永远不亏 等 M6Pro 对 MAC 配置拿不准（同时也有些选择困难症），
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239476#reply27
+
+---
+
+#### 9623. [V2EX] 7 年 setapp 绝版家庭套餐找一人，单账号双 Mac Seat
+
+**问题描述 / Problem Description**:
+19 年的 setapp 老版本家庭套餐，目前空出一个位置。 套餐详情： 双 Mac seat ，独立账号，只是登录用户名用我提供的邮箱地址（因为 25 年 4 月份开始老家庭套餐已经彻底锁死家庭成员），我提供的邮箱只是一个别名，实际通过 cloudflare email routing 直接发送邮件到你的私人邮箱，使用自己的私人邮箱通过 email OTP 登录 付款方式： 有微信群，7.47 刀/季度（原价未加价） 联系方式：c3p5aHMyNDU0Ng==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239401#reply2
+
+---
+
+#### 9624. [V2EX] 想入一台 美版有锁 iPhone air
+
+**问题描述 / Problem Description**:
+大家有推荐的购机渠道么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239363#reply23
+
+---
+
+#### 9625. [V2EX] 电子产品大涨价，大家还会正常更新数码设备吗？
+
+**问题描述 / Problem Description**:
+如题，原本今年想换套苹果设备，按这个趋势，没个三五万估计入不了丐版套装。打算继续扛两年再说了，不知道大家还会如期给数码产品做更新换代吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239196#reply49
+
+---
+
+#### 9626. [V2EX] A 股量化｜ Alphaio 量化模型沉淀平台
+
+**问题描述 / Problem Description**:
+最近发现了一个不错的量化平台，支持几十种模型，直接与数十种 AI 工具对接，注册就送 7 天体验权限 https://www.alphaio.vip/ 获取邀请码方式，联系注册页面的客服，回复 “V2ex Alphaio” 他就会给你相应的注册码。需要的抓紧，月底活动好像就结束了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239735#reply0
+
+---
+
+#### 9627. [V2EX] $10/月的 Google One Pro 中 [AI 积分羊毛] 领取位置
+
+**问题描述 / Problem Description**:
+前面看到大家谈论，但是似乎很多人都不知道这个具体的领取位置，说找不到，就顺手贴一下： https://me.developers.google.com/benefits 加入开发者计划后排第一个的就能看到。 就是说的 GCP 云积分，不是在 Google Cloud 领取，而是要加入 developers 后在 developers 的服务里领取。 薅羊毛的前置（小门槛儿）： 需要绑定支付方式后才能领，所以还不是有 Pro 就行。 羊毛 Pro 的套餐是 Google One Pro，不是 AI Pro，现在很多地方都有，最简单的闲鱼，几块钱一个。 不过这个羊毛稳定不稳定不清楚，所以建议大家还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239727#reply4
+
+---
+
+#### 9628. [V2EX] [避雷流氓雷鸟电视] 雷鸟电视的流氓视频屏保删除教程
+
+**问题描述 / Problem Description**:
+我家的雷鸟电视一直没升级，也一直没广告，屏保也一直是关着的，最近几天突然 1 分钟后自动出现什么视频屏保，里面推送了一堆视频推广广告。屏保我确定是一直都是关着的。也就是这个什么视频屏保根本不受用户控制。 我等他视频屏保出来的时候 adb 抓了一下活动窗口，发现是 com.tcl.vod 里的 com.tcl.vod.player.activity.ScreenSaverVideoActivity 还有一个什么艺术画廊也是疑点 com.tcl.appreciate.art 都可以删了 pm uninstall -k --user 0 com.tcl.appreciate.art pm unins
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239684#reply0
+
+---
+
+#### 9629. [V2EX] 用 5.6 Sol 帮忙设计了一个有点奇怪的测试 Astra 的实验
+
+**问题描述 / Problem Description**:
+发现能用 Astra 后就想做点啥来试试这个新玩具能做啥有趣的事情，但一想到自己那一坨不可名状的奇怪 repo 就畏惧了，然后就索性问 GPT （还是 5.6 Sol high ，习惯了）有啥能适合一晚上跑的项目，然后他照常推荐了个造编程语言之类的项目，总感觉有点刻板印象了，想了想索性做个太阳仪好了，然后找 GPT 开了个 prompt ，我再把我自己的项目偏好写了进去： 请注意在该项目中遵循以下的基本规则： - git discipline：每一个 commit 都必须是最小、不可拆分的功能表达闭包，每一个 commit 都必须即时 commit ，不允许一次 commit 一个巨大的变更，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239615#reply0
+
+---
+
+#### 9630. [V2EX] [分享创造] 业余时间做了一款 Windows + Android 跨平台影视媒体中心 MIYO，求体验与建议
+
+**问题描述 / Problem Description**:
+各位朋友好， 作为一个长期受够了网页播放器各种压缩画质、格式不兼容（特别是 HEVC/DTS ），以及传统下载软件必须等待 100% 才能看的观影爱好者，我开发了 MIYO 。 MIYO 想解决的核心问题是： 把“资料浏览 → 选源比较 → 边下边播 → 字幕校准 → 原生硬件硬解”完整收纳进一个轻量客户端中 。 核心特性一览： Windows 桌面端 ：基于 Electron 42 + 原生独立 mpv 进程 + libtorrent 2.1 引擎。支持 4K HDR10 、杜比视界色彩映射、DTS-HD 与多音轨切换。 Android 移动端 ：纯原生 Kotlin + Jetpack C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239607#reply1
+
+---
+
+#### 9631. [V2EX] 从 0 到 1 实现 agent harness 的视频教程，欢迎大家点赞收藏
+
+**问题描述 / Problem Description**:
+我在 b 站开了个坑，打算用 9 期视频从 0 到 1 实现一个 agent harness 。每期视频会落脚于 harness 的一个功能，例如第一期视频就是循环上下文，第二期视频是 harness 工具的实现。每期视频会从原理讲解到代码实现，事无巨细的为大家介绍 harness 的设计。欢迎大家点赞收藏，也欢迎大家提出宝贵的意见或建议，目前已上两期视频，明天更新第 3 期视频。 https://www.bilibili.com/video/BV1aata6UEzA/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239588#reply3
+
+---
+
+#### 9632. [V2EX] 微软真的是大善人
+
+**问题描述 / Problem Description**:
+忘记是什么时候了.从 chrome 浏览器切到了 edge 浏览器. 刚才打开一看 .已经 7w+积分了.自己没有主动做过任何任务. 朋友 n 年前就和我说过这个羊毛.但是由于国内受 pdd 荼毒太久. 对羊毛也有阴影.总感觉积分获取很麻烦.各种冷却,刁钻任务. 今天看着冰冷的 7w 积分 ,陷入了幸福之中, 不知道 v 站上面有没有其他牛人.积分更高一些? 附上 https://rewards.bing.com/welcome?rh=F11A45E5&ref=rafsrchae
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239542#reply28
+
+---
+
+#### 9633. [V2EX] 小米 token plan 的 lite 版本用 pro 模型两天就干了一半的量
+
+**问题描述 / Problem Description**:
+最近开始逐家体验各自的 token plan ，全部都买最低版本，看看对应实际的工作量到底经不经用，这才第一个，就发现两天就用了一半了，小米这个 34 块钱 41e 的 credits ，感觉有点虚啊，还是说 pro 版本，本身消耗就很大 ps：其实还有个点，就是普通的 2.5 非 pro 模型我用的这两天，经常没反应，不知道是不是用的人太多了，不管是 mimo code 还是 opencode ，经常连思考过程都进入不了，之前用 ds flash 基本没有这种问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239535#reply3
+
+---
+
+#### 9634. [V2EX] 最近学游泳，改变了一个刻板印象
+
+**问题描述 / Problem Description**:
+以前总觉得去健身房的都是年轻人，最近学游泳才发现，居然游泳比较多的是大叔，大妈，之前暑假的时候学生比较多，最近暑假结束了，我平时都是上午去游，基本每次都至少有一半是大叔大妈。有些是在学习的，有些是本身就会在锻炼的。 今天在休息的时候听到旁边两人聊天，都是 58 岁的。 改变了我对健身房的刻板印象。 后来想一想也很合理，因为这个年纪的退休的大叔大妈正是有时间，有精力，有钱的时候。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239498#reply18
+
+---
+
+#### 9635. [V2EX] 在 Nous Portal 上使用 Hermes Agent，首次付费月享 15 美元优惠
+
+**问题描述 / Problem Description**:
+Nous Portal 提供数百个模型，享受 20% 折扣，80% 折扣的 GPT-5.6 Luna 和 Luna Pro ，独家免费模型。 在 Nous Portal 上使用 Hermes Agent ，首次付费月享 15 美元优惠 👇 https://portal.nousresearch.com/r/zale-zhong-689e07
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239493#reply1
+
+---
+
+#### 9636. [V2EX] 豆包像一个天天网上冲浪的年轻人，其他 ai 怎么都像是没通网的老年人
+
+**问题描述 / Problem Description**:
+在支付宝看到一个猜图游戏，百思不得其解，求助 ai ，结果竟然是最看不上眼的豆包给出了正确的答案，而且一眼就看出了这是一个谐音梗猜图游戏。都是用的网页版，简单对话模式 豆包 gpt DeepSeek 千问 A/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239439#reply8
 
 ---

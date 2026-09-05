@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3554**
+**总计条目 / Total entries: 3566**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -51895,5 +51895,149 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8725-1
+
+---
+
+#### 3555. CVE-2026-18149 - undici: undici: Denial of Service due to orphaned response body in retry handler
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service due to orphaned response body in retry handler. Bugzilla: 2528802
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528802
+
+---
+
+#### 3556. CVE-2026-18540 - undici: undici: HTTP response splitting via retry interceptor
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: HTTP response splitting via retry interceptor. Bugzilla: 2528783
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528783
+
+---
+
+#### 3557. CVE-2026-19534 - undici: undici: Denial of Service via unrequested WebSocket subprotocol
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unrequested WebSocket subprotocol. Bugzilla: 2528759
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528759
+
+---
+
+#### 3558. CVE-2026-84890 - undici: undici: Denial of Service via unbounded decompression of compressed…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unbounded decompression of compressed responses. Bugzilla: 2528772
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528772
+
+---
+
+#### 3559. CVE-2026-84933 - undici: undici: Cross-user cookie disclosure via Set-Cookie caching
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Cross-user cookie disclosure via Set-Cookie caching. Bugzilla: 2528756
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528756
+
+---
+
+#### 3560. CVE-2026-84947 - undici: Undici: Response truncation and connection termination
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: Undici: Response truncation and connection termination. Bugzilla: 2528754
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528754
+
+---
+
+#### 3561. CVE-2026-84961 - undici: undici: TLS certificate validation bypass in BalancedPool via dropped…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options. Bugzilla: 2528735
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528735
+
+---
+
+#### 3562. CVE-2026-85008 - undici: undici: Integrity failure due to caching of unsafe HTTP method responses
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Integrity failure due to caching of unsafe HTTP method responses. Bugzilla: 2528747
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528747
+
+---
+
+#### 3563. CVE-2026-85152 - undici: undici: Authentication bypass via cross-origin cache poisoning due to…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Authentication bypass via cross-origin cache poisoning due to missing origin isolation. Bugzilla: 2528717
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528717
+
+---
+
+#### 3564. CVE-2026-85014 - undici: undici: Denial of Service via WebSocketStream unclean close
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via WebSocketStream unclean close. Bugzilla: 2528712
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528712
+
+---
+
+#### 3565. CVE-2026-85024 - undici: undici: Denial of Service via unhandled error in WebSocket…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression. Bugzilla: 2528707
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528707
+
+---
+
+#### 3566. CVE-2026-85730 - smol-toml: smol-toml: Denial of Service via malformed TOML documents
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] smol-toml: smol-toml: Denial of Service via malformed TOML documents. Bugzilla: 2528569
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528569
 
 ---

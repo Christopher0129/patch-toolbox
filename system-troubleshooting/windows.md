@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10546**
+**总计条目 / Total entries: 10597**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -143019,5 +143019,668 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239421#reply0
+
+---
+
+#### 10547. Where is my Windows profile photo stored?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, active-directory, user-profiles, photos | Score: 7 | Views: 888 | Answers: 1 | Created: 2026-09-03
+
+**解决方案 / Solution**:
+Based on the comments above, I was able to find my profile picture. I don't know if this process would apply to everyone but it definitely worked for me. Open the folder C:\ProgramData\Microsoft\User Account Pictures Look for a DAT file with your user name. In my case, the file name was DOMAIN-USERNAME.dat because I'm on a work computer right now. Open that file in a text editor and scroll to the bottom. Look for what looks like a file path. Mine looked like this: That's the file path to the profile picture. When I opened the folder, I saw a collection of images. They were all my profile picture, just at different sizes. NOTE: I have not tried changing my profile picture by directly editing the images found here. I'm not going to try on this computer, either, lest I anger the very nice IT people by opening a ticket to fix my account after I was editing system hidden files directly just to test something.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940103/where-is-my-windows-profile-photo-stored
+
+---
+
+#### 10548. How do I disable volume control on a Razer Blackwidow v3 Pro keyboard?
+
+**问题描述 / Problem Description**:
+Tags: windows, audio, keyboard, razer-keyboard, razer-synapse | Score: 2 | Views: 112 | Answers: 1 | Created: 2026-09-04
+
+**解决方案 / Solution**:
+To disable the volume control on a Razer keyboard: Install Razer Synapse . In Razer Synapse, open your keyboard's settings. On the image of your keyboard, hover over the volume wheel. Click the circular arrow labeled "Volume Up" In the left sidebar, select "Disable", then hit Save. Repeat this for the Volume Down key.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940146/how-do-i-disable-volume-control-on-a-razer-blackwidow-v3-pro-keyboard
+
+---
+
+#### 10549. Why does Microsoft Teams crash whenever I share my screen during a meeting with a system with an AMD GPU?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, microsoft-teams | Score: 2 | Views: 260 | Answers: 1 | Created: 2026-09-04
+
+**解决方案 / Solution**:
+I haven't found any way to permanently fix this issue yet, but at least I have found two workarounds which temporarily allows sharing the screen without crashing Microsoft Teams. The first solution involves uninstalling Microsoft Teams and reinstalling it. After reinstallation, sharing the screen during a meeting will not crash the desktop app. The downside is some app settings have to be reapplied after reinstallation. The second solution involves restarting the computer, entering the BIOS and then "Save and restart" even if nothing has been changed. Neither a simple reboot nor merely entering the BIOS is enough, as the crash will still occur. But after saving nothing in the BIOS and restarting into Windows, screen sharing will also work properly for some reasons.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940142/why-does-microsoft-teams-crash-whenever-i-share-my-screen-during-a-meeting-with
+
+---
+
+#### 10550. How to Auto-Open image files on windows-11 via WiFi (FTP) connection to a mobile device (file manager) on same network?
+
+**问题描述 / Problem Description**:
+Tags: windows-explorer, windows-11, ftp, file-sharing | Score: 1 | Views: 167 | Answers: 1 | Created: 2026-09-02
+
+**解决方案 / Solution**:
+Unlike local files or SMB network shares, an FTP connection exists only within the Explorer program specifically, like a "virtual folder" (which is why the context menu looks a bit off). Other programs, in general, cannot be simply given an ftp:// path and be expected to open it purely via OS mechanisms, they need to specifically understand the same type of URL. Previously, you would have one or two web browsers register themselves as ftp:// URL handlers, and Explorer would've passed the URL to them, and the browser would download the file (and maybe open it) like it downloads files from the web. But now the major web browsers (both Firefox and Chrome-likes) have removed FTP support and most computers have no other FTP client except for Explorer itself. Sometimes you might still have Edge registered but it no longer supports FTP just like Chrome. So in order to be able to open a file from an FTP server, the FTP client itself has to download that file to %TEMP% so that it could then be opened with a program. This is something that actually needs to be programmed in. There can't be a setting to enable a feature that doesn't already exist in the program. And I strongly suspect Windows Explorer wasn't programmed that way, because for many years it could simply assume that it could pass the FTP URLs to Internet Explorer (MSIE) as the two were tightly intertwined. (Indeed that's literally what used to happen in e.g. Windows XP – double-clicking a file from an FTP site would just launch Internet Explorer to view it.) But now that iexplore.exe has been removed and that method no longer works, I think it's safe to assume nobody has spent the time to implement direct download in Windows Explorer for a file transfer protocol that everyone's trying to get rid of. (Same goes for MTP file access over USB, which is also internal to Explorer and not visible to the rest of the OS – but in that case Explorer does have code to download and open the file via %TEMP%, since it is the primary and usually sole MTP client.) So install WinSCP and use that as your FTP client; it has the "double-click download and open" feature. (It'll also pick up ftp:// URLs from Windows Explorer and elsewhere, if you still want to use Explorer as the main FTP browser.) FileZilla is an alternative, there are probably dozens more. I use Total Commander. Most of them will likely also be faster than Explorer, which used to have rather poor FTP performance in general from what I remember. Keep in mind though that even with an FTP client that does support opening files "directly", it will still be one file at a time – i.e. the Prev/Next buttons in the image viewer won't work or at best will only go through whatever you have in Temp. To make Windows recognize an FTP connection system-wide, you'd need some equivalent to FUSE on Linux, such as Dokan or WinFSP – although from what I remember, those have clients for SFTP (a very different protocol), but probably not FTP. If you can find an FTP client built on WinFSP/Dokan/FUSE, then the FTP connection would really behave like a local folder. Alternatively, some way to run Samba (an SMB server) on your phone instead of FTP would also be useful, as Windows does have SMB support at the system level and all programs can directly access files out of an SMB share. I am sure there's a way to use WIFI only, no client software to install on the PC side. It doesn't have to be FTP, any workable method would do. Then you need to start by considering "what software is pre-installed on PCs" or "what capabilities does Windows have without any extra software" – which for Windows (ignoring the poor quality FTP client discussed above) would be: an SMB client (the network file share support), and of course an HTTP(S) client (web browser). There used to be built-in WebDAV support also, but I think that's gone now, so SMB and HTTP(S) is what you've got without any external software. Therefore you need to look either for an HTTP webserver app for your phone, or for an SMB server app (maybe Samba in termux). SMB would be the smoothest experience, however, it would need the phone to be rooted, since many SMB clients require the service to be on a specific port (445), and services on ports <1024 need root. What remains then for un-rooted phones is just HTTP, which is... basically similar situation as with FTP here, in that it's not integrated into Windows overall (aside from the I-believe-now-removed WebDAV support which was HTTP-based). You'd need to open a website that has some sort of custom file navigation, and you'd still have to download files. One last option might be the " Phone Link " app in Windows 11. I've never used it myself, so I don't know for sure what it requires – I think I've seen screenshots of it providing "seamless" file navigation through Explorer, talking to a specialized Microsoft app on the phone – I don't know if that's an option for you.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940077/how-to-auto-open-image-files-on-windows-11-via-wifi-ftp-connection-to-a-mobile
+
+---
+
+#### 10551. How can I enable dark mode in virt-viewer on Windows 10?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, virtual-machine, dark-mode, gtk-windows, spice | Score: 0 | Views: 17 | Answers: 1 | Created: 2026-09-05
+
+**解决方案 / Solution**:
+It's a GTK 3.x app. GTK3 had support for dark theme variant but from what I remember, it predates the built-in support Windows has, so there is no system integration. GTK3 will additionally read its settings from settings.ini , which is at: per-user: ~/.config/gtk-3.0/ on Linux per-user: %LocalAppData%\gtk-3.0\ on Windows (that is %UserProfile%\AppData\Local\gtk-3.0\ – at least ProcMon says that it does not look in "AppData\Roaming" as one might expect), program-specific: C:\Program Files\VirtViewer vXXXX\share\gtk-3.0\ program-specific: C:\Program Files\VirtViewer vXXXX\etc\gtk-3.0\ so create a settings.ini and set the "dark theme" option that way: %LocalAppData%\gtk-3.0\settings.ini [Settings] gtk-application-prefer-dark-theme = true There is also a built-in HighContrast theme, which in GTK3 did not yet have "proper" :dark variant, but instead had a separately-named copy HighContrastInverse : [Settings] gtk-theme-name = HighContrastInverse You can also download some third-party GTK 3.x themes, extract them to one of: per-user: %LocalAppData%\themes\<name>\gtk-3.<xx>\gtk.css per-user: %UserProfile%\.themes\<name>\... system-wide: %ProgramData%\themes\<name>\... program-specific: C:\Program Files\VirtViewer vXXXX\share\themes\<name>\... ...then select them with gtk-theme-name = Foo (sometimes Foo:dark ) if the theme has multiple variants. Also, although GTK3's Adwaita theme is light ... White ( #FFFFFF ) Not white ( #F6F5F4 ) If both of those look equally "intensely white", check if your display's color mode, gamma, and contrast settings are right. (Especially if it's one of those displays where Windows Update automatically installs a weird ICC color profile.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940157/how-can-i-enable-dark-mode-in-virt-viewer-on-windows-10
+
+---
+
+#### 10552. How can I clean up my smartphone on my PC?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, filesystems, android, disk-space, windirstat | Score: 0 | Views: 63 | Answers: 1 | Created: 2026-09-05
+
+**解决方案 / Solution**:
+In reverse order - You can't mount a phone as a drive these days . At some point android phones dropped mass storage capability (aka looking like a hard drive so you can happily simply copy over everything). You're using MTP (which is a great big abstraction). It supposedly improves security and reliability for the phone. In theory you could use ADB to push/pull files, but it wouldn't be a 1-1 copy, and much more work than a copy/paste from explorer. As such I don't really think there's a way to use windirstat on an android phone attached to a PC. (In theory in linux, there could be a MTP fuse drive, and you could potentially use a similar tool, but this is out of the scope of the question)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940151/how-can-i-clean-up-my-smartphone-on-my-pc
+
+---
+
+#### 10553. Mouse-click + Fn + Print Screen, how to type this?
+
+**问题描述 / Problem Description**:
+Tags: keyboard-shortcuts, windows-11, mouse-click, print-screen | Score: 0 | Views: 47 | Answers: 2 | Created: 2026-09-04
+
+**解决方案 / Solution**:
+Any of the following To see what pw you typed Use screen video recording (Windows gaming support) For leftclick, pause, PrtSc Use autohotkey Practice dexterity, you only need three fingers out of ten Buy a macropad or a keyboard with via or qmk support Arduino For typing and checking entered password. Type password into notepad, scrutinize it, cut & paste, don't save notepad
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940125/mouse-click-fn-print-screen-how-to-type-this
+
+---
+
+#### 10554. How to boot a SMART hard disk with an error without a functional return key?
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, laptop, keyboard, hp-pavilion | Score: 0 | Views: 69 | Answers: 1 | Created: 2026-09-02
+
+**解决方案 / Solution**:
+Simplest and cheapest method: connect a USB keyboard and proceed normally. It's possible you may need to check UEFI/BIOS settings to make sure the USB keyboard works in the pre-boot environment, but for any laptops made in the last 20 years, a USB keyboard should work without changing settings, or there will be support for it.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940092/how-to-boot-a-smart-hard-disk-with-an-error-without-a-functional-return-key
+
+---
+
+#### 10555. Windows 365 web client (windows.cloud.microsoft) disconnects when the Chrome tab is hidden or covered
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, remote-desktop | Score: 0 | Views: 46 | Answers: 1 | Created: 2026-09-01
+
+**解决方案 / Solution**:
+Is there some process you can run to keep the session alive? There are Chrome extensions such as Session Alive and Keep Session Active , which might work. Caveat: Extensions can be malicious... check before installing.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940075/windows-365-web-client-windows-cloud-microsoft-disconnects-when-the-chrome-tab
+
+---
+
+#### 10556. How do I find my Windows laptop in case of it getting stolen?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8503q/how_do_i_find_my_windows_laptop_in_case_of_it/
+
+---
+
+#### 10557. GPU causes crashes? (RTX 4060 Ti EAGLE OC 8GB)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8bk2b/gpu_causes_crashes_rtx_4060_ti_eagle_oc_8gb/
+
+---
+
+#### 10558. how to make ps4 controller play ps5 games on a linux pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8e6jl/how_to_make_ps4_controller_play_ps5_games_on_a/
+
+---
+
+#### 10559. Deleted SSD
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8c1b3/deleted_ssd/
+
+---
+
+#### 10560. Unusually high cpu and memory usage on laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8bcbc/unusually_high_cpu_and_memory_usage_on_laptop/
+
+---
+
+#### 10561. Built in Realtek(R) speakers not being identified.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8arzw/built_in_realtekr_speakers_not_being_identified/
+
+---
+
+#### 10562. HDD EXTERNAL DRIVE STILL CONNECTED TO MY PC AFTER BEING UNPLUGGED.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w868w7/hdd_external_drive_still_connected_to_my_pc_after/
+
+---
+
+#### 10563. Help with JBL Endurance Run 3 whirless Battery
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8ee9e/help_with_jbl_endurance_run_3_whirless_battery/
+
+---
+
+#### 10564. Wifi repeater cuts off internet with slight load
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8e1bk/wifi_repeater_cuts_off_internet_with_slight_load/
+
+---
+
+#### 10565. PC shuts down in inverter ups mode and restarts during gaming when mains power goes out, while remaining powered on at only cpu tasks (read the body text can't write everything here)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8e0ll/pc_shuts_down_in_inverter_ups_mode_and_restarts/
+
+---
+
+#### 10566. Suggestions for getting my GPU to post?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8dylu/suggestions_for_getting_my_gpu_to_post/
+
+---
+
+#### 10567. Pc restart loop under 0 load
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w84n8x/pc_restart_loop_under_0_load/
+
+---
+
+#### 10568. Is it possible that a faulty sata cable is making my ssd at a critical health?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8dn84/is_it_possible_that_a_faulty_sata_cable_is_making/
+
+---
+
+#### 10569. Problems with windows installation when burning iso on linux.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8494g/problems_with_windows_installation_when_burning/
+
+---
+
+#### 10570. My new computer of only 3 days keeps having this issue.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8dda2/my_new_computer_of_only_3_days_keeps_having_this/
+
+---
+
+#### 10571. No matter what i do my laptop cant use the wifi i connect to
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7zush/no_matter_what_i_do_my_laptop_cant_use_the_wifi_i/
+
+---
+
+#### 10572. Need help with a blue screen for msi gf63 thin 11uc gaming laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8d4wl/need_help_with_a_blue_screen_for_msi_gf63_thin/
+
+---
+
+#### 10573. Internet spikes 2 to 3 times per minutes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8d1h2/internet_spikes_2_to_3_times_per_minutes/
+
+---
+
+#### 10574. How do I word-compare 2 Apple Pages documents? (MacOS App)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8cunp/how_do_i_wordcompare_2_apple_pages_documents/
+
+---
+
+#### 10575. How does the DSR Factors works in a nvidia gpu? More specifically for OBS software recordings. Is the exact same of AMD Super Resolution? Which DSR Smoothness % should I pick?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w86ivz/how_does_the_dsr_factors_works_in_a_nvidia_gpu/
+
+---
+
+#### 10576. My ASUS laptop started to crack inside.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w7yxsr/my_asus_laptop_started_to_crack_inside/
+
+---
+
+#### 10577. Yakomon microphone wont connect???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8by7v/yakomon_microphone_wont_connect/
+
+---
+
+#### 10578. Error messages.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8blce/error_messages/
+
+---
+
+#### 10579. Hard Drives Disappearing/turning off while gaming.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8bklo/hard_drives_disappearingturning_off_while_gaming/
+
+---
+
+#### 10580. [V2EX] 大家有多个 Apple ID 的是绑定同一个手机号码吗
+
+**问题描述 / Problem Description**:
+查了下同一个手机号码好像可以绑定多个 Apple ID ，各位美区的 ID 和国区的绑同一个吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239755#reply0
+
+---
+
+#### 10581. [V2EX] Googledrive 和 outlook 为啥 winodws 闪退 打不开
+
+**问题描述 / Problem Description**:
+几个月没用 win 电脑 怎么会这样。。。。。。按照 ai 提示 各种补丁修复 清理缓存重装还是不行。。。。 hp 家庭版系统 hp 电脑。。。。 你么没有遇到过吗、、、。。。 win 电脑和我我的 mac 电脑都是靠 google drive 连在一起的。。咋整
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239754#reply0
+
+---
+
+#### 10582. [V2EX] 粤语里“茅庵太”是什么意思？
+
+**问题描述 / Problem Description**:
+网友问阿段怎么看孙割，阿段回复：茅庵太 问 AI 也看不懂😵😵😵 这是粤语、还是客家话的俗语吧，说的是什么含义？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239741#reply6
+
+---
+
+#### 10583. [V2EX] 兄弟们推荐几个靠谱的源码下载站
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239738#reply3
+
+---
+
+#### 10584. [V2EX] sol 的质押收益，一次 4%-5%，这种是明摆的旁氏吗
+
+**问题描述 / Problem Description**:
+电报的一些大群的项目，里面人数也有一万多人，这种项目靠谱吗，质押一次，过个 30 分钟收到收益，所以按照年化，这种项目几百上千倍的收益率。但是下次要增加质押数量才能提取，直到几百枚，就不限制。 我觉得妥妥的旁氏，有人测试过吗 我都怀疑电报群里那些人都是狗托。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239724#reply3
+
+---
+
+#### 10585. [V2EX] SponsorBar：在通知栏展示广告，赚点零花钱
+
+**问题描述 / Problem Description**:
+这个项目是通过在通知栏展示广告，从而让用户可以获得一点广告费. 大概是广告主投放的广告费，用户获得七成，而软件开发者获得三成。 上一个这么玩的好像是 Brave 浏览器。 可惜 Brave 浏览器后来经常性地屏蔽掉用户，再加上 Brave 浏览器所发的是他们自己的代币 BAT ， 贬值很厉害，所以近几年的声量越来越弱了 这一次是又一个新的玩法，占据的是用户的通知栏。反正获得 5 美元的话就可以提现了。 大家趁着项目刚开始，先薅一薅。 毕竟项目刚开始还是会积极地提现的，反正到后面支撑不住了再说。 注册地址， https://sponsorbar.io/r/cnD-jv-g-n34vyAJ 项目刚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239720#reply2
+
+---
+
+#### 10586. [V2EX] 问一下哈，你们上班的 token 是由公司支付的呢？还是自己买的？如果是自己的话，是不是选便宜用就行了？如果是公司的话，公司有没有做什么限制呢？
+
+**问题描述 / Problem Description**:
+之前的公司工作五年，从没有 AI 到有 AI ，所以什么 Token 什么工具，什么 VIP 都自己买的。 今年找了新工作，过几天入职，但忘了问 HR 这个 token 的事，只聊到工资。现在都是 AI 开发的时代，所以想问一下，各位还在职的大佬们，你们的 AI 工具还有 token 之类的，是怎么算的呢？ 如果自己买的话，以我这段时间对 token 的消耗，如果没有搞活动搞重置的话，那我的工资会缩水很多，并且这事也没办法怎么说明这些 token 就是用在公司上，而不是我自己在搞小玩意呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239718#reply8
+
+---
+
+#### 10587. [V2EX] 和朋友共用 GPT Pro 的最佳姿势是什么
+
+**问题描述 / Problem Description**:
+rt, 最近打算和现实里关系蛮好的朋友合租一个 GPT Pro 20x，想问下两个人登录同一个账号会容易导致封号吗？用 CPA 共享需要云服务器吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239698#reply2
+
+---
+
+#### 10588. [V2EX] 阿里的 coding plan 无时无刻不在 429
+
+**问题描述 / Problem Description**:
+qwen 3.8 不管哪个版本，都好用，就是阿里的算力太拉了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239690#reply3
+
+---
+
+#### 10589. [V2EX] Gmail 是挂了吗
+
+**问题描述 / Problem Description**:
+大部分 Google 服务都正常，唯独 Gmail 打不开了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239663#reply2
+
+---
+
+#### 10590. [V2EX] 现在好像还是没有电脑版的 AI 输入接入 agent 的成熟开源项目?
+
+**问题描述 / Problem Description**:
+就是后台监听语音输入和输出,然后也能类似现有 cc 这种能力(mcp/skill 之类的)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239649#reply1
+
+---
+
+#### 10591. [V2EX] 有没有手机浏览器可用的插件去屏蔽站内中转跟重置两个关键字的帖子？ 安卓平台
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239644#reply12
+
+---
+
+#### 10592. [V2EX] 有没有成色好的二手笔记本网店推荐
+
+**问题描述 / Problem Description**:
+又是上大学，今天有个同事找我推荐，吓，全新的拯救者这么贵，又比去年贵了 3000 。。。京东随便哪个新的都是 1 万以上。 电脑市场很乱，之前自己竟然花 4500 从 PPD 买了一台 thinkpad E15 。再看看那些翻新机带显卡才 3000 左右的价格。买过 2 次 PDD 的 ThinkPad 官翻机旗舰店 ，机器倒是像 99 新，E16 4199/T16 3791,但价格波动很大。 大家有买过成色好，使用稳定的网店嘛。真不应该掺合人家这种买电脑的事情，有问题麻烦多多。无奈钱包票票少。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239638#reply26
+
+---
+
+#### 10593. [V2EX] 20CM 之内的免供电单风扇能带 4K 的显卡有哪些呢？
+
+**问题描述 / Problem Description**:
+需求： 20CM 以内，最好单风扇 不要涡轮扇，太吵 免供电 能拖 4K 屏幕 至少拥有 DP + HDMI 近几年比较新的显卡 看了一圈下来貌似就 Intel 的 Arc A310 完美适配，免供电、单风扇，而且还能买到全新产品。 大家还有什么推荐的显卡吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239628#reply18
+
+---
+
+#### 10594. [V2EX] 微信物业平台小程序收缴水电费,被微信警告,需要提供公共事业单位授权
+
+**问题描述 / Problem Description**:
+rt 我们公司是做工业产业物业服务的物业公司, 园区内的水电能耗表都是自有的能耗表, 入户大表是和电力局水务局统一结算的, 园区内部的水电表都是向园区业主自主收取的。 目前已经完成了所有功能的开发及小程序上线, 但是在使用过程中,经常被微信小程序下架, 给的说明就是公共事业代收代缴的功能需要有相应公共事业单位的授权才行, 因为我们园区是全国性质的,对接的电力局各地都有,而且电力局也没有开具这种类型的先例,导致我们现在小程序只能偷摸上架,被查处到后,避避风头再上架. 请问有没有更优的解决方案,避免小程序的下架
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239626#reply16
+
+---
+
+#### 10595. [V2EX] 请问大家是怎么使用 codex 的啊，注册不了有没有什么办法
+
+**问题描述 / Problem Description**:
+请问怎么注册啊，小白一个，希望能给一个指点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239625#reply12
+
+---
+
+#### 10596. [V2EX] 公司要报销 pro 20X 了，发票的问题如何解决呢
+
+**问题描述 / Problem Description**:
+你们是直充还是其它渠道呢。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239611#reply16
+
+---
+
+#### 10597. [V2EX] 求个机场，要求速度要快，价格不要太高的， 500M 带宽这样的就行
+
+**问题描述 / Problem Description**:
+好用的机场太少了，之前用的花云的，但花云现在也很慢了。到期了不想续了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239603#reply10
 
 ---

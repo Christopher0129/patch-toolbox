@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10033**
+**总计条目 / Total entries: 10066**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -138401,5 +138401,434 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239424#reply6
+
+---
+
+#### 10034. How do i add the repo for libdvdcss on Debian 13?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 0 | Views: 8 | Answers: 1 | Created: 2026-09-05
+
+**解决方案 / Solution**:
+You need to enable the contrib component; to do that, run grep -rlZ debian.org /etc/apt/sources.list* | xargs -0 sudo sed -i.bak '/contrib/b; s/main/main contrib/' then update your repository indexes: sudo apt update You should now be able to install libdvd-pkg : sudo apt install libdvd-pkg Once that’s done, follow the instructions in /usr/share/doc/libdvd-pkg/README.Debian ; essentially, sudo dpkg-reconfigure libdvd-pkg This will build and install libdvdcss . software-properties-common isn’t available in Debian 13 but it isn’t very useful on Debian anyway.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807294/how-do-i-add-the-repo-for-libdvdcss-on-debian-13
+
+---
+
+#### 10035. The Debian Subreddit is Moving to Fluxer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w83cj3/the_debian_subreddit_is_moving_to_fluxer/
+
+---
+
+#### 10036. Mecha Comet - Modular Linux Handheld Computer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8bzw2/mecha_comet_modular_linux_handheld_computer/
+
+---
+
+#### 10037. LLVM developers begin debate over AGENTS.md for helping AI agents
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w7we5m/llvm_developers_begin_debate_over_agentsmd_for/
+
+---
+
+#### 10038. Tried Linux Mint today and here is my experience...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8e4xf/tried_linux_mint_today_and_here_is_my_experience/
+
+---
+
+#### 10039. RTL8723DE Wi-Fi disappears after reboot ( this fixed it for me )
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8bw4o/rtl8723de_wifi_disappears_after_reboot_this_fixed/
+
+---
+
+#### 10040. CLI storage and general purpose calculator bcal v2.6 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w81of7/cli_storage_and_general_purpose_calculator_bcal/
+
+---
+
+#### 10041. ManKier ― a collection of manual pages, translated from their original troff to semantic HTML5
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w7v7kl/mankier_a_collection_of_manual_pages_translated/
+
+---
+
+#### 10042. Salmon: a tray icon and desktop alerts for failing systemd services and anything else
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8aqp5/salmon_a_tray_icon_and_desktop_alerts_for_failing/
+
+---
+
+#### 10043. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply112
+
+---
+
+#### 10044. [V2EX] 难绷，太相信 ai 了😭
+
+**问题描述 / Problem Description**:
+workbuddy 的混元 3 模型，之前免费期用的还不错，感觉不比其他模型弱，一度让我重拾对混元模型的信任，结果今天调了一上午的 UI ，结果午睡前跑了个命令，一觉起来发现 UI 给我改的面目全非(ﾉ｀⊿´)ﾉ。 让回退，说某个文件删了，他没办法还原，让我自己从备份还原，这就是不看 ai 思考的后果吗🥲
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239751#reply5
+
+---
+
+#### 10045. [V2EX] google pro 在 antigravitycli 请求 gemini model 400
+
+**问题描述 / Problem Description**:
+账号是(Google AI Pro) 关联地区是新加坡。 请求 gemini 模型都是 报错 FAILED_PRECONDITION (code 400): User location is not supported for the API use. 使用 claude 模型可以，有知道为什么的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239743#reply2
+
+---
+
+#### 10046. [V2EX] 便宜模型哪家强？ Gemini 3.8 Flash GPT-5.6 Luna DeepSeek V4
+
+**问题描述 / Problem Description**:
+DeepSWE 排名：Gemini 3.8 > Luna > DeepSeek V4 Pro 各位整体的体验是咋样的 ？ 有没有说下的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239731#reply2
+
+---
+
+#### 10047. [V2EX] 一个 MonoRepo 复杂系统的部署问题
+
+**问题描述 / Problem Description**:
+我搞了一套财税系统，采用的是 MonoRepo 的构建方式。也就是说，在 APPs 目录下有几十个应用。前端全部用的是 Next.js ，后端用的是 FastAPI 。现在的问题是，代码托管在 GitHub ，镜像则通过阿里云的 ACR 来构建。 核心问题是构建速度非常慢。目前有 11 个应用，其中 4-5 个是前端，6-7 个是后端服务, 后续还在增长。问题在于，有时候我可能只修改了其中一个应用，但很难控制每次只自动构建被修改的那一个。 目前我在 GitHub 上构建时，只有一个分支，也就是 main 分支。如果单独构建每个 APP ，通常只需要 1 到 2 分钟。但一旦有十几个 APP ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239730#reply20
+
+---
+
+#### 10048. [V2EX] 本地 Coding Agent 工作台： CoDock
+
+**问题描述 / Problem Description**:
+每天在十几个终端窗口里切来切去？我做了一个本地 Coding Agent 工作台：CoDock 做日常开发时，大家应该也慢慢习惯了让各种 AI Agent 帮着写代码： A 项目用 Claude Code 跑架构重构； B 项目用 Codex 改改小 bug ； 偶尔还想切到 DeepSeek Harness 或 Gemini CLI 跑跑对比测试…… 不知不觉，电脑任务栏里就堆了七八个黑乎乎的终端窗口。 每次切窗口都在找「刚刚那个任务跑在哪个终端里？」「跑完了没有？」「上周聊过的那个思路在哪条会话里？」 在命令行里敲一段稍微长一点、带多行格式的 Prompt 更是折磨。 为了解决自己每天遇到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239712#reply0
+
+---
+
+#### 10049. [V2EX] 留学生代订 Claude 成品，没被封过
+
+**问题描述 / Problem Description**:
+https://shipbox.cloud/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239693#reply2
+
+---
+
+#### 10050. [V2EX] Windows 11 彻底关闭 Hyper-V 的办法
+
+**问题描述 / Problem Description**:
+Windows 11 Build 26200 上，Smart App Control 处于 Evaluation （评估）模式时，即使 Hyper-V/WHP/VMP/HVCI/Credential Guard 都已关闭、BCD hypervisorlaunchtype=Off ，Microsoft Windows Virtualization Based Security Policy 仍处于 Enforced 状态，并导致 Microsoft Hypervisor 实际运行。关闭 Smart App Control 后，VBS Policy 停止强制执行，Hypervisor 随之消失。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239688#reply4
+
+---
+
+#### 10051. [V2EX] 给我整乐呵了，商汤上了 deepseek v4 flash 和 pro
+
+**问题描述 / Problem Description**:
+大概率是自己部署的，不清楚量化程度，有 1M 上下文 我测试了 deepseek v4 flash ，输出比较忙，只有 40t/s 的水平（牛来水平） 目前公测，仅用免费挡位，5 小时窗口 60000 积分，周额度 600000 积分（ 10 倍 5 小时） 但是有意思的是，在我测试 deepseekv4flash 的时候，1M 的 token ，80%的缓存，大约用了 2000 积分 也就是说它 5 小时窗口有 30M 的 deepseek v4 flash ，一周有 3 亿 这个是免费的啊？ 笑，甚至还有个生图模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239687#reply24
+
+---
+
+#### 10052. [V2EX] 认真请教一个问题，关于菲区 GPT PRO
+
+**问题描述 / Problem Description**:
+我一直来都是开的美区 GPT ，想换成更划算的菲区或者其他地区的 GPT PRO 会员，额度是否一样呢？ 1 、如果不适用 sub2api ，正常登录使用 codex ，额度正常吗 使用体验有没有区别 2 、如果使用 sub2api ，让 Agent 调用，是否风控严格 有没有大佬知道呢～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239659#reply12
+
+---
+
+#### 10053. [V2EX] 我又又又重构了我的站点
+
+**问题描述 / Problem Description**:
+接上次帖子，站点重构 /t/1227951 地址： https://www.oolaf.top 1. 我又重构了我的页面 UI ，增加了黑夜白天模式，增加了 agent （虽然很弱） 2. 一点点扣细节，自我感觉相对比之前提升了很多，下面会贴图 之前的： https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp 现在的: https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-432
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239655#reply30
+
+---
+
+#### 10054. [V2EX] claude 用量重置了
+
+**问题描述 / Problem Description**:
+不知道是不是因为 gpt6 ，在上发现 Claude 用量重置了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239640#reply0
+
+---
+
+#### 10055. [V2EX] 推荐一个节省 codex 用量的插件,可以调用 ChatGPT chat 思考
+
+**问题描述 / Problem Description**:
+codex 最近又恢复了 5 小时限制,这是真难受. 而且大家应该也发现了,网页版的 chatgpt 也是非常猛的. 所以找到了这个插件 https://github.com/Zhenyu98/codex-chatgpt-bridge/blob/main/README_zh.md 可以调用 ChatGPT chat 思考,节省 codex 用量. 感觉还不错
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239632#reply4
+
+---
+
+#### 10056. [V2EX] PowerShell 转义太折腾，让我们改用脚本文件
+
+**问题描述 / Problem Description**:
+😅，看哭十亿 vibe coding 大师
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239609#reply8
+
+---
+
+#### 10057. [V2EX] deepseek-v4-flash 大家有感觉出问题吗？
+
+**问题描述 / Problem Description**:
+我线上产品调的是 deepseek ，平时做开发用 codex ，gpt 额度用完后会拿 deepseek 来顶 所以体感比较明显，大概是从昨天开始，线上突然开始出低级问题，开发用 codex 也是如此甚至一度达到不可用的程度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239608#reply21
+
+---
+
+#### 10058. [V2EX] 40 了被毕业，为了养家糊口决定弄了个浏览器端图片压缩站，求 V 友挑刺
+
+**问题描述 / Problem Description**:
+今年 40+，上半年被毕业了。 在家待了阵子，投出去的简历大多石沉大海——这个年纪，厂里不怎么缺写业务代码的。想明白一件事：与其继续挤那扇快关上的门，不如自己弄点东西，哪怕小。 决定做 出海 SaaS 。理由很朴素：国内流量太贵、太卷，而我英语还行，产品在海外自己能说清。选「图片压缩」这个切入点，是因为它刚需、高频、而且我能做出差异化—— 全程在浏览器里跑，图片不上传服务器 。隐私这个点，海外用户比国内在意得多。 开发过程（踩坑比功能多） 框架定的是 Rust 编译成 WASM 做压缩核心，前端 React + Vite SSG 。真正动手才知道坑有多深，随手记几个： 1. 跨源隔离（ COI
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239602#reply17
+
+---
+
+#### 10059. [V2EX] 《财经》8 月刊自己买了国内外主流 Token 套餐，用 OpenCode 把一周额度跑干，发现国内模型比国外还要贵得多（对于个人来说）
+
+**问题描述 / Problem Description**:
+帖子 https://x.com/mylifcc/status/2095723527282291021 报道原文 https://www.163.com/dy/article/L4ILFQL60519DDOA.html 《财经》今年 7 月-8 月订阅了国内外主流 Token 套餐，通过开源智能体框架 OpenCode 重复运行同一项任务（统计谷歌 24 个季度财报中的 10 项财务指标）直至耗尽一周 Token 额度。最终根据周额度估算套餐中实际可用的月额度，并计算 1 亿 Token 均价。 如果只看按量付费的价格，中国的大模型确实便宜；但是如果对比各家的 Token 套餐，结论是国内平台
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239593#reply16
+
+---
+
+#### 10060. [V2EX] AI 做的 TV 应用，目前算是头 1 个了吧。
+
+**问题描述 / Problem Description**:
+上个月发了个帖子，《没想到小学毕业，也能靠 AI 做出来安卓的 APP 。》 ， 今天在那个基础上，再次利用 AI ，做了个 TV 版， 花了差不多 2 万积分应该有了， 终于做好了了， 没有广告的，可以放心下载尝试的。 tv 下载： https://www.tucao.fun/app/tucao-tv.apk TV 界面 欢迎给意见
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239579#reply4
+
+---
+
+#### 10061. [V2EX] 更新了一下自己给 ChatGPT 使用的 MCP Server
+
+**问题描述 / Problem Description**:
+之前发过自己的 MCP Server ，主要的目的是白嫖 Chat 模式的 Token 。 最近给继续完善了一下，更新了 Computer Use 和 Skill 的兼容，今天用它控制 Blender 建了个模型，然后它自己将模型导入 Bambu Studio 切片打印。等会儿看看模型打印的怎么样，希望别翻车。 用的是 ChatGPT Free 账户，Luna 模型，这真不花一分钱白嫖了（看错了，还是用的 Plus 账户，Sol 模型，登录错账号了）。当然模型是一个简单的海缸藻盒，复杂的估计干不了。 有兴趣的可以看一下： https://github.com/dayearnew/ChatRoo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239576#reply8
+
+---
+
+#### 10062. [V2EX] Scout 是不是一个常用语
+
+**问题描述 / Problem Description**:
+一直用 gpt ，被迫灌输了 scout 的意义：原意侦察，指扫描仓库找出相关代码。 今天 gpt 卡得要死就换成了 deepseek flash 0731 ， 就说了一句“实现 xxx 会有哪些修改点，scout 一下”，结果它在那转了十分钟…… 展开 thinking 一看，一直在找 scout 是什么意思，翻了仓库没有，翻了文档没有，翻了 git log 没有……😂😂 😂大模型也有语言障碍吗，还是说 scout 是 gpt 独特用语
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239571#reply21
+
+---
+
+#### 10063. Which hooks / events can one use in Linux to fire when the IPv6 IP address changes?
+
+**问题描述 / Problem Description**:
+Tags: linux, networking, dns, ipv6 | Score: 0 | Views: 42 | Answers: 3 | Created: 2026-09-05
+
+**解决方案 / Solution**:
+It depends on which system you're using for managing network configuration: plain kernel or systemd-networkd is rather optimized for use cases where the IP(v6) addresses are either static (and DNS registration is handled elsewhere), or anonymized (and you don't particularly want yourself identified). Even so, there would be event interfaces you could plug into and listen for change events - but it would be a bit more complicated than just dropping a shell script in a particular directory. But if you are e.g. using NetworkManager, then you can place scripts in /etc/NetworkManager/dispatcher.d that will be called with appropriate parameters on any relevant events; see man NetworkManager-dispatcher for details.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807285/which-hooks-events-can-one-use-in-linux-to-fire-when-the-ipv6-ip-address-chang
+
+---
+
+#### 10064. How to extend a LVM2 virtual partition which is the root of the system?
+
+**问题描述 / Problem Description**:
+Tags: debian, lvm | Score: 0 | Views: 33 | Answers: 1 | Created: 2026-09-04
+
+**解决方案 / Solution**:
+You’ve already resized the partition itself ( /dev/sda3 ), but not the PV. That’s the next step: pvresize /dev/sda3 This will make the added space available to LVM. You should then be able to resize the LV: lvresize -r -l+100%FREE debian-vg/root This will resize the LV itself using all the available free space, and resize the file system ( -r ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807272/how-to-extend-a-lvm2-virtual-partition-which-is-the-root-of-the-system
+
+---
+
+#### 10065. Can't Install GCC Adapter Overclock
+
+**问题描述 / Problem Description**:
+Tags: debian, kernel-modules, games, emulation | Score: -3 | Views: 65 | Answers: 1 | Created: 2026-05-17
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806030/cant-install-gcc-adapter-overclock
+
+---
+
+#### 10066. How to restore Debian secure boot keys?
+
+**问题描述 / Problem Description**:
+Tags: debian, snap, secure-boot | Score: -4 | Views: 128 | Answers: 1 | Created: 2026-08-10
+
+**解决方案 / Solution**:
+Refer to the original page for detailed solutions and community answers.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/806966/how-to-restore-debian-secure-boot-keys
 
 ---
