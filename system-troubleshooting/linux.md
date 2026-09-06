@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10066**
+**总计条目 / Total entries: 10094**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -138830,5 +138830,369 @@ Refer to the original page for detailed solutions and community answers.
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/806966/how-to-restore-debian-secure-boot-keys
+
+---
+
+#### 10067. Slackware 16 Alpha 1 Available Following GCC 16.2, Glibc 2.44 & Binutils 2.47 Upgrade
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w96px4/slackware_16_alpha_1_available_following_gcc_162/
+
+---
+
+#### 10068. What's your favorite 'cool' UI?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9807a/whats_your_favorite_cool_ui/
+
+---
+
+#### 10069. Aha! Good stuffs are coming! Slackware Linux 16 in the offing!!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8f5e3/aha_good_stuffs_are_coming_slackware_linux_16_in/
+
+---
+
+#### 10070. [ANN] Qtractor 1.6.4 - A Late-Summer'26 Hotfix Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w8rgef/ann_qtractor_164_a_latesummer26_hotfix_release/
+
+---
+
+#### 10071. OmenCtl is now omen-space and rust based
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9118a/omenctl_is_now_omenspace_and_rust_based/
+
+---
+
+#### 10072. [RELEASE] PowerVLC 2.1: stabilizing the colossus
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w97ku8/release_powervlc_21_stabilizing_the_colossus/
+
+---
+
+#### 10073. I made a subreddit for Linux users
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w955vx/i_made_a_subreddit_for_linux_users/
+
+---
+
+#### 10074. [V2EX] crPhotos - 支持 Linux 的瀑布流模式的照片浏览器
+
+**问题描述 / Problem Description**:
+免费下载 https://github.com/libcr/crPhotos/releases crPhotos 是一款 C++开发的照片和视频浏览器 基于源代码 chromium 150.0.7871.91 支持 GPU 渲染加速，硬件解码，AI 协助开发的应用软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239759#reply6
+
+---
+
+#### 10075. [V2EX] $1000 的 Google Cloud Credit，还有一个月过期，做点什么好呢？
+
+**问题描述 / Problem Description**:
+不知道什么时候送的 Trial credit for GenAI App Builder ，$1000 大家有什么想试的点子，我可以试着 vibe coding 一个给大家玩玩 或者现成的 github 也可以，争取一个月把 credit 用完
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239885#reply1
+
+---
+
+#### 10076. [V2EX] 失业进入第 3 个月了， 6 月底走的同学上岸了吗
+
+**问题描述 / Problem Description**:
+进入 9 月貌似招聘的岗也不多，而且现在招聘要么 AI 全栈、要么 AI Agent ，还要有经验。看来得润色润色简历了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239871#reply2
+
+---
+
+#### 10077. [V2EX] 大佬们，有没有什么工具能操作游戏
+
+**问题描述 / Problem Description**:
+RT 小弟是安卓游戏优化开发，有部分工作是需要自己操作游戏跑图采集数据看表现，挺麻烦的 想问下大佬们有没有什么工具或者 AI 类的能实现这部分需求 游戏跑图大概就是原神星铁洛克王国那种跑图
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239869#reply2
+
+---
+
+#### 10078. [V2EX] Codex 出 BUG 了，沙盒无法访问，会发重置卡吗
+
+**问题描述 / Problem Description**:
+今天（ 2026 年 9 月 6 日），Codex Windows 端更新到最新版本后，所有对话都报类似 「访问被拒绝」和 「 spawn EPERM 」且无法向用户申请权限授权。沙盒无法正常访问了，任何设置都无效。Mac 端情况未知。 该 BUG 导致 Codex 无法对项目进行编译、部署、验收和调试。 GPT6 Astra 才发布一天，Codex 就掉链子。 Tibo 会发重置卡，安慰我们受伤的心灵吗？ 附 GitHub issues 现场链接： https://github.com/openai/codex/issues/21470
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239857#reply1
+
+---
+
+#### 10079. [V2EX] 失业后做的第一个出海网站，大家帮我看看行吗？
+
+**问题描述 / Problem Description**:
+excle 表格脏数据清洗： www.sheetwash.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239837#reply13
+
+---
+
+#### 10080. [V2EX] 折腾了大半年的 Go 版编码 Agent 桌面端，来分享下 (Ally)
+
+**问题描述 / Problem Description**:
+之前一直是 kimicode/opencode 重度用户(比较反感 claude 所以 cc 用的不是特别多)，后来 DeepSeek 火了想换个便宜的模型接着用，结果发现各种 harness 要么是命令行套壳不好用，要么协议支持不全（很多只认 OpenAI chat ，Anthropic Messages 和 Responses 格式的中转直接歇菜），要么在那折腾 powershell 给自己找麻烦。 后来自己写了一个，写着写着就成了个完整桌面应用，如今已经迭代了几十个版本，日常工作已经完全平替，分享出来。 先放地址： https://github.com/Bronya0/ally-agen
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239828#reply3
+
+---
+
+#### 10081. [V2EX] Palantir 资深 FDE 深度采访 OpenAI FDE 负责人：真正的 FDE 如何推进企业落地 AI
+
+**问题描述 / Problem Description**:
+绝对干货，我把 Palantir 干了十年的 FDE 与 OpenAI FDE 负责人 Colin Jarvis 深度采访做了中英文视频翻译，聊聊真正的 FDE 实际企业 AI 落地的工作，分享了三个企业成功案例：摩根斯坦利、半导体。国内大部分自称 “FDE” 出来糊弄的 AI 真正进入企业，难的往往不是把 Demo 做出来 真正困难的是：进入客户真实业务，解决真实问题，让员工敢用、愿意用，最后还能变成可复制的产品 这也是 FDE （ Forward Deployed Engineer ）正在做的事情。 这次分享一场非常值得看的 40 分钟深度采访：Palantir 资深 FDE 与 Open
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239827#reply3
+
+---
+
+#### 10082. [V2EX] 我把 OpenAI 赞助的 Pro 20x 免费给贡献者使用, 一个月后因为破甲被封号了
+
+**问题描述 / Problem Description**:
+https://github.com/leookun/cursor-byok/issues/289
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239825#reply2
+
+---
+
+#### 10083. [V2EX] SaaS 产品上架
+
+**问题描述 / Problem Description**:
+最近做了一款产品，健身房管理系统，功能算是齐全，要给商户使用，这种上架哪些平台，或者其他方式推广比较好😊，淘宝，多多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239768#reply8
+
+---
+
+#### 10084. [V2EX] 难绷，太相信 ai 了😭
+
+**问题描述 / Problem Description**:
+workbuddy 的混元 3 模型，之前免费期用的还不错，感觉不比其他模型弱，一度让我重拾对混元模型的信任，结果今天调了一上午的 UI ，结果午睡前跑了个命令，一觉起来发现 UI 给我改的面目全非(ﾉ｀⊿´)ﾉ。 让回退，说某个文件删了，他没办法还原，让我自己从备份还原，这就是不看 ai 思考的后果吗🥲
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239751#reply67
+
+---
+
+#### 10085. [V2EX] google pro 在 antigravitycli 请求 gemini model 400
+
+**问题描述 / Problem Description**:
+账号是(Google AI Pro) 关联地区是新加坡。 请求 gemini 模型都是 报错 FAILED_PRECONDITION (code 400): User location is not supported for the API use. 使用 claude 模型可以，有知道为什么的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239743#reply3
+
+---
+
+#### 10086. [V2EX] 便宜模型哪家强？ Gemini 3.8 Flash GPT-5.6 Luna DeepSeek V4
+
+**问题描述 / Problem Description**:
+DeepSWE 排名：Gemini 3.8 > Luna > DeepSeek V4 Pro 各位整体的体验是咋样的 ？ 有没有说下的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239731#reply5
+
+---
+
+#### 10087. [V2EX] 一个 MonoRepo 复杂系统的部署问题
+
+**问题描述 / Problem Description**:
+我搞了一套财税系统，采用的是 MonoRepo 的构建方式。也就是说，在 APPs 目录下有几十个应用。前端全部用的是 Next.js ，后端用的是 FastAPI 。现在的问题是，代码托管在 GitHub ，镜像则通过阿里云的 ACR 来构建。 核心问题是构建速度非常慢。目前有 11 个应用，其中 4-5 个是前端，6-7 个是后端服务, 后续还在增长。问题在于，有时候我可能只修改了其中一个应用，但很难控制每次只自动构建被修改的那一个。 目前我在 GitHub 上构建时，只有一个分支，也就是 main 分支。如果单独构建每个 APP ，通常只需要 1 到 2 分钟。但一旦有十几个 APP ，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239730#reply24
+
+---
+
+#### 10088. [V2EX] 本地 Coding Agent 工作台： CoDock
+
+**问题描述 / Problem Description**:
+每天在十几个终端窗口里切来切去？我做了一个本地 Coding Agent 工作台：CoDock 做日常开发时，大家应该也慢慢习惯了让各种 AI Agent 帮着写代码： A 项目用 Claude Code 跑架构重构； B 项目用 Codex 改改小 bug ； 偶尔还想切到 DeepSeek Harness 或 Gemini CLI 跑跑对比测试…… 不知不觉，电脑任务栏里就堆了七八个黑乎乎的终端窗口。 每次切窗口都在找「刚刚那个任务跑在哪个终端里？」「跑完了没有？」「上周聊过的那个思路在哪条会话里？」 在命令行里敲一段稍微长一点、带多行格式的 Prompt 更是折磨。 为了解决自己每天遇到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239712#reply2
+
+---
+
+#### 10089. [V2EX] 留学生代订 Claude 成品，没被封过
+
+**问题描述 / Problem Description**:
+https://shipbox.cloud/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239693#reply3
+
+---
+
+#### 10090. [V2EX] Windows 11 彻底关闭 Hyper-V 的办法
+
+**问题描述 / Problem Description**:
+Windows 11 Build 26200 上，Smart App Control 处于 Evaluation （评估）模式时，即使 Hyper-V/WHP/VMP/HVCI/Credential Guard 都已关闭、BCD hypervisorlaunchtype=Off ，Microsoft Windows Virtualization Based Security Policy 仍处于 Enforced 状态，并导致 Microsoft Hypervisor 实际运行。关闭 Smart App Control 后，VBS Policy 停止强制执行，Hypervisor 随之消失。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239688#reply5
+
+---
+
+#### 10091. [V2EX] 给我整乐呵了，商汤上了 deepseek v4 flash 和 pro
+
+**问题描述 / Problem Description**:
+大概率是自己部署的，不清楚量化程度，有 1M 上下文 我测试了 deepseek v4 flash ，输出比较忙，只有 40t/s 的水平（牛来水平） 目前公测，仅用免费挡位，5 小时窗口 60000 积分，周额度 600000 积分（ 10 倍 5 小时） 但是有意思的是，在我测试 deepseekv4flash 的时候，1M 的 token ，80%的缓存，大约用了 2000 积分 也就是说它 5 小时窗口有 30M 的 deepseek v4 flash ，一周有 3 亿 这个是免费的啊？ 笑，甚至还有个生图模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239687#reply33
+
+---
+
+#### 10092. [V2EX] 认真请教一个问题，关于菲区 GPT PRO
+
+**问题描述 / Problem Description**:
+我一直来都是开的美区 GPT ，想换成更划算的菲区或者其他地区的 GPT PRO 会员，额度是否一样呢？ 1 、如果不适用 sub2api ，正常登录使用 codex ，额度正常吗 使用体验有没有区别 2 、如果使用 sub2api ，让 Agent 调用，是否风控严格 有没有大佬知道呢～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239659#reply16
+
+---
+
+#### 10093. [V2EX] 我又又又重构了我的站点
+
+**问题描述 / Problem Description**:
+接上次帖子，站点重构 /t/1227951 地址： https://www.oolaf.top 1. 我又重构了我的页面 UI ，增加了黑夜白天模式，增加了 agent （虽然很弱） 2. 一点点扣细节，自我感觉相对比之前提升了很多，下面会贴图 之前的： https://s2.oolaf.top/oolaf/oolaf/2026/08/13/15/15/e8c93979e42970c8b59eadf5ccc5319e.webp 现在的: https://pub-d2a6dcd506134792b1c8284b7b32c7ec.r2.dev/gallery/1/ec427db9-f2b6-432
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239655#reply33
+
+---
+
+#### 10094. How do I add the repo for libdvdcss on Debian 13?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 0 | Views: 25 | Answers: 1 | Created: 2026-09-05
+
+**解决方案 / Solution**:
+You need to enable the contrib component; to do that, run grep -rlZ debian.org /etc/apt/sources.list* | xargs -0 sudo sed -i.bak '/contrib/b; s/main/main contrib/' then update your repository indexes: sudo apt update You should now be able to install libdvd-pkg : sudo apt install libdvd-pkg Once that’s done, follow the instructions in /usr/share/doc/libdvd-pkg/README.Debian ; essentially, sudo dpkg-reconfigure libdvd-pkg This will build and install libdvdcss . software-properties-common isn’t available in Debian 13 but it isn’t very useful on Debian anyway.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807294/how-do-i-add-the-repo-for-libdvdcss-on-debian-13
 
 ---

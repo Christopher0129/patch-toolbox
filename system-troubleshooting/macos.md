@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9636**
+**总计条目 / Total entries: 9671**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -129568,5 +129568,460 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239439#reply8
+
+---
+
+#### 9637. Email providers. Want to move away from Google.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8xfkg/email_providers_want_to_move_away_from_google/
+
+---
+
+#### 9638. I built an open source tool to show what is actually taking up your Mac’s System Data
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9470n/i_built_an_open_source_tool_to_show_what_is/
+
+---
+
+#### 9639. Receiving messages on my MacBook from people who don't have my cell phone number
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8x4av/receiving_messages_on_my_macbook_from_people_who/
+
+---
+
+#### 9640. Xcode temporary files can't be removed on macOS Tahoe 26. Can somebody help me?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w97mwa/xcode_temporary_files_cant_be_removed_on_macos/
+
+---
+
+#### 9641. what to do with my macbook like this
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8t803/what_to_do_with_my_macbook_like_this/
+
+---
+
+#### 9642. Fixed Universal Clipboard after a Time Machine restore when normal troubleshooting failed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9902n/fixed_universal_clipboard_after_a_time_machine/
+
+---
+
+#### 9643. Can Finder keep folders at the top while sorting files by most recent?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8wjsh/can_finder_keep_folders_at_the_top_while_sorting/
+
+---
+
+#### 9644. Is there anyway to restore this Intel 2020 Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w91u6w/is_there_anyway_to_restore_this_intel_2020_mac/
+
+---
+
+#### 9645. Remote connection app to my MacOS from iPad?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8phn3/remote_connection_app_to_my_macos_from_ipad/
+
+---
+
+#### 9646. I get this while tryna install Big Sur on a 2012 mac catalina the thing is 10.15.8
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8zrl4/i_get_this_while_tryna_install_big_sur_on_a_2012/
+
+---
+
+#### 9647. I have always faced the problem of organising my photos and videos on my Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8whtq/i_have_always_faced_the_problem_of_organising_my/
+
+---
+
+#### 9648. Best VPN for Mac when websites reject the IP?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8w4p9/best_vpn_for_mac_when_websites_reject_the_ip/
+
+---
+
+#### 9649. 120Hz for Virtual Machines
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8ucex/120hz_for_virtual_machines/
+
+---
+
+#### 9650. cheatsheet app causes significant memory leakage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8seqp/cheatsheet_app_causes_significant_memory_leakage/
+
+---
+
+#### 9651. I’ve been building little 3D objects that live on the macOS desktop. Is this something you’d actually use?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w91anb/ive_been_building_little_3d_objects_that_live_on/
+
+---
+
+#### 9652. WhatsApp / telegram AppStore va direct download comparison question.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8nrr8/whatsapp_telegram_appstore_va_direct_download/
+
+---
+
+#### 9653. Cursor changing sizes on different apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8t8kv/cursor_changing_sizes_on_different_apps/
+
+---
+
+#### 9654. How to auto backup/download iCloud photos with Advanced Data Protection enabled?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8mecr/how_to_auto_backupdownload_icloud_photos_with/
+
+---
+
+#### 9655. How to make Finder easier to navigate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w8ydvo/how_to_make_finder_easier_to_navigate/
+
+---
+
+#### 9656. [V2EX] Steam Link 串流到 Mac 玩 PUBG
+
+**问题描述 / Problem Description**:
+目前有一独显台式， 还有一台 MacBook Pro M4 Max 主要就玩 PUBG 这一个游戏 随着购买强劲的 Mac 电脑， 大部分工作流都转移到了 Mac 上面， 台式机就变成了单纯的“游戏机”， 实在太浪费 所以想在 Macbook Pro 上玩 PUBG ， 搜索了几个月网上教程， 没有找到完美的解决办法， 无论是虚拟机还是 CrossOver ， 都受防作弊影响， 打开就封号…… 问了 AI ， 也是这样的答案 所以， 寻求本坦大佬们解惑， 有直接在 Mac 上玩 PUBG 的 方法吗？ 没有的话，steam link 串流， 那负载是在 win 上面还是 Mac 上面？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239832#reply5
+
+---
+
+#### 9657. [V2EX] SalaryTicker ：一个状态栏小插件，提供搬砖日常的正反馈
+
+**问题描述 / Problem Description**:
+为了给漫长的搬砖日常带来一点「即时正反馈」，利用业余时间写了这款极简的 macOS 状态栏应用 —— SalaryTicker （时薪） ，是我作为一个从来不懂开发的人 vibe 的 app 👉 Release DMG 直接下载 ： https://github.com/chenxia31/Salary/raw/main/dist/SalaryTicker.dmg 下列描述为 AI 整理： 💡 核心做成了什么样？ 每秒都在入账的状态栏跳动 输入月薪和工作排班，状态栏每秒实时刷新入账金额（例如 +¥0.051/s · ¥148.50 ）。数字经过 .monospacedDigit() 优化，高频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239822#reply0
+
+---
+
+#### 9658. [V2EX] 5-6 年使用的美区 appid 账号被封了，有机会解封么
+
+**问题描述 / Problem Description**:
+自己使用了 5-6 年美区账号，期间只登陆过 app store ，没有买过礼品卡，没有充值消费过 这两天突然登录不进去了，然后申诉，最终收到被封的邮件，不是很理解为什么突然被封了？ Your Apple Account Request Dear xxx, We’ve reviewed your request, and access to your account (xxxxx@gmail.com) has been denied. Apple
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239809#reply9
+
+---
+
+#### 9659. [V2EX] 电子产品大涨价，大家还会正常更新数码设备吗？
+
+**问题描述 / Problem Description**:
+如题，原本今年想换套苹果设备，按这个趋势，没个三五万估计入不了丐版套装。打算继续扛两年再说了，不知道大家还会如期给数码产品做更新换代吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239196#reply50
+
+---
+
+#### 9660. [V2EX] 各位 Apple 的 Inteler 是时候说再见了～
+
+**问题描述 / Problem Description**:
+Apple 通知开发者，要求 macOS 13 及以上的 Mac App Store 通用应用现可弃用 Intel Mac 支持，以简化开发并优化下载与设备占用。弃用后 Intel Mac 不再收到更新，但用户可继续使用最后兼容版本。 来自新 CEO 的关爱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238986#reply15
+
+---
+
+#### 9661. [V2EX] 小团队合规减负：处理 <10 万人信息的新规 9/1 已生效，数据出境免三件套
+
+**问题描述 / Problem Description**:
+各位独立开发 / 小团队 V 友： 网信办+公安部 9 月 1 日起施行《小型个人信息处理者个人信息保护简化措施规定》，第一次按数据规模给合规义务分级减负——处理不满 10 万人个人信息的算"小型处理者"，义务大幅简化。简单说，个保法 2021 年那套"一刀切"的义务体系，现在抓大放小了。 跟我们这种规模直接相关的几条： 隐私政策最低 3 项要素，弹窗/公告即可，不用再抄大厂几十页模板 依托平台经营（小程序、平台店铺）的：声明遵守平台规则 = 免自建规则，平台审计评估直接覆盖（第八条，最实用）。注意做独立 App / 自建站的享受不到这层，还是要按简化版自己写 数据出境当年累计 <10 万人（
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239877#reply0
+
+---
+
+#### 9662. [V2EX] 微信 Linux 4.1.13 版本发布，新增了发送语音，语音转文字，滚动截图等重磅功能
+
+**问题描述 / Problem Description**:
+太好了，我上次写的 linux 语音输入软件都可以弃用了…… 这次的功能更新是解决痛点的，能发语音，能语音转文字，非常不错。 下载地址： https://linux.weixin.qq.com/ 🎉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239797#reply6
+
+---
+
+#### 9663. [V2EX] Alphaio 量化模型沉淀平台｜ A 股量化平台
+
+**问题描述 / Problem Description**:
+Alphaio 量化平台，支持几十种模型，支持数十种 AI 工具一键对接，注册就送 7 天体验权限 https://www.alphaio.vip/ 分享 20 个注册邀请码，需要的抓紧了 INVITE-R9S8-PG8Y INVITE-HYQM-9Q6B INVITE-VMDQ-Q3SS INVITE-2DTR-9CHY INVITE-CEKG-7WE8 INVITE-76CH-GHGA INVITE-VB2Q-6PTW INVITE-HJJX-8HXZ INVITE-2TYY-UW4R INVITE-T5QK-NGTJ INVITE-CS3T-36ET INVITE-HMGU-9Y52 I
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239771#reply9
+
+---
+
+#### 9664. [V2EX] A 股量化｜ Alphaio 量化模型沉淀平台
+
+**问题描述 / Problem Description**:
+最近发现了一个不错的量化平台，支持几十种模型，直接与数十种 AI 工具对接，注册就送 7 天体验权限 https://www.alphaio.vip/ 获取邀请码方式，联系注册页面的客服，回复 “V2ex Alphaio” 他就会给你相应的注册码。需要的抓紧，月底活动好像就结束了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239735#reply1
+
+---
+
+#### 9665. [V2EX] $10/月的 Google One Pro 中 [AI 积分羊毛] 领取位置
+
+**问题描述 / Problem Description**:
+前面看到大家谈论，但是似乎很多人都不知道这个具体的领取位置，说找不到，就顺手贴一下： https://me.developers.google.com/benefits 加入开发者计划后排第一个的就能看到。 就是说的 GCP 云积分，不是在 Google Cloud 领取，而是要加入 developers 后在 developers 的服务里领取。 薅羊毛的前置（小门槛儿）： 需要绑定支付方式后才能领，所以还不是有 Pro 就行。 羊毛 Pro 的套餐是 Google One Pro，不是 AI Pro，现在很多地方都有，最简单的闲鱼，几块钱一个。 不过这个羊毛稳定不稳定不清楚，所以建议大家还
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239727#reply5
+
+---
+
+#### 9666. [V2EX] [避雷流氓雷鸟电视] 雷鸟电视的流氓视频屏保删除教程
+
+**问题描述 / Problem Description**:
+我家的雷鸟电视一直没升级，也一直没广告，屏保也一直是关着的，最近几天突然 1 分钟后自动出现什么视频屏保，里面推送了一堆视频推广广告。屏保我确定是一直都是关着的。也就是这个什么视频屏保根本不受用户控制。 我等他视频屏保出来的时候 adb 抓了一下活动窗口，发现是 com.tcl.vod 里的 com.tcl.vod.player.activity.ScreenSaverVideoActivity 还有一个什么艺术画廊也是疑点 com.tcl.appreciate.art 都可以删了 pm uninstall -k --user 0 com.tcl.appreciate.art pm unins
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239684#reply2
+
+---
+
+#### 9667. [V2EX] 从 0 到 1 实现 agent harness 的视频教程，欢迎大家点赞收藏
+
+**问题描述 / Problem Description**:
+我在 b 站开了个坑，打算用 9 期视频从 0 到 1 实现一个 agent harness 。每期视频会落脚于 harness 的一个功能，例如第一期视频就是循环上下文，第二期视频是 harness 工具的实现。每期视频会从原理讲解到代码实现，事无巨细的为大家介绍 harness 的设计。欢迎大家点赞收藏，也欢迎大家提出宝贵的意见或建议，目前已上两期视频，明天更新第 3 期视频。 https://www.bilibili.com/video/BV1aata6UEzA/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239588#reply4
+
+---
+
+#### 9668. [V2EX] 微软真的是大善人
+
+**问题描述 / Problem Description**:
+忘记是什么时候了.从 chrome 浏览器切到了 edge 浏览器. 刚才打开一看 .已经 7w+积分了.自己没有主动做过任何任务. 朋友 n 年前就和我说过这个羊毛.但是由于国内受 pdd 荼毒太久. 对羊毛也有阴影.总感觉积分获取很麻烦.各种冷却,刁钻任务. 今天看着冰冷的 7w 积分 ,陷入了幸福之中, 不知道 v 站上面有没有其他牛人.积分更高一些? 附上 https://rewards.bing.com/welcome?rh=F11A45E5&ref=rafsrchae
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239542#reply29
+
+---
+
+#### 9669. [V2EX] 最近学游泳，改变了一个刻板印象
+
+**问题描述 / Problem Description**:
+以前总觉得去健身房的都是年轻人，最近学游泳才发现，居然游泳比较多的是大叔，大妈，之前暑假的时候学生比较多，最近暑假结束了，我平时都是上午去游，基本每次都至少有一半是大叔大妈。有些是在学习的，有些是本身就会在锻炼的。 今天在休息的时候听到旁边两人聊天，都是 58 岁的。 改变了我对健身房的刻板印象。 后来想一想也很合理，因为这个年纪的退休的大叔大妈正是有时间，有精力，有钱的时候。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239498#reply20
+
+---
+
+#### 9670. [V2EX] gemini 3.8 flash 真的香，已开通 plan ， 260JP 太超值了，支持国内的 VISA。
+
+**问题描述 / Problem Description**:
+大善人啊。。感恩。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239418#reply10
+
+---
+
+#### 9671. How to completely remove Python from Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, python | Score: -2 | Views: 78 | Answers: 1 | Created: 2026-08-22
+
+**解决方案 / Solution**:
+The macOS installer is a .pkg with a graphical installer if you open the package in Finder instead of installing the downloaded file by the command line . Worst case if the installer won't remove the packages, you can use the command line to remove each and every file installed. Back up your Mac (Time Machine to an attached storage drive is recommended). Eject that drive and make sure you have another computer to look up how to restore from backup if the sudo commands below delete things you might need to recover and can’t get into your home directory. (Note, the commands are safe, but bugs happen and issuing a lot of sudo remove commands can destroy a lot of data if there is a problem with a space in a path that’s not handled perfectly or a corrupt file or disk gets a normally safe command) https://superuser.com/a/525395 $ pkgutil --pkgs # list all installed packages $ pkgutil --files python-3.13.12-macos11.pkg # list installed files for your version(s) of python $ pkgutil --pkg-info python-3.13.12-macos11.pkg # check the location $ cd / # assuming the package is rooted at /... $ pkgutil --only-files --files python-3.13.12-macos11.pkg | tr '\n' '\0' | xargs -n 1 -0 sudo rm -f $ pkgutil --only-dirs --files python-3.13.12-macos11.pkg | tail -r | tr '\n' '\0' | xargs -n 1 -0 sudo rmdir As you can see, there are more than a dozen packages that could install a version of python 3.13 so perhaps redownload the version and try running the installer and see if it offers a removal if the above steps don't work.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/486958/how-to-completely-remove-python-from-mac
 
 ---

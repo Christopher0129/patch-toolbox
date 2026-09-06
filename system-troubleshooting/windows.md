@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10597**
+**总计条目 / Total entries: 10640**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -143682,5 +143682,564 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239603#reply10
+
+---
+
+#### 10598. Can ssds be locked
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8sxue/can_ssds_be_locked/
+
+---
+
+#### 10599. I have 16 gb of ram, and I have 496 MB of VRAM, if I use 4 or 2 gb, will I get less performance?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8tbe6/i_have_16_gb_of_ram_and_i_have_496_mb_of_vram_if/
+
+---
+
+#### 10600. Random DPC_WATCHDOG_VIOLATION(0x133) bsod whenever computer is idling
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w95raa/random_dpc_watchdog_violation0x133_bsod_whenever/
+
+---
+
+#### 10601. My internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w95qo3/my_internet/
+
+---
+
+#### 10602. Controller 2 Cannot Map in Windows
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w99uzk/controller_2_cannot_map_in_windows/
+
+---
+
+#### 10603. Windows 11 automatically resumes all paused media when another sound/notification is playing
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w99tr4/windows_11_automatically_resumes_all_paused_media/
+
+---
+
+#### 10604. Issue with laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w99fns/issue_with_laptop/
+
+---
+
+#### 10605. Change refresh rate button missing on Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w99f2a/change_refresh_rate_button_missing_on_windows_11/
+
+---
+
+#### 10606. I cannot figure out why my PC lags out to an unusable degree when i restart games.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w999xm/i_cannot_figure_out_why_my_pc_lags_out_to_an/
+
+---
+
+#### 10607. Home network not appearing on any devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w98odl/home_network_not_appearing_on_any_devices/
+
+---
+
+#### 10608. No networks available at all on laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w97f7r/no_networks_available_at_all_on_laptop/
+
+---
+
+#### 10609. Asus Laptop won't turn on after nail polish remover spilled on keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w9766h/asus_laptop_wont_turn_on_after_nail_polish/
+
+---
+
+#### 10610. Battery problem (I think)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w96j7h/battery_problem_i_think/
+
+---
+
+#### 10611. Entire Column of keys on Lenovo LoQ laptop randomly stopped working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w96ij5/entire_column_of_keys_on_lenovo_loq_laptop/
+
+---
+
+#### 10612. 64GB Patriot SD card suddenly won't format
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w95xn1/64gb_patriot_sd_card_suddenly_wont_format/
+
+---
+
+#### 10613. PC stuck on BIOS Loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w8z3p9/pc_stuck_on_bios_loop/
+
+---
+
+#### 10614. HP pavilion gaming laptop infront of my eyes suddenly turns sluggish when running a game even though charger is plugged in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w954k0/hp_pavilion_gaming_laptop_infront_of_my_eyes/
+
+---
+
+#### 10615. My notebook sometimes stutters and turns off and I don't know why
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w94q7j/my_notebook_sometimes_stutters_and_turns_off_and/
+
+---
+
+#### 10616. Black screen on debian 12 KDE x11 after login
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w94g7g/black_screen_on_debian_12_kde_x11_after_login/
+
+---
+
+#### 10617. Lenovo Thinkcentre Mini refusing to work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w93zmd/lenovo_thinkcentre_mini_refusing_to_work/
+
+---
+
+#### 10618. just bought a new laptop (nitro v 16s ai) and it already has a stupid amount of issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w93slj/just_bought_a_new_laptop_nitro_v_16s_ai_and_it/
+
+---
+
+#### 10619. sound gone after trying something in BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w93kru/sound_gone_after_trying_something_in_bios/
+
+---
+
+#### 10620. Dropped the top part of my phone in water for 3 seconds- it's working perfectly fine but want to get advice in case. Samsung S20
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w93kqh/dropped_the_top_part_of_my_phone_in_water_for_3/
+
+---
+
+#### 10621. How to set up audio using Shure MV6
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w93hch/how_to_set_up_audio_using_shure_mv6/
+
+---
+
+#### 10622. [V2EX] Apple 开发者证书竟然需要持续订阅？
+
+**问题描述 / Problem Description**:
+两年前上架了 AppStore 的 App ，因为赚不到钱，今年就没有再续费开发者证书，结果今天发现 App 已经被下架 也就是说，就算 App 不再更新，但想要保持在 AppStore 中可搜索，就需要每年续费开发者订阅？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239876#reply6
+
+---
+
+#### 10623. [V2EX] 上学累还是上班累
+
+**问题描述 / Problem Description**:
+https://lixiucheng.com/3d-question-01/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239875#reply11
+
+---
+
+#### 10624. [V2EX] 有大佬还有国际学生证生成器么
+
+**问题描述 / Problem Description**:
+之前 https://student.frp.gs/这个失效了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239874#reply0
+
+---
+
+#### 10625. [V2EX] 我想问下在 windows 下使用 codex 或者 claude code 的人多吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239870#reply3
+
+---
+
+#### 10626. [V2EX] 看到孙割在用 claude 通过 API 管理自己的财务，普通人有哪些办法管理、增长自己的财富？看到支付宝、银行、银联都没对 C 端用户管理财务的 MCP 或者 API 开放。
+
+**问题描述 / Problem Description**:
+支付宝商家有 MCP 。但对普通用户的没找到。 孙割财富这么强， 说明利用好工具非常重要。普通人还有什么机会？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239867#reply1
+
+---
+
+#### 10627. [V2EX] App 做好了，上架应用商店需要做哪些事情呢？
+
+**问题描述 / Problem Description**:
+Astra 出来大受震撼，准备开始蹬 GPT-6 做 App 了。 看了下过往帖子，发现上架应用商店好像蛮麻烦的。 目前了解到： ios 似乎只要交$99 ，别的都不用管 国产安卓平台需要注册企业，搞 ICP 认证，软著，可能还有资质认证 想问问有经验的大大们，App 做好以后，上架应用商店需要做哪些事情呢？ 怎么搞定这么多认证文件呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239865#reply2
+
+---
+
+#### 10628. [V2EX] 求助佬们，同事她很想注册 V 站
+
+**问题描述 / Problem Description**:
+佬们，我现在这个号具备邀请的资格了，但是金币却不够。同事很想进 V 站，却苦于无法注册，只能求助到我。现在我的资格有了，但是金币却不够，我想知道怎么最快赚到足够的金币，买邀请同事。她真的很想很想进来！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239859#reply10
+
+---
+
+#### 10629. [V2EX] QQ 音乐现在是什么价啊大佬们，看小黄鱼好涨价了
+
+**问题描述 / Problem Description**:
+之前 90 多我记得就能一年，现在小黄鱼都是 120 了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239851#reply8
+
+---
+
+#### 10630. [V2EX] 求公司级的 token 中转方案
+
+**问题描述 / Problem Description**:
+目前主要关注 GPT ，如果 Claude 价格合理的话也考虑，计划用 New API 在公司内部做二次分发，有推荐的上游 token 购入渠道吗？还是自购账号比较合算？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239838#reply8
+
+---
+
+#### 10631. [V2EX] 每邀请一人可获 1,000 个额度 codex（这还有朋友需要邀请吗？）
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239833#reply0
+
+---
+
+#### 10632. [V2EX] 还有和我一样没收到 gpt6 推送的吗？
+
+**问题描述 / Problem Description**:
+今天没有收到推送，也没有重置卡，pro 5x
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239815#reply6
+
+---
+
+#### 10633. [V2EX] 现在完全用云上服务器进行开发可行吗？如果可行是用 ssh 还是 gui？
+
+**问题描述 / Problem Description**:
+如题，我也想搞一台高配服务器完全进行云上开发了，反正都是 AI 开发
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239807#reply12
+
+---
+
+#### 10634. [V2EX] 请教下 codex cli 搜索文件如何能屏蔽 .git/**, 现在 用 @搜索文件 这些.git 全列出来了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239803#reply0
+
+---
+
+#### 10635. [V2EX] 请教下大家，大家做网站设计一般是怎么去做的呢？
+
+**问题描述 / Problem Description**:
+尤其是 vibe 一个网站，是去 github 上 design 、去找各种 skill 还是看各种好看的网站然后再丢给 ai 然后再具体讨论细节。我最近被设计整的有点崩溃，完全没思路，还请各位设计、前端的兄弟们能给我提供一些思路！感激不尽！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239795#reply16
+
+---
+
+#### 10636. [V2EX] 有没有好用的浏览器 tab 管理插件推荐， chrome 插件最好
+
+**问题描述 / Problem Description**:
+平时干活查资料等，经常打开百十个 tab 页面，窗口多了之后，标题又被缩的很小，后面想调整找到想要的页面太麻烦了。 试过了垂直标签页，也不太适应。可能我使用习惯不好，比如插着资料，会突然打开 b 站摸鱼或者看会别的东西，标签里顺序都是乱的，找起来也麻烦。 想找个能分类 tab 的插件，或者有啥好的解决办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239782#reply6
+
+---
+
+#### 10637. [V2EX] 豆包输入法 Windows 版还出不出了？
+
+**问题描述 / Problem Description**:
+手机上一直用的豆包输入法，识别率很高，现在 mac/Android/iOS 都有了，当初说 Windows 的很快出，这都几个月过去了，还没动静
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239781#reply9
+
+---
+
+#### 10638. [V2EX] 中转站都不支持 gpt live 吗？
+
+**问题描述 / Problem Description**:
+现在用的那个全网崩的时候也崩，应该是真的，价格也不便宜，就是支持好差，陆续充了四五千了，客服还是基本不理人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239764#reply16
+
+---
+
+#### 10639. [V2EX] 怎样让 antigravity 自动同意呢
+
+**问题描述 / Problem Description**:
+有没有一直在用 antigravity 的友友
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239758#reply10
+
+---
+
+#### 10640. [V2EX] 大家有多个 Apple ID 的是绑定同一个手机号码吗
+
+**问题描述 / Problem Description**:
+查了下同一个手机号码好像可以绑定多个 Apple ID ，各位美区的 ID 和国区的绑同一个吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239755#reply2
 
 ---
