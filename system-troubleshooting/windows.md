@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10640**
+**总计条目 / Total entries: 10685**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -144241,5 +144241,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1239755#reply2
+
+---
+
+#### 10641. I have a hard drive from work that I for sure know has ransomware on it. What is the best way to wipe it?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa17qm/i_have_a_hard_drive_from_work_that_i_for_sure/
+
+---
+
+#### 10642. Windows 11 / GTX 1660 Super: Missing PlayReady 3.0 in Edge/App – Netflix and CANAL+ locked to 540p (SW_SECURE_DECODE)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4e3x/windows_11_gtx_1660_super_missing_playready_30_in/
+
+---
+
+#### 10643. Task Manager and Some Apps crashing on startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa3u1s/task_manager_and_some_apps_crashing_on_startup/
+
+---
+
+#### 10644. laptop connecting to wifi but “no internet”
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1w9w8dk/laptop_connecting_to_wifi_but_no_internet/
+
+---
+
+#### 10645. HP laptop battery starts draining at 4am (windows 11)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4wf6/hp_laptop_battery_starts_draining_at_4am_windows/
+
+---
+
+#### 10646. Is my monitor dying or is my computer having issues?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4ji2/is_my_monitor_dying_or_is_my_computer_having/
+
+---
+
+#### 10647. Acer Nitro AN515-55 — NitroSense shows the logo and then won't open
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4fms/acer_nitro_an51555_nitrosense_shows_the_logo_and/
+
+---
+
+#### 10648. New PC has terrible Wi-Fi compared to my old PC on the same network
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa46dj/new_pc_has_terrible_wifi_compared_to_my_old_pc_on/
+
+---
+
+#### 10649. Can I stop and continue a file transfer?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa433x/can_i_stop_and_continue_a_file_transfer/
+
+---
+
+#### 10650. Absurdly low download speeds in Google Chrome
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa2ydu/absurdly_low_download_speeds_in_google_chrome/
+
+---
+
+#### 10651. laptop not starting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa2fap/laptop_not_starting/
+
+---
+
+#### 10652. New mouse won't connect to laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa69w8/new_mouse_wont_connect_to_laptop/
+
+---
+
+#### 10653. Main monitor disconnects and reconnects on startup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa65wd/main_monitor_disconnects_and_reconnects_on_startup/
+
+---
+
+#### 10654. Ran malware on my computer please help i’m going to have a panic attack
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa62c5/ran_malware_on_my_computer_please_help_im_going/
+
+---
+
+#### 10655. Constant blue screens on my laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa5usa/constant_blue_screens_on_my_laptop/
+
+---
+
+#### 10656. hey my hdd not spining but it still hot and can't be access please help in win 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa5jjg/hey_my_hdd_not_spining_but_it_still_hot_and_cant/
+
+---
+
+#### 10657. When i exit a game it puts my cursor to top left 0,0
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4wjn/when_i_exit_a_game_it_puts_my_cursor_to_top_left/
+
+---
+
+#### 10658. Kernel 41 issue, random shutdowns, I practically built my computer again
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4vw1/kernel_41_issue_random_shutdowns_i_practically/
+
+---
+
+#### 10659. odd loud glitching noises from speakers?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4tt4/odd_loud_glitching_noises_from_speakers/
+
+---
+
+#### 10660. Can anyone help me isolate why my computer beeps every time I turn on my windows 11 PC? The beeps are never consistent.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4s90/can_anyone_help_me_isolate_why_my_computer_beeps/
+
+---
+
+#### 10661. How to permanently disable Adobe add-ins in MS Outlook Classic?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa4piy/how_to_permanently_disable_adobe_addins_in_ms/
+
+---
+
+#### 10662. Please this is my childhood console
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa444s/please_this_is_my_childhood_console/
+
+---
+
+#### 10663. Ants in laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa41xa/ants_in_laptop/
+
+---
+
+#### 10664. i need help with a usb transreceiver
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wa3ucs/i_need_help_with_a_usb_transreceiver/
+
+---
+
+#### 10665. [V2EX] 试了几个 windows 上的平铺桌面只能说理想很丰满
+
+**问题描述 / Problem Description**:
+前几天逛日经 Linux 桌面贴，无意间看到 Niri ，一个水平无限滚动的桌面，很感兴趣 为此用 wslg 跑了一个，玩起来还可以，今天就找了几个 windows 上的平替，发现都“几乎不可用” https://glazewm.com/ komorebi LeopardWM 主要原因还在软件兼容性这块，明显的就是 codex 缩小放大样式会乱 想问问大家真的有人日常在用这种平铺桌面吗，windows 上有没有其他值得尝试的方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240154#reply1
+
+---
+
+#### 10666. [V2EX] 大家是对自己的文字不自信，还是只想收获赞美？为什么有些人手打的文字，发出来之前还要让 AI 润色整理？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240231#reply3
+
+---
+
+#### 10667. [V2EX] v2 没有专门的 3d 打印节点吗？
+
+**问题描述 / Problem Description**:
+用 openscad 做了个 stl ，感觉没完全实现我的需求，因为顺便在看 v2 ，于是突然想看看 v2er 都 3d 打印些什么。居然没有找到专门的节点，更别说具体品牌比如拓竹之类的节点了。 是我查找不对，还是 v2 上 3d 打印有什么忌讳，或者大家都对 3d 打印没什么兴趣？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240228#reply0
+
+---
+
+#### 10668. [V2EX] 如何找靠谱月嫂？
+
+**问题描述 / Problem Description**:
+网上看月嫂这个行业鱼龙混杂，所谓的金牌月嫂也有很多坑。大家可以分享一下经验吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240219#reply7
+
+---
+
+#### 10669. [V2EX] 有字节的朋友能讲讲封号逻辑吗？
+
+**问题描述 / Problem Description**:
+最近遇到一个很离谱的抖音封号问题 自用了七年的个人号，五天前突然被永久封禁，理由只有一句“违反相关法律法规和政策”，申诉失败，联系了好多次客服都是在踢皮球，找了个在字节工作的朋友的朋友，说无法透传，细化不了.. 这个号一直就是个人使用，没碰过任何营销/爬虫/赌博/色情之类的东西，就连和朋友私聊都没聊什么越过红线的内容 想请教一下在字节的朋友，“违反相关法律法规和政策”这种永久封禁，一般是什么风控触发的？这种封号还有希望救回来吗? https://imgur.com/a/PbkqfKc
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240216#reply5
+
+---
+
+#### 10670. [V2EX] Zcode 自动化怎么提前自动安排定时任务榨干 glm-5.3-flash 免费时间？
+
+**问题描述 / Problem Description**:
+要手动一个一个在自动化里面创建多个定时吗？ 我尝试让 ai 自己创建定时任务，每次处理不同的任务，自己规划任务，结果创建了一个定时，导致定时全部在一个对话里执行。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240212#reply1
+
+---
+
+#### 10671. [V2EX] Codex 500 额度三个，需要的留下邮箱，要用哦
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240210#reply4
+
+---
+
+#### 10672. [V2EX] 先用小玩具诱惑婴幼儿，再向大人提要求的老骗子
+
+**问题描述 / Problem Description**:
+也见过那种 扫码领取礼物的摊位 也不是不能接受 但是那些 先诱惑婴幼儿给礼物的 在掏出码让你扫的 不管要不要钱 都感觉非常恶心 这种利用婴幼儿无知，在利用某些大人拉不下脸面的行为 非常恶心 反正我是拉的下脸面 商场遇到一回怼一回 烦死了 各位是怎么应对这种狗皮膏药的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240193#reply0
+
+---
+
+#### 10673. [V2EX] 国内用三星手机体验怎么样
+
+**问题描述 / Problem Description**:
+之前一直用小米，现在想换一台。我看国外三星的销量很高，不知道国内用三星有什么要注意的吗？是三星自己的应用市场吗？会不会应用不全？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240192#reply7
+
+---
+
+#### 10674. [V2EX] 闲鱼上百度网盘违规内容恢复靠谱吗？
+
+**问题描述 / Problem Description**:
+这种有技术或者渠道能实现？里面有套路吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240184#reply9
+
+---
+
+#### 10675. [V2EX] V 站怎么改密码啊
+
+**问题描述 / Problem Description**:
+突然不记得原密码了，貌似还必须知道原密码才能改
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240176#reply1
+
+---
+
+#### 10676. [V2EX] 现在哪家 token plan / coding plan 比较推荐?
+
+**问题描述 / Problem Description**:
+做个人项目用, 要求如下 1. 各家主流模型都有, 最新模型更新不能太慢. 方便做模型 benchmark 2. 保真, 没掺水. 别是请求 GLM-5.3 结果是豆包. 3. 没有离谱的内置审查, 复制个普通小说进去 100% 被输入审核不通过, 此处点名腾讯 tokenHub. 4. 月付 200 以内
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240167#reply5
+
+---
+
+#### 10677. [V2EX] Google 账号已停用
+
+**问题描述 / Problem Description**:
+近期已经 2 次了，注册了新的 Google 账号，第二天就提示“您的账号已停用” 之前有好多个账号，用了好多年了都很稳定 账号需要怎么使用才能不被停用呢？ 注册是用来注册 ChatGPT 账号的，所以现在 ChatGPT 也登不上了。。。 PS：绑定了国内手机号，关联了用了超过 10 年的 gmail
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240161#reply7
+
+---
+
+#### 10678. [V2EX] chatgpt 是没有人工客服的联系渠道吗？
+
+**问题描述 / Problem Description**:
+尝试在网站右下角的聊天机器人提交过， https://help.openai.com/zh-hans-cn?utm_source=chatgpt.com 不过，这里好像就一直是机器人，超出 doc 的问题就回答不了 尝试在申诉入口提交过申诉， https://openai.com/form/appeal/?utm_source=chatgpt.com ， 邮件是由机器秒回的，并且无法邮件回复。 已回复，邮件秒退。 至此我好像找不到能够解决问题的人工渠道了。有知道的同学分享下吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240159#reply0
+
+---
+
+#### 10679. [V2EX] 有没有知道网站推广是怎么个推广
+
+**问题描述 / Problem Description**:
+有没有人知道这推广是 怎么推广没看懂 Features › 多种不同的展示格式：纯文本，260x200 小图+文本，500x120 横幅，500x500+文本+Call to Action 按钮 › 固定可控的成本 › 充值满 $20 就可以使用 权重算法示例 Alice 充值 200 ，创建 2 个推广活动 Bob 充值 600 ，创建 3 个推广活动 所有 PRO 会员总充值：200 + 600 = 800 计算公式 单个推广活动的权重 会员充值金额该会员活动数 所有会员充值总额 套用公式 会员 单个活动权重 单个活动展示比例 Alice 200 ÷ 2 = 100 100 ÷ 800 =
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240146#reply0
+
+---
+
+#### 10680. [V2EX] 有没有国内大模型的用量监控的开源项目？
+
+**问题描述 / Problem Description**:
+搜了一圈没有比较全的，kimi ，阿里，腾讯，火山，DeepSeek ，智谱等等。 小伙伴们没有合适的项目，实在没有只能撸一个了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240142#reply0
+
+---
+
+#### 10681. [V2EX] 大专毕业学机器人运维工程师怎么样？能找到工作吗？去哪里学最靠谱？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240140#reply0
+
+---
+
+#### 10682. [V2EX] 有人遇到过 AWS 让补充验证材料吗？
+
+**问题描述 / Problem Description**:
+用的好好的，信息也都是正常的个人信息，自己的银行卡，突然说账户挂起了，让补充验证材料。 第一时间补充了材料，两天过去了，杳无音讯。。。太离谱了，期间服务器，数据全部失联。各种联系客服，周末没人回复，周一客服说验证团队是独立的，帮忙催了。不过，目前还没任何回复。 大家有遇到过类似问题吗，是怎么解决的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240133#reply0
+
+---
+
+#### 10683. [V2EX] 有 Macos 能用的 wps 破解版吗？
+
+**问题描述 / Problem Description**:
+以前 win 用的建工版的 wps ，完全没有广告 另 macos 一般上哪里下载应用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240132#reply0
+
+---
+
+#### 10684. [V2EX] AI 月订阅比价购买网站有哪些？
+
+**问题描述 / Problem Description**:
+安全靠谱的，谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240126#reply1
+
+---
+
+#### 10685. [V2EX] 一个问题， grok 和 claude 的输出一字不差的相同，这对吗？
+
+**问题描述 / Problem Description**:
+给我看恍惚了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240120#reply14
 
 ---

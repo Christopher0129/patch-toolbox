@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9671**
+**总计条目 / Total entries: 9725**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -130023,5 +130023,707 @@ The macOS installer is a .pkg with a graphical installer if you open the package
 
 **参考链接 / References**:
 - https://apple.stackexchange.com/questions/486958/how-to-completely-remove-python-from-mac
+
+---
+
+#### 9672. Mac OS X Jaguar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wa1yor/mac_os_x_jaguar/
+
+---
+
+#### 9673. Ran malware on my computer please help i’m going to have a panic attack
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wa5ypv/ran_malware_on_my_computer_please_help_im_going/
+
+---
+
+#### 9674. How to find filepath quicker
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9pjr6/how_to_find_filepath_quicker/
+
+---
+
+#### 9675. Cannot set a keyboard shortcut for any desktop past 11. Maybe an homage to Spinal Tap?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9vmk1/cannot_set_a_keyboard_shortcut_for_any_desktop/
+
+---
+
+#### 9676. New MS Office install before using Migration Assistant or after?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wa1dab/new_ms_office_install_before_using_migration/
+
+---
+
+#### 9677. Interconnectivity between iOS and MacOS is driving me nuts.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9gnrk/interconnectivity_between_ios_and_macos_is/
+
+---
+
+#### 9678. Apple notes dictation is making so many mistakes! Any ideas?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9wcx5/apple_notes_dictation_is_making_so_many_mistakes/
+
+---
+
+#### 9679. Help with TimeMachine migration when setting up new device
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wa1wd7/help_with_timemachine_migration_when_setting_up/
+
+---
+
+#### 9680. Chess bugged
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9rroc/chess_bugged/
+
+---
+
+#### 9681. I screen recorded with quicktime, and it never saved...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wa3j90/i_screen_recorded_with_quicktime_and_it_never/
+
+---
+
+#### 9682. Map broken shift key to a different key.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9ufix/map_broken_shift_key_to_a_different_key/
+
+---
+
+#### 9683. Mac OS X Tiger/Jaguar install troubles
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9u6bp/mac_os_x_tigerjaguar_install_troubles/
+
+---
+
+#### 9684. Safari issue with YouTube
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9tjfa/safari_issue_with_youtube/
+
+---
+
+#### 9685. Invisible downloads/files taking space, don't know what to do
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9z5cm/invisible_downloadsfiles_taking_space_dont_know/
+
+---
+
+#### 9686. Live wallpaper from video
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9t2h6/live_wallpaper_from_video/
+
+---
+
+#### 9687. accessing side buttons on mouse on mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9sbzr/accessing_side_buttons_on_mouse_on_mac/
+
+---
+
+#### 9688. Blown away by Raycast v2 dictation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9yqzi/blown_away_by_raycast_v2_dictation/
+
+---
+
+#### 9689. I am not able to access my emoji keyboard
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9oyp5/i_am_not_able_to_access_my_emoji_keyboard/
+
+---
+
+#### 9690. Stuttering playback every few seconds or so.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9ok75/stuttering_playback_every_few_seconds_or_so/
+
+---
+
+#### 9691. Rendering problem on Apple MacBook M4 Pro?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9wpvb/rendering_problem_on_apple_macbook_m4_pro/
+
+---
+
+#### 9692. Tahoe's AutoFill helper on Activity Monitor
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9o2oz/tahoes_autofill_helper_on_activity_monitor/
+
+---
+
+#### 9693. Air vs Pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9nzpq/air_vs_pro/
+
+---
+
+#### 9694. Macbook air shutting down automatically near 20-25% battery and won't turn on until I plug the charger
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9lodu/macbook_air_shutting_down_automatically_near_2025/
+
+---
+
+#### 9695. Is it safe to update from Sonoma 14.5 to 14.8.9? MBP M3.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1w9znad/is_it_safe_to_update_from_sonoma_145_to_1489_mbp/
+
+---
+
+#### 9696. [V2EX] 怎么让 iPhone USB 插入 Mac 后, Mac Finder 能直接选中 iPhone 中的照片?
+
+**问题描述 / Problem Description**:
+前置条件: iPhone 通过 USB 插入 Mac, 能成功识别. 需求: 我能从 Finder 中直接选中 iPhone 中的照片,视频 , 以及 on my iphone 上的各种文件 现状: 原生方案不行, 好像借助 iExplorer 也不行, 很麻烦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240036#reply6
+
+---
+
+#### 9697. [V2EX] 为什么有道云笔记在 macos 上那么难用 而且很久没有更新一次
+
+**问题描述 / Problem Description**:
+大家有没有使用有道云笔记的，在 macOS 上特别的难用，而且吃内存增加问题，大家有没有使用过，开通了有道云笔记的年度会员，不用吧可惜，用吧电脑上卡顿，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239947#reply9
+
+---
+
+#### 9698. [V2EX] SMS Code Filler (Firefox Addon) in Mac
+
+**问题描述 / Problem Description**:
+获取 message.app 里的电话验证码，并自动填充入页面相应的位置，只适用于 Firefox 。macOS 需要 Apple Silicon 11.0+ 或者 Intel 10.15+。 https://github.com/lylehust/sms-code-filler
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239897#reply3
+
+---
+
+#### 9699. [V2EX] Steam Link 串流到 Mac 玩 PUBG
+
+**问题描述 / Problem Description**:
+目前有一独显台式， 还有一台 MacBook Pro M4 Max 主要就玩 PUBG 这一个游戏 随着购买强劲的 Mac 电脑， 大部分工作流都转移到了 Mac 上面， 台式机就变成了单纯的“游戏机”， 实在太浪费 所以想在 Macbook Pro 上玩 PUBG ， 搜索了几个月网上教程， 没有找到完美的解决办法， 无论是虚拟机还是 CrossOver ， 都受防作弊影响， 打开就封号…… 问了 AI ， 也是这样的答案 所以， 寻求本坦大佬们解惑， 有直接在 Mac 上玩 PUBG 的 方法吗？ 没有的话，steam link 串流， 那负载是在 win 上面还是 Mac 上面？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239832#reply17
+
+---
+
+#### 9700. [V2EX] Stash for Mac 怎么样?
+
+**问题描述 / Problem Description**:
+话说 Stash for Mac 怎么卖这么贵, 与 Clash 系相比有什么独特的优势之处吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238647#reply17
+
+---
+
+#### 9701. [V2EX] iOS 最省电的代理工具是什么？是不是 singbox 这种体积小的会好些？
+
+**问题描述 / Problem Description**:
+小火箭 y 肉眼可见的耗电偶尔有点断流，之前还买了 loon 和圈 X ，求大佬们分享经验
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240110#reply8
+
+---
+
+#### 9702. [V2EX] Airpods pro3 助听器有办法开启吗？求个大佬
+
+**问题描述 / Problem Description**:
+想买个 airpods 给家里老人用，想问下，这个助听器在国内又办法开启吗？是要改定位还是怎么办？有没有懂的大佬呀，还是说只能肉身在海外才能设置呢？求大佬们解答，感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240034#reply14
+
+---
+
+#### 9703. [V2EX] ios26 原生九宫格输入法也有联想问题
+
+**问题描述 / Problem Description**:
+新鲜发现的，本来用九宫格想连打“旧时代”三个字，发现怎么打都打不出来，仔细一瞧才发现显示的拼音是 jiu shi da g ，对应的第一个提示词居然还是“就是大姑”，最后一个字母 g 我刚开始还误看成了 q ，其实是 g ，联想到之前好像也有类似的错误，之前没认真看，现在想可能就不是我按错了键，而是它自带联想 bug 对比 iOS18 和 iOS17 测试了一下，iOS18 无此问题，iOS17 有同样的现象。不过 iOS17 是之前旧手机的系统，换了 iOS26 新手机后是将手机数据迁移到新手机上了，刚好是这两系统出现相同的现象，不会有点凑巧吧？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240023#reply1
+
+---
+
+#### 9704. [V2EX] Watch OS 27 当前测试版本有对讲机功能吗？
+
+**问题描述 / Problem Description**:
+我记得 beta1 的时候说是对讲机没了，现在有了吗，还是这功能彻底没了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239896#reply10
+
+---
+
+#### 9705. [V2EX] 5-6 年使用的美区 appid 账号被封了，有机会解封么
+
+**问题描述 / Problem Description**:
+自己使用了 5-6 年美区账号，期间只登陆过 app store ，没有买过礼品卡，没有充值消费过 这两天突然登录不进去了，然后申诉，最终收到被封的邮件，不是很理解为什么突然被封了？ Your Apple Account Request Dear xxx, We’ve reviewed your request, and access to your account (xxxxx@gmail.com) has been denied. Apple
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239809#reply12
+
+---
+
+#### 9706. [V2EX] 求教贴， MBP 和 Mini 哪个更好一些
+
+**问题描述 / Problem Description**:
+现在正在用的是一个老款的 MBP ，老到不是 M 芯片 远古巨物 16 GB 2133 MHz LPDDR3 2.3 GHz 四核 Intel Core i5 Intel Iris Plus Graphics 655 1536 MB 想换一个新的 MAC 因为真香 主要是开发前端 （后端也要开始学）。 在纠结事 MBP 和 Mini 。 都是一样的配置 24G+1T Mini 有 M6 和 M5Pro 个人倾向于 M5Pro 最近甚至了解了官翻机 能省一分是一分的理念 或者 Mini 挂尿袋是否会经常出问题 还是说等等党永远不亏 等 M6Pro 对 MAC 配置拿不准（同时也有些选择困难症），
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239476#reply41
+
+---
+
+#### 9707. [V2EX] 7 年 setapp 绝版家庭套餐找一人，单账号双 Mac Seat
+
+**问题描述 / Problem Description**:
+19 年的 setapp 老版本家庭套餐，目前空出一个位置。 套餐详情： 双 Mac seat ，独立账号，只是登录用户名用我提供的邮箱地址（因为 25 年 4 月份开始老家庭套餐已经彻底锁死家庭成员），我提供的邮箱只是一个别名，实际通过 cloudflare email routing 直接发送邮件到你的私人邮箱，使用自己的私人邮箱通过 email OTP 登录 付款方式： 有微信群，7.47 刀/季度（原价未加价） 联系方式：c3p5aHMyNDU0Ng==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239401#reply4
+
+---
+
+#### 9708. [V2EX] 想入一台港版或者澳版台版的 iPhone1 卡槽+esim
+
+**问题描述 / Problem Description**:
+有靠谱渠道吗大佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239370#reply12
+
+---
+
+#### 9709. [V2EX] 想入一台 美版有锁 iPhone air
+
+**问题描述 / Problem Description**:
+大家有推荐的购机渠道么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239363#reply24
+
+---
+
+#### 9710. [V2EX] Mac Performance Monitor v1.7.0
+
+**问题描述 / Problem Description**:
+原生 macOS 性能分析器和日志记录器，常驻菜单栏。它会持续记录 CPU 、内存压力、GPU 、网络、磁盘、电池以及每个进程的使用情况到本地数据库，然后帮助您理解这些数据：趋势、泄漏、压力事件和设备诊断信息。[md]# Mac Performance Monitor 菜单栏概览： 一个紧凑且可配置的条目，实时显示内存压力、CPU 、GPU 、网络、磁盘和电池读数，并配有共享的详细信息面板。 仪表盘：通俗易懂的状态评估、关键指标卡片、带可选时间范围的压力时间轴、内存构成分析以及交换空间（ swap ）趋势。 进程浏览器： 一个实时、可排序、可筛选的进程列表，并附带详细检查器，可查看内存占用、C
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239242#reply2
+
+---
+
+#### 9711. [V2EX] 电子产品大涨价，大家还会正常更新数码设备吗？
+
+**问题描述 / Problem Description**:
+如题，原本今年想换套苹果设备，按这个趋势，没个三五万估计入不了丐版套装。打算继续扛两年再说了，不知道大家还会如期给数码产品做更新换代吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239196#reply52
+
+---
+
+#### 9712. [V2EX] 做了个 Mac 菜单栏备份 App， Keelhaven，开源免费
+
+**问题描述 / Problem Description**:
+用 restic 好几年了，命令行那部分我一直很信任，不信任的是我自己：定时任务不知道 什么时候起就悄悄失败了，我是过了几周才发现的。 所以做了 Keelhaven ，一个 macOS 菜单栏 App 。选文件夹、选目的地、设个频率，剩下的 它自己跑，失败了才出声。 目的地是你自己的：外置硬盘、任何 S3 兼容的桶（ B2 、R2 、Wasabi 、自建 MinIO 都行）、 或者 SFTP 到自己的 NAS 。没有账号系统，没有我的服务器，不发任何遥测——App 里根本 没有能往外发东西的地方。 几个我觉得值得说的点： 备份出来的就是 标准 restic 仓库 。任何一台机器上 restic
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239062#reply3
+
+---
+
+#### 9713. [V2EX] 各位 Apple 的 Inteler 是时候说再见了～
+
+**问题描述 / Problem Description**:
+Apple 通知开发者，要求 macOS 13 及以上的 Mac App Store 通用应用现可弃用 Intel Mac 支持，以简化开发并优化下载与设备占用。弃用后 Intel Mac 不再收到更新，但用户可继续使用最后兼容版本。 来自新 CEO 的关爱。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238986#reply16
+
+---
+
+#### 9714. [V2EX] 有很多 V 友准备买 gpt6 astro 了，我这有 20 刀优惠
+
+**问题描述 / Problem Description**:
+看到很多 V 友准备买 gpt 6 astro. 用美区的苹果账号买 gpt 订阅可以不用绑定银行卡，可以直接用 Apple Gift Card 订阅。需要的 V 友联系我，可以优惠 20 刀，相当于一个月的 plus 会员省了。 Apple Gift Card 都是美区本地官方店里买的，收据齐全，放心用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240232#reply0
+
+---
+
+#### 9715. [V2EX] 祝贺🎉袁腾飞老师顺利移居美利坚🇺🇸 以后可以听更多“趣味”😆历史课了🥳
+
+**问题描述 / Problem Description**:
+Snipaste_2026-09-07_20-24-12.png
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240171#reply5
+
+---
+
+#### 9716. [V2EX] AI 工具如何远程手机上使用？
+
+**问题描述 / Problem Description**:
+目前用的 AI 工具 Cursor 和 Codex ，电脑在公司，周末或者下班时间，需要远程改个东西， 1.如何手机上使用？ 2.能不能接入飞书或者企业微信之类的办公软件进行对话
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240119#reply5
+
+---
+
+#### 9717. [V2EX] uu 远程 30Hz 要慎用
+
+**问题描述 / Problem Description**:
+我是 pc windows 远程连 mac, 然后用手机 再远程连 mac 之间来回换过几次 感觉 pc 连上用不了了 然后 mac 的显示器就不亮了 配置里刷新率成了 30Hz
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240102#reply0
+
+---
+
+#### 9718. [V2EX] 不公平不严谨单一任务评估 LLM
+
+**问题描述 / Problem Description**:
+目前有一个优化代码执行速度的任务,是个重度多卡并行任务, 我使用多个 LLM 阅读同一任务 md 从零启动写代码自己执行文件直到认为自己完成目标, 整理之后进行统一评估 使用了 11 个模型, cc-opus5-max cc-opus5-medium codex-sol-max codex-sol-medium geminicli-gemini-3.8flash grok-grok-4.6 dsh-deepseek-v4flash dsh-deepseek-v4pro cc-glm5.3-flash cc-glm5.3 cc-qwen3.8max 花费: glm5.3 花了 18 块没干完,
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240086#reply1
+
+---
+
+#### 9719. [V2EX] 分享一个给新手用的 AI SEO 工具箱： AiSeoTools
+
+**问题描述 / Problem Description**:
+最近做了一个偏实用的 AI SEO 工具箱，适合创作者、站长、营销人员和小团队使用： AI 写作与内容优化 关键词、域名研究和批量查询 反向链接管理与追踪 Google Analytics 数据看板 AI 聊天、图片和视频工具 HTML 转 Markdown / JSON 、Chrome 扩展等小工具 免费额度可以先试用，付费积分从 $9.90 起。 站点： https://aiseotools.org 如果你正在做内容增长，想把关键词研究、写作、链接管理和数据分析放在一个地方，欢迎试试看，也欢迎反馈哪些工具更有用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240056#reply0
+
+---
+
+#### 9720. [V2EX] 发现本地部署的 Hermes 和 Grok Bot 是同一套多 bot 架构，分享一下养 bot 打工的经验
+
+**问题描述 / Problem Description**:
+一直用 Cursor 的 200 刀订阅。前阵子 Cursor 被马斯克收购后，Grok Bot 对 Cursor 付费用户开放了，体验了一下，被它的模式惊到了：每个 bot 一套独立人格 + 独立 profile ，互相隔离，还能把多个 bot 拉进一个群讨论工作。 然后无意中发现，我本地部署了很久的 Hermes Agent （开源 AI Agent 框架，Nous Research 出的）居然有一模一样的 bot 功能。因为我本地一直只建了一个 profile ，之前完全不知道这东西能干嘛。对照着用了一圈，两边的 bot 设置模式基本一致——等于 Grok Bot 这套「数字员工」模式，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240012#reply3
+
+---
+
+#### 9721. [V2EX] 今天才发现 Codex 的一个小细节
+
+**问题描述 / Problem Description**:
+codex 对话框左侧的对话缩略导航，如果在听歌，这个导航条还会随音乐节奏律动跳动，不知道什么时候升级的，还挺有意思
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240002#reply11
+
+---
+
+#### 9722. [V2EX] 带大行 P8 折叠车上高铁体验和经验分享
+
+**问题描述 / Problem Description**:
+众所周知，我周末一般往返合肥和庐江。这次想试试是否可以带新买的折叠车上高铁，在此之前虽然做了很多功课，但具体体验如何心里还是个问号。 先说结论，图一打包方式正确✅，图三的打包方式错误❌。 周五晚上下班，骑车折叠车到达合肥南站用的是提前买好的软布包（第四张图，被工作人员拦下说要测量尺寸，最后被管事的一个小姐姐轻声地说，“让他进去吧，但下次记得用硬纸壳包装，不然在高铁上容易划伤到别的乘客”，并给我指了无障碍的电梯🛗。表示感谢并承诺下次一定用硬纸壳包起来。并不是很顺利的进站，但非常多谢这位合肥南站工作人员的通融。 周日晚上，我提前准备好了硬纸壳。并用了这种特别宽大特别粘的胶带制作了可以折叠且可快速粘
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239993#reply4
+
+---
+
+#### 9723. [V2EX] Alphaio 量化模型沉淀平台｜ A 股量化平台
+
+**问题描述 / Problem Description**:
+Alphaio 量化平台，支持几十种模型，支持数十种 AI 工具一键对接，注册就送 7 天体验权限 https://www.alphaio.vip/ 分享 20 个注册邀请码，需要的抓紧了 INVITE-R9S8-PG8Y INVITE-HYQM-9Q6B INVITE-VMDQ-Q3SS INVITE-2DTR-9CHY INVITE-CEKG-7WE8 INVITE-76CH-GHGA INVITE-VB2Q-6PTW INVITE-HJJX-8HXZ INVITE-2TYY-UW4R INVITE-T5QK-NGTJ INVITE-CS3T-36ET INVITE-HMGU-9Y52 I
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239771#reply10
+
+---
+
+#### 9724. [V2EX] [避雷流氓雷鸟电视] 雷鸟电视的流氓视频屏保删除教程
+
+**问题描述 / Problem Description**:
+我家的雷鸟电视一直没升级，也一直没广告，屏保也一直是关着的，最近几天突然 1 分钟后自动出现什么视频屏保，里面推送了一堆视频推广广告。屏保我确定是一直都是关着的。也就是这个什么视频屏保根本不受用户控制。 我等他视频屏保出来的时候 adb 抓了一下活动窗口，发现是 com.tcl.vod 里的 com.tcl.vod.player.activity.ScreenSaverVideoActivity 还有一个什么艺术画廊也是疑点 com.tcl.appreciate.art 都可以删了 pm uninstall -k --user 0 com.tcl.appreciate.art pm unins
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239684#reply7
+
+---
+
+#### 9725. [V2EX] 微软真的是大善人
+
+**问题描述 / Problem Description**:
+忘记是什么时候了.从 chrome 浏览器切到了 edge 浏览器. 刚才打开一看 .已经 7w+积分了.自己没有主动做过任何任务. 朋友 n 年前就和我说过这个羊毛.但是由于国内受 pdd 荼毒太久. 对羊毛也有阴影.总感觉积分获取很麻烦.各种冷却,刁钻任务. 今天看着冰冷的 7w 积分 ,陷入了幸福之中, 不知道 v 站上面有没有其他牛人.积分更高一些? 附上 https://rewards.bing.com/welcome?rh=F11A45E5&ref=rafsrchae
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239542#reply30
 
 ---

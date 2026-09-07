@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10094**
+**总计条目 / Total entries: 10121**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -139194,5 +139194,356 @@ You need to enable the contrib component; to do that, run grep -rlZ debian.org /
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/807294/how-do-i-add-the-repo-for-libdvdcss-on-debian-13
+
+---
+
+#### 10095. Ubuntu 26.10 amd64v3 Daily ISOs Now Being Published
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9th1y/ubuntu_2610_amd64v3_daily_isos_now_being_published/
+
+---
+
+#### 10096. Asahi Linux can now be installed on M3 Macs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9b080/asahi_linux_can_now_be_installed_on_m3_macs/
+
+---
+
+#### 10097. Beyond All Reason (BAR) deserves more spotlight
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9osb1/beyond_all_reason_bar_deserves_more_spotlight/
+
+---
+
+#### 10098. First beta release of MiDesktop 1.2.0!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wa2nhm/first_beta_release_of_midesktop_120/
+
+---
+
+#### 10099. 77 days of development: what changed between REZANOVA v0.2.0 and v0.3.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wa5uso/77_days_of_development_what_changed_between/
+
+---
+
+#### 10100. The #systemau linux podcast seems to be back (after 9 years! )
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1w9ipzo/the_systemau_linux_podcast_seems_to_be_back_after/
+
+---
+
+#### 10101. Why Is the Non-LTS Version of Ubuntu Not Widely Used?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wa68we/why_is_the_nonlts_version_of_ubuntu_not_widely/
+
+---
+
+#### 10102. [V2EX] 64 个免费的外链提交平台
+
+**问题描述 / Problem Description**:
+免费外链提交平台： https://github.com/sherotree/free-backlink-sources
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240217#reply2
+
+---
+
+#### 10103. [V2EX] GPT PRO 有没有想要拼车的
+
+**问题描述 / Problem Description**:
+GPT PRO 20X 有没有想要拼车的，如果用的多，可以单开一个账号，一车 RMB 1450
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240214#reply1
+
+---
+
+#### 10104. [V2EX] grok4.6 的作弊输出
+
+**问题描述 / Problem Description**:
+supergrok 非试用订阅 模型: grok4.6; 思考: high harness: pi 0.85.1 输入 A previously isolated, newly discovered, randomly mating mammalian species raises its young for 18 years, similar to humans. The species is very social and all families have a nuclear structure (one household consists of a mother and father
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240209#reply2
+
+---
+
+#### 10105. [V2EX] 求问 vibe coding 后想转成长期项目，哪种维护方式更好？
+
+**问题描述 / Problem Description**:
+如果你也赞同： 一直 vibe coding 上线要出事的。 注意这里有个前提就是本人喜欢可读性极强的代码，可扩展性高但不提前过度设计，耦合低等等等等......但是一口气 vibe coding 出来的代码风格始终达不到好的可读性效果，不知是不是加的约束不好。 跑原型做验证的时候，是不会花时间看代码的，现在想把一个东西做上线。 在现有的基础上改，相当于重构。 优点是不会漏功能，缺点是要先看懂理解 AI 的代码。可能存在很多过度设计的绕弯子，一个简单的东西给你搞好多类好多状态机，徒增复杂性。 根据现有的文档，从架构和技术选型开始重新出发。 优点是可维护性高，没有理解成本，而且后续的工作还是可以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240207#reply5
+
+---
+
+#### 10106. [V2EX] 累了 现在一个域名那么贵了吗
+
+**问题描述 / Problem Description**:
+去年还才 100 的价格，一下字就涨到 6k 多，玩不起了。拿了 5 年的域名，明年就没了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240199#reply16
+
+---
+
+#### 10107. [V2EX] qwen 模型坑太多了：缓存命中后延迟反而增高，参数不兼容导致 langchain 调用报错
+
+**问题描述 / Problem Description**:
+qwen3.8 max 模型带图流式输入后，在输出 tool 调用时输出内容里就会丢掉 role 字段。导致 langchain 不兼容直接没法用。 模型在 reasonning_effort 上采用的是 none 而不是 minimal 关闭思维链。 以及不支持 tool_choice required 写法。如果你的 langchain 用 OpenAI 的包调用这个模型，创建 agent 做 responseformat 就会被 fallback 到 tool_choice required 写法直接报错。 不止这一家还有些模型也有各样的问题，这就导致一个使用了大量不同形式的模型请求的项
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240189#reply1
+
+---
+
+#### 10108. [V2EX] gpt pro 20x 4 人车 缺 2 人上车
+
+**问题描述 / Problem Description**:
+gpt pro 20x 4 人车 有拼车的吗？ 日区 3W/月，300/人，周限 550 。通过 new-api 转发，我这边搭好了上次订阅本周六到期，可以低价给用，周额度控制，提供 api-key 和随时后台截图。家宽+新加坡代理，不需要操心后台。人够发车，不够不发. 上车加 V:bG1sMjAxNDUx 还差 2 人。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240182#reply2
+
+---
+
+#### 10109. [V2EX] 最近一口气看了 10 章 DDIA-V2，确实是好书啊
+
+**问题描述 / Problem Description**:
+尤其是在 AI 时代，对于入行两年的我而言，DDIA 完全是起到了提纲挈领，导师级的作用。 并且阅读的时候，DDIA-V2 配合 LLM 问答，完全相得益彰。书中无需赘述过多的技术细节。有疑惑不懂地及时问 AI 。也能快速的从逻辑和知识面上予以解惑。 虽然学了照样还是要面临行业危机，但确实是好书。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240181#reply8
+
+---
+
+#### 10110. [V2EX] Codex 500 额度三个，留下邮箱
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240177#reply10
+
+---
+
+#### 10111. [V2EX] opc 出海经验
+
+**问题描述 / Problem Description**:
+小弟最近在研究 opc ，请问如果出海的话，有什么比较完整的现成的案例可以参考呢，比如说是如何运营推广、如何收费等等一系列内容，甚至有如何更好更快的开发也可以学习一下 以收费为例，我查了一下 creem 貌似可以，貌似是无法开 strip 的最佳代替，不知道有没有大佬实践过？域名服务器我调研看到选择 cloudflare 会更好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240175#reply2
+
+---
+
+#### 10112. [V2EX] 看别人的开源底层框架有点吃力，有什么方法帮助一下
+
+**问题描述 / Problem Description**:
+最近在看存储的开源框架，看起来有点吃力，有没有什么方法可以帮助一下的。感谢！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240164#reply10
+
+---
+
+#### 10113. [V2EX] 一个小前端不知道未来如何，望指点
+
+**问题描述 / Problem Description**:
+我是一个就职 3 年半前端的普通职员，毕业前半年是外包接触的技术栈还算好，现在就职三年的公司前端还是 jq/avalon+jsp 为主，我主要负责 jq 转 cdn 式 vue 开发，我去年年中开始使用 ai 开发，最近在思考未来做什么，我不太敢笃定哪个职业更有前途，现在在思考 agent 开发，但是感觉也没多久就要没了，比较迷茫，望各位 dalao ，老哥有所指点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240156#reply15
+
+---
+
+#### 10114. [V2EX] 最佳工作状态时间段
+
+**问题描述 / Problem Description**:
+上午总是不太想干活，进入不了状态。 下午两点多、三点多总是犯困，程度非常重，几乎无法深度思考，只想睡大觉。但每到 5 点接近饭点时，就没事了，会感觉像在深夜一样平静专注，容易进入心流。一天之内工作效率最高的时候！我经常是全靠 4 点～ 6 点这两小时出活了 orz……幸好现在有 agent ，其他时间等 agent 就行了（。 傍晚回家后又有点乏，洗澡都没心力。深夜的时候倒是状态绝佳。 感觉我真的很不适合通常的工作时间……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240155#reply1
+
+---
+
+#### 10115. [V2EX] 请教下， Remote 办公，会考虑在同小区租个房子办公吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240151#reply12
+
+---
+
+#### 10116. [V2EX] 史无前例！最棒的博客压缩包！
+
+**问题描述 / Problem Description**:
+闲来无事让 AI 给我搓了一个能把压缩包塞进压缩包的程序，这样包含我博客的压缩包就不会因为解压而不完整了😆 效果如下： https://mayx.eu.org/MayxBlog.7z 这个压缩包里的 MayxBlog.7z 和它本身完全一致！算是圆了我曾经的梦想了： https://mabbs.github.io/2025/09/01/quine.html
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240137#reply9
+
+---
+
+#### 10117. [V2EX] 晒下你们 AI 对你们自己的用户画像
+
+**问题描述 / Problem Description**:
+Harness 如今已经接近成熟了，其中一个重要部分就是总结开发者的用户画像，以便让 Agent 更好理解和配合开发。我看了一下我自己的，也想看看其他人的 Harness 如何总结。用户画像应该是多段文字，用来描述开发者的工作习惯、交流习惯、思考习惯等等。下面是 Agent 对我的用户画像: 用户倾向于将任务切分为独立、明确的“工作包”，并以简洁指令启动新话题；对不确定的实现细节，要求 Agent 先复述并核对，再动手。 用户偏好以可验证的中间成果驱动开发：先批准最小必要实现（如新增字段），明确其即时用途边界，将后续扩展或深度优化推迟到明确指令下达时；若实现引发意外副作用，会立即介入回退或修正
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240136#reply2
+
+---
+
+#### 10118. [V2EX] 2026 全国青少年科学探究建模能力大赛 E4
+
+**问题描述 / Problem Description**:
+各位你们有这个比赛的模拟题相关的网站吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240125#reply0
+
+---
+
+#### 10119. [V2EX] 大上下文的 gpt6 效果如何?
+
+**问题描述 / Problem Description**:
+有大佬修改过默认配置, 试过 258k 以上 上下文的 gpt6 在大功能颗粒度的开发效果嘛。比如 500k、1M 上下文下的 codex 中 gpt 的效果
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240118#reply0
+
+---
+
+#### 10120. [V2EX] 大家用 GPT6 做了什么有趣的站点？可以分享在这里
+
+**问题描述 / Problem Description**:
+GPT6 生成网站和游戏的能力很强。 很多设想半小时就能成真，真像许愿池了。 聪明的 V 友们，一定做出了不少有趣的网站。 可以在这里分享、讨论。 抛砖引玉： 原始海洋，模拟生命诞生和演化： https://primordia-earth.tianhe.chatgpt.site 模拟经营餐馆 游戏： https://little-table.tianhe.chatgpt.site
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240114#reply0
+
+---
+
+#### 10121. [V2EX] 被不知道哪来的吊毛刷我 CDN 流量
+
+**问题描述 / Problem Description**:
+这个月才一个星期，刷我十来 G ，每天的流量完全就是复制粘贴的一样，妈了个巴子的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240112#reply3
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3280**
+**总计条目 / Total entries: 3296**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -58926,5 +58926,537 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2528569
+
+---
+
+#### 3281. CVE-2026-84732 - openvpn: OpenVPN: Remote Denial of Service via crafted ACK packets
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Remote Denial of Service via crafted ACK packets. Bugzilla: 2529320
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529320
+
+---
+
+#### 3282. CVE-2026-84256 - OpenVPN: OpenVPN: Arbitrary command execution via crafted certificate subject
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Arbitrary command execution via crafted certificate subject. Bugzilla: 2529309
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529309
+
+---
+
+#### 3283. CVE-2026-86332 - odh-dashboard: odh-dashboard: NIM credential Secret readable by any authenticated…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] odh-dashboard: odh-dashboard: NIM credential Secret readable by any authenticated user. Bugzilla: 2529287
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529287
+
+---
+
+#### 3284. CVE-2026-86315 - Escargot: Escargot: Out-of-bounds write leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Escargot: Escargot: Out-of-bounds write leads to Denial of Service. Bugzilla: 2529280
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529280
+
+---
+
+#### 3285. CVE-2026-53769 - avo: Avo: Unauthorized attachment modification via authorization bypass
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] avo: Avo: Unauthorized attachment modification via authorization bypass. Bugzilla: 2528883
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528883
+
+---
+
+#### 3286. [Ubuntu] USN-8732-1: Minetest vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Minetest did not properly sanitize the Lua sandbox environment when using LuaJIT. A malicious mod could escape the sandbox to execute arbitrary code and gain full file system access on the server. An attacker could use this issue to compromise the server.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8732-1
+
+---
+
+#### 3287. [Ubuntu] USN-8731-1: MiniUPnPd vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that MiniUPnPd contained an integer underflow vulnerability in SOAPAction header parsing. A remote attacker could use this issue to cause a denial of service or information disclosure by sending a malformed SOAPAction header with a single quote.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8731-1
+
+---
+
+#### 3288. [Ubuntu] USN-8730-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - IPv6 networking; - Netfilter;
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8730-1
+
+---
+
+#### 3289. [Ubuntu] USN-8729-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - PowerPC architecture; - Compute Acceleration Framework; - Drivers core; - Bluetooth drivers; - Arm Firmware Framework for ARMv8-A(FFA); - EFI core; - GPU drivers; - Hardware
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8729-1
+
+---
+
+#### 3290. [Ubuntu] USN-8728-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) It was discovered th
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8728-1
+
+---
+
+#### 3291. CVE-2026-68377
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+net/sched: act_tunnel_key: Defer dst_release to RCU callback
+
+Fix a race-condition use-after-free in tunnel_key_release_params().
+
+The function releases the metadata_dst of the old params synchronously
+via dst_release() while deferring the params struct free with
+kfree_rcu(). A concurrent tunnel_key_act() reader on the datapath may
+still hold the old params pointer (under rcu_read_lock_bh) and proceed
+to call dst_clone(¶ms->tcft_enc_metadata->dst) after the writer's
+dst_release has already pushed the dst's rcuref to RCUREF_DEAD.
+
+zdi-disclosures@trendmicro.com produced a poc which i (and Victor) verified
+that KASAN reports:
+
+==================================================================
+BUG: KASAN: slab-use-after-free in instrument_atomic_read_write include/linux/instrumented.h:112
+BUG: KASAN: slab-use-after-free in atomic_sub_return_release include/linux/atomic/atomic-instrumented.h:326
+BUG: KASAN: slab-use-after-free in __rcuref_put include/linux/rcuref.h:109
+BUG: KASAN: slab-use-after-free in rcuref_put include/linux/rcuref.h:173
+BUG: KASAN: slab-use-after-free in dst_release+0x5b/0x370 net/core/dst.c:168
+Write of size 4 at addr ffff88806158de40 by task poc/9388
+
+CPU: 0 UID: 0 PID: 9388 Comm: poc Tainted: G        W           7.1.0-rc7 #7 PREEMPT(lazy)
+Tainted: [W]=WARN
+Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <TASK>
+ __dump_stack lib/dump_stack.c:94
+ dump_stack_lvl+0x100/0x190 lib/dump_stack.c:120
+ print_address_description mm/kasan/report.c:378
+ print_report+0x139/0x4ad mm/kasan/report.c:482
+ kasan_report+0xe4/0x1d0 mm/kasan/report.c:595
+ check_region_inline mm/kasan/generic.c:186
+ kasan_check_range+0x125/0x200 mm/kasan/generic.c:200
+ instrument_atomic_read_write include/linux/instrumented.h:112
+ atomic_sub_return_release include/linux/atomic/atomic-instrumented.h:326
+ __rcuref_put include/linux/rcuref.h:109
+ rcuref_put include/linux/rcuref.h:173
+ dst_release+0x5b/0x370 net/core/dst.c:168
+ refdst_drop include/net/dst.h:272
+ skb_dst_drop include/net/dst.h:284
+ skb_release_head_state+0x293/0x400 net/core/skbuff.c:1163
+ skb_release_all net/core/skbuff.c:1187
+[..]
+Allocated by task 9391:
+ kasan_save_stack+0x30/0x50 mm/kasan/common.c:57
+ kasan_save_track+0x14/0x30 mm/kasan/common.c:78
+ poison_kmalloc_redzone mm/kasan/common.c:398
+ __kasan_kmalloc+0x9a/0xb0 mm/kasan/common.c:415
+ kasan_kmalloc include/linux/kasan.h:263
+ __do_kmalloc_node mm/slub.c:5296
+ __kmalloc_noprof+0x2f1/0x830 mm/slub.c:5308
+ kmalloc_noprof include/linux/slab.h:954
+ kzalloc_noprof include/linux/slab.h:1188
+ offload_action_alloc+0x2f/0x130 net/core/flow_offload.c:35
+ tcf_action_offload_add_ex+0x1ba/0x880 net/sched/act_api.c:258
+ tcf_action_offload_add net/sched/act_api.c:293
+ tcf_action_init+0x66e/0xa20 net/sched/act_api.c:1547
+ tcf_action_add+0xf6/0x5d0 net/sched/act_api.c:2101
+[..]
+Freed by task 9391:
+ kasan_save_stack+0x30/0x50 mm/kasan/common.c:57
+ kasan_save_track+0x14/0x30 mm/kasan/common.c:78
+ kasan_save_free_info+0x3b/0x70 mm/kasan/generic.c:584
+ poison_slab_object mm/kasan/common.c:253
+ __kasan_slab_free+0x6b/0x90 mm/kasan/common.c:285
+ kasan_slab_free include/linux/kasan.h:235
+ slab_free_hook mm/slub.c:2689
+ slab_free mm/slub.c:6251
+ kfree+0x21f/0x6b0 mm/slub.c:6566
+ tcf_action_offload_add_ex+0x4ad/0x880 net/sched/act_api.c:284
+ tcf_action_offload_add net/sched/act_api.c:293
+ tcf_action_init+0x66e/0xa20 net/sched/act_api.c:1547
+ tcf_action_add+0xf6/0x5d0 net/sched/act_api.c:2101
+
+The buggy address belongs to the object at ffff88806158de00
+ which belongs to the cache kmalloc-256 of size 256
+The buggy address is located 64 bytes inside of
+ freed 256-byte region [ffff88806158de00, ffff88806158df00)
+
+The buggy address belongs to the physical page:
+page: refcount:0 mapcount:0 mapping:0000000000000000 index:0xffff88806158d600 pfn:0x6158c
+head: order:1 mapcount:0 entire_map
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2200a00ff247f70f5dcdb4e6f14b0d48ddac5467.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2200a00ff247f70f5dcdb4e6f14b0d48ddac5467
+- https://git.kernel.org/stable/c/2791a501da508b704a617b4dba29db54a65bc9f7
+- https://git.kernel.org/stable/c/389d03992dabb80488228e8119b9dd6d0f58e1a6
+- https://git.kernel.org/stable/c/531dbb5bb98e52ad26be7e90f9f8bec707c5bd0e
+- https://git.kernel.org/stable/c/676ad6aa7cec89a08d2a5ce3cd5959e313f29733
+
+---
+
+#### 3292. CVE-2026-74517
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+KVM: x86: Cancel delayed I/O APIC EOI handling before destroying vCPUs
+
+Cancel (and flush) the I/O APIC's delayed EOI handling work during the
+"pre VM destroy" phase, before vCPUs are destroyed, as processing the EOI
+broadcast will inject another IRQ if the line is asserted, i.e. will try
+to deliver an IRQ to the target vCPU(s).  Canceling the work after vCPUs
+are destroyed leads to UAF if the delayed work is processed after vCPUs are
+destroyed.
+
+  BUG: KASAN: slab-use-after-free in __kvm_irq_delivery_to_apic_fast+0x9bf/0xa20 arch/x86/kvm/lapic.c:1250
+  Read of size 8 at addr ffff8880499abea0 by task kworker/1:2/1218
+
+  CPU: 1 UID: 0 PID: 1218 Comm: kworker/1:2 Not tainted 7.1.0-rc7 #5 PREEMPT(lazy)
+  Hardware name: QEMU Ubuntu 25.10 PC v2 (i440FX + PIIX, + 10.1 machine, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  Workqueue: events kvm_ioapic_eoi_inject_work
+  Call Trace:
+   <TASK>
+   __dump_stack lib/dump_stack.c:94
+   dump_stack_lvl+0x100/0x190 lib/dump_stack.c:120
+   print_address_description mm/kasan/report.c:378
+   print_report+0x139/0x4ad mm/kasan/report.c:482
+   kasan_report+0xe4/0x1d0 mm/kasan/report.c:595
+   __kvm_irq_delivery_to_apic_fast+0x9bf/0xa20 arch/x86/kvm/lapic.c:1250
+   __kvm_irq_delivery_to_apic+0xd8/0xbf0 arch/x86/kvm/lapic.c:1345
+   kvm_irq_delivery_to_apic arch/x86/kvm/lapic.h:129
+   ioapic_service+0x308/0x590 arch/x86/kvm/ioapic.c:492
+   kvm_ioapic_eoi_inject_work+0x13c/0x190 arch/x86/kvm/ioapic.c:532
+   process_one_work+0xa59/0x19a0 kernel/workqueue.c:3314
+   process_scheduled_works kernel/workqueue.c:3397
+   worker_thread+0x5eb/0xe50 kernel/workqueue.c:3478
+   kthread+0x370/0x450 kernel/kthread.c:436
+   ret_from_fork+0x72b/0xd30 arch/x86/kernel/process.c:158
+   ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:245
+   </TASK>
+
+Note, the VM is unreachable once kvm_destroy_vm() starts, and scheduling
+new work via kvm_ioapic_send_eoi() can only be done via KVM_RUN, i.e.
+requires a live vCPU.
+
+Alternatively, KVM could simply destroy the I/O APIC during the "pre" phase
+of VM destruction, but that gets more than a bit sketchy as KVM expects the
+I/O APIC to exist if ioapic_in_kernel() is true, and nested virtualization
+in particular has a bad habit of touching VM-scope state during vCPU
+destruction.  E.g. attempting to free the PIC during the pre phase would
+lead to a NULL pointer dereference in kvm_cpu_has_extint(), and it's not
+hard to imagine the I/O APIC having a similar flaw.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/5f0a99ea721203a4063618aafcca32abf573cb96.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/5f0a99ea721203a4063618aafcca32abf573cb96
+- https://git.kernel.org/stable/c/69d040448067cebdd5598684db36ce7d8fb2f43e
+- https://git.kernel.org/stable/c/9910e835580fef3bef53b70241dd00c4bffad693
+- https://git.kernel.org/stable/c/ed56a6b58222f9c1f4115a0bd2788dd6ed6022e2
+
+---
+
+#### 3293. CVE-2026-61897
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+An Ubuntu-specific patch to AccountsService before 23.13.9-8ubuntu7 only partially drops privileges before launching language helper scripts. It changes the effective UID/GID to the target user but leaves the real UID as 0 (root). A shell spawned by a helper script inherits ruid=0 and may reset its effective UID to root, enabling local privilege escalation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985
+- https://ubuntu.com/security/CVE-2026-61897
+
+---
+
+#### 3294. CVE-2026-61898
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) shipped with accountsservice before 23.13.9-8ubuntu7 treat the user-controlled LANGUAGE entry in ~/.pam_environment as trusted input. The value is interpolated unescaped into a GNU sed replacement expression, allowing an attacker to inject a sed 'e' flag and arbitrary shell commands that execute with the privileges of the AccountsService helper process (real UID 0) via the SetLanguage D-Bus method.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985.
+
+**参考链接 / References**:
+- https://bugs.launchpad.net/ubuntu/+source/accountsservice/+bug/2157985
+- https://ubuntu.com/security/CVE-2026-61898
+
+---
+
+#### 3295. CVE-2026-80817
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
+
+iommufd_ioas_change_process() iterates every IOAS area while only
+holding every IOAS iova_rwsem, so it assumes every area has a non-NULL
+pages pointer. That assumption can be false when it runs concurrently
+with iopt_map_file_pages().
+
+iopt_map_pages() executes in two phases. It first creates the area and
+inserts it into the interval tree under iova_rwsem, with area->pages
+still NULL. It then drops iova_rwsem and later fills area->pages
+under domains_rwsem. This leaves a window between area creation and
+area->pages fill where a concurrent iommufd_ioas_change_process()
+can observe the area and dereference a NULL area->pages pointer,
+leading to a NULL pointer dereference:
+
+BUG: kernel NULL pointer dereference, address: 00000000000000c0
+#PF: supervisor read access in kernel mode
+#PF: error_code(0x0000) - not-present page
+PGD 4b655067 P4D 4b655067 PUD 0
+Oops: Oops: 0000 [#1] SMP NOPTI
+CPU: 0 UID: 0 PID: 11841 Comm: syz.1.628 Not tainted 7.1.0 #3 PREEMPT(full)
+Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+RIP: 0010:iommufd_ioas_change_process+0x419/0xd50 drivers/iommu/iommufd/ioas.c:538
+Code: 48 89 c3 48 85 c0 0f 84 cc 00 00 00 e8 10 f5 cb fd 48 8d 7b 68 e8 a7 b5 eb fd 48 8b 6b 68 48 8d bd c0 00 00 00 e8 17 b2 eb fd <8b> ad c0 00 00 00 bf 01 00 00 00 89 ee e8 85 ef cb fd 83 fd 01 74
+RSP: 0018:ffffc90015c17d28 EFLAGS: 00010246
+RAX: ffff8880186d5328 RBX: ffff88801d25e240 RCX: 0000000080000000
+RDX: 00000000000002d7 RSI: ffffffff83ba9e10 RDI: 00000000000000c0
+RBP: 0000000000000000 R08: ffffffff8e781eb8 R09: 0000000000000000
+R10: 00000000000000c0 R11: ffffffff83ba9e29 R12: ffff88802e216008
+R13: ffff88802e216000 R14: 0000000000000001 R15: 0000000000000000
+FS:  00007f4aea3f66c0(0000) GS:ffff8880b1fa1000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00000000000000c0 CR3: 000000004b75c000 CR4: 0000000000350ef0
+Call Trace:
+ <TASK>
+ iommufd_fops_ioctl+0x287/0x400 drivers/iommu/iommufd/main.c:533
+ vfs_ioctl fs/ioctl.c:51 [inline]
+ __do_sys_ioctl fs/ioctl.c:597 [inline]
+ __se_sys_ioctl fs/ioctl.c:583 [inline]
+ __x64_sys_ioctl+0x120/0x170 fs/ioctl.c:583
+ x64_sys_call+0x1092/0x1fb0 arch/x86/include/generated/asm/syscalls_64.h:17
+ do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+ do_syscall_64+0x10a/0x680 arch/x86/entry/syscall_64.c:94
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x7f4aec1a82bd
+Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b0 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007f4aea3f6018 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+RAX: ffffffffffffffda RBX: 00007f4aec436090 RCX: 00007f4aec1a82bd
+RDX: 0000200000000180 RSI: 0000000000003b92 RDI: 0000000000000003
+RBP: 00007f4aec250295 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+R13: 00007f4aec436128 R14: 00007f4aec436090 R15: 00007ffd04ef23e0
+ </TASK>
+Modules linked in:
+CR2: 00000000000000c0
+---[ end trace 0000000000000000 ]---
+RIP: 0010:iommufd_ioas_change_process+0x419/0xd50 drivers/iommu/iommufd/ioas.c:538
+Code: 48 89 c3 48 85 c0 0f 84 cc 00 00 00 e8 10 f5 cb fd 48 8d 7b 68 e8 a7 b5 eb fd 48 8b 6b 68 48 8d bd c0 00 00 00 e8 17 b2 eb fd <8b> ad c0 00 00 00 bf 01 00 00 00 89 ee e8 85 ef cb fd 83 fd 01 74
+RSP: 0018:ffffc90015c17d28 EFLAGS: 00010246
+RAX: ffff8880186d5328 RBX: ffff88801d25e240 RCX: 0000000080000000
+RDX: 00000000000002d7 RSI: ffffffff83ba9e10 RDI: 00000000000000c0
+RBP: 0000000000000000 R08: ffffffff8e781eb8 R09: 0000000000000000
+R10: 00000000000000c0 R11: ffffffff83ba9e29 R12: ffff88802e216008
+R13: ffff88802e216000 R14: 0000000000000001 R15: 0000000000000000
+FS:  00007f4aea3f66c0(000
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/7596354148c5aa12dfaa17992d1aef1aa2ea831a.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/7596354148c5aa12dfaa17992d1aef1aa2ea831a
+- https://git.kernel.org/stable/c/d616de490ec0242dcf78f02f1adf7baa035c4d0d
+- https://git.kernel.org/stable/c/d9635e2507dc8260b9ba9992a4198e84f9340a15
+- https://git.kernel.org/stable/c/ffe6d379be20df013e19a4c63dd80bc6b683106d
+
+---
+
+#### 3296. CVE-2026-80863
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+RDMA/rxe: Fix OOB in free_rd_atomic_resources()
+
+free_rd_atomic_resources() iterates using qp->attr.max_dest_rd_atomic.
+Updating max_dest_rd_atomic before freeing the old array can make the
+free path walk past the old allocation and trigger a slab out-of-bounds
+write catched by KASAN:
+==================================================================
+BUG: KASAN: slab-out-of-bounds in free_rd_atomic_resource drivers/infiniband/sw/rxe/rxe_qp.c:180 [inline]
+BUG: KASAN: slab-out-of-bounds in free_rd_atomic_resources drivers/infiniband/sw/rxe/rxe_qp.c:171 [inline]
+BUG: KASAN: slab-out-of-bounds in free_rd_atomic_resources drivers/infiniband/sw/rxe/rxe_qp.c:163 [inline]
+BUG: KASAN: slab-out-of-bounds in rxe_qp_from_attr+0x1e88/0x2150 drivers/infiniband/sw/rxe/rxe_qp.c:712
+Write of size 4 at addr ffff88802b8dddb8 by task syz.3.451/11063
+
+CPU: 0 UID: 0 PID: 11063 Comm: syz.3.451 Not tainted 7.1.0 #2 PREEMPT(full)
+Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Call Trace:
+ <TASK>
+ __dump_stack lib/dump_stack.c:94 [inline]
+ dump_stack_lvl+0x10e/0x1f0 lib/dump_stack.c:120
+ print_address_description mm/kasan/report.c:378 [inline]
+ print_report+0xf7/0x600 mm/kasan/report.c:482
+ kasan_report+0xe4/0x120 mm/kasan/report.c:595
+ free_rd_atomic_resource drivers/infiniband/sw/rxe/rxe_qp.c:180 [inline]
+ free_rd_atomic_resources drivers/infiniband/sw/rxe/rxe_qp.c:171 [inline]
+ free_rd_atomic_resources drivers/infiniband/sw/rxe/rxe_qp.c:163 [inline]
+ rxe_qp_from_attr+0x1e88/0x2150 drivers/infiniband/sw/rxe/rxe_qp.c:712
+ rxe_modify_qp+0x1e2/0x530 drivers/infiniband/sw/rxe/rxe_verbs.c:623
+ ib_security_modify_qp+0x223/0xfa0 drivers/infiniband/core/security.c:625
+ _ib_modify_qp+0x333/0xec0 drivers/infiniband/core/verbs.c:1915
+ modify_qp+0x13ca/0x1940 drivers/infiniband/core/uverbs_cmd.c:1932
+ ib_uverbs_modify_qp+0xcb/0x120 drivers/infiniband/core/uverbs_cmd.c:1958
+ ib_uverbs_write+0xb86/0x1030 drivers/infiniband/core/uverbs_main.c:680
+ vfs_write+0x2aa/0x1070 fs/read_write.c:686
+ ksys_write+0x1f8/0x250 fs/read_write.c:740
+ do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]
+ do_syscall_64+0x116/0x800 arch/x86/entry/syscall_64.c:94
+ entry_SYSCALL_64_after_hwframe+0x77/0x7f
+RIP: 0033:0x7fefc75a70cd
+Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b0 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007fefc8495018 EFLAGS: 00000246 ORIG_RAX: 0000000000000001
+RAX: ffffffffffffffda RBX: 00007fefc7835fa0 RCX: 00007fefc75a70cd
+RDX: 0000000000000078 RSI: 0000200000000240 RDI: 0000000000000007
+RBP: 00007fefc764f10f R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+R13: 00007fefc7836038 R14: 00007fefc7835fa0 R15: 00007ffcf0586aa0
+ </TASK>
+
+Allocated by task 11063:
+ kasan_save_stack+0x33/0x60 mm/kasan/common.c:57
+ kasan_save_track+0x14/0x30 mm/kasan/common.c:78
+ poison_kmalloc_redzone mm/kasan/common.c:398 [inline]
+ __kasan_kmalloc+0xaa/0xb0 mm/kasan/common.c:415
+ kasan_kmalloc include/linux/kasan.h:263 [inline]
+ __do_kmalloc_node mm/slub.c:5296 [inline]
+ __kmalloc_noprof+0x32a/0x850 mm/slub.c:5308
+ kmalloc_noprof include/linux/slab.h:954 [inline]
+ kzalloc_noprof include/linux/slab.h:1188 [inline]
+ alloc_rd_atomic_resources drivers/infiniband/sw/rxe/rxe_qp.c:155 [inline]
+ rxe_qp_from_attr+0x3f8/0x2150 drivers/infiniband/sw/rxe/rxe_qp.c:714
+ rxe_modify_qp+0x1e2/0x530 drivers/infiniband/sw/rxe/rxe_verbs.c:623
+ ib_security_modify_qp+0x223/0xfa0 drivers/infiniband/core/security.c:625
+ _ib_modify_qp+0x333/0xec0 drivers/infiniband/core/verbs.c:1915
+ modify_qp+0x13ca/0x1940 drivers/infiniband/core/uverbs_cmd.c:1932
+ ib_uverbs_modify_qp+0xcb/0x120 drivers/infiniband/core/uverbs_cmd.c:1958
+ ib_uverbs_write+0xb86/0x1030 drivers/infiniband/core/uverbs_ma
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/142c8165b7974b40fa62c393653edb5c00b8b5fe.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/142c8165b7974b40fa62c393653edb5c00b8b5fe
+- https://git.kernel.org/stable/c/30b90b55201902b2b8edcdbe2315ccd4c7547002
+- https://git.kernel.org/stable/c/4e5f753e8c280278c09f68fe728abf846e2bdfc1
+- https://git.kernel.org/stable/c/9b7d66ea88ae9395e42766b94a5c717b158b940a
+- https://git.kernel.org/stable/c/bc6e943794515d2a8417b02597a27bd377468d04
 
 ---

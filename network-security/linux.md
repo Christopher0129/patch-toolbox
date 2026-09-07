@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3566**
+**总计条目 / Total entries: 3576**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -52039,5 +52039,125 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2528569
+
+---
+
+#### 3567. CVE-2026-84732 - openvpn: OpenVPN: Remote Denial of Service via crafted ACK packets
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Remote Denial of Service via crafted ACK packets. Bugzilla: 2529320
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529320
+
+---
+
+#### 3568. CVE-2026-84256 - OpenVPN: OpenVPN: Arbitrary command execution via crafted certificate subject
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Arbitrary command execution via crafted certificate subject. Bugzilla: 2529309
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529309
+
+---
+
+#### 3569. CVE-2026-86332 - odh-dashboard: odh-dashboard: NIM credential Secret readable by any authenticated…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] odh-dashboard: odh-dashboard: NIM credential Secret readable by any authenticated user. Bugzilla: 2529287
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529287
+
+---
+
+#### 3570. CVE-2026-86315 - Escargot: Escargot: Out-of-bounds write leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] Escargot: Escargot: Out-of-bounds write leads to Denial of Service. Bugzilla: 2529280
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529280
+
+---
+
+#### 3571. CVE-2026-53769 - avo: Avo: Unauthorized attachment modification via authorization bypass
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] avo: Avo: Unauthorized attachment modification via authorization bypass. Bugzilla: 2528883
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2528883
+
+---
+
+#### 3572. [Ubuntu] USN-8732-1: Minetest vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Minetest did not properly sanitize the Lua sandbox environment when using LuaJIT. A malicious mod could escape the sandbox to execute arbitrary code and gain full file system access on the server. An attacker could use this issue to compromise the server.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8732-1
+
+---
+
+#### 3573. [Ubuntu] USN-8731-1: MiniUPnPd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that MiniUPnPd contained an integer underflow vulnerability in SOAPAction header parsing. A remote attacker could use this issue to cause a denial of service or information disclosure by sending a malformed SOAPAction header with a single quote.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8731-1
+
+---
+
+#### 3574. [Ubuntu] USN-8730-1: Linux kernel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - IPv6 networking; - Netfilter;
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8730-1
+
+---
+
+#### 3575. [Ubuntu] USN-8729-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - PowerPC architecture; - Compute Acceleration Framework; - Drivers core; - Bluetooth drivers; - Arm Firmware Framework for ARMv8-A(FFA); - EFI core; - GPU drivers; - Hardware
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8729-1
+
+---
+
+#### 3576. [Ubuntu] USN-8728-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) It was discovered th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8728-1
 
 ---
