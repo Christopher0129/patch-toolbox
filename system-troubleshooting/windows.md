@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10685**
+**总计条目 / Total entries: 10730**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -144826,5 +144826,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240120#reply14
+
+---
+
+#### 10686. How do I get downloadable music?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1waybqr/how_do_i_get_downloadable_music/
+
+---
+
+#### 10687. Roommate hacked my computer. How can I regain privacy?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wajxl3/roommate_hacked_my_computer_how_can_i_regain/
+
+---
+
+#### 10688. 7950X3D broken after 3 years 5 months
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wavzic/7950x3d_broken_after_3_years_5_months/
+
+---
+
+#### 10689. Internet capped at 100 mb/s, I don't know how to fix?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1was25r/internet_capped_at_100_mbs_i_dont_know_how_to_fix/
+
+---
+
+#### 10690. Newfound packet loss
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wazb8b/newfound_packet_loss/
+
+---
+
+#### 10691. Hey I gotta problem..... I created post about my current status in a game app for playing games paid play time stuff and my email address was in the screen shot I took an bank sent in thru...
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb2qo5/hey_i_gotta_problem_i_created_post_about_my/
+
+---
+
+#### 10692. New PC and I’m LOST with my WiFi connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb284n/new_pc_and_im_lost_with_my_wifi_connection/
+
+---
+
+#### 10693. What should i do with my malfunctioning graphics card?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wamc72/what_should_i_do_with_my_malfunctioning_graphics/
+
+---
+
+#### 10694. PC goes black but RGB and pc still on.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb22gn/pc_goes_black_but_rgb_and_pc_still_on/
+
+---
+
+#### 10695. Asus Laptop went into hibernation, won't turn on now
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb1qv9/asus_laptop_went_into_hibernation_wont_turn_on_now/
+
+---
+
+#### 10696. just build my own pc and now screen randomly flashes static
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1warjl9/just_build_my_own_pc_and_now_screen_randomly/
+
+---
+
+#### 10697. Acer aspire decently has been giving me problems turning on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb1la3/acer_aspire_decently_has_been_giving_me_problems/
+
+---
+
+#### 10698. PC not booting after turning on briefly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb162q/pc_not_booting_after_turning_on_briefly/
+
+---
+
+#### 10699. Searches syncing??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb15gr/searches_syncing/
+
+---
+
+#### 10700. Asus Proart monitor not showing a display
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb0tc3/asus_proart_monitor_not_showing_a_display/
+
+---
+
+#### 10701. Pc not connecting to internet with ethernet but connects to the internet wirelessly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb0qix/pc_not_connecting_to_internet_with_ethernet_but/
+
+---
+
+#### 10702. Gaming/Windows PC suddenly crashing, saying "Game.exe not responding"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wau6tw/gamingwindows_pc_suddenly_crashing_saying_gameexe/
+
+---
+
+#### 10703. windows help with second monitor, suddenly not detected (but still displaying)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1watrzw/windows_help_with_second_monitor_suddenly_not/
+
+---
+
+#### 10704. lenovo ideapad gaming 3 keeps crashing and giving multiple crash codes; endless bsod loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wb08jc/lenovo_ideapad_gaming_3_keeps_crashing_and_giving/
+
+---
+
+#### 10705. Not getting the same performance as used to in Valorant and Fortnite on my laptop and I feel like something could be wrong with my CPU.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1watqxy/not_getting_the_same_performance_as_used_to_in/
+
+---
+
+#### 10706. I need help removing rootkit malware on laptop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1watk0b/i_need_help_removing_rootkit_malware_on_laptop/
+
+---
+
+#### 10707. I dont know if im safe now
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wazqc7/i_dont_know_if_im_safe_now/
+
+---
+
+#### 10708. Windows 11 install having boot loop issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wazk5y/windows_11_install_having_boot_loop_issues/
+
+---
+
+#### 10709. My pc isn’t showing on my monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1waz9m9/my_pc_isnt_showing_on_my_monitor/
+
+---
+
+#### 10710. [V2EX] 试了几个 windows 上的平铺桌面只能说理想很丰满
+
+**问题描述 / Problem Description**:
+前几天逛日经 Linux 桌面贴，无意间看到 Niri ，一个水平无限滚动的桌面，很感兴趣 为此用 wslg 跑了一个，玩起来还可以，今天就找了几个 windows 上的平替，发现都“几乎不可用” https://glazewm.com/ komorebi LeopardWM 主要原因还在软件兼容性这块，明显的就是 codex 缩小放大样式会乱 想问问大家真的有人日常在用这种平铺桌面吗，windows 上有没有其他值得尝试的方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240154#reply4
+
+---
+
+#### 10711. [V2EX] 最近有什么小说可以看的吗？
+
+**问题描述 / Problem Description**:
+上班无聊，想看看小说，有啥新的好看的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240534#reply0
+
+---
+
+#### 10712. [V2EX] codex pro 5x 不够用啊想开 20x 的车
+
+**问题描述 / Problem Description**:
+现在怎么搞才稳定呀？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240533#reply1
+
+---
+
+#### 10713. [V2EX] 这个 AI 语音名字叫什么？有大佬知道吗？
+
+**问题描述 / Problem Description**:
+感觉挺好听的，但是听不出来是哪里的 AI 语音 https://www.bilibili.com/video/BV1kQ6qBCEnA/?spm_id_from=333.337.search-card.all.click&vd_source=78eba99e55c6b337746525830ee613f4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240529#reply0
+
+---
+
+#### 10714. [V2EX] 想带妈出去走走.
+
+**问题描述 / Problem Description**:
+今年妈妈 60 岁了,我也刚离职,平时都没空,这次想带妈妈出去转转. 我是武汉的,南方城市基本都去过了,这次想往北方逛逛 希望 v 友推荐下,不想要太商业化,不需要景点,不想往人堆里面去, 安静的看看海,吃下当地美食就行, 预计一周到半个月都行 之前用 gpt,推荐了两条线路,不知道怎么样 武汉-烟台-蓬莱-威海-荣成 武汉-辽宁-旅顺-丹东-宽甸
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240524#reply1
+
+---
+
+#### 10715. [V2EX] 请教各位朋友 AI FDE 这个职位有人在做吗，工作内容都是什么呢，很想转做 FDE。
+
+**问题描述 / Problem Description**:
+如题，希望有在职的兄弟给讲讲，咋样能才能转到 FDE 岗位
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240517#reply0
+
+---
+
+#### 10716. [V2EX] 咨询各位大佬一个问题，有了解的吗
+
+**问题描述 / Problem Description**:
+我买了一台联想的台式机（来酷锋 7000 ），然后当时鬼使神差也买了一个全保换新的服务。就是 4 年内机器坏了，都会给免费换个新的。 这两天我想到一个情况，就是如果到第四年底没有坏，我买个同型号的坏的内存条换上，以此来报修。联想官方能看出这个内存不是当时机器配置的内存吗？ 我这个想法不太地道，希望各位理解
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240515#reply12
+
+---
+
+#### 10717. [V2EX] 公司校招，家里有弟弟妹妹在上学的可以看看了
+
+**问题描述 / Problem Description**:
+主要是算法和 ai 、产品方面的。不加班，福利还不错，缺点是氛围普通吧。 https://neitui.italent.cn/join-lianjia/sharejobs?shareId=55931d85-a4ba-4a92-aaee-a49277adead9&language=zh_CN&rt=1
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240507#reply0
+
+---
+
+#### 10718. [V2EX] TrueSOTA 近况更新｜ GPT-6 Astra / Grok 已上线， Kiro 缓存恢复
+
+**问题描述 / Problem Description**:
+有一段时间没有在 V2EX 更新 TrueSOTA 的情况了，最近平台的模型线路、倍率和活动都有比较大的调整，所以统一同步一下目前的最新状态。 目前的模型情况 近期主要有几项更新： GPT 线路已经恢复 GPT-6 Astra 已接入 Grok 已上线 Claude （ Kiro ）低倍率线路恢复 Kiro 缓存支持已经恢复 具体可用模型还是以控制台实时显示为准。 当前倍率 目前充值前后采用不同的模型分组倍率： GPT：充值前 1.0x ，充值后 0.4x Grok：充值前 1.0x ，充值后 0.4x Claude （ Kiro ）：充值前 1.0x ，充值后 0.8x GPT-6 Astr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240490#reply0
+
+---
+
+#### 10719. [V2EX] 米家摄像头局域网访问问题
+
+**问题描述 / Problem Description**:
+请教下手机和米家的摄像头在同一局域网下，怎么实现可以快速访问呢？感觉现在还是走的云端，每次点进去都会转一会圈，才能加载出来。 如果米家的不能实现，有没有其他摄像头推荐，想要实现的功能是，在同一局域网下，用安卓手机可以快速查看摄像头画面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240481#reply3
+
+---
+
+#### 10720. [V2EX] 2026 PDD 拼多多的面试中笔试是什么样的？
+
+**问题描述 / Problem Description**:
+如题，2026 年的，PDD 的笔试题是 ACM 模式（自己控制输入输出和格式化）还是 Leetcode 模式（只追求正确答案）呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240474#reply0
+
+---
+
+#### 10721. [V2EX] 你们平时会遇到完全健忘或者疑似阿尔兹海默症的人吗
+
+**问题描述 / Problem Description**:
+怀疑我同事真的有这个问题，他很容易忘记每天发生的一些事情，可能大事能记清楚，小事可能完全不存在他脑海里面，即便反复去引导关联回忆都记不到，举例：提示“昨天三点，我们坐在那个位置，我还给你看了 XX”，然后把各种相关的事件都补充一遍帮助他还原，普通健忘的人可能突然“哦！想起来了”；而这种情况他可能仍然一片空白。猜测他只能通过建立思维链重新构建一些即将要做的事件，例如规划了 A 事件，他会构建如何到 A ，而其他过程完全忽略了。这导致比如需要合作做一件事情，我许多时候都没办法和他说清楚，比如他昨天自己说了什么做了什么，经过反复沟通交流，我发现他是真的忘记了而不是敷衍或者不真诚，包括但不限于工作中或
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240472#reply2
+
+---
+
+#### 10722. [V2EX] 火山引擎 seedance 等资源包到期了能找客服延期吗
+
+**问题描述 / Problem Description**:
+工作忙 3 个月没想起来用，刚注册的火山引擎，送了很多用不到的权益，隔几天都短信通知这个到期那个到期，谁知道我之前花了 220 买的 seedance 资源包也在这中间到期了，才用了 3% 能申请延期或者退款吗 有大佬有经验嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240471#reply1
+
+---
+
+#### 10723. [V2EX] 想要去做输精管结扎，大家有啥经验建议吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240470#reply1
+
+---
+
+#### 10724. [V2EX] 为什么 V 站有部分人会觉得，你夸我不喜欢的产品 ，你就是水军/软广？
+
+**问题描述 / Problem Description**:
+看了今天首页的热门帖子小米澎程有感，楼主看起来是正儿八经想要讨论一下自己觉得还不错的一款产品。 但是评论区出现若干个人觉得： 你觉得小米行，我觉得不行，我觉得不行 = 你是软广 ，你是水军 是什么样的心理让这部分人有这样的想法？以自我为中心？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240469#reply11
+
+---
+
+#### 10725. [V2EX] 做了一个 AI 字幕工具：重点不是生成字幕，而是把错字快速修干净
+
+**问题描述 / Problem Description**:
+大家好，最近做了一个在线视频字幕工具： https://www.subtitlegenerator.net/ 起因很简单：现在生成字幕已经不难了，真正费时间的是生成之后的修改。 人名、品牌名、口音、专业词，经常只错一两个字，但为了找到这些错误，需要把整条视频从头检查一遍。很多字幕工具在“生成”这一步做得不错，后面的校对体验却比较难受。 所以这个工具主要做了一个叫 Fix Loop 的流程： 上传视频，自动生成字幕 优先标出可能识别错误的词 点击对应位置，直接听原音并修改 调整字幕样式、动画和位置 导出视频或字幕文件 目前支持： 自动语音识别 低置信度词语检查 指定片段重新识别 整轨字幕翻译 多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240460#reply0
+
+---
+
+#### 10726. [V2EX] 你们都是如何紧跟 AI 发展进程的？
+
+**问题描述 / Problem Description**:
+看了几个大公司老板访谈，就是罗永浩那个。 说什么两周就落后，要求员工跟进学习。 自己也感觉过一阵子就出来一大批新词汇。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240455#reply12
+
+---
+
+#### 10727. [V2EX] 视频号上刷到一些 Mac mini 建机房的
+
+**问题描述 / Problem Description**:
+之前在 X 还是油管也看到过有老外在搞，不过似乎主要是做一些 CI 测试之类的。 视频号上那些人买的 Mac mini 应该配置都蛮高，是部署大模型卖 Token 出海的。 各位 V 友怎么看？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240441#reply5
+
+---
+
+#### 10728. [V2EX] MySQL 在 NFS 存储上启动时，无法完成初始化。
+
+**问题描述 / Problem Description**:
+MySQL 在 NFS 存储上启动时，因 NFS 服务端对 openat 系统调用无响应，导致工作线程陷入 D 状态（不可中断睡眠），主线程在 futex 上等待超时，最终服务卡死在 "InnoDB initialization" 阶段。 下面是 AI 给出的判断： mysqld 线程状态： tid=68418 state=D wchan=rpc_wait_bit_killable syscall=257(openat) tid=7867 state=S wchan=futex_wait ← 主线程在等上面那个 工作线程卡在 openat （打开文件）这个系统调用上，wchan=rpc_wai
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240436#reply7
+
+---
+
+#### 10729. [V2EX] 在公司没活的时候你们都干嘛 ？太无聊了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240430#reply11
+
+---
+
+#### 10730. [V2EX] 海外服务器有没有不用实名就能买的平台~
+
+**问题描述 / Problem Description**:
+有没有可以直接用邮箱直接注册进去 就可以购买的； 稳定一点，能买美区最好； 主要就是不想实名，就能用云； 之前一直在用阿里云国际站；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240406#reply3
 
 ---

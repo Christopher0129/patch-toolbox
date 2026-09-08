@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10121**
+**总计条目 / Total entries: 10150**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -139545,5 +139545,382 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240112#reply3
+
+---
+
+#### 10122. Jellyfin 12.0 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wantbb/jellyfin_120_released/
+
+---
+
+#### 10123. The Linux Kernel Planning To Remove Around ~55k Lines Of Old ARM Platform Code
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb08oe/the_linux_kernel_planning_to_remove_around_55k/
+
+---
+
+#### 10124. Linux 7.4 To Support Realtek RTL8127atf & RTL8116af Networking
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wanlnh/linux_74_to_support_realtek_rtl8127atf_rtl8116af/
+
+---
+
+#### 10125. Require open device protocols in Illinois
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wa7274/require_open_device_protocols_in_illinois/
+
+---
+
+#### 10126. 11 Gaps in the Linux Ecosystem Cloudflare Fixed with eBPF
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wahg6u/11_gaps_in_the_linux_ecosystem_cloudflare_fixed/
+
+---
+
+#### 10127. Anyone used this new software? Open CAD Studio (AutoCAD open source alternative)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wal4jn/anyone_used_this_new_software_open_cad_studio/
+
+---
+
+#### 10128. Looking for a linux distro which have macos accent shortcut + many other thing
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb2q7v/looking_for_a_linux_distro_which_have_macos/
+
+---
+
+#### 10129. [V2EX] libcr 项目组发布瀑布流模式照片应用 crPhotos 1.0.0 for Linux
+
+**问题描述 / Problem Description**:
+免费下载 https://github.com/libcr/crPhotos/releases 1. 新增 Nearby sharing 协议，支持 crPhotos 间快速分享照片和视频 2. 新增 heif 的支持 crPhotos 是一款 C++开发的瀑布流模式的照片应用 基于源代码 chromium 150.0.7871.91 支持 Linux 平台的 GPU 渲染加速，视频硬件解码的照片应用 更多免费应用和信息访问 https://libcr.github.io
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240497#reply0
+
+---
+
+#### 10130. [V2EX] 旧的安卓手机变服务器
+
+**问题描述 / Problem Description**:
+闲着无聊，让 5.6 sol 评估小米 10Pro 适配 Linux 的可能性，因为 SM8250 有主线内核支持，5.6 sol+grok4.6 通过一晚的努力真把内核跑起来了，只不过其他驱动的适配是很耗时间，就比如 USB 给键盘供电，ai 搞了两天才好，也可能是我没开 Pro Plus 的额度太少了，写 iOS 或者 web Plus 的额度还是很够用的，但是一适配小米手机的驱动，5 小时一会干没了，只能等。目前已经能当一个服务器用了。 ------------------ OS: postmarketOS edge aarch64 Host: Xiaomi Mi 10 Pro Kern
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238894#reply50
+
+---
+
+#### 10131. [V2EX] 请教下, 用 claude/codex 写代码太贵了, 打算尝试下国产模型, 如何处理?
+
+**问题描述 / Problem Description**:
+大概类似 sol/opus5 左右的智力的国产大模型, 各位有实际测试过的能推荐下吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240540#reply4
+
+---
+
+#### 10132. [V2EX] 有那种 skill 或者什么 ai 工具对代码仓进行建立索引
+
+**问题描述 / Problem Description**:
+今天本来想让根据代码仓，代码可以建立那个索引或者知识库什么，但是想看看开源社区有已经有这类产品了吗？ 简单搜索了下有 ai-ready, reposummary 这种，想问下大家都用什么？ 多人一起开发 可以试试更新新的代码，建立新的索引 询问/新增功能又可以直接用索引/知识库，能够快速生成按照仓代码结构的的代码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240528#reply1
+
+---
+
+#### 10133. [V2EX] Claude 200 订阅怎么才能用的完？
+
+**问题描述 / Problem Description**:
+公司开了 claude 200 的订阅，现在好焦虑，每周六重置的时候都还有 40%用不完， 平时都是日常开发工作，现在基本上都是全栈开发了，但是日常需求也用不完 然后平时维护一下自己的知识库和开发辅助工具 但是还是会有每周用不完的情况 没到周五就开始空想需求来消耗额度 大家都是怎么做的呢？ 有什么好的方法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240495#reply25
+
+---
+
+#### 10134. [V2EX] 移除视频动态水印 哪个模型比较好用？求推荐一款本地部署
+
+**问题描述 / Problem Description**:
+网页在线的效果最好的开拍，美团旗下的，但是无法做到 api 自动操作，而且费用贵。 本地让 ai 写的纯 cv + ffmepg 识别的效果不好，没法很通用。 求 V 有推荐有没好用的 AI 模型，或者开源框架，可以一用的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240493#reply1
+
+---
+
+#### 10135. [V2EX] 记不住各个平台的 Shell 命令，我搓了个不到 30KB 的小工具： ash
+
+**问题描述 / Problem Description**:
+平时在终端里干活，有两个事情我经常觉得头大： 一是 记不住复杂参数 。比如查个占用端口的进程、按修改时间搜一批文件、或者解压某个不常见的压缩包，隔三差五就得切到浏览器搜一下。 二是 跨系统命令转换 。查资料时网上往往只贴了 Linux (Bash) 命令，但我手头如果在 Windows (PowerShell) 下，有些管道符和参数根本跑不起来，还得手动翻译一遍。 市面上其实有不少终端 AI 工具，但我试了一圈发现不太适合我： 太重 ：动辄装几百兆的环境或依赖。 喜欢自作主张 ：很多工具直接就把生成的命令跑了。说实话，让 AI 拿终端权限我心里总犯怵，万一哪条参数理解偏了把文件删了或者服务杀了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240484#reply7
+
+---
+
+#### 10136. [V2EX] 我的 pro 周额度缩水到 1500 刀了，是不是下个订阅周期要换好了
+
+**问题描述 / Problem Description**:
+和小伙伴拼车使用，之前大概有 2400 多刀，前几天刷新额度后，降到 1800 ，今天刷新后直接给哥们干到 1500 了 难受啊，27 号订阅期，不行得换号了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240473#reply9
+
+---
+
+#### 10137. [V2EX] 如何避免 codex 风控? 现在首字 20s 还降智, 新买的号首字 2s
+
+**问题描述 / Problem Description**:
+我们团队用 sub2api 做号池 最近 2 天用的非常慢, 首字 20s 且降智严重 新买的号放到号池里面就非常快 有类似的情况吗, 如何避免 codex 风控?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240459#reply7
+
+---
+
+#### 10138. [V2EX] 现在 codex 的 plus 有 5 小时的限制吗？
+
+**问题描述 / Problem Description**:
+rtrt 。pro 的五小时限制太难受了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240452#reply17
+
+---
+
+#### 10139. [V2EX] 火山 Agent Plan 避雷
+
+**问题描述 / Problem Description**:
+Error: 429 最近新入了火山的 Agent Plan ，到了下午 glm-5.3-flash 基本就是不可用，支持不了能不能就不要超卖 ？卖了又用不起。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240447#reply3
+
+---
+
+#### 10140. [V2EX] Java 全栈学习章节补了实战项目蓝图，可以有目的总览 Java 能力
+
+**问题描述 / Problem Description**:
+原文： https://v2ex.com/t/1239988?p=1#reply32 Java 企业级全栈学习路线 https://github.com/umlink/java-full-stack 你最好的 pythone agent 学习指南 https://github.com/umlink/python-ai-agent
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240440#reply2
+
+---
+
+#### 10141. [V2EX] 求核实， Deepseek 发布 V4.1Flash，支持多模态
+
+**问题描述 / Problem Description**:
+最新消息，Deepseek 官方刚在群聊中通知，Deepseek V4.1Flash 中间版本开启内测。模型采用了新的模型结构，原生多模态支持、能力更强、速度更快、且成本更低。模型的 base_url 不变，将模型名设置为 deepseek-v4.1-flash-expires-on-0910 即可调用 当前计费与 deepseek-v4-flash 相同，每账号限流 20 并发 有没有知道具体情况的 我是非官方渠道知道的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240438#reply17
+
+---
+
+#### 10142. [V2EX] 做一个有盈利的网站真的需要购买服务器吗？
+
+**问题描述 / Problem Description**:
+我提出这个问题的意思是，“做一个有盈利的网站不需要购买服务器” 为什么呢？ 因为我是今年年初开始入门 ai 编程，本身就是做了大概 13 个网站，有 6 个有营收。 而我之前逛了一下其他论坛，很多包括做中转站的或者生成图片视频的那种工具站，都在问在哪买服务器。 其实根本不需要买服务器，你就使用 cloudfare 全家桶就好了，包括中转站也是，每个月花个 5 美刀，几乎没啥成本啊。 数据库：cloudfare d1 文件存储：cloudfare r2 而且一个账号可以部署多个网站,比开服务器还稳定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240404#reply19
+
+---
+
+#### 10143. [V2EX] 感觉 Tibo 的策略快对我生效了，我要被逼来升级 pro 了。。。
+
+**问题描述 / Problem Description**:
+自费上班，实在不想多花钱。但是用了之前的无 5 小时限制的 plus 后，现在加回来了 5 小时，用起来真是便秘啊。 Astro 的费用也高，plus 分分钟就没了，真的快被逼得升套餐了😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240396#reply18
+
+---
+
+#### 10144. [V2EX] 嘀嘀 GPT 订阅号 PRO 20X RMB1450
+
+**问题描述 / Problem Description**:
+嘀嘀 GPT PRO 20X RMB1450 需要的私聊 UTU4MzMxNTAyMg==
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240384#reply0
+
+---
+
+#### 10145. [V2EX] Appsotre 可能取消人工审核， AI 正在悄悄改变底层生态，这是一场自下而上的变革
+
+**问题描述 / Problem Description**:
+IT 之家 9 月 6 日消息，据彭博社记者马克 · 古尔曼最新一期《 Power On 》时事通讯透露，苹果据称正在考虑对 App Store 进行一些调整，目标是进一步提高这一平台带来的收入。 苹果可以通过多种方式提高 App Store 的利润率。例如，苹果可以取消目前的人工应用审核流程。 苹果还可以提高开发者会员计划的收费。 此外，苹果还可以针对大型开发者推出基于流量的订阅收费模式，从而让这些开发者分担部分基础设施成本。 以上是新闻摘要，不管最后是否成真，但有一点越来越明显，AI 正在悄悄更改互联网的底层生态。这次不是从上而下，改革不是来自大厂，而是自下而上，来自许许多多因为 AI 而
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240362#reply2
+
+---
+
+#### 10146. [V2EX] codex 额度杀手！ codex computer history（计算机历史记录）两个小时消耗了 pro5x 1%的额度
+
+**问题描述 / Problem Description**:
+我是 pro5x ，今天早上 10 点重置的，到 12 点这俩小时期间我只开了 computer history （计算机历史记录），一句问题都没问，到 12 点的时候一看额度只有 99%了，也就是这俩小时期间 computer history （计算机历史记录）消耗了 1%的额度，果断关闭了，大家可以检查一下这个开关，非必要可以关掉，我原来以为这个不咋消耗额度就一直开着每天记录自己做了什么事情，实际来看消耗额度还是挺可观的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240354#reply10
+
+---
+
+#### 10147. [V2EX] codex 中转站放哪好呢? 大家新加坡还是硅谷
+
+**问题描述 / Problem Description**:
+中国 - 新加坡 - 美国吗, 是不是 中转站服务器放新加坡, gpt 只有美国有部署
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240353#reply11
+
+---
+
+#### 10148. [V2EX] 腾讯 9.4 日最新开源的 WeMM-Embedding-9B 多模态嵌入模型应该是当世最强嵌入模型了把？众多微信用户数据一起养出来的
+
+**问题描述 / Problem Description**:
+代码仓库： https://github.com/Tencent/WeMM-Embedding 是否再次证明只要有好的数据，训练出来的模型就特别强？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240341#reply3
+
+---
+
+#### 10149. [V2EX] 吐槽一下现在的键盘设计....
+
+**问题描述 / Problem Description**:
+首先,我承认我的指法可能不算精准, 但是肯定算普通人里 top 级别的了. 以前主要用的 Flico 的机械键盘,87 的,也买过一些 75,64 之类的, 最近买了几个不同样式的键盘, nyphy, keychron, iqunix, 怒喵, lofree 等, 我感觉都不好用. 几个严重影响我手感的问题: 最大的问题是 Backspace, 我写代码经常要 backspace 取消, 现在基本上很难找到一个 Backspace 是在这个区域最右上的, 大部分会在右边和上面还各有一排,经常敲错,虽然 backspace 已经很大了. 右 shift 按键, 我还是习惯 shift 比较长的设
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240336#reply105
+
+---
+
+#### 10150. [V2EX] 哪位老哥有企业微信的历史版本 IPA
+
+**问题描述 / Problem Description**:
+手欠更新了企业微信... 现在打卡需要历史老版本通过爱思来修改定位，新版本不行了 爱思助手里的历史版本 4.1.22 太老登录不了，提示要更新 尝试过 https://github.com/majd/ipatool 项目下载卡在了登录... ERR error="request failed: unexpected response from Apple (HTTP 403): 403 Forbidden 403 Forbidden Apple" success=false ERR error="request failed: unexpected response from Apple (H
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240329#reply9
 
 ---

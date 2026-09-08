@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1259**
+**总计条目 / Total entries: 1279**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -20175,5 +20175,325 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-80780
+
+---
+
+#### 1260. [Microsoft] CVE-2026-83981 - Windows Biometric Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Biometric Service
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Heap-based buffer overflow in Windows Biometric Service allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83981
+
+---
+
+#### 1261. [Microsoft] CVE-2026-83973 - Windows Biometric Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Biometric Service
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Heap-based buffer overflow in Windows Biometric Service allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83973
+
+---
+
+#### 1262. [Microsoft] CVE-2026-83968 - Windows Biometric Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Biometric Service
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Use after free in Windows Biometric Service allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83968
+
+---
+
+#### 1263. [Microsoft] CVE-2026-69598 - Windows iSCSI Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows iSCSI
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Incorrect calculation of buffer size in Windows iSCSI allows an unauthorized attacker to execute code over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69598
+
+---
+
+#### 1264. [Microsoft] CVE-2026-62804 - Microsoft Word Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Word
+
+**漏洞描述 / Description**:
+[Microsoft] External control of file name or path in Microsoft Office Word allows an unauthorized attacker to execute code locally.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-62804
+
+---
+
+#### 1265. [Microsoft] CVE-2026-66307 - Skype for Business and Lync Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Skype for Business
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Integer underflow (wrap or wraparound) in Skype for Business allows an unauthorized attacker to deny service over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-66307
+
+---
+
+#### 1266. [Microsoft] CVE-2026-66303 - Skype for Business and Lync Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Skype for Business
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Null pointer dereference in Skype for Business allows an authorized attacker to deny service over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-66303
+
+---
+
+#### 1267. [Microsoft] CVE-2026-83498 - Windows Virtualization-Based Security (VBS) Enclave Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Windows Virtualization-Based Security (VBS) Enclave
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Untrusted pointer dereference in Windows Virtualization-Based Security (VBS) Enclave allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83498
+
+---
+
+#### 1268. [Microsoft] CVE-2026-84003 - Microsoft Authentication Library (MSAL) for Node.js Spoofing Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Authentication Library (MSAL) for Node.js
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Authentication bypass by capture-replay in Microsoft Authentication Library (MSAL) for Node.js allows an unauthorized attacker to perform spoofing over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-84003
+
+---
+
+#### 1269. [Microsoft] CVE-2026-72965 - Windows WebClient Service Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows WebClient Service
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Use after free in Windows WebClient Service allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-72965
+
+---
+
+#### 1270. [Microsoft] CVE-2026-83949 - Microsoft Office Word Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Word
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Buffer over-read in Microsoft Office Word allows an unauthorized attacker to disclose information locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83949
+
+---
+
+#### 1271. [Microsoft] CVE-2026-69530 - Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Reliable Multicast Transport Driver (RMCAST)
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Use after free in Reliable Multicast Transport Driver (RMCAST) allows an unauthorized attacker to execute code over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69530
+
+---
+
+#### 1272. [Microsoft] CVE-2026-83951 - Microsoft Office Word Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Word
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Buffer over-read in Microsoft Office Word allows an unauthorized attacker to disclose information locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83951
+
+---
+
+#### 1273. [Microsoft] CVE-2026-83501 - Windows Virtualization-Based Security (VBS) Information Disclosure Vulnerability
+
+**严重程度 / Severity**: CRITICAL
+**受影响产品 / Affected Products**: Windows Virtualization-Based Security (VBS) Enclave
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Out-of-bounds read in Windows Virtualization-Based Security (VBS) Enclave allows an authorized attacker to disclose information locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-83501
+
+---
+
+#### 1274. [Microsoft] CVE-2026-57099 - ASP.NET Core Denial of Service Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: ASP.NET Core
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-57099
+
+---
+
+#### 1275. [Microsoft] CVE-2026-85875 - Microsoft Office Excel Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office Excel
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to disclose information locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-85875
+
+---
+
+#### 1276. [Microsoft] CVE-2026-69806 - .NET Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: .NET
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Exposure of sensitive information to an unauthorized actor in .NET allows an authorized attacker to elevate privileges locally.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69806
+
+---
+
+#### 1277. [Microsoft] CVE-2026-69805 - .NET Elevation of Privilege Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: .NET
+
+**漏洞描述 / Description**:
+[Microsoft] <p>External control of file name or path in .NET allows an unauthorized attacker to elevate privileges over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69805
+
+---
+
+#### 1278. [Microsoft] CVE-2026-69904 - Microsoft Office SharePoint Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Microsoft Office SharePoint
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to disclose information over a network.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-69904
+
+---
+
+#### 1279. [Microsoft] CVE-2026-78516 - Windows Storage Information Disclosure Vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Windows Storage
+
+**漏洞描述 / Description**:
+[Microsoft] <p>Buffer over-read in Windows Storage allows an unauthorized attacker to disclose information with a physical attack.</p>
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-78516
 
 ---

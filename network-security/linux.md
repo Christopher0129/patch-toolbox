@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3576**
+**总计条目 / Total entries: 3599**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -52159,5 +52159,281 @@ It was discovered that some Arm processors could complete a broadcast translatio
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8728-1
+
+---
+
+#### 3577. CVE-2026-86469 - glib2: TOCTOU Symlink Race in `G_FILE_CREATE_REPLACE_DESTINATION` Fallback Path
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glib2: TOCTOU Symlink Race in `G_FILE_CREATE_REPLACE_DESTINATION` Fallback Path. Bugzilla: 2473839
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2473839
+
+---
+
+#### 3578. CVE-2026-86308 - cms: light0011 cms: Information disclosure via Debug Mode configuration
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cms: light0011 cms: Information disclosure via Debug Mode configuration. Bugzilla: 2529462
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529462
+
+---
+
+#### 3579. CVE-2026-86425 - ImageMagick: PerlMagick: ImageMagick: Denial of Service due to heap-use-after-free…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: PerlMagick: ImageMagick: Denial of Service due to heap-use-after-free vulnerability. Bugzilla: 2529445
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529445
+
+---
+
+#### 3580. CVE-2026-86424 - ImageMagick: ImageMagick: Local attacker can modify files via TOCTOU symlink race
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Local attacker can modify files via TOCTOU symlink race. Bugzilla: 2529434
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529434
+
+---
+
+#### 3581. CVE-2026-86423 - ImageMagick: ImageMagick: Denial of service via heap-use-after-free in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of service via heap-use-after-free in PerlMagick's GetList method. Bugzilla: 2529436
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529436
+
+---
+
+#### 3582. CVE-2026-86422 - ImageMagick: ImageMagick: Information disclosure and modification via TOCTOU…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Information disclosure and modification via TOCTOU symlink race on Windows. Bugzilla: 2529438
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529438
+
+---
+
+#### 3583. CVE-2026-86421 - ImageMagick: ImageMagick: Denial of Service via memory leak in MSL decoder
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service via memory leak in MSL decoder. Bugzilla: 2529440
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529440
+
+---
+
+#### 3584. CVE-2026-86420 - ImageMagick: ImageMagick: Denial of Service due to memory budget exhaustion
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] ImageMagick: ImageMagick: Denial of Service due to memory budget exhaustion. Bugzilla: 2529441
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529441
+
+---
+
+#### 3585. CVE-2026-18922 - 389-ds-base: 389-ds-base: SASL PLAIN authentication allows privilege escalation to…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: SASL PLAIN authentication allows privilege escalation to Directory Manager via stale identity in Cyrus SASL auxiliary property. Bugzilla: 2511388
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2511388
+
+---
+
+#### 3586. CVE-2026-19843 - 389-ds-base: 389-ds-base: Command injection via unescaped LDAP DN in Cockpit 389…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: Command injection via unescaped LDAP DN in Cockpit 389 Console LDAP editor. Bugzilla: 2515965
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515965
+
+---
+
+#### 3587. CVE-2026-76560 - 389-ds-base: 389-ds: anonymous LDAP client can defeat SELFDN ACI bind-rule checks…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds: anonymous LDAP client can defeat SELFDN ACI bind-rule checks via empty bind DN. Bugzilla: 2519521
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519521
+
+---
+
+#### 3588. CVE-2026-76578 - ipa: freeipa: FreeIPA: unauthenticated LDAP client can obtain administrator…
+
+**严重程度 / Severity**: CRITICAL
+
+**漏洞描述 / Description**:
+[Red Hat] ipa: freeipa: FreeIPA: unauthenticated LDAP client can obtain administrator credentials via the self-managed-token ACI. Bugzilla: 2519522
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2519522
+
+---
+
+#### 3589. CVE-2026-79678 - freeIPA: idm: freeipa: idp-add eval() reachable before authorization check allows…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] freeIPA: idm: freeipa: idp-add eval() reachable before authorization check allows environment disclosure and denial of service. Bugzilla: 2523356
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2523356
+
+---
+
+#### 3590. CVE-2026-18355 - 389-ds-base: 389-ds-base: heap buffer overflow via SASL wrapped-record length…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: heap buffer overflow via SASL wrapped-record length lower-bound underflow in sasl_io_start_packet(). Bugzilla: 2509186
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509186
+
+---
+
+#### 3591. CVE-2026-18453 - 389-ds-base: 389-ds-base: pre-authentication NULL pointer dereference via paged…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] 389-ds-base: 389-ds-base: pre-authentication NULL pointer dereference via paged results and USE_ONE_BACKEND control in op_shared_search. Bugzilla: 2509696
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2509696
+
+---
+
+#### 3592. CVE-2026-84226 - OpenVPN: OpenVPN: Arbitrary Code Execution via Binary Planting on Windows
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Arbitrary Code Execution via Binary Planting on Windows. Bugzilla: 2529304
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529304
+
+---
+
+#### 3593. CVE-2026-82312 - openvpn: OpenVPN: Denial of service via NULL DACL on named IPC objects
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] openvpn: OpenVPN: Denial of service via NULL DACL on named IPC objects. Bugzilla: 2529300
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529300
+
+---
+
+#### 3594. CVE-2026-81830 - OpenVPN: OpenVPN: Security Bypass via incorrect file path validation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] OpenVPN: OpenVPN: Security Bypass via incorrect file path validation. Bugzilla: 2529302
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2529302
+
+---
+
+#### 3595. [Ubuntu] USN-8737-1: GNU C Library vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that GNU C Library had a buffer overflow in the strfmon function when handling right-justification padding. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-19499) It was discovered that GNU C Library had an out-of-bounds stack array access in the tdelete function. An attacker co
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8737-1
+
+---
+
+#### 3596. [Ubuntu] USN-8736-1: Perl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Perl incorrectly handled certain large inputs during regular expression matching. An attacker could possibly use this issue to trigger out-of-bounds heap reads or writes, resulting in a denial of service or arbitrary code execution. (CVE-2026-15534) It was discovered that Perl incorrectly handled certain regular expression containing alternative matching branches. An attacke
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8736-1
+
+---
+
+#### 3597. [Ubuntu] USN-8735-1: HSQLDB vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that HSQLDB incorrectly handled specially crafted database files. An attacker could possibly use this issue to overwrite arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8735-1
+
+---
+
+#### 3598. [Ubuntu] USN-8734-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PHP incorrectly handled Apache map decoding in SOAP servers with a typemap configured. A remote attacker could use this issue to cause a NULL pointer dereference, resulting in a denial of service. (CVE-2026-7262) It was discovered that PHP incorrectly handled signed integer overflow in the metaphone() function. An attacker could use this issue to cause an out-of-bounds read,
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8734-1
+
+---
+
+#### 3599. [Ubuntu] USN-8733-1: Gzip vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that Gzip's gzexe utility created temporary files in an insecure manner when mktemp was unavailable. A local attacker could possibly use this issue to overwrite arbitrary files. (CVE-2026-41991) Elias Hasas, Michał Majchrowicz and Marcin Wyczechowski discovered that Gzip incorrectly handled certain compressed files. An attacker could possibly u
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8733-1
 
 ---
