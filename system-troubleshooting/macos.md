@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9784**
+**总计条目 / Total entries: 9845**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -131492,5 +131492,798 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240002#reply12
+
+---
+
+#### 9785. macOS 27 RC
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbuwuc/macos_27_rc/
+
+---
+
+#### 9786. Keyboard Shortcut of the Day: CMD + CTRL + N
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbucbw/keyboard_shortcut_of_the_day_cmd_ctrl_n/
+
+---
+
+#### 9787. quick tip for anyone using the automatic hide / show dock option
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbsczk/quick_tip_for_anyone_using_the_automatic_hide/
+
+---
+
+#### 9788. Mac storage calculation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbpvtj/mac_storage_calculation/
+
+---
+
+#### 9789. MacPorts can't update, "C compiler cannot create executables" error
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbv6yn/macports_cant_update_c_compiler_cannot_create/
+
+---
+
+#### 9790. Safari cursor became a pen for drawing, and does not work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbmxdu/safari_cursor_became_a_pen_for_drawing_and_does/
+
+---
+
+#### 9791. When I am in fullscreen of a video / movie and press ESC or go out of it, it minimizes and shows me desktop first, then after clicking i go back into chrome
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbytvj/when_i_am_in_fullscreen_of_a_video_movie_and/
+
+---
+
+#### 9792. Retro Macintosh Desktop Widget I Made!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbxp08/retro_macintosh_desktop_widget_i_made/
+
+---
+
+#### 9793. IPhone Mirroring In Use - Spam Calls
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbwuki/iphone_mirroring_in_use_spam_calls/
+
+---
+
+#### 9794. Apple music is preventing Screensaver from starting
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbt57v/apple_music_is_preventing_screensaver_from/
+
+---
+
+#### 9795. Upgrading to Sequoia
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbs69u/upgrading_to_sequoia/
+
+---
+
+#### 9796. Spotlight Search
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wb947w/spotlight_search/
+
+---
+
+#### 9797. LG C2 intermittently shows no signal on macOS Tahoe—Deep Color handshake issue?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbl4xe/lg_c2_intermittently_shows_no_signal_on_macos/
+
+---
+
+#### 9798. BetterDisplay Question: 1 Mac + 2 Displays on 2 Different Desks
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbkeii/betterdisplay_question_1_mac_2_displays_on_2/
+
+---
+
+#### 9799. New Mac Neo already has some concerning files. Can someone look at this one?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wby2o7/new_mac_neo_already_has_some_concerning_files_can/
+
+---
+
+#### 9800. BetterMouse + Mos: can I get precise, smooth scrolling with a quick stop using just one app?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wb4q21/bettermouse_mos_can_i_get_precise_smooth/
+
+---
+
+#### 9801. my fn key changes its function, settings don't work
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbi4qr/my_fn_key_changes_its_function_settings_dont_work/
+
+---
+
+#### 9802. Please help! I've been trying to solve this for over a year and it's making life difficult
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wbuvr6/please_help_ive_been_trying_to_solve_this_for/
+
+---
+
+#### 9803. What is the best .flac player for Mac (intel-sequoia) that plays embedded music lyrics?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wb8svg/what_is_the_best_flac_player_for_mac_intelsequoia/
+
+---
+
+#### 9804. Autocorrect is kicking the cursor back.. How to turn off?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wb78wr/autocorrect_is_kicking_the_cursor_back_how_to/
+
+---
+
+#### 9805. [V2EX] Raycast v2 用户看看你们的内存占用！
+
+**问题描述 / Problem Description**:
+Raycast 后台自动更新了 v2 版本，重启就会升级成功，据说新版内存占用会飙升，吓得我赶紧让 GPT 删除 v2 ，然后屏蔽掉 raycast 的域名...先凑合用。 有没有升级 v2 的让我看看你们的内存占用，看看要不要升级。 目前 v1 的内存占用：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240856#reply5
+
+---
+
+#### 9806. [V2EX] Mac 连接电视如何拥有 Apple TV 一样的丝滑 UI 和体验
+
+**问题描述 / Problem Description**:
+有没有 app 或者项目，可以把 UI 做成 Apple TV 一样的，里面添加 视频 app 、游戏 app ，实现在电视上丝滑体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240826#reply2
+
+---
+
+#### 9807. [V2EX] 你的 mac 用了多少硬盘空间？
+
+**问题描述 / Problem Description**:
+占比最大的是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240322#reply26
+
+---
+
+#### 9808. [V2EX] 我的 Hammerspoon 配置（应用秒切 + 鼠标跟屏 + 快捷键速查）
+
+**问题描述 / Problem Description**:
+切到副屏，鼠标却还留在主屏：我的 Hammerspoon 配置（应用秒切 + 鼠标跟屏 + 快捷键速查） 桌上加了块副屏之后，有个小毛病天天犯。 ⌘Tab 切到副屏的 Chrome ，窗口是亮了，鼠标还在主屏待着。这时候手一滚滚轮，滚的是鼠标底下那个 iTerm ，副屏的 Chrome 一动不动。愣半秒反应过来，去摸鼠标，甩过去，再滚。一天几十回。 这事 Raycast 、Rectangle 都解决不了，它们管窗口，不管鼠标。最后是用 Hammerspoon 缝了段逻辑：按快捷键切应用的时候，鼠标自己飞到目标窗口中间。顺手把之前乱七八糟的应用快捷键也重排了一遍。 之前写过一篇入门配置（ 把 M
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240280#reply10
+
+---
+
+#### 9809. [V2EX] SalaryTicker ：一个状态栏小插件，提供搬砖日常的正反馈
+
+**问题描述 / Problem Description**:
+为了给漫长的搬砖日常带来一点「即时正反馈」，利用业余时间写了这款极简的 macOS 状态栏应用 —— SalaryTicker （时薪） ，是我作为一个从来不懂开发的人 vibe 的 app 👉 Release DMG 直接下载 ： https://github.com/chenxia31/Salary/raw/main/dist/SalaryTicker.dmg 下列描述为 AI 整理： 💡 核心做成了什么样？ 每秒都在入账的状态栏跳动 输入月薪和工作排班，状态栏每秒实时刷新入账金额（例如 +¥0.051/s · ¥148.50 ）。数字经过 .monospacedDigit() 优化，高频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239822#reply2
+
+---
+
+#### 9810. [V2EX] 最新发布的 iOS 27 RC 似乎对非国行机型也施加了针对 Siri AI 联网服务的地域锁限制
+
+**问题描述 / Problem Description**:
+测试了下最新发布的 iOS 27 RC 的 AI 功能。新的 Siri AI 似乎在非国行符合资格的机型上也无法使用任何需要联网的服务了，譬如新的 Siri AI 询问任何需要联网的部分，比如现在的天气，就会报错“Something went wrong”。Image Playground 和 Photos 里新增的 AI 扩图等也需要联网的功能如果梯子选了质量一般的节点也不能使用，换成家宽节点全局则可以正常使用。但本地模型的服务是可以使用的，如 Writing tools 的 proofread 和 photos 的 clean up 都可以使用，以及任何不需要联网的 Siri AI 功能，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240857#reply1
+
+---
+
+#### 9811. [V2EX] Apple Events 讨论帖
+
+**问题描述 / Problem Description**:
+iPhone 从月球看地球的画面果然被放进宣传片了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240845#reply3
+
+---
+
+#### 9812. [V2EX] 才发现 Safari 看，直播内容是 HDR 的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240841#reply3
+
+---
+
+#### 9813. [V2EX] 一年一度的科技春晚,APPLE 新品发布会,直播讨论汇总贴
+
+**问题描述 / Problem Description**:
+最大看点 苹果 iphone ultra 首次发布折叠屏手机 或者叫 iPhone duo 飞机讨论组传送门 t.me/pixelcn @ pixelcn [img] [/img] 绿泡泡讨论请加 ID:bigsuguo 直播地址: https://www.apple.com/apple-events/ https://www.youtube.com/@Apple 参数整理 价格预测 吐槽苹果 购买建议 真香还是挤牙膏 --- 目前爆料，本次发布会可能出现： ✅ iPhone 18 Pro / Pro Max ✅ 苹果首款折叠屏 iPhone （ Ultra / Duo ） ✅ Apple W
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240824#reply1
+
+---
+
+#### 9814. [V2EX] 想给 iPhone 14 PM 更换电池，瑟福和聚信电池哪个好点？
+
+**问题描述 / Problem Description**:
+线下电瓶是极客维修的聚福电池，价格是 270 。 瑟福和聚信电池哪个好点？ 店家说也可以网上买来找他手工更换，会做气密性，费用 80 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240812#reply0
+
+---
+
+#### 9815. [V2EX] 苹果美区礼品卡升级 gpt 触发审核
+
+**问题描述 / Problem Description**:
+背景 1. 美区账号 绑的国内电话 之前购买付费项目没有问题（ 24 年左右） 用的美区礼品卡 2. 这次咸鱼买的礼品卡 3. 账单地址改到免税 一下出现了审查 客服没告知原因 话里话外推荐我比较急的话就再注册一个账号 正常流程 72 小时![issue ]( )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240783#reply7
+
+---
+
+#### 9816. [V2EX] 请教有 iphone16pm 机主升级到 ios26 的吗？
+
+**问题描述 / Problem Description**:
+目前是 ios18.7.2 ，一直提示让我更新到 ios26.6.2 ，纠结升不升级，有升级后的讲讲体验如何吗？续航，发热，相册等等都可以说一下。 还有就是目前电池循环计数 649 ，健康度 92%，升级 ios 的话，健康度是不是会掉？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240755#reply2
+
+---
+
+#### 9817. [V2EX] 9 月 10 号 1 点的发布会有 AirPods pro 4 吗？
+
+**问题描述 / Problem Description**:
+AirPods pro 3/2 代用的都是 h2 的芯片，过去这么久了该更新芯片了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240676#reply11
+
+---
+
+#### 9818. [V2EX] 我是果粉，我会自适应
+
+**问题描述 / Problem Description**:
+先自证一下身份，多年的老苹果粉了，各类设备买了不少，前几天遇到个 App Store 余额扣款的事，直接给我整笑了 事情是我 AppStore 账户里的余额完全充足，按理说开发者订阅续费应该优先扣余额，结果直接绕过了余额，从我绑定的支付宝里把钱划走了 售后过程： 致电 App Store 支持团队： 客服明确告诉我：“开发者订阅 是支持通过账户余额支付的” 但对于我已经被从其他渠道扣款的问题，客服表示这个涉及具体结算逻辑，让我去找 Apple 开发者团队 致电 Apple 开发者团队： 找了开发者团队，对方又给出了完全相反的说法，表示 Apple 开发者订阅从来不支持通过余额支付，至于我提到的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240653#reply4
+
+---
+
+#### 9819. [V2EX] iPhone 上和 macbook 上推荐用什么中文输入法？
+
+**问题描述 / Problem Description**:
+不被记录的，但又比较好用的那种。 我平常就用苹果自带的拼音输入法，但是居然没有按照声调筛选候选的功能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240607#reply51
+
+---
+
+#### 9820. [V2EX] 今晚 iOS27rc 就出来了 国行 AI 会上线吗？
+
+**问题描述 / Problem Description**:
+感觉都麻了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240599#reply21
+
+---
+
+#### 9821. [V2EX] 抢首发 iPhone 转卖，有搞头吗
+
+**问题描述 / Problem Description**:
+最近满屏都在刷“抢 iPhone 18 首发转卖”：溢价就赚，砸手里还能 14 天无理由退货。这好像“包赚不赔”，有那么靠谱吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240590#reply37
+
+---
+
+#### 9822. [V2EX] 类似小火箭、Surge 那种 App 上架到 AppStore，必须要企业账号吗？
+
+**问题描述 / Problem Description**:
+几年前还没有 AI 的时候搞过一个，当时提审好像使用了网络扩展，需要让我使用企业账号才能上架。 最近使用 AI 又搞了一个，还没敢提交正式审核（提交 TestFlight 倒是通过了） 问一下，现在政策有变化吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240586#reply1
+
+---
+
+#### 9823. [V2EX] 通过 apple pay 支付 gemini gpt 等 AI 会被封控吗
+
+**问题描述 / Problem Description**:
+问下 apple pay 绑定中国发行的 vesa 卡，支付 gemini 或者 gpt 之类的 目标 app 会看到发卡行地区 从而引发封控吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240569#reply8
+
+---
+
+#### 9824. [V2EX] 整了个妙控键盘，感觉沙沙声的
+
+**问题描述 / Problem Description**:
+跟 MacBook pro 自带的键盘手感差距有点大，mbp 的是很紧实的手感，妙控键盘感觉松松散散的，整个键盘倒过来晃一下沙沙声的🤦，跟个沙锤似的。 试了下 mbp 上的键帽都不带晃的，而妙控键盘的键帽装配在 Z 轴上有余量。 问问大家这是个例还是都这样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240467#reply2
+
+---
+
+#### 9825. [V2EX] 大家对折叠屏 iPhone 和触控屏 Mac，怎么看？
+
+**问题描述 / Problem Description**:
+17 年 Apple 用户，个人目前无法接受折叠屏 iPhone ，就如同无法接受触控屏 Mac 一样。除非以后 Apple 只卖折叠屏和触控屏 Mac 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240421#reply3
+
+---
+
+#### 9826. [V2EX] Siri 里的 chatGPT 有什么规则吗？
+
+**问题描述 / Problem Description**:
+同样的规则下，用蜂窝就会显示登录账号 连 wifi 后就会提示该地区不可用？ 是还要设置什么内容吗？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240391#reply9
+
+---
+
+#### 9827. [V2EX] M1 处理器是不支持 av1 解码吗 看 B 站热麻了
+
+**问题描述 / Problem Description**:
+最近在 M1 Air 上下载了 b 站客户端看视频 偶然发现状态温度监测软件显示 83 度 关了弹幕有改善但不多 后来又把解码从 av1 改成 hevc 然后就恢复正常了 开密集弹幕最高也就 40 的样子
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240345#reply25
+
+---
+
+#### 9828. [V2EX] 9 月份网易云音乐黑胶会员领取，天数随机
+
+**问题描述 / Problem Description**:
+1http:/$QbIBna3128082b$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 贱***叔 送你网易云音乐 9 月黑胶会员卡，领取享 20+会员权益。 https://163cn.tv/bfYN2EBV 日常分享，欢迎领取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240754#reply0
+
+---
+
+#### 9829. [V2EX] 因为一次自驾掉队,就做了个路书
+
+**问题描述 / Problem Description**:
+半个月前自驾出去旅游 3 辆车 本来有一天是去敕勒川草原玩的 其中有个小伙伴导航到了敕勒川公园(市区里的)... 大概 60-100km 的误差吧 行程直接耽误一天 那天他们啥也没完成 后来又跟着第二天补了这个景点 我就想这种情况是不是还挺常见的 就做了个路书项目 一键跳转导航 行程安排 途径点设置变更线路 https://lushu.xyptkd.cn/ 下面是演示 https://lushu.xyptkd.cn/s/afc4fadfe1f5625cb81401a48ee55a3bda9d15d9f50ec403 效果图 教程
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240742#reply3
+
+---
+
+#### 9830. [V2EX] 设置 Windows 11 头像为动图
+
+**问题描述 / Problem Description**:
+来源： https://sspai.com/post/114312 评论区一键设置软件： https://github.com/wooi/DuckDuckMove 有什么 GIF 分享出来给大伙看看。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240732#reply0
+
+---
+
+#### 9831. [V2EX] 汤家凤与胡锡进英语主科争议事件总结（网友戏称 “胡辣汤大战”）
+
+**问题描述 / Problem Description**:
+汤家凤（考研数学名师） VS 胡锡进（媒体人） ，导火索是辽宁中考改革方案：历史、地理、生物改为考查科目，不计入中考总分。 一、事件起因 9 月 3 日，汤家凤看到辽宁中考调整消息，发文表示 不应该削减历史权重 ，如果要减负，应该把英语移出主科、降低应试权重，由此引发全网热议，胡锡进发文反驳，双方隔空论战。 二、汤家凤核心观点 英语只是工具， 不应该全民高强度应试 。绝大多数普通人毕业后工作用不上英语，学生从小投入大量时间刷题学英语，挤压语文、历史等母语与文史学科学习时间。 原话：母语还没学好就死磕英语，放眼全世界都是笑话；“中国人崇洋媚外的历史该结束了”。 他 不是废除英语这门课 ，而是主张
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240711#reply48
+
+---
+
+#### 9832. [V2EX] 分享两个网站，不怕找不到优秀的录屏软件和语音输入法软件了
+
+**问题描述 / Problem Description**:
+最近我不是在做 openbroca 的语音输入法的产品吗，同时也有要录制产品的一些 demo 视频的需求，就找到了 https://recorder.select/ 这个网站，里面有一大批录屏软件的对比，发现宝藏了。 然后我说用同样的方法有没有可能也有人做了类似关于语音输入法的对比，结果一搜还真有笑死，火速把自己的 openbroca 提交上去了， https://dictation.select/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240709#reply0
+
+---
+
+#### 9833. [V2EX] 小米互联的完成度这么高了吗
+
+**问题描述 / Problem Description**:
+好久没看小米了，今天刷到的 看的有点心动了，感觉手里的 iPhone 有点像老年机了 戳中我的 1. 生态互联，家里的智能家居设备不少 2. 平板的体验，比 iPad 的可玩性感觉强不少 3. AI ，那个发光小球的普适性看着很强，mimo 模型本身的能力也不错，日常理解能力足矣 4. 再整个小米 NAS ，想想很舒服了 [ [首发] 小米澎湃 OS4 全家桶体验！万物乱连？] https://www.bilibili.com/video/BV1eCb563E8f 那么，问题来了，真的有演示的这么好吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240670#reply0
+
+---
+
+#### 9834. [V2EX] 现在会不会是 AI 的诺基亚时代？
+
+**问题描述 / Problem Description**:
+GPT3.5 印象中大概在 2022 年底出来的，生成式 AI 才 4 年就这么厉害了，那再过几年 几十年 AI 会到什么程度？ 以前还在用诺基亚的时候根本想象不到现在的手机能变成这样子，甚至现在普遍用上的全面屏在以前也是根本想不到的(至少我是没想到)，屏幕大 显示细腻。那 AI 以后能变成什么样子？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240665#reply14
+
+---
+
+#### 9835. [V2EX] 《电子斗蛐蛐》之“AI 能创造什么新需求”
+
+**问题描述 / Problem Description**:
+最近快被各种模型搞疯掉了，今天谁又出了新的功能，明天又有谁超过了谁谁谁，谁谁谁又出了新版本模型……我自己也用的是挺晕头转向的，于是突发奇想，来一场电子斗蛐蛐，把相同的问题问不同的模型多次，看看他们都会有什么反应。 先把斗蛐蛐的结论说了： Deepseek V4 flash ，更像是一个好学生，很规矩，听话。 Kimi k3 ，像是个艺术家、哲学家，动不动就给你探讨人生。 OpenAi Luna ，像是个大厂员工，造词一流。 Tencent Hy4 ，像是一个伦理学家、制度研究者，虽然懂批判但还是会照做。 正文连接 https://mp.weixin.qq.com/s/jwOMrNh19s6yV
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240646#reply2
+
+---
+
+#### 9836. [V2EX] 才知道现在纯 WEB 都可以跑 ASR 了，给我的简单字幕编辑网站加了 SenseVoice 纯前端的文本识别
+
+**问题描述 / Problem Description**:
+网站地址： https://subtitle.littleeleven.com 可以完全在前端跑 ASR 模型转录 普通字幕软件对 LaTeX 极不友好，原生支持在字幕里写公式并实时预览排版。 使用 ass 渲染，导出效果和预览完全一致
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240632#reply0
+
+---
+
+#### 9837. [V2EX] 推荐我经常用的一个免费的图书下的网站
+
+**问题描述 / Problem Description**:
+推荐我经常用的一个免费的图书下载网站 Z-Library ，免费电子书下载，基本上你想找的书都有 网址： z-library.im 中文书、英文书、学术论文都能搜到，格式也全，epub 、pdf 、mobi 随便选 每天有免费额度，够用了 我自己用了很久，分享给需要的人
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240617#reply4
+
+---
+
+#### 9838. [V2EX] 论小红书上的极品蠢人
+
+**问题描述 / Problem Description**:
+小红书上一个贴子问宠物驱虫药好贵，有没有平替 我评论了一个呋虫胺 然后回复我的都是“姐妹这个不能用有毒” 然后还有一个人才，跟我掰扯.. 大概就是 我说猫可以用，她说不可以有毒，我说我都用过了。 然后我问她你那么懂你说说这个杀虫药的作用机制别问 ai 她: **** 杀虫药作用机制就是杀虫啊 然后她开始人身攻击，具体发的什么记不清了前几天的事。 然后发表经典言论: "你都说了呋虫胺是杀虫药，杀虫药是杀虫药 驱虫药是驱虫药看不懂吗" 我也懒得跟她掰扯，回复了下驱虫药就是杀虫药，比如常用的“驱虫药”非泼罗尼名字叫氟虫腈，就是杀虫药，作用机制跟呋虫胺类似都是干扰昆虫神经系统。给她拉黑了。 大致过程是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240605#reply111
+
+---
+
+#### 9839. [V2EX] 发现一堆纯音乐， 16891 个音乐文件，大部分每个纯音乐文件时长超过 1 小时
+
+**问题描述 / Problem Description**:
+分享一堆纯音乐共 16891 个音乐文件，大部分每个纯音乐文件时长超过 1 小时。可以用来作为各种场景的氛围音乐素材，资源链接： https://pan.quark.cn/s/e10938a08c8f
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240596#reply0
+
+---
+
+#### 9840. [V2EX] 个人怎样实现网络营收？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240592#reply6
+
+---
+
+#### 9841. [V2EX] 感慨！用了将近十年的 Surge 目前因为不支持 Vless 我不得不切换到其他软件
+
+**问题描述 / Problem Description**:
+原本机场协议是 ss 和 VMess ，这两个 Surge 完美支持，一直用着不错。 近期机场协议逐步切换到 Vless ，原本用 surge-vless-bridge 中转一次，却也不是长久之际 近期也该到续费周期了，直接手机电脑全部切换到 Stash 虽然比起 Surge 还有很大差距，也不得不放弃 Surge 了 让他继续倔强吧，不奉陪了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240588#reply37
+
+---
+
+#### 9842. [V2EX] 在 X、小红署、抖音、B 站等社交平台收集了一堆各种类型小视频目前有共 1377 个视频
+
+**问题描述 / Problem Description**:
+在 X 、小红署、抖音、B 站等社交平台收集了一堆各种类型小视频目前有共 1377 个视频，还在不断增加中... 资源链接： https://pan.quark.cn/s/1080a7210964
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240580#reply15
+
+---
+
+#### 9843. [V2EX] [开源] LazyDB: 键盘优先且支持鼠标的 TUI 终端数据库管理工具(多图预警)
+
+**问题描述 / Problem Description**:
+给自己 vibe 了一个终端数据库管理工具，自己用起来很爽，有需要的可以自取😄 Github: https://github.com/yelog/lazydb 支持 PostGreSQL 、MySQL 、SQLite 、SQL Server 数据库。 表格预览及编辑、事务切换及管理 较为完备的鼠标操作，尽管是键盘优先，但也尽可能支持鼠标操作 支持 MCP ，让 coding agent 在不同的项目中访问各自的数据库 支持 Neovim 插件：支持 neovim 工作流、LSP 进行数据库表和列字段的补全提示 SQL 执行 表格预览及过滤 多数据支持 数据库总体状态监控 Dashboard 鼠
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240547#reply17
+
+---
+
+#### 9844. [V2EX] 豆包输入法 WIN 端可以下载了
+
+**问题描述 / Problem Description**:
+豆包 [微信的跨设备复制也支持]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240545#reply71
+
+---
+
+#### 9845. [V2EX] 分享一个好用的 JSON 在线工具。欢迎全网对比
+
+**问题描述 / Problem Description**:
+JSON 在线工具 身为程序猿 每天都是必备的网站。虽然市面上有很多的 json 工具网站。但是没有一个我觉得好用的。要么有广告，有么布局不合理，要么功能少。 我需要一个这样的 JSON 工具网站： 可视区域足够大。 非常重要 界面简洁，布局合理。 支持转义 非转义。 非常重要 支持一键复制，压缩合并。 支持查看子节点的信息，快速复制子节点信息。 支持 json 对比。 支持 List 转 Table ，方便数据对比。 非常重要 有多种示例数据 方便调试。 支持大 bigint 数字 不丢失精度。 重要 支持错误数据也能一键纠正。 非常重要 支持错误信息定位到某一行。 重要 支持路径复制 ht
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240523#reply4
 
 ---

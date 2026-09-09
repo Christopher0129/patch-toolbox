@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10730**
+**总计条目 / Total entries: 10779**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -145411,5 +145411,642 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240406#reply3
+
+---
+
+#### 10731. Why is file access denied for files added to USB drive on another PC?
+
+**问题描述 / Problem Description**:
+Tags: windows, file-permissions | Score: 3 | Views: 1202 | Answers: 2 | Created: 2026-09-06
+
+**解决方案 / Solution**:
+It is not recommended to use NTFS as filepermisison on a USB Device, especially because what you're experiencing is something that can happen. Recommended solution Copy all the contents of the USB drive to the pc and laptop where you still have access to get all the content safe. Reformat the USB drive as FAT32 or exFAT depending on how large the drive is. Copy the files back. Do not attempt to copy the System Volume Information folder. This folder is related to NTFS itself. Why NTFS is failing Every user on a computer has their own SID (System IDentification) This unique number is generated when your user is created, and when you assign permissions on NTFS, this SID is used to store the information. You can have the same user on both computers, but unless both computers are part of a domain, and the user is created on the domain, both users will have a unqiue SID, which means that giving your user permissions on the NTFS drive will not give it permissions on the other computer. The moment you plug in the drive to the other computer and you access its properties, it will show a SID instead of the user as that object is unknown to that pc. You can try to circumvent this by using groups, such as Everyone or trusted users, but only the Everyone group can be trusted to always give access without having issues, and any program or process can alter permissions and screw you over. Given that the only viable solution is to use the Everyone Group anyway, having the drive not being NTFS but something like exFAT, is a much better option. This will ensure that permissions can't screw you over. NTFS on a removable drive is only really useful if you have a domain setup and you need to keep certain security permissions in tact after copying files.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940169/why-is-file-access-denied-for-files-added-to-usb-drive-on-another-pc
+
+---
+
+#### 10732. How can I disable DISM logging from Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, ssd, logging, dism | Score: 2 | Views: 429 | Answers: 1 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+How can I set the DISM logging level for DISM? Use the /LogLevel:<n> command line option: Specifies the maximum output level shown in the logs. The default log level is 3. The accepted values are as follows: 1 = Errors only 2 = Errors and warnings 3 = Errors, warnings, and informational 4 = All of the information listed previously, plus debug output Example: DISM /LogLevel:1 /Online /Cleanup-Image /RestoreHealth You can also use the /Quiet command line option: Turns off information and progress output to the console. Only error messages will be displayed. How can I disable DISM logging? You can't. However you can redirect the output to nul using the /LogPath:<path to log file.log> command line option: Specifies the full path and file name to log to. If not set, the default is: %WINDIR%\Logs\Dism\dism.log Example: DISM /LogPath:nul /Online /Cleanup-Image /RestoreHealth The null device is a special file that discards all data written to it, but reports that the write operation succeeded. Nul is often used to hide the output (or error output) of a command (1) (1) nul device - Windows CMD Source: DISM Global Options for Command-Line Syntax | Microsoft Learn
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940214/how-can-i-disable-dism-logging-from-windows-11
+
+---
+
+#### 10733. What do “CDBOOT: Cannot boot from CD” error codes mean on bootable Windows discs?
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, livecd | Score: 0 | Views: 34 | Answers: 1 | Created: 2026-09-09
+
+**解决方案 / Solution**:
+The numbered code error messages mean that the El Torito loader stored on the disc has failed one of its sanity checks meant to ensure it was loaded correctly, and therefore could not proceed to load the Windows boot manager (NTLDR or BOOTMGR). The meaning of the codes is as follows: code meaning 1 invalid loading address: the loader was loaded at offset neither zero nor 0x7c00 2 invalid loading address: the loader was loaded at offset 0x7c00 in a segment different from zero 3 invalid loading address: the loader was loaded at offset zero in a segment different from 0x07c0 4 the received BIOS drive number signifies a floppy drive, instead of a hard drive as expected 5 end-of-file 55AA signature mismatch Codes 1 and 2 are extremely rare and mean that booting has gone completely out of whack; if those ever appear, I would not dare guess what has gone wrong without knowing more specifics of the individual situation. On the other hand, error codes 3, 4 and 5 can have relatively common causes. Encountering such an error can mean any of the following: A failure to correctly read the loader from the boot medium. If the disc fails to read on more than one machine, this is the likely reason. Try backing up the disc or burning another copy from a known-good source. A misconfigured El Torito boot catalog entry. If this is a bootable disc you have authored yourself instead of using or burning a Microsoft-made ISO image, this is the likely reason. To address this problem, check that the El Torito boot record has the expected value: code field to check expected value 3 load segment 0x7c0 (literally 1984) or 0 4 boot media type emulation mode no emulation 5 sector count loading size size of the whole ETFSBOOT.COM file: 2048 or 4096 bytes / 4 or 8 (virtual, 512-byte) sectors / 1 or 2 CD sectors To ensure booting works, try the disc image in a virtual machine before burning it. Buggy BIOS firmware. If this is an issue that only reproduces on some hardware (or rather: firmware), this might be the case. To identify whether you should suspect faulty firmware to be the source of the problem, try booting the disc inside a virtual machine; if it boots fine in a VM while it fails to boot on the same hardware natively, a firmware bug is likely the reason. One such bug is relatively well known: although reports are sketchy, some BIOSes are apparently unable to correctly load an El Torito loader consisting of more than one CD sector (2048 bytes); such a buggy BIOS will end up showing the error code 5. You may also check the output of disktype ; problematic images should output something like El Torito boot record, catalog at 353 Bootable non-emulated image, starts at 354, preloads 4 KiB Platform 0x00 (x86), System Type 0x00 (Empty) If this is the issue, it may be possible to create a custom disc image to work around the bug, by transplanting a smaller El Torito loader from an earlier version of Windows. This, however, will need to be specially prepared. First, extract the El Torito image from a Windows Vista installation CD; you should obtain a 2048-byte binary file, conventionally named ETFSBOOT.COM. The final two bytes of that file should be 55 AA . Then generate a new disc image, containing the files from the disc you wanted to boot from, and the El Torito image you just extracted. The El Torito image should be configured to boot on the x86 PC BIOS platform, in no-emulation mode, from segment 0x7c0, like described in the previous point. At the same time, the file system on the disc image should also be prepared specially: you should ensure that the ISO 9660 file system is emitted without dots in extensionless files and without version numbers (xorriso: -compliance no_force_dots:omit_version ; genisoimage: -d -N ); otherwise the El Torito loader may fail to locate BOOTMGR on the disc. Although if the disc with the El Torito image contained an UDF file system, ensuring your generated image also contains one may obviate the need for enabling these compatibility quirks. Once you have verified that the image can boot successfully in a virtual machine, you may proceed to burn it to a physical disc.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940244/what-do-cdboot-cannot-boot-from-cd-error-codes-mean-on-bootable-windows-discs
+
+---
+
+#### 10734. Apps from Microsoft Store don't launch with error 0x80070422
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-services, windows-11-24h2, microsoft-store | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+You acknowledge, "disabling services so that is most likely the culprit; but I don't really remember what service it was," First, enable the following services, some or all of which are needed for MS Store apps: Microsoft Store Install Service (InstallService) Windows License Manager Service (LicenseManager) Background Intelligent Transfer Service (BITS) Cryptographic Services (CryptSvc) Windows Update Service (wuauserv) If that does not resolve the issue, solve it logically, using a binary tree. It would take only six tests, if you've disabled 64 services. In Services , click on Starting type to order by it, then export the list as CSV, or use PowerShell to make a list . Remove from that list those that have nothing to do with registering a Microsoft app, such as Windows Mobile Hotspot Service and Downloaded Maps Manager . Enable (set to manual start) and then start half the items in the list, and try to run the MS store app. If that works, stop half of those services you just started and try again, or if the app won't start, stop and disable all items you just started, then enable and start the other half of the services in the list Go back to step 3 for half of the previous lot. If you had a list of 64 items, you narrow it down to 32, 16, 8, 4, 2 and then the offending service. BTW, if you have only a few MS Store apps, consider removing them and replacing with apps installed from MSI or EXE files, directly from the author.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940211/apps-from-microsoft-store-dont-launch-with-error-0x80070422
+
+---
+
+#### 10735. Windows built-in IKEv2 VPN fails with EAP-MSCHAPv2 error 691 after successful MFA
+
+**问题描述 / Problem Description**:
+Tags: networking, vpn, windows-11 | Score: 0 | Views: 33 | Answers: 1 | Created: 2026-09-07
+
+**解决方案 / Solution**:
+I fixed the issue by going to services.msc, right-clicking Watchguard SSLVPN Service, and clicking Start. I don't know why it was stopped but it works now.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940202/windows-built-in-ikev2-vpn-fails-with-eap-mschapv2-error-691-after-successful-mf
+
+---
+
+#### 10736. I accidentally put my screen at 500% zoom
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbulo1/i_accidentally_put_my_screen_at_500_zoom/
+
+---
+
+#### 10737. 5g router (with sim slot) dead after two days
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbxxta/5g_router_with_sim_slot_dead_after_two_days/
+
+---
+
+#### 10738. CPU Throttling & Very High Latency & Low 1% FPS & Bad performance overall
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbtx7u/cpu_throttling_very_high_latency_low_1_fps_bad/
+
+---
+
+#### 10739. How to get around being sent to sign out when signing in on outlook
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbxkea/how_to_get_around_being_sent_to_sign_out_when/
+
+---
+
+#### 10740. Server hard-resets every 728.4 minutes ±1 min, 12 times running. No bugcheck, no iDRAC SEL entry, timer survives reboots. I'm out of ideas.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbxbq0/server_hardresets_every_7284_minutes_1_min_12/
+
+---
+
+#### 10741. GroupMe Text Enlargement
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbwdc9/groupme_text_enlargement/
+
+---
+
+#### 10742. Screen colors keep resetting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbwaey/screen_colors_keep_resetting/
+
+---
+
+#### 10743. Accidentally fried my Ipad on an electric stove on max heat for at most two minutes, Is there any chance it survived?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbpt93/accidentally_fried_my_ipad_on_an_electric_stove/
+
+---
+
+#### 10744. Mouse stuck in the top right corner, inf click
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbp3r4/mouse_stuck_in_the_top_right_corner_inf_click/
+
+---
+
+#### 10745. Crackling audio in SteamOS on DIY steam machine over HDMI
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbucip/crackling_audio_in_steamos_on_diy_steam_machine/
+
+---
+
+#### 10746. MSI Katana 15 GF66 12UE's GPU doesn't work after undervolting and setting PL limits
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wc0cro/msi_katana_15_gf66_12ues_gpu_doesnt_work_after/
+
+---
+
+#### 10747. Strange beeping sounds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wc094c/strange_beeping_sounds/
+
+---
+
+#### 10748. College Network Help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wc08nk/college_network_help/
+
+---
+
+#### 10749. External SSD showing up as Local Disk then disconnects
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wc03qp/external_ssd_showing_up_as_local_disk_then/
+
+---
+
+#### 10750. How do I shut up this noise?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wc01zh/how_do_i_shut_up_this_noise/
+
+---
+
+#### 10751. Building a new computer but I can't install Windows 11 from a boot drive.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbzwai/building_a_new_computer_but_i_cant_install/
+
+---
+
+#### 10752. Problem with uninstalling The Sims 4
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbzw2h/problem_with_uninstalling_the_sims_4/
+
+---
+
+#### 10753. can someone help me out on ts one
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbzvg4/can_someone_help_me_out_on_ts_one/
+
+---
+
+#### 10754. Zotac gtx 1060 6gb smd component burned
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbte4a/zotac_gtx_1060_6gb_smd_component_burned/
+
+---
+
+#### 10755. Second monitor (which is 4K) has frame-rate/latency issues when watching video
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbz5gx/second_monitor_which_is_4k_has_frameratelatency/
+
+---
+
+#### 10756. Brightness so low it looks like a black screen. No changes even after toggling to the highest setting.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbyk1d/brightness_so_low_it_looks_like_a_black_screen_no/
+
+---
+
+#### 10757. Samsung A42 5g not showing anything on screen after a dip in the water.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbyg5i/samsung_a42_5g_not_showing_anything_on_screen/
+
+---
+
+#### 10758. Woke up to Ethernet not functioning.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wbyd1y/woke_up_to_ethernet_not_functioning/
+
+---
+
+#### 10759. My startup repair window is abnormal. Only option is to input password that I forgot or restart. I forgot password. And no other option is there other than restart
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wby1mu/my_startup_repair_window_is_abnormal_only_option/
+
+---
+
+#### 10760. [V2EX] 联想开天 kv7000cpu 进不了 pe
+
+**问题描述 / Problem Description**:
+如题，这个 CPU 是叉 86 架构的，官网也提供了 Windows 的驱动，但是我进不了 PE ， 我用微 PE 做的启动盘，主板设置启动项为 U 盘，但点进去还是进入到麒麟系统。 请问各位老哥怎么办？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240849#reply0
+
+---
+
+#### 10761. [V2EX] 有什么好用的鼠标吗？
+
+**问题描述 / Problem Description**:
+最近打算换一个鼠标，平时工作和打游戏，有什么适合的吗，性价比高的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240839#reply4
+
+---
+
+#### 10762. [V2EX] windows 有没有类似 APTV 的电视直播播放器
+
+**问题描述 / Problem Description**:
+如题，电脑端只用 potplayer 感觉不是很好用，有没有 mac 上 APTV 类似的软件呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240834#reply0
+
+---
+
+#### 10763. [V2EX] 双非免推资格大四生，研究生投 211 就没希望吗？
+
+**问题描述 / Problem Description**:
+友好提问，表弟双非大四喜获研究生免推资格，比赛打了不少但没有科研经历，我想让他去投 211 学校，要不要找点关系伪造下科研项目经历，基点 3.76 ，综合 83.26 ，专业 13 名。过四级没过六。学校压根不交前沿 AI 啥的技术，也不搞考研讲座，导致没有提前准备，9 月 14 号马上好多 211 截止投递了。咋办好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240803#reply0
+
+---
+
+#### 10764. [V2EX] 最近刷到好多一年级的家长，小孩在课堂都坐不住的
+
+**问题描述 / Problem Description**:
+这种是属于正常现象，还是少数现象，我们以前上学就是上学，上学是讲课堂纪律的事情，抖音上看到的全都是各种哭闹，有点想知道一年级的家长是怎么想的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240793#reply0
+
+---
+
+#### 10765. [V2EX] 能过鹈鹕测试稳定不降智的站有吗？
+
+**问题描述 / Problem Description**:
+试了下现在用的这个，简直怀疑中转到豆姐了 https://img.remit.ee/i/6yrnUjNgk8LX
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240785#reply0
+
+---
+
+#### 10766. [V2EX] 目前大家上班状态的 AI 辅助编码是怎么做的呀
+
+**问题描述 / Problem Description**:
+想转型更多的让 AI 全面辅助开发。 我们的系统以前是有多个团队联动，比如我们的主要业务，大概的一个代码的架构是 比如 前端 - 业务后端 - k8s 调度层 - k8s （或者其他微服务） 以前经常一个问题要扯好几端的人来看 现在应该要把这些代码都聚在一块，把他们的关系给 AI 充分描述，但是我的业务很庞大，这里边可能要写超多的业务说明，应该怎么办呢，有没有一些好的经验分享
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240782#reply0
+
+---
+
+#### 10767. [V2EX] 人在美国，可以帮助到国内兄弟做什么呢？
+
+**问题描述 / Problem Description**:
+今天有人让帮买美区 Apple 礼品卡
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240781#reply34
+
+---
+
+#### 10768. [V2EX] 好奇想了解豆包、GPT 语音实时对话是如何做的，体验上除了智能外，其他因素还蛮多的。
+
+**问题描述 / Problem Description**:
+自己想做一个产品，跟这个紧密相关。 早在 23 年 GPT 刚发布的时候，我用它当时的 Whisper 模型尝试过，基础体验很差（很明显，当时的技术还不成熟）。 现在我体验豆包、跟 GPT 的实时语音聊天，感觉已经非常好了：语气、延时、对用户打断的判断、实时的智能输出。 我跟 GPT 最新大模型聊了大概几天，最后的方案简单描述就是： 客户端收集录音并上传至语音模型服务，获取文字解析结果（输入内容可能是模糊或复杂的，所以需要语言模型识别，而不是单纯的语音转文字）。 将文字结果加上特定上下文，发送给语言模型，获取回答。 将回答发送给语音模型获取音频，并播放给用户。 这种方案会有很多细节需要注意，例
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240773#reply0
+
+---
+
+#### 10769. [V2EX] 为什么我感觉微信新加的滚动长截图，甚至比做了好几年的 iShot Pro 更稳定？
+
+**问题描述 / Problem Description**:
+macOS 系统，MacBook-pro m4 。 我查了下，微信桌面端的滚动截图应该是 2025 年 11 月 4.1.5 版本开始加入的，算是一个挺新的附加功能。 我自己买了 iShot Pro 付费版，这个软件好像 2022 年就发布了吧，我也用了挺久，但它的滚动长截图一直偶尔会出现断层、漏掉一截或者拼接错位，所以每次截长图都得小心翼翼地慢慢滚。 反而这段时间用了几次微信的滚动截图，发现异常稳定，基本没碰到过断层。 大家有人有类似的感觉吗？如果是的话，这是因为微信技术很强的结果吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240771#reply3
+
+---
+
+#### 10770. [V2EX] 求推荐 500 元以内 15 寸左右的安卓电子相框，想自建家庭照片同步，不走第三方云
+
+**问题描述 / Problem Description**:
+想给家里老人弄一个电子相框，主要用来看孩子的照片。 我的需求比较简单： 尺寸大概 15 ～ 16 寸，类似大号 iPad ，1080P 能看照片就行 预算 500 元人民币以内 最好带电池，可以偶尔拿起来看；没有电池也可以接受 能连接 Wi-Fi 最好是完整 Android 系统，可以自行安装 APK 不追求性能，主要就是长期循环展示照片 不太在意本机存储容量，8G/16G 都可以 最好支持横竖屏、桌面支架，适合当普通相框摆着 最重要的是隐私。 因为主要是孩子和家人的照片，所以不希望使用电子相框厂商自己的云服务，也不希望为了远程传照片，把照片上传到其他第三方服务器。 我目前设想的方案是： iP
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240765#reply1
+
+---
+
+#### 10771. [V2EX] 250 credits chatgpt 邀请，有需要的吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240757#reply0
+
+---
+
+#### 10772. [V2EX] 法拍房能买吗
+
+**问题描述 / Problem Description**:
+如题，我在阿里拍卖上看到公司附近两三百万的房子，法拍价现在经过几轮叫价，才 30 多万，22 年的房子，满二，无出租。能买吗？竞价时间只有一天，我今晚打算去看看同户型的房子。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240752#reply4
+
+---
+
+#### 10773. [V2EX] windows 平台哪个 agent 比较好用？
+
+**问题描述 / Problem Description**:
+公司电脑没有管理员权限没法装 wsl ，只能用 windows 搞 workbuddy 一开始感觉还行，最近越来越卡了 opencode 老是会提示 bun 崩溃，根本没法用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240735#reply3
+
+---
+
+#### 10774. [V2EX] X 账号刚刚申诉后解封，又出现提示“不真实行为”，如何解决？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240729#reply2
+
+---
+
+#### 10775. [V2EX] AI Agent 做 Word 排版有什么好方案？
+
+**问题描述 / Problem Description**:
+最近在做 AI 标书（标书解析、按照解析要求生成投标文件），招标文件里面各式各样的格式，提取出来有的不忍直视。 目前做了基本的最后模板合并的时候，统一编号、字体、间距刷写。 但是排版还是丑。 有什么自动化排版的方案？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240713#reply5
+
+---
+
+#### 10776. [V2EX] ChatGPT 安卓手机无法通过 Google play 订阅
+
+**问题描述 / Problem Description**:
+有没有大佬了解下怎么解决这个问题？ ChatGPT 在我订阅按钮在我的手机上面显示不支持。提示应用内购买不支持。 我找代充的可以订阅。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240708#reply5
+
+---
+
+#### 10777. [V2EX] 做指纹浏览器的来请教下，大家的多账号场景现在都是怎么解决的
+
+**问题描述 / Problem Description**:
+先自报家门，AdsPower 官方号，做指纹浏览器和浏览器自动化的。这帖不推产品，是真心来收需求的。 我们的用户大多是跨境电商和海外社媒运营，典型场景是几十上百个店铺号或社媒号，要做环境隔离防关联。但最近发现用法越来越杂，有拿来跑自动化脚本的，有配合 AI Agent 做批量操作的，还有纯粹当隐私浏览器用的，说明这个需求面比我们想的宽。 所以想问问 V 友，你们业务里有没有需要"多个独立浏览器环境"的场景？比如管多个平台账号、测试不同地区的页面、跑需要登录态的爬虫或自动化。现在是怎么解决的，多开浏览器、虚拟机、Docker 还是别的方案？痛点在哪？ 我们踩过的坑也可以交流，指纹检测、环境配置这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240705#reply0
+
+---
+
+#### 10778. [V2EX] 大家购买的云服务器都是哪个厂商的？
+
+**问题描述 / Problem Description**:
+我一直都是买的阿里云的服务器，前后使用了三个手机号参加新用户活动买的服务器（固定带宽，无流量限制），最近发现阿里云也没有啥活动，腾讯云倒是有活动看起来挺便宜，但是腾讯云好像大部分都是 流量包的形式（ 500GB 一个月这种），超过用量额外付费，这种是不是容易被盗刷流量。 大家都是购买的哪个厂商的服务器，啥配置，多少钱？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240698#reply4
+
+---
+
+#### 10779. [V2EX] 为什么胖折叠今年集体爆发？
+
+**问题描述 / Problem Description**:
+折叠屏从三星开始 已经迭代了六七年了 这期间厂商也试了不少花样：双折，三折，对折 不约而同都在今年出了胖折叠的手机 难道因为 iPhone 这么设计，所以跟进？ 不过 iPhone 的还没发布 安卓厂商的都已经上线了 苹果研发保密有那么差吗…
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240693#reply3
 
 ---

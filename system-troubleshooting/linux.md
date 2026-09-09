@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10150**
+**总计条目 / Total entries: 10187**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -139922,5 +139922,486 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240329#reply9
+
+---
+
+#### 10151. Debian Bullseye security InRelease expired
+
+**问题描述 / Problem Description**:
+Tags: debian, docker, upgrade, php | Score: 4 | Views: 857 | Answers: 2 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+If you don't have any specific bullseye configuration right now, I would switch to debian:trixie and restart the build. Of course, you could comment out that lines in the sources.list and it would run, but my recommendation would be to use the new build with Debian 13 in Docker or Debian 12 as well. In my opinion, that would be the better solution for the future. Debian 11 Long Term Support reaches end-of-life, August 31st, 2026 The Debian Long Term Support (LTS) Team hereby announces that Debian 11 " bullseye " support has reached its end-of-life today, 31 August 2026 , five years after its initial release on 14 August 2021. Debian 11 Long Term Support reaches end-of-life Unfortunately I do. I updated my question to reveal the bullseye requirement. It's a legacy system we are moving away from. Since Bullseye reached EOL there are no regular security updates for it anymore anyway. If using a Debian snapshot makes sense depends on your requirements. If you need reproducible builds or specific package versions, a snapshot could useful. I wouldn't introduce that complexity and would simply remove the obsolete security repository while you migrate away from Bullseye. In that case, for this legacy system, commenting out the bullseye-security repository is a temporary workaround to get the build working again. The long-term solution should still be migrating away from Bullseye to a supported Debian release. ... the bullseye requirement due to PHP-7.3-fpm. It's a legacy system we are moving away from I think the better solution would be to upgrade the application from PHP 7.3 to at latest PHP 8.x. if possible. That would allow you to switch from php:7.3-fpm image and use a current PHP/Debian base image instead of keeping Bullseye around. Regardless of which solution you choose, the security issue remains the same if you don't switch your build.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807327/debian-bullseye-security-inrelease-expired
+
+---
+
+#### 10152. Prior to sponsoring Omarchy with $3M, DigitalOcean cancelled their ~$50/month VM sponsorship of Flathub and GNOME
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbyuxr/prior_to_sponsoring_omarchy_with_3m_digitalocean/
+
+---
+
+#### 10153. Happy Birthday to Dennis Ritchie
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb70zz/happy_birthday_to_dennis_ritchie/
+
+---
+
+#### 10154. They use Linux in The Paper Season 2
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbzf4e/they_use_linux_in_the_paper_season_2/
+
+---
+
+#### 10155. DigitalOcean joins as a Founding Corporate Patron with $3 million
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbl3lr/digitalocean_joins_as_a_founding_corporate_patron/
+
+---
+
+#### 10156. BleachBit issued false DMCA claim
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbm3bp/bleachbit_issued_false_dmca_claim/
+
+---
+
+#### 10157. Nvidia Linux Display Driver 615.71.09
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbnybz/nvidia_linux_display_driver_6157109/
+
+---
+
+#### 10158. Running AMD openSIL + Coreboot On The First Supported Ryzen AM5 Motherboard
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbr5u9/running_amd_opensil_coreboot_on_the_first/
+
+---
+
+#### 10159. FYI, I just discovered, Netflix now officially supports 1080p on major browsers for Linux, finally
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb5m7a/fyi_i_just_discovered_netflix_now_officially/
+
+---
+
+#### 10160. Arch Linux - Searching for bug wranglers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbofly/arch_linux_searching_for_bug_wranglers/
+
+---
+
+#### 10161. PoisonedRefresh: A Fileless Linux Rootkit That Injects PHP Web Shells Into F5 BIG-IP APM Server Memory
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbkuiv/poisonedrefresh_a_fileless_linux_rootkit_that/
+
+---
+
+#### 10162. Linux Kernel Internals
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wbdi6l/linux_kernel_internals/
+
+---
+
+#### 10163. It Starts Upstream: The Kernel
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb4zyc/it_starts_upstream_the_kernel/
+
+---
+
+#### 10164. GNUstep monthly meeting (audio/(video) call) on Saturday, 12th of September 2026 -- Reminder
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wb8myk/gnustep_monthly_meeting_audiovideo_call_on/
+
+---
+
+#### 10165. [OC] [Gentoo] I made (probably another) tool to make Portage configurations a little easier to manage.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wblahe/oc_gentoo_i_made_probably_another_tool_to_make/
+
+---
+
+#### 10166. Give me something to do, yes really.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wapquv/give_me_something_to_do_yes_really/
+
+---
+
+#### 10167. [V2EX] claude20x 留学生代充
+
+**问题描述 / Problem Description**:
+20x 供货，1800 号（留学生代充），2000 提供系统可拆分拼车（没封过，拆多少人都行）；自己有号也行，可以用系统（ 100 一次拆分） shipbox.cloud
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240846#reply0
+
+---
+
+#### 10168. [V2EX] 欢迎大家用顶级模型贡献 pcc
+
+**问题描述 / Problem Description**:
+有了 AI 开始实现了我多年的设想 "write python run native"。 编译器本身用 python 写。同时也支持 c 语言。但一个人顶级模型额度有限, 20x codex 非常容易 2 天就消耗完了(也许是 agents 使用方式与问题)，欢迎感兴趣的贡献 issue + PR https://github.com/allstoalls/pcc 。 目前还有几百个 issue 待解决。 我不确定这项目最后会不会实际有人用，我个人觉得可以在里面实现很多想法。同时也能检验模型能力。 可能比较有点像 https://github.com/carbon-language/carbo
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240836#reply8
+
+---
+
+#### 10169. [V2EX] 随便分享几个大单，显摆一下
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240805#reply11
+
+---
+
+#### 10170. [V2EX] 没有人聊聊掘金签到的最近调整吗？
+
+**问题描述 / Problem Description**:
+《 [社区公告] 签到与矿石奖励解耦说明》 https://juejin.cn/post/7681511201546076194 碎碎念 掘金被字节从阴明手里收了后，产品设计就像一坨*。 此前对掘金有任何建议都能通过邮件与阴明沟通甚至是微信。现在不管啥问题反馈都是没有回应。 回到主题 搞了个矿石抽奖，天天抽出来 bug 你敢信？这产品和程序员是有仇吗？ 现在又来大改了规则： 原先签到赠送矿石，现在不送了，页面也没有明显提示。我上个月断签了十天，买了好多补签卡，签上去发现没有矿石，还以为是网卡了，然后才找到这篇文章； 而且文章中还指出是不定期进行生效，详见 Q1 ，合着就是没把用户当正经人； 不
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240787#reply3
+
+---
+
+#### 10171. [V2EX] 独立开发者一般都是怎么找到真实需求的？
+
+**问题描述 / Problem Description**:
+最近在认真考虑做一些独立开发项目，但发现最大的难点其实不是开发，而是「怎么发现真正有人愿意付费的需求」。 我目前想到的几个渠道： GitHub Issues：从热门项目的 Issue / Discussion 里找反复出现的痛点 V2EX：看程序员、职场、外包、分享创造等节点里的真实需求 Reddit / Hacker News：观察海外开发者在吐槽什么 小红书 / 闲鱼：看非技术用户有什么实际需求 外包平台：从别人愿意直接付钱解决的问题反推需求 最近我还有一个想法： 做一个 GitHub 项目需求分析工具，自动分析热门仓库的 Issues / Discussions ，聚类用户痛点，再从里面
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240763#reply14
+
+---
+
+#### 10172. [V2EX] 怎么实现让 AI 对百万数据进行本地分析？
+
+**问题描述 / Problem Description**:
+目前的需求是，获取服务端数据交给 workbuddy ，让 AI 根据我提供的列名自行编写脚本，过滤、汇总出用户想要的数据。 由于没有参考对象，不知道应该怎么开发，我想的是： 写一个 MCP 获取数据，然后把数据集保存到 jsonl/xslx 等临时文件中，以 resource link 的形式返回给 AI ，并返回列名、字段类型、数据条数等元信息。 AI 得到路径后，自己写脚本开始处理数据，然后返回给用户。 但是我文件写到哪里？如果直接往 userdata 写的话，那垃圾文件只会越来越多，而且也不会随着对话的删除一并删掉。 这种功能一般是怎么实现？只能是服务端分析完，把结果返回给 AI 吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240756#reply16
+
+---
+
+#### 10173. [V2EX] 继上贴， agent 记忆框架记忆条数超过 10000 后出现老年痴呆问题，我想我解决了
+
+**问题描述 / Problem Description**:
+继上贴： https://v2ex.com/t/1235793 目前我的解决方案是： 同时部署以下记忆框架： 1.MemOS 2.metamem 3.openviking 4.hindsight 5.Second Me 6.Text2Mem 7.Letta 8.ReMe 9.memU 10.TencentDB-Agent-Memory 11.mem0 12.cognee 13.Graphiti 14.Supermemory 15.Memori 16.LangMem 17.A-MEM 18.LightMem 19.EverMemOS 20.Acontext 21.Memento 22.Memob
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240746#reply8
+
+---
+
+#### 10174. [V2EX] [开源] Cloudflare WhoAmI Snippet：几十行 JS 快速查询本机 IP / Geo / ASN / TLS
+
+**问题描述 / Problem Description**:
+之前随手写了个 Cloudflare Snippet ，方便看当前请求的 IP 、地理位置、ASN 、Cloudflare 节点、TLS 等信息。本来就是几十行 JS 的小东西，没想着单独开源。 结果陆续有人问源码，估计有人会有类似的需求吧，故开源分享出来，欢迎 star https://github.com/xyTom/cf-whoami-snippet Demo: https://ip.gurl.eu.org/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240736#reply0
+
+---
+
+#### 10175. [V2EX] 求推荐私人中转站的服务器
+
+**问题描述 / Problem Description**:
+目前就一个 20x 的 GPT 账号，想要用 sub2api 在服务器分发给一共四个人用。 有什么合适稳定的服务器推荐嘛？谢谢各位佬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240730#reply1
+
+---
+
+#### 10176. [V2EX] gptpro 邀请，留邮箱啦
+
+**问题描述 / Problem Description**:
+gptpro 邀请，可以邀请 3 个号，1000 额度的~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240716#reply20
+
+---
+
+#### 10177. [V2EX] 一个观察到的现象：大厂人失业后，为啥总要先折腾一圈？
+
+**问题描述 / Problem Description**:
+很多互联网从业者失业之后，第一反应往往不是马上去找一份纯体力型工作，而是先把所有“看起来能翻盘”的方向试一遍。 做产品、搞电商、做自媒体、研究投资、折腾 AI 、写内容…… 兜兜转转一圈之后，有些人才开始接受一件事： 以前在大公司里很值钱的能力，离开平台之后，不一定还能直接换成收入。 会技术，不代表会做生意； 懂互联网，不代表懂流量； 逻辑好，也不代表能做好投资。 更现实的是，很多新赛道最后拼的甚至不是谁更聪明，而是谁现金流更稳、能坚持得更久。 所以我现在越来越觉得： 失业之后真正难的，不是重新找工作，而是重新认识——市场到底愿意为什么能力付钱。 你觉得这种现象普遍吗？ 还是说，只是互联网行业
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240706#reply5
+
+---
+
+#### 10178. [V2EX] 喜欢用个人中转站，那就得受着
+
+**问题描述 / Problem Description**:
+不要只依赖中转站，正规渠道也预先配好准备随时切换。 一分钱一分货。中转站虽便宜，不稳定也是常态，遇到了就受着，换正规渠道。 个人中转站就是不安全的，黑客黑掉中转站，然后给你投个毒，你大概率发现不了，因为你人都不在电脑前。就算你在电脑前，每秒上百 token 刷过去，你也来不及阻止。 就算没有被黑，万一个人中转站运营不下去的话，你猜最后一步会做什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240692#reply2
+
+---
+
+#### 10179. [V2EX] V 友们，谁有 ChatGPT-Pro 5X 代充稳定可靠的渠道，谢谢分享~
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240680#reply5
+
+---
+
+#### 10180. [V2EX] 想用 deepseek 系 LLM 给单词转出一大批各种语言(英，法，德....)的解释，有可能会出现错误的解释吗？ why?
+
+**问题描述 / Problem Description**:
+如有，怎么解决，再用另外一个 LLM 来 check ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240677#reply15
+
+---
+
+#### 10181. [V2EX] iTerm2 3.7.0 可通过 App(iTerm2 Buddy)直接操作会话啦
+
+**问题描述 / Problem Description**:
+试了一下，还挺好玩的，之前 ChatGPT 只能操作 Codex 的工作任务，现在相当于是一个 Mac iTerm2 session 远程管理。 但是目前终端连接的直接操作体验比较差，比较卡顿，相比于通过 Termius 直接远程连接而言。 电脑上装 iTerm2 的同学可以试试。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240675#reply1
+
+---
+
+#### 10182. [V2EX] 我给 Pi Coding Agent 做了一个桌面控制台： Pi-Harness
+
+**问题描述 / Problem Description**:
+当 AI Coding Agent 真正进入项目开发后，一个聊天窗口很快就不够用了。 你需要选择模型，配置 Provider ，查看上下文占用，知道 Agent 调用了哪些工具；你还要在多个 Session 之间切换，浏览文件、检查 Git Diff 、管理 Skills ，必要时处理 Compaction 、Steering 和 Follow-up 。 这些能力并不缺，但它们往往散落在命令行、配置文件和不同工具里。 所以我做了 Pi-Harness ：一个面向 Pi Coding Agent 的开源桌面 Harness 与控制中心。 一句话概括它： Pi 负责运行 Agent ，Pi-Har
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240663#reply0
+
+---
+
+#### 10183. [V2EX] 感觉 gpt6 的回答速度变快了,反倒是 opus 和 fable 处理的越来越慢
+
+**问题描述 / Problem Description**:
+没有系统的测试,不知道是不是错觉
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240660#reply2
+
+---
+
+#### 10184. [V2EX] Agent 时代的独立开发经验分享
+
+**问题描述 / Problem Description**:
+最近经过多个项目的打磨，逐渐形成了一套标准化的 Agent 工作流程，在这里分享下希望能够和大家一起交流: p.s. 文章中的例子主要用我最近做的一个 Agent Multiplexer 工具, repo: https://github.com/yicheng47/runner Tools UI / UX Design: pen.dev https://www.pen.dev/ 需求管理 & Roadmap: Github Issues & Project IDE / Editor: Zed w/ Vim https://zed.dev/ Terminal: Ghostty https://g
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240659#reply17
+
+---
+
+#### 10185. [V2EX] Codex 一天跑完一个 20xpro 的账号，一个电脑登多个账号使用没问题吧？
+
+**问题描述 / Problem Description**:
+我这边被问的最多就是这个问题，有佬们可以解答一下吗？ 据我了解封号是只看你的使用情况，比如你用反代，中转站号池这种才会被封 自己电脑登 3.5 个账号轮流跑自己的项目，我理解是没问题的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240658#reply10
+
+---
+
+#### 10186. [V2EX] 这里为什么感觉没人讨论国产模型。我发现 qwen 和豆包系列模型问题好多，生产直接没法用
+
+**问题描述 / Problem Description**:
+对话类产品。 生产环境过去一直在用豆包，但是豆包 ttft 越来越大已经没法用了，所以想换 qwen 。 而且豆包还有概率出现脱靶问题和工具调用幻觉问题 结果 qwen3.7 plus 输出总是半截就中断，概率非常大没法用。 换成 3.8 max ，先是专属 endpoint 输出内容缺少 role ，这事我就排查了很久。 然后换成 dashscope 域继续用想着没事了，结果发现模型带图时输出质量严重下滑，区分不出注释内容和对话内容的角色概念。 搞得我现在一个没得用。做角色扮演对话还有什么好的选择吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240649#reply52
+
+---
+
+#### 10187. Sharing a headless X11/Wayland server with Android/web via network/USB (USB preferred)
+
+**问题描述 / Problem Description**:
+Tags: linux, x11, android, wayland | Score: -1 | Views: 48 | Answers: 1 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+Take a look at Deskreen and Weylus. It should also be possible to use them over USB/ADB or through a USB network connection. Using a network connection should be better and easier. You could try using Wi-Fi, or get an additional USB/USB-C network adapter for the phone/tablet and connect it via an Ethernet cable. Deskreen Weylus Another option would be to use VNC, but that is more of a remote desktop connection. There are also different versions and software implementations of VNC available for Linux.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807322/sharing-a-headless-x11-wayland-server-with-android-web-via-network-usb-usb-pref
 
 ---

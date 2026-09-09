@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3599**
+**总计条目 / Total entries: 3625**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -52435,5 +52435,317 @@ Michał Majchrowicz and Marcin Wyczechowski discovered that Gzip's gzexe utility
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8733-1
+
+---
+
+#### 3600. CVE-2026-61907 - cyrus-imapd: cyrus-imapd: JMAP snooze bypasses destination-mailbox ACL
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: JMAP snooze bypasses destination-mailbox ACL. Bugzilla: 2526303
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526303
+
+---
+
+#### 3601. CVE-2026-87083 - tilelang: tile-ai tilelang: Remote deserialization vulnerability in Kernel Cache
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tilelang: tile-ai tilelang: Remote deserialization vulnerability in Kernel Cache. Bugzilla: 2530476
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530476
+
+---
+
+#### 3602. CVE-2026-87619 - chromium-browser: chromium-browser: Observable discrepancy in Prefetch
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Observable discrepancy in Prefetch. Bugzilla: 2530379
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530379
+
+---
+
+#### 3603. CVE-2026-87598 - chromium-browser: chromium-browser: Incorrect authorization in ServiceWorker
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in ServiceWorker. Bugzilla: 2530474
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530474
+
+---
+
+#### 3604. CVE-2026-87626 - chromium-browser: chromium-browser: Incorrect authorization in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in DeviceBoundSessionCredentials. Bugzilla: 2530465
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530465
+
+---
+
+#### 3605. CVE-2026-87566 - chromium-browser: chromium-browser: Observable discrepancy in Layout
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Observable discrepancy in Layout. Bugzilla: 2530394
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530394
+
+---
+
+#### 3606. CVE-2026-87468 - chromium-browser: chromium-browser: Incorrect authorization in Isolated
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in Isolated. Bugzilla: 2530429
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530429
+
+---
+
+#### 3607. CVE-2026-87635 - chromium-browser: chromium-browser: UI misrepresentation in Payments
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: UI misrepresentation in Payments. Bugzilla: 2530428
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530428
+
+---
+
+#### 3608. CVE-2026-87616 - chromium-browser: chromium-browser: Improper initialization in Views
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper initialization in Views. Bugzilla: 2530439
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530439
+
+---
+
+#### 3609. CVE-2026-87574 - chromium-browser: chromium-browser: Information leak in ServiceWorker
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Information leak in ServiceWorker. Bugzilla: 2530400
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530400
+
+---
+
+#### 3610. CVE-2026-87452 - chromium-browser: chromium-browser: Incorrect authorization in GPU
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in GPU. Bugzilla: 2530436
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530436
+
+---
+
+#### 3611. CVE-2026-87501 - chromium-browser: chromium-browser: UI misrepresentation in Passwords
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: UI misrepresentation in Passwords. Bugzilla: 2530449
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530449
+
+---
+
+#### 3612. CVE-2026-87475 - chromium-browser: chromium-browser: Missing authorization in Omnibox
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Missing authorization in Omnibox. Bugzilla: 2530448
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530448
+
+---
+
+#### 3613. CVE-2026-87476 - chromium-browser: chromium-browser: Incorrect authorization in Loader
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in Loader. Bugzilla: 2530261
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530261
+
+---
+
+#### 3614. CVE-2026-87497 - chromium-browser: chromium-browser: Uninitialized resource in Codecs
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Uninitialized resource in Codecs. Bugzilla: 2530390
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530390
+
+---
+
+#### 3615. CVE-2026-87645 - chromium-browser: chromium-browser: Improper state validation in Safebrowsing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Improper state validation in Safebrowsing. Bugzilla: 2530318
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530318
+
+---
+
+#### 3616. CVE-2026-87443 - chromium-browser: chromium-browser: Missing authorization in Actor
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Missing authorization in Actor. Bugzilla: 2530446
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530446
+
+---
+
+#### 3617. CVE-2026-87471 - chromium-browser: chromium-browser: Incorrect authorization in ServiceWorker
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in ServiceWorker. Bugzilla: 2530269
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530269
+
+---
+
+#### 3618. CVE-2026-87465 - chromium-browser: chromium-browser: Incorrect authorization in Downloads
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Incorrect authorization in Downloads. Bugzilla: 2530263
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530263
+
+---
+
+#### 3619. CVE-2026-87588 - chromium-browser: chromium-browser: Use after free in Chromecast
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] chromium-browser: chromium-browser: Use after free in Chromecast. Bugzilla: 2530327
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530327
+
+---
+
+#### 3620. [Ubuntu] USN-8716-2: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8716-1 fixed several vulnerabilities in FFmpeg. This update provides the corresponding fix for Ubuntu 26.04 LTS. Original advisory details: It was discovered that FFmpeg incorrectly handled certain crafted media files in the VobSub subtitle demuxer. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-64830) It was discovered that FFmpeg i
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8716-2
+
+---
+
+#### 3621. [Ubuntu] USN-8675-2: Perl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8675-1 fixed vulnerabilities in Perl. This update provides the corresponding fix for Perl on Ubuntu 26.04 LTS. Original advisory details: It was discovered that Perl incorrectly handled short source addresses in the Socket module. An attacker could possibly use this issue to trigger an out-of-bounds heap read, resulting in information disclosure. (CVE-2026-12087) It was discovered that Perl in
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8675-2
+
+---
+
+#### 3622. [Ubuntu] USN-8739-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2026-56366, CVE-2026-56368, CVE-2026-56371, CVE-2026-56373) It was discovered that ImageMagick incorrectly handled certain images. An
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8739-1
+
+---
+
+#### 3623. [Ubuntu] USN-8670-3: curl vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8670-1 fixed a vulnerability in curl. This update provides the corresponding update for Ubuntu 26.04 LTS. Original advisory details: Joshua Rogers discovered that curl incorrectly handled reusing connections when client certificate settings changed. This could result in the wrong client certificates being used, contrary to expectations.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8670-3
+
+---
+
+#### 3624. [Ubuntu] USN-8679-2: Vim vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8679-1 fixed a vulnerability in Vim. This update provides the corresponding update for Ubuntu 26.04 LTS. Original advisory details: It was discovered that Vim incorrectly handled certain tags files. An attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8679-2
+
+---
+
+#### 3625. [Ubuntu] USN-8738-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FFmpeg incorrectly handled certain video frames when using the hqdn3d filter. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-66036) Adrian Junge discovered that FFmpeg incorrectly handled certain compressed video files. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-66038) Adri
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8738-1
 
 ---
