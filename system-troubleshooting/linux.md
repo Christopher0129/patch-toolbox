@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10187**
+**总计条目 / Total entries: 10214**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -140403,5 +140403,356 @@ Take a look at Deskreen and Weylus. It should also be possible to use them over 
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/807322/sharing-a-headless-x11-wayland-server-with-android-web-via-network-usb-usb-pref
+
+---
+
+#### 10188. GNOME 51 Adds Support For Custom Pointer Acceleration Profiles
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wcmhrx/gnome_51_adds_support_for_custom_pointer/
+
+---
+
+#### 10189. Turnip becomes first Mesa driver to pass Vulkan conformance on Android
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wcjfde/turnip_becomes_first_mesa_driver_to_pass_vulkan/
+
+---
+
+#### 10190. Brute forcing my own memory
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wcp798/brute_forcing_my_own_memory/
+
+---
+
+#### 10191. dxvk-igdext Released for Wine/DXVK: lets games use Intel D3D11 Graphics Extensions (UAV overlap, MultiDrawIndirect, depth bounds) under Wine by forwarding them to DXVK's native implementation, instead of the game silently falling back to slower default D3D11
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wcl6nj/dxvkigdext_released_for_winedxvk_lets_games_use/
+
+---
+
+#### 10192. New timeline for keyframes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wco33k/new_timeline_for_keyframes/
+
+---
+
+#### 10193. Universal Linux CUDA SDK installer script
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wcpdo8/universal_linux_cuda_sdk_installer_script/
+
+---
+
+#### 10194. ActOne Screenplay -- Fountain Application for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wc73f2/actone_screenplay_fountain_application_for_linux/
+
+---
+
+#### 10195. [V2EX] 分享下我在闲鱼卖 token 的经历 纯分享 无推广
+
+**问题描述 / Problem Description**:
+我是最早一批买国产 coding plan 的人，最开始好像是送一个月还是很便宜体验来着 ，后来智谱出套餐的时候我就直接买了年包，一开始想找人一起拼车买 pro 或 max ，不过问了身边的人大多没有兴趣，只有一个小弟在我的影响下也经常用，并愿意一起拼，不过当时 pro 感觉至少得 3 个人一起，人不够于是干脆自己一个人买 lite ，太便宜了，当时还有邀请折扣啥的，我记得实付 170 多，我就让小弟也直接买了个 lite 年包。 那个时候模型能力还不是很强，好像还是 4.7 ，只能说勉强能干活，一部分也是因为工作比较简单，大部分都是业务 curd 吧，核心模块自己把把关还是 ok 的。 最开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241174#reply0
+
+---
+
+#### 10196. [V2EX] AI 时代程序员怎么转型
+
+**问题描述 / Problem Description**:
+本人半个程序员吧。 现在，AI 来了，感觉程序员压力很大，近两天，一次 AI 分享会上，被领导点名说，AI 发展太快了，以后就淘汰你们这些程序员了。 就半夜过来吐个槽，看一下有没有水平中等，在现在这个用 AI 就能写出像模像样的代码出来的年代，程序员（水平低的那种），怎么自我提高，怎么转型。跟大拿们取取经。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241173#reply1
+
+---
+
+#### 10197. [V2EX] 非制造焦虑，只是了解一下市场，貌似上海的行情不太好
+
+**问题描述 / Problem Description**:
+朋友今年大礼包了，本科，8 年 java ，无大厂经验。 找了一圈，拿了 2 个 offer ，最后 25k ，降薪了几 k 。 有一个我之前待过的公司，之前 2 年经验的时候就给到了我 21k 左右。现在他 8 年经验，评级比我当年高 2 级，才给了 25k ，明显感觉行情下降了。 印象中几年之前，20-30k ，普遍是中级开发（ 2-5 ）的薪资水平，高级开发（ 5 年+），应该都是 50w 起步的。 本科应届生基本是 10k 出头。 据说现在本科很多都是 5 6k 。 我还是比较震惊的，因为这里可是上海，一线城市的成本如此高，工资竟然这么低。 可能程序员这个行业，确实人山人海了这么多年，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241155#reply0
+
+---
+
+#### 10198. [V2EX] 做了个挖掘潜在市场的网站，监控哪些网站的流量在暴增，定时扫描 google trends 中哪些词的流量在暴增
+
+**问题描述 / Problem Description**:
+做独立开发者几个月了，看了很多同行做的网站，但是手动找的效率太低了，并且找到的网站也没流量，无法验证该方向是否能赚到钱。 每天泡在找网站、找需求、找新词的过程中，逐渐意识到稳定的信息源多么重要。 于是开发了 https://sitehunter.org ，主要包含几个功能： 一、流量增长榜单： 1. 监控各个网站推广平台，全球开发者一发布作品就能及时监控到； 2. 定时获取他们的流量数据，有增长的网站重点关注； 3. 尤其是域名刚注册不久就有较快增长的，马上做一个类似的，复刻他的推广路径，大概率是能和他竞争的。 二、外链提交目录列表： 1. 持续收集高质量的可提交外链的目录站； 2. 有流量
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241154#reply2
+
+---
+
+#### 10199. [V2EX] 疑似 xxx 聘降本增笑最新力作
+
+**问题描述 / Problem Description**:
+如图
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241144#reply11
+
+---
+
+#### 10200. [V2EX] 一直有个疑问，感觉用 cursor 的人很少
+
+**问题描述 / Problem Description**:
+身边人大多都是 codex ，少量 ClaudeCode ，cursor 除了我自己以外我就只知道 1 个人在用，论 v2 上讨论热度，cursor 也是几乎查无此人，好像只有我一个人用的非常爽。 我自己是 60 美刀订阅，公司报销正好覆盖（公司内部主要是 codebuddy ，不爱用的人有 500 块钱报销额度），我给我老婆也搞了个 cursor20 美刀的订阅日常办公用（非程序员）。 我现在用量大概是这样的，opus5 做 plan ，grok4.6 extrahigh 做执行，工作量大概是一天忙到没空摸鱼的程度，先不论 cursor 的 other model 的消耗，就 cursor
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241125#reply18
+
+---
+
+#### 10201. [V2EX] iPhone DUO 给抖音的产品经理出了一个难题
+
+**问题描述 / Problem Description**:
+抖音右侧已经有一排按钮了，这个怎么处理交互比较好呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241118#reply5
+
+---
+
+#### 10202. [V2EX] 做了一个 claude 拼车额度拆分的产品，有没有试用的
+
+**问题描述 / Problem Description**:
+留下联系方式，我来联系你 或者联系 shipbox.cloud ，上面有邮件 如果需求强烈的话可以开源
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241096#reply0
+
+---
+
+#### 10203. [V2EX] 将 windows 电脑音频转移到手机或者蓝牙耳机
+
+**问题描述 / Problem Description**:
+Toneferry：没有音箱？让手机直接成为电脑的音频设备 新装了一台电脑，却发现 还没买音箱、耳机等音频设备 ？ 公司的办公主机没有扬声器，临时又需要播放声音？ 这时候，其实你的手机就可以直接充当电脑的音频输出设备。 Toneferry 是一个轻量级开源工具，可以将 Windows 电脑正在播放的系统声音，通过局域网实时传输到手机浏览器。 GitHub：magicflower2/Toneferry 🎧 使用非常简单 Windows 电脑 ↓ Toneferry ↓ Wi-Fi 手机浏览器 ↓ 手机扬声器 / 蓝牙耳机 电脑不需要安装音箱，也不需要购买额外的音频设备。 手机连接同一个 Wi-F
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241091#reply10
+
+---
+
+#### 10204. [V2EX] SOS 目前 ai 套餐各位 v 友选哪家
+
+**问题描述 / Problem Description**:
+codex 目前 plus 套餐已到期 claude 最近没怎么用，之前使用的是中转站，月消费也有 1k deepseek 日常消耗也不小，最近统计大概月消耗 700 平时根据不同的开发会选择不同智商的模型 所以最近有老大哥推荐比较优惠实在的不？（钱包沉不住了）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241082#reply8
+
+---
+
+#### 10205. [V2EX] 大家上班摸鱼干啥？
+
+**问题描述 / Problem Description**:
+codex 把一两周的工作 1 两个小时就搞完了。 在公司里，也不能光明正大的看电影， 玩游戏 一整天戴个降噪耳机，音乐听吐了，youtube 视频也听吐了，实在不知道干啥了。 大家摸鱼的时候都干啥？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241060#reply10
+
+---
+
+#### 10206. [V2EX] 做电商、做代理记账的公司，真有失败案例吗？
+
+**问题描述 / Problem Description**:
+程序员说行情不好，那是可见的就业机会减少、难度提高 但干电商、干记账的年年都说不好干，年年感觉都在赚钱，削尖了脑袋往里钻 有在这些行业的 V 友能说说现在行情到底是啥样吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241058#reply3
+
+---
+
+#### 10207. [V2EX] 做云成本优化的副业有前途吗？
+
+**问题描述 / Problem Description**:
+之前在某中部城市头部游戏公司担任运维负责人 然后一直对 finops(云财务管理和费用优化)有深入研究 工作期间帮公司累计节省了 3000 万人民币 提炼出了 150 多项费用优化规则 之前经朋友介绍，接了一个云费用优化培训和服务的单子 培训花了半天时间，讲 ppt 都讲了四个小时，嗓子都讲疼了 然后账号诊断又花了半天时间，第二天时间又花了半天赶时间出具了报告 一共收了 5 万元，不过对方也不吃亏，每年节省了 10 万元以上，半年就回本了 不过这种单子不太好接，比较吃关系 好多公司浪费比例在 30%以上 我在想要不要通过自媒体扩大自己的影响力，积累信任，后续接一些咨询的单子，不知道是否可行？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241057#reply1
+
+---
+
+#### 10208. [V2EX] 大吉大利今晚吃鸡，公司开始缩毒圈
+
+**问题描述 / Problem Description**:
+举措 1： 学 anthropic SDLC ，ai-native 、全栈、甚至需求到运维端到端交付 举措 2：计划今年校招 500 人，感觉后面能干掉一大批老员工
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241047#reply13
+
+---
+
+#### 10209. [V2EX] tibo 已经出手了，精准狙击 sub2api
+
+**问题描述 / Problem Description**:
+codex 这两天开始大面积处理账号了 ～～～，各位可以先避避风头 https://github.com/Wei-Shaw/sub2api/issues/6932
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241046#reply3
+
+---
+
+#### 10210. [V2EX] 国内用 codex 的程序员应该早上和晚上上班，白天睡觉
+
+**问题描述 / Problem Description**:
+如果我是一家互联网公司的老板，对于程序员，我会立马推出每天 6 小时工作制，早上 8 点到 11 点，晚上 7 点到 10 点。这么安排指定效率提升一大截。 为什么这样做？用过 codex 的都知道，白天基本干不了什么活，特别是一到下午，立马就龟速，一个下午的时间基本干不了什么活。只有早上和晚上速度才是正常，一个小时能顶一个下午的工作量。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241043#reply5
+
+---
+
+#### 10211. [V2EX] 如何破圈？如何认识其他行业的人？
+
+**问题描述 / Problem Description**:
+AI 无法创造需求，AI 做的只是实现需求，而我们真正需要的是给自己一个需求。 大家是如何去认识其他行业的人？如何了解一个真实的市场？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241040#reply6
+
+---
+
+#### 10212. [V2EX] 平时用的 5 个 openai 中转站全挂了
+
+**问题描述 / Problem Description**:
+v 友们遇到这个情况吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241038#reply16
+
+---
+
+#### 10213. [V2EX] 中国国内法规对聊天软件这种的用户注册有年龄条款吗？比如 momo， weixin， qq 之类的。
+
+**问题描述 / Problem Description**:
+如果有年龄限制的化，怎么判定用户年龄，防止低龄用户注册呢？ 如果低龄用户绕过限制注册了，平台需要担责吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241032#reply2
+
+---
+
+#### 10214. [V2EX] 谁还有有办法找到降智的号? 现在只能天天跑鹈鹕
+
+**问题描述 / Problem Description**:
+![]( https://cdn.jarvans.com/blog/202320260910144213107.png )
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241027#reply1
 
 ---

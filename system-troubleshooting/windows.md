@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10779**
+**总计条目 / Total entries: 10846**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -146048,5 +146048,876 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240693#reply3
+
+---
+
+#### 10780. Download speed progressively falls from 80mbps to 1-3mbps within minutes and stays there permanently
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcwsul/download_speed_progressively_falls_from_80mbps_to/
+
+---
+
+#### 10781. Pc turns on but gives static and black screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcuvo4/pc_turns_on_but_gives_static_and_black_screen/
+
+---
+
+#### 10782. Can’t connect to WiFi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcu6e0/cant_connect_to_wifi/
+
+---
+
+#### 10783. Game briefly shows desktop/taskbar on every click / Space press
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcty8m/game_briefly_shows_desktoptaskbar_on_every_click/
+
+---
+
+#### 10784. Norton 360 WiFi Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcttb2/norton_360_wifi_issues/
+
+---
+
+#### 10785. Gaming Pc randomly shutting down
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcl5ba/gaming_pc_randomly_shutting_down/
+
+---
+
+#### 10786. Outlook calendar (new) or (classic) moving events in bulk, migrating
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcxcix/outlook_calendar_new_or_classic_moving_events_in/
+
+---
+
+#### 10787. Google doesn't work on Signed in edge even though it works on google chrome and edge incognito mode. The issue is only with my edge browser normal tab not incognito mode.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcx6fa/google_doesnt_work_on_signed_in_edge_even_though/
+
+---
+
+#### 10788. NVMe failing SMART with Critical Warning 0x04, but Available Spare is still 100%. Is it dying?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcx1ng/nvme_failing_smart_with_critical_warning_0x04_but/
+
+---
+
+#### 10789. MediaTek MT7925 refusing to authenticate with phone hotspots (Stuck on "Verifying network configuration" / ignoring wrong vs right passwords)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcwzob/mediatek_mt7925_refusing_to_authenticate_with/
+
+---
+
+#### 10790. Tried replacing thermal paste and now pc doesnt start
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcwwe1/tried_replacing_thermal_paste_and_now_pc_doesnt/
+
+---
+
+#### 10791. My Desktop icons vanish after a few seconds of startup and my Pictures and Videos folders are now empty
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcwq14/my_desktop_icons_vanish_after_a_few_seconds_of/
+
+---
+
+#### 10792. I'm getting a weird rainbow flashing line on the left side of my screen but only in games that use specific engines
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcwdew/im_getting_a_weird_rainbow_flashing_line_on_the/
+
+---
+
+#### 10793. I want to scan text and diagrams, and math into computer that at wrote on the elongated sideways style of paper, rather than the up and down paper. More width than height.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcw583/i_want_to_scan_text_and_diagrams_and_math_into/
+
+---
+
+#### 10794. PC Locked in (Windows 11) Recovery Mode Following Network Errors.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcpnyy/pc_locked_in_windows_11_recovery_mode_following/
+
+---
+
+#### 10795. iPhone warm after accidentally engaging with suspicious popup
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcvxxc/iphone_warm_after_accidentally_engaging_with/
+
+---
+
+#### 10796. HP Pavilion x360 won’t open after closing it wrong
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcvssl/hp_pavilion_x360_wont_open_after_closing_it_wrong/
+
+---
+
+#### 10797. Frequent TCP connection failure with my 5G Router H153-381
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcpci9/frequent_tcp_connection_failure_with_my_5g_router/
+
+---
+
+#### 10798. Can someone help me with this dvdstyler/vlc stuff
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcvn57/can_someone_help_me_with_this_dvdstylervlc_stuff/
+
+---
+
+#### 10799. Computer keeps restarting while playing games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcvbwe/computer_keeps_restarting_while_playing_games/
+
+---
+
+#### 10800. Trying Linux
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcovie/trying_linux/
+
+---
+
+#### 10801. TASK MANAGER BIT WORKING
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcv1vu/task_manager_bit_working/
+
+---
+
+#### 10802. ASUS TUF won't turn on, keyboard continuously flashes white when plugged.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcl1j5/asus_tuf_wont_turn_on_keyboard_continuously/
+
+---
+
+#### 10803. Need help to figure out to shut down the light on my F5 Key on my laptop After Windows update
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wcuvtm/need_help_to_figure_out_to_shut_down_the_light_on/
+
+---
+
+#### 10804. File History Drive Not Recognized Anymore
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcwbm3/file_history_drive_not_recognized_anymore/
+
+---
+
+#### 10805. Windows automatic repair system booting upon every startup and failing
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcslxe/windows_automatic_repair_system_booting_upon/
+
+---
+
+#### 10806. is safe to delete files from this folder?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wbrlky/is_safe_to_delete_files_from_this_folder/
+
+---
+
+#### 10807. monitor(s) randomly go black, say "no connection found" then come back by themselves.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcislr/monitors_randomly_go_black_say_no_connection/
+
+---
+
+#### 10808. Windows defender is disabled notification
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc6dfw/windows_defender_is_disabled_notification/
+
+---
+
+#### 10809. Extending Win10LTSC C: on HyperV.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcnh7f/extending_win10ltsc_c_on_hyperv/
+
+---
+
+#### 10810. How do I set a limit on my battery?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcbqx6/how_do_i_set_a_limit_on_my_battery/
+
+---
+
+#### 10811. Windows 11 update made my laptop's main display unusable — how I recovered it
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcbv1u/windows_11_update_made_my_laptops_main_display/
+
+---
+
+#### 10812. Windows 11 25H2, after the latest update, the notification "Virus protection disabled" keeps popping up.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wbs10a/windows_11_25h2_after_the_latest_update_the/
+
+---
+
+#### 10813. WiFi icon disappeared. I tried to restore to an earlier save. Didn't work, so I disabled my wifi driver and rebooted. I'm stuck in this loop now.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wbvsr1/wifi_icon_disappeared_i_tried_to_restore_to_an/
+
+---
+
+#### 10814. [SOLVED] Windows 11 account disappeared from the login screen, 2 registry fixes brought it back
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wcbcwv/solved_windows_11_account_disappeared_from_the/
+
+---
+
+#### 10815. Windows 11 black screen after changing language via PowerShell
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc7pp8/windows_11_black_screen_after_changing_language/
+
+---
+
+#### 10816. Changing default folder icons of Downloads, Documents & Desktop in File Explorer
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc7pcx/changing_default_folder_icons_of_downloads/
+
+---
+
+#### 10817. Sound problems on ASUS ZENBOOK S16
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc6x3l/sound_problems_on_asus_zenbook_s16/
+
+---
+
+#### 10818. "This sign-in option is disabled..."
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc6k8p/this_signin_option_is_disabled/
+
+---
+
+#### 10819. Its been 4 hours, Error code: 0x8007025D
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wbxg5s/its_been_4_hours_error_code_0x8007025d/
+
+---
+
+#### 10820. Constant blue screens after attempted FAT32 repair
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc56yo/constant_blue_screens_after_attempted_fat32_repair/
+
+---
+
+#### 10821. Accidently used the windows media creation on my main drive rather then a usb.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wbzo9q/accidently_used_the_windows_media_creation_on_my/
+
+---
+
+#### 10822. Secure Boot Habilitado na BIOS porém consta no sistema como "Sem suporte"
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc3aop/secure_boot_habilitado_na_bios_porém_consta_no/
+
+---
+
+#### 10823. Windows button responsive but does not show the start popup
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc2zgv/windows_button_responsive_but_does_not_show_the/
+
+---
+
+#### 10824. What should I do considering this happens every start up
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc2fyn/what_should_i_do_considering_this_happens_every/
+
+---
+
+#### 10825. Windows11 cursor disappeared and frozen. How do I get it back?
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc2eby/windows11_cursor_disappeared_and_frozen_how_do_i/
+
+---
+
+#### 10826. Weird behavior on my Windows - I believe it's a virus.
+
+**问题描述 / Problem Description**:
+Reddit r/WindowsHelp discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/WindowsHelp/comments/1wc0xgr/weird_behavior_on_my_windows_i_believe_its_a_virus/
+
+---
+
+#### 10827. [V2EX] 微信 Wayland 环境下分辨率问题
+
+**问题描述 / Problem Description**:
+遇到 wechat 界面比较小的情况，可以使用下面两个环境变量 QT_QPA_PLATFORM=xcb QT_SCALE_FACTOR=1.25 /usr/bin/wechat
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241181#reply0
+
+---
+
+#### 10828. [V2EX] 抖音是如何将两个除了 QQ 之外没有其他联系的人关联到一起的呢？
+
+**问题描述 / Problem Description**:
+我有个认识很多年的网友，仅通过 QQ 联系，两人不在一个省，从没见过面，没有对方手机号，也没有其他联系方式，更没有中间朋友。 今天我的抖音突然推送了他的视频，因为他的昵称比较有标识性，我一眼就认出来了。 我很好奇抖音是怎么做到将两个没有其他关联的人联系到一起的？ 我又回想了一下，半个月前我给他分享过一个淘宝商品链接口令，他打开过这个链接。 难道就是从这里开始关联的吗？ 阿里和抖音也会互通数据？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241167#reply4
+
+---
+
+#### 10829. [V2EX] mac，从云盘下载了几十集电视剧，现在显示这些文件被上传到了 icloud, 但是我的电脑硬盘空间也被占用了，电视剧还得重新从 icloud 上下载，无语了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241164#reply0
+
+---
+
+#### 10830. [V2EX] AI 将会在未来某个时候消灭人类？
+
+**问题描述 / Problem Description**:
+最近从 Anthropic 离职的 Jacob Conxon 发的关于 AI 可能会消灭人类的贴子引起了广泛的讨论。博主提到无论是 openAI 还是 Anthropic 都在研发 recrusive self-development 的路上一路狂飙，并没有太多顾忌 AI 可能失控的风险。AI 真的会失控吗？ AI 怎么杀死人类？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241160#reply0
+
+---
+
+#### 10831. [V2EX] 感觉大模型的同质化越来越严重了
+
+**问题描述 / Problem Description**:
+同样的问题，不同模型的回复套路都特别像
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241142#reply1
+
+---
+
+#### 10832. [V2EX] 人在山东，现在线下电信营业厅，可以直接办 3 元套餐无忧卡吗？
+
+**问题描述 / Problem Description**:
+小红书上搜了下，好像线下也不让办了。 但我离市中心很远，去电信营业厅之前，想先问清楚。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241139#reply1
+
+---
+
+#### 10833. [V2EX] AI 时代，最终的赢家还是大模型企业，其他软件企业护城河归零
+
+**问题描述 / Problem Description**:
+原先各个企业还有各自的护城河，比如企业知识库，企业数据等等。 现在 AI 时代，大模型的训练一方面是爬取互联网数据，另一方面是收集所有用户数据，你在调用每次 api 接口，都是给大模型提供养分；你的 agent 越做越好，大模型吸取的 skill 越多。基本上到最后，问啥大模型都能回答的最好，除非企业你不用 ai （或者私有化部署）。 所以，ai 真的先革了软件工程师的命。。。将来程序员都只能作最简单的搬运工。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241137#reply1
+
+---
+
+#### 10834. [V2EX] 大佬们，花云又挂了么？
+
+**问题描述 / Problem Description**:
+如题，半小时前所有节点都连不上了，官方的 Telegram 群没有任何通知，创建了工单也没回复。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241134#reply3
+
+---
+
+#### 10835. [V2EX] 现在有好用的语音转文字的东西吗？
+
+**问题描述 / Problem Description**:
+需求：能把各种类型的媒体转换成文字，需要能批量处理，最好能 AI 调用 目前一直在用的：阿里云智能语音 优点：中英文识别问题不大 痛点：缺乏按发言人识别功能，所有人说的话堆在一起。 大家有推荐的语音转写吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241133#reply2
+
+---
+
+#### 10836. [V2EX] 各家新手机要发布了，怎样买策略最优
+
+**问题描述 / Problem Description**:
+这个月各家都要出新手机了，都在搞盲订付订金（可退）送礼包之类的活动，线上线下活动也不一样。我想等发布了对比一下再买，但那时候这些礼包就领不到了。是否应该看中几家都付个订金，到时再退，还是说等发布走线下渠道价比较好？ 谢谢各位彦祖。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241131#reply0
+
+---
+
+#### 10837. [V2EX] 各位大佬，我该去印度吗？
+
+**问题描述 / Problem Description**:
+有一个机会，去印度驻场开发。 办公室位于 Noida （诺伊达），是首都新德里附近的一个高科技工业园，做 AI 手机，HR 原话：“上海这边都有公司的 去之前还需要过来总部培训，出国签证等， 熟悉下工作性质 ” 印度的公司叫禾苗企业，做 AI 手机 因为待遇还可以，然后我英语口语还可以，所以他们想要我过去，至少做 1 年，真的很纠结啊，有没有类似经历的大佬？ 主要是年纪大了，33 了，还单身。我妈很反对，但是我爸觉得，如果公司流程是正规的，就应该没问题，现在国内那么难找开发的工作，其实我很纠结，也有点想去见识一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241129#reply11
+
+---
+
+#### 10838. [V2EX] 如何分析这段线程安全的代码？
+
+**问题描述 / Problem Description**:
+最近看了一道面试题（先查缓存，缓存中没有再查数据库），其实很久以前就遇到过，我以为已经掌握了， 但是今天再看，分析起来总觉得有些吃力，有种拿着答案分析过程的感觉，没有真正理解。 根据我的经验，应该在大脑中形成一个足够抽象的结构图，下次遇到这类问题，都可以套用。 想问问 v 友们如何分析这类问题？思维过程是怎样的？会在大脑中构建图像吗？ private final Map<Long, Shop> shopCache = new ConcurrentHashMap<>(); public Shop getShopById(Long shopId) { // 1. 先查本地缓存 Shop shop
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241128#reply6
+
+---
+
+#### 10839. [V2EX] google workspace 买的域名后续怎么操作
+
+**问题描述 / Problem Description**:
+squarespace 怎么登陆，目前只能支持 google 三方登陆 取消 workspace 后，这个域名邮箱账号还能一直登陆吗？ 正确的后续操作姿势是什么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241127#reply0
+
+---
+
+#### 10840. [V2EX] AI 只会淘汰中低级程序员？
+
+**问题描述 / Problem Description**:
+《只要有技术肯定不会被淘汰》这种说法什么时候才会消失呢？ 或者说 AI 真的能让这种说法消失吗？？ 理性讨论，不站任何一边
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241101#reply13
+
+---
+
+#### 10841. [V2EX] 我想自己开 Claude 会员，求推荐信用卡。
+
+**问题描述 / Problem Description**:
+我的情况： 人在国内，已经成年且大学毕业，有工作，有社保。 有护照，但完全没有出过国，也没有去过港澳台。 已经有一张招商银行的 VISA 全币种信用卡。 但在 Anthropic 和 OpenAI 付款的时候，会检测信用卡的发卡地。如果检测到发卡地是国内，就没办法支付。 所以我想办一张能够开通 Claude 会员的信用卡。 不考虑虚拟信用卡，也不考虑无法免年费的信用卡。 求大家能推荐合适的信用卡。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241097#reply4
+
+---
+
+#### 10842. [V2EX] Airpods1 才是让我觉得佩戴舒适性最好的一款耳机
+
+**问题描述 / Problem Description**:
+后面出的这些豌豆射手怎么戴都没有初代的感觉呀🚬
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241085#reply2
+
+---
+
+#### 10843. [V2EX] 怎么共用 codex 账号
+
+**问题描述 / Problem Description**:
+刚开了 codexpro ，没有服务器，一个账号可以通过什么方式两人共用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241081#reply3
+
+---
+
+#### 10844. [V2EX] 现在文生图，生成多张图，哪个模型一致性最好？
+
+**问题描述 / Problem Description**:
+生成多张图里，人物、背景等比较统一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241076#reply1
+
+---
+
+#### 10845. [V2EX] 外版 iPhone Duo 国内使用的 eSIM 方案
+
+**问题描述 / Problem Description**:
+大家看看这样可行不： 目标： 我有一张中国联通卡（实体卡）和一张美国 US Mobile 保号套餐卡（ eSIM ，装在美版 13 Pro 上）希望装到主力机上。这两个号码比较重要，不希望变化。 补充： 我备用机中还有一张中国电信英国公司 CTExcel UK 的卡（实体卡），之前去欧洲时签证中心发的，现在用着回国套餐（ 180 天 50GB 流量）。这个号码无所谓，没用于注册过任何账号。 不确定性： 我的 US Mobile eSIM 可以无缝从 13 Pro 转移到 Duo 上吗？因为据我所知，这个 eSIM 无法在海外激活，如果在新手机上激活失败，旧手机上也被转移走了，我将失去这个号码，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241072#reply2
+
+---
+
+#### 10846. [V2EX] 国庆想去日本旅游，但是这机票是何意味
+
+**问题描述 / Problem Description**:
+看到 东京夜生活-脱衣舞秀初体验 这个帖子，加上最近心情不是很美丽，想在中秋国庆假期去日本转一转。本来想着请三天假 9 月 25 号到 10 月 7 。结果一看： 9.25 号杭州出发到大阪，10.7 东京返程到上海，8K 以上，这票价真是你妈夸了张了吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241049#reply26
 
 ---

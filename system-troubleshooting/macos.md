@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9845**
+**总计条目 / Total entries: 9910**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -132285,5 +132285,851 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240523#reply4
+
+---
+
+#### 9846. What do you think of the refined Liquid Glass look in macOS 27, improvement or still too transparent?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcnhg8/what_do_you_think_of_the_refined_liquid_glass/
+
+---
+
+#### 9847. Keyboard Shortcut of the Day: CMD + ' (Tilde)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcnidy/keyboard_shortcut_of_the_day_cmd_tilde/
+
+---
+
+#### 9848. What to do with old backup drives?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcosaw/what_to_do_with_old_backup_drives/
+
+---
+
+#### 9849. bring back SCREENSAVER - DEFCON - ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcwg67/bring_back_screensaver_defcon/
+
+---
+
+#### 9850. Time Machine Backup
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcltyk/time_machine_backup/
+
+---
+
+#### 9851. Logitech mouse detected by iMac and new Macbook Neo without bluetooth
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcujdf/logitech_mouse_detected_by_imac_and_new_macbook/
+
+---
+
+#### 9852. Is it normal for it to take this long to update?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wci4xc/is_it_normal_for_it_to_take_this_long_to_update/
+
+---
+
+#### 9853. Safari: web push notifications opening new windows
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcuc39/safari_web_push_notifications_opening_new_windows/
+
+---
+
+#### 9854. Too many apps in my menu bar how do you guys manage this?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcnrs6/too_many_apps_in_my_menu_bar_how_do_you_guys/
+
+---
+
+#### 9855. Help with my MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wctgh7/help_with_my_macbook/
+
+---
+
+#### 9856. How to always stay signed into different google apps on Mac without the need to constantly press touch ID to log in?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcrprr/how_to_always_stay_signed_into_different_google/
+
+---
+
+#### 9857. Finder search shows no results even though the folder clearly exists
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcpa4n/finder_search_shows_no_results_even_though_the/
+
+---
+
+#### 9858. What does "The operation couldn’t be completed. (com.apple.accounts error 1.)" mean?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcp45l/what_does_the_operation_couldnt_be_completed/
+
+---
+
+#### 9859. Opinions on Window Management - Using "Fill & Arrange" and "Stage Manager"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcikv1/opinions_on_window_management_using_fill_arrange/
+
+---
+
+#### 9860. Recurring MacBook M3 Pro Kernel Panic (Tahoe 26.5.2)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcn54c/recurring_macbook_m3_pro_kernel_panic_tahoe_2652/
+
+---
+
+#### 9861. "Location/System Time Zone" for the Calendar App
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcmi0d/locationsystem_time_zone_for_the_calendar_app/
+
+---
+
+#### 9862. Mac Storage Mysteriously Filling Up - Possible Causes
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcmhbh/mac_storage_mysteriously_filling_up_possible/
+
+---
+
+#### 9863. ScriptMonitor App/Menu Bar Item? Legit?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wclp8e/scriptmonitor_appmenu_bar_item_legit/
+
+---
+
+#### 9864. Mail: content not loading
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcjneg/mail_content_not_loading/
+
+---
+
+#### 9865. weird visual bug in the latest tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcbqcp/weird_visual_bug_in_the_latest_tahoe/
+
+---
+
+#### 9866. Are pastel tinted icons gone with MacOS 26.6.2?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wchr79/are_pastel_tinted_icons_gone_with_macos_2662/
+
+---
+
+#### 9867. Control-1 tag shortcut not working, Control-2 onward is fine
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcgc3a/control1_tag_shortcut_not_working_control2_onward/
+
+---
+
+#### 9868. Anyone else experiencing poor battery life on 27 RC?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wcvkk9/anyone_else_experiencing_poor_battery_life_on_27/
+
+---
+
+#### 9869. [V2EX] Raycast v2 用户看看你们的内存占用！
+
+**问题描述 / Problem Description**:
+Raycast 后台自动更新了 v2 版本，重启就会升级成功，据说新版内存占用会飙升，吓得我赶紧让 GPT 删除 v2 ，然后屏蔽掉 raycast 的域名...先凑合用。 有没有升级 v2 的让我看看你们的内存占用，看看要不要升级。 目前 v1 的内存占用：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240856#reply19
+
+---
+
+#### 9870. [V2EX] Mac 连接电视如何拥有 Apple TV 一样的丝滑 UI 和体验
+
+**问题描述 / Problem Description**:
+有没有 app 或者项目，可以把 UI 做成 Apple TV 一样的，里面添加 视频 app 、游戏 app ，实现在电视上丝滑体验。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240826#reply3
+
+---
+
+#### 9871. [V2EX] 为什么有道云笔记在 macos 上那么难用 而且很久没有更新一次
+
+**问题描述 / Problem Description**:
+大家有没有使用有道云笔记的，在 macOS 上特别的难用，而且吃内存增加问题，大家有没有使用过，开通了有道云笔记的年度会员，不用吧可惜，用吧电脑上卡顿，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239947#reply12
+
+---
+
+#### 9872. [V2EX] 下单苹果手表 12 代
+
+**问题描述 / Problem Description**:
+手上的 8 代电池寿命还剩 87%，也就是说大概最多 15 小时左右； 换成新的多了 8 小时，对自适应每天充电的人来说，8 小时真的太好了。 这次准备尝试米兰尼斯表带，以前总担心电脑打字的时侯会硌得慌，这次准备亲自试试。 对了，昨天看发布会，有一幕还挺戳我的，就是拼命打鼓但检测出身体状态并不好的时侯，手表会提醒你“差不多得了”，我感觉挺需要这功能，目前架子鼓正在提速中，这个用户场景就正好适配我。 18 号会收到手表，希望发布会上提到的那些功能尽快兑现吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241187#reply1
+
+---
+
+#### 9873. [V2EX] iPhone duo 这个磨砂玻璃真的拉完了
+
+**问题描述 / Problem Description**:
+说实话，还不如有折痕呢。 ipad pro 那个纳米玻璃我就受不了退了换的没有的版本。 这个磨砂玻璃不适合用在任何触摸设备上。 Studio Display 上用勉强能接受。就这我特意买了一张一米深的大桌子，还禁止任何同事戳我屏幕。 因为这玩意就不能有一点点指纹和划痕。 普通的设备，你有指纹或划痕 一亮屏就看不到了。 纳米玻璃正相反是有油污指纹划痕 黑屏看不太出来 亮屏就直接就黑一块特明显。 ipad pro 好歹能选 结果 iphone duo 为了个 b 折痕全系标配。。。。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241184#reply0
+
+---
+
+#### 9874. [V2EX] duo 比较惊艳到的两点
+
+**问题描述 / Problem Description**:
+一个是折痕处理，除了优化折痕本身之外，柔光淡化了视觉存在感 另外就是 ui ，特别是展开合上时有点穿透感觉的动画，太牛了 感觉就像写代码时，后台接口太慢又无法解决，前端就加个更酷的 loading 反正大家都抄来抄去的，期待国内这些厂商的后续
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241159#reply0
+
+---
+
+#### 9875. [V2EX] AirPods5 的一些问题
+
+**问题描述 / Problem Description**:
+请教一下 国航的是否有阉割功能 低版本的系统是否能正常使用，有没有用不了的一些功能（本人是 iPhone15pro ios17.0 ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241109#reply2
+
+---
+
+#### 9876. [V2EX] 买二手 iPhone 哪个平台或者渠道最靠谱
+
+**问题描述 / Problem Description**:
+避涨价潮，求二手 iPhone 靠谱平台，准备入 17 系列
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241099#reply3
+
+---
+
+#### 9877. [V2EX] iPhone Duo 的销量关键就在销量上
+
+**问题描述 / Problem Description**:
+作为不知名开发者，看了一天的 iPhone Duo 视频。 我觉得不太对劲。从一大早“诶，这个过渡不错”，“这个场景设计还挺用心”逐渐开始变成“这种场景真的常见吗”“值得为这种状态适配吗”。 不知道 V2 上大家对于 iPhone Duo 上的 App 究竟要适配到什么程度有什么预期。是单纯的打开当个 Pad 那样使用就能满足了，如果只是收起来当个小 iPhone ，打开当个 Pad 用，适配难度不大，但是你们愿意花这个溢价吗？ 如果觉得开发者应该做到支持什么半折，各种旋转，优雅过度就好像苹果广告里放出来的那样等等等等，那你大概率要失望了。 其实市面上对于相当多的存量 App 来说，适配苹果这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241092#reply9
+
+---
+
+#### 9878. [V2EX] 一万六选 iPhone18PM+ iPad Air 还是 iPhoneDuo
+
+**问题描述 / Problem Description**:
+容量不讨论 256g 这几年够够的 还真的有点犹豫不决了 duo 新形态新鲜感辨识度拉满一机多用 但是摄像头面容可靠性之类的又有点遗憾
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241087#reply11
+
+---
+
+#### 9879. [V2EX] 10 月还有发布会吗？
+
+**问题描述 / Problem Description**:
+等着 m6 的 ipadpro 呢。。 手持 m1 迫不及待了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241083#reply1
+
+---
+
+#### 9880. [V2EX] Duo 真的很不苹果
+
+**问题描述 / Problem Description**:
+仔细数一数，Duo 一台手机上，一个内屏，一个外屏，一个折叠形态下的前置摄像头（非屏下），一个折叠形态下的后置摄像头模组，一个展开形态下的前置摄像头（屏下），侧边还有电源键+action button ，这些“多余”的设计真的非常不苹果，当年苹果可是宁愿砍掉 home 键，愿景是造出一整块玻璃当作屏幕的，但是在 Duo 上却充满了妥协，我知道这是目前的物理学能做到的极限了，但是这样一个极度机械式、拼接式的产品真的非常非常不苹果，充满了平庸，没有以往苹果产品给人的“浑然一体”的感觉，整体看下来松松垮垮的，这些真成了 not only apple can do 了。 唯一让人眼前一亮的就是屏下摄像
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241080#reply39
+
+---
+
+#### 9881. [V2EX] iPhone Duo 其实是 iPad nano
+
+**问题描述 / Problem Description**:
+拿来当手机用太大了，而且 esim 不方便，但是换个视角当便携版 iPad mini 刚刚好。 到时候看看有没有便宜的美版的水货拿来当 iPad 用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241075#reply8
+
+---
+
+#### 9882. [V2EX] Duo 看着真的好难受
+
+**问题描述 / Problem Description**:
+先叠甲从 iPhone4 开始用到现在，中途只用过两年 Pixel ，电脑 iPad 都是十多年前就只用苹果了 就看 Duo 上手视频而言首先外屏比例好奇怪，左边的直角还有摄像头那里看着特别难受，直角和右边的大弧度看着特别违和，然后打开以后不知道是因为拍摄的原因还是什么，内屏的摄像头好明显，一晃一晃的特别别扭，好像就像当时最初代的屏下摄像头一样突兀，位置也在一个奇怪的地方，实在难相信是苹果做出来的东西唉，看了几个上手视频真看的浑身难受 没怎么用过安卓的折叠，基本只在商场里体验过，感觉好像没见过这么奇怪的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241064#reply8
+
+---
+
+#### 9883. [V2EX] 等等党溃败的一年
+
+**问题描述 / Problem Description**:
+今年等等党们太惨了 个人在用一加，喜欢拍照想换个安卓超大杯，结果各家都涨价，去年的老款超大杯一点都不降价，咬牙不换了 老婆在用 iPhone15 数字版，想着苹果发布会后换个 iPhone18 数字版或者降价的 17 数字版，结果 18 没发布 17 还涨价了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241056#reply11
+
+---
+
+#### 9884. [V2EX] 你们的 Mac 有啥吃 CPU 的场景
+
+**问题描述 / Problem Description**:
+经常会看到有人问 CPU 和内存的选择，例如类似 M5+32G vs M5Pro+24G 这种 个人觉得对于大部分人来说 内存>>CPU 吧 我先说自己吧，现在用的 M3Pro+36G 内存的 MBP ，工作中 99%的时间 CPU 利用率都在 25%上下波动，倒是 36G 内存压力一直都是黄色，四五个工程用 idea 和 codex 同时打开，在加上 chrome 开二十个标签，20 多 G 内存就没了。 只有一个比较大的项目仓库有四百多个单测，本地跑单测时会临时吃满 CPU ，算是 1%的场景。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241050#reply0
+
+---
+
+#### 9885. [V2EX] iPhone duo 没有 Face ID 能接受吗
+
+**问题描述 / Problem Description**:
+体验上降级蛮多 参考从 iPad pro 到 iPad mini 。 还有软件适配、esim only 等问题
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241045#reply22
+
+---
+
+#### 9886. [V2EX] iPhone18 系列发布了,我想我的 13promax 应该还可以坚挺吧
+
+**问题描述 / Problem Description**:
+如题,当然不是心里不想买.奈何工作不稳定,工资不稳定,房子孩子都得花钱,还是继续坚挺我的 13promax 吧,只是希望苹果爸爸不要负优化. 目前 iOS27 感觉还不错.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241034#reply3
+
+---
+
+#### 9887. [V2EX] iPhone18e 有望上灵动岛吗 想换这个
+
+**问题描述 / Problem Description**:
+平时不怎么拍照，高刷我也无所谓，只要流畅有个灵动岛让我觉得换新机了就行，该省省该花花
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241000#reply1
+
+---
+
+#### 9888. [V2EX] 安卓厂商是否会跟风使用 Duo 这个命名
+
+**问题描述 / Problem Description**:
+每次苹果发布会结束，大家都会讨论“某个新功能或者新特性会不会抄”，这次不用说，屏幕展开动画、dock 栏状态栏右置估计已经在产品经理的 roadmap 上了。 那问题来了，此前安卓厂商对折叠屏手机的命名大多是 Fold/Flip/Flex 之类的，而这次 Apple 将折叠屏命名为 Duo 。（注意，这命名不算是 Apple 首创，此前 Microsoft 已经出过 Surface Duo ，但它不是现代意义的折叠屏，Surface Duo 展开后仍然是两块分开的屏幕，而不是一整块屏幕。）而对于展开后是一整块屏幕的现代折叠屏手机命名，Duo 似乎确实是第一次。 那么问题来了，安卓厂商，也会开始
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240998#reply25
+
+---
+
+#### 9889. [V2EX] iPhone 18 Pro | Pro Max 的内存是多大
+
+**问题描述 / Problem Description**:
+iPhone 17 Pro | Pro Max 的内存是 12GB
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240981#reply7
+
+---
+
+#### 9890. [V2EX] Mac 无法显示 iPhone 的实时活动
+
+**问题描述 / Problem Description**:
+之前 MacBook 的菜单栏上会显示 iPhone 的实时活动，不知从什么时候开始就不会显示了，但是电脑上的手机镜像和 iPhone 普通通知都能正常运动。折腾了好久还没有没法实现，有类似问题并解决的朋友吗，求指教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240966#reply0
+
+---
+
+#### 9891. [V2EX] 重新定义折叠屏， iPhone Duo，准备冲了！
+
+**问题描述 / Problem Description**:
+准备预定一台 1TB 白色版本的 iPhone Duo ，看视频确实牛逼，打破一下自己不买苹果第一代产品的规则。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240960#reply5
+
+---
+
+#### 9892. [V2EX] ［全球工单］支付宝 play 12.12.16.7000 版本打开“我的”提示“埋点捕获启动成功”
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241179#reply2
+
+---
+
+#### 9893. [V2EX] 大力推荐：日本电影《爆蛋》
+
+**问题描述 / Problem Description**:
+演员演技太强了，大段快速的台词加上独特的表情，再也找不出类似的表演。剧情设计也很厉害，直到电影结束，也没有真正确定事情的真相，但是，毫无疑问这是一部烧脑悬疑电影的必看佳作。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241175#reply0
+
+---
+
+#### 9894. [V2EX] 还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429
+
+**问题描述 / Problem Description**:
+一直给 Deepseek 官方充值。最近活干的没动力了。弄点免费的，凑合着用。测试了一下目前还能薅到的羊毛。 b.ai ，用的是 glm-5.3-flash 和 qwen3.8-flash 。从来不中断，跟蜗牛一样干活。随便一个任务，就得几十分钟。稍微大一点的，干到过两个小时。 商汤用的是 GLM-5.2 和 sensenova-6.8-flash-lite 。速度倒是挺快。就得碰运气，基本上每个任务都得反复 429 好几回。 大家还有别的好用的推荐没？我英文不行，整不明白国外的东西，也没国外手机号、银行卡。要是有靠谱的教程，给哥们儿分享一个链接呗。还有你们说日均 10 块钱的订阅，说的都是啥
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241121#reply4
+
+---
+
+#### 9895. [V2EX] 你亏了几个 iPhone duo 了
+
+**问题描述 / Problem Description**:
+买东西唯唯诺诺 股市重拳出击 我已经亏了一个半了，手机还是好几年前的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241113#reply8
+
+---
+
+#### 9896. [V2EX] 智谱·杭州全城 Coding 计划，至高补贴 51%
+
+**问题描述 / Problem Description**:
+https://docs.bigmodel.cn/cn/coding-plan/hangzhou-rules
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241098#reply2
+
+---
+
+#### 9897. [V2EX] 抖音最近新出了个兴趣卡，感觉还挺有趣的，会是新的机会吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241090#reply0
+
+---
+
+#### 9898. [V2EX] 古韵书阁 古书原文、译文
+
+**问题描述 / Problem Description**:
+https://www.oldbook.space?ref=v2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241070#reply0
+
+---
+
+#### 9899. [V2EX] 智谱 CodingPlan 杭州补贴
+
+**问题描述 / Problem Description**:
+如图，在官网原有包季 7 折/包年 8 折的定价比优惠了 30%，仅限杭州地区社保、杭州地区学生认证领取优惠。 看描述是杭州政府补贴了一部分，不过话说回来杭州的活动，阿里竟然没有第一个参与这个。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241066#reply1
+
+---
+
+#### 9900. [V2EX] 分享一个浏览器里的 AI 视频与 AI 图片创作工具： Tikdek
+
+**问题描述 / Problem Description**:
+Tikdek 是一个在浏览器中使用的 AI 视频与 AI 图片创作平台，支持从文字、图片和参考素材生成或编辑视觉内容，也提供视频 API 和图片 API ，方便把创作流程接入产品或批量任务。 如果你正在寻找一个可以先在线体验、再通过 API 扩展的视觉内容工具，可以看看： https://tikdek.com 它适合制作社交媒体短视频、广告素材、产品视觉和分镜草稿。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241059#reply0
+
+---
+
+#### 9901. [V2EX] 最近自驾游，让 ChatGPT Work 给规划行程，还挺好用的
+
+**问题描述 / Problem Description**:
+给他接了高德地图和美团酒旅的 MCP ，所有操作都在它云端完成，你别说还挺好用的，本来就有选择困难症，现在让 AI 给我挑，省心多了。 高德地图 MCP ，官方直接提供 mcp server ，接上就行： https://lbs.amap.com/api/mcp-server/summary 美团酒旅只提供 skill ，让 ChatGPT 给转成 mcp 部署到一台服务上，然后再给 ChatGPT 接上： https://developer.meituan.com/ai-hub/skill-list/detail/12 看看大家还有什么有用差旅的 MCP ，Skills ，分享一下
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241054#reply4
+
+---
+
+#### 9902. [V2EX] 60 块的小米遥控器竟然是 VibeCoding 神器
+
+**问题描述 / Problem Description**:
+小米蓝牙遥控器 2 Pro 原价 99 ，但在某鱼上 60 块就能拿下 语音输入软件：豆包输入法 配合无线麦软件： https://github.com/HD838A/remote-mic-app 使用实操： https://www.bilibili.com/video/BV1FFYp6jEFf
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241051#reply2
+
+---
+
+#### 9903. [V2EX] Awesome GPT Image 2.5 · 玩法画廊
+从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引
+
+**问题描述 / Problem Description**:
+Awesome GPT Image 2.5 · 玩法画廊 从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引 https://xianyu110.github.io/awesome-gpt-image2.5/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241044#reply0
+
+---
+
+#### 9904. [V2EX] 用豆包进入工作任务模式，生成的源码包含了一个 dixx_sucker04.glb 文件！
+
+**问题描述 / Problem Description**:
+看看下面源码目录输出包含了一个 dixx_sucker04.glb , GLB 是 3D 模型二进制格式（ glTF ）, 我的这个小需求和 3D 建模完全没有任何关系(消息推送相关)。我尝试用 blender 打开这个建模文件，报错了。 ➜ source ls config.py consumer.py db.py dixx_sucker04.glb main.py __pycache__/ pyproject.toml README.md retry_job.py tests/ tools.py uv.lock wx_push.py ➜ source file dixx_sucker04.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241042#reply0
+
+---
+
+#### 9905. [V2EX] 聊聊我对 AI 和这波裁员的的理解
+
+**问题描述 / Problem Description**:
+先说结论，AI 是老板裁员的借口。 AI 只是工具，按理说工具进化，是不会和人产生直接竞争关系的。如果原本的业务就能赚钱，配合 AI 工具提升效率，那应该会出现员工与公司双赢的局面。 为什么还会出现这么多裁员现象呢？ 底层原因是老板想赚更多钱。怎么赚？围绕 AI 来做新业务。那老业务怎么办： 1.老业务能赚钱，但老业务没达到老板预期，老板想节省时间精力、金钱成本，掉转船头，将原成本用来探索新业务 2.老业务本来就不赚钱，之前是存着一丝念想慢慢发展，靠投资人或自己的钱养着员工。这时候就直接砍掉，重新开始 所以这波裁员不是技术的问题，不是程序员的问题，而是业务的问题，是 AI 时代旧业务和新业务浪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241031#reply4
+
+---
+
+#### 9906. [V2EX] workbuddy 上面 dsflash4.1 限时优惠。一天还送 100 积分，感觉够干一天的了 。速度的真快啊。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241015#reply0
+
+---
+
+#### 9907. [V2EX] 因为 esim，我预测 iPhone Duo 个把月会破发很多。
+
+**问题描述 / Problem Description**:
+1. 国内 esim 发展了这么久没有进展 2. 限制确实多，小的运营商网点还没权限 3. 国内流行的家庭卡，副卡还必须户主去办理。限制太大。 总结： 拦路虎太大只。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241009#reply26
+
+---
+
+#### 9908. [V2EX] 前端趋向 React，系统趋向 Rust，脚本趋向 Python ，甚至连页面本身都趋向 Next.js，完全无视适配性。
+
+**问题描述 / Problem Description**:
+现在，AI 可以重写代码，让迁移变得容易。于是，管理层纷纷建议向主流技术栈迁移。 Cognition 公司的营销网站，从 Astro 迁移到了 Next.js ； Bun 从 Zig 迁移到 Rust 。 没有反复的论证、数年的考察，也许只是公司内部的一场会议，就会导致放弃当前技术栈，改用更流行的技术栈。 根本没人会为当前使用的堆栈辩护，大家争前恐后拥抱最佳实践。 他（ SolidJS 的创始人莱恩·卡尼亚托）的结论就是："这样下去，除了少数例外，每一层最终都会变为当下最流行的解决方案。前端趋向 React ，系统趋向 Rust ，脚本趋向 Python ，甚至连页面本身都趋向 Next.js
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240890#reply17
+
+---
+
+#### 9909. [V2EX] 达芬奇更新了 21.1.1，现在 GPT 也能直接控制达芬奇粗剪辑和调色了
+
+**问题描述 / Problem Description**:
+昨天刚看到，试了一下，粗剪没问题，调色的话 MCP 开放接口里面调色只有部分功能开放了，总体来说调色目前功能补全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240888#reply2
+
+---
+
+#### 9910. [V2EX] 9 月份网易云音乐黑胶会员领取，天数随机
+
+**问题描述 / Problem Description**:
+1http:/$QbIBna3128082b$ [復淛整段文案并咑閞「网易云音乐」，领免费会员] 黑胶邀请官 贱***叔 送你网易云音乐 9 月黑胶会员卡，领取享 20+会员权益。 https://163cn.tv/bfYN2EBV 日常分享，欢迎领取
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240754#reply2
 
 ---

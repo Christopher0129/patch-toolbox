@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3345**
+**总计条目 / Total entries: 3429**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -60242,5 +60242,1418 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8738-1
+
+---
+
+#### 3346. CVE-2026-61915 - cyrus-imapd: cyrus-imapd: VPATCH BYPARAM double-free in CalDAV
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: VPATCH BYPARAM double-free in CalDAV. Bugzilla: 2526315
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526315
+
+---
+
+#### 3347. CVE-2026-61911 - cyrus-imapd: cyrus-imapd: Sieve fileinto mailbox existence oracle
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: Sieve fileinto mailbox existence oracle. Bugzilla: 2526313
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526313
+
+---
+
+#### 3348. CVE-2026-61910 - cyrus-imapd: cyrus-imapd: Mailbox/set let sharee change special-use role on shared…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: Mailbox/set let sharee change special-use role on shared mailboxes. Bugzilla: 2526311
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526311
+
+---
+
+#### 3349. CVE-2026-61909 - cyrus-imapd: cyrus-imapd: CalDAV/CardDAV multiget bypasses per-href ACL
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: CalDAV/CardDAV multiget bypasses per-href ACL. Bugzilla: 2526308
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526308
+
+---
+
+#### 3350. CVE-2026-61908 - cyrus-imapd: cyrus-imapd: JMAP email-header blob ID out-of-bounds index
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] cyrus-imapd: cyrus-imapd: JMAP email-header blob ID out-of-bounds index. Bugzilla: 2526304
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2526304
+
+---
+
+#### 3351. CVE-2026-88763 - skupper-router: skupper-router: Unbounded recursion in AMQP field parser leads to…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] skupper-router: skupper-router: Unbounded recursion in AMQP field parser leads to denial of service. Bugzilla: 2531301
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531301
+
+---
+
+#### 3352. CVE-2026-57822 - artemis-core-client: activemq-artemis: Unsafe deserialization via JsonUtil…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] artemis-core-client: activemq-artemis: Unsafe deserialization via JsonUtil CompositeData on management address. Bugzilla: 2495823
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2495823
+
+---
+
+#### 3353. CVE-2026-49363 - artemis-server: artemis-server: Pre-auth topology disclosure via CORE…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] artemis-server: artemis-server: Pre-auth topology disclosure via CORE SUBSCRIBE_TOPOLOGY_V2 on channel0. Bugzilla: 2492627
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2492627
+
+---
+
+#### 3354. CVE-2026-57967 - artemis-server: Apache Artemis — session hijack via missing authentication
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] artemis-server: Apache Artemis — session hijack via missing authentication. Bugzilla: 2480638
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2480638
+
+---
+
+#### 3355. CVE-2026-49364 - wildfly-messaging-activemq-subsystem: artemis-server: jgroups: artemis cluster…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wildfly-messaging-activemq-subsystem: artemis-server: jgroups: artemis cluster password leak via jgroups spoof. Bugzilla: 2478013
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2478013
+
+---
+
+#### 3356. CVE-2026-49362 - artemis-server: undertow-core: wildfly-messaging-activemq-subsystem: artemis core…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] artemis-server: undertow-core: wildfly-messaging-activemq-subsystem: artemis core protocol permits unauthed queue creation. Bugzilla: 2477945
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2477945
+
+---
+
+#### 3357. CVE-2026-67593 - artemis-openwire-protocol: AMQ Broker Artemis: pre-authentication arbitrary…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] artemis-openwire-protocol: AMQ Broker Artemis: pre-authentication arbitrary durable queue deletion via OpenWire RemoveSubscriptionInfo. Bugzilla: 2510277
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2510277
+
+---
+
+#### 3358. CVE-2026-84042 - crun: crun: rootful krun with passt executes container payload as host root
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] crun: crun: rootful krun with passt executes container payload as host root. Bugzilla: 2531222
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531222
+
+---
+
+#### 3359. CVE-2026-88264 - crun: crun: /dev/console symlink follow allows root-owned file creation outside…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] crun: crun: /dev/console symlink follow allows root-owned file creation outside the rootfs. Bugzilla: 2531223
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531223
+
+---
+
+#### 3360. CVE-2026-19816 - packagekit: PackageKit: PackageKit dnf5 ignores SIMULATE on RepoRemove
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] packagekit: PackageKit: PackageKit dnf5 ignores SIMULATE on RepoRemove. Bugzilla: 2515940
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2515940
+
+---
+
+#### 3361. CVE-2026-88770 - keycloak-services: keycloak-services: Device Authorization Grant issues tokens to…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] keycloak-services: keycloak-services: Device Authorization Grant issues tokens to brute-force-locked accounts. Bugzilla: 2531302
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531302
+
+---
+
+#### 3362. CVE-2026-87877 - com.github.luben/zstd-jni: zstd-jni: Use-After-Free vulnerability allows memory…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.github.luben/zstd-jni: zstd-jni: Use-After-Free vulnerability allows memory corruption and denial of service. Bugzilla: 2531003
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531003
+
+---
+
+#### 3363. CVE-2026-87824 - com.github.luben/zstd-jni: zstd-jni: Denial of Service (DoS) via out-of-bounds…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.github.luben/zstd-jni: zstd-jni: Denial of Service (DoS) via out-of-bounds read in Zstd.trainFromBufferDirect. Bugzilla: 2530998
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2530998
+
+---
+
+#### 3364. CVE-2026-87825 - com.github.luben/zstd-jni: zstd-jni: Data corruption or denial of service via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.github.luben/zstd-jni: zstd-jni: Data corruption or denial of service via use-after-free vulnerability. Bugzilla: 2531007
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531007
+
+---
+
+#### 3365. CVE-2026-87823 - com.github.luben/zstd-jni: zstd-jni: Denial of Service or Information Disclosure…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.github.luben/zstd-jni: zstd-jni: Denial of Service or Information Disclosure via out-of-bounds read. Bugzilla: 2531004
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531004
+
+---
+
+#### 3366. [Ubuntu] USN-8747-1: Beets vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Beets incorrectly escaped untrusted media metadata in its web interface. An attacker could possibly use this issue to inject arbitrary HTML or execute arbitrary JavaScript code in a user's browser.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8747-1
+
+---
+
+#### 3367. [Ubuntu] USN-8746-1: libEBML vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libEBML incorrectly handled certain read and write operations. An attacker could possibly use this issue to cause a buffer overflow, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8746-1
+
+---
+
+#### 3368. [Ubuntu] USN-8745-1: KissFFT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that KissFFT incorrectly handled certain large Fourier transform sizes on 32-bit architectures. An attacker could possibly use this issue to cause KissFFT to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2025-34297) It was discovered that KissFFT incorrectly handled certain multidimensional Fourier transform sizes. An attacker could possibly use this is
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8745-1
+
+---
+
+#### 3369. [Ubuntu] USN-8748-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Hardware crypto device drivers; - NVIDIA Tegra memory controller driver; - Network drivers; - GFS2 file system; - OCFS2 file system; - SMB network file system; - B.A.T.M.A.N. meshing protocol; - Ceph Core library; - IP
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8748-1
+
+---
+
+#### 3370. [Ubuntu] USN-8744-1: Python vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Python's http.cookies module incorrectly handled control characters in certain cookie operations. An attacker could possibly use this issue to inject arbitrary content. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-3644) It was discovered that the Python pyexpat module was vul
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8744-1
+
+---
+
+#### 3371. [Ubuntu] USN-8743-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PHP incorrectly handled backslash escaping in the PostgreSQL extension. An attacker could use this issue to perform SQL injection attacks. (CVE-2026-17543) It was discovered that PHP incorrectly handled certain inputs to the bccomp() function. An attacker could use this issue to cause an out-of- bounds write, resulting in a denial of service or possibly execute arbitrary cod
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8743-1
+
+---
+
+#### 3372. [Ubuntu] USN-8737-2: GNU C Library vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8737-1 fixed vulnerabilities in GNU C Library. This update provides the corresponding fixes for Ubuntu 24.04 LTS. Original advisory details: It was discovered that GNU C Library had a buffer overflow in the strfmon function when handling right-justification padding. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8737-2
+
+---
+
+#### 3373. [Ubuntu] USN-8742-1: Netty vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Netty incorrectly validates the bailiwick of NS records. An attacker could possibly use this issue to facilitate DNS cache poisoning attacks.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8742-1
+
+---
+
+#### 3374. [Ubuntu] USN-8741-1: Flatpak vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Flatpak did not properly validate paths in sandbox-expose options. A malicious or compromised Flatpak app could use app-controlled symlinks to access arbitrary host files and gain code execution in the host context. This issue was addressed in Ubuntu Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-34078) It was discovered that Flatpak did not properly vali
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8741-1
+
+---
+
+#### 3375. [Ubuntu] USN-8740-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Weeraphat Srisutham discovered that the .NET watch BrowserRefreshServer did not properly validate cross-origin WebSocket connections. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-58649) Rajesh Chada discovered that the .NET watch AspireServerService improperly exposed information through the use of certain arguments. An attacker could possibly use this issue
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8740-1
+
+---
+
+#### 3376. [SUSE] SUSE-SU-2026:3910-1: important: Security update for python-sqlparse
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for python-sqlparse Announcement ID: SUSE-SU-2026:3910-1 Release Date: 2026-09-01T10:04:38Z Rating: important References: * bsc#1275459 * bsc#1275460 * bsc#1275461 * bsc#1275466 Cross-References: * CVE-2026-54284 * CVE-2026-59893 * CVE-2026-59894 * CVE-2026-71491 CVSS scores: * CVE-2026-54284 ( SUSE ): 8.7 CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/I
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3377. [SUSE] SUSE-SU-2026:3908-1: moderate: Security update for busybox
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for busybox Announcement ID: SUSE-SU-2026:3908-1 Release Date: 2026-09-01T09:43:09Z Rating: moderate References: * bsc#1217586 * bsc#1271544 * bsc#1271545 * bsc#1271547 * bsc#1271548 Cross-References: * CVE-2023-42366 * CVE-2026-38752 * CVE-2026-38753 * CVE-2026-38754 * CVE-2026-38755 CVSS scores: * CVE-2023-42366 ( SUSE ): 5.5 CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H * CVE-2
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3378. [SUSE] SUSE-SU-2026:3905-1: critical: Security update for libapr-util1
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for libapr-util1 Announcement ID: SUSE-SU-2026:3905-1 Release Date: 2026-09-01T08:36:08Z Rating: critical References: * bsc#1274235 * bsc#1274237 * bsc#1274850 * bsc#1274854 Cross-References: * CVE-2025-49506 * CVE-2026-32327 * CVE-2026-34191 * CVE-2026-34502 CVSS scores: * CVE-2025-49506 ( SUSE ): 7.5 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N * CVE-2025-49506 ( NVD ): 7.5 CVS
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3379. [SUSE] SUSE-SU-2026:23390-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel (Live Patch 18 for SUSE Linux Enterprise Micro 6.0) Announcement ID: SUSE-SU-2026:23390-1 Release Date: 2026-08-31T15:30:50Z Rating: important References: * bsc#1262213 * bsc#1262404 * bsc#1263791 * bsc#1264483 * bsc#1265306 * bsc#1267362 * bsc#1268281 * bsc#1268624 * bsc#1269034 * bsc#1269196 * bsc#1269282 * bsc#1269822 * bsc#1269885 * bsc#1270023 * bsc#1270
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3380. [SUSE] SUSE-SU-2026:23382-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 27 for SUSE Linux Enterprise Micro 6.0) Announcement ID: SUSE-SU-2026:23382-1 Release Date: 2026-08-31T15:30:50Z Rating: important References: * bsc#1270023 * bsc#1270024 * bsc#1271543 * bsc#1271867 Cross-References: * CVE-2026-53224 * CVE-2026-53246 * CVE-2026-64530 * CVE-2026-64600 CVSS scores: * CVE-2026-53224 ( SUSE ): 7.3 CVSS:4.0/AV:L/AC:
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3381. [SUSE] SUSE-SU-2026:23381-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: SUSE Linux Enterprise
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 26 for SUSE Linux Enterprise Micro 6.0) Announcement ID: SUSE-SU-2026:23381-1 Release Date: 2026-08-31T15:30:50Z Rating: important References: * bsc#1270023 * bsc#1270024 * bsc#1270300 * bsc#1271370 * bsc#1271543 * bsc#1271867 * bsc#1272139 Cross-References: * CVE-2026-46242 * CVE-2026-52956 * CVE-2026-53224 * CVE-2026-53246 * CVE-2026-53366 *
+
+**补丁信息 / Patch Info**:
+Apply SUSE security patch via zypper or YaST Online Update.
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-September.txt
+
+---
+
+#### 3382. CVE-2020-8023
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: suse:enterprise_storage, suse:linux_enterprise_point_of_sale, opensuse:leap, opensuse:openldap2, suse:openstack_cloud
+
+**漏洞描述 / Description**:
+A acceptance of Extraneous Untrusted Data With Trusted Data vulnerability in the start script of openldap2 of SUSE Enterprise Storage 5, SUSE Linux Enterprise Debuginfo 11-SP3, SUSE Linux Enterprise Debuginfo 11-SP4, SUSE Linux Enterprise Point of Sale 11-SP3, SUSE Linux Enterprise Server 11-SECURITY, SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Linux Enterprise Server 12-SP2-BCL, SUSE Linux Enterprise Server 12-SP2-LTSS, SUSE Linux Enterprise Server 12-SP3-BCL, SUSE Linux Enterprise Server 12-SP3-LTSS, SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server 12-SP5, SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 12-SP2, SUSE Linux Enterprise Server for SAP 12-SP3, SUSE Linux Enterprise Server for SAP 15, SUSE OpenStack Cloud 7, SUSE OpenStack Cloud 8, SUSE OpenStack Cloud Crowbar 8; openSUSE Leap 15.1, openSUSE Leap 15.2 allows local attackers to escalate privileges from user ldap to root. This issue affects: SUSE Enterprise Storage 5 openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Debuginfo 11-SP3 openldap2 versions prior to 2.4.26-0.74.13.1,. SUSE Linux Enterprise Debuginfo 11-SP4 openldap2 versions prior to 2.4.26-0.74.13.1,. SUSE Linux Enterprise Point of Sale 11-SP3 openldap2 versions prior to 2.4.26-0.74.13.1,. SUSE Linux Enterprise Server 11-SECURITY openldap2-client-openssl1 versions prior to 2.4.26-0.74.13.1. SUSE Linux Enterprise Server 11-SP4-LTSS openldap2 versions prior to 2.4.26-0.74.13.1,. SUSE Linux Enterprise Server 12-SP2-BCL openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 12-SP2-LTSS openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 12-SP3-BCL openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 12-SP3-LTSS openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 12-SP4 openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 12-SP5 openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server 15-LTSS openldap2 versions prior to 2.4.46-9.31.1. SUSE Linux Enterprise Server for SAP 12-SP2 openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server for SAP 12-SP3 openldap2 versions prior to 2.4.41-18.71.2. SUSE Linux Enterprise Server for SAP 15 openldap2 versions prior to 2.4.46-9.31.1. SUSE OpenStack Cloud 7 openldap2 versions prior to 2.4.41-18.71.2. SUSE OpenStack Cloud 8 openldap2 versions prior to 2.4.41-18.71.2. SUSE OpenStack Cloud Crowbar 8 openldap2 versions prior to 2.4.41-18.71.2. openSUSE Leap 15.1 openldap2 versions prior to 2.4.46-lp151.10.12.1. openSUSE Leap 15.2 openldap2 versions prior to 2.4.46-lp152.14.3.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1172698.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1172698
+- https://bugzilla.suse.com/show_bug.cgi?id=1172698
+
+---
+
+#### 3383. CVE-2020-8028
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.3
+**受影响产品 / Affected Products**: suse:salt-netapi-client, suse:manager_server
+
+**漏洞描述 / Description**:
+A Improper Access Control vulnerability in the configuration of salt of SUSE Linux Enterprise Module for SUSE Manager Server 4.1, SUSE Manager Proxy 4.0, SUSE Manager Retail Branch Server 4.0, SUSE Manager Server 3.2, SUSE Manager Server 4.0 allows local users to escalate to root on every system managed by SUSE manager. On the managing node itself code can be executed as user salt, potentially allowing for escalation to root there. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.1 google-gson versions prior to 2.8.5-3.4.3, httpcomponents-client-4.5.6-3.4.2, httpcomponents-. SUSE Manager Proxy 4.0 release-notes-susemanager-proxy versions prior to 4.0.9-0.16.38.1. SUSE Manager Retail Branch Server 4.0 release-notes-susemanager-proxy versions prior to 4.0.9-0.16.38.1. SUSE Manager Server 3.2 salt-netapi-client versions prior to 0.16.0-4.14.1, spacewalk-. SUSE Manager Server 4.0 release-notes-susemanager versions prior to 4.0.9-3.54.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1175884.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1175884
+- https://bugzilla.suse.com/show_bug.cgi?id=1175884
+
+---
+
+#### 3384. CVE-2020-8027
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: opensuse:openldap2, suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A Insecure Temporary File vulnerability in openldap2 of SUSE Linux Enterprise Server 15-LTSS, SUSE Linux Enterprise Server for SAP 15; openSUSE Leap 15.1, openSUSE Leap 15.2 allows local attackers to overwrite arbitrary files and gain access to the openldap2 configuration This issue affects: SUSE Linux Enterprise Server 15-LTSS openldap2 versions prior to 2.4.46-9.37.1. SUSE Linux Enterprise Server for SAP 15 openldap2 versions prior to 2.4.46-9.37.1. openSUSE Leap 15.1 openldap2 versions prior to 2.4.46-lp151.10.18.1. openSUSE Leap 15.2 openldap2 versions prior to 2.4.46-lp152.14.9.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1175568.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1175568
+- https://bugzilla.suse.com/show_bug.cgi?id=1175568
+
+---
+
+#### 3385. CVE-2020-8029
+
+**严重程度 / Severity**: LOW | CVSS: 2.9
+**受影响产品 / Affected Products**: suse:caas_platform
+
+**漏洞描述 / Description**:
+A Incorrect Permission Assignment for Critical Resource vulnerability in skuba of SUSE CaaS Platform 4.5 allows local attackers to gain access to the kublet key. This issue affects: SUSE CaaS Platform 4.5 skuba versions prior to https://github.com/SUSE/skuba/pull/1416.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1177362.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1177362
+- https://bugzilla.suse.com/show_bug.cgi?id=1177362
+
+---
+
+#### 3386. CVE-2020-8030
+
+**严重程度 / Severity**: LOW | CVSS: 3.6
+**受影响产品 / Affected Products**: suse:caas_platform
+
+**漏洞描述 / Description**:
+A Insecure Temporary File vulnerability in skuba of SUSE CaaS Platform 4.5 allows local attackers to leak the bootstrapToken or modify the configuration file before it is processed, leading to arbitrary modifications of the machine/cluster.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1177361.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1177361
+- https://bugzilla.suse.com/show_bug.cgi?id=1177361
+
+---
+
+#### 3387. CVE-2021-25315
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: saltstack:salt, opensuse:tumbleweed, suse:suse_linux_enterprise_server
+
+**漏洞描述 / Description**:
+CWE - CWE-287: Improper Authentication vulnerability in SUSE Linux Enterprise Server 15 SP 3; openSUSE Tumbleweed allows local attackers to execute arbitrary code via salt without the need to specify valid credentials. This issue affects: SUSE Linux Enterprise Server 15 SP 3 salt versions prior to 3002.2-3. openSUSE Tumbleweed salt version 3002.2-2.1 and prior versions. This issue affects: SUSE Linux Enterprise Server 15 SP 3 salt versions prior to 3002.2-3. openSUSE Tumbleweed salt version 3002.2-2.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1182382.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1182382
+- https://bugzilla.suse.com/show_bug.cgi?id=1182382
+
+---
+
+#### 3388. CVE-2021-25313
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Rancher allows remote attackers to execute JavaScript via malicious links. This issue affects: SUSE Rancher Rancher versions prior to 2.5.6.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1181852.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1181852
+- https://github.com/rancher/rancher/issues/31583
+- https://github.com/rancher/rancher/releases/tag/v2.5.6
+- https://bugzilla.suse.com/show_bug.cgi?id=1181852
+- https://github.com/rancher/rancher/issues/31583
+
+---
+
+#### 3389. CVE-2021-25316
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, suse:s390-tools
+
+**漏洞描述 / Description**:
+A Insecure Temporary File vulnerability in s390-tools of SUSE Linux Enterprise Server 12-SP5, SUSE Linux Enterprise Server 15-SP2 allows local attackers to prevent VM live migrations This issue affects: SUSE Linux Enterprise Server 12-SP5 s390-tools versions prior to 2.1.0-18.29.1. SUSE Linux Enterprise Server 15-SP2 s390-tools versions prior to 2.11.0-9.20.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1182777.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1182777
+- https://bugzilla.suse.com/show_bug.cgi?id=1182777
+
+---
+
+#### 3390. CVE-2021-25314
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: suse:linux_enterprise_high_availability_extension, suse:hawk2
+
+**漏洞描述 / Description**:
+A Creation of Temporary File With Insecure Permissions vulnerability in hawk2 of SUSE Linux Enterprise High Availability 12-SP3, SUSE Linux Enterprise High Availability 12-SP5, SUSE Linux Enterprise High Availability 15-SP2 allows local attackers to escalate to root. This issue affects: SUSE Linux Enterprise High Availability 12-SP3 hawk2 versions prior to 2.6.3+git.1614685906.812c31e9. SUSE Linux Enterprise High Availability 12-SP5 hawk2 versions prior to 2.6.3+git.1614685906.812c31e9. SUSE Linux Enterprise High Availability 15-SP2 hawk2 versions prior to 2.6.3+git.1614684118.af555ad9.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1182166.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1182166
+- https://bugzilla.suse.com/show_bug.cgi?id=1182166
+
+---
+
+#### 3391. CVE-2021-25317
+
+**严重程度 / Severity**: LOW | CVSS: 3.3
+**受影响产品 / Affected Products**: suse:cups, opensuse:factory, fedoraproject:fedora, suse:linux_enterprise_server, suse:manager_server
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the packaging of cups of SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Manager Server 4.0, SUSE OpenStack Cloud Crowbar 9; openSUSE Leap 15.2, Factory allows local attackers with control of the lp users to create files as root with 0644 permissions without the ability to set the content. This issue affects: SUSE Linux Enterprise Server 11-SP4-LTSS cups versions prior to 1.3.9. SUSE Manager Server 4.0 cups versions prior to 2.2.7. SUSE OpenStack Cloud Crowbar 9 cups versions prior to 1.7.5. openSUSE Leap 15.2 cups versions prior to 2.2.7. openSUSE Factory cups version 2.3.3op2-2.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1184161.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1184161
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GWPGZLT3U776Q5YPPSA6LGFWWBDWBVH3/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H74BP746O5NNVCBUTLLZYAFBPESFVECV/
+- https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/S37IDQGHTORQ3Z6VRDQIGBYVOI27YG47/
+- https://bugzilla.suse.com/show_bug.cgi?id=1184161
+
+---
+
+#### 3392. CVE-2021-31998
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.8
+**受影响产品 / Affected Products**: opensuse:backports_sle, opensuse:inn, suse:linux_enterprise_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in the packaging of inn of SUSE Linux Enterprise Server 11-SP3; openSUSE Backports SLE-15-SP2, openSUSE Leap 15.2 allows local attackers to escalate their privileges from the news user to root. This issue affects: SUSE Linux Enterprise Server 11-SP3 inn version inn-2.4.2-170.21.3.1 and prior versions. openSUSE Backports SLE-15-SP2 inn versions prior to 2.6.2. openSUSE Leap 15.2 inn versions prior to 2.6.2.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1182321.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1182321
+- https://bugzilla.suse.com/show_bug.cgi?id=1182321
+
+---
+
+#### 3393. CVE-2019-18906
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+**受影响产品 / Affected Products**: opensuse:cryptctl, suse:linux_enterprise_server, suse:manager_server
+
+**漏洞描述 / Description**:
+A Improper Authentication vulnerability in cryptctl of SUSE Linux Enterprise Server for SAP 12-SP5, SUSE Manager Server 4.0 allows attackers with access to the hashed password to use it without having to crack it. This issue affects: SUSE Linux Enterprise Server for SAP 12-SP5 cryptctl versions prior to 2.4. SUSE Manager Server 4.0 cryptctl versions prior to 2.4.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1186226.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1186226
+- https://bugzilla.suse.com/show_bug.cgi?id=1186226
+
+---
+
+#### 3394. CVE-2021-25321
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: opensuse:factory, suse:linux_enterprise_server, suse:arpwatch, suse:manager_server, opensuse:leap
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in arpwatch of SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Manager Server 4.0, SUSE OpenStack Cloud Crowbar 9; openSUSE Factory, Leap 15.2 allows local attackers with control of the runtime user to run arpwatch as to escalate to root upon the next restart of arpwatch. This issue affects: SUSE Linux Enterprise Server 11-SP4-LTSS arpwatch versions prior to 2.1a15. SUSE Manager Server 4.0 arpwatch versions prior to 2.1a15. SUSE OpenStack Cloud Crowbar 9 arpwatch versions prior to 2.1a15. openSUSE Factory arpwatch version 2.1a15-169.5 and prior versions. openSUSE Leap 15.2 arpwatch version 2.1a15-lp152.5.5 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1186240.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1186240
+- https://bugzilla.suse.com/show_bug.cgi?id=1186240
+
+---
+
+#### 3395. CVE-2021-32000
+
+**严重程度 / Severity**: LOW | CVSS: 3.2
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, suse:opensuse_factory
+
+**漏洞描述 / Description**:
+A UNIX Symbolic Link (Symlink) Following vulnerability in the clone-master-clean-up.sh script of clone-master-clean-up in SUSE Linux Enterprise Server 12 SP3, SUSE Linux Enterprise Server 15 SP1; openSUSE Factory allows local attackers to delete arbitrary files. This issue affects: SUSE Linux Enterprise Server 12 SP3 clone-master-clean-up version 1.6-4.6.1 and prior versions. SUSE Linux Enterprise Server 15 SP1 clone-master-clean-up version 1.6-3.9.1 and prior versions. openSUSE Factory clone-master-clean-up version 1.6-1.4 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1181050.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1181050
+- https://bugzilla.suse.com/show_bug.cgi?id=1181050
+
+---
+
+#### 3396. CVE-2021-32001
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.5
+**受影响产品 / Affected Products**: suse:rancher_k3s, suse:rancher_rke2
+
+**漏洞描述 / Description**:
+K3s in SUSE Rancher allows any user with direct access to the datastore, or a copy of a datastore backup, to extract the cluster's confidential keying material (cluster certificate authority private keys, secrets encryption configuration passphrase, etc.) and decrypt it, without having to know the token value. This issue affects: SUSE Rancher K3s version v1.19.12+k3s1, v1.20.8+k3s1, v1.21.2+k3s1 and prior versions; RKE2 version v1.19.12+rke2r1, v1.20.8+rke2r1, v1.21.2+rke2r1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1188453.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1188453
+- https://bugzilla.suse.com/show_bug.cgi?id=1188453
+
+---
+
+#### 3397. CVE-2021-36779
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.6
+**受影响产品 / Affected Products**: linuxfoundation:longhorn
+
+**漏洞描述 / Description**:
+A Missing Authentication for Critical Function vulnerability in SUSE Longhorn allows any workload in the cluster to execute any binary present in the image on the host without authentication. This issue affects: SUSE Longhorn longhorn versions prior to 1.1.3; longhorn versions prior to 1.2.3.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1191818.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1191818
+- https://github.com/longhorn/longhorn/security/advisories/GHSA-g358-m2wp-mhhx
+- https://bugzilla.suse.com/show_bug.cgi?id=1191818
+- https://github.com/longhorn/longhorn/security/advisories/GHSA-g358-m2wp-mhhx
+
+---
+
+#### 3398. CVE-2021-36780
+
+**严重程度 / Severity**: HIGH | CVSS: 8.1
+**受影响产品 / Affected Products**: linuxfoundation:longhorn
+
+**漏洞描述 / Description**:
+A Missing Authentication for Critical Function vulnerability in longhorn of SUSE Longhorn allows attackers to connect to a longhorn-engine replica instance granting it the ability to read and write data to and from a replica that they should not have access to. This issue affects: SUSE Longhorn longhorn versions prior to 1.1.3; longhorn versions prior to 1.2.3v.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1191819.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1191819
+- https://github.com/longhorn/longhorn/security/advisories/GHSA-g358-m2wp-mhhx
+- https://bugzilla.suse.com/show_bug.cgi?id=1191819
+- https://github.com/longhorn/longhorn/security/advisories/GHSA-g358-m2wp-mhhx
+
+---
+
+#### 3399. CVE-2021-46705
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.1
+**受影响产品 / Affected Products**: gnu:grub2, opensuse:factory, suse:linux_enterprise_server
+
+**漏洞描述 / Description**:
+A Insecure Temporary File vulnerability in grub-once of grub2 in SUSE Linux Enterprise Server 15 SP4, openSUSE Factory allows local attackers to truncate arbitrary files. This issue affects: SUSE Linux Enterprise Server 15 SP4 grub2 versions prior to 2.06-150400.7.1. SUSE openSUSE Factory grub2 versions prior to 2.06-18.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1190474.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1190474
+- https://bugzilla.suse.com/show_bug.cgi?id=1190474
+
+---
+
+#### 3400. CVE-2022-21947
+
+**严重程度 / Severity**: HIGH | CVSS: 8.3
+**受影响产品 / Affected Products**: suse:rancher_desktop
+
+**漏洞描述 / Description**:
+A Exposure of Resource to Wrong Sphere vulnerability in Rancher Desktop of SUSE allows attackers in the local network to connect to the Dashboard API (steve) to carry out arbitrary actions. This issue affects: SUSE Rancher Desktop versions prior to V.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1197491.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1197491
+- https://bugzilla.suse.com/show_bug.cgi?id=1197491
+
+---
+
+#### 3401. CVE-2021-36775
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: rancher:rancher
+
+**漏洞描述 / Description**:
+a Improper Access Control vulnerability in SUSE Rancher allows users to keep privileges that should have been revoked. This issue affects: SUSE Rancher Rancher versions prior to 2.4.18; Rancher versions prior to 2.5.12; Rancher versions prior to 2.6.3.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1189120.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1189120
+- https://bugzilla.suse.com/show_bug.cgi?id=1189120
+
+---
+
+#### 3402. CVE-2021-36776
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: rancher:rancher
+
+**漏洞描述 / Description**:
+A Improper Access Control vulnerability in SUSE Rancher allows remote attackers impersonate arbitrary users. This issue affects: SUSE Rancher Rancher versions prior to 2.5.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1189413.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1189413
+- https://bugzilla.suse.com/show_bug.cgi?id=1189413
+
+---
+
+#### 3403. CVE-2021-36778
+
+**严重程度 / Severity**: HIGH | CVSS: 7.3
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Incorrect Authorization vulnerability in SUSE Rancher allows administrators of third-party repositories to gather credentials that are sent to their servers. This issue affects: SUSE Rancher Rancher versions prior to 2.5.12; Rancher versions prior to 2.6.3.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1191466.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1191466
+- https://bugzilla.suse.com/show_bug.cgi?id=1191466
+
+---
+
+#### 3404. CVE-2021-36784
+
+**严重程度 / Severity**: HIGH | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Improper Privilege Management vulnerability in SUSE Rancher allows users with the restricted-admin role to escalate to full admin. This issue affects: SUSE Rancher Rancher versions prior to 2.5.13; Rancher versions prior to 2.6.4.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1193991.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1193991
+- https://bugzilla.suse.com/show_bug.cgi?id=1193991
+
+---
+
+#### 3405. CVE-2021-4200
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.4
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Improper Privilege Management vulnerability in SUSE Rancher allows write access to the Catalog for any user when restricted-admin role is enabled. This issue affects: SUSE Rancher Rancher versions prior to 2.5.13; Rancher versions prior to 2.6.4.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1193992.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1193992
+- https://bugzilla.suse.com/show_bug.cgi?id=1193992
+
+---
+
+#### 3406. CVE-2022-21949
+
+**严重程度 / Severity**: HIGH | CVSS: 8.8
+**受影响产品 / Affected Products**: opensuse:open_build_service
+
+**漏洞描述 / Description**:
+A Improper Restriction of XML External Entity Reference vulnerability in SUSE Open Build Service allows remote attackers to reference external entities in certain operations. This can be used to gain information from the server that can be abused to escalate to Admin privileges on OBS. This issue affects: SUSE Open Build Service Open Build Service versions prior to 2.10.13.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1197928.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1197928
+- https://bugzilla.suse.com/show_bug.cgi?id=1197928
+
+---
+
+#### 3407. CVE-2022-21951
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.8
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Cleartext Transmission of Sensitive Information vulnerability in SUSE Rancher, Rancher allows attackers on the network to read and change network data due to missing encryption of data transmitted via the network when a cluster is created from an RKE template with the CNI value overridden This issue affects: SUSE Rancher Rancher versions prior to 2.5.14; Rancher versions prior to 2.6.5.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1199443.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1199443
+- https://github.com/rancher/rancher/security/advisories/GHSA-vrph-m5jj-c46c
+- https://bugzilla.suse.com/show_bug.cgi?id=1199443
+- https://github.com/rancher/rancher/security/advisories/GHSA-vrph-m5jj-c46c
+
+---
+
+#### 3408. CVE-2022-21952
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:manager_server
+
+**漏洞描述 / Description**:
+A Missing Authentication for Critical Function vulnerability in spacewalk-java of SUSE Manager Server 4.1, SUSE Manager Server 4.2 allows remote attackers to easily exhaust available disk resources leading to DoS. This issue affects: SUSE Manager Server 4.1 spacewalk-java versions prior to 4.1.46. SUSE Manager Server 4.2 spacewalk-java versions prior to 4.2.37.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1199512.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1199512
+- https://bugzilla.suse.com/show_bug.cgi?id=1199512
+
+---
+
+#### 3409. CVE-2022-31248
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.3
+**受影响产品 / Affected Products**: suse:manager_server
+
+**漏洞描述 / Description**:
+A Observable Response Discrepancy vulnerability in spacewalk-java of SUSE Manager Server 4.1, SUSE Manager Server 4.2 allows remote attackers to discover valid usernames. This issue affects: SUSE Manager Server 4.1 spacewalk-java versions prior to 4.1.46-1. SUSE Manager Server 4.2 spacewalk-java versions prior to 4.2.37-1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1199629.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1199629
+- https://bugzilla.suse.com/show_bug.cgi?id=1199629
+
+---
+
+#### 3410. CVE-2021-36782
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.9
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Cleartext Storage of Sensitive Information vulnerability in SUSE Rancher allows authenticated Cluster Owners, Cluster Members, Project Owners, Project Members and User Base to use the Kubernetes API to retrieve plaintext version of sensitive data. This issue affects: SUSE Rancher Rancher versions prior to 2.5.16; Rancher versions prior to 2.6.7.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1193988.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1193988
+- https://github.com/rancher/rancher/security/advisories/GHSA-g7j7-h4q8-8w2f
+- https://bugzilla.suse.com/show_bug.cgi?id=1193988
+- https://github.com/rancher/rancher/security/advisories/GHSA-g7j7-h4q8-8w2f
+
+---
+
+#### 3411. CVE-2021-36783
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.9
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Insufficiently Protected Credentials vulnerability in SUSE Rancher allows authenticated Cluster Owners, Cluster Members, Project Owners and Project Members to read credentials, passwords and API tokens that have been stored in cleartext and exposed via API endpoints. This issue affects: SUSE Rancher Rancher versions prior to 2.6.4; Rancher versions prior to 2.5.13.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1193990.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1193990
+- https://github.com/rancher/rancher/security/advisories/GHSA-8w87-58w6-hfv8
+- https://bugzilla.suse.com/show_bug.cgi?id=1193990
+- https://github.com/rancher/rancher/security/advisories/GHSA-8w87-58w6-hfv8
+
+---
+
+#### 3412. CVE-2022-31247
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+An Improper Authorization vulnerability in SUSE Rancher, allows any user who has permissions to create/edit cluster role template bindings or project role template bindings (such as cluster-owner, manage cluster members, project-owner and manage project members) to gain owner permission in another project in the same cluster or in another project on a different downstream cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.6.7; Rancher versions prior to 2.5.16.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1199730.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1199730
+- https://github.com/rancher/rancher/security/advisories/GHSA-6x34-89p7-95wg
+- https://bugzilla.suse.com/show_bug.cgi?id=1199730
+- https://github.com/rancher/rancher/security/advisories/GHSA-6x34-89p7-95wg
+
+---
+
+#### 3413. CVE-2022-31252
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:leap_micro, opensuse:leap
+
+**漏洞描述 / Description**:
+A Incorrect Authorization vulnerability in chkstat of SUSE Linux Enterprise Server 12-SP5; openSUSE Leap 15.3, openSUSE Leap 15.4, openSUSE Leap Micro 5.2 did not consider group writable path components, allowing local attackers with access to a group what can write to a location included in the path to a privileged binary to influence path resolution. This issue affects: SUSE Linux Enterprise Server 12-SP5 permissions versions prior to 20170707. openSUSE Leap 15.3 permissions versions prior to 20200127. openSUSE Leap 15.4 permissions versions prior to 20201225. openSUSE Leap Micro 5.2 permissions versions prior to 20181225.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1203018.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1203018
+- https://bugzilla.suse.com/show_bug.cgi?id=1203018
+
+---
+
+#### 3414. CVE-2022-40895
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.1
+**受影响产品 / Affected Products**: nedi:nedi
+
+**漏洞描述 / Description**:
+In certain Nedi products, a vulnerability in the web UI of NeDi login & Community login could allow an unauthenticated, remote attacker to affect the integrity of a device via a User Enumeration vulnerability. The vulnerability is due to insecure design, where a difference in forgot password utility could allow an attacker to determine if the user is valid or not, enabling a brute force attack with valid users. This affects NeDi 1.0.7 for OS X 1.0.7 <= and NeDi for Suse 1.0.7 <= and NeDi for FreeBSD 1.0.7 <=.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor http://forum.nedi.ch/index.php.
+
+**参考链接 / References**:
+- http://forum.nedi.ch/index.php
+- https://gist.github.com/UditChavda/2f2effa477a429b485ae7e2dc3bbd04f
+- https://www.nedi.ch/
+- http://forum.nedi.ch/index.php
+- https://gist.github.com/UditChavda/2f2effa477a429b485ae7e2dc3bbd04f
+
+---
+
+#### 3415. CVE-2022-31256
+
+**严重程度 / Severity**: HIGH | CVSS: 7.7
+**受影响产品 / Affected Products**: opensuse:factory
+
+**漏洞描述 / Description**:
+A Improper Link Resolution Before File Access ('Link Following') vulnerability in a script called by the sendmail systemd service of openSUSE Factory allows local attackers to escalate from user mail to root. This issue affects: SUSE openSUSE Factory sendmail versions prior to 8.17.1-1.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1204696.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1204696
+- https://bugzilla.suse.com/show_bug.cgi?id=1204696
+
+---
+
+#### 3416. CVE-2022-31255
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+**受影响产品 / Affected Products**: uyuni-project:uyuni, suse:manager_server
+
+**漏洞描述 / Description**:
+An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to read files available to the user running the process, typically tomcat. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1204543.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1204543
+- https://bugzilla.suse.com/show_bug.cgi?id=1204543
+
+---
+
+#### 3417. CVE-2022-43753
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.3
+**受影响产品 / Affected Products**: uyuni-project:uyuni, suse:manager_server
+
+**漏洞描述 / Description**:
+A Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to read files available to the user running the process, typically tomcat. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1204716.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1204716
+- https://bugzilla.suse.com/show_bug.cgi?id=1204716
+
+---
+
+#### 3418. CVE-2022-43754
+
+**严重程度 / Severity**: LOW | CVSS: 2.6
+**受影响产品 / Affected Products**: uyuni-project:uyuni, suse:manager_server
+
+**漏洞描述 / Description**:
+An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to embed Javascript code via /rhn/audit/scap/Search.do This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1204741.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1204741
+- https://bugzilla.suse.com/show_bug.cgi?id=1204741
+
+---
+
+#### 3419. CVE-2022-31254
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:rmt-server, opensuse:leap, suse:manager_server
+
+**漏洞描述 / Description**:
+A Incorrect Default Permissions vulnerability in rmt-server-regsharing service of SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Server for SAP 15-SP1, SUSE Manager Server 4.1; openSUSE Leap 15.3, openSUSE Leap 15.4 allows local attackers with access to the _rmt user to escalate to root. This issue affects: SUSE Linux Enterprise Server for SAP 15 rmt-server versions prior to 2.10. SUSE Linux Enterprise Server for SAP 15-SP1 rmt-server versions prior to 2.10. SUSE Manager Server 4.1 rmt-server versions prior to 2.10. openSUSE Leap 15.3 rmt-server versions prior to 2.10. openSUSE Leap 15.4 rmt-server versions prior to 2.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1204285.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1204285
+- https://bugzilla.suse.com/show_bug.cgi?id=1204285
+
+---
+
+#### 3420. CVE-2023-22643
+
+**严重程度 / Severity**: MEDIUM | CVSS: 6.3
+**受影响产品 / Affected Products**: suse:suse_linux_enterprise_server, opensuse:libzypp-plugin-appdata, opensuse:leap
+
+**漏洞描述 / Description**:
+An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in libzypp-plugin-appdata of SUSE Linux Enterprise Server for SAP 15-SP3; openSUSE Leap 15.4 allows attackers that can trick users to use specially crafted REPO_ALIAS, REPO_TYPE or REPO_METADATA_PATH settings to execute code as root. This issue affects: SUSE Linux Enterprise Server for SAP 15-SP3 libzypp-plugin-appdata versions prior to 1.0.1+git.20180426. openSUSE Leap 15.4 libzypp-plugin-appdata versions prior to 1.0.1+git.20180426.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1206836.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1206836
+- https://bugzilla.suse.com/show_bug.cgi?id=1206836
+
+---
+
+#### 3421. CVE-2022-21953
+
+**严重程度 / Severity**: HIGH | CVSS: 7.4
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Missing Authorization vulnerability in of SUSE Rancher allows authenticated user to create an unauthorized shell pod and kubectl access in the local cluster This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1199731.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1199731
+- https://bugzilla.suse.com/show_bug.cgi?id=1199731
+
+---
+
+#### 3422. CVE-2022-31249
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+**受影响产品 / Affected Products**: suse:wrangler
+
+**漏洞描述 / Description**:
+A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in wrangler of SUSE Rancher allows remote attackers to inject commands in the underlying host via crafted commands passed to Wrangler. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1200299.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1200299
+- https://bugzilla.suse.com/show_bug.cgi?id=1200299
+
+---
+
+#### 3423. CVE-2022-43755
+
+**严重程度 / Severity**: HIGH | CVSS: 7.1
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Insufficient Entropy vulnerability in SUSE Rancher allows attackers that gained knowledge of the cattle-token to continue abusing this even after the token was renewed. This issue affects: SUSE Rancher Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205297.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205297
+- https://bugzilla.suse.com/show_bug.cgi?id=1205297
+
+---
+
+#### 3424. CVE-2022-43756
+
+**严重程度 / Severity**: MEDIUM | CVSS: 5.9
+**受影响产品 / Affected Products**: suse:wrangler
+
+**漏洞描述 / Description**:
+A Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') vulnerability in SUSE Rancher allows remote attackers to cause denial of service by supplying specially crafted git credentials. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205296.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205296
+- https://bugzilla.suse.com/show_bug.cgi?id=1205296
+
+---
+
+#### 3425. CVE-2022-43757
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.9
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Cleartext Storage of Sensitive Information vulnerability in SUSE Rancher allows users on managed clusters to gain access to credentials. The impact depends on the credentials exposed This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205295.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205295
+- https://bugzilla.suse.com/show_bug.cgi?id=1205295
+
+---
+
+#### 3426. CVE-2022-43758
+
+**严重程度 / Severity**: HIGH | CVSS: 7.6
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in SUSE Rancher allows code execution for user with the ability to add an untrusted Helm catalog or modifying the URL configuration used to download KDM (only admin users by default) This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205294.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205294
+- https://bugzilla.suse.com/show_bug.cgi?id=1205294
+
+---
+
+#### 3427. CVE-2022-43759
+
+**严重程度 / Severity**: HIGH | CVSS: 7.2
+**受影响产品 / Affected Products**: suse:rancher
+
+**漏洞描述 / Description**:
+A Improper Privilege Management vulnerability in SUSE Rancher, allows users with access to the escalate verb on PRTBs to escalate permissions for any -promoted resource in any cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205293.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205293
+- https://bugzilla.suse.com/show_bug.cgi?id=1205293
+
+---
+
+#### 3428. CVE-2022-45153
+
+**严重程度 / Severity**: HIGH | CVSS: 7.0
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, suse:linux_enterprise_module_for_sap_applications, opensuse:leap
+
+**漏洞描述 / Description**:
+An Incorrect Default Permissions vulnerability in saphanabootstrap-formula of SUSE Linux Enterprise Module for SAP Applications 15-SP1, SUSE Linux Enterprise Server for SAP 12-SP5; openSUSE Leap 15.4 allows local attackers to escalate to root by manipulating the sudo configuration that is created. This issue affects: SUSE Linux Enterprise Module for SAP Applications 15-SP1 saphanabootstrap-formula versions prior to 0.13.1+git.1667812208.4db963e. SUSE Linux Enterprise Server for SAP 12-SP5 saphanabootstrap-formula versions prior to 0.13.1+git.1667812208.4db963e. openSUSE Leap 15.4 saphanabootstrap-formula versions prior to 0.13.1+git.1667812208.4db963e.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1205990.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1205990
+- https://bugzilla.suse.com/show_bug.cgi?id=1205990
+
+---
+
+#### 3429. CVE-2022-45154
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.4
+**受影响产品 / Affected Products**: suse:linux_enterprise_server, opensuse:supportutils
+
+**漏洞描述 / Description**:
+A Cleartext Storage of Sensitive Information vulnerability in suppportutils of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15, SUSE Linux Enterprise Server 15 SP3 allows attackers that get access to the support logs to gain knowledge of the stored credentials This issue affects: SUSE Linux Enterprise Server 12 supportutils version 3.0.10-95.51.1CWE-312: Cleartext Storage of Sensitive Information and prior versions. SUSE Linux Enterprise Server 15 supportutils version 3.1.21-150000.5.44.1 and prior versions. SUSE Linux Enterprise Server 15 SP3 supportutils version 3.1.21-150300.7.35.15.1 and prior versions.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=1207598.
+
+**参考链接 / References**:
+- https://bugzilla.suse.com/show_bug.cgi?id=1207598
+- https://bugzilla.suse.com/show_bug.cgi?id=1207598
 
 ---
