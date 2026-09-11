@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3429**
+**总计条目 / Total entries: 3444**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -61655,5 +61655,245 @@ Apply patch from vendor. Monitor https://bugzilla.suse.com/show_bug.cgi?id=12075
 **参考链接 / References**:
 - https://bugzilla.suse.com/show_bug.cgi?id=1207598
 - https://bugzilla.suse.com/show_bug.cgi?id=1207598
+
+---
+
+#### 3430. CVE-2026-89011 - isomorphic-git: isomorphic-git: Information disclosure via prototype pollution in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] isomorphic-git: isomorphic-git: Information disclosure via prototype pollution in getRemoteInfo function.. Bugzilla: 2531620
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531620
+
+---
+
+#### 3431. CVE-2026-88059 - Angular: Angular: Information Leak via HttpTransferCache Bypass
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Angular: Angular: Information Leak via HttpTransferCache Bypass. Bugzilla: 2531610
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531610
+
+---
+
+#### 3432. CVE-2026-88029 - pymongo: MongoDB Python Driver: Data disclosure and denial of service via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pymongo: MongoDB Python Driver: Data disclosure and denial of service via query-operator injection. Bugzilla: 2531586
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531586
+
+---
+
+#### 3433. CVE-2026-88024 - rust-mongodb: MongoDB Rust Driver (GridFS): Data disclosure and deletion via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] rust-mongodb: MongoDB Rust Driver (GridFS): Data disclosure and deletion via query-operator injection in file IDs.. Bugzilla: 2531580
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531580
+
+---
+
+#### 3434. CVE-2026-88050 - tesseract: Tesseract: Out-of-bounds write leads to Denial of Service
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: Tesseract: Out-of-bounds write leads to Denial of Service. Bugzilla: 2531551
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531551
+
+---
+
+#### 3435. CVE-2026-88049 - tesseract: Tesseract: Heap out-of-bounds write allows arbitrary code execution or…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: Tesseract: Heap out-of-bounds write allows arbitrary code execution or denial of service. Bugzilla: 2531554
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531554
+
+---
+
+#### 3436. CVE-2026-88048 - tesseract: Tesseract: Heap out-of-bounds write/read leading to information…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: Tesseract: Heap out-of-bounds write/read leading to information disclosure via crafted data. Bugzilla: 2531546
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531546
+
+---
+
+#### 3437. CVE-2026-88047 - tesseract: Tesseract: Stack buffer overflow via crafted .traineddata file
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: Tesseract: Stack buffer overflow via crafted .traineddata file. Bugzilla: 2531550
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531550
+
+---
+
+#### 3438. CVE-2026-88015 - golang: net/http: github.com/rclone/rclone: rclone: Denial of Service via crafted…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] golang: net/http: github.com/rclone/rclone: rclone: Denial of Service via crafted Range request against translated symlink. Bugzilla: 2531541
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531541
+
+---
+
+#### 3439. CVE-2026-88914 - gstreamer1-plugins-good: gstreamer: integer overflow and out-of-bounds read in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] gstreamer1-plugins-good: gstreamer: integer overflow and out-of-bounds read in qtdemux CEA-608 closed-caption parser. Bugzilla: 2531416
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531416
+
+---
+
+#### 3440. CVE-2026-88884 - renovate: mend-renovate-ce: mend-renovate-enterprise-edition: Renovate: Security…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] renovate: mend-renovate-ce: mend-renovate-enterprise-edition: Renovate: Security control bypass via digest updates. Bugzilla: 2531432
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531432
+
+---
+
+#### 3441. CVE-2026-84828 - pcs: pcs: non-root haclient users can read arbitrary files via pcs host auth…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pcs: pcs: non-root haclient users can read arbitrary files via pcs host auth --token. Bugzilla: 2527320
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2527320
+
+---
+
+#### 3442. CVE-2026-88859 - evolution: evolution: javascript execution via spoofed vCard control bypasses mail…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] evolution: evolution: javascript execution via spoofed vCard control bypasses mail script-markup restriction. Bugzilla: 2531401
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531401
+
+---
+
+#### 3443. CVE-2026-87962 - com.tdunning/t-digest: t-digest: t-digest: Denial of Service via unvalidated…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.tdunning/t-digest: t-digest: t-digest: Denial of Service via unvalidated length fields. Bugzilla: 2531399
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2531399
+
+---
+
+#### 3444. [Ubuntu] USN-8571-2: Apache HTTP Server regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8571-1 fixed vulnerabilities in Apache HTTP Server. That fix was incomplete due to a missing library symbol, resulting in a regression that could cause Apache HTTP Server to fail to start when HTTP/2 proxying was enabled. This update fixes the problem. We apologize for the inconvenience. Original advisory details: Pavel Kohout and Arkadi Vainbrand discovered that Apache HTTP Server incorrectly
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8571-2
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10846**
+**总计条目 / Total entries: 10894**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -146919,5 +146919,629 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241049#reply26
+
+---
+
+#### 10847. How to instruct not to install Windows updates during active hours?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 0 | Views: 31 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+Workaround You can manually pause updates from Settings | Windows Update by selecting Pause updates , or Create a Registry .reg script to set HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU , DWORD value NoAutoUpdate to 1 to pause updates by exporting that key using Regedit. Create a a second .reg script to set the value NoAutoUpdate to 0 when it's acceptable to update the VM. It might be possible to create a Scheduled Task or other means to run those script at appropriate times. N.B.: Microsoft controls the transmission, as did Outer Limits , and might override that setting.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940317/how-to-instruct-not-to-install-windows-updates-during-active-hours
+
+---
+
+#### 10848. How can I convert all DDS files in a bunch of nested subfolders into TGA files?
+
+**问题描述 / Problem Description**:
+Tags: windows, command-line, imagemagick, image-conversion | Score: 0 | Views: 23 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+Magick doesn't do recursive tasks on its own. It can accept multiple files as input, but mainly for the purpose of combining them into a single output file (e.g. into a multi-page PDF or TIFF). (Also, whether it accepts wildcards * at all on Windows can depend on the specific build – it's primarily a Linux/Unix tool, expecting to run in environments where the shell expands them and passes just the individual results to the command, whereas on Windows it's up to each program to handle wildcards.) Usually this kind of thing is automated using some kind of generic loop features in the command-line shell (command interpreter), rather than having every individual tool implement recursion separately: Make backups first. Also test on a single small folder. If you opened a terminal via right-click, you probably got PowerShell as the command interpreter. If so, you can run cmd to get at the old "Command Prompt" interpreter instead. PowerShell is probably the easiest to write, since you can build from components like in a proper programming language: Get files matching a pattern using dir aka gci aka Get-ChildItem : dir *.dds Recursively: dir -recurse *.dds Get-ChildItem -Recurse *.dds Process each result using % aka ForEach-Object (where $_ stands in for each input item): dir -recurse *.dds | % { echo "Doing $_"; magick -format tga "$_" } Get-ChildItem -Recurse *.dds | ForEach-Object { $origPath = $_.FullName $convPath = [IO.Path]::ChangeExtension($origPath, "tga") # More manual way: # $convPath = $_.Directory.FullName + "\" + $_.BaseName + ".tga" echo "Converting $_" magick "$origPath" "$convPath" } "Command Prompt" ( cmd.exe ) has a rather arcane syntax and much less composability, but it has a recursive for loop with features specifically for this use case (e.g. stripping off the file extension). Implicit output file (decided by ImageMagick from the format): for /r E:\Data\Images %x in (*.dds) do magick -format tga "%~x" Explicit output file specification: for /r E:\Data\Images %x in (*.dds) do magick "%~x" "%~dpnx.tga" The path is required, you can specify . to indicate the current directory. For the first run, replace magick with echo magick to see if it finds the correct files. Note that if you're putting this in a .bat file, the iterator needs to be written with %% instead of just % . (One of the quirks in Cmd.) Windows also has a standalone forfiles.exe which can be used for this purpose: Implicit output file (decided by ImageMagick from the format): forfiles /p E:\Data\Images /s /m *.dds /c "magick -format tga @file" Explicit output file specification (might not work): forfiles /p E:\Data\Images /s /m *.dds /c "magick @file @fname.tga" The /p <path> is optional, defaults to . if not specified. There are various ways you might end up with the Bash shell and related "Linux" tools on your system (WSL2; Git for Windows; Cygwin; etc).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940311/how-can-i-convert-all-dds-files-in-a-bunch-of-nested-subfolders-into-tga-files
+
+---
+
+#### 10849. Secondary login prompt fails during installation of a network printer under Windows
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, windows-11, network-printer | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-09-10
+
+**解决方案 / Solution**:
+I added the credentials via the Windows Credential Manager as a "Windows Credential" ( source , source ): and then ran the printer setup again; that solved the issue. Note: I needed to use just the username ( admin ) not including a domain name ( computername\admin ) Note: Adding the credentials via credential manager, gets rid of both login prompts, it might be necessary to set up an account with printing rights only in order to avoid security issues
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940294/secondary-login-prompt-fails-during-installation-of-a-network-printer-under-wind
+
+---
+
+#### 10850. Why do I get Intermittent Test-ComputerSecureChannel failures on a windows 11 laptop via VPN to a Windows Server 2022 DC
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-domain, windows-server-2025 | Score: 0 | Views: 34 | Answers: 1 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+A detailed Netlogon trace captured the actual cause: Windows 11 25H2 attempted the newer Kerberos-based secure-channel setup. The Windows Server 2022 domain controller did not support that newer Netlogon RPC authentication operation. The Kerberos-first attempt failed with 0xC002002E . Netlogon translated this to 0xC00000E5 , or STATUS_INTERNAL_ERROR . Netlogon temporarily stored a failed secure-channel status. Windows retried using the traditional Netlogon protocol. The traditional protocol negotiated successfully and restored the channel. Test-ComputerSecureChannel , which queries Netlogon’s current status, consequently alternated between False and True . I tested a Microsoft-recommended compatibility value which is supposed to be applicable to Windows 2025 member servers: HKLM\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters UseKerberosForSecureChannels = 0 After the change: Netlogon restarted successfully. The secure channel established successfully. nltest /sc_query reported NERR_Success . Minute-by-minute secure-channel tests succeeded over more than 3 hours. No new Security-Netlogon Events 9005, 9006, or 9009 appeared.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940227/why-do-i-get-intermittent-test-computersecurechannel-failures-on-a-windows-11-la
+
+---
+
+#### 10851. How to get OneDrive to just stop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdhaha/how_to_get_onedrive_to_just_stop/
+
+---
+
+#### 10852. If I delete a WhatsApp chat and do a backup afterwards, can it still be recovered?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdt4af/if_i_delete_a_whatsapp_chat_and_do_a_backup/
+
+---
+
+#### 10853. Too much saturation!!!!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdua6i/too_much_saturation/
+
+---
+
+#### 10854. I got a refund for this "dead" DDR5 RAM can I somehow make it work
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdo1ne/i_got_a_refund_for_this_dead_ddr5_ram_can_i/
+
+---
+
+#### 10855. Are extensions like deletetik safe to use?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsql3/are_extensions_like_deletetik_safe_to_use/
+
+---
+
+#### 10856. Adobe website and Photoshop keep crashing my entire PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdqooa/adobe_website_and_photoshop_keep_crashing_my/
+
+---
+
+#### 10857. reset this pc button not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdqhr6/reset_this_pc_button_not_working/
+
+---
+
+#### 10858. Error WHEA UNCORRECTABLE ERROR
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdu3vp/error_whea_uncorrectable_error/
+
+---
+
+#### 10859. Docking station wd19tb
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdu04u/docking_station_wd19tb/
+
+---
+
+#### 10860. Memtest results in over 60,000 errors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdty70/memtest_results_in_over_60000_errors/
+
+---
+
+#### 10861. how do i get the sodnus from my old ps2 game
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdtvip/how_do_i_get_the_sodnus_from_my_old_ps2_game/
+
+---
+
+#### 10862. Display going dark few seconds after connecting cable
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdtq02/display_going_dark_few_seconds_after_connecting/
+
+---
+
+#### 10863. Crossed information between devices
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdthbd/crossed_information_between_devices/
+
+---
+
+#### 10864. rtx 5060 bios which exceeds 170 watts
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdtdnw/rtx_5060_bios_which_exceeds_170_watts/
+
+---
+
+#### 10865. Mchose L7 right click became silent no tactile feedback what to do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdtd62/mchose_l7_right_click_became_silent_no_tactile/
+
+---
+
+#### 10866. nVidia gridlike dots in simple and transparent textures
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdtbkd/nvidia_gridlike_dots_in_simple_and_transparent/
+
+---
+
+#### 10867. Can't transfer large folder of small individual files to FAT32 drive
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdt7dm/cant_transfer_large_folder_of_small_individual/
+
+---
+
+#### 10868. PC screen has been randomly freezing for months. Tired of it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsx51/pc_screen_has_been_randomly_freezing_for_months/
+
+---
+
+#### 10869. PC stalls instead of going to sleep.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdss0c/pc_stalls_instead_of_going_to_sleep/
+
+---
+
+#### 10870. Not booting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsr3v/not_booting/
+
+---
+
+#### 10871. New RAM not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsqev/new_ram_not_working/
+
+---
+
+#### 10872. Replaced nearly whole PC, still the same crash.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdslm7/replaced_nearly_whole_pc_still_the_same_crash/
+
+---
+
+#### 10873. How do i transfer 292 files from an SD card to an iphone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsj4h/how_do_i_transfer_292_files_from_an_sd_card_to_an/
+
+---
+
+#### 10874. When either of Ctrl, Shift or Alt keys are pressed All of these keys gets registered ?(and even right side ones)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdsdzn/when_either_of_ctrl_shift_or_alt_keys_are_pressed/
+
+---
+
+#### 10875. [V2EX] 有做跨境电商和出海的吗
+
+**问题描述 / Problem Description**:
+发现找这些交流人群，很困难，或者有兄弟们知道哪里有吗？ 谁家做的比较好？ 有头部推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241462#reply1
+
+---
+
+#### 10876. [V2EX] iPhone 外观越来越像小米， samsung 外观越来越像魅族
+
+**问题描述 / Problem Description**:
+看了下 iphone18 和 samsung galaxy s26 ，很像几年前的小米和魅族手机的外观。这几年手机外观设计真是毫无审美
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241458#reply0
+
+---
+
+#### 10877. [V2EX] AI 厂商公布"违规使用"的具体使用内容，这不违反美欧隐私相关的法律么？
+
+**问题描述 / Problem Description**:
+v 友中“违规“使用 openai/claude 的人多如牛毛， 我认为没人会预期： 如果我的使用方式足够有新闻价值，我与 AI 的聊天内容会被整理成案例向全球公开。 这不就相当于 google 发布一份报告说： 我们发现某人违规翻墙使用 gmail ，邮件里讨论了 xx ？？ 为了确认蒸馏，只需要公布账号集群、调用数量、与模型训练等信息就足够了， 根本不需要公布一个具体用户正在研究什么内容、分析什么内部项目。 隐私问题咋没啥人说呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241443#reply4
+
+---
+
+#### 10878. [V2EX] 关于 AI 对人类的威胁
+
+**问题描述 / Problem Description**:
+现在网络上对 AI 威胁论的讨论几乎到了毛骨悚然的地步。其中不乏那些头部人工智能公司的研究员，说什么 AI 末日、若干年内 AI 会消灭所有人类等等。对此我实在理解不了。 现在的 AI 基本就是围绕大语言模型展开的，这种主要处理文本的概率模型它怎么来威胁人类呢？模型没有记忆功能，只能进行一问一答，即使现在能做一些复杂任务，也只是靠在外层套了一个 Agent 壳子来辅助而已。 它到底怎么来消灭人类？至少说说威胁的途径和可行性吧？似乎都在说 AI 会威胁人类生存，但都没说具体威胁手段有哪些。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241440#reply9
+
+---
+
+#### 10879. [V2EX] 关于清闲 OC1 new 椅子的问题
+
+**问题描述 / Problem Description**:
+这周椅子到货了，在公司坐了几天，发现一个问题，只要我用了它的配套的脚踏，屁股就坐的痛。我身高 175 ，体重 78kg ，当椅子调到和桌子的合适高度的时候，脚放在脚踏上，腿有点空，坐一段时间屁股就痛，如果不用脚踏，那就还好，大家有没有这个问题。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241412#reply0
+
+---
+
+#### 10880. [V2EX] 关于蒸馏，真的会对差不多参数体量的模型性能有很大提升吗？
+
+**问题描述 / Problem Description**:
+我只能理解用大参数模型蒸馏出小参数模型，可以显著提升小参数模型的能力。 但我一直有个疑问，现在的开源权重模型已经到万亿参数了，就 a 家说的那几亿调用的数据，拿来用真的能对模型训练起到明显的作用吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241393#reply0
+
+---
+
+#### 10881. [V2EX] 诸位 v2er 怎么看超人故事里指责超人的那些人？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241387#reply0
+
+---
+
+#### 10882. [V2EX] 兄弟们，有偿求助
+
+**问题描述 / Problem Description**:
+我的 QQ 只记得用户名和密码，但是我手机早换了。 现在登陆新设备一直要我提示 手机验证码。那个手机号码还是猴年马月的。 QQ 也没有实名认证，有谁知道要怎么登陆上去吗。 有偿求助
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241384#reply1
+
+---
+
+#### 10883. [V2EX] 兄弟们最近用 AI 有完成什么自己觉得不可思议的功能吗
+
+**问题描述 / Problem Description**:
+如题,大家可以随意发挥,不泄露公司业务就好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241378#reply1
+
+---
+
+#### 10884. [V2EX] ali 223 的 dns 挂了？
+
+**问题描述 / Problem Description**:
+ali 223 的 dns 挂了？刚好多地方连不上了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241375#reply0
+
+---
+
+#### 10885. [V2EX] 有点震惊，一时之间不知道该怎么说
+
+**问题描述 / Problem Description**:
+在某个帖子看到的，我上传不了图片，先用文字吧。 A：公司在利益面前肯定是无所不用其极的，更别说这种没有法律监管的地带，可以说毫不意外。但 A 又 一次充当道德圣人地表现就非常可笑了，其他没什么可评价的。 B：公司之追逐利益那是洼地政府灌输给你的，资本主义世界里利润只是公司的一部分 A：你傻得有点可爱了"公司之追逐利益那是洼地政府灌输给你的，资本主义世界里利润只是公司的一部 分” 在我的认知逻辑里面，能做到 [利润只是公司的一部分] 只有一小部分公司，而且基本是小公司，胖东来是国内的一个奇葩，公司规模不小还可以维持这样子。任何大公司，特别是上市的公司是不可能做到的，逻辑上就说不通吧。 这个是意识
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241372#reply7
+
+---
+
+#### 10886. [V2EX] 有没有这样一种放 mbp 的竖放可以固定两根 usb c 线（接显示器）在底部的支架？
+
+**问题描述 / Problem Description**:
+感觉很有用啊，带 usb c 的都是扩展坞，一个个太贵了 只需要一个普通的竖直的架子，下面安俩螺丝固定住 usb c 的线就行……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241346#reply0
+
+---
+
+#### 10887. [V2EX] 有没有手机游戏可以推荐，现在上班其实挺无聊的，需要打发下时间！
+
+**问题描述 / Problem Description**:
+1. 现在上班都用 AI 了，大部分时间都无事可做，现在上班都不知道要做什么 2. 平时就斗地主，但是斗地主都是被控制的，完全上不了豆，玩着玩着就没啥意思了 3. 上班可以玩手机，推荐几款可以玩的游戏又不会感觉到无聊的游戏或其他
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241341#reply3
+
+---
+
+#### 10888. [V2EX] 家用 2.5G 网管交换机有推荐的么，爱快那款功能有点弱
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241340#reply0
+
+---
+
+#### 10889. [V2EX] 为一个弱智的问题 大家怎么插入的图片
+
+**问题描述 / Problem Description**:
+想问问这个初级小白的问题，怎么插入的图片啊？？？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241328#reply53
+
+---
+
+#### 10890. [V2EX] 筷子不能竖着插在饭里是全国性的常识吗？
+
+**问题描述 / Problem Description**:
+今天在推特上刷到一个关于中日韩文化禁忌的帖子，让我想起来初中时发生的一件事。 某次吃饭时，我将筷子竖着插在了米饭里，父亲仿佛像被狗咬了一样蹦起来狠狠揍了我一顿，又是打又是骂，说广东人给先人上供的时候才这么干。 我心里愤愤不平，你一个甘肃人，又不是广东人，你急什么；再说也没人给我说过这件事啊，家里也不供奉什么先祖灵位，我咋知道有这回事。 从那以后每次我想起这件事心头就蒙起了一层阴影，只要自己一个人吃饭都要将筷子竖着插在米饭里，不知不觉成为了习惯，一直到今天。 我想知道，这件事情你们从小就知道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241327#reply176
+
+---
+
+#### 10891. [V2EX] 香港 PACE Life Intelligent 公司有人了解吗
+
+**问题描述 / Problem Description**:
+MyPace Life Limited 的母公司 专门接其他保险公司的单，还有帮运营赚钱 靠谱吗，现在在广州招开发，前后端 agent 都要做
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241325#reply0
+
+---
+
+#### 10892. [V2EX] -52% 还能回本吗
+
+**问题描述 / Problem Description**:
+有没有过来人给个经验，不加仓的情况下 -52% 死拿有希望回本吗，拿了一年多了 不甘心啊 害怕倒在黎明前 有没有经历过相同情况的大佬，回本了，给我点希望。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241315#reply65
+
+---
+
+#### 10893. [V2EX] 淘宝上 60 多块一年的 1password 靠谱吗
+
+**问题描述 / Problem Description**:
+不是拼车也不是成品号，是给老账号续费的，不知道有没有坑。去年领的免费一年快到期了，新价格用不起
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241293#reply8
+
+---
+
+#### 10894. [V2EX] [智谱·杭州全城 Coding 计划] 要冲吗？
+
+**问题描述 / Problem Description**:
+在杭工作人员/杭州高校在校生 购买智谱 coding plan 可享受折扣
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241287#reply4
 
 ---

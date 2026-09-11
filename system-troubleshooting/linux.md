@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10214**
+**总计条目 / Total entries: 10254**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -140754,5 +140754,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241027#reply1
+
+---
+
+#### 10215. keyboard configuration issue for key less/greater
+
+**问题描述 / Problem Description**:
+Tags: linux, kde, keyboard | Score: 1 | Views: 45 | Answers: 1 | Created: 2026-09-10
+
+**解决方案 / Solution**:
+So, your physical keyboard is configured with the right control key (in the sense - this key returns the scancode normally returned by the right control). The easiest workaround is telling the kernel to remap this scancode to the keycode that is customarily associated with the <,> key. This will work both on the console (with suitable keytable) and in the X11/Wayland. The following works for me in KDE/Wayland. Create the systemd service to run early on boot. The file name or description do not matter: bor@uefi:~> cat /etc/systemd/system/remap-right-ctrl.service [Unit] Description=remap the right control key on Dell laptop DefaultDependencies=no After=local-fs.target Before=basic.target [Service] Type=oneshot ExecStart=/usr/bin/setkeycodes e01d 86 [Install] WantedBy=basic.target bor@uefi:~> Enable this service sudo systemctl enable remap-right-ctrl.service Reboot I was surprised that it worked even with us keyboard layout. I did configure fr and of course it worked there too. Personally I believe this is something for Dell to fix. They should program the keyboard to return the appropriate scancode (looking at the pictures of Dell laptops with French keyboard, they have a separate key for the <,> characters different from the right control).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807346/keyboard-configuration-issue-for-key-less-greater
+
+---
+
+#### 10216. Why is PATH restricted to /sbin:/usr/sbin:/bin:/usr/bin (no /usr/local/bin) in uwsgi in Debian?
+
+**问题描述 / Problem Description**:
+Tags: debian, path, sysvinit, uwsgi | Score: 0 | Views: 30 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+/usr/local exists for things installed locally, bypassing the usual package manager of the system. Thus, paths under /usr/local were not usually parts of PATH; a convention the uswgi script upholds. I could also hardcode the absolute file path in my app, or even make it a configuration parameter. Sounds like more desirable options. Go for that. General warning, because a) this is the most 1990's (and thus the most embarrassing) way to get your server taken over and b) it is still done today, and c) we've literally seen that multiple time in code shown here: If you're using subprocess to launch an external process: Never pass through data supplied by the client to subprocess. That goes wrong. Never use shell=True for anything that launches an external program. If you need the shell to interpret any of the commands you're executing, you must be doing something wrong. Note that shell=True is not at all necessary for executing shell scripts, that's a common fallacy. This is nearly the same as 3., but don't pass the complete command line as a composed string, pass it as decomposed into [ program_path, argument1, argument2… ] ; that eliminates a lot of trickery that can go into forging commands that you didn't mean the computer to execute.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807355/why-is-path-restricted-to-sbin-usr-sbin-bin-usr-bin-no-usr-local-bin-in-u
+
+---
+
+#### 10217. Displaying half-width katakana on a framebuffer console
+
+**问题描述 / Problem Description**:
+Tags: debian, fonts, console | Score: 0 | Views: 36 | Answers: 1 | Created: 2026-09-10
+
+**解决方案 / Solution**:
+Since you're already using a drm console, you need to configure your modern console frontend, quite likely kmscon , such that it uses a font engine that can do all that you need. Sounds like you'd want to use the pango backend ! As font you just install a Katakana-containing OTF- or TTF-format font of your preferred properties. My guess is you have one you like to use under Wayland or X, e.g. in your text editor or browser? That one's fine. Just use its name. You can use fc-list to list all installed fonts. The name you're looking for is in between the : and the : .
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807349/displaying-half-width-katakana-on-a-framebuffer-console
+
+---
+
+#### 10218. What is a tiny CLI tool you installed randomly that became essential to your workflow?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdj284/what_is_a_tiny_cli_tool_you_installed_randomly/
+
+---
+
+#### 10219. Patches Ready For AMDGPU HDMI 2.1 Enabled By Default With Linux 7.4 With FreeSync, VRR & ALLM
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdmi7a/patches_ready_for_amdgpu_hdmi_21_enabled_by/
+
+---
+
+#### 10220. Roblox support on Linux might soon be over due to new Open-Source Sober clone, cordial
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdp3fr/roblox_support_on_linux_might_soon_be_over_due_to/
+
+---
+
+#### 10221. Got this 25 years old Slackware 8.0 CD for 10 bucks
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdlmjx/got_this_25_years_old_slackware_80_cd_for_10_bucks/
+
+---
+
+#### 10222. GCC 13.5 released with 265+ bug fixes
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdixnd/gcc_135_released_with_265_bug_fixes/
+
+---
+
+#### 10223. Zaku 26.0 beta - Local-first, open-source API client
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wds1la/zaku_260_beta_localfirst_opensource_api_client/
+
+---
+
+#### 10224. Flathub isn't enforcing its AI disclosure policy
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wd5xoi/flathub_isnt_enforcing_its_ai_disclosure_policy/
+
+---
+
+#### 10225. Made a weird little media player that combines radio, reactive visuals, local files, and mini-games
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdp05o/made_a_weird_little_media_player_that_combines/
+
+---
+
+#### 10226. Just read Free as in Freedom…
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdhaqn/just_read_free_as_in_freedom/
+
+---
+
+#### 10227. GIMP 3.2.6 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wd1olz/gimp_326_released/
+
+---
+
+#### 10228. Oh My Zsh now supports a configurable update cooldown
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdmgws/oh_my_zsh_now_supports_a_configurable_update/
+
+---
+
+#### 10229. rusty-broom — TUI + CLI clean build artifacts from projects you haven’t touched in months
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdrv62/rustybroom_tui_cli_clean_build_artifacts_from/
+
+---
+
+#### 10230. LightTable: beautiful digital darkroom app (Lightroom alternative)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdgg41/lighttable_beautiful_digital_darkroom_app/
+
+---
+
+#### 10231. What if there was just one Linux "distro"?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdr59g/what_if_there_was_just_one_linux_distro/
+
+---
+
+#### 10232. Why infrastructure teams need to rethink NFS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wddjyg/why_infrastructure_teams_need_to_rethink_nfs/
+
+---
+
+#### 10233. Introducing Omarchy M - Omarchy News
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wdryke/introducing_omarchy_m_omarchy_news/
+
+---
+
+#### 10234. [V2EX] 高性能瀑布流相册应用 crPhotos 1.4.0 发布，新增照片和视频的人物自动分类
+
+**问题描述 / Problem Description**:
+crPhotos 是一款 C++开发的瀑布流相册应用 基于源代码 chromium 150.0.7871.91 支持 GPU 渲染加速，视频硬件解码的跨平台照片应用 人物自动分类 基于轻量级 Edgeface S 模型，性能优秀 - 通过时间线浏览本地照片与视频。 - 添加媒体库文件夹、按文件名搜索和管理收藏。 - 使用内置控件查看图片和播放视频。 - 显示拍摄详情及文件内嵌的 GPS 信息，支持离线城市匹配。 - 通过加密传输和设备配对，与附近的 crPhotos 设备分享媒体。 - 管理可信设备，并选择是否自动接收文件。 - 支持 js 来制作扩展 Linux 版本下载 https://g
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241445#reply0
+
+---
+
+#### 10235. [V2EX] 搞了个 dsh 的 rust 套壳小工具有 v 友试试水么？
+
+**问题描述 / Problem Description**:
+https://github.com/wang-yi-bit64/dsh-desktop 欢迎 v 友试试毒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241454#reply3
+
+---
+
+#### 10236. [V2EX] Google Search Impact 效果终于起来了
+
+**问题描述 / Problem Description**:
+经过几个月的优化，现在整个站点的 SEO 情况比之前好了很多。 每日点击量基本能达到 800+了。 核心做法就是：永远以用户体验为核心去不断优化，不要为了 SEO 而 SEO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241439#reply0
+
+---
+
+#### 10237. [V2EX] 给几百 G 的本地截图做一个能搜内容的引擎，我踩过的坑
+
+**问题描述 / Problem Description**:
+最近做了个小工具：把我攒了几年、按字节算快 1T 的电脑截图（微信聊天截图、网页截图、报错截图、PPT 截图……）做成一个能直接搜内容的引擎。比如搜「上次那个 nginx 502 的报错」，直接把当时那张截图翻出来。 功能听起来不新鲜，但自己动手做一遍，坑比想象的多。这里把踩过的坑记录一下，给同样有这个需求的朋友参考。 坑一：OCR 不是「接个库」那么简单 一开始想当然：截图 → OCR → 存文本 → 搜，完事。实际： 中文截图里夹杂的英文报错、路径、代码，混排识别率惨不忍睹。纯中文 OCR 库对 Error: EACCES: permission denied '/var/log/...'
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241437#reply11
+
+---
+
+#### 10238. [V2EX] OpenAI 今天发布了 Agents API
+
+**问题描述 / Problem Description**:
+http://openai.com/index/introducing-the-agents-api/ 意味着以后 Harness 也不需要自己写了，官方自动把上下文压缩、tools_call 、subAgents 等等一切都封装好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241432#reply2
+
+---
+
+#### 10239. [V2EX] 随手试了下腾讯最近开源的自托管 Agent Octop
+
+**问题描述 / Problem Description**:
+最近手痒，拉了个腾讯新开源的 Agent 项目 Octop （ https://github.com/TencentCloud/Octop ）跑了一下。 这玩意儿主打自托管，支持多用户多专家，个人用或者扔服务器上挂着都行。部署挺省事，一键起服务，还能直接接 IM 通道。 不过有个小问题：它最核心的几个底层依赖还没开源。现在拉代码跑是能跑，但想魔改源码的兄弟还是得先蹲一手。 整体架构看着还行，活跃度挺高的，需要的兄弟们可以试一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241426#reply0
+
+---
+
+#### 10240. [V2EX] 独立开发者怎么做竞品调研
+
+**问题描述 / Problem Description**:
+怎么证明，不是伪需求，或者自认为的核心竞争力是不是没用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241425#reply7
+
+---
+
+#### 10241. [V2EX] [不要久坐] StandUp - 原生 + 免费且开源的久坐提醒 macos APP！
+
+**问题描述 / Problem Description**:
+StandUp - 避免久坐 一款简洁、原生的 macOS 菜单栏休息提醒工具，帮你有效避免久坐。原本想直接找款免费的用，无奈翻遍 App Store 和 GitHub 都没找到合适的，自己动手写了。 StandUp 通过周期性工作计时和全屏休息遮罩，提醒你暂时离开屏幕、起身活动、放松眼睛。除了常规的工作/休息循环，它还提供一次性闹钟模式，适合会议、喝水、服药或其他定时提醒场景。 功能介绍 工作与休息计时 自定义工作间隔，支持 1 ～ 240 分钟。 自定义休息时长，支持 1 ～ 60 分钟。 提供常用时长快捷选项，也可以手动输入时间。 菜单栏实时显示当前状态和距离下次休息的倒计时。 休息结束
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241424#reply4
+
+---
+
+#### 10242. [V2EX] AI 一天帮我接入 EdgeFace-S 人脸识别模型
+
+**问题描述 / Problem Description**:
+在以前一个月都干不好的活，现在只要一天 😂 从 C++代码实现，模型拉取 导出，一口气搞定 中间还对比评估了 SFace FP32/INT8 的模型效果 评估下来 还是 EdgeFace-S 效果好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241418#reply0
+
+---
+
+#### 10243. [V2EX] 之前分享了一个导航站，被大家吐槽了。
+
+**问题描述 / Problem Description**:
+这是原帖： https://www.v2ex.com/t/1240258?p=1#reply89 于是我在这几天摸鱼的时候升级了一版，望大家不吝赐教
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241409#reply0
+
+---
+
+#### 10244. [V2EX] 博客的 CDN 被持续搞事，怎么破？
+
+**问题描述 / Problem Description**:
+从这个月开始到现在（ 11 天），就出现了两处大量的非正常流量 1. 一个是江苏流量，1.7 万次的访问，头几天流量超级大，这个星期流量不大，但还是一直持续 2. 一个是 Twitter 机房流量，将近 3 万次的访问，而且一个可疑 UA 也比较贴切这个异常流量，Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36 目前的情况是前几天把这个 UA 拉黑了，来自 Twitter 机房的流量也没了，可以石锤了，不知道老马在搞什么鬼，但是来自江苏的流量还在持续
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241399#reply1
+
+---
+
+#### 10245. [V2EX] 大家觉得我们还需要去发明新的 IM 吗
+
+**问题描述 / Problem Description**:
+感觉 IM 其实是一个很基础 很强的需求，世界上有太多的 IM 产品，微信、Whatsapp 、Line 、telegram 、Signal ，大家觉得是否还可能出现一个新的被广泛使用的 IM ，如果有，它会是一个怎样的形态？我思考过很久，感觉即便是 AI 时代的所谓 AI Native Messenger ，本质上也是在现在的 IM 中集成 AI 能力，它只是一个 Feature ，而非是 IM 的新的代际，如果我们要创作一个新的 IM ，大家希望它具有哪些功能或者设计
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241397#reply15
+
+---
+
+#### 10246. [V2EX] 问各位大佬有谁知道 grokbot 的群聊私聊的记忆共享机制啊
+
+**问题描述 / Problem Description**:
+群聊列到对话，私聊时 bot 也知道，反之亦然。 我猜测机制是： 私聊时主上下文就是私聊的对话历史，群聊会作为一部分摘要在上下文，聊到具体细节时再去召回。 但是这个摘要速度怎么赶得上说话速度呢，我再 A 群让 bot1 做了一个事，立马私聊 bot1 ，它会知道刚才做的事，这个是怎么去做到立马组织的记忆呢。 还有一种猜测把所有的群聊和私聊对话按照时间穿成一个上下文里，但是标注对话所在来源。 求大佬们解答
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241394#reply0
+
+---
+
+#### 10247. [V2EX] Tick 数据和 K 线数据到底差在哪里？
+
+**问题描述 / Problem Description**:
+最近在做行情数据相关的东西，发现一个挺容易搞混的地方： Tick 数据和 K 线数据到底有什么区别？ 一开始我的理解也比较简单，觉得 K 线无非就是把很多条 Tick 数据按照 1 分钟、5 分钟之类的时间周期聚合一下。 后来自己实际处理数据之后，发现两者虽然有关系，但用途其实完全不一样。 如果只是看盘，K 线已经够用了。但如果要做量化策略、盘口分析或者研究某一段时间内价格到底是怎么走出来的，Tick 数据的重要性就会明显很多。 我先用一个比较直观的方式理解 比如某只股票在 10:00 到 10:01 之间发生了很多次成交。 Tick 数据可能长这样： 10:00:01 100.12 200
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241382#reply4
+
+---
+
+#### 10248. [V2EX] 最近 codex 哀嚎遍野，大家是不是都切 gemini 去了呀？感觉 gemini 今天限流严重了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241376#reply2
+
+---
+
+#### 10249. [V2EX] Kimi K2.8 Preview 模型全量上线 Kimi Code，综合性能接近 K3
+
+**问题描述 / Problem Description**:
+这个起名有点意思。 版本号还降了呢。 不如 叫 3.1-flash 啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241371#reply2
+
+---
+
+#### 10250. [V2EX] ddns-wz 简单的域名 ip 同步任务工具 支持多域名多客户端统一管理, 储存占用仅 1MB
+
+**问题描述 / Problem Description**:
+ddns-wz：轻量本地公网 IP 域名同步工具 ddns-wz 是一款简单易用的本地公网 IP 域名同步工具，使用 C 语言 编写， 二进制体积仅约 1MB 。界面采用 多任务卡片 样式，支持多种解析服务商与丰富的同步方式，适合在家庭宽带、软路由、NAS 、小主机等场景中实现 DDNS 自动更新。 支持架构： arm64 / armv7 / amd64 ，已测试 N1 盒子 兼容。 功能特性 多任务卡片式 Web 管理界面 支持 @ 根域名 解析 支持服务商： 阿里云 / 腾讯云 / Cloudflare / DNSHE / 自定义 curl 支持 回调式 DDNS （节点文件：支持多客户端
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241359#reply1
+
+---
+
+#### 10251. [V2EX] 国内现在这些 token plan 的 harness 也是很鸡肋了
+
+**问题描述 / Problem Description**:
+国内现在这些 token plan 的 harness 有啥用啊，token plan 政策要求模型又不能通过 API 调，接 harness 的话又要自己捣鼓半天 skill 、mcp ，memory ，提供的模型还都是主推各家自己的。结果就是自己折腾了半天搞了个不如豆包、workbuddy 、千问办公的豆包、workbuddy 、千问办公出来，还花费了大量时间精力，最后感觉自己很有病。 各家的整个 token plan 里唯一有价值的东西就是模型用量套餐，跟进了半天，那堆 harness 真是让我感到困惑。大概又是经典的把软件做成 OS / 把套餐做成垃圾场的环节。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241345#reply0
+
+---
+
+#### 10252. [V2EX] 有人买了中转站 6TB 的数据，里面有大量的服务器账号安全数据，看你们还敢用中转吗？
+
+**问题描述 / Problem Description**:
+说是花了 5 位数买的，看截图，貌似里面有很多互联网大厂的服务器数据，不过大厂的应该很多是内部账号吧。 有用中转的朋友做自己项目的，赶紧改密码吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241336#reply43
+
+---
+
+#### 10253. [V2EX] 垃圾 cursor 的付费墙更高了
+
+**问题描述 / Problem Description**:
+之前付费上班用了两年的 cursor ，订阅停了近半年了，今天发邮件让回归，$10 首月，想着要不白嫖一下，反正 GPT Plus 不够用，结果是 Link 付费被拒（上周用 Link 尝试支付 X 的 Premium 成功了），信用卡支付也被拒了。之前两年的时候，都是正常的。 这 $10 真难嫖呀，看 cursor 有 iOS app 了，下载了瞄了一眼，嚯，25 美元每月，真是绝了。 好吧，先用 apple 订阅开通一个月的 Claude ，重新滚回 Claude 的怀抱了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241323#reply0
+
+---
+
+#### 10254. [V2EX] 有个域名 niuma.cc，不知道做点啥好
+
+**问题描述 / Problem Description**:
+RT ，有没有大佬有点想法的，打算 vibe coding 一个站点玩玩
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241304#reply9
 
 ---

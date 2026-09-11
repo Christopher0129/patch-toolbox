@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9910**
+**总计条目 / Total entries: 9973**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -133131,5 +133131,824 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1240754#reply2
+
+---
+
+#### 9911. I brought the PS3’s “Original” XMB wave to MacOS as a native Live-wallpaper via Metal
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wd1b0e/i_brought_the_ps3s_original_xmb_wave_to_macos_as/
+
+---
+
+#### 9912. AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdpip4/ama_hacking_macos_and_offensive_security_with/
+
+---
+
+#### 9913. Just updated to macOs 15.8, it killed my touch bar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wd7djw/just_updated_to_macos_158_it_killed_my_touch_bar/
+
+---
+
+#### 9914. Screenshots rendering as hidden files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdkdmj/screenshots_rendering_as_hidden_files/
+
+---
+
+#### 9915. Keyboard Shortcut of the Day: FN + S
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdjvq7/keyboard_shortcut_of_the_day_fn_s/
+
+---
+
+#### 9916. Safari Tab Group Pets
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdffgp/safari_tab_group_pets/
+
+---
+
+#### 9917. Best Ad Blocker for Safari: AdGuard vs. uBlock Origin Lite
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wd70os/best_ad_blocker_for_safari_adguard_vs_ublock/
+
+---
+
+#### 9918. Battery life on MacBook Pro m4 (1 year old) is significantly worse
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdp4di/battery_life_on_macbook_pro_m4_1_year_old_is/
+
+---
+
+#### 9919. Looking for PhotoScape X version 4.1.1 for macOS High Sierra (10.13)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdorqc/looking_for_photoscape_x_version_411_for_macos/
+
+---
+
+#### 9920. Looking for Search App that searches contents of Word Processing documents
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdn2zg/looking_for_search_app_that_searches_contents_of/
+
+---
+
+#### 9921. Sleep function option Greyed out in Menu for Macbook Air M4. How to activate sleep function?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdn2mk/sleep_function_option_greyed_out_in_menu_for/
+
+---
+
+#### 9922. Wallpaper changed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdszin/wallpaper_changed/
+
+---
+
+#### 9923. Google Docs Uning HELL Lotta RAM on Safari
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdfd4a/google_docs_uning_hell_lotta_ram_on_safari/
+
+---
+
+#### 9924. Pdf reading issues
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdkjen/pdf_reading_issues/
+
+---
+
+#### 9925. External Monitors ignoring secondary click
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdk1yy/external_monitors_ignoring_secondary_click/
+
+---
+
+#### 9926. Il mio Mac Pro 5,1 non mi fa installare Sonoma
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdnwl3/il_mio_mac_pro_51_non_mi_fa_installare_sonoma/
+
+---
+
+#### 9927. Just noticed when you double-click a playlist in iTunes, it opens in a new window. A bit late, but you learn something new every day I guess.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdf3n7/just_noticed_when_you_doubleclick_a_playlist_in/
+
+---
+
+#### 9928. Remote desktop from my Mac to iPad
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdb9q1/remote_desktop_from_my_mac_to_ipad/
+
+---
+
+#### 9929. Asking since it cannot be disabled anymore, is there an "only offline / only local" setting for Apple Intelligence ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wdacbv/asking_since_it_cannot_be_disabled_anymore_is/
+
+---
+
+#### 9930. How to disable a "preview" window that opens when I try to drag and drop something in Finder?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wd2yg6/how_to_disable_a_preview_window_that_opens_when_i/
+
+---
+
+#### 9931. Stopped receiving system updates on M1 MacBook Air after Version 26.6
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wddlm2/stopped_receiving_system_updates_on_m1_macbook/
+
+---
+
+#### 9932. Dekstop no visible icons
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wd76zw/dekstop_no_visible_icons/
+
+---
+
+#### 9933. [V2EX] 除了鼠须管还有别的更好用的拼音输入法吗
+
+**问题描述 / Problem Description**:
+搜狗挺好用的，就是有广告 鼠须管用下来发现 shift 切换中英文输入法经常失灵，还有它的识别确实不如狗搜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241257#reply35
+
+---
+
+#### 9934. [V2EX] mac 上最像 potplayer 的播放器是哪个?请教下大家
+
+**问题描述 / Problem Description**:
+像 potplayer 一样播放列表能固定到右侧的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241209#reply6
+
+---
+
+#### 9935. [V2EX] Raycast v2 用户看看你们的内存占用！
+
+**问题描述 / Problem Description**:
+Raycast 后台自动更新了 v2 版本，重启就会升级成功，据说新版内存占用会飙升，吓得我赶紧让 GPT 删除 v2 ，然后屏蔽掉 raycast 的域名...先凑合用。 有没有升级 v2 的让我看看你们的内存占用，看看要不要升级。 目前 v1 的内存占用：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240856#reply25
+
+---
+
+#### 9936. [V2EX] Steam Link 串流到 Mac 玩 PUBG
+
+**问题描述 / Problem Description**:
+目前有一独显台式， 还有一台 MacBook Pro M4 Max 主要就玩 PUBG 这一个游戏 随着购买强劲的 Mac 电脑， 大部分工作流都转移到了 Mac 上面， 台式机就变成了单纯的“游戏机”， 实在太浪费 所以想在 Macbook Pro 上玩 PUBG ， 搜索了几个月网上教程， 没有找到完美的解决办法， 无论是虚拟机还是 CrossOver ， 都受防作弊影响， 打开就封号…… 问了 AI ， 也是这样的答案 所以， 寻求本坦大佬们解惑， 有直接在 Mac 上玩 PUBG 的 方法吗？ 没有的话，steam link 串流， 那负载是在 win 上面还是 Mac 上面？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239832#reply22
+
+---
+
+#### 9937. [V2EX] 根据大家的反馈 aPaste 又迭代了一轮：本地优先的 macOS 剪贴板， Pinboard + 文件夹同步
+
+**问题描述 / Problem Description**:
+Imgur Imgur 三月在这儿发过一版 aPaste：当时就是自己 Paste 订阅要到期，业余用 SwiftUI 写了个高仿面板。 那帖之后我一直在用、一直在改，现在功能和当时相比已经有了很大的进步了，再来同步一版。 顺便搓了个官网： https://apaste.alliot.tech 这段时间增强的功能： 搜索比翻历史重要 可按类型、日期、来源 App 筛。图片开 OCR 后，图里的字也能搜到。 代码片段、回复模板、地址、品牌色放进彩色 Pinboard ，⌘← / ⌘→ 切换。 清历史时 Pinboard 不会被一起干掉。 填表、迁数据用 Stack ⌘⇧C 连续攒几条，再按顺序一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239316#reply1
+
+---
+
+#### 9938. [V2EX] 各位拿到新 iPhone 是<俩手机物理迁移|iCloud 恢复备份|全新开始>?
+
+**问题描述 / Problem Description**:
+好奇大家都是真么做的 以前都是全新开始, 自己一个个下载 app 配置等等 这几年有点懒了, 直接 icloud 恢复备份, 大家都是用哪种方式呢? 现在 iPhone 迁移数据,恢复备份这种, 还会有异常垃圾啥的被迁移到新手机导致续航变差么?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241448#reply9
+
+---
+
+#### 9939. [V2EX] Plasma 买 apple 返现 20%
+
+**问题描述 / Problem Description**:
+20% back on Apple Buy directly from Apple with your Plasma One card and get 20% cashback. Open Plasma One to check your offer and the end date before you buy. 一步绝杀了吧这个。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241447#reply0
+
+---
+
+#### 9940. [V2EX] Raycast iOS 不要升级最新版，政策改了，即使 BYOK 免费账户也无法使用 AI 键盘命令，有点难过
+
+**问题描述 / Problem Description**:
+起初我还不相信，以为自己问题，有点惊讶这不像是 Raycast 的风格，毕竟桌面端也是可以使用自己 key ，请教下大家现在还有什么办法吗？貌似这类外区账户的旧版本没法用助手之类恢复旧版本吧。我也不太喜欢那位做了短信拦截的开发者做的另一款 ai 键盘应用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241430#reply1
+
+---
+
+#### 9941. [V2EX] 抢购 iPhone 的最佳方式是什么？
+
+**问题描述 / Problem Description**:
+往年都在官网抢，说的晚上八点，每次都在准备页面直到八点多了才能进去，店里自取的早已经抢完了，怎么才能第一时间就进到抢购页面呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241349#reply13
+
+---
+
+#### 9942. [V2EX] Apple Music（Mac 客户端）无法点击“收藏”音乐
+
+**问题描述 / Problem Description**:
+如题，只要是在客户端内，无论是窗口还是全屏状态，都无法点击五星收藏按钮。 也已经反馈了，但是状态仍然是打开，没有进入待修复…… 请问各位也遇到过这个问题吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241301#reply1
+
+---
+
+#### 9943. [V2EX] 新的广告方式可能又增加了
+
+**问题描述 / Problem Description**:
+苹果针对全新折叠屏手机 iPhone Duo 推出的 iOS 27.1 SDK 中，为开发者提供了获取物理铰链（ Hinge ）连续角度及离散状态的官方 API 后面不仅有摇一摇跳转广告，会不会还会出现开合折叠屏也会触发广告，屏幕开合到特定角度触发特定广告。相信这个会玩出花来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241276#reply15
+
+---
+
+#### 9944. [V2EX] 支付宝上 YouWorld 和 PockytShop 买美区苹果礼品卡有坑吗？
+
+**问题描述 / Problem Description**:
+我一般是生日那天一次买 n 张礼品卡，每个月陆续充值，因为怕一次性全充进去哪天 apple 账号被封了很麻烦，另外绑定的 claude 账号或者 chatgpt 被封了那充进去礼品卡也没地方用也麻烦。 所以在这两家买的美区 apple 礼品卡有的会最长放个半年之类的陆续兑换充值，这会有问题吗？ 会不会被他们内部偷偷拿去兑换了。 另外现在这两家买个两次就被支付宝止付，每天似乎在 You World 上只能买 150 刀。 好奇这玩意为什么会风控是真的有什么坑吗还是单纯不让 p 民随便花外汇？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241248#reply8
+
+---
+
+#### 9945. [V2EX] 请教注册日区 id 的正确姿势？
+
+**问题描述 / Problem Description**:
+想玩日区的《世界计划》，按照网上的教程注册了一个日区 Apple ID ，注册时绑定的是中国大陆手机号。 结果登录的时候提示账号需要审核，本以为等一会儿就行，结果已经等了一天还是没审核通过。 想请教一下各位大佬，日区 Apple ID 现在应该怎么正确注册比较稳？中国手机号是不是容易触发审核
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241197#reply10
+
+---
+
+#### 9946. [V2EX] 下单苹果手表 12 代
+
+**问题描述 / Problem Description**:
+手上的 8 代电池寿命还剩 87%，也就是说大概最多 15 小时左右； 换成新的多了 8 小时，对自适应每天充电的人来说，8 小时真的太好了。 这次准备尝试米兰尼斯表带，以前总担心电脑打字的时侯会硌得慌，这次准备亲自试试。 对了，昨天看发布会，有一幕还挺戳我的，就是拼命打鼓但检测出身体状态并不好的时侯，手表会提醒你“差不多得了”，我感觉挺需要这功能，目前架子鼓正在提速中，这个用户场景就正好适配我。 18 号会收到手表，希望发布会上提到的那些功能尽快兑现吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241187#reply21
+
+---
+
+#### 9947. [V2EX] duo 比较惊艳到的两点
+
+**问题描述 / Problem Description**:
+一个是折痕处理，除了优化折痕本身之外，柔光淡化了视觉存在感 另外就是 ui ，特别是展开合上时有点穿透感觉的动画，太牛了 感觉就像写代码时，后台接口太慢又无法解决，前端就加个更酷的 loading 反正大家都抄来抄去的，期待国内这些厂商的后续
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241159#reply2
+
+---
+
+#### 9948. [V2EX] AirPods5 的一些问题
+
+**问题描述 / Problem Description**:
+请教一下 国航的是否有阉割功能 低版本的系统是否能正常使用，有没有用不了的一些功能（本人是 iPhone15pro ios17.0 ）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241109#reply3
+
+---
+
+#### 9949. [V2EX] 买二手 iPhone 哪个平台或者渠道最靠谱
+
+**问题描述 / Problem Description**:
+避涨价潮，求二手 iPhone 靠谱平台，准备入 17 系列
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241099#reply6
+
+---
+
+#### 9950. [V2EX] iPhone Duo 的销量关键就在销量上
+
+**问题描述 / Problem Description**:
+作为不知名开发者，看了一天的 iPhone Duo 视频。 我觉得不太对劲。从一大早“诶，这个过渡不错”，“这个场景设计还挺用心”逐渐开始变成“这种场景真的常见吗”“值得为这种状态适配吗”。 不知道 V2 上大家对于 iPhone Duo 上的 App 究竟要适配到什么程度有什么预期。是单纯的打开当个 Pad 那样使用就能满足了，如果只是收起来当个小 iPhone ，打开当个 Pad 用，适配难度不大，但是你们愿意花这个溢价吗？ 如果觉得开发者应该做到支持什么半折，各种旋转，优雅过度就好像苹果广告里放出来的那样等等等等，那你大概率要失望了。 其实市面上对于相当多的存量 App 来说，适配苹果这
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241092#reply54
+
+---
+
+#### 9951. [V2EX] 一万六选 iPhone18PM+ iPad Air 还是 iPhoneDuo
+
+**问题描述 / Problem Description**:
+容量不讨论 256g 这几年够够的 还真的有点犹豫不决了 duo 新形态新鲜感辨识度拉满一机多用 但是摄像头面容可靠性之类的又有点遗憾
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241087#reply14
+
+---
+
+#### 9952. [V2EX] 10 月还有发布会吗？
+
+**问题描述 / Problem Description**:
+等着 m6 的 ipadpro 呢。。 手持 m1 迫不及待了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241083#reply3
+
+---
+
+#### 9953. [V2EX] Duo 真的很不苹果
+
+**问题描述 / Problem Description**:
+仔细数一数，Duo 一台手机上，一个内屏，一个外屏，一个折叠形态下的前置摄像头（非屏下），一个折叠形态下的后置摄像头模组，一个展开形态下的前置摄像头（屏下），侧边还有电源键+action button ，这些“多余”的设计真的非常不苹果，当年苹果可是宁愿砍掉 home 键，愿景是造出一整块玻璃当作屏幕的，但是在 Duo 上却充满了妥协，我知道这是目前的物理学能做到的极限了，但是这样一个极度机械式、拼接式的产品真的非常非常不苹果，充满了平庸，没有以往苹果产品给人的“浑然一体”的感觉，整体看下来松松垮垮的，这些真成了 not only apple can do 了。 唯一让人眼前一亮的就是屏下摄像
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241080#reply57
+
+---
+
+#### 9954. [V2EX] iPhone Duo 其实是 iPad nano
+
+**问题描述 / Problem Description**:
+拿来当手机用太大了，而且 esim 不方便，但是换个视角当便携版 iPad mini 刚刚好。 到时候看看有没有便宜的美版的水货拿来当 iPad 用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241075#reply9
+
+---
+
+#### 9955. [V2EX] 筷子不能竖着插在饭里是全国性的常识吗？
+
+**问题描述 / Problem Description**:
+今天在推特上刷到一个关于中日韩文化禁忌的帖子，让我想起来初中时发生的一件事。 某次吃饭时，我将筷子竖着插在了米饭里，父亲仿佛像被狗咬了一样蹦起来狠狠揍了我一顿，又是打又是骂，说广东人给先人上供的时候才这么干。 我心里愤愤不平，你一个甘肃人，又不是广东人，你急什么；再说也没人给我说过这件事啊，家里也不供奉什么先祖灵位，我咋知道有这回事。 从那以后每次我想起这件事心头就蒙起了一层阴影，只要自己一个人吃饭都要将筷子竖着插在米饭里，不知不觉成为了习惯，一直到今天。 我想知道，这件事情你们从小就知道吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241327#reply177
+
+---
+
+#### 9956. [V2EX] 求真： Kimi 被带走 16 个人，包括老大。。。
+
+**问题描述 / Problem Description**:
+原文第 149 页 这些跨会话重放攻击,使实施非法蒸馏的实体得以采集思维链推理记录。我们正在引入新方法,增强针对这些手法的防御。 调查还发现，Moonshot 重新路由至 Claude 的用户查询,包含多类 Moonshot 客户的敏感信息。我们不知道 Moonshot 是否告知客户，请求被转发给 Anthropic 并暴露给第三方。 这些信息包括 与解放军有关的监控活动。一名我们评估很可能与解放军有关的用户，使用其以为是 MoonshotKimi 的模型加载了闭路电视档案中针对某一目标人物的监控数据,请求 Kimi 分析该人物行为是否异常。数据包含成都数百个摄像头的监控视频,包括位于解放军设
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241456#reply7
+
+---
+
+#### 9957. [V2EX] 意外发现华为 FreeClip 2 支持锤头暂停
+
+**问题描述 / Problem Description**:
+刚刚想问题有点深入，往后靠坐了一下，握拳锤了两下自己头（如图所示，大概就是那个有点凹下去的地方），发现音乐停掉了，又锤了两下结果又开始播放了。 第一次遇到这么神奇的操作判定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241421#reply6
+
+---
+
+#### 9958. [V2EX] 硕博生利器，利用大模型辅助公式推演
+
+**问题描述 / Problem Description**:
+SymKit MCP 是一个 MCP 服务器，在 SymPy 之上提供真正的计算机代数后端，共 44 个工具。智能体用它推导、校验并记录物理、工程、化学、生物、经济等领域的公式。这个本地 MCP ，我已经经过了多轮迭代和优化，自己平时写论文也在用。 GitHub https://github.com/LBurny/symkit-mcp PyPI https://pypi.org/project/symkit-mcp/ 公式推导 ：一个 math() 工具覆盖 32 种符号运算，包括化简、求解、求导、积分、级数、极限等。输入支持 SymPy 字符串、 A = B 形式的自然方程、莱布尼茨记法、U
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241403#reply0
+
+---
+
+#### 9959. [V2EX] 幼儿园的名单公示，打码规则是否不太合理？
+
+**问题描述 / Problem Description**:
+现在幼儿园录取名单公示是这样打码的： 姓名：真实姓名 身份证号：440***********4120 后四位公示出来了，前几位地区码大概率能根据当地地方猜对，然后当年小班入学的年龄是确定的， 只有月份、日期是未知的。 有校验位的情况下，反推出月份、日期的合规身份证号数量应不多。 感觉这个打码规则不是很合理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241383#reply31
+
+---
+
+#### 9960. [V2EX] 分享浅浅尝试用 Grok Bot 创建数字员工自动开发流程
+
+**问题描述 / Problem Description**:
+目前这个流程自动化已经实现，给大家提供一下思路 tps.bunai.cc ，为了给我这个项目，自动化采集最新开源得模型，这个实现方法有很多，做这个目的更是为了简单尝试验证一个模拟公司开始流程，能不能实现。 流程就是 Linear 出任务 → 自动进开发群 → Lead/Dev/QA/Ops 接活 建 Issue / 每日循环生成 → Lead 自动发到开发群 → Dev 开发 · QA 验证 · Ops 上线 两种任务： 一次性 ：六总在 Linear 项目 tps 建 Issue ，或直接在开发群说 每日循环 ：Linear Recurring 「更新大厂开源模型与参数」 有新模型 → 按
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241365#reply0
+
+---
+
+#### 9961. [V2EX] 试用了一下 opencode ，才发现一直用的 claudecode 这么坑，同样的提示词把我的 token 当游戏币烧
+
+**问题描述 / Problem Description**:
+发同样的指令写两个 lsposed 插件（给通知组件加通知留存），效果没什么差别，token 消耗第一条指令 claudecode 消耗高两倍，第二个指令高五倍。用的同一个中转站 api 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241331#reply4
+
+---
+
+#### 9962. [V2EX] V2EX 的流量堪比几千粉丝的 X 号
+
+**问题描述 / Problem Description**:
+新号发了三篇帖子基本稳定在 4000 浏览，这还是 4000 垂直程序员的浏览，在自媒体看来很难得的平台了，而且 V2EX 的社区氛围真是比 X 号上好多倍，X 的推荐流太浮躁了全是营销号，V2EX 还真是能解决问题，而且活人感强烈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241308#reply6
+
+---
+
+#### 9963. [V2EX] 中转站卖数据，这是真的吗
+
+**问题描述 / Problem Description**:
+详情见推特链接 https://x.com/shoucccc/status/2098169782541631871?s=20 https://x.com/shoucccc/status/2042423713019412941?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241299#reply26
+
+---
+
+#### 9964. [V2EX] 非国行 iPhone 开启 iOS27 new siri 规则分享
+
+**问题描述 / Problem Description**:
+非国行设备 iCloud 和 app store 登录外区 🪜配置规则： - DOMAIN,gateway.icloud.com,PROXY - DOMAIN,seed.siri.apple.com,PROXY - DOMAIN,probe.icloud.com,PROXY - DOMAIN,metrics.icloud.com,PROXY - DOMAIN,guzzoni.apple.com,PROXY - DOMAIN-SUFFIX,smoot.apple.com,PROXY # -------------------------------------------------------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241284#reply3
+
+---
+
+#### 9965. [V2EX] Verisign 发通知，域名年年涨价 7%，太残暴了
+
+**问题描述 / Problem Description**:
+从 11 月 1 日开始，Verisign 域名今年又涨价 7% 收到域名注册商的通知，Verisign 今年.com 域名又要涨价 7%，从 11 月 1 日开始 ICANN/NTIA 新规执行后，Verisign 已经连续 4 年，年年涨价 7%，什么收益率赶得上年年 7%。 据估算全球仅.com 域名一个后缀，涨价 7%就可以增加近 10 亿/年的收入，太残暴了 有米的老铁，只能在 10 月底之前多续几年了😔😔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241282#reply1
+
+---
+
+#### 9966. [V2EX] 薅羊毛： deepseek v4.1 flash free now
+
+**问题描述 / Problem Description**:
+（这里有我的邀请码）国际版： https://workbuddy.ai/invite?code=8K974VT8 （没有邀请码）国际版： https://workbuddy.ai/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241272#reply6
+
+---
+
+#### 9967. [V2EX] 老罗又开始对 Apple 密集输出了，他新产品还在做吗？
+
+**问题描述 / Problem Description**:
+昨天 Apple 发布会后 老罗又开始吐槽锤子子公司的产品了 吐槽完还不够 还要回复转发对线 上了好几个微博热搜 俨然是自己锤子手机的盛况 记得他卖掉锤子准备新公司细红线创业时 说自己会尽量低调 不影响新公司产品 但好几年过去了 没看到新产品 最近又开始活跃在自媒体上 他新公司的产品还在做吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241259#reply2
+
+---
+
+#### 9968. [V2EX] 数字产品出海，价格是不是国内的 5 到 10 倍？
+
+**问题描述 / Problem Description**:
+这段时间在试着做数字产品出海，发现国内外的价格差得确实挺大。 国内小红书上的数字素材，很多也就卖 10 块钱左右。闲鱼更夸张，1 块多可以买一大包，不过大部分都是盗版或者到处拼起来的合集，这种价格也没法参考。 不知道 V 站有没有做数字产品出海的朋友，你们一般是按国内的几倍定价？ 3 倍、5 倍，还是直接 10 倍？ 我最近也在拿一个小站试水： plannerdigital.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241231#reply1
+
+---
+
+#### 9969. [V2EX] ［全球工单］支付宝 play 12.12.16.7000 版本打开“我的”提示“埋点捕获启动成功”
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241179#reply8
+
+---
+
+#### 9970. [V2EX] 大力推荐：日本电影《爆蛋》
+
+**问题描述 / Problem Description**:
+演员演技太强了，大段快速的台词加上独特的表情，再也找不出类似的表演。剧情设计也很厉害，直到电影结束，也没有真正确定事情的真相，但是，毫无疑问这是一部烧脑悬疑电影的必看佳作。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241175#reply4
+
+---
+
+#### 9971. [V2EX] 还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429
+
+**问题描述 / Problem Description**:
+一直给 Deepseek 官方充值。最近活干的没动力了。弄点免费的，凑合着用。测试了一下目前还能薅到的羊毛。 b.ai ，用的是 glm-5.3-flash 和 qwen3.8-flash 。从来不中断，跟蜗牛一样干活。随便一个任务，就得几十分钟。稍微大一点的，干到过两个小时。 商汤用的是 GLM-5.2 和 sensenova-6.8-flash-lite 。速度倒是挺快。就得碰运气，基本上每个任务都得反复 429 好几回。 大家还有别的好用的推荐没？我英文不行，整不明白国外的东西，也没国外手机号、银行卡。要是有靠谱的教程，给哥们儿分享一个链接呗。还有你们说日均 10 块钱的订阅，说的都是啥
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241121#reply5
+
+---
+
+#### 9972. [V2EX] 你亏了几个 iPhone duo 了
+
+**问题描述 / Problem Description**:
+买东西唯唯诺诺 股市重拳出击 我已经亏了一个半了，手机还是好几年前的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241113#reply12
+
+---
+
+#### 9973. [V2EX] 智谱·杭州全城 Coding 计划，至高补贴 51%
+
+**问题描述 / Problem Description**:
+https://docs.bigmodel.cn/cn/coding-plan/hangzhou-rules
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241098#reply4
 
 ---
