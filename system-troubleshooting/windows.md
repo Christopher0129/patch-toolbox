@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10894**
+**总计条目 / Total entries: 10934**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -147543,5 +147543,525 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241287#reply4
+
+---
+
+#### 10895. How to instruct Windows Update not to install Windows updates during active hours?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 0 | Views: 56 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+Workaround You can manually pause updates from Settings | Windows Update by selecting Pause updates , or Create a Registry .reg script to set HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU , DWORD value NoAutoUpdate to 1 to pause updates by exporting that key using Regedit. Create a a second .reg script to set the value NoAutoUpdate to 0 when it's acceptable to update the VM. It might be possible to create a Scheduled Task or other means to run those script at appropriate times. N.B.: Microsoft controls the transmission, as did Outer Limits , and might override that setting.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940317/how-to-instruct-windows-update-not-to-install-windows-updates-during-active-hour
+
+---
+
+#### 10896. Very slow download/install speeds on steam/battlenet/xboxapp
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wep66x/very_slow_downloadinstall_speeds_on/
+
+---
+
+#### 10897. OS SSD Near End of Life
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wejyw2/os_ssd_near_end_of_life/
+
+---
+
+#### 10898. Anyone notice something odd going on with Google last 2 weeks?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wejicx/anyone_notice_something_odd_going_on_with_google/
+
+---
+
+#### 10899. A file just auto downloaded on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wdvomf/a_file_just_auto_downloaded_on_my_pc/
+
+---
+
+#### 10900. PC becomes sluggish after several hours of gaming, but games run perfectly Ryzen 9800X3D + RX 9070 XT
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wepodu/pc_becomes_sluggish_after_several_hours_of_gaming/
+
+---
+
+#### 10901. Am I still hacked? Should I refresh my pc again anyways?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wephee/am_i_still_hacked_should_i_refresh_my_pc_again/
+
+---
+
+#### 10902. CPU usage high and stuck at 0.40GHz speed and laptop turns off when charger is disconnected .
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wepggf/cpu_usage_high_and_stuck_at_040ghz_speed_and/
+
+---
+
+#### 10903. Is my phone ok ??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wec8ov/is_my_phone_ok/
+
+---
+
+#### 10904. What is happening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wepbol/what_is_happening/
+
+---
+
+#### 10905. HP Omen Windows 11 PC keeps forgetting PIN.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weorvj/hp_omen_windows_11_pc_keeps_forgetting_pin/
+
+---
+
+#### 10906. This is pissing me off. (Google Drive)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weorm2/this_is_pissing_me_off_google_drive/
+
+---
+
+#### 10907. Can't ping but can SSH into it???
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weorji/cant_ping_but_can_ssh_into_it/
+
+---
+
+#### 10908. Need some help with headphones.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weopff/need_some_help_with_headphones/
+
+---
+
+#### 10909. New Monitor keeps flickering every 5-15 seconds
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weo7t2/new_monitor_keeps_flickering_every_515_seconds/
+
+---
+
+#### 10910. RTX 3060ti it's not detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1weo4ui/rtx_3060ti_its_not_detected/
+
+---
+
+#### 10911. RTX 5060 Aero try to Overclock TDP over 165W
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wei52h/rtx_5060_aero_try_to_overclock_tdp_over_165w/
+
+---
+
+#### 10912. ChatGPT + Grok Android login failure — browser works
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wenxhn/chatgpt_grok_android_login_failure_browser_works/
+
+---
+
+#### 10913. Using compressed air to clean a laptop.. is liquid refrigerant harmful?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wehu3h/using_compressed_air_to_clean_a_laptop_is_liquid/
+
+---
+
+#### 10914. I can not figure out what's going on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wendbc/i_can_not_figure_out_whats_going_on/
+
+---
+
+#### 10915. PC passes post but no display or power to USB ports
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wen2q2/pc_passes_post_but_no_display_or_power_to_usb/
+
+---
+
+#### 10916. Randomly occurring unexplained crashing to a green screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wen2k1/randomly_occurring_unexplained_crashing_to_a/
+
+---
+
+#### 10917. I2C HID Device Failure
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wen1fq/i2c_hid_device_failure/
+
+---
+
+#### 10918. After accidental "clear cmos" button press my pc cant show me files
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wen0et/after_accidental_clear_cmos_button_press_my_pc/
+
+---
+
+#### 10919. Computer having issues after a storm. Everything seems to work, but continuing to go into an automatic repair and unable to be repaired
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wemwqa/computer_having_issues_after_a_storm_everything/
+
+---
+
+#### 10920. [V2EX] claude 被封 5 天，苹果不退款。
+
+**问题描述 / Problem Description**:
+claude pro 会员用了大约一周，周限额一直保持在 20%内。 第一次邮件申诉退款，Apple 拒绝。 第二次打电话申诉，被告知他们也无能为力，这就是最终决定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241607#reply2
+
+---
+
+#### 10921. [V2EX] 没有安卓设备可以拿 Google Play 订阅 ChatGPT 吗？
+
+**问题描述 / Problem Description**:
+感觉 App Store 经常买礼品卡比较麻烦，如果 Google Play 的话能绑国内的卡自动扣款就比较省事，但是没有实体安卓设备，所以问问大家有没有相关经验？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241577#reply2
+
+---
+
+#### 10922. [V2EX] 《编码》中文第 2 版-第 312 页-第 2 张图，是不是有错误？
+
+**问题描述 / Problem Description**:
+如题，第 312 页-第 2 张图，最下方的 OR 门左侧，应该还有 2 根线，分别来自 INX HL 和 DCX HL 。 同样地，与此图对应的官网大图，也漏掉了这 2 根线： codehiddenlanguage.com/Chapter23 漏掉的直接后果，是导致 INX HL 和 DCX HL 的执行周期，错误地解码成了 1-cycle-execute ，而正确的解码结果，应该是 2-cycle-execute 。 因为只有这样，才能依次完成“HL 使能（ EC1 ）→递增计数器时钟（ EP1 ）→HL 选择和递增计数器使能（ EC2 ）→HL 时钟（ EP2 ）”这 2 个周期（ cy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241575#reply4
+
+---
+
+#### 10923. [V2EX] 现在还有哪些好的积极维护 GKD 订阅？
+
+**问题描述 / Problem Description**:
+各位大佬，现在还有哪些好的积极维护 GKD 订阅？求分享
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241574#reply0
+
+---
+
+#### 10924. [V2EX] 感谢回答：个人开发者没有公司 / 营业执照，付费产品怎么收款最合适？
+
+**问题描述 / Problem Description**:
+各位 V 友，想请教一个个人开发者收款的问题。 我准备上线一个个人开发的产品（网页应用会员制），有自己的独立网站，需要让用户付费（初步是买断制，后续可能考虑订阅）。我目前是纯个人身份，没有注册公司，也没有个体工商户营业执照，走不了常规的企业商户开通流程。 还有哪些比较常用的收费途径吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241554#reply14
+
+---
+
+#### 10925. [V2EX] VibeCoding 开发痛点，欢迎讨论
+
+**问题描述 / Problem Description**:
+我日常中出现的两个情况： 1. A 工具额度用完了之后，拷贝该工具的 link ，去 B 工具说：‘继续 xx/xx ，未完成的事情’... 2. A 仓库和 B 仓库有上下游关系的时候，我希望有一个整体的资料看板。用了几个现有产品还不够理想，还是以本地文件看板和人工提示为主
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241500#reply9
+
+---
+
+#### 10926. [V2EX] 有靠谱的宏观日历 REST API 推荐吗？
+
+**问题描述 / Problem Description**:
+目前用了几个： - OKX：差点意思，修正值有缺失 - Yahoo：部分数据缺失 - 长桥：没测试成功 - 富途：需要 client ，不是 REST API ，没测试
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241499#reply3
+
+---
+
+#### 10927. [V2EX] 扫码付款后有广告，有没有办法彻底地屏蔽
+
+**问题描述 / Problem Description**:
+每次用微信、支付宝付款后，都会有各种各样的小广告和弹窗，属实恶心人，找遍所有的设置也没有彻底关闭的方法。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241495#reply15
+
+---
+
+#### 10928. [V2EX] JD 家政价格上升了
+
+**问题描述 / Problem Description**:
+去年咸鱼上还 30-40 左右；今年上海直接 66 了； 都不如开 PLUS 便宜了； 99plus 送 2 次；合计 48 一次；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241494#reply4
+
+---
+
+#### 10929. [V2EX] 木椅子坐久了，经常屁股有汗，会黏住裤衩，好不透气，怎么办
+
+**问题描述 / Problem Description**:
+rt ，佬友们有什么 100r 以下的解决办法嘛，目前在短居，上不了工学椅
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241486#reply30
+
+---
+
+#### 10930. [V2EX] 生图有和 gpt-image2 能打的国产模型么
+
+**问题描述 / Problem Description**:
+gpt-image2 生成的 PPT 图片或者海报图片确实很赞呀，就是不能直接转成 PPT ，用一些其他工具转出来基本上效果都大打折扣了。大家生成 PPT 都在用什么工具呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241483#reply5
+
+---
+
+#### 10931. [V2EX] 有做跨境电商和出海的吗
+
+**问题描述 / Problem Description**:
+发现找这些交流人群，很困难，或者有兄弟们知道哪里有吗？ 谁家做的比较好？ 有头部推荐吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241462#reply6
+
+---
+
+#### 10932. [V2EX] 关于 AI 对人类的威胁
+
+**问题描述 / Problem Description**:
+现在网络上对 AI 威胁论的讨论几乎到了毛骨悚然的地步。其中不乏那些头部人工智能公司的研究员，说什么 AI 末日、若干年内 AI 会消灭所有人类等等。对此我实在理解不了。 现在的 AI 基本就是围绕大语言模型展开的，这种主要处理文本的概率模型它怎么来威胁人类呢？模型没有记忆功能，只能进行一问一答，即使现在能做一些复杂任务，也只是靠在外层套了一个 Agent 壳子来辅助而已。 它到底怎么来消灭人类？至少说说威胁的途径和可行性吧？似乎都在说 AI 会威胁人类生存，但都没说具体威胁手段有哪些。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241440#reply12
+
+---
+
+#### 10933. [V2EX] 兄弟们，有偿求助
+
+**问题描述 / Problem Description**:
+我的 QQ 只记得用户名和密码，但是我手机早换了。 现在登陆新设备一直要我提示 手机验证码。那个手机号码还是猴年马月的。 QQ 也没有实名认证，有谁知道要怎么登陆上去吗。 有偿求助
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241384#reply2
+
+---
+
+#### 10934. [V2EX] 兄弟们最近用 AI 有完成什么自己觉得不可思议的功能吗
+
+**问题描述 / Problem Description**:
+如题,大家可以随意发挥,不泄露公司业务就好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241378#reply5
 
 ---

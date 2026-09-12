@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3722**
+**总计条目 / Total entries: 3742**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -54095,5 +54095,245 @@ USN-8571-1 fixed vulnerabilities in Apache HTTP Server. That fix was incomplete 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8571-2
+
+---
+
+#### 3723. CVE-2026-90461 - ironic: OpenStack Ironic: Information disclosure via unexpected credential…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ironic: OpenStack Ironic: Information disclosure via unexpected credential transmission. Bugzilla: 2532451
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532451
+
+---
+
+#### 3724. CVE-2026-89772 - kernel: Linux kernel Btrfs: Data corruption and loss due to missing write…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel Btrfs: Data corruption and loss due to missing write protection during data writeback. Bugzilla: 2532151
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532151
+
+---
+
+#### 3725. CVE-2026-89773 - kernel: Linux kernel: AMD display driver fails to configure HDCP in transition…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: AMD display driver fails to configure HDCP in transition state. Bugzilla: 2532336
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532336
+
+---
+
+#### 3726. CVE-2026-89771 - kernel: Linux kernel: Race condition in ring buffer resizing can lead to denial of…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Race condition in ring buffer resizing can lead to denial of service.. Bugzilla: 2532138
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532138
+
+---
+
+#### 3727. CVE-2026-89770 - kernel: Linux kernel: NULL pointer dereference in iomap component
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: NULL pointer dereference in iomap component. Bugzilla: 2532471
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532471
+
+---
+
+#### 3728. CVE-2026-89769 - kernel: Linux kernel: Use-after-free due to IRQ leak in NXP PIT clocksource driver
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Use-after-free due to IRQ leak in NXP PIT clocksource driver. Bugzilla: 2532161
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532161
+
+---
+
+#### 3729. CVE-2026-89768 - kernel: Linux kernel: Information disclosure via incorrect path derivation in…
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Information disclosure via incorrect path derivation in nested overlayfs. Bugzilla: 2532171
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532171
+
+---
+
+#### 3730. CVE-2026-89767 - kernel: Linux kernel overlayfs: Denial of Service due to double unlock during…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel overlayfs: Denial of Service due to double unlock during directory creation. Bugzilla: 2532416
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532416
+
+---
+
+#### 3731. CVE-2026-89766 - kernel: Linux kernel: Information disclosure in pidfd namespace handling
+
+**严重程度 / Severity**: LOW
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Information disclosure in pidfd namespace handling. Bugzilla: 2532287
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532287
+
+---
+
+#### 3732. CVE-2026-89765 - kernel: Kernel: Information disclosure in timers/itimer due to uninitialized…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Kernel: Information disclosure in timers/itimer due to uninitialized padding. Bugzilla: 2532295
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532295
+
+---
+
+#### 3733. CVE-2026-89764 - kernel: Linux kernel (rust devres): Use-after-free due to race condition in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel (rust devres): Use-after-free due to race condition in concurrent resource revocation. Bugzilla: 2532452
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532452
+
+---
+
+#### 3734. CVE-2026-89763 - kernel: Linux kernel: Use-after-free in TPM trusted keys due to incorrect teardown…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Use-after-free in TPM trusted keys due to incorrect teardown ordering. Bugzilla: 2532156
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532156
+
+---
+
+#### 3735. CVE-2026-89762 - kernel: Linux kernel AppArmor: Use-After-Free vulnerability during credential…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel AppArmor: Use-After-Free vulnerability during credential replacement. Bugzilla: 2532435
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532435
+
+---
+
+#### 3736. CVE-2026-89760 - kernel: Linux Kernel: Memory corruption due to improper handling of hibernation…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux Kernel: Memory corruption due to improper handling of hibernation slots in swap cache. Bugzilla: 2532145
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532145
+
+---
+
+#### 3737. CVE-2026-89761 - kernel: Kernel: AppArmor out-of-bounds write allows local denial of service or…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Kernel: AppArmor out-of-bounds write allows local denial of service or privilege escalation. Bugzilla: 2532235
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532235
+
+---
+
+#### 3738. CVE-2026-89759 - kernel: Linux kernel: Denial of Service due to kmemleak soft lockup when scanning…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Denial of Service due to kmemleak soft lockup when scanning task stacks. Bugzilla: 2532495
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532495
+
+---
+
+#### 3739. CVE-2026-89758 - kernel: Linux kernel: Denial of Service due to improper handling of device-private…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Denial of Service due to improper handling of device-private PMDs in memory management. Bugzilla: 2532153
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532153
+
+---
+
+#### 3740. CVE-2026-89757 - kernel: Linux Kernel: Memory management flaw leads to unevictable memory pages
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux Kernel: Memory management flaw leads to unevictable memory pages. Bugzilla: 2532135
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532135
+
+---
+
+#### 3741. CVE-2026-89756 - kernel: Linux kernel: Denial of Service due to RCU-tasks stall during memory…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: Denial of Service due to RCU-tasks stall during memory migration. Bugzilla: 2532146
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532146
+
+---
+
+#### 3742. CVE-2026-89755 - kernel: Linux kernel: System crash due to stale memory mapping in device migration
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Linux kernel: System crash due to stale memory mapping in device migration. Bugzilla: 2532241
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532241
 
 ---

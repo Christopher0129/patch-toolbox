@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10254**
+**总计条目 / Total entries: 10312**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -141274,5 +141274,759 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241304#reply9
+
+---
+
+#### 10255. I miss the printed magazines days
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wec93c/i_miss_the_printed_magazines_days/
+
+---
+
+#### 10256. Void Linux maintainer orphans 100+ packages over AI policy dispute
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1weham7/void_linux_maintainer_orphans_100_packages_over/
+
+---
+
+#### 10257. Yall like my fan art?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wel6kh/yall_like_my_fan_art/
+
+---
+
+#### 10258. Polish furniture store uses laptop props with fedora
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1weorsl/polish_furniture_store_uses_laptop_props_with/
+
+---
+
+#### 10259. OpenCAD Studio a FOSS alternative of AutoCAD and other 2D drafting and 3D CAD modeling programs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wemdap/opencad_studio_a_foss_alternative_of_autocad_and/
+
+---
+
+#### 10260. Intel Linux NPU driver only now officially supports Ubuntu 26.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wed4zq/intel_linux_npu_driver_only_now_officially/
+
+---
+
+#### 10261. Debian 13.7 point released...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wenyps/debian_137_point_released/
+
+---
+
+#### 10262. I got Qwen running on the XDNA1 NPU in my Ryzen 7 250 on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1weozob/i_got_qwen_running_on_the_xdna1_npu_in_my_ryzen_7/
+
+---
+
+#### 10263. This Week in Plasma: 6.8 Beta Release!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1we14gh/this_week_in_plasma_68_beta_release/
+
+---
+
+#### 10264. Nixctl - simple nixos helper
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wenrss/nixctl_simple_nixos_helper/
+
+---
+
+#### 10265. Modding on Linux got easier
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wei67a/modding_on_linux_got_easier/
+
+---
+
+#### 10266. Is this legal? Throwing all open-source codebases into the AI meat grinder...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1weh98t/is_this_legal_throwing_all_opensource_codebases/
+
+---
+
+#### 10267. Why terminal animations can eat actual output and how to stop them
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wegqsz/why_terminal_animations_can_eat_actual_output_and/
+
+---
+
+#### 10268. luna-todo, to do app that knows structure!
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wej8yp/lunatodo_to_do_app_that_knows_structure/
+
+---
+
+#### 10269. I made Dupster, a fast TUI for finding and reviewing duplicate files
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wepjco/i_made_dupster_a_fast_tui_for_finding_and/
+
+---
+
+#### 10270. swaggerfall: an open world first person RPG in the command line
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wdipbc/swaggerfall_an_open_world_first_person_rpg_in_the/
+
+---
+
+#### 10271. sshelf 0.14.1, a fuzzy-search TUI for SSH hosts: what a security review turned up, and what users reported
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1we89t7/sshelf_0141_a_fuzzysearch_tui_for_ssh_hosts_what/
+
+---
+
+#### 10272. hop: project sessions beyond tmux
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wdbp16/hop_project_sessions_beyond_tmux/
+
+---
+
+#### 10273. plotext 6: plot data, images and video in the terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wdgomr/plotext_6_plot_data_images_and_video_in_the/
+
+---
+
+#### 10274. alphai-tui: news and insider trades next to the price chart, in your terminal (rust, ratatui)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wdlzfk/alphaitui_news_and_insider_trades_next_to_the/
+
+---
+
+#### 10275. How do you handle large/unknown JSON responses in the terminal?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wd9744/how_do_you_handle_largeunknown_json_responses_in/
+
+---
+
+#### 10276. Roxy - HTTP Proxy to intercept requests
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wcxk1g/roxy_http_proxy_to_intercept_requests/
+
+---
+
+#### 10277. budget-tracker-tui 1.6.0: Personal finance TUI improved & expanding
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wc3a3j/budgettrackertui_160_personal_finance_tui/
+
+---
+
+#### 10278. somars 0.2.5 — console SomaFM player, now with Last.fm scrobbling
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wbz5cz/somars_025_console_somafm_player_now_with_lastfm/
+
+---
+
+#### 10279. pb- Windows clipboard as a file
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wc0nwb/pb_windows_clipboard_as_a_file/
+
+---
+
+#### 10280. Local vault manager (cryptsetup + SH)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wbruef/local_vault_manager_cryptsetup_sh/
+
+---
+
+#### 10281. What if the terminal could learn the commands you run?
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wclv5r/what_if_the_terminal_could_learn_the_commands_you/
+
+---
+
+#### 10282. STORYCLI: Download Your Storytel Audiobooks without Leaving Your Terminal
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wbwujg/storycli_download_your_storytel_audiobooks/
+
+---
+
+#### 10283. Disk/Partition Explorer TUI - An Interactive, Windows-Inspired Disk Viewer (Python)
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1wargfz/diskpartition_explorer_tui_an_interactive/
+
+---
+
+#### 10284. sshelf 0.13.1: the SSH manager TUI I posted here a while back, a lot of your feedback later
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w9x843/sshelf_0131_the_ssh_manager_tui_i_posted_here_a/
+
+---
+
+#### 10285. A complex train and logistics simulator running straight in your terminal? Yep.
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w91l9v/a_complex_train_and_logistics_simulator_running/
+
+---
+
+#### 10286. p2pmux: Multiplayer terminal multiplexer where multiple users and machines can connect to a same session
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w8ruh3/p2pmux_multiplayer_terminal_multiplexer_where/
+
+---
+
+#### 10287. TIL POSIX specifies a tool designed to assist you with generated code
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w809fu/til_posix_specifies_a_tool_designed_to_assist_you/
+
+---
+
+#### 10288. XFetch and XTop
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w8bllb/xfetch_and_xtop/
+
+---
+
+#### 10289. Native Windows Terminal with a CRT renderer, tabs, assistant and mini web-browser in 9 Mb
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w8g7ug/native_windows_terminal_with_a_crt_renderer_tabs/
+
+---
+
+#### 10290. godirb is finally on winget
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w82atb/godirb_is_finally_on_winget/
+
+---
+
+#### 10291. Shellroute: a CLI that gives each shell its own proxy route
+
+**问题描述 / Problem Description**:
+Reddit r/commandline discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/commandline/comments/1w6ze7u/shellroute_a_cli_that_gives_each_shell_its_own/
+
+---
+
+#### 10292. [V2EX] 高性能瀑布流相册应用 crPhotos 1.5.0 发布，新增图片中的文本识别和选择
+
+**问题描述 / Problem Description**:
+crPhotos 是一款 C++开发的瀑布流相册应用 基于源代码 chromium 150.0.7871.91 支持 GPU 渲染加速，视频硬件解码的跨平台照片应用 新增 PP-OCR 模型的支持，实现对图片中的文本识别和选择 - 通过时间线浏览本地照片与视频。 - 添加媒体库文件夹、按文件名搜索和管理收藏。 - 使用内置控件查看图片和播放视频。 - 显示拍摄详情及文件内嵌的 GPS 信息，支持离线城市匹配。 - 通过加密传输和设备配对，与附近的 crPhotos 设备分享媒体。 - 管理可信设备，并选择是否自动接收文件。 - 支持 js 来制作扩展 - 使用轻量级 Edgeface S 模型
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241477#reply0
+
+---
+
+#### 10293. [V2EX] 记录一下最近 2 个月做 Ozon 工具和一次未开始就散掉的合作
+
+**问题描述 / Problem Description**:
+2026 年 7 月初，萍萍给我打了个微信语音。 她是我发小方斌以前的同事，前几年我们去杭州时认识的。电话里她向我打听中转站和 AI 图片生成的事，说她和江苏的一个“表哥”合作，搞了个 Ozon 精铺的上架工具，跑得不错。我当时没太深聊，俄罗斯跨境电商这块我确实没碰过。 方斌前些年一直做房产销售，这几年行情低迷，我们常聚在一起琢磨新出路。那天我顺嘴把萍萍做的事跟他提了一句。 他们都在襄阳，离得近。方斌很感兴趣，隔两天就跑去见了萍萍。又过了两天，方斌打来电话，声音透着兴奋：这软件需求很大，他也跟着发了两天短视频，居然真收了几个付费客户。 只是原工具问题太多，图片动不动就生成失败，客户天天群里开骂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241612#reply1
+
+---
+
+#### 10294. [V2EX] 做了一个 dsh 的 TUI：手机 SSH 远程控制 + Session 费用统计, 欢迎体验加星
+
+**问题描述 / Problem Description**:
+地址: https://github.com/mushuanli/dsht/tree/main deepseek flash 4.1 变强了，也变快了 同时烧钱速度也变快了， 经常一不小心会话越来越长同时费用也越来越高, 几次日费用超过 80 块。 同时有时在外部手机 ssh 能控制 codex, 但是难控制 dsh, 开放网站又不放心，（上个月被盗刷 200 多，不知道 key 什么泄露的） 痛定思痛，决定做一个一个 tui 客户端。 现在已经做好，手机上能用，命令行也能用，每一分钱都看得清清楚楚， 也欢迎大家多使用提意见。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241602#reply0
+
+---
+
+#### 10295. [V2EX] 维护了一年多的开源免费 Todo 软件，最近想让 AI 真正帮我完成任务
+
+**问题描述 / Problem Description**:
+HamsterBase Tasks 是我维护了一年多的开源 Todo 软件，除了官方云，其他所有功能开业免费，支持桌面、手机和网页端。 也支持自部署 最近做了一个 AI Skill：让 AI 自动读取任务清单，或者把某个项目、分组、任务直接交给它。它完成工作后，会带着说明和截图提交完成请求，验收通过后，任务才会被勾掉。 我自己主要拿它写开发需求，让 AI 去做，再回来验收。希望任务清单能成为人和 AI 一起工作的地方。 教程在 https://tasks.hamsterbase.com/zh/blog/ai-integration.html 我现在的用法是，vibe coding 出初版后，把
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241597#reply0
+
+---
+
+#### 10296. [V2EX] 有一说一， DeepSeek V4.1 跑分还行，但实测还是和 Astra 有巨大差距
+
+**问题描述 / Problem Description**:
+今天用了下 DeepSeek V4.1 Flash ，快是真 TM 的快，一直稳定接近 300tok/s ，但在做复杂任务的时候，是真的蠢啊，尤其是和 Astra 比 我今天主要是拿它们来进行一些老手游的反编译和修改（都是已下线的游戏），这个任务其实很麻烦，会遇到各种各样的难题需要模型去解决，DeepSeek 全程疯狂输出 Token ，然后遇到难题就想方案 -> 改代码 -> 问题还在 -> 换方案，一直在重复这样的循环，就 TM 跟鬼打墙一样，关键是这个逼速度还飞快，所以你就看到它疯狂的吐 Token ，疯狂的换方案，最后狂奔 40 多分钟问题没解决，完事还把之前的一个已经破解的模块改坏了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241596#reply35
+
+---
+
+#### 10297. [V2EX] 网站流量监控和 seo 数据分析，选 Plausible 还是 Umami ?
+
+**问题描述 / Problem Description**:
+想自己部署 Plausible 和 Umami ， 看很多人推荐 Plausible ，但是我看需要的服务器配置比需要 2 核 4G 的， Umami 1 核 2G 的好像就能带动，不知道怎么选了。。。 有用过的大佬帮我分析一下用哪个呢？ 还有选哪家的服务器能便宜点呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241586#reply8
+
+---
+
+#### 10298. [V2EX] 做了个做数学动画的 Coding Agent 接入了我的 Manim Workspace.
+
+**问题描述 / Problem Description**:
+做了个 Coding Agent 接入了我做的 Manim Workspace ( https://jizuobiao.xyz/workspace)。使用的是 DeepSeek V4 Flash 的模型，没想到在思考模式为 low 的情况下，就可以复刻很多数学动画了。对于一些数学题目，它甚至直接给求解了。 想学习 Manim 做数学动画，或者就做一些简单的数学动画的朋友可以体验一下。我测了一下，简单的图形，基本上就 1-2 角钱的样子就可以完成。新用户赠送了 1000 积分，方便大家进行体验。 有什么建议，欢迎评价。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241585#reply2
+
+---
+
+#### 10299. [V2EX] 有想做自媒体的同学一起入群交流吗
+
+**问题描述 / Problem Description**:
+我最近在写一个公众号， 对于建立属于自己的商业价值进行了分析，发现很重要的一件事就是建立自己的影响力，以下是我的思考： 1.首先是成为别人愿意求助的人，从解决身边人的实际问题开始（如工具使用、人际关系处理），这是影响力的地基。当然也需坚守边界，正视自身价值，避免无底线付出变成“老好人”。 2.主动争取跨领域合作，接触不同圈层，理解其他行业的运行模式。信息差，也就是别人不知道而你知道的信息，越多，创作选题越丰富，人生的选择权也越大。 3.我希望把对某类话题的沉淀整理成公开内容。这不仅能倒逼自己将碎片化思考梳理成完整逻辑，更能降低他人的信任成本，关注者天然认同你的观点，后续沟通效率极高。 如果你也
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241576#reply1
+
+---
+
+#### 10300. [V2EX] 三点了，我还没重置 gpt
+
+**问题描述 / Problem Description**:
+三点了，我还没重置 gpt ，剩余只有 1% 了，怎么办， 老铁们重置了没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241537#reply11
+
+---
+
+#### 10301. [V2EX] 有没有什么能帮忙规划自驾游的 agent 呢
+
+**问题描述 / Problem Description**:
+能从小红书里面找攻略，在高德地图上标记行程，在飞猪或者携程上查询酒店信息。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241536#reply6
+
+---
+
+#### 10302. [V2EX] vibe coding 的代码你怎么放心上线？
+
+**问题描述 / Problem Description**:
+用 AI 写代码节奏很快，不管是新功能的上线，还是一些 bug 的修复。 但如果上线给用户用，出问题了总会是很麻烦的事情。 大家现在有什么样的技巧或者方式去做测试呢？ DDD ？自动化测试？还是有什么测试 Harness ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241529#reply46
+
+---
+
+#### 10303. [V2EX] 华为阔直板手机真神啊，三星什么时候出 Galaxy Wide 啊
+
+**问题描述 / Problem Description**:
+一直用的三星 Galaxy Ultra ，好几代了，这手机各方面都挺好，但是，但是，总觉得它长了一点，瘦了一点。竖屏的时候，高度有那么一点多余了，眼睛基本只看中间那一块，横屏的时候又矮了一点，你猜怎么着，华为阔直板精准踩中需求点。今天去现场使用，单手轻度使用也是可以的。 阔直板最大的好处就是看书更有感觉了，Ultra 看书要么太瘦了，要么太矮了。 第一次有了换华为的冲动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241528#reply40
+
+---
+
+#### 10304. [V2EX] codex 抓紧蹬啊 弟兄们 又有重置了 tibo 真神
+
+**问题描述 / Problem Description**:
+如图弟兄们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241506#reply54
+
+---
+
+#### 10305. [V2EX] 你们有没有觉得 DeepSeek V4.1 Flash 也开始不说人话了?
+
+**问题描述 / Problem Description**:
+现在的 DeepSeek V4.1 Flash 很像 GPT5.4 的时候，根本不知道在说些什么, 总会造一些不存在的词, 经常使用不常用且特殊的语法，输出内容繁杂。 感觉只适合用来做调用工具完成一次性工作, 不适合项目规划、分析代码和解读文档这类工作。 例如逆向一个嵌入式固件、安装 ASR 模型来本地语音识别都完成得很好。 只要任务的最终产出不是文字就好用, 一旦产出的内容是文字需要人去看时就很痛苦。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241496#reply31
+
+---
+
+#### 10306. [V2EX] 讨论一下在手机上编程是不是伪需求
+
+**问题描述 / Problem Description**:
+如题，手机编程，不是手机远程电脑编程哈 个人观点是伪需求，谢谢，下一个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241482#reply93
+
+---
+
+#### 10307. [V2EX] 搞了个 dsh 的 rust 套壳小工具有 v 友试试水么？
+
+**问题描述 / Problem Description**:
+https://github.com/wang-yi-bit64/dsh-desktop 欢迎 v 友试试毒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241454#reply6
+
+---
+
+#### 10308. [V2EX] Google Search Impact 效果终于起来了
+
+**问题描述 / Problem Description**:
+经过几个月的优化，现在整个站点的 SEO 情况比之前好了很多。 每日点击量基本能达到 800+了。 核心做法就是：永远以用户体验为核心去不断优化，不要为了 SEO 而 SEO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241439#reply4
+
+---
+
+#### 10309. [V2EX] 给几百 G 的本地截图做一个能搜内容的引擎，我踩过的坑
+
+**问题描述 / Problem Description**:
+最近做了个小工具：把我攒了几年、按字节算快 1T 的电脑截图（微信聊天截图、网页截图、报错截图、PPT 截图……）做成一个能直接搜内容的引擎。比如搜「上次那个 nginx 502 的报错」，直接把当时那张截图翻出来。 功能听起来不新鲜，但自己动手做一遍，坑比想象的多。这里把踩过的坑记录一下，给同样有这个需求的朋友参考。 坑一：OCR 不是「接个库」那么简单 一开始想当然：截图 → OCR → 存文本 → 搜，完事。实际： 中文截图里夹杂的英文报错、路径、代码，混排识别率惨不忍睹。纯中文 OCR 库对 Error: EACCES: permission denied '/var/log/...'
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241437#reply13
+
+---
+
+#### 10310. [V2EX] OpenAI 今天发布了 Agents API
+
+**问题描述 / Problem Description**:
+http://openai.com/index/introducing-the-agents-api/ 意味着以后 Harness 也不需要自己写了，官方自动把上下文压缩、tools_call 、subAgents 等等一切都封装好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241432#reply3
+
+---
+
+#### 10311. [V2EX] 随手试了下腾讯最近开源的自托管 Agent Octop
+
+**问题描述 / Problem Description**:
+最近手痒，拉了个腾讯新开源的 Agent 项目 Octop （ https://github.com/TencentCloud/Octop ）跑了一下。 这玩意儿主打自托管，支持多用户多专家，个人用或者扔服务器上挂着都行。部署挺省事，一键起服务，还能直接接 IM 通道。 不过有个小问题：它最核心的几个底层依赖还没开源。现在拉代码跑是能跑，但想魔改源码的兄弟还是得先蹲一手。 整体架构看着还行，活跃度挺高的，需要的兄弟们可以试一下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241426#reply2
+
+---
+
+#### 10312. [V2EX] 独立开发者怎么做竞品调研
+
+**问题描述 / Problem Description**:
+怎么证明，不是伪需求，或者自认为的核心竞争力是不是没用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241425#reply12
 
 ---

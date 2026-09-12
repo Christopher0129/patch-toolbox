@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 9973**
+**总计条目 / Total entries: 10027**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -133950,5 +133950,707 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241098#reply4
+
+---
+
+#### 9974. I got bored with AI slop, so I built Nothing.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wec9og/i_got_bored_with_ai_slop_so_i_built_nothing/
+
+---
+
+#### 9975. Double Sided Windows in WinMux 0.5.4
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wed10s/double_sided_windows_in_winmux_054/
+
+---
+
+#### 9976. Apple reverts and wants to Train AI with Siri Userdata
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wead6j/apple_reverts_and_wants_to_train_ai_with_siri/
+
+---
+
+#### 9977. recreated the iPhone Duo status indicator for macOS — here’s DuoBar
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1weksjl/recreated_the_iphone_duo_status_indicator_for/
+
+---
+
+#### 9978. I give you DVD mode lol
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1we8kry/i_give_you_dvd_mode_lol/
+
+---
+
+#### 9979. My Mac had 130 GB of System Data. I wanted to know what was in it and what I could actually remove.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1weda5x/my_mac_had_130_gb_of_system_data_i_wanted_to_know/
+
+---
+
+#### 9980. StepGrab - Never explain a task manually again. I built a native Mac app that turns whatever you do on-screen into a step-by-step guide (auto screenshots, 100% offline) DM for discount!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1weaa44/stepgrab_never_explain_a_task_manually_again_i/
+
+---
+
+#### 9981. A few months ago, you called my Mac mini LED app shady. You were right, so I fixed it.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wegmdz/a_few_months_ago_you_called_my_mac_mini_led_app/
+
+---
+
+#### 9982. [OS] SpareDisk: Free up your disk space. Open Source with Pay whatever you want for the app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wei35h/os_sparedisk_free_up_your_disk_space_open_source/
+
+---
+
+#### 9983. Bounce Connect: Android notifications, SMS, calls and file sharing on your Mac
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wefp4b/bounce_connect_android_notifications_sms_calls/
+
+---
+
+#### 9984. Logi Options+ alternative that includes gesture-based button mapping and proper smooth scrolling settings (similar to BetterMouse and Mos)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wenq21/logi_options_alternative_that_includes/
+
+---
+
+#### 9985. AeroBar - Advanced Dock for macOS (Free)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wencia/aerobar_advanced_dock_for_macos_free/
+
+---
+
+#### 9986. I built a retro macOS dashboard for a small second display
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1we7p7u/i_built_a_retro_macos_dashboard_for_a_small/
+
+---
+
+#### 9987. I made a Mac app that writes harmony parts around a melody you give it - HarmonyKeen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wepqt4/i_made_a_mac_app_that_writes_harmony_parts_around/
+
+---
+
+#### 9988. Stick man
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1welnwk/stick_man/
+
+---
+
+#### 9989. Is there currently an app that gives you a dynamic island style menu bar?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1weplbk/is_there_currently_an_app_that_gives_you_a/
+
+---
+
+#### 9990. Parasocial 1.5 is out for Mac and Free: publish a playlist under your username, share a collection of shows as one link, multi-select in the library
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wenhea/parasocial_15_is_out_for_mac_and_free_publish_a/
+
+---
+
+#### 9991. I built a quiet morning & evening journal for Mac. No AI, no subscription
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wee28n/i_built_a_quiet_morning_evening_journal_for_mac/
+
+---
+
+#### 9992. Basika
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wedrey/basika/
+
+---
+
+#### 9993. Lodestar: one key puts any app in front of you, focused and maximized. Free for macOS.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wemjrd/lodestar_one_key_puts_any_app_in_front_of_you/
+
+---
+
+#### 9994. I built Mole (CLI to Mac app): dry-run cleanup, protection list, CLI still free. Looking for feedback
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wec7zh/i_built_mole_cli_to_mac_app_dryrun_cleanup/
+
+---
+
+#### 9995. Как загрузить Catalina 10.15.7 на macbook 2012 если у меня сейчас стоит OS X 10.8.5?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wejoem/как_загрузить_catalina_10157_на_macbook_2012_если/
+
+---
+
+#### 9996. SpareDisk: Free up your disk space. Open Source with Pay whatever you want for the app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wei85r/sparedisk_free_up_your_disk_space_open_source/
+
+---
+
+#### 9997. Mission control choppy animation
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wec2hm/mission_control_choppy_animation/
+
+---
+
+#### 9998. I built an all-in-one native utility for macOS Finder. Today I added full Video, Audio & PDF Studios directly into the right-click menu
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wehcyl/i_built_an_allinone_native_utility_for_macos/
+
+---
+
+#### 9999. [V2EX] macOS 26 的显示效果太差了 可读性比 15.7 降了不知多少 时常感觉亮瞎眼 不知道 macOS 27 会不会好点
+
+**问题描述 / Problem Description**:
+RT 几万亿市值的大公司怎么喜欢搞这种花里胡哨华而不实的东西。 大角角也很丑，液态玻璃也很丑，胶囊和圆角开关也很丑。 想不通，一个大公司怎么好意思把这种垃圾放出来的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241583#reply4
+
+---
+
+#### 10000. [V2EX] 除了鼠须管还有别的更好用的拼音输入法吗
+
+**问题描述 / Problem Description**:
+搜狗挺好用的，就是有广告 鼠须管用下来发现 shift 切换中英文输入法经常失灵，还有它的识别确实不如狗搜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241257#reply40
+
+---
+
+#### 10001. [V2EX] mac 上最像 potplayer 的播放器是哪个?请教下大家
+
+**问题描述 / Problem Description**:
+像 potplayer 一样播放列表能固定到右侧的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241209#reply7
+
+---
+
+#### 10002. [V2EX] 你的 mac 用了多少硬盘空间？
+
+**问题描述 / Problem Description**:
+占比最大的是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240322#reply27
+
+---
+
+#### 10003. [V2EX] 为什么有道云笔记在 macos 上那么难用 而且很久没有更新一次
+
+**问题描述 / Problem Description**:
+大家有没有使用有道云笔记的，在 macOS 上特别的难用，而且吃内存增加问题，大家有没有使用过，开通了有道云笔记的年度会员，不用吧可惜，用吧电脑上卡顿，真的是服了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239947#reply14
+
+---
+
+#### 10004. [V2EX] 郁闷， mac 坏了，又要破费了！
+
+**问题描述 / Problem Description**:
+2 年前买的 m3 max ，3 万多，前两天坏了，我就是插拔了一下插排，结果就无法充电了，电池供电情况下还能正常使用，但是当时没意识到坏了，结果就是电池没电了，数据也没来得及备份 到了官方售后，说是主板坏了需要换主板，费用 7000 ，有点儿不舍得 所以今天就找了一个第三方维修店，结果更糟糕，修不了，检测不到坏的地方，猜测是主板板子里面坏了 最后师傅给我搭了个电池让我备份数据，可惜只备份了一部分就没电了，跟人家说好话让再给换个电池，可惜没合适的（电池排线短了点儿 插不上），这里要感谢人家师傅，忙活半天 一分钱没要 回来后预约了明天的官方售后，去换主板
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241595#reply12
+
+---
+
+#### 10005. [V2EX] 今年的 Apple 没有要买的欲望，连系统都没有升级的必要。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241590#reply7
+
+---
+
+#### 10006. [V2EX] 怎么进不去订购页面 duo?
+
+**问题描述 / Problem Description**:
+网页版和 apple store 都进不去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241579#reply3
+
+---
+
+#### 10007. [V2EX] 12 年的时间，苹果硬件花费近 9 万，我的推荐
+
+**问题描述 / Problem Description**:
+我的推荐 我个人觉得性价比最高的依次如下：Air Pods Pro2 、iWatch Ultra2 、Mac Mini M2(16GB)、Apple TV 。手机很难说出性价比，但是很明显从 iPhone 12 和 13 之后，我没有再去过维修点了，质量的确提升比较明显。 Air Pods Pro 平均每个工作日均会使用，陪我听书，看书，听音乐和看电影，有点离不开了。因为有了降噪，甚至在任何环境，我都能专注做我的事情。Pro 3 没有啥提升，感觉我能等到 Pro 4 或者 Pro 5 再考虑更新。 iWatch Ultra2 购买之后，开始使用 Fitness+ 健身。从 2024 平均每日消
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241565#reply14
+
+---
+
+#### 10008. [V2EX] MacBook Pro 疑似烧屏，严重
+
+**问题描述 / Problem Description**:
+m4 2024 款 2025 初购买 https://nyx.rivermao.com/img/Tmp/18796a.jpg https://nyx.rivermao.com/img/Tmp/fffb0c.jpg 现在开机完全是黑屏了 我确信没有外部液体进入正常熄屏状态放了一上午就这样了了 打了苹果官方支持电话直营今天都没有可预约时间了 帮我预约了一个授权店 手机发帖望谅解 将持续更新进度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241557#reply7
+
+---
+
+#### 10009. [V2EX] 免费 Apple 开发者自己做的 APP 如何优雅续签？
+
+**问题描述 / Problem Description**:
+每次用 Xcode 重新打包有点太不优雅了吗？有没有在外网可以直接续签的办法？比如自建 web 服务，可以自动签名，下载安装？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241555#reply10
+
+---
+
+#### 10010. [V2EX] 如何彻底屏蔽 macOS26 更新提示，不在乎红点，只在乎右侧弹出的更新通知
+
+**问题描述 / Problem Description**:
+原因是担心误按了稍后更新之类，之前用过 macOS 小助手，屏蔽红点功能，貌似有点效果好像不彻底，没安装之前，只要用了 pd 虚拟机后，必定弹出更新 macOS 通知，安装小助手后，没见过弹通知了，但是间隔一两个月不定期总是会有更新提示，好像是和苹果官方推送更新的时间接近，平时倒是不会提醒，但是仍然担心，有什么办法可以彻底禁用更新通知？类似 iOS 上 tvOS 办法有吗？ 还望大佬指点。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241534#reply3
+
+---
+
+#### 10011. [V2EX] 美版 iPhone +国行 Apple Watch，可以在 Watch 上使用 Siri AI 吗？
+
+**问题描述 / Problem Description**:
+比较喜欢 Apple Watch S12 的全天候录音 Recap 的功能，以及新的健康 App 还会有一些 AI 驱动的分析和建议，所以现在比较纠结买国行的 Watch 还是买个水货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241503#reply12
+
+---
+
+#### 10012. [V2EX] 各位拿到新 iPhone 是<俩手机物理迁移|iCloud 恢复备份|全新开始>?
+
+**问题描述 / Problem Description**:
+好奇大家都是真么做的 以前都是全新开始, 自己一个个下载 app 配置等等 这几年有点懒了, 直接 icloud 恢复备份, 大家都是用哪种方式呢? 现在 iPhone 迁移数据,恢复备份这种, 还会有异常垃圾啥的被迁移到新手机导致续航变差么?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241448#reply19
+
+---
+
+#### 10013. [V2EX] Plasma 买 apple 返现 20%
+
+**问题描述 / Problem Description**:
+20% back on Apple Buy directly from Apple with your Plasma One card and get 20% cashback. Open Plasma One to check your offer and the end date before you buy. 一步绝杀了吧这个。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241447#reply1
+
+---
+
+#### 10014. [V2EX] 抢购 iPhone 的最佳方式是什么？
+
+**问题描述 / Problem Description**:
+往年都在官网抢，说的晚上八点，每次都在准备页面直到八点多了才能进去，店里自取的早已经抢完了，怎么才能第一时间就进到抢购页面呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241349#reply20
+
+---
+
+#### 10015. [V2EX] 新的广告方式可能又增加了
+
+**问题描述 / Problem Description**:
+苹果针对全新折叠屏手机 iPhone Duo 推出的 iOS 27.1 SDK 中，为开发者提供了获取物理铰链（ Hinge ）连续角度及离散状态的官方 API 后面不仅有摇一摇跳转广告，会不会还会出现开合折叠屏也会触发广告，屏幕开合到特定角度触发特定广告。相信这个会玩出花来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241276#reply16
+
+---
+
+#### 10016. [V2EX] 请教注册日区 id 的正确姿势？
+
+**问题描述 / Problem Description**:
+想玩日区的《世界计划》，按照网上的教程注册了一个日区 Apple ID ，注册时绑定的是中国大陆手机号。 结果登录的时候提示账号需要审核，本以为等一会儿就行，结果已经等了一天还是没审核通过。 想请教一下各位大佬，日区 Apple ID 现在应该怎么正确注册比较稳？中国手机号是不是容易触发审核
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241197#reply12
+
+---
+
+#### 10017. [V2EX] duo 比较惊艳到的两点
+
+**问题描述 / Problem Description**:
+一个是折痕处理，除了优化折痕本身之外，柔光淡化了视觉存在感 另外就是 ui ，特别是展开合上时有点穿透感觉的动画，太牛了 感觉就像写代码时，后台接口太慢又无法解决，前端就加个更酷的 loading 反正大家都抄来抄去的，期待国内这些厂商的后续
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241159#reply3
+
+---
+
+#### 10018. [V2EX] 半夜寂寞,买了个飞机杯,到手感觉亏大了，我日！拍断大腿！
+
+**问题描述 / Problem Description**:
+这两天寂寞难耐,买了个飞机杯回来玩，介绍写的很动人 什么自动吮吸 伸缩 加热功能应有尽有 看的我饥渴难耐,于是果断下单一个 二百出头 到手之后发现中计了 就一个硅胶+一个极其廉价塑料做的伸缩的的玩意 所谓的加热功能 就是给了个看起来几毛钱的小棒,插上 USB 之后有 2-3W 的功率 然后放进去加热 体验感极差 两百多完全血亏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241618#reply0
+
+---
+
+#### 10019. [V2EX] 英伟达 30/20 系显卡开启原生帧生成补丁
+
+**问题描述 / Problem Description**:
+https://github.com/sdli1995/dlssg_for_sm86
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241558#reply0
+
+---
+
+#### 10020. [V2EX] nix 真的 agent 时代的天选之子。
+
+**问题描述 / Problem Description**:
+现在 vibe 全要经由 nix + flake ，甚至 nix profile 都不用。 单体项目，需要 vibe ，就起一个 flake.nix ，一顿乱搞，坏了不心疼，因为 nix 是声明式的，可以 diff ，避免 apt 这种黑箱。 同一个项目，flake 也可以有不同的 outputs ，不用分场景。这带来的便利谁知道啊。 devShells + packages + packages.image ，直接用 profile default 即可，也就是不用 npm -g 呢。 不同项目，多个场景，就 one folder one flake 。 像 oci 的 build ，直接用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241549#reply2
+
+---
+
+#### 10021. [V2EX] 掌管 Codex 重置的 Tibo 要发力了
+
+**问题描述 / Problem Description**:
+如图 开启 ultra 发力吧
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241505#reply5
+
+---
+
+#### 10022. [V2EX] 意外发现华为 FreeClip 2 支持锤头暂停
+
+**问题描述 / Problem Description**:
+刚刚想问题有点深入，往后靠坐了一下，握拳锤了两下自己头（如图所示，大概就是那个有点凹下去的地方），发现音乐停掉了，又锤了两下结果又开始播放了。 第一次遇到这么神奇的操作判定。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241421#reply8
+
+---
+
+#### 10023. [V2EX] 幼儿园的名单公示，打码规则是否不太合理？
+
+**问题描述 / Problem Description**:
+现在幼儿园录取名单公示是这样打码的： 姓名：真实姓名 身份证号：440***********4120 后四位公示出来了，前几位地区码大概率能根据当地地方猜对，然后当年小班入学的年龄是确定的， 只有月份、日期是未知的。 有校验位的情况下，反推出月份、日期的合规身份证号数量应不多。 感觉这个打码规则不是很合理
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241383#reply36
+
+---
+
+#### 10024. [V2EX] 试用了一下 opencode ，才发现一直用的 claudecode 这么坑，同样的提示词把我的 token 当游戏币烧
+
+**问题描述 / Problem Description**:
+发同样的指令写两个 lsposed 插件（给通知组件加通知留存），效果没什么差别，token 消耗第一条指令 claudecode 消耗高两倍，第二个指令高五倍。用的同一个中转站 api 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241331#reply5
+
+---
+
+#### 10025. [V2EX] V2EX 的流量堪比几千粉丝的 X 号
+
+**问题描述 / Problem Description**:
+新号发了三篇帖子基本稳定在 4000 浏览，这还是 4000 垂直程序员的浏览，在自媒体看来很难得的平台了，而且 V2EX 的社区氛围真是比 X 号上好多倍，X 的推荐流太浮躁了全是营销号，V2EX 还真是能解决问题，而且活人感强烈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241308#reply7
+
+---
+
+#### 10026. [V2EX] 中转站卖数据，这是真的吗
+
+**问题描述 / Problem Description**:
+详情见推特链接 https://x.com/shoucccc/status/2098169782541631871?s=20 https://x.com/shoucccc/status/2042423713019412941?s=20
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241299#reply27
+
+---
+
+#### 10027. [V2EX] 非国行 iPhone 开启 iOS27 new siri 规则分享
+
+**问题描述 / Problem Description**:
+非国行设备 iCloud 和 app store 登录外区 🪜配置规则： - DOMAIN,gateway.icloud.com,PROXY - DOMAIN,seed.siri.apple.com,PROXY - DOMAIN,probe.icloud.com,PROXY - DOMAIN,metrics.icloud.com,PROXY - DOMAIN,guzzoni.apple.com,PROXY - DOMAIN-SUFFIX,smoot.apple.com,PROXY # -------------------------------------------------------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241284#reply4
 
 ---
