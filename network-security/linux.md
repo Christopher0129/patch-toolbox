@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3742**
+**总计条目 / Total entries: 3747**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -54335,5 +54335,65 @@ USN-8571-1 fixed vulnerabilities in Apache HTTP Server. That fix was incomplete 
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2532241
+
+---
+
+#### 3743. CVE-2026-90555 - vllm: vLLM: Denial of Service due to improper audio header validation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service due to improper audio header validation. Bugzilla: 2532566
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532566
+
+---
+
+#### 3744. CVE-2026-90554 - vllm: vLLM: Denial of Service via video audio extraction
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via video audio extraction. Bugzilla: 2532572
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532572
+
+---
+
+#### 3745. CVE-2026-90553 - vllm: vLLM: Remote Code Execution via LlavaOnevision2 processor ignoring…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Remote Code Execution via LlavaOnevision2 processor ignoring trust_remote_code. Bugzilla: 2532579
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532579
+
+---
+
+#### 3746. [Gentoo] GLSA 202609-03: Ruby: Remote code execution
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in Ruby, possibly allowing remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202609-03
+
+---
+
+#### 3747. [Gentoo] GLSA 202609-02: Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202609-02
 
 ---

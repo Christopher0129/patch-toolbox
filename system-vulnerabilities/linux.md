@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3464**
+**总计条目 / Total entries: 3467**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -62215,5 +62215,53 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2532241
+
+---
+
+#### 3465. CVE-2026-90555 - vllm: vLLM: Denial of Service due to improper audio header validation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service due to improper audio header validation. Bugzilla: 2532566
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532566
+
+---
+
+#### 3466. CVE-2026-90554 - vllm: vLLM: Denial of Service via video audio extraction
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via video audio extraction. Bugzilla: 2532572
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532572
+
+---
+
+#### 3467. CVE-2026-90553 - vllm: vLLM: Remote Code Execution via LlavaOnevision2 processor ignoring…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Remote Code Execution via LlavaOnevision2 processor ignoring trust_remote_code. Bugzilla: 2532579
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532579
 
 ---

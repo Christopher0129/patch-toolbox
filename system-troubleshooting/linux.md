@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10312**
+**总计条目 / Total entries: 10346**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -142028,5 +142028,447 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241425#reply12
+
+---
+
+#### 10313. Slow start caused by USB errors
+
+**问题描述 / Problem Description**:
+Tags: debian, usb | Score: 0 | Views: 14 | Answers: 1 | Created: 2026-09-13
+
+**解决方案 / Solution**:
+No wonder you're not seeing that device in lsusb , since it never enumerates on the bus. It might just be a slight contact between D+ and D- of some USB port. And if it is the port on the hub itself that is bad, how can I disable that port? Usually, not at all. How can I figure out which device is malfunctioning? Well, it's the fourth port. What that means, electrically, is impossible to figure out without knowing the board layout on which the USB hub IC is soldered, and the datasheet of the hub. which would be bad because it is a reasonably expensive KVM usb switch I use to toggle between personal and work computers. That might be the answer here: I don't know your KVM switch, but it might really simply be terminating lines on the inactive side, and that's its operating principle. That'd be strange, but nothing too surprising in the very err diverse range of USB device implementations.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807377/slow-start-caused-by-usb-errors
+
+---
+
+#### 10314. Adobe on Linux Mint 22.3 (Wine)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfeg94/adobe_on_linux_mint_223_wine/
+
+---
+
+#### 10315. You can digitally sign pdfs with a smart card on linux with Gnome Document Viewer
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfha69/you_can_digitally_sign_pdfs_with_a_smart_card_on/
+
+---
+
+#### 10316. I wrote a systemd unit for logging the kids out at night
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wetw0x/i_wrote_a_systemd_unit_for_logging_the_kids_out/
+
+---
+
+#### 10317. ARCTIC's Fan Controller driver for Linux being dual-licensed with BSD-2-Clause
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wf4o4q/arctics_fan_controller_driver_for_linux_being/
+
+---
+
+#### 10318. Got Arch fully working on a Samsung Galaxy Book4 Edge (Snapdragon X Plus)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfggbp/got_arch_fully_working_on_a_samsung_galaxy_book4/
+
+---
+
+#### 10319. Fascinating Article About Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wf574h/fascinating_article_about_linux/
+
+---
+
+#### 10320. OpenCalc update: bugfixes, now with financial mode support!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfkzei/opencalc_update_bugfixes_now_with_financial_mode/
+
+---
+
+#### 10321. Speedtest by OOKLA
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfkr31/speedtest_by_ookla/
+
+---
+
+#### 10322. How does changing the hardware clock with the BIOS affect kernel ticks?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfeo84/how_does_changing_the_hardware_clock_with_the/
+
+---
+
+#### 10323. GitHub - YYOzcan/TUFRGB: Lightweight, native Qt6 RGB backlight control utility for ASUS TUF Gaming laptops on Linux
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wexo1p/github_yyozcantufrgb_lightweight_native_qt6_rgb/
+
+---
+
+#### 10324. I built an open-source Linux dashboard for USB hardware sensor displays – looking for hardware testers
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfcrex/i_built_an_opensource_linux_dashboard_for_usb/
+
+---
+
+#### 10325. Convert The Spire Reborn v13.2.1: Open-source YouTube downloader and media player. Looking for Linux testers!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wf5gca/convert_the_spire_reborn_v1321_opensource_youtube/
+
+---
+
+#### 10326. Why are pre-configured bootable snapshots not more prevalent in distros?
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wf87e7/why_are_preconfigured_bootable_snapshots_not_more/
+
+---
+
+#### 10327. I got tired of opening htop every time something felt slow so I made this linux debug overlay
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfcnyk/i_got_tired_of_opening_htop_every_time_something/
+
+---
+
+#### 10328. [V2EX] 开源： Linux NVIDIA 虚拟显示器方案，无需 HDMI 欺骗器
+
+**问题描述 / Problem Description**:
+想在 Linux 上用 Sunshine → Moonlight 做远程桌面，又不想买 HDMI/DP 欺骗器（ dummy plug ） ，也不想一直开着物理显示器。折腾一段时间后，把流程整理成了一个开源项目： https://github.com/mdj2812/sunshine-vdisplay 原理简述 在空闲的 GPU 输出口（未插线的 HDMI/DP ）上，通过 自定义 EDID + 内核参数 强制启用虚拟显示器 核心参数： drm.edid_firmware=<接口>:edid/virtual-display.bin video=<接口>:e （两者缺一不可） Moonlight
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241724#reply2
+
+---
+
+#### 10329. [V2EX] 看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233928#reply113
+
+---
+
+#### 10330. [V2EX] 我就喜欢听人夸 PostgreSQL
+
+**问题描述 / Problem Description**:
+好文分享 https://www.raphaelbauer.com/posts/postgresql-everything 万物借口 PostgreSQL 包括你的 PS5 再多夸点，爱听
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241732#reply3
+
+---
+
+#### 10331. [V2EX] gpt-6-astra max 100 刀 干不出来一个 docker 迁徙 nix
+
+**问题描述 / Problem Description**:
+↑1.5M ↓556k R54M CH98.7% $95.424 (sub)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241728#reply7
+
+---
+
+#### 10332. [V2EX] 这大概是 claude 封号的真正原因
+
+**问题描述 / Problem Description**:
+如果你看了上周报道, 就明白 authropic 周五抱怨/投诉部分中国厂家把算力 redirect 到 claude, 所以这几天你可以明显感觉到 Claude 经常性智障, 速度慢, 这就是直接原因, 我猜测 Claude 为了保障基本算力, 直接采取封号, 特别是那些 5x / 20x 的订阅, 这个时候 IP 纯净度并不重要. 其实 Openai 也是一样, 它甚至直接下线了 200 美元套餐, 就是顶不住这些厂家把算力 redirect 到他们那边的直接原因, 过几天可能会重上, 很大几率会加价或者原价减量. 至于 IP/电脑语言这些大概率也有, 但并不重要.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241695#reply22
+
+---
+
+#### 10333. [V2EX] 求当前 pi agent 开发 iOS & Android 应用的技术栈最佳实践
+
+**问题描述 / Problem Description**:
+app 开发小白想用 pi agent 搞个工具类应用，尽量接近 ios android 原生体验，mac 平台，主要内容是调用摄像头扫码和设备功能设置。 非 cli 类桌面 agent computerUse 太烧 token 。cc cli 和 codex cli 比较啰唆，gpt6 之后 pi 更好用了。 大佬们建议当前使用什么技术栈 最顺畅 最方便？ 关键是 pi 在一边写代码时，一边如何调试 ui 和功能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241662#reply0
+
+---
+
+#### 10334. [V2EX] 试试这个提示词，让大模型重写文档，让人看得懂
+
+**问题描述 / Problem Description**:
+重写设计文档，遵守下面的风格： 1. 禁止使用比喻性质的或肢体动作词，例如“接”、“跑”、“打”、“落”、“补”、“收”等等，除非是专业用语； 2. 主动使用逻辑衔接，用“但是”、“因此”、“那么”等连词来承接存在逻辑关系的上下句。 3. 逐句阅读文档内容并修改，不使用搜索和替换。 4. 按文件分配 sub agent ，避免多个 sub agent 写同一个文件。 对比效果如下（修改之前 vs 修改之后）： - 步骤应落在已登记的动作库上，由规划器组合 - 步骤应来自已登记的动作库，由规划器组合 - 每个步骤都能指回动作库中的登记动作。 - 每个步骤都能追溯到动作库中的登记动作。 - 样本库
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241648#reply13
+
+---
+
+#### 10335. [V2EX] 有一事不解，是绝大多数都是许愿 AI？
+
+**问题描述 / Problem Description**:
+v2 好像还好，隔壁 linux.do 的帖子 80%都是在测试模型有没降智 我用了一年除了 sonnet3.x-4.x 突然开始我说 a ，他做 b 以外这种明显的。其他基本没有感觉到啊…忘记做漏做都是自己没说清楚的。给我的感觉就是我要没提他做了是惊喜，没做是我没说清楚。只要把我说了的都稳定快速做完就是好模型。 或许这种所为的脑子不好使就是模型幻觉在 coding 里面的表现？ 然后我就想到会不会是都在许愿编程？用的人自己并不清楚正确的是什么结果，或者就是一句话帮我做个登录，帮我搞一下支付，帮我做 xx 功能这样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241632#reply8
+
+---
+
+#### 10336. [V2EX] 记录一下最近 2 个月做 Ozon 工具和一次未开始就散掉的合作
+
+**问题描述 / Problem Description**:
+2026 年 7 月初，萍萍给我打了个微信语音。 她是我发小方斌以前的同事，前几年我们去杭州时认识的。电话里她向我打听中转站和 AI 图片生成的事，说她和江苏的一个“表哥”合作，搞了个 Ozon 精铺的上架工具，跑得不错。我当时没太深聊，俄罗斯跨境电商这块我确实没碰过。 方斌前些年一直做房产销售，这几年行情低迷，我们常聚在一起琢磨新出路。那天我顺嘴把萍萍做的事跟他提了一句。 他们都在襄阳，离得近。方斌很感兴趣，隔两天就跑去见了萍萍。又过了两天，方斌打来电话，声音透着兴奋：这软件需求很大，他也跟着发了两天短视频，居然真收了几个付费客户。 只是原工具问题太多，图片动不动就生成失败，客户天天群里开骂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241612#reply5
+
+---
+
+#### 10337. [V2EX] 做了一个 dsh 的 TUI：手机 SSH 远程控制 + Session 费用统计, 欢迎体验加星
+
+**问题描述 / Problem Description**:
+地址: https://github.com/mushuanli/dsht/tree/main deepseek flash 4.1 变强了，也变快了 同时烧钱速度也变快了， 经常一不小心会话越来越长同时费用也越来越高, 几次日费用超过 80 块。 同时有时在外部手机 ssh 能控制 codex, 但是难控制 dsh, 开放网站又不放心，（上个月被盗刷 200 多，不知道 key 什么泄露的） 痛定思痛，决定做一个一个 tui 客户端。 现在已经做好，手机上能用，命令行也能用，每一分钱都看得清清楚楚， 也欢迎大家多使用提意见。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241602#reply1
+
+---
+
+#### 10338. [V2EX] 网站流量监控和 seo 数据分析，选 Plausible 还是 Umami ?
+
+**问题描述 / Problem Description**:
+想自己部署 Plausible 和 Umami ， 看很多人推荐 Plausible ，但是我看需要的服务器配置比需要 2 核 4G 的， Umami 1 核 2G 的好像就能带动，不知道怎么选了。。。 有用过的大佬帮我分析一下用哪个呢？ 还有选哪家的服务器能便宜点呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241586#reply11
+
+---
+
+#### 10339. [V2EX] 做了个做数学动画的 Coding Agent 接入了我的 Manim Workspace.
+
+**问题描述 / Problem Description**:
+做了个 Coding Agent 接入了我做的 Manim Workspace ( https://jizuobiao.xyz/workspace)。使用的是 DeepSeek V4 Flash 的模型，没想到在思考模式为 low 的情况下，就可以复刻很多数学动画了。对于一些数学题目，它甚至直接给求解了。 想学习 Manim 做数学动画，或者就做一些简单的数学动画的朋友可以体验一下。我测了一下，简单的图形，基本上就 1-2 角钱的样子就可以完成。新用户赠送了 1000 积分，方便大家进行体验。 有什么建议，欢迎评价。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241585#reply3
+
+---
+
+#### 10340. [V2EX] 有没有什么能帮忙规划自驾游的 agent 呢
+
+**问题描述 / Problem Description**:
+能从小红书里面找攻略，在高德地图上标记行程，在飞猪或者携程上查询酒店信息。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241536#reply8
+
+---
+
+#### 10341. [V2EX] vibe coding 的代码你怎么放心上线？
+
+**问题描述 / Problem Description**:
+用 AI 写代码节奏很快，不管是新功能的上线，还是一些 bug 的修复。 但如果上线给用户用，出问题了总会是很麻烦的事情。 大家现在有什么样的技巧或者方式去做测试呢？ DDD ？自动化测试？还是有什么测试 Harness ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241529#reply68
+
+---
+
+#### 10342. [V2EX] codex 抓紧蹬啊 弟兄们 又有重置了 tibo 真神
+
+**问题描述 / Problem Description**:
+如图弟兄们
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241506#reply64
+
+---
+
+#### 10343. [V2EX] 你们有没有觉得 DeepSeek V4.1 Flash 也开始不说人话了?
+
+**问题描述 / Problem Description**:
+现在的 DeepSeek V4.1 Flash 很像 GPT5.4 的时候，根本不知道在说些什么, 总会造一些不存在的词, 经常使用不常用且特殊的语法，输出内容繁杂。 感觉只适合用来做调用工具完成一次性工作, 不适合项目规划、分析代码和解读文档这类工作。 例如逆向一个嵌入式固件、安装 ASR 模型来本地语音识别都完成得很好。 只要任务的最终产出不是文字就好用, 一旦产出的内容是文字需要人去看时就很痛苦。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241496#reply36
+
+---
+
+#### 10344. [V2EX] 搞了个 dsh 的 rust 套壳小工具有 v 友试试水么？
+
+**问题描述 / Problem Description**:
+https://github.com/wang-yi-bit64/dsh-desktop 欢迎 v 友试试毒
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241454#reply7
+
+---
+
+#### 10345. [V2EX] Google Search Impact 效果终于起来了
+
+**问题描述 / Problem Description**:
+经过几个月的优化，现在整个站点的 SEO 情况比之前好了很多。 每日点击量基本能达到 800+了。 核心做法就是：永远以用户体验为核心去不断优化，不要为了 SEO 而 SEO
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241439#reply6
+
+---
+
+#### 10346. [V2EX] 给几百 G 的本地截图做一个能搜内容的引擎，我踩过的坑
+
+**问题描述 / Problem Description**:
+最近做了个小工具：把我攒了几年、按字节算快 1T 的电脑截图（微信聊天截图、网页截图、报错截图、PPT 截图……）做成一个能直接搜内容的引擎。比如搜「上次那个 nginx 502 的报错」，直接把当时那张截图翻出来。 功能听起来不新鲜，但自己动手做一遍，坑比想象的多。这里把踩过的坑记录一下，给同样有这个需求的朋友参考。 坑一：OCR 不是「接个库」那么简单 一开始想当然：截图 → OCR → 存文本 → 搜，完事。实际： 中文截图里夹杂的英文报错、路径、代码，混排识别率惨不忍睹。纯中文 OCR 库对 Error: EACCES: permission denied '/var/log/...'
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241437#reply18
 
 ---

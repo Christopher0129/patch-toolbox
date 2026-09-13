@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10934**
+**总计条目 / Total entries: 10980**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -148063,5 +148063,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241378#reply5
+
+---
+
+#### 10935. How can I to switch function keys, without using the Logitech Software on a Logitech K400 Plus?
+
+**问题描述 / Problem Description**:
+Tags: windows, macos, logitech-keyboard | Score: 0 | Views: 13 | Answers: 1 | Created: 2026-09-13
+
+**解决方案 / Solution**:
+For now, I'm using the key remapper that comes with PowerToys on Windows Systems. Not ideal, but I'm using PowerToys anyway, so it's an acceptable device-specific workaround until I find a better solution.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940351/how-can-i-to-switch-function-keys-without-using-the-logitech-software-on-a-logi
+
+---
+
+#### 10936. Secretly Downloaded Phone Tracking App?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfaum4/secretly_downloaded_phone_tracking_app/
+
+---
+
+#### 10937. Is it bad to turn computer on/off a few times every day?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wf5g1a/is_it_bad_to_turn_computer_onoff_a_few_times/
+
+---
+
+#### 10938. Keylogger still has access to my pc after a factory reset.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wf4iqq/keylogger_still_has_access_to_my_pc_after_a/
+
+---
+
+#### 10939. Wifi keeps having periodic but enormous lag spikes for no reason
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfjf2w/wifi_keeps_having_periodic_but_enormous_lag/
+
+---
+
+#### 10940. How to restore apps after fresh Windows install?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfhfuy/how_to_restore_apps_after_fresh_windows_install/
+
+---
+
+#### 10941. Operate tv over the internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfgr9c/operate_tv_over_the_internet/
+
+---
+
+#### 10942. Your device ran into a problem (management error) HELPP
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfjb0g/your_device_ran_into_a_problem_management_error/
+
+---
+
+#### 10943. Whatsapp message
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfhy4b/whatsapp_message/
+
+---
+
+#### 10944. Issues with Monitor Switch off and sleep - PC say No
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfhhub/issues_with_monitor_switch_off_and_sleep_pc_say_no/
+
+---
+
+#### 10945. Ethernet to wifi bridge
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfgrho/ethernet_to_wifi_bridge/
+
+---
+
+#### 10946. 2nd SSD has a bunch of random subdirectories named with two letters, all with the same batch of Windows files, Why??
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wffuvz/2nd_ssd_has_a_bunch_of_random_subdirectories/
+
+---
+
+#### 10947. best choice of free and reliable password manager?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wflojz/best_choice_of_free_and_reliable_password_manager/
+
+---
+
+#### 10948. Black Screen on Newly Built PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wffkn2/black_screen_on_newly_built_pc/
+
+---
+
+#### 10949. Streaming services are all green screening.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wflez9/streaming_services_are_all_green_screening/
+
+---
+
+#### 10950. File explorer opens, but is always not responding
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wflbi2/file_explorer_opens_but_is_always_not_responding/
+
+---
+
+#### 10951. Windows laptop thinks that it has two monitors
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wff0v5/windows_laptop_thinks_that_it_has_two_monitors/
+
+---
+
+#### 10952. Every time I use Bluetooth I need to restart my power supply
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfetre/every_time_i_use_bluetooth_i_need_to_restart_my/
+
+---
+
+#### 10953. PC clicks stop working / taskbar breaks after 15-20 minutes, random "Go Back" action in Chrome/Settings, persists after full OS format and swapping mice/keyboards
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfkd89/pc_clicks_stop_working_taskbar_breaks_after_1520/
+
+---
+
+#### 10954. Acer Aspire A515-54 N18Q13 shutdown and now doesn't boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfkbq4/acer_aspire_a51554_n18q13_shutdown_and_now_doesnt/
+
+---
+
+#### 10955. Volume Adjust with Right Shift
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfkbky/volume_adjust_with_right_shift/
+
+---
+
+#### 10956. HP Victus 15 Automatic repair loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfjo9b/hp_victus_15_automatic_repair_loop/
+
+---
+
+#### 10957. iMessages completely glitched out
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfjim0/imessages_completely_glitched_out/
+
+---
+
+#### 10958. Monitors start glitching on startup unless I start the computer with both of them unplugged (Windows 11 Pro)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfj6s5/monitors_start_glitching_on_startup_unless_i/
+
+---
+
+#### 10959. CyberPowerPC random restarts even on clean boot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfj2i7/cyberpowerpc_random_restarts_even_on_clean_boot/
+
+---
+
+#### 10960. [V2EX] Windows 11 26H2 更新完反馈
+
+**问题描述 / Problem Description**:
+文件管理器接近于秒开！ 任务栏可以缩小，给应用窗口留更多的区域 图片右键可以旋转图片，希望加一个压缩图片，不用额外安装 PowerToys 了 右键菜单可以直接自定义了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241713#reply7
+
+---
+
+#### 10961. [V2EX] Windows 内存占用的问题，任务管理器 vs 资源管理器 显示不一样？
+
+**问题描述 / Problem Description**:
+https://i.ibb.co/1GhgH6N1/2026-09-14-055356.png https://i.ibb.co/QF0y5kMK/2026-09-14-055422.png https://i.ibb.co/ZbW9gX9/2026-09-14-055509.png 前两张是任务管理器里，显示内存已经被占用 86%。但是我的内存是 32G 的，86%应该是 27G 。但是我计算了一下任务管理器里显示的哪些程序占用的内存总数，远远达不到 27G 这么多啊 而且第三张图片，是资源管理器里，显示总共使用的物理内存，是 35%。这个数字明显就正常多了啊。 为什么 任务管理器 vs 资
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241739#reply0
+
+---
+
+#### 10962. [V2EX] 家境平凡、天赋资质平庸的人生，如果愿意跳出三贷之外，其实可以活得很自由
+
+**问题描述 / Problem Description**:
+继上一个帖子，我想我应该表达暴论，才能把想法无损传达给你们 ---- 这个世界的规则我感觉很奇葩，受尊重的优先级排序是 款爷&体制爹 -> 颜值 -> 学历 -> 能力，而并非人品道德，普通人想要受到尊重，有颜值就能办到，其次是小镇做题家圣体，最后才是 口才+干事， 而想凭借能力受到尊重需要超过 80%人才能办到。其实应该把能力排第一，而颜值、学历纯泡沫，只是信任感倍增器而已。所以诞生了一堆没有业务能力的花瓶和干不了实事的书呆子。这是我进入社会后所见所闻最深刻的感受。所以时常想起楚门的世界这部电影，整个世界就是巨大的草台班子。 其次就是长辈的封建思想，非得把三贷集齐似乎才能心满意足，但是从没想
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241709#reply10
+
+---
+
+#### 10963. [V2EX] 有没有代充 chatgpt 的
+
+**问题描述 / Problem Description**:
+有没有代充 chatgpt 的，我这里一直充不了，一定要绑定国外的信用卡才行，国内的卡不能用。 我要能用网页端的 chatgpt ，需要生成图片，代码也要能生成，我现在是免费额度，搞几下就用光额度了，只能等下周了。 我现在只需要充值一个月，试试水，如果还行，可以长期。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241703#reply3
+
+---
+
+#### 10964. [V2EX] 重庆 宿舍想拉宽带 闲鱼宽带过户有坑吗
+
+**问题描述 / Problem Description**:
+150 元/半年 1000m 过户给我 需要我的实名
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241688#reply0
+
+---
+
+#### 10965. [V2EX] Linux 下有什么能平替 nomachine 的软件么？
+
+**问题描述 / Problem Description**:
+nomachine 最新版本已经取消免费版，改成订阅了。从其它机器远程连接 Linux 桌面有啥好的软件 b 么？ x11vnc 和 nomachine 比差太多了，xrdp 门槛有点高 z ，安装会遇到各种问题，效果也差点意思。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241685#reply2
+
+---
+
+#### 10966. [V2EX] pdd 的金领冠真的不能买吗？
+
+**问题描述 / Problem Description**:
+外观一样的东西，家人一定要求去山姆或者沃尔玛购买，就连京东也不相信，更不要说 pdd ，淘宝了，但价格贵了 1/6 ，一个人焦虑，弄的大家都焦虑
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241677#reply26
+
+---
+
+#### 10967. [V2EX] 有没有，好用免费的 Coding Agent
+
+**问题描述 / Problem Description**:
+推荐几个来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241665#reply11
+
+---
+
+#### 10968. [V2EX] 至今不懂为什么 v 站不给我显示「创作新主题」按钮，每次发帖得自己手动地址栏输入 /write 路由
+
+**问题描述 / Problem Description**:
+是账号被限流吗？ 每次都得自己在浏览器地址栏输入输入/write
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241661#reply4
+
+---
+
+#### 10969. [V2EX] 中美大模型是否会分别占据高端、中低端市场？
+
+**问题描述 / Problem Description**:
+从训练成本、算力资源、资本规模、市场定位、模型能力、模型定价等当前状况看，似乎中美大模型分别走在传统市场的老路上： 美国模型走高智高价路线；中国模型卷中低端大众廉价市场。 老美的模型能力确实强，用起来有点太肉痛了，感觉快要用不起了；国产模型价格是实惠，能力确实差距明显。 国产模型短期要超越美国 AI 大模型的能力难度非常大，同样，美国 AI 公司要在中低端市场卷性价比，似乎还真比不过国产模型。 最后的胜负手：是量大管饱的市场大？还是高智高价的赢天下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241658#reply18
+
+---
+
+#### 10970. [V2EX] 今天收到了一笔来自 giffgaff 的退款
+
+**问题描述 / Problem Description**:
+我印象里我申诉了两次，第一次赶上官方态度强硬给我拒绝了 第二次是三四周前，站里说官方稍微有点松口的时候，然后我提交退款工单后就再无收到回应了。 提交工单的时候已经把银行卡解绑了，今天突然发现给我退了 10 欧，说白了就是我充了多少给我退了多少。 不知道是不是统一退款，还是我前几周提交的工单导致的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241649#reply3
+
+---
+
+#### 10971. [V2EX] 感觉在家里如果是轻度使用电脑,也没必要配置一个显示器大家觉得呢
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241645#reply1
+
+---
+
+#### 10972. [V2EX] 大家的椅子手托在双手打字场景有这个问题吗，现在很难受
+
+**问题描述 / Problem Description**:
+如下图，双手打字时，电脑椅右侧的扶手无法托住胳膊，网上搜也只是键盘前的那种长条形手托，但是解决不了这种场景。各位有遇到吗，还是我电脑椅的问题~。 另外我这是全尺寸键盘，或许 87 键的会好点
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241644#reply22
+
+---
+
+#### 10973. [V2EX] 打算在老旧的 Windows/mac 电脑上,纯手工写一些文档,然后不联网,纯粹学习记录点东西可行吗?主力机器是联网的,我觉得这样是不是可行,新闻届里面调查记者做暗访有时候会买专用的 air gaped,一种完全切断物理连接的电脑
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241638#reply0
+
+---
+
+#### 10974. [V2EX] 问一下小学一年级英文有没有专门的网站可以跟读
+
+**问题描述 / Problem Description**:
+主要是时间方面与精力方面，没有太多时间，只能让家里老人帮忙时不时看小孩，但是老人不会英语， 想要找一个软件，或者网站， 就是说，手机打开或者平板打开，就是差不多样子的英语课本，然后点击对应英语句子就可以阅读出来，难受(⊙o⊙)…
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241636#reply11
+
+---
+
+#### 10975. [V2EX] 有没有什么工具，可以远程让 codex 干活？
+
+**问题描述 / Problem Description**:
+就是我经常用 /goal 运行一些长时间的任务，一般都要半个小时到一个小时一上。我也不可能一直在家里等着它，完事再部署下个任务。 所以现在有没有可以让我出门后，在手机上就能下达下个任务的工具？ 谢谢各位。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241635#reply35
+
+---
+
+#### 10976. [V2EX] 有没有可能， AI 始于 token，也止于 token（信任）
+
+**问题描述 / Problem Description**:
+产生这种感触，源于 trae 签到积分使用体验。从开始的不限量，到邀请赠送 5000 积分，再到每日签到，赠送 200/150 积分。这个过程中，Token 消耗规则只是数字调整和变化，但真实使用体验千差万别。同样是 Deepseek-v4-flash 正式版，200 积分时尚可完成多复杂任务，而现在的 150 连一个任务都下不来。——注意⚠️从 200-150 ，不仅是数字和倍率变化，背后真实体验似乎被某种隐性规则不透明地掌控着。 同样，Deepseek 官网流量统计仅是数字，但一个任务真实人民币消耗感受差距太大，从之前 10 块钱测试玩半个月，到现在随便一个任务计价单位都是“N 元”，任务
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241633#reply6
+
+---
+
+#### 10977. [V2EX] 有没有不错的英文播客推荐？
+
+**问题描述 / Problem Description**:
+既可以空闲的时候磨耳朵，又能有点意思的，题材不限，目前在听 The Daily
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241627#reply13
+
+---
+
+#### 10978. [V2EX] 没有安卓设备可以拿 Google Play 订阅 ChatGPT 吗？
+
+**问题描述 / Problem Description**:
+感觉 App Store 经常买礼品卡比较麻烦，如果 Google Play 的话能绑国内的卡自动扣款就比较省事，但是没有实体安卓设备，所以问问大家有没有相关经验？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241577#reply5
+
+---
+
+#### 10979. [V2EX] 《编码》中文第 2 版-第 312 页-第 2 张图，是不是有错误？
+
+**问题描述 / Problem Description**:
+如题，第 312 页-第 2 张图，最下方的 OR 门左侧，应该还有 2 根线，分别来自 INX HL 和 DCX HL 。 同样地，与此图对应的官网大图，也漏掉了这 2 根线： codehiddenlanguage.com/Chapter23 漏掉的直接后果，是导致 INX HL 和 DCX HL 的执行周期，错误地解码成了 1-cycle-execute ，而正确的解码结果，应该是 2-cycle-execute 。 因为只有这样，才能依次完成“HL 使能（ EC1 ）→递增计数器时钟（ EP1 ）→HL 选择和递增计数器使能（ EC2 ）→HL 时钟（ EP2 ）”这 2 个周期（ cy
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241575#reply5
+
+---
+
+#### 10980. [V2EX] 现在还有哪些好的积极维护 GKD 订阅？
+
+**问题描述 / Problem Description**:
+各位大佬，现在还有哪些好的积极维护 GKD 订阅？求分享
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241574#reply1
 
 ---

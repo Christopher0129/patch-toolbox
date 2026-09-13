@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10027**
+**总计条目 / Total entries: 10073**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -134652,5 +134652,603 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241284#reply4
+
+---
+
+#### 10028. iPhone Duo animation on MacBook
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wf4n3p/iphone_duo_animation_on_macbook/
+
+---
+
+#### 10029. I wasn't a fan of Liquid Glass, the slider makes it a bit better now but I've always loved the animations. So where is the same smooth iOS Liquid Glass animations on MacOS?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wffuyb/i_wasnt_a_fan_of_liquid_glass_the_slider_makes_it/
+
+---
+
+#### 10030. I 'built' this PS3 Inspired macOS wallpaper app
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfbkl5/i_built_this_ps3_inspired_macos_wallpaper_app/
+
+---
+
+#### 10031. Mac m1 pro vs m5 pro
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfhdkw/mac_m1_pro_vs_m5_pro/
+
+---
+
+#### 10032. MacOS 26.x Spotlight corruption/problem
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wflmlv/macos_26x_spotlight_corruptionproblem/
+
+---
+
+#### 10033. For anyone else frustrated by Mac's inability to have windows side by side...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfm5ko/for_anyone_else_frustrated_by_macs_inability_to/
+
+---
+
+#### 10034. Please help!trustd at 100 percent usage on mac m1 air, whole system laggy
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfldth/please_helptrustd_at_100_percent_usage_on_mac_m1/
+
+---
+
+#### 10035. Is macOS better than Windows for video editing?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1weznvg/is_macos_better_than_windows_for_video_editing/
+
+---
+
+#### 10036. "Remove downloads" from iCloud only 10 files at a time?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfijem/remove_downloads_from_icloud_only_10_files_at_a/
+
+---
+
+#### 10037. New to MacOS - have read so much conflicting advice RE: external monitors - advice? Conflicted over going for 2K or 5K.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wffm1c/new_to_macos_have_read_so_much_conflicting_advice/
+
+---
+
+#### 10038. I uninstalled OPPO’s O+ Connect from my Mac but an empty "O+Connect-DeviceSpace" folder is stuck in Trash.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfemjv/i_uninstalled_oppos_o_connect_from_my_mac_but_an/
+
+---
+
+#### 10039. Keyboard Shortcut of the Day: OPT + CMD + 8
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfdgu5/keyboard_shortcut_of_the_day_opt_cmd_8/
+
+---
+
+#### 10040. Long lasting annoying bug: Contacts shuts new contact window
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wf79ot/long_lasting_annoying_bug_contacts_shuts_new/
+
+---
+
+#### 10041. Question for MacBook Air owners: storage
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfcxut/question_for_macbook_air_owners_storage/
+
+---
+
+#### 10042. Unable to edit absolutely anything in Finder
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfiy1n/unable_to_edit_absolutely_anything_in_finder/
+
+---
+
+#### 10043. Open extensionless files in something other than TextEdit?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfcbtj/open_extensionless_files_in_something_other_than/
+
+---
+
+#### 10044. Color management / showing P3 color in Parallels?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfb3ln/color_management_showing_p3_color_in_parallels/
+
+---
+
+#### 10045. Recommand your favorite games on macOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wex9hx/recommand_your_favorite_games_on_macos/
+
+---
+
+#### 10046. New MacBook, but what to pick?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfceyv/new_macbook_but_what_to_pick/
+
+---
+
+#### 10047. UGREEN USB Hub doesn’t support in MacBook Air M5
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wf6adf/ugreen_usb_hub_doesnt_support_in_macbook_air_m5/
+
+---
+
+#### 10048. [V2EX] 如何无人值守地远程管理 Mac ？
+
+**问题描述 / Problem Description**:
+想在别的地方放置一台 MacBook ， 目前是使用 tailscale 然后远程桌面。 但是， 这方案有致命缺陷————不能重启机器， 一旦重启， （在未登录过的情况下）它就不会自动连上 WiFi ， 更加不会自动启动和连上 tailscale 求解决办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241708#reply13
+
+---
+
+#### 10049. [V2EX] 距离 arm 黑苹果 似乎不远了
+
+**问题描述 / Problem Description**:
+最近 macos 和 ios 都能在 qemu 里跑了 https://x.com/Lakr233/status/2096529943400419688 https://x.com/kagurazakamari/status/2099034902511673452 https://x.com/kaganisildak/status/2097629357300732242
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241669#reply13
+
+---
+
+#### 10050. [V2EX] gfxCardStatus Ver. 2.8
+
+**问题描述 / Problem Description**:
+刚升级到 2.8 。修复了一些 bugs 和增加了检测升级功能。 https://github.com/lylehust/gfxCardStatus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241634#reply2
+
+---
+
+#### 10051. [V2EX] macOS 26 的显示效果太差了 可读性比 15.7 降了不知多少 时常感觉亮瞎眼 不知道 macOS 27 会不会好点
+
+**问题描述 / Problem Description**:
+RT 几万亿市值的大公司怎么喜欢搞这种花里胡哨华而不实的东西。 大角角也很丑，液态玻璃也很丑，胶囊和圆角开关也很丑。 想不通，一个大公司怎么好意思把这种垃圾放出来的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241583#reply9
+
+---
+
+#### 10052. [V2EX] 除了鼠须管还有别的更好用的拼音输入法吗
+
+**问题描述 / Problem Description**:
+搜狗挺好用的，就是有广告 鼠须管用下来发现 shift 切换中英文输入法经常失灵，还有它的识别确实不如狗搜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241257#reply41
+
+---
+
+#### 10053. [V2EX] Steam Link 串流到 Mac 玩 PUBG
+
+**问题描述 / Problem Description**:
+目前有一独显台式， 还有一台 MacBook Pro M4 Max 主要就玩 PUBG 这一个游戏 随着购买强劲的 Mac 电脑， 大部分工作流都转移到了 Mac 上面， 台式机就变成了单纯的“游戏机”， 实在太浪费 所以想在 Macbook Pro 上玩 PUBG ， 搜索了几个月网上教程， 没有找到完美的解决办法， 无论是虚拟机还是 CrossOver ， 都受防作弊影响， 打开就封号…… 问了 AI ， 也是这样的答案 所以， 寻求本坦大佬们解惑， 有直接在 Mac 上玩 PUBG 的 方法吗？ 没有的话，steam link 串流， 那负载是在 win 上面还是 Mac 上面？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239832#reply23
+
+---
+
+#### 10054. [V2EX] 港区可以直接用银联卡支付了？
+
+**问题描述 / Problem Description**:
+我确实看到可以绑定银联卡了，就不知道银联区分 hk 发卡吗？能内购成功吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241737#reply0
+
+---
+
+#### 10055. [V2EX] macOS 27 Golden Gate 修正了 AirPods 音量问题
+
+**问题描述 / Problem Description**:
+从 macOS 14 Sonoma 开始，Mac 连接 AirPods 大概率会被强制设定为 50% 音量导致炸耳朵，站内也有不少帖子讨论 https://www.v2ex.com/t/1144700 https://www.v2ex.com/t/1193476 升级到 macOS 27 RC 之后，两副耳机交替使用，到现在没有遇到音量 50% 问题，并且不同耳机的最后音量似乎也能记住了 三年啊，三个大版本啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241681#reply0
+
+---
+
+#### 10056. [V2EX] 为了 Duo 这碟醋，苹果真是包了不少饺子啊……
+
+**问题描述 / Problem Description**:
+- 改了大圆角，就是为了 1：1.4 去掉圆角空间刚好接近 16:9 ； - 一直维护 16:9 的 iPhone SE ，为了让软件还能兼容 Duo ； - iPad Pro 11 寸不知道为什么突然变成 1:1.4 ，原来是 Duo 展开是 1:1.4 啊； 还有什么我没注意到。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241642#reply26
+
+---
+
+#### 10057. [V2EX] FileMint 一个 macOS 文件创建工具，但是没有公签（需要鬼点子帮助）
+
+**问题描述 / Problem Description**:
+写了个 macOS 的文件创建小工具，准备走 GitHub 分发，结果发现我没有会员。。。导致无法公签。。。 项目： FileMint 其他：有没有老哥有好点子让我有个公签，让软件安装就可以用，现在会默认被拦截 目前的安装步骤：系统设置 → 隐私与安全性 → 仍要打开，为 FileMint 单独放行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241630#reply4
+
+---
+
+#### 10058. [V2EX] 郁闷， mac 坏了，又要破费了！
+
+**问题描述 / Problem Description**:
+2 年前买的 m3 max ，3 万多，前两天坏了，我就是插拔了一下插排，结果就无法充电了，电池供电情况下还能正常使用，但是当时没意识到坏了，结果就是电池没电了，数据也没来得及备份 到了官方售后，说是主板坏了需要换主板，费用 7000 ，有点儿不舍得 所以今天就找了一个第三方维修店，结果更糟糕，修不了，检测不到坏的地方，猜测是主板板子里面坏了 最后师傅给我搭了个电池让我备份数据，可惜只备份了一部分就没电了，跟人家说好话让再给换个电池，可惜没合适的（电池排线短了点儿 插不上），这里要感谢人家师傅，忙活半天 一分钱没要 回来后预约了明天的官方售后，去换主板
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241595#reply26
+
+---
+
+#### 10059. [V2EX] 今年的 Apple 没有要买的欲望，连系统都没有升级的必要。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241590#reply16
+
+---
+
+#### 10060. [V2EX] 怎么进不去订购页面 duo?
+
+**问题描述 / Problem Description**:
+网页版和 apple store 都进不去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241579#reply6
+
+---
+
+#### 10061. [V2EX] 12 年的时间，苹果硬件花费近 9 万，我的推荐
+
+**问题描述 / Problem Description**:
+我的推荐 我个人觉得性价比最高的依次如下：Air Pods Pro2 、iWatch Ultra2 、Mac Mini M2(16GB)、Apple TV 。手机很难说出性价比，但是很明显从 iPhone 12 和 13 之后，我没有再去过维修点了，质量的确提升比较明显。 Air Pods Pro 平均每个工作日均会使用，陪我听书，看书，听音乐和看电影，有点离不开了。因为有了降噪，甚至在任何环境，我都能专注做我的事情。Pro 3 没有啥提升，感觉我能等到 Pro 4 或者 Pro 5 再考虑更新。 iWatch Ultra2 购买之后，开始使用 Fitness+ 健身。从 2024 平均每日消
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241565#reply21
+
+---
+
+#### 10062. [V2EX] 如何彻底屏蔽 macOS26 更新提示，不在乎红点，只在乎右侧弹出的更新通知
+
+**问题描述 / Problem Description**:
+原因是担心误按了稍后更新之类，之前用过 macOS 小助手，屏蔽红点功能，貌似有点效果好像不彻底，没安装之前，只要用了 pd 虚拟机后，必定弹出更新 macOS 通知，安装小助手后，没见过弹通知了，但是间隔一两个月不定期总是会有更新提示，好像是和苹果官方推送更新的时间接近，平时倒是不会提醒，但是仍然担心，有什么办法可以彻底禁用更新通知？类似 iOS 上 tvOS 办法有吗？ 还望大佬指点。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241534#reply4
+
+---
+
+#### 10063. [V2EX] 美版 iPhone +国行 Apple Watch，可以在 Watch 上使用 Siri AI 吗？
+
+**问题描述 / Problem Description**:
+比较喜欢 Apple Watch S12 的全天候录音 Recap 的功能，以及新的健康 App 还会有一些 AI 驱动的分析和建议，所以现在比较纠结买国行的 Watch 还是买个水货。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241503#reply19
+
+---
+
+#### 10064. [V2EX] 各位拿到新 iPhone 是<俩手机物理迁移|iCloud 恢复备份|全新开始>?
+
+**问题描述 / Problem Description**:
+好奇大家都是真么做的 以前都是全新开始, 自己一个个下载 app 配置等等 这几年有点懒了, 直接 icloud 恢复备份, 大家都是用哪种方式呢? 现在 iPhone 迁移数据,恢复备份这种, 还会有异常垃圾啥的被迁移到新手机导致续航变差么?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241448#reply26
+
+---
+
+#### 10065. [V2EX] 实测 Image 2.5 生图 + H3 Max 做视频，这套美女图工作流有点绝
+
+**问题描述 / Problem Description**:
+最近测了一套生成美女视频的稳定组合： 先用 Image 2.5 生成高清人物图，再丢进 H3 Max 做图生视频。 直接文生视频经常崩，但先定好图片再做视频，成功率非常高。 我的测试参数： 生图提示词（ Image 2.5 ）：一个金发年轻美女，靠在一辆经典复古红色跑车旁，穿着白色背心和牛仔短裤，阿马尔菲海岸悬崖日落背景，金色逆光，皮肤自然光泽，真实胶片摄影质感。 [图]( https://cdn.framepack.ai/static/gpt/2.jpg ) 视频运动提示词（ H3 Max ）：镜头缓慢向前推进，海风轻吹金发，车身夕阳反光微动，人物保持自然神态，电影感运镜，真实质感。 [视频
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241698#reply2
+
+---
+
+#### 10066. [V2EX] 关于注册 gmail 的方法
+
+**问题描述 / Problem Description**:
+(本次分享无论是准备阶段、网络阶段、注册阶段都缺一不可，若有需求需仔细观看) 由于谷歌加强风控，现在注册困难，比如需要扫描二维码发信注册，侥幸跳过二维码用短期号码注册要养号 10 不存 1 ，也不能完全避免登陆时需要向原始注册时的手机号接码。包括购买的账户用一段时间后都有可能登陆时需要向原始注册时的手机号发送验证码登录。包括好不容易注册出账户在短时间内封禁，申诉通过登陆时需要向原始注册时的手机号发送验证码登录。这就是困住大多数人的主要问题。 1.准备 设备：电脑，模拟器（ BlueStacks 国际版或者 android studio 及其任何带有谷歌框架的模拟器)，以及独享 ip 和长期号码
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241694#reply3
+
+---
+
+#### 10067. [V2EX] AI 赛博算命，六爻与紫微斗数，测一下准不准 http://aitjg.com/
+
+**问题描述 / Problem Description**:
+http://aitjg.com/ 问一件事， 起一卦，看清眼前。 三枚铜钱、六度投掷，定出本卦与变卦。八宫世应、纳甲干支、六亲六神、 旬空一次排全 —— 排盘由确定性算法推得，AI 只负责依卦而解，不凭玄谈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241687#reply0
+
+---
+
+#### 10068. [V2EX] 雷达·鹈鹕骑自行车大赛 正式开赛
+
+**问题描述 / Problem Description**:
+度完假回来了！ 最近大家是不是为了测是否降智花了一推的鹈鹕，咱们废物利用起来。 本次鹈鹕杯正式上线接受投稿了！ 这次开放两个赛道. 一个是 classic ，用来评选正经好看的鹈鹕. 一个是 open ，用来投稿奇思妙想和各种奇奇怪怪的鹈鹕. 申明： 本次站点为了吸引更多的小伙伴投稿，不设任何注册、加群等信息，请大胆投稿，但投稿后请留好每个作品的上传凭证，万一中了呢. 两个赛道冠军各提供一个电子工牌作为奖品。话不多说，快来玩吧！ 投稿、投票地址
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241679#reply0
+
+---
+
+#### 10069. [V2EX] 如果抄作业就能得高分进好大学，且老师及学校都不管，那该多好呀
+
+**问题描述 / Problem Description**:
+如果抄作业就能得高分进好大学，且老师及学校都不管，那该多好呀？ 试问谁还愿意努力学习，等着抄就好啦。 试问谁还愿意花钱训练，等着蒸馏就好啦。 试问谁还愿意花精力创新，等着抄过来拼价格就好啦。 最终就是卷卷卷，卷死你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241673#reply20
+
+---
+
+#### 10070. [V2EX] 半夜寂寞,买了个飞机杯,到手感觉亏大了，我日！拍断大腿！
+
+**问题描述 / Problem Description**:
+这两天寂寞难耐,买了个飞机杯回来玩，介绍写的很动人 什么自动吮吸 伸缩 加热功能应有尽有 看的我饥渴难耐,于是果断下单一个 二百出头 到手之后发现中计了 就一个硅胶+一个极其廉价塑料做的伸缩的的玩意 所谓的加热功能 就是给了个看起来几毛钱的小棒,插上 USB 之后有 2-3W 的功率 然后放进去加热 体验感极差 两百多完全血亏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241618#reply9
+
+---
+
+#### 10071. [V2EX] nix 真的 agent 时代的天选之子。
+
+**问题描述 / Problem Description**:
+现在 vibe 全要经由 nix + flake ，甚至 nix profile 都不用。 单体项目，需要 vibe ，就起一个 flake.nix ，一顿乱搞，坏了不心疼，因为 nix 是声明式的，可以 diff ，避免 apt 这种黑箱。 同一个项目，flake 也可以有不同的 outputs ，不用分场景。这带来的便利谁知道啊。 devShells + packages + packages.image ，直接用 profile default 即可，也就是不用 npm -g 呢。 不同项目，多个场景，就 one folder one flake 。 像 oci 的 build ，直接用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241549#reply7
+
+---
+
+#### 10072. [V2EX] Verisign 发通知，域名年年涨价 7%，太残暴了
+
+**问题描述 / Problem Description**:
+从 11 月 1 日开始，Verisign 域名今年又涨价 7% 收到域名注册商的通知，Verisign 今年.com 域名又要涨价 7%，从 11 月 1 日开始 ICANN/NTIA 新规执行后，Verisign 已经连续 4 年，年年涨价 7%，什么收益率赶得上年年 7%。 据估算全球仅.com 域名一个后缀，涨价 7%就可以增加近 10 亿/年的收入，太残暴了 有米的老铁，只能在 10 月底之前多续几年了😔😔
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241282#reply2
+
+---
+
+#### 10073. [V2EX] 数字产品出海，价格是不是国内的 5 到 10 倍？
+
+**问题描述 / Problem Description**:
+这段时间在试着做数字产品出海，发现国内外的价格差得确实挺大。 国内小红书上的数字素材，很多也就卖 10 块钱左右。闲鱼更夸张，1 块多可以买一大包，不过大部分都是盗版或者到处拼起来的合集，这种价格也没法参考。 不知道 V 站有没有做数字产品出海的朋友，你们一般是按国内的几倍定价？ 3 倍、5 倍，还是直接 10 倍？ 我最近也在拿一个小站试水： plannerdigital.co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241231#reply2
 
 ---
