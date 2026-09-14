@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10346**
+**总计条目 / Total entries: 10373**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -142470,5 +142470,356 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241437#reply18
+
+---
+
+#### 10347. Valve's Steam Frame now available at $1059+ USD
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgdz75/valves_steam_frame_now_available_at_1059_usd/
+
+---
+
+#### 10348. Linux Patched For Silent User-Space Data Loss Bug That's Existed Since 2023
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wg6uyo/linux_patched_for_silent_userspace_data_loss_bug/
+
+---
+
+#### 10349. FluxCast v0.2.6 released — Stream Linux desktop to Smart TV (Miracast/DLNA/Chromecast). Now with native Debian/Ubuntu packages, and we are no longer a one-man army!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wggtzf/fluxcast_v026_released_stream_linux_desktop_to/
+
+---
+
+#### 10350. SElinux is great
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wfna2b/selinux_is_great/
+
+---
+
+#### 10351. GitHub - YYOzcan/dlss-enabler-linux: Universal DLSS & Frame Generation Manager for Linux / Proton
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgd6n6/github_yyozcandlssenablerlinux_universal_dlss/
+
+---
+
+#### 10352. Skippy-xd: Expose/Exposé window selector for X11 - New release v0.11.0
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgb32s/skippyxd_exposeexposé_window_selector_for_x11_new/
+
+---
+
+#### 10353. [V2EX] 开源： Linux NVIDIA 虚拟显示器方案，无需 HDMI 欺骗器
+
+**问题描述 / Problem Description**:
+想在 Linux 上用 Sunshine → Moonlight 做远程桌面，又不想买 HDMI/DP 欺骗器（ dummy plug ） ，也不想一直开着物理显示器。折腾一段时间后，把流程整理成了一个开源项目： https://github.com/mdj2812/sunshine-vdisplay 原理简述 在空闲的 GPU 输出口（未插线的 HDMI/DP ）上，通过 自定义 EDID + 内核参数 强制启用虚拟显示器 核心参数： drm.edid_firmware=<接口>:edid/virtual-display.bin video=<接口>:e （两者缺一不可） Moonlight
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241724#reply13
+
+---
+
+#### 10354. [V2EX] open minis
+
+**问题描述 / Problem Description**:
+这个东西在苹果手机上有什么用法和玩法请教
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241998#reply0
+
+---
+
+#### 10355. [V2EX] 2026 年，小小团队做了一款 mac 的场景化动态壁纸软件——码镜，欢迎大家使用。
+
+**问题描述 / Problem Description**:
+当前已上架 appstore ，请搜索“码镜”。 appstore 搜索：“码镜”“码镜”“码镜”“码镜”“码镜”“码镜”😄 近期一直在根据各位用户提出的意见再进行更新。 码镜与其他壁纸软件不同，主打场景化壁纸。同时还附带编辑器。功能丰富，支持播放多种类型壁纸，用户可以上传分享壁纸。 当前送出 5 个激活码。跳转链接即可激活。 当前版本 3.1.1 H6X7T7FE7JAM, https://apps.apple.com/redeem?code=H6X7T7FE7JAM HRX63JPA736K, https://apps.apple.com/redeem?code=HRX63JPA736K
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241980#reply11
+
+---
+
+#### 10356. [V2EX] GPT-6 是不是最近又降智了
+
+**问题描述 / Problem Description**:
+第一天用，体验还挺惊艳的，这两天上到生产环境，又开始发狂了。 官方 20x Pro 账号，ChatGPT Desktop 客户端，GPT-6 Astra High 。 我让他给一份番茄炒蛋的食谱，他给得很好， 然后我说「你就按照这个做」，他直接拿起地沟油往里面倒。 我说「你别用地沟油啊」，他说不好意思，然后直接把地沟油连着番茄和鸡蛋全扔了，搜了一份土豆炒肉丝的食谱，然后停下来不做了，要我「确认后再继续」。 我说「你倒是继续做啊」，他又说不好意思，最后给我端出来一盘用地沟油的东坡肉…… 于是最后得到了一盘用地沟油的东坡肉。怒扔之。给我气得想回古法编程了。 像注意力涣散症似的，DeepSeek V
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241973#reply9
+
+---
+
+#### 10357. [V2EX] GLM Coding Plan 新老 Pro 的额度差有多少？
+
+**问题描述 / Problem Description**:
+老的用 Prompt 额度计算，新的用积分计算。实际使用分别大概多少 token ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241963#reply4
+
+---
+
+#### 10358. [V2EX] ADE 赛道感觉很拥挤，有没有什么好的建议，收集实际运用中的一些需求
+
+**问题描述 / Problem Description**:
+最近在逐步优化自己的本地 Agent 工具 Runner: https://github.com/yicheng47/runner 在做的过程中逐步了解到了 ADE 这个赛道，以及一些类似的产品。 e.g. tui: herdr, claude-squad desktop: cmux(native), orca(electron) 这里仅列举了几个比较 popular 的项目，感觉这个赛道目前非常拥挤，很难做出有差异化的产品，目前 runner 的方向想 focus 在多 agent 本地合作这个领域，并且通过 gpui 框架来实现原生 UI 和 terminal 渲染。但是确实也感觉想法比较
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241959#reply2
+
+---
+
+#### 10359. [V2EX] 连续肝了好几周， tauri 开发的轻量级数据库管理软件 DataZen v0.2.0 版本终于发布了
+
+**问题描述 / Problem Description**:
+前言 之前在 V2EX 上发了两篇关于 DataZen 的帖子，尤其是上一篇发完之后有很多朋友到 github 上给了 star ，特别感谢大家的支持，同时也有很多朋友提出了宝贵的意见，让我意识到这个赛道的竞争到底有多激烈。重量级传统选手有 Navicat/DataGrip/DBeaver/TablePlus 等等，最近的 DBX 也很火功能也很强大。既然这个赛道竞争这么激烈，我为啥还要继续做 v0.2.0 版本呢，实事求是的说，一个是 vibe coding 极大的降低了开发成本，另一个也是寻求一个技术人的最后尊严吧：还想在这个代码急剧贬值的时代证明自己的价值，我可以不写代码了，但是我依然可
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241952#reply11
+
+---
+
+#### 10360. [V2EX] ChatGPT Atlas 下线了， AI 浏览器这个方向不被看好吗？
+
+**问题描述 / Problem Description**:
+OpenAI 的 ChatGPT Atlas 浏览器下线了。AI 浏览器这个方向是不是不被看好？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241943#reply0
+
+---
+
+#### 10361. [V2EX] codex 体验也太垃圾了，你们都咋用下去的
+
+**问题描述 / Problem Description**:
+之前一直用的 cursor ，干活相当丝滑，今天供货商没货了，看 v 上 codex 使用的人比较多就开了个 plus ，两个五小时用量都用完了一个活都没干完，体验甚至远远不如 deepseek ，ds 这才用了 50 万 token 就把 codex 半天没解决的问题搞定了，真是太离谱了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241938#reply0
+
+---
+
+#### 10362. [V2EX] 自部署模型卖 Token 能赚钱吗？
+
+**问题描述 / Problem Description**:
+自己购买/租赁 GPU ，部署 DS 、K3 、H3 这种模型然后出售 Token 给官方或者中转站，有搞头吗？有没有大佬能介绍下的？ 感觉如果年前买了 GPU ，光涨价都能赚不少了，别说还能卖 Token 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241929#reply39
+
+---
+
+#### 10363. [V2EX] Fable 5.1 和 Astra 都画不出一个 SVG？
+
+**问题描述 / Problem Description**:
+两家模型换着来，烧了两周的额度了。 一个云纹，用 SVG 画，且能随机组合排列成图案。给模型两个参考图（如下图）。 结果两个模型出来的效果（如下图）… 看了两个模型的思考链，都是在穷举： 云纹从中间切成两个部分，然后用 svg 画很多图案，对照原图，找最接近的 程序化实现排列方式 人工用 svg 画出来，再排列也能做到。就不能都用模型搞定，有点意外。 也有模型能做这个事情，视觉效果不错，但随机性又太高。 其他规律纹样或者简单纹样（牡丹纹回纹什么的） Gemini 3.6 flash 的时候就画好了。云纹直觉看着不复杂，实际要达到理想效果还是有难度。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241918#reply16
+
+---
+
+#### 10364. [V2EX] jetbrains 全家桶续费没有折扣码了吗
+
+**问题描述 / Problem Description**:
+试了好多个折扣码都不行，纠结要不要继续上供了，一般也只用 idea,datagrip,pycharm
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241905#reply26
+
+---
+
+#### 10365. [V2EX] 最近让 AI 写一个大一点点的项目，才隔一个星期天，居然把之前实现的方法给忘光了。
+
+**问题描述 / Problem Description**:
+关于 AI 的接受程序，我是属于让 AI 写单个模块或单个类，不会直接让整个 AI 从头到尾全部写到结束的，我对每个模块与类的程序，都用眼睛看过，确认过。 但是，当项目比较大，功能比较多的时候，会发现和以前 ctrl+C+V 这种方式不同，会对不久前才让 AI 写过的模块忘得很彻底。（彻底！） 比如今天刚遇到的事，工具箱这个模块里面有 10 个小工具，其只 1 个是计算某个部门的利息的功能，是上个星期写的。 当财务部的人问我“出库”这里有没有去加 XX 然后并进去计算的时候，我忘了，并且是这是属于哪个文件来处理这个事，大概写在哪个地方都想不起来。才隔了一个星期天，我居然对把这些数据从哪里取出来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241873#reply10
+
+---
+
+#### 10366. [V2EX] 第一次做出海产品，上线 3 个多月几乎没流量，有点迷茫了。
+
+**问题描述 / Problem Description**:
+第一次尝试做出海产品，自己折腾了一个 AI 股票研究工具，已经上线 3 个多月了。 产品本身一直在迭代，功能也加了不少，但最大的问题是：几乎没什么流量。 刚开始的时候想得比较简单，觉得把产品做好、做点 SEO 、发发 X 、提交一些 AI 导航站，慢慢应该就会有人进来。 结果做了几个月以后发现，事情完全不是这么回事。 SEO 收录很慢，X 基本没什么自然流量，Reddit / Quora 也试过一些，但目前都没有找到特别有效的获客方式。 现在有点卡在一个很尴尬的阶段： 产品还能继续做，功能也还有很多想法，但如果一直没人用，继续堆功能感觉意义也不大。 网站是： https://alphavue.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241853#reply75
+
+---
+
+#### 10367. [V2EX] 《Codex App Launcher： IDEA 和 Codex App 无缝联动》
+
+**问题描述 / Problem Description**:
+在 IDEA 写代码想问 Codex ，还得手动复制路径、数行号？这个插件一键搞定： 核心功能 点一下工具栏 Codex 图标，直接在 Codex App 打开当前项目 选中代码发送，自动带上 文件路径#L10-12 精准引用 引用只追加到输入框，不自动发送，随时补充描述 支持：Windows / macOS （引用发送目前仅 Windows ） 安装：IDEA 插件市场搜 "Codex App Launcher" 即可，无需重启 IDE 插件市场： https://plugins.jetbrains.com/plugin/34047-codex-app-launcher-beta- 源码：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241839#reply0
+
+---
+
+#### 10368. [V2EX] 大家每日的 token 用量大概在多少
+
+**问题描述 / Problem Description**:
+看了下 GPT 官网设置页的统计，主力是 gpt 的 codex cli ，大约就是闲时单日 1 亿多，最高单日 14 亿。 所以想起之前有个给学校捐赠几亿 token 的新闻，还是有点冷幽默的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241796#reply42
+
+---
+
+#### 10369. [V2EX] 从互联网+，物联网+，区块链+到 AI+
+
+**问题描述 / Problem Description**:
+免责声明 从业这么些年，经过了多轮技术变革浪潮，稍微聊两句 这些年一直在做某垂类软件，一路经历了互联网+、物联网+区块链+到 AI+ 每个浪头都去追逐了，有些一地鸡毛，有些留下点成果 注意，接下来的一些讨论仅从商业价值本身出发，不以技术能力为体现。 首先，商业公司为什么要追逐这些热点词？ 从商业层面讲，无论是拉融资、抬股价，还是为了提高流量，本质上都是想借这些热点，拿到原本拿不到的资源，或者让原来的生意更好做一点。 这个事情不难理解。商业公司不是技术研究机构，没有义务等一项技术完全成熟、行业充分验证之后再下场。真等到那个时候，可能市场位置已经没有了。 这个事情其实剖开来讲非常简单，特定场景的需
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241790#reply13
+
+---
+
+#### 10370. [V2EX] codex 降智 感觉不对劲 鹈鹕测试了一下蚌埠住了
+
+**问题描述 / Problem Description**:
+https://i.imgur.com/FPg5TRJ_d.webp https://imgur.com/a/VnxNZYy 有没有现在刚做测试的 我靠我要笑尿了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241787#reply6
+
+---
+
+#### 10371. [V2EX] [2026-09-14] DeepSeek-v4.1-flash 国内主要平台部署情况和价格
+
+**问题描述 / Problem Description**:
+阿里千问：已上线，分闲时忙时，但价格比官方贵大约一半 百度千帆：未上线 快手万擎：未上线 超算互联网：已上线，价格与官方忙时一样，注明“ [暂不支持闲忙时定价] [暂不支持 Responses 协议] ” 字节火山方舟：未上线
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241779#reply23
+
+---
+
+#### 10372. [V2EX] 看了一位 v 站博主的 OpenAI 模型降智测试，于是也测测自己用的客户端模型是否被降智
+
+**问题描述 / Problem Description**:
+原贴：一些关于 openai 订阅降智,账号风控的独立测试 通过模型指纹识别: https://xqy2006.github.io/ModelTrace 识别结果如下，看到是 gpt6 就放心了，真害怕是 gpt6 收费，使用的是 5.6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241763#reply53
+
+---
+
+#### 10373. [V2EX] 我就喜欢听人夸 PostgreSQL
+
+**问题描述 / Problem Description**:
+好文分享 https://www.raphaelbauer.com/posts/postgresql-everything 万物借口 PostgreSQL 包括你的 PS5 再多夸点，爱听
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241732#reply33
 
 ---

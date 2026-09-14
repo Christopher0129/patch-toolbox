@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10980**
+**总计条目 / Total entries: 11025**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -148661,5 +148661,590 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241574#reply1
+
+---
+
+#### 10981. Teen son’s phone registered to someone else or spoofed?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wfwuag/teen_sons_phone_registered_to_someone_else_or/
+
+---
+
+#### 10982. Repair for graphics card.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wga78k/repair_for_graphics_card/
+
+---
+
+#### 10983. Sharing a game on the same pc with different save files
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgdyeq/sharing_a_game_on_the_same_pc_with_different_save/
+
+---
+
+#### 10984. Copying things shuts my Mac off
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgdxwb/copying_things_shuts_my_mac_off/
+
+---
+
+#### 10985. RTX 2070 Super suddenly showing Code 43 after Blood of Dawnwalker crash — NVIDIA installer says no GPU detected
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgh8bk/rtx_2070_super_suddenly_showing_code_43_after/
+
+---
+
+#### 10986. My PC freezes and the only way to restart it is by using the power button
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wg644v/my_pc_freezes_and_the_only_way_to_restart_it_is/
+
+---
+
+#### 10987. How to get broadcast channels on Samsung Smart TV with antenna?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wg8yn3/how_to_get_broadcast_channels_on_samsung_smart_tv/
+
+---
+
+#### 10988. Simple, free way to transfer gmail data? (Data is full)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wghie3/simple_free_way_to_transfer_gmail_data_data_is/
+
+---
+
+#### 10989. Cameras keep disconnecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wghciq/cameras_keep_disconnecting/
+
+---
+
+#### 10990. Getting spammed by US Government IP addresses
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgh8y5/getting_spammed_by_us_government_ip_addresses/
+
+---
+
+#### 10991. Multiple games randomly crashing + occasional BSOD — Razer Blade 18 (14900HX/4070)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgh0w1/multiple_games_randomly_crashing_occasional_bsod/
+
+---
+
+#### 10992. Wifi extender to Pc via ethernet not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wggolx/wifi_extender_to_pc_via_ethernet_not_working/
+
+---
+
+#### 10993. My pc turns on but doesn't boot entirely
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wggkdp/my_pc_turns_on_but_doesnt_boot_entirely/
+
+---
+
+#### 10994. PC keeps freezing and bluescreening
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wggdiu/pc_keeps_freezing_and_bluescreening/
+
+---
+
+#### 10995. Svm mod enblaed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgga0w/svm_mod_enblaed/
+
+---
+
+#### 10996. My cell phone was stolen; the photos appear on my PC with their respective file sizes, but they won't open ("available when connected"). Can they be recovered?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgg84c/my_cell_phone_was_stolen_the_photos_appear_on_my/
+
+---
+
+#### 10997. Internet cuts out when trying to connect to game server, restarting router only temporarily fixes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgg422/internet_cuts_out_when_trying_to_connect_to_game/
+
+---
+
+#### 10998. Laptop DISM cleanup restore health stuck at 64.1% Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgg1he/laptop_dism_cleanup_restore_health_stuck_at_641/
+
+---
+
+#### 10999. Laptop BSOD issue - Windows 11 - KERNEL_SECURITY_CHECK_FAILURE
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgg00c/laptop_bsod_issue_windows_11_kernel_security/
+
+---
+
+#### 11000. Is this a fair price for my first gaming laptop?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgffcx/is_this_a_fair_price_for_my_first_gaming_laptop/
+
+---
+
+#### 11001. No more acces to the BIOS
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgf0nf/no_more_acces_to_the_bios/
+
+---
+
+#### 11002. Cant reset or put new windows on my pc
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgeef4/cant_reset_or_put_new_windows_on_my_pc/
+
+---
+
+#### 11003. Need a quick favor from Ice Lake (Xeon 3rd Gen) owners: Checking a hardware fuse via Linux.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wge3vc/need_a_quick_favor_from_ice_lake_xeon_3rd_gen/
+
+---
+
+#### 11004. Stuck on "We couldn't complete the updates, Undoing changes"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgdvdb/stuck_on_we_couldnt_complete_the_updates_undoing/
+
+---
+
+#### 11005. [V2EX] Windows 11 26H2 更新完反馈
+
+**问题描述 / Problem Description**:
+文件管理器接近于秒开！ 任务栏可以缩小，给应用窗口留更多的区域 图片右键可以旋转图片，希望加一个压缩图片，不用额外安装 PowerToys 了 右键菜单可以直接自定义了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241713#reply19
+
+---
+
+#### 11006. [V2EX] 港版 iPhone 新 Siri AI 突然用不了变成旧版的 Apple Intelligence AI（彩虹跑马灯）
+
+**问题描述 / Problem Description**:
+神奇，港版 iPhone 前段时间都是正常用新 Siri AI ，这几天突然变回彩虹跑马灯版本了，分流规则也没改，网上查到的方法也试了好像都没用，求解 港版 17 Pro Max ，国行 iCloud ，美区商店 下面的规则分流到了美区家宽 DOMAIN,apple-relay.fastly-edge.com DOMAIN,apple-relay.cloudflare.com DOMAIN,cp4.cloudflare.com DOMAIN,apple-relay.apple.com DOMAIN,gspe1-ssl.ls.apple.com DOMAIN,guzzoni.apple.com
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242006#reply0
+
+---
+
+#### 11007. [V2EX] 到现在还想不通这个领导是在 PUA 我，还是单纯为了我好？
+
+**问题描述 / Problem Description**:
+应届生入职。 打从入职开始，组长对我很不满意，表现方式是把我叫到会议室，直接表达我能力不行。 领导在和我谈话时，经常拿我和别的组的一个应届毕业生来对比，踩一捧一，说人家怎么那么优秀，对比下来，我怎么就这么能力不行之类的话。 但是交给我的任务，我从来都是按时完成。（这里我怀疑可能是领导怀疑我能力不行，所以派给我的任务少？？） 所以我也不晓得到底该往哪方面努力... 有一次领导知道我租房在公司 200 米距离处，便要求我从此早上 8 点多来公司（公司本来作息是 10 点上班） 意思是我早点来，多学习一些东西，我同意了也坚持了一年多。 在我的转正答辩会上，当着大家的面，还是对我表达了不满，好像是我业
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241992#reply1
+
+---
+
+#### 11008. [V2EX] 谁的 token 多？能不能帮忙实现个 app？
+
+**问题描述 / Problem Description**:
+这个 app 我想许久了： 形态：相册管理 app 需求：本地加密照片（指纹或者设置密钥），用来把照片传到公有云。 具体描述： 打开读取系统相册，可以勾选图片选择加密，加密后，系统相册内显示为，该 app 缩略图或者自定义小图； 然后可以用百度云或电信网盘等同步上传。 该相册 app 通过解锁密码或者指纹或者手势登录后，预览的是原图。 设置里面就设置解锁，压缩预览图就行了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241985#reply0
+
+---
+
+#### 11009. [V2EX] 弱电箱（鞋柜）如何散热？
+
+**问题描述 / Problem Description**:
+弱电箱（准确来说是鞋柜）里面的设备现在有点多了，当时装修的时候做柜子留的“散热孔”又巨小，导致现在打开鞋柜们都里面热气扑出来，而且一些设备发烫非常明显，而且非常乱。我在想要不要那四个孔装个主动散热的小风扇在那，不知道有没有效果，大家支个招儿？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241977#reply22
+
+---
+
+#### 11010. [V2EX] 算力能存起来吗
+
+**问题描述 / Problem Description**:
+一张计算卡如果空载而不在工作，那么就浪费了那段赚钱的时间。 有没有可能像充电一样把空载的计算卡那段时间的算力存起来呢？ 随便想想。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241964#reply7
+
+---
+
+#### 11011. [V2EX] 抢到了 18pro 首发，求推荐 AVS 充电头，最好是那种有参数测评的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241958#reply2
+
+---
+
+#### 11012. [V2EX] 有没有安卓版的下载抖音视频或者图片的工具？
+
+**问题描述 / Problem Description**:
+原来有个轻载，现在不好用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241947#reply0
+
+---
+
+#### 11013. [V2EX] 有多少人愿意学德语之后去德国就业的
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241932#reply21
+
+---
+
+#### 11014. [V2EX] 大家做自媒体的选题灵感是在哪里找的？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241931#reply0
+
+---
+
+#### 11015. [V2EX] 友友们，有没有好吃的五仁月饼推荐？
+
+**问题描述 / Problem Description**:
+月饼只吃五仁的 其他的肉的 豆沙的 真的喜欢不来
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241923#reply8
+
+---
+
+#### 11016. [V2EX] 大家有没有觉得 opus5 讲话难以听懂啊？
+
+**问题描述 / Problem Description**:
+我从 opus4.8 开始就很少用 claude code 了，最近用重新用 Claude code ，然后模型变成 opus5 了，然后我发现他输出的内容我看不懂，好难懂，我一度以为是我有一阵子没用 Claude code 的原因，直到我用 gpt-6,发现 gpt 讲的我都能懂，然后偶然机会我看到网上帖子也有人说 Claude opus5 讲话难懂，大家也是这样感受吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241904#reply7
+
+---
+
+#### 11017. [V2EX] 看刚才纯电还是混动那个帖子，有个问题想问
+
+**问题描述 / Problem Description**:
+纯电车，评论区有老哥说过年可以中途下高速充电，请问有人实操过吗？可行性如何，下高速上高速不会堵吗？ 我也想买纯电车，一直犹豫就是因为过年高速服务区充电困难
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241893#reply41
+
+---
+
+#### 11018. [V2EX] 现在 ChatGPT 还用 CC-Switch 么
+
+**问题描述 / Problem Description**:
+现在 ChatGPT 接入第三方的 api 还是用 CC-Switch 么
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241890#reply1
+
+---
+
+#### 11019. [V2EX] 国内微信有没有替代品？
+
+**问题描述 / Problem Description**:
+因为大模型发展的比较好，金融的难度拉低了，最近加了一些群，聊的都是非常正规的内容，莫名奇妙微信被限制添加好友了，按着规矩去申诉，也不给过，我想知道有没有能替代的平台？不想被憋着当孙子。 微信安全提醒 09-14 该微信号因骚扰/虚假营销/欺诈等违规行为，当前无法使用添加朋友。2026-09-21 14:01 后可申请解除限制。若你已开通微信支付，该限制不会影响你使用支付相关功能。 到期后你可以点击"详情"查看更多信息，进行安全验证以继续使用该功能。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241886#reply44
+
+---
+
+#### 11020. [V2EX] Codex 是不是限制了同一账号多设备登陆？
+
+**问题描述 / Problem Description**:
+家里 Mac mini M4 ，chat 和 work 均正常； 公司 Mac mini M1 ，chat 正常，work 超时； 登陆同一个账号。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241883#reply2
+
+---
+
+#### 11021. [V2EX] V2 忽略主题 统计数据有 bug，一直是 0
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241882#reply0
+
+---
+
+#### 11022. [V2EX] 你们的 codxe 都提示模型满载嘛？
+
+**问题描述 / Problem Description**:
+自从更新了 GPT6 之后 很大一部分时间或者一整天都提示模型满载：Selected model is at capacity. Please try a different model.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241879#reply8
+
+---
+
+#### 11023. [V2EX] 假如你不信中医的话，那你对壮阳药材什么态度
+
+**问题描述 / Problem Description**:
+完全不信 还是 一码归一码 [狗头.jpg]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241859#reply42
+
+---
+
+#### 11024. [V2EX] 公司规定是长假期，没有特殊情况不让请假。哎
+
+**问题描述 / Problem Description**:
+哎，不能请假三天，连着中秋了，国庆机票也好贵啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241855#reply0
+
+---
+
+#### 11025. [V2EX] 兄弟们，买虚拟 visa 卡，付款金额填错了，对方联系不上，怎么办？
+
+**问题描述 / Problem Description**:
+兄弟们，买虚拟 visa 卡，付款金额填错了，对方联系不上，怎么办？ 搭了一百块人民币进去了，关键我的 telegram 还被限制发消息了，真是服了，真是够倒霉催的，啥也没干成，白贴了一百多块钱进去了。 [img] [/img] [img] [/img]
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241854#reply4
 
 ---

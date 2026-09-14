@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3467**
+**总计条目 / Total entries: 3508**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -62263,5 +62263,1044 @@ Apply Red Hat security advisory patch via yum/dnf update.
 
 **参考链接 / References**:
 - https://bugzilla.redhat.com/show_bug.cgi?id=2532579
+
+---
+
+#### 3468. CVE-2026-88932 - multer: multer: Denial of Service via orphaned disk writes on aborted uploads
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] multer: multer: Denial of Service via orphaned disk writes on aborted uploads. Bugzilla: 2532957
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532957
+
+---
+
+#### 3469. CVE-2026-90698 - memcached: memcached: Denial of Service due to out-of-bounds read
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] memcached: memcached: Denial of Service due to out-of-bounds read. Bugzilla: 2532955
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532955
+
+---
+
+#### 3470. CVE-2025-64031 - libarchive: libarchive: Denial of Service via heap-based buffer overflow in gzip…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libarchive: libarchive: Denial of Service via heap-based buffer overflow in gzip writer. Bugzilla: 2532805
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532805
+
+---
+
+#### 3471. CVE-2023-32803 - ca-certificates: ca-certificates: Failure to remove TrustCor root certificates
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] ca-certificates: ca-certificates: Failure to remove TrustCor root certificates. Bugzilla: 2532858
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532858
+
+---
+
+#### 3472. CVE-2026-90781 - alsa-lib: alsa-lib: Denial of Service via off-by-one stack buffer overflow
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] alsa-lib: alsa-lib: Denial of Service via off-by-one stack buffer overflow. Bugzilla: 2532707
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532707
+
+---
+
+#### 3473. CVE-2026-90776 - nodemailer: Nodemailer: Denial of Service via crafted email headers
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Denial of Service via crafted email headers. Bugzilla: 2532697
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532697
+
+---
+
+#### 3474. CVE-2026-90678 - haproxy: HAProxy: HTTP Request Smuggling via HTTP/3 Multiplexer Desynchronization
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] haproxy: HAProxy: HTTP Request Smuggling via HTTP/3 Multiplexer Desynchronization. Bugzilla: 2532644
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532644
+
+---
+
+#### 3475. CVE-2022-42917 - frr: FRRouting FRR: Privilege escalation via TOCTOU race condition
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] frr: FRRouting FRR: Privilege escalation via TOCTOU race condition. Bugzilla: 2532800
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532800
+
+---
+
+#### 3476. CVE-2024-53922 - kernel: Kernel: Denial of Service in buffer queue driver
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Kernel: Denial of Service in buffer queue driver. Bugzilla: 2532803
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532803
+
+---
+
+#### 3477. CVE-2026-90616 - flatpak: Flatpak: Arbitrary code execution via missing symlink protection
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] flatpak: Flatpak: Arbitrary code execution via missing symlink protection. Bugzilla: 2532613
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532613
+
+---
+
+#### 3478. [Ubuntu] USN-8758-1: dracut vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that dracut did not properly shell-quote messages written by the die() function to the emergency hook directory. An attacker on the adjacent network controlling a rogue DHCP server could use this issue to inject commands that execute as root during boot-failure handling. (CVE-2026-15816)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8758-1
+
+---
+
+#### 3479. [Ubuntu] USN-8739-2: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8739-1 fixed vulnerabilities in ImageMagick. This update provides the corresponding fixes for Ubuntu 24.04 LTS. Original advisory details: It was discovered that ImageMagick incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8739-2
+
+---
+
+#### 3480. [Ubuntu] USN-8757-1: cgit vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that cgit incorrectly handled repository paths when HTTP cloning was enabled. A remote attacker could possibly use this issue to access files outside the repository and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8757-1
+
+---
+
+#### 3481. [Ubuntu] USN-8756-1: Yelp vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Yelp allowed help documents to execute arbitrary scripts. An attacker could possibly use this issue to trick a user into opening a specially crafted help document and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8756-1
+
+---
+
+#### 3482. [Ubuntu] USN-8755-1: libvips vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled specially crafted TIFF images when saving them as HEIF images. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8755-1
+
+---
+
+#### 3483. [Ubuntu] USN-8754-1: Freeciv vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Freeciv incorrectly handled certain network packets, resulting in a stack overflow. A remote attacker could possibly use this issue to cause Freeciv clients or servers to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8754-1
+
+---
+
+#### 3484. [Ubuntu] USN-8753-1: libinput vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libinput did not properly escape device properties. A local attacker could possibly use this issue to inject arbitrary udev properties and execute arbitrary code as root.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8753-1
+
+---
+
+#### 3485. [Ubuntu] USN-8752-1: Konsole vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Konsole incorrectly handled certain URLs under specific circumstances. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8752-1
+
+---
+
+#### 3486. [Ubuntu] USN-8563-5: nginx vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8563-1 fixed vulnerabilities in nginx. The fix for CVE-2026-42533 was backed out in USN-8563-2 because it could cause a regression. This update includes a better fix for CVE-2026-42533. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain map directives using regex matching and capture variables. A remote attacker could use thi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8563-5
+
+---
+
+#### 3487. [Ubuntu] USN-8751-1: Urwid vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Katriel Moses discovered that Urwid used a weak PRNG. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8751-1
+
+---
+
+#### 3488. [Ubuntu] USN-8757-1: cgit vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that cgit incorrectly handled repository paths when HTTP cloning was enabled. A remote attacker could possibly use this issue to access files outside the repository and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8757-1
+
+---
+
+#### 3489. [Ubuntu] USN-8756-1: Yelp vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Yelp allowed help documents to execute arbitrary scripts. An attacker could possibly use this issue to trick a user into opening a specially crafted help document and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8756-1
+
+---
+
+#### 3490. [Ubuntu] USN-8755-1: libvips vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled specially crafted TIFF images when saving them as HEIF images. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8755-1
+
+---
+
+#### 3491. [Ubuntu] USN-8754-1: Freeciv vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Freeciv incorrectly handled certain network packets, resulting in a stack overflow. A remote attacker could possibly use this issue to cause Freeciv clients or servers to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8754-1
+
+---
+
+#### 3492. [Ubuntu] USN-8753-1: libinput vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libinput did not properly escape device properties. A local attacker could possibly use this issue to inject arbitrary udev properties and execute arbitrary code as root.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8753-1
+
+---
+
+#### 3493. [Ubuntu] USN-8752-1: Konsole vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Konsole incorrectly handled certain URLs under specific circumstances. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8752-1
+
+---
+
+#### 3494. [Ubuntu] USN-8751-1: Urwid vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Katriel Moses discovered that Urwid used a weak PRNG. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8751-1
+
+---
+
+#### 3495. [Ubuntu] USN-8750-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Seung Min Shin discovered that FFmpeg did not correctly handle certain memory operations. If a user or automated system were tricked into opening a specially crafted file, an attacker could cause a denial of service. (CVE-2026-12706) Xinghang Lv discovered that FFmpeg did not correctly handle certain memory operations. If a user or automated system were tricked into opening a specially crafted fil
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8750-1
+
+---
+
+#### 3496. [Ubuntu] USN-8749-1: CivetWeb vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that CivetWeb did not correctly handle parsing certain URIs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2025-55763) It was discovered that CivetWeb did not correctly handle parsing certain HTTP requests. A remote attacker could possibly use this issue
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8749-1
+
+---
+
+#### 3497. [Ubuntu] USN-8747-1: Beets vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Beets incorrectly escaped untrusted media metadata in its web interface. An attacker could possibly use this issue to inject arbitrary HTML or execute arbitrary JavaScript code in a user's browser.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8747-1
+
+---
+
+#### 3498. [Ubuntu] USN-8746-1: libEBML vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libEBML incorrectly handled certain read and write operations. An attacker could possibly use this issue to cause a buffer overflow, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8746-1
+
+---
+
+#### 3499. [Ubuntu] USN-8744-1: Python vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Python's http.cookies module incorrectly handled control characters in certain cookie operations. An attacker could possibly use this issue to inject arbitrary content. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-3644) It was discovered that the Python pyexpat module was vul
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8744-1
+
+---
+
+#### 3500. [Ubuntu] USN-8742-1: Netty vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Netty incorrectly validates the bailiwick of NS records. An attacker could possibly use this issue to facilitate DNS cache poisoning attacks.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8742-1
+
+---
+
+#### 3501. [Ubuntu] USN-8740-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Weeraphat Srisutham discovered that the .NET watch BrowserRefreshServer did not properly validate cross-origin WebSocket connections. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-58649) Rajesh Chada discovered that the .NET watch AspireServerService improperly exposed information through the use of certain arguments. An attacker could possibly use this issue
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8740-1
+
+---
+
+#### 3502. [Ubuntu] USN-8739-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2026-56366, CVE-2026-56368, CVE-2026-56371, CVE-2026-56373) It was discovered that ImageMagick incorrectly handled certain images. An
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8739-1
+
+---
+
+#### 3503. [Ubuntu] USN-8738-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FFmpeg incorrectly handled certain video frames when using the hqdn3d filter. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-66036) Adrian Junge discovered that FFmpeg incorrectly handled certain compressed video files. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-66038) Adri
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8738-1
+
+---
+
+#### 3504. CVE-2026-80981
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+net/smc: fix use-after-free of the LLC qentry in smc_llc_srv_add_link()
+
+smc_llc_srv_add_link() keeps add_llc pointing into the queue entry:
+
+  add_llc = &qentry->msg.add_link;			smc_llc.c:1482
+  ...
+  smc_llc_save_add_link_info(link_new, add_llc);	smc_llc.c:1494
+  smc_llc_flow_qentry_del(&lgr->llc_flow_lcl);		smc_llc.c:1495
+  ...
+  u8 *llc_msg = smc_link_shared_v2_rxbuf(link) ?
+	(u8 *)lgr->wr_rx_buf_v2 : (u8 *)add_llc;	smc_llc.c:1504
+  smc_llc_save_add_link_rkeys(link, link_new, llc_msg);	smc_llc.c:1506
+
+smc_llc_flow_qentry_del() kfree()s the entry, so on a link without a shared
+v2 receive buffer the pointer handed to smc_llc_save_add_link_rkeys() is
+already freed. Before the Fixes: commit that branch always used
+lgr->wr_rx_buf_v2 and add_llc was not used after the free.
+
+Reproduced on an unpatched tree over rxe, with KASAN, kasan_multi_shot
+and a link forced to max_recv_sge == 1: the entry is freed and read by
+the same call, and the freeing frame is smc_llc_srv_add_link() itself.
+
+  [    2.523161] BUG: KASAN: slab-use-after-free in smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.523499] Read of size 2 at addr ffff8880052194de by task kworker/0:1/11
+  [    2.523789]
+  [    2.523862] CPU: 0 UID: 0 PID: 11 Comm: kworker/0:1 Not tainted 7.2.0-rc5-p0-g2c9dd296545d #35 PREEMPT(lazy)
+  [    2.523865] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  [    2.523866] Workqueue: smc_hs_wq smc_listen_work
+  [    2.523869] Call Trace:
+  [    2.523870]  <TASK>
+  [    2.523871]  dump_stack_lvl+0x53/0x70
+  [    2.523872]  print_report+0xd0/0x630
+  [    2.523874]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+  [    2.523876]  ? smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.523878]  kasan_report+0xce/0x100
+  [    2.523879]  ? smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.523881]  smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.523883]  ? smcr_buf_reg_lgr+0x2a4/0x660
+  [    2.523885]  smc_llc_srv_add_link+0xaa2/0x1e50
+  [    2.523888]  ? _printk+0xba/0xf0
+  [    2.523897]  ? __pfx_smc_llc_srv_add_link+0x10/0x10
+  [    2.523899]  ? down_write+0xb0/0x130
+  [    2.523903]  ? __pfx_down_write+0x10/0x10
+  [    2.523905]  smc_listen_work+0x489e/0x4d00
+  [    2.523907]  ? kmem_cache_free+0x1c6/0x3a0
+  [    2.523911]  ? __pfx_smc_listen_work+0x10/0x10
+  [    2.523913]  ? release_sock+0x148/0x1d0
+  [    2.523915]  ? smc_tcp_listen_work+0xb4f/0xfc0
+  [    2.523917]  ? _raw_spin_lock_irq+0x80/0xe0
+  [    2.523918]  ? __pfx__raw_spin_lock_irq+0x10/0x10
+  [    2.523920]  process_one_work+0x633/0x1030
+  [    2.523922]  ? assign_work+0x11d/0x370
+  [    2.523924]  worker_thread+0x45b/0xd10
+  [    2.523926]  ? __pfx_worker_thread+0x10/0x10
+  [    2.523928]  ? __pfx_worker_thread+0x10/0x10
+  [    2.523929]  kthread+0x2c6/0x3b0
+  [    2.523931]  ? recalc_sigpending+0x15c/0x1e0
+  [    2.523934]  ? __pfx_kthread+0x10/0x10
+  [    2.523935]  ret_from_fork+0x36e/0x5a0
+  [    2.523937]  ? __pfx_ret_from_fork+0x10/0x10
+  [    2.523938]  ? __switch_to+0x572/0xdd0
+  [    2.523943]  ? __pfx_kthread+0x10/0x10
+  [    2.523944]  ret_from_fork_asm+0x1a/0x30
+  [    2.523947]  </TASK>
+  [    2.523948]
+  [    2.531253] Allocated by task 48:
+  [    2.531399]  kasan_save_stack+0x33/0x60
+  [    2.531570]  kasan_save_track+0x14/0x30
+  [    2.531737]  __kasan_kmalloc+0x8f/0xa0
+  [    2.531905]  __kmalloc_cache_noprof+0x158/0x370
+  [    2.532100]  smc_llc_enqueue+0x72/0x560
+  [    2.532268]  smc_wr_rx_tasklet_fn+0x474/0xa80
+  [    2.532491]  tasklet_action_common+0x20f/0x8a0
+  [    2.532714]  handle_softirqs+0x18e/0x590
+  [    2.532886]  do_softirq+0x3b/0x60
+  [    2.533036]  __local_bh_enable_ip+0x61/0x70
+  [    2.533221]  __alloc_skb+0x732/0x890
+  [    2.533384]  rxe_init_packet+0x16b/0x4f0
+  [    2.533567]  prepare_ack_packet+0xb8/0x830
+  [    2.533760]  rxe_receiver+0x495/0x96e0
+  [    2.533933]  do_work+0x144/0x470
+  [    2
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/a42a459ef0e54cb0c4b3e43e21cb0e658e664f64.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/a42a459ef0e54cb0c4b3e43e21cb0e658e664f64
+- https://git.kernel.org/stable/c/adef84cc85d449ac28d2b4b4c49cf19619c56e27
+- https://git.kernel.org/stable/c/c52a998a223e7e84333306996edec096178d1e95
+
+---
+
+#### 3505. CVE-2026-80986
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+net/smc: bound the peer rkey counts in SMC-Rv2 LLC messages
+
+On a link whose device has max_recv_sge == 1 there is no shared v2 receive
+buffer, and smc_llc_save_add_link_rkeys() takes the v2 extension from 44
+bytes past the start of the queue entry's inline message:
+
+  ext = (struct smc_llc_msg_add_link_v2_ext *)(llc_msg + SMC_WR_TX_SIZE);
+
+The entry is a 72-byte allocation and the extension starts at offset 68, so
+ext->num_rkeys at offset 94 is already past it. This happens on every
+SMC-Rv2 link addition, whatever the peer sends:
+
+  [    2.490065] BUG: KASAN: slab-out-of-bounds in smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.490431] Read of size 2 at addr ffff8880056406de by task smctest/106
+  [    2.490709]
+  [    2.490792] CPU: 0 UID: 0 PID: 106 Comm: smctest Not tainted 7.2.0-rc5-p1-g77a5d9d9c99f #32 PREEMPT(lazy)
+  [    2.490795] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+  [    2.490798] Call Trace:
+  [    2.490803]  <TASK>
+  [    2.490805]  dump_stack_lvl+0x53/0x70
+  [    2.490810]  print_report+0xd0/0x630
+  [    2.490828]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+  [    2.490832]  ? smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.490834]  kasan_report+0xce/0x100
+  [    2.490836]  ? smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.490837]  smc_llc_save_add_link_rkeys+0x333/0x350
+  [    2.490839]  ? smcr_buf_map_lgr+0x1bf/0x2b0
+  [    2.490844]  smc_llc_cli_add_link+0xca7/0x1e80
+  [    2.490848]  ? smc_llc_wait+0x355/0x810
+  [    2.490850]  ? __pfx_smc_llc_wait+0x10/0x10
+  [    2.490851]  ? __pfx_smc_llc_cli_add_link+0x10/0x10
+  [    2.490853]  ? __pfx_autoremove_wake_function+0x10/0x10
+  [    2.490863]  __smc_connect+0x3f5c/0x4980
+  [    2.490873]  ? __pfx_kernel_connect+0x10/0x10
+  [    2.490888]  ? __pfx___smc_connect+0x10/0x10
+  [    2.490891]  ? release_sock+0x148/0x1d0
+  [    2.490894]  smc_connect+0x42c/0x580
+  [    2.490896]  __sys_connect+0xfc/0x130
+  [    2.490898]  ? __pfx___sys_connect+0x10/0x10
+  [    2.490900]  ? handle_mm_fault+0x1a1/0x430
+  [    2.490908]  __x64_sys_connect+0x6d/0xb0
+  [    2.490909]  ? fpregs_assert_state_consistent+0x56/0xe0
+  [    2.490917]  do_syscall_64+0xf9/0x540
+  [    2.490921]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+  [    2.490924] RIP: 0033:0x421bb4
+  [    2.490927] Code: ff f7 d8 64 89 01 48 83 c8 ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 80 3d ad 34 09 00 00 74 13 b8 2a 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 4c c3 0f 1f 00 55 48 89 e5 48 83 ec 10 89 55
+  [    2.490929] RSP: 002b:00007ffd473b01a8 EFLAGS: 00000202 ORIG_RAX: 000000000000002a
+  [    2.490935] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 0000000000421bb4
+  [    2.490936] RDX: 0000000000000010 RSI: 00007ffd473b01d0 RDI: 0000000000000003
+  [    2.490937] RBP: 0000000000003930 R08: 0000000000000004 R09: 0000000000000000
+  [    2.490938] R10: 00007ffd473b0f98 R11: 0000000000000202 R12: 0000000000000006
+  [    2.490939] R13: 00007ffd473b0f87 R14: 0000000000000003 R15: 00007ffd473b0f90
+  [    2.490940]  </TASK>
+  [    2.490941]
+  [    2.499545] Allocated by task 44:
+  [    2.499693]  kasan_save_stack+0x33/0x60
+  [    2.499860]  kasan_save_track+0x14/0x30
+  [    2.500026]  __kasan_kmalloc+0x8f/0xa0
+  [    2.500190]  __kmalloc_cache_noprof+0x158/0x370
+  [    2.500393]  smc_llc_enqueue+0x72/0x560
+  [    2.500559]  smc_wr_rx_tasklet_fn+0x474/0xa80
+  [    2.500747]  tasklet_action_common+0x20f/0x8a0
+  [    2.500945]  handle_softirqs+0x18e/0x590
+  [    2.501115]  do_softirq+0x3b/0x60
+  [    2.501266]  __local_bh_enable_ip+0x61/0x70
+  [    2.501446]  __alloc_skb+0x732/0x890
+  [    2.501604]  rxe_init_packet+0x16b/0x4f0
+  [    2.501783]  prepare_ack_packet+0xb8/0x830
+  [    2.501962]  rxe_receiver+0x495/0x96e0
+  [    2.502125]  do_work+0x144/0x470
+  [    2.502269]  process_one_work+0x633/0x1030
+  [    2.502450]  worker_thread+0x45b/0xd10
+  [    2.50261
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/2d1e7c5aaa3326e95e2058457f172ca99a9a4577.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/2d1e7c5aaa3326e95e2058457f172ca99a9a4577
+- https://git.kernel.org/stable/c/486c699a8cde82c1d9b4f443eeab4ddf86358cb0
+- https://git.kernel.org/stable/c/5e5d9e6df677d30a2203d257b5fd8b99814fa607
+
+---
+
+#### 3506. CVE-2026-89482
+
+**严重程度 / Severity**: CRITICAL | CVSS: 9.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+nvme-tcp: do not accept C2HData based on blk_rq_payload_bytes() alone
+
+Commit 25e5cb780e62 ("nvme-tcp: fix possible crash in write_zeroes
+processing") established that blk_rq_payload_bytes() must not be read
+without first checking blk_rq_nr_phys_segments(), and recorded the
+result in nvme_tcp_setup_cmd_pdu() as req->data_len. The receive side
+was left as it was.
+
+The two differ for REQ_OP_WRITE_ZEROES, which has no physical segments
+but a non-zero blk_rq_bytes(), so setup leaves req->iter untouched
+while the receive gate lets a C2HData through and nvme_tcp_recv_data()
+copies into whatever the previous command on that tag left there. The
+driver-private area is zeroed only when the tag set is allocated.
+
+Reproduced with a test target that leaves a residual iterator on a tag
+and then sends a C2HData for a WRITE_ZEROES command on the same tag:
+
+BUG: KASAN: wild-memory-access in _copy_to_iter+0x642/0x1330
+Write of size 512 at addr ffe728c2175dfa81 by task kworker/0:1H/103
+
+CPU: 0 UID: 0 PID: 103 Comm: kworker/0:1H Not tainted 7.2.0-rc5-NVMETCP-gf5098b6bae76 #1 PREEMPT(lazy)
+Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+Workqueue: nvme_tcp_wq nvme_tcp_io_work
+Call Trace:
+ <TASK>
+ dump_stack_lvl+0x53/0x70
+ kasan_report+0xce/0x100
+ ? _copy_to_iter+0x642/0x1330
+ kasan_check_range+0x105/0x1b0
+ __asan_memcpy+0x3c/0x60
+ _copy_to_iter+0x642/0x1330
+ ? __pfx_sock_has_perm+0x10/0x10
+ ? worker_thread+0x45b/0xd10
+ ? __pfx__copy_to_iter+0x10/0x10
+ ? _raw_spin_lock_bh+0x83/0xe0
+ ? __pfx__raw_spin_lock_bh+0x10/0x10
+ __skb_datagram_iter+0xf3/0x820
+ ? __pfx_simple_copy_to_iter+0x10/0x10
+ ? __asan_memcpy+0x3c/0x60
+ ? skb_copy_bits+0x58d/0x830
+ skb_copy_datagram_iter+0x37/0x120
+ nvme_tcp_recv_skb+0xa07/0x4320
+ ? __pfx_nvme_tcp_recv_skb+0x10/0x10
+ __tcp_read_sock+0x1ab/0x810
+ ? __pfx_nvme_tcp_recv_skb+0x10/0x10
+ ? __pfx_lock_sock_nested+0x10/0x10
+ ? __pfx___tcp_read_sock+0x10/0x10
+ nvme_tcp_try_recv+0x152/0x1e0
+ ? __pfx_nvme_tcp_try_recv+0x10/0x10
+ ? __pfx_mutex_unlock+0x10/0x10
+ nvme_tcp_io_work+0x1e4/0x6c0
+ ? __schedule+0x181a/0x49f0
+ ? __pfx_nvme_tcp_io_work+0x10/0x10
+ process_one_work+0x633/0x1030
+
+Keep the blk_rq_payload_bytes() test and add req->data_len to it. The
+old test is what rejects a C2HData naming a tag that is no longer in
+flight, because blk_update_request() zeroes rq->__data_len on
+completion; req->data_len and req->curr_bio are driver-private and
+survive completion, so they cannot stand in for it. Setup initialises
+the iterator only when both req->curr_bio and req->data_len are set, so
+the gate now tests the same two.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/32ea8ce96b9bd797c59c351ce490ffd97adaa8c0.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/32ea8ce96b9bd797c59c351ce490ffd97adaa8c0
+- https://git.kernel.org/stable/c/3a4aa9e6ad3e35f8e24d5eaf38ee4d437075fb36
+- https://git.kernel.org/stable/c/641ad3a30ba560f0a9a610376c568d7b75d2a2aa
+- https://git.kernel.org/stable/c/6a01b58263108eaf9869bb6f82f07709240c6589
+- https://git.kernel.org/stable/c/7ed0b61bbc145988be292c4d3ec580aebd8d2bcd
+
+---
+
+#### 3507. CVE-2026-89483
+
+**严重程度 / Severity**: HIGH | CVSS: 7.5
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+nvme: zero the discard fallback page
+
+nvme_setup_discard() always maps sizeof(struct nvme_dsm_range) *
+NVME_DSM_MAX_RANGES = 4096 bytes as the DSM payload however many ranges
+the command declares, because some devices ignore the 'Number of Ranges'
+field - the Fixes: commit records two that read past the declared ranges.
+A single-range discard fills only the first 16 bytes.
+
+Normally the buffer comes from kzalloc() and the other 4080 bytes are
+zero.  When that allocation fails the code falls back to the
+per-controller ctrl->discard_page, which nvme_init_ctrl() obtains with
+alloc_page(GFP_KERNEL) and nothing ever zeroes, so those 4080 bytes are
+whatever the page last held and are handed to the controller.  Reaching
+it requires the kzalloc(GFP_ATOMIC | __GFP_NOWARN) to fail, that is
+memory pressure; it is not remotely triggerable.  Failing the allocation
+under KMSAN reproduces it, with the leaked tail full of vmemmap struct
+page pointers.  The extent in the report is a partial transfer of the
+payload, not the whole 4096 bytes; the 16-byte boundary in it is the one
+declared range:
+
+[   11.991601] BUG: KMSAN: uninit-value in dma_map_phys+0x14c8/0x1900
+[   11.991969]  dma_map_phys+0x14c8/0x1900
+[   11.992220]  dma_map_page_attrs+0xcf/0x130
+[   11.992485]  e1000_xmit_frame+0x4099/0x6d10
+[   11.992768]  dev_hard_start_xmit+0x22f/0xa80
+[   11.993068]  sch_direct_xmit+0x35c/0xcb0
+[   11.993315]  __dev_queue_xmit+0x1ee5/0x5eb0
+[   11.993608]  ip_finish_output2+0x1903/0x1c30
+[   11.993881]  ip_finish_output+0x288/0x870
+[   11.994125]  ip_output+0x15e/0x400
+[   11.994365]  __ip_queue_xmit+0x1e85/0x1fb0
+[   11.994639]  ip_queue_xmit+0x60/0x80
+[   11.994899]  __tcp_transmit_skb+0x4e71/0x5fa0
+[   11.995210]  tcp_write_xmit+0x3a36/0x9160
+[   11.995533]  __tcp_push_pending_frames+0xc5/0x3c0
+[   11.995854]  tcp_push+0x7dc/0x840
+[   11.996076]  tcp_sendmsg_locked+0x766c/0x8400
+[   11.996371]  tcp_sendmsg+0x4b/0x90
+[   11.996572]  inet_sendmsg+0x134/0x2a0
+[   11.996823]  __sock_sendmsg+0x265/0x360
+[   11.997076]  sock_sendmsg+0x100/0x1e0
+[   11.997293]  nvme_tcp_try_send+0x196f/0x6370
+[   11.997605]  nvme_tcp_queue_rq+0x1d54/0x20b0
+[   11.997882]  blk_mq_dispatch_rq_list+0x5ee/0x2e50
+[   11.998175]  __blk_mq_sched_dispatch_requests+0x16dc/0x24a0
+[   11.998539]  blk_mq_sched_dispatch_requests+0x11b/0x2c0
+[   11.998865]  blk_mq_run_work_fn+0x13b/0x280
+[   11.999146]  process_scheduled_works+0x966/0x1ad0
+[   11.999465]  worker_thread+0xe44/0x1480
+[   11.999709]  kthread+0x53b/0x600
+[   11.999927]  ret_from_fork+0x29f/0x7c0
+[   12.000191]  ret_from_fork_asm+0x1a/0x30
+[   12.000460]
+[   12.000558] Uninit was created at:
+[   12.000788]  __alloc_frozen_pages_noprof+0x8bf/0xd30
+[   12.001096]  alloc_pages_mpol+0x1d0/0x5f0
+[   12.001326]  alloc_pages_noprof+0x102/0x290
+[   12.001627]  nvme_init_ctrl+0x5a3/0x9f0
+[   12.001891]  nvme_tcp_create_ctrl+0xd75/0x19b0
+[   12.002170]  nvmf_dev_write+0x4c68/0x4fd0
+[   12.002426]  vfs_write+0x587/0x1a10
+[   12.002636]  __x64_sys_write+0x207/0x4f0
+[   12.002874]  x64_sys_call+0x2ff0/0x3ea0
+[   12.003123]  do_syscall_64+0x147/0x3b0
+[   12.003400]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[   12.003680]
+[   12.003777] Bytes 16-2843 of 2844 are uninitialized
+[   12.004068] Memory access of size 2844 starts at ffff888109f82000
+[   12.004412]
+[   12.004530] CPU: 0 UID: 0 PID: 101 Comm: kworker/0:1H Not tainted 7.2.0-rc5-NVMECTL-gf5098b6bae76 #1 PREEMPT(lazy)
+[   12.005127] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[   12.005762] Workqueue: kblockd blk_mq_run_work_fn
+[   12.006073] =====================================================
+
+Allocate the page with __GFP_ZERO.  The single allocation site covers
+every use of it: bytes no discard has written stay zero, and bytes one
+did write hold that controller's own range list, which it has already
+been sent.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/3f84d2bd0d8ae8c7e8e0f8fc3cbf018a282971a1.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/3f84d2bd0d8ae8c7e8e0f8fc3cbf018a282971a1
+- https://git.kernel.org/stable/c/415f2772ebcbc7f3f1ab1a71915dab82cee3465e
+- https://git.kernel.org/stable/c/66b5af23b6f956e57f8205c46aa80b054631be34
+- https://git.kernel.org/stable/c/67551d8430df94c827e1830bd3a5fae1f66a5219
+- https://git.kernel.org/stable/c/76139b5bbf531e675934b97227be3521c7fdd537
+
+---
+
+#### 3508. CVE-2026-89754
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+mm/pagewalk: fix stale walk->action escaping walk_pmd_range()
+
+If ->pmd_entry() sets walk->action = ACTION_AGAIN, the pmd_none() check is
+retried.  The PMD entry may be cleared at the point of retry.
+
+In this case, if walk->ops->install_pte is not specified, the code
+continues to the next PMD entry in the range without resetting
+walk->action to ACTION_SUBTREE.
+
+This leaves walk->action erroneously set to ACTION_AGAIN, which is
+incorrect.
+
+This was incorrect but not problematic up until commit 3b89863c3fa4
+("mm/pagewalk: fix race between concurrent split and refault") which
+updated walk_pud_range() to check for walk->action == ACTION_AGAIN upon
+walk_pmd_range()'s return, causing the PUD walk to be retried.
+
+In this case this results in duplicate walk callbacks being invoked,
+which is erroneous and will break any caller that is not idempotent
+with respect to this (and waste time for those which are).  The result
+is an out-of-bounds write, triggered by a local fuzzer:
+
+[    2.272695] ==================================================================
+[    2.273471] BUG: KASAN: slab-out-of-bounds in __mincore_unmapped_range+0x14f/0x190
+[    2.274302] Write of size 1 at addr ffff888008d9b000 by task poc/106
+[    2.274966]
+[    2.275154] CPU: 0 UID: 1000 PID: 106 Comm: poc Not tainted 7.2.0-rc6-00429-ga7c7074b58d2 #55 PREEMPT(lazy)
+[    2.275159] Hardware name: QEMU Ubuntu 24.04 PC v2 (i440FX + PIIX, arch_caps fix, 1996), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[    2.275164] Call Trace:
+[    2.275170]  <TASK>
+[    2.275172]  dump_stack_lvl+0x53/0x70
+[    2.275200]  print_report+0xd0/0x630
+[    2.275210]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10
+[    2.275219]  ? irqentry_exit+0xd2/0x670
+[    2.275224]  ? irqentry_exit+0xd2/0x670
+[    2.275226]  ? __virt_addr_valid+0xef/0x1a0
+[    2.275239]  ? __mincore_unmapped_range+0x14f/0x190
+[    2.275242]  kasan_report+0xce/0x100
+[    2.275245]  ? __mincore_unmapped_range+0x14f/0x190
+[    2.275248]  __mincore_unmapped_range+0x14f/0x190
+[    2.275252]  mincore_unmapped_range+0x45/0x70
+[    2.275254]  walk_pgd_range+0xafc/0xfc0
+[    2.275261]  ? __pfx_walk_pgd_range+0x10/0x10
+[    2.275264]  ? __update_load_avg_se+0x3d1/0x670
+[    2.275275]  __walk_page_range+0xc0/0x310
+[    2.275278]  ? __pfx_find_vma+0x10/0x10
+[    2.275281]  ? finish_task_switch.isra.0+0x16d/0x4f0
+[    2.275290]  walk_page_range_mm_unsafe+0x26f/0x3a0
+[    2.275293]  ? __pfx_mtree_load+0x10/0x10
+[    2.275298]  ? __pfx_walk_page_range_mm_unsafe+0x10/0x10
+[    2.275302]  ? __free_frozen_pages+0x54d/0x7e0
+[    2.275308]  __do_sys_mincore+0x132/0x380
+[    2.275311]  do_syscall_64+0xf9/0x540
+[    2.275316]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[    2.275322] RIP: 0033:0x422ccd
+[    2.275326] Code: b3 66 2e 0f 1f 84 00 00 00 00 00 66 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48
+[    2.275329] RSP: 002b:00007fffffffec18 EFLAGS: 00000287 ORIG_RAX: 000000000000001b
+[    2.275337] RAX: ffffffffffffffda RBX: 0000000000000066 RCX: 0000000000422ccd
+[    2.275339] RDX: 00000000004d0940 RSI: 0000000001000000 RDI: 00007ffff4000000
+[    2.275340] RBP: 00000000004d0940 R08: 0000000000000100 R09: 0000000000000100
+[    2.275342] R10: 0000000000000100 R11: 0000000000000287 R12: 20c49ba5e353f7cf
+[    2.275343] R13: 00000000004990d3 R14: 0000000000000000 R15: 0000000000000001
+[    2.275346]  </TASK>
+[    2.275347]
+[    2.296904] The buggy address belongs to the object at ffff888008d9b000
+[    2.296904]  which belongs to the cache sigqueue of size 80
+[    2.298151] The buggy address is located 0 bytes inside of
+[    2.298151]  allocated 80-byte region [ffff888008d9b000, ffff888008d9b050)
+[    2.299408]
+[    2.299601] The buggy address belongs to the physical page:
+[    2.300191] page: refcount:0 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x8d9b
+---truncated---
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/895cd4ecbb2e03d7583103c65ee5adaae126ed6d.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/895cd4ecbb2e03d7583103c65ee5adaae126ed6d
+- https://git.kernel.org/stable/c/aedf2efd18977e0cef7eb963166e2b1fcc0aa321
+- https://git.kernel.org/stable/c/c05cdc2ab365b98099386e6c166b9865a4f2a9d3
 
 ---

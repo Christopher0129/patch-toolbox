@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3747**
+**总计条目 / Total entries: 3783**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -54395,5 +54395,437 @@ Multiple vulnerabilities have been found in Chromium, Google Chrome, Microsoft E
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202609-02
+
+---
+
+#### 3748. CVE-2026-88932 - multer: multer: Denial of Service via orphaned disk writes on aborted uploads
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] multer: multer: Denial of Service via orphaned disk writes on aborted uploads. Bugzilla: 2532957
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532957
+
+---
+
+#### 3749. CVE-2026-90698 - memcached: memcached: Denial of Service due to out-of-bounds read
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] memcached: memcached: Denial of Service due to out-of-bounds read. Bugzilla: 2532955
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532955
+
+---
+
+#### 3750. CVE-2025-64031 - libarchive: libarchive: Denial of Service via heap-based buffer overflow in gzip…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libarchive: libarchive: Denial of Service via heap-based buffer overflow in gzip writer. Bugzilla: 2532805
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532805
+
+---
+
+#### 3751. CVE-2023-32803 - ca-certificates: ca-certificates: Failure to remove TrustCor root certificates
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] ca-certificates: ca-certificates: Failure to remove TrustCor root certificates. Bugzilla: 2532858
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532858
+
+---
+
+#### 3752. CVE-2026-90781 - alsa-lib: alsa-lib: Denial of Service via off-by-one stack buffer overflow
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] alsa-lib: alsa-lib: Denial of Service via off-by-one stack buffer overflow. Bugzilla: 2532707
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532707
+
+---
+
+#### 3753. CVE-2026-90776 - nodemailer: Nodemailer: Denial of Service via crafted email headers
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] nodemailer: Nodemailer: Denial of Service via crafted email headers. Bugzilla: 2532697
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532697
+
+---
+
+#### 3754. CVE-2026-90678 - haproxy: HAProxy: HTTP Request Smuggling via HTTP/3 Multiplexer Desynchronization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] haproxy: HAProxy: HTTP Request Smuggling via HTTP/3 Multiplexer Desynchronization. Bugzilla: 2532644
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532644
+
+---
+
+#### 3755. CVE-2022-42917 - frr: FRRouting FRR: Privilege escalation via TOCTOU race condition
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] frr: FRRouting FRR: Privilege escalation via TOCTOU race condition. Bugzilla: 2532800
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532800
+
+---
+
+#### 3756. CVE-2024-53922 - kernel: Kernel: Denial of Service in buffer queue driver
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: Kernel: Denial of Service in buffer queue driver. Bugzilla: 2532803
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532803
+
+---
+
+#### 3757. CVE-2026-90616 - flatpak: Flatpak: Arbitrary code execution via missing symlink protection
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] flatpak: Flatpak: Arbitrary code execution via missing symlink protection. Bugzilla: 2532613
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2532613
+
+---
+
+#### 3758. [Ubuntu] USN-8758-1: dracut vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that dracut did not properly shell-quote messages written by the die() function to the emergency hook directory. An attacker on the adjacent network controlling a rogue DHCP server could use this issue to inject commands that execute as root during boot-failure handling. (CVE-2026-15816)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8758-1
+
+---
+
+#### 3759. [Ubuntu] USN-8739-2: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8739-1 fixed vulnerabilities in ImageMagick. This update provides the corresponding fixes for Ubuntu 24.04 LTS. Original advisory details: It was discovered that ImageMagick incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8739-2
+
+---
+
+#### 3760. [Ubuntu] USN-8757-1: cgit vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cgit incorrectly handled repository paths when HTTP cloning was enabled. A remote attacker could possibly use this issue to access files outside the repository and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8757-1
+
+---
+
+#### 3761. [Ubuntu] USN-8756-1: Yelp vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Yelp allowed help documents to execute arbitrary scripts. An attacker could possibly use this issue to trick a user into opening a specially crafted help document and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8756-1
+
+---
+
+#### 3762. [Ubuntu] USN-8755-1: libvips vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled specially crafted TIFF images when saving them as HEIF images. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8755-1
+
+---
+
+#### 3763. [Ubuntu] USN-8754-1: Freeciv vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Freeciv incorrectly handled certain network packets, resulting in a stack overflow. A remote attacker could possibly use this issue to cause Freeciv clients or servers to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8754-1
+
+---
+
+#### 3764. [Ubuntu] USN-8753-1: libinput vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libinput did not properly escape device properties. A local attacker could possibly use this issue to inject arbitrary udev properties and execute arbitrary code as root.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8753-1
+
+---
+
+#### 3765. [Ubuntu] USN-8752-1: Konsole vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Konsole incorrectly handled certain URLs under specific circumstances. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8752-1
+
+---
+
+#### 3766. [Ubuntu] USN-8563-5: nginx vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8563-1 fixed vulnerabilities in nginx. The fix for CVE-2026-42533 was backed out in USN-8563-2 because it could cause a regression. This update includes a better fix for CVE-2026-42533. We apologize for the inconvenience. Original advisory details: It was discovered that nginx incorrectly handled certain map directives using regex matching and capture variables. A remote attacker could use thi
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8563-5
+
+---
+
+#### 3767. [Ubuntu] USN-8751-1: Urwid vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Katriel Moses discovered that Urwid used a weak PRNG. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8751-1
+
+---
+
+#### 3768. [Ubuntu] USN-8757-1: cgit vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cgit incorrectly handled repository paths when HTTP cloning was enabled. A remote attacker could possibly use this issue to access files outside the repository and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8757-1
+
+---
+
+#### 3769. [Ubuntu] USN-8756-1: Yelp vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Yelp allowed help documents to execute arbitrary scripts. An attacker could possibly use this issue to trick a user into opening a specially crafted help document and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8756-1
+
+---
+
+#### 3770. [Ubuntu] USN-8755-1: libvips vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled specially crafted TIFF images when saving them as HEIF images. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8755-1
+
+---
+
+#### 3771. [Ubuntu] USN-8754-1: Freeciv vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Freeciv incorrectly handled certain network packets, resulting in a stack overflow. A remote attacker could possibly use this issue to cause Freeciv clients or servers to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8754-1
+
+---
+
+#### 3772. [Ubuntu] USN-8753-1: libinput vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libinput did not properly escape device properties. A local attacker could possibly use this issue to inject arbitrary udev properties and execute arbitrary code as root.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8753-1
+
+---
+
+#### 3773. [Ubuntu] USN-8752-1: Konsole vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Konsole incorrectly handled certain URLs under specific circumstances. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8752-1
+
+---
+
+#### 3774. [Ubuntu] USN-8751-1: Urwid vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Katriel Moses discovered that Urwid used a weak PRNG. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8751-1
+
+---
+
+#### 3775. [Ubuntu] USN-8750-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Seung Min Shin discovered that FFmpeg did not correctly handle certain memory operations. If a user or automated system were tricked into opening a specially crafted file, an attacker could cause a denial of service. (CVE-2026-12706) Xinghang Lv discovered that FFmpeg did not correctly handle certain memory operations. If a user or automated system were tricked into opening a specially crafted fil
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8750-1
+
+---
+
+#### 3776. [Ubuntu] USN-8749-1: CivetWeb vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that CivetWeb did not correctly handle parsing certain URIs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2025-55763) It was discovered that CivetWeb did not correctly handle parsing certain HTTP requests. A remote attacker could possibly use this issue
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8749-1
+
+---
+
+#### 3777. [Ubuntu] USN-8747-1: Beets vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Beets incorrectly escaped untrusted media metadata in its web interface. An attacker could possibly use this issue to inject arbitrary HTML or execute arbitrary JavaScript code in a user's browser.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8747-1
+
+---
+
+#### 3778. [Ubuntu] USN-8746-1: libEBML vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libEBML incorrectly handled certain read and write operations. An attacker could possibly use this issue to cause a buffer overflow, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8746-1
+
+---
+
+#### 3779. [Ubuntu] USN-8744-1: Python vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Python's http.cookies module incorrectly handled control characters in certain cookie operations. An attacker could possibly use this issue to inject arbitrary content. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-3644) It was discovered that the Python pyexpat module was vul
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8744-1
+
+---
+
+#### 3780. [Ubuntu] USN-8742-1: Netty vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Netty incorrectly validates the bailiwick of NS records. An attacker could possibly use this issue to facilitate DNS cache poisoning attacks.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8742-1
+
+---
+
+#### 3781. [Ubuntu] USN-8740-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Weeraphat Srisutham discovered that the .NET watch BrowserRefreshServer did not properly validate cross-origin WebSocket connections. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-58649) Rajesh Chada discovered that the .NET watch AspireServerService improperly exposed information through the use of certain arguments. An attacker could possibly use this issue
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8740-1
+
+---
+
+#### 3782. [Ubuntu] USN-8739-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and Ubuntu 22.04 LTS. (CVE-2026-56366, CVE-2026-56368, CVE-2026-56371, CVE-2026-56373) It was discovered that ImageMagick incorrectly handled certain images. An
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8739-1
+
+---
+
+#### 3783. [Ubuntu] USN-8738-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FFmpeg incorrectly handled certain video frames when using the hqdn3d filter. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-66036) Adrian Junge discovered that FFmpeg incorrectly handled certain compressed video files. An attacker could possibly use this issue to expose sensitive information. (CVE-2026-66038) Adri
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8738-1
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10073**
+**总计条目 / Total entries: 10139**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -135250,5 +135250,863 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241231#reply2
+
+---
+
+#### 10074. sorry but what in the actual slop is this description under 'system improvements' lol
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wg9k8e/sorry_but_what_in_the_actual_slop_is_this/
+
+---
+
+#### 10075. Good riddance Tahoe, you will not be missed
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wge9wy/good_riddance_tahoe_you_will_not_be_missed/
+
+---
+
+#### 10076. macOS 27 Golden Gate now available, here is everything new
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wg9f9j/macos_27_golden_gate_now_available_here_is/
+
+---
+
+#### 10077. It’s back!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgbzrj/its_back/
+
+---
+
+#### 10078. OMG GOLDEN GATE IS SO MUCH SMOOTHER
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgcvbi/omg_golden_gate_is_so_much_smoother/
+
+---
+
+#### 10079. MacOS 27 launches today! What is the ONE big feature you are most excited for?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wg1ni6/macos_27_launches_today_what_is_the_one_big/
+
+---
+
+#### 10080. How do I get rid of Apple Intelligence from macOS 27? (Like Sequoia/Tahoe)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wggn46/how_do_i_get_rid_of_apple_intelligence_from_macos/
+
+---
+
+#### 10081. Favorite new feature is seeing the connected ethernet status
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgbdgy/favorite_new_feature_is_seeing_the_connected/
+
+---
+
+#### 10082. Here's how to disable Siri's new floating button
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgesle/heres_how_to_disable_siris_new_floating_button/
+
+---
+
+#### 10083. MacOS 27 Golden Gate Bugs and Issues Megathread
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgek2q/macos_27_golden_gate_bugs_and_issues_megathread/
+
+---
+
+#### 10084. MacOS 27 or 26.7 ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wga2h4/macos_27_or_267/
+
+---
+
+#### 10085. Reminder: Apple Filing Protocol (AFP) Deprecated with macOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgg50h/reminder_apple_filing_protocol_afp_deprecated/
+
+---
+
+#### 10086. Excited for MacOS 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wggkur/excited_for_macos_27/
+
+---
+
+#### 10087. UI incostistencies in Golden Gate (and Tahoe as well)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgg1c3/ui_incostistencies_in_golden_gate_and_tahoe_as/
+
+---
+
+#### 10088. Is it me or do the liquid glass bubbles look a bit stretched up in an oval shape instead of being a circle because of the lighting?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wg5twi/is_it_me_or_do_the_liquid_glass_bubbles_look_a/
+
+---
+
+#### 10089. I skipped Tahoe (M1 Pro 16 GB). Should I jump into Golden Gate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfyh9o/i_skipped_tahoe_m1_pro_16_gb_should_i_jump_into/
+
+---
+
+#### 10090. Xcode not working on macOS 27? App Store just says “Open”; no updates or anything
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgbu50/xcode_not_working_on_macos_27_app_store_just_says/
+
+---
+
+#### 10091. "The selected movie won't play on your display"
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wfmaao/the_selected_movie_wont_play_on_your_display/
+
+---
+
+#### 10092. MacOS 27: How to hide Running in background apps from dock?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgcooe/macos_27_how_to_hide_running_in_background_apps/
+
+---
+
+#### 10093. Problems duplicating screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wg9nhe/problems_duplicating_screen/
+
+---
+
+#### 10094. Dedicated SIRI app (Mac OS 27)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgekwn/dedicated_siri_app_mac_os_27/
+
+---
+
+#### 10095. so for the people who took it for the team - upgrade from sequoia to golden gate?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wghgjj/so_for_the_people_who_took_it_for_the_team/
+
+---
+
+#### 10096. Can anyone confirm if Golden Gate has improved SMB (Samba) performance?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgc43p/can_anyone_confirm_if_golden_gate_has_improved/
+
+---
+
+#### 10097. I was so excited about the update that I forgot Siri AI existed and takes up a ton of storage...
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgevr5/i_was_so_excited_about_the_update_that_i_forgot/
+
+---
+
+#### 10098. What is this and how do I stop it from popping up?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgegqn/what_is_this_and_how_do_i_stop_it_from_popping_up/
+
+---
+
+#### 10099. [V2EX] 如何无人值守地远程管理 Mac ？
+
+**问题描述 / Problem Description**:
+想在别的地方放置一台 MacBook ， 目前是使用 tailscale 然后远程桌面。 但是， 这方案有致命缺陷————不能重启机器， 一旦重启， （在未登录过的情况下）它就不会自动连上 WiFi ， 更加不会自动启动和连上 tailscale 求解决办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241708#reply28
+
+---
+
+#### 10100. [V2EX] 距离 arm 黑苹果 似乎不远了
+
+**问题描述 / Problem Description**:
+最近 macos 和 ios 都能在 qemu 里跑了 https://x.com/Lakr233/status/2096529943400419688 https://x.com/kagurazakamari/status/2099034902511673452 https://x.com/kaganisildak/status/2097629357300732242
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241669#reply16
+
+---
+
+#### 10101. [V2EX] 除了鼠须管还有别的更好用的拼音输入法吗
+
+**问题描述 / Problem Description**:
+搜狗挺好用的，就是有广告 鼠须管用下来发现 shift 切换中英文输入法经常失灵，还有它的识别确实不如狗搜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241257#reply43
+
+---
+
+#### 10102. [V2EX] mac 上最像 potplayer 的播放器是哪个?请教下大家
+
+**问题描述 / Problem Description**:
+像 potplayer 一样播放列表能固定到右侧的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241209#reply9
+
+---
+
+#### 10103. [V2EX] SMS Code Filler (Firefox Addon) in Mac
+
+**问题描述 / Problem Description**:
+获取 message.app 里的电话验证码，并自动填充入页面相应的位置，只适用于 Firefox 。macOS 需要 Apple Silicon 11.0+ 或者 Intel 10.15+。 https://github.com/lylehust/sms-code-filler
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1239897#reply4
+
+---
+
+#### 10104. [V2EX] 升级到 ios27 显示 ios26.7？
+
+**问题描述 / Problem Description**:
+刚刷新软件更新，一个是升级到 26.7 ，另一个在底部提示升级到 ios27 ，但点进去显示 26.7 ，不过两者容量不同，你们也这样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242000#reply1
+
+---
+
+#### 10105. [V2EX] airpods max 异响
+
+**问题描述 / Problem Description**:
+大家好， 我的 airpods max 买了快一年了，最近总是发现有右边耳朵的异响，很奇怪，不知道有人遇到过么？ 声音就是那种哒哒哒哒。。。大概是一秒两下。 顺便说一下，虽然这个耳罩防水，可以自己泡洗衣液清洗，但是实在是味道太难闻，尤其对我这样爱流汗的人。 表示这个耳机，价格太虚了。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241999#reply2
+
+---
+
+#### 10106. [V2EX] 苹果捷径自动化
+
+**问题描述 / Problem Description**:
+请教大佬们 苹果能在捷径里设置一个自动化 让每个月自动打开 google voice 发一个短信用来保号吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241997#reply2
+
+---
+
+#### 10107. [V2EX] Apple ID 提示 重新登录
+
+**问题描述 / Problem Description**:
+更新 Apple 账户设置 貌似是更新了 iCloud 的协议？提示我云上贵州？我原来就在云上贵州啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241863#reply4
+
+---
+
+#### 10108. [V2EX] 台区 AppleOne 车位一个.即刻可上车.
+
+**问题描述 / Problem Description**:
+整车稳定发车近三年,新一季到期有一位下车了.现空一车位.季付 RMB55 上下(不以赚钱为目的,主要车友都是刚需).跳车不退,有意私.先到者发票.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241858#reply3
+
+---
+
+#### 10109. [V2EX] iPhone18 pro 的可变光圈，光学变焦还远吗
+
+**问题描述 / Problem Description**:
+可变光圈已经实现，光学变焦还远吗。光学变焦其时可以是个组件，平时是固定光圈，需要时再加持。就像当年的 Thinkpad Dock ，在家用底座，出门用 thinkpad 本体。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241851#reply6
+
+---
+
+#### 10110. [V2EX] 刚入手 iphone17pro，问有没有什么好看的手机壳？
+
+**问题描述 / Problem Description**:
+有什么质感挺好 性价比高 的手机壳可以推荐推荐？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241842#reply19
+
+---
+
+#### 10111. [V2EX] 10 月 Apple TV 发布概率多大？
+
+**问题描述 / Problem Description**:
+新一代等好久了。。。 之前想买老款，得知今年可能会出新款就一直等着。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241836#reply3
+
+---
+
+#### 10112. [V2EX] 老哥们， iphone13 电池还有 63 健康度咋办
+
+**问题描述 / Problem Description**:
+想换个电池继续用，但是原装的要 729 块，手机卖了估计也就 1000 块，有点舍不得。第三方电池又怕不好，之前 iphone8 自己买过换过，感觉很垃圾。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241815#reply20
+
+---
+
+#### 10113. [V2EX] 18PM 首发已入，有没有推荐的壳和膜
+
+**问题描述 / Problem Description**:
+今年感觉备货量挺足，一下就抢到了，这周五去店里拿货，就得提前准备下配件了。 壳和膜我搜了一下，价格真的离谱，手机壳动不动上百，两三百的也不奇怪。钢化膜也一样起飞了，很少有低于 50 的，上百的一张膜也看到不少。 壳的话我主要看了一下老爆、影视飓风啥的，膜的话之前用过特好拉和图拉斯、蓝猩之类的。 想问下大伙有没有好的推荐，质量好一些的，壳的价格我感觉最多只能接受 200 以内，膜的话 100 以内。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241770#reply65
+
+---
+
+#### 10114. [V2EX] 港区可以直接用银联卡支付了？
+
+**问题描述 / Problem Description**:
+我确实看到可以绑定银联卡了，就不知道银联区分 hk 发卡吗？能内购成功吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241737#reply9
+
+---
+
+#### 10115. [V2EX] macOS 27 Golden Gate 修正了 AirPods 音量问题
+
+**问题描述 / Problem Description**:
+从 macOS 14 Sonoma 开始，Mac 连接 AirPods 大概率会被强制设定为 50% 音量导致炸耳朵，站内也有不少帖子讨论 https://www.v2ex.com/t/1144700 https://www.v2ex.com/t/1193476 升级到 macOS 27 RC 之后，两副耳机交替使用，到现在没有遇到音量 50% 问题，并且不同耳机的最后音量似乎也能记住了 三年啊，三个大版本啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241681#reply5
+
+---
+
+#### 10116. [V2EX] 为了 Duo 这碟醋，苹果真是包了不少饺子啊……
+
+**问题描述 / Problem Description**:
+- 改了大圆角，就是为了 1：1.4 去掉圆角空间刚好接近 16:9 ； - 一直维护 16:9 的 iPhone SE ，为了让软件还能兼容 Duo ； - iPad Pro 11 寸不知道为什么突然变成 1:1.4 ，原来是 Duo 展开是 1:1.4 啊； 还有什么我没注意到。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241642#reply37
+
+---
+
+#### 10117. [V2EX] FileMint 一个 macOS 文件创建工具，但是没有公签（需要鬼点子帮助）
+
+**问题描述 / Problem Description**:
+写了个 macOS 的文件创建小工具，准备走 GitHub 分发，结果发现我没有会员。。。导致无法公签。。。 项目： FileMint 其他：有没有老哥有好点子让我有个公签，让软件安装就可以用，现在会默认被拦截 目前的安装步骤：系统设置 → 隐私与安全性 → 仍要打开，为 FileMint 单独放行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241630#reply7
+
+---
+
+#### 10118. [V2EX] 郁闷， mac 坏了，又要破费了！
+
+**问题描述 / Problem Description**:
+2 年前买的 m3 max ，3 万多，前两天坏了，我就是插拔了一下插排，结果就无法充电了，电池供电情况下还能正常使用，但是当时没意识到坏了，结果就是电池没电了，数据也没来得及备份 到了官方售后，说是主板坏了需要换主板，费用 7000 ，有点儿不舍得 所以今天就找了一个第三方维修店，结果更糟糕，修不了，检测不到坏的地方，猜测是主板板子里面坏了 最后师傅给我搭了个电池让我备份数据，可惜只备份了一部分就没电了，跟人家说好话让再给换个电池，可惜没合适的（电池排线短了点儿 插不上），这里要感谢人家师傅，忙活半天 一分钱没要 回来后预约了明天的官方售后，去换主板
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241595#reply31
+
+---
+
+#### 10119. [V2EX] 今年的 Apple 没有要买的欲望，连系统都没有升级的必要。
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241590#reply17
+
+---
+
+#### 10120. [V2EX] 怎么进不去订购页面 duo?
+
+**问题描述 / Problem Description**:
+网页版和 apple store 都进不去
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241579#reply7
+
+---
+
+#### 10121. [V2EX] 12 年的时间，苹果硬件花费近 9 万，我的推荐
+
+**问题描述 / Problem Description**:
+我的推荐 我个人觉得性价比最高的依次如下：Air Pods Pro2 、iWatch Ultra2 、Mac Mini M2(16GB)、Apple TV 。手机很难说出性价比，但是很明显从 iPhone 12 和 13 之后，我没有再去过维修点了，质量的确提升比较明显。 Air Pods Pro 平均每个工作日均会使用，陪我听书，看书，听音乐和看电影，有点离不开了。因为有了降噪，甚至在任何环境，我都能专注做我的事情。Pro 3 没有啥提升，感觉我能等到 Pro 4 或者 Pro 5 再考虑更新。 iWatch Ultra2 购买之后，开始使用 Fitness+ 健身。从 2024 平均每日消
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241565#reply31
+
+---
+
+#### 10122. [V2EX] MacBook Pro 疑似烧屏，严重
+
+**问题描述 / Problem Description**:
+m4 2024 款 2025 初购买 https://nyx.rivermao.com/img/Tmp/18796a.jpg https://nyx.rivermao.com/img/Tmp/fffb0c.jpg 现在开机完全是黑屏了 我确信没有外部液体进入正常熄屏状态放了一上午就这样了了 打了苹果官方支持电话直营今天都没有可预约时间了 帮我预约了一个授权店 手机发帖望谅解 将持续更新进度
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241557#reply12
+
+---
+
+#### 10123. [V2EX] 免费 Apple 开发者自己做的 APP 如何优雅续签？
+
+**问题描述 / Problem Description**:
+每次用 Xcode 重新打包有点太不优雅了吗？有没有在外网可以直接续签的办法？比如自建 web 服务，可以自动签名，下载安装？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241555#reply12
+
+---
+
+#### 10124. [V2EX] 华强北 FindMy 定位器 - 多端查看位置的方法（Android/iOS/Web）
+
+**问题描述 / Problem Description**:
+华强北定位器现在在拼多多卖的很便宜，十来块钱就有一个，有时候运气好还可以刷到 8.9 ，9.9 一个的都有。所以我买了很多个，挂在钥匙串上、身份证卡套上、电动车头盔上（因为被偷过）、无定位功能的电动车上、常带的手提包上、老婆的钥匙串、老婆的手提包上，等想要知道位置的东西上。 华强北的东西稳不稳定？我用了 3 年，还行，能接受。 目前有个问题，只能 [iPhone\iPad\Mac] 通过 [查找 App ] 查看定位、位置信息，网页版 iCloud 貌似都没有办法查看到这些 [物品] 类的位置信息。 而我 iPhone 手机本身只作为备用机，不随身带，经常不在身旁，主要用小米。 然后，通过 G
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241946#reply0
+
+---
+
+#### 10125. [V2EX] 大家有没有发现好多 AI 中转站都已经跑路或者关站了
+
+**问题描述 / Problem Description**:
+不知道是什么原因
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241919#reply10
+
+---
+
+#### 10126. [V2EX] 使用 codex 客户端的，老会话窗口无法使用了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241887#reply3
+
+---
+
+#### 10127. [V2EX] 做了个能复盘的 AI 口语陪练，聊完还能看复盘
+
+**问题描述 / Problem Description**:
+最近给自己的单词学习网站加了一个 AI 口语陪练功能，起因很简单：老婆的新工作里有不少场景需要和外教沟通，但只靠背单词、刷教材，真正要开口的时候还是会卡住。 所以我想做一个更接近日常使用的练习方式：不用先准备一大堆材料，直接选一个真实场景，然后和 AI 用英语自然对话。 网址 https://waiyuka.cc/zh-CN/conversation 使用录屏 https://www.bilibili.com/video/BV15EYi6kEFK 目前支持的场景包括： 点咖啡 酒店入住 机场出入境 求职面试 日常聊天 练习时，AI 会根据你的回答继续追问或展开，不是固定脚本；中途也可以随时打断
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241843#reply4
+
+---
+
+#### 10128. [V2EX] 有趣的大模型榜单可视化网站
+
+**问题描述 / Problem Description**:
+把大模型榜单做成赛车游戏了，哈哈哈 网站地址： https://airace.lol/?circuit=ring
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241838#reply1
+
+---
+
+#### 10129. [V2EX] 周末给我的网站加了个 AI 看手相的功能 欢迎大家试用一下
+
+**问题描述 / Problem Description**:
+如题： 网站地址 https://tianjiyao.com/zh 在我的占卜 八字紫薇的基础上新加了一个 AI 看手相， 哈，大家感兴趣的可以试用一下，需要手相的试用名额的可以留下注册的邮箱 我会在后台赠送一次免费使用的机会， 我也想借此校验一下解读手相的质量。谢谢 附一张我自己的手相的解读
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241799#reply5
+
+---
+
+#### 10130. [V2EX] 我发现用尖叫瓶子喝茶挺好, 不用总是呸呸呸
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241778#reply30
+
+---
+
+#### 10131. [V2EX] AI 赛博算命，六爻与紫微斗数，测一下准不准 http://aitjg.com/
+
+**问题描述 / Problem Description**:
+http://aitjg.com/ 问一件事， 起一卦，看清眼前。 三枚铜钱、六度投掷，定出本卦与变卦。八宫世应、纳甲干支、六亲六神、 旬空一次排全 —— 排盘由确定性算法推得，AI 只负责依卦而解，不凭玄谈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241687#reply4
+
+---
+
+#### 10132. [V2EX] 如果抄作业就能得高分进好大学，且老师及学校都不管，那该多好呀
+
+**问题描述 / Problem Description**:
+如果抄作业就能得高分进好大学，且老师及学校都不管，那该多好呀？ 试问谁还愿意努力学习，等着抄就好啦。 试问谁还愿意花钱训练，等着蒸馏就好啦。 试问谁还愿意花精力创新，等着抄过来拼价格就好啦。 最终就是卷卷卷，卷死你
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241673#reply43
+
+---
+
+#### 10133. [V2EX] 半夜寂寞,买了个飞机杯,到手感觉亏大了，我日！拍断大腿！
+
+**问题描述 / Problem Description**:
+这两天寂寞难耐,买了个飞机杯回来玩，介绍写的很动人 什么自动吮吸 伸缩 加热功能应有尽有 看的我饥渴难耐,于是果断下单一个 二百出头 到手之后发现中计了 就一个硅胶+一个极其廉价塑料做的伸缩的的玩意 所谓的加热功能 就是给了个看起来几毛钱的小棒,插上 USB 之后有 2-3W 的功率 然后放进去加热 体验感极差 两百多完全血亏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241618#reply10
+
+---
+
+#### 10134. [V2EX] nix 真的 agent 时代的天选之子。
+
+**问题描述 / Problem Description**:
+现在 vibe 全要经由 nix + flake ，甚至 nix profile 都不用。 单体项目，需要 vibe ，就起一个 flake.nix ，一顿乱搞，坏了不心疼，因为 nix 是声明式的，可以 diff ，避免 apt 这种黑箱。 同一个项目，flake 也可以有不同的 outputs ，不用分场景。这带来的便利谁知道啊。 devShells + packages + packages.image ，直接用 profile default 即可，也就是不用 npm -g 呢。 不同项目，多个场景，就 one folder one flake 。 像 oci 的 build ，直接用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241549#reply9
+
+---
+
+#### 10135. [V2EX] 分享浅浅尝试用 Grok Bot 创建数字员工自动开发流程
+
+**问题描述 / Problem Description**:
+目前这个流程自动化已经实现，给大家提供一下思路 tps.bunai.cc ，为了给我这个项目，自动化采集最新开源得模型，这个实现方法有很多，做这个目的更是为了简单尝试验证一个模拟公司开始流程，能不能实现。 流程就是 Linear 出任务 → 自动进开发群 → Lead/Dev/QA/Ops 接活 建 Issue / 每日循环生成 → Lead 自动发到开发群 → Dev 开发 · QA 验证 · Ops 上线 两种任务： 一次性 ：六总在 Linear 项目 tps 建 Issue ，或直接在开发群说 每日循环 ：Linear Recurring 「更新大厂开源模型与参数」 有新模型 → 按
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241365#reply7
+
+---
+
+#### 10136. [V2EX] V2EX 的流量堪比几千粉丝的 X 号
+
+**问题描述 / Problem Description**:
+新号发了三篇帖子基本稳定在 4000 浏览，这还是 4000 垂直程序员的浏览，在自媒体看来很难得的平台了，而且 V2EX 的社区氛围真是比 X 号上好多倍，X 的推荐流太浮躁了全是营销号，V2EX 还真是能解决问题，而且活人感强烈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241308#reply8
+
+---
+
+#### 10137. Using Excel for Mac (Version 16.112.4), how to make formula copy down?
+
+**问题描述 / Problem Description**:
+Tags: microsoft-excel, macos | Score: 0 | Views: 40 | Answers: 1 | Created: 2026-09-11
+
+**解决方案 / Solution**:
+Try using the following formula, the formula needs to be copied down: =IF(1 - ISERROR(SEARCH("word", INDEX(C:.C, QUOTIENT(ROW() - 1, 7) * 7 + 4))), "With Word", "Does not contain") Or, =IF(COUNT(SEARCH("word", INDEX(C:.C, QUOTIENT(ROW() - 1, 7) * 7 + 4))), "With Word", "Does not contain") One can use INT() in place of QUOTIENT() as well! If you want to spill it for the entire data, then: =IF(MAP(SEARCH("word", INDEX(C:.C, QUOTIENT(SEQUENCE(21) - 1, 7) * 7 + 4)), COUNT), "With Word", "Does not contain") Or can use : =IF(BYROW(SEARCH("word", INDEX(C:.C, QUOTIENT(SEQUENCE(21) - 1, 7) * 7 + 4)), COUNT), "With Word", "Does not contain") Change the 21 in SEQUENCE() function to the number of rows you want to expand!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940312/using-excel-for-mac-version-16-112-4-how-to-make-formula-copy-down
+
+---
+
+#### 10138. How to remove horizontal padding in VS Code terminal?
+
+**问题描述 / Problem Description**:
+Tags: macos, terminal, visual-studio-code | Score: 0 | Views: 71 | Answers: 1 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+This seems to be currently impossible with just VSCode settings themselves: https://github.com/microsoft/vscode/issues/285320 You might be able to do it with Custom CSS and JS Loader extension. Apply this kind of CSS: .monaco-workbench .xterm { padding: 0 !important; } I can't say for sure it'll work, but it should.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940235/how-to-remove-horizontal-padding-in-vs-code-terminal
+
+---
+
+#### 10139. Why has MAMP suddenly started showing a “PHP versions failed to initialize.” message on startup?
+
+**问题描述 / Problem Description**:
+Tags: macos, mamp | Score: 0 | Views: 211 | Answers: 1 | Created: 2026-08-27
+
+**解决方案 / Solution**:
+Update : As of 7:45am on August 27, 2026 it seems the MAMP 7.4 GUI work again! I have utterly no idea what happened, but perhaps something changed with the license URL ( license.mamp.info/service/mamp-info.php )? My workaround (outlined below) still works; leaving it up to help any future readers who run into similar issues. Okay, the issue seems to be with the MAMP GUI. So the solution — at least for now — is to use the Terminal to manually start and stop the servers. You can run the scripts like this… To start MAMP (Apache and MySQL), launch the Terminal and run this: /Applications/MAMP/bin/start.sh And conversely to stop MAMP, launch the Terminal and run this: /Applications/MAMP/bin/stop.sh You can also start Apache and MySQL individually like this: /Applications/MAMP/bin/startApache.sh /Applications/MAMP/bin/startMysql.sh And conversely stop Apache and MySQL individually like this: /Applications/MAMP/bin/stopApache.sh /Applications/MAMP/bin/stopMysql.sh Now as to why this oddball error is happening to being with, I believe it is an issue with the MAMP GUI trying to contact the official MAMP licensing server over here: https://license.mamp.info/service/mamp-info.php I believe either my local install of MAMP is having issues “calling home” or the remote license.mamp.info is for some reason not validating PHP. Why it’s calling home for a free version of MAMP? No clue. But my kludges seem to work for now. If I find a better solution, I will update this answer accordingly.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939954/why-has-mamp-suddenly-started-showing-a-php-versions-failed-to-initialize-mes
 
 ---
