@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3508**
+**总计条目 / Total entries: 3538**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -63302,5 +63302,485 @@ Apply patch from vendor. Monitor https://git.kernel.org/stable/c/895cd4ecbb2e03d
 - https://git.kernel.org/stable/c/895cd4ecbb2e03d7583103c65ee5adaae126ed6d
 - https://git.kernel.org/stable/c/aedf2efd18977e0cef7eb963166e2b1fcc0aa321
 - https://git.kernel.org/stable/c/c05cdc2ab365b98099386e6c166b9865a4f2a9d3
+
+---
+
+#### 3509. CVE-2026-17495 - moment: Moment: Path Traversal via crafted non-string input to locale function
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] moment: Moment: Path Traversal via crafted non-string input to locale function. Bugzilla: 2533595
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533595
+
+---
+
+#### 3510. CVE-2026-81320 - hawtio-operator: hawtio-operator: TLS private key written to operator log at debug…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] hawtio-operator: hawtio-operator: TLS private key written to operator log at debug level. Bugzilla: 2524898
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524898
+
+---
+
+#### 3511. CVE-2026-81303 - hawtio-operator: hawtio-operator: routes/custom-host confused-deputy via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] hawtio-operator: hawtio-operator: routes/custom-host confused-deputy via spec.routeHostName. Bugzilla: 2524897
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2524897
+
+---
+
+#### 3512. CVE-2026-90878 - vllm: vLLM: Denial of Service via Jinja Template Rendering
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] vllm: vLLM: Denial of Service via Jinja Template Rendering. Bugzilla: 2533580
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533580
+
+---
+
+#### 3513. CVE-2026-90852 - com.github.luben/zstd-jni: luben zstd-jni: Remote use-after-free vulnerability in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] com.github.luben/zstd-jni: luben zstd-jni: Remote use-after-free vulnerability in dictionary sharing. Bugzilla: 2533566
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533566
+
+---
+
+#### 3514. CVE-2026-91771 - wandb: wandb: Arbitrary code execution via path traversal in file download
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] wandb: wandb: Arbitrary code execution via path traversal in file download. Bugzilla: 2533555
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533555
+
+---
+
+#### 3515. CVE-2026-75092 - leapp-repository: leapp-upgrade-el9toel10: leapp-upgrade-el9toel10: scan_mysql…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] leapp-repository: leapp-upgrade-el9toel10: leapp-upgrade-el9toel10: scan_mysql runs mysqld --validate-config as root and can load mysql-writable plugins. Bugzilla: 2517499
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2517499
+
+---
+
+#### 3516. CVE-2026-90831 - binutils: GNU Binutils: Memory corruption via local manipulation of ELF String…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Memory corruption via local manipulation of ELF String Table. Bugzilla: 2533541
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533541
+
+---
+
+#### 3517. CVE-2026-90830 - binutils: GNU Binutils: Local denial of service via null pointer dereference in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Local denial of service via null pointer dereference in Section Merge. Bugzilla: 2533539
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533539
+
+---
+
+#### 3518. CVE-2026-90829 - binutils: GNU Binutils: Null pointer dereference via SHT_GROUP Section manipulation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Null pointer dereference via SHT_GROUP Section manipulation. Bugzilla: 2533532
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533532
+
+---
+
+#### 3519. CVE-2026-90828 - binutils: GNU Binutils: Null pointer dereference via elf_orphan_compatible function
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Null pointer dereference via elf_orphan_compatible function. Bugzilla: 2533528
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533528
+
+---
+
+#### 3520. CVE-2026-68489 - Ruby: Node.js Toolkit: Plesk Extensions Ruby and Node.js Toolkit: Arbitrary Code…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] Ruby: Node.js Toolkit: Plesk Extensions Ruby and Node.js Toolkit: Arbitrary Code Execution via Static Code Injection. Bugzilla: 2533442
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533442
+
+---
+
+#### 3521. CVE-2026-82049 - python: Python tarfile module: File modification and content disclosure via…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] python: Python tarfile module: File modification and content disclosure via crafted archives. Bugzilla: 2533296
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533296
+
+---
+
+#### 3522. CVE-2026-82035 - pymupdf: PyMuPDF: Arbitrary file write via path traversal vulnerability
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] pymupdf: PyMuPDF: Arbitrary file write via path traversal vulnerability. Bugzilla: 2533285
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533285
+
+---
+
+#### 3523. CVE-2026-47256 - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter:…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter: opentelemetry-collector-contrib: OpenTelemetry Sentry Exporter: Path traversal allows unauthorized access to Sentry API endpoints. Bugzilla: 2533233
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533233
+
+---
+
+#### 3524. CVE-2026-53495 - github.com/containerd/containerd: containerd: Denial of Service via CRI ExecSync…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] github.com/containerd/containerd: containerd: Denial of Service via CRI ExecSync goroutine leak. Bugzilla: 2533230
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533230
+
+---
+
+#### 3525. CVE-2026-90804 - binutils: GNU Binutils: Buffer overflow in Eh Frame Section Handler can lead to…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Buffer overflow in Eh Frame Section Handler can lead to denial of service. Bugzilla: 2533209
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533209
+
+---
+
+#### 3526. CVE-2026-55073 - weasyprint: WeasyPrint: Local file read and Server-Side Request Forgery (SSRF) via…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] weasyprint: WeasyPrint: Local file read and Server-Side Request Forgery (SSRF) via URL fetcher bypass. Bugzilla: 2533208
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533208
+
+---
+
+#### 3527. CVE-2026-90803 - binutils: GNU Binutils ld: Buffer Overflow via Malformed Relocation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils ld: Buffer Overflow via Malformed Relocation. Bugzilla: 2533196
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533196
+
+---
+
+#### 3528. CVE-2026-90802 - binutils: GNU Binutils: Denial of service via null pointer dereference in ld…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] binutils: GNU Binutils: Denial of service via null pointer dereference in ld component. Bugzilla: 2533185
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2533185
+
+---
+
+#### 3529. [Ubuntu] USN-8770-1: SimpleSAMLphp vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SimpleSAMLphp incorrectly validated cryptographic signatures in XML messages. An authenticated attacker could possibly use this issue to impersonate users or gain elevated privileges. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2019-3465) It was discovered that SimpleSAMLphp incorrectly handled external entities when parsing untrusted XML documents.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8770-1
+
+---
+
+#### 3530. [Ubuntu] USN-8769-1: phpseclib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that phpseclib did not perform padding validation in constant time when using AES in CBC mode. A remote attacker could possibly use this issue to conduct a padding oracle timing attack and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8769-1
+
+---
+
+#### 3531. [Ubuntu] USN-8768-1: Shibboleth vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Florian Stuhlmann discovered that Shibboleth incorrectly escaped input when using the ODBC storage plugin. A remote attacker could possibly use this issue to perform SQL injection attacks and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8768-1
+
+---
+
+#### 3532. [Ubuntu] USN-8767-1: Snapcast vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Snapcast incorrectly handled crafted JSON-RPC requests. A remote attacker could possibly use this issue to execute arbitrary code or obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8767-1
+
+---
+
+#### 3533. [Ubuntu] USN-8766-1: Suricata-Update vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Guillem Lefait discovered that Suricata-Update did not properly validate destination paths when extracting files referenced by downloaded rule archives. An attacker could possibly use this issue to write arbitrary files outside the configured rules directory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8766-1
+
+---
+
+#### 3534. [Ubuntu] USN-8765-1: python-sql vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Cédric Krier discovered that python-sql incorrectly escaped values passed to unary operators. An attacker could possibly use this issue to perform SQL injection attacks.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8765-1
+
+---
+
+#### 3535. [Ubuntu] USN-8762-1: polkit vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that polkit incorrectly handled cookie input. A local attacker could possibly use this issue to cause polkit to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8762-1
+
+---
+
+#### 3536. [Ubuntu] USN-8764-1: SRT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SRT did not authenticate certain encryption control messages. A remote attacker could possibly use this issue to downgrade an encrypted connection and inject arbitrary content or interrupt a media stream. (CVE-2026-55868) It was discovered that SRT did not properly validate certain control packets during connection setup and key refresh operations. A remote attacker could po
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8764-1
+
+---
+
+#### 3537. [Ubuntu] USN-8763-1: kitty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that kitty incorrectly escaped error messages when handling specially crafted terminal escape sequences. A remote attacker could possibly use this issue to execute arbitrary commands. (CVE-2026-42850) It was discovered that kitty incorrectly handled remote edit requests in terminal output. An attacker could possibly use this issue to execute arbitrary code with the user's privile
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8763-1
+
+---
+
+#### 3538. [Ubuntu] USN-8761-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - PowerPC architecture; - Compute Acceleration Framework; - Drivers core; - Bluetooth drivers; - Arm Firmware Framework for ARMv8-A(FFA); - EFI core; - GPU drivers; - Hardware
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8761-1
 
 ---

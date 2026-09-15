@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10373**
+**总计条目 / Total entries: 10429**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -142821,5 +142821,733 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241732#reply33
+
+---
+
+#### 10374. GNU coreutils 9.12 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgyron/gnu_coreutils_912_released/
+
+---
+
+#### 10375. An updated look for the Raspberry Pi Desktop
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgyti2/an_updated_look_for_the_raspberry_pi_desktop/
+
+---
+
+#### 10376. TIL sigkill doesn't always work.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgqp7j/til_sigkill_doesnt_always_work/
+
+---
+
+#### 10377. Budgie Desktop Coming soon to AerynOS
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wh8dqt/budgie_desktop_coming_soon_to_aerynos/
+
+---
+
+#### 10378. word-sys's PDF Editor v1.11.0 Feature & Fix Update Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wh9cgs/wordsyss_pdf_editor_v1110_feature_fix_update/
+
+---
+
+#### 10379. Koboldcpp v1.121 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wh4bkb/koboldcpp_v1121_released/
+
+---
+
+#### 10380. [ANN] Vee One Suite 1.5.0 - An End-of-Summer'26 Release
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wh55f3/ann_vee_one_suite_150_an_endofsummer26_release/
+
+---
+
+#### 10381. Making zypper faster by running slow operations in parallel.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1wgsalp/making_zypper_faster_by_running_slow_operations/
+
+---
+
+#### 10382. Building a Linux GPU Driver for the M4 Mac Mini in One Month
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1whavht/building_a_linux_gpu_driver_for_the_m4_mac_mini/
+
+---
+
+#### 10383. SelahOS update: I went quiet over the summer, but Beta 2.0.1 is now live
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1whbcod/selahos_update_i_went_quiet_over_the_summer_but/
+
+---
+
+#### 10384. Ubuntu 26.04.1 LTS released
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1w0t7ab/ubuntu_26041_lts_released/
+
+---
+
+#### 10385. Ubuntu 26.04 X Cosmic DE 1.7
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh8hbi/ubuntu_2604_x_cosmic_de_17/
+
+---
+
+#### 10386. My desktop after discovering gnome extensions
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgvgzp/my_desktop_after_discovering_gnome_extensions/
+
+---
+
+#### 10387. [AMA] Meet the Canonical Academy team on 17th September 2026 at 3:30 PM UTC
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh8luv/ama_meet_the_canonical_academy_team_on_17th/
+
+---
+
+#### 10388. Help pls
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh33uo/help_pls/
+
+---
+
+#### 10389. UBUNTU ON A MOTO G15 🤫
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgwfh8/ubuntu_on_a_moto_g15/
+
+---
+
+#### 10390. Joined the gang.
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wg86u9/joined_the_gang/
+
+---
+
+#### 10391. IrfanView thru Bottles
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh6fgb/irfanview_thru_bottles/
+
+---
+
+#### 10392. Problemas do sudo
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wha5gw/problemas_do_sudo/
+
+---
+
+#### 10393. Ubuntu and Windows dual booted on HP laptop with grub
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgv1fj/ubuntu_and_windows_dual_booted_on_hp_laptop_with/
+
+---
+
+#### 10394. how much does ubuntu modify linux?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh8w4k/how_much_does_ubuntu_modify_linux/
+
+---
+
+#### 10395. Kubuntu/Ubuntu DNS won't resolve after deleting Proton VPN and Windscribe VPN
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wh6y64/kubuntuubuntu_dns_wont_resolve_after_deleting/
+
+---
+
+#### 10396. Anyone know how to fix this issue ?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgvmxv/anyone_know_how_to_fix_this_issue/
+
+---
+
+#### 10397. Microsoft Todo Alternative for Linux
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgz26x/microsoft_todo_alternative_for_linux/
+
+---
+
+#### 10398. MacOS Magnification - Simple Taskbar - GNOME Extension
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wg5vj5/macos_magnification_simple_taskbar_gnome_extension/
+
+---
+
+#### 10399. ASUS Vivobook Go E1504FA: Ubuntu 22.04 shuts down screen but laptop stays powered on
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgxhhi/asus_vivobook_go_e1504fa_ubuntu_2204_shuts_down/
+
+---
+
+#### 10400. Built a simple tool to organize your latest screenshots and drag and drop them for ubuntu
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgrp7y/built_a_simple_tool_to_organize_your_latest/
+
+---
+
+#### 10401. tengo problemas con lutris en ubuntu 26.04 LTS
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgtmcf/tengo_problemas_con_lutris_en_ubuntu_2604_lts/
+
+---
+
+#### 10402. ThinkPad L14: Ubuntu freezes after 1+ day of uptime
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgwj11/thinkpad_l14_ubuntu_freezes_after_1_day_of_uptime/
+
+---
+
+#### 10403. Is Ubuntu ubstable?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wguruq/is_ubuntu_ubstable/
+
+---
+
+#### 10404. USB Controller Crash & BT Audio Stutter on Ubuntu 26.04
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgoo23/usb_controller_crash_bt_audio_stutter_on_ubuntu/
+
+---
+
+#### 10405. Best way to run Windows games + Microsoft Office on Ubuntu?
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wg8ku3/best_way_to_run_windows_games_microsoft_office_on/
+
+---
+
+#### 10406. GNOME 46 on a 15.6" 2.8K OLED: fractional scaling jumps 150% -> 175%, nothing in between
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgsdz9/gnome_46_on_a_156_28k_oled_fractional_scaling/
+
+---
+
+#### 10407. Just pressed the download ubuntu button, and the laptop shut off completely
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgxeue/just_pressed_the_download_ubuntu_button_and_the/
+
+---
+
+#### 10408. Como personalizar tela de login Ubuntu 26.04.1
+
+**问题描述 / Problem Description**:
+Reddit r/Ubuntu discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/Ubuntu/comments/1wgo0uh/como_personalizar_tela_de_login_ubuntu_26041/
+
+---
+
+#### 10409. [V2EX] libcr 项目发布高性能相册应用 crPhotos 1.7.0 ， 新增 Android 相册同步功能
+
+**问题描述 / Problem Description**:
+crPhotos 是一款 C++开发的瀑布流相册应用 基于源代码 chromium 150.0.7871.91 支持 GPU 渲染加速，视频硬件解码的跨平台照片应用 新增 Android 相册同步功能，让 crPhotos 成为手机相册数据浏览和备份的好帮手 - 通过时间线浏览本地照片与视频。 - 添加媒体库文件夹、按文件名搜索和管理收藏。 - 使用内置控件查看图片和播放视频。 - 显示拍摄详情及文件内嵌的 GPS 信息，支持离线城市匹配。 - 通过加密传输和设备配对，与附近的 crPhotos 设备分享媒体。 - 管理可信设备，并选择是否自动接收文件。 - 支持 js 来制作扩展 - 使用轻
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242012#reply0
+
+---
+
+#### 10410. [V2EX] 这种网络环境， CC-Switch 如何实现 OAI 官方订阅为主，中转服务商为辅助补充？
+
+**问题描述 / Problem Description**:
+长任务，想用上 CC-Switch 的"自动故障转移" 内网有 USA 家宽落地梯代理（非本机）:http://192.168.100.30:45001 如果本机开 TUN 全局，要用中转的时候，走 USA 家宽落地再去中转服务商的服务器延时超大，经常会被家宽运营网络阻断 内网有大陆珠三角落地 IP 代理:http://192.168.100.50:55001 如果 CC-Switch 做不到，可有其它的替代？ 其实也不是很懂，CC-Switch 代理 OAI 官方订阅，会触发风险吗？（非多机使用，只是单机使用)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242269#reply2
+
+---
+
+#### 10411. [V2EX] DeepSeek 刘胜与《我不得不把才华埋葬在昨天》？
+
+**问题描述 / Problem Description**:
+这不是 V 友天天在讨论的，怎么没人讨论 https://mp.weixin.qq.com/s/zk0KxuLzhmMJ4LPYW_OHMA 前几天，DeepSeek v4.1 发布了，将小模型能力的高度又向上推进了一个档次。 AI 发展的速度远远超过了所有人的预期。从那个只会咿呀学语地聊天、上下文长度只有几千 token 的初版 ChatGPT ，到具有推理能力的 OpenAI o1 、DeepSeek R1 与 Kimi K1.5 Thinking ，只不过短短两年；从推理模型到如今能够流畅地在各类 harness 工具中执行命令、完成复杂任务的智能体，也不过一年半。很难想象，倘若再等上一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242265#reply2
+
+---
+
+#### 10412. [V2EX] 各位有把 claude、gpt、antigravity 全挂到 cpa 上吗？
+
+**问题描述 / Problem Description**:
+rt ，这两天把几个订阅全部挂到 cpa 上了，但只用了 gpt 。之前了解过 gpt 自己用不会翻车（ tibo 也干了🤣），claude 和 antigravity 对于反代则好像查的比较严，但 A/经常莫名其妙封号，也不知道是反代还是神秘代码发力。 有几个问题请教下： 1.有长期反代这两个的吗？想了解下仅自用安不安全，毕竟 claude 和 gamil 都是老号了，gamil 更是我的主账号，十几年感情了。 2.gpt 是新号用 codex 都需要绑定手机号吗？ 我的老号一直没有弹出过绑定，claude 也没有，但我忘了是否有过特殊操作。 3.各位的 harness 搭配是怎么样的？学习
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242240#reply4
+
+---
+
+#### 10413. [V2EX] command go， opencode go 和各种 token plan，到底买哪个合适？
+
+**问题描述 / Problem Description**:
+买过火山方舟和阿里的 token plan 火山方舟的体验是最差的，不仅慢而且还有各种奇怪的计费逻辑，可以看我另一篇帖子 阿里的使用上还可以，但是计费方式不清晰，只有 credits,无法查看明细，最后一次买了企业版本的一千多，结果 3 天就干完了，但是查不到明细，不知道怎么用的 所以现在我就迷茫了，各位佬，买什么好啊
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242208#reply8
+
+---
+
+#### 10414. [V2EX] Deepseek V4.1 Flash 与 Gemini 3.8 Flash 难分伯仲 ？
+
+**问题描述 / Problem Description**:
+很难说谁更好，各位和我一样的感觉吗 ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242205#reply13
+
+---
+
+#### 10415. [V2EX] 有点迷茫，还是太天真了，上线自研指纹浏览器快一个月多，一点流量都没有
+
+**问题描述 / Problem Description**:
+目前自己开发了一款自研的指纹浏览器，但是，由于自己对于什么 SEO 以及推广不太懂，搞了一个域名上线一个月以后，一点流量都没有。 向问问大家有没有什么邪修的办法可以快速推广出去，这款浏览器目前我是将谷歌内核直接修改了，多环境指纹都隔离了，pixelscan 检测都通过了，大家下载试试看就知道了，而且实现的同步器和市面上主流的 MoreLogin 、AdsPower 等指纹浏览器是一模一样的快。 可以说，这两款的能力已经堪比企业级的指纹浏览器，定价也比较便宜，后面我还打算实现 MCP ，但是，就只知道写代码，就不知道如何推广出去。 网址： https://www.stonelogin.com/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242177#reply20
+
+---
+
+#### 10416. [V2EX] icloud 土耳其区家庭套餐又又又涨价了吗
+
+**问题描述 / Problem Description**:
+苹果土耳其区 iCloud+ 2TB 家庭套餐是不是又涨价了？刚收到的邮件通知。 Thank you for subscribing to iCloud+. We wanted to let you know about an upcoming change to this subscription. Apple is raising the price of this subscription from ₺399,99 per month to ₺549,99 per month. Your subscription will continue for ₺549,99 per month s
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242172#reply1
+
+---
+
+#### 10417. [V2EX] [开源] 做了一个 Go Runtime 的 Python Agent SDK，附一轮与 Claude Agent SDK 的对照测试
+
+**问题描述 / Problem Description**:
+最近给 Nexus 的 Agent Runtime 做了 Python 封装，叫 nexus-agent-sdk-python 。 Python 侧负责接入，实际调用模型、执行工具和管理上下文的是 Go 写的 nxs 。可以用它给自己的程序接一个能读文件、改代码、跑命令的 Agent ，也可以接自定义工具。 支持单次任务和多轮会话，提供 MCP 、Hooks 和工具权限配置。模型可以通过 Anthropic 兼容接口接入，也支持 OpenAI Chat Completions / Responses 。平台 wheel 带了 nxs 和 rg ，覆盖 macOS 、Linux 、Windows
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242163#reply0
+
+---
+
+#### 10418. [V2EX] 开源分享 ProxyLane - 拖拽即透明代理的开源工具
+
+**问题描述 / Problem Description**:
+把你要走代理的应用(例如 chatgpt.exe ，cmd.exe )拖到这个工具启动，被启动的应用以及其子进程才会走过你指定的代理 Profile 。不使用全局 Tun ，不修改系统全局代理设置，其他应用进程不影响。 例如打开 ProxyLane ，设置一个 profile （通常是你的梯纸的 HTTP/Socks5 协议的代理地址和端口）。 然后往 ProxyLane 界面拖入 chatgpt.exe 就可以， 如果拖入 cmd 启动这个命令行窗口，这个窗口里执行的 codex 、git 、curl 、npm 、pip 甚至浏览器等等自动透明代理。 https://github.com/t
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242151#reply13
+
+---
+
+#### 10419. [V2EX] gg 手机被封了之后你们现在用什么手机卡，有什么推荐的吗
+
+**问题描述 / Problem Description**:
+今天才发现手机卡被封掉了，因为发不出去短信，然后我想登录看看，发现之前注册邮箱填写错了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242116#reply25
+
+---
+
+#### 10420. [V2EX] 求教， claude 环境搭建
+
+**问题描述 / Problem Description**:
+gpt 降智的没法用了，久闻 A/封号策略，但耐不住确实模型有点东西，遂想搭建一套稳定的 claude 环境，列位诸公可否分享一下各自的环境和使用习惯，怎样减少封号概率 顺路收集一下信息，各位佬有自用 gpt5x/20x ，不做任何分发行为，结果被降智了的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242094#reply18
+
+---
+
+#### 10421. [V2EX] Deepseek V4.1 Flash 真实体验
+
+**问题描述 / Problem Description**:
+使劲蹬了一天也就 20rmb ，agent 能力与代码能力大幅提高，多模态调试闭环完全能用 梁圣你回来了✋😩🤚
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242083#reply69
+
+---
+
+#### 10422. [V2EX] 做了个自部署导航工具支持 lucky 反代同步
+
+**问题描述 / Problem Description**:
+项目地址 https://github.com/wavesbig/navdeck 使用手册 https://github.com/wavesbig/navdeck/blob/main/docs/manual.md 欢迎大家 star 和提 issues 支持 Lucky 同步、卡片管理、快速添加、内外网切换、Docker 监控，像素风格，ifarme 弹框打开
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242075#reply0
+
+---
+
+#### 10423. [V2EX] 我发现拿 ai 当记事本的效果还真不错啊， agent+记忆框架当记事本很不错欸。
+
+**问题描述 / Problem Description**:
+也不用编辑记事本啥的，就让 agent 记住，然后联动闹钟。忘记了直接问 ai
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242033#reply17
+
+---
+
+#### 10424. [V2EX] 你平时还花多少时间学语言新特征，提升写代码能力？
+
+**问题描述 / Problem Description**:
+虽然我平时还看一些语言的新特征，练习写出优美高性能的代码，但我发现，明显这类文章少了，阅读者也少了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242030#reply89
+
+---
+
+#### 10425. [V2EX] 做 youtube 下载站类的出海产品有前途吗？
+
+**问题描述 / Problem Description**:
+大规模下载 youtube 会遇到风控问题，花了好长时间搞定了 可以以较低的成本解决 如果做一下 youtube 下载站或 app ，是不是违反政策的？ 或者套一层 ai 生成摘要的壳？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242025#reply25
+
+---
+
+#### 10426. [V2EX] open minis
+
+**问题描述 / Problem Description**:
+这个东西在苹果手机上有什么用法和玩法请教
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241998#reply1
+
+---
+
+#### 10427. [V2EX] 2026 年，小小团队做了一款 mac 的场景化动态壁纸软件——码镜，欢迎大家使用。
+
+**问题描述 / Problem Description**:
+当前已上架 appstore ，请搜索“码镜”。 appstore 搜索：“码镜”“码镜”“码镜”“码镜”“码镜”“码镜”😄 近期一直在根据各位用户提出的意见再进行更新。 码镜与其他壁纸软件不同，主打场景化壁纸。同时还附带编辑器。功能丰富，支持播放多种类型壁纸，用户可以上传分享壁纸。 当前送出 5 个激活码。跳转链接即可激活。 当前版本 3.1.1 H6X7T7FE7JAM, https://apps.apple.com/redeem?code=H6X7T7FE7JAM HRX63JPA736K, https://apps.apple.com/redeem?code=HRX63JPA736K
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241980#reply25
+
+---
+
+#### 10428. [V2EX] GPT-6 是不是最近又降智了
+
+**问题描述 / Problem Description**:
+第一天用，体验还挺惊艳的，这两天上到生产环境，又开始发狂了。 官方 20x Pro 账号，ChatGPT Desktop 客户端，GPT-6 Astra High 。 我让他给一份番茄炒蛋的食谱，他给得很好， 然后我说「你就按照这个做」，他直接拿起地沟油往里面倒。 我说「你别用地沟油啊」，他说不好意思，然后直接把地沟油连着番茄和鸡蛋全扔了，搜了一份土豆炒肉丝的食谱，然后停下来不做了，要我「确认后再继续」。 我说「你倒是继续做啊」，他又说不好意思，最后给我端出来一盘用地沟油的东坡肉…… 于是最后得到了一盘用地沟油的东坡肉。怒扔之。给我气得想回古法编程了。 像注意力涣散症似的，DeepSeek V
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241973#reply12
+
+---
+
+#### 10429. [V2EX] GLM Coding Plan 新老 Pro 的额度差有多少？
+
+**问题描述 / Problem Description**:
+老的用 Prompt 额度计算，新的用积分计算。实际使用分别大概多少 token ？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241963#reply8
 
 ---

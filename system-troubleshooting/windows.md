@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 11025**
+**总计条目 / Total entries: 11071**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -149246,5 +149246,607 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241854#reply4
+
+---
+
+#### 11026. Why can’t a mouse interact with my Windows install but keyboard can?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, mouse, window, interaction | Score: 1 | Views: 121 | Answers: 1 | Created: 2026-08-29
+
+**解决方案 / Solution**:
+What you describe is the exact behaviour of a window whose owner has been disabled by a modal dialog you cannot see. When a program opens a modal dialog, Windows disables the dialog's owner window, and a disabled window receives no mouse or keyboard input at all. A click on it does not reach the program. Instead windows activates the dialog that is doing the blocking, so the title bar of the window you clicked goes inactive, which is the greying you saw. If that dialog is off screen, has zero size or belongs to a thread that has hung, the mouse looks dead on the window, and on the taskbar too if Explorer itself is the one with a modal up. It also explains why the keyboard kept working until you clicked. Alt+F4 was going to the window that still had focus, the click is what handed focus to the invisible dialog. Cycling back to the window returned focus to it, and the next click handed it away again. Since it has cleared, this is mostly for next time. Alt+Tab or Win+Tab will show more windows than you can see on screen, and one of them is the culprit. In PowerShell, listing the processes that have a main window title will show a title that does not match any window you can see. To drag a hidden dialog on screen, hold Shift and right click its taskbar entry > choose Move then use the arrow keys. I cannot tell you after the fact which program it was; the behaviour is the same whatever raised the dialog.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940003/why-can-t-a-mouse-interact-with-my-windows-install-but-keyboard-can
+
+---
+
+#### 11027. Window is missing "X" close button in top-right corner
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 0 | Views: 34 | Answers: 1 | Created: 2026-09-15
+
+**解决方案 / Solution**:
+Not every window has a Close button. There are specific dialogs that do not have close buttons. Some of these can still be dismissed using methods such as ALT + F4 and some cannot, but require you to interact with them in some way. These are called "modal" dialogs or windows and they usually exist when you must interact with something. The developer decides what "must" be interacted with and why, and sometimes you and I may disagree with what the developer thinks is required. This specific dialog could mean a minor error in the Windows OneDrive config, or it could mean you've disabled/deactivated OneDrive or just not chosen to use it for the backups Windows wants you to use. I see it on my computer occasionally even when I DO have OneDrive configured for "backups" (OneDrive is not a true backup) and I just have to click the Continue button and it goes away until next time whatever minor bug surfaces. If you want to bypass this you could try ALT + F4 , or click any of the interaction options given. Your statement of "I'd like to be able to use this computer again" sounds a little melodramatic, as you don't note whether or not you've tried clicking either of the buttons. We can certainly understand not wanting to click a button and there are questions on this site about disabling OneDrive, but you simply didn't note that, so we cannot address it unless you do.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940390/window-is-missing-x-close-button-in-top-right-corner
+
+---
+
+#### 11028. Google safe search randomly turned itself on, and I can't turn it off. What can I do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh6jqy/google_safe_search_randomly_turned_itself_on_and/
+
+---
+
+#### 11029. PC shuts down while gaming (Kernel-Power Error 41)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh99tk/pc_shuts_down_while_gaming_kernelpower_error_41/
+
+---
+
+#### 11030. Fix for Deep Freeze+Windows 11 Updates Infinite Loop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh7bbm/fix_for_deep_freezewindows_11_updates_infinite/
+
+---
+
+#### 11031. Help for a tech project about LCD screen
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh9kh2/help_for_a_tech_project_about_lcd_screen/
+
+---
+
+#### 11032. Gigabyte G7 KF laptop does not boot up without charger
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whcpry/gigabyte_g7_kf_laptop_does_not_boot_up_without/
+
+---
+
+#### 11033. Secure boot = pc not booting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh9cdj/secure_boot_pc_not_booting/
+
+---
+
+#### 11034. Issue in downloading software
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wgx94v/issue_in_downloading_software/
+
+---
+
+#### 11035. Network nightmare!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh8eze/network_nightmare/
+
+---
+
+#### 11036. Can you get ransomware from .RAR files?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whebax/can_you_get_ransomware_from_rar_files/
+
+---
+
+#### 11037. Samsung G7 29inch Monitor
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whde8s/samsung_g7_29inch_monitor/
+
+---
+
+#### 11038. Samsung tv hdmi wont connect to xbox.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whda1h/samsung_tv_hdmi_wont_connect_to_xbox/
+
+---
+
+#### 11039. ASUS laptop randomly pulling up a BIOS CPU message (followed by BitLocker)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whd4jr/asus_laptop_randomly_pulling_up_a_bios_cpu/
+
+---
+
+#### 11040. How to export malware Procmon scans
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whcxde/how_to_export_malware_procmon_scans/
+
+---
+
+#### 11041. Internet keeps going out while gaming online
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whcuca/internet_keeps_going_out_while_gaming_online/
+
+---
+
+#### 11042. Alright how do you completely remove the lockdown browser residue? (Without drastic measures)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whcq3r/alright_how_do_you_completely_remove_the_lockdown/
+
+---
+
+#### 11043. Random forced resets on PC ATTEMPTED_EXECUTE_OF_NOEXECUTE_MEMORY
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whcmk9/random_forced_resets_on_pc_attempted_execute_of/
+
+---
+
+#### 11044. ASUS Laptop Wifi Not Working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whch38/asus_laptop_wifi_not_working/
+
+---
+
+#### 11045. Pc sometimes rebooting itself?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh05lk/pc_sometimes_rebooting_itself/
+
+---
+
+#### 11046. PC with one broken Windows instalation always takes long to start up
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whca4g/pc_with_one_broken_windows_instalation_always/
+
+---
+
+#### 11047. Acer Nitro 5 AN515-45 (Ryzen 7 5800H + RTX 3060) — random freezes/restarts/crashes, looking for help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whc2yx/acer_nitro_5_an51545_ryzen_7_5800h_rtx_3060/
+
+---
+
+#### 11048. Help! Should I uninstall safe mode in Windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whby7l/help_should_i_uninstall_safe_mode_in_windows_11/
+
+---
+
+#### 11049. Help go back to Local Windows 11 account
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whbxkq/help_go_back_to_local_windows_11_account/
+
+---
+
+#### 11050. Why my iPhone doesn’t show up my what’s up notifications!!!!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1whbvn2/why_my_iphone_doesnt_show_up_my_whats_up/
+
+---
+
+#### 11051. Games are freezing on 1s intervals
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1wh1vq7/games_are_freezing_on_1s_intervals/
+
+---
+
+#### 11052. [V2EX] 未来会是 AI 写代码， AI 测试， AI 改 bug，人类的编码能力将没有任何意义
+
+**问题描述 / Problem Description**:
+（本帖完全由人类生成，未使用 AI 工具也未使用 AI 润色） 看论坛想到的想法。 我们都好奇未来会怎么样。 今天突然想到的是，在前 AI 时代，就说四五年前吧，当时动态类型语言、解释器语言、GC 语言这些实在是大家很耳熟能详的东西，但是不乏在这个时代有一群人是掌握汇编的。像我大学本科时候的老教授，头发都白了，神采奕奕，能写一手漂亮的汇编的日本老头。他们会使用汇编写程序（起码在上课的时候是这样的），也许他们的私人项目会喜欢 C/C++语言，因为他们更习惯/喜欢对于每一行代码有更精准的控制粒度，更精准的资源调用。 我当时的想法是：尊重但不认可。毕竟 C 艹写起来还是比较累的，java 写起来不太
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242282#reply5
+
+---
+
+#### 11053. [V2EX] 一个人用 20x ，会不会封啊？
+
+**问题描述 / Problem Description**:
+dmit+cpa ，就我一个人用。 美区礼品卡。会有问题吗？ Claude
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242280#reply0
+
+---
+
+#### 11054. [V2EX] claude 的 20x 苹果订阅要 249 刀？有办法 200 刀订阅嘛？为什么代充可以苹果 200 刀订阅？
+
+**问题描述 / Problem Description**:
+claude 的 20x 苹果订阅要 249 刀？有办法 200 刀订阅嘛？ 为什么很多代充，苹果订阅可以走 200 刀，是有什么方法吗？ 本打算用苹果礼品卡充 claude ，用 iphone 点进去发现变成 249 刀了 求方法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242277#reply2
+
+---
+
+#### 11055. [V2EX] 升级 macos27，大家代理都正常吗？
+
+**问题描述 / Problem Description**:
+之前 26 下使用 v2rayn 一切正常 现在升级 27 后，v2rayn 直接报错 Support/v2rayN/binConfigs, Bad CPU type in executable 然后换到小火箭，浏览器上网正常，但是 chatgpt （ codex ）桌面端又一直报错 Reconnecting... waiting for network Connection failed: error sending request 有大佬知道怎么解决吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242270#reply2
+
+---
+
+#### 11056. [V2EX] 麻烦各位推荐一款路由器
+
+**问题描述 / Problem Description**:
+现在用的路由器我一看竟然都已经 7 年了，最近有断流情况，换过光猫到路由的网线，换过参数一模一样的电源，情况依旧，我估计还是老化了。 简单查过几款型号，捷希 jcg q30 ，小米 ax3000t 之类的，要么已经很难买到全新，要么像小米那种，已经变更了硬件型号，本来小米 ax3000t 的联发科 MT7981B 版打算无脑入，但现在新版本已经不是联发科芯片，遂放弃。不过路由型号非常多，我对硬件不熟悉，想请 V 友推荐一款。 要求大致有小米 ax3000t 联发科版的性能即可，WIFI6 即可，信号强度好更佳，可刷机更佳，较大内存容量更佳。 200 元内新机不知道有没有得选？感谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242261#reply5
+
+---
+
+#### 11057. [V2EX] 现在注册商标越来越严 ，大公司有法务争取 小公司有什么 叹气嘛！
+
+**问题描述 / Problem Description**:
+现在注册商标越来越严了，大公司有商标律师，普通创业者的有什么！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242256#reply3
+
+---
+
+#### 11058. [V2EX] Imgur 现在崩了？
+
+**问题描述 / Problem Description**:
+打开网站就提示 {"data":{"error":"Imgur is temporarily over capacity. Please try again later."},"success":false,"status":403} 还有什么其他的 v 站支持的图床软件吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242253#reply2
+
+---
+
+#### 11059. [V2EX] 最新版的 YouTube 是不是被驴踢了
+
+**问题描述 / Problem Description**:
+进度条都拉不了了，什么情况？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242247#reply3
+
+---
+
+#### 11060. [V2EX] ios27 loon 所有节点超时
+
+**问题描述 / Problem Description**:
+升级 iOS 27 以后，使用手机卡流量时 Loon 所有节点都超时。切换到 WiFi 下，则所有节点正常。你们遇到过这个问题吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242239#reply0
+
+---
+
+#### 11061. [V2EX] 大家伙教师节有送礼物吗？
+
+**问题描述 / Problem Description**:
+教师节已经过去好几天了，这个话题来得比较晚。 主要是我现在在家里干活，社交圈子比较小，我甚至都忘了教师节到了。女儿二年级。 老婆嘛，我今晚说了一下她，比别人家的妈妈懒太多了，你在单位上班，你的同事孩子都有送，你也不关注一下。 当然上面是题外话，反正就是我女儿没有送，也不知道班里没送的孩子多不多，也不知道现在的老师对没送礼物的孩子是什么态度。 就纯交流吧，以后可能得多关注一下这回事。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242235#reply2
+
+---
+
+#### 11062. [V2EX] AI 能教硬件操作吗
+
+**问题描述 / Problem Description**:
+比如树莓派的硬盘启动，或者 esp 这种，AI 能帮忙吗。有没有什么方法学一下？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242231#reply0
+
+---
+
+#### 11063. [V2EX] 可以说说这么多年我在美国的感受吗？
+
+**问题描述 / Problem Description**:
+因为有很多人没来过美国，经常被问，索性集中说一下自己的几点体会： 美国和其它国家一样，有素质高的也有素质低的，不存在所谓的美国人更文明 种族歧视客观存在，但是不用心去体会是很难感受到的 安全是分区域的，不同城市不同片区安全不一样，不先惹别人一般没事 除非大城市，否则很少有夜生活，大多数家庭晚上 9 点就不出门了，甚至很多已经开始入睡了 绝大部分人对动物友好，所以美国很多地方到处都有动物，特别是鹿，加拿大鹅，松鼠等 美国是移民社区，但是没有想象中的充分融合，一般根据种族群体一起生活，来美国的人不用担心英语，中国城普通话可以搞定一切 华人确实没有印度人那么抱团 靠豪车、名表还有其它奢侈品来显示身份
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242230#reply24
+
+---
+
+#### 11064. [V2EX] 在云服务商 Linux 上运行 codex 会有封号风险么？
+
+**问题描述 / Problem Description**:
+自己本地电脑网络不稳定，考虑在 linode 上买个在日本的 ubuntu ，然后在上面运行 codex ，但是担心封号问题。 同时 codex 也会在本地使用。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242228#reply2
+
+---
+
+#### 11065. [V2EX] MacBook 配什么显示器眼睛不累
+
+**问题描述 / Problem Description**:
+现在用的是 Redmi 27 英寸 A27U, 用了好几年了，平时感觉也可以。只是最近可能盯屏幕时间久，眼睛总是不舒服，怀疑是不是屏幕原因。因为没有用过其他的显示器，没有对比也不知道。所以请教一下各路大神。 当然太贵的买不起啊，哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242223#reply2
+
+---
+
+#### 11066. [V2EX] 有什么不肝节奏快的手游推荐吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242199#reply3
+
+---
+
+#### 11067. [V2EX] 有人要开美国银行卡炒股吗
+
+**问题描述 / Problem Description**:
+可以炒股，买 Ai 会员 有护照就能开，券商也好开 没有 crs
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242198#reply15
+
+---
+
+#### 11068. [V2EX] 娃娃 9 岁，今年 1 月中旬 确诊了白血病，被迫加入抗癌大军的队伍了；
+
+最近意外得知，可以从成人病友手里购买（成人医保报销，便宜）；
+
+谁有病友群？能拉我进去~~
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242195#reply14
+
+---
+
+#### 11069. [V2EX] 如何删除手机里面的快应用，要彻底删除
+
+**问题描述 / Problem Description**:
+我想删除手机里面快应用，要彻底的删除的那种， 不知道有什么软件可以帮忙实现。 我手机是 one plus ACE
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242189#reply2
+
+---
+
+#### 11070. [V2EX] 天天坐在电脑跟前的老铁们，有没有腰酸背痛、找不到原因的？
+
+**问题描述 / Problem Description**:
+从今年年初开始，最初感觉左侧胳膊酸痛，后来开始扩展到全身，呈游走性酸痛：今天左胳膊，明天右腿，后天背部等等。做了各种能想到的相关检查，几乎做了所有排查，但都没有找到具体问题。最近几个月，基本上维持在颈部到背部，并且延伸到胳膊，有非常明显的胀痛。现在右胳膊比较严重，非常怀疑是颈椎问题导致的，每天感觉浑身都不得劲，还感觉很焦虑。 检查去拍了颈椎磁共振，颈椎生理曲度变直，没有明显压迫。 还去排查过 风湿、强直性脊柱炎、甲功、维生素 d 、电解质，做过神经传导等，没有什么明显的问题。 连续几周去理疗针灸、拔罐，似乎有点用，但是不解决问题。 现在个人感觉很有可能是本身有颈椎病、腰酸背痛，再加上焦虑症导致
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242178#reply26
+
+---
+
+#### 11071. [V2EX] 大家手机上一般用什么浏览器
+
+**问题描述 / Problem Description**:
+我最近一直用的 via 浏览器，超轻量，不过它是调用系统的 webview
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242169#reply30
 
 ---

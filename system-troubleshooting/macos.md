@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10139**
+**总计条目 / Total entries: 10210**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -136108,5 +136108,928 @@ Update : As of 7:45am on August 27, 2026 it seems the MAMP 7.4 GUI work again! I
 
 **参考链接 / References**:
 - https://superuser.com/questions/1939954/why-has-mamp-suddenly-started-showing-a-php-versions-failed-to-initialize-mes
+
+---
+
+#### 10140. MacOS 27 Golden Gate is actually good.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh63bc/macos_27_golden_gate_is_actually_good/
+
+---
+
+#### 10141. Apple's designers are really so meticulous
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgw3mn/apples_designers_are_really_so_meticulous/
+
+---
+
+#### 10142. Was it really necessary to put this into every single context menu?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1whaztq/was_it_really_necessary_to_put_this_into_every/
+
+---
+
+#### 10143. Do you guys think macOS 27 will support my camera?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh4ahc/do_you_guys_think_macos_27_will_support_my_camera/
+
+---
+
+#### 10144. Liquid Glass Traffic Light Window Buttons!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh32wk/liquid_glass_traffic_light_window_buttons/
+
+---
+
+#### 10145. Tired of seeing “Ask Siri” on every context menu? Here's how to disable it.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgyc9q/tired_of_seeing_ask_siri_on_every_context_menu/
+
+---
+
+#### 10146. MacOS 27 update description has multiple grammar errors.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgq65s/macos_27_update_description_has_multiple_grammar/
+
+---
+
+#### 10147. My favorite Golden Gate feature:
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh4r55/my_favorite_golden_gate_feature/
+
+---
+
+#### 10148. Upgraded to macOS 27: Rosetta was removed, and Apple's prompt says Intel apps won't open at all in 28
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgsj2g/upgraded_to_macos_27_rosetta_was_removed_and/
+
+---
+
+#### 10149. Soo which one to choose?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgxk8i/soo_which_one_to_choose/
+
+---
+
+#### 10150. macOS 27 Golden Gate isn’t groundbreaking feature-wise, but holy hell it’s fast
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgigv4/macos_27_golden_gate_isnt_groundbreaking/
+
+---
+
+#### 10151. This is absolutely insane.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgm7fv/this_is_absolutely_insane/
+
+---
+
+#### 10152. Ive been having an issue with mission control ever since updating to macos 27
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh2m4u/ive_been_having_an_issue_with_mission_control/
+
+---
+
+#### 10153. macOS 27 seems to have changed the entire display/color rendering — and I don’t think this is just Liquid Glass
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgw9cj/macos_27_seems_to_have_changed_the_entire/
+
+---
+
+#### 10154. Now, who said Siri got better? 🤔
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh4q3m/now_who_said_siri_got_better/
+
+---
+
+#### 10155. Mission Control in 27 Golden Gate is a mess
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1whesx6/mission_control_in_27_golden_gate_is_a_mess/
+
+---
+
+#### 10156. MacOS 27: disable open/close animations for new windows
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh07ss/macos_27_disable_openclose_animations_for_new/
+
+---
+
+#### 10157. Golden Gate > Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wgsflq/golden_gate_tahoe/
+
+---
+
+#### 10158. GG27 is gg!!
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1wh4e5e/gg27_is_gg/
+
+---
+
+#### 10159. [V2EX] 开发 macOS app 真的是一种心智负担
+
+**问题描述 / Problem Description**:
+前几个月开发了个 macOS App 使用的 swift 6.3 然后某一天改了一些代码后发现，发现 debug 可以构建，release 构建会失败 变现为进行 release 构建的时候编译器直接崩溃。然后给我一阵排查，ai 也一阵排查，最后 codex 找到了 Swift Issue #90385 嘿还真是和我的情况一模一样，原来还真是编译器 bug 然后今天 升级了 macOS 27 xcode 也升级到了 27 swift 升级到了 6.4 然后就想起了上面这个问题，就给改回去了，然后重新编译，没问题了。然后，正当我准备提交代码，就又发现了不一样的地方 这个是 macOS26 上编译
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242267#reply1
+
+---
+
+#### 10160. [V2EX] 不开全局代理如何使用 Codex 桌面端？
+
+**问题描述 / Problem Description**:
+想在 macOS 上使用 Codex/Chatgpt 桌面端，但是又不想开全局代理或者 Tun 模式，快来用 AppLane,Proxifier 平替，但是简单易用。 https://testflight.apple.com/join/tXGhc4hr
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242249#reply9
+
+---
+
+#### 10161. [V2EX] macos 27 有一种奇怪的丑感
+
+**问题描述 / Problem Description**:
+大家升级后有这种感觉吗 我感觉访达/系统设置的字体变了，感觉变糊了，没之前清晰了 电池图标变丑了 红绿灯变得复古了，没之前协调 没有 26 流畅丝滑，有小掉帧 动画变得特别快，比如四指捏合的时候 感觉在 m5pro 上，基本都是负提升啊。 可能 m5pro 原生自带的 26 有特殊优化
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242237#reply7
+
+---
+
+#### 10162. [V2EX] M1 Max 升级 27 后， Chrome 扩展异常
+
+**问题描述 / Problem Description**:
+刚刚升级后，发现所有的扩展都无法点开，一开始以为是 Bitwarden 的问题，谷歌浏览器一直是最新版本，服务端也是最新版本的，不知道是不是个例？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242212#reply3
+
+---
+
+#### 10163. [V2EX] macos27 下，群晖 Synology Drive Client 同步内网 NAS 异常
+
+**问题描述 / Problem Description**:
+rt, 又解决方案吗，日志是显示连接 6690 端口异常，macos15 下正常。看 https://community.synology.com/enu/forum/1/post/196237 应该是说的一个问题，只能等群晖更新？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242175#reply5
+
+---
+
+#### 10164. [V2EX] 升级 macos27 后， rosetta 默认关闭了，有需要的运行命令更新
+
+**问题描述 / Problem Description**:
+softwareupdate --install-rosetta 刚我 Unity 都打不开了，Package Manager 报错：bad CPU type in executable ，运行上面命令更新 rosetta 就好了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242144#reply0
+
+---
+
+#### 10165. [V2EX] 系统设置窗口无法调整宽度？这个是 macOS27 的 bug 吗
+
+**问题描述 / Problem Description**:
+只能调整高度，不能调整宽度，水平方向和四个角都不会出现调整箭头
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242141#reply6
+
+---
+
+#### 10166. [V2EX] 请谨慎升级 Xcode27
+
+**问题描述 / Problem Description**:
+没有了 Simulator 取而代之的是 Device Hub ，这个明显是为了 iPhone Duo 而量身定制的，但 UI 杂乱，无法像之前的 Simulator 一样优雅，没有 CMD+1,2,3 的快捷键。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242115#reply10
+
+---
+
+#### 10167. [V2EX] macOS 27 的菜单栏，只有收不下的时候才会折叠吗？
+
+**问题描述 / Problem Description**:
+如果是这样的话，又端上来一个半成品。。现在只能是直接选择不显示，不然还是会很占空间
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242107#reply2
+
+---
+
+#### 10168. [V2EX] macOS 27 正式版终于来了，这次真的有点不一样
+
+**问题描述 / Problem Description**:
+macOS 27 正式版终于发布，这次的升级更务实更实用，主要有五大方面： 1 、AI 全面进入系统（最大变化）: Siri 升级为 Siri AI ，可以直接在系统里对话、问问题 2 、Spotlight 强化：不只是搜索文件，还能直接问 Siri AI ，而经典的启动台依旧没有回归，理想的方式还是使用第三方启动台，比如 LaunchOS 等 3 、Liquid Glass 优化：透明效果（ Liquid Glass ）更可调，整体更“干净、轻” 4 、性能和系统底层优化：App 打开更快，系统整体更流畅 5 、应用体验增强：Mail 搜索更智能排序，视频/字幕/辅助功能增强等 你最看好 m
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242105#reply3
+
+---
+
+#### 10169. [V2EX] 有 m1pro macbookpro 16+512 芯片电脑升级到 macos27 的嘛 一直在犹豫要不要升级 担心性能倒退 目前是 macos15 养老着
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242060#reply22
+
+---
+
+#### 10170. [V2EX] macOS 15 推荐升级到 27 吗
+
+**问题描述 / Problem Description**:
+目前是 macOS Sequoia 15.7.2 看到 26 铺天盖地的吐槽贴就避开了，直接屏蔽更新； 27 相较于 26 是正优化无疑，相较于 15 呢？有何建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242052#reply42
+
+---
+
+#### 10171. [V2EX] 有 m4 芯片电脑升级到 macos27 的嘛
+
+**问题描述 / Problem Description**:
+相比 15.7 内存占用会高多少？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242009#reply98
+
+---
+
+#### 10172. [V2EX] 如何无人值守地远程管理 Mac ？
+
+**问题描述 / Problem Description**:
+想在别的地方放置一台 MacBook ， 目前是使用 tailscale 然后远程桌面。 但是， 这方案有致命缺陷————不能重启机器， 一旦重启， （在未登录过的情况下）它就不会自动连上 WiFi ， 更加不会自动启动和连上 tailscale 求解决办法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241708#reply30
+
+---
+
+#### 10173. [V2EX] 距离 arm 黑苹果 似乎不远了
+
+**问题描述 / Problem Description**:
+最近 macos 和 ios 都能在 qemu 里跑了 https://x.com/Lakr233/status/2096529943400419688 https://x.com/kagurazakamari/status/2099034902511673452 https://x.com/kaganisildak/status/2097629357300732242
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241669#reply17
+
+---
+
+#### 10174. [V2EX] Raycast v2 用户看看你们的内存占用！
+
+**问题描述 / Problem Description**:
+Raycast 后台自动更新了 v2 版本，重启就会升级成功，据说新版内存占用会飙升，吓得我赶紧让 GPT 删除 v2 ，然后屏蔽掉 raycast 的域名...先凑合用。 有没有升级 v2 的让我看看你们的内存占用，看看要不要升级。 目前 v1 的内存占用：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1240856#reply26
+
+---
+
+#### 10175. [V2EX] iPhone 17 港版，更新了 os27 显示让我用云上贵州。 有其他人遇到吗》
+
+**问题描述 / Problem Description**:
+iPhone 17 港版硬件 ,账号也是港版的。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242274#reply6
+
+---
+
+#### 10176. [V2EX] Apple 的审美真的是越来越离谱了
+
+**问题描述 / Problem Description**:
+从 iPhone 到 macOS 都更新到了 27 然后发现，浓眉大眼的苹果也成了饱和度战士 然后发现，这他妈是一批设计师设计出来的东西？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242257#reply2
+
+---
+
+#### 10177. [V2EX] 用 promax 的兄弟们，你们的小拇指还好吗
+
+**问题描述 / Problem Description**:
+用了三天的 16promax 想换标准版了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242255#reply2
+
+---
+
+#### 10178. [V2EX] 在非全局的情况下 需要把哪些 ip 或者域名加入分流来使用 Siri AI ?
+
+**问题描述 / Problem Description**:
+现在用的是外版 iphone 和美区 ID 升级到 iOS27 以后 用中国网络情况下 siri AI 会跳转到 baidu, 在激活 VPN 以后可以使用 chatgpt, 但是这个 VPN 又是全局的. 如果要实现非全局的, 有没有一个域名分流或者 ip 段可以参考,谢谢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242214#reply0
+
+---
+
+#### 10179. [V2EX] iOS27， wloc 定位不能用了
+
+**问题描述 / Problem Description**:
+完蛋了，更新 iOS27 ，wloc 定位不能用了，早知道也不更新了，还有解决方法吗？或者替代方案吗？ 出现这样的提示 此服务器的证书无效。你可能正在连接一个伪装成 “ gS-loc.apple.com ”的服务，这会威胁到你机密信息的安全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242197#reply14
+
+---
+
+#### 10180. [V2EX] 我的 iOS 27 没更新节假日闹钟
+
+**问题描述 / Problem Description**:
+特意为了节假日闹钟更新到 IOS27 ，还是只有重复，以及选择周一到周日。 把 ipad 升级了下是可以的，iphone 和 ipad 都是国行
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242170#reply1
+
+---
+
+#### 10181. [V2EX] MacOS 升级到 27 后动态壁纸一直在播放, 你们也这样么?
+
+**问题描述 / Problem Description**:
+之前动态壁纸都是在屏保模式下播放视频, 激活桌面后视频会慢慢停止并将停止帧作为壁纸显示. 但是今天升级 27 正式版以后壁纸一直是播放状态. 如果只是一直无缝/无感循环也就算了, 问题在于视频头尾不相连(实拍的视频, 也没法相连), 所以播放到头会重新回到第一帧播放, 这样壁纸就会'刷新'一下. 在工作状态下, 背景突然切换刷新会让你注意力失焦那么一下, 隐隐的不爽. 翻遍了设置也没找到相关开关, 怀疑是系统更新的一个 BUG? 虽然可以换成静态壁纸使用, 不过屏保激活桌面视频变壁纸还是挺舒适的一个功能的. 不知道大家是不是也有这个问题?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242167#reply2
+
+---
+
+#### 10182. [V2EX] Apple Developer Program 注册被搁置，有人遇到过这种状态吗？
+
+**问题描述 / Problem Description**:
+说是疑似在被制裁名单里面，我也是醉了，等了几天了还没动静。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242160#reply3
+
+---
+
+#### 10183. [V2EX] 升级 macos 27 后 mac-mouse-fix 不能用了，有没有啥软件推荐
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242126#reply10
+
+---
+
+#### 10184. [V2EX] Airpods4 更新 9A348 后 EQ 设置
+
+**问题描述 / Problem Description**:
+Airpods4 更新 9A348 后出现 EQ 设置 没有具体数值，只有高中低三档可调，调半天也没觉得那种设置更好听。可能是木耳。有推荐设置吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242102#reply0
+
+---
+
+#### 10185. [V2EX] IOS 27 有没有通知和铃声分开设置的功能？
+
+**问题描述 / Problem Description**:
+现在电话铃声和通知音量是绑定的，电话大声通知也很大声，新版系统支持单独设置了吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242097#reply2
+
+---
+
+#### 10186. [V2EX] ios27 正在优化搜索和 siri 要多久
+
+**问题描述 / Problem Description**:
+你们还是正在优化吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242095#reply7
+
+---
+
+#### 10187. [V2EX] 17pro 需要换 18pro 么
+
+**问题描述 / Problem Description**:
+有点心痒痒，去年首发百亿补贴便宜 900 买的 17pro 256 银，现在闲鱼卖了大概亏 1500 左右？再在百亿补贴买 18pro 还是能便宜 900 ，算下来 2500 左右换新
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242085#reply35
+
+---
+
+#### 10188. [V2EX] 升级 ios27 后强制云上贵州了？
+
+**问题描述 / Problem Description**:
+用的是美区 id ，让我同意 icould 服务由云上贵州提供服务的协议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242071#reply4
+
+---
+
+#### 10189. [V2EX] 不理解 iOS 一直没解决的两大问题， JPEG+RAW、CarPlay 播放延迟
+
+**问题描述 / Problem Description**:
+手机升级到了 iOS27 ，之前都说是软件上的重构，消灭屎山代码。 结果发现，一直困扰我的 JPEG+RAW ，依然不能分开，CarPlay 依然有音频延迟。 这两个我觉得都容易解决，为啥一直不解决呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242048#reply7
+
+---
+
+#### 10190. [V2EX] ios27 升级生了个寂寞
+
+**问题描述 / Problem Description**:
+UI 界面的确是感觉快了一些，但是不确定是不是重启后的错觉。 27 最重点的 apple 智能功能，完全没有影子，不知道大陆地区何时开放。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242041#reply29
+
+---
+
+#### 10191. [V2EX] 睡眠闹钟不支持 工作日（含调休）啊
+
+**问题描述 / Problem Description**:
+升级了 IOS27 ，只有普通闹钟支持 工作日（调休），我用的是睡眠闹钟，好像还是不支持
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242037#reply18
+
+---
+
+#### 10192. [V2EX] [分享创造] FileMint：给 Finder 加上右键新建文件
+
+**问题描述 / Problem Description**:
+在 macOS 上新建一个文件，一直有点绕。 明明已经在 Finder 里打开了目标目录，还是要切到编辑器，新建、另存为，再把目录找一遍。 所以我做了 FileMint ，一个专门用来新建文件的原生 macOS 小工具。 安装并启用 Finder 扩展后，在桌面或文件夹空白处右键： 新建文件 → 选择文件类型 文件会直接出现在当前位置。 目前支持： 一键创建 TXT 、Markdown 、JSON 、Swift 、HTML 、CSS 、Shell 等常用文件 添加 .toml 、 .vue 、 .log 等自定义后缀 为不同类型保存初始内容或模板 创建前填写文件名、粘贴代码或文本 同名文件自动
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242028#reply2
+
+---
+
+#### 10193. [V2EX] 请教一下 iOS 27 的 Siri 规则
+
+**问题描述 / Problem Description**:
+手上是美版机子，刚到手的时候 26 系统是可以用图乐园的，我知道 Siri 在 iOS27 中变成了单独 App ，需要设置英文，昨天心血来潮找了几个规则添加，结果发现现在所有涉及到云端的都会报错（比如图乐园说错误、Siri app 能进去但是开启任何对话都错误），本地的比如人物消除倒是没问题。 另外 Siri 设置那里我选择哪怕简中也是可以登入 GPT 的，调动跑马灯也可以启用 GPT 搜索并回答。 看到网上其他人说已经没有地理围栏了，只需要正确的规则，我猜想可能是我设置错误，各位都用的什么规则？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242007#reply21
+
+---
+
+#### 10194. [V2EX] 升级到 ios27 显示 ios26.7？
+
+**问题描述 / Problem Description**:
+刚刷新软件更新，一个是升级到 26.7 ，另一个在底部提示升级到 ios27 ，但点进去显示 26.7 ，不过两者容量不同，你们也这样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242000#reply19
+
+---
+
+#### 10195. [V2EX] 能用的免费白嫖的 ai llm 越来越少
+
+**问题描述 / Problem Description**:
+模型很多,但基本都不实用,openCode 已阵亡,openRouter 已阵亡,小红书 dots 已阵亡,ollma 已阵亡,顶多明年就要进入充钱 ai 时代
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242276#reply0
+
+---
+
+#### 10196. [V2EX] 把童年时玩的《铁甲风暴》封装到 Docker 里了
+
+**问题描述 / Problem Description**:
+一句话启动 docker run -d --name tiejiafengbao --restart unless-stopped -p 6080:6080 ety001/tiejiafengbao:latest 相关文档: https://github.com/ety001/lzc-appdb/blob/master/tiejiastorm/PROJECT.md#%E3%80%87%E4%B8%80%E6%99%AE%E9%80%9A-linux-%E7%8B%AC%E7%AB%8B%E5%90%AF%E5%8A%A8%E4%B8%8D%E4%BE%9D%E8%B5%96%E6%87%92%
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242260#reply0
+
+---
+
+#### 10197. [V2EX] 忍不住吐槽一下阿里云网盘
+
+**问题描述 / Problem Description**:
+在使用阿里网盘的时候出现了这样的情况：有一批小视频，每个 3-5 分钟，每个文件大概 100M-200M 左右，数量大概 1200 个，文件总大小 199G ，不到 200G 。但是，上传的阿里云网盘后，显示总容量占用了 645G ，并且发现不同的视频均出现了数量不等的重复重复情况，且文件名后有明显的（ 1 ）,（ 2 ）的标识，标记重复次数，有的文件只存在一个重复，有的文件出现 7,8 次重复。用户网盘空间白白被占用了 400 多 G 。 PS: 用的是 windows 平台，官方的最新版阿里云客户端。 视频文件是从夸克网盘转存的（手动下载上传），我起初还以为原上传者故意的，又去找了一下原链
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242180#reply17
+
+---
+
+#### 10198. [V2EX] App Store 上架避坑经验：容易卡住的往往不是代码
+
+**问题描述 / Problem Description**:
+在做 App 之前，我一直以为把 App 做出来，提交给商店就算完成了。直到我上架了自己的第一个应用才发现，相较开发，更让人头疼的是 App Store 的账号体系、支付规则、隐私合规、审核规则，以及各种你自己认为不重要，但是苹果很看重的细节。 这段时间我一直在做自己的 App ，从开发、内测到上架踩了很多坑，现在把这些问题整理出来，给准备第一次上架自己 App 的各位开发者一些参考。 最容易踩的一个坑：能运行并不说明能上架。 很多开发者在本地开发完自己的 App ，能正常运行，也没有测出什么阻塞性 bug ，TestFlight 也很顺利，于是感觉自己能提交上架了。 但到了上架这一步，完全是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242148#reply9
+
+---
+
+#### 10199. [V2EX] xdm，有没有推荐的工作日咖啡，午休后上班实在提不起精神。
+
+**问题描述 / Problem Description**:
+之前都是喝瑞幸的菠萝生耶冷萃，现在下架了，有什么其他推荐的吗，纯美式除外，生活还是要加点味。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242139#reply5
+
+---
+
+#### 10200. [V2EX] 今天早上过地铁闸机同时刷了我 iPhone 钱包里的交通卡和银行卡
+
+**问题描述 / Problem Description**:
+大家大家注意一下自己钱包里添加的银行卡，如果银行卡开启了 apple pay 小额免密，会出现被 POS 机不经意间刷上，遇到这种地铁服务窗口还无法退钱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242120#reply1
+
+---
+
+#### 10201. [V2EX] 一套用了多年的数据整理法：不靠待办，减少混乱，也不增加记忆负担
+
+**问题描述 / Problem Description**:
+电脑资料随它去，很容易乱成垃圾场；但如果全靠待办清单，每天记录和打钩又会把人搞得很累。 我后来用了类似海运港口的办法：建立缓冲区，并用自动化手段加上停留时间限制。重要的事就地处理，不重要的事到期自动销毁。既不增加记忆负担，也不用时刻惦记。 用了好几年，感觉轻松很多。具体思路和几个自动化实践整理在这里： https://victor42.eth.limo/post/3627/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242072#reply2
+
+---
+
+#### 10202. [V2EX] 参考别人的视频/图片/音频 下载浏览器插件 自己搓了个 [送码]
+
+**问题描述 / Problem Description**:
+自己做的资源下载浏览器插件 简下下载助手 https://downloads.xyptkd.cn/ 思路很简单 他的 vip 是美元 比较贵 我这边收 rmb 就价格优势吧🤣 东西都不上传 也不用登录信息 一个 key 就能激活了 比较方便 参考的 Video Download Assistant 当然做了很多其他的优化 主要是适配的下载网站 目前自测以下平台都可以用 抖音、TikTok 、快手、微博、小红书、B 站、YouTube 、X 、Facebook 、Instagram 、Threads 、Reddit 、Pinterest 其他平台的一般都是支持的 还可以下载直播的 兄弟们可以帮忙
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242067#reply33
+
+---
+
+#### 10203. [V2EX] Homebrew 7.0 is out and it includes a GUI! homebrew-app 来了
+
+**问题描述 / Problem Description**:
+brew install --cask homebrew-app https://formulae.brew.sh/cask/homebrew-app
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242059#reply5
+
+---
+
+#### 10204. [V2EX] 悲报：升级到 iOS 27 正式版后，美区 iCloud 变云上贵州😭
+
+**问题描述 / Problem Description**:
+一觉醒来，iOS 27 正式版发布，升级后弹出 iCloud 协议有更新，已经变成云上贵州😭了，我是美区账号啊！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1242019#reply21
+
+---
+
+#### 10205. [V2EX] 华强北 FindMy 定位器 - 多端查看位置的方法（Android/iOS/Web）
+
+**问题描述 / Problem Description**:
+华强北定位器现在在拼多多卖的很便宜，十来块钱就有一个，有时候运气好还可以刷到 8.9 ，9.9 一个的都有。所以我买了很多个，挂在钥匙串上、身份证卡套上、电动车头盔上（因为被偷过）、无定位功能的电动车上、常带的手提包上、老婆的钥匙串、老婆的手提包上，等想要知道位置的东西上。 华强北的东西稳不稳定？我用了 3 年，还行，能接受。 目前有个问题，只能 [iPhone\iPad\Mac] 通过 [查找 App ] 查看定位、位置信息，网页版 iCloud 貌似都没有办法查看到这些 [物品] 类的位置信息。 而我 iPhone 手机本身只作为备用机，不随身带，经常不在身旁，主要用小米。 然后，通过 G
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241946#reply1
+
+---
+
+#### 10206. [V2EX] 大家有没有发现好多 AI 中转站都已经跑路或者关站了
+
+**问题描述 / Problem Description**:
+不知道是什么原因
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241919#reply12
+
+---
+
+#### 10207. [V2EX] 做了个能复盘的 AI 口语陪练，聊完还能看复盘
+
+**问题描述 / Problem Description**:
+最近给自己的单词学习网站加了一个 AI 口语陪练功能，起因很简单：老婆的新工作里有不少场景需要和外教沟通，但只靠背单词、刷教材，真正要开口的时候还是会卡住。 所以我想做一个更接近日常使用的练习方式：不用先准备一大堆材料，直接选一个真实场景，然后和 AI 用英语自然对话。 网址 https://waiyuka.cc/zh-CN/conversation 使用录屏 https://www.bilibili.com/video/BV15EYi6kEFK 目前支持的场景包括： 点咖啡 酒店入住 机场出入境 求职面试 日常聊天 练习时，AI 会根据你的回答继续追问或展开，不是固定脚本；中途也可以随时打断
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241843#reply6
+
+---
+
+#### 10208. [V2EX] 有趣的大模型榜单可视化网站
+
+**问题描述 / Problem Description**:
+把大模型榜单做成赛车游戏了，哈哈哈 网站地址： https://airace.lol/?circuit=ring
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241838#reply3
+
+---
+
+#### 10209. [V2EX] 我发现用尖叫瓶子喝茶挺好, 不用总是呸呸呸
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241778#reply35
+
+---
+
+#### 10210. [V2EX] AI 赛博算命，六爻与紫微斗数，测一下准不准 http://aitjg.com/
+
+**问题描述 / Problem Description**:
+http://aitjg.com/ 问一件事， 起一卦，看清眼前。 三枚铜钱、六度投掷，定出本卦与变卦。八宫世应、纳甲干支、六亲六神、 旬空一次排全 —— 排盘由确定性算法推得，AI 只负责依卦而解，不凭玄谈。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241687#reply5
 
 ---
