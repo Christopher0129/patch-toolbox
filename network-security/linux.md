@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3967**
+**总计条目 / Total entries: 3974**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57035,5 +57035,89 @@ YuSung Han discovered that PyJWT did not properly validate certain JWK keys when
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8916-1
+
+---
+
+#### 3968. [Ubuntu] USN-8932-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Stanislav Fort discovered that curl did not properly clear AWS SigV4 authentication state when CURLOPT_AWS_SIGV4 was set to NULL. An attacker could possibly use this issue to obtain sensitive information. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-86409) Stanislav Fort discovered that an HTTP proxy could trick libcurl into sending credentials to the proxy itself by r
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8932-1
+
+---
+
+#### 3969. [Ubuntu] USN-8931-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+이지웅 discovered that Apache HTTP Server exposed WebDAV property information. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-58415) Zhen Kong and Charles Vosburgh discovered that Apache HTTP Server did not properly validate FTP server responses. A remote attacker could possibly use this issue to make a forward proxy connect to an arbitrary host. (CVE-2026-
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8931-1
+
+---
+
+#### 3970. [Ubuntu] USN-8930-1: U-Boot vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Shahriyar Jalayeri and Mehrun P. Hunter discovered that U-Boot incorrectly handled certain NFS READ and NFS READLINK responses. An attacker could possibly use this issue to trigger a buffer overflow, resulting in a denial of service or arbitrary code execution. (CVE-2026-74220, CVE-2026-74221) Shahriyar Jalayeri and Mehrun P. Hunter discovered that U-Boot incorrectly handled certain HTTP data stor
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8930-1
+
+---
+
+#### 3971. [Ubuntu] USN-8929-1: Bind vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Zuyao Xu and Xiang Li discovered that Bind incorrectly handled certain malformed DNSKEY records. A remote attacker could possibly use this issue to cause Bind to consume resources, resulting in a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, and Ubuntu 18.04 LTS. (CVE-2025-8677) Yuxiao Wu, Yunyi Zhang, Baojun Liu, and Haixin Duan discovered that Bind incorrectly a
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8929-1
+
+---
+
+#### 3972. [Ubuntu] USN-8928-1: OpenSSH vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSH's sftp client incorrectly handled paths returned by the server during a recursive copy operation. A remote attacker controlling the server could possibly use this issue to write files to unintended locations. (CVE-2026-106552) It was discovered that OpenSSH's sshd server incorrectly handled GSSAPIAuthentication state across authentication attempts. An attacker could
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8928-1
+
+---
+
+#### 3973. [Ubuntu] USN-8927-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that curl, when built with GnuTLS support, had an out-of-bounds read in the WebSocket send path. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-107928) Maksim discovered that curl did not correctly include the interface binding in connection reuse decisions when CURLOPT_INTERFACE was used. An attacker could possibly use this issue to cause co
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8927-1
+
+---
+
+#### 3974. [Ubuntu] USN-8926-1: urllib3 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Yu-Fu Fu, Seth Larson and Yonatan Magier discovered that urllib3 did not correctly handle certain certificate validations. An attacker could possibly use this issue to observe or modify forwarded traffic. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-97687) Martin Desrumaux discovered that urllib3 did not correctly handle decoding certain deflate responses. An attacker could possibly use th
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8926-1
 
 ---
