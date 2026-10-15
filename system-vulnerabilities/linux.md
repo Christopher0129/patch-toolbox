@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3538**
+**总计条目 / Total entries: 3687**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -63782,5 +63782,2389 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8761-1
+
+---
+
+#### 3539. [Ubuntu] USN-8773-1: GNU Guix vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GNU Guix incorrectly made build outputs accessible to local users before their file metadata was finalized. A local attacker could possibly use this issue to gain elevated privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8773-1
+
+---
+
+#### 3540. [Ubuntu] USN-8772-1: AOM vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that AOM incorrectly handled the first-pass statistics buffer in Look-Ahead Processing (LAP) mode. An attacker could possibly use this issue to cause a heap buffer overflow, leading to a denial of service or possibly execute arbitrary code. (CVE-2026-56208) It was discovered that AOM incorrectly validated spatial and temporal layer IDs in the SVC (Scalable Video Coding) encoder c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8772-1
+
+---
+
+#### 3541. [Ubuntu] USN-8770-1: SimpleSAMLphp vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SimpleSAMLphp incorrectly validated cryptographic signatures in XML messages. An authenticated attacker could possibly use this issue to impersonate users or gain elevated privileges. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2019-3465) It was discovered that SimpleSAMLphp incorrectly handled external entities when parsing untrusted XML documents.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8770-1
+
+---
+
+#### 3542. [Ubuntu] USN-8769-1: phpseclib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that phpseclib did not perform padding validation in constant time when using AES in CBC mode. A remote attacker could possibly use this issue to conduct a padding oracle timing attack and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8769-1
+
+---
+
+#### 3543. [Ubuntu] USN-8768-1: Shibboleth vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Florian Stuhlmann discovered that Shibboleth incorrectly escaped input when using the ODBC storage plugin. A remote attacker could possibly use this issue to perform SQL injection attacks and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8768-1
+
+---
+
+#### 3544. [Ubuntu] USN-8767-1: Snapcast vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Snapcast incorrectly handled crafted JSON-RPC requests. A remote attacker could possibly use this issue to execute arbitrary code or obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8767-1
+
+---
+
+#### 3545. [Ubuntu] USN-8766-1: Suricata-Update vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Guillem Lefait discovered that Suricata-Update did not properly validate destination paths when extracting files referenced by downloaded rule archives. An attacker could possibly use this issue to write arbitrary files outside the configured rules directory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8766-1
+
+---
+
+#### 3546. [Ubuntu] USN-8765-1: python-sql vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Cédric Krier discovered that python-sql incorrectly escaped values passed to unary operators. An attacker could possibly use this issue to perform SQL injection attacks.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8765-1
+
+---
+
+#### 3547. [Ubuntu] USN-8763-1: kitty vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that kitty incorrectly escaped error messages when handling specially crafted terminal escape sequences. A remote attacker could possibly use this issue to execute arbitrary commands. (CVE-2026-42850) It was discovered that kitty incorrectly handled remote edit requests in terminal output. An attacker could possibly use this issue to execute arbitrary code with the user's privile
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8763-1
+
+---
+
+#### 3548. [Ubuntu] USN-8762-1: polkit vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that polkit incorrectly handled cookie input. A local attacker could possibly use this issue to cause polkit to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8762-1
+
+---
+
+#### 3549. [Ubuntu] USN-8760-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - User-space API (UAPI); - Kernel build system; - ARM32 architecture; - ARM64 architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Compute Accelera
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8760-1
+
+---
+
+#### 3550. [Ubuntu] USN-8759-1: WebOb vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that WebOb incorrectly handled certain URLs. An attacker could possibly use this issue to control a redirect or forward to another URL. This issue was only addressed in Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2024-42353) Caleb Brown discovered that WebOb incorrectly handled certain URLs. An attacker could possibly use this issue to control a redirect or forward to another URL
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8759-1
+
+---
+
+#### 3551. [Ubuntu] USN-8778-1: GStreamer Good Plugins vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins did not limit the size of reassembly buffers when processing fragmented RTP packets. A remote attacker could possibly use this issue to cause GStreamer Good Plugins to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8778-1
+
+---
+
+#### 3552. [Ubuntu] USN-8777-1: GNU Bison vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GNU Bison incorrectly handled grammar-defined configuration variables when generating HTML reports. An attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8777-1
+
+---
+
+#### 3553. [Ubuntu] USN-8776-1: python-cryptography vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that python-cryptography incorrectly accepted objects with immutable buffers when performing certain cipher operations. This would result in corrupted output, contrary to expectations. This issue only affected Ubuntu 18.04 LTS. (CVE-2023-23931) It was discovered that python-cryptography reported the outcome of decrypting PKCS#7 enveloped data in distinguishable ways, and with obs
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8776-1
+
+---
+
+#### 3554. [Ubuntu] USN-8775-1: SQLite vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SQLite was vulnerable to a buffer overflow in the sqlar extension. If a user were tricked into opening a specially crafted SQLar archive, an attacker could cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8775-1
+
+---
+
+#### 3555. [Ubuntu] USN-8774-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Ali Firas discovered that libheif incorrectly handled certain images. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-62291) Dmitrijs Trizna discovered that libheif incorrectly handled certain image sequences. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-62377)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8774-1
+
+---
+
+#### 3556. [Ubuntu] USN-8771-1: Valkey vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Madelyn Olson discovered that Valkey incorrectly handled TLS connections under certain conditions. A remote attacker could possibly use this issue to cause Valkey to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-56684) It was discovered that Valkey incorrectly handled certain stream RDB payloads when executing the RESTORE command. An authenticated remote attacker co
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8771-1
+
+---
+
+#### 3557. [Ubuntu] USN-8782-1: Rclone vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Rclone incorrectly handled unauthenticated requests to the remote control API. An attacker could possibly use this issue to execute arbitrary commands as the user invoking rclone. (CVE-2026-49980)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8782-1
+
+---
+
+#### 3558. [Ubuntu] USN-8781-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8781-1
+
+---
+
+#### 3559. [Ubuntu] USN-8780-1: libsoup vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libsoup incorrectly handled certain URLs when using an HTTP proxy. A remote attacker could possibly use this issue to inject arbitrary HTTP headers. (CVE-2026-1467) It was discovered that libsoup did not remove proxy authentication credentials when following HTTP redirects. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-1539) Ahmed
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8780-1
+
+---
+
+#### 3560. [Ubuntu] USN-8779-2: Bubblewrap regression
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8779-1 fixed vulnerabilities in Bubblewrap. Unfortunately, the fix for CVE-2026-87766 introduced a regression in symlink resolution, preventing certain Flatpak applications from launching. This update reverts that fix until a complete fix is available. We apologize for the inconvenience. Original advisory details: It was discovered that Bubblewrap incorrectly handled certain temporary director
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8779-2
+
+---
+
+#### 3561. [Ubuntu] USN-8779-1: Bubblewrap vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Bubblewrap incorrectly handled certain temporary directories. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 18.04 LTS. (CVE-2019-12439) It was discovered that Bubblewrap incorrectly handled certain symlinks during sandbox setup. A local attacker could possibly use this issue to create fi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8779-1
+
+---
+
+#### 3562. [Ubuntu] USN-8793-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Bluetooth drivers; - GPU drivers; - Hardware monitoring drivers; - SPI subsystem; - NTFS3 file system; - io_uring subsystem; - Ethernet bridge; - Multipath TCP; (CVE-2025-71289, CVE-2026-23469, CVE-2026-31420, CVE-2026
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8793-1
+
+---
+
+#### 3563. [Ubuntu] USN-8792-1: Memcached vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Memcached incorrectly handled ASCII authentication. A remote attacker could possibly use this issue to cause Memcached to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8792-1
+
+---
+
+#### 3564. [Ubuntu] USN-8791-1: Ghostscript vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Ghostscript incorrectly handled JPEG 2000 image components with mismatched subsampling factors. An attacker could possibly use this issue to cause Ghostscript to crash or execute arbitrary code if it opened a specially crafted file.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8791-1
+
+---
+
+#### 3565. [Ubuntu] USN-8789-1: strongSwan vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that strongSwan incorrectly handled PKCS#7 containers in the openssl plugin. A remote attacker could possibly use this issue to cause strongSwan to crash, resulting in a denial of service. (CVE-2026-78123) It was discovered that strongSwan incorrectly handled memory when enumerating certificates in PKCS#7 containers in the openssl plugin. A remote attacker could possibly use this
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8789-1
+
+---
+
+#### 3566. [Ubuntu] USN-8788-1: ClamAV vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ClamAV incorrectly handled certain zip archive files. A remote attacker could possibly use this issue to cause ClamAV to crash, resulting in a denial of service. (CVE-2026-20337, CVE-2026-20338) It was discovered that ClamAV incorrectly handled certain PESpin files. A remote attacker could possibly use this issue to cause ClamAV to crash, resulting in a denial of service. (C
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8788-1
+
+---
+
+#### 3567. [Ubuntu] USN-8787-1: libxml2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libxml2 incorrectly handled certain XML elements under certain circumstances. An attacker could possibly use this issue to cause libxml2 to crash or execute arbitrary code. (CVE-2026-86140) It was discovered that libxml2 incorrectly handled certain XML documents when used with Python bindings. A remote attacker could possibly use this issue to cause applications using libxml
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8787-1
+
+---
+
+#### 3568. [Ubuntu] USN-8786-1: rsyslog vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that rsyslog incorrectly calculated buffer sizes when replacing strings. A remote attacker could possibly use this issue to cause rsyslog to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8786-1
+
+---
+
+#### 3569. [Ubuntu] USN-8785-1: OpenJDK 11 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kai Aizen discovered that the Networking component of OpenJDK 11 did not correctly handle user authentication. A remote attacker could possibly use this issue to leak sensitive information. (CVE-2026-61308) It was discovered that the JSSE component of OpenJDK 11 did not correctly handle user authentication. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-709
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8785-1
+
+---
+
+#### 3570. [Ubuntu] USN-8784-1: OpenJDK 8 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kai Aizen discovered that the Networking component of OpenJDK 8 did not correctly handle user authentication. A remote attacker could possibly use this issue to leak sensitive information. (CVE-2026-61308) It was discovered that the JSSE component of OpenJDK 8 did not correctly handle user authentication. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-70907
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8784-1
+
+---
+
+#### 3571. [Ubuntu] USN-8804-1: OpenSSH vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Florian Kohnhäuser discovered that OpenSSH incorrectly handled shell metacharacters in certain usernames. An attacker could possibly use this issue to execute arbitrary commands when certain non-default configurations were used, resulting in arbitrary code execution. This issue only affected Ubuntu 14.04 LTS. (CVE-2026-35386) Christos Papakonstantinou discovered that OpenSSH incorrectly handled EC
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8804-1
+
+---
+
+#### 3572. [Ubuntu] USN-8802-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - PowerPC architecture; - Compute Acceleration Framework; - Drivers core; - Bluetooth drivers; - Arm Firmware Framework for ARMv8-A(FFA); - EFI core; - GPU drivers; - Hardware
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8802-1
+
+---
+
+#### 3573. [Ubuntu] USN-8801-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8801-1
+
+---
+
+#### 3574. [Ubuntu] USN-8800-1: Linux kernel (NVIDIA BaseOS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - User-space API (UAPI); - Kernel build system; - ARM32 architecture; - ARM64 architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Compute Accelera
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8800-1
+
+---
+
+#### 3575. [Ubuntu] USN-8799-1: libssh2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libssh2 incorrectly handled certain publickey subsystem attributes. A remote attacker controlling a malicious SSH server could use this issue to cause a denial of service or possibly execute arbitrary code. (CVE-2026-58050) It was discovered that libssh2 did not properly initialize publickey list entries before parsing. A remote attacker controlling a malicious SSH server co
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8799-1
+
+---
+
+#### 3576. [Ubuntu] USN-8798-1: GStreamer Good Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins incorrectly parsed certain MRF files. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-18295, CVE-2026-18296) It was discovered that GStreamer Good Plugins incorrectly parsed certain PNG files. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-18298) DongHyeon Hwang discovered that
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8798-1
+
+---
+
+#### 3577. [Ubuntu] USN-8797-1: GStreamer Base Plugins vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Base Plugins incorrectly handled certain OGG media files. A remote attacker could possibly use this issue to execute arbitrary code if it opened a specially crafted file.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8797-1
+
+---
+
+#### 3578. [Ubuntu] USN-8796-1: OpenJDK 21 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kai Aizen discovered that the Networking component of OpenJDK 21 did not correctly handle user authentication. A remote attacker could possibly use this issue to leak sensitive information. (CVE-2026-61308) It was discovered that the JSSE component of OpenJDK 21 did not correctly handle user authentication. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-709
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8796-1
+
+---
+
+#### 3579. [Ubuntu] USN-8795-1: OpenJDK 17 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kai Aizen discovered that the Networking component of OpenJDK 17 did not correctly handle user authentication. A remote attacker could possibly use this issue to leak sensitive information. (CVE-2026-61308) It was discovered that the JSSE component of OpenJDK 17 did not correctly handle user authentication. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-709
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8795-1
+
+---
+
+#### 3580. [Ubuntu] USN-8794-1: GLib vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GLib's GDBus authentication mechanism failed to enforce length limitations on data lines read from a client. An unauthenticated attacker could exploit this to cause a denial of service via resource exhaustion. (CVE-2026-15588) It was discovered that the xdgmime library in GLib had a heap-based buffer overflow. An attacker-controlled MIME magic file could cause an out-of-boun
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8794-1
+
+---
+
+#### 3581. [Ubuntu] USN-8790-1: Expat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Expat could be made to allocate large amounts of memory when parsing a small crafted document. An attacker could possibly use this issue to cause Expat to consume resources, leading to a denial of service. This issue was only addressed in Ubuntu 24.04 LTS. (CVE-2025-59375) It was discovered that Expat incorrectly handled empty external parameter entity content. An attacker c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8790-1
+
+---
+
+#### 3582. [Ubuntu] USN-8818-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8818-1
+
+---
+
+#### 3583. [Ubuntu] USN-8816-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM64 architecture; - S390 architecture; - x86 architecture; - DRBD Distributed Replicated Block Device drivers; - InfiniBand drivers; - IOMMU subsystem; - Multiple devices driver; - Network drivers; - Microsoft Azure
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8816-1
+
+---
+
+#### 3584. [Ubuntu] USN-8815-1: libass vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libass incorrectly handled parsing operations for specific nested character strings. An attacker could use this issue to cause libass to crash, resulting in a denial of service, or possibly execute arbitrary code. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. (CVE-2020-24994) It was discovered that libass incorrectly hand
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8815-1
+
+---
+
+#### 3585. [Ubuntu] USN-8814-1: Octavia vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Octavia did not properly validate TLS cipher string fields in the Amphora provider driver. An authenticated attacker who owns a TLS-enabled load balancer could possibly use this issue to inject arbitrary HAProxy configuration directives. (CVE-2026-94572) It was discovered that Octavia did not properly validate L7 policy redirect URL fields in the Amphora provider driver. An
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8814-1
+
+---
+
+#### 3586. [Ubuntu] USN-8813-1: Expat vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Expat did not correctly handle certain integer arithmetic. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-56406, CVE-2026-56407, CVE-2026-56409, CVE-2026-56410, CVE-2026-56411) It was discovered that Expat did not correctly track handler call depth. An attacker could possibly use this issue to cause Expat to crash or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8813-1
+
+---
+
+#### 3587. [Ubuntu] USN-8812-1: GDAL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GDAL incorrectly handled certain netCDF files. An attacker could possibly use this issue to execute arbitrary code. This issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-49014) It was discovered that GDAL incorrectly handled certain HDF-EOS files. An attacker could possibly use this issue to cause a crash or execute arbitrary code. (CVE
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8812-1
+
+---
+
+#### 3588. [Ubuntu] USN-8811-1: urllib3 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that urllib3 did not correctly strip sensitive HTTP headers during cross-origin redirects. An attacker could possibly use this issue to leak sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8811-1
+
+---
+
+#### 3589. [Ubuntu] USN-8810-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick did not correctly handle certain memory operations. An attacker could possibly use this issue to cause a denial of service. This issue affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-33535) Kamil Frankowicz discovered that ImageMagick did not correctly handle certain memory operatio
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8810-1
+
+---
+
+#### 3590. [Ubuntu] USN-8809-1: libgit2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kazuma Matsumoto and Isabel Mill discovered that libgit2 incorrectly handled certain repository URLs when using the SSH transport. A remote attacker could possibly use this issue to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8809-1
+
+---
+
+#### 3591. [Ubuntu] USN-8808-1: SQL parse vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SQL parse contained multiple algorithmic complexity flaws when parsing SQL statements with deeply nested parentheses, comments, or dollar-quoted string literals. An attacker could use this issue to cause SQL parse to consume excessive CPU resources, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8808-1
+
+---
+
+#### 3592. [Ubuntu] USN-8807-1: Open-iSNS vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Open-iSNS contained a double-free vulnerability when decoding malformed iSNS attributes. An unauthenticated attacker could possibly use this to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8807-1
+
+---
+
+#### 3593. [Ubuntu] USN-8806-1: NetworkManager vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that NetworkManager did not properly restrict the ca-path and phase2-ca-path certificate authority settings for private (single-user) 802.1X network connections. An attacker could use this issue to point their own private 802.1X connection profile at a directory under their control, causing NetworkManager to trust an attacker-chosen certificate authority and potentially exposing
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8806-1
+
+---
+
+#### 3594. [Ubuntu] USN-8805-1: Moodle vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Moodle did not properly restrict URLs. An authenticated user could possibly use this issue to perform a server-side request forgery attack and expose sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8805-1
+
+---
+
+#### 3595. [Ubuntu] USN-8803-1: Sudo vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Guannan Wang, Zhanpeng Liu, and Guancheng Li discovered that Sudo failed to apply intercept policy checks when commands were executed under certain circumstances. A local attacker permitted to run specific commands could possibly use this issue to bypass policy enforcement and logging, executing unauthorized programs.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8803-1
+
+---
+
+#### 3596. [Ubuntu] USN-8824-1: libpcap vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libpcap did not properly validate BPF instructions in some situation. An attacker could possibly use this issue to perform out of bound memory operations.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8824-1
+
+---
+
+#### 3597. [Ubuntu] USN-8821-1: OpenStack Swift vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenStack Swift incorrectly handled truncated aws-chunked PUT request bodies in its s3api middleware. An authenticated attacker could possibly use this issue to cause OpenStack Swift to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8821-1
+
+---
+
+#### 3598. [Ubuntu] USN-8820-1: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Eunsoo Kim discovered that curl incorrectly handled SASL negotiation for LDAP authentication in certain circumstances. A machine-in-the-middle attacker could possibly use this issue to bypass peer validation. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-13608) Stephan Zeisberg discovered that curl incorrectly handled HTTP/2 Server Push streams when sharing connections
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8820-1
+
+---
+
+#### 3599. [Ubuntu] USN-8819-2: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network file system (NFS) server daemon; - IPv6 networking; - Netfilter; (CVE-2025-38724, CVE-2026-53131, CVE-2026-53221)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8819-2
+
+---
+
+#### 3600. [Ubuntu] USN-8818-2: Linux kernel (IBM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8818-2
+
+---
+
+#### 3601. [Ubuntu] USN-8839-1: Atril vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Atril did not properly sanitize command-line arguments in PDF /GoToR actions. If a user opened a specially crafted PDF file, an attacker could possibly use this issue to execute arbitrary code. (CVE-2026-46529) It was discovered that Atril incorrectly handled certain PDF files. An attacker could possibly use this issue to cause a denial of service or to execute arbitrary cod
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8839-1
+
+---
+
+#### 3602. [Ubuntu] USN-8838-1: catdoc vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that catdoc had an integer overflow when processing shared string tables in malformed spreadsheet files. An attacker could possibly use this issue to cause catdoc to crash or execute arbitrary code. (CVE-2024-48877) It was discovered that catdoc had an integer overflow when processing file allocation tables in malformed document files. An attacker could possibly use this issue to
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8838-1
+
+---
+
+#### 3603. [Ubuntu] USN-8837-1: pdfminer vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that pdfminer did not safely parse specially crafted PDF files. An attacker could possibly use these issues to execute arbitrary code. (CVE-2025-64512, CVE-2025-70559)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8837-1
+
+---
+
+#### 3604. [Ubuntu] USN-8836-1: FreeRDP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8836-1
+
+---
+
+#### 3605. [Ubuntu] USN-8835-1: Emacs vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Emacs improperly handled specially crafted SVG images, resulting in memory corruption. An attacker could possibly use this issue to cause Emacs to crash, resulting in a denial of service, or obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8835-1
+
+---
+
+#### 3606. [Ubuntu] USN-8834-1: Exim vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Exim had an out-of-bounds write when Proxy-Protocol was used with an attacker-controlled proxy. A remote attacker could possibly use this issue to execute arbitrary code. (CVE-2026-94054) It was discovered that Exim had a use-after-free when certain non-default TLS settings were used with GnuTLS. A remote attacker could possibly use this issue to cause Exim to crash, resulti
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8834-1
+
+---
+
+#### 3607. [Ubuntu] USN-8833-1: libvirt vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvirt did not properly validate newline characters in DNS TXT record values and SRV record attributes in its virtual network driver. A local attacker with permission to define virtual networks could possibly use this issue to inject arbitrary dnsmasq configuration directives, leading to arbitrary command execution as root. (CVE-2026-61477) It was discovered that libvirt di
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8833-1
+
+---
+
+#### 3608. [Ubuntu] USN-8832-1: Booth vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Booth did not properly validate message authentication codes under certain circumstances. A remote attacker could possibly use this issue to bypass authentication.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8832-1
+
+---
+
+#### 3609. [Ubuntu] USN-8831-1: libvirt vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvirt had an integer overflow vulnerability in the NodeGetFreePages RPC handler. A local attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-18917) It was discovered that libvirt did not correctly handle symbolic links when changing ownership of the TPM emulator log file. A local attacker with access to the swtpm account
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8831-1
+
+---
+
+#### 3610. [Ubuntu] USN-8830-1: phpseclib vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that phpseclib did not perform constant-time padding validation when using AES in CBC mode. A remote attacker could possibly use this issue to obtain sensitive information. (CVE-2026-32935) It was discovered that phpseclib did not use a constant-time comparison when validating SSH packet authentication codes. A remote attacker could possibly use this issue to obtain sensitive inf
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8830-1
+
+---
+
+#### 3611. [Ubuntu] USN-8829-1: Plasma Workspace vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Fabian Vogt discovered that Plasma Workspace did not properly authenticate local clients connecting to the session manager. A local attacker could possibly use this issue to execute arbitrary code as another user.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8829-1
+
+---
+
+#### 3612. [Ubuntu] USN-8828-1: dracut vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that dracut created initramfs images with overly permissive permissions under certain circumstances. A local attacker could possibly use this issue to obtain sensitive information. This issue only affected Ubuntu 16.04 LTS. (CVE-2016-8637) It was discovered that dracut did not properly sanitize DHCP options before writing them to shell scripts under certain circumstances. A remot
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8828-1
+
+---
+
+#### 3613. [Ubuntu] USN-8827-1: Erlang vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Erlang Port Mapper Daemon did not properly handle slow connections. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2026-42792) It was discovered that Erlang incorrectly handled certain external term format data, leading to heap corruption. An attacker could possibly use this issue to cause Erlang to crash, resulting in a denial of serv
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8827-1
+
+---
+
+#### 3614. [Ubuntu] USN-8826-1: LXC vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Maher Azzouzi discovered that LXC did not correctly handle logging certain failure messages. An attacker could possibly use this issue to leak sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2022-47952) Sam Sanoop discovered that LXC did not correctly handle certain forms of user authorization. An att
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8826-1
+
+---
+
+#### 3615. [Ubuntu] USN-8825-1: Requests vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Requests did not correctly handle generating random temporary file paths. An attacker could possibly use this issue to execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8825-1
+
+---
+
+#### 3616. [Ubuntu] USN-8823-1: PyJWT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that PyJWT incorrectly handled certain URIs when using PyJWKClient. A remote attacker could possibly use this issue to perform server-side request forgery (SSRF) or expose sensitive local files. This issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-48522) It was discovered that PyJWT incorrectly verified cryptographic signatures when decoding
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8823-1
+
+---
+
+#### 3617. [Ubuntu] USN-8822-1: Libwebsockets vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Libwebsockets incorrectly handled certain SSH protocol messages in its SSH protocol handler. A remote attacker could possibly use this issue to cause Libwebsockets to consume excessive resources, resulting in a denial of service. (CVE-2026-10650) It was discovered that Libwebsockets incorrectly handled certain malformed CBOR data. A remote attacker could possibly use this is
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8822-1
+
+---
+
+#### 3618. [Ubuntu] USN-8847-1: OpenSSL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSL incorrectly handled certain certificate revocation list distribution point names. An attacker could possibly use this issue to cause OpenSSL to consume excessive memory, resulting in a denial of service. (CVE-2026-35189) It was discovered that OpenSSL incorrectly handled QUIC unvalidated amplification credit accounting. An attacker could possibly use this issue to ca
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8847-1
+
+---
+
+#### 3619. [Ubuntu] USN-8844-1: c-ares vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that c-ares incorrectly handled certain query completion callbacks. An attacker could possibly use this issue to trigger a use- after-free or double-free, resulting in a denial of service or arbitrary code execution.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8844-1
+
+---
+
+#### 3620. [Ubuntu] USN-8843-1: FreeIPMI vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FreeIPMI incorrectly handled certain malformed Fujitsu SEL long-text responses, leading to a stack-based buffer overflow. An attacker in control of a malicious IPMI device could possibly use this issue to cause FreeIPMI to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-85504) It was discovered that FreeIPMI incorrectly handled short re
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8843-1
+
+---
+
+#### 3621. [Ubuntu] USN-8842-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - InfiniBand drivers; - Network drivers; - TCM subsystem; - B.A.T.M.A.N. meshing protocol; - HSR network protocol; - IPv4 networking; - IPv6 networking; - Netfilter; - RDS protocol; (CVE-2026-53131, CVE-2026-53186, CVE-2
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8842-1
+
+---
+
+#### 3622. [Ubuntu] USN-8840-1: libevent vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michał Majchrowicz and Marcin Wyczechowski discovered that libevent incorrectly handled certain DNS responses. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-63387) It was discovered that libevent incorrectly handled certain connections. A local attacker could possibly use this issue to cause a denial of service or execute arbitrar
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8840-1
+
+---
+
+#### 3623. [Ubuntu] USN-8858-1: Authen::SASL vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Authen::SASL, a Perl authentication library, did not properly validate login attempts. An attacker could possibly use this issue to gain unauthorized access.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8858-1
+
+---
+
+#### 3624. [Ubuntu] USN-8856-1: Kdenlive, MLT vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Kdenlive allowed dangerous proxy parameters when processing attacker-controlled project files. An attacker could use this to execute arbitrary commands via the MLT framework's ante/post consumer properties.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8856-1
+
+---
+
+#### 3625. [Ubuntu] USN-8854-1: OpenStack Keystone vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Grzegorz Grasza discovered that OpenStack Keystone did not consistently enforce restrictions for delegated authentication tokens. An authenticated attacker could possibly use this issue to create credentials or delegations that outlasted the delegated token. (CVE-2026-80182) It was discovered that OpenStack Keystone incorrectly handled role assignment queries under certain circumstances. An authen
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8854-1
+
+---
+
+#### 3626. [Ubuntu] USN-8853-1: OpenSBI vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenSBI did not properly validate the counter index mask in SBI PMU extension requests. An attacker could use this issue to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8853-1
+
+---
+
+#### 3627. [Ubuntu] USN-8852-1: OpenVPN vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN had a use-after-free vulnerability in its TLS session handling. An attacker could possibly use this issue to cause OpenVPN to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-84471) It was discovered that OpenVPN incorrectly handled retransmissions of ACK packet IDs, which could trigger a timeout integer overflow. A remote attacker could
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8852-1
+
+---
+
+#### 3628. [Ubuntu] USN-8851-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network file system (NFS) server daemon; - IPv6 networking; - Netfilter; (CVE-2025-38724, CVE-2026-53131, CVE-2026-53221)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8851-1
+
+---
+
+#### 3629. [Ubuntu] USN-8849-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8849-1
+
+---
+
+#### 3630. [Ubuntu] USN-8847-2: OpenSSL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8847-1 fixed vulnerabilities in OpenSSL. This update provides the corresponding fix for OpenSSL on Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that OpenSSL incorrectly handled certain certificate revocation list distribution point names. An attacker could possibly use this issue to cause OpenSSL to consume excessive me
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8847-2
+
+---
+
+#### 3631. [Ubuntu] USN-8846-1: libheif vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yuqi Qiu and Xiang Li discovered that libheif incorrectly handled certain compressed metadata. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-84384) Yuqi Qiu and Xiang Li discovered that libheif incorrectly handled certain HEIF sequence data. A remote attacker could possibly use this issue to c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8846-1
+
+---
+
+#### 3632. [Ubuntu] USN-8841-1: Perl DBI module vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Perl DBI module did not correctly handle certain integer arithmetic operations. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-73193, CVE-2026-73194)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8841-1
+
+---
+
+#### 3633. [Ubuntu] USN-8864-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Network file system (NFS) server daemon; - IPv6 networking; - Netfilter; (CVE-2025-38724, CVE-2026-53131, CVE-2026-53221)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8864-1
+
+---
+
+#### 3634. [Ubuntu] USN-8863-1: GStreamer Good Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yazan Balawneh discovered that GStreamer Good Plugins incorrectly handled certain FLAC audio streams. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-17072) Seonwook Kim discovered that GStreamer Good Plugins incorrectly parsed certain AVI files. An attacker could possibly use this issue to cause a denial of service or obtain sensitive information. (CVE-2026-73
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8863-1
+
+---
+
+#### 3635. [Ubuntu] USN-8862-1: libXpm vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libXpm did not correctly handle XPM images with zero-dimension values. A local attacker could possibly use this issue to cause libXpm to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8862-1
+
+---
+
+#### 3636. [Ubuntu] USN-8861-1: OpenSSL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSL had an inefficient algorithm in its QUIC stream reassembly implementation. A remote attacker could possibly use this issue to cause OpenSSL to use excessive CPU resources, leading to a denial of service. (CVE-2026-42772) It was discovered that OpenSSL did not properly limit memory allocated for QUIC packet buffers. A remote attacker could possibly use this issue to c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8861-1
+
+---
+
+#### 3637. [Ubuntu] USN-8860-1: OpenStack Designate vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenStack Designate did not properly validate overlapping zones under certain circumstances. An authenticated user could possibly use this issue to redirect DNS traffic to attacker-controlled systems or cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8860-1
+
+---
+
+#### 3638. [Ubuntu] USN-8859-1: ImageMagick vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that ImageMagick did not correctly handle certain images. An attacker could possibly use this issue to cause a denial of service or obtain sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2026-56367) It was discovered that ImageMagick did not correctly handle certain images. An attac
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8859-1
+
+---
+
+#### 3639. [Ubuntu] USN-8857-1: KCoreAddons vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that KCoreAddons incorrectly handled shell argument quoting in KShell::quoteArgs. The parsing did not adequately handle shell metacharacters, which could lead to a shell escape. An attacker could possibly use this issue to execute arbitrary commands in applications that relied on this method to handle user input.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8857-1
+
+---
+
+#### 3640. [Ubuntu] USN-8855-1: GStreamer Bad Plugins vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Bad Plugins incorrectly validated the size of multi-channel audio blocks. An attacker could possibly use this issue with a specially crafted WAV file to cause the program to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8855-1
+
+---
+
+#### 3641. [Ubuntu] USN-8848-1: Django vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Bence Nagy discovered that GeoDjango in Django incorrectly handled spatial lookups when processing untrusted input. A remote attacker could possibly use this issue to make outbound network requests, write arbitrary files, or execute arbitrary code. This issue was only addressed in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-15307) Ahmad Sadeddin discovered that Django Update
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8848-1
+
+---
+
+#### 3642. [Ubuntu] USN-8889-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8889-1
+
+---
+
+#### 3643. [Ubuntu] USN-8886-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - NVDIMM (Non-Volatile Memory Device) drivers; - Handshake API; - ARM32 architecture; - ARM64 architecture; - MIPS architecture; - OpenRISC architecture; - PowerPC architecture; - S390 architecture; - x86 architecture; -
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8886-1
+
+---
+
+#### 3644. [Ubuntu] USN-8885-1: FluidSynth vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FluidSynth did not properly validate the channel argument of the pitch_bend_range command. A remote attacker could possibly use this issue to cause FluidSynth to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-58264) It was discovered that FluidSynth incorrectly handled configurations with more than 16 MIDI channels in its MIDI player, leading t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8885-1
+
+---
+
+#### 3645. [Ubuntu] USN-8884-1: U-Boot vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Timo Preißl discovered that U-Boot incorrectly handled certain malformed ZFS file system metadata. An attacker could possibly use this issue to trigger an integer overflow and out-of-bounds memory access, resulting in arbitrary code execution or a denial of service. (CVE-2025-70290) Timo Preißl discovered that U-Boot incorrectly calculated buffer sizes when processing certain ext4 file systems. An
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8884-1
+
+---
+
+#### 3646. [Ubuntu] USN-8883-1: Go vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Go x/net/idna package incorrectly handled certain Punycode-encoded labels that decoded to ASCII-only labels. An attacker could possibly use this issue to bypass hostname-based access controls and escalate privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8883-1
+
+---
+
+#### 3647. [Ubuntu] USN-8882-1: Tesseract vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Tesseract incorrectly handled crafted .traineddata models. An attacker could possibly use this issue to cause Tesseract to crash, resulting in a denial of service. (CVE-2026-73067) It was discovered that Tesseract did not properly validate dimensions in crafted .traineddata models. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-73066) It was d
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8882-1
+
+---
+
+#### 3648. [Ubuntu] USN-8881-1: FreeType vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FreeType had a flaw in its CID font loader. An attacker could possibly use this issue to cause FreeType to consume excessive memory and CPU resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8881-1
+
+---
+
+#### 3649. [Ubuntu] USN-8880-1: FreeRDP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8880-1
+
+---
+
+#### 3650. [Ubuntu] USN-8879-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the i.MX clock driver in the Linux kernel did not properly handle certain memory allocation failure conditions, leading to a null pointer dereference vulnerability. A local attacker could possibly use this to cause a denial of service (system crash). (CVE-2022-3114) It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) inval
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8879-1
+
+---
+
+#### 3651. [Ubuntu] USN-8874-1: sg3_utils vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Shaomin Chen discovered that sg3_utils did not properly sanitize device identification data. An attacker could possibly use this issue to execute arbitrary commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8874-1
+
+---
+
+#### 3652. [Ubuntu] USN-8873-1: Unbound vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yuqi Qiu and Xiang Li discovered that Unbound did not correctly handle certain memory operations. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-81642) Ben Morris discovered that Unbound did not correctly handle certain memory operations. An attacker could possibly use this issue to cause a denial of service or execute arbitary code. (CV
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8873-1
+
+---
+
+#### 3653. [Ubuntu] USN-8872-1: libxmltok vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Expat, contained with the xmltok library did not correctly handle certain integer arithmetic. If a user or automated system were tricked into opening a specially crafted file, an attacker could possibly cause a denial of service. (CVE-2026-56404, CVE-2026-56405)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8872-1
+
+---
+
+#### 3654. [Ubuntu] USN-8871-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8871-1
+
+---
+
+#### 3655. [Ubuntu] USN-8870-1: OpenStack Aodh and Watcher vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Chen YuXiang discovered that OpenStack Aodh did not correctly enforce project scoping in its alarm list API and that the OpenStack Watcher webhook trigger endpoint did not apply authorization. An attacker could possibly use this issue to access sensitive alarm metadata or trigger unauthorized action plans.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8870-1
+
+---
+
+#### 3656. [Ubuntu] USN-8892-1: Ubuntu Pro for WSL vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Darshan U discovered that Ubuntu Pro for WSL exposed the attach token in command-line arguments when enabling a subscription on a WSL instance. An attacker could possibly use this issue to obtain sensitive information and gain unauthorized access to Ubuntu Pro repositories.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8892-1
+
+---
+
+#### 3657. [Ubuntu] USN-8890-1: libsoup vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libsoup incorrectly handled certain HTTP/2 requests. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-4271) It was discovered that libsoup incorrectly handled certain HTTPS proxy connections. A remote attacker could possibly use this issue to obtain sensitive information. T
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8890-1
+
+---
+
+#### 3658. [Ubuntu] USN-8907-1: libgit2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libgit2 incorrectly handled IP address SubjectAltName verification in TLS certificate validation. A remote attacker with a CA-trusted certificate could possibly use this issue to perform a machine-in-the-middle attack, leading to the exposure of sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8907-1
+
+---
+
+#### 3659. [Ubuntu] USN-8906-1: Linux kernel (IBM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some Arm processors could complete a broadcast translation lookaside buffer (TLB) invalidation before memory writes made through the invalidated translation were globally observed. A local attacker could possibly use this to write to memory after permission to do so had been revoked, bypassing memory protections or escalating privileges. (CVE-2025-10263) Several security iss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8906-1
+
+---
+
+#### 3660. [Ubuntu] USN-8905-1: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; - x86 architecture; - Intel NPU Driver; - Auxiliary display drivers; - Compressed RAM block device driver; - GPIO subsystem; - GPU drivers; - HID subsystem
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8905-1
+
+---
+
+#### 3661. [Ubuntu] USN-8902-1: libarchive vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libarchive had a signed integer overflow in its ZIP writer when handling encrypted entries with sizes near the maximum value. An attacker could possibly use this issue to cause libarchive to crash or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8902-1
+
+---
+
+#### 3662. [Ubuntu] USN-8901-1: Erlang vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Wander Nauta discovered that Erlang incorrectly handled absolute paths when extracting zip archives. An attacker could possibly use this issue to write arbitrary files outside of the intended directory. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. (CVE-2025-4748) It was discovered that the Erlang SFTP server did not properly limit the size of packets. A remote
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8901-1
+
+---
+
+#### 3663. [Ubuntu] USN-8900-1: Go Networking vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Go Networking did not properly handle server errors after sending a GOAWAY frame during HTTP/2 connection shutdown, which could cause the connection to hang. A remote attacker could possibly use this issue to cause a denial of service. (CVE-2022-27664) It was discovered that Go Networking had quadratic complexity when decoding HPACK headers in HTTP/2 streams. A remote attack
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8900-1
+
+---
+
+#### 3664. [Ubuntu] USN-8899-1: libpng vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Ze Sheng discovered that libpng incorrectly handled certain compressed data chunks in PNG files. An attacker could possibly use this issue to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8899-1
+
+---
+
+#### 3665. [Ubuntu] USN-8898-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Apache HTTP Server's mod_rewrite module incorrectly handled memory when performing certain variable lookups. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-56154) Lucian Nitescu, Simon Kappel, and Gianluca Danesin discovered that Apache HTTP Server's mod_http2 module incorrectly handled memory when processing
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8898-1
+
+---
+
+#### 3666. [Ubuntu] USN-8897-1: lxml vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Guillem Lefait discovered that lxml incorrectly handled certain URL attributes. A remote attacker could possibly use this issue to bypass URL sanitization, leading to a cross-site scripting attack. (CVE-2026-49825) Qiu Sihao discovered that lxml incorrectly handled untrusted XML input. A remote attacker could possibly use this issue to read local files and expose sensitive information. This issue
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8897-1
+
+---
+
+#### 3667. [Ubuntu] USN-8896-1: GStreamer Ugly Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michael Randrianantenaina discovered that GStreamer's Ugly Plugins incorrectly handled certain malformed RealMedia files. If a user were tricked into opening a crafted media file, an attacker could possibly use this issue to execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS and Ubuntu 22.04 LTS. (CVE-2023-38103, CVE-2023-38104) It was discovered
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8896-1
+
+---
+
+#### 3668. [Ubuntu] USN-8895-1: Sudo vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Sudo did not properly handle time-based access restrictions when sudoers rules used NOTBEFORE or NOTAFTER with timestamps omitting the trailing timezone indicator. A local attacker could possibly use this issue to execute commands outside the intended time window by manipulating the TZ environment variable.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8895-1
+
+---
+
+#### 3669. [Ubuntu] USN-8894-1: poppler vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Poppler had an integer overflow in FoFiTrueType::cvtSfnts. An attacker could possibly use this issue to cause Poppler to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-102620) It was discovered that Poppler had an integer overflow in SplashClip::clipToPath. An attacker could possibly use this issue to cause Poppler to crash, resulting in a deni
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8894-1
+
+---
+
+#### 3670. [Ubuntu] USN-8893-1: Libwebsockets vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libwebsockets did not properly validate user-supplied data when parsing HTTP/2 HPACK path headers, which could result in a write past the end of an allocated buffer. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-19773) It was discovered that libwebsockets did not properly handle CBOR recording in the LECP parser, which could result in a write
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8893-1
+
+---
+
+#### 3671. [Ubuntu] USN-8891-1: librsvg vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that librsvg incorrectly handled duplicate XML entity declarations while processing SVG documents containing nested XML inclusions. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8891-1
+
+---
+
+#### 3672. [Ubuntu] USN-8911-1: Linux kernel (OEM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Hardware crypto device drivers; - NVIDIA Tegra memory controller driver; - Network drivers; - USB core drivers; - GFS2 file system; - OCFS2 file system; - SMB network file system; - SoundWire (SDCA) ASoC drivers; - B.A
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8911-1
+
+---
+
+#### 3673. [Ubuntu] USN-8910-1: libxml2 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Yirou Yang discovered that libxml2 incorrectly handled certain XML catalogs. If a user or automated system was tricked into processing a specially crafted XML catalog, an attacker could possibly use this issue to cause libxml2 to crash, resulting in a denial of service. (CVE-2026-76781) It was discovered that libxml2 incorrectly handled certain large qualified names, leading to a heap-based buffer
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8910-1
+
+---
+
+#### 3674. [Ubuntu] USN-8909-1: libde265 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libde265 did not properly validate certain crafted H.265 bitstreams, leading to a NULL pointer dereference. An attacker could possibly use this issue to cause libde265 to crash, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8909-1
+
+---
+
+#### 3675. [Ubuntu] USN-8908-1: BlueZ vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Michael Bommarito discovered that BlueZ incorrectly handled codec capability storage in the A2DP profile. An attacker could possibly use this issue to cause a stack buffer overflow, resulting in a denial of service or arbitrary code execution. This issue only affected Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-19774) It was discovered that BlueZ incorrectl
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8908-1
+
+---
+
+#### 3676. [Ubuntu] USN-8905-2: Linux kernel (GCP) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ARM32 architecture; - ARM64 architecture; - MIPS architecture; - x86 architecture; - Intel NPU Driver; - Auxiliary display drivers; - Compressed RAM block device driver; - GPIO subsystem; - GPU drivers; - HID subsystem
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8905-2
+
+---
+
+#### 3677. [Ubuntu] USN-8924-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the timer stats implementation in the Linux kernel allowed the discovery of a real PID value while inside a PID namespace. A local attacker could use this to expose sensitive information. (CVE-2017-5967) Wen Xu discovered that the XFS file system implementation in the Linux kernel did not properly track inode validations. An attacker could use this to construct a malicious X
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8924-1
+
+---
+
+#### 3678. [Ubuntu] USN-8923-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - SCSI subsystem; - Bluetooth subsystem; (CVE-2022-49111, CVE-2022-49114)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8923-1
+
+---
+
+#### 3679. [Ubuntu] USN-8922-1: Linux kernel (Oracle) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - IIO ADC drivers; - Multiple devices driver; - PCI subsystem; - VFIO drivers; - Network file system (NFS) server daemon; - Overlay file system; - IPv6 networking; - Netfilter; (CVE-2024-53194, CVE-2
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8922-1
+
+---
+
+#### 3680. [Ubuntu] USN-8920-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Ethernet bonding driver; - Network drivers; - F2FS file system; - Network file system (NFS) server daemon; - Tracing infrastructure; - io_uring subsystem; - Networking core; - IPv6 networking; - IUCV driver; - Netfilte
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8920-1
+
+---
+
+#### 3681. [Ubuntu] USN-8918-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8918-1
+
+---
+
+#### 3682. [Ubuntu] USN-8915-1: FFmpeg vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Momoko Shiraishi discovered that FFmpeg did not correctly handle certain memory operations. An attacker could possibly use this issue to execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2026-30754) It was discovered that FFmpeg did not correctly handle certain memory operations. An attacker could poss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8915-1
+
+---
+
+#### 3683. [Ubuntu] USN-8914-1: Google Guest Agent, Google OS Config Agent vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Go x/net/idna package, vendored in Google Guest Agent and Google OS Config Agent, incorrectly accepted Punycode-encoded labels that decoded to ASCII-only labels when processing internationalized domain names. A remote attacker could possibly use this issue to bypass hostname-based access controls and escalate privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8914-1
+
+---
+
+#### 3684. [Ubuntu] USN-8913-1: libx11 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Adam Bedard discovered that libx11 incorrectly handled certain XKB keyboard map replies. If a user were tricked into connecting to a malicious X server, a remote attacker could possibly use this issue to cause libx11 to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2026-88806) It was discovered that libx11 incorrectly handled certain X Input Method (XIM) message
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8913-1
+
+---
+
+#### 3685. [Ubuntu] USN-8912-1: Perl DBI module vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Harsh Raj Singhania discovered that the Perl DBI module did not correctly validate certain attributes. An attacker could possibly use this issue to execute arbitrary code. (CVE-2026-78030) Harsh Raj Singhania discovered that the Perl DBI module did not correctly handle certain string operations. An attacker could possibly use this issue to cause a denial of service. (CVE-2026-88816)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8912-1
+
+---
+
+#### 3686. [Ubuntu] USN-8925-1: YAML-LibYAML vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Dominique Dumont discovered that YAML-LibYAML did not correctly handle certain reflection operations. If a user or system were tricked into opening a specially crafted file, an attacker could possibly use this issue to delete files. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2017-20285) It was discovered that YAML-LibYAML did not correctly handle parsing certain documents
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8925-1
+
+---
+
+#### 3687. [Ubuntu] USN-8916-1: PyJWT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+YuSung Han discovered that PyJWT did not properly validate certain JWK keys when performing HMAC verification. An attacker could possibly use this issue to forge authentication tokens. This issue only affected Ubuntu 26.04 LTS. (CVE-2026-102266) Rohan Das discovered that PyJWT incorrectly handled redirects when fetching key sets. A remote attacker could possibly use this issue to cause PyJWT to di
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8916-1
 
 ---
