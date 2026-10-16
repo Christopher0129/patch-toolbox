@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3694**
+**总计条目 / Total entries: 3696**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -66278,5 +66278,37 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8926-1
+
+---
+
+#### 3695. [Ubuntu] USN-8933-1: RabbitMQ Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that RabbitMQ Server incorrectly handled CORS wildcard origin configuration. An attacker could possibly use this issue to cause a cross-site request forgery attack. This issue only affected Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS. (CVE-2026-66070) It was discovered that RabbitMQ Server incorrectly handled TLS peer-certificate D
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8933-1
+
+---
+
+#### 3696. [Ubuntu] USN-8922-2: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - S390 architecture; - IIO ADC drivers; - Multiple devices driver; - PCI subsystem; - VFIO drivers; - Network file system (NFS) server daemon; - Overlay file system; - IPv6 networking; - Netfilter; (CVE-2024-53194, CVE-2
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8922-2
 
 ---
