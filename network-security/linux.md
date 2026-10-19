@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3976**
+**总计条目 / Total entries: 3982**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57143,5 +57143,77 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8922-2
+
+---
+
+#### 3977. [Ubuntu] USN-8939-1: libXtst vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libXtst did not properly handle certain RECORD replies from the X server. A malicious X server could possibly use this issue to cause libXtst clients to crash, resulting in a denial of service. (CVE-2026-94286) Tobias Stoeckmann discovered that libXtst did not properly handle certain memory operations. A malicious X server could possibly use this issue to cause libXtst to ac
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8939-1
+
+---
+
+#### 3978. [Ubuntu] USN-8938-1: cifs-utils vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that cifs-utils incorrectly handled credentials files used by privileged mount.cifs invocations. A local attacker could possibly use this issue to inject arbitrary mount options into a privileged mount, resulting in a privilege escalation.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8938-1
+
+---
+
+#### 3979. [Ubuntu] USN-8937-1: OpenSSH vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenSSH's sftp client incorrectly handled paths returned by the server during a recursive copy operation. A remote attacker controlling the server could possibly use this issue to write files to unintended locations. (CVE-2026-106552) It was discovered that OpenSSH's sshd server incorrectly handled GSSAPIAuthentication state across authentication attempts. An attacker could
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8937-1
+
+---
+
+#### 3980. [Ubuntu] USN-8936-1: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PHP did not properly validate the size of MySQL server packets in the mysqlnd driver. A malicious server could possibly use this issue to cause PHP to crash, resulting in a denial of service. This issue was only addressed in Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS, and Ubuntu 26.10. (CVE-2025-1218) It was discovered that PHP incorrectly handled
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8936-1
+
+---
+
+#### 3981. [Ubuntu] USN-8935-1: Go vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Go did not enforce a maximum recursion depth when parsing deeply nested ASN.1 structures. An attacker could possibly use this issue to cause Go to crash, resulting in a denial of service. (CVE-2026-33818) It was discovered that Go incorrectly reset the depth counter when decoding XML elements. An attacker could possibly use this issue to cause Go to crash via deeply nested X
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8935-1
+
+---
+
+#### 3982. [Ubuntu] USN-8927-2: curl vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8927-1 fixed vulnerabilities in curl. This update provides the corresponding fixes for Ubuntu 26.10. Original advisory details: It was discovered that curl, when built with GnuTLS support, had an out-of-bounds read in the WebSocket send path. An attacker could possibly use this issue to obtain sensitive information. (CVE-2026-107928) Maksim discovered that curl did not correctly include the in
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8927-2
 
 ---
