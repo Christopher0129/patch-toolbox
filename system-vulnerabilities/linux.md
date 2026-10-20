@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3702**
+**总计条目 / Total entries: 3706**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -66406,5 +66406,69 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8927-2
+
+---
+
+#### 3703. [Ubuntu] USN-8944-1: ca-certificates update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+This update removes the "emSign ECC Root CA - G3" CA certificate due to intermediate CA certificates being compromised. In addition, in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Ubuntu 26.04 LTS, the ca-certificates package contained outdated CA certificates. This update refreshes the included certificates to those contained in the 2.90 version of the Mozilla certificate authority bundle.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8944-1
+
+---
+
+#### 3704. [Ubuntu] USN-8941-1: Squid vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches. (CVE-2026-61642) It was discovered that Squid incorrectly handled certain cache digest replies, which could lead to a buffer overflow. A remote attacker could possibly use thi
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8941-1
+
+---
+
+#### 3705. [Ubuntu] USN-8940-1: Perl XS::Parse::Keyword module vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Perl XS::Parse::Keyword module did not correctly handle certain inputs. If a user or automated system were tricked into receiving specially crafted input, an attacker could cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8940-1
+
+---
+
+#### 3706. [Ubuntu] USN-8934-1: PyJWT vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Kingsley Olukanni discovered that PyJWT did not properly handle unknown key identifiers when retrieving signing keys. An attacker could possibly use this issue to amplify requests to the configured key endpoint, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-101917) Ekalabya Ghosh discovered that PyJWT did
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8934-1
 
 ---

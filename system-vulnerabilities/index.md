@@ -10,7 +10,7 @@
 | 平台 / Platform | 条目数 / Entries | 链接 / Link |
 |---|---|---|
 | Windows | 1345 | [windows.md](windows.md) |
-| Linux | 3702 | [linux.md](linux.md) |
+| Linux | 3706 | [linux.md](linux.md) |
 | Macos | 1081 | [macos.md](macos.md) |
 
 ---
