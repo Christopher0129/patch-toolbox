@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3706**
+**总计条目 / Total entries: 3713**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -66470,5 +66470,117 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8934-1
+
+---
+
+#### 3707. [Ubuntu] USN-8948-2: PHP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8948-1 fixed vulnerabilities in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. This provides the corrosponding updates in Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that PHP incorrectly handled out-of-memory conditions while processing requests. A remote attacker could use this issue to execute
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8948-2
+
+---
+
+#### 3708. [Ubuntu] USN-8946-1: Unbound vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Unbound incorrectly handled certain TCP connections. A remote attacker could possibly use this issue to cause Unbound to consume resources, leading to a denial of service. This issue only affected Ubuntu 26.04 LTS, Ubuntu 24.04 LTS, Ubuntu 22.04 LTS and Ubuntu 20.04 LTS. (CVE-2026-80225) It was discovered that Unbound incorrectly handled certain DNS responses. A remote attac
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8946-1
+
+---
+
+#### 3709. [Ubuntu] USN-8945-1: XZ Utils vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that XZ Utils incorrectly handled certain memory allocation failures when reinitializing decoders for specific compressed file formats. An attacker could possibly use this issue to trigger an invalid memory write, resulting in a denial of service or arbitrary code execution.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8945-1
+
+---
+
+#### 3710. [Ubuntu] USN-8944-2: ca-certificates update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8944-1 updated ca-certificates. This update provides the corresponding changes for Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS by removing the "emSign ECC Root CA - G3" and "Comodo AAA Services root" CA certificates. Original advisory details: This update removes the "emSign ECC Root CA - G3" CA certificate due to intermediate CA certificates being compromised. I
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8944-2
+
+---
+
+#### 3711. [Ubuntu] USN-8943-1: Protocol Buffers vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Protocol Buffers did not properly handle negative varint lengths or enforce recursion limits when parsing input in the PHP library. An attacker could possibly use this issue to cause applications using Protocol Buffers to crash or consume resources, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8943-1
+
+---
+
+#### 3712. [Ubuntu] USN-8942-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Multiple security issues were discovered in .NET and this update includes new upstream .NET versions to fix these issues. .NET 8 has been updated to 8.0.32 in Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. .NET 10 has been updated to 10.0.13 in Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. .NET 11 has been updated to 11.0.0~rc2 in Ubuntu 26.10. In addition to security fixes, the updated packages co
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8942-1
+
+---
+
+#### 3713. [Ubuntu] USN-8930-2: U-Boot vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-8930-1 fixed some vulnerabilities in U-Boot. This update provides the corresponding fix for U-Boot on Ubuntu 26.10. Original advisory details: Shahriyar Jalayeri and Mehrun P. Hunter discovered that U-Boot incorrectly handled certain NFS READ and NFS READLINK responses. An attacker could possibly use this issue to trigger a buffer overflow, resulting in a denial of service or arbitrary code ex
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8930-2
 
 ---
