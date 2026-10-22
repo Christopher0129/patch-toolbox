@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3713**
+**总计条目 / Total entries: 3719**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -66582,5 +66582,101 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8930-2
+
+---
+
+#### 3714. [Ubuntu] USN-8953-1: OpenVPN vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN incorrectly handled certificate subject fields. A remote authenticated user could possibly use this issue to impersonate other users.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8953-1
+
+---
+
+#### 3715. [Ubuntu] USN-8952-1: Tornado vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Tornado did not properly handle certain HTTP requests and network inputs. An attacker could possibly use these issues to cause a denial of service, expose sensitive information, or bypass access controls. (CVE-2023-54397, CVE-2024-14029, CVE-2026-91990, CVE-2026-91992, CVE-2026-103262, CVE-2026-103263)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8952-1
+
+---
+
+#### 3716. [Ubuntu] USN-8951-1: c-ares vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that c-ares incorrectly parsed certain SOA replies. A remote attacker could possibly use this issue to cause c-ares to crash, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2020-22217) It was discovered that c-ares incorrectly handled certain sortlist strings. A remote attacker could possibly use this issue to cause c-ares t
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8951-1
+
+---
+
+#### 3717. [Ubuntu] USN-8950-1: poppler vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that poppler incorrectly handled the password length limit when decrypting certain encrypted PDF files. An attacker could possibly use this issue to cause a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8950-1
+
+---
+
+#### 3718. [Ubuntu] USN-8949-1: Ghostscript vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Rick de Jager discovered that Ghostscript incorrectly handled memory under certain circumstances when processing PostScript documents. If a user or automated system were tricked into processing a specially crafted document, an attacker could possibly use this issue to bypass the sandbox and execute arbitrary code. (CVE-2026-101258) It was discovered that Ghostscript incorrectly handled memory when
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8949-1
+
+---
+
+#### 3719. [Ubuntu] USN-8947-1: NSS update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+This update removes the "emSign ECC Root CA - G3" and "Comodo AAA Services root" CA certificate due to intermediate CA certificates being compromised.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8947-1
 
 ---

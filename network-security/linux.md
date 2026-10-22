@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3993**
+**总计条目 / Total entries: 3999**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57347,5 +57347,77 @@ USN-8930-1 fixed some vulnerabilities in U-Boot. This update provides the corres
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8930-2
+
+---
+
+#### 3994. [Ubuntu] USN-8953-1: OpenVPN vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN incorrectly handled certificate subject fields. A remote authenticated user could possibly use this issue to impersonate other users.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8953-1
+
+---
+
+#### 3995. [Ubuntu] USN-8952-1: Tornado vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Tornado did not properly handle certain HTTP requests and network inputs. An attacker could possibly use these issues to cause a denial of service, expose sensitive information, or bypass access controls. (CVE-2023-54397, CVE-2024-14029, CVE-2026-91990, CVE-2026-91992, CVE-2026-103262, CVE-2026-103263)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8952-1
+
+---
+
+#### 3996. [Ubuntu] USN-8951-1: c-ares vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that c-ares incorrectly parsed certain SOA replies. A remote attacker could possibly use this issue to cause c-ares to crash, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS and Ubuntu 18.04 LTS. (CVE-2020-22217) It was discovered that c-ares incorrectly handled certain sortlist strings. A remote attacker could possibly use this issue to cause c-ares t
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8951-1
+
+---
+
+#### 3997. [Ubuntu] USN-8950-1: poppler vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that poppler incorrectly handled the password length limit when decrypting certain encrypted PDF files. An attacker could possibly use this issue to cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8950-1
+
+---
+
+#### 3998. [Ubuntu] USN-8949-1: Ghostscript vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Rick de Jager discovered that Ghostscript incorrectly handled memory under certain circumstances when processing PostScript documents. If a user or automated system were tricked into processing a specially crafted document, an attacker could possibly use this issue to bypass the sandbox and execute arbitrary code. (CVE-2026-101258) It was discovered that Ghostscript incorrectly handled memory when
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8949-1
+
+---
+
+#### 3999. [Ubuntu] USN-8947-1: NSS update
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+This update removes the "emSign ECC Root CA - G3" and "Comodo AAA Services root" CA certificate due to intermediate CA certificates being compromised.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8947-1
 
 ---
