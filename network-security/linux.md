@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3999**
+**总计条目 / Total entries: 4000**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57419,5 +57419,17 @@ This update removes the "emSign ECC Root CA - G3" and "Comodo AAA Services root"
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8947-1
+
+---
+
+#### 4000. [Ubuntu] USN-8954-1: zlib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ali Firas discovered that zlib incorrectly handled certain non-blocking write operations. An attacker could possibly use this issue to trigger a heap buffer overflow, resulting in a denial of service or arbitrary code execution.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8954-1
 
 ---
