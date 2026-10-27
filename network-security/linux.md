@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4002**
+**总计条目 / Total entries: 4003**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57455,5 +57455,17 @@ It was discovered that nginx incorrectly handled certain configurations using th
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8955-1
+
+---
+
+#### 4003. [Ubuntu] USN-8957-1: authd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ali Mashally discovered that authd did not properly validate user identities when matching accounts from identity providers. An attacker could possibly use this issue to gain access to another user's local account and files, resulting in unauthorized access to sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8957-1
 
 ---
