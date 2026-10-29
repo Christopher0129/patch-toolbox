@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4003**
+**总计条目 / Total entries: 4004**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57467,5 +57467,17 @@ Ali Mashally discovered that authd did not properly validate user identities whe
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8957-1
+
+---
+
+#### 4004. [Ubuntu] USN-8956-2: Brotli vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8956-1 fixed a vulnerability in Brotli. This update provides the corresponding fixes for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: It was discovered that Brotli incorrectly handled certain compressed streams. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8956-2
 
 ---
