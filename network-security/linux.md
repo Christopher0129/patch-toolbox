@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4004**
+**总计条目 / Total entries: 4005**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57479,5 +57479,17 @@ USN-8956-1 fixed a vulnerability in Brotli. This update provides the correspondi
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8956-2
+
+---
+
+#### 4005. [Ubuntu] USN-8958-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the .NET Blazor WebAssembly debug proxy did not properly escape certain values. An attacker could possibly use this issue to execute arbitrary code. The fix for this CVE was originally released via USN-8942-1, but it was found to be incomplete. This issue only affected dotnet10 and dotnet11. (CVE-2026-102870) It was discovered that the Brotli decompression library used by .N
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8958-1
 
 ---
