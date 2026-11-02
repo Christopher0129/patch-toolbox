@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1345**
+**总计条目 / Total entries: 1368**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -21553,5 +21553,461 @@ Install Microsoft security update KB. Use Windows Update or download from Micros
 
 **参考链接 / References**:
 - https://www.cve.org/CVERecord?id=CVE-2026-87638
+
+---
+
+#### 1346. [Microsoft] CVE-2026-118359 - Chromium: CVE-2026-118359 Memory corruption in V8
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118359
+
+---
+
+#### 1347. [Microsoft] CVE-2026-118358 - Chromium: CVE-2026-118358 Memory corruption in WebAudio
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118358
+
+---
+
+#### 1348. [Microsoft] CVE-2026-118355 - Chromium: CVE-2026-118355 Improper input validation in Command
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118355
+
+---
+
+#### 1349. [Microsoft] CVE-2026-118353 - Chromium: CVE-2026-118353 Use after free in Paint
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118353
+
+---
+
+#### 1350. [Microsoft] CVE-2026-118352 - Chromium: CVE-2026-118352 Memory corruption in Cache
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118352
+
+---
+
+#### 1351. [Microsoft] CVE-2026-118346 - Chromium: CVE-2026-118346 Use after free in Compositing
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118346
+
+---
+
+#### 1352. [Microsoft] CVE-2026-118347 - Chromium: CVE-2026-118347 Use after free in FileSystem
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118347
+
+---
+
+#### 1353. [Microsoft] CVE-2026-118348 - Chromium: CVE-2026-118348 Improper input validation in Skia
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118348
+
+---
+
+#### 1354. [Microsoft] CVE-2026-118351 - Chromium: CVE-2026-118351 Memory corruption in Skia
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118351
+
+---
+
+#### 1355. [Microsoft] CVE-2026-118345 - Chromium: CVE-2026-118345 Use after free in PDFium
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118345
+
+---
+
+#### 1356. [Microsoft] CVE-2026-118343 - Chromium: CVE-2026-118343 Improper input validation in ReadingList
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118343
+
+---
+
+#### 1357. [Microsoft] CVE-2026-118344 - Chromium: CVE-2026-118344 Use after free in Layout
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118344
+
+---
+
+#### 1358. [Microsoft] CVE-2026-118342 - Chromium: CVE-2026-118342 Out of bounds write in Editing
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118342
+
+---
+
+#### 1359. [Microsoft] CVE-2026-118339 - Chromium: CVE-2026-118339 Use after free in Animation
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118339
+
+---
+
+#### 1360. [Microsoft] CVE-2026-118341 - Chromium: CVE-2026-118341 Use after free in Modularization
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118341
+
+---
+
+#### 1361. [Microsoft] CVE-2026-118340 - Chromium: CVE-2026-118340 Memory corruption in Skia
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118340
+
+---
+
+#### 1362. [Microsoft] CVE-2026-118338 - Chromium: CVE-2026-118338 Use after free in Animation
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118338
+
+---
+
+#### 1363. [Microsoft] CVE-2026-118337 - Chromium: CVE-2026-118337 Improper access control in Forms
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118337
+
+---
+
+#### 1364. [Microsoft] CVE-2026-118336 - Chromium: CVE-2026-118336 Improper input validation in Headless
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118336
+
+---
+
+#### 1365. [Microsoft] CVE-2026-118335 - Chromium: CVE-2026-118335 Improper input validation in Metrics
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Microsoft Edge (Chromium-based)
+
+**漏洞描述 / Description**:
+[Microsoft] This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118335
+
+---
+
+#### 1366. CVE-2026-90251
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: MSFT: validate evt_prefix_len against the response length
+
+read_supported_features() only checks that the response covers the fixed
+part of struct msft_rp_read_supported_features, which is 11 bytes:
+
+	if (skb->len < sizeof(*rp)) {
+		bt_dev_err(hdev, "MSFT supported features length mismatch");
+		goto failed;
+	}
+
+evt_prefix[] is a flexible array member and rp->evt_prefix_len is an
+unvalidated u8 taken straight out of that response, so
+
+	msft->evt_prefix = kmemdup(rp->evt_prefix, rp->evt_prefix_len,
+				   GFP_KERNEL);
+
+copies up to 255 bytes from a reply that may have carried none of them.
+What is copied is data the controller never sent, and it is then used to
+match incoming vendor events in msft_vendor_evt().
+
+This is not an out-of-bounds access. An skb data allocation always has
+at least SKB_DATA_ALIGN(sizeof(struct skb_shared_info)) bytes past the
+payload, which is more than the 255 byte maximum, so the read stays
+inside the allocation and KASAN does not report it. It is still a read
+of bytes the host was never given, with the length fully controlled by
+the controller.
+
+Reject a response that is too short for the prefix it declares.
+
+Verified with an emulated controller over /dev/vhci on a KASAN kernel,
+with vhci made to advertise an MSFT opcode the way btintel, btqca, btmtk
+and btrtl do unconditionally. A reply of exactly 11 bytes declaring
+evt_prefix_len = 255 reaches kmemdup and copies 255 bytes
+("skb->len=11 evt_prefix_len=255", with the copied buffer dumped); since
+the reply ends at the fixed part, all 255 come from past the end of the
+response. No KASAN report is produced, as expected from the allocation
+slack described above. With this patch the response is rejected with
+"MSFT event prefix length mismatch" and msft->evt_prefix is left unset.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/0079e1a944634ab2dc1c7cdec1144486d096407e.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0079e1a944634ab2dc1c7cdec1144486d096407e
+- https://git.kernel.org/stable/c/21f539c59ed330b671d75fd119c5f659ff92fbd1
+- https://git.kernel.org/stable/c/52b1b3b4d403cbda1b70ce2385e1a71f166a87ba
+- https://git.kernel.org/stable/c/620c2631cff490d14d0b9d56f185cc745806d6d7
+- https://git.kernel.org/stable/c/63562cfaea8a650fdb31ee8de21c32e3600be642
+
+---
+
+#### 1367. CVE-2026-98109
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.7
+**受影响产品 / Affected Products**: linux:linux_kernel
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: hci_core: Fix race condition during device registration
+
+In hci_register_dev(), the power_on work item is queued to
+hdev->req_workqueue before initializing hdev->adv_monitors_idr and
+registering the MSFT extension via msft_register(). For devices marked with
+quirks such as HCI_QUIRK_RAW_DEVICE, the HCI_UNCONFIGURED flag is set on
+the device. When the power_on work item runs concurrently on another CPU,
+hci_power_on() detects that the device is unconfigured and immediately
+invokes hci_dev_do_close(), which calls msft_do_close().
+
+Concurrently, msft_register() allocates the msft structure and exposes it
+to hdev->msft_data prior to calling mutex_init(&msft->filter_lock). If
+msft_do_close() executes while hdev->msft_data is already assigned but the
+mutex has not yet been initialized, mutex_lock(&msft->filter_lock) operates
+on an uninitialized mutex, triggering a DEBUG_LOCKS warning:
+
+DEBUG_LOCKS_WARN_ON(lock->magic != lock)
+WARNING: kernel/locking/mutex.c:625 at __mutex_lock_common
+kernel/locking/mutex.c:625 [inline]
+WARNING: kernel/locking/mutex.c:625 at __mutex_lock+0x12d8/0x1550
+kernel/locking/mutex.c:821
+...
+Call Trace:
+ <TASK>
+ msft_do_close+0x308/0x7b0 net/bluetooth/msft.c:693
+ hci_dev_close_sync+0x86b/0x10a0 net/bluetooth/hci_sync.c:5522
+ hci_dev_do_close net/bluetooth/hci_core.c:499 [inline]
+ hci_power_on+0x32c/0x750 net/bluetooth/hci_core.c:937
+ process_one_work kernel/workqueue.c:3322 [inline]
+ process_scheduled_works+0xa8e/0x14e0 kernel/workqueue.c:3405
+ worker_thread+0x92d/0xe10 kernel/workqueue.c:3486
+ kthread+0x388/0x470 kernel/kthread.c:436
+ ret_from_fork+0x514/0xb70 arch/x86/kernel/process.c:158
+ ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:245
+ </TASK>
+
+Fix this by moving the queue_work() call in hci_register_dev() to after
+idr_init(&hdev->adv_monitors_idr) and msft_register(hdev) so that device
+structures and extensions are fully initialized before asynchronous tasks
+can access them. Additionally, assign hdev->msft_data in msft_register()
+only after mutex_init(&msft->filter_lock) has completed.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://git.kernel.org/stable/c/57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18
+- https://git.kernel.org/stable/c/593e64f64a20b25e4042c3ee863119eb7f991785
+- https://git.kernel.org/stable/c/a11ebe8dc0333fb870bbbb656b34690e87ee3f98
+- https://git.kernel.org/stable/c/b1faf348c29e6f8302ec7769cbf1c1ef05be014f
+- https://git.kernel.org/stable/c/d427b1c71d9798083e954d3c13469dc0a2305868
+
+---
+
+#### 1368. CVE-2026-49933
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+**受影响产品 / Affected Products**: google:android
+
+**漏洞描述 / Description**:
+In handle_le_monitor_device_event of msft.cc, there is a possible control-flow hijack in the privileged bluetooth process due to an uninitialized pointer dereference. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+**补丁信息 / Patch Info**:
+Apply patch from vendor. Monitor https://source.android.com/docs/security/bulletin/2026/2026-10-01.
+
+**参考链接 / References**:
+- https://source.android.com/docs/security/bulletin/2026/2026-10-01
 
 ---

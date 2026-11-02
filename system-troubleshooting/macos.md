@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10210**
+**总计条目 / Total entries: 10307**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -137031,5 +137031,1266 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241687#reply5
+
+---
+
+#### 10211. Why does Homebrew warn "We do not provide support for this platform (as-of September 2026, announced August 2025)." when installing on an Intel Mac?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, homebrew | Score: 14 | Views: 2830 | Answers: 1 | Created: 2026-09-10
+
+**解决方案 / Solution**:
+What exactly does this warning mean? This warning indicates that the volunteer team behind Homebrew has officially ended bug testing, continuous integration (CI), and binary package generation (bottles) for macOS running on Intel x86_64 architecture. This shift effectively moves all Intel Macs to "Tier 3" (unsupported) status. This is a downstream effect of infrastructure deprecations from the platforms Homebrew relies on: Apple : Apple has dropped support for Intel Macs (Intel x86_64 architecture) for upcoming macOS releases (starting with macOS 27 Golden Gate). Apple has also communicated to third-party app developers that they can now skip building for the Intel platform when submitting apps to the Mac App Store. GitHub Actions : GitHub is deprecating the macOS Intel x86_64 runner images on the GitHub Actions cloud platform, which Homebrew uses to compile code. GitHub is aiming for complete removal in 2027. Homebrew originally planned to phase out Intel support later in September 2026, but catastrophic performance issues with their Intel CI infrastructure—where virtual machines were taking over 10x longer to complete setups and creating massive build backlogs—forced the maintainers to disable the runners ahead of schedule. Because Homebrew is maintained by volunteers, they cannot support platforms that the world's largest tech companies have abandoned. Is it still safe to install formula and GUI apps (Casks) using Homebrew on Intel Macs? Yes, existing installations will continue to run, and brew will still attempt to fetch and install packages. However, your experience will vary significantly depending on whether you are installing a Cask or a Formula: For GUI Applications ( brew install --cask <app> ) : Casks are typically pre-compiled .dmg , .pkg , or a .zip archives hosted directly by upstream developers. As long as the original developer distributes a universal binary or an Intel x86_64 build, the installation will generally succeed. Homebrew merely automates the download and unpacking. For Command-Line Tools ( brew install <formula> ) : This is where the deprecation has an immediate, severe impact. Homebrew previously built and hosted pre-compiled binaries (bottles) via CI runners. Because Intel runners are disabled, newly updated formulae no longer provide bottles for Intel. Homebrew must fall back to compiling the software and all its dependencies from source directly on your machine. This significantly increases installation and update times and frequently leads to build failures. Maintenance & Bug Reports : Homebrew maintainers no longer accept bug reports, triage issues, or write patches for failures occurring on Intel x86_64 hardware. Is there any way to suppress or disable this message? No, there is no built-in Homebrew environment variable to toggle this specific warning off. Because using an unsupported system is a critical platform diagnostic, this warning is intentionally hardcoded to display on unsupported hardware so users understand why packages might suddenly fail to build. While command-line power users could technically hide the message by redirecting the terminal's standard error output (by appending 2>/dev/null to their commands), this is highly discouraged . Doing so will completely silence legitimate dependency errors, curl network failures, and the necessary sudo password prompts required to install many Casks. If you require robust, actively maintained package management on your Intel Mac moving forward, the Homebrew team explicitly recommends migrating to MacPorts , which continues to maintain support for the macOS Intel x86_64 architecture. Relevant online discussions: macOS Golden Gate - Wikipedia Golden Gate drops support for all Macs with an Intel CPU, including the Mac Pro (2019), the MacBook Pro (16-inch, 2019), the MacBook Pro (13-inch, 2020, four Thunderbolt 3 ports), and the iMac (2020), ending support for x86-64 processors. Intel-based applications will still be able to be used with Rosetta 2. Homebrew GitHub Discussion #7044: "no bottle available!" (macOS Intel is now disabled in CI) As of 2026-08-28, the macOS Intel CI runners (building bottles for macOS Intel) were disabled , due to them "having serious issues". This means that bottles (ie pre-built packages) for macOS Intel are no longer being produced for updated packages, effectively moving macOS Intel to Tier 3 slightly ahead of schedule. As announced a year ago, and a few times more recently, macOS Intel was expected to move to Tier 3 (no CI / builders) " in or after September 2026 ". Homebrew GitHub Discussion #7046: Brew install openssl@3 - Reporting 'no bottle available' We had planned on dropping this later in September but we were unable to resolve catastrophic issues with our Intel CI infrastructure causing all builds to take >=10x as long and delaying all other builds. As a result, we needed to turn it off earlier.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487053/why-does-homebrew-warn-we-do-not-provide-support-for-this-platform-as-of-septe
+
+---
+
+#### 10212. Are files in iCloud accessible from Terminal utilities when they are “optimized” and not local?
+
+**问题描述 / Problem Description**:
+Tags: macos, icloud, command-line, backup | Score: 8 | Views: 474 | Answers: 1 | Created: 2026-10-20
+
+**解决方案 / Solution**:
+Files stored in iCloud Drive appear opaquely with their original size, format, and date metadata. When attempting to read the contents of a file in your iCloud Documents from a command line utility such as cp or rsync , the operation will block until the file is downloaded. This behavior is verified in macOS Golden Gate. When listing files in a directory, you will not see any placeholders. This may have been for an older implementation of iCloud Drive. This is very convenient and works well with how I use my system. The brctl utility, a tool for managing the CloudDocs daemon , may be used to perform manual operations on files stored in iCloud. Download a file: brctl download FILE Remove a local download: brctl evict FILE Monitor download status continually: brctl monitor FILE observing in [...] for the docs|data|external scope(s) 2026-10-20 19:02:48 +0000 total:... o /FILE ☁ not downloaded 2026-10-20 19:03:03 +0000 total:... updated:1 o /FILE ☁ ↓ Zero KB 0.0% not downloaded 2026-10-20 19:00:04 +0000 total:... updated:1 o /FILE ☁ Monitor and finish immediately after the status is returned: brctl monitor FILE | head -n3
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/488253/are-files-in-icloud-accessible-from-terminal-utilities-when-they-are-optimized
+
+---
+
+#### 10213. Does Rosetta become uninstalled after updating to macOS 27.0?
+
+**问题描述 / Problem Description**:
+Tags: macos, apple-silicon, rosetta-2 | Score: 8 | Views: 1192 | Answers: 1 | Created: 2026-09-18
+
+**解决方案 / Solution**:
+Looks like this was a bug in 27.0 . macOS 27.2 properly reinstalls Rosetta if it was already installed before the upgrade. Rosetta gets removed when upgrading to macOS 27, and needs to be reinstalled either by clicking on the "Install" button in the dialog box shown when starting an Intel-based application, or by running softwareupdate --install-rosetta in Terminal. PS: With macOS 28, Intel support will be limited to legacy Intel-based games (details unknown yet).
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487101/does-rosetta-become-uninstalled-after-updating-to-macos-27-0
+
+---
+
+#### 10214. How to prevent Firefox's tendency to lock scrolling to an orthogonal axis?
+
+**问题描述 / Problem Description**:
+Tags: macos, firefox, scrolling | Score: 7 | Views: 353 | Answers: 1 | Created: 2026-10-19
+
+**解决方案 / Solution**:
+Set apz.axis_lock.mode to 3 in about:config . This is the workaround recommended by Firefox developer Hiroyuki Ikezoe in comment 3 of your bug report , and confirmed by Botond Ballo in comment 4. Open about:config and accept the warning if prompted. Search for the existing preference apz.axis_lock.mode . Edit its numeric value to 3 and save it. Test the trackpad on a pinch-zoomed page with room to scroll both horizontally and vertically. This restores the axis-locking behaviour shipped in Firefox 153 and earlier , rather than reproducing Firefox 155 exactly. The version distinction matters. Ballo's explanation in comment 4 identifies two separate changes: Firefox 154 deliberately changed axis locking on Mac, while Firefox 156 corrected DPI handling, making the lock harder to break on Retina displays. The latter matches your 155-to-156 bisection. Mode 3 was unaffected by that DPI change, which is why it is a useful workaround despite reverting to an older behaviour. To undo the override, use the Reset arrow beside that preference in about:config ; this restores your installed Firefox version's default.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941043/how-to-prevent-firefoxs-tendency-to-lock-scrolling-to-an-orthogonal-axis
+
+---
+
+#### 10215. Does MacBook Air 2020 silicon M1 have HDMI capability?
+
+**问题描述 / Problem Description**:
+Tags: macbook-pro, hdmi | Score: 5 | Views: 583 | Answers: 1 | Created: 2026-09-30
+
+**解决方案 / Solution**:
+You can look at your Mac and see physically there is no HDMI sized port anywhere externally. Your hardware is fully capable of sending audio and visual information at 6k (check with the site what resolution their HDMI cable and setup can provide) and there is no internal HDMI connection even if you could somehow route a cable inside. One external display with up to 6K resolution at 60Hz Thunderbolt 3 digital video output Native DisplayPort output over USB-C VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) You can confirm this from the specifications page for your exact model at Apple.com and from the system information on macOS. Apple sales will sell you several HDMI adapters that are compatible with your Mac or you can shop for an adapter that connects to either USB-C or Thunderbolt (or get a hub) into which you can connect HDMI. Maybe bring two if your speaking engagement is high importance and high profile. Ask the team when you can rehearse on site with the actual setup and cables / hardware would be my advice. You need to think about sound and visual if you are sending HDMI audio through the same connection or you just present visual and don’t care about sound from your Mac.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487158/does-macbook-air-2020-silicon-m1-have-hdmi-capability
+
+---
+
+#### 10216. How can I open this file? Message: '"<file_name>" Not Opened. Apple could not verify file_name is free of malware...'
+
+**问题描述 / Problem Description**:
+Tags: macos, security, data-transfer, file | Score: 3 | Views: 901 | Answers: 2 | Created: 2026-09-21
+
+**解决方案 / Solution**:
+Open "System Settings" > Privacy & Security > Security . Under "<file_name>" was blocked to protect your Mac. , click Open anyway . In the next window, click Open anyway again. In the next window, enter your password or use Touch ID. In my case, this enabled me to open not only this specific file, but also other files with the same extension (here, *.csv ). This whole procedure has to be done only once. See also: How can I tell Gatekeeper not to check (downloaded) files with a specific extension? References: How to verify Files are Free of Malware on Mac - Apple Community How to Open a Blocked macOS App ("Apple Could Not Verify" Fix)
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487116/how-can-i-open-this-file-message-file-name-not-opened-apple-could-not-ve
+
+---
+
+#### 10217. How can I disable the visible icon showing Siri Apple Intelligence in macOS when highlighting text?
+
+**问题描述 / Problem Description**:
+Tags: macos, mac, siri, apple-intelligence, macos-golden-gate | Score: 3 | Views: 633 | Answers: 2 | Created: 2026-09-15
+
+**解决方案 / Solution**:
+This is "writing tools", where Siri can insert slop directly into any text field. Although "Apple Intelligence" can no longer be disabled system-wide, you can still disable these via System Settings → Screen Time → Content & Privacy → (Toggle on "Content & Privacy" so you can set up restrictions) → Siri → Writing Assistance A similar setting exists on iOS.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487082/how-can-i-disable-the-visible-icon-showing-siri-apple-intelligence-in-macos-when
+
+---
+
+#### 10218. Why isn't my MacBook Neo allowing me to run the native resolution of 2048x1536?
+
+**问题描述 / Problem Description**:
+Tags: macos, display, hdmi, external-display | Score: 3 | Views: 392 | Answers: 2 | Created: 2026-09-08
+
+**解决方案 / Solution**:
+My best guess is that because of the pixel clock limits advertised in the EDID, the GPU driver or so of the neo filters out the native resolution of the monitor even when it is advertised in a Detailed Timing Descriptor (DTD). While the pixel clock required for 2048x1536@60Hz is at most around 270MHz (and around 200MHz like the value in the DTD with "reduced blanking"), my theory is that maybe the logic in the driver is "stepped", meaning that e.g. if the limit advertised in the EDID is less than 340MHz (which is AFAIK the spec limit of HDMI 1.3 - 1.4), the driver will consider the HDMI port of the monitor is a HDMI 1.2 or earlier one, and hence filtering out timing that is not supposed to be supported given the respective pixel clock limit (which is 165MHz). (It might be worth mentioning that while the EDID format allows more than the two possible limits, I don't really see any reason for a monitor to advertised any other value like yours, especially in the Vendor-Specific Data Block (HDMI), OUI 00-0C-03 . So the driver might even do something like IF limit == 340MHz THEN port IS 1.3 or later ELSE port IS 1.2 or earlier and filter out timing based on the value of port . In other words, the same problem might even occur if a monitor advertised a limit of e.g. 400MHz. Monitor supports HDMI 2.0 or later will have an extra Vendor-Specific Data Block with a different OUI ( C4-5D-D8 ) btw, advertising a pixel clock limit of e.g. 600MHz.) (And btw, while very likely the neo does not support the apparently on-paper-only HDMI alt mode, and even if it does it's very unlikely your USB-C to HDMI dongle / docking will leverage that, I wouldn't be too surprised the OS / driver will try to "find out by some means" what type of sink port is actually being used. For example, one will usually see subconnector: HDMI in xrandr --props in Linux even when DP alt mode is being used by a USB-C to HDMI dongle / docking. Therefore I won't be too surprised that the OS / driver will performing filtering mentioned above even when DP alt mode is being used.) Here is the edid-decode output of the EDID dump you provided with the respective pixel clock limits (and checksums) modified. edid-decode (hex): 00 ff ff ff ff ff ff 00 53 34 10 64 10 64 00 00 19 21 01 03 80 3c 22 78 ee ee 91 a3 54 4c 99 26 0f 50 54 a5 4b 00 e1 40 d1 00 71 4f a9 40 81 80 77 80 01 01 01 01 14 50 00 96 80 00 09 60 30 20 35 00 55 50 21 00 00 1a 00 00 00 ff 00 48 44 4d 49 0a 20 20 20 20 20 20 20 20 00 00 00 fc 00 48 44 4d 49 0a 20 20 20 20 20 20 20 20 00 00 00 fd 00 38 56 1e 71 22 00 0a 20 20 20 20 20 20 01 b8 02 03 28 f1 4f 10 04 04 03 02 04 04 01 04 1f 12 13 20 21 22 23 09 07 07 83 01 00 00 67 03 0c 00 10 00 38 44 e3 05 03 01 02 3a 80 18 71 38 2d 40 58 2c 25 00 55 50 21 00 00 1e 01 1d 80 18 71 1c 16 20 58 2c 25 00 55 50 21 00 00 1e 01 1d 00 72 51 d0 1e 20 6e 28 55 00 55 50 21 00 00 1e 8c 0a d0 8a 20 e0 2d 10 10 3e 96 00 55 50 21 00 00 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ec ---------------- Block 0, Base EDID: EDID Structure Version & Revision: 1.3 Vendor & Product Identification: Manufacturer: TYT Model: 25616 Serial Number: 25616 (0x00006410) Made in: week 25 of 2023 Basic Display Parameters & Features: Digital display Maximum image size: 60 cm x 34 cm Gamma: 2.20 DPMS levels: Standby Suspend Off RGB color display Default (sRGB) color space is primary color space First detailed timing is the preferred timing Color Characteristics: Red : 0.6396, 0.3300 Green: 0.2998, 0.5996 Blue : 0.1503, 0.0595 White: 0.3125, 0.3291 Established Timings I & II: IBM : 720x400 70.081663 Hz 9:5 31.467 kHz 28.320000 MHz DMT 0x04: 640x480 59.940476 Hz 4:3 31.469 kHz 25.175000 MHz DMT 0x06: 640x480 75.000000 Hz 4:3 37.500 kHz 31.500000 MHz DMT 0x09: 800x600 60.316541 Hz 4:3 37.879 kHz 40.000000 MHz DMT 0x0b: 800x600 75.000000 Hz 4:3 46.875 kHz 49.500000 MHz DMT 0x10: 1024x768 60.003840 Hz 4:3 48.363 kHz 65.000000 MHz DMT 0x12: 1024x768 75.028582 Hz 4:3 60.023 kHz 78.750000 MHz DMT 0x24: 1280x1024 75.024675 Hz 5:4 79.976 kHz 135.000000 MHz Standard Timings: GTF : 2048x1536 60.000000 Hz 4:3 95.340 kHz 266.952000 MHz DMT 0x45: 1920x1200 59.884600 Hz 16:10 74.556 kHz 193.250000 MHz DMT 0x15: 1152x864 75.000000 Hz 4:3 67.500 kHz 108.000000 MHz DMT 0x33: 1600x1200 60.000000 Hz 4:3 75.000 kHz 162.000000 MHz DMT 0x23: 1280x1024 60.019740 Hz 5:4 63.981 kHz 108.000000 MHz GTF : 1200x960 60.000000 Hz 5:4 59.640 kHz 95.424000 MHz Detailed Timing Descriptors: DTD 1: 2048x1536 60.366735 Hz 4:3 93.267 kHz 205.000000 MHz (597 mm x 336 mm) Hfront 48 Hsync 32 Hback 70 Hpol P Vfront 3 Vsync 5 Vback 1 Vpol N Display Product Serial Number: 'HDMI' Display Product Name: 'HDMI' Display Range Limits: Monitor ranges (GTF): 56-86 Hz V, 30-113 kHz H, max dotclock 340 MHz Extension blocks: 1 Checksum: 0xb8 ---------------- Block 1, CTA-861 Extension Block: Revision: 3 Underscans IT Video Formats by default Basic audio support Supports YCbCr 4:4:4 Supports YCbCr 4:2:2 Native detailed modes: 1 Video Data Block: VIC 16: 1920x1080 60.000000 Hz 16:9 67.500 kHz 148.500000 MHz VIC 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz VIC 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz VIC 3: 720x480 59.940060 Hz 16:9 31.469 kHz 27.000000 MHz VIC 2: 720x480 59.940060 Hz 4:3 31.469 kHz 27.000000 MHz VIC 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz VIC 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz VIC 1: 640x480 59.940476 Hz 4:3 31.469 kHz 25.175000 MHz VIC 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz VIC 31: 1920x1080 50.000000 Hz 16:9 56.250 kHz 148.500000 MHz VIC 18: 720x576 50.000000 Hz 16:9 31.250 kHz 27.000000 MHz VIC 19: 1280x720 50.000000 Hz 16:9 37.500 kHz 74.250000 MHz VIC 32: 1920x1080 24.000000 Hz 16:9 27.000 kHz 74.250000 MHz VIC 33: 1920x1080 25.000000 Hz 16:9 28.125 kHz 74.250000 MHz VIC 34: 1920x1080 30.000000 Hz 16:9 33.750 kHz 74.250000 MHz Audio Data Block: Linear PCM: Max channels: 2 Supported sample rates (kHz): 48 44.1 32 Supported sample sizes (bits): 24 20 16 Speaker Allocation Data Block: FL/FR - Front Left/Right Vendor-Specific Data Block (HDMI), OUI 00-0C-03: Source physical address: 1.0.0.0 DC_36bit DC_30bit DC_Y444 Maximum TMDS clock: 340 MHz Colorimetry Data Block: xvYCC601 xvYCC709 Gamut Boundary Description Metadata Profile P0 Detailed Timing Descriptors: DTD 2: 1920x1080 60.000000 Hz 16:9 67.500 kHz 148.500000 MHz (597 mm x 336 mm) Hfront 88 Hsync 44 Hback 148 Hpol P Vfront 2 Vsync 5 Vback 38 Vpol P DTD 3: 1920x540 60.053381 Hz 32:9 33.750 kHz 74.250000 MHz (597 mm x 336 mm) Hfront 88 Hsync 44 Hback 148 Hpol P Vfront 2 Vsync 5 Vback 15 Vpol P DTD 4: 1280x720 60.000000 Hz 16:9 45.000 kHz 74.250000 MHz (597 mm x 336 mm) Hfront 110 Hsync 40 Hback 220 Hpol P Vfront 5 Vsync 5 Vback 20 Vpol P DTD 5: 720x480 59.940060 Hz 3:2 31.469 kHz 27.000000 MHz (597 mm x 336 mm) Hfront 16 Hsync 62 Hback 60 Hpol N Vfront 9 Vsync 6 Vback 30 Vpol N Checksum: 0xec Unused space in Extension Block: 15 bytes Here is the hexadecimal string that you can pass to e.g. binascii.unhexlify() in python to obtain a modified EDID dump. 00ffffffffffff00533410641064000019210103803c2278eeee91a3544c99260f5054a54b00e140d100714fa940818077800101010114500096800009603020350055502100001a000000ff0048444d490a2020202020202020000000fc0048444d490a2020202020202020000000fd0038561e7122000a20202020202001b8020328f14f1004040302040401041f1213202122230907078301000067030c0010003844e3050301023a801871382d40582c250055502100001e011d8018711c1620582c250055502100001e011d007251d01e206e28550055502100001e8c0ad08a20e02d10103e9600555021000018000000000000000000000000000000ec Only four bytes have been modified. Here is the output of cmp -l : 118 36 42 128 274 270 164 75 104 256 363 354 P.S. But yeah this is all just wild guessing. The main point of this answer is just to provide you a EDID that has been modified appropriately as per my theory. Another btw: one explanation / wild guess from me for over USB C the surface pro 7 does not do the full native resolution is that perhaps the USB-C port of the monitor (or whatever behind it, such as a USB-C/DP to HDMI converter chip) supports no better than HBR. Because the "data rate" (i.e. "bandwidth" minus the 8b/10b overhead) per lane of HBR is just 2.16Gb/s, and that the neo can only provide two lanes, the maximum data rate will merely be 4.32Gb/s, which is less than what is required for 2048x1536@60Hz at 8bpc (~4.53Gb/s). (In other words, it might not be "unexpected" that you can get better "performance" from the mini HDMI.) While I don't know how exactly DP works behind the scene, like whether it will only try to negotiate for a better transmission mode (e.g. HBR2) when it is necessary, your answer here happens to indicate that when you connect the neo to the USB-C port of the monitor, the neo only uses two lanes at HBR. (I wonder what the software will tell when you connect the neo to the mini HDMI.)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940217/why-isnt-my-macbook-neo-allowing-me-to-run-the-native-resolution-of-2048x1536
+
+---
+
+#### 10219. How can I connect a modded iPod Classic (iFlash Quad and Rockbox) in terminal from a M1 Mac Mini to sync data?
+
+**问题描述 / Problem Description**:
+Tags: macos, command-line, external-disk, ipod, ipod-classic | Score: 2 | Views: 101 | Answers: 1 | Created: 2026-09-16
+
+**解决方案 / Solution**:
+The disk identifiers are presented in the wrong sequence for some reason, so your mount attempt is trying to mount what is presumably the Rockbox firmware from the first partition. The mount command should read as the following to access your iPod partition: sudo mount -t msdos /dev/disk5s1 /Volumes/iPod
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487088/how-can-i-connect-a-modded-ipod-classic-iflash-quad-and-rockbox-in-terminal-fr
+
+---
+
+#### 10220. How can I change default tab navigation shortcuts in Firefox on macOS?
+
+**问题描述 / Problem Description**:
+Tags: macos, firefox | Score: 2 | Views: 297 | Answers: 1 | Created: 2026-06-07
+
+**解决方案 / Solution**:
+Thank Mozilla development for a new settings page: about:keyboard ! This exists in Firefox v. 151 for Windows and for Linux, and, hopefully, for macOS. In the screenshot, you can see I've gotten rid of shortcuts that opened new windows due to my fumble-fingering. Note the caveat that the feature is considered experimental, but so far, it works flawlessly for me in both OSes. There still appear to be some hard-coded keyboard shortcuts, though. For example, Ctrl L , shown in about:keyboard , and Alt D , which is not, both set focus on the URL bar (i.e., Open location... ). Not a problem, but perhaps a future version will eliminate the extra, immutable, shortcuts.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1938255/how-can-i-change-default-tab-navigation-shortcuts-in-firefox-on-macos
+
+---
+
+#### 10221. Can you change the timeout between display-disconnect and window-rearrangement?
+
+**问题描述 / Problem Description**:
+Tags: macos, display, defaults, multiple | Score: 1 | Views: 87 | Answers: 1 | Created: 2026-09-21
+
+**解决方案 / Solution**:
+As far as I know there's no defaults key for that delay. WindowServer moves the windows as soon as a display drops off, and Apple doesn't expose a timer for it. What helps in practice: Stop the display from dropping off. Many monitors fully disconnect when they sleep (look for "DisplayPort deep sleep", "auto input select" or a power saving option in the monitor's own menu). With that off the display stays connected, so macOS never moves anything. Take the third display off the dock. Docks that bring displays back one at a time are a common trigger. A direct cable for one of the three often fixes it. Put the windows back after the shuffle. displayplacer fixes the arrangement if that swaps too, and apps like Stay, Display Maid or Resettle move the windows back. Disclosure: I make Resettle . It remembers where windows go for each display setup and ignores the moment the displays are changing, so a shuffle on wake doesn't overwrite your layout. One caveat for your setup: it can only move windows on the Spaces currently showing, so windows on your other desktops may still need a hand.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/487114/can-you-change-the-timeout-between-display-disconnect-and-window-rearrangement
+
+---
+
+#### 10222. Authentication failed when connecting to MacOS host with Xpra
+
+**问题描述 / Problem Description**:
+Tags: homebrew, ssh, x11 | Score: 1 | Views: 202 | Answers: 1 | Created: 2025-06-30
+
+**解决方案 / Solution**:
+I know nothing about Xpra, but according to an issue on GitHub, the authentication failure arises from the fact that it uses its own SSH client to connect to the server. If the system-wide SSH client is able to connect, you can use it by appending --ssh=ssh to the command line. Apparently this worked for the OP, although he now seems to have a PATH problem. I speculate that Xpra expects more of the local environment to be reproduced on the remote host than ssh allows by default.
+
+**参考链接 / References**:
+- https://apple.stackexchange.com/questions/480574/authentication-failed-when-connecting-to-macos-host-with-xpra
+
+---
+
+#### 10223. macOS has gotten objectively worse and people are denying this fact
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlzfmz/macos_has_gotten_objectively_worse_and_people_are/
+
+---
+
+#### 10224. Apple Mail on the Mac is really starting to annoy me. What alternative do you use, and why?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm6u01/apple_mail_on_the_mac_is_really_starting_to_annoy/
+
+---
+
+#### 10225. Apple - Fix this Abomination
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xltep0/apple_fix_this_abomination/
+
+---
+
+#### 10226. macOS tricks I wish someone had shown me on day one
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlp5cb/macos_tricks_i_wish_someone_had_shown_me_on_day/
+
+---
+
+#### 10227. I finally understand stage manager and now I love it
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm1lfq/i_finally_understand_stage_manager_and_now_i_love/
+
+---
+
+#### 10228. MacOS having a lot of bugs after 27.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm0pln/macos_having_a_lot_of_bugs_after_272/
+
+---
+
+#### 10229. This has to end
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlxjxq/this_has_to_end/
+
+---
+
+#### 10230. How do I completely remove leftover Facebook and Messenger files from my MacBook?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm78bw/how_do_i_completely_remove_leftover_facebook_and/
+
+---
+
+#### 10231. MacOS dock Bug
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm2zh2/macos_dock_bug/
+
+---
+
+#### 10232. It would be great if someone would set up a searchable public macOS bugs database, where people could report bugs, and where possible workarounds could be posted.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xmahmz/it_would_be_great_if_someone_would_set_up_a/
+
+---
+
+#### 10233. Workaround for problem with my Mac mini
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xmabnm/workaround_for_problem_with_my_mac_mini/
+
+---
+
+#### 10234. iMac Pro 2017, Sequioa 15.7.4
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm9izh/imac_pro_2017_sequioa_1574/
+
+---
+
+#### 10235. Finder App Shortcuts – why do some number keys work and others don't?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm851u/finder_app_shortcuts_why_do_some_number_keys_work/
+
+---
+
+#### 10236. SEP Panic: :sks,crashing on update, crash when discord is open from sleep, and DFU issues.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm6ryj/sep_panic_skscrashing_on_update_crash_when/
+
+---
+
+#### 10237. USB-c to hdmi cable not working?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm6qvy/usbc_to_hdmi_cable_not_working/
+
+---
+
+#### 10238. macbook stuck on update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm6if9/macbook_stuck_on_update/
+
+---
+
+#### 10239. Dual-Booting macOS vs Second Laptop
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm5fsq/dualbooting_macos_vs_second_laptop/
+
+---
+
+#### 10240. Spotlight on Golden Gate
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm4nwf/spotlight_on_golden_gate/
+
+---
+
+#### 10241. Deleting Parallels- giant file?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm2xby/deleting_parallels_giant_file/
+
+---
+
+#### 10242. What do you say?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlrpj8/what_do_you_say/
+
+---
+
+#### 10243. You can disable window animations introduced in 26 Tahoe
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlwsuk/you_can_disable_window_animations_introduced_in/
+
+---
+
+#### 10244. Multiple notifications do not bundle anymore?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xlu6wz/multiple_notifications_do_not_bundle_anymore/
+
+---
+
+#### 10245. GNUPG MacOS
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm2lry/gnupg_macos/
+
+---
+
+#### 10246. need help deleting ios simulator files
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xm2h24/need_help_deleting_ios_simulator_files/
+
+---
+
+#### 10247. I've been using macOS for years and only just discovered this 😂
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xkv0q2/ive_been_using_macos_for_years_and_only_just/
+
+---
+
+#### 10248. [V2EX] prowl 的 Finder 工具栏快速打开按钮，方便用 prowl 的快速从 Finder 跳入。
+
+**问题描述 / Problem Description**:
+最近挺喜欢用 prowl 的多窗口分隔功能，但是无奈它不能拖动文件夹，做了个小工具。 https://github.com/SLboat/OpenInProwl
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253971#reply0
+
+---
+
+#### 10249. [V2EX] /usr/libexec/storagekitd 损坏 mac 硬盘，定位 bug
+
+**问题描述 / Problem Description**:
+写入字节 读取字节 1.06 TB 1.00 TB 开机四天，重启后依旧。 === sudo fs_usage -w -f filesys storagekitd A2CE-4341-B968-6C49B0163293/Wallpaper.png 0.000210 W storagekitd.16438 10:11:14.852443 WrData[AN] D=0x0e75c770 B=0x100000 /dev/disk3s2 /System/Volumes/Preboot/544A5353-A153-4E54-90DA-F0B49A53091E/var/db/./Wallpapers/C6
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253909#reply0
+
+---
+
+#### 10250. [V2EX] Omni-Stacks Alfred 插件分享 - 仅面向 Stacks2 用户
+
+**问题描述 / Problem Description**:
+Omni-Stacks.workflew 发布页 业务逻辑 UI 交互 接口实现 文档 永久买断制本地看板软件 Stacks2 的 Alfred5 插件 25 年发布过 beta 半成品 插件自用 若 v 友同样是 Stacks2 深度用户 可进行安装体验 若 针对 Trello 国内体验差, 数据只能在线使用看板用户,或许可以考虑考虑 Stacks2 Stacks2 在国内的用户数量 我 和开发者交流 说是比较少的,近两年增多, 但社区一致没有人为 Stacks2 制作 Alfred 插件. 那我就完成这一步. 核心功能 均走 插件内的二进制文件实现, 插件仅负责 接收用户输出 预处理 和
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253877#reply0
+
+---
+
+#### 10251. [V2EX] Howler - 随叫随到，阅后即焚
+
+**问题描述 / Problem Description**:
+Howler - 随叫随到，阅后即焚 灵感源于《哈利·波特》中的嚎叫信和最近一直在用的辞达 除了随时需要翻译以外，我经常会有想要临时查一个概念、了解一个事件，而又不想切到浏览器或者 Chat 中开一个独立 session 的时候 因此有了这个献给哈迷、随叫随到、阅后即焚的 Howler 🥳 它和常规的会话不同，不会占用你的会话列表，你也不用事后去考虑清理或者归档它，它只用来处理你的灵机一动或者某个瞬间的疑惑 配置很简单，复制粘贴提示词给你的 agent 即可 目前支持 Claude / OpenAI / Gemini / Deepseek 等 API 有兴趣的朋友欢迎体验和反馈👏 十分感谢 任
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253790#reply3
+
+---
+
+#### 10252. [V2EX] 给 Ghostty 写了两个工具为生命节省几秒
+
+**问题描述 / Problem Description**:
+我自己是 Alfred 和 Ghostty 的重度用户，尤其是使用 Coding Agent 时会开多个 tab/分屏多任务并行。这就面临着切换 tab/分屏的麻烦。正好 Ghostty 1.4.0 之后简单很多，所以就写了 Alfred 的 workflow 。 也分享给大家，欢迎反馈和吐槽。 一个 Alfred workflow：alfred-ghostty - 在 Alfred 里搜索并跳转 Ghostty 的所有 tab 和分屏 https://github.com/addozhang/alfred-ghostty 。我不用 Raycast 不过还是给那边的一个插件提了 PR 实现用样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253651#reply3
+
+---
+
+#### 10253. [V2EX] Yabai Alfred 插件分享
+
+**问题描述 / Problem Description**:
+Yabai Aflred 插件分享 启动、重启、停止和检查 yabai 显示当前 yabai 版本 列出当前显示/空间中的进程和窗口 忽略或取消忽略应用程序并在~/.yabairc 中保存规则 兼容官方 yabai 和 macOS 27 分支 支持 asmvik/yaba 和 Christian-SC26/yabai (Mac11 ~ Mac27)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253567#reply0
+
+---
+
+#### 10254. [V2EX] 受不了目录半天点不开的 bug，升 27.2 不知道有没有解决
+
+**问题描述 / Problem Description**:
+目录半天点不开，这 bug 都会出现，Ternus 服了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253304#reply3
+
+---
+
+#### 10255. [V2EX] 推荐一款日常打字聊天就可以顺便学习英语的工具
+
+**问题描述 / Problem Description**:
+Glint 是一个 macOS 工具，把中文输入法候选变成英文记忆入口。用简体拼音正常打字，候选旁会显示对应英文。 不替换输入法，也不改变输入方式。在微信、飞书、邮件和文档里输入中文时，高频词语、短语和短句会反复和英文对应出现，通过日常打字不断增强英文记忆。 功能： 支持单词、短语和短句，显示简洁翻译； 候选停留后才出现，快速连续输入不会打断； 可设置快捷键，把英文译文直接插入当前输入位置； 本地词典和模型推理，日常使用无需联网； 只读取输入法候选，不监听普通键盘输入，安全输入场景自动跳过。 要求 macOS 26+、Apple Silicon ，首次运行需要辅助功能权限。 GitHub： h
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253095#reply111
+
+---
+
+#### 10256. [V2EX] 解决 macbook 苹果十年不修的 Bug 蓝牙不休眠， BlueNap (蓝憩)
+
+**问题描述 / Problem Description**:
+当你在 AirPods 连接好 Macbook 蓝牙。 休眠中的 Macbook 经常会因系统后台维护（ Power Nap 、网络唤醒）意外“抢连”蓝牙耳机，打断你的手机听歌通话，或在背包中悄悄耗尽耳机电量。 推荐一个应用：BlueNap (蓝憩) 当 Mac 进入休眠后，自动断开指定蓝牙音频配件或优雅关闭蓝牙电源。手机正在播放的音乐不再被休眠电脑骤然切走，配件待机电量不再被无端消耗。 也支持 像 iPhone 一样 ，根据 SSID 自动切换静态 IP 智能绑定。特别是你在家里和公司使用 MacBook 时。 开源地址： https://github.com/jorchford/BlueN
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253027#reply3
+
+---
+
+#### 10257. [V2EX] 红果开源播放器：专为桌面端打造的跨平台短剧播放利器
+
+**问题描述 / Problem Description**:
+在 macbook 上看红果视频，效果还不错： https://github.com/zfdang/hongguo-open-player 🎬 红果开源播放器 (Hongguo Open Player) 专为桌面端打造的跨平台短剧播放利器，告别笨重模拟器，畅享纯净、极致的沉浸式短剧观影体验。 📖 项目简介 红果开源播放器 是一款支持 macOS 与 Windows 的原生短剧桌面客户端。通过本地流媒体代理与轻量级客户端架构，突破传统网页限制与安卓模拟器的性能开销，为您带来丝滑流畅的大屏追剧体验。 ✨ 核心亮点 🍿 免模拟器直连秒播 ：无需安装庞大的安卓模拟器，开箱即用，原生极速起播。 ⚡ 本地
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252943#reply9
+
+---
+
+#### 10258. [V2EX] 腾讯柠檬清理 Tencent Lemon，电脑上大量 log 是你小子干的？
+
+**问题描述 / Problem Description**:
+/private/var/db/diagnostics/Special 这个目录里一大堆 .tracev3 文件 而且增长飞快，占了几个 G 。 让 GPT6 查了一下，给我的回复是： 我查到了一个明确的日志来源：控制台里反复出现 Tencent Lemon Lite 的沙盒拒绝记录，内容是它尝试读取磁盘空间和网络接口信息，系统反复拒绝并记日志。它可能是近期日志增长的一个原因。可以先完全退出腾讯柠檬清理，观察日志目录接下来是否还快速变大。 不知道大家有没有遇到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252782#reply13
+
+---
+
+#### 10259. [V2EX] MacOS 26 的 Intel Mac 有啥 homebrew 的替代品吗？
+
+**问题描述 / Problem Description**:
+现在 brew 安装很多东西都需要在本地编译，本身 intel 的性能就不行，再本地编译安装非常慢，而且本地编译会出现各种奇怪的问题，MacPorts 包太少了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252769#reply5
+
+---
+
+#### 10260. [V2EX] 微信 Mac 版，新“左边栏”垃圾体验，我服了
+
+**问题描述 / Problem Description**:
+之前好好的，最新版“左边栏”变样了 以前都是独立窗口，现在整合在右侧，需要来回跳转，多点击好几下，我真服了，垃圾体验 btw：听说 windows 版也这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252671#reply1
+
+---
+
+#### 10261. [V2EX] 16 寸 mac 的分辨率大家都用哪个？
+
+**问题描述 / Problem Description**:
+以前没有刘海的 mac 一直用 1920x1200 的分辨率。 现在 16 寸带刘海的分辨率对应之前的是 2056x1329 （字太小，看的太累），显示所有分辨率改为 1920x1200 就变糊了。然后现在只能用默认的 1728x1117 ，这样显示内容就变少了。 大家都用的哪个分辨率？有没有让 1920x1200 不糊的方案啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252443#reply1
+
+---
+
+#### 10262. [V2EX] MacBook 连接妙控板，触控不灵敏
+
+**问题描述 / Problem Description**:
+有时候会有触摸时手指动了但是光标不动，你们使用妙控板的时候有遇到这种情况吗？有什么解决办法吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252248#reply3
+
+---
+
+#### 10263. [V2EX] 做了个 mac0S 菜单栏日历「历刻」: 农历、调休、连休助手, 上架半年来听听大家的意见
+
+**问题描述 / Problem Description**:
+各位 V 友好， 分享一个自己一直在做的 macOS 菜单栏日历，叫 历刻 。 历刻的第一个版本是在 2026 年 5 月 6 日上架 App Store 的，到现在已经迭代了快半年。 最开始做它的原因很简单：自己一直想要一个顺手的菜单栏日历，点开就能看农历、节气、法定节假日和调休安排，最好还能顺便管理系统日历里的日程。 这类工具其实已经有不少了，包括小历等，也给过我一些使用上的启发。但每个人的习惯不太一样，所以还是决定自己做一个，按照自己的使用习惯慢慢打磨。 这半年陆续加了不少功能，最近又做了一个自己挺喜欢的「连休助手」，想着来 V2EX 分享一下，也听听大家的意见。 基础功能 平时点一下菜
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252193#reply12
+
+---
+
+#### 10264. [V2EX] mac os 27.2 双屏显示问题
+
+**问题描述 / Problem Description**:
+任一界面开启全屏 另一屏幕就黑屏 是我这边的问题 还是大家都一样?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252137#reply24
+
+---
+
+#### 10265. [V2EX] 大家的程序坞放哪里？
+
+**问题描述 / Problem Description**:
+底部？ 左边？ 右边？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252133#reply90
+
+---
+
+#### 10266. [V2EX] 做了款 HomeView 外形的桌面宠物，并将 CarPlay 带到 Mac 上
+
+**问题描述 / Problem Description**:
+写在前面 “👀”是我很喜欢的一个 emoji，可以用来表达兴奋和期待，同时唐老鸭是我最喜爱的卡通角色之一，一双灵动的大眼睛，呆萌呆萌的，可爱极了，私以为在 AI 时代拥有好奇心、释放想象力、发挥创造力、保持判断力和锻炼协同能力是至关重要的，希望 HomePlay 这只桌宠能带给大家一些乐趣。 有哪些功能呢 插线连接，然后无线。如同妙控系列配件一样的配对体验。 初步设计了十种表情和表面，旨在为平凡的日常注入一丝活力，帮助你收获更多平静、自在和从容。 稍微用力按下屏幕，就能在 Mac 桌面上获得连贯的 CarPlay 车载体验——与 iPhone Mirroring 不同的是，您可以通过 Mac
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1251967#reply1
+
+---
+
+#### 10267. [V2EX] 在外企英语不好天天切屏复制，写了个在任意 App 敲空格(快捷键)即瞬换的小工具
+
+**问题描述 / Problem Description**:
+在外企打工英语比较菜，日常全靠翻译苟着。 浏览器里的翻译插件挺好用，但一到桌面端（ Slack 、Teams 、邮件、终端）就全废了。每次都要：打中文 ➔ 复制 ➔ 切换去网页翻译 ➔ 复制英文 ➔ 切回来粘贴，一天切几十次屏实在心累。 市面上的划词翻译也大多只能看不能直接替，索性自己写了个小工具：SwaprTrans 。 核心用法： 1.选词即查：屏幕任意地方划选文本，快捷键看翻译； 2.打字即换：输入框打完中文划选，按回车直接原地替换成英文。不用切屏，手不用离开键盘。 基于 macOS 15 系统的本地端侧模型跑，纯离线，工作机密不上云； 兼有 Edge / Google 双通道自动兜底；
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1251742#reply41
+
+---
+
+#### 10268. [V2EX] 我是不是没用对 Apple TV？
+
+**问题描述 / Problem Description**:
+Apple TV 7 代 128G 买来差不多两年了，当时在京东花了 1200 左右。结果一直没怎么发挥作用，平时无非就是看看 YouTube 、夸克、IPTV ，偶尔打开哔哩哔哩，整体使用频率很低。 周末有空，给家里的 TCL 电视折腾了一下 Aerial ，换成了无广告、仿 tvOS 的 Android TV 桌面。实际用下来感觉还不错，界面很干净，IPTV 和夸克也都能正常使用。唯一的问题是 Android 版 YouTube 有点卡，不确定是电视性能还是梯子的问题。 现在我又把夸克账号接到了爱马仕，下载资源直接让它保存好，同时还接入了小爱同学。这么用下来，感觉电视本身已经能满足大部分需
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253902#reply17
+
+---
+
+#### 10269. [V2EX] Xcode27 有办法把模拟器文件迁移到外接硬盘吗。。
+
+**问题描述 / Problem Description**:
+模拟器越来越大了，而且 duo 似乎是单独的一份模拟器，跟直板机不是一份文件。。。 让 AI 试过 symlink 方式好像不行。。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253833#reply2
+
+---
+
+#### 10270. [V2EX] 除了 quanX Loon 和小火箭，大佬们还有推荐的代理工具不？
+
+**问题描述 / Problem Description**:
+不知道 clash mi 怎么样？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253559#reply32
+
+---
+
+#### 10271. [V2EX] Clubsim 能不能给香港区 apple 服务充值
+
+**问题描述 / Problem Description**:
+香港区 apple id 绑定了 clubsim 号开通了 apple music 和 fitness 试用，但是一个月后到期了要怎样续费？ clubsim 的 app 里也没有充值入口，请问这要怎么弄？（目前手上有大陆的万事达卡）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253535#reply12
+
+---
+
+#### 10272. [V2EX] ios 27 以后苹果手机也需要手动杀进程了? 起夜发现手机还剩 6% 的电, 让我彻底清醒了
+
+**问题描述 / Problem Description**:
+iphone 14, ios 27.2 小弟睡前手机还剩 30% 的电, 玩了会, 想着明早起床再冲吧. 起夜时发现只剩 6% 的电了. 在站内搜了一下, 说是咸鱼会后台播放音频保活, 这次是[京东] 小弟从买来手机就全局关闭了"后台应用刷新", 那个送外卖有反应的"实时活动"基本也是只要弹出来就会给应用关上. 请问大家现在用苹果手机时, 也和使用安卓手机一样玩完就手动上滑杀进程吗? 不是的话还有什么办法?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253506#reply24
+
+---
+
+#### 10273. [V2EX] 有没有用尾插的朋友， ios27 还生效吗？
+
+**问题描述 / Problem Description**:
+求推荐好用的尾插 或者有出的朋友也欢迎留言，谢谢。 ps 技术交流。打卡慎用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253487#reply7
+
+---
+
+#### 10274. [V2EX] apple 官网（美区）购买礼品卡可以用招行银行的 visa 卡支付吗？
+
+**问题描述 / Problem Description**:
+听说要美国账单地址？ 招行信用卡，支付有短信验证的，需要设置什么？ 据说很容易被风控？请一个可靠的方式
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253481#reply41
+
+---
+
+#### 10275. [V2EX] Loon 最近好像插件要闭源了球推荐 quanX 的规则和策略组，我不怎么用插件= =
+
+**问题描述 / Problem Description**:
+求大佬推荐干净简洁的规则分流和策略组
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253441#reply20
+
+---
+
+#### 10276. [V2EX] 给大家分享一下四款 ios 梯子软件的使用体验，我主要看哪个更省电
+
+**问题描述 / Problem Description**:
+我是自建梯子，所以只有一个节点(ss2022)，其余的 dns 设置，分流规则均一致。而且是 24 小时开启，基本不去打开程序页面。 以下是四款软件几个月来的耗电量以及稳定性体验： Qx：日常耗电 1%-3% ，软件稳定，但协议缺少太多，它本身支持的协议少，但如果是自建梯子，协议少本身不是什么大问题，然而 7 月开始 iPhone 不支持国外 app 推送，软件内又没有 代理 APNs 开关，这成了致命缺陷。作者始终不提供开关，收不到 tg 消息推送...... shadowrocket：日常耗电 3%-5% ，软件支持的功能多，更新及时，然而开启的时候，玩王者荣耀这类游戏，每隔 10 分钟左
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253420#reply32
+
+---
+
+#### 10277. [V2EX] MAC 触摸屏幕使用之后
+
+**问题描述 / Problem Description**:
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ 如图
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253372#reply9
+
+---
+
+#### 10278. [V2EX] Apple 智能即将登陆中国
+
+**问题描述 / Problem Description**:
+Apple 智能的首批核心功能包括实时翻译、照片 app 中的消除工具以及写作工具等，将于 11 月 4 日起开放测试 Apple 今日宣布，首批旨在进一步提升 iPhone 用户体验的 Apple 智能功能即将在中国推出。Apple 智能深度整合于用户日常使用的各种 app 与体验中，助力用户轻松书写、表达自我，并高效处理各项事务。Apple 智能由 Apple 构建的生成式模型驱动，帮助用户通过实时翻译功能跨越语言障碍；通过写作工具改写、校对和摘要；通过视觉智能快速了解身边事物的更多信息；通过消除工具去除照片中的干扰对象；通过智绘表情创作契合当下心境的新表情符号，以及更多其他功能。此外，A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253336#reply29
+
+---
+
+#### 10279. [V2EX] Loon 用可莉插件的注意一下，后续插件内容会被加密
+
+**问题描述 / Problem Description**:
+好像是有人不遵守协议肆意转发把作者搞生气了，然后 Loon 光速推出了之前的废案，现在允许插件加密了。我作为白嫖党很感谢大佬的贡献，不过后面我是真不敢用了... 当然有人说你平时也不看插件源码，对你有影响吗？这个例子就像路边的摄像头，我平时也没法看，但是我知道这么多用户里面总有几个盯着更新的（我身边知道的就有一个，从来不开自动更新，都是手动维护），而且在大众的监督下，做手脚的风险很低，也能追溯。后续插件全面加密之后，只能通过抓包分析流量来判断插件的内容了，就像把大街上的摄像头全拆了，一举一动全靠大家的良心。作者用爱发电了好几年，我也信任最近一段时间的插件肯定没有问题，就怕在用一两年之后，人总是
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253305#reply50
+
+---
+
+#### 10280. [V2EX] 不得不说，苹果最近几款产品都不尽如人意
+
+**问题描述 / Problem Description**:
+iPhone 数字系列的外观和外壳耐久度不行 Duo 的性能和质量不行 MBP 的触屏没什么卵用 ipad mini 价格来到当年 iPad Pro 的价位，为了追求所谓“等级森严”依然不给高刷，而普通版 iphone 却有高刷，自相矛盾，决策混乱。 iOS 系统迭代毫无新意，设计拉跨，安全性在 AI 时代岌岌可危
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253295#reply5
+
+---
+
+#### 10281. [V2EX] 13pm 升级到 18pm,流畅的一塌糊涂!
+
+**问题描述 / Problem Description**:
+如题,之前 13pm 电池 83 了,也不耐用了,系统 26,微信总是退出后台,扫个码打开要好久. 换了 18pm 以后,扫码秒开! 其他 app 也是德芙般丝滑. 太幸福了!
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253241#reply12
+
+---
+
+#### 10282. [V2EX] 暴论：新触屏 MacBook 就是给 折叠 MacBook Neo 铺路
+
+**问题描述 / Problem Description**:
+已知： 苹果不是全系换触屏，且触控功能在系统可以被关闭。维持原有模具的迭代表明是知道触屏不是一个大众需求 新 MacBook 的触屏并不好用。在受限的开合角度下，没有典型的“非用不可”的使用场景。 推论 触屏只是在临时状态下，保证电脑能用的最低底线。 触控能拓展移动应用（ mac 上使用 iPadOS/iOS 应用）的生态 结论 大概率就是为一个像华为 MateBook Fold 的折叠屏产品做准备。 猜测 用 faceID ，和 iPhone Duo 2 同期换屏下 faceID 键盘选购 换句话说，苹果从来不是不认同 iPadOS 和 macOS 应该合并在一起，而是不认同合并了之后卖 i
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253216#reply13
+
+---
+
+#### 10283. [V2EX] AppleTV 看不了国内的优爱腾，国际版的会员要另开，于是……
+
+**问题描述 / Problem Description**:
+用过 AppleTV 的都懂，体验不是安卓 TV 能比的 但国内的流媒体搞不定啊 于是用 gpt 、glm 写了个 AppleTV 的客户端和服务端 服务端跑在 windows 机器上，为啥？用于转发 windows 端的四大视频网站的 app 有人问为啥不用 web 接口？因为 web 接口没有 4K 、HDR 、杜比视界 看看客户端的截图先 重点的来了，怎么用呢？不想步 o'b'o'x 作者后尘，所以留着自用。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253203#reply76
+
+---
+
+#### 10284. [V2EX] App Store GPT Pro200 礼品卡续费，提示付款未完成，提交审核
+
+**问题描述 / Problem Description**:
+如题，从 100 升级到 200 ，礼品卡余额已经充好了，此前也一直订阅着 100 。 这次升级 200 ，直接提示我未完成需要审核了，咋办？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253183#reply1
+
+---
+
+#### 10285. [V2EX] magsafe 开裂了，你们都是怎么处理的？
+
+**问题描述 / Problem Description**:
+突然发现充电磁吸这里线有点脱落了，你们都是怎么处理的？给点建议
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253149#reply5
+
+---
+
+#### 10286. [V2EX] [FileMint] 全新的快捷键、粘贴内容功能上线
+
+**问题描述 / Problem Description**:
+经过两周的打磨，将 FileMint 的原始已有功能做了全面优化，也带来了两个有意思的功能： 全局快捷键 复制文件内容 最核心我最喜欢用的则是全局快捷键操作，参考了 Raycast 的交互思路，给文件相关操作带来了不一样的快捷体验，可以尝试！ 开源不易，希望大家多多点赞支持一下，谢谢～ 点赞入口： https://github.com/FileMintApp/FileMint
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253049#reply0
+
+---
+
+#### 10287. [V2EX] VirPulse 在 iPhone Duo 的真机实测来了
+
+**问题描述 / Problem Description**:
+视频讲解： https://b23.tv/fql88Nc 图片预览
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253016#reply6
+
+---
+
+#### 10288. [V2EX] 警告！分享淘宝截图可能给你带来危险！
+
+**问题描述 / Problem Description**:
+我因为把淘宝截图发给了别人，给我带来了很大的麻烦，现在自由了，但也不敢细说。 安卓的淘宝，版本是几个月前的。即使是纯色的页面，截图放大后会发现全屏使用了隐写技术。假如旧版本的截图体积是 0.5MB，新版本的截图就是 1MB+。 请大家传递这个信息，去投稿，不要让更多人倒霉。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253980#reply5
+
+---
+
+#### 10289. [V2EX] 我用 Rust 重写 Pi 编码助手，性能飙升 10 倍
+
+**问题描述 / Problem Description**:
+最近做了一个 Rust 项目： pi-rust 。把 TypeScript 版的 Pi 编码助手用 Rust 重写，命令叫 rpi ，性能和内容占用相对于原版都提升了很多。 为什么要用 Rust 重写？ 学习 Rust 首先就是想学 Rust 。我想找一个能持续写下去的项目。Agent 涉及异步请求、流式输出、文件操作和状态管理，后面还有终端界面和插件。这些需求会逼着我把 Rust 用起来：共享状态怎么处理，错误怎么往上传，异步任务怎么取消，接口怎么拆。选 Pi 来重写，也有一个好处：有现成的项目可以参考。遇到一个功能，可以先看原版怎么做，再考虑在 Rust 里怎么实现。写完以后还有东西可以对
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253973#reply2
+
+---
+
+#### 10290. [V2EX] 开源自托管播放器 wildstring，纯 AI 协助写的前端，求反馈
+
+**问题描述 / Problem Description**:
+最近用 AI 辅助写了一个开源自托管播放器 wildstring ，目前还在持续打磨中。项目地址： https://github.com/qingmuhy744/wildstring 主要特点： 自托管，数据完全自己掌控 支持常见媒体格式播放 前端大部分是 ChatGPT 协助写的，代码结构比较清晰 轻量，部署相对简单 目前还在 demo / 早期阶段，功能还在完善。欢迎大家提意见及 star ，有类似需求的朋友可以看看有没有用。 也欢迎直接提 issue / PR 。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253929#reply0
+
+---
+
+#### 10291. [V2EX] 奇怪的知识又多了一点儿
+
+**问题描述 / Problem Description**:
+看到一个有趣的新闻 "湖南发现比熊猫血还稀有的血型，名称叫“郴州市第三人民医院”" 乍一看，还以为是假新闻呢，去核查了下，确认是真事儿。 以后，“郴州市第三人民医院”就是一种血型名称了 @ _ @ 胖友，还有类似的有趣的知识吗？ 都分享下大家开开眼界呀 :-)
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253928#reply7
+
+---
+
+#### 10292. [V2EX] 红果上的 AI 短剧还是挺好看的
+
+**问题描述 / Problem Description**:
+比较有人气季数多的 AI 短剧，甚至你能看到模型能力确实在进化。感觉字节是不是飞轮已经转起来了。 另外最近下班后看短剧，导致没什么时间开发 App 。虽然进度明显变慢，但是感觉没那么心力交瘁了。下班再开发，还是很累啊。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253868#reply16
+
+---
+
+#### 10293. [V2EX] 即兴喜剧和 AI 很像？？
+
+**问题描述 / Problem Description**:
+即兴喜剧和生成式大语言模型出人意料地相似。 我副业是做即兴喜剧和脱口秀的。这两年，即兴喜剧、乱讲 PPT 在短视频和线下活动多了起来。 乱讲 ppt 的规则很简单，没有任何准备，随机给你一套 ppt ，你翻开第一页就得开始讲。 不能跳页，不能往回翻，不能停下来重来。 讲的事实对不对不重要，重要的是能串起来，一本正经的胡说八道，讲得通，讲得像，讲得顺。 我觉得 AI （生成式大语言模型）好适合做这件事啊，因为它本身就是一直在“即兴地想下一个词（ token ）”。AI 不是一次性想好一整段话，它是一个 token 一个 token 往外蹦的。 蹦出一个，接在前面，再蹦下一个。每一步，它都要在整个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253862#reply0
+
+---
+
+#### 10294. [V2EX] 可观测宇宙最让我吃惊的 AI 视频
+
+**问题描述 / Problem Description**:
+https://www.bilibili.com/video/BV1kZHK6VEgZ/ 我看的时候全程 wtf ，题材/美术/建模/光影/剧情/分镜等等都太让我觉得惊艳了 以前看 ai 视频总觉得有点小打小闹，总有股 ai 味 这个我是真的服了，一下子把这 UP 主的视频全刷了，核弹瘫坐.jpg 他究竟是怎么做到了，十分佩服
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253847#reply0
+
+---
+
+#### 10295. [V2EX] 21 年前的 QQ 客户端还能下载，真怀念啊
+
+**问题描述 / Problem Description**:
+腾讯 QQ2004 正式 sp1 版 http://dl_dir.qq.com/qqfile/qq2004sp1.exe ---------------------------------------------------- 腾讯 QQ2004II 正式 beta2 版 http://dl_dir.qq.com/qqfile/qq2004ii.exe ---------------------------------------------------- 腾讯 QQ2005 贺岁版 http://dl_dir.qq.com/qqfile/qq2005sf.exe --------------
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253810#reply3
+
+---
+
+#### 10296. [V2EX] 把之前摸鱼看的每日热榜加到 DSH 里了，边刷边监督 AI 干活
+
+**问题描述 / Problem Description**:
+[地址] https://github.com/awsezxcv/DS-NewsTop [简介] 19 个可选来源：按需勾选平台，调整后即时生效，默认展示其中 14 个。 卡片式布局：适应窗口宽度，各平台独立滚动，展示排名、更新时间和来源提供的热度信息。 小众软件最新发现：读取发现频道的 Markdown 页面，过滤“内容提交规则”，保留页面顺序中的前 10 条分享。 灵活刷新：支持单卡刷新、刷新全部，以及加载失败后重试；刷新失败时保留上一次内容。 三种配色：白天、黑夜、自动；自动模式跟随 DSH 当前主题，使用宿主的背景、文字和边框配色。 本地记忆：平台与配色偏好保存在当前 DSH 的本地浏
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253774#reply1
+
+---
+
+#### 10297. [V2EX] 在京东外卖点了一份鸡公煲，难吃到想提醒大家避坑
+
+**问题描述 / Problem Description**:
+想着京东外卖有优惠券，今天中午又正好想吃鸡公煲，就下单了一份“蹄花鸡公煲”。本来期待好好吃顿午饭，结果吃了几口，实在吃不下去。 蹄花的腥味很重，重到难以下咽；芹菜煮得过了火，软塌塌的，占了满满一大份，肉却没多少。 这顿饭吃下来，没感受到实惠，只剩下糟心。 吃不下去后，我点开商家的门头照片看了一眼：明显是专做外卖的店，照片里的环境观感也非常差，顿时更后悔下单前没仔细看看。 这样的用餐体验，也让我对京东外卖的商家审核和品质把关打了个问号。 优惠券确实能吸引人下单，但饭菜的味道和品质，才是让人愿意再点的理由。 这次踩坑，我认了。也提醒大家，尤其是在没点过的店铺下单时： 先看门头和店内实拍，了解一下店
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253760#reply26
+
+---
+
+#### 10298. [V2EX] 处理了一年的劳动纠纷，最近二审判决了，说一下个人感悟
+
+**问题描述 / Problem Description**:
+未见明确条款与签章前，切勿签字： 谈判时不要因顾虑离职证明或碍于情面而草率妥协。一旦落笔签字，事后想要撤回或推翻的法律门槛极高。即便决定接受协商条件，也必须确保金额明确，且双方当场签字盖章、人手一份原件。 放弃人情幻想，提前留存证据： 保持警惕心，不要瞻前顾后，不要因为表面关系不错就放松戒备，沟通时，能录音就录音。当初瞻前顾后、一味顾及情面；争端一旦埋下，终究难免对立，倒不如一开始就不念情面，守住自己的条件。 理性看待协商与诉讼的边界： 如果对方确有协商诚意、补偿对价明确，是可以考虑接受协商的，但前提是全部落实到书面协议上。打官司有理不一定赢，有证据也不一定赢。拿劳动争议来说，裁判时还会兼顾营
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253759#reply3
+
+---
+
+#### 10299. [V2EX] 分享一个 iPhone 远程锁 Mac+启动 UU 远程的方法
+
+**问题描述 / Problem Description**:
+之前离开自己的 Mac 之后，想确认 Mac 是否已经锁上，看到过 少数派发的这个文章 ，觉得很好用。 原理就是通过 iCloud 设备间专注模式的同步和快捷指令自动化。 现在多了一个需求，有时候想看看 Mac 上面 codex 运行咋样了，只需要修改一下这个自动化，专注模式改成 Locked 时，自动将 UURemote 拉起即可。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253732#reply0
+
+---
+
+#### 10300. [V2EX] 终于轮到我被封号了，顺便问下 argon
+
+**问题描述 / Problem Description**:
+两个 Claude 老号，网络环境一直很稳定，pure 检测全绿。去年年底一直用到现在都没事。 过了个周末，早上来两个号都被干了。 问一下大伙 Gemini 前端设计和思考能力怎么样，我现在有 codex pro20x 和 glmmax 订阅 这俩干活还行，搞页面和设计审美实在太拉胯了。 argon 有没有实测过的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253715#reply1
+
+---
+
+#### 10301. [V2EX] 有一说一， 360 杀毒功能真的强
+
+**问题描述 / Problem Description**:
+错信了某绒软件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253709#reply3
+
+---
+
+#### 10302. [V2EX] OpenCNC3D
+
+**问题描述 / Problem Description**:
+https://www.opencnc3d.com/ 基于 EA 公布的 C&C 源代码。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253685#reply3
+
+---
+
+#### 10303. [V2EX] 阿里云 Agent 开发者调研报告：近一半人立项在做，但还在持续迭代不到一成
+
+**问题描述 / Problem Description**:
+数据说明 《阿里云 2026 Agent 开发者调研报告》：已完成或开发中合计 46%，进入生产约 18%，持续迭代不到 10% 样本说明 来自北上广深等线下沙龙，有效问卷 1906 份；受访者以企业技术决策者、架构师、一线工程师和产品经理为主 报告原文 2026 Agent 开发者调研报告 思考 我觉得有点像早年微服务：拆服务的人一堆，但真正把发布运维、可观测、回滚理顺的团队很少 想听听大家的想法： 你们公司现在有在做 Agent / 智能体相关的事吗？做到哪一步了？ 如果做过但停了，主要是业务没思考清楚，还是技术 / 工程跟不上？ 有没有已经稳定用了几个月、还在继续改的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253657#reply2
+
+---
+
+#### 10304. [V2EX] giffgaff 第三方充值的都可以成功退款到自己指定的卡里
+
+**问题描述 / Problem Description**:
+有点惊讶。还以为只能原路退回，还好当时没有捐了 😂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253587#reply6
+
+---
+
+#### 10305. [V2EX] [分享发现] 征集一下：你手里最难处理的一类图是什么？
+
+**问题描述 / Problem Description**:
+做图片转可编辑 PPT 这段时间，遇到最多的不是技术问题，而是“这张图到底值不值得转”。 想征集一下大家的情况： 你最常见的是哪类图？截图、PDF 、扫描件、长图、手绘？ 最让你崩溃的是文字、箭头、图标还是排版？ 你更在意速度还是可编辑？ 有没有哪类图你试过很多工具都搞不定？ 留言我都会看，后面按出现频率最高的类型优先优化。 相关截图（原图 → 成品）：
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253574#reply0
+
+---
+
+#### 10306. [V2EX] Grok bot 感觉越来越热了
+
+**问题描述 / Problem Description**:
+Grok bot 感觉越来越热了，推上不少人推荐，不知道大家的使用体验怎么样？ 个人觉得，其云端电脑 24 小时在线的能力确实香，相当于把 codex 移动化了，随时随地能干活。 而且干活能力强，能绕开一些防护。任务的响应速度也很快，不知道是怎么做到了，感觉好像进行了特定的训练？ 我现在不少任务都交给了 grok bot 主要是偏向信息监控，内容生产和营销推广类的。 做了个网站，专门收录比较好用的 bot ，希望对大家有所帮助。 https://bothunt.xyz/
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253544#reply13
+
+---
+
+#### 10307. [V2EX] 在电脑上看红果短剧～
+
+**问题描述 / Problem Description**:
+最近这段时间，都在刷红果 找到一个可以在电脑上看红果的 App ，再也不用拿着手机看了 有 2 个版本，界面颜值很不错 项目开源版本 https://github.com/zfdang/hongguo-open-player 项目没有开源，只在 GitHub 上提供 App 下载 https://github.com/aston314/hongguo-tv-releases
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253537#reply14
 
 ---

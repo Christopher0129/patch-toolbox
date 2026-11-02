@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 11071**
+**总计条目 / Total entries: 11156**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -149848,5 +149848,1110 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1242169#reply30
+
+---
+
+#### 11072. Why do all Windows browsers get a cPanel 404 error while curl works, and Chrome/Firefox load slowly?
+
+**问题描述 / Problem Description**:
+Tags: windows-10, networking, google-chrome, firefox, drivers | Score: 5 | Views: 750 | Answers: 1 | Created: 2026-10-14
+
+**解决方案 / Solution**:
+The problem was traced to a third-party network filter driver called WinpkFilter LightWeight Filter ( nt_ndisrd ) . I discovered the filter using Administrator PowerShell: Get-NetAdapterBinding -Name "*" | Where-Object { $_.Enabled } | Select-Object Name, DisplayName, ComponentID The active Ethernet adapter had this enabled binding: WinpkFilter LightWeight Filter — nt_ndisrd The driver was NT KERNEL's Windows Packet Filter Kit, version 3.6.2.1. Windows Event ID 7045 confirmed that it was installed on September 4, 2026, at 8:48:33 AM. The fix was to disable the WinpkFilter binding: Disable-NetAdapterBinding -Name "Ethernet" -ComponentID "nt_ndisrd" Immediately afterward, GoDaddy cPanel opened normally in Edge, Firefox, and Chrome. Chrome and Firefox also became noticeably faster when browsing ordinary websites. The improvements persisted after restarting Windows. I subsequently uninstalled McAfee Safe Connect, an unused VPN application. However, I have not established whether McAfee was responsible for originally installing WinpkFilter. The WinpkFilter binding remains installed but disabled, and the browsers continue to function normally. Caution: Disabling network filters can interrupt connectivity or affect VPN/security applications. Identify the filter and its dependencies before disabling it, and have a way to restore the connection. The binding can be restored using: Enable-NetAdapterBinding -Name "Ethernet" -ComponentID "nt_ndisrd" Replace Ethernet with the actual network adapter name. In this case, disabling the network filter resolved both the cPanel access problem and the slow browser performance.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940951/why-do-all-windows-browsers-get-a-cpanel-404-error-while-curl-works-and-chrome
+
+---
+
+#### 11073. Is there a view (or another program) who can show the "General" information from the Windows event log?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, event-log | Score: 5 | Views: 548 | Answers: 3 | Created: 2026-10-01
+
+**解决方案 / Solution**:
+I guess you can't display the actual message in the custom view because it can be multiline. An easy workaround, I could find, was to export to csv and render it in Excel, VSCode (with extension), Notepad++ (with extension) or similar. Alternatively, as you already mentioned, you could export to XML and use some script/tool to put it into a viable format. With use of AI, this can actually be pretty easy and convenient. Or, as I just found out, nirsoft has a FullEventLogView that is capable of displaying evtx files (from your export) or directly display the events from the system. Though, loading them takes quite long. And filtering is necessary. A more convenient way for me was EVTX Viewer extension for VSCode. This also lets you load a evtx file. Much faster than FullEventLogViewer. What could also be interesting is EventlogExpert from Microsoft. Though I'm not 100% sure about it's capabilities. I haven't tried it. Not really a clear answer to your question. But I hope it is helpful.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940689/is-there-a-view-or-another-program-who-can-show-the-general-information-from
+
+---
+
+#### 11074. Why doesn’t Windows 11 windows line up between identical monitors?
+
+**问题描述 / Problem Description**:
+Tags: windows, multiple-monitors, windows-11 | Score: 4 | Views: 466 | Answers: 1 | Created: 2026-10-29
+
+**解决方案 / Solution**:
+It may be Windows own monitor layout rather than the panels. LittleBigMouse changes where the cursor crosses between screens, but Windows still places windows using its own layout. If the right hand screen sits a little lower there, the right half of a window shows up higher. A small offset is easy to miss in Settings and LittleBigMouse can hide it from the cursor. To check, exit LittleBigMouse and move the pointer straight across the gap. If it jumps up or down at the edge, the layout is offset. If it doesn't, the layout is fine and it's probably the panels. To fix an offset you should do this: Settings > System > Display: drag the right-hand display up a little, select Apply, and repeat until the pointer crosses without a jump. Start LittleBigMouse and use "Place from windows config" so its layout matches. Update first if you're on a version older than 5.6.0, which fixed a bug that lost the vertical offset between screens.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941268/why-doesn-t-windows-11-windows-line-up-between-identical-monitors
+
+---
+
+#### 11075. How to copy files and hard links from one hard drive to another?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, symbolic-link, hardlink, inode | Score: 4 | Views: 605 | Answers: 2 | Created: 2026-10-22
+
+**解决方案 / Solution**:
+Nothing happens to the inodes (or the MFT entries that are the closest equivalent; NTFS is not Ext4) as they are never copied across disks when performing a file copy. They're a filesystem-internal data structure. Indeed some filesystems don't have inodes at all (e.g. FAT), or have something that is sort of like inodes but not quite (e.g. NTFS). So what always happens during file copy between drives is: The copy tool creates a brand new file at the destination. The copy tool reads and writes all of the file's contents, chunk by chunk. The copy tool migrates a few individual metadata items, e.g. modification time or NTFS security, that it knows how to migrate (and which are supported by both filesystems). To copy a Windows symlink (or the similar directory junction), the copy tool needs to have been programmed to specifically pay attention to files or directories which are marked as NTFS reparse points and then transfer their "reparse data" instead of simply reading/writing the contents. Both symlinks and junctions are different types of reparse points in NTFS, and a copy tool could either transfer them 1:1 using low-level reparse-point operations or it could use the high-level "CreateSymbolicLink" function to define the links anew. Hard links are two names assigned to the same underlying file. Copying of hardlinked files on Unix/Linux/etc. is usually done not by copying the inode itself, but by detecting that 1) a file has a "link count" larger than one, 2) that two or more source file-names point to the same inode (this requires the copy tool to remember every seen file in RAM), then copying just one file and using link() to re-create hardlinks that mimic the original structure. In NTFS, it might be easier to implement since the multiple file names are all registered in the file's MFT entry as well, not just within the directory entries (in comparison, Linux ext4 inodes are nameless on their own). But the procedure would be the same: detect hard links, copy one of them, use CreateHardLink() to set up the others. but I'm also curious to learn what would happen if I only copied some of them Hard links in NTFS (like on most other platforms) don't have a source or destination, they're multiple names belonging to the same file. So if you only copy one of them, it still contains all of the data and won't be "broken". (That is, in other words, the "link" object that you create by hard-linking is not a distinct type of filesystem object as symlinks are, but is a regular file in every possible way.) On all platforms, if you use a tool that doesn't explicitly recognize hard links (and attempt to mirror the linking to the destination), then you will end up with ordinary files containing non-linked copies of the same data, as the tool will copy file A, then it'll independently copy file B, etc. You won't lose anything, except for some free space due to the data duplication. I'm also curious to learn how this same operation would work if I was copying everything to my OneDrive (is OneDrive considered a different file system?) It is and it isn't. OneDrive is a file synchronization tool, which replicates files between your local filesystem(s) and a central "cloud storage" filesystem. So your OneDrive folder is still on the same filesystem as NTFS, but: OneDrive will not synchronize most kinds of metadata to its central "cloud" filesystem – e.g. it won't sync the fact that two files are hard-linked, and therefore won't re-create the link relationship on another machine. OneDrive itself relies on reparse points for the "on-demand sync" files (where a file is downloaded only when you try to open it). Most items in the OneDrive folder are actually reparse points containing OneDrive file IDs. Because of that I'd assume that you cannot put any other kind of reparse point (e.g. a symlink) in the OneDrive folder and expect it to remain untouched for long – either the sync tool will replace the reparse metadata (breaking the symlink), or it will notice that and won't even try to sync the object. Dropbox is more-or-less the same, though it only uses reparse points for the placeholders and not for locally-cached files. Google Drive, meanwhile, is a separate filesystem – last time I checked it was built on Dokan FUSE, very similar to how Linux has sshfs and gdrivefs – so although it passes through operations to a local cache, the G: drive is not the same NTFS. When I backed it up, the symlinks no longer worked (I'm not trying to solve this problem, as I realize I should have known that before). If the symlinks stop being symlinks, copy them using a different tool which supports copying symlinks. For robocopy you want: robocopy /sj /sl If the symlinks remain symlinks but point nowhere, then they probably should be made relative (to the link's location) rather than absolute. Directory junctions (the Win2000 predecessor to Win10's symlinks) were always absolute, but symlinks can point e.g. to Subdir\Subdir\File or ..\..\Misc . This way they won't depend on the drive letter. (Or on whatever volume ID the reparse point might also store; symlinks don't store any, but IIRC junctions do.) If you want to see the underlying details, try to run fsutil reparsepoint query on a symlink, or a junction, or on a OneDrive file. As well as fsutil file layout on any kind of object, but especially a file with hardlinks.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941092/how-to-copy-files-and-hard-links-from-one-hard-drive-to-another
+
+---
+
+#### 11076. How can I prevent the print spooler from interfering with sleep mode, on a Windows 10 / Windows 11 desktop?
+
+**问题描述 / Problem Description**:
+Tags: windows, sleep, energy-saving, hybrid-sleep | Score: 4 | Views: 509 | Answers: 3 | Created: 2026-10-11
+
+**解决方案 / Solution**:
+If you are aiming to specifically solve the security problem mentioned (lock the screen in case you had to leave in a hurry and didn't have time/forgot to lock your PC with Win+L), you can simply set a screensaver with an appropriate timeout and mark for "On resume, display logon screen": Note that some applications may specifically prevent the screensaver from triggering, but I don't think the print spooler is one of them - so you should keep the current settings for sleeping and probably find out how to solve the print spooler issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940878/how-can-i-prevent-the-print-spooler-from-interfering-with-sleep-mode-on-a-windo
+
+---
+
+#### 11077. ChatGPT Windows app is not opening and reinstall fails
+
+**问题描述 / Problem Description**:
+Tags: windows-10, reinstall, chatgpt | Score: 4 | Views: 937 | Answers: 1 | Created: 2026-10-05
+
+**解决方案 / Solution**:
+I was able to fix it. Found the steps in this article to reset the app. But I didn't want to reset because I was afraid that I'll lose my work. So, I tried reparing. I did as follows: Went to Settings > Apps > Apps & features Searched for "ChatGPT" Clicked on the ChatGPT once found. Clicked on Advanced Options Clicked on Terminate Clicked on Repair Then I tried opening the ChatGPT App and it opened. So, it worked. I then updated the app from within.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940769/chatgpt-windows-app-is-not-opening-and-reinstall-fails
+
+---
+
+#### 11078. Why does my upgraded RAID1 show the old drive size?
+
+**问题描述 / Problem Description**:
+Tags: windows, raid-1, intel | Score: 4 | Views: 608 | Answers: 2 | Created: 2026-09-27
+
+**解决方案 / Solution**:
+There was actually a very simple solution. I am adding this here in case anyone encounters the same issue. It took me a day and a half to figure this out. The Intel RST has expend volume under Manage: Increasing Volume Size You can increase the size of a RAID volume by using the remaining available space on the array. A minimum of 32 MB must be available for this action to be available. Pointing to the array name in the Storage System View displays the amount of available space in MB. After creating a volume with an array allocation set to less than 100% in the Configure Volume step, you will be able to increase the volume size by the amount of available space on that array. If two volumes are present on a single array and capacity expansion is possible, only the space available at the end of the second volume will be used to increase the volume size. This function can be performed from Manage Array or Manage Volume. If the command is executed at the array level and two volumes are present, only the space available at the end of the second volume will be used to increase the volume size. If more than one volume is present on a single array, you can increase the size of each volume by executing the command at the volume level, one volume at a time. This option is only available if: A RAID 0, RAID 1, RAID 5 and/or RAID 10 volume is present The array allocation for the volume is less than 100% and space is available on the existing array Increasing the volume size from Manage Array Under 'Status' or 'Manage', in the Storage System View, click the array you want to manage. The array properties are now displayed on the left. Click 'Increase size' next to the volume name. If more than one volume is present on a single array, you will need to increase the size of each volume one at a time. Click 'Yes' to confirm. Caution: Once the data migration starts, the operation cannot be canceled. Once the migration has completed, restart your computer for changes to take effect. Then use Windows* Disk Management to increase the partition size on the volumes or add another partition. Increasing the volume size from Manage Volume Under 'Status' or 'Manage', in the Storage System View, click the volume whose size you want to increase. The volume properties are now displayed on the left. Click 'Increase size'. Click 'Yes' to confirm. Caution: Once the data migration starts, the operation cannot be canceled. Once the migration has completed, restart your computer for changes to take effect. Then use Windows* Disk Management to increase the partition size on the volumes or add another partition. To open Windows* Disk Management: Click Start, right-click on ‘Computer’, and select ‘Manage’. In the left pane, under Storage, select Disk Management.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940618/why-does-my-upgraded-raid1-show-the-old-drive-size
+
+---
+
+#### 11079. Is it possible to remove an individual OneDrive account from a Windows PC / account?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-onedrive | Score: 4 | Views: 253 | Answers: 1 | Created: 2026-09-26
+
+**解决方案 / Solution**:
+Microsoft do not support removing a OneDrive account in Windows. At least, not in the sense asked here. To invalidate the credentials stored in OneDrive, you can sign out of your Microsoft account everywhere . (Your OneDrive account is a Microsoft account). Part 1: Unlink this PC Remove an account Select the OneDrive cloud icon from the taskbar or menubar, select the gear icon then select Settings or Preferences. [...] go to the Account tab. Select Unlink this PC. Part 2: Test your sign-in info In the next part: "You will be signed out of browsers, apps, and anywhere else your account is used to sign in, except an Xbox console". Test your sign-in info first! Use a private browsing session , and the website microsoft.com . On the website, test your sign-in using the "ME" button, on the top right. You MUST have an alternate email registered, for receiving sign-in codes .[*] You could create a free email on gmail.com . Tips If you use a password, do not mistype it. It could stop you signing in for 24 hours. Click on the eye inside the password box, and check what you type. If you are less confident with your password - or your passkey - make sure you have an up-to-date Recovery Code . Part 3: Sign out of your Microsoft account everywhere I am not responsible for what you are about to lose. Source: Sign out of your Microsoft account everywhere Sign in to your Advanced security options on your Microsoft account security dashboard. [For a convenient and secure sign-in button, open the official microsoft.com article above] Scroll down to Sign out everywhere and select Sign out . This can take up to 24 hours. It is supposed to sign you out of all Microsoft software, on every device except Xbox consoles. Part 4: Confirm OneDrive credentials were invalidated Wait 24 hours after you signed out. Press the Windows key, type OneDrive then select the OneDrive app. Enter the email address for your OneDrive account. OneDrive should ask for verification using your face, finger, PIN, password, or verification code. Cancel the verification. Now OneDrive is signed out of your account, and does not have your credentials. Note: I tested to make sure, and part 3 is essential. When I only used "Unlink this PC", the OneDrive app still had working credentials, even after a 24 hour delay. [*] Do I really need an alternate email? Microsoft say: How to access Outlook.com: "Everyone with a Microsoft account needs to have up-to-date security contact info, which is an alternate email address [...] where you can get security codes." Microsoft to stop sending SMS codes for personal accounts . "You’ll be guided through a simple process to add a verified email [...]" Microsoft might still send you an SMS code. However, they are strictly rate-limited. Are you feeling lucky? Will you avoid locking yourself out for a day? Using a passkey helps, but it could still require a verification code . Microsoft say you need both a passkey, and an alternate email. Can I not use my other sign-in method? Based on the support page, when we use "sign out everywhere", it will stop you from using: Microsoft Authenticator (mobile app). A sign-in code or notification from the Outlook mobile app. A passkey from the Edge mobile app - unless the passkey is stored in a different Microsoft account). Also, beware using your PIN, face, or fingerprint on Windows - unless the passkey for your account is being stored in a different account. If the Microsoft account passkey is local-only, i.e. directly in Windows Hello, you should also be prepared to lose access when we disconnect the account. You might use a non-Microsoft Authenticator app, like I do. That said, Microsoft account is designed to require contact info i.e. an email (or mobile number). You may have been required to add contact info in the past. If the contact info for your account is out-of-date, you are asking for trouble. Replace it with a working email.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940595/is-it-possible-to-remove-an-individual-onedrive-account-from-a-windows-pc-acco
+
+---
+
+#### 11080. GitHub Copilot Desktop: failed to create session: RPC error -32603
+
+**问题描述 / Problem Description**:
+Tags: windows, github-copilot | Score: 3 | Views: 244 | Answers: 1 | Created: 2026-10-23
+
+**解决方案 / Solution**:
+Settings -> Experimental -> Native Rust runtime wrapper -> Disabled: Disabling that option fixed the issue.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941133/github-copilot-desktop-failed-to-create-session-rpc-error-32603
+
+---
+
+#### 11081. How to merge three event log "directories"' entries into one single textfile?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, conversion, event-log, merge | Score: 3 | Views: 292 | Answers: 1 | Created: 2026-10-01
+
+**解决方案 / Solution**:
+My answer is under the assumption you're talking about the Windows Event Log and you're using the Windows Event Viewer to access/display those logs. You should be able to create a custom view that shows you the log entries of multiple event logs. When creating a new custom view, you can filter by log and select multiple logs to be included in the view. If desired, you can also export the events in that custom view in a flat text file using the export feature.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940686/how-to-merge-three-event-log-directories-entries-into-one-single-textfile
+
+---
+
+#### 11082. How to link to NULL device in PowerShell
+
+**问题描述 / Problem Description**:
+Tags: windows, powershell, cmd.exe | Score: 3 | Views: 185 | Answers: 2 | Created: 2026-09-21
+
+**解决方案 / Solution**:
+In PowerShell 7, you can use the Win32 device namespace prefix to target NUL : New-Item -ItemType SymbolicLink -Path "C:\test.log" -Value "\\?\nul:" The important part is \\?\nul: instead of just NUL: . This works in PowerShell 7.6. PowerShell 5 does not support this workaround.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940491/how-to-link-to-null-device-in-powershell
+
+---
+
+#### 11083. How can I make GitHub Copilot use descriptive names for session folders?
+
+**问题描述 / Problem Description**:
+Tags: windows, filenames, files-folders, github-copilot | Score: 2 | Views: 125 | Answers: 1 | Created: 2026-10-25
+
+**解决方案 / Solution**:
+I gather that it is not yet possible convince GitHub Copilot not to use dumb names for session folders. Therefore, I have posted this feature request: Name chat folders by title or timestamp instead of random names like cuddly-disco-22bdd020 #5100
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941166/how-can-i-make-github-copilot-use-descriptive-names-for-session-folders
+
+---
+
+#### 11084. How to pin CMD on the Windows 11 taskbar?
+
+**问题描述 / Problem Description**:
+Tags: powershell, windows-11, cmd.exe | Score: 2 | Views: 898 | Answers: 3 | Created: 2026-10-22
+
+**解决方案 / Solution**:
+You created a shortcut to Windows Terminal rather than cmd . The default profile for WT is usually powershell. You can: Change WTs default profile. Change your shortcut to launch to your desired terminal directly wt --profile "Command Prompt" Change your shortcut to launch cmd rather than WT
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941095/how-to-pin-cmd-on-the-windows-11-taskbar
+
+---
+
+#### 11085. How likely is unplugging an exFAT USB hard drive mid-write to damage/corrupt files other than the one being written?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, external-hard-drive, usb-storage, filesystem-corruption, exfat | Score: 2 | Views: 956 | Answers: 1 | Created: 2026-10-04
+
+**解决方案 / Solution**:
+Damage/corruption is possible. With a magnetic hard disk, the currently written block will be damaged (checksum failure, unreadable, but rewritable). The file system might also be damaged, but if it is thoroughly checked when reconnecting, it's most likely OK. There might be edge cases where it won't. With conventional magnetic recording (CMR), that's about it. However, with shingled magnetic recording (SMR) the entire shingle set needs to be rewritten when data is changed. Previous data is read into a buffer, new data is added and the shingle set is rewritten to disk. If this is interrupted by loss of power, the shingle set is incomplete and data is lost. Disk management data from the file system might be included in this 'lost data'. In extreme cases, the whole disk might get inaccessible and require formatting (or block-level recovery). So, unless you know for sure that the hard drive is using CMR, or the vendor has made provisions for interrupted writes with SMR (battery, flash backup, ...), any data on the drive is at high risk when unplugging in mid-write. And as always: if you don't have a backup of your data, it isn't important, obviously.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940744/how-likely-is-unplugging-an-exfat-usb-hard-drive-mid-write-to-damage-corrupt-fil
+
+---
+
+#### 11086. Microsoft OneNote: "Snap to a grid" function doesn't seem to work
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, microsoft-onenote | Score: 2 | Views: 172 | Answers: 1 | Created: 2026-09-26
+
+**解决方案 / Solution**:
+I figured out that using the Alt key toggles between "free flow" and "snap on grid" behavior (see here or here ). That works for me, and hopefully it will help someone else as well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940585/microsoft-onenote-snap-to-a-grid-function-doesnt-seem-to-work
+
+---
+
+#### 11087. Windows 11 Top banner/address bar on EVERY program is massively oversized
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 2 | Views: 327 | Answers: 1 | Created: 2026-09-20
+
+**解决方案 / Solution**:
+ANSWER: To resolve this problem, you must perform: Settings -> Accessibility -> Text Size -> Adjust size up or down -> Hit Apply -> Adjust size back to where you want it. Sometimes, evidently, the text size gets stuck on a larger size when connecting via HDMI to a large monitor (in this case, 65" TV). By adjusting the Text Size up and down, the problem is RESOLVED. This issue is NOT caused by Display Scaling, Zoom, or Screen Resolution. (user @Darius solved this issue via comment in the thread)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940488/windows-11-top-banner-address-bar-on-every-program-is-massively-oversized
+
+---
+
+#### 11088. Why does my Windows 11 laptop screen remain off when being waken up from sleep?
+
+**问题描述 / Problem Description**:
+Tags: laptop, windows-11, sleep, blank-screen | Score: 1 | Views: 130 | Answers: 1 | Created: 2026-10-29
+
+**解决方案 / Solution**:
+Since Win+Ctrl+Shift+B didn't respond, the display driver probably crashed during the S0ix wake sequence and never came back. Before anything else, try a clean reinstall: run DDU (Display Driver Uninstaller) in safe mode to fully remove the Radeon driver, then install the latest Adrenalin release from AMD's site fresh. Also grab the AMD chipset driver separately if you haven't - for Ryzen platforms it ships as its own package and affects how the system handles power state transitions, not just the GPU bits. No guarantee this covers the N155A specifically, but it's where AMD + Modern Standby issues usually start.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941281/why-does-my-windows-11-laptop-screen-remain-off-when-being-waken-up-from-sleep
+
+---
+
+#### 11089. Fast Startup 0xC00000D4 and SrtTrail.txt
+
+**问题描述 / Problem Description**:
+Tags: windows, boot, power | Score: 1 | Views: 184 | Answers: 2 | Created: 2026-10-18
+
+**解决方案 / Solution**:
+You state, "Obviously an issue with voltage from the power socket." If the PC works on one power outlet, but not another, event logs and other information is just obfuscation. You know the cause of the issue has nothing to do with the PC itself; determine what the AC mains issue is. A few possibilities: Voltage, fluctuations in the mains: Use a voltmeter to test the AC supply under load of the PC and peripherals. Usually, ±10% deviation is acceptable. Frequency or waveshape deviations from a pure sine wave of 50 or 60 Hz, depending on region: This requires an accurate oscilloscope (and/or harmonic distortion analyzer) to check. Some types of UPS output a square wave, which might be acceptable for some PC power supplies, and not others. A ground-fault caused by currents flowing between outlets: If a PC is powered through one circuit is connected to a peripheral on a different circuit, there can be a ground loop current, particularly if one device is powered through a UPS and the other is connected directly to the AC mains. That current can potentially cause permanent damage. If possible, power all connected devices through the same AC circuit.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941025/fast-startup-0xc00000d4-and-srttrail-txt
+
+---
+
+#### 11090. Why does my keyboard and mouse work outside of Windows 11, but don't respond once the operating system boots, even in safe mode?
+
+**问题描述 / Problem Description**:
+Tags: windows, drivers, windows-11 | Score: 1 | Views: 202 | Answers: 1 | Created: 2026-10-17
+
+**解决方案 / Solution**:
+In my case, I managed to narrow this issue down to a set of corrupt drivers. I had to acquire an install.wim file (from a Windows 11 ISO) or the driver files themselves and overwrite them in C:\Windows\System32\drivers. Normally, one would use DISM to let Windows fix itself using a known good installation medium. Both the install environment and WinRE allowed me to use the command prompt, so I tried this first: 1. Figuring out which drive is mounted where In my case, the drive letters were swapped all around. My primary disk (normally C:) was not mounted at all, so I assigned it the letter F:. My secondary disk (normally on S:) was mounted to C:, and the installation medium was mounted to D:. Use diskpart to list volumes and assign letters to them, then exit the tool. 2. Ensuring compatibility The drivers you will use must be from the same Windows version. In a working Windows installation, you would press Win+R, type 'winver', hit enter, and see the major and patch versions. If you can use WinRE or boot into the install menu, use the command prompt to get the same information: dism /Image:F:\ /Get-CurrentEdition Note the major and minor versions, as well as the Windows edition (Professional, Home, etc.) To get the Windows version of an installation medium: dism /Get-WimInfo /WimFile:D:\sources\install.wim This will likely list more than one index. Note the index of the Windows edition that is installed on your computer. 3. Running DISM to let Windows use the installation medium to repair itself If the major AND minor build numbers are the same, you can use the dism command to try and let Windows repair itself. You'll need to make a folder with >1GB of free space for DISM to work in. I chose mkdir C:\scratchdir : dism /Image:<drive letter of broken Windows install>:\ /Cleanup-Image /RestoreHealth /Source:wim:<drive letter of installation medium>:\sources\install.wim:<index of correct windows edition> /scratchdir:<any drive with >1GB free>:\scratchdir This will not work if the major and minor versions of your install.wim are not exactly the same. Dism will say that it cannot find the installation data. However, Microsoft only allows downloads of the most recent Windows ISO. Currently, this is 26300. My computer is still on 26200. The two are not compatible and the drivers packaged within are also not compatible. Also, my computer was running 10.0.26200.9457, which seems like an intermediate update that never received a full ISO release. 4. If dism fails: manual copying The drivers between the same major versions are compatible, but dism will not run. In this case, you must copy the driver files manually. You will need to acquire an ISO of the same major Windows build number (in my case, I found an ISO for 10.0.26200.9711) or copy the drivers from another Windows 11 machine running the same major build number. Since I was working with an ISO, I mounted the install.wim so it was readable, then copied the following drivers to my broken Windows installation: mkdir C:\extracted dism /Mount-Wim /WimFile:D:\sources\install.wim /Index:3 /MountDir:C:\extracted /ReadOnly copy C:\extracted\Windows\System32\drivers\kbdclass.sys G:\Windows\System32\drivers\ /y copy C:\extracted\Windows\System32\drivers\mouclass.sys G:\Windows\System32\drivers\ /y copy C:\extracted\Windows\System32\drivers\kbdhid.sys G:\Windows\System32\drivers\ /y copy C:\extracted\Windows\System32\drivers\mouhid.sys G:\Windows\System32\drivers\ /y copy C:\extracted\Windows\System32\drivers\USBXHCI.sys G:\Windows\System32\drivers\ /y copy C:\extracted\Windows\System32\drivers\usbhub3.sys G:\Windows\System32\drivers\ /y Disclaimer: I am not a Windows driver guru, and this list of drivers was obtained from an AI chatbot. I have not found another online forum post dealing with the same issue. Once rebooted, I was able to use the keyboard, but I saw in Device Manager that several other Windows (not OEM) drivers were also corrupt: Bluetooth, Bluetooth LE, and an audio device. With the keyboard, I uninstalled the offending devices, scanned for changes, and let Windows Update reinstall the drivers. Once my mouse and audio were back in working order, I also ran DISM within the OS to find and fix any other possible problems: DISM /Online /Cleanup-Image /RestoreHealth This problem seems very niche and specific. I've seen 3rd party OEM drivers break things, but booting into safe mode would allow me to uninstall the bad drivers. Here, Windows's own drivers corrupted themselves, so even safe mode would not work. Hopefully this is helpful to anyone facing a similar problem in the future.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941007/why-does-my-keyboard-and-mouse-work-outside-of-windows-11-but-dont-respond-onc
+
+---
+
+#### 11091. How can I search for past chat sessions in the GitHub Copilot Desktop app?
+
+**问题描述 / Problem Description**:
+Tags: windows, search, github-copilot | Score: 1 | Views: 82 | Answers: 1 | Created: 2026-10-16
+
+**解决方案 / Solution**:
+how can I find the chat session that contains the string "hello world"? Use /chronicle /chronicle is a built-in slash command that analyses your past session history and generates useful insights — all from data stored locally on your machine. Source: /chronicle
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941001/how-can-i-search-for-past-chat-sessions-in-the-github-copilot-desktop-app
+
+---
+
+#### 11092. Windows 11 Pro is stuck on 25H2 and does not offer 26H2, even with ‘Get the latest updates’ turned on
+
+**问题描述 / Problem Description**:
+Tags: windows-11, windows-11-upgrade, windows-11-25h2, windows-11-26-h2, windows-11-update | Score: 1 | Views: 809 | Answers: 2 | Created: 2026-10-12
+
+**解决方案 / Solution**:
+Windows 11, version 26H2 is built on the same servicing foundation as Windows 11, versions 25H2 or 24H2. Windows 11, version 26H2 is delivered as an enablement package for eligible devices running Windows 11, versions 25H2 or 24H2 . The code remains disabled on the device until it receives the enablement package (KB5121794). KB5121794 enablement package is not available in the Update Catalog and it is only available through the other release channels in the form of “.msu” files for both X64 and ARM64, and you can download them with these direct Microsoft download links: Enablement Package (KB5054156) for AMD and Intel (x64) Enablement Package (KB5054156) for ARM64 Reference: ElevenForum Prerequisites Before updating to Windows 11, version 26H2 using the enablement package , You must be running Windows 11, version 25H2. You must have the following prerequisite installed before applying this update: September 22, 2026—KB5124010 (OS Builds 26100.9546) Preview or a later cumulative update Restart information You must restart your device after you apply this update. Update replacement information This update does not replace any previously released update.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940897/windows-11-pro-is-stuck-on-25h2-and-does-not-offer-26h2-even-with-get-the-late
+
+---
+
+#### 11093. How can I increase the brush size in Microsoft Paint when the Size control is disabled?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, microsoft-paint | Score: 1 | Views: 118 | Answers: 1 | Created: 2026-09-30
+
+**解决方案 / Solution**:
+How can I increase the brush size in Microsoft Paint? The slider on the left side of your image controls the brush size and opacity.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940658/how-can-i-increase-the-brush-size-in-microsoft-paint-when-the-size-control-is-di
+
+---
+
+#### 11094. Troubleshooting high system interrupt CPU usage and network packet throttling during heavy data transfers
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, performance, troubleshooting | Score: 1 | Views: 173 | Answers: 1 | Created: 2026-09-28
+
+**解决方案 / Solution**:
+You should check Windows Device Manager for the exact NIC type in your system and then which driver version it's got installed. Some default drivers from Windows image may be rather poor performance-wise and sometimes lack offloading features. Check with your system and/or NIC vendor for the latest drivers and install those. Offloading features should be mostly OK by default. Fine tuning them for extreme use cases may be a complicated matter and usually requires extensive testing.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940630/troubleshooting-high-system-interrupt-cpu-usage-and-network-packet-throttling-du
+
+---
+
+#### 11095. Default account was not set (passkey auth in Windows App)
+
+**问题描述 / Problem Description**:
+Tags: windows-11, passkey | Score: 1 | Views: 86 | Answers: 1 | Created: 2026-09-26
+
+**解决方案 / Solution**:
+What finally fixed it for me was simply syncing my clock in Date & Time settings. After reinstalling Windows the problem remained, but after a while I noticed my Windows clock was not yet set properly and was an hour ahead. After syncing my clock the problem vanished and I was able to authenticate. Maybe this was the problem all along, but I did not notice because the clock was (maybe) only a little off?
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940583/default-account-was-not-set-passkey-auth-in-windows-app
+
+---
+
+#### 11096. Copy users/groups from "Find Users, Contacts, and Groups" to clipboard?
+
+**问题描述 / Problem Description**:
+Tags: active-directory, windows-11 | Score: 1 | Views: 122 | Answers: 1 | Created: 2026-09-16
+
+**解决方案 / Solution**:
+This one-liner using PowerShell should export a list of the members into a .txt or .csv file (Get-ADGroupMember "GROUP_NAME_HERE").Name | Out-File "C:\Temp\Group.txt" Just update GROUP_NAME_HERE to be your group name and change C:\Temp\Group.txt to be a folder that exists.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940439/copy-users-groups-from-find-users-contacts-and-groups-to-clipboard
+
+---
+
+#### 11097. Why is this window is missing "X" close button in top-right corner?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 1 | Views: 208 | Answers: 1 | Created: 2026-09-15
+
+**解决方案 / Solution**:
+Not every window has a Close button. There are specific dialogs that do not have close buttons. Some of these can still be dismissed using methods such as ALT + F4 and some cannot, but require you to interact with them in some way. These are called "modal" dialogs or windows and they usually exist when you must interact with something. The developer decides what "must" be interacted with and why, and sometimes you and I may disagree with what the developer thinks is required. This specific dialog could mean a minor error in the Windows OneDrive config, or it could mean you've disabled/deactivated OneDrive or just not chosen to use it for the backups Windows wants you to use. I see this dialog on my computer occasionally even when I DO have OneDrive configured for "backups" (OneDrive is not a true backup) and I just have to click the Continue button and it goes away until next time whatever minor bug surfaces. If you want to bypass this you could try ALT + F4 , or click any of the interaction options given. Your statement of "I'd like to be able to use this computer again" sounds a little melodramatic, as you don't note whether or not you've tried clicking either of the buttons. We can certainly understand not wanting to click a button and there are questions on this site about disabling OneDrive, but you simply didn't note that, so we cannot address it unless you do.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940390/why-is-this-window-is-missing-x-close-button-in-top-right-corner
+
+---
+
+#### 11098. Why is copying files to my USB 3.1-connected SD card only running at about 14 MB/s?
+
+**问题描述 / Problem Description**:
+Tags: windows, usb, file-transfer, sd-card, speed | Score: 0 | Views: 123 | Answers: 1 | Created: 2026-11-01
+
+**解决方案 / Solution**:
+SD and µSD cards use NAND flash RAM, which has limited write speed . Worse, that speed drops over a session for a number of reasons. As blocks are reused, "an explicit erase phase before being overwritten," limits speed. "NAND flash memory [uses] serial access". With many small files, it shuttles between updating the file system tables and writing data, vastly slowing operations. (Think of it as like a tape drive, in that respect, shuttling to the beginning to add to a TOC, then to the end to write the next block.) In some cases, the device can get too hot and is throttled to prevent damage. So, all things considered, 14 MB/s is not unreasonable throughput. However, if you want performance orders of magnitude faster, use a portable SSD. Anecdotally, I've tried to use flash USB drives for a portable operating system, using persistent storage, and it's like waiting for the next drop of pitch to fall , far slower than molasses in winter. Putting that same OS on a portable SSD, not much larger than the flash drive, had the system running faster than it did using the internal drive!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941330/why-is-copying-files-to-my-usb-3-1-connected-sd-card-only-running-at-about-14-mb
+
+---
+
+#### 11099. How can I fix the error "Invalid state: Received duplicate <spake-message>" in Chrome Remote Desktop?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, chrome-remote-desktop | Score: 0 | Views: 36 | Answers: 1 | Created: 2026-10-30
+
+**解决方案 / Solution**:
+After about 8 hours, the issue went away. I did nothing on Windows 11 laptop that I connect to as I didn't have physical access to it. The issue just got fixed by itself (Cache automatically getting cleared? Google patching some issue quickly? etc.).
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941314/how-can-i-fix-the-error-invalid-state-received-duplicate-spake-message-in-c
+
+---
+
+#### 11100. How to find and move all unmovable files in Windows 10 to increase shrink space?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, partitioning, ssd | Score: 0 | Views: 91 | Answers: 1 | Created: 2026-10-30
+
+**解决方案 / Solution**:
+Reboot into another OS environment so that you could do an offline shrink, which won't have nearly as many such issues because none of the files will be "in use" (including things like the pagefile) and therefore all of them will be movable. You can use GParted (its Linux ntfsprogs are generally reliable) or you can use a generic Win10/Win11 installation USB stick – boot to its welcome screen, press Shift-F10 to open Command Prompt, then run diskpart . (When done, wpeutil reboot .)
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941296/how-to-find-and-move-all-unmovable-files-in-windows-10-to-increase-shrink-space
+
+---
+
+#### 11101. Why does Windows 11 tear down a strongSwan VPN connection?
+
+**问题描述 / Problem Description**:
+Tags: networking, vpn, windows-11, strongswan | Score: 0 | Views: 97 | Answers: 1 | Created: 2026-10-28
+
+**解决方案 / Solution**:
+It turned out to be some weird custom corporate VPN software that was causing the issue. Uninstalling it worked like a charm. Disabling its service might have done the trick as well, but I'll test that on the second machine later. This weird custom VPN service uses the WinDivert driver to intercept packets. I'm not entirely sure what exactly it was doing or how it was interfering with the Windows native VPN client, but uninstalling it fixed the issue. For now, everything works. Big thanks to @ecdsa!
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941262/why-does-windows-11-tear-down-a-strongswan-vpn-connection
+
+---
+
+#### 11102. Google updater.exe is using up my metered connection
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xlrs9j/google_updaterexe_is_using_up_my_metered/
+
+---
+
+#### 11103. Windows 11 random crash and reboot
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm6vdy/windows_11_random_crash_and_reboot/
+
+---
+
+#### 11104. My pc keeps crashing on low usage/idle
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9sev/my_pc_keeps_crashing_on_low_usageidle/
+
+---
+
+#### 11105. Help with Time Clock Wizard
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm1eav/help_with_time_clock_wizard/
+
+---
+
+#### 11106. Randomly Restarting? Software or Hardware
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm88ls/randomly_restarting_software_or_hardware/
+
+---
+
+#### 11107. Updated bios, pc went black, now won't turn on
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm4ndr/updated_bios_pc_went_black_now_wont_turn_on/
+
+---
+
+#### 11108. My Logitech G321 headset isn't connecting to my PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmaou5/my_logitech_g321_headset_isnt_connecting_to_my_pc/
+
+---
+
+#### 11109. Predator Helios Neo 16 (PHN16-71, RTX 4070): screen flickers on desktop (PredatorSense/Brave) + sudden blue screen shutdowns
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xma999/predator_helios_neo_16_phn1671_rtx_4070_screen/
+
+---
+
+#### 11110. Samsung Blu ray HT-C5500 remote control signal not being received
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xma3ke/samsung_blu_ray_htc5500_remote_control_signal_not/
+
+---
+
+#### 11111. RX 6650 XT black screen whenever AMD drivers are installed. GPU or driver issue?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xlxp6v/rx_6650_xt_black_screen_whenever_amd_drivers_are/
+
+---
+
+#### 11112. RTX 5090 / X870 Riptide WiFi / Ryzen 9950X3D – Intermittent cold boot failure, stuck on green BOOT LED
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9oar/rtx_5090_x870_riptide_wifi_ryzen_9950x3d/
+
+---
+
+#### 11113. How do I ensure my GPU is running at default speeds?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9m99/how_do_i_ensure_my_gpu_is_running_at_default/
+
+---
+
+#### 11114. Title: How to install an OS on a laptop with a broken screen when HDMI doesn't work before boot?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9e23/title_how_to_install_an_os_on_a_laptop_with_a/
+
+---
+
+#### 11115. Arcai netcut not working with avast installed
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9bng/arcai_netcut_not_working_with_avast_installed/
+
+---
+
+#### 11116. PC starts but boots straight into a secure boot violation error. Its an Alienware Area 51 R5. After booting into the error it goes straight into ePSA.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm9ald/pc_starts_but_boots_straight_into_a_secure_boot/
+
+---
+
+#### 11117. Bluescreen during shut down after having connected any external USB drive at some point
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm8r9h/bluescreen_during_shut_down_after_having/
+
+---
+
+#### 11118. Dell Laptop, Dell Dock, 3 monitors, resolution issues.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm8pet/dell_laptop_dell_dock_3_monitors_resolution_issues/
+
+---
+
+#### 11119. Trouble with My Phone
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm8mul/trouble_with_my_phone/
+
+---
+
+#### 11120. Motherboard vga white light
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm883w/motherboard_vga_white_light/
+
+---
+
+#### 11121. My laptop is stuck at 0% and only works when plugged in.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm85j6/my_laptop_is_stuck_at_0_and_only_works_when/
+
+---
+
+#### 11122. What’s the dumbest mistake you made on your first PC build that took you hours to fix?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm83c3/whats_the_dumbest_mistake_you_made_on_your_first/
+
+---
+
+#### 11123. Headset/Monitor Audio Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm7ycr/headsetmonitor_audio_issues/
+
+---
+
+#### 11124. My PC wont boot and i dont know enough about computers to solve it by googling it
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm7whg/my_pc_wont_boot_and_i_dont_know_enough_about/
+
+---
+
+#### 11125. HELP, Is my PCi-E lane broken?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xm6zei/help_is_my_pcie_lane_broken/
+
+---
+
+#### 11126. [V2EX] 实习生说他 token 太多了用不掉，于是我忽悠他重构了 windows 资源管理器的文件管理功能
+
+**问题描述 / Problem Description**:
+背景信息 有一天实习生在这无所事事，我就问他： 你的 token 多不多？你的 Windows 资源管理器卡不卡？ 于是他立即明白了我的意思，直接掏出 codex 就开始重构资源管理器！ 重构产品 产品名称就叫 rust-explorer 目标 实现 Windows 资源管理器的文件管理功能，提供一个非常流畅而且保留原汁原味的文件管理功能，可以加入一些简单实用的调整，但是不会实现与原版资源管理器差异过大的功能。 兼容性 为了保持流畅，此项目不对原版 explorer 的拓展方式做过多兼容，例如预览，主页的自定义驱动器例如 WPS 网盘等内容。只对右键菜单和文件管理体验进行兼容。 技术栈 rus
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1250042#reply28
+
+---
+
+#### 11127. [V2EX] 大家有没有遇到 AMD 处理器的迷你主机，无法通过 WOL 从 S0 睡眠模式唤醒的问题？
+
+**问题描述 / Problem Description**:
+补充信息： BIOS 中已开启 WOL ，关机状态下可以通过 WOL 开机；唤醒状态下进行网卡抓包，能看到网卡已正确接收 WOL 包；休眠状态下发送 WOL 包，发送后不会被唤醒；通过按电源键唤醒后，事件查看器中没有 WOL 唤醒记录。电脑仅支持 S0 睡眠。 已开启有线网卡的「允许通过此设备唤醒」之类的设置。 大家有没有遇到类似问题的，你们是如何解决的？谢谢大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1248046#reply18
+
+---
+
+#### 11128. [V2EX] 微软新开源 LiteBox library OS
+
+**问题描述 / Problem Description**:
+https://github.com/microsoft/litebox 微软非要把 Windows 糊成 Linux ？ WSL 还没玩溜呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1247760#reply7
+
+---
+
+#### 11129. [V2EX] Win11 小任务栏终于回归了
+
+**问题描述 / Problem Description**:
+然后再结合 https://github.com/ramensoftware/windhawk 这个工具，能把右下角托盘图标间距变小（变回跟 Win10 及之前一样） 回来了，一切都回来了😭
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1246009#reply9
+
+---
+
+#### 11130. [V2EX] 小白指南：安装一个干净的 Windows11 并把它调教成理想的模样
+
+**问题描述 / Problem Description**:
+前言（废话可不看） 现在的 win11 版本，由于 win 即服务战略、各种时代遗留导致当下很多用户像我一样孜孜以求一个干净纯粹的“操作系统”体验。比起停留在特定的某个“少 bug 版本”，或是第三方精简镜像，由于开发者的系统环境往往更加复杂，这些方式一方面有安全隐患，另一方面有很难保证长期服役后的兼容性。于是有了本小白向指南，并没有什么黑科技，只是通过组策略、注册表等原生设置项的简单调教，这些“优化项”能保证正常的 windows update ，也不会由于组件缺失引起兼容性问题。 如果本文对您有帮助，希望能支持一下我的个人博客： https://ugediao.com/ 安装前准备工作 建
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1244288#reply39
+
+---
+
+#### 11131. [V2EX] Windows 11 26H2 更新完反馈
+
+**问题描述 / Problem Description**:
+文件管理器接近于秒开！ 任务栏可以缩小，给应用窗口留更多的区域 图片右键可以旋转图片，希望加一个压缩图片，不用额外安装 PowerToys 了 右键菜单可以直接自定义了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1241713#reply23
+
+---
+
+#### 11132. [V2EX] 新发布的 Windows 软件触发 SmartScreen，怎么解决下载全新安装
+
+**问题描述 / Problem Description**:
+最近发布了一款 Windows 桌面软件，安装包已经使用正规代码签名证书签名，但由于软件和证书都是新发布的，目前下载运行时可能会出现 Microsoft Defender SmartScreen 的“Windows 已保护你的电脑”提示。 想请教做过 Windows 软件分发的大佬朋友们： 新证书怎么快速的搞定下载全新安装的,某鱼找了一圈没找到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1238302#reply19
+
+---
+
+#### 11133. [V2EX] Gluestick - 比 Scoop 更快、更好用的包管理器
+
+**问题描述 / Problem Description**:
+社区有人总结的比较准确：Scoop 最适合管理 FOSS 开源免费软件。Gluestick ( https://gluestick.sh ) 的目标：更接近 Nix/Homebrew bundle 的 Windows 环境管理层。 主要特性 使用 Scoop bucket 与 manifest ，无需迁移现有软件库，extras 、versions 等 bucket 即装即用 零开销 shim 集成，命令行工具即装即用，无需手动改环境变量 多版本管理 / 版本切换 / 版本锁定与解锁 文件按 SHA-256 存入内容寻址存储，安装时 hardlink 链接，同版本重装瞬间完成 HTTP/2 多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1234713#reply11
+
+---
+
+#### 11134. [V2EX] 十几年了，微软还是没修复资源管理器图标排列的问题
+
+**问题描述 / Problem Description**:
+前段时间做了段时间兼职，重新用回了半个月的 win7 ，又想起了这个让我十几年都如鲠在喉的 bug：微软在新的资源管理器中，整个桌面的图标管理几乎都是混乱的。 印象里是 win8.1 或者是 win10 引入的问题 例如因为删除软件，之前的图标中间空了一个，win7 只需要两次拖动就能补上这个空缺，还不影响顺序 而 windows 10 开始，这么排会直接扰乱图标顺序，我也没找到其他能正确快速排序的方法，只能一列一列的手动拉 再比如对于因为高分辨率屏幕开启了百分比缩放的情况，win11 图标排序经常是错位的，拖动位置和到达的位置经常对不上 而 win7 则是指哪打哪 除了这些，还有什么图标大小
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233590#reply48
+
+---
+
+#### 11135. [V2EX] Windows 下图片标注工具没有一个好用的
+
+**问题描述 / Problem Description**:
+不是大包大揽，就是功能复杂，或者操作流程非常繁琐 有没有一款类似早年印象笔记剪藏（如果我没记错）那样的图片编辑工具？ 截图（可没有） -> 画框 -> 文字 -> 画箭头 -> 保存
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1233388#reply5
+
+---
+
+#### 11136. [V2EX] 用 AI 搓了个通过 DLNA 协议投屏的小工具
+
+**问题描述 / Problem Description**:
+https://github.com/liyafe1997/dlna-screen-cast 这个需求源自父母日常习惯在摆在茶几的电脑上找各种视频看，包括但不限于网页上各种搜 D 版电影电视剧，各种体育赛事直播，迅雷下种子，本地视频，微信公众号/别人发的各种视频等等， 然后经常问我这个能不能放到电视上看 现在电视应该都是有支持 Miracast 、DLNA 、AirPlay 等各种投屏协议的，Miracast 对设备要求太严，老一点的笔记本/无线网卡/电视不兼容都不行，反正父母的笔记本的 Windows 搜不到电视。 于是就打起了 DLNA 的主意，发现 Windows 下居然没有类似的工具，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1229113#reply4
+
+---
+
+#### 11137. [V2EX] 咸鱼卖的很便宜的 sd 卡是什么套路？
+
+**问题描述 / Problem Description**:
+想买个 sd 卡，闲鱼上有好几个卖 sd 卡的都说是工作室买的没用便宜出，价格很便宜，我问他们是不是正品，而且和他们说了我会测试性能和容量，他们都说没问题，主要是还说有问题包邮退。这是什么套路？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253975#reply4
+
+---
+
+#### 11138. [V2EX] 分享一件你终身难忘的画面和场景
+
+**问题描述 / Problem Description**:
+你说 我在听
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253966#reply8
+
+---
+
+#### 11139. [V2EX] 兄弟萌，这状态正常吗？
+
+**问题描述 / Problem Description**:
+近一个月，除了上班就是盯盘，上班的时候开个低倍合约，下班有空的时候适当高杠杆，反正就是要一直看着数字跳来跳去。钱也不多，放了两千 U ，有亏有赚，总体是亏的。 平时没事刷刷抖音打打游戏这样，纯属消磨时间。没老婆没房贷车贷，也没有对象，主要是不知道怎么追求女孩子。不喜欢去人多吵闹的地方，身边朋友基本上成家了，平时也很少跟家里人联系，身体还算好，同事也很友善。 目前最大的爱好就是炒币了，至少让我感到情绪还有点波动，但是这日子过得多多少少感到有点不对劲。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253964#reply0
+
+---
+
+#### 11140. [V2EX] 纯工具性的软件创业走到头了
+
+**问题描述 / Problem Description**:
+要有点儿前景，以下三个最少得有一个： 复杂的业务逻辑 海量的非公开数据 复杂的硬件
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253954#reply4
+
+---
+
+#### 11141. [V2EX] Deepseek 和豆包哪个准确一点
+
+**问题描述 / Problem Description**:
+直连可用的情况下，只需要日常问答、AI 绘图这些基础功能，哪个 AI 更准确一点，不胡说八道呢，Deepseek 还是豆包还是有更好的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253944#reply3
+
+---
+
+#### 11142. [V2EX] polymarket 买哪个，中期选举谁会赢？
+
+**问题描述 / Problem Description**:
+老特看起来不是很慌啊……就盘口看，众议院是输定了，参议院这败率看起来都 7 成多了…… 和我是没多大关系就是，50 刀捧个人场…… 但是后面这些走势很扑朔，intc 跌了 30%，抄了一点，结果看到别人说一般 3 点钟最低（还真是），ANT 这头巨物也快上了，美团起起伏伏 70 多的本……有没有大手预测下后面美股港股走势？个人倒是觉得 A 股还有一波的样子。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253939#reply4
+
+---
+
+#### 11143. [V2EX] 智元最新的机器人语言能力好强，是和谁合作的吗？它自己似乎搞不出这样的模型吧？求大佬解惑
+
+**问题描述 / Problem Description**:
+如题，谢谢，纯好奇
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253927#reply0
+
+---
+
+#### 11144. [V2EX] 话说有基于 AI 独立复刻 / 开发一个开源版 Surge 的项目吗？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253917#reply4
+
+---
+
+#### 11145. [V2EX] 关于 AI 时代的招聘想法
+
+**问题描述 / Problem Description**:
+如果我作为面试官，想查看一下你的 chat history ，你愿意给我看吗？ 比如 chatgpt/豆包/workbuddy/deepseek 的对话记录，有种出卖灵魂给恶魔的感觉 甚至 “chatgpt/豆包/workbuddy/deepseek”能不能出一个功能，能出一个证明说明，说明这个人的技术水平怎么，使用频率，提问深度等等
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253897#reply0
+
+---
+
+#### 11146. [V2EX] 少儿围棋，有哪些网站可以引导学习（付费&免费均可）
+
+**问题描述 / Problem Description**:
+想给娃学下围棋，各位有没有适合的网站推荐？ 线下报了课了，但是那个机构没有线上练习的地方。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253893#reply2
+
+---
+
+#### 11147. [V2EX] 请教各位学习方向？
+
+**问题描述 / Problem Description**:
+北京大三双非本科软工专业。学校课程基本没学到啥，教的内容也挺过时的感觉,本来挺好的专业，AI 一来感觉前途渺茫。 报名考了软考中级软件设计师，不知道结果如何？ 四六级倒是都过了合格线； 目前这种就业趋势，感觉都不知道学啥才能有用. 考公没有大兴趣； 有人推荐自学嵌入式开发\有人推荐学 AI 开发，没有方向啊,想学都不知道学啥。 想请教下各位，目前专攻学点什么技能，在毕业时候能凑合找个工作啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253881#reply2
+
+---
+
+#### 11148. [V2EX] 求推荐云服务器资源
+
+**问题描述 / Problem Description**:
+国内大厂的收费太贵了，有没老哥推荐便宜可靠的云服务器厂商资源，谢谢啦
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253878#reply2
+
+---
+
+#### 11149. [V2EX] 我的新西兰 skinny 卡也不能用了
+
+**问题描述 / Problem Description**:
+今年 5 月份从 xiong 那买的，这才半年不到，就不能用了，哪位有解决办法？。交流一下 官网提示信息：Your Skinny SIM is currently blocked from accessing the network.您的 Skinny SIM 卡目前被阻挡无法访问网络。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253876#reply0
+
+---
+
+#### 11150. [V2EX] 求推荐：百万医疗险 和 综合意外险
+
+**问题描述 / Problem Description**:
+之前在朋友那里买了平安福的保险，每年 5.3k 的保费，从 2018 年缴纳至今。 今天问 AI ，被建议退掉或停止性价比不高的“长期意外 13”和“住院日额 18”。 用省下的预算，另行配置一份一年期综合意外险和百万医疗险。 目前已经结婚了，有了宝宝，想给自己和老婆都买上一份保险，各位 V 友，大家有什么推荐的吗？真心求教。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253875#reply0
+
+---
+
+#### 11151. [V2EX] 有靠谱的中转站吗？需要视频模型，生图模型。要支持对公，支持开票的
+
+**问题描述 / Problem Description**:
+有吗？价格多少啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253872#reply1
+
+---
+
+#### 11152. [V2EX] YY 一下未来新的软件研发模式
+
+**问题描述 / Problem Description**:
+传统的软件研发模式下，无论是设计、开发还是测试环节，很多都在追求逻辑清晰、简洁、代码低耦合 ai 开发模式下，可能会完全变成混沌模式，没有人再 review ai 的代码，只把软件当成黑盒来进行测试，只要功能和性能符合要求，就是合格的软件 就像自然进化出来的各种生物一样，比如人类，体内复杂的相互作用叹为观止，各种疑似的无效遗传信息，各种低效的处理机制，混合在一起，形成了一个最终表现比较完美的生物。在时间长河中，大自然用各种测试方式，消灭了生物体内的 bug 。或者说，bug 少的生物干掉了 bug 多的生物。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253864#reply3
+
+---
+
+#### 11153. [V2EX] 没人讨论百度网盘读取磁力计数据实现摇一摇，绕开 iOS27.2 的新限制吗？
+
+**问题描述 / Problem Description**:
+iOS27.2 上线的国内特供功能：可以让用户对某些 app 禁止读取陀螺仪传感器，让某些 app 的摇一摇自动广告 sdk 失效； 现在据说百度通过读取磁力计数据，另辟蹊径了···· “ 百度网盘使用的框架里有个专门的 [没有运动] (NoShake) 变体，这个变体没有依靠常规的 CoreMotion 动作监听，而是使用苹果 Core Location 框架中的 CLHeading 获取设备方向数据。 CLHeading 属于磁力计相关的框架，该框架可以提供设备相对于磁北方向的朝向和用于计算方向的三轴磁场数据。 简单来说，手机姿态发生变化时磁力计返回的数据也可能随之变化，广告组件可以据此判
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253863#reply12
+
+---
+
+#### 11154. [V2EX] 大众点评/美团刷评论
+
+**问题描述 / Problem Description**:
+大佬们，有没有刷大众点评/美团评论的平台啊，推给小弟一手
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253861#reply0
+
+---
+
+#### 11155. [V2EX] 你有什么可以赚钱的爱好
+
+**问题描述 / Problem Description**:
+这个爱好是真心喜欢 赚钱是意外惊喜 不是为了赚钱而培养的爱好
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253848#reply0
+
+---
+
+#### 11156. [V2EX] 请问 v 友重新起飞了吗
+
+**问题描述 / Problem Description**:
+前段时间坠机日突然坠机了，ping 了下服务器还是通的，然后一通鼓捣结果连服务器都登不上了，当时就蒙蔽了，然后恢复快照，重新装机搞了一通还是不行，然后上站看了下说是被墙了，因为以往被墙的时候都是 ping 不通服务器了，还是头一次听 tcp 阻断的。如今大会也开完几天了，看看 v 友们的重新起飞了没，我的搬瓦工还是不行，在考虑要不要再换个 ip 了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253841#reply9
 
 ---

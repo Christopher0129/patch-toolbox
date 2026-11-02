@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4005**
+**总计条目 / Total entries: 4041**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57491,5 +57491,437 @@ It was discovered that the .NET Blazor WebAssembly debug proxy did not properly 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8958-1
+
+---
+
+#### 4006. CVE-2026-120325 - knip: knip: Arbitrary file overwrite via path traversal
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] knip: knip: Arbitrary file overwrite via path traversal. Bugzilla: 2564682
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564682
+
+---
+
+#### 4007. CVE-2026-120217 - loguru: loguru: Denial of Service via inefficient regular expression complexity
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] loguru: loguru: Denial of Service via inefficient regular expression complexity. Bugzilla: 2564513
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564513
+
+---
+
+#### 4008. CVE-2026-120247 - ffmpeg: ffmpeg: Information disclosure via uninitialized heap memory in Huffyuv…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: Information disclosure via uninitialized heap memory in Huffyuv decoder. Bugzilla: 2564497
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564497
+
+---
+
+#### 4009. CVE-2026-120246 - ffmpeg: ffmpeg: Information disclosure via uninitialized palette entries in CDXL…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: Information disclosure via uninitialized palette entries in CDXL decoder. Bugzilla: 2564498
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564498
+
+---
+
+#### 4010. CVE-2026-120244 - ffmpeg: ffmpeg: Information disclosure via truncated PCX image
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: Information disclosure via truncated PCX image. Bugzilla: 2564499
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564499
+
+---
+
+#### 4011. CVE-2026-120245 - ffmpeg: ffmpeg: Information disclosure via crafted Sun Raster image
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: Information disclosure via crafted Sun Raster image. Bugzilla: 2564503
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564503
+
+---
+
+#### 4012. CVE-2026-120243 - ffmpeg: ffmpeg: information disclosure via crafted Go2Meeting stream
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: information disclosure via crafted Go2Meeting stream. Bugzilla: 2564505
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564505
+
+---
+
+#### 4013. CVE-2026-120210 - ffmpeg: ffmpeg: Information disclosure via path traversal in IMF demuxer
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] ffmpeg: ffmpeg: Information disclosure via path traversal in IMF demuxer. Bugzilla: 2564470
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564470
+
+---
+
+#### 4014. CVE-2026-119977 - wordpress: WordPress: Arbitrary code execution via predictable upgrade staging…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] wordpress: WordPress: Arbitrary code execution via predictable upgrade staging paths. Bugzilla: 2564405
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564405
+
+---
+
+#### 4015. CVE-2026-118938 - fickling: fickling: Arbitrary code execution via safety analysis bypass for…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fickling: fickling: Arbitrary code execution via safety analysis bypass for dotted attribute paths. Bugzilla: 2564329
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564329
+
+---
+
+#### 4016. CVE-2026-16760 - fickling: fickling: Arbitrary code execution via safety check bypass
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] fickling: fickling: Arbitrary code execution via safety check bypass. Bugzilla: 2564323
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564323
+
+---
+
+#### 4017. CVE-2026-119341 - tesseract: tesseract: Denial of service via crafted template files
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: tesseract: Denial of service via crafted template files. Bugzilla: 2564307
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564307
+
+---
+
+#### 4018. CVE-2026-119340 - tesseract: tesseract: Denial of Service via crafted traineddata file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: tesseract: Denial of Service via crafted traineddata file. Bugzilla: 2564316
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564316
+
+---
+
+#### 4019. CVE-2026-119339 - tesseract: Tesseract: Denial of service via crafted trained model file
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: Tesseract: Denial of service via crafted trained model file. Bugzilla: 2564284
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564284
+
+---
+
+#### 4020. CVE-2026-119338 - tesseract: tesseract: Denial of Service via crafted right-to-left text rendering
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] tesseract: tesseract: Denial of Service via crafted right-to-left text rendering. Bugzilla: 2564292
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564292
+
+---
+
+#### 4021. CVE-2026-61848 - crass: crass: Denial of Service via crafted non-ASCII CSS input
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] crass: crass: Denial of Service via crafted non-ASCII CSS input. Bugzilla: 2564251
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564251
+
+---
+
+#### 4022. CVE-2026-61847 - crass: crass: Denial of Service via excessive recursion when processing comments
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] crass: crass: Denial of Service via excessive recursion when processing comments. Bugzilla: 2564254
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564254
+
+---
+
+#### 4023. CVE-2026-61846 - crass: crass: Denial of Service via deeply nested CSS structures
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] crass: crass: Denial of Service via deeply nested CSS structures. Bugzilla: 2564253
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564253
+
+---
+
+#### 4024. CVE-2026-61845 - crass: crass: Denial of Service via crafted scientific notation in CSS
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] crass: crass: Denial of Service via crafted scientific notation in CSS. Bugzilla: 2564247
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564247
+
+---
+
+#### 4025. CVE-2026-84243 - glibc: glibc: Arbitrary code execution via directory traversal in LANGUAGE…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] glibc: glibc: Arbitrary code execution via directory traversal in LANGUAGE environment variable. Bugzilla: 2564231
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2564231
+
+---
+
+#### 4026. [Ubuntu] USN-8958-1: .NET vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the .NET Blazor WebAssembly debug proxy did not properly escape certain values. An attacker could possibly use this issue to execute arbitrary code. The fix for this CVE was originally released via USN-8942-1, but it was found to be incomplete. This issue only affected dotnet10 and dotnet11. (CVE-2026-102870) It was discovered that the Brotli decompression library used by .N
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8958-1
+
+---
+
+#### 4027. [Ubuntu] USN-8956-2: Brotli vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8956-1 fixed a vulnerability in Brotli. This update provides the corresponding fixes for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. Original advisory details: It was discovered that Brotli incorrectly handled certain compressed streams. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8956-2
+
+---
+
+#### 4028. [Ubuntu] USN-8957-1: authd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ali Mashally discovered that authd did not properly validate user identities when matching accounts from identity providers. An attacker could possibly use this issue to gain access to another user's local account and files, resulting in unauthorized access to sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8957-1
+
+---
+
+#### 4029. [Ubuntu] USN-8956-1: Brotli vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Brotli incorrectly handled certain compressed streams. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8956-1
+
+---
+
+#### 4030. [Ubuntu] USN-8955-1: nginx vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that nginx incorrectly handled certain configurations using the alias directive together with rewrite rules. A remote attacker could possibly use this issue to cause nginx to crash, resulting in a denial of service, or execute arbitrary code. (CVE-2026-15176) It was discovered that nginx incorrectly handled map directives using regex matching under certain circumstances. A remote
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8955-1
+
+---
+
+#### 4031. [Ubuntu] USN-8954-1: zlib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Ali Firas discovered that zlib incorrectly handled certain non-blocking write operations. An attacker could possibly use this issue to trigger a heap buffer overflow, resulting in a denial of service or arbitrary code execution.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8954-1
+
+---
+
+#### 4032. [Ubuntu] USN-8953-1: OpenVPN vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenVPN incorrectly handled certificate subject fields. A remote authenticated user could possibly use this issue to impersonate other users.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8953-1
+
+---
+
+#### 4033. [Ubuntu] USN-8952-1: Tornado vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Tornado did not properly handle certain HTTP requests and network inputs. An attacker could possibly use these issues to cause a denial of service, expose sensitive information, or bypass access controls. (CVE-2023-54397, CVE-2024-14029, CVE-2026-91990, CVE-2026-91992, CVE-2026-103262, CVE-2026-103263)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8952-1
+
+---
+
+#### 4034. [Ubuntu] USN-8890-2: libsoup vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-8890-1 fixed vulnerabilities in libsoup. This update provides the corresponding updates for libsoup3 on Ubuntu 26.10. Original advisory details: It was discovered that libsoup incorrectly handled certain HTTP/2 requests. A remote attacker could possibly use this issue to cause a denial of service. This issue only affected Ubuntu 24.04 LTS and Ubuntu 26.04 LTS. (CVE-2026-4271) It was discovered
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8890-2
+
+---
+
+#### 4035. [SUSE] SUSE-SU-2026:4984-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 12 for SUSE Linux Enterprise 15 SP7) Announcement ID: SUSE-SU-2026:4984-1 Release Date: 2026-11-01T18:35:11Z Rating: important References: * bsc#1269766 * bsc#1271837 * bsc#1272521 * bsc#1272874 * bsc#1274712 * bsc#1277399 * bsc#1277679 * bsc#1280285 * bsc#1280693 * bsc#1280728 * bsc#1280760 * bsc#1285686 Cross-References: * CVE-2026-53016 * CV
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-November.txt
+
+---
+
+#### 4036. [SUSE] SUSE-SU-2026:4971-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 22 for SUSE Linux Enterprise 15 SP7) Announcement ID: SUSE-SU-2026:4971-1 Release Date: 2026-10-31T20:04:54Z Rating: important References: * bsc#1285686 Cross-References: * CVE-2026-98432 CVSS scores: * CVE-2026-98432 ( SUSE ): 9.2 CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N * CVE-2026-98432 ( SUSE ): 8.1 CVSS:3.1/AV:N/AC:H/
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-November.txt
+
+---
+
+#### 4037. [SUSE] SUSE-SU-2026:4966-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 18 for SUSE Linux Enterprise 15 SP7) Announcement ID: SUSE-SU-2026:4966-1 Release Date: 2026-10-31T14:05:26Z Rating: important References: * bsc#1271837 * bsc#1272521 * bsc#1272874 * bsc#1274712 * bsc#1277399 * bsc#1280285 * bsc#1280693 * bsc#1280728 * bsc#1280760 * bsc#1285686 Cross-References: * CVE-2026-53381 * CVE-2026-63968 * CVE-2026-6421
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-November.txt
+
+---
+
+#### 4038. [SUSE] SUSE-SU-2026:4960-1: important: Security update for the Linux Kernel
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+# Security update for the Linux Kernel RT (Live Patch 20 for SUSE Linux Enterprise 15 SP7) Announcement ID: SUSE-SU-2026:4960-1 Release Date: 2026-10-31T14:04:49Z Rating: important References: * bsc#1280285 * bsc#1280693 * bsc#1280728 * bsc#1280760 * bsc#1285686 Cross-References: * CVE-2026-74469 * CVE-2026-89544 * CVE-2026-89551 * CVE-2026-89674 * CVE-2026-98432 CVSS scores: * CVE-2026-74469 ( SU
+
+**参考链接 / References**:
+- https://lists.suse.com/pipermail/sle-security-updates/2026-November.txt
+
+---
+
+#### 4039. [Arch] AVG-2850
+
+**严重程度 / Severity**: MEDIUM
+
+**漏洞描述 / Description**:
+[Arch Linux] Packages: openjpeg2. Status: Vulnerable.
+
+**参考链接 / References**:
+- https://security.archlinux.org/
+
+---
+
+#### 4040. [Gentoo] GLSA 202610-02: PHP: Multiple Vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple vulnerabilities have been found in PHP, the worst of which could result in remote code execution.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202610-02
+
+---
+
+#### 4041. [Gentoo] GLSA 202610-01: ca-certificates: Compromised Intermediate Certificate Authority
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A vulnerability has been discovered in ca-certificates where an intermediate Certificate Authority has been compromised.
+
+**参考链接 / References**:
+- https://security.gentoo.org/glsa/202610-01
 
 ---

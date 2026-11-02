@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 972**
+**总计条目 / Total entries: 995**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -14156,5 +14156,370 @@ Freed by task 454 on cpu 2 at 285.217112s:
 
 **参考链接 / References**:
 - https://www.exploit-db.com/exploits/52682
+
+---
+
+#### 973. CVE-2026-109618 - [remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52704
+
+---
+
+#### 974. [webapps] pizzafy-1.0 - SQLi
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] pizzafy-1.0 - SQLi
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52703
+
+---
+
+#### 975. [remote] South River Technologies Titan MFT Server 26.0.0 - code execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] South River Technologies Titan MFT Server 26.0.0 - code execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52701
+
+---
+
+#### 976. [remote] Synametrics Syncrify 6.2 - command execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Synametrics Syncrify 6.2 - command execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52700
+
+---
+
+#### 977. [webapps] Keycloak  26.7.2 - Unauthenticated Account Takeover
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Keycloak 26.7.2 - Unauthenticated Account Takeover
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52699
+
+---
+
+#### 978. [webapps] Open eClass 3.15 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Open eClass 3.15 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52698
+
+---
+
+#### 979. [webapps] Automotive Shop Management System 1.0 - SQLi
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Automotive Shop Management System 1.0 - SQLi
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52697
+
+---
+
+#### 980. [remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Edimax BR-6478AC firmware v2.20 - authenticated command injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52696
+
+---
+
+#### 981. [remote] Exasol Database 7.1.30 - command execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Exasol Database 7.1.30 - command execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52695
+
+---
+
+#### 982. [remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52694
+
+---
+
+#### 983. [remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52693
+
+---
+
+#### 984. [remote] Teltonika_RutOS 00.07.06.21 - command injection
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Teltonika_RutOS 00.07.06.21 - command injection
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52692
+
+---
+
+#### 985. [webapps] TigerGraph_Community_Edition 4.2.4  - arbitrary file write
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] TigerGraph_Community_Edition 4.2.4 - arbitrary file write
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52691
+
+---
+
+#### 986. [webapps] WordPress 7.0.2 - Path Travesal
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] WordPress 7.0.2 - Path Travesal
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52690
+
+---
+
+#### 987. [webapps] Food-Ordering 1.0  -  LFI
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Food-Ordering 1.0 - LFI
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52689
+
+---
+
+#### 988. [remote] Ecava_ntegraXor  IGX_16.0.701.10 - RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Ecava_ntegraXor IGX_16.0.701.10 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52688
+
+---
+
+#### 989. [webapps] Krayin CRM 2.2.4 - IDOR
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] Krayin CRM 2.2.4 - IDOR
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52687
+
+---
+
+#### 990. [webapps] SuiteCRM  8.10.1 - Authenticated SSRF
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] SuiteCRM 8.10.1 - Authenticated SSRF
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52686
+
+---
+
+#### 991. [webapps] InvoicePlane 1.7.1 -  RCE
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] InvoicePlane 1.7.1 - RCE
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52685
+
+---
+
+#### 992. [webapps] POMS oretnom23v1.0  - SQLi vulnerabilities
+
+**严重程度 / Severity**: EXPLOIT
+
+**漏洞描述 / Description**:
+[Exploit-DB] POMS oretnom23v1.0 - SQLi vulnerabilities
+
+**参考链接 / References**:
+- https://www.exploit-db.com/exploits/52684
+
+---
+
+#### 993. CVE-2026-90251
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: MSFT: validate evt_prefix_len against the response length
+
+read_supported_features() only checks that the response covers the fixed
+part of struct msft_rp_read_supported_features, which is 11 bytes:
+
+	if (skb->len < sizeof(*rp)) {
+		bt_dev_err(hdev, "MSFT supported features length mismatch");
+		goto failed;
+	}
+
+evt_prefix[] is a flexible array member and rp->evt_prefix_len is an
+unvalidated u8 taken straight out of that response, so
+
+	msft->evt_prefix = kmemdup(rp->evt_prefix, rp->evt_prefix_len,
+				   GFP_KERNEL);
+
+copies up to 255 bytes from a reply that may have carried none of them.
+What is copied is data the controller never sent, and it is then used to
+match incoming vendor events in msft_vendor_evt().
+
+This is not an out-of-bounds access. An skb data allocation always has
+at least SKB_DATA_ALIGN(sizeof(struct skb_shared_info)) bytes past the
+payload, which is more than the 255 byte maximum, so the read stays
+inside the allocation and KASAN does not report it. It is still a read
+of bytes the host was never given, with the length fully controlled by
+the controller.
+
+Reject a response that is too short for the prefix it declares.
+
+Verified with an emulated controller over /dev/vhci on a KASAN kernel,
+with vhci made to advertise an MSFT opcode the way btintel, btqca, btmtk
+and btrtl do unconditionally. A reply of exactly 11 bytes declaring
+evt_prefix_len = 255 reaches kmemdup and copies 255 bytes
+("skb->len=11 evt_prefix_len=255", with the copied buffer dumped); since
+the reply ends at the fixed part, all 255 come from past the end of the
+response. No KASAN report is produced, as expected from the allocation
+slack described above. With this patch the response is rejected with
+"MSFT event prefix length mismatch" and msft->evt_prefix is left unset.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/0079e1a944634ab2dc1c7cdec1144486d096407e
+- https://git.kernel.org/stable/c/21f539c59ed330b671d75fd119c5f659ff92fbd1
+- https://git.kernel.org/stable/c/52b1b3b4d403cbda1b70ce2385e1a71f166a87ba
+- https://git.kernel.org/stable/c/620c2631cff490d14d0b9d56f185cc745806d6d7
+- https://git.kernel.org/stable/c/63562cfaea8a650fdb31ee8de21c32e3600be642
+
+---
+
+#### 994. CVE-2026-98109
+
+**严重程度 / Severity**: MEDIUM | CVSS: 4.7
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+Bluetooth: hci_core: Fix race condition during device registration
+
+In hci_register_dev(), the power_on work item is queued to
+hdev->req_workqueue before initializing hdev->adv_monitors_idr and
+registering the MSFT extension via msft_register(). For devices marked with
+quirks such as HCI_QUIRK_RAW_DEVICE, the HCI_UNCONFIGURED flag is set on
+the device. When the power_on work item runs concurrently on another CPU,
+hci_power_on() detects that the device is unconfigured and immediately
+invokes hci_dev_do_close(), which calls msft_do_close().
+
+Concurrently, msft_register() allocates the msft structure and exposes it
+to hdev->msft_data prior to calling mutex_init(&msft->filter_lock). If
+msft_do_close() executes while hdev->msft_data is already assigned but the
+mutex has not yet been initialized, mutex_lock(&msft->filter_lock) operates
+on an uninitialized mutex, triggering a DEBUG_LOCKS warning:
+
+DEBUG_LOCKS_WARN_ON(lock->magic != lock)
+WARNING: kernel/locking/mutex.c:625 at __mutex_lock_common
+kernel/locking/mutex.c:625 [inline]
+WARNING: kernel/locking/mutex.c:625 at __mutex_lock+0x12d8/0x1550
+kernel/locking/mutex.c:821
+...
+Call Trace:
+ <TASK>
+ msft_do_close+0x308/0x7b0 net/bluetooth/msft.c:693
+ hci_dev_close_sync+0x86b/0x10a0 net/bluetooth/hci_sync.c:5522
+ hci_dev_do_close net/bluetooth/hci_core.c:499 [inline]
+ hci_power_on+0x32c/0x750 net/bluetooth/hci_core.c:937
+ process_one_work kernel/workqueue.c:3322 [inline]
+ process_scheduled_works+0xa8e/0x14e0 kernel/workqueue.c:3405
+ worker_thread+0x92d/0xe10 kernel/workqueue.c:3486
+ kthread+0x388/0x470 kernel/kthread.c:436
+ ret_from_fork+0x514/0xb70 arch/x86/kernel/process.c:158
+ ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:245
+ </TASK>
+
+Fix this by moving the queue_work() call in hci_register_dev() to after
+idr_init(&hdev->adv_monitors_idr) and msft_register(hdev) so that device
+structures and extensions are fully initialized before asynchronous tasks
+can access them. Additionally, assign hdev->msft_data in msft_register()
+only after mutex_init(&msft->filter_lock) has completed.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18
+- https://git.kernel.org/stable/c/593e64f64a20b25e4042c3ee863119eb7f991785
+- https://git.kernel.org/stable/c/a11ebe8dc0333fb870bbbb656b34690e87ee3f98
+- https://git.kernel.org/stable/c/b1faf348c29e6f8302ec7769cbf1c1ef05be014f
+- https://git.kernel.org/stable/c/d427b1c71d9798083e954d3c13469dc0a2305868
+
+---
+
+#### 995. CVE-2026-49933
+
+**严重程度 / Severity**: HIGH | CVSS: 7.8
+
+**漏洞描述 / Description**:
+In handle_le_monitor_device_event of msft.cc, there is a possible control-flow hijack in the privileged bluetooth process due to an uninitialized pointer dereference. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+**参考链接 / References**:
+- https://source.android.com/docs/security/bulletin/2026/2026-10-01
 
 ---

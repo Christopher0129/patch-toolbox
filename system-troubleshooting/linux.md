@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10429**
+**总计条目 / Total entries: 10488**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -143549,5 +143549,772 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1241963#reply8
+
+---
+
+#### 10430. How to run a regular (Ubuntu) Linux installation from SSD/SD with physical read-only switch?
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, systemd, readonly, overlayfs | Score: 12 | Views: 588 | Answers: 1 | Created: 2026-10-22
+
+**解决方案 / Solution**:
+This is possible, and needs tweaks in two locations. First is the overlayfs setup performed in the initramfs, enabling it if and only if the system storage is read-only. The second is disabling a few systemd services that fail to start on read-only storage. This answer assumes that the hardware correctly reports the read-only state when the read-only mode is enabled. This should be true for any reasonable hardware, but verify beforehand. Step 1: Setup an overlayfs via overlayroot Determine the file system UUID of the root filesystem: Run findmnt -no UUID / (Or extract it from the output of sudo blkid ). Use the reported UUID to replace the placeholder ROOT-UUID-HERE in the script below. Install package overlayroot : sudo apt install overlayroot The overlayroot configuration in /etc/overlayroot.conf states that it is managed by dpkg , and customisations should be placed in /etc/overlayroot.local.conf , so that will be used to avoid conflicts during package updates. Both files are shell scripts that will be sourced within the initramfs, so the configuration will be a shell script fragment. Create /etc/overlayroot.local.conf as root and fill it with: overlayroot="" _root_device="$(readlink -f /dev/disk/by-uuid/ROOT-UUID-HERE 2>/dev/null)" _root_name="${_root_device##*/}" if [ -n "${_root_name}" ] && [ -r "/sys/class/block/${_root_name}/ro" ]; then read -r _root_readonly < "/sys/class/block/${_root_name}/ro" if [ "${_root_readonly}" = "1" ]; then overlayroot="tmpfs" fi else overlayroot="tmpfs" fi unset _root_device _root_name _root_readonly The overlayfs is recursive by default, so it automatically covers any additional partitions, like /home or /boot on separate partitions. The script above explicitly enables the overlayroot, if the block device of the root file system can't be determined. An empty value for overlayroot ( overlayroot="" ) will completely disable it, and use the base storage as-is. This is the path, if the system disk is writeable. Once the configuration is in place, regenerate the initramfs to copy the new configuration into the initramfs: sudo update-initramfs -u -k all Step 2: Disable failing systemd units Some systemd units fail when booting from read-only storage, and of these, some failures are lethal. Especially any failing systemd-fsck@.service will result in booting to maintenance mode, instead of the desired graphical.target or multi-user.target . These file system checks run each boot and will fail consistently when booting from a read-only boot medium, so it is important to disable them. On my Ubuntu 26.04 installation, there are 3 failing services Multiple instances of the systemd-fsck@.service template unit grub2-common.service grub-initrd-fallback.service The grub-related services just want to store if the boot was successful, and failures are non-lethal. But since they leave the system in a non-clean state when failing, they will be disabled, together with systemd-fsck@.service when running on a read-only disk. To disable the services, create drop-in files that will conditionally disable the units when the read-only switch is enabled: Create a drop-in configuration file (and their parent directory) for each failing service: /etc/systemd/system/systemd-fsck@.service.d/readonly.conf /etc/systemd/system/grub2-common.service.d/readonly.conf /etc/systemd/system/grub-initrd-fallback.service.d/readonly.conf Any other service that fails during boot. While in read-only mode, use systemctl status --failed to check. Each with content: [Unit] ConditionPathIsMountPoint=!/media/root-ro Note that prefixing the path with ! negates the condition : If the absolute path name passed to ConditionPathExists= is prefixed with an exclamation mark ("!"), the test is negated, and the unit is only started if the path does not exist. When the overlayfs is active, the overlay is created from the read-only lower-root mounted at /media/root-ro , and the tmpfs-based, writable upper-root. A test if /media/root-ro is a mount point can thus be used to disable the failing units. When booting in read-only mode, the disabled services will report so like this: $ systemctl status grub2-common.service ○ grub2-common.service - Record successful boot for GRUB Loaded: loaded (/usr/lib/systemd/system/grub2-common.service; enabled; preset: enabled) Drop-In: /etc/systemd/system/grub2-common.service.d └─readonly.conf Active: inactive (dead) Condition: start condition unmet at Thu 2026-10-22 15:45:21 CEST; 8min ago └─ ConditionPathIsMountPoint=!/media/root-ro was not met
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807729/how-to-run-a-regular-ubuntu-linux-installation-from-ssd-sd-with-physical-read
+
+---
+
+#### 10431. The `who` command no longer displays usernames, only user IDs
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, uid, who | Score: 11 | Views: 1070 | Answers: 1 | Created: 2026-10-04
+
+**解决方案 / Solution**:
+Ubuntu 26.04 increasingly uses the Rust-based uutils/coreutils implementation instead of the traditional GNU Coreutils implementations. There is already a reported AppArmor issues/bug in Ubuntu 26.04 where the new who implementation from uutils/coreutils is restricted by the AppArmor profile. From @sudo nano comment: Look inside /etc/apparmor.d for anything related to who . From @steeldriver comment: I can confirm this behavior on a Lubuntu 26.04 VM and indeed see apparmor=DENIED messages for profile="who" name="/etc/passwd" (and similar for /etc/nsswitch.conf ). It seems to be sufficient to create a /etc/apparmor.d/local/who with content /etc/passwd r, and reload the profile with sudo apparmor_parser -r /etc/apparmor.d/who More sources: who produces no output on 26.04 LTS who: who -b produces no output if /var/run/utmp is missing #11559 apparmor="DENIED" operation="open" class="file" profile="who" name="/usr/share/coreutils/locales/who/fr-FR.ftl" New AppArmor sandboxing profiles who produces no output on 26.04 LTS Incompatibility with AppArmor #10135 AppArmor vulnerability fixes available
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807560/the-who-command-no-longer-displays-usernames-only-user-ids
+
+---
+
+#### 10432. Intel 6250 Wi-Fi stuck in "Hard blocked: yes" on Pegatron Lucid tablet, works in Windows
+
+**问题描述 / Problem Description**:
+Tags: debian, wifi, intel, acpi | Score: 8 | Views: 472 | Answers: 1 | Created: 2026-10-10
+
+**解决方案 / Solution**:
+The BIOS leaves a second radio-disable line asserted, and the asus-laptop driver never touches it. Cause The tablet's DSDT has two ATK methods, \_SB.ATKD.ENPR (enable) and \_SB.ATKD.DAPR (disable). Each takes a radio id and drives a chipset GPIO (GP_LVL register at I/O 0x48C ) plus an EC bit: Id Radio GPIO EC bit Exposed by asus-laptop State at boot 0 WLAN GP18 WLRF yes ( pega-wlan ) enabled 1 Bluetooth GP17 BTRF yes ( pega-bt ) enabled 2 WWAN GP20 WWAN yes ( pega-wwan ) enabled 6 WiMAX ( WMHD ) GP27 WMHD no disabled Method (ENPR, 1, NotSerialized) { If ((Arg0 == Zero)) { GP18 = Zero; WLRF = Zero } ... If ((Arg0 == 0x06)) { GP27 = Zero; WMHD = Zero; ALED (One) } Return (One) } The 6250 is a Wi-Fi + WiMAX combo card. On this board, GPIO27 still high keeps the whole card in hardware RF-kill, Wi-Fi included. asus-laptop only registers rfkill switches for ids 0, 1 and 2, so it never calls ENPR(6) . The Windows Pegatron utility apparently does. Check that you have the same problem (read-only) sudo python3 -c "import struct;f=open('/dev/port','rb');f.seek(0x48c);v=struct.unpack('<I',f.read(4))[0];print('GP18(WLAN)=%d GP27(WMHD)=%d'%(v>>18&1,v>>27&1))" If you have the same problem, the output is GP18(WLAN)=0 GP27(WMHD)=1 . Fix sudo apt install acpi-call-dkms sudo modprobe acpi_call echo '\_SB.ATKD.ENPR 6' | sudo tee /proc/acpi/call The kernel immediately logs: iwlwifi 0000:02:00.0: RF_KILL bit toggled to enable radio. iwlwifi 0000:02:00.0: reporting RF_KILL (radio enabled) phy0 is now Hard blocked: no , and iw dev wlp2s0 scan lists networks. No driver reload or reboot is needed. Make it persistent The BIOS asserts the line again on every boot, so run the call from a systemd unit. /usr/local/sbin/lucid-wlan-enable : #!/bin/sh modprobe acpi_call || exit 1 echo '\_SB.ATKD.ENPR 6' > /proc/acpi/call /etc/systemd/system/lucid-wlan-enable.service : [Unit] Description=Pegatron Lucid: release Intel 6250 W_DISABLE (ACPI ENPR 6) After=systemd-modules-load.service Before=network-pre.target NetworkManager.service Wants=network-pre.target [Service] Type=oneshot ExecStart=/usr/local/sbin/lucid-wlan-enable RemainAfterExit=yes [Install] WantedBy=multi-user.target sudo chmod 755 /usr/local/sbin/lucid-wlan-enable sudo systemctl daemon-reload sudo systemctl enable --now lucid-wlan-enable.service To revert: echo '\_SB.ATKD.DAPR 6' | sudo tee /proc/acpi/call . Warnings Don't call DAPR(0) to "reset" Wi-Fi. DAPR means disable . Don't call EC query handlers such as \_SB.PCI0.SBRG.EC0._Q0B by hand. In my case that hung the tablet hard, and only pulling the battery recovered it. Tested on Debian 13, kernel 6.12.111, acpi-call-dkms 1.2.2. Verified across reboots. https://github.com/kotekompotek/pegatron-lucid-linux-wifi
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807626/intel-6250-wi-fi-stuck-in-hard-blocked-yes-on-pegatron-lucid-tablet-works-in
+
+---
+
+#### 10433. Atomically copying and truncating a file being appended to
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, file-copy, truncate | Score: 8 | Views: 234 | Answers: 1 | Created: 2026-09-19
+
+**解决方案 / Solution**:
+A common solution is to use rename() instead of copy + truncate. Rename the active log file to bar , then immediately create a new foo . The writer can keep its existing file descriptor, while new writes continue safely to the old inode. However, this only works if the writer opens/reopens the log appropriately. If it must keep writing to the same open inode, copy + truncate cannot be made truly atomic without coordinating with the writer. A short pause or proper log-rotation mechanism is safer than risking lost lines.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807412/atomically-copying-and-truncating-a-file-being-appended-to
+
+---
+
+#### 10434. Linux KMS, framebuffer console, no user logged in, how to turn off monitor?
+
+**问题描述 / Problem Description**:
+Tags: linux, console, power-management | Score: 7 | Views: 455 | Answers: 1 | Created: 2026-10-14
+
+**解决方案 / Solution**:
+I solved this on a server using setterm . The problem with this solution is that I can only turn the monitor back on (restore the display) via SSH or by performing a cold boot. Give it a try, maybe this solution works for you, and you can tweak some other settings if needed. See How can I turn the screen back on using setterm or another command, only with the core utilities over ssh? The salient points are these: I turned off the screen using setterm --blank force on the device itself, and now I can't turn it back on by pressing a key because force causes keyboard input to be ignored. To turn the screen back on after it has been turned off with setterm --blank force , you can use the following command from a separate TTY only with remote connect over ssh or through another interface that has direct access to the console Login with ssh on the device and ran: sudo sh -c 'TERM=linux setterm --blank poke </dev/tty1' And i can switch off the screen now over ssh with: sudo sh -c 'TERM=linux setterm --blank force </dev/tty1'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807659/linux-kms-framebuffer-console-no-user-logged-in-how-to-turn-off-monitor
+
+---
+
+#### 10435. Efficiency of using mke2fs -d for pre-populating a large filesystem
+
+**问题描述 / Problem Description**:
+Tags: linux, filesystems, ext4, mkfs | Score: 6 | Views: 344 | Answers: 1 | Created: 2026-10-26
+
+**解决方案 / Solution**:
+This option is handled by populate_fs3 ; providing a complete answer to your question would require analysing all the calls it makes in detail, which I am not going to attempt. Some aspects are conditioned by the source of the data being written; for example, archives generally don’t represent sparse files, but file creation from an archive detects zero blocks and seeks past them. When copying from a file system, holes are replicated using FIEMAP information . mke2fs relies on libext2fs , so anything supported by the latter can be used. Thus fast symlinks are supported (that is to say, symlinks whose target fits within the inode). Other features aren’t so well supported. Inode allocation is one area where improvements could be made: currently, inodes are allocated by searching forwards from the parent directory’s block group. Grouped allocations (the practical equivalent of delayed allocation here) aren’t explicitly supported as far as I can tell; however, when copying from an existing file system, files are written one at a time in alphabetical order, so allocations should be good anyway, and when copying from an archive, files are allocated in archive order, so the archive can be built in a way that ensures good allocations too.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807755/efficiency-of-using-mke2fs-d-for-pre-populating-a-large-filesystem
+
+---
+
+#### 10436. What Are Hexadecimal Service Names in a cgroup Used For?
+
+**问题描述 / Problem Description**:
+Tags: linux, cgroups | Score: 4 | Views: 300 | Answers: 1 | Created: 2026-10-31
+
+**解决方案 / Solution**:
+Modern Desktop Environments launch each application (desktop file) as a systemd service. There are high level recommendations for DE systemd integration on this page . The hexadecimal string is randomly generated to allow multiple instances of the same application to coexist. The services starting with app- normally correspond to the started desktop applications. Once application program is started, it can use systemd D-Bus APIs to rearrange processes to some extent (at least, to connect processes to a different scope). That is what Konsole does. Why the hierarchy looks this way in your case can probably be answered only by reading the source code of the exact konsole version you are using. On KDE 6.8.0 I see more regular and logical organization: | |-app-org.kde.konsole-2472.scope | | |-main.scope | | | `-2472 /usr/bin/konsole | | |-tab(2477).scope | | | |-2477 /bin/bash | | | |-2876 systemctl status | | | `-2877 cat | | `-tab(2855).scope | | `-2855 /bin/bash Konsole creates a separate scope for each tab and additionally the scope for itself. The transient service that has been created when the konsole.desktop was launched is still there: or@uefi:~> LANG=C systemctl --user --no-pager status 'app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service' * app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service - Konsole - Terminal Loaded: loaded (/home/bor/.local/share/plasma_icons/org.kde.konsole (1).desktop; transient) Transient: yes Active: active (running) since Sat 2026-10-31 17:31:59 MSK; 1h 16min ago Invocation: 3ed0cd6e81874a9ca50c0c5921c3571e Main PID: 2472 (konsole) Tasks: 0 (limit: 3387) CPU: 126ms CGroup: /user.slice/user-1001.slice/user@1001.service/app.slice/app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service > 2472 /usr/bin/konsole It just appears to have no processes (as indicated by > prefix). The Konsole version you are using apparently has not yet implemented it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807819/what-are-hexadecimal-service-names-in-a-cgroup-used-for
+
+---
+
+#### 10437. How to reliably track a specific window and change its current location from a script?
+
+**问题描述 / Problem Description**:
+Tags: debian, gnome, wayland, nautilus | Score: 4 | Views: 283 | Answers: 1 | Created: 2026-09-30
+
+**解决方案 / Solution**:
+You can tell Nautilus window to show the specific URL with busctl --user call org.gnome.Nautilus /org/gnome/Nautilus/window/1 org.gtk.Actions Activate "sava{sv}" open-location 1 s file:///usr/bin 0 And yes, the N in the path is the GTK Aplication Window ID which is expected to be unique through the lifetime of the application. It will be reset if Nautilus is restarted though. To be on safe side you likely need to subscribe to D-Bus name owner changes and flush any association if Nautilus goes away.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807516/how-to-reliably-track-a-specific-window-and-change-its-current-location-from-a-s
+
+---
+
+#### 10438. How to troubleshoot hibernate failure (using a swap file; hard shutdown instead) on Debian 13 with systemd
+
+**问题描述 / Problem Description**:
+Tags: debian, hibernate | Score: 3 | Views: 171 | Answers: 1 | Created: 2026-10-29
+
+**解决方案 / Solution**:
+I tried to hibernate, however the computer 'hard shutdown' (power cuts out, That's the expected result of hibernation. While technically the S4 state isn't the same as S5, in practice it results in the same thing. After all, the entire purpose of hibernation is that it could resume from a complete power loss, so the next step after storing the hibernation image is indeed to power the whole thing off. If you're expecting the system to go into standby mode (like suspend to RAM), that also exists but as a separate combination called "hybrid sleep". (You can achieve it by changing the post-hibernate action in /sys/power/disk or using the dedicated systemctl subcommand, but you really need to have plain hibernation working before attempting the hybrid mode, anyway.) Maybe my hardware model does not supports hibernation at all? Resume from hibernation is not actually handled by firmware or hardware. That used to be a thing on laptops before/around the 2000s, but ever since the Win2000/WinXP days, everything – the suspend to disk and the resume from disk – is handled by the OS itself. That is, what's supposed to happen is that your computer starts the boot process as usual, your Linux kernel starts, and then it notices that there is a hibernation image present in the specified partition – at which point it loads the image and begins executing the old kernel from where it stopped (and the new half-booted kernel is thrown away). (For Windows it's similar but the resume is done by the Windows boot loader, a little bit earlier. Still not by the firmware.) Which means that your steps 2 and 3 actually have to be done after step 4. The currently running kernel has no use for the resume parameter (although systemd expects it to be already present for its pre-checks). Rather, it's the next boot – when you're expecting the resume to happen – that will be interpreting resume= from its cmdline. Usually the initramfs (initrd) is what writes the device and offset somewhere to /sys to trigger the actual resume. That part is slightly different between distros, however – while Arch's mkinitcpio-based initramfs expects a kernel parameter, Debian's initramfs-tools actually has a config file in /etc where you're supposed to set that and re-run update-initramfs , and then the device name gets embedded into the initrd. (I don't remember where the config is exactly but I believe it was in /etc/initramfs-tools/resume.conf or something close to that.) Maybe my swapfile is too scattered to hold the hibernation image? If I remember correctly, even though the filesystem isn't active during resume, the actual format of the hibernation image is designed to support multiple extents, i.e. the kernel starts by knowing just the first sector but each chunk of the image indicates the offset of the next chunk, so it can resume from a fragmented swap file. Earlier I thought it indeed has to be contiguous, since the resume kernel doesn't fully initialize the filesystem (it can't really do that as the filesystem hasn't been dismounted), all it knows is a start offset within the device. But if that were the case, then the swap file would probably have been rejected when you attempted to hibernate. (The process is even able to stop halfway, e.g. if the swap ends up being too small it'd just jump back to the desktop rather than powering off, and you'd have a bunch of messages in the still-running dmesg.)
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807791/how-to-troubleshoot-hibernate-failure-using-a-swap-file-hard-shutdown-instead
+
+---
+
+#### 10439. How do I mirror the Debian wheezy repo?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt, mirror | Score: 3 | Views: 306 | Answers: 1 | Created: 2026-10-27
+
+**解决方案 / Solution**:
+Debian's own archival mirror seems to have been created using a contemporary version of debmirror which contains a bug that skipped over the binary-all packages . This affects all repos between woody (3.0.x) and jessie (8.x). Because these files do not exist on the official archival repository, they must be restored from another source. Luckily, @muru was able to provide a link to snapshots. I compiled a complete list of all snapshots which are the very last before each release which had this bug was removed. Using the snapshots will provide a more complete mirror than Debian's archives. For example, Wheezy is missing about 1.8GB worth of files between the archive and the snapshot, due to these missing files. woody - https://snapshot.debian.org/archive/debian/20070103T000000Z/ sarge - https://snapshot.debian.org/archive/debian/20081027T000000Z/ etch - https://snapshot.debian.org/archive/debian/20100620T172521Z/ lenny - https://snapshot.debian.org/archive/debian/20120325T092335Z/ squeeze - https://snapshot.debian.org/archive/debian/20160330T220216Z/ wheezy - https://snapshot.debian.org/archive/debian/20190321T212815Z/ jessie - https://snapshot.debian.org/archive/debian/20230321T210320Z/ The issue appears to be how debmirror processes files. On Debian 7.7, this is the output when performed on the snapshot: Warning: --rsync-extra is not configured to mirror the trace files. This configuration is not recommended. Mirroring to ./wheezy/amd64 from http://snapshot.debian.org/archive/debian/20190101T025954Z/ Arches: amd64 Dists: wheezy Sections: main,contrib,non-free Pdiff mode: use Not checking Release gpg signatures. Will clean up after mirroring. Attempting to get lock ... Getting meta files ... [ 0%] Getting: dists/wheezy/Release... ok [ 0%] Getting: dists/wheezy/Release.gpg... ok [ 0%] Getting: dists/wheezy/main/binary-amd64/Packages.gz... ok [ 98%] Getting: dists/wheezy/main/binary-amd64/Release... ok [ 98%] Getting: dists/wheezy/contrib/binary-amd64/Packages.gz... ok [ 99%] Getting: dists/wheezy/contrib/binary-amd64/Release... ok [ 99%] Getting: dists/wheezy/non-free/binary-amd64/Packages.gz... ok [100%] Getting: dists/wheezy/non-free/binary-amd64/Release... ok Parsing Packages and Sources files ... Get Translation files ... [ 0%] Getting: dists/wheezy/contrib/i18n/Translation-en.bz2... ok [ 0%] Getting: dists/wheezy/main/i18n/Translation-en.bz2... ok [ 0%] Getting: dists/wheezy/non-free/i18n/Translation-en.bz2... ok Files to download: 45516 MiB Versus on the latest 13.7 release: Warning: --rsync-extra is not configured to mirror the trace files. This configuration is not recommended. Mirroring to ./wheezy/amd64 from http://snapshot.debian.org/archive/debian/20190101T025954Z/ Arches: amd64 Dists: wheezy Sections: main,contrib,non-free Pdiff mode: use Not checking Release gpg signatures. Will clean up after mirroring. Attempting to get lock ... Getting meta files ... [ 0%] Getting: dists/wheezy/Release... ok [ 0%] Getting: dists/wheezy/InRelease... Download of dists/wheezy/InRelease failed: 404 NOT FOUND [ 0%] Getting: dists/wheezy/Release.gpg... ok [ 0%] Getting: dists/wheezy/main/binary-amd64/Packages.gz... ok [ 68%] Getting: dists/wheezy/main/binary-amd64/Release... ok [ 68%] Getting: dists/wheezy/main/binary-all/Packages.gz... ok [ 98%] Getting: dists/wheezy/main/binary-all/Release... ok [ 98%] Getting: dists/wheezy/contrib/binary-amd64/Packages.gz... ok [ 98%] Getting: dists/wheezy/contrib/binary-amd64/Release... ok [ 98%] Getting: dists/wheezy/contrib/binary-all/Packages.gz... ok [ 99%] Getting: dists/wheezy/contrib/binary-all/Release... ok [ 99%] Getting: dists/wheezy/non-free/binary-amd64/Packages.gz... ok [100%] Getting: dists/wheezy/non-free/binary-amd64/Release... ok [100%] Getting: dists/wheezy/non-free/binary-all/Packages.gz... ok [100%] Getting: dists/wheezy/non-free/binary-all/Release... ok Parsing Packages and Sources files ... Get Translation files ... [ 0%] Getting: dists/wheezy/contrib/i18n/Translation-en.bz2... ok [ 0%] Getting: dists/wheezy/main/i18n/Translation-en.bz2... ok [ 0%] Getting: dists/wheezy/non-free/i18n/Translation-en.bz2... ok Get DEP-11 metadata files ... Get command-not-found metadata files ... Files to download: 47277 MiB Note the difference in files to download 45516 MiB vs 47277 MiB on the same repository. Running debmirror from 7.7 on the archive repo works fine, because it skips the binary-all packages. However, it fails on modern releases of debmirror because it is now correctly flagging the missing packages: Warning: --rsync-extra is not configured to mirror the trace files. This configuration is not recommended. Mirroring to ./wheezy/amd64 from http://archive.kernel.org/debian-archive/debian/ Arches: amd64 Dists: wheezy Sections: main,contrib,non-free Pdiff mode: use Not checking Release gpg signatures. Will clean up after mirroring. Attempting to get lock ... Getting meta files ... [ 0%] Getting: dists/wheezy/Release... ok [ 0%] Getting: dists/wheezy/InRelease... Download of dists/wheezy/InRelease failed: 404 Not Found [ 0%] Getting: dists/wheezy/Release.gpg... ok [ 0%] Getting: dists/wheezy/main/binary-amd64/Packages.gz... ok [ 68%] Getting: dists/wheezy/main/binary-amd64/Release... ok [ 68%] Getting: dists/wheezy/main/binary-all/Packages.gz... Download of dists/wheezy/main/binary-all/Packages.gz failed: 404 Not Found [ 68%] Getting: dists/wheezy/main/binary-all/Packages... Download of dists/wheezy/main/binary-all/Packages failed: 404 Not Found [ 68%] Getting: dists/wheezy/main/binary-all/Release... Download of dists/wheezy/main/binary-all/Release failed: 404 Not Found [ 68%] Getting: dists/wheezy/contrib/binary-amd64/Packages.gz... ok [ 68%] Getting: dists/wheezy/contrib/binary-amd64/Release... ok [ 68%] Getting: dists/wheezy/contrib/binary-all/Packages.gz... Download of dists/wheezy/contrib/binary-all/Packages.gz failed: 404 Not Found [ 68%] Getting: dists/wheezy/contrib/binary-all/Packages... Download of dists/wheezy/contrib/binary-all/Packages failed: 404 Not Found [ 68%] Getting: dists/wheezy/contrib/binary-all/Release... Download of dists/wheezy/contrib/binary-all/Release failed: 404 Not Found [ 68%] Getting: dists/wheezy/non-free/binary-amd64/Packages.gz... ok [ 69%] Getting: dists/wheezy/non-free/binary-amd64/Release... ok [ 69%] Getting: dists/wheezy/non-free/binary-all/Packages.gz... Download of dists/wheezy/non-free/binary-all/Packages.gz failed: 404 Not Found [ 69%] Getting: dists/wheezy/non-free/binary-all/Packages... Download of dists/wheezy/non-free/binary-all/Packages failed: 404 Not Found [ 69%] Getting: dists/wheezy/non-free/binary-all/Release... Download of dists/wheezy/non-free/binary-all/Release failed: 404 Not Found Errors: Download of dists/wheezy/main/binary-all/Packages.gz failed: 404 Not Found dists/wheezy/main/binary-all/Packages.gz failed checksum verification Download of dists/wheezy/main/binary-all/Packages failed: 404 Not Found dists/wheezy/main/binary-all/Packages failed checksum verification Download of dists/wheezy/main/binary-all/Release failed: 404 Not Found dists/wheezy/main/binary-all/Release failed checksum verification, removing Download of dists/wheezy/contrib/binary-all/Packages.gz failed: 404 Not Found dists/wheezy/contrib/binary-all/Packages.gz failed checksum verification Download of dists/wheezy/contrib/binary-all/Packages failed: 404 Not Found dists/wheezy/contrib/binary-all/Packages failed checksum verification Download of dists/wheezy/contrib/binary-all/Release failed: 404 Not Found dists/wheezy/contrib/binary-all/Release failed checksum verification, removing Download of dists/wheezy/non-free/binary-all/Packages.gz failed: 404 Not Found dists/wheezy/non-free/binary-all/Packages.gz failed checksum verification Download of dists/wheezy/non-free/binary-all/Packages failed: 404 Not Found dists/wheezy/non-free/binary-all/Packages failed checksum verification Download of dists/wheezy/non-free/binary-all/Release failed: 404 Not Found dists/wheezy/non-free/binary-all/Release failed checksum verification, removing Failed to download some Package, Sources or Release files! WARNING: releasing 1 pending lock...
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807775/how-do-i-mirror-the-debian-wheezy-repo
+
+---
+
+#### 10440. Is there a difference between having nftables disabled and having it enabled with an empty ruleset?
+
+**问题描述 / Problem Description**:
+Tags: debian, firewall, nftables | Score: 3 | Views: 445 | Answers: 2 | Created: 2026-10-17
+
+**解决方案 / Solution**:
+Is one option safer no; they're exactly the same, functionally! (an empty nftables set installs no hooks into the Linux networking stack. So does not having nftables. There's literally no difference.) Word of warning, though: Neither option is something you'd do in general on any system where you care about "safe". or better? By what metric? If you think fewer parts that might confuse you is good, then not having the nftables core loaded is better. If you think not getting surprised by deviation from usual systems is good, then that's better. I tend towards the latter, others might tend towards the former. Since there's no functional difference, this is all just a matter of preference. "Taste", if you will. I’m asking generally whether these two states have any technical impact on the kernel, performance, actual network behavior, and, of course, security? They do, if you choose either one you're deviating from any good security practice. Other than that, since they are technically equivalent, they don't make a difference. For example, on a fresh Debian installation. Well, to remove nftables from debian you'll have to make modifications, and since these wouldn't have a positive impact, at best you're making things as good as they were before you modified them. So, from that perspective, leave it at debian's defaults and have nftables.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807698/is-there-a-difference-between-having-nftables-disabled-and-having-it-enabled-wit
+
+---
+
+#### 10441. No external network access on Debian machine
+
+**问题描述 / Problem Description**:
+Tags: debian, networking | Score: 2 | Views: 467 | Answers: 1 | Created: 2026-10-13
+
+**解决方案 / Solution**:
+When first booting yesterday morning my vpn app (ProtonVPN) immediately crashed (which in hindsight I should have mentioned but which I had forgotten entirely). From that point on it refused to launch, which I didn't pay much attention to as I didn't have internet anyways. It seems, however, that it left a default route which was prioritised over my direct-to-router default route: default via 100.85.0.1 dev pvpnksintrf1 proto static metric 98 default via 192.168.2.254 dev eno1 proto dhcp src 192.168.2.12 metric 100 100.85.0.0/24 dev pvpnksintrf1 proto kernel scope link src 100.85.0.1 metric 98 192.168.2.0/24 dev eno1 proto kernel scope link src 192.168.2.12 metric 100 This caused all my network requests to fail, until I deleted it with $ nmcli device delete pvpnksintrf1
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807653/no-external-network-access-on-debian-machine
+
+---
+
+#### 10442. Problem migrating from CentOS Stream to Rocky Linux
+
+**问题描述 / Problem Description**:
+Tags: centos, package-management, dnf, migration, rocky-linux | Score: 2 | Views: 99 | Answers: 1 | Created: 2026-09-17
+
+**解决方案 / Solution**:
+migrate2rocky.sh swaps the software repos to Rocky at the same major version, dnf upgrades and downgrades to packages in the repos, and fixes EFI boot. It is 1349 lines long because of safety checks and munging dnf configurations in complicated ways. You got stuck in a state with CentOS repo configs, but only some of the rocky specific packages got swapped, and it has a dependency problem that can only be installed from Rocky repo. I would recommend proceeding with the swap and distro-sync, although perhaps more manually than just run migrate2rocky. The following script does a similar thing, swaps all your packages with a different distro, the CentOS Stream to Rocky that you requested. However, do not blindly trust me, read and understand this somewhat first. Hopefully a bit easier when reduced to the essentials. Getting it done in two dnf transactions: unique package swap, then dnf distro-sync. Note the repo bootstrapped from dnf options, this does not require anything in /etc/yum.repos.d/ to attempt. #!/bin/sh -ex echo "Backup yum.repos.d" tar -cvf ~/repos-backup.tar /etc/yum.repos.d # Just the essentials from migrate2rocky, 8 x86_64 only echo "Swap repo packages to Rocky" dnf -y shell \ --disablerepo=\* --noautoremove \ --repofrompath=rockybaseos,https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/ \ --setopt=rockybaseos.gpgcheck=1 \ --setopt=rockybaseos.gpgkey=https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8 \ --repofrompath=rockyappstream,https://dl.rockylinux.org/pub/rocky/8/AppStream/x86_64/os/ \ --setopt=rockyappstream.gpgcheck=1 \ --setopt=rockyappstream.gpgkey=https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8 \ <<EOF install rocky-gpg-keys swap centos-stream-repos rocky-repos swap centos-stream-release rocky-release swap centos-backgrounds rocky-backgrounds swap centos-logos rocky-logos remove redhat-release redhat-release-eula run exit EOF echo "Upgrade and downgrade everything to match repos" dnf -y distro-sync echo "Fix EFI bootloader Warning: efibootmgr does nothing, run that on your EFI partition" grub2-mkconfig -o /boot/efi/EFI/rocky/grub.cfg #efibootmgr -c -d "/dev/sda" -p "15" -L "Rocky Linux" -l "/EFI/rocky/shimx64.efi" echo "List of not Rocky packages, will be a few between old kernels, gpg keys, and other repos" rpm -qa --qf '%{Name} %{Vendor}\n' | grep -v Rocky Tested and working on a minimal CentOS Stream 8 install. Nothing seems to be newer version in CentOS, as expected given EL8 is no longer getting feature releases. Limitations: Does not detect your EFI partition to run efibootmgr. Get the partition name from how migrate2rocky does it, or efi might be mounted on your live system. Does not preserve old repo configurations in place, or confirm they are disabled. However, centos-stream-repos gets erased, and modified configs from it may be preserved with a .rpmsave file name extension. dnf repolist command to see what is enabled. Does not do anything with modules, as migrate2rocky does. dnf module list --enabled Does not swap all the branding sub packages. For example, if you have centos-logos-httpd installed, swap that in a similar manner. I do not independently verify that Rocky 8's gpg key is Key Fingerprint = 7051 C470 A929 F454 CEBE 37B7 15AF 5DAC 6D74 5A60 however I do use that key from the Rocky download site for dnf to check the package signatures.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807402/problem-migrating-from-centos-stream-to-rocky-linux
+
+---
+
+#### 10443. Cannot hide Plymouth systemd Status Messages in Debian 13
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, kde, sddm, plymouth | Score: 1 | Views: 83 | Answers: 1 | Created: 2026-10-29
+
+**解决方案 / Solution**:
+SDDM does not have any special handling for Plymouth. The sddm program is not even aware of it. sddm.service is ordered after plymouth-quit.service which explains why you see the content of console normally hidden by Plymouth splash screen. GDM explicitly disables plymouth-quit.service and calls plymouth quit --retain-splash itself. You may try to edit plymouth-quit.service and add this option to get the same effect with SDDM.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807806/cannot-hide-plymouth-systemd-status-messages-in-debian-13
+
+---
+
+#### 10444. When updating an older Debian release, do I need a snapshot of the old wheezy-updates repo or was that rolled into wheezy-security?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 1 | Views: 43 | Answers: 1 | Created: 2026-10-28
+
+**解决方案 / Solution**:
+Packages in foo-updates are rolled into each point release (see the “stable updates” page on the Debian wiki for details), as are security updates. If you look at one of the Packages files from the main repository, you can see that there are +deb7u package versions; these are updates that went in either through security or wheezy-updates , and were later rolled into the main repository. So you only need the main repository, along with debian-security for security updates made after the last point release ( Wheezy had long-term security support for two years after its last point release ).
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807781/when-updating-an-older-debian-release-do-i-need-a-snapshot-of-the-old-wheezy-up
+
+---
+
+#### 10445. How to scrub/force a checksum calculation on ext4?
+
+**问题描述 / Problem Description**:
+Tags: linux, storage, ext4, checksum | Score: 1 | Views: 103 | Answers: 1 | Created: 2026-10-12
+
+**解决方案 / Solution**:
+Ext4 checksums only cover file system internals and file metadata , so there’s not much to scrub. e2fsck verifies the relevant checksums during its passes; for example, on a file system with a corrupted directory entry: e2fsck 1.47.3 (8-Jul-2025) Pass 1: Checking inodes, blocks, and sizes Pass 2: Checking directory structure Directory inode 2, block #0: directory passes checks but fails checksum. Fix<y>? All this can do however is update the checksums; it can’t recover corrupted data.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807657/how-to-scrub-force-a-checksum-calculation-on-ext4
+
+---
+
+#### 10446. [V2EX] 正让 AI 用 C++开发远程桌面控制软件，需要十个左右的测试用户
+
+**问题描述 / Problem Description**:
+Windows ，macOS, Linux 各三个左右的用户 送终身 Pro
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253253#reply12
+
+---
+
+#### 10447. [V2EX] 内核 IPv4/TCP 协议栈 9.8 分漏洞 CVE-2026-98432
+
+**问题描述 / Problem Description**:
+https://ubuntu.com/security/CVE-2026-98432 已知使用 Go Caddy 会进入攻击范围
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252980#reply13
+
+---
+
+#### 10448. [V2EX] 用 www 运行还是用 docker 运行更安全？
+
+**问题描述 / Problem Description**:
+在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？ 问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252274#reply9
+
+---
+
+#### 10449. [V2EX] 有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微
+
+**问题描述 / Problem Description**:
+现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件拖拽 就非常难用 音视频会议,远程桌面共享... 只能说呵呵 我不知道企微上点击自己头像弹出菜单里面的那个"吐个槽"功能到
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1252139#reply29
+
+---
+
+#### 10450. [V2EX] Asahi Linux 支持硬件解码了
+
+**问题描述 / Problem Description**:
+我期待这个功能很久了，现在终于能用了，忍不住发帖分享一下。 硬件解码默认还没启用，需要自己稍微折腾一下： 1 ，需要设置 LIBVA_DRIVER_NAME=v4l2_request 环境变量，不设置的话就不能自动探测到合适的 VA-API driver 。 2 ，mpv 播放器需要加上 gpu-api=opengl 这个配置，不指定这个的话颜色是绿的，而且屏幕还会闪烁。 3 ，m2 设备上的 hevc 硬件解码我实测还不可用，需要自己编译 libva-v4l2_request 的源码，禁用 hevc ，不禁用的话用 mpv 硬解播放 hevc 视频会报错。 4 ，chrome 浏览器也需要自
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1251925#reply0
+
+---
+
+#### 10451. [V2EX] 最近从 Windows10 迁移到 Debian13，感觉直接起飞。
+
+**问题描述 / Problem Description**:
+16g 内存电脑，再开个 win 的虚拟机（工作需要安装绿盾，为了绿盾不影响电脑的其他文件，要把它关在笼子里），内存占用一直 12g 左右，感觉太流畅了。 顺便写了个 滚动截屏软件 分享给大佬们： https://github.com/ephmYZnq/scroll-shot 有好用的 Linux 软件也希望大佬们分享下。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1250503#reply22
+
+---
+
+#### 10452. [V2EX] Linux 同好，一起移植 win 上的软件
+
+**问题描述 / Problem Description**:
+现在 AI 这么发达了，Linux 上移植 win 软件是不是越来越便利了。 是继续发展 Wine 这类，还是直接基于 linux 底层移植好呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1250480#reply88
+
+---
+
+#### 10453. [V2EX] 执念，搜狗输入法 for Ubuntu 24/26 兼容助手
+
+**问题描述 / Problem Description**:
+搜狗输入法 Ubuntu 兼容助手 一直有个执念，想在新版 Ubuntu 上使用熟悉的搜狗输入法，却被安装依赖、候选框错位、应用里打不了中文等问题卡住？于是驱动小 AI 搞搞这个事。 于日前完工，主要面向 Ubuntu 24.04 / 26.04 的普通 Intel 、AMD 电脑 ，适配 GNOME 的 Wayland 桌面，把原本需要手动配置的步骤整理成图形向导。 以下说明也是让 AI 代写的： 更方便地安装和迁移 ：检查环境、备份数据，并展示需要安装或移除的软件。 改善日常输入体验 ：修复已发现的候选框位置、屏幕底边溢出、高缩放显示、翻页及部分文字转换问题，提供字号和标点配对设置。 适配
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1250379#reply9
+
+---
+
+#### 10454. [V2EX] 一小时手搓 AI Agent 沙箱：从 namespace、cgroup 到 systemd-nspawn
+
+**问题描述 / Problem Description**:
+搞了快两年 AI agent ，发现到最后难点其实不是 AI 。本质上 AI agent 服务（不管是企业应用，还是 Muse 这种自由的 PA agent ），更多是后端服务 对于从 DS 、ML 转过来的人来说，知识上的盲点通常是容器、鉴权 OAuth 、加密解密这些。花了点时间，手搓了一个容器教程，通过大量的操作，从零开始自己搓一个小 Docker 。有兴趣可以看看，后面也会在同一个 repo ，更新鉴权、具体的 AI agent 系统设计这些 https://github.com/StevenSLXie/production-ai-agent-course/blob/main/fund
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1249559#reply4
+
+---
+
+#### 10455. [V2EX] libcr 项目组发布免费瀑布流相册应用 crPhotos 1.9.0 for Linux , 支持 安卓快速分享
+
+**问题描述 / Problem Description**:
+crPhotos 是一款纯 C++开发的瀑布流相册应用， 构建自 chromium 154 版本 内置 GPU 渲染加速，视频硬件解码的高性能相册应用 保持全平台 UI 体验一致性，同步支持所有主流桌面系统 新增 Android QuickShare 协议支持，方便设备间分享 在 Pixel 手机，LineageOS, Windows QuickShare 设备间测试成功 - 通过时间线浏览本地照片与视频。 - 添加媒体库文件夹、按文件名搜索和管理收藏。 - 使用内置控件查看图片和播放视频。 - 显示拍摄详情及文件内嵌的 GPS 信息，支持离线城市匹配。 - 通过加密传输和设备配对，与附近的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1249506#reply0
+
+---
+
+#### 10456. [V2EX] vibe 了一个 wine 管理器.
+
+**问题描述 / Problem Description**:
+bottles 升级 flatpak runtime 总是慢一阵, 不想被两个 runtime 占磁盘. 拿 claude 写了个. 在我这里已经彻底替换了 bottles. 装的企业微信/券商/7zip sumatra 这些. 主要是中文字体配置更简单, 点点就有很好的效果. 还做了个进程管理可以方便的屏蔽国产软件没用的进程(企业微信屏蔽一堆不影响聊天, 资源占用更少). flatpark 也可以用它的命令行打包 windows 应用. https://flatpark.org/apps/org.flatpark.Cellar/ 简单推一下, 希望能收到 bug 反馈, 好用的话求个 sta
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1249451#reply4
+
+---
+
+#### 10457. [V2EX] 哪里能交流 omarchy
+
+**问题描述 / Problem Description**:
+最好是绿泡泡的群。 今天在 intel mac mini 装了一下，agent 的概念很吸引人，但自己没玩明白
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1249344#reply6
+
+---
+
+#### 10458. [V2EX] libcr 项目组发布文件管理器 crFiles 1.5.0 for Linux ， 新增 Android Quick Share 支持
+
+**问题描述 / Problem Description**:
+crFiles 是一款 C++实现的多页签多分栏的文件管理器，基于 chromium 154.0.8037.95 新增 Android Quick Share 协议支持，方便 Android 设备发送和接收文件 已在 Pixel 手机 及 Windows 版本的 QuickShare 应用上测试通过 1. 支持 Nearby sharing, 局域网快速文件分享 2. 支持多页签多分栏模式 3. 内置视频，图片和 PDF 等文件的预览 4. 独立进程实现文件快速查找 Linux 版本下载： https://github.com/libcr/crFiles/releases
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1248468#reply0
+
+---
+
+#### 10459. [V2EX] 内存越来越贵会不会拉高 Linux 的装机率？
+
+**问题描述 / Problem Description**:
+其实我一直知道 linux 比 windows 省内存。但是没量化感受。 10.1 闲来无事，给一台旧笔记本安装了 windows10 和 fedora 双系统。 结果发现系统起来杀都不干，windows 就要消耗 9G 内存，linux 消耗 5G,相差甚 4g 。 日常干活时，（ wps 、数十个网页、qq 、微信、代理软件这些常用）的，windows 经常在 13-15G linux 最高飙到 9G 也就是说，如果我是 16G 的内存，在 wondiws 下就要考虑升级了 在 linux 下则不必 而内存越来越贵，显然是晚升、不升最好 管中窥豹，我感觉此种情况下 linux 桌面安装率会
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1247772#reply101
+
+---
+
+#### 10460. [V2EX] libcr 项目组发布 Youtube 下载器 crYGet 0.9.0 for Linux
+
+**问题描述 / Problem Description**:
+不需要额外安装 ffmpeg 和 yt-dlp crYGet 是一款纯 C++开发的 Youtube 下载器， 构建自 chromium 154 版本 所有代码通过 AI 分析 yt-dlp 的 Python 代码，集成 v8 和 media 模块实现 保持全平台 UI 体验一致性，同步支持所有主流桌面系统 Linux 和 Windows 版本 下载: https://github.com/libcr/crYGet/releases
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1247496#reply5
+
+---
+
+#### 10461. [V2EX] 脱离了 Windows 的保护，发现外边根本没有雨
+
+**问题描述 / Problem Description**:
+把电脑上的 Windows 11 换成了 CachyOS 以后的感受： 速度 换了 CachyOS 以后，我才重新找回了十几年前初尝固态硬盘+Windows 7 组合的极致响应速度，被 Windows 10/11 折磨了这么多年，我差点以为 即点即开 是手机系统的独家功能，电脑上点一下卡一下才是常态。 第一个感觉就是快，访问 B 站，任何页面的打开速度、视频从网页加载到开始播放的延迟时间都比 Windows 快一秒，我之前一直认为是 B 站网页工程师优化不好，现在才发现是 Windows 对所有应用一视同仁地拖后腿。 体验（逻辑） CachyOS 在即开即用方面没 Windows 做得好，所以
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1244853#reply111
+
+---
+
+#### 10462. [V2EX] libcr 项目组发布多分栏多页签文件管理器 crFiles for Linux
+
+**问题描述 / Problem Description**:
+crFiles 是一款纯 C++开发的多页签文件管理应用 基于源代码 chromium 150.0.7871.91 1. 支持 Nearby sharing, 局域网快速文件分享 2. 支持多页签多分栏模式 3. 内置图片和 pdf 等文件的预览 Linux 版本下载 https://github.com/libcr/crFiles/releases 问题反馈 https://github.com/libcr/crFiles/issues
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1244699#reply5
+
+---
+
+#### 10463. [V2EX] Fedora 上最好用的截图工具 - 微信
+
+**问题描述 / Problem Description**:
+一直想找个简单好用的截图工具（ Gnome ），之前尝试了著名的 Flameshot ，但是没看到可以配置快捷键触发截图，手动一直会有个弹窗提示，查阅 issue 说是 Gnome 的限制。 之前尝试了 qq 和微信自带的截图，但是会直接白屏卡住，不知道是 Wayland 还是哪里的问题，不想折腾了。 就一直使用系统自带的截图，习惯了 win 上的 snipaste ，Gnome 的这个截图真的挺难用的。 直到最近，偶然的尝试，发现 qq 和微信的截图工具都可以正常使用了，体感上来说，微信的更好使一些，配置个快捷键，就可以全局触发了，也支持简单的标注、长截图，舒服~ 个人认为是现在 Gnome
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1243829#reply29
+
+---
+
+#### 10464. [V2EX] QQ flathub 版本被反复踢下，移动端提示使用外挂，就我这样吗？
+
+**问题描述 / Problem Description**:
+星期五开始，在安卓端（ Xposed 强开的平板版本）收到风险提示，iOS 和电脑上并没有收到。 同时过一段时间就踢电脑版（ Debian flathub ）账号下线，不管在不在线，如果不在线就要重扫码才能登录。 软件是 flathub 直接下载的，版本是 3.2.33 。 在网上好像没看到类似的情况，就我这样吗？ flathub 版本应该不会改二进制吧？还是说因为安卓端开了 Xposed 被腾讯踢错账号了？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1243295#reply10
+
+---
+
+#### 10465. [V2EX] 在搞一个 AI Coding 的 mac 项目，发现 glm 接入 claude 比 zcode 聪明太多了
+
+**问题描述 / Problem Description**:
+我不是程序员，最近在学 AI Coding 。前一阵子知道了 Magpie 。然后把各种能接入的地方都接入了，然后就说试用一下用不了的 Claude Code 。 目前在做一个 Mac 的小软件。发现 GLM 5.3 flash ，在各种 Harness Agent 里面都不如在 Claude Code 里面聪明。天呐，这还有一层等级差距啊？ 这是为啥呀？ 让他在画某个 UI 的途中，在很多 Agent 里面，他跟我玩 Cosplay ，他还跟我说，最迟 30 分钟给方案，你的这个改动要花一天工时，这种非常拟人的话。然后自然就是什么都画不出来也不知道自己为什么错。那你也知道的，就会又陷入到那种
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253981#reply0
+
+---
+
+#### 10466. [V2EX] 我把自己的 Agent 从 Wails 迁到了 MyGo 原生 GUI，全程踩坑和实践分享
+
+**问题描述 / Problem Description**:
+最近把自己写的工作 agent Ally agent 的界面重写了一遍，起因是无意中看到有人推荐 MyGo ，加上我对内存和性能一直有点追求，多年来一直在用 wails ，想换个试试，就想拿自己的项目试点，没想到结果意外的不错。 旧版本的技术栈是典型的 Go + Wails + Vue （ wails 我用了很多年 最近终于 V3 发正式版了 等了四年，可惜我也老了 ），界面用 Naive UI ，样式美观，效果也相当不错。但做久了有几个地方比较麻烦（ tarui 应该也是一样）： 跨平台界面的细节不一致，构建链比较长，还有前端内存出了问题以后，我这个写后端的人不太容易排查。 折腾了一段时间，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253950#reply6
+
+---
+
+#### 10467. [V2EX] 微信小程序葵花码（太阳码）编码解码算法已被逆向，随意生成，已泛滥
+
+**问题描述 / Problem Description**:
+摘要 前段时间，在我的一个群里看到有人发了一个葵花码出来，长按扫码我以为就是打开一个小程序，没想到直接跳到一个 URL 了（下面图片跳百度），而且这东西只有微信可以长按识别，其他不行，我就知道这事不简单。 经过几天后，看到越来越多人会玩会做，各种 DIY ，我就知道，这估计又是逆向出来的。 目前闲鱼已经开始有人卖。 我不想搞坏我的 codex 账号，所以用豆包试试，31 分钟就跑出来了。 不得不说，豆包逆向能力也牛。（全程最直白、最直接、最不绕弯、最干脆、最不墨迹、最戳痛点、最不废话、最不拐弯） 本次复现由豆包全自动，仅供本人学习了解，并没有泄露相关技术代码、技术原理~
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253946#reply0
+
+---
+
+#### 10468. [V2EX] 想给 muse 充值, 难道唯一方法只能是美区购买余额充吗?
+
+**问题描述 / Problem Description**:
+试了 bybit 虚拟卡说不支持, 直接绑定国内 visa 信用卡也不行, 各位还有什么更好的方法吗?
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253923#reply5
+
+---
+
+#### 10469. [V2EX] Matt Pocock 的新课，有人愿意拼车吗？
+
+**问题描述 / Problem Description**:
+看到 Matt Pocock 的新课 Software Factory for Real Engineers, 有点心动，但是好贵啊，有人愿意拼车上路吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253918#reply0
+
+---
+
+#### 10470. [V2EX] 我刚做了两个播客，欢迎大家收听
+
+**问题描述 / Problem Description**:
+《巴菲特股东大会-中文版》 https://namecard.xiaoyuzhoufm.com/6f3ae 伯克希尔·哈撒韦股东大会问答的中文版。英文原声经 AI 翻译为中文，并用 AI 配音朗读。 巴菲特、芒格等人的声音为 AI 复刻音色，并非本人。仅供学习交流，内容以英文原版为准。 《硅谷之声》 https://namecard.xiaoyuzhoufm.com/ymdt3 精选英文世界里值得听的 AI 与尖端科技长内容，做成中文配音播客。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253901#reply5
+
+---
+
+#### 10471. [V2EX] workbuddy 里面有个功能叫专家团，大家试过么？用来写代码开发类的好用么？要消耗几倍积分？
+
+**问题描述 / Problem Description**:
+看着很牛逼啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253891#reply6
+
+---
+
+#### 10472. [V2EX] 市场行情啥时候能好点？
+
+**问题描述 / Problem Description**:
+记得 21 年前，房价年年涨，工资也年年涨，感觉这就是常态，然后突然行情就调转直下了。 新闻中到处是裁员的新闻，房价连创新低，找工作也越来越不好找，找到了工资比之前还低。。 大家觉得啥时候是个头啊？啥时候能回到 21 年前的那种状态呢？还能回去吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253887#reply39
+
+---
+
+#### 10473. [V2EX] 我感觉我是项目保安，给 AI 抬杠的
+
+**问题描述 / Problem Description**:
+白天装模作样看逻辑看它有没有乱改，晚上跑回归测试测它到底能不能跑。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253873#reply0
+
+---
+
+#### 10474. [V2EX] ssl.com Windows 签名证书 ev 证书 踩坑了！
+
+**问题描述 / Problem Description**:
+ssl.com ev 证书 踩坑了！ 今天收到一个邮件，要收 3900 刀，最后看了下，说是超额度了，然后每次 10 刀！醉了！ 开始超额的实际没收到任何通知！ 你们 window 客户端签名用的哪家的啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253853#reply9
+
+---
+
+#### 10475. [V2EX] 现在哪个大模型比较耐用？能支持正常 8-10 小时开发使用。
+
+**问题描述 / Problem Description**:
+以前用 CC + opus ，token 一直不够用，都不敢开 MAX 充个 5x/20x ，high/xhigh/MAX 能用多久？ 现在用 CC + MiniMax Pro ，一般日常够用，能撑 8-10 小时 但是开启 MAX ，就不太行了 尝试了一些其他模型： kimi k3 / k3.1 pro 的价格也贵，跟 CC 差不多 deepseek-v4-1-flash token 消耗还行，推理能力比 MiniMax Pro 要强不少
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253840#reply31
+
+---
+
+#### 10476. [V2EX] 曝光商家 [NiuGe AI 加钟站] Gemini pro 成品号，实际给你封停账号
+
+**问题描述 / Problem Description**:
+https://imgur.com/rEFUawc 曝光商家 [NiuGe AI 加钟站] 这种打法怎么说呢，买之前跟你发成功教程，然后说是问题账号，然后下单了发现是封停账号。 隔着两头骗，是不是我也开一个店，然后全给封停账号，我小款上写 问题账号不退款，就可以稳定盈利了开始创收了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253823#reply10
+
+---
+
+#### 10477. [V2EX] 复刻好用的软件：上周的 vs-idea-gittool 大家挺感兴趣的，这次是 dsh 插件
+
+**问题描述 / Problem Description**:
+vs-idea-gittool 发布后大家蛮感兴趣的，然后这几天花时间做了下 dsh 插件，有 AI 后开发效率嘎嘎高 vs-idea-gittool 优化了一些问题，发布了新版本 v0.4.3 ，已同步更新至插件市场 使用过程有啥问题，欢迎提交 issue ，或者直接提交 pr 更好了～ 源码仓库： https://github.com/PGshen/vs-idea-gittool 原帖👉 复刻 JetBrains 的 Git 客户端做成 VS Code 插件发布到插件市场了 下面是 dsh 的介绍👇 功能一览 页面 能做什么 日志 提交图、分支/标签徽标、按文本/正则/分支/作者筛选、提交
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253814#reply0
+
+---
+
+#### 10478. [V2EX] 大家觉得 AI 时代，招聘程序员的要求是不是要作相应的改变？
+
+**问题描述 / Problem Description**:
+例如：以前会纠结于算法、开源社区、语法糖之类的各种冷门知识点，现在是不是应该更重视如何表达需求、协同多 Agent 的能力？ 我的观点是，沟通一直是职场的第一能力，沟通差的人，在底层无法完成自己手头工作，在中高层无法带领团队完成项目，只不过，以前沟通是人与人，现在是人与机器，本质并未改变。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253812#reply10
+
+---
+
+#### 10479. [V2EX] 佬们都用什么免费 API Key 测试 agent
+
+**问题描述 / Problem Description**:
+零零散散的免费额度，有没有方便使用的统一平台，免费额度够大的，简单测试跑通 agent 用的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253800#reply2
+
+---
+
+#### 10480. [V2EX] 万一 token 全部涨价，我们怎么办？
+
+**问题描述 / Problem Description**:
+现在写代码、排查问题全部使用 AI 了，如果下个月 token 全部涨价，公司不提供了。 你该如何办？ 自费购买还是回归手写？ 另外调查下，现在有多少自费购买 coding plan 用于工作的？ （中午午休突然想到这个问题，反正我现在很难回到手工时代了。）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253791#reply41
+
+---
+
+#### 10481. [V2EX] 飞书桌面端相当令人不快的设计
+
+**问题描述 / Problem Description**:
+核心功能不精： 启动缓慢，相同设备环境启动时间为微信的 2-3 倍 打开文档缓慢，任何文档均需要 3-10 秒加载 文档编辑同样卡顿严重 无法离线编辑文档 大量文档入口无法在客户端中原生打开，会跳出浏览器打开 大量非必要/越权行为： 附带豆包 agent ，非可选功能，亦不可手动关闭 在聊天消息栏植入不定时 agent 功能广告，无永久关闭渠道 探测全部用户窗口，在选中任意文本时跳出其悬浮窗 全局拦截 ctrl+shift+A 作为其截图快捷键（在部分图片编辑软件是取消选中） 在用户主目录创建 Doubao 文件夹 不断读取用户位置信息
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253768#reply19
+
+---
+
+#### 10482. [V2EX] pi agent 太费 token 了！
+
+**问题描述 / Problem Description**:
+没错， 和大家以为的刚好相反，pi agent 根本不省 token ，同样的任务相对于 codex ， 消耗量至少是 2 倍以上！（不要用那些 简单的短任务来说事， 我说的是正常工作中的长任务，很轮的对话， 大量的工具调用等等） 我接触了 pi agent ，被它的所谓的一切都是插件化给吸引了。 然后接入了我常用的插件，甚至还自定义了个别自己用的顺手的插件， 最后的感觉是非常非常的顺手，然后满心欢喜的打算替换我原来的 codex 的工作流。用了 1 天， 我惊呆了。 同样的任务，感觉完成的更慢，反复的调用，也不知道是干啥（ code mode ，sub agent 都配置了，甚至还尝试过 c
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253745#reply28
+
+---
+
+#### 10483. [V2EX] 有用 anapay 的吗
+
+**问题描述 / Problem Description**:
+入金的时候，ios 好像有 bug ，我用的中行 jcb ，每次充值要手机号验证吗，点击之后就跳白屏了，验证码会收到的。 现在每次都要换 android 手机冲，有点麻烦，有说用 apple pay 套一下，但是 jcb 帮不了，招行的 visa 我绑了，applepay 付不了，目前没 master 。 有佬遇到同样问题的吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253736#reply3
+
+---
+
+#### 10484. [V2EX] 新版本飞书自带豆包会在 User 文件夹创建 Doubao 文件夹
+
+**问题描述 / Problem Description**:
+今天上班打开 Mac 发现～文件夹下多了个 Doubao 文件夹，删掉之后会瞬间被再次创建。 再去工位的 Windows 电脑上看，发现 user （用户名）文件夹里也多了个 Doubao 文件夹。可能是飞书更新版本之后豆包被整合入飞书，通过后台程序全自动创建的。 目前现象： 从未使用过飞书中豆包及 agent 相关功能 Mac 上 Doubao 文件夹删除后会被立刻再次创建 Mac 上关闭飞书后不会创建 Doubao 文件夹，启动后会立刻再次创建 Win 上 Doubao 文件夹需要管理员权限才能删除 搜了飞书的设置和网上资料，没找到关闭方法。准备让 GPT 看看能不能把这个进程干掉，不行就
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253730#reply3
+
+---
+
+#### 10485. Error when trying up upgrade package installed using pipx
+
+**问题描述 / Problem Description**:
+Tags: ubuntu, pip | Score: 1 | Views: 342 | Answers: 1 | Created: 2025-06-24
+
+**解决方案 / Solution**:
+Sounds like poetry is not currently installed through pipx . The following commands should help clear this out. Confirm that poetry works at all: /home/sir_mallard/.local/bin/poetry --version See where pipx installs its packages and confirm that it lists poetry : pipx list See the interpreter for poetry and confirm that the executable exists at that location: ls -lh "$(head -n1 /home/sir_mallard/.local/bin/poetry | sed 's/#!//')"
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/797355/error-when-trying-up-upgrade-package-installed-using-pipx
+
+---
+
+#### 10486. I installed Debian 7.7 wheezy from the release DVD. Why are there no apt-get updates available from archive.debian.org?
+
+**问题描述 / Problem Description**:
+Tags: debian, apt | Score: 0 | Views: 99 | Answers: 1 | Created: 2026-10-28
+
+**解决方案 / Solution**:
+I get the impression you’re expecting apt-get update to do more than it’s intended to do. It only downloads repository indexes; it doesn’t apply package updates, and doesn’t even tell you about available updates when it finishes (unlike apt update in newer releases of Debian). To actually apply the package updates, you need to run apt-get upgrade or apt-get dist-upgrade . You can list upgradable packages by installing aptitude and running aptitude search '~U' . As you surmise, the message you’re asking about is just a warning; that’s what the W: prefix indicates. Since you were able to successfully upgrade packages using apt-get dist-upgrade , that proves that apt-get update was able to download the indexes from the repository.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807784/i-installed-debian-7-7-wheezy-from-the-release-dvd-why-are-there-no-apt-get-upd
+
+---
+
+#### 10487. When will archive.debian.org will have packages from bulleye-security repo
+
+**问题描述 / Problem Description**:
+Tags: debian, package-management, repository | Score: 0 | Views: 224 | Answers: 1 | Created: 2026-09-29
+
+**解决方案 / Solution**:
+This is a bug/issue on debian side tracked here : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1147093 Until they fixed it we can use in source.list snapshot repository for debian security : deb [check-valid-until=no] http://snapshot.debian.org/archive/debian-security/20260903T220410Z bullseye-security main contrib non-free
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807503/when-will-archive-debian-org-will-have-packages-from-bulleye-security-repo
+
+---
+
+#### 10488. Tail journalctl until service exits
+
+**问题描述 / Problem Description**:
+Tags: debian, systemd, journalctl | Score: 1 | Views: 121 | Answers: 1 | Created: 2025-11-10
+
+**解决方案 / Solution**:
+systemctl --no-block start myservice journalctl --unit myservice --since=now --no-hostname --exclude-identifier=podman -f | awk '/service: Deactivated successfully/ { print; exit; }; { print; }'
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/801238/tail-journalctl-until-service-exits
 
 ---
