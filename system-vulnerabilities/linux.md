@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3758**
+**总计条目 / Total entries: 3788**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -67302,5 +67302,485 @@ Apply SUSE security patch via zypper or YaST Online Update.
 
 **参考链接 / References**:
 - https://lists.suse.com/pipermail/sle-security-updates/2026-November.txt
+
+---
+
+#### 3759. CVE-2026-120971 - org.jboss.resteasy/resteasy-core: RESTEasy: Information disclosure through…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] org.jboss.resteasy/resteasy-core: RESTEasy: Information disclosure through default exception mapper responses. Bugzilla: 2565584
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565584
+
+---
+
+#### 3760. CVE-2026-120752 - PyMuPDF: PyMuPDF: Arbitrary code execution via stack-based buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] PyMuPDF: PyMuPDF: Arbitrary code execution via stack-based buffer overflow in JM_set_annot_callout_line. Bugzilla: 2565416
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565416
+
+---
+
+#### 3761. CVE-2026-120067 - postgresql-odbc: postgresql-odbc: Denial of Service via stack-based buffer…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Denial of Service via stack-based buffer overflow in updatable cursors. Bugzilla: 2565357
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565357
+
+---
+
+#### 3762. CVE-2026-120065 - postgresql-odbc: postgresql-odbc: SQL injection via unescaped column names in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: SQL injection via unescaped column names in updatable cursors. Bugzilla: 2565352
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565352
+
+---
+
+#### 3763. CVE-2026-120066 - postgresql-odbc: postgresql-odbc: Information disclosure via insecure temporary…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Information disclosure via insecure temporary log file creation. Bugzilla: 2565359
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565359
+
+---
+
+#### 3764. CVE-2026-120062 - postgresql-odbc: postgresql-odbc: arbitrary SQL execution via unescaped input in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: arbitrary SQL execution via unescaped input in SQLSpecialColumns. Bugzilla: 2565363
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565363
+
+---
+
+#### 3765. CVE-2026-120061 - postgresql-odbc: postgresql-odbc: Memory corruption via malformed SQL escape…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Memory corruption via malformed SQL escape sequences. Bugzilla: 2565361
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565361
+
+---
+
+#### 3766. CVE-2026-120059 - postgresql-odbc: postgresql-odbc: Information disclosure via format string in…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Information disclosure via format string in column name. Bugzilla: 2565358
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565358
+
+---
+
+#### 3767. CVE-2026-120057 - postgresql-odbc: postgresql-odbc: arbitrary code execution via buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: arbitrary code execution via buffer overflow in large-object read. Bugzilla: 2565355
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565355
+
+---
+
+#### 3768. CVE-2026-120058 - postgresql-odbc: postgresql-odbc: Arbitrary code execution via heap buffer…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Arbitrary code execution via heap buffer overflow during cursor fetch. Bugzilla: 2565364
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565364
+
+---
+
+#### 3769. CVE-2026-99239 - kernel: kernel: Privilege escalation via race condition in Bluetooth L2CAP
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via race condition in Bluetooth L2CAP. Bugzilla: 2565283
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565283
+
+---
+
+#### 3770. CVE-2026-99240 - kernel: kernel: Denial of Service via division by zero in DAMON subsystem
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Denial of Service via division by zero in DAMON subsystem. Bugzilla: 2565287
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565287
+
+---
+
+#### 3771. CVE-2026-99237 - kernel: kernel: privilege escalation via race condition in tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: privilege escalation via race condition in tracing subsystem. Bugzilla: 2565279
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565279
+
+---
+
+#### 3772. CVE-2026-99235 - kernel: kernel: Privilege escalation via use-after-free in event tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in event tracing subsystem. Bugzilla: 2565285
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565285
+
+---
+
+#### 3773. CVE-2026-99233 - kernel: kernel: Privilege escalation via use-after-free in tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in tracing subsystem. Bugzilla: 2565289
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565289
+
+---
+
+#### 3774. CVE-2026-99231 - kernel: kernel: Privilege escalation via use-after-free in io_uring waitid
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in io_uring waitid. Bugzilla: 2565291
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565291
+
+---
+
+#### 3775. CVE-2026-99217 - kernel: kernel: Denial of Service via deadlock during failed process creation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Denial of Service via deadlock during failed process creation. Bugzilla: 2565286
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565286
+
+---
+
+#### 3776. CVE-2026-120457 - libaec: libaec: Denial of Service via out-of-bounds read in m_se_decode()
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libaec: libaec: Denial of Service via out-of-bounds read in m_se_decode(). Bugzilla: 2565234
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565234
+
+---
+
+#### 3777. CVE-2026-120437 - netpbm: netpbm: Denial of Service via out-of-bounds read in tgatoppm
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netpbm: netpbm: Denial of Service via out-of-bounds read in tgatoppm. Bugzilla: 2565280
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565280
+
+---
+
+#### 3778. CVE-2026-120436 - netpbm: netpbm: Arbitrary code execution via integer overflow in jbigtopnm
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] netpbm: netpbm: Arbitrary code execution via integer overflow in jbigtopnm. Bugzilla: 2565322
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565322
+
+---
+
+#### 3779. [Ubuntu] USN-8994-1: libvips vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled certain PDF files with a page that defines a width but not a height. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service, or obtain sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-59933) It was d
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8994-1
+
+---
+
+#### 3780. [Ubuntu] USN-8993-1: SOGo vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SOGo used the client-supplied Origin header when constructing password reset links. A remote attacker could possibly use this issue to obtain password reset tokens and take over user accounts.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8993-1
+
+---
+
+#### 3781. [Ubuntu] USN-8992-1: Shapelib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8992-1
+
+---
+
+#### 3782. [Ubuntu] USN-8991-1: rxvt-unicode vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8991-1
+
+---
+
+#### 3783. [Ubuntu] USN-8990-1: Sprockets vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Sprockets incorrectly handled certain specially crafted requests when the Sprockets server was used in production. A remote attacker could possibly use this issue to access files outside of the application's root directory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8990-1
+
+---
+
+#### 3784. [Ubuntu] USN-8988-1: Relax-and-Recover vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Relax-and-Recover created a world-readable initrd when GRUB_RESCUE was enabled. A local attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8988-1
+
+---
+
+#### 3785. [Ubuntu] USN-8987-1: libuser vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libuser did not properly validate the GECOS field when changing user information. A local attacker could possibly use this issue to corrupt the passwd file, resulting in a denial of service. (CVE-2015-3245) It was discovered that libuser modified the passwd file in place when updating user information. A local attacker could possibly use this issue to cause an inconsistent f
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8987-1
+
+---
+
+#### 3786. [Ubuntu] USN-8986-1: Swift Mailer vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Dawid Golunski discovered that Swift Mailer did not properly sanitize e-mail addresses in the mail transport. A remote attacker could possibly use this issue to pass extra parameters to the mail command and execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8986-1
+
+---
+
+#### 3787. [Ubuntu] USN-8985-1: Net::EasyTCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Net::EasyTCP used the built-in Perl rand() function to generate encryption keys when no strong randomization module was present. An attacker could possibly use this issue to predict the keys and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8985-1
+
+---
+
+#### 3788. [Ubuntu] USN-8984-1: jabberd2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that jabberd2 allowed SASL ANONYMOUS authentication even when it was not enabled in the configuration. A remote attacker could possibly use this issue to bypass authentication.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8984-1
 
 ---

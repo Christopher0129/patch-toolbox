@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10488**
+**总计条目 / Total entries: 10534**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -144316,5 +144316,603 @@ systemctl --no-block start myservice journalctl --unit myservice --since=now --n
 
 **参考链接 / References**:
 - https://unix.stackexchange.com/questions/801238/tail-journalctl-until-service-exits
+
+---
+
+#### 10489. What are hexadecimal service names in a cgroup used for?
+
+**问题描述 / Problem Description**:
+Tags: linux, cgroups | Score: 8 | Views: 418 | Answers: 1 | Created: 2026-10-31
+
+**解决方案 / Solution**:
+Modern Desktop Environments launch each application (desktop file) as a systemd service. There are high level recommendations for DE systemd integration on this page . The hexadecimal string is randomly generated to allow multiple instances of the same application to coexist. The services starting with app- normally correspond to the started desktop applications. Once application program is started, it can use systemd D-Bus APIs to rearrange processes to some extent (at least, to connect processes to a different scope). That is what Konsole does. Why the hierarchy looks this way in your case can probably be answered only by reading the source code of the exact konsole version you are using. On KDE 6.8.0 I see more regular and logical organization: | |-app-org.kde.konsole-2472.scope | | |-main.scope | | | `-2472 /usr/bin/konsole | | |-tab(2477).scope | | | |-2477 /bin/bash | | | |-2876 systemctl status | | | `-2877 cat | | `-tab(2855).scope | | `-2855 /bin/bash Konsole creates a separate scope for each tab and additionally the scope for itself. The transient service that has been created when the konsole.desktop was launched is still there: or@uefi:~> LANG=C systemctl --user --no-pager status 'app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service' * app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service - Konsole - Terminal Loaded: loaded (/home/bor/.local/share/plasma_icons/org.kde.konsole (1).desktop; transient) Transient: yes Active: active (running) since Sat 2026-10-31 17:31:59 MSK; 1h 16min ago Invocation: 3ed0cd6e81874a9ca50c0c5921c3571e Main PID: 2472 (konsole) Tasks: 0 (limit: 3387) CPU: 126ms CGroup: /user.slice/user-1001.slice/user@1001.service/app.slice/app-org.kde.konsole\x20\x281\x29@0fbbc682534149e6b7c368d2804351ab.service > 2472 /usr/bin/konsole It just appears to have no processes (as indicated by > prefix). The Konsole version you are using apparently has not yet implemented it.
+
+**参考链接 / References**:
+- https://unix.stackexchange.com/questions/807819/what-are-hexadecimal-service-names-in-a-cgroup-used-for
+
+---
+
+#### 10490. “Automation and AI”: SUSE cuts one in 10 jobs
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xmprp8/automation_and_ai_suse_cuts_one_in_10_jobs/
+
+---
+
+#### 10491. Fedora 45 has been released!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xmtshv/fedora_45_has_been_released/
+
+---
+
+#### 10492. Ubuntu LTS kernels still unfixed for critical CVE-2026-98432
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xm9yvz/ubuntu_lts_kernels_still_unfixed_for_critical/
+
+---
+
+#### 10493. The beloved penguin-version of Affinity has been confirmed to be in development!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xm36bh/the_beloved_penguinversion_of_affinity_has_been/
+
+---
+
+#### 10494. Oops! Greg has another empirical view on LTS landing...
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xmbdh6/oops_greg_has_another_empirical_view_on_lts/
+
+---
+
+#### 10495. The first native Linux screen extender with touch and Wi-Fi: turn your Android phone into a second monitor (30 ms lag, open source)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xmy5y0/the_first_native_linux_screen_extender_with_touch/
+
+---
+
+#### 10496. Working linux on redmi 3s!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xm8203/working_linux_on_redmi_3s/
+
+---
+
+#### 10497. Intel GMA500 GPU Linux Driver update (poulsback)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xmvroi/intel_gma500_gpu_linux_driver_update_poulsback/
+
+---
+
+#### 10498. CVE-2026-98432
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xltvav/cve202698432/
+
+---
+
+#### 10499. KDE Linux Nearing Its Beta Milestone, Now Ships With NTSYNC By Default
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xlwhyi/kde_linux_nearing_its_beta_milestone_now_ships/
+
+---
+
+#### 10500. Shutting the Door on the XCPE Botnet
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xm5wn0/shutting_the_door_on_the_xcpe_botnet/
+
+---
+
+#### 10501. FreeRDP 3.33.0 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xlve1l/freerdp_3330_released/
+
+---
+
+#### 10502. aerynOS Blog announcement: foundations are leading to expanding horizons
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xm6w94/aerynos_blog_announcement_foundations_are_leading/
+
+---
+
+#### 10503. Native Arch Linux ARM (Mainline 7.3.0) on the OnePlus 9 Pro — Repo is live!
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xloug2/native_arch_linux_arm_mainline_730_on_the_oneplus/
+
+---
+
+#### 10504. Ah, AI pounding and next LTS 7.4 building .....
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xlgi7g/ah_ai_pounding_and_next_lts_74_building/
+
+---
+
+#### 10505. The Linux 7.4 Merge Window Is Easily The Largest In Kernel History
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl2enm/the_linux_74_merge_window_is_easily_the_largest/
+
+---
+
+#### 10506. Budgie 10.10.4 Released | Buddies of Budgie
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl7ngp/budgie_10104_released_buddies_of_budgie/
+
+---
+
+#### 10507. Trinity Desktop R14.1.7 Released with Konsole and Taskbar Improvements
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl8xfs/trinity_desktop_r1417_released_with_konsole_and/
+
+---
+
+#### 10508. Linux's Perf Python Scripts More Robust & Faster With Linux 7.4
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl0x8c/linuxs_perf_python_scripts_more_robust_faster/
+
+---
+
+#### 10509. OverlayFS Sees Many Fixes Thanks To AI Code Review
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl2di7/overlayfs_sees_many_fixes_thanks_to_ai_code_review/
+
+---
+
+#### 10510. OpenSUSE Leap 16.1 Official Launch: Why It's My Ultimate Daily Driver (and How ALP Changes the Game)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl45te/opensuse_leap_161_official_launch_why_its_my/
+
+---
+
+#### 10511. Enlightenment 0.28.0 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xkparx/enlightenment_0280_released/
+
+---
+
+#### 10512. The biggest update to Routr SIP Server in years.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xl20ig/the_biggest_update_to_routr_sip_server_in_years/
+
+---
+
+#### 10513. Open source linux to mac airpods seamless switch
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xktasm/open_source_linux_to_mac_airpods_seamless_switch/
+
+---
+
+#### 10514. Securing Internet-Critical Software: How We Could Have Backdoored Bash
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xk5sqa/securing_internetcritical_software_how_we_could/
+
+---
+
+#### 10515. [V2EX] 不要用 b 站的任何东西， b 站专门对小商家大批量碰瓷起诉
+
+**问题描述 / Problem Description**:
+放了个链接，检查过正常用没什么问题，但是被 b 站律师钓鱼取证，也不联系，直接起诉。 网上搜索说这个律所主要代理 b 站，专门针对小商户大批量起诉。 了解发现现在很多行业很多这种专门批量碰瓷起诉的律师，叫版权蟑螂，不是为保护版权，就是为了通过这种方式赚钱，大家要注意！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254259#reply8
+
+---
+
+#### 10516. [V2EX] 你们公司有没有把生产服务蔓延到办公环境？
+
+**问题描述 / Problem Description**:
+AI 来临之后，大干快上。很多需求不走正规的发布流程到生产环境服务器，直接把内部系统 web 接口包装成 cli ，然后让 ai agent 调用各个 cli ，在非开发人员或者开发人员电脑上或者办公网环境机器的实现业务流程 我总感觉这样是不正规的，但是在目前环境下，你们认为呢
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254231#reply6
+
+---
+
+#### 10517. [V2EX] 让 Claude Code 连数据库的注意下： curl 把密码从 ps 里藏了，外面那层 shell 没藏
+
+**问题描述 / Problem Description**:
+我自己机器上查了一下，253 个 Claude Code 会话记录里，有 16 个出现过 mysql -p 密码 、 curl -u user:pass 这类写法。顺手看了下 AI 跑这种命令时 ps 里是什么样，发现比我以为的多了一层。 今天在 Mac 上复现（ Claude Code 2.1.317 ）：让它跑一条带假密码的 curl ，另起一个进程抓 ps： 54958 64286 /bin/zsh -c source ~/.claude/shell-snapshots/… && eval 'curl -s -m 8 -u demo:FAKEPASS123 http://10.255.2
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254223#reply6
+
+---
+
+#### 10518. [V2EX] 怎么让 AI 把页面设计美观好看的
+
+**问题描述 / Problem Description**:
+使用 AI 生成界面有没有遇到过这种情况：功能布局都已经确定，界面效果又总是达不到自己想要的效果，让 AI “更美观一点”，它又会给你一套全新的风格，一直都达不到期望 最近正好碰到了这个问题，就分享几幅图来请大家讨论下。 这是我正在进行的开源抓包工具 Sniffy 中的根证书安装向导的界面，它的作用是让用户选择自己的设备，并按照页面提供的文字与截图进行操作。这是使用 gpt 画图生成的几版不同的设计方案： 不同方案都有一些值得使用的部分，但整体感觉有点过于强推：标题与图标、按钮、内容区都想突出表达出来，放到实际的软件中并不符合我的预期，我更希望整体看起来比较清爽，信息的优先级更加明确，能够与整
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254217#reply14
+
+---
+
+#### 10519. [V2EX] 如何减少人为干预，让 agent 独立工作并提高交付质量
+
+**问题描述 / Problem Description**:
+使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。 我在想有没有什么简单的方式，让人尽量少的参与闭环。提供更充分的上下文和参考资料，能帮助 Agent 理解任务、提高交付质量。我也在尝试让多个 Agent 相互讨论和审核。虽然不少产品支持 Subagent 协作，但我担心同一家厂商的模型可能存在相似的盲区，因此更希望引入不同厂商的 Agent 交叉验证。 目前，我主要通过 Markdown 文档或复制粘贴，让不同 Agent 审核、质疑彼此的方案。这样有一定效果，但仍需要我来回传递信息、协调过程感觉很麻烦。 有没
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254207#reply5
+
+---
+
+#### 10520. [V2EX] AI 时代下程序员的出路在哪里？
+
+**问题描述 / Problem Description**:
+因为 AI 编程现在已经快速成为编程的主流了，以后程序员的工作机会肯定会越来越少。 尤其对于初级程序员，清华大学发布的《 AI 时代技能趋势报告》显示,初级程序员岗位 AI 替代率达到 87%。 有些观点认为：程序员行业正经历结构性重塑,程序员的核心价值从“手写代码”加速转向“架构设计与 AI 协同”。其实我也这么认为，以前程序员的主要工作是写代码，但是很明显，现在不用写了，让 AI 写就行了。 那么问题来了，AI 时代老的程序员的出路在哪里？难道都去做产品或者 FDE 去？ 新的就别做程序员好了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254204#reply13
+
+---
+
+#### 10521. [V2EX] 让 Claude 帮我做了一个自动赚钱挖矿的程序，跑了 8 天的真实数据进行测试，最后被 Claude 验证无法赚钱，劝我放弃项目。
+
+**问题描述 / Problem Description**:
+项目是做什么的 实时采集 Solana 链上 ORE 挖矿的当前轮次、25 格部署量、Split/Solo 类型、奖励池、官方矿工账户、SOL/ORE 可执行兑换报价。 最终实现建立“决策前盘口 → 模拟订单 → 实际成交 → 开奖结算 → Claim → 变现”的完整审计链。 过程 让 Claude 分析 ORE 挖矿的规则，并使用 Solana 链上的真实数据进行分析，因为是在国内很多链上接口无法连接，专门买了台香港的服务器进行跑数据。 一开始 claude 让跑一段连续 24 小时的真实数据进行分析，发现 24 小时数据不行，又让跑 12 天的数据进行分析。 昨天我让 claude 连接
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254196#reply7
+
+---
+
+#### 10522. [V2EX] 这两天还有 claude 被封的吗,我看站内没人发被封号了,是不是又能开小号冲了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254166#reply7
+
+---
+
+#### 10523. [V2EX] [不懂就问] Claude 弹 KYC，我想让它直接封账户怎么做？
+
+**问题描述 / Problem Description**:
+没有护照，KYC 流程走不下去，想失败都没办法。 退款也退不了。 31 号早上弹 KYC ，第四天了，难道就这么一直卡着吗？ 22 号付的钱，也没用几天。。 这种情况怎么办，还能不能退款了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254157#reply13
+
+---
+
+#### 10524. [V2EX] Ubuntu 也太草台班子了， CVE-2026-98432 内核补丁还没推送吗，有装了 proposed 源的大佬吗，有问题吗
+
+**问题描述 / Problem Description**:
+https://ubuntu.com/security/CVE-2026-98432
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254154#reply3
+
+---
+
+#### 10525. [V2EX] 有可自己编程 DIY 的 mp3/MP4 吗？最好的现成的方案，我只要自己改固件源码就行
+
+**问题描述 / Problem Description**:
+最好是带有简单的屏幕的。 不带屏幕的 也行。 或者开源软件、硬件的芯片的方案也行。 ESP32 那种方案也行。 要求：代码可控，能随意自己编程，高度自定义。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254153#reply12
+
+---
+
+#### 10526. [V2EX] token 不够用
+
+**问题描述 / Problem Description**:
+如题，codex plus 账户严重不够用，是否有便宜，量大管饱的账户使用，一般使用 deepseek 的 api 吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254150#reply2
+
+---
+
+#### 10527. [V2EX] 有稳定跑 claude、codex 的方案吗？准备买个 mac 放到美国朋友家里了
+
+**问题描述 / Problem Description**:
+大家有其他稳定的方案吗？ 美国加宽也用过了，机器语言环境、时区都完全搞成国外环境也不行。可能项目对话是中文？搞不懂 现在，被折腾的实在没办法的，准备买个 mac ，邮寄到朋友家里放着，用 uu + rustdesk 远控。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254129#reply16
+
+---
+
+#### 10528. [V2EX] 一个用于前端 wasm 的自创密码学算法，欢迎破解~
+
+**问题描述 / Problem Description**:
+具体功能：在线网页测量用户的 CPU 主频，并挑战排行榜。 （查看演示） 要实现这个功能，最简单的办法就是用 js/wasm 跑一段消耗 CPU 周期比较稳定的程序，测量起始和结束的时间差，然后上报到服务端。 但这有个严重的问题：时间是在前端测量的，用户可以伪造。即便对程序加密混淆，现在也不难破解。所以必须用一些密码学机制，从原理上堵住这个漏洞。例如使用 VDF 函数进行计算，这样客户端必须老老实实执行每一步才能得出正确的结果。 但这还有另一个问题：这个算法是跑在网页里的，因此必须能被 JIT 充分优化，接近甚至达到原生程序的性能才行，否则作弊者可以用原生程序代替网页版。要符合这个条件，稍复杂
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254117#reply0
+
+---
+
+#### 10529. [V2EX] uu 远程未来要付费了
+
+**问题描述 / Problem Description**:
+https://x.com/uu_remote/status/2116387819019247951?s=19 说实话体验真的很好，希望付费模式友好点别太离谱
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254112#reply75
+
+---
+
+#### 10530. [V2EX] 求助 V 友，苹果开发者账号从个人转为公司，提示公司已有会员资格。
+
+**问题描述 / Problem Description**:
+事情的经过： 开发者账号是 2016 年左右注册的，一直是个人身份。 公司是 2019 年注册的。2026 年转为 opc。 2026 年申请的 duns，找到了我的公司，直接返回的编码，ai 分析是公司已被邓白氏提前收录。 用上面的 duns 申请个人转公司，被驳回，提示公司已经是 Apple Developer Program 的会员。 Apple Developer Program 只允许公司拥有一个会员资格。 我用 duns 返回的公司英文名全网搜了下，返回的是我的公司，没有重名。 给苹果发送了营业执照和身份证明，不肯处理，只能将我的信息转发至“相应帐户持有人”。 请教一下，这种事我操
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254089#reply4
+
+---
+
+#### 10531. [V2EX] 大半年已经不打开 IDE 了，把 Jetbrains 的 Git 搬到了 Coding Agent 中
+
+**问题描述 / Problem Description**:
+首先我认为将来 Git 也不需要我来管理了，但是目前还处在过渡期，自己也会操作下。 所以目前把 Git 复刻到我的多 Agent 协作平台里了，大家有需要也可以看看。 地址： https://github.com/flyhero/antumi
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254043#reply0
+
+---
+
+#### 10532. [V2EX] Claude 确保 IP 纯净+网络隔离的一个方法
+
+**问题描述 / Problem Description**:
+Claude 封号的原因很多，但是 IP 应该主要问题，大多数人都是购买三方代理，所以很难保证 IP 纯净。 说一下我目前的方法，在腾讯云硅谷机房租一个服务器，拥有独立公网 IP ，然后在上面自建🪜，本地用 Clash Verge 开 TUN 模式连接。 要保证网络彻底隔离，那就不要本地直连 Claude ，可以在服务器上运行 Claude code ，然后本地再通过 SSH 方式连接上去使用，如果需要浏览器页面用，则可以部署一个 WebUI 这种方式的缺点是需要额外做本地和云端的文件同步
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254040#reply45
+
+---
+
+#### 10533. [V2EX] claude 账号卒了，还有其他方法能让我订阅 pro 用 cc 嘛
+
+**问题描述 / Problem Description**:
+报销额度太低了，只不过 20 刀也基本够用 买 cusor 吗还是哪里的稍微能耐用一点 感觉 opus5.5 还是好用的多
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254027#reply10
+
+---
+
+#### 10534. [V2EX] Linux 又一个高危漏洞： CVE-2026-98432
+
+**问题描述 / Problem Description**:
+真是 every day is 0day 有 xray 的都会开着 mptcp 昨晚连夜让 ai 修补了几台服务器 我打算通过 tailscale 打洞了，只允许通过 Tailscale 内部访问 SSH ，通过 Cloudflare Tunnel 接收网页流量 官方评级：Linux 内核 CVE 团队评分为 9.8 / 10 （最高级危急漏洞）。 攻击条件：无需任何凭证，无需用户交互，只要 Linux 服务器开启了受影响的内核且暴露了 IPv4 TCP 端口，攻击者即可远程利用。 实际危害：Anthropic 安全团队测试表明，AI 模型成功编写出了利用脚本，可在 50 分钟内攻陷运行多路径
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253993#reply44
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 1368**
+**总计条目 / Total entries: 1388**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -22009,5 +22009,325 @@ Apply patch from vendor. Monitor https://source.android.com/docs/security/bullet
 
 **参考链接 / References**:
 - https://source.android.com/docs/security/bulletin/2026/2026-10-01
+
+---
+
+#### 1369. [Microsoft] CVE-2026-118780 - Forge: verifyCertificateChain() removes trusted CA certificates with the same subject from the CA store
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118780
+
+---
+
+#### 1370. [Microsoft] CVE-2026-118781 - Forge: Denial of Service via infinite loop in BigInteger.modInverse() with negative input (incomplete fix of CVE-2026-33891)
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118781
+
+---
+
+#### 1371. [Microsoft] CVE-2026-119191 - Forge: ASN.1 resource exhaustion via BIT STRING decoding in asn1.fromDer
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119191
+
+---
+
+#### 1372. [Microsoft] CVE-2026-118776 - Forge: Incomplete PKCS#7 padding validation in AES/DES CBC and ECB decryption
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118776
+
+---
+
+#### 1373. [Microsoft] CVE-2026-119188 - Forge: Denial of service in TLS record processing via a record interleaved with a fragmented handshake message
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119188
+
+---
+
+#### 1374. [Microsoft] CVE-2026-119186 - Forge: AES-GCM authentication bypass via unvalidated tagLength option
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119186
+
+---
+
+#### 1375. [Microsoft] CVE-2026-119187 - Forge: Denial of service in TLS record processing via call stack exhaustion
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119187
+
+---
+
+#### 1376. [Microsoft] CVE-2026-118779 - Forge: Regular expression denial of service in PEM decoding (pem.decode)
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118779
+
+---
+
+#### 1377. [Microsoft] CVE-2026-118775 - Forge: ASN.1 OID first arc truncation in asn1.oidToDer
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-118775
+
+---
+
+#### 1378. [Microsoft] CVE-2026-119189 - Forge: X.509 pathLenConstraint not enforced by verifyCertificateChain() for CA certificates without keyUsage
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119189
+
+---
+
+#### 1379. [Microsoft] CVE-2026-119194 - pyasn1: Quadratic CPU use in schemaless BER/CER/DER container decoding
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-119194
+
+---
+
+#### 1380. [Microsoft] CVE-2019-25781 - Python-Markdown 3.0 through 3.11.2 Denial of Service via Link Bracket Parsing
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2019-25781
+
+---
+
+#### 1381. [Microsoft] CVE-2026-103963 - Glib-networking: unbounded tls 1.3 session ticket queue growth in glib-networking allows remote denial of service
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-103963
+
+---
+
+#### 1382. [Microsoft] CVE-2026-114691 - Gcc: integer wrap in `std
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-114691
+
+---
+
+#### 1383. [Microsoft] CVE-2026-114690 - Gcc: confirmed out-of-bounds read/write in libstdc++ parallel `std
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-114690
+
+---
+
+#### 1384. [Microsoft] CVE-2026-115455 - Gcc: stack overflow in std::bitset on libstdc++
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-115455
+
+---
+
+#### 1385. [Microsoft] CVE-2026-93009 - Dnsmasq: dnsmasq: heap out-of-bounds read in dhcpv6 option 39 fqdn decoder
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-93009
+
+---
+
+#### 1386. [Microsoft] CVE-2026-93010 - Dnsmasq: dnsmasq: --leasequery without address argument applies no source address check
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-93010
+
+---
+
+#### 1387. [Microsoft] CVE-2026-93008 - Dnsmasq: dnsmasq: out-of-bailiwick cache injection through cname chase in split-dns configurations
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-93008
+
+---
+
+#### 1388. [Microsoft] CVE-2026-93011 - Dnsmasq: dnsmasq: heap out-of-bounds write in dnssec validator via to_wire/from_wire transforms
+
+**严重程度 / Severity**: N/A
+**受影响产品 / Affected Products**: Mariner
+
+**漏洞描述 / Description**:
+[Microsoft]
+
+**补丁信息 / Patch Info**:
+Install Microsoft security update KB. Use Windows Update or download from Microsoft Update Catalog.
+
+**参考链接 / References**:
+- https://www.cve.org/CVERecord?id=CVE-2026-93011
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 11156**
+**总计条目 / Total entries: 11217**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -150953,5 +150953,798 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1253841#reply9
+
+---
+
+#### 11157. PC can't fully shutdown on its own
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmso1r/pc_cant_fully_shutdown_on_its_own/
+
+---
+
+#### 11158. 2, s, w, x key aren't working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn3mlz/2_s_w_x_key_arent_working/
+
+---
+
+#### 11159. does deleting a folder that needs administrator mean you give the app or files app administrator privileges?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn6egj/does_deleting_a_folder_that_needs_administrator/
+
+---
+
+#### 11160. pc potentially compromised becsuse of the video game NIKKE. Need some help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn1055/pc_potentially_compromised_becsuse_of_the_video/
+
+---
+
+#### 11161. Weird graphical errors on laptop, but only on external displayes
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn6l92/weird_graphical_errors_on_laptop_but_only_on/
+
+---
+
+#### 11162. Command Prompt won’t stop popping up randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn6gy1/command_prompt_wont_stop_popping_up_randomly/
+
+---
+
+#### 11163. USB memory sticks break like crazy!
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn6d83/usb_memory_sticks_break_like_crazy/
+
+---
+
+#### 11164. HP (Windows 11) Laptop won’t connect to ANY WiFi
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn66d4/hp_windows_11_laptop_wont_connect_to_any_wifi/
+
+---
+
+#### 11165. Issue with triple monitors constantly crashing games
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn6273/issue_with_triple_monitors_constantly_crashing/
+
+---
+
+#### 11166. Computer Suddenly “Overloading”? Is this malware?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmrtjd/computer_suddenly_overloading_is_this_malware/
+
+---
+
+#### 11167. Fans being wierd and disk usage at 100%
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmzaaj/fans_being_wierd_and_disk_usage_at_100/
+
+---
+
+#### 11168. Graphics Issues
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn50s7/graphics_issues/
+
+---
+
+#### 11169. Wifi signal not reaching new PC
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn4zfh/wifi_signal_not_reaching_new_pc/
+
+---
+
+#### 11170. I'm always out of phone storage, what to do?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn4ms8/im_always_out_of_phone_storage_what_to_do/
+
+---
+
+#### 11171. YouTube buffering at 4K 1.75x despite 1 Gbps internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmoenc/youtube_buffering_at_4k_175x_despite_1_gbps/
+
+---
+
+#### 11172. Windows screen recorder doesn't work ("recording stopped" error message)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn4c63/windows_screen_recorder_doesnt_work_recording/
+
+---
+
+#### 11173. What’s should I do
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn40c0/whats_should_i_do/
+
+---
+
+#### 11174. Is a good mobo+good power surge strip better than budget mobo+ups? Mobo upgrade after damage.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xmu599/is_a_good_mobogood_power_surge_strip_better_than/
+
+---
+
+#### 11175. No Display Output Before Windows Boots – BIOS/UEFI and POST Screen Not Visible (RX 580)
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn3tsq/no_display_output_before_windows_boots_biosuefi/
+
+---
+
+#### 11176. PC freezes while gaming + audio loops/buzzes – WhoCrashed shows NDIS live dump (0x15E). Specs and dump inside
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn3oz5/pc_freezes_while_gaming_audio_loopsbuzzes/
+
+---
+
+#### 11177. Is it possible to stop my xbox controller from controlling windows 11 taskbar?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn3j4s/is_it_possible_to_stop_my_xbox_controller_from/
+
+---
+
+#### 11178. 330 Watt Charger recently sparking more when plugging in
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn32ml/330_watt_charger_recently_sparking_more_when/
+
+---
+
+#### 11179. Shadows on my tv are really dark and the reds look pink?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn2wn5/shadows_on_my_tv_are_really_dark_and_the_reds/
+
+---
+
+#### 11180. Laptop fans go heavy like crazy and lead to a blue death screen and a black screen randomly
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xn2pux/laptop_fans_go_heavy_like_crazy_and_lead_to_a/
+
+---
+
+#### 11181. [V2EX] 用 claude code 和 codex，应该走什么订阅性价比最高？
+
+**问题描述 / Problem Description**:
+主要学习用途，一直用的 dsv4 + hermes 。 想换换 agent 。 看了 commandcode goat ，是提供的，但这个和直接用官方的订阅有什么区别？ 毕竟请求要先路由到 comanndcode ，就这一个区别？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254287#reply0
+
+---
+
+#### 11182. [V2EX] 如果明天你就挣够了一辈子要花的钱，你会怎么规划？
+
+**问题描述 / Problem Description**:
+如果明天你就挣够了一辈子要花的钱，你会怎么规划？ 来个好运设计
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254269#reply8
+
+---
+
+#### 11183. [V2EX] 长辈配眼镜，请教各位有什么需要注意的地方
+
+**问题描述 / Problem Description**:
+长辈五十多岁，据他说最近几年盯着电脑屏幕比较多，前几年开始老花了，然后网上买了老花镜戴了几年，看远处的东西一直挺清楚的。 但是他说最近几个月看远处的也比较模糊了，所以想去验个光，我提了一下去医院先检查一下，但他本人还是想先去眼镜店看看。 由于我本人没有配过眼镜，所以不太了解，想请教一下各位有什么需要注意的地方吗，目前打算是带他去本地开了十几年，口碑还不错的眼镜店先看看。 一直听说配眼镜坑挺多的，问了 AI 也给了一堆建议，但还是没有太明确的概念。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254262#reply1
+
+---
+
+#### 11184. [V2EX] 请教手机改直供电的一些电路问题
+
+**问题描述 / Problem Description**:
+目前是想把手机的锂电池去掉，同时手机 USBC 充电口要接电脑通过 adb 控制手机，找了一些网上的一些资料，有两个方案，麻烦电子方面大佬帮忙看看： 1. 电池拆下来保护板，在保护板上接上电容，电容相当于一个假的小电池。通过 c 口供电和与电脑通信。 这个方案可行吗？ 电容推荐多少 V 与 F ， 型号有推荐的吗？ 2. 5V2.5A 充电器 -> mini360 降压 -> 电池保护板 -> 手机 。但电脑同时想 c 口接电脑通信， 无线 adb 不稳定。 这里主要担心 c 口供电与 改的 充电器同时供电，担心 c 口的供电反充到充电器，怕电池保护板出问题，请大佬帮忙看看这个有什么风险吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254255#reply9
+
+---
+
+#### 11185. [V2EX] 怎么合并或汰换下电脑
+
+**问题描述 / Problem Description**:
+目前手里有一台 Mac mini m4 、一台 Macbook air m3 、一台 MacBook pro m1 。Mac mini 家里常驻，上网、看剧、日常事务，air 出门带，pro 是做开发用。 最近想汰换一波，感觉家里一台，出门能带一台就够了。老哥们都是怎么搭配的？ 出门还是不太想背太重的，感觉还是需要一台 air ，不知道怎么组合合适了🤷‍♂️
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254251#reply7
+
+---
+
+#### 11186. [V2EX] 语音网关+voip 电话，部署后只是用座机给自己手机打了几个电话， 96110 电话就打来了
+
+**问题描述 / Problem Description**:
+RT ，本来还想加上 freepbx 整个部署在公司，把座机老电话换了，96110 就来电话了，问我是不是跟一个座机有多次电话沟通，我下意识否认，想问下部署语音网关是否有合规性要求呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254247#reply5
+
+---
+
+#### 11187. [V2EX] 用 opencode 的兄弟们 装哪个记忆插件？
+
+**问题描述 / Problem Description**:
+看完 https://www.v2ex.com/t/1254053 ，发现 opencode 记忆是会话级的...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254245#reply1
+
+---
+
+#### 11188. [V2EX] 副业可以去写书吗
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254235#reply4
+
+---
+
+#### 11189. [V2EX] DeepSeek 出问题了 要发布新模型了吗？
+
+**问题描述 / Problem Description**:
+状态页面： https://status.deepseek.com/ 刚刚使用报错： 503: Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. 提前下班回家了～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254224#reply3
+
+---
+
+#### 11190. [V2EX] 怎么我发的帖子不会出现在节点的时间线上了
+
+**问题描述 / Problem Description**:
+上次发帖按照时间倒序查看节点的帖子，但是看不到自己发的帖子，不知道这个帖子会不会也是这样
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254208#reply0
+
+---
+
+#### 11191. [V2EX] 亲戚聚餐，被当众问工资，怎么回答
+
+**问题描述 / Problem Description**:
+有个亲戚，大嘴巴，总喜欢打听挣多少钱，怎么回答合适？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254205#reply54
+
+---
+
+#### 11192. [V2EX] deepseek 又炸了
+
+**问题描述 / Problem Description**:
+等下班了，该吃啥呢？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254202#reply0
+
+---
+
+#### 11193. [V2EX] BTC 被盗了还有机会追回吗
+
+**问题描述 / Problem Description**:
+为了嫖一个 team48 的 gpt ，给 gate card 转钱的时候用复制粘贴的方法输入了助记词，结果今年副业收入的四万 rmb 全部被转走了。 地址是 bc1qstkdzr6hgrwzkhjkp8h03fgdyuw82t8wxuj26v 各位大佬们，这还有机会追回吗？痛！太痛了！！！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254201#reply19
+
+---
+
+#### 11194. [V2EX] 写代码 使用 官方的 DeepSeek-V4.1-Flash 1017 ，在 DSH 、 codex、trae、和 CodeBuddy 那个好一些呢？
+
+**问题描述 / Problem Description**:
+写代码 使用 官方的 DeepSeek-V4.1-Flash 1017 ，在 DSH 、codex 、trae 、和 CodeBuddy 这些中，我理解就是编排任务工具 不同，那个更好一些呢？ 我目前使用了 codex 和 dsh 没感觉啥区别 ，但听别人老实说 某某某 输出更好一些
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254199#reply4
+
+---
+
+#### 11195. [V2EX] 想找个好用的家宽，不想折腾了，之前别人推荐了苏菲家宽，虽然有些 ip 很纯净但是很多节点用着老掉
+
+**问题描述 / Problem Description**:
+不想折腾太多，就想找个能用的干净点的梯子，之前只用 codex 和 Antigravity ，想找个干净的梯子试试 cluade ，被封了也无所谓，梯子预算一个月 50r 左右，有推荐嘛
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254198#reply6
+
+---
+
+#### 11196. [V2EX] 调查：你在用什么语言学习工具/APP？好用和不满意它的地方是什么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254167#reply1
+
+---
+
+#### 11197. [V2EX] 推特为什么一直限流，难道真是机房 IP 的原因吗
+
+**问题描述 / Problem Description**:
+我手里有两个号经常用机房 IP 登，以前只刷刷看看的倒没影响 最近想用账号发点东西发现是被限流了 问了 ai 说了一大堆必须用住宅 IP 有经验的说下 推特到底是要搭建环境养号还是非得让我开蓝 V
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254156#reply0
+
+---
+
+#### 11198. [V2EX] 请教各位老哥，文生图、图生图、文生视频、图生视频用什么工具比较好？
+
+**问题描述 / Problem Description**:
+各位老哥好，想向大家请教一下。 我目前用过 GPT 、豆包、即梦，之前也用过 RunningHub 。GPT 生图的效果我挺满意，但豆包和即梦的免费额度出来的效果一般，还带水印。 我这边没有合适的本地设备，只能用线上工具，想请教除了 GPT 之外还有没有更好的选择？先谢谢大家。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254133#reply4
+
+---
+
+#### 11199. [V2EX] 求推荐一款 27 英寸 4K 显示器
+
+**问题描述 / Problem Description**:
+平时主要看视频、打游戏（不打 fps ），几乎不办公，预算 3K 左右
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254127#reply11
+
+---
+
+#### 11200. [V2EX] 退休后还打算回农村老家养老吗
+
+**问题描述 / Problem Description**:
+经常梦到小时候村里的场景，那个小山村已经融入了我的灵魂 梦想退休后，回到小时候长大的村里，渡过余生 但，又有不少现实问题，令人望而却步 焦虑的灵魂无处安放
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254125#reply42
+
+---
+
+#### 11201. Laptop loses sleep mode after a BIOS update
+
+**问题描述 / Problem Description**:
+Tags: windows, laptop, bios, sleep, hibernate | Score: 3 | Views: 209 | Answers: 1 | Created: 2026-07-19
+
+**解决方案 / Solution**:
+In case that's useful to anyone, had the same issue after BIOS update, and that was caused by me having disabled Modern Standby from the registry via HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power and PlatformAoAcOverride . Undid that change and Sleep popped back up.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939144/laptop-loses-sleep-mode-after-a-bios-update
+
+---
+
+#### 11202. Why does WASAPI shared mode break in Windows 11 25H2?
+
+**问题描述 / Problem Description**:
+Tags: audio, drivers, windows-11, asio | Score: 1 | Views: 232 | Answers: 1 | Created: 2026-08-20
+
+**解决方案 / Solution**:
+After more than a month of troubleshooting, this is finally fixed. While the hardware is exactly the same, Windows 11 25H2 adds a Signal Enhancement option to the Recording Device properties. This is Enabled by default. All I needed to do was to Disable this option and Shared Mode be it WASAPI or ASIO started working just fine. It’s unclear why this option never existed on earlier versions of Windows 11 despite running on exactly the same hardware. Ironically this Is not new, I have seen it in Windows 10 as well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1939808/why-does-wasapi-shared-mode-break-in-windows-11-25h2
+
+---
+
+#### 11203. How to do permanent file redirection on Windows 11?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, mklink | Score: 0 | Views: 78 | Answers: 1 | Created: 2026-10-28
+
+**解决方案 / Solution**:
+For a name that follows the master file's path , create a file symbolic link . First compare the two existing files and make sure C:\myfolder\myfile.txt contains the version you want to keep. Move or rename the duplicate at C:\otherfolder\myotherfile.txt so that this name is available; mklink does not merge or overwrite existing files. Open Command Prompt as administrator and run: mklink "C:\otherfolder\myotherfile.txt" "C:\myfolder\myfile.txt" The order is new link, existing target . The Microsoft mklink documentation specifies that omitting the switches creates a file symbolic link. There is no /D here because the target is a file, not a directory. Opening C:\otherfolder\myotherfile.txt then resolves to C:\myfolder\myfile.txt ; it does not create a second copy of the contents. The master must remain at that path for the link to work. Your /H switch instead requests a hard link . Hard links are multiple names for the same file and must be on the same volume. They can eliminate duplicate storage, but they do not follow another filename: if an application replaces the master with a new file, the other hard link still names the old file. A symbolic link is the closer match to the path redirection you describe. Reversing the arguments corrects the direction of your command; it does not establish the cause of Incorrect function . Link creation also depends on support from the filesystem behind the paths, so changing the argument order alone is not a guaranteed fix for that error.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941253/how-to-do-permanent-file-redirection-on-windows-11
+
+---
+
+#### 11204. How to run Batch files on a NAS device?
+
+**问题描述 / Problem Description**:
+Tags: windows, batch, batch-file | Score: 0 | Views: 143 | Answers: 2 | Created: 2026-10-26
+
+**解决方案 / Solution**:
+In the comment exchange, you mentioned that you access the network share by its network share directly: eg: \\192.168.x.x\Share You then drag a file from there onto your batch file. Your batchfile will see \\192.168.x.x\Share\file.mkv as input and that's not gonna work. You see, batch files are from the DOS era, and in order to access a file from a network share, you have to make a drive mapping first. You can do this directly from Windows Explorer or from a command prompt. If you use Windows Explorer, go to \192.168.x.x so you see the Share folder. Right-click that folder and choose Map network drive. (If you are on Windows 11, it is probably in the more options menu) A dialog pops up and asks you what driveletter you want to assign, with the option to reconnect (so it remains active between reboots) After you've done this, point your explorer to the new drive letter in your This PC and everything should work. If ffmpeg runs as administrator (everytime you perform this operation) a dialog pops up and asks if you want to allow making changes (I don't think this will happen, but I'm being thorough) then this will not work. Network mappings remain in your profile, and running a program as administrator runs in a different profile. You can mitigate this by running a command prompt as administrator and type in the command: net use x: \\192.168.x.x\Share Keep the command prompt window open, otherwise, the moment you close that window, the network share is forgotten again. But as long as the window is open, any other program you run as administrator will be able to see that network share. This above command can also be run in a normal command prompt instead of using Windows Explorer, to create a network drive. By adding the option /persistent:yes you can make it stay past a reboot. Once done, if you now drag a file from the explorer window with that drive letter, the batch file will see X:\file.mkv and it will work. One way to show you why \192.168.x.x\Share can't work is by doing the following: First, open A local directory, for example: C:\Program Files. Now, click in the addressbar so you can type there. Type in cmd . This will launch a cmd window and directly go to that folder. You'll see: C:\Program Files>_ Now, repeat the same, but from the network share. So you go to \192.168.x.x\Share and then type in cmd . in the addressbar. You will get an error, and Command Prompt opens in a local folder instead. This is what happens when you run your batch file too. It opens in a different location and doesn't have access to the file, so it fails.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941206/how-to-run-batch-files-on-a-nas-device
+
+---
+
+#### 11205. Converting a console app to a persistent Windows Service
+
+**问题描述 / Problem Description**:
+Tags: windows, dotnet-framework | Score: 0 | Views: 121 | Answers: 1 | Created: 2026-10-23
+
+**解决方案 / Solution**:
+You can run a console application as a persistent Windows Service using tools like NSSM (Non-Sucking Service Manager) or by implementing the .NET Worker Service model. NSSM is a simple option for existing console apps, while Worker Service is ideal for long-term, native Windows service integration.
+
+**参考链接 / References**:
+- https://serverfault.com/questions/1200088/converting-a-console-app-to-a-persistent-windows-service
+
+---
+
+#### 11206. Windows 10 clean installation sticking loop before reaching set up screen
+
+**问题描述 / Problem Description**:
+Tags: windows-10, installation, uefi, mbr | Score: 0 | Views: 204 | Answers: 2 | Created: 2026-10-19
+
+**解决方案 / Solution**:
+Since you’ve already tried different USB drives and both UEFI and Legacy mode, I’d try a few other things. First, recreate the Windows 10 USB using Microsoft’s Media Creation Tool and boot it in UEFI mode. If the installer still gets stuck, try another USB port, preferably a USB 2.0 port if available. Also, disconnect any unnecessary devices and check whether the BIOS has any available updates. If possible, test the RAM, as a memory issue can sometimes cause this kind of problem. One thing worth checking is whether the SSD is detected properly in the BIOS. The GPT/MBR mismatch usually causes an error when selecting the installation drive, so it may not explain why the installer freezes before reaching the setup screen. I’d start with the USB and RAM checks before trying to format the drive again.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941037/windows-10-clean-installation-sticking-loop-before-reaching-set-up-screen
+
+---
+
+#### 11207. How can I share a website login between GitHub Copilot desktop sessions?
+
+**问题描述 / Problem Description**:
+Tags: windows, login, session, github-copilot | Score: 0 | Views: 127 | Answers: 1 | Created: 2026-10-15
+
+**解决方案 / Solution**:
+Each GitHub Copilot session runs in its own isolated workspace. Because of this cookies and logins cannot be shared between them. You could instead use your standard browser and have both sessions use that, however secure you feel.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940962/how-can-i-share-a-website-login-between-github-copilot-desktop-sessions
+
+---
+
+#### 11208. How can I temporarily stop Backblaze from scanning C: while backing up another drive?
+
+**问题描述 / Problem Description**:
+Tags: windows, backup, backblaze | Score: 0 | Views: 86 | Answers: 1 | Created: 2026-10-14
+
+**解决方案 / Solution**:
+Press CTRL + left mouse click. That'll allow to uncheck C:\ bypassing the Backblaze restriction: Afterward:
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940958/how-can-i-temporarily-stop-backblaze-from-scanning-c-while-backing-up-another-d
+
+---
+
+#### 11209. How can I make Chrome show more than 6 autocomplete suggestions for a form field?
+
+**问题描述 / Problem Description**:
+Tags: windows, google-chrome, forms | Score: 0 | Views: 117 | Answers: 1 | Created: 2026-10-12
+
+**解决方案 / Solution**:
+You can’t. The limit of 6 is hardcoded into Chrome. There’s no setting, no chrome://flags and no policy that modifies it. In Chromium there is a number hardcoded (6), and it is unlikely that anyone will ever be able to increase it. This is the “stuff I typed before” dropdown (the one on your screen that has Vanderbilt, USC, Cisco, etc.) and it’s different from the address/payment autofill system on Chrome. What actually helps: Type a letter or two in the space provided. As you type the list filters – typing “Un” brings up the list of universities and displays the ones that were hidden beyond the first 6. This is the simple, common sense solution. If it’s your own form, use a . That dropdown is not limited to 6 and you are in control of the whole list: <input list="affiliations" name="affiliation"> <datalist id="affiliations"> <option value="Vanderbilt University"> <option value="USC"> <option value="University of Massachusetts Amherst"> <!-- add the rest --> </datalist> If it’s not your form, use an extension. You can use a text expander or form-filler extension (or your password manager’s fill feature) which will keep its own list and display its own dropdown; the 6 item limit is not applicable. Thus, the limit cannot be altered. The best ways to do it include typing and switching to a datalist, or an extension.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940896/how-can-i-make-chrome-show-more-than-6-autocomplete-suggestions-for-a-form-field
+
+---
+
+#### 11210. Why is deleting a folder residing in Ubuntu WSL via the Windows File Explorer much slower compared to doing ´rm -rf´ in terminal?
+
+**问题描述 / Problem Description**:
+Tags: windows, networking, ubuntu, windows-explorer, windows-subsystem-for-linux | Score: 0 | Views: 93 | Answers: 1 | Created: 2026-10-08
+
+**解决方案 / Solution**:
+The rm -rf command operates directly in the Linux virtual machine in which the filesystem is defined, on files defined within that virtual machine. The Windows explorer operates on a virtual filesystem \\wsl.localhost\ (...) that effectively translates all Windows operations on that filesystem to the corresponding operations on the actual filesystem defined within the virtual machine. This translation is slow. It cannot translate the "remove this while directory tree" operation as one single operation, because filesystems do not have such an operation. Instead, Explorer traverses the directory tree and deletes each file it finds; each of these deletions is translated to the corresponding operation within the virtual machine and then executed. I think Vincent Ping explains it well . It is now becoming faster by replacing the implementation (9p) with a fasted one (virtiofs), but that is not standard yet. By the way, the reverse translation is slow as well. Within your Linux VM, the host's C:\ is available as /mnt/c , which is also a virtual translating filesystem. If you have a lot of files in, say, /mnt/c/Users/ yourusername /Downloads/somedirectory , then doing rm -rf on that directory will be slow. This is why the documentation says: We recommend against working across operating systems with your files, unless you have a specific reason for doing so. For the fastest performance speed, store your files in the WSL file system if you are working in a Linux command line (Ubuntu, OpenSUSE, etc). If you're working in a Windows command line (PowerShell, Command Prompt), store your files in the Windows file system.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940838/why-is-deleting-a-folder-residing-in-ubuntu-wsl-via-the-windows-file-explorer-mu
+
+---
+
+#### 11211. Is there some configuration not to cut commandline results?
+
+**问题描述 / Problem Description**:
+Tags: command-line, windows-registry, windows-server | Score: 0 | Views: 110 | Answers: 1 | Created: 2026-10-07
+
+**解决方案 / Solution**:
+I prefer some configuration which makes sure that commandline commands always give full answers instead of shortened ones. There can't really be one, because command-line commands do not all use any common method to format their output. Especially for Windows tools, it's more likely that every one of them does its table formatting ad-hoc, since the OS provides basically nothing useful for that purpose. (Whereas at least on Linux for example you might have some programs using the same libsmartcols with the same configurability – still zero – and then most programs still don't.) The one exception to that is PowerShell-native cmdlets, which usually output arrays of objects, which the PowerShell host then decides how to format at the very end of the pipeline. So if you replace tasklist with Get-Process you can feed its output to other PowerShell filters (e.g. ? or Where-Object ) with the objects being unaffected by formatting at each stage. And at the end you can force a multi-line "card" view instead of the squeezed table view, or limit the table to only the most important columns: Get-Process | Format-List # aka: ps | fl get-process *background* # wildcard matching is built-in ps | ft processname,id # aka: Format-Table ProcessName,Id
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940818/is-there-some-configuration-not-to-cut-commandline-results
+
+---
+
+#### 11212. How to turn off a PC desktop power while in hybrid sleep?
+
+**问题描述 / Problem Description**:
+Tags: windows-11, sleep, power, desktop, hibernate | Score: 0 | Views: 164 | Answers: 2 | Created: 2026-10-03
+
+**解决方案 / Solution**:
+Hybrid sleep is hibernate mode, in addition to sleep mode, i.e. it is designed so that the system can resume from either source. Its main purpose is to tolerate power loss while still providing instant (well, faster) resume than hibernate when power loss doesn't occur. So if you remove power, nothing bad will happen. The system is in S3 sleep so all "moving parts" (such as the HDD, and/or SSD flash) have already been powered off, only its RAM is still powered on; but losing power to the RAM won't damage it, merely lose its contents – and by design of hybrid sleep mode, the loss of RAM contents can be tolerated because of the hibernation image.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940737/how-to-turn-off-a-pc-desktop-power-while-in-hybrid-sleep
+
+---
+
+#### 11213. Why doesn’t Firefox (portable) auto update?
+
+**问题描述 / Problem Description**:
+Tags: firefox, windows-11, auto-updates | Score: 0 | Views: 265 | Answers: 2 | Created: 2026-09-22
+
+**解决方案 / Solution**:
+PortableApps do not support native auto-update because the native auto-update function of any given application may leave files in the user directories, a fact which goes against the purpose and goal of PortableApps. Now, this does not mean that individual apps' auto update function will not work, only that it working is undesireable, and PortableApps themselves do not support that function. PortableApps supports three different methods of updating their apps: Auto-update and manual updates via the PortableApps Platform program, and Standalone updating without using the PortableApps Platform. This information is all from this page: https://portableapps.com/support/portable_app#upgrading PortableApps Platform: Auto-update Install and Run the PortableApps Platform , then open Help and click Check for Updates and follow any prompts. PortableApps Platform: Manual update Follow the normal process of installing a new app. If you install a new version of an app you've already installed, it will update the current version. Standalone Download the latest paf.exe file for your app and double-click it to begin the installation. Choose the directory of the current app. This will overwrite the existing application files, updating them. All of these methods retain any current settings and data. My guess would be that the portable FF instances are functioning outside the PortableApps system and this is probably not a desirable outcome, even if they are "working". You should possibly reconsider whether portable apps are the right solution to your needs, or work to move your update habits to one of these supported methods.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940523/why-doesn-t-firefox-portable-auto-update
+
+---
+
+#### 11214. Why to activate Windows 11 after reinstalling from USB flash drive?
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-11, product-key | Score: 0 | Views: 187 | Answers: 1 | Created: 2026-09-20
+
+**解决方案 / Solution**:
+First, check if you're using the product key on the same PC it was originally activated on. If you're using it on a different PC, it might not work. Also, make sure you installed the same Windows version your key is for, like Home or Pro. Try installing all Windows updates, then go to Settings > System > Activation and click Troubleshoot. Make sure you're signed in with the Microsoft account linked to your digital license too. Hopefully, this will fix the issue. If not, you can contact Microsoft Support.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940478/why-to-activate-windows-11-after-reinstalling-from-usb-flash-drive
+
+---
+
+#### 11215. Does Windows 11 still support printing?
+
+**问题描述 / Problem Description**:
+Tags: windows-11 | Score: 0 | Views: 164 | Answers: 1 | Created: 2026-09-17
+
+**解决方案 / Solution**:
+Win - R -> type services.msc , Enter . Find Print Spooler. Click “STOP.” Delete all files under C:\Windows\System32\spool\PRINTERS Restart the print spooler.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940432/does-windows-11-still-support-printing
+
+---
+
+#### 11216. Why are secure boot settings reverting back?
+
+**问题描述 / Problem Description**:
+Tags: boot, bios, windows-11, secure-boot | Score: 0 | Views: 177 | Answers: 1 | Created: 2026-09-16
+
+**解决方案 / Solution**:
+I just found the way. I think it is a bug or BIOS issue, but it is very strange. I had to press F12 (Boot Options) before it threw the error; then I could change the Secure Boot setting. I currently disabled everything, and it is working well.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1940413/why-are-secure-boot-settings-reverting-back
+
+---
+
+#### 11217. Why can't I view diagnostic data on Windows 10? Installed Diagnostic Data Viewer and I get "The current user has no access to local diagnostic data."
+
+**问题描述 / Problem Description**:
+Tags: windows, windows-10, diagnostic | Score: 1 | Views: 542 | Answers: 1 | Created: 2025-07-01
+
+**解决方案 / Solution**:
+Make sure the DiagTrack service (Connected User Experiences and Telemetry) is running while using the Diagnostic Data Viewer (DDV) app. Otherwise, if DiagTrack is not running, starting DDV will result on that cryptic / misleading error message ("The current user has no access to local diagnostic data."). REM: If DiagTrack was running when starting DDV, but stopped afterwards, the DDV app gives a much clearer error message: "The Connected User Experiences and Telemetry service must be enabled to view telemetry."
+
+**参考链接 / References**:
+- https://superuser.com/questions/1907836/why-cant-i-view-diagnostic-data-on-windows-10-installed-diagnostic-data-viewer
 
 ---

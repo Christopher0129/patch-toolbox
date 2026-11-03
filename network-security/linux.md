@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4041**
+**总计条目 / Total entries: 4074**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -57923,5 +57923,434 @@ A vulnerability has been discovered in ca-certificates where an intermediate Cer
 
 **参考链接 / References**:
 - https://security.gentoo.org/glsa/202610-01
+
+---
+
+#### 4042. CVE-2026-120971 - org.jboss.resteasy/resteasy-core: RESTEasy: Information disclosure through…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] org.jboss.resteasy/resteasy-core: RESTEasy: Information disclosure through default exception mapper responses. Bugzilla: 2565584
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565584
+
+---
+
+#### 4043. CVE-2026-120752 - PyMuPDF: PyMuPDF: Arbitrary code execution via stack-based buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] PyMuPDF: PyMuPDF: Arbitrary code execution via stack-based buffer overflow in JM_set_annot_callout_line. Bugzilla: 2565416
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565416
+
+---
+
+#### 4044. CVE-2026-120067 - postgresql-odbc: postgresql-odbc: Denial of Service via stack-based buffer…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Denial of Service via stack-based buffer overflow in updatable cursors. Bugzilla: 2565357
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565357
+
+---
+
+#### 4045. CVE-2026-120065 - postgresql-odbc: postgresql-odbc: SQL injection via unescaped column names in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: SQL injection via unescaped column names in updatable cursors. Bugzilla: 2565352
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565352
+
+---
+
+#### 4046. CVE-2026-120066 - postgresql-odbc: postgresql-odbc: Information disclosure via insecure temporary…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Information disclosure via insecure temporary log file creation. Bugzilla: 2565359
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565359
+
+---
+
+#### 4047. CVE-2026-120062 - postgresql-odbc: postgresql-odbc: arbitrary SQL execution via unescaped input in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: arbitrary SQL execution via unescaped input in SQLSpecialColumns. Bugzilla: 2565363
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565363
+
+---
+
+#### 4048. CVE-2026-120061 - postgresql-odbc: postgresql-odbc: Memory corruption via malformed SQL escape…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Memory corruption via malformed SQL escape sequences. Bugzilla: 2565361
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565361
+
+---
+
+#### 4049. CVE-2026-120059 - postgresql-odbc: postgresql-odbc: Information disclosure via format string in…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Information disclosure via format string in column name. Bugzilla: 2565358
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565358
+
+---
+
+#### 4050. CVE-2026-120057 - postgresql-odbc: postgresql-odbc: arbitrary code execution via buffer overflow in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: arbitrary code execution via buffer overflow in large-object read. Bugzilla: 2565355
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565355
+
+---
+
+#### 4051. CVE-2026-120058 - postgresql-odbc: postgresql-odbc: Arbitrary code execution via heap buffer…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] postgresql-odbc: postgresql-odbc: Arbitrary code execution via heap buffer overflow during cursor fetch. Bugzilla: 2565364
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565364
+
+---
+
+#### 4052. CVE-2026-99239 - kernel: kernel: Privilege escalation via race condition in Bluetooth L2CAP
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via race condition in Bluetooth L2CAP. Bugzilla: 2565283
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565283
+
+---
+
+#### 4053. CVE-2026-99240 - kernel: kernel: Denial of Service via division by zero in DAMON subsystem
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Denial of Service via division by zero in DAMON subsystem. Bugzilla: 2565287
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565287
+
+---
+
+#### 4054. CVE-2026-99237 - kernel: kernel: privilege escalation via race condition in tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: privilege escalation via race condition in tracing subsystem. Bugzilla: 2565279
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565279
+
+---
+
+#### 4055. CVE-2026-99235 - kernel: kernel: Privilege escalation via use-after-free in event tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in event tracing subsystem. Bugzilla: 2565285
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565285
+
+---
+
+#### 4056. CVE-2026-99233 - kernel: kernel: Privilege escalation via use-after-free in tracing subsystem
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in tracing subsystem. Bugzilla: 2565289
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565289
+
+---
+
+#### 4057. CVE-2026-99231 - kernel: kernel: Privilege escalation via use-after-free in io_uring waitid
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Privilege escalation via use-after-free in io_uring waitid. Bugzilla: 2565291
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565291
+
+---
+
+#### 4058. CVE-2026-99217 - kernel: kernel: Denial of Service via deadlock during failed process creation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] kernel: kernel: Denial of Service via deadlock during failed process creation. Bugzilla: 2565286
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565286
+
+---
+
+#### 4059. CVE-2026-120457 - libaec: libaec: Denial of Service via out-of-bounds read in m_se_decode()
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] libaec: libaec: Denial of Service via out-of-bounds read in m_se_decode(). Bugzilla: 2565234
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565234
+
+---
+
+#### 4060. CVE-2026-120437 - netpbm: netpbm: Denial of Service via out-of-bounds read in tgatoppm
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] netpbm: netpbm: Denial of Service via out-of-bounds read in tgatoppm. Bugzilla: 2565280
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565280
+
+---
+
+#### 4061. CVE-2026-120436 - netpbm: netpbm: Arbitrary code execution via integer overflow in jbigtopnm
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] netpbm: netpbm: Arbitrary code execution via integer overflow in jbigtopnm. Bugzilla: 2565322
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2565322
+
+---
+
+#### 4062. [Ubuntu] USN-8994-1: libvips vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled certain PDF files with a page that defines a width but not a height. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service, or obtain sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-59933) It was d
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8994-1
+
+---
+
+#### 4063. [Ubuntu] USN-8993-1: SOGo vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SOGo used the client-supplied Origin header when constructing password reset links. A remote attacker could possibly use this issue to obtain password reset tokens and take over user accounts.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8993-1
+
+---
+
+#### 4064. [Ubuntu] USN-8992-1: Shapelib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8992-1
+
+---
+
+#### 4065. [Ubuntu] USN-8991-1: rxvt-unicode vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8991-1
+
+---
+
+#### 4066. [Ubuntu] USN-8990-1: Sprockets vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Sprockets incorrectly handled certain specially crafted requests when the Sprockets server was used in production. A remote attacker could possibly use this issue to access files outside of the application's root directory.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8990-1
+
+---
+
+#### 4067. [Ubuntu] USN-8988-1: Relax-and-Recover vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Relax-and-Recover created a world-readable initrd when GRUB_RESCUE was enabled. A local attacker could possibly use this issue to obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8988-1
+
+---
+
+#### 4068. [Ubuntu] USN-8987-1: libuser vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libuser did not properly validate the GECOS field when changing user information. A local attacker could possibly use this issue to corrupt the passwd file, resulting in a denial of service. (CVE-2015-3245) It was discovered that libuser modified the passwd file in place when updating user information. A local attacker could possibly use this issue to cause an inconsistent f
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8987-1
+
+---
+
+#### 4069. [Ubuntu] USN-8986-1: Swift Mailer vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dawid Golunski discovered that Swift Mailer did not properly sanitize e-mail addresses in the mail transport. A remote attacker could possibly use this issue to pass extra parameters to the mail command and execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8986-1
+
+---
+
+#### 4070. [Ubuntu] USN-8985-1: Net::EasyTCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Net::EasyTCP used the built-in Perl rand() function to generate encryption keys when no strong randomization module was present. An attacker could possibly use this issue to predict the keys and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8985-1
+
+---
+
+#### 4071. [Ubuntu] USN-8984-1: jabberd2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that jabberd2 allowed SASL ANONYMOUS authentication even when it was not enabled in the configuration. A remote attacker could possibly use this issue to bypass authentication.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8984-1
+
+---
+
+#### 4072. CVE-2026-97025
+
+**严重程度 / Severity**: LOW | CVSS: 3.2
+
+**漏洞描述 / Description**:
+Flatpak writes the OCI repository authentication token with world-readable permissions (0644) in the system-helper's cache directory, allowing other local users on a multi-user system to read the token and impersonate the authenticated user against the OCI repository. Only OCI-based sources (e.g. as used by Fedora) are affected; libostree-based sources such as Flathub are not.
+
+**参考链接 / References**:
+- https://access.redhat.com/security/cve/CVE-2026-97025
+- https://bugzilla.redhat.com/show_bug.cgi?id=2542628
+- https://github.com/flatpak/flatpak/security/advisories/GHSA-7rvf-rqr3-43j4
+
+---
+
+#### 4073. CVE-2026-98215
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+In the Linux kernel, the following vulnerability has been resolved:
+
+selinux: preserve user SID across nested backing files
+
+SELinux saves the user file SID in a backing-file security blob so it
+remains available after mmap() replaces vma->vm_file with a backing file.
+
+For nested backing files (overlayfs over overlayfs, or FUSE passthrough
+backed by overlayfs), user_file may itself be a backing file.  Its
+fsec->sid is the SID of the mounter that opened it, rather than the user
+that opened the top-level file.  mprotect() then checks fd { use } against
+the mounter SID.  This can incorrectly deny access without a domain
+transition, or check the wrong target SID after one.
+
+Copy the saved user SID when user_file is a backing file.  Keep using the
+regular file SID for the first backing layer.
+
+With two nested overlayfs mounts and SELinux enforcing,
+mprotect(PROT_READ) returns EACCES with an fd { use } denial against the
+mounter SID.  With this change, mprotect() succeeds.
+
+Tested on arm64 QEMU with a small BusyBox initramfs and a purpose-built
+SELinux policy.  The original test was also repeated with Fedora Cloud
+Base 44 userspace and gave the same result.
+
+**参考链接 / References**:
+- https://git.kernel.org/stable/c/6aaeec59aadcd1eafc18b049f1b759fb6b9d9569
+- https://git.kernel.org/stable/c/8c0c602202b9a4909b00bc3354e3c0355bc69e65
+- https://git.kernel.org/stable/c/9d99b770e7b67b00bdef9005b928aad13e1d679b
+- https://git.kernel.org/stable/c/caa1b913d90d5dc07073733326d2af0f0288f089
+- https://git.kernel.org/stable/c/ff20d16b2e8230c034e21540043df47222dcc09b
+
+---
+
+#### 4074. CVE-2026-92162
+
+**严重程度 / Severity**: N/A
+
+**漏洞描述 / Description**:
+Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. Prior to version 1.18.1, on systems where at least one OCI remote is configured (most common on Fedora systems), a malicious local user in an active local session could use a crafted architecture name to trick the `flatpak-system-helper` process into creating a root-owned directory tree with contents determined by the OCI remote, plus a root-owned `lock` file and `icons` directory, outside the intended root directory. If this vulnerability is combined with other vulnerabilities also fixed in 1.18.1, the combination can lead to local root privilege escalation. This particular vulnerability is not believed to be exploitable if there are no OCI remotes configured (common on non-Fedora systems). Version 1.18.1 patches the issue.
+
+**参考链接 / References**:
+- https://github.com/flatpak/flatpak/commit/01773f84021dd090b2426f79675f94f2564f9279
+- https://github.com/flatpak/flatpak/commit/19456b916842b079af833a86b9ab89c5db154b92
+- https://github.com/flatpak/flatpak/commit/aeb369a2723506fabc1f701ef7a0dc6c97c4b983
+- https://github.com/flatpak/flatpak/pull/6768
+- https://github.com/flatpak/flatpak/security/advisories/GHSA-v2gw-v9h5-9q4x
 
 ---

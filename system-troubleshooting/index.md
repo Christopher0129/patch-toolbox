@@ -9,8 +9,8 @@
 
 | 平台 / Platform | 条目数 / Entries | 链接 / Link |
 |---|---|---|
-| Windows | 11156 | [windows.md](windows.md) |
-| Linux | 10488 | [linux.md](linux.md) |
-| Macos | 10307 | [macos.md](macos.md) |
+| Windows | 11217 | [windows.md](windows.md) |
+| Linux | 10534 | [linux.md](linux.md) |
+| Macos | 10365 | [macos.md](macos.md) |
 
 ---
