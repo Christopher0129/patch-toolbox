@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10534**
+**总计条目 / Total entries: 10572**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -144914,5 +144914,499 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1253993#reply44
+
+---
+
+#### 10535. Synaptics Appears To Use Legal Threats To Block Open-Source DisplayLink Driver
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnyh98/synaptics_appears_to_use_legal_threats_to_block/
+
+---
+
+#### 10536. systemd loves Rust
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnpci2/systemd_loves_rust/
+
+---
+
+#### 10537. Debian APT CVE-2026-109518: Improper file handling when resuming an HTTP download allows a man-in-the-middle attacker to replace a package after verification, resulting in the execution of arbitrary code as root.
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnwd8q/debian_apt_cve2026109518_improper_file_handling/
+
+---
+
+#### 10538. KDE Interview: 30 Years of KDE, Inside Plasma 6.8, Wayland Switch, & more with Nate Graham & Aleix Pol
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnugsg/kde_interview_30_years_of_kde_inside_plasma_68/
+
+---
+
+#### 10539. The Linux Kernel Preparing To Remove The Last Of Its MMX Optimized Code
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnblta/the_linux_kernel_preparing_to_remove_the_last_of/
+
+---
+
+#### 10540. fsync gives you durability and ordering, but often you only need ordering. ZFS with sync=disabled gives you just that
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnnogi/fsync_gives_you_durability_and_ordering_but_often/
+
+---
+
+#### 10541. SuperTuxKart needs our Help! Their online has gone dark
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnk5tn/supertuxkart_needs_our_help_their_online_has_gone/
+
+---
+
+#### 10542. Bazzite 45 is here! - Bazzite
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xni8i7/bazzite_45_is_here_bazzite/
+
+---
+
+#### 10543. LibreOffice project and community recap: October 2026
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnjloz/libreoffice_project_and_community_recap_october/
+
+---
+
+#### 10544. Petition: Recognize open-source contributions as volunteer work (Germany – signatures needed until Nov 23, 2026)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xn732c/petition_recognize_opensource_contributions_as/
+
+---
+
+#### 10545. DMS 2.1 STORMBORN is live! Dux Modular Shell, a Dux Desktop Suite product
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xntydc/dms_21_stormborn_is_live_dux_modular_shell_a_dux/
+
+---
+
+#### 10546. GIMP 3.2.8 released with mamy bug fixes and security patches
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnbpkb/gimp_328_released_with_mamy_bug_fixes_and/
+
+---
+
+#### 10547. Experimental Project Gets Intel XeSS On XMX Working With Valve's Steam Play (Proton)
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnn00g/experimental_project_gets_intel_xess_on_xmx/
+
+---
+
+#### 10548. KDE Plasma in the Browser
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xo25uu/kde_plasma_in_the_browser/
+
+---
+
+#### 10549. NetBSD 11.1 released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnboak/netbsd_111_released/
+
+---
+
+#### 10550. openSUSE Leap 16.1 Released
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnbmd1/opensuse_leap_161_released/
+
+---
+
+#### 10551. Domicile Desktop Brings Web Technologies To Building Wayland Desktops
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnbqtz/domicile_desktop_brings_web_technologies_to/
+
+---
+
+#### 10552. Desktop World Clocks Update - GNOME Shell 51.1
+
+**问题描述 / Problem Description**:
+Reddit r/linux discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/linux/comments/1xnoc4x/desktop_world_clocks_update_gnome_shell_511/
+
+---
+
+#### 10553. [V2EX] 我觉得 ai 时代对于普通人是利好啊，为啥如此多的人反感/不屑呢？
+
+**问题描述 / Problem Description**:
+最近逛论坛、看国外的一些文章，发现好多人（包括我常看的一些专栏作者）都对 ai 有不少负面情绪，或者对那种“vibe coding”挺反感的。他们的理由听起来也五花八门的，比如觉得 ai 剥夺了自己亲手敲代码的乐趣啦、担心 ai 巨头变成了垄断生产资料的地主啦、或者觉得人类的价值被贬值等等。 虽说我也能理解这些焦虑，但说实话，要是现在问我“愿不愿意回到没有 ai 的日子”，我绝对会说：打死都不回去，完全回不去了！因为跟现在一比，以前那日子简直就是地狱好吗？ 大家想想过去咱们过的是啥日子。就拿我自己来说吧，上大学那会儿，身边连个 ai 帮手都没有。遇到做不出的数学题、编程题，就硬生生卡在那儿，一
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254526#reply36
+
+---
+
+#### 10554. [V2EX] 最新版 Postman 会在后台静默篡改 Codex 和 Claude Code 配置，强行植入插件与 Hook
+
+**问题描述 / Problem Description**:
+https://github.com/postmanlabs/postman-app-support/issues/14370 以前古法编程的时候还用用，现在用 AI 了，也少用了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254518#reply5
+
+---
+
+#### 10555. [V2EX] 有没有轨迹数据卖啊
+
+**问题描述 / Problem Description**:
+领导突发奇想想买外部的轨迹数据，大模型轨迹或者 Agent 轨迹都可以，哪儿有卖的啊？救命救命
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254514#reply0
+
+---
+
+#### 10556. [V2EX] 花了 0.67 元开了个 Windows 腾讯云服务器成功注册 Muse
+
+**问题描述 / Problem Description**:
+腾讯云服务器，按量付费，2 核 4G 只需要 3 毛钱 1 小时，搞个 windows 系统的。 选择美国硅谷。 然后网页登录 meta 再进入 https://muse.ai 进行注册。 注册 muse 全程一把梭。 没有要求银行卡、没有要求手机号，邮箱验证码填进去就进入了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254509#reply0
+
+---
+
+#### 10557. [V2EX] hy4 个人初步能力评价
+
+**问题描述 / Problem Description**:
+个人使用方面的基本评价，能力>=dsv4.2flash ，不降智的话目前认为可以全面平替 能力上限与 dsv4.1flash 相差伯仲，远弱于主流闭源模型（ 6astra/4argon ，claude 最近封号厉害两个月没用过了） 考虑到价格，未来计划使用 ds 更多一些，除非 hy4 降价到 ds 水平。 能力弱于 kimiK3.1pro 一档，能力方面认为无法胜任 k3 的任务 测试类目： 复杂逻辑归因和推导 科研统合 文字任务 基于概率分布输出的逻辑陷阱（例如问 5 米长的棍子能否通过高 3 米宽 3.5 米的城门，然后观察思考内容） 各种类型的图形画
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254508#reply12
+
+---
+
+#### 10558. [V2EX] 吐槽下做项目的感受
+
+**问题描述 / Problem Description**:
+说一下现在项目的感受，因为是重度游戏项目，现在后台组隔一段时间有人跳出来开发一个大模块，搞一个文档，巨长无比，ai 气息特别严重，毫无重点可言，还喜欢放到群里艾特所有人去看看，说后续就按照它这样子去做。 我心想，不如直接去看代码，结果看了一下代码后，简直蛋碎一地啊，一点小功能，拆文件拆的稀碎，美其名曰设计感，而且每个.h 文件里，写了一大坨注释。 现在属于是，本身这个基础模块其实没必要设计那么复杂。你比如任务系统，你就算是变出花来，也是达到某个 condition 进度+1 ，它能设计出花来吗？我就算你设计出花来，到最后人员一变动，不还是变成了屎山，而且策划天天脑洞大开，一会要这个一会要那个，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254505#reply9
+
+---
+
+#### 10559. [V2EX] 看看你的 AI 有多了解你：用你所知道的关于我的所有东西填满这个房间
+
+**问题描述 / Problem Description**:
+原图： ChatGPT 生成的： 生成的不错，哈哈
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254502#reply7
+
+---
+
+#### 10560. [V2EX] 用 AI 写代码以后，你们现在一天里自己手写的代码还剩多少？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254499#reply28
+
+---
+
+#### 10561. [V2EX] Ai 的普及比我想象的恐怖多了
+
+**问题描述 / Problem Description**:
+分享一下最近见闻，两三年没有上班了，可能是孤陋寡闻了，以外还是我们这些做开发的用的 AI 多。这段时间去了一些朋友公司，终于知道为什么现在很难接到开发的单了。 1 ，做 PCB 方案的公司，非技术老板自己用 ai 写的官网，还挺不错的，嵌入式用 codex 写代码，需要用手机控制的 也让 codex 直接写一个 demo ； 2 ，做检测类的公司，销售人均 codex ，营销也是用 codex 开发客户，管理人员用 codex 写管理小软件，公司的内部系统也开始用 codex 写了； 原本这些可能是要找我开发，现在不需要了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254469#reply14
+
+---
+
+#### 10562. [V2EX] 不用公网 IP 的远程开机，做了个测试版
+
+**问题描述 / Problem Description**:
+做这个的出发点很简单：远程桌面类的工具要求电脑先开着，Wake-on-LAN 便宜，但需要公网 IP 或者路由器上做端口映射，碰上运营商大内网还得再套一层穿透。两条路都能 走，只是对不想碰路由器的人不太友好。 于是做了 Powerstick：一个 USB 小硬件，插在要控制的电脑上，自己通过网口或 Wi-Fi 联网。手机、电脑浏览器打开网页，登录后能看到设备在不在线，然后点唤醒、睡眠、重启、关机。 现在的组成： 硬件是 CH32V307 做主控和 USB ，ESP32-C2 跑 ESP-AT 负责 Wi-Fi ，带一个网口。 用户 Web 是主要入口。 微信小程序也在做，账号和设备跟网页版共用
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254451#reply19
+
+---
+
+#### 10563. [V2EX] AI 嘉豪，你只是学会了用 AI 包装自己的平庸
+
+**问题描述 / Problem Description**:
+逛友博的时候看到一张表情包，忽然想到论坛里那些抱怨账号被封的 V 友，也不知道哪些是真的有需求，哪些只是 AI 佳豪失去了「人前显圣」的资本。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254444#reply36
+
+---
+
+#### 10564. [V2EX] 我们在做 AI 时代的 Dropbox，寻找一位产品设计&一位全栈工程师
+
+**问题描述 / Problem Description**:
+当年 Steve Jobs 想收购 Dropbox 时，说它“只是一个 feature ，不是一个 product”。但后来大家都知道了，Dropbox 靠把“文件在多端静默同步”这一件事做到极致，改变了一代人的工作流。 后来的 Google Drive 、iCloud ，也是在这个路子上精进的：把文件放到云端，让它在不同设备之间同步。你在一台电脑上做到一半，换到另一台设备也可以继续；你也可以连接不同的应用，让文件和数据在它们之间流动。 我们现在做的 Hipo Hipo ，就是 AI 时代的 Dropbox 和 Google Drive 。 过去工作空间里最重要的东西是文件。文档、表格、照片.
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254438#reply1
+
+---
+
+#### 10565. [V2EX] 领导暗示公司可能会裁员，如何给自己加个延时
+
+**问题描述 / Problem Description**:
+公司同事进行了利用 ai 进行独立工具分享，领导表达整个软件行业，国内乃至全球都会裁员。 几个同时分享了自己工作中以及工作外使用 ai 做的一些工具 收尾领导强调了在 ai 浪潮下，作为程序猿要思考自己的定位，如何给自己来个加分项来个延时 想起 2019 年时候当时 ai 还没有这么强，当时和一个物理学教授朋友讨论，当时教授大意是码农迟早是要淘汰的，以当时自己的短浅目光还进行了反驳...
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254434#reply14
+
+---
+
+#### 10566. [V2EX] 求推荐一个通勤好用的耳机
+
+**问题描述 / Problem Description**:
+之前用过索尼 wh1000 xm4 ，夹头很不舒服。还用过 airpods pro ，带久了耳朵痛还发炎。 现在只有一个哨音的运动耳机，但地铁风大时完全听不到声音。 目前大部分使用场景是地铁和路上行走。来抄抄大家的作业。预算 2000 内吧。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254429#reply19
+
+---
+
+#### 10567. [V2EX] 做的小站点怎么接境外个人收款，求推荐平台和方式
+
+**问题描述 / Problem Description**:
+云里雾里搞了半天，有 paypal 个人账号，但 paypal 做收款需要在国内办个体工商户，想吃失业保险一直没去办。 研究了些海外的平台，很早以前试了 ko-fi ，这几天试了 lemonsqueezy ，但都要 stripe ，stripe 又不支持大陆。lemonsqueezy 的收款测试都通过了，就是死活不给激活商店...没辙了 让 ai 推荐、谷歌搜类似平台，感觉好多都需要办个体工商户，来这里问有没有大佬推荐一些平台，合规合法的。 另外，有没有相关的群组可以拉一拉，日常潜潜水偷师学艺（不是）
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254426#reply14
+
+---
+
+#### 10568. [V2EX] 现在国模编程第一是谁？
+
+**问题描述 / Problem Description**:
+只考虑质量，不考虑价格的情况下，下面 3 个谁是第一？ DS V4.1 Kimi 3.1 Pro Qwen 3.8 max
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254390#reply57
+
+---
+
+#### 10569. [V2EX] 一些人对 AI 的观点 be like
+
+**问题描述 / Problem Description**:
+我从来没学过物流管理，刚才让我六岁的外甥花了五分钟，把我的快递全从快递点拿回家里了，物流和货运行业已经彻底被放假的小学生杀死了。 你敢信吗，就在两年前，我外甥还只能做到把玩具收进玩具箱，小学生成长太快了。 我预测在五年内，所有海运陆运，包括载人登月都会被中学生接管，广义上的运输已经彻底失去价值了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254371#reply25
+
+---
+
+#### 10570. [V2EX] 做了个 Mac 本地大模型工具 MiniMLX，类似 oMLX 那种的
+
+**问题描述 / Problem Description**:
+最近一直在 Mac 上用 oMLX 跑本地大模型。用了一段时间之后，发现它的基本原理并不算复杂，觉得自己也可以尝试做一个，于是花了点时间，做出了 MiniMLX 。 MiniMLX 是一个基于 MLX 的 macOS 原生应用，主要把模型下载、管理、运行和服务监控放在一起。现在已经开源，并且提供了 Apple Silicon 的 DMG 安装包。 项目地址： https://github.com/shijizhi/MiniMLX 下载地址： https://github.com/shijizhi/MiniMLX/releases 目前可以在应用里搜索和下载 Hugging Face 、Mode
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254370#reply2
+
+---
+
+#### 10571. [V2EX] 晚上用 Grok Bot 把我手上的项目全管起来了。
+
+**问题描述 / Problem Description**:
+晚上用 Grok Bot 把我手上的项目全管起来了。 以前是挨个打开 Cursor 和 Codex ，在每个 tab 里一轮一轮地跟它们对话。现在我只对着一个 bot 聊，想到什么说什么，它会自动把事情转给对应负责的 bot 。 负责开发的 bot 会先判断这个任务适合用什么模型，再去创建对应的 Cursor 云端任务：普通发版用 Composer ，做规划用 Opus ，真正写代码用 Grok 4.7 。 这样我的注意力就被释放出来了。我只跟一个 bot 聊，它负责判断任务、分发任务、收集结果、反馈给我，我再接着和它聊、做决策，如此往复。 不用再管一堆 tab ，只管一段对话。 顺着这个思路
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254344#reply34
+
+---
+
+#### 10572. [V2EX] ai 现在越来越道德 很多东西不帮你干了 这种怎么处理
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254343#reply1
 
 ---

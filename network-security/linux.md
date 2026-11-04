@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4074**
+**总计条目 / Total entries: 4119**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -58352,5 +58352,545 @@ Flatpak is a system for building, distributing, and running sandboxed desktop ap
 - https://github.com/flatpak/flatpak/commit/aeb369a2723506fabc1f701ef7a0dc6c97c4b983
 - https://github.com/flatpak/flatpak/pull/6768
 - https://github.com/flatpak/flatpak/security/advisories/GHSA-v2gw-v9h5-9q4x
+
+---
+
+#### 4075. CVE-2026-114550 - libwebsockets: libwebsockets: arbitrary code execution via crafted MQTT PUBACK…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] libwebsockets: libwebsockets: arbitrary code execution via crafted MQTT PUBACK packets. Bugzilla: 2566614
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566614
+
+---
+
+#### 4076. CVE-2026-118628 - mlflow: mlflow: Information disclosure via SSRF in get-artifacts
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information disclosure via SSRF in get-artifacts. Bugzilla: 2566624
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566624
+
+---
+
+#### 4077. CVE-2026-118627 - mlflow: mlflow: Arbitrary code execution via untrusted SHAP model deserialization
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Arbitrary code execution via untrusted SHAP model deserialization. Bugzilla: 2566623
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566623
+
+---
+
+#### 4078. CVE-2026-118626 - mlflow: mlflow: Privilege escalation via missing authorization in request handlers
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Privilege escalation via missing authorization in request handlers. Bugzilla: 2566638
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566638
+
+---
+
+#### 4079. CVE-2026-118625 - mlflow: mlflow: Privilege escalation via missing authorization in get_endpoints
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Privilege escalation via missing authorization in get_endpoints. Bugzilla: 2566619
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566619
+
+---
+
+#### 4080. CVE-2026-118624 - mlflow: mlflow: Information disclosure via missing authorization in Tracking…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information disclosure via missing authorization in Tracking Server Jobs. Bugzilla: 2566625
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566625
+
+---
+
+#### 4081. CVE-2026-118623 - mlflow: mlflow: Arbitrary code execution via untrusted data deserialization in…
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Arbitrary code execution via untrusted data deserialization in PickleEvaluationArtifact. Bugzilla: 2566634
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566634
+
+---
+
+#### 4082. CVE-2026-120651 - perl-cgi: perl-cgi: Denial of Service via truncated request body
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via truncated request body. Bugzilla: 2566599
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566599
+
+---
+
+#### 4083. CVE-2026-120650 - perl-cgi: perl-cgi: Denial of Service via unenforced request and upload limits
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via unenforced request and upload limits. Bugzilla: 2566595
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566595
+
+---
+
+#### 4084. CVE-2026-120648 - perl-CGI: perl-CGI: HTML injection via unescaped comment delimiter
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CGI: perl-CGI: HTML injection via unescaped comment delimiter. Bugzilla: 2566611
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566611
+
+---
+
+#### 4085. CVE-2026-120647 - perl-cgi: perl-cgi: Content-Disposition parameter injection via unescaped double…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Content-Disposition parameter injection via unescaped double quotes in attachment filenames. Bugzilla: 2566610
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566610
+
+---
+
+#### 4086. CVE-2026-120646 - perl-cgi: perl-cgi: Denial of Service via improper argument handling in uploadInfo
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via improper argument handling in uploadInfo. Bugzilla: 2566597
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566597
+
+---
+
+#### 4087. CVE-2026-120645 - perl-cgi: perl-cgi: Denial of Service via unescaped regular expression injection…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via unescaped regular expression injection in scrolling_list. Bugzilla: 2566607
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566607
+
+---
+
+#### 4088. CVE-2026-120644 - perl-cgi: perl-cgi: Cookie attribute injection via unvalidated parameters
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Cookie attribute injection via unvalidated parameters. Bugzilla: 2566604
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566604
+
+---
+
+#### 4089. CVE-2026-120643 - perl-CGI: perl-CGI: Cross-site scripting via unescaped apostrophes in generated…
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CGI: perl-CGI: Cross-site scripting via unescaped apostrophes in generated URLs. Bugzilla: 2566596
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566596
+
+---
+
+#### 4090. CVE-2026-120642 - perl-cgi: perl-cgi: Security feature bypass via untainted request parameters
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Security feature bypass via untainted request parameters. Bugzilla: 2566605
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566605
+
+---
+
+#### 4091. CVE-2026-120641 - perl-cgi: perl-cgi: arbitrary file write via unsanitized upload filenames
+
+**严重程度 / Severity**: IMPORTANT
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: arbitrary file write via unsanitized upload filenames. Bugzilla: 2566598
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566598
+
+---
+
+#### 4092. CVE-2026-120640 - perl-cgi: perl-cgi: Request forgery via request body parameter spoofing
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Request forgery via request body parameter spoofing. Bugzilla: 2566608
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566608
+
+---
+
+#### 4093. CVE-2026-120639 - perl-cgi: perl-cgi: HTTP header injection via improper newline validation
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: HTTP header injection via improper newline validation. Bugzilla: 2566606
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566606
+
+---
+
+#### 4094. CVE-2026-120638 - perl-cgi: perl-cgi: Open redirect via HTML entity decoding in redirect function
+
+**严重程度 / Severity**: MODERATE
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Open redirect via HTML entity decoding in redirect function. Bugzilla: 2566609
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566609
+
+---
+
+#### 4095. [Ubuntu] USN-9000-1: Twisted vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9000-1
+
+---
+
+#### 4096. [Ubuntu] USN-8999-1: Pillow vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-54058) It was discovered that Pillow did not properly check for decompression bombs when processing font files. An attacker could possibly use this issue to cause Pillow to cons
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8999-1
+
+---
+
+#### 4097. [Ubuntu] USN-8998-1: Squid vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8998-1
+
+---
+
+#### 4098. [Ubuntu] USN-8997-1: Net-SNMP vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8997-1
+
+---
+
+#### 4099. [Ubuntu] USN-7530-2: ADOdb vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+USN-7530-1 fixed a vulnerability in ADOdb. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Original advisory details: It was discovered that ADOdb incorrectly handled SQL input. A remote attacker could use this issue to execute arbitrary SQL commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-7530-2
+
+---
+
+#### 4100. [Ubuntu] USN-8996-1: APT vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote code execution with root privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8996-1
+
+---
+
+#### 4101. [Ubuntu] USN-9000-1: Twisted vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9000-1
+
+---
+
+#### 4102. [Ubuntu] USN-8999-1: Pillow vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-54058) It was discovered that Pillow did not properly check for decompression bombs when processing font files. An attacker could possibly use this issue to cause Pillow to cons
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8999-1
+
+---
+
+#### 4103. [Ubuntu] USN-8998-1: Squid vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8998-1
+
+---
+
+#### 4104. [Ubuntu] USN-8997-1: Net-SNMP vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8997-1
+
+---
+
+#### 4105. [Ubuntu] USN-8996-1: APT vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote code execution with root privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8996-1
+
+---
+
+#### 4106. [Ubuntu] USN-8995-1: Yaws vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Yaws did not properly sanitize XML input in its WebDAV implementation. A remote attacker could possibly use this issue to perform XML external entity injection attacks. (CVE-2020-24379) It was discovered that Yaws mishandled certain input when running CGI scripts. A remote attacker could possibly use this issue to execute arbitrary commands. (CVE-2020-24916)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8995-1
+
+---
+
+#### 4107. [Ubuntu] USN-8994-1: libvips vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled certain PDF files with a page that defines a width but not a height. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service, or obtain sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-59933) It was d
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8994-1
+
+---
+
+#### 4108. [Ubuntu] USN-8993-1: SOGo vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SOGo used the client-supplied Origin header when constructing password reset links. A remote attacker could possibly use this issue to obtain password reset tokens and take over user accounts.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8993-1
+
+---
+
+#### 4109. [Ubuntu] USN-8992-1: Shapelib vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8992-1
+
+---
+
+#### 4110. [Ubuntu] USN-8991-1: rxvt-unicode vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8991-1
+
+---
+
+#### 4111. [Ubuntu] USN-8990-1: Sprockets vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Sprockets incorrectly handled certain specially crafted requests when the Sprockets server was used in production. A remote attacker could possibly use this issue to access files outside of the application's root directory.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8990-1
+
+---
+
+#### 4112. [Ubuntu] USN-8989-1: Rack vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Andrew Lacambra discovered that Rack did not properly parse certain regular expressions. An attacker could possibly use this issue to bypass network security filters. (CVE-2026-26961) William T. Nelson discovered that Rack did not handle multipart headers correctly. An attacker could possibly use this issue to cause downstream parsing issues or a denial of service. (CVE-2026-26962) It was discover
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8989-1
+
+---
+
+#### 4113. [Ubuntu] USN-8988-1: Relax-and-Recover vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Relax-and-Recover created a world-readable initrd when GRUB_RESCUE was enabled. A local attacker could possibly use this issue to obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8988-1
+
+---
+
+#### 4114. [Ubuntu] USN-8986-1: Swift Mailer vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Dawid Golunski discovered that Swift Mailer did not properly sanitize e-mail addresses in the mail transport. A remote attacker could possibly use this issue to pass extra parameters to the mail command and execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8986-1
+
+---
+
+#### 4115. [Ubuntu] USN-8985-1: Net::EasyTCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Net::EasyTCP used the built-in Perl rand() function to generate encryption keys when no strong randomization module was present. An attacker could possibly use this issue to predict the keys and obtain sensitive information.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8985-1
+
+---
+
+#### 4116. [Ubuntu] USN-8984-1: jabberd2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that jabberd2 allowed SASL ANONYMOUS authentication even when it was not enabled in the configuration. A remote attacker could possibly use this issue to bypass authentication.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8984-1
+
+---
+
+#### 4117. [Ubuntu] USN-8983-1: Gin CORS middleware vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Gin CORS middleware incorrectly handled wildcards at the end of origin strings. A remote attacker could possibly use this issue to bypass the configured origin restrictions.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8983-1
+
+---
+
+#### 4118. [Ubuntu] USN-8982-1: feh vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that feh incorrectly handled certain IPC messages from a client pretending to be the Enlightenment window manager, leading to an integer overflow. An attacker could possibly use this issue to cause feh to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8982-1
+
+---
+
+#### 4119. [Ubuntu] USN-8981-1: Enlightenment vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the enlightenment_sys helper in Enlightenment incorrectly handled certain pathnames. A local attacker could possibly use this issue to gain administrator privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8981-1
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 10365**
+**总计条目 / Total entries: 10426**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -139046,5 +139046,798 @@ See V2EX thread for community solutions.
 
 **参考链接 / References**:
 - https://www.v2ex.com/t/1253868#reply24
+
+---
+
+#### 10366. TIL In Mission Control you can press space while the cursor is on any app and highlighted, to see a bigger preview of the app.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnu899/til_in_mission_control_you_can_press_space_while/
+
+---
+
+#### 10367. Anker's MacBook charging manager app installs a root service that survives uninstall (Anker confirmed)
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xner1d/ankers_macbook_charging_manager_app_installs_a/
+
+---
+
+#### 10368. Tried using Siri AI for the first time
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnlwa3/tried_using_siri_ai_for_the_first_time/
+
+---
+
+#### 10369. Cmd + Shift + 5 screenshot shortcut now has AI!?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xniq3p/cmd_shift_5_screenshot_shortcut_now_has_ai/
+
+---
+
+#### 10370. my Macbook automatically keeps changing my name when I type and I can't figure out how to turn it off.
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnxhti/my_macbook_automatically_keeps_changing_my_name/
+
+---
+
+#### 10371. How does mx master 3s perform on mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnzil5/how_does_mx_master_3s_perform_on_mac/
+
+---
+
+#### 10372. Would you suggest I keep using AlDente app now that Apple offers a setting to limit battery charge? What are your experiences and suggestions?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnqrjy/would_you_suggest_i_keep_using_aldente_app_now/
+
+---
+
+#### 10373. What is happening with System Data
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xo27bk/what_is_happening_with_system_data/
+
+---
+
+#### 10374. [ Removed by Reddit ]
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xo131f/removed_by_reddit/
+
+---
+
+#### 10375. M5 Pro memory issue
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xo0xdg/m5_pro_memory_issue/
+
+---
+
+#### 10376. Can a third party sound be used for Messages received on Mac?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xo0saa/can_a_third_party_sound_be_used_for_messages/
+
+---
+
+#### 10377. The Subtitle Options on Apple TV
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnul6v/the_subtitle_options_on_apple_tv/
+
+---
+
+#### 10378. Anyone else being mad about the Silicon vSync bug?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xo0f4d/anyone_else_being_mad_about_the_silicon_vsync_bug/
+
+---
+
+#### 10379. Apple Music opens randomly on M1 MacBook Air
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xntovw/apple_music_opens_randomly_on_m1_macbook_air/
+
+---
+
+#### 10380. Apple Creator Studio - Student/Eudcator Discount
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnzgvs/apple_creator_studio_studenteudcator_discount/
+
+---
+
+#### 10381. Anyway to extract dynamic wallpapers on Golden Gate 27.2?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnya4e/anyway_to_extract_dynamic_wallpapers_on_golden/
+
+---
+
+#### 10382. Does anyone have a screenshot of the default/stock macOS mouse settings panel?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xny1v2/does_anyone_have_a_screenshot_of_the_defaultstock/
+
+---
+
+#### 10383. Screensaver activation bug on 27.2 ?
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnrp9y/screensaver_activation_bug_on_272/
+
+---
+
+#### 10384. Signed out of Settings > iCloud on a MacBook and was then signed in as her husband without anything being done
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnu78y/signed_out_of_settings_icloud_on_a_macbook_and/
+
+---
+
+#### 10385. Phone/FaceTime window briefly opens on incoming iPhone calls on Golden Gate 27.2
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnt1x8/phonefacetime_window_briefly_opens_on_incoming/
+
+---
+
+#### 10386. Spotlight UI bug after Golden Gate update
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnrlyh/spotlight_ui_bug_after_golden_gate_update/
+
+---
+
+#### 10387. muyiunative turns PS1 games into native Mac apps
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnreff/muyiunative_turns_ps1_games_into_native_mac_apps/
+
+---
+
+#### 10388. Help with the small screen
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnqjml/help_with_the_small_screen/
+
+---
+
+#### 10389. Siri AI works only on VPN
+
+**问题描述 / Problem Description**:
+Reddit r/macos discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/MacOS/comments/1xnq0fi/siri_ai_works_only_on_vpn/
+
+---
+
+#### 10390. [V2EX] 求解 Loon Mac 的运行逻辑
+
+**问题描述 / Problem Description**:
+这几天一直在查找各种 Loon Mac 的各种资料，发现 Loon Mac 居然没有任何地方可以设置本地监听端口 Loon Mac 启动就是 TUN 模式并且没有地方修改，强制使用 ⚠️ 这种设计逻辑是什么？其实用户用梯子的最常用模式是通过本机监听端口使用，这样最灵活 相信系统代理设置的人都不会很多，更别说 TUN 模式 而 Loon Mac 这种强制接管 TUN 模式的设计思路是什么？ 是不是我没找到正确的使用方式？还是的确是这样的？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254454#reply7
+
+---
+
+#### 10391. [V2EX] macOS 27.2 存在 bug,可以稳定复现 dock 栏在应用全屏模式下无法自动隐藏的问题.你们有遇到吗?
+
+**问题描述 / Problem Description**:
+使用设备: M4 Pro 14 寸 问题复现: 1.在一个“全屏应用”里，把鼠标停在 Dock 的某个图标上； 2.通过触控板左右滑动，或点击 Dock 图标，切换到另一个“全屏应用”(比如:我从全屏的 IDEA 切换到全屏的 Safari 浏览器,切换前鼠标悬停在 Safari 浏览器图标上)； 3.在切换到 Safari 之后，快速把鼠标从 Dock 栏的 Safari 图标移到屏幕中间。 第三步如果你缓慢移动鼠标可能不会触发 bug; 如果触发了这个 bug,你需要可以把鼠标重新放到 Dock 上然后再离开,这个时候 bug 会消失. 实在是受不了这个 bug,写了个小工具来临时解决这个
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254190#reply7
+
+---
+
+#### 10392. [V2EX] 苦罗技驱动久矣，怒 vibe 精简脚本一枚，存现储如金，可省 3GB 存储占用
+
+**问题描述 / Problem Description**:
+用过 option-mini, 但是好像并没有减少内存的占用，然后自己 vibe 了一个脚本，把罗技 Logi Options+ 从 3.5 GB 压到约 0.5 GB ，只保留鼠标基础功能 不得不说 AI 太强大了，啥也不懂的技术小白 https://github.com/goopoh/logi-slim
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254168#reply13
+
+---
+
+#### 10393. [V2EX] 受不了目录半天点不开的 bug，升 27.2 不知道有没有解决
+
+**问题描述 / Problem Description**:
+目录半天点不开，这 bug 都会出现，Ternus 服了！
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253304#reply4
+
+---
+
+#### 10394. [V2EX] 推荐一款日常打字聊天就可以顺便学习英语的工具
+
+**问题描述 / Problem Description**:
+Glint 是一个 macOS 工具，把中文输入法候选变成英文记忆入口。用简体拼音正常打字，候选旁会显示对应英文。 不替换输入法，也不改变输入方式。在微信、飞书、邮件和文档里输入中文时，高频词语、短语和短句会反复和英文对应出现，通过日常打字不断增强英文记忆。 功能： 支持单词、短语和短句，显示简洁翻译； 候选停留后才出现，快速连续输入不会打断； 可设置快捷键，把英文译文直接插入当前输入位置； 本地词典和模型推理，日常使用无需联网； 只读取输入法候选，不监听普通键盘输入，安全输入场景自动跳过。 要求 macOS 26+、Apple Silicon ，首次运行需要辅助功能权限。 GitHub： h
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253095#reply116
+
+---
+
+#### 10395. [V2EX] 求推荐在 Windows 下 VNC 控制 MacOS 的软件
+
+**问题描述 / Problem Description**:
+我一般用 windows, 有个 Mac Mini 躲在后面做服务器, 我一般懒得插拔线, 所以都用 ssh 或者 VNC 控制 Mac. 有没有人知道 Windows 上面有什么对 MacOS 兼容性好的 VNC 软件, 要求如下: 软件轻便, 最好是绿色的, 不用安装 对 MacOS 兼容性好, 支持剪贴板 最好支持 MacOS 快捷键和桌面切换按钮 可以存储 VNC profile
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254541#reply9
+
+---
+
+#### 10396. [V2EX] 外版 iPhone 的 new siri ai 怎么稳定使用？
+
+**问题描述 / Problem Description**:
+之前是 Apple 设置了地理围栏，后来说围栏解除了只要代理适当的域名就能用，但是我还是任何联网回答都报错 已经代理的域名 apple-relay.apple.com apple-relay.cloudflare.com apple-relay.fastly-edge.com apple-relay.mask.apple-dns.net apple-relay.akamaized.net apple-relay apple-carry-relay.cloudflare.com cp4.cloudflare.com gateway.icloud.com seed.siri.apple.com a
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254528#reply5
+
+---
+
+#### 10397. [V2EX] DynaBrushes 这款 ios APP 拉完了。
+
+**问题描述 / Problem Description**:
+犹记忆来，是在本站看到某人发的这一款 iPad APP, 花了米下载下来，画笔卡顿，不优雅，图层逻辑非常原始，UI 也很差，最令人发指的是很久不更新一次，综合评价是简直拉完了，还有其他人是同款受害者吗……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254501#reply1
+
+---
+
+#### 10398. [V2EX] macOS 15.8.2 睡眠无法唤醒，系统卡死
+
+**问题描述 / Problem Description**:
+macbookm1pro 我是接外接显示器使用的，使用显示器反向供电，平时基本一周或者几周关机重启一次吧，今天早上遇到翻开笔记本黑屏不显示的问题，按回车和电源都没反应，我长按开机键强制重启打开了，晚上下班的时候我也是合上拿回来后晚上还是翻开不显示，又是长按电源开机的 我用 AI 分析了下系统日志： 日志已经把原因钉死了：不是屏幕坏了，而是“翻开盖子后没有完成真正唤醒”。 系统只进了短暂的 DarkWake （后台半醒），立刻又睡回去，屏幕一直不亮，所以你按回车/短按电源都没反应，只能长按强制重启。 机器：MacBook Pro 14" M1 Pro ，macOS 15.8.2 ，外接 DELL
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254433#reply2
+
+---
+
+#### 10399. [V2EX] 市面上 iOS 微信删除的消息都是怎么恢复的呢？可以自己写一个程序么？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254381#reply1
+
+---
+
+#### 10400. [V2EX] 苹果国行 AI 来了，但又好像没来😂
+
+**问题描述 / Problem Description**:
+问跑马灯 Siri 个什么，回答的最后都会说“答案由千问提供，请注意核对重要信息”，好搞笑 功能也确实不多： 写作工具 对选中的文字进行校对、改写、提炼摘要；调用千问从零起草内容 照片消除 在照片里圈选、点选干扰物，将其移除并补全背景 智能找照片 用一句话描述要找的照片，也能寻找视频中的特定片段 回忆影片 输入主题，从你已有的照片、视频中挑选素材并编成影片 视觉智能 通过摄像头了解眼前的物体、场所，并结合千问进行图像问答 实时翻译 在“信息”、电话、FaceTime 中翻译；面对面对话翻译还支持指定型号的 AirPods 录音、通话摘要 对备忘录录音和通话的转写文本提炼重点 邮件与通知整理 邮
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254313#reply14
+
+---
+
+#### 10401. [V2EX] 国行 AI 真的来了
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254288#reply69
+
+---
+
+#### 10402. [V2EX] iOS 有什么轻量级代理工具吗不用插件 mitm 这种
+
+**问题描述 / Problem Description**:
+就简单上外网，分流+策略组 省电的
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254151#reply13
+
+---
+
+#### 10403. [V2EX] 求助！如何注册美区 id 啊，之前使用 giffgaff 的电话注册了一个，但后面运营商邮件告知我检测到长期处于大陆地区然后给 giffgaff 号 ban 掉了，而由于登录该美区 id 要使用手机的信息验证码二次认证登录，现在无法使用。
+
+**问题描述 / Problem Description**:
+现在在国区或美区的 apple 官网注册的时候填写了中国的电话号码，能进入到手机验证码阶段，手机也能正常接码，但点击下一步就没下文了，卡在这里。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254047#reply28
+
+---
+
+#### 10404. [V2EX] 请问 Apple 代理分流是否需要添加 DNS？
+
+**问题描述 / Problem Description**:
+在代理分流进行分流情况下 境外域名走境外节点及 final 也走节点的情况下 是不是只使用系统 DNS （运营商 DNS ）即可？ 是 iOS 一些客户端的 fakeip 模式下 是不是只有 final 是 direct 下需要配置一个国内 DNS 解析？ 分流规则完善即便使用 final 最终 direct ，也是为了避免解析被劫持，没有其他作用吧 如果不考虑运营商 DNS 劫持，在规则直连的情况走系统 DNS 是不是最快？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253985#reply4
+
+---
+
+#### 10405. [V2EX] 我是不是没用对 Apple TV？
+
+**问题描述 / Problem Description**:
+Apple TV 7 代 128G 买来差不多两年了，当时在京东花了 1200 左右。结果一直没怎么发挥作用，平时无非就是看看 YouTube 、夸克、IPTV ，偶尔打开哔哩哔哩，整体使用频率很低。 周末有空，给家里的 TCL 电视折腾了一下 Aerial ，换成了无广告、仿 tvOS 的 Android TV 桌面。实际用下来感觉还不错，界面很干净，IPTV 和夸克也都能正常使用。唯一的问题是 Android 版 YouTube 有点卡，不确定是电视性能还是梯子的问题。 现在我又把夸克账号接到了爱马仕，下载资源直接让它保存好，同时还接入了小爱同学。这么用下来，感觉电视本身已经能满足大部分需
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253902#reply93
+
+---
+
+#### 10406. [V2EX] apple 官网（美区）购买礼品卡可以用招行银行的 visa 卡支付吗？
+
+**问题描述 / Problem Description**:
+听说要美国账单地址？ 招行信用卡，支付有短信验证的，需要设置什么？ 据说很容易被风控？请一个可靠的方式
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253481#reply45
+
+---
+
+#### 10407. [V2EX] Loon 最近好像插件要闭源了球推荐 quanX 的规则和策略组，我不怎么用插件= =
+
+**问题描述 / Problem Description**:
+求大佬推荐干净简洁的规则分流和策略组
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253441#reply21
+
+---
+
+#### 10408. [V2EX] 给大家分享一下四款 ios 梯子软件的使用体验，我主要看哪个更省电
+
+**问题描述 / Problem Description**:
+我是自建梯子，所以只有一个节点(ss2022)，其余的 dns 设置，分流规则均一致。而且是 24 小时开启，基本不去打开程序页面。 以下是四款软件几个月来的耗电量以及稳定性体验： Qx：日常耗电 1%-3% ，软件稳定，但协议缺少太多，它本身支持的协议少，但如果是自建梯子，协议少本身不是什么大问题，然而 7 月开始 iPhone 不支持国外 app 推送，软件内又没有 代理 APNs 开关，这成了致命缺陷。作者始终不提供开关，收不到 tg 消息推送...... shadowrocket：日常耗电 3%-5% ，软件支持的功能多，更新及时，然而开启的时候，玩王者荣耀这类游戏，每隔 10 分钟左
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1253420#reply34
+
+---
+
+#### 10409. [V2EX] 感觉都在摸鱼啊， github 挂了没人吭声的
+
+**问题描述 / Problem Description**:
+push 不了了，开划一会儿
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254496#reply0
+
+---
+
+#### 10410. [V2EX] 使用埃舍尔评测了下 hy4
+
+**问题描述 / Problem Description**:
+同样的提示词，deepseek 出东西快了 5 倍，hy4 则有点过度思考，但是 hy4 没有道德感，直接抓取了官网有版权的图片，deepseek 则拒绝抓取，采用程序画 svg 。 最终完成度我感觉 hy4 好些，hy4 默认出的风格和 deepseek 使用 frontend-design skill 居然差不多，挺意外的。 deepseek hy4
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254495#reply0
+
+---
+
+#### 10411. [V2EX] 从 Pixel5 转移 eSIM 到 estk
+
+**问题描述 / Problem Description**:
+Club Sim 在 Club Sim App 中申请迁移，一年一次 AIS 邮件联系 callcenter@ais.co.th 申请新的 QR Code ，附件实名护照、申请单含手写签名以及手持护照照片，同时提供电话号码以及 ICCID Globe 联网删除后，再扫描添加原 QR Code Smart 联网删除后，再扫描添加原 QR Code One NZ 联网删除后，再扫描添加原 QR Code Simyo 未成功，eSIM 迁移，须原生 eSIM 手机安装 app 迁移 Three UK 网站上申请更换下发新的 QR code Vodafone DE 联网删除后，再扫描添加原 QR Co
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254477#reply0
+
+---
+
+#### 10412. [V2EX] 免费获取 eSIM 流量手机卡～
+
+**问题描述 / Problem Description**:
+需要使用接码平台接短信码进行验证 https://www.jetpacglobal.com/zh/eterna 其他： 可以领取 US 、SG 、CA 的 eSIM 流量手机卡，其他地区的不行 不是+1 的那种手机号 存流量的 刚刚已经领取了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254461#reply1
+
+---
+
+#### 10413. [V2EX] V 站也是好起来了，能值得水军注意了
+
+**问题描述 / Problem Description**:
+搬隔壁帖子回复
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254459#reply2
+
+---
+
+#### 10414. [V2EX] Hy4 出了 有谁蹬了吗？
+
+**问题描述 / Problem Description**:
+Hy 首次跻身最强开源模型之列。 原文： https://mp.weixin.qq.com/s/l-tsDUuZUWaLbhiywq261Q 性能显著超过 Hy4 preview 的同时定价维持一致。更省成本的 Hy4 flash 将于近期发布。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254453#reply8
+
+---
+
+#### 10415. [V2EX] 港区预购了 GTA6 的朋友请注意，退款重买可以省下 15/19 元
+
+**问题描述 / Problem Description**:
+之前在 PlayStation HK 预购了 GTA6 标准版，568.00 HKD, 支付宝扣款 ¥495 ，现在的汇率已经变化了，只需要约 ¥480 即可购买，因此可以直接退款（刚刚尝试了，秒退 ¥495 到信用卡），然后重新购买。 按标准版价格可节约 ¥15 ， 按终极版价格可节约 ¥19 。 动动手就能省下一笔，何乐而不为呢～
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254445#reply5
+
+---
+
+#### 10416. [V2EX] 我做了个在线白噪音与朗诵佛经的网站 适合冥想之类的 欢迎大家试用
+
+**问题描述 / Problem Description**:
+网站地址： https://fanyinli.com/ 欢迎大家试用和提出建议。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254443#reply0
+
+---
+
+#### 10417. [V2EX] ego lite 是最近半年给我 aha moment 的软件
+
+**问题描述 / Problem Description**:
+最近半年折腾 AI Agent 比较多。Claude Code 自带的浏览器操作我试过，登录态全丢，每次都要重新登，2FA 和各种验证码特别烦。Codex 那边因为模型能力问题已经不续订了，浏览器自动化这块就一直没找到特别顺手的方案。要么另开一个干净的 Chromium 让它去操作，登录态全丢；要么直接操控自己的 Chrome ，结果它把你正在看的标签页抢走，或者干脆把整个窗口弄乱。 前段时间在 GitHub 看到 ego lite ，说是专门给人和 Agent 共用的浏览器，就下下来试试。官网 lite.ego.app ，直接下载，免费，没有注册。 安装过程没什么特别的，Mac 上就是个 d
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254423#reply1
+
+---
+
+#### 10418. [V2EX] 大家没觉得这两天 ChatGPT 和 dots 严重降智吗？
+
+**问题描述 / Problem Description**:
+我是上周六发现 ChatGPT 的 pro 额度用完，然后提示昨天才能恢复，结果昨天用了几次 ChatGPT 的 pro ，效果很糟糕，甚至出现多次生成到一半就中断，让它继续，每次都不能正常生成完。 然后今天发现 dots 也退化成弱智了，差不多就是 gpt-4 的水平，不论干什么，都要我盯着，而且循环报错，根本就不推进任何事情。 我的订阅要到月底才更新，很想马上改回 plus 订阅。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254403#reply4
+
+---
+
+#### 10419. [V2EX] 破壁 - 被 AI 狠狠辱骂了
+
+**问题描述 / Problem Description**:
+下面链接是对 https://v2ex.com/t/1254053 “被 AI 狠狠辱骂了” 这个帖子的画像和破壁 https://edge.v2ex.com/chat/d879db5dbb2343028a3febb9f252a09b
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254398#reply0
+
+---
+
+#### 10420. [V2EX] iPhone Duo 的兼容吐槽
+
+**问题描述 / Problem Description**:
+现在感觉什么 App 都适应不了，微信也是硬套一个 Ipad 模式？ 抖音直播也看不了全屏，手游也是公摊黑边，花 1.8 万买了个祖宗..然后 esim 还得上班时间去办，欲哭无泪
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254377#reply2
+
+---
+
+#### 10421. [V2EX] Qoder 感觉比 WorkBuddy 还强，大家体验怎么样？
+
+**问题描述 / Problem Description**:
+昨天看了一篇关于 Agent 的报道，说 Qoder 是用户量最大的 Agent ，这个跟我们的直观感受不太一样，我一直以为 WorkBuddy 才是用户量最大的。 然后我看介绍发现最新版的 Qwen3.8 Flash 在 Qoder 是免费的，于是就下载下来试用，发现 Qoder 跟企微、钉钉的对接比其他同类产品方便很多，我花了几分钟就对接上了，然后又让他学习到我在 Hermes 里总结的一些 Skill ，也都很快搞定了。 最让人惊喜的是它跟钉钉的整合能力，除了可以读取常用的文档、日历之类的，还能读取钉钉的聊天记录，这也太 N 了，想到日常工作基本上在钉钉上沟通，让它总结具体日常工作不是方
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254373#reply30
+
+---
+
+#### 10422. [V2EX] 去了趟九寨沟
+
+**问题描述 / Problem Description**:
+最近是肘在沟最佳观赏季 也是凑了一波热闹
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254320#reply35
+
+---
+
+#### 10423. [V2EX] [开源] 可达性检测：你的 NAS / 网站 / 游戏服，别人到底能不能连上？
+
+**问题描述 / Problem Description**:
+👉 https://reach.1ms.dog | GitHub： https://github.com/yt1988/reach-check 自建服务最常听到的一句话是「我这边打不开」，但你自己测一切正常。于是写了这个小工具：填域名或 IP + 端口，一次从全球 18 个地区同时连过去，告诉你卡在哪一步、下一步该查什么。 能看到什么 18 个地区同时测 ：中国电信 / 联通 / 移动三网单独列出，加上香港、中国台湾、东京、韩国、新加坡、印度、澳洲、伦敦、法兰克福、俄罗斯、阿联酋、南非、洛杉矶、纽约、圣保罗 分段耗时 ：DNS → TCP 握手 → TLS 握手 → 首字节 → 下载，每个地区
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254303#reply3
+
+---
+
+#### 10424. [V2EX] 应该是反代入刑第一案了，调用的是知名视频聚合网站的 api
+
+**问题描述 / Problem Description**:
+上海徐汇这边报道了一个盗用网站 api 的案子😀这个案子我觉得有些通过免费账号做反代的应该警醒下，案件里面这个人其实是通过不停注册免费账号，然后薅羊毛的 按照这个被害公司说法，我没有开启 api 付费模式，你把我 api 调出来就是盗用 所以大部分反代其实都很符合这个说法
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254300#reply17
+
+---
+
+#### 10425. [V2EX] 据透露，朝鲜黑客在币安 63 亿美元盗窃案中，利用虚假工作面试诱骗一名工程师下载恶意代码。
+
+**问题描述 / Problem Description**:
+🤣 这不是几百年前在 v2 都看到过了的案例了吗 太典了，原始社工真的永垂不朽，老一辈的方法永不过时
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254281#reply3
+
+---
+
+#### 10426. [V2EX] Opus5.5 做视频太贵，国产开源平替来了！
+
+**问题描述 / Problem Description**:
+大家都还在为 Claude Opus 5.5 写代码做一条 15 秒视频花掉近百美元而感到心疼的时候，开源社区已经把写代码生成视频的底座给掀了 商汤开源的 SenseNova 6.8 Code2Video ，是一个专门通过编写和修改代码来生成视频的模型，27B 参数 本次公开了全量参数模型权重和配套的创作 Skill ，还支持对生成结果进行多轮自然语言精细修改，甚至能把一段没有任何源码的参考视频直接逆向重构为可编辑的代码工程，还挺 impressive 的 项目地址： https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video 一、Sen
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254274#reply3
 
 ---

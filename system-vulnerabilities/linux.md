@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3788**
+**总计条目 / Total entries: 3814**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -67782,5 +67782,421 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8984-1
+
+---
+
+#### 3789. CVE-2026-114550 - libwebsockets: libwebsockets: arbitrary code execution via crafted MQTT PUBACK…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] libwebsockets: libwebsockets: arbitrary code execution via crafted MQTT PUBACK packets. Bugzilla: 2566614
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566614
+
+---
+
+#### 3790. CVE-2026-118628 - mlflow: mlflow: Information disclosure via SSRF in get-artifacts
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information disclosure via SSRF in get-artifacts. Bugzilla: 2566624
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566624
+
+---
+
+#### 3791. CVE-2026-118627 - mlflow: mlflow: Arbitrary code execution via untrusted SHAP model deserialization
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Arbitrary code execution via untrusted SHAP model deserialization. Bugzilla: 2566623
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566623
+
+---
+
+#### 3792. CVE-2026-118626 - mlflow: mlflow: Privilege escalation via missing authorization in request handlers
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Privilege escalation via missing authorization in request handlers. Bugzilla: 2566638
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566638
+
+---
+
+#### 3793. CVE-2026-118625 - mlflow: mlflow: Privilege escalation via missing authorization in get_endpoints
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Privilege escalation via missing authorization in get_endpoints. Bugzilla: 2566619
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566619
+
+---
+
+#### 3794. CVE-2026-118624 - mlflow: mlflow: Information disclosure via missing authorization in Tracking…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Information disclosure via missing authorization in Tracking Server Jobs. Bugzilla: 2566625
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566625
+
+---
+
+#### 3795. CVE-2026-118623 - mlflow: mlflow: Arbitrary code execution via untrusted data deserialization in…
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] mlflow: mlflow: Arbitrary code execution via untrusted data deserialization in PickleEvaluationArtifact. Bugzilla: 2566634
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566634
+
+---
+
+#### 3796. CVE-2026-120651 - perl-cgi: perl-cgi: Denial of Service via truncated request body
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via truncated request body. Bugzilla: 2566599
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566599
+
+---
+
+#### 3797. CVE-2026-120650 - perl-cgi: perl-cgi: Denial of Service via unenforced request and upload limits
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via unenforced request and upload limits. Bugzilla: 2566595
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566595
+
+---
+
+#### 3798. CVE-2026-120648 - perl-CGI: perl-CGI: HTML injection via unescaped comment delimiter
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CGI: perl-CGI: HTML injection via unescaped comment delimiter. Bugzilla: 2566611
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566611
+
+---
+
+#### 3799. CVE-2026-120647 - perl-cgi: perl-cgi: Content-Disposition parameter injection via unescaped double…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Content-Disposition parameter injection via unescaped double quotes in attachment filenames. Bugzilla: 2566610
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566610
+
+---
+
+#### 3800. CVE-2026-120646 - perl-cgi: perl-cgi: Denial of Service via improper argument handling in uploadInfo
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via improper argument handling in uploadInfo. Bugzilla: 2566597
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566597
+
+---
+
+#### 3801. CVE-2026-120645 - perl-cgi: perl-cgi: Denial of Service via unescaped regular expression injection…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Denial of Service via unescaped regular expression injection in scrolling_list. Bugzilla: 2566607
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566607
+
+---
+
+#### 3802. CVE-2026-120644 - perl-cgi: perl-cgi: Cookie attribute injection via unvalidated parameters
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Cookie attribute injection via unvalidated parameters. Bugzilla: 2566604
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566604
+
+---
+
+#### 3803. CVE-2026-120643 - perl-CGI: perl-CGI: Cross-site scripting via unescaped apostrophes in generated…
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-CGI: perl-CGI: Cross-site scripting via unescaped apostrophes in generated URLs. Bugzilla: 2566596
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566596
+
+---
+
+#### 3804. CVE-2026-120642 - perl-cgi: perl-cgi: Security feature bypass via untainted request parameters
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Security feature bypass via untainted request parameters. Bugzilla: 2566605
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566605
+
+---
+
+#### 3805. CVE-2026-120641 - perl-cgi: perl-cgi: arbitrary file write via unsanitized upload filenames
+
+**严重程度 / Severity**: IMPORTANT
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: arbitrary file write via unsanitized upload filenames. Bugzilla: 2566598
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566598
+
+---
+
+#### 3806. CVE-2026-120640 - perl-cgi: perl-cgi: Request forgery via request body parameter spoofing
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Request forgery via request body parameter spoofing. Bugzilla: 2566608
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566608
+
+---
+
+#### 3807. CVE-2026-120639 - perl-cgi: perl-cgi: HTTP header injection via improper newline validation
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: HTTP header injection via improper newline validation. Bugzilla: 2566606
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566606
+
+---
+
+#### 3808. CVE-2026-120638 - perl-cgi: perl-cgi: Open redirect via HTML entity decoding in redirect function
+
+**严重程度 / Severity**: MODERATE
+**受影响产品 / Affected Products**: Red Hat Enterprise Linux
+
+**漏洞描述 / Description**:
+[Red Hat] perl-cgi: perl-cgi: Open redirect via HTML entity decoding in redirect function. Bugzilla: 2566609
+
+**补丁信息 / Patch Info**:
+Apply Red Hat security advisory patch via yum/dnf update.
+
+**参考链接 / References**:
+- https://bugzilla.redhat.com/show_bug.cgi?id=2566609
+
+---
+
+#### 3809. [Ubuntu] USN-9000-1: Twisted vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9000-1
+
+---
+
+#### 3810. [Ubuntu] USN-8999-1: Pillow vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-54058) It was discovered that Pillow did not properly check for decompression bombs when processing font files. An attacker could possibly use this issue to cause Pillow to cons
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8999-1
+
+---
+
+#### 3811. [Ubuntu] USN-8998-1: Squid vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8998-1
+
+---
+
+#### 3812. [Ubuntu] USN-8997-1: Net-SNMP vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8997-1
+
+---
+
+#### 3813. [Ubuntu] USN-7530-2: ADOdb vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-7530-1 fixed a vulnerability in ADOdb. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Original advisory details: It was discovered that ADOdb incorrectly handled SQL input. A remote attacker could use this issue to execute arbitrary SQL commands.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-7530-2
+
+---
+
+#### 3814. [Ubuntu] USN-8996-1: APT vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote code execution with root privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8996-1
 
 ---

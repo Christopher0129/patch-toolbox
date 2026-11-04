@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 11217**
+**总计条目 / Total entries: 11262**
 
 > 技术细节（问题描述、解决方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, solutions) remain in original language for accuracy; structural text is bilingual.
@@ -151746,5 +151746,590 @@ Make sure the DiagTrack service (Connected User Experiences and Telemetry) is ru
 
 **参考链接 / References**:
 - https://superuser.com/questions/1907836/why-cant-i-view-diagnostic-data-on-windows-10-installed-diagnostic-data-viewer
+
+---
+
+#### 11218. Why don’t Windows 11 windows line up between identical monitors?
+
+**问题描述 / Problem Description**:
+Tags: windows, multiple-monitors, windows-11 | Score: 4 | Views: 509 | Answers: 1 | Created: 2026-10-29
+
+**解决方案 / Solution**:
+It may be Windows own monitor layout rather than the panels. LittleBigMouse changes where the cursor crosses between screens, but Windows still places windows using its own layout. If the right hand screen sits a little lower there, the right half of a window shows up higher. A small offset is easy to miss in Settings and LittleBigMouse can hide it from the cursor. To check, exit LittleBigMouse and move the pointer straight across the gap. If it jumps up or down at the edge, the layout is offset. If it doesn't, the layout is fine and it's probably the panels. To fix an offset you should do this: Settings > System > Display: drag the right-hand display up a little, select Apply, and repeat until the pointer crosses without a jump. Start LittleBigMouse and use "Place from windows config" so its layout matches. Update first if you're on a version older than 5.6.0, which fixed a bug that lost the vertical offset between screens.
+
+**参考链接 / References**:
+- https://superuser.com/questions/1941268/why-don-t-windows-11-windows-line-up-between-identical-monitors
+
+---
+
+#### 11219. "Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot."
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnf1t3/our_systems_have_detected_unusual_traffic_from/
+
+---
+
+#### 11220. "Netflix party now Teleparty has been added remotly"
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnzuje/netflix_party_now_teleparty_has_been_added_remotly/
+
+---
+
+#### 11221. How to turn on Galaxy a54 without power button and lower volume button.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnwd59/how_to_turn_on_galaxy_a54_without_power_button/
+
+---
+
+#### 11222. Windows PC can't find home internet
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnyc9u/windows_pc_cant_find_home_internet/
+
+---
+
+#### 11223. Bluetooth devices Randomly Disconnecting
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xny0pr/bluetooth_devices_randomly_disconnecting/
+
+---
+
+#### 11224. Usb external drive help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xny084/usb_external_drive_help/
+
+---
+
+#### 11225. iPhone help
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnxzet/iphone_help/
+
+---
+
+#### 11226. Xbox “Try again in a while”
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnxlzb/xbox_try_again_in_a_while/
+
+---
+
+#### 11227. Nvidia driver update computer won’t start
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnsrg6/nvidia_driver_update_computer_wont_start/
+
+---
+
+#### 11228. PS5 controller not working
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo1yhe/ps5_controller_not_working/
+
+---
+
+#### 11229. Monitors keep switching to duplicate unprompted
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo1x8c/monitors_keep_switching_to_duplicate_unprompted/
+
+---
+
+#### 11230. Monitors issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo1nlz/monitors_issue/
+
+---
+
+#### 11231. Touch buttons on new dishwasher don't work for my mom
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnh5gk/touch_buttons_on_new_dishwasher_dont_work_for_my/
+
+---
+
+#### 11232. Some random temp files are appearing on my desktop
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnmtwn/some_random_temp_files_are_appearing_on_my_desktop/
+
+---
+
+#### 11233. Can send but cannot receive text messages from some users
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo1abv/can_send_but_cannot_receive_text_messages_from/
+
+---
+
+#### 11234. Windows 11 deleted everything on my drive when I emptied the Recycle Bin, right after switching BIOS from Legacy to UEFI (dual boot with Kali). Has this happened to anyone?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo162r/windows_11_deleted_everything_on_my_drive_when_i/
+
+---
+
+#### 11235. Should I be looking at GPU Temperature or GPU Hotspot in HWInfo when determiting if my card runs too hot or not?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xo0udl/should_i_be_looking_at_gpu_temperature_or_gpu/
+
+---
+
+#### 11236. I’ve had my pc for about a year and went to get on it today but it keeps crashing.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnooyo/ive_had_my_pc_for_about_a_year_and_went_to_get_on/
+
+---
+
+#### 11237. I need help with a frustrating Windows microphone issue
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnzbig/i_need_help_with_a_frustrating_windows_microphone/
+
+---
+
+#### 11238. My Beribes wh202a headphones not charging
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnysth/my_beribes_wh202a_headphones_not_charging/
+
+---
+
+#### 11239. Gaming headset makes popping and crackling sounds only on incoming game chat, game and media volume is fine.
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnyenr/gaming_headset_makes_popping_and_crackling_sounds/
+
+---
+
+#### 11240. Unable to connect to certain sites, and issues connecting to discord when using 'Mobile Hotspot (Not my data/phone)' option on windows 11
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xny5tg/unable_to_connect_to_certain_sites_and_issues/
+
+---
+
+#### 11241. Moving windows to another SSD?
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnxhyv/moving_windows_to_another_ssd/
+
+---
+
+#### 11242. Unusual Traffic detected, clicked not a robot and a f.txt file downloaded
+
+**问题描述 / Problem Description**:
+Reddit r/techsupport discussion
+
+**解决方案 / Solution**:
+See Reddit thread for community solutions and troubleshooting steps.
+
+**参考链接 / References**:
+- https://www.reddit.com/r/techsupport/comments/1xnxgpy/unusual_traffic_detected_clicked_not_a_robot_and/
+
+---
+
+#### 11243. [V2EX] 「AI 味」到底是什么？
+
+**问题描述 / Problem Description**:
+尤其在前端设计方面，经常看到有类似「这个网站 AI 味大」「还是有 AI 味」的说法。 这里的「 AI 味」究竟是一个自由心证，还是有可以确定的一致标准？如果有，要怎么判断它？如果没有，更好的表述是什么？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254579#reply1
+
+---
+
+#### 11244. [V2EX] 磁吸手机壳对位不正是普遍情况么？
+
+**问题描述 / Problem Description**:
+8 月份斥巨资买了个品胜支点壳给 iphone pro 。 刚到手第一感觉是磁吸环吸力小的一逼。还不到我上一个图拉斯壳吸力一半。 后面又有两次带着这个壳在车载磁吸上充不了电。 于是找同事借了个磁吸充电宝，裸机和带壳都吸上去对比了一下，手机壳的磁圈比手机磁圈下移了 1cm ！ 按照这个比较结果，我到网上看了一下支点壳，iphone promax 基本都是位置准确的。但是小只的 iphone pro 感觉 30%z 的支点壳磁圈都是偏的。真的是震碎我的三观了。 现在在用 pdd 2.9 买的非支点壳，不知道带支点的壳该买哪个牌子了。几百块的图拉斯壳应该问题不大，但是价格也太夸张了。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254577#reply0
+
+---
+
+#### 11245. [V2EX] 大家做项目使用 Claude Code 还是 CoWork？
+
+**问题描述 / Problem Description**:
+昨天费了老大劲整了一个 20 刀的 Claude Pro 订阅，目前还没被封，想问一下各位大佬，大家做项目使用 cli 版本的 Claude Code 还是桌面版本的 CoWork 啊？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254568#reply2
+
+---
+
+#### 11246. [V2EX] 关于一场两万元 LV 包引发的争论-我们究竟在争论什么？
+
+**问题描述 / Problem Description**:
+事情的起因是女朋友在抖音上给我分享了一个视频，视频里是一群制造业老板的老婆聚餐，然后发起了一个挑战，就是给自己的老公打电话，开口要一个两万元的 LV 包，看看老公会是什么反应 评论区有不少人对此表示共情，大概意思就是女人想要一个包怎么了，老公连两万元的包都舍不得买，是不是不够爱自己的老婆之类的 说实话，我看到这些评论的时候是有些反感的，所以就和女朋友聊了起来 我最开始表达的意思其实很简单，我举了一个例子，假如老公突然给老婆打电话，说自己想买一根两万元的钓鱼竿，老婆会不会也毫不犹豫地给他买 我想说的是，消费这件事情应该有一个基本的价值判断，而不是因为一个人有钱，就意味着他应该接受更高的消费标准
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254550#reply5
+
+---
+
+#### 11247. [V2EX] 关于腾讯 doh 和阿里 doh 的问题，带不带 esc 查询是否有区别
+
+**问题描述 / Problem Description**:
+目前我开发的代理软件，腾讯 doh 通过直连解析 YouTube ，查询的 IP 是被污染的，但是加上 esc0.0.0.0/0 或者::0 之后，查询结果是正确的，通过代理节点查询的结果，不管带不带 esc ，查询的结果都是正确的，但是腾讯 doh 通过代理节点查询国内网站的地址，访问速度很慢， https://imgur.com/a/GRady7k
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254538#reply3
+
+---
+
+#### 11248. [V2EX] 勤俭节约的过一辈子，会不会等老了才发现亏大发了
+
+**问题描述 / Problem Description**:
+从小节俭生活惯了，节衣缩食的，总想着多存点为未来留后路 等老了才发现钱花不完，就没了，是不是血亏啊 马斯克还说，未来金钱将变得毫无意义 如果金钱真变废纸了，这辈子的节俭，就成了个最大的笑话 勤俭节约还有意义吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254524#reply15
+
+---
+
+#### 11249. [V2EX] 飞书搞什么鬼，非要在 C 盘下面弄个 ttnet 文件夹
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254494#reply1
+
+---
+
+#### 11250. [V2EX] 电竞房装氛围灯到底有啥用
+
+**问题描述 / Problem Description**:
+不懂就问，这玩意不闪眼睛么？ 实际应用场景是啥？把家里搞成迪厅？ 灯板又有哪些应用场景？ 氛围灯带呢？ 装电竞房中，不懂就问一下。 目前两个展示柜，两个乐歌升降桌，两个挂墙洞洞板。不知道该咋弄了……
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254491#reply16
+
+---
+
+#### 11251. [V2EX] 大家 ios 订阅 codex 和 claude code，还是用的土区吗？
+
+**问题描述 / Problem Description**:
+当前是不是 非国区 Apple ID + 礼品卡 最稳妥？ 小舅子刚毕业没找到工作，能按这个方法，挣个辛苦钱? 那些自助的网站怎么搞的？能加盟下？ 有搞头吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254485#reply2
+
+---
+
+#### 11252. [V2EX] [高速] 高速被后车闪灯或者按喇叭，会让道嘛
+
+**问题描述 / Problem Description**:
+本着让速不让道，会如何操作
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254484#reply25
+
+---
+
+#### 11253. [V2EX] 今年手机该怎么买啊？骁龙 8ee6 暴雷，不知道该如何买手机了
+
+**问题描述 / Problem Description**:
+我的小米 13 感觉已经撑不下去了，电池损耗高达 66%，只有 2900 多毫安了。音量键也故障，只能加不能减。 玩个游戏，也没法在后台多开了。 已经决定下半年换手机了，结果极客湾对骁龙 8ee6 的视频一看，心凉了半截。 如果现在回头买骁龙 8ee5 ，那么明年再出新芯片。等于新买的手机性能直接落后两代。。。 但如果不买，去维修音量键+换电池，总觉得不划算，而且还要持续忍受手机的卡顿。 现在搞得我很纠结，想买，又不敢买，不买，又要忍受。。。。 先说下不考虑 iPhone ，毕竟要玩游戏。
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254478#reply15
+
+---
+
+#### 11254. [V2EX] 这个是干嘛用的。今天点到账单这儿发现有$200？？
+
+**问题描述 / Problem Description**:
+一直都是用桌面版或 cli ，这个是意思 API 可用？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254474#reply0
+
+---
+
+#### 11255. [V2EX] 各位兼职做技术顾问都怎么收费的？
+
+**问题描述 / Problem Description**:
+目前兼了几份工作，有的是按月。有的是按小时。 现在 AI Vibe 内容轻松的很，都不太费时间。健身房锻炼的时间就把代码写完了。 最近一个新机会是给基金投资公司，做的 FDE 方案对方很满意，Demo 也满意。（因为熟人介绍，所以前期没签合同就给出方案了。） 现在对方要签合同，我报价每小时 1200,对方只愿意出 600. 因为对方平台常年和律师、会计师打交道。说都是这个价格。 他们这个不适合按月，因为可能一个月都没什么事情。 我觉得我们和律师性质还不一样，我们做的事情，他们收益很久。律师就干一票，影响是短期的。 你们一般怎么收费？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254470#reply5
+
+---
+
+#### 11256. [V2EX] 马上就要去慕尼黑参加电子展了，有什么可以趁在德国可以搞的东西吗，比如境外卡，电话卡之类的？
+
+**问题描述 / Problem Description**:
+N/A
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254457#reply8
+
+---
+
+#### 11257. [V2EX] 求助 去 ai 味的 skill 推荐
+
+**问题描述 / Problem Description**:
+最近写文档比较多，大伙有好用去 ai 味的 skill 吗？ 先谢过了
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254449#reply1
+
+---
+
+#### 11258. [V2EX] 比亚迪的天神之眼 B 是真的烂
+
+**问题描述 / Problem Description**:
+比亚迪的天神之眼 B 一个月内让我吃了三次罚单，一次扣三分 高架路闸口大家按规矩排队，比亚迪非得一点点挪过去，非要插队把对方营运车辆给擦碰了；得赔钱扣分修车，然后因为是高速领航，比亚迪不赔 高架下来大家按次序排队，比亚迪强行连续变道两次，又扣钱了 强压实线，错过高架也是比比皆是，其他牌子的智驾有比比亚迪更烂的吗？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254446#reply44
+
+---
+
+#### 11259. [V2EX] Oyunfor 填完验证码后点击验证无法登录
+
+**问题描述 / Problem Description**:
+Oyunfor 填完验证码后点击验证无法登录，大家遇到了吗
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254424#reply0
+
+---
+
+#### 11260. [V2EX] PS5 slim 日语锁区数字版 2279 值得买吗。
+
+**问题描述 / Problem Description**:
+拼多多上看到 PS5 slim 日语锁区数字版只要 2279 ，比闲鱼上的二手都便宜。 买了之后再另外买个光驱，是不是所有版本的光盘都能玩？
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254417#reply0
+
+---
+
+#### 11261. [V2EX] 人到底该考虑多远？我现在连半年后都不敢想
+
+**问题描述 / Problem Description**:
+都说“人无远虑，必有近忧”，但我一直很好奇，这个“远虑”到底应该是多久？ 我是程序员，这几年明显感觉工作越来越不好找了，招聘岗位变少，HR 回复也越来越少。 以前还会焦虑 35 岁失业，偶尔甚至会想 50 岁以后该怎么办。 但现在，我连半年、一年后的职业规划都不敢想。 不知道自己的技术还能在这行混多久，也不知道万一失业了，还能不能找到下一份工作。如果真干不了程序员了，又能去做什么？ 以前担心的是十几年后的未来，现在担心的是能不能干到过年。 有时候觉得人应该未雨绸缪，但又觉得，连眼前的事都不确定，考虑五年十年后是不是有点可笑？ 所以想问问大家：你们现在还会做三五年甚至十年后的规划吗？还是说，现在
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254416#reply18
+
+---
+
+#### 11262. [V2EX] 「如何买金子」
+
+**问题描述 / Problem Description**:
+想请教一下大家如何买金子，不是特别懂，以下是我比较看重的(已按优先级排序) 1.品质，肯定是要 9999 的，足金 2.克数，相同价格到手的克数越重越好 3.样式，对美观要求大概在中等，接受素圈什么的，毕竟美观与克数无法兼得，所以丑点也能接受 4.保值，无任何要求，买了就是给穿戴给玩的或者自有保留的，没有任何的额外需求 预算：最高 2 万元 前提：已结婚且买了三金，但是都是在周大福这样的店买的，媳妇的戒指已经不能戴了弯曲了，镯子也是，弯了，而且这两件本身也比较薄，再加上媳妇平时比较粗心？ 准备：已经询问了豆包，金店 VS 银行贵金属的购买优缺点，但是还是不明白大家推荐怎么选，金店的套路比较深，
+
+**解决方案 / Solution**:
+See V2EX thread for community solutions.
+
+**参考链接 / References**:
+- https://www.v2ex.com/t/1254407#reply22
 
 ---
