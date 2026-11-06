@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4119**
+**总计条目 / Total entries: 4120**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -58892,5 +58892,17 @@ It was discovered that the enlightenment_sys helper in Enlightenment incorrectly
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8981-1
+
+---
+
+#### 4120. [Ubuntu] USN-9001-1: ca-certificates update
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the ca-certificates JKS integration was not working properly, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore. This update corrects the feature and resyncs the keystore with the system CA certificates list.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9001-1
 
 ---

@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3814**
+**总计条目 / Total entries: 3833**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -68198,5 +68198,309 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8996-1
+
+---
+
+#### 3815. [Ubuntu] USN-9001-1: ca-certificates update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the ca-certificates JKS integration was not working properly, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore. This update corrects the feature and resyncs the keystore with the system CA certificates list.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9001-1
+
+---
+
+#### 3816. [Ubuntu] USN-9000-1: Twisted vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Twisted's IMAP server mishandled wildcard patterns in mailbox list commands. An authenticated remote attacker could possibly use this issue to cause Twisted to use excessive resources, leading to a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9000-1
+
+---
+
+#### 3817. [Ubuntu] USN-8999-1: Pillow vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Pillow incorrectly handled map stride values when loading certain McIdas AREA images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service. (CVE-2026-54058) It was discovered that Pillow did not properly check for decompression bombs when processing font files. An attacker could possibly use this issue to cause Pillow to cons
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8999-1
+
+---
+
+#### 3818. [Ubuntu] USN-8998-1: Squid vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Squid incorrectly handled certain HTTP Transfer- Encoding headers. An attacker could possibly use this issue to perform HTTP request smuggling attacks, bypass security mechanisms, or poison web caches.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8998-1
+
+---
+
+#### 3819. [Ubuntu] USN-8997-1: Net-SNMP vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Net-SNMP incorrectly handled newly accepted connections in the SMUX module. An unauthenticated remote attacker could possibly use this issue to cause Net-SNMP to block indefinitely, resulting in a denial of service.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8997-1
+
+---
+
+#### 3820. [Ubuntu] USN-8996-1: APT vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Max Justicz discovered that APT incorrectly handled hard links when encountering redirects and retrying package downloads. A remote on-path attacker could possibly use this issue to trick APT into installing an unverified package and achieve remote code execution with root privileges.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8996-1
+
+---
+
+#### 3821. [Ubuntu] USN-8995-1: Yaws vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Yaws did not properly sanitize XML input in its WebDAV implementation. A remote attacker could possibly use this issue to perform XML external entity injection attacks. (CVE-2020-24379) It was discovered that Yaws mishandled certain input when running CGI scripts. A remote attacker could possibly use this issue to execute arbitrary commands. (CVE-2020-24916)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8995-1
+
+---
+
+#### 3822. [Ubuntu] USN-8994-1: libvips vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libvips incorrectly handled certain PDF files with a page that defines a width but not a height. An attacker could possibly use this issue to cause libvips to crash, resulting in a denial of service, or obtain sensitive information. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. (CVE-2025-59933) It was d
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8994-1
+
+---
+
+#### 3823. [Ubuntu] USN-8993-1: SOGo vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that SOGo used the client-supplied Origin header when constructing password reset links. A remote attacker could possibly use this issue to obtain password reset tokens and take over user accounts.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8993-1
+
+---
+
+#### 3824. [Ubuntu] USN-8992-1: Shapelib vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the shpsort utility in Shapelib incorrectly handled certain inputs, leading to a double free. An attacker could possibly use this issue to cause a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8992-1
+
+---
+
+#### 3825. [Ubuntu] USN-8991-1: rxvt-unicode vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that rxvt-unicode incorrectly handled certain escape sequences. An attacker could possibly use this issue to execute arbitrary code if a user displayed specially crafted text in the terminal.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8991-1
+
+---
+
+#### 3826. [Ubuntu] USN-8990-1: Sprockets vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Sprockets incorrectly handled certain specially crafted requests when the Sprockets server was used in production. A remote attacker could possibly use this issue to access files outside of the application's root directory.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8990-1
+
+---
+
+#### 3827. [Ubuntu] USN-8989-1: Rack vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Andrew Lacambra discovered that Rack did not properly parse certain regular expressions. An attacker could possibly use this issue to bypass network security filters. (CVE-2026-26961) William T. Nelson discovered that Rack did not handle multipart headers correctly. An attacker could possibly use this issue to cause downstream parsing issues or a denial of service. (CVE-2026-26962) It was discover
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8989-1
+
+---
+
+#### 3828. [Ubuntu] USN-8988-1: Relax-and-Recover vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Relax-and-Recover created a world-readable initrd when GRUB_RESCUE was enabled. A local attacker could possibly use this issue to obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8988-1
+
+---
+
+#### 3829. [Ubuntu] USN-8986-1: Swift Mailer vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Dawid Golunski discovered that Swift Mailer did not properly sanitize e-mail addresses in the mail transport. A remote attacker could possibly use this issue to pass extra parameters to the mail command and execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8986-1
+
+---
+
+#### 3830. [Ubuntu] USN-8985-1: Net::EasyTCP vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that Net::EasyTCP used the built-in Perl rand() function to generate encryption keys when no strong randomization module was present. An attacker could possibly use this issue to predict the keys and obtain sensitive information.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8985-1
+
+---
+
+#### 3831. [Ubuntu] USN-8984-1: jabberd2 vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that jabberd2 allowed SASL ANONYMOUS authentication even when it was not enabled in the configuration. A remote attacker could possibly use this issue to bypass authentication.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8984-1
+
+---
+
+#### 3832. [Ubuntu] USN-8983-1: Gin CORS middleware vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Gin CORS middleware incorrectly handled wildcards at the end of origin strings. A remote attacker could possibly use this issue to bypass the configured origin restrictions.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8983-1
+
+---
+
+#### 3833. [Ubuntu] USN-8982-1: feh vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that feh incorrectly handled certain IPC messages from a client pretending to be the Enlightenment window manager, leading to an integer overflow. An attacker could possibly use this issue to cause feh to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-8982-1
 
 ---
