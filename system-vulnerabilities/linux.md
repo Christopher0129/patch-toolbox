@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3833**
+**总计条目 / Total entries: 3835**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -68502,5 +68502,37 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-8982-1
+
+---
+
+#### 3834. [Ubuntu] USN-9003-1: Linux kernel (NVIDIA) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9003-1
+
+---
+
+#### 3835. [Ubuntu] USN-9002-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the io_uring subsystem in the Linux kernel did not properly handle canceled task work when processing certain wait operations, leading to the operation being performed in the wrong task context. A local attacker could possibly use this to cause a denial of service (system crash). (CVE-2026-81010) Several security issues were discovered in the Linux kernel. An attacker could
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9002-1
 
 ---
