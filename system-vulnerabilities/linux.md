@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3835**
+**总计条目 / Total entries: 3842**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -68534,5 +68534,117 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9002-1
+
+---
+
+#### 3836. [Ubuntu] USN-9013-1: Fetchmail vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Christian Herdtweck discovered that Fetchmail incorrectly handled certain long log messages. A remote attacker could possibly use this issue to cause Fetchmail to crash, resulting in a denial of service. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. (CVE-2021-36386) It was discovered that the Fetchmail SMTP client incorrectly handled certain status code message
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9013-1
+
+---
+
+#### 3837. [Ubuntu] USN-9011-1: pyasn1 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that pyasn1 did not properly bound the size of long-form tag identifiers when parsing BER, CER, or DER encoded data. An attacker could possibly use this issue to cause applications decoding untrusted ASN.1 data to consume excessive CPU resources, resulting in a denial of service. This issue only affected Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9011-1
+
+---
+
+#### 3838. [Ubuntu] USN-9010-1: OpenJDK 11 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Security component of OpenJDK 11 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83374) It was discovered that the JSSE component of OpenJDK 11 did not correctly authorize users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83376, CVE-2026-91461) It was discov
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9010-1
+
+---
+
+#### 3839. [Ubuntu] USN-9009-1: OpenJDK 8 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Security component of OpenJDK 8 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83374) It was discovered that the JSSE component of OpenJDK 8 did not correctly authorize users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83376, CVE-2026-91461) It was discover
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9009-1
+
+---
+
+#### 3840. [Ubuntu] USN-9008-1: libnfs vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that libnfs did not properly enforce the maximum size bound during ZDR decoding, resulting in an out-of-bounds write. An attacker could possibly use this issue to cause libnfs to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9008-1
+
+---
+
+#### 3841. [Ubuntu] USN-9007-1: FreeRDP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that FreeRDP contained multiple security issues. An attacker could possibly use these issues to obtain sensitive information, cause FreeRDP to crash, resulting in a denial of service, or execute arbitrary code.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9007-1
+
+---
+
+#### 3842. [Ubuntu] USN-9001-2: ca-certificates update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+USN-9001-1 fixed a vulnerability in ca-certificates, ca-certificates-java. This update provides the corresponding fix for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS. Original advisory details: It was discovered that the ca-certificates JKS integration was not working properly, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore. This update corrects the f
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9001-2
 
 ---
