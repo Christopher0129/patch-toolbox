@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3842**
+**总计条目 / Total entries: 3845**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -68646,5 +68646,53 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9001-2
+
+---
+
+#### 3843. [Ubuntu] USN-9015-1: OpenJDK 21 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the Security component of OpenJDK 21 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83374) It was discovered that the JSSE component of OpenJDK 21 did not correctly authorize users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83376) It was discovered that the Co
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9015-1
+
+---
+
+#### 3844. [Ubuntu] USN-9012-1: libheif vulnerability
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Alex Thomas discovered that libheif incorrectly handled certain HEIF images. An attacker could possibly use this issue to execute arbitrary code if a user or automated system were tricked into opening a specially crafted file.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9012-1
+
+---
+
+#### 3845. [Ubuntu] USN-9005-1: OpenJDK 27 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the 2D component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to cause a denial of service or to read or modify sensitive data. (CVE-2026-91415) It was discovered that the Networking component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data. (CV
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9005-1
 
 ---
