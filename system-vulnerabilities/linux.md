@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 3845**
+**总计条目 / Total entries: 3858**
 
 > 技术细节（漏洞描述、补丁信息等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, patch info) remain in original language for accuracy; structural text is bilingual.
@@ -68694,5 +68694,213 @@ Run 'apt update && apt upgrade' to apply security patches.
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9005-1
+
+---
+
+#### 3846. [Ubuntu] USN-9038-1: GStreamer Good Plugins, GStreamer Base Plugins vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that GStreamer Good Plugins did not properly handle certain network streams. A remote attacker could possibly use this issue to cause an application crash or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, and Ubuntu 20.04 LTS. (CVE-2026-3083, CVE-2026-3085) It was discovered that GStreamer Good Plugins incorrectly handled certain Matroska fil
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9038-1
+
+---
+
+#### 3847. [Ubuntu] USN-9037-1: HPLIP vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that HPLIP did not properly handle certain data, which could result in an out-of-bounds write. An attacker could possibly use this issue to cause a denial of service, expose sensitive information or execute arbitrary code. (CVE-2026-91097) It was discovered that HPLIP did not properly handle certain input, which could result in a heap-based buffer overflow. An attacker could poss
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9037-1
+
+---
+
+#### 3848. [Ubuntu] USN-9036-1: ca-certificates-java update
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the ca-certificates-java JKS handling was not working properly in certain system languages, resulting in CA certificates removed from the system bundle not being removed from the JKS keystore. This update corrects the feature and resyncs the keystore with the system CA certificates list.
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9036-1
+
+---
+
+#### 3849. [Ubuntu] USN-9035-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Pengfei Wang discovered that the Turtle Beach MultiSound audio device driver in the Linux kernel contained race conditions when fetching from the ring-buffer, leading to an out-of-bounds access. A local attacker could use this to cause a denial of service (system crash) or possibly execute arbitrary code. (CVE-2017-9986) Several security issues were discovered in the Linux kernel. An attacker coul
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9035-1
+
+---
+
+#### 3850. [Ubuntu] USN-9034-1: Linux kernel (AWS) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Demi Marie Obenour and Simon Gaiser discovered that several Xen para- virtualization device frontends did not properly restrict the access rights of device backends. An attacker could possibly use a malicious Xen backend to gain access to memory pages of a guest VM or cause a denial of service in the guest. (CVE-2022-23037) Several security issues were discovered in the Linux kernel. An attacker c
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9034-1
+
+---
+
+#### 3851. [Ubuntu] USN-9032-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - GPU drivers; - Ethernet bonding driver; - Network drivers; - F2FS file system; - Tracing infrastructure; - Networking core; - IUCV driver; - RxRPC session sockets; (CVE-2022-49149, CVE-2022-49170, CVE-2023-52784, CVE-2
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9032-1
+
+---
+
+#### 3852. [Ubuntu] USN-9031-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - HID subsystem; - InfiniBand drivers; - Network drivers; - PCI subsystem; - SCSI subsystem; - JFS file system; - Network file system (NFS) client; - OCFS2 file system; (CVE-2022-49082, CVE-2025-39730, CVE-2025-39743, CV
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9031-1
+
+---
+
+#### 3853. [Ubuntu] USN-9030-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - HID subsystem; - InfiniBand drivers; - Network drivers; - PCI subsystem; - JFS file system; - OCFS2 file system; (CVE-2025-39743, CVE-2025-39783, CVE-2025-39810, CVE-2025-39824, CVE-2026-74350, CVE-2026-74394)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9030-1
+
+---
+
+#### 3854. [Ubuntu] USN-9029-1: Linux kernel (Raspberry Pi) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Duoming Zhou discovered race conditions in the AX.25 amateur radio protocol implementation in the Linux kernel, leading to use-after-free vulnerabilities. A local attacker could possibly use this to cause a denial of service (system crash). (CVE-2022-1205) It was discovered that the i.MX clock driver in the Linux kernel did not properly handle certain memory allocation failure conditions, leading
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9029-1
+
+---
+
+#### 3855. [Ubuntu] USN-9028-1: Linux kernel (Azure CVM) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - x86 architecture; - Hardware monitoring drivers; - OCFS2 file system; (CVE-2025-21656, CVE-2026-63940, CVE-2026-74350)
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9028-1
+
+---
+
+#### 3856. [Ubuntu] USN-9026-1: Linux kernel (Azure) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9026-1
+
+---
+
+#### 3857. [Ubuntu] USN-9023-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - USB Gadget drivers; - Memory management; - Network file systems library; - Networking core; - Stream parser; - ARM32 architecture; - ARM64 architecture; - M68K architecture; - MIPS architecture; - OpenRISC architecture
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9023-1
+
+---
+
+#### 3858. [Ubuntu] USN-9020-1: Linux kernel vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+**受影响产品 / Affected Products**: Ubuntu
+
+**漏洞描述 / Description**:
+It was discovered that the io_uring subsystem in the Linux kernel contained a memory leak when handling certain asynchronous commands. A local attacker could possibly use this to cause a denial of service (memory exhaustion). (CVE-2026-80811) It was discovered that the io_uring subsystem in the Linux kernel did not properly validate the size of certain query requests. A local attacker could possib
+
+**补丁信息 / Patch Info**:
+Run 'apt update && apt upgrade' to apply security patches.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9020-1
 
 ---
