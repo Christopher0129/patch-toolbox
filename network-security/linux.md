@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4144**
+**总计条目 / Total entries: 4164**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -59192,5 +59192,245 @@ Several security issues were discovered in the Linux kernel. An attacker could p
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9023-1
+
+---
+
+#### 4145. [Ubuntu] USN-9066-1: Linux kernel (HWE) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) It was discovered that some Arm processors could complete a broadcast translation
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9066-1
+
+---
+
+#### 4146. [Ubuntu] USN-9063-1: Yodl vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Yodl incorrectly handled certain input, leading to a buffer over-read. An attacker could possibly use this issue to cause Yodl to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9063-1
+
+---
+
+#### 4147. [Ubuntu] USN-9062-1: SNMPTT vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SNMPTT did not properly sanitize trap data passed to commands run through the EXEC, PREEXEC, and unknown_trap_exec options. A remote attacker could possibly use this issue to execute arbitrary shell commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9062-1
+
+---
+
+#### 4148. [Ubuntu] USN-9061-1: Apache Shiro vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Apache Shiro incorrectly handled certain specially crafted requests when used with Spring dynamic controllers. A remote attacker could possibly use this issue to bypass authentication. (CVE-2020-1957, CVE-2020-11989)
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9061-1
+
+---
+
+#### 4149. [Ubuntu] USN-9060-1: kramdown vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that kramdown processed the template option in documents by default. An attacker could possibly use this issue to read arbitrary files or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9060-1
+
+---
+
+#### 4150. [Ubuntu] USN-9059-1: ruby-jwt vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ruby-jwt incorrectly verified HMAC signatures when the verification key was empty or missing. A remote attacker could possibly use this issue to forge tokens and bypass authentication.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9059-1
+
+---
+
+#### 4151. [Ubuntu] USN-9058-1: Action Pack Page Caching vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Action Pack Page Caching incorrectly handled certain request paths when writing cached pages. A remote attacker could possibly use this issue to write arbitrary files to the web server, and possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9058-1
+
+---
+
+#### 4152. [Ubuntu] USN-9057-1: rkhunter vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that rkhunter downloaded mirror updates over an insecure channel. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9057-1
+
+---
+
+#### 4153. [Ubuntu] USN-9056-1: Prosody Community Modules vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the LDAP authentication modules in Prosody Community Modules did not fully verify XMPP addresses when checking for administrator privileges. A remote attacker could possibly use this issue to gain administrator privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9056-1
+
+---
+
+#### 4154. [Ubuntu] USN-9055-1: pecl_http vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that pecl_http incorrectly handled certain HTTP request parameters, leading to a type confusion. A remote attacker could possibly use this issue to cause PHP to crash, resulting in a denial of service, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9055-1
+
+---
+
+#### 4155. [Ubuntu] USN-9054-1: Babel vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Babel incorrectly evaluated certain code during compilation when used with certain plugins. If a user or an automated system were tricked into compiling specially crafted code, an attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9054-1
+
+---
+
+#### 4156. [Ubuntu] USN-9053-1: NetworkManager-ssh vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that NetworkManager-ssh did not properly validate extra options in VPN connection settings. A local attacker could possibly use this issue to escalate privileges.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9053-1
+
+---
+
+#### 4157. [Ubuntu] USN-9052-1: Logback vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Logback incorrectly handled deserialization of untrusted data in its socket server and receiver components. A remote attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9052-1
+
+---
+
+#### 4158. [Ubuntu] USN-9051-1: FastCGI vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that FastCGI incorrectly handled certain parameter lengths, leading to an integer overflow and a heap-based buffer overflow. An attacker could possibly use this issue to cause applications using FastCGI to crash, resulting in a denial of service, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9051-1
+
+---
+
+#### 4159. [Ubuntu] USN-9050-1: DAViCal vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that DAViCal did not properly encode certain request parameters, leading to a reflected cross-site scripting vulnerability. A remote attacker could possibly use this issue to perform actions as another user, including adding administrator accounts. (CVE-2019-18345) It was discovered that DAViCal did not protect against cross-site request forgery. A remote attacker could possibly
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9050-1
+
+---
+
+#### 4160. [Ubuntu] USN-9049-1: btrbk vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that btrbk incorrectly filtered SSH commands received from remote hosts. A remote attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9049-1
+
+---
+
+#### 4161. [Ubuntu] USN-9048-1: AWL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Andrew Bartlett discovered that AWL did not properly generate session keys. A remote attacker could possibly use this issue to guess a session key and impersonate another user's session. (CVE-2020-11728) It was discovered that AWL did not securely generate long-term session cookies. A remote attacker could possibly use this issue to guess a session cookie through a brute-force attack and gain acce
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9048-1
+
+---
+
+#### 4162. [Ubuntu] USN-9047-1: asyncpg vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that asyncpg incorrectly handled certain array data returned by a PostgreSQL server. A remote attacker controlling a PostgreSQL server could possibly use this issue to cause asyncpg to crash, resulting in a denial of service, or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9047-1
+
+---
+
+#### 4163. [Ubuntu] USN-9046-1: MySQL vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Multiple security issues were discovered in MySQL. MySQL has been updated to 8.4.13 in Ubuntu 26.04 LTS. Ubuntu 26.10 has been updated to MySQL 9.7.4. Ubuntu 22.04 LTS and Ubuntu 24.04 LTS packages have been updated with backported patches. In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes. Please see the following for more infor
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9046-1
+
+---
+
+#### 4164. [Ubuntu] USN-9045-1: Linux kernel (NVIDIA) vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+A security issue was discovered in the Linux kernel. An attacker could possibly use this to compromise the system. This update corrects flaws in the following subsystems: - IPv4 networking;
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9045-1
 
 ---
