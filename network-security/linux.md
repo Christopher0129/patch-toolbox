@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4164**
+**总计条目 / Total entries: 4184**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -59432,5 +59432,245 @@ A security issue was discovered in the Linux kernel. An attacker could possibly 
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9045-1
+
+---
+
+#### 4165. [Ubuntu] USN-9091-1: Linux kernel (NVIDIA Tegra) vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could pos
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9091-1
+
+---
+
+#### 4166. [Ubuntu] USN-9090-1: Apache HTTP Server vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Zhenpeng Lin discovered that Apache HTTP Server's mod_dav module incorrectly calculated memory sizes when handling WebDAV locks. An attacker with permission to create WebDAV locks could possibly use this issue to cause Apache HTTP Server to crash, resulting in a denial of service. (CVE-2026-42528) It was discovered that Apache HTTP Server's mod_vhost_alias module incorrectly handled certain reques
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9090-1
+
+---
+
+#### 4167. [Ubuntu] USN-9089-1: x11vnc vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that x11vnc created shared memory segments with insecure permissions. A local attacker could possibly use this issue to obtain sensitive information or modify screen contents.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9089-1
+
+---
+
+#### 4168. [Ubuntu] USN-9088-1: TigerVNC vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the TigerVNC viewer stored TLS certificate exceptions as trusted certificate authorities. A remote attacker could possibly use this issue to impersonate any VNC server after a user had added a certificate exception for the attacker's server.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9088-1
+
+---
+
+#### 4169. [Ubuntu] USN-9087-1: signing-party vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the gpg-key2ps tool in signing-party did not properly sanitize user IDs before passing them to a shell. If a user were tricked into processing a specially crafted OpenPGP key, an attacker could possibly use this issue to execute arbitrary commands.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9087-1
+
+---
+
+#### 4170. [Ubuntu] USN-9086-1: SA-Exim vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SA-Exim unsafely evaluated the parameters of its greylisting SpamAssassin rule. An attacker able to write SpamAssassin configuration files or rules could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9086-1
+
+---
+
+#### 4171. [Ubuntu] USN-9085-1: Ruby OpenID vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Ruby OpenID sent a request to the claimed identifier URL before verifying the signature of an OpenID response. A remote attacker could possibly use this issue to perform server-side request forgery attacks.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9085-1
+
+---
+
+#### 4172. [Ubuntu] USN-9084-1: Radicale vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Radicale did not delay failed authentication attempts when using htpasswd authentication. A remote attacker could possibly use this issue to obtain user passwords through timing or brute-force attacks.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9084-1
+
+---
+
+#### 4173. [Ubuntu] USN-9083-1: gevent vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the gevent WSGI server incorrectly validated chunked transfer encoding trailers in HTTP requests. A remote attacker could possibly use this issue to perform HTTP request smuggling attacks, leading to privilege escalation.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9083-1
+
+---
+
+#### 4174. [Ubuntu] USN-9082-1: pngquant vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Choi Jaeseung discovered that pngquant incorrectly handled certain PNG images, leading to a buffer overflow. An attacker could possibly use this issue to cause pngquant to crash or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9082-1
+
+---
+
+#### 4175. [Ubuntu] USN-9081-1: OpenConnect vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that OpenConnect incorrectly handled certain certificate data, leading to a buffer overflow. A remote attacker could possibly use this issue to cause OpenConnect to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9081-1
+
+---
+
+#### 4176. [Ubuntu] USN-9080-1: tough-cookie vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tough-cookie incorrectly handled cookies when the rejectPublicSuffixes option was disabled, leading to prototype pollution. An attacker could possibly use this issue to modify the behavior of applications using tough-cookie, resulting in a denial of service, or another unspecified impact.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9080-1
+
+---
+
+#### 4177. [Ubuntu] USN-9079-1: nfdump vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that nfdump incorrectly handled certain input files, leading to a buffer overflow. If a user or automated system were tricked into processing a specially crafted file, an attacker could possibly use this issue to cause nfdump to crash or execute arbitrary code. (CVE-2019-1010057) It was discovered that nfdump incorrectly handled certain IPFIX template withdrawal messages, leading
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9079-1
+
+---
+
+#### 4178. [Ubuntu] USN-9078-1: ncmpc vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ncmpc incorrectly handled long chat messages. A remote attacker could possibly use this issue to cause ncmpc to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9078-1
+
+---
+
+#### 4179. [Ubuntu] USN-9077-1: MiniSSDPd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that MiniSSDPd incorrectly handled device updates under certain circumstances, leading to a use-after-free. A remote attacker could possibly use this issue to cause MiniSSDPd to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9077-1
+
+---
+
+#### 4180. [Ubuntu] USN-9076-1: libsolv vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libsolv incorrectly handled certain repository data, leading to a heap-based buffer over-read. An attacker could possibly use this issue to cause libsolv to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9076-1
+
+---
+
+#### 4181. [Ubuntu] USN-9075-1: libjwt vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that libjwt did not use a constant-time comparison when verifying HMAC signatures. A remote attacker could possibly use this issue to forge signatures through a timing side-channel attack and bypass authentication.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9075-1
+
+---
+
+#### 4182. [Ubuntu] USN-9074-1: JGraphX vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that JGraphX did not disable XML external entity processing when converting certain XML input to images. An attacker could possibly use this issue to obtain sensitive information or cause a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9074-1
+
+---
+
+#### 4183. [Ubuntu] USN-9073-1: Lhasa vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Lhasa incorrectly handled certain LHA archive headers, leading to an integer underflow. If a user or automated system were tricked into opening a specially crafted archive, an attacker could possibly use this issue to cause Lhasa to crash or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9073-1
+
+---
+
+#### 4184. [Ubuntu] USN-9072-1: IMAPFilter vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that IMAPFilter did not validate the hostname in SSL/TLS server certificates. A remote attacker could possibly use this issue to intercept secure communications.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9072-1
 
 ---
