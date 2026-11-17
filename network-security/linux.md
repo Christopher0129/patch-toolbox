@@ -2,7 +2,7 @@
 
 **🔙 [返回总索引](index.md) | [Back to Index](index.md)**
 
-**总计条目 / Total entries: 4184**
+**总计条目 / Total entries: 4204**
 
 > 技术细节（漏洞描述、缓解方案等）保留原始语言以确保准确性，结构性文本提供中英双语。
 > Technical details (descriptions, mitigations) remain in original language for accuracy; structural text is bilingual.
@@ -59672,5 +59672,245 @@ It was discovered that IMAPFilter did not validate the hostname in SSL/TLS serve
 
 **参考链接 / References**:
 - https://ubuntu.com/security/notices/USN-9072-1
+
+---
+
+#### 4185. [Ubuntu] USN-9131-1: CRaC JDK 25 vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the Security component of CRaC JDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114820) It was discovered that the Security component of CRaC JDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to modify sensitive data. (CVE-2026-83374) It was disc
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9131-1
+
+---
+
+#### 4186. [Ubuntu] USN-9130-1: zutils vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that zcat in zutils incorrectly handled the -v option, leading to a buffer overflow. If a user were tricked into opening a specially crafted compressed file, an attacker could possibly use this issue to cause a denial of service or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9130-1
+
+---
+
+#### 4187. [Ubuntu] USN-9129-1: ZBar vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that ZBar incorrectly handled certain QR codes, leading to a heap-based buffer overflow. If a user or automated system were tricked into scanning a specially crafted QR code, an attacker could possibly use this issue to obtain sensitive information or execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9129-1
+
+---
+
+#### 4188. [Ubuntu] USN-9128-1: YADIFA vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that YADIFA did not check for infinite pointer loops when parsing DNS packets. A remote attacker could possibly use this issue to cause YADIFA to consume excessive CPU resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9128-1
+
+---
+
+#### 4189. [Ubuntu] USN-9127-1: Syntastic vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Syntastic searched the current directory and its parents for checker configuration files. If a user were tricked into checking a file in a directory controlled by an attacker, the attacker could possibly use this issue to execute arbitrary code. After this update, Syntastic only reads checker configuration files that are named in the *_config_file options.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9127-1
+
+---
+
+#### 4190. [Ubuntu] USN-9126-1: tmpreaper vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that tmpreaper incorrectly handled certain mount operations, leading to a race condition. A local attacker could possibly use this issue to create arbitrary files, leading to privilege escalation.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9126-1
+
+---
+
+#### 4191. [Ubuntu] USN-9125-1: SSVNC vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that SSVNC incorrectly handled certain CoRRE rectangles, leading to a heap buffer overflow. A malicious VNC server could possibly use this issue to cause SSVNC to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2018-20020) It was discovered that SSVNC incorrectly handled certain raw rectangles, leading to an infinite loop. A malicious VNC server
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9125-1
+
+---
+
+#### 4192. [Ubuntu] USN-9124-1: RenderDoc vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that RenderDoc did not properly verify array sizes when serialising strings, leading to an integer overflow. An attacker could possibly use this issue to cause a buffer overflow, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2023-33863) It was discovered that RenderDoc incorrectly handled certain socket reads, leading to an integer overflow. A remote
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9124-1
+
+---
+
+#### 4193. [Ubuntu] USN-9123-1: mechanize vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Erik Krogh Kristensen and Rasmus Petersen discovered that mechanize used an inefficient regular expression to parse authentication headers. A malicious server could possibly use this issue to cause mechanize to consume excessive resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9123-1
+
+---
+
+#### 4194. [Ubuntu] USN-9122-1: pysha3 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+Nicky Mouha discovered that pysha3 incorrectly handled certain SHA-3 operations, leading to an integer overflow. An attacker could possibly use this issue to cause pysha3 to crash, resulting in a denial of service, or possibly execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9122-1
+
+---
+
+#### 4195. [Ubuntu] USN-9121-1: Psensor vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the psensor-server web server in Psensor did not restrict requests to files inside its web server directory. A remote attacker could possibly use this issue to read arbitrary files.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9121-1
+
+---
+
+#### 4196. [Ubuntu] USN-9120-1: PostSRSd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PostSRSd incorrectly handled long timestamp tags in SRS addresses. A remote attacker could possibly use this issue to cause PostSRSd to consume excessive CPU resources, leading to a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9120-1
+
+---
+
+#### 4197. [Ubuntu] USN-9119-1: PDFResurrect vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that PDFResurrect did not properly validate certain size values when loading PDF pages. If a user or automated system were tricked into opening a specially crafted PDF file, an attacker could possibly use this issue to cause PDFResurrect to crash, resulting in a denial of service, or possibly execute arbitrary code. (CVE-2019-14934) It was discovered that PDFResurrect did not pro
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9119-1
+
+---
+
+#### 4198. [Ubuntu] USN-9118-1: node-sqlite3 vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that node-sqlite3 incorrectly handled the coercion of objects passed as statement bindings. An attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9118-1
+
+---
+
+#### 4199. [Ubuntu] USN-9117-1: Moment.js vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Moment.js did not properly validate locale names. If an application passed an untrusted locale name to Moment.js, an attacker could possibly use this issue to load arbitrary files from the file system.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9117-1
+
+---
+
+#### 4200. [Ubuntu] USN-9116-1: rsh vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the rcp client in rsh incorrectly handled filenames of . or empty filenames received from the server. If a user were tricked into connecting to a malicious rsh server, an attacker could possibly use this issue to modify the permissions of the target directory. (CVE-2019-7282) It was discovered that the rcp client in rsh did not properly validate filenames received from the s
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9116-1
+
+---
+
+#### 4201. [Ubuntu] USN-9115-1: Mini-XML vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Mini-XML used unbounded recursion when deleting and writing XML nodes. An attacker could possibly use these issues to cause Mini-XML to crash, resulting in a denial of service. These issues only affected Ubuntu 16.04 LTS. (CVE-2016-4570, CVE-2016-4571) It was discovered that Mini-XML incorrectly handled certain floating point values when writing XML nodes, leading to a stack
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9115-1
+
+---
+
+#### 4202. [Ubuntu] USN-9114-1: Minetest vulnerabilities
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that Minetest did not deserialize data in a restricted environment. A remote attacker could possibly use this issue to modify arbitrary item metadata or execute arbitrary code. (CVE-2022-24300) It was discovered that Minetest did not properly validate certain inventory actions. A remote attacker could possibly use this issue to add or remove items from the inventories of other pl
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9114-1
+
+---
+
+#### 4203. [Ubuntu] USN-9113-1: LilyPond vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that LilyPond did not restrict the embedded-ps and embedded-svg commands when running in safe mode. If a user or automated system were tricked into processing a specially crafted file in safe mode, an attacker could possibly use this issue to execute arbitrary code.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9113-1
+
+---
+
+#### 4204. [Ubuntu] USN-9112-1: lighttpd vulnerability
+
+**严重程度 / Severity**: UPDATE
+
+**漏洞描述 / Description**:
+It was discovered that the mod_wstunnel module in lighttpd incorrectly handled certain invalid websocket handshakes. A remote attacker could possibly use this issue to cause lighttpd to crash, resulting in a denial of service.
+
+**参考链接 / References**:
+- https://ubuntu.com/security/notices/USN-9112-1
 
 ---
